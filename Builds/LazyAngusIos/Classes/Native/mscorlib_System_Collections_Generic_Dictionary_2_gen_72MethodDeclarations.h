@@ -11,7 +11,7 @@ struct ICollection_1_t9002;
 // System.Collections.Generic.ICollection`1<System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>
 struct ICollection_1_t9552;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>

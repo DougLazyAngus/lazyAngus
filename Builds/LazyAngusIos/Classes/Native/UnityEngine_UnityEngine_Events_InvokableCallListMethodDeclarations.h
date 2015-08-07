@@ -13,7 +13,7 @@ struct Object_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 
 // System.Void UnityEngine.Events.InvokableCallList::.ctor()
 extern "C" void InvokableCallList__ctor_m9789 (InvokableCallList_t2840 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -26,4 +26,4 @@ extern "C" void InvokableCallList_RemoveListener_m9792 (InvokableCallList_t2840 
 // System.Void UnityEngine.Events.InvokableCallList::ClearPersistent()
 extern "C" void InvokableCallList_ClearPersistent_m9793 (InvokableCallList_t2840 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.InvokableCallList::Invoke(System.Object[])
-extern "C" void InvokableCallList_Invoke_m9794 (InvokableCallList_t2840 * __this, ObjectU5BU5D_t635* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvokableCallList_Invoke_m9794 (InvokableCallList_t2840 * __this, ObjectU5BU5D_t636* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;

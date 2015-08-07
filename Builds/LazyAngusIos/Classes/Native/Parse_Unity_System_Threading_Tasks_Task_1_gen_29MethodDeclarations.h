@@ -7,7 +7,7 @@
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<System.Object>>
 struct Task_1_t6033;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.Threading.Tasks.Task
 struct Task_t1157;
 // System.Action`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<System.Object>>>

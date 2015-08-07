@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Font
-struct Font_t852;
+struct Font_t853;
 // UnityEngine.Material
-struct Material_t482;
+struct Material_t483;
 // System.Action`1<UnityEngine.Font>
 struct Action_1_t1002;
 
@@ -16,12 +16,12 @@ extern "C" void Font_add_textureRebuilt_m5631 (Object_t * __this /* static, unus
 // System.Void UnityEngine.Font::remove_textureRebuilt(System.Action`1<UnityEngine.Font>)
 extern "C" void Font_remove_textureRebuilt_m9328 (Object_t * __this /* static, unused */, Action_1_t1002 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Material UnityEngine.Font::get_material()
-extern "C" Material_t482 * Font_get_material_m5874 (Font_t852 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Material_t483 * Font_get_material_m5874 (Font_t853 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Font::HasCharacter(System.Char)
-extern "C" bool Font_HasCharacter_m5768 (Font_t852 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Font_HasCharacter_m5768 (Font_t853 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Font::InvokeTextureRebuilt_Internal(UnityEngine.Font)
-extern "C" void Font_InvokeTextureRebuilt_Internal_m9329 (Object_t * __this /* static, unused */, Font_t852 * ___font, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Font_InvokeTextureRebuilt_Internal_m9329 (Object_t * __this /* static, unused */, Font_t853 * ___font, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Font::get_dynamic()
-extern "C" bool Font_get_dynamic_m5876 (Font_t852 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Font_get_dynamic_m5876 (Font_t853 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Font::get_fontSize()
-extern "C" int32_t Font_get_fontSize_m5877 (Font_t852 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Font_get_fontSize_m5877 (Font_t853 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

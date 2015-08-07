@@ -29,5 +29,5 @@ extern "C" void InternalEnumerator_1_Dispose_m27217_gshared (InternalEnumerator_
 extern "C" bool InternalEnumerator_1_MoveNext_m27218_gshared (InternalEnumerator_1_t5702 * __this, const MethodInfo* method);
 #define InternalEnumerator_1_MoveNext_m27218(__this, method) (( bool (*) (InternalEnumerator_1_t5702 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m27218_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.EventSystems.RaycastResult>::get_Current()
-extern "C" RaycastResult_t818  InternalEnumerator_1_get_Current_m27219_gshared (InternalEnumerator_1_t5702 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m27219(__this, method) (( RaycastResult_t818  (*) (InternalEnumerator_1_t5702 *, const MethodInfo*))InternalEnumerator_1_get_Current_m27219_gshared)(__this, method)
+extern "C" RaycastResult_t819  InternalEnumerator_1_get_Current_m27219_gshared (InternalEnumerator_1_t5702 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m27219(__this, method) (( RaycastResult_t819  (*) (InternalEnumerator_1_t5702 *, const MethodInfo*))InternalEnumerator_1_get_Current_m27219_gshared)(__this, method)

@@ -7,7 +7,7 @@
 // System.Type
 struct Type_t;
 // System.Reflection.Assembly
-struct Assembly_t719;
+struct Assembly_t720;
 // System.String
 struct String_t;
 // System.Reflection.Module
@@ -41,9 +41,9 @@ struct ConstructorInfo_t1330;
 // System.Reflection.ConstructorInfo[]
 struct ConstructorInfoU5BU5D_t1405;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Reflection.TypeAttributes
@@ -237,4 +237,4 @@ extern "C" bool Type_get_IsGenericParameter_m15997 (Type_t * __this, const Metho
 // System.Boolean System.Type::get_IsNested()
 extern "C" bool Type_get_IsNested_m15998 (Type_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Type::GetPseudoCustomAttributes()
-extern "C" ObjectU5BU5D_t635* Type_GetPseudoCustomAttributes_m15999 (Type_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* Type_GetPseudoCustomAttributes_m15999 (Type_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

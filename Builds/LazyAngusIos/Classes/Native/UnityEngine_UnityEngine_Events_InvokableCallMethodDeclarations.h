@@ -11,15 +11,15 @@ struct Object_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // UnityEngine.Events.UnityAction
-struct UnityAction_t507;
+struct UnityAction_t508;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 
 // System.Void UnityEngine.Events.InvokableCall::.ctor(System.Object,System.Reflection.MethodInfo)
 extern "C" void InvokableCall__ctor_m9775 (InvokableCall_t2834 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.InvokableCall::.ctor(UnityEngine.Events.UnityAction)
-extern "C" void InvokableCall__ctor_m9776 (InvokableCall_t2834 * __this, UnityAction_t507 * ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvokableCall__ctor_m9776 (InvokableCall_t2834 * __this, UnityAction_t508 * ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.InvokableCall::Invoke(System.Object[])
-extern "C" void InvokableCall_Invoke_m9777 (InvokableCall_t2834 * __this, ObjectU5BU5D_t635* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvokableCall_Invoke_m9777 (InvokableCall_t2834 * __this, ObjectU5BU5D_t636* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Events.InvokableCall::Find(System.Object,System.Reflection.MethodInfo)
 extern "C" bool InvokableCall_Find_m9778 (InvokableCall_t2834 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;

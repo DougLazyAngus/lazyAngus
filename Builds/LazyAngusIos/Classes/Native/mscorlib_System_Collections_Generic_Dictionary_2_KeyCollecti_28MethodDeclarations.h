@@ -9,7 +9,7 @@ struct KeyCollection_t5547;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>
-struct Dictionary_2_t699;
+struct Dictionary_2_t700;
 // System.String
 struct String_t;
 // System.Collections.Generic.IEnumerator`1<System.String>
@@ -26,7 +26,7 @@ struct StringU5BU5D_t75;
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FBLikeInfo>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_12MethodDeclarations.h"
-#define KeyCollection__ctor_m24698(__this, ___dictionary, method) (( void (*) (KeyCollection_t5547 *, Dictionary_2_t699 *, const MethodInfo*))KeyCollection__ctor_m21650_gshared)(__this, ___dictionary, method)
+#define KeyCollection__ctor_m24698(__this, ___dictionary, method) (( void (*) (KeyCollection_t5547 *, Dictionary_2_t700 *, const MethodInfo*))KeyCollection__ctor_m21650_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FBLikeInfo>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
 #define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m24699(__this, ___item, method) (( void (*) (KeyCollection_t5547 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m21651_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FBLikeInfo>::System.Collections.Generic.ICollection<TKey>.Clear()

@@ -15,7 +15,7 @@ struct String_t;
 // System.Net.IWebProxy
 struct IWebProxy_t3986;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2869;
 // System.Exception
@@ -60,7 +60,7 @@ extern "C" String_t* WebRequest_get_Method_m14060 (WebRequest_t3253 * __this, co
 // System.Net.IWebProxy System.Net.WebRequest::get_Proxy()
 extern "C" Object_t * WebRequest_get_Proxy_m14061 (WebRequest_t3253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Uri System.Net.WebRequest::get_RequestUri()
-extern "C" Uri_t707 * WebRequest_get_RequestUri_m14062 (WebRequest_t3253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Uri_t708 * WebRequest_get_RequestUri_m14062 (WebRequest_t3253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.IWebProxy System.Net.WebRequest::get_DefaultWebProxy()
 extern "C" Object_t * WebRequest_get_DefaultWebProxy_m14063 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.IWebProxy System.Net.WebRequest::GetDefaultWebProxy()
@@ -70,7 +70,7 @@ extern "C" void WebRequest_Abort_m14065 (WebRequest_t3253 * __this, const Method
 // System.IAsyncResult System.Net.WebRequest::BeginGetResponse(System.AsyncCallback,System.Object)
 extern "C" Object_t * WebRequest_BeginGetResponse_m14066 (WebRequest_t3253 * __this, AsyncCallback_t386 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebRequest System.Net.WebRequest::Create(System.Uri)
-extern "C" WebRequest_t3253 * WebRequest_Create_m11244 (Object_t * __this /* static, unused */, Uri_t707 * ___requestUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebRequest_t3253 * WebRequest_Create_m11244 (Object_t * __this /* static, unused */, Uri_t708 * ___requestUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebResponse System.Net.WebRequest::EndGetResponse(System.IAsyncResult)
 extern "C" WebResponse_t3254 * WebRequest_EndGetResponse_m14067 (WebRequest_t3253 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebResponse System.Net.WebRequest::GetResponse()

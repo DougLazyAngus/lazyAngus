@@ -9,7 +9,7 @@ struct Enumerator_t5848;
 // System.Object
 struct Object_t;
 // UnityEngine.RectTransform
-struct RectTransform_t503;
+struct RectTransform_t504;
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
 struct List_1_t944;
 
@@ -28,4 +28,4 @@ struct List_1_t944;
 // System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::MoveNext()
 #define Enumerator_MoveNext_m29601(__this, method) (( bool (*) (Enumerator_t5848 *, const MethodInfo*))Enumerator_MoveNext_m3632_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::get_Current()
-#define Enumerator_get_Current_m29602(__this, method) (( RectTransform_t503 * (*) (Enumerator_t5848 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)
+#define Enumerator_get_Current_m29602(__this, method) (( RectTransform_t504 * (*) (Enumerator_t5848 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)

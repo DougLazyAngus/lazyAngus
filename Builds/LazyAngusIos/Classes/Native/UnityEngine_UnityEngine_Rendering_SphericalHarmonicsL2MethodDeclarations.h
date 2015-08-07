@@ -28,11 +28,11 @@ extern "C" void SphericalHarmonicsL2_AddAmbientLightInternal_m9007 (Object_t * _
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::INTERNAL_CALL_AddAmbientLightInternal(UnityEngine.Color&,UnityEngine.Rendering.SphericalHarmonicsL2&)
 extern "C" void SphericalHarmonicsL2_INTERNAL_CALL_AddAmbientLightInternal_m9008 (Object_t * __this /* static, unused */, Color_t325 * ___color, SphericalHarmonicsL2_t2692 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::AddDirectionalLight(UnityEngine.Vector3,UnityEngine.Color,System.Single)
-extern "C" void SphericalHarmonicsL2_AddDirectionalLight_m9009 (SphericalHarmonicsL2_t2692 * __this, Vector3_t496  ___direction, Color_t325  ___color, float ___intensity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SphericalHarmonicsL2_AddDirectionalLight_m9009 (SphericalHarmonicsL2_t2692 * __this, Vector3_t497  ___direction, Color_t325  ___color, float ___intensity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::AddDirectionalLightInternal(UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Rendering.SphericalHarmonicsL2&)
-extern "C" void SphericalHarmonicsL2_AddDirectionalLightInternal_m9010 (Object_t * __this /* static, unused */, Vector3_t496  ___direction, Color_t325  ___color, SphericalHarmonicsL2_t2692 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SphericalHarmonicsL2_AddDirectionalLightInternal_m9010 (Object_t * __this /* static, unused */, Vector3_t497  ___direction, Color_t325  ___color, SphericalHarmonicsL2_t2692 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::INTERNAL_CALL_AddDirectionalLightInternal(UnityEngine.Vector3&,UnityEngine.Color&,UnityEngine.Rendering.SphericalHarmonicsL2&)
-extern "C" void SphericalHarmonicsL2_INTERNAL_CALL_AddDirectionalLightInternal_m9011 (Object_t * __this /* static, unused */, Vector3_t496 * ___direction, Color_t325 * ___color, SphericalHarmonicsL2_t2692 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SphericalHarmonicsL2_INTERNAL_CALL_AddDirectionalLightInternal_m9011 (Object_t * __this /* static, unused */, Vector3_t497 * ___direction, Color_t325 * ___color, SphericalHarmonicsL2_t2692 * ___sh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Rendering.SphericalHarmonicsL2::get_Item(System.Int32,System.Int32)
 extern "C" float SphericalHarmonicsL2_get_Item_m9012 (SphericalHarmonicsL2_t2692 * __this, int32_t ___rgb, int32_t ___coefficient, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rendering.SphericalHarmonicsL2::set_Item(System.Int32,System.Int32,System.Single)

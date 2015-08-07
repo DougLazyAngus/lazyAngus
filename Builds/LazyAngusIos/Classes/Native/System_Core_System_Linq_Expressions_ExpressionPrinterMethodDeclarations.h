@@ -19,7 +19,7 @@ struct MemberBinding_t3286;
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Linq.Expressions.UnaryExpression
 struct UnaryExpression_t3296;
 // System.Linq.Expressions.BinaryExpression
@@ -70,7 +70,7 @@ extern "C" void ExpressionPrinter_Print_m11379 (ExpressionPrinter_t3277 * __this
 // System.Void System.Linq.Expressions.ExpressionPrinter::Print(System.Object)
 extern "C" void ExpressionPrinter_Print_m11380 (ExpressionPrinter_t3277 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Linq.Expressions.ExpressionPrinter::Print(System.String,System.Object[])
-extern "C" void ExpressionPrinter_Print_m11381 (ExpressionPrinter_t3277 * __this, String_t* ___str, ObjectU5BU5D_t635* ___objs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExpressionPrinter_Print_m11381 (ExpressionPrinter_t3277 * __this, String_t* ___str, ObjectU5BU5D_t636* ___objs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitElementInitializer(System.Linq.Expressions.ElementInit)
 extern "C" void ExpressionPrinter_VisitElementInitializer_m11382 (ExpressionPrinter_t3277 * __this, ElementInit_t3276 * ___initializer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitUnary(System.Linq.Expressions.UnaryExpression)

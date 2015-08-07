@@ -10,9 +10,9 @@
 struct  Particle_t2715 
 {
 	// UnityEngine.Vector3 UnityEngine.Particle::m_Position
-	Vector3_t496  ___m_Position_0;
+	Vector3_t497  ___m_Position_0;
 	// UnityEngine.Vector3 UnityEngine.Particle::m_Velocity
-	Vector3_t496  ___m_Velocity_1;
+	Vector3_t497  ___m_Velocity_1;
 	// System.Single UnityEngine.Particle::m_Size
 	float ___m_Size_2;
 	// System.Single UnityEngine.Particle::m_Rotation

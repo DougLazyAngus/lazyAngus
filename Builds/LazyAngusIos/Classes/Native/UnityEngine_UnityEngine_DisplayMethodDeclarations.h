@@ -50,7 +50,7 @@ extern "C" void Display_SetRenderingResolution_m9110 (Display_t2702 * __this, in
 // System.Boolean UnityEngine.Display::MultiDisplayLicense()
 extern "C" bool Display_MultiDisplayLicense_m9111 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Display::RelativeMouseAt(UnityEngine.Vector3)
-extern "C" Vector3_t496  Display_RelativeMouseAt_m9112 (Object_t * __this /* static, unused */, Vector3_t496  ___inputMouseCoordinates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t497  Display_RelativeMouseAt_m9112 (Object_t * __this /* static, unused */, Vector3_t497  ___inputMouseCoordinates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Display UnityEngine.Display::get_main()
 extern "C" Display_t2702 * Display_get_main_m9113 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Display::RecreateDisplayList(System.IntPtr[])

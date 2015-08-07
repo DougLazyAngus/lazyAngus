@@ -7,7 +7,7 @@
 // System.Text.UTF32Encoding
 struct UTF32Encoding_t4713;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Text.Decoder
@@ -24,13 +24,13 @@ extern "C" void UTF32Encoding__ctor_m18878 (UTF32Encoding_t4713 * __this, bool _
 // System.Void System.Text.UTF32Encoding::.ctor(System.Boolean,System.Boolean,System.Boolean)
 extern "C" void UTF32Encoding__ctor_m18879 (UTF32Encoding_t4713 * __this, bool ___bigEndian, bool ___byteOrderMark, bool ___throwOnInvalidCharacters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF32Encoding::GetByteCount(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t UTF32Encoding_GetByteCount_m18880 (UTF32Encoding_t4713 * __this, CharU5BU5D_t660* ___chars, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF32Encoding_GetByteCount_m18880 (UTF32Encoding_t4713 * __this, CharU5BU5D_t661* ___chars, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF32Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern "C" int32_t UTF32Encoding_GetBytes_m18881 (UTF32Encoding_t4713 * __this, CharU5BU5D_t660* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF32Encoding_GetBytes_m18881 (UTF32Encoding_t4713 * __this, CharU5BU5D_t661* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF32Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
 extern "C" int32_t UTF32Encoding_GetCharCount_m18882 (UTF32Encoding_t4713 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF32Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern "C" int32_t UTF32Encoding_GetChars_m18883 (UTF32Encoding_t4713 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t660* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF32Encoding_GetChars_m18883 (UTF32Encoding_t4713 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t661* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF32Encoding::GetMaxByteCount(System.Int32)
 extern "C" int32_t UTF32Encoding_GetMaxByteCount_m18884 (UTF32Encoding_t4713 * __this, int32_t ___charCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF32Encoding::GetMaxCharCount(System.Int32)

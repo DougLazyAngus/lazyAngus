@@ -13,7 +13,7 @@ struct U3CU3Ef__AnonymousType5_2_t2373;
 // System.Linq.IGrouping`2<System.String,System.String>
 struct IGrouping_2_t2372;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>[]>
 struct Task_1_t2374;
 // System.Collections.Generic.IEnumerable`1<Parse.ParseObject>

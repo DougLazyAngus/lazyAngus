@@ -22,6 +22,6 @@ struct IOSTwitterManager_t368;
 // System.Boolean SA_Singleton`1<IOSTwitterManager>::get_IsDestroyed()
 #define SA_Singleton_1_get_IsDestroyed_m25755(__this /* static, unused */, method) (( bool (*) (Object_t * /* static, unused */, const MethodInfo*))SA_Singleton_1_get_IsDestroyed_m23053_gshared)(__this /* static, unused */, method)
 // System.Void SA_Singleton`1<IOSTwitterManager>::OnDestroy()
-#define SA_Singleton_1_OnDestroy_m4255(__this, method) (( void (*) (SA_Singleton_1_t369 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m23054_gshared)(__this, method)
+#define SA_Singleton_1_OnDestroy_m4256(__this, method) (( void (*) (SA_Singleton_1_t369 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m23054_gshared)(__this, method)
 // System.Void SA_Singleton`1<IOSTwitterManager>::OnApplicationQuit()
-#define SA_Singleton_1_OnApplicationQuit_m4256(__this, method) (( void (*) (SA_Singleton_1_t369 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m23055_gshared)(__this, method)
+#define SA_Singleton_1_OnApplicationQuit_m4257(__this, method) (( void (*) (SA_Singleton_1_t369 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m23055_gshared)(__this, method)

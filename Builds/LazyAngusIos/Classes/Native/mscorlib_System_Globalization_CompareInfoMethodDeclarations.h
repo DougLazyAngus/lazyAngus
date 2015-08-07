@@ -7,7 +7,7 @@
 // System.Globalization.CompareInfo
 struct CompareInfo_t3226;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.Object
 struct Object_t;
 // System.String
@@ -20,7 +20,7 @@ struct SortKey_t4337;
 // System.Void System.Globalization.CompareInfo::.ctor()
 extern "C" void CompareInfo__ctor_m16878 (CompareInfo_t3226 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.CompareInfo::.ctor(System.Globalization.CultureInfo)
-extern "C" void CompareInfo__ctor_m16879 (CompareInfo_t3226 * __this, CultureInfo_t718 * ___ci, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompareInfo__ctor_m16879 (CompareInfo_t3226 * __this, CultureInfo_t719 * ___ci, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.CompareInfo::.cctor()
 extern "C" void CompareInfo__cctor_m16880 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.CompareInfo::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)

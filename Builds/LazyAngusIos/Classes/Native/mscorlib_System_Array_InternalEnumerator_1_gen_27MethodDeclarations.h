@@ -9,7 +9,7 @@ struct InternalEnumerator_1_t5680;
 // System.Object
 struct Object_t;
 // UnityEngine.AudioSource
-struct AudioSource_t569;
+struct AudioSource_t570;
 // System.Array
 struct Array_t;
 
@@ -26,4 +26,4 @@ struct Array_t;
 // System.Boolean System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::MoveNext()
 #define InternalEnumerator_1_MoveNext_m26805(__this, method) (( bool (*) (InternalEnumerator_1_t5680 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::get_Current()
-#define InternalEnumerator_1_get_Current_m26806(__this, method) (( AudioSource_t569 * (*) (InternalEnumerator_1_t5680 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m26806(__this, method) (( AudioSource_t570 * (*) (InternalEnumerator_1_t5680 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)

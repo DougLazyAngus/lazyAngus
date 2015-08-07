@@ -7,28 +7,28 @@
 // PlayerStats
 struct PlayerStats_t475;
 // PlayerStats/ScoreChangedEventHandler
-struct ScoreChangedEventHandler_t583;
+struct ScoreChangedEventHandler_t584;
 // PlayerStats/MoneyChangedEventHandler
-struct MoneyChangedEventHandler_t584;
+struct MoneyChangedEventHandler_t585;
 // PlayerStats/BoostsChangedEventHandler
-struct BoostsChangedEventHandler_t585;
+struct BoostsChangedEventHandler_t586;
 // BoostConfig/BoostType
 #include "AssemblyU2DCSharp_BoostConfig_BoostType.h"
 
 // System.Void PlayerStats::.ctor()
 extern "C" void PlayerStats__ctor_m3146 (PlayerStats_t475 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PlayerStats::add_ScoreChanged(PlayerStats/ScoreChangedEventHandler)
-extern "C" void PlayerStats_add_ScoreChanged_m3147 (PlayerStats_t475 * __this, ScoreChangedEventHandler_t583 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayerStats_add_ScoreChanged_m3147 (PlayerStats_t475 * __this, ScoreChangedEventHandler_t584 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PlayerStats::remove_ScoreChanged(PlayerStats/ScoreChangedEventHandler)
-extern "C" void PlayerStats_remove_ScoreChanged_m3148 (PlayerStats_t475 * __this, ScoreChangedEventHandler_t583 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayerStats_remove_ScoreChanged_m3148 (PlayerStats_t475 * __this, ScoreChangedEventHandler_t584 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PlayerStats::add_MoneyChanged(PlayerStats/MoneyChangedEventHandler)
-extern "C" void PlayerStats_add_MoneyChanged_m3149 (PlayerStats_t475 * __this, MoneyChangedEventHandler_t584 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayerStats_add_MoneyChanged_m3149 (PlayerStats_t475 * __this, MoneyChangedEventHandler_t585 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PlayerStats::remove_MoneyChanged(PlayerStats/MoneyChangedEventHandler)
-extern "C" void PlayerStats_remove_MoneyChanged_m3150 (PlayerStats_t475 * __this, MoneyChangedEventHandler_t584 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayerStats_remove_MoneyChanged_m3150 (PlayerStats_t475 * __this, MoneyChangedEventHandler_t585 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PlayerStats::add_BoostsChanged(PlayerStats/BoostsChangedEventHandler)
-extern "C" void PlayerStats_add_BoostsChanged_m3151 (PlayerStats_t475 * __this, BoostsChangedEventHandler_t585 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayerStats_add_BoostsChanged_m3151 (PlayerStats_t475 * __this, BoostsChangedEventHandler_t586 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PlayerStats::remove_BoostsChanged(PlayerStats/BoostsChangedEventHandler)
-extern "C" void PlayerStats_remove_BoostsChanged_m3152 (PlayerStats_t475 * __this, BoostsChangedEventHandler_t585 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayerStats_remove_BoostsChanged_m3152 (PlayerStats_t475 * __this, BoostsChangedEventHandler_t586 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 PlayerStats::get_gameScore()
 extern "C" int32_t PlayerStats_get_gameScore_m3153 (PlayerStats_t475 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PlayerStats::set_gameScore(System.Int32)

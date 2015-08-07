@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Font
-struct Font_t852;
+struct Font_t853;
 // UnityEngine.GUIStyle
 struct GUIStyle_t107;
 // UnityEngine.GUIStyle[]
@@ -13,14 +13,14 @@ struct Dictionary_2_t2678;
 // UnityEngine.GUISkin/SkinChangedDelegate
 struct SkinChangedDelegate_t2676;
 // UnityEngine.GUISkin
-struct GUISkin_t730;
+struct GUISkin_t731;
 // UnityEngine.ScriptableObject
 #include "UnityEngine_UnityEngine_ScriptableObject.h"
 // UnityEngine.GUISkin
-struct  GUISkin_t730  : public ScriptableObject_t148
+struct  GUISkin_t731  : public ScriptableObject_t148
 {
 	// UnityEngine.Font UnityEngine.GUISkin::m_Font
-	Font_t852 * ___m_Font_2;
+	Font_t853 * ___m_Font_2;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_box
 	GUIStyle_t107 * ___m_box_3;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_button
@@ -68,11 +68,11 @@ struct  GUISkin_t730  : public ScriptableObject_t148
 	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle> UnityEngine.GUISkin::styles
 	Dictionary_2_t2678 * ___styles_26;
 };
-struct GUISkin_t730_StaticFields{
+struct GUISkin_t731_StaticFields{
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::ms_Error
 	GUIStyle_t107 * ___ms_Error_25;
 	// UnityEngine.GUISkin/SkinChangedDelegate UnityEngine.GUISkin::m_SkinChanged
 	SkinChangedDelegate_t2676 * ___m_SkinChanged_27;
 	// UnityEngine.GUISkin UnityEngine.GUISkin::current
-	GUISkin_t730 * ___current_28;
+	GUISkin_t731 * ___current_28;
 };

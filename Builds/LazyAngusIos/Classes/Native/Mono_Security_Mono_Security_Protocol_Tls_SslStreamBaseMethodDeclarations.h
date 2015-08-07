@@ -23,7 +23,7 @@ struct X509CertificateCollection_t3833;
 // System.String
 struct String_t;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // Mono.Security.Protocol.Tls.ValidationResult
 struct ValidationResult_t3825;
 // System.Security.Cryptography.AsymmetricAlgorithm
@@ -63,7 +63,7 @@ extern "C" void SslStreamBase_NegotiateHandshake_m12676 (SslStreamBase_t3828 * _
 // System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.SslStreamBase::RaiseLocalCertificateSelection(System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection)
 extern "C" X509Certificate_t3834 * SslStreamBase_RaiseLocalCertificateSelection_m12677 (SslStreamBase_t3828 * __this, X509CertificateCollection_t3833 * ___certificates, X509Certificate_t3834 * ___remoteCertificate, String_t* ___targetHost, X509CertificateCollection_t3833 * ___requestedCertificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.SslStreamBase::RaiseRemoteCertificateValidation(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
-extern "C" bool SslStreamBase_RaiseRemoteCertificateValidation_m12678 (SslStreamBase_t3828 * __this, X509Certificate_t3834 * ___certificate, Int32U5BU5D_t548* ___errors, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SslStreamBase_RaiseRemoteCertificateValidation_m12678 (SslStreamBase_t3828 * __this, X509Certificate_t3834 * ___certificate, Int32U5BU5D_t549* ___errors, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.ValidationResult Mono.Security.Protocol.Tls.SslStreamBase::RaiseRemoteCertificateValidation2(Mono.Security.X509.X509CertificateCollection)
 extern "C" ValidationResult_t3825 * SslStreamBase_RaiseRemoteCertificateValidation2_m12679 (SslStreamBase_t3828 * __this, X509CertificateCollection_t3760 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.AsymmetricAlgorithm Mono.Security.Protocol.Tls.SslStreamBase::RaiseLocalPrivateKeySelection(System.Security.Cryptography.X509Certificates.X509Certificate,System.String)

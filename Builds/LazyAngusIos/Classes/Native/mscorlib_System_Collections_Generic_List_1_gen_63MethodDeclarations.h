@@ -11,7 +11,7 @@ struct Object_t;
 // System.Collections.Generic.IEnumerable`1<System.Single>
 struct IEnumerable_1_t6292;
 // System.Single[]
-struct SingleU5BU5D_t543;
+struct SingleU5BU5D_t544;
 // System.Collections.Generic.IEnumerator`1<System.Single>
 struct IEnumerator_1_t6293;
 // System.Array
@@ -41,8 +41,8 @@ extern "C" void List_1__ctor_m26474_gshared (List_1_t5652 * __this, Object_t* __
 extern "C" void List_1__ctor_m26475_gshared (List_1_t5652 * __this, int32_t ___capacity, const MethodInfo* method);
 #define List_1__ctor_m26475(__this, ___capacity, method) (( void (*) (List_1_t5652 *, int32_t, const MethodInfo*))List_1__ctor_m26475_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<System.Single>::.ctor(T[],System.Int32)
-extern "C" void List_1__ctor_m26476_gshared (List_1_t5652 * __this, SingleU5BU5D_t543* ___data, int32_t ___size, const MethodInfo* method);
-#define List_1__ctor_m26476(__this, ___data, ___size, method) (( void (*) (List_1_t5652 *, SingleU5BU5D_t543*, int32_t, const MethodInfo*))List_1__ctor_m26476_gshared)(__this, ___data, ___size, method)
+extern "C" void List_1__ctor_m26476_gshared (List_1_t5652 * __this, SingleU5BU5D_t544* ___data, int32_t ___size, const MethodInfo* method);
+#define List_1__ctor_m26476(__this, ___data, ___size, method) (( void (*) (List_1_t5652 *, SingleU5BU5D_t544*, int32_t, const MethodInfo*))List_1__ctor_m26476_gshared)(__this, ___data, ___size, method)
 // System.Void System.Collections.Generic.List`1<System.Single>::.cctor()
 extern "C" void List_1__cctor_m26477_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
 #define List_1__cctor_m26477(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m26477_gshared)(__this /* static, unused */, method)
@@ -119,8 +119,8 @@ extern "C" void List_1_Clear_m26500_gshared (List_1_t5652 * __this, const Method
 extern "C" bool List_1_Contains_m26501_gshared (List_1_t5652 * __this, float ___item, const MethodInfo* method);
 #define List_1_Contains_m26501(__this, ___item, method) (( bool (*) (List_1_t5652 *, float, const MethodInfo*))List_1_Contains_m26501_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<System.Single>::CopyTo(T[],System.Int32)
-extern "C" void List_1_CopyTo_m26502_gshared (List_1_t5652 * __this, SingleU5BU5D_t543* ___array, int32_t ___arrayIndex, const MethodInfo* method);
-#define List_1_CopyTo_m26502(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t5652 *, SingleU5BU5D_t543*, int32_t, const MethodInfo*))List_1_CopyTo_m26502_gshared)(__this, ___array, ___arrayIndex, method)
+extern "C" void List_1_CopyTo_m26502_gshared (List_1_t5652 * __this, SingleU5BU5D_t544* ___array, int32_t ___arrayIndex, const MethodInfo* method);
+#define List_1_CopyTo_m26502(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t5652 *, SingleU5BU5D_t544*, int32_t, const MethodInfo*))List_1_CopyTo_m26502_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<System.Single>::Find(System.Predicate`1<T>)
 extern "C" float List_1_Find_m26503_gshared (List_1_t5652 * __this, Predicate_1_t5660 * ___match, const MethodInfo* method);
 #define List_1_Find_m26503(__this, ___match, method) (( float (*) (List_1_t5652 *, Predicate_1_t5660 *, const MethodInfo*))List_1_Find_m26503_gshared)(__this, ___match, method)
@@ -185,8 +185,8 @@ extern "C" void List_1_Sort_m26522_gshared (List_1_t5652 * __this, Object_t* ___
 extern "C" void List_1_Sort_m26523_gshared (List_1_t5652 * __this, Comparison_1_t5664 * ___comparison, const MethodInfo* method);
 #define List_1_Sort_m26523(__this, ___comparison, method) (( void (*) (List_1_t5652 *, Comparison_1_t5664 *, const MethodInfo*))List_1_Sort_m26523_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<System.Single>::ToArray()
-extern "C" SingleU5BU5D_t543* List_1_ToArray_m26524_gshared (List_1_t5652 * __this, const MethodInfo* method);
-#define List_1_ToArray_m26524(__this, method) (( SingleU5BU5D_t543* (*) (List_1_t5652 *, const MethodInfo*))List_1_ToArray_m26524_gshared)(__this, method)
+extern "C" SingleU5BU5D_t544* List_1_ToArray_m26524_gshared (List_1_t5652 * __this, const MethodInfo* method);
+#define List_1_ToArray_m26524(__this, method) (( SingleU5BU5D_t544* (*) (List_1_t5652 *, const MethodInfo*))List_1_ToArray_m26524_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.Single>::TrimExcess()
 extern "C" void List_1_TrimExcess_m26525_gshared (List_1_t5652 * __this, const MethodInfo* method);
 #define List_1_TrimExcess_m26525(__this, method) (( void (*) (List_1_t5652 *, const MethodInfo*))List_1_TrimExcess_m26525_gshared)(__this, method)

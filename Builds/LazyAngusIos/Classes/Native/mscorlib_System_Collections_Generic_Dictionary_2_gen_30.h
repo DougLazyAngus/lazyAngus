@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.Link[]
 struct LinkU5BU5D_t5345;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // Parse.Internal.ParseJSONCacheItem[]
 struct ParseJSONCacheItemU5BU5D_t6147;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
@@ -20,11 +20,11 @@ struct Transform_1_t6148;
 struct  Dictionary_2_t1447  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>::table
-	Int32U5BU5D_t548* ___table_4;
+	Int32U5BU5D_t549* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>::linkSlots
 	LinkU5BU5D_t5345* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>::keySlots
-	ObjectU5BU5D_t635* ___keySlots_6;
+	ObjectU5BU5D_t636* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>::valueSlots
 	ParseJSONCacheItemU5BU5D_t6147* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>::touchedSlots

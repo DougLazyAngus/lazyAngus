@@ -1085,13 +1085,13 @@ extern const MethodInfo TlsServerHello_ProcessAsTls1_m12838_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 static const ParameterInfo TlsServerHello_t3848_TlsServerHello_processProtocol_m12839_ParameterInfos[] = 
 {
-	{"protocol", 0, 134218548, 0, &Int16_t692_0_0_0},
+	{"protocol", 0, 134218548, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::processProtocol(System.Int16)
 extern const MethodInfo TlsServerHello_processProtocol_m12839_MethodInfo = 
 {
@@ -1099,7 +1099,7 @@ extern const MethodInfo TlsServerHello_processProtocol_m12839_MethodInfo =
 	, (methodPointerType)&TlsServerHello_processProtocol_m12839/* method */
 	, &TlsServerHello_t3848_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Void_t85_Int16_t693/* invoker_method */
 	, TlsServerHello_t3848_TlsServerHello_processProtocol_m12839_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -1923,30 +1923,30 @@ static const MethodInfo* PrimalityTest_t3851_MethodInfos[] =
 	&PrimalityTest_EndInvoke_m12851_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m4257_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m4258_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m4259_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo;
-extern const MethodInfo Delegate_Clone_m4261_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4262_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m4263_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m4258_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m4259_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m4260_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo;
+extern const MethodInfo Delegate_Clone_m4262_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4263_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4265_MethodInfo;
 extern const MethodInfo PrimalityTest_Invoke_m12849_MethodInfo;
 extern const MethodInfo PrimalityTest_BeginInvoke_m12850_MethodInfo;
 extern const MethodInfo PrimalityTest_EndInvoke_m12851_MethodInfo;
 static const Il2CppMethodReference PrimalityTest_t3851_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&PrimalityTest_Invoke_m12849_MethodInfo,
 	&PrimalityTest_BeginInvoke_m12850_MethodInfo,
 	&PrimalityTest_EndInvoke_m12851_MethodInfo,
@@ -1968,12 +1968,12 @@ static bool PrimalityTest_t3851_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICloneable_t761_0_0_0;
-extern const Il2CppType ISerializable_t762_0_0_0;
+extern const Il2CppType ICloneable_t762_0_0_0;
+extern const Il2CppType ISerializable_t763_0_0_0;
 static Il2CppInterfaceOffsetPair PrimalityTest_t3851_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_Mono_Security_dll_Image;
 extern const Il2CppType PrimalityTest_t3851_0_0_0;
@@ -2085,12 +2085,12 @@ extern const MethodInfo CertificateValidationCallback__ctor_m12852_MethodInfo =
 };
 extern const Il2CppType X509Certificate_t3834_0_0_0;
 extern const Il2CppType X509Certificate_t3834_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 static const ParameterInfo CertificateValidationCallback_t3826_CertificateValidationCallback_Invoke_m12853_ParameterInfos[] = 
 {
 	{"certificate", 0, 134218564, 0, &X509Certificate_t3834_0_0_0},
-	{"certificateErrors", 1, 134218565, 0, &Int32U5BU5D_t548_0_0_0},
+	{"certificateErrors", 1, 134218565, 0, &Int32U5BU5D_t549_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Security.Protocol.Tls.CertificateValidationCallback::Invoke(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
@@ -2116,13 +2116,13 @@ extern const MethodInfo CertificateValidationCallback_Invoke_m12853_MethodInfo =
 
 };
 extern const Il2CppType X509Certificate_t3834_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo CertificateValidationCallback_t3826_CertificateValidationCallback_BeginInvoke_m12854_ParameterInfos[] = 
 {
 	{"certificate", 0, 134218566, 0, &X509Certificate_t3834_0_0_0},
-	{"certificateErrors", 1, 134218567, 0, &Int32U5BU5D_t548_0_0_0},
+	{"certificateErrors", 1, 134218567, 0, &Int32U5BU5D_t549_0_0_0},
 	{"callback", 2, 134218568, 0, &AsyncCallback_t386_0_0_0},
 	{"object", 3, 134218569, 0, &Object_t_0_0_0},
 };
@@ -2190,17 +2190,17 @@ extern const MethodInfo CertificateValidationCallback_BeginInvoke_m12854_MethodI
 extern const MethodInfo CertificateValidationCallback_EndInvoke_m12855_MethodInfo;
 static const Il2CppMethodReference CertificateValidationCallback_t3826_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&CertificateValidationCallback_Invoke_m12853_MethodInfo,
 	&CertificateValidationCallback_BeginInvoke_m12854_MethodInfo,
 	&CertificateValidationCallback_EndInvoke_m12855_MethodInfo,
@@ -2224,8 +2224,8 @@ static bool CertificateValidationCallback_t3826_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair CertificateValidationCallback_t3826_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_Mono_Security_dll_Image;
 extern const Il2CppType CertificateValidationCallback_t3826_0_0_0;
@@ -2436,17 +2436,17 @@ extern const MethodInfo CertificateValidationCallback2_BeginInvoke_m12858_Method
 extern const MethodInfo CertificateValidationCallback2_EndInvoke_m12859_MethodInfo;
 static const Il2CppMethodReference CertificateValidationCallback2_t3827_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&CertificateValidationCallback2_Invoke_m12857_MethodInfo,
 	&CertificateValidationCallback2_BeginInvoke_m12858_MethodInfo,
 	&CertificateValidationCallback2_EndInvoke_m12859_MethodInfo,
@@ -2470,8 +2470,8 @@ static bool CertificateValidationCallback2_t3827_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair CertificateValidationCallback2_t3827_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_Mono_Security_dll_Image;
 extern const Il2CppType CertificateValidationCallback2_t3827_0_0_0;
@@ -2694,17 +2694,17 @@ extern const MethodInfo CertificateSelectionCallback_BeginInvoke_m12862_MethodIn
 extern const MethodInfo CertificateSelectionCallback_EndInvoke_m12863_MethodInfo;
 static const Il2CppMethodReference CertificateSelectionCallback_t3812_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&CertificateSelectionCallback_Invoke_m12861_MethodInfo,
 	&CertificateSelectionCallback_BeginInvoke_m12862_MethodInfo,
 	&CertificateSelectionCallback_EndInvoke_m12863_MethodInfo,
@@ -2728,8 +2728,8 @@ static bool CertificateSelectionCallback_t3812_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair CertificateSelectionCallback_t3812_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_Mono_Security_dll_Image;
 extern const Il2CppType CertificateSelectionCallback_t3812_0_0_0;
@@ -2944,17 +2944,17 @@ extern const MethodInfo PrivateKeySelectionCallback_BeginInvoke_m12866_MethodInf
 extern const MethodInfo PrivateKeySelectionCallback_EndInvoke_m12867_MethodInfo;
 static const Il2CppMethodReference PrivateKeySelectionCallback_t3813_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&PrivateKeySelectionCallback_Invoke_m12865_MethodInfo,
 	&PrivateKeySelectionCallback_BeginInvoke_m12866_MethodInfo,
 	&PrivateKeySelectionCallback_EndInvoke_m12867_MethodInfo,
@@ -2978,8 +2978,8 @@ static bool PrivateKeySelectionCallback_t3813_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair PrivateKeySelectionCallback_t3813_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_Mono_Security_dll_Image;
 extern const Il2CppType PrivateKeySelectionCallback_t3813_0_0_0;

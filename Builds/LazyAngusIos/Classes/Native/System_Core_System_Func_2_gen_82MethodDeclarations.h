@@ -9,7 +9,7 @@ struct Func_2_t6078;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

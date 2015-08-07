@@ -17,7 +17,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_10.h"
 
@@ -55,8 +55,8 @@ extern "C" bool KeyCollection_System_Collections_ICollection_get_IsSynchronized_
 extern "C" Object_t * KeyCollection_System_Collections_ICollection_get_SyncRoot_m20981_gshared (KeyCollection_t5355 * __this, const MethodInfo* method);
 #define KeyCollection_System_Collections_ICollection_get_SyncRoot_m20981(__this, method) (( Object_t * (*) (KeyCollection_t5355 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m20981_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.Object>::CopyTo(TKey[],System.Int32)
-extern "C" void KeyCollection_CopyTo_m20982_gshared (KeyCollection_t5355 * __this, Int32U5BU5D_t548* ___array, int32_t ___index, const MethodInfo* method);
-#define KeyCollection_CopyTo_m20982(__this, ___array, ___index, method) (( void (*) (KeyCollection_t5355 *, Int32U5BU5D_t548*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m20982_gshared)(__this, ___array, ___index, method)
+extern "C" void KeyCollection_CopyTo_m20982_gshared (KeyCollection_t5355 * __this, Int32U5BU5D_t549* ___array, int32_t ___index, const MethodInfo* method);
+#define KeyCollection_CopyTo_m20982(__this, ___array, ___index, method) (( void (*) (KeyCollection_t5355 *, Int32U5BU5D_t549*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m20982_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.Object>::GetEnumerator()
 extern "C" Enumerator_t5356  KeyCollection_GetEnumerator_m20983_gshared (KeyCollection_t5355 * __this, const MethodInfo* method);
 #define KeyCollection_GetEnumerator_m20983(__this, method) (( Enumerator_t5356  (*) (KeyCollection_t5355 *, const MethodInfo*))KeyCollection_GetEnumerator_m20983_gshared)(__this, method)

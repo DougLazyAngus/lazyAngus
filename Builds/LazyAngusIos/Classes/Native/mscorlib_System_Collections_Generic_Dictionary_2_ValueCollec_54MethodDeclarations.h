@@ -11,7 +11,7 @@ struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.String>>
 struct Dictionary_2_t1459;
 // System.Collections.Generic.IDictionary`2<System.String,System.String>
-struct IDictionary_2_t645;
+struct IDictionary_2_t646;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.IDictionary`2<System.String,System.String>>
 struct IEnumerator_1_t9079;
 // System.Array

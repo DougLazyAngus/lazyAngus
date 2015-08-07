@@ -11,7 +11,7 @@ struct Object_t;
 // System.String
 struct String_t;
 // System.Collections.Generic.IEnumerable`1<System.String>
-struct IEnumerable_1_t658;
+struct IEnumerable_1_t659;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Collections.Generic.IEnumerator`1<System.String>
@@ -102,7 +102,7 @@ struct Comparison_1_t5412;
 // System.Int32 System.Collections.Generic.List`1<System.String>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
 #define List_1_GetIndex_m21985(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t115 *, int32_t, int32_t, Predicate_1_t5411 *, const MethodInfo*))List_1_GetIndex_m21352_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.String>::GetEnumerator()
-#define List_1_GetEnumerator_m3583(__this, method) (( Enumerator_t685  (*) (List_1_t115 *, const MethodInfo*))List_1_GetEnumerator_m3630_gshared)(__this, method)
+#define List_1_GetEnumerator_m3583(__this, method) (( Enumerator_t686  (*) (List_1_t115 *, const MethodInfo*))List_1_GetEnumerator_m3630_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<System.String>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m21986(__this, ___index, ___count, method) (( List_1_t115 * (*) (List_1_t115 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21354_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<System.String>::IndexOf(T)

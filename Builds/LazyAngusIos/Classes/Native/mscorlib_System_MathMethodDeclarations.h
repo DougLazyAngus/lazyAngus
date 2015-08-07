@@ -28,7 +28,7 @@ extern "C" double Math_Min_m7243 (Object_t * __this /* static, unused */, double
 // System.Int32 System.Math::Min(System.Int32,System.Int32)
 extern "C" int32_t Math_Min_m11213 (Object_t * __this /* static, unused */, int32_t ___val1, int32_t ___val2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Math::Round(System.Decimal)
-extern "C" Decimal_t695  Math_Round_m19535 (Object_t * __this /* static, unused */, Decimal_t695  ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t696  Math_Round_m19535 (Object_t * __this /* static, unused */, Decimal_t696  ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Math::Round(System.Double)
 extern "C" double Math_Round_m19536 (Object_t * __this /* static, unused */, double ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Math::Sin(System.Double)

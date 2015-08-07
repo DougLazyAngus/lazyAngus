@@ -13,7 +13,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // UnityEngine.UIVertex[]
-struct UIVertexU5BU5D_t888;
+struct UIVertexU5BU5D_t889;
 // System.Collections.Generic.IEnumerator`1<UnityEngine.UIVertex>
 struct IEnumerator_1_t8915;
 // System.Collections.Generic.IList`1<UnityEngine.UIVertex>
@@ -67,8 +67,8 @@ extern "C" Object_t * Collection_1_System_Collections_IList_get_Item_m28489_gsha
 extern "C" void Collection_1_System_Collections_IList_set_Item_m28490_gshared (Collection_1_t5774 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
 #define Collection_1_System_Collections_IList_set_Item_m28490(__this, ___index, ___value, method) (( void (*) (Collection_1_t5774 *, int32_t, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_set_Item_m28490_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::Add(T)
-extern "C" void Collection_1_Add_m28491_gshared (Collection_1_t5774 * __this, UIVertex_t889  ___item, const MethodInfo* method);
-#define Collection_1_Add_m28491(__this, ___item, method) (( void (*) (Collection_1_t5774 *, UIVertex_t889 , const MethodInfo*))Collection_1_Add_m28491_gshared)(__this, ___item, method)
+extern "C" void Collection_1_Add_m28491_gshared (Collection_1_t5774 * __this, UIVertex_t890  ___item, const MethodInfo* method);
+#define Collection_1_Add_m28491(__this, ___item, method) (( void (*) (Collection_1_t5774 *, UIVertex_t890 , const MethodInfo*))Collection_1_Add_m28491_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::Clear()
 extern "C" void Collection_1_Clear_m28492_gshared (Collection_1_t5774 * __this, const MethodInfo* method);
 #define Collection_1_Clear_m28492(__this, method) (( void (*) (Collection_1_t5774 *, const MethodInfo*))Collection_1_Clear_m28492_gshared)(__this, method)
@@ -76,26 +76,26 @@ extern "C" void Collection_1_Clear_m28492_gshared (Collection_1_t5774 * __this, 
 extern "C" void Collection_1_ClearItems_m28493_gshared (Collection_1_t5774 * __this, const MethodInfo* method);
 #define Collection_1_ClearItems_m28493(__this, method) (( void (*) (Collection_1_t5774 *, const MethodInfo*))Collection_1_ClearItems_m28493_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::Contains(T)
-extern "C" bool Collection_1_Contains_m28494_gshared (Collection_1_t5774 * __this, UIVertex_t889  ___item, const MethodInfo* method);
-#define Collection_1_Contains_m28494(__this, ___item, method) (( bool (*) (Collection_1_t5774 *, UIVertex_t889 , const MethodInfo*))Collection_1_Contains_m28494_gshared)(__this, ___item, method)
+extern "C" bool Collection_1_Contains_m28494_gshared (Collection_1_t5774 * __this, UIVertex_t890  ___item, const MethodInfo* method);
+#define Collection_1_Contains_m28494(__this, ___item, method) (( bool (*) (Collection_1_t5774 *, UIVertex_t890 , const MethodInfo*))Collection_1_Contains_m28494_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::CopyTo(T[],System.Int32)
-extern "C" void Collection_1_CopyTo_m28495_gshared (Collection_1_t5774 * __this, UIVertexU5BU5D_t888* ___array, int32_t ___index, const MethodInfo* method);
-#define Collection_1_CopyTo_m28495(__this, ___array, ___index, method) (( void (*) (Collection_1_t5774 *, UIVertexU5BU5D_t888*, int32_t, const MethodInfo*))Collection_1_CopyTo_m28495_gshared)(__this, ___array, ___index, method)
+extern "C" void Collection_1_CopyTo_m28495_gshared (Collection_1_t5774 * __this, UIVertexU5BU5D_t889* ___array, int32_t ___index, const MethodInfo* method);
+#define Collection_1_CopyTo_m28495(__this, ___array, ___index, method) (( void (*) (Collection_1_t5774 *, UIVertexU5BU5D_t889*, int32_t, const MethodInfo*))Collection_1_CopyTo_m28495_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::GetEnumerator()
 extern "C" Object_t* Collection_1_GetEnumerator_m28496_gshared (Collection_1_t5774 * __this, const MethodInfo* method);
 #define Collection_1_GetEnumerator_m28496(__this, method) (( Object_t* (*) (Collection_1_t5774 *, const MethodInfo*))Collection_1_GetEnumerator_m28496_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::IndexOf(T)
-extern "C" int32_t Collection_1_IndexOf_m28497_gshared (Collection_1_t5774 * __this, UIVertex_t889  ___item, const MethodInfo* method);
-#define Collection_1_IndexOf_m28497(__this, ___item, method) (( int32_t (*) (Collection_1_t5774 *, UIVertex_t889 , const MethodInfo*))Collection_1_IndexOf_m28497_gshared)(__this, ___item, method)
+extern "C" int32_t Collection_1_IndexOf_m28497_gshared (Collection_1_t5774 * __this, UIVertex_t890  ___item, const MethodInfo* method);
+#define Collection_1_IndexOf_m28497(__this, ___item, method) (( int32_t (*) (Collection_1_t5774 *, UIVertex_t890 , const MethodInfo*))Collection_1_IndexOf_m28497_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::Insert(System.Int32,T)
-extern "C" void Collection_1_Insert_m28498_gshared (Collection_1_t5774 * __this, int32_t ___index, UIVertex_t889  ___item, const MethodInfo* method);
-#define Collection_1_Insert_m28498(__this, ___index, ___item, method) (( void (*) (Collection_1_t5774 *, int32_t, UIVertex_t889 , const MethodInfo*))Collection_1_Insert_m28498_gshared)(__this, ___index, ___item, method)
+extern "C" void Collection_1_Insert_m28498_gshared (Collection_1_t5774 * __this, int32_t ___index, UIVertex_t890  ___item, const MethodInfo* method);
+#define Collection_1_Insert_m28498(__this, ___index, ___item, method) (( void (*) (Collection_1_t5774 *, int32_t, UIVertex_t890 , const MethodInfo*))Collection_1_Insert_m28498_gshared)(__this, ___index, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::InsertItem(System.Int32,T)
-extern "C" void Collection_1_InsertItem_m28499_gshared (Collection_1_t5774 * __this, int32_t ___index, UIVertex_t889  ___item, const MethodInfo* method);
-#define Collection_1_InsertItem_m28499(__this, ___index, ___item, method) (( void (*) (Collection_1_t5774 *, int32_t, UIVertex_t889 , const MethodInfo*))Collection_1_InsertItem_m28499_gshared)(__this, ___index, ___item, method)
+extern "C" void Collection_1_InsertItem_m28499_gshared (Collection_1_t5774 * __this, int32_t ___index, UIVertex_t890  ___item, const MethodInfo* method);
+#define Collection_1_InsertItem_m28499(__this, ___index, ___item, method) (( void (*) (Collection_1_t5774 *, int32_t, UIVertex_t890 , const MethodInfo*))Collection_1_InsertItem_m28499_gshared)(__this, ___index, ___item, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::Remove(T)
-extern "C" bool Collection_1_Remove_m28500_gshared (Collection_1_t5774 * __this, UIVertex_t889  ___item, const MethodInfo* method);
-#define Collection_1_Remove_m28500(__this, ___item, method) (( bool (*) (Collection_1_t5774 *, UIVertex_t889 , const MethodInfo*))Collection_1_Remove_m28500_gshared)(__this, ___item, method)
+extern "C" bool Collection_1_Remove_m28500_gshared (Collection_1_t5774 * __this, UIVertex_t890  ___item, const MethodInfo* method);
+#define Collection_1_Remove_m28500(__this, ___item, method) (( bool (*) (Collection_1_t5774 *, UIVertex_t890 , const MethodInfo*))Collection_1_Remove_m28500_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::RemoveAt(System.Int32)
 extern "C" void Collection_1_RemoveAt_m28501_gshared (Collection_1_t5774 * __this, int32_t ___index, const MethodInfo* method);
 #define Collection_1_RemoveAt_m28501(__this, ___index, method) (( void (*) (Collection_1_t5774 *, int32_t, const MethodInfo*))Collection_1_RemoveAt_m28501_gshared)(__this, ___index, method)
@@ -106,20 +106,20 @@ extern "C" void Collection_1_RemoveItem_m28502_gshared (Collection_1_t5774 * __t
 extern "C" int32_t Collection_1_get_Count_m28503_gshared (Collection_1_t5774 * __this, const MethodInfo* method);
 #define Collection_1_get_Count_m28503(__this, method) (( int32_t (*) (Collection_1_t5774 *, const MethodInfo*))Collection_1_get_Count_m28503_gshared)(__this, method)
 // T System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::get_Item(System.Int32)
-extern "C" UIVertex_t889  Collection_1_get_Item_m28504_gshared (Collection_1_t5774 * __this, int32_t ___index, const MethodInfo* method);
-#define Collection_1_get_Item_m28504(__this, ___index, method) (( UIVertex_t889  (*) (Collection_1_t5774 *, int32_t, const MethodInfo*))Collection_1_get_Item_m28504_gshared)(__this, ___index, method)
+extern "C" UIVertex_t890  Collection_1_get_Item_m28504_gshared (Collection_1_t5774 * __this, int32_t ___index, const MethodInfo* method);
+#define Collection_1_get_Item_m28504(__this, ___index, method) (( UIVertex_t890  (*) (Collection_1_t5774 *, int32_t, const MethodInfo*))Collection_1_get_Item_m28504_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::set_Item(System.Int32,T)
-extern "C" void Collection_1_set_Item_m28505_gshared (Collection_1_t5774 * __this, int32_t ___index, UIVertex_t889  ___value, const MethodInfo* method);
-#define Collection_1_set_Item_m28505(__this, ___index, ___value, method) (( void (*) (Collection_1_t5774 *, int32_t, UIVertex_t889 , const MethodInfo*))Collection_1_set_Item_m28505_gshared)(__this, ___index, ___value, method)
+extern "C" void Collection_1_set_Item_m28505_gshared (Collection_1_t5774 * __this, int32_t ___index, UIVertex_t890  ___value, const MethodInfo* method);
+#define Collection_1_set_Item_m28505(__this, ___index, ___value, method) (( void (*) (Collection_1_t5774 *, int32_t, UIVertex_t890 , const MethodInfo*))Collection_1_set_Item_m28505_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::SetItem(System.Int32,T)
-extern "C" void Collection_1_SetItem_m28506_gshared (Collection_1_t5774 * __this, int32_t ___index, UIVertex_t889  ___item, const MethodInfo* method);
-#define Collection_1_SetItem_m28506(__this, ___index, ___item, method) (( void (*) (Collection_1_t5774 *, int32_t, UIVertex_t889 , const MethodInfo*))Collection_1_SetItem_m28506_gshared)(__this, ___index, ___item, method)
+extern "C" void Collection_1_SetItem_m28506_gshared (Collection_1_t5774 * __this, int32_t ___index, UIVertex_t890  ___item, const MethodInfo* method);
+#define Collection_1_SetItem_m28506(__this, ___index, ___item, method) (( void (*) (Collection_1_t5774 *, int32_t, UIVertex_t890 , const MethodInfo*))Collection_1_SetItem_m28506_gshared)(__this, ___index, ___item, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::IsValidItem(System.Object)
 extern "C" bool Collection_1_IsValidItem_m28507_gshared (Object_t * __this /* static, unused */, Object_t * ___item, const MethodInfo* method);
 #define Collection_1_IsValidItem_m28507(__this /* static, unused */, ___item, method) (( bool (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Collection_1_IsValidItem_m28507_gshared)(__this /* static, unused */, ___item, method)
 // T System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::ConvertItem(System.Object)
-extern "C" UIVertex_t889  Collection_1_ConvertItem_m28508_gshared (Object_t * __this /* static, unused */, Object_t * ___item, const MethodInfo* method);
-#define Collection_1_ConvertItem_m28508(__this /* static, unused */, ___item, method) (( UIVertex_t889  (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Collection_1_ConvertItem_m28508_gshared)(__this /* static, unused */, ___item, method)
+extern "C" UIVertex_t890  Collection_1_ConvertItem_m28508_gshared (Object_t * __this /* static, unused */, Object_t * ___item, const MethodInfo* method);
+#define Collection_1_ConvertItem_m28508(__this /* static, unused */, ___item, method) (( UIVertex_t890  (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Collection_1_ConvertItem_m28508_gshared)(__this /* static, unused */, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>::CheckWritable(System.Collections.Generic.IList`1<T>)
 extern "C" void Collection_1_CheckWritable_m28509_gshared (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method);
 #define Collection_1_CheckWritable_m28509(__this /* static, unused */, ___list, method) (( void (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Collection_1_CheckWritable_m28509_gshared)(__this /* static, unused */, ___list, method)

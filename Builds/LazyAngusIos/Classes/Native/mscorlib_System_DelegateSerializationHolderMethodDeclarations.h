@@ -9,7 +9,7 @@ struct DelegateSerializationHolder_t4752;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2869;
 // System.Delegate
-struct Delegate_t674;
+struct Delegate_t675;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.StreamingContext
@@ -18,7 +18,7 @@ struct Object_t;
 // System.Void System.DelegateSerializationHolder::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern "C" void DelegateSerializationHolder__ctor_m19453 (DelegateSerializationHolder_t4752 * __this, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DelegateSerializationHolder::GetDelegateData(System.Delegate,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void DelegateSerializationHolder_GetDelegateData_m19454 (Object_t * __this /* static, unused */, Delegate_t674 * ___instance, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DelegateSerializationHolder_GetDelegateData_m19454 (Object_t * __this /* static, unused */, Delegate_t675 * ___instance, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DelegateSerializationHolder::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern "C" void DelegateSerializationHolder_GetObjectData_m19455 (DelegateSerializationHolder_t4752 * __this, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.DelegateSerializationHolder::GetRealObject(System.Runtime.Serialization.StreamingContext)

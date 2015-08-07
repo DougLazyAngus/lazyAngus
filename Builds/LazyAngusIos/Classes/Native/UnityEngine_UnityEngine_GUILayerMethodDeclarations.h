@@ -12,6 +12,6 @@ struct GUIElement_t2654;
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // UnityEngine.GUIElement UnityEngine.GUILayer::HitTest(UnityEngine.Vector3)
-extern "C" GUIElement_t2654 * GUILayer_HitTest_m8550 (GUILayer_t2655 * __this, Vector3_t496  ___screenPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GUIElement_t2654 * GUILayer_HitTest_m8550 (GUILayer_t2655 * __this, Vector3_t497  ___screenPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GUIElement UnityEngine.GUILayer::INTERNAL_CALL_HitTest(UnityEngine.GUILayer,UnityEngine.Vector3&)
-extern "C" GUIElement_t2654 * GUILayer_INTERNAL_CALL_HitTest_m8551 (Object_t * __this /* static, unused */, GUILayer_t2655 * ___self, Vector3_t496 * ___screenPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GUIElement_t2654 * GUILayer_INTERNAL_CALL_HitTest_m8551 (Object_t * __this /* static, unused */, GUILayer_t2655 * ___self, Vector3_t497 * ___screenPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;

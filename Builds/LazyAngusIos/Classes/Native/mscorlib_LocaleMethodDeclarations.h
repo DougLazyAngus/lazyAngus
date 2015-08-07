@@ -9,9 +9,9 @@ struct Locale_t4312;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 
 // System.String Locale::GetText(System.String)
 extern "C" String_t* Locale_GetText_m16035 (Object_t * __this /* static, unused */, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Locale::GetText(System.String,System.Object[])
-extern "C" String_t* Locale_GetText_m16036 (Object_t * __this /* static, unused */, String_t* ___fmt, ObjectU5BU5D_t635* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Locale_GetText_m16036 (Object_t * __this /* static, unused */, String_t* ___fmt, ObjectU5BU5D_t636* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;

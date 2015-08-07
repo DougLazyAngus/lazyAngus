@@ -11,7 +11,7 @@ struct Object_t;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>
-struct Dictionary_2_t699;
+struct Dictionary_2_t700;
 // System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>
 struct Dictionary_2_t274;
 // System.Collections.DictionaryEntry
@@ -40,7 +40,7 @@ struct Dictionary_2_t274;
 // TKey System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::get_CurrentKey()
 #define Enumerator_get_CurrentKey_m24833(__this, method) (( String_t* (*) (Enumerator_t5552 *, const MethodInfo*))Enumerator_get_CurrentKey_m21678_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::get_CurrentValue()
-#define Enumerator_get_CurrentValue_m24834(__this, method) (( Dictionary_2_t699 * (*) (Enumerator_t5552 *, const MethodInfo*))Enumerator_get_CurrentValue_m21679_gshared)(__this, method)
+#define Enumerator_get_CurrentValue_m24834(__this, method) (( Dictionary_2_t700 * (*) (Enumerator_t5552 *, const MethodInfo*))Enumerator_get_CurrentValue_m21679_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::Reset()
 #define Enumerator_Reset_m24835(__this, method) (( void (*) (Enumerator_t5552 *, const MethodInfo*))Enumerator_Reset_m21680_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::VerifyState()

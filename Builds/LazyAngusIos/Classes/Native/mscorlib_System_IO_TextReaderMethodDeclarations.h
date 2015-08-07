@@ -7,7 +7,7 @@
 // System.IO.TextReader
 struct TextReader_t3187;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.String
 struct String_t;
 
@@ -26,7 +26,7 @@ extern "C" int32_t TextReader_Peek_m17315 (TextReader_t3187 * __this, const Meth
 // System.Int32 System.IO.TextReader::Read()
 extern "C" int32_t TextReader_Read_m17316 (TextReader_t3187 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.TextReader::Read(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t TextReader_Read_m17317 (TextReader_t3187 * __this, CharU5BU5D_t660* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TextReader_Read_m17317 (TextReader_t3187 * __this, CharU5BU5D_t661* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.TextReader::ReadLine()
 extern "C" String_t* TextReader_ReadLine_m17318 (TextReader_t3187 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.TextReader::ReadToEnd()

@@ -7,7 +7,7 @@
 // System.Linq.OrderedSequence`2<System.Object,System.Object>
 struct OrderedSequence_2_t5990;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.Func`2<System.Object,System.Object>
 struct Func_2_t1174;
 // System.Collections.Generic.IComparer`1<System.Object>

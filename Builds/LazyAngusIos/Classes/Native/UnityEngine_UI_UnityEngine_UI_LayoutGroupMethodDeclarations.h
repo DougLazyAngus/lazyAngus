@@ -7,9 +7,9 @@
 // UnityEngine.UI.LayoutGroup
 struct LayoutGroup_t940;
 // UnityEngine.RectOffset
-struct RectOffset_t649;
+struct RectOffset_t650;
 // UnityEngine.RectTransform
-struct RectTransform_t503;
+struct RectTransform_t504;
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
 struct List_1_t944;
 // UnityEngine.TextAnchor
@@ -18,15 +18,15 @@ struct List_1_t944;
 // System.Void UnityEngine.UI.LayoutGroup::.ctor()
 extern "C" void LayoutGroup__ctor_m5386 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RectOffset UnityEngine.UI.LayoutGroup::get_padding()
-extern "C" RectOffset_t649 * LayoutGroup_get_padding_m5387 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RectOffset_t650 * LayoutGroup_get_padding_m5387 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::set_padding(UnityEngine.RectOffset)
-extern "C" void LayoutGroup_set_padding_m5388 (LayoutGroup_t940 * __this, RectOffset_t649 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup_set_padding_m5388 (LayoutGroup_t940 * __this, RectOffset_t650 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TextAnchor UnityEngine.UI.LayoutGroup::get_childAlignment()
 extern "C" int32_t LayoutGroup_get_childAlignment_m5389 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::set_childAlignment(UnityEngine.TextAnchor)
 extern "C" void LayoutGroup_set_childAlignment_m5390 (LayoutGroup_t940 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RectTransform UnityEngine.UI.LayoutGroup::get_rectTransform()
-extern "C" RectTransform_t503 * LayoutGroup_get_rectTransform_m5391 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RectTransform_t504 * LayoutGroup_get_rectTransform_m5391 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnityEngine.RectTransform> UnityEngine.UI.LayoutGroup::get_rectChildren()
 extern "C" List_1_t944 * LayoutGroup_get_rectChildren_m5392 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::CalculateLayoutInputHorizontal()
@@ -65,7 +65,7 @@ extern "C" float LayoutGroup_GetStartOffset_m5407 (LayoutGroup_t940 * __this, in
 // System.Void UnityEngine.UI.LayoutGroup::SetLayoutInputForAxis(System.Single,System.Single,System.Single,System.Int32)
 extern "C" void LayoutGroup_SetLayoutInputForAxis_m5408 (LayoutGroup_t940 * __this, float ___totalMin, float ___totalPreferred, float ___totalFlexible, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::SetChildAlongAxis(UnityEngine.RectTransform,System.Int32,System.Single,System.Single)
-extern "C" void LayoutGroup_SetChildAlongAxis_m5409 (LayoutGroup_t940 * __this, RectTransform_t503 * ___rect, int32_t ___axis, float ___pos, float ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup_SetChildAlongAxis_m5409 (LayoutGroup_t940 * __this, RectTransform_t504 * ___rect, int32_t ___axis, float ___pos, float ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.LayoutGroup::get_isRootLayoutGroup()
 extern "C" bool LayoutGroup_get_isRootLayoutGroup_m5410 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::OnRectTransformDimensionsChange()

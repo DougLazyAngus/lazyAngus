@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
-struct List_1_t824;
+struct List_1_t825;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.EventSystems.RaycastResult
@@ -10,11 +10,11 @@ struct List_1_t824;
 struct  Enumerator_t5703 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::l
-	List_1_t824 * ___l_0;
+	List_1_t825 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::current
-	RaycastResult_t818  ___current_3;
+	RaycastResult_t819  ___current_3;
 };

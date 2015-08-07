@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection
 struct X509CertificateCollection_t3833;
 // System.String
@@ -44,9 +44,9 @@ struct WebConnection_t4011;
 struct  HttpWebRequest_t3811  : public WebRequest_t3253
 {
 	// System.Uri System.Net.HttpWebRequest::requestUri
-	Uri_t707 * ___requestUri_6;
+	Uri_t708 * ___requestUri_6;
 	// System.Uri System.Net.HttpWebRequest::actualUri
-	Uri_t707 * ___actualUri_7;
+	Uri_t708 * ___actualUri_7;
 	// System.Boolean System.Net.HttpWebRequest::hostChanged
 	bool ___hostChanged_8;
 	// System.Boolean System.Net.HttpWebRequest::allowAutoRedirect

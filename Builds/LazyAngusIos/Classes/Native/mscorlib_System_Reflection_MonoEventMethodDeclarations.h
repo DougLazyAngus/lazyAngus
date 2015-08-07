@@ -13,7 +13,7 @@ struct String_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2869;
 // System.Reflection.EventAttributes
@@ -38,8 +38,8 @@ extern "C" String_t* MonoEvent_ToString_m17727 (MonoEvent_t * __this, const Meth
 // System.Boolean System.Reflection.MonoEvent::IsDefined(System.Type,System.Boolean)
 extern "C" bool MonoEvent_IsDefined_m17728 (MonoEvent_t * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.MonoEvent::GetCustomAttributes(System.Boolean)
-extern "C" ObjectU5BU5D_t635* MonoEvent_GetCustomAttributes_m17729 (MonoEvent_t * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* MonoEvent_GetCustomAttributes_m17729 (MonoEvent_t * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.MonoEvent::GetCustomAttributes(System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t635* MonoEvent_GetCustomAttributes_m17730 (MonoEvent_t * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* MonoEvent_GetCustomAttributes_m17730 (MonoEvent_t * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.MonoEvent::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern "C" void MonoEvent_GetObjectData_m17731 (MonoEvent_t * __this, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

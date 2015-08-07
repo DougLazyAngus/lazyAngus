@@ -9,7 +9,7 @@ struct KeyValuePair_2_t7974;
 // System.String
 struct String_t;
 // System.Collections.Generic.IList`1<System.String>
-struct IList_1_t646;
+struct IList_1_t647;
 
 // System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<System.String>>::.ctor(TKey,TValue)
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>

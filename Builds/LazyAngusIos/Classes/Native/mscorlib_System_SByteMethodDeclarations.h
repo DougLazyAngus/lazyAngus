@@ -32,7 +32,7 @@ extern "C" uint16_t SByte_System_IConvertible_ToChar_m15409 (int8_t* __this, Obj
 // System.DateTime System.SByte::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  SByte_System_IConvertible_ToDateTime_m15410 (int8_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.SByte::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t695  SByte_System_IConvertible_ToDecimal_m15411 (int8_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t696  SByte_System_IConvertible_ToDecimal_m15411 (int8_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.SByte::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double SByte_System_IConvertible_ToDouble_m15412 (int8_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.SByte::System.IConvertible.ToInt16(System.IFormatProvider)

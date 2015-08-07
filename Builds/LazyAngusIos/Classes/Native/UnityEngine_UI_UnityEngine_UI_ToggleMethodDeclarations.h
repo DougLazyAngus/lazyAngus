@@ -5,51 +5,51 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Toggle
-struct Toggle_t924;
+struct Toggle_t925;
 // UnityEngine.UI.ToggleGroup
-struct ToggleGroup_t923;
+struct ToggleGroup_t924;
 // UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t823;
+struct PointerEventData_t824;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t783;
+struct BaseEventData_t784;
 // UnityEngine.Transform
 struct Transform_t406;
 // UnityEngine.UI.CanvasUpdate
 #include "UnityEngine_UI_UnityEngine_UI_CanvasUpdate.h"
 
 // System.Void UnityEngine.UI.Toggle::.ctor()
-extern "C" void Toggle__ctor_m5241 (Toggle_t924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle__ctor_m5242 (Toggle_t925 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.ToggleGroup UnityEngine.UI.Toggle::get_group()
-extern "C" ToggleGroup_t923 * Toggle_get_group_m5242 (Toggle_t924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ToggleGroup_t924 * Toggle_get_group_m5243 (Toggle_t925 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Toggle::set_group(UnityEngine.UI.ToggleGroup)
-extern "C" void Toggle_set_group_m5243 (Toggle_t924 * __this, ToggleGroup_t923 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle_set_group_m5244 (Toggle_t925 * __this, ToggleGroup_t924 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Toggle::Rebuild(UnityEngine.UI.CanvasUpdate)
-extern "C" void Toggle_Rebuild_m5244 (Toggle_t924 * __this, int32_t ___executing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle_Rebuild_m5245 (Toggle_t925 * __this, int32_t ___executing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Toggle::OnEnable()
-extern "C" void Toggle_OnEnable_m5245 (Toggle_t924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle_OnEnable_m5246 (Toggle_t925 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Toggle::OnDisable()
-extern "C" void Toggle_OnDisable_m5246 (Toggle_t924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle_OnDisable_m5247 (Toggle_t925 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Toggle::SetToggleGroup(UnityEngine.UI.ToggleGroup,System.Boolean)
-extern "C" void Toggle_SetToggleGroup_m5247 (Toggle_t924 * __this, ToggleGroup_t923 * ___newGroup, bool ___setMemberValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle_SetToggleGroup_m5248 (Toggle_t925 * __this, ToggleGroup_t924 * ___newGroup, bool ___setMemberValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.Toggle::get_isOn()
-extern "C" bool Toggle_get_isOn_m5248 (Toggle_t924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Toggle_get_isOn_m5249 (Toggle_t925 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Toggle::set_isOn(System.Boolean)
-extern "C" void Toggle_set_isOn_m5249 (Toggle_t924 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle_set_isOn_m5250 (Toggle_t925 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Toggle::Set(System.Boolean)
-extern "C" void Toggle_Set_m5250 (Toggle_t924 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle_Set_m5251 (Toggle_t925 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Toggle::Set(System.Boolean,System.Boolean)
-extern "C" void Toggle_Set_m5251 (Toggle_t924 * __this, bool ___value, bool ___sendCallback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle_Set_m5252 (Toggle_t925 * __this, bool ___value, bool ___sendCallback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Toggle::PlayEffect(System.Boolean)
-extern "C" void Toggle_PlayEffect_m5252 (Toggle_t924 * __this, bool ___instant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle_PlayEffect_m5253 (Toggle_t925 * __this, bool ___instant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Toggle::Start()
-extern "C" void Toggle_Start_m5253 (Toggle_t924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle_Start_m5254 (Toggle_t925 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Toggle::InternalToggle()
-extern "C" void Toggle_InternalToggle_m5254 (Toggle_t924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle_InternalToggle_m5255 (Toggle_t925 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Toggle::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
-extern "C" void Toggle_OnPointerClick_m5255 (Toggle_t924 * __this, PointerEventData_t823 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle_OnPointerClick_m5256 (Toggle_t925 * __this, PointerEventData_t824 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Toggle::OnSubmit(UnityEngine.EventSystems.BaseEventData)
-extern "C" void Toggle_OnSubmit_m5256 (Toggle_t924 * __this, BaseEventData_t783 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Toggle_OnSubmit_m5257 (Toggle_t925 * __this, BaseEventData_t784 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.Toggle::UnityEngine.UI.ICanvasElement.IsDestroyed()
-extern "C" bool Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5257 (Toggle_t924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5258 (Toggle_t925 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Transform UnityEngine.UI.Toggle::UnityEngine.UI.ICanvasElement.get_transform()
-extern "C" Transform_t406 * Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5258 (Toggle_t924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Transform_t406 * Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5259 (Toggle_t925 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

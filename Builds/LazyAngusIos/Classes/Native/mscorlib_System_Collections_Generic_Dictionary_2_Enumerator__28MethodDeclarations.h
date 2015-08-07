@@ -9,9 +9,9 @@ struct Enumerator_t5670;
 // System.Object
 struct Object_t;
 // LevelDescription
-struct LevelDescription_t542;
+struct LevelDescription_t543;
 // System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>
-struct Dictionary_2_t547;
+struct Dictionary_2_t548;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int32,LevelDescription>
@@ -20,7 +20,7 @@ struct Dictionary_2_t547;
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,LevelDescription>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__12MethodDeclarations.h"
-#define Enumerator__ctor_m26719(__this, ___dictionary, method) (( void (*) (Enumerator_t5670 *, Dictionary_2_t547 *, const MethodInfo*))Enumerator__ctor_m20991_gshared)(__this, ___dictionary, method)
+#define Enumerator__ctor_m26719(__this, ___dictionary, method) (( void (*) (Enumerator_t5670 *, Dictionary_2_t548 *, const MethodInfo*))Enumerator__ctor_m20991_gshared)(__this, ___dictionary, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,LevelDescription>::System.Collections.IEnumerator.get_Current()
 #define Enumerator_System_Collections_IEnumerator_get_Current_m26720(__this, method) (( Object_t * (*) (Enumerator_t5670 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m20992_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,LevelDescription>::System.Collections.IEnumerator.Reset()
@@ -38,7 +38,7 @@ struct Dictionary_2_t547;
 // TKey System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,LevelDescription>::get_CurrentKey()
 #define Enumerator_get_CurrentKey_m26727(__this, method) (( int32_t (*) (Enumerator_t5670 *, const MethodInfo*))Enumerator_get_CurrentKey_m20999_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,LevelDescription>::get_CurrentValue()
-#define Enumerator_get_CurrentValue_m26728(__this, method) (( LevelDescription_t542 * (*) (Enumerator_t5670 *, const MethodInfo*))Enumerator_get_CurrentValue_m21000_gshared)(__this, method)
+#define Enumerator_get_CurrentValue_m26728(__this, method) (( LevelDescription_t543 * (*) (Enumerator_t5670 *, const MethodInfo*))Enumerator_get_CurrentValue_m21000_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,LevelDescription>::Reset()
 #define Enumerator_Reset_m26729(__this, method) (( void (*) (Enumerator_t5670 *, const MethodInfo*))Enumerator_Reset_m21001_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,LevelDescription>::VerifyState()

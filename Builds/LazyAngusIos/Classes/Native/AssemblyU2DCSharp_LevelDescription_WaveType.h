@@ -5,7 +5,7 @@
 // LevelDescription/WaveType
 #include "AssemblyU2DCSharp_LevelDescription_WaveType.h"
 // LevelDescription/WaveType
-struct  WaveType_t535 
+struct  WaveType_t536 
 {
 	// System.Int32 LevelDescription/WaveType::value__
 	int32_t ___value___1;

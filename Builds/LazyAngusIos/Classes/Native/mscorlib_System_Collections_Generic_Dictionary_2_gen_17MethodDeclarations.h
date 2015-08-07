@@ -11,7 +11,7 @@ struct ICollection_1_t8791;
 // System.Collections.Generic.ICollection`1<UnityEngine.Texture2D>
 struct ICollection_1_t8792;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // UnityEngine.Texture2D

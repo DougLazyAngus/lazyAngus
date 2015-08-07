@@ -11,7 +11,7 @@ struct Object_t;
 // System.Collections.Generic.Dictionary`2<UnityEngine.UI.Graphic,System.Int32>
 struct Dictionary_2_t1010;
 // UnityEngine.UI.Graphic
-struct Graphic_t860;
+struct Graphic_t861;
 // System.Collections.Generic.IEnumerator`1<UnityEngine.UI.Graphic>
 struct IEnumerator_1_t8925;
 // System.Array
@@ -28,13 +28,13 @@ struct GraphicU5BU5D_t5786;
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_21MethodDeclarations.h"
 #define KeyCollection__ctor_m28915(__this, ___dictionary, method) (( void (*) (KeyCollection_t5800 *, Dictionary_2_t1010 *, const MethodInfo*))KeyCollection__ctor_m23608_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m28916(__this, ___item, method) (( void (*) (KeyCollection_t5800 *, Graphic_t860 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m23609_gshared)(__this, ___item, method)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m28916(__this, ___item, method) (( void (*) (KeyCollection_t5800 *, Graphic_t861 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m23609_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.Generic.ICollection<TKey>.Clear()
 #define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m28917(__this, method) (( void (*) (KeyCollection_t5800 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m23610_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.Generic.ICollection<TKey>.Contains(TKey)
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m28918(__this, ___item, method) (( bool (*) (KeyCollection_t5800 *, Graphic_t860 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m23611_gshared)(__this, ___item, method)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m28918(__this, ___item, method) (( bool (*) (KeyCollection_t5800 *, Graphic_t861 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m23611_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.Generic.ICollection<TKey>.Remove(TKey)
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m28919(__this, ___item, method) (( bool (*) (KeyCollection_t5800 *, Graphic_t860 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m23612_gshared)(__this, ___item, method)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m28919(__this, ___item, method) (( bool (*) (KeyCollection_t5800 *, Graphic_t861 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m23612_gshared)(__this, ___item, method)
 // System.Collections.Generic.IEnumerator`1<TKey> System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.Generic.IEnumerable<TKey>.GetEnumerator()
 #define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m28920(__this, method) (( Object_t* (*) (KeyCollection_t5800 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m23613_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.UI.Graphic,System.Int32>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)

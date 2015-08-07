@@ -10,7 +10,7 @@ struct Time_t2707;
 // System.Single UnityEngine.Time::get_time()
 extern "C" float Time_get_time_m3923 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Time::get_deltaTime()
-extern "C" float Time_get_deltaTime_m3945 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Time_get_deltaTime_m3946 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Time::get_unscaledTime()
 extern "C" float Time_get_unscaledTime_m5585 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Time::get_unscaledDeltaTime()

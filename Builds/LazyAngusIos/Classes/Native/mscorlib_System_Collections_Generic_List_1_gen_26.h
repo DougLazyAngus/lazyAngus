@@ -5,7 +5,7 @@ struct GameObjectU5BU5D_t467;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.GameObject>
-struct  List_1_t822  : public Object_t
+struct  List_1_t823  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.GameObject>::_items
 	GameObjectU5BU5D_t467* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t822  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::_version
 	int32_t ____version_3;
 };
-struct List_1_t822_StaticFields{
+struct List_1_t823_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.GameObject>::EmptyArray
 	GameObjectU5BU5D_t467* ___EmptyArray_4;
 };

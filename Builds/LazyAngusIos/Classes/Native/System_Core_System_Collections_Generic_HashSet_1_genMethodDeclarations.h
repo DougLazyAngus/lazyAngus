@@ -9,7 +9,7 @@ struct HashSet_1_t1238;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
 struct IEqualityComparer_1_t5333;
 // System.Collections.Generic.IEnumerable`1<System.String>
-struct IEnumerable_1_t658;
+struct IEnumerable_1_t659;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2869;
 // System.Collections.Generic.IEnumerator`1<System.String>

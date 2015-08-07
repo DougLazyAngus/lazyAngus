@@ -537,11 +537,11 @@ TypeInfo ExtenderType_t4332_il2cpp_TypeInfo =
 // Metadata Definition Mono.Globalization.Unicode.SimpleCollator
 // Mono.Globalization.Unicode.SimpleCollator
 #include "mscorlib_Mono_Globalization_Unicode_SimpleCollatorMethodDeclarations.h"
-extern const Il2CppType CultureInfo_t718_0_0_0;
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 static const ParameterInfo SimpleCollator_t4333_SimpleCollator__ctor_m16079_ParameterInfos[] = 
 {
-	{"culture", 0, 134219525, 0, &CultureInfo_t718_0_0_0},
+	{"culture", 0, 134219525, 0, &CultureInfo_t719_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Globalization.Unicode.SimpleCollator::.ctor(System.Globalization.CultureInfo)
@@ -589,7 +589,7 @@ extern const MethodInfo SimpleCollator__cctor_m16080_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 extern const Il2CppType CodePointIndexer_t4320_1_0_0;
 extern const Il2CppType CodePointIndexer_t4320_1_0_0;
 extern const Il2CppType ByteU2A_t3898_1_0_0;
@@ -599,7 +599,7 @@ extern const Il2CppType CodePointIndexer_t4320_1_0_0;
 extern const Il2CppType ByteU2A_t3898_1_0_0;
 static const ParameterInfo SimpleCollator_t4333_SimpleCollator_SetCJKTable_m16081_ParameterInfos[] = 
 {
-	{"culture", 0, 134219526, 0, &CultureInfo_t718_0_0_0},
+	{"culture", 0, 134219526, 0, &CultureInfo_t719_0_0_0},
 	{"cjkIndexer", 1, 134219527, 0, &CodePointIndexer_t4320_1_0_0},
 	{"catTable", 2, 134219528, 0, &ByteU2A_t3898_1_0_0},
 	{"lv1Table", 3, 134219529, 0, &ByteU2A_t3898_1_0_0},
@@ -629,10 +629,10 @@ extern const MethodInfo SimpleCollator_SetCJKTable_m16081_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 static const ParameterInfo SimpleCollator_t4333_SimpleCollator_GetNeutralCulture_m16082_ParameterInfos[] = 
 {
-	{"info", 0, 134219532, 0, &CultureInfo_t718_0_0_0},
+	{"info", 0, 134219532, 0, &CultureInfo_t719_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Globalization.CultureInfo Mono.Globalization.Unicode.SimpleCollator::GetNeutralCulture(System.Globalization.CultureInfo)
@@ -641,7 +641,7 @@ extern const MethodInfo SimpleCollator_GetNeutralCulture_m16082_MethodInfo =
 	"GetNeutralCulture"/* name */
 	, (methodPointerType)&SimpleCollator_GetNeutralCulture_m16082/* method */
 	, &SimpleCollator_t4333_il2cpp_TypeInfo/* declaring_type */
-	, &CultureInfo_t718_0_0_0/* return_type */
+	, &CultureInfo_t719_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, SimpleCollator_t4333_SimpleCollator_GetNeutralCulture_m16082_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -663,16 +663,16 @@ static const ParameterInfo SimpleCollator_t4333_SimpleCollator_Category_m16083_P
 {
 	{"cp", 0, 134219533, 0, &Int32_t82_0_0_0},
 };
-extern const Il2CppType Byte_t691_0_0_0;
-extern void* RuntimeInvoker_Byte_t691_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType Byte_t692_0_0_0;
+extern void* RuntimeInvoker_Byte_t692_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Globalization.Unicode.SimpleCollator::Category(System.Int32)
 extern const MethodInfo SimpleCollator_Category_m16083_MethodInfo = 
 {
 	"Category"/* name */
 	, (methodPointerType)&SimpleCollator_Category_m16083/* method */
 	, &SimpleCollator_t4333_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Int32_t82/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Int32_t82/* invoker_method */
 	, SimpleCollator_t4333_SimpleCollator_Category_m16083_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -692,15 +692,15 @@ static const ParameterInfo SimpleCollator_t4333_SimpleCollator_Level1_m16084_Par
 {
 	{"cp", 0, 134219534, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Globalization.Unicode.SimpleCollator::Level1(System.Int32)
 extern const MethodInfo SimpleCollator_Level1_m16084_MethodInfo = 
 {
 	"Level1"/* name */
 	, (methodPointerType)&SimpleCollator_Level1_m16084/* method */
 	, &SimpleCollator_t4333_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Int32_t82/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Int32_t82/* invoker_method */
 	, SimpleCollator_t4333_SimpleCollator_Level1_m16084_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -722,15 +722,15 @@ static const ParameterInfo SimpleCollator_t4333_SimpleCollator_Level2_m16085_Par
 	{"cp", 0, 134219535, 0, &Int32_t82_0_0_0},
 	{"ext", 1, 134219536, 0, &ExtenderType_t4332_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Globalization.Unicode.SimpleCollator::Level2(System.Int32,Mono.Globalization.Unicode.SimpleCollator/ExtenderType)
 extern const MethodInfo SimpleCollator_Level2_m16085_MethodInfo = 
 {
 	"Level2"/* name */
 	, (methodPointerType)&SimpleCollator_Level2_m16085/* method */
 	, &SimpleCollator_t4333_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Int32_t82_Int32_t82/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Int32_t82_Int32_t82/* invoker_method */
 	, SimpleCollator_t4333_SimpleCollator_Level2_m16085_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -975,15 +975,15 @@ static const ParameterInfo SimpleCollator_t4333_SimpleCollator_ToDashTypeValue_m
 	{"ext", 0, 134219556, 0, &ExtenderType_t4332_0_0_0},
 	{"opt", 1, 134219557, 0, &CompareOptions_t4421_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Globalization.Unicode.SimpleCollator::ToDashTypeValue(Mono.Globalization.Unicode.SimpleCollator/ExtenderType,System.Globalization.CompareOptions)
 extern const MethodInfo SimpleCollator_ToDashTypeValue_m16093_MethodInfo = 
 {
 	"ToDashTypeValue"/* name */
 	, (methodPointerType)&SimpleCollator_ToDashTypeValue_m16093/* method */
 	, &SimpleCollator_t4333_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Int32_t82_Int32_t82/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Int32_t82_Int32_t82/* invoker_method */
 	, SimpleCollator_t4333_SimpleCollator_ToDashTypeValue_m16093_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
@@ -1895,7 +1895,7 @@ static const ParameterInfo SimpleCollator_t4333_SimpleCollator_IndexOfSortKey_m1
 	{"noLv4", 6, 134219676, 0, &Boolean_t59_0_0_0},
 	{"ctx", 7, 134219677, 0, &Context_t4329_1_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int16_t692_Int32_t82_SByte_t88_ContextU26_t5152 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int16_t693_Int32_t82_SByte_t88_ContextU26_t5152 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 Mono.Globalization.Unicode.SimpleCollator::IndexOfSortKey(System.String,System.Int32,System.Int32,System.Byte*,System.Char,System.Int32,System.Boolean,Mono.Globalization.Unicode.SimpleCollator/Context&)
 extern const MethodInfo SimpleCollator_IndexOfSortKey_m16119_MethodInfo = 
 {
@@ -1903,7 +1903,7 @@ extern const MethodInfo SimpleCollator_IndexOfSortKey_m16119_MethodInfo =
 	, (methodPointerType)&SimpleCollator_IndexOfSortKey_m16119/* method */
 	, &SimpleCollator_t4333_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int16_t692_Int32_t82_SByte_t88_ContextU26_t5152/* invoker_method */
+	, RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int16_t693_Int32_t82_SByte_t88_ContextU26_t5152/* invoker_method */
 	, SimpleCollator_t4333_SimpleCollator_IndexOfSortKey_m16119_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -2966,12 +2966,12 @@ extern const MethodInfo SortKeyBuffer_Initialize_m16141_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo SortKeyBuffer_t4338_SortKeyBuffer_AppendCJKExtension_m16142_ParameterInfos[] = 
 {
-	{"lv1msb", 0, 134219783, 0, &Byte_t691_0_0_0},
-	{"lv1lsb", 1, 134219784, 0, &Byte_t691_0_0_0},
+	{"lv1msb", 0, 134219783, 0, &Byte_t692_0_0_0},
+	{"lv1lsb", 1, 134219784, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Globalization.Unicode.SortKeyBuffer::AppendCJKExtension(System.Byte,System.Byte)
@@ -2996,22 +2996,22 @@ extern const MethodInfo SortKeyBuffer_AppendCJKExtension_m16142_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 static const ParameterInfo SortKeyBuffer_t4338_SortKeyBuffer_AppendKana_m16143_ParameterInfos[] = 
 {
-	{"category", 0, 134219785, 0, &Byte_t691_0_0_0},
-	{"lv1", 1, 134219786, 0, &Byte_t691_0_0_0},
-	{"lv2", 2, 134219787, 0, &Byte_t691_0_0_0},
-	{"lv3", 3, 134219788, 0, &Byte_t691_0_0_0},
+	{"category", 0, 134219785, 0, &Byte_t692_0_0_0},
+	{"lv1", 1, 134219786, 0, &Byte_t692_0_0_0},
+	{"lv2", 2, 134219787, 0, &Byte_t692_0_0_0},
+	{"lv3", 3, 134219788, 0, &Byte_t692_0_0_0},
 	{"isSmallKana", 4, 134219789, 0, &Boolean_t59_0_0_0},
-	{"markType", 5, 134219790, 0, &Byte_t691_0_0_0},
+	{"markType", 5, 134219790, 0, &Byte_t692_0_0_0},
 	{"isKatakana", 6, 134219791, 0, &Boolean_t59_0_0_0},
 	{"isHalfWidth", 7, 134219792, 0, &Boolean_t59_0_0_0},
 };
@@ -3038,16 +3038,16 @@ extern const MethodInfo SortKeyBuffer_AppendKana_m16143_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo SortKeyBuffer_t4338_SortKeyBuffer_AppendNormal_m16144_ParameterInfos[] = 
 {
-	{"category", 0, 134219793, 0, &Byte_t691_0_0_0},
-	{"lv1", 1, 134219794, 0, &Byte_t691_0_0_0},
-	{"lv2", 2, 134219795, 0, &Byte_t691_0_0_0},
-	{"lv3", 3, 134219796, 0, &Byte_t691_0_0_0},
+	{"category", 0, 134219793, 0, &Byte_t692_0_0_0},
+	{"lv1", 1, 134219794, 0, &Byte_t692_0_0_0},
+	{"lv2", 2, 134219795, 0, &Byte_t692_0_0_0},
+	{"lv3", 3, 134219796, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Globalization.Unicode.SortKeyBuffer::AppendNormal(System.Byte,System.Byte,System.Byte,System.Byte)
@@ -3072,12 +3072,12 @@ extern const MethodInfo SortKeyBuffer_AppendNormal_m16144_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo SortKeyBuffer_t4338_SortKeyBuffer_AppendLevel5_m16145_ParameterInfos[] = 
 {
-	{"category", 0, 134219797, 0, &Byte_t691_0_0_0},
-	{"lv1", 1, 134219798, 0, &Byte_t691_0_0_0},
+	{"category", 0, 134219797, 0, &Byte_t692_0_0_0},
+	{"lv1", 1, 134219798, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Globalization.Unicode.SortKeyBuffer::AppendLevel5(System.Byte,System.Byte)
@@ -3102,13 +3102,13 @@ extern const MethodInfo SortKeyBuffer_AppendLevel5_m16145_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 extern const Il2CppType ByteU5BU5D_t66_1_0_0;
 extern const Il2CppType ByteU5BU5D_t66_1_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
 static const ParameterInfo SortKeyBuffer_t4338_SortKeyBuffer_AppendBufferPrimitive_m16146_ParameterInfos[] = 
 {
-	{"value", 0, 134219799, 0, &Byte_t691_0_0_0},
+	{"value", 0, 134219799, 0, &Byte_t692_0_0_0},
 	{"buf", 1, 134219800, 0, &ByteU5BU5D_t66_1_0_0},
 	{"bidx", 2, 134219801, 0, &Int32_t82_1_0_0},
 };
@@ -3160,12 +3160,12 @@ extern const MethodInfo SortKeyBuffer_GetResultAndReset_m16147_MethodInfo =
 };
 extern const Il2CppType ByteU5BU5D_t66_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo SortKeyBuffer_t4338_SortKeyBuffer_GetOptimizedLength_m16148_ParameterInfos[] = 
 {
 	{"data", 0, 134219802, 0, &ByteU5BU5D_t66_0_0_0},
 	{"len", 1, 134219803, 0, &Int32_t82_0_0_0},
-	{"defaultValue", 2, 134219804, 0, &Byte_t691_0_0_0},
+	{"defaultValue", 2, 134219804, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 Mono.Globalization.Unicode.SortKeyBuffer::GetOptimizedLength(System.Byte[],System.Int32,System.Byte)
@@ -4489,12 +4489,12 @@ extern const MethodInfo ModulusRing_Pow_m16167_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 extern const Il2CppType BigInteger_t4344_0_0_0;
 static const ParameterInfo ModulusRing_t4345_ModulusRing_Pow_m16168_ParameterInfos[] = 
 {
-	{"b", 0, 134219889, 0, &UInt32_t690_0_0_0},
+	{"b", 0, 134219889, 0, &UInt32_t691_0_0_0},
 	{"exp", 1, 134219890, 0, &BigInteger_t4344_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -4772,21 +4772,21 @@ extern const MethodInfo Kernel_Compare_m16173_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t4344_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo Kernel_t4346_Kernel_SingleByteDivideInPlace_m16174_ParameterInfos[] = 
 {
 	{"n", 0, 134219901, 0, &BigInteger_t4344_0_0_0},
-	{"d", 1, 134219902, 0, &UInt32_t690_0_0_0},
+	{"d", 1, 134219902, 0, &UInt32_t691_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 Mono.Math.BigInteger/Kernel::SingleByteDivideInPlace(Mono.Math.BigInteger,System.UInt32)
 extern const MethodInfo Kernel_SingleByteDivideInPlace_m16174_MethodInfo = 
 {
 	"SingleByteDivideInPlace"/* name */
 	, (methodPointerType)&Kernel_SingleByteDivideInPlace_m16174/* method */
 	, &Kernel_t4346_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t_Int32_t82/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t_Int32_t82/* invoker_method */
 	, Kernel_t4346_Kernel_SingleByteDivideInPlace_m16174_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -4802,21 +4802,21 @@ extern const MethodInfo Kernel_SingleByteDivideInPlace_m16174_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t4344_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo Kernel_t4346_Kernel_DwordMod_m16175_ParameterInfos[] = 
 {
 	{"n", 0, 134219903, 0, &BigInteger_t4344_0_0_0},
-	{"d", 1, 134219904, 0, &UInt32_t690_0_0_0},
+	{"d", 1, 134219904, 0, &UInt32_t691_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 Mono.Math.BigInteger/Kernel::DwordMod(Mono.Math.BigInteger,System.UInt32)
 extern const MethodInfo Kernel_DwordMod_m16175_MethodInfo = 
 {
 	"DwordMod"/* name */
 	, (methodPointerType)&Kernel_DwordMod_m16175/* method */
 	, &Kernel_t4346_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t_Int32_t82/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t_Int32_t82/* invoker_method */
 	, Kernel_t4346_Kernel_DwordMod_m16175_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -4832,11 +4832,11 @@ extern const MethodInfo Kernel_DwordMod_m16175_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t4344_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo Kernel_t4346_Kernel_DwordDivMod_m16176_ParameterInfos[] = 
 {
 	{"n", 0, 134219905, 0, &BigInteger_t4344_0_0_0},
-	{"d", 1, 134219906, 0, &UInt32_t690_0_0_0},
+	{"d", 1, 134219906, 0, &UInt32_t691_0_0_0},
 };
 extern const Il2CppType BigIntegerU5BU5D_t4828_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -4953,11 +4953,11 @@ extern const MethodInfo Kernel_RightShift_m16179_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t4344_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo Kernel_t4346_Kernel_MultiplyByDword_m16180_ParameterInfos[] = 
 {
 	{"n", 0, 134219913, 0, &BigInteger_t4344_0_0_0},
-	{"f", 1, 134219914, 0, &UInt32_t690_0_0_0},
+	{"f", 1, 134219914, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::MultiplyByDword(Mono.Math.BigInteger,System.UInt32)
@@ -4984,23 +4984,23 @@ extern const MethodInfo Kernel_MultiplyByDword_m16180_MethodInfo =
 };
 extern const Il2CppType UInt32U5BU5D_t3169_0_0_0;
 extern const Il2CppType UInt32U5BU5D_t3169_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 extern const Il2CppType UInt32U5BU5D_t3169_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 extern const Il2CppType UInt32U5BU5D_t3169_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo Kernel_t4346_Kernel_Multiply_m16181_ParameterInfos[] = 
 {
 	{"x", 0, 134219915, 0, &UInt32U5BU5D_t3169_0_0_0},
-	{"xOffset", 1, 134219916, 0, &UInt32_t690_0_0_0},
-	{"xLen", 2, 134219917, 0, &UInt32_t690_0_0_0},
+	{"xOffset", 1, 134219916, 0, &UInt32_t691_0_0_0},
+	{"xLen", 2, 134219917, 0, &UInt32_t691_0_0_0},
 	{"y", 3, 134219918, 0, &UInt32U5BU5D_t3169_0_0_0},
-	{"yOffset", 4, 134219919, 0, &UInt32_t690_0_0_0},
-	{"yLen", 5, 134219920, 0, &UInt32_t690_0_0_0},
+	{"yOffset", 4, 134219919, 0, &UInt32_t691_0_0_0},
+	{"yLen", 5, 134219920, 0, &UInt32_t691_0_0_0},
 	{"d", 6, 134219921, 0, &UInt32U5BU5D_t3169_0_0_0},
-	{"dOffset", 7, 134219922, 0, &UInt32_t690_0_0_0},
+	{"dOffset", 7, 134219922, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Math.BigInteger/Kernel::Multiply(System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32)
@@ -5070,21 +5070,21 @@ extern const MethodInfo Kernel_MultiplyMod2p32pmod_m16182_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t4344_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo Kernel_t4346_Kernel_modInverse_m16183_ParameterInfos[] = 
 {
 	{"bi", 0, 134219932, 0, &BigInteger_t4344_0_0_0},
-	{"modulus", 1, 134219933, 0, &UInt32_t690_0_0_0},
+	{"modulus", 1, 134219933, 0, &UInt32_t691_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 Mono.Math.BigInteger/Kernel::modInverse(Mono.Math.BigInteger,System.UInt32)
 extern const MethodInfo Kernel_modInverse_m16183_MethodInfo = 
 {
 	"modInverse"/* name */
 	, (methodPointerType)&Kernel_modInverse_m16183/* method */
 	, &Kernel_t4346_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t_Int32_t82/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t_Int32_t82/* invoker_method */
 	, Kernel_t4346_Kernel_modInverse_m16183_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5240,11 +5240,11 @@ TypeInfo Kernel_t4346_il2cpp_TypeInfo =
 // Mono.Math.BigInteger
 #include "mscorlib_Mono_Math_BigIntegerMethodDeclarations.h"
 extern const Il2CppType Sign_t4343_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t4344_BigInteger__ctor_m16185_ParameterInfos[] = 
 {
 	{"sign", 0, 134219821, 0, &Sign_t4343_0_0_0},
-	{"len", 1, 134219822, 0, &UInt32_t690_0_0_0},
+	{"len", 1, 134219822, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger/Sign,System.UInt32)
@@ -5298,11 +5298,11 @@ extern const MethodInfo BigInteger__ctor_m16186_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t4344_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t4344_BigInteger__ctor_m16187_ParameterInfos[] = 
 {
 	{"bi", 0, 134219824, 0, &BigInteger_t4344_0_0_0},
-	{"len", 1, 134219825, 0, &UInt32_t690_0_0_0},
+	{"len", 1, 134219825, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger,System.UInt32)
@@ -5355,10 +5355,10 @@ extern const MethodInfo BigInteger__ctor_m16188_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t4344_BigInteger__ctor_m16189_ParameterInfos[] = 
 {
-	{"ui", 0, 134219827, 0, &UInt32_t690_0_0_0},
+	{"ui", 0, 134219827, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Math.BigInteger::.ctor(System.UInt32)
@@ -5562,10 +5562,10 @@ extern const MethodInfo BigInteger_BitCount_m16196_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t4344_BigInteger_TestBit_m16197_ParameterInfos[] = 
 {
-	{"bitNum", 0, 134219832, 0, &UInt32_t690_0_0_0},
+	{"bitNum", 0, 134219832, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Math.BigInteger::TestBit(System.UInt32)
@@ -5618,10 +5618,10 @@ extern const MethodInfo BigInteger_TestBit_m16198_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t4344_BigInteger_SetBit_m16199_ParameterInfos[] = 
 {
-	{"bitNum", 0, 134219834, 0, &UInt32_t690_0_0_0},
+	{"bitNum", 0, 134219834, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Math.BigInteger::SetBit(System.UInt32)
@@ -5646,11 +5646,11 @@ extern const MethodInfo BigInteger_SetBit_m16199_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 static const ParameterInfo BigInteger_t4344_BigInteger_SetBit_m16200_ParameterInfos[] = 
 {
-	{"bitNum", 0, 134219835, 0, &UInt32_t690_0_0_0},
+	{"bitNum", 0, 134219835, 0, &UInt32_t691_0_0_0},
 	{"value", 1, 134219836, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -5722,10 +5722,10 @@ extern const MethodInfo BigInteger_GetBytes_m16202_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t4344_BigInteger_ToString_m16203_ParameterInfos[] = 
 {
-	{"radix", 0, 134219837, 0, &UInt32_t690_0_0_0},
+	{"radix", 0, 134219837, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Math.BigInteger::ToString(System.UInt32)
@@ -5750,11 +5750,11 @@ extern const MethodInfo BigInteger_ToString_m16203_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo BigInteger_t4344_BigInteger_ToString_m16204_ParameterInfos[] = 
 {
-	{"radix", 0, 134219838, 0, &UInt32_t690_0_0_0},
+	{"radix", 0, 134219838, 0, &UInt32_t691_0_0_0},
 	{"characterSet", 1, 134219839, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -6032,10 +6032,10 @@ extern const MethodInfo BigInteger_Incr2_m16214_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t4344_BigInteger_op_Implicit_m16215_ParameterInfos[] = 
 {
-	{"value", 0, 134219845, 0, &UInt32_t690_0_0_0},
+	{"value", 0, 134219845, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // Mono.Math.BigInteger Mono.Math.BigInteger::op_Implicit(System.UInt32)
@@ -6149,21 +6149,21 @@ extern const MethodInfo BigInteger_op_Subtraction_m16218_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t4344_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t4344_BigInteger_op_Modulus_m16219_ParameterInfos[] = 
 {
 	{"bi", 0, 134219851, 0, &BigInteger_t4344_0_0_0},
-	{"ui", 1, 134219852, 0, &UInt32_t690_0_0_0},
+	{"ui", 1, 134219852, 0, &UInt32_t691_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 Mono.Math.BigInteger::op_Modulus(Mono.Math.BigInteger,System.UInt32)
 extern const MethodInfo BigInteger_op_Modulus_m16219_MethodInfo = 
 {
 	"op_Modulus"/* name */
 	, (methodPointerType)&BigInteger_op_Modulus_m16219/* method */
 	, &BigInteger_t4344_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t_Int32_t82/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t_Int32_t82/* invoker_method */
 	, BigInteger_t4344_BigInteger_op_Modulus_m16219_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
@@ -6359,11 +6359,11 @@ extern const MethodInfo BigInteger_op_RightShift_m16225_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t4344_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t4344_BigInteger_op_Equality_m16226_ParameterInfos[] = 
 {
 	{"bi1", 0, 134219865, 0, &BigInteger_t4344_0_0_0},
-	{"ui", 1, 134219866, 0, &UInt32_t690_0_0_0},
+	{"ui", 1, 134219866, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Math.BigInteger::op_Equality(Mono.Math.BigInteger,System.UInt32)
@@ -6389,11 +6389,11 @@ extern const MethodInfo BigInteger_op_Equality_m16226_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t4344_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t4344_BigInteger_op_Inequality_m16227_ParameterInfos[] = 
 {
 	{"bi1", 0, 134219867, 0, &BigInteger_t4344_0_0_0},
-	{"ui", 1, 134219868, 0, &UInt32_t690_0_0_0},
+	{"ui", 1, 134219868, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Math.BigInteger::op_Inequality(Mono.Math.BigInteger,System.UInt32)
@@ -6803,15 +6803,15 @@ static const ParameterInfo CryptoConvert_t4347_CryptoConvert_ToUInt32LE_m16235_P
 	{"bytes", 0, 134219938, 0, &ByteU5BU5D_t66_0_0_0},
 	{"offset", 1, 134219939, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 Mono.Security.Cryptography.CryptoConvert::ToUInt32LE(System.Byte[],System.Int32)
 extern const MethodInfo CryptoConvert_ToUInt32LE_m16235_MethodInfo = 
 {
 	"ToUInt32LE"/* name */
 	, (methodPointerType)&CryptoConvert_ToUInt32LE_m16235/* method */
 	, &CryptoConvert_t4347_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t_Int32_t82/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t_Int32_t82/* invoker_method */
 	, CryptoConvert_t4347_CryptoConvert_ToUInt32LE_m16235_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
@@ -7691,30 +7691,30 @@ static const MethodInfo* KeyGeneratedEventHandler_t4350_MethodInfos[] =
 	&KeyGeneratedEventHandler_EndInvoke_m16254_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m4257_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m4258_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m4259_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo;
-extern const MethodInfo Delegate_Clone_m4261_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4262_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m4263_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m4258_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m4259_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m4260_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo;
+extern const MethodInfo Delegate_Clone_m4262_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4263_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4265_MethodInfo;
 extern const MethodInfo KeyGeneratedEventHandler_Invoke_m16252_MethodInfo;
 extern const MethodInfo KeyGeneratedEventHandler_BeginInvoke_m16253_MethodInfo;
 extern const MethodInfo KeyGeneratedEventHandler_EndInvoke_m16254_MethodInfo;
 static const Il2CppMethodReference KeyGeneratedEventHandler_t4350_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&KeyGeneratedEventHandler_Invoke_m16252_MethodInfo,
 	&KeyGeneratedEventHandler_BeginInvoke_m16253_MethodInfo,
 	&KeyGeneratedEventHandler_EndInvoke_m16254_MethodInfo,
@@ -7736,12 +7736,12 @@ static bool KeyGeneratedEventHandler_t4350_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICloneable_t761_0_0_0;
-extern const Il2CppType ISerializable_t762_0_0_0;
+extern const Il2CppType ICloneable_t762_0_0_0;
+extern const Il2CppType ISerializable_t763_0_0_0;
 static Il2CppInterfaceOffsetPair KeyGeneratedEventHandler_t4350_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType KeyGeneratedEventHandler_t4350_0_0_0;
@@ -11014,17 +11014,17 @@ extern const MethodInfo KeyGeneratedEventHandler_BeginInvoke_m16333_MethodInfo;
 extern const MethodInfo KeyGeneratedEventHandler_EndInvoke_m16334_MethodInfo;
 static const Il2CppMethodReference KeyGeneratedEventHandler_t4358_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&KeyGeneratedEventHandler_Invoke_m16332_MethodInfo,
 	&KeyGeneratedEventHandler_BeginInvoke_m16333_MethodInfo,
 	&KeyGeneratedEventHandler_EndInvoke_m16334_MethodInfo,
@@ -11048,8 +11048,8 @@ static bool KeyGeneratedEventHandler_t4358_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair KeyGeneratedEventHandler_t4358_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType KeyGeneratedEventHandler_t4358_0_0_0;
@@ -13740,11 +13740,11 @@ static bool PKCS12_t4365_VTableIsGenericMethod[] =
 };
 static const Il2CppType* PKCS12_t4365_InterfacesTypeInfos[] = 
 {
-	&ICloneable_t761_0_0_0,
+	&ICloneable_t762_0_0_0,
 };
 static Il2CppInterfaceOffsetPair PKCS12_t4365_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType PKCS12_t4365_1_0_0;
@@ -14594,11 +14594,11 @@ static bool X509Certificate_t4368_VTableIsGenericMethod[] =
 };
 static const Il2CppType* X509Certificate_t4368_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair X509Certificate_t4368_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType X509Certificate_t4368_0_0_0;
@@ -15269,13 +15269,13 @@ static const Il2CppType* X509CertificateCollection_t4364_InterfacesTypeInfos[] =
 {
 	&IEnumerable_t104_0_0_0,
 };
-extern const Il2CppType ICollection_t704_0_0_0;
-extern const Il2CppType IList_t639_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
+extern const Il2CppType IList_t640_0_0_0;
 static Il2CppInterfaceOffsetPair X509CertificateCollection_t4364_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType X509CertificateCollection_t4364_1_0_0;
@@ -15771,8 +15771,8 @@ static const Il2CppType* X509ExtensionCollection_t4367_InterfacesTypeInfos[] =
 static Il2CppInterfaceOffsetPair X509ExtensionCollection_t4367_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType X509ExtensionCollection_t4367_0_0_0;
@@ -15851,10 +15851,10 @@ TypeInfo X509ExtensionCollection_t4367_il2cpp_TypeInfo =
 extern TypeInfo ASN1_t4361_il2cpp_TypeInfo;
 // Mono.Security.ASN1
 #include "mscorlib_Mono_Security_ASN1MethodDeclarations.h"
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo ASN1_t4361_ASN1__ctor_m16442_ParameterInfos[] = 
 {
-	{"tag", 0, 134220163, 0, &Byte_t691_0_0_0},
+	{"tag", 0, 134220163, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.ASN1::.ctor(System.Byte)
@@ -15879,11 +15879,11 @@ extern const MethodInfo ASN1__ctor_m16442_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 extern const Il2CppType ByteU5BU5D_t66_0_0_0;
 static const ParameterInfo ASN1_t4361_ASN1__ctor_m16443_ParameterInfos[] = 
 {
-	{"tag", 0, 134220164, 0, &Byte_t691_0_0_0},
+	{"tag", 0, 134220164, 0, &Byte_t692_0_0_0},
 	{"data", 1, 134220165, 0, &ByteU5BU5D_t66_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -15960,15 +15960,15 @@ extern const MethodInfo ASN1_get_Count_m16445_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Security.ASN1::get_Tag()
 extern const MethodInfo ASN1_get_Tag_m16446_MethodInfo = 
 {
 	"get_Tag"/* name */
 	, (methodPointerType)&ASN1_get_Tag_m16446/* method */
 	, &ASN1_t4361_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -16200,15 +16200,15 @@ extern const MethodInfo ASN1_Decode_m16454_MethodInfo =
 };
 extern const Il2CppType ByteU5BU5D_t66_0_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
-extern const Il2CppType Byte_t691_1_0_2;
-extern const Il2CppType Byte_t691_1_0_0;
+extern const Il2CppType Byte_t692_1_0_2;
+extern const Il2CppType Byte_t692_1_0_0;
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType ByteU5BU5D_t66_1_0_2;
 static const ParameterInfo ASN1_t4361_ASN1_DecodeTLV_m16455_ParameterInfos[] = 
 {
 	{"asn1", 0, 134220175, 0, &ByteU5BU5D_t66_0_0_0},
 	{"pos", 1, 134220176, 0, &Int32_t82_1_0_0},
-	{"tag", 2, 134220177, 0, &Byte_t691_1_0_2},
+	{"tag", 2, 134220177, 0, &Byte_t692_1_0_2},
 	{"length", 3, 134220178, 0, &Int32_t82_1_0_2},
 	{"content", 4, 134220179, 0, &ByteU5BU5D_t66_1_0_2},
 };
@@ -16264,11 +16264,11 @@ extern const MethodInfo ASN1_get_Item_m16456_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo ASN1_t4361_ASN1_Element_m16457_ParameterInfos[] = 
 {
 	{"index", 0, 134220181, 0, &Int32_t82_0_0_0},
-	{"anTag", 1, 134220182, 0, &Byte_t691_0_0_0},
+	{"anTag", 1, 134220182, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // Mono.Security.ASN1 Mono.Security.ASN1::Element(System.Int32,System.Byte)
@@ -16762,13 +16762,13 @@ extern const MethodInfo BitConverterLE_GetULongBytes_m16464_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 static const ParameterInfo BitConverterLE_t4372_BitConverterLE_GetBytes_m16465_ParameterInfos[] = 
 {
-	{"value", 0, 134220189, 0, &Int16_t692_0_0_0},
+	{"value", 0, 134220189, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] Mono.Security.BitConverterLE::GetBytes(System.Int16)
 extern const MethodInfo BitConverterLE_GetBytes_m16465_MethodInfo = 
 {
@@ -16776,7 +16776,7 @@ extern const MethodInfo BitConverterLE_GetBytes_m16465_MethodInfo =
 	, (methodPointerType)&BitConverterLE_GetBytes_m16465/* method */
 	, &BitConverterLE_t4372_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t66_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Object_t_Int16_t693/* invoker_method */
 	, BitConverterLE_t4372_BitConverterLE_GetBytes_m16465_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
@@ -16980,15 +16980,15 @@ static const ParameterInfo BitConverterLE_t4372_BitConverterLE_ToInt16_m16472_Pa
 	{"value", 0, 134220202, 0, &ByteU5BU5D_t66_0_0_0},
 	{"startIndex", 1, 134220203, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int16 Mono.Security.BitConverterLE::ToInt16(System.Byte[],System.Int32)
 extern const MethodInfo BitConverterLE_ToInt16_m16472_MethodInfo = 
 {
 	"ToInt16"/* name */
 	, (methodPointerType)&BitConverterLE_ToInt16_m16472/* method */
 	, &BitConverterLE_t4372_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t_Int32_t82/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t_Int32_t82/* invoker_method */
 	, BitConverterLE_t4372_BitConverterLE_ToInt16_m16472_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
@@ -19307,7 +19307,7 @@ static const ParameterInfo SmallXmlParser_t4379_SmallXmlParser_IsNameChar_m16510
 	{"c", 0, 134220226, 0, &Char_t60_0_0_0},
 	{"start", 1, 134220227, 0, &Boolean_t59_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692_SByte_t88 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Xml.SmallXmlParser::IsNameChar(System.Char,System.Boolean)
 extern const MethodInfo SmallXmlParser_IsNameChar_m16510_MethodInfo = 
 {
@@ -19315,7 +19315,7 @@ extern const MethodInfo SmallXmlParser_IsNameChar_m16510_MethodInfo =
 	, (methodPointerType)&SmallXmlParser_IsNameChar_m16510/* method */
 	, &SmallXmlParser_t4379_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692_SByte_t88/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693_SByte_t88/* invoker_method */
 	, SmallXmlParser_t4379_SmallXmlParser_IsNameChar_m16510_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -19513,7 +19513,7 @@ static const ParameterInfo SmallXmlParser_t4379_SmallXmlParser_ReadUntil_m16518_
 	{"until", 0, 134220231, 0, &Char_t60_0_0_0},
 	{"handleReferences", 1, 134220232, 0, &Boolean_t59_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Int16_t692_SByte_t88 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Int16_t693_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml.SmallXmlParser::ReadUntil(System.Char,System.Boolean)
 extern const MethodInfo SmallXmlParser_ReadUntil_m16518_MethodInfo = 
 {
@@ -19521,7 +19521,7 @@ extern const MethodInfo SmallXmlParser_ReadUntil_m16518_MethodInfo =
 	, (methodPointerType)&SmallXmlParser_ReadUntil_m16518/* method */
 	, &SmallXmlParser_t4379_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int16_t692_SByte_t88/* invoker_method */
+	, RuntimeInvoker_Object_t_Int16_t693_SByte_t88/* invoker_method */
 	, SmallXmlParser_t4379_SmallXmlParser_ReadUntil_m16518_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -20000,7 +20000,7 @@ static bool SmallXmlParserException_t4382_VTableIsGenericMethod[] =
 extern const Il2CppType _Exception_t2331_0_0_0;
 static Il2CppInterfaceOffsetPair SmallXmlParserException_t4382_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
@@ -22889,14 +22889,14 @@ extern const Il2CppType IEnumerable_1_t5190_0_0_0;
 static const Il2CppType* KeyCollection_t4884_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&ICollection_1_t5189_0_0_0,
 	&IEnumerable_1_t5190_0_0_0,
 };
 static Il2CppInterfaceOffsetPair KeyCollection_t4884_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 5},
 	{ &ICollection_1_t5189_0_0_0, 9},
 	{ &IEnumerable_1_t5190_0_0_0, 16},
 };
@@ -23803,14 +23803,14 @@ extern const Il2CppType IEnumerable_1_t5203_0_0_0;
 static const Il2CppType* ValueCollection_t4886_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&ICollection_1_t5202_0_0_0,
 	&IEnumerable_1_t5203_0_0_0,
 };
 static Il2CppInterfaceOffsetPair ValueCollection_t4886_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 5},
 	{ &ICollection_1_t5202_0_0_0, 9},
 	{ &IEnumerable_1_t5203_0_0_0, 16},
 };
@@ -24062,17 +24062,17 @@ extern const MethodInfo Transform_1_BeginInvoke_m20242_MethodInfo;
 extern const MethodInfo Transform_1_EndInvoke_m20243_MethodInfo;
 static const Il2CppMethodReference Transform_1_t4888_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&Transform_1_Invoke_m20241_MethodInfo,
 	&Transform_1_BeginInvoke_m20242_MethodInfo,
 	&Transform_1_EndInvoke_m20243_MethodInfo,
@@ -24096,8 +24096,8 @@ static bool Transform_1_t4888_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair Transform_1_t4888_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType Transform_1_t4888_0_0_0;
@@ -24397,7 +24397,7 @@ extern const MethodInfo Dictionary_2_System_Collections_IDictionary_get_Keys_m20
 	"System.Collections.IDictionary.get_Keys"/* name */
 	, NULL/* method */
 	, &Dictionary_2_t4881_il2cpp_TypeInfo/* declaring_type */
-	, &ICollection_t704_0_0_0/* return_type */
+	, &ICollection_t705_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -25934,29 +25934,29 @@ static bool Dictionary_2_t4881_VTableIsGenericMethod[] =
 };
 extern const Il2CppType ICollection_1_t5226_0_0_0;
 extern const Il2CppType IEnumerable_1_t5227_0_0_0;
-extern const Il2CppType IDictionary_t638_0_0_0;
-extern const Il2CppType IDeserializationCallback_t766_0_0_0;
+extern const Il2CppType IDictionary_t639_0_0_0;
+extern const Il2CppType IDeserializationCallback_t767_0_0_0;
 static const Il2CppType* Dictionary_2_t4881_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ISerializable_t762_0_0_0,
-	&ICollection_t704_0_0_0,
+	&ISerializable_t763_0_0_0,
+	&ICollection_t705_0_0_0,
 	&ICollection_1_t5226_0_0_0,
 	&IEnumerable_1_t5227_0_0_0,
 	&IDictionary_2_t5211_0_0_0,
-	&IDictionary_t638_0_0_0,
-	&IDeserializationCallback_t766_0_0_0,
+	&IDictionary_t639_0_0_0,
+	&IDeserializationCallback_t767_0_0_0,
 };
 static Il2CppInterfaceOffsetPair Dictionary_2_t4881_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 5},
-	{ &ICollection_t704_0_0_0, 6},
+	{ &ISerializable_t763_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 6},
 	{ &ICollection_1_t5226_0_0_0, 10},
 	{ &IEnumerable_1_t5227_0_0_0, 17},
 	{ &IDictionary_2_t5211_0_0_0, 18},
-	{ &IDictionary_t638_0_0_0, 26},
-	{ &IDeserializationCallback_t766_0_0_0, 33},
+	{ &IDictionary_t639_0_0_0, 26},
+	{ &IDeserializationCallback_t767_0_0_0, 33},
 };
 extern const Il2CppGenericMethod Dictionary_2_Init_m20714_GenericMethod;
 extern const Il2CppGenericMethod Dictionary_2__ctor_m20715_GenericMethod;
@@ -27629,11 +27629,11 @@ static bool KeyNotFoundException_t4385_VTableIsGenericMethod[] =
 };
 static const Il2CppType* KeyNotFoundException_t4385_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair KeyNotFoundException_t4385_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
@@ -30142,8 +30142,8 @@ extern const Il2CppType IList_1_t5272_0_0_0;
 static const Il2CppType* List_1_t4896_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICollection_t704_0_0_0,
-	&IList_t639_0_0_0,
+	&ICollection_t705_0_0_0,
+	&IList_t640_0_0_0,
 	&ICollection_1_t5265_0_0_0,
 	&IEnumerable_1_t5262_0_0_0,
 	&IList_1_t5272_0_0_0,
@@ -30151,8 +30151,8 @@ static const Il2CppType* List_1_t4896_InterfacesTypeInfos[] =
 static Il2CppInterfaceOffsetPair List_1_t4896_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 	{ &ICollection_1_t5265_0_0_0, 20},
 	{ &IEnumerable_1_t5262_0_0_0, 27},
 	{ &IList_1_t5272_0_0_0, 28},
@@ -31498,8 +31498,8 @@ extern const Il2CppType IEnumerable_1_t5278_0_0_0;
 static const Il2CppType* Collection_1_t4898_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICollection_t704_0_0_0,
-	&IList_t639_0_0_0,
+	&ICollection_t705_0_0_0,
+	&IList_t640_0_0_0,
 	&ICollection_1_t5277_0_0_0,
 	&IList_1_t5276_0_0_0,
 	&IEnumerable_1_t5278_0_0_0,
@@ -31507,8 +31507,8 @@ static const Il2CppType* Collection_1_t4898_InterfacesTypeInfos[] =
 static Il2CppInterfaceOffsetPair Collection_1_t4898_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 	{ &ICollection_1_t5277_0_0_0, 20},
 	{ &IList_1_t5276_0_0_0, 27},
 	{ &IEnumerable_1_t5278_0_0_0, 32},
@@ -32648,8 +32648,8 @@ extern const Il2CppType IEnumerable_1_t5285_0_0_0;
 static const Il2CppType* ReadOnlyCollection_1_t4899_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICollection_t704_0_0_0,
-	&IList_t639_0_0_0,
+	&ICollection_t705_0_0_0,
+	&IList_t640_0_0_0,
 	&ICollection_1_t5284_0_0_0,
 	&IList_1_t5281_0_0_0,
 	&IEnumerable_1_t5285_0_0_0,
@@ -32657,8 +32657,8 @@ static const Il2CppType* ReadOnlyCollection_1_t4899_InterfacesTypeInfos[] =
 static Il2CppInterfaceOffsetPair ReadOnlyCollection_1_t4899_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 	{ &ICollection_1_t5284_0_0_0, 20},
 	{ &IList_1_t5281_0_0_0, 27},
 	{ &IEnumerable_1_t5285_0_0_0, 32},
@@ -32923,12 +32923,12 @@ static bool SimpleEnumerator_t4386_VTableIsGenericMethod[] =
 static const Il2CppType* SimpleEnumerator_t4386_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t48_0_0_0,
-	&ICloneable_t761_0_0_0,
+	&ICloneable_t762_0_0_0,
 };
 static Il2CppInterfaceOffsetPair SimpleEnumerator_t4386_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t48_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 7},
+	{ &ICloneable_t762_0_0_0, 7},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType SimpleEnumerator_t4386_0_0_0;
@@ -33460,11 +33460,11 @@ extern const MethodInfo ArrayListWrapper_Insert_m16555_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType ICollection_t704_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
 static const ParameterInfo ArrayListWrapper_t4387_ArrayListWrapper_InsertRange_m16556_ParameterInfos[] = 
 {
 	{"index", 0, 134220554, 0, &Int32_t82_0_0_0},
-	{"c", 1, 134220555, 0, &ICollection_t704_0_0_0},
+	{"c", 1, 134220555, 0, &ICollection_t705_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Collections.ArrayList/ArrayListWrapper::InsertRange(System.Int32,System.Collections.ICollection)
@@ -33660,10 +33660,10 @@ extern const MethodInfo ArrayListWrapper_GetEnumerator_m16562_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ICollection_t704_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
 static const ParameterInfo ArrayListWrapper_t4387_ArrayListWrapper_AddRange_m16563_ParameterInfos[] = 
 {
-	{"c", 0, 134220565, 0, &ICollection_t704_0_0_0},
+	{"c", 0, 134220565, 0, &ICollection_t705_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Collections.ArrayList/ArrayListWrapper::AddRange(System.Collections.ICollection)
@@ -33762,7 +33762,7 @@ extern const MethodInfo ArrayListWrapper_Sort_m16566_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Collections.ArrayList/ArrayListWrapper::ToArray()
 extern const MethodInfo ArrayListWrapper_ToArray_m16567_MethodInfo = 
@@ -33770,7 +33770,7 @@ extern const MethodInfo ArrayListWrapper_ToArray_m16567_MethodInfo =
 	"ToArray"/* name */
 	, (methodPointerType)&ArrayListWrapper_ToArray_m16567/* method */
 	, &ArrayListWrapper_t4387_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t635_0_0_0/* return_type */
+	, &ObjectU5BU5D_t636_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -34066,9 +34066,9 @@ static bool ArrayListWrapper_t4387_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair ArrayListWrapper_t4387_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICloneable_t762_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType ArrayListWrapper_t4387_0_0_0;
@@ -34599,11 +34599,11 @@ extern const MethodInfo SynchronizedArrayListWrapper_Insert_m16585_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType ICollection_t704_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
 static const ParameterInfo SynchronizedArrayListWrapper_t4388_SynchronizedArrayListWrapper_InsertRange_m16586_ParameterInfos[] = 
 {
 	{"index", 0, 134220583, 0, &Int32_t82_0_0_0},
-	{"c", 1, 134220584, 0, &ICollection_t704_0_0_0},
+	{"c", 1, 134220584, 0, &ICollection_t705_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Collections.ArrayList/SynchronizedArrayListWrapper::InsertRange(System.Int32,System.Collections.ICollection)
@@ -34799,10 +34799,10 @@ extern const MethodInfo SynchronizedArrayListWrapper_GetEnumerator_m16592_Method
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ICollection_t704_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
 static const ParameterInfo SynchronizedArrayListWrapper_t4388_SynchronizedArrayListWrapper_AddRange_m16593_ParameterInfos[] = 
 {
-	{"c", 0, 134220594, 0, &ICollection_t704_0_0_0},
+	{"c", 0, 134220594, 0, &ICollection_t705_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Collections.ArrayList/SynchronizedArrayListWrapper::AddRange(System.Collections.ICollection)
@@ -34908,7 +34908,7 @@ extern const MethodInfo SynchronizedArrayListWrapper_ToArray_m16597_MethodInfo =
 	"ToArray"/* name */
 	, (methodPointerType)&SynchronizedArrayListWrapper_ToArray_m16597/* method */
 	, &SynchronizedArrayListWrapper_t4388_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t635_0_0_0/* return_type */
+	, &ObjectU5BU5D_t636_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -35203,9 +35203,9 @@ static bool SynchronizedArrayListWrapper_t4388_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair SynchronizedArrayListWrapper_t4388_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICloneable_t762_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType SynchronizedArrayListWrapper_t4388_0_0_0;
@@ -35437,10 +35437,10 @@ extern const MethodInfo FixedSizeArrayListWrapper_Add_m16604_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ICollection_t704_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
 static const ParameterInfo FixedSizeArrayListWrapper_t4389_FixedSizeArrayListWrapper_AddRange_m16605_ParameterInfos[] = 
 {
-	{"c", 0, 134220600, 0, &ICollection_t704_0_0_0},
+	{"c", 0, 134220600, 0, &ICollection_t705_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Collections.ArrayList/FixedSizeArrayListWrapper::AddRange(System.Collections.ICollection)
@@ -35519,11 +35519,11 @@ extern const MethodInfo FixedSizeArrayListWrapper_Insert_m16607_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType ICollection_t704_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
 static const ParameterInfo FixedSizeArrayListWrapper_t4389_FixedSizeArrayListWrapper_InsertRange_m16608_ParameterInfos[] = 
 {
 	{"index", 0, 134220603, 0, &Int32_t82_0_0_0},
-	{"c", 1, 134220604, 0, &ICollection_t704_0_0_0},
+	{"c", 1, 134220604, 0, &ICollection_t705_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Collections.ArrayList/FixedSizeArrayListWrapper::InsertRange(System.Int32,System.Collections.ICollection)
@@ -35777,9 +35777,9 @@ static bool FixedSizeArrayListWrapper_t4389_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair FixedSizeArrayListWrapper_t4389_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICloneable_t762_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType FixedSizeArrayListWrapper_t4389_0_0_0;
@@ -36204,9 +36204,9 @@ static bool ReadOnlyArrayListWrapper_t4390_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair ReadOnlyArrayListWrapper_t4390_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICloneable_t762_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType ReadOnlyArrayListWrapper_t4390_0_0_0;
@@ -36307,10 +36307,10 @@ extern const MethodInfo ArrayList__ctor_m11181_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ICollection_t704_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
 static const ParameterInfo ArrayList_t3111_ArrayList__ctor_m14886_ParameterInfos[] = 
 {
-	{"c", 0, 134220497, 0, &ICollection_t704_0_0_0},
+	{"c", 0, 134220497, 0, &ICollection_t705_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Collections.ArrayList::.ctor(System.Collections.ICollection)
@@ -36363,12 +36363,12 @@ extern const MethodInfo ArrayList__ctor_m14878_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo ArrayList_t3111_ArrayList__ctor_m16618_ParameterInfos[] = 
 {
-	{"array", 0, 134220499, 0, &ObjectU5BU5D_t635_0_0_0},
+	{"array", 0, 134220499, 0, &ObjectU5BU5D_t636_0_0_0},
 	{"index", 1, 134220500, 0, &Int32_t82_0_0_0},
 	{"count", 2, 134220501, 0, &Int32_t82_0_0_0},
 };
@@ -36900,11 +36900,11 @@ extern const MethodInfo ArrayList_Insert_m16637_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType ICollection_t704_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
 static const ParameterInfo ArrayList_t3111_ArrayList_InsertRange_m16638_ParameterInfos[] = 
 {
 	{"index", 0, 134220519, 0, &Int32_t82_0_0_0},
-	{"c", 1, 134220520, 0, &ICollection_t704_0_0_0},
+	{"c", 1, 134220520, 0, &ICollection_t705_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Collections.ArrayList::InsertRange(System.Int32,System.Collections.ICollection)
@@ -37100,10 +37100,10 @@ extern const MethodInfo ArrayList_GetEnumerator_m16644_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ICollection_t704_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
 static const ParameterInfo ArrayList_t3111_ArrayList_AddRange_m16645_ParameterInfos[] = 
 {
-	{"c", 0, 134220530, 0, &ICollection_t704_0_0_0},
+	{"c", 0, 134220530, 0, &ICollection_t705_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Collections.ArrayList::AddRange(System.Collections.ICollection)
@@ -37186,7 +37186,7 @@ extern const MethodInfo ArrayList_ToArray_m16648_MethodInfo =
 	"ToArray"/* name */
 	, (methodPointerType)&ArrayList_ToArray_m16648/* method */
 	, &ArrayList_t3111_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t635_0_0_0/* return_type */
+	, &ObjectU5BU5D_t636_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -37609,16 +37609,16 @@ static bool ArrayList_t3111_VTableIsGenericMethod[] =
 static const Il2CppType* ArrayList_t3111_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICloneable_t761_0_0_0,
-	&ICollection_t704_0_0_0,
-	&IList_t639_0_0_0,
+	&ICloneable_t762_0_0_0,
+	&ICollection_t705_0_0_0,
+	&IList_t640_0_0_0,
 };
 static Il2CppInterfaceOffsetPair ArrayList_t3111_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICloneable_t762_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType ArrayList_t3111_1_0_0;
@@ -37867,12 +37867,12 @@ static bool BitArrayEnumerator_t4391_VTableIsGenericMethod[] =
 static const Il2CppType* BitArrayEnumerator_t4391_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t48_0_0_0,
-	&ICloneable_t761_0_0_0,
+	&ICloneable_t762_0_0_0,
 };
 static Il2CppInterfaceOffsetPair BitArrayEnumerator_t4391_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t48_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 7},
+	{ &ICloneable_t762_0_0_0, 7},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType BitArrayEnumerator_t4391_0_0_0;
@@ -37984,15 +37984,15 @@ static const ParameterInfo BitArray_t4124_BitArray_getByte_m16658_ParameterInfos
 {
 	{"byteIndex", 0, 134220613, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Collections.BitArray::getByte(System.Int32)
 extern const MethodInfo BitArray_getByte_m16658_MethodInfo = 
 {
 	"getByte"/* name */
 	, (methodPointerType)&BitArray_getByte_m16658/* method */
 	, &BitArray_t4124_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Int32_t82/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Int32_t82/* invoker_method */
 	, BitArray_t4124_BitArray_getByte_m16658_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -38382,14 +38382,14 @@ static bool BitArray_t4124_VTableIsGenericMethod[] =
 static const Il2CppType* BitArray_t4124_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICloneable_t761_0_0_0,
-	&ICollection_t704_0_0_0,
+	&ICloneable_t762_0_0_0,
+	&ICollection_t705_0_0_0,
 };
 static Il2CppInterfaceOffsetPair BitArray_t4124_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
-	{ &ICollection_t704_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType BitArray_t4124_1_0_0;
@@ -38744,10 +38744,10 @@ extern const MethodInfo CaseInsensitiveHashCodeProvider__ctor_m16670_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 static const ParameterInfo CaseInsensitiveHashCodeProvider_t4145_CaseInsensitiveHashCodeProvider__ctor_m16671_ParameterInfos[] = 
 {
-	{"culture", 0, 134220626, 0, &CultureInfo_t718_0_0_0},
+	{"culture", 0, 134220626, 0, &CultureInfo_t719_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Collections.CaseInsensitiveHashCodeProvider::.ctor(System.Globalization.CultureInfo)
@@ -38795,12 +38795,12 @@ extern const MethodInfo CaseInsensitiveHashCodeProvider__cctor_m16672_MethodInfo
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CultureInfo_t718_0_0_0;
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 static const ParameterInfo CaseInsensitiveHashCodeProvider_t4145_CaseInsensitiveHashCodeProvider_AreEqual_m16673_ParameterInfos[] = 
 {
-	{"a", 0, 134220627, 0, &CultureInfo_t718_0_0_0},
-	{"b", 1, 134220628, 0, &CultureInfo_t718_0_0_0},
+	{"a", 0, 134220627, 0, &CultureInfo_t719_0_0_0},
+	{"b", 1, 134220628, 0, &CultureInfo_t719_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Collections.CaseInsensitiveHashCodeProvider::AreEqual(System.Globalization.CultureInfo,System.Globalization.CultureInfo)
@@ -38827,11 +38827,11 @@ extern const MethodInfo CaseInsensitiveHashCodeProvider_AreEqual_m16673_MethodIn
 };
 extern const Il2CppType TextInfo_t4334_0_0_0;
 extern const Il2CppType TextInfo_t4334_0_0_0;
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 static const ParameterInfo CaseInsensitiveHashCodeProvider_t4145_CaseInsensitiveHashCodeProvider_AreEqual_m16674_ParameterInfos[] = 
 {
 	{"info", 0, 134220629, 0, &TextInfo_t4334_0_0_0},
-	{"culture", 1, 134220630, 0, &CultureInfo_t718_0_0_0},
+	{"culture", 1, 134220630, 0, &CultureInfo_t719_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Collections.CaseInsensitiveHashCodeProvider::AreEqual(System.Globalization.TextInfo,System.Globalization.CultureInfo)
@@ -39509,7 +39509,7 @@ extern const MethodInfo CollectionBase_get_List_m14917_MethodInfo =
 	"get_List"/* name */
 	, (methodPointerType)&CollectionBase_get_List_m14917/* method */
 	, &CollectionBase_t3767_il2cpp_TypeInfo/* declaring_type */
-	, &IList_t639_0_0_0/* return_type */
+	, &IList_t640_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -39977,14 +39977,14 @@ static bool CollectionBase_t3767_VTableIsGenericMethod[] =
 static const Il2CppType* CollectionBase_t3767_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICollection_t704_0_0_0,
-	&IList_t639_0_0_0,
+	&ICollection_t705_0_0_0,
+	&IList_t640_0_0_0,
 };
 static Il2CppInterfaceOffsetPair CollectionBase_t3767_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType CollectionBase_t3767_1_0_0;
@@ -40180,10 +40180,10 @@ extern const MethodInfo Comparer__ctor_m16676_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 static const ParameterInfo Comparer_t4393_Comparer__ctor_m16677_ParameterInfos[] = 
 {
-	{"culture", 0, 134220659, 0, &CultureInfo_t718_0_0_0},
+	{"culture", 0, 134220659, 0, &CultureInfo_t719_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Collections.Comparer::.ctor(System.Globalization.CultureInfo)
@@ -40322,12 +40322,12 @@ static bool Comparer_t4393_VTableIsGenericMethod[] =
 };
 static const Il2CppType* Comparer_t4393_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 	&IComparer_t3914_0_0_0,
 };
 static Il2CppInterfaceOffsetPair Comparer_t4393_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &IComparer_t3914_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
@@ -41617,12 +41617,12 @@ static bool HashKeys_t4398_VTableIsGenericMethod[] =
 static const Il2CppType* HashKeys_t4398_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 };
 static Il2CppInterfaceOffsetPair HashKeys_t4398_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType HashKeys_t4398_0_0_0;
@@ -41940,12 +41940,12 @@ static bool HashValues_t4399_VTableIsGenericMethod[] =
 static const Il2CppType* HashValues_t4399_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 };
 static Il2CppInterfaceOffsetPair HashValues_t4399_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType HashValues_t4399_0_0_0;
@@ -42211,7 +42211,7 @@ extern const MethodInfo SyncHashtable_get_Keys_m16711_MethodInfo =
 	"get_Keys"/* name */
 	, (methodPointerType)&SyncHashtable_get_Keys_m16711/* method */
 	, &SyncHashtable_t4400_il2cpp_TypeInfo/* declaring_type */
-	, &ICollection_t704_0_0_0/* return_type */
+	, &ICollection_t705_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -42234,7 +42234,7 @@ extern const MethodInfo SyncHashtable_get_Values_m16712_MethodInfo =
 	"get_Values"/* name */
 	, (methodPointerType)&SyncHashtable_get_Values_m16712/* method */
 	, &SyncHashtable_t4400_il2cpp_TypeInfo/* declaring_type */
-	, &ICollection_t704_0_0_0/* return_type */
+	, &ICollection_t705_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -42721,11 +42721,11 @@ static const Il2CppType* SyncHashtable_t4400_InterfacesTypeInfos[] =
 static Il2CppInterfaceOffsetPair SyncHashtable_t4400_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
-	{ &ISerializable_t762_0_0_0, 5},
-	{ &ICollection_t704_0_0_0, 6},
-	{ &IDictionary_t638_0_0_0, 10},
-	{ &IDeserializationCallback_t766_0_0_0, 17},
+	{ &ICloneable_t762_0_0_0, 5},
+	{ &ISerializable_t763_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 6},
+	{ &IDictionary_t639_0_0_0, 10},
+	{ &IDeserializationCallback_t767_0_0_0, 17},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType SyncHashtable_t4400_0_0_0;
@@ -42978,13 +42978,13 @@ extern const MethodInfo Hashtable__ctor_m14804_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_t638_0_0_0;
+extern const Il2CppType IDictionary_t639_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType IHashCodeProvider_t3919_0_0_0;
 extern const Il2CppType IComparer_t3914_0_0_0;
 static const ParameterInfo Hashtable_t1276_Hashtable__ctor_m16726_ParameterInfos[] = 
 {
-	{"d", 0, 134220677, 0, &IDictionary_t638_0_0_0},
+	{"d", 0, 134220677, 0, &IDictionary_t639_0_0_0},
 	{"loadFactor", 1, 134220678, 0, &Single_t87_0_0_0},
 	{"hcp", 2, 134220679, 0, &IHashCodeProvider_t3919_0_0_0},
 	{"comparer", 3, 134220680, 0, &IComparer_t3914_0_0_0},
@@ -43012,12 +43012,12 @@ extern const MethodInfo Hashtable__ctor_m16726_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_t638_0_0_0;
+extern const Il2CppType IDictionary_t639_0_0_0;
 extern const Il2CppType IHashCodeProvider_t3919_0_0_0;
 extern const Il2CppType IComparer_t3914_0_0_0;
 static const ParameterInfo Hashtable_t1276_Hashtable__ctor_m14805_ParameterInfos[] = 
 {
-	{"d", 0, 134220681, 0, &IDictionary_t638_0_0_0},
+	{"d", 0, 134220681, 0, &IDictionary_t639_0_0_0},
 	{"hcp", 1, 134220682, 0, &IHashCodeProvider_t3919_0_0_0},
 	{"comparer", 2, 134220683, 0, &IComparer_t3914_0_0_0},
 };
@@ -43344,7 +43344,7 @@ extern const MethodInfo Hashtable_get_Keys_m16736_MethodInfo =
 	"get_Keys"/* name */
 	, (methodPointerType)&Hashtable_get_Keys_m16736/* method */
 	, &Hashtable_t1276_il2cpp_TypeInfo/* declaring_type */
-	, &ICollection_t704_0_0_0/* return_type */
+	, &ICollection_t705_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -43367,7 +43367,7 @@ extern const MethodInfo Hashtable_get_Values_m16737_MethodInfo =
 	"get_Values"/* name */
 	, (methodPointerType)&Hashtable_get_Values_m16737/* method */
 	, &Hashtable_t1276_il2cpp_TypeInfo/* declaring_type */
-	, &ICollection_t704_0_0_0/* return_type */
+	, &ICollection_t705_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -43823,12 +43823,12 @@ extern const MethodInfo Hashtable_AdjustThreshold_m16752_MethodInfo =
 };
 extern const Il2CppType SlotU5BU5D_t4401_0_0_0;
 extern const Il2CppType SlotU5BU5D_t4401_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 static const ParameterInfo Hashtable_t1276_Hashtable_SetTable_m16753_ParameterInfos[] = 
 {
 	{"table", 0, 134220712, 0, &SlotU5BU5D_t4401_0_0_0},
-	{"hashes", 1, 134220713, 0, &Int32U5BU5D_t548_0_0_0},
+	{"hashes", 1, 134220713, 0, &Int32U5BU5D_t549_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Collections.Hashtable::SetTable(System.Collections.Hashtable/Slot[],System.Int32[])
@@ -44305,20 +44305,20 @@ static bool Hashtable_t1276_VTableIsGenericMethod[] =
 static const Il2CppType* Hashtable_t1276_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICloneable_t761_0_0_0,
-	&ISerializable_t762_0_0_0,
-	&ICollection_t704_0_0_0,
-	&IDictionary_t638_0_0_0,
-	&IDeserializationCallback_t766_0_0_0,
+	&ICloneable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
+	&ICollection_t705_0_0_0,
+	&IDictionary_t639_0_0_0,
+	&IDeserializationCallback_t767_0_0_0,
 };
 static Il2CppInterfaceOffsetPair Hashtable_t1276_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
-	{ &ISerializable_t762_0_0_0, 5},
-	{ &ICollection_t704_0_0_0, 6},
-	{ &IDictionary_t638_0_0_0, 10},
-	{ &IDeserializationCallback_t766_0_0_0, 17},
+	{ &ICloneable_t762_0_0_0, 5},
+	{ &ISerializable_t763_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 6},
+	{ &IDictionary_t639_0_0_0, 10},
+	{ &IDeserializationCallback_t767_0_0_0, 17},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType Hashtable_t1276_1_0_0;

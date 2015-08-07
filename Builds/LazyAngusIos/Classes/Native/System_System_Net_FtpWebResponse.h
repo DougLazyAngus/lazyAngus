@@ -3,7 +3,7 @@
 // System.IO.Stream
 struct Stream_t51;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.String
 struct String_t;
 // System.Net.FtpWebRequest
@@ -20,7 +20,7 @@ struct  FtpWebResponse_t3989  : public WebResponse_t3254
 	// System.IO.Stream System.Net.FtpWebResponse::stream
 	Stream_t51 * ___stream_1;
 	// System.Uri System.Net.FtpWebResponse::uri
-	Uri_t707 * ___uri_2;
+	Uri_t708 * ___uri_2;
 	// System.Net.FtpStatusCode System.Net.FtpWebResponse::statusCode
 	int32_t ___statusCode_3;
 	// System.DateTime System.Net.FtpWebResponse::lastModified

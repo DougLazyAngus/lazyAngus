@@ -13,7 +13,7 @@ struct String_t;
 // System.Reflection.Module
 struct Module_t4472;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Reflection.MemberTypes
 #include "mscorlib_System_Reflection_MemberTypes.h"
 

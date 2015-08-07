@@ -9,7 +9,7 @@ struct Enumerator_t4102;
 // System.Object
 struct Object_t;
 // System.Collections.IList
-struct IList_t639;
+struct IList_t640;
 
 // System.Void System.Text.RegularExpressions.IntervalCollection/Enumerator::.ctor(System.Collections.IList)
 extern "C" void Enumerator__ctor_m14526 (Enumerator_t4102 * __this, Object_t * ___list, const MethodInfo* method) IL2CPP_METHOD_ATTR;

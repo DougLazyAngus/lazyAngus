@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Font
-struct Font_t852;
+struct Font_t853;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Color
@@ -20,7 +20,7 @@ struct Font_t852;
 struct  TextGenerationSettings_t986 
 {
 	// UnityEngine.Font UnityEngine.TextGenerationSettings::font
-	Font_t852 * ___font_0;
+	Font_t853 * ___font_0;
 	// UnityEngine.Color UnityEngine.TextGenerationSettings::color
 	Color_t325  ___color_1;
 	// System.Int32 UnityEngine.TextGenerationSettings::fontSize

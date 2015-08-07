@@ -7,14 +7,14 @@
 // UnityEngine.UI.BaseVertexEffect
 struct BaseVertexEffect_t958;
 // UnityEngine.UI.Graphic
-struct Graphic_t860;
+struct Graphic_t861;
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct List_1_t891;
+struct List_1_t892;
 
 // System.Void UnityEngine.UI.BaseVertexEffect::.ctor()
 extern "C" void BaseVertexEffect__ctor_m5480 (BaseVertexEffect_t958 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Graphic UnityEngine.UI.BaseVertexEffect::get_graphic()
-extern "C" Graphic_t860 * BaseVertexEffect_get_graphic_m5481 (BaseVertexEffect_t958 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Graphic_t861 * BaseVertexEffect_get_graphic_m5481 (BaseVertexEffect_t958 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.BaseVertexEffect::OnEnable()
 extern "C" void BaseVertexEffect_OnEnable_m5482 (BaseVertexEffect_t958 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.BaseVertexEffect::OnDisable()

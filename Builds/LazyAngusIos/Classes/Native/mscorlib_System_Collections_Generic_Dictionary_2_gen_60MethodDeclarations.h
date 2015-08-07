@@ -11,7 +11,7 @@ struct ICollection_1_t1160;
 // System.Collections.Generic.ICollection`1<System.DateTime>
 struct ICollection_1_t9116;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // System.String

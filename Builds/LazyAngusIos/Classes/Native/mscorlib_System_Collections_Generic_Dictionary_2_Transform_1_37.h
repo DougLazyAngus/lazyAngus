@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Font
-struct Font_t852;
+struct Font_t853;
 // System.Collections.Generic.List`1<UnityEngine.UI.Text>
 struct List_1_t1001;
 // System.IAsyncResult

@@ -11,13 +11,13 @@ struct Object_t;
 // System.Collections.Generic.IList`1<System.Collections.Generic.IDictionary`2<System.String,System.String>>
 struct IList_1_t6937;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Collections.Generic.IEnumerator`1<System.Object>
 struct IEnumerator_1_t105;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.IDictionary`2<System.String,System.String>
-struct IDictionary_2_t645;
+struct IDictionary_2_t646;
 
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.IDictionary`2<System.String,System.String>>::.ctor(System.Collections.Generic.IList`1<TIn>)
 // Parse.Internal.FlexibleListWrapper`2<System.Object,System.Object>
@@ -40,7 +40,7 @@ struct IDictionary_2_t645;
 // System.Boolean Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.IDictionary`2<System.String,System.String>>::Contains(TOut)
 #define FlexibleListWrapper_2_Contains_m43328(__this, ___item, method) (( bool (*) (FlexibleListWrapper_2_t1755 *, Object_t *, const MethodInfo*))FlexibleListWrapper_2_Contains_m31014_gshared)(__this, ___item, method)
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.IDictionary`2<System.String,System.String>>::CopyTo(TOut[],System.Int32)
-#define FlexibleListWrapper_2_CopyTo_m43329(__this, ___array, ___arrayIndex, method) (( void (*) (FlexibleListWrapper_2_t1755 *, ObjectU5BU5D_t635*, int32_t, const MethodInfo*))FlexibleListWrapper_2_CopyTo_m31015_gshared)(__this, ___array, ___arrayIndex, method)
+#define FlexibleListWrapper_2_CopyTo_m43329(__this, ___array, ___arrayIndex, method) (( void (*) (FlexibleListWrapper_2_t1755 *, ObjectU5BU5D_t636*, int32_t, const MethodInfo*))FlexibleListWrapper_2_CopyTo_m31015_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Int32 Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.IDictionary`2<System.String,System.String>>::get_Count()
 #define FlexibleListWrapper_2_get_Count_m43330(__this, method) (( int32_t (*) (FlexibleListWrapper_2_t1755 *, const MethodInfo*))FlexibleListWrapper_2_get_Count_m31016_gshared)(__this, method)
 // System.Boolean Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.IDictionary`2<System.String,System.String>>::get_IsReadOnly()

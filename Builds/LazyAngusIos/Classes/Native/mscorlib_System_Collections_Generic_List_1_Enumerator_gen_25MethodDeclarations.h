@@ -9,14 +9,14 @@ struct Enumerator_t5648;
 // System.Object
 struct Object_t;
 // ExplicitMouseDesc
-struct ExplicitMouseDesc_t497;
+struct ExplicitMouseDesc_t498;
 // System.Collections.Generic.List`1<ExplicitMouseDesc>
-struct List_1_t536;
+struct List_1_t537;
 
 // System.Void System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m26377(__this, ___l, method) (( void (*) (Enumerator_t5648 *, List_1_t536 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
+#define Enumerator__ctor_m26377(__this, ___l, method) (( void (*) (Enumerator_t5648 *, List_1_t537 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::System.Collections.IEnumerator.Reset()
 #define Enumerator_System_Collections_IEnumerator_Reset_m26378(__this, method) (( void (*) (Enumerator_t5648 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21395_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::System.Collections.IEnumerator.get_Current()
@@ -28,4 +28,4 @@ struct List_1_t536;
 // System.Boolean System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::MoveNext()
 #define Enumerator_MoveNext_m26382(__this, method) (( bool (*) (Enumerator_t5648 *, const MethodInfo*))Enumerator_MoveNext_m3632_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::get_Current()
-#define Enumerator_get_Current_m26383(__this, method) (( ExplicitMouseDesc_t497 * (*) (Enumerator_t5648 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)
+#define Enumerator_get_Current_m26383(__this, method) (( ExplicitMouseDesc_t498 * (*) (Enumerator_t5648 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)

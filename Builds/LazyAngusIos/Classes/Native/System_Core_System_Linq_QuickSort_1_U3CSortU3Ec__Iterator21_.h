@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.Linq.SortContext`1<System.Object>
 struct SortContext_1_t5991;
 // System.Linq.QuickSort`1<System.Object>

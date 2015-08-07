@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.TouchScreenKeyboard
-struct TouchScreenKeyboard_t887;
+struct TouchScreenKeyboard_t888;
 // UnityEngine.GUIContent
-struct GUIContent_t732;
+struct GUIContent_t733;
 // UnityEngine.GUIStyle
 struct GUIStyle_t107;
 // System.String
@@ -22,7 +22,7 @@ struct Dictionary_2_t2830;
 struct  TextEditor_t1015  : public Object_t
 {
 	// UnityEngine.TouchScreenKeyboard UnityEngine.TextEditor::keyboardOnScreen
-	TouchScreenKeyboard_t887 * ___keyboardOnScreen_0;
+	TouchScreenKeyboard_t888 * ___keyboardOnScreen_0;
 	// System.Int32 UnityEngine.TextEditor::pos
 	int32_t ___pos_1;
 	// System.Int32 UnityEngine.TextEditor::selectPos
@@ -30,11 +30,11 @@ struct  TextEditor_t1015  : public Object_t
 	// System.Int32 UnityEngine.TextEditor::controlID
 	int32_t ___controlID_3;
 	// UnityEngine.GUIContent UnityEngine.TextEditor::content
-	GUIContent_t732 * ___content_4;
+	GUIContent_t733 * ___content_4;
 	// UnityEngine.GUIStyle UnityEngine.TextEditor::style
 	GUIStyle_t107 * ___style_5;
 	// UnityEngine.Rect UnityEngine.TextEditor::position
-	Rect_t647  ___position_6;
+	Rect_t648  ___position_6;
 	// System.Boolean UnityEngine.TextEditor::multiline
 	bool ___multiline_7;
 	// System.Boolean UnityEngine.TextEditor::hasHorizontalCursorPos

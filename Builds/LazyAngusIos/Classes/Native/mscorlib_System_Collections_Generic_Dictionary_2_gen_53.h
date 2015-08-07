@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.Link[]
 struct LinkU5BU5D_t5345;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Collections.Generic.List`1<System.Object>[]
 struct List_1U5BU5D_t6085;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
@@ -20,11 +20,11 @@ struct Transform_1_t6086;
 struct  Dictionary_2_t6080  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.List`1<System.Object>>::table
-	Int32U5BU5D_t548* ___table_4;
+	Int32U5BU5D_t549* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.List`1<System.Object>>::linkSlots
 	LinkU5BU5D_t5345* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.List`1<System.Object>>::keySlots
-	ObjectU5BU5D_t635* ___keySlots_6;
+	ObjectU5BU5D_t636* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.List`1<System.Object>>::valueSlots
 	List_1U5BU5D_t6085* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.List`1<System.Object>>::touchedSlots

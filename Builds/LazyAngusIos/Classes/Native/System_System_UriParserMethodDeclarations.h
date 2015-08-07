@@ -9,7 +9,7 @@ struct UriParser_t4128;
 // System.String
 struct String_t;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.UriFormatException
 struct UriFormatException_t3246;
 // System.Collections.Hashtable
@@ -20,7 +20,7 @@ extern "C" void UriParser__ctor_m14763 (UriParser_t4128 * __this, const MethodIn
 // System.Void System.UriParser::.cctor()
 extern "C" void UriParser__cctor_m14764 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriParser::InitializeAndValidate(System.Uri,System.UriFormatException&)
-extern "C" void UriParser_InitializeAndValidate_m14765 (UriParser_t4128 * __this, Uri_t707 * ___uri, UriFormatException_t3246 ** ___parsingError, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriParser_InitializeAndValidate_m14765 (UriParser_t4128 * __this, Uri_t708 * ___uri, UriFormatException_t3246 ** ___parsingError, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriParser::OnRegister(System.String,System.Int32)
 extern "C" void UriParser_OnRegister_m14766 (UriParser_t4128 * __this, String_t* ___schemeName, int32_t ___defaultPort, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriParser::set_SchemeName(System.String)

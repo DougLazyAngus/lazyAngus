@@ -7,7 +7,7 @@
 // System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>
 struct Tuple_2_t1198;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.Object
 struct Object_t;
 // System.Net.HttpStatusCode

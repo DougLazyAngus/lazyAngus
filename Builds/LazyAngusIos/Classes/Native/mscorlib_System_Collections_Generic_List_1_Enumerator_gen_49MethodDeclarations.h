@@ -28,4 +28,4 @@ struct List_1_t5976;
 // System.Boolean System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::MoveNext()
 #define Enumerator_MoveNext_m30993(__this, method) (( bool (*) (Enumerator_t5980 *, const MethodInfo*))Enumerator_MoveNext_m30806_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::get_Current()
-#define Enumerator_get_Current_m30994(__this, method) (( KeyValuePair_2_t727  (*) (Enumerator_t5980 *, const MethodInfo*))Enumerator_get_Current_m30807_gshared)(__this, method)
+#define Enumerator_get_Current_m30994(__this, method) (( KeyValuePair_2_t728  (*) (Enumerator_t5980 *, const MethodInfo*))Enumerator_get_Current_m30807_gshared)(__this, method)

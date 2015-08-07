@@ -5,7 +5,7 @@ struct XmlParserInput_t3152;
 // System.Collections.Stack
 struct Stack_t2847;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // System.String
@@ -22,7 +22,7 @@ struct  DTDReader_t3153  : public Object_t
 	// System.Collections.Stack System.Xml.DTDReader::parserInputStack
 	Stack_t2847 * ___parserInputStack_1;
 	// System.Char[] System.Xml.DTDReader::nameBuffer
-	CharU5BU5D_t660* ___nameBuffer_2;
+	CharU5BU5D_t661* ___nameBuffer_2;
 	// System.Int32 System.Xml.DTDReader::nameLength
 	int32_t ___nameLength_3;
 	// System.Int32 System.Xml.DTDReader::nameCapacity

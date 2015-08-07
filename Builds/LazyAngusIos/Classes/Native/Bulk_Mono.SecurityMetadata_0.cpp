@@ -535,12 +535,12 @@ extern const MethodInfo ModulusRing_Pow_m12001_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 extern const Il2CppType BigInteger_t3728_0_0_0;
 static const ParameterInfo ModulusRing_t3729_ModulusRing_Pow_m12002_ParameterInfos[] = 
 {
-	{"b", 0, 134217794, 0, &UInt32_t690_0_0_0},
+	{"b", 0, 134217794, 0, &UInt32_t691_0_0_0},
 	{"exp", 1, 134217795, 0, &BigInteger_t3728_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -818,21 +818,21 @@ extern const MethodInfo Kernel_Compare_m12007_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t3728_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo Kernel_t3730_Kernel_SingleByteDivideInPlace_m12008_ParameterInfos[] = 
 {
 	{"n", 0, 134217806, 0, &BigInteger_t3728_0_0_0},
-	{"d", 1, 134217807, 0, &UInt32_t690_0_0_0},
+	{"d", 1, 134217807, 0, &UInt32_t691_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 Mono.Math.BigInteger/Kernel::SingleByteDivideInPlace(Mono.Math.BigInteger,System.UInt32)
 extern const MethodInfo Kernel_SingleByteDivideInPlace_m12008_MethodInfo = 
 {
 	"SingleByteDivideInPlace"/* name */
 	, (methodPointerType)&Kernel_SingleByteDivideInPlace_m12008/* method */
 	, &Kernel_t3730_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t_Int32_t82/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t_Int32_t82/* invoker_method */
 	, Kernel_t3730_Kernel_SingleByteDivideInPlace_m12008_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -848,21 +848,21 @@ extern const MethodInfo Kernel_SingleByteDivideInPlace_m12008_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t3728_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo Kernel_t3730_Kernel_DwordMod_m12009_ParameterInfos[] = 
 {
 	{"n", 0, 134217808, 0, &BigInteger_t3728_0_0_0},
-	{"d", 1, 134217809, 0, &UInt32_t690_0_0_0},
+	{"d", 1, 134217809, 0, &UInt32_t691_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 Mono.Math.BigInteger/Kernel::DwordMod(Mono.Math.BigInteger,System.UInt32)
 extern const MethodInfo Kernel_DwordMod_m12009_MethodInfo = 
 {
 	"DwordMod"/* name */
 	, (methodPointerType)&Kernel_DwordMod_m12009/* method */
 	, &Kernel_t3730_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t_Int32_t82/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t_Int32_t82/* invoker_method */
 	, Kernel_t3730_Kernel_DwordMod_m12009_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -878,11 +878,11 @@ extern const MethodInfo Kernel_DwordMod_m12009_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t3728_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo Kernel_t3730_Kernel_DwordDivMod_m12010_ParameterInfos[] = 
 {
 	{"n", 0, 134217810, 0, &BigInteger_t3728_0_0_0},
-	{"d", 1, 134217811, 0, &UInt32_t690_0_0_0},
+	{"d", 1, 134217811, 0, &UInt32_t691_0_0_0},
 };
 extern const Il2CppType BigIntegerU5BU5D_t3863_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -1001,23 +1001,23 @@ extern const MethodInfo Kernel_RightShift_m12013_MethodInfo =
 };
 extern const Il2CppType UInt32U5BU5D_t3169_0_0_0;
 extern const Il2CppType UInt32U5BU5D_t3169_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 extern const Il2CppType UInt32U5BU5D_t3169_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 extern const Il2CppType UInt32U5BU5D_t3169_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo Kernel_t3730_Kernel_Multiply_m12014_ParameterInfos[] = 
 {
 	{"x", 0, 134217818, 0, &UInt32U5BU5D_t3169_0_0_0},
-	{"xOffset", 1, 134217819, 0, &UInt32_t690_0_0_0},
-	{"xLen", 2, 134217820, 0, &UInt32_t690_0_0_0},
+	{"xOffset", 1, 134217819, 0, &UInt32_t691_0_0_0},
+	{"xLen", 2, 134217820, 0, &UInt32_t691_0_0_0},
 	{"y", 3, 134217821, 0, &UInt32U5BU5D_t3169_0_0_0},
-	{"yOffset", 4, 134217822, 0, &UInt32_t690_0_0_0},
-	{"yLen", 5, 134217823, 0, &UInt32_t690_0_0_0},
+	{"yOffset", 4, 134217822, 0, &UInt32_t691_0_0_0},
+	{"yLen", 5, 134217823, 0, &UInt32_t691_0_0_0},
 	{"d", 6, 134217824, 0, &UInt32U5BU5D_t3169_0_0_0},
-	{"dOffset", 7, 134217825, 0, &UInt32_t690_0_0_0},
+	{"dOffset", 7, 134217825, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Math.BigInteger/Kernel::Multiply(System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32)
@@ -1087,21 +1087,21 @@ extern const MethodInfo Kernel_MultiplyMod2p32pmod_m12015_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t3728_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo Kernel_t3730_Kernel_modInverse_m12016_ParameterInfos[] = 
 {
 	{"bi", 0, 134217835, 0, &BigInteger_t3728_0_0_0},
-	{"modulus", 1, 134217836, 0, &UInt32_t690_0_0_0},
+	{"modulus", 1, 134217836, 0, &UInt32_t691_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 Mono.Math.BigInteger/Kernel::modInverse(Mono.Math.BigInteger,System.UInt32)
 extern const MethodInfo Kernel_modInverse_m12016_MethodInfo = 
 {
 	"modInverse"/* name */
 	, (methodPointerType)&Kernel_modInverse_m12016/* method */
 	, &Kernel_t3730_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t_Int32_t82/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t_Int32_t82/* invoker_method */
 	, Kernel_t3730_Kernel_modInverse_m12016_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -1256,11 +1256,11 @@ TypeInfo Kernel_t3730_il2cpp_TypeInfo =
 // Mono.Math.BigInteger
 #include "Mono_Security_Mono_Math_BigIntegerMethodDeclarations.h"
 extern const Il2CppType Sign_t3727_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t3728_BigInteger__ctor_m12018_ParameterInfos[] = 
 {
 	{"sign", 0, 134217730, 0, &Sign_t3727_0_0_0},
-	{"len", 1, 134217731, 0, &UInt32_t690_0_0_0},
+	{"len", 1, 134217731, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger/Sign,System.UInt32)
@@ -1314,11 +1314,11 @@ extern const MethodInfo BigInteger__ctor_m12019_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t3728_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t3728_BigInteger__ctor_m12020_ParameterInfos[] = 
 {
 	{"bi", 0, 134217733, 0, &BigInteger_t3728_0_0_0},
-	{"len", 1, 134217734, 0, &UInt32_t690_0_0_0},
+	{"len", 1, 134217734, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger,System.UInt32)
@@ -1372,10 +1372,10 @@ extern const MethodInfo BigInteger__ctor_m12021_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t3728_BigInteger__ctor_m12022_ParameterInfos[] = 
 {
-	{"ui", 0, 134217736, 0, &UInt32_t690_0_0_0},
+	{"ui", 0, 134217736, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Math.BigInteger::.ctor(System.UInt32)
@@ -1557,10 +1557,10 @@ extern const MethodInfo BigInteger_TestBit_m12028_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t3728_BigInteger_SetBit_m12029_ParameterInfos[] = 
 {
-	{"bitNum", 0, 134217741, 0, &UInt32_t690_0_0_0},
+	{"bitNum", 0, 134217741, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Math.BigInteger::SetBit(System.UInt32)
@@ -1585,11 +1585,11 @@ extern const MethodInfo BigInteger_SetBit_m12029_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 static const ParameterInfo BigInteger_t3728_BigInteger_SetBit_m12030_ParameterInfos[] = 
 {
-	{"bitNum", 0, 134217742, 0, &UInt32_t690_0_0_0},
+	{"bitNum", 0, 134217742, 0, &UInt32_t691_0_0_0},
 	{"value", 1, 134217743, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -1661,10 +1661,10 @@ extern const MethodInfo BigInteger_GetBytes_m12032_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t3728_BigInteger_ToString_m12033_ParameterInfos[] = 
 {
-	{"radix", 0, 134217744, 0, &UInt32_t690_0_0_0},
+	{"radix", 0, 134217744, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Math.BigInteger::ToString(System.UInt32)
@@ -1689,11 +1689,11 @@ extern const MethodInfo BigInteger_ToString_m12033_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo BigInteger_t3728_BigInteger_ToString_m12034_ParameterInfos[] = 
 {
-	{"radix", 0, 134217745, 0, &UInt32_t690_0_0_0},
+	{"radix", 0, 134217745, 0, &UInt32_t691_0_0_0},
 	{"characterSet", 1, 134217746, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -1948,10 +1948,10 @@ extern const MethodInfo BigInteger_Incr2_m12043_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t3728_BigInteger_op_Implicit_m12044_ParameterInfos[] = 
 {
-	{"value", 0, 134217752, 0, &UInt32_t690_0_0_0},
+	{"value", 0, 134217752, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // Mono.Math.BigInteger Mono.Math.BigInteger::op_Implicit(System.UInt32)
@@ -2065,21 +2065,21 @@ extern const MethodInfo BigInteger_op_Subtraction_m12047_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t3728_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t3728_BigInteger_op_Modulus_m12048_ParameterInfos[] = 
 {
 	{"bi", 0, 134217758, 0, &BigInteger_t3728_0_0_0},
-	{"ui", 1, 134217759, 0, &UInt32_t690_0_0_0},
+	{"ui", 1, 134217759, 0, &UInt32_t691_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 Mono.Math.BigInteger::op_Modulus(Mono.Math.BigInteger,System.UInt32)
 extern const MethodInfo BigInteger_op_Modulus_m12048_MethodInfo = 
 {
 	"op_Modulus"/* name */
 	, (methodPointerType)&BigInteger_op_Modulus_m12048/* method */
 	, &BigInteger_t3728_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t_Int32_t82/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t_Int32_t82/* invoker_method */
 	, BigInteger_t3728_BigInteger_op_Modulus_m12048_ParameterInfos/* parameters */
 	, 10/* custom_attributes_cache */
 	, 2198/* flags */
@@ -2245,11 +2245,11 @@ extern const MethodInfo BigInteger_op_RightShift_m12053_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t3728_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t3728_BigInteger_op_Equality_m12054_ParameterInfos[] = 
 {
 	{"bi1", 0, 134217770, 0, &BigInteger_t3728_0_0_0},
-	{"ui", 1, 134217771, 0, &UInt32_t690_0_0_0},
+	{"ui", 1, 134217771, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Math.BigInteger::op_Equality(Mono.Math.BigInteger,System.UInt32)
@@ -2275,11 +2275,11 @@ extern const MethodInfo BigInteger_op_Equality_m12054_MethodInfo =
 
 };
 extern const Il2CppType BigInteger_t3728_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo BigInteger_t3728_BigInteger_op_Inequality_m12055_ParameterInfos[] = 
 {
 	{"bi1", 0, 134217772, 0, &BigInteger_t3728_0_0_0},
-	{"ui", 1, 134217773, 0, &UInt32_t690_0_0_0},
+	{"ui", 1, 134217773, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Math.BigInteger::op_Inequality(Mono.Math.BigInteger,System.UInt32)
@@ -3470,11 +3470,11 @@ TypeInfo SequentialSearchPrimeGeneratorBase_t3735_il2cpp_TypeInfo =
 extern TypeInfo ASN1_t3736_il2cpp_TypeInfo;
 // Mono.Security.ASN1
 #include "Mono_Security_Mono_Security_ASN1MethodDeclarations.h"
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo ASN1_t3736_ASN1__ctor_m12073_ParameterInfos[] = 
 {
-	{"tag", 0, 134217851, 0, &Byte_t691_0_0_0},
+	{"tag", 0, 134217851, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.ASN1::.ctor(System.Byte)
@@ -3499,11 +3499,11 @@ extern const MethodInfo ASN1__ctor_m12073_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 extern const Il2CppType ByteU5BU5D_t66_0_0_0;
 static const ParameterInfo ASN1_t3736_ASN1__ctor_m12074_ParameterInfos[] = 
 {
-	{"tag", 0, 134217852, 0, &Byte_t691_0_0_0},
+	{"tag", 0, 134217852, 0, &Byte_t692_0_0_0},
 	{"data", 1, 134217853, 0, &ByteU5BU5D_t66_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -3580,15 +3580,15 @@ extern const MethodInfo ASN1_get_Count_m12076_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Security.ASN1::get_Tag()
 extern const MethodInfo ASN1_get_Tag_m12077_MethodInfo = 
 {
 	"get_Tag"/* name */
 	, (methodPointerType)&ASN1_get_Tag_m12077/* method */
 	, &ASN1_t3736_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -3822,8 +3822,8 @@ extern const MethodInfo ASN1_Decode_m12085_MethodInfo =
 };
 extern const Il2CppType ByteU5BU5D_t66_0_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
-extern const Il2CppType Byte_t691_1_0_2;
-extern const Il2CppType Byte_t691_1_0_0;
+extern const Il2CppType Byte_t692_1_0_2;
+extern const Il2CppType Byte_t692_1_0_0;
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType ByteU5BU5D_t66_1_0_2;
 extern const Il2CppType ByteU5BU5D_t66_1_0_0;
@@ -3831,7 +3831,7 @@ static const ParameterInfo ASN1_t3736_ASN1_DecodeTLV_m12086_ParameterInfos[] =
 {
 	{"asn1", 0, 134217863, 0, &ByteU5BU5D_t66_0_0_0},
 	{"pos", 1, 134217864, 0, &Int32_t82_1_0_0},
-	{"tag", 2, 134217865, 0, &Byte_t691_1_0_2},
+	{"tag", 2, 134217865, 0, &Byte_t692_1_0_2},
 	{"length", 3, 134217866, 0, &Int32_t82_1_0_2},
 	{"content", 4, 134217867, 0, &ByteU5BU5D_t66_1_0_2},
 };
@@ -3887,11 +3887,11 @@ extern const MethodInfo ASN1_get_Item_m12087_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo ASN1_t3736_ASN1_Element_m12088_ParameterInfos[] = 
 {
 	{"index", 0, 134217869, 0, &Int32_t82_0_0_0},
-	{"anTag", 1, 134217870, 0, &Byte_t691_0_0_0},
+	{"anTag", 1, 134217870, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // Mono.Security.ASN1 Mono.Security.ASN1::Element(System.Int32,System.Byte)
@@ -8178,30 +8178,30 @@ static const MethodInfo* KeyGeneratedEventHandler_t3755_MethodInfos[] =
 	&KeyGeneratedEventHandler_EndInvoke_m12168_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m4257_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m4258_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m4259_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo;
-extern const MethodInfo Delegate_Clone_m4261_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4262_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m4263_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m4258_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m4259_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m4260_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo;
+extern const MethodInfo Delegate_Clone_m4262_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4263_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4265_MethodInfo;
 extern const MethodInfo KeyGeneratedEventHandler_Invoke_m12166_MethodInfo;
 extern const MethodInfo KeyGeneratedEventHandler_BeginInvoke_m12167_MethodInfo;
 extern const MethodInfo KeyGeneratedEventHandler_EndInvoke_m12168_MethodInfo;
 static const Il2CppMethodReference KeyGeneratedEventHandler_t3755_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&KeyGeneratedEventHandler_Invoke_m12166_MethodInfo,
 	&KeyGeneratedEventHandler_BeginInvoke_m12167_MethodInfo,
 	&KeyGeneratedEventHandler_EndInvoke_m12168_MethodInfo,
@@ -8223,12 +8223,12 @@ static bool KeyGeneratedEventHandler_t3755_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICloneable_t761_0_0_0;
-extern const Il2CppType ISerializable_t762_0_0_0;
+extern const Il2CppType ICloneable_t762_0_0_0;
+extern const Il2CppType ISerializable_t763_0_0_0;
 static Il2CppInterfaceOffsetPair KeyGeneratedEventHandler_t3755_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_Mono_Security_dll_Image;
 extern const Il2CppType KeyGeneratedEventHandler_t3755_0_0_0;
@@ -10081,11 +10081,11 @@ static bool PKCS12_t3761_VTableIsGenericMethod[] =
 };
 static const Il2CppType* PKCS12_t3761_InterfacesTypeInfos[] = 
 {
-	&ICloneable_t761_0_0_0,
+	&ICloneable_t762_0_0_0,
 };
 static Il2CppInterfaceOffsetPair PKCS12_t3761_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
 };
 extern Il2CppImage g_Mono_Security_dll_Image;
 extern const Il2CppType PKCS12_t3761_1_0_0;
@@ -11516,11 +11516,11 @@ static bool X509Certificate_t3765_VTableIsGenericMethod[] =
 };
 static const Il2CppType* X509Certificate_t3765_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair X509Certificate_t3765_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_Mono_Security_dll_Image;
 extern const Il2CppType X509Certificate_t3765_0_0_0;
@@ -12367,13 +12367,13 @@ static const Il2CppType* X509CertificateCollection_t3760_InterfacesTypeInfos[] =
 {
 	&IEnumerable_t104_0_0_0,
 };
-extern const Il2CppType ICollection_t704_0_0_0;
-extern const Il2CppType IList_t639_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
+extern const Il2CppType IList_t640_0_0_0;
 static Il2CppInterfaceOffsetPair X509CertificateCollection_t3760_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_Mono_Security_dll_Image;
 extern const Il2CppType X509CertificateCollection_t3760_1_0_0;
@@ -14390,8 +14390,8 @@ static const Il2CppType* X509ExtensionCollection_t3764_InterfacesTypeInfos[] =
 static Il2CppInterfaceOffsetPair X509ExtensionCollection_t3764_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_Mono_Security_dll_Image;
 extern const Il2CppType X509ExtensionCollection_t3764_1_0_0;
@@ -17847,7 +17847,7 @@ extern const Il2CppType AlertLevel_t3788_0_0_0;
 extern const Il2CppType AlertLevel_t3788_1_0_0;
 // System.Byte
 #include "mscorlib_System_Byte.h"
-extern TypeInfo Byte_t691_il2cpp_TypeInfo;
+extern TypeInfo Byte_t692_il2cpp_TypeInfo;
 const Il2CppTypeDefinitionMetadata AlertLevel_t3788_DefinitionMetadata = 
 {
 	NULL/* declaringType */
@@ -17870,7 +17870,7 @@ TypeInfo AlertLevel_t3788_il2cpp_TypeInfo =
 	, AlertLevel_t3788_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &Byte_t691_il2cpp_TypeInfo/* element_class */
+	, &Byte_t692_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
 	, &AlertLevel_t3788_0_0_0/* byval_arg */
@@ -18008,7 +18008,7 @@ TypeInfo AlertDescription_t3789_il2cpp_TypeInfo =
 	, AlertDescription_t3789_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &Byte_t691_il2cpp_TypeInfo/* element_class */
+	, &Byte_t692_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
 	, &AlertDescription_t3789_0_0_0/* byval_arg */
@@ -18064,7 +18064,7 @@ static const ParameterInfo Alert_t3790_Alert__ctor_m12373_ParameterInfos[] =
 {
 	{"description", 0, 134218098, 0, &AlertDescription_t3789_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Alert::.ctor(Mono.Security.Protocol.Tls.AlertDescription)
 extern const MethodInfo Alert__ctor_m12373_MethodInfo = 
 {
@@ -18072,7 +18072,7 @@ extern const MethodInfo Alert__ctor_m12373_MethodInfo =
 	, (methodPointerType)&Alert__ctor_m12373/* method */
 	, &Alert_t3790_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Void_t85_Byte_t692/* invoker_method */
 	, Alert_t3790_Alert__ctor_m12373_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
@@ -18094,7 +18094,7 @@ static const ParameterInfo Alert_t3790_Alert__ctor_m12374_ParameterInfos[] =
 	{"level", 0, 134218099, 0, &AlertLevel_t3788_0_0_0},
 	{"description", 1, 134218100, 0, &AlertDescription_t3789_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Byte_t691_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Byte_t692_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Alert::.ctor(Mono.Security.Protocol.Tls.AlertLevel,Mono.Security.Protocol.Tls.AlertDescription)
 extern const MethodInfo Alert__ctor_m12374_MethodInfo = 
 {
@@ -18102,7 +18102,7 @@ extern const MethodInfo Alert__ctor_m12374_MethodInfo =
 	, (methodPointerType)&Alert__ctor_m12374/* method */
 	, &Alert_t3790_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Byte_t691_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Void_t85_Byte_t692_Byte_t692/* invoker_method */
 	, Alert_t3790_Alert__ctor_m12374_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
@@ -18237,7 +18237,7 @@ static const ParameterInfo Alert_t3790_Alert_GetAlertMessage_m12380_ParameterInf
 {
 	{"description", 0, 134218101, 0, &AlertDescription_t3789_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Security.Protocol.Tls.Alert::GetAlertMessage(Mono.Security.Protocol.Tls.AlertDescription)
 extern const MethodInfo Alert_GetAlertMessage_m12380_MethodInfo = 
 {
@@ -18245,7 +18245,7 @@ extern const MethodInfo Alert_GetAlertMessage_m12380_MethodInfo =
 	, (methodPointerType)&Alert_GetAlertMessage_m12380/* method */
 	, &Alert_t3790_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692/* invoker_method */
 	, Alert_t3790_Alert_GetAlertMessage_m12380_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -18553,8 +18553,8 @@ TypeInfo CipherAlgorithmType_t3791_il2cpp_TypeInfo =
 extern TypeInfo CipherSuite_t3794_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.CipherSuite
 #include "Mono_Security_Mono_Security_Protocol_Tls_CipherSuiteMethodDeclarations.h"
-extern const Il2CppType Int16_t692_0_0_0;
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CipherAlgorithmType_t3791_0_0_0;
 extern const Il2CppType HashAlgorithmType_t3810_0_0_0;
@@ -18563,27 +18563,27 @@ extern const Il2CppType ExchangeAlgorithmType_t3808_0_0_0;
 extern const Il2CppType ExchangeAlgorithmType_t3808_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Int16_t692_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo CipherSuite_t3794_CipherSuite__ctor_m12381_ParameterInfos[] = 
 {
-	{"code", 0, 134218102, 0, &Int16_t692_0_0_0},
+	{"code", 0, 134218102, 0, &Int16_t693_0_0_0},
 	{"name", 1, 134218103, 0, &String_t_0_0_0},
 	{"cipherAlgorithmType", 2, 134218104, 0, &CipherAlgorithmType_t3791_0_0_0},
 	{"hashAlgorithmType", 3, 134218105, 0, &HashAlgorithmType_t3810_0_0_0},
 	{"exchangeAlgorithmType", 4, 134218106, 0, &ExchangeAlgorithmType_t3808_0_0_0},
 	{"exportable", 5, 134218107, 0, &Boolean_t59_0_0_0},
 	{"blockMode", 6, 134218108, 0, &Boolean_t59_0_0_0},
-	{"keyMaterialSize", 7, 134218109, 0, &Byte_t691_0_0_0},
-	{"expandedKeyMaterialSize", 8, 134218110, 0, &Byte_t691_0_0_0},
-	{"effectiveKeyBits", 9, 134218111, 0, &Int16_t692_0_0_0},
-	{"ivSize", 10, 134218112, 0, &Byte_t691_0_0_0},
-	{"blockSize", 11, 134218113, 0, &Byte_t691_0_0_0},
+	{"keyMaterialSize", 7, 134218109, 0, &Byte_t692_0_0_0},
+	{"expandedKeyMaterialSize", 8, 134218110, 0, &Byte_t692_0_0_0},
+	{"effectiveKeyBits", 9, 134218111, 0, &Int16_t693_0_0_0},
+	{"ivSize", 10, 134218112, 0, &Byte_t692_0_0_0},
+	{"blockSize", 11, 134218113, 0, &Byte_t692_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Int16_t692_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t692_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Int16_t693_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t693_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.CipherSuite::.ctor(System.Int16,System.String,Mono.Security.Protocol.Tls.CipherAlgorithmType,Mono.Security.Protocol.Tls.HashAlgorithmType,Mono.Security.Protocol.Tls.ExchangeAlgorithmType,System.Boolean,System.Boolean,System.Byte,System.Byte,System.Int16,System.Byte,System.Byte)
 extern const MethodInfo CipherSuite__ctor_m12381_MethodInfo = 
 {
@@ -18591,7 +18591,7 @@ extern const MethodInfo CipherSuite__ctor_m12381_MethodInfo =
 	, (methodPointerType)&CipherSuite__ctor_m12381/* method */
 	, &CipherSuite_t3794_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Int16_t692_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t692_SByte_t88_SByte_t88/* invoker_method */
+	, RuntimeInvoker_Void_t85_Int16_t693_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t693_SByte_t88_SByte_t88/* invoker_method */
 	, CipherSuite_t3794_CipherSuite__ctor_m12381_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
@@ -18860,15 +18860,15 @@ extern const MethodInfo CipherSuite_get_CipherMode_m12392_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int16 Mono.Security.Protocol.Tls.CipherSuite::get_Code()
 extern const MethodInfo CipherSuite_get_Code_m12393_MethodInfo = 
 {
 	"get_Code"/* name */
 	, (methodPointerType)&CipherSuite_get_Code_m12393/* method */
 	, &CipherSuite_t3794_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -18929,15 +18929,15 @@ extern const MethodInfo CipherSuite_get_IsExportable_m12395_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Security.Protocol.Tls.CipherSuite::get_KeyMaterialSize()
 extern const MethodInfo CipherSuite_get_KeyMaterialSize_m12396_MethodInfo = 
 {
 	"get_KeyMaterialSize"/* name */
 	, (methodPointerType)&CipherSuite_get_KeyMaterialSize_m12396/* method */
 	, &CipherSuite_t3794_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -18975,15 +18975,15 @@ extern const MethodInfo CipherSuite_get_KeyBlockSize_m12397_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Security.Protocol.Tls.CipherSuite::get_ExpandedKeyMaterialSize()
 extern const MethodInfo CipherSuite_get_ExpandedKeyMaterialSize_m12398_MethodInfo = 
 {
 	"get_ExpandedKeyMaterialSize"/* name */
 	, (methodPointerType)&CipherSuite_get_ExpandedKeyMaterialSize_m12398/* method */
 	, &CipherSuite_t3794_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -18998,15 +18998,15 @@ extern const MethodInfo CipherSuite_get_ExpandedKeyMaterialSize_m12398_MethodInf
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int16 Mono.Security.Protocol.Tls.CipherSuite::get_EffectiveKeyBits()
 extern const MethodInfo CipherSuite_get_EffectiveKeyBits_m12399_MethodInfo = 
 {
 	"get_EffectiveKeyBits"/* name */
 	, (methodPointerType)&CipherSuite_get_EffectiveKeyBits_m12399/* method */
 	, &CipherSuite_t3794_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -19021,15 +19021,15 @@ extern const MethodInfo CipherSuite_get_EffectiveKeyBits_m12399_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Security.Protocol.Tls.CipherSuite::get_IvSize()
 extern const MethodInfo CipherSuite_get_IvSize_m12400_MethodInfo = 
 {
 	"get_IvSize"/* name */
 	, (methodPointerType)&CipherSuite_get_IvSize_m12400/* method */
 	, &CipherSuite_t3794_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -19098,14 +19098,14 @@ extern const MethodInfo CipherSuite_set_Context_m12402_MethodInfo =
 };
 extern const Il2CppType ByteU5BU5D_t66_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 static const ParameterInfo CipherSuite_t3794_CipherSuite_Write_m12403_ParameterInfos[] = 
 {
 	{"array", 0, 134218115, 0, &ByteU5BU5D_t66_0_0_0},
 	{"offset", 1, 134218116, 0, &Int32_t82_0_0_0},
-	{"value", 2, 134218117, 0, &Int16_t692_0_0_0},
+	{"value", 2, 134218117, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.CipherSuite::Write(System.Byte[],System.Int32,System.Int16)
 extern const MethodInfo CipherSuite_Write_m12403_MethodInfo = 
 {
@@ -19113,7 +19113,7 @@ extern const MethodInfo CipherSuite_Write_m12403_MethodInfo =
 	, (methodPointerType)&CipherSuite_Write_m12403/* method */
 	, &CipherSuite_t3794_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int16_t693/* invoker_method */
 	, CipherSuite_t3794_CipherSuite_Write_m12403_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
@@ -19130,13 +19130,13 @@ extern const MethodInfo CipherSuite_Write_m12403_MethodInfo =
 };
 extern const Il2CppType ByteU5BU5D_t66_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType UInt64_t694_0_0_0;
-extern const Il2CppType UInt64_t694_0_0_0;
+extern const Il2CppType UInt64_t695_0_0_0;
+extern const Il2CppType UInt64_t695_0_0_0;
 static const ParameterInfo CipherSuite_t3794_CipherSuite_Write_m12404_ParameterInfos[] = 
 {
 	{"array", 0, 134218118, 0, &ByteU5BU5D_t66_0_0_0},
 	{"offset", 1, 134218119, 0, &Int32_t82_0_0_0},
-	{"value", 2, 134218120, 0, &UInt64_t694_0_0_0},
+	{"value", 2, 134218120, 0, &UInt64_t695_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.CipherSuite::Write(System.Byte[],System.Int32,System.UInt64)
@@ -19254,7 +19254,7 @@ static const ParameterInfo CipherSuite_t3794_CipherSuite_ComputeClientRecordMAC_
 	{"contentType", 0, 134218126, 0, &ContentType_t3803_0_0_0},
 	{"fragment", 1, 134218127, 0, &ByteU5BU5D_t66_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] Mono.Security.Protocol.Tls.CipherSuite::ComputeClientRecordMAC(Mono.Security.Protocol.Tls.ContentType,System.Byte[])
 extern const MethodInfo CipherSuite_ComputeClientRecordMAC_m12960_MethodInfo = 
 {
@@ -19262,7 +19262,7 @@ extern const MethodInfo CipherSuite_ComputeClientRecordMAC_m12960_MethodInfo =
 	, NULL/* method */
 	, &CipherSuite_t3794_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t66_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692_Object_t/* invoker_method */
 	, CipherSuite_t3794_CipherSuite_ComputeClientRecordMAC_m12960_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
@@ -19284,7 +19284,7 @@ static const ParameterInfo CipherSuite_t3794_CipherSuite_ComputeServerRecordMAC_
 	{"contentType", 0, 134218128, 0, &ContentType_t3803_0_0_0},
 	{"fragment", 1, 134218129, 0, &ByteU5BU5D_t66_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] Mono.Security.Protocol.Tls.CipherSuite::ComputeServerRecordMAC(Mono.Security.Protocol.Tls.ContentType,System.Byte[])
 extern const MethodInfo CipherSuite_ComputeServerRecordMAC_m12961_MethodInfo = 
 {
@@ -19292,7 +19292,7 @@ extern const MethodInfo CipherSuite_ComputeServerRecordMAC_m12961_MethodInfo =
 	, NULL/* method */
 	, &CipherSuite_t3794_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t66_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692_Object_t/* invoker_method */
 	, CipherSuite_t3794_CipherSuite_ComputeServerRecordMAC_m12961_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
@@ -20279,12 +20279,12 @@ extern const MethodInfo CipherSuiteCollection_set_Item_m12427_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 static const ParameterInfo CipherSuiteCollection_t3795_CipherSuiteCollection_get_Item_m12428_ParameterInfos[] = 
 {
-	{"code", 0, 134218154, 0, &Int16_t692_0_0_0},
+	{"code", 0, 134218154, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // Mono.Security.Protocol.Tls.CipherSuite Mono.Security.Protocol.Tls.CipherSuiteCollection::get_Item(System.Int16)
 extern const MethodInfo CipherSuiteCollection_get_Item_m12428_MethodInfo = 
 {
@@ -20292,7 +20292,7 @@ extern const MethodInfo CipherSuiteCollection_get_Item_m12428_MethodInfo =
 	, (methodPointerType)&CipherSuiteCollection_get_Item_m12428/* method */
 	, &CipherSuiteCollection_t3795_il2cpp_TypeInfo/* declaring_type */
 	, &CipherSuite_t3794_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Object_t_Int16_t693/* invoker_method */
 	, CipherSuiteCollection_t3795_CipherSuiteCollection_get_Item_m12428_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -20458,12 +20458,12 @@ extern const MethodInfo CipherSuiteCollection_IndexOf_m12434_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 static const ParameterInfo CipherSuiteCollection_t3795_CipherSuiteCollection_IndexOf_m12435_ParameterInfos[] = 
 {
-	{"code", 0, 134218158, 0, &Int16_t692_0_0_0},
+	{"code", 0, 134218158, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 Mono.Security.Protocol.Tls.CipherSuiteCollection::IndexOf(System.Int16)
 extern const MethodInfo CipherSuiteCollection_IndexOf_m12435_MethodInfo = 
 {
@@ -20471,7 +20471,7 @@ extern const MethodInfo CipherSuiteCollection_IndexOf_m12435_MethodInfo =
 	, (methodPointerType)&CipherSuiteCollection_IndexOf_m12435/* method */
 	, &CipherSuiteCollection_t3795_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Int32_t82_Int16_t693/* invoker_method */
 	, CipherSuiteCollection_t3795_CipherSuiteCollection_IndexOf_m12435_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -20486,34 +20486,34 @@ extern const MethodInfo CipherSuiteCollection_IndexOf_m12435_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CipherAlgorithmType_t3791_0_0_0;
 extern const Il2CppType HashAlgorithmType_t3810_0_0_0;
 extern const Il2CppType ExchangeAlgorithmType_t3808_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Int16_t692_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo CipherSuiteCollection_t3795_CipherSuiteCollection_Add_m12436_ParameterInfos[] = 
 {
-	{"code", 0, 134218159, 0, &Int16_t692_0_0_0},
+	{"code", 0, 134218159, 0, &Int16_t693_0_0_0},
 	{"name", 1, 134218160, 0, &String_t_0_0_0},
 	{"cipherType", 2, 134218161, 0, &CipherAlgorithmType_t3791_0_0_0},
 	{"hashType", 3, 134218162, 0, &HashAlgorithmType_t3810_0_0_0},
 	{"exchangeType", 4, 134218163, 0, &ExchangeAlgorithmType_t3808_0_0_0},
 	{"exportable", 5, 134218164, 0, &Boolean_t59_0_0_0},
 	{"blockMode", 6, 134218165, 0, &Boolean_t59_0_0_0},
-	{"keyMaterialSize", 7, 134218166, 0, &Byte_t691_0_0_0},
-	{"expandedKeyMaterialSize", 8, 134218167, 0, &Byte_t691_0_0_0},
-	{"effectiveKeyBytes", 9, 134218168, 0, &Int16_t692_0_0_0},
-	{"ivSize", 10, 134218169, 0, &Byte_t691_0_0_0},
-	{"blockSize", 11, 134218170, 0, &Byte_t691_0_0_0},
+	{"keyMaterialSize", 7, 134218166, 0, &Byte_t692_0_0_0},
+	{"expandedKeyMaterialSize", 8, 134218167, 0, &Byte_t692_0_0_0},
+	{"effectiveKeyBytes", 9, 134218168, 0, &Int16_t693_0_0_0},
+	{"ivSize", 10, 134218169, 0, &Byte_t692_0_0_0},
+	{"blockSize", 11, 134218170, 0, &Byte_t692_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Int16_t692_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t692_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Int16_t693_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t693_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // Mono.Security.Protocol.Tls.CipherSuite Mono.Security.Protocol.Tls.CipherSuiteCollection::Add(System.Int16,System.String,Mono.Security.Protocol.Tls.CipherAlgorithmType,Mono.Security.Protocol.Tls.HashAlgorithmType,Mono.Security.Protocol.Tls.ExchangeAlgorithmType,System.Boolean,System.Boolean,System.Byte,System.Byte,System.Int16,System.Byte,System.Byte)
 extern const MethodInfo CipherSuiteCollection_Add_m12436_MethodInfo = 
 {
@@ -20521,7 +20521,7 @@ extern const MethodInfo CipherSuiteCollection_Add_m12436_MethodInfo =
 	, (methodPointerType)&CipherSuiteCollection_Add_m12436/* method */
 	, &CipherSuiteCollection_t3795_il2cpp_TypeInfo/* declaring_type */
 	, &CipherSuite_t3794_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int16_t692_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t692_SByte_t88_SByte_t88/* invoker_method */
+	, RuntimeInvoker_Object_t_Int16_t693_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t693_SByte_t88_SByte_t88/* invoker_method */
 	, CipherSuiteCollection_t3795_CipherSuiteCollection_Add_m12436_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -20713,7 +20713,7 @@ static const PropertyInfo CipherSuiteCollection_t3795____Item_Int32_t82_Property
 
 };
 extern const MethodInfo CipherSuiteCollection_get_Item_m12428_MethodInfo;
-static const PropertyInfo CipherSuiteCollection_t3795____Item_Int16_t692_PropertyInfo = 
+static const PropertyInfo CipherSuiteCollection_t3795____Item_Int16_t693_PropertyInfo = 
 {
 	&CipherSuiteCollection_t3795_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
@@ -20763,7 +20763,7 @@ static const PropertyInfo* CipherSuiteCollection_t3795_PropertyInfos[] =
 	&CipherSuiteCollection_t3795____System_Collections_ICollection_SyncRoot_PropertyInfo,
 	&CipherSuiteCollection_t3795____Item_String_t_PropertyInfo,
 	&CipherSuiteCollection_t3795____Item_Int32_t82_PropertyInfo,
-	&CipherSuiteCollection_t3795____Item_Int16_t692_PropertyInfo,
+	&CipherSuiteCollection_t3795____Item_Int16_t693_PropertyInfo,
 	&CipherSuiteCollection_t3795____Count_PropertyInfo,
 	&CipherSuiteCollection_t3795____IsFixedSize_PropertyInfo,
 	&CipherSuiteCollection_t3795____IsReadOnly_PropertyInfo,
@@ -20827,14 +20827,14 @@ static bool CipherSuiteCollection_t3795_VTableIsGenericMethod[] =
 static const Il2CppType* CipherSuiteCollection_t3795_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICollection_t704_0_0_0,
-	&IList_t639_0_0_0,
+	&ICollection_t705_0_0_0,
+	&IList_t640_0_0_0,
 };
 static Il2CppInterfaceOffsetPair CipherSuiteCollection_t3795_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_Mono_Security_dll_Image;
 extern const Il2CppType CipherSuiteCollection_t3795_0_0_0;
@@ -21144,15 +21144,15 @@ extern const MethodInfo ClientContext_get_SslStream_m12444_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int16 Mono.Security.Protocol.Tls.ClientContext::get_ClientHelloProtocol()
 extern const MethodInfo ClientContext_get_ClientHelloProtocol_m12445_MethodInfo = 
 {
 	"get_ClientHelloProtocol"/* name */
 	, (methodPointerType)&ClientContext_get_ClientHelloProtocol_m12445/* method */
 	, &ClientContext_t3798_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -21167,12 +21167,12 @@ extern const MethodInfo ClientContext_get_ClientHelloProtocol_m12445_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 static const ParameterInfo ClientContext_t3798_ClientContext_set_ClientHelloProtocol_m12446_ParameterInfos[] = 
 {
-	{"value", 0, 134218180, 0, &Int16_t692_0_0_0},
+	{"value", 0, 134218180, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.ClientContext::set_ClientHelloProtocol(System.Int16)
 extern const MethodInfo ClientContext_set_ClientHelloProtocol_m12446_MethodInfo = 
 {
@@ -21180,7 +21180,7 @@ extern const MethodInfo ClientContext_set_ClientHelloProtocol_m12446_MethodInfo 
 	, (methodPointerType)&ClientContext_set_ClientHelloProtocol_m12446/* method */
 	, &ClientContext_t3798_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Void_t85_Int16_t693/* invoker_method */
 	, ClientContext_t3798_ClientContext_set_ClientHelloProtocol_m12446_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -21391,7 +21391,7 @@ static const ParameterInfo ClientRecordProtocol_t3799_ClientRecordProtocol_GetMe
 	{"type", 0, 134218183, 0, &HandshakeType_t3839_0_0_0},
 };
 extern const Il2CppType HandshakeMessage_t3816_0_0_0;
-extern void* RuntimeInvoker_Object_t_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // Mono.Security.Protocol.Tls.Handshake.HandshakeMessage Mono.Security.Protocol.Tls.ClientRecordProtocol::GetMessage(Mono.Security.Protocol.Tls.Handshake.HandshakeType)
 extern const MethodInfo ClientRecordProtocol_GetMessage_m12449_MethodInfo = 
 {
@@ -21399,7 +21399,7 @@ extern const MethodInfo ClientRecordProtocol_GetMessage_m12449_MethodInfo =
 	, (methodPointerType)&ClientRecordProtocol_GetMessage_m12449/* method */
 	, &ClientRecordProtocol_t3799_il2cpp_TypeInfo/* declaring_type */
 	, &HandshakeMessage_t3816_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692/* invoker_method */
 	, ClientRecordProtocol_t3799_ClientRecordProtocol_GetMessage_m12449_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
@@ -21448,7 +21448,7 @@ static const ParameterInfo ClientRecordProtocol_t3799_ClientRecordProtocol_creat
 {
 	{"type", 0, 134218185, 0, &HandshakeType_t3839_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // Mono.Security.Protocol.Tls.Handshake.HandshakeMessage Mono.Security.Protocol.Tls.ClientRecordProtocol::createClientHandshakeMessage(Mono.Security.Protocol.Tls.Handshake.HandshakeType)
 extern const MethodInfo ClientRecordProtocol_createClientHandshakeMessage_m12451_MethodInfo = 
 {
@@ -21456,7 +21456,7 @@ extern const MethodInfo ClientRecordProtocol_createClientHandshakeMessage_m12451
 	, (methodPointerType)&ClientRecordProtocol_createClientHandshakeMessage_m12451/* method */
 	, &ClientRecordProtocol_t3799_il2cpp_TypeInfo/* declaring_type */
 	, &HandshakeMessage_t3816_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692/* invoker_method */
 	, ClientRecordProtocol_t3799_ClientRecordProtocol_createClientHandshakeMessage_m12451_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -21478,7 +21478,7 @@ static const ParameterInfo ClientRecordProtocol_t3799_ClientRecordProtocol_creat
 	{"type", 0, 134218186, 0, &HandshakeType_t3839_0_0_0},
 	{"buffer", 1, 134218187, 0, &ByteU5BU5D_t66_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Security.Protocol.Tls.Handshake.HandshakeMessage Mono.Security.Protocol.Tls.ClientRecordProtocol::createServerHandshakeMessage(Mono.Security.Protocol.Tls.Handshake.HandshakeType,System.Byte[])
 extern const MethodInfo ClientRecordProtocol_createServerHandshakeMessage_m12452_MethodInfo = 
 {
@@ -21486,7 +21486,7 @@ extern const MethodInfo ClientRecordProtocol_createServerHandshakeMessage_m12452
 	, (methodPointerType)&ClientRecordProtocol_createServerHandshakeMessage_m12452/* method */
 	, &ClientRecordProtocol_t3799_il2cpp_TypeInfo/* declaring_type */
 	, &HandshakeMessage_t3816_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692_Object_t/* invoker_method */
 	, ClientRecordProtocol_t3799_ClientRecordProtocol_createServerHandshakeMessage_m12452_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -22425,7 +22425,7 @@ TypeInfo ContentType_t3803_il2cpp_TypeInfo =
 	, ContentType_t3803_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &Byte_t691_il2cpp_TypeInfo/* element_class */
+	, &Byte_t692_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
 	, &ContentType_t3803_0_0_0/* byval_arg */
@@ -22680,15 +22680,15 @@ extern const MethodInfo Context_get_SecurityProtocolFlags_m12478_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int16 Mono.Security.Protocol.Tls.Context::get_Protocol()
 extern const MethodInfo Context_get_Protocol_m12479_MethodInfo = 
 {
 	"get_Protocol"/* name */
 	, (methodPointerType)&Context_get_Protocol_m12479/* method */
 	, &Context_t3792_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -22882,7 +22882,7 @@ static const ParameterInfo Context_t3792_Context_set_LastHandshakeMsg_m12487_Par
 {
 	{"value", 0, 134218206, 0, &HandshakeType_t3839_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Context::set_LastHandshakeMsg(Mono.Security.Protocol.Tls.Handshake.HandshakeType)
 extern const MethodInfo Context_set_LastHandshakeMsg_m12487_MethodInfo = 
 {
@@ -22890,7 +22890,7 @@ extern const MethodInfo Context_set_LastHandshakeMsg_m12487_MethodInfo =
 	, (methodPointerType)&Context_set_LastHandshakeMsg_m12487/* method */
 	, &Context_t3792_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Void_t85_Byte_t692/* invoker_method */
 	, Context_t3792_Context_set_LastHandshakeMsg_m12487_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -23133,15 +23133,15 @@ extern const MethodInfo Context_get_HandshakeMessages_m12496_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_UInt64_t694 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695 (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 Mono.Security.Protocol.Tls.Context::get_WriteSequenceNumber()
 extern const MethodInfo Context_get_WriteSequenceNumber_m12497_MethodInfo = 
 {
 	"get_WriteSequenceNumber"/* name */
 	, (methodPointerType)&Context_get_WriteSequenceNumber_m12497/* method */
 	, &Context_t3792_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -23156,10 +23156,10 @@ extern const MethodInfo Context_get_WriteSequenceNumber_m12497_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt64_t694_0_0_0;
+extern const Il2CppType UInt64_t695_0_0_0;
 static const ParameterInfo Context_t3792_Context_set_WriteSequenceNumber_m12498_ParameterInfos[] = 
 {
-	{"value", 0, 134218211, 0, &UInt64_t694_0_0_0},
+	{"value", 0, 134218211, 0, &UInt64_t695_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Context::set_WriteSequenceNumber(System.UInt64)
@@ -23184,15 +23184,15 @@ extern const MethodInfo Context_set_WriteSequenceNumber_m12498_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_UInt64_t694 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695 (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 Mono.Security.Protocol.Tls.Context::get_ReadSequenceNumber()
 extern const MethodInfo Context_get_ReadSequenceNumber_m12499_MethodInfo = 
 {
 	"get_ReadSequenceNumber"/* name */
 	, (methodPointerType)&Context_get_ReadSequenceNumber_m12499/* method */
 	, &Context_t3792_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -23207,10 +23207,10 @@ extern const MethodInfo Context_get_ReadSequenceNumber_m12499_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt64_t694_0_0_0;
+extern const Il2CppType UInt64_t695_0_0_0;
 static const ParameterInfo Context_t3792_Context_set_ReadSequenceNumber_m12500_ParameterInfos[] = 
 {
-	{"value", 0, 134218212, 0, &UInt64_t694_0_0_0},
+	{"value", 0, 134218212, 0, &UInt64_t695_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Context::set_ReadSequenceNumber(System.UInt64)
@@ -23842,12 +23842,12 @@ extern const MethodInfo Context_ClearKeyInfo_m12524_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 static const ParameterInfo Context_t3792_Context_DecodeProtocolCode_m12525_ParameterInfos[] = 
 {
-	{"code", 0, 134218224, 0, &Int16_t692_0_0_0},
+	{"code", 0, 134218224, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_SecurityProtocolType_t3823_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_SecurityProtocolType_t3823_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // Mono.Security.Protocol.Tls.SecurityProtocolType Mono.Security.Protocol.Tls.Context::DecodeProtocolCode(System.Int16)
 extern const MethodInfo Context_DecodeProtocolCode_m12525_MethodInfo = 
 {
@@ -23855,7 +23855,7 @@ extern const MethodInfo Context_DecodeProtocolCode_m12525_MethodInfo =
 	, (methodPointerType)&Context_DecodeProtocolCode_m12525/* method */
 	, &Context_t3792_il2cpp_TypeInfo/* declaring_type */
 	, &SecurityProtocolType_t3823_0_0_0/* return_type */
-	, RuntimeInvoker_SecurityProtocolType_t3823_Int16_t692/* invoker_method */
+	, RuntimeInvoker_SecurityProtocolType_t3823_Int16_t693/* invoker_method */
 	, Context_t3792_Context_DecodeProtocolCode_m12525_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -23870,12 +23870,12 @@ extern const MethodInfo Context_DecodeProtocolCode_m12525_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 static const ParameterInfo Context_t3792_Context_ChangeProtocol_m12526_ParameterInfos[] = 
 {
-	{"protocol", 0, 134218225, 0, &Int16_t692_0_0_0},
+	{"protocol", 0, 134218225, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Context::ChangeProtocol(System.Int16)
 extern const MethodInfo Context_ChangeProtocol_m12526_MethodInfo = 
 {
@@ -23883,7 +23883,7 @@ extern const MethodInfo Context_ChangeProtocol_m12526_MethodInfo =
 	, (methodPointerType)&Context_ChangeProtocol_m12526/* method */
 	, &Context_t3792_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Void_t85_Int16_t693/* invoker_method */
 	, Context_t3792_Context_ChangeProtocol_m12526_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -25077,12 +25077,12 @@ extern const MethodInfo HttpsClientStream_get_TrustFailure_m12534_MethodInfo =
 };
 extern const Il2CppType X509Certificate_t3834_0_0_0;
 extern const Il2CppType X509Certificate_t3834_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 static const ParameterInfo HttpsClientStream_t3814_HttpsClientStream_RaiseServerCertificateValidation_m12535_ParameterInfos[] = 
 {
 	{"certificate", 0, 134218232, 0, &X509Certificate_t3834_0_0_0},
-	{"certificateErrors", 1, 134218233, 0, &Int32U5BU5D_t548_0_0_0},
+	{"certificateErrors", 1, 134218233, 0, &Int32U5BU5D_t549_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Security.Protocol.Tls.HttpsClientStream::RaiseServerCertificateValidation(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
@@ -26408,7 +26408,7 @@ static const ParameterInfo RecordProtocol_t3800_RecordProtocol_SendRecord_m12562
 {
 	{"type", 0, 134218242, 0, &HandshakeType_t3839_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.RecordProtocol::SendRecord(Mono.Security.Protocol.Tls.Handshake.HandshakeType)
 extern const MethodInfo RecordProtocol_SendRecord_m12562_MethodInfo = 
 {
@@ -26416,7 +26416,7 @@ extern const MethodInfo RecordProtocol_SendRecord_m12562_MethodInfo =
 	, (methodPointerType)&RecordProtocol_SendRecord_m12562/* method */
 	, &RecordProtocol_t3800_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Void_t85_Byte_t692/* invoker_method */
 	, RecordProtocol_t3800_RecordProtocol_SendRecord_m12562_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
@@ -26487,7 +26487,7 @@ static const ParameterInfo RecordProtocol_t3800_RecordProtocol_GetMessage_m12564
 {
 	{"type", 0, 134218244, 0, &HandshakeType_t3839_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // Mono.Security.Protocol.Tls.Handshake.HandshakeMessage Mono.Security.Protocol.Tls.RecordProtocol::GetMessage(Mono.Security.Protocol.Tls.Handshake.HandshakeType)
 extern const MethodInfo RecordProtocol_GetMessage_m12564_MethodInfo = 
 {
@@ -26495,7 +26495,7 @@ extern const MethodInfo RecordProtocol_GetMessage_m12564_MethodInfo =
 	, (methodPointerType)&RecordProtocol_GetMessage_m12564/* method */
 	, &RecordProtocol_t3800_il2cpp_TypeInfo/* declaring_type */
 	, &HandshakeMessage_t3816_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692/* invoker_method */
 	, RecordProtocol_t3800_RecordProtocol_GetMessage_m12564_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
@@ -26719,7 +26719,7 @@ static const ParameterInfo RecordProtocol_t3800_RecordProtocol_ProcessAlert_m125
 	{"alertLevel", 0, 134218255, 0, &AlertLevel_t3788_0_0_0},
 	{"alertDesc", 1, 134218256, 0, &AlertDescription_t3789_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Byte_t691_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Byte_t692_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.RecordProtocol::ProcessAlert(Mono.Security.Protocol.Tls.AlertLevel,Mono.Security.Protocol.Tls.AlertDescription)
 extern const MethodInfo RecordProtocol_ProcessAlert_m12572_MethodInfo = 
 {
@@ -26727,7 +26727,7 @@ extern const MethodInfo RecordProtocol_ProcessAlert_m12572_MethodInfo =
 	, (methodPointerType)&RecordProtocol_ProcessAlert_m12572/* method */
 	, &RecordProtocol_t3800_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Byte_t691_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Void_t85_Byte_t692_Byte_t692/* invoker_method */
 	, RecordProtocol_t3800_RecordProtocol_ProcessAlert_m12572_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -26747,7 +26747,7 @@ static const ParameterInfo RecordProtocol_t3800_RecordProtocol_SendAlert_m12573_
 {
 	{"description", 0, 134218257, 0, &AlertDescription_t3789_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.RecordProtocol::SendAlert(Mono.Security.Protocol.Tls.AlertDescription)
 extern const MethodInfo RecordProtocol_SendAlert_m12573_MethodInfo = 
 {
@@ -26755,7 +26755,7 @@ extern const MethodInfo RecordProtocol_SendAlert_m12573_MethodInfo =
 	, (methodPointerType)&RecordProtocol_SendAlert_m12573/* method */
 	, &RecordProtocol_t3800_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Void_t85_Byte_t692/* invoker_method */
 	, RecordProtocol_t3800_RecordProtocol_SendAlert_m12573_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -26777,7 +26777,7 @@ static const ParameterInfo RecordProtocol_t3800_RecordProtocol_SendAlert_m12574_
 	{"level", 0, 134218258, 0, &AlertLevel_t3788_0_0_0},
 	{"description", 1, 134218259, 0, &AlertDescription_t3789_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Byte_t691_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Byte_t692_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.RecordProtocol::SendAlert(Mono.Security.Protocol.Tls.AlertLevel,Mono.Security.Protocol.Tls.AlertDescription)
 extern const MethodInfo RecordProtocol_SendAlert_m12574_MethodInfo = 
 {
@@ -26785,7 +26785,7 @@ extern const MethodInfo RecordProtocol_SendAlert_m12574_MethodInfo =
 	, (methodPointerType)&RecordProtocol_SendAlert_m12574/* method */
 	, &RecordProtocol_t3800_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Byte_t691_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Void_t85_Byte_t692_Byte_t692/* invoker_method */
 	, RecordProtocol_t3800_RecordProtocol_SendAlert_m12574_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -26860,7 +26860,7 @@ static const ParameterInfo RecordProtocol_t3800_RecordProtocol_BeginSendRecord_m
 	{"callback", 1, 134218262, 0, &AsyncCallback_t386_0_0_0},
 	{"state", 2, 134218263, 0, &Object_t_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult Mono.Security.Protocol.Tls.RecordProtocol::BeginSendRecord(Mono.Security.Protocol.Tls.Handshake.HandshakeType,System.AsyncCallback,System.Object)
 extern const MethodInfo RecordProtocol_BeginSendRecord_m12577_MethodInfo = 
 {
@@ -26868,7 +26868,7 @@ extern const MethodInfo RecordProtocol_BeginSendRecord_m12577_MethodInfo =
 	, (methodPointerType)&RecordProtocol_BeginSendRecord_m12577/* method */
 	, &RecordProtocol_t3800_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692_Object_t_Object_t/* invoker_method */
 	, RecordProtocol_t3800_RecordProtocol_BeginSendRecord_m12577_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -26922,7 +26922,7 @@ static const ParameterInfo RecordProtocol_t3800_RecordProtocol_BeginSendRecord_m
 	{"callback", 2, 134218267, 0, &AsyncCallback_t386_0_0_0},
 	{"state", 3, 134218268, 0, &Object_t_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult Mono.Security.Protocol.Tls.RecordProtocol::BeginSendRecord(Mono.Security.Protocol.Tls.ContentType,System.Byte[],System.AsyncCallback,System.Object)
 extern const MethodInfo RecordProtocol_BeginSendRecord_m12579_MethodInfo = 
 {
@@ -26930,7 +26930,7 @@ extern const MethodInfo RecordProtocol_BeginSendRecord_m12579_MethodInfo =
 	, (methodPointerType)&RecordProtocol_BeginSendRecord_m12579/* method */
 	, &RecordProtocol_t3800_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691_Object_t_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692_Object_t_Object_t_Object_t/* invoker_method */
 	, RecordProtocol_t3800_RecordProtocol_BeginSendRecord_m12579_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -26980,7 +26980,7 @@ static const ParameterInfo RecordProtocol_t3800_RecordProtocol_SendRecord_m12581
 	{"contentType", 0, 134218270, 0, &ContentType_t3803_0_0_0},
 	{"recordData", 1, 134218271, 0, &ByteU5BU5D_t66_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.RecordProtocol::SendRecord(Mono.Security.Protocol.Tls.ContentType,System.Byte[])
 extern const MethodInfo RecordProtocol_SendRecord_m12581_MethodInfo = 
 {
@@ -26988,7 +26988,7 @@ extern const MethodInfo RecordProtocol_SendRecord_m12581_MethodInfo =
 	, (methodPointerType)&RecordProtocol_SendRecord_m12581/* method */
 	, &RecordProtocol_t3800_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t85_Byte_t692_Object_t/* invoker_method */
 	, RecordProtocol_t3800_RecordProtocol_SendRecord_m12581_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -27010,7 +27010,7 @@ static const ParameterInfo RecordProtocol_t3800_RecordProtocol_EncodeRecord_m125
 	{"contentType", 0, 134218272, 0, &ContentType_t3803_0_0_0},
 	{"recordData", 1, 134218273, 0, &ByteU5BU5D_t66_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] Mono.Security.Protocol.Tls.RecordProtocol::EncodeRecord(Mono.Security.Protocol.Tls.ContentType,System.Byte[])
 extern const MethodInfo RecordProtocol_EncodeRecord_m12582_MethodInfo = 
 {
@@ -27018,7 +27018,7 @@ extern const MethodInfo RecordProtocol_EncodeRecord_m12582_MethodInfo =
 	, (methodPointerType)&RecordProtocol_EncodeRecord_m12582/* method */
 	, &RecordProtocol_t3800_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t66_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692_Object_t/* invoker_method */
 	, RecordProtocol_t3800_RecordProtocol_EncodeRecord_m12582_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -27044,7 +27044,7 @@ static const ParameterInfo RecordProtocol_t3800_RecordProtocol_EncodeRecord_m125
 	{"offset", 2, 134218276, 0, &Int32_t82_0_0_0},
 	{"count", 3, 134218277, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] Mono.Security.Protocol.Tls.RecordProtocol::EncodeRecord(Mono.Security.Protocol.Tls.ContentType,System.Byte[],System.Int32,System.Int32)
 extern const MethodInfo RecordProtocol_EncodeRecord_m12583_MethodInfo = 
 {
@@ -27052,7 +27052,7 @@ extern const MethodInfo RecordProtocol_EncodeRecord_m12583_MethodInfo =
 	, (methodPointerType)&RecordProtocol_EncodeRecord_m12583/* method */
 	, &RecordProtocol_t3800_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t66_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691_Object_t_Int32_t82_Int32_t82/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692_Object_t_Int32_t82_Int32_t82/* invoker_method */
 	, RecordProtocol_t3800_RecordProtocol_EncodeRecord_m12583_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -27074,7 +27074,7 @@ static const ParameterInfo RecordProtocol_t3800_RecordProtocol_encryptRecordFrag
 	{"contentType", 0, 134218278, 0, &ContentType_t3803_0_0_0},
 	{"fragment", 1, 134218279, 0, &ByteU5BU5D_t66_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] Mono.Security.Protocol.Tls.RecordProtocol::encryptRecordFragment(Mono.Security.Protocol.Tls.ContentType,System.Byte[])
 extern const MethodInfo RecordProtocol_encryptRecordFragment_m12584_MethodInfo = 
 {
@@ -27082,7 +27082,7 @@ extern const MethodInfo RecordProtocol_encryptRecordFragment_m12584_MethodInfo =
 	, (methodPointerType)&RecordProtocol_encryptRecordFragment_m12584/* method */
 	, &RecordProtocol_t3800_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t66_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692_Object_t/* invoker_method */
 	, RecordProtocol_t3800_RecordProtocol_encryptRecordFragment_m12584_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -27104,7 +27104,7 @@ static const ParameterInfo RecordProtocol_t3800_RecordProtocol_decryptRecordFrag
 	{"contentType", 0, 134218280, 0, &ContentType_t3803_0_0_0},
 	{"fragment", 1, 134218281, 0, &ByteU5BU5D_t66_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] Mono.Security.Protocol.Tls.RecordProtocol::decryptRecordFragment(Mono.Security.Protocol.Tls.ContentType,System.Byte[])
 extern const MethodInfo RecordProtocol_decryptRecordFragment_m12585_MethodInfo = 
 {
@@ -27112,7 +27112,7 @@ extern const MethodInfo RecordProtocol_decryptRecordFragment_m12585_MethodInfo =
 	, (methodPointerType)&RecordProtocol_decryptRecordFragment_m12585/* method */
 	, &RecordProtocol_t3800_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t66_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692_Object_t/* invoker_method */
 	, RecordProtocol_t3800_RecordProtocol_decryptRecordFragment_m12585_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -29576,11 +29576,11 @@ extern const MethodInfo SslClientStream_OnRemoteCertificateValidation2_m12637_Me
 
 };
 extern const Il2CppType X509Certificate_t3834_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 static const ParameterInfo SslClientStream_t3797_SslClientStream_OnRemoteCertificateValidation_m12638_ParameterInfos[] = 
 {
 	{"certificate", 0, 134218354, 0, &X509Certificate_t3834_0_0_0},
-	{"errors", 1, 134218355, 0, &Int32U5BU5D_t548_0_0_0},
+	{"errors", 1, 134218355, 0, &Int32U5BU5D_t549_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Security.Protocol.Tls.SslClientStream::OnRemoteCertificateValidation(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
@@ -29606,11 +29606,11 @@ extern const MethodInfo SslClientStream_OnRemoteCertificateValidation_m12638_Met
 
 };
 extern const Il2CppType X509Certificate_t3834_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 static const ParameterInfo SslClientStream_t3797_SslClientStream_RaiseServerCertificateValidation_m12639_ParameterInfos[] = 
 {
 	{"certificate", 0, 134218356, 0, &X509Certificate_t3834_0_0_0},
-	{"certificateErrors", 1, 134218357, 0, &Int32U5BU5D_t548_0_0_0},
+	{"certificateErrors", 1, 134218357, 0, &Int32U5BU5D_t549_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Security.Protocol.Tls.SslClientStream::RaiseServerCertificateValidation(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
@@ -30109,34 +30109,34 @@ TypeInfo SslClientStream_t3797_il2cpp_TypeInfo =
 extern TypeInfo SslCipherSuite_t3829_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.SslCipherSuite
 #include "Mono_Security_Mono_Security_Protocol_Tls_SslCipherSuiteMethodDeclarations.h"
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CipherAlgorithmType_t3791_0_0_0;
 extern const Il2CppType HashAlgorithmType_t3810_0_0_0;
 extern const Il2CppType ExchangeAlgorithmType_t3808_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Int16_t692_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo SslCipherSuite_t3829_SslCipherSuite__ctor_m12644_ParameterInfos[] = 
 {
-	{"code", 0, 134218367, 0, &Int16_t692_0_0_0},
+	{"code", 0, 134218367, 0, &Int16_t693_0_0_0},
 	{"name", 1, 134218368, 0, &String_t_0_0_0},
 	{"cipherAlgorithmType", 2, 134218369, 0, &CipherAlgorithmType_t3791_0_0_0},
 	{"hashAlgorithmType", 3, 134218370, 0, &HashAlgorithmType_t3810_0_0_0},
 	{"exchangeAlgorithmType", 4, 134218371, 0, &ExchangeAlgorithmType_t3808_0_0_0},
 	{"exportable", 5, 134218372, 0, &Boolean_t59_0_0_0},
 	{"blockMode", 6, 134218373, 0, &Boolean_t59_0_0_0},
-	{"keyMaterialSize", 7, 134218374, 0, &Byte_t691_0_0_0},
-	{"expandedKeyMaterialSize", 8, 134218375, 0, &Byte_t691_0_0_0},
-	{"effectiveKeyBytes", 9, 134218376, 0, &Int16_t692_0_0_0},
-	{"ivSize", 10, 134218377, 0, &Byte_t691_0_0_0},
-	{"blockSize", 11, 134218378, 0, &Byte_t691_0_0_0},
+	{"keyMaterialSize", 7, 134218374, 0, &Byte_t692_0_0_0},
+	{"expandedKeyMaterialSize", 8, 134218375, 0, &Byte_t692_0_0_0},
+	{"effectiveKeyBytes", 9, 134218376, 0, &Int16_t693_0_0_0},
+	{"ivSize", 10, 134218377, 0, &Byte_t692_0_0_0},
+	{"blockSize", 11, 134218378, 0, &Byte_t692_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Int16_t692_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t692_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Int16_t693_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t693_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.SslCipherSuite::.ctor(System.Int16,System.String,Mono.Security.Protocol.Tls.CipherAlgorithmType,Mono.Security.Protocol.Tls.HashAlgorithmType,Mono.Security.Protocol.Tls.ExchangeAlgorithmType,System.Boolean,System.Boolean,System.Byte,System.Byte,System.Int16,System.Byte,System.Byte)
 extern const MethodInfo SslCipherSuite__ctor_m12644_MethodInfo = 
 {
@@ -30144,7 +30144,7 @@ extern const MethodInfo SslCipherSuite__ctor_m12644_MethodInfo =
 	, (methodPointerType)&SslCipherSuite__ctor_m12644/* method */
 	, &SslCipherSuite_t3829_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Int16_t692_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t692_SByte_t88_SByte_t88/* invoker_method */
+	, RuntimeInvoker_Void_t85_Int16_t693_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t693_SByte_t88_SByte_t88/* invoker_method */
 	, SslCipherSuite_t3829_SslCipherSuite__ctor_m12644_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
@@ -30166,7 +30166,7 @@ static const ParameterInfo SslCipherSuite_t3829_SslCipherSuite_ComputeServerReco
 	{"contentType", 0, 134218379, 0, &ContentType_t3803_0_0_0},
 	{"fragment", 1, 134218380, 0, &ByteU5BU5D_t66_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] Mono.Security.Protocol.Tls.SslCipherSuite::ComputeServerRecordMAC(Mono.Security.Protocol.Tls.ContentType,System.Byte[])
 extern const MethodInfo SslCipherSuite_ComputeServerRecordMAC_m12645_MethodInfo = 
 {
@@ -30174,7 +30174,7 @@ extern const MethodInfo SslCipherSuite_ComputeServerRecordMAC_m12645_MethodInfo 
 	, (methodPointerType)&SslCipherSuite_ComputeServerRecordMAC_m12645/* method */
 	, &SslCipherSuite_t3829_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t66_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692_Object_t/* invoker_method */
 	, SslCipherSuite_t3829_SslCipherSuite_ComputeServerRecordMAC_m12645_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
@@ -30196,7 +30196,7 @@ static const ParameterInfo SslCipherSuite_t3829_SslCipherSuite_ComputeClientReco
 	{"contentType", 0, 134218381, 0, &ContentType_t3803_0_0_0},
 	{"fragment", 1, 134218382, 0, &ByteU5BU5D_t66_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] Mono.Security.Protocol.Tls.SslCipherSuite::ComputeClientRecordMAC(Mono.Security.Protocol.Tls.ContentType,System.Byte[])
 extern const MethodInfo SslCipherSuite_ComputeClientRecordMAC_m12646_MethodInfo = 
 {
@@ -30204,7 +30204,7 @@ extern const MethodInfo SslCipherSuite_ComputeClientRecordMAC_m12646_MethodInfo 
 	, (methodPointerType)&SslCipherSuite_ComputeClientRecordMAC_m12646/* method */
 	, &SslCipherSuite_t3829_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t66_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692_Object_t/* invoker_method */
 	, SslCipherSuite_t3829_SslCipherSuite_ComputeClientRecordMAC_m12646_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
@@ -31585,11 +31585,11 @@ extern const MethodInfo SslStreamBase_OnLocalCertificateSelection_m12967_MethodI
 
 };
 extern const Il2CppType X509Certificate_t3834_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 static const ParameterInfo SslStreamBase_t3828_SslStreamBase_OnRemoteCertificateValidation_m12968_ParameterInfos[] = 
 {
 	{"certificate", 0, 134218402, 0, &X509Certificate_t3834_0_0_0},
-	{"errors", 1, 134218403, 0, &Int32U5BU5D_t548_0_0_0},
+	{"errors", 1, 134218403, 0, &Int32U5BU5D_t549_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Security.Protocol.Tls.SslStreamBase::OnRemoteCertificateValidation(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
@@ -31730,11 +31730,11 @@ extern const MethodInfo SslStreamBase_RaiseLocalCertificateSelection_m12677_Meth
 
 };
 extern const Il2CppType X509Certificate_t3834_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 static const ParameterInfo SslStreamBase_t3828_SslStreamBase_RaiseRemoteCertificateValidation_m12678_ParameterInfos[] = 
 {
 	{"certificate", 0, 134218411, 0, &X509Certificate_t3834_0_0_0},
-	{"errors", 1, 134218412, 0, &Int32U5BU5D_t548_0_0_0},
+	{"errors", 1, 134218412, 0, &Int32U5BU5D_t549_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Security.Protocol.Tls.SslStreamBase::RaiseRemoteCertificateValidation(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
@@ -33262,34 +33262,34 @@ TypeInfo SslStreamBase_t3828_il2cpp_TypeInfo =
 extern TypeInfo TlsCipherSuite_t3832_il2cpp_TypeInfo;
 // Mono.Security.Protocol.Tls.TlsCipherSuite
 #include "Mono_Security_Mono_Security_Protocol_Tls_TlsCipherSuiteMethodDeclarations.h"
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CipherAlgorithmType_t3791_0_0_0;
 extern const Il2CppType HashAlgorithmType_t3810_0_0_0;
 extern const Il2CppType ExchangeAlgorithmType_t3808_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Int16_t692_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo TlsCipherSuite_t3832_TlsCipherSuite__ctor_m12720_ParameterInfos[] = 
 {
-	{"code", 0, 134218459, 0, &Int16_t692_0_0_0},
+	{"code", 0, 134218459, 0, &Int16_t693_0_0_0},
 	{"name", 1, 134218460, 0, &String_t_0_0_0},
 	{"cipherAlgorithmType", 2, 134218461, 0, &CipherAlgorithmType_t3791_0_0_0},
 	{"hashAlgorithmType", 3, 134218462, 0, &HashAlgorithmType_t3810_0_0_0},
 	{"exchangeAlgorithmType", 4, 134218463, 0, &ExchangeAlgorithmType_t3808_0_0_0},
 	{"exportable", 5, 134218464, 0, &Boolean_t59_0_0_0},
 	{"blockMode", 6, 134218465, 0, &Boolean_t59_0_0_0},
-	{"keyMaterialSize", 7, 134218466, 0, &Byte_t691_0_0_0},
-	{"expandedKeyMaterialSize", 8, 134218467, 0, &Byte_t691_0_0_0},
-	{"effectiveKeyBytes", 9, 134218468, 0, &Int16_t692_0_0_0},
-	{"ivSize", 10, 134218469, 0, &Byte_t691_0_0_0},
-	{"blockSize", 11, 134218470, 0, &Byte_t691_0_0_0},
+	{"keyMaterialSize", 7, 134218466, 0, &Byte_t692_0_0_0},
+	{"expandedKeyMaterialSize", 8, 134218467, 0, &Byte_t692_0_0_0},
+	{"effectiveKeyBytes", 9, 134218468, 0, &Int16_t693_0_0_0},
+	{"ivSize", 10, 134218469, 0, &Byte_t692_0_0_0},
+	{"blockSize", 11, 134218470, 0, &Byte_t692_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Int16_t692_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t692_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Int16_t693_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t693_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.TlsCipherSuite::.ctor(System.Int16,System.String,Mono.Security.Protocol.Tls.CipherAlgorithmType,Mono.Security.Protocol.Tls.HashAlgorithmType,Mono.Security.Protocol.Tls.ExchangeAlgorithmType,System.Boolean,System.Boolean,System.Byte,System.Byte,System.Int16,System.Byte,System.Byte)
 extern const MethodInfo TlsCipherSuite__ctor_m12720_MethodInfo = 
 {
@@ -33297,7 +33297,7 @@ extern const MethodInfo TlsCipherSuite__ctor_m12720_MethodInfo =
 	, (methodPointerType)&TlsCipherSuite__ctor_m12720/* method */
 	, &TlsCipherSuite_t3832_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Int16_t692_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t692_SByte_t88_SByte_t88/* invoker_method */
+	, RuntimeInvoker_Void_t85_Int16_t693_Object_t_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Int16_t693_SByte_t88_SByte_t88/* invoker_method */
 	, TlsCipherSuite_t3832_TlsCipherSuite__ctor_m12720_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
@@ -33319,7 +33319,7 @@ static const ParameterInfo TlsCipherSuite_t3832_TlsCipherSuite_ComputeServerReco
 	{"contentType", 0, 134218471, 0, &ContentType_t3803_0_0_0},
 	{"fragment", 1, 134218472, 0, &ByteU5BU5D_t66_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] Mono.Security.Protocol.Tls.TlsCipherSuite::ComputeServerRecordMAC(Mono.Security.Protocol.Tls.ContentType,System.Byte[])
 extern const MethodInfo TlsCipherSuite_ComputeServerRecordMAC_m12721_MethodInfo = 
 {
@@ -33327,7 +33327,7 @@ extern const MethodInfo TlsCipherSuite_ComputeServerRecordMAC_m12721_MethodInfo 
 	, (methodPointerType)&TlsCipherSuite_ComputeServerRecordMAC_m12721/* method */
 	, &TlsCipherSuite_t3832_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t66_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692_Object_t/* invoker_method */
 	, TlsCipherSuite_t3832_TlsCipherSuite_ComputeServerRecordMAC_m12721_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
@@ -33349,7 +33349,7 @@ static const ParameterInfo TlsCipherSuite_t3832_TlsCipherSuite_ComputeClientReco
 	{"contentType", 0, 134218473, 0, &ContentType_t3803_0_0_0},
 	{"fragment", 1, 134218474, 0, &ByteU5BU5D_t66_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte[] Mono.Security.Protocol.Tls.TlsCipherSuite::ComputeClientRecordMAC(Mono.Security.Protocol.Tls.ContentType,System.Byte[])
 extern const MethodInfo TlsCipherSuite_ComputeClientRecordMAC_m12722_MethodInfo = 
 {
@@ -33357,7 +33357,7 @@ extern const MethodInfo TlsCipherSuite_ComputeClientRecordMAC_m12722_MethodInfo 
 	, (methodPointerType)&TlsCipherSuite_ComputeClientRecordMAC_m12722/* method */
 	, &TlsCipherSuite_t3832_il2cpp_TypeInfo/* declaring_type */
 	, &ByteU5BU5D_t66_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Byte_t692_Object_t/* invoker_method */
 	, TlsCipherSuite_t3832_TlsCipherSuite_ComputeClientRecordMAC_m12722_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
@@ -33943,7 +33943,7 @@ static const ParameterInfo TlsException_t3835_TlsException__ctor_m12735_Paramete
 	{"level", 0, 134218482, 0, &AlertLevel_t3788_0_0_0},
 	{"description", 1, 134218483, 0, &AlertDescription_t3789_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Byte_t691_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Byte_t692_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.TlsException::.ctor(Mono.Security.Protocol.Tls.AlertLevel,Mono.Security.Protocol.Tls.AlertDescription)
 extern const MethodInfo TlsException__ctor_m12735_MethodInfo = 
 {
@@ -33951,7 +33951,7 @@ extern const MethodInfo TlsException__ctor_m12735_MethodInfo =
 	, (methodPointerType)&TlsException__ctor_m12735/* method */
 	, &TlsException_t3835_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Byte_t691_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Void_t85_Byte_t692_Byte_t692/* invoker_method */
 	, TlsException_t3835_TlsException__ctor_m12735_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
@@ -33975,7 +33975,7 @@ static const ParameterInfo TlsException_t3835_TlsException__ctor_m12736_Paramete
 	{"description", 1, 134218485, 0, &AlertDescription_t3789_0_0_0},
 	{"message", 2, 134218486, 0, &String_t_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Byte_t691_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Byte_t692_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.TlsException::.ctor(Mono.Security.Protocol.Tls.AlertLevel,Mono.Security.Protocol.Tls.AlertDescription,System.String)
 extern const MethodInfo TlsException__ctor_m12736_MethodInfo = 
 {
@@ -33983,7 +33983,7 @@ extern const MethodInfo TlsException__ctor_m12736_MethodInfo =
 	, (methodPointerType)&TlsException__ctor_m12736/* method */
 	, &TlsException_t3835_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Byte_t691_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t85_Byte_t692_Byte_t692_Object_t/* invoker_method */
 	, TlsException_t3835_TlsException__ctor_m12736_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
@@ -34003,7 +34003,7 @@ static const ParameterInfo TlsException_t3835_TlsException__ctor_m12737_Paramete
 {
 	{"description", 0, 134218487, 0, &AlertDescription_t3789_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.TlsException::.ctor(Mono.Security.Protocol.Tls.AlertDescription)
 extern const MethodInfo TlsException__ctor_m12737_MethodInfo = 
 {
@@ -34011,7 +34011,7 @@ extern const MethodInfo TlsException__ctor_m12737_MethodInfo =
 	, (methodPointerType)&TlsException__ctor_m12737/* method */
 	, &TlsException_t3835_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Void_t85_Byte_t692/* invoker_method */
 	, TlsException_t3835_TlsException__ctor_m12737_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
@@ -34033,7 +34033,7 @@ static const ParameterInfo TlsException_t3835_TlsException__ctor_m12738_Paramete
 	{"description", 0, 134218488, 0, &AlertDescription_t3789_0_0_0},
 	{"message", 1, 134218489, 0, &String_t_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.TlsException::.ctor(Mono.Security.Protocol.Tls.AlertDescription,System.String)
 extern const MethodInfo TlsException__ctor_m12738_MethodInfo = 
 {
@@ -34041,7 +34041,7 @@ extern const MethodInfo TlsException__ctor_m12738_MethodInfo =
 	, (methodPointerType)&TlsException__ctor_m12738/* method */
 	, &TlsException_t3835_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t85_Byte_t692_Object_t/* invoker_method */
 	, TlsException_t3835_TlsException__ctor_m12738_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
@@ -34144,7 +34144,7 @@ static bool TlsException_t3835_VTableIsGenericMethod[] =
 extern const Il2CppType _Exception_t2331_0_0_0;
 static Il2CppInterfaceOffsetPair TlsException_t3835_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_Mono_Security_dll_Image;
@@ -35039,15 +35039,15 @@ extern const MethodInfo TlsStream_ReadSmallValue_m12763_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Security.Protocol.Tls.TlsStream::ReadByte()
 extern const MethodInfo TlsStream_ReadByte_m12764_MethodInfo = 
 {
 	"ReadByte"/* name */
 	, (methodPointerType)&TlsStream_ReadByte_m12764/* method */
 	, &TlsStream_t3807_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -35062,15 +35062,15 @@ extern const MethodInfo TlsStream_ReadByte_m12764_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int16 Mono.Security.Protocol.Tls.TlsStream::ReadInt16()
 extern const MethodInfo TlsStream_ReadInt16_m12765_MethodInfo = 
 {
 	"ReadInt16"/* name */
 	, (methodPointerType)&TlsStream_ReadInt16_m12765/* method */
 	, &TlsStream_t3807_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -35136,10 +35136,10 @@ extern const MethodInfo TlsStream_ReadBytes_m12767_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo TlsStream_t3807_TlsStream_Write_m12768_ParameterInfos[] = 
 {
-	{"value", 0, 134218501, 0, &Byte_t691_0_0_0},
+	{"value", 0, 134218501, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.TlsStream::Write(System.Byte)
@@ -35164,12 +35164,12 @@ extern const MethodInfo TlsStream_Write_m12768_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 static const ParameterInfo TlsStream_t3807_TlsStream_Write_m12769_ParameterInfos[] = 
 {
-	{"value", 0, 134218502, 0, &Int16_t692_0_0_0},
+	{"value", 0, 134218502, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.TlsStream::Write(System.Int16)
 extern const MethodInfo TlsStream_Write_m12769_MethodInfo = 
 {
@@ -35177,7 +35177,7 @@ extern const MethodInfo TlsStream_Write_m12769_MethodInfo =
 	, (methodPointerType)&TlsStream_Write_m12769/* method */
 	, &TlsStream_t3807_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Void_t85_Int16_t693/* invoker_method */
 	, TlsStream_t3807_TlsStream_Write_m12769_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -35868,7 +35868,7 @@ static const ParameterInfo HandshakeMessage_t3816_HandshakeMessage__ctor_m12780_
 	{"context", 0, 134218515, 0, &Context_t3792_0_0_0},
 	{"handshakeType", 1, 134218516, 0, &HandshakeType_t3839_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.HandshakeMessage::.ctor(Mono.Security.Protocol.Tls.Context,Mono.Security.Protocol.Tls.Handshake.HandshakeType)
 extern const MethodInfo HandshakeMessage__ctor_m12780_MethodInfo = 
 {
@@ -35876,7 +35876,7 @@ extern const MethodInfo HandshakeMessage__ctor_m12780_MethodInfo =
 	, (methodPointerType)&HandshakeMessage__ctor_m12780/* method */
 	, &HandshakeMessage_t3816_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Void_t85_Object_t_Byte_t692/* invoker_method */
 	, HandshakeMessage_t3816_HandshakeMessage__ctor_m12780_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
@@ -35900,7 +35900,7 @@ static const ParameterInfo HandshakeMessage_t3816_HandshakeMessage__ctor_m12781_
 	{"handshakeType", 1, 134218518, 0, &HandshakeType_t3839_0_0_0},
 	{"contentType", 2, 134218519, 0, &ContentType_t3803_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_Byte_t691_Byte_t691 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_Byte_t692_Byte_t692 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.HandshakeMessage::.ctor(Mono.Security.Protocol.Tls.Context,Mono.Security.Protocol.Tls.Handshake.HandshakeType,Mono.Security.Protocol.Tls.ContentType)
 extern const MethodInfo HandshakeMessage__ctor_m12781_MethodInfo = 
 {
@@ -35908,7 +35908,7 @@ extern const MethodInfo HandshakeMessage__ctor_m12781_MethodInfo =
 	, (methodPointerType)&HandshakeMessage__ctor_m12781/* method */
 	, &HandshakeMessage_t3816_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_Byte_t691_Byte_t691/* invoker_method */
+	, RuntimeInvoker_Void_t85_Object_t_Byte_t692_Byte_t692/* invoker_method */
 	, HandshakeMessage_t3816_HandshakeMessage__ctor_m12781_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
@@ -35932,7 +35932,7 @@ static const ParameterInfo HandshakeMessage_t3816_HandshakeMessage__ctor_m12782_
 	{"handshakeType", 1, 134218521, 0, &HandshakeType_t3839_0_0_0},
 	{"data", 2, 134218522, 0, &ByteU5BU5D_t66_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Security.Protocol.Tls.Handshake.HandshakeMessage::.ctor(Mono.Security.Protocol.Tls.Context,Mono.Security.Protocol.Tls.Handshake.HandshakeType,System.Byte[])
 extern const MethodInfo HandshakeMessage__ctor_m12782_MethodInfo = 
 {
@@ -35940,7 +35940,7 @@ extern const MethodInfo HandshakeMessage__ctor_m12782_MethodInfo =
 	, (methodPointerType)&HandshakeMessage__ctor_m12782/* method */
 	, &HandshakeMessage_t3816_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_Byte_t691_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t85_Object_t_Byte_t692_Object_t/* invoker_method */
 	, HandshakeMessage_t3816_HandshakeMessage__ctor_m12782_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
@@ -36459,7 +36459,7 @@ TypeInfo HandshakeType_t3839_il2cpp_TypeInfo =
 	, HandshakeType_t3839_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &Byte_t691_il2cpp_TypeInfo/* element_class */
+	, &Byte_t692_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
 	, &HandshakeType_t3839_0_0_0/* byval_arg */

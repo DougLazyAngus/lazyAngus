@@ -11,11 +11,11 @@ struct MethodBase_t1474;
 // System.Reflection.MethodBase[]
 struct MethodBaseU5BU5D_t4831;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Reflection.ParameterModifier[]
 struct ParameterModifierU5BU5D_t2904;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Object
@@ -45,7 +45,7 @@ extern "C" void Binder__cctor_m17650 (Object_t * __this /* static, unused */, co
 // System.Reflection.Binder System.Reflection.Binder::get_DefaultBinder()
 extern "C" Binder_t2903 * Binder_get_DefaultBinder_m17651 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Binder::ConvertArgs(System.Reflection.Binder,System.Object[],System.Reflection.ParameterInfo[],System.Globalization.CultureInfo)
-extern "C" bool Binder_ConvertArgs_m17652 (Object_t * __this /* static, unused */, Binder_t2903 * ___binder, ObjectU5BU5D_t635* ___args, ParameterInfoU5BU5D_t1407* ___pinfo, CultureInfo_t718 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Binder_ConvertArgs_m17652 (Object_t * __this /* static, unused */, Binder_t2903 * ___binder, ObjectU5BU5D_t636* ___args, ParameterInfoU5BU5D_t1407* ___pinfo, CultureInfo_t719 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.Binder::GetDerivedLevel(System.Type)
 extern "C" int32_t Binder_GetDerivedLevel_m17653 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodBase System.Reflection.Binder::FindMostDerivedMatch(System.Reflection.MethodBase[])

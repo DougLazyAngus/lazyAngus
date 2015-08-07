@@ -9,7 +9,7 @@ struct ParseRelationOperation_t1147;
 // System.String
 struct String_t;
 // System.Collections.Generic.IEnumerable`1<System.String>
-struct IEnumerable_1_t658;
+struct IEnumerable_1_t659;
 // System.Collections.Generic.IEnumerable`1<Parse.ParseObject>
 struct IEnumerable_1_t1214;
 // System.Object

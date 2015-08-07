@@ -11,7 +11,7 @@ struct ICollection_1_t9534;
 // System.Collections.Generic.ICollection`1<UnityEngine.Networking.Types.NetworkAccessToken>
 struct ICollection_1_t9535;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // UnityEngine.Networking.Types.NetworkAccessToken

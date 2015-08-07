@@ -15,9 +15,9 @@ struct Object_t;
 // System.Type
 struct Type_t;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 
 // System.Runtime.Remoting.Messaging.IMessageSink Replacements.RemotingServices::GetClientChannelSinkChain(System.String,System.Object,System.String&)
 extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m10158 (Object_t * __this /* static, unused */, String_t* ___url, Object_t * ___channelData, String_t** ___objectUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Replacements.RemotingServices::CreateClientProxy(System.Type,System.String,System.Object[])
-extern "C" Object_t * RemotingServices_CreateClientProxy_m10159 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t635* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_CreateClientProxy_m10159 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t636* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;

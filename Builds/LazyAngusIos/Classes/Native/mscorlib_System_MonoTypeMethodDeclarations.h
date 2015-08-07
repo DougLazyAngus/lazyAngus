@@ -9,7 +9,7 @@ struct MonoType_t;
 // System.Type
 struct Type_t;
 // System.Reflection.Assembly
-struct Assembly_t719;
+struct Assembly_t720;
 // System.String
 struct String_t;
 // System.Reflection.Module
@@ -41,9 +41,9 @@ struct PropertyInfo_t;
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Runtime.Serialization.SerializationInfo
@@ -112,13 +112,13 @@ extern "C" bool MonoType_IsPrimitiveImpl_m19606 (MonoType_t * __this, const Meth
 // System.Boolean System.MonoType::IsSubclassOf(System.Type)
 extern "C" bool MonoType_IsSubclassOf_m19607 (MonoType_t * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.MonoType::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
-extern "C" Object_t * MonoType_InvokeMember_m19608 (MonoType_t * __this, String_t* ___name, int32_t ___invokeAttr, Binder_t2903 * ___binder, Object_t * ___target, ObjectU5BU5D_t635* ___args, ParameterModifierU5BU5D_t2904* ___modifiers, CultureInfo_t718 * ___culture, StringU5BU5D_t75* ___namedParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MonoType_InvokeMember_m19608 (MonoType_t * __this, String_t* ___name, int32_t ___invokeAttr, Binder_t2903 * ___binder, Object_t * ___target, ObjectU5BU5D_t636* ___args, ParameterModifierU5BU5D_t2904* ___modifiers, CultureInfo_t719 * ___culture, StringU5BU5D_t75* ___namedParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.MonoType::GetElementType()
 extern "C" Type_t * MonoType_GetElementType_m19609 (MonoType_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.MonoType::get_UnderlyingSystemType()
 extern "C" Type_t * MonoType_get_UnderlyingSystemType_m19610 (MonoType_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Assembly System.MonoType::get_Assembly()
-extern "C" Assembly_t719 * MonoType_get_Assembly_m19611 (MonoType_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Assembly_t720 * MonoType_get_Assembly_m19611 (MonoType_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.MonoType::get_AssemblyQualifiedName()
 extern "C" String_t* MonoType_get_AssemblyQualifiedName_m19612 (MonoType_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.MonoType::getFullName(System.Boolean,System.Boolean)
@@ -130,9 +130,9 @@ extern "C" String_t* MonoType_get_FullName_m19615 (MonoType_t * __this, const Me
 // System.Boolean System.MonoType::IsDefined(System.Type,System.Boolean)
 extern "C" bool MonoType_IsDefined_m19616 (MonoType_t * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.MonoType::GetCustomAttributes(System.Boolean)
-extern "C" ObjectU5BU5D_t635* MonoType_GetCustomAttributes_m19617 (MonoType_t * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* MonoType_GetCustomAttributes_m19617 (MonoType_t * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.MonoType::GetCustomAttributes(System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t635* MonoType_GetCustomAttributes_m19618 (MonoType_t * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* MonoType_GetCustomAttributes_m19618 (MonoType_t * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MemberTypes System.MonoType::get_MemberType()
 extern "C" int32_t MonoType_get_MemberType_m19619 (MonoType_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.MonoType::get_Name()
@@ -164,4 +164,4 @@ extern "C" Type_t * MonoType_GetGenericTypeDefinition_m19632 (MonoType_t * __thi
 // System.Reflection.MethodBase System.MonoType::CheckMethodSecurity(System.Reflection.MethodBase)
 extern "C" MethodBase_t1474 * MonoType_CheckMethodSecurity_m19633 (MonoType_t * __this, MethodBase_t1474 * ___mb, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MonoType::ReorderParamArrayArguments(System.Object[]&,System.Reflection.MethodBase)
-extern "C" void MonoType_ReorderParamArrayArguments_m19634 (MonoType_t * __this, ObjectU5BU5D_t635** ___args, MethodBase_t1474 * ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoType_ReorderParamArrayArguments_m19634 (MonoType_t * __this, ObjectU5BU5D_t636** ___args, MethodBase_t1474 * ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;

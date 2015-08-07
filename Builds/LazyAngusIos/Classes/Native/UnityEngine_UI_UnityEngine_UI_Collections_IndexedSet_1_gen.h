@@ -7,7 +7,7 @@ struct Dictionary_2_t1011;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>
-struct  IndexedSet_1_t848  : public Object_t
+struct  IndexedSet_1_t849  : public Object_t
 {
 	// System.Collections.Generic.List`1<T> UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>::m_List
 	List_1_t5749 * ___m_List_0;

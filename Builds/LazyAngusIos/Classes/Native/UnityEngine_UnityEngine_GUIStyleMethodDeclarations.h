@@ -9,13 +9,13 @@ struct GUIStyle_t107;
 // System.String
 struct String_t;
 // UnityEngine.GUIStyleState
-struct GUIStyleState_t675;
+struct GUIStyleState_t676;
 // UnityEngine.RectOffset
-struct RectOffset_t649;
+struct RectOffset_t650;
 // UnityEngine.GUIContent
-struct GUIContent_t732;
+struct GUIContent_t733;
 // UnityEngine.Font
-struct Font_t852;
+struct Font_t853;
 // UnityEngine.ImagePosition
 #include "UnityEngine_UnityEngine_ImagePosition.h"
 // UnityEngine.TextAnchor
@@ -50,15 +50,15 @@ extern "C" String_t* GUIStyle_get_name_m8793 (GUIStyle_t107 * __this, const Meth
 // System.Void UnityEngine.GUIStyle::set_name(System.String)
 extern "C" void GUIStyle_set_name_m8794 (GUIStyle_t107 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GUIStyleState UnityEngine.GUIStyle::get_normal()
-extern "C" GUIStyleState_t675 * GUIStyle_get_normal_m3521 (GUIStyle_t107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GUIStyleState_t676 * GUIStyle_get_normal_m3521 (GUIStyle_t107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr UnityEngine.GUIStyle::GetStyleStatePtr(System.Int32)
 extern "C" IntPtr_t GUIStyle_GetStyleStatePtr_m8795 (GUIStyle_t107 * __this, int32_t ___idx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RectOffset UnityEngine.GUIStyle::get_margin()
-extern "C" RectOffset_t649 * GUIStyle_get_margin_m8796 (GUIStyle_t107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RectOffset_t650 * GUIStyle_get_margin_m8796 (GUIStyle_t107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RectOffset UnityEngine.GUIStyle::get_padding()
-extern "C" RectOffset_t649 * GUIStyle_get_padding_m3880 (GUIStyle_t107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RectOffset_t650 * GUIStyle_get_padding_m3880 (GUIStyle_t107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::set_padding(UnityEngine.RectOffset)
-extern "C" void GUIStyle_set_padding_m3426 (GUIStyle_t107 * __this, RectOffset_t649 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_set_padding_m3426 (GUIStyle_t107 * __this, RectOffset_t650 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr UnityEngine.GUIStyle::GetRectOffsetPtr(System.Int32)
 extern "C" IntPtr_t GUIStyle_GetRectOffsetPtr_m8797 (GUIStyle_t107 * __this, int32_t ___idx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::AssignRectOffset(System.Int32,System.IntPtr)
@@ -92,45 +92,45 @@ extern "C" void GUIStyle_set_fontStyle_m3525 (GUIStyle_t107 * __this, int32_t __
 // System.Single UnityEngine.GUIStyle::get_lineHeight()
 extern "C" float GUIStyle_get_lineHeight_m8806 (GUIStyle_t107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::Internal_Draw(System.IntPtr,UnityEngine.Rect,UnityEngine.GUIContent,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-extern "C" void GUIStyle_Internal_Draw_m8807 (Object_t * __this /* static, unused */, IntPtr_t ___target, Rect_t647  ___position, GUIContent_t732 * ___content, bool ___isHover, bool ___isActive, bool ___on, bool ___hasKeyboardFocus, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_Internal_Draw_m8807 (Object_t * __this /* static, unused */, IntPtr_t ___target, Rect_t648  ___position, GUIContent_t733 * ___content, bool ___isHover, bool ___isActive, bool ___on, bool ___hasKeyboardFocus, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::Internal_Draw(UnityEngine.GUIContent,UnityEngine.Internal_DrawArguments&)
-extern "C" void GUIStyle_Internal_Draw_m8808 (Object_t * __this /* static, unused */, GUIContent_t732 * ___content, Internal_DrawArguments_t2679 * ___arguments, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_Internal_Draw_m8808 (Object_t * __this /* static, unused */, GUIContent_t733 * ___content, Internal_DrawArguments_t2679 * ___arguments, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::Draw(UnityEngine.Rect,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-extern "C" void GUIStyle_Draw_m8809 (GUIStyle_t107 * __this, Rect_t647  ___position, bool ___isHover, bool ___isActive, bool ___on, bool ___hasKeyboardFocus, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_Draw_m8809 (GUIStyle_t107 * __this, Rect_t648  ___position, bool ___isHover, bool ___isActive, bool ___on, bool ___hasKeyboardFocus, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::Draw(UnityEngine.Rect,UnityEngine.GUIContent,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-extern "C" void GUIStyle_Draw_m8810 (GUIStyle_t107 * __this, Rect_t647  ___position, GUIContent_t732 * ___content, bool ___isHover, bool ___isActive, bool ___on, bool ___hasKeyboardFocus, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_Draw_m8810 (GUIStyle_t107 * __this, Rect_t648  ___position, GUIContent_t733 * ___content, bool ___isHover, bool ___isActive, bool ___on, bool ___hasKeyboardFocus, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::Draw(UnityEngine.Rect,UnityEngine.GUIContent,System.Int32)
-extern "C" void GUIStyle_Draw_m8811 (GUIStyle_t107 * __this, Rect_t647  ___position, GUIContent_t732 * ___content, int32_t ___controlID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_Draw_m8811 (GUIStyle_t107 * __this, Rect_t648  ___position, GUIContent_t733 * ___content, int32_t ___controlID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::Draw(UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Boolean)
-extern "C" void GUIStyle_Draw_m8812 (GUIStyle_t107 * __this, Rect_t647  ___position, GUIContent_t732 * ___content, int32_t ___controlID, bool ___on, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_Draw_m8812 (GUIStyle_t107 * __this, Rect_t648  ___position, GUIContent_t733 * ___content, int32_t ___controlID, bool ___on, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::Internal_Draw2(System.IntPtr,UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Boolean)
-extern "C" void GUIStyle_Internal_Draw2_m8813 (Object_t * __this /* static, unused */, IntPtr_t ___style, Rect_t647  ___position, GUIContent_t732 * ___content, int32_t ___controlID, bool ___on, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_Internal_Draw2_m8813 (Object_t * __this /* static, unused */, IntPtr_t ___style, Rect_t648  ___position, GUIContent_t733 * ___content, int32_t ___controlID, bool ___on, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::INTERNAL_CALL_Internal_Draw2(System.IntPtr,UnityEngine.Rect&,UnityEngine.GUIContent,System.Int32,System.Boolean)
-extern "C" void GUIStyle_INTERNAL_CALL_Internal_Draw2_m8814 (Object_t * __this /* static, unused */, IntPtr_t ___style, Rect_t647 * ___position, GUIContent_t732 * ___content, int32_t ___controlID, bool ___on, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_INTERNAL_CALL_Internal_Draw2_m8814 (Object_t * __this /* static, unused */, IntPtr_t ___style, Rect_t648 * ___position, GUIContent_t733 * ___content, int32_t ___controlID, bool ___on, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::SetDefaultFont(UnityEngine.Font)
-extern "C" void GUIStyle_SetDefaultFont_m8815 (Object_t * __this /* static, unused */, Font_t852 * ___font, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_SetDefaultFont_m8815 (Object_t * __this /* static, unused */, Font_t853 * ___font, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GUIStyle UnityEngine.GUIStyle::get_none()
 extern "C" GUIStyle_t107 * GUIStyle_get_none_m8816 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.GUIStyle::GetCursorPixelPosition(UnityEngine.Rect,UnityEngine.GUIContent,System.Int32)
-extern "C" Vector2_t110  GUIStyle_GetCursorPixelPosition_m8817 (GUIStyle_t107 * __this, Rect_t647  ___position, GUIContent_t732 * ___content, int32_t ___cursorStringIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t110  GUIStyle_GetCursorPixelPosition_m8817 (GUIStyle_t107 * __this, Rect_t648  ___position, GUIContent_t733 * ___content, int32_t ___cursorStringIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::Internal_GetCursorPixelPosition(System.IntPtr,UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,UnityEngine.Vector2&)
-extern "C" void GUIStyle_Internal_GetCursorPixelPosition_m8818 (Object_t * __this /* static, unused */, IntPtr_t ___target, Rect_t647  ___position, GUIContent_t732 * ___content, int32_t ___cursorStringIndex, Vector2_t110 * ___ret, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_Internal_GetCursorPixelPosition_m8818 (Object_t * __this /* static, unused */, IntPtr_t ___target, Rect_t648  ___position, GUIContent_t733 * ___content, int32_t ___cursorStringIndex, Vector2_t110 * ___ret, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::INTERNAL_CALL_Internal_GetCursorPixelPosition(System.IntPtr,UnityEngine.Rect&,UnityEngine.GUIContent,System.Int32,UnityEngine.Vector2&)
-extern "C" void GUIStyle_INTERNAL_CALL_Internal_GetCursorPixelPosition_m8819 (Object_t * __this /* static, unused */, IntPtr_t ___target, Rect_t647 * ___position, GUIContent_t732 * ___content, int32_t ___cursorStringIndex, Vector2_t110 * ___ret, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_INTERNAL_CALL_Internal_GetCursorPixelPosition_m8819 (Object_t * __this /* static, unused */, IntPtr_t ___target, Rect_t648 * ___position, GUIContent_t733 * ___content, int32_t ___cursorStringIndex, Vector2_t110 * ___ret, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.GUIStyle::CalcSize(UnityEngine.GUIContent)
-extern "C" Vector2_t110  GUIStyle_CalcSize_m8820 (GUIStyle_t107 * __this, GUIContent_t732 * ___content, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t110  GUIStyle_CalcSize_m8820 (GUIStyle_t107 * __this, GUIContent_t733 * ___content, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::Internal_CalcSize(System.IntPtr,UnityEngine.GUIContent,UnityEngine.Vector2&)
-extern "C" void GUIStyle_Internal_CalcSize_m8821 (Object_t * __this /* static, unused */, IntPtr_t ___target, GUIContent_t732 * ___content, Vector2_t110 * ___ret, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_Internal_CalcSize_m8821 (Object_t * __this /* static, unused */, IntPtr_t ___target, GUIContent_t733 * ___content, Vector2_t110 * ___ret, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.GUIStyle::CalcHeight(UnityEngine.GUIContent,System.Single)
-extern "C" float GUIStyle_CalcHeight_m8822 (GUIStyle_t107 * __this, GUIContent_t732 * ___content, float ___width, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float GUIStyle_CalcHeight_m8822 (GUIStyle_t107 * __this, GUIContent_t733 * ___content, float ___width, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.GUIStyle::Internal_CalcHeight(System.IntPtr,UnityEngine.GUIContent,System.Single)
-extern "C" float GUIStyle_Internal_CalcHeight_m8823 (Object_t * __this /* static, unused */, IntPtr_t ___target, GUIContent_t732 * ___content, float ___width, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float GUIStyle_Internal_CalcHeight_m8823 (Object_t * __this /* static, unused */, IntPtr_t ___target, GUIContent_t733 * ___content, float ___width, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.GUIStyle::get_isHeightDependantOnWidth()
 extern "C" bool GUIStyle_get_isHeightDependantOnWidth_m8824 (GUIStyle_t107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::CalcMinMaxWidth(UnityEngine.GUIContent,System.Single&,System.Single&)
-extern "C" void GUIStyle_CalcMinMaxWidth_m8825 (GUIStyle_t107 * __this, GUIContent_t732 * ___content, float* ___minWidth, float* ___maxWidth, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_CalcMinMaxWidth_m8825 (GUIStyle_t107 * __this, GUIContent_t733 * ___content, float* ___minWidth, float* ___maxWidth, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::Internal_CalcMinMaxWidth(System.IntPtr,UnityEngine.GUIContent,System.Single&,System.Single&)
-extern "C" void GUIStyle_Internal_CalcMinMaxWidth_m8826 (Object_t * __this /* static, unused */, IntPtr_t ___target, GUIContent_t732 * ___content, float* ___minWidth, float* ___maxWidth, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_Internal_CalcMinMaxWidth_m8826 (Object_t * __this /* static, unused */, IntPtr_t ___target, GUIContent_t733 * ___content, float* ___minWidth, float* ___maxWidth, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.GUIStyle::ToString()
 extern "C" String_t* GUIStyle_ToString_m8827 (GUIStyle_t107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GUIStyle UnityEngine.GUIStyle::op_Implicit(System.String)

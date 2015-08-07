@@ -9,7 +9,7 @@ struct Grouping_2_t6089;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.IEnumerator`1<System.Object>

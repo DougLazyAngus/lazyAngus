@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.Link[]
 struct LinkU5BU5D_t5345;
 // UnityEngine.EventSystems.PointerEventData[]
@@ -15,14 +15,14 @@ struct Transform_1_t5738;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>
-struct  Dictionary_2_t829  : public Object_t
+struct  Dictionary_2_t830  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::table
-	Int32U5BU5D_t548* ___table_4;
+	Int32U5BU5D_t549* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::linkSlots
 	LinkU5BU5D_t5345* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::keySlots
-	Int32U5BU5D_t548* ___keySlots_6;
+	Int32U5BU5D_t549* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::valueSlots
 	PointerEventDataU5BU5D_t5737* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::touchedSlots
@@ -40,7 +40,7 @@ struct  Dictionary_2_t829  : public Object_t
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t829_StaticFields{
+struct Dictionary_2_t830_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::<>f__am$cacheB
 	Transform_1_t5738 * ___U3CU3Ef__amU24cacheB_15;
 };

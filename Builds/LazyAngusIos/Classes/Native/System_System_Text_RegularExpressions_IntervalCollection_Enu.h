@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.IList
-struct IList_t639;
+struct IList_t640;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.IntervalCollection/Enumerator

@@ -9,7 +9,7 @@ struct List_1_t944;
 // System.Object
 struct Object_t;
 // UnityEngine.RectTransform
-struct RectTransform_t503;
+struct RectTransform_t504;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.RectTransform>
 struct IEnumerable_1_t8956;
 // UnityEngine.RectTransform[]
@@ -76,7 +76,7 @@ struct Comparison_1_t5849;
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::System.Collections.IList.set_Item(System.Int32,System.Object)
 #define List_1_System_Collections_IList_set_Item_m29523(__this, ___index, ___value, method) (( void (*) (List_1_t944 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m10091_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::Add(T)
-#define List_1_Add_m29524(__this, ___item, method) (( void (*) (List_1_t944 *, RectTransform_t503 *, const MethodInfo*))List_1_Add_m10100_gshared)(__this, ___item, method)
+#define List_1_Add_m29524(__this, ___item, method) (( void (*) (List_1_t944 *, RectTransform_t504 *, const MethodInfo*))List_1_Add_m10100_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::GrowIfNeeded(System.Int32)
 #define List_1_GrowIfNeeded_m29525(__this, ___newCount, method) (( void (*) (List_1_t944 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m21333_gshared)(__this, ___newCount, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::CheckRange(System.Int32,System.Int32)
@@ -92,11 +92,11 @@ struct Comparison_1_t5849;
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::Clear()
 #define List_1_Clear_m29531(__this, method) (( void (*) (List_1_t944 *, const MethodInfo*))List_1_Clear_m10093_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<UnityEngine.RectTransform>::Contains(T)
-#define List_1_Contains_m29532(__this, ___item, method) (( bool (*) (List_1_t944 *, RectTransform_t503 *, const MethodInfo*))List_1_Contains_m10101_gshared)(__this, ___item, method)
+#define List_1_Contains_m29532(__this, ___item, method) (( bool (*) (List_1_t944 *, RectTransform_t504 *, const MethodInfo*))List_1_Contains_m10101_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::CopyTo(T[],System.Int32)
 #define List_1_CopyTo_m29533(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t944 *, RectTransformU5BU5D_t5844*, int32_t, const MethodInfo*))List_1_CopyTo_m10102_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<UnityEngine.RectTransform>::Find(System.Predicate`1<T>)
-#define List_1_Find_m29534(__this, ___match, method) (( RectTransform_t503 * (*) (List_1_t944 *, Predicate_1_t5847 *, const MethodInfo*))List_1_Find_m21348_gshared)(__this, ___match, method)
+#define List_1_Find_m29534(__this, ___match, method) (( RectTransform_t504 * (*) (List_1_t944 *, Predicate_1_t5847 *, const MethodInfo*))List_1_Find_m21348_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::CheckMatch(System.Predicate`1<T>)
 #define List_1_CheckMatch_m29535(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5847 *, const MethodInfo*))List_1_CheckMatch_m21350_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
@@ -106,13 +106,13 @@ struct Comparison_1_t5849;
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<UnityEngine.RectTransform>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m29538(__this, ___index, ___count, method) (( List_1_t944 * (*) (List_1_t944 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21354_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::IndexOf(T)
-#define List_1_IndexOf_m29539(__this, ___item, method) (( int32_t (*) (List_1_t944 *, RectTransform_t503 *, const MethodInfo*))List_1_IndexOf_m10105_gshared)(__this, ___item, method)
+#define List_1_IndexOf_m29539(__this, ___item, method) (( int32_t (*) (List_1_t944 *, RectTransform_t504 *, const MethodInfo*))List_1_IndexOf_m10105_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::Shift(System.Int32,System.Int32)
 #define List_1_Shift_m29540(__this, ___start, ___delta, method) (( void (*) (List_1_t944 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m21357_gshared)(__this, ___start, ___delta, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::CheckIndex(System.Int32)
 #define List_1_CheckIndex_m29541(__this, ___index, method) (( void (*) (List_1_t944 *, int32_t, const MethodInfo*))List_1_CheckIndex_m21359_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::Insert(System.Int32,T)
-#define List_1_Insert_m29542(__this, ___index, ___item, method) (( void (*) (List_1_t944 *, int32_t, RectTransform_t503 *, const MethodInfo*))List_1_Insert_m10106_gshared)(__this, ___index, ___item, method)
+#define List_1_Insert_m29542(__this, ___index, ___item, method) (( void (*) (List_1_t944 *, int32_t, RectTransform_t504 *, const MethodInfo*))List_1_Insert_m10106_gshared)(__this, ___index, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_CheckCollection_m29543(__this, ___collection, method) (( void (*) (List_1_t944 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m21362_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
@@ -122,7 +122,7 @@ struct Comparison_1_t5849;
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_InsertEnumeration_m29546(__this, ___index, ___enumerable, method) (( void (*) (List_1_t944 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m21368_gshared)(__this, ___index, ___enumerable, method)
 // System.Boolean System.Collections.Generic.List`1<UnityEngine.RectTransform>::Remove(T)
-#define List_1_Remove_m29547(__this, ___item, method) (( bool (*) (List_1_t944 *, RectTransform_t503 *, const MethodInfo*))List_1_Remove_m10103_gshared)(__this, ___item, method)
+#define List_1_Remove_m29547(__this, ___item, method) (( bool (*) (List_1_t944 *, RectTransform_t504 *, const MethodInfo*))List_1_Remove_m10103_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::RemoveAll(System.Predicate`1<T>)
 #define List_1_RemoveAll_m29548(__this, ___match, method) (( int32_t (*) (List_1_t944 *, Predicate_1_t5847 *, const MethodInfo*))List_1_RemoveAll_m21371_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::RemoveAt(System.Int32)
@@ -148,6 +148,6 @@ struct Comparison_1_t5849;
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::get_Count()
 #define List_1_get_Count_m29559(__this, method) (( int32_t (*) (List_1_t944 *, const MethodInfo*))List_1_get_Count_m10084_gshared)(__this, method)
 // T System.Collections.Generic.List`1<UnityEngine.RectTransform>::get_Item(System.Int32)
-#define List_1_get_Item_m29560(__this, ___index, method) (( RectTransform_t503 * (*) (List_1_t944 *, int32_t, const MethodInfo*))List_1_get_Item_m10107_gshared)(__this, ___index, method)
+#define List_1_get_Item_m29560(__this, ___index, method) (( RectTransform_t504 * (*) (List_1_t944 *, int32_t, const MethodInfo*))List_1_get_Item_m10107_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.RectTransform>::set_Item(System.Int32,T)
-#define List_1_set_Item_m29561(__this, ___index, ___value, method) (( void (*) (List_1_t944 *, int32_t, RectTransform_t503 *, const MethodInfo*))List_1_set_Item_m10108_gshared)(__this, ___index, ___value, method)
+#define List_1_set_Item_m29561(__this, ___index, ___value, method) (( void (*) (List_1_t944 *, int32_t, RectTransform_t504 *, const MethodInfo*))List_1_set_Item_m10108_gshared)(__this, ___index, ___value, method)

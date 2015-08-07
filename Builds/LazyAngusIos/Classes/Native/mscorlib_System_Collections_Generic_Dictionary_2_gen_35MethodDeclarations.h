@@ -11,11 +11,11 @@ struct ICollection_1_t9002;
 // System.Collections.Generic.ICollection`1<System.Collections.Generic.IDictionary`2<System.String,System.String>>
 struct ICollection_1_t9075;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.String>
-struct IDictionary_2_t645;
+struct IDictionary_2_t646;
 // System.Type
 struct Type_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.String>>

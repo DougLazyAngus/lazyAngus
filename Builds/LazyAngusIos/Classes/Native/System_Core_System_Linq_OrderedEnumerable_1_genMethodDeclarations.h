@@ -7,7 +7,7 @@
 // System.Linq.OrderedEnumerable`1<System.Object>
 struct OrderedEnumerable_1_t5989;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.IEnumerator`1<System.Object>

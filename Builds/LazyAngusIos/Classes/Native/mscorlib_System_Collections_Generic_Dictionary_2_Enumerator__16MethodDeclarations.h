@@ -9,7 +9,7 @@ struct Enumerator_t5441;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>
-struct List_1_t632;
+struct List_1_t633;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>
 struct Dictionary_2_t127;
 // System.Collections.DictionaryEntry
@@ -38,7 +38,7 @@ struct Dictionary_2_t127;
 // TKey System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::get_CurrentKey()
 #define Enumerator_get_CurrentKey_m22663(__this, method) (( int32_t (*) (Enumerator_t5441 *, const MethodInfo*))Enumerator_get_CurrentKey_m20999_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::get_CurrentValue()
-#define Enumerator_get_CurrentValue_m22664(__this, method) (( List_1_t632 * (*) (Enumerator_t5441 *, const MethodInfo*))Enumerator_get_CurrentValue_m21000_gshared)(__this, method)
+#define Enumerator_get_CurrentValue_m22664(__this, method) (( List_1_t633 * (*) (Enumerator_t5441 *, const MethodInfo*))Enumerator_get_CurrentValue_m21000_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::Reset()
 #define Enumerator_Reset_m22665(__this, method) (( void (*) (Enumerator_t5441 *, const MethodInfo*))Enumerator_Reset_m21001_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::VerifyState()

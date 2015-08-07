@@ -5,7 +5,7 @@ struct FBLikeInfoU5BU5D_t5545;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<FBLikeInfo>
-struct  List_1_t642  : public Object_t
+struct  List_1_t643  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<FBLikeInfo>::_items
 	FBLikeInfoU5BU5D_t5545* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t642  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<FBLikeInfo>::_version
 	int32_t ____version_3;
 };
-struct List_1_t642_StaticFields{
+struct List_1_t643_StaticFields{
 	// T[] System.Collections.Generic.List`1<FBLikeInfo>::EmptyArray
 	FBLikeInfoU5BU5D_t5545* ___EmptyArray_4;
 };

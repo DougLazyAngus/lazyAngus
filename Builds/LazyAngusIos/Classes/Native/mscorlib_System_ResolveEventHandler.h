@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.Assembly
-struct Assembly_t719;
+struct Assembly_t720;
 // System.Object
 struct Object_t;
 // System.ResolveEventArgs

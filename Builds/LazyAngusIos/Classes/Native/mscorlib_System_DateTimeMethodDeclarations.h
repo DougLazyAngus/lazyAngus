@@ -42,7 +42,7 @@ struct Exception_t57;
 // System.Void System.DateTime::.ctor(System.Int64)
 extern "C" void DateTime__ctor_m19354 (DateTime_t287 * __this, int64_t ___ticks, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTime::.ctor(System.Int32,System.Int32,System.Int32)
-extern "C" void DateTime__ctor_m4069 (DateTime_t287 * __this, int32_t ___year, int32_t ___month, int32_t ___day, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DateTime__ctor_m4070 (DateTime_t287 * __this, int32_t ___year, int32_t ___month, int32_t ___day, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTime::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern "C" void DateTime__ctor_m19355 (DateTime_t287 * __this, int32_t ___year, int32_t ___month, int32_t ___day, int32_t ___hour, int32_t ___minute, int32_t ___second, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTime::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
@@ -64,7 +64,7 @@ extern "C" uint16_t DateTime_System_IConvertible_ToChar_m19361 (DateTime_t287 * 
 // System.DateTime System.DateTime::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  DateTime_System_IConvertible_ToDateTime_m19362 (DateTime_t287 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.DateTime::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t695  DateTime_System_IConvertible_ToDecimal_m19363 (DateTime_t287 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t696  DateTime_System_IConvertible_ToDecimal_m19363 (DateTime_t287 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.DateTime::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double DateTime_System_IConvertible_ToDouble_m19364 (DateTime_t287 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.DateTime::System.IConvertible.ToInt16(System.IFormatProvider)

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Font
-struct Font_t852;
+struct Font_t853;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

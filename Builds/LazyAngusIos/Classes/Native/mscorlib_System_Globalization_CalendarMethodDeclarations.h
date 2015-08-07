@@ -7,7 +7,7 @@
 // System.Globalization.Calendar
 struct Calendar_t4417;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.DateTime

@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.Text.RegularExpressions.Regex
 struct Regex_t1125;
 // System.Text.RegularExpressions.MatchEvaluator
@@ -30,11 +30,11 @@ struct Json_t1127_StaticFields{
 	// System.Char Parse.Internal.Json::nameSeparator
 	uint16_t ___nameSeparator_6;
 	// System.Char[] Parse.Internal.Json::falseValue
-	CharU5BU5D_t660* ___falseValue_7;
+	CharU5BU5D_t661* ___falseValue_7;
 	// System.Char[] Parse.Internal.Json::trueValue
-	CharU5BU5D_t660* ___trueValue_8;
+	CharU5BU5D_t661* ___trueValue_8;
 	// System.Char[] Parse.Internal.Json::nullValue
-	CharU5BU5D_t660* ___nullValue_9;
+	CharU5BU5D_t661* ___nullValue_9;
 	// System.Text.RegularExpressions.Regex Parse.Internal.Json::numberValue
 	Regex_t1125 * ___numberValue_10;
 	// System.Text.RegularExpressions.Regex Parse.Internal.Json::stringValue

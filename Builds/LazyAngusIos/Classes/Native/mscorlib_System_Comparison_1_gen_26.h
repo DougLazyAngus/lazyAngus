@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t782;
+struct BaseInputModule_t783;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

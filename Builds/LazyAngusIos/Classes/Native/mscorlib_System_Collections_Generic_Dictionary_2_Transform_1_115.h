@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Event
-struct Event_t733;
-struct Event_t733_marshaled;
+struct Event_t734;
+struct Event_t734_marshaled;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

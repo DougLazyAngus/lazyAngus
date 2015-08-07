@@ -23,7 +23,7 @@ struct StringBuilder_t261;
 // System.IO.TextReader
 struct TextReader_t3187;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.Xml.XmlReaderBinarySupport/CharGetter
 struct CharGetter_t3210;
 // System.Xml.XmlResolver
@@ -100,7 +100,7 @@ struct  XmlTextReader_t3214  : public XmlReader_t3208
 	// System.IO.TextReader Mono.Xml2.XmlTextReader::reader
 	TextReader_t3187 * ___reader_27;
 	// System.Char[] Mono.Xml2.XmlTextReader::peekChars
-	CharU5BU5D_t660* ___peekChars_28;
+	CharU5BU5D_t661* ___peekChars_28;
 	// System.Int32 Mono.Xml2.XmlTextReader::peekCharsIndex
 	int32_t ___peekCharsIndex_29;
 	// System.Int32 Mono.Xml2.XmlTextReader::peekCharsLength
@@ -148,7 +148,7 @@ struct  XmlTextReader_t3214  : public XmlReader_t3208
 	// System.Xml.NameTable Mono.Xml2.XmlTextReader::whitespacePool
 	NameTable_t3157 * ___whitespacePool_51;
 	// System.Char[] Mono.Xml2.XmlTextReader::whitespaceCache
-	CharU5BU5D_t660* ___whitespaceCache_52;
+	CharU5BU5D_t661* ___whitespaceCache_52;
 	// Mono.Xml2.XmlTextReader/DtdInputStateStack Mono.Xml2.XmlTextReader::stateStack
 	DtdInputStateStack_t3219 * ___stateStack_53;
 };

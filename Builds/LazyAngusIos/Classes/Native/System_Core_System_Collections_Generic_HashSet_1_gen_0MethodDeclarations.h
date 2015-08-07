@@ -9,13 +9,13 @@ struct HashSet_1_t1416;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
 struct IEqualityComparer_1_t1134;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2869;
 // System.Collections.Generic.IEnumerator`1<System.Object>
 struct IEnumerator_1_t105;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Object
 struct Object_t;
 // System.Collections.IEnumerator
@@ -47,8 +47,8 @@ extern "C" Object_t* HashSet_1_System_Collections_Generic_IEnumerableU3CTU3E_Get
 extern "C" bool HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m29786_gshared (HashSet_1_t1416 * __this, const MethodInfo* method);
 #define HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m29786(__this, method) (( bool (*) (HashSet_1_t1416 *, const MethodInfo*))HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m29786_gshared)(__this, method)
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::System.Collections.Generic.ICollection<T>.CopyTo(T[],System.Int32)
-extern "C" void HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_CopyTo_m29787_gshared (HashSet_1_t1416 * __this, ObjectU5BU5D_t635* ___array, int32_t ___index, const MethodInfo* method);
-#define HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_CopyTo_m29787(__this, ___array, ___index, method) (( void (*) (HashSet_1_t1416 *, ObjectU5BU5D_t635*, int32_t, const MethodInfo*))HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_CopyTo_m29787_gshared)(__this, ___array, ___index, method)
+extern "C" void HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_CopyTo_m29787_gshared (HashSet_1_t1416 * __this, ObjectU5BU5D_t636* ___array, int32_t ___index, const MethodInfo* method);
+#define HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_CopyTo_m29787(__this, ___array, ___index, method) (( void (*) (HashSet_1_t1416 *, ObjectU5BU5D_t636*, int32_t, const MethodInfo*))HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_CopyTo_m29787_gshared)(__this, ___array, ___index, method)
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::System.Collections.Generic.ICollection<T>.Add(T)
 extern "C" void HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m29788_gshared (HashSet_1_t1416 * __this, Object_t * ___item, const MethodInfo* method);
 #define HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m29788(__this, ___item, method) (( void (*) (HashSet_1_t1416 *, Object_t *, const MethodInfo*))HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m29788_gshared)(__this, ___item, method)
@@ -68,11 +68,11 @@ extern "C" void HashSet_1_InitArrays_m29792_gshared (HashSet_1_t1416 * __this, i
 extern "C" bool HashSet_1_SlotsContainsAt_m29793_gshared (HashSet_1_t1416 * __this, int32_t ___index, int32_t ___hash, Object_t * ___item, const MethodInfo* method);
 #define HashSet_1_SlotsContainsAt_m29793(__this, ___index, ___hash, ___item, method) (( bool (*) (HashSet_1_t1416 *, int32_t, int32_t, Object_t *, const MethodInfo*))HashSet_1_SlotsContainsAt_m29793_gshared)(__this, ___index, ___hash, ___item, method)
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::CopyTo(T[],System.Int32)
-extern "C" void HashSet_1_CopyTo_m29794_gshared (HashSet_1_t1416 * __this, ObjectU5BU5D_t635* ___array, int32_t ___index, const MethodInfo* method);
-#define HashSet_1_CopyTo_m29794(__this, ___array, ___index, method) (( void (*) (HashSet_1_t1416 *, ObjectU5BU5D_t635*, int32_t, const MethodInfo*))HashSet_1_CopyTo_m29794_gshared)(__this, ___array, ___index, method)
+extern "C" void HashSet_1_CopyTo_m29794_gshared (HashSet_1_t1416 * __this, ObjectU5BU5D_t636* ___array, int32_t ___index, const MethodInfo* method);
+#define HashSet_1_CopyTo_m29794(__this, ___array, ___index, method) (( void (*) (HashSet_1_t1416 *, ObjectU5BU5D_t636*, int32_t, const MethodInfo*))HashSet_1_CopyTo_m29794_gshared)(__this, ___array, ___index, method)
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::CopyTo(T[],System.Int32,System.Int32)
-extern "C" void HashSet_1_CopyTo_m29795_gshared (HashSet_1_t1416 * __this, ObjectU5BU5D_t635* ___array, int32_t ___index, int32_t ___count, const MethodInfo* method);
-#define HashSet_1_CopyTo_m29795(__this, ___array, ___index, ___count, method) (( void (*) (HashSet_1_t1416 *, ObjectU5BU5D_t635*, int32_t, int32_t, const MethodInfo*))HashSet_1_CopyTo_m29795_gshared)(__this, ___array, ___index, ___count, method)
+extern "C" void HashSet_1_CopyTo_m29795_gshared (HashSet_1_t1416 * __this, ObjectU5BU5D_t636* ___array, int32_t ___index, int32_t ___count, const MethodInfo* method);
+#define HashSet_1_CopyTo_m29795(__this, ___array, ___index, ___count, method) (( void (*) (HashSet_1_t1416 *, ObjectU5BU5D_t636*, int32_t, int32_t, const MethodInfo*))HashSet_1_CopyTo_m29795_gshared)(__this, ___array, ___index, ___count, method)
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::Resize()
 extern "C" void HashSet_1_Resize_m29796_gshared (HashSet_1_t1416 * __this, const MethodInfo* method);
 #define HashSet_1_Resize_m29796(__this, method) (( void (*) (HashSet_1_t1416 *, const MethodInfo*))HashSet_1_Resize_m29796_gshared)(__this, method)

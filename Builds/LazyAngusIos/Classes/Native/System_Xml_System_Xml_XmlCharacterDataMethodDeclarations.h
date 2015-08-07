@@ -9,10 +9,10 @@ struct XmlCharacterData_t3168;
 // System.String
 struct String_t;
 // System.Xml.XmlDocument
-struct XmlDocument_t630;
+struct XmlDocument_t631;
 
 // System.Void System.Xml.XmlCharacterData::.ctor(System.String,System.Xml.XmlDocument)
-extern "C" void XmlCharacterData__ctor_m10528 (XmlCharacterData_t3168 * __this, String_t* ___data, XmlDocument_t630 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlCharacterData__ctor_m10528 (XmlCharacterData_t3168 * __this, String_t* ___data, XmlDocument_t631 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlCharacterData::get_Data()
 extern "C" String_t* XmlCharacterData_get_Data_m10529 (XmlCharacterData_t3168 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlCharacterData::set_Data(System.String)

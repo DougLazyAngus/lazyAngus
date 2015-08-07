@@ -7,7 +7,7 @@
 // Parse.Internal.ParseRemoveOperation
 struct ParseRemoveOperation_t1148;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.Object
 struct Object_t;
 // Parse.Internal.IParseFieldOperation

@@ -13,7 +13,7 @@ struct ICollection_1_t8841;
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Single>[]
 struct KeyValuePair_2U5BU5D_t7834;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Single>>
@@ -85,5 +85,5 @@ extern "C" Object_t * FlexibleDictionaryWrapper_2_System_Collections_IEnumerable
 extern "C" float FlexibleDictionaryWrapper_2_U3Cget_ValuesU3Eb__0_m53845_gshared (Object_t * __this /* static, unused */, Object_t * ___item, const MethodInfo* method);
 #define FlexibleDictionaryWrapper_2_U3Cget_ValuesU3Eb__0_m53845(__this /* static, unused */, ___item, method) (( float (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))FlexibleDictionaryWrapper_2_U3Cget_ValuesU3Eb__0_m53845_gshared)(__this /* static, unused */, ___item, method)
 // System.Collections.Generic.KeyValuePair`2<System.String,TOut> Parse.Internal.FlexibleDictionaryWrapper`2<System.Single,System.Object>::<CopyTo>b__2(System.Collections.Generic.KeyValuePair`2<System.String,TIn>)
-extern "C" KeyValuePair_2_t6983  FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m53846_gshared (Object_t * __this /* static, unused */, KeyValuePair_2_t727  ___pair, const MethodInfo* method);
-#define FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m53846(__this /* static, unused */, ___pair, method) (( KeyValuePair_2_t6983  (*) (Object_t * /* static, unused */, KeyValuePair_2_t727 , const MethodInfo*))FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m53846_gshared)(__this /* static, unused */, ___pair, method)
+extern "C" KeyValuePair_2_t6983  FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m53846_gshared (Object_t * __this /* static, unused */, KeyValuePair_2_t728  ___pair, const MethodInfo* method);
+#define FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m53846(__this /* static, unused */, ___pair, method) (( KeyValuePair_2_t6983  (*) (Object_t * /* static, unused */, KeyValuePair_2_t728 , const MethodInfo*))FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m53846_gshared)(__this /* static, unused */, ___pair, method)

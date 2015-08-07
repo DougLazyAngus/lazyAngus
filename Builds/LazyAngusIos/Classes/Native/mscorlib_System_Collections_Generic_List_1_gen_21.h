@@ -5,7 +5,7 @@ struct RaycastResultU5BU5D_t5701;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
-struct  List_1_t824  : public Object_t
+struct  List_1_t825  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_items
 	RaycastResultU5BU5D_t5701* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t824  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_version
 	int32_t ____version_3;
 };
-struct List_1_t824_StaticFields{
+struct List_1_t825_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::EmptyArray
 	RaycastResultU5BU5D_t5701* ___EmptyArray_4;
 };

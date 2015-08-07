@@ -1,17 +1,17 @@
 ﻿#pragma once
 #include <stdint.h>
 // MouseHole[]
-struct MouseHoleU5BU5D_t509;
+struct MouseHoleU5BU5D_t510;
 // MouseSpawnFromData
-struct MouseSpawnFromData_t510;
+struct MouseSpawnFromData_t511;
 // GameController
-struct GameController_t511;
+struct GameController_t512;
 // System.Action`1<System.Boolean>
 struct Action_1_t277;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // GameController
-struct  GameController_t511  : public MonoBehaviour_t13
+struct  GameController_t512  : public MonoBehaviour_t13
 {
 	// System.Single GameController::startWait
 	float ___startWait_2;
@@ -20,17 +20,17 @@ struct  GameController_t511  : public MonoBehaviour_t13
 	// System.Single GameController::maxSpawnWait
 	float ___maxSpawnWait_4;
 	// MouseHole[] GameController::mouseHoles
-	MouseHoleU5BU5D_t509* ___mouseHoles_5;
+	MouseHoleU5BU5D_t510* ___mouseHoles_5;
 	// MouseSpawnFromData GameController::mouseSpawnFromData
-	MouseSpawnFromData_t510 * ___mouseSpawnFromData_6;
+	MouseSpawnFromData_t511 * ___mouseSpawnFromData_6;
 	// System.Boolean GameController::registeredForEvents
 	bool ___registeredForEvents_7;
 	// System.Boolean GameController::checkForPhaseChanges
 	bool ___checkForPhaseChanges_8;
 };
-struct GameController_t511_StaticFields{
+struct GameController_t512_StaticFields{
 	// GameController GameController::<instance>k__BackingField
-	GameController_t511 * ___U3CinstanceU3Ek__BackingField_9;
+	GameController_t512 * ___U3CinstanceU3Ek__BackingField_9;
 	// System.Action`1<System.Boolean> GameController::<>f__am$cache8
 	Action_1_t277 * ___U3CU3Ef__amU24cache8_10;
 };

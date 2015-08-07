@@ -11,7 +11,7 @@ struct String_t;
 // Mono.Xml.DTDObjectModel
 struct DTDObjectModel_t3125;
 // System.Text.Encoding
-struct Encoding_t689;
+struct Encoding_t690;
 // System.Xml.XmlNamespaceManager
 struct XmlNamespaceManager_t3192;
 // System.Xml.XmlNameTable
@@ -22,9 +22,9 @@ struct XmlNameTable_t3133;
 // System.Void System.Xml.XmlParserContext::.ctor(System.Xml.XmlNameTable,System.Xml.XmlNamespaceManager,System.String,System.Xml.XmlSpace)
 extern "C" void XmlParserContext__ctor_m10835 (XmlParserContext_t3203 * __this, XmlNameTable_t3133 * ___nt, XmlNamespaceManager_t3192 * ___nsMgr, String_t* ___xmlLang, int32_t ___xmlSpace, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlParserContext::.ctor(System.Xml.XmlNameTable,System.Xml.XmlNamespaceManager,System.String,System.String,System.String,System.String,System.String,System.String,System.Xml.XmlSpace,System.Text.Encoding)
-extern "C" void XmlParserContext__ctor_m10836 (XmlParserContext_t3203 * __this, XmlNameTable_t3133 * ___nt, XmlNamespaceManager_t3192 * ___nsMgr, String_t* ___docTypeName, String_t* ___pubId, String_t* ___sysId, String_t* ___internalSubset, String_t* ___baseURI, String_t* ___xmlLang, int32_t ___xmlSpace, Encoding_t689 * ___enc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlParserContext__ctor_m10836 (XmlParserContext_t3203 * __this, XmlNameTable_t3133 * ___nt, XmlNamespaceManager_t3192 * ___nsMgr, String_t* ___docTypeName, String_t* ___pubId, String_t* ___sysId, String_t* ___internalSubset, String_t* ___baseURI, String_t* ___xmlLang, int32_t ___xmlSpace, Encoding_t690 * ___enc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlParserContext::.ctor(System.Xml.XmlNameTable,System.Xml.XmlNamespaceManager,Mono.Xml.DTDObjectModel,System.String,System.String,System.Xml.XmlSpace,System.Text.Encoding)
-extern "C" void XmlParserContext__ctor_m10837 (XmlParserContext_t3203 * __this, XmlNameTable_t3133 * ___nt, XmlNamespaceManager_t3192 * ___nsMgr, DTDObjectModel_t3125 * ___dtd, String_t* ___baseURI, String_t* ___xmlLang, int32_t ___xmlSpace, Encoding_t689 * ___enc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlParserContext__ctor_m10837 (XmlParserContext_t3203 * __this, XmlNameTable_t3133 * ___nt, XmlNamespaceManager_t3192 * ___nsMgr, DTDObjectModel_t3125 * ___dtd, String_t* ___baseURI, String_t* ___xmlLang, int32_t ___xmlSpace, Encoding_t690 * ___enc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlParserContext::get_BaseURI()
 extern "C" String_t* XmlParserContext_get_BaseURI_m10838 (XmlParserContext_t3203 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlParserContext::set_BaseURI(System.String)
@@ -36,7 +36,7 @@ extern "C" DTDObjectModel_t3125 * XmlParserContext_get_Dtd_m10841 (XmlParserCont
 // System.Void System.Xml.XmlParserContext::set_Dtd(Mono.Xml.DTDObjectModel)
 extern "C" void XmlParserContext_set_Dtd_m10842 (XmlParserContext_t3203 * __this, DTDObjectModel_t3125 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlParserContext::set_Encoding(System.Text.Encoding)
-extern "C" void XmlParserContext_set_Encoding_m10843 (XmlParserContext_t3203 * __this, Encoding_t689 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlParserContext_set_Encoding_m10843 (XmlParserContext_t3203 * __this, Encoding_t690 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlParserContext::get_InternalSubset()
 extern "C" String_t* XmlParserContext_get_InternalSubset_m10844 (XmlParserContext_t3203 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlParserContext::set_InternalSubset(System.String)

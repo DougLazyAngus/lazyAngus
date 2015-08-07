@@ -11,12 +11,12 @@ struct Object_t;
 // FBLikeInfo
 struct FBLikeInfo_t289;
 // System.Collections.Generic.List`1<FBLikeInfo>
-struct List_1_t642;
+struct List_1_t643;
 
 // System.Void System.Collections.Generic.List`1/Enumerator<FBLikeInfo>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m24949(__this, ___l, method) (( void (*) (Enumerator_t5557 *, List_1_t642 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
+#define Enumerator__ctor_m24949(__this, ___l, method) (( void (*) (Enumerator_t5557 *, List_1_t643 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<FBLikeInfo>::System.Collections.IEnumerator.Reset()
 #define Enumerator_System_Collections_IEnumerator_Reset_m24950(__this, method) (( void (*) (Enumerator_t5557 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21395_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1/Enumerator<FBLikeInfo>::System.Collections.IEnumerator.get_Current()

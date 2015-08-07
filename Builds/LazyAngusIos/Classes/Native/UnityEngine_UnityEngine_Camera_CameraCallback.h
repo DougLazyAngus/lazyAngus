@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Camera
-struct Camera_t531;
+struct Camera_t532;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

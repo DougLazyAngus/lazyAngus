@@ -29,5 +29,5 @@ extern "C" void InternalEnumerator_1_Dispose_m63412_gshared (InternalEnumerator_
 extern "C" bool InternalEnumerator_1_MoveNext_m63413_gshared (InternalEnumerator_1_t8612 * __this, const MethodInfo* method);
 #define InternalEnumerator_1_MoveNext_m63413(__this, method) (( bool (*) (InternalEnumerator_1_t8612 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m63413_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.Decimal>::get_Current()
-extern "C" Decimal_t695  InternalEnumerator_1_get_Current_m63414_gshared (InternalEnumerator_1_t8612 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m63414(__this, method) (( Decimal_t695  (*) (InternalEnumerator_1_t8612 *, const MethodInfo*))InternalEnumerator_1_get_Current_m63414_gshared)(__this, method)
+extern "C" Decimal_t696  InternalEnumerator_1_get_Current_m63414_gshared (InternalEnumerator_1_t8612 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m63414(__this, method) (( Decimal_t696  (*) (InternalEnumerator_1_t8612 *, const MethodInfo*))InternalEnumerator_1_get_Current_m63414_gshared)(__this, method)

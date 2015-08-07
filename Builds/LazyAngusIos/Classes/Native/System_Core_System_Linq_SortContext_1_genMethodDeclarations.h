@@ -7,7 +7,7 @@
 // System.Linq.SortContext`1<System.Object>
 struct SortContext_1_t5991;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Linq.SortDirection
 #include "System_Core_System_Linq_SortDirection.h"
 

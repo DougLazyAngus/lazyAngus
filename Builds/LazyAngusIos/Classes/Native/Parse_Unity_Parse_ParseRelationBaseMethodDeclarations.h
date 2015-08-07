@@ -11,7 +11,7 @@ struct String_t;
 // Parse.ParseObject
 struct ParseObject_t1168;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 
 // System.Void Parse.ParseRelationBase::.ctor(Parse.ParseObject,System.String)
 extern "C" void ParseRelationBase__ctor_m6734 (ParseRelationBase_t1247 * __this, ParseObject_t1168 * ___parent, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;

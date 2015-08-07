@@ -7,10 +7,10 @@ struct Sprite_t472;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // FartPuff
-struct  FartPuff_t499  : public MonoBehaviour_t13
+struct  FartPuff_t500  : public MonoBehaviour_t13
 {
 	// UnityEngine.Vector3 FartPuff::direction
-	Vector3_t496  ___direction_2;
+	Vector3_t497  ___direction_2;
 	// System.Single FartPuff::velocity
 	float ___velocity_3;
 	// System.Single FartPuff::scaleVelocity

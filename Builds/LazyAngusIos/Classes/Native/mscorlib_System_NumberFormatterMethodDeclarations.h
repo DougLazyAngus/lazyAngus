@@ -7,7 +7,7 @@
 // System.NumberFormatter
 struct NumberFormatter_t4784;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.Threading.Thread
 struct Thread_t1410;
 // System.String
@@ -19,7 +19,7 @@ struct IFormatProvider_t4456;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Decimal
 #include "mscorlib_System_Decimal.h"
 
@@ -68,7 +68,7 @@ extern "C" void NumberFormatter_Init_m19666 (NumberFormatter_t4784 * __this, Str
 // System.Void System.NumberFormatter::Init(System.String,System.Double,System.Int32)
 extern "C" void NumberFormatter_Init_m19667 (NumberFormatter_t4784 * __this, String_t* ___format, double ___value, int32_t ___defPrecision, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NumberFormatter::Init(System.String,System.Decimal)
-extern "C" void NumberFormatter_Init_m19668 (NumberFormatter_t4784 * __this, String_t* ___format, Decimal_t695  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NumberFormatter_Init_m19668 (NumberFormatter_t4784 * __this, String_t* ___format, Decimal_t696  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NumberFormatter::ResetCharBuf(System.Int32)
 extern "C" void NumberFormatter_ResetCharBuf_m19669 (NumberFormatter_t4784 * __this, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NumberFormatter::Resize(System.Int32)
@@ -82,7 +82,7 @@ extern "C" void NumberFormatter_Append_m19673 (NumberFormatter_t4784 * __this, S
 // System.Globalization.NumberFormatInfo System.NumberFormatter::GetNumberFormatInstance(System.IFormatProvider)
 extern "C" NumberFormatInfo_t452 * NumberFormatter_GetNumberFormatInstance_m19674 (NumberFormatter_t4784 * __this, Object_t * ___fp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NumberFormatter::set_CurrentCulture(System.Globalization.CultureInfo)
-extern "C" void NumberFormatter_set_CurrentCulture_m19675 (NumberFormatter_t4784 * __this, CultureInfo_t718 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NumberFormatter_set_CurrentCulture_m19675 (NumberFormatter_t4784 * __this, CultureInfo_t719 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.NumberFormatter::get_IntegerDigits()
 extern "C" int32_t NumberFormatter_get_IntegerDigits_m19676 (NumberFormatter_t4784 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.NumberFormatter::get_DecimalDigits()
@@ -114,7 +114,7 @@ extern "C" NumberFormatter_t4784 * NumberFormatter_GetInstance_m19689 (Object_t 
 // System.Void System.NumberFormatter::Release()
 extern "C" void NumberFormatter_Release_m19690 (NumberFormatter_t4784 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NumberFormatter::SetThreadCurrentCulture(System.Globalization.CultureInfo)
-extern "C" void NumberFormatter_SetThreadCurrentCulture_m19691 (Object_t * __this /* static, unused */, CultureInfo_t718 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NumberFormatter_SetThreadCurrentCulture_m19691 (Object_t * __this /* static, unused */, CultureInfo_t719 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.NumberFormatter::NumberToString(System.String,System.SByte,System.IFormatProvider)
 extern "C" String_t* NumberFormatter_NumberToString_m19692 (Object_t * __this /* static, unused */, String_t* ___format, int8_t ___value, Object_t * ___fp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.NumberFormatter::NumberToString(System.String,System.Byte,System.IFormatProvider)
@@ -136,7 +136,7 @@ extern "C" String_t* NumberFormatter_NumberToString_m19700 (Object_t * __this /*
 // System.String System.NumberFormatter::NumberToString(System.String,System.Double,System.IFormatProvider)
 extern "C" String_t* NumberFormatter_NumberToString_m19701 (Object_t * __this /* static, unused */, String_t* ___format, double ___value, Object_t * ___fp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.NumberFormatter::NumberToString(System.String,System.Decimal,System.IFormatProvider)
-extern "C" String_t* NumberFormatter_NumberToString_m19702 (Object_t * __this /* static, unused */, String_t* ___format, Decimal_t695  ___value, Object_t * ___fp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatter_NumberToString_m19702 (Object_t * __this /* static, unused */, String_t* ___format, Decimal_t696  ___value, Object_t * ___fp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.NumberFormatter::NumberToString(System.UInt32,System.IFormatProvider)
 extern "C" String_t* NumberFormatter_NumberToString_m19703 (Object_t * __this /* static, unused */, uint32_t ___value, Object_t * ___fp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.NumberFormatter::NumberToString(System.Int32,System.IFormatProvider)
@@ -194,7 +194,7 @@ extern "C" void NumberFormatter_AppendDecimalString_m19729 (NumberFormatter_t478
 // System.Void System.NumberFormatter::AppendDecimalString(System.Int32)
 extern "C" void NumberFormatter_AppendDecimalString_m19730 (NumberFormatter_t4784 * __this, int32_t ___precision, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NumberFormatter::AppendIntegerStringWithGroupSeparator(System.Int32[],System.String)
-extern "C" void NumberFormatter_AppendIntegerStringWithGroupSeparator_m19731 (NumberFormatter_t4784 * __this, Int32U5BU5D_t548* ___groups, String_t* ___groupSeparator, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NumberFormatter_AppendIntegerStringWithGroupSeparator_m19731 (NumberFormatter_t4784 * __this, Int32U5BU5D_t549* ___groups, String_t* ___groupSeparator, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NumberFormatter::AppendExponent(System.Globalization.NumberFormatInfo,System.Int32,System.Int32)
 extern "C" void NumberFormatter_AppendExponent_m19732 (NumberFormatter_t4784 * __this, NumberFormatInfo_t452 * ___nfi, int32_t ___exponent, int32_t ___minDigits, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NumberFormatter::AppendOneDigit(System.Int32)

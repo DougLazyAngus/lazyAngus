@@ -9,7 +9,7 @@ struct U3CU3Ec__DisplayClass32_t1205;
 // Parse.ParseObject/<>c__DisplayClass30
 struct U3CU3Ec__DisplayClass30_t1206;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t637;
+struct List_1_t638;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a/<>c__DisplayClass3d
@@ -24,5 +24,5 @@ struct  U3CU3Ec__DisplayClass3d_t1207  : public Object_t
 	// Parse.ParseObject/<>c__DisplayClass30 Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a/<>c__DisplayClass3d::CS$<>8__locals31
 	U3CU3Ec__DisplayClass30_t1206 * ___CSU24U3CU3E8__locals31_3;
 	// System.Collections.Generic.List`1<System.Object> Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a/<>c__DisplayClass3d::resultsArray
-	List_1_t637 * ___resultsArray_4;
+	List_1_t638 * ___resultsArray_4;
 };

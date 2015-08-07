@@ -9,7 +9,7 @@ struct KeyValuePair_2_t8078;
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.String>
-struct IDictionary_2_t645;
+struct IDictionary_2_t646;
 
 // System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IDictionary`2<System.String,System.String>>::.ctor(TKey,TValue)
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>

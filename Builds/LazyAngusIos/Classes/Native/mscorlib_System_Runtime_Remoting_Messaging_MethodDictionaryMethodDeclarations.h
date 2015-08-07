@@ -11,13 +11,13 @@ struct StringU5BU5D_t75;
 // System.Object
 struct Object_t;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Runtime.Remoting.Messaging.IMethodMessage
 struct IMethodMessage_t4570;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.IDictionary
-struct IDictionary_t638;
+struct IDictionary_t639;
 // System.String
 struct String_t;
 // System.Array

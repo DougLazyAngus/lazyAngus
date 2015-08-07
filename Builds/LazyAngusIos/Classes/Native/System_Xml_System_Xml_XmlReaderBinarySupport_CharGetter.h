@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

@@ -11,7 +11,7 @@ struct ISurrogateSelector_t4574;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Runtime.Serialization.BaseFixupRecord
 struct BaseFixupRecord_t4618;
 // System.Runtime.Serialization.ObjectRecord
@@ -42,7 +42,7 @@ struct  ObjectRecord_t4617  : public Object_t
 	// System.Reflection.MemberInfo System.Runtime.Serialization.ObjectRecord::Member
 	MemberInfo_t * ___Member_8;
 	// System.Int32[] System.Runtime.Serialization.ObjectRecord::ArrayIndex
-	Int32U5BU5D_t548* ___ArrayIndex_9;
+	Int32U5BU5D_t549* ___ArrayIndex_9;
 	// System.Runtime.Serialization.BaseFixupRecord System.Runtime.Serialization.ObjectRecord::FixupChainAsContainer
 	BaseFixupRecord_t4618 * ___FixupChainAsContainer_10;
 	// System.Runtime.Serialization.BaseFixupRecord System.Runtime.Serialization.ObjectRecord::FixupChainAsRequired

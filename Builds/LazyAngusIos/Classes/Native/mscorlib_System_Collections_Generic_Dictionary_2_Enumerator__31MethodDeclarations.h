@@ -9,7 +9,7 @@ struct Enumerator_t5802;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.Graphic
-struct Graphic_t860;
+struct Graphic_t861;
 // System.Collections.Generic.Dictionary`2<UnityEngine.UI.Graphic,System.Int32>
 struct Dictionary_2_t1010;
 // System.Collections.DictionaryEntry
@@ -36,7 +36,7 @@ struct Dictionary_2_t1010;
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.Graphic,System.Int32>::get_Current()
 #define Enumerator_get_Current_m28950(__this, method) (( KeyValuePair_2_t5799  (*) (Enumerator_t5802 *, const MethodInfo*))Enumerator_get_Current_m23635_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.Graphic,System.Int32>::get_CurrentKey()
-#define Enumerator_get_CurrentKey_m28951(__this, method) (( Graphic_t860 * (*) (Enumerator_t5802 *, const MethodInfo*))Enumerator_get_CurrentKey_m23636_gshared)(__this, method)
+#define Enumerator_get_CurrentKey_m28951(__this, method) (( Graphic_t861 * (*) (Enumerator_t5802 *, const MethodInfo*))Enumerator_get_CurrentKey_m23636_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.Graphic,System.Int32>::get_CurrentValue()
 #define Enumerator_get_CurrentValue_m28952(__this, method) (( int32_t (*) (Enumerator_t5802 *, const MethodInfo*))Enumerator_get_CurrentValue_m23637_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.Graphic,System.Int32>::Reset()

@@ -9,7 +9,7 @@ struct InternalEnumerator_1_t5407;
 // System.Object
 struct Object_t;
 // UnityEngine.GUILayoutOption
-struct GUILayoutOption_t651;
+struct GUILayoutOption_t652;
 // System.Array
 struct Array_t;
 
@@ -26,4 +26,4 @@ struct Array_t;
 // System.Boolean System.Array/InternalEnumerator`1<UnityEngine.GUILayoutOption>::MoveNext()
 #define InternalEnumerator_1_MoveNext_m21797(__this, method) (( bool (*) (InternalEnumerator_1_t5407 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.GUILayoutOption>::get_Current()
-#define InternalEnumerator_1_get_Current_m21798(__this, method) (( GUILayoutOption_t651 * (*) (InternalEnumerator_1_t5407 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m21798(__this, method) (( GUILayoutOption_t652 * (*) (InternalEnumerator_1_t5407 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)

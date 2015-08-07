@@ -11,7 +11,7 @@ struct ICollection_1_t1160;
 // System.Collections.Generic.ICollection`1<System.Collections.Generic.List`1<AN_PropertyTemplate>>
 struct ICollection_1_t8658;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.List`1<AN_PropertyTemplate>
@@ -19,7 +19,7 @@ struct List_1_t123;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>
-struct KeyCollection_t669;
+struct KeyCollection_t670;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>
 struct ValueCollection_t5425;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
@@ -138,7 +138,7 @@ struct IDictionaryEnumerator_t3911;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>::TryGetValue(TKey,TValue&)
 #define Dictionary_2_TryGetValue_m22200(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t121 *, String_t*, List_1_t123 **, const MethodInfo*))Dictionary_2_TryGetValue_m21625_gshared)(__this, ___key, ___value, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>::get_Keys()
-#define Dictionary_2_get_Keys_m3496(__this, method) (( KeyCollection_t669 * (*) (Dictionary_2_t121 *, const MethodInfo*))Dictionary_2_get_Keys_m21626_gshared)(__this, method)
+#define Dictionary_2_get_Keys_m3496(__this, method) (( KeyCollection_t670 * (*) (Dictionary_2_t121 *, const MethodInfo*))Dictionary_2_get_Keys_m21626_gshared)(__this, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>::get_Values()
 #define Dictionary_2_get_Values_m22201(__this, method) (( ValueCollection_t5425 * (*) (Dictionary_2_t121 *, const MethodInfo*))Dictionary_2_get_Values_m21628_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>::ToTKey(System.Object)

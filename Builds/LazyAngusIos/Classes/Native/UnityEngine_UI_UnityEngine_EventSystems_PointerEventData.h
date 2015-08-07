@@ -3,7 +3,7 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // System.Collections.Generic.List`1<UnityEngine.GameObject>
-struct List_1_t822;
+struct List_1_t823;
 // UnityEngine.EventSystems.BaseEventData
 #include "UnityEngine_UI_UnityEngine_EventSystems_BaseEventData.h"
 // UnityEngine.EventSystems.RaycastResult
@@ -15,12 +15,12 @@ struct List_1_t822;
 // UnityEngine.EventSystems.PointerEventData/InputButton
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerEventData_Inp.h"
 // UnityEngine.EventSystems.PointerEventData
-struct  PointerEventData_t823  : public BaseEventData_t783
+struct  PointerEventData_t824  : public BaseEventData_t784
 {
 	// UnityEngine.GameObject UnityEngine.EventSystems.PointerEventData::m_PointerPress
 	GameObject_t352 * ___m_PointerPress_2;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> UnityEngine.EventSystems.PointerEventData::hovered
-	List_1_t822 * ___hovered_3;
+	List_1_t823 * ___hovered_3;
 	// UnityEngine.GameObject UnityEngine.EventSystems.PointerEventData::<pointerEnter>k__BackingField
 	GameObject_t352 * ___U3CpointerEnterU3Ek__BackingField_4;
 	// UnityEngine.GameObject UnityEngine.EventSystems.PointerEventData::<lastPress>k__BackingField
@@ -30,9 +30,9 @@ struct  PointerEventData_t823  : public BaseEventData_t783
 	// UnityEngine.GameObject UnityEngine.EventSystems.PointerEventData::<pointerDrag>k__BackingField
 	GameObject_t352 * ___U3CpointerDragU3Ek__BackingField_7;
 	// UnityEngine.EventSystems.RaycastResult UnityEngine.EventSystems.PointerEventData::<pointerCurrentRaycast>k__BackingField
-	RaycastResult_t818  ___U3CpointerCurrentRaycastU3Ek__BackingField_8;
+	RaycastResult_t819  ___U3CpointerCurrentRaycastU3Ek__BackingField_8;
 	// UnityEngine.EventSystems.RaycastResult UnityEngine.EventSystems.PointerEventData::<pointerPressRaycast>k__BackingField
-	RaycastResult_t818  ___U3CpointerPressRaycastU3Ek__BackingField_9;
+	RaycastResult_t819  ___U3CpointerPressRaycastU3Ek__BackingField_9;
 	// System.Boolean UnityEngine.EventSystems.PointerEventData::<eligibleForClick>k__BackingField
 	bool ___U3CeligibleForClickU3Ek__BackingField_10;
 	// System.Int32 UnityEngine.EventSystems.PointerEventData::<pointerId>k__BackingField
@@ -44,9 +44,9 @@ struct  PointerEventData_t823  : public BaseEventData_t783
 	// UnityEngine.Vector2 UnityEngine.EventSystems.PointerEventData::<pressPosition>k__BackingField
 	Vector2_t110  ___U3CpressPositionU3Ek__BackingField_14;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.PointerEventData::<worldPosition>k__BackingField
-	Vector3_t496  ___U3CworldPositionU3Ek__BackingField_15;
+	Vector3_t497  ___U3CworldPositionU3Ek__BackingField_15;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.PointerEventData::<worldNormal>k__BackingField
-	Vector3_t496  ___U3CworldNormalU3Ek__BackingField_16;
+	Vector3_t497  ___U3CworldNormalU3Ek__BackingField_16;
 	// System.Single UnityEngine.EventSystems.PointerEventData::<clickTime>k__BackingField
 	float ___U3CclickTimeU3Ek__BackingField_17;
 	// System.Int32 UnityEngine.EventSystems.PointerEventData::<clickCount>k__BackingField

@@ -23,7 +23,7 @@ struct ExpressionAssertion_t4117;
 // System.Collections.ArrayList
 struct ArrayList_t3111;
 // System.ArgumentException
-struct ArgumentException_t661;
+struct ArgumentException_t662;
 // System.Text.RegularExpressions.RegexOptions
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
 // System.Text.RegularExpressions.Category
@@ -90,4 +90,4 @@ extern "C" bool Parser_IsIgnorePatternWhitespace_m14573 (Object_t * __this /* st
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsECMAScript(System.Text.RegularExpressions.RegexOptions)
 extern "C" bool Parser_IsECMAScript_m14574 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.ArgumentException System.Text.RegularExpressions.Syntax.Parser::NewParseException(System.String)
-extern "C" ArgumentException_t661 * Parser_NewParseException_m14575 (Parser_t4105 * __this, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ArgumentException_t662 * Parser_NewParseException_m14575 (Parser_t4105 * __this, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;

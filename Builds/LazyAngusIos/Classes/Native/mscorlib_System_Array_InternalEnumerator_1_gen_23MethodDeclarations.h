@@ -9,7 +9,7 @@ struct InternalEnumerator_1_t5650;
 // System.Object
 struct Object_t;
 // GameUI
-struct GameUI_t502;
+struct GameUI_t503;
 // System.Array
 struct Array_t;
 
@@ -26,4 +26,4 @@ struct Array_t;
 // System.Boolean System.Array/InternalEnumerator`1<GameUI>::MoveNext()
 #define InternalEnumerator_1_MoveNext_m26392(__this, method) (( bool (*) (InternalEnumerator_1_t5650 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<GameUI>::get_Current()
-#define InternalEnumerator_1_get_Current_m26393(__this, method) (( GameUI_t502 * (*) (InternalEnumerator_1_t5650 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m26393(__this, method) (( GameUI_t503 * (*) (InternalEnumerator_1_t5650 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)

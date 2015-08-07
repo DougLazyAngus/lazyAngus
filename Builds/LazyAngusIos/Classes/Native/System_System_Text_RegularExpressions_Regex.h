@@ -5,11 +5,11 @@ struct FactoryCache_t4076;
 // System.Text.RegularExpressions.IMachineFactory
 struct IMachineFactory_t4077;
 // System.Collections.IDictionary
-struct IDictionary_t638;
+struct IDictionary_t639;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
@@ -36,7 +36,7 @@ struct  Regex_t1125  : public Object_t
 	// System.String[] System.Text.RegularExpressions.Regex::group_names
 	StringU5BU5D_t75* ___group_names_6;
 	// System.Int32[] System.Text.RegularExpressions.Regex::group_numbers
-	Int32U5BU5D_t548* ___group_numbers_7;
+	Int32U5BU5D_t549* ___group_numbers_7;
 	// System.String System.Text.RegularExpressions.Regex::pattern
 	String_t* ___pattern_8;
 	// System.Text.RegularExpressions.RegexOptions System.Text.RegularExpressions.Regex::roptions

@@ -3,7 +3,7 @@
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
 struct List_1_t944;
 // UnityEngine.RectTransform
-struct RectTransform_t503;
+struct RectTransform_t504;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>
@@ -16,5 +16,5 @@ struct  Enumerator_t5848
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::current
-	RectTransform_t503 * ___current_3;
+	RectTransform_t504 * ___current_3;
 };

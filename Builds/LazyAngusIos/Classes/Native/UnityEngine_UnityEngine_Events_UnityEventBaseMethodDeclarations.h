@@ -19,7 +19,7 @@ struct PersistentCall_t2836;
 // System.Type
 struct Type_t;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Type[]
 struct TypeU5BU5D_t1150;
 // UnityEngine.Events.PersistentListenerMode
@@ -46,7 +46,7 @@ extern "C" void UnityEventBase_AddCall_m9800 (UnityEventBase_t2841 * __this, Bas
 // System.Void UnityEngine.Events.UnityEventBase::RemoveListener(System.Object,System.Reflection.MethodInfo)
 extern "C" void UnityEventBase_RemoveListener_m9801 (UnityEventBase_t2841 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEventBase::Invoke(System.Object[])
-extern "C" void UnityEventBase_Invoke_m9802 (UnityEventBase_t2841 * __this, ObjectU5BU5D_t635* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityEventBase_Invoke_m9802 (UnityEventBase_t2841 * __this, ObjectU5BU5D_t636* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Events.UnityEventBase::ToString()
 extern "C" String_t* UnityEventBase_ToString_m6055 (UnityEventBase_t2841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEventBase::GetValidMethodInfo(System.Object,System.String,System.Type[])

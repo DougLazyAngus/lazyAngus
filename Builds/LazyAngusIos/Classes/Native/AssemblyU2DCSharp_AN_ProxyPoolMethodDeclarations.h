@@ -9,9 +9,9 @@ struct AN_ProxyPool_t163;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 
 // System.Void AN_ProxyPool::.ctor()
 extern "C" void AN_ProxyPool__ctor_m1056 (AN_ProxyPool_t163 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_ProxyPool::CallStatic(System.String,System.String,System.Object[])
-extern "C" void AN_ProxyPool_CallStatic_m1057 (Object_t * __this /* static, unused */, String_t* ___className, String_t* ___methodName, ObjectU5BU5D_t635* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_ProxyPool_CallStatic_m1057 (Object_t * __this /* static, unused */, String_t* ___className, String_t* ___methodName, ObjectU5BU5D_t636* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;

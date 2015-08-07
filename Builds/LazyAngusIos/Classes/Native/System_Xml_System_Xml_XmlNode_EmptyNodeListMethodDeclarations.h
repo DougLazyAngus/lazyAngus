@@ -9,7 +9,7 @@ struct EmptyNodeList_t3193;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Xml.XmlNode
-struct XmlNode_t667;
+struct XmlNode_t668;
 
 // System.Void System.Xml.XmlNode/EmptyNodeList::.ctor()
 extern "C" void EmptyNodeList__ctor_m10774 (EmptyNodeList_t3193 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -20,4 +20,4 @@ extern "C" int32_t EmptyNodeList_get_Count_m10776 (EmptyNodeList_t3193 * __this,
 // System.Collections.IEnumerator System.Xml.XmlNode/EmptyNodeList::GetEnumerator()
 extern "C" Object_t * EmptyNodeList_GetEnumerator_m10777 (EmptyNodeList_t3193 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlNode/EmptyNodeList::Item(System.Int32)
-extern "C" XmlNode_t667 * EmptyNodeList_Item_m10778 (EmptyNodeList_t3193 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t668 * EmptyNodeList_Item_m10778 (EmptyNodeList_t3193 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;

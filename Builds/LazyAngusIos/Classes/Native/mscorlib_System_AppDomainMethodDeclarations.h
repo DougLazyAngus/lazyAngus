@@ -9,7 +9,7 @@ struct AppDomain_t2095;
 // System.String
 struct String_t;
 // System.Reflection.Assembly
-struct Assembly_t719;
+struct Assembly_t720;
 // System.Security.Policy.Evidence
 struct Evidence_t4481;
 // System.Runtime.Remoting.Contexts.Context
@@ -24,11 +24,11 @@ extern "C" AppDomain_t2095 * AppDomain_getCurDomain_m19080 (Object_t * __this /*
 // System.AppDomain System.AppDomain::get_CurrentDomain()
 extern "C" AppDomain_t2095 * AppDomain_get_CurrentDomain_m7528 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Assembly System.AppDomain::LoadAssembly(System.String,System.Security.Policy.Evidence,System.Boolean)
-extern "C" Assembly_t719 * AppDomain_LoadAssembly_m19081 (AppDomain_t2095 * __this, String_t* ___assemblyRef, Evidence_t4481 * ___securityEvidence, bool ___refOnly, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Assembly_t720 * AppDomain_LoadAssembly_m19081 (AppDomain_t2095 * __this, String_t* ___assemblyRef, Evidence_t4481 * ___securityEvidence, bool ___refOnly, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Assembly System.AppDomain::Load(System.String)
-extern "C" Assembly_t719 * AppDomain_Load_m19082 (AppDomain_t2095 * __this, String_t* ___assemblyString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Assembly_t720 * AppDomain_Load_m19082 (AppDomain_t2095 * __this, String_t* ___assemblyString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Assembly System.AppDomain::Load(System.String,System.Security.Policy.Evidence,System.Boolean)
-extern "C" Assembly_t719 * AppDomain_Load_m19083 (AppDomain_t2095 * __this, String_t* ___assemblyString, Evidence_t4481 * ___assemblySecurity, bool ___refonly, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Assembly_t720 * AppDomain_Load_m19083 (AppDomain_t2095 * __this, String_t* ___assemblyString, Evidence_t4481 * ___assemblySecurity, bool ___refonly, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Contexts.Context System.AppDomain::InternalGetContext()
 extern "C" Context_t4551 * AppDomain_InternalGetContext_m19084 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Contexts.Context System.AppDomain::InternalGetDefaultContext()

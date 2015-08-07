@@ -9,7 +9,7 @@ struct InternalEnumerator_1_t5677;
 // System.Object
 struct Object_t;
 // MouseWiggleDesc
-struct MouseWiggleDesc_t567;
+struct MouseWiggleDesc_t568;
 // System.Array
 struct Array_t;
 
@@ -26,4 +26,4 @@ struct Array_t;
 // System.Boolean System.Array/InternalEnumerator`1<MouseWiggleDesc>::MoveNext()
 #define InternalEnumerator_1_MoveNext_m26788(__this, method) (( bool (*) (InternalEnumerator_1_t5677 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<MouseWiggleDesc>::get_Current()
-#define InternalEnumerator_1_get_Current_m26789(__this, method) (( MouseWiggleDesc_t567 * (*) (InternalEnumerator_1_t5677 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m26789(__this, method) (( MouseWiggleDesc_t568 * (*) (InternalEnumerator_1_t5677 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)

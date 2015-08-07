@@ -15,7 +15,7 @@ struct IEnumerator_1_t105;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Collections.Generic.Queue`1/Enumerator<System.Object>
 #include "System_System_Collections_Generic_Queue_1_Enumerator_gen.h"
 
@@ -38,8 +38,8 @@ extern "C" Object_t* Queue_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEn
 extern "C" Object_t * Queue_1_System_Collections_IEnumerable_GetEnumerator_m34469_gshared (Queue_1_t6231 * __this, const MethodInfo* method);
 #define Queue_1_System_Collections_IEnumerable_GetEnumerator_m34469(__this, method) (( Object_t * (*) (Queue_1_t6231 *, const MethodInfo*))Queue_1_System_Collections_IEnumerable_GetEnumerator_m34469_gshared)(__this, method)
 // System.Void System.Collections.Generic.Queue`1<System.Object>::CopyTo(T[],System.Int32)
-extern "C" void Queue_1_CopyTo_m34471_gshared (Queue_1_t6231 * __this, ObjectU5BU5D_t635* ___array, int32_t ___idx, const MethodInfo* method);
-#define Queue_1_CopyTo_m34471(__this, ___array, ___idx, method) (( void (*) (Queue_1_t6231 *, ObjectU5BU5D_t635*, int32_t, const MethodInfo*))Queue_1_CopyTo_m34471_gshared)(__this, ___array, ___idx, method)
+extern "C" void Queue_1_CopyTo_m34471_gshared (Queue_1_t6231 * __this, ObjectU5BU5D_t636* ___array, int32_t ___idx, const MethodInfo* method);
+#define Queue_1_CopyTo_m34471(__this, ___array, ___idx, method) (( void (*) (Queue_1_t6231 *, ObjectU5BU5D_t636*, int32_t, const MethodInfo*))Queue_1_CopyTo_m34471_gshared)(__this, ___array, ___idx, method)
 // T System.Collections.Generic.Queue`1<System.Object>::Dequeue()
 extern "C" Object_t * Queue_1_Dequeue_m34472_gshared (Queue_1_t6231 * __this, const MethodInfo* method);
 #define Queue_1_Dequeue_m34472(__this, method) (( Object_t * (*) (Queue_1_t6231 *, const MethodInfo*))Queue_1_Dequeue_m34472_gshared)(__this, method)

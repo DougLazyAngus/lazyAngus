@@ -13,7 +13,7 @@ struct ICollection_1_t9302;
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Char>[]
 struct KeyValuePair_2U5BU5D_t9303;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Char>>
@@ -68,4 +68,4 @@ struct Object_t;
 // TOut Parse.Internal.FlexibleDictionaryWrapper`2<System.Char,System.Object>::<get_Values>b__0(TIn)
 #define FlexibleDictionaryWrapper_2_U3Cget_ValuesU3Eb__0_m52756(__this /* static, unused */, ___item, method) (( uint16_t (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))FlexibleDictionaryWrapper_2_U3Cget_ValuesU3Eb__0_m48871_gshared)(__this /* static, unused */, ___item, method)
 // System.Collections.Generic.KeyValuePair`2<System.String,TOut> Parse.Internal.FlexibleDictionaryWrapper`2<System.Char,System.Object>::<CopyTo>b__2(System.Collections.Generic.KeyValuePair`2<System.String,TIn>)
-#define FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m52757(__this /* static, unused */, ___pair, method) (( KeyValuePair_2_t7193  (*) (Object_t * /* static, unused */, KeyValuePair_2_t727 , const MethodInfo*))FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m48872_gshared)(__this /* static, unused */, ___pair, method)
+#define FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m52757(__this /* static, unused */, ___pair, method) (( KeyValuePair_2_t7193  (*) (Object_t * /* static, unused */, KeyValuePair_2_t728 , const MethodInfo*))FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m48872_gshared)(__this /* static, unused */, ___pair, method)

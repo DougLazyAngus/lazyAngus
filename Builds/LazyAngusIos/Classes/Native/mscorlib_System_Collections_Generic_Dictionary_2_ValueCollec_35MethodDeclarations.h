@@ -9,7 +9,7 @@ struct ValueCollection_t5797;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct Dictionary_2_t866;
+struct Dictionary_2_t867;
 // UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>
 struct IndexedSet_1_t1012;
 // System.Collections.Generic.IEnumerator`1<UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
@@ -26,7 +26,7 @@ struct IndexedSet_1U5BU5D_t5790;
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_8MethodDeclarations.h"
-#define ValueCollection__ctor_m28877(__this, ___dictionary, method) (( void (*) (ValueCollection_t5797 *, Dictionary_2_t866 *, const MethodInfo*))ValueCollection__ctor_m21688_gshared)(__this, ___dictionary, method)
+#define ValueCollection__ctor_m28877(__this, ___dictionary, method) (( void (*) (ValueCollection_t5797 *, Dictionary_2_t867 *, const MethodInfo*))ValueCollection__ctor_m21688_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
 #define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m28878(__this, ___item, method) (( void (*) (ValueCollection_t5797 *, IndexedSet_1_t1012 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m21689_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.Generic.ICollection<TValue>.Clear()

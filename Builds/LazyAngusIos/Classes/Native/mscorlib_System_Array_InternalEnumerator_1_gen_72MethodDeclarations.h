@@ -9,7 +9,7 @@ struct InternalEnumerator_1_t8307;
 // System.Object
 struct Object_t;
 // UnityEngine.SocialPlatforms.IUserProfile
-struct IUserProfile_t741;
+struct IUserProfile_t742;
 // System.Array
 struct Array_t;
 

@@ -130,7 +130,7 @@ struct  FacebookDelegateU5BU5D_t5610  : public Array_t
 };
 // Facebook.FBBuildVersionAttribute[]
 // Facebook.FBBuildVersionAttribute[]
-struct  FBBuildVersionAttributeU5BU5D_t648  : public Array_t
+struct  FBBuildVersionAttributeU5BU5D_t649  : public Array_t
 {
 };
 // BoostButton[]
@@ -145,15 +145,15 @@ struct  BoostDescU5BU5D_t471  : public Array_t
 };
 // SFXPlayer/SFXType[]
 // SFXPlayer/SFXType[]
-struct  SFXTypeU5BU5D_t594  : public Array_t
+struct  SFXTypeU5BU5D_t595  : public Array_t
 {
 };
 // MouseHole[]
 // MouseHole[]
-struct  MouseHoleU5BU5D_t509  : public Array_t
+struct  MouseHoleU5BU5D_t510  : public Array_t
 {
 };
-struct MouseHoleU5BU5D_t509_StaticFields{
+struct MouseHoleU5BU5D_t510_StaticFields{
 };
 // ExplicitMouseDesc[]
 // ExplicitMouseDesc[]
@@ -162,7 +162,7 @@ struct  ExplicitMouseDescU5BU5D_t5644  : public Array_t
 };
 // GameUI[]
 // GameUI[]
-struct  GameUIU5BU5D_t519  : public Array_t
+struct  GameUIU5BU5D_t520  : public Array_t
 {
 };
 // MouseHole/MouseHoleLocation[]
@@ -177,11 +177,11 @@ struct  LevelDescriptionU5BU5D_t5665  : public Array_t
 };
 // MouseDesc[]
 // MouseDesc[]
-struct  MouseDescU5BU5D_t555  : public Array_t
+struct  MouseDescU5BU5D_t556  : public Array_t
 {
 };
 // MouseWiggleDesc[]
 // MouseWiggleDesc[]
-struct  MouseWiggleDescU5BU5D_t556  : public Array_t
+struct  MouseWiggleDescU5BU5D_t557  : public Array_t
 {
 };

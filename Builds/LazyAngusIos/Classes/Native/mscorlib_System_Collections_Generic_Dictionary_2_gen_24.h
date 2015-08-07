@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.Link[]
 struct LinkU5BU5D_t5345;
 // UnityEngine.UI.Graphic[]
@@ -18,13 +18,13 @@ struct Transform_1_t5794;
 struct  Dictionary_2_t1010  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<UnityEngine.UI.Graphic,System.Int32>::table
-	Int32U5BU5D_t548* ___table_4;
+	Int32U5BU5D_t549* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<UnityEngine.UI.Graphic,System.Int32>::linkSlots
 	LinkU5BU5D_t5345* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<UnityEngine.UI.Graphic,System.Int32>::keySlots
 	GraphicU5BU5D_t5786* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<UnityEngine.UI.Graphic,System.Int32>::valueSlots
-	Int32U5BU5D_t548* ___valueSlots_7;
+	Int32U5BU5D_t549* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.UI.Graphic,System.Int32>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.UI.Graphic,System.Int32>::emptySlot

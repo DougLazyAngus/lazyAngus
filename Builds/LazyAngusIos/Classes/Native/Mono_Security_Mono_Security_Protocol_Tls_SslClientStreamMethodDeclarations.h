@@ -33,7 +33,7 @@ struct ValidationResult_t3825;
 // Mono.Security.X509.X509CertificateCollection
 struct X509CertificateCollection_t3760;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Security.Cryptography.AsymmetricAlgorithm
 struct AsymmetricAlgorithm_t3852;
 // Mono.Security.Protocol.Tls.SecurityProtocolType
@@ -100,9 +100,9 @@ extern "C" bool SslClientStream_get_HaveRemoteValidation2Callback_m12636 (SslCli
 // Mono.Security.Protocol.Tls.ValidationResult Mono.Security.Protocol.Tls.SslClientStream::OnRemoteCertificateValidation2(Mono.Security.X509.X509CertificateCollection)
 extern "C" ValidationResult_t3825 * SslClientStream_OnRemoteCertificateValidation2_m12637 (SslClientStream_t3797 * __this, X509CertificateCollection_t3760 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.SslClientStream::OnRemoteCertificateValidation(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
-extern "C" bool SslClientStream_OnRemoteCertificateValidation_m12638 (SslClientStream_t3797 * __this, X509Certificate_t3834 * ___certificate, Int32U5BU5D_t548* ___errors, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SslClientStream_OnRemoteCertificateValidation_m12638 (SslClientStream_t3797 * __this, X509Certificate_t3834 * ___certificate, Int32U5BU5D_t549* ___errors, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.SslClientStream::RaiseServerCertificateValidation(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
-extern "C" bool SslClientStream_RaiseServerCertificateValidation_m12639 (SslClientStream_t3797 * __this, X509Certificate_t3834 * ___certificate, Int32U5BU5D_t548* ___certificateErrors, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SslClientStream_RaiseServerCertificateValidation_m12639 (SslClientStream_t3797 * __this, X509Certificate_t3834 * ___certificate, Int32U5BU5D_t549* ___certificateErrors, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.ValidationResult Mono.Security.Protocol.Tls.SslClientStream::RaiseServerCertificateValidation2(Mono.Security.X509.X509CertificateCollection)
 extern "C" ValidationResult_t3825 * SslClientStream_RaiseServerCertificateValidation2_m12640 (SslClientStream_t3797 * __this, X509CertificateCollection_t3760 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.SslClientStream::RaiseClientCertificateSelection(System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection)

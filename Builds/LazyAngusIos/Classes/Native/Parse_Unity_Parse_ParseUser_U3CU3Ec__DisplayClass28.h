@@ -5,7 +5,7 @@ struct ParseUser_t1253;
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.ParseUser/<>c__DisplayClass28

@@ -1141,7 +1141,7 @@ static const ParameterInfo DTDReader_t3153_DTDReader_ExpectAfterWhitespace_m1045
 {
 	{"c", 0, 134217852, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.DTDReader::ExpectAfterWhitespace(System.Char)
 extern const MethodInfo DTDReader_ExpectAfterWhitespace_m10450_MethodInfo = 
 {
@@ -1149,7 +1149,7 @@ extern const MethodInfo DTDReader_ExpectAfterWhitespace_m10450_MethodInfo =
 	, (methodPointerType)&DTDReader_ExpectAfterWhitespace_m10450/* method */
 	, &DTDReader_t3153_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Void_t85_Int16_t693/* invoker_method */
 	, DTDReader_t3153_DTDReader_ExpectAfterWhitespace_m10450_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -2414,13 +2414,13 @@ extern const MethodInfo NameTable__ctor_m10467_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo NameTable_t3157_NameTable_Add_m10468_ParameterInfos[] = 
 {
-	{"key", 0, 134217858, 0, &CharU5BU5D_t660_0_0_0},
+	{"key", 0, 134217858, 0, &CharU5BU5D_t661_0_0_0},
 	{"start", 1, 134217859, 0, &Int32_t82_0_0_0},
 	{"len", 2, 134217860, 0, &Int32_t82_0_0_0},
 };
@@ -2534,12 +2534,12 @@ extern const MethodInfo NameTable_AddEntry_m10471_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo NameTable_t3157_NameTable_StrEqArray_m10472_ParameterInfos[] = 
 {
 	{"str", 0, 134217865, 0, &String_t_0_0_0},
-	{"str2", 1, 134217866, 0, &CharU5BU5D_t660_0_0_0},
+	{"str2", 1, 134217866, 0, &CharU5BU5D_t661_0_0_0},
 	{"start", 2, 134217867, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -3366,22 +3366,22 @@ TypeInfo WriteState_t3162_il2cpp_TypeInfo =
 // System.Xml.XmlAttribute
 #include "System_Xml_System_Xml_XmlAttribute.h"
 // Metadata Definition System.Xml.XmlAttribute
-extern TypeInfo XmlAttribute_t671_il2cpp_TypeInfo;
+extern TypeInfo XmlAttribute_t672_il2cpp_TypeInfo;
 // System.Xml.XmlAttribute
 #include "System_Xml_System_Xml_XmlAttributeMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo XmlAttribute_t671_XmlAttribute__ctor_m10473_ParameterInfos[] = 
+static const ParameterInfo XmlAttribute_t672_XmlAttribute__ctor_m10473_ParameterInfos[] = 
 {
 	{"prefix", 0, 134217871, 0, &String_t_0_0_0},
 	{"localName", 1, 134217872, 0, &String_t_0_0_0},
 	{"namespaceURI", 2, 134217873, 0, &String_t_0_0_0},
-	{"doc", 3, 134217874, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 3, 134217874, 0, &XmlDocument_t631_0_0_0},
 	{"atomizedNames", 4, 134217875, 0, &Boolean_t59_0_0_0},
 	{"checkNamespace", 5, 134217876, 0, &Boolean_t59_0_0_0},
 };
@@ -3391,10 +3391,10 @@ extern const MethodInfo XmlAttribute__ctor_m10473_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&XmlAttribute__ctor_m10473/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_SByte_t88_SByte_t88/* invoker_method */
-	, XmlAttribute_t671_XmlAttribute__ctor_m10473_ParameterInfos/* parameters */
+	, XmlAttribute_t672_XmlAttribute__ctor_m10473_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -3414,7 +3414,7 @@ extern const MethodInfo XmlAttribute_System_Xml_IHasXmlChildNode_get_LastLinkedC
 {
 	"System.Xml.IHasXmlChildNode.get_LastLinkedChild"/* name */
 	, (methodPointerType)&XmlAttribute_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10474/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &XmlLinkedNode_t3164_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3432,7 +3432,7 @@ extern const MethodInfo XmlAttribute_System_Xml_IHasXmlChildNode_get_LastLinkedC
 
 };
 extern const Il2CppType XmlLinkedNode_t3164_0_0_0;
-static const ParameterInfo XmlAttribute_t671_XmlAttribute_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10475_ParameterInfos[] = 
+static const ParameterInfo XmlAttribute_t672_XmlAttribute_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10475_ParameterInfos[] = 
 {
 	{"value", 0, 134217877, 0, &XmlLinkedNode_t3164_0_0_0},
 };
@@ -3442,10 +3442,10 @@ extern const MethodInfo XmlAttribute_System_Xml_IHasXmlChildNode_set_LastLinkedC
 {
 	"System.Xml.IHasXmlChildNode.set_LastLinkedChild"/* name */
 	, (methodPointerType)&XmlAttribute_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10475/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlAttribute_t671_XmlAttribute_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10475_ParameterInfos/* parameters */
+	, XmlAttribute_t672_XmlAttribute_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10475_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
@@ -3465,7 +3465,7 @@ extern const MethodInfo XmlAttribute_get_BaseURI_m10476_MethodInfo =
 {
 	"get_BaseURI"/* name */
 	, (methodPointerType)&XmlAttribute_get_BaseURI_m10476/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3488,7 +3488,7 @@ extern const MethodInfo XmlAttribute_get_LocalName_m10477_MethodInfo =
 {
 	"get_LocalName"/* name */
 	, (methodPointerType)&XmlAttribute_get_LocalName_m10477/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3511,7 +3511,7 @@ extern const MethodInfo XmlAttribute_get_Name_m10478_MethodInfo =
 {
 	"get_Name"/* name */
 	, (methodPointerType)&XmlAttribute_get_Name_m10478/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3534,7 +3534,7 @@ extern const MethodInfo XmlAttribute_get_NamespaceURI_m10479_MethodInfo =
 {
 	"get_NamespaceURI"/* name */
 	, (methodPointerType)&XmlAttribute_get_NamespaceURI_m10479/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3558,7 +3558,7 @@ extern const MethodInfo XmlAttribute_get_NodeType_m10480_MethodInfo =
 {
 	"get_NodeType"/* name */
 	, (methodPointerType)&XmlAttribute_get_NodeType_m10480/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &XmlNodeType_t3200_0_0_0/* return_type */
 	, RuntimeInvoker_XmlNodeType_t3200/* invoker_method */
 	, NULL/* parameters */
@@ -3581,8 +3581,8 @@ extern const MethodInfo XmlAttribute_get_OwnerDocument_m10481_MethodInfo =
 {
 	"get_OwnerDocument"/* name */
 	, (methodPointerType)&XmlAttribute_get_OwnerDocument_m10481/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
-	, &XmlDocument_t630_0_0_0/* return_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -3598,15 +3598,15 @@ extern const MethodInfo XmlAttribute_get_OwnerDocument_m10481_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlElement_t631_0_0_0;
+extern const Il2CppType XmlElement_t632_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlElement System.Xml.XmlAttribute::get_OwnerElement()
 extern const MethodInfo XmlAttribute_get_OwnerElement_m10482_MethodInfo = 
 {
 	"get_OwnerElement"/* name */
 	, (methodPointerType)&XmlAttribute_get_OwnerElement_m10482/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
-	, &XmlElement_t631_0_0_0/* return_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -3622,15 +3622,15 @@ extern const MethodInfo XmlAttribute_get_OwnerElement_m10482_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlNode System.Xml.XmlAttribute::get_ParentNode()
 extern const MethodInfo XmlAttribute_get_ParentNode_m10483_MethodInfo = 
 {
 	"get_ParentNode"/* name */
 	, (methodPointerType)&XmlAttribute_get_ParentNode_m10483/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -3652,7 +3652,7 @@ extern const MethodInfo XmlAttribute_get_Prefix_m10484_MethodInfo =
 {
 	"get_Prefix"/* name */
 	, (methodPointerType)&XmlAttribute_get_Prefix_m10484/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3671,7 +3671,7 @@ extern const MethodInfo XmlAttribute_get_Prefix_m10484_MethodInfo =
 };
 extern const Il2CppType IXmlSchemaInfo_t3165_0_0_0;
 extern const Il2CppType IXmlSchemaInfo_t3165_0_0_0;
-static const ParameterInfo XmlAttribute_t671_XmlAttribute_set_SchemaInfo_m10485_ParameterInfos[] = 
+static const ParameterInfo XmlAttribute_t672_XmlAttribute_set_SchemaInfo_m10485_ParameterInfos[] = 
 {
 	{"value", 0, 134217878, 0, &IXmlSchemaInfo_t3165_0_0_0},
 };
@@ -3681,10 +3681,10 @@ extern const MethodInfo XmlAttribute_set_SchemaInfo_m10485_MethodInfo =
 {
 	"set_SchemaInfo"/* name */
 	, (methodPointerType)&XmlAttribute_set_SchemaInfo_m10485/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlAttribute_t671_XmlAttribute_set_SchemaInfo_m10485_ParameterInfos/* parameters */
+	, XmlAttribute_t672_XmlAttribute_set_SchemaInfo_m10485_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2243/* flags */
 	, 0/* iflags */
@@ -3704,7 +3704,7 @@ extern const MethodInfo XmlAttribute_get_Specified_m10486_MethodInfo =
 {
 	"get_Specified"/* name */
 	, (methodPointerType)&XmlAttribute_get_Specified_m10486/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -3727,7 +3727,7 @@ extern const MethodInfo XmlAttribute_get_Value_m10487_MethodInfo =
 {
 	"get_Value"/* name */
 	, (methodPointerType)&XmlAttribute_get_Value_m10487/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3745,7 +3745,7 @@ extern const MethodInfo XmlAttribute_get_Value_m10487_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlAttribute_t671_XmlAttribute_set_Value_m10488_ParameterInfos[] = 
+static const ParameterInfo XmlAttribute_t672_XmlAttribute_set_Value_m10488_ParameterInfos[] = 
 {
 	{"value", 0, 134217879, 0, &String_t_0_0_0},
 };
@@ -3755,10 +3755,10 @@ extern const MethodInfo XmlAttribute_set_Value_m10488_MethodInfo =
 {
 	"set_Value"/* name */
 	, (methodPointerType)&XmlAttribute_set_Value_m10488/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlAttribute_t671_XmlAttribute_set_Value_m10488_ParameterInfos/* parameters */
+	, XmlAttribute_t672_XmlAttribute_set_Value_m10488_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
 	, 0/* iflags */
@@ -3778,7 +3778,7 @@ extern const MethodInfo XmlAttribute_get_XmlLang_m10489_MethodInfo =
 {
 	"get_XmlLang"/* name */
 	, (methodPointerType)&XmlAttribute_get_XmlLang_m10489/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3802,7 +3802,7 @@ extern const MethodInfo XmlAttribute_get_XmlSpace_m10490_MethodInfo =
 {
 	"get_XmlSpace"/* name */
 	, (methodPointerType)&XmlAttribute_get_XmlSpace_m10490/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSpace_t3212_0_0_0/* return_type */
 	, RuntimeInvoker_XmlSpace_t3212/* invoker_method */
 	, NULL/* parameters */
@@ -3819,10 +3819,10 @@ extern const MethodInfo XmlAttribute_get_XmlSpace_m10490_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlAttribute_t671_XmlAttribute_AppendChild_m10491_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlAttribute_t672_XmlAttribute_AppendChild_m10491_ParameterInfos[] = 
 {
-	{"child", 0, 134217880, 0, &XmlNode_t667_0_0_0},
+	{"child", 0, 134217880, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlNode System.Xml.XmlAttribute::AppendChild(System.Xml.XmlNode)
@@ -3830,10 +3830,10 @@ extern const MethodInfo XmlAttribute_AppendChild_m10491_MethodInfo =
 {
 	"AppendChild"/* name */
 	, (methodPointerType)&XmlAttribute_AppendChild_m10491/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlAttribute_t671_XmlAttribute_AppendChild_m10491_ParameterInfos/* parameters */
+	, XmlAttribute_t672_XmlAttribute_AppendChild_m10491_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -3847,12 +3847,12 @@ extern const MethodInfo XmlAttribute_AppendChild_m10491_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlAttribute_t671_XmlAttribute_InsertBefore_m10492_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlAttribute_t672_XmlAttribute_InsertBefore_m10492_ParameterInfos[] = 
 {
-	{"newChild", 0, 134217881, 0, &XmlNode_t667_0_0_0},
-	{"refChild", 1, 134217882, 0, &XmlNode_t667_0_0_0},
+	{"newChild", 0, 134217881, 0, &XmlNode_t668_0_0_0},
+	{"refChild", 1, 134217882, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlNode System.Xml.XmlAttribute::InsertBefore(System.Xml.XmlNode,System.Xml.XmlNode)
@@ -3860,10 +3860,10 @@ extern const MethodInfo XmlAttribute_InsertBefore_m10492_MethodInfo =
 {
 	"InsertBefore"/* name */
 	, (methodPointerType)&XmlAttribute_InsertBefore_m10492/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlAttribute_t671_XmlAttribute_InsertBefore_m10492_ParameterInfos/* parameters */
+	, XmlAttribute_t672_XmlAttribute_InsertBefore_m10492_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -3877,10 +3877,10 @@ extern const MethodInfo XmlAttribute_InsertBefore_m10492_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlAttribute_t671_XmlAttribute_RemoveChild_m10493_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlAttribute_t672_XmlAttribute_RemoveChild_m10493_ParameterInfos[] = 
 {
-	{"node", 0, 134217883, 0, &XmlNode_t667_0_0_0},
+	{"node", 0, 134217883, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlNode System.Xml.XmlAttribute::RemoveChild(System.Xml.XmlNode)
@@ -3888,10 +3888,10 @@ extern const MethodInfo XmlAttribute_RemoveChild_m10493_MethodInfo =
 {
 	"RemoveChild"/* name */
 	, (methodPointerType)&XmlAttribute_RemoveChild_m10493/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlAttribute_t671_XmlAttribute_RemoveChild_m10493_ParameterInfos/* parameters */
+	, XmlAttribute_t672_XmlAttribute_RemoveChild_m10493_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -3906,7 +3906,7 @@ extern const MethodInfo XmlAttribute_RemoveChild_m10493_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo XmlAttribute_t671_XmlAttribute_CloneNode_m10494_ParameterInfos[] = 
+static const ParameterInfo XmlAttribute_t672_XmlAttribute_CloneNode_m10494_ParameterInfos[] = 
 {
 	{"deep", 0, 134217884, 0, &Boolean_t59_0_0_0},
 };
@@ -3916,10 +3916,10 @@ extern const MethodInfo XmlAttribute_CloneNode_m10494_MethodInfo =
 {
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlAttribute_CloneNode_m10494/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
-	, XmlAttribute_t671_XmlAttribute_CloneNode_m10494_ParameterInfos/* parameters */
+	, XmlAttribute_t672_XmlAttribute_CloneNode_m10494_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -3939,7 +3939,7 @@ extern const MethodInfo XmlAttribute_SetDefault_m10495_MethodInfo =
 {
 	"SetDefault"/* name */
 	, (methodPointerType)&XmlAttribute_SetDefault_m10495/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -3962,7 +3962,7 @@ extern const MethodInfo XmlAttribute_GetAttributeDefinition_m10496_MethodInfo =
 {
 	"GetAttributeDefinition"/* name */
 	, (methodPointerType)&XmlAttribute_GetAttributeDefinition_m10496/* method */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* declaring_type */
 	, &DTDAttributeDefinition_t3144_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3979,7 +3979,7 @@ extern const MethodInfo XmlAttribute_GetAttributeDefinition_m10496_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlAttribute_t671_MethodInfos[] =
+static const MethodInfo* XmlAttribute_t672_MethodInfos[] =
 {
 	&XmlAttribute__ctor_m10473_MethodInfo,
 	&XmlAttribute_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10474_MethodInfo,
@@ -4009,9 +4009,9 @@ static const MethodInfo* XmlAttribute_t671_MethodInfos[] =
 };
 extern const MethodInfo XmlAttribute_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10474_MethodInfo;
 extern const MethodInfo XmlAttribute_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10475_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____System_Xml_IHasXmlChildNode_LastLinkedChild_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____System_Xml_IHasXmlChildNode_LastLinkedChild_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "System.Xml.IHasXmlChildNode.LastLinkedChild"/* name */
 	, &XmlAttribute_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10474_MethodInfo/* get */
 	, &XmlAttribute_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10475_MethodInfo/* set */
@@ -4020,9 +4020,9 @@ static const PropertyInfo XmlAttribute_t671____System_Xml_IHasXmlChildNode_LastL
 
 };
 extern const MethodInfo XmlAttribute_get_BaseURI_m10476_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____BaseURI_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____BaseURI_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "BaseURI"/* name */
 	, &XmlAttribute_get_BaseURI_m10476_MethodInfo/* get */
 	, NULL/* set */
@@ -4031,9 +4031,9 @@ static const PropertyInfo XmlAttribute_t671____BaseURI_PropertyInfo =
 
 };
 extern const MethodInfo XmlAttribute_get_LocalName_m10477_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____LocalName_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____LocalName_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "LocalName"/* name */
 	, &XmlAttribute_get_LocalName_m10477_MethodInfo/* get */
 	, NULL/* set */
@@ -4042,9 +4042,9 @@ static const PropertyInfo XmlAttribute_t671____LocalName_PropertyInfo =
 
 };
 extern const MethodInfo XmlAttribute_get_Name_m10478_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____Name_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____Name_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
 	, &XmlAttribute_get_Name_m10478_MethodInfo/* get */
 	, NULL/* set */
@@ -4053,9 +4053,9 @@ static const PropertyInfo XmlAttribute_t671____Name_PropertyInfo =
 
 };
 extern const MethodInfo XmlAttribute_get_NamespaceURI_m10479_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____NamespaceURI_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____NamespaceURI_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "NamespaceURI"/* name */
 	, &XmlAttribute_get_NamespaceURI_m10479_MethodInfo/* get */
 	, NULL/* set */
@@ -4064,9 +4064,9 @@ static const PropertyInfo XmlAttribute_t671____NamespaceURI_PropertyInfo =
 
 };
 extern const MethodInfo XmlAttribute_get_NodeType_m10480_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____NodeType_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____NodeType_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "NodeType"/* name */
 	, &XmlAttribute_get_NodeType_m10480_MethodInfo/* get */
 	, NULL/* set */
@@ -4075,9 +4075,9 @@ static const PropertyInfo XmlAttribute_t671____NodeType_PropertyInfo =
 
 };
 extern const MethodInfo XmlAttribute_get_OwnerDocument_m10481_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____OwnerDocument_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____OwnerDocument_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "OwnerDocument"/* name */
 	, &XmlAttribute_get_OwnerDocument_m10481_MethodInfo/* get */
 	, NULL/* set */
@@ -4086,9 +4086,9 @@ static const PropertyInfo XmlAttribute_t671____OwnerDocument_PropertyInfo =
 
 };
 extern const MethodInfo XmlAttribute_get_OwnerElement_m10482_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____OwnerElement_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____OwnerElement_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "OwnerElement"/* name */
 	, &XmlAttribute_get_OwnerElement_m10482_MethodInfo/* get */
 	, NULL/* set */
@@ -4097,9 +4097,9 @@ static const PropertyInfo XmlAttribute_t671____OwnerElement_PropertyInfo =
 
 };
 extern const MethodInfo XmlAttribute_get_ParentNode_m10483_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____ParentNode_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____ParentNode_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "ParentNode"/* name */
 	, &XmlAttribute_get_ParentNode_m10483_MethodInfo/* get */
 	, NULL/* set */
@@ -4108,9 +4108,9 @@ static const PropertyInfo XmlAttribute_t671____ParentNode_PropertyInfo =
 
 };
 extern const MethodInfo XmlAttribute_get_Prefix_m10484_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____Prefix_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____Prefix_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "Prefix"/* name */
 	, &XmlAttribute_get_Prefix_m10484_MethodInfo/* get */
 	, NULL/* set */
@@ -4119,9 +4119,9 @@ static const PropertyInfo XmlAttribute_t671____Prefix_PropertyInfo =
 
 };
 extern const MethodInfo XmlAttribute_set_SchemaInfo_m10485_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____SchemaInfo_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____SchemaInfo_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "SchemaInfo"/* name */
 	, NULL/* get */
 	, &XmlAttribute_set_SchemaInfo_m10485_MethodInfo/* set */
@@ -4130,9 +4130,9 @@ static const PropertyInfo XmlAttribute_t671____SchemaInfo_PropertyInfo =
 
 };
 extern const MethodInfo XmlAttribute_get_Specified_m10486_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____Specified_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____Specified_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "Specified"/* name */
 	, &XmlAttribute_get_Specified_m10486_MethodInfo/* get */
 	, NULL/* set */
@@ -4142,9 +4142,9 @@ static const PropertyInfo XmlAttribute_t671____Specified_PropertyInfo =
 };
 extern const MethodInfo XmlAttribute_get_Value_m10487_MethodInfo;
 extern const MethodInfo XmlAttribute_set_Value_m10488_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____Value_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____Value_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "Value"/* name */
 	, &XmlAttribute_get_Value_m10487_MethodInfo/* get */
 	, &XmlAttribute_set_Value_m10488_MethodInfo/* set */
@@ -4153,9 +4153,9 @@ static const PropertyInfo XmlAttribute_t671____Value_PropertyInfo =
 
 };
 extern const MethodInfo XmlAttribute_get_XmlLang_m10489_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____XmlLang_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____XmlLang_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "XmlLang"/* name */
 	, &XmlAttribute_get_XmlLang_m10489_MethodInfo/* get */
 	, NULL/* set */
@@ -4164,9 +4164,9 @@ static const PropertyInfo XmlAttribute_t671____XmlLang_PropertyInfo =
 
 };
 extern const MethodInfo XmlAttribute_get_XmlSpace_m10490_MethodInfo;
-static const PropertyInfo XmlAttribute_t671____XmlSpace_PropertyInfo = 
+static const PropertyInfo XmlAttribute_t672____XmlSpace_PropertyInfo = 
 {
-	&XmlAttribute_t671_il2cpp_TypeInfo/* parent */
+	&XmlAttribute_t672_il2cpp_TypeInfo/* parent */
 	, "XmlSpace"/* name */
 	, &XmlAttribute_get_XmlSpace_m10490_MethodInfo/* get */
 	, NULL/* set */
@@ -4174,23 +4174,23 @@ static const PropertyInfo XmlAttribute_t671____XmlSpace_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlAttribute_t671_PropertyInfos[] =
+static const PropertyInfo* XmlAttribute_t672_PropertyInfos[] =
 {
-	&XmlAttribute_t671____System_Xml_IHasXmlChildNode_LastLinkedChild_PropertyInfo,
-	&XmlAttribute_t671____BaseURI_PropertyInfo,
-	&XmlAttribute_t671____LocalName_PropertyInfo,
-	&XmlAttribute_t671____Name_PropertyInfo,
-	&XmlAttribute_t671____NamespaceURI_PropertyInfo,
-	&XmlAttribute_t671____NodeType_PropertyInfo,
-	&XmlAttribute_t671____OwnerDocument_PropertyInfo,
-	&XmlAttribute_t671____OwnerElement_PropertyInfo,
-	&XmlAttribute_t671____ParentNode_PropertyInfo,
-	&XmlAttribute_t671____Prefix_PropertyInfo,
-	&XmlAttribute_t671____SchemaInfo_PropertyInfo,
-	&XmlAttribute_t671____Specified_PropertyInfo,
-	&XmlAttribute_t671____Value_PropertyInfo,
-	&XmlAttribute_t671____XmlLang_PropertyInfo,
-	&XmlAttribute_t671____XmlSpace_PropertyInfo,
+	&XmlAttribute_t672____System_Xml_IHasXmlChildNode_LastLinkedChild_PropertyInfo,
+	&XmlAttribute_t672____BaseURI_PropertyInfo,
+	&XmlAttribute_t672____LocalName_PropertyInfo,
+	&XmlAttribute_t672____Name_PropertyInfo,
+	&XmlAttribute_t672____NamespaceURI_PropertyInfo,
+	&XmlAttribute_t672____NodeType_PropertyInfo,
+	&XmlAttribute_t672____OwnerDocument_PropertyInfo,
+	&XmlAttribute_t672____OwnerElement_PropertyInfo,
+	&XmlAttribute_t672____ParentNode_PropertyInfo,
+	&XmlAttribute_t672____Prefix_PropertyInfo,
+	&XmlAttribute_t672____SchemaInfo_PropertyInfo,
+	&XmlAttribute_t672____Specified_PropertyInfo,
+	&XmlAttribute_t672____Value_PropertyInfo,
+	&XmlAttribute_t672____XmlLang_PropertyInfo,
+	&XmlAttribute_t672____XmlSpace_PropertyInfo,
 	NULL
 };
 extern const MethodInfo XmlNode_System_Collections_IEnumerable_GetEnumerator_m10781_MethodInfo;
@@ -4210,7 +4210,7 @@ extern const MethodInfo XmlNode_GetEnumerator_m10805_MethodInfo;
 extern const MethodInfo XmlAttribute_InsertBefore_m10492_MethodInfo;
 extern const MethodInfo XmlNode_RemoveAll_m10810_MethodInfo;
 extern const MethodInfo XmlAttribute_RemoveChild_m10493_MethodInfo;
-static const Il2CppMethodReference XmlAttribute_t671_VTable[] =
+static const Il2CppMethodReference XmlAttribute_t672_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -4251,7 +4251,7 @@ static const Il2CppMethodReference XmlAttribute_t671_VTable[] =
 	&XmlAttribute_get_OwnerElement_m10482_MethodInfo,
 	&XmlAttribute_get_Specified_m10486_MethodInfo,
 };
-static bool XmlAttribute_t671_VTableIsGenericMethod[] =
+static bool XmlAttribute_t672_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -4292,52 +4292,52 @@ static bool XmlAttribute_t671_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* XmlAttribute_t671_InterfacesTypeInfos[] = 
+static const Il2CppType* XmlAttribute_t672_InterfacesTypeInfos[] = 
 {
 	&IHasXmlChildNode_t3198_0_0_0,
 };
 extern const Il2CppType IEnumerable_t104_0_0_0;
-extern const Il2CppType ICloneable_t761_0_0_0;
+extern const Il2CppType ICloneable_t762_0_0_0;
 extern const Il2CppType IXPathNavigable_t3262_0_0_0;
-static Il2CppInterfaceOffsetPair XmlAttribute_t671_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlAttribute_t672_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 	{ &IHasXmlChildNode_t3198_0_0_0, 34},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlAttribute_t671_0_0_0;
-extern const Il2CppType XmlAttribute_t671_1_0_0;
-struct XmlAttribute_t671;
-const Il2CppTypeDefinitionMetadata XmlAttribute_t671_DefinitionMetadata = 
+extern const Il2CppType XmlAttribute_t672_0_0_0;
+extern const Il2CppType XmlAttribute_t672_1_0_0;
+struct XmlAttribute_t672;
+const Il2CppTypeDefinitionMetadata XmlAttribute_t672_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, XmlAttribute_t671_InterfacesTypeInfos/* implementedInterfaces */
-	, XmlAttribute_t671_InterfacesOffsets/* interfaceOffsets */
-	, &XmlNode_t667_0_0_0/* parent */
-	, XmlAttribute_t671_VTable/* vtableMethods */
-	, XmlAttribute_t671_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlAttribute_t672_InterfacesTypeInfos/* implementedInterfaces */
+	, XmlAttribute_t672_InterfacesOffsets/* interfaceOffsets */
+	, &XmlNode_t668_0_0_0/* parent */
+	, XmlAttribute_t672_VTable/* vtableMethods */
+	, XmlAttribute_t672_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 317/* fieldStart */
 
 };
-TypeInfo XmlAttribute_t671_il2cpp_TypeInfo = 
+TypeInfo XmlAttribute_t672_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlAttribute"/* name */
 	, "System.Xml"/* namespaze */
-	, XmlAttribute_t671_MethodInfos/* methods */
-	, XmlAttribute_t671_PropertyInfos/* properties */
+	, XmlAttribute_t672_MethodInfos/* methods */
+	, XmlAttribute_t672_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlAttribute_t671_il2cpp_TypeInfo/* element_class */
+	, &XmlAttribute_t672_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlAttribute_t671_0_0_0/* byval_arg */
-	, &XmlAttribute_t671_1_0_0/* this_arg */
-	, &XmlAttribute_t671_DefinitionMetadata/* definitionMetadata */
+	, &XmlAttribute_t672_0_0_0/* byval_arg */
+	, &XmlAttribute_t672_1_0_0/* this_arg */
+	, &XmlAttribute_t672_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4347,8 +4347,8 @@ TypeInfo XmlAttribute_t671_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlAttribute_t671)/* instance_size */
-	, sizeof (XmlAttribute_t671)/* actualSize */
+	, sizeof (XmlAttribute_t672)/* instance_size */
+	, sizeof (XmlAttribute_t672)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4380,13 +4380,13 @@ TypeInfo XmlAttribute_t671_il2cpp_TypeInfo =
 // System.Xml.XmlAttributeCollection
 #include "System_Xml_System_Xml_XmlAttributeCollection.h"
 // Metadata Definition System.Xml.XmlAttributeCollection
-extern TypeInfo XmlAttributeCollection_t673_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributeCollection_t674_il2cpp_TypeInfo;
 // System.Xml.XmlAttributeCollection
 #include "System_Xml_System_Xml_XmlAttributeCollectionMethodDeclarations.h"
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlAttributeCollection_t673_XmlAttributeCollection__ctor_m10497_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlAttributeCollection_t674_XmlAttributeCollection__ctor_m10497_ParameterInfos[] = 
 {
-	{"parent", 0, 134217885, 0, &XmlNode_t667_0_0_0},
+	{"parent", 0, 134217885, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlAttributeCollection::.ctor(System.Xml.XmlNode)
@@ -4394,10 +4394,10 @@ extern const MethodInfo XmlAttributeCollection__ctor_m10497_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&XmlAttributeCollection__ctor_m10497/* method */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlAttributeCollection_t673_XmlAttributeCollection__ctor_m10497_ParameterInfos/* parameters */
+	, XmlAttributeCollection_t674_XmlAttributeCollection__ctor_m10497_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -4417,7 +4417,7 @@ extern const MethodInfo XmlAttributeCollection_System_Collections_ICollection_ge
 {
 	"System.Collections.ICollection.get_IsSynchronized"/* name */
 	, (methodPointerType)&XmlAttributeCollection_System_Collections_ICollection_get_IsSynchronized_m10498/* method */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -4440,7 +4440,7 @@ extern const MethodInfo XmlAttributeCollection_System_Collections_ICollection_ge
 {
 	"System.Collections.ICollection.get_SyncRoot"/* name */
 	, (methodPointerType)&XmlAttributeCollection_System_Collections_ICollection_get_SyncRoot_m10499/* method */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -4460,7 +4460,7 @@ extern const MethodInfo XmlAttributeCollection_System_Collections_ICollection_ge
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo XmlAttributeCollection_t673_XmlAttributeCollection_System_Collections_ICollection_CopyTo_m10500_ParameterInfos[] = 
+static const ParameterInfo XmlAttributeCollection_t674_XmlAttributeCollection_System_Collections_ICollection_CopyTo_m10500_ParameterInfos[] = 
 {
 	{"array", 0, 134217886, 0, &Array_t_0_0_0},
 	{"index", 1, 134217887, 0, &Int32_t82_0_0_0},
@@ -4471,10 +4471,10 @@ extern const MethodInfo XmlAttributeCollection_System_Collections_ICollection_Co
 {
 	"System.Collections.ICollection.CopyTo"/* name */
 	, (methodPointerType)&XmlAttributeCollection_System_Collections_ICollection_CopyTo_m10500/* method */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, XmlAttributeCollection_t673_XmlAttributeCollection_System_Collections_ICollection_CopyTo_m10500_ParameterInfos/* parameters */
+	, XmlAttributeCollection_t674_XmlAttributeCollection_System_Collections_ICollection_CopyTo_m10500_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -4494,7 +4494,7 @@ extern const MethodInfo XmlAttributeCollection_get_IsReadOnly_m10501_MethodInfo 
 {
 	"get_IsReadOnly"/* name */
 	, (methodPointerType)&XmlAttributeCollection_get_IsReadOnly_m10501/* method */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -4512,7 +4512,7 @@ extern const MethodInfo XmlAttributeCollection_get_IsReadOnly_m10501_MethodInfo 
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlAttributeCollection_t673_XmlAttributeCollection_get_ItemOf_m10502_ParameterInfos[] = 
+static const ParameterInfo XmlAttributeCollection_t674_XmlAttributeCollection_get_ItemOf_m10502_ParameterInfos[] = 
 {
 	{"name", 0, 134217888, 0, &String_t_0_0_0},
 };
@@ -4522,10 +4522,10 @@ extern const MethodInfo XmlAttributeCollection_get_ItemOf_m10502_MethodInfo =
 {
 	"get_ItemOf"/* name */
 	, (methodPointerType)&XmlAttributeCollection_get_ItemOf_m10502/* method */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttribute_t671_0_0_0/* return_type */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlAttributeCollection_t673_XmlAttributeCollection_get_ItemOf_m10502_ParameterInfos/* parameters */
+	, XmlAttributeCollection_t674_XmlAttributeCollection_get_ItemOf_m10502_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -4540,7 +4540,7 @@ extern const MethodInfo XmlAttributeCollection_get_ItemOf_m10502_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo XmlAttributeCollection_t673_XmlAttributeCollection_get_ItemOf_m10503_ParameterInfos[] = 
+static const ParameterInfo XmlAttributeCollection_t674_XmlAttributeCollection_get_ItemOf_m10503_ParameterInfos[] = 
 {
 	{"i", 0, 134217889, 0, &Int32_t82_0_0_0},
 };
@@ -4550,10 +4550,10 @@ extern const MethodInfo XmlAttributeCollection_get_ItemOf_m10503_MethodInfo =
 {
 	"get_ItemOf"/* name */
 	, (methodPointerType)&XmlAttributeCollection_get_ItemOf_m10503/* method */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttribute_t671_0_0_0/* return_type */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
-	, XmlAttributeCollection_t673_XmlAttributeCollection_get_ItemOf_m10503_ParameterInfos/* parameters */
+	, XmlAttributeCollection_t674_XmlAttributeCollection_get_ItemOf_m10503_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -4567,10 +4567,10 @@ extern const MethodInfo XmlAttributeCollection_get_ItemOf_m10503_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlAttribute_t671_0_0_0;
-static const ParameterInfo XmlAttributeCollection_t673_XmlAttributeCollection_Append_m3506_ParameterInfos[] = 
+extern const Il2CppType XmlAttribute_t672_0_0_0;
+static const ParameterInfo XmlAttributeCollection_t674_XmlAttributeCollection_Append_m3506_ParameterInfos[] = 
 {
-	{"node", 0, 134217890, 0, &XmlAttribute_t671_0_0_0},
+	{"node", 0, 134217890, 0, &XmlAttribute_t672_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlAttribute System.Xml.XmlAttributeCollection::Append(System.Xml.XmlAttribute)
@@ -4578,10 +4578,10 @@ extern const MethodInfo XmlAttributeCollection_Append_m3506_MethodInfo =
 {
 	"Append"/* name */
 	, (methodPointerType)&XmlAttributeCollection_Append_m3506/* method */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttribute_t671_0_0_0/* return_type */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlAttributeCollection_t673_XmlAttributeCollection_Append_m3506_ParameterInfos/* parameters */
+	, XmlAttributeCollection_t674_XmlAttributeCollection_Append_m3506_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4595,10 +4595,10 @@ extern const MethodInfo XmlAttributeCollection_Append_m3506_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlAttribute_t671_0_0_0;
-static const ParameterInfo XmlAttributeCollection_t673_XmlAttributeCollection_Remove_m10504_ParameterInfos[] = 
+extern const Il2CppType XmlAttribute_t672_0_0_0;
+static const ParameterInfo XmlAttributeCollection_t674_XmlAttributeCollection_Remove_m10504_ParameterInfos[] = 
 {
-	{"node", 0, 134217891, 0, &XmlAttribute_t671_0_0_0},
+	{"node", 0, 134217891, 0, &XmlAttribute_t672_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlAttribute System.Xml.XmlAttributeCollection::Remove(System.Xml.XmlAttribute)
@@ -4606,10 +4606,10 @@ extern const MethodInfo XmlAttributeCollection_Remove_m10504_MethodInfo =
 {
 	"Remove"/* name */
 	, (methodPointerType)&XmlAttributeCollection_Remove_m10504/* method */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttribute_t671_0_0_0/* return_type */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlAttributeCollection_t673_XmlAttributeCollection_Remove_m10504_ParameterInfos/* parameters */
+	, XmlAttributeCollection_t674_XmlAttributeCollection_Remove_m10504_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4629,7 +4629,7 @@ extern const MethodInfo XmlAttributeCollection_RemoveAll_m10505_MethodInfo =
 {
 	"RemoveAll"/* name */
 	, (methodPointerType)&XmlAttributeCollection_RemoveAll_m10505/* method */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -4646,10 +4646,10 @@ extern const MethodInfo XmlAttributeCollection_RemoveAll_m10505_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlAttributeCollection_t673_XmlAttributeCollection_SetNamedItem_m10506_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlAttributeCollection_t674_XmlAttributeCollection_SetNamedItem_m10506_ParameterInfos[] = 
 {
-	{"node", 0, 134217892, 0, &XmlNode_t667_0_0_0},
+	{"node", 0, 134217892, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlNode System.Xml.XmlAttributeCollection::SetNamedItem(System.Xml.XmlNode)
@@ -4657,10 +4657,10 @@ extern const MethodInfo XmlAttributeCollection_SetNamedItem_m10506_MethodInfo =
 {
 	"SetNamedItem"/* name */
 	, (methodPointerType)&XmlAttributeCollection_SetNamedItem_m10506/* method */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlAttributeCollection_t673_XmlAttributeCollection_SetNamedItem_m10506_ParameterInfos/* parameters */
+	, XmlAttributeCollection_t674_XmlAttributeCollection_SetNamedItem_m10506_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -4674,12 +4674,12 @@ extern const MethodInfo XmlAttributeCollection_SetNamedItem_m10506_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlAttribute_t671_0_0_0;
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlAttributeCollection_t673_XmlAttributeCollection_AdjustIdenticalAttributes_m10507_ParameterInfos[] = 
+extern const Il2CppType XmlAttribute_t672_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlAttributeCollection_t674_XmlAttributeCollection_AdjustIdenticalAttributes_m10507_ParameterInfos[] = 
 {
-	{"node", 0, 134217893, 0, &XmlAttribute_t671_0_0_0},
-	{"existing", 1, 134217894, 0, &XmlNode_t667_0_0_0},
+	{"node", 0, 134217893, 0, &XmlAttribute_t672_0_0_0},
+	{"existing", 1, 134217894, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlAttributeCollection::AdjustIdenticalAttributes(System.Xml.XmlAttribute,System.Xml.XmlNode)
@@ -4687,10 +4687,10 @@ extern const MethodInfo XmlAttributeCollection_AdjustIdenticalAttributes_m10507_
 {
 	"AdjustIdenticalAttributes"/* name */
 	, (methodPointerType)&XmlAttributeCollection_AdjustIdenticalAttributes_m10507/* method */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, XmlAttributeCollection_t673_XmlAttributeCollection_AdjustIdenticalAttributes_m10507_ParameterInfos/* parameters */
+	, XmlAttributeCollection_t674_XmlAttributeCollection_AdjustIdenticalAttributes_m10507_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4704,10 +4704,10 @@ extern const MethodInfo XmlAttributeCollection_AdjustIdenticalAttributes_m10507_
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlAttributeCollection_t673_XmlAttributeCollection_RemoveIdenticalAttribute_m10508_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlAttributeCollection_t674_XmlAttributeCollection_RemoveIdenticalAttribute_m10508_ParameterInfos[] = 
 {
-	{"existing", 0, 134217895, 0, &XmlNode_t667_0_0_0},
+	{"existing", 0, 134217895, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlNode System.Xml.XmlAttributeCollection::RemoveIdenticalAttribute(System.Xml.XmlNode)
@@ -4715,10 +4715,10 @@ extern const MethodInfo XmlAttributeCollection_RemoveIdenticalAttribute_m10508_M
 {
 	"RemoveIdenticalAttribute"/* name */
 	, (methodPointerType)&XmlAttributeCollection_RemoveIdenticalAttribute_m10508/* method */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlAttributeCollection_t673_XmlAttributeCollection_RemoveIdenticalAttribute_m10508_ParameterInfos/* parameters */
+	, XmlAttributeCollection_t674_XmlAttributeCollection_RemoveIdenticalAttribute_m10508_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4732,7 +4732,7 @@ extern const MethodInfo XmlAttributeCollection_RemoveIdenticalAttribute_m10508_M
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlAttributeCollection_t673_MethodInfos[] =
+static const MethodInfo* XmlAttributeCollection_t674_MethodInfos[] =
 {
 	&XmlAttributeCollection__ctor_m10497_MethodInfo,
 	&XmlAttributeCollection_System_Collections_ICollection_get_IsSynchronized_m10498_MethodInfo,
@@ -4750,9 +4750,9 @@ static const MethodInfo* XmlAttributeCollection_t673_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo XmlAttributeCollection_System_Collections_ICollection_get_IsSynchronized_m10498_MethodInfo;
-static const PropertyInfo XmlAttributeCollection_t673____System_Collections_ICollection_IsSynchronized_PropertyInfo = 
+static const PropertyInfo XmlAttributeCollection_t674____System_Collections_ICollection_IsSynchronized_PropertyInfo = 
 {
-	&XmlAttributeCollection_t673_il2cpp_TypeInfo/* parent */
+	&XmlAttributeCollection_t674_il2cpp_TypeInfo/* parent */
 	, "System.Collections.ICollection.IsSynchronized"/* name */
 	, &XmlAttributeCollection_System_Collections_ICollection_get_IsSynchronized_m10498_MethodInfo/* get */
 	, NULL/* set */
@@ -4761,9 +4761,9 @@ static const PropertyInfo XmlAttributeCollection_t673____System_Collections_ICol
 
 };
 extern const MethodInfo XmlAttributeCollection_System_Collections_ICollection_get_SyncRoot_m10499_MethodInfo;
-static const PropertyInfo XmlAttributeCollection_t673____System_Collections_ICollection_SyncRoot_PropertyInfo = 
+static const PropertyInfo XmlAttributeCollection_t674____System_Collections_ICollection_SyncRoot_PropertyInfo = 
 {
-	&XmlAttributeCollection_t673_il2cpp_TypeInfo/* parent */
+	&XmlAttributeCollection_t674_il2cpp_TypeInfo/* parent */
 	, "System.Collections.ICollection.SyncRoot"/* name */
 	, &XmlAttributeCollection_System_Collections_ICollection_get_SyncRoot_m10499_MethodInfo/* get */
 	, NULL/* set */
@@ -4772,9 +4772,9 @@ static const PropertyInfo XmlAttributeCollection_t673____System_Collections_ICol
 
 };
 extern const MethodInfo XmlAttributeCollection_get_IsReadOnly_m10501_MethodInfo;
-static const PropertyInfo XmlAttributeCollection_t673____IsReadOnly_PropertyInfo = 
+static const PropertyInfo XmlAttributeCollection_t674____IsReadOnly_PropertyInfo = 
 {
-	&XmlAttributeCollection_t673_il2cpp_TypeInfo/* parent */
+	&XmlAttributeCollection_t674_il2cpp_TypeInfo/* parent */
 	, "IsReadOnly"/* name */
 	, &XmlAttributeCollection_get_IsReadOnly_m10501_MethodInfo/* get */
 	, NULL/* set */
@@ -4783,9 +4783,9 @@ static const PropertyInfo XmlAttributeCollection_t673____IsReadOnly_PropertyInfo
 
 };
 extern const MethodInfo XmlAttributeCollection_get_ItemOf_m10502_MethodInfo;
-static const PropertyInfo XmlAttributeCollection_t673____ItemOf_String_t_PropertyInfo = 
+static const PropertyInfo XmlAttributeCollection_t674____ItemOf_String_t_PropertyInfo = 
 {
-	&XmlAttributeCollection_t673_il2cpp_TypeInfo/* parent */
+	&XmlAttributeCollection_t674_il2cpp_TypeInfo/* parent */
 	, "ItemOf"/* name */
 	, &XmlAttributeCollection_get_ItemOf_m10502_MethodInfo/* get */
 	, NULL/* set */
@@ -4794,9 +4794,9 @@ static const PropertyInfo XmlAttributeCollection_t673____ItemOf_String_t_Propert
 
 };
 extern const MethodInfo XmlAttributeCollection_get_ItemOf_m10503_MethodInfo;
-static const PropertyInfo XmlAttributeCollection_t673____ItemOf_Int32_t82_PropertyInfo = 
+static const PropertyInfo XmlAttributeCollection_t674____ItemOf_Int32_t82_PropertyInfo = 
 {
-	&XmlAttributeCollection_t673_il2cpp_TypeInfo/* parent */
+	&XmlAttributeCollection_t674_il2cpp_TypeInfo/* parent */
 	, "ItemOf"/* name */
 	, &XmlAttributeCollection_get_ItemOf_m10503_MethodInfo/* get */
 	, NULL/* set */
@@ -4804,13 +4804,13 @@ static const PropertyInfo XmlAttributeCollection_t673____ItemOf_Int32_t82_Proper
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlAttributeCollection_t673_PropertyInfos[] =
+static const PropertyInfo* XmlAttributeCollection_t674_PropertyInfos[] =
 {
-	&XmlAttributeCollection_t673____System_Collections_ICollection_IsSynchronized_PropertyInfo,
-	&XmlAttributeCollection_t673____System_Collections_ICollection_SyncRoot_PropertyInfo,
-	&XmlAttributeCollection_t673____IsReadOnly_PropertyInfo,
-	&XmlAttributeCollection_t673____ItemOf_String_t_PropertyInfo,
-	&XmlAttributeCollection_t673____ItemOf_Int32_t82_PropertyInfo,
+	&XmlAttributeCollection_t674____System_Collections_ICollection_IsSynchronized_PropertyInfo,
+	&XmlAttributeCollection_t674____System_Collections_ICollection_SyncRoot_PropertyInfo,
+	&XmlAttributeCollection_t674____IsReadOnly_PropertyInfo,
+	&XmlAttributeCollection_t674____ItemOf_String_t_PropertyInfo,
+	&XmlAttributeCollection_t674____ItemOf_Int32_t82_PropertyInfo,
 	NULL
 };
 extern const MethodInfo XmlNamedNodeMap_GetEnumerator_m10748_MethodInfo;
@@ -4819,7 +4819,7 @@ extern const MethodInfo XmlNamedNodeMap_GetNamedItem_m10749_MethodInfo;
 extern const MethodInfo XmlNamedNodeMap_RemoveNamedItem_m10750_MethodInfo;
 extern const MethodInfo XmlAttributeCollection_SetNamedItem_m10506_MethodInfo;
 extern const MethodInfo XmlAttributeCollection_System_Collections_ICollection_CopyTo_m10500_MethodInfo;
-static const Il2CppMethodReference XmlAttributeCollection_t673_VTable[] =
+static const Il2CppMethodReference XmlAttributeCollection_t674_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -4836,7 +4836,7 @@ static const Il2CppMethodReference XmlAttributeCollection_t673_VTable[] =
 	&XmlAttributeCollection_System_Collections_ICollection_get_SyncRoot_m10499_MethodInfo,
 	&XmlAttributeCollection_System_Collections_ICollection_CopyTo_m10500_MethodInfo,
 };
-static bool XmlAttributeCollection_t673_VTableIsGenericMethod[] =
+static bool XmlAttributeCollection_t674_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -4853,50 +4853,50 @@ static bool XmlAttributeCollection_t673_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICollection_t704_0_0_0;
-static const Il2CppType* XmlAttributeCollection_t673_InterfacesTypeInfos[] = 
+extern const Il2CppType ICollection_t705_0_0_0;
+static const Il2CppType* XmlAttributeCollection_t674_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 };
-static Il2CppInterfaceOffsetPair XmlAttributeCollection_t673_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlAttributeCollection_t674_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 10},
+	{ &ICollection_t705_0_0_0, 10},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlAttributeCollection_t673_0_0_0;
-extern const Il2CppType XmlAttributeCollection_t673_1_0_0;
+extern const Il2CppType XmlAttributeCollection_t674_0_0_0;
+extern const Il2CppType XmlAttributeCollection_t674_1_0_0;
 extern const Il2CppType XmlNamedNodeMap_t3166_0_0_0;
-struct XmlAttributeCollection_t673;
-const Il2CppTypeDefinitionMetadata XmlAttributeCollection_t673_DefinitionMetadata = 
+struct XmlAttributeCollection_t674;
+const Il2CppTypeDefinitionMetadata XmlAttributeCollection_t674_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, XmlAttributeCollection_t673_InterfacesTypeInfos/* implementedInterfaces */
-	, XmlAttributeCollection_t673_InterfacesOffsets/* interfaceOffsets */
+	, XmlAttributeCollection_t674_InterfacesTypeInfos/* implementedInterfaces */
+	, XmlAttributeCollection_t674_InterfacesOffsets/* interfaceOffsets */
 	, &XmlNamedNodeMap_t3166_0_0_0/* parent */
-	, XmlAttributeCollection_t673_VTable/* vtableMethods */
-	, XmlAttributeCollection_t673_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlAttributeCollection_t674_VTable/* vtableMethods */
+	, XmlAttributeCollection_t674_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 321/* fieldStart */
 
 };
-TypeInfo XmlAttributeCollection_t673_il2cpp_TypeInfo = 
+TypeInfo XmlAttributeCollection_t674_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlAttributeCollection"/* name */
 	, "System.Xml"/* namespaze */
-	, XmlAttributeCollection_t673_MethodInfos/* methods */
-	, XmlAttributeCollection_t673_PropertyInfos/* properties */
+	, XmlAttributeCollection_t674_MethodInfos/* methods */
+	, XmlAttributeCollection_t674_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlAttributeCollection_t673_il2cpp_TypeInfo/* element_class */
+	, &XmlAttributeCollection_t674_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 50/* custom_attributes_cache */
-	, &XmlAttributeCollection_t673_0_0_0/* byval_arg */
-	, &XmlAttributeCollection_t673_1_0_0/* this_arg */
-	, &XmlAttributeCollection_t673_DefinitionMetadata/* definitionMetadata */
+	, &XmlAttributeCollection_t674_0_0_0/* byval_arg */
+	, &XmlAttributeCollection_t674_1_0_0/* this_arg */
+	, &XmlAttributeCollection_t674_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4906,8 +4906,8 @@ TypeInfo XmlAttributeCollection_t673_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlAttributeCollection_t673)/* instance_size */
-	, sizeof (XmlAttributeCollection_t673)/* actualSize */
+	, sizeof (XmlAttributeCollection_t674)/* instance_size */
+	, sizeof (XmlAttributeCollection_t674)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4943,11 +4943,11 @@ extern TypeInfo XmlCDataSection_t3167_il2cpp_TypeInfo;
 // System.Xml.XmlCDataSection
 #include "System_Xml_System_Xml_XmlCDataSectionMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlCDataSection_t3167_XmlCDataSection__ctor_m10509_ParameterInfos[] = 
 {
 	{"data", 0, 134217896, 0, &String_t_0_0_0},
-	{"doc", 1, 134217897, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 1, 134217897, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlCDataSection::.ctor(System.String,System.Xml.XmlDocument)
@@ -5048,7 +5048,7 @@ extern const MethodInfo XmlCDataSection_get_ParentNode_m10513_MethodInfo =
 	"get_ParentNode"/* name */
 	, (methodPointerType)&XmlCDataSection_get_ParentNode_m10513/* method */
 	, &XmlCDataSection_t3167_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -5076,7 +5076,7 @@ extern const MethodInfo XmlCDataSection_CloneNode_m10514_MethodInfo =
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlCDataSection_CloneNode_m10514/* method */
 	, &XmlCDataSection_t3167_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
 	, XmlCDataSection_t3167_XmlCDataSection_CloneNode_m10514_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -5253,7 +5253,7 @@ static bool XmlCDataSection_t3167_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair XmlCDataSection_t3167_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
@@ -5527,13 +5527,13 @@ extern const MethodInfo XmlChar_IndexOfInvalid_m10521_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 static const ParameterInfo XmlChar_t3170_XmlChar_IndexOfInvalid_m10522_ParameterInfos[] = 
 {
-	{"s", 0, 134217906, 0, &CharU5BU5D_t660_0_0_0},
+	{"s", 0, 134217906, 0, &CharU5BU5D_t661_0_0_0},
 	{"start", 1, 134217907, 0, &Int32_t82_0_0_0},
 	{"length", 2, 134217908, 0, &Int32_t82_0_0_0},
 	{"allowSurrogate", 3, 134217909, 0, &Boolean_t59_0_0_0},
@@ -5810,11 +5810,11 @@ extern TypeInfo XmlCharacterData_t3168_il2cpp_TypeInfo;
 // System.Xml.XmlCharacterData
 #include "System_Xml_System_Xml_XmlCharacterDataMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlCharacterData_t3168_XmlCharacterData__ctor_m10528_ParameterInfos[] = 
 {
 	{"data", 0, 134217915, 0, &String_t_0_0_0},
-	{"doc", 1, 134217916, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 1, 134217916, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlCharacterData::.ctor(System.String,System.Xml.XmlDocument)
@@ -6093,7 +6093,7 @@ static bool XmlCharacterData_t3168_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair XmlCharacterData_t3168_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
@@ -6173,11 +6173,11 @@ extern TypeInfo XmlComment_t3171_il2cpp_TypeInfo;
 // System.Xml.XmlComment
 #include "System_Xml_System_Xml_XmlCommentMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlComment_t3171_XmlComment__ctor_m10534_ParameterInfos[] = 
 {
 	{"comment", 0, 134217919, 0, &String_t_0_0_0},
-	{"doc", 1, 134217920, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 1, 134217920, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlComment::.ctor(System.String,System.Xml.XmlDocument)
@@ -6283,7 +6283,7 @@ extern const MethodInfo XmlComment_CloneNode_m10538_MethodInfo =
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlComment_CloneNode_m10538/* method */
 	, &XmlComment_t3171_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
 	, XmlComment_t3171_XmlComment_CloneNode_m10538_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6430,7 +6430,7 @@ static bool XmlComment_t3171_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair XmlComment_t3171_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
@@ -6661,13 +6661,13 @@ extern TypeInfo XmlDeclaration_t3173_il2cpp_TypeInfo;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlDeclaration_t3173_XmlDeclaration__ctor_m10541_ParameterInfos[] = 
 {
 	{"version", 0, 134217923, 0, &String_t_0_0_0},
 	{"encoding", 1, 134217924, 0, &String_t_0_0_0},
 	{"standalone", 2, 134217925, 0, &String_t_0_0_0},
-	{"doc", 3, 134217926, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 3, 134217926, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlDeclaration::.ctor(System.String,System.String,System.String,System.Xml.XmlDocument)
@@ -6972,7 +6972,7 @@ extern const MethodInfo XmlDeclaration_CloneNode_m10553_MethodInfo =
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlDeclaration_CloneNode_m10553/* method */
 	, &XmlDeclaration_t3173_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
 	, XmlDeclaration_t3173_XmlDeclaration_CloneNode_m10553_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -7246,7 +7246,7 @@ static bool XmlDeclaration_t3173_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair XmlDeclaration_t3173_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
@@ -7323,7 +7323,7 @@ TypeInfo XmlDeclaration_t3173_il2cpp_TypeInfo =
 // System.Xml.XmlDocument
 #include "System_Xml_System_Xml_XmlDocument.h"
 // Metadata Definition System.Xml.XmlDocument
-extern TypeInfo XmlDocument_t630_il2cpp_TypeInfo;
+extern TypeInfo XmlDocument_t631_il2cpp_TypeInfo;
 // System.Xml.XmlDocument
 #include "System_Xml_System_Xml_XmlDocumentMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -7332,7 +7332,7 @@ extern const MethodInfo XmlDocument__ctor_m10556_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&XmlDocument__ctor_m10556/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -7351,7 +7351,7 @@ extern const MethodInfo XmlDocument__ctor_m10556_MethodInfo =
 };
 extern const Il2CppType XmlImplementation_t3174_0_0_0;
 extern const Il2CppType XmlImplementation_t3174_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument__ctor_m10557_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument__ctor_m10557_ParameterInfos[] = 
 {
 	{"imp", 0, 134217934, 0, &XmlImplementation_t3174_0_0_0},
 };
@@ -7361,10 +7361,10 @@ extern const MethodInfo XmlDocument__ctor_m10557_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&XmlDocument__ctor_m10557/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument__ctor_m10557_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument__ctor_m10557_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6277/* flags */
 	, 0/* iflags */
@@ -7380,7 +7380,7 @@ extern const MethodInfo XmlDocument__ctor_m10557_MethodInfo =
 };
 extern const Il2CppType XmlImplementation_t3174_0_0_0;
 extern const Il2CppType XmlNameTable_t3133_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument__ctor_m10558_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument__ctor_m10558_ParameterInfos[] = 
 {
 	{"impl", 0, 134217935, 0, &XmlImplementation_t3174_0_0_0},
 	{"nt", 1, 134217936, 0, &XmlNameTable_t3133_0_0_0},
@@ -7391,10 +7391,10 @@ extern const MethodInfo XmlDocument__ctor_m10558_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&XmlDocument__ctor_m10558/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument__ctor_m10558_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument__ctor_m10558_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6273/* flags */
 	, 0/* iflags */
@@ -7414,7 +7414,7 @@ extern const MethodInfo XmlDocument__cctor_m10559_MethodInfo =
 {
 	".cctor"/* name */
 	, (methodPointerType)&XmlDocument__cctor_m10559/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -7437,7 +7437,7 @@ extern const MethodInfo XmlDocument_System_Xml_IHasXmlChildNode_get_LastLinkedCh
 {
 	"System.Xml.IHasXmlChildNode.get_LastLinkedChild"/* name */
 	, (methodPointerType)&XmlDocument_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10560/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlLinkedNode_t3164_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -7455,7 +7455,7 @@ extern const MethodInfo XmlDocument_System_Xml_IHasXmlChildNode_get_LastLinkedCh
 
 };
 extern const Il2CppType XmlLinkedNode_t3164_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10561_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10561_ParameterInfos[] = 
 {
 	{"value", 0, 134217937, 0, &XmlLinkedNode_t3164_0_0_0},
 };
@@ -7465,10 +7465,10 @@ extern const MethodInfo XmlDocument_System_Xml_IHasXmlChildNode_set_LastLinkedCh
 {
 	"System.Xml.IHasXmlChildNode.set_LastLinkedChild"/* name */
 	, (methodPointerType)&XmlDocument_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10561/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10561_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10561_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
@@ -7488,7 +7488,7 @@ extern const MethodInfo XmlDocument_get_BaseURI_m10562_MethodInfo =
 {
 	"get_BaseURI"/* name */
 	, (methodPointerType)&XmlDocument_get_BaseURI_m10562/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -7511,8 +7511,8 @@ extern const MethodInfo XmlDocument_get_DocumentElement_m10563_MethodInfo =
 {
 	"get_DocumentElement"/* name */
 	, (methodPointerType)&XmlDocument_get_DocumentElement_m10563/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlElement_t631_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -7535,7 +7535,7 @@ extern const MethodInfo XmlDocument_get_DocumentType_m10564_MethodInfo =
 {
 	"get_DocumentType"/* name */
 	, (methodPointerType)&XmlDocument_get_DocumentType_m10564/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlDocumentType_t3178_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -7558,7 +7558,7 @@ extern const MethodInfo XmlDocument_get_IsReadOnly_m10565_MethodInfo =
 {
 	"get_IsReadOnly"/* name */
 	, (methodPointerType)&XmlDocument_get_IsReadOnly_m10565/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -7581,7 +7581,7 @@ extern const MethodInfo XmlDocument_get_LocalName_m10566_MethodInfo =
 {
 	"get_LocalName"/* name */
 	, (methodPointerType)&XmlDocument_get_LocalName_m10566/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -7604,7 +7604,7 @@ extern const MethodInfo XmlDocument_get_Name_m10567_MethodInfo =
 {
 	"get_Name"/* name */
 	, (methodPointerType)&XmlDocument_get_Name_m10567/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -7628,7 +7628,7 @@ extern const MethodInfo XmlDocument_get_NameCache_m10568_MethodInfo =
 {
 	"get_NameCache"/* name */
 	, (methodPointerType)&XmlDocument_get_NameCache_m10568/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlNameEntryCache_t3175_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -7651,7 +7651,7 @@ extern const MethodInfo XmlDocument_get_NameTable_m10569_MethodInfo =
 {
 	"get_NameTable"/* name */
 	, (methodPointerType)&XmlDocument_get_NameTable_m10569/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlNameTable_t3133_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -7674,7 +7674,7 @@ extern const MethodInfo XmlDocument_get_NodeType_m10570_MethodInfo =
 {
 	"get_NodeType"/* name */
 	, (methodPointerType)&XmlDocument_get_NodeType_m10570/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlNodeType_t3200_0_0_0/* return_type */
 	, RuntimeInvoker_XmlNodeType_t3200/* invoker_method */
 	, NULL/* parameters */
@@ -7697,8 +7697,8 @@ extern const MethodInfo XmlDocument_get_OwnerDocument_m10571_MethodInfo =
 {
 	"get_OwnerDocument"/* name */
 	, (methodPointerType)&XmlDocument_get_OwnerDocument_m10571/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlDocument_t630_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -7720,7 +7720,7 @@ extern const MethodInfo XmlDocument_get_PreserveWhitespace_m10572_MethodInfo =
 {
 	"get_PreserveWhitespace"/* name */
 	, (methodPointerType)&XmlDocument_get_PreserveWhitespace_m10572/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -7744,7 +7744,7 @@ extern const MethodInfo XmlDocument_get_Resolver_m10573_MethodInfo =
 {
 	"get_Resolver"/* name */
 	, (methodPointerType)&XmlDocument_get_Resolver_m10573/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlResolver_t3132_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -7767,7 +7767,7 @@ extern const MethodInfo XmlDocument_get_XmlLang_m10574_MethodInfo =
 {
 	"get_XmlLang"/* name */
 	, (methodPointerType)&XmlDocument_get_XmlLang_m10574/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -7790,7 +7790,7 @@ extern const MethodInfo XmlDocument_get_XmlSpace_m10575_MethodInfo =
 {
 	"get_XmlSpace"/* name */
 	, (methodPointerType)&XmlDocument_get_XmlSpace_m10575/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSpace_t3212_0_0_0/* return_type */
 	, RuntimeInvoker_XmlSpace_t3212/* invoker_method */
 	, NULL/* parameters */
@@ -7813,8 +7813,8 @@ extern const MethodInfo XmlDocument_get_ParentNode_m10576_MethodInfo =
 {
 	"get_ParentNode"/* name */
 	, (methodPointerType)&XmlDocument_get_ParentNode_m10576/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -7831,7 +7831,7 @@ extern const MethodInfo XmlDocument_get_ParentNode_m10576_MethodInfo =
 
 };
 extern const Il2CppType IXmlSchemaInfo_t3165_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_set_SchemaInfo_m10577_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_set_SchemaInfo_m10577_ParameterInfos[] = 
 {
 	{"value", 0, 134217938, 0, &IXmlSchemaInfo_t3165_0_0_0},
 };
@@ -7841,10 +7841,10 @@ extern const MethodInfo XmlDocument_set_SchemaInfo_m10577_MethodInfo =
 {
 	"set_SchemaInfo"/* name */
 	, (methodPointerType)&XmlDocument_set_SchemaInfo_m10577/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_set_SchemaInfo_m10577_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_set_SchemaInfo_m10577_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2243/* flags */
 	, 0/* iflags */
@@ -7858,10 +7858,10 @@ extern const MethodInfo XmlDocument_set_SchemaInfo_m10577_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlAttribute_t671_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_AddIdenticalAttribute_m10578_ParameterInfos[] = 
+extern const Il2CppType XmlAttribute_t672_0_0_0;
+static const ParameterInfo XmlDocument_t631_XmlDocument_AddIdenticalAttribute_m10578_ParameterInfos[] = 
 {
-	{"attr", 0, 134217939, 0, &XmlAttribute_t671_0_0_0},
+	{"attr", 0, 134217939, 0, &XmlAttribute_t672_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlDocument::AddIdenticalAttribute(System.Xml.XmlAttribute)
@@ -7869,10 +7869,10 @@ extern const MethodInfo XmlDocument_AddIdenticalAttribute_m10578_MethodInfo =
 {
 	"AddIdenticalAttribute"/* name */
 	, (methodPointerType)&XmlDocument_AddIdenticalAttribute_m10578/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_AddIdenticalAttribute_m10578_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_AddIdenticalAttribute_m10578_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -7887,7 +7887,7 @@ extern const MethodInfo XmlDocument_AddIdenticalAttribute_m10578_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CloneNode_m10579_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CloneNode_m10579_ParameterInfos[] = 
 {
 	{"deep", 0, 134217940, 0, &Boolean_t59_0_0_0},
 };
@@ -7897,10 +7897,10 @@ extern const MethodInfo XmlDocument_CloneNode_m10579_MethodInfo =
 {
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlDocument_CloneNode_m10579/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CloneNode_m10579_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CloneNode_m10579_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -7915,7 +7915,7 @@ extern const MethodInfo XmlDocument_CloneNode_m10579_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateAttribute_m3505_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateAttribute_m3505_ParameterInfos[] = 
 {
 	{"name", 0, 134217941, 0, &String_t_0_0_0},
 };
@@ -7925,10 +7925,10 @@ extern const MethodInfo XmlDocument_CreateAttribute_m3505_MethodInfo =
 {
 	"CreateAttribute"/* name */
 	, (methodPointerType)&XmlDocument_CreateAttribute_m3505/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttribute_t671_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateAttribute_m3505_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateAttribute_m3505_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -7945,7 +7945,7 @@ extern const MethodInfo XmlDocument_CreateAttribute_m3505_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateAttribute_m10580_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateAttribute_m10580_ParameterInfos[] = 
 {
 	{"prefix", 0, 134217942, 0, &String_t_0_0_0},
 	{"localName", 1, 134217943, 0, &String_t_0_0_0},
@@ -7957,10 +7957,10 @@ extern const MethodInfo XmlDocument_CreateAttribute_m10580_MethodInfo =
 {
 	"CreateAttribute"/* name */
 	, (methodPointerType)&XmlDocument_CreateAttribute_m10580/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttribute_t671_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateAttribute_m10580_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateAttribute_m10580_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -7979,7 +7979,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateAttribute_m10581_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateAttribute_m10581_ParameterInfos[] = 
 {
 	{"prefix", 0, 134217945, 0, &String_t_0_0_0},
 	{"localName", 1, 134217946, 0, &String_t_0_0_0},
@@ -7993,10 +7993,10 @@ extern const MethodInfo XmlDocument_CreateAttribute_m10581_MethodInfo =
 {
 	"CreateAttribute"/* name */
 	, (methodPointerType)&XmlDocument_CreateAttribute_m10581/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttribute_t671_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_SByte_t88_SByte_t88/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateAttribute_m10581_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateAttribute_m10581_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8011,7 +8011,7 @@ extern const MethodInfo XmlDocument_CreateAttribute_m10581_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateCDataSection_m10582_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateCDataSection_m10582_ParameterInfos[] = 
 {
 	{"data", 0, 134217950, 0, &String_t_0_0_0},
 };
@@ -8021,10 +8021,10 @@ extern const MethodInfo XmlDocument_CreateCDataSection_m10582_MethodInfo =
 {
 	"CreateCDataSection"/* name */
 	, (methodPointerType)&XmlDocument_CreateCDataSection_m10582/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlCDataSection_t3167_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateCDataSection_m10582_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateCDataSection_m10582_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -8039,7 +8039,7 @@ extern const MethodInfo XmlDocument_CreateCDataSection_m10582_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateComment_m10583_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateComment_m10583_ParameterInfos[] = 
 {
 	{"data", 0, 134217951, 0, &String_t_0_0_0},
 };
@@ -8049,10 +8049,10 @@ extern const MethodInfo XmlDocument_CreateComment_m10583_MethodInfo =
 {
 	"CreateComment"/* name */
 	, (methodPointerType)&XmlDocument_CreateComment_m10583/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlComment_t3171_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateComment_m10583_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateComment_m10583_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -8073,7 +8073,7 @@ extern const MethodInfo XmlDocument_CreateDocumentFragment_m10584_MethodInfo =
 {
 	"CreateDocumentFragment"/* name */
 	, (methodPointerType)&XmlDocument_CreateDocumentFragment_m10584/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlDocumentFragment_t3177_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -8094,7 +8094,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateDocumentType_m10585_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateDocumentType_m10585_ParameterInfos[] = 
 {
 	{"name", 0, 134217952, 0, &String_t_0_0_0},
 	{"publicId", 1, 134217953, 0, &String_t_0_0_0},
@@ -8107,10 +8107,10 @@ extern const MethodInfo XmlDocument_CreateDocumentType_m10585_MethodInfo =
 {
 	"CreateDocumentType"/* name */
 	, (methodPointerType)&XmlDocument_CreateDocumentType_m10585/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlDocumentType_t3178_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateDocumentType_m10585_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateDocumentType_m10585_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -8125,7 +8125,7 @@ extern const MethodInfo XmlDocument_CreateDocumentType_m10585_MethodInfo =
 
 };
 extern const Il2CppType DTDObjectModel_t3125_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateDocumentType_m10586_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateDocumentType_m10586_ParameterInfos[] = 
 {
 	{"dtd", 0, 134217956, 0, &DTDObjectModel_t3125_0_0_0},
 };
@@ -8135,10 +8135,10 @@ extern const MethodInfo XmlDocument_CreateDocumentType_m10586_MethodInfo =
 {
 	"CreateDocumentType"/* name */
 	, (methodPointerType)&XmlDocument_CreateDocumentType_m10586/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlDocumentType_t3178_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateDocumentType_m10586_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateDocumentType_m10586_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8153,7 +8153,7 @@ extern const MethodInfo XmlDocument_CreateDocumentType_m10586_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateElement_m3493_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateElement_m3493_ParameterInfos[] = 
 {
 	{"name", 0, 134217957, 0, &String_t_0_0_0},
 };
@@ -8163,10 +8163,10 @@ extern const MethodInfo XmlDocument_CreateElement_m3493_MethodInfo =
 {
 	"CreateElement"/* name */
 	, (methodPointerType)&XmlDocument_CreateElement_m3493/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlElement_t631_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateElement_m3493_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateElement_m3493_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8182,7 +8182,7 @@ extern const MethodInfo XmlDocument_CreateElement_m3493_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateElement_m10587_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateElement_m10587_ParameterInfos[] = 
 {
 	{"qualifiedName", 0, 134217958, 0, &String_t_0_0_0},
 	{"namespaceURI", 1, 134217959, 0, &String_t_0_0_0},
@@ -8193,10 +8193,10 @@ extern const MethodInfo XmlDocument_CreateElement_m10587_MethodInfo =
 {
 	"CreateElement"/* name */
 	, (methodPointerType)&XmlDocument_CreateElement_m10587/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlElement_t631_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateElement_m10587_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateElement_m10587_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8213,7 +8213,7 @@ extern const MethodInfo XmlDocument_CreateElement_m10587_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateElement_m10588_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateElement_m10588_ParameterInfos[] = 
 {
 	{"prefix", 0, 134217960, 0, &String_t_0_0_0},
 	{"localName", 1, 134217961, 0, &String_t_0_0_0},
@@ -8225,10 +8225,10 @@ extern const MethodInfo XmlDocument_CreateElement_m10588_MethodInfo =
 {
 	"CreateElement"/* name */
 	, (methodPointerType)&XmlDocument_CreateElement_m10588/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlElement_t631_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateElement_m10588_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateElement_m10588_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -8246,7 +8246,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateElement_m10589_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateElement_m10589_ParameterInfos[] = 
 {
 	{"prefix", 0, 134217963, 0, &String_t_0_0_0},
 	{"localName", 1, 134217964, 0, &String_t_0_0_0},
@@ -8259,10 +8259,10 @@ extern const MethodInfo XmlDocument_CreateElement_m10589_MethodInfo =
 {
 	"CreateElement"/* name */
 	, (methodPointerType)&XmlDocument_CreateElement_m10589/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlElement_t631_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_SByte_t88/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateElement_m10589_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateElement_m10589_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8277,7 +8277,7 @@ extern const MethodInfo XmlDocument_CreateElement_m10589_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateEntityReference_m10590_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateEntityReference_m10590_ParameterInfos[] = 
 {
 	{"name", 0, 134217967, 0, &String_t_0_0_0},
 };
@@ -8288,10 +8288,10 @@ extern const MethodInfo XmlDocument_CreateEntityReference_m10590_MethodInfo =
 {
 	"CreateEntityReference"/* name */
 	, (methodPointerType)&XmlDocument_CreateEntityReference_m10590/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlEntityReference_t3180_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateEntityReference_m10590_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateEntityReference_m10590_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -8307,7 +8307,7 @@ extern const MethodInfo XmlDocument_CreateEntityReference_m10590_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateProcessingInstruction_m10591_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateProcessingInstruction_m10591_ParameterInfos[] = 
 {
 	{"target", 0, 134217968, 0, &String_t_0_0_0},
 	{"data", 1, 134217969, 0, &String_t_0_0_0},
@@ -8319,10 +8319,10 @@ extern const MethodInfo XmlDocument_CreateProcessingInstruction_m10591_MethodInf
 {
 	"CreateProcessingInstruction"/* name */
 	, (methodPointerType)&XmlDocument_CreateProcessingInstruction_m10591/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlProcessingInstruction_t3205_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateProcessingInstruction_m10591_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateProcessingInstruction_m10591_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -8337,7 +8337,7 @@ extern const MethodInfo XmlDocument_CreateProcessingInstruction_m10591_MethodInf
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateSignificantWhitespace_m10592_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateSignificantWhitespace_m10592_ParameterInfos[] = 
 {
 	{"text", 0, 134217970, 0, &String_t_0_0_0},
 };
@@ -8348,10 +8348,10 @@ extern const MethodInfo XmlDocument_CreateSignificantWhitespace_m10592_MethodInf
 {
 	"CreateSignificantWhitespace"/* name */
 	, (methodPointerType)&XmlDocument_CreateSignificantWhitespace_m10592/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSignificantWhitespace_t3211_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateSignificantWhitespace_m10592_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateSignificantWhitespace_m10592_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -8366,7 +8366,7 @@ extern const MethodInfo XmlDocument_CreateSignificantWhitespace_m10592_MethodInf
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateTextNode_m10593_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateTextNode_m10593_ParameterInfos[] = 
 {
 	{"text", 0, 134217971, 0, &String_t_0_0_0},
 };
@@ -8377,10 +8377,10 @@ extern const MethodInfo XmlDocument_CreateTextNode_m10593_MethodInfo =
 {
 	"CreateTextNode"/* name */
 	, (methodPointerType)&XmlDocument_CreateTextNode_m10593/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlText_t3213_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateTextNode_m10593_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateTextNode_m10593_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -8395,7 +8395,7 @@ extern const MethodInfo XmlDocument_CreateTextNode_m10593_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateWhitespace_m10594_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateWhitespace_m10594_ParameterInfos[] = 
 {
 	{"text", 0, 134217972, 0, &String_t_0_0_0},
 };
@@ -8406,10 +8406,10 @@ extern const MethodInfo XmlDocument_CreateWhitespace_m10594_MethodInfo =
 {
 	"CreateWhitespace"/* name */
 	, (methodPointerType)&XmlDocument_CreateWhitespace_m10594/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlWhitespace_t3237_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateWhitespace_m10594_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateWhitespace_m10594_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -8426,7 +8426,7 @@ extern const MethodInfo XmlDocument_CreateWhitespace_m10594_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CreateXmlDeclaration_m10595_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CreateXmlDeclaration_m10595_ParameterInfos[] = 
 {
 	{"version", 0, 134217973, 0, &String_t_0_0_0},
 	{"encoding", 1, 134217974, 0, &String_t_0_0_0},
@@ -8438,10 +8438,10 @@ extern const MethodInfo XmlDocument_CreateXmlDeclaration_m10595_MethodInfo =
 {
 	"CreateXmlDeclaration"/* name */
 	, (methodPointerType)&XmlDocument_CreateXmlDeclaration_m10595/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &XmlDeclaration_t3173_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CreateXmlDeclaration_m10595_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CreateXmlDeclaration_m10595_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -8456,7 +8456,7 @@ extern const MethodInfo XmlDocument_CreateXmlDeclaration_m10595_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_GetIdenticalAttribute_m10596_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_GetIdenticalAttribute_m10596_ParameterInfos[] = 
 {
 	{"id", 0, 134217976, 0, &String_t_0_0_0},
 };
@@ -8466,10 +8466,10 @@ extern const MethodInfo XmlDocument_GetIdenticalAttribute_m10596_MethodInfo =
 {
 	"GetIdenticalAttribute"/* name */
 	, (methodPointerType)&XmlDocument_GetIdenticalAttribute_m10596/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttribute_t671_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_GetIdenticalAttribute_m10596_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_GetIdenticalAttribute_m10596_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8483,11 +8483,11 @@ extern const MethodInfo XmlDocument_GetIdenticalAttribute_m10596_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_ImportNode_m10597_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_ImportNode_m10597_ParameterInfos[] = 
 {
-	{"node", 0, 134217977, 0, &XmlNode_t667_0_0_0},
+	{"node", 0, 134217977, 0, &XmlNode_t668_0_0_0},
 	{"deep", 1, 134217978, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -8496,10 +8496,10 @@ extern const MethodInfo XmlDocument_ImportNode_m10597_MethodInfo =
 {
 	"ImportNode"/* name */
 	, (methodPointerType)&XmlDocument_ImportNode_m10597/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88/* invoker_method */
-	, XmlDocument_t630_XmlDocument_ImportNode_m10597_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_ImportNode_m10597_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -8513,14 +8513,14 @@ extern const MethodInfo XmlDocument_ImportNode_m10597_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-extern const Il2CppType XmlNode_t667_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_onNodeChanged_m10598_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_onNodeChanged_m10598_ParameterInfos[] = 
 {
-	{"node", 0, 134217979, 0, &XmlNode_t667_0_0_0},
-	{"parent", 1, 134217980, 0, &XmlNode_t667_0_0_0},
+	{"node", 0, 134217979, 0, &XmlNode_t668_0_0_0},
+	{"parent", 1, 134217980, 0, &XmlNode_t668_0_0_0},
 	{"oldValue", 2, 134217981, 0, &String_t_0_0_0},
 	{"newValue", 3, 134217982, 0, &String_t_0_0_0},
 };
@@ -8530,10 +8530,10 @@ extern const MethodInfo XmlDocument_onNodeChanged_m10598_MethodInfo =
 {
 	"onNodeChanged"/* name */
 	, (methodPointerType)&XmlDocument_onNodeChanged_m10598/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_onNodeChanged_m10598_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_onNodeChanged_m10598_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8547,14 +8547,14 @@ extern const MethodInfo XmlDocument_onNodeChanged_m10598_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-extern const Il2CppType XmlNode_t667_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_onNodeChanging_m10599_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_onNodeChanging_m10599_ParameterInfos[] = 
 {
-	{"node", 0, 134217983, 0, &XmlNode_t667_0_0_0},
-	{"parent", 1, 134217984, 0, &XmlNode_t667_0_0_0},
+	{"node", 0, 134217983, 0, &XmlNode_t668_0_0_0},
+	{"parent", 1, 134217984, 0, &XmlNode_t668_0_0_0},
 	{"oldValue", 2, 134217985, 0, &String_t_0_0_0},
 	{"newValue", 3, 134217986, 0, &String_t_0_0_0},
 };
@@ -8564,10 +8564,10 @@ extern const MethodInfo XmlDocument_onNodeChanging_m10599_MethodInfo =
 {
 	"onNodeChanging"/* name */
 	, (methodPointerType)&XmlDocument_onNodeChanging_m10599/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_onNodeChanging_m10599_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_onNodeChanging_m10599_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8581,12 +8581,12 @@ extern const MethodInfo XmlDocument_onNodeChanging_m10599_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_onNodeInserted_m10600_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlDocument_t631_XmlDocument_onNodeInserted_m10600_ParameterInfos[] = 
 {
-	{"node", 0, 134217987, 0, &XmlNode_t667_0_0_0},
-	{"newParent", 1, 134217988, 0, &XmlNode_t667_0_0_0},
+	{"node", 0, 134217987, 0, &XmlNode_t668_0_0_0},
+	{"newParent", 1, 134217988, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlDocument::onNodeInserted(System.Xml.XmlNode,System.Xml.XmlNode)
@@ -8594,10 +8594,10 @@ extern const MethodInfo XmlDocument_onNodeInserted_m10600_MethodInfo =
 {
 	"onNodeInserted"/* name */
 	, (methodPointerType)&XmlDocument_onNodeInserted_m10600/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_onNodeInserted_m10600_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_onNodeInserted_m10600_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8611,12 +8611,12 @@ extern const MethodInfo XmlDocument_onNodeInserted_m10600_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_onNodeInserting_m10601_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlDocument_t631_XmlDocument_onNodeInserting_m10601_ParameterInfos[] = 
 {
-	{"node", 0, 134217989, 0, &XmlNode_t667_0_0_0},
-	{"newParent", 1, 134217990, 0, &XmlNode_t667_0_0_0},
+	{"node", 0, 134217989, 0, &XmlNode_t668_0_0_0},
+	{"newParent", 1, 134217990, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlDocument::onNodeInserting(System.Xml.XmlNode,System.Xml.XmlNode)
@@ -8624,10 +8624,10 @@ extern const MethodInfo XmlDocument_onNodeInserting_m10601_MethodInfo =
 {
 	"onNodeInserting"/* name */
 	, (methodPointerType)&XmlDocument_onNodeInserting_m10601/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_onNodeInserting_m10601_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_onNodeInserting_m10601_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8641,12 +8641,12 @@ extern const MethodInfo XmlDocument_onNodeInserting_m10601_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_onNodeRemoved_m10602_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlDocument_t631_XmlDocument_onNodeRemoved_m10602_ParameterInfos[] = 
 {
-	{"node", 0, 134217991, 0, &XmlNode_t667_0_0_0},
-	{"oldParent", 1, 134217992, 0, &XmlNode_t667_0_0_0},
+	{"node", 0, 134217991, 0, &XmlNode_t668_0_0_0},
+	{"oldParent", 1, 134217992, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlDocument::onNodeRemoved(System.Xml.XmlNode,System.Xml.XmlNode)
@@ -8654,10 +8654,10 @@ extern const MethodInfo XmlDocument_onNodeRemoved_m10602_MethodInfo =
 {
 	"onNodeRemoved"/* name */
 	, (methodPointerType)&XmlDocument_onNodeRemoved_m10602/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_onNodeRemoved_m10602_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_onNodeRemoved_m10602_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8671,12 +8671,12 @@ extern const MethodInfo XmlDocument_onNodeRemoved_m10602_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_onNodeRemoving_m10603_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlDocument_t631_XmlDocument_onNodeRemoving_m10603_ParameterInfos[] = 
 {
-	{"node", 0, 134217993, 0, &XmlNode_t667_0_0_0},
-	{"oldParent", 1, 134217994, 0, &XmlNode_t667_0_0_0},
+	{"node", 0, 134217993, 0, &XmlNode_t668_0_0_0},
+	{"oldParent", 1, 134217994, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlDocument::onNodeRemoving(System.Xml.XmlNode,System.Xml.XmlNode)
@@ -8684,10 +8684,10 @@ extern const MethodInfo XmlDocument_onNodeRemoving_m10603_MethodInfo =
 {
 	"onNodeRemoving"/* name */
 	, (methodPointerType)&XmlDocument_onNodeRemoving_m10603/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_onNodeRemoving_m10603_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_onNodeRemoving_m10603_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8705,22 +8705,22 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_1_0_2;
 extern const Il2CppType String_t_1_0_0;
 extern const Il2CppType String_t_1_0_2;
-static const ParameterInfo XmlDocument_t630_XmlDocument_ParseName_m10604_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_ParseName_m10604_ParameterInfos[] = 
 {
 	{"name", 0, 134217995, 0, &String_t_0_0_0},
 	{"prefix", 1, 134217996, 0, &String_t_1_0_2},
 	{"localName", 2, 134217997, 0, &String_t_1_0_2},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StringU26_t756_StringU26_t756 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StringU26_t757_StringU26_t757 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlDocument::ParseName(System.String,System.String&,System.String&)
 extern const MethodInfo XmlDocument_ParseName_m10604_MethodInfo = 
 {
 	"ParseName"/* name */
 	, (methodPointerType)&XmlDocument_ParseName_m10604/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StringU26_t756_StringU26_t756/* invoker_method */
-	, XmlDocument_t630_XmlDocument_ParseName_m10604_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StringU26_t757_StringU26_t757/* invoker_method */
+	, XmlDocument_t631_XmlDocument_ParseName_m10604_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8736,7 +8736,7 @@ extern const MethodInfo XmlDocument_ParseName_m10604_MethodInfo =
 };
 extern const Il2CppType XmlReader_t3208_0_0_0;
 extern const Il2CppType XmlReader_t3208_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_ReadAttributeNode_m10605_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_ReadAttributeNode_m10605_ParameterInfos[] = 
 {
 	{"reader", 0, 134217998, 0, &XmlReader_t3208_0_0_0},
 };
@@ -8746,10 +8746,10 @@ extern const MethodInfo XmlDocument_ReadAttributeNode_m10605_MethodInfo =
 {
 	"ReadAttributeNode"/* name */
 	, (methodPointerType)&XmlDocument_ReadAttributeNode_m10605/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttribute_t671_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_ReadAttributeNode_m10605_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_ReadAttributeNode_m10605_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8764,11 +8764,11 @@ extern const MethodInfo XmlDocument_ReadAttributeNode_m10605_MethodInfo =
 
 };
 extern const Il2CppType XmlReader_t3208_0_0_0;
-extern const Il2CppType XmlAttribute_t671_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_ReadAttributeNodeValue_m10606_ParameterInfos[] = 
+extern const Il2CppType XmlAttribute_t672_0_0_0;
+static const ParameterInfo XmlDocument_t631_XmlDocument_ReadAttributeNodeValue_m10606_ParameterInfos[] = 
 {
 	{"reader", 0, 134217999, 0, &XmlReader_t3208_0_0_0},
-	{"attribute", 1, 134218000, 0, &XmlAttribute_t671_0_0_0},
+	{"attribute", 1, 134218000, 0, &XmlAttribute_t672_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlDocument::ReadAttributeNodeValue(System.Xml.XmlReader,System.Xml.XmlAttribute)
@@ -8776,10 +8776,10 @@ extern const MethodInfo XmlDocument_ReadAttributeNodeValue_m10606_MethodInfo =
 {
 	"ReadAttributeNodeValue"/* name */
 	, (methodPointerType)&XmlDocument_ReadAttributeNodeValue_m10606/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_ReadAttributeNodeValue_m10606_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_ReadAttributeNodeValue_m10606_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8794,7 +8794,7 @@ extern const MethodInfo XmlDocument_ReadAttributeNodeValue_m10606_MethodInfo =
 
 };
 extern const Il2CppType XmlReader_t3208_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_ReadNode_m10607_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_ReadNode_m10607_ParameterInfos[] = 
 {
 	{"reader", 0, 134218001, 0, &XmlReader_t3208_0_0_0},
 };
@@ -8804,10 +8804,10 @@ extern const MethodInfo XmlDocument_ReadNode_m10607_MethodInfo =
 {
 	"ReadNode"/* name */
 	, (methodPointerType)&XmlDocument_ReadNode_m10607/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_ReadNode_m10607_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_ReadNode_m10607_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -8822,7 +8822,7 @@ extern const MethodInfo XmlDocument_ReadNode_m10607_MethodInfo =
 
 };
 extern const Il2CppType XmlReader_t3208_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_ReadNodeCore_m10608_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_ReadNodeCore_m10608_ParameterInfos[] = 
 {
 	{"reader", 0, 134218002, 0, &XmlReader_t3208_0_0_0},
 };
@@ -8832,10 +8832,10 @@ extern const MethodInfo XmlDocument_ReadNodeCore_m10608_MethodInfo =
 {
 	"ReadNodeCore"/* name */
 	, (methodPointerType)&XmlDocument_ReadNodeCore_m10608/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_ReadNodeCore_m10608_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_ReadNodeCore_m10608_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8851,7 +8851,7 @@ extern const MethodInfo XmlDocument_ReadNodeCore_m10608_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType XmlReader_t3208_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_MakeReaderErrorMessage_m10609_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_MakeReaderErrorMessage_m10609_ParameterInfos[] = 
 {
 	{"message", 0, 134218003, 0, &String_t_0_0_0},
 	{"reader", 1, 134218004, 0, &XmlReader_t3208_0_0_0},
@@ -8862,10 +8862,10 @@ extern const MethodInfo XmlDocument_MakeReaderErrorMessage_m10609_MethodInfo =
 {
 	"MakeReaderErrorMessage"/* name */
 	, (methodPointerType)&XmlDocument_MakeReaderErrorMessage_m10609/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_MakeReaderErrorMessage_m10609_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_MakeReaderErrorMessage_m10609_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8880,7 +8880,7 @@ extern const MethodInfo XmlDocument_MakeReaderErrorMessage_m10609_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_RemoveIdenticalAttribute_m10610_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_RemoveIdenticalAttribute_m10610_ParameterInfos[] = 
 {
 	{"id", 0, 134218005, 0, &String_t_0_0_0},
 };
@@ -8890,10 +8890,10 @@ extern const MethodInfo XmlDocument_RemoveIdenticalAttribute_m10610_MethodInfo =
 {
 	"RemoveIdenticalAttribute"/* name */
 	, (methodPointerType)&XmlDocument_RemoveIdenticalAttribute_m10610/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_RemoveIdenticalAttribute_m10610_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_RemoveIdenticalAttribute_m10610_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8913,7 +8913,7 @@ extern const MethodInfo XmlDocument_AddDefaultNameTableKeys_m10611_MethodInfo =
 {
 	"AddDefaultNameTableKeys"/* name */
 	, (methodPointerType)&XmlDocument_AddDefaultNameTableKeys_m10611/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -8930,12 +8930,12 @@ extern const MethodInfo XmlDocument_AddDefaultNameTableKeys_m10611_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlAttribute_t671_0_0_0;
+extern const Il2CppType XmlAttribute_t672_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlDocument_t630_XmlDocument_CheckIdTableUpdate_m10612_ParameterInfos[] = 
+static const ParameterInfo XmlDocument_t631_XmlDocument_CheckIdTableUpdate_m10612_ParameterInfos[] = 
 {
-	{"attr", 0, 134218006, 0, &XmlAttribute_t671_0_0_0},
+	{"attr", 0, 134218006, 0, &XmlAttribute_t672_0_0_0},
 	{"oldValue", 1, 134218007, 0, &String_t_0_0_0},
 	{"newValue", 2, 134218008, 0, &String_t_0_0_0},
 };
@@ -8945,10 +8945,10 @@ extern const MethodInfo XmlDocument_CheckIdTableUpdate_m10612_MethodInfo =
 {
 	"CheckIdTableUpdate"/* name */
 	, (methodPointerType)&XmlDocument_CheckIdTableUpdate_m10612/* method */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlDocument_t630_XmlDocument_CheckIdTableUpdate_m10612_ParameterInfos/* parameters */
+	, XmlDocument_t631_XmlDocument_CheckIdTableUpdate_m10612_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8962,7 +8962,7 @@ extern const MethodInfo XmlDocument_CheckIdTableUpdate_m10612_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlDocument_t630_MethodInfos[] =
+static const MethodInfo* XmlDocument_t631_MethodInfos[] =
 {
 	&XmlDocument__ctor_m10556_MethodInfo,
 	&XmlDocument__ctor_m10557_MethodInfo,
@@ -9027,9 +9027,9 @@ static const MethodInfo* XmlDocument_t630_MethodInfos[] =
 };
 extern const MethodInfo XmlDocument_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10560_MethodInfo;
 extern const MethodInfo XmlDocument_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10561_MethodInfo;
-static const PropertyInfo XmlDocument_t630____System_Xml_IHasXmlChildNode_LastLinkedChild_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____System_Xml_IHasXmlChildNode_LastLinkedChild_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "System.Xml.IHasXmlChildNode.LastLinkedChild"/* name */
 	, &XmlDocument_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10560_MethodInfo/* get */
 	, &XmlDocument_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10561_MethodInfo/* set */
@@ -9038,9 +9038,9 @@ static const PropertyInfo XmlDocument_t630____System_Xml_IHasXmlChildNode_LastLi
 
 };
 extern const MethodInfo XmlDocument_get_BaseURI_m10562_MethodInfo;
-static const PropertyInfo XmlDocument_t630____BaseURI_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____BaseURI_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "BaseURI"/* name */
 	, &XmlDocument_get_BaseURI_m10562_MethodInfo/* get */
 	, NULL/* set */
@@ -9049,9 +9049,9 @@ static const PropertyInfo XmlDocument_t630____BaseURI_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_DocumentElement_m10563_MethodInfo;
-static const PropertyInfo XmlDocument_t630____DocumentElement_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____DocumentElement_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "DocumentElement"/* name */
 	, &XmlDocument_get_DocumentElement_m10563_MethodInfo/* get */
 	, NULL/* set */
@@ -9060,9 +9060,9 @@ static const PropertyInfo XmlDocument_t630____DocumentElement_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_DocumentType_m10564_MethodInfo;
-static const PropertyInfo XmlDocument_t630____DocumentType_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____DocumentType_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "DocumentType"/* name */
 	, &XmlDocument_get_DocumentType_m10564_MethodInfo/* get */
 	, NULL/* set */
@@ -9071,9 +9071,9 @@ static const PropertyInfo XmlDocument_t630____DocumentType_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_IsReadOnly_m10565_MethodInfo;
-static const PropertyInfo XmlDocument_t630____IsReadOnly_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____IsReadOnly_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "IsReadOnly"/* name */
 	, &XmlDocument_get_IsReadOnly_m10565_MethodInfo/* get */
 	, NULL/* set */
@@ -9082,9 +9082,9 @@ static const PropertyInfo XmlDocument_t630____IsReadOnly_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_LocalName_m10566_MethodInfo;
-static const PropertyInfo XmlDocument_t630____LocalName_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____LocalName_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "LocalName"/* name */
 	, &XmlDocument_get_LocalName_m10566_MethodInfo/* get */
 	, NULL/* set */
@@ -9093,9 +9093,9 @@ static const PropertyInfo XmlDocument_t630____LocalName_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_Name_m10567_MethodInfo;
-static const PropertyInfo XmlDocument_t630____Name_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____Name_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
 	, &XmlDocument_get_Name_m10567_MethodInfo/* get */
 	, NULL/* set */
@@ -9104,9 +9104,9 @@ static const PropertyInfo XmlDocument_t630____Name_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_NameCache_m10568_MethodInfo;
-static const PropertyInfo XmlDocument_t630____NameCache_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____NameCache_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "NameCache"/* name */
 	, &XmlDocument_get_NameCache_m10568_MethodInfo/* get */
 	, NULL/* set */
@@ -9115,9 +9115,9 @@ static const PropertyInfo XmlDocument_t630____NameCache_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_NameTable_m10569_MethodInfo;
-static const PropertyInfo XmlDocument_t630____NameTable_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____NameTable_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "NameTable"/* name */
 	, &XmlDocument_get_NameTable_m10569_MethodInfo/* get */
 	, NULL/* set */
@@ -9126,9 +9126,9 @@ static const PropertyInfo XmlDocument_t630____NameTable_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_NodeType_m10570_MethodInfo;
-static const PropertyInfo XmlDocument_t630____NodeType_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____NodeType_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "NodeType"/* name */
 	, &XmlDocument_get_NodeType_m10570_MethodInfo/* get */
 	, NULL/* set */
@@ -9137,9 +9137,9 @@ static const PropertyInfo XmlDocument_t630____NodeType_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_OwnerDocument_m10571_MethodInfo;
-static const PropertyInfo XmlDocument_t630____OwnerDocument_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____OwnerDocument_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "OwnerDocument"/* name */
 	, &XmlDocument_get_OwnerDocument_m10571_MethodInfo/* get */
 	, NULL/* set */
@@ -9148,9 +9148,9 @@ static const PropertyInfo XmlDocument_t630____OwnerDocument_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_PreserveWhitespace_m10572_MethodInfo;
-static const PropertyInfo XmlDocument_t630____PreserveWhitespace_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____PreserveWhitespace_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "PreserveWhitespace"/* name */
 	, &XmlDocument_get_PreserveWhitespace_m10572_MethodInfo/* get */
 	, NULL/* set */
@@ -9159,9 +9159,9 @@ static const PropertyInfo XmlDocument_t630____PreserveWhitespace_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_Resolver_m10573_MethodInfo;
-static const PropertyInfo XmlDocument_t630____Resolver_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____Resolver_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "Resolver"/* name */
 	, &XmlDocument_get_Resolver_m10573_MethodInfo/* get */
 	, NULL/* set */
@@ -9170,9 +9170,9 @@ static const PropertyInfo XmlDocument_t630____Resolver_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_XmlLang_m10574_MethodInfo;
-static const PropertyInfo XmlDocument_t630____XmlLang_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____XmlLang_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "XmlLang"/* name */
 	, &XmlDocument_get_XmlLang_m10574_MethodInfo/* get */
 	, NULL/* set */
@@ -9181,9 +9181,9 @@ static const PropertyInfo XmlDocument_t630____XmlLang_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_XmlSpace_m10575_MethodInfo;
-static const PropertyInfo XmlDocument_t630____XmlSpace_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____XmlSpace_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "XmlSpace"/* name */
 	, &XmlDocument_get_XmlSpace_m10575_MethodInfo/* get */
 	, NULL/* set */
@@ -9192,9 +9192,9 @@ static const PropertyInfo XmlDocument_t630____XmlSpace_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_get_ParentNode_m10576_MethodInfo;
-static const PropertyInfo XmlDocument_t630____ParentNode_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____ParentNode_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "ParentNode"/* name */
 	, &XmlDocument_get_ParentNode_m10576_MethodInfo/* get */
 	, NULL/* set */
@@ -9203,9 +9203,9 @@ static const PropertyInfo XmlDocument_t630____ParentNode_PropertyInfo =
 
 };
 extern const MethodInfo XmlDocument_set_SchemaInfo_m10577_MethodInfo;
-static const PropertyInfo XmlDocument_t630____SchemaInfo_PropertyInfo = 
+static const PropertyInfo XmlDocument_t631____SchemaInfo_PropertyInfo = 
 {
-	&XmlDocument_t630_il2cpp_TypeInfo/* parent */
+	&XmlDocument_t631_il2cpp_TypeInfo/* parent */
 	, "SchemaInfo"/* name */
 	, NULL/* get */
 	, &XmlDocument_set_SchemaInfo_m10577_MethodInfo/* set */
@@ -9213,25 +9213,25 @@ static const PropertyInfo XmlDocument_t630____SchemaInfo_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlDocument_t630_PropertyInfos[] =
+static const PropertyInfo* XmlDocument_t631_PropertyInfos[] =
 {
-	&XmlDocument_t630____System_Xml_IHasXmlChildNode_LastLinkedChild_PropertyInfo,
-	&XmlDocument_t630____BaseURI_PropertyInfo,
-	&XmlDocument_t630____DocumentElement_PropertyInfo,
-	&XmlDocument_t630____DocumentType_PropertyInfo,
-	&XmlDocument_t630____IsReadOnly_PropertyInfo,
-	&XmlDocument_t630____LocalName_PropertyInfo,
-	&XmlDocument_t630____Name_PropertyInfo,
-	&XmlDocument_t630____NameCache_PropertyInfo,
-	&XmlDocument_t630____NameTable_PropertyInfo,
-	&XmlDocument_t630____NodeType_PropertyInfo,
-	&XmlDocument_t630____OwnerDocument_PropertyInfo,
-	&XmlDocument_t630____PreserveWhitespace_PropertyInfo,
-	&XmlDocument_t630____Resolver_PropertyInfo,
-	&XmlDocument_t630____XmlLang_PropertyInfo,
-	&XmlDocument_t630____XmlSpace_PropertyInfo,
-	&XmlDocument_t630____ParentNode_PropertyInfo,
-	&XmlDocument_t630____SchemaInfo_PropertyInfo,
+	&XmlDocument_t631____System_Xml_IHasXmlChildNode_LastLinkedChild_PropertyInfo,
+	&XmlDocument_t631____BaseURI_PropertyInfo,
+	&XmlDocument_t631____DocumentElement_PropertyInfo,
+	&XmlDocument_t631____DocumentType_PropertyInfo,
+	&XmlDocument_t631____IsReadOnly_PropertyInfo,
+	&XmlDocument_t631____LocalName_PropertyInfo,
+	&XmlDocument_t631____Name_PropertyInfo,
+	&XmlDocument_t631____NameCache_PropertyInfo,
+	&XmlDocument_t631____NameTable_PropertyInfo,
+	&XmlDocument_t631____NodeType_PropertyInfo,
+	&XmlDocument_t631____OwnerDocument_PropertyInfo,
+	&XmlDocument_t631____PreserveWhitespace_PropertyInfo,
+	&XmlDocument_t631____Resolver_PropertyInfo,
+	&XmlDocument_t631____XmlLang_PropertyInfo,
+	&XmlDocument_t631____XmlSpace_PropertyInfo,
+	&XmlDocument_t631____ParentNode_PropertyInfo,
+	&XmlDocument_t631____SchemaInfo_PropertyInfo,
 	NULL
 };
 extern const MethodInfo XmlNode_get_Value_m10798_MethodInfo;
@@ -9251,7 +9251,7 @@ extern const MethodInfo XmlDocument_CreateWhitespace_m10594_MethodInfo;
 extern const MethodInfo XmlDocument_CreateXmlDeclaration_m10595_MethodInfo;
 extern const MethodInfo XmlDocument_ImportNode_m10597_MethodInfo;
 extern const MethodInfo XmlDocument_ReadNode_m10607_MethodInfo;
-static const Il2CppMethodReference XmlDocument_t630_VTable[] =
+static const Il2CppMethodReference XmlDocument_t631_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -9305,7 +9305,7 @@ static const Il2CppMethodReference XmlDocument_t630_VTable[] =
 	&XmlDocument_ImportNode_m10597_MethodInfo,
 	&XmlDocument_ReadNode_m10607_MethodInfo,
 };
-static bool XmlDocument_t630_VTableIsGenericMethod[] =
+static bool XmlDocument_t631_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -9359,48 +9359,48 @@ static bool XmlDocument_t630_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* XmlDocument_t630_InterfacesTypeInfos[] = 
+static const Il2CppType* XmlDocument_t631_InterfacesTypeInfos[] = 
 {
 	&IHasXmlChildNode_t3198_0_0_0,
 };
-static Il2CppInterfaceOffsetPair XmlDocument_t630_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlDocument_t631_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 	{ &IHasXmlChildNode_t3198_0_0_0, 34},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlDocument_t630_1_0_0;
-struct XmlDocument_t630;
-const Il2CppTypeDefinitionMetadata XmlDocument_t630_DefinitionMetadata = 
+extern const Il2CppType XmlDocument_t631_1_0_0;
+struct XmlDocument_t631;
+const Il2CppTypeDefinitionMetadata XmlDocument_t631_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, XmlDocument_t630_InterfacesTypeInfos/* implementedInterfaces */
-	, XmlDocument_t630_InterfacesOffsets/* interfaceOffsets */
-	, &XmlNode_t667_0_0_0/* parent */
-	, XmlDocument_t630_VTable/* vtableMethods */
-	, XmlDocument_t630_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlDocument_t631_InterfacesTypeInfos/* implementedInterfaces */
+	, XmlDocument_t631_InterfacesOffsets/* interfaceOffsets */
+	, &XmlNode_t668_0_0_0/* parent */
+	, XmlDocument_t631_VTable/* vtableMethods */
+	, XmlDocument_t631_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 340/* fieldStart */
 
 };
-TypeInfo XmlDocument_t630_il2cpp_TypeInfo = 
+TypeInfo XmlDocument_t631_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlDocument"/* name */
 	, "System.Xml"/* namespaze */
-	, XmlDocument_t630_MethodInfos/* methods */
-	, XmlDocument_t630_PropertyInfos/* properties */
+	, XmlDocument_t631_MethodInfos/* methods */
+	, XmlDocument_t631_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlDocument_t630_il2cpp_TypeInfo/* element_class */
+	, &XmlDocument_t631_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlDocument_t630_0_0_0/* byval_arg */
-	, &XmlDocument_t630_1_0_0/* this_arg */
-	, &XmlDocument_t630_DefinitionMetadata/* definitionMetadata */
+	, &XmlDocument_t631_0_0_0/* byval_arg */
+	, &XmlDocument_t631_1_0_0/* this_arg */
+	, &XmlDocument_t631_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9410,11 +9410,11 @@ TypeInfo XmlDocument_t630_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlDocument_t630)/* instance_size */
-	, sizeof (XmlDocument_t630)/* actualSize */
+	, sizeof (XmlDocument_t631)/* instance_size */
+	, sizeof (XmlDocument_t631)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(XmlDocument_t630_StaticFields)/* static_fields_size */
+	, sizeof(XmlDocument_t631_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048577/* flags */
@@ -9446,10 +9446,10 @@ TypeInfo XmlDocument_t630_il2cpp_TypeInfo =
 extern TypeInfo XmlDocumentFragment_t3177_il2cpp_TypeInfo;
 // System.Xml.XmlDocumentFragment
 #include "System_Xml_System_Xml_XmlDocumentFragmentMethodDeclarations.h"
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlDocumentFragment_t3177_XmlDocumentFragment__ctor_m10613_ParameterInfos[] = 
 {
-	{"doc", 0, 134218009, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 0, 134218009, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlDocumentFragment::.ctor(System.Xml.XmlDocument)
@@ -9601,7 +9601,7 @@ extern const MethodInfo XmlDocumentFragment_get_OwnerDocument_m10619_MethodInfo 
 	"get_OwnerDocument"/* name */
 	, (methodPointerType)&XmlDocumentFragment_get_OwnerDocument_m10619/* method */
 	, &XmlDocumentFragment_t3177_il2cpp_TypeInfo/* declaring_type */
-	, &XmlDocument_t630_0_0_0/* return_type */
+	, &XmlDocument_t631_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9624,7 +9624,7 @@ extern const MethodInfo XmlDocumentFragment_get_ParentNode_m10620_MethodInfo =
 	"get_ParentNode"/* name */
 	, (methodPointerType)&XmlDocumentFragment_get_ParentNode_m10620/* method */
 	, &XmlDocumentFragment_t3177_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9652,7 +9652,7 @@ extern const MethodInfo XmlDocumentFragment_CloneNode_m10621_MethodInfo =
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlDocumentFragment_CloneNode_m10621/* method */
 	, &XmlDocumentFragment_t3177_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
 	, XmlDocumentFragment_t3177_XmlDocumentFragment_CloneNode_m10621_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9844,7 +9844,7 @@ static const Il2CppType* XmlDocumentFragment_t3177_InterfacesTypeInfos[] =
 static Il2CppInterfaceOffsetPair XmlDocumentFragment_t3177_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 	{ &IHasXmlChildNode_t3198_0_0_0, 34},
 };
@@ -9857,7 +9857,7 @@ const Il2CppTypeDefinitionMetadata XmlDocumentFragment_t3177_DefinitionMetadata 
 	, NULL/* nestedTypes */
 	, XmlDocumentFragment_t3177_InterfacesTypeInfos/* implementedInterfaces */
 	, XmlDocumentFragment_t3177_InterfacesOffsets/* interfaceOffsets */
-	, &XmlNode_t667_0_0_0/* parent */
+	, &XmlNode_t668_0_0_0/* parent */
 	, XmlDocumentFragment_t3177_VTable/* vtableMethods */
 	, XmlDocumentFragment_t3177_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
@@ -9928,14 +9928,14 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlDocumentType_t3178_XmlDocumentType__ctor_m10622_ParameterInfos[] = 
 {
 	{"name", 0, 134218012, 0, &String_t_0_0_0},
 	{"publicId", 1, 134218013, 0, &String_t_0_0_0},
 	{"systemId", 2, 134218014, 0, &String_t_0_0_0},
 	{"internalSubset", 3, 134218015, 0, &String_t_0_0_0},
-	{"doc", 4, 134218016, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 4, 134218016, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlDocumentType::.ctor(System.String,System.String,System.String,System.String,System.Xml.XmlDocument)
@@ -9961,11 +9961,11 @@ extern const MethodInfo XmlDocumentType__ctor_m10622_MethodInfo =
 
 };
 extern const Il2CppType DTDObjectModel_t3125_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlDocumentType_t3178_XmlDocumentType__ctor_m10623_ParameterInfos[] = 
 {
 	{"dtd", 0, 134218017, 0, &DTDObjectModel_t3125_0_0_0},
-	{"doc", 1, 134218018, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 1, 134218018, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlDocumentType::.ctor(Mono.Xml.DTDObjectModel,System.Xml.XmlDocument)
@@ -10163,7 +10163,7 @@ extern const MethodInfo XmlDocumentType_CloneNode_m10631_MethodInfo =
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlDocumentType_CloneNode_m10631/* method */
 	, &XmlDocumentType_t3178_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
 	, XmlDocumentType_t3178_XmlDocumentType_CloneNode_m10631_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -10347,7 +10347,7 @@ static bool XmlDocumentType_t3178_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair XmlDocumentType_t3178_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
@@ -10423,20 +10423,20 @@ TypeInfo XmlDocumentType_t3178_il2cpp_TypeInfo =
 // System.Xml.XmlElement
 #include "System_Xml_System_Xml_XmlElement.h"
 // Metadata Definition System.Xml.XmlElement
-extern TypeInfo XmlElement_t631_il2cpp_TypeInfo;
+extern TypeInfo XmlElement_t632_il2cpp_TypeInfo;
 // System.Xml.XmlElement
 #include "System_Xml_System_Xml_XmlElementMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo XmlElement_t631_XmlElement__ctor_m10632_ParameterInfos[] = 
+static const ParameterInfo XmlElement_t632_XmlElement__ctor_m10632_ParameterInfos[] = 
 {
 	{"prefix", 0, 134218020, 0, &String_t_0_0_0},
 	{"localName", 1, 134218021, 0, &String_t_0_0_0},
 	{"namespaceURI", 2, 134218022, 0, &String_t_0_0_0},
-	{"doc", 3, 134218023, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 3, 134218023, 0, &XmlDocument_t631_0_0_0},
 	{"atomizedNames", 4, 134218024, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -10445,10 +10445,10 @@ extern const MethodInfo XmlElement__ctor_m10632_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&XmlElement__ctor_m10632/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_SByte_t88/* invoker_method */
-	, XmlElement_t631_XmlElement__ctor_m10632_ParameterInfos/* parameters */
+	, XmlElement_t632_XmlElement__ctor_m10632_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -10468,7 +10468,7 @@ extern const MethodInfo XmlElement_System_Xml_IHasXmlChildNode_get_LastLinkedChi
 {
 	"System.Xml.IHasXmlChildNode.get_LastLinkedChild"/* name */
 	, (methodPointerType)&XmlElement_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10633/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
 	, &XmlLinkedNode_t3164_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10486,7 +10486,7 @@ extern const MethodInfo XmlElement_System_Xml_IHasXmlChildNode_get_LastLinkedChi
 
 };
 extern const Il2CppType XmlLinkedNode_t3164_0_0_0;
-static const ParameterInfo XmlElement_t631_XmlElement_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10634_ParameterInfos[] = 
+static const ParameterInfo XmlElement_t632_XmlElement_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10634_ParameterInfos[] = 
 {
 	{"value", 0, 134218025, 0, &XmlLinkedNode_t3164_0_0_0},
 };
@@ -10496,10 +10496,10 @@ extern const MethodInfo XmlElement_System_Xml_IHasXmlChildNode_set_LastLinkedChi
 {
 	"System.Xml.IHasXmlChildNode.set_LastLinkedChild"/* name */
 	, (methodPointerType)&XmlElement_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10634/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlElement_t631_XmlElement_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10634_ParameterInfos/* parameters */
+	, XmlElement_t632_XmlElement_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10634_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
@@ -10519,8 +10519,8 @@ extern const MethodInfo XmlElement_get_Attributes_m10635_MethodInfo =
 {
 	"get_Attributes"/* name */
 	, (methodPointerType)&XmlElement_get_Attributes_m10635/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttributeCollection_t673_0_0_0/* return_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttributeCollection_t674_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -10542,7 +10542,7 @@ extern const MethodInfo XmlElement_get_InnerText_m10636_MethodInfo =
 {
 	"get_InnerText"/* name */
 	, (methodPointerType)&XmlElement_get_InnerText_m10636/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10560,7 +10560,7 @@ extern const MethodInfo XmlElement_get_InnerText_m10636_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo XmlElement_t631_XmlElement_set_IsEmpty_m10637_ParameterInfos[] = 
+static const ParameterInfo XmlElement_t632_XmlElement_set_IsEmpty_m10637_ParameterInfos[] = 
 {
 	{"value", 0, 134218026, 0, &Boolean_t59_0_0_0},
 };
@@ -10570,10 +10570,10 @@ extern const MethodInfo XmlElement_set_IsEmpty_m10637_MethodInfo =
 {
 	"set_IsEmpty"/* name */
 	, (methodPointerType)&XmlElement_set_IsEmpty_m10637/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, XmlElement_t631_XmlElement_set_IsEmpty_m10637_ParameterInfos/* parameters */
+	, XmlElement_t632_XmlElement_set_IsEmpty_m10637_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -10593,7 +10593,7 @@ extern const MethodInfo XmlElement_get_LocalName_m10638_MethodInfo =
 {
 	"get_LocalName"/* name */
 	, (methodPointerType)&XmlElement_get_LocalName_m10638/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10616,7 +10616,7 @@ extern const MethodInfo XmlElement_get_Name_m10639_MethodInfo =
 {
 	"get_Name"/* name */
 	, (methodPointerType)&XmlElement_get_Name_m10639/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10639,7 +10639,7 @@ extern const MethodInfo XmlElement_get_NamespaceURI_m10640_MethodInfo =
 {
 	"get_NamespaceURI"/* name */
 	, (methodPointerType)&XmlElement_get_NamespaceURI_m10640/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10662,8 +10662,8 @@ extern const MethodInfo XmlElement_get_NextSibling_m10641_MethodInfo =
 {
 	"get_NextSibling"/* name */
 	, (methodPointerType)&XmlElement_get_NextSibling_m10641/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -10685,7 +10685,7 @@ extern const MethodInfo XmlElement_get_NodeType_m10642_MethodInfo =
 {
 	"get_NodeType"/* name */
 	, (methodPointerType)&XmlElement_get_NodeType_m10642/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
 	, &XmlNodeType_t3200_0_0_0/* return_type */
 	, RuntimeInvoker_XmlNodeType_t3200/* invoker_method */
 	, NULL/* parameters */
@@ -10708,8 +10708,8 @@ extern const MethodInfo XmlElement_get_OwnerDocument_m10643_MethodInfo =
 {
 	"get_OwnerDocument"/* name */
 	, (methodPointerType)&XmlElement_get_OwnerDocument_m10643/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
-	, &XmlDocument_t630_0_0_0/* return_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -10731,7 +10731,7 @@ extern const MethodInfo XmlElement_get_Prefix_m10644_MethodInfo =
 {
 	"get_Prefix"/* name */
 	, (methodPointerType)&XmlElement_get_Prefix_m10644/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10754,8 +10754,8 @@ extern const MethodInfo XmlElement_get_ParentNode_m10645_MethodInfo =
 {
 	"get_ParentNode"/* name */
 	, (methodPointerType)&XmlElement_get_ParentNode_m10645/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -10772,7 +10772,7 @@ extern const MethodInfo XmlElement_get_ParentNode_m10645_MethodInfo =
 
 };
 extern const Il2CppType IXmlSchemaInfo_t3165_0_0_0;
-static const ParameterInfo XmlElement_t631_XmlElement_set_SchemaInfo_m10646_ParameterInfos[] = 
+static const ParameterInfo XmlElement_t632_XmlElement_set_SchemaInfo_m10646_ParameterInfos[] = 
 {
 	{"value", 0, 134218027, 0, &IXmlSchemaInfo_t3165_0_0_0},
 };
@@ -10782,10 +10782,10 @@ extern const MethodInfo XmlElement_set_SchemaInfo_m10646_MethodInfo =
 {
 	"set_SchemaInfo"/* name */
 	, (methodPointerType)&XmlElement_set_SchemaInfo_m10646/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlElement_t631_XmlElement_set_SchemaInfo_m10646_ParameterInfos/* parameters */
+	, XmlElement_t632_XmlElement_set_SchemaInfo_m10646_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2243/* flags */
 	, 0/* iflags */
@@ -10800,7 +10800,7 @@ extern const MethodInfo XmlElement_set_SchemaInfo_m10646_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo XmlElement_t631_XmlElement_CloneNode_m10647_ParameterInfos[] = 
+static const ParameterInfo XmlElement_t632_XmlElement_CloneNode_m10647_ParameterInfos[] = 
 {
 	{"deep", 0, 134218028, 0, &Boolean_t59_0_0_0},
 };
@@ -10810,10 +10810,10 @@ extern const MethodInfo XmlElement_CloneNode_m10647_MethodInfo =
 {
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlElement_CloneNode_m10647/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
-	, XmlElement_t631_XmlElement_CloneNode_m10647_ParameterInfos/* parameters */
+	, XmlElement_t632_XmlElement_CloneNode_m10647_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -10833,7 +10833,7 @@ extern const MethodInfo XmlElement_RemoveAll_m10648_MethodInfo =
 {
 	"RemoveAll"/* name */
 	, (methodPointerType)&XmlElement_RemoveAll_m10648/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -10852,7 +10852,7 @@ extern const MethodInfo XmlElement_RemoveAll_m10648_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlElement_t631_XmlElement_SetAttribute_m10649_ParameterInfos[] = 
+static const ParameterInfo XmlElement_t632_XmlElement_SetAttribute_m10649_ParameterInfos[] = 
 {
 	{"name", 0, 134218029, 0, &String_t_0_0_0},
 	{"value", 1, 134218030, 0, &String_t_0_0_0},
@@ -10863,10 +10863,10 @@ extern const MethodInfo XmlElement_SetAttribute_m10649_MethodInfo =
 {
 	"SetAttribute"/* name */
 	, (methodPointerType)&XmlElement_SetAttribute_m10649/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, XmlElement_t631_XmlElement_SetAttribute_m10649_ParameterInfos/* parameters */
+	, XmlElement_t632_XmlElement_SetAttribute_m10649_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -10880,10 +10880,10 @@ extern const MethodInfo XmlElement_SetAttribute_m10649_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlAttribute_t671_0_0_0;
-static const ParameterInfo XmlElement_t631_XmlElement_SetAttributeNode_m10650_ParameterInfos[] = 
+extern const Il2CppType XmlAttribute_t672_0_0_0;
+static const ParameterInfo XmlElement_t632_XmlElement_SetAttributeNode_m10650_ParameterInfos[] = 
 {
-	{"newAttr", 0, 134218031, 0, &XmlAttribute_t671_0_0_0},
+	{"newAttr", 0, 134218031, 0, &XmlAttribute_t672_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlAttribute System.Xml.XmlElement::SetAttributeNode(System.Xml.XmlAttribute)
@@ -10891,10 +10891,10 @@ extern const MethodInfo XmlElement_SetAttributeNode_m10650_MethodInfo =
 {
 	"SetAttributeNode"/* name */
 	, (methodPointerType)&XmlElement_SetAttributeNode_m10650/* method */
-	, &XmlElement_t631_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttribute_t671_0_0_0/* return_type */
+	, &XmlElement_t632_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttribute_t672_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlElement_t631_XmlElement_SetAttributeNode_m10650_ParameterInfos/* parameters */
+	, XmlElement_t632_XmlElement_SetAttributeNode_m10650_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -10908,7 +10908,7 @@ extern const MethodInfo XmlElement_SetAttributeNode_m10650_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlElement_t631_MethodInfos[] =
+static const MethodInfo* XmlElement_t632_MethodInfos[] =
 {
 	&XmlElement__ctor_m10632_MethodInfo,
 	&XmlElement_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10633_MethodInfo,
@@ -10933,9 +10933,9 @@ static const MethodInfo* XmlElement_t631_MethodInfos[] =
 };
 extern const MethodInfo XmlElement_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10633_MethodInfo;
 extern const MethodInfo XmlElement_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10634_MethodInfo;
-static const PropertyInfo XmlElement_t631____System_Xml_IHasXmlChildNode_LastLinkedChild_PropertyInfo = 
+static const PropertyInfo XmlElement_t632____System_Xml_IHasXmlChildNode_LastLinkedChild_PropertyInfo = 
 {
-	&XmlElement_t631_il2cpp_TypeInfo/* parent */
+	&XmlElement_t632_il2cpp_TypeInfo/* parent */
 	, "System.Xml.IHasXmlChildNode.LastLinkedChild"/* name */
 	, &XmlElement_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10633_MethodInfo/* get */
 	, &XmlElement_System_Xml_IHasXmlChildNode_set_LastLinkedChild_m10634_MethodInfo/* set */
@@ -10944,9 +10944,9 @@ static const PropertyInfo XmlElement_t631____System_Xml_IHasXmlChildNode_LastLin
 
 };
 extern const MethodInfo XmlElement_get_Attributes_m10635_MethodInfo;
-static const PropertyInfo XmlElement_t631____Attributes_PropertyInfo = 
+static const PropertyInfo XmlElement_t632____Attributes_PropertyInfo = 
 {
-	&XmlElement_t631_il2cpp_TypeInfo/* parent */
+	&XmlElement_t632_il2cpp_TypeInfo/* parent */
 	, "Attributes"/* name */
 	, &XmlElement_get_Attributes_m10635_MethodInfo/* get */
 	, NULL/* set */
@@ -10955,9 +10955,9 @@ static const PropertyInfo XmlElement_t631____Attributes_PropertyInfo =
 
 };
 extern const MethodInfo XmlElement_get_InnerText_m10636_MethodInfo;
-static const PropertyInfo XmlElement_t631____InnerText_PropertyInfo = 
+static const PropertyInfo XmlElement_t632____InnerText_PropertyInfo = 
 {
-	&XmlElement_t631_il2cpp_TypeInfo/* parent */
+	&XmlElement_t632_il2cpp_TypeInfo/* parent */
 	, "InnerText"/* name */
 	, &XmlElement_get_InnerText_m10636_MethodInfo/* get */
 	, NULL/* set */
@@ -10966,9 +10966,9 @@ static const PropertyInfo XmlElement_t631____InnerText_PropertyInfo =
 
 };
 extern const MethodInfo XmlElement_set_IsEmpty_m10637_MethodInfo;
-static const PropertyInfo XmlElement_t631____IsEmpty_PropertyInfo = 
+static const PropertyInfo XmlElement_t632____IsEmpty_PropertyInfo = 
 {
-	&XmlElement_t631_il2cpp_TypeInfo/* parent */
+	&XmlElement_t632_il2cpp_TypeInfo/* parent */
 	, "IsEmpty"/* name */
 	, NULL/* get */
 	, &XmlElement_set_IsEmpty_m10637_MethodInfo/* set */
@@ -10977,9 +10977,9 @@ static const PropertyInfo XmlElement_t631____IsEmpty_PropertyInfo =
 
 };
 extern const MethodInfo XmlElement_get_LocalName_m10638_MethodInfo;
-static const PropertyInfo XmlElement_t631____LocalName_PropertyInfo = 
+static const PropertyInfo XmlElement_t632____LocalName_PropertyInfo = 
 {
-	&XmlElement_t631_il2cpp_TypeInfo/* parent */
+	&XmlElement_t632_il2cpp_TypeInfo/* parent */
 	, "LocalName"/* name */
 	, &XmlElement_get_LocalName_m10638_MethodInfo/* get */
 	, NULL/* set */
@@ -10988,9 +10988,9 @@ static const PropertyInfo XmlElement_t631____LocalName_PropertyInfo =
 
 };
 extern const MethodInfo XmlElement_get_Name_m10639_MethodInfo;
-static const PropertyInfo XmlElement_t631____Name_PropertyInfo = 
+static const PropertyInfo XmlElement_t632____Name_PropertyInfo = 
 {
-	&XmlElement_t631_il2cpp_TypeInfo/* parent */
+	&XmlElement_t632_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
 	, &XmlElement_get_Name_m10639_MethodInfo/* get */
 	, NULL/* set */
@@ -10999,9 +10999,9 @@ static const PropertyInfo XmlElement_t631____Name_PropertyInfo =
 
 };
 extern const MethodInfo XmlElement_get_NamespaceURI_m10640_MethodInfo;
-static const PropertyInfo XmlElement_t631____NamespaceURI_PropertyInfo = 
+static const PropertyInfo XmlElement_t632____NamespaceURI_PropertyInfo = 
 {
-	&XmlElement_t631_il2cpp_TypeInfo/* parent */
+	&XmlElement_t632_il2cpp_TypeInfo/* parent */
 	, "NamespaceURI"/* name */
 	, &XmlElement_get_NamespaceURI_m10640_MethodInfo/* get */
 	, NULL/* set */
@@ -11010,9 +11010,9 @@ static const PropertyInfo XmlElement_t631____NamespaceURI_PropertyInfo =
 
 };
 extern const MethodInfo XmlElement_get_NextSibling_m10641_MethodInfo;
-static const PropertyInfo XmlElement_t631____NextSibling_PropertyInfo = 
+static const PropertyInfo XmlElement_t632____NextSibling_PropertyInfo = 
 {
-	&XmlElement_t631_il2cpp_TypeInfo/* parent */
+	&XmlElement_t632_il2cpp_TypeInfo/* parent */
 	, "NextSibling"/* name */
 	, &XmlElement_get_NextSibling_m10641_MethodInfo/* get */
 	, NULL/* set */
@@ -11021,9 +11021,9 @@ static const PropertyInfo XmlElement_t631____NextSibling_PropertyInfo =
 
 };
 extern const MethodInfo XmlElement_get_NodeType_m10642_MethodInfo;
-static const PropertyInfo XmlElement_t631____NodeType_PropertyInfo = 
+static const PropertyInfo XmlElement_t632____NodeType_PropertyInfo = 
 {
-	&XmlElement_t631_il2cpp_TypeInfo/* parent */
+	&XmlElement_t632_il2cpp_TypeInfo/* parent */
 	, "NodeType"/* name */
 	, &XmlElement_get_NodeType_m10642_MethodInfo/* get */
 	, NULL/* set */
@@ -11032,9 +11032,9 @@ static const PropertyInfo XmlElement_t631____NodeType_PropertyInfo =
 
 };
 extern const MethodInfo XmlElement_get_OwnerDocument_m10643_MethodInfo;
-static const PropertyInfo XmlElement_t631____OwnerDocument_PropertyInfo = 
+static const PropertyInfo XmlElement_t632____OwnerDocument_PropertyInfo = 
 {
-	&XmlElement_t631_il2cpp_TypeInfo/* parent */
+	&XmlElement_t632_il2cpp_TypeInfo/* parent */
 	, "OwnerDocument"/* name */
 	, &XmlElement_get_OwnerDocument_m10643_MethodInfo/* get */
 	, NULL/* set */
@@ -11043,9 +11043,9 @@ static const PropertyInfo XmlElement_t631____OwnerDocument_PropertyInfo =
 
 };
 extern const MethodInfo XmlElement_get_Prefix_m10644_MethodInfo;
-static const PropertyInfo XmlElement_t631____Prefix_PropertyInfo = 
+static const PropertyInfo XmlElement_t632____Prefix_PropertyInfo = 
 {
-	&XmlElement_t631_il2cpp_TypeInfo/* parent */
+	&XmlElement_t632_il2cpp_TypeInfo/* parent */
 	, "Prefix"/* name */
 	, &XmlElement_get_Prefix_m10644_MethodInfo/* get */
 	, NULL/* set */
@@ -11054,9 +11054,9 @@ static const PropertyInfo XmlElement_t631____Prefix_PropertyInfo =
 
 };
 extern const MethodInfo XmlElement_get_ParentNode_m10645_MethodInfo;
-static const PropertyInfo XmlElement_t631____ParentNode_PropertyInfo = 
+static const PropertyInfo XmlElement_t632____ParentNode_PropertyInfo = 
 {
-	&XmlElement_t631_il2cpp_TypeInfo/* parent */
+	&XmlElement_t632_il2cpp_TypeInfo/* parent */
 	, "ParentNode"/* name */
 	, &XmlElement_get_ParentNode_m10645_MethodInfo/* get */
 	, NULL/* set */
@@ -11065,9 +11065,9 @@ static const PropertyInfo XmlElement_t631____ParentNode_PropertyInfo =
 
 };
 extern const MethodInfo XmlElement_set_SchemaInfo_m10646_MethodInfo;
-static const PropertyInfo XmlElement_t631____SchemaInfo_PropertyInfo = 
+static const PropertyInfo XmlElement_t632____SchemaInfo_PropertyInfo = 
 {
-	&XmlElement_t631_il2cpp_TypeInfo/* parent */
+	&XmlElement_t632_il2cpp_TypeInfo/* parent */
 	, "SchemaInfo"/* name */
 	, NULL/* get */
 	, &XmlElement_set_SchemaInfo_m10646_MethodInfo/* set */
@@ -11075,28 +11075,28 @@ static const PropertyInfo XmlElement_t631____SchemaInfo_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlElement_t631_PropertyInfos[] =
+static const PropertyInfo* XmlElement_t632_PropertyInfos[] =
 {
-	&XmlElement_t631____System_Xml_IHasXmlChildNode_LastLinkedChild_PropertyInfo,
-	&XmlElement_t631____Attributes_PropertyInfo,
-	&XmlElement_t631____InnerText_PropertyInfo,
-	&XmlElement_t631____IsEmpty_PropertyInfo,
-	&XmlElement_t631____LocalName_PropertyInfo,
-	&XmlElement_t631____Name_PropertyInfo,
-	&XmlElement_t631____NamespaceURI_PropertyInfo,
-	&XmlElement_t631____NextSibling_PropertyInfo,
-	&XmlElement_t631____NodeType_PropertyInfo,
-	&XmlElement_t631____OwnerDocument_PropertyInfo,
-	&XmlElement_t631____Prefix_PropertyInfo,
-	&XmlElement_t631____ParentNode_PropertyInfo,
-	&XmlElement_t631____SchemaInfo_PropertyInfo,
+	&XmlElement_t632____System_Xml_IHasXmlChildNode_LastLinkedChild_PropertyInfo,
+	&XmlElement_t632____Attributes_PropertyInfo,
+	&XmlElement_t632____InnerText_PropertyInfo,
+	&XmlElement_t632____IsEmpty_PropertyInfo,
+	&XmlElement_t632____LocalName_PropertyInfo,
+	&XmlElement_t632____Name_PropertyInfo,
+	&XmlElement_t632____NamespaceURI_PropertyInfo,
+	&XmlElement_t632____NextSibling_PropertyInfo,
+	&XmlElement_t632____NodeType_PropertyInfo,
+	&XmlElement_t632____OwnerDocument_PropertyInfo,
+	&XmlElement_t632____Prefix_PropertyInfo,
+	&XmlElement_t632____ParentNode_PropertyInfo,
+	&XmlElement_t632____SchemaInfo_PropertyInfo,
 	NULL
 };
 extern const MethodInfo XmlElement_CloneNode_m10647_MethodInfo;
 extern const MethodInfo XmlElement_RemoveAll_m10648_MethodInfo;
 extern const MethodInfo XmlElement_SetAttribute_m10649_MethodInfo;
 extern const MethodInfo XmlElement_SetAttributeNode_m10650_MethodInfo;
-static const Il2CppMethodReference XmlElement_t631_VTable[] =
+static const Il2CppMethodReference XmlElement_t632_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -11137,7 +11137,7 @@ static const Il2CppMethodReference XmlElement_t631_VTable[] =
 	&XmlElement_SetAttribute_m10649_MethodInfo,
 	&XmlElement_SetAttributeNode_m10650_MethodInfo,
 };
-static bool XmlElement_t631_VTableIsGenericMethod[] =
+static bool XmlElement_t632_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -11178,48 +11178,48 @@ static bool XmlElement_t631_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* XmlElement_t631_InterfacesTypeInfos[] = 
+static const Il2CppType* XmlElement_t632_InterfacesTypeInfos[] = 
 {
 	&IHasXmlChildNode_t3198_0_0_0,
 };
-static Il2CppInterfaceOffsetPair XmlElement_t631_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlElement_t632_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 	{ &IHasXmlChildNode_t3198_0_0_0, 34},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlElement_t631_1_0_0;
-struct XmlElement_t631;
-const Il2CppTypeDefinitionMetadata XmlElement_t631_DefinitionMetadata = 
+extern const Il2CppType XmlElement_t632_1_0_0;
+struct XmlElement_t632;
+const Il2CppTypeDefinitionMetadata XmlElement_t632_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, XmlElement_t631_InterfacesTypeInfos/* implementedInterfaces */
-	, XmlElement_t631_InterfacesOffsets/* interfaceOffsets */
+	, XmlElement_t632_InterfacesTypeInfos/* implementedInterfaces */
+	, XmlElement_t632_InterfacesOffsets/* interfaceOffsets */
 	, &XmlLinkedNode_t3164_0_0_0/* parent */
-	, XmlElement_t631_VTable/* vtableMethods */
-	, XmlElement_t631_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlElement_t632_VTable/* vtableMethods */
+	, XmlElement_t632_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 363/* fieldStart */
 
 };
-TypeInfo XmlElement_t631_il2cpp_TypeInfo = 
+TypeInfo XmlElement_t632_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlElement"/* name */
 	, "System.Xml"/* namespaze */
-	, XmlElement_t631_MethodInfos/* methods */
-	, XmlElement_t631_PropertyInfos/* properties */
+	, XmlElement_t632_MethodInfos/* methods */
+	, XmlElement_t632_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlElement_t631_il2cpp_TypeInfo/* element_class */
+	, &XmlElement_t632_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlElement_t631_0_0_0/* byval_arg */
-	, &XmlElement_t631_1_0_0/* this_arg */
-	, &XmlElement_t631_DefinitionMetadata/* definitionMetadata */
+	, &XmlElement_t632_0_0_0/* byval_arg */
+	, &XmlElement_t632_1_0_0/* this_arg */
+	, &XmlElement_t632_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -11229,8 +11229,8 @@ TypeInfo XmlElement_t631_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlElement_t631)/* instance_size */
-	, sizeof (XmlElement_t631)/* actualSize */
+	, sizeof (XmlElement_t632)/* instance_size */
+	, sizeof (XmlElement_t632)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -11269,14 +11269,14 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlEntity_t3179_XmlEntity__ctor_m10651_ParameterInfos[] = 
 {
 	{"name", 0, 134218032, 0, &String_t_0_0_0},
 	{"NDATA", 1, 134218033, 0, &String_t_0_0_0},
 	{"publicId", 2, 134218034, 0, &String_t_0_0_0},
 	{"systemId", 3, 134218035, 0, &String_t_0_0_0},
-	{"doc", 4, 134218036, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 4, 134218036, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlEntity::.ctor(System.String,System.String,System.String,System.String,System.Xml.XmlDocument)
@@ -11525,7 +11525,7 @@ extern const MethodInfo XmlEntity_CloneNode_m10661_MethodInfo =
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlEntity_CloneNode_m10661/* method */
 	, &XmlEntity_t3179_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
 	, XmlEntity_t3179_XmlEntity_CloneNode_m10661_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11767,7 +11767,7 @@ static const Il2CppType* XmlEntity_t3179_InterfacesTypeInfos[] =
 static Il2CppInterfaceOffsetPair XmlEntity_t3179_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 	{ &IHasXmlChildNode_t3198_0_0_0, 34},
 };
@@ -11781,7 +11781,7 @@ const Il2CppTypeDefinitionMetadata XmlEntity_t3179_DefinitionMetadata =
 	, NULL/* nestedTypes */
 	, XmlEntity_t3179_InterfacesTypeInfos/* implementedInterfaces */
 	, XmlEntity_t3179_InterfacesOffsets/* interfaceOffsets */
-	, &XmlNode_t667_0_0_0/* parent */
+	, &XmlNode_t668_0_0_0/* parent */
 	, XmlEntity_t3179_VTable/* vtableMethods */
 	, XmlEntity_t3179_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
@@ -11849,11 +11849,11 @@ extern TypeInfo XmlEntityReference_t3180_il2cpp_TypeInfo;
 // System.Xml.XmlEntityReference
 #include "System_Xml_System_Xml_XmlEntityReferenceMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlEntityReference_t3180_XmlEntityReference__ctor_m10663_ParameterInfos[] = 
 {
 	{"name", 0, 134218039, 0, &String_t_0_0_0},
-	{"doc", 1, 134218040, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 1, 134218040, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlEntityReference::.ctor(System.String,System.Xml.XmlDocument)
@@ -12153,7 +12153,7 @@ extern const MethodInfo XmlEntityReference_CloneNode_m10675_MethodInfo =
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlEntityReference_CloneNode_m10675/* method */
 	, &XmlEntityReference_t3180_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
 	, XmlEntityReference_t3180_XmlEntityReference_CloneNode_m10675_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -12410,7 +12410,7 @@ static const Il2CppType* XmlEntityReference_t3180_InterfacesTypeInfos[] =
 static Il2CppInterfaceOffsetPair XmlEntityReference_t3180_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 	{ &IHasXmlChildNode_t3198_0_0_0, 34},
 };
@@ -12896,11 +12896,11 @@ static bool XmlException_t3181_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ISerializable_t762_0_0_0;
+extern const Il2CppType ISerializable_t763_0_0_0;
 extern const Il2CppType _Exception_t2331_0_0_0;
 static Il2CppInterfaceOffsetPair XmlException_t3181_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
@@ -13038,7 +13038,7 @@ extern const MethodInfo XmlImplementation_CreateDocument_m10690_MethodInfo =
 	"CreateDocument"/* name */
 	, (methodPointerType)&XmlImplementation_CreateDocument_m10690/* method */
 	, &XmlImplementation_t3174_il2cpp_TypeInfo/* declaring_type */
-	, &XmlDocument_t630_0_0_0/* return_type */
+	, &XmlDocument_t631_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -13258,12 +13258,12 @@ extern const MethodInfo XmlStreamReader_Close_m10694_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_3;
+extern const Il2CppType CharU5BU5D_t661_0_0_3;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo XmlStreamReader_t3184_XmlStreamReader_Read_m10695_ParameterInfos[] = 
 {
-	{"dest_buffer", 0, 134218076, 0, &CharU5BU5D_t660_0_0_3},
+	{"dest_buffer", 0, 134218076, 0, &CharU5BU5D_t661_0_0_3},
 	{"index", 1, 134218077, 0, &Int32_t82_0_0_0},
 	{"count", 2, 134218078, 0, &Int32_t82_0_0_0},
 };
@@ -13450,12 +13450,12 @@ extern TypeInfo NonBlockingStreamReader_t3185_il2cpp_TypeInfo;
 // System.Xml.NonBlockingStreamReader
 #include "System_Xml_System_Xml_NonBlockingStreamReaderMethodDeclarations.h"
 extern const Il2CppType Stream_t51_0_0_0;
-extern const Il2CppType Encoding_t689_0_0_0;
-extern const Il2CppType Encoding_t689_0_0_0;
+extern const Il2CppType Encoding_t690_0_0_0;
+extern const Il2CppType Encoding_t690_0_0_0;
 static const ParameterInfo NonBlockingStreamReader_t3185_NonBlockingStreamReader__ctor_m10697_ParameterInfos[] = 
 {
 	{"stream", 0, 134218080, 0, &Stream_t51_0_0_0},
-	{"encoding", 1, 134218081, 0, &Encoding_t689_0_0_0},
+	{"encoding", 1, 134218081, 0, &Encoding_t690_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.NonBlockingStreamReader::.ctor(System.IO.Stream,System.Text.Encoding)
@@ -13487,7 +13487,7 @@ extern const MethodInfo NonBlockingStreamReader_get_Encoding_m10698_MethodInfo =
 	"get_Encoding"/* name */
 	, (methodPointerType)&NonBlockingStreamReader_get_Encoding_m10698/* method */
 	, &NonBlockingStreamReader_t3185_il2cpp_TypeInfo/* declaring_type */
-	, &Encoding_t689_0_0_0/* return_type */
+	, &Encoding_t690_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -13623,12 +13623,12 @@ extern const MethodInfo NonBlockingStreamReader_Read_m10703_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_3;
+extern const Il2CppType CharU5BU5D_t661_0_0_3;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo NonBlockingStreamReader_t3185_NonBlockingStreamReader_Read_m10704_ParameterInfos[] = 
 {
-	{"dest_buffer", 0, 134218083, 0, &CharU5BU5D_t660_0_0_3},
+	{"dest_buffer", 0, 134218083, 0, &CharU5BU5D_t661_0_0_3},
 	{"index", 1, 134218084, 0, &Int32_t82_0_0_0},
 	{"count", 2, 134218085, 0, &Int32_t82_0_0_0},
 };
@@ -14034,7 +14034,7 @@ extern const MethodInfo XmlInputStream_get_ActualEncoding_m10714_MethodInfo =
 	"get_ActualEncoding"/* name */
 	, (methodPointerType)&XmlInputStream_get_ActualEncoding_m10714/* method */
 	, &XmlInputStream_t3183_il2cpp_TypeInfo/* declaring_type */
-	, &Encoding_t689_0_0_0/* return_type */
+	, &Encoding_t690_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -14641,10 +14641,10 @@ TypeInfo XmlInputStream_t3183_il2cpp_TypeInfo =
 extern TypeInfo XmlLinkedNode_t3164_il2cpp_TypeInfo;
 // System.Xml.XmlLinkedNode
 #include "System_Xml_System_Xml_XmlLinkedNodeMethodDeclarations.h"
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlLinkedNode_t3164_XmlLinkedNode__ctor_m10728_ParameterInfos[] = 
 {
-	{"doc", 0, 134218101, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 0, 134218101, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlLinkedNode::.ctor(System.Xml.XmlDocument)
@@ -14699,7 +14699,7 @@ extern const MethodInfo XmlLinkedNode_get_NextSibling_m10730_MethodInfo =
 	"get_NextSibling"/* name */
 	, (methodPointerType)&XmlLinkedNode_get_NextSibling_m10730/* method */
 	, &XmlLinkedNode_t3164_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -14773,7 +14773,7 @@ extern const MethodInfo XmlLinkedNode_get_PreviousSibling_m10733_MethodInfo =
 	"get_PreviousSibling"/* name */
 	, (methodPointerType)&XmlLinkedNode_get_PreviousSibling_m10733/* method */
 	, &XmlLinkedNode_t3164_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -14927,7 +14927,7 @@ static bool XmlLinkedNode_t3164_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair XmlLinkedNode_t3164_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
@@ -14939,7 +14939,7 @@ const Il2CppTypeDefinitionMetadata XmlLinkedNode_t3164_DefinitionMetadata =
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, XmlLinkedNode_t3164_InterfacesOffsets/* interfaceOffsets */
-	, &XmlNode_t667_0_0_0/* parent */
+	, &XmlNode_t668_0_0_0/* parent */
 	, XmlLinkedNode_t3164_VTable/* vtableMethods */
 	, XmlLinkedNode_t3164_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
@@ -15526,12 +15526,12 @@ extern const MethodInfo XmlNameTable_Add_m11266_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo XmlNameTable_t3133_XmlNameTable_Add_m11267_ParameterInfos[] = 
 {
-	{"buffer", 0, 134218123, 0, &CharU5BU5D_t660_0_0_0},
+	{"buffer", 0, 134218123, 0, &CharU5BU5D_t661_0_0_0},
 	{"offset", 1, 134218124, 0, &Int32_t82_0_0_0},
 	{"length", 2, 134218125, 0, &Int32_t82_0_0_0},
 };
@@ -15690,10 +15690,10 @@ TypeInfo XmlNameTable_t3133_il2cpp_TypeInfo =
 extern TypeInfo XmlNamedNodeMap_t3166_il2cpp_TypeInfo;
 // System.Xml.XmlNamedNodeMap
 #include "System_Xml_System_Xml_XmlNamedNodeMapMethodDeclarations.h"
-extern const Il2CppType XmlNode_t667_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
 static const ParameterInfo XmlNamedNodeMap_t3166_XmlNamedNodeMap__ctor_m10744_ParameterInfos[] = 
 {
-	{"parent", 0, 134218127, 0, &XmlNode_t667_0_0_0},
+	{"parent", 0, 134218127, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlNamedNodeMap::.ctor(System.Xml.XmlNode)
@@ -15824,7 +15824,7 @@ extern const MethodInfo XmlNamedNodeMap_GetNamedItem_m10749_MethodInfo =
 	"GetNamedItem"/* name */
 	, (methodPointerType)&XmlNamedNodeMap_GetNamedItem_m10749/* method */
 	, &XmlNamedNodeMap_t3166_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, XmlNamedNodeMap_t3166_XmlNamedNodeMap_GetNamedItem_m10749_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -15854,7 +15854,7 @@ extern const MethodInfo XmlNamedNodeMap_RemoveNamedItem_m10750_MethodInfo =
 	"RemoveNamedItem"/* name */
 	, (methodPointerType)&XmlNamedNodeMap_RemoveNamedItem_m10750/* method */
 	, &XmlNamedNodeMap_t3166_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
 	, XmlNamedNodeMap_t3166_XmlNamedNodeMap_RemoveNamedItem_m10750_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -15870,10 +15870,10 @@ extern const MethodInfo XmlNamedNodeMap_RemoveNamedItem_m10750_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
 static const ParameterInfo XmlNamedNodeMap_t3166_XmlNamedNodeMap_SetNamedItem_m10751_ParameterInfos[] = 
 {
-	{"node", 0, 134218131, 0, &XmlNode_t667_0_0_0},
+	{"node", 0, 134218131, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlNode System.Xml.XmlNamedNodeMap::SetNamedItem(System.Xml.XmlNode)
@@ -15882,7 +15882,7 @@ extern const MethodInfo XmlNamedNodeMap_SetNamedItem_m10751_MethodInfo =
 	"SetNamedItem"/* name */
 	, (methodPointerType)&XmlNamedNodeMap_SetNamedItem_m10751/* method */
 	, &XmlNamedNodeMap_t3166_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, XmlNamedNodeMap_t3166_XmlNamedNodeMap_SetNamedItem_m10751_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -15898,12 +15898,12 @@ extern const MethodInfo XmlNamedNodeMap_SetNamedItem_m10751_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 static const ParameterInfo XmlNamedNodeMap_t3166_XmlNamedNodeMap_SetNamedItem_m10752_ParameterInfos[] = 
 {
-	{"node", 0, 134218132, 0, &XmlNode_t667_0_0_0},
+	{"node", 0, 134218132, 0, &XmlNode_t668_0_0_0},
 	{"pos", 1, 134218133, 0, &Int32_t82_0_0_0},
 	{"raiseEvent", 2, 134218134, 0, &Boolean_t59_0_0_0},
 };
@@ -15914,7 +15914,7 @@ extern const MethodInfo XmlNamedNodeMap_SetNamedItem_m10752_MethodInfo =
 	"SetNamedItem"/* name */
 	, (methodPointerType)&XmlNamedNodeMap_SetNamedItem_m10752/* method */
 	, &XmlNamedNodeMap_t3166_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t82_SByte_t88/* invoker_method */
 	, XmlNamedNodeMap_t3166_XmlNamedNodeMap_SetNamedItem_m10752_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17143,7 +17143,7 @@ extern const MethodInfo EmptyNodeList_Item_m10778_MethodInfo =
 	"Item"/* name */
 	, (methodPointerType)&EmptyNodeList_Item_m10778/* method */
 	, &EmptyNodeList_t3193_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
 	, EmptyNodeList_t3193_EmptyNodeList_Item_m10778_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17219,11 +17219,11 @@ extern Il2CppImage g_System_Xml_dll_Image;
 extern const Il2CppType EmptyNodeList_t3193_0_0_0;
 extern const Il2CppType EmptyNodeList_t3193_1_0_0;
 extern const Il2CppType XmlNodeList_t3194_0_0_0;
-extern TypeInfo XmlNode_t667_il2cpp_TypeInfo;
+extern TypeInfo XmlNode_t668_il2cpp_TypeInfo;
 struct EmptyNodeList_t3193;
 const Il2CppTypeDefinitionMetadata EmptyNodeList_t3193_DefinitionMetadata = 
 {
-	&XmlNode_t667_0_0_0/* declaringType */
+	&XmlNode_t668_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, EmptyNodeList_t3193_InterfacesOffsets/* interfaceOffsets */
@@ -17293,10 +17293,10 @@ TypeInfo EmptyNodeList_t3193_il2cpp_TypeInfo =
 // Metadata Definition System.Xml.XmlNode
 // System.Xml.XmlNode
 #include "System_Xml_System_Xml_XmlNodeMethodDeclarations.h"
-extern const Il2CppType XmlDocument_t630_0_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode__ctor_m10779_ParameterInfos[] = 
+extern const Il2CppType XmlDocument_t631_0_0_0;
+static const ParameterInfo XmlNode_t668_XmlNode__ctor_m10779_ParameterInfos[] = 
 {
-	{"ownerDocument", 0, 134218161, 0, &XmlDocument_t630_0_0_0},
+	{"ownerDocument", 0, 134218161, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlNode::.ctor(System.Xml.XmlDocument)
@@ -17304,10 +17304,10 @@ extern const MethodInfo XmlNode__ctor_m10779_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&XmlNode__ctor_m10779/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlNode_t667_XmlNode__ctor_m10779_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode__ctor_m10779_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -17327,7 +17327,7 @@ extern const MethodInfo XmlNode__cctor_m10780_MethodInfo =
 {
 	".cctor"/* name */
 	, (methodPointerType)&XmlNode__cctor_m10780/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -17350,7 +17350,7 @@ extern const MethodInfo XmlNode_System_Collections_IEnumerable_GetEnumerator_m10
 {
 	"System.Collections.IEnumerable.GetEnumerator"/* name */
 	, (methodPointerType)&XmlNode_System_Collections_IEnumerable_GetEnumerator_m10781/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17373,8 +17373,8 @@ extern const MethodInfo XmlNode_get_Attributes_m10782_MethodInfo =
 {
 	"get_Attributes"/* name */
 	, (methodPointerType)&XmlNode_get_Attributes_m10782/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttributeCollection_t673_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttributeCollection_t674_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17396,7 +17396,7 @@ extern const MethodInfo XmlNode_get_BaseURI_m10783_MethodInfo =
 {
 	"get_BaseURI"/* name */
 	, (methodPointerType)&XmlNode_get_BaseURI_m10783/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17419,7 +17419,7 @@ extern const MethodInfo XmlNode_get_ChildrenBaseURI_m10784_MethodInfo =
 {
 	"get_ChildrenBaseURI"/* name */
 	, (methodPointerType)&XmlNode_get_ChildrenBaseURI_m10784/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17442,7 +17442,7 @@ extern const MethodInfo XmlNode_get_ChildNodes_m10785_MethodInfo =
 {
 	"get_ChildNodes"/* name */
 	, (methodPointerType)&XmlNode_get_ChildNodes_m10785/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &XmlNodeList_t3194_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17465,8 +17465,8 @@ extern const MethodInfo XmlNode_get_FirstChild_m10786_MethodInfo =
 {
 	"get_FirstChild"/* name */
 	, (methodPointerType)&XmlNode_get_FirstChild_m10786/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17488,7 +17488,7 @@ extern const MethodInfo XmlNode_get_HasChildNodes_m10787_MethodInfo =
 {
 	"get_HasChildNodes"/* name */
 	, (methodPointerType)&XmlNode_get_HasChildNodes_m10787/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -17511,7 +17511,7 @@ extern const MethodInfo XmlNode_get_InnerText_m10788_MethodInfo =
 {
 	"get_InnerText"/* name */
 	, (methodPointerType)&XmlNode_get_InnerText_m10788/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17530,7 +17530,7 @@ extern const MethodInfo XmlNode_get_InnerText_m10788_MethodInfo =
 };
 extern const Il2CppType StringBuilder_t261_1_0_0;
 extern const Il2CppType StringBuilder_t261_1_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode_AppendChildValues_m10789_ParameterInfos[] = 
+static const ParameterInfo XmlNode_t668_XmlNode_AppendChildValues_m10789_ParameterInfos[] = 
 {
 	{"builder", 0, 134218162, 0, &StringBuilder_t261_1_0_0},
 };
@@ -17540,10 +17540,10 @@ extern const MethodInfo XmlNode_AppendChildValues_m10789_MethodInfo =
 {
 	"AppendChildValues"/* name */
 	, (methodPointerType)&XmlNode_AppendChildValues_m10789/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_StringBuilderU26_t3268/* invoker_method */
-	, XmlNode_t667_XmlNode_AppendChildValues_m10789_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode_AppendChildValues_m10789_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -17563,7 +17563,7 @@ extern const MethodInfo XmlNode_get_IsReadOnly_m10790_MethodInfo =
 {
 	"get_IsReadOnly"/* name */
 	, (methodPointerType)&XmlNode_get_IsReadOnly_m10790/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -17586,8 +17586,8 @@ extern const MethodInfo XmlNode_get_LastChild_m10791_MethodInfo =
 {
 	"get_LastChild"/* name */
 	, (methodPointerType)&XmlNode_get_LastChild_m10791/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17609,7 +17609,7 @@ extern const MethodInfo XmlNode_get_LocalName_m11269_MethodInfo =
 {
 	"get_LocalName"/* name */
 	, NULL/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17632,7 +17632,7 @@ extern const MethodInfo XmlNode_get_Name_m11270_MethodInfo =
 {
 	"get_Name"/* name */
 	, NULL/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17655,7 +17655,7 @@ extern const MethodInfo XmlNode_get_NamespaceURI_m10792_MethodInfo =
 {
 	"get_NamespaceURI"/* name */
 	, (methodPointerType)&XmlNode_get_NamespaceURI_m10792/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17678,8 +17678,8 @@ extern const MethodInfo XmlNode_get_NextSibling_m10793_MethodInfo =
 {
 	"get_NextSibling"/* name */
 	, (methodPointerType)&XmlNode_get_NextSibling_m10793/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17701,7 +17701,7 @@ extern const MethodInfo XmlNode_get_NodeType_m11271_MethodInfo =
 {
 	"get_NodeType"/* name */
 	, NULL/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &XmlNodeType_t3200_0_0_0/* return_type */
 	, RuntimeInvoker_XmlNodeType_t3200/* invoker_method */
 	, NULL/* parameters */
@@ -17724,8 +17724,8 @@ extern const MethodInfo XmlNode_get_OwnerDocument_m10794_MethodInfo =
 {
 	"get_OwnerDocument"/* name */
 	, (methodPointerType)&XmlNode_get_OwnerDocument_m10794/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlDocument_t630_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlDocument_t631_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17747,8 +17747,8 @@ extern const MethodInfo XmlNode_get_ParentNode_m10795_MethodInfo =
 {
 	"get_ParentNode"/* name */
 	, (methodPointerType)&XmlNode_get_ParentNode_m10795/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17770,7 +17770,7 @@ extern const MethodInfo XmlNode_get_Prefix_m10796_MethodInfo =
 {
 	"get_Prefix"/* name */
 	, (methodPointerType)&XmlNode_get_Prefix_m10796/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17793,8 +17793,8 @@ extern const MethodInfo XmlNode_get_PreviousSibling_m10797_MethodInfo =
 {
 	"get_PreviousSibling"/* name */
 	, (methodPointerType)&XmlNode_get_PreviousSibling_m10797/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17816,7 +17816,7 @@ extern const MethodInfo XmlNode_get_Value_m10798_MethodInfo =
 {
 	"get_Value"/* name */
 	, (methodPointerType)&XmlNode_get_Value_m10798/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17834,7 +17834,7 @@ extern const MethodInfo XmlNode_get_Value_m10798_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode_set_Value_m10799_ParameterInfos[] = 
+static const ParameterInfo XmlNode_t668_XmlNode_set_Value_m10799_ParameterInfos[] = 
 {
 	{"value", 0, 134218163, 0, &String_t_0_0_0},
 };
@@ -17844,10 +17844,10 @@ extern const MethodInfo XmlNode_set_Value_m10799_MethodInfo =
 {
 	"set_Value"/* name */
 	, (methodPointerType)&XmlNode_set_Value_m10799/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlNode_t667_XmlNode_set_Value_m10799_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode_set_Value_m10799_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -17867,7 +17867,7 @@ extern const MethodInfo XmlNode_get_XmlLang_m10800_MethodInfo =
 {
 	"get_XmlLang"/* name */
 	, (methodPointerType)&XmlNode_get_XmlLang_m10800/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17890,7 +17890,7 @@ extern const MethodInfo XmlNode_get_XmlSpace_m10801_MethodInfo =
 {
 	"get_XmlSpace"/* name */
 	, (methodPointerType)&XmlNode_get_XmlSpace_m10801/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &XmlSpace_t3212_0_0_0/* return_type */
 	, RuntimeInvoker_XmlSpace_t3212/* invoker_method */
 	, NULL/* parameters */
@@ -17908,7 +17908,7 @@ extern const MethodInfo XmlNode_get_XmlSpace_m10801_MethodInfo =
 
 };
 extern const Il2CppType IXmlSchemaInfo_t3165_0_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode_set_SchemaInfo_m10802_ParameterInfos[] = 
+static const ParameterInfo XmlNode_t668_XmlNode_set_SchemaInfo_m10802_ParameterInfos[] = 
 {
 	{"value", 0, 134218164, 0, &IXmlSchemaInfo_t3165_0_0_0},
 };
@@ -17918,10 +17918,10 @@ extern const MethodInfo XmlNode_set_SchemaInfo_m10802_MethodInfo =
 {
 	"set_SchemaInfo"/* name */
 	, (methodPointerType)&XmlNode_set_SchemaInfo_m10802/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlNode_t667_XmlNode_set_SchemaInfo_m10802_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode_set_SchemaInfo_m10802_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2499/* flags */
 	, 0/* iflags */
@@ -17935,10 +17935,10 @@ extern const MethodInfo XmlNode_set_SchemaInfo_m10802_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode_AppendChild_m10803_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlNode_t668_XmlNode_AppendChild_m10803_ParameterInfos[] = 
 {
-	{"newChild", 0, 134218165, 0, &XmlNode_t667_0_0_0},
+	{"newChild", 0, 134218165, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlNode System.Xml.XmlNode::AppendChild(System.Xml.XmlNode)
@@ -17946,10 +17946,10 @@ extern const MethodInfo XmlNode_AppendChild_m10803_MethodInfo =
 {
 	"AppendChild"/* name */
 	, (methodPointerType)&XmlNode_AppendChild_m10803/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlNode_t667_XmlNode_AppendChild_m10803_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode_AppendChild_m10803_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -17963,11 +17963,11 @@ extern const MethodInfo XmlNode_AppendChild_m10803_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode_AppendChild_m10804_ParameterInfos[] = 
+static const ParameterInfo XmlNode_t668_XmlNode_AppendChild_m10804_ParameterInfos[] = 
 {
-	{"newChild", 0, 134218166, 0, &XmlNode_t667_0_0_0},
+	{"newChild", 0, 134218166, 0, &XmlNode_t668_0_0_0},
 	{"checkNodeType", 1, 134218167, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -17976,10 +17976,10 @@ extern const MethodInfo XmlNode_AppendChild_m10804_MethodInfo =
 {
 	"AppendChild"/* name */
 	, (methodPointerType)&XmlNode_AppendChild_m10804/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88/* invoker_method */
-	, XmlNode_t667_XmlNode_AppendChild_m10804_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode_AppendChild_m10804_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -17994,7 +17994,7 @@ extern const MethodInfo XmlNode_AppendChild_m10804_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode_CloneNode_m11272_ParameterInfos[] = 
+static const ParameterInfo XmlNode_t668_XmlNode_CloneNode_m11272_ParameterInfos[] = 
 {
 	{"deep", 0, 134218168, 0, &Boolean_t59_0_0_0},
 };
@@ -18004,10 +18004,10 @@ extern const MethodInfo XmlNode_CloneNode_m11272_MethodInfo =
 {
 	"CloneNode"/* name */
 	, NULL/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
-	, XmlNode_t667_XmlNode_CloneNode_m11272_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode_CloneNode_m11272_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -18027,7 +18027,7 @@ extern const MethodInfo XmlNode_GetEnumerator_m10805_MethodInfo =
 {
 	"GetEnumerator"/* name */
 	, (methodPointerType)&XmlNode_GetEnumerator_m10805/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -18044,12 +18044,12 @@ extern const MethodInfo XmlNode_GetEnumerator_m10805_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode_InsertBefore_m10806_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlNode_t668_XmlNode_InsertBefore_m10806_ParameterInfos[] = 
 {
-	{"newChild", 0, 134218169, 0, &XmlNode_t667_0_0_0},
-	{"refChild", 1, 134218170, 0, &XmlNode_t667_0_0_0},
+	{"newChild", 0, 134218169, 0, &XmlNode_t668_0_0_0},
+	{"refChild", 1, 134218170, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlNode System.Xml.XmlNode::InsertBefore(System.Xml.XmlNode,System.Xml.XmlNode)
@@ -18057,10 +18057,10 @@ extern const MethodInfo XmlNode_InsertBefore_m10806_MethodInfo =
 {
 	"InsertBefore"/* name */
 	, (methodPointerType)&XmlNode_InsertBefore_m10806/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlNode_t667_XmlNode_InsertBefore_m10806_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode_InsertBefore_m10806_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -18074,10 +18074,10 @@ extern const MethodInfo XmlNode_InsertBefore_m10806_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode_IsAncestor_m10807_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlNode_t668_XmlNode_IsAncestor_m10807_ParameterInfos[] = 
 {
-	{"newChild", 0, 134218171, 0, &XmlNode_t667_0_0_0},
+	{"newChild", 0, 134218171, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.XmlNode::IsAncestor(System.Xml.XmlNode)
@@ -18085,10 +18085,10 @@ extern const MethodInfo XmlNode_IsAncestor_m10807_MethodInfo =
 {
 	"IsAncestor"/* name */
 	, (methodPointerType)&XmlNode_IsAncestor_m10807/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, XmlNode_t667_XmlNode_IsAncestor_m10807_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode_IsAncestor_m10807_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -18102,14 +18102,14 @@ extern const MethodInfo XmlNode_IsAncestor_m10807_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-extern const Il2CppType XmlNode_t667_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode_InsertBefore_m10808_ParameterInfos[] = 
+static const ParameterInfo XmlNode_t668_XmlNode_InsertBefore_m10808_ParameterInfos[] = 
 {
-	{"newChild", 0, 134218172, 0, &XmlNode_t667_0_0_0},
-	{"refChild", 1, 134218173, 0, &XmlNode_t667_0_0_0},
+	{"newChild", 0, 134218172, 0, &XmlNode_t668_0_0_0},
+	{"refChild", 1, 134218173, 0, &XmlNode_t668_0_0_0},
 	{"checkNodeType", 2, 134218174, 0, &Boolean_t59_0_0_0},
 	{"raiseEvent", 3, 134218175, 0, &Boolean_t59_0_0_0},
 };
@@ -18119,10 +18119,10 @@ extern const MethodInfo XmlNode_InsertBefore_m10808_MethodInfo =
 {
 	"InsertBefore"/* name */
 	, (methodPointerType)&XmlNode_InsertBefore_m10808/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_SByte_t88_SByte_t88/* invoker_method */
-	, XmlNode_t667_XmlNode_InsertBefore_m10808_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode_InsertBefore_m10808_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -18136,12 +18136,12 @@ extern const MethodInfo XmlNode_InsertBefore_m10808_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode_CheckNodeInsertion_m10809_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlNode_t668_XmlNode_CheckNodeInsertion_m10809_ParameterInfos[] = 
 {
-	{"newChild", 0, 134218176, 0, &XmlNode_t667_0_0_0},
-	{"refChild", 1, 134218177, 0, &XmlNode_t667_0_0_0},
+	{"newChild", 0, 134218176, 0, &XmlNode_t668_0_0_0},
+	{"refChild", 1, 134218177, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlNode::CheckNodeInsertion(System.Xml.XmlNode,System.Xml.XmlNode)
@@ -18149,10 +18149,10 @@ extern const MethodInfo XmlNode_CheckNodeInsertion_m10809_MethodInfo =
 {
 	"CheckNodeInsertion"/* name */
 	, (methodPointerType)&XmlNode_CheckNodeInsertion_m10809/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, XmlNode_t667_XmlNode_CheckNodeInsertion_m10809_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode_CheckNodeInsertion_m10809_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -18172,7 +18172,7 @@ extern const MethodInfo XmlNode_RemoveAll_m10810_MethodInfo =
 {
 	"RemoveAll"/* name */
 	, (methodPointerType)&XmlNode_RemoveAll_m10810/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -18189,10 +18189,10 @@ extern const MethodInfo XmlNode_RemoveAll_m10810_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode_RemoveChild_m10811_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t668_0_0_0;
+static const ParameterInfo XmlNode_t668_XmlNode_RemoveChild_m10811_ParameterInfos[] = 
 {
-	{"oldChild", 0, 134218178, 0, &XmlNode_t667_0_0_0},
+	{"oldChild", 0, 134218178, 0, &XmlNode_t668_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlNode System.Xml.XmlNode::RemoveChild(System.Xml.XmlNode)
@@ -18200,10 +18200,10 @@ extern const MethodInfo XmlNode_RemoveChild_m10811_MethodInfo =
 {
 	"RemoveChild"/* name */
 	, (methodPointerType)&XmlNode_RemoveChild_m10811/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlNode_t667_XmlNode_RemoveChild_m10811_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode_RemoveChild_m10811_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -18223,7 +18223,7 @@ extern const MethodInfo XmlNode_CheckNodeRemoval_m10812_MethodInfo =
 {
 	"CheckNodeRemoval"/* name */
 	, (methodPointerType)&XmlNode_CheckNodeRemoval_m10812/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -18240,11 +18240,11 @@ extern const MethodInfo XmlNode_CheckNodeRemoval_m10812_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t667_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode_RemoveChild_m10813_ParameterInfos[] = 
+static const ParameterInfo XmlNode_t668_XmlNode_RemoveChild_m10813_ParameterInfos[] = 
 {
-	{"oldChild", 0, 134218179, 0, &XmlNode_t667_0_0_0},
+	{"oldChild", 0, 134218179, 0, &XmlNode_t668_0_0_0},
 	{"checkNodeType", 1, 134218180, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -18253,10 +18253,10 @@ extern const MethodInfo XmlNode_RemoveChild_m10813_MethodInfo =
 {
 	"RemoveChild"/* name */
 	, (methodPointerType)&XmlNode_RemoveChild_m10813/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88/* invoker_method */
-	, XmlNode_t667_XmlNode_RemoveChild_m10813_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode_RemoveChild_m10813_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -18276,8 +18276,8 @@ extern const MethodInfo XmlNode_get_AttributeOwnerElement_m10814_MethodInfo =
 {
 	"get_AttributeOwnerElement"/* name */
 	, (methodPointerType)&XmlNode_get_AttributeOwnerElement_m10814/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlElement_t631_0_0_0/* return_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElement_t632_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -18293,10 +18293,10 @@ extern const MethodInfo XmlNode_get_AttributeOwnerElement_m10814_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlElement_t631_0_0_0;
-static const ParameterInfo XmlNode_t667_XmlNode_set_AttributeOwnerElement_m10815_ParameterInfos[] = 
+extern const Il2CppType XmlElement_t632_0_0_0;
+static const ParameterInfo XmlNode_t668_XmlNode_set_AttributeOwnerElement_m10815_ParameterInfos[] = 
 {
-	{"value", 0, 134218181, 0, &XmlElement_t631_0_0_0},
+	{"value", 0, 134218181, 0, &XmlElement_t632_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlNode::set_AttributeOwnerElement(System.Xml.XmlElement)
@@ -18304,10 +18304,10 @@ extern const MethodInfo XmlNode_set_AttributeOwnerElement_m10815_MethodInfo =
 {
 	"set_AttributeOwnerElement"/* name */
 	, (methodPointerType)&XmlNode_set_AttributeOwnerElement_m10815/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, XmlNode_t667_XmlNode_set_AttributeOwnerElement_m10815_ParameterInfos/* parameters */
+	, XmlNode_t668_XmlNode_set_AttributeOwnerElement_m10815_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -18327,7 +18327,7 @@ extern const MethodInfo XmlNode_ConstructNamespaceManager_m10816_MethodInfo =
 {
 	"ConstructNamespaceManager"/* name */
 	, (methodPointerType)&XmlNode_ConstructNamespaceManager_m10816/* method */
-	, &XmlNode_t667_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t668_il2cpp_TypeInfo/* declaring_type */
 	, &XmlNamespaceManager_t3192_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -18344,7 +18344,7 @@ extern const MethodInfo XmlNode_ConstructNamespaceManager_m10816_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlNode_t667_MethodInfos[] =
+static const MethodInfo* XmlNode_t668_MethodInfos[] =
 {
 	&XmlNode__ctor_m10779_MethodInfo,
 	&XmlNode__cctor_m10780_MethodInfo,
@@ -18390,9 +18390,9 @@ static const MethodInfo* XmlNode_t667_MethodInfos[] =
 	&XmlNode_ConstructNamespaceManager_m10816_MethodInfo,
 	NULL
 };
-static const PropertyInfo XmlNode_t667____Attributes_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____Attributes_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "Attributes"/* name */
 	, &XmlNode_get_Attributes_m10782_MethodInfo/* get */
 	, NULL/* set */
@@ -18400,9 +18400,9 @@ static const PropertyInfo XmlNode_t667____Attributes_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____BaseURI_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____BaseURI_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "BaseURI"/* name */
 	, &XmlNode_get_BaseURI_m10783_MethodInfo/* get */
 	, NULL/* set */
@@ -18410,9 +18410,9 @@ static const PropertyInfo XmlNode_t667____BaseURI_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____ChildrenBaseURI_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____ChildrenBaseURI_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "ChildrenBaseURI"/* name */
 	, &XmlNode_get_ChildrenBaseURI_m10784_MethodInfo/* get */
 	, NULL/* set */
@@ -18420,9 +18420,9 @@ static const PropertyInfo XmlNode_t667____ChildrenBaseURI_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____ChildNodes_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____ChildNodes_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "ChildNodes"/* name */
 	, &XmlNode_get_ChildNodes_m10785_MethodInfo/* get */
 	, NULL/* set */
@@ -18430,9 +18430,9 @@ static const PropertyInfo XmlNode_t667____ChildNodes_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____FirstChild_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____FirstChild_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "FirstChild"/* name */
 	, &XmlNode_get_FirstChild_m10786_MethodInfo/* get */
 	, NULL/* set */
@@ -18440,9 +18440,9 @@ static const PropertyInfo XmlNode_t667____FirstChild_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____HasChildNodes_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____HasChildNodes_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "HasChildNodes"/* name */
 	, &XmlNode_get_HasChildNodes_m10787_MethodInfo/* get */
 	, NULL/* set */
@@ -18450,9 +18450,9 @@ static const PropertyInfo XmlNode_t667____HasChildNodes_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____InnerText_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____InnerText_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "InnerText"/* name */
 	, &XmlNode_get_InnerText_m10788_MethodInfo/* get */
 	, NULL/* set */
@@ -18460,9 +18460,9 @@ static const PropertyInfo XmlNode_t667____InnerText_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____IsReadOnly_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____IsReadOnly_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "IsReadOnly"/* name */
 	, &XmlNode_get_IsReadOnly_m10790_MethodInfo/* get */
 	, NULL/* set */
@@ -18470,9 +18470,9 @@ static const PropertyInfo XmlNode_t667____IsReadOnly_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____LastChild_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____LastChild_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "LastChild"/* name */
 	, &XmlNode_get_LastChild_m10791_MethodInfo/* get */
 	, NULL/* set */
@@ -18481,9 +18481,9 @@ static const PropertyInfo XmlNode_t667____LastChild_PropertyInfo =
 
 };
 extern const MethodInfo XmlNode_get_LocalName_m11269_MethodInfo;
-static const PropertyInfo XmlNode_t667____LocalName_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____LocalName_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "LocalName"/* name */
 	, &XmlNode_get_LocalName_m11269_MethodInfo/* get */
 	, NULL/* set */
@@ -18492,9 +18492,9 @@ static const PropertyInfo XmlNode_t667____LocalName_PropertyInfo =
 
 };
 extern const MethodInfo XmlNode_get_Name_m11270_MethodInfo;
-static const PropertyInfo XmlNode_t667____Name_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____Name_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
 	, &XmlNode_get_Name_m11270_MethodInfo/* get */
 	, NULL/* set */
@@ -18502,9 +18502,9 @@ static const PropertyInfo XmlNode_t667____Name_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____NamespaceURI_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____NamespaceURI_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "NamespaceURI"/* name */
 	, &XmlNode_get_NamespaceURI_m10792_MethodInfo/* get */
 	, NULL/* set */
@@ -18512,9 +18512,9 @@ static const PropertyInfo XmlNode_t667____NamespaceURI_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____NextSibling_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____NextSibling_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "NextSibling"/* name */
 	, &XmlNode_get_NextSibling_m10793_MethodInfo/* get */
 	, NULL/* set */
@@ -18523,9 +18523,9 @@ static const PropertyInfo XmlNode_t667____NextSibling_PropertyInfo =
 
 };
 extern const MethodInfo XmlNode_get_NodeType_m11271_MethodInfo;
-static const PropertyInfo XmlNode_t667____NodeType_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____NodeType_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "NodeType"/* name */
 	, &XmlNode_get_NodeType_m11271_MethodInfo/* get */
 	, NULL/* set */
@@ -18533,9 +18533,9 @@ static const PropertyInfo XmlNode_t667____NodeType_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____OwnerDocument_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____OwnerDocument_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "OwnerDocument"/* name */
 	, &XmlNode_get_OwnerDocument_m10794_MethodInfo/* get */
 	, NULL/* set */
@@ -18543,9 +18543,9 @@ static const PropertyInfo XmlNode_t667____OwnerDocument_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____ParentNode_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____ParentNode_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "ParentNode"/* name */
 	, &XmlNode_get_ParentNode_m10795_MethodInfo/* get */
 	, NULL/* set */
@@ -18553,9 +18553,9 @@ static const PropertyInfo XmlNode_t667____ParentNode_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____Prefix_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____Prefix_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "Prefix"/* name */
 	, &XmlNode_get_Prefix_m10796_MethodInfo/* get */
 	, NULL/* set */
@@ -18563,9 +18563,9 @@ static const PropertyInfo XmlNode_t667____Prefix_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____PreviousSibling_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____PreviousSibling_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "PreviousSibling"/* name */
 	, &XmlNode_get_PreviousSibling_m10797_MethodInfo/* get */
 	, NULL/* set */
@@ -18573,9 +18573,9 @@ static const PropertyInfo XmlNode_t667____PreviousSibling_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____Value_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____Value_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "Value"/* name */
 	, &XmlNode_get_Value_m10798_MethodInfo/* get */
 	, &XmlNode_set_Value_m10799_MethodInfo/* set */
@@ -18583,9 +18583,9 @@ static const PropertyInfo XmlNode_t667____Value_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____XmlLang_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____XmlLang_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "XmlLang"/* name */
 	, &XmlNode_get_XmlLang_m10800_MethodInfo/* get */
 	, NULL/* set */
@@ -18593,9 +18593,9 @@ static const PropertyInfo XmlNode_t667____XmlLang_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____XmlSpace_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____XmlSpace_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "XmlSpace"/* name */
 	, &XmlNode_get_XmlSpace_m10801_MethodInfo/* get */
 	, NULL/* set */
@@ -18603,9 +18603,9 @@ static const PropertyInfo XmlNode_t667____XmlSpace_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo XmlNode_t667____SchemaInfo_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____SchemaInfo_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "SchemaInfo"/* name */
 	, NULL/* get */
 	, &XmlNode_set_SchemaInfo_m10802_MethodInfo/* set */
@@ -18615,9 +18615,9 @@ static const PropertyInfo XmlNode_t667____SchemaInfo_PropertyInfo =
 };
 extern const MethodInfo XmlNode_get_AttributeOwnerElement_m10814_MethodInfo;
 extern const MethodInfo XmlNode_set_AttributeOwnerElement_m10815_MethodInfo;
-static const PropertyInfo XmlNode_t667____AttributeOwnerElement_PropertyInfo = 
+static const PropertyInfo XmlNode_t668____AttributeOwnerElement_PropertyInfo = 
 {
-	&XmlNode_t667_il2cpp_TypeInfo/* parent */
+	&XmlNode_t668_il2cpp_TypeInfo/* parent */
 	, "AttributeOwnerElement"/* name */
 	, &XmlNode_get_AttributeOwnerElement_m10814_MethodInfo/* get */
 	, &XmlNode_set_AttributeOwnerElement_m10815_MethodInfo/* set */
@@ -18625,38 +18625,38 @@ static const PropertyInfo XmlNode_t667____AttributeOwnerElement_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlNode_t667_PropertyInfos[] =
+static const PropertyInfo* XmlNode_t668_PropertyInfos[] =
 {
-	&XmlNode_t667____Attributes_PropertyInfo,
-	&XmlNode_t667____BaseURI_PropertyInfo,
-	&XmlNode_t667____ChildrenBaseURI_PropertyInfo,
-	&XmlNode_t667____ChildNodes_PropertyInfo,
-	&XmlNode_t667____FirstChild_PropertyInfo,
-	&XmlNode_t667____HasChildNodes_PropertyInfo,
-	&XmlNode_t667____InnerText_PropertyInfo,
-	&XmlNode_t667____IsReadOnly_PropertyInfo,
-	&XmlNode_t667____LastChild_PropertyInfo,
-	&XmlNode_t667____LocalName_PropertyInfo,
-	&XmlNode_t667____Name_PropertyInfo,
-	&XmlNode_t667____NamespaceURI_PropertyInfo,
-	&XmlNode_t667____NextSibling_PropertyInfo,
-	&XmlNode_t667____NodeType_PropertyInfo,
-	&XmlNode_t667____OwnerDocument_PropertyInfo,
-	&XmlNode_t667____ParentNode_PropertyInfo,
-	&XmlNode_t667____Prefix_PropertyInfo,
-	&XmlNode_t667____PreviousSibling_PropertyInfo,
-	&XmlNode_t667____Value_PropertyInfo,
-	&XmlNode_t667____XmlLang_PropertyInfo,
-	&XmlNode_t667____XmlSpace_PropertyInfo,
-	&XmlNode_t667____SchemaInfo_PropertyInfo,
-	&XmlNode_t667____AttributeOwnerElement_PropertyInfo,
+	&XmlNode_t668____Attributes_PropertyInfo,
+	&XmlNode_t668____BaseURI_PropertyInfo,
+	&XmlNode_t668____ChildrenBaseURI_PropertyInfo,
+	&XmlNode_t668____ChildNodes_PropertyInfo,
+	&XmlNode_t668____FirstChild_PropertyInfo,
+	&XmlNode_t668____HasChildNodes_PropertyInfo,
+	&XmlNode_t668____InnerText_PropertyInfo,
+	&XmlNode_t668____IsReadOnly_PropertyInfo,
+	&XmlNode_t668____LastChild_PropertyInfo,
+	&XmlNode_t668____LocalName_PropertyInfo,
+	&XmlNode_t668____Name_PropertyInfo,
+	&XmlNode_t668____NamespaceURI_PropertyInfo,
+	&XmlNode_t668____NextSibling_PropertyInfo,
+	&XmlNode_t668____NodeType_PropertyInfo,
+	&XmlNode_t668____OwnerDocument_PropertyInfo,
+	&XmlNode_t668____ParentNode_PropertyInfo,
+	&XmlNode_t668____Prefix_PropertyInfo,
+	&XmlNode_t668____PreviousSibling_PropertyInfo,
+	&XmlNode_t668____Value_PropertyInfo,
+	&XmlNode_t668____XmlLang_PropertyInfo,
+	&XmlNode_t668____XmlSpace_PropertyInfo,
+	&XmlNode_t668____SchemaInfo_PropertyInfo,
+	&XmlNode_t668____AttributeOwnerElement_PropertyInfo,
 	NULL
 };
-static const Il2CppType* XmlNode_t667_il2cpp_TypeInfo__nestedTypes[1] =
+static const Il2CppType* XmlNode_t668_il2cpp_TypeInfo__nestedTypes[1] =
 {
 	&EmptyNodeList_t3193_0_0_0,
 };
-static const Il2CppMethodReference XmlNode_t667_VTable[] =
+static const Il2CppMethodReference XmlNode_t668_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -18693,7 +18693,7 @@ static const Il2CppMethodReference XmlNode_t667_VTable[] =
 	&XmlNode_RemoveAll_m10810_MethodInfo,
 	&XmlNode_RemoveChild_m10811_MethodInfo,
 };
-static bool XmlNode_t667_VTableIsGenericMethod[] =
+static bool XmlNode_t668_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -18730,49 +18730,49 @@ static bool XmlNode_t667_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* XmlNode_t667_InterfacesTypeInfos[] = 
+static const Il2CppType* XmlNode_t668_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICloneable_t761_0_0_0,
+	&ICloneable_t762_0_0_0,
 	&IXPathNavigable_t3262_0_0_0,
 };
-static Il2CppInterfaceOffsetPair XmlNode_t667_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlNode_t668_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlNode_t667_1_0_0;
-struct XmlNode_t667;
-const Il2CppTypeDefinitionMetadata XmlNode_t667_DefinitionMetadata = 
+extern const Il2CppType XmlNode_t668_1_0_0;
+struct XmlNode_t668;
+const Il2CppTypeDefinitionMetadata XmlNode_t668_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, XmlNode_t667_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
-	, XmlNode_t667_InterfacesTypeInfos/* implementedInterfaces */
-	, XmlNode_t667_InterfacesOffsets/* interfaceOffsets */
+	, XmlNode_t668_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, XmlNode_t668_InterfacesTypeInfos/* implementedInterfaces */
+	, XmlNode_t668_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, XmlNode_t667_VTable/* vtableMethods */
-	, XmlNode_t667_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlNode_t668_VTable/* vtableMethods */
+	, XmlNode_t668_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 431/* fieldStart */
 
 };
-TypeInfo XmlNode_t667_il2cpp_TypeInfo = 
+TypeInfo XmlNode_t668_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlNode"/* name */
 	, "System.Xml"/* namespaze */
-	, XmlNode_t667_MethodInfos/* methods */
-	, XmlNode_t667_PropertyInfos/* properties */
+	, XmlNode_t668_MethodInfos/* methods */
+	, XmlNode_t668_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlNode_t667_il2cpp_TypeInfo/* element_class */
+	, &XmlNode_t668_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 54/* custom_attributes_cache */
-	, &XmlNode_t667_0_0_0/* byval_arg */
-	, &XmlNode_t667_1_0_0/* this_arg */
-	, &XmlNode_t667_DefinitionMetadata/* definitionMetadata */
+	, &XmlNode_t668_0_0_0/* byval_arg */
+	, &XmlNode_t668_1_0_0/* this_arg */
+	, &XmlNode_t668_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -18782,11 +18782,11 @@ TypeInfo XmlNode_t667_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlNode_t667)/* instance_size */
-	, sizeof (XmlNode_t667)/* actualSize */
+	, sizeof (XmlNode_t668)/* instance_size */
+	, sizeof (XmlNode_t668)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(XmlNode_t667_StaticFields)/* static_fields_size */
+	, sizeof(XmlNode_t668_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048705/* flags */
@@ -18956,17 +18956,17 @@ TypeInfo XmlNodeChangedAction_t3196_il2cpp_TypeInfo =
 extern TypeInfo XmlNodeChangedEventArgs_t3197_il2cpp_TypeInfo;
 // System.Xml.XmlNodeChangedEventArgs
 #include "System_Xml_System_Xml_XmlNodeChangedEventArgsMethodDeclarations.h"
-extern const Il2CppType XmlNode_t667_0_0_0;
-extern const Il2CppType XmlNode_t667_0_0_0;
-extern const Il2CppType XmlNode_t667_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
+extern const Il2CppType XmlNode_t668_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType XmlNodeChangedAction_t3196_0_0_0;
 static const ParameterInfo XmlNodeChangedEventArgs_t3197_XmlNodeChangedEventArgs__ctor_m10817_ParameterInfos[] = 
 {
-	{"node", 0, 134218183, 0, &XmlNode_t667_0_0_0},
-	{"oldParent", 1, 134218184, 0, &XmlNode_t667_0_0_0},
-	{"newParent", 2, 134218185, 0, &XmlNode_t667_0_0_0},
+	{"node", 0, 134218183, 0, &XmlNode_t668_0_0_0},
+	{"oldParent", 1, 134218184, 0, &XmlNode_t668_0_0_0},
+	{"newParent", 2, 134218185, 0, &XmlNode_t668_0_0_0},
 	{"oldValue", 3, 134218186, 0, &String_t_0_0_0},
 	{"newValue", 4, 134218187, 0, &String_t_0_0_0},
 	{"action", 5, 134218188, 0, &XmlNodeChangedAction_t3196_0_0_0},
@@ -19149,7 +19149,7 @@ extern const MethodInfo XmlNodeList_get_ItemOf_m10819_MethodInfo =
 	"get_ItemOf"/* name */
 	, (methodPointerType)&XmlNodeList_get_ItemOf_m10819/* method */
 	, &XmlNodeList_t3194_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
 	, XmlNodeList_t3194_XmlNodeList_get_ItemOf_m10819_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -19200,7 +19200,7 @@ extern const MethodInfo XmlNodeList_Item_m11275_MethodInfo =
 	"Item"/* name */
 	, NULL/* method */
 	, &XmlNodeList_t3194_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
 	, XmlNodeList_t3194_XmlNodeList_Item_m11275_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -19682,7 +19682,7 @@ extern const MethodInfo XmlNodeListChildren_Item_m10827_MethodInfo =
 	"Item"/* name */
 	, (methodPointerType)&XmlNodeListChildren_Item_m10827/* method */
 	, &XmlNodeListChildren_t3195_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
 	, XmlNodeListChildren_t3195_XmlNodeListChildren_Item_m10827_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -19973,14 +19973,14 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlNotation_t3201_XmlNotation__ctor_m10828_ParameterInfos[] = 
 {
 	{"localName", 0, 134218194, 0, &String_t_0_0_0},
 	{"prefix", 1, 134218195, 0, &String_t_0_0_0},
 	{"publicId", 2, 134218196, 0, &String_t_0_0_0},
 	{"systemId", 3, 134218197, 0, &String_t_0_0_0},
-	{"doc", 4, 134218198, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 4, 134218198, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlNotation::.ctor(System.String,System.String,System.String,System.String,System.Xml.XmlDocument)
@@ -20109,7 +20109,7 @@ extern const MethodInfo XmlNotation_CloneNode_m10833_MethodInfo =
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlNotation_CloneNode_m10833/* method */
 	, &XmlNotation_t3201_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
 	, XmlNotation_t3201_XmlNotation_CloneNode_m10833_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -20265,7 +20265,7 @@ static bool XmlNotation_t3201_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair XmlNotation_t3201_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
@@ -20278,7 +20278,7 @@ const Il2CppTypeDefinitionMetadata XmlNotation_t3201_DefinitionMetadata =
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, XmlNotation_t3201_InterfacesOffsets/* interfaceOffsets */
-	, &XmlNode_t667_0_0_0/* parent */
+	, &XmlNode_t668_0_0_0/* parent */
 	, XmlNotation_t3201_VTable/* vtableMethods */
 	, XmlNotation_t3201_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
@@ -20508,7 +20508,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType XmlSpace_t3212_0_0_0;
-extern const Il2CppType Encoding_t689_0_0_0;
+extern const Il2CppType Encoding_t690_0_0_0;
 static const ParameterInfo XmlParserContext_t3203_XmlParserContext__ctor_m10836_ParameterInfos[] = 
 {
 	{"nt", 0, 134218204, 0, &XmlNameTable_t3133_0_0_0},
@@ -20520,7 +20520,7 @@ static const ParameterInfo XmlParserContext_t3203_XmlParserContext__ctor_m10836_
 	{"baseURI", 6, 134218210, 0, &String_t_0_0_0},
 	{"xmlLang", 7, 134218211, 0, &String_t_0_0_0},
 	{"xmlSpace", 8, 134218212, 0, &XmlSpace_t3212_0_0_0},
-	{"enc", 9, 134218213, 0, &Encoding_t689_0_0_0},
+	{"enc", 9, 134218213, 0, &Encoding_t690_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlParserContext::.ctor(System.Xml.XmlNameTable,System.Xml.XmlNamespaceManager,System.String,System.String,System.String,System.String,System.String,System.String,System.Xml.XmlSpace,System.Text.Encoding)
@@ -20551,7 +20551,7 @@ extern const Il2CppType DTDObjectModel_t3125_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType XmlSpace_t3212_0_0_0;
-extern const Il2CppType Encoding_t689_0_0_0;
+extern const Il2CppType Encoding_t690_0_0_0;
 static const ParameterInfo XmlParserContext_t3203_XmlParserContext__ctor_m10837_ParameterInfos[] = 
 {
 	{"nt", 0, 134218214, 0, &XmlNameTable_t3133_0_0_0},
@@ -20560,7 +20560,7 @@ static const ParameterInfo XmlParserContext_t3203_XmlParserContext__ctor_m10837_
 	{"baseURI", 3, 134218217, 0, &String_t_0_0_0},
 	{"xmlLang", 4, 134218218, 0, &String_t_0_0_0},
 	{"xmlSpace", 5, 134218219, 0, &XmlSpace_t3212_0_0_0},
-	{"enc", 6, 134218220, 0, &Encoding_t689_0_0_0},
+	{"enc", 6, 134218220, 0, &Encoding_t690_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlParserContext::.ctor(System.Xml.XmlNameTable,System.Xml.XmlNamespaceManager,Mono.Xml.DTDObjectModel,System.String,System.String,System.Xml.XmlSpace,System.Text.Encoding)
@@ -20715,10 +20715,10 @@ extern const MethodInfo XmlParserContext_set_Dtd_m10842_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Encoding_t689_0_0_0;
+extern const Il2CppType Encoding_t690_0_0_0;
 static const ParameterInfo XmlParserContext_t3203_XmlParserContext_set_Encoding_m10843_ParameterInfos[] = 
 {
-	{"value", 0, 134218224, 0, &Encoding_t689_0_0_0},
+	{"value", 0, 134218224, 0, &Encoding_t690_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlParserContext::set_Encoding(System.Text.Encoding)
@@ -22066,12 +22066,12 @@ extern TypeInfo XmlProcessingInstruction_t3205_il2cpp_TypeInfo;
 #include "System_Xml_System_Xml_XmlProcessingInstructionMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlProcessingInstruction_t3205_XmlProcessingInstruction__ctor_m10874_ParameterInfos[] = 
 {
 	{"target", 0, 134218243, 0, &String_t_0_0_0},
 	{"data", 1, 134218244, 0, &String_t_0_0_0},
-	{"doc", 2, 134218245, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 2, 134218245, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlProcessingInstruction::.ctor(System.String,System.String,System.Xml.XmlDocument)
@@ -22297,7 +22297,7 @@ extern const MethodInfo XmlProcessingInstruction_CloneNode_m10883_MethodInfo =
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlProcessingInstruction_CloneNode_m10883/* method */
 	, &XmlProcessingInstruction_t3205_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
 	, XmlProcessingInstruction_t3205_XmlProcessingInstruction_CloneNode_m10883_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -22494,7 +22494,7 @@ static bool XmlProcessingInstruction_t3205_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair XmlProcessingInstruction_t3205_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
@@ -24428,12 +24428,12 @@ extern const MethodInfo CharGetter__ctor_m10908_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo CharGetter_t3210_CharGetter_Invoke_m10909_ParameterInfos[] = 
 {
-	{"buffer", 0, 134218261, 0, &CharU5BU5D_t660_0_0_0},
+	{"buffer", 0, 134218261, 0, &CharU5BU5D_t661_0_0_0},
 	{"offset", 1, 134218262, 0, &Int32_t82_0_0_0},
 	{"length", 2, 134218263, 0, &Int32_t82_0_0_0},
 };
@@ -24460,7 +24460,7 @@ extern const MethodInfo CharGetter_Invoke_m10909_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
@@ -24468,7 +24468,7 @@ extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo CharGetter_t3210_CharGetter_BeginInvoke_m10910_ParameterInfos[] = 
 {
-	{"buffer", 0, 134218264, 0, &CharU5BU5D_t660_0_0_0},
+	{"buffer", 0, 134218264, 0, &CharU5BU5D_t661_0_0_0},
 	{"offset", 1, 134218265, 0, &Int32_t82_0_0_0},
 	{"length", 2, 134218266, 0, &Int32_t82_0_0_0},
 	{"callback", 3, 134218267, 0, &AsyncCallback_t386_0_0_0},
@@ -24534,30 +24534,30 @@ static const MethodInfo* CharGetter_t3210_MethodInfos[] =
 	&CharGetter_EndInvoke_m10911_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m4257_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m4258_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m4259_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo;
-extern const MethodInfo Delegate_Clone_m4261_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4262_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m4263_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m4258_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m4259_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m4260_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo;
+extern const MethodInfo Delegate_Clone_m4262_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4263_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4265_MethodInfo;
 extern const MethodInfo CharGetter_Invoke_m10909_MethodInfo;
 extern const MethodInfo CharGetter_BeginInvoke_m10910_MethodInfo;
 extern const MethodInfo CharGetter_EndInvoke_m10911_MethodInfo;
 static const Il2CppMethodReference CharGetter_t3210_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&CharGetter_Invoke_m10909_MethodInfo,
 	&CharGetter_BeginInvoke_m10910_MethodInfo,
 	&CharGetter_EndInvoke_m10911_MethodInfo,
@@ -24581,8 +24581,8 @@ static bool CharGetter_t3210_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair CharGetter_t3210_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
 extern const Il2CppType CharGetter_t3210_0_0_0;
@@ -24978,14 +24978,14 @@ extern const MethodInfo XmlResolver__ctor_m10915_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 static const ParameterInfo XmlResolver_t3132_XmlResolver_GetEntity_m11297_ParameterInfos[] = 
 {
-	{"absoluteUri", 0, 134218270, 0, &Uri_t707_0_0_0},
+	{"absoluteUri", 0, 134218270, 0, &Uri_t708_0_0_0},
 	{"role", 1, 134218271, 0, &String_t_0_0_0},
 	{"type", 2, 134218272, 0, &Type_t_0_0_0},
 };
@@ -25012,11 +25012,11 @@ extern const MethodInfo XmlResolver_GetEntity_m11297_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo XmlResolver_t3132_XmlResolver_ResolveUri_m10916_ParameterInfos[] = 
 {
-	{"baseUri", 0, 134218273, 0, &Uri_t707_0_0_0},
+	{"baseUri", 0, 134218273, 0, &Uri_t708_0_0_0},
 	{"relativeUri", 1, 134218274, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -25026,7 +25026,7 @@ extern const MethodInfo XmlResolver_ResolveUri_m10916_MethodInfo =
 	"ResolveUri"/* name */
 	, (methodPointerType)&XmlResolver_ResolveUri_m10916/* method */
 	, &XmlResolver_t3132_il2cpp_TypeInfo/* declaring_type */
-	, &Uri_t707_0_0_0/* return_type */
+	, &Uri_t708_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
 	, XmlResolver_t3132_XmlResolver_ResolveUri_m10916_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -25174,11 +25174,11 @@ extern TypeInfo XmlSignificantWhitespace_t3211_il2cpp_TypeInfo;
 // System.Xml.XmlSignificantWhitespace
 #include "System_Xml_System_Xml_XmlSignificantWhitespaceMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlSignificantWhitespace_t3211_XmlSignificantWhitespace__ctor_m10918_ParameterInfos[] = 
 {
 	{"strData", 0, 134218276, 0, &String_t_0_0_0},
-	{"doc", 1, 134218277, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 1, 134218277, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlSignificantWhitespace::.ctor(System.String,System.Xml.XmlDocument)
@@ -25330,7 +25330,7 @@ extern const MethodInfo XmlSignificantWhitespace_get_ParentNode_m10924_MethodInf
 	"get_ParentNode"/* name */
 	, (methodPointerType)&XmlSignificantWhitespace_get_ParentNode_m10924/* method */
 	, &XmlSignificantWhitespace_t3211_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -25358,7 +25358,7 @@ extern const MethodInfo XmlSignificantWhitespace_CloneNode_m10925_MethodInfo =
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlSignificantWhitespace_CloneNode_m10925/* method */
 	, &XmlSignificantWhitespace_t3211_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
 	, XmlSignificantWhitespace_t3211_XmlSignificantWhitespace_CloneNode_m10925_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -25533,7 +25533,7 @@ static bool XmlSignificantWhitespace_t3211_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair XmlSignificantWhitespace_t3211_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
@@ -25750,11 +25750,11 @@ extern TypeInfo XmlText_t3213_il2cpp_TypeInfo;
 // System.Xml.XmlText
 #include "System_Xml_System_Xml_XmlTextMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlText_t3213_XmlText__ctor_m10926_ParameterInfos[] = 
 {
 	{"strData", 0, 134218280, 0, &String_t_0_0_0},
-	{"doc", 1, 134218281, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 1, 134218281, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlText::.ctor(System.String,System.Xml.XmlDocument)
@@ -25906,7 +25906,7 @@ extern const MethodInfo XmlText_get_ParentNode_m10932_MethodInfo =
 	"get_ParentNode"/* name */
 	, (methodPointerType)&XmlText_get_ParentNode_m10932/* method */
 	, &XmlText_t3213_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -25934,7 +25934,7 @@ extern const MethodInfo XmlText_CloneNode_m10933_MethodInfo =
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlText_CloneNode_m10933/* method */
 	, &XmlText_t3213_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
 	, XmlText_t3213_XmlText_CloneNode_m10933_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -26109,7 +26109,7 @@ static bool XmlText_t3213_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair XmlText_t3213_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
@@ -28339,12 +28339,12 @@ extern const MethodInfo XmlTextReader_ReadAttributeValue_m10995_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo XmlTextReader_t3214_XmlTextReader_ReadChars_m10996_ParameterInfos[] = 
 {
-	{"buffer", 0, 134218315, 0, &CharU5BU5D_t660_0_0_0},
+	{"buffer", 0, 134218315, 0, &CharU5BU5D_t661_0_0_0},
 	{"offset", 1, 134218316, 0, &Int32_t82_0_0_0},
 	{"length", 2, 134218317, 0, &Int32_t82_0_0_0},
 };
@@ -29460,7 +29460,7 @@ static const ParameterInfo XmlTextReader_t3214_XmlTextReader_ParseAttributeFromS
 	{"name", 2, 134218359, 0, &String_t_1_0_2},
 	{"value", 3, 134218360, 0, &String_t_1_0_2},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_Int32U26_t1085_StringU26_t756_StringU26_t756 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_Int32U26_t1085_StringU26_t757_StringU26_t757 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml2.XmlTextReader::ParseAttributeFromString(System.String,System.Int32&,System.String&,System.String&)
 extern const MethodInfo XmlTextReader_ParseAttributeFromString_m11038_MethodInfo = 
 {
@@ -29468,7 +29468,7 @@ extern const MethodInfo XmlTextReader_ParseAttributeFromString_m11038_MethodInfo
 	, (methodPointerType)&XmlTextReader_ParseAttributeFromString_m11038/* method */
 	, &XmlTextReader_t3214_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_Int32U26_t1085_StringU26_t756_StringU26_t756/* invoker_method */
+	, RuntimeInvoker_Void_t85_Object_t_Int32U26_t1085_StringU26_t757_StringU26_t757/* invoker_method */
 	, XmlTextReader_t3214_XmlTextReader_ParseAttributeFromString_m11038_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -29848,7 +29848,7 @@ static const ParameterInfo XmlTextReader_t3214_XmlTextReader_ReadName_m11053_Par
 	{"prefix", 0, 134218373, 0, &String_t_1_0_2},
 	{"localName", 1, 134218374, 0, &String_t_1_0_2},
 };
-extern void* RuntimeInvoker_Object_t_StringU26_t756_StringU26_t756 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_StringU26_t757_StringU26_t757 (const MethodInfo* method, void* obj, void** args);
 // System.String Mono.Xml2.XmlTextReader::ReadName(System.String&,System.String&)
 extern const MethodInfo XmlTextReader_ReadName_m11053_MethodInfo = 
 {
@@ -29856,7 +29856,7 @@ extern const MethodInfo XmlTextReader_ReadName_m11053_MethodInfo =
 	, (methodPointerType)&XmlTextReader_ReadName_m11053/* method */
 	, &XmlTextReader_t3214_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_StringU26_t756_StringU26_t756/* invoker_method */
+	, RuntimeInvoker_Object_t_StringU26_t757_StringU26_t757/* invoker_method */
 	, XmlTextReader_t3214_XmlTextReader_ReadName_m11053_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -29932,7 +29932,7 @@ static const ParameterInfo XmlTextReader_t3214_XmlTextReader_ExpectAfterWhitespa
 {
 	{"c", 0, 134218377, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml2.XmlTextReader::ExpectAfterWhitespace(System.Char)
 extern const MethodInfo XmlTextReader_ExpectAfterWhitespace_m11056_MethodInfo = 
 {
@@ -29940,7 +29940,7 @@ extern const MethodInfo XmlTextReader_ExpectAfterWhitespace_m11056_MethodInfo =
 	, (methodPointerType)&XmlTextReader_ExpectAfterWhitespace_m11056/* method */
 	, &XmlTextReader_t3214_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Void_t85_Int16_t693/* invoker_method */
 	, XmlTextReader_t3214_XmlTextReader_ExpectAfterWhitespace_m11056_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -30001,12 +30001,12 @@ extern const MethodInfo XmlTextReader_ReadWhitespace_m11058_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo XmlTextReader_t3214_XmlTextReader_ReadCharsInternal_m11059_ParameterInfos[] = 
 {
-	{"buffer", 0, 134218378, 0, &CharU5BU5D_t660_0_0_0},
+	{"buffer", 0, 134218378, 0, &CharU5BU5D_t661_0_0_0},
 	{"offset", 1, 134218379, 0, &Int32_t82_0_0_0},
 	{"length", 2, 134218380, 0, &Int32_t82_0_0_0},
 };
@@ -32729,12 +32729,12 @@ extern const MethodInfo StringUtil_IndexOf_m11113_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
 static const ParameterInfo StringUtil_t3227_StringUtil_Format_m11114_ParameterInfos[] = 
 {
 	{"format", 0, 134218456, 0, &String_t_0_0_0},
-	{"args", 1, 134218457, 64, &ObjectU5BU5D_t635_0_0_0},
+	{"args", 1, 134218457, 64, &ObjectU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.XmlTextWriter/StringUtil::Format(System.String,System.Object[])
@@ -33941,12 +33941,12 @@ extern const MethodInfo XmlTextWriter_WriteCheckedString_m11149_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo XmlTextWriter_t3232_XmlTextWriter_WriteCheckedBuffer_m11150_ParameterInfos[] = 
 {
-	{"text", 0, 134218444, 0, &CharU5BU5D_t660_0_0_0},
+	{"text", 0, 134218444, 0, &CharU5BU5D_t661_0_0_0},
 	{"idx", 1, 134218445, 0, &Int32_t82_0_0_0},
 	{"length", 2, 134218446, 0, &Int32_t82_0_0_0},
 };
@@ -33973,13 +33973,13 @@ extern const MethodInfo XmlTextWriter_WriteCheckedBuffer_m11150_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 static const ParameterInfo XmlTextWriter_t3232_XmlTextWriter_WriteEscapedBuffer_m11151_ParameterInfos[] = 
 {
-	{"text", 0, 134218447, 0, &CharU5BU5D_t660_0_0_0},
+	{"text", 0, 134218447, 0, &CharU5BU5D_t661_0_0_0},
 	{"index", 1, 134218448, 0, &Int32_t82_0_0_0},
 	{"length", 2, 134218449, 0, &Int32_t82_0_0_0},
 	{"isAttribute", 3, 134218450, 0, &Boolean_t59_0_0_0},
@@ -34480,12 +34480,12 @@ extern const MethodInfo XmlUrlResolver__ctor_m11155_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 static const ParameterInfo XmlUrlResolver_t3236_XmlUrlResolver_GetEntity_m11156_ParameterInfos[] = 
 {
-	{"absoluteUri", 0, 134218458, 0, &Uri_t707_0_0_0},
+	{"absoluteUri", 0, 134218458, 0, &Uri_t708_0_0_0},
 	{"role", 1, 134218459, 0, &String_t_0_0_0},
 	{"ofObjectToReturn", 2, 134218460, 0, &Type_t_0_0_0},
 };
@@ -34512,11 +34512,11 @@ extern const MethodInfo XmlUrlResolver_GetEntity_m11156_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo XmlUrlResolver_t3236_XmlUrlResolver_ResolveUri_m11157_ParameterInfos[] = 
 {
-	{"baseUri", 0, 134218461, 0, &Uri_t707_0_0_0},
+	{"baseUri", 0, 134218461, 0, &Uri_t708_0_0_0},
 	{"relativeUri", 1, 134218462, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -34526,7 +34526,7 @@ extern const MethodInfo XmlUrlResolver_ResolveUri_m11157_MethodInfo =
 	"ResolveUri"/* name */
 	, (methodPointerType)&XmlUrlResolver_ResolveUri_m11157/* method */
 	, &XmlUrlResolver_t3236_il2cpp_TypeInfo/* declaring_type */
-	, &Uri_t707_0_0_0/* return_type */
+	, &Uri_t708_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
 	, XmlUrlResolver_t3236_XmlUrlResolver_ResolveUri_m11157_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -34676,11 +34676,11 @@ extern TypeInfo XmlWhitespace_t3237_il2cpp_TypeInfo;
 // System.Xml.XmlWhitespace
 #include "System_Xml_System_Xml_XmlWhitespaceMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlDocument_t630_0_0_0;
+extern const Il2CppType XmlDocument_t631_0_0_0;
 static const ParameterInfo XmlWhitespace_t3237_XmlWhitespace__ctor_m11159_ParameterInfos[] = 
 {
 	{"strData", 0, 134218464, 0, &String_t_0_0_0},
-	{"doc", 1, 134218465, 0, &XmlDocument_t630_0_0_0},
+	{"doc", 1, 134218465, 0, &XmlDocument_t631_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.XmlWhitespace::.ctor(System.String,System.Xml.XmlDocument)
@@ -34832,7 +34832,7 @@ extern const MethodInfo XmlWhitespace_get_ParentNode_m11165_MethodInfo =
 	"get_ParentNode"/* name */
 	, (methodPointerType)&XmlWhitespace_get_ParentNode_m11165/* method */
 	, &XmlWhitespace_t3237_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -34860,7 +34860,7 @@ extern const MethodInfo XmlWhitespace_CloneNode_m11166_MethodInfo =
 	"CloneNode"/* name */
 	, (methodPointerType)&XmlWhitespace_CloneNode_m11166/* method */
 	, &XmlWhitespace_t3237_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t667_0_0_0/* return_type */
+	, &XmlNode_t668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
 	, XmlWhitespace_t3237_XmlWhitespace_CloneNode_m11166_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -35035,7 +35035,7 @@ static bool XmlWhitespace_t3237_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair XmlWhitespace_t3237_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
+	{ &ICloneable_t762_0_0_0, 5},
 	{ &IXPathNavigable_t3262_0_0_0, 5},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
@@ -36006,17 +36006,17 @@ extern const MethodInfo XmlNodeChangedEventHandler_BeginInvoke_m11176_MethodInfo
 extern const MethodInfo XmlNodeChangedEventHandler_EndInvoke_m11177_MethodInfo;
 static const Il2CppMethodReference XmlNodeChangedEventHandler_t3176_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&XmlNodeChangedEventHandler_Invoke_m11175_MethodInfo,
 	&XmlNodeChangedEventHandler_BeginInvoke_m11176_MethodInfo,
 	&XmlNodeChangedEventHandler_EndInvoke_m11177_MethodInfo,
@@ -36040,8 +36040,8 @@ static bool XmlNodeChangedEventHandler_t3176_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair XmlNodeChangedEventHandler_t3176_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
 extern const Il2CppType XmlNodeChangedEventHandler_t3176_0_0_0;

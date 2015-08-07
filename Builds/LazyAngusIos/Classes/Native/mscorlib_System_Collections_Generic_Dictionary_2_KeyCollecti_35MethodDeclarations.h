@@ -9,7 +9,7 @@ struct KeyCollection_t5739;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>
-struct Dictionary_2_t829;
+struct Dictionary_2_t830;
 // System.Collections.Generic.IEnumerator`1<System.Int32>
 struct IEnumerator_1_t3314;
 // System.Array
@@ -17,14 +17,14 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,UnityEngine.EventSystems.PointerEventData>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_115.h"
 
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,UnityEngine.EventSystems.PointerEventData>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_9MethodDeclarations.h"
-#define KeyCollection__ctor_m27837(__this, ___dictionary, method) (( void (*) (KeyCollection_t5739 *, Dictionary_2_t829 *, const MethodInfo*))KeyCollection__ctor_m20971_gshared)(__this, ___dictionary, method)
+#define KeyCollection__ctor_m27837(__this, ___dictionary, method) (( void (*) (KeyCollection_t5739 *, Dictionary_2_t830 *, const MethodInfo*))KeyCollection__ctor_m20971_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,UnityEngine.EventSystems.PointerEventData>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
 #define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m27838(__this, ___item, method) (( void (*) (KeyCollection_t5739 *, int32_t, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m20972_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,UnityEngine.EventSystems.PointerEventData>::System.Collections.Generic.ICollection<TKey>.Clear()
@@ -46,7 +46,7 @@ struct Int32U5BU5D_t548;
 // System.Object System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,UnityEngine.EventSystems.PointerEventData>::System.Collections.ICollection.get_SyncRoot()
 #define KeyCollection_System_Collections_ICollection_get_SyncRoot_m27847(__this, method) (( Object_t * (*) (KeyCollection_t5739 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m20981_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,UnityEngine.EventSystems.PointerEventData>::CopyTo(TKey[],System.Int32)
-#define KeyCollection_CopyTo_m27848(__this, ___array, ___index, method) (( void (*) (KeyCollection_t5739 *, Int32U5BU5D_t548*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m20982_gshared)(__this, ___array, ___index, method)
+#define KeyCollection_CopyTo_m27848(__this, ___array, ___index, method) (( void (*) (KeyCollection_t5739 *, Int32U5BU5D_t549*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m20982_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,UnityEngine.EventSystems.PointerEventData>::GetEnumerator()
 #define KeyCollection_GetEnumerator_m27849(__this, method) (( Enumerator_t8887  (*) (KeyCollection_t5739 *, const MethodInfo*))KeyCollection_GetEnumerator_m20983_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,UnityEngine.EventSystems.PointerEventData>::get_Count()

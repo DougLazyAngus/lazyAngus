@@ -9,14 +9,14 @@ struct XmlProcessingInstruction_t3205;
 // System.String
 struct String_t;
 // System.Xml.XmlDocument
-struct XmlDocument_t630;
+struct XmlDocument_t631;
 // System.Xml.XmlNode
-struct XmlNode_t667;
+struct XmlNode_t668;
 // System.Xml.XmlNodeType
 #include "System_Xml_System_Xml_XmlNodeType.h"
 
 // System.Void System.Xml.XmlProcessingInstruction::.ctor(System.String,System.String,System.Xml.XmlDocument)
-extern "C" void XmlProcessingInstruction__ctor_m10874 (XmlProcessingInstruction_t3205 * __this, String_t* ___target, String_t* ___data, XmlDocument_t630 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlProcessingInstruction__ctor_m10874 (XmlProcessingInstruction_t3205 * __this, String_t* ___target, String_t* ___data, XmlDocument_t631 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlProcessingInstruction::get_Data()
 extern "C" String_t* XmlProcessingInstruction_get_Data_m10875 (XmlProcessingInstruction_t3205 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlProcessingInstruction::get_InnerText()
@@ -34,4 +34,4 @@ extern "C" String_t* XmlProcessingInstruction_get_Value_m10881 (XmlProcessingIns
 // System.Void System.Xml.XmlProcessingInstruction::set_Value(System.String)
 extern "C" void XmlProcessingInstruction_set_Value_m10882 (XmlProcessingInstruction_t3205 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlProcessingInstruction::CloneNode(System.Boolean)
-extern "C" XmlNode_t667 * XmlProcessingInstruction_CloneNode_m10883 (XmlProcessingInstruction_t3205 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t668 * XmlProcessingInstruction_CloneNode_m10883 (XmlProcessingInstruction_t3205 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;

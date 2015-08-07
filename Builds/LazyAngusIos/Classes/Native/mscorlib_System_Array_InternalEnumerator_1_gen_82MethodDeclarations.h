@@ -9,7 +9,7 @@ struct InternalEnumerator_1_t8342;
 // System.Object
 struct Object_t;
 // UnityEngine.Camera
-struct Camera_t531;
+struct Camera_t532;
 // System.Array
 struct Array_t;
 
@@ -26,4 +26,4 @@ struct Array_t;
 // System.Boolean System.Array/InternalEnumerator`1<UnityEngine.Camera>::MoveNext()
 #define InternalEnumerator_1_MoveNext_m59917(__this, method) (( bool (*) (InternalEnumerator_1_t8342 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.Camera>::get_Current()
-#define InternalEnumerator_1_get_Current_m59918(__this, method) (( Camera_t531 * (*) (InternalEnumerator_1_t8342 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m59918(__this, method) (( Camera_t532 * (*) (InternalEnumerator_1_t8342 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)

@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Type[]
 struct TypeU5BU5D_t1150;
 // System.Reflection.MethodBase
@@ -11,7 +11,7 @@ struct MethodBase_t1474;
 // System.Runtime.Remoting.Messaging.LogicalCallContext
 struct LogicalCallContext_t4567;
 // System.Collections.IDictionary
-struct IDictionary_t638;
+struct IDictionary_t639;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
@@ -26,7 +26,7 @@ struct  MethodCall_t4561  : public Object_t
 	// System.String System.Runtime.Remoting.Messaging.MethodCall::_methodName
 	String_t* ____methodName_2;
 	// System.Object[] System.Runtime.Remoting.Messaging.MethodCall::_args
-	ObjectU5BU5D_t635* ____args_3;
+	ObjectU5BU5D_t636* ____args_3;
 	// System.Type[] System.Runtime.Remoting.Messaging.MethodCall::_methodSignature
 	TypeU5BU5D_t1150* ____methodSignature_4;
 	// System.Reflection.MethodBase System.Runtime.Remoting.Messaging.MethodCall::_methodBase

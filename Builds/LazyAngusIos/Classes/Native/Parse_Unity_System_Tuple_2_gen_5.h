@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Delegate
-struct Delegate_t674;
+struct Delegate_t675;
 // System.Threading.Tasks.TaskFactory
 struct TaskFactory_t1315;
 // System.Object
@@ -10,7 +10,7 @@ struct TaskFactory_t1315;
 struct  Tuple_2_t2315  : public Object_t
 {
 	// T1 System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>::<Item1>k__BackingField
-	Delegate_t674 * ___U3CItem1U3Ek__BackingField_0;
+	Delegate_t675 * ___U3CItem1U3Ek__BackingField_0;
 	// T2 System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>::<Item2>k__BackingField
 	TaskFactory_t1315 * ___U3CItem2U3Ek__BackingField_1;
 };

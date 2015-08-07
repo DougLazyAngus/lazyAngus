@@ -13396,16 +13396,16 @@ static bool DictionaryBase_t3135_VTableIsGenericMethod[] =
 	true,
 	true,
 };
-extern const Il2CppType ICollection_t704_0_0_0;
-extern const Il2CppType IList_t639_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
+extern const Il2CppType IList_t640_0_0_0;
 extern const Il2CppType ICollection_1_t3264_0_0_0;
 extern const Il2CppType IEnumerable_1_t3265_0_0_0;
 extern const Il2CppType IList_1_t3266_0_0_0;
 static Il2CppInterfaceOffsetPair DictionaryBase_t3135_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 	{ &ICollection_1_t3264_0_0_0, 20},
 	{ &IEnumerable_1_t3265_0_0_0, 27},
 	{ &IList_1_t3266_0_0_0, 28},
@@ -13724,8 +13724,8 @@ static bool DTDCollectionBase_t3140_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair DTDCollectionBase_t3140_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 	{ &ICollection_1_t3264_0_0_0, 20},
 	{ &IEnumerable_1_t3265_0_0_0, 27},
 	{ &IList_1_t3266_0_0_0, 28},
@@ -13947,8 +13947,8 @@ static bool DTDElementDeclarationCollection_t3127_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair DTDElementDeclarationCollection_t3127_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 	{ &ICollection_1_t3264_0_0_0, 20},
 	{ &IEnumerable_1_t3265_0_0_0, 27},
 	{ &IList_1_t3266_0_0_0, 28},
@@ -14214,8 +14214,8 @@ static bool DTDAttListDeclarationCollection_t3128_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair DTDAttListDeclarationCollection_t3128_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 	{ &ICollection_1_t3264_0_0_0, 20},
 	{ &IEnumerable_1_t3265_0_0_0, 27},
 	{ &IList_1_t3266_0_0_0, 28},
@@ -14481,8 +14481,8 @@ static bool DTDEntityDeclarationCollection_t3130_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair DTDEntityDeclarationCollection_t3130_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 	{ &ICollection_1_t3264_0_0_0, 20},
 	{ &IEnumerable_1_t3265_0_0_0, 27},
 	{ &IList_1_t3266_0_0_0, 28},
@@ -14703,8 +14703,8 @@ static bool DTDNotationDeclarationCollection_t3131_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair DTDNotationDeclarationCollection_t3131_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 	{ &ICollection_1_t3264_0_0_0, 20},
 	{ &IEnumerable_1_t3265_0_0_0, 27},
 	{ &IList_1_t3266_0_0_0, 28},
@@ -16645,7 +16645,7 @@ extern const MethodInfo DTDAttListDeclaration_get_Definitions_m10374_MethodInfo 
 	"get_Definitions"/* name */
 	, (methodPointerType)&DTDAttListDeclaration_get_Definitions_m10374/* method */
 	, &DTDAttListDeclaration_t3145_il2cpp_TypeInfo/* declaring_type */
-	, &IList_t639_0_0_0/* return_type */
+	, &IList_t640_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */

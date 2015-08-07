@@ -3,7 +3,7 @@
 // System.Text.RegularExpressions.Regex
 struct Regex_t1125;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.String
 struct String_t;
 // System.Object
@@ -16,7 +16,7 @@ struct  ReplacementEvaluator_t4106  : public Object_t
 	// System.Int32 System.Text.RegularExpressions.ReplacementEvaluator::n_pieces
 	int32_t ___n_pieces_1;
 	// System.Int32[] System.Text.RegularExpressions.ReplacementEvaluator::pieces
-	Int32U5BU5D_t548* ___pieces_2;
+	Int32U5BU5D_t549* ___pieces_2;
 	// System.String System.Text.RegularExpressions.ReplacementEvaluator::replacement
 	String_t* ___replacement_3;
 };

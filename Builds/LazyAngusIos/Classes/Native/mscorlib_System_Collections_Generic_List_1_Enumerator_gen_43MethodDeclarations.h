@@ -9,14 +9,14 @@ struct Enumerator_t5831;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.StencilMaterial/MatEntry
-struct MatEntry_t917;
+struct MatEntry_t918;
 // System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct List_1_t918;
+struct List_1_t919;
 
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m29354(__this, ___l, method) (( void (*) (Enumerator_t5831 *, List_1_t918 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
+#define Enumerator__ctor_m29354(__this, ___l, method) (( void (*) (Enumerator_t5831 *, List_1_t919 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::System.Collections.IEnumerator.Reset()
 #define Enumerator_System_Collections_IEnumerator_Reset_m29355(__this, method) (( void (*) (Enumerator_t5831 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21395_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::System.Collections.IEnumerator.get_Current()
@@ -28,4 +28,4 @@ struct List_1_t918;
 // System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::MoveNext()
 #define Enumerator_MoveNext_m29359(__this, method) (( bool (*) (Enumerator_t5831 *, const MethodInfo*))Enumerator_MoveNext_m3632_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::get_Current()
-#define Enumerator_get_Current_m29360(__this, method) (( MatEntry_t917 * (*) (Enumerator_t5831 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)
+#define Enumerator_get_Current_m29360(__this, method) (( MatEntry_t918 * (*) (Enumerator_t5831 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)

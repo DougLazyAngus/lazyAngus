@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Text.Encoding
-struct Encoding_t689;
+struct Encoding_t690;
 // System.Xml.XmlNamespaceManager
 struct XmlNamespaceManager_t3192;
 // System.Xml.XmlNameTable
@@ -24,7 +24,7 @@ struct  XmlParserContext_t3203  : public Object_t
 	// System.String System.Xml.XmlParserContext::docTypeName
 	String_t* ___docTypeName_1;
 	// System.Text.Encoding System.Xml.XmlParserContext::encoding
-	Encoding_t689 * ___encoding_2;
+	Encoding_t690 * ___encoding_2;
 	// System.String System.Xml.XmlParserContext::internalSubset
 	String_t* ___internalSubset_3;
 	// System.Xml.XmlNamespaceManager System.Xml.XmlParserContext::namespaceManager

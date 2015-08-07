@@ -7,7 +7,7 @@
 // System.Reflection.Emit.TypeBuilder
 struct TypeBuilder_t4462;
 // System.Reflection.Assembly
-struct Assembly_t719;
+struct Assembly_t720;
 // System.String
 struct String_t;
 // System.Type
@@ -23,7 +23,7 @@ struct TypeU5BU5D_t1150;
 // System.Reflection.ParameterModifier[]
 struct ParameterModifierU5BU5D_t2904;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Reflection.ConstructorInfo[]
 struct ConstructorInfoU5BU5D_t1405;
 // System.Reflection.EventInfo
@@ -43,7 +43,7 @@ struct PropertyInfo_t;
 // System.Object
 struct Object_t;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Exception
@@ -60,7 +60,7 @@ struct Exception_t57;
 // System.Reflection.TypeAttributes System.Reflection.Emit.TypeBuilder::GetAttributeFlagsImpl()
 extern "C" int32_t TypeBuilder_GetAttributeFlagsImpl_m17544 (TypeBuilder_t4462 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Assembly System.Reflection.Emit.TypeBuilder::get_Assembly()
-extern "C" Assembly_t719 * TypeBuilder_get_Assembly_m17545 (TypeBuilder_t4462 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Assembly_t720 * TypeBuilder_get_Assembly_m17545 (TypeBuilder_t4462 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Emit.TypeBuilder::get_AssemblyQualifiedName()
 extern "C" String_t* TypeBuilder_get_AssemblyQualifiedName_m17546 (TypeBuilder_t4462 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.Emit.TypeBuilder::get_BaseType()
@@ -84,9 +84,9 @@ extern "C" ConstructorInfo_t1330 * TypeBuilder_GetConstructorImpl_m17555 (TypeBu
 // System.Boolean System.Reflection.Emit.TypeBuilder::IsDefined(System.Type,System.Boolean)
 extern "C" bool TypeBuilder_IsDefined_m17556 (TypeBuilder_t4462 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.Emit.TypeBuilder::GetCustomAttributes(System.Boolean)
-extern "C" ObjectU5BU5D_t635* TypeBuilder_GetCustomAttributes_m17557 (TypeBuilder_t4462 * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* TypeBuilder_GetCustomAttributes_m17557 (TypeBuilder_t4462 * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.Emit.TypeBuilder::GetCustomAttributes(System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t635* TypeBuilder_GetCustomAttributes_m17558 (TypeBuilder_t4462 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* TypeBuilder_GetCustomAttributes_m17558 (TypeBuilder_t4462 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ConstructorInfo[] System.Reflection.Emit.TypeBuilder::GetConstructors(System.Reflection.BindingFlags)
 extern "C" ConstructorInfoU5BU5D_t1405* TypeBuilder_GetConstructors_m17559 (TypeBuilder_t4462 * __this, int32_t ___bindingAttr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ConstructorInfo[] System.Reflection.Emit.TypeBuilder::GetConstructorsInternal(System.Reflection.BindingFlags)
@@ -114,7 +114,7 @@ extern "C" PropertyInfo_t * TypeBuilder_GetPropertyImpl_m17570 (TypeBuilder_t446
 // System.Boolean System.Reflection.Emit.TypeBuilder::HasElementTypeImpl()
 extern "C" bool TypeBuilder_HasElementTypeImpl_m17571 (TypeBuilder_t4462 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.Emit.TypeBuilder::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
-extern "C" Object_t * TypeBuilder_InvokeMember_m17572 (TypeBuilder_t4462 * __this, String_t* ___name, int32_t ___invokeAttr, Binder_t2903 * ___binder, Object_t * ___target, ObjectU5BU5D_t635* ___args, ParameterModifierU5BU5D_t2904* ___modifiers, CultureInfo_t718 * ___culture, StringU5BU5D_t75* ___namedParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * TypeBuilder_InvokeMember_m17572 (TypeBuilder_t4462 * __this, String_t* ___name, int32_t ___invokeAttr, Binder_t2903 * ___binder, Object_t * ___target, ObjectU5BU5D_t636* ___args, ParameterModifierU5BU5D_t2904* ___modifiers, CultureInfo_t719 * ___culture, StringU5BU5D_t75* ___namedParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.TypeBuilder::IsArrayImpl()
 extern "C" bool TypeBuilder_IsArrayImpl_m17573 (TypeBuilder_t4462 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.TypeBuilder::IsByRefImpl()

@@ -12,7 +12,7 @@ struct  Internal_DrawArguments_t2679
 	// System.IntPtr UnityEngine.Internal_DrawArguments::target
 	IntPtr_t ___target_0;
 	// UnityEngine.Rect UnityEngine.Internal_DrawArguments::position
-	Rect_t647  ___position_1;
+	Rect_t648  ___position_1;
 	// System.Int32 UnityEngine.Internal_DrawArguments::isHover
 	int32_t ___isHover_2;
 	// System.Int32 UnityEngine.Internal_DrawArguments::isActive

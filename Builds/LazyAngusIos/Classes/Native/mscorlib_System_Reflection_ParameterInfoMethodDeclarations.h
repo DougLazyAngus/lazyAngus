@@ -15,7 +15,7 @@ struct String_t;
 // System.Reflection.Emit.ParameterBuilder
 struct ParameterBuilder_t4473;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Reflection.ParameterAttributes
 #include "mscorlib_System_Reflection_ParameterAttributes.h"
 
@@ -46,8 +46,8 @@ extern "C" String_t* ParameterInfo_get_Name_m17850 (ParameterInfo_t1332 * __this
 // System.Int32 System.Reflection.ParameterInfo::get_Position()
 extern "C" int32_t ParameterInfo_get_Position_m17851 (ParameterInfo_t1332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.ParameterInfo::GetCustomAttributes(System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t635* ParameterInfo_GetCustomAttributes_m17852 (ParameterInfo_t1332 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* ParameterInfo_GetCustomAttributes_m17852 (ParameterInfo_t1332 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.ParameterInfo::IsDefined(System.Type,System.Boolean)
 extern "C" bool ParameterInfo_IsDefined_m17853 (ParameterInfo_t1332 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.ParameterInfo::GetPseudoCustomAttributes()
-extern "C" ObjectU5BU5D_t635* ParameterInfo_GetPseudoCustomAttributes_m17854 (ParameterInfo_t1332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* ParameterInfo_GetPseudoCustomAttributes_m17854 (ParameterInfo_t1332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

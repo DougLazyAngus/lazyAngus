@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.Encoding
-struct Encoding_t689;
+struct Encoding_t690;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.IO.Stream
 struct Stream_t51;
 // System.IO.TextWriter
@@ -100,11 +100,11 @@ struct  XmlTextWriter_t3232  : public XmlWriter_t3233
 };
 struct XmlTextWriter_t3232_StaticFields{
 	// System.Text.Encoding System.Xml.XmlTextWriter::unmarked_utf8encoding
-	Encoding_t689 * ___unmarked_utf8encoding_0;
+	Encoding_t690 * ___unmarked_utf8encoding_0;
 	// System.Char[] System.Xml.XmlTextWriter::escaped_text_chars
-	CharU5BU5D_t660* ___escaped_text_chars_1;
+	CharU5BU5D_t661* ___escaped_text_chars_1;
 	// System.Char[] System.Xml.XmlTextWriter::escaped_attr_chars
-	CharU5BU5D_t660* ___escaped_attr_chars_2;
+	CharU5BU5D_t661* ___escaped_attr_chars_2;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlTextWriter::<>f__switch$map53
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map53_33;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlTextWriter::<>f__switch$map54

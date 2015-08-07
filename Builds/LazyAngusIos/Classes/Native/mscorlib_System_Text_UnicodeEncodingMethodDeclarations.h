@@ -7,7 +7,7 @@
 // System.Text.UnicodeEncoding
 struct UnicodeEncoding_t4719;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.String
 struct String_t;
 // System.Byte[]
@@ -24,13 +24,13 @@ extern "C" void UnicodeEncoding__ctor_m18950 (UnicodeEncoding_t4719 * __this, bo
 // System.Void System.Text.UnicodeEncoding::.ctor(System.Boolean,System.Boolean,System.Boolean)
 extern "C" void UnicodeEncoding__ctor_m18951 (UnicodeEncoding_t4719 * __this, bool ___bigEndian, bool ___byteOrderMark, bool ___throwOnInvalidBytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UnicodeEncoding::GetByteCount(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t UnicodeEncoding_GetByteCount_m18952 (UnicodeEncoding_t4719 * __this, CharU5BU5D_t660* ___chars, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UnicodeEncoding_GetByteCount_m18952 (UnicodeEncoding_t4719 * __this, CharU5BU5D_t661* ___chars, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UnicodeEncoding::GetByteCount(System.String)
 extern "C" int32_t UnicodeEncoding_GetByteCount_m18953 (UnicodeEncoding_t4719 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UnicodeEncoding::GetByteCount(System.Char*,System.Int32)
 extern "C" int32_t UnicodeEncoding_GetByteCount_m18954 (UnicodeEncoding_t4719 * __this, uint16_t* ___chars, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UnicodeEncoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern "C" int32_t UnicodeEncoding_GetBytes_m18955 (UnicodeEncoding_t4719 * __this, CharU5BU5D_t660* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UnicodeEncoding_GetBytes_m18955 (UnicodeEncoding_t4719 * __this, CharU5BU5D_t661* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UnicodeEncoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
 extern "C" int32_t UnicodeEncoding_GetBytes_m18956 (UnicodeEncoding_t4719 * __this, String_t* ___s, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UnicodeEncoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
@@ -40,7 +40,7 @@ extern "C" int32_t UnicodeEncoding_GetBytesInternal_m18958 (UnicodeEncoding_t471
 // System.Int32 System.Text.UnicodeEncoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
 extern "C" int32_t UnicodeEncoding_GetCharCount_m18959 (UnicodeEncoding_t4719 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UnicodeEncoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern "C" int32_t UnicodeEncoding_GetChars_m18960 (UnicodeEncoding_t4719 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t660* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UnicodeEncoding_GetChars_m18960 (UnicodeEncoding_t4719 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t661* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.UnicodeEncoding::GetString(System.Byte[],System.Int32,System.Int32)
 extern "C" String_t* UnicodeEncoding_GetString_m18961 (UnicodeEncoding_t4719 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UnicodeEncoding::GetCharsInternal(System.Byte*,System.Int32,System.Char*,System.Int32)

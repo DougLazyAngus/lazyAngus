@@ -9,7 +9,7 @@ struct MethodCall_t4561;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Runtime.Remoting.Messaging.LogicalCallContext
 struct LogicalCallContext_t4567;
 // System.Reflection.MethodBase
@@ -17,7 +17,7 @@ struct MethodBase_t1474;
 // System.Object
 struct Object_t;
 // System.Collections.IDictionary
-struct IDictionary_t638;
+struct IDictionary_t639;
 // System.Type[]
 struct TypeU5BU5D_t1150;
 // System.Runtime.Remoting.Messaging.Header[]
@@ -42,7 +42,7 @@ extern "C" void MethodCall_InitMethodProperty_m18014 (MethodCall_t4561 * __this,
 // System.Void System.Runtime.Remoting.Messaging.MethodCall::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern "C" void MethodCall_GetObjectData_m18015 (MethodCall_t4561 * __this, SerializationInfo_t2869 * ___info, StreamingContext_t2870  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Runtime.Remoting.Messaging.MethodCall::get_Args()
-extern "C" ObjectU5BU5D_t635* MethodCall_get_Args_m18016 (MethodCall_t4561 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* MethodCall_get_Args_m18016 (MethodCall_t4561 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Messaging.LogicalCallContext System.Runtime.Remoting.Messaging.MethodCall::get_LogicalCallContext()
 extern "C" LogicalCallContext_t4567 * MethodCall_get_LogicalCallContext_m18017 (MethodCall_t4561 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodBase System.Runtime.Remoting.Messaging.MethodCall::get_MethodBase()

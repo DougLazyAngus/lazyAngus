@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Object
-struct Object_t652;
-struct Object_t652_marshaled;
+struct Object_t653;
+struct Object_t653_marshaled;
 // System.String
 struct String_t;
 // System.Object
@@ -11,7 +11,7 @@ struct String_t;
 struct  ArgumentCache_t2832  : public Object_t
 {
 	// UnityEngine.Object UnityEngine.Events.ArgumentCache::m_ObjectArgument
-	Object_t652 * ___m_ObjectArgument_0;
+	Object_t653 * ___m_ObjectArgument_0;
 	// System.String UnityEngine.Events.ArgumentCache::m_ObjectArgumentAssemblyTypeName
 	String_t* ___m_ObjectArgumentAssemblyTypeName_1;
 	// System.Int32 UnityEngine.Events.ArgumentCache::m_IntArgument

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>
-struct List_1_t632;
+struct List_1_t633;
 // UnionAssets.FLE.EventHandlerFunction
-struct EventHandlerFunction_t628;
+struct EventHandlerFunction_t629;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>
 struct  Enumerator_t5436 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::l
-	List_1_t632 * ___l_0;
+	List_1_t633 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::current
-	EventHandlerFunction_t628 * ___current_3;
+	EventHandlerFunction_t629 * ___current_3;
 };

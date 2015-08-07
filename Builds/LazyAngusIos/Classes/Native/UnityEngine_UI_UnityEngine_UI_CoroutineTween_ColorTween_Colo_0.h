@@ -3,6 +3,6 @@
 // UnityEngine.Events.UnityEvent`1<UnityEngine.Color>
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_0.h"
 // UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback
-struct  ColorTweenCallback_t839  : public UnityEvent_1_t840
+struct  ColorTweenCallback_t840  : public UnityEvent_1_t841
 {
 };

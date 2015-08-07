@@ -11,7 +11,7 @@ struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>
 struct Dictionary_2_t128;
 // System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct List_1_t633;
+struct List_1_t634;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>
 struct IEnumerator_1_t8694;
 // System.Array
@@ -28,13 +28,13 @@ struct List_1U5BU5D_t5442;
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_5MethodDeclarations.h"
 #define ValueCollection__ctor_m22845(__this, ___dictionary, method) (( void (*) (ValueCollection_t5452 *, Dictionary_2_t128 *, const MethodInfo*))ValueCollection__ctor_m21009_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m22846(__this, ___item, method) (( void (*) (ValueCollection_t5452 *, List_1_t633 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m21010_gshared)(__this, ___item, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m22846(__this, ___item, method) (( void (*) (ValueCollection_t5452 *, List_1_t634 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m21010_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::System.Collections.Generic.ICollection<TValue>.Clear()
 #define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m22847(__this, method) (( void (*) (ValueCollection_t5452 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m21011_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m22848(__this, ___item, method) (( bool (*) (ValueCollection_t5452 *, List_1_t633 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m21012_gshared)(__this, ___item, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m22848(__this, ___item, method) (( bool (*) (ValueCollection_t5452 *, List_1_t634 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m21012_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m22849(__this, ___item, method) (( bool (*) (ValueCollection_t5452 *, List_1_t633 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m21013_gshared)(__this, ___item, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m22849(__this, ___item, method) (( bool (*) (ValueCollection_t5452 *, List_1_t634 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m21013_gshared)(__this, ___item, method)
 // System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
 #define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m22850(__this, method) (( Object_t* (*) (ValueCollection_t5452 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m21014_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)

@@ -15,7 +15,7 @@ struct IFormatProvider_t4456;
 // System.String
 struct String_t;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Decimal
@@ -38,7 +38,7 @@ extern "C" uint16_t Char_System_IConvertible_ToChar_m15494 (uint16_t* __this, Ob
 // System.DateTime System.Char::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  Char_System_IConvertible_ToDateTime_m15495 (uint16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Char::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t695  Char_System_IConvertible_ToDecimal_m15496 (uint16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t696  Char_System_IConvertible_ToDecimal_m15496 (uint16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Char::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double Char_System_IConvertible_ToDouble_m15497 (uint16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Char::System.IConvertible.ToInt16(System.IFormatProvider)
@@ -98,7 +98,7 @@ extern "C" uint16_t Char_ToLower_m5802 (Object_t * __this /* static, unused */, 
 // System.Char System.Char::ToLowerInvariant(System.Char)
 extern "C" uint16_t Char_ToLowerInvariant_m15516 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Char::ToLower(System.Char,System.Globalization.CultureInfo)
-extern "C" uint16_t Char_ToLower_m15517 (Object_t * __this /* static, unused */, uint16_t ___c, CultureInfo_t718 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Char_ToLower_m15517 (Object_t * __this /* static, unused */, uint16_t ___c, CultureInfo_t719 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Char::ToUpper(System.Char)
 extern "C" uint16_t Char_ToUpper_m5800 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Char::ToUpperInvariant(System.Char)

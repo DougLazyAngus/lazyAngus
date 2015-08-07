@@ -17,7 +17,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Collections.Generic.SortedDictionary`2/KeyCollection/Enumerator<System.Object,System.Object>
 #include "System_System_Collections_Generic_SortedDictionary_2_KeyColl_0.h"
 
@@ -55,8 +55,8 @@ extern "C" Object_t * KeyCollection_System_Collections_ICollection_get_SyncRoot_
 extern "C" Object_t * KeyCollection_System_Collections_IEnumerable_GetEnumerator_m25572_gshared (KeyCollection_t5593 * __this, const MethodInfo* method);
 #define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m25572(__this, method) (( Object_t * (*) (KeyCollection_t5593 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m25572_gshared)(__this, method)
 // System.Void System.Collections.Generic.SortedDictionary`2/KeyCollection<System.Object,System.Object>::CopyTo(TKey[],System.Int32)
-extern "C" void KeyCollection_CopyTo_m25573_gshared (KeyCollection_t5593 * __this, ObjectU5BU5D_t635* ___array, int32_t ___arrayIndex, const MethodInfo* method);
-#define KeyCollection_CopyTo_m25573(__this, ___array, ___arrayIndex, method) (( void (*) (KeyCollection_t5593 *, ObjectU5BU5D_t635*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m25573_gshared)(__this, ___array, ___arrayIndex, method)
+extern "C" void KeyCollection_CopyTo_m25573_gshared (KeyCollection_t5593 * __this, ObjectU5BU5D_t636* ___array, int32_t ___arrayIndex, const MethodInfo* method);
+#define KeyCollection_CopyTo_m25573(__this, ___array, ___arrayIndex, method) (( void (*) (KeyCollection_t5593 *, ObjectU5BU5D_t636*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m25573_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Int32 System.Collections.Generic.SortedDictionary`2/KeyCollection<System.Object,System.Object>::get_Count()
 extern "C" int32_t KeyCollection_get_Count_m25574_gshared (KeyCollection_t5593 * __this, const MethodInfo* method);
 #define KeyCollection_get_Count_m25574(__this, method) (( int32_t (*) (KeyCollection_t5593 *, const MethodInfo*))KeyCollection_get_Count_m25574_gshared)(__this, method)

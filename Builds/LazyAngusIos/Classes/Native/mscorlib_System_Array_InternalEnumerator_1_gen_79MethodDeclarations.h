@@ -9,7 +9,7 @@ struct InternalEnumerator_1_t8319;
 // System.Object
 struct Object_t;
 // UnityEngine.GUIContent
-struct GUIContent_t732;
+struct GUIContent_t733;
 // System.Array
 struct Array_t;
 
@@ -26,4 +26,4 @@ struct Array_t;
 // System.Boolean System.Array/InternalEnumerator`1<UnityEngine.GUIContent>::MoveNext()
 #define InternalEnumerator_1_MoveNext_m59490(__this, method) (( bool (*) (InternalEnumerator_1_t8319 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.GUIContent>::get_Current()
-#define InternalEnumerator_1_get_Current_m59491(__this, method) (( GUIContent_t732 * (*) (InternalEnumerator_1_t8319 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m59491(__this, method) (( GUIContent_t733 * (*) (InternalEnumerator_1_t8319 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)

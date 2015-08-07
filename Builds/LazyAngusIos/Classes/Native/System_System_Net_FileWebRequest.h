@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.Net.WebHeaderCollection
 struct WebHeaderCollection_t3969;
 // System.Net.ICredentials
@@ -22,7 +22,7 @@ struct AutoResetEvent_t3328;
 struct  FileWebRequest_t3983  : public WebRequest_t3253
 {
 	// System.Uri System.Net.FileWebRequest::uri
-	Uri_t707 * ___uri_6;
+	Uri_t708 * ___uri_6;
 	// System.Net.WebHeaderCollection System.Net.FileWebRequest::webHeaders
 	WebHeaderCollection_t3969 * ___webHeaders_7;
 	// System.Net.ICredentials System.Net.FileWebRequest::credentials

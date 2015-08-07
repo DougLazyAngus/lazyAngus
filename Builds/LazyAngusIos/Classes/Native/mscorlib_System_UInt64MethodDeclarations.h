@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.UInt64
-struct UInt64_t694;
+struct UInt64_t695;
 // System.IFormatProvider
 struct IFormatProvider_t4456;
 // System.Object
@@ -32,7 +32,7 @@ extern "C" uint16_t UInt64_System_IConvertible_ToChar_m15358 (uint64_t* __this, 
 // System.DateTime System.UInt64::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  UInt64_System_IConvertible_ToDateTime_m15359 (uint64_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.UInt64::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t695  UInt64_System_IConvertible_ToDecimal_m15360 (uint64_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t696  UInt64_System_IConvertible_ToDecimal_m15360 (uint64_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.UInt64::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double UInt64_System_IConvertible_ToDouble_m15361 (uint64_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.UInt64::System.IConvertible.ToInt16(System.IFormatProvider)

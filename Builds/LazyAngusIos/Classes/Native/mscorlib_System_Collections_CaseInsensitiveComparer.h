@@ -3,14 +3,14 @@
 // System.Collections.CaseInsensitiveComparer
 struct CaseInsensitiveComparer_t4144;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.CaseInsensitiveComparer
 struct  CaseInsensitiveComparer_t4144  : public Object_t
 {
 	// System.Globalization.CultureInfo System.Collections.CaseInsensitiveComparer::culture
-	CultureInfo_t718 * ___culture_2;
+	CultureInfo_t719 * ___culture_2;
 };
 struct CaseInsensitiveComparer_t4144_StaticFields{
 	// System.Collections.CaseInsensitiveComparer System.Collections.CaseInsensitiveComparer::defaultComparer

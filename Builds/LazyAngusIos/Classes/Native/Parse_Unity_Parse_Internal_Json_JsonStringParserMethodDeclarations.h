@@ -9,7 +9,7 @@ struct JsonStringParser_t1124;
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.Object
 struct Object_t;
 // System.Text.RegularExpressions.Regex
@@ -22,9 +22,9 @@ extern "C" String_t* JsonStringParser_get_Input_m6170 (JsonStringParser_t1124 * 
 // System.Void Parse.Internal.Json/JsonStringParser::set_Input(System.String)
 extern "C" void JsonStringParser_set_Input_m6171 (JsonStringParser_t1124 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char[] Parse.Internal.Json/JsonStringParser::get_InputAsArray()
-extern "C" CharU5BU5D_t660* JsonStringParser_get_InputAsArray_m6172 (JsonStringParser_t1124 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CharU5BU5D_t661* JsonStringParser_get_InputAsArray_m6172 (JsonStringParser_t1124 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.Internal.Json/JsonStringParser::set_InputAsArray(System.Char[])
-extern "C" void JsonStringParser_set_InputAsArray_m6173 (JsonStringParser_t1124 * __this, CharU5BU5D_t660* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonStringParser_set_InputAsArray_m6173 (JsonStringParser_t1124 * __this, CharU5BU5D_t661* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Parse.Internal.Json/JsonStringParser::get_CurrentIndex()
 extern "C" int32_t JsonStringParser_get_CurrentIndex_m6174 (JsonStringParser_t1124 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.Internal.Json/JsonStringParser::Skip(System.Int32)
@@ -48,4 +48,4 @@ extern "C" bool JsonStringParser_Accept_m6183 (JsonStringParser_t1124 * __this, 
 // System.Boolean Parse.Internal.Json/JsonStringParser::Accept(System.Char)
 extern "C" bool JsonStringParser_Accept_m6184 (JsonStringParser_t1124 * __this, uint16_t ___condition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.Internal.Json/JsonStringParser::Accept(System.Char[])
-extern "C" bool JsonStringParser_Accept_m6185 (JsonStringParser_t1124 * __this, CharU5BU5D_t660* ___condition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool JsonStringParser_Accept_m6185 (JsonStringParser_t1124 * __this, CharU5BU5D_t661* ___condition, const MethodInfo* method) IL2CPP_METHOD_ATTR;

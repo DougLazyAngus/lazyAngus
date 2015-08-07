@@ -38,7 +38,7 @@ public class AchievementController : MonoBehaviour {
 	}
 
 	void OnGameInstanceChanged() {
-		if (DebugConfig.instance.useDebugValues) {
+		if (DebugConfig.instance.clearAchievements) {
 			SocialHelper.instance.ClearAchievements();
 		}
 	}

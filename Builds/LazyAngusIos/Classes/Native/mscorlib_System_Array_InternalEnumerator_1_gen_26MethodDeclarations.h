@@ -9,7 +9,7 @@ struct InternalEnumerator_1_t5678;
 // System.Object
 struct Object_t;
 // UnityEngine.Material
-struct Material_t482;
+struct Material_t483;
 // System.Array
 struct Array_t;
 
@@ -26,4 +26,4 @@ struct Array_t;
 // System.Boolean System.Array/InternalEnumerator`1<UnityEngine.Material>::MoveNext()
 #define InternalEnumerator_1_MoveNext_m26794(__this, method) (( bool (*) (InternalEnumerator_1_t5678 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.Material>::get_Current()
-#define InternalEnumerator_1_get_Current_m26795(__this, method) (( Material_t482 * (*) (InternalEnumerator_1_t5678 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m26795(__this, method) (( Material_t483 * (*) (InternalEnumerator_1_t5678 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)

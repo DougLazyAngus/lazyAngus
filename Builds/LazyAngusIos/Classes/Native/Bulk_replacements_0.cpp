@@ -113,7 +113,7 @@ extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m10158 (Object_
 }
 // System.Object Replacements.RemotingServices::CreateClientProxy(System.Type,System.String,System.Object[])
 extern TypeInfo* NotSupportedException_t56_il2cpp_TypeInfo_var;
-extern "C" Object_t * RemotingServices_CreateClientProxy_m10159 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t635* ___activationAttributes, const MethodInfo* method)
+extern "C" Object_t * RemotingServices_CreateClientProxy_m10159 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t636* ___activationAttributes, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)

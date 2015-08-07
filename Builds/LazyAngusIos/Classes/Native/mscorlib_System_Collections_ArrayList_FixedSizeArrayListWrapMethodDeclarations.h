@@ -13,7 +13,7 @@ struct ArrayList_t3111;
 // System.Object
 struct Object_t;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 
 // System.Void System.Collections.ArrayList/FixedSizeArrayListWrapper::.ctor(System.Collections.ArrayList)
 extern "C" void FixedSizeArrayListWrapper__ctor_m16599 (FixedSizeArrayListWrapper_t4389 * __this, ArrayList_t3111 * ___innerList, const MethodInfo* method) IL2CPP_METHOD_ATTR;

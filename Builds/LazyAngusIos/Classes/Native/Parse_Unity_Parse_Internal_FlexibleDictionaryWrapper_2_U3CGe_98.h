@@ -20,7 +20,7 @@ struct  U3CGetEnumeratorU3Ed__4_t7776  : public Object_t
 	// Parse.Internal.FlexibleDictionaryWrapper`2<TOut,TIn> Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Double,System.Object>::<>4__this
 	FlexibleDictionaryWrapper_2_t1942 * ___U3CU3E4__this_2;
 	// System.Collections.Generic.KeyValuePair`2<System.String,TIn> Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Double,System.Object>::<pair>5__5
-	KeyValuePair_2_t727  ___U3CpairU3E5__5_3;
+	KeyValuePair_2_t728  ___U3CpairU3E5__5_3;
 	// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,TIn>> Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Double,System.Object>::<>7__wrap6
 	Object_t* ___U3CU3E7__wrap6_4;
 };

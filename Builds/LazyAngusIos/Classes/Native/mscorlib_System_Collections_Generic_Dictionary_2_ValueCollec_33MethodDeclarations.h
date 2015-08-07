@@ -9,9 +9,9 @@ struct ValueCollection_t5669;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>
-struct Dictionary_2_t547;
+struct Dictionary_2_t548;
 // LevelDescription
-struct LevelDescription_t542;
+struct LevelDescription_t543;
 // System.Collections.Generic.IEnumerator`1<LevelDescription>
 struct IEnumerator_1_t8848;
 // System.Array
@@ -26,15 +26,15 @@ struct LevelDescriptionU5BU5D_t5665;
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,LevelDescription>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_5MethodDeclarations.h"
-#define ValueCollection__ctor_m26705(__this, ___dictionary, method) (( void (*) (ValueCollection_t5669 *, Dictionary_2_t547 *, const MethodInfo*))ValueCollection__ctor_m21009_gshared)(__this, ___dictionary, method)
+#define ValueCollection__ctor_m26705(__this, ___dictionary, method) (( void (*) (ValueCollection_t5669 *, Dictionary_2_t548 *, const MethodInfo*))ValueCollection__ctor_m21009_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,LevelDescription>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m26706(__this, ___item, method) (( void (*) (ValueCollection_t5669 *, LevelDescription_t542 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m21010_gshared)(__this, ___item, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m26706(__this, ___item, method) (( void (*) (ValueCollection_t5669 *, LevelDescription_t543 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m21010_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,LevelDescription>::System.Collections.Generic.ICollection<TValue>.Clear()
 #define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m26707(__this, method) (( void (*) (ValueCollection_t5669 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m21011_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,LevelDescription>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m26708(__this, ___item, method) (( bool (*) (ValueCollection_t5669 *, LevelDescription_t542 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m21012_gshared)(__this, ___item, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m26708(__this, ___item, method) (( bool (*) (ValueCollection_t5669 *, LevelDescription_t543 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m21012_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,LevelDescription>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m26709(__this, ___item, method) (( bool (*) (ValueCollection_t5669 *, LevelDescription_t542 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m21013_gshared)(__this, ___item, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m26709(__this, ___item, method) (( bool (*) (ValueCollection_t5669 *, LevelDescription_t543 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m21013_gshared)(__this, ___item, method)
 // System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,LevelDescription>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
 #define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m26710(__this, method) (( Object_t* (*) (ValueCollection_t5669 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m21014_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,LevelDescription>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)

@@ -7,7 +7,7 @@
 // UnityEngine.UI.ContentSizeFitter
 struct ContentSizeFitter_t935;
 // UnityEngine.RectTransform
-struct RectTransform_t503;
+struct RectTransform_t504;
 // UnityEngine.UI.ContentSizeFitter/FitMode
 #include "UnityEngine_UI_UnityEngine_UI_ContentSizeFitter_FitMode.h"
 
@@ -22,7 +22,7 @@ extern "C" int32_t ContentSizeFitter_get_verticalFit_m5320 (ContentSizeFitter_t9
 // System.Void UnityEngine.UI.ContentSizeFitter::set_verticalFit(UnityEngine.UI.ContentSizeFitter/FitMode)
 extern "C" void ContentSizeFitter_set_verticalFit_m5321 (ContentSizeFitter_t935 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RectTransform UnityEngine.UI.ContentSizeFitter::get_rectTransform()
-extern "C" RectTransform_t503 * ContentSizeFitter_get_rectTransform_m5322 (ContentSizeFitter_t935 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RectTransform_t504 * ContentSizeFitter_get_rectTransform_m5322 (ContentSizeFitter_t935 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.ContentSizeFitter::OnEnable()
 extern "C" void ContentSizeFitter_OnEnable_m5323 (ContentSizeFitter_t935 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.ContentSizeFitter::OnDisable()

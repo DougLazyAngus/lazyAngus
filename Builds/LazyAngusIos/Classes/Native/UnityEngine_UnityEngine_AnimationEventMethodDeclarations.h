@@ -9,8 +9,8 @@ struct AnimationEvent_t2727;
 // System.String
 struct String_t;
 // UnityEngine.Object
-struct Object_t652;
-struct Object_t652_marshaled;
+struct Object_t653;
+struct Object_t653_marshaled;
 // UnityEngine.AnimationState
 struct AnimationState_t2726;
 // UnityEngine.SendMessageOptions
@@ -39,9 +39,9 @@ extern "C" int32_t AnimationEvent_get_intParameter_m9261 (AnimationEvent_t2727 *
 // System.Void UnityEngine.AnimationEvent::set_intParameter(System.Int32)
 extern "C" void AnimationEvent_set_intParameter_m9262 (AnimationEvent_t2727 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.AnimationEvent::get_objectReferenceParameter()
-extern "C" Object_t652 * AnimationEvent_get_objectReferenceParameter_m9263 (AnimationEvent_t2727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t653 * AnimationEvent_get_objectReferenceParameter_m9263 (AnimationEvent_t2727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AnimationEvent::set_objectReferenceParameter(UnityEngine.Object)
-extern "C" void AnimationEvent_set_objectReferenceParameter_m9264 (AnimationEvent_t2727 * __this, Object_t652 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AnimationEvent_set_objectReferenceParameter_m9264 (AnimationEvent_t2727 * __this, Object_t653 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.AnimationEvent::get_functionName()
 extern "C" String_t* AnimationEvent_get_functionName_m9265 (AnimationEvent_t2727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AnimationEvent::set_functionName(System.String)

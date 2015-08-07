@@ -25,11 +25,11 @@ struct ICollection_1_t8895;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.ICanvasElement>
 struct ReadOnlyCollection_1_t8896;
 // System.Predicate`1<UnityEngine.UI.ICanvasElement>
-struct Predicate_1_t850;
+struct Predicate_1_t851;
 // System.Collections.Generic.IComparer`1<UnityEngine.UI.ICanvasElement>
 struct IComparer_1_t8897;
 // System.Comparison`1<UnityEngine.UI.ICanvasElement>
-struct Comparison_1_t849;
+struct Comparison_1_t850;
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_106.h"
 
@@ -96,11 +96,11 @@ struct Comparison_1_t849;
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::CopyTo(T[],System.Int32)
 #define List_1_CopyTo_m28066(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t5749 *, ICanvasElementU5BU5D_t5751*, int32_t, const MethodInfo*))List_1_CopyTo_m10102_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Find(System.Predicate`1<T>)
-#define List_1_Find_m28067(__this, ___match, method) (( Object_t * (*) (List_1_t5749 *, Predicate_1_t850 *, const MethodInfo*))List_1_Find_m21348_gshared)(__this, ___match, method)
+#define List_1_Find_m28067(__this, ___match, method) (( Object_t * (*) (List_1_t5749 *, Predicate_1_t851 *, const MethodInfo*))List_1_Find_m21348_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m28068(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t850 *, const MethodInfo*))List_1_CheckMatch_m21350_gshared)(__this /* static, unused */, ___match, method)
+#define List_1_CheckMatch_m28068(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t851 *, const MethodInfo*))List_1_CheckMatch_m21350_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m28069(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t5749 *, int32_t, int32_t, Predicate_1_t850 *, const MethodInfo*))List_1_GetIndex_m21352_gshared)(__this, ___startIndex, ___count, ___match, method)
+#define List_1_GetIndex_m28069(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t5749 *, int32_t, int32_t, Predicate_1_t851 *, const MethodInfo*))List_1_GetIndex_m21352_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::GetEnumerator()
 #define List_1_GetEnumerator_m28070(__this, method) (( Enumerator_t8898  (*) (List_1_t5749 *, const MethodInfo*))List_1_GetEnumerator_m3630_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::GetRange(System.Int32,System.Int32)
@@ -124,7 +124,7 @@ struct Comparison_1_t849;
 // System.Boolean System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Remove(T)
 #define List_1_Remove_m28080(__this, ___item, method) (( bool (*) (List_1_t5749 *, Object_t *, const MethodInfo*))List_1_Remove_m10103_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m28081(__this, ___match, method) (( int32_t (*) (List_1_t5749 *, Predicate_1_t850 *, const MethodInfo*))List_1_RemoveAll_m21371_gshared)(__this, ___match, method)
+#define List_1_RemoveAll_m28081(__this, ___match, method) (( int32_t (*) (List_1_t5749 *, Predicate_1_t851 *, const MethodInfo*))List_1_RemoveAll_m21371_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::RemoveAt(System.Int32)
 #define List_1_RemoveAt_m28082(__this, ___index, method) (( void (*) (List_1_t5749 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10098_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::RemoveRange(System.Int32,System.Int32)
@@ -136,7 +136,7 @@ struct Comparison_1_t849;
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Sort(System.Collections.Generic.IComparer`1<T>)
 #define List_1_Sort_m28086(__this, ___comparer, method) (( void (*) (List_1_t5749 *, Object_t*, const MethodInfo*))List_1_Sort_m21380_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m28087(__this, ___comparison, method) (( void (*) (List_1_t5749 *, Comparison_1_t849 *, const MethodInfo*))List_1_Sort_m21382_gshared)(__this, ___comparison, method)
+#define List_1_Sort_m28087(__this, ___comparison, method) (( void (*) (List_1_t5749 *, Comparison_1_t850 *, const MethodInfo*))List_1_Sort_m21382_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::ToArray()
 #define List_1_ToArray_m28088(__this, method) (( ICanvasElementU5BU5D_t5751* (*) (List_1_t5749 *, const MethodInfo*))List_1_ToArray_m21384_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::TrimExcess()

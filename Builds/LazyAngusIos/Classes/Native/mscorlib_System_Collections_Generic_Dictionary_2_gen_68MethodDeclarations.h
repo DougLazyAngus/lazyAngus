@@ -11,7 +11,7 @@ struct ICollection_1_t8981;
 // System.Collections.Generic.ICollection`1<System.Int32>
 struct ICollection_1_t8634;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Int32>

@@ -9,7 +9,7 @@ struct Comparison_1_t5820;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.Selectable
-struct Selectable_t845;
+struct Selectable_t846;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -22,8 +22,8 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
 #define Comparison_1__ctor_m29157(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5820 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21492_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<UnityEngine.UI.Selectable>::Invoke(T,T)
-#define Comparison_1_Invoke_m29158(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5820 *, Selectable_t845 *, Selectable_t845 *, const MethodInfo*))Comparison_1_Invoke_m21493_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m29158(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5820 *, Selectable_t846 *, Selectable_t846 *, const MethodInfo*))Comparison_1_Invoke_m21493_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<UnityEngine.UI.Selectable>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m29159(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5820 *, Selectable_t845 *, Selectable_t845 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21494_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m29159(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5820 *, Selectable_t846 *, Selectable_t846 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21494_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<UnityEngine.UI.Selectable>::EndInvoke(System.IAsyncResult)
 #define Comparison_1_EndInvoke_m29160(__this, ___result, method) (( int32_t (*) (Comparison_1_t5820 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21495_gshared)(__this, ___result, method)

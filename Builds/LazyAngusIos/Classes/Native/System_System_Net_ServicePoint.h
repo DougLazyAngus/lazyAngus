@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.Version
 struct Version_t1333;
 // System.Security.Cryptography.X509Certificates.X509Certificate
@@ -22,7 +22,7 @@ struct BindIPEndPoint_t4018;
 struct  ServicePoint_t3886  : public Object_t
 {
 	// System.Uri System.Net.ServicePoint::uri
-	Uri_t707 * ___uri_0;
+	Uri_t708 * ___uri_0;
 	// System.Int32 System.Net.ServicePoint::connectionLimit
 	int32_t ___connectionLimit_1;
 	// System.Int32 System.Net.ServicePoint::maxIdleTime

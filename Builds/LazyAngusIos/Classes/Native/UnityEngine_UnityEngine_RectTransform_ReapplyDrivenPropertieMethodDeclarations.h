@@ -9,7 +9,7 @@ struct ReapplyDrivenProperties_t1031;
 // System.Object
 struct Object_t;
 // UnityEngine.RectTransform
-struct RectTransform_t503;
+struct RectTransform_t504;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,9 +20,9 @@ struct AsyncCallback_t386;
 // System.Void UnityEngine.RectTransform/ReapplyDrivenProperties::.ctor(System.Object,System.IntPtr)
 extern "C" void ReapplyDrivenProperties__ctor_m5918 (ReapplyDrivenProperties_t1031 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform/ReapplyDrivenProperties::Invoke(UnityEngine.RectTransform)
-extern "C" void ReapplyDrivenProperties_Invoke_m8968 (ReapplyDrivenProperties_t1031 * __this, RectTransform_t503 * ___driven, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_ReapplyDrivenProperties_t1031(Il2CppObject* delegate, RectTransform_t503 * ___driven);
+extern "C" void ReapplyDrivenProperties_Invoke_m8968 (ReapplyDrivenProperties_t1031 * __this, RectTransform_t504 * ___driven, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_ReapplyDrivenProperties_t1031(Il2CppObject* delegate, RectTransform_t504 * ___driven);
 // System.IAsyncResult UnityEngine.RectTransform/ReapplyDrivenProperties::BeginInvoke(UnityEngine.RectTransform,System.AsyncCallback,System.Object)
-extern "C" Object_t * ReapplyDrivenProperties_BeginInvoke_m8969 (ReapplyDrivenProperties_t1031 * __this, RectTransform_t503 * ___driven, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ReapplyDrivenProperties_BeginInvoke_m8969 (ReapplyDrivenProperties_t1031 * __this, RectTransform_t504 * ___driven, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform/ReapplyDrivenProperties::EndInvoke(System.IAsyncResult)
 extern "C" void ReapplyDrivenProperties_EndInvoke_m8970 (ReapplyDrivenProperties_t1031 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

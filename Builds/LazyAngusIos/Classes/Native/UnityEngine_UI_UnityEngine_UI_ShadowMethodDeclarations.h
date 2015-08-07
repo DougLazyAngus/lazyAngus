@@ -7,7 +7,7 @@
 // UnityEngine.UI.Shadow
 struct Shadow_t960;
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct List_1_t891;
+struct List_1_t892;
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // UnityEngine.Vector2
@@ -30,6 +30,6 @@ extern "C" bool Shadow_get_useGraphicAlpha_m5493 (Shadow_t960 * __this, const Me
 // System.Void UnityEngine.UI.Shadow::set_useGraphicAlpha(System.Boolean)
 extern "C" void Shadow_set_useGraphicAlpha_m5494 (Shadow_t960 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Shadow::ApplyShadow(System.Collections.Generic.List`1<UnityEngine.UIVertex>,UnityEngine.Color32,System.Int32,System.Int32,System.Single,System.Single)
-extern "C" void Shadow_ApplyShadow_m5495 (Shadow_t960 * __this, List_1_t891 * ___verts, Color32_t705  ___color, int32_t ___start, int32_t ___end, float ___x, float ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Shadow_ApplyShadow_m5495 (Shadow_t960 * __this, List_1_t892 * ___verts, Color32_t706  ___color, int32_t ___start, int32_t ___end, float ___x, float ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Shadow::ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
-extern "C" void Shadow_ModifyVertices_m5496 (Shadow_t960 * __this, List_1_t891 * ___verts, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Shadow_ModifyVertices_m5496 (Shadow_t960 * __this, List_1_t892 * ___verts, const MethodInfo* method) IL2CPP_METHOD_ATTR;

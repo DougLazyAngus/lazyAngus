@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SecretUI
-struct SecretUI_t598;
+struct SecretUI_t599;
 
 // System.Void SecretUI::.ctor()
-extern "C" void SecretUI__ctor_m3234 (SecretUI_t598 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecretUI__ctor_m3234 (SecretUI_t599 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SecretUI::ToggleVisibility()
-extern "C" void SecretUI_ToggleVisibility_m3235 (SecretUI_t598 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecretUI_ToggleVisibility_m3235 (SecretUI_t599 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SecretUI::Awake()
-extern "C" void SecretUI_Awake_m3236 (SecretUI_t598 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecretUI_Awake_m3236 (SecretUI_t599 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SecretUI::ApplyInputs()
-extern "C" void SecretUI_ApplyInputs_m3237 (SecretUI_t598 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecretUI_ApplyInputs_m3237 (SecretUI_t599 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

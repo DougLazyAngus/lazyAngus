@@ -35,10 +35,7 @@ public class LevelDescription
 	public int gameLevel;
 
 	public string previousLevelClearedAchievementID;
-
-	
-	public const string mouseHoleIntroSpritePath = "Textures/MouseHole/cheese";
-
+		
 	public LevelDescription ()
 	{
 		specialText = "";
@@ -86,6 +83,12 @@ public class LevelConfig : MonoBehaviour
 
 	//We make a static variable to our MusicManager instance
 	public static LevelConfig instance { get; private set; }
+
+	const string mouseHoleIntroSpritePath = "Textures/MouseHole/cheese";
+	const string angusIntroSpritePath = "Textures/Misc/smile-kitty";
+	
+	Sprite mouseHoleIntroSprite;
+	Sprite angusIntroSprite;
 	
 	void Awake ()
 	{
@@ -95,11 +98,18 @@ public class LevelConfig : MonoBehaviour
 
 	void Start ()
 	{
+		LoadSprites ();
+
 		MakeQuasiRandomGenerators ();
 		GeneratePresetLevels ();
 		GenerateLevelLockInfo ();
 	}
 
+	void LoadSprites() {
+		mouseHoleIntroSprite = Resources.Load<UnityEngine.Sprite> (mouseHoleIntroSpritePath);
+		angusIntroSprite = Resources.Load<UnityEngine.Sprite> (angusIntroSpritePath);
+	}
+	
 	void GenerateLevelLockInfo ()
 	{
 		boostLevelLocks = new int[(int)BoostConfig.BoostType.NUM_TYPES];
@@ -238,6 +248,10 @@ public class LevelConfig : MonoBehaviour
 				ld.explicitMouseDescs = GenerateRandomMiceForLevel (ld);
 				GenerateRandomWigglesForLevel (ld);
 			}
+
+			if (ld.sprite == null) {
+				ld.sprite = angusIntroSprite;
+			}
 		}
 	}
 
@@ -298,14 +312,47 @@ public class LevelConfig : MonoBehaviour
 				                      true, MouseHole.MouseHoleLocation.SOUTH,
 				                      MouseConfig.MouseType.SLOW, 
 				                      1);	
-		} else if (--glCounter == 0) {
-			ld.specialText = "The mouse holes are growing!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);
+			return ld;
+		}
+
+		if (--glCounter == 0) {
+			ld.specialText = "Get ready for faster mice!";
+			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
+				MouseConfig.MouseType.MEDIUM);
+			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.MEDIUM);
+			
+			// Eight mice, two medium.
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      0);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.1f, true, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2);		
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.1f, true, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      1);
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      0);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      2);	
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			ld.specialText = "There's more room in one of the mouse holes!";
+			ld.sprite = mouseHoleIntroSprite;
 
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.NORTH);
-			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.SOUTH);
-			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.EAST);
-			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.WEST);
 
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
@@ -319,19 +366,29 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);
 			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      1);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      2);
+
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.3f, false, MouseHole.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);		
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseHole.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
-			                      0);
+			                      1);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
-		} else if (--glCounter == 0) {
-			// Six slow mice,  different directions, still long pauses.
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
 			ld.specialText = "Cat food helps Angus move faster!";
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 				BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
@@ -343,7 +400,7 @@ public class LevelConfig : MonoBehaviour
 			ld.tipPause = 2.0f;
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.SLOW, 
+			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseHole.MouseHoleLocation.SOUTH,
@@ -359,51 +416,105 @@ public class LevelConfig : MonoBehaviour
 			                      1);		
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.SLOW, 
+			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseHole.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
-		} else if (--glCounter == 0) {
-			ld.specialText = "Get ready for faster mice!";
-			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
-					MouseConfig.MouseType.MEDIUM);
-			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.MEDIUM);
-
-			// Eight mice, two medium.
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseConfig.MouseType.SLOW, 
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			ld.specialText = "There's more room in one of the mouse holes!";
+			ld.sprite = mouseHoleIntroSprite;
+			
+			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.SOUTH);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.MEDIUM, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.1f, true, MouseHole.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.SLOW, 
-			                      2);		
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.1f, true, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseConfig.MouseType.MEDIUM, 
-			                      1);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseHole.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      2);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseHole.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
+			                      0);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      1);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2);		
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.5f, true, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      0);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      1);	
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			ld.specialText = "Here comes the fastest mouse yet!";
+			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
+				MouseConfig.MouseType.FAST);
+			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.MEDIUM);
+			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.FAST);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      1);		
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.FAST, 
+			                      0);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      1);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
-			                      0);	
+			                      1);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseHole.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.MEDIUM, 
-			                      2);	
-		} else if (--glCounter == 0) {
+			                      2);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.FAST, 
+			                      1);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      1);	
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
 			ld.specialText = "This cat food helps Angus see better!";
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 					BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
@@ -442,24 +553,75 @@ public class LevelConfig : MonoBehaviour
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
-		} else if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			ld.specialText = "Some mouse holes are getting bigger!";
+			ld.sprite = mouseHoleIntroSprite;
+
+			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.EAST);
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      1);	
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.FAST, 
+			                      0);	
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      1);		
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      0);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2);		
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      1);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.FAST, 
+			                      0);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, false, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.FAST, 
+			                      2);	
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
 			ld.specialText = "Some mice have learned to dodge!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
-					MouseConfig.MouseWiggleType.BACK_FORTH);
+				MouseConfig.MouseWiggleType.BACK_FORTH);
 			ld.wigglesAccumulator.AddNew ((int)MouseConfig.MouseWiggleType.BACK_FORTH);
-
+			
 			// Eight mice, two medium.
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
-
+			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.5f, true, MouseHole.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);		
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseConfig.MouseType.MEDIUM, 
+			                      MouseConfig.MouseType.SLOW, 
 			                      0, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
@@ -476,12 +638,12 @@ public class LevelConfig : MonoBehaviour
 			                      0);	
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseConfig.MouseType.SLOW, 
+			                      MouseConfig.MouseType.FAST, 
 			                      1, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseConfig.MouseType.MEDIUM, 
+			                      MouseConfig.MouseType.FAST, 
 			                      2);	
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.NORTH,
@@ -493,113 +655,29 @@ public class LevelConfig : MonoBehaviour
 			                      0, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 
-		} else if (--glCounter == 0) {
-			ld.specialText = "Here comes the fastest mouse yet!";
-			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
-					MouseConfig.MouseType.FAST);
-			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.MEDIUM);
-			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.FAST);
-
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseConfig.MouseType.SLOW, 
-			                      2);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.SLOW, 
-			                      1);		
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.FAST, 
-			                      0);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.SLOW, 
-			                      1, 
-			                      MouseConfig.MouseWiggleType.BACK_FORTH);
-	
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.MEDIUM, 
-			                      2);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.SLOW, 
-			                      1);	
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseConfig.MouseType.SLOW, 
-			                      0);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.MEDIUM, 
-			                      2, 
-			                      MouseConfig.MouseWiggleType.BACK_FORTH);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseConfig.MouseType.FAST, 
-			                      1, 
-			                      MouseConfig.MouseWiggleType.BACK_FORTH);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.SLOW, 
-			                      1);	
-		} else if (--glCounter == 0) {
-			ld.specialText = "Some mouse holes are getting bigger!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);
-
-
-			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.NORTH);
-			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.SOUTH);
-
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseHole.MouseHoleLocation.SOUTH,
-			                      MouseConfig.MouseType.SLOW, 
-			                      2, 
-			                      MouseConfig.MouseWiggleType.BACK_FORTH);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.MEDIUM, 
-			                      1);	
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.FAST, 
-			                      0);	
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.SLOW, 
-			                      2, 
-			                      MouseConfig.MouseWiggleType.BACK_FORTH);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.MEDIUM, 
-			                      1);		
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseConfig.MouseType.MEDIUM, 
-			                      0);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.SLOW, 
-			                      2);		
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.MEDIUM, 
-			                      1);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
-			                      MouseConfig.MouseType.FAST, 
-			                      0, 
-			                      MouseConfig.MouseWiggleType.BACK_FORTH);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, false, MouseHole.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.FAST, 
-			                      2);	
-		} else if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
 			ld.specialText = "Try new Giant Paws cat food!";
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 				BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS);
 
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS);
 
-		} else if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			ld.specialText = "Some mouse holes are getting bigger!";
+			ld.sprite = mouseHoleIntroSprite;
+			
+			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.WEST);
+			
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
 			ld.specialText = "Watch out for the super speedster mouse!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.SUPERFAST);
@@ -662,14 +740,27 @@ public class LevelConfig : MonoBehaviour
 			                      2, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);	
 
-		} else if (--glCounter == 0) {
-			ld.specialText = "Some mouse holes are getting bigger!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			ld.specialText = "Farty cat food... Yum!";
+			ld.sprite = BoostConfig.instance.GetIntroImageForType (
+				BoostConfig.BoostType.BOOST_TYPE_FART);
+			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_FART);
 			
-			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.EAST);
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			ld.specialText = "One mouse hole is growing!";
+			ld.sprite = mouseHoleIntroSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.WEST);
-
-		} else if (--glCounter == 0) {
+			
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
 			ld.specialText = "Mice are weaving side to side!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
 					MouseConfig.MouseWiggleType.SIDE_SIDE);
@@ -752,18 +843,10 @@ public class LevelConfig : MonoBehaviour
 			                      2, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);	
 		
-		} else if (--glCounter == 0) {
-			ld.specialText = "Farty cat food... Yum!";
-			ld.sprite = BoostConfig.instance.GetIntroImageForType (
-					BoostConfig.BoostType.BOOST_TYPE_FART);
-			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_FART);
-
-		} else if (--glCounter == 0) {
-			ld.specialText = "One mouse hole is growing!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);			
-			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.EAST);
-
-		} else if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
 			ld.specialText = "Here comes trouble....";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.SUPERFAST);
@@ -819,17 +902,25 @@ public class LevelConfig : MonoBehaviour
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.2f, true, MouseHole.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);
-		} else if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
 			ld.specialText = "Introducing... Poison Paws cat food!";
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 					BoostConfig.BoostType.BOOST_TYPE_POISON_PAWS);
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_POISON_PAWS);
-		} else if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
 			ld.specialText = "Another mouse hole expands!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);			
-			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.WEST);
-
-		} else if (--glCounter == 0) {
+			ld.sprite = mouseHoleIntroSprite;
+			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.EAST);
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
 			ld.specialText = "Uh-oh! Some mice dodge AND weave!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
 					MouseConfig.MouseWiggleType.ROUND);
@@ -891,22 +982,96 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.FAST, 
 			                      0,
 			                      MouseConfig.MouseWiggleType.ROUND);
-
-		} else if (--glCounter == 0) {
-			ld.specialText = "One hole is a little more roomy!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);			
-			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.NORTH);
-
-		} else if (--glCounter == 0) {
-			ld.specialText = "A little more room for mice!";
-			ld.sprite = Resources.Load<UnityEngine.Sprite> (LevelDescription.mouseHoleIntroSpritePath);			
-				
-			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.SOUTH);
-		} else {
-			return null;
+			return ld;
 		}
 
-		return ld;
+		if (--glCounter == 0) {
+			return ld;
+		}
+
+		if (--glCounter == 0) {
+			ld.specialText = "One hole is a little more roomy!";
+			ld.sprite = mouseHoleIntroSprite;
+			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.SOUTH);
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			return ld;
+		}
+
+		if (--glCounter == 0) {
+			ld.specialText = "One hole is a little more roomy!";
+			ld.sprite = mouseHoleIntroSprite;
+			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.NORTH);
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			ld.specialText = "One hole is a little more roomy!";
+			ld.sprite = mouseHoleIntroSprite;
+			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.NORTH);
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			ld.specialText = "One hole is a little more roomy!";
+			ld.sprite = mouseHoleIntroSprite;
+			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.WEST);
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			ld.specialText = "One hole is a little more roomy!";
+			ld.sprite = mouseHoleIntroSprite;
+			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.SOUTH);
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			return ld;
+		}
+		
+		if (--glCounter == 0) {
+			ld.specialText = "One hole is a little more roomy!";
+			ld.sprite = mouseHoleIntroSprite;
+			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.EAST);
+			return ld;
+		}
+	
+		return null;
 	}
 
 	LevelDescription GenerateRandomLevelDescription (int gameLevel)
@@ -937,6 +1102,8 @@ public class LevelConfig : MonoBehaviour
 
 
 		ld.explicitMouseDescs = GenerateRandomMiceForLevel (ld);
+		ld.sprite = angusIntroSprite;
+
 		GenerateRandomWigglesForLevel (ld);
 
 		return ld;

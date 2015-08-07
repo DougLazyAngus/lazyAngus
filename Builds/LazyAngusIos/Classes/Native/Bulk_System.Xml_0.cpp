@@ -85,7 +85,7 @@ extern "C" void XsdAnySimpleType__ctor_m10163 (XsdAnySimpleType_t3049 * __this, 
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaDatatype_t3050_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5245);
+		XmlSchemaDatatype_t3050_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -95,19 +95,19 @@ extern "C" void XsdAnySimpleType__ctor_m10163 (XsdAnySimpleType_t3049 * __this, 
 	}
 }
 // System.Void Mono.Xml.Schema.XsdAnySimpleType::.cctor()
-extern TypeInfo* CharU5BU5D_t660_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t661_il2cpp_TypeInfo_var;
 extern TypeInfo* XsdAnySimpleType_t3049_il2cpp_TypeInfo_var;
 extern "C" void XsdAnySimpleType__cctor_m10164 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharU5BU5D_t660_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		CharU5BU5D_t661_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		CharU5BU5D_t660* L_0 = ((CharU5BU5D_t660*)SZArrayNew(CharU5BU5D_t660_il2cpp_TypeInfo_var, 1));
+		CharU5BU5D_t661* L_0 = ((CharU5BU5D_t661*)SZArrayNew(CharU5BU5D_t661_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_0, 0)) = (uint16_t)((int32_t)32);
@@ -129,7 +129,7 @@ extern "C" XsdAnySimpleType_t3049 * XsdAnySimpleType_get_Instance_m10165 (Object
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -162,7 +162,7 @@ extern "C" void XdtAnyAtomicType__ctor_m10167 (XdtAnyAtomicType_t3051 * __this, 
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -206,7 +206,7 @@ extern "C" void XsdString__ctor_m10169 (XsdString_t3053 * __this, const MethodIn
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -543,7 +543,7 @@ extern "C" void XsdNotation__ctor_m10195 (XsdNotation_t3066 * __this, const Meth
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -576,7 +576,7 @@ extern "C" void XsdDecimal__ctor_m10197 (XsdDecimal_t3067 * __this, const Method
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -844,7 +844,7 @@ extern "C" void XsdFloat__ctor_m10212 (XsdFloat_t3081 * __this, const MethodInfo
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -871,7 +871,7 @@ extern "C" void XsdDouble__ctor_m10213 (XsdDouble_t3082 * __this, const MethodIn
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -915,7 +915,7 @@ extern "C" void XsdBase64Binary__cctor_m10215 (Object_t * __this /* static, unus
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdBase64Binary_t3083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
+		XsdBase64Binary_t3083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5248);
 		ByteU5BU5D_t66_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(254);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -1007,7 +1007,7 @@ extern "C" void XsdHexBinary__ctor_m10216 (XsdHexBinary_t3084 * __this, const Me
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1072,7 +1072,7 @@ extern "C" void XsdBoolean__ctor_m10220 (XsdBoolean_t3086 * __this, const Method
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1089,7 +1089,7 @@ extern "C" int32_t XsdBoolean_get_TokenizedType_m10221 (XsdBoolean_t3086 * __thi
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaUtil_t3117_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5248);
+		XmlSchemaUtil_t3117_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5249);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1151,7 +1151,7 @@ extern "C" void XsdDuration__ctor_m10224 (XsdDuration_t3088 * __this, const Meth
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1221,7 +1221,7 @@ extern "C" void XsdDateTime__ctor_m10228 (XsdDateTime_t3091 * __this, const Meth
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1255,7 +1255,7 @@ extern "C" void XsdDate__ctor_m10230 (XsdDate_t3092 * __this, const MethodInfo* 
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1289,7 +1289,7 @@ extern "C" void XsdTime__ctor_m10232 (XsdTime_t3093 * __this, const MethodInfo* 
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1308,7 +1308,7 @@ extern "C" void XsdTime__cctor_m10233 (Object_t * __this /* static, unused */, c
 	if (!s_Il2CppMethodIntialized)
 	{
 		StringU5BU5D_t75_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(50);
-		XsdTime_t3093_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5249);
+		XsdTime_t3093_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1460,7 +1460,7 @@ extern "C" void XsdGYearMonth__ctor_m10235 (XsdGYearMonth_t3094 * __this, const 
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1487,7 +1487,7 @@ extern "C" void XsdGMonthDay__ctor_m10236 (XsdGMonthDay_t3095 * __this, const Me
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1514,7 +1514,7 @@ extern "C" void XsdGYear__ctor_m10237 (XsdGYear_t3096 * __this, const MethodInfo
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1541,7 +1541,7 @@ extern "C" void XsdGMonth__ctor_m10238 (XsdGMonth_t3097 * __this, const MethodIn
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1568,7 +1568,7 @@ extern "C" void XsdGDay__ctor_m10239 (XsdGDay_t3098 * __this, const MethodInfo* 
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1657,7 +1657,7 @@ extern "C" void XmlSchemaDatatype__ctor_m10241 (XmlSchemaDatatype_t3050 * __this
 	}
 }
 // System.Void System.Xml.Schema.XmlSchemaDatatype::.cctor()
-extern TypeInfo* CharU5BU5D_t660_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t661_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlSchemaDatatype_t3050_il2cpp_TypeInfo_var;
 extern TypeInfo* XsdAnySimpleType_t3049_il2cpp_TypeInfo_var;
 extern TypeInfo* XsdString_t3053_il2cpp_TypeInfo_var;
@@ -1714,62 +1714,62 @@ extern "C" void XmlSchemaDatatype__cctor_m10242 (Object_t * __this /* static, un
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharU5BU5D_t660_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
-		XmlSchemaDatatype_t3050_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5245);
-		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
-		XsdString_t3053_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
-		XsdNormalizedString_t3054_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5251);
-		XsdToken_t3055_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
-		XsdLanguage_t3056_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5253);
-		XsdNMToken_t3057_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5254);
-		XsdNMTokens_t3058_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5255);
-		XsdName_t3059_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5256);
-		XsdNCName_t3060_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5257);
-		XsdID_t3061_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5258);
-		XsdIDRef_t3062_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5259);
-		XsdIDRefs_t3063_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5260);
-		XsdEntity_t3064_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5261);
-		XsdEntities_t3065_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5262);
-		XsdNotation_t3066_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5263);
-		XsdDecimal_t3067_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5264);
-		XsdInteger_t3068_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5265);
-		XsdLong_t3069_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5266);
-		XsdInt_t3070_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5267);
-		XsdShort_t3071_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5268);
-		XsdByte_t3072_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5269);
-		XsdNonNegativeInteger_t3073_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5270);
-		XsdPositiveInteger_t3078_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5271);
-		XsdUnsignedLong_t3074_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5272);
-		XsdUnsignedInt_t3075_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5273);
-		XsdUnsignedShort_t3076_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5274);
-		XsdUnsignedByte_t3077_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5275);
-		XsdNonPositiveInteger_t3079_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5276);
-		XsdNegativeInteger_t3080_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5277);
-		XsdFloat_t3081_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5278);
-		XsdDouble_t3082_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5279);
-		XsdBase64Binary_t3083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
-		XsdBoolean_t3086_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5280);
-		XsdAnyURI_t3087_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5281);
-		XsdDuration_t3088_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5282);
-		XsdDateTime_t3091_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5283);
-		XsdDate_t3092_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5284);
-		XsdTime_t3093_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5249);
-		XsdHexBinary_t3084_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5285);
-		XsdQName_t3085_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5286);
-		XsdGYearMonth_t3094_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5287);
-		XsdGMonthDay_t3095_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5288);
-		XsdGYear_t3096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5289);
-		XsdGMonth_t3097_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5290);
-		XsdGDay_t3098_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5291);
-		XdtAnyAtomicType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5292);
-		XdtUntypedAtomic_t3052_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5293);
-		XdtDayTimeDuration_t3089_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5294);
-		XdtYearMonthDuration_t3090_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5295);
-		U3CPrivateImplementationDetailsU3E_t3242____U24U24fieldU2D23_0_FieldInfo_var = il2cpp_codegen_field_info_from_index(5296, 0);
+		CharU5BU5D_t661_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		XmlSchemaDatatype_t3050_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
+		XsdAnySimpleType_t3049_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5247);
+		XsdString_t3053_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5251);
+		XsdNormalizedString_t3054_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5252);
+		XsdToken_t3055_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5253);
+		XsdLanguage_t3056_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5254);
+		XsdNMToken_t3057_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5255);
+		XsdNMTokens_t3058_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5256);
+		XsdName_t3059_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5257);
+		XsdNCName_t3060_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5258);
+		XsdID_t3061_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5259);
+		XsdIDRef_t3062_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5260);
+		XsdIDRefs_t3063_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5261);
+		XsdEntity_t3064_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5262);
+		XsdEntities_t3065_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5263);
+		XsdNotation_t3066_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5264);
+		XsdDecimal_t3067_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5265);
+		XsdInteger_t3068_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5266);
+		XsdLong_t3069_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5267);
+		XsdInt_t3070_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5268);
+		XsdShort_t3071_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5269);
+		XsdByte_t3072_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5270);
+		XsdNonNegativeInteger_t3073_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5271);
+		XsdPositiveInteger_t3078_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5272);
+		XsdUnsignedLong_t3074_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5273);
+		XsdUnsignedInt_t3075_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5274);
+		XsdUnsignedShort_t3076_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5275);
+		XsdUnsignedByte_t3077_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5276);
+		XsdNonPositiveInteger_t3079_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5277);
+		XsdNegativeInteger_t3080_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5278);
+		XsdFloat_t3081_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5279);
+		XsdDouble_t3082_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5280);
+		XsdBase64Binary_t3083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5248);
+		XsdBoolean_t3086_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5281);
+		XsdAnyURI_t3087_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5282);
+		XsdDuration_t3088_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5283);
+		XsdDateTime_t3091_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5284);
+		XsdDate_t3092_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5285);
+		XsdTime_t3093_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5250);
+		XsdHexBinary_t3084_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5286);
+		XsdQName_t3085_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5287);
+		XsdGYearMonth_t3094_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5288);
+		XsdGMonthDay_t3095_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5289);
+		XsdGYear_t3096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5290);
+		XsdGMonth_t3097_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5291);
+		XsdGDay_t3098_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5292);
+		XdtAnyAtomicType_t3051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5293);
+		XdtUntypedAtomic_t3052_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5294);
+		XdtDayTimeDuration_t3089_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5295);
+		XdtYearMonthDuration_t3090_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5296);
+		U3CPrivateImplementationDetailsU3E_t3242____U24U24fieldU2D23_0_FieldInfo_var = il2cpp_codegen_field_info_from_index(5297, 0);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		CharU5BU5D_t660* L_0 = ((CharU5BU5D_t660*)SZArrayNew(CharU5BU5D_t660_il2cpp_TypeInfo_var, 4));
+		CharU5BU5D_t661* L_0 = ((CharU5BU5D_t661*)SZArrayNew(CharU5BU5D_t661_il2cpp_TypeInfo_var, 4));
 		RuntimeHelpers_InitializeArray_m11178(NULL /*static, unused*/, (Array_t *)(Array_t *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3242____U24U24fieldU2D23_0_FieldInfo_var), /*hidden argument*/NULL);
 		((XmlSchemaDatatype_t3050_StaticFields*)XmlSchemaDatatype_t3050_il2cpp_TypeInfo_var->static_fields)->___wsChars_1 = L_0;
 		IL2CPP_RUNTIME_CLASS_INIT(XsdAnySimpleType_t3049_il2cpp_TypeInfo_var);
@@ -1930,7 +1930,7 @@ extern "C" XmlSchemaDatatype_t3050 * XmlSchemaDatatype_FromName_m10243 (Object_t
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaDatatype_t3050_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5245);
+		XmlSchemaDatatype_t3050_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1954,7 +1954,7 @@ extern "C" XmlSchemaDatatype_t3050 * XmlSchemaDatatype_FromName_m10244 (Object_t
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaDatatype_t3050_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5245);
+		XmlSchemaDatatype_t3050_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
 		Dictionary_2_t223_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(247);
 		Dictionary_2__ctor_m3607_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483857);
 		s_Il2CppMethodIntialized = true;
@@ -2869,7 +2869,7 @@ extern "C" void XmlSchemaFacet__cctor_m10245 (Object_t * __this /* static, unuse
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaFacet_t3106_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5297);
+		XmlSchemaFacet_t3106_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5298);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -2900,7 +2900,7 @@ extern "C" void XmlSchemaInfo__ctor_m10246 (XmlSchemaInfo_t3109 * __this, Object
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IXmlSchemaInfo_t3165_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5298);
+		IXmlSchemaInfo_t3165_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5299);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -3018,7 +3018,7 @@ extern "C" void XmlSchemaObject__ctor_m10254 (XmlSchemaObject_t3100 * __this, co
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSerializerNamespaces_t3110_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5299);
+		XmlSerializerNamespaces_t3110_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5300);
 		Guid_t74_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(46);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -3078,9 +3078,9 @@ extern "C" void XmlSchemaSimpleType__cctor_m10256 (Object_t * __this /* static, 
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaSimpleType_t3107_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5300);
-		XmlSchemaSimpleTypeList_t3114_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5301);
-		XmlQualifiedName_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5302);
+		XmlSchemaSimpleType_t3107_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5301);
+		XmlSchemaSimpleTypeList_t3114_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5302);
+		XmlQualifiedName_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5303);
 		s_Il2CppMethodIntialized = true;
 	}
 	XmlSchemaSimpleType_t3107 * V_0 = {0};
@@ -3254,7 +3254,7 @@ extern "C" XmlSchemaSimpleType_t3107 * XmlSchemaSimpleType_BuildSchemaType_m1025
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaSimpleType_t3107_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5300);
+		XmlSchemaSimpleType_t3107_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5301);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -3274,9 +3274,9 @@ extern "C" XmlSchemaSimpleType_t3107 * XmlSchemaSimpleType_BuildSchemaType_m1025
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaSimpleType_t3107_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5300);
-		XmlQualifiedName_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5302);
-		XmlSchemaDatatype_t3050_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5245);
+		XmlSchemaSimpleType_t3107_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5301);
+		XmlQualifiedName_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5303);
+		XmlSchemaDatatype_t3050_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5246);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -3402,7 +3402,7 @@ extern "C" void XmlSchemaSimpleTypeList__ctor_m10261 (XmlSchemaSimpleTypeList_t3
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlQualifiedName_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5302);
+		XmlQualifiedName_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5303);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -3450,7 +3450,7 @@ extern "C" void XmlSchemaSimpleTypeRestriction__cctor_m10264 (Object_t * __this 
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlSchemaSimpleTypeRestriction_t3115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5303);
+		XmlSchemaSimpleTypeRestriction_t3115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5304);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -3482,7 +3482,7 @@ extern "C" void XmlSchemaType__ctor_m10265 (XmlSchemaType_t3108 * __this, const 
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlQualifiedName_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5302);
+		XmlQualifiedName_t3113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5303);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -3514,9 +3514,9 @@ extern "C" XmlSchemaSimpleType_t3107 * XmlSchemaType_GetBuiltInSimpleType_m10267
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlSchemaType_t3108_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5304);
+		XmlSchemaType_t3108_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5305);
 		Dictionary_2_t223_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(247);
-		XmlSchemaSimpleType_t3107_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5300);
+		XmlSchemaSimpleType_t3107_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5301);
 		Dictionary_2__ctor_m3607_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483857);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -4352,7 +4352,7 @@ extern "C" void XmlSchemaUtil__cctor_m10268 (Object_t * __this /* static, unused
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlSchemaUtil_t3117_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5248);
+		XmlSchemaUtil_t3117_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5249);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -4496,7 +4496,7 @@ extern "C" void XmlSerializerNamespaces__ctor_m10275 (XmlSerializerNamespaces_t3
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ListDictionary_t3123_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5305);
+		ListDictionary_t3123_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5306);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -4540,7 +4540,7 @@ extern "C" void DTDAutomataFactory__ctor_m10276 (DTDAutomataFactory_t3126 * __th
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Hashtable_t1276_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3233);
+		Hashtable_t1276_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3234);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -4642,14 +4642,14 @@ extern "C" void DTDObjectModel__ctor_m10277 (DTDObjectModel_t3125 * __this, XmlN
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDElementDeclarationCollection_t3127_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5306);
-		DTDAttListDeclarationCollection_t3128_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5307);
-		DTDEntityDeclarationCollection_t3130_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5308);
-		DTDParameterEntityDeclarationCollection_t3129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5309);
-		DTDNotationDeclarationCollection_t3131_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5310);
-		DTDAutomataFactory_t3126_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5311);
-		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5312);
-		Hashtable_t1276_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3233);
+		DTDElementDeclarationCollection_t3127_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5307);
+		DTDAttListDeclarationCollection_t3128_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5308);
+		DTDEntityDeclarationCollection_t3130_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5309);
+		DTDParameterEntityDeclarationCollection_t3129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5310);
+		DTDNotationDeclarationCollection_t3131_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5311);
+		DTDAutomataFactory_t3126_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5312);
+		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		Hashtable_t1276_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3234);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -4853,7 +4853,7 @@ extern "C" String_t* DTDObjectModel_ResolveEntity_m10297 (DTDObjectModel_t3125 *
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDEntityDeclaration_t3147 * V_0 = {0};
@@ -4996,7 +4996,7 @@ IL_0015:
 // Mono.Xml2.XmlTextReader Mono.Xml.DTDObjectModel::GenerateEntityContentReader(System.String,System.Xml.XmlParserContext)
 extern const Il2CppType* Stream_t51_0_0_0_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* Uri_t707_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t708_il2cpp_TypeInfo_var;
 extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Stream_t51_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlTextReader_t3214_il2cpp_TypeInfo_var;
@@ -5007,16 +5007,16 @@ extern "C" XmlTextReader_t3214 * DTDObjectModel_GenerateEntityContentReader_m103
 	{
 		Stream_t51_0_0_0_var = il2cpp_codegen_type_from_index(143);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		Uri_t707_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(345);
+		Uri_t708_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(345);
 		Type_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(410);
 		Stream_t51_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(143);
-		XmlTextReader_t3214_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
+		XmlTextReader_t3214_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5315);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDEntityDeclaration_t3147 * V_0 = {0};
-	Uri_t707 * V_1 = {0};
+	Uri_t708 * V_1 = {0};
 	Stream_t51 * V_2 = {0};
-	Uri_t707 * G_B6_0 = {0};
+	Uri_t708 * G_B6_0 = {0};
 	{
 		DTDEntityDeclarationCollection_t3130 * L_0 = DTDObjectModel_get_EntityDecls_m10303(__this, /*hidden argument*/NULL);
 		String_t* L_1 = ___entityName;
@@ -5056,7 +5056,7 @@ IL_0015:
 		}
 	}
 	{
-		G_B6_0 = ((Uri_t707 *)(NULL));
+		G_B6_0 = ((Uri_t708 *)(NULL));
 		goto IL_0046;
 	}
 
@@ -5065,7 +5065,7 @@ IL_003b:
 		DTDEntityDeclaration_t3147 * L_10 = V_0;
 		NullCheck(L_10);
 		String_t* L_11 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Xml.DTDNode::get_BaseURI() */, L_10);
-		Uri_t707 * L_12 = (Uri_t707 *)il2cpp_codegen_object_new (Uri_t707_il2cpp_TypeInfo_var);
+		Uri_t708 * L_12 = (Uri_t708 *)il2cpp_codegen_object_new (Uri_t708_il2cpp_TypeInfo_var);
 		Uri__ctor_m7206(L_12, L_11, /*hidden argument*/NULL);
 		G_B6_0 = L_12;
 	}
@@ -5075,16 +5075,16 @@ IL_0046:
 		V_1 = G_B6_0;
 		XmlResolver_t3132 * L_13 = (__this->___resolver_7);
 		XmlResolver_t3132 * L_14 = (__this->___resolver_7);
-		Uri_t707 * L_15 = V_1;
+		Uri_t708 * L_15 = V_1;
 		DTDEntityDeclaration_t3147 * L_16 = V_0;
 		NullCheck(L_16);
 		String_t* L_17 = DTDEntityBase_get_SystemId_m10383(L_16, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		Uri_t707 * L_18 = (Uri_t707 *)VirtFuncInvoker2< Uri_t707 *, Uri_t707 *, String_t* >::Invoke(5 /* System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String) */, L_14, L_15, L_17);
+		Uri_t708 * L_18 = (Uri_t708 *)VirtFuncInvoker2< Uri_t708 *, Uri_t708 *, String_t* >::Invoke(5 /* System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String) */, L_14, L_15, L_17);
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_19 = Type_GetTypeFromHandle_m3819(NULL /*static, unused*/, LoadTypeToken(Stream_t51_0_0_0_var), /*hidden argument*/NULL);
 		NullCheck(L_13);
-		Object_t * L_20 = (Object_t *)VirtFuncInvoker3< Object_t *, Uri_t707 *, String_t*, Type_t * >::Invoke(4 /* System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type) */, L_13, L_18, (String_t*)NULL, L_19);
+		Object_t * L_20 = (Object_t *)VirtFuncInvoker3< Object_t *, Uri_t708 *, String_t*, Type_t * >::Invoke(4 /* System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type) */, L_13, L_18, (String_t*)NULL, L_19);
 		V_2 = ((Stream_t51 *)IsInst(L_20, Stream_t51_il2cpp_TypeInfo_var));
 		Stream_t51 * L_21 = V_2;
 		XmlParserContext_t3203 * L_22 = ___context;
@@ -5173,7 +5173,7 @@ extern "C" Object_t* U3CU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		U3CU3Ec__Iterator3_t3136_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5315);
+		U3CU3Ec__Iterator3_t3136_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5316);
 		s_Il2CppMethodIntialized = true;
 	}
 	U3CU3Ec__Iterator3_t3136 * V_0 = {0};
@@ -5214,7 +5214,7 @@ extern "C" bool U3CU3Ec__Iterator3_MoveNext_m10314 (U3CU3Ec__Iterator3_t3136 * _
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Enumerator_t3137_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5318);
+		Enumerator_t3137_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
 		List_1_GetEnumerator_m11182_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485148);
 		Enumerator_get_Current_m11183_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485149);
@@ -5365,7 +5365,7 @@ extern "C" void U3CU3Ec__Iterator3_Dispose_m10315 (U3CU3Ec__Iterator3_t3136 * __
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Enumerator_t3137_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5318);
+		Enumerator_t3137_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -5457,7 +5457,7 @@ extern "C" void DictionaryBase__ctor_m10317 (DictionaryBase_t3135 * __this, cons
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		List_1_t3139_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
+		List_1_t3139_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5320);
 		List_1__ctor_m11186_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485152);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -5474,7 +5474,7 @@ extern "C" Object_t* DictionaryBase_get_Values_m10318 (DictionaryBase_t3135 * __
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		U3CU3Ec__Iterator3_t3136_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5315);
+		U3CU3Ec__Iterator3_t3136_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5316);
 		s_Il2CppMethodIntialized = true;
 	}
 	U3CU3Ec__Iterator3_t3136 * V_0 = {0};
@@ -5557,7 +5557,7 @@ extern "C" bool DTDCollectionBase_Contains_m10322 (DTDCollectionBase_t3140 * __t
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		Enumerator_t3137_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5318);
+		Enumerator_t3137_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
 		List_1_GetEnumerator_m11182_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485148);
 		Enumerator_get_Current_m11183_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485149);
@@ -5668,7 +5668,7 @@ extern "C" Object_t * DTDCollectionBase_BaseGet_m10323 (DTDCollectionBase_t3140 
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		Enumerator_t3137_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5318);
+		Enumerator_t3137_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5319);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
 		List_1_GetEnumerator_m11182_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485148);
 		Enumerator_get_Current_m11183_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485149);
@@ -5792,7 +5792,7 @@ extern "C" void DTDElementDeclarationCollection_Add_m10325 (DTDElementDeclaratio
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -5857,7 +5857,7 @@ extern "C" DTDAttListDeclaration_t3145 * DTDAttListDeclarationCollection_get_Ite
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDAttListDeclaration_t3145_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5320);
+		DTDAttListDeclaration_t3145_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5321);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -5878,7 +5878,7 @@ extern "C" void DTDAttListDeclarationCollection_Add_m10328 (DTDAttListDeclaratio
 	{
 		IEnumerable_t104_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(139);
 		IEnumerator_t48_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(22);
-		DTDAttributeDefinition_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5321);
+		DTDAttributeDefinition_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5322);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -6044,7 +6044,7 @@ extern "C" DTDEntityDeclaration_t3147 * DTDEntityDeclarationCollection_get_Item_
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDEntityDeclaration_t3147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5322);
+		DTDEntityDeclaration_t3147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5323);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6062,7 +6062,7 @@ extern "C" void DTDEntityDeclarationCollection_Add_m10331 (DTDEntityDeclarationC
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		InvalidOperationException_t1378_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2345);
+		InvalidOperationException_t1378_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2346);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6120,7 +6120,7 @@ extern "C" void DTDNotationDeclarationCollection_Add_m10333 (DTDNotationDeclarat
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		InvalidOperationException_t1378_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2345);
+		InvalidOperationException_t1378_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2346);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6177,7 +6177,7 @@ extern "C" void DTDContentModel__ctor_m10334 (DTDContentModel_t3142 * __this, DT
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDContentModelCollection_t3141_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5323);
+		DTDContentModelCollection_t3141_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5324);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6256,7 +6256,7 @@ extern "C" void DTDContentModelCollection__ctor_m10341 (DTDContentModelCollectio
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5312);
+		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6274,7 +6274,7 @@ extern "C" DTDContentModel_t3142 * DTDContentModelCollection_get_Item_m10342 (DT
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDContentModel_t3142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5324);
+		DTDContentModel_t3142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6409,7 +6409,7 @@ extern "C" XmlException_t3181 * DTDNode_NotWFError_m10354 (DTDNode_t3134 * __thi
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6489,7 +6489,7 @@ extern "C" DTDContentModel_t3142 * DTDElementDeclaration_get_ContentModel_m10361
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDContentModel_t3142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5324);
+		DTDContentModel_t3142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6574,7 +6574,7 @@ extern "C" String_t* DTDAttributeDefinition_get_UnresolvedDefaultValue_m10365 (D
 }
 // System.String Mono.Xml.DTDAttributeDefinition::ComputeDefaultValue()
 extern TypeInfo* StringBuilder_t261_il2cpp_TypeInfo_var;
-extern TypeInfo* CultureInfo_t718_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t719_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlChar_t3170_il2cpp_TypeInfo_var;
 extern "C" String_t* DTDAttributeDefinition_ComputeDefaultValue_m10366 (DTDAttributeDefinition_t3144 * __this, const MethodInfo* method)
 {
@@ -6582,8 +6582,8 @@ extern "C" String_t* DTDAttributeDefinition_ComputeDefaultValue_m10366 (DTDAttri
 	if (!s_Il2CppMethodIntialized)
 	{
 		StringBuilder_t261_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(266);
-		CultureInfo_t718_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
-		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
+		CultureInfo_t719_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
+		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		s_Il2CppMethodIntialized = true;
 	}
 	StringBuilder_t261 * V_0 = {0};
@@ -6687,8 +6687,8 @@ IL_008f:
 		StringBuilder_t261 * L_25 = V_0;
 		String_t* L_26 = V_7;
 		int32_t L_27 = V_6;
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t718_il2cpp_TypeInfo_var);
-		CultureInfo_t718 * L_28 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t719_il2cpp_TypeInfo_var);
+		CultureInfo_t719 * L_28 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_29 = Int32_Parse_m11190(NULL /*static, unused*/, L_26, L_27, L_28, /*hidden argument*/NULL);
 		NullCheck(L_25);
 		StringBuilder_Append_m3602(L_25, (((uint16_t)L_29)), /*hidden argument*/NULL);
@@ -6795,8 +6795,8 @@ extern "C" void DTDAttListDeclaration__ctor_m10367 (DTDAttListDeclaration_t3145 
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Hashtable_t1276_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3233);
-		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5312);
+		Hashtable_t1276_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3234);
+		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6854,7 +6854,7 @@ extern "C" DTDAttributeDefinition_t3144 * DTDAttListDeclaration_Get_m10372 (DTDA
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDAttributeDefinition_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5321);
+		DTDAttributeDefinition_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5322);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6874,7 +6874,7 @@ extern "C" DTDAttributeDefinition_t3144 * DTDAttListDeclaration_Get_m10373 (DTDA
 	if (!s_Il2CppMethodIntialized)
 	{
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
-		DTDAttributeDefinition_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5321);
+		DTDAttributeDefinition_t3144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5322);
 		s_Il2CppMethodIntialized = true;
 	}
 	Object_t * V_0 = {0};
@@ -6921,7 +6921,7 @@ extern "C" void DTDAttListDeclaration_Add_m10375 (DTDAttListDeclaration_t3145 * 
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		InvalidOperationException_t1378_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2345);
+		InvalidOperationException_t1378_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2346);
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -7109,7 +7109,7 @@ extern "C" void DTDEntityBase_set_XmlResolver_m10389 (DTDEntityBase_t3146 * __th
 	}
 }
 // System.String Mono.Xml.DTDEntityBase::get_ActualUri()
-extern TypeInfo* Uri_t707_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t708_il2cpp_TypeInfo_var;
 extern TypeInfo* UriFormatException_t3246_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern "C" String_t* DTDEntityBase_get_ActualUri_m10390 (DTDEntityBase_t3146 * __this, const MethodInfo* method)
@@ -7117,12 +7117,12 @@ extern "C" String_t* DTDEntityBase_get_ActualUri_m10390 (DTDEntityBase_t3146 * _
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t707_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(345);
-		UriFormatException_t3246_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
+		Uri_t708_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(345);
+		UriFormatException_t3246_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5327);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
 	}
-	Uri_t707 * V_0 = {0};
+	Uri_t708 * V_0 = {0};
 	Exception_t57 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t57 * __exception_local = 0;
@@ -7173,7 +7173,7 @@ IL_0031:
 
 IL_0042:
 	{
-		V_0 = (Uri_t707 *)NULL;
+		V_0 = (Uri_t708 *)NULL;
 	}
 
 IL_0044:
@@ -7201,7 +7201,7 @@ IL_004f:
 IL_0060:
 		{
 			String_t* L_9 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Xml.DTDNode::get_BaseURI() */, __this);
-			Uri_t707 * L_10 = (Uri_t707 *)il2cpp_codegen_object_new (Uri_t707_il2cpp_TypeInfo_var);
+			Uri_t708 * L_10 = (Uri_t708 *)il2cpp_codegen_object_new (Uri_t708_il2cpp_TypeInfo_var);
 			Uri__ctor_m7206(L_10, L_9, /*hidden argument*/NULL);
 			V_0 = L_10;
 		}
@@ -7227,14 +7227,14 @@ CATCH_0071:
 IL_0077:
 	{
 		XmlResolver_t3132 * L_11 = (__this->___resolver_14);
-		Uri_t707 * L_12 = V_0;
+		Uri_t708 * L_12 = V_0;
 		String_t* L_13 = DTDEntityBase_get_SystemId_m10383(__this, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		Uri_t707 * L_14 = (Uri_t707 *)VirtFuncInvoker2< Uri_t707 *, Uri_t707 *, String_t* >::Invoke(5 /* System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String) */, L_11, L_12, L_13);
+		Uri_t708 * L_14 = (Uri_t708 *)VirtFuncInvoker2< Uri_t708 *, Uri_t708 *, String_t* >::Invoke(5 /* System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String) */, L_11, L_12, L_13);
 		__this->___absUri_11 = L_14;
-		Uri_t707 * L_15 = (__this->___absUri_11);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t707_il2cpp_TypeInfo_var);
-		bool L_16 = Uri_op_Inequality_m11194(NULL /*static, unused*/, L_15, (Uri_t707 *)NULL, /*hidden argument*/NULL);
+		Uri_t708 * L_15 = (__this->___absUri_11);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t708_il2cpp_TypeInfo_var);
+		bool L_16 = Uri_op_Inequality_m11194(NULL /*static, unused*/, L_15, (Uri_t708 *)NULL, /*hidden argument*/NULL);
 		G_B12_0 = __this;
 		if (!L_16)
 		{
@@ -7243,7 +7243,7 @@ IL_0077:
 		}
 	}
 	{
-		Uri_t707 * L_17 = (__this->___absUri_11);
+		Uri_t708 * L_17 = (__this->___absUri_11);
 		NullCheck(L_17);
 		String_t* L_18 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Uri::ToString() */, L_17);
 		G_B14_0 = L_18;
@@ -7288,8 +7288,8 @@ extern "C" void DTDEntityBase_Resolve_m10391 (DTDEntityBase_t3146 * __this, cons
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		Type_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(410);
 		Stream_t51_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(143);
-		XmlTextReader_t3214_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
-		InvalidOperationException_t1378_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2345);
+		XmlTextReader_t3214_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5315);
+		InvalidOperationException_t1378_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2346);
 		Exception_t57_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(29);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -7354,11 +7354,11 @@ IL_0066:
 		{ // begin try (depth: 2)
 			{
 				XmlResolver_t3132 * L_12 = (__this->___resolver_14);
-				Uri_t707 * L_13 = (__this->___absUri_11);
+				Uri_t708 * L_13 = (__this->___absUri_11);
 				IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 				Type_t * L_14 = Type_GetTypeFromHandle_m3819(NULL /*static, unused*/, LoadTypeToken(Stream_t51_0_0_0_var), /*hidden argument*/NULL);
 				NullCheck(L_12);
-				Object_t * L_15 = (Object_t *)VirtFuncInvoker3< Object_t *, Uri_t707 *, String_t*, Type_t * >::Invoke(4 /* System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type) */, L_12, L_13, (String_t*)NULL, L_14);
+				Object_t * L_15 = (Object_t *)VirtFuncInvoker3< Object_t *, Uri_t708 *, String_t*, Type_t * >::Invoke(4 /* System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type) */, L_12, L_13, (String_t*)NULL, L_14);
 				V_0 = ((Stream_t51 *)IsInst(L_15, Stream_t51_il2cpp_TypeInfo_var));
 				String_t* L_16 = DTDEntityBase_get_ActualUri_m10390(__this, /*hidden argument*/NULL);
 				Stream_t51 * L_17 = V_0;
@@ -7473,7 +7473,7 @@ extern "C" void DTDEntityDeclaration__ctor_m10392 (DTDEntityDeclaration_t3147 * 
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5312);
+		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -7509,7 +7509,7 @@ extern "C" bool DTDEntityDeclaration_get_HasExternalReference_m10395 (DTDEntityD
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5312);
+		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -7540,7 +7540,7 @@ extern "C" String_t* DTDEntityDeclaration_get_EntityValue_m10396 (DTDEntityDecla
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5312);
+		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -7679,8 +7679,8 @@ extern "C" void DTDEntityDeclaration_ScanEntityValue_m10397 (DTDEntityDeclaratio
 		IEnumerator_t48_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(22);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
-		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
+		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -8257,7 +8257,7 @@ extern "C" void DTDParameterEntityDeclarationCollection__ctor_m10409 (DTDParamet
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Hashtable_t1276_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3233);
+		Hashtable_t1276_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3234);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -8277,7 +8277,7 @@ extern "C" DTDParameterEntityDeclaration_t3149 * DTDParameterEntityDeclarationCo
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDParameterEntityDeclaration_t3149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5327);
+		DTDParameterEntityDeclaration_t3149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5328);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -8475,7 +8475,7 @@ extern "C" XmlException_t3181 * DTDReader_NotWFError_m10419 (DTDReader_t3153 * _
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -8488,15 +8488,15 @@ extern "C" XmlException_t3181 * DTDReader_NotWFError_m10419 (DTDReader_t3153 * _
 }
 // System.Void System.Xml.DTDReader::Init()
 extern TypeInfo* Stack_t2847_il2cpp_TypeInfo_var;
-extern TypeInfo* CharU5BU5D_t660_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t661_il2cpp_TypeInfo_var;
 extern TypeInfo* StringBuilder_t261_il2cpp_TypeInfo_var;
 extern "C" void DTDReader_Init_m10420 (DTDReader_t3153 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Stack_t2847_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5209);
-		CharU5BU5D_t660_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		Stack_t2847_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5210);
+		CharU5BU5D_t661_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		StringBuilder_t261_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(266);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -8504,7 +8504,7 @@ extern "C" void DTDReader_Init_m10420 (DTDReader_t3153 * __this, const MethodInf
 		Stack_t2847 * L_0 = (Stack_t2847 *)il2cpp_codegen_object_new (Stack_t2847_il2cpp_TypeInfo_var);
 		Stack__ctor_m9943(L_0, /*hidden argument*/NULL);
 		__this->___parserInputStack_1 = L_0;
-		__this->___nameBuffer_2 = ((CharU5BU5D_t660*)SZArrayNew(CharU5BU5D_t660_il2cpp_TypeInfo_var, ((int32_t)256)));
+		__this->___nameBuffer_2 = ((CharU5BU5D_t661*)SZArrayNew(CharU5BU5D_t661_il2cpp_TypeInfo_var, ((int32_t)256)));
 		__this->___nameLength_3 = 0;
 		__this->___nameCapacity_4 = ((int32_t)256);
 		StringBuilder_t261 * L_1 = (StringBuilder_t261 *)il2cpp_codegen_object_new (StringBuilder_t261_il2cpp_TypeInfo_var);
@@ -8529,12 +8529,12 @@ extern "C" DTDObjectModel_t3125 * DTDReader_GenerateDTDObjectModel_m10421 (DTDRe
 	if (!s_Il2CppMethodIntialized)
 	{
 		StringReader_t259_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(264);
-		XmlParserInput_t3152_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5328);
+		XmlParserInput_t3152_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5312);
-		IEnumerable_1_t3244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
-		IEnumerator_1_t3243_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5330);
-		DTDEntityDeclaration_t3147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5322);
+		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		IEnumerable_1_t3244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5330);
+		IEnumerator_1_t3243_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
+		DTDEntityDeclaration_t3147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5323);
 		IEnumerator_t48_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(22);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
 		s_Il2CppMethodIntialized = true;
@@ -9101,7 +9101,7 @@ extern "C" void DTDReader_CompileDeclaration_m10423 (DTDReader_t3153 * __this, c
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
+		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDEntityDeclaration_t3147 * V_0 = {0};
@@ -9537,7 +9537,7 @@ extern "C" DTDElementDeclaration_t3143 * DTDReader_ReadElementDecl_m10425 (DTDRe
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDElementDeclaration_t3143_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5331);
+		DTDElementDeclaration_t3143_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5332);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDElementDeclaration_t3143 * V_0 = {0};
@@ -9598,7 +9598,7 @@ extern "C" void DTDReader_ReadContentSpec_m10426 (DTDReader_t3153 * __this, DTDE
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDContentModel_t3142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5324);
+		DTDContentModel_t3142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDContentModel_t3142 * V_0 = {0};
@@ -9961,7 +9961,7 @@ extern "C" DTDContentModel_t3142 * DTDReader_ReadCP_m10427 (DTDReader_t3153 * __
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDContentModel_t3142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5324);
+		DTDContentModel_t3142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDContentModel_t3142 * V_0 = {0};
@@ -10189,7 +10189,7 @@ extern "C" void DTDReader_AddContentModel_m10428 (DTDReader_t3153 * __this, DTDC
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -10270,8 +10270,8 @@ extern "C" void DTDReader_ReadParameterEntityDecl_m10429 (DTDReader_t3153 * __th
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDParameterEntityDeclaration_t3149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5327);
-		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
+		DTDParameterEntityDeclaration_t3149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5328);
+		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDParameterEntityDeclaration_t3149 * V_0 = {0};
@@ -10539,8 +10539,8 @@ extern "C" void DTDReader_ResolveExternalEntityReplacementText_m10430 (DTDReader
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlTextReader_t3223_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5332);
-		DTDEntityDeclaration_t3147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5322);
+		XmlTextReader_t3223_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5333);
+		DTDEntityDeclaration_t3147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5323);
 		StringBuilder_t261_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(266);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -10681,8 +10681,8 @@ extern "C" void DTDReader_ResolveInternalEntityReplacementText_m10431 (DTDReader
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
-		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
+		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
+		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -10939,7 +10939,7 @@ IL_0185:
 	}
 }
 // System.Int32 System.Xml.DTDReader::GetCharacterReference(Mono.Xml.DTDEntityBase,System.String,System.Int32&,System.Int32)
-extern TypeInfo* CultureInfo_t718_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t719_il2cpp_TypeInfo_var;
 extern TypeInfo* FormatException_t2881_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlException_t3181_il2cpp_TypeInfo_var;
 extern "C" int32_t DTDReader_GetCharacterReference_m10432 (DTDReader_t3153 * __this, DTDEntityBase_t3146 * ___li, String_t* ___value, int32_t* ___index, int32_t ___end, const MethodInfo* method)
@@ -10947,9 +10947,9 @@ extern "C" int32_t DTDReader_GetCharacterReference_m10432 (DTDReader_t3153 * __t
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CultureInfo_t718_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
-		FormatException_t2881_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4370);
-		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		CultureInfo_t719_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
+		FormatException_t2881_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4371);
+		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -10980,8 +10980,8 @@ IL_0011:
 		int32_t* L_6 = ___index;
 		NullCheck(L_3);
 		String_t* L_7 = String_Substring_m418(L_3, ((int32_t)((int32_t)(*((int32_t*)L_4))+(int32_t)1)), ((int32_t)((int32_t)((int32_t)((int32_t)L_5-(int32_t)(*((int32_t*)L_6))))-(int32_t)1)), /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t718_il2cpp_TypeInfo_var);
-		CultureInfo_t718 * L_8 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t719_il2cpp_TypeInfo_var);
+		CultureInfo_t719 * L_8 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_9 = Int32_Parse_m11190(NULL /*static, unused*/, L_7, ((int32_t)515), L_8, /*hidden argument*/NULL);
 		V_0 = L_9;
 		goto IL_004f;
@@ -11020,8 +11020,8 @@ IL_0054:
 		int32_t* L_17 = ___index;
 		NullCheck(L_14);
 		String_t* L_18 = String_Substring_m418(L_14, (*((int32_t*)L_15)), ((int32_t)((int32_t)L_16-(int32_t)(*((int32_t*)L_17)))), /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t718_il2cpp_TypeInfo_var);
-		CultureInfo_t718 * L_19 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t719_il2cpp_TypeInfo_var);
+		CultureInfo_t719 * L_19 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_20 = Int32_Parse_m11195(NULL /*static, unused*/, L_18, L_19, /*hidden argument*/NULL);
 		V_0 = L_20;
 		goto IL_0089;
@@ -11106,7 +11106,7 @@ extern "C" DTDParameterEntityDeclaration_t3149 * DTDReader_GetPEDecl_m10434 (DTD
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
 		s_Il2CppMethodIntialized = true;
 	}
 	DTDParameterEntityDeclaration_t3149 * V_0 = {0};
@@ -11278,7 +11278,7 @@ extern "C" void DTDReader_ExpandPERef_m10437 (DTDReader_t3153 * __this, const Me
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -11327,7 +11327,7 @@ extern "C" DTDEntityDeclaration_t3147 * DTDReader_ReadEntityDecl_m10438 (DTDRead
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDEntityDeclaration_t3147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5322);
+		DTDEntityDeclaration_t3147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5323);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -11492,7 +11492,7 @@ extern "C" void DTDReader_ReadEntityValueDecl_m10439 (DTDReader_t3153 * __this, 
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
+		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -11642,17 +11642,17 @@ IL_00d3:
 // Mono.Xml.DTDAttListDeclaration System.Xml.DTDReader::ReadAttListDecl()
 extern TypeInfo* DTDAttListDeclaration_t3145_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlException_t3181_il2cpp_TypeInfo_var;
-extern TypeInfo* ICollection_t704_il2cpp_TypeInfo_var;
+extern TypeInfo* ICollection_t705_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlChar_t3170_il2cpp_TypeInfo_var;
 extern "C" DTDAttListDeclaration_t3145 * DTDReader_ReadAttListDecl_m10440 (DTDReader_t3153 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDAttListDeclaration_t3145_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5320);
-		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
-		ICollection_t704_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(310);
-		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
+		DTDAttListDeclaration_t3145_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5321);
+		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
+		ICollection_t705_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(310);
+		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -11797,7 +11797,7 @@ IL_00fa:
 		NullCheck(L_36);
 		Object_t * L_37 = DTDAttListDeclaration_get_Definitions_m10374(L_36, /*hidden argument*/NULL);
 		NullCheck(L_37);
-		int32_t L_38 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t704_il2cpp_TypeInfo_var, L_37);
+		int32_t L_38 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t705_il2cpp_TypeInfo_var, L_37);
 		if ((((int32_t)L_35) < ((int32_t)L_38)))
 		{
 			goto IL_00b2;
@@ -11855,7 +11855,7 @@ extern "C" DTDAttributeDefinition_t3144 * DTDReader_ReadAttributeDefinition_m104
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		NotImplementedException_t1389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2376);
+		NotImplementedException_t1389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2377);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -11872,7 +11872,7 @@ extern "C" DTDNotationDeclaration_t3148 * DTDReader_ReadNotationDecl_m10442 (DTD
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DTDNotationDeclaration_t3148_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5333);
+		DTDNotationDeclaration_t3148_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5334);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -12174,7 +12174,7 @@ extern "C" String_t* DTDReader_ReadPubidLiteral_m10445 (DTDReader_t3153 * __this
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
+		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		Char_t60_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(27);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
@@ -12292,7 +12292,7 @@ extern "C" String_t* DTDReader_ReadNameOrNmToken_m10447 (DTDReader_t3153 * __thi
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
+		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
 		Char_t60_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(27);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
@@ -12388,8 +12388,8 @@ IL_0088:
 	}
 }
 // System.Void System.Xml.DTDReader::Expect(System.Int32)
-extern TypeInfo* CultureInfo_t718_il2cpp_TypeInfo_var;
-extern TypeInfo* ObjectU5BU5D_t635_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t719_il2cpp_TypeInfo_var;
+extern TypeInfo* ObjectU5BU5D_t636_il2cpp_TypeInfo_var;
 extern TypeInfo* Char_t60_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
@@ -12398,8 +12398,8 @@ extern "C" void DTDReader_Expect_m10448 (DTDReader_t3153 * __this, int32_t ___ex
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CultureInfo_t718_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
-		ObjectU5BU5D_t635_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(171);
+		CultureInfo_t719_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
+		ObjectU5BU5D_t636_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(171);
 		Char_t60_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(27);
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
@@ -12417,9 +12417,9 @@ extern "C" void DTDReader_Expect_m10448 (DTDReader_t3153 * __this, int32_t ___ex
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t718_il2cpp_TypeInfo_var);
-		CultureInfo_t718 * L_3 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
-		ObjectU5BU5D_t635* L_4 = ((ObjectU5BU5D_t635*)SZArrayNew(ObjectU5BU5D_t635_il2cpp_TypeInfo_var, 4));
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t719_il2cpp_TypeInfo_var);
+		CultureInfo_t719 * L_3 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ObjectU5BU5D_t636* L_4 = ((ObjectU5BU5D_t636*)SZArrayNew(ObjectU5BU5D_t636_il2cpp_TypeInfo_var, 4));
 		int32_t L_5 = ___expected;
 		uint16_t L_6 = (((uint16_t)L_5));
 		Object_t * L_7 = Box(Char_t60_il2cpp_TypeInfo_var, &L_6);
@@ -12427,7 +12427,7 @@ extern "C" void DTDReader_Expect_m10448 (DTDReader_t3153 * __this, int32_t ___ex
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 0);
 		ArrayElementTypeCheck (L_4, L_7);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 0)) = (Object_t *)L_7;
-		ObjectU5BU5D_t635* L_8 = L_4;
+		ObjectU5BU5D_t636* L_8 = L_4;
 		int32_t L_9 = ___expected;
 		int32_t L_10 = L_9;
 		Object_t * L_11 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_10);
@@ -12435,7 +12435,7 @@ extern "C" void DTDReader_Expect_m10448 (DTDReader_t3153 * __this, int32_t ___ex
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 1);
 		ArrayElementTypeCheck (L_8, L_11);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 1)) = (Object_t *)L_11;
-		ObjectU5BU5D_t635* L_12 = L_8;
+		ObjectU5BU5D_t636* L_12 = L_8;
 		int32_t L_13 = V_0;
 		uint16_t L_14 = (((uint16_t)L_13));
 		Object_t * L_15 = Box(Char_t60_il2cpp_TypeInfo_var, &L_14);
@@ -12443,7 +12443,7 @@ extern "C" void DTDReader_Expect_m10448 (DTDReader_t3153 * __this, int32_t ___ex
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 2);
 		ArrayElementTypeCheck (L_12, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 2)) = (Object_t *)L_15;
-		ObjectU5BU5D_t635* L_16 = L_12;
+		ObjectU5BU5D_t636* L_16 = L_12;
 		int32_t L_17 = V_0;
 		int32_t L_18 = L_17;
 		Object_t * L_19 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_18);
@@ -12502,8 +12502,8 @@ IL_001f:
 }
 // System.Void System.Xml.DTDReader::ExpectAfterWhitespace(System.Char)
 extern TypeInfo* XmlChar_t3170_il2cpp_TypeInfo_var;
-extern TypeInfo* CultureInfo_t718_il2cpp_TypeInfo_var;
-extern TypeInfo* ObjectU5BU5D_t635_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t719_il2cpp_TypeInfo_var;
+extern TypeInfo* ObjectU5BU5D_t636_il2cpp_TypeInfo_var;
 extern TypeInfo* Char_t60_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
@@ -12512,9 +12512,9 @@ extern "C" void DTDReader_ExpectAfterWhitespace_m10450 (DTDReader_t3153 * __this
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
-		CultureInfo_t718_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
-		ObjectU5BU5D_t635_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(171);
+		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
+		CultureInfo_t719_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
+		ObjectU5BU5D_t636_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(171);
 		Char_t60_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(27);
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
@@ -12548,9 +12548,9 @@ IL_0017:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t718_il2cpp_TypeInfo_var);
-		CultureInfo_t718 * L_5 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
-		ObjectU5BU5D_t635* L_6 = ((ObjectU5BU5D_t635*)SZArrayNew(ObjectU5BU5D_t635_il2cpp_TypeInfo_var, 3));
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t719_il2cpp_TypeInfo_var);
+		CultureInfo_t719 * L_5 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ObjectU5BU5D_t636* L_6 = ((ObjectU5BU5D_t636*)SZArrayNew(ObjectU5BU5D_t636_il2cpp_TypeInfo_var, 3));
 		uint16_t L_7 = ___c;
 		uint16_t L_8 = L_7;
 		Object_t * L_9 = Box(Char_t60_il2cpp_TypeInfo_var, &L_8);
@@ -12558,7 +12558,7 @@ IL_0017:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 0);
 		ArrayElementTypeCheck (L_6, L_9);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 0)) = (Object_t *)L_9;
-		ObjectU5BU5D_t635* L_10 = L_6;
+		ObjectU5BU5D_t636* L_10 = L_6;
 		int32_t L_11 = V_0;
 		uint16_t L_12 = (((uint16_t)L_11));
 		Object_t * L_13 = Box(Char_t60_il2cpp_TypeInfo_var, &L_12);
@@ -12566,7 +12566,7 @@ IL_0017:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 1);
 		ArrayElementTypeCheck (L_10, L_13);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 1)) = (Object_t *)L_13;
-		ObjectU5BU5D_t635* L_14 = L_10;
+		ObjectU5BU5D_t636* L_14 = L_10;
 		int32_t L_15 = V_0;
 		int32_t L_16 = L_15;
 		Object_t * L_17 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_16);
@@ -12598,7 +12598,7 @@ extern "C" bool DTDReader_SkipWhitespace_m10451 (DTDReader_t3153 * __this, const
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
+		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		s_Il2CppMethodIntialized = true;
 	}
 	bool V_0 = false;
@@ -12657,7 +12657,7 @@ extern "C" void DTDReader_ReadComment_m10454 (DTDReader_t3153 * __this, const Me
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5325);
+		XmlChar_t3170_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -12735,14 +12735,14 @@ IL_007c:
 }
 // System.Void System.Xml.DTDReader::ReadProcessingInstruction()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* CultureInfo_t718_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t719_il2cpp_TypeInfo_var;
 extern "C" void DTDReader_ReadProcessingInstruction_m10455 (DTDReader_t3153 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		CultureInfo_t718_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
+		CultureInfo_t719_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -12765,8 +12765,8 @@ extern "C" void DTDReader_ReadProcessingInstruction_m10455 (DTDReader_t3153 * __
 
 IL_001e:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t718_il2cpp_TypeInfo_var);
-		CultureInfo_t718 * L_3 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t719_il2cpp_TypeInfo_var);
+		CultureInfo_t719 * L_3 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		CompareInfo_t3226 * L_4 = (CompareInfo_t3226 *)VirtFuncInvoker0< CompareInfo_t3226 * >::Invoke(9 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_3);
 		String_t* L_5 = V_0;
@@ -12847,19 +12847,19 @@ IL_00ae:
 	}
 }
 // System.Void System.Xml.DTDReader::ReadTextDeclaration()
-extern TypeInfo* CharU5BU5D_t660_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t661_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern "C" void DTDReader_ReadTextDeclaration_m10456 (DTDReader_t3153 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharU5BU5D_t660_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		CharU5BU5D_t661_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
-	CharU5BU5D_t660* V_1 = {0};
+	CharU5BU5D_t661* V_1 = {0};
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
@@ -12895,7 +12895,7 @@ IL_001c:
 		DTDReader_SkipWhitespace_m10451(__this, /*hidden argument*/NULL);
 		int32_t L_5 = DTDReader_ReadChar_m10453(__this, /*hidden argument*/NULL);
 		V_0 = L_5;
-		V_1 = ((CharU5BU5D_t660*)SZArrayNew(CharU5BU5D_t660_il2cpp_TypeInfo_var, 3));
+		V_1 = ((CharU5BU5D_t661*)SZArrayNew(CharU5BU5D_t661_il2cpp_TypeInfo_var, 3));
 		V_2 = 0;
 		int32_t L_6 = V_0;
 		V_4 = L_6;
@@ -12949,7 +12949,7 @@ IL_009d:
 
 IL_00b0:
 	{
-		CharU5BU5D_t660* L_13 = V_1;
+		CharU5BU5D_t661* L_13 = V_1;
 		int32_t L_14 = V_2;
 		int32_t L_15 = DTDReader_ReadChar_m10453(__this, /*hidden argument*/NULL);
 		NullCheck(L_13);
@@ -12964,7 +12964,7 @@ IL_00b0:
 		}
 	}
 	{
-		CharU5BU5D_t660* L_18 = V_1;
+		CharU5BU5D_t661* L_18 = V_1;
 		String_t* L_19 = (String_t*)il2cpp_codegen_object_new (String_t_il2cpp_TypeInfo_var);
 		L_19 = String_CreateString_m3743(L_19, L_18, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
@@ -13102,7 +13102,7 @@ extern "C" void DTDReader_AppendNameChar_m10457 (DTDReader_t3153 * __this, int32
 		}
 	}
 	{
-		CharU5BU5D_t660* L_1 = (__this->___nameBuffer_2);
+		CharU5BU5D_t661* L_1 = (__this->___nameBuffer_2);
 		int32_t L_2 = (__this->___nameLength_3);
 		int32_t L_3 = L_2;
 		V_0 = L_3;
@@ -13117,7 +13117,7 @@ extern "C" void DTDReader_AppendNameChar_m10457 (DTDReader_t3153 * __this, int32
 
 IL_0030:
 	{
-		CharU5BU5D_t660* L_6 = (__this->___nameBuffer_2);
+		CharU5BU5D_t661* L_6 = (__this->___nameBuffer_2);
 		int32_t L_7 = (__this->___nameLength_3);
 		int32_t L_8 = L_7;
 		V_0 = L_8;
@@ -13128,7 +13128,7 @@ IL_0030:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, L_9);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_6, L_9)) = (uint16_t)(((uint16_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_10/(int32_t)((int32_t)65536)))+(int32_t)((int32_t)55296)))-(int32_t)1))));
 		DTDReader_CheckNameCapacity_m10458(__this, /*hidden argument*/NULL);
-		CharU5BU5D_t660* L_11 = (__this->___nameBuffer_2);
+		CharU5BU5D_t661* L_11 = (__this->___nameBuffer_2);
 		int32_t L_12 = (__this->___nameLength_3);
 		int32_t L_13 = L_12;
 		V_0 = L_13;
@@ -13146,16 +13146,16 @@ IL_0084:
 	}
 }
 // System.Void System.Xml.DTDReader::CheckNameCapacity()
-extern TypeInfo* CharU5BU5D_t660_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t661_il2cpp_TypeInfo_var;
 extern "C" void DTDReader_CheckNameCapacity_m10458 (DTDReader_t3153 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharU5BU5D_t660_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
+		CharU5BU5D_t661_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(190);
 		s_Il2CppMethodIntialized = true;
 	}
-	CharU5BU5D_t660* V_0 = {0};
+	CharU5BU5D_t661* V_0 = {0};
 	{
 		int32_t L_0 = (__this->___nameLength_3);
 		int32_t L_1 = (__this->___nameCapacity_4);
@@ -13167,12 +13167,12 @@ extern "C" void DTDReader_CheckNameCapacity_m10458 (DTDReader_t3153 * __this, co
 	{
 		int32_t L_2 = (__this->___nameCapacity_4);
 		__this->___nameCapacity_4 = ((int32_t)((int32_t)L_2*(int32_t)2));
-		CharU5BU5D_t660* L_3 = (__this->___nameBuffer_2);
+		CharU5BU5D_t661* L_3 = (__this->___nameBuffer_2);
 		V_0 = L_3;
 		int32_t L_4 = (__this->___nameCapacity_4);
-		__this->___nameBuffer_2 = ((CharU5BU5D_t660*)SZArrayNew(CharU5BU5D_t660_il2cpp_TypeInfo_var, L_4));
-		CharU5BU5D_t660* L_5 = V_0;
-		CharU5BU5D_t660* L_6 = (__this->___nameBuffer_2);
+		__this->___nameBuffer_2 = ((CharU5BU5D_t661*)SZArrayNew(CharU5BU5D_t661_il2cpp_TypeInfo_var, L_4));
+		CharU5BU5D_t661* L_5 = V_0;
+		CharU5BU5D_t661* L_6 = (__this->___nameBuffer_2);
 		int32_t L_7 = (__this->___nameLength_3);
 		Array_Copy_m11197(NULL /*static, unused*/, (Array_t *)(Array_t *)L_5, (Array_t *)(Array_t *)L_6, L_7, /*hidden argument*/NULL);
 	}
@@ -13189,10 +13189,10 @@ extern "C" String_t* DTDReader_CreateNameString_m10459 (DTDReader_t3153 * __this
 		DTDObjectModel_t3125 * L_0 = (__this->___DTD_13);
 		NullCheck(L_0);
 		XmlNameTable_t3133 * L_1 = DTDObjectModel_get_NameTable_m10284(L_0, /*hidden argument*/NULL);
-		CharU5BU5D_t660* L_2 = (__this->___nameBuffer_2);
+		CharU5BU5D_t661* L_2 = (__this->___nameBuffer_2);
 		int32_t L_3 = (__this->___nameLength_3);
 		NullCheck(L_1);
-		String_t* L_4 = (String_t*)VirtFuncInvoker3< String_t*, CharU5BU5D_t660*, int32_t, int32_t >::Invoke(5 /* System.String System.Xml.XmlNameTable::Add(System.Char[],System.Int32,System.Int32) */, L_1, L_2, 0, L_3);
+		String_t* L_4 = (String_t*)VirtFuncInvoker3< String_t*, CharU5BU5D_t661*, int32_t, int32_t >::Invoke(5 /* System.String System.Xml.XmlNameTable::Add(System.Char[],System.Int32,System.Int32) */, L_1, L_2, 0, L_3);
 		return L_4;
 	}
 }
@@ -13203,7 +13203,7 @@ extern "C" void DTDReader_AppendValueChar_m10460 (DTDReader_t3153 * __this, int3
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -13275,7 +13275,7 @@ extern "C" void DTDReader_ClearValueBuffer_m10462 (DTDReader_t3153 * __this, con
 }
 // System.Void System.Xml.DTDReader::PushParserInput(System.String)
 extern const Il2CppType* Stream_t51_0_0_0_var;
-extern TypeInfo* Uri_t707_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t708_il2cpp_TypeInfo_var;
 extern TypeInfo* UriFormatException_t3246_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* XmlParserInput_t3152_il2cpp_TypeInfo_var;
@@ -13293,25 +13293,25 @@ extern "C" void DTDReader_PushParserInput_m10463 (DTDReader_t3153 * __this, Stri
 	if (!s_Il2CppMethodIntialized)
 	{
 		Stream_t51_0_0_0_var = il2cpp_codegen_type_from_index(143);
-		Uri_t707_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(345);
-		UriFormatException_t3246_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5326);
+		Uri_t708_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(345);
+		UriFormatException_t3246_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5327);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		XmlParserInput_t3152_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5328);
+		XmlParserInput_t3152_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
 		MemoryStream_t65_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(32);
 		Type_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(410);
 		Stream_t51_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(143);
 		ByteU5BU5D_t66_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(254);
-		XmlStreamReader_t3184_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5334);
+		XmlStreamReader_t3184_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5335);
 		Exception_t57_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(29);
-		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		XmlException_t3181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5314);
 		StringReader_t259_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(264);
 		s_Il2CppMethodIntialized = true;
 	}
-	Uri_t707 * V_0 = {0};
-	Uri_t707 * V_1 = {0};
+	Uri_t708 * V_0 = {0};
+	Uri_t708 * V_1 = {0};
 	String_t* V_2 = {0};
 	XmlParserInput_t3152 * V_3 = {0};
-	ObjectU5BU5D_t635* V_4 = {0};
+	ObjectU5BU5D_t636* V_4 = {0};
 	int32_t V_5 = 0;
 	Stream_t51 * V_6 = {0};
 	MemoryStream_t65 * V_7 = {0};
@@ -13327,13 +13327,13 @@ extern "C" void DTDReader_PushParserInput_m10463 (DTDReader_t3153 * __this, Stri
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
-	Uri_t707 * G_B10_0 = {0};
+	Uri_t708 * G_B10_0 = {0};
 	String_t* G_B13_0 = {0};
 	int32_t G_B27_0 = 0;
 	int32_t G_B30_0 = 0;
 	String_t* G_B33_0 = {0};
 	{
-		V_0 = (Uri_t707 *)NULL;
+		V_0 = (Uri_t708 *)NULL;
 	}
 
 IL_0002:
@@ -13367,7 +13367,7 @@ IL_0028:
 			DTDObjectModel_t3125 * L_5 = (__this->___DTD_13);
 			NullCheck(L_5);
 			String_t* L_6 = DTDObjectModel_get_BaseURI_m10278(L_5, /*hidden argument*/NULL);
-			Uri_t707 * L_7 = (Uri_t707 *)il2cpp_codegen_object_new (Uri_t707_il2cpp_TypeInfo_var);
+			Uri_t708 * L_7 = (Uri_t708 *)il2cpp_codegen_object_new (Uri_t708_il2cpp_TypeInfo_var);
 			Uri__ctor_m7206(L_7, L_6, /*hidden argument*/NULL);
 			V_0 = L_7;
 		}
@@ -13411,33 +13411,33 @@ IL_0044:
 		DTDObjectModel_t3125 * L_11 = (__this->___DTD_13);
 		NullCheck(L_11);
 		XmlResolver_t3132 * L_12 = DTDObjectModel_get_Resolver_m10298(L_11, /*hidden argument*/NULL);
-		Uri_t707 * L_13 = V_0;
+		Uri_t708 * L_13 = V_0;
 		String_t* L_14 = ___url;
 		NullCheck(L_12);
-		Uri_t707 * L_15 = (Uri_t707 *)VirtFuncInvoker2< Uri_t707 *, Uri_t707 *, String_t* >::Invoke(5 /* System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String) */, L_12, L_13, L_14);
+		Uri_t708 * L_15 = (Uri_t708 *)VirtFuncInvoker2< Uri_t708 *, Uri_t708 *, String_t* >::Invoke(5 /* System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String) */, L_12, L_13, L_14);
 		G_B10_0 = L_15;
 		goto IL_006e;
 	}
 
 IL_006d:
 	{
-		Uri_t707 * L_16 = V_0;
+		Uri_t708 * L_16 = V_0;
 		G_B10_0 = L_16;
 	}
 
 IL_006e:
 	{
 		V_1 = G_B10_0;
-		Uri_t707 * L_17 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t707_il2cpp_TypeInfo_var);
-		bool L_18 = Uri_op_Inequality_m11194(NULL /*static, unused*/, L_17, (Uri_t707 *)NULL, /*hidden argument*/NULL);
+		Uri_t708 * L_17 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t708_il2cpp_TypeInfo_var);
+		bool L_18 = Uri_op_Inequality_m11194(NULL /*static, unused*/, L_17, (Uri_t708 *)NULL, /*hidden argument*/NULL);
 		if (!L_18)
 		{
 			goto IL_0086;
 		}
 	}
 	{
-		Uri_t707 * L_19 = V_1;
+		Uri_t708 * L_19 = V_1;
 		NullCheck(L_19);
 		String_t* L_20 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Uri::ToString() */, L_19);
 		G_B13_0 = L_20;
@@ -13456,7 +13456,7 @@ IL_008b:
 		V_2 = G_B13_0;
 		Stack_t2847 * L_22 = (__this->___parserInputStack_1);
 		NullCheck(L_22);
-		ObjectU5BU5D_t635* L_23 = (ObjectU5BU5D_t635*)VirtFuncInvoker0< ObjectU5BU5D_t635* >::Invoke(19 /* System.Object[] System.Collections.Stack::ToArray() */, L_22);
+		ObjectU5BU5D_t636* L_23 = (ObjectU5BU5D_t636*)VirtFuncInvoker0< ObjectU5BU5D_t636* >::Invoke(19 /* System.Object[] System.Collections.Stack::ToArray() */, L_22);
 		V_4 = L_23;
 		V_5 = 0;
 		goto IL_00d5;
@@ -13464,7 +13464,7 @@ IL_008b:
 
 IL_00a1:
 	{
-		ObjectU5BU5D_t635* L_24 = V_4;
+		ObjectU5BU5D_t636* L_24 = V_4;
 		int32_t L_25 = V_5;
 		NullCheck(L_24);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_24, L_25);
@@ -13498,7 +13498,7 @@ IL_00cf:
 IL_00d5:
 	{
 		int32_t L_35 = V_5;
-		ObjectU5BU5D_t635* L_36 = V_4;
+		ObjectU5BU5D_t636* L_36 = V_4;
 		NullCheck(L_36);
 		if ((((int32_t)L_35) < ((int32_t)(((int32_t)(((Array_t *)L_36)->max_length))))))
 		{
@@ -13523,11 +13523,11 @@ IL_00fb:
 			DTDObjectModel_t3125 * L_40 = (__this->___DTD_13);
 			NullCheck(L_40);
 			XmlResolver_t3132 * L_41 = DTDObjectModel_get_Resolver_m10298(L_40, /*hidden argument*/NULL);
-			Uri_t707 * L_42 = V_1;
+			Uri_t708 * L_42 = V_1;
 			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 			Type_t * L_43 = Type_GetTypeFromHandle_m3819(NULL /*static, unused*/, LoadTypeToken(Stream_t51_0_0_0_var), /*hidden argument*/NULL);
 			NullCheck(L_41);
-			Object_t * L_44 = (Object_t *)VirtFuncInvoker3< Object_t *, Uri_t707 *, String_t*, Type_t * >::Invoke(4 /* System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type) */, L_41, L_42, (String_t*)NULL, L_43);
+			Object_t * L_44 = (Object_t *)VirtFuncInvoker3< Object_t *, Uri_t708 *, String_t*, Type_t * >::Invoke(4 /* System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type) */, L_41, L_42, (String_t*)NULL, L_43);
 			V_6 = ((Stream_t51 *)IsInst(L_44, Stream_t51_il2cpp_TypeInfo_var));
 			V_9 = ((ByteU5BU5D_t66*)SZArrayNew(ByteU5BU5D_t66_il2cpp_TypeInfo_var, ((int32_t)4096)));
 		}
@@ -13706,7 +13706,7 @@ extern "C" void DTDReader_PopParserInput_m10464 (DTDReader_t3153 * __this, const
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		XmlParserInput_t3152_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5328);
+		XmlParserInput_t3152_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5329);
 		s_Il2CppMethodIntialized = true;
 	}
 	{

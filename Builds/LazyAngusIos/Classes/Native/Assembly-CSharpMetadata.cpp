@@ -396,7 +396,7 @@ extern TypeInfo Json_t263_il2cpp_TypeInfo;
 extern TypeInfo PlayServiceUtil_t264_il2cpp_TypeInfo;
 // PlayServiceUtil
 #include "AssemblyU2DCSharp_PlayServiceUtil.h"
-extern TypeInfo SA_Singleton_1_t751_il2cpp_TypeInfo;
+extern TypeInfo SA_Singleton_1_t752_il2cpp_TypeInfo;
 extern TypeInfo U3CLoadCoroutinU3Ec__Iterator1_t267_il2cpp_TypeInfo;
 // WWWTextureLoader/<LoadCoroutin>c__Iterator1
 #include "AssemblyU2DCSharp_WWWTextureLoader_U3CLoadCoroutinU3Ec__Iter.h"
@@ -836,372 +836,372 @@ extern TypeInfo BuyAndUseBoost_t476_il2cpp_TypeInfo;
 extern TypeInfo BuyBoost_t477_il2cpp_TypeInfo;
 // BuyBoost
 #include "AssemblyU2DCSharp_BuyBoost.h"
-extern TypeInfo CameraController_t479_il2cpp_TypeInfo;
+extern TypeInfo CameraController_t480_il2cpp_TypeInfo;
 // CameraController
 #include "AssemblyU2DCSharp_CameraController.h"
-extern TypeInfo CatBodyHitDetection_t480_il2cpp_TypeInfo;
+extern TypeInfo CatBodyHitDetection_t481_il2cpp_TypeInfo;
 // CatBodyHitDetection
 #include "AssemblyU2DCSharp_CatBodyHitDetection.h"
-extern TypeInfo ConeOfViewRenderer_t483_il2cpp_TypeInfo;
+extern TypeInfo ConeOfViewRenderer_t484_il2cpp_TypeInfo;
 // ConeOfViewRenderer
 #include "AssemblyU2DCSharp_ConeOfViewRenderer.h"
-extern TypeInfo CrossSceneState_t484_il2cpp_TypeInfo;
+extern TypeInfo CrossSceneState_t485_il2cpp_TypeInfo;
 // CrossSceneState
 #include "AssemblyU2DCSharp_CrossSceneState.h"
-extern TypeInfo DeadMouse_t485_il2cpp_TypeInfo;
+extern TypeInfo DeadMouse_t486_il2cpp_TypeInfo;
 // DeadMouse
 #include "AssemblyU2DCSharp_DeadMouse.h"
-extern TypeInfo MultiKillEventHandler_t486_il2cpp_TypeInfo;
+extern TypeInfo MultiKillEventHandler_t487_il2cpp_TypeInfo;
 // DeadMouseRelay/MultiKillEventHandler
 #include "AssemblyU2DCSharp_DeadMouseRelay_MultiKillEventHandler.h"
-extern TypeInfo MouseKillEventHandler_t488_il2cpp_TypeInfo;
+extern TypeInfo MouseKillEventHandler_t489_il2cpp_TypeInfo;
 // DeadMouseRelay/MouseKillEventHandler
 #include "AssemblyU2DCSharp_DeadMouseRelay_MouseKillEventHandler.h"
-extern TypeInfo DeadMouseRelay_t489_il2cpp_TypeInfo;
+extern TypeInfo DeadMouseRelay_t490_il2cpp_TypeInfo;
 // DeadMouseRelay
 #include "AssemblyU2DCSharp_DeadMouseRelay.h"
-extern TypeInfo DebugConfig_t490_il2cpp_TypeInfo;
+extern TypeInfo DebugConfig_t491_il2cpp_TypeInfo;
 // DebugConfig
 #include "AssemblyU2DCSharp_DebugConfig.h"
-extern TypeInfo DebugLogPropagate_t491_il2cpp_TypeInfo;
+extern TypeInfo DebugLogPropagate_t492_il2cpp_TypeInfo;
 // DebugLogPropagate
 #include "AssemblyU2DCSharp_DebugLogPropagate.h"
-extern TypeInfo DestroyByCollision_t493_il2cpp_TypeInfo;
+extern TypeInfo DestroyByCollision_t494_il2cpp_TypeInfo;
 // DestroyByCollision
 #include "AssemblyU2DCSharp_DestroyByCollision.h"
-extern TypeInfo DialogController_t494_il2cpp_TypeInfo;
+extern TypeInfo DialogController_t495_il2cpp_TypeInfo;
 // DialogController
 #include "AssemblyU2DCSharp_DialogController.h"
-extern TypeInfo DistortForEffect_t495_il2cpp_TypeInfo;
+extern TypeInfo DistortForEffect_t496_il2cpp_TypeInfo;
 // DistortForEffect
 #include "AssemblyU2DCSharp_DistortForEffect.h"
-extern TypeInfo EnumAccumulator_1_t754_il2cpp_TypeInfo;
-extern TypeInfo ExplicitMouseDesc_t497_il2cpp_TypeInfo;
+extern TypeInfo EnumAccumulator_1_t755_il2cpp_TypeInfo;
+extern TypeInfo ExplicitMouseDesc_t498_il2cpp_TypeInfo;
 // ExplicitMouseDesc
 #include "AssemblyU2DCSharp_ExplicitMouseDesc.h"
-extern TypeInfo FacebookSharing_t498_il2cpp_TypeInfo;
+extern TypeInfo FacebookSharing_t499_il2cpp_TypeInfo;
 // FacebookSharing
 #include "AssemblyU2DCSharp_FacebookSharing.h"
-extern TypeInfo FartPuff_t499_il2cpp_TypeInfo;
+extern TypeInfo FartPuff_t500_il2cpp_TypeInfo;
 // FartPuff
 #include "AssemblyU2DCSharp_FartPuff.h"
-extern TypeInfo FinalScoreController_t500_il2cpp_TypeInfo;
+extern TypeInfo FinalScoreController_t501_il2cpp_TypeInfo;
 // FinalScoreController
 #include "AssemblyU2DCSharp_FinalScoreController.h"
-extern TypeInfo FinalScoreUI_t501_il2cpp_TypeInfo;
+extern TypeInfo FinalScoreUI_t502_il2cpp_TypeInfo;
 // FinalScoreUI
 #include "AssemblyU2DCSharp_FinalScoreUI.h"
-extern TypeInfo FlyingAnimation_t505_il2cpp_TypeInfo;
+extern TypeInfo FlyingAnimation_t506_il2cpp_TypeInfo;
 // FlyingAnimation
 #include "AssemblyU2DCSharp_FlyingAnimation.h"
-extern TypeInfo GameCenterButtons_t508_il2cpp_TypeInfo;
+extern TypeInfo GameCenterButtons_t509_il2cpp_TypeInfo;
 // GameCenterButtons
 #include "AssemblyU2DCSharp_GameCenterButtons.h"
-extern TypeInfo GameController_t511_il2cpp_TypeInfo;
+extern TypeInfo GameController_t512_il2cpp_TypeInfo;
 // GameController
 #include "AssemblyU2DCSharp_GameController.h"
-extern TypeInfo GameLevelChangedEventHandler_t512_il2cpp_TypeInfo;
+extern TypeInfo GameLevelChangedEventHandler_t513_il2cpp_TypeInfo;
 // GameLevelState/GameLevelChangedEventHandler
 #include "AssemblyU2DCSharp_GameLevelState_GameLevelChangedEventHandle.h"
-extern TypeInfo GameLevelState_t513_il2cpp_TypeInfo;
+extern TypeInfo GameLevelState_t514_il2cpp_TypeInfo;
 // GameLevelState
 #include "AssemblyU2DCSharp_GameLevelState.h"
-extern TypeInfo GamePhaseType_t514_il2cpp_TypeInfo;
+extern TypeInfo GamePhaseType_t515_il2cpp_TypeInfo;
 // GamePhaseState/GamePhaseType
 #include "AssemblyU2DCSharp_GamePhaseState_GamePhaseType.h"
-extern TypeInfo GameInstanceChangedEventHandler_t515_il2cpp_TypeInfo;
+extern TypeInfo GameInstanceChangedEventHandler_t516_il2cpp_TypeInfo;
 // GamePhaseState/GameInstanceChangedEventHandler
 #include "AssemblyU2DCSharp_GamePhaseState_GameInstanceChangedEventHan.h"
-extern TypeInfo GamePhaseChangedEventHandler_t516_il2cpp_TypeInfo;
+extern TypeInfo GamePhaseChangedEventHandler_t517_il2cpp_TypeInfo;
 // GamePhaseState/GamePhaseChangedEventHandler
 #include "AssemblyU2DCSharp_GamePhaseState_GamePhaseChangedEventHandle.h"
-extern TypeInfo U3CSetupPendingPhaseU3Ec__Iterator12_t518_il2cpp_TypeInfo;
+extern TypeInfo U3CSetupPendingPhaseU3Ec__Iterator12_t519_il2cpp_TypeInfo;
 // GamePhaseState/<SetupPendingPhase>c__Iterator12
 #include "AssemblyU2DCSharp_GamePhaseState_U3CSetupPendingPhaseU3Ec__I.h"
-extern TypeInfo GamePhaseState_t517_il2cpp_TypeInfo;
+extern TypeInfo GamePhaseState_t518_il2cpp_TypeInfo;
 // GamePhaseState
 #include "AssemblyU2DCSharp_GamePhaseState.h"
-extern TypeInfo GameUI_t502_il2cpp_TypeInfo;
+extern TypeInfo GameUI_t503_il2cpp_TypeInfo;
 // GameUI
 #include "AssemblyU2DCSharp_GameUI.h"
-extern TypeInfo GameUIsType_t520_il2cpp_TypeInfo;
+extern TypeInfo GameUIsType_t521_il2cpp_TypeInfo;
 // GameUIController/GameUIsType
 #include "AssemblyU2DCSharp_GameUIController_GameUIsType.h"
-extern TypeInfo U3CConfirmCompleteU3Ec__Iterator13_t522_il2cpp_TypeInfo;
+extern TypeInfo U3CConfirmCompleteU3Ec__Iterator13_t523_il2cpp_TypeInfo;
 // GameUIController/<ConfirmComplete>c__Iterator13
 #include "AssemblyU2DCSharp_GameUIController_U3CConfirmCompleteU3Ec__I.h"
-extern TypeInfo GameUIController_t521_il2cpp_TypeInfo;
+extern TypeInfo GameUIController_t522_il2cpp_TypeInfo;
 // GameUIController
 #include "AssemblyU2DCSharp_GameUIController.h"
-extern TypeInfo U3CCreatePendingInterstitialAdU3Ec__Iterator14_t524_il2cpp_TypeInfo;
+extern TypeInfo U3CCreatePendingInterstitialAdU3Ec__Iterator14_t525_il2cpp_TypeInfo;
 // GoogleAdController/<CreatePendingInterstitialAd>c__Iterator14
 #include "AssemblyU2DCSharp_GoogleAdController_U3CCreatePendingInterst.h"
-extern TypeInfo GoogleAdController_t523_il2cpp_TypeInfo;
+extern TypeInfo GoogleAdController_t524_il2cpp_TypeInfo;
 // GoogleAdController
 #include "AssemblyU2DCSharp_GoogleAdController.h"
-extern TypeInfo MovementPhase_t525_il2cpp_TypeInfo;
+extern TypeInfo MovementPhase_t526_il2cpp_TypeInfo;
 // HeadMovement/MovementPhase
 #include "AssemblyU2DCSharp_HeadMovement_MovementPhase.h"
-extern TypeInfo HeadMovement_t526_il2cpp_TypeInfo;
+extern TypeInfo HeadMovement_t527_il2cpp_TypeInfo;
 // HeadMovement
 #include "AssemblyU2DCSharp_HeadMovement.h"
-extern TypeInfo U3CTriggerDistortionEffectU3Ec__Iterator15_t528_il2cpp_TypeInfo;
+extern TypeInfo U3CTriggerDistortionEffectU3Ec__Iterator15_t529_il2cpp_TypeInfo;
 // HoleMeter/<TriggerDistortionEffect>c__Iterator15
 #include "AssemblyU2DCSharp_HoleMeter_U3CTriggerDistortionEffectU3Ec__.h"
-extern TypeInfo HoleMeter_t527_il2cpp_TypeInfo;
+extern TypeInfo HoleMeter_t528_il2cpp_TypeInfo;
 // HoleMeter
 #include "AssemblyU2DCSharp_HoleMeter.h"
-extern TypeInfo IOSSharing_t530_il2cpp_TypeInfo;
+extern TypeInfo IOSSharing_t531_il2cpp_TypeInfo;
 // IOSSharing
 #include "AssemblyU2DCSharp_IOSSharing.h"
-extern TypeInfo InputHandler_t532_il2cpp_TypeInfo;
+extern TypeInfo InputHandler_t533_il2cpp_TypeInfo;
 // InputHandler
 #include "AssemblyU2DCSharp_InputHandler.h"
-extern TypeInfo LaunchCountController_t533_il2cpp_TypeInfo;
+extern TypeInfo LaunchCountController_t534_il2cpp_TypeInfo;
 // LaunchCountController
 #include "AssemblyU2DCSharp_LaunchCountController.h"
-extern TypeInfo Layers_t534_il2cpp_TypeInfo;
+extern TypeInfo Layers_t535_il2cpp_TypeInfo;
 // Layers
 #include "AssemblyU2DCSharp_Layers.h"
-extern TypeInfo WaveType_t535_il2cpp_TypeInfo;
+extern TypeInfo WaveType_t536_il2cpp_TypeInfo;
 // LevelDescription/WaveType
 #include "AssemblyU2DCSharp_LevelDescription_WaveType.h"
-extern TypeInfo LevelDescription_t542_il2cpp_TypeInfo;
+extern TypeInfo LevelDescription_t543_il2cpp_TypeInfo;
 // LevelDescription
 #include "AssemblyU2DCSharp_LevelDescription.h"
-extern TypeInfo LevelConfig_t549_il2cpp_TypeInfo;
+extern TypeInfo LevelConfig_t550_il2cpp_TypeInfo;
 // LevelConfig
 #include "AssemblyU2DCSharp_LevelConfig.h"
-extern TypeInfo LevelEndTitlesLayout_t550_il2cpp_TypeInfo;
+extern TypeInfo LevelEndTitlesLayout_t551_il2cpp_TypeInfo;
 // LevelEndTitlesLayout
 #include "AssemblyU2DCSharp_LevelEndTitlesLayout.h"
-extern TypeInfo MoneyEarningController_t551_il2cpp_TypeInfo;
+extern TypeInfo MoneyEarningController_t552_il2cpp_TypeInfo;
 // MoneyEarningController
 #include "AssemblyU2DCSharp_MoneyEarningController.h"
-extern TypeInfo MovementPhaseType_t552_il2cpp_TypeInfo;
+extern TypeInfo MovementPhaseType_t553_il2cpp_TypeInfo;
 // MouseConfig/MovementPhaseType
 #include "AssemblyU2DCSharp_MouseConfig_MovementPhaseType.h"
-extern TypeInfo MouseType_t553_il2cpp_TypeInfo;
+extern TypeInfo MouseType_t554_il2cpp_TypeInfo;
 // MouseConfig/MouseType
 #include "AssemblyU2DCSharp_MouseConfig_MouseType.h"
-extern TypeInfo MouseWiggleType_t554_il2cpp_TypeInfo;
+extern TypeInfo MouseWiggleType_t555_il2cpp_TypeInfo;
 // MouseConfig/MouseWiggleType
 #include "AssemblyU2DCSharp_MouseConfig_MouseWiggleType.h"
-extern TypeInfo MouseConfig_t557_il2cpp_TypeInfo;
+extern TypeInfo MouseConfig_t558_il2cpp_TypeInfo;
 // MouseConfig
 #include "AssemblyU2DCSharp_MouseConfig.h"
-extern TypeInfo MouseDesc_t558_il2cpp_TypeInfo;
+extern TypeInfo MouseDesc_t559_il2cpp_TypeInfo;
 // MouseDesc
 #include "AssemblyU2DCSharp_MouseDesc.h"
-extern TypeInfo MouseHoleLocation_t559_il2cpp_TypeInfo;
+extern TypeInfo MouseHoleLocation_t560_il2cpp_TypeInfo;
 // MouseHole/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
-extern TypeInfo MousePopChangedEventHandler_t560_il2cpp_TypeInfo;
+extern TypeInfo MousePopChangedEventHandler_t561_il2cpp_TypeInfo;
 // MouseHole/MousePopChangedEventHandler
 #include "AssemblyU2DCSharp_MouseHole_MousePopChangedEventHandler.h"
-extern TypeInfo CapacityChangedEventHandler_t561_il2cpp_TypeInfo;
+extern TypeInfo CapacityChangedEventHandler_t562_il2cpp_TypeInfo;
 // MouseHole/CapacityChangedEventHandler
 #include "AssemblyU2DCSharp_MouseHole_CapacityChangedEventHandler.h"
-extern TypeInfo MouseHole_t529_il2cpp_TypeInfo;
+extern TypeInfo MouseHole_t530_il2cpp_TypeInfo;
 // MouseHole
 #include "AssemblyU2DCSharp_MouseHole.h"
-extern TypeInfo MouseMove_t487_il2cpp_TypeInfo;
+extern TypeInfo MouseMove_t488_il2cpp_TypeInfo;
 // MouseMove
 #include "AssemblyU2DCSharp_MouseMove.h"
-extern TypeInfo MouseSpawnEventHandler_t565_il2cpp_TypeInfo;
+extern TypeInfo MouseSpawnEventHandler_t566_il2cpp_TypeInfo;
 // MouseSpawnFromData/MouseSpawnEventHandler
 #include "AssemblyU2DCSharp_MouseSpawnFromData_MouseSpawnEventHandler.h"
-extern TypeInfo MouseSpawnFromData_t510_il2cpp_TypeInfo;
+extern TypeInfo MouseSpawnFromData_t511_il2cpp_TypeInfo;
 // MouseSpawnFromData
 #include "AssemblyU2DCSharp_MouseSpawnFromData.h"
-extern TypeInfo MouseSpawnTracker_t566_il2cpp_TypeInfo;
+extern TypeInfo MouseSpawnTracker_t567_il2cpp_TypeInfo;
 // MouseSpawnTracker
 #include "AssemblyU2DCSharp_MouseSpawnTracker.h"
-extern TypeInfo MouseWiggleDesc_t567_il2cpp_TypeInfo;
+extern TypeInfo MouseWiggleDesc_t568_il2cpp_TypeInfo;
 // MouseWiggleDesc
 #include "AssemblyU2DCSharp_MouseWiggleDesc.h"
-extern TypeInfo MusicButton_t568_il2cpp_TypeInfo;
+extern TypeInfo MusicButton_t569_il2cpp_TypeInfo;
 // MusicButton
 #include "AssemblyU2DCSharp_MusicButton.h"
-extern TypeInfo U3CPlayMusicU3Ec__Iterator16_t571_il2cpp_TypeInfo;
+extern TypeInfo U3CPlayMusicU3Ec__Iterator16_t572_il2cpp_TypeInfo;
 // MusicPlayer/<PlayMusic>c__Iterator16
 #include "AssemblyU2DCSharp_MusicPlayer_U3CPlayMusicU3Ec__Iterator16.h"
-extern TypeInfo MusicPlayer_t570_il2cpp_TypeInfo;
+extern TypeInfo MusicPlayer_t571_il2cpp_TypeInfo;
 // MusicPlayer
 #include "AssemblyU2DCSharp_MusicPlayer.h"
-extern TypeInfo OnMouseEntersHole_t572_il2cpp_TypeInfo;
+extern TypeInfo OnMouseEntersHole_t573_il2cpp_TypeInfo;
 // OnMouseEntersHole
 #include "AssemblyU2DCSharp_OnMouseEntersHole.h"
-extern TypeInfo ParseAnalyticsController_t573_il2cpp_TypeInfo;
+extern TypeInfo ParseAnalyticsController_t574_il2cpp_TypeInfo;
 // ParseAnalyticsController
 #include "AssemblyU2DCSharp_ParseAnalyticsController.h"
-extern TypeInfo PausePlayToggle_t574_il2cpp_TypeInfo;
+extern TypeInfo PausePlayToggle_t575_il2cpp_TypeInfo;
 // PausePlayToggle
 #include "AssemblyU2DCSharp_PausePlayToggle.h"
-extern TypeInfo PausedOverlay_t575_il2cpp_TypeInfo;
+extern TypeInfo PausedOverlay_t576_il2cpp_TypeInfo;
 // PausedOverlay
 #include "AssemblyU2DCSharp_PausedOverlay.h"
-extern TypeInfo SwipePhase_t576_il2cpp_TypeInfo;
+extern TypeInfo SwipePhase_t577_il2cpp_TypeInfo;
 // PawController/SwipePhase
 #include "AssemblyU2DCSharp_PawController_SwipePhase.h"
-extern TypeInfo PawController_t492_il2cpp_TypeInfo;
+extern TypeInfo PawController_t493_il2cpp_TypeInfo;
 // PawController
 #include "AssemblyU2DCSharp_PawController.h"
-extern TypeInfo PersistentStorage_t578_il2cpp_TypeInfo;
+extern TypeInfo PersistentStorage_t579_il2cpp_TypeInfo;
 // PersistentStorage
 #include "AssemblyU2DCSharp_PersistentStorage.h"
-extern TypeInfo PlayButtonClickSound_t579_il2cpp_TypeInfo;
+extern TypeInfo PlayButtonClickSound_t580_il2cpp_TypeInfo;
 // PlayButtonClickSound
 #include "AssemblyU2DCSharp_PlayButtonClickSound.h"
-extern TypeInfo PlayLevelHandler_t580_il2cpp_TypeInfo;
+extern TypeInfo PlayLevelHandler_t581_il2cpp_TypeInfo;
 // PlayLevelHandler
 #include "AssemblyU2DCSharp_PlayLevelHandler.h"
-extern TypeInfo BodyMovementType_t581_il2cpp_TypeInfo;
+extern TypeInfo BodyMovementType_t582_il2cpp_TypeInfo;
 // PlayerController/BodyMovementType
 #include "AssemblyU2DCSharp_PlayerController_BodyMovementType.h"
-extern TypeInfo PlayerController_t582_il2cpp_TypeInfo;
+extern TypeInfo PlayerController_t583_il2cpp_TypeInfo;
 // PlayerController
 #include "AssemblyU2DCSharp_PlayerController.h"
-extern TypeInfo ScoreChangedEventHandler_t583_il2cpp_TypeInfo;
+extern TypeInfo ScoreChangedEventHandler_t584_il2cpp_TypeInfo;
 // PlayerStats/ScoreChangedEventHandler
 #include "AssemblyU2DCSharp_PlayerStats_ScoreChangedEventHandler.h"
-extern TypeInfo MoneyChangedEventHandler_t584_il2cpp_TypeInfo;
+extern TypeInfo MoneyChangedEventHandler_t585_il2cpp_TypeInfo;
 // PlayerStats/MoneyChangedEventHandler
 #include "AssemblyU2DCSharp_PlayerStats_MoneyChangedEventHandler.h"
-extern TypeInfo BoostsChangedEventHandler_t585_il2cpp_TypeInfo;
+extern TypeInfo BoostsChangedEventHandler_t586_il2cpp_TypeInfo;
 // PlayerStats/BoostsChangedEventHandler
 #include "AssemblyU2DCSharp_PlayerStats_BoostsChangedEventHandler.h"
 extern TypeInfo PlayerStats_t475_il2cpp_TypeInfo;
 // PlayerStats
 #include "AssemblyU2DCSharp_PlayerStats.h"
-extern TypeInfo QuasiRandomGenerator_1_t755_il2cpp_TypeInfo;
-extern TypeInfo U3CWaitAndShowDialogU3Ec__Iterator17_t587_il2cpp_TypeInfo;
+extern TypeInfo QuasiRandomGenerator_1_t756_il2cpp_TypeInfo;
+extern TypeInfo U3CWaitAndShowDialogU3Ec__Iterator17_t588_il2cpp_TypeInfo;
 // RateMeController/<WaitAndShowDialog>c__Iterator17
 #include "AssemblyU2DCSharp_RateMeController_U3CWaitAndShowDialogU3Ec_.h"
-extern TypeInfo RateMeController_t586_il2cpp_TypeInfo;
+extern TypeInfo RateMeController_t587_il2cpp_TypeInfo;
 // RateMeController
 #include "AssemblyU2DCSharp_RateMeController.h"
-extern TypeInfo RateMeDialog_t588_il2cpp_TypeInfo;
+extern TypeInfo RateMeDialog_t589_il2cpp_TypeInfo;
 // RateMeDialog
 #include "AssemblyU2DCSharp_RateMeDialog.h"
-extern TypeInfo RatingsHelper_t589_il2cpp_TypeInfo;
+extern TypeInfo RatingsHelper_t590_il2cpp_TypeInfo;
 // RatingsHelper
 #include "AssemblyU2DCSharp_RatingsHelper.h"
-extern TypeInfo RestartGameHandler_t590_il2cpp_TypeInfo;
+extern TypeInfo RestartGameHandler_t591_il2cpp_TypeInfo;
 // RestartGameHandler
 #include "AssemblyU2DCSharp_RestartGameHandler.h"
-extern TypeInfo SFXButton_t591_il2cpp_TypeInfo;
+extern TypeInfo SFXButton_t592_il2cpp_TypeInfo;
 // SFXButton
 #include "AssemblyU2DCSharp_SFXButton.h"
-extern TypeInfo SFXType_t592_il2cpp_TypeInfo;
+extern TypeInfo SFXType_t593_il2cpp_TypeInfo;
 // SFXPlayer/SFXType
 #include "AssemblyU2DCSharp_SFXPlayer_SFXType.h"
-extern TypeInfo SFXPlayer_t595_il2cpp_TypeInfo;
+extern TypeInfo SFXPlayer_t596_il2cpp_TypeInfo;
 // SFXPlayer
 #include "AssemblyU2DCSharp_SFXPlayer.h"
-extern TypeInfo SFXSilencer_t596_il2cpp_TypeInfo;
+extern TypeInfo SFXSilencer_t597_il2cpp_TypeInfo;
 // SFXSilencer
 #include "AssemblyU2DCSharp_SFXSilencer.h"
-extern TypeInfo ScoreController_t597_il2cpp_TypeInfo;
+extern TypeInfo ScoreController_t598_il2cpp_TypeInfo;
 // ScoreController
 #include "AssemblyU2DCSharp_ScoreController.h"
-extern TypeInfo SecretUI_t598_il2cpp_TypeInfo;
+extern TypeInfo SecretUI_t599_il2cpp_TypeInfo;
 // SecretUI
 #include "AssemblyU2DCSharp_SecretUI.h"
 extern TypeInfo SizeCamera_t478_il2cpp_TypeInfo;
 // SizeCamera
 #include "AssemblyU2DCSharp_SizeCamera.h"
-extern TypeInfo SlowByCollision_t600_il2cpp_TypeInfo;
+extern TypeInfo SlowByCollision_t601_il2cpp_TypeInfo;
 // SlowByCollision
 #include "AssemblyU2DCSharp_SlowByCollision.h"
-extern TypeInfo U3CDebugScoreAndAchievementU3Ec__Iterator18_t601_il2cpp_TypeInfo;
+extern TypeInfo U3CDebugScoreAndAchievementU3Ec__Iterator18_t602_il2cpp_TypeInfo;
 // SocialHelper/<DebugScoreAndAchievement>c__Iterator18
 #include "AssemblyU2DCSharp_SocialHelper_U3CDebugScoreAndAchievementU3.h"
-extern TypeInfo U3CAuthenticateU3Ec__AnonStorey1B_t602_il2cpp_TypeInfo;
+extern TypeInfo U3CAuthenticateU3Ec__AnonStorey1B_t603_il2cpp_TypeInfo;
 // SocialHelper/<Authenticate>c__AnonStorey1B
 #include "AssemblyU2DCSharp_SocialHelper_U3CAuthenticateU3Ec__AnonStor.h"
-extern TypeInfo U3CRecordAchievementU3Ec__AnonStorey1C_t603_il2cpp_TypeInfo;
+extern TypeInfo U3CRecordAchievementU3Ec__AnonStorey1C_t604_il2cpp_TypeInfo;
 // SocialHelper/<RecordAchievement>c__AnonStorey1C
 #include "AssemblyU2DCSharp_SocialHelper_U3CRecordAchievementU3Ec__Ano.h"
-extern TypeInfo SocialHelper_t604_il2cpp_TypeInfo;
+extern TypeInfo SocialHelper_t605_il2cpp_TypeInfo;
 // SocialHelper
 #include "AssemblyU2DCSharp_SocialHelper.h"
-extern TypeInfo SocialMediaButtons_t605_il2cpp_TypeInfo;
+extern TypeInfo SocialMediaButtons_t606_il2cpp_TypeInfo;
 // SocialMediaButtons
 #include "AssemblyU2DCSharp_SocialMediaButtons.h"
-extern TypeInfo SoundMuteChangedEventHandler_t606_il2cpp_TypeInfo;
+extern TypeInfo SoundMuteChangedEventHandler_t607_il2cpp_TypeInfo;
 // SoundController/SoundMuteChangedEventHandler
 #include "AssemblyU2DCSharp_SoundController_SoundMuteChangedEventHandl.h"
-extern TypeInfo MusicMuteChangedEventHandler_t607_il2cpp_TypeInfo;
+extern TypeInfo MusicMuteChangedEventHandler_t608_il2cpp_TypeInfo;
 // SoundController/MusicMuteChangedEventHandler
 #include "AssemblyU2DCSharp_SoundController_MusicMuteChangedEventHandl.h"
-extern TypeInfo SoundController_t608_il2cpp_TypeInfo;
+extern TypeInfo SoundController_t609_il2cpp_TypeInfo;
 // SoundController
 #include "AssemblyU2DCSharp_SoundController.h"
-extern TypeInfo ThrobForEffect_t562_il2cpp_TypeInfo;
+extern TypeInfo ThrobForEffect_t563_il2cpp_TypeInfo;
 // ThrobForEffect
 #include "AssemblyU2DCSharp_ThrobForEffect.h"
-extern TypeInfo PauseChangedEventHandler_t609_il2cpp_TypeInfo;
+extern TypeInfo PauseChangedEventHandler_t610_il2cpp_TypeInfo;
 // TimeController/PauseChangedEventHandler
 #include "AssemblyU2DCSharp_TimeController_PauseChangedEventHandler.h"
-extern TypeInfo TimeController_t610_il2cpp_TypeInfo;
+extern TypeInfo TimeController_t611_il2cpp_TypeInfo;
 // TimeController
 #include "AssemblyU2DCSharp_TimeController.h"
-extern TypeInfo TimedFader_t612_il2cpp_TypeInfo;
+extern TypeInfo TimedFader_t613_il2cpp_TypeInfo;
 // TimedFader
 #include "AssemblyU2DCSharp_TimedFader.h"
 extern TypeInfo TipConfig_t473_il2cpp_TypeInfo;
 // TipConfig
 #include "AssemblyU2DCSharp_TipConfig.h"
-extern TypeInfo U3CPlayTipWithPauseU3Ec__Iterator19_t614_il2cpp_TypeInfo;
+extern TypeInfo U3CPlayTipWithPauseU3Ec__Iterator19_t615_il2cpp_TypeInfo;
 // TipController/<PlayTipWithPause>c__Iterator19
 #include "AssemblyU2DCSharp_TipController_U3CPlayTipWithPauseU3Ec__Ite.h"
-extern TypeInfo TipController_t613_il2cpp_TypeInfo;
+extern TypeInfo TipController_t614_il2cpp_TypeInfo;
 // TipController
 #include "AssemblyU2DCSharp_TipController.h"
-extern TypeInfo TipDialog_t615_il2cpp_TypeInfo;
+extern TypeInfo TipDialog_t616_il2cpp_TypeInfo;
 // TipDialog
 #include "AssemblyU2DCSharp_TipDialog.h"
-extern TypeInfo TrackLevel_t616_il2cpp_TypeInfo;
+extern TypeInfo TrackLevel_t617_il2cpp_TypeInfo;
 // TrackLevel
 #include "AssemblyU2DCSharp_TrackLevel.h"
-extern TypeInfo TrackScore_t617_il2cpp_TypeInfo;
+extern TypeInfo TrackScore_t618_il2cpp_TypeInfo;
 // TrackScore
 #include "AssemblyU2DCSharp_TrackScore.h"
-extern TypeInfo TrackTreats_t618_il2cpp_TypeInfo;
+extern TypeInfo TrackTreats_t619_il2cpp_TypeInfo;
 // TrackTreats
 #include "AssemblyU2DCSharp_TrackTreats.h"
-extern TypeInfo TutsPlayerController_t620_il2cpp_TypeInfo;
+extern TypeInfo TutsPlayerController_t621_il2cpp_TypeInfo;
 // TutsPlayerController
 #include "AssemblyU2DCSharp_TutsPlayerController.h"
-extern TypeInfo TweakableParams_t621_il2cpp_TypeInfo;
+extern TypeInfo TweakableParams_t622_il2cpp_TypeInfo;
 // TweakableParams
 #include "AssemblyU2DCSharp_TweakableParams.h"
-extern TypeInfo TweakableSlider_t564_il2cpp_TypeInfo;
+extern TypeInfo TweakableSlider_t565_il2cpp_TypeInfo;
 // TweakableSlider
 #include "AssemblyU2DCSharp_TweakableSlider.h"
-extern TypeInfo TwitterSharing_t622_il2cpp_TypeInfo;
+extern TypeInfo TwitterSharing_t623_il2cpp_TypeInfo;
 // TwitterSharing
 #include "AssemblyU2DCSharp_TwitterSharing.h"
-extern TypeInfo UseBoost_t623_il2cpp_TypeInfo;
+extern TypeInfo UseBoost_t624_il2cpp_TypeInfo;
 // UseBoost
 #include "AssemblyU2DCSharp_UseBoost.h"
-extern TypeInfo U3CLaunchAppOrWebU3Ec__Iterator1A_t624_il2cpp_TypeInfo;
+extern TypeInfo U3CLaunchAppOrWebU3Ec__Iterator1A_t625_il2cpp_TypeInfo;
 // Utilities/<LaunchAppOrWeb>c__Iterator1A
 #include "AssemblyU2DCSharp_Utilities_U3CLaunchAppOrWebU3Ec__Iterator1.h"
-extern TypeInfo Utilities_t625_il2cpp_TypeInfo;
+extern TypeInfo Utilities_t626_il2cpp_TypeInfo;
 // Utilities
 #include "AssemblyU2DCSharp_Utilities.h"
-extern TypeInfo WorldObjectFollower_t626_il2cpp_TypeInfo;
+extern TypeInfo WorldObjectFollower_t627_il2cpp_TypeInfo;
 // WorldObjectFollower
 #include "AssemblyU2DCSharp_WorldObjectFollower.h"
-extern TypeInfo WorldRelativeGUIElement_t506_il2cpp_TypeInfo;
+extern TypeInfo WorldRelativeGUIElement_t507_il2cpp_TypeInfo;
 // WorldRelativeGUIElement
 #include "AssemblyU2DCSharp_WorldRelativeGUIElement.h"
-extern TypeInfo EventHandlerFunction_t628_il2cpp_TypeInfo;
+extern TypeInfo EventHandlerFunction_t629_il2cpp_TypeInfo;
 // UnionAssets.FLE.EventHandlerFunction
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventHandlerFunction.h"
-extern TypeInfo DataEventHandlerFunction_t629_il2cpp_TypeInfo;
+extern TypeInfo DataEventHandlerFunction_t630_il2cpp_TypeInfo;
 // UnionAssets.FLE.DataEventHandlerFunction
 #include "AssemblyU2DCSharp_UnionAssets_FLE_DataEventHandlerFunction.h"
 extern TypeInfo InitDelegate_t419_il2cpp_TypeInfo;
@@ -1348,7 +1348,7 @@ TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[406] =
 	&Serializer_t262_il2cpp_TypeInfo,
 	&Json_t263_il2cpp_TypeInfo,
 	&PlayServiceUtil_t264_il2cpp_TypeInfo,
-	&SA_Singleton_1_t751_il2cpp_TypeInfo,
+	&SA_Singleton_1_t752_il2cpp_TypeInfo,
 	&U3CLoadCoroutinU3Ec__Iterator1_t267_il2cpp_TypeInfo,
 	&WWWTextureLoader_t266_il2cpp_TypeInfo,
 	&FBAppRequestActionType_t269_il2cpp_TypeInfo,
@@ -1496,130 +1496,130 @@ TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[406] =
 	&BoostDesc_t474_il2cpp_TypeInfo,
 	&BuyAndUseBoost_t476_il2cpp_TypeInfo,
 	&BuyBoost_t477_il2cpp_TypeInfo,
-	&CameraController_t479_il2cpp_TypeInfo,
-	&CatBodyHitDetection_t480_il2cpp_TypeInfo,
-	&ConeOfViewRenderer_t483_il2cpp_TypeInfo,
-	&CrossSceneState_t484_il2cpp_TypeInfo,
-	&DeadMouse_t485_il2cpp_TypeInfo,
-	&MultiKillEventHandler_t486_il2cpp_TypeInfo,
-	&MouseKillEventHandler_t488_il2cpp_TypeInfo,
-	&DeadMouseRelay_t489_il2cpp_TypeInfo,
-	&DebugConfig_t490_il2cpp_TypeInfo,
-	&DebugLogPropagate_t491_il2cpp_TypeInfo,
-	&DestroyByCollision_t493_il2cpp_TypeInfo,
-	&DialogController_t494_il2cpp_TypeInfo,
-	&DistortForEffect_t495_il2cpp_TypeInfo,
-	&EnumAccumulator_1_t754_il2cpp_TypeInfo,
-	&ExplicitMouseDesc_t497_il2cpp_TypeInfo,
-	&FacebookSharing_t498_il2cpp_TypeInfo,
-	&FartPuff_t499_il2cpp_TypeInfo,
-	&FinalScoreController_t500_il2cpp_TypeInfo,
-	&FinalScoreUI_t501_il2cpp_TypeInfo,
-	&FlyingAnimation_t505_il2cpp_TypeInfo,
-	&GameCenterButtons_t508_il2cpp_TypeInfo,
-	&GameController_t511_il2cpp_TypeInfo,
-	&GameLevelChangedEventHandler_t512_il2cpp_TypeInfo,
-	&GameLevelState_t513_il2cpp_TypeInfo,
-	&GamePhaseType_t514_il2cpp_TypeInfo,
-	&GameInstanceChangedEventHandler_t515_il2cpp_TypeInfo,
-	&GamePhaseChangedEventHandler_t516_il2cpp_TypeInfo,
-	&U3CSetupPendingPhaseU3Ec__Iterator12_t518_il2cpp_TypeInfo,
-	&GamePhaseState_t517_il2cpp_TypeInfo,
-	&GameUI_t502_il2cpp_TypeInfo,
-	&GameUIsType_t520_il2cpp_TypeInfo,
-	&U3CConfirmCompleteU3Ec__Iterator13_t522_il2cpp_TypeInfo,
-	&GameUIController_t521_il2cpp_TypeInfo,
-	&U3CCreatePendingInterstitialAdU3Ec__Iterator14_t524_il2cpp_TypeInfo,
-	&GoogleAdController_t523_il2cpp_TypeInfo,
-	&MovementPhase_t525_il2cpp_TypeInfo,
-	&HeadMovement_t526_il2cpp_TypeInfo,
-	&U3CTriggerDistortionEffectU3Ec__Iterator15_t528_il2cpp_TypeInfo,
-	&HoleMeter_t527_il2cpp_TypeInfo,
-	&IOSSharing_t530_il2cpp_TypeInfo,
-	&InputHandler_t532_il2cpp_TypeInfo,
-	&LaunchCountController_t533_il2cpp_TypeInfo,
-	&Layers_t534_il2cpp_TypeInfo,
-	&WaveType_t535_il2cpp_TypeInfo,
-	&LevelDescription_t542_il2cpp_TypeInfo,
-	&LevelConfig_t549_il2cpp_TypeInfo,
-	&LevelEndTitlesLayout_t550_il2cpp_TypeInfo,
-	&MoneyEarningController_t551_il2cpp_TypeInfo,
-	&MovementPhaseType_t552_il2cpp_TypeInfo,
-	&MouseType_t553_il2cpp_TypeInfo,
-	&MouseWiggleType_t554_il2cpp_TypeInfo,
-	&MouseConfig_t557_il2cpp_TypeInfo,
-	&MouseDesc_t558_il2cpp_TypeInfo,
-	&MouseHoleLocation_t559_il2cpp_TypeInfo,
-	&MousePopChangedEventHandler_t560_il2cpp_TypeInfo,
-	&CapacityChangedEventHandler_t561_il2cpp_TypeInfo,
-	&MouseHole_t529_il2cpp_TypeInfo,
-	&MouseMove_t487_il2cpp_TypeInfo,
-	&MouseSpawnEventHandler_t565_il2cpp_TypeInfo,
-	&MouseSpawnFromData_t510_il2cpp_TypeInfo,
-	&MouseSpawnTracker_t566_il2cpp_TypeInfo,
-	&MouseWiggleDesc_t567_il2cpp_TypeInfo,
-	&MusicButton_t568_il2cpp_TypeInfo,
-	&U3CPlayMusicU3Ec__Iterator16_t571_il2cpp_TypeInfo,
-	&MusicPlayer_t570_il2cpp_TypeInfo,
-	&OnMouseEntersHole_t572_il2cpp_TypeInfo,
-	&ParseAnalyticsController_t573_il2cpp_TypeInfo,
-	&PausePlayToggle_t574_il2cpp_TypeInfo,
-	&PausedOverlay_t575_il2cpp_TypeInfo,
-	&SwipePhase_t576_il2cpp_TypeInfo,
-	&PawController_t492_il2cpp_TypeInfo,
-	&PersistentStorage_t578_il2cpp_TypeInfo,
-	&PlayButtonClickSound_t579_il2cpp_TypeInfo,
-	&PlayLevelHandler_t580_il2cpp_TypeInfo,
-	&BodyMovementType_t581_il2cpp_TypeInfo,
-	&PlayerController_t582_il2cpp_TypeInfo,
-	&ScoreChangedEventHandler_t583_il2cpp_TypeInfo,
-	&MoneyChangedEventHandler_t584_il2cpp_TypeInfo,
-	&BoostsChangedEventHandler_t585_il2cpp_TypeInfo,
+	&CameraController_t480_il2cpp_TypeInfo,
+	&CatBodyHitDetection_t481_il2cpp_TypeInfo,
+	&ConeOfViewRenderer_t484_il2cpp_TypeInfo,
+	&CrossSceneState_t485_il2cpp_TypeInfo,
+	&DeadMouse_t486_il2cpp_TypeInfo,
+	&MultiKillEventHandler_t487_il2cpp_TypeInfo,
+	&MouseKillEventHandler_t489_il2cpp_TypeInfo,
+	&DeadMouseRelay_t490_il2cpp_TypeInfo,
+	&DebugConfig_t491_il2cpp_TypeInfo,
+	&DebugLogPropagate_t492_il2cpp_TypeInfo,
+	&DestroyByCollision_t494_il2cpp_TypeInfo,
+	&DialogController_t495_il2cpp_TypeInfo,
+	&DistortForEffect_t496_il2cpp_TypeInfo,
+	&EnumAccumulator_1_t755_il2cpp_TypeInfo,
+	&ExplicitMouseDesc_t498_il2cpp_TypeInfo,
+	&FacebookSharing_t499_il2cpp_TypeInfo,
+	&FartPuff_t500_il2cpp_TypeInfo,
+	&FinalScoreController_t501_il2cpp_TypeInfo,
+	&FinalScoreUI_t502_il2cpp_TypeInfo,
+	&FlyingAnimation_t506_il2cpp_TypeInfo,
+	&GameCenterButtons_t509_il2cpp_TypeInfo,
+	&GameController_t512_il2cpp_TypeInfo,
+	&GameLevelChangedEventHandler_t513_il2cpp_TypeInfo,
+	&GameLevelState_t514_il2cpp_TypeInfo,
+	&GamePhaseType_t515_il2cpp_TypeInfo,
+	&GameInstanceChangedEventHandler_t516_il2cpp_TypeInfo,
+	&GamePhaseChangedEventHandler_t517_il2cpp_TypeInfo,
+	&U3CSetupPendingPhaseU3Ec__Iterator12_t519_il2cpp_TypeInfo,
+	&GamePhaseState_t518_il2cpp_TypeInfo,
+	&GameUI_t503_il2cpp_TypeInfo,
+	&GameUIsType_t521_il2cpp_TypeInfo,
+	&U3CConfirmCompleteU3Ec__Iterator13_t523_il2cpp_TypeInfo,
+	&GameUIController_t522_il2cpp_TypeInfo,
+	&U3CCreatePendingInterstitialAdU3Ec__Iterator14_t525_il2cpp_TypeInfo,
+	&GoogleAdController_t524_il2cpp_TypeInfo,
+	&MovementPhase_t526_il2cpp_TypeInfo,
+	&HeadMovement_t527_il2cpp_TypeInfo,
+	&U3CTriggerDistortionEffectU3Ec__Iterator15_t529_il2cpp_TypeInfo,
+	&HoleMeter_t528_il2cpp_TypeInfo,
+	&IOSSharing_t531_il2cpp_TypeInfo,
+	&InputHandler_t533_il2cpp_TypeInfo,
+	&LaunchCountController_t534_il2cpp_TypeInfo,
+	&Layers_t535_il2cpp_TypeInfo,
+	&WaveType_t536_il2cpp_TypeInfo,
+	&LevelDescription_t543_il2cpp_TypeInfo,
+	&LevelConfig_t550_il2cpp_TypeInfo,
+	&LevelEndTitlesLayout_t551_il2cpp_TypeInfo,
+	&MoneyEarningController_t552_il2cpp_TypeInfo,
+	&MovementPhaseType_t553_il2cpp_TypeInfo,
+	&MouseType_t554_il2cpp_TypeInfo,
+	&MouseWiggleType_t555_il2cpp_TypeInfo,
+	&MouseConfig_t558_il2cpp_TypeInfo,
+	&MouseDesc_t559_il2cpp_TypeInfo,
+	&MouseHoleLocation_t560_il2cpp_TypeInfo,
+	&MousePopChangedEventHandler_t561_il2cpp_TypeInfo,
+	&CapacityChangedEventHandler_t562_il2cpp_TypeInfo,
+	&MouseHole_t530_il2cpp_TypeInfo,
+	&MouseMove_t488_il2cpp_TypeInfo,
+	&MouseSpawnEventHandler_t566_il2cpp_TypeInfo,
+	&MouseSpawnFromData_t511_il2cpp_TypeInfo,
+	&MouseSpawnTracker_t567_il2cpp_TypeInfo,
+	&MouseWiggleDesc_t568_il2cpp_TypeInfo,
+	&MusicButton_t569_il2cpp_TypeInfo,
+	&U3CPlayMusicU3Ec__Iterator16_t572_il2cpp_TypeInfo,
+	&MusicPlayer_t571_il2cpp_TypeInfo,
+	&OnMouseEntersHole_t573_il2cpp_TypeInfo,
+	&ParseAnalyticsController_t574_il2cpp_TypeInfo,
+	&PausePlayToggle_t575_il2cpp_TypeInfo,
+	&PausedOverlay_t576_il2cpp_TypeInfo,
+	&SwipePhase_t577_il2cpp_TypeInfo,
+	&PawController_t493_il2cpp_TypeInfo,
+	&PersistentStorage_t579_il2cpp_TypeInfo,
+	&PlayButtonClickSound_t580_il2cpp_TypeInfo,
+	&PlayLevelHandler_t581_il2cpp_TypeInfo,
+	&BodyMovementType_t582_il2cpp_TypeInfo,
+	&PlayerController_t583_il2cpp_TypeInfo,
+	&ScoreChangedEventHandler_t584_il2cpp_TypeInfo,
+	&MoneyChangedEventHandler_t585_il2cpp_TypeInfo,
+	&BoostsChangedEventHandler_t586_il2cpp_TypeInfo,
 	&PlayerStats_t475_il2cpp_TypeInfo,
-	&QuasiRandomGenerator_1_t755_il2cpp_TypeInfo,
-	&U3CWaitAndShowDialogU3Ec__Iterator17_t587_il2cpp_TypeInfo,
-	&RateMeController_t586_il2cpp_TypeInfo,
-	&RateMeDialog_t588_il2cpp_TypeInfo,
-	&RatingsHelper_t589_il2cpp_TypeInfo,
-	&RestartGameHandler_t590_il2cpp_TypeInfo,
-	&SFXButton_t591_il2cpp_TypeInfo,
-	&SFXType_t592_il2cpp_TypeInfo,
-	&SFXPlayer_t595_il2cpp_TypeInfo,
-	&SFXSilencer_t596_il2cpp_TypeInfo,
-	&ScoreController_t597_il2cpp_TypeInfo,
-	&SecretUI_t598_il2cpp_TypeInfo,
+	&QuasiRandomGenerator_1_t756_il2cpp_TypeInfo,
+	&U3CWaitAndShowDialogU3Ec__Iterator17_t588_il2cpp_TypeInfo,
+	&RateMeController_t587_il2cpp_TypeInfo,
+	&RateMeDialog_t589_il2cpp_TypeInfo,
+	&RatingsHelper_t590_il2cpp_TypeInfo,
+	&RestartGameHandler_t591_il2cpp_TypeInfo,
+	&SFXButton_t592_il2cpp_TypeInfo,
+	&SFXType_t593_il2cpp_TypeInfo,
+	&SFXPlayer_t596_il2cpp_TypeInfo,
+	&SFXSilencer_t597_il2cpp_TypeInfo,
+	&ScoreController_t598_il2cpp_TypeInfo,
+	&SecretUI_t599_il2cpp_TypeInfo,
 	&SizeCamera_t478_il2cpp_TypeInfo,
-	&SlowByCollision_t600_il2cpp_TypeInfo,
-	&U3CDebugScoreAndAchievementU3Ec__Iterator18_t601_il2cpp_TypeInfo,
-	&U3CAuthenticateU3Ec__AnonStorey1B_t602_il2cpp_TypeInfo,
-	&U3CRecordAchievementU3Ec__AnonStorey1C_t603_il2cpp_TypeInfo,
-	&SocialHelper_t604_il2cpp_TypeInfo,
-	&SocialMediaButtons_t605_il2cpp_TypeInfo,
-	&SoundMuteChangedEventHandler_t606_il2cpp_TypeInfo,
-	&MusicMuteChangedEventHandler_t607_il2cpp_TypeInfo,
-	&SoundController_t608_il2cpp_TypeInfo,
-	&ThrobForEffect_t562_il2cpp_TypeInfo,
-	&PauseChangedEventHandler_t609_il2cpp_TypeInfo,
-	&TimeController_t610_il2cpp_TypeInfo,
-	&TimedFader_t612_il2cpp_TypeInfo,
+	&SlowByCollision_t601_il2cpp_TypeInfo,
+	&U3CDebugScoreAndAchievementU3Ec__Iterator18_t602_il2cpp_TypeInfo,
+	&U3CAuthenticateU3Ec__AnonStorey1B_t603_il2cpp_TypeInfo,
+	&U3CRecordAchievementU3Ec__AnonStorey1C_t604_il2cpp_TypeInfo,
+	&SocialHelper_t605_il2cpp_TypeInfo,
+	&SocialMediaButtons_t606_il2cpp_TypeInfo,
+	&SoundMuteChangedEventHandler_t607_il2cpp_TypeInfo,
+	&MusicMuteChangedEventHandler_t608_il2cpp_TypeInfo,
+	&SoundController_t609_il2cpp_TypeInfo,
+	&ThrobForEffect_t563_il2cpp_TypeInfo,
+	&PauseChangedEventHandler_t610_il2cpp_TypeInfo,
+	&TimeController_t611_il2cpp_TypeInfo,
+	&TimedFader_t613_il2cpp_TypeInfo,
 	&TipConfig_t473_il2cpp_TypeInfo,
-	&U3CPlayTipWithPauseU3Ec__Iterator19_t614_il2cpp_TypeInfo,
-	&TipController_t613_il2cpp_TypeInfo,
-	&TipDialog_t615_il2cpp_TypeInfo,
-	&TrackLevel_t616_il2cpp_TypeInfo,
-	&TrackScore_t617_il2cpp_TypeInfo,
-	&TrackTreats_t618_il2cpp_TypeInfo,
-	&TutsPlayerController_t620_il2cpp_TypeInfo,
-	&TweakableParams_t621_il2cpp_TypeInfo,
-	&TweakableSlider_t564_il2cpp_TypeInfo,
-	&TwitterSharing_t622_il2cpp_TypeInfo,
-	&UseBoost_t623_il2cpp_TypeInfo,
-	&U3CLaunchAppOrWebU3Ec__Iterator1A_t624_il2cpp_TypeInfo,
-	&Utilities_t625_il2cpp_TypeInfo,
-	&WorldObjectFollower_t626_il2cpp_TypeInfo,
-	&WorldRelativeGUIElement_t506_il2cpp_TypeInfo,
-	&EventHandlerFunction_t628_il2cpp_TypeInfo,
-	&DataEventHandlerFunction_t629_il2cpp_TypeInfo,
+	&U3CPlayTipWithPauseU3Ec__Iterator19_t615_il2cpp_TypeInfo,
+	&TipController_t614_il2cpp_TypeInfo,
+	&TipDialog_t616_il2cpp_TypeInfo,
+	&TrackLevel_t617_il2cpp_TypeInfo,
+	&TrackScore_t618_il2cpp_TypeInfo,
+	&TrackTreats_t619_il2cpp_TypeInfo,
+	&TutsPlayerController_t621_il2cpp_TypeInfo,
+	&TweakableParams_t622_il2cpp_TypeInfo,
+	&TweakableSlider_t565_il2cpp_TypeInfo,
+	&TwitterSharing_t623_il2cpp_TypeInfo,
+	&UseBoost_t624_il2cpp_TypeInfo,
+	&U3CLaunchAppOrWebU3Ec__Iterator1A_t625_il2cpp_TypeInfo,
+	&Utilities_t626_il2cpp_TypeInfo,
+	&WorldObjectFollower_t627_il2cpp_TypeInfo,
+	&WorldRelativeGUIElement_t507_il2cpp_TypeInfo,
+	&EventHandlerFunction_t629_il2cpp_TypeInfo,
+	&DataEventHandlerFunction_t630_il2cpp_TypeInfo,
 	&InitDelegate_t419_il2cpp_TypeInfo,
 	&FacebookDelegate_t433_il2cpp_TypeInfo,
 	&HideUnityDelegate_t420_il2cpp_TypeInfo,
@@ -1633,7 +1633,7 @@ Il2CppAssembly g_AssemblyU2DCSharp_Assembly =
 	1,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_Assembly_AttributeGenerators[484];
-static const char* s_StringTable[1515] = 
+static const char* s_StringTable[1517] = 
 {
 	"status",
 	"lastResponse",
@@ -2732,7 +2732,9 @@ static const char* s_StringTable[1515] =
 	"playerStats",
 	"worldCamera",
 	"uxCamera",
-	"worldCameraTopMargin",
+	"constantUXCanvas",
+	"actualHUDPixelHeight",
+	"minHUDAspectRatio",
 	"viewMesh",
 	"viewMaterial",
 	"numTriangles",
@@ -3156,7 +3158,7 @@ static const char* s_StringTable[1515] =
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-static const Il2CppFieldDefinition s_FieldTable[2111] = 
+static const Il2CppFieldDefinition s_FieldTable[2113] = 
 {
 	{ 0, 575, offsetof(ConsoleBase_t109, ___status_2), 0 } ,
 	{ 1, 575, offsetof(ConsoleBase_t109, ___lastResponse_3), 0 } ,
@@ -4705,570 +4707,572 @@ static const Il2CppFieldDefinition s_FieldTable[2111] =
 	{ 1094, 1303, offsetof(BuyAndUseBoost_t476, ___playerStats_3), 0 } ,
 	{ 1059, 1273, offsetof(BuyBoost_t477, ___boostConfig_2), 0 } ,
 	{ 1094, 1303, offsetof(BuyBoost_t477, ___playerStats_3), 0 } ,
-	{ 1095, 1308, offsetof(CameraController_t479, ___worldCamera_2), 0 } ,
-	{ 1096, 1308, offsetof(CameraController_t479, ___uxCamera_3), 0 } ,
-	{ 1097, 626, offsetof(CameraController_t479, ___worldCameraTopMargin_4), 0 } ,
-	{ 1098, 1313, offsetof(ConeOfViewRenderer_t483, ___viewMesh_2), 0 } ,
-	{ 1099, 1314, offsetof(ConeOfViewRenderer_t483, ___viewMaterial_3), 0 } ,
-	{ 1100, 102, offsetof(ConeOfViewRenderer_t483, ___numTriangles_4), 0 } ,
-	{ 1059, 1273, offsetof(ConeOfViewRenderer_t483, ___boostConfig_5), 0 } ,
-	{ 1053, 100, offsetof(ConeOfViewRenderer_t483, ___registeredForEvents_6), 0 } ,
-	{ 1101, 1172, offsetof(ConeOfViewRenderer_t483, ___U3CactualAngleRangeU3Ek__BackingField_7), 315 } ,
-	{ 1102, 104, offsetof(CrossSceneState_t484, ___didWelcome_2), 0 } ,
-	{ 1087, 1317, offsetof(CrossSceneState_t484_StaticFields, ___U3CinstanceU3Ek__BackingField_3), 318 } ,
-	{ 1103, 626, offsetof(DeadMouse_t485, ___zIndex_2), 0 } ,
-	{ 231, 1322, offsetof(DeadMouseRelay_t489_StaticFields, ___instance_2), 0 } ,
-	{ 1104, 1323, offsetof(DeadMouseRelay_t489, ___MultiKill_3), 0 } ,
-	{ 1105, 1324, offsetof(DeadMouseRelay_t489, ___MouseKill_4), 0 } ,
-	{ 1106, 104, offsetof(DebugConfig_t490, ___debugFBShare_2), 0 } ,
-	{ 1107, 104, offsetof(DebugConfig_t490, ___debugTwitterShare_3), 0 } ,
-	{ 1108, 102, offsetof(DebugConfig_t490, ___debugFlags_4), 0 } ,
-	{ 1109, 100, offsetof(DebugConfig_t490, ___U3CuseDebugValuesU3Ek__BackingField_5), 321 } ,
-	{ 1087, 1326, offsetof(DebugConfig_t490_StaticFields, ___U3CinstanceU3Ek__BackingField_6), 322 } ,
-	{ 1110, 102, offsetof(DebugLogPropagate_t491, ___foo_2), 0 } ,
-	{ 1111, 1331, offsetof(DestroyByCollision_t493, ___pawController_2), 0 } ,
-	{ 231, 1334, offsetof(DialogController_t494_StaticFields, ___instance_2), 0 } ,
-	{ 1112, 1335, offsetof(DialogController_t494, ___activeDialog_3), 0 } ,
-	{ 1113, 100, offsetof(DistortForEffect_t495, ___distorting_2), 0 } ,
-	{ 1114, 1172, offsetof(DistortForEffect_t495, ___startDistortTime_3), 0 } ,
-	{ 1115, 626, offsetof(DistortForEffect_t495, ___distortPeriod_4), 0 } ,
-	{ 1116, 626, offsetof(DistortForEffect_t495, ___distortScale_5), 0 } ,
-	{ 1117, 1161, offsetof(DistortForEffect_t495, ___thingToScale_6), 0 } ,
-	{ 1118, 1337, offsetof(DistortForEffect_t495, ___originalScale_7), 0 } ,
-	{ 1119, 1341, 0, 0 } ,
-	{ 1120, 1341, 0, 0 } ,
-	{ 1121, 1345, offsetof(ExplicitMouseDesc_t497, ___mouseType_0), 0 } ,
-	{ 1122, 1346, offsetof(ExplicitMouseDesc_t497, ___mouseHoleLocation_1), 0 } ,
-	{ 1123, 104, offsetof(ExplicitMouseDesc_t497, ___isClockwise_2), 0 } ,
-	{ 1124, 102, offsetof(ExplicitMouseDesc_t497, ___track_3), 0 } ,
-	{ 1125, 626, offsetof(ExplicitMouseDesc_t497, ___delayToNextMouse_4), 0 } ,
-	{ 1126, 1347, offsetof(ExplicitMouseDesc_t497, ___U3CwiggleTypeU3Ek__BackingField_5), 327 } ,
-	{ 1127, 1172, offsetof(ExplicitMouseDesc_t497, ___U3CwiggleMagnitudeU3Ek__BackingField_6), 328 } ,
-	{ 1128, 110, offsetof(ExplicitMouseDesc_t497, ___U3CwiggleCyclesU3Ek__BackingField_7), 329 } ,
-	{ 1129, 100, offsetof(ExplicitMouseDesc_t497, ___U3CwiggleClockwiseU3Ek__BackingField_8), 330 } ,
-	{ 1130, 654, 0, 0 } ,
-	{ 1131, 654, 0, 0 } ,
+	{ 1095, 1308, offsetof(CameraController_t480, ___worldCamera_2), 0 } ,
+	{ 1096, 1308, offsetof(CameraController_t480, ___uxCamera_3), 0 } ,
+	{ 1097, 1309, offsetof(CameraController_t480, ___constantUXCanvas_4), 0 } ,
+	{ 1098, 626, offsetof(CameraController_t480, ___actualHUDPixelHeight_5), 0 } ,
+	{ 1099, 626, offsetof(CameraController_t480, ___minHUDAspectRatio_6), 0 } ,
+	{ 1100, 1314, offsetof(ConeOfViewRenderer_t484, ___viewMesh_2), 0 } ,
+	{ 1101, 1315, offsetof(ConeOfViewRenderer_t484, ___viewMaterial_3), 0 } ,
+	{ 1102, 102, offsetof(ConeOfViewRenderer_t484, ___numTriangles_4), 0 } ,
+	{ 1059, 1273, offsetof(ConeOfViewRenderer_t484, ___boostConfig_5), 0 } ,
+	{ 1053, 100, offsetof(ConeOfViewRenderer_t484, ___registeredForEvents_6), 0 } ,
+	{ 1103, 1172, offsetof(ConeOfViewRenderer_t484, ___U3CactualAngleRangeU3Ek__BackingField_7), 315 } ,
+	{ 1104, 104, offsetof(CrossSceneState_t485, ___didWelcome_2), 0 } ,
+	{ 1087, 1318, offsetof(CrossSceneState_t485_StaticFields, ___U3CinstanceU3Ek__BackingField_3), 318 } ,
+	{ 1105, 626, offsetof(DeadMouse_t486, ___zIndex_2), 0 } ,
+	{ 231, 1323, offsetof(DeadMouseRelay_t490_StaticFields, ___instance_2), 0 } ,
+	{ 1106, 1324, offsetof(DeadMouseRelay_t490, ___MultiKill_3), 0 } ,
+	{ 1107, 1325, offsetof(DeadMouseRelay_t490, ___MouseKill_4), 0 } ,
+	{ 1108, 104, offsetof(DebugConfig_t491, ___debugFBShare_2), 0 } ,
+	{ 1109, 104, offsetof(DebugConfig_t491, ___debugTwitterShare_3), 0 } ,
+	{ 1110, 102, offsetof(DebugConfig_t491, ___debugFlags_4), 0 } ,
+	{ 1111, 100, offsetof(DebugConfig_t491, ___U3CuseDebugValuesU3Ek__BackingField_5), 321 } ,
+	{ 1087, 1327, offsetof(DebugConfig_t491_StaticFields, ___U3CinstanceU3Ek__BackingField_6), 322 } ,
+	{ 1112, 102, offsetof(DebugLogPropagate_t492, ___foo_2), 0 } ,
+	{ 1113, 1332, offsetof(DestroyByCollision_t494, ___pawController_2), 0 } ,
+	{ 231, 1335, offsetof(DialogController_t495_StaticFields, ___instance_2), 0 } ,
+	{ 1114, 1336, offsetof(DialogController_t495, ___activeDialog_3), 0 } ,
+	{ 1115, 100, offsetof(DistortForEffect_t496, ___distorting_2), 0 } ,
+	{ 1116, 1172, offsetof(DistortForEffect_t496, ___startDistortTime_3), 0 } ,
+	{ 1117, 626, offsetof(DistortForEffect_t496, ___distortPeriod_4), 0 } ,
+	{ 1118, 626, offsetof(DistortForEffect_t496, ___distortScale_5), 0 } ,
+	{ 1119, 1161, offsetof(DistortForEffect_t496, ___thingToScale_6), 0 } ,
+	{ 1120, 1338, offsetof(DistortForEffect_t496, ___originalScale_7), 0 } ,
+	{ 1121, 1342, 0, 0 } ,
+	{ 1122, 1342, 0, 0 } ,
+	{ 1123, 1346, offsetof(ExplicitMouseDesc_t498, ___mouseType_0), 0 } ,
+	{ 1124, 1347, offsetof(ExplicitMouseDesc_t498, ___mouseHoleLocation_1), 0 } ,
+	{ 1125, 104, offsetof(ExplicitMouseDesc_t498, ___isClockwise_2), 0 } ,
+	{ 1126, 102, offsetof(ExplicitMouseDesc_t498, ___track_3), 0 } ,
+	{ 1127, 626, offsetof(ExplicitMouseDesc_t498, ___delayToNextMouse_4), 0 } ,
+	{ 1128, 1348, offsetof(ExplicitMouseDesc_t498, ___U3CwiggleTypeU3Ek__BackingField_5), 327 } ,
+	{ 1129, 1172, offsetof(ExplicitMouseDesc_t498, ___U3CwiggleMagnitudeU3Ek__BackingField_6), 328 } ,
+	{ 1130, 110, offsetof(ExplicitMouseDesc_t498, ___U3CwiggleCyclesU3Ek__BackingField_7), 329 } ,
+	{ 1131, 100, offsetof(ExplicitMouseDesc_t498, ___U3CwiggleClockwiseU3Ek__BackingField_8), 330 } ,
 	{ 1132, 654, 0, 0 } ,
-	{ 231, 1349, offsetof(FacebookSharing_t498_StaticFields, ___instance_5), 0 } ,
-	{ 1133, 110, offsetof(FacebookSharing_t498, ___scoreToShare_6), 0 } ,
-	{ 1134, 1057, offsetof(FacebookSharing_t498, ___lazyAngusIcon_7), 0 } ,
-	{ 1135, 1337, offsetof(FartPuff_t499, ___direction_2), 0 } ,
-	{ 1136, 626, offsetof(FartPuff_t499, ___velocity_3), 0 } ,
-	{ 1137, 626, offsetof(FartPuff_t499, ___scaleVelocity_4), 0 } ,
-	{ 1138, 626, offsetof(FartPuff_t499, ___maxRotateDegVeclocity_5), 0 } ,
-	{ 1139, 626, offsetof(FartPuff_t499, ___minRotateDegVeclocity_6), 0 } ,
-	{ 1140, 1172, offsetof(FartPuff_t499, ___rotateDegVelocity_7), 0 } ,
-	{ 1141, 1172, offsetof(FartPuff_t499, ___rotationDeg_8), 0 } ,
-	{ 1142, 1172, offsetof(FartPuff_t499, ___scale_9), 0 } ,
-	{ 1143, 626, offsetof(FartPuff_t499, ___initialScale_10), 0 } ,
-	{ 1144, 1300, offsetof(FartPuff_t499, ___sprite_11), 0 } ,
-	{ 1053, 100, offsetof(FinalScoreController_t500, ___registeredForEvents_2), 0 } ,
-	{ 1145, 1280, offsetof(FinalScoreUI_t501, ___personalBestText_2), 0 } ,
-	{ 1146, 1280, offsetof(FinalScoreUI_t501, ___finalScoreText_3), 0 } ,
-	{ 1060, 100, offsetof(FinalScoreUI_t501, ___started_4), 0 } ,
-	{ 1147, 1356, offsetof(FlyingAnimation_t505, ___myRectTransform_7), 0 } ,
-	{ 1148, 1357, offsetof(FlyingAnimation_t505, ___points_8), 0 } ,
-	{ 1149, 1172, offsetof(FlyingAnimation_t505, ___startTime_9), 0 } ,
-	{ 1150, 100, offsetof(FlyingAnimation_t505, ___running_10), 0 } ,
-	{ 1151, 1360, offsetof(GameCenterButtons_t508, ___leaderBoardButton_2), 0 } ,
-	{ 1152, 1360, offsetof(GameCenterButtons_t508, ___achievementButton_3), 0 } ,
-	{ 1153, 1360, offsetof(GameCenterButtons_t508, ___rateMeButton_4), 0 } ,
-	{ 1154, 1361, offsetof(GameCenterButtons_t508_StaticFields, ___U3CU3Ef__amU24cache3_5), 339 } ,
-	{ 1155, 1361, offsetof(GameCenterButtons_t508_StaticFields, ___U3CU3Ef__amU24cache4_6), 340 } ,
-	{ 1156, 1361, offsetof(GameCenterButtons_t508_StaticFields, ___U3CU3Ef__amU24cache5_7), 341 } ,
-	{ 1157, 626, offsetof(GameController_t511, ___startWait_2), 0 } ,
-	{ 1158, 626, offsetof(GameController_t511, ___minSpawnWait_3), 0 } ,
-	{ 1159, 626, offsetof(GameController_t511, ___maxSpawnWait_4), 0 } ,
-	{ 1160, 1363, offsetof(GameController_t511, ___mouseHoles_5), 0 } ,
-	{ 1161, 1364, offsetof(GameController_t511, ___mouseSpawnFromData_6), 0 } ,
-	{ 1053, 100, offsetof(GameController_t511, ___registeredForEvents_7), 0 } ,
-	{ 1162, 100, offsetof(GameController_t511, ___checkForPhaseChanges_8), 0 } ,
-	{ 1087, 1365, offsetof(GameController_t511_StaticFields, ___U3CinstanceU3Ek__BackingField_9), 345 } ,
-	{ 252, 961, offsetof(GameController_t511_StaticFields, ___U3CU3Ef__amU24cache8_10), 346 } ,
-	{ 1163, 1368, offsetof(GameLevelState_t513, ___GameLevelChanged_2), 0 } ,
-	{ 1164, 110, offsetof(GameLevelState_t513, ___U3CgameLevelU3Ek__BackingField_3), 350 } ,
-	{ 1087, 1369, offsetof(GameLevelState_t513_StaticFields, ___U3CinstanceU3Ek__BackingField_4), 351 } ,
-	{ 57, 90, offsetof(GamePhaseType_t514, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 655, 1371, 0, 0 } ,
-	{ 1165, 1371, 0, 0 } ,
-	{ 1166, 1371, 0, 0 } ,
-	{ 1167, 1371, 0, 0 } ,
-	{ 1168, 1371, 0, 0 } ,
-	{ 1169, 1371, 0, 0 } ,
-	{ 18, 137, offsetof(U3CSetupPendingPhaseU3Ec__Iterator12_t518, ___U24PC_0), 0 } ,
-	{ 19, 148, offsetof(U3CSetupPendingPhaseU3Ec__Iterator12_t518, ___U24current_1), 0 } ,
-	{ 20, 1376, offsetof(U3CSetupPendingPhaseU3Ec__Iterator12_t518, ___U3CU3Ef__this_2), 0 } ,
-	{ 1170, 1378, offsetof(GamePhaseState_t517, ___pendingPhase_2), 0 } ,
-	{ 1171, 1172, offsetof(GamePhaseState_t517, ___pendingPhaseTimeout_3), 0 } ,
-	{ 1172, 626, offsetof(GamePhaseState_t517, ___pendingPause_4), 0 } ,
-	{ 1173, 100, offsetof(GamePhaseState_t517, ___shouldCheckForPhaseTransition_5), 0 } ,
-	{ 1174, 1379, offsetof(GamePhaseState_t517, ___gameUIs_6), 0 } ,
-	{ 1175, 1380, offsetof(GamePhaseState_t517, ___GameInstanceChanged_7), 0 } ,
-	{ 1176, 1381, offsetof(GamePhaseState_t517, ___GamePhaseChanged_8), 0 } ,
-	{ 1177, 1378, offsetof(GamePhaseState_t517, ___U3CgamePhaseU3Ek__BackingField_9), 356 } ,
-	{ 1178, 110, offsetof(GamePhaseState_t517, ___U3CinstancesFinishedThisSessionU3Ek__BackingField_10), 357 } ,
-	{ 1179, 110, offsetof(GamePhaseState_t517, ___U3CinstancesFinishedEverU3Ek__BackingField_11), 358 } ,
-	{ 1087, 1382, offsetof(GamePhaseState_t517_StaticFields, ___U3CinstanceU3Ek__BackingField_12), 359 } ,
-	{ 57, 90, offsetof(GameUIsType_t520, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1165, 1385, 0, 0 } ,
-	{ 1167, 1385, 0, 0 } ,
-	{ 1180, 1385, 0, 0 } ,
-	{ 1079, 1385, 0, 0 } ,
-	{ 1181, 137, offsetof(U3CConfirmCompleteU3Ec__Iterator13_t522, ___U3CiU3E__0_0), 0 } ,
-	{ 18, 137, offsetof(U3CConfirmCompleteU3Ec__Iterator13_t522, ___U24PC_1), 0 } ,
-	{ 19, 148, offsetof(U3CConfirmCompleteU3Ec__Iterator13_t522, ___U24current_2), 0 } ,
-	{ 20, 1388, offsetof(U3CConfirmCompleteU3Ec__Iterator13_t522, ___U3CU3Ef__this_3), 0 } ,
-	{ 1182, 1066, offsetof(GameUIController_t521, ___welcomeUIGameObject_2), 0 } ,
-	{ 1183, 1066, offsetof(GameUIController_t521, ___levelEndUIGameObject_3), 0 } ,
-	{ 1184, 1066, offsetof(GameUIController_t521, ___gameOverUIGameObject_4), 0 } ,
-	{ 1174, 1379, offsetof(GameUIController_t521, ___gameUIs_5), 0 } ,
-	{ 1053, 100, offsetof(GameUIController_t521, ___registeredForEvents_6), 0 } ,
-	{ 1087, 1390, offsetof(GameUIController_t521_StaticFields, ___U3CinstanceU3Ek__BackingField_7), 374 } ,
-	{ 18, 137, offsetof(U3CCreatePendingInterstitialAdU3Ec__Iterator14_t524, ___U24PC_0), 0 } ,
-	{ 19, 148, offsetof(U3CCreatePendingInterstitialAdU3Ec__Iterator14_t524, ___U24current_1), 0 } ,
-	{ 20, 1392, offsetof(U3CCreatePendingInterstitialAdU3Ec__Iterator14_t524, ___U3CU3Ef__this_2), 0 } ,
-	{ 231, 1394, offsetof(GoogleAdController_t523_StaticFields, ___instance_2), 0 } ,
-	{ 1185, 102, offsetof(GoogleAdController_t523, ___instancesBetweenInterstitialAds_3), 0 } ,
-	{ 1186, 626, offsetof(GoogleAdController_t523, ___waitBeforeAd_4), 0 } ,
-	{ 1187, 1296, offsetof(GoogleAdController_t523, ___pendingInterstitialAd_5), 0 } ,
-	{ 1053, 100, offsetof(GoogleAdController_t523, ___registeredForEvents_6), 0 } ,
-	{ 1188, 100, offsetof(GoogleAdController_t523, ___interstitialAdLoaded_7), 0 } ,
-	{ 1189, 100, offsetof(GoogleAdController_t523, ___adsEnabled_8), 0 } ,
-	{ 1190, 639, offsetof(GoogleAdController_t523, ___banner_9), 0 } ,
-	{ 57, 90, offsetof(MovementPhase_t525, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1191, 1396, 0, 0 } ,
-	{ 1192, 1396, 0, 0 } ,
-	{ 1193, 1396, 0, 0 } ,
-	{ 1194, 1396, 0, 0 } ,
-	{ 1195, 1396, 0, 0 } ,
-	{ 1196, 626, offsetof(HeadMovement_t526, ___moveToSpeedDeg_2), 0 } ,
-	{ 1197, 626, offsetof(HeadMovement_t526, ___moveHomeSpeedDeg_3), 0 } ,
-	{ 1198, 626, offsetof(HeadMovement_t526, ___maxTurnDeg_4), 0 } ,
-	{ 1199, 1400, offsetof(HeadMovement_t526, ___coneOfView_5), 0 } ,
-	{ 1200, 626, offsetof(HeadMovement_t526, ___holdTime_6), 0 } ,
-	{ 1201, 1172, offsetof(HeadMovement_t526, ___targetDeg_7), 0 } ,
-	{ 1202, 1172, offsetof(HeadMovement_t526, ___currentDeg_8), 0 } ,
-	{ 1203, 1401, offsetof(HeadMovement_t526, ___phase_9), 0 } ,
-	{ 1204, 1172, offsetof(HeadMovement_t526, ___phaseStartTime_10), 0 } ,
-	{ 1181, 137, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator15_t528, ___U3CiU3E__0_0), 0 } ,
-	{ 1205, 1403, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator15_t528, ___U3CgoU3E__1_1), 0 } ,
-	{ 18, 137, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator15_t528, ___U24PC_2), 0 } ,
-	{ 19, 148, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator15_t528, ___U24current_3), 0 } ,
-	{ 20, 1404, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator15_t528, ___U3CU3Ef__this_4), 0 } ,
-	{ 1206, 1300, offsetof(HoleMeter_t527, ___emptySprite_2), 0 } ,
-	{ 1207, 1300, offsetof(HoleMeter_t527, ___fullSprite_3), 0 } ,
-	{ 1208, 1406, offsetof(HoleMeter_t527, ___offset_4), 0 } ,
-	{ 1209, 1066, offsetof(HoleMeter_t527, ___meterWidgetPrototype_5), 0 } ,
-	{ 1210, 1287, offsetof(HoleMeter_t527, ___meterWidgetGameObjects_6), 0 } ,
-	{ 1211, 1407, offsetof(HoleMeter_t527, ___mouseHole_7), 0 } ,
-	{ 1055, 100, offsetof(HoleMeter_t527, ___registerdForEvents_8), 0 } ,
-	{ 1212, 815, offsetof(InputHandler_t532_StaticFields, ___UserInteractionsLayerBit_2), 0 } ,
-	{ 1213, 815, offsetof(InputHandler_t532_StaticFields, ___UILayerBit_3), 0 } ,
-	{ 1095, 1413, offsetof(InputHandler_t532, ___worldCamera_4), 0 } ,
-	{ 1096, 1413, offsetof(InputHandler_t532, ___uxCamera_5), 0 } ,
-	{ 1214, 110, offsetof(InputHandler_t532, ___UserInteractionsLayerBitmask_6), 0 } ,
-	{ 1215, 100, offsetof(InputHandler_t532, ___U3CisTouchDeviceU3Ek__BackingField_7), 395 } ,
-	{ 1087, 1414, offsetof(InputHandler_t532_StaticFields, ___U3CinstanceU3Ek__BackingField_8), 396 } ,
-	{ 1216, 716, 0, 0 } ,
-	{ 1217, 716, 0, 0 } ,
+	{ 1133, 654, 0, 0 } ,
+	{ 1134, 654, 0, 0 } ,
+	{ 231, 1350, offsetof(FacebookSharing_t499_StaticFields, ___instance_5), 0 } ,
+	{ 1135, 110, offsetof(FacebookSharing_t499, ___scoreToShare_6), 0 } ,
+	{ 1136, 1057, offsetof(FacebookSharing_t499, ___lazyAngusIcon_7), 0 } ,
+	{ 1137, 1338, offsetof(FartPuff_t500, ___direction_2), 0 } ,
+	{ 1138, 626, offsetof(FartPuff_t500, ___velocity_3), 0 } ,
+	{ 1139, 626, offsetof(FartPuff_t500, ___scaleVelocity_4), 0 } ,
+	{ 1140, 626, offsetof(FartPuff_t500, ___maxRotateDegVeclocity_5), 0 } ,
+	{ 1141, 626, offsetof(FartPuff_t500, ___minRotateDegVeclocity_6), 0 } ,
+	{ 1142, 1172, offsetof(FartPuff_t500, ___rotateDegVelocity_7), 0 } ,
+	{ 1143, 1172, offsetof(FartPuff_t500, ___rotationDeg_8), 0 } ,
+	{ 1144, 1172, offsetof(FartPuff_t500, ___scale_9), 0 } ,
+	{ 1145, 626, offsetof(FartPuff_t500, ___initialScale_10), 0 } ,
+	{ 1146, 1300, offsetof(FartPuff_t500, ___sprite_11), 0 } ,
+	{ 1053, 100, offsetof(FinalScoreController_t501, ___registeredForEvents_2), 0 } ,
+	{ 1147, 1280, offsetof(FinalScoreUI_t502, ___personalBestText_2), 0 } ,
+	{ 1148, 1280, offsetof(FinalScoreUI_t502, ___finalScoreText_3), 0 } ,
+	{ 1060, 100, offsetof(FinalScoreUI_t502, ___started_4), 0 } ,
+	{ 1149, 1357, offsetof(FlyingAnimation_t506, ___myRectTransform_7), 0 } ,
+	{ 1150, 1358, offsetof(FlyingAnimation_t506, ___points_8), 0 } ,
+	{ 1151, 1172, offsetof(FlyingAnimation_t506, ___startTime_9), 0 } ,
+	{ 1152, 100, offsetof(FlyingAnimation_t506, ___running_10), 0 } ,
+	{ 1153, 1361, offsetof(GameCenterButtons_t509, ___leaderBoardButton_2), 0 } ,
+	{ 1154, 1361, offsetof(GameCenterButtons_t509, ___achievementButton_3), 0 } ,
+	{ 1155, 1361, offsetof(GameCenterButtons_t509, ___rateMeButton_4), 0 } ,
+	{ 1156, 1362, offsetof(GameCenterButtons_t509_StaticFields, ___U3CU3Ef__amU24cache3_5), 339 } ,
+	{ 1157, 1362, offsetof(GameCenterButtons_t509_StaticFields, ___U3CU3Ef__amU24cache4_6), 340 } ,
+	{ 1158, 1362, offsetof(GameCenterButtons_t509_StaticFields, ___U3CU3Ef__amU24cache5_7), 341 } ,
+	{ 1159, 626, offsetof(GameController_t512, ___startWait_2), 0 } ,
+	{ 1160, 626, offsetof(GameController_t512, ___minSpawnWait_3), 0 } ,
+	{ 1161, 626, offsetof(GameController_t512, ___maxSpawnWait_4), 0 } ,
+	{ 1162, 1364, offsetof(GameController_t512, ___mouseHoles_5), 0 } ,
+	{ 1163, 1365, offsetof(GameController_t512, ___mouseSpawnFromData_6), 0 } ,
+	{ 1053, 100, offsetof(GameController_t512, ___registeredForEvents_7), 0 } ,
+	{ 1164, 100, offsetof(GameController_t512, ___checkForPhaseChanges_8), 0 } ,
+	{ 1087, 1366, offsetof(GameController_t512_StaticFields, ___U3CinstanceU3Ek__BackingField_9), 345 } ,
+	{ 252, 961, offsetof(GameController_t512_StaticFields, ___U3CU3Ef__amU24cache8_10), 346 } ,
+	{ 1165, 1369, offsetof(GameLevelState_t514, ___GameLevelChanged_2), 0 } ,
+	{ 1166, 110, offsetof(GameLevelState_t514, ___U3CgameLevelU3Ek__BackingField_3), 350 } ,
+	{ 1087, 1370, offsetof(GameLevelState_t514_StaticFields, ___U3CinstanceU3Ek__BackingField_4), 351 } ,
+	{ 57, 90, offsetof(GamePhaseType_t515, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 655, 1372, 0, 0 } ,
+	{ 1167, 1372, 0, 0 } ,
+	{ 1168, 1372, 0, 0 } ,
+	{ 1169, 1372, 0, 0 } ,
+	{ 1170, 1372, 0, 0 } ,
+	{ 1171, 1372, 0, 0 } ,
+	{ 18, 137, offsetof(U3CSetupPendingPhaseU3Ec__Iterator12_t519, ___U24PC_0), 0 } ,
+	{ 19, 148, offsetof(U3CSetupPendingPhaseU3Ec__Iterator12_t519, ___U24current_1), 0 } ,
+	{ 20, 1377, offsetof(U3CSetupPendingPhaseU3Ec__Iterator12_t519, ___U3CU3Ef__this_2), 0 } ,
+	{ 1172, 1379, offsetof(GamePhaseState_t518, ___pendingPhase_2), 0 } ,
+	{ 1173, 1172, offsetof(GamePhaseState_t518, ___pendingPhaseTimeout_3), 0 } ,
+	{ 1174, 626, offsetof(GamePhaseState_t518, ___pendingPause_4), 0 } ,
+	{ 1175, 100, offsetof(GamePhaseState_t518, ___shouldCheckForPhaseTransition_5), 0 } ,
+	{ 1176, 1380, offsetof(GamePhaseState_t518, ___gameUIs_6), 0 } ,
+	{ 1177, 1381, offsetof(GamePhaseState_t518, ___GameInstanceChanged_7), 0 } ,
+	{ 1178, 1382, offsetof(GamePhaseState_t518, ___GamePhaseChanged_8), 0 } ,
+	{ 1179, 1379, offsetof(GamePhaseState_t518, ___U3CgamePhaseU3Ek__BackingField_9), 356 } ,
+	{ 1180, 110, offsetof(GamePhaseState_t518, ___U3CinstancesFinishedThisSessionU3Ek__BackingField_10), 357 } ,
+	{ 1181, 110, offsetof(GamePhaseState_t518, ___U3CinstancesFinishedEverU3Ek__BackingField_11), 358 } ,
+	{ 1087, 1383, offsetof(GamePhaseState_t518_StaticFields, ___U3CinstanceU3Ek__BackingField_12), 359 } ,
+	{ 57, 90, offsetof(GameUIsType_t521, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1167, 1386, 0, 0 } ,
+	{ 1169, 1386, 0, 0 } ,
+	{ 1182, 1386, 0, 0 } ,
+	{ 1079, 1386, 0, 0 } ,
+	{ 1183, 137, offsetof(U3CConfirmCompleteU3Ec__Iterator13_t523, ___U3CiU3E__0_0), 0 } ,
+	{ 18, 137, offsetof(U3CConfirmCompleteU3Ec__Iterator13_t523, ___U24PC_1), 0 } ,
+	{ 19, 148, offsetof(U3CConfirmCompleteU3Ec__Iterator13_t523, ___U24current_2), 0 } ,
+	{ 20, 1389, offsetof(U3CConfirmCompleteU3Ec__Iterator13_t523, ___U3CU3Ef__this_3), 0 } ,
+	{ 1184, 1066, offsetof(GameUIController_t522, ___welcomeUIGameObject_2), 0 } ,
+	{ 1185, 1066, offsetof(GameUIController_t522, ___levelEndUIGameObject_3), 0 } ,
+	{ 1186, 1066, offsetof(GameUIController_t522, ___gameOverUIGameObject_4), 0 } ,
+	{ 1176, 1380, offsetof(GameUIController_t522, ___gameUIs_5), 0 } ,
+	{ 1053, 100, offsetof(GameUIController_t522, ___registeredForEvents_6), 0 } ,
+	{ 1087, 1391, offsetof(GameUIController_t522_StaticFields, ___U3CinstanceU3Ek__BackingField_7), 374 } ,
+	{ 18, 137, offsetof(U3CCreatePendingInterstitialAdU3Ec__Iterator14_t525, ___U24PC_0), 0 } ,
+	{ 19, 148, offsetof(U3CCreatePendingInterstitialAdU3Ec__Iterator14_t525, ___U24current_1), 0 } ,
+	{ 20, 1393, offsetof(U3CCreatePendingInterstitialAdU3Ec__Iterator14_t525, ___U3CU3Ef__this_2), 0 } ,
+	{ 231, 1395, offsetof(GoogleAdController_t524_StaticFields, ___instance_2), 0 } ,
+	{ 1187, 102, offsetof(GoogleAdController_t524, ___instancesBetweenInterstitialAds_3), 0 } ,
+	{ 1188, 626, offsetof(GoogleAdController_t524, ___waitBeforeAd_4), 0 } ,
+	{ 1189, 1296, offsetof(GoogleAdController_t524, ___pendingInterstitialAd_5), 0 } ,
+	{ 1053, 100, offsetof(GoogleAdController_t524, ___registeredForEvents_6), 0 } ,
+	{ 1190, 100, offsetof(GoogleAdController_t524, ___interstitialAdLoaded_7), 0 } ,
+	{ 1191, 100, offsetof(GoogleAdController_t524, ___adsEnabled_8), 0 } ,
+	{ 1192, 639, offsetof(GoogleAdController_t524, ___banner_9), 0 } ,
+	{ 57, 90, offsetof(MovementPhase_t526, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1193, 1397, 0, 0 } ,
+	{ 1194, 1397, 0, 0 } ,
+	{ 1195, 1397, 0, 0 } ,
+	{ 1196, 1397, 0, 0 } ,
+	{ 1197, 1397, 0, 0 } ,
+	{ 1198, 626, offsetof(HeadMovement_t527, ___moveToSpeedDeg_2), 0 } ,
+	{ 1199, 626, offsetof(HeadMovement_t527, ___moveHomeSpeedDeg_3), 0 } ,
+	{ 1200, 626, offsetof(HeadMovement_t527, ___maxTurnDeg_4), 0 } ,
+	{ 1201, 1401, offsetof(HeadMovement_t527, ___coneOfView_5), 0 } ,
+	{ 1202, 626, offsetof(HeadMovement_t527, ___holdTime_6), 0 } ,
+	{ 1203, 1172, offsetof(HeadMovement_t527, ___targetDeg_7), 0 } ,
+	{ 1204, 1172, offsetof(HeadMovement_t527, ___currentDeg_8), 0 } ,
+	{ 1205, 1402, offsetof(HeadMovement_t527, ___phase_9), 0 } ,
+	{ 1206, 1172, offsetof(HeadMovement_t527, ___phaseStartTime_10), 0 } ,
+	{ 1183, 137, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator15_t529, ___U3CiU3E__0_0), 0 } ,
+	{ 1207, 1404, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator15_t529, ___U3CgoU3E__1_1), 0 } ,
+	{ 18, 137, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator15_t529, ___U24PC_2), 0 } ,
+	{ 19, 148, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator15_t529, ___U24current_3), 0 } ,
+	{ 20, 1405, offsetof(U3CTriggerDistortionEffectU3Ec__Iterator15_t529, ___U3CU3Ef__this_4), 0 } ,
+	{ 1208, 1300, offsetof(HoleMeter_t528, ___emptySprite_2), 0 } ,
+	{ 1209, 1300, offsetof(HoleMeter_t528, ___fullSprite_3), 0 } ,
+	{ 1210, 1407, offsetof(HoleMeter_t528, ___offset_4), 0 } ,
+	{ 1211, 1066, offsetof(HoleMeter_t528, ___meterWidgetPrototype_5), 0 } ,
+	{ 1212, 1287, offsetof(HoleMeter_t528, ___meterWidgetGameObjects_6), 0 } ,
+	{ 1213, 1408, offsetof(HoleMeter_t528, ___mouseHole_7), 0 } ,
+	{ 1055, 100, offsetof(HoleMeter_t528, ___registerdForEvents_8), 0 } ,
+	{ 1214, 815, offsetof(InputHandler_t533_StaticFields, ___UserInteractionsLayerBit_2), 0 } ,
+	{ 1215, 815, offsetof(InputHandler_t533_StaticFields, ___UILayerBit_3), 0 } ,
+	{ 1095, 1414, offsetof(InputHandler_t533, ___worldCamera_4), 0 } ,
+	{ 1096, 1414, offsetof(InputHandler_t533, ___uxCamera_5), 0 } ,
+	{ 1216, 110, offsetof(InputHandler_t533, ___UserInteractionsLayerBitmask_6), 0 } ,
+	{ 1217, 100, offsetof(InputHandler_t533, ___U3CisTouchDeviceU3Ek__BackingField_7), 395 } ,
+	{ 1087, 1415, offsetof(InputHandler_t533_StaticFields, ___U3CinstanceU3Ek__BackingField_8), 396 } ,
 	{ 1218, 716, 0, 0 } ,
-	{ 57, 90, offsetof(WaveType_t535, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1219, 1420, 0, 0 } ,
-	{ 1220, 1420, 0, 0 } ,
-	{ 1221, 1420, 0, 0 } ,
-	{ 1079, 1420, 0, 0 } ,
-	{ 1222, 617, 0, 0 } ,
-	{ 1223, 101, offsetof(LevelDescription_t542, ___specialText_1), 0 } ,
-	{ 1224, 1422, offsetof(LevelDescription_t542, ___explicitMouseDescs_2), 0 } ,
-	{ 1144, 1300, offsetof(LevelDescription_t542, ___sprite_3), 0 } ,
-	{ 1093, 1301, offsetof(LevelDescription_t542, ___tipConfig_4), 0 } ,
-	{ 1225, 626, offsetof(LevelDescription_t542, ___tipPause_5), 0 } ,
-	{ 1226, 1423, offsetof(LevelDescription_t542, ___mouseHolesAccumulator_6), 0 } ,
-	{ 1227, 1424, offsetof(LevelDescription_t542, ___boostsAccumulator_7), 0 } ,
-	{ 1228, 1425, offsetof(LevelDescription_t542, ___wigglesAccumulator_8), 0 } ,
-	{ 1229, 1426, offsetof(LevelDescription_t542, ___mouseTypesAccumulator_9), 0 } ,
-	{ 1230, 1427, offsetof(LevelDescription_t542, ___waveTypesAccumulator_10), 0 } ,
-	{ 1231, 102, offsetof(LevelDescription_t542, ___gameLevel_11), 0 } ,
-	{ 1232, 101, offsetof(LevelDescription_t542, ___previousLevelClearedAchievementID_12), 0 } ,
-	{ 1233, 626, offsetof(LevelConfig_t549, ___paradePause_2), 0 } ,
-	{ 1234, 102, offsetof(LevelConfig_t549, ___minParadeMice_3), 0 } ,
-	{ 1235, 102, offsetof(LevelConfig_t549, ___maxParadeMice_4), 0 } ,
-	{ 1236, 626, offsetof(LevelConfig_t549, ___paradeEndPause_5), 0 } ,
-	{ 1237, 102, offsetof(LevelConfig_t549, ___minDistributedMice_6), 0 } ,
-	{ 1238, 102, offsetof(LevelConfig_t549, ___maxDistributedMice_7), 0 } ,
-	{ 1239, 1430, offsetof(LevelConfig_t549, ___distributedPauseDist_8), 0 } ,
-	{ 1240, 626, offsetof(LevelConfig_t549, ___distributedEndPause_9), 0 } ,
-	{ 1241, 626, offsetof(LevelConfig_t549, ___minSpoutPause_10), 0 } ,
-	{ 1242, 626, offsetof(LevelConfig_t549, ___maxSpoutPause_11), 0 } ,
-	{ 1243, 626, offsetof(LevelConfig_t549, ___spoutEndPause_12), 0 } ,
-	{ 1244, 102, offsetof(LevelConfig_t549, ___minSpoutMice_13), 0 } ,
-	{ 1245, 102, offsetof(LevelConfig_t549, ___maxSpoutMice_14), 0 } ,
-	{ 1246, 102, offsetof(LevelConfig_t549, ___superSpeedMiceLevel_15), 0 } ,
-	{ 1247, 1431, offsetof(LevelConfig_t549, ___mouseHoleGenerator_16), 0 } ,
-	{ 1248, 1432, offsetof(LevelConfig_t549, ___trackGenerator_17), 0 } ,
-	{ 1249, 1433, offsetof(LevelConfig_t549, ___distributedPauseGenerator_18), 0 } ,
-	{ 1250, 1434, offsetof(LevelConfig_t549, ___levelDescMap_19), 0 } ,
-	{ 1251, 1435, offsetof(LevelConfig_t549, ___boostLevelLocks_20), 0 } ,
-	{ 1087, 1436, offsetof(LevelConfig_t549_StaticFields, ___U3CinstanceU3Ek__BackingField_21), 401 } ,
-	{ 1252, 1280, offsetof(LevelEndTitlesLayout_t550, ___waveTitleText_2), 0 } ,
-	{ 1253, 1280, offsetof(LevelEndTitlesLayout_t550, ___waveCountText_3), 0 } ,
-	{ 1254, 1280, offsetof(LevelEndTitlesLayout_t550, ___waveSpecialText_4), 0 } ,
-	{ 1255, 1281, offsetof(LevelEndTitlesLayout_t550, ___waveSpecialImage_5), 0 } ,
-	{ 1055, 100, offsetof(LevelEndTitlesLayout_t550, ___registerdForEvents_6), 0 } ,
-	{ 1256, 1438, offsetof(LevelEndTitlesLayout_t550, ___distortForEffect_7), 0 } ,
-	{ 1257, 100, offsetof(LevelEndTitlesLayout_t550, ___waveDirty_8), 0 } ,
-	{ 1060, 100, offsetof(LevelEndTitlesLayout_t550, ___started_9), 0 } ,
-	{ 1258, 1066, offsetof(MoneyEarningController_t551, ___moneyEffectPrototype_2), 0 } ,
-	{ 1259, 1066, offsetof(MoneyEarningController_t551, ___moneyDisplay_3), 0 } ,
-	{ 1053, 100, offsetof(MoneyEarningController_t551, ___registeredForEvents_4), 0 } ,
-	{ 57, 90, offsetof(MovementPhaseType_t552, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1260, 1443, 0, 0 } ,
-	{ 1261, 1443, 0, 0 } ,
-	{ 1262, 1443, 0, 0 } ,
-	{ 1263, 1443, 0, 0 } ,
-	{ 1264, 1443, 0, 0 } ,
-	{ 1079, 1443, 0, 0 } ,
-	{ 57, 90, offsetof(MouseType_t553, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1265, 1446, 0, 0 } ,
-	{ 1266, 1446, 0, 0 } ,
-	{ 1267, 1446, 0, 0 } ,
-	{ 1268, 1446, 0, 0 } ,
-	{ 1079, 1446, 0, 0 } ,
-	{ 57, 90, offsetof(MouseWiggleType_t554, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 644, 1448, 0, 0 } ,
-	{ 1269, 1448, 0, 0 } ,
-	{ 1270, 1448, 0, 0 } ,
-	{ 1271, 1448, 0, 0 } ,
-	{ 1079, 1448, 0, 0 } ,
-	{ 1272, 626, offsetof(MouseConfig_t557, ___timeToTurn_2), 0 } ,
-	{ 1273, 626, offsetof(MouseConfig_t557, ___minCirclingRadius_3), 0 } ,
-	{ 1274, 626, offsetof(MouseConfig_t557, ___maxCirclingRadius_4), 0 } ,
-	{ 1275, 626, offsetof(MouseConfig_t557, ___startMouseRadius_5), 0 } ,
-	{ 1276, 626, offsetof(MouseConfig_t557, ___minSpeedM_6), 0 } ,
-	{ 1277, 626, offsetof(MouseConfig_t557, ___maxSpeedM_7), 0 } ,
-	{ 1278, 626, offsetof(MouseConfig_t557, ___minScaleM_8), 0 } ,
-	{ 1279, 626, offsetof(MouseConfig_t557, ___maxScaleM_9), 0 } ,
-	{ 1280, 626, offsetof(MouseConfig_t557, ___superSpeedM_10), 0 } ,
-	{ 1281, 1450, offsetof(MouseConfig_t557, ___poisonedColor_11), 0 } ,
-	{ 1282, 1450, offsetof(MouseConfig_t557, ___fartedUponColor_12), 0 } ,
-	{ 1283, 1406, offsetof(MouseConfig_t557, ___progressBarOffset_13), 0 } ,
-	{ 1284, 1066, offsetof(MouseConfig_t557, ___deadMousePrototype_14), 0 } ,
-	{ 1285, 626, offsetof(MouseConfig_t557, ___minBFWiggleMagnitude_15), 0 } ,
-	{ 1286, 626, offsetof(MouseConfig_t557, ___maxBFWiggleMagnitude_16), 0 } ,
-	{ 1287, 102, offsetof(MouseConfig_t557, ___minBFWiggleCycles_17), 0 } ,
-	{ 1288, 102, offsetof(MouseConfig_t557, ___maxBFWiggleCycles_18), 0 } ,
-	{ 1289, 626, offsetof(MouseConfig_t557, ___minSSWiggleMagnitude_19), 0 } ,
-	{ 1290, 626, offsetof(MouseConfig_t557, ___maxSSWiggleMagnitude_20), 0 } ,
-	{ 1291, 102, offsetof(MouseConfig_t557, ___minSSWiggleCycles_21), 0 } ,
-	{ 1292, 102, offsetof(MouseConfig_t557, ___maxSSWiggleCycles_22), 0 } ,
-	{ 1293, 626, offsetof(MouseConfig_t557, ___minRDWiggleMagnitude_23), 0 } ,
-	{ 1294, 626, offsetof(MouseConfig_t557, ___maxRDWiggleMagnitude_24), 0 } ,
-	{ 1295, 102, offsetof(MouseConfig_t557, ___minRDWiggleCycles_25), 0 } ,
-	{ 1296, 102, offsetof(MouseConfig_t557, ___maxRDWiggleCycles_26), 0 } ,
-	{ 1297, 1451, offsetof(MouseConfig_t557, ___mouseDescs_27), 0 } ,
-	{ 1298, 1452, offsetof(MouseConfig_t557, ___mouseWiggleDescs_28), 0 } ,
-	{ 231, 1453, offsetof(MouseConfig_t557_StaticFields, ___instance_29), 0 } ,
-	{ 1299, 1300, offsetof(MouseDesc_t558, ___deprecated_mouseSprite_0), 0 } ,
-	{ 1300, 1300, offsetof(MouseDesc_t558, ___deadMouseSprite_1), 0 } ,
-	{ 1090, 1300, offsetof(MouseDesc_t558, ___introScreenSprite_2), 0 } ,
-	{ 1301, 1314, offsetof(MouseDesc_t558, ___mouseMaterial_3), 0 } ,
-	{ 1302, 626, offsetof(MouseDesc_t558, ___speed_4), 0 } ,
-	{ 1142, 626, offsetof(MouseDesc_t558, ___scale_5), 0 } ,
-	{ 57, 90, offsetof(MouseHoleLocation_t559, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1303, 1456, 0, 0 } ,
-	{ 1304, 1456, 0, 0 } ,
-	{ 1305, 1456, 0, 0 } ,
-	{ 1306, 1456, 0, 0 } ,
-	{ 1079, 1456, 0, 0 } ,
-	{ 1307, 1406, offsetof(MouseHole_t529, ___meterOffset_2), 0 } ,
-	{ 1122, 1346, offsetof(MouseHole_t529, ___mouseHoleLocation_3), 0 } ,
-	{ 1308, 1460, offsetof(MouseHole_t529_StaticFields, ___angleBetweenHoles_4), 0 } ,
-	{ 1309, 110, offsetof(MouseHole_t529, ___savedMouseCount_5), 0 } ,
-	{ 1310, 1461, offsetof(MouseHole_t529, ___throbForEffect_6), 0 } ,
-	{ 1311, 1066, offsetof(MouseHole_t529, ___holeMeterPrototype_7), 0 } ,
-	{ 1312, 1301, offsetof(MouseHole_t529, ___mouseHoleTip_8), 0 } ,
-	{ 1313, 110, offsetof(MouseHole_t529, ___capacity_9), 0 } ,
-	{ 1053, 100, offsetof(MouseHole_t529, ___registeredForEvents_10), 0 } ,
-	{ 1314, 1462, offsetof(MouseHole_t529, ___MousePopChanged_11), 0 } ,
-	{ 1315, 1463, offsetof(MouseHole_t529, ___CapacityChanged_12), 0 } ,
-	{ 1316, 1465, offsetof(MouseMove_t487_StaticFields, ___activeMouseCount_2), 0 } ,
-	{ 1317, 1466, offsetof(MouseMove_t487, ___mouseRenderer_3), 0 } ,
-	{ 1318, 1066, offsetof(MouseMove_t487, ___trackingStatusBarPrototype_4), 0 } ,
-	{ 1319, 626, offsetof(MouseMove_t487, ___minDistanceToManuallyOrient_5), 0 } ,
-	{ 1320, 1172, offsetof(MouseMove_t487, ___mouseAngleDeg_6), 0 } ,
-	{ 1321, 1172, offsetof(MouseMove_t487, ___startAngleDeg_7), 0 } ,
-	{ 1322, 1172, offsetof(MouseMove_t487, ___endAngleDeg_8), 0 } ,
-	{ 1323, 1172, offsetof(MouseMove_t487, ___mouseRadius_9), 0 } ,
-	{ 1324, 1172, offsetof(MouseMove_t487, ___circlingRadius_10), 0 } ,
-	{ 1203, 1467, offsetof(MouseMove_t487, ___phase_11), 0 } ,
-	{ 1204, 1172, offsetof(MouseMove_t487, ___phaseStartTime_12), 0 } ,
-	{ 1325, 1172, offsetof(MouseMove_t487, ___baseSpeedM_13), 0 } ,
-	{ 1326, 1172, offsetof(MouseMove_t487, ___actualSpeedM_14), 0 } ,
-	{ 1123, 100, offsetof(MouseMove_t487, ___isClockwise_15), 0 } ,
-	{ 1327, 1172, offsetof(MouseMove_t487, ___angleAdjustmentWhileRunning_16), 0 } ,
-	{ 1328, 1172, offsetof(MouseMove_t487, ___zeroCenteredAngleAdjustmentWhileRunning_17), 0 } ,
-	{ 1061, 1274, offsetof(MouseMove_t487, ___sliderInstance_18), 0 } ,
-	{ 1329, 1468, offsetof(MouseMove_t487, ___tweakableSlider_19), 0 } ,
-	{ 1330, 1347, offsetof(MouseMove_t487, ___wiggleType_20), 0 } ,
-	{ 1331, 1172, offsetof(MouseMove_t487, ___wiggleMagnitude_21), 0 } ,
-	{ 1332, 1172, offsetof(MouseMove_t487, ___wiggleCycles_22), 0 } ,
-	{ 1333, 100, offsetof(MouseMove_t487, ___wiggleClockwise_23), 0 } ,
-	{ 1053, 100, offsetof(MouseMove_t487, ___registeredForEvents_24), 0 } ,
-	{ 1334, 1469, offsetof(MouseMove_t487, ___U3CmouseTypeU3Ek__BackingField_25), 404 } ,
-	{ 1335, 100, offsetof(MouseMove_t487, ___U3CdeadU3Ek__BackingField_26), 405 } ,
-	{ 1336, 100, offsetof(MouseMove_t487, ___U3CisPoisonedU3Ek__BackingField_27), 406 } ,
-	{ 1337, 100, offsetof(MouseMove_t487, ___U3CisFartedUponU3Ek__BackingField_28), 407 } ,
-	{ 1338, 626, offsetof(MouseSpawnFromData_t510, ___initialSpawnDelta_2), 0 } ,
-	{ 231, 1472, offsetof(MouseSpawnFromData_t510_StaticFields, ___instance_3), 0 } ,
-	{ 1339, 626, offsetof(MouseSpawnFromData_t510, ___minRandomDelay_4), 0 } ,
-	{ 1340, 626, offsetof(MouseSpawnFromData_t510, ___maxRandomDelay_5), 0 } ,
-	{ 1341, 1473, offsetof(MouseSpawnFromData_t510, ___miceDesc_6), 0 } ,
-	{ 1342, 1172, offsetof(MouseSpawnFromData_t510, ___nextSpawnTime_7), 0 } ,
-	{ 1343, 1066, offsetof(MouseSpawnFromData_t510, ___mousePrototype_8), 0 } ,
-	{ 1053, 100, offsetof(MouseSpawnFromData_t510, ___registeredForEvents_9), 0 } ,
-	{ 1344, 1474, offsetof(MouseSpawnFromData_t510, ___MouseSpawn_10), 0 } ,
-	{ 1345, 110, offsetof(MouseSpawnFromData_t510, ___U3CmiceSpawnedU3Ek__BackingField_11), 416 } ,
-	{ 1053, 100, offsetof(MouseSpawnTracker_t566, ___registeredForEvents_2), 0 } ,
-	{ 1346, 1476, offsetof(MouseSpawnTracker_t566, ___slider_3), 0 } ,
-	{ 1347, 110, offsetof(MouseSpawnTracker_t566, ___miceThisLevel_4), 0 } ,
-	{ 1090, 1300, offsetof(MouseWiggleDesc_t567, ___introScreenSprite_0), 0 } ,
-	{ 1348, 626, offsetof(MouseWiggleDesc_t567, ___minMagnitude_1), 0 } ,
-	{ 1349, 626, offsetof(MouseWiggleDesc_t567, ___maxMagnitude_2), 0 } ,
-	{ 1350, 102, offsetof(MouseWiggleDesc_t567, ___minCycles_3), 0 } ,
-	{ 1351, 102, offsetof(MouseWiggleDesc_t567, ___maxCycles_4), 0 } ,
-	{ 1053, 100, offsetof(MusicButton_t568, ___registeredForEvents_2), 0 } ,
-	{ 1352, 1480, offsetof(MusicButton_t568, ___onSprite_3), 0 } ,
-	{ 1353, 1480, offsetof(MusicButton_t568, ___offSprite_4), 0 } ,
-	{ 1354, 1281, offsetof(MusicButton_t568, ___buttonImage_5), 0 } ,
-	{ 1355, 1483, offsetof(U3CPlayMusicU3Ec__Iterator16_t571, ___music_0), 0 } ,
-	{ 18, 137, offsetof(U3CPlayMusicU3Ec__Iterator16_t571, ___U24PC_1), 0 } ,
-	{ 19, 148, offsetof(U3CPlayMusicU3Ec__Iterator16_t571, ___U24current_2), 0 } ,
-	{ 1356, 1483, offsetof(U3CPlayMusicU3Ec__Iterator16_t571, ___U3CU24U3Emusic_3), 0 } ,
-	{ 20, 1484, offsetof(U3CPlayMusicU3Ec__Iterator16_t571, ___U3CU3Ef__this_4), 0 } ,
-	{ 1053, 100, offsetof(MusicPlayer_t570, ___registeredForEvents_2), 0 } ,
-	{ 1357, 1487, offsetof(MusicPlayer_t570, ___gameMusic_3), 0 } ,
-	{ 1358, 1487, offsetof(MusicPlayer_t570, ___menuMusic_4), 0 } ,
-	{ 1359, 1488, offsetof(MusicPlayer_t570, ___currentMusic_5), 0 } ,
-	{ 1360, 1296, offsetof(MusicPlayer_t570, ___playCuedMusic_6), 0 } ,
-	{ 1211, 1490, offsetof(OnMouseEntersHole_t572, ___mouseHole_2), 0 } ,
-	{ 1053, 100, offsetof(ParseAnalyticsController_t573, ___registeredForEvents_2), 0 } ,
-	{ 231, 1497, offsetof(PausedOverlay_t575_StaticFields, ___instance_2), 0 } ,
-	{ 1361, 1066, offsetof(PausedOverlay_t575, ___overlay_3), 0 } ,
-	{ 1362, 1360, offsetof(PausedOverlay_t575, ___bigPlayButton_4), 0 } ,
-	{ 1363, 1335, offsetof(PausedOverlay_t575, ___childElement_5), 0 } ,
-	{ 1053, 100, offsetof(PausedOverlay_t575, ___registeredForEvents_6), 0 } ,
-	{ 57, 90, offsetof(SwipePhase_t576, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1364, 1499, 0, 0 } ,
-	{ 1365, 1499, 0, 0 } ,
-	{ 1366, 1499, 0, 0 } ,
-	{ 1367, 1499, 0, 0 } ,
-	{ 1368, 1499, 0, 0 } ,
-	{ 1195, 1499, 0, 0 } ,
-	{ 1369, 1337, offsetof(PawController_t492, ___swipeLocationCat_2), 0 } ,
-	{ 1370, 1502, offsetof(PawController_t492, ___swipePhase_3), 0 } ,
-	{ 1371, 1172, offsetof(PawController_t492, ___pauseStarted_4), 0 } ,
-	{ 1372, 1066, offsetof(PawController_t492, ___normalPawArtGameObject_5), 0 } ,
-	{ 1373, 1066, offsetof(PawController_t492, ___dangerPawArtGameObject_6), 0 } ,
-	{ 1374, 1066, offsetof(PawController_t492, ___bigPawArtGameObject_7), 0 } ,
-	{ 1375, 1066, offsetof(PawController_t492, ___bigDangerPawArtGameObject_8), 0 } ,
-	{ 1376, 1503, offsetof(PawController_t492, ___normalCollider_9), 0 } ,
-	{ 1377, 1503, offsetof(PawController_t492, ___bigCollider_10), 0 } ,
-	{ 1378, 1172, offsetof(PawController_t492, ___swipeSpeed_11), 0 } ,
-	{ 1379, 110, offsetof(PawController_t492, ___killsThisSwipe_12), 0 } ,
-	{ 1055, 100, offsetof(PawController_t492, ___registerdForEvents_13), 0 } ,
-	{ 1380, 1161, offsetof(PawController_t492, ___pawHomeCatTransform_14), 0 } ,
-	{ 1381, 1161, offsetof(PawController_t492, ___shoulderJointCatTransform_15), 0 } ,
-	{ 1382, 1172, offsetof(PawController_t492, ___pawHomeCatTransformMagnitude_16), 0 } ,
-	{ 231, 1505, offsetof(PersistentStorage_t578_StaticFields, ___instance_2), 0 } ,
-	{ 1383, 1148, offsetof(PersistentStorage_t578_StaticFields, ___valueStoreFilePath_3), 0 } ,
-	{ 1384, 162, offsetof(PersistentStorage_t578, ___storedValues_4), 0 } ,
-	{ 57, 90, offsetof(BodyMovementType_t581, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1385, 1511, 0, 0 } ,
-	{ 1386, 1511, 0, 0 } ,
-	{ 1387, 1511, 0, 0 } ,
-	{ 1388, 1514, 0, 0 } ,
-	{ 1389, 1066, offsetof(PlayerController_t582, ___rightPawGameObject_3), 0 } ,
-	{ 1390, 1066, offsetof(PlayerController_t582, ___leftPawGameObject_4), 0 } ,
-	{ 1199, 1400, offsetof(PlayerController_t582, ___coneOfView_5), 0 } ,
-	{ 1391, 1515, offsetof(PlayerController_t582, ___headMovement_6), 0 } ,
-	{ 1392, 1066, offsetof(PlayerController_t582, ___fartPuffPrototype_7), 0 } ,
-	{ 1393, 1066, offsetof(PlayerController_t582, ___butthole_8), 0 } ,
-	{ 1394, 1516, offsetof(PlayerController_t582, ___bodyMovement_9), 0 } ,
-	{ 1395, 1172, offsetof(PlayerController_t582, ___targetTurnAngleDegrees_10), 0 } ,
-	{ 1396, 1172, offsetof(PlayerController_t582, ___currentTurnAngleDegrees_11), 0 } ,
-	{ 1397, 1337, offsetof(PlayerController_t582, ___dragAnchorCat_12), 0 } ,
-	{ 1398, 1172, offsetof(PlayerController_t582, ___dragAnchorAngleCat_13), 0 } ,
-	{ 1053, 100, offsetof(PlayerController_t582, ___registeredForEvents_14), 0 } ,
-	{ 1399, 1301, offsetof(PlayerController_t582, ___turningTip_15), 0 } ,
-	{ 1400, 626, offsetof(PlayerController_t582, ___turningTipPause_16), 0 } ,
-	{ 1401, 1172, offsetof(PlayerController_t582, ___lastFartTime_17), 0 } ,
-	{ 1402, 626, offsetof(PlayerController_t582, ___fartPause_18), 0 } ,
-	{ 1087, 1517, offsetof(PlayerController_t582_StaticFields, ___U3CinstanceU3Ek__BackingField_19), 425 } ,
-	{ 1403, 617, 0, 0 } ,
-	{ 1404, 1435, offsetof(PlayerStats_t475, ___availableBoostCount_3), 0 } ,
-	{ 1405, 1435, offsetof(PlayerStats_t475, ___purchasedBoostCount_4), 0 } ,
+	{ 1219, 716, 0, 0 } ,
+	{ 1220, 716, 0, 0 } ,
+	{ 57, 90, offsetof(WaveType_t536, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1221, 1421, 0, 0 } ,
+	{ 1222, 1421, 0, 0 } ,
+	{ 1223, 1421, 0, 0 } ,
+	{ 1079, 1421, 0, 0 } ,
+	{ 1224, 617, 0, 0 } ,
+	{ 1225, 101, offsetof(LevelDescription_t543, ___specialText_1), 0 } ,
+	{ 1226, 1423, offsetof(LevelDescription_t543, ___explicitMouseDescs_2), 0 } ,
+	{ 1146, 1300, offsetof(LevelDescription_t543, ___sprite_3), 0 } ,
+	{ 1093, 1301, offsetof(LevelDescription_t543, ___tipConfig_4), 0 } ,
+	{ 1227, 626, offsetof(LevelDescription_t543, ___tipPause_5), 0 } ,
+	{ 1228, 1424, offsetof(LevelDescription_t543, ___mouseHolesAccumulator_6), 0 } ,
+	{ 1229, 1425, offsetof(LevelDescription_t543, ___boostsAccumulator_7), 0 } ,
+	{ 1230, 1426, offsetof(LevelDescription_t543, ___wigglesAccumulator_8), 0 } ,
+	{ 1231, 1427, offsetof(LevelDescription_t543, ___mouseTypesAccumulator_9), 0 } ,
+	{ 1232, 1428, offsetof(LevelDescription_t543, ___waveTypesAccumulator_10), 0 } ,
+	{ 1233, 102, offsetof(LevelDescription_t543, ___gameLevel_11), 0 } ,
+	{ 1234, 101, offsetof(LevelDescription_t543, ___previousLevelClearedAchievementID_12), 0 } ,
+	{ 1235, 626, offsetof(LevelConfig_t550, ___paradePause_2), 0 } ,
+	{ 1236, 102, offsetof(LevelConfig_t550, ___minParadeMice_3), 0 } ,
+	{ 1237, 102, offsetof(LevelConfig_t550, ___maxParadeMice_4), 0 } ,
+	{ 1238, 626, offsetof(LevelConfig_t550, ___paradeEndPause_5), 0 } ,
+	{ 1239, 102, offsetof(LevelConfig_t550, ___minDistributedMice_6), 0 } ,
+	{ 1240, 102, offsetof(LevelConfig_t550, ___maxDistributedMice_7), 0 } ,
+	{ 1241, 1431, offsetof(LevelConfig_t550, ___distributedPauseDist_8), 0 } ,
+	{ 1242, 626, offsetof(LevelConfig_t550, ___distributedEndPause_9), 0 } ,
+	{ 1243, 626, offsetof(LevelConfig_t550, ___minSpoutPause_10), 0 } ,
+	{ 1244, 626, offsetof(LevelConfig_t550, ___maxSpoutPause_11), 0 } ,
+	{ 1245, 626, offsetof(LevelConfig_t550, ___spoutEndPause_12), 0 } ,
+	{ 1246, 102, offsetof(LevelConfig_t550, ___minSpoutMice_13), 0 } ,
+	{ 1247, 102, offsetof(LevelConfig_t550, ___maxSpoutMice_14), 0 } ,
+	{ 1248, 102, offsetof(LevelConfig_t550, ___superSpeedMiceLevel_15), 0 } ,
+	{ 1249, 1432, offsetof(LevelConfig_t550, ___mouseHoleGenerator_16), 0 } ,
+	{ 1250, 1433, offsetof(LevelConfig_t550, ___trackGenerator_17), 0 } ,
+	{ 1251, 1434, offsetof(LevelConfig_t550, ___distributedPauseGenerator_18), 0 } ,
+	{ 1252, 1435, offsetof(LevelConfig_t550, ___levelDescMap_19), 0 } ,
+	{ 1253, 1436, offsetof(LevelConfig_t550, ___boostLevelLocks_20), 0 } ,
+	{ 1087, 1437, offsetof(LevelConfig_t550_StaticFields, ___U3CinstanceU3Ek__BackingField_21), 401 } ,
+	{ 1254, 1280, offsetof(LevelEndTitlesLayout_t551, ___waveTitleText_2), 0 } ,
+	{ 1255, 1280, offsetof(LevelEndTitlesLayout_t551, ___waveCountText_3), 0 } ,
+	{ 1256, 1280, offsetof(LevelEndTitlesLayout_t551, ___waveSpecialText_4), 0 } ,
+	{ 1257, 1281, offsetof(LevelEndTitlesLayout_t551, ___waveSpecialImage_5), 0 } ,
+	{ 1055, 100, offsetof(LevelEndTitlesLayout_t551, ___registerdForEvents_6), 0 } ,
+	{ 1258, 1439, offsetof(LevelEndTitlesLayout_t551, ___distortForEffect_7), 0 } ,
+	{ 1259, 100, offsetof(LevelEndTitlesLayout_t551, ___waveDirty_8), 0 } ,
+	{ 1060, 100, offsetof(LevelEndTitlesLayout_t551, ___started_9), 0 } ,
+	{ 1260, 1066, offsetof(MoneyEarningController_t552, ___moneyEffectPrototype_2), 0 } ,
+	{ 1261, 1066, offsetof(MoneyEarningController_t552, ___moneyDisplay_3), 0 } ,
+	{ 1053, 100, offsetof(MoneyEarningController_t552, ___registeredForEvents_4), 0 } ,
+	{ 57, 90, offsetof(MovementPhaseType_t553, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1262, 1444, 0, 0 } ,
+	{ 1263, 1444, 0, 0 } ,
+	{ 1264, 1444, 0, 0 } ,
+	{ 1265, 1444, 0, 0 } ,
+	{ 1266, 1444, 0, 0 } ,
+	{ 1079, 1444, 0, 0 } ,
+	{ 57, 90, offsetof(MouseType_t554, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1267, 1447, 0, 0 } ,
+	{ 1268, 1447, 0, 0 } ,
+	{ 1269, 1447, 0, 0 } ,
+	{ 1270, 1447, 0, 0 } ,
+	{ 1079, 1447, 0, 0 } ,
+	{ 57, 90, offsetof(MouseWiggleType_t555, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 644, 1449, 0, 0 } ,
+	{ 1271, 1449, 0, 0 } ,
+	{ 1272, 1449, 0, 0 } ,
+	{ 1273, 1449, 0, 0 } ,
+	{ 1079, 1449, 0, 0 } ,
+	{ 1274, 626, offsetof(MouseConfig_t558, ___timeToTurn_2), 0 } ,
+	{ 1275, 626, offsetof(MouseConfig_t558, ___minCirclingRadius_3), 0 } ,
+	{ 1276, 626, offsetof(MouseConfig_t558, ___maxCirclingRadius_4), 0 } ,
+	{ 1277, 626, offsetof(MouseConfig_t558, ___startMouseRadius_5), 0 } ,
+	{ 1278, 626, offsetof(MouseConfig_t558, ___minSpeedM_6), 0 } ,
+	{ 1279, 626, offsetof(MouseConfig_t558, ___maxSpeedM_7), 0 } ,
+	{ 1280, 626, offsetof(MouseConfig_t558, ___minScaleM_8), 0 } ,
+	{ 1281, 626, offsetof(MouseConfig_t558, ___maxScaleM_9), 0 } ,
+	{ 1282, 626, offsetof(MouseConfig_t558, ___superSpeedM_10), 0 } ,
+	{ 1283, 1451, offsetof(MouseConfig_t558, ___poisonedColor_11), 0 } ,
+	{ 1284, 1451, offsetof(MouseConfig_t558, ___fartedUponColor_12), 0 } ,
+	{ 1285, 1407, offsetof(MouseConfig_t558, ___progressBarOffset_13), 0 } ,
+	{ 1286, 1066, offsetof(MouseConfig_t558, ___deadMousePrototype_14), 0 } ,
+	{ 1287, 626, offsetof(MouseConfig_t558, ___minBFWiggleMagnitude_15), 0 } ,
+	{ 1288, 626, offsetof(MouseConfig_t558, ___maxBFWiggleMagnitude_16), 0 } ,
+	{ 1289, 102, offsetof(MouseConfig_t558, ___minBFWiggleCycles_17), 0 } ,
+	{ 1290, 102, offsetof(MouseConfig_t558, ___maxBFWiggleCycles_18), 0 } ,
+	{ 1291, 626, offsetof(MouseConfig_t558, ___minSSWiggleMagnitude_19), 0 } ,
+	{ 1292, 626, offsetof(MouseConfig_t558, ___maxSSWiggleMagnitude_20), 0 } ,
+	{ 1293, 102, offsetof(MouseConfig_t558, ___minSSWiggleCycles_21), 0 } ,
+	{ 1294, 102, offsetof(MouseConfig_t558, ___maxSSWiggleCycles_22), 0 } ,
+	{ 1295, 626, offsetof(MouseConfig_t558, ___minRDWiggleMagnitude_23), 0 } ,
+	{ 1296, 626, offsetof(MouseConfig_t558, ___maxRDWiggleMagnitude_24), 0 } ,
+	{ 1297, 102, offsetof(MouseConfig_t558, ___minRDWiggleCycles_25), 0 } ,
+	{ 1298, 102, offsetof(MouseConfig_t558, ___maxRDWiggleCycles_26), 0 } ,
+	{ 1299, 1452, offsetof(MouseConfig_t558, ___mouseDescs_27), 0 } ,
+	{ 1300, 1453, offsetof(MouseConfig_t558, ___mouseWiggleDescs_28), 0 } ,
+	{ 231, 1454, offsetof(MouseConfig_t558_StaticFields, ___instance_29), 0 } ,
+	{ 1301, 1300, offsetof(MouseDesc_t559, ___deprecated_mouseSprite_0), 0 } ,
+	{ 1302, 1300, offsetof(MouseDesc_t559, ___deadMouseSprite_1), 0 } ,
+	{ 1090, 1300, offsetof(MouseDesc_t559, ___introScreenSprite_2), 0 } ,
+	{ 1303, 1315, offsetof(MouseDesc_t559, ___mouseMaterial_3), 0 } ,
+	{ 1304, 626, offsetof(MouseDesc_t559, ___speed_4), 0 } ,
+	{ 1144, 626, offsetof(MouseDesc_t559, ___scale_5), 0 } ,
+	{ 57, 90, offsetof(MouseHoleLocation_t560, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1305, 1457, 0, 0 } ,
+	{ 1306, 1457, 0, 0 } ,
+	{ 1307, 1457, 0, 0 } ,
+	{ 1308, 1457, 0, 0 } ,
+	{ 1079, 1457, 0, 0 } ,
+	{ 1309, 1407, offsetof(MouseHole_t530, ___meterOffset_2), 0 } ,
+	{ 1124, 1347, offsetof(MouseHole_t530, ___mouseHoleLocation_3), 0 } ,
+	{ 1310, 1461, offsetof(MouseHole_t530_StaticFields, ___angleBetweenHoles_4), 0 } ,
+	{ 1311, 110, offsetof(MouseHole_t530, ___savedMouseCount_5), 0 } ,
+	{ 1312, 1462, offsetof(MouseHole_t530, ___throbForEffect_6), 0 } ,
+	{ 1313, 1066, offsetof(MouseHole_t530, ___holeMeterPrototype_7), 0 } ,
+	{ 1314, 1301, offsetof(MouseHole_t530, ___mouseHoleTip_8), 0 } ,
+	{ 1315, 110, offsetof(MouseHole_t530, ___capacity_9), 0 } ,
+	{ 1053, 100, offsetof(MouseHole_t530, ___registeredForEvents_10), 0 } ,
+	{ 1316, 1463, offsetof(MouseHole_t530, ___MousePopChanged_11), 0 } ,
+	{ 1317, 1464, offsetof(MouseHole_t530, ___CapacityChanged_12), 0 } ,
+	{ 1318, 1466, offsetof(MouseMove_t488_StaticFields, ___activeMouseCount_2), 0 } ,
+	{ 1319, 1467, offsetof(MouseMove_t488, ___mouseRenderer_3), 0 } ,
+	{ 1320, 1066, offsetof(MouseMove_t488, ___trackingStatusBarPrototype_4), 0 } ,
+	{ 1321, 626, offsetof(MouseMove_t488, ___minDistanceToManuallyOrient_5), 0 } ,
+	{ 1322, 1172, offsetof(MouseMove_t488, ___mouseAngleDeg_6), 0 } ,
+	{ 1323, 1172, offsetof(MouseMove_t488, ___startAngleDeg_7), 0 } ,
+	{ 1324, 1172, offsetof(MouseMove_t488, ___endAngleDeg_8), 0 } ,
+	{ 1325, 1172, offsetof(MouseMove_t488, ___mouseRadius_9), 0 } ,
+	{ 1326, 1172, offsetof(MouseMove_t488, ___circlingRadius_10), 0 } ,
+	{ 1205, 1468, offsetof(MouseMove_t488, ___phase_11), 0 } ,
+	{ 1206, 1172, offsetof(MouseMove_t488, ___phaseStartTime_12), 0 } ,
+	{ 1327, 1172, offsetof(MouseMove_t488, ___baseSpeedM_13), 0 } ,
+	{ 1328, 1172, offsetof(MouseMove_t488, ___actualSpeedM_14), 0 } ,
+	{ 1125, 100, offsetof(MouseMove_t488, ___isClockwise_15), 0 } ,
+	{ 1329, 1172, offsetof(MouseMove_t488, ___angleAdjustmentWhileRunning_16), 0 } ,
+	{ 1330, 1172, offsetof(MouseMove_t488, ___zeroCenteredAngleAdjustmentWhileRunning_17), 0 } ,
+	{ 1061, 1274, offsetof(MouseMove_t488, ___sliderInstance_18), 0 } ,
+	{ 1331, 1469, offsetof(MouseMove_t488, ___tweakableSlider_19), 0 } ,
+	{ 1332, 1348, offsetof(MouseMove_t488, ___wiggleType_20), 0 } ,
+	{ 1333, 1172, offsetof(MouseMove_t488, ___wiggleMagnitude_21), 0 } ,
+	{ 1334, 1172, offsetof(MouseMove_t488, ___wiggleCycles_22), 0 } ,
+	{ 1335, 100, offsetof(MouseMove_t488, ___wiggleClockwise_23), 0 } ,
+	{ 1053, 100, offsetof(MouseMove_t488, ___registeredForEvents_24), 0 } ,
+	{ 1336, 1470, offsetof(MouseMove_t488, ___U3CmouseTypeU3Ek__BackingField_25), 404 } ,
+	{ 1337, 100, offsetof(MouseMove_t488, ___U3CdeadU3Ek__BackingField_26), 405 } ,
+	{ 1338, 100, offsetof(MouseMove_t488, ___U3CisPoisonedU3Ek__BackingField_27), 406 } ,
+	{ 1339, 100, offsetof(MouseMove_t488, ___U3CisFartedUponU3Ek__BackingField_28), 407 } ,
+	{ 1340, 626, offsetof(MouseSpawnFromData_t511, ___initialSpawnDelta_2), 0 } ,
+	{ 231, 1473, offsetof(MouseSpawnFromData_t511_StaticFields, ___instance_3), 0 } ,
+	{ 1341, 626, offsetof(MouseSpawnFromData_t511, ___minRandomDelay_4), 0 } ,
+	{ 1342, 626, offsetof(MouseSpawnFromData_t511, ___maxRandomDelay_5), 0 } ,
+	{ 1343, 1474, offsetof(MouseSpawnFromData_t511, ___miceDesc_6), 0 } ,
+	{ 1344, 1172, offsetof(MouseSpawnFromData_t511, ___nextSpawnTime_7), 0 } ,
+	{ 1345, 1066, offsetof(MouseSpawnFromData_t511, ___mousePrototype_8), 0 } ,
+	{ 1053, 100, offsetof(MouseSpawnFromData_t511, ___registeredForEvents_9), 0 } ,
+	{ 1346, 1475, offsetof(MouseSpawnFromData_t511, ___MouseSpawn_10), 0 } ,
+	{ 1347, 110, offsetof(MouseSpawnFromData_t511, ___U3CmiceSpawnedU3Ek__BackingField_11), 416 } ,
+	{ 1053, 100, offsetof(MouseSpawnTracker_t567, ___registeredForEvents_2), 0 } ,
+	{ 1348, 1477, offsetof(MouseSpawnTracker_t567, ___slider_3), 0 } ,
+	{ 1349, 110, offsetof(MouseSpawnTracker_t567, ___miceThisLevel_4), 0 } ,
+	{ 1090, 1300, offsetof(MouseWiggleDesc_t568, ___introScreenSprite_0), 0 } ,
+	{ 1350, 626, offsetof(MouseWiggleDesc_t568, ___minMagnitude_1), 0 } ,
+	{ 1351, 626, offsetof(MouseWiggleDesc_t568, ___maxMagnitude_2), 0 } ,
+	{ 1352, 102, offsetof(MouseWiggleDesc_t568, ___minCycles_3), 0 } ,
+	{ 1353, 102, offsetof(MouseWiggleDesc_t568, ___maxCycles_4), 0 } ,
+	{ 1053, 100, offsetof(MusicButton_t569, ___registeredForEvents_2), 0 } ,
+	{ 1354, 1481, offsetof(MusicButton_t569, ___onSprite_3), 0 } ,
+	{ 1355, 1481, offsetof(MusicButton_t569, ___offSprite_4), 0 } ,
+	{ 1356, 1281, offsetof(MusicButton_t569, ___buttonImage_5), 0 } ,
+	{ 1357, 1484, offsetof(U3CPlayMusicU3Ec__Iterator16_t572, ___music_0), 0 } ,
+	{ 18, 137, offsetof(U3CPlayMusicU3Ec__Iterator16_t572, ___U24PC_1), 0 } ,
+	{ 19, 148, offsetof(U3CPlayMusicU3Ec__Iterator16_t572, ___U24current_2), 0 } ,
+	{ 1358, 1484, offsetof(U3CPlayMusicU3Ec__Iterator16_t572, ___U3CU24U3Emusic_3), 0 } ,
+	{ 20, 1485, offsetof(U3CPlayMusicU3Ec__Iterator16_t572, ___U3CU3Ef__this_4), 0 } ,
+	{ 1053, 100, offsetof(MusicPlayer_t571, ___registeredForEvents_2), 0 } ,
+	{ 1359, 1488, offsetof(MusicPlayer_t571, ___gameMusic_3), 0 } ,
+	{ 1360, 1488, offsetof(MusicPlayer_t571, ___menuMusic_4), 0 } ,
+	{ 1361, 1489, offsetof(MusicPlayer_t571, ___currentMusic_5), 0 } ,
+	{ 1362, 1296, offsetof(MusicPlayer_t571, ___playCuedMusic_6), 0 } ,
+	{ 1213, 1491, offsetof(OnMouseEntersHole_t573, ___mouseHole_2), 0 } ,
+	{ 1053, 100, offsetof(ParseAnalyticsController_t574, ___registeredForEvents_2), 0 } ,
+	{ 231, 1498, offsetof(PausedOverlay_t576_StaticFields, ___instance_2), 0 } ,
+	{ 1363, 1066, offsetof(PausedOverlay_t576, ___overlay_3), 0 } ,
+	{ 1364, 1361, offsetof(PausedOverlay_t576, ___bigPlayButton_4), 0 } ,
+	{ 1365, 1336, offsetof(PausedOverlay_t576, ___childElement_5), 0 } ,
+	{ 1053, 100, offsetof(PausedOverlay_t576, ___registeredForEvents_6), 0 } ,
+	{ 57, 90, offsetof(SwipePhase_t577, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1366, 1500, 0, 0 } ,
+	{ 1367, 1500, 0, 0 } ,
+	{ 1368, 1500, 0, 0 } ,
+	{ 1369, 1500, 0, 0 } ,
+	{ 1370, 1500, 0, 0 } ,
+	{ 1197, 1500, 0, 0 } ,
+	{ 1371, 1338, offsetof(PawController_t493, ___swipeLocationCat_2), 0 } ,
+	{ 1372, 1503, offsetof(PawController_t493, ___swipePhase_3), 0 } ,
+	{ 1373, 1172, offsetof(PawController_t493, ___pauseStarted_4), 0 } ,
+	{ 1374, 1066, offsetof(PawController_t493, ___normalPawArtGameObject_5), 0 } ,
+	{ 1375, 1066, offsetof(PawController_t493, ___dangerPawArtGameObject_6), 0 } ,
+	{ 1376, 1066, offsetof(PawController_t493, ___bigPawArtGameObject_7), 0 } ,
+	{ 1377, 1066, offsetof(PawController_t493, ___bigDangerPawArtGameObject_8), 0 } ,
+	{ 1378, 1504, offsetof(PawController_t493, ___normalCollider_9), 0 } ,
+	{ 1379, 1504, offsetof(PawController_t493, ___bigCollider_10), 0 } ,
+	{ 1380, 1172, offsetof(PawController_t493, ___swipeSpeed_11), 0 } ,
+	{ 1381, 110, offsetof(PawController_t493, ___killsThisSwipe_12), 0 } ,
+	{ 1055, 100, offsetof(PawController_t493, ___registerdForEvents_13), 0 } ,
+	{ 1382, 1161, offsetof(PawController_t493, ___pawHomeCatTransform_14), 0 } ,
+	{ 1383, 1161, offsetof(PawController_t493, ___shoulderJointCatTransform_15), 0 } ,
+	{ 1384, 1172, offsetof(PawController_t493, ___pawHomeCatTransformMagnitude_16), 0 } ,
+	{ 231, 1506, offsetof(PersistentStorage_t579_StaticFields, ___instance_2), 0 } ,
+	{ 1385, 1148, offsetof(PersistentStorage_t579_StaticFields, ___valueStoreFilePath_3), 0 } ,
+	{ 1386, 162, offsetof(PersistentStorage_t579, ___storedValues_4), 0 } ,
+	{ 57, 90, offsetof(BodyMovementType_t582, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1387, 1512, 0, 0 } ,
+	{ 1388, 1512, 0, 0 } ,
+	{ 1389, 1512, 0, 0 } ,
+	{ 1390, 1515, 0, 0 } ,
+	{ 1391, 1066, offsetof(PlayerController_t583, ___rightPawGameObject_3), 0 } ,
+	{ 1392, 1066, offsetof(PlayerController_t583, ___leftPawGameObject_4), 0 } ,
+	{ 1201, 1401, offsetof(PlayerController_t583, ___coneOfView_5), 0 } ,
+	{ 1393, 1516, offsetof(PlayerController_t583, ___headMovement_6), 0 } ,
+	{ 1394, 1066, offsetof(PlayerController_t583, ___fartPuffPrototype_7), 0 } ,
+	{ 1395, 1066, offsetof(PlayerController_t583, ___butthole_8), 0 } ,
+	{ 1396, 1517, offsetof(PlayerController_t583, ___bodyMovement_9), 0 } ,
+	{ 1397, 1172, offsetof(PlayerController_t583, ___targetTurnAngleDegrees_10), 0 } ,
+	{ 1398, 1172, offsetof(PlayerController_t583, ___currentTurnAngleDegrees_11), 0 } ,
+	{ 1399, 1338, offsetof(PlayerController_t583, ___dragAnchorCat_12), 0 } ,
+	{ 1400, 1172, offsetof(PlayerController_t583, ___dragAnchorAngleCat_13), 0 } ,
+	{ 1053, 100, offsetof(PlayerController_t583, ___registeredForEvents_14), 0 } ,
+	{ 1401, 1301, offsetof(PlayerController_t583, ___turningTip_15), 0 } ,
+	{ 1402, 626, offsetof(PlayerController_t583, ___turningTipPause_16), 0 } ,
+	{ 1403, 1172, offsetof(PlayerController_t583, ___lastFartTime_17), 0 } ,
+	{ 1404, 626, offsetof(PlayerController_t583, ___fartPause_18), 0 } ,
+	{ 1087, 1518, offsetof(PlayerController_t583_StaticFields, ___U3CinstanceU3Ek__BackingField_19), 425 } ,
+	{ 1405, 617, 0, 0 } ,
+	{ 1406, 1436, offsetof(PlayerStats_t475, ___availableBoostCount_3), 0 } ,
+	{ 1407, 1436, offsetof(PlayerStats_t475, ___purchasedBoostCount_4), 0 } ,
 	{ 1053, 100, offsetof(PlayerStats_t475, ___registeredForEvents_5), 0 } ,
-	{ 1406, 1522, offsetof(PlayerStats_t475, ___ScoreChanged_6), 0 } ,
-	{ 1407, 1523, offsetof(PlayerStats_t475, ___MoneyChanged_7), 0 } ,
-	{ 1408, 1524, offsetof(PlayerStats_t475, ___BoostsChanged_8), 0 } ,
-	{ 1409, 110, offsetof(PlayerStats_t475, ___U3CgameScoreU3Ek__BackingField_9), 428 } ,
-	{ 1410, 110, offsetof(PlayerStats_t475, ___U3CmoneyU3Ek__BackingField_10), 429 } ,
-	{ 1087, 1525, offsetof(PlayerStats_t475_StaticFields, ___U3CinstanceU3Ek__BackingField_11), 430 } ,
-	{ 1411, 1530, 0, 0 } ,
-	{ 1412, 1531, 0, 0 } ,
-	{ 1413, 102, 0, 0 } ,
-	{ 18, 137, offsetof(U3CWaitAndShowDialogU3Ec__Iterator17_t587, ___U24PC_0), 0 } ,
-	{ 19, 148, offsetof(U3CWaitAndShowDialogU3Ec__Iterator17_t587, ___U24current_1), 0 } ,
-	{ 20, 1534, offsetof(U3CWaitAndShowDialogU3Ec__Iterator17_t587, ___U3CU3Ef__this_2), 0 } ,
-	{ 1414, 102, offsetof(RateMeController_t586, ___launchFrequency_2), 0 } ,
-	{ 1415, 626, offsetof(RateMeController_t586, ___minTimeFrequencySec_3), 0 } ,
-	{ 1416, 1066, offsetof(RateMeController_t586, ___rateMeDialogPrototype_4), 0 } ,
-	{ 1417, 626, offsetof(RateMeController_t586, ___waitToShow_5), 0 } ,
-	{ 1418, 101, offsetof(RatingsHelper_t589, ___iosAppID_2), 0 } ,
-	{ 231, 1540, offsetof(RatingsHelper_t589_StaticFields, ___instance_3), 0 } ,
-	{ 1053, 100, offsetof(SFXButton_t591, ___registeredForEvents_2), 0 } ,
-	{ 1419, 1480, offsetof(SFXButton_t591, ___soundOnSprite_3), 0 } ,
-	{ 1420, 1480, offsetof(SFXButton_t591, ___soundOffSprite_4), 0 } ,
-	{ 1354, 1281, offsetof(SFXButton_t591, ___buttonImage_5), 0 } ,
-	{ 57, 90, offsetof(SFXType_t592, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1421, 1546, 0, 0 } ,
-	{ 1422, 1546, 0, 0 } ,
-	{ 1423, 1546, 0, 0 } ,
-	{ 1424, 1546, 0, 0 } ,
-	{ 1425, 1546, 0, 0 } ,
-	{ 1426, 1546, 0, 0 } ,
-	{ 1427, 1546, 0, 0 } ,
-	{ 1428, 1546, 0, 0 } ,
-	{ 1079, 1546, 0, 0 } ,
-	{ 1429, 1549, offsetof(SFXPlayer_t595, ___audioSources_2), 0 } ,
-	{ 1053, 100, offsetof(SFXPlayer_t595, ___registeredForEvents_3), 0 } ,
-	{ 1430, 1550, offsetof(SFXPlayer_t595, ___deadMouseIds_4), 0 } ,
-	{ 1431, 1550, offsetof(SFXPlayer_t595, ___slapIds_5), 0 } ,
-	{ 1087, 1551, offsetof(SFXPlayer_t595_StaticFields, ___U3CinstanceU3Ek__BackingField_6), 443 } ,
-	{ 1053, 100, offsetof(SFXSilencer_t596, ___registeredForEvents_2), 0 } ,
-	{ 1053, 100, offsetof(ScoreController_t597, ___registeredForEvents_2), 0 } ,
-	{ 1432, 1066, offsetof(ScoreController_t597, ___scoreEffectPrototype_3), 0 } ,
-	{ 1433, 1066, offsetof(ScoreController_t597, ___scoreDisplay_4), 0 } ,
-	{ 231, 1557, offsetof(SecretUI_t598_StaticFields, ___instance_2), 0 } ,
-	{ 1434, 1066, offsetof(SecretUI_t598, ___inputs_3), 0 } ,
-	{ 1435, 1558, offsetof(SecretUI_t598, ___levelInputField_4), 0 } ,
-	{ 1436, 1558, offsetof(SecretUI_t598, ___debugFlagsInputField_5), 0 } ,
-	{ 1437, 626, offsetof(SizeCamera_t478, ___minWorldAspectRatio_2), 0 } ,
-	{ 1438, 626, offsetof(SizeCamera_t478, ___targetWorldHalfHeight_3), 0 } ,
-	{ 1439, 626, offsetof(SizeCamera_t478, ___screenPixelsTopToIgnore_4), 0 } ,
-	{ 1440, 626, offsetof(SizeCamera_t478, ___screenPixelsBottomToIgnore_5), 0 } ,
-	{ 18, 137, offsetof(U3CDebugScoreAndAchievementU3Ec__Iterator18_t601, ___U24PC_0), 0 } ,
-	{ 19, 148, offsetof(U3CDebugScoreAndAchievementU3Ec__Iterator18_t601, ___U24current_1), 0 } ,
-	{ 1441, 1565, offsetof(U3CAuthenticateU3Ec__AnonStorey1B_t602, ___handler_0), 0 } ,
-	{ 1442, 1011, offsetof(U3CRecordAchievementU3Ec__AnonStorey1C_t603, ___achievementID_0), 0 } ,
-	{ 1443, 101, offsetof(SocialHelper_t604, ___leaderboardID_2), 0 } ,
-	{ 231, 1568, offsetof(SocialHelper_t604_StaticFields, ___instance_3), 0 } ,
-	{ 1444, 100, offsetof(SocialHelper_t604, ___socialHelperEnabled_4), 0 } ,
-	{ 1154, 961, offsetof(SocialHelper_t604_StaticFields, ___U3CU3Ef__amU24cache3_5), 446 } ,
-	{ 1155, 961, offsetof(SocialHelper_t604_StaticFields, ___U3CU3Ef__amU24cache4_6), 447 } ,
-	{ 1445, 1360, offsetof(SocialMediaButtons_t605, ___fbButton_2), 0 } ,
-	{ 1446, 1360, offsetof(SocialMediaButtons_t605, ___twitterButton_3), 0 } ,
-	{ 666, 1361, offsetof(SocialMediaButtons_t605_StaticFields, ___U3CU3Ef__amU24cache2_4), 459 } ,
-	{ 1154, 1361, offsetof(SocialMediaButtons_t605_StaticFields, ___U3CU3Ef__amU24cache3_5), 460 } ,
-	{ 1447, 617, 0, 0 } ,
-	{ 1448, 617, 0, 0 } ,
-	{ 231, 1573, offsetof(SoundController_t608_StaticFields, ___instance_4), 0 } ,
-	{ 1449, 1574, offsetof(SoundController_t608, ___SoundMuteChanged_5), 0 } ,
-	{ 1450, 1575, offsetof(SoundController_t608, ___MusicMuteChanged_6), 0 } ,
-	{ 1451, 100, offsetof(SoundController_t608, ___U3CsfxMutedU3Ek__BackingField_7), 463 } ,
-	{ 1452, 100, offsetof(SoundController_t608, ___U3CmusicMutedU3Ek__BackingField_8), 464 } ,
-	{ 1453, 100, offsetof(ThrobForEffect_t562, ___throbbing_2), 0 } ,
-	{ 1454, 1172, offsetof(ThrobForEffect_t562, ___startThrobTime_3), 0 } ,
-	{ 1455, 626, offsetof(ThrobForEffect_t562, ___throbPeriod_4), 0 } ,
-	{ 1456, 626, offsetof(ThrobForEffect_t562, ___throbScale_5), 0 } ,
-	{ 1117, 1161, offsetof(ThrobForEffect_t562, ___thingToScale_6), 0 } ,
-	{ 1118, 1337, offsetof(ThrobForEffect_t562, ___originalScale_7), 0 } ,
-	{ 231, 1579, offsetof(TimeController_t610_StaticFields, ___instance_2), 0 } ,
-	{ 1457, 1580, offsetof(TimeController_t610, ___PauseChanged_3), 0 } ,
-	{ 1458, 100, offsetof(TimeController_t610, ___U3CpausedU3Ek__BackingField_4), 469 } ,
-	{ 1459, 626, offsetof(TimedFader_t612, ___staticLifespan_2), 0 } ,
-	{ 1460, 626, offsetof(TimedFader_t612, ___fadingLifespan_3), 0 } ,
-	{ 1461, 1582, offsetof(TimedFader_t612, ___spriteRenderer_4), 0 } ,
-	{ 1149, 1172, offsetof(TimedFader_t612, ___startTime_5), 0 } ,
-	{ 1462, 101, offsetof(TipConfig_t473, ___tipID_0), 0 } ,
-	{ 1463, 101, offsetof(TipConfig_t473, ___tipText_1), 0 } ,
-	{ 1464, 1160, offsetof(TipConfig_t473, ___tipPosition_2), 0 } ,
-	{ 1225, 1292, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t614, ___tipPause_0), 0 } ,
-	{ 1093, 1586, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t614, ___tipConfig_1), 0 } ,
-	{ 18, 137, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t614, ___U24PC_2), 0 } ,
-	{ 19, 148, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t614, ___U24current_3), 0 } ,
-	{ 1465, 1292, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t614, ___U3CU24U3EtipPause_4), 0 } ,
-	{ 1466, 1586, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t614, ___U3CU24U3EtipConfig_5), 0 } ,
-	{ 20, 1587, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t614, ___U3CU3Ef__this_6), 0 } ,
-	{ 1053, 100, offsetof(TipController_t613, ___registeredForEvents_2), 0 } ,
-	{ 1467, 1066, offsetof(TipController_t613, ___tipDialogPrototype_3), 0 } ,
-	{ 1468, 1296, offsetof(TipController_t613, ___enqueuedTip_4), 0 } ,
-	{ 231, 1589, offsetof(TipController_t613_StaticFields, ___instance_5), 0 } ,
-	{ 1469, 1280, offsetof(TipDialog_t615, ___dialogText_2), 0 } ,
-	{ 1470, 1592, offsetof(TrackLevel_t616, ___levelText_2), 0 } ,
-	{ 1055, 100, offsetof(TrackLevel_t616, ___registerdForEvents_3), 0 } ,
-	{ 1471, 1592, offsetof(TrackScore_t617, ___scoreText_2), 0 } ,
-	{ 1256, 1438, offsetof(TrackScore_t617, ___distortForEffect_3), 0 } ,
-	{ 1094, 1303, offsetof(TrackScore_t617, ___playerStats_4), 0 } ,
-	{ 1055, 100, offsetof(TrackScore_t617, ___registerdForEvents_5), 0 } ,
-	{ 1472, 1592, offsetof(TrackTreats_t618, ___treatsText_2), 0 } ,
-	{ 1256, 1438, offsetof(TrackTreats_t618, ___distortForEffect_3), 0 } ,
-	{ 1094, 1303, offsetof(TrackTreats_t618, ___playerStats_4), 0 } ,
-	{ 1055, 100, offsetof(TrackTreats_t618, ___registerdForEvents_5), 0 } ,
-	{ 1473, 1599, offsetof(TutsPlayerController_t620, ___animator_2), 0 } ,
-	{ 1474, 1514, 0, 0 } ,
-	{ 1475, 1514, 0, 0 } ,
-	{ 1476, 1514, 0, 0 } ,
-	{ 1477, 1514, 0, 0 } ,
-	{ 1478, 716, 0, 0 } ,
-	{ 1479, 1514, 0, 0 } ,
-	{ 1480, 1514, 0, 0 } ,
-	{ 1481, 1514, 0, 0 } ,
-	{ 1482, 1514, 0, 0 } ,
-	{ 1483, 1514, 0, 0 } ,
-	{ 1484, 1514, 0, 0 } ,
-	{ 1485, 716, 0, 0 } ,
-	{ 1486, 716, 0, 0 } ,
+	{ 1408, 1523, offsetof(PlayerStats_t475, ___ScoreChanged_6), 0 } ,
+	{ 1409, 1524, offsetof(PlayerStats_t475, ___MoneyChanged_7), 0 } ,
+	{ 1410, 1525, offsetof(PlayerStats_t475, ___BoostsChanged_8), 0 } ,
+	{ 1411, 110, offsetof(PlayerStats_t475, ___U3CgameScoreU3Ek__BackingField_9), 428 } ,
+	{ 1412, 110, offsetof(PlayerStats_t475, ___U3CmoneyU3Ek__BackingField_10), 429 } ,
+	{ 1087, 1526, offsetof(PlayerStats_t475_StaticFields, ___U3CinstanceU3Ek__BackingField_11), 430 } ,
+	{ 1413, 1531, 0, 0 } ,
+	{ 1414, 1532, 0, 0 } ,
+	{ 1415, 102, 0, 0 } ,
+	{ 18, 137, offsetof(U3CWaitAndShowDialogU3Ec__Iterator17_t588, ___U24PC_0), 0 } ,
+	{ 19, 148, offsetof(U3CWaitAndShowDialogU3Ec__Iterator17_t588, ___U24current_1), 0 } ,
+	{ 20, 1535, offsetof(U3CWaitAndShowDialogU3Ec__Iterator17_t588, ___U3CU3Ef__this_2), 0 } ,
+	{ 1416, 102, offsetof(RateMeController_t587, ___launchFrequency_2), 0 } ,
+	{ 1417, 626, offsetof(RateMeController_t587, ___minTimeFrequencySec_3), 0 } ,
+	{ 1418, 1066, offsetof(RateMeController_t587, ___rateMeDialogPrototype_4), 0 } ,
+	{ 1419, 626, offsetof(RateMeController_t587, ___waitToShow_5), 0 } ,
+	{ 1420, 101, offsetof(RatingsHelper_t590, ___iosAppID_2), 0 } ,
+	{ 231, 1541, offsetof(RatingsHelper_t590_StaticFields, ___instance_3), 0 } ,
+	{ 1053, 100, offsetof(SFXButton_t592, ___registeredForEvents_2), 0 } ,
+	{ 1421, 1481, offsetof(SFXButton_t592, ___soundOnSprite_3), 0 } ,
+	{ 1422, 1481, offsetof(SFXButton_t592, ___soundOffSprite_4), 0 } ,
+	{ 1356, 1281, offsetof(SFXButton_t592, ___buttonImage_5), 0 } ,
+	{ 57, 90, offsetof(SFXType_t593, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1423, 1547, 0, 0 } ,
+	{ 1424, 1547, 0, 0 } ,
+	{ 1425, 1547, 0, 0 } ,
+	{ 1426, 1547, 0, 0 } ,
+	{ 1427, 1547, 0, 0 } ,
+	{ 1428, 1547, 0, 0 } ,
+	{ 1429, 1547, 0, 0 } ,
+	{ 1430, 1547, 0, 0 } ,
+	{ 1079, 1547, 0, 0 } ,
+	{ 1431, 1550, offsetof(SFXPlayer_t596, ___audioSources_2), 0 } ,
+	{ 1053, 100, offsetof(SFXPlayer_t596, ___registeredForEvents_3), 0 } ,
+	{ 1432, 1551, offsetof(SFXPlayer_t596, ___deadMouseIds_4), 0 } ,
+	{ 1433, 1551, offsetof(SFXPlayer_t596, ___slapIds_5), 0 } ,
+	{ 1087, 1552, offsetof(SFXPlayer_t596_StaticFields, ___U3CinstanceU3Ek__BackingField_6), 443 } ,
+	{ 1053, 100, offsetof(SFXSilencer_t597, ___registeredForEvents_2), 0 } ,
+	{ 1053, 100, offsetof(ScoreController_t598, ___registeredForEvents_2), 0 } ,
+	{ 1434, 1066, offsetof(ScoreController_t598, ___scoreEffectPrototype_3), 0 } ,
+	{ 1435, 1066, offsetof(ScoreController_t598, ___scoreDisplay_4), 0 } ,
+	{ 231, 1558, offsetof(SecretUI_t599_StaticFields, ___instance_2), 0 } ,
+	{ 1436, 1066, offsetof(SecretUI_t599, ___inputs_3), 0 } ,
+	{ 1437, 1559, offsetof(SecretUI_t599, ___levelInputField_4), 0 } ,
+	{ 1438, 1559, offsetof(SecretUI_t599, ___debugFlagsInputField_5), 0 } ,
+	{ 1439, 626, offsetof(SizeCamera_t478, ___minWorldAspectRatio_2), 0 } ,
+	{ 1440, 626, offsetof(SizeCamera_t478, ___targetWorldHalfHeight_3), 0 } ,
+	{ 1441, 626, offsetof(SizeCamera_t478, ___screenPixelsTopToIgnore_4), 0 } ,
+	{ 1442, 626, offsetof(SizeCamera_t478, ___screenPixelsBottomToIgnore_5), 0 } ,
+	{ 18, 137, offsetof(U3CDebugScoreAndAchievementU3Ec__Iterator18_t602, ___U24PC_0), 0 } ,
+	{ 19, 148, offsetof(U3CDebugScoreAndAchievementU3Ec__Iterator18_t602, ___U24current_1), 0 } ,
+	{ 1443, 1566, offsetof(U3CAuthenticateU3Ec__AnonStorey1B_t603, ___handler_0), 0 } ,
+	{ 1444, 1011, offsetof(U3CRecordAchievementU3Ec__AnonStorey1C_t604, ___achievementID_0), 0 } ,
+	{ 1445, 101, offsetof(SocialHelper_t605, ___leaderboardID_2), 0 } ,
+	{ 231, 1569, offsetof(SocialHelper_t605_StaticFields, ___instance_3), 0 } ,
+	{ 1446, 100, offsetof(SocialHelper_t605, ___socialHelperEnabled_4), 0 } ,
+	{ 1156, 961, offsetof(SocialHelper_t605_StaticFields, ___U3CU3Ef__amU24cache3_5), 446 } ,
+	{ 1157, 961, offsetof(SocialHelper_t605_StaticFields, ___U3CU3Ef__amU24cache4_6), 447 } ,
+	{ 1447, 1361, offsetof(SocialMediaButtons_t606, ___fbButton_2), 0 } ,
+	{ 1448, 1361, offsetof(SocialMediaButtons_t606, ___twitterButton_3), 0 } ,
+	{ 666, 1362, offsetof(SocialMediaButtons_t606_StaticFields, ___U3CU3Ef__amU24cache2_4), 459 } ,
+	{ 1156, 1362, offsetof(SocialMediaButtons_t606_StaticFields, ___U3CU3Ef__amU24cache3_5), 460 } ,
+	{ 1449, 617, 0, 0 } ,
+	{ 1450, 617, 0, 0 } ,
+	{ 231, 1574, offsetof(SoundController_t609_StaticFields, ___instance_4), 0 } ,
+	{ 1451, 1575, offsetof(SoundController_t609, ___SoundMuteChanged_5), 0 } ,
+	{ 1452, 1576, offsetof(SoundController_t609, ___MusicMuteChanged_6), 0 } ,
+	{ 1453, 100, offsetof(SoundController_t609, ___U3CsfxMutedU3Ek__BackingField_7), 463 } ,
+	{ 1454, 100, offsetof(SoundController_t609, ___U3CmusicMutedU3Ek__BackingField_8), 464 } ,
+	{ 1455, 100, offsetof(ThrobForEffect_t563, ___throbbing_2), 0 } ,
+	{ 1456, 1172, offsetof(ThrobForEffect_t563, ___startThrobTime_3), 0 } ,
+	{ 1457, 626, offsetof(ThrobForEffect_t563, ___throbPeriod_4), 0 } ,
+	{ 1458, 626, offsetof(ThrobForEffect_t563, ___throbScale_5), 0 } ,
+	{ 1119, 1161, offsetof(ThrobForEffect_t563, ___thingToScale_6), 0 } ,
+	{ 1120, 1338, offsetof(ThrobForEffect_t563, ___originalScale_7), 0 } ,
+	{ 231, 1580, offsetof(TimeController_t611_StaticFields, ___instance_2), 0 } ,
+	{ 1459, 1581, offsetof(TimeController_t611, ___PauseChanged_3), 0 } ,
+	{ 1460, 100, offsetof(TimeController_t611, ___U3CpausedU3Ek__BackingField_4), 469 } ,
+	{ 1461, 626, offsetof(TimedFader_t613, ___staticLifespan_2), 0 } ,
+	{ 1462, 626, offsetof(TimedFader_t613, ___fadingLifespan_3), 0 } ,
+	{ 1463, 1583, offsetof(TimedFader_t613, ___spriteRenderer_4), 0 } ,
+	{ 1151, 1172, offsetof(TimedFader_t613, ___startTime_5), 0 } ,
+	{ 1464, 101, offsetof(TipConfig_t473, ___tipID_0), 0 } ,
+	{ 1465, 101, offsetof(TipConfig_t473, ___tipText_1), 0 } ,
+	{ 1466, 1160, offsetof(TipConfig_t473, ___tipPosition_2), 0 } ,
+	{ 1227, 1292, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t615, ___tipPause_0), 0 } ,
+	{ 1093, 1587, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t615, ___tipConfig_1), 0 } ,
+	{ 18, 137, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t615, ___U24PC_2), 0 } ,
+	{ 19, 148, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t615, ___U24current_3), 0 } ,
+	{ 1467, 1292, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t615, ___U3CU24U3EtipPause_4), 0 } ,
+	{ 1468, 1587, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t615, ___U3CU24U3EtipConfig_5), 0 } ,
+	{ 20, 1588, offsetof(U3CPlayTipWithPauseU3Ec__Iterator19_t615, ___U3CU3Ef__this_6), 0 } ,
+	{ 1053, 100, offsetof(TipController_t614, ___registeredForEvents_2), 0 } ,
+	{ 1469, 1066, offsetof(TipController_t614, ___tipDialogPrototype_3), 0 } ,
+	{ 1470, 1296, offsetof(TipController_t614, ___enqueuedTip_4), 0 } ,
+	{ 231, 1590, offsetof(TipController_t614_StaticFields, ___instance_5), 0 } ,
+	{ 1471, 1280, offsetof(TipDialog_t616, ___dialogText_2), 0 } ,
+	{ 1472, 1593, offsetof(TrackLevel_t617, ___levelText_2), 0 } ,
+	{ 1055, 100, offsetof(TrackLevel_t617, ___registerdForEvents_3), 0 } ,
+	{ 1473, 1593, offsetof(TrackScore_t618, ___scoreText_2), 0 } ,
+	{ 1258, 1439, offsetof(TrackScore_t618, ___distortForEffect_3), 0 } ,
+	{ 1094, 1303, offsetof(TrackScore_t618, ___playerStats_4), 0 } ,
+	{ 1055, 100, offsetof(TrackScore_t618, ___registerdForEvents_5), 0 } ,
+	{ 1474, 1593, offsetof(TrackTreats_t619, ___treatsText_2), 0 } ,
+	{ 1258, 1439, offsetof(TrackTreats_t619, ___distortForEffect_3), 0 } ,
+	{ 1094, 1303, offsetof(TrackTreats_t619, ___playerStats_4), 0 } ,
+	{ 1055, 100, offsetof(TrackTreats_t619, ___registerdForEvents_5), 0 } ,
+	{ 1475, 1600, offsetof(TutsPlayerController_t621, ___animator_2), 0 } ,
+	{ 1476, 1515, 0, 0 } ,
+	{ 1477, 1515, 0, 0 } ,
+	{ 1478, 1515, 0, 0 } ,
+	{ 1479, 1515, 0, 0 } ,
+	{ 1480, 716, 0, 0 } ,
+	{ 1481, 1515, 0, 0 } ,
+	{ 1482, 1515, 0, 0 } ,
+	{ 1483, 1515, 0, 0 } ,
+	{ 1484, 1515, 0, 0 } ,
+	{ 1485, 1515, 0, 0 } ,
+	{ 1486, 1515, 0, 0 } ,
 	{ 1487, 716, 0, 0 } ,
 	{ 1488, 716, 0, 0 } ,
 	{ 1489, 716, 0, 0 } ,
 	{ 1490, 716, 0, 0 } ,
 	{ 1491, 716, 0, 0 } ,
-	{ 1492, 1514, 0, 0 } ,
-	{ 1493, 1514, 0, 0 } ,
-	{ 1494, 1514, 0, 0 } ,
-	{ 1495, 1514, 0, 0 } ,
-	{ 1496, 1514, 0, 0 } ,
-	{ 1497, 1514, 0, 0 } ,
-	{ 1498, 1514, 0, 0 } ,
-	{ 1499, 1281, offsetof(TweakableSlider_t564, ___fill_2), 0 } ,
-	{ 1500, 1281, offsetof(TweakableSlider_t564, ___background_3), 0 } ,
-	{ 1130, 654, 0, 0 } ,
+	{ 1492, 716, 0, 0 } ,
+	{ 1493, 716, 0, 0 } ,
+	{ 1494, 1515, 0, 0 } ,
+	{ 1495, 1515, 0, 0 } ,
+	{ 1496, 1515, 0, 0 } ,
+	{ 1497, 1515, 0, 0 } ,
+	{ 1498, 1515, 0, 0 } ,
+	{ 1499, 1515, 0, 0 } ,
+	{ 1500, 1515, 0, 0 } ,
+	{ 1501, 1281, offsetof(TweakableSlider_t565, ___fill_2), 0 } ,
+	{ 1502, 1281, offsetof(TweakableSlider_t565, ___background_3), 0 } ,
 	{ 1132, 654, 0, 0 } ,
-	{ 231, 1605, offsetof(TwitterSharing_t622_StaticFields, ___instance_4), 0 } ,
-	{ 1134, 1057, offsetof(TwitterSharing_t622, ___lazyAngusIcon_5), 0 } ,
-	{ 1059, 1273, offsetof(UseBoost_t623, ___boostConfig_2), 0 } ,
-	{ 1094, 1303, offsetof(UseBoost_t623, ___playerStats_3), 0 } ,
-	{ 1501, 1011, offsetof(U3CLaunchAppOrWebU3Ec__Iterator1A_t624, ___appURL_0), 0 } ,
-	{ 1502, 1011, offsetof(U3CLaunchAppOrWebU3Ec__Iterator1A_t624, ___webURL_1), 0 } ,
-	{ 18, 137, offsetof(U3CLaunchAppOrWebU3Ec__Iterator1A_t624, ___U24PC_2), 0 } ,
-	{ 19, 148, offsetof(U3CLaunchAppOrWebU3Ec__Iterator1A_t624, ___U24current_3), 0 } ,
-	{ 1503, 1011, offsetof(U3CLaunchAppOrWebU3Ec__Iterator1A_t624, ___U3CU24U3EappURL_4), 0 } ,
-	{ 1504, 1011, offsetof(U3CLaunchAppOrWebU3Ec__Iterator1A_t624, ___U3CU24U3EwebURL_5), 0 } ,
-	{ 1505, 617, 0, 0 } ,
-	{ 1501, 617, 0, 0 } ,
-	{ 1506, 1614, offsetof(Utilities_t625_StaticFields, ___epoch_2), 0 } ,
-	{ 1507, 1335, offsetof(WorldObjectFollower_t626, ___objectToFollow_7), 0 } ,
-	{ 1147, 1356, offsetof(WorldObjectFollower_t626, ___myRectTransform_8), 0 } ,
-	{ 1508, 100, offsetof(WorldObjectFollower_t626, ___followeeMoves_9), 0 } ,
-	{ 1509, 100, offsetof(WorldObjectFollower_t626, ___positionDirty_10), 0 } ,
-	{ 1208, 1406, offsetof(WorldObjectFollower_t626, ___offset_11), 0 } ,
-	{ 1510, 626, offsetof(WorldObjectFollower_t626, ___rotation_12), 0 } ,
-	{ 1095, 1617, offsetof(WorldRelativeGUIElement_t506, ___worldCamera_2), 0 } ,
-	{ 1511, 1618, offsetof(WorldRelativeGUIElement_t506, ___parentCanvas_3), 0 } ,
-	{ 1512, 1617, offsetof(WorldRelativeGUIElement_t506, ___parentCamera_4), 0 } ,
-	{ 1513, 1172, offsetof(WorldRelativeGUIElement_t506, ___parentCanvasWidth_5), 0 } ,
-	{ 1514, 1172, offsetof(WorldRelativeGUIElement_t506, ___parentCanvasHeight_6), 0 } ,
+	{ 1134, 654, 0, 0 } ,
+	{ 231, 1606, offsetof(TwitterSharing_t623_StaticFields, ___instance_4), 0 } ,
+	{ 1136, 1057, offsetof(TwitterSharing_t623, ___lazyAngusIcon_5), 0 } ,
+	{ 1059, 1273, offsetof(UseBoost_t624, ___boostConfig_2), 0 } ,
+	{ 1094, 1303, offsetof(UseBoost_t624, ___playerStats_3), 0 } ,
+	{ 1503, 1011, offsetof(U3CLaunchAppOrWebU3Ec__Iterator1A_t625, ___appURL_0), 0 } ,
+	{ 1504, 1011, offsetof(U3CLaunchAppOrWebU3Ec__Iterator1A_t625, ___webURL_1), 0 } ,
+	{ 18, 137, offsetof(U3CLaunchAppOrWebU3Ec__Iterator1A_t625, ___U24PC_2), 0 } ,
+	{ 19, 148, offsetof(U3CLaunchAppOrWebU3Ec__Iterator1A_t625, ___U24current_3), 0 } ,
+	{ 1505, 1011, offsetof(U3CLaunchAppOrWebU3Ec__Iterator1A_t625, ___U3CU24U3EappURL_4), 0 } ,
+	{ 1506, 1011, offsetof(U3CLaunchAppOrWebU3Ec__Iterator1A_t625, ___U3CU24U3EwebURL_5), 0 } ,
+	{ 1507, 617, 0, 0 } ,
+	{ 1503, 617, 0, 0 } ,
+	{ 1508, 1615, offsetof(Utilities_t626_StaticFields, ___epoch_2), 0 } ,
+	{ 1509, 1336, offsetof(WorldObjectFollower_t627, ___objectToFollow_7), 0 } ,
+	{ 1149, 1357, offsetof(WorldObjectFollower_t627, ___myRectTransform_8), 0 } ,
+	{ 1510, 100, offsetof(WorldObjectFollower_t627, ___followeeMoves_9), 0 } ,
+	{ 1511, 100, offsetof(WorldObjectFollower_t627, ___positionDirty_10), 0 } ,
+	{ 1210, 1407, offsetof(WorldObjectFollower_t627, ___offset_11), 0 } ,
+	{ 1512, 626, offsetof(WorldObjectFollower_t627, ___rotation_12), 0 } ,
+	{ 1095, 1618, offsetof(WorldRelativeGUIElement_t507, ___worldCamera_2), 0 } ,
+	{ 1513, 1619, offsetof(WorldRelativeGUIElement_t507, ___parentCanvas_3), 0 } ,
+	{ 1514, 1618, offsetof(WorldRelativeGUIElement_t507, ___parentCamera_4), 0 } ,
+	{ 1515, 1172, offsetof(WorldRelativeGUIElement_t507, ___parentCanvasWidth_5), 0 } ,
+	{ 1516, 1172, offsetof(WorldRelativeGUIElement_t507, ___parentCanvasHeight_6), 0 } ,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -5868,104 +5872,104 @@ static const Il2CppFieldDefaultValue s_DefaultValues[691] =
 	{ 1522, 75, 5240 },
 	{ 1523, 75, 5244 },
 	{ 1524, 75, 5248 },
-	{ 1588, 14, 5252 },
-	{ 1589, 14, 5291 },
-	{ 1590, 14, 5310 },
-	{ 1631, 75, 5337 },
-	{ 1632, 75, 5341 },
-	{ 1633, 75, 5345 },
-	{ 1634, 75, 5349 },
-	{ 1635, 75, 5353 },
-	{ 1636, 75, 5357 },
-	{ 1652, 75, 5361 },
-	{ 1653, 75, 5365 },
-	{ 1654, 75, 5369 },
-	{ 1655, 75, 5373 },
-	{ 1678, 75, 5377 },
-	{ 1679, 75, 5381 },
-	{ 1680, 75, 5385 },
-	{ 1681, 75, 5389 },
-	{ 1682, 75, 5393 },
-	{ 1711, 75, 5397 },
-	{ 1712, 75, 5401 },
-	{ 1713, 75, 5405 },
-	{ 1715, 75, 5409 },
-	{ 1716, 75, 5413 },
-	{ 1717, 75, 5417 },
-	{ 1718, 75, 5421 },
-	{ 1719, 14, 5425 },
-	{ 1764, 75, 5454 },
-	{ 1765, 75, 5458 },
-	{ 1766, 75, 5462 },
-	{ 1767, 75, 5466 },
-	{ 1768, 75, 5470 },
-	{ 1769, 75, 5474 },
-	{ 1771, 75, 5478 },
-	{ 1772, 75, 5482 },
-	{ 1773, 75, 5486 },
-	{ 1774, 75, 5490 },
-	{ 1775, 75, 5494 },
-	{ 1777, 75, 5498 },
-	{ 1778, 75, 5502 },
-	{ 1779, 75, 5506 },
-	{ 1780, 75, 5510 },
-	{ 1781, 75, 5514 },
-	{ 1817, 75, 5518 },
-	{ 1818, 75, 5522 },
-	{ 1819, 75, 5526 },
-	{ 1820, 75, 5530 },
-	{ 1821, 75, 5534 },
-	{ 1900, 75, 5538 },
-	{ 1901, 75, 5542 },
-	{ 1902, 75, 5546 },
-	{ 1903, 75, 5550 },
-	{ 1904, 75, 5554 },
-	{ 1905, 75, 5558 },
-	{ 1925, 75, 5562 },
-	{ 1926, 75, 5566 },
-	{ 1927, 75, 5570 },
-	{ 1928, 66, 5574 },
-	{ 1946, 14, 5578 },
-	{ 1973, 75, 5591 },
-	{ 1974, 75, 5595 },
-	{ 1975, 75, 5599 },
-	{ 1976, 75, 5603 },
-	{ 1977, 75, 5607 },
-	{ 1978, 75, 5611 },
-	{ 1979, 75, 5615 },
-	{ 1980, 75, 5619 },
-	{ 1981, 75, 5623 },
-	{ 2012, 14, 5627 },
-	{ 2013, 14, 5639 },
-	{ 2058, 66, 5653 },
-	{ 2059, 66, 5657 },
-	{ 2060, 66, 5661 },
-	{ 2061, 66, 5665 },
-	{ 2062, 75, 5669 },
-	{ 2063, 66, 5673 },
-	{ 2064, 66, 5677 },
-	{ 2065, 66, 5681 },
-	{ 2066, 66, 5685 },
-	{ 2067, 66, 5689 },
-	{ 2068, 66, 5693 },
-	{ 2069, 75, 5697 },
-	{ 2070, 75, 5701 },
-	{ 2071, 75, 5705 },
-	{ 2072, 75, 5709 },
-	{ 2073, 75, 5713 },
-	{ 2074, 75, 5717 },
-	{ 2075, 75, 5721 },
-	{ 2076, 66, 5725 },
-	{ 2077, 66, 5729 },
-	{ 2078, 66, 5733 },
-	{ 2079, 66, 5737 },
-	{ 2080, 66, 5741 },
-	{ 2081, 66, 5745 },
-	{ 2082, 66, 5749 },
-	{ 2085, 14, 5753 },
-	{ 2086, 14, 5788 },
-	{ 2097, 14, 5806 },
-	{ 2098, 14, 5885 },
+	{ 1590, 14, 5252 },
+	{ 1591, 14, 5291 },
+	{ 1592, 14, 5310 },
+	{ 1633, 75, 5337 },
+	{ 1634, 75, 5341 },
+	{ 1635, 75, 5345 },
+	{ 1636, 75, 5349 },
+	{ 1637, 75, 5353 },
+	{ 1638, 75, 5357 },
+	{ 1654, 75, 5361 },
+	{ 1655, 75, 5365 },
+	{ 1656, 75, 5369 },
+	{ 1657, 75, 5373 },
+	{ 1680, 75, 5377 },
+	{ 1681, 75, 5381 },
+	{ 1682, 75, 5385 },
+	{ 1683, 75, 5389 },
+	{ 1684, 75, 5393 },
+	{ 1713, 75, 5397 },
+	{ 1714, 75, 5401 },
+	{ 1715, 75, 5405 },
+	{ 1717, 75, 5409 },
+	{ 1718, 75, 5413 },
+	{ 1719, 75, 5417 },
+	{ 1720, 75, 5421 },
+	{ 1721, 14, 5425 },
+	{ 1766, 75, 5454 },
+	{ 1767, 75, 5458 },
+	{ 1768, 75, 5462 },
+	{ 1769, 75, 5466 },
+	{ 1770, 75, 5470 },
+	{ 1771, 75, 5474 },
+	{ 1773, 75, 5478 },
+	{ 1774, 75, 5482 },
+	{ 1775, 75, 5486 },
+	{ 1776, 75, 5490 },
+	{ 1777, 75, 5494 },
+	{ 1779, 75, 5498 },
+	{ 1780, 75, 5502 },
+	{ 1781, 75, 5506 },
+	{ 1782, 75, 5510 },
+	{ 1783, 75, 5514 },
+	{ 1819, 75, 5518 },
+	{ 1820, 75, 5522 },
+	{ 1821, 75, 5526 },
+	{ 1822, 75, 5530 },
+	{ 1823, 75, 5534 },
+	{ 1902, 75, 5538 },
+	{ 1903, 75, 5542 },
+	{ 1904, 75, 5546 },
+	{ 1905, 75, 5550 },
+	{ 1906, 75, 5554 },
+	{ 1907, 75, 5558 },
+	{ 1927, 75, 5562 },
+	{ 1928, 75, 5566 },
+	{ 1929, 75, 5570 },
+	{ 1930, 66, 5574 },
+	{ 1948, 14, 5578 },
+	{ 1975, 75, 5591 },
+	{ 1976, 75, 5595 },
+	{ 1977, 75, 5599 },
+	{ 1978, 75, 5603 },
+	{ 1979, 75, 5607 },
+	{ 1980, 75, 5611 },
+	{ 1981, 75, 5615 },
+	{ 1982, 75, 5619 },
+	{ 1983, 75, 5623 },
+	{ 2014, 14, 5627 },
+	{ 2015, 14, 5639 },
+	{ 2060, 66, 5653 },
+	{ 2061, 66, 5657 },
+	{ 2062, 66, 5661 },
+	{ 2063, 66, 5665 },
+	{ 2064, 75, 5669 },
+	{ 2065, 66, 5673 },
+	{ 2066, 66, 5677 },
+	{ 2067, 66, 5681 },
+	{ 2068, 66, 5685 },
+	{ 2069, 66, 5689 },
+	{ 2070, 66, 5693 },
+	{ 2071, 75, 5697 },
+	{ 2072, 75, 5701 },
+	{ 2073, 75, 5705 },
+	{ 2074, 75, 5709 },
+	{ 2075, 75, 5713 },
+	{ 2076, 75, 5717 },
+	{ 2077, 75, 5721 },
+	{ 2078, 66, 5725 },
+	{ 2079, 66, 5729 },
+	{ 2080, 66, 5733 },
+	{ 2081, 66, 5737 },
+	{ 2082, 66, 5741 },
+	{ 2083, 66, 5745 },
+	{ 2084, 66, 5749 },
+	{ 2087, 14, 5753 },
+	{ 2088, 14, 5788 },
+	{ 2099, 14, 5806 },
+	{ 2100, 14, 5885 },
 };
 static const uint8_t s_DefaultValueDataTable[5914] = 
 {
@@ -11892,9 +11896,9 @@ Il2CppImage g_AssemblyU2DCSharp_dll_Image =
 	405,
 	NULL,
 	s_StringTable,
-	1515,
+	1517,
 	s_FieldTable,
-	2111,
+	2113,
 	s_DefaultValues,
 	691,
 	s_DefaultValueDataTable,

@@ -7,7 +7,7 @@
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>
 struct ReadOnlyCollection_1_t5683;
 // UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t782;
+struct BaseInputModule_t783;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IList`1<UnityEngine.EventSystems.BaseInputModule>
@@ -26,19 +26,19 @@ struct IEnumerator_1_t8851;
 #include "mscorlib_System_Collections_ObjectModel_ReadOnlyCollection_1MethodDeclarations.h"
 #define ReadOnlyCollection_1__ctor_m26864(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t5683 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m7112_gshared)(__this, ___list, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.Generic.ICollection<T>.Add(T)
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m26865(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t5683 *, BaseInputModule_t782 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m21399_gshared)(__this, ___item, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m26865(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t5683 *, BaseInputModule_t783 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m21399_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.Generic.ICollection<T>.Clear()
 #define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m26866(__this, method) (( void (*) (ReadOnlyCollection_1_t5683 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m21400_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m26867(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t5683 *, int32_t, BaseInputModule_t782 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m21401_gshared)(__this, ___index, ___item, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m26867(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t5683 *, int32_t, BaseInputModule_t783 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m21401_gshared)(__this, ___index, ___item, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.Generic.ICollection<T>.Remove(T)
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m26868(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t5683 *, BaseInputModule_t782 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m21402_gshared)(__this, ___item, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m26868(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t5683 *, BaseInputModule_t783 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m21402_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
 #define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m26869(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t5683 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m21403_gshared)(__this, ___index, method)
 // T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m26870(__this, ___index, method) (( BaseInputModule_t782 * (*) (ReadOnlyCollection_1_t5683 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m21404_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m26870(__this, ___index, method) (( BaseInputModule_t783 * (*) (ReadOnlyCollection_1_t5683 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m21404_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m26871(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5683 *, int32_t, BaseInputModule_t782 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m21405_gshared)(__this, ___index, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m26871(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5683 *, int32_t, BaseInputModule_t783 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m21405_gshared)(__this, ___index, ___value, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
 #define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m26872(__this, method) (( bool (*) (ReadOnlyCollection_1_t5683 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m21406_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
@@ -72,14 +72,14 @@ struct IEnumerator_1_t8851;
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::System.Collections.IList.set_Item(System.Int32,System.Object)
 #define ReadOnlyCollection_1_System_Collections_IList_set_Item_m26887(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5683 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m21421_gshared)(__this, ___index, ___value, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::Contains(T)
-#define ReadOnlyCollection_1_Contains_m26888(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t5683 *, BaseInputModule_t782 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m21422_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_Contains_m26888(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t5683 *, BaseInputModule_t783 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m21422_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::CopyTo(T[],System.Int32)
 #define ReadOnlyCollection_1_CopyTo_m26889(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t5683 *, BaseInputModuleU5BU5D_t5681*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m21423_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::GetEnumerator()
 #define ReadOnlyCollection_1_GetEnumerator_m26890(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t5683 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m21424_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::IndexOf(T)
-#define ReadOnlyCollection_1_IndexOf_m26891(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t5683 *, BaseInputModule_t782 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m21425_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_IndexOf_m26891(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t5683 *, BaseInputModule_t783 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m21425_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::get_Count()
 #define ReadOnlyCollection_1_get_Count_m26892(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t5683 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m21426_gshared)(__this, method)
 // T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseInputModule>::get_Item(System.Int32)
-#define ReadOnlyCollection_1_get_Item_m26893(__this, ___index, method) (( BaseInputModule_t782 * (*) (ReadOnlyCollection_1_t5683 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m21427_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_get_Item_m26893(__this, ___index, method) (( BaseInputModule_t783 * (*) (ReadOnlyCollection_1_t5683 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m21427_gshared)(__this, ___index, method)

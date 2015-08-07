@@ -7,11 +7,11 @@
 // System.Collections.Specialized.HybridDictionary
 struct HybridDictionary_t3908;
 // System.Collections.IDictionary
-struct IDictionary_t638;
+struct IDictionary_t639;
 // System.Object
 struct Object_t;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Array

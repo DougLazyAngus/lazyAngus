@@ -9,7 +9,7 @@ struct DateTimeFormatInfo_t4422;
 // System.Globalization.Calendar
 struct Calendar_t4417;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.String[] modreq(System.Runtime.CompilerServices.IsVolatile)
 struct StringU5BU5D_t75;
 // System.Object
@@ -100,7 +100,7 @@ struct  DateTimeFormatInfo_t4422  : public Object_t
 	// System.String[] System.Globalization.DateTimeFormatInfo::m_dateWords
 	StringU5BU5D_t75* ___m_dateWords_49;
 	// System.Int32[] System.Globalization.DateTimeFormatInfo::optionalCalendars
-	Int32U5BU5D_t548* ___optionalCalendars_50;
+	Int32U5BU5D_t549* ___optionalCalendars_50;
 	// System.String[] System.Globalization.DateTimeFormatInfo::m_superShortDayNames
 	StringU5BU5D_t75* ___m_superShortDayNames_51;
 	// System.String[] System.Globalization.DateTimeFormatInfo::genitiveMonthNames

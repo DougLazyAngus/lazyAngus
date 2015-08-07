@@ -9,14 +9,14 @@ struct Enumerator_t5819;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.Selectable
-struct Selectable_t845;
+struct Selectable_t846;
 // System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
-struct List_1_t910;
+struct List_1_t911;
 
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m29150(__this, ___l, method) (( void (*) (Enumerator_t5819 *, List_1_t910 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
+#define Enumerator__ctor_m29150(__this, ___l, method) (( void (*) (Enumerator_t5819 *, List_1_t911 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>::System.Collections.IEnumerator.Reset()
 #define Enumerator_System_Collections_IEnumerator_Reset_m29151(__this, method) (( void (*) (Enumerator_t5819 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21395_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>::System.Collections.IEnumerator.get_Current()
@@ -28,4 +28,4 @@ struct List_1_t910;
 // System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>::MoveNext()
 #define Enumerator_MoveNext_m29155(__this, method) (( bool (*) (Enumerator_t5819 *, const MethodInfo*))Enumerator_MoveNext_m3632_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>::get_Current()
-#define Enumerator_get_Current_m29156(__this, method) (( Selectable_t845 * (*) (Enumerator_t5819 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)
+#define Enumerator_get_Current_m29156(__this, method) (( Selectable_t846 * (*) (Enumerator_t5819 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)

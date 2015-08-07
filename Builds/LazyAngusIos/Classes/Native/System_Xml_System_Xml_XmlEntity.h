@@ -7,7 +7,7 @@ struct XmlLinkedNode_t3164;
 // System.Xml.XmlNode
 #include "System_Xml_System_Xml_XmlNode.h"
 // System.Xml.XmlEntity
-struct  XmlEntity_t3179  : public XmlNode_t667
+struct  XmlEntity_t3179  : public XmlNode_t668
 {
 	// System.String System.Xml.XmlEntity::name
 	String_t* ___name_5;

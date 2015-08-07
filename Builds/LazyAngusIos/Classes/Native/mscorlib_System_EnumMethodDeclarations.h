@@ -40,7 +40,7 @@ extern "C" uint16_t Enum_System_IConvertible_ToChar_m507 (Object_t * __this, Obj
 // System.DateTime System.Enum::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  Enum_System_IConvertible_ToDateTime_m508 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Enum::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t695  Enum_System_IConvertible_ToDecimal_m509 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t696  Enum_System_IConvertible_ToDecimal_m509 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Enum::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double Enum_System_IConvertible_ToDouble_m510 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Enum::System.IConvertible.ToInt16(System.IFormatProvider)

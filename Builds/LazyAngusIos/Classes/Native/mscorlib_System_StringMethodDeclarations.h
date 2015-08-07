@@ -7,7 +7,7 @@
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.IFormatProvider
 struct IFormatProvider_t4456;
 // System.Object
@@ -21,13 +21,13 @@ struct IEnumerator_t48;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // System.Text.Encoding
-struct Encoding_t689;
+struct Encoding_t690;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Decimal
@@ -42,9 +42,9 @@ struct Encoding_t689;
 // System.Void System.String::.ctor(System.Char*,System.Int32,System.Int32)
 extern "C" void String__ctor_m15520 (String_t* __this, uint16_t* ___value, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.String::.ctor(System.Char[],System.Int32,System.Int32)
-extern "C" void String__ctor_m15521 (String_t* __this, CharU5BU5D_t660* ___value, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void String__ctor_m15521 (String_t* __this, CharU5BU5D_t661* ___value, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.String::.ctor(System.Char[])
-extern "C" void String__ctor_m15522 (String_t* __this, CharU5BU5D_t660* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void String__ctor_m15522 (String_t* __this, CharU5BU5D_t661* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.String::.ctor(System.Char,System.Int32)
 extern "C" void String__ctor_m15523 (String_t* __this, uint16_t ___c, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.String::.cctor()
@@ -58,7 +58,7 @@ extern "C" uint16_t String_System_IConvertible_ToChar_m15527 (String_t* __this, 
 // System.DateTime System.String::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  String_System_IConvertible_ToDateTime_m15528 (String_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.String::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t695  String_System_IConvertible_ToDecimal_m15529 (String_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t696  String_System_IConvertible_ToDecimal_m15529 (String_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.String::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double String_System_IConvertible_ToDouble_m15530 (String_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.String::System.IConvertible.ToInt16(System.IFormatProvider)
@@ -92,17 +92,17 @@ extern "C" bool String_Equals_m15544 (String_t* __this, String_t* ___value, cons
 // System.Char System.String::get_Chars(System.Int32)
 extern "C" uint16_t String_get_Chars_m407 (String_t* __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.String::CopyTo(System.Int32,System.Char[],System.Int32,System.Int32)
-extern "C" void String_CopyTo_m11223 (String_t* __this, int32_t ___sourceIndex, CharU5BU5D_t660* ___destination, int32_t ___destinationIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void String_CopyTo_m11223 (String_t* __this, int32_t ___sourceIndex, CharU5BU5D_t661* ___destination, int32_t ___destinationIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char[] System.String::ToCharArray()
-extern "C" CharU5BU5D_t660* String_ToCharArray_m3610 (String_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CharU5BU5D_t661* String_ToCharArray_m3610 (String_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char[] System.String::ToCharArray(System.Int32,System.Int32)
-extern "C" CharU5BU5D_t660* String_ToCharArray_m15545 (String_t* __this, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CharU5BU5D_t661* String_ToCharArray_m15545 (String_t* __this, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.String::Split(System.Char[])
-extern "C" StringU5BU5D_t75* String_Split_m3473 (String_t* __this, CharU5BU5D_t660* ___separator, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* String_Split_m3473 (String_t* __this, CharU5BU5D_t661* ___separator, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.String::Split(System.Char[],System.Int32)
-extern "C" StringU5BU5D_t75* String_Split_m7218 (String_t* __this, CharU5BU5D_t660* ___separator, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* String_Split_m7218 (String_t* __this, CharU5BU5D_t661* ___separator, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.String::Split(System.Char[],System.Int32,System.StringSplitOptions)
-extern "C" StringU5BU5D_t75* String_Split_m15546 (String_t* __this, CharU5BU5D_t660* ___separator, int32_t ___count, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* String_Split_m15546 (String_t* __this, CharU5BU5D_t661* ___separator, int32_t ___count, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.String::Split(System.String[],System.Int32,System.StringSplitOptions)
 extern "C" StringU5BU5D_t75* String_Split_m15547 (String_t* __this, StringU5BU5D_t75* ___separator, int32_t ___count, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.String::Split(System.String[],System.StringSplitOptions)
@@ -116,23 +116,23 @@ extern "C" String_t* String_SubstringUnchecked_m15548 (String_t* __this, int32_t
 // System.String System.String::Trim()
 extern "C" String_t* String_Trim_m413 (String_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::Trim(System.Char[])
-extern "C" String_t* String_Trim_m9848 (String_t* __this, CharU5BU5D_t660* ___trimChars, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* String_Trim_m9848 (String_t* __this, CharU5BU5D_t661* ___trimChars, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::TrimStart(System.Char[])
-extern "C" String_t* String_TrimStart_m14923 (String_t* __this, CharU5BU5D_t660* ___trimChars, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* String_TrimStart_m14923 (String_t* __this, CharU5BU5D_t661* ___trimChars, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::TrimEnd(System.Char[])
-extern "C" String_t* String_TrimEnd_m14893 (String_t* __this, CharU5BU5D_t660* ___trimChars, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* String_TrimEnd_m14893 (String_t* __this, CharU5BU5D_t661* ___trimChars, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::FindNotWhiteSpace(System.Int32,System.Int32,System.Int32)
 extern "C" int32_t String_FindNotWhiteSpace_m15549 (String_t* __this, int32_t ___pos, int32_t ___target, int32_t ___change, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::FindNotInTable(System.Int32,System.Int32,System.Int32,System.Char[])
-extern "C" int32_t String_FindNotInTable_m15550 (String_t* __this, int32_t ___pos, int32_t ___target, int32_t ___change, CharU5BU5D_t660* ___table, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t String_FindNotInTable_m15550 (String_t* __this, int32_t ___pos, int32_t ___target, int32_t ___change, CharU5BU5D_t661* ___table, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::Compare(System.String,System.String)
 extern "C" int32_t String_Compare_m15551 (Object_t * __this /* static, unused */, String_t* ___strA, String_t* ___strB, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::Compare(System.String,System.String,System.Boolean)
 extern "C" int32_t String_Compare_m14866 (Object_t * __this /* static, unused */, String_t* ___strA, String_t* ___strB, bool ___ignoreCase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::Compare(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)
-extern "C" int32_t String_Compare_m11199 (Object_t * __this /* static, unused */, String_t* ___strA, String_t* ___strB, bool ___ignoreCase, CultureInfo_t718 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t String_Compare_m11199 (Object_t * __this /* static, unused */, String_t* ___strA, String_t* ___strB, bool ___ignoreCase, CultureInfo_t719 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Globalization.CultureInfo)
-extern "C" int32_t String_Compare_m12958 (Object_t * __this /* static, unused */, String_t* ___strA, int32_t ___indexA, String_t* ___strB, int32_t ___indexB, int32_t ___length, bool ___ignoreCase, CultureInfo_t718 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t String_Compare_m12958 (Object_t * __this /* static, unused */, String_t* ___strA, int32_t ___indexA, String_t* ___strB, int32_t ___indexB, int32_t ___length, bool ___ignoreCase, CultureInfo_t719 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::CompareTo(System.Object)
 extern "C" int32_t String_CompareTo_m15552 (String_t* __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::CompareTo(System.String)
@@ -146,13 +146,13 @@ extern "C" int32_t String_CompareOrdinalCaseInsensitiveUnchecked_m15555 (Object_
 // System.Boolean System.String::EndsWith(System.String)
 extern "C" bool String_EndsWith_m9919 (String_t* __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::IndexOfAny(System.Char[])
-extern "C" int32_t String_IndexOfAny_m11237 (String_t* __this, CharU5BU5D_t660* ___anyOf, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t String_IndexOfAny_m11237 (String_t* __this, CharU5BU5D_t661* ___anyOf, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::IndexOfAny(System.Char[],System.Int32)
-extern "C" int32_t String_IndexOfAny_m5771 (String_t* __this, CharU5BU5D_t660* ___anyOf, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t String_IndexOfAny_m5771 (String_t* __this, CharU5BU5D_t661* ___anyOf, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::IndexOfAny(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t String_IndexOfAny_m12903 (String_t* __this, CharU5BU5D_t660* ___anyOf, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t String_IndexOfAny_m12903 (String_t* __this, CharU5BU5D_t661* ___anyOf, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::IndexOfAnyUnchecked(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t String_IndexOfAnyUnchecked_m15556 (String_t* __this, CharU5BU5D_t660* ___anyOf, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t String_IndexOfAnyUnchecked_m15556 (String_t* __this, CharU5BU5D_t661* ___anyOf, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::IndexOf(System.String,System.StringComparison)
 extern "C" int32_t String_IndexOf_m9846 (String_t* __this, String_t* ___value, int32_t ___comparisonType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::IndexOf(System.String,System.Int32,System.Int32,System.StringComparison)
@@ -178,11 +178,11 @@ extern "C" int32_t String_IndexOf_m9920 (String_t* __this, String_t* ___value, i
 // System.Int32 System.String::IndexOf(System.String,System.Int32,System.Int32)
 extern "C" int32_t String_IndexOf_m11200 (String_t* __this, String_t* ___value, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::LastIndexOfAny(System.Char[])
-extern "C" int32_t String_LastIndexOfAny_m15562 (String_t* __this, CharU5BU5D_t660* ___anyOf, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t String_LastIndexOfAny_m15562 (String_t* __this, CharU5BU5D_t661* ___anyOf, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::LastIndexOfAny(System.Char[],System.Int32)
-extern "C" int32_t String_LastIndexOfAny_m5773 (String_t* __this, CharU5BU5D_t660* ___anyOf, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t String_LastIndexOfAny_m5773 (String_t* __this, CharU5BU5D_t661* ___anyOf, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::LastIndexOfAnyUnchecked(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t String_LastIndexOfAnyUnchecked_m15563 (String_t* __this, CharU5BU5D_t660* ___anyOf, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t String_LastIndexOfAnyUnchecked_m15563 (String_t* __this, CharU5BU5D_t661* ___anyOf, int32_t ___startIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::LastIndexOf(System.Char)
 extern "C" int32_t String_LastIndexOf_m14855 (String_t* __this, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::LastIndexOf(System.Char,System.Int32)
@@ -220,13 +220,13 @@ extern "C" String_t* String_Remove_m5774 (String_t* __this, int32_t ___startInde
 // System.String System.String::ToLower()
 extern "C" String_t* String_ToLower_m3609 (String_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::ToLower(System.Globalization.CultureInfo)
-extern "C" String_t* String_ToLower_m11232 (String_t* __this, CultureInfo_t718 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* String_ToLower_m11232 (String_t* __this, CultureInfo_t719 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::ToLowerInvariant()
 extern "C" String_t* String_ToLowerInvariant_m15568 (String_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::ToUpper()
 extern "C" String_t* String_ToUpper_m9850 (String_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::ToUpper(System.Globalization.CultureInfo)
-extern "C" String_t* String_ToUpper_m15569 (String_t* __this, CultureInfo_t718 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* String_ToUpper_m15569 (String_t* __this, CultureInfo_t719 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::ToUpperInvariant()
 extern "C" String_t* String_ToUpperInvariant_m15570 (String_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::ToString()
@@ -238,13 +238,13 @@ extern "C" String_t* String_Format_m3871 (Object_t * __this /* static, unused */
 // System.String System.String::Format(System.String,System.Object,System.Object)
 extern "C" String_t* String_Format_m3820 (Object_t * __this /* static, unused */, String_t* ___format, Object_t * ___arg0, Object_t * ___arg1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::Format(System.String,System.Object,System.Object,System.Object)
-extern "C" String_t* String_Format_m3939 (Object_t * __this /* static, unused */, String_t* ___format, Object_t * ___arg0, Object_t * ___arg1, Object_t * ___arg2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* String_Format_m3940 (Object_t * __this /* static, unused */, String_t* ___format, Object_t * ___arg0, Object_t * ___arg1, Object_t * ___arg2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::Format(System.String,System.Object[])
-extern "C" String_t* String_Format_m3440 (Object_t * __this /* static, unused */, String_t* ___format, ObjectU5BU5D_t635* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* String_Format_m3440 (Object_t * __this /* static, unused */, String_t* ___format, ObjectU5BU5D_t636* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::Format(System.IFormatProvider,System.String,System.Object[])
-extern "C" String_t* String_Format_m11196 (Object_t * __this /* static, unused */, Object_t * ___provider, String_t* ___format, ObjectU5BU5D_t635* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* String_Format_m11196 (Object_t * __this /* static, unused */, Object_t * ___provider, String_t* ___format, ObjectU5BU5D_t636* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.StringBuilder System.String::FormatHelper(System.Text.StringBuilder,System.IFormatProvider,System.String,System.Object[])
-extern "C" StringBuilder_t261 * String_FormatHelper_m15573 (Object_t * __this /* static, unused */, StringBuilder_t261 * ___result, Object_t * ___provider, String_t* ___format, ObjectU5BU5D_t635* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringBuilder_t261 * String_FormatHelper_m15573 (Object_t * __this /* static, unused */, StringBuilder_t261 * ___result, Object_t * ___provider, String_t* ___format, ObjectU5BU5D_t636* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::Copy(System.String)
 extern "C" String_t* String_Copy_m3814 (Object_t * __this /* static, unused */, String_t* ___str, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::Concat(System.Object,System.Object)
@@ -258,7 +258,7 @@ extern "C" String_t* String_Concat_m455 (Object_t * __this /* static, unused */,
 // System.String System.String::Concat(System.String,System.String,System.String,System.String)
 extern "C" String_t* String_Concat_m384 (Object_t * __this /* static, unused */, String_t* ___str0, String_t* ___str1, String_t* ___str2, String_t* ___str3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::Concat(System.Object[])
-extern "C" String_t* String_Concat_m3635 (Object_t * __this /* static, unused */, ObjectU5BU5D_t635* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* String_Concat_m3635 (Object_t * __this /* static, unused */, ObjectU5BU5D_t636* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::Concat(System.String[])
 extern "C" String_t* String_Concat_m450 (Object_t * __this /* static, unused */, StringU5BU5D_t75* ___values, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::ConcatInternal(System.String[],System.Int32)
@@ -290,15 +290,15 @@ extern "C" String_t* String_CreateString_m15582 (String_t* __this, int8_t* ___va
 // System.String System.String::CreateString(System.SByte*,System.Int32,System.Int32)
 extern "C" String_t* String_CreateString_m15583 (String_t* __this, int8_t* ___value, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::CreateString(System.SByte*,System.Int32,System.Int32,System.Text.Encoding)
-extern "C" String_t* String_CreateString_m15584 (String_t* __this, int8_t* ___value, int32_t ___startIndex, int32_t ___length, Encoding_t689 * ___enc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* String_CreateString_m15584 (String_t* __this, int8_t* ___value, int32_t ___startIndex, int32_t ___length, Encoding_t690 * ___enc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::CreateString(System.Char*)
 extern "C" String_t* String_CreateString_m15585 (String_t* __this, uint16_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::CreateString(System.Char*,System.Int32,System.Int32)
 extern "C" String_t* String_CreateString_m15586 (String_t* __this, uint16_t* ___value, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::CreateString(System.Char[],System.Int32,System.Int32)
-extern "C" String_t* String_CreateString_m9882 (String_t* __this, CharU5BU5D_t660* ___val, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* String_CreateString_m9882 (String_t* __this, CharU5BU5D_t661* ___val, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::CreateString(System.Char[])
-extern "C" String_t* String_CreateString_m3743 (String_t* __this, CharU5BU5D_t660* ___val, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* String_CreateString_m3743 (String_t* __this, CharU5BU5D_t661* ___val, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::CreateString(System.Char,System.Int32)
 extern "C" String_t* String_CreateString_m3744 (String_t* __this, uint16_t ___c, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.String::memcpy4(System.Byte*,System.Byte*,System.Int32)
@@ -316,11 +316,11 @@ extern "C" void String_CharCopyReverse_m15592 (Object_t * __this /* static, unus
 // System.Void System.String::CharCopy(System.String,System.Int32,System.String,System.Int32,System.Int32)
 extern "C" void String_CharCopy_m15593 (Object_t * __this /* static, unused */, String_t* ___target, int32_t ___targetIndex, String_t* ___source, int32_t ___sourceIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.String::CharCopy(System.String,System.Int32,System.Char[],System.Int32,System.Int32)
-extern "C" void String_CharCopy_m15594 (Object_t * __this /* static, unused */, String_t* ___target, int32_t ___targetIndex, CharU5BU5D_t660* ___source, int32_t ___sourceIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void String_CharCopy_m15594 (Object_t * __this /* static, unused */, String_t* ___target, int32_t ___targetIndex, CharU5BU5D_t661* ___source, int32_t ___sourceIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.String::CharCopyReverse(System.String,System.Int32,System.String,System.Int32,System.Int32)
 extern "C" void String_CharCopyReverse_m15595 (Object_t * __this /* static, unused */, String_t* ___target, int32_t ___targetIndex, String_t* ___source, int32_t ___sourceIndex, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.String::InternalSplit(System.Char[],System.Int32,System.Int32)
-extern "C" StringU5BU5D_t75* String_InternalSplit_m15596 (String_t* __this, CharU5BU5D_t660* ___separator, int32_t ___count, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* String_InternalSplit_m15596 (String_t* __this, CharU5BU5D_t661* ___separator, int32_t ___count, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.String::InternalAllocateStr(System.Int32)
 extern "C" String_t* String_InternalAllocateStr_m15597 (Object_t * __this /* static, unused */, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.String::op_Equality(System.String,System.String)

@@ -32,8 +32,8 @@ extern "C" void Texture2D_Apply_m8544 (Texture2D_t108 * __this, bool ___updateMi
 // System.Void UnityEngine.Texture2D::Apply()
 extern "C" void Texture2D_Apply_m3462 (Texture2D_t108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Texture2D::ReadPixels(UnityEngine.Rect,System.Int32,System.Int32)
-extern "C" void Texture2D_ReadPixels_m3461 (Texture2D_t108 * __this, Rect_t647  ___source, int32_t ___destX, int32_t ___destY, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Texture2D_ReadPixels_m3461 (Texture2D_t108 * __this, Rect_t648  ___source, int32_t ___destX, int32_t ___destY, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Texture2D::INTERNAL_CALL_ReadPixels(UnityEngine.Texture2D,UnityEngine.Rect&,System.Int32,System.Int32,System.Boolean)
-extern "C" void Texture2D_INTERNAL_CALL_ReadPixels_m8545 (Object_t * __this /* static, unused */, Texture2D_t108 * ___self, Rect_t647 * ___source, int32_t ___destX, int32_t ___destY, bool ___recalculateMipMaps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Texture2D_INTERNAL_CALL_ReadPixels_m8545 (Object_t * __this /* static, unused */, Texture2D_t108 * ___self, Rect_t648 * ___source, int32_t ___destX, int32_t ___destY, bool ___recalculateMipMaps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] UnityEngine.Texture2D::EncodeToPNG()
 extern "C" ByteU5BU5D_t66* Texture2D_EncodeToPNG_m3463 (Texture2D_t108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

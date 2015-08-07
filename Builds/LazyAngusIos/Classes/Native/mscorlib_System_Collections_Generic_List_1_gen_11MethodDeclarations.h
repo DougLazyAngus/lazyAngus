@@ -102,7 +102,7 @@ struct Comparison_1_t5542;
 // System.Int32 System.Collections.Generic.List`1<FBAppRequest>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
 #define List_1_GetIndex_m24571(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t275 *, int32_t, int32_t, Predicate_1_t5541 *, const MethodInfo*))List_1_GetIndex_m21352_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<FBAppRequest>::GetEnumerator()
-#define List_1_GetEnumerator_m3723(__this, method) (( Enumerator_t709  (*) (List_1_t275 *, const MethodInfo*))List_1_GetEnumerator_m3630_gshared)(__this, method)
+#define List_1_GetEnumerator_m3723(__this, method) (( Enumerator_t710  (*) (List_1_t275 *, const MethodInfo*))List_1_GetEnumerator_m3630_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<FBAppRequest>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m24572(__this, ___index, ___count, method) (( List_1_t275 * (*) (List_1_t275 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21354_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<FBAppRequest>::IndexOf(T)

@@ -7,11 +7,11 @@
 // System.IO.TextWriter
 struct TextWriter_t3229;
 // System.Text.Encoding
-struct Encoding_t689;
+struct Encoding_t690;
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.Object
 struct Object_t;
 
@@ -35,13 +35,13 @@ extern "C" TextWriter_t3229 * TextWriter_Synchronized_m17340 (Object_t * __this 
 // System.Void System.IO.TextWriter::Write(System.Char)
 extern "C" void TextWriter_Write_m17341 (TextWriter_t3229 * __this, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextWriter::Write(System.Char[])
-extern "C" void TextWriter_Write_m17342 (TextWriter_t3229 * __this, CharU5BU5D_t660* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextWriter_Write_m17342 (TextWriter_t3229 * __this, CharU5BU5D_t661* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextWriter::Write(System.String)
 extern "C" void TextWriter_Write_m17343 (TextWriter_t3229 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextWriter::Write(System.String,System.Object)
 extern "C" void TextWriter_Write_m17344 (TextWriter_t3229 * __this, String_t* ___format, Object_t * ___arg0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextWriter::Write(System.Char[],System.Int32,System.Int32)
-extern "C" void TextWriter_Write_m17345 (TextWriter_t3229 * __this, CharU5BU5D_t660* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextWriter_Write_m17345 (TextWriter_t3229 * __this, CharU5BU5D_t661* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextWriter::WriteLine()
 extern "C" void TextWriter_WriteLine_m17346 (TextWriter_t3229 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextWriter::WriteLine(System.String)

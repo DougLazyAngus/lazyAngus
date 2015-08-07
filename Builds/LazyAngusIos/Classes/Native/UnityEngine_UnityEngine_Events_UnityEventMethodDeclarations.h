@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.UnityEvent
-struct UnityEvent_t843;
+struct UnityEvent_t844;
 // UnityEngine.Events.UnityAction
-struct UnityAction_t507;
+struct UnityAction_t508;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.String
@@ -18,14 +18,14 @@ struct Object_t;
 struct BaseInvokableCall_t2833;
 
 // System.Void UnityEngine.Events.UnityEvent::.ctor()
-extern "C" void UnityEvent__ctor_m5616 (UnityEvent_t843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityEvent__ctor_m5616 (UnityEvent_t844 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
-extern "C" void UnityEvent_AddListener_m3957 (UnityEvent_t843 * __this, UnityAction_t507 * ___call, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityEvent_AddListener_m3958 (UnityEvent_t844 * __this, UnityAction_t508 * ___call, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEvent::FindMethod_Impl(System.String,System.Object)
-extern "C" MethodInfo_t * UnityEvent_FindMethod_Impl_m6073 (UnityEvent_t843 * __this, String_t* ___name, Object_t * ___targetObj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * UnityEvent_FindMethod_Impl_m6073 (UnityEvent_t844 * __this, String_t* ___name, Object_t * ___targetObj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent::GetDelegate(System.Object,System.Reflection.MethodInfo)
-extern "C" BaseInvokableCall_t2833 * UnityEvent_GetDelegate_m6074 (UnityEvent_t843 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" BaseInvokableCall_t2833 * UnityEvent_GetDelegate_m6074 (UnityEvent_t844 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent::GetDelegate(UnityEngine.Events.UnityAction)
-extern "C" BaseInvokableCall_t2833 * UnityEvent_GetDelegate_m9804 (Object_t * __this /* static, unused */, UnityAction_t507 * ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" BaseInvokableCall_t2833 * UnityEvent_GetDelegate_m9804 (Object_t * __this /* static, unused */, UnityAction_t508 * ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEvent::Invoke()
-extern "C" void UnityEvent_Invoke_m5618 (UnityEvent_t843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityEvent_Invoke_m5618 (UnityEvent_t844 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

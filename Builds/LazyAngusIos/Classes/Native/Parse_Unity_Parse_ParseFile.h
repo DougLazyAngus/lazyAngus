@@ -5,7 +5,7 @@ struct Object_t;
 // System.String
 struct String_t;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.IO.Stream
 struct Stream_t51;
 // Parse.Internal.TaskQueue
@@ -22,7 +22,7 @@ struct  ParseFile_t1189  : public Object_t
 	// System.String Parse.ParseFile::mimeType
 	String_t* ___mimeType_2;
 	// System.Uri Parse.ParseFile::uri
-	Uri_t707 * ___uri_3;
+	Uri_t708 * ___uri_3;
 	// System.IO.Stream Parse.ParseFile::dataStream
 	Stream_t51 * ___dataStream_4;
 	// Parse.Internal.TaskQueue Parse.ParseFile::taskQueue

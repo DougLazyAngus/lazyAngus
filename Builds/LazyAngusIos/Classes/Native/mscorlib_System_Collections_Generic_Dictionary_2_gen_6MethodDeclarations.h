@@ -11,11 +11,11 @@ struct ICollection_1_t8634;
 // System.Collections.Generic.ICollection`1<System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>
 struct ICollection_1_t8685;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct List_1_t633;
+struct List_1_t634;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>
 struct KeyCollection_t5451;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>
@@ -100,9 +100,9 @@ struct IDictionaryEnumerator_t3911;
 // System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::get_Count()
 #define Dictionary_2_get_Count_m22693(__this, method) (( int32_t (*) (Dictionary_2_t128 *, const MethodInfo*))Dictionary_2_get_Count_m20884_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::get_Item(TKey)
-#define Dictionary_2_get_Item_m22694(__this, ___key, method) (( List_1_t633 * (*) (Dictionary_2_t128 *, int32_t, const MethodInfo*))Dictionary_2_get_Item_m20886_gshared)(__this, ___key, method)
+#define Dictionary_2_get_Item_m22694(__this, ___key, method) (( List_1_t634 * (*) (Dictionary_2_t128 *, int32_t, const MethodInfo*))Dictionary_2_get_Item_m20886_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::set_Item(TKey,TValue)
-#define Dictionary_2_set_Item_m22695(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t128 *, int32_t, List_1_t633 *, const MethodInfo*))Dictionary_2_set_Item_m20888_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_set_Item_m22695(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t128 *, int32_t, List_1_t634 *, const MethodInfo*))Dictionary_2_set_Item_m20888_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
 #define Dictionary_2_Init_m22696(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t128 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m20890_gshared)(__this, ___capacity, ___hcp, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::InitArrays(System.Int32)
@@ -110,23 +110,23 @@ struct IDictionaryEnumerator_t3911;
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::CopyToCheck(System.Array,System.Int32)
 #define Dictionary_2_CopyToCheck_m22698(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t128 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m20894_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::make_pair(TKey,TValue)
-#define Dictionary_2_make_pair_m22699(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t5450  (*) (Object_t * /* static, unused */, int32_t, List_1_t633 *, const MethodInfo*))Dictionary_2_make_pair_m20896_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_make_pair_m22699(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t5450  (*) (Object_t * /* static, unused */, int32_t, List_1_t634 *, const MethodInfo*))Dictionary_2_make_pair_m20896_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TKey System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::pick_key(TKey,TValue)
-#define Dictionary_2_pick_key_m22700(__this /* static, unused */, ___key, ___value, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, List_1_t633 *, const MethodInfo*))Dictionary_2_pick_key_m20898_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_key_m22700(__this /* static, unused */, ___key, ___value, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, List_1_t634 *, const MethodInfo*))Dictionary_2_pick_key_m20898_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::pick_value(TKey,TValue)
-#define Dictionary_2_pick_value_m22701(__this /* static, unused */, ___key, ___value, method) (( List_1_t633 * (*) (Object_t * /* static, unused */, int32_t, List_1_t633 *, const MethodInfo*))Dictionary_2_pick_value_m20900_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_value_m22701(__this /* static, unused */, ___key, ___value, method) (( List_1_t634 * (*) (Object_t * /* static, unused */, int32_t, List_1_t634 *, const MethodInfo*))Dictionary_2_pick_value_m20900_gshared)(__this /* static, unused */, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
 #define Dictionary_2_CopyTo_m22702(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t128 *, KeyValuePair_2U5BU5D_t8687*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m20902_gshared)(__this, ___array, ___index, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::Resize()
 #define Dictionary_2_Resize_m22703(__this, method) (( void (*) (Dictionary_2_t128 *, const MethodInfo*))Dictionary_2_Resize_m20904_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::Add(TKey,TValue)
-#define Dictionary_2_Add_m22704(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t128 *, int32_t, List_1_t633 *, const MethodInfo*))Dictionary_2_Add_m20906_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_Add_m22704(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t128 *, int32_t, List_1_t634 *, const MethodInfo*))Dictionary_2_Add_m20906_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::Clear()
 #define Dictionary_2_Clear_m22705(__this, method) (( void (*) (Dictionary_2_t128 *, const MethodInfo*))Dictionary_2_Clear_m20908_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::ContainsKey(TKey)
 #define Dictionary_2_ContainsKey_m22706(__this, ___key, method) (( bool (*) (Dictionary_2_t128 *, int32_t, const MethodInfo*))Dictionary_2_ContainsKey_m20910_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::ContainsValue(TValue)
-#define Dictionary_2_ContainsValue_m22707(__this, ___value, method) (( bool (*) (Dictionary_2_t128 *, List_1_t633 *, const MethodInfo*))Dictionary_2_ContainsValue_m20912_gshared)(__this, ___value, method)
+#define Dictionary_2_ContainsValue_m22707(__this, ___value, method) (( bool (*) (Dictionary_2_t128 *, List_1_t634 *, const MethodInfo*))Dictionary_2_ContainsValue_m20912_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 #define Dictionary_2_GetObjectData_m22708(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t128 *, SerializationInfo_t2869 *, StreamingContext_t2870 , const MethodInfo*))Dictionary_2_GetObjectData_m20914_gshared)(__this, ___info, ___context, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::OnDeserialization(System.Object)
@@ -134,7 +134,7 @@ struct IDictionaryEnumerator_t3911;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::Remove(TKey)
 #define Dictionary_2_Remove_m22710(__this, ___key, method) (( bool (*) (Dictionary_2_t128 *, int32_t, const MethodInfo*))Dictionary_2_Remove_m20918_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::TryGetValue(TKey,TValue&)
-#define Dictionary_2_TryGetValue_m22711(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t128 *, int32_t, List_1_t633 **, const MethodInfo*))Dictionary_2_TryGetValue_m20920_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_TryGetValue_m22711(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t128 *, int32_t, List_1_t634 **, const MethodInfo*))Dictionary_2_TryGetValue_m20920_gshared)(__this, ___key, ___value, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::get_Keys()
 #define Dictionary_2_get_Keys_m22712(__this, method) (( KeyCollection_t5451 * (*) (Dictionary_2_t128 *, const MethodInfo*))Dictionary_2_get_Keys_m20922_gshared)(__this, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::get_Values()
@@ -142,10 +142,10 @@ struct IDictionaryEnumerator_t3911;
 // TKey System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::ToTKey(System.Object)
 #define Dictionary_2_ToTKey_m22714(__this, ___key, method) (( int32_t (*) (Dictionary_2_t128 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m20926_gshared)(__this, ___key, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::ToTValue(System.Object)
-#define Dictionary_2_ToTValue_m22715(__this, ___value, method) (( List_1_t633 * (*) (Dictionary_2_t128 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m20928_gshared)(__this, ___value, method)
+#define Dictionary_2_ToTValue_m22715(__this, ___value, method) (( List_1_t634 * (*) (Dictionary_2_t128 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m20928_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
 #define Dictionary_2_ContainsKeyValuePair_m22716(__this, ___pair, method) (( bool (*) (Dictionary_2_t128 *, KeyValuePair_2_t5450 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m20930_gshared)(__this, ___pair, method)
 // System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::GetEnumerator()
 #define Dictionary_2_GetEnumerator_m22717(__this, method) (( Enumerator_t5453  (*) (Dictionary_2_t128 *, const MethodInfo*))Dictionary_2_GetEnumerator_m20932_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>>::<CopyTo>m__0(TKey,TValue)
-#define Dictionary_2_U3CCopyToU3Em__0_m22718(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2088  (*) (Object_t * /* static, unused */, int32_t, List_1_t633 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m20934_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_U3CCopyToU3Em__0_m22718(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2088  (*) (Object_t * /* static, unused */, int32_t, List_1_t634 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m20934_gshared)(__this /* static, unused */, ___key, ___value, method)

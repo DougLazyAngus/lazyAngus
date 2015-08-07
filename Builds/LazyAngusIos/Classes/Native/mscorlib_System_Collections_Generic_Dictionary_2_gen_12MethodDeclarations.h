@@ -11,7 +11,7 @@ struct ICollection_1_t8634;
 // System.Collections.Generic.ICollection`1<GPScore>
 struct ICollection_1_t8735;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // GPScore
@@ -19,7 +19,7 @@ struct GPScore_t343;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,GPScore>
 struct KeyCollection_t5508;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,GPScore>
-struct ValueCollection_t686;
+struct ValueCollection_t687;
 // System.Collections.Generic.IEqualityComparer`1<System.Int32>
 struct IEqualityComparer_1_t5346;
 // System.Collections.Generic.IDictionary`2<System.Int32,GPScore>
@@ -138,7 +138,7 @@ struct IDictionaryEnumerator_t3911;
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::get_Keys()
 #define Dictionary_2_get_Keys_m23878(__this, method) (( KeyCollection_t5508 * (*) (Dictionary_2_t225 *, const MethodInfo*))Dictionary_2_get_Keys_m20922_gshared)(__this, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::get_Values()
-#define Dictionary_2_get_Values_m3588(__this, method) (( ValueCollection_t686 * (*) (Dictionary_2_t225 *, const MethodInfo*))Dictionary_2_get_Values_m20924_gshared)(__this, method)
+#define Dictionary_2_get_Values_m3588(__this, method) (( ValueCollection_t687 * (*) (Dictionary_2_t225 *, const MethodInfo*))Dictionary_2_get_Values_m20924_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::ToTKey(System.Object)
 #define Dictionary_2_ToTKey_m23879(__this, ___key, method) (( int32_t (*) (Dictionary_2_t225 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m20926_gshared)(__this, ___key, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Int32,GPScore>::ToTValue(System.Object)

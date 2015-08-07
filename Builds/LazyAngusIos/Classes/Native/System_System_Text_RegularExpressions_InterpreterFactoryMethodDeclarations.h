@@ -7,7 +7,7 @@
 // System.Text.RegularExpressions.InterpreterFactory
 struct InterpreterFactory_t4089;
 // System.Collections.IDictionary
-struct IDictionary_t638;
+struct IDictionary_t639;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.UInt16[]

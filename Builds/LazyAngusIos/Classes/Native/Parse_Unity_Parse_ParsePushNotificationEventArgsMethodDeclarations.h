@@ -7,7 +7,7 @@
 // Parse.ParsePushNotificationEventArgs
 struct ParsePushNotificationEventArgs_t1244;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.String
 struct String_t;
 

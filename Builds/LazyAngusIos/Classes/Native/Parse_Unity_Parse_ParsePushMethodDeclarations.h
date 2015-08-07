@@ -9,9 +9,9 @@ struct ParsePush_t1242;
 // Parse.ParseQuery`1<Parse.ParseInstallation>
 struct ParseQuery_1_t1240;
 // System.Collections.Generic.IEnumerable`1<System.String>
-struct IEnumerable_1_t658;
+struct IEnumerable_1_t659;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.String
 struct String_t;
 // System.Threading.Tasks.Task

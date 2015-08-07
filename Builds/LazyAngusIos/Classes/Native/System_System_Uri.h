@@ -13,7 +13,7 @@ struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Uri
-struct  Uri_t707  : public Object_t
+struct  Uri_t708  : public Object_t
 {
 	// System.Boolean System.Uri::isUnixFilePath
 	bool ___isUnixFilePath_1;
@@ -54,7 +54,7 @@ struct  Uri_t707  : public Object_t
 	// System.UriParser System.Uri::parser
 	UriParser_t4128 * ___parser_32;
 };
-struct Uri_t707_StaticFields{
+struct Uri_t708_StaticFields{
 	// System.String System.Uri::hexUpperChars
 	String_t* ___hexUpperChars_19;
 	// System.String System.Uri::SchemeDelimiter

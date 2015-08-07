@@ -7,7 +7,7 @@
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>
 struct ReadOnlyCollection_1_t6062;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IList`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>

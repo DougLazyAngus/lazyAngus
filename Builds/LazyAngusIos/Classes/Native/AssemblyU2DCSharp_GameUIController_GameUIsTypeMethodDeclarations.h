@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GameUIController/GameUIsType
-struct GameUIsType_t520;
+struct GameUIsType_t521;
 

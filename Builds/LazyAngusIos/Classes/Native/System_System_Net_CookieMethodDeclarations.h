@@ -9,9 +9,9 @@ struct Cookie_t3971;
 // System.String
 struct String_t;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Object
 struct Object_t;
 // System.DateTime
@@ -28,9 +28,9 @@ extern "C" String_t* Cookie_get_Comment_m13432 (Cookie_t3971 * __this, const Met
 // System.Void System.Net.Cookie::set_Comment(System.String)
 extern "C" void Cookie_set_Comment_m13433 (Cookie_t3971 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Uri System.Net.Cookie::get_CommentUri()
-extern "C" Uri_t707 * Cookie_get_CommentUri_m13434 (Cookie_t3971 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Uri_t708 * Cookie_get_CommentUri_m13434 (Cookie_t3971 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Cookie::set_CommentUri(System.Uri)
-extern "C" void Cookie_set_CommentUri_m13435 (Cookie_t3971 * __this, Uri_t707 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Cookie_set_CommentUri_m13435 (Cookie_t3971 * __this, Uri_t708 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.Cookie::get_Discard()
 extern "C" bool Cookie_get_Discard_m13436 (Cookie_t3971 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Cookie::set_Discard(System.Boolean)
@@ -66,7 +66,7 @@ extern "C" String_t* Cookie_get_Port_m13451 (Cookie_t3971 * __this, const Method
 // System.Void System.Net.Cookie::set_Port(System.String)
 extern "C" void Cookie_set_Port_m13452 (Cookie_t3971 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32[] System.Net.Cookie::get_Ports()
-extern "C" Int32U5BU5D_t548* Cookie_get_Ports_m13453 (Cookie_t3971 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Int32U5BU5D_t549* Cookie_get_Ports_m13453 (Cookie_t3971 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.Cookie::get_Secure()
 extern "C" bool Cookie_get_Secure_m13454 (Cookie_t3971 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Cookie::set_Secure(System.Boolean)
@@ -90,6 +90,6 @@ extern "C" int32_t Cookie_hash_m13463 (Object_t * __this /* static, unused */, i
 // System.String System.Net.Cookie::ToString()
 extern "C" String_t* Cookie_ToString_m13464 (Cookie_t3971 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.Cookie::ToString(System.Uri)
-extern "C" String_t* Cookie_ToString_m13465 (Cookie_t3971 * __this, Uri_t707 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Cookie_ToString_m13465 (Cookie_t3971 * __this, Uri_t708 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.Cookie::IsNullOrEmpty(System.String)
 extern "C" bool Cookie_IsNullOrEmpty_m13466 (Object_t * __this /* static, unused */, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;

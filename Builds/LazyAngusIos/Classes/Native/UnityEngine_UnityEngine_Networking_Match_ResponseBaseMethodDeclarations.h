@@ -11,7 +11,7 @@ struct Object_t;
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 
 // System.Void UnityEngine.Networking.Match.ResponseBase::.ctor()
 extern "C" void ResponseBase__ctor_m9374 (ResponseBase_t2743 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

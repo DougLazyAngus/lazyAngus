@@ -24,8 +24,8 @@ struct AsyncCallback_t386;
 #include "System_Core_System_Func_2_gen_383MethodDeclarations.h"
 #define Func_2__ctor_m45717(__this, ___object, ___method, method) (( void (*) (Func_2_t7119 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m45718_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.SByte>,System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::Invoke(T)
-#define Func_2_Invoke_m45719(__this, ___arg1, method) (( KeyValuePair_2_t727  (*) (Func_2_t7119 *, KeyValuePair_2_t7122 , const MethodInfo*))Func_2_Invoke_m45720_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m45719(__this, ___arg1, method) (( KeyValuePair_2_t728  (*) (Func_2_t7119 *, KeyValuePair_2_t7122 , const MethodInfo*))Func_2_Invoke_m45720_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.SByte>,System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::BeginInvoke(T,System.AsyncCallback,System.Object)
 #define Func_2_BeginInvoke_m45721(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7119 *, KeyValuePair_2_t7122 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m45722_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.SByte>,System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m45723(__this, ___result, method) (( KeyValuePair_2_t727  (*) (Func_2_t7119 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m45724_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m45723(__this, ___result, method) (( KeyValuePair_2_t728  (*) (Func_2_t7119 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m45724_gshared)(__this, ___result, method)

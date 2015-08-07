@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.Reflection.StrongNameKeyPair
 struct StrongNameKeyPair_t4483;
 // System.Byte[]
@@ -36,7 +36,7 @@ struct  AssemblyName_t1414  : public Object_t
 	// System.Int32 System.Reflection.AssemblyName::revision
 	int32_t ___revision_5;
 	// System.Globalization.CultureInfo System.Reflection.AssemblyName::cultureinfo
-	CultureInfo_t718 * ___cultureinfo_6;
+	CultureInfo_t719 * ___cultureinfo_6;
 	// System.Reflection.AssemblyNameFlags System.Reflection.AssemblyName::flags
 	int32_t ___flags_7;
 	// System.Configuration.Assemblies.AssemblyHashAlgorithm System.Reflection.AssemblyName::hashalg

@@ -9,7 +9,7 @@ struct Enumerator_t6083;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t637;
+struct List_1_t638;
 // System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.List`1<System.Object>>
 struct Dictionary_2_t6080;
 // System.Collections.DictionaryEntry
@@ -38,7 +38,7 @@ struct Dictionary_2_t6080;
 // TKey System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Collections.Generic.List`1<System.Object>>::get_CurrentKey()
 #define Enumerator_get_CurrentKey_m32346(__this, method) (( Object_t * (*) (Enumerator_t6083 *, const MethodInfo*))Enumerator_get_CurrentKey_m21678_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Collections.Generic.List`1<System.Object>>::get_CurrentValue()
-#define Enumerator_get_CurrentValue_m32347(__this, method) (( List_1_t637 * (*) (Enumerator_t6083 *, const MethodInfo*))Enumerator_get_CurrentValue_m21679_gshared)(__this, method)
+#define Enumerator_get_CurrentValue_m32347(__this, method) (( List_1_t638 * (*) (Enumerator_t6083 *, const MethodInfo*))Enumerator_get_CurrentValue_m21679_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Collections.Generic.List`1<System.Object>>::Reset()
 #define Enumerator_Reset_m32348(__this, method) (( void (*) (Enumerator_t6083 *, const MethodInfo*))Enumerator_Reset_m21680_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Collections.Generic.List`1<System.Object>>::VerifyState()

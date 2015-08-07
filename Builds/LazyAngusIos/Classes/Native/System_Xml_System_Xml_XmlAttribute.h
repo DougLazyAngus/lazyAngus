@@ -9,7 +9,7 @@ struct IXmlSchemaInfo_t3165;
 // System.Xml.XmlNode
 #include "System_Xml_System_Xml_XmlNode.h"
 // System.Xml.XmlAttribute
-struct  XmlAttribute_t671  : public XmlNode_t667
+struct  XmlAttribute_t672  : public XmlNode_t668
 {
 	// System.Xml.XmlNameEntry System.Xml.XmlAttribute::name
 	XmlNameEntry_t3163 * ___name_5;

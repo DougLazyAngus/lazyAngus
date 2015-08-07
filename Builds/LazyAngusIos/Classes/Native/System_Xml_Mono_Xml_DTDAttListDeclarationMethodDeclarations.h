@@ -11,7 +11,7 @@ struct String_t;
 // Mono.Xml.DTDAttributeDefinition
 struct DTDAttributeDefinition_t3144;
 // System.Collections.IList
-struct IList_t639;
+struct IList_t640;
 // Mono.Xml.DTDObjectModel
 struct DTDObjectModel_t3125;
 

@@ -119,12 +119,12 @@ extern const MethodInfo Locale_GetText_m13026_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
 static const ParameterInfo Locale_t3901_Locale_GetText_m13027_ParameterInfos[] = 
 {
 	{"fmt", 0, 134217730, 0, &String_t_0_0_0},
-	{"args", 1, 134217731, 2, &ObjectU5BU5D_t635_0_0_0},
+	{"args", 1, 134217731, 2, &ObjectU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Locale::GetText(System.String,System.Object[])
@@ -1651,28 +1651,28 @@ static bool LinkedList_1_t4157_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType IEnumerable_1_t4183_0_0_0;
-extern const Il2CppType ICollection_t704_0_0_0;
-extern const Il2CppType IDeserializationCallback_t766_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
+extern const Il2CppType IDeserializationCallback_t767_0_0_0;
 extern const Il2CppType IEnumerable_t104_0_0_0;
 extern const Il2CppType ICollection_1_t4184_0_0_0;
-extern const Il2CppType ISerializable_t762_0_0_0;
+extern const Il2CppType ISerializable_t763_0_0_0;
 static const Il2CppType* LinkedList_1_t4157_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_1_t4183_0_0_0,
-	&ICollection_t704_0_0_0,
-	&IDeserializationCallback_t766_0_0_0,
+	&ICollection_t705_0_0_0,
+	&IDeserializationCallback_t767_0_0_0,
 	&IEnumerable_t104_0_0_0,
 	&ICollection_1_t4184_0_0_0,
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair LinkedList_1_t4157_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_1_t4183_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IDeserializationCallback_t766_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IDeserializationCallback_t767_0_0_0, 9},
 	{ &IEnumerable_t104_0_0_0, 10},
 	{ &ICollection_1_t4184_0_0_0, 11},
-	{ &ISerializable_t762_0_0_0, 18},
+	{ &ISerializable_t763_0_0_0, 18},
 };
 extern const Il2CppGenericMethod LinkedList_1__ctor_m15160_GenericMethod;
 extern const Il2CppGenericMethod LinkedList_1_AddLast_m15161_GenericMethod;
@@ -2803,13 +2803,13 @@ extern const Il2CppType IEnumerable_1_t4195_0_0_0;
 static const Il2CppType* Queue_1_t4160_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_1_t4195_0_0_0,
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
 static Il2CppInterfaceOffsetPair Queue_1_t4160_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_1_t4195_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 5},
 	{ &IEnumerable_t104_0_0_0, 9},
 };
 extern const Il2CppGenericMethod Queue_1_GetEnumerator_m15175_GenericMethod;
@@ -3125,16 +3125,16 @@ extern const MethodInfo Node_set_IsBlack_m13032_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
-extern void* RuntimeInvoker_UInt32_t690 (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType UInt32_t691_0_0_0;
+extern void* RuntimeInvoker_UInt32_t691 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.Collections.Generic.RBTree/Node::get_Size()
 extern const MethodInfo Node_get_Size_m13033_MethodInfo = 
 {
 	"get_Size"/* name */
 	, (methodPointerType)&Node_get_Size_m13033/* method */
 	, &Node_t3903_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -3149,10 +3149,10 @@ extern const MethodInfo Node_get_Size_m13033_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo Node_t3903_Node_set_Size_m13034_ParameterInfos[] = 
 {
-	{"value", 0, 134217796, 0, &UInt32_t690_0_0_0},
+	{"value", 0, 134217796, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Collections.Generic.RBTree/Node::set_Size(System.UInt32)
@@ -3177,15 +3177,15 @@ extern const MethodInfo Node_set_Size_m13034_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_UInt32_t690 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.Collections.Generic.RBTree/Node::FixSize()
 extern const MethodInfo Node_FixSize_m13035_MethodInfo = 
 {
 	"FixSize"/* name */
 	, (methodPointerType)&Node_FixSize_m13035/* method */
 	, &Node_t3903_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -4286,13 +4286,13 @@ extern const MethodInfo RBTree_ensure_sibling_black_m13058_MethodInfo =
 };
 extern const Il2CppType Node_t3903_0_0_0;
 extern const Il2CppType Node_t3903_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 extern const Il2CppType Node_t3903_0_0_0;
 static const ParameterInfo RBTree_t3904_RBTree_node_reparent_m13059_ParameterInfos[] = 
 {
 	{"orig_parent", 0, 134217785, 0, &Node_t3903_0_0_0},
 	{"orig", 1, 134217786, 0, &Node_t3903_0_0_0},
-	{"orig_size", 2, 134217787, 0, &UInt32_t690_0_0_0},
+	{"orig_size", 2, 134217787, 0, &UInt32_t691_0_0_0},
 	{"updated", 3, 134217788, 0, &Node_t3903_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -5818,14 +5818,14 @@ extern const Il2CppType ICollection_1_t4226_0_0_0;
 extern const Il2CppType IEnumerable_1_t4227_0_0_0;
 static const Il2CppType* ValueCollection_t4166_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_t104_0_0_0,
 	&ICollection_1_t4226_0_0_0,
 	&IEnumerable_1_t4227_0_0_0,
 };
 static Il2CppInterfaceOffsetPair ValueCollection_t4166_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
+	{ &ICollection_t705_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 	{ &ICollection_1_t4226_0_0_0, 9},
 	{ &IEnumerable_1_t4227_0_0_0, 16},
@@ -6712,14 +6712,14 @@ extern const Il2CppType ICollection_1_t4240_0_0_0;
 extern const Il2CppType IEnumerable_1_t4241_0_0_0;
 static const Il2CppType* KeyCollection_t4168_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_t104_0_0_0,
 	&ICollection_1_t4240_0_0_0,
 	&IEnumerable_1_t4241_0_0_0,
 };
 static Il2CppInterfaceOffsetPair KeyCollection_t4168_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
+	{ &ICollection_t705_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 	{ &ICollection_1_t4240_0_0_0, 9},
 	{ &IEnumerable_1_t4241_0_0_0, 16},
@@ -7573,7 +7573,7 @@ extern const MethodInfo SortedDictionary_2_System_Collections_IDictionary_get_Ke
 	"System.Collections.IDictionary.get_Keys"/* name */
 	, NULL/* method */
 	, &SortedDictionary_2_t4163_il2cpp_TypeInfo/* declaring_type */
-	, &ICollection_t704_0_0_0/* return_type */
+	, &ICollection_t705_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -8385,23 +8385,23 @@ static bool SortedDictionary_2_t4163_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType IEnumerable_1_t4258_0_0_0;
-extern const Il2CppType IDictionary_t638_0_0_0;
+extern const Il2CppType IDictionary_t639_0_0_0;
 extern const Il2CppType IDictionary_2_t4259_0_0_0;
 extern const Il2CppType ICollection_1_t4260_0_0_0;
 static const Il2CppType* SortedDictionary_2_t4163_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_1_t4258_0_0_0,
-	&IDictionary_t638_0_0_0,
+	&IDictionary_t639_0_0_0,
 	&IEnumerable_t104_0_0_0,
 	&IDictionary_2_t4259_0_0_0,
 	&ICollection_1_t4260_0_0_0,
 };
 static Il2CppInterfaceOffsetPair SortedDictionary_2_t4163_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
+	{ &ICollection_t705_0_0_0, 4},
 	{ &IEnumerable_1_t4258_0_0_0, 8},
-	{ &IDictionary_t638_0_0_0, 9},
+	{ &IDictionary_t639_0_0_0, 9},
 	{ &IEnumerable_t104_0_0_0, 16},
 	{ &IDictionary_2_t4259_0_0_0, 17},
 	{ &ICollection_1_t4260_0_0_0, 25},
@@ -9232,13 +9232,13 @@ static bool Stack_1_t4171_VTableIsGenericMethod[] =
 extern const Il2CppType IEnumerable_1_t4271_0_0_0;
 static const Il2CppType* Stack_1_t4171_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_t104_0_0_0,
 	&IEnumerable_1_t4271_0_0_0,
 };
 static Il2CppInterfaceOffsetPair Stack_1_t4171_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
+	{ &ICollection_t705_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 	{ &IEnumerable_1_t4271_0_0_0, 9},
 };
@@ -9414,7 +9414,7 @@ extern const MethodInfo HybridDictionary_get_inner_m13064_MethodInfo =
 	"get_inner"/* name */
 	, (methodPointerType)&HybridDictionary_get_inner_m13064/* method */
 	, &HybridDictionary_t3908_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_t638_0_0_0/* return_type */
+	, &IDictionary_t639_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9541,7 +9541,7 @@ extern const MethodInfo HybridDictionary_get_Keys_m13069_MethodInfo =
 	"get_Keys"/* name */
 	, (methodPointerType)&HybridDictionary_get_Keys_m13069/* method */
 	, &HybridDictionary_t3908_il2cpp_TypeInfo/* declaring_type */
-	, &ICollection_t704_0_0_0/* return_type */
+	, &ICollection_t705_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9885,14 +9885,14 @@ static bool HybridDictionary_t3908_VTableIsGenericMethod[] =
 };
 static const Il2CppType* HybridDictionary_t3908_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
-	&IDictionary_t638_0_0_0,
+	&ICollection_t705_0_0_0,
+	&IDictionary_t639_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
 static Il2CppInterfaceOffsetPair HybridDictionary_t3908_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
-	{ &IDictionary_t638_0_0_0, 8},
+	{ &ICollection_t705_0_0_0, 4},
+	{ &IDictionary_t639_0_0_0, 8},
 	{ &IEnumerable_t104_0_0_0, 15},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -10971,12 +10971,12 @@ static bool DictionaryNodeCollection_t3913_VTableIsGenericMethod[] =
 };
 static const Il2CppType* DictionaryNodeCollection_t3913_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
 static Il2CppInterfaceOffsetPair DictionaryNodeCollection_t3913_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
+	{ &ICollection_t705_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -11383,7 +11383,7 @@ extern const MethodInfo ListDictionary_get_Keys_m13108_MethodInfo =
 	"get_Keys"/* name */
 	, (methodPointerType)&ListDictionary_get_Keys_m13108/* method */
 	, &ListDictionary_t3123_il2cpp_TypeInfo/* declaring_type */
-	, &ICollection_t704_0_0_0/* return_type */
+	, &ICollection_t705_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11673,14 +11673,14 @@ static bool ListDictionary_t3123_VTableIsGenericMethod[] =
 };
 static const Il2CppType* ListDictionary_t3123_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
-	&IDictionary_t638_0_0_0,
+	&ICollection_t705_0_0_0,
+	&IDictionary_t639_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
 static Il2CppInterfaceOffsetPair ListDictionary_t3123_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
-	{ &IDictionary_t638_0_0_0, 8},
+	{ &ICollection_t705_0_0_0, 4},
+	{ &IDictionary_t639_0_0_0, 8},
 	{ &IEnumerable_t104_0_0_0, 15},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -12343,12 +12343,12 @@ static bool KeysCollection_t3918_VTableIsGenericMethod[] =
 };
 static const Il2CppType* KeysCollection_t3918_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
 static Il2CppInterfaceOffsetPair KeysCollection_t3918_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
+	{ &ICollection_t705_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -13097,17 +13097,17 @@ static bool NameObjectCollectionBase_t3916_VTableIsGenericMethod[] =
 };
 static const Il2CppType* NameObjectCollectionBase_t3916_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
-	&IDeserializationCallback_t766_0_0_0,
+	&ICollection_t705_0_0_0,
+	&IDeserializationCallback_t767_0_0_0,
 	&IEnumerable_t104_0_0_0,
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair NameObjectCollectionBase_t3916_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
-	{ &IDeserializationCallback_t766_0_0_0, 8},
+	{ &ICollection_t705_0_0_0, 4},
+	{ &IDeserializationCallback_t767_0_0_0, 8},
 	{ &IEnumerable_t104_0_0_0, 9},
-	{ &ISerializable_t762_0_0_0, 10},
+	{ &ISerializable_t763_0_0_0, 10},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType NameObjectCollectionBase_t3916_1_0_0;
@@ -13673,10 +13673,10 @@ static bool NameValueCollection_t3921_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair NameValueCollection_t3921_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
-	{ &IDeserializationCallback_t766_0_0_0, 8},
+	{ &ICollection_t705_0_0_0, 4},
+	{ &IDeserializationCallback_t767_0_0_0, 8},
 	{ &IEnumerable_t104_0_0_0, 9},
-	{ &ISerializable_t762_0_0_0, 10},
+	{ &ISerializable_t763_0_0_0, 10},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType NameValueCollection_t3921_0_0_0;
@@ -15196,7 +15196,7 @@ static bool Win32Exception_t3925_VTableIsGenericMethod[] =
 extern const Il2CppType _Exception_t2331_0_0_0;
 static Il2CppInterfaceOffsetPair Win32Exception_t3925_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -15552,30 +15552,30 @@ static const MethodInfo* UnmanagedReadOrWrite_t3928_MethodInfos[] =
 	&UnmanagedReadOrWrite_EndInvoke_m13181_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m4257_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m4258_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m4259_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo;
-extern const MethodInfo Delegate_Clone_m4261_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4262_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m4263_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m4258_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m4259_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m4260_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo;
+extern const MethodInfo Delegate_Clone_m4262_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4263_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4265_MethodInfo;
 extern const MethodInfo UnmanagedReadOrWrite_Invoke_m13179_MethodInfo;
 extern const MethodInfo UnmanagedReadOrWrite_BeginInvoke_m13180_MethodInfo;
 extern const MethodInfo UnmanagedReadOrWrite_EndInvoke_m13181_MethodInfo;
 static const Il2CppMethodReference UnmanagedReadOrWrite_t3928_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&UnmanagedReadOrWrite_Invoke_m13179_MethodInfo,
 	&UnmanagedReadOrWrite_BeginInvoke_m13180_MethodInfo,
 	&UnmanagedReadOrWrite_EndInvoke_m13181_MethodInfo,
@@ -15597,11 +15597,11 @@ static bool UnmanagedReadOrWrite_t3928_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICloneable_t761_0_0_0;
+extern const Il2CppType ICloneable_t762_0_0_0;
 static Il2CppInterfaceOffsetPair UnmanagedReadOrWrite_t3928_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType UnmanagedReadOrWrite_t3928_0_0_0;
@@ -15823,17 +15823,17 @@ extern const MethodInfo ReadMethod_BeginInvoke_m13184_MethodInfo;
 extern const MethodInfo ReadMethod_EndInvoke_m13185_MethodInfo;
 static const Il2CppMethodReference ReadMethod_t3929_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&ReadMethod_Invoke_m13183_MethodInfo,
 	&ReadMethod_BeginInvoke_m13184_MethodInfo,
 	&ReadMethod_EndInvoke_m13185_MethodInfo,
@@ -15857,8 +15857,8 @@ static bool ReadMethod_t3929_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair ReadMethod_t3929_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType ReadMethod_t3929_0_0_0;
@@ -16076,17 +16076,17 @@ extern const MethodInfo WriteMethod_BeginInvoke_m13188_MethodInfo;
 extern const MethodInfo WriteMethod_EndInvoke_m13189_MethodInfo;
 static const Il2CppMethodReference WriteMethod_t3930_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&WriteMethod_Invoke_m13187_MethodInfo,
 	&WriteMethod_BeginInvoke_m13188_MethodInfo,
 	&WriteMethod_EndInvoke_m13189_MethodInfo,
@@ -16110,8 +16110,8 @@ static bool WriteMethod_t3930_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair WriteMethod_t3930_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType WriteMethod_t3930_0_0_0;
@@ -18729,12 +18729,12 @@ extern const MethodInfo U3CBeginAuthenticateAsClientU3Ec__AnonStorey7_U3CU3Em__7
 
 };
 extern const Il2CppType X509Certificate_t3834_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 static const ParameterInfo U3CBeginAuthenticateAsClientU3Ec__AnonStorey7_t3938_U3CBeginAuthenticateAsClientU3Ec__AnonStorey7_U3CU3Em__8_m13244_ParameterInfos[] = 
 {
 	{"cert", 0, 134218119, 0, &X509Certificate_t3834_0_0_0},
-	{"certErrors", 1, 134218120, 0, &Int32U5BU5D_t548_0_0_0},
+	{"certErrors", 1, 134218120, 0, &Int32U5BU5D_t549_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Net.Security.SslStream/<BeginAuthenticateAsClient>c__AnonStorey7::<>m__8(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
@@ -22578,17 +22578,17 @@ extern const MethodInfo SocketAsyncCall_BeginInvoke_m13320_MethodInfo;
 extern const MethodInfo SocketAsyncCall_EndInvoke_m13321_MethodInfo;
 static const Il2CppMethodReference SocketAsyncCall_t3953_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&SocketAsyncCall_Invoke_m13319_MethodInfo,
 	&SocketAsyncCall_BeginInvoke_m13320_MethodInfo,
 	&SocketAsyncCall_EndInvoke_m13321_MethodInfo,
@@ -22612,8 +22612,8 @@ static bool SocketAsyncCall_t3953_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair SocketAsyncCall_t3953_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType SocketAsyncCall_t3953_1_0_0;
@@ -25334,7 +25334,7 @@ static bool SocketException_t3956_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair SocketException_t3956_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -28015,7 +28015,7 @@ extern const MethodInfo Cookie_set_Comment_m13433_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Uri System.Net.Cookie::get_CommentUri()
 extern const MethodInfo Cookie_get_CommentUri_m13434_MethodInfo = 
@@ -28023,7 +28023,7 @@ extern const MethodInfo Cookie_get_CommentUri_m13434_MethodInfo =
 	"get_CommentUri"/* name */
 	, (methodPointerType)&Cookie_get_CommentUri_m13434/* method */
 	, &Cookie_t3971_il2cpp_TypeInfo/* declaring_type */
-	, &Uri_t707_0_0_0/* return_type */
+	, &Uri_t708_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -28039,10 +28039,10 @@ extern const MethodInfo Cookie_get_CommentUri_m13434_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo Cookie_t3971_Cookie_set_CommentUri_m13435_ParameterInfos[] = 
 {
-	{"value", 0, 134218401, 0, &Uri_t707_0_0_0},
+	{"value", 0, 134218401, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Net.Cookie::set_CommentUri(System.Uri)
@@ -28506,7 +28506,7 @@ extern const MethodInfo Cookie_get_Ports_m13453_MethodInfo =
 	"get_Ports"/* name */
 	, (methodPointerType)&Cookie_get_Ports_m13453/* method */
 	, &Cookie_t3971_il2cpp_TypeInfo/* declaring_type */
-	, &Int32U5BU5D_t548_0_0_0/* return_type */
+	, &Int32U5BU5D_t549_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -28808,10 +28808,10 @@ extern const MethodInfo Cookie_ToString_m13464_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo Cookie_t3971_Cookie_ToString_m13465_ParameterInfos[] = 
 {
-	{"uri", 0, 134218419, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218419, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Net.Cookie::ToString(System.Uri)
@@ -29783,12 +29783,12 @@ static bool CookieCollection_t3974_VTableIsGenericMethod[] =
 };
 static const Il2CppType* CookieCollection_t3974_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
 static Il2CppInterfaceOffsetPair CookieCollection_t3974_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
+	{ &ICollection_t705_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -29997,11 +29997,11 @@ extern const MethodInfo CookieContainer_CheckExpiration_m13485_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType Cookie_t3971_0_0_0;
 static const ParameterInfo CookieContainer_t3975_CookieContainer_Cook_m13486_ParameterInfos[] = 
 {
-	{"uri", 0, 134218431, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218431, 0, &Uri_t708_0_0_0},
 	{"cookie", 1, 134218432, 0, &Cookie_t3971_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -30027,11 +30027,11 @@ extern const MethodInfo CookieContainer_Cook_m13486_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType Cookie_t3971_0_0_0;
 static const ParameterInfo CookieContainer_t3975_CookieContainer_Add_m13487_ParameterInfos[] = 
 {
-	{"uri", 0, 134218433, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218433, 0, &Uri_t708_0_0_0},
 	{"cookie", 1, 134218434, 0, &Cookie_t3971_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -30057,10 +30057,10 @@ extern const MethodInfo CookieContainer_Add_m13487_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo CookieContainer_t3975_CookieContainer_GetCookieHeader_m13488_ParameterInfos[] = 
 {
-	{"uri", 0, 134218435, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218435, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Net.CookieContainer::GetCookieHeader(System.Uri)
@@ -30117,10 +30117,10 @@ extern const MethodInfo CookieContainer_CheckDomain_m13489_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo CookieContainer_t3975_CookieContainer_GetCookies_m13490_ParameterInfos[] = 
 {
-	{"uri", 0, 134218439, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218439, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Net.CookieCollection System.Net.CookieContainer::GetCookies(System.Uri)
@@ -30492,11 +30492,11 @@ static bool CookieException_t3976_VTableIsGenericMethod[] =
 };
 static const Il2CppType* CookieException_t3976_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair CookieException_t3976_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -31125,7 +31125,7 @@ static const ParameterInfo DigestHeaderParser_t3979_DigestHeaderParser_GetKeywor
 	{"key", 0, 134218455, 0, &String_t_1_0_2},
 	{"value", 1, 134218456, 0, &String_t_1_0_2},
 };
-extern void* RuntimeInvoker_Boolean_t59_StringU26_t756_StringU26_t756 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_StringU26_t757_StringU26_t757 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Net.DigestHeaderParser::GetKeywordAndValue(System.String&,System.String&)
 extern const MethodInfo DigestHeaderParser_GetKeywordAndValue_m13510_MethodInfo = 
 {
@@ -31133,7 +31133,7 @@ extern const MethodInfo DigestHeaderParser_GetKeywordAndValue_m13510_MethodInfo 
 	, (methodPointerType)&DigestHeaderParser_GetKeywordAndValue_m13510/* method */
 	, &DigestHeaderParser_t3979_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_StringU26_t756_StringU26_t756/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_StringU26_t757_StringU26_t757/* invoker_method */
 	, DigestHeaderParser_t3979_DigestHeaderParser_GetKeywordAndValue_m13510_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -32264,7 +32264,7 @@ static const ParameterInfo Dns_t3982_Dns_GetHostByName_internal_m13534_Parameter
 	{"h_aliases", 2, 134218475, 0, &StringU5BU5D_t75_1_0_2},
 	{"h_addr_list", 3, 134218476, 0, &StringU5BU5D_t75_1_0_2},
 };
-extern void* RuntimeInvoker_Boolean_t59_Object_t_StringU26_t756_StringU5BU5DU26_t4277_StringU5BU5DU26_t4277 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Object_t_StringU26_t757_StringU5BU5DU26_t4277_StringU5BU5DU26_t4277 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Net.Dns::GetHostByName_internal(System.String,System.String&,System.String[]&,System.String[]&)
 extern const MethodInfo Dns_GetHostByName_internal_m13534_MethodInfo = 
 {
@@ -32272,7 +32272,7 @@ extern const MethodInfo Dns_GetHostByName_internal_m13534_MethodInfo =
 	, (methodPointerType)&Dns_GetHostByName_internal_m13534/* method */
 	, &Dns_t3982_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Object_t_StringU26_t756_StringU5BU5DU26_t4277_StringU5BU5DU26_t4277/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Object_t_StringU26_t757_StringU5BU5DU26_t4277_StringU5BU5DU26_t4277/* invoker_method */
 	, Dns_t3982_Dns_GetHostByName_internal_m13534_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
@@ -33041,17 +33041,17 @@ extern const MethodInfo GetResponseCallback_BeginInvoke_m13546_MethodInfo;
 extern const MethodInfo GetResponseCallback_EndInvoke_m13547_MethodInfo;
 static const Il2CppMethodReference GetResponseCallback_t3985_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&GetResponseCallback_Invoke_m13545_MethodInfo,
 	&GetResponseCallback_BeginInvoke_m13546_MethodInfo,
 	&GetResponseCallback_EndInvoke_m13547_MethodInfo,
@@ -33075,8 +33075,8 @@ static bool GetResponseCallback_t3985_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair GetResponseCallback_t3985_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType GetResponseCallback_t3985_0_0_0;
@@ -33154,10 +33154,10 @@ TypeInfo GetResponseCallback_t3985_il2cpp_TypeInfo =
 // Metadata Definition System.Net.FileWebRequest
 // System.Net.FileWebRequest
 #include "System_System_Net_FileWebRequestMethodDeclarations.h"
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo FileWebRequest_t3983_FileWebRequest__ctor_m13548_ParameterInfos[] = 
 {
-	{"uri", 0, 134218482, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218482, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Net.FileWebRequest::.ctor(System.Uri)
@@ -33393,7 +33393,7 @@ extern const MethodInfo FileWebRequest_get_RequestUri_m13557_MethodInfo =
 	"get_RequestUri"/* name */
 	, (methodPointerType)&FileWebRequest_get_RequestUri_m13557/* method */
 	, &FileWebRequest_t3983_il2cpp_TypeInfo/* declaring_type */
-	, &Uri_t707_0_0_0/* return_type */
+	, &Uri_t708_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -33764,11 +33764,11 @@ static bool FileWebRequest_t3983_VTableIsGenericMethod[] =
 };
 static const Il2CppType* FileWebRequest_t3983_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair FileWebRequest_t3983_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType FileWebRequest_t3983_1_0_0;
@@ -33869,10 +33869,10 @@ extern const MethodInfo FileWebRequestCreator__ctor_m13566_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo FileWebRequestCreator_t3988_FileWebRequestCreator_Create_m13567_ParameterInfos[] = 
 {
-	{"uri", 0, 134218502, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218502, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Net.WebRequest System.Net.FileWebRequestCreator::Create(System.Uri)
@@ -34006,11 +34006,11 @@ TypeInfo FileWebRequestCreator_t3988_il2cpp_TypeInfo =
 extern TypeInfo FileWebResponse_t3987_il2cpp_TypeInfo;
 // System.Net.FileWebResponse
 #include "System_System_Net_FileWebResponseMethodDeclarations.h"
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType FileStream_t62_0_0_0;
 static const ParameterInfo FileWebResponse_t3987_FileWebResponse__ctor_m13568_ParameterInfos[] = 
 {
-	{"responseUri", 0, 134218503, 0, &Uri_t707_0_0_0},
+	{"responseUri", 0, 134218503, 0, &Uri_t708_0_0_0},
 	{"fileStream", 1, 134218504, 0, &FileStream_t62_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -34358,12 +34358,12 @@ static bool FileWebResponse_t3987_VTableIsGenericMethod[] =
 static const Il2CppType* FileWebResponse_t3987_InterfacesTypeInfos[] = 
 {
 	&IDisposable_t58_0_0_0,
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair FileWebResponse_t3987_InterfacesOffsets[] = 
 {
 	{ &IDisposable_t58_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 5},
+	{ &ISerializable_t763_0_0_0, 5},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType FileWebResponse_t3987_0_0_0;
@@ -35133,17 +35133,17 @@ extern const MethodInfo WriteDelegate_BeginInvoke_m13594_MethodInfo;
 extern const MethodInfo WriteDelegate_EndInvoke_m13595_MethodInfo;
 static const Il2CppMethodReference WriteDelegate_t3991_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&WriteDelegate_Invoke_m13593_MethodInfo,
 	&WriteDelegate_BeginInvoke_m13594_MethodInfo,
 	&WriteDelegate_EndInvoke_m13595_MethodInfo,
@@ -35167,8 +35167,8 @@ static bool WriteDelegate_t3991_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair WriteDelegate_t3991_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType WriteDelegate_t3991_0_0_0;
@@ -35388,17 +35388,17 @@ extern const MethodInfo ReadDelegate_BeginInvoke_m13598_MethodInfo;
 extern const MethodInfo ReadDelegate_EndInvoke_m13599_MethodInfo;
 static const Il2CppMethodReference ReadDelegate_t3992_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&ReadDelegate_Invoke_m13597_MethodInfo,
 	&ReadDelegate_BeginInvoke_m13598_MethodInfo,
 	&ReadDelegate_EndInvoke_m13599_MethodInfo,
@@ -35422,8 +35422,8 @@ static bool ReadDelegate_t3992_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair ReadDelegate_t3992_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType ReadDelegate_t3992_0_0_0;
@@ -36409,10 +36409,10 @@ extern const MethodInfo FtpRequestCreator__ctor_m13623_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo FtpRequestCreator_t3995_FtpRequestCreator_Create_m13624_ParameterInfos[] = 
 {
-	{"uri", 0, 134218578, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218578, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Net.WebRequest System.Net.FtpRequestCreator::Create(System.Uri)

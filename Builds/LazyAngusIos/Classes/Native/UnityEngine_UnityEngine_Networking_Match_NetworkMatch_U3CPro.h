@@ -5,7 +5,7 @@ struct WWW_t265;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.FormatException
 struct FormatException_t2881;
 // UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<System.Object>

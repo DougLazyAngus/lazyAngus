@@ -16,7 +16,7 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_Vector4.h"
 
 // System.Void UnityEngine.Color::.ctor(System.Single,System.Single,System.Single,System.Single)
-extern "C" void Color__ctor_m4060 (Color_t325 * __this, float ___r, float ___g, float ___b, float ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Color__ctor_m4061 (Color_t325 * __this, float ___r, float ___g, float ___b, float ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Color::.ctor(System.Single,System.Single,System.Single)
 extern "C" void Color__ctor_m8863 (Color_t325 * __this, float ___r, float ___g, float ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Color::ToString()
@@ -26,17 +26,17 @@ extern "C" int32_t Color_GetHashCode_m8865 (Color_t325 * __this, const MethodInf
 // System.Boolean UnityEngine.Color::Equals(System.Object)
 extern "C" bool Color_Equals_m5657 (Color_t325 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::Lerp(UnityEngine.Color,UnityEngine.Color,System.Single)
-extern "C" Color_t325  Color_Lerp_m4073 (Object_t * __this /* static, unused */, Color_t325  ___a, Color_t325  ___b, float ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t325  Color_Lerp_m4074 (Object_t * __this /* static, unused */, Color_t325  ___a, Color_t325  ___b, float ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::get_red()
-extern "C" Color_t325  Color_get_red_m4074 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t325  Color_get_red_m4075 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::get_green()
-extern "C" Color_t325  Color_get_green_m4071 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t325  Color_get_green_m4072 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::get_white()
 extern "C" Color_t325  Color_get_white_m3522 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::get_black()
 extern "C" Color_t325  Color_get_black_m5661 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::get_yellow()
-extern "C" Color_t325  Color_get_yellow_m4072 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t325  Color_get_yellow_m4073 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::get_clear()
 extern "C" Color_t325  Color_get_clear_m3686 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::op_Multiply(UnityEngine.Color,System.Single)

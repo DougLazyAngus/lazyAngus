@@ -34,7 +34,7 @@ extern "C" uint16_t Boolean_System_IConvertible_ToChar_m15731 (bool* __this, Obj
 // System.DateTime System.Boolean::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  Boolean_System_IConvertible_ToDateTime_m15732 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Boolean::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t695  Boolean_System_IConvertible_ToDecimal_m15733 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t696  Boolean_System_IConvertible_ToDecimal_m15733 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Boolean::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double Boolean_System_IConvertible_ToDouble_m15734 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Boolean::System.IConvertible.ToInt16(System.IFormatProvider)

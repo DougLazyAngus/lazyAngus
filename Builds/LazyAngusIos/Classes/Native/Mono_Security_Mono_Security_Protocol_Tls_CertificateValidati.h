@@ -3,7 +3,7 @@
 // System.Security.Cryptography.X509Certificates.X509Certificate
 struct X509Certificate_t3834;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

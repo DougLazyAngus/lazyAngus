@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Globalization.TextInfo/Data
@@ -18,7 +18,7 @@ struct  TextInfo_t4334  : public Object_t
 	// System.Int32 System.Globalization.TextInfo::m_win32LangID
 	int32_t ___m_win32LangID_2;
 	// System.Globalization.CultureInfo System.Globalization.TextInfo::ci
-	CultureInfo_t718 * ___ci_3;
+	CultureInfo_t719 * ___ci_3;
 	// System.Boolean System.Globalization.TextInfo::handleDotI
 	bool ___handleDotI_4;
 	// System.Globalization.TextInfo/Data System.Globalization.TextInfo::data

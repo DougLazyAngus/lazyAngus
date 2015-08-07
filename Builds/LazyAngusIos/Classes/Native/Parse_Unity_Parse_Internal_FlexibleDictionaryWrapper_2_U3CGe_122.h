@@ -14,7 +14,7 @@ struct IEnumerator_1_t7923;
 struct  U3CGetEnumeratorU3Ed__4_t7924  : public Object_t
 {
 	// System.Collections.Generic.KeyValuePair`2<System.String,TOut> Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Object,Parse.ParseGeoPoint>::<>2__current
-	KeyValuePair_2_t727  ___U3CU3E2__current_0;
+	KeyValuePair_2_t728  ___U3CU3E2__current_0;
 	// System.Int32 Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Object,Parse.ParseGeoPoint>::<>1__state
 	int32_t ___U3CU3E1__state_1;
 	// Parse.Internal.FlexibleDictionaryWrapper`2<TOut,TIn> Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Object,Parse.ParseGeoPoint>::<>4__this

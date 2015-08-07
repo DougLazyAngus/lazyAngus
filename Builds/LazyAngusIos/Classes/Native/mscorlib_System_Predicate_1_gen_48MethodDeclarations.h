@@ -9,7 +9,7 @@ struct Predicate_1_t6063;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

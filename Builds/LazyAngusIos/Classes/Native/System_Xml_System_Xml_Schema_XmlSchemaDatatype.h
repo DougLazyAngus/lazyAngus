@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // Mono.Xml.Schema.XsdAnySimpleType
@@ -118,7 +118,7 @@ struct  XmlSchemaDatatype_t3050  : public Object_t
 };
 struct XmlSchemaDatatype_t3050_StaticFields{
 	// System.Char[] System.Xml.Schema.XmlSchemaDatatype::wsChars
-	CharU5BU5D_t660* ___wsChars_1;
+	CharU5BU5D_t661* ___wsChars_1;
 	// Mono.Xml.Schema.XsdAnySimpleType System.Xml.Schema.XmlSchemaDatatype::datatypeAnySimpleType
 	XsdAnySimpleType_t3049 * ___datatypeAnySimpleType_3;
 	// Mono.Xml.Schema.XsdString System.Xml.Schema.XmlSchemaDatatype::datatypeString

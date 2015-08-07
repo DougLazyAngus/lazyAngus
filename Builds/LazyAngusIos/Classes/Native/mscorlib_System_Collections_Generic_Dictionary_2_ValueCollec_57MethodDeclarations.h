@@ -17,7 +17,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Single[]
-struct SingleU5BU5D_t543;
+struct SingleU5BU5D_t544;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,System.Single>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_134.h"
 
@@ -46,7 +46,7 @@ struct SingleU5BU5D_t543;
 // System.Object System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Single>::System.Collections.ICollection.get_SyncRoot()
 #define ValueCollection_System_Collections_ICollection_get_SyncRoot_m43862(__this, method) (( Object_t * (*) (ValueCollection_t6985 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m43863_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Single>::CopyTo(TValue[],System.Int32)
-#define ValueCollection_CopyTo_m43864(__this, ___array, ___index, method) (( void (*) (ValueCollection_t6985 *, SingleU5BU5D_t543*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m43865_gshared)(__this, ___array, ___index, method)
+#define ValueCollection_CopyTo_m43864(__this, ___array, ___index, method) (( void (*) (ValueCollection_t6985 *, SingleU5BU5D_t544*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m43865_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Single>::GetEnumerator()
 #define ValueCollection_GetEnumerator_m43866(__this, method) (( Enumerator_t9212  (*) (ValueCollection_t6985 *, const MethodInfo*))ValueCollection_GetEnumerator_m43867_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Single>::get_Count()

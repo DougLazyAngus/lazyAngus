@@ -11,7 +11,7 @@ struct ICollection_1_t8991;
 // System.Collections.Generic.ICollection`1<System.Func`3<System.Object,System.Object,System.Object>>
 struct ICollection_1_t8992;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // System.Func`3<System.Object,System.Object,System.Object>

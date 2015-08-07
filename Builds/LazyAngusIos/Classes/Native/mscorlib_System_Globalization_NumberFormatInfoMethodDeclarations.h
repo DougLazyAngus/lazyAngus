@@ -9,7 +9,7 @@ struct NumberFormatInfo_t452;
 // System.String
 struct String_t;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Object
 struct Object_t;
 // System.Type
@@ -32,7 +32,7 @@ extern "C" String_t* NumberFormatInfo_get_CurrencyDecimalSeparator_m17003 (Numbe
 // System.String System.Globalization.NumberFormatInfo::get_CurrencyGroupSeparator()
 extern "C" String_t* NumberFormatInfo_get_CurrencyGroupSeparator_m17004 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32[] System.Globalization.NumberFormatInfo::get_RawCurrencyGroupSizes()
-extern "C" Int32U5BU5D_t548* NumberFormatInfo_get_RawCurrencyGroupSizes_m17005 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Int32U5BU5D_t549* NumberFormatInfo_get_RawCurrencyGroupSizes_m17005 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.NumberFormatInfo::get_CurrencyNegativePattern()
 extern "C" int32_t NumberFormatInfo_get_CurrencyNegativePattern_m17006 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.NumberFormatInfo::get_CurrencyPositivePattern()
@@ -56,7 +56,7 @@ extern "C" String_t* NumberFormatInfo_get_NumberDecimalSeparator_m17015 (NumberF
 // System.String System.Globalization.NumberFormatInfo::get_NumberGroupSeparator()
 extern "C" String_t* NumberFormatInfo_get_NumberGroupSeparator_m17016 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32[] System.Globalization.NumberFormatInfo::get_RawNumberGroupSizes()
-extern "C" Int32U5BU5D_t548* NumberFormatInfo_get_RawNumberGroupSizes_m17017 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Int32U5BU5D_t549* NumberFormatInfo_get_RawNumberGroupSizes_m17017 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.NumberFormatInfo::get_NumberNegativePattern()
 extern "C" int32_t NumberFormatInfo_get_NumberNegativePattern_m17018 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.NumberFormatInfo::set_NumberNegativePattern(System.Int32)
@@ -68,7 +68,7 @@ extern "C" String_t* NumberFormatInfo_get_PercentDecimalSeparator_m17021 (Number
 // System.String System.Globalization.NumberFormatInfo::get_PercentGroupSeparator()
 extern "C" String_t* NumberFormatInfo_get_PercentGroupSeparator_m17022 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32[] System.Globalization.NumberFormatInfo::get_RawPercentGroupSizes()
-extern "C" Int32U5BU5D_t548* NumberFormatInfo_get_RawPercentGroupSizes_m17023 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Int32U5BU5D_t549* NumberFormatInfo_get_RawPercentGroupSizes_m17023 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.NumberFormatInfo::get_PercentNegativePattern()
 extern "C" int32_t NumberFormatInfo_get_PercentNegativePattern_m17024 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.NumberFormatInfo::get_PercentPositivePattern()

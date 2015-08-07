@@ -11,11 +11,11 @@ struct ICollection_1_t1160;
 // System.Collections.Generic.ICollection`1<System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>
 struct ICollection_1_t8775;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>
-struct Dictionary_2_t699;
+struct Dictionary_2_t700;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>
@@ -102,9 +102,9 @@ struct IDictionaryEnumerator_t3911;
 // System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::get_Count()
 #define Dictionary_2_get_Count_m24663(__this, method) (( int32_t (*) (Dictionary_2_t274 *, const MethodInfo*))Dictionary_2_get_Count_m21589_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::get_Item(TKey)
-#define Dictionary_2_get_Item_m24664(__this, ___key, method) (( Dictionary_2_t699 * (*) (Dictionary_2_t274 *, String_t*, const MethodInfo*))Dictionary_2_get_Item_m21591_gshared)(__this, ___key, method)
+#define Dictionary_2_get_Item_m24664(__this, ___key, method) (( Dictionary_2_t700 * (*) (Dictionary_2_t274 *, String_t*, const MethodInfo*))Dictionary_2_get_Item_m21591_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::set_Item(TKey,TValue)
-#define Dictionary_2_set_Item_m24665(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t274 *, String_t*, Dictionary_2_t699 *, const MethodInfo*))Dictionary_2_set_Item_m21593_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_set_Item_m24665(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t274 *, String_t*, Dictionary_2_t700 *, const MethodInfo*))Dictionary_2_set_Item_m21593_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
 #define Dictionary_2_Init_m24666(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t274 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m21595_gshared)(__this, ___capacity, ___hcp, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::InitArrays(System.Int32)
@@ -112,23 +112,23 @@ struct IDictionaryEnumerator_t3911;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::CopyToCheck(System.Array,System.Int32)
 #define Dictionary_2_CopyToCheck_m24668(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t274 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m21599_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::make_pair(TKey,TValue)
-#define Dictionary_2_make_pair_m24669(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t5549  (*) (Object_t * /* static, unused */, String_t*, Dictionary_2_t699 *, const MethodInfo*))Dictionary_2_make_pair_m21601_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_make_pair_m24669(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t5549  (*) (Object_t * /* static, unused */, String_t*, Dictionary_2_t700 *, const MethodInfo*))Dictionary_2_make_pair_m21601_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TKey System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::pick_key(TKey,TValue)
-#define Dictionary_2_pick_key_m24670(__this /* static, unused */, ___key, ___value, method) (( String_t* (*) (Object_t * /* static, unused */, String_t*, Dictionary_2_t699 *, const MethodInfo*))Dictionary_2_pick_key_m21603_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_key_m24670(__this /* static, unused */, ___key, ___value, method) (( String_t* (*) (Object_t * /* static, unused */, String_t*, Dictionary_2_t700 *, const MethodInfo*))Dictionary_2_pick_key_m21603_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TValue System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::pick_value(TKey,TValue)
-#define Dictionary_2_pick_value_m24671(__this /* static, unused */, ___key, ___value, method) (( Dictionary_2_t699 * (*) (Object_t * /* static, unused */, String_t*, Dictionary_2_t699 *, const MethodInfo*))Dictionary_2_pick_value_m21605_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_value_m24671(__this /* static, unused */, ___key, ___value, method) (( Dictionary_2_t700 * (*) (Object_t * /* static, unused */, String_t*, Dictionary_2_t700 *, const MethodInfo*))Dictionary_2_pick_value_m21605_gshared)(__this /* static, unused */, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
 #define Dictionary_2_CopyTo_m24672(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t274 *, KeyValuePair_2U5BU5D_t8777*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m21607_gshared)(__this, ___array, ___index, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::Resize()
 #define Dictionary_2_Resize_m24673(__this, method) (( void (*) (Dictionary_2_t274 *, const MethodInfo*))Dictionary_2_Resize_m21609_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::Add(TKey,TValue)
-#define Dictionary_2_Add_m24674(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t274 *, String_t*, Dictionary_2_t699 *, const MethodInfo*))Dictionary_2_Add_m21611_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_Add_m24674(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t274 *, String_t*, Dictionary_2_t700 *, const MethodInfo*))Dictionary_2_Add_m21611_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::Clear()
 #define Dictionary_2_Clear_m24675(__this, method) (( void (*) (Dictionary_2_t274 *, const MethodInfo*))Dictionary_2_Clear_m21613_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::ContainsKey(TKey)
 #define Dictionary_2_ContainsKey_m24676(__this, ___key, method) (( bool (*) (Dictionary_2_t274 *, String_t*, const MethodInfo*))Dictionary_2_ContainsKey_m21615_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::ContainsValue(TValue)
-#define Dictionary_2_ContainsValue_m24677(__this, ___value, method) (( bool (*) (Dictionary_2_t274 *, Dictionary_2_t699 *, const MethodInfo*))Dictionary_2_ContainsValue_m21617_gshared)(__this, ___value, method)
+#define Dictionary_2_ContainsValue_m24677(__this, ___value, method) (( bool (*) (Dictionary_2_t274 *, Dictionary_2_t700 *, const MethodInfo*))Dictionary_2_ContainsValue_m21617_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 #define Dictionary_2_GetObjectData_m24678(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t274 *, SerializationInfo_t2869 *, StreamingContext_t2870 , const MethodInfo*))Dictionary_2_GetObjectData_m21619_gshared)(__this, ___info, ___context, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::OnDeserialization(System.Object)
@@ -136,7 +136,7 @@ struct IDictionaryEnumerator_t3911;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::Remove(TKey)
 #define Dictionary_2_Remove_m24680(__this, ___key, method) (( bool (*) (Dictionary_2_t274 *, String_t*, const MethodInfo*))Dictionary_2_Remove_m21623_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::TryGetValue(TKey,TValue&)
-#define Dictionary_2_TryGetValue_m24681(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t274 *, String_t*, Dictionary_2_t699 **, const MethodInfo*))Dictionary_2_TryGetValue_m21625_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_TryGetValue_m24681(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t274 *, String_t*, Dictionary_2_t700 **, const MethodInfo*))Dictionary_2_TryGetValue_m21625_gshared)(__this, ___key, ___value, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::get_Keys()
 #define Dictionary_2_get_Keys_m24682(__this, method) (( KeyCollection_t5550 * (*) (Dictionary_2_t274 *, const MethodInfo*))Dictionary_2_get_Keys_m21626_gshared)(__this, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::get_Values()
@@ -144,10 +144,10 @@ struct IDictionaryEnumerator_t3911;
 // TKey System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::ToTKey(System.Object)
 #define Dictionary_2_ToTKey_m24684(__this, ___key, method) (( String_t* (*) (Dictionary_2_t274 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m21630_gshared)(__this, ___key, method)
 // TValue System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::ToTValue(System.Object)
-#define Dictionary_2_ToTValue_m24685(__this, ___value, method) (( Dictionary_2_t699 * (*) (Dictionary_2_t274 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m21632_gshared)(__this, ___value, method)
+#define Dictionary_2_ToTValue_m24685(__this, ___value, method) (( Dictionary_2_t700 * (*) (Dictionary_2_t274 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m21632_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
 #define Dictionary_2_ContainsKeyValuePair_m24686(__this, ___pair, method) (( bool (*) (Dictionary_2_t274 *, KeyValuePair_2_t5549 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m21634_gshared)(__this, ___pair, method)
 // System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::GetEnumerator()
 #define Dictionary_2_GetEnumerator_m24687(__this, method) (( Enumerator_t5552  (*) (Dictionary_2_t274 *, const MethodInfo*))Dictionary_2_GetEnumerator_m21635_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::<CopyTo>m__0(TKey,TValue)
-#define Dictionary_2_U3CCopyToU3Em__0_m24688(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2088  (*) (Object_t * /* static, unused */, String_t*, Dictionary_2_t699 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m21637_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_U3CCopyToU3Em__0_m24688(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2088  (*) (Object_t * /* static, unused */, String_t*, Dictionary_2_t700 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m21637_gshared)(__this /* static, unused */, ___key, ___value, method)

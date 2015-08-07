@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.BitArray
 struct  BitArray_t4124  : public Object_t
 {
 	// System.Int32[] System.Collections.BitArray::m_array
-	Int32U5BU5D_t548* ___m_array_0;
+	Int32U5BU5D_t549* ___m_array_0;
 	// System.Int32 System.Collections.BitArray::m_length
 	int32_t ___m_length_1;
 	// System.Int32 System.Collections.BitArray::_version

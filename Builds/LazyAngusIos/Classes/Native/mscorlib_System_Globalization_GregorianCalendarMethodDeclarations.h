@@ -7,7 +7,7 @@
 // System.Globalization.GregorianCalendar
 struct GregorianCalendar_t4427;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Globalization.GregorianCalendarTypes
 #include "mscorlib_System_Globalization_GregorianCalendarTypes.h"
 // System.DateTime
@@ -20,7 +20,7 @@ extern "C" void GregorianCalendar__ctor_m16989 (GregorianCalendar_t4427 * __this
 // System.Void System.Globalization.GregorianCalendar::.ctor()
 extern "C" void GregorianCalendar__ctor_m16990 (GregorianCalendar_t4427 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32[] System.Globalization.GregorianCalendar::get_Eras()
-extern "C" Int32U5BU5D_t548* GregorianCalendar_get_Eras_m16991 (GregorianCalendar_t4427 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Int32U5BU5D_t549* GregorianCalendar_get_Eras_m16991 (GregorianCalendar_t4427 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.GregorianCalendar::set_CalendarType(System.Globalization.GregorianCalendarTypes)
 extern "C" void GregorianCalendar_set_CalendarType_m16992 (GregorianCalendar_t4427 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.GregorianCalendar::GetDayOfMonth(System.DateTime)

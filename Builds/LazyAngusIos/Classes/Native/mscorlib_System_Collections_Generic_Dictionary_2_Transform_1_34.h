@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // LevelDescription
-struct LevelDescription_t542;
+struct LevelDescription_t543;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

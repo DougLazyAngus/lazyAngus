@@ -7,7 +7,7 @@
 // System.Collections.Comparer
 struct Comparer_t4393;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.SerializationInfo
@@ -18,7 +18,7 @@ struct SerializationInfo_t2869;
 // System.Void System.Collections.Comparer::.ctor()
 extern "C" void Comparer__ctor_m16676 (Comparer_t4393 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Comparer::.ctor(System.Globalization.CultureInfo)
-extern "C" void Comparer__ctor_m16677 (Comparer_t4393 * __this, CultureInfo_t718 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Comparer__ctor_m16677 (Comparer_t4393 * __this, CultureInfo_t719 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Comparer::.cctor()
 extern "C" void Comparer__cctor_m16678 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.Comparer::Compare(System.Object,System.Object)

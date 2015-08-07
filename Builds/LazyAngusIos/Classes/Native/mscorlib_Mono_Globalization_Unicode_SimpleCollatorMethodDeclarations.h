@@ -7,7 +7,7 @@
 // Mono.Globalization.Unicode.SimpleCollator
 struct SimpleCollator_t4333;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // Mono.Globalization.Unicode.CodePointIndexer
 struct CodePointIndexer_t4320;
 // Mono.Globalization.Unicode.Contraction
@@ -28,13 +28,13 @@ struct SortKeyBuffer_t4338;
 #include "mscorlib_Mono_Globalization_Unicode_SimpleCollator_Context.h"
 
 // System.Void Mono.Globalization.Unicode.SimpleCollator::.ctor(System.Globalization.CultureInfo)
-extern "C" void SimpleCollator__ctor_m16079 (SimpleCollator_t4333 * __this, CultureInfo_t718 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SimpleCollator__ctor_m16079 (SimpleCollator_t4333 * __this, CultureInfo_t719 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Globalization.Unicode.SimpleCollator::.cctor()
 extern "C" void SimpleCollator__cctor_m16080 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Globalization.Unicode.SimpleCollator::SetCJKTable(System.Globalization.CultureInfo,Mono.Globalization.Unicode.CodePointIndexer&,System.Byte*&,System.Byte*&,Mono.Globalization.Unicode.CodePointIndexer&,System.Byte*&)
-extern "C" void SimpleCollator_SetCJKTable_m16081 (SimpleCollator_t4333 * __this, CultureInfo_t718 * ___culture, CodePointIndexer_t4320 ** ___cjkIndexer, uint8_t** ___catTable, uint8_t** ___lv1Table, CodePointIndexer_t4320 ** ___lv2Indexer, uint8_t** ___lv2Table, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SimpleCollator_SetCJKTable_m16081 (SimpleCollator_t4333 * __this, CultureInfo_t719 * ___culture, CodePointIndexer_t4320 ** ___cjkIndexer, uint8_t** ___catTable, uint8_t** ___lv1Table, CodePointIndexer_t4320 ** ___lv2Indexer, uint8_t** ___lv2Table, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.CultureInfo Mono.Globalization.Unicode.SimpleCollator::GetNeutralCulture(System.Globalization.CultureInfo)
-extern "C" CultureInfo_t718 * SimpleCollator_GetNeutralCulture_m16082 (Object_t * __this /* static, unused */, CultureInfo_t718 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CultureInfo_t719 * SimpleCollator_GetNeutralCulture_m16082 (Object_t * __this /* static, unused */, CultureInfo_t719 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte Mono.Globalization.Unicode.SimpleCollator::Category(System.Int32)
 extern "C" uint8_t SimpleCollator_Category_m16083 (SimpleCollator_t4333 * __this, int32_t ___cp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte Mono.Globalization.Unicode.SimpleCollator::Level1(System.Int32)

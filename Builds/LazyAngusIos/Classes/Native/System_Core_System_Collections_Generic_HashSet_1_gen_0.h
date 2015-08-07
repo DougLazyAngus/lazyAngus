@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.HashSet`1/Link<System.Object>[]
 struct LinkU5BU5D_t5869;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
 struct IEqualityComparer_1_t1134;
 // System.Runtime.Serialization.SerializationInfo
@@ -16,11 +16,11 @@ struct SerializationInfo_t2869;
 struct  HashSet_1_t1416  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.HashSet`1<System.Object>::table
-	Int32U5BU5D_t548* ___table_0;
+	Int32U5BU5D_t549* ___table_0;
 	// System.Collections.Generic.HashSet`1/Link<T>[] System.Collections.Generic.HashSet`1<System.Object>::links
 	LinkU5BU5D_t5869* ___links_1;
 	// T[] System.Collections.Generic.HashSet`1<System.Object>::slots
-	ObjectU5BU5D_t635* ___slots_2;
+	ObjectU5BU5D_t636* ___slots_2;
 	// System.Int32 System.Collections.Generic.HashSet`1<System.Object>::touched
 	int32_t ___touched_3;
 	// System.Int32 System.Collections.Generic.HashSet`1<System.Object>::empty_slot

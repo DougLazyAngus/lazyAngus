@@ -13,7 +13,7 @@ struct DecoderFallbackBuffer_t4697;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 
 // System.Void System.Text.Decoder::.ctor()
 extern "C" void Decoder__ctor_m18747 (Decoder_t3186 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

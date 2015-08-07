@@ -9,7 +9,7 @@ struct ValueCollection_t5766;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
-struct Dictionary_2_t854;
+struct Dictionary_2_t855;
 // System.Collections.Generic.List`1<UnityEngine.UI.Text>
 struct List_1_t1001;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.List`1<UnityEngine.UI.Text>>
@@ -26,7 +26,7 @@ struct List_1U5BU5D_t5755;
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_8MethodDeclarations.h"
-#define ValueCollection__ctor_m28328(__this, ___dictionary, method) (( void (*) (ValueCollection_t5766 *, Dictionary_2_t854 *, const MethodInfo*))ValueCollection__ctor_m21688_gshared)(__this, ___dictionary, method)
+#define ValueCollection__ctor_m28328(__this, ___dictionary, method) (( void (*) (ValueCollection_t5766 *, Dictionary_2_t855 *, const MethodInfo*))ValueCollection__ctor_m21688_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
 #define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m28329(__this, ___item, method) (( void (*) (ValueCollection_t5766 *, List_1_t1001 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m21689_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::System.Collections.Generic.ICollection<TValue>.Clear()

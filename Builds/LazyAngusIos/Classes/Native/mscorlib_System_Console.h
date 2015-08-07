@@ -5,7 +5,7 @@ struct TextWriter_t3229;
 // System.IO.TextReader
 struct TextReader_t3187;
 // System.Text.Encoding
-struct Encoding_t689;
+struct Encoding_t690;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Console
@@ -20,7 +20,7 @@ struct Console_t4151_StaticFields{
 	// System.IO.TextReader System.Console::stdin
 	TextReader_t3187 * ___stdin_2;
 	// System.Text.Encoding System.Console::inputEncoding
-	Encoding_t689 * ___inputEncoding_3;
+	Encoding_t690 * ___inputEncoding_3;
 	// System.Text.Encoding System.Console::outputEncoding
-	Encoding_t689 * ___outputEncoding_4;
+	Encoding_t690 * ___outputEncoding_4;
 };

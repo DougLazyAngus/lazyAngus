@@ -12,9 +12,9 @@ struct  CharacterInfo_t2737
 	// System.Int32 UnityEngine.CharacterInfo::index
 	int32_t ___index_0;
 	// UnityEngine.Rect UnityEngine.CharacterInfo::uv
-	Rect_t647  ___uv_1;
+	Rect_t648  ___uv_1;
 	// UnityEngine.Rect UnityEngine.CharacterInfo::vert
-	Rect_t647  ___vert_2;
+	Rect_t648  ___vert_2;
 	// System.Single UnityEngine.CharacterInfo::width
 	float ___width_3;
 	// System.Int32 UnityEngine.CharacterInfo::size
@@ -30,8 +30,8 @@ struct  CharacterInfo_t2737
 struct CharacterInfo_t2737_marshaled
 {
 	int32_t ___index_0;
-	Rect_t647  ___uv_1;
-	Rect_t647  ___vert_2;
+	Rect_t648  ___uv_1;
+	Rect_t648  ___vert_2;
 	float ___width_3;
 	int32_t ___size_4;
 	int32_t ___style_5;

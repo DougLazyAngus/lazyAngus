@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.HashSet`1/Link<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>[]
 struct LinkU5BU5D_t5873;
 // System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>[]
@@ -16,7 +16,7 @@ struct SerializationInfo_t2869;
 struct  HashSet_1_t5866  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::table
-	Int32U5BU5D_t548* ___table_0;
+	Int32U5BU5D_t549* ___table_0;
 	// System.Collections.Generic.HashSet`1/Link<T>[] System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::links
 	LinkU5BU5D_t5873* ___links_1;
 	// T[] System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::slots

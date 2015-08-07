@@ -7,7 +7,7 @@
 // UnityEngine.RaycastHit2D
 struct RaycastHit2D_t998;
 // UnityEngine.Collider2D
-struct Collider2D_t577;
+struct Collider2D_t578;
 // UnityEngine.Rigidbody2D
 struct Rigidbody2D_t2719;
 // UnityEngine.Transform
@@ -22,7 +22,7 @@ extern "C" Vector2_t110  RaycastHit2D_get_normal_m5600 (RaycastHit2D_t998 * __th
 // System.Single UnityEngine.RaycastHit2D::get_fraction()
 extern "C" float RaycastHit2D_get_fraction_m5671 (RaycastHit2D_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Collider2D UnityEngine.RaycastHit2D::get_collider()
-extern "C" Collider2D_t577 * RaycastHit2D_get_collider_m5596 (RaycastHit2D_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Collider2D_t578 * RaycastHit2D_get_collider_m5596 (RaycastHit2D_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rigidbody2D UnityEngine.RaycastHit2D::get_rigidbody()
 extern "C" Rigidbody2D_t2719 * RaycastHit2D_get_rigidbody_m9233 (RaycastHit2D_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Transform UnityEngine.RaycastHit2D::get_transform()

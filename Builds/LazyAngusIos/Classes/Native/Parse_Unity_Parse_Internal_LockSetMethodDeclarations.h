@@ -7,7 +7,7 @@
 // Parse.Internal.LockSet
 struct LockSet_t1131;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.IComparable
 struct IComparable_t99;
 // System.Object

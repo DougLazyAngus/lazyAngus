@@ -13,7 +13,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.IEnumerator`1<System.Int32>
 struct IEnumerator_1_t3314;
 // System.Collections.Generic.IList`1<System.Int32>
@@ -77,8 +77,8 @@ extern "C" void Collection_1_ClearItems_m26228_gshared (Collection_1_t5635 * __t
 extern "C" bool Collection_1_Contains_m26229_gshared (Collection_1_t5635 * __this, int32_t ___item, const MethodInfo* method);
 #define Collection_1_Contains_m26229(__this, ___item, method) (( bool (*) (Collection_1_t5635 *, int32_t, const MethodInfo*))Collection_1_Contains_m26229_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Int32>::CopyTo(T[],System.Int32)
-extern "C" void Collection_1_CopyTo_m26230_gshared (Collection_1_t5635 * __this, Int32U5BU5D_t548* ___array, int32_t ___index, const MethodInfo* method);
-#define Collection_1_CopyTo_m26230(__this, ___array, ___index, method) (( void (*) (Collection_1_t5635 *, Int32U5BU5D_t548*, int32_t, const MethodInfo*))Collection_1_CopyTo_m26230_gshared)(__this, ___array, ___index, method)
+extern "C" void Collection_1_CopyTo_m26230_gshared (Collection_1_t5635 * __this, Int32U5BU5D_t549* ___array, int32_t ___index, const MethodInfo* method);
+#define Collection_1_CopyTo_m26230(__this, ___array, ___index, method) (( void (*) (Collection_1_t5635 *, Int32U5BU5D_t549*, int32_t, const MethodInfo*))Collection_1_CopyTo_m26230_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.Collection`1<System.Int32>::GetEnumerator()
 extern "C" Object_t* Collection_1_GetEnumerator_m26231_gshared (Collection_1_t5635 * __this, const MethodInfo* method);
 #define Collection_1_GetEnumerator_m26231(__this, method) (( Object_t* (*) (Collection_1_t5635 *, const MethodInfo*))Collection_1_GetEnumerator_m26231_gshared)(__this, method)

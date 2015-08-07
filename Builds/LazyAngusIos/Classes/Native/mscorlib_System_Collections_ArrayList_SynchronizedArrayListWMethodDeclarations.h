@@ -11,7 +11,7 @@ struct Object_t;
 // System.Collections.ArrayList
 struct ArrayList_t3111;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
@@ -19,7 +19,7 @@ struct IEnumerator_t48;
 // System.Collections.IComparer
 struct IComparer_t3914;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Type
 struct Type_t;
 
@@ -80,6 +80,6 @@ extern "C" void SynchronizedArrayListWrapper_Sort_m16595 (SynchronizedArrayListW
 // System.Void System.Collections.ArrayList/SynchronizedArrayListWrapper::Sort(System.Collections.IComparer)
 extern "C" void SynchronizedArrayListWrapper_Sort_m16596 (SynchronizedArrayListWrapper_t4388 * __this, Object_t * ___comparer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Collections.ArrayList/SynchronizedArrayListWrapper::ToArray()
-extern "C" ObjectU5BU5D_t635* SynchronizedArrayListWrapper_ToArray_m16597 (SynchronizedArrayListWrapper_t4388 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* SynchronizedArrayListWrapper_ToArray_m16597 (SynchronizedArrayListWrapper_t4388 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Array System.Collections.ArrayList/SynchronizedArrayListWrapper::ToArray(System.Type)
 extern "C" Array_t * SynchronizedArrayListWrapper_ToArray_m16598 (SynchronizedArrayListWrapper_t4388 * __this, Type_t * ___elementType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

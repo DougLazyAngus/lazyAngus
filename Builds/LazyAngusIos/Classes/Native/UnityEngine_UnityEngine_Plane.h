@@ -8,7 +8,7 @@
 struct  Plane_t1016 
 {
 	// UnityEngine.Vector3 UnityEngine.Plane::m_Normal
-	Vector3_t496  ___m_Normal_0;
+	Vector3_t497  ___m_Normal_0;
 	// System.Single UnityEngine.Plane::m_Distance
 	float ___m_Distance_1;
 };

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Physics2D
-struct Physics2D_t743;
+struct Physics2D_t744;
 // UnityEngine.RaycastHit2D[]
 struct RaycastHit2DU5BU5D_t997;
 // UnityEngine.Collider2D
-struct Collider2D_t577;
+struct Collider2D_t578;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.RaycastHit2D
@@ -18,7 +18,7 @@ struct Collider2D_t577;
 // System.Void UnityEngine.Physics2D::.cctor()
 extern "C" void Physics2D__cctor_m9227 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Physics2D::IgnoreLayerCollision(System.Int32,System.Int32,System.Boolean)
-extern "C" void Physics2D_IgnoreLayerCollision_m3975 (Object_t * __this /* static, unused */, int32_t ___layer1, int32_t ___layer2, bool ___ignore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Physics2D_IgnoreLayerCollision_m3976 (Object_t * __this /* static, unused */, int32_t ___layer1, int32_t ___layer2, bool ___ignore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Physics2D::Internal_Raycast(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32,System.Single,System.Single,UnityEngine.RaycastHit2D&)
 extern "C" void Physics2D_Internal_Raycast_m9228 (Object_t * __this /* static, unused */, Vector2_t110  ___origin, Vector2_t110  ___direction, float ___distance, int32_t ___layerMask, float ___minDepth, float ___maxDepth, RaycastHit2D_t998 * ___raycastHit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Physics2D::INTERNAL_CALL_Internal_Raycast(UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,System.Int32,System.Single,System.Single,UnityEngine.RaycastHit2D&)
@@ -32,6 +32,6 @@ extern "C" RaycastHit2DU5BU5D_t997* Physics2D_RaycastAll_m5595 (Object_t * __thi
 // UnityEngine.RaycastHit2D[] UnityEngine.Physics2D::INTERNAL_CALL_RaycastAll(UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,System.Int32,System.Single,System.Single)
 extern "C" RaycastHit2DU5BU5D_t997* Physics2D_INTERNAL_CALL_RaycastAll_m9231 (Object_t * __this /* static, unused */, Vector2_t110 * ___origin, Vector2_t110 * ___direction, float ___distance, int32_t ___layerMask, float ___minDepth, float ___maxDepth, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Collider2D UnityEngine.Physics2D::OverlapPoint(UnityEngine.Vector2,System.Int32)
-extern "C" Collider2D_t577 * Physics2D_OverlapPoint_m3968 (Object_t * __this /* static, unused */, Vector2_t110  ___point, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Collider2D_t578 * Physics2D_OverlapPoint_m3969 (Object_t * __this /* static, unused */, Vector2_t110  ___point, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Collider2D UnityEngine.Physics2D::INTERNAL_CALL_OverlapPoint(UnityEngine.Vector2&,System.Int32,System.Single,System.Single)
-extern "C" Collider2D_t577 * Physics2D_INTERNAL_CALL_OverlapPoint_m9232 (Object_t * __this /* static, unused */, Vector2_t110 * ___point, int32_t ___layerMask, float ___minDepth, float ___maxDepth, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Collider2D_t578 * Physics2D_INTERNAL_CALL_OverlapPoint_m9232 (Object_t * __this /* static, unused */, Vector2_t110 * ___point, int32_t ___layerMask, float ___minDepth, float ___maxDepth, const MethodInfo* method) IL2CPP_METHOD_ATTR;

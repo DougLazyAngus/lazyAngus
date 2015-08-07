@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct List_1_t633;
+struct List_1_t634;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

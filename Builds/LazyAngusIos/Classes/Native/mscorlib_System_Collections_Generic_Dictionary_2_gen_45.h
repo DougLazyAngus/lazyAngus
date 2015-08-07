@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.Link[]
 struct LinkU5BU5D_t5345;
 // System.String[]
@@ -18,11 +18,11 @@ struct Transform_1_t5347;
 struct  Dictionary_2_t103  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Int32,System.String>::table
-	Int32U5BU5D_t548* ___table_4;
+	Int32U5BU5D_t549* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Int32,System.String>::linkSlots
 	LinkU5BU5D_t5345* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Int32,System.String>::keySlots
-	Int32U5BU5D_t548* ___keySlots_6;
+	Int32U5BU5D_t549* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Int32,System.String>::valueSlots
 	StringU5BU5D_t75* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,System.String>::touchedSlots

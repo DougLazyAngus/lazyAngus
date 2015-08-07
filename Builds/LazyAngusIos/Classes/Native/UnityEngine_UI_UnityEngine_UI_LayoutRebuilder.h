@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.RectTransform
-struct RectTransform_t503;
+struct RectTransform_t504;
 // UnityEngine.Events.UnityAction`1<UnityEngine.Component>
 struct UnityAction_1_t945;
 // System.Predicate`1<UnityEngine.Component>
@@ -12,7 +12,7 @@ struct Predicate_1_t946;
 struct  LayoutRebuilder_t947 
 {
 	// UnityEngine.RectTransform UnityEngine.UI.LayoutRebuilder::m_ToRebuild
-	RectTransform_t503 * ___m_ToRebuild_0;
+	RectTransform_t504 * ___m_ToRebuild_0;
 	// System.Int32 UnityEngine.UI.LayoutRebuilder::m_CachedHashFromTransform
 	int32_t ___m_CachedHashFromTransform_1;
 };

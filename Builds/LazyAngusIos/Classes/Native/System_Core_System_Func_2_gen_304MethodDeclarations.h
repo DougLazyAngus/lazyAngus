@@ -9,7 +9,7 @@ struct Func_2_t6860;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.List`1<System.Int32>
-struct List_1_t744;
+struct List_1_t745;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -22,8 +22,8 @@ struct AsyncCallback_t386;
 #include "System_Core_System_Func_2_gen_18MethodDeclarations.h"
 #define Func_2__ctor_m42280(__this, ___object, ___method, method) (( void (*) (Func_2_t6860 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7210_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Object,System.Collections.Generic.List`1<System.Int32>>::Invoke(T)
-#define Func_2_Invoke_m42281(__this, ___arg1, method) (( List_1_t744 * (*) (Func_2_t6860 *, Object_t *, const MethodInfo*))Func_2_Invoke_m30043_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m42281(__this, ___arg1, method) (( List_1_t745 * (*) (Func_2_t6860 *, Object_t *, const MethodInfo*))Func_2_Invoke_m30043_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Object,System.Collections.Generic.List`1<System.Int32>>::BeginInvoke(T,System.AsyncCallback,System.Object)
 #define Func_2_BeginInvoke_m42282(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6860 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30045_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Object,System.Collections.Generic.List`1<System.Int32>>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m42283(__this, ___result, method) (( List_1_t744 * (*) (Func_2_t6860 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30047_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m42283(__this, ___result, method) (( List_1_t745 * (*) (Func_2_t6860 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30047_gshared)(__this, ___result, method)

@@ -7,7 +7,7 @@
 // Parse.ParseGeoPoint
 struct ParseGeoPoint_t1194;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // Parse.ParseGeoDistance
 #include "Parse_Unity_Parse_ParseGeoDistance.h"
 // Parse.ParseGeoPoint

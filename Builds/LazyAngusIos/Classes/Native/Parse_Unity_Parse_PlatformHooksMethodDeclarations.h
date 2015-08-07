@@ -9,11 +9,11 @@ struct PlatformHooks_t1285;
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.Type
 struct Type_t;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t637;
+struct List_1_t638;
 // UnityEngine.WWW
 struct WWW_t265;
 // System.Byte[]
@@ -29,7 +29,7 @@ struct Action_1_t1270;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>
 struct Task_1_t1321;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
 struct IList_1_t1335;
 // System.IO.Stream
@@ -72,7 +72,7 @@ extern "C" Type_t * PlatformHooks_GetTypeFromUnityEngine_m6915 (Object_t * __thi
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.PlatformHooks::get_ApplicationSettings()
 extern "C" Object_t* PlatformHooks_get_ApplicationSettings_m6916 (PlatformHooks_t1285 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<System.Object> Parse.PlatformHooks::CreateWrapperTypes()
-extern "C" List_1_t637 * PlatformHooks_CreateWrapperTypes_m6917 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t638 * PlatformHooks_CreateWrapperTypes_m6917 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.WWW Parse.PlatformHooks::GenerateWWWInstance(System.String,System.Byte[],System.Collections.Hashtable)
 extern "C" WWW_t265 * PlatformHooks_GenerateWWWInstance_m6918 (Object_t * __this /* static, unused */, String_t* ___uri, ByteU5BU5D_t66* ___bytes, Hashtable_t1276 * ___headerTable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.PlatformHooks::RegisterNetworkRequest(UnityEngine.WWW,System.Action`1<UnityEngine.WWW>)
@@ -82,11 +82,11 @@ extern "C" void PlatformHooks_RegisterDeviceTokenRequest_m6920 (Object_t * __thi
 // System.Void Parse.PlatformHooks::RegisteriOSPushNotificationListener(System.Action`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>)
 extern "C" void PlatformHooks_RegisteriOSPushNotificationListener_m6921 (Object_t * __this /* static, unused */, Action_1_t1270 * ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>> Parse.PlatformHooks::RequestAsync(System.Uri,System.String,System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>,System.IO.Stream,System.String,System.Threading.CancellationToken)
-extern "C" Task_1_t1321 * PlatformHooks_RequestAsync_m6922 (PlatformHooks_t1285 * __this, Uri_t707 * ___uri, String_t* ___method, Object_t* ___headers, Stream_t51 * ___data, String_t* ___contentType, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1321 * PlatformHooks_RequestAsync_m6922 (PlatformHooks_t1285 * __this, Uri_t708 * ___uri, String_t* ___method, Object_t* ___headers, Stream_t51 * ___data, String_t* ___contentType, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>> Parse.PlatformHooks::UploadAsync(System.Uri,System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>,System.IO.Stream,System.IProgress`1<Parse.ParseUploadProgressEventArgs>,System.Threading.CancellationToken)
-extern "C" Task_1_t1321 * PlatformHooks_UploadAsync_m6923 (PlatformHooks_t1285 * __this, Uri_t707 * ___uri, Object_t* ___headers, Stream_t51 * ___data, Object_t* ___progress, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1321 * PlatformHooks_UploadAsync_m6923 (PlatformHooks_t1285 * __this, Uri_t708 * ___uri, Object_t* ___headers, Stream_t51 * ___data, Object_t* ___progress, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>> Parse.PlatformHooks::RequestAsync(System.Uri,System.String,System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>,System.IO.Stream,System.String,System.IProgress`1<Parse.ParseUploadProgressEventArgs>,System.Threading.CancellationToken)
-extern "C" Task_1_t1321 * PlatformHooks_RequestAsync_m6924 (PlatformHooks_t1285 * __this, Uri_t707 * ___uri, String_t* ___method, Object_t* ___headers, Stream_t51 * ___data, String_t* ___contentType, Object_t* ___progress, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1321 * PlatformHooks_RequestAsync_m6924 (PlatformHooks_t1285 * __this, Uri_t708 * ___uri, String_t* ___method, Object_t* ___headers, Stream_t51 * ___data, String_t* ___contentType, Object_t* ___progress, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.PlatformHooks::RunOnMainThread(System.Action)
 extern "C" void PlatformHooks_RunOnMainThread_m6925 (Object_t * __this /* static, unused */, Action_t143 * ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator Parse.PlatformHooks::RunDispatcher()

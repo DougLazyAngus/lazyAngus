@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Font
-struct Font_t852;
+struct Font_t853;
 // System.Collections.Generic.List`1<UnityEngine.UI.Text>
 struct List_1_t1001;
 // System.ValueType
@@ -10,7 +10,7 @@ struct List_1_t1001;
 struct  KeyValuePair_2_t5764 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::key
-	Font_t852 * ___key_0;
+	Font_t853 * ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::value
 	List_1_t1001 * ___value_1;
 };

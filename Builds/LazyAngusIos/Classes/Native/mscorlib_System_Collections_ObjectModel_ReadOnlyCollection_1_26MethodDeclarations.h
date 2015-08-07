@@ -15,7 +15,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Single[]
-struct SingleU5BU5D_t543;
+struct SingleU5BU5D_t544;
 // System.Collections.Generic.IEnumerator`1<System.Single>
 struct IEnumerator_1_t6293;
 
@@ -95,8 +95,8 @@ extern "C" void ReadOnlyCollection_1_System_Collections_IList_set_Item_m26561_gs
 extern "C" bool ReadOnlyCollection_1_Contains_m26562_gshared (ReadOnlyCollection_1_t5655 * __this, float ___value, const MethodInfo* method);
 #define ReadOnlyCollection_1_Contains_m26562(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t5655 *, float, const MethodInfo*))ReadOnlyCollection_1_Contains_m26562_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Single>::CopyTo(T[],System.Int32)
-extern "C" void ReadOnlyCollection_1_CopyTo_m26563_gshared (ReadOnlyCollection_1_t5655 * __this, SingleU5BU5D_t543* ___array, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_CopyTo_m26563(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t5655 *, SingleU5BU5D_t543*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m26563_gshared)(__this, ___array, ___index, method)
+extern "C" void ReadOnlyCollection_1_CopyTo_m26563_gshared (ReadOnlyCollection_1_t5655 * __this, SingleU5BU5D_t544* ___array, int32_t ___index, const MethodInfo* method);
+#define ReadOnlyCollection_1_CopyTo_m26563(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t5655 *, SingleU5BU5D_t544*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m26563_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Single>::GetEnumerator()
 extern "C" Object_t* ReadOnlyCollection_1_GetEnumerator_m26564_gshared (ReadOnlyCollection_1_t5655 * __this, const MethodInfo* method);
 #define ReadOnlyCollection_1_GetEnumerator_m26564(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t5655 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m26564_gshared)(__this, method)

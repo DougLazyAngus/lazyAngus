@@ -7,7 +7,7 @@ struct Image_t463;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // SFXButton
-struct  SFXButton_t591  : public MonoBehaviour_t13
+struct  SFXButton_t592  : public MonoBehaviour_t13
 {
 	// System.Boolean SFXButton::registeredForEvents
 	bool ___registeredForEvents_2;

@@ -7,7 +7,7 @@
 // System.Text.RegularExpressions.Regex
 struct Regex_t1125;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
@@ -25,7 +25,7 @@ struct IMachine_t4073;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Collections.IDictionary
-struct IDictionary_t638;
+struct IDictionary_t639;
 // System.Text.RegularExpressions.RegexOptions
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
 // System.Runtime.Serialization.StreamingContext
@@ -94,4 +94,4 @@ extern "C" Object_t * Regex_CreateMachine_m14397 (Regex_t1125 * __this, const Me
 // System.String[] System.Text.RegularExpressions.Regex::GetGroupNamesArray(System.Int32,System.Collections.IDictionary)
 extern "C" StringU5BU5D_t75* Regex_GetGroupNamesArray_m14398 (Object_t * __this /* static, unused */, int32_t ___groupCount, Object_t * ___mapping, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32[] System.Text.RegularExpressions.Regex::get_GroupNumbers()
-extern "C" Int32U5BU5D_t548* Regex_get_GroupNumbers_m14399 (Regex_t1125 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Int32U5BU5D_t549* Regex_get_GroupNumbers_m14399 (Regex_t1125 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

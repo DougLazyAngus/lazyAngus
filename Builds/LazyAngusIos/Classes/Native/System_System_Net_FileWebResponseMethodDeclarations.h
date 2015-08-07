@@ -9,7 +9,7 @@ struct FileWebResponse_t3987;
 // System.Net.WebHeaderCollection
 struct WebHeaderCollection_t3969;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.IO.FileStream
 struct FileStream_t62;
 // System.Runtime.Serialization.SerializationInfo
@@ -20,7 +20,7 @@ struct Stream_t51;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Net.FileWebResponse::.ctor(System.Uri,System.IO.FileStream)
-extern "C" void FileWebResponse__ctor_m13568 (FileWebResponse_t3987 * __this, Uri_t707 * ___responseUri, FileStream_t62 * ___fileStream, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileWebResponse__ctor_m13568 (FileWebResponse_t3987 * __this, Uri_t708 * ___responseUri, FileStream_t62 * ___fileStream, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FileWebResponse::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern "C" void FileWebResponse__ctor_m13569 (FileWebResponse_t3987 * __this, SerializationInfo_t2869 * ___serializationInfo, StreamingContext_t2870  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FileWebResponse::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)

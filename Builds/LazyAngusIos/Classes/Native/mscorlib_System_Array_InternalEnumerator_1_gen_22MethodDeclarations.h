@@ -9,7 +9,7 @@ struct InternalEnumerator_1_t5642;
 // System.Object
 struct Object_t;
 // MouseHole
-struct MouseHole_t529;
+struct MouseHole_t530;
 // System.Array
 struct Array_t;
 
@@ -26,4 +26,4 @@ struct Array_t;
 // System.Boolean System.Array/InternalEnumerator`1<MouseHole>::MoveNext()
 #define InternalEnumerator_1_MoveNext_m26273(__this, method) (( bool (*) (InternalEnumerator_1_t5642 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<MouseHole>::get_Current()
-#define InternalEnumerator_1_get_Current_m26274(__this, method) (( MouseHole_t529 * (*) (InternalEnumerator_1_t5642 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m26274(__this, method) (( MouseHole_t530 * (*) (InternalEnumerator_1_t5642 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)

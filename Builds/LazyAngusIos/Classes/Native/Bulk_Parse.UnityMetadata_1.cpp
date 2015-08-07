@@ -686,7 +686,7 @@ extern const MethodInfo ParseInstallation_getParseVersion_m6669_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IList_1_t646_0_0_0;
+extern const Il2CppType IList_1_t647_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IList`1<System.String> Parse.ParseInstallation::get_Channels()
 extern const MethodInfo ParseInstallation_get_Channels_m6670_MethodInfo = 
@@ -694,7 +694,7 @@ extern const MethodInfo ParseInstallation_get_Channels_m6670_MethodInfo =
 	"get_Channels"/* name */
 	, (methodPointerType)&ParseInstallation_get_Channels_m6670/* method */
 	, &ParseInstallation_t1236_il2cpp_TypeInfo/* declaring_type */
-	, &IList_1_t646_0_0_0/* return_type */
+	, &IList_1_t647_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -710,10 +710,10 @@ extern const MethodInfo ParseInstallation_get_Channels_m6670_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IList_1_t646_0_0_0;
+extern const Il2CppType IList_1_t647_0_0_0;
 static const ParameterInfo ParseInstallation_t1236_ParseInstallation_set_Channels_m6671_ParameterInfos[] = 
 {
-	{"value", 0, 134218537, 0, &IList_1_t646_0_0_0},
+	{"value", 0, 134218537, 0, &IList_1_t647_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::set_Channels(System.Collections.Generic.IList`1<System.String>)
@@ -1573,12 +1573,12 @@ static bool ParseInstallation_t1236_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IEnumerable_1_t764_0_0_0;
+extern const Il2CppType IEnumerable_1_t765_0_0_0;
 extern const Il2CppType IEnumerable_t104_0_0_0;
 extern const Il2CppType INotifyPropertyChanged_t2447_0_0_0;
 static Il2CppInterfaceOffsetPair ParseInstallation_t1236_InterfacesOffsets[] = 
 {
-	{ &IEnumerable_1_t764_0_0_0, 4},
+	{ &IEnumerable_1_t765_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 5},
 	{ &INotifyPropertyChanged_t2447_0_0_0, 6},
 };
@@ -1733,7 +1733,7 @@ extern const MethodInfo ParsePush_set_Query_m6694_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IEnumerable_1_t658_0_0_0;
+extern const Il2CppType IEnumerable_1_t659_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IEnumerable`1<System.String> Parse.ParsePush::get_Channels()
 extern const MethodInfo ParsePush_get_Channels_m6695_MethodInfo = 
@@ -1741,7 +1741,7 @@ extern const MethodInfo ParsePush_get_Channels_m6695_MethodInfo =
 	"get_Channels"/* name */
 	, (methodPointerType)&ParsePush_get_Channels_m6695/* method */
 	, &ParsePush_t1242_il2cpp_TypeInfo/* declaring_type */
-	, &IEnumerable_1_t658_0_0_0/* return_type */
+	, &IEnumerable_1_t659_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -1757,10 +1757,10 @@ extern const MethodInfo ParsePush_get_Channels_m6695_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IEnumerable_1_t658_0_0_0;
+extern const Il2CppType IEnumerable_1_t659_0_0_0;
 static const ParameterInfo ParsePush_t1242_ParsePush_set_Channels_m6696_ParameterInfos[] = 
 {
-	{"value", 0, 134218552, 0, &IEnumerable_1_t658_0_0_0},
+	{"value", 0, 134218552, 0, &IEnumerable_1_t659_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePush::set_Channels(System.Collections.Generic.IEnumerable`1<System.String>)
@@ -1889,7 +1889,7 @@ extern const MethodInfo ParsePush_set_ExpirationInterval_m6700_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParsePush::get_Data()
 extern const MethodInfo ParsePush_get_Data_m6701_MethodInfo = 
@@ -1897,7 +1897,7 @@ extern const MethodInfo ParsePush_get_Data_m6701_MethodInfo =
 	"get_Data"/* name */
 	, (methodPointerType)&ParsePush_get_Data_m6701/* method */
 	, &ParsePush_t1242_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_2_t765_0_0_0/* return_type */
+	, &IDictionary_2_t766_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -1913,10 +1913,10 @@ extern const MethodInfo ParsePush_get_Data_m6701_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 static const ParameterInfo ParsePush_t1242_ParsePush_set_Data_m6702_ParameterInfos[] = 
 {
-	{"value", 0, 134218555, 0, &IDictionary_2_t765_0_0_0},
+	{"value", 0, 134218555, 0, &IDictionary_2_t766_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePush::set_Data(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
@@ -1999,7 +1999,7 @@ extern const MethodInfo ParsePush_Encode_m6705_MethodInfo =
 	"Encode"/* name */
 	, (methodPointerType)&ParsePush_Encode_m6705/* method */
 	, &ParsePush_t1242_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_2_t765_0_0_0/* return_type */
+	, &IDictionary_2_t766_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -2125,11 +2125,11 @@ extern const MethodInfo ParsePush_SendAlertAsync_m6709_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType IEnumerable_1_t658_0_0_0;
+extern const Il2CppType IEnumerable_1_t659_0_0_0;
 static const ParameterInfo ParsePush_t1242_ParsePush_SendAlertAsync_m6710_ParameterInfos[] = 
 {
 	{"alert", 0, 134218561, 0, &String_t_0_0_0},
-	{"channels", 1, 134218562, 0, &IEnumerable_1_t658_0_0_0},
+	{"channels", 1, 134218562, 0, &IEnumerable_1_t659_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SendAlertAsync(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
@@ -2184,10 +2184,10 @@ extern const MethodInfo ParsePush_SendAlertAsync_m6711_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 static const ParameterInfo ParsePush_t1242_ParsePush_SendDataAsync_m6712_ParameterInfos[] = 
 {
-	{"data", 0, 134218565, 0, &IDictionary_2_t765_0_0_0},
+	{"data", 0, 134218565, 0, &IDictionary_2_t766_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SendDataAsync(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
@@ -2212,11 +2212,11 @@ extern const MethodInfo ParsePush_SendDataAsync_m6712_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo ParsePush_t1242_ParsePush_SendDataAsync_m6713_ParameterInfos[] = 
 {
-	{"data", 0, 134218566, 0, &IDictionary_2_t765_0_0_0},
+	{"data", 0, 134218566, 0, &IDictionary_2_t766_0_0_0},
 	{"channel", 1, 134218567, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -2242,12 +2242,12 @@ extern const MethodInfo ParsePush_SendDataAsync_m6713_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_2_t765_0_0_0;
-extern const Il2CppType IEnumerable_1_t658_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
+extern const Il2CppType IEnumerable_1_t659_0_0_0;
 static const ParameterInfo ParsePush_t1242_ParsePush_SendDataAsync_m6714_ParameterInfos[] = 
 {
-	{"data", 0, 134218568, 0, &IDictionary_2_t765_0_0_0},
-	{"channels", 1, 134218569, 0, &IEnumerable_1_t658_0_0_0},
+	{"data", 0, 134218568, 0, &IDictionary_2_t766_0_0_0},
+	{"channels", 1, 134218569, 0, &IEnumerable_1_t659_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SendDataAsync(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Collections.Generic.IEnumerable`1<System.String>)
@@ -2272,11 +2272,11 @@ extern const MethodInfo ParsePush_SendDataAsync_m6714_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 extern const Il2CppType ParseQuery_1_t1240_0_0_0;
 static const ParameterInfo ParsePush_t1242_ParsePush_SendDataAsync_m6715_ParameterInfos[] = 
 {
-	{"data", 0, 134218570, 0, &IDictionary_2_t765_0_0_0},
+	{"data", 0, 134218570, 0, &IDictionary_2_t766_0_0_0},
 	{"query", 1, 134218571, 0, &ParseQuery_1_t1240_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -2417,10 +2417,10 @@ extern const MethodInfo ParsePush_SubscribeAsync_m6719_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IEnumerable_1_t658_0_0_0;
+extern const Il2CppType IEnumerable_1_t659_0_0_0;
 static const ParameterInfo ParsePush_t1242_ParsePush_SubscribeAsync_m6720_ParameterInfos[] = 
 {
-	{"channels", 0, 134218577, 0, &IEnumerable_1_t658_0_0_0},
+	{"channels", 0, 134218577, 0, &IEnumerable_1_t659_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SubscribeAsync(System.Collections.Generic.IEnumerable`1<System.String>)
@@ -2445,11 +2445,11 @@ extern const MethodInfo ParsePush_SubscribeAsync_m6720_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IEnumerable_1_t658_0_0_0;
+extern const Il2CppType IEnumerable_1_t659_0_0_0;
 extern const Il2CppType CancellationToken_t1110_0_0_0;
 static const ParameterInfo ParsePush_t1242_ParsePush_SubscribeAsync_m6721_ParameterInfos[] = 
 {
-	{"channels", 0, 134218578, 0, &IEnumerable_1_t658_0_0_0},
+	{"channels", 0, 134218578, 0, &IEnumerable_1_t659_0_0_0},
 	{"cancellationToken", 1, 134218579, 0, &CancellationToken_t1110_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1110 (const MethodInfo* method, void* obj, void** args);
@@ -2533,10 +2533,10 @@ extern const MethodInfo ParsePush_UnsubscribeAsync_m6723_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IEnumerable_1_t658_0_0_0;
+extern const Il2CppType IEnumerable_1_t659_0_0_0;
 static const ParameterInfo ParsePush_t1242_ParsePush_UnsubscribeAsync_m6724_ParameterInfos[] = 
 {
-	{"channels", 0, 134218583, 0, &IEnumerable_1_t658_0_0_0},
+	{"channels", 0, 134218583, 0, &IEnumerable_1_t659_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::UnsubscribeAsync(System.Collections.Generic.IEnumerable`1<System.String>)
@@ -2561,11 +2561,11 @@ extern const MethodInfo ParsePush_UnsubscribeAsync_m6724_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IEnumerable_1_t658_0_0_0;
+extern const Il2CppType IEnumerable_1_t659_0_0_0;
 extern const Il2CppType CancellationToken_t1110_0_0_0;
 static const ParameterInfo ParsePush_t1242_ParsePush_UnsubscribeAsync_m6725_ParameterInfos[] = 
 {
-	{"channels", 0, 134218584, 0, &IEnumerable_1_t658_0_0_0},
+	{"channels", 0, 134218584, 0, &IEnumerable_1_t659_0_0_0},
 	{"cancellationToken", 1, 134218585, 0, &CancellationToken_t1110_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1110 (const MethodInfo* method, void* obj, void** args);
@@ -2845,10 +2845,10 @@ TypeInfo ParsePush_t1242_il2cpp_TypeInfo =
 extern TypeInfo ParsePushNotificationEventArgs_t1244_il2cpp_TypeInfo;
 // Parse.ParsePushNotificationEventArgs
 #include "Parse_Unity_Parse_ParsePushNotificationEventArgsMethodDeclarations.h"
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 static const ParameterInfo ParsePushNotificationEventArgs_t1244_ParsePushNotificationEventArgs__ctor_m6727_ParameterInfos[] = 
 {
-	{"payload", 0, 134218586, 0, &IDictionary_2_t765_0_0_0},
+	{"payload", 0, 134218586, 0, &IDictionary_2_t766_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePushNotificationEventArgs::.ctor(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
@@ -2908,7 +2908,7 @@ extern const MethodInfo ParsePushNotificationEventArgs_get_Payload_m6729_MethodI
 	"get_Payload"/* name */
 	, (methodPointerType)&ParsePushNotificationEventArgs_get_Payload_m6729/* method */
 	, &ParsePushNotificationEventArgs_t1244_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_2_t765_0_0_0/* return_type */
+	, &IDictionary_2_t766_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 410/* custom_attributes_cache */
@@ -2924,10 +2924,10 @@ extern const MethodInfo ParsePushNotificationEventArgs_get_Payload_m6729_MethodI
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 static const ParameterInfo ParsePushNotificationEventArgs_t1244_ParsePushNotificationEventArgs_set_Payload_m6730_ParameterInfos[] = 
 {
-	{"value", 0, 134218588, 0, &IDictionary_2_t765_0_0_0},
+	{"value", 0, 134218588, 0, &IDictionary_2_t766_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePushNotificationEventArgs::set_Payload(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
@@ -3144,24 +3144,24 @@ static const Il2CppGenericParameter* ParseQuery_1_t2143_Il2CppGenericParametersA
 extern const Il2CppGenericContainer ParseQuery_1_t2143_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_t2143_il2cpp_TypeInfo, 1, 0, ParseQuery_1_t2143_Il2CppGenericParametersArray };
 extern const Il2CppType ParseQuery_1_t2451_0_0_0;
 extern const Il2CppType ParseQuery_1_t2451_0_0_0;
-extern const Il2CppType IDictionary_2_t765_0_0_4112;
-extern const Il2CppType IEnumerable_1_t658_0_0_4112;
-extern const Il2CppType IEnumerable_1_t658_0_0_4112;
-extern const Il2CppType Nullable_1_t643_0_0_4112;
-extern const Il2CppType Nullable_1_t643_0_0_0;
-extern const Il2CppType Nullable_1_t643_0_0_4112;
-extern const Il2CppType IEnumerable_1_t658_0_0_4112;
-extern const Il2CppType IEnumerable_1_t658_0_0_4112;
+extern const Il2CppType IDictionary_2_t766_0_0_4112;
+extern const Il2CppType IEnumerable_1_t659_0_0_4112;
+extern const Il2CppType IEnumerable_1_t659_0_0_4112;
+extern const Il2CppType Nullable_1_t644_0_0_4112;
+extern const Il2CppType Nullable_1_t644_0_0_0;
+extern const Il2CppType Nullable_1_t644_0_0_4112;
+extern const Il2CppType IEnumerable_1_t659_0_0_4112;
+extern const Il2CppType IEnumerable_1_t659_0_0_4112;
 static const ParameterInfo ParseQuery_1_t2143_ParseQuery_1__ctor_m7816_ParameterInfos[] = 
 {
 	{"source", 0, 134218590, 0, &ParseQuery_1_t2451_0_0_0},
-	{"where", 1, 134218591, 0, &IDictionary_2_t765_0_0_4112},
-	{"replacementOrderBy", 2, 134218592, 0, &IEnumerable_1_t658_0_0_4112},
-	{"thenBy", 3, 134218593, 0, &IEnumerable_1_t658_0_0_4112},
-	{"skip", 4, 134218594, 0, &Nullable_1_t643_0_0_4112},
-	{"limit", 5, 134218595, 0, &Nullable_1_t643_0_0_4112},
-	{"includes", 6, 134218596, 0, &IEnumerable_1_t658_0_0_4112},
-	{"selectedKeys", 7, 134218597, 0, &IEnumerable_1_t658_0_0_4112},
+	{"where", 1, 134218591, 0, &IDictionary_2_t766_0_0_4112},
+	{"replacementOrderBy", 2, 134218592, 0, &IEnumerable_1_t659_0_0_4112},
+	{"thenBy", 3, 134218593, 0, &IEnumerable_1_t659_0_0_4112},
+	{"skip", 4, 134218594, 0, &Nullable_1_t644_0_0_4112},
+	{"limit", 5, 134218595, 0, &Nullable_1_t644_0_0_4112},
+	{"includes", 6, 134218596, 0, &IEnumerable_1_t659_0_0_4112},
+	{"selectedKeys", 7, 134218597, 0, &IEnumerable_1_t659_0_0_4112},
 };
 // System.Void Parse.ParseQuery`1::.ctor(Parse.ParseQuery`1<T>,System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>)
 extern const MethodInfo ParseQuery_1__ctor_m7816_MethodInfo = 
@@ -3185,10 +3185,10 @@ extern const MethodInfo ParseQuery_1__ctor_m7816_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IEnumerable_1_t658_0_0_0;
+extern const Il2CppType IEnumerable_1_t659_0_0_0;
 static const ParameterInfo ParseQuery_1_t2143_ParseQuery_1_MergeIncludes_m7817_ParameterInfos[] = 
 {
-	{"includes", 0, 134218598, 0, &IEnumerable_1_t658_0_0_0},
+	{"includes", 0, 134218598, 0, &IEnumerable_1_t659_0_0_0},
 };
 extern const Il2CppType HashSet_1_t1238_0_0_0;
 // System.Collections.Generic.HashSet`1<System.String> Parse.ParseQuery`1::MergeIncludes(System.Collections.Generic.IEnumerable`1<System.String>)
@@ -3213,10 +3213,10 @@ extern const MethodInfo ParseQuery_1_MergeIncludes_m7817_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IEnumerable_1_t658_0_0_0;
+extern const Il2CppType IEnumerable_1_t659_0_0_0;
 static const ParameterInfo ParseQuery_1_t2143_ParseQuery_1_MergeSelectedKeys_m7818_ParameterInfos[] = 
 {
-	{"selectedKeys", 0, 134218599, 0, &IEnumerable_1_t658_0_0_0},
+	{"selectedKeys", 0, 134218599, 0, &IEnumerable_1_t659_0_0_0},
 };
 // System.Collections.Generic.HashSet`1<System.String> Parse.ParseQuery`1::MergeSelectedKeys(System.Collections.Generic.IEnumerable`1<System.String>)
 extern const MethodInfo ParseQuery_1_MergeSelectedKeys_m7818_MethodInfo = 
@@ -3240,10 +3240,10 @@ extern const MethodInfo ParseQuery_1_MergeSelectedKeys_m7818_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 static const ParameterInfo ParseQuery_1_t2143_ParseQuery_1_MergeWhereClauses_m7819_ParameterInfos[] = 
 {
-	{"where", 0, 134218600, 0, &IDictionary_2_t765_0_0_0},
+	{"where", 0, 134218600, 0, &IDictionary_2_t766_0_0_0},
 };
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseQuery`1::MergeWhereClauses(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
 extern const MethodInfo ParseQuery_1_MergeWhereClauses_m7819_MethodInfo = 
@@ -3251,7 +3251,7 @@ extern const MethodInfo ParseQuery_1_MergeWhereClauses_m7819_MethodInfo =
 	"MergeWhereClauses"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2143_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_2_t765_0_0_0/* return_type */
+	, &IDictionary_2_t766_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, ParseQuery_1_t2143_ParseQuery_1_MergeWhereClauses_m7819_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -4675,10 +4675,10 @@ extern const MethodInfo ParseQuery_1_GetAsync_m7865_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 static const ParameterInfo ParseQuery_1_t2143_ParseQuery_1_CreateParseObjectFromQueryResult_m7866_ParameterInfos[] = 
 {
-	{"data", 0, 134218672, 0, &IDictionary_2_t765_0_0_0},
+	{"data", 0, 134218672, 0, &IDictionary_2_t766_0_0_0},
 };
 extern const Il2CppType ParseQuery_1_t2143_gp_0_0_0_0;
 // T Parse.ParseQuery`1::CreateParseObjectFromQueryResult(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
@@ -4770,7 +4770,7 @@ extern const MethodInfo ParseQuery_1_BuildParameters_m7869_MethodInfo =
 	"BuildParameters"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2143_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_2_t765_0_0_0/* return_type */
+	, &IDictionary_2_t766_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, ParseQuery_1_t2143_ParseQuery_1_BuildParameters_m7869_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -4855,7 +4855,7 @@ extern const MethodInfo ParseQuery_1_EncodeRegex_m7872_MethodInfo =
 	"EncodeRegex"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2143_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_2_t765_0_0_0/* return_type */
+	, &IDictionary_2_t766_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, ParseQuery_1_t2143_ParseQuery_1_EncodeRegex_m7872_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -5663,7 +5663,7 @@ extern const MethodInfo ParseRelationBase_ToJSON_m6739_MethodInfo =
 	"ToJSON"/* name */
 	, (methodPointerType)&ParseRelationBase_ToJSON_m6739/* method */
 	, &ParseRelationBase_t1247_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_2_t765_0_0_0/* return_type */
+	, &IDictionary_2_t766_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6413,7 +6413,7 @@ static const ParameterInfo ParseRole_t1248_ParseRole_OnSettingValue_m6749_Parame
 	{"key", 0, 134218715, 0, &String_t_1_0_0},
 	{"value", 1, 134218716, 0, &Object_t_1_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_StringU26_t756_ObjectU26_t2311 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_StringU26_t757_ObjectU26_t2311 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseRole::OnSettingValue(System.String&,System.Object&)
 extern const MethodInfo ParseRole_OnSettingValue_m6749_MethodInfo = 
 {
@@ -6421,7 +6421,7 @@ extern const MethodInfo ParseRole_OnSettingValue_m6749_MethodInfo =
 	, (methodPointerType)&ParseRole_OnSettingValue_m6749/* method */
 	, &ParseRole_t1248_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_StringU26_t756_ObjectU26_t2311/* invoker_method */
+	, RuntimeInvoker_Void_t85_StringU26_t757_ObjectU26_t2311/* invoker_method */
 	, ParseRole_t1248_ParseRole_OnSettingValue_m6749_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 707/* flags */
@@ -6598,7 +6598,7 @@ static bool ParseRole_t1248_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair ParseRole_t1248_InterfacesOffsets[] = 
 {
-	{ &IEnumerable_1_t764_0_0_0, 4},
+	{ &IEnumerable_1_t765_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 5},
 	{ &INotifyPropertyChanged_t2447_0_0_0, 6},
 };
@@ -7121,7 +7121,7 @@ static bool ParseSession_t1251_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair ParseSession_t1251_InterfacesOffsets[] = 
 {
-	{ &IEnumerable_1_t764_0_0_0, 4},
+	{ &IEnumerable_1_t765_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 5},
 	{ &INotifyPropertyChanged_t2447_0_0_0, 6},
 };
@@ -9147,10 +9147,10 @@ extern const MethodInfo ParseUser_IsKeyMutable_m6791_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 static const ParameterInfo ParseUser_t1253_ParseUser_MergeMagicFields_m6792_ParameterInfos[] = 
 {
-	{"data", 0, 134218724, 0, &IDictionary_2_t765_0_0_0},
+	{"data", 0, 134218724, 0, &IDictionary_2_t766_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::MergeMagicFields(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
@@ -9175,10 +9175,10 @@ extern const MethodInfo ParseUser_MergeMagicFields_m6792_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 static const ParameterInfo ParseUser_t1253_ParseUser_MergeAfterSave_m6793_ParameterInfos[] = 
 {
-	{"result", 0, 134218725, 0, &IDictionary_2_t765_0_0_0},
+	{"result", 0, 134218725, 0, &IDictionary_2_t766_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::MergeAfterSave(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
@@ -9203,10 +9203,10 @@ extern const MethodInfo ParseUser_MergeAfterSave_m6793_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 static const ParameterInfo ParseUser_t1253_ParseUser_MergeAfterFetch_m6794_ParameterInfos[] = 
 {
-	{"result", 0, 134218726, 0, &IDictionary_2_t765_0_0_0},
+	{"result", 0, 134218726, 0, &IDictionary_2_t766_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::MergeAfterFetch(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
@@ -10474,12 +10474,12 @@ extern const MethodInfo ParseUser_SynchronizeAuthData_m6841_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 extern const Il2CppType CancellationToken_t1110_0_0_0;
 static const ParameterInfo ParseUser_t1253_ParseUser_LinkWithAsync_m6842_ParameterInfos[] = 
 {
 	{"authType", 0, 134218765, 0, &String_t_0_0_0},
-	{"data", 1, 134218766, 0, &IDictionary_2_t765_0_0_0},
+	{"data", 1, 134218766, 0, &IDictionary_2_t766_0_0_0},
 	{"cancellationToken", 2, 134218767, 0, &CancellationToken_t1110_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_CancellationToken_t1110 (const MethodInfo* method, void* obj, void** args);
@@ -10617,12 +10617,12 @@ extern const MethodInfo ParseUser_LogOutWithProviders_m6846_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 extern const Il2CppType CancellationToken_t1110_0_0_0;
 static const ParameterInfo ParseUser_t1253_ParseUser_LogInWithAsync_m6847_ParameterInfos[] = 
 {
 	{"authType", 0, 134218773, 0, &String_t_0_0_0},
-	{"data", 1, 134218774, 0, &IDictionary_2_t765_0_0_0},
+	{"data", 1, 134218774, 0, &IDictionary_2_t766_0_0_0},
 	{"cancellationToken", 2, 134218775, 0, &CancellationToken_t1110_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_CancellationToken_t1110 (const MethodInfo* method, void* obj, void** args);
@@ -11143,7 +11143,7 @@ static bool ParseUser_t1253_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair ParseUser_t1253_InterfacesOffsets[] = 
 {
-	{ &IEnumerable_1_t764_0_0_0, 4},
+	{ &IEnumerable_1_t765_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 5},
 	{ &INotifyPropertyChanged_t2447_0_0_0, 6},
 };
@@ -11538,13 +11538,13 @@ extern const MethodInfo SettingsWrapper_set_Item_m6867_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType KeyValuePair_2_t727_0_0_0;
-extern const Il2CppType KeyValuePair_2_t727_0_0_0;
+extern const Il2CppType KeyValuePair_2_t728_0_0_0;
+extern const Il2CppType KeyValuePair_2_t728_0_0_0;
 static const ParameterInfo SettingsWrapper_t1267_SettingsWrapper_Add_m6868_ParameterInfos[] = 
 {
-	{"item", 0, 134218834, 0, &KeyValuePair_2_t727_0_0_0},
+	{"item", 0, 134218834, 0, &KeyValuePair_2_t728_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_KeyValuePair_2_t727 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_KeyValuePair_2_t728 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/SettingsWrapper::Add(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
 extern const MethodInfo SettingsWrapper_Add_m6868_MethodInfo = 
 {
@@ -11552,7 +11552,7 @@ extern const MethodInfo SettingsWrapper_Add_m6868_MethodInfo =
 	, (methodPointerType)&SettingsWrapper_Add_m6868/* method */
 	, &SettingsWrapper_t1267_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_KeyValuePair_2_t727/* invoker_method */
+	, RuntimeInvoker_Void_t85_KeyValuePair_2_t728/* invoker_method */
 	, SettingsWrapper_t1267_SettingsWrapper_Add_m6868_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
@@ -11590,12 +11590,12 @@ extern const MethodInfo SettingsWrapper_Clear_m6869_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType KeyValuePair_2_t727_0_0_0;
+extern const Il2CppType KeyValuePair_2_t728_0_0_0;
 static const ParameterInfo SettingsWrapper_t1267_SettingsWrapper_Contains_m6870_ParameterInfos[] = 
 {
-	{"item", 0, 134218835, 0, &KeyValuePair_2_t727_0_0_0},
+	{"item", 0, 134218835, 0, &KeyValuePair_2_t728_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t727 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t728 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks/SettingsWrapper::Contains(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
 extern const MethodInfo SettingsWrapper_Contains_m6870_MethodInfo = 
 {
@@ -11603,7 +11603,7 @@ extern const MethodInfo SettingsWrapper_Contains_m6870_MethodInfo =
 	, (methodPointerType)&SettingsWrapper_Contains_m6870/* method */
 	, &SettingsWrapper_t1267_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_KeyValuePair_2_t727/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_KeyValuePair_2_t728/* invoker_method */
 	, SettingsWrapper_t1267_SettingsWrapper_Contains_m6870_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
@@ -11695,12 +11695,12 @@ extern const MethodInfo SettingsWrapper_get_IsReadOnly_m6873_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType KeyValuePair_2_t727_0_0_0;
+extern const Il2CppType KeyValuePair_2_t728_0_0_0;
 static const ParameterInfo SettingsWrapper_t1267_SettingsWrapper_Remove_m6874_ParameterInfos[] = 
 {
-	{"item", 0, 134218838, 0, &KeyValuePair_2_t727_0_0_0},
+	{"item", 0, 134218838, 0, &KeyValuePair_2_t728_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t727 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t728 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks/SettingsWrapper::Remove(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
 extern const MethodInfo SettingsWrapper_Remove_m6874_MethodInfo = 
 {
@@ -11708,7 +11708,7 @@ extern const MethodInfo SettingsWrapper_Remove_m6874_MethodInfo =
 	, (methodPointerType)&SettingsWrapper_Remove_m6874/* method */
 	, &SettingsWrapper_t1267_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_KeyValuePair_2_t727/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_KeyValuePair_2_t728/* invoker_method */
 	, SettingsWrapper_t1267_SettingsWrapper_Remove_m6874_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
@@ -11932,19 +11932,19 @@ static bool SettingsWrapper_t1267_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICollection_1_t763_0_0_0;
+extern const Il2CppType ICollection_1_t764_0_0_0;
 static const Il2CppType* SettingsWrapper_t1267_InterfacesTypeInfos[] = 
 {
-	&IDictionary_2_t765_0_0_0,
-	&ICollection_1_t763_0_0_0,
-	&IEnumerable_1_t764_0_0_0,
+	&IDictionary_2_t766_0_0_0,
+	&ICollection_1_t764_0_0_0,
+	&IEnumerable_1_t765_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
 static Il2CppInterfaceOffsetPair SettingsWrapper_t1267_InterfacesOffsets[] = 
 {
-	{ &IDictionary_2_t765_0_0_0, 4},
-	{ &ICollection_1_t763_0_0_0, 12},
-	{ &IEnumerable_1_t764_0_0_0, 19},
+	{ &IDictionary_2_t766_0_0_0, 4},
+	{ &ICollection_1_t764_0_0_0, 12},
+	{ &IEnumerable_1_t765_0_0_0, 19},
 	{ &IEnumerable_t104_0_0_0, 20},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -12214,10 +12214,10 @@ extern const MethodInfo U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3E
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_2_t765_0_0_0;
+extern const Il2CppType IDictionary_2_t766_0_0_0;
 static const ParameterInfo U3CU3Ec__DisplayClass24_t1271_U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__23_m6881_ParameterInfos[] = 
 {
-	{"payload", 0, 134218839, 0, &IDictionary_2_t765_0_0_0},
+	{"payload", 0, 134218839, 0, &IDictionary_2_t766_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass24::<RegisterDeviceTokenRequest>b__23(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
@@ -13934,7 +13934,7 @@ extern const MethodInfo PlatformHooks_get_ApplicationSettings_m6916_MethodInfo =
 	"get_ApplicationSettings"/* name */
 	, (methodPointerType)&PlatformHooks_get_ApplicationSettings_m6916/* method */
 	, &PlatformHooks_t1285_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_2_t765_0_0_0/* return_type */
+	, &IDictionary_2_t766_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -13950,7 +13950,7 @@ extern const MethodInfo PlatformHooks_get_ApplicationSettings_m6916_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType List_1_t637_0_0_0;
+extern const Il2CppType List_1_t638_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<System.Object> Parse.PlatformHooks::CreateWrapperTypes()
 extern const MethodInfo PlatformHooks_CreateWrapperTypes_m6917_MethodInfo = 
@@ -13958,7 +13958,7 @@ extern const MethodInfo PlatformHooks_CreateWrapperTypes_m6917_MethodInfo =
 	"CreateWrapperTypes"/* name */
 	, (methodPointerType)&PlatformHooks_CreateWrapperTypes_m6917/* method */
 	, &PlatformHooks_t1285_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t637_0_0_0/* return_type */
+	, &List_1_t638_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -14096,8 +14096,8 @@ extern const MethodInfo PlatformHooks_RegisteriOSPushNotificationListener_m6921_
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IList_1_t1335_0_0_0;
 extern const Il2CppType IList_1_t1335_0_0_0;
@@ -14107,7 +14107,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CancellationToken_t1110_0_0_0;
 static const ParameterInfo PlatformHooks_t1285_PlatformHooks_RequestAsync_m6922_ParameterInfos[] = 
 {
-	{"uri", 0, 134218803, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218803, 0, &Uri_t708_0_0_0},
 	{"method", 1, 134218804, 0, &String_t_0_0_0},
 	{"headers", 2, 134218805, 0, &IList_1_t1335_0_0_0},
 	{"data", 3, 134218806, 0, &Stream_t51_0_0_0},
@@ -14137,7 +14137,7 @@ extern const MethodInfo PlatformHooks_RequestAsync_m6922_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType IList_1_t1335_0_0_0;
 extern const Il2CppType Stream_t51_0_0_0;
 extern const Il2CppType IProgress_1_t1190_0_0_0;
@@ -14145,7 +14145,7 @@ extern const Il2CppType IProgress_1_t1190_0_0_0;
 extern const Il2CppType CancellationToken_t1110_0_0_0;
 static const ParameterInfo PlatformHooks_t1285_PlatformHooks_UploadAsync_m6923_ParameterInfos[] = 
 {
-	{"uri", 0, 134218809, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218809, 0, &Uri_t708_0_0_0},
 	{"headers", 1, 134218810, 0, &IList_1_t1335_0_0_0},
 	{"data", 2, 134218811, 0, &Stream_t51_0_0_0},
 	{"progress", 3, 134218812, 0, &IProgress_1_t1190_0_0_0},
@@ -14174,7 +14174,7 @@ extern const MethodInfo PlatformHooks_UploadAsync_m6923_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IList_1_t1335_0_0_0;
 extern const Il2CppType Stream_t51_0_0_0;
@@ -14183,7 +14183,7 @@ extern const Il2CppType IProgress_1_t1190_0_0_0;
 extern const Il2CppType CancellationToken_t1110_0_0_0;
 static const ParameterInfo PlatformHooks_t1285_PlatformHooks_RequestAsync_m6924_ParameterInfos[] = 
 {
-	{"uri", 0, 134218814, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218814, 0, &Uri_t708_0_0_0},
 	{"method", 1, 134218815, 0, &String_t_0_0_0},
 	{"headers", 2, 134218816, 0, &IList_1_t1335_0_0_0},
 	{"data", 3, 134218817, 0, &Stream_t51_0_0_0},
@@ -15283,11 +15283,11 @@ static bool AggregateException_t1287_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ISerializable_t762_0_0_0;
+extern const Il2CppType ISerializable_t763_0_0_0;
 extern const Il2CppType _Exception_t2331_0_0_0;
 static Il2CppInterfaceOffsetPair AggregateException_t1287_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;

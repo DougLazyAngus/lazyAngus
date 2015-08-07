@@ -7,7 +7,7 @@
 // Parse.Internal.ParseAddOperation
 struct ParseAddOperation_t1133;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.Object
 struct Object_t;
 // Parse.Internal.IParseFieldOperation

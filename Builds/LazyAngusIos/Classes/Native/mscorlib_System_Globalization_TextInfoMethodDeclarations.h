@@ -9,14 +9,14 @@ struct TextInfo_t4334;
 // System.String
 struct String_t;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.Object
 struct Object_t;
 // System.Void
 #include "mscorlib_System_Void.h"
 
 // System.Void System.Globalization.TextInfo::.ctor(System.Globalization.CultureInfo,System.Int32,System.Void*,System.Boolean)
-extern "C" void TextInfo__ctor_m17033 (TextInfo_t4334 * __this, CultureInfo_t718 * ___ci, int32_t ___lcid, void* ___data, bool ___read_only, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextInfo__ctor_m17033 (TextInfo_t4334 * __this, CultureInfo_t719 * ___ci, int32_t ___lcid, void* ___data, bool ___read_only, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.TextInfo::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
 extern "C" void TextInfo_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m17034 (TextInfo_t4334 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.TextInfo::get_CultureName()

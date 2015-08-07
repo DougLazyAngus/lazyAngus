@@ -9,7 +9,7 @@ struct KeyValuePair_2_t6186;
 // System.Type
 struct Type_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.String>
-struct IDictionary_2_t645;
+struct IDictionary_2_t646;
 // System.String
 struct String_t;
 

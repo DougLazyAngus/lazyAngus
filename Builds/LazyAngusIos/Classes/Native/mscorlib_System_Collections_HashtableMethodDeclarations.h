@@ -13,9 +13,9 @@ struct IHashCodeProvider_t3919;
 // System.Object
 struct Object_t;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Collections.IDictionary
-struct IDictionary_t638;
+struct IDictionary_t639;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2869;
 // System.Collections.IEqualityComparer
@@ -29,7 +29,7 @@ struct IDictionaryEnumerator_t3911;
 // System.Collections.Hashtable/Slot[]
 struct SlotU5BU5D_t4401;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 // System.Collections.Hashtable/EnumeratorMode
@@ -110,7 +110,7 @@ extern "C" bool Hashtable_KeyEquals_m16751 (Hashtable_t1276 * __this, Object_t *
 // System.Void System.Collections.Hashtable::AdjustThreshold()
 extern "C" void Hashtable_AdjustThreshold_m16752 (Hashtable_t1276 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Hashtable::SetTable(System.Collections.Hashtable/Slot[],System.Int32[])
-extern "C" void Hashtable_SetTable_m16753 (Hashtable_t1276 * __this, SlotU5BU5D_t4401* ___table, Int32U5BU5D_t548* ___hashes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Hashtable_SetTable_m16753 (Hashtable_t1276 * __this, SlotU5BU5D_t4401* ___table, Int32U5BU5D_t549* ___hashes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.Hashtable::Find(System.Object)
 extern "C" int32_t Hashtable_Find_m16754 (Hashtable_t1276 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Hashtable::Rehash()

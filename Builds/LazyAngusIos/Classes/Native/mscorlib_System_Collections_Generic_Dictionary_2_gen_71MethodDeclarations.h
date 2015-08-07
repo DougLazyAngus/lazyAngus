@@ -11,7 +11,7 @@ struct ICollection_1_t9002;
 // System.Collections.Generic.ICollection`1<SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
 struct ICollection_1_t9546;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate

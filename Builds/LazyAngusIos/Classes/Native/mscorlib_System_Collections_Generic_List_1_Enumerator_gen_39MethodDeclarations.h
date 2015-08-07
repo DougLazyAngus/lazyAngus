@@ -9,7 +9,7 @@ struct Enumerator_t5784;
 // System.Object
 struct Object_t;
 // UnityEngine.Canvas
-struct Canvas_t627;
+struct Canvas_t628;
 // System.Collections.Generic.List`1<UnityEngine.Canvas>
 struct List_1_t990;
 
@@ -28,4 +28,4 @@ struct List_1_t990;
 // System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::MoveNext()
 #define Enumerator_MoveNext_m28630(__this, method) (( bool (*) (Enumerator_t5784 *, const MethodInfo*))Enumerator_MoveNext_m3632_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::get_Current()
-#define Enumerator_get_Current_m28631(__this, method) (( Canvas_t627 * (*) (Enumerator_t5784 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)
+#define Enumerator_get_Current_m28631(__this, method) (( Canvas_t628 * (*) (Enumerator_t5784 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)

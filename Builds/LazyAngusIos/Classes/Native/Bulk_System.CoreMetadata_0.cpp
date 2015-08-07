@@ -86,17 +86,17 @@ TypeInfo U3CModuleU3E_t3269_il2cpp_TypeInfo =
 // System.Runtime.CompilerServices.ExtensionAttribute
 #include "System_Core_System_Runtime_CompilerServices_ExtensionAttribu.h"
 // Metadata Definition System.Runtime.CompilerServices.ExtensionAttribute
-extern TypeInfo ExtensionAttribute_t748_il2cpp_TypeInfo;
+extern TypeInfo ExtensionAttribute_t749_il2cpp_TypeInfo;
 // System.Runtime.CompilerServices.ExtensionAttribute
 #include "System_Core_System_Runtime_CompilerServices_ExtensionAttribuMethodDeclarations.h"
 extern const Il2CppType Void_t85_0_0_0;
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.CompilerServices.ExtensionAttribute::.ctor()
-extern const MethodInfo ExtensionAttribute__ctor_m4080_MethodInfo = 
+extern const MethodInfo ExtensionAttribute__ctor_m4081_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ExtensionAttribute__ctor_m4080/* method */
-	, &ExtensionAttribute_t748_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ExtensionAttribute__ctor_m4081/* method */
+	, &ExtensionAttribute_t749_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -113,23 +113,23 @@ extern const MethodInfo ExtensionAttribute__ctor_m4080_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ExtensionAttribute_t748_MethodInfos[] =
+static const MethodInfo* ExtensionAttribute_t749_MethodInfos[] =
 {
-	&ExtensionAttribute__ctor_m4080_MethodInfo,
+	&ExtensionAttribute__ctor_m4081_MethodInfo,
 	NULL
 };
 extern const MethodInfo Attribute_Equals_m489_MethodInfo;
 extern const MethodInfo Object_Finalize_m490_MethodInfo;
 extern const MethodInfo Attribute_GetHashCode_m491_MethodInfo;
 extern const MethodInfo Object_ToString_m492_MethodInfo;
-static const Il2CppMethodReference ExtensionAttribute_t748_VTable[] =
+static const Il2CppMethodReference ExtensionAttribute_t749_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Attribute_GetHashCode_m491_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ExtensionAttribute_t748_VTableIsGenericMethod[] =
+static bool ExtensionAttribute_t749_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -137,43 +137,43 @@ static bool ExtensionAttribute_t748_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType _Attribute_t86_0_0_0;
-static Il2CppInterfaceOffsetPair ExtensionAttribute_t748_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ExtensionAttribute_t749_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_System_Core_dll_Image;
-extern const Il2CppType ExtensionAttribute_t748_0_0_0;
-extern const Il2CppType ExtensionAttribute_t748_1_0_0;
+extern const Il2CppType ExtensionAttribute_t749_0_0_0;
+extern const Il2CppType ExtensionAttribute_t749_1_0_0;
 extern const Il2CppType Attribute_t426_0_0_0;
-struct ExtensionAttribute_t748;
-const Il2CppTypeDefinitionMetadata ExtensionAttribute_t748_DefinitionMetadata = 
+struct ExtensionAttribute_t749;
+const Il2CppTypeDefinitionMetadata ExtensionAttribute_t749_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ExtensionAttribute_t748_InterfacesOffsets/* interfaceOffsets */
+	, ExtensionAttribute_t749_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, ExtensionAttribute_t748_VTable/* vtableMethods */
-	, ExtensionAttribute_t748_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ExtensionAttribute_t749_VTable/* vtableMethods */
+	, ExtensionAttribute_t749_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo ExtensionAttribute_t748_il2cpp_TypeInfo = 
+TypeInfo ExtensionAttribute_t749_il2cpp_TypeInfo = 
 {
 	&g_System_Core_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ExtensionAttribute"/* name */
 	, "System.Runtime.CompilerServices"/* namespaze */
-	, ExtensionAttribute_t748_MethodInfos/* methods */
+	, ExtensionAttribute_t749_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ExtensionAttribute_t748_il2cpp_TypeInfo/* element_class */
+	, &ExtensionAttribute_t749_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 2/* custom_attributes_cache */
-	, &ExtensionAttribute_t748_0_0_0/* byval_arg */
-	, &ExtensionAttribute_t748_1_0_0/* this_arg */
-	, &ExtensionAttribute_t748_DefinitionMetadata/* definitionMetadata */
+	, &ExtensionAttribute_t749_0_0_0/* byval_arg */
+	, &ExtensionAttribute_t749_1_0_0/* this_arg */
+	, &ExtensionAttribute_t749_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -183,8 +183,8 @@ TypeInfo ExtensionAttribute_t748_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ExtensionAttribute_t748)/* instance_size */
-	, sizeof (ExtensionAttribute_t748)/* actualSize */
+	, sizeof (ExtensionAttribute_t749)/* instance_size */
+	, sizeof (ExtensionAttribute_t749)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2858,23 +2858,23 @@ static bool HashSet_1_t3333_VTableIsGenericMethod[] =
 };
 extern const Il2CppType ICollection_1_t3381_0_0_0;
 extern const Il2CppType IEnumerable_t104_0_0_0;
-extern const Il2CppType ISerializable_t762_0_0_0;
-extern const Il2CppType IDeserializationCallback_t766_0_0_0;
+extern const Il2CppType ISerializable_t763_0_0_0;
+extern const Il2CppType IDeserializationCallback_t767_0_0_0;
 static const Il2CppType* HashSet_1_t3333_InterfacesTypeInfos[] = 
 {
 	&ICollection_1_t3381_0_0_0,
 	&IEnumerable_1_t3377_0_0_0,
 	&IEnumerable_t104_0_0_0,
-	&ISerializable_t762_0_0_0,
-	&IDeserializationCallback_t766_0_0_0,
+	&ISerializable_t763_0_0_0,
+	&IDeserializationCallback_t767_0_0_0,
 };
 static Il2CppInterfaceOffsetPair HashSet_1_t3333_InterfacesOffsets[] = 
 {
 	{ &ICollection_1_t3381_0_0_0, 4},
 	{ &IEnumerable_1_t3377_0_0_0, 11},
 	{ &IEnumerable_t104_0_0_0, 12},
-	{ &ISerializable_t762_0_0_0, 13},
-	{ &IDeserializationCallback_t766_0_0_0, 14},
+	{ &ISerializable_t763_0_0_0, 13},
+	{ &IDeserializationCallback_t767_0_0_0, 14},
 };
 extern const Il2CppGenericMethod HashSet_1_Init_m11842_GenericMethod;
 extern const Il2CppGenericMethod HashSet_1__ctor_m11843_GenericMethod;
@@ -3960,12 +3960,12 @@ extern const MethodInfo ExpressionPrinter_Print_m11380_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
 static const ParameterInfo ExpressionPrinter_t3277_ExpressionPrinter_Print_m11381_ParameterInfos[] = 
 {
 	{"str", 0, 134217803, 0, &String_t_0_0_0},
-	{"objs", 1, 134217804, 8, &ObjectU5BU5D_t635_0_0_0},
+	{"objs", 1, 134217804, 8, &ObjectU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Linq.Expressions.ExpressionPrinter::Print(System.String,System.Object[])
@@ -17589,14 +17589,14 @@ static const ParameterInfo QuickSort_1_t3354_QuickSort_1_CreateIndexes_m11794_Pa
 {
 	{"length", 0, 134218013, 0, &Int32_t82_0_0_0},
 };
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 // System.Int32[] System.Linq.QuickSort`1::CreateIndexes(System.Int32)
 extern const MethodInfo QuickSort_1_CreateIndexes_m11794_MethodInfo = 
 {
 	"CreateIndexes"/* name */
 	, NULL/* method */
 	, &QuickSort_1_t3354_il2cpp_TypeInfo/* declaring_type */
-	, &Int32U5BU5D_t548_0_0_0/* return_type */
+	, &Int32U5BU5D_t549_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, QuickSort_1_t3354_QuickSort_1_CreateIndexes_m11794_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -18616,7 +18616,7 @@ static bool LockRecursionException_t3301_VTableIsGenericMethod[] =
 extern const Il2CppType _Exception_t2331_0_0_0;
 static Il2CppInterfaceOffsetPair LockRecursionException_t3301_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_System_Core_dll_Image;
@@ -19325,13 +19325,13 @@ extern const MethodInfo ReaderWriterLockSlim_LazyCreateEvent_m11494_MethodInfo =
 };
 extern const Il2CppType EventWaitHandle_t3303_0_0_0;
 extern const Il2CppType EventWaitHandle_t3303_0_0_0;
-extern const Il2CppType UInt32_t690_1_0_0;
-extern const Il2CppType UInt32_t690_1_0_0;
+extern const Il2CppType UInt32_t691_1_0_0;
+extern const Il2CppType UInt32_t691_1_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo ReaderWriterLockSlim_t1224_ReaderWriterLockSlim_WaitOnEvent_m11495_ParameterInfos[] = 
 {
 	{"waitEvent", 0, 134218046, 0, &EventWaitHandle_t3303_0_0_0},
-	{"numWaiters", 1, 134218047, 0, &UInt32_t690_1_0_0},
+	{"numWaiters", 1, 134218047, 0, &UInt32_t691_1_0_0},
 	{"millisecondsTimeout", 2, 134218048, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_UInt32U26_t3706_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -19689,7 +19689,7 @@ static bool InvalidTimeZoneException_t3305_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair InvalidTimeZoneException_t3305_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_System_Core_dll_Image;
@@ -20103,14 +20103,14 @@ static bool AdjustmentRule_t3306_VTableIsGenericMethod[] =
 extern const Il2CppType IEquatable_1_t3707_0_0_0;
 static const Il2CppType* AdjustmentRule_t3306_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
-	&IDeserializationCallback_t766_0_0_0,
+	&ISerializable_t763_0_0_0,
+	&IDeserializationCallback_t767_0_0_0,
 	&IEquatable_1_t3707_0_0_0,
 };
 static Il2CppInterfaceOffsetPair AdjustmentRule_t3306_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
-	{ &IDeserializationCallback_t766_0_0_0, 5},
+	{ &ISerializable_t763_0_0_0, 4},
+	{ &IDeserializationCallback_t767_0_0_0, 5},
 	{ &IEquatable_1_t3707_0_0_0, 6},
 };
 extern Il2CppImage g_System_Core_dll_Image;
@@ -20524,14 +20524,14 @@ static bool TransitionTime_t3307_VTableIsGenericMethod[] =
 extern const Il2CppType IEquatable_1_t3708_0_0_0;
 static const Il2CppType* TransitionTime_t3307_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
-	&IDeserializationCallback_t766_0_0_0,
+	&ISerializable_t763_0_0_0,
+	&IDeserializationCallback_t767_0_0_0,
 	&IEquatable_1_t3708_0_0_0,
 };
 static Il2CppInterfaceOffsetPair TransitionTime_t3307_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
-	{ &IDeserializationCallback_t766_0_0_0, 5},
+	{ &ISerializable_t763_0_0_0, 4},
+	{ &IDeserializationCallback_t767_0_0_0, 5},
 	{ &IEquatable_1_t3708_0_0_0, 6},
 };
 extern Il2CppImage g_System_Core_dll_Image;
@@ -21711,14 +21711,14 @@ static bool TimeZoneInfo_t1462_VTableIsGenericMethod[] =
 extern const Il2CppType IEquatable_1_t3709_0_0_0;
 static const Il2CppType* TimeZoneInfo_t1462_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
-	&IDeserializationCallback_t766_0_0_0,
+	&ISerializable_t763_0_0_0,
+	&IDeserializationCallback_t767_0_0_0,
 	&IEquatable_1_t3709_0_0_0,
 };
 static Il2CppInterfaceOffsetPair TimeZoneInfo_t1462_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
-	{ &IDeserializationCallback_t766_0_0_0, 5},
+	{ &ISerializable_t763_0_0_0, 4},
+	{ &IDeserializationCallback_t767_0_0_0, 5},
 	{ &IEquatable_1_t3709_0_0_0, 6},
 };
 extern Il2CppImage g_System_Core_dll_Image;
@@ -21886,7 +21886,7 @@ static bool TimeZoneNotFoundException_t1463_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair TimeZoneNotFoundException_t1463_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_System_Core_dll_Image;
@@ -22088,30 +22088,30 @@ static const MethodInfo* Action_t143_MethodInfos[] =
 	&Action_EndInvoke_m11551_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m4257_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m4258_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m4259_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo;
-extern const MethodInfo Delegate_Clone_m4261_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4262_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m4263_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m4258_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m4259_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m4260_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo;
+extern const MethodInfo Delegate_Clone_m4262_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4263_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4265_MethodInfo;
 extern const MethodInfo Action_Invoke_m11549_MethodInfo;
 extern const MethodInfo Action_BeginInvoke_m11550_MethodInfo;
 extern const MethodInfo Action_EndInvoke_m11551_MethodInfo;
 static const Il2CppMethodReference Action_t143_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&Action_Invoke_m11549_MethodInfo,
 	&Action_BeginInvoke_m11550_MethodInfo,
 	&Action_EndInvoke_m11551_MethodInfo,
@@ -22133,11 +22133,11 @@ static bool Action_t143_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICloneable_t761_0_0_0;
+extern const Il2CppType ICloneable_t762_0_0_0;
 static Il2CppInterfaceOffsetPair Action_t143_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_Core_dll_Image;
 extern const Il2CppType Action_t143_0_0_0;
@@ -22342,17 +22342,17 @@ extern const MethodInfo Func_1_BeginInvoke_m11818_MethodInfo;
 extern const MethodInfo Func_1_EndInvoke_m11819_MethodInfo;
 static const Il2CppMethodReference Func_1_t3358_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&Func_1_Invoke_m11817_MethodInfo,
 	&Func_1_BeginInvoke_m11818_MethodInfo,
 	&Func_1_EndInvoke_m11819_MethodInfo,
@@ -22376,8 +22376,8 @@ static bool Func_1_t3358_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair Func_1_t3358_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_Core_dll_Image;
 extern const Il2CppType Func_1_t3358_0_0_0;
@@ -22592,17 +22592,17 @@ extern const MethodInfo Func_2_BeginInvoke_m11822_MethodInfo;
 extern const MethodInfo Func_2_EndInvoke_m11823_MethodInfo;
 static const Il2CppMethodReference Func_2_t3359_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&Func_2_Invoke_m11821_MethodInfo,
 	&Func_2_BeginInvoke_m11822_MethodInfo,
 	&Func_2_EndInvoke_m11823_MethodInfo,
@@ -22626,8 +22626,8 @@ static bool Func_2_t3359_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair Func_2_t3359_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_Core_dll_Image;
 extern const Il2CppType Func_2_t3359_0_0_0;
@@ -22850,17 +22850,17 @@ extern const MethodInfo Func_3_BeginInvoke_m11826_MethodInfo;
 extern const MethodInfo Func_3_EndInvoke_m11827_MethodInfo;
 static const Il2CppMethodReference Func_3_t3360_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&Func_3_Invoke_m11825_MethodInfo,
 	&Func_3_BeginInvoke_m11826_MethodInfo,
 	&Func_3_EndInvoke_m11827_MethodInfo,
@@ -22884,8 +22884,8 @@ static bool Func_3_t3360_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair Func_3_t3360_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_Core_dll_Image;
 extern const Il2CppType Func_3_t3360_0_0_0;
@@ -23116,17 +23116,17 @@ extern const MethodInfo Func_4_BeginInvoke_m11830_MethodInfo;
 extern const MethodInfo Func_4_EndInvoke_m11831_MethodInfo;
 static const Il2CppMethodReference Func_4_t3361_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&Func_4_Invoke_m11829_MethodInfo,
 	&Func_4_BeginInvoke_m11830_MethodInfo,
 	&Func_4_EndInvoke_m11831_MethodInfo,
@@ -23150,8 +23150,8 @@ static bool Func_4_t3361_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair Func_4_t3361_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_Core_dll_Image;
 extern const Il2CppType Func_4_t3361_0_0_0;
@@ -23390,17 +23390,17 @@ extern const MethodInfo Func_5_BeginInvoke_m11834_MethodInfo;
 extern const MethodInfo Func_5_EndInvoke_m11835_MethodInfo;
 static const Il2CppMethodReference Func_5_t3362_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&Func_5_Invoke_m11833_MethodInfo,
 	&Func_5_BeginInvoke_m11834_MethodInfo,
 	&Func_5_EndInvoke_m11835_MethodInfo,
@@ -23424,8 +23424,8 @@ static bool Func_5_t3362_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair Func_5_t3362_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_Core_dll_Image;
 extern const Il2CppType Func_5_t3362_0_0_0;

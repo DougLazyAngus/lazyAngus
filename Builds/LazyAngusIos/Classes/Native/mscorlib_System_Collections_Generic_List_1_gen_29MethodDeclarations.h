@@ -9,7 +9,7 @@ struct List_1_t988;
 // System.Object
 struct Object_t;
 // UnityEngine.Component
-struct Component_t711;
+struct Component_t712;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.Component>
 struct IEnumerable_1_t8860;
 // UnityEngine.Component[]
@@ -76,7 +76,7 @@ struct Comparison_1_t5700;
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::System.Collections.IList.set_Item(System.Int32,System.Object)
 #define List_1_System_Collections_IList_set_Item_m27073(__this, ___index, ___value, method) (( void (*) (List_1_t988 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m10091_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::Add(T)
-#define List_1_Add_m27074(__this, ___item, method) (( void (*) (List_1_t988 *, Component_t711 *, const MethodInfo*))List_1_Add_m10100_gshared)(__this, ___item, method)
+#define List_1_Add_m27074(__this, ___item, method) (( void (*) (List_1_t988 *, Component_t712 *, const MethodInfo*))List_1_Add_m10100_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::GrowIfNeeded(System.Int32)
 #define List_1_GrowIfNeeded_m27075(__this, ___newCount, method) (( void (*) (List_1_t988 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m21333_gshared)(__this, ___newCount, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::CheckRange(System.Int32,System.Int32)
@@ -92,11 +92,11 @@ struct Comparison_1_t5700;
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::Clear()
 #define List_1_Clear_m27081(__this, method) (( void (*) (List_1_t988 *, const MethodInfo*))List_1_Clear_m10093_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<UnityEngine.Component>::Contains(T)
-#define List_1_Contains_m27082(__this, ___item, method) (( bool (*) (List_1_t988 *, Component_t711 *, const MethodInfo*))List_1_Contains_m10101_gshared)(__this, ___item, method)
+#define List_1_Contains_m27082(__this, ___item, method) (( bool (*) (List_1_t988 *, Component_t712 *, const MethodInfo*))List_1_Contains_m10101_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::CopyTo(T[],System.Int32)
 #define List_1_CopyTo_m27083(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t988 *, ComponentU5BU5D_t5696*, int32_t, const MethodInfo*))List_1_CopyTo_m10102_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<UnityEngine.Component>::Find(System.Predicate`1<T>)
-#define List_1_Find_m27084(__this, ___match, method) (( Component_t711 * (*) (List_1_t988 *, Predicate_1_t946 *, const MethodInfo*))List_1_Find_m21348_gshared)(__this, ___match, method)
+#define List_1_Find_m27084(__this, ___match, method) (( Component_t712 * (*) (List_1_t988 *, Predicate_1_t946 *, const MethodInfo*))List_1_Find_m21348_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::CheckMatch(System.Predicate`1<T>)
 #define List_1_CheckMatch_m27085(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t946 *, const MethodInfo*))List_1_CheckMatch_m21350_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.Component>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
@@ -106,13 +106,13 @@ struct Comparison_1_t5700;
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<UnityEngine.Component>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m27088(__this, ___index, ___count, method) (( List_1_t988 * (*) (List_1_t988 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21354_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.Component>::IndexOf(T)
-#define List_1_IndexOf_m27089(__this, ___item, method) (( int32_t (*) (List_1_t988 *, Component_t711 *, const MethodInfo*))List_1_IndexOf_m10105_gshared)(__this, ___item, method)
+#define List_1_IndexOf_m27089(__this, ___item, method) (( int32_t (*) (List_1_t988 *, Component_t712 *, const MethodInfo*))List_1_IndexOf_m10105_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::Shift(System.Int32,System.Int32)
 #define List_1_Shift_m27090(__this, ___start, ___delta, method) (( void (*) (List_1_t988 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m21357_gshared)(__this, ___start, ___delta, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::CheckIndex(System.Int32)
 #define List_1_CheckIndex_m27091(__this, ___index, method) (( void (*) (List_1_t988 *, int32_t, const MethodInfo*))List_1_CheckIndex_m21359_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::Insert(System.Int32,T)
-#define List_1_Insert_m27092(__this, ___index, ___item, method) (( void (*) (List_1_t988 *, int32_t, Component_t711 *, const MethodInfo*))List_1_Insert_m10106_gshared)(__this, ___index, ___item, method)
+#define List_1_Insert_m27092(__this, ___index, ___item, method) (( void (*) (List_1_t988 *, int32_t, Component_t712 *, const MethodInfo*))List_1_Insert_m10106_gshared)(__this, ___index, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_CheckCollection_m27093(__this, ___collection, method) (( void (*) (List_1_t988 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m21362_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
@@ -122,7 +122,7 @@ struct Comparison_1_t5700;
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_InsertEnumeration_m27096(__this, ___index, ___enumerable, method) (( void (*) (List_1_t988 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m21368_gshared)(__this, ___index, ___enumerable, method)
 // System.Boolean System.Collections.Generic.List`1<UnityEngine.Component>::Remove(T)
-#define List_1_Remove_m27097(__this, ___item, method) (( bool (*) (List_1_t988 *, Component_t711 *, const MethodInfo*))List_1_Remove_m10103_gshared)(__this, ___item, method)
+#define List_1_Remove_m27097(__this, ___item, method) (( bool (*) (List_1_t988 *, Component_t712 *, const MethodInfo*))List_1_Remove_m10103_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.Component>::RemoveAll(System.Predicate`1<T>)
 #define List_1_RemoveAll_m5922(__this, ___match, method) (( int32_t (*) (List_1_t988 *, Predicate_1_t946 *, const MethodInfo*))List_1_RemoveAll_m21371_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::RemoveAt(System.Int32)
@@ -148,6 +148,6 @@ struct Comparison_1_t5700;
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.Component>::get_Count()
 #define List_1_get_Count_m27108(__this, method) (( int32_t (*) (List_1_t988 *, const MethodInfo*))List_1_get_Count_m10084_gshared)(__this, method)
 // T System.Collections.Generic.List`1<UnityEngine.Component>::get_Item(System.Int32)
-#define List_1_get_Item_m27109(__this, ___index, method) (( Component_t711 * (*) (List_1_t988 *, int32_t, const MethodInfo*))List_1_get_Item_m10107_gshared)(__this, ___index, method)
+#define List_1_get_Item_m27109(__this, ___index, method) (( Component_t712 * (*) (List_1_t988 *, int32_t, const MethodInfo*))List_1_get_Item_m10107_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Component>::set_Item(System.Int32,T)
-#define List_1_set_Item_m27110(__this, ___index, ___value, method) (( void (*) (List_1_t988 *, int32_t, Component_t711 *, const MethodInfo*))List_1_set_Item_m10108_gshared)(__this, ___index, ___value, method)
+#define List_1_set_Item_m27110(__this, ___index, ___value, method) (( void (*) (List_1_t988 *, int32_t, Component_t712 *, const MethodInfo*))List_1_set_Item_m10108_gshared)(__this, ___index, ___value, method)

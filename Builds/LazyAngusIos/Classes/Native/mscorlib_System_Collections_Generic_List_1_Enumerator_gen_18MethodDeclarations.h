@@ -11,12 +11,12 @@ struct Object_t;
 // GoogleMobileAdBanner
 struct GoogleMobileAdBanner_t140;
 // System.Collections.Generic.List`1<GoogleMobileAdBanner>
-struct List_1_t634;
+struct List_1_t635;
 
 // System.Void System.Collections.Generic.List`1/Enumerator<GoogleMobileAdBanner>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m23191(__this, ___l, method) (( void (*) (Enumerator_t5469 *, List_1_t634 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
+#define Enumerator__ctor_m23191(__this, ___l, method) (( void (*) (Enumerator_t5469 *, List_1_t635 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<GoogleMobileAdBanner>::System.Collections.IEnumerator.Reset()
 #define Enumerator_System_Collections_IEnumerator_Reset_m23192(__this, method) (( void (*) (Enumerator_t5469 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21395_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1/Enumerator<GoogleMobileAdBanner>::System.Collections.IEnumerator.get_Current()

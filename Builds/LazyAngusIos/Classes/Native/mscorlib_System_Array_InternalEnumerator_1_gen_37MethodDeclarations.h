@@ -9,7 +9,7 @@ struct InternalEnumerator_1_t5911;
 // System.Object
 struct Object_t;
 // System.Delegate
-struct Delegate_t674;
+struct Delegate_t675;
 // System.Array
 struct Array_t;
 
@@ -26,4 +26,4 @@ struct Array_t;
 // System.Boolean System.Array/InternalEnumerator`1<System.Delegate>::MoveNext()
 #define InternalEnumerator_1_MoveNext_m30177(__this, method) (( bool (*) (InternalEnumerator_1_t5911 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.Delegate>::get_Current()
-#define InternalEnumerator_1_get_Current_m30178(__this, method) (( Delegate_t674 * (*) (InternalEnumerator_1_t5911 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m30178(__this, method) (( Delegate_t675 * (*) (InternalEnumerator_1_t5911 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)

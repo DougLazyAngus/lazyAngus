@@ -11,7 +11,7 @@ struct WebHeaderCollection_t3969;
 // System.String
 struct String_t;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.Net.WebConnectionData
 struct WebConnectionData_t4024;
 // System.Net.CookieContainer
@@ -28,7 +28,7 @@ struct Stream_t51;
 #include "mscorlib_System_DateTime.h"
 
 // System.Void System.Net.HttpWebResponse::.ctor(System.Uri,System.String,System.Net.WebConnectionData,System.Net.CookieContainer)
-extern "C" void HttpWebResponse__ctor_m13747 (HttpWebResponse_t4008 * __this, Uri_t707 * ___uri, String_t* ___method, WebConnectionData_t4024 * ___data, CookieContainer_t3975 * ___container, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HttpWebResponse__ctor_m13747 (HttpWebResponse_t4008 * __this, Uri_t708 * ___uri, String_t* ___method, WebConnectionData_t4024 * ___data, CookieContainer_t3975 * ___container, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.HttpWebResponse::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern "C" void HttpWebResponse__ctor_m13748 (HttpWebResponse_t4008 * __this, SerializationInfo_t2869 * ___serializationInfo, StreamingContext_t2870  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.HttpWebResponse::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)

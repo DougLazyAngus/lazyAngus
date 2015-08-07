@@ -11,7 +11,7 @@ struct Object_t;
 // System.Collections.ArrayList
 struct ArrayList_t3111;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
@@ -19,7 +19,7 @@ struct IEnumerator_t48;
 // System.Collections.IComparer
 struct IComparer_t3914;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Type
 struct Type_t;
 
@@ -80,6 +80,6 @@ extern "C" void ArrayListWrapper_Sort_m16565 (ArrayListWrapper_t4387 * __this, c
 // System.Void System.Collections.ArrayList/ArrayListWrapper::Sort(System.Collections.IComparer)
 extern "C" void ArrayListWrapper_Sort_m16566 (ArrayListWrapper_t4387 * __this, Object_t * ___comparer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Collections.ArrayList/ArrayListWrapper::ToArray()
-extern "C" ObjectU5BU5D_t635* ArrayListWrapper_ToArray_m16567 (ArrayListWrapper_t4387 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* ArrayListWrapper_ToArray_m16567 (ArrayListWrapper_t4387 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Array System.Collections.ArrayList/ArrayListWrapper::ToArray(System.Type)
 extern "C" Array_t * ArrayListWrapper_ToArray_m16568 (ArrayListWrapper_t4387 * __this, Type_t * ___elementType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

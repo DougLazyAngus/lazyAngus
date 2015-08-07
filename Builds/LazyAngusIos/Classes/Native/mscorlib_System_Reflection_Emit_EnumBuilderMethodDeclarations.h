@@ -7,7 +7,7 @@
 // System.Reflection.Emit.EnumBuilder
 struct EnumBuilder_t4465;
 // System.Reflection.Assembly
-struct Assembly_t719;
+struct Assembly_t720;
 // System.String
 struct String_t;
 // System.Type
@@ -25,7 +25,7 @@ struct ParameterModifierU5BU5D_t2904;
 // System.Reflection.ConstructorInfo[]
 struct ConstructorInfoU5BU5D_t1405;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Reflection.EventInfo
 struct EventInfo_t;
 // System.Reflection.FieldInfo
@@ -43,7 +43,7 @@ struct PropertyInfo_t;
 // System.Object
 struct Object_t;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Exception
@@ -58,7 +58,7 @@ struct Exception_t57;
 #include "mscorlib_System_Reflection_CallingConventions.h"
 
 // System.Reflection.Assembly System.Reflection.Emit.EnumBuilder::get_Assembly()
-extern "C" Assembly_t719 * EnumBuilder_get_Assembly_m17400 (EnumBuilder_t4465 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Assembly_t720 * EnumBuilder_get_Assembly_m17400 (EnumBuilder_t4465 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Emit.EnumBuilder::get_AssemblyQualifiedName()
 extern "C" String_t* EnumBuilder_get_AssemblyQualifiedName_m17401 (EnumBuilder_t4465 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.Emit.EnumBuilder::get_BaseType()
@@ -86,9 +86,9 @@ extern "C" ConstructorInfo_t1330 * EnumBuilder_GetConstructorImpl_m17412 (EnumBu
 // System.Reflection.ConstructorInfo[] System.Reflection.Emit.EnumBuilder::GetConstructors(System.Reflection.BindingFlags)
 extern "C" ConstructorInfoU5BU5D_t1405* EnumBuilder_GetConstructors_m17413 (EnumBuilder_t4465 * __this, int32_t ___bindingAttr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.Emit.EnumBuilder::GetCustomAttributes(System.Boolean)
-extern "C" ObjectU5BU5D_t635* EnumBuilder_GetCustomAttributes_m17414 (EnumBuilder_t4465 * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* EnumBuilder_GetCustomAttributes_m17414 (EnumBuilder_t4465 * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.Emit.EnumBuilder::GetCustomAttributes(System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t635* EnumBuilder_GetCustomAttributes_m17415 (EnumBuilder_t4465 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* EnumBuilder_GetCustomAttributes_m17415 (EnumBuilder_t4465 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.Emit.EnumBuilder::GetElementType()
 extern "C" Type_t * EnumBuilder_GetElementType_m17416 (EnumBuilder_t4465 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.EventInfo System.Reflection.Emit.EnumBuilder::GetEvent(System.String,System.Reflection.BindingFlags)
@@ -110,7 +110,7 @@ extern "C" PropertyInfo_t * EnumBuilder_GetPropertyImpl_m17424 (EnumBuilder_t446
 // System.Boolean System.Reflection.Emit.EnumBuilder::HasElementTypeImpl()
 extern "C" bool EnumBuilder_HasElementTypeImpl_m17425 (EnumBuilder_t4465 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.Emit.EnumBuilder::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
-extern "C" Object_t * EnumBuilder_InvokeMember_m17426 (EnumBuilder_t4465 * __this, String_t* ___name, int32_t ___invokeAttr, Binder_t2903 * ___binder, Object_t * ___target, ObjectU5BU5D_t635* ___args, ParameterModifierU5BU5D_t2904* ___modifiers, CultureInfo_t718 * ___culture, StringU5BU5D_t75* ___namedParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * EnumBuilder_InvokeMember_m17426 (EnumBuilder_t4465 * __this, String_t* ___name, int32_t ___invokeAttr, Binder_t2903 * ___binder, Object_t * ___target, ObjectU5BU5D_t636* ___args, ParameterModifierU5BU5D_t2904* ___modifiers, CultureInfo_t719 * ___culture, StringU5BU5D_t75* ___namedParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.EnumBuilder::IsArrayImpl()
 extern "C" bool EnumBuilder_IsArrayImpl_m17427 (EnumBuilder_t4465 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.EnumBuilder::IsByRefImpl()

@@ -5,7 +5,7 @@ struct GraphicU5BU5D_t5786;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.UI.Graphic>
-struct  List_1_t862  : public Object_t
+struct  List_1_t863  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_items
 	GraphicU5BU5D_t5786* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t862  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_version
 	int32_t ____version_3;
 };
-struct List_1_t862_StaticFields{
+struct List_1_t863_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::EmptyArray
 	GraphicU5BU5D_t5786* ___EmptyArray_4;
 };

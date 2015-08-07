@@ -16,5 +16,5 @@ struct  Enumerator_t5980
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::current
-	KeyValuePair_2_t727  ___current_3;
+	KeyValuePair_2_t728  ___current_3;
 };

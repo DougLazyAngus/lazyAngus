@@ -9,7 +9,7 @@ struct XmlNameTable_t3133;
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 
 // System.Void System.Xml.XmlNameTable::.ctor()
 extern "C" void XmlNameTable__ctor_m10743 (XmlNameTable_t3133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

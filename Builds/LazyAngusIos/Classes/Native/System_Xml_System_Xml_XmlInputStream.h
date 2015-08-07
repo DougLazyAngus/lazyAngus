@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.Encoding
-struct Encoding_t689;
+struct Encoding_t690;
 // System.IO.Stream
 struct Stream_t51;
 // System.Byte[]
@@ -14,7 +14,7 @@ struct XmlException_t3181;
 struct  XmlInputStream_t3183  : public Stream_t51
 {
 	// System.Text.Encoding System.Xml.XmlInputStream::enc
-	Encoding_t689 * ___enc_2;
+	Encoding_t690 * ___enc_2;
 	// System.IO.Stream System.Xml.XmlInputStream::stream
 	Stream_t51 * ___stream_3;
 	// System.Byte[] System.Xml.XmlInputStream::buffer
@@ -26,7 +26,7 @@ struct  XmlInputStream_t3183  : public Stream_t51
 };
 struct XmlInputStream_t3183_StaticFields{
 	// System.Text.Encoding System.Xml.XmlInputStream::StrictUTF8
-	Encoding_t689 * ___StrictUTF8_1;
+	Encoding_t690 * ___StrictUTF8_1;
 	// System.Xml.XmlException System.Xml.XmlInputStream::encodingException
 	XmlException_t3181 * ___encodingException_7;
 };

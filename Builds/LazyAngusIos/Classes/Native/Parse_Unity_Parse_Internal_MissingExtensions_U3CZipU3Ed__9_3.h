@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.Func`3<System.Object,System.Object,System.Object>
 struct Func_3_t1141;
 // System.Collections.Generic.IEnumerator`1<System.Object>

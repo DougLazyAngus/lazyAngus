@@ -13,7 +13,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 
 // System.Void System.Collections.Stack::.ctor()
 extern "C" void Stack__ctor_m9943 (Stack_t2847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -40,4 +40,4 @@ extern "C" Object_t * Stack_Pop_m10153 (Stack_t2847 * __this, const MethodInfo* 
 // System.Void System.Collections.Stack::Push(System.Object)
 extern "C" void Stack_Push_m10154 (Stack_t2847 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Collections.Stack::ToArray()
-extern "C" ObjectU5BU5D_t635* Stack_ToArray_m10155 (Stack_t2847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* Stack_ToArray_m10155 (Stack_t2847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.Link[]
 struct LinkU5BU5D_t5345;
 // LevelDescription[]
@@ -15,14 +15,14 @@ struct Transform_1_t5666;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>
-struct  Dictionary_2_t547  : public Object_t
+struct  Dictionary_2_t548  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::table
-	Int32U5BU5D_t548* ___table_4;
+	Int32U5BU5D_t549* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::linkSlots
 	LinkU5BU5D_t5345* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::keySlots
-	Int32U5BU5D_t548* ___keySlots_6;
+	Int32U5BU5D_t549* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::valueSlots
 	LevelDescriptionU5BU5D_t5665* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::touchedSlots
@@ -40,7 +40,7 @@ struct  Dictionary_2_t547  : public Object_t
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t547_StaticFields{
+struct Dictionary_2_t548_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::<>f__am$cacheB
 	Transform_1_t5666 * ___U3CU3Ef__amU24cacheB_15;
 };

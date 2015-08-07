@@ -3,7 +3,7 @@
 // System.Collections.Hashtable/Slot[]
 struct SlotU5BU5D_t4401;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Hashtable/HashKeys
 struct HashKeys_t4398;
 // System.Collections.Hashtable/HashValues
@@ -30,7 +30,7 @@ struct  Hashtable_t1276  : public Object_t
 	// System.Collections.Hashtable/Slot[] System.Collections.Hashtable::table
 	SlotU5BU5D_t4401* ___table_4;
 	// System.Int32[] System.Collections.Hashtable::hashes
-	Int32U5BU5D_t548* ___hashes_5;
+	Int32U5BU5D_t549* ___hashes_5;
 	// System.Int32 System.Collections.Hashtable::threshold
 	int32_t ___threshold_6;
 	// System.Collections.Hashtable/HashKeys System.Collections.Hashtable::hashKeys
@@ -48,5 +48,5 @@ struct  Hashtable_t1276  : public Object_t
 };
 struct Hashtable_t1276_StaticFields{
 	// System.Int32[] System.Collections.Hashtable::primeTbl
-	Int32U5BU5D_t548* ___primeTbl_13;
+	Int32U5BU5D_t549* ___primeTbl_13;
 };

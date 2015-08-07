@@ -9,7 +9,7 @@ struct SortedDictionary_2_t5592;
 // System.Collections.Generic.ICollection`1<System.Object>
 struct ICollection_1_t1170;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IComparer`1<System.Object>

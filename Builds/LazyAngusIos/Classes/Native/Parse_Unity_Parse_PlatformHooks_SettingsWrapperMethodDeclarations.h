@@ -48,11 +48,11 @@ extern "C" Object_t * SettingsWrapper_get_Item_m6866 (SettingsWrapper_t1267 * __
 // System.Void Parse.PlatformHooks/SettingsWrapper::set_Item(System.String,System.Object)
 extern "C" void SettingsWrapper_set_Item_m6867 (SettingsWrapper_t1267 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.PlatformHooks/SettingsWrapper::Add(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern "C" void SettingsWrapper_Add_m6868 (SettingsWrapper_t1267 * __this, KeyValuePair_2_t727  ___item, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SettingsWrapper_Add_m6868 (SettingsWrapper_t1267 * __this, KeyValuePair_2_t728  ___item, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.PlatformHooks/SettingsWrapper::Clear()
 extern "C" void SettingsWrapper_Clear_m6869 (SettingsWrapper_t1267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.PlatformHooks/SettingsWrapper::Contains(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern "C" bool SettingsWrapper_Contains_m6870 (SettingsWrapper_t1267 * __this, KeyValuePair_2_t727  ___item, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SettingsWrapper_Contains_m6870 (SettingsWrapper_t1267 * __this, KeyValuePair_2_t728  ___item, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.PlatformHooks/SettingsWrapper::CopyTo(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>[],System.Int32)
 extern "C" void SettingsWrapper_CopyTo_m6871 (SettingsWrapper_t1267 * __this, KeyValuePair_2U5BU5D_t1361* ___array, int32_t ___arrayIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Parse.PlatformHooks/SettingsWrapper::get_Count()
@@ -60,7 +60,7 @@ extern "C" int32_t SettingsWrapper_get_Count_m6872 (SettingsWrapper_t1267 * __th
 // System.Boolean Parse.PlatformHooks/SettingsWrapper::get_IsReadOnly()
 extern "C" bool SettingsWrapper_get_IsReadOnly_m6873 (SettingsWrapper_t1267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.PlatformHooks/SettingsWrapper::Remove(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern "C" bool SettingsWrapper_Remove_m6874 (SettingsWrapper_t1267 * __this, KeyValuePair_2_t727  ___item, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SettingsWrapper_Remove_m6874 (SettingsWrapper_t1267 * __this, KeyValuePair_2_t728  ___item, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>> Parse.PlatformHooks/SettingsWrapper::GetEnumerator()
 extern "C" Object_t* SettingsWrapper_GetEnumerator_m6875 (SettingsWrapper_t1267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator Parse.PlatformHooks/SettingsWrapper::System.Collections.IEnumerable.GetEnumerator()

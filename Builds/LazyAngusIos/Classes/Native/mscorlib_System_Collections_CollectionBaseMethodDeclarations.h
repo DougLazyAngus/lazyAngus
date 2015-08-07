@@ -11,7 +11,7 @@ struct Object_t;
 // System.Collections.ArrayList
 struct ArrayList_t3111;
 // System.Collections.IList
-struct IList_t639;
+struct IList_t640;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator

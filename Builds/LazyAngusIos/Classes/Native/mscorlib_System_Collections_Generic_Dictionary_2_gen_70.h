@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.Link[]
 struct LinkU5BU5D_t5345;
 // System.UInt64[]
 struct UInt64U5BU5D_t4664;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Collections.Generic.IEqualityComparer`1<System.UInt64>
 struct IEqualityComparer_1_t8403;
 // System.Runtime.Serialization.SerializationInfo
@@ -20,13 +20,13 @@ struct Transform_1_t8404;
 struct  Dictionary_2_t8405  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::table
-	Int32U5BU5D_t548* ___table_4;
+	Int32U5BU5D_t549* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::linkSlots
 	LinkU5BU5D_t5345* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::keySlots
 	UInt64U5BU5D_t4664* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::valueSlots
-	ObjectU5BU5D_t635* ___valueSlots_7;
+	ObjectU5BU5D_t636* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::emptySlot

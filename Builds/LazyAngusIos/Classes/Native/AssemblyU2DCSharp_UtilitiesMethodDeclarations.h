@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Utilities
-struct Utilities_t625;
+struct Utilities_t626;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // System.String
@@ -15,18 +15,18 @@ struct IEnumerator_t48;
 // UnityEngine.GameObject[]
 struct GameObjectU5BU5D_t467;
 // System.Single[]
-struct SingleU5BU5D_t543;
+struct SingleU5BU5D_t544;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Void Utilities::.ctor()
-extern "C" void Utilities__ctor_m3374 (Utilities_t625 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Utilities__ctor_m3374 (Utilities_t626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Utilities::.cctor()
 extern "C" void Utilities__cctor_m3375 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single Utilities::GetZAngle(UnityEngine.Vector3)
-extern "C" float Utilities_GetZAngle_m3376 (Object_t * __this /* static, unused */, Vector3_t496  ___vector, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Utilities_GetZAngle_m3376 (Object_t * __this /* static, unused */, Vector3_t497  ___vector, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject Utilities::FindChildWithTag(UnityEngine.GameObject,System.String)
 extern "C" GameObject_t352 * Utilities_FindChildWithTag_m3377 (Object_t * __this /* static, unused */, GameObject_t352 * ___gameObject, String_t* ___tag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color Utilities::TrafficLightColorLerp(System.Single)
@@ -50,6 +50,6 @@ extern "C" float Utilities_GetIOSVersion_m3386 (Object_t * __this /* static, unu
 // System.Single Utilities::SecondsSinceEpoch()
 extern "C" float Utilities_SecondsSinceEpoch_m3387 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single[] Utilities::GetBlendingCoefficients(System.Single,System.Int32)
-extern "C" SingleU5BU5D_t543* Utilities_GetBlendingCoefficients_m3388 (Object_t * __this /* static, unused */, float ___t, int32_t ___numPoints, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SingleU5BU5D_t544* Utilities_GetBlendingCoefficients_m3388 (Object_t * __this /* static, unused */, float ___t, int32_t ___numPoints, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Utilities::ParseIntWithDefault(System.String,System.Int32)
 extern "C" int32_t Utilities_ParseIntWithDefault_m3389 (Object_t * __this /* static, unused */, String_t* ___text, int32_t ___defaultValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;

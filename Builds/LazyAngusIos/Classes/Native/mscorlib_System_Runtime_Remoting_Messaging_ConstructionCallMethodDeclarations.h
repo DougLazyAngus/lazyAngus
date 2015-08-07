@@ -13,11 +13,11 @@ struct String_t;
 // System.Runtime.Remoting.Activation.IActivator
 struct IActivator_t4537;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Collections.IList
-struct IList_t639;
+struct IList_t640;
 // System.Collections.IDictionary
-struct IDictionary_t638;
+struct IDictionary_t639;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2869;
 // System.Object
@@ -42,9 +42,9 @@ extern "C" Object_t * ConstructionCall_get_Activator_m17988 (ConstructionCall_t4
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::set_Activator(System.Runtime.Remoting.Activation.IActivator)
 extern "C" void ConstructionCall_set_Activator_m17989 (ConstructionCall_t4560 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Runtime.Remoting.Messaging.ConstructionCall::get_CallSiteActivationAttributes()
-extern "C" ObjectU5BU5D_t635* ConstructionCall_get_CallSiteActivationAttributes_m17990 (ConstructionCall_t4560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* ConstructionCall_get_CallSiteActivationAttributes_m17990 (ConstructionCall_t4560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::SetActivationAttributes(System.Object[])
-extern "C" void ConstructionCall_SetActivationAttributes_m17991 (ConstructionCall_t4560 * __this, ObjectU5BU5D_t635* ___attributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionCall_SetActivationAttributes_m17991 (ConstructionCall_t4560 * __this, ObjectU5BU5D_t636* ___attributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IList System.Runtime.Remoting.Messaging.ConstructionCall::get_ContextProperties()
 extern "C" Object_t * ConstructionCall_get_ContextProperties_m17992 (ConstructionCall_t4560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::InitMethodProperty(System.String,System.Object)

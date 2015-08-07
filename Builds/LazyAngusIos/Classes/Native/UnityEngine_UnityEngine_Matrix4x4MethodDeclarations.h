@@ -58,23 +58,23 @@ extern "C" void Matrix4x4_SetColumn_m8901 (Matrix4x4_t1024 * __this, int32_t ___
 // System.Void UnityEngine.Matrix4x4::SetRow(System.Int32,UnityEngine.Vector4)
 extern "C" void Matrix4x4_SetRow_m8902 (Matrix4x4_t1024 * __this, int32_t ___i, Vector4_t984  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Matrix4x4::MultiplyPoint(UnityEngine.Vector3)
-extern "C" Vector3_t496  Matrix4x4_MultiplyPoint_m8903 (Matrix4x4_t1024 * __this, Vector3_t496  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t497  Matrix4x4_MultiplyPoint_m8903 (Matrix4x4_t1024 * __this, Vector3_t497  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Matrix4x4::MultiplyPoint3x4(UnityEngine.Vector3)
-extern "C" Vector3_t496  Matrix4x4_MultiplyPoint3x4_m5841 (Matrix4x4_t1024 * __this, Vector3_t496  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t497  Matrix4x4_MultiplyPoint3x4_m5841 (Matrix4x4_t1024 * __this, Vector3_t497  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Matrix4x4::MultiplyVector(UnityEngine.Vector3)
-extern "C" Vector3_t496  Matrix4x4_MultiplyVector_m8904 (Matrix4x4_t1024 * __this, Vector3_t496  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t497  Matrix4x4_MultiplyVector_m8904 (Matrix4x4_t1024 * __this, Vector3_t497  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::Scale(UnityEngine.Vector3)
-extern "C" Matrix4x4_t1024  Matrix4x4_Scale_m8905 (Object_t * __this /* static, unused */, Vector3_t496  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1024  Matrix4x4_Scale_m8905 (Object_t * __this /* static, unused */, Vector3_t497  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::get_zero()
 extern "C" Matrix4x4_t1024  Matrix4x4_get_zero_m8906 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::get_identity()
 extern "C" Matrix4x4_t1024  Matrix4x4_get_identity_m8907 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Matrix4x4::SetTRS(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
-extern "C" void Matrix4x4_SetTRS_m8908 (Matrix4x4_t1024 * __this, Vector3_t496  ___pos, Quaternion_t734  ___q, Vector3_t496  ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Matrix4x4_SetTRS_m8908 (Matrix4x4_t1024 * __this, Vector3_t497  ___pos, Quaternion_t735  ___q, Vector3_t497  ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::TRS(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
-extern "C" Matrix4x4_t1024  Matrix4x4_TRS_m8909 (Object_t * __this /* static, unused */, Vector3_t496  ___pos, Quaternion_t734  ___q, Vector3_t496  ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1024  Matrix4x4_TRS_m8909 (Object_t * __this /* static, unused */, Vector3_t497  ___pos, Quaternion_t735  ___q, Vector3_t497  ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::INTERNAL_CALL_TRS(UnityEngine.Vector3&,UnityEngine.Quaternion&,UnityEngine.Vector3&)
-extern "C" Matrix4x4_t1024  Matrix4x4_INTERNAL_CALL_TRS_m8910 (Object_t * __this /* static, unused */, Vector3_t496 * ___pos, Quaternion_t734 * ___q, Vector3_t496 * ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1024  Matrix4x4_INTERNAL_CALL_TRS_m8910 (Object_t * __this /* static, unused */, Vector3_t497 * ___pos, Quaternion_t735 * ___q, Vector3_t497 * ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Matrix4x4::ToString()
 extern "C" String_t* Matrix4x4_ToString_m8911 (Matrix4x4_t1024 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Matrix4x4::ToString(System.String)

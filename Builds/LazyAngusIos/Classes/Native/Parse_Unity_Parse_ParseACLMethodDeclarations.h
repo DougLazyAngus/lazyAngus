@@ -7,7 +7,7 @@
 // Parse.ParseACL
 struct ParseACL_t1163;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // Parse.ParseUser
 struct ParseUser_t1253;
 // System.String
@@ -72,10 +72,10 @@ extern "C" bool ParseACL_GetRoleWriteAccess_m6365 (ParseACL_t1163 * __this, Stri
 // System.Boolean Parse.ParseACL::GetRoleWriteAccess(Parse.ParseRole)
 extern "C" bool ParseACL_GetRoleWriteAccess_m6366 (ParseACL_t1163 * __this, ParseRole_t1248 * ___role, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.ParseACL::<.ctor>b__0(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern "C" bool ParseACL_U3C_ctorU3Eb__0_m6367 (Object_t * __this /* static, unused */, KeyValuePair_2_t727  ___pair, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ParseACL_U3C_ctorU3Eb__0_m6367 (Object_t * __this /* static, unused */, KeyValuePair_2_t728  ___pair, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.ParseACL::<.ctor>b__1(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern "C" String_t* ParseACL_U3C_ctorU3Eb__1_m6368 (Object_t * __this /* static, unused */, KeyValuePair_2_t727  ___pair, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParseACL_U3C_ctorU3Eb__1_m6368 (Object_t * __this /* static, unused */, KeyValuePair_2_t728  ___pair, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.ParseACL::<.ctor>b__2(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern "C" bool ParseACL_U3C_ctorU3Eb__2_m6369 (Object_t * __this /* static, unused */, KeyValuePair_2_t727  ___pair, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ParseACL_U3C_ctorU3Eb__2_m6369 (Object_t * __this /* static, unused */, KeyValuePair_2_t728  ___pair, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.ParseACL::<.ctor>b__3(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern "C" String_t* ParseACL_U3C_ctorU3Eb__3_m6370 (Object_t * __this /* static, unused */, KeyValuePair_2_t727  ___pair, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParseACL_U3C_ctorU3Eb__3_m6370 (Object_t * __this /* static, unused */, KeyValuePair_2_t728  ___pair, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -3,7 +3,7 @@
 #include "mscorlib_System_Array.h"
 // UnityEngine.GUILayoutOption[]
 // UnityEngine.GUILayoutOption[]
-struct  GUILayoutOptionU5BU5D_t650  : public Array_t
+struct  GUILayoutOptionU5BU5D_t651  : public Array_t
 {
 };
 // UnityEngine.Texture2D[]
@@ -33,7 +33,7 @@ struct  ObjectU5BU5D_t2848  : public Array_t
 };
 // UnityEngine.TextMesh[]
 // UnityEngine.TextMesh[]
-struct  TextMeshU5BU5D_t710  : public Array_t
+struct  TextMeshU5BU5D_t711  : public Array_t
 {
 };
 // UnityEngine.GameObject[]
@@ -43,17 +43,17 @@ struct  GameObjectU5BU5D_t467  : public Array_t
 };
 // UnityEngine.Vector3[]
 // UnityEngine.Vector3[]
-struct  Vector3U5BU5D_t504  : public Array_t
+struct  Vector3U5BU5D_t505  : public Array_t
 {
 };
 // UnityEngine.Material[]
 // UnityEngine.Material[]
-struct  MaterialU5BU5D_t746  : public Array_t
+struct  MaterialU5BU5D_t747  : public Array_t
 {
 };
 // UnityEngine.AudioSource[]
 // UnityEngine.AudioSource[]
-struct  AudioSourceU5BU5D_t593  : public Array_t
+struct  AudioSourceU5BU5D_t594  : public Array_t
 {
 };
 // UnityEngine.Transform[]
@@ -80,10 +80,10 @@ struct FontU5BU5D_t5754_StaticFields{
 };
 // UnityEngine.UIVertex[]
 // UnityEngine.UIVertex[]
-struct  UIVertexU5BU5D_t888  : public Array_t
+struct  UIVertexU5BU5D_t889  : public Array_t
 {
 };
-struct UIVertexU5BU5D_t888_StaticFields{
+struct UIVertexU5BU5D_t889_StaticFields{
 };
 // UnityEngine.Canvas[]
 // UnityEngine.Canvas[]
@@ -94,7 +94,7 @@ struct CanvasU5BU5D_t5780_StaticFields{
 };
 // UnityEngine.Vector2[]
 // UnityEngine.Vector2[]
-struct  Vector2U5BU5D_t874  : public Array_t
+struct  Vector2U5BU5D_t875  : public Array_t
 {
 };
 // UnityEngine.UILineInfo[]

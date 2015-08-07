@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // Mono.Globalization.Unicode.TailoringInfo[]
 struct TailoringInfoU5BU5D_t4326;
 // System.Object
@@ -46,7 +46,7 @@ struct MSCompatUnicodeTable_t4327_StaticFields{
 	// System.Byte* Mono.Globalization.Unicode.MSCompatUnicodeTable::cjkKOlv2
 	uint8_t* ___cjkKOlv2_14;
 	// System.Char[] Mono.Globalization.Unicode.MSCompatUnicodeTable::tailoringArr
-	CharU5BU5D_t660* ___tailoringArr_15;
+	CharU5BU5D_t661* ___tailoringArr_15;
 	// Mono.Globalization.Unicode.TailoringInfo[] Mono.Globalization.Unicode.MSCompatUnicodeTable::tailoringInfos
 	TailoringInfoU5BU5D_t4326* ___tailoringInfos_16;
 	// System.Object Mono.Globalization.Unicode.MSCompatUnicodeTable::forLock

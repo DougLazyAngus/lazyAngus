@@ -11,7 +11,7 @@ struct String_t;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IList`1<System.String>
-struct IList_1_t646;
+struct IList_1_t647;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator

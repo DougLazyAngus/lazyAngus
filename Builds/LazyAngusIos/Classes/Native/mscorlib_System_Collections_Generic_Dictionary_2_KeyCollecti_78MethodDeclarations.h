@@ -17,7 +17,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_142.h"
 
@@ -46,7 +46,7 @@ struct Int32U5BU5D_t548;
 // System.Object System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::System.Collections.ICollection.get_SyncRoot()
 #define KeyCollection_System_Collections_ICollection_get_SyncRoot_m59568(__this, method) (( Object_t * (*) (KeyCollection_t8324 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m20981_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::CopyTo(TKey[],System.Int32)
-#define KeyCollection_CopyTo_m59569(__this, ___array, ___index, method) (( void (*) (KeyCollection_t8324 *, Int32U5BU5D_t548*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m20982_gshared)(__this, ___array, ___index, method)
+#define KeyCollection_CopyTo_m59569(__this, ___array, ___index, method) (( void (*) (KeyCollection_t8324 *, Int32U5BU5D_t549*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m20982_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::GetEnumerator()
 #define KeyCollection_GetEnumerator_m59570(__this, method) (( Enumerator_t9495  (*) (KeyCollection_t8324 *, const MethodInfo*))KeyCollection_GetEnumerator_m20983_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::get_Count()

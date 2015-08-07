@@ -102,7 +102,7 @@ struct Comparison_1_t5465;
 // System.Int32 System.Collections.Generic.List`1<GADTestDevice>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
 #define List_1_GetIndex_m23021(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t146 *, int32_t, int32_t, Predicate_1_t5464 *, const MethodInfo*))List_1_GetIndex_m21352_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<GADTestDevice>::GetEnumerator()
-#define List_1_GetEnumerator_m3534(__this, method) (( Enumerator_t676  (*) (List_1_t146 *, const MethodInfo*))List_1_GetEnumerator_m3630_gshared)(__this, method)
+#define List_1_GetEnumerator_m3534(__this, method) (( Enumerator_t677  (*) (List_1_t146 *, const MethodInfo*))List_1_GetEnumerator_m3630_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<GADTestDevice>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m23022(__this, ___index, ___count, method) (( List_1_t146 * (*) (List_1_t146 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21354_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<GADTestDevice>::IndexOf(T)

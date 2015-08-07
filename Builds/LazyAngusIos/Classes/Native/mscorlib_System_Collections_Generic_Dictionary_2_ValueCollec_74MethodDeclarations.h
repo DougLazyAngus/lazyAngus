@@ -17,7 +17,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_75.h"
 
@@ -55,8 +55,8 @@ extern "C" bool ValueCollection_System_Collections_ICollection_get_IsSynchronize
 extern "C" Object_t * ValueCollection_System_Collections_ICollection_get_SyncRoot_m59078_gshared (ValueCollection_t8273 * __this, const MethodInfo* method);
 #define ValueCollection_System_Collections_ICollection_get_SyncRoot_m59078(__this, method) (( Object_t * (*) (ValueCollection_t8273 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m59078_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int64,System.Int32>::CopyTo(TValue[],System.Int32)
-extern "C" void ValueCollection_CopyTo_m59079_gshared (ValueCollection_t8273 * __this, Int32U5BU5D_t548* ___array, int32_t ___index, const MethodInfo* method);
-#define ValueCollection_CopyTo_m59079(__this, ___array, ___index, method) (( void (*) (ValueCollection_t8273 *, Int32U5BU5D_t548*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m59079_gshared)(__this, ___array, ___index, method)
+extern "C" void ValueCollection_CopyTo_m59079_gshared (ValueCollection_t8273 * __this, Int32U5BU5D_t549* ___array, int32_t ___index, const MethodInfo* method);
+#define ValueCollection_CopyTo_m59079(__this, ___array, ___index, method) (( void (*) (ValueCollection_t8273 *, Int32U5BU5D_t549*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m59079_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int64,System.Int32>::GetEnumerator()
 extern "C" Enumerator_t8274  ValueCollection_GetEnumerator_m59080_gshared (ValueCollection_t8273 * __this, const MethodInfo* method);
 #define ValueCollection_GetEnumerator_m59080(__this, method) (( Enumerator_t8274  (*) (ValueCollection_t8273 *, const MethodInfo*))ValueCollection_GetEnumerator_m59080_gshared)(__this, method)

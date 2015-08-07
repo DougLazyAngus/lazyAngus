@@ -11,7 +11,7 @@ struct ICollection_1_t8964;
 // System.Collections.Generic.ICollection`1<System.Object>
 struct ICollection_1_t1170;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>

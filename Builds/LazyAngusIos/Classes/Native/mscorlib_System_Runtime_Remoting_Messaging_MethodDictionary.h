@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.IDictionary
-struct IDictionary_t638;
+struct IDictionary_t639;
 // System.Runtime.Remoting.Messaging.IMethodMessage
 struct IMethodMessage_t4570;
 // System.String[]

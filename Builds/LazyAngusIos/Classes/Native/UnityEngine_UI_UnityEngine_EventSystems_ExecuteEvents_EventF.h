@@ -3,7 +3,7 @@
 // UnityEngine.EventSystems.IDeselectHandler
 struct IDeselectHandler_t975;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t783;
+struct BaseEventData_t784;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IDeselectHandler>
-struct  EventFunction_1_t806  : public MulticastDelegate_t388
+struct  EventFunction_1_t807  : public MulticastDelegate_t388
 {
 };

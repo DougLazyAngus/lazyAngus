@@ -22,6 +22,6 @@ struct AndroidTwitterManager_t310;
 // System.Boolean SA_Singleton`1<AndroidTwitterManager>::get_IsDestroyed()
 #define SA_Singleton_1_get_IsDestroyed_m25080(__this /* static, unused */, method) (( bool (*) (Object_t * /* static, unused */, const MethodInfo*))SA_Singleton_1_get_IsDestroyed_m23053_gshared)(__this /* static, unused */, method)
 // System.Void SA_Singleton`1<AndroidTwitterManager>::OnDestroy()
-#define SA_Singleton_1_OnDestroy_m4247(__this, method) (( void (*) (SA_Singleton_1_t311 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m23054_gshared)(__this, method)
+#define SA_Singleton_1_OnDestroy_m4248(__this, method) (( void (*) (SA_Singleton_1_t311 *, const MethodInfo*))SA_Singleton_1_OnDestroy_m23054_gshared)(__this, method)
 // System.Void SA_Singleton`1<AndroidTwitterManager>::OnApplicationQuit()
-#define SA_Singleton_1_OnApplicationQuit_m4248(__this, method) (( void (*) (SA_Singleton_1_t311 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m23055_gshared)(__this, method)
+#define SA_Singleton_1_OnApplicationQuit_m4249(__this, method) (( void (*) (SA_Singleton_1_t311 *, const MethodInfo*))SA_Singleton_1_OnApplicationQuit_m23055_gshared)(__this, method)

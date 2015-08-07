@@ -11,7 +11,7 @@ struct Dictionary_2_t312;
 // System.Collections.Generic.IList`1<System.Object>
 struct IList_1_t1324;
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>[]
-struct Dictionary_2U5BU5D_t725;
+struct Dictionary_2U5BU5D_t726;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.Dictionary`2<System.String,System.Object>>
 struct IEnumerator_1_t9223;
 // System.Collections.IEnumerator
@@ -40,7 +40,7 @@ struct Object_t;
 // System.Boolean Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Object>::Contains(TOut)
 #define FlexibleListWrapper_2_Contains_m44394(__this, ___item, method) (( bool (*) (FlexibleListWrapper_2_t1784 *, Dictionary_2_t312 *, const MethodInfo*))FlexibleListWrapper_2_Contains_m31014_gshared)(__this, ___item, method)
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Object>::CopyTo(TOut[],System.Int32)
-#define FlexibleListWrapper_2_CopyTo_m44395(__this, ___array, ___arrayIndex, method) (( void (*) (FlexibleListWrapper_2_t1784 *, Dictionary_2U5BU5D_t725*, int32_t, const MethodInfo*))FlexibleListWrapper_2_CopyTo_m31015_gshared)(__this, ___array, ___arrayIndex, method)
+#define FlexibleListWrapper_2_CopyTo_m44395(__this, ___array, ___arrayIndex, method) (( void (*) (FlexibleListWrapper_2_t1784 *, Dictionary_2U5BU5D_t726*, int32_t, const MethodInfo*))FlexibleListWrapper_2_CopyTo_m31015_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Int32 Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Object>::get_Count()
 #define FlexibleListWrapper_2_get_Count_m44396(__this, method) (( int32_t (*) (FlexibleListWrapper_2_t1784 *, const MethodInfo*))FlexibleListWrapper_2_get_Count_m31016_gshared)(__this, method)
 // System.Boolean Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Object>::get_IsReadOnly()

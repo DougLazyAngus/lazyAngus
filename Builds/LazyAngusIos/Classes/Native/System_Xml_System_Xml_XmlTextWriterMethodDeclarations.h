@@ -11,7 +11,7 @@ struct String_t;
 // System.IO.TextWriter
 struct TextWriter_t3229;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.Exception
 struct Exception_t57;
 // System.Xml.XmlSpace
@@ -88,9 +88,9 @@ extern "C" void XmlTextWriter_WriteEscapedString_m11148 (XmlTextWriter_t3232 * _
 // System.Void System.Xml.XmlTextWriter::WriteCheckedString(System.String)
 extern "C" void XmlTextWriter_WriteCheckedString_m11149 (XmlTextWriter_t3232 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteCheckedBuffer(System.Char[],System.Int32,System.Int32)
-extern "C" void XmlTextWriter_WriteCheckedBuffer_m11150 (XmlTextWriter_t3232 * __this, CharU5BU5D_t660* ___text, int32_t ___idx, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteCheckedBuffer_m11150 (XmlTextWriter_t3232 * __this, CharU5BU5D_t661* ___text, int32_t ___idx, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlTextWriter::WriteEscapedBuffer(System.Char[],System.Int32,System.Int32,System.Boolean)
-extern "C" void XmlTextWriter_WriteEscapedBuffer_m11151 (XmlTextWriter_t3232 * __this, CharU5BU5D_t660* ___text, int32_t ___index, int32_t ___length, bool ___isAttribute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlTextWriter_WriteEscapedBuffer_m11151 (XmlTextWriter_t3232 * __this, CharU5BU5D_t661* ___text, int32_t ___index, int32_t ___length, bool ___isAttribute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Xml.XmlTextWriter::ArgumentError(System.String)
 extern "C" Exception_t57 * XmlTextWriter_ArgumentError_m11152 (XmlTextWriter_t3232 * __this, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Xml.XmlTextWriter::InvalidOperation(System.String)

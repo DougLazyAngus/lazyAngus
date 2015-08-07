@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // ThrobForEffect
-struct ThrobForEffect_t562;
+struct ThrobForEffect_t563;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // TipConfig
 struct TipConfig_t473;
 // MouseHole/MousePopChangedEventHandler
-struct MousePopChangedEventHandler_t560;
+struct MousePopChangedEventHandler_t561;
 // MouseHole/CapacityChangedEventHandler
-struct CapacityChangedEventHandler_t561;
+struct CapacityChangedEventHandler_t562;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
@@ -17,16 +17,16 @@ struct CapacityChangedEventHandler_t561;
 // MouseHole/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
 // MouseHole
-struct  MouseHole_t529  : public MonoBehaviour_t13
+struct  MouseHole_t530  : public MonoBehaviour_t13
 {
 	// UnityEngine.Vector3 MouseHole::meterOffset
-	Vector3_t496  ___meterOffset_2;
+	Vector3_t497  ___meterOffset_2;
 	// MouseHole/MouseHoleLocation MouseHole::mouseHoleLocation
 	int32_t ___mouseHoleLocation_3;
 	// System.Int32 MouseHole::savedMouseCount
 	int32_t ___savedMouseCount_5;
 	// ThrobForEffect MouseHole::throbForEffect
-	ThrobForEffect_t562 * ___throbForEffect_6;
+	ThrobForEffect_t563 * ___throbForEffect_6;
 	// UnityEngine.GameObject MouseHole::holeMeterPrototype
 	GameObject_t352 * ___holeMeterPrototype_7;
 	// TipConfig MouseHole::mouseHoleTip
@@ -36,11 +36,11 @@ struct  MouseHole_t529  : public MonoBehaviour_t13
 	// System.Boolean MouseHole::registeredForEvents
 	bool ___registeredForEvents_10;
 	// MouseHole/MousePopChangedEventHandler MouseHole::MousePopChanged
-	MousePopChangedEventHandler_t560 * ___MousePopChanged_11;
+	MousePopChangedEventHandler_t561 * ___MousePopChanged_11;
 	// MouseHole/CapacityChangedEventHandler MouseHole::CapacityChanged
-	CapacityChangedEventHandler_t561 * ___CapacityChanged_12;
+	CapacityChangedEventHandler_t562 * ___CapacityChanged_12;
 };
-struct MouseHole_t529_StaticFields{
+struct MouseHole_t530_StaticFields{
 	// System.Single MouseHole::angleBetweenHoles
 	float ___angleBetweenHoles_4;
 };

@@ -15,7 +15,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Collections.Generic.IEnumerator`1<System.Object>
 struct IEnumerator_1_t105;
 
@@ -95,8 +95,8 @@ extern "C" void ReadOnlyCollection_1_System_Collections_IList_set_Item_m21421_gs
 extern "C" bool ReadOnlyCollection_1_Contains_m21422_gshared (ReadOnlyCollection_1_t1132 * __this, Object_t * ___value, const MethodInfo* method);
 #define ReadOnlyCollection_1_Contains_m21422(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t1132 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_Contains_m21422_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>::CopyTo(T[],System.Int32)
-extern "C" void ReadOnlyCollection_1_CopyTo_m21423_gshared (ReadOnlyCollection_1_t1132 * __this, ObjectU5BU5D_t635* ___array, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_CopyTo_m21423(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t1132 *, ObjectU5BU5D_t635*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m21423_gshared)(__this, ___array, ___index, method)
+extern "C" void ReadOnlyCollection_1_CopyTo_m21423_gshared (ReadOnlyCollection_1_t1132 * __this, ObjectU5BU5D_t636* ___array, int32_t ___index, const MethodInfo* method);
+#define ReadOnlyCollection_1_CopyTo_m21423(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t1132 *, ObjectU5BU5D_t636*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m21423_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>::GetEnumerator()
 extern "C" Object_t* ReadOnlyCollection_1_GetEnumerator_m21424_gshared (ReadOnlyCollection_1_t1132 * __this, const MethodInfo* method);
 #define ReadOnlyCollection_1_GetEnumerator_m21424(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t1132 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m21424_gshared)(__this, method)

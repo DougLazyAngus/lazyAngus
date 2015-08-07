@@ -9,7 +9,7 @@ struct ListDictionary_t3123;
 // System.Object
 struct Object_t;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Collections.IComparer
 struct IComparer_t3914;
 // System.Collections.IEnumerator

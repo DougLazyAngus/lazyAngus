@@ -11,7 +11,7 @@ struct Match_t1323;
 // System.Object
 struct Object_t;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator

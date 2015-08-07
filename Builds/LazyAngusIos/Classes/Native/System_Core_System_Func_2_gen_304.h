@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<System.Int32>
-struct List_1_t744;
+struct List_1_t745;
 // System.Object
 struct Object_t;
 // System.IAsyncResult

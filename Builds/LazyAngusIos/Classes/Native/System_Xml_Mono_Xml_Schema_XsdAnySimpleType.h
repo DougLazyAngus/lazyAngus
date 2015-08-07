@@ -3,7 +3,7 @@
 // Mono.Xml.Schema.XsdAnySimpleType
 struct XsdAnySimpleType_t3049;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.Xml.Schema.XmlSchemaDatatype
 #include "System_Xml_System_Xml_Schema_XmlSchemaDatatype.h"
 // System.Xml.Schema.XmlSchemaFacet/Facet
@@ -16,7 +16,7 @@ struct XsdAnySimpleType_t3049_StaticFields{
 	// Mono.Xml.Schema.XsdAnySimpleType Mono.Xml.Schema.XsdAnySimpleType::instance
 	XsdAnySimpleType_t3049 * ___instance_55;
 	// System.Char[] Mono.Xml.Schema.XsdAnySimpleType::whitespaceArray
-	CharU5BU5D_t660* ___whitespaceArray_56;
+	CharU5BU5D_t661* ___whitespaceArray_56;
 	// System.Xml.Schema.XmlSchemaFacet/Facet Mono.Xml.Schema.XsdAnySimpleType::booleanAllowedFacets
 	int32_t ___booleanAllowedFacets_57;
 	// System.Xml.Schema.XmlSchemaFacet/Facet Mono.Xml.Schema.XsdAnySimpleType::decimalAllowedFacets

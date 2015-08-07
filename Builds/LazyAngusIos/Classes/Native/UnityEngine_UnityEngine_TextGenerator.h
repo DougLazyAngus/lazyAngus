@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct List_1_t891;
+struct List_1_t892;
 // System.Collections.Generic.List`1<UnityEngine.UICharInfo>
 struct List_1_t2739;
 // System.Collections.Generic.List`1<UnityEngine.UILineInfo>
@@ -15,7 +15,7 @@ struct List_1_t2740;
 // UnityEngine.TextGenerationSettings
 #include "UnityEngine_UnityEngine_TextGenerationSettings.h"
 // UnityEngine.TextGenerator
-struct  TextGenerator_t890  : public Object_t
+struct  TextGenerator_t891  : public Object_t
 {
 	// System.IntPtr UnityEngine.TextGenerator::m_Ptr
 	IntPtr_t ___m_Ptr_0;
@@ -28,7 +28,7 @@ struct  TextGenerator_t890  : public Object_t
 	// System.Boolean UnityEngine.TextGenerator::m_LastValid
 	bool ___m_LastValid_4;
 	// System.Collections.Generic.List`1<UnityEngine.UIVertex> UnityEngine.TextGenerator::m_Verts
-	List_1_t891 * ___m_Verts_5;
+	List_1_t892 * ___m_Verts_5;
 	// System.Collections.Generic.List`1<UnityEngine.UICharInfo> UnityEngine.TextGenerator::m_Characters
 	List_1_t2739 * ___m_Characters_6;
 	// System.Collections.Generic.List`1<UnityEngine.UILineInfo> UnityEngine.TextGenerator::m_Lines

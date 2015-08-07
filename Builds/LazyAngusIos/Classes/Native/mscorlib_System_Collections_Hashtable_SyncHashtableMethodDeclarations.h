@@ -9,7 +9,7 @@ struct SyncHashtable_t4400;
 // System.Object
 struct Object_t;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Collections.Hashtable
 struct Hashtable_t1276;
 // System.Runtime.Serialization.SerializationInfo

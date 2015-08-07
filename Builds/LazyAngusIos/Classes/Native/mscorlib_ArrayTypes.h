@@ -8,7 +8,7 @@ struct  KeyValuePair_2U5BU5D_t8639  : public Array_t
 };
 // System.Object[]
 // System.Object[]
-struct  ObjectU5BU5D_t635  : public Array_t
+struct  ObjectU5BU5D_t636  : public Array_t
 {
 };
 // System.ValueType[]
@@ -55,7 +55,7 @@ struct  IEquatable_1U5BU5D_t9637  : public Array_t
 };
 // System.Int32[]
 // System.Int32[]
-struct  Int32U5BU5D_t548  : public Array_t
+struct  Int32U5BU5D_t549  : public Array_t
 {
 };
 // System.IFormattable[]
@@ -152,10 +152,10 @@ struct  IEquatable_1U5BU5D_t9649  : public Array_t
 };
 // System.Char[]
 // System.Char[]
-struct  CharU5BU5D_t660  : public Array_t
+struct  CharU5BU5D_t661  : public Array_t
 {
 };
-struct CharU5BU5D_t660_StaticFields{
+struct CharU5BU5D_t661_StaticFields{
 };
 // System.UInt16[]
 // System.UInt16[]
@@ -354,10 +354,10 @@ struct  _AttributeU5BU5D_t9655  : public Array_t
 };
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>[]
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>[]
-struct  Dictionary_2U5BU5D_t725  : public Array_t
+struct  Dictionary_2U5BU5D_t726  : public Array_t
 {
 };
-struct Dictionary_2U5BU5D_t725_StaticFields{
+struct Dictionary_2U5BU5D_t726_StaticFields{
 };
 // System.Runtime.Serialization.ISerializable[]
 // System.Runtime.Serialization.ISerializable[]
@@ -388,7 +388,7 @@ struct EnumU5BU5D_t9660_StaticFields{
 };
 // System.Single[]
 // System.Single[]
-struct  SingleU5BU5D_t543  : public Array_t
+struct  SingleU5BU5D_t544  : public Array_t
 {
 };
 // System.IComparable`1<System.Single>[]

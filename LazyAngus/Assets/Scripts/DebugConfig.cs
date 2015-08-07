@@ -2,8 +2,11 @@
 using System.Collections;
 
 public class DebugConfig : MonoBehaviour {
-	public bool useDebugValues { get; private set; }
-	
+	public bool useDebugValues;
+
+	public bool skipWelcome = false;
+	public bool clearAchievements = false;
+
 	public bool debugFBShare = false;
 	public bool debugTwitterShare = false;
 

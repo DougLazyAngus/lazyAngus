@@ -12,13 +12,13 @@ struct Particle_t2715;
 #include "UnityEngine_UnityEngine_Color.h"
 
 // UnityEngine.Vector3 UnityEngine.Particle::get_position()
-extern "C" Vector3_t496  Particle_get_position_m9204 (Particle_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t497  Particle_get_position_m9204 (Particle_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Particle::set_position(UnityEngine.Vector3)
-extern "C" void Particle_set_position_m9205 (Particle_t2715 * __this, Vector3_t496  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Particle_set_position_m9205 (Particle_t2715 * __this, Vector3_t497  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Particle::get_velocity()
-extern "C" Vector3_t496  Particle_get_velocity_m9206 (Particle_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t497  Particle_get_velocity_m9206 (Particle_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Particle::set_velocity(UnityEngine.Vector3)
-extern "C" void Particle_set_velocity_m9207 (Particle_t2715 * __this, Vector3_t496  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Particle_set_velocity_m9207 (Particle_t2715 * __this, Vector3_t497  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Particle::get_energy()
 extern "C" float Particle_get_energy_m9208 (Particle_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Particle::set_energy(System.Single)

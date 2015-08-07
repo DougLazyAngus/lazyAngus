@@ -9,7 +9,7 @@ struct MSCompatUnicodeTable_t4327;
 // Mono.Globalization.Unicode.TailoringInfo
 struct TailoringInfo_t4321;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // Mono.Globalization.Unicode.Contraction[]
 struct ContractionU5BU5D_t4335;
 // Mono.Globalization.Unicode.Level2Map[]
@@ -26,7 +26,7 @@ extern "C" void MSCompatUnicodeTable__cctor_m16056 (Object_t * __this /* static,
 // Mono.Globalization.Unicode.TailoringInfo Mono.Globalization.Unicode.MSCompatUnicodeTable::GetTailoringInfo(System.Int32)
 extern "C" TailoringInfo_t4321 * MSCompatUnicodeTable_GetTailoringInfo_m16057 (Object_t * __this /* static, unused */, int32_t ___lcid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Globalization.Unicode.MSCompatUnicodeTable::BuildTailoringTables(System.Globalization.CultureInfo,Mono.Globalization.Unicode.TailoringInfo,Mono.Globalization.Unicode.Contraction[]&,Mono.Globalization.Unicode.Level2Map[]&)
-extern "C" void MSCompatUnicodeTable_BuildTailoringTables_m16058 (Object_t * __this /* static, unused */, CultureInfo_t718 * ___culture, TailoringInfo_t4321 * ___t, ContractionU5BU5D_t4335** ___contractions, Level2MapU5BU5D_t4336** ___diacriticals, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MSCompatUnicodeTable_BuildTailoringTables_m16058 (Object_t * __this /* static, unused */, CultureInfo_t719 * ___culture, TailoringInfo_t4321 * ___t, ContractionU5BU5D_t4335** ___contractions, Level2MapU5BU5D_t4336** ___diacriticals, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Globalization.Unicode.MSCompatUnicodeTable::SetCJKReferences(System.String,Mono.Globalization.Unicode.CodePointIndexer&,System.Byte*&,System.Byte*&,Mono.Globalization.Unicode.CodePointIndexer&,System.Byte*&)
 extern "C" void MSCompatUnicodeTable_SetCJKReferences_m16059 (Object_t * __this /* static, unused */, String_t* ___name, CodePointIndexer_t4320 ** ___cjkIndexer, uint8_t** ___catTable, uint8_t** ___lv1Table, CodePointIndexer_t4320 ** ___lv2Indexer, uint8_t** ___lv2Table, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte Mono.Globalization.Unicode.MSCompatUnicodeTable::Category(System.Int32)

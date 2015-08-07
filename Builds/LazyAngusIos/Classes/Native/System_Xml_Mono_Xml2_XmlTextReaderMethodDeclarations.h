@@ -23,7 +23,7 @@ struct TextReader_t3187;
 // System.IO.Stream
 struct Stream_t51;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.Xml.XmlException
 struct XmlException_t3181;
 // Mono.Xml2.XmlTextReader/XmlTokenInfo
@@ -138,7 +138,7 @@ extern "C" bool XmlTextReader_Read_m10994 (XmlTextReader_t3214 * __this, const M
 // System.Boolean Mono.Xml2.XmlTextReader::ReadAttributeValue()
 extern "C" bool XmlTextReader_ReadAttributeValue_m10995 (XmlTextReader_t3214 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Xml2.XmlTextReader::ReadChars(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t XmlTextReader_ReadChars_m10996 (XmlTextReader_t3214 * __this, CharU5BU5D_t660* ___buffer, int32_t ___offset, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlTextReader_ReadChars_m10996 (XmlTextReader_t3214 * __this, CharU5BU5D_t661* ___buffer, int32_t ___offset, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml2.XmlTextReader::ResolveEntity()
 extern "C" void XmlTextReader_ResolveEntity_m10997 (XmlTextReader_t3214 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml2.XmlTextReader::Skip()
@@ -264,6 +264,6 @@ extern "C" bool XmlTextReader_SkipWhitespace_m11057 (XmlTextReader_t3214 * __thi
 // System.Boolean Mono.Xml2.XmlTextReader::ReadWhitespace()
 extern "C" bool XmlTextReader_ReadWhitespace_m11058 (XmlTextReader_t3214 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Xml2.XmlTextReader::ReadCharsInternal(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t XmlTextReader_ReadCharsInternal_m11059 (XmlTextReader_t3214 * __this, CharU5BU5D_t660* ___buffer, int32_t ___offset, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlTextReader_ReadCharsInternal_m11059 (XmlTextReader_t3214 * __this, CharU5BU5D_t661* ___buffer, int32_t ___offset, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Xml2.XmlTextReader::ReadUntilEndTag()
 extern "C" bool XmlTextReader_ReadUntilEndTag_m11060 (XmlTextReader_t3214 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

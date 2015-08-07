@@ -9,9 +9,9 @@ struct ArrayList_t3111;
 // System.Object
 struct Object_t;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
@@ -30,7 +30,7 @@ extern "C" void ArrayList__ctor_m14886 (ArrayList_t3111 * __this, Object_t * ___
 // System.Void System.Collections.ArrayList::.ctor(System.Int32)
 extern "C" void ArrayList__ctor_m14878 (ArrayList_t3111 * __this, int32_t ___capacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList::.ctor(System.Object[],System.Int32,System.Int32)
-extern "C" void ArrayList__ctor_m16618 (ArrayList_t3111 * __this, ObjectU5BU5D_t635* ___array, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayList__ctor_m16618 (ArrayList_t3111 * __this, ObjectU5BU5D_t636* ___array, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList::.cctor()
 extern "C" void ArrayList__cctor_m16619 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.ArrayList::get_Item(System.Int32)
@@ -90,7 +90,7 @@ extern "C" void ArrayList_Sort_m16646 (ArrayList_t3111 * __this, const MethodInf
 // System.Void System.Collections.ArrayList::Sort(System.Collections.IComparer)
 extern "C" void ArrayList_Sort_m16647 (ArrayList_t3111 * __this, Object_t * ___comparer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Collections.ArrayList::ToArray()
-extern "C" ObjectU5BU5D_t635* ArrayList_ToArray_m16648 (ArrayList_t3111 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* ArrayList_ToArray_m16648 (ArrayList_t3111 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Array System.Collections.ArrayList::ToArray(System.Type)
 extern "C" Array_t * ArrayList_ToArray_m16649 (ArrayList_t3111 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.ArrayList::Clone()

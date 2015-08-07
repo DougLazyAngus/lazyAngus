@@ -134,6 +134,9 @@ public class GoogleAdController : MonoBehaviour {
 		case GamePhaseState.GamePhaseType.GAME_OVER:
 			banner.Hide ();
 			break;
+		case GamePhaseState.GamePhaseType.LEVEL_END:
+			banner.Hide ();
+			break;
 		default:
 			banner.Show ();
 			banner.Refresh ();

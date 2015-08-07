@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.Assembly
-struct Assembly_t719;
+struct Assembly_t720;
 // System.Type
 struct Type_t;
 // System.AttributeUsageAttribute
-struct AttributeUsageAttribute_t753;
+struct AttributeUsageAttribute_t754;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.MonoCustomAttrs
@@ -14,9 +14,9 @@ struct  MonoCustomAttrs_t4778  : public Object_t
 };
 struct MonoCustomAttrs_t4778_StaticFields{
 	// System.Reflection.Assembly System.MonoCustomAttrs::corlib
-	Assembly_t719 * ___corlib_0;
+	Assembly_t720 * ___corlib_0;
 	// System.Type System.MonoCustomAttrs::AttributeUsageType
 	Type_t * ___AttributeUsageType_1;
 	// System.AttributeUsageAttribute System.MonoCustomAttrs::DefaultAttributeUsage
-	AttributeUsageAttribute_t753 * ___DefaultAttributeUsage_2;
+	AttributeUsageAttribute_t754 * ___DefaultAttributeUsage_2;
 };

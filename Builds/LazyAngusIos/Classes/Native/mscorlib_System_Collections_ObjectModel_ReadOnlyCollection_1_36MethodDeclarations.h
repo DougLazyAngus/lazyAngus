@@ -7,7 +7,7 @@
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
 struct ReadOnlyCollection_1_t5742;
 // UnityEngine.EventSystems.PointerInputModule/ButtonState
-struct ButtonState_t826;
+struct ButtonState_t827;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IList`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
@@ -26,19 +26,19 @@ struct IEnumerator_1_t8890;
 #include "mscorlib_System_Collections_ObjectModel_ReadOnlyCollection_1MethodDeclarations.h"
 #define ReadOnlyCollection_1__ctor_m27937(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t5742 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m7112_gshared)(__this, ___list, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::System.Collections.Generic.ICollection<T>.Add(T)
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m27938(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t5742 *, ButtonState_t826 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m21399_gshared)(__this, ___item, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m27938(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t5742 *, ButtonState_t827 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m21399_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::System.Collections.Generic.ICollection<T>.Clear()
 #define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m27939(__this, method) (( void (*) (ReadOnlyCollection_1_t5742 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m21400_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m27940(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t5742 *, int32_t, ButtonState_t826 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m21401_gshared)(__this, ___index, ___item, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m27940(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t5742 *, int32_t, ButtonState_t827 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m21401_gshared)(__this, ___index, ___item, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::System.Collections.Generic.ICollection<T>.Remove(T)
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m27941(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t5742 *, ButtonState_t826 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m21402_gshared)(__this, ___item, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m27941(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t5742 *, ButtonState_t827 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m21402_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
 #define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m27942(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t5742 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m21403_gshared)(__this, ___index, method)
 // T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m27943(__this, ___index, method) (( ButtonState_t826 * (*) (ReadOnlyCollection_1_t5742 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m21404_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m27943(__this, ___index, method) (( ButtonState_t827 * (*) (ReadOnlyCollection_1_t5742 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m21404_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m27944(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5742 *, int32_t, ButtonState_t826 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m21405_gshared)(__this, ___index, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m27944(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5742 *, int32_t, ButtonState_t827 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m21405_gshared)(__this, ___index, ___value, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
 #define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m27945(__this, method) (( bool (*) (ReadOnlyCollection_1_t5742 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m21406_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
@@ -72,14 +72,14 @@ struct IEnumerator_1_t8890;
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::System.Collections.IList.set_Item(System.Int32,System.Object)
 #define ReadOnlyCollection_1_System_Collections_IList_set_Item_m27960(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5742 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m21421_gshared)(__this, ___index, ___value, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::Contains(T)
-#define ReadOnlyCollection_1_Contains_m27961(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t5742 *, ButtonState_t826 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m21422_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_Contains_m27961(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t5742 *, ButtonState_t827 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m21422_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::CopyTo(T[],System.Int32)
 #define ReadOnlyCollection_1_CopyTo_m27962(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t5742 *, ButtonStateU5BU5D_t5740*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m21423_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::GetEnumerator()
 #define ReadOnlyCollection_1_GetEnumerator_m27963(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t5742 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m21424_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::IndexOf(T)
-#define ReadOnlyCollection_1_IndexOf_m27964(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t5742 *, ButtonState_t826 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m21425_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_IndexOf_m27964(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t5742 *, ButtonState_t827 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m21425_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::get_Count()
 #define ReadOnlyCollection_1_get_Count_m27965(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t5742 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m21426_gshared)(__this, method)
 // T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::get_Item(System.Int32)
-#define ReadOnlyCollection_1_get_Item_m27966(__this, ___index, method) (( ButtonState_t826 * (*) (ReadOnlyCollection_1_t5742 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m21427_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_get_Item_m27966(__this, ___index, method) (( ButtonState_t827 * (*) (ReadOnlyCollection_1_t5742 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m21427_gshared)(__this, ___index, method)

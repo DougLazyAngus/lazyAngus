@@ -19,7 +19,7 @@ public class MouseDesc {
 		path = "Textures/Mice/" + oldImageName;
 		this.deprecated_mouseSprite = Resources.Load<UnityEngine.Sprite>(path);
 		
-		path = "Textures/Mice/" + oldImageName + ".dead";
+		path = "Textures/NewMice/" + newImageName + ".dead";
 		this.deadMouseSprite = Resources.Load<UnityEngine.Sprite>(path);
 
 		path = "Textures/NewMice/Materials/" + newImageName;

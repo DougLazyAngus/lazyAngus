@@ -7,7 +7,7 @@
 // System.Xml.XmlNodeList
 struct XmlNodeList_t3194;
 // System.Xml.XmlNode
-struct XmlNode_t667;
+struct XmlNode_t668;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 
@@ -15,6 +15,6 @@ struct IEnumerator_t48;
 extern "C" void XmlNodeList__ctor_m10818 (XmlNodeList_t3194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlNodeList::get_Count()
 // System.Xml.XmlNode System.Xml.XmlNodeList::get_ItemOf(System.Int32)
-extern "C" XmlNode_t667 * XmlNodeList_get_ItemOf_m10819 (XmlNodeList_t3194 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t668 * XmlNodeList_get_ItemOf_m10819 (XmlNodeList_t3194 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Xml.XmlNodeList::GetEnumerator()
 // System.Xml.XmlNode System.Xml.XmlNodeList::Item(System.Int32)

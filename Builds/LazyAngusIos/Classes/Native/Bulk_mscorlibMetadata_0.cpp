@@ -482,13 +482,13 @@ extern const MethodInfo ValueType__ctor_m15261_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_1_0_2;
-extern const Il2CppType ObjectU5BU5D_t635_1_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_1_0_2;
+extern const Il2CppType ObjectU5BU5D_t636_1_0_0;
 static const ParameterInfo ValueType_t1076_ValueType_InternalEquals_m15262_ParameterInfos[] = 
 {
 	{"o1", 0, 134217735, 0, &Object_t_0_0_0},
 	{"o2", 1, 134217736, 0, &Object_t_0_0_0},
-	{"fields", 2, 134217737, 0, &ObjectU5BU5D_t635_1_0_2},
+	{"fields", 2, 134217737, 0, &ObjectU5BU5D_t636_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_ObjectU5BU5DU26_t4941 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.ValueType::InternalEquals(System.Object,System.Object,System.Object[]&)
@@ -572,11 +572,11 @@ extern const MethodInfo ValueType_Equals_m6066_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_1_0_2;
+extern const Il2CppType ObjectU5BU5D_t636_1_0_2;
 static const ParameterInfo ValueType_t1076_ValueType_InternalGetHashCode_m15264_ParameterInfos[] = 
 {
 	{"o", 0, 134217741, 0, &Object_t_0_0_0},
-	{"fields", 1, 134217742, 0, &ObjectU5BU5D_t635_1_0_2},
+	{"fields", 1, 134217742, 0, &ObjectU5BU5D_t636_1_0_2},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t_ObjectU5BU5DU26_t4941 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.ValueType::InternalGetHashCode(System.Object,System.Object[]&)
@@ -1270,16 +1270,16 @@ static const ParameterInfo Int32_t82_Int32_System_IConvertible_ToByte_m15273_Par
 {
 	{"provider", 0, 134217762, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern const Il2CppType Byte_t691_0_0_0;
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType Byte_t692_0_0_0;
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Int32::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo Int32_System_IConvertible_ToByte_m15273_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&Int32_System_IConvertible_ToByte_m15273/* method */
 	, &Int32_t82_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
 	, Int32_t82_Int32_System_IConvertible_ToByte_m15273_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -1357,16 +1357,16 @@ static const ParameterInfo Int32_t82_Int32_System_IConvertible_ToDecimal_m15276_
 {
 	{"provider", 0, 134217765, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType Decimal_t696_0_0_0;
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Int32::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo Int32_System_IConvertible_ToDecimal_m15276_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&Int32_System_IConvertible_ToDecimal_m15276/* method */
 	, &Int32_t82_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
 	, Int32_t82_Int32_System_IConvertible_ToDecimal_m15276_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -1415,16 +1415,16 @@ static const ParameterInfo Int32_t82_Int32_System_IConvertible_ToInt16_m15278_Pa
 {
 	{"provider", 0, 134217767, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern const Il2CppType Int16_t692_0_0_0;
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType Int16_t693_0_0_0;
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Int32::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo Int32_System_IConvertible_ToInt16_m15278_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&Int32_System_IConvertible_ToInt16_m15278/* method */
 	, &Int32_t82_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
 	, Int32_t82_Int32_System_IConvertible_ToInt16_m15278_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -1589,16 +1589,16 @@ static const ParameterInfo Int32_t82_Int32_System_IConvertible_ToUInt16_m15284_P
 {
 	{"provider", 0, 134217774, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern const Il2CppType UInt16_t693_0_0_0;
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType UInt16_t694_0_0_0;
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.Int32::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo Int32_System_IConvertible_ToUInt16_m15284_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&Int32_System_IConvertible_ToUInt16_m15284/* method */
 	, &Int32_t82_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
 	, Int32_t82_Int32_System_IConvertible_ToUInt16_m15284_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -1618,16 +1618,16 @@ static const ParameterInfo Int32_t82_Int32_System_IConvertible_ToUInt32_m15285_P
 {
 	{"provider", 0, 134217775, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern const Il2CppType UInt32_t690_0_0_0;
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType UInt32_t691_0_0_0;
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.Int32::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo Int32_System_IConvertible_ToUInt32_m15285_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&Int32_System_IConvertible_ToUInt32_m15285/* method */
 	, &Int32_t82_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
 	, Int32_t82_Int32_System_IConvertible_ToUInt32_m15285_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -1647,16 +1647,16 @@ static const ParameterInfo Int32_t82_Int32_System_IConvertible_ToUInt64_m15286_P
 {
 	{"provider", 0, 134217776, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern const Il2CppType UInt64_t694_0_0_0;
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType UInt64_t695_0_0_0;
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.Int32::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo Int32_System_IConvertible_ToUInt64_m15286_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&Int32_System_IConvertible_ToUInt64_m15286/* method */
 	, &Int32_t82_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
 	, Int32_t82_Int32_System_IConvertible_ToUInt64_m15286_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -2152,7 +2152,7 @@ static const ParameterInfo Int32_t82_Int32_ValidDigit_m15297_ParameterInfos[] =
 	{"e", 0, 134217818, 0, &Char_t60_0_0_0},
 	{"allowHex", 1, 134217819, 0, &Boolean_t59_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692_SByte_t88 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Int32::ValidDigit(System.Char,System.Boolean)
 extern const MethodInfo Int32_ValidDigit_m15297_MethodInfo = 
 {
@@ -2160,7 +2160,7 @@ extern const MethodInfo Int32_ValidDigit_m15297_MethodInfo =
 	, (methodPointerType)&Int32_ValidDigit_m15297/* method */
 	, &Int32_t82_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692_SByte_t88/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693_SByte_t88/* invoker_method */
 	, Int32_t82_Int32_ValidDigit_m15297_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
@@ -2851,15 +2851,15 @@ static const ParameterInfo IConvertible_t98_IConvertible_ToByte_m19926_Parameter
 {
 	{"provider", 0, 134217843, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.IConvertible::ToByte(System.IFormatProvider)
 extern const MethodInfo IConvertible_ToByte_m19926_MethodInfo = 
 {
 	"ToByte"/* name */
 	, NULL/* method */
 	, &IConvertible_t98_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
 	, IConvertible_t98_IConvertible_ToByte_m19926_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
@@ -2935,15 +2935,15 @@ static const ParameterInfo IConvertible_t98_IConvertible_ToDecimal_m19929_Parame
 {
 	{"provider", 0, 134217846, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.IConvertible::ToDecimal(System.IFormatProvider)
 extern const MethodInfo IConvertible_ToDecimal_m19929_MethodInfo = 
 {
 	"ToDecimal"/* name */
 	, NULL/* method */
 	, &IConvertible_t98_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
 	, IConvertible_t98_IConvertible_ToDecimal_m19929_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
@@ -2991,15 +2991,15 @@ static const ParameterInfo IConvertible_t98_IConvertible_ToInt16_m19931_Paramete
 {
 	{"provider", 0, 134217848, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.IConvertible::ToInt16(System.IFormatProvider)
 extern const MethodInfo IConvertible_ToInt16_m19931_MethodInfo = 
 {
 	"ToInt16"/* name */
 	, NULL/* method */
 	, &IConvertible_t98_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
 	, IConvertible_t98_IConvertible_ToInt16_m19931_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
@@ -3189,15 +3189,15 @@ static const ParameterInfo IConvertible_t98_IConvertible_ToUInt16_m19938_Paramet
 {
 	{"provider", 0, 134217856, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.IConvertible::ToUInt16(System.IFormatProvider)
 extern const MethodInfo IConvertible_ToUInt16_m19938_MethodInfo = 
 {
 	"ToUInt16"/* name */
 	, NULL/* method */
 	, &IConvertible_t98_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
 	, IConvertible_t98_IConvertible_ToUInt16_m19938_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
@@ -3217,15 +3217,15 @@ static const ParameterInfo IConvertible_t98_IConvertible_ToUInt32_m19939_Paramet
 {
 	{"provider", 0, 134217857, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.IConvertible::ToUInt32(System.IFormatProvider)
 extern const MethodInfo IConvertible_ToUInt32_m19939_MethodInfo = 
 {
 	"ToUInt32"/* name */
 	, NULL/* method */
 	, &IConvertible_t98_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
 	, IConvertible_t98_IConvertible_ToUInt32_m19939_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
@@ -3245,15 +3245,15 @@ static const ParameterInfo IConvertible_t98_IConvertible_ToUInt64_m19940_Paramet
 {
 	{"provider", 0, 134217858, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.IConvertible::ToUInt64(System.IFormatProvider)
 extern const MethodInfo IConvertible_ToUInt64_m19940_MethodInfo = 
 {
 	"ToUInt64"/* name */
 	, NULL/* method */
 	, &IConvertible_t98_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
 	, IConvertible_t98_IConvertible_ToUInt64_m19940_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
@@ -3703,25 +3703,25 @@ TypeInfo SerializableAttribute_t4291_il2cpp_TypeInfo =
 // System.AttributeUsageAttribute
 #include "mscorlib_System_AttributeUsageAttribute.h"
 // Metadata Definition System.AttributeUsageAttribute
-extern TypeInfo AttributeUsageAttribute_t753_il2cpp_TypeInfo;
+extern TypeInfo AttributeUsageAttribute_t754_il2cpp_TypeInfo;
 // System.AttributeUsageAttribute
 #include "mscorlib_System_AttributeUsageAttributeMethodDeclarations.h"
 extern const Il2CppType AttributeTargets_t4742_0_0_0;
 extern const Il2CppType AttributeTargets_t4742_0_0_0;
-static const ParameterInfo AttributeUsageAttribute_t753_AttributeUsageAttribute__ctor_m4217_ParameterInfos[] = 
+static const ParameterInfo AttributeUsageAttribute_t754_AttributeUsageAttribute__ctor_m4218_ParameterInfos[] = 
 {
 	{"validOn", 0, 134217861, 0, &AttributeTargets_t4742_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.AttributeUsageAttribute::.ctor(System.AttributeTargets)
-extern const MethodInfo AttributeUsageAttribute__ctor_m4217_MethodInfo = 
+extern const MethodInfo AttributeUsageAttribute__ctor_m4218_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AttributeUsageAttribute__ctor_m4217/* method */
-	, &AttributeUsageAttribute_t753_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AttributeUsageAttribute__ctor_m4218/* method */
+	, &AttributeUsageAttribute_t754_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, AttributeUsageAttribute_t753_AttributeUsageAttribute__ctor_m4217_ParameterInfos/* parameters */
+	, AttributeUsageAttribute_t754_AttributeUsageAttribute__ctor_m4218_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -3741,7 +3741,7 @@ extern const MethodInfo AttributeUsageAttribute_get_AllowMultiple_m15302_MethodI
 {
 	"get_AllowMultiple"/* name */
 	, (methodPointerType)&AttributeUsageAttribute_get_AllowMultiple_m15302/* method */
-	, &AttributeUsageAttribute_t753_il2cpp_TypeInfo/* declaring_type */
+	, &AttributeUsageAttribute_t754_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -3759,7 +3759,7 @@ extern const MethodInfo AttributeUsageAttribute_get_AllowMultiple_m15302_MethodI
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo AttributeUsageAttribute_t753_AttributeUsageAttribute_set_AllowMultiple_m7745_ParameterInfos[] = 
+static const ParameterInfo AttributeUsageAttribute_t754_AttributeUsageAttribute_set_AllowMultiple_m7745_ParameterInfos[] = 
 {
 	{"value", 0, 134217862, 0, &Boolean_t59_0_0_0},
 };
@@ -3769,10 +3769,10 @@ extern const MethodInfo AttributeUsageAttribute_set_AllowMultiple_m7745_MethodIn
 {
 	"set_AllowMultiple"/* name */
 	, (methodPointerType)&AttributeUsageAttribute_set_AllowMultiple_m7745/* method */
-	, &AttributeUsageAttribute_t753_il2cpp_TypeInfo/* declaring_type */
+	, &AttributeUsageAttribute_t754_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, AttributeUsageAttribute_t753_AttributeUsageAttribute_set_AllowMultiple_m7745_ParameterInfos/* parameters */
+	, AttributeUsageAttribute_t754_AttributeUsageAttribute_set_AllowMultiple_m7745_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -3792,7 +3792,7 @@ extern const MethodInfo AttributeUsageAttribute_get_Inherited_m15303_MethodInfo 
 {
 	"get_Inherited"/* name */
 	, (methodPointerType)&AttributeUsageAttribute_get_Inherited_m15303/* method */
-	, &AttributeUsageAttribute_t753_il2cpp_TypeInfo/* declaring_type */
+	, &AttributeUsageAttribute_t754_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -3810,7 +3810,7 @@ extern const MethodInfo AttributeUsageAttribute_get_Inherited_m15303_MethodInfo 
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo AttributeUsageAttribute_t753_AttributeUsageAttribute_set_Inherited_m7744_ParameterInfos[] = 
+static const ParameterInfo AttributeUsageAttribute_t754_AttributeUsageAttribute_set_Inherited_m7744_ParameterInfos[] = 
 {
 	{"value", 0, 134217863, 0, &Boolean_t59_0_0_0},
 };
@@ -3820,10 +3820,10 @@ extern const MethodInfo AttributeUsageAttribute_set_Inherited_m7744_MethodInfo =
 {
 	"set_Inherited"/* name */
 	, (methodPointerType)&AttributeUsageAttribute_set_Inherited_m7744/* method */
-	, &AttributeUsageAttribute_t753_il2cpp_TypeInfo/* declaring_type */
+	, &AttributeUsageAttribute_t754_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, AttributeUsageAttribute_t753_AttributeUsageAttribute_set_Inherited_m7744_ParameterInfos/* parameters */
+	, AttributeUsageAttribute_t754_AttributeUsageAttribute_set_Inherited_m7744_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -3837,9 +3837,9 @@ extern const MethodInfo AttributeUsageAttribute_set_Inherited_m7744_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* AttributeUsageAttribute_t753_MethodInfos[] =
+static const MethodInfo* AttributeUsageAttribute_t754_MethodInfos[] =
 {
-	&AttributeUsageAttribute__ctor_m4217_MethodInfo,
+	&AttributeUsageAttribute__ctor_m4218_MethodInfo,
 	&AttributeUsageAttribute_get_AllowMultiple_m15302_MethodInfo,
 	&AttributeUsageAttribute_set_AllowMultiple_m7745_MethodInfo,
 	&AttributeUsageAttribute_get_Inherited_m15303_MethodInfo,
@@ -3848,9 +3848,9 @@ static const MethodInfo* AttributeUsageAttribute_t753_MethodInfos[] =
 };
 extern const MethodInfo AttributeUsageAttribute_get_AllowMultiple_m15302_MethodInfo;
 extern const MethodInfo AttributeUsageAttribute_set_AllowMultiple_m7745_MethodInfo;
-static const PropertyInfo AttributeUsageAttribute_t753____AllowMultiple_PropertyInfo = 
+static const PropertyInfo AttributeUsageAttribute_t754____AllowMultiple_PropertyInfo = 
 {
-	&AttributeUsageAttribute_t753_il2cpp_TypeInfo/* parent */
+	&AttributeUsageAttribute_t754_il2cpp_TypeInfo/* parent */
 	, "AllowMultiple"/* name */
 	, &AttributeUsageAttribute_get_AllowMultiple_m15302_MethodInfo/* get */
 	, &AttributeUsageAttribute_set_AllowMultiple_m7745_MethodInfo/* set */
@@ -3860,9 +3860,9 @@ static const PropertyInfo AttributeUsageAttribute_t753____AllowMultiple_Property
 };
 extern const MethodInfo AttributeUsageAttribute_get_Inherited_m15303_MethodInfo;
 extern const MethodInfo AttributeUsageAttribute_set_Inherited_m7744_MethodInfo;
-static const PropertyInfo AttributeUsageAttribute_t753____Inherited_PropertyInfo = 
+static const PropertyInfo AttributeUsageAttribute_t754____Inherited_PropertyInfo = 
 {
-	&AttributeUsageAttribute_t753_il2cpp_TypeInfo/* parent */
+	&AttributeUsageAttribute_t754_il2cpp_TypeInfo/* parent */
 	, "Inherited"/* name */
 	, &AttributeUsageAttribute_get_Inherited_m15303_MethodInfo/* get */
 	, &AttributeUsageAttribute_set_Inherited_m7744_MethodInfo/* set */
@@ -3870,62 +3870,62 @@ static const PropertyInfo AttributeUsageAttribute_t753____Inherited_PropertyInfo
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* AttributeUsageAttribute_t753_PropertyInfos[] =
+static const PropertyInfo* AttributeUsageAttribute_t754_PropertyInfos[] =
 {
-	&AttributeUsageAttribute_t753____AllowMultiple_PropertyInfo,
-	&AttributeUsageAttribute_t753____Inherited_PropertyInfo,
+	&AttributeUsageAttribute_t754____AllowMultiple_PropertyInfo,
+	&AttributeUsageAttribute_t754____Inherited_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference AttributeUsageAttribute_t753_VTable[] =
+static const Il2CppMethodReference AttributeUsageAttribute_t754_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Attribute_GetHashCode_m491_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool AttributeUsageAttribute_t753_VTableIsGenericMethod[] =
+static bool AttributeUsageAttribute_t754_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair AttributeUsageAttribute_t753_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair AttributeUsageAttribute_t754_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType AttributeUsageAttribute_t753_0_0_0;
-extern const Il2CppType AttributeUsageAttribute_t753_1_0_0;
-struct AttributeUsageAttribute_t753;
-const Il2CppTypeDefinitionMetadata AttributeUsageAttribute_t753_DefinitionMetadata = 
+extern const Il2CppType AttributeUsageAttribute_t754_0_0_0;
+extern const Il2CppType AttributeUsageAttribute_t754_1_0_0;
+struct AttributeUsageAttribute_t754;
+const Il2CppTypeDefinitionMetadata AttributeUsageAttribute_t754_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, AttributeUsageAttribute_t753_InterfacesOffsets/* interfaceOffsets */
+	, AttributeUsageAttribute_t754_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, AttributeUsageAttribute_t753_VTable/* vtableMethods */
-	, AttributeUsageAttribute_t753_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, AttributeUsageAttribute_t754_VTable/* vtableMethods */
+	, AttributeUsageAttribute_t754_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 3/* fieldStart */
 
 };
-TypeInfo AttributeUsageAttribute_t753_il2cpp_TypeInfo = 
+TypeInfo AttributeUsageAttribute_t754_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "AttributeUsageAttribute"/* name */
 	, "System"/* namespaze */
-	, AttributeUsageAttribute_t753_MethodInfos/* methods */
-	, AttributeUsageAttribute_t753_PropertyInfos/* properties */
+	, AttributeUsageAttribute_t754_MethodInfos/* methods */
+	, AttributeUsageAttribute_t754_PropertyInfos/* properties */
 	, NULL/* events */
-	, &AttributeUsageAttribute_t753_il2cpp_TypeInfo/* element_class */
+	, &AttributeUsageAttribute_t754_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 14/* custom_attributes_cache */
-	, &AttributeUsageAttribute_t753_0_0_0/* byval_arg */
-	, &AttributeUsageAttribute_t753_1_0_0/* this_arg */
-	, &AttributeUsageAttribute_t753_DefinitionMetadata/* definitionMetadata */
+	, &AttributeUsageAttribute_t754_0_0_0/* byval_arg */
+	, &AttributeUsageAttribute_t754_1_0_0/* this_arg */
+	, &AttributeUsageAttribute_t754_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3935,8 +3935,8 @@ TypeInfo AttributeUsageAttribute_t753_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (AttributeUsageAttribute_t753)/* instance_size */
-	, sizeof (AttributeUsageAttribute_t753)/* actualSize */
+	, sizeof (AttributeUsageAttribute_t754)/* instance_size */
+	, sizeof (AttributeUsageAttribute_t754)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4246,15 +4246,15 @@ static const ParameterInfo Int64_t89_Int64_System_IConvertible_ToByte_m15305_Par
 {
 	{"provider", 0, 134217867, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Int64::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo Int64_System_IConvertible_ToByte_m15305_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&Int64_System_IConvertible_ToByte_m15305/* method */
 	, &Int64_t89_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
 	, Int64_t89_Int64_System_IConvertible_ToByte_m15305_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -4330,15 +4330,15 @@ static const ParameterInfo Int64_t89_Int64_System_IConvertible_ToDecimal_m15308_
 {
 	{"provider", 0, 134217870, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Int64::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo Int64_System_IConvertible_ToDecimal_m15308_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&Int64_System_IConvertible_ToDecimal_m15308/* method */
 	, &Int64_t89_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
 	, Int64_t89_Int64_System_IConvertible_ToDecimal_m15308_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -4386,15 +4386,15 @@ static const ParameterInfo Int64_t89_Int64_System_IConvertible_ToInt16_m15310_Pa
 {
 	{"provider", 0, 134217872, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Int64::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo Int64_System_IConvertible_ToInt16_m15310_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&Int64_System_IConvertible_ToInt16_m15310/* method */
 	, &Int64_t89_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
 	, Int64_t89_Int64_System_IConvertible_ToInt16_m15310_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -4556,15 +4556,15 @@ static const ParameterInfo Int64_t89_Int64_System_IConvertible_ToUInt16_m15316_P
 {
 	{"provider", 0, 134217879, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.Int64::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo Int64_System_IConvertible_ToUInt16_m15316_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&Int64_System_IConvertible_ToUInt16_m15316/* method */
 	, &Int64_t89_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
 	, Int64_t89_Int64_System_IConvertible_ToUInt16_m15316_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -4584,15 +4584,15 @@ static const ParameterInfo Int64_t89_Int64_System_IConvertible_ToUInt32_m15317_P
 {
 	{"provider", 0, 134217880, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.Int64::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo Int64_System_IConvertible_ToUInt32_m15317_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&Int64_System_IConvertible_ToUInt32_m15317/* method */
 	, &Int64_t89_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
 	, Int64_t89_Int64_System_IConvertible_ToUInt32_m15317_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -4612,15 +4612,15 @@ static const ParameterInfo Int64_t89_Int64_System_IConvertible_ToUInt64_m15318_P
 {
 	{"provider", 0, 134217881, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.Int64::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo Int64_System_IConvertible_ToUInt64_m15318_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&Int64_System_IConvertible_ToUInt64_m15318/* method */
 	, &Int64_t89_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
 	, Int64_t89_Int64_System_IConvertible_ToUInt64_m15318_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -5307,11 +5307,11 @@ TypeInfo Int64_t89_il2cpp_TypeInfo =
 // System.UInt32
 #include "mscorlib_System_UInt32.h"
 // Metadata Definition System.UInt32
-extern TypeInfo UInt32_t690_il2cpp_TypeInfo;
+extern TypeInfo UInt32_t691_il2cpp_TypeInfo;
 // System.UInt32
 #include "mscorlib_System_UInt32MethodDeclarations.h"
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToBoolean_m15330_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToBoolean_m15330_ParameterInfos[] = 
 {
 	{"provider", 0, 134217912, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -5321,10 +5321,10 @@ extern const MethodInfo UInt32_System_IConvertible_ToBoolean_m15330_MethodInfo =
 {
 	"System.IConvertible.ToBoolean"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToBoolean_m15330/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToBoolean_m15330_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_System_IConvertible_ToBoolean_m15330_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5339,20 +5339,20 @@ extern const MethodInfo UInt32_System_IConvertible_ToBoolean_m15330_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToByte_m15331_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToByte_m15331_ParameterInfos[] = 
 {
 	{"provider", 0, 134217913, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.UInt32::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo UInt32_System_IConvertible_ToByte_m15331_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToByte_m15331/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToByte_m15331_ParameterInfos/* parameters */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
+	, UInt32_t691_UInt32_System_IConvertible_ToByte_m15331_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5367,7 +5367,7 @@ extern const MethodInfo UInt32_System_IConvertible_ToByte_m15331_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToChar_m15332_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToChar_m15332_ParameterInfos[] = 
 {
 	{"provider", 0, 134217914, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -5377,10 +5377,10 @@ extern const MethodInfo UInt32_System_IConvertible_ToChar_m15332_MethodInfo =
 {
 	"System.IConvertible.ToChar"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToChar_m15332/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t60_0_0_0/* return_type */
 	, RuntimeInvoker_Char_t60_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToChar_m15332_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_System_IConvertible_ToChar_m15332_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5395,7 +5395,7 @@ extern const MethodInfo UInt32_System_IConvertible_ToChar_m15332_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToDateTime_m15333_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToDateTime_m15333_ParameterInfos[] = 
 {
 	{"provider", 0, 134217915, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -5405,10 +5405,10 @@ extern const MethodInfo UInt32_System_IConvertible_ToDateTime_m15333_MethodInfo 
 {
 	"System.IConvertible.ToDateTime"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToDateTime_m15333/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &DateTime_t287_0_0_0/* return_type */
 	, RuntimeInvoker_DateTime_t287_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToDateTime_m15333_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_System_IConvertible_ToDateTime_m15333_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5423,20 +5423,20 @@ extern const MethodInfo UInt32_System_IConvertible_ToDateTime_m15333_MethodInfo 
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToDecimal_m15334_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToDecimal_m15334_ParameterInfos[] = 
 {
 	{"provider", 0, 134217916, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.UInt32::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo UInt32_System_IConvertible_ToDecimal_m15334_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToDecimal_m15334/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToDecimal_m15334_ParameterInfos/* parameters */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
+	, UInt32_t691_UInt32_System_IConvertible_ToDecimal_m15334_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5451,7 +5451,7 @@ extern const MethodInfo UInt32_System_IConvertible_ToDecimal_m15334_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToDouble_m15335_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToDouble_m15335_ParameterInfos[] = 
 {
 	{"provider", 0, 134217917, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -5461,10 +5461,10 @@ extern const MethodInfo UInt32_System_IConvertible_ToDouble_m15335_MethodInfo =
 {
 	"System.IConvertible.ToDouble"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToDouble_m15335/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Double_t90_0_0_0/* return_type */
 	, RuntimeInvoker_Double_t90_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToDouble_m15335_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_System_IConvertible_ToDouble_m15335_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5479,20 +5479,20 @@ extern const MethodInfo UInt32_System_IConvertible_ToDouble_m15335_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToInt16_m15336_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToInt16_m15336_ParameterInfos[] = 
 {
 	{"provider", 0, 134217918, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.UInt32::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo UInt32_System_IConvertible_ToInt16_m15336_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToInt16_m15336/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToInt16_m15336_ParameterInfos/* parameters */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
+	, UInt32_t691_UInt32_System_IConvertible_ToInt16_m15336_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5507,7 +5507,7 @@ extern const MethodInfo UInt32_System_IConvertible_ToInt16_m15336_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToInt32_m15337_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToInt32_m15337_ParameterInfos[] = 
 {
 	{"provider", 0, 134217919, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -5517,10 +5517,10 @@ extern const MethodInfo UInt32_System_IConvertible_ToInt32_m15337_MethodInfo =
 {
 	"System.IConvertible.ToInt32"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToInt32_m15337/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToInt32_m15337_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_System_IConvertible_ToInt32_m15337_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5535,7 +5535,7 @@ extern const MethodInfo UInt32_System_IConvertible_ToInt32_m15337_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToInt64_m15338_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToInt64_m15338_ParameterInfos[] = 
 {
 	{"provider", 0, 134217920, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -5545,10 +5545,10 @@ extern const MethodInfo UInt32_System_IConvertible_ToInt64_m15338_MethodInfo =
 {
 	"System.IConvertible.ToInt64"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToInt64_m15338/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Int64_t89_0_0_0/* return_type */
 	, RuntimeInvoker_Int64_t89_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToInt64_m15338_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_System_IConvertible_ToInt64_m15338_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5563,7 +5563,7 @@ extern const MethodInfo UInt32_System_IConvertible_ToInt64_m15338_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToSByte_m15339_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToSByte_m15339_ParameterInfos[] = 
 {
 	{"provider", 0, 134217921, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -5573,10 +5573,10 @@ extern const MethodInfo UInt32_System_IConvertible_ToSByte_m15339_MethodInfo =
 {
 	"System.IConvertible.ToSByte"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToSByte_m15339/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &SByte_t88_0_0_0/* return_type */
 	, RuntimeInvoker_SByte_t88_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToSByte_m15339_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_System_IConvertible_ToSByte_m15339_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5591,7 +5591,7 @@ extern const MethodInfo UInt32_System_IConvertible_ToSByte_m15339_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToSingle_m15340_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToSingle_m15340_ParameterInfos[] = 
 {
 	{"provider", 0, 134217922, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -5601,10 +5601,10 @@ extern const MethodInfo UInt32_System_IConvertible_ToSingle_m15340_MethodInfo =
 {
 	"System.IConvertible.ToSingle"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToSingle_m15340/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToSingle_m15340_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_System_IConvertible_ToSingle_m15340_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5620,7 +5620,7 @@ extern const MethodInfo UInt32_System_IConvertible_ToSingle_m15340_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToType_m15341_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToType_m15341_ParameterInfos[] = 
 {
 	{"targetType", 0, 134217923, 0, &Type_t_0_0_0},
 	{"provider", 1, 134217924, 0, &IFormatProvider_t4456_0_0_0},
@@ -5631,10 +5631,10 @@ extern const MethodInfo UInt32_System_IConvertible_ToType_m15341_MethodInfo =
 {
 	"System.IConvertible.ToType"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToType_m15341/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToType_m15341_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_System_IConvertible_ToType_m15341_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5649,20 +5649,20 @@ extern const MethodInfo UInt32_System_IConvertible_ToType_m15341_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToUInt16_m15342_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToUInt16_m15342_ParameterInfos[] = 
 {
 	{"provider", 0, 134217925, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.UInt32::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo UInt32_System_IConvertible_ToUInt16_m15342_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToUInt16_m15342/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToUInt16_m15342_ParameterInfos/* parameters */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
+	, UInt32_t691_UInt32_System_IConvertible_ToUInt16_m15342_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5677,20 +5677,20 @@ extern const MethodInfo UInt32_System_IConvertible_ToUInt16_m15342_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToUInt32_m15343_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToUInt32_m15343_ParameterInfos[] = 
 {
 	{"provider", 0, 134217926, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.UInt32::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo UInt32_System_IConvertible_ToUInt32_m15343_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToUInt32_m15343/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToUInt32_m15343_ParameterInfos/* parameters */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
+	, UInt32_t691_UInt32_System_IConvertible_ToUInt32_m15343_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5705,20 +5705,20 @@ extern const MethodInfo UInt32_System_IConvertible_ToUInt32_m15343_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_System_IConvertible_ToUInt64_m15344_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_System_IConvertible_ToUInt64_m15344_ParameterInfos[] = 
 {
 	{"provider", 0, 134217927, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.UInt32::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo UInt32_System_IConvertible_ToUInt64_m15344_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&UInt32_System_IConvertible_ToUInt64_m15344/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_System_IConvertible_ToUInt64_m15344_ParameterInfos/* parameters */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
+	, UInt32_t691_UInt32_System_IConvertible_ToUInt64_m15344_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5733,7 +5733,7 @@ extern const MethodInfo UInt32_System_IConvertible_ToUInt64_m15344_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_CompareTo_m15345_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_CompareTo_m15345_ParameterInfos[] = 
 {
 	{"value", 0, 134217928, 0, &Object_t_0_0_0},
 };
@@ -5743,10 +5743,10 @@ extern const MethodInfo UInt32_CompareTo_m15345_MethodInfo =
 {
 	"CompareTo"/* name */
 	, (methodPointerType)&UInt32_CompareTo_m15345/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_CompareTo_m15345_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_CompareTo_m15345_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -5761,7 +5761,7 @@ extern const MethodInfo UInt32_CompareTo_m15345_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_Equals_m15346_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_Equals_m15346_ParameterInfos[] = 
 {
 	{"obj", 0, 134217929, 0, &Object_t_0_0_0},
 };
@@ -5771,10 +5771,10 @@ extern const MethodInfo UInt32_Equals_m15346_MethodInfo =
 {
 	"Equals"/* name */
 	, (methodPointerType)&UInt32_Equals_m15346/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_Equals_m15346_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_Equals_m15346_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -5794,7 +5794,7 @@ extern const MethodInfo UInt32_GetHashCode_m15347_MethodInfo =
 {
 	"GetHashCode"/* name */
 	, (methodPointerType)&UInt32_GetHashCode_m15347/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -5811,10 +5811,10 @@ extern const MethodInfo UInt32_GetHashCode_m15347_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_CompareTo_m15348_ParameterInfos[] = 
+extern const Il2CppType UInt32_t691_0_0_0;
+static const ParameterInfo UInt32_t691_UInt32_CompareTo_m15348_ParameterInfos[] = 
 {
-	{"value", 0, 134217930, 0, &UInt32_t690_0_0_0},
+	{"value", 0, 134217930, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.UInt32::CompareTo(System.UInt32)
@@ -5822,10 +5822,10 @@ extern const MethodInfo UInt32_CompareTo_m15348_MethodInfo =
 {
 	"CompareTo"/* name */
 	, (methodPointerType)&UInt32_CompareTo_m15348/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Int32_t82/* invoker_method */
-	, UInt32_t690_UInt32_CompareTo_m15348_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_CompareTo_m15348_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -5839,10 +5839,10 @@ extern const MethodInfo UInt32_CompareTo_m15348_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_Equals_m15349_ParameterInfos[] = 
+extern const Il2CppType UInt32_t691_0_0_0;
+static const ParameterInfo UInt32_t691_UInt32_Equals_m15349_ParameterInfos[] = 
 {
-	{"obj", 0, 134217931, 0, &UInt32_t690_0_0_0},
+	{"obj", 0, 134217931, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.UInt32::Equals(System.UInt32)
@@ -5850,10 +5850,10 @@ extern const MethodInfo UInt32_Equals_m15349_MethodInfo =
 {
 	"Equals"/* name */
 	, (methodPointerType)&UInt32_Equals_m15349/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32_t82/* invoker_method */
-	, UInt32_t690_UInt32_Equals_m15349_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_Equals_m15349_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -5869,14 +5869,14 @@ extern const MethodInfo UInt32_Equals_m15349_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType UInt32_t690_1_0_2;
-extern const Il2CppType UInt32_t690_1_0_0;
+extern const Il2CppType UInt32_t691_1_0_2;
+extern const Il2CppType UInt32_t691_1_0_0;
 extern const Il2CppType Exception_t57_1_0_2;
-static const ParameterInfo UInt32_t690_UInt32_Parse_m15350_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_Parse_m15350_ParameterInfos[] = 
 {
 	{"s", 0, 134217932, 0, &String_t_0_0_0},
 	{"tryParse", 1, 134217933, 0, &Boolean_t59_0_0_0},
-	{"result", 2, 134217934, 0, &UInt32_t690_1_0_2},
+	{"result", 2, 134217934, 0, &UInt32_t691_1_0_2},
 	{"exc", 3, 134217935, 0, &Exception_t57_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_UInt32U26_t3706_ExceptionU26_t4942 (const MethodInfo* method, void* obj, void** args);
@@ -5885,10 +5885,10 @@ extern const MethodInfo UInt32_Parse_m15350_MethodInfo =
 {
 	"Parse"/* name */
 	, (methodPointerType)&UInt32_Parse_m15350/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_UInt32U26_t3706_ExceptionU26_t4942/* invoker_method */
-	, UInt32_t690_UInt32_Parse_m15350_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_Parse_m15350_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -5906,15 +5906,15 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType UInt32_t690_1_0_2;
+extern const Il2CppType UInt32_t691_1_0_2;
 extern const Il2CppType Exception_t57_1_0_2;
-static const ParameterInfo UInt32_t690_UInt32_Parse_m15351_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_Parse_m15351_ParameterInfos[] = 
 {
 	{"s", 0, 134217936, 0, &String_t_0_0_0},
 	{"style", 1, 134217937, 0, &NumberStyles_t4429_0_0_0},
 	{"provider", 2, 134217938, 0, &IFormatProvider_t4456_0_0_0},
 	{"tryParse", 3, 134217939, 0, &Boolean_t59_0_0_0},
-	{"result", 4, 134217940, 0, &UInt32_t690_1_0_2},
+	{"result", 4, 134217940, 0, &UInt32_t691_1_0_2},
 	{"exc", 5, 134217941, 0, &Exception_t57_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_UInt32U26_t3706_ExceptionU26_t4942 (const MethodInfo* method, void* obj, void** args);
@@ -5923,10 +5923,10 @@ extern const MethodInfo UInt32_Parse_m15351_MethodInfo =
 {
 	"Parse"/* name */
 	, (methodPointerType)&UInt32_Parse_m15351/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_UInt32U26_t3706_ExceptionU26_t4942/* invoker_method */
-	, UInt32_t690_UInt32_Parse_m15351_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_Parse_m15351_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -5941,20 +5941,20 @@ extern const MethodInfo UInt32_Parse_m15351_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_Parse_m14867_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_Parse_m14867_ParameterInfos[] = 
 {
 	{"s", 0, 134217942, 0, &String_t_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.UInt32::Parse(System.String)
 extern const MethodInfo UInt32_Parse_m14867_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&UInt32_Parse_m14867/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_Parse_m14867_ParameterInfos/* parameters */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
+	, UInt32_t691_UInt32_Parse_m14867_ParameterInfos/* parameters */
 	, 18/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -5971,22 +5971,22 @@ extern const MethodInfo UInt32_Parse_m14867_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_Parse_m15352_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_Parse_m15352_ParameterInfos[] = 
 {
 	{"s", 0, 134217943, 0, &String_t_0_0_0},
 	{"style", 1, 134217944, 0, &NumberStyles_t4429_0_0_0},
 	{"provider", 2, 134217945, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.UInt32::Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
 extern const MethodInfo UInt32_Parse_m15352_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&UInt32_Parse_m15352/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t_Int32_t82_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_Parse_m15352_ParameterInfos/* parameters */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t_Int32_t82_Object_t/* invoker_method */
+	, UInt32_t691_UInt32_Parse_m15352_ParameterInfos/* parameters */
 	, 19/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6002,21 +6002,21 @@ extern const MethodInfo UInt32_Parse_m15352_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_Parse_m15353_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_Parse_m15353_ParameterInfos[] = 
 {
 	{"s", 0, 134217946, 0, &String_t_0_0_0},
 	{"provider", 1, 134217947, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.UInt32::Parse(System.String,System.IFormatProvider)
 extern const MethodInfo UInt32_Parse_m15353_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&UInt32_Parse_m15353/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_Parse_m15353_ParameterInfos/* parameters */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t_Object_t/* invoker_method */
+	, UInt32_t691_UInt32_Parse_m15353_ParameterInfos/* parameters */
 	, 20/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6031,11 +6031,11 @@ extern const MethodInfo UInt32_Parse_m15353_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType UInt32_t690_1_0_2;
-static const ParameterInfo UInt32_t690_UInt32_TryParse_m14922_ParameterInfos[] = 
+extern const Il2CppType UInt32_t691_1_0_2;
+static const ParameterInfo UInt32_t691_UInt32_TryParse_m14922_ParameterInfos[] = 
 {
 	{"s", 0, 134217948, 0, &String_t_0_0_0},
-	{"result", 1, 134217949, 0, &UInt32_t690_1_0_2},
+	{"result", 1, 134217949, 0, &UInt32_t691_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_UInt32U26_t3706 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.UInt32::TryParse(System.String,System.UInt32&)
@@ -6043,10 +6043,10 @@ extern const MethodInfo UInt32_TryParse_m14922_MethodInfo =
 {
 	"TryParse"/* name */
 	, (methodPointerType)&UInt32_TryParse_m14922/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_UInt32U26_t3706/* invoker_method */
-	, UInt32_t690_UInt32_TryParse_m14922_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_TryParse_m14922_ParameterInfos/* parameters */
 	, 21/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6063,13 +6063,13 @@ extern const MethodInfo UInt32_TryParse_m14922_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-extern const Il2CppType UInt32_t690_1_0_2;
-static const ParameterInfo UInt32_t690_UInt32_TryParse_m9883_ParameterInfos[] = 
+extern const Il2CppType UInt32_t691_1_0_2;
+static const ParameterInfo UInt32_t691_UInt32_TryParse_m9883_ParameterInfos[] = 
 {
 	{"s", 0, 134217950, 0, &String_t_0_0_0},
 	{"style", 1, 134217951, 0, &NumberStyles_t4429_0_0_0},
 	{"provider", 2, 134217952, 0, &IFormatProvider_t4456_0_0_0},
-	{"result", 3, 134217953, 0, &UInt32_t690_1_0_2},
+	{"result", 3, 134217953, 0, &UInt32_t691_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_UInt32U26_t3706 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.UInt32::TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt32&)
@@ -6077,10 +6077,10 @@ extern const MethodInfo UInt32_TryParse_m9883_MethodInfo =
 {
 	"TryParse"/* name */
 	, (methodPointerType)&UInt32_TryParse_m9883/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_UInt32U26_t3706/* invoker_method */
-	, UInt32_t690_UInt32_TryParse_m9883_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_TryParse_m9883_ParameterInfos/* parameters */
 	, 22/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6100,7 +6100,7 @@ extern const MethodInfo UInt32_ToString_m9879_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&UInt32_ToString_m9879/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -6118,7 +6118,7 @@ extern const MethodInfo UInt32_ToString_m9879_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_ToString_m9889_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_ToString_m9889_ParameterInfos[] = 
 {
 	{"provider", 0, 134217954, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -6128,10 +6128,10 @@ extern const MethodInfo UInt32_ToString_m9889_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&UInt32_ToString_m9889/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_ToString_m9889_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_ToString_m9889_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -6146,7 +6146,7 @@ extern const MethodInfo UInt32_ToString_m9889_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_ToString_m15354_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_ToString_m15354_ParameterInfos[] = 
 {
 	{"format", 0, 134217955, 0, &String_t_0_0_0},
 };
@@ -6156,10 +6156,10 @@ extern const MethodInfo UInt32_ToString_m15354_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&UInt32_ToString_m15354/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_ToString_m15354_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_ToString_m15354_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6175,7 +6175,7 @@ extern const MethodInfo UInt32_ToString_m15354_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt32_t690_UInt32_ToString_m15355_ParameterInfos[] = 
+static const ParameterInfo UInt32_t691_UInt32_ToString_m15355_ParameterInfos[] = 
 {
 	{"format", 0, 134217956, 0, &String_t_0_0_0},
 	{"provider", 1, 134217957, 0, &IFormatProvider_t4456_0_0_0},
@@ -6186,10 +6186,10 @@ extern const MethodInfo UInt32_ToString_m15355_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&UInt32_ToString_m15355/* method */
-	, &UInt32_t690_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, UInt32_t690_UInt32_ToString_m15355_ParameterInfos/* parameters */
+	, UInt32_t691_UInt32_ToString_m15355_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -6203,7 +6203,7 @@ extern const MethodInfo UInt32_ToString_m15355_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* UInt32_t690_MethodInfos[] =
+static const MethodInfo* UInt32_t691_MethodInfos[] =
 {
 	&UInt32_System_IConvertible_ToBoolean_m15330_MethodInfo,
 	&UInt32_System_IConvertible_ToByte_m15331_MethodInfo,
@@ -6261,7 +6261,7 @@ extern const MethodInfo UInt32_System_IConvertible_ToUInt64_m15344_MethodInfo;
 extern const MethodInfo UInt32_CompareTo_m15345_MethodInfo;
 extern const MethodInfo UInt32_CompareTo_m15348_MethodInfo;
 extern const MethodInfo UInt32_Equals_m15349_MethodInfo;
-static const Il2CppMethodReference UInt32_t690_VTable[] =
+static const Il2CppMethodReference UInt32_t691_VTable[] =
 {
 	&UInt32_Equals_m15346_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -6288,7 +6288,7 @@ static const Il2CppMethodReference UInt32_t690_VTable[] =
 	&UInt32_CompareTo_m15348_MethodInfo,
 	&UInt32_Equals_m15349_MethodInfo,
 };
-static bool UInt32_t690_VTableIsGenericMethod[] =
+static bool UInt32_t691_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -6317,7 +6317,7 @@ static bool UInt32_t690_VTableIsGenericMethod[] =
 };
 extern const Il2CppType IComparable_1_t4950_0_0_0;
 extern const Il2CppType IEquatable_1_t4951_0_0_0;
-static const Il2CppType* UInt32_t690_InterfacesTypeInfos[] = 
+static const Il2CppType* UInt32_t691_InterfacesTypeInfos[] = 
 {
 	&IFormattable_t97_0_0_0,
 	&IConvertible_t98_0_0_0,
@@ -6325,7 +6325,7 @@ static const Il2CppType* UInt32_t690_InterfacesTypeInfos[] =
 	&IComparable_1_t4950_0_0_0,
 	&IEquatable_1_t4951_0_0_0,
 };
-static Il2CppInterfaceOffsetPair UInt32_t690_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair UInt32_t691_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
@@ -6334,34 +6334,34 @@ static Il2CppInterfaceOffsetPair UInt32_t690_InterfacesOffsets[] =
 	{ &IEquatable_1_t4951_0_0_0, 23},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-const Il2CppTypeDefinitionMetadata UInt32_t690_DefinitionMetadata = 
+const Il2CppTypeDefinitionMetadata UInt32_t691_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, UInt32_t690_InterfacesTypeInfos/* implementedInterfaces */
-	, UInt32_t690_InterfacesOffsets/* interfaceOffsets */
+	, UInt32_t691_InterfacesTypeInfos/* implementedInterfaces */
+	, UInt32_t691_InterfacesOffsets/* interfaceOffsets */
 	, &ValueType_t1076_0_0_0/* parent */
-	, UInt32_t690_VTable/* vtableMethods */
-	, UInt32_t690_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, UInt32_t691_VTable/* vtableMethods */
+	, UInt32_t691_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 10/* fieldStart */
 
 };
-TypeInfo UInt32_t690_il2cpp_TypeInfo = 
+TypeInfo UInt32_t691_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "UInt32"/* name */
 	, "System"/* namespaze */
-	, UInt32_t690_MethodInfos/* methods */
+	, UInt32_t691_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &UInt32_t690_il2cpp_TypeInfo/* element_class */
+	, &UInt32_t691_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 17/* custom_attributes_cache */
-	, &UInt32_t690_0_0_0/* byval_arg */
-	, &UInt32_t690_1_0_0/* this_arg */
-	, &UInt32_t690_DefinitionMetadata/* definitionMetadata */
+	, &UInt32_t691_0_0_0/* byval_arg */
+	, &UInt32_t691_1_0_0/* this_arg */
+	, &UInt32_t691_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -6371,8 +6371,8 @@ TypeInfo UInt32_t690_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (UInt32_t690)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (UInt32_t690)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (UInt32_t691)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (UInt32_t691)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(uint32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -6532,11 +6532,11 @@ TypeInfo CLSCompliantAttribute_t3259_il2cpp_TypeInfo =
 // System.UInt64
 #include "mscorlib_System_UInt64.h"
 // Metadata Definition System.UInt64
-extern TypeInfo UInt64_t694_il2cpp_TypeInfo;
+extern TypeInfo UInt64_t695_il2cpp_TypeInfo;
 // System.UInt64
 #include "mscorlib_System_UInt64MethodDeclarations.h"
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToBoolean_m15356_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToBoolean_m15356_ParameterInfos[] = 
 {
 	{"provider", 0, 134217959, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -6546,10 +6546,10 @@ extern const MethodInfo UInt64_System_IConvertible_ToBoolean_m15356_MethodInfo =
 {
 	"System.IConvertible.ToBoolean"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToBoolean_m15356/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToBoolean_m15356_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_System_IConvertible_ToBoolean_m15356_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6564,20 +6564,20 @@ extern const MethodInfo UInt64_System_IConvertible_ToBoolean_m15356_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToByte_m15357_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToByte_m15357_ParameterInfos[] = 
 {
 	{"provider", 0, 134217960, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.UInt64::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo UInt64_System_IConvertible_ToByte_m15357_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToByte_m15357/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToByte_m15357_ParameterInfos/* parameters */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
+	, UInt64_t695_UInt64_System_IConvertible_ToByte_m15357_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6592,7 +6592,7 @@ extern const MethodInfo UInt64_System_IConvertible_ToByte_m15357_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToChar_m15358_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToChar_m15358_ParameterInfos[] = 
 {
 	{"provider", 0, 134217961, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -6602,10 +6602,10 @@ extern const MethodInfo UInt64_System_IConvertible_ToChar_m15358_MethodInfo =
 {
 	"System.IConvertible.ToChar"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToChar_m15358/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t60_0_0_0/* return_type */
 	, RuntimeInvoker_Char_t60_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToChar_m15358_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_System_IConvertible_ToChar_m15358_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6620,7 +6620,7 @@ extern const MethodInfo UInt64_System_IConvertible_ToChar_m15358_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToDateTime_m15359_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToDateTime_m15359_ParameterInfos[] = 
 {
 	{"provider", 0, 134217962, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -6630,10 +6630,10 @@ extern const MethodInfo UInt64_System_IConvertible_ToDateTime_m15359_MethodInfo 
 {
 	"System.IConvertible.ToDateTime"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToDateTime_m15359/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &DateTime_t287_0_0_0/* return_type */
 	, RuntimeInvoker_DateTime_t287_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToDateTime_m15359_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_System_IConvertible_ToDateTime_m15359_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6648,20 +6648,20 @@ extern const MethodInfo UInt64_System_IConvertible_ToDateTime_m15359_MethodInfo 
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToDecimal_m15360_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToDecimal_m15360_ParameterInfos[] = 
 {
 	{"provider", 0, 134217963, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.UInt64::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo UInt64_System_IConvertible_ToDecimal_m15360_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToDecimal_m15360/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToDecimal_m15360_ParameterInfos/* parameters */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
+	, UInt64_t695_UInt64_System_IConvertible_ToDecimal_m15360_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6676,7 +6676,7 @@ extern const MethodInfo UInt64_System_IConvertible_ToDecimal_m15360_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToDouble_m15361_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToDouble_m15361_ParameterInfos[] = 
 {
 	{"provider", 0, 134217964, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -6686,10 +6686,10 @@ extern const MethodInfo UInt64_System_IConvertible_ToDouble_m15361_MethodInfo =
 {
 	"System.IConvertible.ToDouble"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToDouble_m15361/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Double_t90_0_0_0/* return_type */
 	, RuntimeInvoker_Double_t90_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToDouble_m15361_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_System_IConvertible_ToDouble_m15361_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6704,20 +6704,20 @@ extern const MethodInfo UInt64_System_IConvertible_ToDouble_m15361_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToInt16_m15362_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToInt16_m15362_ParameterInfos[] = 
 {
 	{"provider", 0, 134217965, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.UInt64::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo UInt64_System_IConvertible_ToInt16_m15362_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToInt16_m15362/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToInt16_m15362_ParameterInfos/* parameters */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
+	, UInt64_t695_UInt64_System_IConvertible_ToInt16_m15362_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6732,7 +6732,7 @@ extern const MethodInfo UInt64_System_IConvertible_ToInt16_m15362_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToInt32_m15363_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToInt32_m15363_ParameterInfos[] = 
 {
 	{"provider", 0, 134217966, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -6742,10 +6742,10 @@ extern const MethodInfo UInt64_System_IConvertible_ToInt32_m15363_MethodInfo =
 {
 	"System.IConvertible.ToInt32"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToInt32_m15363/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToInt32_m15363_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_System_IConvertible_ToInt32_m15363_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6760,7 +6760,7 @@ extern const MethodInfo UInt64_System_IConvertible_ToInt32_m15363_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToInt64_m15364_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToInt64_m15364_ParameterInfos[] = 
 {
 	{"provider", 0, 134217967, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -6770,10 +6770,10 @@ extern const MethodInfo UInt64_System_IConvertible_ToInt64_m15364_MethodInfo =
 {
 	"System.IConvertible.ToInt64"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToInt64_m15364/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Int64_t89_0_0_0/* return_type */
 	, RuntimeInvoker_Int64_t89_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToInt64_m15364_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_System_IConvertible_ToInt64_m15364_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6788,7 +6788,7 @@ extern const MethodInfo UInt64_System_IConvertible_ToInt64_m15364_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToSByte_m15365_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToSByte_m15365_ParameterInfos[] = 
 {
 	{"provider", 0, 134217968, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -6798,10 +6798,10 @@ extern const MethodInfo UInt64_System_IConvertible_ToSByte_m15365_MethodInfo =
 {
 	"System.IConvertible.ToSByte"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToSByte_m15365/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &SByte_t88_0_0_0/* return_type */
 	, RuntimeInvoker_SByte_t88_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToSByte_m15365_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_System_IConvertible_ToSByte_m15365_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6816,7 +6816,7 @@ extern const MethodInfo UInt64_System_IConvertible_ToSByte_m15365_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToSingle_m15366_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToSingle_m15366_ParameterInfos[] = 
 {
 	{"provider", 0, 134217969, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -6826,10 +6826,10 @@ extern const MethodInfo UInt64_System_IConvertible_ToSingle_m15366_MethodInfo =
 {
 	"System.IConvertible.ToSingle"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToSingle_m15366/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToSingle_m15366_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_System_IConvertible_ToSingle_m15366_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6845,7 +6845,7 @@ extern const MethodInfo UInt64_System_IConvertible_ToSingle_m15366_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToType_m15367_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToType_m15367_ParameterInfos[] = 
 {
 	{"targetType", 0, 134217970, 0, &Type_t_0_0_0},
 	{"provider", 1, 134217971, 0, &IFormatProvider_t4456_0_0_0},
@@ -6856,10 +6856,10 @@ extern const MethodInfo UInt64_System_IConvertible_ToType_m15367_MethodInfo =
 {
 	"System.IConvertible.ToType"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToType_m15367/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToType_m15367_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_System_IConvertible_ToType_m15367_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6874,20 +6874,20 @@ extern const MethodInfo UInt64_System_IConvertible_ToType_m15367_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToUInt16_m15368_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToUInt16_m15368_ParameterInfos[] = 
 {
 	{"provider", 0, 134217972, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.UInt64::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo UInt64_System_IConvertible_ToUInt16_m15368_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToUInt16_m15368/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToUInt16_m15368_ParameterInfos/* parameters */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
+	, UInt64_t695_UInt64_System_IConvertible_ToUInt16_m15368_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6902,20 +6902,20 @@ extern const MethodInfo UInt64_System_IConvertible_ToUInt16_m15368_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToUInt32_m15369_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToUInt32_m15369_ParameterInfos[] = 
 {
 	{"provider", 0, 134217973, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.UInt64::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo UInt64_System_IConvertible_ToUInt32_m15369_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToUInt32_m15369/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToUInt32_m15369_ParameterInfos/* parameters */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
+	, UInt64_t695_UInt64_System_IConvertible_ToUInt32_m15369_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6930,20 +6930,20 @@ extern const MethodInfo UInt64_System_IConvertible_ToUInt32_m15369_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_System_IConvertible_ToUInt64_m15370_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_System_IConvertible_ToUInt64_m15370_ParameterInfos[] = 
 {
 	{"provider", 0, 134217974, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.UInt64::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo UInt64_System_IConvertible_ToUInt64_m15370_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&UInt64_System_IConvertible_ToUInt64_m15370/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_System_IConvertible_ToUInt64_m15370_ParameterInfos/* parameters */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
+	, UInt64_t695_UInt64_System_IConvertible_ToUInt64_m15370_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -6958,7 +6958,7 @@ extern const MethodInfo UInt64_System_IConvertible_ToUInt64_m15370_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_CompareTo_m15371_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_CompareTo_m15371_ParameterInfos[] = 
 {
 	{"value", 0, 134217975, 0, &Object_t_0_0_0},
 };
@@ -6968,10 +6968,10 @@ extern const MethodInfo UInt64_CompareTo_m15371_MethodInfo =
 {
 	"CompareTo"/* name */
 	, (methodPointerType)&UInt64_CompareTo_m15371/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_CompareTo_m15371_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_CompareTo_m15371_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -6986,7 +6986,7 @@ extern const MethodInfo UInt64_CompareTo_m15371_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_Equals_m15372_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_Equals_m15372_ParameterInfos[] = 
 {
 	{"obj", 0, 134217976, 0, &Object_t_0_0_0},
 };
@@ -6996,10 +6996,10 @@ extern const MethodInfo UInt64_Equals_m15372_MethodInfo =
 {
 	"Equals"/* name */
 	, (methodPointerType)&UInt64_Equals_m15372/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_Equals_m15372_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_Equals_m15372_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -7019,7 +7019,7 @@ extern const MethodInfo UInt64_GetHashCode_m15373_MethodInfo =
 {
 	"GetHashCode"/* name */
 	, (methodPointerType)&UInt64_GetHashCode_m15373/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -7036,10 +7036,10 @@ extern const MethodInfo UInt64_GetHashCode_m15373_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt64_t694_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_CompareTo_m15374_ParameterInfos[] = 
+extern const Il2CppType UInt64_t695_0_0_0;
+static const ParameterInfo UInt64_t695_UInt64_CompareTo_m15374_ParameterInfos[] = 
 {
-	{"value", 0, 134217977, 0, &UInt64_t694_0_0_0},
+	{"value", 0, 134217977, 0, &UInt64_t695_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.UInt64::CompareTo(System.UInt64)
@@ -7047,10 +7047,10 @@ extern const MethodInfo UInt64_CompareTo_m15374_MethodInfo =
 {
 	"CompareTo"/* name */
 	, (methodPointerType)&UInt64_CompareTo_m15374/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Int64_t89/* invoker_method */
-	, UInt64_t694_UInt64_CompareTo_m15374_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_CompareTo_m15374_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -7064,10 +7064,10 @@ extern const MethodInfo UInt64_CompareTo_m15374_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt64_t694_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_Equals_m15375_ParameterInfos[] = 
+extern const Il2CppType UInt64_t695_0_0_0;
+static const ParameterInfo UInt64_t695_UInt64_Equals_m15375_ParameterInfos[] = 
 {
-	{"obj", 0, 134217978, 0, &UInt64_t694_0_0_0},
+	{"obj", 0, 134217978, 0, &UInt64_t695_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.UInt64::Equals(System.UInt64)
@@ -7075,10 +7075,10 @@ extern const MethodInfo UInt64_Equals_m15375_MethodInfo =
 {
 	"Equals"/* name */
 	, (methodPointerType)&UInt64_Equals_m15375/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int64_t89/* invoker_method */
-	, UInt64_t694_UInt64_Equals_m15375_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_Equals_m15375_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -7094,21 +7094,21 @@ extern const MethodInfo UInt64_Equals_m15375_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_Parse_m15376_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_Parse_m15376_ParameterInfos[] = 
 {
 	{"s", 0, 134217979, 0, &String_t_0_0_0},
 	{"provider", 1, 134217980, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.UInt64::Parse(System.String,System.IFormatProvider)
 extern const MethodInfo UInt64_Parse_m15376_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&UInt64_Parse_m15376/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_Parse_m15376_ParameterInfos/* parameters */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t_Object_t/* invoker_method */
+	, UInt64_t695_UInt64_Parse_m15376_ParameterInfos/* parameters */
 	, 25/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7126,16 +7126,16 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType UInt64_t694_1_0_2;
-extern const Il2CppType UInt64_t694_1_0_0;
+extern const Il2CppType UInt64_t695_1_0_2;
+extern const Il2CppType UInt64_t695_1_0_0;
 extern const Il2CppType Exception_t57_1_0_2;
-static const ParameterInfo UInt64_t694_UInt64_Parse_m15377_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_Parse_m15377_ParameterInfos[] = 
 {
 	{"s", 0, 134217981, 0, &String_t_0_0_0},
 	{"style", 1, 134217982, 0, &NumberStyles_t4429_0_0_0},
 	{"provider", 2, 134217983, 0, &IFormatProvider_t4456_0_0_0},
 	{"tryParse", 3, 134217984, 0, &Boolean_t59_0_0_0},
-	{"result", 4, 134217985, 0, &UInt64_t694_1_0_2},
+	{"result", 4, 134217985, 0, &UInt64_t695_1_0_2},
 	{"exc", 5, 134217986, 0, &Exception_t57_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_UInt64U26_t4952_ExceptionU26_t4942 (const MethodInfo* method, void* obj, void** args);
@@ -7144,10 +7144,10 @@ extern const MethodInfo UInt64_Parse_m15377_MethodInfo =
 {
 	"Parse"/* name */
 	, (methodPointerType)&UInt64_Parse_m15377/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_UInt64U26_t4952_ExceptionU26_t4942/* invoker_method */
-	, UInt64_t694_UInt64_Parse_m15377_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_Parse_m15377_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -7164,22 +7164,22 @@ extern const MethodInfo UInt64_Parse_m15377_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_Parse_m15378_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_Parse_m15378_ParameterInfos[] = 
 {
 	{"s", 0, 134217987, 0, &String_t_0_0_0},
 	{"style", 1, 134217988, 0, &NumberStyles_t4429_0_0_0},
 	{"provider", 2, 134217989, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.UInt64::Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
 extern const MethodInfo UInt64_Parse_m15378_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&UInt64_Parse_m15378/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t_Int32_t82_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_Parse_m15378_ParameterInfos/* parameters */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t_Int32_t82_Object_t/* invoker_method */
+	, UInt64_t695_UInt64_Parse_m15378_ParameterInfos/* parameters */
 	, 26/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7194,11 +7194,11 @@ extern const MethodInfo UInt64_Parse_m15378_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType UInt64_t694_1_0_2;
-static const ParameterInfo UInt64_t694_UInt64_TryParse_m9878_ParameterInfos[] = 
+extern const Il2CppType UInt64_t695_1_0_2;
+static const ParameterInfo UInt64_t695_UInt64_TryParse_m9878_ParameterInfos[] = 
 {
 	{"s", 0, 134217990, 0, &String_t_0_0_0},
-	{"result", 1, 134217991, 0, &UInt64_t694_1_0_2},
+	{"result", 1, 134217991, 0, &UInt64_t695_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_UInt64U26_t4952 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.UInt64::TryParse(System.String,System.UInt64&)
@@ -7206,10 +7206,10 @@ extern const MethodInfo UInt64_TryParse_m9878_MethodInfo =
 {
 	"TryParse"/* name */
 	, (methodPointerType)&UInt64_TryParse_m9878/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_UInt64U26_t4952/* invoker_method */
-	, UInt64_t694_UInt64_TryParse_m9878_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_TryParse_m9878_ParameterInfos/* parameters */
 	, 27/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7229,7 +7229,7 @@ extern const MethodInfo UInt64_ToString_m15379_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&UInt64_ToString_m15379/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -7247,7 +7247,7 @@ extern const MethodInfo UInt64_ToString_m15379_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_ToString_m9887_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_ToString_m9887_ParameterInfos[] = 
 {
 	{"provider", 0, 134217992, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -7257,10 +7257,10 @@ extern const MethodInfo UInt64_ToString_m9887_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&UInt64_ToString_m9887/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_ToString_m9887_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_ToString_m9887_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -7275,7 +7275,7 @@ extern const MethodInfo UInt64_ToString_m9887_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_ToString_m15380_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_ToString_m15380_ParameterInfos[] = 
 {
 	{"format", 0, 134217993, 0, &String_t_0_0_0},
 };
@@ -7285,10 +7285,10 @@ extern const MethodInfo UInt64_ToString_m15380_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&UInt64_ToString_m15380/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_ToString_m15380_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_ToString_m15380_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -7304,7 +7304,7 @@ extern const MethodInfo UInt64_ToString_m15380_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt64_t694_UInt64_ToString_m15381_ParameterInfos[] = 
+static const ParameterInfo UInt64_t695_UInt64_ToString_m15381_ParameterInfos[] = 
 {
 	{"format", 0, 134217994, 0, &String_t_0_0_0},
 	{"provider", 1, 134217995, 0, &IFormatProvider_t4456_0_0_0},
@@ -7315,10 +7315,10 @@ extern const MethodInfo UInt64_ToString_m15381_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&UInt64_ToString_m15381/* method */
-	, &UInt64_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, UInt64_t694_UInt64_ToString_m15381_ParameterInfos/* parameters */
+	, UInt64_t695_UInt64_ToString_m15381_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -7332,7 +7332,7 @@ extern const MethodInfo UInt64_ToString_m15381_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* UInt64_t694_MethodInfos[] =
+static const MethodInfo* UInt64_t695_MethodInfos[] =
 {
 	&UInt64_System_IConvertible_ToBoolean_m15356_MethodInfo,
 	&UInt64_System_IConvertible_ToByte_m15357_MethodInfo,
@@ -7387,7 +7387,7 @@ extern const MethodInfo UInt64_System_IConvertible_ToUInt64_m15370_MethodInfo;
 extern const MethodInfo UInt64_CompareTo_m15371_MethodInfo;
 extern const MethodInfo UInt64_CompareTo_m15374_MethodInfo;
 extern const MethodInfo UInt64_Equals_m15375_MethodInfo;
-static const Il2CppMethodReference UInt64_t694_VTable[] =
+static const Il2CppMethodReference UInt64_t695_VTable[] =
 {
 	&UInt64_Equals_m15372_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -7414,7 +7414,7 @@ static const Il2CppMethodReference UInt64_t694_VTable[] =
 	&UInt64_CompareTo_m15374_MethodInfo,
 	&UInt64_Equals_m15375_MethodInfo,
 };
-static bool UInt64_t694_VTableIsGenericMethod[] =
+static bool UInt64_t695_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7443,7 +7443,7 @@ static bool UInt64_t694_VTableIsGenericMethod[] =
 };
 extern const Il2CppType IComparable_1_t4953_0_0_0;
 extern const Il2CppType IEquatable_1_t4954_0_0_0;
-static const Il2CppType* UInt64_t694_InterfacesTypeInfos[] = 
+static const Il2CppType* UInt64_t695_InterfacesTypeInfos[] = 
 {
 	&IFormattable_t97_0_0_0,
 	&IConvertible_t98_0_0_0,
@@ -7451,7 +7451,7 @@ static const Il2CppType* UInt64_t694_InterfacesTypeInfos[] =
 	&IComparable_1_t4953_0_0_0,
 	&IEquatable_1_t4954_0_0_0,
 };
-static Il2CppInterfaceOffsetPair UInt64_t694_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair UInt64_t695_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
@@ -7460,34 +7460,34 @@ static Il2CppInterfaceOffsetPair UInt64_t694_InterfacesOffsets[] =
 	{ &IEquatable_1_t4954_0_0_0, 23},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-const Il2CppTypeDefinitionMetadata UInt64_t694_DefinitionMetadata = 
+const Il2CppTypeDefinitionMetadata UInt64_t695_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, UInt64_t694_InterfacesTypeInfos/* implementedInterfaces */
-	, UInt64_t694_InterfacesOffsets/* interfaceOffsets */
+	, UInt64_t695_InterfacesTypeInfos/* implementedInterfaces */
+	, UInt64_t695_InterfacesOffsets/* interfaceOffsets */
 	, &ValueType_t1076_0_0_0/* parent */
-	, UInt64_t694_VTable/* vtableMethods */
-	, UInt64_t694_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, UInt64_t695_VTable/* vtableMethods */
+	, UInt64_t695_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 14/* fieldStart */
 
 };
-TypeInfo UInt64_t694_il2cpp_TypeInfo = 
+TypeInfo UInt64_t695_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "UInt64"/* name */
 	, "System"/* namespaze */
-	, UInt64_t694_MethodInfos/* methods */
+	, UInt64_t695_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &UInt64_t694_il2cpp_TypeInfo/* element_class */
+	, &UInt64_t695_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 24/* custom_attributes_cache */
-	, &UInt64_t694_0_0_0/* byval_arg */
-	, &UInt64_t694_1_0_0/* this_arg */
-	, &UInt64_t694_DefinitionMetadata/* definitionMetadata */
+	, &UInt64_t695_0_0_0/* byval_arg */
+	, &UInt64_t695_1_0_0/* this_arg */
+	, &UInt64_t695_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7497,8 +7497,8 @@ TypeInfo UInt64_t694_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (UInt64_t694)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (UInt64_t694)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (UInt64_t695)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (UInt64_t695)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(uint64_t)/* native_size */
 	, 0/* static_fields_size */
@@ -7530,12 +7530,12 @@ TypeInfo UInt64_t694_il2cpp_TypeInfo =
 // System.Byte
 #include "mscorlib_System_Byte.h"
 // Metadata Definition System.Byte
-extern TypeInfo Byte_t691_il2cpp_TypeInfo;
+extern TypeInfo Byte_t692_il2cpp_TypeInfo;
 // System.Byte
 #include "mscorlib_System_ByteMethodDeclarations.h"
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToType_m15382_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToType_m15382_ParameterInfos[] = 
 {
 	{"targetType", 0, 134217996, 0, &Type_t_0_0_0},
 	{"provider", 1, 134217997, 0, &IFormatProvider_t4456_0_0_0},
@@ -7546,10 +7546,10 @@ extern const MethodInfo Byte_System_IConvertible_ToType_m15382_MethodInfo =
 {
 	"System.IConvertible.ToType"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToType_m15382/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToType_m15382_ParameterInfos/* parameters */
+	, Byte_t692_Byte_System_IConvertible_ToType_m15382_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7564,7 +7564,7 @@ extern const MethodInfo Byte_System_IConvertible_ToType_m15382_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToBoolean_m15383_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToBoolean_m15383_ParameterInfos[] = 
 {
 	{"provider", 0, 134217998, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -7574,10 +7574,10 @@ extern const MethodInfo Byte_System_IConvertible_ToBoolean_m15383_MethodInfo =
 {
 	"System.IConvertible.ToBoolean"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToBoolean_m15383/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToBoolean_m15383_ParameterInfos/* parameters */
+	, Byte_t692_Byte_System_IConvertible_ToBoolean_m15383_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7592,20 +7592,20 @@ extern const MethodInfo Byte_System_IConvertible_ToBoolean_m15383_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToByte_m15384_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToByte_m15384_ParameterInfos[] = 
 {
 	{"provider", 0, 134217999, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Byte::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo Byte_System_IConvertible_ToByte_m15384_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToByte_m15384/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToByte_m15384_ParameterInfos/* parameters */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
+	, Byte_t692_Byte_System_IConvertible_ToByte_m15384_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7620,7 +7620,7 @@ extern const MethodInfo Byte_System_IConvertible_ToByte_m15384_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToChar_m15385_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToChar_m15385_ParameterInfos[] = 
 {
 	{"provider", 0, 134218000, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -7630,10 +7630,10 @@ extern const MethodInfo Byte_System_IConvertible_ToChar_m15385_MethodInfo =
 {
 	"System.IConvertible.ToChar"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToChar_m15385/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t60_0_0_0/* return_type */
 	, RuntimeInvoker_Char_t60_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToChar_m15385_ParameterInfos/* parameters */
+	, Byte_t692_Byte_System_IConvertible_ToChar_m15385_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7648,7 +7648,7 @@ extern const MethodInfo Byte_System_IConvertible_ToChar_m15385_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToDateTime_m15386_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToDateTime_m15386_ParameterInfos[] = 
 {
 	{"provider", 0, 134218001, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -7658,10 +7658,10 @@ extern const MethodInfo Byte_System_IConvertible_ToDateTime_m15386_MethodInfo =
 {
 	"System.IConvertible.ToDateTime"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToDateTime_m15386/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &DateTime_t287_0_0_0/* return_type */
 	, RuntimeInvoker_DateTime_t287_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToDateTime_m15386_ParameterInfos/* parameters */
+	, Byte_t692_Byte_System_IConvertible_ToDateTime_m15386_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7676,20 +7676,20 @@ extern const MethodInfo Byte_System_IConvertible_ToDateTime_m15386_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToDecimal_m15387_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToDecimal_m15387_ParameterInfos[] = 
 {
 	{"provider", 0, 134218002, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Byte::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo Byte_System_IConvertible_ToDecimal_m15387_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToDecimal_m15387/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToDecimal_m15387_ParameterInfos/* parameters */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
+	, Byte_t692_Byte_System_IConvertible_ToDecimal_m15387_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7704,7 +7704,7 @@ extern const MethodInfo Byte_System_IConvertible_ToDecimal_m15387_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToDouble_m15388_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToDouble_m15388_ParameterInfos[] = 
 {
 	{"provider", 0, 134218003, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -7714,10 +7714,10 @@ extern const MethodInfo Byte_System_IConvertible_ToDouble_m15388_MethodInfo =
 {
 	"System.IConvertible.ToDouble"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToDouble_m15388/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Double_t90_0_0_0/* return_type */
 	, RuntimeInvoker_Double_t90_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToDouble_m15388_ParameterInfos/* parameters */
+	, Byte_t692_Byte_System_IConvertible_ToDouble_m15388_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7732,20 +7732,20 @@ extern const MethodInfo Byte_System_IConvertible_ToDouble_m15388_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToInt16_m15389_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToInt16_m15389_ParameterInfos[] = 
 {
 	{"provider", 0, 134218004, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Byte::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo Byte_System_IConvertible_ToInt16_m15389_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToInt16_m15389/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToInt16_m15389_ParameterInfos/* parameters */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
+	, Byte_t692_Byte_System_IConvertible_ToInt16_m15389_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7760,7 +7760,7 @@ extern const MethodInfo Byte_System_IConvertible_ToInt16_m15389_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToInt32_m15390_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToInt32_m15390_ParameterInfos[] = 
 {
 	{"provider", 0, 134218005, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -7770,10 +7770,10 @@ extern const MethodInfo Byte_System_IConvertible_ToInt32_m15390_MethodInfo =
 {
 	"System.IConvertible.ToInt32"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToInt32_m15390/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToInt32_m15390_ParameterInfos/* parameters */
+	, Byte_t692_Byte_System_IConvertible_ToInt32_m15390_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7788,7 +7788,7 @@ extern const MethodInfo Byte_System_IConvertible_ToInt32_m15390_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToInt64_m15391_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToInt64_m15391_ParameterInfos[] = 
 {
 	{"provider", 0, 134218006, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -7798,10 +7798,10 @@ extern const MethodInfo Byte_System_IConvertible_ToInt64_m15391_MethodInfo =
 {
 	"System.IConvertible.ToInt64"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToInt64_m15391/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Int64_t89_0_0_0/* return_type */
 	, RuntimeInvoker_Int64_t89_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToInt64_m15391_ParameterInfos/* parameters */
+	, Byte_t692_Byte_System_IConvertible_ToInt64_m15391_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7816,7 +7816,7 @@ extern const MethodInfo Byte_System_IConvertible_ToInt64_m15391_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToSByte_m15392_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToSByte_m15392_ParameterInfos[] = 
 {
 	{"provider", 0, 134218007, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -7826,10 +7826,10 @@ extern const MethodInfo Byte_System_IConvertible_ToSByte_m15392_MethodInfo =
 {
 	"System.IConvertible.ToSByte"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToSByte_m15392/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &SByte_t88_0_0_0/* return_type */
 	, RuntimeInvoker_SByte_t88_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToSByte_m15392_ParameterInfos/* parameters */
+	, Byte_t692_Byte_System_IConvertible_ToSByte_m15392_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7844,7 +7844,7 @@ extern const MethodInfo Byte_System_IConvertible_ToSByte_m15392_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToSingle_m15393_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToSingle_m15393_ParameterInfos[] = 
 {
 	{"provider", 0, 134218008, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -7854,10 +7854,10 @@ extern const MethodInfo Byte_System_IConvertible_ToSingle_m15393_MethodInfo =
 {
 	"System.IConvertible.ToSingle"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToSingle_m15393/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToSingle_m15393_ParameterInfos/* parameters */
+	, Byte_t692_Byte_System_IConvertible_ToSingle_m15393_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7872,20 +7872,20 @@ extern const MethodInfo Byte_System_IConvertible_ToSingle_m15393_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToUInt16_m15394_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToUInt16_m15394_ParameterInfos[] = 
 {
 	{"provider", 0, 134218009, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.Byte::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo Byte_System_IConvertible_ToUInt16_m15394_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToUInt16_m15394/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToUInt16_m15394_ParameterInfos/* parameters */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
+	, Byte_t692_Byte_System_IConvertible_ToUInt16_m15394_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7900,20 +7900,20 @@ extern const MethodInfo Byte_System_IConvertible_ToUInt16_m15394_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToUInt32_m15395_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToUInt32_m15395_ParameterInfos[] = 
 {
 	{"provider", 0, 134218010, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.Byte::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo Byte_System_IConvertible_ToUInt32_m15395_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToUInt32_m15395/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToUInt32_m15395_ParameterInfos/* parameters */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
+	, Byte_t692_Byte_System_IConvertible_ToUInt32_m15395_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7928,20 +7928,20 @@ extern const MethodInfo Byte_System_IConvertible_ToUInt32_m15395_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_System_IConvertible_ToUInt64_m15396_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_System_IConvertible_ToUInt64_m15396_ParameterInfos[] = 
 {
 	{"provider", 0, 134218011, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.Byte::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo Byte_System_IConvertible_ToUInt64_m15396_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&Byte_System_IConvertible_ToUInt64_m15396/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
-	, Byte_t691_Byte_System_IConvertible_ToUInt64_m15396_ParameterInfos/* parameters */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
+	, Byte_t692_Byte_System_IConvertible_ToUInt64_m15396_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -7956,7 +7956,7 @@ extern const MethodInfo Byte_System_IConvertible_ToUInt64_m15396_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Byte_t691_Byte_CompareTo_m15397_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_CompareTo_m15397_ParameterInfos[] = 
 {
 	{"value", 0, 134218012, 0, &Object_t_0_0_0},
 };
@@ -7966,10 +7966,10 @@ extern const MethodInfo Byte_CompareTo_m15397_MethodInfo =
 {
 	"CompareTo"/* name */
 	, (methodPointerType)&Byte_CompareTo_m15397/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, Byte_t691_Byte_CompareTo_m15397_ParameterInfos/* parameters */
+	, Byte_t692_Byte_CompareTo_m15397_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -7984,7 +7984,7 @@ extern const MethodInfo Byte_CompareTo_m15397_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Byte_t691_Byte_Equals_m15398_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_Equals_m15398_ParameterInfos[] = 
 {
 	{"obj", 0, 134218013, 0, &Object_t_0_0_0},
 };
@@ -7994,10 +7994,10 @@ extern const MethodInfo Byte_Equals_m15398_MethodInfo =
 {
 	"Equals"/* name */
 	, (methodPointerType)&Byte_Equals_m15398/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Byte_t691_Byte_Equals_m15398_ParameterInfos/* parameters */
+	, Byte_t692_Byte_Equals_m15398_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -8017,7 +8017,7 @@ extern const MethodInfo Byte_GetHashCode_m15399_MethodInfo =
 {
 	"GetHashCode"/* name */
 	, (methodPointerType)&Byte_GetHashCode_m15399/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -8034,10 +8034,10 @@ extern const MethodInfo Byte_GetHashCode_m15399_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Byte_t691_0_0_0;
-static const ParameterInfo Byte_t691_Byte_CompareTo_m15400_ParameterInfos[] = 
+extern const Il2CppType Byte_t692_0_0_0;
+static const ParameterInfo Byte_t692_Byte_CompareTo_m15400_ParameterInfos[] = 
 {
-	{"value", 0, 134218014, 0, &Byte_t691_0_0_0},
+	{"value", 0, 134218014, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Byte::CompareTo(System.Byte)
@@ -8045,10 +8045,10 @@ extern const MethodInfo Byte_CompareTo_m15400_MethodInfo =
 {
 	"CompareTo"/* name */
 	, (methodPointerType)&Byte_CompareTo_m15400/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_SByte_t88/* invoker_method */
-	, Byte_t691_Byte_CompareTo_m15400_ParameterInfos/* parameters */
+	, Byte_t692_Byte_CompareTo_m15400_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -8062,10 +8062,10 @@ extern const MethodInfo Byte_CompareTo_m15400_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Byte_t691_0_0_0;
-static const ParameterInfo Byte_t691_Byte_Equals_m15401_ParameterInfos[] = 
+extern const Il2CppType Byte_t692_0_0_0;
+static const ParameterInfo Byte_t692_Byte_Equals_m15401_ParameterInfos[] = 
 {
-	{"obj", 0, 134218015, 0, &Byte_t691_0_0_0},
+	{"obj", 0, 134218015, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Byte::Equals(System.Byte)
@@ -8073,10 +8073,10 @@ extern const MethodInfo Byte_Equals_m15401_MethodInfo =
 {
 	"Equals"/* name */
 	, (methodPointerType)&Byte_Equals_m15401/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_SByte_t88/* invoker_method */
-	, Byte_t691_Byte_Equals_m15401_ParameterInfos/* parameters */
+	, Byte_t692_Byte_Equals_m15401_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -8092,21 +8092,21 @@ extern const MethodInfo Byte_Equals_m15401_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_Parse_m15402_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_Parse_m15402_ParameterInfos[] = 
 {
 	{"s", 0, 134218016, 0, &String_t_0_0_0},
 	{"provider", 1, 134218017, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Byte::Parse(System.String,System.IFormatProvider)
 extern const MethodInfo Byte_Parse_m15402_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&Byte_Parse_m15402/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t_Object_t/* invoker_method */
-	, Byte_t691_Byte_Parse_m15402_ParameterInfos/* parameters */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t_Object_t/* invoker_method */
+	, Byte_t692_Byte_Parse_m15402_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -8122,21 +8122,21 @@ extern const MethodInfo Byte_Parse_m15402_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
-static const ParameterInfo Byte_t691_Byte_Parse_m3687_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_Parse_m3687_ParameterInfos[] = 
 {
 	{"s", 0, 134218018, 0, &String_t_0_0_0},
 	{"style", 1, 134218019, 0, &NumberStyles_t4429_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Byte::Parse(System.String,System.Globalization.NumberStyles)
 extern const MethodInfo Byte_Parse_m3687_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&Byte_Parse_m3687/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t_Int32_t82/* invoker_method */
-	, Byte_t691_Byte_Parse_m3687_ParameterInfos/* parameters */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t_Int32_t82/* invoker_method */
+	, Byte_t692_Byte_Parse_m3687_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -8153,22 +8153,22 @@ extern const MethodInfo Byte_Parse_m3687_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_Parse_m15403_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_Parse_m15403_ParameterInfos[] = 
 {
 	{"s", 0, 134218020, 0, &String_t_0_0_0},
 	{"style", 1, 134218021, 0, &NumberStyles_t4429_0_0_0},
 	{"provider", 2, 134218022, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Byte::Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
 extern const MethodInfo Byte_Parse_m15403_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&Byte_Parse_m15403/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t_Int32_t82_Object_t/* invoker_method */
-	, Byte_t691_Byte_Parse_m15403_ParameterInfos/* parameters */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t_Int32_t82_Object_t/* invoker_method */
+	, Byte_t692_Byte_Parse_m15403_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -8183,20 +8183,20 @@ extern const MethodInfo Byte_Parse_m15403_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Byte_t691_Byte_Parse_m15404_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_Parse_m15404_ParameterInfos[] = 
 {
 	{"s", 0, 134218023, 0, &String_t_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Byte::Parse(System.String)
 extern const MethodInfo Byte_Parse_m15404_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&Byte_Parse_m15404/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
-	, Byte_t691_Byte_Parse_m15404_ParameterInfos/* parameters */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
+	, Byte_t692_Byte_Parse_m15404_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -8211,12 +8211,12 @@ extern const MethodInfo Byte_Parse_m15404_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Byte_t691_1_0_2;
-extern const Il2CppType Byte_t691_1_0_0;
-static const ParameterInfo Byte_t691_Byte_TryParse_m15405_ParameterInfos[] = 
+extern const Il2CppType Byte_t692_1_0_2;
+extern const Il2CppType Byte_t692_1_0_0;
+static const ParameterInfo Byte_t692_Byte_TryParse_m15405_ParameterInfos[] = 
 {
 	{"s", 0, 134218024, 0, &String_t_0_0_0},
-	{"result", 1, 134218025, 0, &Byte_t691_1_0_2},
+	{"result", 1, 134218025, 0, &Byte_t692_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_ByteU26_t3896 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Byte::TryParse(System.String,System.Byte&)
@@ -8224,10 +8224,10 @@ extern const MethodInfo Byte_TryParse_m15405_MethodInfo =
 {
 	"TryParse"/* name */
 	, (methodPointerType)&Byte_TryParse_m15405/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_ByteU26_t3896/* invoker_method */
-	, Byte_t691_Byte_TryParse_m15405_ParameterInfos/* parameters */
+	, Byte_t692_Byte_TryParse_m15405_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -8244,13 +8244,13 @@ extern const MethodInfo Byte_TryParse_m15405_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-extern const Il2CppType Byte_t691_1_0_2;
-static const ParameterInfo Byte_t691_Byte_TryParse_m15406_ParameterInfos[] = 
+extern const Il2CppType Byte_t692_1_0_2;
+static const ParameterInfo Byte_t692_Byte_TryParse_m15406_ParameterInfos[] = 
 {
 	{"s", 0, 134218026, 0, &String_t_0_0_0},
 	{"style", 1, 134218027, 0, &NumberStyles_t4429_0_0_0},
 	{"provider", 2, 134218028, 0, &IFormatProvider_t4456_0_0_0},
-	{"result", 3, 134218029, 0, &Byte_t691_1_0_2},
+	{"result", 3, 134218029, 0, &Byte_t692_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_ByteU26_t3896 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Byte::TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Byte&)
@@ -8258,10 +8258,10 @@ extern const MethodInfo Byte_TryParse_m15406_MethodInfo =
 {
 	"TryParse"/* name */
 	, (methodPointerType)&Byte_TryParse_m15406/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_ByteU26_t3896/* invoker_method */
-	, Byte_t691_Byte_TryParse_m15406_ParameterInfos/* parameters */
+	, Byte_t692_Byte_TryParse_m15406_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -8281,7 +8281,7 @@ extern const MethodInfo Byte_ToString_m12921_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&Byte_ToString_m12921/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -8299,7 +8299,7 @@ extern const MethodInfo Byte_ToString_m12921_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Byte_t691_Byte_ToString_m7396_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_ToString_m7396_ParameterInfos[] = 
 {
 	{"format", 0, 134218030, 0, &String_t_0_0_0},
 };
@@ -8309,10 +8309,10 @@ extern const MethodInfo Byte_ToString_m7396_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&Byte_ToString_m7396/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Byte_t691_Byte_ToString_m7396_ParameterInfos/* parameters */
+	, Byte_t692_Byte_ToString_m7396_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8327,7 +8327,7 @@ extern const MethodInfo Byte_ToString_m7396_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_ToString_m12875_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_ToString_m12875_ParameterInfos[] = 
 {
 	{"provider", 0, 134218031, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -8337,10 +8337,10 @@ extern const MethodInfo Byte_ToString_m12875_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&Byte_ToString_m12875/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Byte_t691_Byte_ToString_m12875_ParameterInfos/* parameters */
+	, Byte_t692_Byte_ToString_m12875_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -8356,7 +8356,7 @@ extern const MethodInfo Byte_ToString_m12875_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Byte_t691_Byte_ToString_m12881_ParameterInfos[] = 
+static const ParameterInfo Byte_t692_Byte_ToString_m12881_ParameterInfos[] = 
 {
 	{"format", 0, 134218032, 0, &String_t_0_0_0},
 	{"provider", 1, 134218033, 0, &IFormatProvider_t4456_0_0_0},
@@ -8367,10 +8367,10 @@ extern const MethodInfo Byte_ToString_m12881_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&Byte_ToString_m12881/* method */
-	, &Byte_t691_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, Byte_t691_Byte_ToString_m12881_ParameterInfos/* parameters */
+	, Byte_t692_Byte_ToString_m12881_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -8384,7 +8384,7 @@ extern const MethodInfo Byte_ToString_m12881_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* Byte_t691_MethodInfos[] =
+static const MethodInfo* Byte_t692_MethodInfos[] =
 {
 	&Byte_System_IConvertible_ToType_m15382_MethodInfo,
 	&Byte_System_IConvertible_ToBoolean_m15383_MethodInfo,
@@ -8441,7 +8441,7 @@ extern const MethodInfo Byte_System_IConvertible_ToUInt64_m15396_MethodInfo;
 extern const MethodInfo Byte_CompareTo_m15397_MethodInfo;
 extern const MethodInfo Byte_CompareTo_m15400_MethodInfo;
 extern const MethodInfo Byte_Equals_m15401_MethodInfo;
-static const Il2CppMethodReference Byte_t691_VTable[] =
+static const Il2CppMethodReference Byte_t692_VTable[] =
 {
 	&Byte_Equals_m15398_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -8468,7 +8468,7 @@ static const Il2CppMethodReference Byte_t691_VTable[] =
 	&Byte_CompareTo_m15400_MethodInfo,
 	&Byte_Equals_m15401_MethodInfo,
 };
-static bool Byte_t691_VTableIsGenericMethod[] =
+static bool Byte_t692_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8497,7 +8497,7 @@ static bool Byte_t691_VTableIsGenericMethod[] =
 };
 extern const Il2CppType IComparable_1_t4955_0_0_0;
 extern const Il2CppType IEquatable_1_t4956_0_0_0;
-static const Il2CppType* Byte_t691_InterfacesTypeInfos[] = 
+static const Il2CppType* Byte_t692_InterfacesTypeInfos[] = 
 {
 	&IFormattable_t97_0_0_0,
 	&IConvertible_t98_0_0_0,
@@ -8505,7 +8505,7 @@ static const Il2CppType* Byte_t691_InterfacesTypeInfos[] =
 	&IComparable_1_t4955_0_0_0,
 	&IEquatable_1_t4956_0_0_0,
 };
-static Il2CppInterfaceOffsetPair Byte_t691_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair Byte_t692_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
@@ -8514,34 +8514,34 @@ static Il2CppInterfaceOffsetPair Byte_t691_InterfacesOffsets[] =
 	{ &IEquatable_1_t4956_0_0_0, 23},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-const Il2CppTypeDefinitionMetadata Byte_t691_DefinitionMetadata = 
+const Il2CppTypeDefinitionMetadata Byte_t692_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, Byte_t691_InterfacesTypeInfos/* implementedInterfaces */
-	, Byte_t691_InterfacesOffsets/* interfaceOffsets */
+	, Byte_t692_InterfacesTypeInfos/* implementedInterfaces */
+	, Byte_t692_InterfacesOffsets/* interfaceOffsets */
 	, &ValueType_t1076_0_0_0/* parent */
-	, Byte_t691_VTable/* vtableMethods */
-	, Byte_t691_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, Byte_t692_VTable/* vtableMethods */
+	, Byte_t692_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 15/* fieldStart */
 
 };
-TypeInfo Byte_t691_il2cpp_TypeInfo = 
+TypeInfo Byte_t692_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Byte"/* name */
 	, "System"/* namespaze */
-	, Byte_t691_MethodInfos/* methods */
+	, Byte_t692_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &Byte_t691_il2cpp_TypeInfo/* element_class */
+	, &Byte_t692_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 28/* custom_attributes_cache */
-	, &Byte_t691_0_0_0/* byval_arg */
-	, &Byte_t691_1_0_0/* this_arg */
-	, &Byte_t691_DefinitionMetadata/* definitionMetadata */
+	, &Byte_t692_0_0_0/* byval_arg */
+	, &Byte_t692_1_0_0/* this_arg */
+	, &Byte_t692_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8551,8 +8551,8 @@ TypeInfo Byte_t691_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Byte_t691)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (Byte_t691)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (Byte_t692)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (Byte_t692)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(uint8_t)/* native_size */
 	, 0/* static_fields_size */
@@ -8620,15 +8620,15 @@ static const ParameterInfo SByte_t88_SByte_System_IConvertible_ToByte_m15408_Par
 {
 	{"provider", 0, 134218035, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.SByte::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo SByte_System_IConvertible_ToByte_m15408_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&SByte_System_IConvertible_ToByte_m15408/* method */
 	, &SByte_t88_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
 	, SByte_t88_SByte_System_IConvertible_ToByte_m15408_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -8704,15 +8704,15 @@ static const ParameterInfo SByte_t88_SByte_System_IConvertible_ToDecimal_m15411_
 {
 	{"provider", 0, 134218038, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.SByte::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo SByte_System_IConvertible_ToDecimal_m15411_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&SByte_System_IConvertible_ToDecimal_m15411/* method */
 	, &SByte_t88_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
 	, SByte_t88_SByte_System_IConvertible_ToDecimal_m15411_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -8760,15 +8760,15 @@ static const ParameterInfo SByte_t88_SByte_System_IConvertible_ToInt16_m15413_Pa
 {
 	{"provider", 0, 134218040, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.SByte::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo SByte_System_IConvertible_ToInt16_m15413_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&SByte_System_IConvertible_ToInt16_m15413/* method */
 	, &SByte_t88_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
 	, SByte_t88_SByte_System_IConvertible_ToInt16_m15413_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -8930,15 +8930,15 @@ static const ParameterInfo SByte_t88_SByte_System_IConvertible_ToUInt16_m15419_P
 {
 	{"provider", 0, 134218047, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.SByte::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo SByte_System_IConvertible_ToUInt16_m15419_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&SByte_System_IConvertible_ToUInt16_m15419/* method */
 	, &SByte_t88_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
 	, SByte_t88_SByte_System_IConvertible_ToUInt16_m15419_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -8958,15 +8958,15 @@ static const ParameterInfo SByte_t88_SByte_System_IConvertible_ToUInt32_m15420_P
 {
 	{"provider", 0, 134218048, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.SByte::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo SByte_System_IConvertible_ToUInt32_m15420_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&SByte_System_IConvertible_ToUInt32_m15420/* method */
 	, &SByte_t88_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
 	, SByte_t88_SByte_System_IConvertible_ToUInt32_m15420_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -8986,15 +8986,15 @@ static const ParameterInfo SByte_t88_SByte_System_IConvertible_ToUInt64_m15421_P
 {
 	{"provider", 0, 134218049, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.SByte::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo SByte_System_IConvertible_ToUInt64_m15421_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&SByte_System_IConvertible_ToUInt64_m15421/* method */
 	, &SByte_t88_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
 	, SByte_t88_SByte_System_IConvertible_ToUInt64_m15421_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -9578,11 +9578,11 @@ TypeInfo SByte_t88_il2cpp_TypeInfo =
 // System.Int16
 #include "mscorlib_System_Int16.h"
 // Metadata Definition System.Int16
-extern TypeInfo Int16_t692_il2cpp_TypeInfo;
+extern TypeInfo Int16_t693_il2cpp_TypeInfo;
 // System.Int16
 #include "mscorlib_System_Int16MethodDeclarations.h"
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToBoolean_m15435_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToBoolean_m15435_ParameterInfos[] = 
 {
 	{"provider", 0, 134218069, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -9592,10 +9592,10 @@ extern const MethodInfo Int16_System_IConvertible_ToBoolean_m15435_MethodInfo =
 {
 	"System.IConvertible.ToBoolean"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToBoolean_m15435/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToBoolean_m15435_ParameterInfos/* parameters */
+	, Int16_t693_Int16_System_IConvertible_ToBoolean_m15435_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9610,20 +9610,20 @@ extern const MethodInfo Int16_System_IConvertible_ToBoolean_m15435_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToByte_m15436_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToByte_m15436_ParameterInfos[] = 
 {
 	{"provider", 0, 134218070, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Int16::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo Int16_System_IConvertible_ToByte_m15436_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToByte_m15436/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToByte_m15436_ParameterInfos/* parameters */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
+	, Int16_t693_Int16_System_IConvertible_ToByte_m15436_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9638,7 +9638,7 @@ extern const MethodInfo Int16_System_IConvertible_ToByte_m15436_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToChar_m15437_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToChar_m15437_ParameterInfos[] = 
 {
 	{"provider", 0, 134218071, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -9648,10 +9648,10 @@ extern const MethodInfo Int16_System_IConvertible_ToChar_m15437_MethodInfo =
 {
 	"System.IConvertible.ToChar"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToChar_m15437/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t60_0_0_0/* return_type */
 	, RuntimeInvoker_Char_t60_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToChar_m15437_ParameterInfos/* parameters */
+	, Int16_t693_Int16_System_IConvertible_ToChar_m15437_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9666,7 +9666,7 @@ extern const MethodInfo Int16_System_IConvertible_ToChar_m15437_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToDateTime_m15438_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToDateTime_m15438_ParameterInfos[] = 
 {
 	{"provider", 0, 134218072, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -9676,10 +9676,10 @@ extern const MethodInfo Int16_System_IConvertible_ToDateTime_m15438_MethodInfo =
 {
 	"System.IConvertible.ToDateTime"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToDateTime_m15438/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &DateTime_t287_0_0_0/* return_type */
 	, RuntimeInvoker_DateTime_t287_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToDateTime_m15438_ParameterInfos/* parameters */
+	, Int16_t693_Int16_System_IConvertible_ToDateTime_m15438_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9694,20 +9694,20 @@ extern const MethodInfo Int16_System_IConvertible_ToDateTime_m15438_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToDecimal_m15439_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToDecimal_m15439_ParameterInfos[] = 
 {
 	{"provider", 0, 134218073, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Int16::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo Int16_System_IConvertible_ToDecimal_m15439_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToDecimal_m15439/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToDecimal_m15439_ParameterInfos/* parameters */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
+	, Int16_t693_Int16_System_IConvertible_ToDecimal_m15439_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9722,7 +9722,7 @@ extern const MethodInfo Int16_System_IConvertible_ToDecimal_m15439_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToDouble_m15440_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToDouble_m15440_ParameterInfos[] = 
 {
 	{"provider", 0, 134218074, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -9732,10 +9732,10 @@ extern const MethodInfo Int16_System_IConvertible_ToDouble_m15440_MethodInfo =
 {
 	"System.IConvertible.ToDouble"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToDouble_m15440/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Double_t90_0_0_0/* return_type */
 	, RuntimeInvoker_Double_t90_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToDouble_m15440_ParameterInfos/* parameters */
+	, Int16_t693_Int16_System_IConvertible_ToDouble_m15440_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9750,20 +9750,20 @@ extern const MethodInfo Int16_System_IConvertible_ToDouble_m15440_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToInt16_m15441_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToInt16_m15441_ParameterInfos[] = 
 {
 	{"provider", 0, 134218075, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Int16::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo Int16_System_IConvertible_ToInt16_m15441_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToInt16_m15441/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToInt16_m15441_ParameterInfos/* parameters */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
+	, Int16_t693_Int16_System_IConvertible_ToInt16_m15441_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9778,7 +9778,7 @@ extern const MethodInfo Int16_System_IConvertible_ToInt16_m15441_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToInt32_m15442_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToInt32_m15442_ParameterInfos[] = 
 {
 	{"provider", 0, 134218076, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -9788,10 +9788,10 @@ extern const MethodInfo Int16_System_IConvertible_ToInt32_m15442_MethodInfo =
 {
 	"System.IConvertible.ToInt32"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToInt32_m15442/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToInt32_m15442_ParameterInfos/* parameters */
+	, Int16_t693_Int16_System_IConvertible_ToInt32_m15442_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9806,7 +9806,7 @@ extern const MethodInfo Int16_System_IConvertible_ToInt32_m15442_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToInt64_m15443_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToInt64_m15443_ParameterInfos[] = 
 {
 	{"provider", 0, 134218077, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -9816,10 +9816,10 @@ extern const MethodInfo Int16_System_IConvertible_ToInt64_m15443_MethodInfo =
 {
 	"System.IConvertible.ToInt64"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToInt64_m15443/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Int64_t89_0_0_0/* return_type */
 	, RuntimeInvoker_Int64_t89_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToInt64_m15443_ParameterInfos/* parameters */
+	, Int16_t693_Int16_System_IConvertible_ToInt64_m15443_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9834,7 +9834,7 @@ extern const MethodInfo Int16_System_IConvertible_ToInt64_m15443_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToSByte_m15444_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToSByte_m15444_ParameterInfos[] = 
 {
 	{"provider", 0, 134218078, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -9844,10 +9844,10 @@ extern const MethodInfo Int16_System_IConvertible_ToSByte_m15444_MethodInfo =
 {
 	"System.IConvertible.ToSByte"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToSByte_m15444/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &SByte_t88_0_0_0/* return_type */
 	, RuntimeInvoker_SByte_t88_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToSByte_m15444_ParameterInfos/* parameters */
+	, Int16_t693_Int16_System_IConvertible_ToSByte_m15444_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9862,7 +9862,7 @@ extern const MethodInfo Int16_System_IConvertible_ToSByte_m15444_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToSingle_m15445_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToSingle_m15445_ParameterInfos[] = 
 {
 	{"provider", 0, 134218079, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -9872,10 +9872,10 @@ extern const MethodInfo Int16_System_IConvertible_ToSingle_m15445_MethodInfo =
 {
 	"System.IConvertible.ToSingle"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToSingle_m15445/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToSingle_m15445_ParameterInfos/* parameters */
+	, Int16_t693_Int16_System_IConvertible_ToSingle_m15445_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9891,7 +9891,7 @@ extern const MethodInfo Int16_System_IConvertible_ToSingle_m15445_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToType_m15446_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToType_m15446_ParameterInfos[] = 
 {
 	{"targetType", 0, 134218080, 0, &Type_t_0_0_0},
 	{"provider", 1, 134218081, 0, &IFormatProvider_t4456_0_0_0},
@@ -9902,10 +9902,10 @@ extern const MethodInfo Int16_System_IConvertible_ToType_m15446_MethodInfo =
 {
 	"System.IConvertible.ToType"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToType_m15446/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToType_m15446_ParameterInfos/* parameters */
+	, Int16_t693_Int16_System_IConvertible_ToType_m15446_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9920,20 +9920,20 @@ extern const MethodInfo Int16_System_IConvertible_ToType_m15446_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToUInt16_m15447_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToUInt16_m15447_ParameterInfos[] = 
 {
 	{"provider", 0, 134218082, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.Int16::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo Int16_System_IConvertible_ToUInt16_m15447_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToUInt16_m15447/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToUInt16_m15447_ParameterInfos/* parameters */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
+	, Int16_t693_Int16_System_IConvertible_ToUInt16_m15447_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9948,20 +9948,20 @@ extern const MethodInfo Int16_System_IConvertible_ToUInt16_m15447_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToUInt32_m15448_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToUInt32_m15448_ParameterInfos[] = 
 {
 	{"provider", 0, 134218083, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.Int16::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo Int16_System_IConvertible_ToUInt32_m15448_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToUInt32_m15448/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToUInt32_m15448_ParameterInfos/* parameters */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
+	, Int16_t693_Int16_System_IConvertible_ToUInt32_m15448_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -9976,20 +9976,20 @@ extern const MethodInfo Int16_System_IConvertible_ToUInt32_m15448_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_System_IConvertible_ToUInt64_m15449_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_System_IConvertible_ToUInt64_m15449_ParameterInfos[] = 
 {
 	{"provider", 0, 134218084, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.Int16::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo Int16_System_IConvertible_ToUInt64_m15449_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&Int16_System_IConvertible_ToUInt64_m15449/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
-	, Int16_t692_Int16_System_IConvertible_ToUInt64_m15449_ParameterInfos/* parameters */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
+	, Int16_t693_Int16_System_IConvertible_ToUInt64_m15449_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10004,7 +10004,7 @@ extern const MethodInfo Int16_System_IConvertible_ToUInt64_m15449_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Int16_t692_Int16_CompareTo_m15450_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_CompareTo_m15450_ParameterInfos[] = 
 {
 	{"value", 0, 134218085, 0, &Object_t_0_0_0},
 };
@@ -10014,10 +10014,10 @@ extern const MethodInfo Int16_CompareTo_m15450_MethodInfo =
 {
 	"CompareTo"/* name */
 	, (methodPointerType)&Int16_CompareTo_m15450/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, Int16_t692_Int16_CompareTo_m15450_ParameterInfos/* parameters */
+	, Int16_t693_Int16_CompareTo_m15450_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -10032,7 +10032,7 @@ extern const MethodInfo Int16_CompareTo_m15450_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Int16_t692_Int16_Equals_m15451_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_Equals_m15451_ParameterInfos[] = 
 {
 	{"obj", 0, 134218086, 0, &Object_t_0_0_0},
 };
@@ -10042,10 +10042,10 @@ extern const MethodInfo Int16_Equals_m15451_MethodInfo =
 {
 	"Equals"/* name */
 	, (methodPointerType)&Int16_Equals_m15451/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Int16_t692_Int16_Equals_m15451_ParameterInfos/* parameters */
+	, Int16_t693_Int16_Equals_m15451_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -10065,7 +10065,7 @@ extern const MethodInfo Int16_GetHashCode_m15452_MethodInfo =
 {
 	"GetHashCode"/* name */
 	, (methodPointerType)&Int16_GetHashCode_m15452/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -10082,21 +10082,21 @@ extern const MethodInfo Int16_GetHashCode_m15452_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
-static const ParameterInfo Int16_t692_Int16_CompareTo_m15453_ParameterInfos[] = 
+extern const Il2CppType Int16_t693_0_0_0;
+static const ParameterInfo Int16_t693_Int16_CompareTo_m15453_ParameterInfos[] = 
 {
-	{"value", 0, 134218087, 0, &Int16_t692_0_0_0},
+	{"value", 0, 134218087, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Int16::CompareTo(System.Int16)
 extern const MethodInfo Int16_CompareTo_m15453_MethodInfo = 
 {
 	"CompareTo"/* name */
 	, (methodPointerType)&Int16_CompareTo_m15453/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Int16_t692/* invoker_method */
-	, Int16_t692_Int16_CompareTo_m15453_ParameterInfos/* parameters */
+	, RuntimeInvoker_Int32_t82_Int16_t693/* invoker_method */
+	, Int16_t693_Int16_CompareTo_m15453_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -10110,21 +10110,21 @@ extern const MethodInfo Int16_CompareTo_m15453_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
-static const ParameterInfo Int16_t692_Int16_Equals_m15454_ParameterInfos[] = 
+extern const Il2CppType Int16_t693_0_0_0;
+static const ParameterInfo Int16_t693_Int16_Equals_m15454_ParameterInfos[] = 
 {
-	{"obj", 0, 134218088, 0, &Int16_t692_0_0_0},
+	{"obj", 0, 134218088, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Int16::Equals(System.Int16)
 extern const MethodInfo Int16_Equals_m15454_MethodInfo = 
 {
 	"Equals"/* name */
 	, (methodPointerType)&Int16_Equals_m15454/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
-	, Int16_t692_Int16_Equals_m15454_ParameterInfos/* parameters */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
+	, Int16_t693_Int16_Equals_m15454_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -10140,14 +10140,14 @@ extern const MethodInfo Int16_Equals_m15454_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType Int16_t692_1_0_2;
-extern const Il2CppType Int16_t692_1_0_0;
+extern const Il2CppType Int16_t693_1_0_2;
+extern const Il2CppType Int16_t693_1_0_0;
 extern const Il2CppType Exception_t57_1_0_2;
-static const ParameterInfo Int16_t692_Int16_Parse_m15455_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_Parse_m15455_ParameterInfos[] = 
 {
 	{"s", 0, 134218089, 0, &String_t_0_0_0},
 	{"tryParse", 1, 134218090, 0, &Boolean_t59_0_0_0},
-	{"result", 2, 134218091, 0, &Int16_t692_1_0_2},
+	{"result", 2, 134218091, 0, &Int16_t693_1_0_2},
 	{"exc", 3, 134218092, 0, &Exception_t57_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_Int16U26_t4960_ExceptionU26_t4942 (const MethodInfo* method, void* obj, void** args);
@@ -10156,10 +10156,10 @@ extern const MethodInfo Int16_Parse_m15455_MethodInfo =
 {
 	"Parse"/* name */
 	, (methodPointerType)&Int16_Parse_m15455/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_Int16U26_t4960_ExceptionU26_t4942/* invoker_method */
-	, Int16_t692_Int16_Parse_m15455_ParameterInfos/* parameters */
+	, Int16_t693_Int16_Parse_m15455_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -10175,21 +10175,21 @@ extern const MethodInfo Int16_Parse_m15455_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_Parse_m15456_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_Parse_m15456_ParameterInfos[] = 
 {
 	{"s", 0, 134218093, 0, &String_t_0_0_0},
 	{"provider", 1, 134218094, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Int16::Parse(System.String,System.IFormatProvider)
 extern const MethodInfo Int16_Parse_m15456_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&Int16_Parse_m15456/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t_Object_t/* invoker_method */
-	, Int16_t692_Int16_Parse_m15456_ParameterInfos/* parameters */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t_Object_t/* invoker_method */
+	, Int16_t693_Int16_Parse_m15456_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -10206,22 +10206,22 @@ extern const MethodInfo Int16_Parse_m15456_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_Parse_m15457_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_Parse_m15457_ParameterInfos[] = 
 {
 	{"s", 0, 134218095, 0, &String_t_0_0_0},
 	{"style", 1, 134218096, 0, &NumberStyles_t4429_0_0_0},
 	{"provider", 2, 134218097, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Int16::Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
 extern const MethodInfo Int16_Parse_m15457_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&Int16_Parse_m15457/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t_Int32_t82_Object_t/* invoker_method */
-	, Int16_t692_Int16_Parse_m15457_ParameterInfos/* parameters */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t_Int32_t82_Object_t/* invoker_method */
+	, Int16_t693_Int16_Parse_m15457_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -10236,11 +10236,11 @@ extern const MethodInfo Int16_Parse_m15457_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Int16_t692_1_0_2;
-static const ParameterInfo Int16_t692_Int16_TryParse_m15458_ParameterInfos[] = 
+extern const Il2CppType Int16_t693_1_0_2;
+static const ParameterInfo Int16_t693_Int16_TryParse_m15458_ParameterInfos[] = 
 {
 	{"s", 0, 134218098, 0, &String_t_0_0_0},
-	{"result", 1, 134218099, 0, &Int16_t692_1_0_2},
+	{"result", 1, 134218099, 0, &Int16_t693_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int16U26_t4960 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Int16::TryParse(System.String,System.Int16&)
@@ -10248,10 +10248,10 @@ extern const MethodInfo Int16_TryParse_m15458_MethodInfo =
 {
 	"TryParse"/* name */
 	, (methodPointerType)&Int16_TryParse_m15458/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Int16U26_t4960/* invoker_method */
-	, Int16_t692_Int16_TryParse_m15458_ParameterInfos/* parameters */
+	, Int16_t693_Int16_TryParse_m15458_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -10271,7 +10271,7 @@ extern const MethodInfo Int16_ToString_m15459_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&Int16_ToString_m15459/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10289,7 +10289,7 @@ extern const MethodInfo Int16_ToString_m15459_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_ToString_m15460_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_ToString_m15460_ParameterInfos[] = 
 {
 	{"provider", 0, 134218100, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -10299,10 +10299,10 @@ extern const MethodInfo Int16_ToString_m15460_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&Int16_ToString_m15460/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Int16_t692_Int16_ToString_m15460_ParameterInfos/* parameters */
+	, Int16_t693_Int16_ToString_m15460_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -10317,7 +10317,7 @@ extern const MethodInfo Int16_ToString_m15460_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Int16_t692_Int16_ToString_m15461_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_ToString_m15461_ParameterInfos[] = 
 {
 	{"format", 0, 134218101, 0, &String_t_0_0_0},
 };
@@ -10327,10 +10327,10 @@ extern const MethodInfo Int16_ToString_m15461_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&Int16_ToString_m15461/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Int16_t692_Int16_ToString_m15461_ParameterInfos/* parameters */
+	, Int16_t693_Int16_ToString_m15461_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -10346,7 +10346,7 @@ extern const MethodInfo Int16_ToString_m15461_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Int16_t692_Int16_ToString_m15462_ParameterInfos[] = 
+static const ParameterInfo Int16_t693_Int16_ToString_m15462_ParameterInfos[] = 
 {
 	{"format", 0, 134218102, 0, &String_t_0_0_0},
 	{"provider", 1, 134218103, 0, &IFormatProvider_t4456_0_0_0},
@@ -10357,10 +10357,10 @@ extern const MethodInfo Int16_ToString_m15462_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&Int16_ToString_m15462/* method */
-	, &Int16_t692_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, Int16_t692_Int16_ToString_m15462_ParameterInfos/* parameters */
+	, Int16_t693_Int16_ToString_m15462_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -10374,7 +10374,7 @@ extern const MethodInfo Int16_ToString_m15462_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* Int16_t692_MethodInfos[] =
+static const MethodInfo* Int16_t693_MethodInfos[] =
 {
 	&Int16_System_IConvertible_ToBoolean_m15435_MethodInfo,
 	&Int16_System_IConvertible_ToByte_m15436_MethodInfo,
@@ -10429,7 +10429,7 @@ extern const MethodInfo Int16_System_IConvertible_ToUInt64_m15449_MethodInfo;
 extern const MethodInfo Int16_CompareTo_m15450_MethodInfo;
 extern const MethodInfo Int16_CompareTo_m15453_MethodInfo;
 extern const MethodInfo Int16_Equals_m15454_MethodInfo;
-static const Il2CppMethodReference Int16_t692_VTable[] =
+static const Il2CppMethodReference Int16_t693_VTable[] =
 {
 	&Int16_Equals_m15451_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -10456,7 +10456,7 @@ static const Il2CppMethodReference Int16_t692_VTable[] =
 	&Int16_CompareTo_m15453_MethodInfo,
 	&Int16_Equals_m15454_MethodInfo,
 };
-static bool Int16_t692_VTableIsGenericMethod[] =
+static bool Int16_t693_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10485,7 +10485,7 @@ static bool Int16_t692_VTableIsGenericMethod[] =
 };
 extern const Il2CppType IComparable_1_t4961_0_0_0;
 extern const Il2CppType IEquatable_1_t4962_0_0_0;
-static const Il2CppType* Int16_t692_InterfacesTypeInfos[] = 
+static const Il2CppType* Int16_t693_InterfacesTypeInfos[] = 
 {
 	&IFormattable_t97_0_0_0,
 	&IConvertible_t98_0_0_0,
@@ -10493,7 +10493,7 @@ static const Il2CppType* Int16_t692_InterfacesTypeInfos[] =
 	&IComparable_1_t4961_0_0_0,
 	&IEquatable_1_t4962_0_0_0,
 };
-static Il2CppInterfaceOffsetPair Int16_t692_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair Int16_t693_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
@@ -10502,34 +10502,34 @@ static Il2CppInterfaceOffsetPair Int16_t692_InterfacesOffsets[] =
 	{ &IEquatable_1_t4962_0_0_0, 23},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-const Il2CppTypeDefinitionMetadata Int16_t692_DefinitionMetadata = 
+const Il2CppTypeDefinitionMetadata Int16_t693_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, Int16_t692_InterfacesTypeInfos/* implementedInterfaces */
-	, Int16_t692_InterfacesOffsets/* interfaceOffsets */
+	, Int16_t693_InterfacesTypeInfos/* implementedInterfaces */
+	, Int16_t693_InterfacesOffsets/* interfaceOffsets */
 	, &ValueType_t1076_0_0_0/* parent */
-	, Int16_t692_VTable/* vtableMethods */
-	, Int16_t692_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, Int16_t693_VTable/* vtableMethods */
+	, Int16_t693_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 19/* fieldStart */
 
 };
-TypeInfo Int16_t692_il2cpp_TypeInfo = 
+TypeInfo Int16_t693_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Int16"/* name */
 	, "System"/* namespaze */
-	, Int16_t692_MethodInfos/* methods */
+	, Int16_t693_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &Int16_t692_il2cpp_TypeInfo/* element_class */
+	, &Int16_t693_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 33/* custom_attributes_cache */
-	, &Int16_t692_0_0_0/* byval_arg */
-	, &Int16_t692_1_0_0/* this_arg */
-	, &Int16_t692_DefinitionMetadata/* definitionMetadata */
+	, &Int16_t693_0_0_0/* byval_arg */
+	, &Int16_t693_1_0_0/* this_arg */
+	, &Int16_t693_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10539,8 +10539,8 @@ TypeInfo Int16_t692_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Int16_t692)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (Int16_t692)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (Int16_t693)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (Int16_t693)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int16_t)/* native_size */
 	, 0/* static_fields_size */
@@ -10572,11 +10572,11 @@ TypeInfo Int16_t692_il2cpp_TypeInfo =
 // System.UInt16
 #include "mscorlib_System_UInt16.h"
 // Metadata Definition System.UInt16
-extern TypeInfo UInt16_t693_il2cpp_TypeInfo;
+extern TypeInfo UInt16_t694_il2cpp_TypeInfo;
 // System.UInt16
 #include "mscorlib_System_UInt16MethodDeclarations.h"
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToBoolean_m15463_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToBoolean_m15463_ParameterInfos[] = 
 {
 	{"provider", 0, 134218104, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -10586,10 +10586,10 @@ extern const MethodInfo UInt16_System_IConvertible_ToBoolean_m15463_MethodInfo =
 {
 	"System.IConvertible.ToBoolean"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToBoolean_m15463/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToBoolean_m15463_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_System_IConvertible_ToBoolean_m15463_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10604,20 +10604,20 @@ extern const MethodInfo UInt16_System_IConvertible_ToBoolean_m15463_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToByte_m15464_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToByte_m15464_ParameterInfos[] = 
 {
 	{"provider", 0, 134218105, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.UInt16::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo UInt16_System_IConvertible_ToByte_m15464_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToByte_m15464/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToByte_m15464_ParameterInfos/* parameters */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
+	, UInt16_t694_UInt16_System_IConvertible_ToByte_m15464_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10632,7 +10632,7 @@ extern const MethodInfo UInt16_System_IConvertible_ToByte_m15464_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToChar_m15465_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToChar_m15465_ParameterInfos[] = 
 {
 	{"provider", 0, 134218106, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -10642,10 +10642,10 @@ extern const MethodInfo UInt16_System_IConvertible_ToChar_m15465_MethodInfo =
 {
 	"System.IConvertible.ToChar"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToChar_m15465/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t60_0_0_0/* return_type */
 	, RuntimeInvoker_Char_t60_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToChar_m15465_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_System_IConvertible_ToChar_m15465_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10660,7 +10660,7 @@ extern const MethodInfo UInt16_System_IConvertible_ToChar_m15465_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToDateTime_m15466_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToDateTime_m15466_ParameterInfos[] = 
 {
 	{"provider", 0, 134218107, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -10670,10 +10670,10 @@ extern const MethodInfo UInt16_System_IConvertible_ToDateTime_m15466_MethodInfo 
 {
 	"System.IConvertible.ToDateTime"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToDateTime_m15466/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &DateTime_t287_0_0_0/* return_type */
 	, RuntimeInvoker_DateTime_t287_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToDateTime_m15466_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_System_IConvertible_ToDateTime_m15466_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10688,20 +10688,20 @@ extern const MethodInfo UInt16_System_IConvertible_ToDateTime_m15466_MethodInfo 
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToDecimal_m15467_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToDecimal_m15467_ParameterInfos[] = 
 {
 	{"provider", 0, 134218108, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.UInt16::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo UInt16_System_IConvertible_ToDecimal_m15467_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToDecimal_m15467/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToDecimal_m15467_ParameterInfos/* parameters */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
+	, UInt16_t694_UInt16_System_IConvertible_ToDecimal_m15467_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10716,7 +10716,7 @@ extern const MethodInfo UInt16_System_IConvertible_ToDecimal_m15467_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToDouble_m15468_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToDouble_m15468_ParameterInfos[] = 
 {
 	{"provider", 0, 134218109, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -10726,10 +10726,10 @@ extern const MethodInfo UInt16_System_IConvertible_ToDouble_m15468_MethodInfo =
 {
 	"System.IConvertible.ToDouble"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToDouble_m15468/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Double_t90_0_0_0/* return_type */
 	, RuntimeInvoker_Double_t90_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToDouble_m15468_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_System_IConvertible_ToDouble_m15468_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10744,20 +10744,20 @@ extern const MethodInfo UInt16_System_IConvertible_ToDouble_m15468_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToInt16_m15469_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToInt16_m15469_ParameterInfos[] = 
 {
 	{"provider", 0, 134218110, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.UInt16::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo UInt16_System_IConvertible_ToInt16_m15469_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToInt16_m15469/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToInt16_m15469_ParameterInfos/* parameters */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
+	, UInt16_t694_UInt16_System_IConvertible_ToInt16_m15469_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10772,7 +10772,7 @@ extern const MethodInfo UInt16_System_IConvertible_ToInt16_m15469_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToInt32_m15470_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToInt32_m15470_ParameterInfos[] = 
 {
 	{"provider", 0, 134218111, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -10782,10 +10782,10 @@ extern const MethodInfo UInt16_System_IConvertible_ToInt32_m15470_MethodInfo =
 {
 	"System.IConvertible.ToInt32"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToInt32_m15470/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToInt32_m15470_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_System_IConvertible_ToInt32_m15470_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10800,7 +10800,7 @@ extern const MethodInfo UInt16_System_IConvertible_ToInt32_m15470_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToInt64_m15471_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToInt64_m15471_ParameterInfos[] = 
 {
 	{"provider", 0, 134218112, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -10810,10 +10810,10 @@ extern const MethodInfo UInt16_System_IConvertible_ToInt64_m15471_MethodInfo =
 {
 	"System.IConvertible.ToInt64"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToInt64_m15471/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Int64_t89_0_0_0/* return_type */
 	, RuntimeInvoker_Int64_t89_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToInt64_m15471_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_System_IConvertible_ToInt64_m15471_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10828,7 +10828,7 @@ extern const MethodInfo UInt16_System_IConvertible_ToInt64_m15471_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToSByte_m15472_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToSByte_m15472_ParameterInfos[] = 
 {
 	{"provider", 0, 134218113, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -10838,10 +10838,10 @@ extern const MethodInfo UInt16_System_IConvertible_ToSByte_m15472_MethodInfo =
 {
 	"System.IConvertible.ToSByte"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToSByte_m15472/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &SByte_t88_0_0_0/* return_type */
 	, RuntimeInvoker_SByte_t88_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToSByte_m15472_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_System_IConvertible_ToSByte_m15472_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10856,7 +10856,7 @@ extern const MethodInfo UInt16_System_IConvertible_ToSByte_m15472_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToSingle_m15473_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToSingle_m15473_ParameterInfos[] = 
 {
 	{"provider", 0, 134218114, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -10866,10 +10866,10 @@ extern const MethodInfo UInt16_System_IConvertible_ToSingle_m15473_MethodInfo =
 {
 	"System.IConvertible.ToSingle"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToSingle_m15473/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToSingle_m15473_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_System_IConvertible_ToSingle_m15473_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10885,7 +10885,7 @@ extern const MethodInfo UInt16_System_IConvertible_ToSingle_m15473_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToType_m15474_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToType_m15474_ParameterInfos[] = 
 {
 	{"targetType", 0, 134218115, 0, &Type_t_0_0_0},
 	{"provider", 1, 134218116, 0, &IFormatProvider_t4456_0_0_0},
@@ -10896,10 +10896,10 @@ extern const MethodInfo UInt16_System_IConvertible_ToType_m15474_MethodInfo =
 {
 	"System.IConvertible.ToType"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToType_m15474/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToType_m15474_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_System_IConvertible_ToType_m15474_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10914,20 +10914,20 @@ extern const MethodInfo UInt16_System_IConvertible_ToType_m15474_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToUInt16_m15475_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToUInt16_m15475_ParameterInfos[] = 
 {
 	{"provider", 0, 134218117, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.UInt16::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo UInt16_System_IConvertible_ToUInt16_m15475_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToUInt16_m15475/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToUInt16_m15475_ParameterInfos/* parameters */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
+	, UInt16_t694_UInt16_System_IConvertible_ToUInt16_m15475_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10942,20 +10942,20 @@ extern const MethodInfo UInt16_System_IConvertible_ToUInt16_m15475_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToUInt32_m15476_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToUInt32_m15476_ParameterInfos[] = 
 {
 	{"provider", 0, 134218118, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.UInt16::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo UInt16_System_IConvertible_ToUInt32_m15476_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToUInt32_m15476/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToUInt32_m15476_ParameterInfos/* parameters */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
+	, UInt16_t694_UInt16_System_IConvertible_ToUInt32_m15476_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10970,20 +10970,20 @@ extern const MethodInfo UInt16_System_IConvertible_ToUInt32_m15476_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_System_IConvertible_ToUInt64_m15477_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_System_IConvertible_ToUInt64_m15477_ParameterInfos[] = 
 {
 	{"provider", 0, 134218119, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.UInt16::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo UInt16_System_IConvertible_ToUInt64_m15477_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&UInt16_System_IConvertible_ToUInt64_m15477/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_System_IConvertible_ToUInt64_m15477_ParameterInfos/* parameters */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
+	, UInt16_t694_UInt16_System_IConvertible_ToUInt64_m15477_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10998,7 +10998,7 @@ extern const MethodInfo UInt16_System_IConvertible_ToUInt64_m15477_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_CompareTo_m15478_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_CompareTo_m15478_ParameterInfos[] = 
 {
 	{"value", 0, 134218120, 0, &Object_t_0_0_0},
 };
@@ -11008,10 +11008,10 @@ extern const MethodInfo UInt16_CompareTo_m15478_MethodInfo =
 {
 	"CompareTo"/* name */
 	, (methodPointerType)&UInt16_CompareTo_m15478/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_CompareTo_m15478_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_CompareTo_m15478_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11026,7 +11026,7 @@ extern const MethodInfo UInt16_CompareTo_m15478_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_Equals_m15479_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_Equals_m15479_ParameterInfos[] = 
 {
 	{"obj", 0, 134218121, 0, &Object_t_0_0_0},
 };
@@ -11036,10 +11036,10 @@ extern const MethodInfo UInt16_Equals_m15479_MethodInfo =
 {
 	"Equals"/* name */
 	, (methodPointerType)&UInt16_Equals_m15479/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_Equals_m15479_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_Equals_m15479_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -11059,7 +11059,7 @@ extern const MethodInfo UInt16_GetHashCode_m15480_MethodInfo =
 {
 	"GetHashCode"/* name */
 	, (methodPointerType)&UInt16_GetHashCode_m15480/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -11076,21 +11076,21 @@ extern const MethodInfo UInt16_GetHashCode_m15480_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt16_t693_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_CompareTo_m15481_ParameterInfos[] = 
+extern const Il2CppType UInt16_t694_0_0_0;
+static const ParameterInfo UInt16_t694_UInt16_CompareTo_m15481_ParameterInfos[] = 
 {
-	{"value", 0, 134218122, 0, &UInt16_t693_0_0_0},
+	{"value", 0, 134218122, 0, &UInt16_t694_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.UInt16::CompareTo(System.UInt16)
 extern const MethodInfo UInt16_CompareTo_m15481_MethodInfo = 
 {
 	"CompareTo"/* name */
 	, (methodPointerType)&UInt16_CompareTo_m15481/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Int16_t692/* invoker_method */
-	, UInt16_t693_UInt16_CompareTo_m15481_ParameterInfos/* parameters */
+	, RuntimeInvoker_Int32_t82_Int16_t693/* invoker_method */
+	, UInt16_t694_UInt16_CompareTo_m15481_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11104,21 +11104,21 @@ extern const MethodInfo UInt16_CompareTo_m15481_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt16_t693_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_Equals_m15482_ParameterInfos[] = 
+extern const Il2CppType UInt16_t694_0_0_0;
+static const ParameterInfo UInt16_t694_UInt16_Equals_m15482_ParameterInfos[] = 
 {
-	{"obj", 0, 134218123, 0, &UInt16_t693_0_0_0},
+	{"obj", 0, 134218123, 0, &UInt16_t694_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.UInt16::Equals(System.UInt16)
 extern const MethodInfo UInt16_Equals_m15482_MethodInfo = 
 {
 	"Equals"/* name */
 	, (methodPointerType)&UInt16_Equals_m15482/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
-	, UInt16_t693_UInt16_Equals_m15482_ParameterInfos/* parameters */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
+	, UInt16_t694_UInt16_Equals_m15482_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11134,21 +11134,21 @@ extern const MethodInfo UInt16_Equals_m15482_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_Parse_m15483_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_Parse_m15483_ParameterInfos[] = 
 {
 	{"s", 0, 134218124, 0, &String_t_0_0_0},
 	{"provider", 1, 134218125, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.UInt16::Parse(System.String,System.IFormatProvider)
 extern const MethodInfo UInt16_Parse_m15483_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&UInt16_Parse_m15483/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_Parse_m15483_ParameterInfos/* parameters */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t_Object_t/* invoker_method */
+	, UInt16_t694_UInt16_Parse_m15483_ParameterInfos/* parameters */
 	, 35/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -11164,21 +11164,21 @@ extern const MethodInfo UInt16_Parse_m15483_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_Parse_m7090_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_Parse_m7090_ParameterInfos[] = 
 {
 	{"s", 0, 134218126, 0, &String_t_0_0_0},
 	{"style", 1, 134218127, 0, &NumberStyles_t4429_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.UInt16::Parse(System.String,System.Globalization.NumberStyles)
 extern const MethodInfo UInt16_Parse_m7090_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&UInt16_Parse_m7090/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t_Int32_t82/* invoker_method */
-	, UInt16_t693_UInt16_Parse_m7090_ParameterInfos/* parameters */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t_Int32_t82/* invoker_method */
+	, UInt16_t694_UInt16_Parse_m7090_ParameterInfos/* parameters */
 	, 36/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -11195,22 +11195,22 @@ extern const MethodInfo UInt16_Parse_m7090_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_Parse_m15484_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_Parse_m15484_ParameterInfos[] = 
 {
 	{"s", 0, 134218128, 0, &String_t_0_0_0},
 	{"style", 1, 134218129, 0, &NumberStyles_t4429_0_0_0},
 	{"provider", 2, 134218130, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.UInt16::Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
 extern const MethodInfo UInt16_Parse_m15484_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&UInt16_Parse_m15484/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t_Int32_t82_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_Parse_m15484_ParameterInfos/* parameters */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t_Int32_t82_Object_t/* invoker_method */
+	, UInt16_t694_UInt16_Parse_m15484_ParameterInfos/* parameters */
 	, 37/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -11225,12 +11225,12 @@ extern const MethodInfo UInt16_Parse_m15484_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType UInt16_t693_1_0_2;
-extern const Il2CppType UInt16_t693_1_0_0;
-static const ParameterInfo UInt16_t693_UInt16_TryParse_m15485_ParameterInfos[] = 
+extern const Il2CppType UInt16_t694_1_0_2;
+extern const Il2CppType UInt16_t694_1_0_0;
+static const ParameterInfo UInt16_t694_UInt16_TryParse_m15485_ParameterInfos[] = 
 {
 	{"s", 0, 134218131, 0, &String_t_0_0_0},
-	{"result", 1, 134218132, 0, &UInt16_t693_1_0_2},
+	{"result", 1, 134218132, 0, &UInt16_t694_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_UInt16U26_t4963 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.UInt16::TryParse(System.String,System.UInt16&)
@@ -11238,10 +11238,10 @@ extern const MethodInfo UInt16_TryParse_m15485_MethodInfo =
 {
 	"TryParse"/* name */
 	, (methodPointerType)&UInt16_TryParse_m15485/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_UInt16U26_t4963/* invoker_method */
-	, UInt16_t693_UInt16_TryParse_m15485_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_TryParse_m15485_ParameterInfos/* parameters */
 	, 38/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -11258,13 +11258,13 @@ extern const MethodInfo UInt16_TryParse_m15485_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-extern const Il2CppType UInt16_t693_1_0_2;
-static const ParameterInfo UInt16_t693_UInt16_TryParse_m15486_ParameterInfos[] = 
+extern const Il2CppType UInt16_t694_1_0_2;
+static const ParameterInfo UInt16_t694_UInt16_TryParse_m15486_ParameterInfos[] = 
 {
 	{"s", 0, 134218133, 0, &String_t_0_0_0},
 	{"style", 1, 134218134, 0, &NumberStyles_t4429_0_0_0},
 	{"provider", 2, 134218135, 0, &IFormatProvider_t4456_0_0_0},
-	{"result", 3, 134218136, 0, &UInt16_t693_1_0_2},
+	{"result", 3, 134218136, 0, &UInt16_t694_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_UInt16U26_t4963 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.UInt16::TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt16&)
@@ -11272,10 +11272,10 @@ extern const MethodInfo UInt16_TryParse_m15486_MethodInfo =
 {
 	"TryParse"/* name */
 	, (methodPointerType)&UInt16_TryParse_m15486/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_UInt16U26_t4963/* invoker_method */
-	, UInt16_t693_UInt16_TryParse_m15486_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_TryParse_m15486_ParameterInfos/* parameters */
 	, 39/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -11295,7 +11295,7 @@ extern const MethodInfo UInt16_ToString_m15487_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&UInt16_ToString_m15487/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -11313,7 +11313,7 @@ extern const MethodInfo UInt16_ToString_m15487_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_ToString_m15488_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_ToString_m15488_ParameterInfos[] = 
 {
 	{"provider", 0, 134218137, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -11323,10 +11323,10 @@ extern const MethodInfo UInt16_ToString_m15488_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&UInt16_ToString_m15488/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_ToString_m15488_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_ToString_m15488_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11341,7 +11341,7 @@ extern const MethodInfo UInt16_ToString_m15488_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_ToString_m7098_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_ToString_m7098_ParameterInfos[] = 
 {
 	{"format", 0, 134218138, 0, &String_t_0_0_0},
 };
@@ -11351,10 +11351,10 @@ extern const MethodInfo UInt16_ToString_m7098_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&UInt16_ToString_m7098/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_ToString_m7098_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_ToString_m7098_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -11370,7 +11370,7 @@ extern const MethodInfo UInt16_ToString_m7098_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo UInt16_t693_UInt16_ToString_m15489_ParameterInfos[] = 
+static const ParameterInfo UInt16_t694_UInt16_ToString_m15489_ParameterInfos[] = 
 {
 	{"format", 0, 134218139, 0, &String_t_0_0_0},
 	{"provider", 1, 134218140, 0, &IFormatProvider_t4456_0_0_0},
@@ -11381,10 +11381,10 @@ extern const MethodInfo UInt16_ToString_m15489_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&UInt16_ToString_m15489/* method */
-	, &UInt16_t693_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, UInt16_t693_UInt16_ToString_m15489_ParameterInfos/* parameters */
+	, UInt16_t694_UInt16_ToString_m15489_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11398,7 +11398,7 @@ extern const MethodInfo UInt16_ToString_m15489_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* UInt16_t693_MethodInfos[] =
+static const MethodInfo* UInt16_t694_MethodInfos[] =
 {
 	&UInt16_System_IConvertible_ToBoolean_m15463_MethodInfo,
 	&UInt16_System_IConvertible_ToByte_m15464_MethodInfo,
@@ -11454,7 +11454,7 @@ extern const MethodInfo UInt16_System_IConvertible_ToUInt64_m15477_MethodInfo;
 extern const MethodInfo UInt16_CompareTo_m15478_MethodInfo;
 extern const MethodInfo UInt16_CompareTo_m15481_MethodInfo;
 extern const MethodInfo UInt16_Equals_m15482_MethodInfo;
-static const Il2CppMethodReference UInt16_t693_VTable[] =
+static const Il2CppMethodReference UInt16_t694_VTable[] =
 {
 	&UInt16_Equals_m15479_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -11481,7 +11481,7 @@ static const Il2CppMethodReference UInt16_t693_VTable[] =
 	&UInt16_CompareTo_m15481_MethodInfo,
 	&UInt16_Equals_m15482_MethodInfo,
 };
-static bool UInt16_t693_VTableIsGenericMethod[] =
+static bool UInt16_t694_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -11510,7 +11510,7 @@ static bool UInt16_t693_VTableIsGenericMethod[] =
 };
 extern const Il2CppType IComparable_1_t4964_0_0_0;
 extern const Il2CppType IEquatable_1_t4965_0_0_0;
-static const Il2CppType* UInt16_t693_InterfacesTypeInfos[] = 
+static const Il2CppType* UInt16_t694_InterfacesTypeInfos[] = 
 {
 	&IFormattable_t97_0_0_0,
 	&IConvertible_t98_0_0_0,
@@ -11518,7 +11518,7 @@ static const Il2CppType* UInt16_t693_InterfacesTypeInfos[] =
 	&IComparable_1_t4964_0_0_0,
 	&IEquatable_1_t4965_0_0_0,
 };
-static Il2CppInterfaceOffsetPair UInt16_t693_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair UInt16_t694_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
@@ -11527,34 +11527,34 @@ static Il2CppInterfaceOffsetPair UInt16_t693_InterfacesOffsets[] =
 	{ &IEquatable_1_t4965_0_0_0, 23},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-const Il2CppTypeDefinitionMetadata UInt16_t693_DefinitionMetadata = 
+const Il2CppTypeDefinitionMetadata UInt16_t694_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, UInt16_t693_InterfacesTypeInfos/* implementedInterfaces */
-	, UInt16_t693_InterfacesOffsets/* interfaceOffsets */
+	, UInt16_t694_InterfacesTypeInfos/* implementedInterfaces */
+	, UInt16_t694_InterfacesOffsets/* interfaceOffsets */
 	, &ValueType_t1076_0_0_0/* parent */
-	, UInt16_t693_VTable/* vtableMethods */
-	, UInt16_t693_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, UInt16_t694_VTable/* vtableMethods */
+	, UInt16_t694_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 20/* fieldStart */
 
 };
-TypeInfo UInt16_t693_il2cpp_TypeInfo = 
+TypeInfo UInt16_t694_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "UInt16"/* name */
 	, "System"/* namespaze */
-	, UInt16_t693_MethodInfos/* methods */
+	, UInt16_t694_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &UInt16_t693_il2cpp_TypeInfo/* element_class */
+	, &UInt16_t694_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 34/* custom_attributes_cache */
-	, &UInt16_t693_0_0_0/* byval_arg */
-	, &UInt16_t693_1_0_0/* this_arg */
-	, &UInt16_t693_DefinitionMetadata/* definitionMetadata */
+	, &UInt16_t694_0_0_0/* byval_arg */
+	, &UInt16_t694_1_0_0/* this_arg */
+	, &UInt16_t694_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -11564,8 +11564,8 @@ TypeInfo UInt16_t693_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (UInt16_t693)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (UInt16_t693)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (UInt16_t694)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (UInt16_t694)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(uint16_t)/* native_size */
 	, 0/* static_fields_size */
@@ -12183,15 +12183,15 @@ static const ParameterInfo Char_t60_Char_System_IConvertible_ToByte_m15493_Param
 {
 	{"provider", 0, 134218144, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Char::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo Char_System_IConvertible_ToByte_m15493_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&Char_System_IConvertible_ToByte_m15493/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
 	, Char_t60_Char_System_IConvertible_ToByte_m15493_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -12267,15 +12267,15 @@ static const ParameterInfo Char_t60_Char_System_IConvertible_ToDecimal_m15496_Pa
 {
 	{"provider", 0, 134218147, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Char::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo Char_System_IConvertible_ToDecimal_m15496_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&Char_System_IConvertible_ToDecimal_m15496/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
 	, Char_t60_Char_System_IConvertible_ToDecimal_m15496_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -12323,15 +12323,15 @@ static const ParameterInfo Char_t60_Char_System_IConvertible_ToInt16_m15498_Para
 {
 	{"provider", 0, 134218149, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Char::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo Char_System_IConvertible_ToInt16_m15498_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&Char_System_IConvertible_ToInt16_m15498/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
 	, Char_t60_Char_System_IConvertible_ToInt16_m15498_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -12463,15 +12463,15 @@ static const ParameterInfo Char_t60_Char_System_IConvertible_ToUInt16_m15503_Par
 {
 	{"provider", 0, 134218154, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.Char::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo Char_System_IConvertible_ToUInt16_m15503_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&Char_System_IConvertible_ToUInt16_m15503/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
 	, Char_t60_Char_System_IConvertible_ToUInt16_m15503_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -12491,15 +12491,15 @@ static const ParameterInfo Char_t60_Char_System_IConvertible_ToUInt32_m15504_Par
 {
 	{"provider", 0, 134218155, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.Char::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo Char_System_IConvertible_ToUInt32_m15504_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&Char_System_IConvertible_ToUInt32_m15504/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
 	, Char_t60_Char_System_IConvertible_ToUInt32_m15504_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -12519,15 +12519,15 @@ static const ParameterInfo Char_t60_Char_System_IConvertible_ToUInt64_m15505_Par
 {
 	{"provider", 0, 134218156, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.Char::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo Char_System_IConvertible_ToUInt64_m15505_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&Char_System_IConvertible_ToUInt64_m15505/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
 	, Char_t60_Char_System_IConvertible_ToUInt64_m15505_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -12646,7 +12646,7 @@ static const ParameterInfo Char_t60_Char_CompareTo_m15509_ParameterInfos[] =
 {
 	{"value", 0, 134218166, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Char::CompareTo(System.Char)
 extern const MethodInfo Char_CompareTo_m15509_MethodInfo = 
 {
@@ -12654,7 +12654,7 @@ extern const MethodInfo Char_CompareTo_m15509_MethodInfo =
 	, (methodPointerType)&Char_CompareTo_m15509/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Int32_t82_Int16_t693/* invoker_method */
 	, Char_t60_Char_CompareTo_m15509_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
@@ -12674,7 +12674,7 @@ static const ParameterInfo Char_t60_Char_Equals_m15510_ParameterInfos[] =
 {
 	{"obj", 0, 134218167, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Char::Equals(System.Char)
 extern const MethodInfo Char_Equals_m15510_MethodInfo = 
 {
@@ -12682,7 +12682,7 @@ extern const MethodInfo Char_Equals_m15510_MethodInfo =
 	, (methodPointerType)&Char_Equals_m15510/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
 	, Char_t60_Char_Equals_m15510_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
@@ -12726,7 +12726,7 @@ static const ParameterInfo Char_t60_Char_GetUnicodeCategory_m14914_ParameterInfo
 	{"c", 0, 134218168, 0, &Char_t60_0_0_0},
 };
 extern const Il2CppType UnicodeCategory_t4286_0_0_0;
-extern void* RuntimeInvoker_UnicodeCategory_t4286_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UnicodeCategory_t4286_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Globalization.UnicodeCategory System.Char::GetUnicodeCategory(System.Char)
 extern const MethodInfo Char_GetUnicodeCategory_m14914_MethodInfo = 
 {
@@ -12734,7 +12734,7 @@ extern const MethodInfo Char_GetUnicodeCategory_m14914_MethodInfo =
 	, (methodPointerType)&Char_GetUnicodeCategory_m14914/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &UnicodeCategory_t4286_0_0_0/* return_type */
-	, RuntimeInvoker_UnicodeCategory_t4286_Int16_t692/* invoker_method */
+	, RuntimeInvoker_UnicodeCategory_t4286_Int16_t693/* invoker_method */
 	, Char_t60_Char_GetUnicodeCategory_m14914_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -12754,7 +12754,7 @@ static const ParameterInfo Char_t60_Char_IsDigit_m14856_ParameterInfos[] =
 {
 	{"c", 0, 134218169, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Char::IsDigit(System.Char)
 extern const MethodInfo Char_IsDigit_m14856_MethodInfo = 
 {
@@ -12762,7 +12762,7 @@ extern const MethodInfo Char_IsDigit_m14856_MethodInfo =
 	, (methodPointerType)&Char_IsDigit_m14856/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
 	, Char_t60_Char_IsDigit_m14856_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -12782,7 +12782,7 @@ static const ParameterInfo Char_t60_Char_IsLetter_m5798_ParameterInfos[] =
 {
 	{"c", 0, 134218170, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Char::IsLetter(System.Char)
 extern const MethodInfo Char_IsLetter_m5798_MethodInfo = 
 {
@@ -12790,7 +12790,7 @@ extern const MethodInfo Char_IsLetter_m5798_MethodInfo =
 	, (methodPointerType)&Char_IsLetter_m5798/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
 	, Char_t60_Char_IsLetter_m5798_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -12810,7 +12810,7 @@ static const ParameterInfo Char_t60_Char_IsLetterOrDigit_m14913_ParameterInfos[]
 {
 	{"c", 0, 134218171, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Char::IsLetterOrDigit(System.Char)
 extern const MethodInfo Char_IsLetterOrDigit_m14913_MethodInfo = 
 {
@@ -12818,7 +12818,7 @@ extern const MethodInfo Char_IsLetterOrDigit_m14913_MethodInfo =
 	, (methodPointerType)&Char_IsLetterOrDigit_m14913/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
 	, Char_t60_Char_IsLetterOrDigit_m14913_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -12838,7 +12838,7 @@ static const ParameterInfo Char_t60_Char_IsLower_m5799_ParameterInfos[] =
 {
 	{"c", 0, 134218172, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Char::IsLower(System.Char)
 extern const MethodInfo Char_IsLower_m5799_MethodInfo = 
 {
@@ -12846,7 +12846,7 @@ extern const MethodInfo Char_IsLower_m5799_MethodInfo =
 	, (methodPointerType)&Char_IsLower_m5799/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
 	, Char_t60_Char_IsLower_m5799_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -12866,7 +12866,7 @@ static const ParameterInfo Char_t60_Char_IsNumber_m15512_ParameterInfos[] =
 {
 	{"c", 0, 134218173, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Char::IsNumber(System.Char)
 extern const MethodInfo Char_IsNumber_m15512_MethodInfo = 
 {
@@ -12874,7 +12874,7 @@ extern const MethodInfo Char_IsNumber_m15512_MethodInfo =
 	, (methodPointerType)&Char_IsNumber_m15512/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
 	, Char_t60_Char_IsNumber_m15512_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -12894,7 +12894,7 @@ static const ParameterInfo Char_t60_Char_IsSurrogate_m15513_ParameterInfos[] =
 {
 	{"c", 0, 134218174, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Char::IsSurrogate(System.Char)
 extern const MethodInfo Char_IsSurrogate_m15513_MethodInfo = 
 {
@@ -12902,7 +12902,7 @@ extern const MethodInfo Char_IsSurrogate_m15513_MethodInfo =
 	, (methodPointerType)&Char_IsSurrogate_m15513/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
 	, Char_t60_Char_IsSurrogate_m15513_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -12922,7 +12922,7 @@ static const ParameterInfo Char_t60_Char_IsUpper_m5801_ParameterInfos[] =
 {
 	{"c", 0, 134218175, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Char::IsUpper(System.Char)
 extern const MethodInfo Char_IsUpper_m5801_MethodInfo = 
 {
@@ -12930,7 +12930,7 @@ extern const MethodInfo Char_IsUpper_m5801_MethodInfo =
 	, (methodPointerType)&Char_IsUpper_m5801/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
 	, Char_t60_Char_IsUpper_m5801_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -12950,7 +12950,7 @@ static const ParameterInfo Char_t60_Char_IsWhiteSpace_m3742_ParameterInfos[] =
 {
 	{"c", 0, 134218176, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Char::IsWhiteSpace(System.Char)
 extern const MethodInfo Char_IsWhiteSpace_m3742_MethodInfo = 
 {
@@ -12958,7 +12958,7 @@ extern const MethodInfo Char_IsWhiteSpace_m3742_MethodInfo =
 	, (methodPointerType)&Char_IsWhiteSpace_m3742/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
 	, Char_t60_Char_IsWhiteSpace_m3742_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -13066,7 +13066,7 @@ static const ParameterInfo Char_t60_Char_ToLower_m5802_ParameterInfos[] =
 {
 	{"c", 0, 134218182, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Char_t60_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Char_t60_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Char::ToLower(System.Char)
 extern const MethodInfo Char_ToLower_m5802_MethodInfo = 
 {
@@ -13074,7 +13074,7 @@ extern const MethodInfo Char_ToLower_m5802_MethodInfo =
 	, (methodPointerType)&Char_ToLower_m5802/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t60_0_0_0/* return_type */
-	, RuntimeInvoker_Char_t60_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Char_t60_Int16_t693/* invoker_method */
 	, Char_t60_Char_ToLower_m5802_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -13094,7 +13094,7 @@ static const ParameterInfo Char_t60_Char_ToLowerInvariant_m15516_ParameterInfos[
 {
 	{"c", 0, 134218183, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Char_t60_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Char_t60_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Char::ToLowerInvariant(System.Char)
 extern const MethodInfo Char_ToLowerInvariant_m15516_MethodInfo = 
 {
@@ -13102,7 +13102,7 @@ extern const MethodInfo Char_ToLowerInvariant_m15516_MethodInfo =
 	, (methodPointerType)&Char_ToLowerInvariant_m15516/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t60_0_0_0/* return_type */
-	, RuntimeInvoker_Char_t60_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Char_t60_Int16_t693/* invoker_method */
 	, Char_t60_Char_ToLowerInvariant_m15516_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -13118,14 +13118,14 @@ extern const MethodInfo Char_ToLowerInvariant_m15516_MethodInfo =
 
 };
 extern const Il2CppType Char_t60_0_0_0;
-extern const Il2CppType CultureInfo_t718_0_0_0;
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 static const ParameterInfo Char_t60_Char_ToLower_m15517_ParameterInfos[] = 
 {
 	{"c", 0, 134218184, 0, &Char_t60_0_0_0},
-	{"culture", 1, 134218185, 0, &CultureInfo_t718_0_0_0},
+	{"culture", 1, 134218185, 0, &CultureInfo_t719_0_0_0},
 };
-extern void* RuntimeInvoker_Char_t60_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Char_t60_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Char::ToLower(System.Char,System.Globalization.CultureInfo)
 extern const MethodInfo Char_ToLower_m15517_MethodInfo = 
 {
@@ -13133,7 +13133,7 @@ extern const MethodInfo Char_ToLower_m15517_MethodInfo =
 	, (methodPointerType)&Char_ToLower_m15517/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t60_0_0_0/* return_type */
-	, RuntimeInvoker_Char_t60_Int16_t692_Object_t/* invoker_method */
+	, RuntimeInvoker_Char_t60_Int16_t693_Object_t/* invoker_method */
 	, Char_t60_Char_ToLower_m15517_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -13153,7 +13153,7 @@ static const ParameterInfo Char_t60_Char_ToUpper_m5800_ParameterInfos[] =
 {
 	{"c", 0, 134218186, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Char_t60_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Char_t60_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Char::ToUpper(System.Char)
 extern const MethodInfo Char_ToUpper_m5800_MethodInfo = 
 {
@@ -13161,7 +13161,7 @@ extern const MethodInfo Char_ToUpper_m5800_MethodInfo =
 	, (methodPointerType)&Char_ToUpper_m5800/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t60_0_0_0/* return_type */
-	, RuntimeInvoker_Char_t60_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Char_t60_Int16_t693/* invoker_method */
 	, Char_t60_Char_ToUpper_m5800_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -13181,7 +13181,7 @@ static const ParameterInfo Char_t60_Char_ToUpperInvariant_m14894_ParameterInfos[
 {
 	{"c", 0, 134218187, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Char_t60_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Char_t60_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Char::ToUpperInvariant(System.Char)
 extern const MethodInfo Char_ToUpperInvariant_m14894_MethodInfo = 
 {
@@ -13189,7 +13189,7 @@ extern const MethodInfo Char_ToUpperInvariant_m14894_MethodInfo =
 	, (methodPointerType)&Char_ToUpperInvariant_m14894/* method */
 	, &Char_t60_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t60_0_0_0/* return_type */
-	, RuntimeInvoker_Char_t60_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Char_t60_Int16_t693/* invoker_method */
 	, Char_t60_Char_ToUpperInvariant_m14894_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -13525,13 +13525,13 @@ extern const MethodInfo String__ctor_m15520_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo String_t_String__ctor_m15521_ParameterInfos[] = 
 {
-	{"value", 0, 134218192, 0, &CharU5BU5D_t660_0_0_0},
+	{"value", 0, 134218192, 0, &CharU5BU5D_t661_0_0_0},
 	{"startIndex", 1, 134218193, 0, &Int32_t82_0_0_0},
 	{"length", 2, 134218194, 0, &Int32_t82_0_0_0},
 };
@@ -13558,10 +13558,10 @@ extern const MethodInfo String__ctor_m15521_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 static const ParameterInfo String_t_String__ctor_m15522_ParameterInfos[] = 
 {
-	{"value", 0, 134218195, 0, &CharU5BU5D_t660_0_0_0},
+	{"value", 0, 134218195, 0, &CharU5BU5D_t661_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.String::.ctor(System.Char[])
@@ -13593,7 +13593,7 @@ static const ParameterInfo String_t_String__ctor_m15523_ParameterInfos[] =
 	{"c", 0, 134218196, 0, &Char_t60_0_0_0},
 	{"count", 1, 134218197, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Int16_t692_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Int16_t693_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.String::.ctor(System.Char,System.Int32)
 extern const MethodInfo String__ctor_m15523_MethodInfo = 
 {
@@ -13601,7 +13601,7 @@ extern const MethodInfo String__ctor_m15523_MethodInfo =
 	, (methodPointerType)&String__ctor_m15523/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Int16_t692_Int32_t82/* invoker_method */
+	, RuntimeInvoker_Void_t85_Int16_t693_Int32_t82/* invoker_method */
 	, String_t_String__ctor_m15523_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
@@ -13672,15 +13672,15 @@ static const ParameterInfo String_t_String_System_IConvertible_ToByte_m15526_Par
 {
 	{"provider", 0, 134218199, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.String::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo String_System_IConvertible_ToByte_m15526_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&String_System_IConvertible_ToByte_m15526/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
 	, String_t_String_System_IConvertible_ToByte_m15526_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -13756,15 +13756,15 @@ static const ParameterInfo String_t_String_System_IConvertible_ToDecimal_m15529_
 {
 	{"provider", 0, 134218202, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.String::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo String_System_IConvertible_ToDecimal_m15529_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&String_System_IConvertible_ToDecimal_m15529/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
 	, String_t_String_System_IConvertible_ToDecimal_m15529_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -13812,15 +13812,15 @@ static const ParameterInfo String_t_String_System_IConvertible_ToInt16_m15531_Pa
 {
 	{"provider", 0, 134218204, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.String::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo String_System_IConvertible_ToInt16_m15531_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&String_System_IConvertible_ToInt16_m15531/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
 	, String_t_String_System_IConvertible_ToInt16_m15531_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -13982,15 +13982,15 @@ static const ParameterInfo String_t_String_System_IConvertible_ToUInt16_m15537_P
 {
 	{"provider", 0, 134218211, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.String::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo String_System_IConvertible_ToUInt16_m15537_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&String_System_IConvertible_ToUInt16_m15537/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
 	, String_t_String_System_IConvertible_ToUInt16_m15537_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -14010,15 +14010,15 @@ static const ParameterInfo String_t_String_System_IConvertible_ToUInt32_m15538_P
 {
 	{"provider", 0, 134218212, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.String::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo String_System_IConvertible_ToUInt32_m15538_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&String_System_IConvertible_ToUInt32_m15538/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
 	, String_t_String_System_IConvertible_ToUInt32_m15538_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -14038,15 +14038,15 @@ static const ParameterInfo String_t_String_System_IConvertible_ToUInt64_m15539_P
 {
 	{"provider", 0, 134218213, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.String::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo String_System_IConvertible_ToUInt64_m15539_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&String_System_IConvertible_ToUInt64_m15539/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
 	, String_t_String_System_IConvertible_ToUInt64_m15539_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -14223,13 +14223,13 @@ extern const MethodInfo String_get_Chars_m407_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo String_t_String_CopyTo_m11223_ParameterInfos[] = 
 {
 	{"sourceIndex", 0, 134218219, 0, &Int32_t82_0_0_0},
-	{"destination", 1, 134218220, 0, &CharU5BU5D_t660_0_0_0},
+	{"destination", 1, 134218220, 0, &CharU5BU5D_t661_0_0_0},
 	{"destinationIndex", 2, 134218221, 0, &Int32_t82_0_0_0},
 	{"count", 3, 134218222, 0, &Int32_t82_0_0_0},
 };
@@ -14263,7 +14263,7 @@ extern const MethodInfo String_ToCharArray_m3610_MethodInfo =
 	"ToCharArray"/* name */
 	, (methodPointerType)&String_ToCharArray_m3610/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
-	, &CharU5BU5D_t660_0_0_0/* return_type */
+	, &CharU5BU5D_t661_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -14293,7 +14293,7 @@ extern const MethodInfo String_ToCharArray_m15545_MethodInfo =
 	"ToCharArray"/* name */
 	, (methodPointerType)&String_ToCharArray_m15545/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
-	, &CharU5BU5D_t660_0_0_0/* return_type */
+	, &CharU5BU5D_t661_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82_Int32_t82/* invoker_method */
 	, String_t_String_ToCharArray_m15545_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -14309,10 +14309,10 @@ extern const MethodInfo String_ToCharArray_m15545_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 static const ParameterInfo String_t_String_Split_m3473_ParameterInfos[] = 
 {
-	{"separator", 0, 134218225, 49, &CharU5BU5D_t660_0_0_0},
+	{"separator", 0, 134218225, 49, &CharU5BU5D_t661_0_0_0},
 };
 extern const Il2CppType StringU5BU5D_t75_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -14338,11 +14338,11 @@ extern const MethodInfo String_Split_m3473_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo String_t_String_Split_m7218_ParameterInfos[] = 
 {
-	{"separator", 0, 134218226, 0, &CharU5BU5D_t660_0_0_0},
+	{"separator", 0, 134218226, 0, &CharU5BU5D_t661_0_0_0},
 	{"count", 1, 134218227, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -14368,13 +14368,13 @@ extern const MethodInfo String_Split_m7218_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType StringSplitOptions_t4794_0_0_0;
 extern const Il2CppType StringSplitOptions_t4794_0_0_0;
 static const ParameterInfo String_t_String_Split_m15546_ParameterInfos[] = 
 {
-	{"separator", 0, 134218228, 0, &CharU5BU5D_t660_0_0_0},
+	{"separator", 0, 134218228, 0, &CharU5BU5D_t661_0_0_0},
 	{"count", 1, 134218229, 0, &Int32_t82_0_0_0},
 	{"options", 2, 134218230, 0, &StringSplitOptions_t4794_0_0_0},
 };
@@ -14574,10 +14574,10 @@ extern const MethodInfo String_Trim_m413_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 static const ParameterInfo String_t_String_Trim_m9848_ParameterInfos[] = 
 {
-	{"trimChars", 0, 134218241, 53, &CharU5BU5D_t660_0_0_0},
+	{"trimChars", 0, 134218241, 53, &CharU5BU5D_t661_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::Trim(System.Char[])
@@ -14602,10 +14602,10 @@ extern const MethodInfo String_Trim_m9848_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 static const ParameterInfo String_t_String_TrimStart_m14923_ParameterInfos[] = 
 {
-	{"trimChars", 0, 134218242, 54, &CharU5BU5D_t660_0_0_0},
+	{"trimChars", 0, 134218242, 54, &CharU5BU5D_t661_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::TrimStart(System.Char[])
@@ -14630,10 +14630,10 @@ extern const MethodInfo String_TrimStart_m14923_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 static const ParameterInfo String_t_String_TrimEnd_m14893_ParameterInfos[] = 
 {
-	{"trimChars", 0, 134218243, 55, &CharU5BU5D_t660_0_0_0},
+	{"trimChars", 0, 134218243, 55, &CharU5BU5D_t661_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::TrimEnd(System.Char[])
@@ -14693,13 +14693,13 @@ extern const MethodInfo String_FindNotWhiteSpace_m15549_MethodInfo =
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 static const ParameterInfo String_t_String_FindNotInTable_m15550_ParameterInfos[] = 
 {
 	{"pos", 0, 134218247, 0, &Int32_t82_0_0_0},
 	{"target", 1, 134218248, 0, &Int32_t82_0_0_0},
 	{"change", 2, 134218249, 0, &Int32_t82_0_0_0},
-	{"table", 3, 134218250, 0, &CharU5BU5D_t660_0_0_0},
+	{"table", 3, 134218250, 0, &CharU5BU5D_t661_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Int32_t82_Int32_t82_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.String::FindNotInTable(System.Int32,System.Int32,System.Int32,System.Char[])
@@ -14789,13 +14789,13 @@ extern const MethodInfo String_Compare_m14866_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 static const ParameterInfo String_t_String_Compare_m11199_ParameterInfos[] = 
 {
 	{"strA", 0, 134218256, 0, &String_t_0_0_0},
 	{"strB", 1, 134218257, 0, &String_t_0_0_0},
 	{"ignoreCase", 2, 134218258, 0, &Boolean_t59_0_0_0},
-	{"culture", 3, 134218259, 0, &CultureInfo_t718_0_0_0},
+	{"culture", 3, 134218259, 0, &CultureInfo_t719_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t_Object_t_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.String::Compare(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)
@@ -14826,7 +14826,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 static const ParameterInfo String_t_String_Compare_m12958_ParameterInfos[] = 
 {
 	{"strA", 0, 134218260, 0, &String_t_0_0_0},
@@ -14835,7 +14835,7 @@ static const ParameterInfo String_t_String_Compare_m12958_ParameterInfos[] =
 	{"indexB", 3, 134218263, 0, &Int32_t82_0_0_0},
 	{"length", 4, 134218264, 0, &Int32_t82_0_0_0},
 	{"ignoreCase", 5, 134218265, 0, &Boolean_t59_0_0_0},
-	{"culture", 6, 134218266, 0, &CultureInfo_t718_0_0_0},
+	{"culture", 6, 134218266, 0, &CultureInfo_t719_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Object_t_Int32_t82_Int32_t82_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.String::Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Globalization.CultureInfo)
@@ -15056,10 +15056,10 @@ extern const MethodInfo String_EndsWith_m9919_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 static const ParameterInfo String_t_String_IndexOfAny_m11237_ParameterInfos[] = 
 {
-	{"anyOf", 0, 134218287, 0, &CharU5BU5D_t660_0_0_0},
+	{"anyOf", 0, 134218287, 0, &CharU5BU5D_t661_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.String::IndexOfAny(System.Char[])
@@ -15084,11 +15084,11 @@ extern const MethodInfo String_IndexOfAny_m11237_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo String_t_String_IndexOfAny_m5771_ParameterInfos[] = 
 {
-	{"anyOf", 0, 134218288, 0, &CharU5BU5D_t660_0_0_0},
+	{"anyOf", 0, 134218288, 0, &CharU5BU5D_t661_0_0_0},
 	{"startIndex", 1, 134218289, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -15114,12 +15114,12 @@ extern const MethodInfo String_IndexOfAny_m5771_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo String_t_String_IndexOfAny_m12903_ParameterInfos[] = 
 {
-	{"anyOf", 0, 134218290, 0, &CharU5BU5D_t660_0_0_0},
+	{"anyOf", 0, 134218290, 0, &CharU5BU5D_t661_0_0_0},
 	{"startIndex", 1, 134218291, 0, &Int32_t82_0_0_0},
 	{"count", 2, 134218292, 0, &Int32_t82_0_0_0},
 };
@@ -15146,12 +15146,12 @@ extern const MethodInfo String_IndexOfAny_m12903_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo String_t_String_IndexOfAnyUnchecked_m15556_ParameterInfos[] = 
 {
-	{"anyOf", 0, 134218293, 0, &CharU5BU5D_t660_0_0_0},
+	{"anyOf", 0, 134218293, 0, &CharU5BU5D_t661_0_0_0},
 	{"startIndex", 1, 134218294, 0, &Int32_t82_0_0_0},
 	{"count", 2, 134218295, 0, &Int32_t82_0_0_0},
 };
@@ -15347,7 +15347,7 @@ static const ParameterInfo String_t_String_IndexOf_m3604_ParameterInfos[] =
 {
 	{"value", 0, 134218312, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.String::IndexOf(System.Char)
 extern const MethodInfo String_IndexOf_m3604_MethodInfo = 
 {
@@ -15355,7 +15355,7 @@ extern const MethodInfo String_IndexOf_m3604_MethodInfo =
 	, (methodPointerType)&String_IndexOf_m3604/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Int32_t82_Int16_t693/* invoker_method */
 	, String_t_String_IndexOf_m3604_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -15377,7 +15377,7 @@ static const ParameterInfo String_t_String_IndexOf_m9847_ParameterInfos[] =
 	{"value", 0, 134218313, 0, &Char_t60_0_0_0},
 	{"startIndex", 1, 134218314, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Int16_t692_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Int16_t693_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.String::IndexOf(System.Char,System.Int32)
 extern const MethodInfo String_IndexOf_m9847_MethodInfo = 
 {
@@ -15385,7 +15385,7 @@ extern const MethodInfo String_IndexOf_m9847_MethodInfo =
 	, (methodPointerType)&String_IndexOf_m9847/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Int16_t692_Int32_t82/* invoker_method */
+	, RuntimeInvoker_Int32_t82_Int16_t693_Int32_t82/* invoker_method */
 	, String_t_String_IndexOf_m9847_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -15409,7 +15409,7 @@ static const ParameterInfo String_t_String_IndexOf_m14924_ParameterInfos[] =
 	{"startIndex", 1, 134218316, 0, &Int32_t82_0_0_0},
 	{"count", 2, 134218317, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Int16_t692_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Int16_t693_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.String::IndexOf(System.Char,System.Int32,System.Int32)
 extern const MethodInfo String_IndexOf_m14924_MethodInfo = 
 {
@@ -15417,7 +15417,7 @@ extern const MethodInfo String_IndexOf_m14924_MethodInfo =
 	, (methodPointerType)&String_IndexOf_m14924/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Int16_t692_Int32_t82_Int32_t82/* invoker_method */
+	, RuntimeInvoker_Int32_t82_Int16_t693_Int32_t82_Int32_t82/* invoker_method */
 	, String_t_String_IndexOf_m14924_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -15441,7 +15441,7 @@ static const ParameterInfo String_t_String_IndexOfUnchecked_m15561_ParameterInfo
 	{"startIndex", 1, 134218319, 0, &Int32_t82_0_0_0},
 	{"count", 2, 134218320, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Int16_t692_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Int16_t693_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.String::IndexOfUnchecked(System.Char,System.Int32,System.Int32)
 extern const MethodInfo String_IndexOfUnchecked_m15561_MethodInfo = 
 {
@@ -15449,7 +15449,7 @@ extern const MethodInfo String_IndexOfUnchecked_m15561_MethodInfo =
 	, (methodPointerType)&String_IndexOfUnchecked_m15561/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Int16_t692_Int32_t82_Int32_t82/* invoker_method */
+	, RuntimeInvoker_Int32_t82_Int16_t693_Int32_t82_Int32_t82/* invoker_method */
 	, String_t_String_IndexOfUnchecked_m15561_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
@@ -15554,10 +15554,10 @@ extern const MethodInfo String_IndexOf_m11200_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 static const ParameterInfo String_t_String_LastIndexOfAny_m15562_ParameterInfos[] = 
 {
-	{"anyOf", 0, 134218327, 0, &CharU5BU5D_t660_0_0_0},
+	{"anyOf", 0, 134218327, 0, &CharU5BU5D_t661_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.String::LastIndexOfAny(System.Char[])
@@ -15582,11 +15582,11 @@ extern const MethodInfo String_LastIndexOfAny_m15562_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo String_t_String_LastIndexOfAny_m5773_ParameterInfos[] = 
 {
-	{"anyOf", 0, 134218328, 0, &CharU5BU5D_t660_0_0_0},
+	{"anyOf", 0, 134218328, 0, &CharU5BU5D_t661_0_0_0},
 	{"startIndex", 1, 134218329, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -15612,12 +15612,12 @@ extern const MethodInfo String_LastIndexOfAny_m5773_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo String_t_String_LastIndexOfAnyUnchecked_m15563_ParameterInfos[] = 
 {
-	{"anyOf", 0, 134218330, 0, &CharU5BU5D_t660_0_0_0},
+	{"anyOf", 0, 134218330, 0, &CharU5BU5D_t661_0_0_0},
 	{"startIndex", 1, 134218331, 0, &Int32_t82_0_0_0},
 	{"count", 2, 134218332, 0, &Int32_t82_0_0_0},
 };
@@ -15649,7 +15649,7 @@ static const ParameterInfo String_t_String_LastIndexOf_m14855_ParameterInfos[] =
 {
 	{"value", 0, 134218333, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.String::LastIndexOf(System.Char)
 extern const MethodInfo String_LastIndexOf_m14855_MethodInfo = 
 {
@@ -15657,7 +15657,7 @@ extern const MethodInfo String_LastIndexOf_m14855_MethodInfo =
 	, (methodPointerType)&String_LastIndexOf_m14855/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Int32_t82_Int16_t693/* invoker_method */
 	, String_t_String_LastIndexOf_m14855_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -15679,7 +15679,7 @@ static const ParameterInfo String_t_String_LastIndexOf_m14921_ParameterInfos[] =
 	{"value", 0, 134218334, 0, &Char_t60_0_0_0},
 	{"startIndex", 1, 134218335, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Int16_t692_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Int16_t693_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.String::LastIndexOf(System.Char,System.Int32)
 extern const MethodInfo String_LastIndexOf_m14921_MethodInfo = 
 {
@@ -15687,7 +15687,7 @@ extern const MethodInfo String_LastIndexOf_m14921_MethodInfo =
 	, (methodPointerType)&String_LastIndexOf_m14921/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Int16_t692_Int32_t82/* invoker_method */
+	, RuntimeInvoker_Int32_t82_Int16_t693_Int32_t82/* invoker_method */
 	, String_t_String_LastIndexOf_m14921_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -15711,7 +15711,7 @@ static const ParameterInfo String_t_String_LastIndexOf_m14925_ParameterInfos[] =
 	{"startIndex", 1, 134218337, 0, &Int32_t82_0_0_0},
 	{"count", 2, 134218338, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Int16_t692_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Int16_t693_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.String::LastIndexOf(System.Char,System.Int32,System.Int32)
 extern const MethodInfo String_LastIndexOf_m14925_MethodInfo = 
 {
@@ -15719,7 +15719,7 @@ extern const MethodInfo String_LastIndexOf_m14925_MethodInfo =
 	, (methodPointerType)&String_LastIndexOf_m14925/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Int16_t692_Int32_t82_Int32_t82/* invoker_method */
+	, RuntimeInvoker_Int32_t82_Int16_t693_Int32_t82_Int32_t82/* invoker_method */
 	, String_t_String_LastIndexOf_m14925_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -15743,7 +15743,7 @@ static const ParameterInfo String_t_String_LastIndexOfUnchecked_m15564_Parameter
 	{"startIndex", 1, 134218340, 0, &Int32_t82_0_0_0},
 	{"count", 2, 134218341, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Int16_t692_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Int16_t693_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.String::LastIndexOfUnchecked(System.Char,System.Int32,System.Int32)
 extern const MethodInfo String_LastIndexOfUnchecked_m15564_MethodInfo = 
 {
@@ -15751,7 +15751,7 @@ extern const MethodInfo String_LastIndexOfUnchecked_m15564_MethodInfo =
 	, (methodPointerType)&String_LastIndexOfUnchecked_m15564/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Int16_t692_Int32_t82_Int32_t82/* invoker_method */
+	, RuntimeInvoker_Int32_t82_Int16_t693_Int32_t82_Int32_t82/* invoker_method */
 	, String_t_String_LastIndexOfUnchecked_m15564_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
@@ -15889,7 +15889,7 @@ static const ParameterInfo String_t_String_PadLeft_m3613_ParameterInfos[] =
 	{"totalWidth", 0, 134218348, 0, &Int32_t82_0_0_0},
 	{"paddingChar", 1, 134218349, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Int32_t82_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Int32_t82_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::PadLeft(System.Int32,System.Char)
 extern const MethodInfo String_PadLeft_m3613_MethodInfo = 
 {
@@ -15897,7 +15897,7 @@ extern const MethodInfo String_PadLeft_m3613_MethodInfo =
 	, (methodPointerType)&String_PadLeft_m3613/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int32_t82_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Object_t_Int32_t82_Int16_t693/* invoker_method */
 	, String_t_String_PadLeft_m3613_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -15919,7 +15919,7 @@ static const ParameterInfo String_t_String_PadRight_m9828_ParameterInfos[] =
 	{"totalWidth", 0, 134218350, 0, &Int32_t82_0_0_0},
 	{"paddingChar", 1, 134218351, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Int32_t82_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Int32_t82_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::PadRight(System.Int32,System.Char)
 extern const MethodInfo String_PadRight_m9828_MethodInfo = 
 {
@@ -15927,7 +15927,7 @@ extern const MethodInfo String_PadRight_m9828_MethodInfo =
 	, (methodPointerType)&String_PadRight_m9828/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int32_t82_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Object_t_Int32_t82_Int16_t693/* invoker_method */
 	, String_t_String_PadRight_m9828_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -16007,7 +16007,7 @@ static const ParameterInfo String_t_String_Replace_m9921_ParameterInfos[] =
 	{"oldChar", 0, 134218355, 0, &Char_t60_0_0_0},
 	{"newChar", 1, 134218356, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Int16_t692_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Int16_t693_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::Replace(System.Char,System.Char)
 extern const MethodInfo String_Replace_m9921_MethodInfo = 
 {
@@ -16015,7 +16015,7 @@ extern const MethodInfo String_Replace_m9921_MethodInfo =
 	, (methodPointerType)&String_Replace_m9921/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int16_t692_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Object_t_Int16_t693_Int16_t693/* invoker_method */
 	, String_t_String_Replace_m9921_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -16175,10 +16175,10 @@ extern const MethodInfo String_ToLower_m3609_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 static const ParameterInfo String_t_String_ToLower_m11232_ParameterInfos[] = 
 {
-	{"culture", 0, 134218366, 0, &CultureInfo_t718_0_0_0},
+	{"culture", 0, 134218366, 0, &CultureInfo_t719_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::ToLower(System.Globalization.CultureInfo)
@@ -16249,10 +16249,10 @@ extern const MethodInfo String_ToUpper_m9850_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 static const ParameterInfo String_t_String_ToUpper_m15569_ParameterInfos[] = 
 {
-	{"culture", 0, 134218367, 0, &CultureInfo_t718_0_0_0},
+	{"culture", 0, 134218367, 0, &CultureInfo_t719_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::ToUpper(System.Globalization.CultureInfo)
@@ -16417,7 +16417,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo String_t_String_Format_m3939_ParameterInfos[] = 
+static const ParameterInfo String_t_String_Format_m3940_ParameterInfos[] = 
 {
 	{"format", 0, 134218374, 0, &String_t_0_0_0},
 	{"arg0", 1, 134218375, 0, &Object_t_0_0_0},
@@ -16426,14 +16426,14 @@ static const ParameterInfo String_t_String_Format_m3939_ParameterInfos[] =
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::Format(System.String,System.Object,System.Object,System.Object)
-extern const MethodInfo String_Format_m3939_MethodInfo = 
+extern const MethodInfo String_Format_m3940_MethodInfo = 
 {
 	"Format"/* name */
-	, (methodPointerType)&String_Format_m3939/* method */
+	, (methodPointerType)&String_Format_m3940/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, String_t_String_Format_m3939_ParameterInfos/* parameters */
+	, String_t_String_Format_m3940_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -16448,12 +16448,12 @@ extern const MethodInfo String_Format_m3939_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
 static const ParameterInfo String_t_String_Format_m3440_ParameterInfos[] = 
 {
 	{"format", 0, 134218378, 0, &String_t_0_0_0},
-	{"args", 1, 134218379, 57, &ObjectU5BU5D_t635_0_0_0},
+	{"args", 1, 134218379, 57, &ObjectU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::Format(System.String,System.Object[])
@@ -16480,12 +16480,12 @@ extern const MethodInfo String_Format_m3440_MethodInfo =
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
 static const ParameterInfo String_t_String_Format_m11196_ParameterInfos[] = 
 {
 	{"provider", 0, 134218380, 0, &IFormatProvider_t4456_0_0_0},
 	{"format", 1, 134218381, 0, &String_t_0_0_0},
-	{"args", 2, 134218382, 58, &ObjectU5BU5D_t635_0_0_0},
+	{"args", 2, 134218382, 58, &ObjectU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::Format(System.IFormatProvider,System.String,System.Object[])
@@ -16514,13 +16514,13 @@ extern const Il2CppType StringBuilder_t261_0_0_0;
 extern const Il2CppType StringBuilder_t261_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
 static const ParameterInfo String_t_String_FormatHelper_m15573_ParameterInfos[] = 
 {
 	{"result", 0, 134218383, 0, &StringBuilder_t261_0_0_0},
 	{"provider", 1, 134218384, 0, &IFormatProvider_t4456_0_0_0},
 	{"format", 2, 134218385, 0, &String_t_0_0_0},
-	{"args", 3, 134218386, 59, &ObjectU5BU5D_t635_0_0_0},
+	{"args", 3, 134218386, 59, &ObjectU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.StringBuilder System.String::FormatHelper(System.Text.StringBuilder,System.IFormatProvider,System.String,System.Object[])
@@ -16731,10 +16731,10 @@ extern const MethodInfo String_Concat_m384_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
 static const ParameterInfo String_t_String_Concat_m3635_ParameterInfos[] = 
 {
-	{"args", 0, 134218402, 60, &ObjectU5BU5D_t635_0_0_0},
+	{"args", 0, 134218402, 60, &ObjectU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::Concat(System.Object[])
@@ -16984,7 +16984,7 @@ static const ParameterInfo String_t_String_ParseFormatSpecifier_m15576_Parameter
 	{"left_align", 4, 134218422, 0, &Boolean_t59_1_0_2},
 	{"format", 5, 134218423, 0, &String_t_1_0_2},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_Int32U26_t1085_Int32U26_t1085_Int32U26_t1085_BooleanU26_t1078_StringU26_t756 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_Int32U26_t1085_Int32U26_t1085_Int32U26_t1085_BooleanU26_t1078_StringU26_t757 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.String::ParseFormatSpecifier(System.String,System.Int32&,System.Int32&,System.Int32&,System.Boolean&,System.String&)
 extern const MethodInfo String_ParseFormatSpecifier_m15576_MethodInfo = 
 {
@@ -16992,7 +16992,7 @@ extern const MethodInfo String_ParseFormatSpecifier_m15576_MethodInfo =
 	, (methodPointerType)&String_ParseFormatSpecifier_m15576/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_Int32U26_t1085_Int32U26_t1085_Int32U26_t1085_BooleanU26_t1078_StringU26_t756/* invoker_method */
+	, RuntimeInvoker_Void_t85_Object_t_Int32U26_t1085_Int32U26_t1085_Int32U26_t1085_BooleanU26_t1078_StringU26_t757/* invoker_method */
 	, String_t_String_ParseFormatSpecifier_m15576_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
@@ -17044,7 +17044,7 @@ static const ParameterInfo String_t_String_InternalSetChar_m15578_ParameterInfos
 	{"idx", 0, 134218426, 0, &Int32_t82_0_0_0},
 	{"val", 1, 134218427, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Int32_t82_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Int32_t82_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.String::InternalSetChar(System.Int32,System.Char)
 extern const MethodInfo String_InternalSetChar_m15578_MethodInfo = 
 {
@@ -17052,7 +17052,7 @@ extern const MethodInfo String_InternalSetChar_m15578_MethodInfo =
 	, (methodPointerType)&String_InternalSetChar_m15578/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Int32_t82_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Void_t85_Int32_t82_Int16_t693/* invoker_method */
 	, String_t_String_InternalSetChar_m15578_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
@@ -17205,14 +17205,14 @@ extern const MethodInfo String_CreateString_m15583_MethodInfo =
 extern const Il2CppType SByteU2A_t4975_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType Encoding_t689_0_0_0;
-extern const Il2CppType Encoding_t689_0_0_0;
+extern const Il2CppType Encoding_t690_0_0_0;
+extern const Il2CppType Encoding_t690_0_0_0;
 static const ParameterInfo String_t_String_CreateString_m15584_ParameterInfos[] = 
 {
 	{"value", 0, 134218433, 0, &SByteU2A_t4975_0_0_0},
 	{"startIndex", 1, 134218434, 0, &Int32_t82_0_0_0},
 	{"length", 2, 134218435, 0, &Int32_t82_0_0_0},
-	{"enc", 3, 134218436, 0, &Encoding_t689_0_0_0},
+	{"enc", 3, 134218436, 0, &Encoding_t690_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t82_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::CreateString(System.SByte*,System.Int32,System.Int32,System.Text.Encoding)
@@ -17297,12 +17297,12 @@ extern const MethodInfo String_CreateString_m15586_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo String_t_String_CreateString_m9882_ParameterInfos[] = 
 {
-	{"val", 0, 134218441, 0, &CharU5BU5D_t660_0_0_0},
+	{"val", 0, 134218441, 0, &CharU5BU5D_t661_0_0_0},
 	{"startIndex", 1, 134218442, 0, &Int32_t82_0_0_0},
 	{"length", 2, 134218443, 0, &Int32_t82_0_0_0},
 };
@@ -17329,10 +17329,10 @@ extern const MethodInfo String_CreateString_m9882_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 static const ParameterInfo String_t_String_CreateString_m3743_ParameterInfos[] = 
 {
-	{"val", 0, 134218444, 0, &CharU5BU5D_t660_0_0_0},
+	{"val", 0, 134218444, 0, &CharU5BU5D_t661_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::CreateString(System.Char[])
@@ -17364,7 +17364,7 @@ static const ParameterInfo String_t_String_CreateString_m3744_ParameterInfos[] =
 	{"c", 0, 134218445, 0, &Char_t60_0_0_0},
 	{"count", 1, 134218446, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Int16_t692_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Int16_t693_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.String System.String::CreateString(System.Char,System.Int32)
 extern const MethodInfo String_CreateString_m3744_MethodInfo = 
 {
@@ -17372,7 +17372,7 @@ extern const MethodInfo String_CreateString_m3744_MethodInfo =
 	, (methodPointerType)&String_CreateString_m3744/* method */
 	, &String_t_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int16_t692_Int32_t82/* invoker_method */
+	, RuntimeInvoker_Object_t_Int16_t693_Int32_t82/* invoker_method */
 	, String_t_String_CreateString_m3744_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -17618,14 +17618,14 @@ extern const MethodInfo String_CharCopy_m15593_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo String_t_String_CharCopy_m15594_ParameterInfos[] = 
 {
 	{"target", 0, 134218470, 0, &String_t_0_0_0},
 	{"targetIndex", 1, 134218471, 0, &Int32_t82_0_0_0},
-	{"source", 2, 134218472, 0, &CharU5BU5D_t660_0_0_0},
+	{"source", 2, 134218472, 0, &CharU5BU5D_t661_0_0_0},
 	{"sourceIndex", 3, 134218473, 0, &Int32_t82_0_0_0},
 	{"count", 4, 134218474, 0, &Int32_t82_0_0_0},
 };
@@ -17688,12 +17688,12 @@ extern const MethodInfo String_CharCopyReverse_m15595_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo String_t_String_InternalSplit_m15596_ParameterInfos[] = 
 {
-	{"separator", 0, 134218480, 0, &CharU5BU5D_t660_0_0_0},
+	{"separator", 0, 134218480, 0, &CharU5BU5D_t661_0_0_0},
 	{"count", 1, 134218481, 0, &Int32_t82_0_0_0},
 	{"options", 2, 134218482, 0, &Int32_t82_0_0_0},
 };
@@ -17909,7 +17909,7 @@ static const MethodInfo* String_t_MethodInfos[] =
 	&String_ToString_m15572_MethodInfo,
 	&String_Format_m3871_MethodInfo,
 	&String_Format_m3820_MethodInfo,
-	&String_Format_m3939_MethodInfo,
+	&String_Format_m3940_MethodInfo,
 	&String_Format_m3440_MethodInfo,
 	&String_Format_m11196_MethodInfo,
 	&String_FormatHelper_m15573_MethodInfo,
@@ -18064,7 +18064,7 @@ static bool String_t_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICloneable_t761_0_0_0;
+extern const Il2CppType ICloneable_t762_0_0_0;
 extern const Il2CppType IComparable_1_t4976_0_0_0;
 extern const Il2CppType IEquatable_1_t4977_0_0_0;
 extern const Il2CppType IEnumerable_1_t3251_0_0_0;
@@ -18073,7 +18073,7 @@ static const Il2CppType* String_t_InterfacesTypeInfos[] =
 	&IConvertible_t98_0_0_0,
 	&IComparable_t99_0_0_0,
 	&IEnumerable_t104_0_0_0,
-	&ICloneable_t761_0_0_0,
+	&ICloneable_t762_0_0_0,
 	&IComparable_1_t4976_0_0_0,
 	&IEquatable_1_t4977_0_0_0,
 	&IEnumerable_1_t3251_0_0_0,
@@ -18083,7 +18083,7 @@ static Il2CppInterfaceOffsetPair String_t_InterfacesOffsets[] =
 	{ &IConvertible_t98_0_0_0, 4},
 	{ &IComparable_t99_0_0_0, 20},
 	{ &IEnumerable_t104_0_0_0, 21},
-	{ &ICloneable_t761_0_0_0, 22},
+	{ &ICloneable_t762_0_0_0, 22},
 	{ &IComparable_1_t4976_0_0_0, 22},
 	{ &IEquatable_1_t4977_0_0_0, 23},
 	{ &IEnumerable_1_t3251_0_0_0, 24},
@@ -18158,15 +18158,15 @@ TypeInfo String_t_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.ICloneable
-extern TypeInfo ICloneable_t761_il2cpp_TypeInfo;
-static const MethodInfo* ICloneable_t761_MethodInfos[] =
+extern TypeInfo ICloneable_t762_il2cpp_TypeInfo;
+static const MethodInfo* ICloneable_t762_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ICloneable_t761_1_0_0;
-struct ICloneable_t761;
-const Il2CppTypeDefinitionMetadata ICloneable_t761_DefinitionMetadata = 
+extern const Il2CppType ICloneable_t762_1_0_0;
+struct ICloneable_t762;
+const Il2CppTypeDefinitionMetadata ICloneable_t762_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -18179,21 +18179,21 @@ const Il2CppTypeDefinitionMetadata ICloneable_t761_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo ICloneable_t761_il2cpp_TypeInfo = 
+TypeInfo ICloneable_t762_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ICloneable"/* name */
 	, "System"/* namespaze */
-	, ICloneable_t761_MethodInfos/* methods */
+	, ICloneable_t762_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ICloneable_t761_il2cpp_TypeInfo/* element_class */
+	, &ICloneable_t762_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 63/* custom_attributes_cache */
-	, &ICloneable_t761_0_0_0/* byval_arg */
-	, &ICloneable_t761_1_0_0/* this_arg */
-	, &ICloneable_t761_DefinitionMetadata/* definitionMetadata */
+	, &ICloneable_t762_0_0_0/* byval_arg */
+	, &ICloneable_t762_1_0_0/* this_arg */
+	, &ICloneable_t762_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -18385,15 +18385,15 @@ static const ParameterInfo Single_t87_Single_System_IConvertible_ToByte_m15599_P
 {
 	{"provider", 0, 134218489, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Single::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo Single_System_IConvertible_ToByte_m15599_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&Single_System_IConvertible_ToByte_m15599/* method */
 	, &Single_t87_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
 	, Single_t87_Single_System_IConvertible_ToByte_m15599_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -18469,15 +18469,15 @@ static const ParameterInfo Single_t87_Single_System_IConvertible_ToDecimal_m1560
 {
 	{"provider", 0, 134218492, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Single::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo Single_System_IConvertible_ToDecimal_m15602_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&Single_System_IConvertible_ToDecimal_m15602/* method */
 	, &Single_t87_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
 	, Single_t87_Single_System_IConvertible_ToDecimal_m15602_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -18525,15 +18525,15 @@ static const ParameterInfo Single_t87_Single_System_IConvertible_ToInt16_m15604_
 {
 	{"provider", 0, 134218494, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Single::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo Single_System_IConvertible_ToInt16_m15604_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&Single_System_IConvertible_ToInt16_m15604/* method */
 	, &Single_t87_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
 	, Single_t87_Single_System_IConvertible_ToInt16_m15604_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -18695,15 +18695,15 @@ static const ParameterInfo Single_t87_Single_System_IConvertible_ToUInt16_m15610
 {
 	{"provider", 0, 134218501, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.Single::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo Single_System_IConvertible_ToUInt16_m15610_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&Single_System_IConvertible_ToUInt16_m15610/* method */
 	, &Single_t87_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
 	, Single_t87_Single_System_IConvertible_ToUInt16_m15610_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -18723,15 +18723,15 @@ static const ParameterInfo Single_t87_Single_System_IConvertible_ToUInt32_m15611
 {
 	{"provider", 0, 134218502, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.Single::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo Single_System_IConvertible_ToUInt32_m15611_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&Single_System_IConvertible_ToUInt32_m15611/* method */
 	, &Single_t87_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
 	, Single_t87_Single_System_IConvertible_ToUInt32_m15611_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -18751,15 +18751,15 @@ static const ParameterInfo Single_t87_Single_System_IConvertible_ToUInt64_m15612
 {
 	{"provider", 0, 134218503, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.Single::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo Single_System_IConvertible_ToUInt64_m15612_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&Single_System_IConvertible_ToUInt64_m15612/* method */
 	, &Single_t87_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
 	, Single_t87_Single_System_IConvertible_ToUInt64_m15612_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -19022,20 +19022,20 @@ extern const MethodInfo Single_IsPositiveInfinity_m15618_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Single_t87_Single_Parse_m4042_ParameterInfos[] = 
+static const ParameterInfo Single_t87_Single_Parse_m4043_ParameterInfos[] = 
 {
 	{"s", 0, 134218512, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single System.Single::Parse(System.String)
-extern const MethodInfo Single_Parse_m4042_MethodInfo = 
+extern const MethodInfo Single_Parse_m4043_MethodInfo = 
 {
 	"Parse"/* name */
-	, (methodPointerType)&Single_Parse_m4042/* method */
+	, (methodPointerType)&Single_Parse_m4043/* method */
 	, &Single_t87_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, Single_t87_Single_Parse_m4042_ParameterInfos/* parameters */
+	, Single_t87_Single_Parse_m4043_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -19051,21 +19051,21 @@ extern const MethodInfo Single_Parse_m4042_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Single_t87_Single_Parse_m4076_ParameterInfos[] = 
+static const ParameterInfo Single_t87_Single_Parse_m4077_ParameterInfos[] = 
 {
 	{"s", 0, 134218513, 0, &String_t_0_0_0},
 	{"provider", 1, 134218514, 0, &IFormatProvider_t4456_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single System.Single::Parse(System.String,System.IFormatProvider)
-extern const MethodInfo Single_Parse_m4076_MethodInfo = 
+extern const MethodInfo Single_Parse_m4077_MethodInfo = 
 {
 	"Parse"/* name */
-	, (methodPointerType)&Single_Parse_m4076/* method */
+	, (methodPointerType)&Single_Parse_m4077/* method */
 	, &Single_t87_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t_Object_t/* invoker_method */
-	, Single_t87_Single_Parse_m4076_ParameterInfos/* parameters */
+	, Single_t87_Single_Parse_m4077_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -19302,8 +19302,8 @@ static const MethodInfo* Single_t87_MethodInfos[] =
 	&Single_IsNaN_m15616_MethodInfo,
 	&Single_IsNegativeInfinity_m15617_MethodInfo,
 	&Single_IsPositiveInfinity_m15618_MethodInfo,
-	&Single_Parse_m4042_MethodInfo,
-	&Single_Parse_m4076_MethodInfo,
+	&Single_Parse_m4043_MethodInfo,
+	&Single_Parse_m4077_MethodInfo,
 	&Single_TryParse_m15619_MethodInfo,
 	&Single_TryParse_m400_MethodInfo,
 	&Single_ToString_m401_MethodInfo,
@@ -19548,15 +19548,15 @@ static const ParameterInfo Double_t90_Double_System_IConvertible_ToByte_m15624_P
 {
 	{"provider", 0, 134218528, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Double::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo Double_System_IConvertible_ToByte_m15624_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&Double_System_IConvertible_ToByte_m15624/* method */
 	, &Double_t90_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
 	, Double_t90_Double_System_IConvertible_ToByte_m15624_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -19632,15 +19632,15 @@ static const ParameterInfo Double_t90_Double_System_IConvertible_ToDecimal_m1562
 {
 	{"provider", 0, 134218531, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Double::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo Double_System_IConvertible_ToDecimal_m15627_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&Double_System_IConvertible_ToDecimal_m15627/* method */
 	, &Double_t90_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
 	, Double_t90_Double_System_IConvertible_ToDecimal_m15627_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -19688,15 +19688,15 @@ static const ParameterInfo Double_t90_Double_System_IConvertible_ToInt16_m15629_
 {
 	{"provider", 0, 134218533, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Double::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo Double_System_IConvertible_ToInt16_m15629_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&Double_System_IConvertible_ToInt16_m15629/* method */
 	, &Double_t90_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
 	, Double_t90_Double_System_IConvertible_ToInt16_m15629_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -19828,15 +19828,15 @@ static const ParameterInfo Double_t90_Double_System_IConvertible_ToUInt16_m15634
 {
 	{"provider", 0, 134218538, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.Double::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo Double_System_IConvertible_ToUInt16_m15634_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&Double_System_IConvertible_ToUInt16_m15634/* method */
 	, &Double_t90_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
 	, Double_t90_Double_System_IConvertible_ToUInt16_m15634_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -19856,15 +19856,15 @@ static const ParameterInfo Double_t90_Double_System_IConvertible_ToUInt32_m15635
 {
 	{"provider", 0, 134218539, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.Double::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo Double_System_IConvertible_ToUInt32_m15635_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&Double_System_IConvertible_ToUInt32_m15635/* method */
 	, &Double_t90_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
 	, Double_t90_Double_System_IConvertible_ToUInt32_m15635_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -19884,15 +19884,15 @@ static const ParameterInfo Double_t90_Double_System_IConvertible_ToUInt64_m15636
 {
 	{"provider", 0, 134218540, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.Double::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo Double_System_IConvertible_ToUInt64_m15636_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&Double_System_IConvertible_ToUInt64_m15636/* method */
 	, &Double_t90_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
 	, Double_t90_Double_System_IConvertible_ToUInt64_m15636_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -20697,21 +20697,21 @@ TypeInfo Double_t90_il2cpp_TypeInfo =
 // System.Decimal
 #include "mscorlib_System_Decimal.h"
 // Metadata Definition System.Decimal
-extern TypeInfo Decimal_t695_il2cpp_TypeInfo;
+extern TypeInfo Decimal_t696_il2cpp_TypeInfo;
 // System.Decimal
 #include "mscorlib_System_DecimalMethodDeclarations.h"
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal__ctor_m15650_ParameterInfos[] = 
+extern const Il2CppType Byte_t692_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal__ctor_m15650_ParameterInfos[] = 
 {
 	{"lo", 0, 134218576, 0, &Int32_t82_0_0_0},
 	{"mid", 1, 134218577, 0, &Int32_t82_0_0_0},
 	{"hi", 2, 134218578, 0, &Int32_t82_0_0_0},
 	{"isNegative", 3, 134218579, 0, &Boolean_t59_0_0_0},
-	{"scale", 4, 134218580, 0, &Byte_t691_0_0_0},
+	{"scale", 4, 134218580, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Decimal::.ctor(System.Int32,System.Int32,System.Int32,System.Boolean,System.Byte)
@@ -20719,10 +20719,10 @@ extern const MethodInfo Decimal__ctor_m15650_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&Decimal__ctor_m15650/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_Int32_t82_SByte_t88_SByte_t88/* invoker_method */
-	, Decimal_t695_Decimal__ctor_m15650_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal__ctor_m15650_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20737,7 +20737,7 @@ extern const MethodInfo Decimal__ctor_m15650_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal__ctor_m15651_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal__ctor_m15651_ParameterInfos[] = 
 {
 	{"value", 0, 134218581, 0, &Int32_t82_0_0_0},
 };
@@ -20747,10 +20747,10 @@ extern const MethodInfo Decimal__ctor_m15651_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&Decimal__ctor_m15651/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Decimal_t695_Decimal__ctor_m15651_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal__ctor_m15651_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20764,10 +20764,10 @@ extern const MethodInfo Decimal__ctor_m15651_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal__ctor_m15652_ParameterInfos[] = 
+extern const Il2CppType UInt32_t691_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal__ctor_m15652_ParameterInfos[] = 
 {
-	{"value", 0, 134218582, 0, &UInt32_t690_0_0_0},
+	{"value", 0, 134218582, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Decimal::.ctor(System.UInt32)
@@ -20775,10 +20775,10 @@ extern const MethodInfo Decimal__ctor_m15652_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&Decimal__ctor_m15652/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Decimal_t695_Decimal__ctor_m15652_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal__ctor_m15652_ParameterInfos/* parameters */
 	, 73/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20793,7 +20793,7 @@ extern const MethodInfo Decimal__ctor_m15652_MethodInfo =
 
 };
 extern const Il2CppType Int64_t89_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal__ctor_m15653_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal__ctor_m15653_ParameterInfos[] = 
 {
 	{"value", 0, 134218583, 0, &Int64_t89_0_0_0},
 };
@@ -20803,10 +20803,10 @@ extern const MethodInfo Decimal__ctor_m15653_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&Decimal__ctor_m15653/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int64_t89/* invoker_method */
-	, Decimal_t695_Decimal__ctor_m15653_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal__ctor_m15653_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20820,10 +20820,10 @@ extern const MethodInfo Decimal__ctor_m15653_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt64_t694_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal__ctor_m15654_ParameterInfos[] = 
+extern const Il2CppType UInt64_t695_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal__ctor_m15654_ParameterInfos[] = 
 {
-	{"value", 0, 134218584, 0, &UInt64_t694_0_0_0},
+	{"value", 0, 134218584, 0, &UInt64_t695_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Decimal::.ctor(System.UInt64)
@@ -20831,10 +20831,10 @@ extern const MethodInfo Decimal__ctor_m15654_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&Decimal__ctor_m15654/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int64_t89/* invoker_method */
-	, Decimal_t695_Decimal__ctor_m15654_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal__ctor_m15654_ParameterInfos/* parameters */
 	, 74/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20849,7 +20849,7 @@ extern const MethodInfo Decimal__ctor_m15654_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal__ctor_m15655_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal__ctor_m15655_ParameterInfos[] = 
 {
 	{"value", 0, 134218585, 0, &Single_t87_0_0_0},
 };
@@ -20859,10 +20859,10 @@ extern const MethodInfo Decimal__ctor_m15655_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&Decimal__ctor_m15655/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, Decimal_t695_Decimal__ctor_m15655_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal__ctor_m15655_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20877,7 +20877,7 @@ extern const MethodInfo Decimal__ctor_m15655_MethodInfo =
 
 };
 extern const Il2CppType Double_t90_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal__ctor_m15656_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal__ctor_m15656_ParameterInfos[] = 
 {
 	{"value", 0, 134218586, 0, &Double_t90_0_0_0},
 };
@@ -20887,10 +20887,10 @@ extern const MethodInfo Decimal__ctor_m15656_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&Decimal__ctor_m15656/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Double_t90/* invoker_method */
-	, Decimal_t695_Decimal__ctor_m15656_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal__ctor_m15656_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20910,7 +20910,7 @@ extern const MethodInfo Decimal__cctor_m15657_MethodInfo =
 {
 	".cctor"/* name */
 	, (methodPointerType)&Decimal__cctor_m15657/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -20929,7 +20929,7 @@ extern const MethodInfo Decimal__cctor_m15657_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToType_m15658_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToType_m15658_ParameterInfos[] = 
 {
 	{"targetType", 0, 134218587, 0, &Type_t_0_0_0},
 	{"provider", 1, 134218588, 0, &IFormatProvider_t4456_0_0_0},
@@ -20940,10 +20940,10 @@ extern const MethodInfo Decimal_System_IConvertible_ToType_m15658_MethodInfo =
 {
 	"System.IConvertible.ToType"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToType_m15658/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToType_m15658_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_System_IConvertible_ToType_m15658_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -20958,7 +20958,7 @@ extern const MethodInfo Decimal_System_IConvertible_ToType_m15658_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToBoolean_m15659_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToBoolean_m15659_ParameterInfos[] = 
 {
 	{"provider", 0, 134218589, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -20968,10 +20968,10 @@ extern const MethodInfo Decimal_System_IConvertible_ToBoolean_m15659_MethodInfo 
 {
 	"System.IConvertible.ToBoolean"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToBoolean_m15659/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToBoolean_m15659_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_System_IConvertible_ToBoolean_m15659_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -20986,20 +20986,20 @@ extern const MethodInfo Decimal_System_IConvertible_ToBoolean_m15659_MethodInfo 
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToByte_m15660_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToByte_m15660_ParameterInfos[] = 
 {
 	{"provider", 0, 134218590, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Decimal::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo Decimal_System_IConvertible_ToByte_m15660_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToByte_m15660/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToByte_m15660_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
+	, Decimal_t696_Decimal_System_IConvertible_ToByte_m15660_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -21014,7 +21014,7 @@ extern const MethodInfo Decimal_System_IConvertible_ToByte_m15660_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToChar_m15661_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToChar_m15661_ParameterInfos[] = 
 {
 	{"provider", 0, 134218591, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -21024,10 +21024,10 @@ extern const MethodInfo Decimal_System_IConvertible_ToChar_m15661_MethodInfo =
 {
 	"System.IConvertible.ToChar"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToChar_m15661/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t60_0_0_0/* return_type */
 	, RuntimeInvoker_Char_t60_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToChar_m15661_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_System_IConvertible_ToChar_m15661_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -21042,7 +21042,7 @@ extern const MethodInfo Decimal_System_IConvertible_ToChar_m15661_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToDateTime_m15662_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToDateTime_m15662_ParameterInfos[] = 
 {
 	{"provider", 0, 134218592, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -21052,10 +21052,10 @@ extern const MethodInfo Decimal_System_IConvertible_ToDateTime_m15662_MethodInfo
 {
 	"System.IConvertible.ToDateTime"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToDateTime_m15662/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &DateTime_t287_0_0_0/* return_type */
 	, RuntimeInvoker_DateTime_t287_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToDateTime_m15662_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_System_IConvertible_ToDateTime_m15662_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -21070,20 +21070,20 @@ extern const MethodInfo Decimal_System_IConvertible_ToDateTime_m15662_MethodInfo
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToDecimal_m15663_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToDecimal_m15663_ParameterInfos[] = 
 {
 	{"provider", 0, 134218593, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo Decimal_System_IConvertible_ToDecimal_m15663_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToDecimal_m15663/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToDecimal_m15663_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
+	, Decimal_t696_Decimal_System_IConvertible_ToDecimal_m15663_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -21098,7 +21098,7 @@ extern const MethodInfo Decimal_System_IConvertible_ToDecimal_m15663_MethodInfo 
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToDouble_m15664_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToDouble_m15664_ParameterInfos[] = 
 {
 	{"provider", 0, 134218594, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -21108,10 +21108,10 @@ extern const MethodInfo Decimal_System_IConvertible_ToDouble_m15664_MethodInfo =
 {
 	"System.IConvertible.ToDouble"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToDouble_m15664/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Double_t90_0_0_0/* return_type */
 	, RuntimeInvoker_Double_t90_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToDouble_m15664_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_System_IConvertible_ToDouble_m15664_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -21126,20 +21126,20 @@ extern const MethodInfo Decimal_System_IConvertible_ToDouble_m15664_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToInt16_m15665_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToInt16_m15665_ParameterInfos[] = 
 {
 	{"provider", 0, 134218595, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Decimal::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo Decimal_System_IConvertible_ToInt16_m15665_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToInt16_m15665/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToInt16_m15665_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
+	, Decimal_t696_Decimal_System_IConvertible_ToInt16_m15665_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -21154,7 +21154,7 @@ extern const MethodInfo Decimal_System_IConvertible_ToInt16_m15665_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToInt32_m15666_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToInt32_m15666_ParameterInfos[] = 
 {
 	{"provider", 0, 134218596, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -21164,10 +21164,10 @@ extern const MethodInfo Decimal_System_IConvertible_ToInt32_m15666_MethodInfo =
 {
 	"System.IConvertible.ToInt32"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToInt32_m15666/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToInt32_m15666_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_System_IConvertible_ToInt32_m15666_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -21182,7 +21182,7 @@ extern const MethodInfo Decimal_System_IConvertible_ToInt32_m15666_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToInt64_m15667_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToInt64_m15667_ParameterInfos[] = 
 {
 	{"provider", 0, 134218597, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -21192,10 +21192,10 @@ extern const MethodInfo Decimal_System_IConvertible_ToInt64_m15667_MethodInfo =
 {
 	"System.IConvertible.ToInt64"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToInt64_m15667/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int64_t89_0_0_0/* return_type */
 	, RuntimeInvoker_Int64_t89_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToInt64_m15667_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_System_IConvertible_ToInt64_m15667_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -21210,7 +21210,7 @@ extern const MethodInfo Decimal_System_IConvertible_ToInt64_m15667_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToSByte_m15668_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToSByte_m15668_ParameterInfos[] = 
 {
 	{"provider", 0, 134218598, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -21220,10 +21220,10 @@ extern const MethodInfo Decimal_System_IConvertible_ToSByte_m15668_MethodInfo =
 {
 	"System.IConvertible.ToSByte"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToSByte_m15668/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &SByte_t88_0_0_0/* return_type */
 	, RuntimeInvoker_SByte_t88_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToSByte_m15668_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_System_IConvertible_ToSByte_m15668_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -21238,7 +21238,7 @@ extern const MethodInfo Decimal_System_IConvertible_ToSByte_m15668_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToSingle_m15669_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToSingle_m15669_ParameterInfos[] = 
 {
 	{"provider", 0, 134218599, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -21248,10 +21248,10 @@ extern const MethodInfo Decimal_System_IConvertible_ToSingle_m15669_MethodInfo =
 {
 	"System.IConvertible.ToSingle"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToSingle_m15669/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToSingle_m15669_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_System_IConvertible_ToSingle_m15669_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -21266,20 +21266,20 @@ extern const MethodInfo Decimal_System_IConvertible_ToSingle_m15669_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToUInt16_m15670_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToUInt16_m15670_ParameterInfos[] = 
 {
 	{"provider", 0, 134218600, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.Decimal::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo Decimal_System_IConvertible_ToUInt16_m15670_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToUInt16_m15670/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToUInt16_m15670_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
+	, Decimal_t696_Decimal_System_IConvertible_ToUInt16_m15670_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -21294,20 +21294,20 @@ extern const MethodInfo Decimal_System_IConvertible_ToUInt16_m15670_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToUInt32_m15671_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToUInt32_m15671_ParameterInfos[] = 
 {
 	{"provider", 0, 134218601, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.Decimal::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo Decimal_System_IConvertible_ToUInt32_m15671_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToUInt32_m15671/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToUInt32_m15671_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
+	, Decimal_t696_Decimal_System_IConvertible_ToUInt32_m15671_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -21322,20 +21322,20 @@ extern const MethodInfo Decimal_System_IConvertible_ToUInt32_m15671_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_System_IConvertible_ToUInt64_m15672_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_System_IConvertible_ToUInt64_m15672_ParameterInfos[] = 
 {
 	{"provider", 0, 134218602, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.Decimal::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo Decimal_System_IConvertible_ToUInt64_m15672_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&Decimal_System_IConvertible_ToUInt64_m15672/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_System_IConvertible_ToUInt64_m15672_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
+	, Decimal_t696_Decimal_System_IConvertible_ToUInt64_m15672_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -21349,22 +21349,22 @@ extern const MethodInfo Decimal_System_IConvertible_ToUInt64_m15672_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_GetBits_m15673_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_GetBits_m15673_ParameterInfos[] = 
 {
-	{"d", 0, 134218603, 0, &Decimal_t695_0_0_0},
+	{"d", 0, 134218603, 0, &Decimal_t696_0_0_0},
 };
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
-extern void* RuntimeInvoker_Object_t_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
+extern void* RuntimeInvoker_Object_t_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Int32[] System.Decimal::GetBits(System.Decimal)
 extern const MethodInfo Decimal_GetBits_m15673_MethodInfo = 
 {
 	"GetBits"/* name */
 	, (methodPointerType)&Decimal_GetBits_m15673/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Int32U5BU5D_t548_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_GetBits_m15673_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Int32U5BU5D_t549_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_GetBits_m15673_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -21378,23 +21378,23 @@ extern const MethodInfo Decimal_GetBits_m15673_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_Add_m15674_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_Add_m15674_ParameterInfos[] = 
 {
-	{"d1", 0, 134218604, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218605, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218604, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218605, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::Add(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_Add_m15674_MethodInfo = 
 {
 	"Add"/* name */
 	, (methodPointerType)&Decimal_Add_m15674/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_Add_m15674_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_Add_m15674_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -21408,23 +21408,23 @@ extern const MethodInfo Decimal_Add_m15674_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_Subtract_m15675_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_Subtract_m15675_ParameterInfos[] = 
 {
-	{"d1", 0, 134218606, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218607, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218606, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218607, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::Subtract(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_Subtract_m15675_MethodInfo = 
 {
 	"Subtract"/* name */
 	, (methodPointerType)&Decimal_Subtract_m15675/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_Subtract_m15675_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_Subtract_m15675_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -21444,7 +21444,7 @@ extern const MethodInfo Decimal_GetHashCode_m15676_MethodInfo =
 {
 	"GetHashCode"/* name */
 	, (methodPointerType)&Decimal_GetHashCode_m15676/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -21461,21 +21461,21 @@ extern const MethodInfo Decimal_GetHashCode_m15676_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_u64_m15677_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_u64_m15677_ParameterInfos[] = 
 {
-	{"value", 0, 134218608, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218608, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.Decimal::u64(System.Decimal)
 extern const MethodInfo Decimal_u64_m15677_MethodInfo = 
 {
 	"u64"/* name */
 	, (methodPointerType)&Decimal_u64_m15677/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_u64_m15677_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_u64_m15677_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -21489,21 +21489,21 @@ extern const MethodInfo Decimal_u64_m15677_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_s64_m15678_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_s64_m15678_ParameterInfos[] = 
 {
-	{"value", 0, 134218609, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218609, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Int64_t89_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int64_t89_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Int64 System.Decimal::s64(System.Decimal)
 extern const MethodInfo Decimal_s64_m15678_MethodInfo = 
 {
 	"s64"/* name */
 	, (methodPointerType)&Decimal_s64_m15678/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int64_t89_0_0_0/* return_type */
-	, RuntimeInvoker_Int64_t89_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_s64_m15678_ParameterInfos/* parameters */
+	, RuntimeInvoker_Int64_t89_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_s64_m15678_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -21517,23 +21517,23 @@ extern const MethodInfo Decimal_s64_m15678_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_Equals_m15679_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_Equals_m15679_ParameterInfos[] = 
 {
-	{"d1", 0, 134218610, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218611, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218610, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218611, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Decimal::Equals(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_Equals_m15679_MethodInfo = 
 {
 	"Equals"/* name */
 	, (methodPointerType)&Decimal_Equals_m15679/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_Equals_m15679_ParameterInfos/* parameters */
+	, RuntimeInvoker_Boolean_t59_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_Equals_m15679_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -21548,7 +21548,7 @@ extern const MethodInfo Decimal_Equals_m15679_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_Equals_m15680_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_Equals_m15680_ParameterInfos[] = 
 {
 	{"value", 0, 134218612, 0, &Object_t_0_0_0},
 };
@@ -21558,10 +21558,10 @@ extern const MethodInfo Decimal_Equals_m15680_MethodInfo =
 {
 	"Equals"/* name */
 	, (methodPointerType)&Decimal_Equals_m15680/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_Equals_m15680_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_Equals_m15680_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -21581,7 +21581,7 @@ extern const MethodInfo Decimal_IsZero_m15681_MethodInfo =
 {
 	"IsZero"/* name */
 	, (methodPointerType)&Decimal_IsZero_m15681/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -21598,21 +21598,21 @@ extern const MethodInfo Decimal_IsZero_m15681_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_Floor_m15682_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_Floor_m15682_ParameterInfos[] = 
 {
-	{"d", 0, 134218613, 0, &Decimal_t695_0_0_0},
+	{"d", 0, 134218613, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::Floor(System.Decimal)
 extern const MethodInfo Decimal_Floor_m15682_MethodInfo = 
 {
 	"Floor"/* name */
 	, (methodPointerType)&Decimal_Floor_m15682/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_Floor_m15682_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_Floor_m15682_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -21626,23 +21626,23 @@ extern const MethodInfo Decimal_Floor_m15682_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_Multiply_m15683_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_Multiply_m15683_ParameterInfos[] = 
 {
-	{"d1", 0, 134218614, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218615, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218614, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218615, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::Multiply(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_Multiply_m15683_MethodInfo = 
 {
 	"Multiply"/* name */
 	, (methodPointerType)&Decimal_Multiply_m15683/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_Multiply_m15683_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_Multiply_m15683_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -21656,23 +21656,23 @@ extern const MethodInfo Decimal_Multiply_m15683_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_Divide_m15684_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_Divide_m15684_ParameterInfos[] = 
 {
-	{"d1", 0, 134218616, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218617, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218616, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218617, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::Divide(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_Divide_m15684_MethodInfo = 
 {
 	"Divide"/* name */
 	, (methodPointerType)&Decimal_Divide_m15684/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_Divide_m15684_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_Divide_m15684_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -21686,23 +21686,23 @@ extern const MethodInfo Decimal_Divide_m15684_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_Compare_m15685_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_Compare_m15685_ParameterInfos[] = 
 {
-	{"d1", 0, 134218618, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218619, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218618, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218619, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Decimal::Compare(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_Compare_m15685_MethodInfo = 
 {
 	"Compare"/* name */
 	, (methodPointerType)&Decimal_Compare_m15685/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_Compare_m15685_ParameterInfos/* parameters */
+	, RuntimeInvoker_Int32_t82_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_Compare_m15685_ParameterInfos/* parameters */
 	, 75/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -21717,7 +21717,7 @@ extern const MethodInfo Decimal_Compare_m15685_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_CompareTo_m15686_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_CompareTo_m15686_ParameterInfos[] = 
 {
 	{"value", 0, 134218620, 0, &Object_t_0_0_0},
 };
@@ -21727,10 +21727,10 @@ extern const MethodInfo Decimal_CompareTo_m15686_MethodInfo =
 {
 	"CompareTo"/* name */
 	, (methodPointerType)&Decimal_CompareTo_m15686/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_CompareTo_m15686_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_CompareTo_m15686_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -21744,21 +21744,21 @@ extern const MethodInfo Decimal_CompareTo_m15686_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_CompareTo_m15687_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_CompareTo_m15687_ParameterInfos[] = 
 {
-	{"value", 0, 134218621, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218621, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Decimal::CompareTo(System.Decimal)
 extern const MethodInfo Decimal_CompareTo_m15687_MethodInfo = 
 {
 	"CompareTo"/* name */
 	, (methodPointerType)&Decimal_CompareTo_m15687/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_CompareTo_m15687_ParameterInfos/* parameters */
+	, RuntimeInvoker_Int32_t82_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_CompareTo_m15687_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -21772,21 +21772,21 @@ extern const MethodInfo Decimal_CompareTo_m15687_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_Equals_m15688_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_Equals_m15688_ParameterInfos[] = 
 {
-	{"value", 0, 134218622, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218622, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Decimal::Equals(System.Decimal)
 extern const MethodInfo Decimal_Equals_m15688_MethodInfo = 
 {
 	"Equals"/* name */
 	, (methodPointerType)&Decimal_Equals_m15688/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_Equals_m15688_ParameterInfos/* parameters */
+	, RuntimeInvoker_Boolean_t59_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_Equals_m15688_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -21802,21 +21802,21 @@ extern const MethodInfo Decimal_Equals_m15688_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_Parse_m15689_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_Parse_m15689_ParameterInfos[] = 
 {
 	{"s", 0, 134218623, 0, &String_t_0_0_0},
 	{"provider", 1, 134218624, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::Parse(System.String,System.IFormatProvider)
 extern const MethodInfo Decimal_Parse_m15689_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&Decimal_Parse_m15689/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_Parse_m15689_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t_Object_t/* invoker_method */
+	, Decimal_t696_Decimal_Parse_m15689_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -21831,7 +21831,7 @@ extern const MethodInfo Decimal_Parse_m15689_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_ThrowAtPos_m15690_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_ThrowAtPos_m15690_ParameterInfos[] = 
 {
 	{"pos", 0, 134218625, 0, &Int32_t82_0_0_0},
 };
@@ -21841,10 +21841,10 @@ extern const MethodInfo Decimal_ThrowAtPos_m15690_MethodInfo =
 {
 	"ThrowAtPos"/* name */
 	, (methodPointerType)&Decimal_ThrowAtPos_m15690/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Decimal_t695_Decimal_ThrowAtPos_m15690_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_ThrowAtPos_m15690_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -21864,7 +21864,7 @@ extern const MethodInfo Decimal_ThrowInvalidExp_m15691_MethodInfo =
 {
 	"ThrowInvalidExp"/* name */
 	, (methodPointerType)&Decimal_ThrowInvalidExp_m15691/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -21889,7 +21889,7 @@ extern const Il2CppType Boolean_t59_1_0_2;
 extern const Il2CppType Boolean_t59_1_0_2;
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_stripStyles_m15692_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_stripStyles_m15692_ParameterInfos[] = 
 {
 	{"s", 0, 134218626, 0, &String_t_0_0_0},
 	{"style", 1, 134218627, 0, &NumberStyles_t4429_0_0_0},
@@ -21906,10 +21906,10 @@ extern const MethodInfo Decimal_stripStyles_m15692_MethodInfo =
 {
 	"stripStyles"/* name */
 	, (methodPointerType)&Decimal_stripStyles_m15692/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t82_Object_t_Int32U26_t1085_BooleanU26_t1078_BooleanU26_t1078_Int32U26_t1085_SByte_t88/* invoker_method */
-	, Decimal_t695_Decimal_stripStyles_m15692_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_stripStyles_m15692_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -21926,22 +21926,22 @@ extern const MethodInfo Decimal_stripStyles_m15692_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_Parse_m15693_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_Parse_m15693_ParameterInfos[] = 
 {
 	{"s", 0, 134218634, 0, &String_t_0_0_0},
 	{"style", 1, 134218635, 0, &NumberStyles_t4429_0_0_0},
 	{"provider", 2, 134218636, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
 extern const MethodInfo Decimal_Parse_m15693_MethodInfo = 
 {
 	"Parse"/* name */
 	, (methodPointerType)&Decimal_Parse_m15693/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t_Int32_t82_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_Parse_m15693_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t_Int32_t82_Object_t/* invoker_method */
+	, Decimal_t696_Decimal_Parse_m15693_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -21958,15 +21958,15 @@ extern const MethodInfo Decimal_Parse_m15693_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NumberStyles_t4429_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-extern const Il2CppType Decimal_t695_1_0_2;
-extern const Il2CppType Decimal_t695_1_0_0;
+extern const Il2CppType Decimal_t696_1_0_2;
+extern const Il2CppType Decimal_t696_1_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_PerformParse_m15694_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_PerformParse_m15694_ParameterInfos[] = 
 {
 	{"s", 0, 134218637, 0, &String_t_0_0_0},
 	{"style", 1, 134218638, 0, &NumberStyles_t4429_0_0_0},
 	{"provider", 2, 134218639, 0, &IFormatProvider_t4456_0_0_0},
-	{"res", 3, 134218640, 0, &Decimal_t695_1_0_2},
+	{"res", 3, 134218640, 0, &Decimal_t696_1_0_2},
 	{"throwex", 4, 134218641, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_DecimalU26_t4985_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -21975,10 +21975,10 @@ extern const MethodInfo Decimal_PerformParse_m15694_MethodInfo =
 {
 	"PerformParse"/* name */
 	, (methodPointerType)&Decimal_PerformParse_m15694/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_DecimalU26_t4985_SByte_t88/* invoker_method */
-	, Decimal_t695_Decimal_PerformParse_m15694_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_PerformParse_m15694_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -21994,7 +21994,7 @@ extern const MethodInfo Decimal_PerformParse_m15694_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_ToString_m15695_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_ToString_m15695_ParameterInfos[] = 
 {
 	{"format", 0, 134218642, 0, &String_t_0_0_0},
 	{"provider", 1, 134218643, 0, &IFormatProvider_t4456_0_0_0},
@@ -22005,10 +22005,10 @@ extern const MethodInfo Decimal_ToString_m15695_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&Decimal_ToString_m15695/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_ToString_m15695_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_ToString_m15695_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -22028,7 +22028,7 @@ extern const MethodInfo Decimal_ToString_m15696_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&Decimal_ToString_m15696/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -22046,7 +22046,7 @@ extern const MethodInfo Decimal_ToString_m15696_MethodInfo =
 
 };
 extern const Il2CppType IFormatProvider_t4456_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_ToString_m9890_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_ToString_m9890_ParameterInfos[] = 
 {
 	{"provider", 0, 134218644, 0, &IFormatProvider_t4456_0_0_0},
 };
@@ -22056,10 +22056,10 @@ extern const MethodInfo Decimal_ToString_m9890_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&Decimal_ToString_m9890/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Decimal_t695_Decimal_ToString_m9890_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_ToString_m9890_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -22073,12 +22073,12 @@ extern const MethodInfo Decimal_ToString_m9890_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_1_0_0;
-extern const Il2CppType UInt64_t694_1_0_2;
-static const ParameterInfo Decimal_t695_Decimal_decimal2UInt64_m15697_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_1_0_0;
+extern const Il2CppType UInt64_t695_1_0_2;
+static const ParameterInfo Decimal_t696_Decimal_decimal2UInt64_m15697_ParameterInfos[] = 
 {
-	{"val", 0, 134218645, 0, &Decimal_t695_1_0_0},
-	{"result", 1, 134218646, 0, &UInt64_t694_1_0_2},
+	{"val", 0, 134218645, 0, &Decimal_t696_1_0_0},
+	{"result", 1, 134218646, 0, &UInt64_t695_1_0_2},
 };
 extern void* RuntimeInvoker_Int32_t82_DecimalU26_t4985_UInt64U26_t4952 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Decimal::decimal2UInt64(System.Decimal&,System.UInt64&)
@@ -22086,10 +22086,10 @@ extern const MethodInfo Decimal_decimal2UInt64_m15697_MethodInfo =
 {
 	"decimal2UInt64"/* name */
 	, (methodPointerType)&Decimal_decimal2UInt64_m15697/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_DecimalU26_t4985_UInt64U26_t4952/* invoker_method */
-	, Decimal_t695_Decimal_decimal2UInt64_m15697_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_decimal2UInt64_m15697_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 4096/* iflags */
@@ -22103,11 +22103,11 @@ extern const MethodInfo Decimal_decimal2UInt64_m15697_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_1_0_0;
+extern const Il2CppType Decimal_t696_1_0_0;
 extern const Il2CppType Int64_t89_1_0_2;
-static const ParameterInfo Decimal_t695_Decimal_decimal2Int64_m15698_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_decimal2Int64_m15698_ParameterInfos[] = 
 {
-	{"val", 0, 134218647, 0, &Decimal_t695_1_0_0},
+	{"val", 0, 134218647, 0, &Decimal_t696_1_0_0},
 	{"result", 1, 134218648, 0, &Int64_t89_1_0_2},
 };
 extern void* RuntimeInvoker_Int32_t82_DecimalU26_t4985_Int64U26_t4947 (const MethodInfo* method, void* obj, void** args);
@@ -22116,10 +22116,10 @@ extern const MethodInfo Decimal_decimal2Int64_m15698_MethodInfo =
 {
 	"decimal2Int64"/* name */
 	, (methodPointerType)&Decimal_decimal2Int64_m15698/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_DecimalU26_t4985_Int64U26_t4947/* invoker_method */
-	, Decimal_t695_Decimal_decimal2Int64_m15698_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_decimal2Int64_m15698_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 4096/* iflags */
@@ -22133,12 +22133,12 @@ extern const MethodInfo Decimal_decimal2Int64_m15698_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_1_0_0;
-extern const Il2CppType Decimal_t695_1_0_0;
-static const ParameterInfo Decimal_t695_Decimal_decimalIncr_m15699_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_1_0_0;
+extern const Il2CppType Decimal_t696_1_0_0;
+static const ParameterInfo Decimal_t696_Decimal_decimalIncr_m15699_ParameterInfos[] = 
 {
-	{"d1", 0, 134218649, 0, &Decimal_t695_1_0_0},
-	{"d2", 1, 134218650, 0, &Decimal_t695_1_0_0},
+	{"d1", 0, 134218649, 0, &Decimal_t696_1_0_0},
+	{"d2", 1, 134218650, 0, &Decimal_t696_1_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_DecimalU26_t4985_DecimalU26_t4985 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Decimal::decimalIncr(System.Decimal&,System.Decimal&)
@@ -22146,10 +22146,10 @@ extern const MethodInfo Decimal_decimalIncr_m15699_MethodInfo =
 {
 	"decimalIncr"/* name */
 	, (methodPointerType)&Decimal_decimalIncr_m15699/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_DecimalU26_t4985_DecimalU26_t4985/* invoker_method */
-	, Decimal_t695_Decimal_decimalIncr_m15699_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_decimalIncr_m15699_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 4096/* iflags */
@@ -22163,15 +22163,15 @@ extern const MethodInfo Decimal_decimalIncr_m15699_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_1_0_2;
+extern const Il2CppType Decimal_t696_1_0_2;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_string2decimal_m15700_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_string2decimal_m15700_ParameterInfos[] = 
 {
-	{"val", 0, 134218651, 0, &Decimal_t695_1_0_2},
+	{"val", 0, 134218651, 0, &Decimal_t696_1_0_2},
 	{"sDigits", 1, 134218652, 0, &String_t_0_0_0},
-	{"decPos", 2, 134218653, 0, &UInt32_t690_0_0_0},
+	{"decPos", 2, 134218653, 0, &UInt32_t691_0_0_0},
 	{"sign", 3, 134218654, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_DecimalU26_t4985_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -22180,10 +22180,10 @@ extern const MethodInfo Decimal_string2decimal_m15700_MethodInfo =
 {
 	"string2decimal"/* name */
 	, (methodPointerType)&Decimal_string2decimal_m15700/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_DecimalU26_t4985_Object_t_Int32_t82_Int32_t82/* invoker_method */
-	, Decimal_t695_Decimal_string2decimal_m15700_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_string2decimal_m15700_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 4096/* iflags */
@@ -22197,11 +22197,11 @@ extern const MethodInfo Decimal_string2decimal_m15700_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_1_0_0;
+extern const Il2CppType Decimal_t696_1_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_decimalSetExponent_m15701_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_decimalSetExponent_m15701_ParameterInfos[] = 
 {
-	{"val", 0, 134218655, 0, &Decimal_t695_1_0_0},
+	{"val", 0, 134218655, 0, &Decimal_t696_1_0_0},
 	{"exp", 1, 134218656, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_DecimalU26_t4985_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -22210,10 +22210,10 @@ extern const MethodInfo Decimal_decimalSetExponent_m15701_MethodInfo =
 {
 	"decimalSetExponent"/* name */
 	, (methodPointerType)&Decimal_decimalSetExponent_m15701/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_DecimalU26_t4985_Int32_t82/* invoker_method */
-	, Decimal_t695_Decimal_decimalSetExponent_m15701_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_decimalSetExponent_m15701_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 4096/* iflags */
@@ -22227,10 +22227,10 @@ extern const MethodInfo Decimal_decimalSetExponent_m15701_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_1_0_0;
-static const ParameterInfo Decimal_t695_Decimal_decimal2double_m15702_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_1_0_0;
+static const ParameterInfo Decimal_t696_Decimal_decimal2double_m15702_ParameterInfos[] = 
 {
-	{"val", 0, 134218657, 0, &Decimal_t695_1_0_0},
+	{"val", 0, 134218657, 0, &Decimal_t696_1_0_0},
 };
 extern void* RuntimeInvoker_Double_t90_DecimalU26_t4985 (const MethodInfo* method, void* obj, void** args);
 // System.Double System.Decimal::decimal2double(System.Decimal&)
@@ -22238,10 +22238,10 @@ extern const MethodInfo Decimal_decimal2double_m15702_MethodInfo =
 {
 	"decimal2double"/* name */
 	, (methodPointerType)&Decimal_decimal2double_m15702/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Double_t90_0_0_0/* return_type */
 	, RuntimeInvoker_Double_t90_DecimalU26_t4985/* invoker_method */
-	, Decimal_t695_Decimal_decimal2double_m15702_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_decimal2double_m15702_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 4096/* iflags */
@@ -22255,11 +22255,11 @@ extern const MethodInfo Decimal_decimal2double_m15702_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_1_0_0;
+extern const Il2CppType Decimal_t696_1_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_decimalFloorAndTrunc_m15703_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_decimalFloorAndTrunc_m15703_ParameterInfos[] = 
 {
-	{"val", 0, 134218658, 0, &Decimal_t695_1_0_0},
+	{"val", 0, 134218658, 0, &Decimal_t696_1_0_0},
 	{"floorFlag", 1, 134218659, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_DecimalU26_t4985_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -22268,10 +22268,10 @@ extern const MethodInfo Decimal_decimalFloorAndTrunc_m15703_MethodInfo =
 {
 	"decimalFloorAndTrunc"/* name */
 	, (methodPointerType)&Decimal_decimalFloorAndTrunc_m15703/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_DecimalU26_t4985_Int32_t82/* invoker_method */
-	, Decimal_t695_Decimal_decimalFloorAndTrunc_m15703_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_decimalFloorAndTrunc_m15703_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 4096/* iflags */
@@ -22285,12 +22285,12 @@ extern const MethodInfo Decimal_decimalFloorAndTrunc_m15703_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_1_0_0;
-extern const Il2CppType Decimal_t695_1_0_0;
-static const ParameterInfo Decimal_t695_Decimal_decimalMult_m15704_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_1_0_0;
+extern const Il2CppType Decimal_t696_1_0_0;
+static const ParameterInfo Decimal_t696_Decimal_decimalMult_m15704_ParameterInfos[] = 
 {
-	{"pd1", 0, 134218660, 0, &Decimal_t695_1_0_0},
-	{"pd2", 1, 134218661, 0, &Decimal_t695_1_0_0},
+	{"pd1", 0, 134218660, 0, &Decimal_t696_1_0_0},
+	{"pd2", 1, 134218661, 0, &Decimal_t696_1_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_DecimalU26_t4985_DecimalU26_t4985 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Decimal::decimalMult(System.Decimal&,System.Decimal&)
@@ -22298,10 +22298,10 @@ extern const MethodInfo Decimal_decimalMult_m15704_MethodInfo =
 {
 	"decimalMult"/* name */
 	, (methodPointerType)&Decimal_decimalMult_m15704/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_DecimalU26_t4985_DecimalU26_t4985/* invoker_method */
-	, Decimal_t695_Decimal_decimalMult_m15704_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_decimalMult_m15704_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 4096/* iflags */
@@ -22315,14 +22315,14 @@ extern const MethodInfo Decimal_decimalMult_m15704_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_1_0_2;
-extern const Il2CppType Decimal_t695_1_0_0;
-extern const Il2CppType Decimal_t695_1_0_0;
-static const ParameterInfo Decimal_t695_Decimal_decimalDiv_m15705_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_1_0_2;
+extern const Il2CppType Decimal_t696_1_0_0;
+extern const Il2CppType Decimal_t696_1_0_0;
+static const ParameterInfo Decimal_t696_Decimal_decimalDiv_m15705_ParameterInfos[] = 
 {
-	{"pc", 0, 134218662, 0, &Decimal_t695_1_0_2},
-	{"pa", 1, 134218663, 0, &Decimal_t695_1_0_0},
-	{"pb", 2, 134218664, 0, &Decimal_t695_1_0_0},
+	{"pc", 0, 134218662, 0, &Decimal_t696_1_0_2},
+	{"pa", 1, 134218663, 0, &Decimal_t696_1_0_0},
+	{"pb", 2, 134218664, 0, &Decimal_t696_1_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_DecimalU26_t4985_DecimalU26_t4985_DecimalU26_t4985 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Decimal::decimalDiv(System.Decimal&,System.Decimal&,System.Decimal&)
@@ -22330,10 +22330,10 @@ extern const MethodInfo Decimal_decimalDiv_m15705_MethodInfo =
 {
 	"decimalDiv"/* name */
 	, (methodPointerType)&Decimal_decimalDiv_m15705/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_DecimalU26_t4985_DecimalU26_t4985_DecimalU26_t4985/* invoker_method */
-	, Decimal_t695_Decimal_decimalDiv_m15705_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_decimalDiv_m15705_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 4096/* iflags */
@@ -22347,12 +22347,12 @@ extern const MethodInfo Decimal_decimalDiv_m15705_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_1_0_0;
-extern const Il2CppType Decimal_t695_1_0_0;
-static const ParameterInfo Decimal_t695_Decimal_decimalCompare_m15706_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_1_0_0;
+extern const Il2CppType Decimal_t696_1_0_0;
+static const ParameterInfo Decimal_t696_Decimal_decimalCompare_m15706_ParameterInfos[] = 
 {
-	{"d1", 0, 134218665, 0, &Decimal_t695_1_0_0},
-	{"d2", 1, 134218666, 0, &Decimal_t695_1_0_0},
+	{"d1", 0, 134218665, 0, &Decimal_t696_1_0_0},
+	{"d2", 1, 134218666, 0, &Decimal_t696_1_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_DecimalU26_t4985_DecimalU26_t4985 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Decimal::decimalCompare(System.Decimal&,System.Decimal&)
@@ -22360,10 +22360,10 @@ extern const MethodInfo Decimal_decimalCompare_m15706_MethodInfo =
 {
 	"decimalCompare"/* name */
 	, (methodPointerType)&Decimal_decimalCompare_m15706/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_DecimalU26_t4985_DecimalU26_t4985/* invoker_method */
-	, Decimal_t695_Decimal_decimalCompare_m15706_ParameterInfos/* parameters */
+	, Decimal_t696_Decimal_decimalCompare_m15706_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 4096/* iflags */
@@ -22377,23 +22377,23 @@ extern const MethodInfo Decimal_decimalCompare_m15706_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Addition_m7130_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Addition_m7130_ParameterInfos[] = 
 {
-	{"d1", 0, 134218667, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218668, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218667, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218668, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Addition(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_op_Addition_m7130_MethodInfo = 
 {
 	"op_Addition"/* name */
 	, (methodPointerType)&Decimal_op_Addition_m7130/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Addition_m7130_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Addition_m7130_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22407,21 +22407,21 @@ extern const MethodInfo Decimal_op_Addition_m7130_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Increment_m15707_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Increment_m15707_ParameterInfos[] = 
 {
-	{"d", 0, 134218669, 0, &Decimal_t695_0_0_0},
+	{"d", 0, 134218669, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Increment(System.Decimal)
 extern const MethodInfo Decimal_op_Increment_m15707_MethodInfo = 
 {
 	"op_Increment"/* name */
 	, (methodPointerType)&Decimal_op_Increment_m15707/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Increment_m15707_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Increment_m15707_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22435,23 +22435,23 @@ extern const MethodInfo Decimal_op_Increment_m15707_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Subtraction_m15708_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Subtraction_m15708_ParameterInfos[] = 
 {
-	{"d1", 0, 134218670, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218671, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218670, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218671, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Subtraction(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_op_Subtraction_m15708_MethodInfo = 
 {
 	"op_Subtraction"/* name */
 	, (methodPointerType)&Decimal_op_Subtraction_m15708/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Subtraction_m15708_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Subtraction_m15708_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22465,23 +22465,23 @@ extern const MethodInfo Decimal_op_Subtraction_m15708_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Multiply_m15709_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Multiply_m15709_ParameterInfos[] = 
 {
-	{"d1", 0, 134218672, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218673, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218672, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218673, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Multiply(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_op_Multiply_m15709_MethodInfo = 
 {
 	"op_Multiply"/* name */
 	, (methodPointerType)&Decimal_op_Multiply_m15709/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Multiply_m15709_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Multiply_m15709_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22495,23 +22495,23 @@ extern const MethodInfo Decimal_op_Multiply_m15709_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Division_m15710_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Division_m15710_ParameterInfos[] = 
 {
-	{"d1", 0, 134218674, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218675, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218674, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218675, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Division(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_op_Division_m15710_MethodInfo = 
 {
 	"op_Division"/* name */
 	, (methodPointerType)&Decimal_op_Division_m15710/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Division_m15710_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Division_m15710_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22525,21 +22525,21 @@ extern const MethodInfo Decimal_op_Division_m15710_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Explicit_m15711_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Explicit_m15711_ParameterInfos[] = 
 {
-	{"value", 0, 134218676, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218676, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Decimal::op_Explicit(System.Decimal)
 extern const MethodInfo Decimal_op_Explicit_m15711_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&Decimal_op_Explicit_m15711/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Explicit_m15711_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Explicit_m15711_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22553,21 +22553,21 @@ extern const MethodInfo Decimal_op_Explicit_m15711_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Explicit_m15712_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Explicit_m15712_ParameterInfos[] = 
 {
-	{"value", 0, 134218677, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218677, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_SByte_t88_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_SByte_t88_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.SByte System.Decimal::op_Explicit(System.Decimal)
 extern const MethodInfo Decimal_op_Explicit_m15712_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&Decimal_op_Explicit_m15712/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &SByte_t88_0_0_0/* return_type */
-	, RuntimeInvoker_SByte_t88_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Explicit_m15712_ParameterInfos/* parameters */
+	, RuntimeInvoker_SByte_t88_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Explicit_m15712_ParameterInfos/* parameters */
 	, 76/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22581,21 +22581,21 @@ extern const MethodInfo Decimal_op_Explicit_m15712_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Explicit_m15713_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Explicit_m15713_ParameterInfos[] = 
 {
-	{"value", 0, 134218678, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218678, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Decimal::op_Explicit(System.Decimal)
 extern const MethodInfo Decimal_op_Explicit_m15713_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&Decimal_op_Explicit_m15713/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Explicit_m15713_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Explicit_m15713_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22609,21 +22609,21 @@ extern const MethodInfo Decimal_op_Explicit_m15713_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Explicit_m15714_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Explicit_m15714_ParameterInfos[] = 
 {
-	{"value", 0, 134218679, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218679, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.Decimal::op_Explicit(System.Decimal)
 extern const MethodInfo Decimal_op_Explicit_m15714_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&Decimal_op_Explicit_m15714/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Explicit_m15714_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Explicit_m15714_ParameterInfos/* parameters */
 	, 77/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22637,21 +22637,21 @@ extern const MethodInfo Decimal_op_Explicit_m15714_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Explicit_m15715_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Explicit_m15715_ParameterInfos[] = 
 {
-	{"value", 0, 134218680, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218680, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t82_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Decimal::op_Explicit(System.Decimal)
 extern const MethodInfo Decimal_op_Explicit_m15715_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&Decimal_op_Explicit_m15715/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Explicit_m15715_ParameterInfos/* parameters */
+	, RuntimeInvoker_Int32_t82_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Explicit_m15715_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22665,21 +22665,21 @@ extern const MethodInfo Decimal_op_Explicit_m15715_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Explicit_m15716_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Explicit_m15716_ParameterInfos[] = 
 {
-	{"value", 0, 134218681, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218681, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.Decimal::op_Explicit(System.Decimal)
 extern const MethodInfo Decimal_op_Explicit_m15716_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&Decimal_op_Explicit_m15716/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Explicit_m15716_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Explicit_m15716_ParameterInfos/* parameters */
 	, 78/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22693,21 +22693,21 @@ extern const MethodInfo Decimal_op_Explicit_m15716_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Explicit_m15717_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Explicit_m15717_ParameterInfos[] = 
 {
-	{"value", 0, 134218682, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218682, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Int64_t89_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int64_t89_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Int64 System.Decimal::op_Explicit(System.Decimal)
 extern const MethodInfo Decimal_op_Explicit_m15717_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&Decimal_op_Explicit_m15717/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Int64_t89_0_0_0/* return_type */
-	, RuntimeInvoker_Int64_t89_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Explicit_m15717_ParameterInfos/* parameters */
+	, RuntimeInvoker_Int64_t89_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Explicit_m15717_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22721,21 +22721,21 @@ extern const MethodInfo Decimal_op_Explicit_m15717_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Explicit_m15718_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Explicit_m15718_ParameterInfos[] = 
 {
-	{"value", 0, 134218683, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218683, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.Decimal::op_Explicit(System.Decimal)
 extern const MethodInfo Decimal_op_Explicit_m15718_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&Decimal_op_Explicit_m15718/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Explicit_m15718_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Explicit_m15718_ParameterInfos/* parameters */
 	, 79/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22749,21 +22749,21 @@ extern const MethodInfo Decimal_op_Explicit_m15718_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Byte_t691_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Implicit_m7131_ParameterInfos[] = 
+extern const Il2CppType Byte_t692_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Implicit_m7131_ParameterInfos[] = 
 {
-	{"value", 0, 134218684, 0, &Byte_t691_0_0_0},
+	{"value", 0, 134218684, 0, &Byte_t692_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_SByte_t88 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Implicit(System.Byte)
 extern const MethodInfo Decimal_op_Implicit_m7131_MethodInfo = 
 {
 	"op_Implicit"/* name */
 	, (methodPointerType)&Decimal_op_Implicit_m7131/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_SByte_t88/* invoker_method */
-	, Decimal_t695_Decimal_op_Implicit_m7131_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_SByte_t88/* invoker_method */
+	, Decimal_t696_Decimal_op_Implicit_m7131_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22778,20 +22778,20 @@ extern const MethodInfo Decimal_op_Implicit_m7131_MethodInfo =
 
 };
 extern const Il2CppType SByte_t88_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Implicit_m7129_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_op_Implicit_m7129_ParameterInfos[] = 
 {
 	{"value", 0, 134218685, 0, &SByte_t88_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_SByte_t88 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Implicit(System.SByte)
 extern const MethodInfo Decimal_op_Implicit_m7129_MethodInfo = 
 {
 	"op_Implicit"/* name */
 	, (methodPointerType)&Decimal_op_Implicit_m7129/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_SByte_t88/* invoker_method */
-	, Decimal_t695_Decimal_op_Implicit_m7129_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_SByte_t88/* invoker_method */
+	, Decimal_t696_Decimal_op_Implicit_m7129_ParameterInfos/* parameters */
 	, 80/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22805,21 +22805,21 @@ extern const MethodInfo Decimal_op_Implicit_m7129_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Implicit_m7132_ParameterInfos[] = 
+extern const Il2CppType Int16_t693_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Implicit_m7132_ParameterInfos[] = 
 {
-	{"value", 0, 134218686, 0, &Int16_t692_0_0_0},
+	{"value", 0, 134218686, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Implicit(System.Int16)
 extern const MethodInfo Decimal_op_Implicit_m7132_MethodInfo = 
 {
 	"op_Implicit"/* name */
 	, (methodPointerType)&Decimal_op_Implicit_m7132/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Int16_t692/* invoker_method */
-	, Decimal_t695_Decimal_op_Implicit_m7132_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Int16_t693/* invoker_method */
+	, Decimal_t696_Decimal_op_Implicit_m7132_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22833,21 +22833,21 @@ extern const MethodInfo Decimal_op_Implicit_m7132_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt16_t693_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Implicit_m7133_ParameterInfos[] = 
+extern const Il2CppType UInt16_t694_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Implicit_m7133_ParameterInfos[] = 
 {
-	{"value", 0, 134218687, 0, &UInt16_t693_0_0_0},
+	{"value", 0, 134218687, 0, &UInt16_t694_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Implicit(System.UInt16)
 extern const MethodInfo Decimal_op_Implicit_m7133_MethodInfo = 
 {
 	"op_Implicit"/* name */
 	, (methodPointerType)&Decimal_op_Implicit_m7133/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Int16_t692/* invoker_method */
-	, Decimal_t695_Decimal_op_Implicit_m7133_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Int16_t693/* invoker_method */
+	, Decimal_t696_Decimal_op_Implicit_m7133_ParameterInfos/* parameters */
 	, 81/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22862,20 +22862,20 @@ extern const MethodInfo Decimal_op_Implicit_m7133_MethodInfo =
 
 };
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Implicit_m7137_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_op_Implicit_m7137_ParameterInfos[] = 
 {
 	{"value", 0, 134218688, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Implicit(System.Char)
 extern const MethodInfo Decimal_op_Implicit_m7137_MethodInfo = 
 {
 	"op_Implicit"/* name */
 	, (methodPointerType)&Decimal_op_Implicit_m7137/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Int16_t692/* invoker_method */
-	, Decimal_t695_Decimal_op_Implicit_m7137_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Int16_t693/* invoker_method */
+	, Decimal_t696_Decimal_op_Implicit_m7137_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22890,20 +22890,20 @@ extern const MethodInfo Decimal_op_Implicit_m7137_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Implicit_m7134_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_op_Implicit_m7134_ParameterInfos[] = 
 {
 	{"value", 0, 134218689, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Implicit(System.Int32)
 extern const MethodInfo Decimal_op_Implicit_m7134_MethodInfo = 
 {
 	"op_Implicit"/* name */
 	, (methodPointerType)&Decimal_op_Implicit_m7134/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Int32_t82/* invoker_method */
-	, Decimal_t695_Decimal_op_Implicit_m7134_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Int32_t82/* invoker_method */
+	, Decimal_t696_Decimal_op_Implicit_m7134_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22917,21 +22917,21 @@ extern const MethodInfo Decimal_op_Implicit_m7134_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Implicit_m7135_ParameterInfos[] = 
+extern const Il2CppType UInt32_t691_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Implicit_m7135_ParameterInfos[] = 
 {
-	{"value", 0, 134218690, 0, &UInt32_t690_0_0_0},
+	{"value", 0, 134218690, 0, &UInt32_t691_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Implicit(System.UInt32)
 extern const MethodInfo Decimal_op_Implicit_m7135_MethodInfo = 
 {
 	"op_Implicit"/* name */
 	, (methodPointerType)&Decimal_op_Implicit_m7135/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Int32_t82/* invoker_method */
-	, Decimal_t695_Decimal_op_Implicit_m7135_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Int32_t82/* invoker_method */
+	, Decimal_t696_Decimal_op_Implicit_m7135_ParameterInfos/* parameters */
 	, 82/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22946,20 +22946,20 @@ extern const MethodInfo Decimal_op_Implicit_m7135_MethodInfo =
 
 };
 extern const Il2CppType Int64_t89_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Implicit_m7136_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_op_Implicit_m7136_ParameterInfos[] = 
 {
 	{"value", 0, 134218691, 0, &Int64_t89_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Int64_t89 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Implicit(System.Int64)
 extern const MethodInfo Decimal_op_Implicit_m7136_MethodInfo = 
 {
 	"op_Implicit"/* name */
 	, (methodPointerType)&Decimal_op_Implicit_m7136/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Int64_t89/* invoker_method */
-	, Decimal_t695_Decimal_op_Implicit_m7136_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Int64_t89/* invoker_method */
+	, Decimal_t696_Decimal_op_Implicit_m7136_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -22973,21 +22973,21 @@ extern const MethodInfo Decimal_op_Implicit_m7136_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt64_t694_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Implicit_m7138_ParameterInfos[] = 
+extern const Il2CppType UInt64_t695_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Implicit_m7138_ParameterInfos[] = 
 {
-	{"value", 0, 134218692, 0, &UInt64_t694_0_0_0},
+	{"value", 0, 134218692, 0, &UInt64_t695_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Int64_t89 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Implicit(System.UInt64)
 extern const MethodInfo Decimal_op_Implicit_m7138_MethodInfo = 
 {
 	"op_Implicit"/* name */
 	, (methodPointerType)&Decimal_op_Implicit_m7138/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Int64_t89/* invoker_method */
-	, Decimal_t695_Decimal_op_Implicit_m7138_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Int64_t89/* invoker_method */
+	, Decimal_t696_Decimal_op_Implicit_m7138_ParameterInfos/* parameters */
 	, 83/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -23002,20 +23002,20 @@ extern const MethodInfo Decimal_op_Implicit_m7138_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Explicit_m15719_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_op_Explicit_m15719_ParameterInfos[] = 
 {
 	{"value", 0, 134218693, 0, &Single_t87_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Single_t87 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Explicit(System.Single)
 extern const MethodInfo Decimal_op_Explicit_m15719_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&Decimal_op_Explicit_m15719/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Single_t87/* invoker_method */
-	, Decimal_t695_Decimal_op_Explicit_m15719_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Single_t87/* invoker_method */
+	, Decimal_t696_Decimal_op_Explicit_m15719_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -23030,20 +23030,20 @@ extern const MethodInfo Decimal_op_Explicit_m15719_MethodInfo =
 
 };
 extern const Il2CppType Double_t90_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Explicit_m15720_ParameterInfos[] = 
+static const ParameterInfo Decimal_t696_Decimal_op_Explicit_m15720_ParameterInfos[] = 
 {
 	{"value", 0, 134218694, 0, &Double_t90_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Double_t90 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Double_t90 (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Decimal::op_Explicit(System.Double)
 extern const MethodInfo Decimal_op_Explicit_m15720_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&Decimal_op_Explicit_m15720/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Double_t90/* invoker_method */
-	, Decimal_t695_Decimal_op_Explicit_m15720_ParameterInfos/* parameters */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Double_t90/* invoker_method */
+	, Decimal_t696_Decimal_op_Explicit_m15720_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -23057,21 +23057,21 @@ extern const MethodInfo Decimal_op_Explicit_m15720_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Explicit_m15721_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Explicit_m15721_ParameterInfos[] = 
 {
-	{"value", 0, 134218695, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218695, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t87_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t87_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Single System.Decimal::op_Explicit(System.Decimal)
 extern const MethodInfo Decimal_op_Explicit_m15721_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&Decimal_op_Explicit_m15721/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t87_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Explicit_m15721_ParameterInfos/* parameters */
+	, RuntimeInvoker_Single_t87_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Explicit_m15721_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -23085,21 +23085,21 @@ extern const MethodInfo Decimal_op_Explicit_m15721_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Explicit_m15722_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Explicit_m15722_ParameterInfos[] = 
 {
-	{"value", 0, 134218696, 0, &Decimal_t695_0_0_0},
+	{"value", 0, 134218696, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Double_t90_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Double_t90_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Double System.Decimal::op_Explicit(System.Decimal)
 extern const MethodInfo Decimal_op_Explicit_m15722_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&Decimal_op_Explicit_m15722/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Double_t90_0_0_0/* return_type */
-	, RuntimeInvoker_Double_t90_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Explicit_m15722_ParameterInfos/* parameters */
+	, RuntimeInvoker_Double_t90_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Explicit_m15722_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -23113,23 +23113,23 @@ extern const MethodInfo Decimal_op_Explicit_m15722_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Inequality_m15723_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Inequality_m15723_ParameterInfos[] = 
 {
-	{"d1", 0, 134218697, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218698, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218697, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218698, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Decimal::op_Inequality(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_op_Inequality_m15723_MethodInfo = 
 {
 	"op_Inequality"/* name */
 	, (methodPointerType)&Decimal_op_Inequality_m15723/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Inequality_m15723_ParameterInfos/* parameters */
+	, RuntimeInvoker_Boolean_t59_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Inequality_m15723_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -23143,23 +23143,23 @@ extern const MethodInfo Decimal_op_Inequality_m15723_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_Equality_m15724_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_Equality_m15724_ParameterInfos[] = 
 {
-	{"d1", 0, 134218699, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218700, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218699, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218700, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Decimal::op_Equality(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_op_Equality_m15724_MethodInfo = 
 {
 	"op_Equality"/* name */
 	, (methodPointerType)&Decimal_op_Equality_m15724/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_Equality_m15724_ParameterInfos/* parameters */
+	, RuntimeInvoker_Boolean_t59_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_Equality_m15724_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -23173,23 +23173,23 @@ extern const MethodInfo Decimal_op_Equality_m15724_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_GreaterThan_m15725_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_GreaterThan_m15725_ParameterInfos[] = 
 {
-	{"d1", 0, 134218701, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218702, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218701, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218702, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Decimal::op_GreaterThan(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_op_GreaterThan_m15725_MethodInfo = 
 {
 	"op_GreaterThan"/* name */
 	, (methodPointerType)&Decimal_op_GreaterThan_m15725/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_GreaterThan_m15725_ParameterInfos/* parameters */
+	, RuntimeInvoker_Boolean_t59_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_GreaterThan_m15725_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -23203,23 +23203,23 @@ extern const MethodInfo Decimal_op_GreaterThan_m15725_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Decimal_t695_0_0_0;
-extern const Il2CppType Decimal_t695_0_0_0;
-static const ParameterInfo Decimal_t695_Decimal_op_LessThan_m15726_ParameterInfos[] = 
+extern const Il2CppType Decimal_t696_0_0_0;
+extern const Il2CppType Decimal_t696_0_0_0;
+static const ParameterInfo Decimal_t696_Decimal_op_LessThan_m15726_ParameterInfos[] = 
 {
-	{"d1", 0, 134218703, 0, &Decimal_t695_0_0_0},
-	{"d2", 1, 134218704, 0, &Decimal_t695_0_0_0},
+	{"d1", 0, 134218703, 0, &Decimal_t696_0_0_0},
+	{"d2", 1, 134218704, 0, &Decimal_t696_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Decimal_t695_Decimal_t695 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Decimal_t696_Decimal_t696 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Decimal::op_LessThan(System.Decimal,System.Decimal)
 extern const MethodInfo Decimal_op_LessThan_m15726_MethodInfo = 
 {
 	"op_LessThan"/* name */
 	, (methodPointerType)&Decimal_op_LessThan_m15726/* method */
-	, &Decimal_t695_il2cpp_TypeInfo/* declaring_type */
+	, &Decimal_t696_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Decimal_t695_Decimal_t695/* invoker_method */
-	, Decimal_t695_Decimal_op_LessThan_m15726_ParameterInfos/* parameters */
+	, RuntimeInvoker_Boolean_t59_Decimal_t696_Decimal_t696/* invoker_method */
+	, Decimal_t696_Decimal_op_LessThan_m15726_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -23233,7 +23233,7 @@ extern const MethodInfo Decimal_op_LessThan_m15726_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* Decimal_t695_MethodInfos[] =
+static const MethodInfo* Decimal_t696_MethodInfos[] =
 {
 	&Decimal__ctor_m15650_MethodInfo,
 	&Decimal__ctor_m15651_MethodInfo,
@@ -23348,7 +23348,7 @@ extern const MethodInfo Decimal_System_IConvertible_ToUInt64_m15672_MethodInfo;
 extern const MethodInfo Decimal_CompareTo_m15686_MethodInfo;
 extern const MethodInfo Decimal_CompareTo_m15687_MethodInfo;
 extern const MethodInfo Decimal_Equals_m15688_MethodInfo;
-static const Il2CppMethodReference Decimal_t695_VTable[] =
+static const Il2CppMethodReference Decimal_t696_VTable[] =
 {
 	&Decimal_Equals_m15680_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -23375,7 +23375,7 @@ static const Il2CppMethodReference Decimal_t695_VTable[] =
 	&Decimal_CompareTo_m15687_MethodInfo,
 	&Decimal_Equals_m15688_MethodInfo,
 };
-static bool Decimal_t695_VTableIsGenericMethod[] =
+static bool Decimal_t696_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -23404,7 +23404,7 @@ static bool Decimal_t695_VTableIsGenericMethod[] =
 };
 extern const Il2CppType IComparable_1_t4986_0_0_0;
 extern const Il2CppType IEquatable_1_t4987_0_0_0;
-static const Il2CppType* Decimal_t695_InterfacesTypeInfos[] = 
+static const Il2CppType* Decimal_t696_InterfacesTypeInfos[] = 
 {
 	&IFormattable_t97_0_0_0,
 	&IConvertible_t98_0_0_0,
@@ -23412,7 +23412,7 @@ static const Il2CppType* Decimal_t695_InterfacesTypeInfos[] =
 	&IComparable_1_t4986_0_0_0,
 	&IEquatable_1_t4987_0_0_0,
 };
-static Il2CppInterfaceOffsetPair Decimal_t695_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair Decimal_t696_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
@@ -23421,34 +23421,34 @@ static Il2CppInterfaceOffsetPair Decimal_t695_InterfacesOffsets[] =
 	{ &IEquatable_1_t4987_0_0_0, 23},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-const Il2CppTypeDefinitionMetadata Decimal_t695_DefinitionMetadata = 
+const Il2CppTypeDefinitionMetadata Decimal_t696_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, Decimal_t695_InterfacesTypeInfos/* implementedInterfaces */
-	, Decimal_t695_InterfacesOffsets/* interfaceOffsets */
+	, Decimal_t696_InterfacesTypeInfos/* implementedInterfaces */
+	, Decimal_t696_InterfacesOffsets/* interfaceOffsets */
 	, &ValueType_t1076_0_0_0/* parent */
-	, Decimal_t695_VTable/* vtableMethods */
-	, Decimal_t695_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, Decimal_t696_VTable/* vtableMethods */
+	, Decimal_t696_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 59/* fieldStart */
 
 };
-TypeInfo Decimal_t695_il2cpp_TypeInfo = 
+TypeInfo Decimal_t696_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Decimal"/* name */
 	, "System"/* namespaze */
-	, Decimal_t695_MethodInfos/* methods */
+	, Decimal_t696_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &Decimal_t695_il2cpp_TypeInfo/* element_class */
+	, &Decimal_t696_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 68/* custom_attributes_cache */
-	, &Decimal_t695_0_0_0/* byval_arg */
-	, &Decimal_t695_1_0_0/* this_arg */
-	, &Decimal_t695_DefinitionMetadata/* definitionMetadata */
+	, &Decimal_t696_0_0_0/* byval_arg */
+	, &Decimal_t696_1_0_0/* this_arg */
+	, &Decimal_t696_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -23458,11 +23458,11 @@ TypeInfo Decimal_t695_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Decimal_t695)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (Decimal_t695)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (Decimal_t696)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (Decimal_t696)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
-	, sizeof(Decimal_t695 )/* native_size */
-	, sizeof(Decimal_t695_StaticFields)/* static_fields_size */
+	, sizeof(Decimal_t696 )/* native_size */
+	, sizeof(Decimal_t696_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1057033/* flags */
@@ -23580,15 +23580,15 @@ static const ParameterInfo Boolean_t59_Boolean_System_IConvertible_ToByte_m15730
 {
 	{"provider", 0, 134218708, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Boolean::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo Boolean_System_IConvertible_ToByte_m15730_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&Boolean_System_IConvertible_ToByte_m15730/* method */
 	, &Boolean_t59_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
 	, Boolean_t59_Boolean_System_IConvertible_ToByte_m15730_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -23664,15 +23664,15 @@ static const ParameterInfo Boolean_t59_Boolean_System_IConvertible_ToDecimal_m15
 {
 	{"provider", 0, 134218711, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Boolean::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo Boolean_System_IConvertible_ToDecimal_m15733_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&Boolean_System_IConvertible_ToDecimal_m15733/* method */
 	, &Boolean_t59_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
 	, Boolean_t59_Boolean_System_IConvertible_ToDecimal_m15733_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -23720,15 +23720,15 @@ static const ParameterInfo Boolean_t59_Boolean_System_IConvertible_ToInt16_m1573
 {
 	{"provider", 0, 134218713, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Boolean::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo Boolean_System_IConvertible_ToInt16_m15735_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&Boolean_System_IConvertible_ToInt16_m15735/* method */
 	, &Boolean_t59_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
 	, Boolean_t59_Boolean_System_IConvertible_ToInt16_m15735_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -23860,15 +23860,15 @@ static const ParameterInfo Boolean_t59_Boolean_System_IConvertible_ToUInt16_m157
 {
 	{"provider", 0, 134218718, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.Boolean::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo Boolean_System_IConvertible_ToUInt16_m15740_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&Boolean_System_IConvertible_ToUInt16_m15740/* method */
 	, &Boolean_t59_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
 	, Boolean_t59_Boolean_System_IConvertible_ToUInt16_m15740_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -23888,15 +23888,15 @@ static const ParameterInfo Boolean_t59_Boolean_System_IConvertible_ToUInt32_m157
 {
 	{"provider", 0, 134218719, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.Boolean::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo Boolean_System_IConvertible_ToUInt32_m15741_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&Boolean_System_IConvertible_ToUInt32_m15741/* method */
 	, &Boolean_t59_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
 	, Boolean_t59_Boolean_System_IConvertible_ToUInt32_m15741_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -23916,15 +23916,15 @@ static const ParameterInfo Boolean_t59_Boolean_System_IConvertible_ToUInt64_m157
 {
 	{"provider", 0, 134218720, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.Boolean::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo Boolean_System_IConvertible_ToUInt64_m15742_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&Boolean_System_IConvertible_ToUInt64_m15742/* method */
 	, &Boolean_t59_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
 	, Boolean_t59_Boolean_System_IConvertible_ToUInt64_m15742_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -24981,14 +24981,14 @@ static bool IntPtr_t_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ISerializable_t762_0_0_0;
+extern const Il2CppType ISerializable_t763_0_0_0;
 static const Il2CppType* IntPtr_t_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair IntPtr_t_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType IntPtr_t_1_0_0;
@@ -25060,10 +25060,10 @@ TypeInfo IntPtr_t_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Serialization.ISerializable
-extern TypeInfo ISerializable_t762_il2cpp_TypeInfo;
+extern TypeInfo ISerializable_t763_il2cpp_TypeInfo;
 extern const Il2CppType SerializationInfo_t2869_0_0_0;
 extern const Il2CppType StreamingContext_t2870_0_0_0;
-static const ParameterInfo ISerializable_t762_ISerializable_GetObjectData_m19951_ParameterInfos[] = 
+static const ParameterInfo ISerializable_t763_ISerializable_GetObjectData_m19951_ParameterInfos[] = 
 {
 	{"info", 0, 134218747, 0, &SerializationInfo_t2869_0_0_0},
 	{"context", 1, 134218748, 0, &StreamingContext_t2870_0_0_0},
@@ -25074,10 +25074,10 @@ extern const MethodInfo ISerializable_GetObjectData_m19951_MethodInfo =
 {
 	"GetObjectData"/* name */
 	, NULL/* method */
-	, &ISerializable_t762_il2cpp_TypeInfo/* declaring_type */
+	, &ISerializable_t763_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2870/* invoker_method */
-	, ISerializable_t762_ISerializable_GetObjectData_m19951_ParameterInfos/* parameters */
+	, ISerializable_t763_ISerializable_GetObjectData_m19951_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -25091,15 +25091,15 @@ extern const MethodInfo ISerializable_GetObjectData_m19951_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ISerializable_t762_MethodInfos[] =
+static const MethodInfo* ISerializable_t763_MethodInfos[] =
 {
 	&ISerializable_GetObjectData_m19951_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ISerializable_t762_1_0_0;
-struct ISerializable_t762;
-const Il2CppTypeDefinitionMetadata ISerializable_t762_DefinitionMetadata = 
+extern const Il2CppType ISerializable_t763_1_0_0;
+struct ISerializable_t763;
+const Il2CppTypeDefinitionMetadata ISerializable_t763_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -25112,21 +25112,21 @@ const Il2CppTypeDefinitionMetadata ISerializable_t762_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo ISerializable_t762_il2cpp_TypeInfo = 
+TypeInfo ISerializable_t763_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ISerializable"/* name */
 	, "System.Runtime.Serialization"/* namespaze */
-	, ISerializable_t762_MethodInfos/* methods */
+	, ISerializable_t763_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ISerializable_t762_il2cpp_TypeInfo/* element_class */
+	, &ISerializable_t763_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 98/* custom_attributes_cache */
-	, &ISerializable_t762_0_0_0/* byval_arg */
-	, &ISerializable_t762_1_0_0/* this_arg */
-	, &ISerializable_t762_DefinitionMetadata/* definitionMetadata */
+	, &ISerializable_t763_0_0_0/* byval_arg */
+	, &ISerializable_t763_1_0_0/* this_arg */
+	, &ISerializable_t763_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -25172,10 +25172,10 @@ TypeInfo ISerializable_t762_il2cpp_TypeInfo =
 extern TypeInfo UIntPtr_t_il2cpp_TypeInfo;
 // System.UIntPtr
 #include "mscorlib_System_UIntPtrMethodDeclarations.h"
-extern const Il2CppType UInt64_t694_0_0_0;
+extern const Il2CppType UInt64_t695_0_0_0;
 static const ParameterInfo UIntPtr_t_UIntPtr__ctor_m15762_ParameterInfos[] = 
 {
-	{"value", 0, 134218749, 0, &UInt64_t694_0_0_0},
+	{"value", 0, 134218749, 0, &UInt64_t695_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UIntPtr::.ctor(System.UInt64)
@@ -25200,10 +25200,10 @@ extern const MethodInfo UIntPtr__ctor_m15762_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo UIntPtr_t_UIntPtr__ctor_m15763_ParameterInfos[] = 
 {
-	{"value", 0, 134218750, 0, &UInt32_t690_0_0_0},
+	{"value", 0, 134218750, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UIntPtr::.ctor(System.UInt32)
@@ -25360,15 +25360,15 @@ extern const MethodInfo UIntPtr_GetHashCode_m15768_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_UInt32_t690 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.UIntPtr::ToUInt32()
 extern const MethodInfo UIntPtr_ToUInt32_m15769_MethodInfo = 
 {
 	"ToUInt32"/* name */
 	, (methodPointerType)&UIntPtr_ToUInt32_m15769/* method */
 	, &UIntPtr_t_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -25383,15 +25383,15 @@ extern const MethodInfo UIntPtr_ToUInt32_m15769_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_UInt64_t694 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695 (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.UIntPtr::ToUInt64()
 extern const MethodInfo UIntPtr_ToUInt64_m15770_MethodInfo = 
 {
 	"ToUInt64"/* name */
 	, (methodPointerType)&UIntPtr_ToUInt64_m15770/* method */
 	, &UIntPtr_t_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -25541,15 +25541,15 @@ static const ParameterInfo UIntPtr_t_UIntPtr_op_Explicit_m15776_ParameterInfos[]
 {
 	{"value", 0, 134218759, 0, &UIntPtr_t_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_IntPtr_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.UIntPtr::op_Explicit(System.UIntPtr)
 extern const MethodInfo UIntPtr_op_Explicit_m15776_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&UIntPtr_op_Explicit_m15776/* method */
 	, &UIntPtr_t_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_IntPtr_t/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_IntPtr_t/* invoker_method */
 	, UIntPtr_t_UIntPtr_op_Explicit_m15776_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
@@ -25569,15 +25569,15 @@ static const ParameterInfo UIntPtr_t_UIntPtr_op_Explicit_m15777_ParameterInfos[]
 {
 	{"value", 0, 134218760, 0, &UIntPtr_t_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_IntPtr_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.UIntPtr::op_Explicit(System.UIntPtr)
 extern const MethodInfo UIntPtr_op_Explicit_m15777_MethodInfo = 
 {
 	"op_Explicit"/* name */
 	, (methodPointerType)&UIntPtr_op_Explicit_m15777/* method */
 	, &UIntPtr_t_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_IntPtr_t/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_IntPtr_t/* invoker_method */
 	, UIntPtr_t_UIntPtr_op_Explicit_m15777_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
@@ -25592,10 +25592,10 @@ extern const MethodInfo UIntPtr_op_Explicit_m15777_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt64_t694_0_0_0;
+extern const Il2CppType UInt64_t695_0_0_0;
 static const ParameterInfo UIntPtr_t_UIntPtr_op_Explicit_m15778_ParameterInfos[] = 
 {
-	{"value", 0, 134218761, 0, &UInt64_t694_0_0_0},
+	{"value", 0, 134218761, 0, &UInt64_t695_0_0_0},
 };
 extern void* RuntimeInvoker_UIntPtr_t_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.UIntPtr System.UIntPtr::op_Explicit(System.UInt64)
@@ -25676,10 +25676,10 @@ extern const MethodInfo UIntPtr_op_Explicit_m15780_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo UIntPtr_t_UIntPtr_op_Explicit_m15781_ParameterInfos[] = 
 {
-	{"value", 0, 134218764, 0, &UInt32_t690_0_0_0},
+	{"value", 0, 134218764, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_UIntPtr_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.UIntPtr System.UIntPtr::op_Explicit(System.UInt32)
@@ -25766,11 +25766,11 @@ static bool UIntPtr_t_VTableIsGenericMethod[] =
 };
 static const Il2CppType* UIntPtr_t_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair UIntPtr_t_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType UIntPtr_t_1_0_0;
@@ -25849,21 +25849,21 @@ extern TypeInfo MulticastDelegate_t388_il2cpp_TypeInfo;
 #include "mscorlib_System_MulticastDelegateMethodDeclarations.h"
 extern const Il2CppType SerializationInfo_t2869_0_0_0;
 extern const Il2CppType StreamingContext_t2870_0_0_0;
-static const ParameterInfo MulticastDelegate_t388_MulticastDelegate_GetObjectData_m4259_ParameterInfos[] = 
+static const ParameterInfo MulticastDelegate_t388_MulticastDelegate_GetObjectData_m4260_ParameterInfos[] = 
 {
 	{"info", 0, 134218765, 0, &SerializationInfo_t2869_0_0_0},
 	{"context", 1, 134218766, 0, &StreamingContext_t2870_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2870 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.MulticastDelegate::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo MulticastDelegate_GetObjectData_m4259_MethodInfo = 
+extern const MethodInfo MulticastDelegate_GetObjectData_m4260_MethodInfo = 
 {
 	"GetObjectData"/* name */
-	, (methodPointerType)&MulticastDelegate_GetObjectData_m4259/* method */
+	, (methodPointerType)&MulticastDelegate_GetObjectData_m4260/* method */
 	, &MulticastDelegate_t388_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2870/* invoker_method */
-	, MulticastDelegate_t388_MulticastDelegate_GetObjectData_m4259_ParameterInfos/* parameters */
+	, MulticastDelegate_t388_MulticastDelegate_GetObjectData_m4260_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -25877,21 +25877,21 @@ extern const MethodInfo MulticastDelegate_GetObjectData_m4259_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
-static const ParameterInfo MulticastDelegate_t388_MulticastDelegate_DynamicInvokeImpl_m4260_ParameterInfos[] = 
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
+static const ParameterInfo MulticastDelegate_t388_MulticastDelegate_DynamicInvokeImpl_m4261_ParameterInfos[] = 
 {
-	{"args", 0, 134218767, 0, &ObjectU5BU5D_t635_0_0_0},
+	{"args", 0, 134218767, 0, &ObjectU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.MulticastDelegate::DynamicInvokeImpl(System.Object[])
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo = 
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo = 
 {
 	"DynamicInvokeImpl"/* name */
-	, (methodPointerType)&MulticastDelegate_DynamicInvokeImpl_m4260/* method */
+	, (methodPointerType)&MulticastDelegate_DynamicInvokeImpl_m4261/* method */
 	, &MulticastDelegate_t388_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, MulticastDelegate_t388_MulticastDelegate_DynamicInvokeImpl_m4260_ParameterInfos/* parameters */
+	, MulticastDelegate_t388_MulticastDelegate_DynamicInvokeImpl_m4261_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 228/* flags */
 	, 0/* iflags */
@@ -25906,20 +25906,20 @@ extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo MulticastDelegate_t388_MulticastDelegate_Equals_m4257_ParameterInfos[] = 
+static const ParameterInfo MulticastDelegate_t388_MulticastDelegate_Equals_m4258_ParameterInfos[] = 
 {
 	{"obj", 0, 134218768, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.MulticastDelegate::Equals(System.Object)
-extern const MethodInfo MulticastDelegate_Equals_m4257_MethodInfo = 
+extern const MethodInfo MulticastDelegate_Equals_m4258_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&MulticastDelegate_Equals_m4257/* method */
+	, (methodPointerType)&MulticastDelegate_Equals_m4258/* method */
 	, &MulticastDelegate_t388_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, MulticastDelegate_t388_MulticastDelegate_Equals_m4257_ParameterInfos/* parameters */
+	, MulticastDelegate_t388_MulticastDelegate_Equals_m4258_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 230/* flags */
 	, 0/* iflags */
@@ -25935,10 +25935,10 @@ extern const MethodInfo MulticastDelegate_Equals_m4257_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.MulticastDelegate::GetHashCode()
-extern const MethodInfo MulticastDelegate_GetHashCode_m4258_MethodInfo = 
+extern const MethodInfo MulticastDelegate_GetHashCode_m4259_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&MulticastDelegate_GetHashCode_m4258/* method */
+	, (methodPointerType)&MulticastDelegate_GetHashCode_m4259/* method */
 	, &MulticastDelegate_t388_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -25959,10 +25959,10 @@ extern const MethodInfo MulticastDelegate_GetHashCode_m4258_MethodInfo =
 extern const Il2CppType DelegateU5BU5D_t2099_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Delegate[] System.MulticastDelegate::GetInvocationList()
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4262_MethodInfo = 
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4263_MethodInfo = 
 {
 	"GetInvocationList"/* name */
-	, (methodPointerType)&MulticastDelegate_GetInvocationList_m4262/* method */
+	, (methodPointerType)&MulticastDelegate_GetInvocationList_m4263/* method */
 	, &MulticastDelegate_t388_il2cpp_TypeInfo/* declaring_type */
 	, &DelegateU5BU5D_t2099_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -25980,22 +25980,22 @@ extern const MethodInfo MulticastDelegate_GetInvocationList_m4262_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Delegate_t674_0_0_0;
-extern const Il2CppType Delegate_t674_0_0_0;
-static const ParameterInfo MulticastDelegate_t388_MulticastDelegate_CombineImpl_m4263_ParameterInfos[] = 
+extern const Il2CppType Delegate_t675_0_0_0;
+extern const Il2CppType Delegate_t675_0_0_0;
+static const ParameterInfo MulticastDelegate_t388_MulticastDelegate_CombineImpl_m4264_ParameterInfos[] = 
 {
-	{"follow", 0, 134218769, 0, &Delegate_t674_0_0_0},
+	{"follow", 0, 134218769, 0, &Delegate_t675_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Delegate System.MulticastDelegate::CombineImpl(System.Delegate)
-extern const MethodInfo MulticastDelegate_CombineImpl_m4263_MethodInfo = 
+extern const MethodInfo MulticastDelegate_CombineImpl_m4264_MethodInfo = 
 {
 	"CombineImpl"/* name */
-	, (methodPointerType)&MulticastDelegate_CombineImpl_m4263/* method */
+	, (methodPointerType)&MulticastDelegate_CombineImpl_m4264/* method */
 	, &MulticastDelegate_t388_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, MulticastDelegate_t388_MulticastDelegate_CombineImpl_m4263_ParameterInfos/* parameters */
+	, MulticastDelegate_t388_MulticastDelegate_CombineImpl_m4264_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 228/* flags */
 	, 0/* iflags */
@@ -26071,21 +26071,21 @@ extern const MethodInfo MulticastDelegate_KPM_m15783_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Delegate_t674_0_0_0;
-static const ParameterInfo MulticastDelegate_t388_MulticastDelegate_RemoveImpl_m4264_ParameterInfos[] = 
+extern const Il2CppType Delegate_t675_0_0_0;
+static const ParameterInfo MulticastDelegate_t388_MulticastDelegate_RemoveImpl_m4265_ParameterInfos[] = 
 {
-	{"value", 0, 134218774, 0, &Delegate_t674_0_0_0},
+	{"value", 0, 134218774, 0, &Delegate_t675_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Delegate System.MulticastDelegate::RemoveImpl(System.Delegate)
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4264_MethodInfo = 
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4265_MethodInfo = 
 {
 	"RemoveImpl"/* name */
-	, (methodPointerType)&MulticastDelegate_RemoveImpl_m4264/* method */
+	, (methodPointerType)&MulticastDelegate_RemoveImpl_m4265/* method */
 	, &MulticastDelegate_t388_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, MulticastDelegate_t388_MulticastDelegate_RemoveImpl_m4264_ParameterInfos/* parameters */
+	, MulticastDelegate_t388_MulticastDelegate_RemoveImpl_m4265_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 228/* flags */
 	, 0/* iflags */
@@ -26101,38 +26101,38 @@ extern const MethodInfo MulticastDelegate_RemoveImpl_m4264_MethodInfo =
 };
 static const MethodInfo* MulticastDelegate_t388_MethodInfos[] =
 {
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&MulticastDelegate_Equals_m4257_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
 	&MulticastDelegate_BaseEquals_m15782_MethodInfo,
 	&MulticastDelegate_KPM_m15783_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m4257_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m4258_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m4259_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo;
-extern const MethodInfo Delegate_Clone_m4261_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4262_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m4263_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m4258_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m4259_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m4260_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo;
+extern const MethodInfo Delegate_Clone_m4262_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4263_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4265_MethodInfo;
 static const Il2CppMethodReference MulticastDelegate_t388_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 };
 static bool MulticastDelegate_t388_VTableIsGenericMethod[] =
 {
@@ -26150,8 +26150,8 @@ static bool MulticastDelegate_t388_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair MulticastDelegate_t388_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 struct MulticastDelegate_t388;
@@ -26161,7 +26161,7 @@ const Il2CppTypeDefinitionMetadata MulticastDelegate_t388_DefinitionMetadata =
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, MulticastDelegate_t388_InterfacesOffsets/* interfaceOffsets */
-	, &Delegate_t674_0_0_0/* parent */
+	, &Delegate_t675_0_0_0/* parent */
 	, MulticastDelegate_t388_VTable/* vtableMethods */
 	, MulticastDelegate_t388_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
@@ -26225,7 +26225,7 @@ TypeInfo MulticastDelegate_t388_il2cpp_TypeInfo =
 // System.Delegate
 #include "mscorlib_System_Delegate.h"
 // Metadata Definition System.Delegate
-extern TypeInfo Delegate_t674_il2cpp_TypeInfo;
+extern TypeInfo Delegate_t675_il2cpp_TypeInfo;
 // System.Delegate
 #include "mscorlib_System_DelegateMethodDeclarations.h"
 extern const Il2CppType MethodInfo_t_0_0_0;
@@ -26235,7 +26235,7 @@ extern const MethodInfo Delegate_get_Method_m9928_MethodInfo =
 {
 	"get_Method"/* name */
 	, (methodPointerType)&Delegate_get_Method_m9928/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &MethodInfo_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -26258,7 +26258,7 @@ extern const MethodInfo Delegate_get_Target_m3512_MethodInfo =
 {
 	"get_Target"/* name */
 	, (methodPointerType)&Delegate_get_Target_m3512/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -26279,7 +26279,7 @@ extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_CreateDelegate_internal_m15784_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_CreateDelegate_internal_m15784_ParameterInfos[] = 
 {
 	{"type", 0, 134218775, 0, &Type_t_0_0_0},
 	{"target", 1, 134218776, 0, &Object_t_0_0_0},
@@ -26292,10 +26292,10 @@ extern const MethodInfo Delegate_CreateDelegate_internal_m15784_MethodInfo =
 {
 	"CreateDelegate_internal"/* name */
 	, (methodPointerType)&Delegate_CreateDelegate_internal_m15784/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_SByte_t88/* invoker_method */
-	, Delegate_t674_Delegate_CreateDelegate_internal_m15784_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_CreateDelegate_internal_m15784_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 4096/* iflags */
@@ -26315,7 +26315,7 @@ extern const MethodInfo Delegate_SetMulticastInvoke_m15785_MethodInfo =
 {
 	"SetMulticastInvoke"/* name */
 	, (methodPointerType)&Delegate_SetMulticastInvoke_m15785/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -26334,7 +26334,7 @@ extern const MethodInfo Delegate_SetMulticastInvoke_m15785_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_arg_type_match_m15786_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_arg_type_match_m15786_ParameterInfos[] = 
 {
 	{"delArgType", 0, 134218779, 0, &Type_t_0_0_0},
 	{"argType", 1, 134218780, 0, &Type_t_0_0_0},
@@ -26345,10 +26345,10 @@ extern const MethodInfo Delegate_arg_type_match_m15786_MethodInfo =
 {
 	"arg_type_match"/* name */
 	, (methodPointerType)&Delegate_arg_type_match_m15786/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_arg_type_match_m15786_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_arg_type_match_m15786_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -26364,7 +26364,7 @@ extern const MethodInfo Delegate_arg_type_match_m15786_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_return_type_match_m15787_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_return_type_match_m15787_ParameterInfos[] = 
 {
 	{"delReturnType", 0, 134218781, 0, &Type_t_0_0_0},
 	{"returnType", 1, 134218782, 0, &Type_t_0_0_0},
@@ -26375,10 +26375,10 @@ extern const MethodInfo Delegate_return_type_match_m15787_MethodInfo =
 {
 	"return_type_match"/* name */
 	, (methodPointerType)&Delegate_return_type_match_m15787/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_return_type_match_m15787_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_return_type_match_m15787_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -26396,7 +26396,7 @@ extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_CreateDelegate_m15788_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_CreateDelegate_m15788_ParameterInfos[] = 
 {
 	{"type", 0, 134218783, 0, &Type_t_0_0_0},
 	{"firstArgument", 1, 134218784, 0, &Object_t_0_0_0},
@@ -26409,10 +26409,10 @@ extern const MethodInfo Delegate_CreateDelegate_m15788_MethodInfo =
 {
 	"CreateDelegate"/* name */
 	, (methodPointerType)&Delegate_CreateDelegate_m15788/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_SByte_t88/* invoker_method */
-	, Delegate_t674_Delegate_CreateDelegate_m15788_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_CreateDelegate_m15788_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26429,7 +26429,7 @@ extern const MethodInfo Delegate_CreateDelegate_m15788_MethodInfo =
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_CreateDelegate_m9929_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_CreateDelegate_m9929_ParameterInfos[] = 
 {
 	{"type", 0, 134218787, 0, &Type_t_0_0_0},
 	{"firstArgument", 1, 134218788, 0, &Object_t_0_0_0},
@@ -26441,10 +26441,10 @@ extern const MethodInfo Delegate_CreateDelegate_m9929_MethodInfo =
 {
 	"CreateDelegate"/* name */
 	, (methodPointerType)&Delegate_CreateDelegate_m9929/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_CreateDelegate_m9929_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_CreateDelegate_m9929_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26461,7 +26461,7 @@ extern const MethodInfo Delegate_CreateDelegate_m9929_MethodInfo =
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_CreateDelegate_m15789_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_CreateDelegate_m15789_ParameterInfos[] = 
 {
 	{"type", 0, 134218790, 0, &Type_t_0_0_0},
 	{"method", 1, 134218791, 0, &MethodInfo_t_0_0_0},
@@ -26473,10 +26473,10 @@ extern const MethodInfo Delegate_CreateDelegate_m15789_MethodInfo =
 {
 	"CreateDelegate"/* name */
 	, (methodPointerType)&Delegate_CreateDelegate_m15789/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_SByte_t88/* invoker_method */
-	, Delegate_t674_Delegate_CreateDelegate_m15789_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_CreateDelegate_m15789_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26493,7 +26493,7 @@ extern const MethodInfo Delegate_CreateDelegate_m15789_MethodInfo =
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_CreateDelegate_m15790_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_CreateDelegate_m15790_ParameterInfos[] = 
 {
 	{"type", 0, 134218793, 0, &Type_t_0_0_0},
 	{"target", 1, 134218794, 0, &Object_t_0_0_0},
@@ -26505,10 +26505,10 @@ extern const MethodInfo Delegate_CreateDelegate_m15790_MethodInfo =
 {
 	"CreateDelegate"/* name */
 	, (methodPointerType)&Delegate_CreateDelegate_m15790/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_CreateDelegate_m15790_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_CreateDelegate_m15790_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26529,7 +26529,7 @@ extern const Il2CppType BindingFlags_t4486_0_0_0;
 extern const Il2CppType BindingFlags_t4486_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_GetCandidateMethod_m15791_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_GetCandidateMethod_m15791_ParameterInfos[] = 
 {
 	{"type", 0, 134218796, 0, &Type_t_0_0_0},
 	{"target", 1, 134218797, 0, &Type_t_0_0_0},
@@ -26544,10 +26544,10 @@ extern const MethodInfo Delegate_GetCandidateMethod_m15791_MethodInfo =
 {
 	"GetCandidateMethod"/* name */
 	, (methodPointerType)&Delegate_GetCandidateMethod_m15791/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &MethodInfo_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Int32_t82_SByte_t88_SByte_t88/* invoker_method */
-	, Delegate_t674_Delegate_GetCandidateMethod_m15791_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_GetCandidateMethod_m15791_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -26566,7 +26566,7 @@ extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_CreateDelegate_m15792_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_CreateDelegate_m15792_ParameterInfos[] = 
 {
 	{"type", 0, 134218802, 0, &Type_t_0_0_0},
 	{"target", 1, 134218803, 0, &Type_t_0_0_0},
@@ -26580,10 +26580,10 @@ extern const MethodInfo Delegate_CreateDelegate_m15792_MethodInfo =
 {
 	"CreateDelegate"/* name */
 	, (methodPointerType)&Delegate_CreateDelegate_m15792/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_SByte_t88_SByte_t88/* invoker_method */
-	, Delegate_t674_Delegate_CreateDelegate_m15792_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_CreateDelegate_m15792_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26600,7 +26600,7 @@ extern const MethodInfo Delegate_CreateDelegate_m15792_MethodInfo =
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_CreateDelegate_m15793_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_CreateDelegate_m15793_ParameterInfos[] = 
 {
 	{"type", 0, 134218807, 0, &Type_t_0_0_0},
 	{"target", 1, 134218808, 0, &Type_t_0_0_0},
@@ -26612,10 +26612,10 @@ extern const MethodInfo Delegate_CreateDelegate_m15793_MethodInfo =
 {
 	"CreateDelegate"/* name */
 	, (methodPointerType)&Delegate_CreateDelegate_m15793/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_CreateDelegate_m15793_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_CreateDelegate_m15793_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26634,7 +26634,7 @@ extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_CreateDelegate_m15794_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_CreateDelegate_m15794_ParameterInfos[] = 
 {
 	{"type", 0, 134218810, 0, &Type_t_0_0_0},
 	{"target", 1, 134218811, 0, &Object_t_0_0_0},
@@ -26648,10 +26648,10 @@ extern const MethodInfo Delegate_CreateDelegate_m15794_MethodInfo =
 {
 	"CreateDelegate"/* name */
 	, (methodPointerType)&Delegate_CreateDelegate_m15794/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_SByte_t88_SByte_t88/* invoker_method */
-	, Delegate_t674_Delegate_CreateDelegate_m15794_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_CreateDelegate_m15794_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26669,7 +26669,7 @@ extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_CreateDelegate_m15795_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_CreateDelegate_m15795_ParameterInfos[] = 
 {
 	{"type", 0, 134218815, 0, &Type_t_0_0_0},
 	{"target", 1, 134218816, 0, &Object_t_0_0_0},
@@ -26682,10 +26682,10 @@ extern const MethodInfo Delegate_CreateDelegate_m15795_MethodInfo =
 {
 	"CreateDelegate"/* name */
 	, (methodPointerType)&Delegate_CreateDelegate_m15795/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_SByte_t88/* invoker_method */
-	, Delegate_t674_Delegate_CreateDelegate_m15795_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_CreateDelegate_m15795_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26699,10 +26699,10 @@ extern const MethodInfo Delegate_CreateDelegate_m15795_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_DynamicInvoke_m15796_ParameterInfos[] = 
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
+static const ParameterInfo Delegate_t675_Delegate_DynamicInvoke_m15796_ParameterInfos[] = 
 {
-	{"args", 0, 134218819, 106, &ObjectU5BU5D_t635_0_0_0},
+	{"args", 0, 134218819, 106, &ObjectU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Delegate::DynamicInvoke(System.Object[])
@@ -26710,10 +26710,10 @@ extern const MethodInfo Delegate_DynamicInvoke_m15796_MethodInfo =
 {
 	"DynamicInvoke"/* name */
 	, (methodPointerType)&Delegate_DynamicInvoke_m15796/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_DynamicInvoke_m15796_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_DynamicInvoke_m15796_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -26727,10 +26727,10 @@ extern const MethodInfo Delegate_DynamicInvoke_m15796_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_DynamicInvokeImpl_m15797_ParameterInfos[] = 
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
+static const ParameterInfo Delegate_t675_Delegate_DynamicInvokeImpl_m15797_ParameterInfos[] = 
 {
-	{"args", 0, 134218820, 0, &ObjectU5BU5D_t635_0_0_0},
+	{"args", 0, 134218820, 0, &ObjectU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Delegate::DynamicInvokeImpl(System.Object[])
@@ -26738,10 +26738,10 @@ extern const MethodInfo Delegate_DynamicInvokeImpl_m15797_MethodInfo =
 {
 	"DynamicInvokeImpl"/* name */
 	, (methodPointerType)&Delegate_DynamicInvokeImpl_m15797/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_DynamicInvokeImpl_m15797_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_DynamicInvokeImpl_m15797_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -26757,11 +26757,11 @@ extern const MethodInfo Delegate_DynamicInvokeImpl_m15797_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Delegate::Clone()
-extern const MethodInfo Delegate_Clone_m4261_MethodInfo = 
+extern const MethodInfo Delegate_Clone_m4262_MethodInfo = 
 {
 	"Clone"/* name */
-	, (methodPointerType)&Delegate_Clone_m4261/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&Delegate_Clone_m4262/* method */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -26779,7 +26779,7 @@ extern const MethodInfo Delegate_Clone_m4261_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_Equals_m15798_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_Equals_m15798_ParameterInfos[] = 
 {
 	{"obj", 0, 134218821, 0, &Object_t_0_0_0},
 };
@@ -26789,10 +26789,10 @@ extern const MethodInfo Delegate_Equals_m15798_MethodInfo =
 {
 	"Equals"/* name */
 	, (methodPointerType)&Delegate_Equals_m15798/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_Equals_m15798_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_Equals_m15798_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -26812,7 +26812,7 @@ extern const MethodInfo Delegate_GetHashCode_m15799_MethodInfo =
 {
 	"GetHashCode"/* name */
 	, (methodPointerType)&Delegate_GetHashCode_m15799/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -26831,7 +26831,7 @@ extern const MethodInfo Delegate_GetHashCode_m15799_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t2869_0_0_0;
 extern const Il2CppType StreamingContext_t2870_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_GetObjectData_m15800_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_GetObjectData_m15800_ParameterInfos[] = 
 {
 	{"info", 0, 134218822, 0, &SerializationInfo_t2869_0_0_0},
 	{"context", 1, 134218823, 0, &StreamingContext_t2870_0_0_0},
@@ -26842,10 +26842,10 @@ extern const MethodInfo Delegate_GetObjectData_m15800_MethodInfo =
 {
 	"GetObjectData"/* name */
 	, (methodPointerType)&Delegate_GetObjectData_m15800/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2870/* invoker_method */
-	, Delegate_t674_Delegate_GetObjectData_m15800_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_GetObjectData_m15800_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -26865,7 +26865,7 @@ extern const MethodInfo Delegate_GetInvocationList_m15801_MethodInfo =
 {
 	"GetInvocationList"/* name */
 	, (methodPointerType)&Delegate_GetInvocationList_m15801/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &DelegateU5BU5D_t2099_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -26882,12 +26882,12 @@ extern const MethodInfo Delegate_GetInvocationList_m15801_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Delegate_t674_0_0_0;
-extern const Il2CppType Delegate_t674_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_Combine_m3520_ParameterInfos[] = 
+extern const Il2CppType Delegate_t675_0_0_0;
+extern const Il2CppType Delegate_t675_0_0_0;
+static const ParameterInfo Delegate_t675_Delegate_Combine_m3520_ParameterInfos[] = 
 {
-	{"a", 0, 134218824, 0, &Delegate_t674_0_0_0},
-	{"b", 1, 134218825, 0, &Delegate_t674_0_0_0},
+	{"a", 0, 134218824, 0, &Delegate_t675_0_0_0},
+	{"b", 1, 134218825, 0, &Delegate_t675_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
@@ -26895,10 +26895,10 @@ extern const MethodInfo Delegate_Combine_m3520_MethodInfo =
 {
 	"Combine"/* name */
 	, (methodPointerType)&Delegate_Combine_m3520/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_Combine_m3520_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_Combine_m3520_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26913,7 +26913,7 @@ extern const MethodInfo Delegate_Combine_m3520_MethodInfo =
 
 };
 extern const Il2CppType DelegateU5BU5D_t2099_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_Combine_m15802_ParameterInfos[] = 
+static const ParameterInfo Delegate_t675_Delegate_Combine_m15802_ParameterInfos[] = 
 {
 	{"delegates", 0, 134218826, 108, &DelegateU5BU5D_t2099_0_0_0},
 };
@@ -26923,10 +26923,10 @@ extern const MethodInfo Delegate_Combine_m15802_MethodInfo =
 {
 	"Combine"/* name */
 	, (methodPointerType)&Delegate_Combine_m15802/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_Combine_m15802_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_Combine_m15802_ParameterInfos/* parameters */
 	, 107/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26940,10 +26940,10 @@ extern const MethodInfo Delegate_Combine_m15802_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Delegate_t674_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_CombineImpl_m15803_ParameterInfos[] = 
+extern const Il2CppType Delegate_t675_0_0_0;
+static const ParameterInfo Delegate_t675_Delegate_CombineImpl_m15803_ParameterInfos[] = 
 {
-	{"d", 0, 134218827, 0, &Delegate_t674_0_0_0},
+	{"d", 0, 134218827, 0, &Delegate_t675_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Delegate System.Delegate::CombineImpl(System.Delegate)
@@ -26951,10 +26951,10 @@ extern const MethodInfo Delegate_CombineImpl_m15803_MethodInfo =
 {
 	"CombineImpl"/* name */
 	, (methodPointerType)&Delegate_CombineImpl_m15803/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_CombineImpl_m15803_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_CombineImpl_m15803_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -26968,12 +26968,12 @@ extern const MethodInfo Delegate_CombineImpl_m15803_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Delegate_t674_0_0_0;
-extern const Il2CppType Delegate_t674_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_Remove_m3528_ParameterInfos[] = 
+extern const Il2CppType Delegate_t675_0_0_0;
+extern const Il2CppType Delegate_t675_0_0_0;
+static const ParameterInfo Delegate_t675_Delegate_Remove_m3528_ParameterInfos[] = 
 {
-	{"source", 0, 134218828, 0, &Delegate_t674_0_0_0},
-	{"value", 1, 134218829, 0, &Delegate_t674_0_0_0},
+	{"source", 0, 134218828, 0, &Delegate_t675_0_0_0},
+	{"value", 1, 134218829, 0, &Delegate_t675_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
@@ -26981,10 +26981,10 @@ extern const MethodInfo Delegate_Remove_m3528_MethodInfo =
 {
 	"Remove"/* name */
 	, (methodPointerType)&Delegate_Remove_m3528/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_Remove_m3528_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_Remove_m3528_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -26998,10 +26998,10 @@ extern const MethodInfo Delegate_Remove_m3528_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Delegate_t674_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_RemoveImpl_m15804_ParameterInfos[] = 
+extern const Il2CppType Delegate_t675_0_0_0;
+static const ParameterInfo Delegate_t675_Delegate_RemoveImpl_m15804_ParameterInfos[] = 
 {
-	{"d", 0, 134218830, 0, &Delegate_t674_0_0_0},
+	{"d", 0, 134218830, 0, &Delegate_t675_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Delegate System.Delegate::RemoveImpl(System.Delegate)
@@ -27009,10 +27009,10 @@ extern const MethodInfo Delegate_RemoveImpl_m15804_MethodInfo =
 {
 	"RemoveImpl"/* name */
 	, (methodPointerType)&Delegate_RemoveImpl_m15804/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
-	, &Delegate_t674_0_0_0/* return_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_RemoveImpl_m15804_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_RemoveImpl_m15804_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -27026,12 +27026,12 @@ extern const MethodInfo Delegate_RemoveImpl_m15804_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Delegate_t674_0_0_0;
-extern const Il2CppType Delegate_t674_0_0_0;
-static const ParameterInfo Delegate_t674_Delegate_op_Equality_m15805_ParameterInfos[] = 
+extern const Il2CppType Delegate_t675_0_0_0;
+extern const Il2CppType Delegate_t675_0_0_0;
+static const ParameterInfo Delegate_t675_Delegate_op_Equality_m15805_ParameterInfos[] = 
 {
-	{"d1", 0, 134218831, 0, &Delegate_t674_0_0_0},
-	{"d2", 1, 134218832, 0, &Delegate_t674_0_0_0},
+	{"d1", 0, 134218831, 0, &Delegate_t675_0_0_0},
+	{"d2", 1, 134218832, 0, &Delegate_t675_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Delegate::op_Equality(System.Delegate,System.Delegate)
@@ -27039,10 +27039,10 @@ extern const MethodInfo Delegate_op_Equality_m15805_MethodInfo =
 {
 	"op_Equality"/* name */
 	, (methodPointerType)&Delegate_op_Equality_m15805/* method */
-	, &Delegate_t674_il2cpp_TypeInfo/* declaring_type */
+	, &Delegate_t675_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, Delegate_t674_Delegate_op_Equality_m15805_ParameterInfos/* parameters */
+	, Delegate_t675_Delegate_op_Equality_m15805_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -27056,7 +27056,7 @@ extern const MethodInfo Delegate_op_Equality_m15805_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* Delegate_t674_MethodInfos[] =
+static const MethodInfo* Delegate_t675_MethodInfos[] =
 {
 	&Delegate_get_Method_m9928_MethodInfo,
 	&Delegate_get_Target_m3512_MethodInfo,
@@ -27075,7 +27075,7 @@ static const MethodInfo* Delegate_t674_MethodInfos[] =
 	&Delegate_CreateDelegate_m15795_MethodInfo,
 	&Delegate_DynamicInvoke_m15796_MethodInfo,
 	&Delegate_DynamicInvokeImpl_m15797_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
 	&Delegate_Equals_m15798_MethodInfo,
 	&Delegate_GetHashCode_m15799_MethodInfo,
 	&Delegate_GetObjectData_m15800_MethodInfo,
@@ -27089,9 +27089,9 @@ static const MethodInfo* Delegate_t674_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo Delegate_get_Method_m9928_MethodInfo;
-static const PropertyInfo Delegate_t674____Method_PropertyInfo = 
+static const PropertyInfo Delegate_t675____Method_PropertyInfo = 
 {
-	&Delegate_t674_il2cpp_TypeInfo/* parent */
+	&Delegate_t675_il2cpp_TypeInfo/* parent */
 	, "Method"/* name */
 	, &Delegate_get_Method_m9928_MethodInfo/* get */
 	, NULL/* set */
@@ -27100,9 +27100,9 @@ static const PropertyInfo Delegate_t674____Method_PropertyInfo =
 
 };
 extern const MethodInfo Delegate_get_Target_m3512_MethodInfo;
-static const PropertyInfo Delegate_t674____Target_PropertyInfo = 
+static const PropertyInfo Delegate_t675____Target_PropertyInfo = 
 {
-	&Delegate_t674_il2cpp_TypeInfo/* parent */
+	&Delegate_t675_il2cpp_TypeInfo/* parent */
 	, "Target"/* name */
 	, &Delegate_get_Target_m3512_MethodInfo/* get */
 	, NULL/* set */
@@ -27110,10 +27110,10 @@ static const PropertyInfo Delegate_t674____Target_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* Delegate_t674_PropertyInfos[] =
+static const PropertyInfo* Delegate_t675_PropertyInfos[] =
 {
-	&Delegate_t674____Method_PropertyInfo,
-	&Delegate_t674____Target_PropertyInfo,
+	&Delegate_t675____Method_PropertyInfo,
+	&Delegate_t675____Target_PropertyInfo,
 	NULL
 };
 extern const MethodInfo Delegate_Equals_m15798_MethodInfo;
@@ -27123,7 +27123,7 @@ extern const MethodInfo Delegate_DynamicInvokeImpl_m15797_MethodInfo;
 extern const MethodInfo Delegate_GetInvocationList_m15801_MethodInfo;
 extern const MethodInfo Delegate_CombineImpl_m15803_MethodInfo;
 extern const MethodInfo Delegate_RemoveImpl_m15804_MethodInfo;
-static const Il2CppMethodReference Delegate_t674_VTable[] =
+static const Il2CppMethodReference Delegate_t675_VTable[] =
 {
 	&Delegate_Equals_m15798_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -27131,13 +27131,13 @@ static const Il2CppMethodReference Delegate_t674_VTable[] =
 	&Object_ToString_m492_MethodInfo,
 	&Delegate_GetObjectData_m15800_MethodInfo,
 	&Delegate_DynamicInvokeImpl_m15797_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
 	&Delegate_GetObjectData_m15800_MethodInfo,
 	&Delegate_GetInvocationList_m15801_MethodInfo,
 	&Delegate_CombineImpl_m15803_MethodInfo,
 	&Delegate_RemoveImpl_m15804_MethodInfo,
 };
-static bool Delegate_t674_VTableIsGenericMethod[] =
+static bool Delegate_t675_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -27151,47 +27151,47 @@ static bool Delegate_t674_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* Delegate_t674_InterfacesTypeInfos[] = 
+static const Il2CppType* Delegate_t675_InterfacesTypeInfos[] = 
 {
-	&ICloneable_t761_0_0_0,
-	&ISerializable_t762_0_0_0,
+	&ICloneable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
-static Il2CppInterfaceOffsetPair Delegate_t674_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair Delegate_t675_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Delegate_t674_1_0_0;
-struct Delegate_t674;
-const Il2CppTypeDefinitionMetadata Delegate_t674_DefinitionMetadata = 
+extern const Il2CppType Delegate_t675_1_0_0;
+struct Delegate_t675;
+const Il2CppTypeDefinitionMetadata Delegate_t675_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, Delegate_t674_InterfacesTypeInfos/* implementedInterfaces */
-	, Delegate_t674_InterfacesOffsets/* interfaceOffsets */
+	, Delegate_t675_InterfacesTypeInfos/* implementedInterfaces */
+	, Delegate_t675_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, Delegate_t674_VTable/* vtableMethods */
-	, Delegate_t674_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, Delegate_t675_VTable/* vtableMethods */
+	, Delegate_t675_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 77/* fieldStart */
 
 };
-TypeInfo Delegate_t674_il2cpp_TypeInfo = 
+TypeInfo Delegate_t675_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Delegate"/* name */
 	, "System"/* namespaze */
-	, Delegate_t674_MethodInfos/* methods */
-	, Delegate_t674_PropertyInfos/* properties */
+	, Delegate_t675_MethodInfos/* methods */
+	, Delegate_t675_PropertyInfos/* properties */
 	, NULL/* events */
-	, &Delegate_t674_il2cpp_TypeInfo/* element_class */
+	, &Delegate_t675_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 105/* custom_attributes_cache */
-	, &Delegate_t674_0_0_0/* byval_arg */
-	, &Delegate_t674_1_0_0/* this_arg */
-	, &Delegate_t674_DefinitionMetadata/* definitionMetadata */
+	, &Delegate_t675_0_0_0/* byval_arg */
+	, &Delegate_t675_1_0_0/* this_arg */
+	, &Delegate_t675_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -27201,8 +27201,8 @@ TypeInfo Delegate_t674_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Delegate_t674)/* instance_size */
-	, sizeof (Delegate_t674)/* actualSize */
+	, sizeof (Delegate_t675)/* instance_size */
+	, sizeof (Delegate_t675)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -27316,15 +27316,15 @@ static const ParameterInfo Enum_t100_Enum_System_IConvertible_ToByte_m506_Parame
 {
 	{"provider", 0, 134218834, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Enum::System.IConvertible.ToByte(System.IFormatProvider)
 extern const MethodInfo Enum_System_IConvertible_ToByte_m506_MethodInfo = 
 {
 	"System.IConvertible.ToByte"/* name */
 	, (methodPointerType)&Enum_System_IConvertible_ToByte_m506/* method */
 	, &Enum_t100_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Object_t/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Object_t/* invoker_method */
 	, Enum_t100_Enum_System_IConvertible_ToByte_m506_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -27400,15 +27400,15 @@ static const ParameterInfo Enum_t100_Enum_System_IConvertible_ToDecimal_m509_Par
 {
 	{"provider", 0, 134218837, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Decimal_t695_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Decimal_t696_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Decimal System.Enum::System.IConvertible.ToDecimal(System.IFormatProvider)
 extern const MethodInfo Enum_System_IConvertible_ToDecimal_m509_MethodInfo = 
 {
 	"System.IConvertible.ToDecimal"/* name */
 	, (methodPointerType)&Enum_System_IConvertible_ToDecimal_m509/* method */
 	, &Enum_t100_il2cpp_TypeInfo/* declaring_type */
-	, &Decimal_t695_0_0_0/* return_type */
-	, RuntimeInvoker_Decimal_t695_Object_t/* invoker_method */
+	, &Decimal_t696_0_0_0/* return_type */
+	, RuntimeInvoker_Decimal_t696_Object_t/* invoker_method */
 	, Enum_t100_Enum_System_IConvertible_ToDecimal_m509_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -27456,15 +27456,15 @@ static const ParameterInfo Enum_t100_Enum_System_IConvertible_ToInt16_m511_Param
 {
 	{"provider", 0, 134218839, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Enum::System.IConvertible.ToInt16(System.IFormatProvider)
 extern const MethodInfo Enum_System_IConvertible_ToInt16_m511_MethodInfo = 
 {
 	"System.IConvertible.ToInt16"/* name */
 	, (methodPointerType)&Enum_System_IConvertible_ToInt16_m511/* method */
 	, &Enum_t100_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Object_t/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Object_t/* invoker_method */
 	, Enum_t100_Enum_System_IConvertible_ToInt16_m511_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -27626,15 +27626,15 @@ static const ParameterInfo Enum_t100_Enum_System_IConvertible_ToUInt16_m518_Para
 {
 	{"provider", 0, 134218846, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.Enum::System.IConvertible.ToUInt16(System.IFormatProvider)
 extern const MethodInfo Enum_System_IConvertible_ToUInt16_m518_MethodInfo = 
 {
 	"System.IConvertible.ToUInt16"/* name */
 	, (methodPointerType)&Enum_System_IConvertible_ToUInt16_m518/* method */
 	, &Enum_t100_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Object_t/* invoker_method */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Object_t/* invoker_method */
 	, Enum_t100_Enum_System_IConvertible_ToUInt16_m518_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -27654,15 +27654,15 @@ static const ParameterInfo Enum_t100_Enum_System_IConvertible_ToUInt32_m519_Para
 {
 	{"provider", 0, 134218847, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 System.Enum::System.IConvertible.ToUInt32(System.IFormatProvider)
 extern const MethodInfo Enum_System_IConvertible_ToUInt32_m519_MethodInfo = 
 {
 	"System.IConvertible.ToUInt32"/* name */
 	, (methodPointerType)&Enum_System_IConvertible_ToUInt32_m519/* method */
 	, &Enum_t100_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t/* invoker_method */
 	, Enum_t100_Enum_System_IConvertible_ToUInt32_m519_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -27682,15 +27682,15 @@ static const ParameterInfo Enum_t100_Enum_System_IConvertible_ToUInt64_m520_Para
 {
 	{"provider", 0, 134218848, 0, &IFormatProvider_t4456_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.Enum::System.IConvertible.ToUInt64(System.IFormatProvider)
 extern const MethodInfo Enum_System_IConvertible_ToUInt64_m520_MethodInfo = 
 {
 	"System.IConvertible.ToUInt64"/* name */
 	, (methodPointerType)&Enum_System_IConvertible_ToUInt64_m520/* method */
 	, &Enum_t100_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t/* invoker_method */
 	, Enum_t100_Enum_System_IConvertible_ToUInt64_m520_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
@@ -27963,15 +27963,15 @@ static const ParameterInfo Enum_t100_Enum_GetValue_m15815_ParameterInfos[] =
 	{"value", 0, 134218861, 0, &Object_t_0_0_0},
 	{"typeCode", 1, 134218862, 0, &TypeCode_t4796_0_0_0},
 };
-extern void* RuntimeInvoker_UInt64_t694_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt64_t695_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.UInt64 System.Enum::GetValue(System.Object,System.TypeCode)
 extern const MethodInfo Enum_GetValue_m15815_MethodInfo = 
 {
 	"GetValue"/* name */
 	, (methodPointerType)&Enum_GetValue_m15815/* method */
 	, &Enum_t100_il2cpp_TypeInfo/* declaring_type */
-	, &UInt64_t694_0_0_0/* return_type */
-	, RuntimeInvoker_UInt64_t694_Object_t_Int32_t82/* invoker_method */
+	, &UInt64_t695_0_0_0/* return_type */
+	, RuntimeInvoker_UInt64_t695_Object_t_Int32_t82/* invoker_method */
 	, Enum_t100_Enum_GetValue_m15815_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
@@ -28184,11 +28184,11 @@ extern const MethodInfo Enum_ToString_m504_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo Enum_t100_Enum_ToObject_m15817_ParameterInfos[] = 
 {
 	{"enumType", 0, 134218872, 0, &Type_t_0_0_0},
-	{"value", 1, 134218873, 0, &Byte_t691_0_0_0},
+	{"value", 1, 134218873, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Enum::ToObject(System.Type,System.Byte)
@@ -28214,13 +28214,13 @@ extern const MethodInfo Enum_ToObject_m15817_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 static const ParameterInfo Enum_t100_Enum_ToObject_m15818_ParameterInfos[] = 
 {
 	{"enumType", 0, 134218874, 0, &Type_t_0_0_0},
-	{"value", 1, 134218875, 0, &Int16_t692_0_0_0},
+	{"value", 1, 134218875, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Enum::ToObject(System.Type,System.Int16)
 extern const MethodInfo Enum_ToObject_m15818_MethodInfo = 
 {
@@ -28228,7 +28228,7 @@ extern const MethodInfo Enum_ToObject_m15818_MethodInfo =
 	, (methodPointerType)&Enum_ToObject_m15818/* method */
 	, &Enum_t100_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Object_t_Object_t_Int16_t693/* invoker_method */
 	, Enum_t100_Enum_ToObject_m15818_ParameterInfos/* parameters */
 	, 117/* custom_attributes_cache */
 	, 150/* flags */
@@ -28364,13 +28364,13 @@ extern const MethodInfo Enum_ToObject_m15822_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType UInt16_t693_0_0_0;
+extern const Il2CppType UInt16_t694_0_0_0;
 static const ParameterInfo Enum_t100_Enum_ToObject_m15823_ParameterInfos[] = 
 {
 	{"enumType", 0, 134218884, 0, &Type_t_0_0_0},
-	{"value", 1, 134218885, 0, &UInt16_t693_0_0_0},
+	{"value", 1, 134218885, 0, &UInt16_t694_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Enum::ToObject(System.Type,System.UInt16)
 extern const MethodInfo Enum_ToObject_m15823_MethodInfo = 
 {
@@ -28378,7 +28378,7 @@ extern const MethodInfo Enum_ToObject_m15823_MethodInfo =
 	, (methodPointerType)&Enum_ToObject_m15823/* method */
 	, &Enum_t100_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Object_t_Object_t_Int16_t693/* invoker_method */
 	, Enum_t100_Enum_ToObject_m15823_ParameterInfos/* parameters */
 	, 122/* custom_attributes_cache */
 	, 150/* flags */
@@ -28394,11 +28394,11 @@ extern const MethodInfo Enum_ToObject_m15823_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo Enum_t100_Enum_ToObject_m15824_ParameterInfos[] = 
 {
 	{"enumType", 0, 134218886, 0, &Type_t_0_0_0},
-	{"value", 1, 134218887, 0, &UInt32_t690_0_0_0},
+	{"value", 1, 134218887, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Enum::ToObject(System.Type,System.UInt32)
@@ -28424,11 +28424,11 @@ extern const MethodInfo Enum_ToObject_m15824_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType UInt64_t694_0_0_0;
+extern const Il2CppType UInt64_t695_0_0_0;
 static const ParameterInfo Enum_t100_Enum_ToObject_m15825_ParameterInfos[] = 
 {
 	{"enumType", 0, 134218888, 0, &Type_t_0_0_0},
-	{"value", 1, 134218889, 0, &UInt64_t694_0_0_0},
+	{"value", 1, 134218889, 0, &UInt64_t695_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Enum::ToObject(System.Type,System.UInt64)
@@ -29305,12 +29305,12 @@ static bool SimpleEnumerator_t4293_VTableIsGenericMethod[] =
 static const Il2CppType* SimpleEnumerator_t4293_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t48_0_0_0,
-	&ICloneable_t761_0_0_0,
+	&ICloneable_t762_0_0_0,
 };
 static Il2CppInterfaceOffsetPair SimpleEnumerator_t4293_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t48_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 7},
+	{ &ICloneable_t762_0_0_0, 7},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType SimpleEnumerator_t4293_0_0_0;
@@ -30463,17 +30463,17 @@ extern const MethodInfo Swapper_BeginInvoke_m15836_MethodInfo;
 extern const MethodInfo Swapper_EndInvoke_m15837_MethodInfo;
 static const Il2CppMethodReference Swapper_t4294_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&Swapper_Invoke_m15835_MethodInfo,
 	&Swapper_BeginInvoke_m15836_MethodInfo,
 	&Swapper_EndInvoke_m15837_MethodInfo,
@@ -30497,8 +30497,8 @@ static bool Swapper_t4294_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair Swapper_t4294_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType Swapper_t4294_0_0_0;
@@ -31581,10 +31581,10 @@ extern const MethodInfo Array_GetLowerBound_m15857_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 static const ParameterInfo Array_t_Array_GetValue_m15858_ParameterInfos[] = 
 {
-	{"indices", 0, 134218928, 133, &Int32U5BU5D_t548_0_0_0},
+	{"indices", 0, 134218928, 133, &Int32U5BU5D_t549_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Array::GetValue(System.Int32[])
@@ -31610,11 +31610,11 @@ extern const MethodInfo Array_GetValue_m15858_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 static const ParameterInfo Array_t_Array_SetValue_m15859_ParameterInfos[] = 
 {
 	{"value", 0, 134218929, 0, &Object_t_0_0_0},
-	{"indices", 1, 134218930, 134, &Int32U5BU5D_t548_0_0_0},
+	{"indices", 1, 134218930, 134, &Int32U5BU5D_t549_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Array::SetValue(System.Object,System.Int32[])
@@ -31734,13 +31734,13 @@ extern const MethodInfo Array_FastCopy_m15862_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 static const ParameterInfo Array_t_Array_CreateInstanceImpl_m15863_ParameterInfos[] = 
 {
 	{"elementType", 0, 134218939, 0, &Type_t_0_0_0},
-	{"lengths", 1, 134218940, 0, &Int32U5BU5D_t548_0_0_0},
-	{"bounds", 2, 134218941, 0, &Int32U5BU5D_t548_0_0_0},
+	{"lengths", 1, 134218940, 0, &Int32U5BU5D_t549_0_0_0},
+	{"bounds", 2, 134218941, 0, &Int32U5BU5D_t549_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Array System.Array::CreateInstanceImpl(System.Type,System.Int32[],System.Int32[])
@@ -32377,11 +32377,11 @@ extern const MethodInfo Array_CreateInstance_m15883_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 static const ParameterInfo Array_t_Array_CreateInstance_m15884_ParameterInfos[] = 
 {
 	{"elementType", 0, 134218982, 0, &Type_t_0_0_0},
-	{"lengths", 1, 134218983, 142, &Int32U5BU5D_t548_0_0_0},
+	{"lengths", 1, 134218983, 142, &Int32U5BU5D_t549_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Array System.Array::CreateInstance(System.Type,System.Int32[])
@@ -32407,13 +32407,13 @@ extern const MethodInfo Array_CreateInstance_m15884_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 static const ParameterInfo Array_t_Array_CreateInstance_m15885_ParameterInfos[] = 
 {
 	{"elementType", 0, 134218984, 0, &Type_t_0_0_0},
-	{"lengths", 1, 134218985, 0, &Int32U5BU5D_t548_0_0_0},
-	{"lowerBounds", 2, 134218986, 0, &Int32U5BU5D_t548_0_0_0},
+	{"lengths", 1, 134218985, 0, &Int32U5BU5D_t549_0_0_0},
+	{"lowerBounds", 2, 134218986, 0, &Int32U5BU5D_t549_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Array System.Array::CreateInstance(System.Type,System.Int32[],System.Int32[])
@@ -32451,7 +32451,7 @@ extern const MethodInfo Array_GetIntArray_m15886_MethodInfo =
 	"GetIntArray"/* name */
 	, (methodPointerType)&Array_GetIntArray_m15886/* method */
 	, &Array_t_il2cpp_TypeInfo/* declaring_type */
-	, &Int32U5BU5D_t548_0_0_0/* return_type */
+	, &Int32U5BU5D_t549_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, Array_t_Array_GetIntArray_m15886_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -33726,13 +33726,13 @@ extern const MethodInfo Array_combsort_m15919_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Swapper_t4294_0_0_0;
 static const ParameterInfo Array_t_Array_combsort_m15920_ParameterInfos[] = 
 {
-	{"array", 0, 134219095, 0, &Int32U5BU5D_t548_0_0_0},
+	{"array", 0, 134219095, 0, &Int32U5BU5D_t549_0_0_0},
 	{"start", 1, 134219096, 0, &Int32_t82_0_0_0},
 	{"size", 2, 134219097, 0, &Int32_t82_0_0_0},
 	{"swap_items", 3, 134219098, 0, &Swapper_t4294_0_0_0},
@@ -33760,13 +33760,13 @@ extern const MethodInfo Array_combsort_m15920_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Swapper_t4294_0_0_0;
 static const ParameterInfo Array_t_Array_combsort_m15921_ParameterInfos[] = 
 {
-	{"array", 0, 134219099, 0, &CharU5BU5D_t660_0_0_0},
+	{"array", 0, 134219099, 0, &CharU5BU5D_t661_0_0_0},
 	{"start", 1, 134219100, 0, &Int32_t82_0_0_0},
 	{"size", 2, 134219101, 0, &Int32_t82_0_0_0},
 	{"swap_items", 3, 134219102, 0, &Swapper_t4294_0_0_0},
@@ -36324,21 +36324,21 @@ static bool Array_t_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICollection_t704_0_0_0;
-extern const Il2CppType IList_t639_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
+extern const Il2CppType IList_t640_0_0_0;
 static const Il2CppType* Array_t_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICloneable_t761_0_0_0,
-	&ICollection_t704_0_0_0,
-	&IList_t639_0_0_0,
+	&ICloneable_t762_0_0_0,
+	&ICollection_t705_0_0_0,
+	&IList_t640_0_0_0,
 };
 static Il2CppInterfaceOffsetPair Array_t_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t761_0_0_0, 5},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICloneable_t762_0_0_0, 5},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType Array_t_1_0_0;
@@ -36411,14 +36411,14 @@ TypeInfo Array_t_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Collections.ICollection
-extern TypeInfo ICollection_t704_il2cpp_TypeInfo;
+extern TypeInfo ICollection_t705_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Collections.ICollection::get_Count()
 extern const MethodInfo ICollection_get_Count_m20033_MethodInfo = 
 {
 	"get_Count"/* name */
 	, NULL/* method */
-	, &ICollection_t704_il2cpp_TypeInfo/* declaring_type */
+	, &ICollection_t705_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -36441,7 +36441,7 @@ extern const MethodInfo ICollection_get_IsSynchronized_m20034_MethodInfo =
 {
 	"get_IsSynchronized"/* name */
 	, NULL/* method */
-	, &ICollection_t704_il2cpp_TypeInfo/* declaring_type */
+	, &ICollection_t705_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -36464,7 +36464,7 @@ extern const MethodInfo ICollection_get_SyncRoot_m20035_MethodInfo =
 {
 	"get_SyncRoot"/* name */
 	, NULL/* method */
-	, &ICollection_t704_il2cpp_TypeInfo/* declaring_type */
+	, &ICollection_t705_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -36483,7 +36483,7 @@ extern const MethodInfo ICollection_get_SyncRoot_m20035_MethodInfo =
 };
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ICollection_t704_ICollection_CopyTo_m20036_ParameterInfos[] = 
+static const ParameterInfo ICollection_t705_ICollection_CopyTo_m20036_ParameterInfos[] = 
 {
 	{"array", 0, 134219266, 0, &Array_t_0_0_0},
 	{"index", 1, 134219267, 0, &Int32_t82_0_0_0},
@@ -36494,10 +36494,10 @@ extern const MethodInfo ICollection_CopyTo_m20036_MethodInfo =
 {
 	"CopyTo"/* name */
 	, NULL/* method */
-	, &ICollection_t704_il2cpp_TypeInfo/* declaring_type */
+	, &ICollection_t705_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, ICollection_t704_ICollection_CopyTo_m20036_ParameterInfos/* parameters */
+	, ICollection_t705_ICollection_CopyTo_m20036_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -36511,7 +36511,7 @@ extern const MethodInfo ICollection_CopyTo_m20036_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ICollection_t704_MethodInfos[] =
+static const MethodInfo* ICollection_t705_MethodInfos[] =
 {
 	&ICollection_get_Count_m20033_MethodInfo,
 	&ICollection_get_IsSynchronized_m20034_MethodInfo,
@@ -36520,9 +36520,9 @@ static const MethodInfo* ICollection_t704_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ICollection_get_Count_m20033_MethodInfo;
-static const PropertyInfo ICollection_t704____Count_PropertyInfo = 
+static const PropertyInfo ICollection_t705____Count_PropertyInfo = 
 {
-	&ICollection_t704_il2cpp_TypeInfo/* parent */
+	&ICollection_t705_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
 	, &ICollection_get_Count_m20033_MethodInfo/* get */
 	, NULL/* set */
@@ -36531,9 +36531,9 @@ static const PropertyInfo ICollection_t704____Count_PropertyInfo =
 
 };
 extern const MethodInfo ICollection_get_IsSynchronized_m20034_MethodInfo;
-static const PropertyInfo ICollection_t704____IsSynchronized_PropertyInfo = 
+static const PropertyInfo ICollection_t705____IsSynchronized_PropertyInfo = 
 {
-	&ICollection_t704_il2cpp_TypeInfo/* parent */
+	&ICollection_t705_il2cpp_TypeInfo/* parent */
 	, "IsSynchronized"/* name */
 	, &ICollection_get_IsSynchronized_m20034_MethodInfo/* get */
 	, NULL/* set */
@@ -36542,9 +36542,9 @@ static const PropertyInfo ICollection_t704____IsSynchronized_PropertyInfo =
 
 };
 extern const MethodInfo ICollection_get_SyncRoot_m20035_MethodInfo;
-static const PropertyInfo ICollection_t704____SyncRoot_PropertyInfo = 
+static const PropertyInfo ICollection_t705____SyncRoot_PropertyInfo = 
 {
-	&ICollection_t704_il2cpp_TypeInfo/* parent */
+	&ICollection_t705_il2cpp_TypeInfo/* parent */
 	, "SyncRoot"/* name */
 	, &ICollection_get_SyncRoot_m20035_MethodInfo/* get */
 	, NULL/* set */
@@ -36552,25 +36552,25 @@ static const PropertyInfo ICollection_t704____SyncRoot_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ICollection_t704_PropertyInfos[] =
+static const PropertyInfo* ICollection_t705_PropertyInfos[] =
 {
-	&ICollection_t704____Count_PropertyInfo,
-	&ICollection_t704____IsSynchronized_PropertyInfo,
-	&ICollection_t704____SyncRoot_PropertyInfo,
+	&ICollection_t705____Count_PropertyInfo,
+	&ICollection_t705____IsSynchronized_PropertyInfo,
+	&ICollection_t705____SyncRoot_PropertyInfo,
 	NULL
 };
-static const Il2CppType* ICollection_t704_InterfacesTypeInfos[] = 
+static const Il2CppType* ICollection_t705_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ICollection_t704_1_0_0;
-struct ICollection_t704;
-const Il2CppTypeDefinitionMetadata ICollection_t704_DefinitionMetadata = 
+extern const Il2CppType ICollection_t705_1_0_0;
+struct ICollection_t705;
+const Il2CppTypeDefinitionMetadata ICollection_t705_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ICollection_t704_InterfacesTypeInfos/* implementedInterfaces */
+	, ICollection_t705_InterfacesTypeInfos/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, NULL/* parent */
 	, NULL/* vtableMethods */
@@ -36579,21 +36579,21 @@ const Il2CppTypeDefinitionMetadata ICollection_t704_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo ICollection_t704_il2cpp_TypeInfo = 
+TypeInfo ICollection_t705_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ICollection"/* name */
 	, "System.Collections"/* namespaze */
-	, ICollection_t704_MethodInfos/* methods */
-	, ICollection_t704_PropertyInfos/* properties */
+	, ICollection_t705_MethodInfos/* methods */
+	, ICollection_t705_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ICollection_t704_il2cpp_TypeInfo/* element_class */
+	, &ICollection_t705_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 196/* custom_attributes_cache */
-	, &ICollection_t704_0_0_0/* byval_arg */
-	, &ICollection_t704_1_0_0/* this_arg */
-	, &ICollection_t704_DefinitionMetadata/* definitionMetadata */
+	, &ICollection_t705_0_0_0/* byval_arg */
+	, &ICollection_t705_1_0_0/* this_arg */
+	, &ICollection_t705_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -36634,14 +36634,14 @@ TypeInfo ICollection_t704_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Collections.IList
-extern TypeInfo IList_t639_il2cpp_TypeInfo;
+extern TypeInfo IList_t640_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Collections.IList::get_IsFixedSize()
 extern const MethodInfo IList_get_IsFixedSize_m20037_MethodInfo = 
 {
 	"get_IsFixedSize"/* name */
 	, NULL/* method */
-	, &IList_t639_il2cpp_TypeInfo/* declaring_type */
+	, &IList_t640_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -36664,7 +36664,7 @@ extern const MethodInfo IList_get_IsReadOnly_m20038_MethodInfo =
 {
 	"get_IsReadOnly"/* name */
 	, NULL/* method */
-	, &IList_t639_il2cpp_TypeInfo/* declaring_type */
+	, &IList_t640_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -36682,7 +36682,7 @@ extern const MethodInfo IList_get_IsReadOnly_m20038_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo IList_t639_IList_get_Item_m20039_ParameterInfos[] = 
+static const ParameterInfo IList_t640_IList_get_Item_m20039_ParameterInfos[] = 
 {
 	{"index", 0, 134219268, 0, &Int32_t82_0_0_0},
 };
@@ -36692,10 +36692,10 @@ extern const MethodInfo IList_get_Item_m20039_MethodInfo =
 {
 	"get_Item"/* name */
 	, NULL/* method */
-	, &IList_t639_il2cpp_TypeInfo/* declaring_type */
+	, &IList_t640_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
-	, IList_t639_IList_get_Item_m20039_ParameterInfos/* parameters */
+	, IList_t640_IList_get_Item_m20039_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 3526/* flags */
 	, 0/* iflags */
@@ -36711,7 +36711,7 @@ extern const MethodInfo IList_get_Item_m20039_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo IList_t639_IList_set_Item_m20040_ParameterInfos[] = 
+static const ParameterInfo IList_t640_IList_set_Item_m20040_ParameterInfos[] = 
 {
 	{"index", 0, 134219269, 0, &Int32_t82_0_0_0},
 	{"value", 1, 134219270, 0, &Object_t_0_0_0},
@@ -36722,10 +36722,10 @@ extern const MethodInfo IList_set_Item_m20040_MethodInfo =
 {
 	"set_Item"/* name */
 	, NULL/* method */
-	, &IList_t639_il2cpp_TypeInfo/* declaring_type */
+	, &IList_t640_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Object_t/* invoker_method */
-	, IList_t639_IList_set_Item_m20040_ParameterInfos/* parameters */
+	, IList_t640_IList_set_Item_m20040_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 3526/* flags */
 	, 0/* iflags */
@@ -36740,7 +36740,7 @@ extern const MethodInfo IList_set_Item_m20040_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo IList_t639_IList_Add_m20041_ParameterInfos[] = 
+static const ParameterInfo IList_t640_IList_Add_m20041_ParameterInfos[] = 
 {
 	{"value", 0, 134219271, 0, &Object_t_0_0_0},
 };
@@ -36750,10 +36750,10 @@ extern const MethodInfo IList_Add_m20041_MethodInfo =
 {
 	"Add"/* name */
 	, NULL/* method */
-	, &IList_t639_il2cpp_TypeInfo/* declaring_type */
+	, &IList_t640_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, IList_t639_IList_Add_m20041_ParameterInfos/* parameters */
+	, IList_t640_IList_Add_m20041_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -36773,7 +36773,7 @@ extern const MethodInfo IList_Clear_m20042_MethodInfo =
 {
 	"Clear"/* name */
 	, NULL/* method */
-	, &IList_t639_il2cpp_TypeInfo/* declaring_type */
+	, &IList_t640_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -36791,7 +36791,7 @@ extern const MethodInfo IList_Clear_m20042_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo IList_t639_IList_Contains_m20043_ParameterInfos[] = 
+static const ParameterInfo IList_t640_IList_Contains_m20043_ParameterInfos[] = 
 {
 	{"value", 0, 134219272, 0, &Object_t_0_0_0},
 };
@@ -36801,10 +36801,10 @@ extern const MethodInfo IList_Contains_m20043_MethodInfo =
 {
 	"Contains"/* name */
 	, NULL/* method */
-	, &IList_t639_il2cpp_TypeInfo/* declaring_type */
+	, &IList_t640_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, IList_t639_IList_Contains_m20043_ParameterInfos/* parameters */
+	, IList_t640_IList_Contains_m20043_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -36819,7 +36819,7 @@ extern const MethodInfo IList_Contains_m20043_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo IList_t639_IList_IndexOf_m20044_ParameterInfos[] = 
+static const ParameterInfo IList_t640_IList_IndexOf_m20044_ParameterInfos[] = 
 {
 	{"value", 0, 134219273, 0, &Object_t_0_0_0},
 };
@@ -36829,10 +36829,10 @@ extern const MethodInfo IList_IndexOf_m20044_MethodInfo =
 {
 	"IndexOf"/* name */
 	, NULL/* method */
-	, &IList_t639_il2cpp_TypeInfo/* declaring_type */
+	, &IList_t640_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, IList_t639_IList_IndexOf_m20044_ParameterInfos/* parameters */
+	, IList_t640_IList_IndexOf_m20044_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -36848,7 +36848,7 @@ extern const MethodInfo IList_IndexOf_m20044_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo IList_t639_IList_Insert_m20045_ParameterInfos[] = 
+static const ParameterInfo IList_t640_IList_Insert_m20045_ParameterInfos[] = 
 {
 	{"index", 0, 134219274, 0, &Int32_t82_0_0_0},
 	{"value", 1, 134219275, 0, &Object_t_0_0_0},
@@ -36859,10 +36859,10 @@ extern const MethodInfo IList_Insert_m20045_MethodInfo =
 {
 	"Insert"/* name */
 	, NULL/* method */
-	, &IList_t639_il2cpp_TypeInfo/* declaring_type */
+	, &IList_t640_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Object_t/* invoker_method */
-	, IList_t639_IList_Insert_m20045_ParameterInfos/* parameters */
+	, IList_t640_IList_Insert_m20045_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -36877,7 +36877,7 @@ extern const MethodInfo IList_Insert_m20045_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo IList_t639_IList_Remove_m20046_ParameterInfos[] = 
+static const ParameterInfo IList_t640_IList_Remove_m20046_ParameterInfos[] = 
 {
 	{"value", 0, 134219276, 0, &Object_t_0_0_0},
 };
@@ -36887,10 +36887,10 @@ extern const MethodInfo IList_Remove_m20046_MethodInfo =
 {
 	"Remove"/* name */
 	, NULL/* method */
-	, &IList_t639_il2cpp_TypeInfo/* declaring_type */
+	, &IList_t640_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, IList_t639_IList_Remove_m20046_ParameterInfos/* parameters */
+	, IList_t640_IList_Remove_m20046_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -36905,7 +36905,7 @@ extern const MethodInfo IList_Remove_m20046_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo IList_t639_IList_RemoveAt_m20047_ParameterInfos[] = 
+static const ParameterInfo IList_t640_IList_RemoveAt_m20047_ParameterInfos[] = 
 {
 	{"index", 0, 134219277, 0, &Int32_t82_0_0_0},
 };
@@ -36915,10 +36915,10 @@ extern const MethodInfo IList_RemoveAt_m20047_MethodInfo =
 {
 	"RemoveAt"/* name */
 	, NULL/* method */
-	, &IList_t639_il2cpp_TypeInfo/* declaring_type */
+	, &IList_t640_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, IList_t639_IList_RemoveAt_m20047_ParameterInfos/* parameters */
+	, IList_t640_IList_RemoveAt_m20047_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -36932,7 +36932,7 @@ extern const MethodInfo IList_RemoveAt_m20047_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IList_t639_MethodInfos[] =
+static const MethodInfo* IList_t640_MethodInfos[] =
 {
 	&IList_get_IsFixedSize_m20037_MethodInfo,
 	&IList_get_IsReadOnly_m20038_MethodInfo,
@@ -36948,9 +36948,9 @@ static const MethodInfo* IList_t639_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo IList_get_IsFixedSize_m20037_MethodInfo;
-static const PropertyInfo IList_t639____IsFixedSize_PropertyInfo = 
+static const PropertyInfo IList_t640____IsFixedSize_PropertyInfo = 
 {
-	&IList_t639_il2cpp_TypeInfo/* parent */
+	&IList_t640_il2cpp_TypeInfo/* parent */
 	, "IsFixedSize"/* name */
 	, &IList_get_IsFixedSize_m20037_MethodInfo/* get */
 	, NULL/* set */
@@ -36959,9 +36959,9 @@ static const PropertyInfo IList_t639____IsFixedSize_PropertyInfo =
 
 };
 extern const MethodInfo IList_get_IsReadOnly_m20038_MethodInfo;
-static const PropertyInfo IList_t639____IsReadOnly_PropertyInfo = 
+static const PropertyInfo IList_t640____IsReadOnly_PropertyInfo = 
 {
-	&IList_t639_il2cpp_TypeInfo/* parent */
+	&IList_t640_il2cpp_TypeInfo/* parent */
 	, "IsReadOnly"/* name */
 	, &IList_get_IsReadOnly_m20038_MethodInfo/* get */
 	, NULL/* set */
@@ -36971,9 +36971,9 @@ static const PropertyInfo IList_t639____IsReadOnly_PropertyInfo =
 };
 extern const MethodInfo IList_get_Item_m20039_MethodInfo;
 extern const MethodInfo IList_set_Item_m20040_MethodInfo;
-static const PropertyInfo IList_t639____Item_PropertyInfo = 
+static const PropertyInfo IList_t640____Item_PropertyInfo = 
 {
-	&IList_t639_il2cpp_TypeInfo/* parent */
+	&IList_t640_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
 	, &IList_get_Item_m20039_MethodInfo/* get */
 	, &IList_set_Item_m20040_MethodInfo/* set */
@@ -36981,26 +36981,26 @@ static const PropertyInfo IList_t639____Item_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IList_t639_PropertyInfos[] =
+static const PropertyInfo* IList_t640_PropertyInfos[] =
 {
-	&IList_t639____IsFixedSize_PropertyInfo,
-	&IList_t639____IsReadOnly_PropertyInfo,
-	&IList_t639____Item_PropertyInfo,
+	&IList_t640____IsFixedSize_PropertyInfo,
+	&IList_t640____IsReadOnly_PropertyInfo,
+	&IList_t640____Item_PropertyInfo,
 	NULL
 };
-static const Il2CppType* IList_t639_InterfacesTypeInfos[] = 
+static const Il2CppType* IList_t640_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IList_t639_1_0_0;
-struct IList_t639;
-const Il2CppTypeDefinitionMetadata IList_t639_DefinitionMetadata = 
+extern const Il2CppType IList_t640_1_0_0;
+struct IList_t640;
+const Il2CppTypeDefinitionMetadata IList_t640_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, IList_t639_InterfacesTypeInfos/* implementedInterfaces */
+	, IList_t640_InterfacesTypeInfos/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, NULL/* parent */
 	, NULL/* vtableMethods */
@@ -37009,21 +37009,21 @@ const Il2CppTypeDefinitionMetadata IList_t639_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IList_t639_il2cpp_TypeInfo = 
+TypeInfo IList_t640_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IList"/* name */
 	, "System.Collections"/* namespaze */
-	, IList_t639_MethodInfos/* methods */
-	, IList_t639_PropertyInfos/* properties */
+	, IList_t640_MethodInfos/* methods */
+	, IList_t640_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IList_t639_il2cpp_TypeInfo/* element_class */
+	, &IList_t640_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 197/* custom_attributes_cache */
-	, &IList_t639_0_0_0/* byval_arg */
-	, &IList_t639_1_0_0/* this_arg */
-	, &IList_t639_DefinitionMetadata/* definitionMetadata */
+	, &IList_t640_0_0_0/* byval_arg */
+	, &IList_t640_1_0_0/* this_arg */
+	, &IList_t640_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -37857,7 +37857,7 @@ extern const MethodInfo Type_FilterAttribute_impl_m15932_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Assembly_t719_0_0_0;
+extern const Il2CppType Assembly_t720_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.Assembly System.Type::get_Assembly()
 extern const MethodInfo Type_get_Assembly_m20060_MethodInfo = 
@@ -37865,7 +37865,7 @@ extern const MethodInfo Type_get_Assembly_m20060_MethodInfo =
 	"get_Assembly"/* name */
 	, NULL/* method */
 	, &Type_t_il2cpp_TypeInfo/* declaring_type */
-	, &Assembly_t719_0_0_0/* return_type */
+	, &Assembly_t720_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -40057,9 +40057,9 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType BindingFlags_t4486_0_0_0;
 extern const Il2CppType Binder_t2903_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
 extern const Il2CppType ParameterModifierU5BU5D_t2904_0_0_0;
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 extern const Il2CppType StringU5BU5D_t75_0_0_0;
 static const ParameterInfo Type_t_Type_InvokeMember_m20084_ParameterInfos[] = 
 {
@@ -40067,9 +40067,9 @@ static const ParameterInfo Type_t_Type_InvokeMember_m20084_ParameterInfos[] =
 	{"invokeAttr", 1, 134219385, 0, &BindingFlags_t4486_0_0_0},
 	{"binder", 2, 134219386, 0, &Binder_t2903_0_0_0},
 	{"target", 3, 134219387, 0, &Object_t_0_0_0},
-	{"args", 4, 134219388, 0, &ObjectU5BU5D_t635_0_0_0},
+	{"args", 4, 134219388, 0, &ObjectU5BU5D_t636_0_0_0},
 	{"modifiers", 5, 134219389, 0, &ParameterModifierU5BU5D_t2904_0_0_0},
-	{"culture", 6, 134219390, 0, &CultureInfo_t718_0_0_0},
+	{"culture", 6, 134219390, 0, &CultureInfo_t719_0_0_0},
 	{"namedParameters", 7, 134219391, 0, &StringU5BU5D_t75_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t82_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -40390,7 +40390,7 @@ extern const MethodInfo Type_GetPseudoCustomAttributes_m15999_MethodInfo =
 	"GetPseudoCustomAttributes"/* name */
 	, (methodPointerType)&Type_GetPseudoCustomAttributes_m15999/* method */
 	, &Type_t_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t635_0_0_0/* return_type */
+	, &ObjectU5BU5D_t636_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -41393,7 +41393,7 @@ extern const MethodInfo MemberInfo_GetCustomAttributes_m20090_MethodInfo =
 	"GetCustomAttributes"/* name */
 	, NULL/* method */
 	, &MemberInfo_t_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t635_0_0_0/* return_type */
+	, &ObjectU5BU5D_t636_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
 	, MemberInfo_t_MemberInfo_GetCustomAttributes_m20090_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -41423,7 +41423,7 @@ extern const MethodInfo MemberInfo_GetCustomAttributes_m20091_MethodInfo =
 	"GetCustomAttributes"/* name */
 	, NULL/* method */
 	, &MemberInfo_t_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t635_0_0_0/* return_type */
+	, &ObjectU5BU5D_t636_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88/* invoker_method */
 	, MemberInfo_t_MemberInfo_GetCustomAttributes_m20091_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -41646,7 +41646,7 @@ extern const MethodInfo ICustomAttributeProvider_GetCustomAttributes_m20092_Meth
 	"GetCustomAttributes"/* name */
 	, NULL/* method */
 	, &ICustomAttributeProvider_t4838_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t635_0_0_0/* return_type */
+	, &ObjectU5BU5D_t636_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88/* invoker_method */
 	, ICustomAttributeProvider_t4838_ICustomAttributeProvider_GetCustomAttributes_m20092_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -42491,12 +42491,12 @@ static bool Exception_t57_VTableIsGenericMethod[] =
 extern const Il2CppType _Exception_t2331_0_0_0;
 static const Il2CppType* Exception_t57_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 	&_Exception_t2331_0_0_0,
 };
 static Il2CppInterfaceOffsetPair Exception_t57_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
@@ -42830,11 +42830,11 @@ static bool RuntimeFieldHandle_t4297_VTableIsGenericMethod[] =
 };
 static const Il2CppType* RuntimeFieldHandle_t4297_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair RuntimeFieldHandle_t4297_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType RuntimeFieldHandle_t4297_0_0_0;
@@ -43092,11 +43092,11 @@ static bool RuntimeTypeHandle_t4296_VTableIsGenericMethod[] =
 };
 static const Il2CppType* RuntimeTypeHandle_t4296_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair RuntimeTypeHandle_t4296_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType RuntimeTypeHandle_t4296_1_0_0;
@@ -43170,16 +43170,16 @@ TypeInfo RuntimeTypeHandle_t4296_il2cpp_TypeInfo =
 // System.ParamArrayAttribute
 #include "mscorlib_System_ParamArrayAttribute.h"
 // Metadata Definition System.ParamArrayAttribute
-extern TypeInfo ParamArrayAttribute_t749_il2cpp_TypeInfo;
+extern TypeInfo ParamArrayAttribute_t750_il2cpp_TypeInfo;
 // System.ParamArrayAttribute
 #include "mscorlib_System_ParamArrayAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ParamArrayAttribute::.ctor()
-extern const MethodInfo ParamArrayAttribute__ctor_m4099_MethodInfo = 
+extern const MethodInfo ParamArrayAttribute__ctor_m4100_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ParamArrayAttribute__ctor_m4099/* method */
-	, &ParamArrayAttribute_t749_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ParamArrayAttribute__ctor_m4100/* method */
+	, &ParamArrayAttribute_t750_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -43196,61 +43196,61 @@ extern const MethodInfo ParamArrayAttribute__ctor_m4099_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ParamArrayAttribute_t749_MethodInfos[] =
+static const MethodInfo* ParamArrayAttribute_t750_MethodInfos[] =
 {
-	&ParamArrayAttribute__ctor_m4099_MethodInfo,
+	&ParamArrayAttribute__ctor_m4100_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference ParamArrayAttribute_t749_VTable[] =
+static const Il2CppMethodReference ParamArrayAttribute_t750_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Attribute_GetHashCode_m491_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ParamArrayAttribute_t749_VTableIsGenericMethod[] =
+static bool ParamArrayAttribute_t750_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ParamArrayAttribute_t749_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ParamArrayAttribute_t750_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ParamArrayAttribute_t749_0_0_0;
-extern const Il2CppType ParamArrayAttribute_t749_1_0_0;
-struct ParamArrayAttribute_t749;
-const Il2CppTypeDefinitionMetadata ParamArrayAttribute_t749_DefinitionMetadata = 
+extern const Il2CppType ParamArrayAttribute_t750_0_0_0;
+extern const Il2CppType ParamArrayAttribute_t750_1_0_0;
+struct ParamArrayAttribute_t750;
+const Il2CppTypeDefinitionMetadata ParamArrayAttribute_t750_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ParamArrayAttribute_t749_InterfacesOffsets/* interfaceOffsets */
+	, ParamArrayAttribute_t750_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, ParamArrayAttribute_t749_VTable/* vtableMethods */
-	, ParamArrayAttribute_t749_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ParamArrayAttribute_t750_VTable/* vtableMethods */
+	, ParamArrayAttribute_t750_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo ParamArrayAttribute_t749_il2cpp_TypeInfo = 
+TypeInfo ParamArrayAttribute_t750_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ParamArrayAttribute"/* name */
 	, "System"/* namespaze */
-	, ParamArrayAttribute_t749_MethodInfos/* methods */
+	, ParamArrayAttribute_t750_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ParamArrayAttribute_t749_il2cpp_TypeInfo/* element_class */
+	, &ParamArrayAttribute_t750_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 219/* custom_attributes_cache */
-	, &ParamArrayAttribute_t749_0_0_0/* byval_arg */
-	, &ParamArrayAttribute_t749_1_0_0/* this_arg */
-	, &ParamArrayAttribute_t749_DefinitionMetadata/* definitionMetadata */
+	, &ParamArrayAttribute_t750_0_0_0/* byval_arg */
+	, &ParamArrayAttribute_t750_1_0_0/* this_arg */
+	, &ParamArrayAttribute_t750_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -43260,8 +43260,8 @@ TypeInfo ParamArrayAttribute_t749_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ParamArrayAttribute_t749)/* instance_size */
-	, sizeof (ParamArrayAttribute_t749)/* actualSize */
+	, sizeof (ParamArrayAttribute_t750)/* instance_size */
+	, sizeof (ParamArrayAttribute_t750)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -43416,16 +43416,16 @@ TypeInfo OutAttribute_t4298_il2cpp_TypeInfo =
 // System.ObsoleteAttribute
 #include "mscorlib_System_ObsoleteAttribute.h"
 // Metadata Definition System.ObsoleteAttribute
-extern TypeInfo ObsoleteAttribute_t752_il2cpp_TypeInfo;
+extern TypeInfo ObsoleteAttribute_t753_il2cpp_TypeInfo;
 // System.ObsoleteAttribute
 #include "mscorlib_System_ObsoleteAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ObsoleteAttribute::.ctor()
-extern const MethodInfo ObsoleteAttribute__ctor_m4205_MethodInfo = 
+extern const MethodInfo ObsoleteAttribute__ctor_m4206_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ObsoleteAttribute__ctor_m4205/* method */
-	, &ObsoleteAttribute_t752_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObsoleteAttribute__ctor_m4206/* method */
+	, &ObsoleteAttribute_t753_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -43443,20 +43443,20 @@ extern const MethodInfo ObsoleteAttribute__ctor_m4205_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ObsoleteAttribute_t752_ObsoleteAttribute__ctor_m4187_ParameterInfos[] = 
+static const ParameterInfo ObsoleteAttribute_t753_ObsoleteAttribute__ctor_m4188_ParameterInfos[] = 
 {
 	{"message", 0, 134219424, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ObsoleteAttribute::.ctor(System.String)
-extern const MethodInfo ObsoleteAttribute__ctor_m4187_MethodInfo = 
+extern const MethodInfo ObsoleteAttribute__ctor_m4188_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ObsoleteAttribute__ctor_m4187/* method */
-	, &ObsoleteAttribute_t752_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObsoleteAttribute__ctor_m4188/* method */
+	, &ObsoleteAttribute_t753_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ObsoleteAttribute_t752_ObsoleteAttribute__ctor_m4187_ParameterInfos/* parameters */
+	, ObsoleteAttribute_t753_ObsoleteAttribute__ctor_m4188_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -43472,7 +43472,7 @@ extern const MethodInfo ObsoleteAttribute__ctor_m4187_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ObsoleteAttribute_t752_ObsoleteAttribute__ctor_m5966_ParameterInfos[] = 
+static const ParameterInfo ObsoleteAttribute_t753_ObsoleteAttribute__ctor_m5966_ParameterInfos[] = 
 {
 	{"message", 0, 134219425, 0, &String_t_0_0_0},
 	{"error", 1, 134219426, 0, &Boolean_t59_0_0_0},
@@ -43483,10 +43483,10 @@ extern const MethodInfo ObsoleteAttribute__ctor_m5966_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ObsoleteAttribute__ctor_m5966/* method */
-	, &ObsoleteAttribute_t752_il2cpp_TypeInfo/* declaring_type */
+	, &ObsoleteAttribute_t753_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, ObsoleteAttribute_t752_ObsoleteAttribute__ctor_m5966_ParameterInfos/* parameters */
+	, ObsoleteAttribute_t753_ObsoleteAttribute__ctor_m5966_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -43500,63 +43500,63 @@ extern const MethodInfo ObsoleteAttribute__ctor_m5966_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ObsoleteAttribute_t752_MethodInfos[] =
+static const MethodInfo* ObsoleteAttribute_t753_MethodInfos[] =
 {
-	&ObsoleteAttribute__ctor_m4205_MethodInfo,
-	&ObsoleteAttribute__ctor_m4187_MethodInfo,
+	&ObsoleteAttribute__ctor_m4206_MethodInfo,
+	&ObsoleteAttribute__ctor_m4188_MethodInfo,
 	&ObsoleteAttribute__ctor_m5966_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference ObsoleteAttribute_t752_VTable[] =
+static const Il2CppMethodReference ObsoleteAttribute_t753_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Attribute_GetHashCode_m491_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ObsoleteAttribute_t752_VTableIsGenericMethod[] =
+static bool ObsoleteAttribute_t753_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ObsoleteAttribute_t752_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ObsoleteAttribute_t753_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ObsoleteAttribute_t752_0_0_0;
-extern const Il2CppType ObsoleteAttribute_t752_1_0_0;
-struct ObsoleteAttribute_t752;
-const Il2CppTypeDefinitionMetadata ObsoleteAttribute_t752_DefinitionMetadata = 
+extern const Il2CppType ObsoleteAttribute_t753_0_0_0;
+extern const Il2CppType ObsoleteAttribute_t753_1_0_0;
+struct ObsoleteAttribute_t753;
+const Il2CppTypeDefinitionMetadata ObsoleteAttribute_t753_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ObsoleteAttribute_t752_InterfacesOffsets/* interfaceOffsets */
+	, ObsoleteAttribute_t753_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, ObsoleteAttribute_t752_VTable/* vtableMethods */
-	, ObsoleteAttribute_t752_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ObsoleteAttribute_t753_VTable/* vtableMethods */
+	, ObsoleteAttribute_t753_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 118/* fieldStart */
 
 };
-TypeInfo ObsoleteAttribute_t752_il2cpp_TypeInfo = 
+TypeInfo ObsoleteAttribute_t753_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ObsoleteAttribute"/* name */
 	, "System"/* namespaze */
-	, ObsoleteAttribute_t752_MethodInfos/* methods */
+	, ObsoleteAttribute_t753_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ObsoleteAttribute_t752_il2cpp_TypeInfo/* element_class */
+	, &ObsoleteAttribute_t753_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 221/* custom_attributes_cache */
-	, &ObsoleteAttribute_t752_0_0_0/* byval_arg */
-	, &ObsoleteAttribute_t752_1_0_0/* this_arg */
-	, &ObsoleteAttribute_t752_DefinitionMetadata/* definitionMetadata */
+	, &ObsoleteAttribute_t753_0_0_0/* byval_arg */
+	, &ObsoleteAttribute_t753_1_0_0/* this_arg */
+	, &ObsoleteAttribute_t753_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -43566,8 +43566,8 @@ TypeInfo ObsoleteAttribute_t752_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ObsoleteAttribute_t752)/* instance_size */
-	, sizeof (ObsoleteAttribute_t752)/* actualSize */
+	, sizeof (ObsoleteAttribute_t753)/* instance_size */
+	, sizeof (ObsoleteAttribute_t753)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -45234,18 +45234,18 @@ TypeInfo DefaultMemberAttribute_t81_il2cpp_TypeInfo =
 extern TypeInfo DecimalConstantAttribute_t4305_il2cpp_TypeInfo;
 // System.Runtime.CompilerServices.DecimalConstantAttribute
 #include "mscorlib_System_Runtime_CompilerServices_DecimalConstantAttrMethodDeclarations.h"
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo DecimalConstantAttribute_t4305_DecimalConstantAttribute__ctor_m16023_ParameterInfos[] = 
 {
-	{"scale", 0, 134219434, 0, &Byte_t691_0_0_0},
-	{"sign", 1, 134219435, 0, &Byte_t691_0_0_0},
-	{"hi", 2, 134219436, 0, &UInt32_t690_0_0_0},
-	{"mid", 3, 134219437, 0, &UInt32_t690_0_0_0},
-	{"low", 4, 134219438, 0, &UInt32_t690_0_0_0},
+	{"scale", 0, 134219434, 0, &Byte_t692_0_0_0},
+	{"sign", 1, 134219435, 0, &Byte_t692_0_0_0},
+	{"hi", 2, 134219436, 0, &UInt32_t691_0_0_0},
+	{"mid", 3, 134219437, 0, &UInt32_t691_0_0_0},
+	{"low", 4, 134219438, 0, &UInt32_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88_SByte_t88_Int32_t82_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.CompilerServices.DecimalConstantAttribute::.ctor(System.Byte,System.Byte,System.UInt32,System.UInt32,System.UInt32)
@@ -45723,17 +45723,17 @@ extern const MethodInfo AsyncCallback_BeginInvoke_m16026_MethodInfo;
 extern const MethodInfo AsyncCallback_EndInvoke_m16027_MethodInfo;
 static const Il2CppMethodReference AsyncCallback_t386_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&AsyncCallback_Invoke_m16025_MethodInfo,
 	&AsyncCallback_BeginInvoke_m16026_MethodInfo,
 	&AsyncCallback_EndInvoke_m16027_MethodInfo,
@@ -45757,8 +45757,8 @@ static bool AsyncCallback_t386_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair AsyncCallback_t386_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
 extern const Il2CppType AsyncCallback_t386_1_0_0;
@@ -47038,11 +47038,11 @@ extern const MethodInfo Locale_GetText_m16035_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
 static const ParameterInfo Locale_t4312_Locale_GetText_m16036_ParameterInfos[] = 
 {
 	{"fmt", 0, 134219458, 0, &String_t_0_0_0},
-	{"args", 1, 134219459, 244, &ObjectU5BU5D_t635_0_0_0},
+	{"args", 1, 134219459, 244, &ObjectU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Locale::GetText(System.String,System.Object[])
@@ -47919,14 +47919,14 @@ TypeInfo TableRange_t4318_il2cpp_TypeInfo =
 // Metadata Definition Mono.Globalization.Unicode.CodePointIndexer
 // Mono.Globalization.Unicode.CodePointIndexer
 #include "mscorlib_Mono_Globalization_Unicode_CodePointIndexerMethodDeclarations.h"
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo CodePointIndexer_t4320_CodePointIndexer__ctor_m16045_ParameterInfos[] = 
 {
-	{"starts", 0, 134219465, 0, &Int32U5BU5D_t548_0_0_0},
-	{"ends", 1, 134219466, 0, &Int32U5BU5D_t548_0_0_0},
+	{"starts", 0, 134219465, 0, &Int32U5BU5D_t549_0_0_0},
+	{"ends", 1, 134219466, 0, &Int32U5BU5D_t549_0_0_0},
 	{"defaultIndex", 2, 134219467, 0, &Int32_t82_0_0_0},
 	{"defaultCP", 3, 134219468, 0, &Int32_t82_0_0_0},
 };
@@ -48211,13 +48211,13 @@ TypeInfo TailoringInfo_t4321_il2cpp_TypeInfo =
 extern TypeInfo Contraction_t4322_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.Contraction
 #include "mscorlib_Mono_Globalization_Unicode_ContractionMethodDeclarations.h"
-extern const Il2CppType CharU5BU5D_t660_0_0_0;
+extern const Il2CppType CharU5BU5D_t661_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ByteU5BU5D_t66_0_0_0;
 extern const Il2CppType ByteU5BU5D_t66_0_0_0;
 static const ParameterInfo Contraction_t4322_Contraction__ctor_m16048_ParameterInfos[] = 
 {
-	{"source", 0, 134219477, 0, &CharU5BU5D_t660_0_0_0},
+	{"source", 0, 134219477, 0, &CharU5BU5D_t661_0_0_0},
 	{"replacement", 1, 134219478, 0, &String_t_0_0_0},
 	{"sortkey", 2, 134219479, 0, &ByteU5BU5D_t66_0_0_0},
 };
@@ -48525,12 +48525,12 @@ TypeInfo ContractionComparer_t4323_il2cpp_TypeInfo =
 extern TypeInfo Level2Map_t4324_il2cpp_TypeInfo;
 // Mono.Globalization.Unicode.Level2Map
 #include "mscorlib_Mono_Globalization_Unicode_Level2MapMethodDeclarations.h"
-extern const Il2CppType Byte_t691_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo Level2Map_t4324_Level2Map__ctor_m16052_ParameterInfos[] = 
 {
-	{"source", 0, 134219482, 0, &Byte_t691_0_0_0},
-	{"replace", 1, 134219483, 0, &Byte_t691_0_0_0},
+	{"source", 0, 134219482, 0, &Byte_t692_0_0_0},
+	{"replace", 1, 134219483, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Globalization.Unicode.Level2Map::.ctor(System.Byte,System.Byte)
@@ -48887,7 +48887,7 @@ extern const MethodInfo MSCompatUnicodeTable_GetTailoringInfo_m16057_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CultureInfo_t718_0_0_0;
+extern const Il2CppType CultureInfo_t719_0_0_0;
 extern const Il2CppType TailoringInfo_t4321_0_0_0;
 extern const Il2CppType ContractionU5BU5D_t4335_1_0_0;
 extern const Il2CppType ContractionU5BU5D_t4335_1_0_0;
@@ -48895,7 +48895,7 @@ extern const Il2CppType Level2MapU5BU5D_t4336_1_0_0;
 extern const Il2CppType Level2MapU5BU5D_t4336_1_0_0;
 static const ParameterInfo MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_BuildTailoringTables_m16058_ParameterInfos[] = 
 {
-	{"culture", 0, 134219487, 0, &CultureInfo_t718_0_0_0},
+	{"culture", 0, 134219487, 0, &CultureInfo_t719_0_0_0},
 	{"t", 1, 134219488, 0, &TailoringInfo_t4321_0_0_0},
 	{"contractions", 2, 134219489, 0, &ContractionU5BU5D_t4335_1_0_0},
 	{"diacriticals", 3, 134219490, 0, &Level2MapU5BU5D_t4336_1_0_0},
@@ -48966,15 +48966,15 @@ static const ParameterInfo MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_Categ
 {
 	{"cp", 0, 134219497, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Globalization.Unicode.MSCompatUnicodeTable::Category(System.Int32)
 extern const MethodInfo MSCompatUnicodeTable_Category_m16060_MethodInfo = 
 {
 	"Category"/* name */
 	, (methodPointerType)&MSCompatUnicodeTable_Category_m16060/* method */
 	, &MSCompatUnicodeTable_t4327_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Int32_t82/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Int32_t82/* invoker_method */
 	, MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_Category_m16060_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -48994,15 +48994,15 @@ static const ParameterInfo MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_Level
 {
 	{"cp", 0, 134219498, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Globalization.Unicode.MSCompatUnicodeTable::Level1(System.Int32)
 extern const MethodInfo MSCompatUnicodeTable_Level1_m16061_MethodInfo = 
 {
 	"Level1"/* name */
 	, (methodPointerType)&MSCompatUnicodeTable_Level1_m16061/* method */
 	, &MSCompatUnicodeTable_t4327_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Int32_t82/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Int32_t82/* invoker_method */
 	, MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_Level1_m16061_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -49022,15 +49022,15 @@ static const ParameterInfo MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_Level
 {
 	{"cp", 0, 134219499, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Globalization.Unicode.MSCompatUnicodeTable::Level2(System.Int32)
 extern const MethodInfo MSCompatUnicodeTable_Level2_m16062_MethodInfo = 
 {
 	"Level2"/* name */
 	, (methodPointerType)&MSCompatUnicodeTable_Level2_m16062/* method */
 	, &MSCompatUnicodeTable_t4327_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Int32_t82/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Int32_t82/* invoker_method */
 	, MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_Level2_m16062_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -49050,15 +49050,15 @@ static const ParameterInfo MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_Level
 {
 	{"cp", 0, 134219500, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Byte Mono.Globalization.Unicode.MSCompatUnicodeTable::Level3(System.Int32)
 extern const MethodInfo MSCompatUnicodeTable_Level3_m16063_MethodInfo = 
 {
 	"Level3"/* name */
 	, (methodPointerType)&MSCompatUnicodeTable_Level3_m16063/* method */
 	, &MSCompatUnicodeTable_t4327_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Int32_t82/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Int32_t82/* invoker_method */
 	, MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_Level3_m16063_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -49074,11 +49074,11 @@ extern const MethodInfo MSCompatUnicodeTable_Level3_m16063_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_IsIgnorable_m16064_ParameterInfos[] = 
 {
 	{"cp", 0, 134219501, 0, &Int32_t82_0_0_0},
-	{"flag", 1, 134219502, 0, &Byte_t691_0_0_0},
+	{"flag", 1, 134219502, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Globalization.Unicode.MSCompatUnicodeTable::IsIgnorable(System.Int32,System.Byte)
@@ -49192,7 +49192,7 @@ static const ParameterInfo MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_HasSp
 {
 	{"c", 0, 134219506, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Globalization.Unicode.MSCompatUnicodeTable::HasSpecialWeight(System.Char)
 extern const MethodInfo MSCompatUnicodeTable_HasSpecialWeight_m16068_MethodInfo = 
 {
@@ -49200,7 +49200,7 @@ extern const MethodInfo MSCompatUnicodeTable_HasSpecialWeight_m16068_MethodInfo 
 	, (methodPointerType)&MSCompatUnicodeTable_HasSpecialWeight_m16068/* method */
 	, &MSCompatUnicodeTable_t4327_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
 	, MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_HasSpecialWeight_m16068_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -49220,7 +49220,7 @@ static const ParameterInfo MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_IsHal
 {
 	{"c", 0, 134219507, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Globalization.Unicode.MSCompatUnicodeTable::IsHalfWidthKana(System.Char)
 extern const MethodInfo MSCompatUnicodeTable_IsHalfWidthKana_m16069_MethodInfo = 
 {
@@ -49228,7 +49228,7 @@ extern const MethodInfo MSCompatUnicodeTable_IsHalfWidthKana_m16069_MethodInfo =
 	, (methodPointerType)&MSCompatUnicodeTable_IsHalfWidthKana_m16069/* method */
 	, &MSCompatUnicodeTable_t4327_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
 	, MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_IsHalfWidthKana_m16069_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -49248,7 +49248,7 @@ static const ParameterInfo MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_IsHir
 {
 	{"c", 0, 134219508, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Globalization.Unicode.MSCompatUnicodeTable::IsHiragana(System.Char)
 extern const MethodInfo MSCompatUnicodeTable_IsHiragana_m16070_MethodInfo = 
 {
@@ -49256,7 +49256,7 @@ extern const MethodInfo MSCompatUnicodeTable_IsHiragana_m16070_MethodInfo =
 	, (methodPointerType)&MSCompatUnicodeTable_IsHiragana_m16070/* method */
 	, &MSCompatUnicodeTable_t4327_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
 	, MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_IsHiragana_m16070_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -49276,7 +49276,7 @@ static const ParameterInfo MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_IsJap
 {
 	{"c", 0, 134219509, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Mono.Globalization.Unicode.MSCompatUnicodeTable::IsJapaneseSmallLetter(System.Char)
 extern const MethodInfo MSCompatUnicodeTable_IsJapaneseSmallLetter_m16071_MethodInfo = 
 {
@@ -49284,7 +49284,7 @@ extern const MethodInfo MSCompatUnicodeTable_IsJapaneseSmallLetter_m16071_Method
 	, (methodPointerType)&MSCompatUnicodeTable_IsJapaneseSmallLetter_m16071/* method */
 	, &MSCompatUnicodeTable_t4327_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Int16_t692/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Int16_t693/* invoker_method */
 	, MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_IsJapaneseSmallLetter_m16071_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -49328,21 +49328,21 @@ extern const MethodInfo MSCompatUnicodeTable_GetResource_m16072_MethodInfo =
 
 };
 extern const Il2CppType ByteU2A_t3898_0_0_0;
-extern const Il2CppType UInt32_t690_0_0_0;
+extern const Il2CppType UInt32_t691_0_0_0;
 static const ParameterInfo MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_UInt32FromBytePtr_m16073_ParameterInfos[] = 
 {
 	{"raw", 0, 134219511, 0, &ByteU2A_t3898_0_0_0},
-	{"idx", 1, 134219512, 0, &UInt32_t690_0_0_0},
+	{"idx", 1, 134219512, 0, &UInt32_t691_0_0_0},
 };
-extern void* RuntimeInvoker_UInt32_t690_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt32_t691_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.UInt32 Mono.Globalization.Unicode.MSCompatUnicodeTable::UInt32FromBytePtr(System.Byte*,System.UInt32)
 extern const MethodInfo MSCompatUnicodeTable_UInt32FromBytePtr_m16073_MethodInfo = 
 {
 	"UInt32FromBytePtr"/* name */
 	, (methodPointerType)&MSCompatUnicodeTable_UInt32FromBytePtr_m16073/* method */
 	, &MSCompatUnicodeTable_t4327_il2cpp_TypeInfo/* declaring_type */
-	, &UInt32_t690_0_0_0/* return_type */
-	, RuntimeInvoker_UInt32_t690_Object_t_Int32_t82/* invoker_method */
+	, &UInt32_t691_0_0_0/* return_type */
+	, RuntimeInvoker_UInt32_t691_Object_t_Int32_t82/* invoker_method */
 	, MSCompatUnicodeTable_t4327_MSCompatUnicodeTable_UInt32FromBytePtr_m16073_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */

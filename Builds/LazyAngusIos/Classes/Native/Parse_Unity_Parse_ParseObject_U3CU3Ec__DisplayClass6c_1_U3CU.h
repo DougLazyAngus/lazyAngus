@@ -3,7 +3,7 @@
 // Parse.ParseObject/<>c__DisplayClass6c`1<System.Object>
 struct U3CU3Ec__DisplayClass6c_1_t6040;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t637;
+struct List_1_t638;
 // System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>
 struct Dictionary_2_t6043;
 // System.Func`3<System.Object,Parse.ParseObject,<>f__AnonymousType6`2<System.Object,Parse.ParseObject>>
@@ -20,7 +20,7 @@ struct  U3CU3Ec__DisplayClass74_t6047  : public Object_t
 	// Parse.ParseObject/<>c__DisplayClass6c`1<T> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::CS$<>8__locals6d
 	U3CU3Ec__DisplayClass6c_1_t6040 * ___CSU24U3CU3E8__locals6d_0;
 	// System.Collections.Generic.List`1<T> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::objectsToFetch
-	List_1_t637 * ___objectsToFetch_1;
+	List_1_t638 * ___objectsToFetch_1;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::findsByClass
 	Dictionary_2_t6043 * ___findsByClass_2;
 };

@@ -102,7 +102,7 @@ struct Comparison_1_t5423;
 // System.Int32 System.Collections.Generic.List`1<AN_PropertyTemplate>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
 #define List_1_GetIndex_m22277(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t123 *, int32_t, int32_t, Predicate_1_t5422 *, const MethodInfo*))List_1_GetIndex_m21352_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<AN_PropertyTemplate>::GetEnumerator()
-#define List_1_GetEnumerator_m3482(__this, method) (( Enumerator_t662  (*) (List_1_t123 *, const MethodInfo*))List_1_GetEnumerator_m3630_gshared)(__this, method)
+#define List_1_GetEnumerator_m3482(__this, method) (( Enumerator_t663  (*) (List_1_t123 *, const MethodInfo*))List_1_GetEnumerator_m3630_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<AN_PropertyTemplate>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m22278(__this, ___index, ___count, method) (( List_1_t123 * (*) (List_1_t123 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21354_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<AN_PropertyTemplate>::IndexOf(T)

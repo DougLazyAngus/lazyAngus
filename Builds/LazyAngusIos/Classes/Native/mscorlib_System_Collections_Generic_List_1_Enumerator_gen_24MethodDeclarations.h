@@ -9,11 +9,11 @@ struct Enumerator_t5632;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.List`1<System.Int32>
-struct List_1_t744;
+struct List_1_t745;
 
 // System.Void System.Collections.Generic.List`1/Enumerator<System.Int32>::.ctor(System.Collections.Generic.List`1<T>)
-extern "C" void Enumerator__ctor_m26174_gshared (Enumerator_t5632 * __this, List_1_t744 * ___l, const MethodInfo* method);
-#define Enumerator__ctor_m26174(__this, ___l, method) (( void (*) (Enumerator_t5632 *, List_1_t744 *, const MethodInfo*))Enumerator__ctor_m26174_gshared)(__this, ___l, method)
+extern "C" void Enumerator__ctor_m26174_gshared (Enumerator_t5632 * __this, List_1_t745 * ___l, const MethodInfo* method);
+#define Enumerator__ctor_m26174(__this, ___l, method) (( void (*) (Enumerator_t5632 *, List_1_t745 *, const MethodInfo*))Enumerator__ctor_m26174_gshared)(__this, ___l, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<System.Int32>::System.Collections.IEnumerator.Reset()
 extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m26175_gshared (Enumerator_t5632 * __this, const MethodInfo* method);
 #define Enumerator_System_Collections_IEnumerator_Reset_m26175(__this, method) (( void (*) (Enumerator_t5632 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m26175_gshared)(__this, method)

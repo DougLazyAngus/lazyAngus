@@ -5,7 +5,7 @@ struct BaseRaycasterU5BU5D_t5712;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>
-struct  List_1_t815  : public Object_t
+struct  List_1_t816  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::_items
 	BaseRaycasterU5BU5D_t5712* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t815  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::_version
 	int32_t ____version_3;
 };
-struct List_1_t815_StaticFields{
+struct List_1_t816_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::EmptyArray
 	BaseRaycasterU5BU5D_t5712* ___EmptyArray_4;
 };

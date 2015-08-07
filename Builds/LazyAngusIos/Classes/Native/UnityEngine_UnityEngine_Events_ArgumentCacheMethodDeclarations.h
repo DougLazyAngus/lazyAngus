@@ -7,15 +7,15 @@
 // UnityEngine.Events.ArgumentCache
 struct ArgumentCache_t2832;
 // UnityEngine.Object
-struct Object_t652;
-struct Object_t652_marshaled;
+struct Object_t653;
+struct Object_t653_marshaled;
 // System.String
 struct String_t;
 
 // System.Void UnityEngine.Events.ArgumentCache::.ctor()
 extern "C" void ArgumentCache__ctor_m9762 (ArgumentCache_t2832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.Events.ArgumentCache::get_unityObjectArgument()
-extern "C" Object_t652 * ArgumentCache_get_unityObjectArgument_m9763 (ArgumentCache_t2832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t653 * ArgumentCache_get_unityObjectArgument_m9763 (ArgumentCache_t2832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Events.ArgumentCache::get_unityObjectArgumentAssemblyTypeName()
 extern "C" String_t* ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m9764 (ArgumentCache_t2832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Events.ArgumentCache::get_intArgument()

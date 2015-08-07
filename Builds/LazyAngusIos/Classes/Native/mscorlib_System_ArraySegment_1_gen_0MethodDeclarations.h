@@ -7,15 +7,15 @@
 // System.ArraySegment`1<System.Object>
 struct ArraySegment_1_t8621;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Object
 struct Object_t;
 // System.ArraySegment`1<System.Object>
 #include "mscorlib_System_ArraySegment_1_gen_0.h"
 
 // T[] System.ArraySegment`1<System.Object>::get_Array()
-extern "C" ObjectU5BU5D_t635* ArraySegment_1_get_Array_m63535_gshared (ArraySegment_1_t8621 * __this, const MethodInfo* method);
-#define ArraySegment_1_get_Array_m63535(__this, method) (( ObjectU5BU5D_t635* (*) (ArraySegment_1_t8621 *, const MethodInfo*))ArraySegment_1_get_Array_m63535_gshared)(__this, method)
+extern "C" ObjectU5BU5D_t636* ArraySegment_1_get_Array_m63535_gshared (ArraySegment_1_t8621 * __this, const MethodInfo* method);
+#define ArraySegment_1_get_Array_m63535(__this, method) (( ObjectU5BU5D_t636* (*) (ArraySegment_1_t8621 *, const MethodInfo*))ArraySegment_1_get_Array_m63535_gshared)(__this, method)
 // System.Int32 System.ArraySegment`1<System.Object>::get_Offset()
 extern "C" int32_t ArraySegment_1_get_Offset_m63536_gshared (ArraySegment_1_t8621 * __this, const MethodInfo* method);
 #define ArraySegment_1_get_Offset_m63536(__this, method) (( int32_t (*) (ArraySegment_1_t8621 *, const MethodInfo*))ArraySegment_1_get_Offset_m63536_gshared)(__this, method)

@@ -5,7 +5,7 @@ struct BaseInputModuleU5BU5D_t5681;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
-struct  List_1_t781  : public Object_t
+struct  List_1_t782  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_items
 	BaseInputModuleU5BU5D_t5681* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t781  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_version
 	int32_t ____version_3;
 };
-struct List_1_t781_StaticFields{
+struct List_1_t782_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::EmptyArray
 	BaseInputModuleU5BU5D_t5681* ___EmptyArray_4;
 };

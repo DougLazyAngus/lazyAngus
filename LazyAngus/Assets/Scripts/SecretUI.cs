@@ -12,26 +12,32 @@ public class SecretUI : MonoBehaviour {
 	public InputField debugFlagsInputField;
 
 	public void ToggleVisibility() {
-		bool newState = !inputs.activeInHierarchy;
-		inputs.SetActive(newState);
-		if (!newState) {
-			ApplyInputs();
-		}
+		inputs.SetActive(true);
 	}
 
 	void Awake() {
 		instance = this;
 	}
 
-	void ApplyInputs() {
+	void Start() {
+		levelInputField.onEndEdit.AddListener(delegate{ApplyLevelInput();});
+		debugFlagsInputField.onEndEdit.AddListener(delegate{ApplyDebugFlags();});
+	}
+
+	void ApplyLevelInput() {
 		int suggestedLevel = Utilities.ParseIntWithDefault (levelInputField.text, 0);
 		if (suggestedLevel > 0) {
 			GameLevelState.instance.SetGameLevel (suggestedLevel);
 		}
+		inputs.SetActive (false);
+	}
 
+
+	void ApplyDebugFlags() {
 		int debugFlags = Utilities.ParseIntWithDefault (debugFlagsInputField.text, 0);
 		if (debugFlags > 0) {
 			DebugConfig.instance.debugFlags = debugFlags;
 		}
+		inputs.SetActive (false);
 	}
 }

@@ -9,7 +9,7 @@ struct Enumerator_t5699;
 // System.Object
 struct Object_t;
 // UnityEngine.Component
-struct Component_t711;
+struct Component_t712;
 // System.Collections.Generic.List`1<UnityEngine.Component>
 struct List_1_t988;
 
@@ -28,4 +28,4 @@ struct List_1_t988;
 // System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::MoveNext()
 #define Enumerator_MoveNext_m27149(__this, method) (( bool (*) (Enumerator_t5699 *, const MethodInfo*))Enumerator_MoveNext_m3632_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::get_Current()
-#define Enumerator_get_Current_m27150(__this, method) (( Component_t711 * (*) (Enumerator_t5699 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)
+#define Enumerator_get_Current_m27150(__this, method) (( Component_t712 * (*) (Enumerator_t5699 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)

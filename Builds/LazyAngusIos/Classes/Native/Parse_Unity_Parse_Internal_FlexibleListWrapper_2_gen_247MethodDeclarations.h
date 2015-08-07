@@ -7,7 +7,7 @@
 // Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Object>
 struct FlexibleListWrapper_2_t1758;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.Collections.Generic.IList`1<System.Object>
 struct IList_1_t1324;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>[]

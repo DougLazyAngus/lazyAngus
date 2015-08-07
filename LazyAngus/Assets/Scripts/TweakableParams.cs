@@ -40,9 +40,9 @@ public class TweakableParams : MonoBehaviour {
 	public const int debugInitialBoosts = 5;
 	public const int debugInitialMicePerHole = 6;
 
-	public const float fastPawsBoostTime = 7.0f;
-	public const float goodEyesBoostTime = 7.0f;
-	public const float bigPawsBoostTime = 7.0f;
+	public const float fastPawsBoostTime = 15.0f;
+	public const float goodEyesBoostTime = 15.0f;
+	public const float bigPawsBoostTime = 15.0f;
 	public const float fartBoostTime = 7.0f;
 	public const float poisonPawsBoostTime = 7.0f;
 

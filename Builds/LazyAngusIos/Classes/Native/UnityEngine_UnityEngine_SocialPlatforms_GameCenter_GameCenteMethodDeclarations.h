@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform
-struct GameCenterPlatform_t747;
+struct GameCenterPlatform_t748;
 // UnityEngine.SocialPlatforms.ILocalUser
-struct ILocalUser_t742;
+struct ILocalUser_t743;
 // System.Action`1<System.Boolean>
 struct Action_1_t277;
 // System.String
@@ -42,13 +42,13 @@ struct IAchievement_t2852;
 #include "UnityEngine_UnityEngine_SocialPlatforms_GameCenter_GcUserPro.h"
 
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::.ctor()
-extern "C" void GameCenterPlatform__ctor_m8446 (GameCenterPlatform_t747 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform__ctor_m8446 (GameCenterPlatform_t748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::.cctor()
 extern "C" void GameCenterPlatform__cctor_m8447 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::UnityEngine.SocialPlatforms.ISocialPlatform.LoadFriends(UnityEngine.SocialPlatforms.ILocalUser,System.Action`1<System.Boolean>)
-extern "C" void GameCenterPlatform_UnityEngine_SocialPlatforms_ISocialPlatform_LoadFriends_m8448 (GameCenterPlatform_t747 * __this, Object_t * ___user, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform_UnityEngine_SocialPlatforms_ISocialPlatform_LoadFriends_m8448 (GameCenterPlatform_t748 * __this, Object_t * ___user, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::UnityEngine.SocialPlatforms.ISocialPlatform.Authenticate(UnityEngine.SocialPlatforms.ILocalUser,System.Action`1<System.Boolean>)
-extern "C" void GameCenterPlatform_UnityEngine_SocialPlatforms_ISocialPlatform_Authenticate_m8449 (GameCenterPlatform_t747 * __this, Object_t * ___user, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform_UnityEngine_SocialPlatforms_ISocialPlatform_Authenticate_m8449 (GameCenterPlatform_t748 * __this, Object_t * ___user, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::Internal_Authenticate()
 extern "C" void GameCenterPlatform_Internal_Authenticate_m8450 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::Internal_Authenticated()
@@ -86,9 +86,9 @@ extern "C" void GameCenterPlatform_Internal_ShowDefaultAchievementBanner_m8466 (
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::ResetAllAchievements(System.Action`1<System.Boolean>)
 extern "C" void GameCenterPlatform_ResetAllAchievements_m8467 (Object_t * __this /* static, unused */, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::ShowDefaultAchievementCompletionBanner(System.Boolean)
-extern "C" void GameCenterPlatform_ShowDefaultAchievementCompletionBanner_m4055 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform_ShowDefaultAchievementCompletionBanner_m4056 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::ShowLeaderboardUI(System.String,UnityEngine.SocialPlatforms.TimeScope)
-extern "C" void GameCenterPlatform_ShowLeaderboardUI_m4058 (Object_t * __this /* static, unused */, String_t* ___leaderboardID, int32_t ___timeScope, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform_ShowLeaderboardUI_m4059 (Object_t * __this /* static, unused */, String_t* ___leaderboardID, int32_t ___timeScope, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::Internal_ShowSpecificLeaderboardUI(System.String,System.Int32)
 extern "C" void GameCenterPlatform_Internal_ShowSpecificLeaderboardUI_m8468 (Object_t * __this /* static, unused */, String_t* ___leaderboardID, int32_t ___timeScope, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::ClearAchievementDescriptions(System.Int32)
@@ -118,31 +118,31 @@ extern "C" void GameCenterPlatform_ScoreCallbackWrapper_m8480 (Object_t * __this
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::ScoreLoaderCallbackWrapper(UnityEngine.SocialPlatforms.GameCenter.GcScoreData[])
 extern "C" void GameCenterPlatform_ScoreLoaderCallbackWrapper_m8481 (Object_t * __this /* static, unused */, GcScoreDataU5BU5D_t2850* ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.SocialPlatforms.ILocalUser UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::get_localUser()
-extern "C" Object_t * GameCenterPlatform_get_localUser_m8482 (GameCenterPlatform_t747 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GameCenterPlatform_get_localUser_m8482 (GameCenterPlatform_t748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::PopulateLocalUser()
 extern "C" void GameCenterPlatform_PopulateLocalUser_m8483 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::LoadAchievementDescriptions(System.Action`1<UnityEngine.SocialPlatforms.IAchievementDescription[]>)
-extern "C" void GameCenterPlatform_LoadAchievementDescriptions_m8484 (GameCenterPlatform_t747 * __this, Action_1_t2640 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform_LoadAchievementDescriptions_m8484 (GameCenterPlatform_t748 * __this, Action_1_t2640 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::ReportProgress(System.String,System.Double,System.Action`1<System.Boolean>)
-extern "C" void GameCenterPlatform_ReportProgress_m8485 (GameCenterPlatform_t747 * __this, String_t* ___id, double ___progress, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform_ReportProgress_m8485 (GameCenterPlatform_t748 * __this, String_t* ___id, double ___progress, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::LoadAchievements(System.Action`1<UnityEngine.SocialPlatforms.IAchievement[]>)
-extern "C" void GameCenterPlatform_LoadAchievements_m8486 (GameCenterPlatform_t747 * __this, Action_1_t2641 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform_LoadAchievements_m8486 (GameCenterPlatform_t748 * __this, Action_1_t2641 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::ReportScore(System.Int64,System.String,System.Action`1<System.Boolean>)
-extern "C" void GameCenterPlatform_ReportScore_m8487 (GameCenterPlatform_t747 * __this, int64_t ___score, String_t* ___board, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform_ReportScore_m8487 (GameCenterPlatform_t748 * __this, int64_t ___score, String_t* ___board, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::LoadScores(System.String,System.Action`1<UnityEngine.SocialPlatforms.IScore[]>)
-extern "C" void GameCenterPlatform_LoadScores_m8488 (GameCenterPlatform_t747 * __this, String_t* ___category, Action_1_t2642 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform_LoadScores_m8488 (GameCenterPlatform_t748 * __this, String_t* ___category, Action_1_t2642 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::LoadScores(UnityEngine.SocialPlatforms.ILeaderboard,System.Action`1<System.Boolean>)
-extern "C" void GameCenterPlatform_LoadScores_m8489 (GameCenterPlatform_t747 * __this, Object_t * ___board, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform_LoadScores_m8489 (GameCenterPlatform_t748 * __this, Object_t * ___board, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::LeaderboardCallbackWrapper(System.Boolean)
 extern "C" void GameCenterPlatform_LeaderboardCallbackWrapper_m8490 (Object_t * __this /* static, unused */, bool ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::GetLoading(UnityEngine.SocialPlatforms.ILeaderboard)
-extern "C" bool GameCenterPlatform_GetLoading_m8491 (GameCenterPlatform_t747 * __this, Object_t * ___board, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool GameCenterPlatform_GetLoading_m8491 (GameCenterPlatform_t748 * __this, Object_t * ___board, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::VerifyAuthentication()
-extern "C" bool GameCenterPlatform_VerifyAuthentication_m8492 (GameCenterPlatform_t747 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool GameCenterPlatform_VerifyAuthentication_m8492 (GameCenterPlatform_t748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::ShowAchievementsUI()
-extern "C" void GameCenterPlatform_ShowAchievementsUI_m8493 (GameCenterPlatform_t747 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform_ShowAchievementsUI_m8493 (GameCenterPlatform_t748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::ShowLeaderboardUI()
-extern "C" void GameCenterPlatform_ShowLeaderboardUI_m8494 (GameCenterPlatform_t747 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform_ShowLeaderboardUI_m8494 (GameCenterPlatform_t748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::ClearUsers(System.Int32)
 extern "C" void GameCenterPlatform_ClearUsers_m8495 (Object_t * __this /* static, unused */, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::SetUser(UnityEngine.SocialPlatforms.GameCenter.GcUserProfileData,System.Int32)
@@ -152,14 +152,14 @@ extern "C" void GameCenterPlatform_SetUserImage_m8497 (Object_t * __this /* stat
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::TriggerUsersCallbackWrapper()
 extern "C" void GameCenterPlatform_TriggerUsersCallbackWrapper_m8498 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::LoadUsers(System.String[],System.Action`1<UnityEngine.SocialPlatforms.IUserProfile[]>)
-extern "C" void GameCenterPlatform_LoadUsers_m8499 (GameCenterPlatform_t747 * __this, StringU5BU5D_t75* ___userIds, Action_1_t2643 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterPlatform_LoadUsers_m8499 (GameCenterPlatform_t748 * __this, StringU5BU5D_t75* ___userIds, Action_1_t2643 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::SafeSetUserImage(UnityEngine.SocialPlatforms.Impl.UserProfile[]&,UnityEngine.Texture2D,System.Int32)
 extern "C" void GameCenterPlatform_SafeSetUserImage_m8500 (Object_t * __this /* static, unused */, UserProfileU5BU5D_t2645** ___array, Texture2D_t108 * ___texture, int32_t ___number, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::SafeClearArray(UnityEngine.SocialPlatforms.Impl.UserProfile[]&,System.Int32)
 extern "C" void GameCenterPlatform_SafeClearArray_m8501 (Object_t * __this /* static, unused */, UserProfileU5BU5D_t2645** ___array, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.SocialPlatforms.ILeaderboard UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::CreateLeaderboard()
-extern "C" Object_t * GameCenterPlatform_CreateLeaderboard_m8502 (GameCenterPlatform_t747 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GameCenterPlatform_CreateLeaderboard_m8502 (GameCenterPlatform_t748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.SocialPlatforms.IAchievement UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::CreateAchievement()
-extern "C" Object_t * GameCenterPlatform_CreateAchievement_m8503 (GameCenterPlatform_t747 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GameCenterPlatform_CreateAchievement_m8503 (GameCenterPlatform_t748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::TriggerResetAchievementCallback(System.Boolean)
 extern "C" void GameCenterPlatform_TriggerResetAchievementCallback_m8504 (Object_t * __this /* static, unused */, bool ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

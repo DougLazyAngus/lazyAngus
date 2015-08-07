@@ -17,7 +17,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_121.h"
 
@@ -46,7 +46,7 @@ struct ObjectU5BU5D_t635;
 // System.Object System.Collections.Generic.Dictionary`2/ValueCollection<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::System.Collections.ICollection.get_SyncRoot()
 #define ValueCollection_System_Collections_ICollection_get_SyncRoot_m29749(__this, method) (( Object_t * (*) (ValueCollection_t5864 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m21698_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::CopyTo(TValue[],System.Int32)
-#define ValueCollection_CopyTo_m29750(__this, ___array, ___index, method) (( void (*) (ValueCollection_t5864 *, ObjectU5BU5D_t635*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m21699_gshared)(__this, ___array, ___index, method)
+#define ValueCollection_CopyTo_m29750(__this, ___array, ___index, method) (( void (*) (ValueCollection_t5864 *, ObjectU5BU5D_t636*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m21699_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::GetEnumerator()
 #define ValueCollection_GetEnumerator_m29751(__this, method) (( Enumerator_t8969  (*) (ValueCollection_t5864 *, const MethodInfo*))ValueCollection_GetEnumerator_m21700_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::get_Count()

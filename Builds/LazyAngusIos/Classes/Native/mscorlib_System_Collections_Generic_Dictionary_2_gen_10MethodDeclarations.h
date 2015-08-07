@@ -11,7 +11,7 @@ struct ICollection_1_t8634;
 // System.Collections.Generic.ICollection`1<AndroidADBanner>
 struct ICollection_1_t8723;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // AndroidADBanner
@@ -82,13 +82,13 @@ struct IDictionaryEnumerator_t3911;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
 #define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m23430(__this, method) (( bool (*) (Dictionary_2_t159 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m20866_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m23431(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t159 *, KeyValuePair_2_t683 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m20868_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m23431(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t159 *, KeyValuePair_2_t684 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m20868_gshared)(__this, ___keyValuePair, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m23432(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t159 *, KeyValuePair_2_t683 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m20870_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m23432(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t159 *, KeyValuePair_2_t684 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m20870_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
 #define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m23433(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t159 *, KeyValuePair_2U5BU5D_t8725*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m20872_gshared)(__this, ___array, ___index, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m23434(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t159 *, KeyValuePair_2_t683 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m20874_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m23434(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t159 *, KeyValuePair_2_t684 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m20874_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
 #define Dictionary_2_System_Collections_ICollection_CopyTo_m23435(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t159 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m20876_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::System.Collections.IEnumerable.GetEnumerator()
@@ -110,7 +110,7 @@ struct IDictionaryEnumerator_t3911;
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::CopyToCheck(System.Array,System.Int32)
 #define Dictionary_2_CopyToCheck_m23444(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t159 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m20894_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::make_pair(TKey,TValue)
-#define Dictionary_2_make_pair_m23445(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t683  (*) (Object_t * /* static, unused */, int32_t, AndroidADBanner_t215 *, const MethodInfo*))Dictionary_2_make_pair_m20896_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_make_pair_m23445(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t684  (*) (Object_t * /* static, unused */, int32_t, AndroidADBanner_t215 *, const MethodInfo*))Dictionary_2_make_pair_m20896_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TKey System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::pick_key(TKey,TValue)
 #define Dictionary_2_pick_key_m23446(__this /* static, unused */, ___key, ___value, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, AndroidADBanner_t215 *, const MethodInfo*))Dictionary_2_pick_key_m20898_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::pick_value(TKey,TValue)
@@ -144,8 +144,8 @@ struct IDictionaryEnumerator_t3911;
 // TValue System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::ToTValue(System.Object)
 #define Dictionary_2_ToTValue_m23461(__this, ___value, method) (( AndroidADBanner_t215 * (*) (Dictionary_2_t159 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m20928_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_ContainsKeyValuePair_m23462(__this, ___pair, method) (( bool (*) (Dictionary_2_t159 *, KeyValuePair_2_t683 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m20930_gshared)(__this, ___pair, method)
+#define Dictionary_2_ContainsKeyValuePair_m23462(__this, ___pair, method) (( bool (*) (Dictionary_2_t159 *, KeyValuePair_2_t684 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m20930_gshared)(__this, ___pair, method)
 // System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::GetEnumerator()
-#define Dictionary_2_GetEnumerator_m3576(__this, method) (( Enumerator_t684  (*) (Dictionary_2_t159 *, const MethodInfo*))Dictionary_2_GetEnumerator_m20932_gshared)(__this, method)
+#define Dictionary_2_GetEnumerator_m3576(__this, method) (( Enumerator_t685  (*) (Dictionary_2_t159 *, const MethodInfo*))Dictionary_2_GetEnumerator_m20932_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<System.Int32,AndroidADBanner>::<CopyTo>m__0(TKey,TValue)
 #define Dictionary_2_U3CCopyToU3Em__0_m23463(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2088  (*) (Object_t * /* static, unused */, int32_t, AndroidADBanner_t215 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m20934_gshared)(__this /* static, unused */, ___key, ___value, method)

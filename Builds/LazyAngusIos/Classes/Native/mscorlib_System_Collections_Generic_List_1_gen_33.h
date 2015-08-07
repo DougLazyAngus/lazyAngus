@@ -5,7 +5,7 @@ struct SelectableU5BU5D_t5815;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
-struct  List_1_t910  : public Object_t
+struct  List_1_t911  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_items
 	SelectableU5BU5D_t5815* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t910  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_version
 	int32_t ____version_3;
 };
-struct List_1_t910_StaticFields{
+struct List_1_t911_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::EmptyArray
 	SelectableU5BU5D_t5815* ___EmptyArray_4;
 };

@@ -38,7 +38,7 @@ extern "C" uint16_t DBNull_System_IConvertible_ToChar_m19338 (DBNull_t4746 * __t
 // System.DateTime System.DBNull::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  DBNull_System_IConvertible_ToDateTime_m19339 (DBNull_t4746 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.DBNull::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t695  DBNull_System_IConvertible_ToDecimal_m19340 (DBNull_t4746 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t696  DBNull_System_IConvertible_ToDecimal_m19340 (DBNull_t4746 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.DBNull::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double DBNull_System_IConvertible_ToDouble_m19341 (DBNull_t4746 * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.DBNull::System.IConvertible.ToInt16(System.IFormatProvider)

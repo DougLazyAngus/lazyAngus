@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.Xml.XmlResolver
 struct XmlResolver_t3132;
 // Mono.Xml.DTDNode
@@ -24,7 +24,7 @@ struct  DTDEntityBase_t3146  : public DTDNode_t3134
 	// System.String Mono.Xml.DTDEntityBase::uriString
 	String_t* ___uriString_10;
 	// System.Uri Mono.Xml.DTDEntityBase::absUri
-	Uri_t707 * ___absUri_11;
+	Uri_t708 * ___absUri_11;
 	// System.Boolean Mono.Xml.DTDEntityBase::isInvalid
 	bool ___isInvalid_12;
 	// System.Boolean Mono.Xml.DTDEntityBase::loadFailed

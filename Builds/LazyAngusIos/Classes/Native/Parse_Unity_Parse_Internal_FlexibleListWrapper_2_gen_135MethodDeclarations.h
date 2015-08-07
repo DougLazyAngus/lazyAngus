@@ -9,7 +9,7 @@ struct FlexibleListWrapper_2_t1646;
 // System.Collections.Generic.IList`1<System.Int32>
 struct IList_1_t5633;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.Collections.Generic.IEnumerator`1<System.Char>
 struct IEnumerator_1_t3252;
 // System.Collections.IEnumerator
@@ -36,7 +36,7 @@ struct IEnumerator_t48;
 // System.Boolean Parse.Internal.FlexibleListWrapper`2<System.Char,System.Int32>::Contains(TOut)
 #define FlexibleListWrapper_2_Contains_m39762(__this, ___item, method) (( bool (*) (FlexibleListWrapper_2_t1646 *, uint16_t, const MethodInfo*))FlexibleListWrapper_2_Contains_m37253_gshared)(__this, ___item, method)
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Char,System.Int32>::CopyTo(TOut[],System.Int32)
-#define FlexibleListWrapper_2_CopyTo_m39763(__this, ___array, ___arrayIndex, method) (( void (*) (FlexibleListWrapper_2_t1646 *, CharU5BU5D_t660*, int32_t, const MethodInfo*))FlexibleListWrapper_2_CopyTo_m37254_gshared)(__this, ___array, ___arrayIndex, method)
+#define FlexibleListWrapper_2_CopyTo_m39763(__this, ___array, ___arrayIndex, method) (( void (*) (FlexibleListWrapper_2_t1646 *, CharU5BU5D_t661*, int32_t, const MethodInfo*))FlexibleListWrapper_2_CopyTo_m37254_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Int32 Parse.Internal.FlexibleListWrapper`2<System.Char,System.Int32>::get_Count()
 #define FlexibleListWrapper_2_get_Count_m39764(__this, method) (( int32_t (*) (FlexibleListWrapper_2_t1646 *, const MethodInfo*))FlexibleListWrapper_2_get_Count_m37255_gshared)(__this, method)
 // System.Boolean Parse.Internal.FlexibleListWrapper`2<System.Char,System.Int32>::get_IsReadOnly()

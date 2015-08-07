@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Mesh
-struct Mesh_t481;
+struct Mesh_t482;
 // UnityEngine.Material
-struct Material_t482;
+struct Material_t483;
 // BoostConfig
 struct BoostConfig_t456;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // ConeOfViewRenderer
-struct  ConeOfViewRenderer_t483  : public MonoBehaviour_t13
+struct  ConeOfViewRenderer_t484  : public MonoBehaviour_t13
 {
 	// UnityEngine.Mesh ConeOfViewRenderer::viewMesh
-	Mesh_t481 * ___viewMesh_2;
+	Mesh_t482 * ___viewMesh_2;
 	// UnityEngine.Material ConeOfViewRenderer::viewMaterial
-	Material_t482 * ___viewMaterial_3;
+	Material_t483 * ___viewMaterial_3;
 	// System.Int32 ConeOfViewRenderer::numTriangles
 	int32_t ___numTriangles_4;
 	// BoostConfig ConeOfViewRenderer::boostConfig

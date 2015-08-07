@@ -13,7 +13,7 @@ struct MemberInfo_t;
 // System.Object
 struct Object_t;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.BaseFixupRecord
@@ -28,7 +28,7 @@ extern "C" void ObjectRecord__ctor_m18266 (ObjectRecord_t4617 * __this, const Me
 // System.Void System.Runtime.Serialization.ObjectRecord::SetMemberValue(System.Runtime.Serialization.ObjectManager,System.Reflection.MemberInfo,System.Object)
 extern "C" void ObjectRecord_SetMemberValue_m18267 (ObjectRecord_t4617 * __this, ObjectManager_t4610 * ___manager, MemberInfo_t * ___member, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectRecord::SetArrayValue(System.Runtime.Serialization.ObjectManager,System.Object,System.Int32[])
-extern "C" void ObjectRecord_SetArrayValue_m18268 (ObjectRecord_t4617 * __this, ObjectManager_t4610 * ___manager, Object_t * ___value, Int32U5BU5D_t548* ___indices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectRecord_SetArrayValue_m18268 (ObjectRecord_t4617 * __this, ObjectManager_t4610 * ___manager, Object_t * ___value, Int32U5BU5D_t549* ___indices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectRecord::SetMemberValue(System.Runtime.Serialization.ObjectManager,System.String,System.Object)
 extern "C" void ObjectRecord_SetMemberValue_m18269 (ObjectRecord_t4617 * __this, ObjectManager_t4610 * ___manager, String_t* ___memberName, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.ObjectRecord::get_IsInstanceReady()

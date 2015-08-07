@@ -3,7 +3,7 @@
 // UnityEngine.EventSystems.IEndDragHandler
 struct IEndDragHandler_t970;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t783;
+struct BaseEventData_t784;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>
-struct  EventFunction_1_t801  : public MulticastDelegate_t388
+struct  EventFunction_1_t802  : public MulticastDelegate_t388
 {
 };

@@ -9,7 +9,7 @@ struct Comparison_1_t5437;
 // System.Object
 struct Object_t;
 // UnionAssets.FLE.EventHandlerFunction
-struct EventHandlerFunction_t628;
+struct EventHandlerFunction_t629;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -22,8 +22,8 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
 #define Comparison_1__ctor_m22613(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5437 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21492_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<UnionAssets.FLE.EventHandlerFunction>::Invoke(T,T)
-#define Comparison_1_Invoke_m22614(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5437 *, EventHandlerFunction_t628 *, EventHandlerFunction_t628 *, const MethodInfo*))Comparison_1_Invoke_m21493_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m22614(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5437 *, EventHandlerFunction_t629 *, EventHandlerFunction_t629 *, const MethodInfo*))Comparison_1_Invoke_m21493_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<UnionAssets.FLE.EventHandlerFunction>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m22615(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5437 *, EventHandlerFunction_t628 *, EventHandlerFunction_t628 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21494_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m22615(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5437 *, EventHandlerFunction_t629 *, EventHandlerFunction_t629 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21494_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<UnionAssets.FLE.EventHandlerFunction>::EndInvoke(System.IAsyncResult)
 #define Comparison_1_EndInvoke_m22616(__this, ___result, method) (( int32_t (*) (Comparison_1_t5437 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21495_gshared)(__this, ___result, method)

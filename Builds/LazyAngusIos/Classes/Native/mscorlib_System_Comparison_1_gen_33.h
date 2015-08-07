@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.PointerInputModule/ButtonState
-struct ButtonState_t826;
+struct ButtonState_t827;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

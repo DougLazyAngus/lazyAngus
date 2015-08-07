@@ -9,7 +9,7 @@ struct ValueCollection_t5548;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>
-struct Dictionary_2_t699;
+struct Dictionary_2_t700;
 // FBLikeInfo
 struct FBLikeInfo_t289;
 // System.Collections.Generic.IEnumerator`1<FBLikeInfo>
@@ -26,7 +26,7 @@ struct FBLikeInfoU5BU5D_t5545;
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,FBLikeInfo>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_8MethodDeclarations.h"
-#define ValueCollection__ctor_m24712(__this, ___dictionary, method) (( void (*) (ValueCollection_t5548 *, Dictionary_2_t699 *, const MethodInfo*))ValueCollection__ctor_m21688_gshared)(__this, ___dictionary, method)
+#define ValueCollection__ctor_m24712(__this, ___dictionary, method) (( void (*) (ValueCollection_t5548 *, Dictionary_2_t700 *, const MethodInfo*))ValueCollection__ctor_m21688_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,FBLikeInfo>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
 #define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m24713(__this, ___item, method) (( void (*) (ValueCollection_t5548 *, FBLikeInfo_t289 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m21689_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,FBLikeInfo>::System.Collections.Generic.ICollection<TValue>.Clear()

@@ -9,9 +9,9 @@ struct ParseQuery_1_t1464;
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.Collections.Generic.IEnumerable`1<System.String>
-struct IEnumerable_1_t658;
+struct IEnumerable_1_t659;
 // System.Collections.Generic.HashSet`1<System.String>
 struct HashSet_1_t1238;
 // System.Collections.Generic.IEnumerable`1<Parse.ParseQuery`1<System.Object>>
@@ -27,7 +27,7 @@ struct Task_1_t1342;
 // System.Threading.Tasks.Task`1<System.Int32>
 struct Task_1_t1319;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.Collections.Generic.IList`1<System.Object>
 struct IList_1_t1324;
 // Parse.ParseObject
@@ -44,8 +44,8 @@ struct Task_1_t1336;
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 
 // System.Void Parse.ParseQuery`1<System.Object>::.ctor(Parse.ParseQuery`1<T>,System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>)
-extern "C" void ParseQuery_1__ctor_m31929_gshared (ParseQuery_1_t1464 * __this, ParseQuery_1_t1464 * ___source, Object_t* ___where, Object_t* ___replacementOrderBy, Object_t* ___thenBy, Nullable_1_t643  ___skip, Nullable_1_t643  ___limit, Object_t* ___includes, Object_t* ___selectedKeys, const MethodInfo* method);
-#define ParseQuery_1__ctor_m31929(__this, ___source, ___where, ___replacementOrderBy, ___thenBy, ___skip, ___limit, ___includes, ___selectedKeys, method) (( void (*) (ParseQuery_1_t1464 *, ParseQuery_1_t1464 *, Object_t*, Object_t*, Object_t*, Nullable_1_t643 , Nullable_1_t643 , Object_t*, Object_t*, const MethodInfo*))ParseQuery_1__ctor_m31929_gshared)(__this, ___source, ___where, ___replacementOrderBy, ___thenBy, ___skip, ___limit, ___includes, ___selectedKeys, method)
+extern "C" void ParseQuery_1__ctor_m31929_gshared (ParseQuery_1_t1464 * __this, ParseQuery_1_t1464 * ___source, Object_t* ___where, Object_t* ___replacementOrderBy, Object_t* ___thenBy, Nullable_1_t644  ___skip, Nullable_1_t644  ___limit, Object_t* ___includes, Object_t* ___selectedKeys, const MethodInfo* method);
+#define ParseQuery_1__ctor_m31929(__this, ___source, ___where, ___replacementOrderBy, ___thenBy, ___skip, ___limit, ___includes, ___selectedKeys, method) (( void (*) (ParseQuery_1_t1464 *, ParseQuery_1_t1464 *, Object_t*, Object_t*, Object_t*, Nullable_1_t644 , Nullable_1_t644 , Object_t*, Object_t*, const MethodInfo*))ParseQuery_1__ctor_m31929_gshared)(__this, ___source, ___where, ___replacementOrderBy, ___thenBy, ___skip, ___limit, ___includes, ___selectedKeys, method)
 // System.Collections.Generic.HashSet`1<System.String> Parse.ParseQuery`1<System.Object>::MergeIncludes(System.Collections.Generic.IEnumerable`1<System.String>)
 extern "C" HashSet_1_t1238 * ParseQuery_1_MergeIncludes_m31931_gshared (ParseQuery_1_t1464 * __this, Object_t* ___includes, const MethodInfo* method);
 #define ParseQuery_1_MergeIncludes_m31931(__this, ___includes, method) (( HashSet_1_t1238 * (*) (ParseQuery_1_t1464 *, Object_t*, const MethodInfo*))ParseQuery_1_MergeIncludes_m31931_gshared)(__this, ___includes, method)

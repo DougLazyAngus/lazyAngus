@@ -9,12 +9,12 @@ struct NameTable_t3157;
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 
 // System.Void System.Xml.NameTable::.ctor()
 extern "C" void NameTable__ctor_m10467 (NameTable_t3157 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.NameTable::Add(System.Char[],System.Int32,System.Int32)
-extern "C" String_t* NameTable_Add_m10468 (NameTable_t3157 * __this, CharU5BU5D_t660* ___key, int32_t ___start, int32_t ___len, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NameTable_Add_m10468 (NameTable_t3157 * __this, CharU5BU5D_t661* ___key, int32_t ___start, int32_t ___len, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.NameTable::Add(System.String)
 extern "C" String_t* NameTable_Add_m10469 (NameTable_t3157 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.NameTable::Get(System.String)
@@ -22,4 +22,4 @@ extern "C" String_t* NameTable_Get_m10470 (NameTable_t3157 * __this, String_t* _
 // System.String System.Xml.NameTable::AddEntry(System.String,System.Int32)
 extern "C" String_t* NameTable_AddEntry_m10471 (NameTable_t3157 * __this, String_t* ___str, int32_t ___hash, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.NameTable::StrEqArray(System.String,System.Char[],System.Int32)
-extern "C" bool NameTable_StrEqArray_m10472 (Object_t * __this /* static, unused */, String_t* ___str, CharU5BU5D_t660* ___str2, int32_t ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool NameTable_StrEqArray_m10472 (Object_t * __this /* static, unused */, String_t* ___str, CharU5BU5D_t661* ___str2, int32_t ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;

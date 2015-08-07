@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Single[]
-struct SingleU5BU5D_t543;
+struct SingleU5BU5D_t544;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

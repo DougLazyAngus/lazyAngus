@@ -13,7 +13,7 @@ struct RemoteCertificateValidationCallback_t3887;
 // System.Net.ServicePoint
 struct ServicePoint_t3886;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.Net.IWebProxy
 struct IWebProxy_t3986;
 // System.Net.SecurityProtocolType
@@ -30,6 +30,6 @@ extern "C" int32_t ServicePointManager_get_SecurityProtocol_m12934 (Object_t * _
 // System.Net.Security.RemoteCertificateValidationCallback System.Net.ServicePointManager::get_ServerCertificateValidationCallback()
 extern "C" RemoteCertificateValidationCallback_t3887 * ServicePointManager_get_ServerCertificateValidationCallback_m12937 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.ServicePoint System.Net.ServicePointManager::FindServicePoint(System.Uri,System.Net.IWebProxy)
-extern "C" ServicePoint_t3886 * ServicePointManager_FindServicePoint_m13874 (Object_t * __this /* static, unused */, Uri_t707 * ___address, Object_t * ___proxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ServicePoint_t3886 * ServicePointManager_FindServicePoint_m13874 (Object_t * __this /* static, unused */, Uri_t708 * ___address, Object_t * ___proxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.ServicePointManager::RecycleServicePoints()
 extern "C" void ServicePointManager_RecycleServicePoints_m13875 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,14 +13,14 @@ struct String_t;
 // System.Xml.XmlEntity
 struct XmlEntity_t3179;
 // System.Xml.XmlDocument
-struct XmlDocument_t630;
+struct XmlDocument_t631;
 // System.Xml.XmlNode
-struct XmlNode_t667;
+struct XmlNode_t668;
 // System.Xml.XmlNodeType
 #include "System_Xml_System_Xml_XmlNodeType.h"
 
 // System.Void System.Xml.XmlEntityReference::.ctor(System.String,System.Xml.XmlDocument)
-extern "C" void XmlEntityReference__ctor_m10663 (XmlEntityReference_t3180 * __this, String_t* ___name, XmlDocument_t630 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlEntityReference__ctor_m10663 (XmlEntityReference_t3180 * __this, String_t* ___name, XmlDocument_t631 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlLinkedNode System.Xml.XmlEntityReference::System.Xml.IHasXmlChildNode.get_LastLinkedChild()
 extern "C" XmlLinkedNode_t3164 * XmlEntityReference_System_Xml_IHasXmlChildNode_get_LastLinkedChild_m10664 (XmlEntityReference_t3180 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlEntityReference::System.Xml.IHasXmlChildNode.set_LastLinkedChild(System.Xml.XmlLinkedNode)
@@ -44,6 +44,6 @@ extern "C" String_t* XmlEntityReference_get_Value_m10673 (XmlEntityReference_t31
 // System.Void System.Xml.XmlEntityReference::set_Value(System.String)
 extern "C" void XmlEntityReference_set_Value_m10674 (XmlEntityReference_t3180 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlEntityReference::CloneNode(System.Boolean)
-extern "C" XmlNode_t667 * XmlEntityReference_CloneNode_m10675 (XmlEntityReference_t3180 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t668 * XmlEntityReference_CloneNode_m10675 (XmlEntityReference_t3180 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlEntityReference::SetReferencedEntityContent()
 extern "C" void XmlEntityReference_SetReferencedEntityContent_m10676 (XmlEntityReference_t3180 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

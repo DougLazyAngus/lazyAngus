@@ -3,7 +3,7 @@
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Xml.XmlNode
-struct XmlNode_t667;
+struct XmlNode_t668;
 // System.Collections.ArrayList
 struct ArrayList_t3111;
 // System.Object
@@ -12,7 +12,7 @@ struct ArrayList_t3111;
 struct  XmlNamedNodeMap_t3166  : public Object_t
 {
 	// System.Xml.XmlNode System.Xml.XmlNamedNodeMap::parent
-	XmlNode_t667 * ___parent_1;
+	XmlNode_t668 * ___parent_1;
 	// System.Collections.ArrayList System.Xml.XmlNamedNodeMap::nodeList
 	ArrayList_t3111 * ___nodeList_2;
 	// System.Boolean System.Xml.XmlNamedNodeMap::readOnly

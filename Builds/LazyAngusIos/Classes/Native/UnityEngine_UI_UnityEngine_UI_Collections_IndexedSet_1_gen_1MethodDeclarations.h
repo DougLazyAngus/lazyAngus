@@ -13,7 +13,7 @@ struct IEnumerator_t48;
 // System.Collections.Generic.IEnumerator`1<System.Object>
 struct IEnumerator_1_t105;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Predicate`1<System.Object>
 struct Predicate_1_t5381;
 // System.Comparison`1<System.Object>
@@ -41,8 +41,8 @@ extern "C" void IndexedSet_1_Clear_m28016_gshared (IndexedSet_1_t5750 * __this, 
 extern "C" bool IndexedSet_1_Contains_m28018_gshared (IndexedSet_1_t5750 * __this, Object_t * ___item, const MethodInfo* method);
 #define IndexedSet_1_Contains_m28018(__this, ___item, method) (( bool (*) (IndexedSet_1_t5750 *, Object_t *, const MethodInfo*))IndexedSet_1_Contains_m28018_gshared)(__this, ___item, method)
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::CopyTo(T[],System.Int32)
-extern "C" void IndexedSet_1_CopyTo_m28020_gshared (IndexedSet_1_t5750 * __this, ObjectU5BU5D_t635* ___array, int32_t ___arrayIndex, const MethodInfo* method);
-#define IndexedSet_1_CopyTo_m28020(__this, ___array, ___arrayIndex, method) (( void (*) (IndexedSet_1_t5750 *, ObjectU5BU5D_t635*, int32_t, const MethodInfo*))IndexedSet_1_CopyTo_m28020_gshared)(__this, ___array, ___arrayIndex, method)
+extern "C" void IndexedSet_1_CopyTo_m28020_gshared (IndexedSet_1_t5750 * __this, ObjectU5BU5D_t636* ___array, int32_t ___arrayIndex, const MethodInfo* method);
+#define IndexedSet_1_CopyTo_m28020(__this, ___array, ___arrayIndex, method) (( void (*) (IndexedSet_1_t5750 *, ObjectU5BU5D_t636*, int32_t, const MethodInfo*))IndexedSet_1_CopyTo_m28020_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Int32 UnityEngine.UI.Collections.IndexedSet`1<System.Object>::get_Count()
 extern "C" int32_t IndexedSet_1_get_Count_m28022_gshared (IndexedSet_1_t5750 * __this, const MethodInfo* method);
 #define IndexedSet_1_get_Count_m28022(__this, method) (( int32_t (*) (IndexedSet_1_t5750 *, const MethodInfo*))IndexedSet_1_get_Count_m28022_gshared)(__this, method)

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

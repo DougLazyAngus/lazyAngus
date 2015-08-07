@@ -71,18 +71,18 @@ void g_GoogleAdsWP8_Assembly_CustomAttributesCacheGenerator(CustomAttributesCach
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		AssemblyTitleAttribute_t1043_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1822);
-		CompilationRelaxationsAttribute_t2113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3286);
-		DebuggableAttribute_t2112_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3285);
-		AssemblyFileVersionAttribute_t1044_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1823);
-		GuidAttribute_t1036_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1815);
-		ComVisibleAttribute_t1042_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1821);
-		AssemblyTrademarkAttribute_t1045_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1824);
-		AssemblyCopyrightAttribute_t1041_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1820);
-		AssemblyProductAttribute_t1040_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1819);
-		AssemblyCompanyAttribute_t1039_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1818);
-		AssemblyConfigurationAttribute_t1038_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1817);
-		AssemblyDescriptionAttribute_t1037_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1816);
+		AssemblyTitleAttribute_t1043_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1823);
+		CompilationRelaxationsAttribute_t2113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3287);
+		DebuggableAttribute_t2112_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3286);
+		AssemblyFileVersionAttribute_t1044_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1824);
+		GuidAttribute_t1036_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1816);
+		ComVisibleAttribute_t1042_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1822);
+		AssemblyTrademarkAttribute_t1045_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1825);
+		AssemblyCopyrightAttribute_t1041_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1821);
+		AssemblyProductAttribute_t1040_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1820);
+		AssemblyCompanyAttribute_t1039_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1819);
+		AssemblyConfigurationAttribute_t1038_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1818);
+		AssemblyDescriptionAttribute_t1037_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1817);
 		RuntimeCompatibilityAttribute_t78_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(52);
 		s_Il2CppMethodIntialized = true;
 	}

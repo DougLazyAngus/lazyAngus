@@ -7,7 +7,7 @@
 // System.Xml.XmlInputStream
 struct XmlInputStream_t3183;
 // System.Text.Encoding
-struct Encoding_t689;
+struct Encoding_t690;
 // System.IO.Stream
 struct Stream_t51;
 // System.String
@@ -30,7 +30,7 @@ extern "C" int32_t XmlInputStream_ReadByteSpecial_m10712 (XmlInputStream_t3183 *
 // System.Int32 System.Xml.XmlInputStream::SkipWhitespace()
 extern "C" int32_t XmlInputStream_SkipWhitespace_m10713 (XmlInputStream_t3183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.Encoding System.Xml.XmlInputStream::get_ActualEncoding()
-extern "C" Encoding_t689 * XmlInputStream_get_ActualEncoding_m10714 (XmlInputStream_t3183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Encoding_t690 * XmlInputStream_get_ActualEncoding_m10714 (XmlInputStream_t3183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlInputStream::get_CanRead()
 extern "C" bool XmlInputStream_get_CanRead_m10715 (XmlInputStream_t3183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlInputStream::get_CanSeek()

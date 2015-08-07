@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Runtime.Remoting.Messaging.LogicalCallContext
 struct LogicalCallContext_t4567;
 // System.Object
@@ -24,9 +24,9 @@ struct ArgInfo_t4555;
 struct  ReturnMessage_t4576  : public Object_t
 {
 	// System.Object[] System.Runtime.Remoting.Messaging.ReturnMessage::_outArgs
-	ObjectU5BU5D_t635* ____outArgs_0;
+	ObjectU5BU5D_t636* ____outArgs_0;
 	// System.Object[] System.Runtime.Remoting.Messaging.ReturnMessage::_args
-	ObjectU5BU5D_t635* ____args_1;
+	ObjectU5BU5D_t636* ____args_1;
 	// System.Int32 System.Runtime.Remoting.Messaging.ReturnMessage::_outArgsCount
 	int32_t ____outArgsCount_2;
 	// System.Runtime.Remoting.Messaging.LogicalCallContext System.Runtime.Remoting.Messaging.ReturnMessage::_callCtx

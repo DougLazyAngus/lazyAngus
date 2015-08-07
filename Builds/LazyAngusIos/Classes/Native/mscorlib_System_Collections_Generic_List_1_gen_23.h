@@ -5,7 +5,7 @@ struct EntryU5BU5D_t5718;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct  List_1_t790  : public Object_t
+struct  List_1_t791  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::_items
 	EntryU5BU5D_t5718* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t790  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::_version
 	int32_t ____version_3;
 };
-struct List_1_t790_StaticFields{
+struct List_1_t791_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::EmptyArray
 	EntryU5BU5D_t5718* ___EmptyArray_4;
 };

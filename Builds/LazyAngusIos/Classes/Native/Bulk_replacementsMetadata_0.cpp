@@ -366,7 +366,7 @@ static const ParameterInfo RemotingServices_t3043_RemotingServices_GetClientChan
 	{"objectUri", 2, 134217732, 0, &String_t_1_0_2},
 };
 extern const Il2CppType IMessageSink_t3044_0_0_0;
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t_StringU26_t756 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_StringU26_t757 (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.IMessageSink Replacements.RemotingServices::GetClientChannelSinkChain(System.String,System.Object,System.String&)
 extern const MethodInfo RemotingServices_GetClientChannelSinkChain_m10158_MethodInfo = 
 {
@@ -374,7 +374,7 @@ extern const MethodInfo RemotingServices_GetClientChannelSinkChain_m10158_Method
 	, (methodPointerType)&RemotingServices_GetClientChannelSinkChain_m10158/* method */
 	, &RemotingServices_t3043_il2cpp_TypeInfo/* declaring_type */
 	, &IMessageSink_t3044_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t_StringU26_t756/* invoker_method */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_StringU26_t757/* invoker_method */
 	, RemotingServices_t3043_RemotingServices_GetClientChannelSinkChain_m10158_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -392,13 +392,13 @@ extern const MethodInfo RemotingServices_GetClientChannelSinkChain_m10158_Method
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t635_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t636_0_0_0;
 static const ParameterInfo RemotingServices_t3043_RemotingServices_CreateClientProxy_m10159_ParameterInfos[] = 
 {
 	{"objectType", 0, 134217733, 0, &Type_t_0_0_0},
 	{"url", 1, 134217734, 0, &String_t_0_0_0},
-	{"activationAttributes", 2, 134217735, 0, &ObjectU5BU5D_t635_0_0_0},
+	{"activationAttributes", 2, 134217735, 0, &ObjectU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object Replacements.RemotingServices::CreateClientProxy(System.Type,System.String,System.Object[])

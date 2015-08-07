@@ -7,7 +7,7 @@
 // System.Runtime.Remoting.Messaging.MonoMethodMessage
 struct MonoMethodMessage_t4557;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Runtime.Remoting.Messaging.LogicalCallContext
 struct LogicalCallContext_t4567;
 // System.Reflection.MethodBase
@@ -20,7 +20,7 @@ struct Object_t;
 struct Exception_t57;
 
 // System.Object[] System.Runtime.Remoting.Messaging.MonoMethodMessage::get_Args()
-extern "C" ObjectU5BU5D_t635* MonoMethodMessage_get_Args_m18062 (MonoMethodMessage_t4557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* MonoMethodMessage_get_Args_m18062 (MonoMethodMessage_t4557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Messaging.LogicalCallContext System.Runtime.Remoting.Messaging.MonoMethodMessage::get_LogicalCallContext()
 extern "C" LogicalCallContext_t4567 * MonoMethodMessage_get_LogicalCallContext_m18063 (MonoMethodMessage_t4557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodBase System.Runtime.Remoting.Messaging.MonoMethodMessage::get_MethodBase()
@@ -40,6 +40,6 @@ extern "C" Exception_t57 * MonoMethodMessage_get_Exception_m18070 (MonoMethodMes
 // System.Int32 System.Runtime.Remoting.Messaging.MonoMethodMessage::get_OutArgCount()
 extern "C" int32_t MonoMethodMessage_get_OutArgCount_m18071 (MonoMethodMessage_t4557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Runtime.Remoting.Messaging.MonoMethodMessage::get_OutArgs()
-extern "C" ObjectU5BU5D_t635* MonoMethodMessage_get_OutArgs_m18072 (MonoMethodMessage_t4557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* MonoMethodMessage_get_OutArgs_m18072 (MonoMethodMessage_t4557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Messaging.MonoMethodMessage::get_ReturnValue()
 extern "C" Object_t * MonoMethodMessage_get_ReturnValue_m18073 (MonoMethodMessage_t4557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

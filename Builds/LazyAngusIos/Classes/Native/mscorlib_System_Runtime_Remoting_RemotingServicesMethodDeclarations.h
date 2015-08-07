@@ -25,7 +25,7 @@ struct TypeU5BU5D_t1150;
 // System.Runtime.Remoting.ActivatedClientTypeEntry
 struct ActivatedClientTypeEntry_t4583;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Runtime.Remoting.Identity
 struct Identity_t4580;
 // System.Runtime.Remoting.ClientIdentity
@@ -56,9 +56,9 @@ extern "C" MethodBase_t1474 * RemotingServices_GetMethodBaseFromName_m18162 (Obj
 // System.Reflection.MethodBase System.Runtime.Remoting.RemotingServices::FindInterfaceMethod(System.Type,System.String,System.Type[])
 extern "C" MethodBase_t1474 * RemotingServices_FindInterfaceMethod_m18163 (Object_t * __this /* static, unused */, Type_t * ___type, String_t* ___methodName, TypeU5BU5D_t1150* ___signature, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.RemotingServices::CreateClientProxy(System.Runtime.Remoting.ActivatedClientTypeEntry,System.Object[])
-extern "C" Object_t * RemotingServices_CreateClientProxy_m18164 (Object_t * __this /* static, unused */, ActivatedClientTypeEntry_t4583 * ___entry, ObjectU5BU5D_t635* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_CreateClientProxy_m18164 (Object_t * __this /* static, unused */, ActivatedClientTypeEntry_t4583 * ___entry, ObjectU5BU5D_t636* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.RemotingServices::CreateClientProxyForContextBound(System.Type,System.Object[])
-extern "C" Object_t * RemotingServices_CreateClientProxyForContextBound_m18165 (Object_t * __this /* static, unused */, Type_t * ___type, ObjectU5BU5D_t635* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_CreateClientProxyForContextBound_m18165 (Object_t * __this /* static, unused */, Type_t * ___type, ObjectU5BU5D_t636* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Identity System.Runtime.Remoting.RemotingServices::GetIdentityForUri(System.String)
 extern "C" Identity_t4580 * RemotingServices_GetIdentityForUri_m18166 (Object_t * __this /* static, unused */, String_t* ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.RemotingServices::RemoveAppNameFromUri(System.String)

@@ -315,11 +315,11 @@ TypeInfo RequestState_t3998_il2cpp_TypeInfo =
 // Metadata Definition System.Net.FtpWebRequest
 // System.Net.FtpWebRequest
 #include "System_System_Net_FtpWebRequestMethodDeclarations.h"
-extern const Il2CppType Uri_t707_0_0_0;
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo FtpWebRequest_t3993_FtpWebRequest__ctor_m13628_ParameterInfos[] = 
 {
-	{"uri", 0, 134218581, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218581, 0, &Uri_t708_0_0_0},
 };
 extern const Il2CppType Void_t85_0_0_0;
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -595,7 +595,7 @@ extern const MethodInfo FtpWebRequest_get_RequestUri_m13639_MethodInfo =
 	"get_RequestUri"/* name */
 	, (methodPointerType)&FtpWebRequest_get_RequestUri_m13639/* method */
 	, &FtpWebRequest_t3993_il2cpp_TypeInfo/* declaring_type */
-	, &Uri_t707_0_0_0/* return_type */
+	, &Uri_t708_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -909,10 +909,10 @@ extern const MethodInfo FtpWebRequest_SetType_m13651_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo FtpWebRequest_t3993_FtpWebRequest_GetRemoteFolderPath_m13652_ParameterInfos[] = 
 {
-	{"uri", 0, 134218587, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218587, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Net.FtpWebRequest::GetRemoteFolderPath(System.Uri)
@@ -937,10 +937,10 @@ extern const MethodInfo FtpWebRequest_GetRemoteFolderPath_m13652_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo FtpWebRequest_t3993_FtpWebRequest_CWDAndSetFileName_m13653_ParameterInfos[] = 
 {
-	{"uri", 0, 134218588, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218588, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Net.FtpWebRequest::CWDAndSetFileName(System.Uri)
@@ -1946,10 +1946,10 @@ static bool FtpWebRequest_t3993_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ISerializable_t762_0_0_0;
+extern const Il2CppType ISerializable_t763_0_0_0;
 static Il2CppInterfaceOffsetPair FtpWebRequest_t3993_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType FtpWebRequest_t3993_1_0_0;
@@ -2029,13 +2029,13 @@ extern TypeInfo FtpWebResponse_t3989_il2cpp_TypeInfo;
 // System.Net.FtpWebResponse
 #include "System_System_Net_FtpWebResponseMethodDeclarations.h"
 extern const Il2CppType FtpWebRequest_t3993_0_0_0;
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 static const ParameterInfo FtpWebResponse_t3989_FtpWebResponse__ctor_m13683_ParameterInfos[] = 
 {
 	{"request", 0, 134218604, 0, &FtpWebRequest_t3993_0_0_0},
-	{"uri", 1, 134218605, 0, &Uri_t707_0_0_0},
+	{"uri", 1, 134218605, 0, &Uri_t708_0_0_0},
 	{"method", 2, 134218606, 0, &String_t_0_0_0},
 	{"keepAlive", 3, 134218607, 0, &Boolean_t59_0_0_0},
 };
@@ -2063,14 +2063,14 @@ extern const MethodInfo FtpWebResponse__ctor_m13683_MethodInfo =
 
 };
 extern const Il2CppType FtpWebRequest_t3993_0_0_0;
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType FtpStatusCode_t3997_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo FtpWebResponse_t3989_FtpWebResponse__ctor_m13684_ParameterInfos[] = 
 {
 	{"request", 0, 134218608, 0, &FtpWebRequest_t3993_0_0_0},
-	{"uri", 1, 134218609, 0, &Uri_t707_0_0_0},
+	{"uri", 1, 134218609, 0, &Uri_t708_0_0_0},
 	{"method", 2, 134218610, 0, &String_t_0_0_0},
 	{"statusCode", 3, 134218611, 0, &FtpStatusCode_t3997_0_0_0},
 	{"statusDescription", 4, 134218612, 0, &String_t_0_0_0},
@@ -2099,13 +2099,13 @@ extern const MethodInfo FtpWebResponse__ctor_m13684_MethodInfo =
 
 };
 extern const Il2CppType FtpWebRequest_t3993_0_0_0;
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType FtpStatus_t3996_0_0_0;
 static const ParameterInfo FtpWebResponse_t3989_FtpWebResponse__ctor_m13685_ParameterInfos[] = 
 {
 	{"request", 0, 134218613, 0, &FtpWebRequest_t3993_0_0_0},
-	{"uri", 1, 134218614, 0, &Uri_t707_0_0_0},
+	{"uri", 1, 134218614, 0, &Uri_t708_0_0_0},
 	{"method", 2, 134218615, 0, &String_t_0_0_0},
 	{"status", 3, 134218616, 0, &FtpStatus_t3996_0_0_0},
 };
@@ -2505,7 +2505,7 @@ extern const Il2CppType IDisposable_t58_0_0_0;
 static Il2CppInterfaceOffsetPair FtpWebResponse_t3989_InterfacesOffsets[] = 
 {
 	{ &IDisposable_t58_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 5},
+	{ &ISerializable_t763_0_0_0, 5},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType FtpWebResponse_t3989_0_0_0;
@@ -2742,10 +2742,10 @@ extern const MethodInfo HttpRequestCreator__ctor_m13697_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo HttpRequestCreator_t4003_HttpRequestCreator_Create_m13698_ParameterInfos[] = 
 {
-	{"uri", 0, 134218622, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218622, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Net.WebRequest System.Net.HttpRequestCreator::Create(System.Uri)
@@ -3136,10 +3136,10 @@ TypeInfo HttpVersion_t4005_il2cpp_TypeInfo =
 extern TypeInfo HttpWebRequest_t3811_il2cpp_TypeInfo;
 // System.Net.HttpWebRequest
 #include "System_System_Net_HttpWebRequestMethodDeclarations.h"
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo HttpWebRequest_t3811_HttpWebRequest__ctor_m13700_ParameterInfos[] = 
 {
-	{"uri", 0, 134218623, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218623, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Net.HttpWebRequest::.ctor(System.Uri)
@@ -3256,7 +3256,7 @@ extern const MethodInfo HttpWebRequest_get_Address_m12932_MethodInfo =
 	"get_Address"/* name */
 	, (methodPointerType)&HttpWebRequest_get_Address_m12932/* method */
 	, &HttpWebRequest_t3811_il2cpp_TypeInfo/* declaring_type */
-	, &Uri_t707_0_0_0/* return_type */
+	, &Uri_t708_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -3567,7 +3567,7 @@ extern const MethodInfo HttpWebRequest_get_RequestUri_m13716_MethodInfo =
 	"get_RequestUri"/* name */
 	, (methodPointerType)&HttpWebRequest_get_RequestUri_m13716/* method */
 	, &HttpWebRequest_t3811_il2cpp_TypeInfo/* declaring_type */
-	, &Uri_t707_0_0_0/* return_type */
+	, &Uri_t708_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -3733,7 +3733,7 @@ extern const MethodInfo HttpWebRequest_get_AuthUri_m13722_MethodInfo =
 	"get_AuthUri"/* name */
 	, (methodPointerType)&HttpWebRequest_get_AuthUri_m13722/* method */
 	, &HttpWebRequest_t3811_il2cpp_TypeInfo/* declaring_type */
-	, &Uri_t707_0_0_0/* return_type */
+	, &Uri_t708_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -4768,11 +4768,11 @@ static bool HttpWebRequest_t3811_VTableIsGenericMethod[] =
 };
 static const Il2CppType* HttpWebRequest_t3811_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair HttpWebRequest_t3811_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType HttpWebRequest_t3811_0_0_0;
@@ -4851,14 +4851,14 @@ TypeInfo HttpWebRequest_t3811_il2cpp_TypeInfo =
 extern TypeInfo HttpWebResponse_t4008_il2cpp_TypeInfo;
 // System.Net.HttpWebResponse
 #include "System_System_Net_HttpWebResponseMethodDeclarations.h"
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType WebConnectionData_t4024_0_0_0;
 extern const Il2CppType CookieContainer_t3975_0_0_0;
 extern const Il2CppType CookieContainer_t3975_0_0_0;
 static const ParameterInfo HttpWebResponse_t4008_HttpWebResponse__ctor_m13747_ParameterInfos[] = 
 {
-	{"uri", 0, 134218654, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218654, 0, &Uri_t708_0_0_0},
 	{"method", 1, 134218655, 0, &String_t_0_0_0},
 	{"data", 2, 134218656, 0, &WebConnectionData_t4024_0_0_0},
 	{"container", 3, 134218657, 0, &CookieContainer_t3975_0_0_0},
@@ -5390,12 +5390,12 @@ static bool HttpWebResponse_t4008_VTableIsGenericMethod[] =
 static const Il2CppType* HttpWebResponse_t4008_InterfacesTypeInfos[] = 
 {
 	&IDisposable_t58_0_0_0,
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair HttpWebResponse_t4008_InterfacesOffsets[] = 
 {
 	{ &IDisposable_t58_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 5},
+	{ &ISerializable_t763_0_0_0, 5},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType HttpWebResponse_t4008_0_0_0;
@@ -5540,7 +5540,7 @@ static const ParameterInfo CookieParser_t4012_CookieParser_GetNextNameValue_m137
 	{"name", 0, 134218671, 0, &String_t_1_0_2},
 	{"val", 1, 134218672, 0, &String_t_1_0_2},
 };
-extern void* RuntimeInvoker_Boolean_t59_StringU26_t756_StringU26_t756 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_StringU26_t757_StringU26_t757 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Net.CookieParser::GetNextNameValue(System.String&,System.String&)
 extern const MethodInfo CookieParser_GetNextNameValue_m13766_MethodInfo = 
 {
@@ -5548,7 +5548,7 @@ extern const MethodInfo CookieParser_GetNextNameValue_m13766_MethodInfo =
 	, (methodPointerType)&CookieParser_GetNextNameValue_m13766/* method */
 	, &CookieParser_t4012_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_StringU26_t756_StringU26_t756/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_StringU26_t757_StringU26_t757/* invoker_method */
 	, CookieParser_t4012_CookieParser_GetNextNameValue_m13766_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -5999,11 +5999,11 @@ TypeInfo ICertificatePolicy_t3890_il2cpp_TypeInfo =
 };
 // Metadata Definition System.Net.ICredentials
 extern TypeInfo ICredentials_t3235_il2cpp_TypeInfo;
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo ICredentials_t3235_ICredentials_GetCredential_m15108_ParameterInfos[] = 
 {
-	{"uri", 0, 134218682, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218682, 0, &Uri_t708_0_0_0},
 	{"authType", 1, 134218683, 0, &String_t_0_0_0},
 };
 extern const Il2CppType NetworkCredential_t3999_0_0_0;
@@ -6270,21 +6270,21 @@ extern const MethodInfo IPAddress__cctor_m13771_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 static const ParameterInfo IPAddress_t4014_IPAddress_SwapShort_m13772_ParameterInfos[] = 
 {
-	{"number", 0, 134218687, 0, &Int16_t692_0_0_0},
+	{"number", 0, 134218687, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Net.IPAddress::SwapShort(System.Int16)
 extern const MethodInfo IPAddress_SwapShort_m13772_MethodInfo = 
 {
 	"SwapShort"/* name */
 	, (methodPointerType)&IPAddress_SwapShort_m13772/* method */
 	, &IPAddress_t4014_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Int16_t692/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Int16_t693/* invoker_method */
 	, IPAddress_t4014_IPAddress_SwapShort_m13772_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
@@ -6299,20 +6299,20 @@ extern const MethodInfo IPAddress_SwapShort_m13772_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 static const ParameterInfo IPAddress_t4014_IPAddress_HostToNetworkOrder_m13773_ParameterInfos[] = 
 {
-	{"host", 0, 134218688, 0, &Int16_t692_0_0_0},
+	{"host", 0, 134218688, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Net.IPAddress::HostToNetworkOrder(System.Int16)
 extern const MethodInfo IPAddress_HostToNetworkOrder_m13773_MethodInfo = 
 {
 	"HostToNetworkOrder"/* name */
 	, (methodPointerType)&IPAddress_HostToNetworkOrder_m13773/* method */
 	, &IPAddress_t4014_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Int16_t692/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Int16_t693/* invoker_method */
 	, IPAddress_t4014_IPAddress_HostToNetworkOrder_m13773_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -6327,20 +6327,20 @@ extern const MethodInfo IPAddress_HostToNetworkOrder_m13773_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int16_t692_0_0_0;
+extern const Il2CppType Int16_t693_0_0_0;
 static const ParameterInfo IPAddress_t4014_IPAddress_NetworkToHostOrder_m13774_ParameterInfos[] = 
 {
-	{"network", 0, 134218689, 0, &Int16_t692_0_0_0},
+	{"network", 0, 134218689, 0, &Int16_t693_0_0_0},
 };
-extern void* RuntimeInvoker_Int16_t692_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int16_t693_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Int16 System.Net.IPAddress::NetworkToHostOrder(System.Int16)
 extern const MethodInfo IPAddress_NetworkToHostOrder_m13774_MethodInfo = 
 {
 	"NetworkToHostOrder"/* name */
 	, (methodPointerType)&IPAddress_NetworkToHostOrder_m13774/* method */
 	, &IPAddress_t4014_il2cpp_TypeInfo/* declaring_type */
-	, &Int16_t692_0_0_0/* return_type */
-	, RuntimeInvoker_Int16_t692_Int16_t692/* invoker_method */
+	, &Int16_t693_0_0_0/* return_type */
+	, RuntimeInvoker_Int16_t693_Int16_t693/* invoker_method */
 	, IPAddress_t4014_IPAddress_NetworkToHostOrder_m13774_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -7965,21 +7965,21 @@ extern const MethodInfo IPv6Address_IsLoopback_m13817_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UInt16_t693_0_0_0;
-extern const Il2CppType UInt16_t693_0_0_0;
+extern const Il2CppType UInt16_t694_0_0_0;
+extern const Il2CppType UInt16_t694_0_0_0;
 static const ParameterInfo IPv6Address_t4015_IPv6Address_SwapUShort_m13818_ParameterInfos[] = 
 {
-	{"number", 0, 134218728, 0, &UInt16_t693_0_0_0},
+	{"number", 0, 134218728, 0, &UInt16_t694_0_0_0},
 };
-extern void* RuntimeInvoker_UInt16_t693_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_UInt16_t694_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.Net.IPv6Address::SwapUShort(System.UInt16)
 extern const MethodInfo IPv6Address_SwapUShort_m13818_MethodInfo = 
 {
 	"SwapUShort"/* name */
 	, (methodPointerType)&IPv6Address_SwapUShort_m13818/* method */
 	, &IPv6Address_t4015_il2cpp_TypeInfo/* declaring_type */
-	, &UInt16_t693_0_0_0/* return_type */
-	, RuntimeInvoker_UInt16_t693_Int16_t692/* invoker_method */
+	, &UInt16_t694_0_0_0/* return_type */
+	, RuntimeInvoker_UInt16_t694_Int16_t693/* invoker_method */
 	, IPv6Address_t4015_IPv6Address_SwapUShort_m13818_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
@@ -8364,10 +8364,10 @@ extern const MethodInfo IWebProxy_get_Credentials_m15109_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo IWebProxy_t3986_IWebProxy_GetProxy_m15110_ParameterInfos[] = 
 {
-	{"destination", 0, 134218735, 0, &Uri_t707_0_0_0},
+	{"destination", 0, 134218735, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Uri System.Net.IWebProxy::GetProxy(System.Uri)
@@ -8376,7 +8376,7 @@ extern const MethodInfo IWebProxy_GetProxy_m15110_MethodInfo =
 	"GetProxy"/* name */
 	, NULL/* method */
 	, &IWebProxy_t3986_il2cpp_TypeInfo/* declaring_type */
-	, &Uri_t707_0_0_0/* return_type */
+	, &Uri_t708_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, IWebProxy_t3986_IWebProxy_GetProxy_m15110_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -8392,10 +8392,10 @@ extern const MethodInfo IWebProxy_GetProxy_m15110_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo IWebProxy_t3986_IWebProxy_IsBypassed_m15111_ParameterInfos[] = 
 {
-	{"host", 0, 134218736, 0, &Uri_t707_0_0_0},
+	{"host", 0, 134218736, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Net.IWebProxy::IsBypassed(System.Uri)
@@ -8515,10 +8515,10 @@ TypeInfo IWebProxy_t3986_il2cpp_TypeInfo =
 };
 // Metadata Definition System.Net.IWebRequestCreate
 extern TypeInfo IWebRequestCreate_t4142_il2cpp_TypeInfo;
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo IWebRequestCreate_t4142_IWebRequestCreate_Create_m15112_ParameterInfos[] = 
 {
-	{"uri", 0, 134218737, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218737, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Net.WebRequest System.Net.IWebRequestCreate::Create(System.Uri)
@@ -8693,11 +8693,11 @@ extern const MethodInfo NetworkCredential_get_Password_m13829_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo NetworkCredential_t3999_NetworkCredential_GetCredential_m13830_ParameterInfos[] = 
 {
-	{"uri", 0, 134218738, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218738, 0, &Uri_t708_0_0_0},
 	{"authType", 1, 134218739, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -9060,12 +9060,12 @@ static bool ProtocolViolationException_t4016_VTableIsGenericMethod[] =
 };
 static const Il2CppType* ProtocolViolationException_t4016_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 extern const Il2CppType _Exception_t2331_0_0_0;
 static Il2CppInterfaceOffsetPair ProtocolViolationException_t4016_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -9284,12 +9284,12 @@ TypeInfo SecurityProtocolType_t4017_il2cpp_TypeInfo =
 extern TypeInfo ServicePoint_t3886_il2cpp_TypeInfo;
 // System.Net.ServicePoint
 #include "System_System_Net_ServicePointMethodDeclarations.h"
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo ServicePoint_t3886_ServicePoint__ctor_m13836_ParameterInfos[] = 
 {
-	{"uri", 0, 134218747, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218747, 0, &Uri_t708_0_0_0},
 	{"connectionLimit", 1, 134218748, 0, &Int32_t82_0_0_0},
 	{"maxIdleTime", 2, 134218749, 0, &Int32_t82_0_0_0},
 };
@@ -9323,7 +9323,7 @@ extern const MethodInfo ServicePoint_get_Address_m13837_MethodInfo =
 	"get_Address"/* name */
 	, (methodPointerType)&ServicePoint_get_Address_m13837/* method */
 	, &ServicePoint_t3886_il2cpp_TypeInfo/* declaring_type */
-	, &Uri_t707_0_0_0/* return_type */
+	, &Uri_t708_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -10195,11 +10195,11 @@ TypeInfo ServicePoint_t3886_il2cpp_TypeInfo =
 extern TypeInfo SPKey_t4019_il2cpp_TypeInfo;
 // System.Net.ServicePointManager/SPKey
 #include "System_System_Net_ServicePointManager_SPKeyMethodDeclarations.h"
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 static const ParameterInfo SPKey_t4019_SPKey__ctor_m13860_ParameterInfos[] = 
 {
-	{"uri", 0, 134218766, 0, &Uri_t707_0_0_0},
+	{"uri", 0, 134218766, 0, &Uri_t708_0_0_0},
 	{"use_connect", 1, 134218767, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -10894,11 +10894,11 @@ extern const MethodInfo ServicePointManager_get_ServerCertificateValidationCallb
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType IWebProxy_t3986_0_0_0;
 static const ParameterInfo ServicePointManager_t3879_ServicePointManager_FindServicePoint_m13874_ParameterInfos[] = 
 {
-	{"address", 0, 134218764, 0, &Uri_t707_0_0_0},
+	{"address", 0, 134218764, 0, &Uri_t708_0_0_0},
 	{"proxy", 1, 134218765, 0, &IWebProxy_t3986_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -11186,16 +11186,16 @@ static const ParameterInfo SocketAddress_t4021_SocketAddress_get_Item_m13879_Par
 {
 	{"offset", 0, 134218782, 0, &Int32_t82_0_0_0},
 };
-extern const Il2CppType Byte_t691_0_0_0;
-extern void* RuntimeInvoker_Byte_t691_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType Byte_t692_0_0_0;
+extern void* RuntimeInvoker_Byte_t692_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Net.SocketAddress::get_Item(System.Int32)
 extern const MethodInfo SocketAddress_get_Item_m13879_MethodInfo = 
 {
 	"get_Item"/* name */
 	, (methodPointerType)&SocketAddress_get_Item_m13879/* method */
 	, &SocketAddress_t4021_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Int32_t82/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Int32_t82/* invoker_method */
 	, SocketAddress_t4021_SocketAddress_get_Item_m13879_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -11211,11 +11211,11 @@ extern const MethodInfo SocketAddress_get_Item_m13879_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType Byte_t691_0_0_0;
+extern const Il2CppType Byte_t692_0_0_0;
 static const ParameterInfo SocketAddress_t4021_SocketAddress_set_Item_m13880_ParameterInfos[] = 
 {
 	{"offset", 0, 134218783, 0, &Int32_t82_0_0_0},
-	{"value", 1, 134218784, 0, &Byte_t691_0_0_0},
+	{"value", 1, 134218784, 0, &Byte_t692_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Net.SocketAddress::set_Item(System.Int32,System.Byte)
@@ -13207,7 +13207,7 @@ static const ParameterInfo WebConnection_t4011_WebConnection_ReadLine_m13930_Par
 	{"max", 2, 134218833, 0, &Int32_t82_0_0_0},
 	{"output", 3, 134218834, 0, &String_t_1_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32U26_t1085_Int32_t82_StringU26_t756 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32U26_t1085_Int32_t82_StringU26_t757 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Net.WebConnection::ReadLine(System.Byte[],System.Int32&,System.Int32,System.String&)
 extern const MethodInfo WebConnection_ReadLine_m13930_MethodInfo = 
 {
@@ -13215,7 +13215,7 @@ extern const MethodInfo WebConnection_ReadLine_m13930_MethodInfo =
 	, (methodPointerType)&WebConnection_ReadLine_m13930/* method */
 	, &WebConnection_t4011_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Object_t_Int32U26_t1085_Int32_t82_StringU26_t756/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Object_t_Int32U26_t1085_Int32_t82_StringU26_t757/* invoker_method */
 	, WebConnection_t4011_WebConnection_ReadLine_m13930_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
@@ -13498,7 +13498,7 @@ static const ParameterInfo WebConnection_t4011_WebConnection_Write_m13939_Parame
 	{"size", 3, 134218863, 0, &Int32_t82_0_0_0},
 	{"err_msg", 4, 134218864, 0, &String_t_1_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Int32_t82_Int32_t82_StringU26_t756 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Int32_t82_Int32_t82_StringU26_t757 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Net.WebConnection::Write(System.Net.HttpWebRequest,System.Byte[],System.Int32,System.Int32,System.String&)
 extern const MethodInfo WebConnection_Write_m13939_MethodInfo = 
 {
@@ -13506,7 +13506,7 @@ extern const MethodInfo WebConnection_Write_m13939_MethodInfo =
 	, (methodPointerType)&WebConnection_Write_m13939/* method */
 	, &WebConnection_t4011_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Object_t_Object_t_Int32_t82_Int32_t82_StringU26_t756/* invoker_method */
+	, RuntimeInvoker_Boolean_t59_Object_t_Object_t_Int32_t82_Int32_t82_StringU26_t757/* invoker_method */
 	, WebConnection_t4011_WebConnection_Write_m13939_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
@@ -16310,11 +16310,11 @@ static bool WebException_t4026_VTableIsGenericMethod[] =
 };
 static const Il2CppType* WebException_t4026_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair WebException_t4026_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &_Exception_t2331_0_0_0, 5},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -17432,17 +17432,17 @@ static bool WebHeaderCollection_t3969_VTableIsGenericMethod[] =
 };
 static const Il2CppType* WebHeaderCollection_t3969_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
-extern const Il2CppType ICollection_t704_0_0_0;
-extern const Il2CppType IDeserializationCallback_t766_0_0_0;
+extern const Il2CppType ICollection_t705_0_0_0;
+extern const Il2CppType IDeserializationCallback_t767_0_0_0;
 extern const Il2CppType IEnumerable_t104_0_0_0;
 static Il2CppInterfaceOffsetPair WebHeaderCollection_t3969_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
-	{ &IDeserializationCallback_t766_0_0_0, 8},
+	{ &ICollection_t705_0_0_0, 4},
+	{ &IDeserializationCallback_t767_0_0_0, 8},
 	{ &IEnumerable_t104_0_0_0, 9},
-	{ &ISerializable_t762_0_0_0, 10},
+	{ &ISerializable_t763_0_0_0, 10},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType WebHeaderCollection_t3969_1_0_0;
@@ -17544,13 +17544,13 @@ extern const MethodInfo WebProxy__ctor_m14040_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType StringU5BU5D_t75_0_0_0;
 extern const Il2CppType ICredentials_t3235_0_0_0;
 static const ParameterInfo WebProxy_t4029_WebProxy__ctor_m14041_ParameterInfos[] = 
 {
-	{"address", 0, 134218966, 0, &Uri_t707_0_0_0},
+	{"address", 0, 134218966, 0, &Uri_t708_0_0_0},
 	{"bypassOnLocal", 1, 134218967, 0, &Boolean_t59_0_0_0},
 	{"bypassList", 2, 134218968, 0, &StringU5BU5D_t75_0_0_0},
 	{"credentials", 3, 134218969, 0, &ICredentials_t3235_0_0_0},
@@ -17684,10 +17684,10 @@ extern const MethodInfo WebProxy_get_UseDefaultCredentials_m14045_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo WebProxy_t4029_WebProxy_GetProxy_m14046_ParameterInfos[] = 
 {
-	{"destination", 0, 134218974, 0, &Uri_t707_0_0_0},
+	{"destination", 0, 134218974, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Uri System.Net.WebProxy::GetProxy(System.Uri)
@@ -17696,7 +17696,7 @@ extern const MethodInfo WebProxy_GetProxy_m14046_MethodInfo =
 	"GetProxy"/* name */
 	, (methodPointerType)&WebProxy_GetProxy_m14046/* method */
 	, &WebProxy_t4029_il2cpp_TypeInfo/* declaring_type */
-	, &Uri_t707_0_0_0/* return_type */
+	, &Uri_t708_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, WebProxy_t4029_WebProxy_GetProxy_m14046_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17712,10 +17712,10 @@ extern const MethodInfo WebProxy_GetProxy_m14046_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo WebProxy_t4029_WebProxy_IsBypassed_m14047_ParameterInfos[] = 
 {
-	{"host", 0, 134218975, 0, &Uri_t707_0_0_0},
+	{"host", 0, 134218975, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Net.WebProxy::IsBypassed(System.Uri)
@@ -17865,12 +17865,12 @@ static bool WebProxy_t4029_VTableIsGenericMethod[] =
 };
 static const Il2CppType* WebProxy_t4029_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 	&IWebProxy_t3986_0_0_0,
 };
 static Il2CppInterfaceOffsetPair WebProxy_t4029_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 	{ &IWebProxy_t3986_0_0_0, 5},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -18259,7 +18259,7 @@ extern const MethodInfo WebRequest_get_RequestUri_m14062_MethodInfo =
 	"get_RequestUri"/* name */
 	, (methodPointerType)&WebRequest_get_RequestUri_m14062/* method */
 	, &WebRequest_t3253_il2cpp_TypeInfo/* declaring_type */
-	, &Uri_t707_0_0_0/* return_type */
+	, &Uri_t708_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -18374,10 +18374,10 @@ extern const MethodInfo WebRequest_BeginGetResponse_m14066_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Uri_t707_0_0_0;
+extern const Il2CppType Uri_t708_0_0_0;
 static const ParameterInfo WebRequest_t3253_WebRequest_Create_m11244_ParameterInfos[] = 
 {
-	{"requestUri", 0, 134218987, 0, &Uri_t707_0_0_0},
+	{"requestUri", 0, 134218987, 0, &Uri_t708_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Net.WebRequest System.Net.WebRequest::Create(System.Uri)
@@ -18704,11 +18704,11 @@ static bool WebRequest_t3253_VTableIsGenericMethod[] =
 };
 static const Il2CppType* WebRequest_t3253_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair WebRequest_t3253_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType WebRequest_t3253_1_0_0;
@@ -19075,12 +19075,12 @@ static bool WebResponse_t3254_VTableIsGenericMethod[] =
 static const Il2CppType* WebResponse_t3254_InterfacesTypeInfos[] = 
 {
 	&IDisposable_t58_0_0_0,
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair WebResponse_t3254_InterfacesOffsets[] = 
 {
 	{ &IDisposable_t58_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 5},
+	{ &ISerializable_t763_0_0_0, 5},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType WebResponse_t3254_1_0_0;
@@ -22381,8 +22381,8 @@ static bool X509Certificate2_t3888_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair X509Certificate2_t3888_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
-	{ &IDeserializationCallback_t766_0_0_0, 5},
+	{ &ISerializable_t763_0_0_0, 4},
+	{ &IDeserializationCallback_t767_0_0_0, 5},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType X509Certificate2_t3888_1_0_0;
@@ -22799,12 +22799,12 @@ static bool X509Certificate2Collection_t4045_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IList_t639_0_0_0;
+extern const Il2CppType IList_t640_0_0_0;
 static Il2CppInterfaceOffsetPair X509Certificate2Collection_t4045_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType X509Certificate2Collection_t4045_1_0_0;
@@ -23768,8 +23768,8 @@ static bool X509CertificateCollection_t3833_VTableIsGenericMethod[] =
 static Il2CppInterfaceOffsetPair X509CertificateCollection_t3833_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t704_0_0_0, 5},
-	{ &IList_t639_0_0_0, 9},
+	{ &ICollection_t705_0_0_0, 5},
+	{ &IList_t640_0_0_0, 9},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType X509CertificateCollection_t3833_1_0_0;
@@ -25635,12 +25635,12 @@ static bool X509ChainElementCollection_t4047_VTableIsGenericMethod[] =
 };
 static const Il2CppType* X509ChainElementCollection_t4047_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
 static Il2CppInterfaceOffsetPair X509ChainElementCollection_t4047_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
+	{ &ICollection_t705_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -27584,12 +27584,12 @@ static bool X509ExtensionCollection_t4044_VTableIsGenericMethod[] =
 };
 static const Il2CppType* X509ExtensionCollection_t4044_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
 static Il2CppInterfaceOffsetPair X509ExtensionCollection_t4044_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
+	{ &ICollection_t705_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -29510,15 +29510,15 @@ static const ParameterInfo X509SubjectKeyIdentifierExtension_t4064_X509SubjectKe
 {
 	{"c", 0, 134219155, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHexChar(System.Char)
 extern const MethodInfo X509SubjectKeyIdentifierExtension_FromHexChar_m14277_MethodInfo = 
 {
 	"FromHexChar"/* name */
 	, (methodPointerType)&X509SubjectKeyIdentifierExtension_FromHexChar_m14277/* method */
 	, &X509SubjectKeyIdentifierExtension_t4064_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Int16_t692/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Int16_t693/* invoker_method */
 	, X509SubjectKeyIdentifierExtension_t4064_X509SubjectKeyIdentifierExtension_FromHexChar_m14277_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
@@ -29540,15 +29540,15 @@ static const ParameterInfo X509SubjectKeyIdentifierExtension_t4064_X509SubjectKe
 	{"c1", 0, 134219156, 0, &Char_t60_0_0_0},
 	{"c2", 1, 134219157, 0, &Char_t60_0_0_0},
 };
-extern void* RuntimeInvoker_Byte_t691_Int16_t692_Int16_t692 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Byte_t692_Int16_t693_Int16_t693 (const MethodInfo* method, void* obj, void** args);
 // System.Byte System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHexChars(System.Char,System.Char)
 extern const MethodInfo X509SubjectKeyIdentifierExtension_FromHexChars_m14278_MethodInfo = 
 {
 	"FromHexChars"/* name */
 	, (methodPointerType)&X509SubjectKeyIdentifierExtension_FromHexChars_m14278/* method */
 	, &X509SubjectKeyIdentifierExtension_t4064_il2cpp_TypeInfo/* declaring_type */
-	, &Byte_t691_0_0_0/* return_type */
-	, RuntimeInvoker_Byte_t691_Int16_t692_Int16_t692/* invoker_method */
+	, &Byte_t692_0_0_0/* return_type */
+	, RuntimeInvoker_Byte_t692_Int16_t693_Int16_t693/* invoker_method */
 	, X509SubjectKeyIdentifierExtension_t4064_X509SubjectKeyIdentifierExtension_FromHexChars_m14278_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
@@ -31480,12 +31480,12 @@ static bool OidCollection_t4054_VTableIsGenericMethod[] =
 };
 static const Il2CppType* OidCollection_t4054_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
 static Il2CppInterfaceOffsetPair OidCollection_t4054_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
+	{ &ICollection_t705_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -31923,30 +31923,30 @@ static const MethodInfo* MatchAppendEvaluator_t4069_MethodInfos[] =
 	&MatchAppendEvaluator_EndInvoke_m14323_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m4257_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m4258_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m4259_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo;
-extern const MethodInfo Delegate_Clone_m4261_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4262_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m4263_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m4258_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m4259_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m4260_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo;
+extern const MethodInfo Delegate_Clone_m4262_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4263_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4265_MethodInfo;
 extern const MethodInfo MatchAppendEvaluator_Invoke_m14321_MethodInfo;
 extern const MethodInfo MatchAppendEvaluator_BeginInvoke_m14322_MethodInfo;
 extern const MethodInfo MatchAppendEvaluator_EndInvoke_m14323_MethodInfo;
 static const Il2CppMethodReference MatchAppendEvaluator_t4069_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&MatchAppendEvaluator_Invoke_m14321_MethodInfo,
 	&MatchAppendEvaluator_BeginInvoke_m14322_MethodInfo,
 	&MatchAppendEvaluator_EndInvoke_m14323_MethodInfo,
@@ -31968,11 +31968,11 @@ static bool MatchAppendEvaluator_t4069_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICloneable_t761_0_0_0;
+extern const Il2CppType ICloneable_t762_0_0_0;
 static Il2CppInterfaceOffsetPair MatchAppendEvaluator_t4069_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType MatchAppendEvaluator_t4069_0_0_0;
@@ -32970,12 +32970,12 @@ static bool CaptureCollection_t1387_VTableIsGenericMethod[] =
 };
 static const Il2CppType* CaptureCollection_t1387_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
 static Il2CppInterfaceOffsetPair CaptureCollection_t1387_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
+	{ &ICollection_t705_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -33685,12 +33685,12 @@ static bool GroupCollection_t1386_VTableIsGenericMethod[] =
 };
 static const Il2CppType* GroupCollection_t1386_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
 static Il2CppInterfaceOffsetPair GroupCollection_t1386_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
+	{ &ICollection_t705_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -34576,7 +34576,7 @@ extern const MethodInfo MatchCollection_get_FullList_m14372_MethodInfo =
 	"get_FullList"/* name */
 	, (methodPointerType)&MatchCollection_get_FullList_m14372/* method */
 	, &MatchCollection_t3895_il2cpp_TypeInfo/* declaring_type */
-	, &ICollection_t704_0_0_0/* return_type */
+	, &ICollection_t705_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -34703,12 +34703,12 @@ static bool MatchCollection_t3895_VTableIsGenericMethod[] =
 };
 static const Il2CppType* MatchCollection_t3895_InterfacesTypeInfos[] = 
 {
-	&ICollection_t704_0_0_0,
+	&ICollection_t705_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
 static Il2CppInterfaceOffsetPair MatchCollection_t3895_InterfacesOffsets[] = 
 {
-	{ &ICollection_t704_0_0_0, 4},
+	{ &ICollection_t705_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 };
 extern Il2CppImage g_System_dll_Image;
@@ -35775,12 +35775,12 @@ extern const MethodInfo Regex_CreateMachine_m14397_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType IDictionary_t638_0_0_0;
-extern const Il2CppType IDictionary_t638_0_0_0;
+extern const Il2CppType IDictionary_t639_0_0_0;
+extern const Il2CppType IDictionary_t639_0_0_0;
 static const ParameterInfo Regex_t1125_Regex_GetGroupNamesArray_m14398_ParameterInfos[] = 
 {
 	{"groupCount", 0, 134219307, 0, &Int32_t82_0_0_0},
-	{"mapping", 1, 134219308, 0, &IDictionary_t638_0_0_0},
+	{"mapping", 1, 134219308, 0, &IDictionary_t639_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String[] System.Text.RegularExpressions.Regex::GetGroupNamesArray(System.Int32,System.Collections.IDictionary)
@@ -35805,7 +35805,7 @@ extern const MethodInfo Regex_GetGroupNamesArray_m14398_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int32U5BU5D_t548_0_0_0;
+extern const Il2CppType Int32U5BU5D_t549_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32[] System.Text.RegularExpressions.Regex::get_GroupNumbers()
 extern const MethodInfo Regex_get_GroupNumbers_m14399_MethodInfo = 
@@ -35813,7 +35813,7 @@ extern const MethodInfo Regex_get_GroupNumbers_m14399_MethodInfo =
 	"get_GroupNumbers"/* name */
 	, (methodPointerType)&Regex_get_GroupNumbers_m14399/* method */
 	, &Regex_t1125_il2cpp_TypeInfo/* declaring_type */
-	, &Int32U5BU5D_t548_0_0_0/* return_type */
+	, &Int32U5BU5D_t549_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -35953,11 +35953,11 @@ static bool Regex_t1125_VTableIsGenericMethod[] =
 };
 static const Il2CppType* Regex_t1125_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t762_0_0_0,
+	&ISerializable_t763_0_0_0,
 };
 static Il2CppInterfaceOffsetPair Regex_t1125_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_System_dll_Image;
 extern const Il2CppType Regex_t1125_1_0_0;
@@ -36239,7 +36239,7 @@ extern const Il2CppType OpCode_t4080_0_0_0;
 extern const Il2CppType OpCode_t4080_1_0_0;
 // System.UInt16
 #include "mscorlib_System_UInt16.h"
-extern TypeInfo UInt16_t693_il2cpp_TypeInfo;
+extern TypeInfo UInt16_t694_il2cpp_TypeInfo;
 const Il2CppTypeDefinitionMetadata OpCode_t4080_DefinitionMetadata = 
 {
 	NULL/* declaringType */
@@ -36262,7 +36262,7 @@ TypeInfo OpCode_t4080_il2cpp_TypeInfo =
 	, OpCode_t4080_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &UInt16_t693_il2cpp_TypeInfo/* element_class */
+	, &UInt16_t694_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
 	, &OpCode_t4080_0_0_0/* byval_arg */
@@ -36400,7 +36400,7 @@ TypeInfo OpFlags_t4081_il2cpp_TypeInfo =
 	, OpFlags_t4081_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &UInt16_t693_il2cpp_TypeInfo/* element_class */
+	, &UInt16_t694_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 89/* custom_attributes_cache */
 	, &OpFlags_t4081_0_0_0/* byval_arg */
@@ -36538,7 +36538,7 @@ TypeInfo Position_t4082_il2cpp_TypeInfo =
 	, Position_t4082_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &UInt16_t693_il2cpp_TypeInfo/* element_class */
+	, &UInt16_t694_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
 	, &Position_t4082_0_0_0/* byval_arg */
@@ -36763,7 +36763,7 @@ extern const MethodInfo IMachineFactory_get_Mapping_m15116_MethodInfo =
 	"get_Mapping"/* name */
 	, NULL/* method */
 	, &IMachineFactory_t4077_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_t638_0_0_0/* return_type */
+	, &IDictionary_t639_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -36779,10 +36779,10 @@ extern const MethodInfo IMachineFactory_get_Mapping_m15116_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_t638_0_0_0;
+extern const Il2CppType IDictionary_t639_0_0_0;
 static const ParameterInfo IMachineFactory_t4077_IMachineFactory_set_Mapping_m15117_ParameterInfos[] = 
 {
-	{"value", 0, 134219321, 0, &IDictionary_t638_0_0_0},
+	{"value", 0, 134219321, 0, &IDictionary_t639_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.IMachineFactory::set_Mapping(System.Collections.IDictionary)

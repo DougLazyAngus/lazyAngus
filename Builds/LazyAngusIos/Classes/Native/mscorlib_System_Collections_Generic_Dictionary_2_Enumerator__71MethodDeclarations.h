@@ -9,8 +9,8 @@ struct Enumerator_t8479;
 // System.Object
 struct Object_t;
 // UnityEngine.Event
-struct Event_t733;
-struct Event_t733_marshaled;
+struct Event_t734;
+struct Event_t734_marshaled;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
 struct Dictionary_2_t2830;
 // System.Collections.DictionaryEntry
@@ -39,7 +39,7 @@ struct Dictionary_2_t2830;
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::get_Current()
 #define Enumerator_get_Current_m61910(__this, method) (( KeyValuePair_2_t8476  (*) (Enumerator_t8479 *, const MethodInfo*))Enumerator_get_Current_m23635_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::get_CurrentKey()
-#define Enumerator_get_CurrentKey_m61911(__this, method) (( Event_t733 * (*) (Enumerator_t8479 *, const MethodInfo*))Enumerator_get_CurrentKey_m23636_gshared)(__this, method)
+#define Enumerator_get_CurrentKey_m61911(__this, method) (( Event_t734 * (*) (Enumerator_t8479 *, const MethodInfo*))Enumerator_get_CurrentKey_m23636_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::get_CurrentValue()
 #define Enumerator_get_CurrentValue_m61912(__this, method) (( int32_t (*) (Enumerator_t8479 *, const MethodInfo*))Enumerator_get_CurrentValue_m23637_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::Reset()

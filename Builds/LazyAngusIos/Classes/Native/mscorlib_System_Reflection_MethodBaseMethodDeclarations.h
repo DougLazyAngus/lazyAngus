@@ -11,11 +11,11 @@ struct ParameterInfoU5BU5D_t1407;
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Reflection.Binder
 struct Binder_t2903;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.Type[]
 struct TypeU5BU5D_t1150;
 // System.RuntimeMethodHandle
@@ -41,7 +41,7 @@ extern "C" MethodBase_t1474 * MethodBase_GetMethodFromHandle_m7419 (Object_t * _
 extern "C" MethodBase_t1474 * MethodBase_GetMethodFromHandleInternalType_m17686 (Object_t * __this /* static, unused */, IntPtr_t ___method_handle, IntPtr_t ___type_handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters()
 // System.Object System.Reflection.MethodBase::Invoke(System.Object,System.Object[])
-extern "C" Object_t * MethodBase_Invoke_m17687 (MethodBase_t1474 * __this, Object_t * ___obj, ObjectU5BU5D_t635* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MethodBase_Invoke_m17687 (MethodBase_t1474 * __this, Object_t * ___obj, ObjectU5BU5D_t636* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.MethodBase::Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
 // System.RuntimeMethodHandle System.Reflection.MethodBase::get_MethodHandle()
 // System.Reflection.MethodAttributes System.Reflection.MethodBase::get_Attributes()

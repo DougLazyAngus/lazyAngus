@@ -11,7 +11,7 @@ struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>
 struct Dictionary_2_t274;
 // System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>
-struct Dictionary_2_t699;
+struct Dictionary_2_t700;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>
 struct IEnumerator_1_t8787;
 // System.Array
@@ -28,13 +28,13 @@ struct Dictionary_2U5BU5D_t5543;
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_8MethodDeclarations.h"
 #define ValueCollection__ctor_m24811(__this, ___dictionary, method) (( void (*) (ValueCollection_t5551 *, Dictionary_2_t274 *, const MethodInfo*))ValueCollection__ctor_m21688_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m24812(__this, ___item, method) (( void (*) (ValueCollection_t5551 *, Dictionary_2_t699 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m21689_gshared)(__this, ___item, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m24812(__this, ___item, method) (( void (*) (ValueCollection_t5551 *, Dictionary_2_t700 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m21689_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::System.Collections.Generic.ICollection<TValue>.Clear()
 #define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m24813(__this, method) (( void (*) (ValueCollection_t5551 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m21690_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m24814(__this, ___item, method) (( bool (*) (ValueCollection_t5551 *, Dictionary_2_t699 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m21691_gshared)(__this, ___item, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m24814(__this, ___item, method) (( bool (*) (ValueCollection_t5551 *, Dictionary_2_t700 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m21691_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m24815(__this, ___item, method) (( bool (*) (ValueCollection_t5551 *, Dictionary_2_t699 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m21692_gshared)(__this, ___item, method)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m24815(__this, ___item, method) (( bool (*) (ValueCollection_t5551 *, Dictionary_2_t700 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m21692_gshared)(__this, ___item, method)
 // System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
 #define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m24816(__this, method) (( Object_t* (*) (ValueCollection_t5551 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m21693_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.Dictionary`2<System.String,FBLikeInfo>>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)

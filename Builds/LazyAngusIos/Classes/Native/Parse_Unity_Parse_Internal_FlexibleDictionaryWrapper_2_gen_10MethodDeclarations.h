@@ -55,14 +55,14 @@ extern "C" Object_t * FlexibleDictionaryWrapper_2_get_Item_m46131_gshared (Flexi
 extern "C" void FlexibleDictionaryWrapper_2_set_Item_m46132_gshared (FlexibleDictionaryWrapper_2_t1810 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method);
 #define FlexibleDictionaryWrapper_2_set_Item_m46132(__this, ___key, ___value, method) (( void (*) (FlexibleDictionaryWrapper_2_t1810 *, String_t*, Object_t *, const MethodInfo*))FlexibleDictionaryWrapper_2_set_Item_m46132_gshared)(__this, ___key, ___value, method)
 // System.Void Parse.Internal.FlexibleDictionaryWrapper`2<System.Object,System.Double>::Add(System.Collections.Generic.KeyValuePair`2<System.String,TOut>)
-extern "C" void FlexibleDictionaryWrapper_2_Add_m46133_gshared (FlexibleDictionaryWrapper_2_t1810 * __this, KeyValuePair_2_t727  ___item, const MethodInfo* method);
-#define FlexibleDictionaryWrapper_2_Add_m46133(__this, ___item, method) (( void (*) (FlexibleDictionaryWrapper_2_t1810 *, KeyValuePair_2_t727 , const MethodInfo*))FlexibleDictionaryWrapper_2_Add_m46133_gshared)(__this, ___item, method)
+extern "C" void FlexibleDictionaryWrapper_2_Add_m46133_gshared (FlexibleDictionaryWrapper_2_t1810 * __this, KeyValuePair_2_t728  ___item, const MethodInfo* method);
+#define FlexibleDictionaryWrapper_2_Add_m46133(__this, ___item, method) (( void (*) (FlexibleDictionaryWrapper_2_t1810 *, KeyValuePair_2_t728 , const MethodInfo*))FlexibleDictionaryWrapper_2_Add_m46133_gshared)(__this, ___item, method)
 // System.Void Parse.Internal.FlexibleDictionaryWrapper`2<System.Object,System.Double>::Clear()
 extern "C" void FlexibleDictionaryWrapper_2_Clear_m46134_gshared (FlexibleDictionaryWrapper_2_t1810 * __this, const MethodInfo* method);
 #define FlexibleDictionaryWrapper_2_Clear_m46134(__this, method) (( void (*) (FlexibleDictionaryWrapper_2_t1810 *, const MethodInfo*))FlexibleDictionaryWrapper_2_Clear_m46134_gshared)(__this, method)
 // System.Boolean Parse.Internal.FlexibleDictionaryWrapper`2<System.Object,System.Double>::Contains(System.Collections.Generic.KeyValuePair`2<System.String,TOut>)
-extern "C" bool FlexibleDictionaryWrapper_2_Contains_m46135_gshared (FlexibleDictionaryWrapper_2_t1810 * __this, KeyValuePair_2_t727  ___item, const MethodInfo* method);
-#define FlexibleDictionaryWrapper_2_Contains_m46135(__this, ___item, method) (( bool (*) (FlexibleDictionaryWrapper_2_t1810 *, KeyValuePair_2_t727 , const MethodInfo*))FlexibleDictionaryWrapper_2_Contains_m46135_gshared)(__this, ___item, method)
+extern "C" bool FlexibleDictionaryWrapper_2_Contains_m46135_gshared (FlexibleDictionaryWrapper_2_t1810 * __this, KeyValuePair_2_t728  ___item, const MethodInfo* method);
+#define FlexibleDictionaryWrapper_2_Contains_m46135(__this, ___item, method) (( bool (*) (FlexibleDictionaryWrapper_2_t1810 *, KeyValuePair_2_t728 , const MethodInfo*))FlexibleDictionaryWrapper_2_Contains_m46135_gshared)(__this, ___item, method)
 // System.Void Parse.Internal.FlexibleDictionaryWrapper`2<System.Object,System.Double>::CopyTo(System.Collections.Generic.KeyValuePair`2<System.String,TOut>[],System.Int32)
 extern "C" void FlexibleDictionaryWrapper_2_CopyTo_m46136_gshared (FlexibleDictionaryWrapper_2_t1810 * __this, KeyValuePair_2U5BU5D_t1361* ___array, int32_t ___arrayIndex, const MethodInfo* method);
 #define FlexibleDictionaryWrapper_2_CopyTo_m46136(__this, ___array, ___arrayIndex, method) (( void (*) (FlexibleDictionaryWrapper_2_t1810 *, KeyValuePair_2U5BU5D_t1361*, int32_t, const MethodInfo*))FlexibleDictionaryWrapper_2_CopyTo_m46136_gshared)(__this, ___array, ___arrayIndex, method)
@@ -73,8 +73,8 @@ extern "C" int32_t FlexibleDictionaryWrapper_2_get_Count_m46137_gshared (Flexibl
 extern "C" bool FlexibleDictionaryWrapper_2_get_IsReadOnly_m46138_gshared (FlexibleDictionaryWrapper_2_t1810 * __this, const MethodInfo* method);
 #define FlexibleDictionaryWrapper_2_get_IsReadOnly_m46138(__this, method) (( bool (*) (FlexibleDictionaryWrapper_2_t1810 *, const MethodInfo*))FlexibleDictionaryWrapper_2_get_IsReadOnly_m46138_gshared)(__this, method)
 // System.Boolean Parse.Internal.FlexibleDictionaryWrapper`2<System.Object,System.Double>::Remove(System.Collections.Generic.KeyValuePair`2<System.String,TOut>)
-extern "C" bool FlexibleDictionaryWrapper_2_Remove_m46139_gshared (FlexibleDictionaryWrapper_2_t1810 * __this, KeyValuePair_2_t727  ___item, const MethodInfo* method);
-#define FlexibleDictionaryWrapper_2_Remove_m46139(__this, ___item, method) (( bool (*) (FlexibleDictionaryWrapper_2_t1810 *, KeyValuePair_2_t727 , const MethodInfo*))FlexibleDictionaryWrapper_2_Remove_m46139_gshared)(__this, ___item, method)
+extern "C" bool FlexibleDictionaryWrapper_2_Remove_m46139_gshared (FlexibleDictionaryWrapper_2_t1810 * __this, KeyValuePair_2_t728  ___item, const MethodInfo* method);
+#define FlexibleDictionaryWrapper_2_Remove_m46139(__this, ___item, method) (( bool (*) (FlexibleDictionaryWrapper_2_t1810 *, KeyValuePair_2_t728 , const MethodInfo*))FlexibleDictionaryWrapper_2_Remove_m46139_gshared)(__this, ___item, method)
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,TOut>> Parse.Internal.FlexibleDictionaryWrapper`2<System.Object,System.Double>::GetEnumerator()
 extern "C" Object_t* FlexibleDictionaryWrapper_2_GetEnumerator_m46140_gshared (FlexibleDictionaryWrapper_2_t1810 * __this, const MethodInfo* method);
 #define FlexibleDictionaryWrapper_2_GetEnumerator_m46140(__this, method) (( Object_t* (*) (FlexibleDictionaryWrapper_2_t1810 *, const MethodInfo*))FlexibleDictionaryWrapper_2_GetEnumerator_m46140_gshared)(__this, method)
@@ -85,5 +85,5 @@ extern "C" Object_t * FlexibleDictionaryWrapper_2_System_Collections_IEnumerable
 extern "C" Object_t * FlexibleDictionaryWrapper_2_U3Cget_ValuesU3Eb__0_m46142_gshared (Object_t * __this /* static, unused */, double ___item, const MethodInfo* method);
 #define FlexibleDictionaryWrapper_2_U3Cget_ValuesU3Eb__0_m46142(__this /* static, unused */, ___item, method) (( Object_t * (*) (Object_t * /* static, unused */, double, const MethodInfo*))FlexibleDictionaryWrapper_2_U3Cget_ValuesU3Eb__0_m46142_gshared)(__this /* static, unused */, ___item, method)
 // System.Collections.Generic.KeyValuePair`2<System.String,TOut> Parse.Internal.FlexibleDictionaryWrapper`2<System.Object,System.Double>::<CopyTo>b__2(System.Collections.Generic.KeyValuePair`2<System.String,TIn>)
-extern "C" KeyValuePair_2_t727  FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m46143_gshared (Object_t * __this /* static, unused */, KeyValuePair_2_t7003  ___pair, const MethodInfo* method);
-#define FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m46143(__this /* static, unused */, ___pair, method) (( KeyValuePair_2_t727  (*) (Object_t * /* static, unused */, KeyValuePair_2_t7003 , const MethodInfo*))FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m46143_gshared)(__this /* static, unused */, ___pair, method)
+extern "C" KeyValuePair_2_t728  FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m46143_gshared (Object_t * __this /* static, unused */, KeyValuePair_2_t7003  ___pair, const MethodInfo* method);
+#define FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m46143(__this /* static, unused */, ___pair, method) (( KeyValuePair_2_t728  (*) (Object_t * /* static, unused */, KeyValuePair_2_t7003 , const MethodInfo*))FlexibleDictionaryWrapper_2_U3CCopyToU3Eb__2_m46143_gshared)(__this /* static, unused */, ___pair, method)

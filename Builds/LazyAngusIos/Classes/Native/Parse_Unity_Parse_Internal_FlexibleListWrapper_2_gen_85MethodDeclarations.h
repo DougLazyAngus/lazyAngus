@@ -9,7 +9,7 @@ struct FlexibleListWrapper_2_t1596;
 // System.Collections.Generic.IList`1<System.Int64>
 struct IList_1_t6270;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Collections.Generic.IEnumerator`1<System.Int32>
 struct IEnumerator_1_t3314;
 // System.Collections.IEnumerator
@@ -43,8 +43,8 @@ extern "C" void FlexibleListWrapper_2_Clear_m37743_gshared (FlexibleListWrapper_
 extern "C" bool FlexibleListWrapper_2_Contains_m37744_gshared (FlexibleListWrapper_2_t1596 * __this, int32_t ___item, const MethodInfo* method);
 #define FlexibleListWrapper_2_Contains_m37744(__this, ___item, method) (( bool (*) (FlexibleListWrapper_2_t1596 *, int32_t, const MethodInfo*))FlexibleListWrapper_2_Contains_m37744_gshared)(__this, ___item, method)
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Int32,System.Int64>::CopyTo(TOut[],System.Int32)
-extern "C" void FlexibleListWrapper_2_CopyTo_m37745_gshared (FlexibleListWrapper_2_t1596 * __this, Int32U5BU5D_t548* ___array, int32_t ___arrayIndex, const MethodInfo* method);
-#define FlexibleListWrapper_2_CopyTo_m37745(__this, ___array, ___arrayIndex, method) (( void (*) (FlexibleListWrapper_2_t1596 *, Int32U5BU5D_t548*, int32_t, const MethodInfo*))FlexibleListWrapper_2_CopyTo_m37745_gshared)(__this, ___array, ___arrayIndex, method)
+extern "C" void FlexibleListWrapper_2_CopyTo_m37745_gshared (FlexibleListWrapper_2_t1596 * __this, Int32U5BU5D_t549* ___array, int32_t ___arrayIndex, const MethodInfo* method);
+#define FlexibleListWrapper_2_CopyTo_m37745(__this, ___array, ___arrayIndex, method) (( void (*) (FlexibleListWrapper_2_t1596 *, Int32U5BU5D_t549*, int32_t, const MethodInfo*))FlexibleListWrapper_2_CopyTo_m37745_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Int32 Parse.Internal.FlexibleListWrapper`2<System.Int32,System.Int64>::get_Count()
 extern "C" int32_t FlexibleListWrapper_2_get_Count_m37746_gshared (FlexibleListWrapper_2_t1596 * __this, const MethodInfo* method);
 #define FlexibleListWrapper_2_get_Count_m37746(__this, method) (( int32_t (*) (FlexibleListWrapper_2_t1596 *, const MethodInfo*))FlexibleListWrapper_2_get_Count_m37746_gshared)(__this, method)

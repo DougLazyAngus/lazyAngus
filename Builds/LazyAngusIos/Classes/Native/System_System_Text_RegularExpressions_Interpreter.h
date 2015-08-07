@@ -11,7 +11,7 @@ struct RepeatContext_t4096;
 // System.Text.RegularExpressions.Mark[]
 struct MarkU5BU5D_t4099;
 // System.Int32[]
-struct Int32U5BU5D_t548;
+struct Int32U5BU5D_t549;
 // System.Text.RegularExpressions.BaseMachine
 #include "System_System_Text_RegularExpressions_BaseMachine.h"
 // System.Text.RegularExpressions.Interpreter/IntStack
@@ -50,5 +50,5 @@ struct  Interpreter_t4100  : public BaseMachine_t4070
 	// System.Int32 System.Text.RegularExpressions.Interpreter::mark_end
 	int32_t ___mark_end_15;
 	// System.Int32[] System.Text.RegularExpressions.Interpreter::groups
-	Int32U5BU5D_t548* ___groups_16;
+	Int32U5BU5D_t549* ___groups_16;
 };

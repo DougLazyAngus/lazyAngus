@@ -9,7 +9,7 @@ struct Thread_t1410;
 // System.Runtime.Remoting.Contexts.Context
 struct Context_t4551;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.String
 struct String_t;
 // System.Threading.ExecutionContext
@@ -58,21 +58,21 @@ extern "C" IntPtr_t Thread_Thread_internal_m19012 (Thread_t1410 * __this, Multic
 // System.Void System.Threading.Thread::Thread_init()
 extern "C" void Thread_Thread_init_m19013 (Thread_t1410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.CultureInfo System.Threading.Thread::GetCachedCurrentCulture()
-extern "C" CultureInfo_t718 * Thread_GetCachedCurrentCulture_m19014 (Thread_t1410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CultureInfo_t719 * Thread_GetCachedCurrentCulture_m19014 (Thread_t1410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Threading.Thread::GetSerializedCurrentCulture()
 extern "C" ByteU5BU5D_t66* Thread_GetSerializedCurrentCulture_m19015 (Thread_t1410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::SetCachedCurrentCulture(System.Globalization.CultureInfo)
-extern "C" void Thread_SetCachedCurrentCulture_m19016 (Thread_t1410 * __this, CultureInfo_t718 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_SetCachedCurrentCulture_m19016 (Thread_t1410 * __this, CultureInfo_t719 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.CultureInfo System.Threading.Thread::GetCachedCurrentUICulture()
-extern "C" CultureInfo_t718 * Thread_GetCachedCurrentUICulture_m19017 (Thread_t1410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CultureInfo_t719 * Thread_GetCachedCurrentUICulture_m19017 (Thread_t1410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Threading.Thread::GetSerializedCurrentUICulture()
 extern "C" ByteU5BU5D_t66* Thread_GetSerializedCurrentUICulture_m19018 (Thread_t1410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::SetCachedCurrentUICulture(System.Globalization.CultureInfo)
-extern "C" void Thread_SetCachedCurrentUICulture_m19019 (Thread_t1410 * __this, CultureInfo_t718 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_SetCachedCurrentUICulture_m19019 (Thread_t1410 * __this, CultureInfo_t719 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.CultureInfo System.Threading.Thread::get_CurrentCulture()
-extern "C" CultureInfo_t718 * Thread_get_CurrentCulture_m19020 (Thread_t1410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CultureInfo_t719 * Thread_get_CurrentCulture_m19020 (Thread_t1410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.CultureInfo System.Threading.Thread::get_CurrentUICulture()
-extern "C" CultureInfo_t718 * Thread_get_CurrentUICulture_m19021 (Thread_t1410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CultureInfo_t719 * Thread_get_CurrentUICulture_m19021 (Thread_t1410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::set_IsBackground(System.Boolean)
 extern "C" void Thread_set_IsBackground_m19022 (Thread_t1410 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::SetName_internal(System.String)

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t823;
+struct PointerEventData_t824;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

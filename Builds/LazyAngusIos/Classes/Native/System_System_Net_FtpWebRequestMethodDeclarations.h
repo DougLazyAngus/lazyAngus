@@ -15,7 +15,7 @@ struct String_t;
 // System.Net.IWebProxy
 struct IWebProxy_t3986;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.Net.ServicePoint
 struct ServicePoint_t3886;
 // System.Exception
@@ -46,7 +46,7 @@ struct X509Chain_t3889;
 #include "System_System_Net_Security_SslPolicyErrors.h"
 
 // System.Void System.Net.FtpWebRequest::.ctor(System.Uri)
-extern "C" void FtpWebRequest__ctor_m13628 (FtpWebRequest_t3993 * __this, Uri_t707 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpWebRequest__ctor_m13628 (FtpWebRequest_t3993 * __this, Uri_t708 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpWebRequest::.cctor()
 extern "C" void FtpWebRequest__cctor_m13629 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Net.FtpWebRequest::GetMustImplement()
@@ -68,7 +68,7 @@ extern "C" Object_t * FtpWebRequest_get_Proxy_m13637 (FtpWebRequest_t3993 * __th
 // System.Int32 System.Net.FtpWebRequest::get_ReadWriteTimeout()
 extern "C" int32_t FtpWebRequest_get_ReadWriteTimeout_m13638 (FtpWebRequest_t3993 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Uri System.Net.FtpWebRequest::get_RequestUri()
-extern "C" Uri_t707 * FtpWebRequest_get_RequestUri_m13639 (FtpWebRequest_t3993 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Uri_t708 * FtpWebRequest_get_RequestUri_m13639 (FtpWebRequest_t3993 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.ServicePoint System.Net.FtpWebRequest::get_ServicePoint()
 extern "C" ServicePoint_t3886 * FtpWebRequest_get_ServicePoint_m13640 (FtpWebRequest_t3993 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.FtpWebRequest::get_DataType()
@@ -94,9 +94,9 @@ extern "C" void FtpWebRequest_ProcessRequest_m13650 (FtpWebRequest_t3993 * __thi
 // System.Void System.Net.FtpWebRequest::SetType()
 extern "C" void FtpWebRequest_SetType_m13651 (FtpWebRequest_t3993 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.FtpWebRequest::GetRemoteFolderPath(System.Uri)
-extern "C" String_t* FtpWebRequest_GetRemoteFolderPath_m13652 (FtpWebRequest_t3993 * __this, Uri_t707 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* FtpWebRequest_GetRemoteFolderPath_m13652 (FtpWebRequest_t3993 * __this, Uri_t708 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpWebRequest::CWDAndSetFileName(System.Uri)
-extern "C" void FtpWebRequest_CWDAndSetFileName_m13653 (FtpWebRequest_t3993 * __this, Uri_t707 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpWebRequest_CWDAndSetFileName_m13653 (FtpWebRequest_t3993 * __this, Uri_t708 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpWebRequest::ProcessMethod()
 extern "C" void FtpWebRequest_ProcessMethod_m13654 (FtpWebRequest_t3993 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpWebRequest::CloseControlConnection()

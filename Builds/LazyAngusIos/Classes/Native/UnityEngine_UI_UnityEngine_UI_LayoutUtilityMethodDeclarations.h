@@ -7,34 +7,34 @@
 // UnityEngine.UI.LayoutUtility
 struct LayoutUtility_t949;
 // UnityEngine.RectTransform
-struct RectTransform_t503;
+struct RectTransform_t504;
 // System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>
 struct Func_2_t948;
 // UnityEngine.UI.ILayoutElement
 struct ILayoutElement_t989;
 
 // System.Single UnityEngine.UI.LayoutUtility::GetMinSize(UnityEngine.RectTransform,System.Int32)
-extern "C" float LayoutUtility_GetMinSize_m5435 (Object_t * __this /* static, unused */, RectTransform_t503 * ___rect, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutUtility_GetMinSize_m5435 (Object_t * __this /* static, unused */, RectTransform_t504 * ___rect, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutUtility::GetPreferredSize(UnityEngine.RectTransform,System.Int32)
-extern "C" float LayoutUtility_GetPreferredSize_m5436 (Object_t * __this /* static, unused */, RectTransform_t503 * ___rect, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutUtility_GetPreferredSize_m5436 (Object_t * __this /* static, unused */, RectTransform_t504 * ___rect, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutUtility::GetFlexibleSize(UnityEngine.RectTransform,System.Int32)
-extern "C" float LayoutUtility_GetFlexibleSize_m5437 (Object_t * __this /* static, unused */, RectTransform_t503 * ___rect, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutUtility_GetFlexibleSize_m5437 (Object_t * __this /* static, unused */, RectTransform_t504 * ___rect, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutUtility::GetMinWidth(UnityEngine.RectTransform)
-extern "C" float LayoutUtility_GetMinWidth_m5438 (Object_t * __this /* static, unused */, RectTransform_t503 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutUtility_GetMinWidth_m5438 (Object_t * __this /* static, unused */, RectTransform_t504 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutUtility::GetPreferredWidth(UnityEngine.RectTransform)
-extern "C" float LayoutUtility_GetPreferredWidth_m5439 (Object_t * __this /* static, unused */, RectTransform_t503 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutUtility_GetPreferredWidth_m5439 (Object_t * __this /* static, unused */, RectTransform_t504 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutUtility::GetFlexibleWidth(UnityEngine.RectTransform)
-extern "C" float LayoutUtility_GetFlexibleWidth_m5440 (Object_t * __this /* static, unused */, RectTransform_t503 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutUtility_GetFlexibleWidth_m5440 (Object_t * __this /* static, unused */, RectTransform_t504 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutUtility::GetMinHeight(UnityEngine.RectTransform)
-extern "C" float LayoutUtility_GetMinHeight_m5441 (Object_t * __this /* static, unused */, RectTransform_t503 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutUtility_GetMinHeight_m5441 (Object_t * __this /* static, unused */, RectTransform_t504 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutUtility::GetPreferredHeight(UnityEngine.RectTransform)
-extern "C" float LayoutUtility_GetPreferredHeight_m5442 (Object_t * __this /* static, unused */, RectTransform_t503 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutUtility_GetPreferredHeight_m5442 (Object_t * __this /* static, unused */, RectTransform_t504 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutUtility::GetFlexibleHeight(UnityEngine.RectTransform)
-extern "C" float LayoutUtility_GetFlexibleHeight_m5443 (Object_t * __this /* static, unused */, RectTransform_t503 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutUtility_GetFlexibleHeight_m5443 (Object_t * __this /* static, unused */, RectTransform_t504 * ___rect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutUtility::GetLayoutProperty(UnityEngine.RectTransform,System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>,System.Single)
-extern "C" float LayoutUtility_GetLayoutProperty_m5444 (Object_t * __this /* static, unused */, RectTransform_t503 * ___rect, Func_2_t948 * ___property, float ___defaultValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutUtility_GetLayoutProperty_m5444 (Object_t * __this /* static, unused */, RectTransform_t504 * ___rect, Func_2_t948 * ___property, float ___defaultValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutUtility::GetLayoutProperty(UnityEngine.RectTransform,System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>,System.Single,UnityEngine.UI.ILayoutElement&)
-extern "C" float LayoutUtility_GetLayoutProperty_m5445 (Object_t * __this /* static, unused */, RectTransform_t503 * ___rect, Func_2_t948 * ___property, float ___defaultValue, Object_t ** ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutUtility_GetLayoutProperty_m5445 (Object_t * __this /* static, unused */, RectTransform_t504 * ___rect, Func_2_t948 * ___property, float ___defaultValue, Object_t ** ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutUtility::<GetMinWidth>m__E(UnityEngine.UI.ILayoutElement)
 extern "C" float LayoutUtility_U3CGetMinWidthU3Em__E_m5446 (Object_t * __this /* static, unused */, Object_t * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutUtility::<GetPreferredWidth>m__F(UnityEngine.UI.ILayoutElement)

@@ -7,7 +7,7 @@
 // System.Security.SecurityFrame
 struct SecurityFrame_t4693;
 // System.Reflection.Assembly
-struct Assembly_t719;
+struct Assembly_t720;
 // System.AppDomain
 struct AppDomain_t2095;
 // System.Security.RuntimeSecurityFrame
@@ -26,7 +26,7 @@ extern "C" Array_t * SecurityFrame__GetSecurityStack_m18721 (Object_t * __this /
 // System.Void System.Security.SecurityFrame::InitFromRuntimeFrame(System.Security.RuntimeSecurityFrame)
 extern "C" void SecurityFrame_InitFromRuntimeFrame_m18722 (SecurityFrame_t4693 * __this, RuntimeSecurityFrame_t4692 * ___frame, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Assembly System.Security.SecurityFrame::get_Assembly()
-extern "C" Assembly_t719 * SecurityFrame_get_Assembly_m18723 (SecurityFrame_t4693 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Assembly_t720 * SecurityFrame_get_Assembly_m18723 (SecurityFrame_t4693 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.AppDomain System.Security.SecurityFrame::get_Domain()
 extern "C" AppDomain_t2095 * SecurityFrame_get_Domain_m18724 (SecurityFrame_t4693 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.SecurityFrame::ToString()

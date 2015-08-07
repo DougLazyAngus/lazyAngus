@@ -15,7 +15,7 @@ struct Stream_t51;
 // System.Net.FtpWebRequest
 struct FtpWebRequest_t3993;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.Net.FtpStatus
 struct FtpStatus_t3996;
 // System.DateTime
@@ -24,11 +24,11 @@ struct FtpStatus_t3996;
 #include "System_System_Net_FtpStatusCode.h"
 
 // System.Void System.Net.FtpWebResponse::.ctor(System.Net.FtpWebRequest,System.Uri,System.String,System.Boolean)
-extern "C" void FtpWebResponse__ctor_m13683 (FtpWebResponse_t3989 * __this, FtpWebRequest_t3993 * ___request, Uri_t707 * ___uri, String_t* ___method, bool ___keepAlive, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpWebResponse__ctor_m13683 (FtpWebResponse_t3989 * __this, FtpWebRequest_t3993 * ___request, Uri_t708 * ___uri, String_t* ___method, bool ___keepAlive, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpWebResponse::.ctor(System.Net.FtpWebRequest,System.Uri,System.String,System.Net.FtpStatusCode,System.String)
-extern "C" void FtpWebResponse__ctor_m13684 (FtpWebResponse_t3989 * __this, FtpWebRequest_t3993 * ___request, Uri_t707 * ___uri, String_t* ___method, int32_t ___statusCode, String_t* ___statusDescription, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpWebResponse__ctor_m13684 (FtpWebResponse_t3989 * __this, FtpWebRequest_t3993 * ___request, Uri_t708 * ___uri, String_t* ___method, int32_t ___statusCode, String_t* ___statusDescription, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpWebResponse::.ctor(System.Net.FtpWebRequest,System.Uri,System.String,System.Net.FtpStatus)
-extern "C" void FtpWebResponse__ctor_m13685 (FtpWebResponse_t3989 * __this, FtpWebRequest_t3993 * ___request, Uri_t707 * ___uri, String_t* ___method, FtpStatus_t3996 * ___status, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpWebResponse__ctor_m13685 (FtpWebResponse_t3989 * __this, FtpWebRequest_t3993 * ___request, Uri_t708 * ___uri, String_t* ___method, FtpStatus_t3996 * ___status, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebHeaderCollection System.Net.FtpWebResponse::get_Headers()
 extern "C" WebHeaderCollection_t3969 * FtpWebResponse_get_Headers_m13686 (FtpWebResponse_t3989 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpWebResponse::set_LastModified(System.DateTime)

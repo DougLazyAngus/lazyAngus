@@ -21,9 +21,9 @@ struct Object_t;
 // System.Reflection.Binder
 struct Binder_t2903;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.Exception
 struct Exception_t57;
 // System.Type[]
@@ -58,13 +58,13 @@ extern "C" MethodInfo_t * MethodBuilder_GetBaseDefinition_m17504 (MethodBuilder_
 // System.Reflection.ParameterInfo[] System.Reflection.Emit.MethodBuilder::GetParameters()
 extern "C" ParameterInfoU5BU5D_t1407* MethodBuilder_GetParameters_m17505 (MethodBuilder_t4468 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.Emit.MethodBuilder::Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
-extern "C" Object_t * MethodBuilder_Invoke_m17506 (MethodBuilder_t4468 * __this, Object_t * ___obj, int32_t ___invokeAttr, Binder_t2903 * ___binder, ObjectU5BU5D_t635* ___parameters, CultureInfo_t718 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MethodBuilder_Invoke_m17506 (MethodBuilder_t4468 * __this, Object_t * ___obj, int32_t ___invokeAttr, Binder_t2903 * ___binder, ObjectU5BU5D_t636* ___parameters, CultureInfo_t719 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.MethodBuilder::IsDefined(System.Type,System.Boolean)
 extern "C" bool MethodBuilder_IsDefined_m17507 (MethodBuilder_t4468 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.Emit.MethodBuilder::GetCustomAttributes(System.Boolean)
-extern "C" ObjectU5BU5D_t635* MethodBuilder_GetCustomAttributes_m17508 (MethodBuilder_t4468 * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* MethodBuilder_GetCustomAttributes_m17508 (MethodBuilder_t4468 * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.Emit.MethodBuilder::GetCustomAttributes(System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t635* MethodBuilder_GetCustomAttributes_m17509 (MethodBuilder_t4468 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* MethodBuilder_GetCustomAttributes_m17509 (MethodBuilder_t4468 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Emit.MethodBuilder::ToString()
 extern "C" String_t* MethodBuilder_ToString_m17510 (MethodBuilder_t4468 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.MethodBuilder::Equals(System.Object)

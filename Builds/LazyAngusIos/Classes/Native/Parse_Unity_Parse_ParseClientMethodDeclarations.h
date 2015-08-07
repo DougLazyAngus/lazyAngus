@@ -7,7 +7,7 @@
 // Parse.ParseClient
 struct ParseClient_t1177;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.String
 struct String_t;
 // System.Version
@@ -15,7 +15,7 @@ struct Version_t1333;
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
 struct List_1_t1334;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.Type
 struct Type_t;
 // System.Object
@@ -33,9 +33,9 @@ struct Task_1_t1336;
 // System.IProgress`1<Parse.ParseUploadProgressEventArgs>
 struct IProgress_1_t1190;
 // System.Collections.Generic.IDictionary`2<System.String,System.String>
-struct IDictionary_2_t645;
+struct IDictionary_2_t646;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.Collections.Generic.ICollection`1<System.Object>
 struct ICollection_1_t1170;
 // <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>
@@ -50,9 +50,9 @@ struct U3CU3Ef__AnonymousType2_2_t1337;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_10.h"
 
 // System.Uri Parse.ParseClient::get_HostName()
-extern "C" Uri_t707 * ParseClient_get_HostName_m6393 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Uri_t708 * ParseClient_get_HostName_m6393 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseClient::set_HostName(System.Uri)
-extern "C" void ParseClient_set_HostName_m6394 (Object_t * __this /* static, unused */, Uri_t707 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseClient_set_HostName_m6394 (Object_t * __this /* static, unused */, Uri_t708 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.ParseClient::get_MasterKey()
 extern "C" String_t* ParseClient_get_MasterKey_m6395 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseClient::set_MasterKey(System.String)
@@ -90,13 +90,13 @@ extern "C" Object_t* ParseClient_EncodeJSONObject_m6411 (Object_t * __this /* st
 // System.Object Parse.ParseClient::EncodeJSONArray(System.Collections.Generic.IList`1<System.Object>,System.Boolean)
 extern "C" Object_t * ParseClient_EncodeJSONArray_m6412 (Object_t * __this /* static, unused */, Object_t* ___list, bool ___allowParseObjects, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>> Parse.ParseClient::RequestAsync(System.Uri,System.String,System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>,System.IO.Stream,System.String,System.Threading.CancellationToken)
-extern "C" Task_1_t1321 * ParseClient_RequestAsync_m6413 (Object_t * __this /* static, unused */, Uri_t707 * ___uri, String_t* ___method, Object_t* ___headers, Stream_t51 * ___data, String_t* ___contentType, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1321 * ParseClient_RequestAsync_m6413 (Object_t * __this /* static, unused */, Uri_t708 * ___uri, String_t* ___method, Object_t* ___headers, Stream_t51 * ___data, String_t* ___contentType, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>> Parse.ParseClient::RequestAsync(System.String,System.String,System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Threading.CancellationToken)
 extern "C" Task_1_t1336 * ParseClient_RequestAsync_m6414 (Object_t * __this /* static, unused */, String_t* ___method, String_t* ___relativeUri, String_t* ___sessionToken, Object_t* ___data, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>> Parse.ParseClient::RequestAsync(System.String,System.Uri,System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Threading.CancellationToken)
-extern "C" Task_1_t1336 * ParseClient_RequestAsync_m6415 (Object_t * __this /* static, unused */, String_t* ___method, Uri_t707 * ___relativeUri, String_t* ___sessionToken, Object_t* ___data, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1336 * ParseClient_RequestAsync_m6415 (Object_t * __this /* static, unused */, String_t* ___method, Uri_t708 * ___relativeUri, String_t* ___sessionToken, Object_t* ___data, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>> Parse.ParseClient::UploadAsync(System.Uri,System.String,System.String,System.IO.Stream,System.IProgress`1<Parse.ParseUploadProgressEventArgs>,System.Threading.CancellationToken)
-extern "C" Task_1_t1336 * ParseClient_UploadAsync_m6416 (Object_t * __this /* static, unused */, Uri_t707 * ___relativeUri, String_t* ___sessionToken, String_t* ___contentType, Stream_t51 * ___data, Object_t* ___progress, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1336 * ParseClient_UploadAsync_m6416 (Object_t * __this /* static, unused */, Uri_t708 * ___relativeUri, String_t* ___sessionToken, String_t* ___contentType, Stream_t51 * ___data, Object_t* ___progress, CancellationToken_t1110  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>> Parse.ParseClient::get_DefaultParseHeaders()
 extern "C" List_1_t1334 * ParseClient_get_DefaultParseHeaders_m6417 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type Parse.ParseClient::GetInterfaceType(System.Type,System.Type)
@@ -122,6 +122,6 @@ extern "C" Object_t* ParseClient_DeepTraversalInternal_m6427 (Object_t * __this 
 // System.Object Parse.ParseClient::<Decode>b__0(System.Object)
 extern "C" Object_t * ParseClient_U3CDecodeU3Eb__0_m6428 (Object_t * __this /* static, unused */, Object_t * ___item, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String> Parse.ParseClient::<BuildQueryString>b__e(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern "C" U3CU3Ef__AnonymousType2_2_t1337 * ParseClient_U3CBuildQueryStringU3Eb__e_m6429 (Object_t * __this /* static, unused */, KeyValuePair_2_t727  ___pair, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" U3CU3Ef__AnonymousType2_2_t1337 * ParseClient_U3CBuildQueryStringU3Eb__e_m6429 (Object_t * __this /* static, unused */, KeyValuePair_2_t728  ___pair, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.ParseClient::<BuildQueryString>b__f(<>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>)
 extern "C" String_t* ParseClient_U3CBuildQueryStringU3Eb__f_m6430 (Object_t * __this /* static, unused */, U3CU3Ef__AnonymousType2_2_t1337 * ___U3CU3Eh__TransparentIdentifierd, const MethodInfo* method) IL2CPP_METHOD_ATTR;

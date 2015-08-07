@@ -17,13 +17,13 @@ struct ICollection_1_t1160;
 // Parse.ParseACL
 struct ParseACL_t1163;
 // System.Collections.Generic.IDictionary`2<System.String,System.String>
-struct IDictionary_2_t645;
+struct IDictionary_2_t646;
 // System.Type
 struct Type_t;
 // System.Func`1<Parse.ParseObject>
 struct Func_1_t1344;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t765;
+struct IDictionary_2_t766;
 // System.Collections.Generic.IEnumerable`1<Parse.ParseObject>
 struct IEnumerable_1_t1214;
 // System.Collections.Generic.IDictionary`2<System.String,Parse.ParseObject>
@@ -45,7 +45,7 @@ struct IEnumerator_t48;
 // Parse.ParseQuery`1<Parse.ParseObject>
 struct ParseQuery_1_t1349;
 // System.Collections.Generic.IEnumerable`1<System.String>
-struct IEnumerable_1_t658;
+struct IEnumerable_1_t659;
 // System.ComponentModel.PropertyChangedEventHandler
 struct PropertyChangedEventHandler_t1350;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>

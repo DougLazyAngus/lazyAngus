@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Char[]
-struct CharU5BU5D_t660;
+struct CharU5BU5D_t661;
 // System.String
 struct String_t;
 // System.Byte[]
@@ -12,7 +12,7 @@ struct ByteU5BU5D_t66;
 struct  Contraction_t4322  : public Object_t
 {
 	// System.Char[] Mono.Globalization.Unicode.Contraction::Source
-	CharU5BU5D_t660* ___Source_0;
+	CharU5BU5D_t661* ___Source_0;
 	// System.String Mono.Globalization.Unicode.Contraction::Replacement
 	String_t* ___Replacement_1;
 	// System.Byte[] Mono.Globalization.Unicode.Contraction::SortKey

@@ -9,7 +9,7 @@ struct InternalEnumerator_1_t8510;
 // System.Object
 struct Object_t;
 // System.Xml.XmlNode
-struct XmlNode_t667;
+struct XmlNode_t668;
 // System.Array
 struct Array_t;
 
@@ -26,4 +26,4 @@ struct Array_t;
 // System.Boolean System.Array/InternalEnumerator`1<System.Xml.XmlNode>::MoveNext()
 #define InternalEnumerator_1_MoveNext_m62255(__this, method) (( bool (*) (InternalEnumerator_1_t8510 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.Xml.XmlNode>::get_Current()
-#define InternalEnumerator_1_get_Current_m62256(__this, method) (( XmlNode_t667 * (*) (InternalEnumerator_1_t8510 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m62256(__this, method) (( XmlNode_t668 * (*) (InternalEnumerator_1_t8510 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)

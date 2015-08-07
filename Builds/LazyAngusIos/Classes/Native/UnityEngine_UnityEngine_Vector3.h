@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Vector3
-struct  Vector3_t496 
+struct  Vector3_t497 
 {
 	// System.Single UnityEngine.Vector3::x
 	float ___x_1;

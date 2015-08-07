@@ -9,7 +9,7 @@ struct GenericTypeParameterBuilder_t4469;
 // System.Type
 struct Type_t;
 // System.Reflection.Assembly
-struct Assembly_t719;
+struct Assembly_t720;
 // System.String
 struct String_t;
 // System.Reflection.Module
@@ -41,9 +41,9 @@ struct PropertyInfo_t;
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Exception
@@ -98,13 +98,13 @@ extern "C" bool GenericTypeParameterBuilder_IsPrimitiveImpl_m17467 (GenericTypeP
 // System.Boolean System.Reflection.Emit.GenericTypeParameterBuilder::IsValueTypeImpl()
 extern "C" bool GenericTypeParameterBuilder_IsValueTypeImpl_m17468 (GenericTypeParameterBuilder_t4469 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.Emit.GenericTypeParameterBuilder::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
-extern "C" Object_t * GenericTypeParameterBuilder_InvokeMember_m17469 (GenericTypeParameterBuilder_t4469 * __this, String_t* ___name, int32_t ___invokeAttr, Binder_t2903 * ___binder, Object_t * ___target, ObjectU5BU5D_t635* ___args, ParameterModifierU5BU5D_t2904* ___modifiers, CultureInfo_t718 * ___culture, StringU5BU5D_t75* ___namedParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GenericTypeParameterBuilder_InvokeMember_m17469 (GenericTypeParameterBuilder_t4469 * __this, String_t* ___name, int32_t ___invokeAttr, Binder_t2903 * ___binder, Object_t * ___target, ObjectU5BU5D_t636* ___args, ParameterModifierU5BU5D_t2904* ___modifiers, CultureInfo_t719 * ___culture, StringU5BU5D_t75* ___namedParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.Emit.GenericTypeParameterBuilder::GetElementType()
 extern "C" Type_t * GenericTypeParameterBuilder_GetElementType_m17470 (GenericTypeParameterBuilder_t4469 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.Emit.GenericTypeParameterBuilder::get_UnderlyingSystemType()
 extern "C" Type_t * GenericTypeParameterBuilder_get_UnderlyingSystemType_m17471 (GenericTypeParameterBuilder_t4469 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Assembly System.Reflection.Emit.GenericTypeParameterBuilder::get_Assembly()
-extern "C" Assembly_t719 * GenericTypeParameterBuilder_get_Assembly_m17472 (GenericTypeParameterBuilder_t4469 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Assembly_t720 * GenericTypeParameterBuilder_get_Assembly_m17472 (GenericTypeParameterBuilder_t4469 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Emit.GenericTypeParameterBuilder::get_AssemblyQualifiedName()
 extern "C" String_t* GenericTypeParameterBuilder_get_AssemblyQualifiedName_m17473 (GenericTypeParameterBuilder_t4469 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.Emit.GenericTypeParameterBuilder::get_BaseType()
@@ -114,9 +114,9 @@ extern "C" String_t* GenericTypeParameterBuilder_get_FullName_m17475 (GenericTyp
 // System.Boolean System.Reflection.Emit.GenericTypeParameterBuilder::IsDefined(System.Type,System.Boolean)
 extern "C" bool GenericTypeParameterBuilder_IsDefined_m17476 (GenericTypeParameterBuilder_t4469 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.Emit.GenericTypeParameterBuilder::GetCustomAttributes(System.Boolean)
-extern "C" ObjectU5BU5D_t635* GenericTypeParameterBuilder_GetCustomAttributes_m17477 (GenericTypeParameterBuilder_t4469 * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* GenericTypeParameterBuilder_GetCustomAttributes_m17477 (GenericTypeParameterBuilder_t4469 * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.Emit.GenericTypeParameterBuilder::GetCustomAttributes(System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t635* GenericTypeParameterBuilder_GetCustomAttributes_m17478 (GenericTypeParameterBuilder_t4469 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* GenericTypeParameterBuilder_GetCustomAttributes_m17478 (GenericTypeParameterBuilder_t4469 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Emit.GenericTypeParameterBuilder::get_Name()
 extern "C" String_t* GenericTypeParameterBuilder_get_Name_m17479 (GenericTypeParameterBuilder_t4469 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Emit.GenericTypeParameterBuilder::get_Namespace()

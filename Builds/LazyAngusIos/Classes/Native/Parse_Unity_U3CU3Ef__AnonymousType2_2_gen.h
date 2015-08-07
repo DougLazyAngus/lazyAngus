@@ -10,7 +10,7 @@ struct String_t;
 struct  U3CU3Ef__AnonymousType2_2_t1337  : public Object_t
 {
 	// <pair>j__TPar <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>::<pair>i__Field
-	KeyValuePair_2_t727  ___U3CpairU3Ei__Field_0;
+	KeyValuePair_2_t728  ___U3CpairU3Ei__Field_0;
 	// <valueString>j__TPar <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>::<valueString>i__Field
 	String_t* ___U3CvalueStringU3Ei__Field_1;
 };

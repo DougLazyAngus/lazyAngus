@@ -11,7 +11,7 @@ struct Object_t;
 // System.Type
 struct Type_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.String>
-struct IDictionary_2_t645;
+struct IDictionary_2_t646;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

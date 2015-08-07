@@ -17,7 +17,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Collections.Generic.SortedDictionary`2/ValueCollection/Enumerator<System.Object,System.Object>
 #include "System_System_Collections_Generic_SortedDictionary_2_ValueCo_0.h"
 
@@ -55,8 +55,8 @@ extern "C" Object_t * ValueCollection_System_Collections_ICollection_get_SyncRoo
 extern "C" Object_t * ValueCollection_System_Collections_IEnumerable_GetEnumerator_m25597_gshared (ValueCollection_t5596 * __this, const MethodInfo* method);
 #define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m25597(__this, method) (( Object_t * (*) (ValueCollection_t5596 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m25597_gshared)(__this, method)
 // System.Void System.Collections.Generic.SortedDictionary`2/ValueCollection<System.Object,System.Object>::CopyTo(TValue[],System.Int32)
-extern "C" void ValueCollection_CopyTo_m25598_gshared (ValueCollection_t5596 * __this, ObjectU5BU5D_t635* ___array, int32_t ___arrayIndex, const MethodInfo* method);
-#define ValueCollection_CopyTo_m25598(__this, ___array, ___arrayIndex, method) (( void (*) (ValueCollection_t5596 *, ObjectU5BU5D_t635*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m25598_gshared)(__this, ___array, ___arrayIndex, method)
+extern "C" void ValueCollection_CopyTo_m25598_gshared (ValueCollection_t5596 * __this, ObjectU5BU5D_t636* ___array, int32_t ___arrayIndex, const MethodInfo* method);
+#define ValueCollection_CopyTo_m25598(__this, ___array, ___arrayIndex, method) (( void (*) (ValueCollection_t5596 *, ObjectU5BU5D_t636*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m25598_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Int32 System.Collections.Generic.SortedDictionary`2/ValueCollection<System.Object,System.Object>::get_Count()
 extern "C" int32_t ValueCollection_get_Count_m25599_gshared (ValueCollection_t5596 * __this, const MethodInfo* method);
 #define ValueCollection_get_Count_m25599(__this, method) (( int32_t (*) (ValueCollection_t5596 *, const MethodInfo*))ValueCollection_get_Count_m25599_gshared)(__this, method)

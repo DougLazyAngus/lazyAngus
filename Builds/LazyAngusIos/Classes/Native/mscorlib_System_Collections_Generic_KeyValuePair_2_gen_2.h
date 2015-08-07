@@ -5,7 +5,7 @@ struct AN_ActivityTemplate_t117;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int32,AN_ActivityTemplate>
-struct  KeyValuePair_2_t663 
+struct  KeyValuePair_2_t664 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,AN_ActivityTemplate>::key
 	int32_t ___key_0;

@@ -7,7 +7,7 @@
 // System.Net.HttpWebRequest
 struct HttpWebRequest_t3811;
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection
 struct X509CertificateCollection_t3833;
 // System.Net.ICredentials
@@ -48,7 +48,7 @@ struct WebConnectionData_t4024;
 #include "System_System_Net_WebExceptionStatus.h"
 
 // System.Void System.Net.HttpWebRequest::.ctor(System.Uri)
-extern "C" void HttpWebRequest__ctor_m13700 (HttpWebRequest_t3811 * __this, Uri_t707 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HttpWebRequest__ctor_m13700 (HttpWebRequest_t3811 * __this, Uri_t708 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.HttpWebRequest::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern "C" void HttpWebRequest__ctor_m13701 (HttpWebRequest_t3811 * __this, SerializationInfo_t2869 * ___serializationInfo, StreamingContext_t2870  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.HttpWebRequest::.cctor()
@@ -56,7 +56,7 @@ extern "C" void HttpWebRequest__cctor_m13702 (Object_t * __this /* static, unuse
 // System.Void System.Net.HttpWebRequest::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern "C" void HttpWebRequest_System_Runtime_Serialization_ISerializable_GetObjectData_m13703 (HttpWebRequest_t3811 * __this, SerializationInfo_t2869 * ___serializationInfo, StreamingContext_t2870  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Uri System.Net.HttpWebRequest::get_Address()
-extern "C" Uri_t707 * HttpWebRequest_get_Address_m12932 (HttpWebRequest_t3811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Uri_t708 * HttpWebRequest_get_Address_m12932 (HttpWebRequest_t3811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.DecompressionMethods System.Net.HttpWebRequest::get_AutomaticDecompression()
 extern "C" int32_t HttpWebRequest_get_AutomaticDecompression_m13704 (HttpWebRequest_t3811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.HttpWebRequest::get_InternalAllowBuffering()
@@ -82,7 +82,7 @@ extern "C" String_t* HttpWebRequest_get_Method_m13714 (HttpWebRequest_t3811 * __
 // System.Net.IWebProxy System.Net.HttpWebRequest::get_Proxy()
 extern "C" Object_t * HttpWebRequest_get_Proxy_m13715 (HttpWebRequest_t3811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Uri System.Net.HttpWebRequest::get_RequestUri()
-extern "C" Uri_t707 * HttpWebRequest_get_RequestUri_m13716 (HttpWebRequest_t3811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Uri_t708 * HttpWebRequest_get_RequestUri_m13716 (HttpWebRequest_t3811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.HttpWebRequest::get_SendChunked()
 extern "C" bool HttpWebRequest_get_SendChunked_m13717 (HttpWebRequest_t3811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.ServicePoint System.Net.HttpWebRequest::get_ServicePoint()
@@ -96,7 +96,7 @@ extern "C" bool HttpWebRequest_get_ExpectContinue_m13720 (HttpWebRequest_t3811 *
 // System.Void System.Net.HttpWebRequest::set_ExpectContinue(System.Boolean)
 extern "C" void HttpWebRequest_set_ExpectContinue_m13721 (HttpWebRequest_t3811 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Uri System.Net.HttpWebRequest::get_AuthUri()
-extern "C" Uri_t707 * HttpWebRequest_get_AuthUri_m13722 (HttpWebRequest_t3811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Uri_t708 * HttpWebRequest_get_AuthUri_m13722 (HttpWebRequest_t3811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.HttpWebRequest::get_ProxyQuery()
 extern "C" bool HttpWebRequest_get_ProxyQuery_m13723 (HttpWebRequest_t3811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.ServicePoint System.Net.HttpWebRequest::GetServicePoint()

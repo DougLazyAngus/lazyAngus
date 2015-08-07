@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t659;
+struct IEnumerable_1_t660;
 // System.Func`2<System.Object,System.Boolean>
 struct Func_2_t1028;
 // System.Func`2<System.Object,System.String>

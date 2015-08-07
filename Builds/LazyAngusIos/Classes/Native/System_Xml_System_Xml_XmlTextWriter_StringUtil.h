@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.Globalization.CompareInfo
 struct CompareInfo_t3226;
 // System.Object
@@ -12,7 +12,7 @@ struct  StringUtil_t3227  : public Object_t
 };
 struct StringUtil_t3227_StaticFields{
 	// System.Globalization.CultureInfo System.Xml.XmlTextWriter/StringUtil::cul
-	CultureInfo_t718 * ___cul_0;
+	CultureInfo_t719 * ___cul_0;
 	// System.Globalization.CompareInfo System.Xml.XmlTextWriter/StringUtil::cmp
 	CompareInfo_t3226 * ___cmp_1;
 };

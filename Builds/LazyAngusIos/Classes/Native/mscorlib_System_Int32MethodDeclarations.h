@@ -36,7 +36,7 @@ extern "C" uint16_t Int32_System_IConvertible_ToChar_m15274 (int32_t* __this, Ob
 // System.DateTime System.Int32::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  Int32_System_IConvertible_ToDateTime_m15275 (int32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Int32::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t695  Int32_System_IConvertible_ToDecimal_m15276 (int32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t696  Int32_System_IConvertible_ToDecimal_m15276 (int32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Int32::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double Int32_System_IConvertible_ToDouble_m15277 (int32_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Int32::System.IConvertible.ToInt16(System.IFormatProvider)

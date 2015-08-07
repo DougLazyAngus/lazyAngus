@@ -5,7 +5,7 @@ struct DataEventHandlerFunctionU5BU5D_t5444;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct  List_1_t633  : public Object_t
+struct  List_1_t634  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::_items
 	DataEventHandlerFunctionU5BU5D_t5444* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t633  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::_version
 	int32_t ____version_3;
 };
-struct List_1_t633_StaticFields{
+struct List_1_t634_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::EmptyArray
 	DataEventHandlerFunctionU5BU5D_t5444* ___EmptyArray_4;
 };

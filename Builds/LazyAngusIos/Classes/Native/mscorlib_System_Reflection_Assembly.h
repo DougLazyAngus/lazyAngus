@@ -13,7 +13,7 @@ struct String_t;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.Reflection.Assembly
-struct  Assembly_t719  : public Object_t
+struct  Assembly_t720  : public Object_t
 {
 	// System.IntPtr System.Reflection.Assembly::_mono_assembly
 	IntPtr_t ____mono_assembly_0;

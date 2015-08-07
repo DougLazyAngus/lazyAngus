@@ -13,7 +13,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 
 // System.Void System.Collections.Queue::.ctor()
 extern "C" void Queue__ctor_m14879 (Queue_t3954 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -40,6 +40,6 @@ extern "C" void Queue_Enqueue_m16773 (Queue_t3954 * __this, Object_t * ___obj, c
 // System.Object System.Collections.Queue::Peek()
 extern "C" Object_t * Queue_Peek_m16774 (Queue_t3954 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Collections.Queue::ToArray()
-extern "C" ObjectU5BU5D_t635* Queue_ToArray_m16775 (Queue_t3954 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* Queue_ToArray_m16775 (Queue_t3954 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Queue::grow()
 extern "C" void Queue_grow_m16776 (Queue_t3954 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

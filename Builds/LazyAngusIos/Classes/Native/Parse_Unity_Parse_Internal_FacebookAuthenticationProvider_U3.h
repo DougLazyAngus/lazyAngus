@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.String,System.String>
-struct IDictionary_2_t645;
+struct IDictionary_2_t646;
 // Parse.Internal.FacebookAuthenticationProvider
 struct FacebookAuthenticationProvider_t1113;
 // System.Object

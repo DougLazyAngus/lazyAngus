@@ -19,7 +19,7 @@ struct IEnumerator_1_t105;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 // System.Collections.Generic.LinkedList`1/Enumerator<System.Object>
@@ -65,8 +65,8 @@ extern "C" void LinkedList_1_Clear_m30108_gshared (LinkedList_1_t5907 * __this, 
 extern "C" bool LinkedList_1_Contains_m30110_gshared (LinkedList_1_t5907 * __this, Object_t * ___value, const MethodInfo* method);
 #define LinkedList_1_Contains_m30110(__this, ___value, method) (( bool (*) (LinkedList_1_t5907 *, Object_t *, const MethodInfo*))LinkedList_1_Contains_m30110_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.LinkedList`1<System.Object>::CopyTo(T[],System.Int32)
-extern "C" void LinkedList_1_CopyTo_m30112_gshared (LinkedList_1_t5907 * __this, ObjectU5BU5D_t635* ___array, int32_t ___index, const MethodInfo* method);
-#define LinkedList_1_CopyTo_m30112(__this, ___array, ___index, method) (( void (*) (LinkedList_1_t5907 *, ObjectU5BU5D_t635*, int32_t, const MethodInfo*))LinkedList_1_CopyTo_m30112_gshared)(__this, ___array, ___index, method)
+extern "C" void LinkedList_1_CopyTo_m30112_gshared (LinkedList_1_t5907 * __this, ObjectU5BU5D_t636* ___array, int32_t ___index, const MethodInfo* method);
+#define LinkedList_1_CopyTo_m30112(__this, ___array, ___index, method) (( void (*) (LinkedList_1_t5907 *, ObjectU5BU5D_t636*, int32_t, const MethodInfo*))LinkedList_1_CopyTo_m30112_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1<System.Object>::Find(T)
 extern "C" LinkedListNode_1_t5906 * LinkedList_1_Find_m30114_gshared (LinkedList_1_t5907 * __this, Object_t * ___value, const MethodInfo* method);
 #define LinkedList_1_Find_m30114(__this, ___value, method) (( LinkedListNode_1_t5906 * (*) (LinkedList_1_t5907 *, Object_t *, const MethodInfo*))LinkedList_1_Find_m30114_gshared)(__this, ___value, method)

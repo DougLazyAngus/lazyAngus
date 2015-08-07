@@ -15,9 +15,9 @@ struct Object_t;
 // System.Reflection.Binder
 struct Binder_t2903;
 // System.Globalization.CultureInfo
-struct CultureInfo_t718;
+struct CultureInfo_t719;
 // System.Object[]
-struct ObjectU5BU5D_t635;
+struct ObjectU5BU5D_t636;
 // System.Reflection.FieldAttributes
 #include "mscorlib_System_Reflection_FieldAttributes.h"
 // System.RuntimeFieldHandle
@@ -61,4 +61,4 @@ extern "C" UnmanagedMarshal_t4466 * FieldInfo_GetUnmanagedMarshal_m17675 (FieldI
 // System.Reflection.Emit.UnmanagedMarshal System.Reflection.FieldInfo::get_UMarshal()
 extern "C" UnmanagedMarshal_t4466 * FieldInfo_get_UMarshal_m17676 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.FieldInfo::GetPseudoCustomAttributes()
-extern "C" ObjectU5BU5D_t635* FieldInfo_GetPseudoCustomAttributes_m17677 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t636* FieldInfo_GetPseudoCustomAttributes_m17677 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

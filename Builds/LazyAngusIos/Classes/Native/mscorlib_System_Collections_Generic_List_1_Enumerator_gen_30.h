@@ -3,7 +3,7 @@
 // System.Collections.Generic.List`1<UnityEngine.Component>
 struct List_1_t988;
 // UnityEngine.Component
-struct Component_t711;
+struct Component_t712;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>
@@ -16,5 +16,5 @@ struct  Enumerator_t5699
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::current
-	Component_t711 * ___current_3;
+	Component_t712 * ___current_3;
 };

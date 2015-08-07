@@ -9,7 +9,7 @@ struct List_1_t5976;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
-struct IEnumerable_1_t764;
+struct IEnumerable_1_t765;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Object>[]
 struct KeyValuePair_2U5BU5D_t1361;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
@@ -19,7 +19,7 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
-struct ICollection_1_t763;
+struct ICollection_1_t764;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
 struct ReadOnlyCollection_1_t5978;
 // System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
@@ -76,7 +76,7 @@ struct Comparison_1_t5981;
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::System.Collections.IList.set_Item(System.Int32,System.Object)
 #define List_1_System_Collections_IList_set_Item_m30915(__this, ___index, ___value, method) (( void (*) (List_1_t5976 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m30762_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::Add(T)
-#define List_1_Add_m30916(__this, ___item, method) (( void (*) (List_1_t5976 *, KeyValuePair_2_t727 , const MethodInfo*))List_1_Add_m30763_gshared)(__this, ___item, method)
+#define List_1_Add_m30916(__this, ___item, method) (( void (*) (List_1_t5976 *, KeyValuePair_2_t728 , const MethodInfo*))List_1_Add_m30763_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::GrowIfNeeded(System.Int32)
 #define List_1_GrowIfNeeded_m30917(__this, ___newCount, method) (( void (*) (List_1_t5976 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m30764_gshared)(__this, ___newCount, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::CheckRange(System.Int32,System.Int32)
@@ -92,11 +92,11 @@ struct Comparison_1_t5981;
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::Clear()
 #define List_1_Clear_m30923(__this, method) (( void (*) (List_1_t5976 *, const MethodInfo*))List_1_Clear_m30770_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::Contains(T)
-#define List_1_Contains_m30924(__this, ___item, method) (( bool (*) (List_1_t5976 *, KeyValuePair_2_t727 , const MethodInfo*))List_1_Contains_m30771_gshared)(__this, ___item, method)
+#define List_1_Contains_m30924(__this, ___item, method) (( bool (*) (List_1_t5976 *, KeyValuePair_2_t728 , const MethodInfo*))List_1_Contains_m30771_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::CopyTo(T[],System.Int32)
 #define List_1_CopyTo_m30925(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t5976 *, KeyValuePair_2U5BU5D_t1361*, int32_t, const MethodInfo*))List_1_CopyTo_m30772_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::Find(System.Predicate`1<T>)
-#define List_1_Find_m30926(__this, ___match, method) (( KeyValuePair_2_t727  (*) (List_1_t5976 *, Predicate_1_t5979 *, const MethodInfo*))List_1_Find_m30773_gshared)(__this, ___match, method)
+#define List_1_Find_m30926(__this, ___match, method) (( KeyValuePair_2_t728  (*) (List_1_t5976 *, Predicate_1_t5979 *, const MethodInfo*))List_1_Find_m30773_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::CheckMatch(System.Predicate`1<T>)
 #define List_1_CheckMatch_m30927(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5979 *, const MethodInfo*))List_1_CheckMatch_m30774_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
@@ -106,13 +106,13 @@ struct Comparison_1_t5981;
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m30930(__this, ___index, ___count, method) (( List_1_t5976 * (*) (List_1_t5976 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m30777_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::IndexOf(T)
-#define List_1_IndexOf_m30931(__this, ___item, method) (( int32_t (*) (List_1_t5976 *, KeyValuePair_2_t727 , const MethodInfo*))List_1_IndexOf_m30778_gshared)(__this, ___item, method)
+#define List_1_IndexOf_m30931(__this, ___item, method) (( int32_t (*) (List_1_t5976 *, KeyValuePair_2_t728 , const MethodInfo*))List_1_IndexOf_m30778_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::Shift(System.Int32,System.Int32)
 #define List_1_Shift_m30932(__this, ___start, ___delta, method) (( void (*) (List_1_t5976 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m30779_gshared)(__this, ___start, ___delta, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::CheckIndex(System.Int32)
 #define List_1_CheckIndex_m30933(__this, ___index, method) (( void (*) (List_1_t5976 *, int32_t, const MethodInfo*))List_1_CheckIndex_m30780_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::Insert(System.Int32,T)
-#define List_1_Insert_m30934(__this, ___index, ___item, method) (( void (*) (List_1_t5976 *, int32_t, KeyValuePair_2_t727 , const MethodInfo*))List_1_Insert_m30781_gshared)(__this, ___index, ___item, method)
+#define List_1_Insert_m30934(__this, ___index, ___item, method) (( void (*) (List_1_t5976 *, int32_t, KeyValuePair_2_t728 , const MethodInfo*))List_1_Insert_m30781_gshared)(__this, ___index, ___item, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_CheckCollection_m30935(__this, ___collection, method) (( void (*) (List_1_t5976 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m30782_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
@@ -122,7 +122,7 @@ struct Comparison_1_t5981;
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_InsertEnumeration_m30938(__this, ___index, ___enumerable, method) (( void (*) (List_1_t5976 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m30785_gshared)(__this, ___index, ___enumerable, method)
 // System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::Remove(T)
-#define List_1_Remove_m30939(__this, ___item, method) (( bool (*) (List_1_t5976 *, KeyValuePair_2_t727 , const MethodInfo*))List_1_Remove_m30786_gshared)(__this, ___item, method)
+#define List_1_Remove_m30939(__this, ___item, method) (( bool (*) (List_1_t5976 *, KeyValuePair_2_t728 , const MethodInfo*))List_1_Remove_m30786_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::RemoveAll(System.Predicate`1<T>)
 #define List_1_RemoveAll_m30940(__this, ___match, method) (( int32_t (*) (List_1_t5976 *, Predicate_1_t5979 *, const MethodInfo*))List_1_RemoveAll_m30787_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::RemoveAt(System.Int32)
@@ -148,6 +148,6 @@ struct Comparison_1_t5981;
 // System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::get_Count()
 #define List_1_get_Count_m30951(__this, method) (( int32_t (*) (List_1_t5976 *, const MethodInfo*))List_1_get_Count_m30798_gshared)(__this, method)
 // T System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::get_Item(System.Int32)
-#define List_1_get_Item_m30952(__this, ___index, method) (( KeyValuePair_2_t727  (*) (List_1_t5976 *, int32_t, const MethodInfo*))List_1_get_Item_m30799_gshared)(__this, ___index, method)
+#define List_1_get_Item_m30952(__this, ___index, method) (( KeyValuePair_2_t728  (*) (List_1_t5976 *, int32_t, const MethodInfo*))List_1_get_Item_m30799_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::set_Item(System.Int32,T)
-#define List_1_set_Item_m30953(__this, ___index, ___value, method) (( void (*) (List_1_t5976 *, int32_t, KeyValuePair_2_t727 , const MethodInfo*))List_1_set_Item_m30800_gshared)(__this, ___index, ___value, method)
+#define List_1_set_Item_m30953(__this, ___index, ___value, method) (( void (*) (List_1_t5976 *, int32_t, KeyValuePair_2_t728 , const MethodInfo*))List_1_set_Item_m30800_gshared)(__this, ___index, ___value, method)

@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t707;
+struct Uri_t708;
 // System.Threading.Tasks.TaskCompletionSource`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>
 struct TaskCompletionSource_1_t1115;
 // System.Action`1<System.Uri>
 struct Action_1_t1117;
 // System.Collections.Generic.IEnumerable`1<System.String>
-struct IEnumerable_1_t658;
+struct IEnumerable_1_t659;
 // System.String
 struct String_t;
 // System.Object
@@ -24,9 +24,9 @@ struct  FacebookAuthenticationProvider_t1113  : public Object_t
 	// System.Action`1<System.Uri> Parse.Internal.FacebookAuthenticationProvider::Navigate
 	Action_1_t1117 * ___Navigate_6;
 	// System.Uri Parse.Internal.FacebookAuthenticationProvider::<LoginDialogUrlOverride>k__BackingField
-	Uri_t707 * ___U3CLoginDialogUrlOverrideU3Ek__BackingField_7;
+	Uri_t708 * ___U3CLoginDialogUrlOverrideU3Ek__BackingField_7;
 	// System.Uri Parse.Internal.FacebookAuthenticationProvider::<ResponseUrlOverride>k__BackingField
-	Uri_t707 * ___U3CResponseUrlOverrideU3Ek__BackingField_8;
+	Uri_t708 * ___U3CResponseUrlOverrideU3Ek__BackingField_8;
 	// System.Collections.Generic.IEnumerable`1<System.String> Parse.Internal.FacebookAuthenticationProvider::<Permissions>k__BackingField
 	Object_t* ___U3CPermissionsU3Ek__BackingField_9;
 	// System.String Parse.Internal.FacebookAuthenticationProvider::<AppId>k__BackingField
@@ -36,11 +36,11 @@ struct  FacebookAuthenticationProvider_t1113  : public Object_t
 };
 struct FacebookAuthenticationProvider_t1113_StaticFields{
 	// System.Uri Parse.Internal.FacebookAuthenticationProvider::LoginDialogUrl
-	Uri_t707 * ___LoginDialogUrl_0;
+	Uri_t708 * ___LoginDialogUrl_0;
 	// System.Uri Parse.Internal.FacebookAuthenticationProvider::TokenExtensionUrl
-	Uri_t707 * ___TokenExtensionUrl_1;
+	Uri_t708 * ___TokenExtensionUrl_1;
 	// System.Uri Parse.Internal.FacebookAuthenticationProvider::ResponseUrl
-	Uri_t707 * ___ResponseUrl_2;
+	Uri_t708 * ___ResponseUrl_2;
 	// System.Uri Parse.Internal.FacebookAuthenticationProvider::MeUrl
-	Uri_t707 * ___MeUrl_3;
+	Uri_t708 * ___MeUrl_3;
 };

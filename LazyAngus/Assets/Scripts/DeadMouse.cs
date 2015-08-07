@@ -3,7 +3,7 @@ using System.Collections;
 
 public class DeadMouse : MonoBehaviour {
 	public float zIndex;
-
+	public float extraScale = 0.32f;
 
 	// Use this for initialization
 	void Start () {
@@ -29,6 +29,6 @@ public class DeadMouse : MonoBehaviour {
 
 		transform.position = tmpP;
 		transform.rotation = parentMouse.gameObject.transform.rotation;
-		transform.localScale = parentMouse.gameObject.transform.localScale;
+		transform.localScale = parentMouse.gameObject.transform.localScale * extraScale;
 	}
 }

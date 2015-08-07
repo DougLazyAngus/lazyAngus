@@ -11,12 +11,12 @@ struct ICollection_1_t9579;
 // System.Collections.Generic.ICollection`1<UnityEngine.TextEditor/TextEditOp>
 struct ICollection_1_t9580;
 // System.Collections.ICollection
-struct ICollection_t704;
+struct ICollection_t705;
 // System.Object
 struct Object_t;
 // UnityEngine.Event
-struct Event_t733;
-struct Event_t733_marshaled;
+struct Event_t734;
+struct Event_t734_marshaled;
 // System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
 struct KeyCollection_t8477;
 // System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
@@ -103,9 +103,9 @@ struct IDictionaryEnumerator_t3911;
 // System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::get_Count()
 #define Dictionary_2_get_Count_m61839(__this, method) (( int32_t (*) (Dictionary_2_t2830 *, const MethodInfo*))Dictionary_2_get_Count_m23545_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::get_Item(TKey)
-#define Dictionary_2_get_Item_m61840(__this, ___key, method) (( int32_t (*) (Dictionary_2_t2830 *, Event_t733 *, const MethodInfo*))Dictionary_2_get_Item_m23547_gshared)(__this, ___key, method)
+#define Dictionary_2_get_Item_m61840(__this, ___key, method) (( int32_t (*) (Dictionary_2_t2830 *, Event_t734 *, const MethodInfo*))Dictionary_2_get_Item_m23547_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::set_Item(TKey,TValue)
-#define Dictionary_2_set_Item_m61841(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t2830 *, Event_t733 *, int32_t, const MethodInfo*))Dictionary_2_set_Item_m23549_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_set_Item_m61841(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t2830 *, Event_t734 *, int32_t, const MethodInfo*))Dictionary_2_set_Item_m23549_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
 #define Dictionary_2_Init_m61842(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t2830 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m23551_gshared)(__this, ___capacity, ___hcp, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::InitArrays(System.Int32)
@@ -113,21 +113,21 @@ struct IDictionaryEnumerator_t3911;
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::CopyToCheck(System.Array,System.Int32)
 #define Dictionary_2_CopyToCheck_m61844(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t2830 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m23555_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::make_pair(TKey,TValue)
-#define Dictionary_2_make_pair_m61845(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t8476  (*) (Object_t * /* static, unused */, Event_t733 *, int32_t, const MethodInfo*))Dictionary_2_make_pair_m23557_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_make_pair_m61845(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t8476  (*) (Object_t * /* static, unused */, Event_t734 *, int32_t, const MethodInfo*))Dictionary_2_make_pair_m23557_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TKey System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::pick_key(TKey,TValue)
-#define Dictionary_2_pick_key_m61846(__this /* static, unused */, ___key, ___value, method) (( Event_t733 * (*) (Object_t * /* static, unused */, Event_t733 *, int32_t, const MethodInfo*))Dictionary_2_pick_key_m23559_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_key_m61846(__this /* static, unused */, ___key, ___value, method) (( Event_t734 * (*) (Object_t * /* static, unused */, Event_t734 *, int32_t, const MethodInfo*))Dictionary_2_pick_key_m23559_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TValue System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::pick_value(TKey,TValue)
-#define Dictionary_2_pick_value_m61847(__this /* static, unused */, ___key, ___value, method) (( int32_t (*) (Object_t * /* static, unused */, Event_t733 *, int32_t, const MethodInfo*))Dictionary_2_pick_value_m23561_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_value_m61847(__this /* static, unused */, ___key, ___value, method) (( int32_t (*) (Object_t * /* static, unused */, Event_t734 *, int32_t, const MethodInfo*))Dictionary_2_pick_value_m23561_gshared)(__this /* static, unused */, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
 #define Dictionary_2_CopyTo_m61848(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t2830 *, KeyValuePair_2U5BU5D_t9582*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m23563_gshared)(__this, ___array, ___index, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::Resize()
 #define Dictionary_2_Resize_m61849(__this, method) (( void (*) (Dictionary_2_t2830 *, const MethodInfo*))Dictionary_2_Resize_m23565_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::Add(TKey,TValue)
-#define Dictionary_2_Add_m61850(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t2830 *, Event_t733 *, int32_t, const MethodInfo*))Dictionary_2_Add_m23567_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_Add_m61850(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t2830 *, Event_t734 *, int32_t, const MethodInfo*))Dictionary_2_Add_m23567_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::Clear()
 #define Dictionary_2_Clear_m61851(__this, method) (( void (*) (Dictionary_2_t2830 *, const MethodInfo*))Dictionary_2_Clear_m23569_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::ContainsKey(TKey)
-#define Dictionary_2_ContainsKey_m61852(__this, ___key, method) (( bool (*) (Dictionary_2_t2830 *, Event_t733 *, const MethodInfo*))Dictionary_2_ContainsKey_m23571_gshared)(__this, ___key, method)
+#define Dictionary_2_ContainsKey_m61852(__this, ___key, method) (( bool (*) (Dictionary_2_t2830 *, Event_t734 *, const MethodInfo*))Dictionary_2_ContainsKey_m23571_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::ContainsValue(TValue)
 #define Dictionary_2_ContainsValue_m61853(__this, ___value, method) (( bool (*) (Dictionary_2_t2830 *, int32_t, const MethodInfo*))Dictionary_2_ContainsValue_m23573_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -135,15 +135,15 @@ struct IDictionaryEnumerator_t3911;
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::OnDeserialization(System.Object)
 #define Dictionary_2_OnDeserialization_m61855(__this, ___sender, method) (( void (*) (Dictionary_2_t2830 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m23577_gshared)(__this, ___sender, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::Remove(TKey)
-#define Dictionary_2_Remove_m61856(__this, ___key, method) (( bool (*) (Dictionary_2_t2830 *, Event_t733 *, const MethodInfo*))Dictionary_2_Remove_m23579_gshared)(__this, ___key, method)
+#define Dictionary_2_Remove_m61856(__this, ___key, method) (( bool (*) (Dictionary_2_t2830 *, Event_t734 *, const MethodInfo*))Dictionary_2_Remove_m23579_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::TryGetValue(TKey,TValue&)
-#define Dictionary_2_TryGetValue_m61857(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t2830 *, Event_t733 *, int32_t*, const MethodInfo*))Dictionary_2_TryGetValue_m23581_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_TryGetValue_m61857(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t2830 *, Event_t734 *, int32_t*, const MethodInfo*))Dictionary_2_TryGetValue_m23581_gshared)(__this, ___key, ___value, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::get_Keys()
 #define Dictionary_2_get_Keys_m61858(__this, method) (( KeyCollection_t8477 * (*) (Dictionary_2_t2830 *, const MethodInfo*))Dictionary_2_get_Keys_m23583_gshared)(__this, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::get_Values()
 #define Dictionary_2_get_Values_m61859(__this, method) (( ValueCollection_t8478 * (*) (Dictionary_2_t2830 *, const MethodInfo*))Dictionary_2_get_Values_m23585_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::ToTKey(System.Object)
-#define Dictionary_2_ToTKey_m61860(__this, ___key, method) (( Event_t733 * (*) (Dictionary_2_t2830 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m23587_gshared)(__this, ___key, method)
+#define Dictionary_2_ToTKey_m61860(__this, ___key, method) (( Event_t734 * (*) (Dictionary_2_t2830 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m23587_gshared)(__this, ___key, method)
 // TValue System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::ToTValue(System.Object)
 #define Dictionary_2_ToTValue_m61861(__this, ___value, method) (( int32_t (*) (Dictionary_2_t2830 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m23589_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
@@ -151,4 +151,4 @@ struct IDictionaryEnumerator_t3911;
 // System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::GetEnumerator()
 #define Dictionary_2_GetEnumerator_m61863(__this, method) (( Enumerator_t8479  (*) (Dictionary_2_t2830 *, const MethodInfo*))Dictionary_2_GetEnumerator_m23593_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::<CopyTo>m__0(TKey,TValue)
-#define Dictionary_2_U3CCopyToU3Em__0_m61864(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2088  (*) (Object_t * /* static, unused */, Event_t733 *, int32_t, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m23595_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_U3CCopyToU3Em__0_m61864(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2088  (*) (Object_t * /* static, unused */, Event_t734 *, int32_t, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m23595_gshared)(__this /* static, unused */, ___key, ___value, method)

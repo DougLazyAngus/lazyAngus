@@ -5,14 +5,14 @@
 // UnionAssets.FLE.EventHandlerFunction
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventHandlerFunction.h"
 // Metadata Definition UnionAssets.FLE.EventHandlerFunction
-extern TypeInfo EventHandlerFunction_t628_il2cpp_TypeInfo;
+extern TypeInfo EventHandlerFunction_t629_il2cpp_TypeInfo;
 // UnionAssets.FLE.EventHandlerFunction
 #include "AssemblyU2DCSharp_UnionAssets_FLE_EventHandlerFunctionMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo EventHandlerFunction_t628_EventHandlerFunction__ctor_m3400_ParameterInfos[] = 
+static const ParameterInfo EventHandlerFunction_t629_EventHandlerFunction__ctor_m3400_ParameterInfos[] = 
 {
 	{"object", 0, 134220056, 0, &Object_t_0_0_0},
 	{"method", 1, 134220057, 0, &IntPtr_t_0_0_0},
@@ -24,10 +24,10 @@ extern const MethodInfo EventHandlerFunction__ctor_m3400_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&EventHandlerFunction__ctor_m3400/* method */
-	, &EventHandlerFunction_t628_il2cpp_TypeInfo/* declaring_type */
+	, &EventHandlerFunction_t629_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t/* invoker_method */
-	, EventHandlerFunction_t628_EventHandlerFunction__ctor_m3400_ParameterInfos/* parameters */
+	, EventHandlerFunction_t629_EventHandlerFunction__ctor_m3400_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -47,7 +47,7 @@ extern const MethodInfo EventHandlerFunction_Invoke_m3401_MethodInfo =
 {
 	"Invoke"/* name */
 	, (methodPointerType)&EventHandlerFunction_Invoke_m3401/* method */
-	, &EventHandlerFunction_t628_il2cpp_TypeInfo/* declaring_type */
+	, &EventHandlerFunction_t629_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -67,7 +67,7 @@ extern const MethodInfo EventHandlerFunction_Invoke_m3401_MethodInfo =
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo EventHandlerFunction_t628_EventHandlerFunction_BeginInvoke_m3402_ParameterInfos[] = 
+static const ParameterInfo EventHandlerFunction_t629_EventHandlerFunction_BeginInvoke_m3402_ParameterInfos[] = 
 {
 	{"callback", 0, 134220058, 0, &AsyncCallback_t386_0_0_0},
 	{"object", 1, 134220059, 0, &Object_t_0_0_0},
@@ -79,10 +79,10 @@ extern const MethodInfo EventHandlerFunction_BeginInvoke_m3402_MethodInfo =
 {
 	"BeginInvoke"/* name */
 	, (methodPointerType)&EventHandlerFunction_BeginInvoke_m3402/* method */
-	, &EventHandlerFunction_t628_il2cpp_TypeInfo/* declaring_type */
+	, &EventHandlerFunction_t629_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, EventHandlerFunction_t628_EventHandlerFunction_BeginInvoke_m3402_ParameterInfos/* parameters */
+	, EventHandlerFunction_t629_EventHandlerFunction_BeginInvoke_m3402_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -97,7 +97,7 @@ extern const MethodInfo EventHandlerFunction_BeginInvoke_m3402_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo EventHandlerFunction_t628_EventHandlerFunction_EndInvoke_m3403_ParameterInfos[] = 
+static const ParameterInfo EventHandlerFunction_t629_EventHandlerFunction_EndInvoke_m3403_ParameterInfos[] = 
 {
 	{"result", 0, 134220060, 0, &IAsyncResult_t385_0_0_0},
 };
@@ -107,10 +107,10 @@ extern const MethodInfo EventHandlerFunction_EndInvoke_m3403_MethodInfo =
 {
 	"EndInvoke"/* name */
 	, (methodPointerType)&EventHandlerFunction_EndInvoke_m3403/* method */
-	, &EventHandlerFunction_t628_il2cpp_TypeInfo/* declaring_type */
+	, &EventHandlerFunction_t629_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, EventHandlerFunction_t628_EventHandlerFunction_EndInvoke_m3403_ParameterInfos/* parameters */
+	, EventHandlerFunction_t629_EventHandlerFunction_EndInvoke_m3403_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -124,7 +124,7 @@ extern const MethodInfo EventHandlerFunction_EndInvoke_m3403_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* EventHandlerFunction_t628_MethodInfos[] =
+static const MethodInfo* EventHandlerFunction_t629_MethodInfos[] =
 {
 	&EventHandlerFunction__ctor_m3400_MethodInfo,
 	&EventHandlerFunction_Invoke_m3401_MethodInfo,
@@ -132,37 +132,37 @@ static const MethodInfo* EventHandlerFunction_t628_MethodInfos[] =
 	&EventHandlerFunction_EndInvoke_m3403_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m4257_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m4258_MethodInfo;
 extern const MethodInfo Object_Finalize_m490_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m4258_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m4259_MethodInfo;
 extern const MethodInfo Object_ToString_m492_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m4259_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo;
-extern const MethodInfo Delegate_Clone_m4261_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4262_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m4263_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m4260_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo;
+extern const MethodInfo Delegate_Clone_m4262_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4263_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m4264_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4265_MethodInfo;
 extern const MethodInfo EventHandlerFunction_Invoke_m3401_MethodInfo;
 extern const MethodInfo EventHandlerFunction_BeginInvoke_m3402_MethodInfo;
 extern const MethodInfo EventHandlerFunction_EndInvoke_m3403_MethodInfo;
-static const Il2CppMethodReference EventHandlerFunction_t628_VTable[] =
+static const Il2CppMethodReference EventHandlerFunction_t629_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&EventHandlerFunction_Invoke_m3401_MethodInfo,
 	&EventHandlerFunction_BeginInvoke_m3402_MethodInfo,
 	&EventHandlerFunction_EndInvoke_m3403_MethodInfo,
 };
-static bool EventHandlerFunction_t628_VTableIsGenericMethod[] =
+static bool EventHandlerFunction_t629_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -179,57 +179,57 @@ static bool EventHandlerFunction_t628_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICloneable_t761_0_0_0;
-extern const Il2CppType ISerializable_t762_0_0_0;
-static Il2CppInterfaceOffsetPair EventHandlerFunction_t628_InterfacesOffsets[] = 
+extern const Il2CppType ICloneable_t762_0_0_0;
+extern const Il2CppType ISerializable_t763_0_0_0;
+static Il2CppInterfaceOffsetPair EventHandlerFunction_t629_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType EventHandlerFunction_t628_0_0_0;
-extern const Il2CppType EventHandlerFunction_t628_1_0_0;
+extern const Il2CppType EventHandlerFunction_t629_0_0_0;
+extern const Il2CppType EventHandlerFunction_t629_1_0_0;
 extern const Il2CppType MulticastDelegate_t388_0_0_0;
-struct EventHandlerFunction_t628;
-const Il2CppTypeDefinitionMetadata EventHandlerFunction_t628_DefinitionMetadata = 
+struct EventHandlerFunction_t629;
+const Il2CppTypeDefinitionMetadata EventHandlerFunction_t629_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, EventHandlerFunction_t628_InterfacesOffsets/* interfaceOffsets */
+	, EventHandlerFunction_t629_InterfacesOffsets/* interfaceOffsets */
 	, &MulticastDelegate_t388_0_0_0/* parent */
-	, EventHandlerFunction_t628_VTable/* vtableMethods */
-	, EventHandlerFunction_t628_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, EventHandlerFunction_t629_VTable/* vtableMethods */
+	, EventHandlerFunction_t629_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo EventHandlerFunction_t628_il2cpp_TypeInfo = 
+TypeInfo EventHandlerFunction_t629_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "EventHandlerFunction"/* name */
 	, "UnionAssets.FLE"/* namespaze */
-	, EventHandlerFunction_t628_MethodInfos/* methods */
+	, EventHandlerFunction_t629_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &EventHandlerFunction_t628_il2cpp_TypeInfo/* element_class */
+	, &EventHandlerFunction_t629_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &EventHandlerFunction_t628_0_0_0/* byval_arg */
-	, &EventHandlerFunction_t628_1_0_0/* this_arg */
-	, &EventHandlerFunction_t628_DefinitionMetadata/* definitionMetadata */
+	, &EventHandlerFunction_t629_0_0_0/* byval_arg */
+	, &EventHandlerFunction_t629_1_0_0/* this_arg */
+	, &EventHandlerFunction_t629_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
 	, NULL/* static_fields */
 	, NULL/* rgctx_data */
-	, (methodPointerType)pinvoke_delegate_wrapper_EventHandlerFunction_t628/* pinvoke_delegate_wrapper */
+	, (methodPointerType)pinvoke_delegate_wrapper_EventHandlerFunction_t629/* pinvoke_delegate_wrapper */
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (EventHandlerFunction_t628)/* instance_size */
-	, sizeof (EventHandlerFunction_t628)/* actualSize */
+	, sizeof (EventHandlerFunction_t629)/* instance_size */
+	, sizeof (EventHandlerFunction_t629)/* actualSize */
 	, 0/* element_size */
 	, sizeof(methodPointerType)/* native_size */
 	, 0/* static_fields_size */
@@ -261,12 +261,12 @@ TypeInfo EventHandlerFunction_t628_il2cpp_TypeInfo =
 // UnionAssets.FLE.DataEventHandlerFunction
 #include "AssemblyU2DCSharp_UnionAssets_FLE_DataEventHandlerFunction.h"
 // Metadata Definition UnionAssets.FLE.DataEventHandlerFunction
-extern TypeInfo DataEventHandlerFunction_t629_il2cpp_TypeInfo;
+extern TypeInfo DataEventHandlerFunction_t630_il2cpp_TypeInfo;
 // UnionAssets.FLE.DataEventHandlerFunction
 #include "AssemblyU2DCSharp_UnionAssets_FLE_DataEventHandlerFunctionMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo DataEventHandlerFunction_t629_DataEventHandlerFunction__ctor_m3404_ParameterInfos[] = 
+static const ParameterInfo DataEventHandlerFunction_t630_DataEventHandlerFunction__ctor_m3404_ParameterInfos[] = 
 {
 	{"object", 0, 134220061, 0, &Object_t_0_0_0},
 	{"method", 1, 134220062, 0, &IntPtr_t_0_0_0},
@@ -277,10 +277,10 @@ extern const MethodInfo DataEventHandlerFunction__ctor_m3404_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&DataEventHandlerFunction__ctor_m3404/* method */
-	, &DataEventHandlerFunction_t629_il2cpp_TypeInfo/* declaring_type */
+	, &DataEventHandlerFunction_t630_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t/* invoker_method */
-	, DataEventHandlerFunction_t629_DataEventHandlerFunction__ctor_m3404_ParameterInfos/* parameters */
+	, DataEventHandlerFunction_t630_DataEventHandlerFunction__ctor_m3404_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -296,7 +296,7 @@ extern const MethodInfo DataEventHandlerFunction__ctor_m3404_MethodInfo =
 };
 extern const Il2CppType CEvent_t133_0_0_0;
 extern const Il2CppType CEvent_t133_0_0_0;
-static const ParameterInfo DataEventHandlerFunction_t629_DataEventHandlerFunction_Invoke_m3405_ParameterInfos[] = 
+static const ParameterInfo DataEventHandlerFunction_t630_DataEventHandlerFunction_Invoke_m3405_ParameterInfos[] = 
 {
 	{"e", 0, 134220063, 0, &CEvent_t133_0_0_0},
 };
@@ -306,10 +306,10 @@ extern const MethodInfo DataEventHandlerFunction_Invoke_m3405_MethodInfo =
 {
 	"Invoke"/* name */
 	, (methodPointerType)&DataEventHandlerFunction_Invoke_m3405/* method */
-	, &DataEventHandlerFunction_t629_il2cpp_TypeInfo/* declaring_type */
+	, &DataEventHandlerFunction_t630_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, DataEventHandlerFunction_t629_DataEventHandlerFunction_Invoke_m3405_ParameterInfos/* parameters */
+	, DataEventHandlerFunction_t630_DataEventHandlerFunction_Invoke_m3405_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -326,7 +326,7 @@ extern const MethodInfo DataEventHandlerFunction_Invoke_m3405_MethodInfo =
 extern const Il2CppType CEvent_t133_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo DataEventHandlerFunction_t629_DataEventHandlerFunction_BeginInvoke_m3406_ParameterInfos[] = 
+static const ParameterInfo DataEventHandlerFunction_t630_DataEventHandlerFunction_BeginInvoke_m3406_ParameterInfos[] = 
 {
 	{"e", 0, 134220064, 0, &CEvent_t133_0_0_0},
 	{"callback", 1, 134220065, 0, &AsyncCallback_t386_0_0_0},
@@ -338,10 +338,10 @@ extern const MethodInfo DataEventHandlerFunction_BeginInvoke_m3406_MethodInfo =
 {
 	"BeginInvoke"/* name */
 	, (methodPointerType)&DataEventHandlerFunction_BeginInvoke_m3406/* method */
-	, &DataEventHandlerFunction_t629_il2cpp_TypeInfo/* declaring_type */
+	, &DataEventHandlerFunction_t630_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, DataEventHandlerFunction_t629_DataEventHandlerFunction_BeginInvoke_m3406_ParameterInfos/* parameters */
+	, DataEventHandlerFunction_t630_DataEventHandlerFunction_BeginInvoke_m3406_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -356,7 +356,7 @@ extern const MethodInfo DataEventHandlerFunction_BeginInvoke_m3406_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo DataEventHandlerFunction_t629_DataEventHandlerFunction_EndInvoke_m3407_ParameterInfos[] = 
+static const ParameterInfo DataEventHandlerFunction_t630_DataEventHandlerFunction_EndInvoke_m3407_ParameterInfos[] = 
 {
 	{"result", 0, 134220067, 0, &IAsyncResult_t385_0_0_0},
 };
@@ -366,10 +366,10 @@ extern const MethodInfo DataEventHandlerFunction_EndInvoke_m3407_MethodInfo =
 {
 	"EndInvoke"/* name */
 	, (methodPointerType)&DataEventHandlerFunction_EndInvoke_m3407/* method */
-	, &DataEventHandlerFunction_t629_il2cpp_TypeInfo/* declaring_type */
+	, &DataEventHandlerFunction_t630_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, DataEventHandlerFunction_t629_DataEventHandlerFunction_EndInvoke_m3407_ParameterInfos/* parameters */
+	, DataEventHandlerFunction_t630_DataEventHandlerFunction_EndInvoke_m3407_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -383,7 +383,7 @@ extern const MethodInfo DataEventHandlerFunction_EndInvoke_m3407_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* DataEventHandlerFunction_t629_MethodInfos[] =
+static const MethodInfo* DataEventHandlerFunction_t630_MethodInfos[] =
 {
 	&DataEventHandlerFunction__ctor_m3404_MethodInfo,
 	&DataEventHandlerFunction_Invoke_m3405_MethodInfo,
@@ -394,24 +394,24 @@ static const MethodInfo* DataEventHandlerFunction_t629_MethodInfos[] =
 extern const MethodInfo DataEventHandlerFunction_Invoke_m3405_MethodInfo;
 extern const MethodInfo DataEventHandlerFunction_BeginInvoke_m3406_MethodInfo;
 extern const MethodInfo DataEventHandlerFunction_EndInvoke_m3407_MethodInfo;
-static const Il2CppMethodReference DataEventHandlerFunction_t629_VTable[] =
+static const Il2CppMethodReference DataEventHandlerFunction_t630_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&DataEventHandlerFunction_Invoke_m3405_MethodInfo,
 	&DataEventHandlerFunction_BeginInvoke_m3406_MethodInfo,
 	&DataEventHandlerFunction_EndInvoke_m3407_MethodInfo,
 };
-static bool DataEventHandlerFunction_t629_VTableIsGenericMethod[] =
+static bool DataEventHandlerFunction_t630_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -428,54 +428,54 @@ static bool DataEventHandlerFunction_t629_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair DataEventHandlerFunction_t629_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DataEventHandlerFunction_t630_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType DataEventHandlerFunction_t629_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t629_1_0_0;
-struct DataEventHandlerFunction_t629;
-const Il2CppTypeDefinitionMetadata DataEventHandlerFunction_t629_DefinitionMetadata = 
+extern const Il2CppType DataEventHandlerFunction_t630_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t630_1_0_0;
+struct DataEventHandlerFunction_t630;
+const Il2CppTypeDefinitionMetadata DataEventHandlerFunction_t630_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, DataEventHandlerFunction_t629_InterfacesOffsets/* interfaceOffsets */
+	, DataEventHandlerFunction_t630_InterfacesOffsets/* interfaceOffsets */
 	, &MulticastDelegate_t388_0_0_0/* parent */
-	, DataEventHandlerFunction_t629_VTable/* vtableMethods */
-	, DataEventHandlerFunction_t629_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, DataEventHandlerFunction_t630_VTable/* vtableMethods */
+	, DataEventHandlerFunction_t630_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo DataEventHandlerFunction_t629_il2cpp_TypeInfo = 
+TypeInfo DataEventHandlerFunction_t630_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DataEventHandlerFunction"/* name */
 	, "UnionAssets.FLE"/* namespaze */
-	, DataEventHandlerFunction_t629_MethodInfos/* methods */
+	, DataEventHandlerFunction_t630_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &DataEventHandlerFunction_t629_il2cpp_TypeInfo/* element_class */
+	, &DataEventHandlerFunction_t630_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &DataEventHandlerFunction_t629_0_0_0/* byval_arg */
-	, &DataEventHandlerFunction_t629_1_0_0/* this_arg */
-	, &DataEventHandlerFunction_t629_DefinitionMetadata/* definitionMetadata */
+	, &DataEventHandlerFunction_t630_0_0_0/* byval_arg */
+	, &DataEventHandlerFunction_t630_1_0_0/* this_arg */
+	, &DataEventHandlerFunction_t630_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
 	, NULL/* static_fields */
 	, NULL/* rgctx_data */
-	, (methodPointerType)pinvoke_delegate_wrapper_DataEventHandlerFunction_t629/* pinvoke_delegate_wrapper */
+	, (methodPointerType)pinvoke_delegate_wrapper_DataEventHandlerFunction_t630/* pinvoke_delegate_wrapper */
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DataEventHandlerFunction_t629)/* instance_size */
-	, sizeof (DataEventHandlerFunction_t629)/* actualSize */
+	, sizeof (DataEventHandlerFunction_t630)/* instance_size */
+	, sizeof (DataEventHandlerFunction_t630)/* actualSize */
 	, 0/* element_size */
 	, sizeof(methodPointerType)/* native_size */
 	, 0/* static_fields_size */
@@ -634,17 +634,17 @@ extern const MethodInfo InitDelegate_BeginInvoke_m3410_MethodInfo;
 extern const MethodInfo InitDelegate_EndInvoke_m3411_MethodInfo;
 static const Il2CppMethodReference InitDelegate_t419_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&InitDelegate_Invoke_m3409_MethodInfo,
 	&InitDelegate_BeginInvoke_m3410_MethodInfo,
 	&InitDelegate_EndInvoke_m3411_MethodInfo,
@@ -668,8 +668,8 @@ static bool InitDelegate_t419_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair InitDelegate_t419_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType InitDelegate_t419_0_0_0;
@@ -880,17 +880,17 @@ extern const MethodInfo FacebookDelegate_BeginInvoke_m3414_MethodInfo;
 extern const MethodInfo FacebookDelegate_EndInvoke_m3415_MethodInfo;
 static const Il2CppMethodReference FacebookDelegate_t433_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&FacebookDelegate_Invoke_m3413_MethodInfo,
 	&FacebookDelegate_BeginInvoke_m3414_MethodInfo,
 	&FacebookDelegate_EndInvoke_m3415_MethodInfo,
@@ -914,8 +914,8 @@ static bool FacebookDelegate_t433_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair FacebookDelegate_t433_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType FacebookDelegate_t433_0_0_0;
@@ -1126,17 +1126,17 @@ extern const MethodInfo HideUnityDelegate_BeginInvoke_m3418_MethodInfo;
 extern const MethodInfo HideUnityDelegate_EndInvoke_m3419_MethodInfo;
 static const Il2CppMethodReference HideUnityDelegate_t420_VTable[] =
 {
-	&MulticastDelegate_Equals_m4257_MethodInfo,
+	&MulticastDelegate_Equals_m4258_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4258_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4259_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4260_MethodInfo,
-	&Delegate_Clone_m4261_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4259_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4262_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4263_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4264_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4261_MethodInfo,
+	&Delegate_Clone_m4262_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4260_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4263_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4264_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4265_MethodInfo,
 	&HideUnityDelegate_Invoke_m3417_MethodInfo,
 	&HideUnityDelegate_BeginInvoke_m3418_MethodInfo,
 	&HideUnityDelegate_EndInvoke_m3419_MethodInfo,
@@ -1160,8 +1160,8 @@ static bool HideUnityDelegate_t420_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair HideUnityDelegate_t420_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t761_0_0_0, 4},
-	{ &ISerializable_t762_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType HideUnityDelegate_t420_0_0_0;
