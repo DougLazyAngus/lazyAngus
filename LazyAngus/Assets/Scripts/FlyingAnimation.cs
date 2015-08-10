@@ -3,9 +3,7 @@ using System.Collections;
 
 public class FlyingAnimation : WorldRelativeGUIElement {
 	RectTransform myRectTransform;
-
 	Vector3[] points;
-
 	float startTime;
 	bool running = false;
 

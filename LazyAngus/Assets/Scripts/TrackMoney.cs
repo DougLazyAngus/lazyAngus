@@ -3,10 +3,10 @@ using UnityEngine.UI;
 
 using System.Collections;
 
-public class TrackTreats : MonoBehaviour {
+public class TrackMoney : MonoBehaviour {
 	
-	private Text treatsText;
-	private DistortForEffect distortForEffect;
+	public Text moneyText;
+	public DistortForEffect distortForEffect;
 	
 	private PlayerStats playerStats;
 	private bool registerdForEvents;
@@ -15,9 +15,6 @@ public class TrackTreats : MonoBehaviour {
 	void Start () {
 		playerStats = PlayerStats.instance;
 
-		treatsText = this.gameObject.GetComponent<Text> ();
-		distortForEffect = this.gameObject.GetComponent<DistortForEffect> ();
-		
 		playerStats.MoneyChanged += new PlayerStats.MoneyChangedEventHandler (DynamicUpdateTreatsText);
 		registerdForEvents = true;
 		SetTreatsText ();
@@ -30,7 +27,7 @@ public class TrackTreats : MonoBehaviour {
 	}
 	
 	void SetTreatsText() {
-		treatsText.text = "$" + playerStats.money;
+		moneyText.text = "" + playerStats.money;
 	}
 	
 	// Update is called once per frame
