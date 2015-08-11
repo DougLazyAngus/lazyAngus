@@ -24,6 +24,7 @@ public class PawController : MonoBehaviour {
 
 	public Collider2D normalCollider;
 	public Collider2D bigCollider;
+	public float debugTimer;
 
 	private float swipeSpeed;
 
@@ -34,6 +35,9 @@ public class PawController : MonoBehaviour {
 	public Transform pawHomeCatTransform;
 	public Transform shoulderJointCatTransform;
 	float pawHomeCatTransformMagnitude;
+
+	public GameObject timerWidgetPrototype;
+	GameObject timerWidgetGameObject;
 
 	void Awake() {
 		registerdForEvents = false;
@@ -89,12 +93,15 @@ public class PawController : MonoBehaviour {
 			float timeNow = Time.time;
 			if (timeNow - pauseStarted > TweakableParams.swipeInitialPause) {
 				SetPhase(SwipePhase.SWIPE_EXTENDING);
+			} else {
+				MovePawTowards (pawHomeCatTransform.localPosition);
 			}
 			break;
 		}
 		case SwipePhase.SWIPE_EXTENDING:
 		{
 			if (MovePawTowards (swipeLocationCat)) {
+				RemoveTimer ();
 				SetPhase(SwipePhase.SWIPE_EXTENDED_PAUSE);
 			}
 			break;
@@ -102,13 +109,14 @@ public class PawController : MonoBehaviour {
 		case SwipePhase.SWIPE_EXTENDED_PAUSE:
 		{
 			float timeNow = Time.time;
-			if (timeNow - pauseStarted > TweakableParams.swipeInitialPause) {
+			if (timeNow - pauseStarted > TweakableParams.swipeExtendedPause) {
 				SetPhase(SwipePhase.SWIPE_RETRACTING);
 			}
 			break;
 		}
 		case SwipePhase.SWIPE_RETRACTING: 
 			if (MovePawTowards (pawHomeCatTransform.localPosition)) {
+				Debug.Log ("Swipe took " + (Time.time - debugTimer) + " seconds.");
 				SetPhase(SwipePhase.SWIPE_NONE);
 			}
 			break;
@@ -224,11 +232,37 @@ public class PawController : MonoBehaviour {
 	public void Swipe(Vector3 location) {
 		swipeLocationCat = location;
 		pauseStarted = Time.time;
+		debugTimer = Time.time;
 		SetPhase(SwipePhase.SWIPE_INITIAL_PAUSE);
+
+		AddTimer ();
 	}
 
 	public void CancelSwipe() {
+		RemoveTimer ();
 		SetPhase(SwipePhase.SWIPE_RETRACTING);
+	}
+
+	public void AddTimer() {
+		RemoveTimer();
+		timerWidgetGameObject = Instantiate(timerWidgetPrototype,
+		                                    new Vector3(0, 0, 0),
+		                                    Quaternion.identity) as GameObject;
+
+		TimerWidget timerWidget = timerWidgetGameObject.GetComponent<TimerWidget> ();
+
+		Vector3 tmp = transform.localPosition;
+		transform.localPosition = swipeLocationCat;
+		timerWidget.Configure (TweakableParams.swipeInitialPause, 
+		                       transform.position);
+		transform.localPosition = tmp;
+	}
+
+	public void RemoveTimer() {
+		if (timerWidgetGameObject != null) {
+			Object.Destroy (timerWidgetGameObject);
+			timerWidgetGameObject = null;
+		}
 	}
 
 	public void CountKill() {

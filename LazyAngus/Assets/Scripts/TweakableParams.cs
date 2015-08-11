@@ -15,8 +15,8 @@ public class TweakableParams : MonoBehaviour {
 	public const int miceKilledPerPoison = 1;
 
 	// Player swipe params.
-	public const float baseSwipeSpeed = 7.0f;	
-	public const float swipeInitialPause = 0.1f;
+	public const float baseSwipeSpeed = 14.0f;	
+	public const float swipeInitialPause = 2.5f;
 	public const float swipeExtendedPause = 0.1f;
 	public const float swipeRadius = 4.6f;
 
