@@ -7,61 +7,31 @@ public class ConeOfViewRenderer : MonoBehaviour {
 
 	public int numTriangles = 20;
 
-	BoostConfig boostConfig;
-
-	public float actualAngleRange { get; private set;}
-
-	bool registeredForEvents;
-
-	void Awake() {
-		registeredForEvents = false;
-	}
+	bool initialized = false;
 
 	// Use this for initialization
-	void Start () {
-		boostConfig = BoostConfig.instance;
+	void Start () {	
+		EnsureInitialized ();
+	}
+
+	void EnsureInitialized() {
+		if (initialized) {
+			return;
+		}
+		initialized = true;
 
 		viewMesh = new Mesh ();
 		gameObject.AddComponent<MeshRenderer>();
 		gameObject.AddComponent<MeshFilter>().mesh=viewMesh;
 		MeshRenderer renderer = gameObject.GetComponent<MeshRenderer> ();
 		renderer.material = viewMaterial;
-
-		CreateViewMeshForAngleRange (TweakableParams.baseSwipeAngleRange);
-		RegisterForEvents ();
 	}
 	
-	void OnDestroy() {
-		UnregisterForEvents ();
-	}
-	
-	void RegisterForEvents() {
-		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
-		
-		registeredForEvents = true;
-	}
-	
-	void UnregisterForEvents() {
-		if (registeredForEvents) {
-			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
-		}
-	}		
-
-	void OnBoostUsageChanged(BoostConfig.BoostType newType, 
-	                         BoostConfig.BoostType oldType) {
-		if (newType == BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES) {
-			CreateViewMeshForAngleRange (TweakableParams.baseSwipeAngleRange * 
-			                             TweakableParams.goodEyesAngleMultiplier);
-		} else if (oldType == BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES) {
-			CreateViewMeshForAngleRange (TweakableParams.baseSwipeAngleRange);
-		}
-	}
-
-	void CreateViewMeshForAngleRange (float angleRange) {
-		actualAngleRange = angleRange;
+	public void CreateMeshForAngleRange (float minAngle, float maxAngle) {
+		EnsureInitialized ();
 		Utilities.MakeFanWithAngleRange (ref viewMesh, 
-		                                 -angleRange / 2, 
-		                                 angleRange / 2, 
+		                                 minAngle, 
+		                                 maxAngle, 
 		                                 TweakableParams.swipeRadius,
 		                                 numTriangles);
 	}

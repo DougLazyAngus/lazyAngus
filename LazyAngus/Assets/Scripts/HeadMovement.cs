@@ -6,7 +6,6 @@ public class HeadMovement : MonoBehaviour {
 	public float moveToSpeedDeg = 360f;
 	public float moveHomeSpeedDeg = 90f;
 	public float maxTurnDeg = 25f;
-	public ConeOfViewRenderer coneOfView;
 	public float holdTime = 0.2f;
 
 	float targetDeg;
@@ -84,7 +83,7 @@ public class HeadMovement : MonoBehaviour {
 		float radAngle = Mathf.Atan2 (location.y, location.x);
 		float degAngle = radAngle * Mathf.Rad2Deg;
 
-		float maxPawAngle = coneOfView.actualAngleRange/2;
+		float maxPawAngle = ConeOfViewController.instance.actualAngleRange/2;
 		degAngle = Mathf.Clamp (degAngle, -maxPawAngle, maxPawAngle);
 		float desiredHeadAngle = degAngle * maxTurnDeg / maxPawAngle;
 

@@ -12,7 +12,6 @@ public class PlayerController : MonoBehaviour {
 
 	public GameObject rightPawGameObject;
 	public GameObject leftPawGameObject;
-	public ConeOfViewRenderer coneOfView;
 	public HeadMovement headMovement;
 
 	public GameObject fartPuffPrototype;
@@ -224,10 +223,10 @@ public class PlayerController : MonoBehaviour {
 		// Is this a slap for right paw, left paw, or neither?
 		angle = Utilities.GetZAngle (swipeLocationCat);
 		if (angle >= 0 && 
-			angle <= coneOfView.actualAngleRange / 2) {
+		    angle <= ConeOfViewController.instance.actualAngleRange / 2) {
 			return leftPawGameObject;
 		} else if (angle < 0 && 
-			angle >= -coneOfView.actualAngleRange / 2) {
+		           angle >= -ConeOfViewController.instance.actualAngleRange / 2) {
 			return rightPawGameObject;
 		} else {
 			return null;
