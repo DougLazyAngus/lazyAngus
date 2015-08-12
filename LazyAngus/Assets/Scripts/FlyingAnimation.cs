@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class FlyingAnimation : WorldRelativeGUIElement {
@@ -6,6 +7,12 @@ public class FlyingAnimation : WorldRelativeGUIElement {
 	Vector3[] points;
 	float startTime;
 	bool running = false;
+
+	public float startScale;
+	public float endScale;
+	public float extraBulgeScale;
+
+	public Image image;
 
 	// Use this for initialization
 	void Start () {
@@ -34,9 +41,11 @@ public class FlyingAnimation : WorldRelativeGUIElement {
 
 		myRectTransform.anchoredPosition3D = result;
 
-		float scale = Mathf.Sin (Mathf.PI * scaledTime);
-		scale = TweakableParams.flyingAnimationMinScale + 
-			(1 - TweakableParams.flyingAnimationMinScale) * scale;
+		float bulgeScale = Mathf.Sin (Mathf.PI * scaledTime) * extraBulgeScale;
+
+		float linearScale = startScale * (1 - scaledTime) + 
+			endScale * scaledTime;
+		float scale = linearScale + bulgeScale;
 
 		myRectTransform.localScale = new Vector3 (scale, scale, 0);
 	}

@@ -1,8 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class MouseDesc {
-	public Sprite deprecated_mouseSprite;
+public class MouseTypeDesc {
 	public Sprite deadMouseSprite;
 	public Sprite introScreenSprite;
 	public Material mouseMaterial;
@@ -10,14 +9,11 @@ public class MouseDesc {
 	public float speed;
 	public float scale;
 
-	public MouseDesc(string oldImageName, 
+	public MouseTypeDesc(string oldImageName, 
 	                 string newImageName, 
 	                 float speed,
 	                 float scale) {
 		string path;
-		
-		path = "Textures/Mice/" + oldImageName;
-		this.deprecated_mouseSprite = Resources.Load<UnityEngine.Sprite>(path);
 		
 		path = "Textures/NewMice/" + newImageName + ".dead";
 		this.deadMouseSprite = Resources.Load<UnityEngine.Sprite>(path);

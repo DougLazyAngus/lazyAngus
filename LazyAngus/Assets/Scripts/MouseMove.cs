@@ -333,14 +333,20 @@ public class MouseMove : MonoBehaviour
 
 	public void OnKilled ()
 	{
-		GameObject deadMouseObject = Instantiate (MouseConfig.instance.deadMousePrototype, 
-		                                    new Vector3 (0, 0, 0),
-		                                    Quaternion.identity) as GameObject;
-		DeadMouse deadMouse = deadMouseObject.GetComponent<DeadMouse> ();
-		deadMouse.Configure (this);
+		MakeDeadMouse ();
 
 		dead = true;
 		Object.Destroy (this.gameObject);
+	}
+
+	void MakeDeadMouse() {
+		/*
+		GameObject deadMouseObject = Instantiate (MouseConfig.instance.deadMousePrototype, 
+		                                          new Vector3 (0, 0, 0),
+		                                          Quaternion.identity) as GameObject;
+		DeadMouse deadMouse = deadMouseObject.GetComponent<DeadMouse> ();
+		deadMouse.Configure (this);
+		*/
 	}
 
 	public void OnSafeExit ()
@@ -352,7 +358,7 @@ public class MouseMove : MonoBehaviour
 	{
 		mouseType = mt;
 	
-		MouseDesc md = MouseConfig.instance.GetMouseDesc (mt);
+		MouseTypeDesc md = MouseConfig.instance.GetMouseTypeDesc (mt);
 		baseSpeedM = md.speed;
 
 		Vector3 scaleVector = transform.localScale;

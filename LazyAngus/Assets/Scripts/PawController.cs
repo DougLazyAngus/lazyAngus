@@ -128,7 +128,6 @@ public class PawController : MonoBehaviour {
 		}
 		case SwipePhase.SWIPE_RETRACTING: 
 			if (MovePawTowards (pawHomeCatTransform.localPosition)) {
-				Debug.Log ("Swipe took " + (Time.time - debugTimer) + " seconds.");
 				SetPhase(SwipePhase.SWIPE_NONE);
 			}
 			break;

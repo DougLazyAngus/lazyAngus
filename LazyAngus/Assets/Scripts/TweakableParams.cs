@@ -49,7 +49,6 @@ public class TweakableParams : MonoBehaviour {
 	public const float poisonPawsBoostTime = 7.0f;
 
 	public const float flyingAnimationTime = 1.0f;
-	public const float flyingAnimationMinScale = 0.1f;
 
 	public static int GetInitialMoney() {
 		if (DebugConfig.instance.useDebugValues) {

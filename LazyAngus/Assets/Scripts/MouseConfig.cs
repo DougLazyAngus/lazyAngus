@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
@@ -58,7 +58,7 @@ public class MouseConfig : MonoBehaviour
 	public float maxRDWiggleMagnitude = 0.55f;
 	public int minRDWiggleCycles = 9;
 	public int maxRDWiggleCycles = 14;
-	private MouseDesc[] mouseDescs;
+	private MouseTypeDesc[] mouseDescs;
 	private MouseWiggleDesc[] mouseWiggleDescs;
 	public static MouseConfig instance;
 
@@ -72,21 +72,21 @@ public class MouseConfig : MonoBehaviour
 
 	void LoadMouseDescs ()
 	{
-		mouseDescs = new MouseDesc[(int)MouseType.NUM_TYPES];
+		mouseDescs = new MouseTypeDesc[(int)MouseType.NUM_TYPES];
 
-		mouseDescs [(int)MouseType.SLOW] = new MouseDesc ("mouse.01", 
+		mouseDescs [(int)MouseType.SLOW] = new MouseTypeDesc ("mouse.01", 
 		                                                  "mouse_01", 
 		                                                  speeds[(int)MouseType.SLOW], 
 		                                                  scales[(int)MouseType.SLOW]);
-		mouseDescs [(int)MouseType.MEDIUM] = new MouseDesc ("mouse.02", 
+		mouseDescs [(int)MouseType.MEDIUM] = new MouseTypeDesc ("mouse.02", 
 		                                                    "mouse_02", 
 		                                                    speeds[(int)MouseType.MEDIUM], 
 		                                                    scales[(int)MouseType.MEDIUM]);
-		mouseDescs [(int)MouseType.FAST] = new MouseDesc ("mouse.03", 
+		mouseDescs [(int)MouseType.FAST] = new MouseTypeDesc ("mouse.03", 
 		                                                  "mouse_03", 
 		                                                  speeds[(int)MouseType.FAST], 
 		                                                  scales[(int)MouseType.FAST]);
-		mouseDescs [(int)MouseType.SUPERFAST] = new MouseDesc ("mouse.04", 
+		mouseDescs [(int)MouseType.SUPERFAST] = new MouseTypeDesc ("mouse.04", 
 		                                                       "mouse_04", 
 		                                                       speeds[(int)MouseType.SUPERFAST], 
 		                                                       scales[(int)MouseType.SUPERFAST]);
@@ -122,12 +122,7 @@ public class MouseConfig : MonoBehaviour
 	{
 		return (MouseType)Random.Range (0, (int)MouseType.NUM_TYPES);
 	}
-	
-	public Sprite deprecated_GetSpriteForMouseType (MouseType mt)
-	{
-		return mouseDescs [(int)mt].deprecated_mouseSprite;
-	}
-	
+
 	public Sprite GetIntroSpriteForMouseType (MouseType mt)
 	{
 		return mouseDescs [(int)mt].introScreenSprite;
@@ -148,7 +143,7 @@ public class MouseConfig : MonoBehaviour
 		return mouseWiggleDescs [(int)wt];
 	}
 
-	public MouseDesc GetMouseDesc (MouseType mt)
+	public MouseTypeDesc GetMouseTypeDesc (MouseType mt)
 	{
 		return mouseDescs [(int)mt];
 	}

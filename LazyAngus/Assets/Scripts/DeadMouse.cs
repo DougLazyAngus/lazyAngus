@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class DeadMouse : MonoBehaviour {
@@ -18,7 +18,7 @@ public class DeadMouse : MonoBehaviour {
 	}
 
 	public void Configure(MouseMove parentMouse) {
-		MouseDesc md = MouseConfig.instance.GetMouseDesc (parentMouse.mouseType);
+		MouseTypeDesc md = MouseConfig.instance.GetMouseTypeDesc (parentMouse.mouseType);
 
 		SpriteRenderer sr = GetComponent<SpriteRenderer> ();
 		sr.sprite = md.deadMouseSprite;

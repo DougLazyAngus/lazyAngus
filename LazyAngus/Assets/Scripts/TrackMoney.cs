@@ -30,7 +30,6 @@ public class TrackMoney : MonoBehaviour {
 		moneyText.text = "" + playerStats.money;
 	}
 	
-	// Update is called once per frame
 	void DynamicUpdateTreatsText () {
 		SetTreatsText ();
 		distortForEffect.DistortWithDelay (TweakableParams.flyingAnimationTime);
