@@ -215,6 +215,40 @@ public class Utilities
 			return defaultValue;
 		}
 	}
+
+	public static void MakeFanWithAngleRange(ref Mesh mesh, 
+	                                         float startAngle, 
+	                                         float endAngle, 
+	                                         float radius, 
+	                                         int numTriangles) {
+		float totalRange = endAngle - startAngle;
+		
+		float angleIncrementDeg = totalRange / numTriangles;
+		
+		Vector3[] vertices = new Vector3[numTriangles + 2];
+		
+		vertices [0].x = 0f;
+		vertices [0].y = 0f;
+		vertices [0].z = 0f;
+		
+		float angle;
+		for (int i = 0; i < numTriangles + 1; i++) {
+			angle = startAngle + i * angleIncrementDeg;
+			vertices [i + 1].y = Mathf.Sin (Mathf.Deg2Rad * angle) * radius;
+			vertices [i + 1].x = Mathf.Cos (Mathf.Deg2Rad * angle) * radius;
+			vertices [i + 1].z = 0f;
+		}
+		
+		int [] triangles = new int[numTriangles * 3];
+		for (int i = 0; i < numTriangles; i++) {
+			triangles [i * 3] = 0;
+			triangles [i * 3 + 1] = i + 2;
+			triangles [i * 3 + 2] = i + 1;
+		}
+		
+		mesh.vertices = vertices;
+		mesh.triangles = triangles;
+	}
 }
 
 

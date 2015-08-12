@@ -59,32 +59,11 @@ public class ConeOfViewRenderer : MonoBehaviour {
 
 	void CreateViewMeshForAngleRange (float angleRange) {
 		actualAngleRange = angleRange;
-
-		float angleIncrementDeg = angleRange / numTriangles;
-
-		Vector3[] vertices = new Vector3[numTriangles + 2];
-
-		vertices [0].x = 0f;
-		vertices [0].y = 0f;
-		vertices [0].z = 0f;
-
-		float angle;
-		for (int i = 0; i < numTriangles + 1; i++) {
-			angle = -angleRange / 2 + i * angleIncrementDeg;
-			vertices [i + 1].y = Mathf.Sin (Mathf.Deg2Rad * angle) * TweakableParams.swipeRadius;
-			vertices [i + 1].x = Mathf.Cos (Mathf.Deg2Rad * angle) * TweakableParams.swipeRadius;
-			vertices [i + 1].z = 0f;
-		}
-
-		int [] triangles = new int[numTriangles * 3];
-		for (int i = 0; i < numTriangles; i++) {
-			triangles [i * 3] = 0;
-			triangles [i * 3 + 1] = i + 2;
-			triangles [i * 3 + 2] = i + 1;
-		}
-			
-		viewMesh.vertices = vertices;
-		viewMesh.triangles = triangles;
+		Utilities.MakeFanWithAngleRange (ref viewMesh, 
+		                                 -angleRange / 2, 
+		                                 angleRange / 2, 
+		                                 TweakableParams.swipeRadius,
+		                                 numTriangles);
 	}
 	
 }

@@ -34,6 +34,16 @@ public class WorldRelativeGUIElement : MonoBehaviour {
 		worldCamera = worldCanvas.worldCamera;
 	}
 	  
+	protected float WorldSizeToParentCanvasSize(float worldSize) {
+		// Kinda ghetto, I don't care...
+		Vector3 wp1 = new Vector3(0, 0, 0);
+		Vector3 wp2 = new Vector3(0, worldSize, 0);
+		Vector3 cp1 = WorldPositionToParentCanvasPosition(wp1);
+		Vector3 cp2 = WorldPositionToParentCanvasPosition(wp2);
+
+		return Vector3.Distance (cp1, cp2);
+	}
+
 	protected Vector3 WorldPositionToParentCanvasPosition(Vector3 worldPosition) {
 		if (worldCamera == null) {
 			GetWorldCamera();

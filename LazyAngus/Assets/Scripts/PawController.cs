@@ -22,11 +22,12 @@ public class PawController : MonoBehaviour {
 	public GameObject bigPawArtGameObject;
 	public GameObject bigDangerPawArtGameObject;
 
-	public Collider2D normalCollider;
-	public Collider2D bigCollider;
+	public CircleCollider2D normalCollider;
+	public CircleCollider2D bigCollider;
 	public float debugTimer;
 
 	private float swipeSpeed;
+	private float initialPauseLength;
 
 	private int killsThisSwipe;
 
@@ -37,8 +38,8 @@ public class PawController : MonoBehaviour {
 	float pawHomeCatTransformMagnitude;
 
 	public GameObject timerWidgetPrototype;
-	GameObject timerWidgetGameObject;
-
+	TimerWidget timerWidget;
+	
 	void Awake() {
 		registerdForEvents = false;
 	}
@@ -47,9 +48,14 @@ public class PawController : MonoBehaviour {
 		swipePhase = SwipePhase.SWIPE_NONE;
 
 		swipeSpeed = TweakableParams.baseSwipeSpeed;
+		initialPauseLength = TweakableParams.swipeInitialPause;
 
 		transform.localPosition = pawHomeCatTransform.localPosition;
 		pawHomeCatTransformMagnitude = pawHomeCatTransform.localPosition.magnitude;
+
+
+		normalCollider.radius = TweakableParams.normalPawRadius;
+		bigCollider.radius = normalCollider.radius * TweakableParams.bigPawsMultiplier;
 
 		RegisterForEvents ();
 		UpdatePawState ();
@@ -76,8 +82,12 @@ public class PawController : MonoBehaviour {
 		if (newType == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
 			swipeSpeed = (TweakableParams.fastPawsSwipeSpeedMultiplier * 
 			              TweakableParams.baseSwipeSpeed);
+			initialPauseLength = (TweakableParams.fastPawsPauseMultiplier * 
+			                      TweakableParams.swipeInitialPause);
+
 		} else if (oldType == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
 			swipeSpeed = TweakableParams.baseSwipeSpeed;
+			initialPauseLength = TweakableParams.swipeInitialPause;			
 		}
 
 		if (newType == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS || 
@@ -87,11 +97,13 @@ public class PawController : MonoBehaviour {
 	}
 
 	void Update() {
+		UpdateTimerWidgetPosition ();
+
 		switch (swipePhase) {
 		case SwipePhase.SWIPE_INITIAL_PAUSE:
 		{
 			float timeNow = Time.time;
-			if (timeNow - pauseStarted > TweakableParams.swipeInitialPause) {
+			if (timeNow - pauseStarted > initialPauseLength) {
 				SetPhase(SwipePhase.SWIPE_EXTENDING);
 			} else {
 				MovePawTowards (pawHomeCatTransform.localPosition);
@@ -231,9 +243,10 @@ public class PawController : MonoBehaviour {
 
 	public void Swipe(Vector3 location) {
 		swipeLocationCat = location;
+
 		pauseStarted = Time.time;
 		debugTimer = Time.time;
-		SetPhase(SwipePhase.SWIPE_INITIAL_PAUSE);
+		SetPhase (SwipePhase.SWIPE_INITIAL_PAUSE);
 
 		AddTimer ();
 	}
@@ -245,23 +258,31 @@ public class PawController : MonoBehaviour {
 
 	public void AddTimer() {
 		RemoveTimer();
-		timerWidgetGameObject = Instantiate(timerWidgetPrototype,
+		GameObject timerWidgetGameObject = Instantiate(timerWidgetPrototype,
 		                                    new Vector3(0, 0, 0),
 		                                    Quaternion.identity) as GameObject;
 
-		TimerWidget timerWidget = timerWidgetGameObject.GetComponent<TimerWidget> ();
+		timerWidget = timerWidgetGameObject.GetComponent<TimerWidget> ();
+		timerWidget.Configure (initialPauseLength, 
+		                       GetTimerWidgetPosition());
+		UpdateTimerWidgetPosition ();
+	}
 
-		Vector3 tmp = transform.localPosition;
-		transform.localPosition = swipeLocationCat;
-		timerWidget.Configure (TweakableParams.swipeInitialPause, 
-		                       transform.position);
-		transform.localPosition = tmp;
+	Vector3 GetTimerWidgetPosition() {
+		return transform.parent.transform.TransformVector (swipeLocationCat);
+	}
+
+	void UpdateTimerWidgetPosition () {
+		if (timerWidget == null) {
+			return;
+		}
+		timerWidget.UpdatePosition (GetTimerWidgetPosition());
 	}
 
 	public void RemoveTimer() {
-		if (timerWidgetGameObject != null) {
-			Object.Destroy (timerWidgetGameObject);
-			timerWidgetGameObject = null;
+			if (timerWidget != null) {
+				Object.Destroy (timerWidget.gameObject);
+				timerWidget = null;
 		}
 	}
 

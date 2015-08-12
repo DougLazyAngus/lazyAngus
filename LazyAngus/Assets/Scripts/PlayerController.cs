@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
-	enum BodyMovementType {
-		BODY_MOVEMENT_STILL = 0,
-		BODY_MOVEMENT_TURNING,
-		BODY_MOVEMENT_DRAGGING,
+	public enum BodyMovementType {
+		STILL = 0,
+		TURNING,
+		DRAGGING,
 	};
 
 	public const float startCatAngle = 45f;
@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour {
 	public GameObject fartPuffPrototype;
 	public GameObject butthole;
 
-	private BodyMovementType bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
+	public BodyMovementType bodyMovement { get; private set;}
 
 	private float targetTurnAngleDegrees;
 	private float currentTurnAngleDegrees;
@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Awake() {
 		instance = this;
-
+		bodyMovement = BodyMovementType.STILL;
 		turningTip = new TipConfig("turning", 
 		                           "Drag my body to turn me faster!");
 	}
@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void Reset() {
-		bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
+		bodyMovement = BodyMovementType.STILL;
 		currentTurnAngleDegrees = startCatAngle;
 		targetTurnAngleDegrees = currentTurnAngleDegrees;
 		transform.rotation = Quaternion.Euler (0, 0, currentTurnAngleDegrees);
@@ -101,10 +101,10 @@ public class PlayerController : MonoBehaviour {
 		MaybeMakeFartPuff ();
 
 		switch (bodyMovement) {
-		case BodyMovementType.BODY_MOVEMENT_DRAGGING:
+		case BodyMovementType.DRAGGING:
 			UpdateDrag ();
 			break;
-		case BodyMovementType.BODY_MOVEMENT_TURNING:
+		case BodyMovementType.TURNING:
 			UpdateTurn ();
 			break;
 		}
@@ -115,13 +115,13 @@ public class PlayerController : MonoBehaviour {
 			currentTurnAngleDegrees += TweakableParams.turnVelocityDegrees * Time.deltaTime;
 			if (currentTurnAngleDegrees > targetTurnAngleDegrees) {
 				currentTurnAngleDegrees = targetTurnAngleDegrees;
-				bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
+				bodyMovement = BodyMovementType.STILL;
 			}
 		} else {
 			currentTurnAngleDegrees -= TweakableParams.turnVelocityDegrees * Time.deltaTime;
 			if (currentTurnAngleDegrees < targetTurnAngleDegrees) {
 				currentTurnAngleDegrees = targetTurnAngleDegrees;
-				bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
+				bodyMovement = BodyMovementType.STILL;
 			}
 		}
 		transform.rotation = Quaternion.Euler (0, 0, currentTurnAngleDegrees);
@@ -133,7 +133,7 @@ public class PlayerController : MonoBehaviour {
 		bool isClicked = InputHandler.instance.GetWorldClickPosition (out clickPositionScreen);
 
 		if (!isClicked) {
-			bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
+			bodyMovement = BodyMovementType.STILL;
 			return;
 		}
 
@@ -146,7 +146,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	public void HandleDragClickStart(Vector2 worldPoint2d) {
-		bodyMovement = BodyMovementType.BODY_MOVEMENT_DRAGGING;
+		bodyMovement = BodyMovementType.DRAGGING;
 
 		dragAnchorCat = transform.InverseTransformPoint(worldPoint2d);
 		dragAnchorCat.z = 0.0f;
@@ -157,24 +157,11 @@ public class PlayerController : MonoBehaviour {
 	}  
 
 	public void	HandleSlapClickStart(Vector2 worldPoint2d) {
-
-		Vector3 swipeLocationCat = transform.InverseTransformPoint (worldPoint2d);
-
-		// If outside of reach radius, ignore altogether.
-		if (swipeLocationCat.magnitude > TweakableParams.swipeRadius) {
-			return;
-		}
-
-		// Is this a slap for right paw, left paw, or neither?
-		float angle = Utilities.GetZAngle (swipeLocationCat);
-		GameObject paw = null;
-		if (angle >= 0 && 
-			angle <= coneOfView.actualAngleRange / 2) {
-			paw = leftPawGameObject;
-		} else if (angle < 0 && 
-		           angle >= -coneOfView.actualAngleRange / 2) {
-			paw = rightPawGameObject;
-		}
+		Vector3 swipeLocationCat;
+		float angle;
+		GameObject paw = GetPawToHitWorldLocation (worldPoint2d, 
+		                                           out swipeLocationCat, 
+		                                           out angle);
 
 		if (paw) {
 			// If for a paw, do the slap.
@@ -183,7 +170,7 @@ public class PlayerController : MonoBehaviour {
 			// Otherwise start turning to face this location.
 			currentTurnAngleDegrees = transform.rotation.eulerAngles.z;
 			targetTurnAngleDegrees = angle + currentTurnAngleDegrees;
-			bodyMovement = BodyMovementType.BODY_MOVEMENT_TURNING;
+			bodyMovement = BodyMovementType.TURNING;
 
 			rightPawGameObject.GetComponent<PawController> ().CancelSwipe();
 			leftPawGameObject.GetComponent<PawController> ().CancelSwipe();
@@ -201,7 +188,7 @@ public class PlayerController : MonoBehaviour {
 	void OnApplicationFocus(bool focusStatus) {
 		if (!focusStatus) {
 			if (!DebugConfig.instance.useDebugValues) {
-				bodyMovement = BodyMovementType.BODY_MOVEMENT_STILL;
+				bodyMovement = BodyMovementType.STILL;
 			}
 		}
 	}  
@@ -220,6 +207,31 @@ public class PlayerController : MonoBehaviour {
 		FartPuff fartPuff = fartPuffObject.GetComponent<FartPuff> ();
 		fartPuff.SetDirection (transform.rotation * Vector3.left);
 		lastFartTime = Time.time;
+	}
+
+	public GameObject GetPawToHitWorldLocation(Vector2 worldPoint2d, 
+	                                           out Vector3 swipeLocationCat, 
+	                                           out float angle) {
+		// Get this position in terms of cat position.
+		swipeLocationCat = transform.InverseTransformPoint (worldPoint2d);
+		angle = 0;
+
+		// If outside of reach radius, ignore altogether.
+		if (swipeLocationCat.magnitude > TweakableParams.swipeRadius) {
+			return null;
+		}
+		
+		// Is this a slap for right paw, left paw, or neither?
+		angle = Utilities.GetZAngle (swipeLocationCat);
+		if (angle >= 0 && 
+			angle <= coneOfView.actualAngleRange / 2) {
+			return leftPawGameObject;
+		} else if (angle < 0 && 
+			angle >= -coneOfView.actualAngleRange / 2) {
+			return rightPawGameObject;
+		} else {
+			return null;
+		}
 	}
 }
 		
