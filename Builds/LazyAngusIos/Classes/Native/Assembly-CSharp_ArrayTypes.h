@@ -163,11 +163,6 @@ struct  BoostButtonU5BU5D_t5704  : public Array_t
 struct  BoostDescU5BU5D_t509  : public Array_t
 {
 };
-// SFXPlayer/SFXType[]
-// SFXPlayer/SFXType[]
-struct  SFXTypeU5BU5D_t637  : public Array_t
-{
-};
 // MouseHole[]
 // MouseHole[]
 struct  MouseHoleU5BU5D_t552  : public Array_t
@@ -177,7 +172,7 @@ struct MouseHoleU5BU5D_t552_StaticFields{
 };
 // ExplicitMouseDesc[]
 // ExplicitMouseDesc[]
-struct  ExplicitMouseDescU5BU5D_t5718  : public Array_t
+struct  ExplicitMouseDescU5BU5D_t5717  : public Array_t
 {
 };
 // GameUI[]
@@ -187,12 +182,12 @@ struct  GameUIU5BU5D_t562  : public Array_t
 };
 // MouseHole/MouseHoleLocation[]
 // MouseHole/MouseHoleLocation[]
-struct  MouseHoleLocationU5BU5D_t5725  : public Array_t
+struct  MouseHoleLocationU5BU5D_t5724  : public Array_t
 {
 };
 // LevelDescription[]
 // LevelDescription[]
-struct  LevelDescriptionU5BU5D_t5739  : public Array_t
+struct  LevelDescriptionU5BU5D_t5738  : public Array_t
 {
 };
 // MouseTypeDesc[]
@@ -203,5 +198,10 @@ struct  MouseTypeDescU5BU5D_t597  : public Array_t
 // MouseWiggleDesc[]
 // MouseWiggleDesc[]
 struct  MouseWiggleDescU5BU5D_t598  : public Array_t
+{
+};
+// SFXPlayer/SFXType[]
+// SFXPlayer/SFXType[]
+struct  SFXTypeU5BU5D_t637  : public Array_t
 {
 };

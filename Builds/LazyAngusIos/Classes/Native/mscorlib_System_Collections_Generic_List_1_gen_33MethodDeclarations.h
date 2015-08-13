@@ -34,14 +34,14 @@ struct Comparison_1_t5848;
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_41.h"
 
 // System.Void System.Collections.Generic.List`1<UnityEngine.UIVertex>::.ctor()
-extern "C" void List_1__ctor_m6007_gshared (List_1_t951 * __this, const MethodInfo* method);
-#define List_1__ctor_m6007(__this, method) (( void (*) (List_1_t951 *, const MethodInfo*))List_1__ctor_m6007_gshared)(__this, method)
+extern "C" void List_1__ctor_m6008_gshared (List_1_t951 * __this, const MethodInfo* method);
+#define List_1__ctor_m6008(__this, method) (( void (*) (List_1_t951 *, const MethodInfo*))List_1__ctor_m6008_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UIVertex>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
 extern "C" void List_1__ctor_m29108_gshared (List_1_t951 * __this, Object_t* ___collection, const MethodInfo* method);
 #define List_1__ctor_m29108(__this, ___collection, method) (( void (*) (List_1_t951 *, Object_t*, const MethodInfo*))List_1__ctor_m29108_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UIVertex>::.ctor(System.Int32)
-extern "C" void List_1__ctor_m10117_gshared (List_1_t951 * __this, int32_t ___capacity, const MethodInfo* method);
-#define List_1__ctor_m10117(__this, ___capacity, method) (( void (*) (List_1_t951 *, int32_t, const MethodInfo*))List_1__ctor_m10117_gshared)(__this, ___capacity, method)
+extern "C" void List_1__ctor_m10118_gshared (List_1_t951 * __this, int32_t ___capacity, const MethodInfo* method);
+#define List_1__ctor_m10118(__this, ___capacity, method) (( void (*) (List_1_t951 *, int32_t, const MethodInfo*))List_1__ctor_m10118_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UIVertex>::.ctor(T[],System.Int32)
 extern "C" void List_1__ctor_m29109_gshared (List_1_t951 * __this, UIVertexU5BU5D_t948* ___data, int32_t ___size, const MethodInfo* method);
 #define List_1__ctor_m29109(__this, ___data, ___size, method) (( void (*) (List_1_t951 *, UIVertexU5BU5D_t948*, int32_t, const MethodInfo*))List_1__ctor_m29109_gshared)(__this, ___data, ___size, method)
@@ -187,17 +187,17 @@ extern "C" void List_1_Sort_m29155_gshared (List_1_t951 * __this, Object_t* ___c
 extern "C" void List_1_Sort_m29156_gshared (List_1_t951 * __this, Comparison_1_t5848 * ___comparison, const MethodInfo* method);
 #define List_1_Sort_m29156(__this, ___comparison, method) (( void (*) (List_1_t951 *, Comparison_1_t5848 *, const MethodInfo*))List_1_Sort_m29156_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<UnityEngine.UIVertex>::ToArray()
-extern "C" UIVertexU5BU5D_t948* List_1_ToArray_m6050_gshared (List_1_t951 * __this, const MethodInfo* method);
-#define List_1_ToArray_m6050(__this, method) (( UIVertexU5BU5D_t948* (*) (List_1_t951 *, const MethodInfo*))List_1_ToArray_m6050_gshared)(__this, method)
+extern "C" UIVertexU5BU5D_t948* List_1_ToArray_m6051_gshared (List_1_t951 * __this, const MethodInfo* method);
+#define List_1_ToArray_m6051(__this, method) (( UIVertexU5BU5D_t948* (*) (List_1_t951 *, const MethodInfo*))List_1_ToArray_m6051_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UIVertex>::TrimExcess()
 extern "C" void List_1_TrimExcess_m29157_gshared (List_1_t951 * __this, const MethodInfo* method);
 #define List_1_TrimExcess_m29157(__this, method) (( void (*) (List_1_t951 *, const MethodInfo*))List_1_TrimExcess_m29157_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.UIVertex>::get_Capacity()
-extern "C" int32_t List_1_get_Capacity_m5929_gshared (List_1_t951 * __this, const MethodInfo* method);
-#define List_1_get_Capacity_m5929(__this, method) (( int32_t (*) (List_1_t951 *, const MethodInfo*))List_1_get_Capacity_m5929_gshared)(__this, method)
+extern "C" int32_t List_1_get_Capacity_m5930_gshared (List_1_t951 * __this, const MethodInfo* method);
+#define List_1_get_Capacity_m5930(__this, method) (( int32_t (*) (List_1_t951 *, const MethodInfo*))List_1_get_Capacity_m5930_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UIVertex>::set_Capacity(System.Int32)
-extern "C" void List_1_set_Capacity_m5930_gshared (List_1_t951 * __this, int32_t ___value, const MethodInfo* method);
-#define List_1_set_Capacity_m5930(__this, ___value, method) (( void (*) (List_1_t951 *, int32_t, const MethodInfo*))List_1_set_Capacity_m5930_gshared)(__this, ___value, method)
+extern "C" void List_1_set_Capacity_m5931_gshared (List_1_t951 * __this, int32_t ___value, const MethodInfo* method);
+#define List_1_set_Capacity_m5931(__this, ___value, method) (( void (*) (List_1_t951 *, int32_t, const MethodInfo*))List_1_set_Capacity_m5931_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.UIVertex>::get_Count()
 extern "C" int32_t List_1_get_Count_m29158_gshared (List_1_t951 * __this, const MethodInfo* method);
 #define List_1_get_Count_m29158(__this, method) (( int32_t (*) (List_1_t951 *, const MethodInfo*))List_1_get_Count_m29158_gshared)(__this, method)

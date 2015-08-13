@@ -2296,10 +2296,10 @@ void* RuntimeInvoker_Enumerator_t5683 (const MethodInfo* method, void* obj, void
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Single>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_29.h"
-void* RuntimeInvoker_Enumerator_t5727 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t5726 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5727  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5727  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t5726  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t5726  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -3880,13 +3880,13 @@ void* RuntimeInvoker_Void_t85_List_1U26_t9831 (const MethodInfo* method, void* o
 }
 
 struct Object_t;
-struct List_1_t5726;
+struct List_1_t5725;
 // System.Collections.Generic.List`1<System.Single>
 #include "mscorlib_System_Collections_Generic_List_1_gen_66.h"
 void* RuntimeInvoker_Void_t85_List_1U26_t9833 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, List_1_t5726 ** p1, const MethodInfo* method);
-	((Func)method->method)(obj, (List_1_t5726 **)args[0], method);
+	typedef void (*Func)(void* obj, List_1_t5725 ** p1, const MethodInfo* method);
+	((Func)method->method)(obj, (List_1_t5725 **)args[0], method);
 	return NULL;
 }
 

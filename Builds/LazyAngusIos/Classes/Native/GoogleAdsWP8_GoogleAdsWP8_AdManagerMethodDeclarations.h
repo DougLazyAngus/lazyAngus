@@ -36,4 +36,4 @@ extern "C" void AdManager_ShowInterstitialAd_m3808 (AdManager_t730 * __this, con
 // System.Void GoogleAdsWP8.AdManager::SetOrientation(System.Int32)
 extern "C" void AdManager_SetOrientation_m3798 (AdManager_t730 * __this, int32_t ___orientation, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleAdsWP8.AdManager::.ctor()
-extern "C" void AdManager__ctor_m10417 (AdManager_t730 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdManager__ctor_m10418 (AdManager_t730 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

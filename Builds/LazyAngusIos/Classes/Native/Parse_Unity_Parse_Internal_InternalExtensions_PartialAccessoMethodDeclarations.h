@@ -20,7 +20,7 @@ struct AsyncCallback_t386;
 // System.Void Parse.Internal.InternalExtensions/PartialAccessor`1<System.Threading.Tasks.Task>::.ctor(System.Object,System.IntPtr)
 // Parse.Internal.InternalExtensions/PartialAccessor`1<System.Object>
 #include "Parse_Unity_Parse_Internal_InternalExtensions_PartialAccesso_0MethodDeclarations.h"
-#define PartialAccessor_1__ctor_m7657(__this, ___object, ___method, method) (( void (*) (PartialAccessor_1_t1291 *, Object_t *, IntPtr_t, const MethodInfo*))PartialAccessor_1__ctor_m31722_gshared)(__this, ___object, ___method, method)
+#define PartialAccessor_1__ctor_m7658(__this, ___object, ___method, method) (( void (*) (PartialAccessor_1_t1291 *, Object_t *, IntPtr_t, const MethodInfo*))PartialAccessor_1__ctor_m31722_gshared)(__this, ___object, ___method, method)
 // System.Void Parse.Internal.InternalExtensions/PartialAccessor`1<System.Threading.Tasks.Task>::Invoke(T&)
 #define PartialAccessor_1_Invoke_m31730(__this, ___arg, method) (( void (*) (PartialAccessor_1_t1291 *, Task_t1210 **, const MethodInfo*))PartialAccessor_1_Invoke_m31723_gshared)(__this, ___arg, method)
 // System.IAsyncResult Parse.Internal.InternalExtensions/PartialAccessor`1<System.Threading.Tasks.Task>::BeginInvoke(T&,System.AsyncCallback,System.Object)

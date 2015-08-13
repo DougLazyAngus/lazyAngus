@@ -56,7 +56,7 @@ struct Task_1_t1387;
 // System.Void Parse.ParseQuery`1<Parse.ParseObject>::.ctor()
 #define ParseQuery_1__ctor_m32627(__this, method) (( void (*) (ParseQuery_1_t1400 *, const MethodInfo*))ParseQuery_1__ctor_m32628_gshared)(__this, method)
 // System.Void Parse.ParseQuery`1<Parse.ParseObject>::.ctor(System.String)
-#define ParseQuery_1__ctor_m7614(__this, ___className, method) (( void (*) (ParseQuery_1_t1400 *, String_t*, const MethodInfo*))ParseQuery_1__ctor_m32629_gshared)(__this, ___className, method)
+#define ParseQuery_1__ctor_m7615(__this, ___className, method) (( void (*) (ParseQuery_1_t1400 *, String_t*, const MethodInfo*))ParseQuery_1__ctor_m32629_gshared)(__this, ___className, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseObject>::Or(System.Collections.Generic.IEnumerable`1<Parse.ParseQuery`1<T>>)
 #define ParseQuery_1_Or_m32630(__this /* static, unused */, ___queries, method) (( ParseQuery_1_t1400 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))ParseQuery_1_Or_m32631_gshared)(__this /* static, unused */, ___queries, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseObject>::OrderBy(System.String)

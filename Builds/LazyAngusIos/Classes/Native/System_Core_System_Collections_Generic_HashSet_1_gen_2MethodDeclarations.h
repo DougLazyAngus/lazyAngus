@@ -32,7 +32,7 @@ struct Object_t;
 #include "System_Core_System_Collections_Generic_HashSet_1_gen_0MethodDeclarations.h"
 #define HashSet_1__ctor_m30507(__this, method) (( void (*) (HashSet_1_t5939 *, const MethodInfo*))HashSet_1__ctor_m30472_gshared)(__this, method)
 // System.Void System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::.ctor(System.Collections.Generic.IEqualityComparer`1<T>)
-#define HashSet_1__ctor_m30508(__this, ___comparer, method) (( void (*) (HashSet_1_t5939 *, Object_t*, const MethodInfo*))HashSet_1__ctor_m7480_gshared)(__this, ___comparer, method)
+#define HashSet_1__ctor_m30508(__this, ___comparer, method) (( void (*) (HashSet_1_t5939 *, Object_t*, const MethodInfo*))HashSet_1__ctor_m7481_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
 #define HashSet_1__ctor_m30509(__this, ___collection, method) (( void (*) (HashSet_1_t5939 *, Object_t*, const MethodInfo*))HashSet_1__ctor_m30473_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::.ctor(System.Collections.Generic.IEnumerable`1<T>,System.Collections.Generic.IEqualityComparer`1<T>)

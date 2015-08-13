@@ -56,7 +56,7 @@ struct Task_1_t1387;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseQuery`1<Parse.ParseUser>::MergeWhereClauses(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
 #define ParseQuery_1_MergeWhereClauses_m34665(__this, ___where, method) (( Object_t* (*) (ParseQuery_1_t1409 *, Object_t*, const MethodInfo*))ParseQuery_1_MergeWhereClauses_m32626_gshared)(__this, ___where, method)
 // System.Void Parse.ParseQuery`1<Parse.ParseUser>::.ctor()
-#define ParseQuery_1__ctor_m7719(__this, method) (( void (*) (ParseQuery_1_t1409 *, const MethodInfo*))ParseQuery_1__ctor_m32628_gshared)(__this, method)
+#define ParseQuery_1__ctor_m7720(__this, method) (( void (*) (ParseQuery_1_t1409 *, const MethodInfo*))ParseQuery_1__ctor_m32628_gshared)(__this, method)
 // System.Void Parse.ParseQuery`1<Parse.ParseUser>::.ctor(System.String)
 #define ParseQuery_1__ctor_m34666(__this, ___className, method) (( void (*) (ParseQuery_1_t1409 *, String_t*, const MethodInfo*))ParseQuery_1__ctor_m32629_gshared)(__this, ___className, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseUser>::Or(System.Collections.Generic.IEnumerable`1<Parse.ParseQuery`1<T>>)

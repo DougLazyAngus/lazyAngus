@@ -12,6 +12,6 @@ struct SerializationInfo_t2919;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.TimeZoneNotFoundException::.ctor()
-extern "C" void TimeZoneNotFoundException__ctor_m11802 (TimeZoneNotFoundException_t1514 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimeZoneNotFoundException__ctor_m11803 (TimeZoneNotFoundException_t1514 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.TimeZoneNotFoundException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void TimeZoneNotFoundException__ctor_m11803 (TimeZoneNotFoundException_t1514 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimeZoneNotFoundException__ctor_m11804 (TimeZoneNotFoundException_t1514 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;

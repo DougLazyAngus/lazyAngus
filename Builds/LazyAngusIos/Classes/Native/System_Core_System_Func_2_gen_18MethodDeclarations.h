@@ -16,8 +16,8 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Func`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_2__ctor_m7469_gshared (Func_2_t1227 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_2__ctor_m7469(__this, ___object, ___method, method) (( void (*) (Func_2_t1227 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7469_gshared)(__this, ___object, ___method, method)
+extern "C" void Func_2__ctor_m7470_gshared (Func_2_t1227 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Func_2__ctor_m7470(__this, ___object, ___method, method) (( void (*) (Func_2_t1227 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7470_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Object,System.Object>::Invoke(T)
 extern "C" Object_t * Func_2_Invoke_m30734_gshared (Func_2_t1227 * __this, Object_t * ___arg1, const MethodInfo* method);
 #define Func_2_Invoke_m30734(__this, ___arg1, method) (( Object_t * (*) (Func_2_t1227 *, Object_t *, const MethodInfo*))Func_2_Invoke_m30734_gshared)(__this, ___arg1, method)

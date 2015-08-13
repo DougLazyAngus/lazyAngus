@@ -22,6 +22,6 @@ struct IDictionary_2_t1252;
 // System.Collections.Generic.LinkedList`1<T> System.Collections.Generic.LinkedListNode`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::get_List()
 #define LinkedListNode_1_get_List_m33207(__this, method) (( LinkedList_1_t1278 * (*) (LinkedListNode_1_t1502 *, const MethodInfo*))LinkedListNode_1_get_List_m30829_gshared)(__this, method)
 // System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedListNode`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::get_Next()
-#define LinkedListNode_1_get_Next_m7588(__this, method) (( LinkedListNode_1_t1502 * (*) (LinkedListNode_1_t1502 *, const MethodInfo*))LinkedListNode_1_get_Next_m30830_gshared)(__this, method)
+#define LinkedListNode_1_get_Next_m7589(__this, method) (( LinkedListNode_1_t1502 * (*) (LinkedListNode_1_t1502 *, const MethodInfo*))LinkedListNode_1_get_Next_m30830_gshared)(__this, method)
 // T System.Collections.Generic.LinkedListNode`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::get_Value()
-#define LinkedListNode_1_get_Value_m7589(__this, method) (( Object_t* (*) (LinkedListNode_1_t1502 *, const MethodInfo*))LinkedListNode_1_get_Value_m30831_gshared)(__this, method)
+#define LinkedListNode_1_get_Value_m7590(__this, method) (( Object_t* (*) (LinkedListNode_1_t1502 *, const MethodInfo*))LinkedListNode_1_get_Value_m30831_gshared)(__this, method)

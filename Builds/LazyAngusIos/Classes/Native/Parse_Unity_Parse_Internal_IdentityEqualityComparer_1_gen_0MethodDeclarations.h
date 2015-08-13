@@ -16,4 +16,4 @@ struct ParseObject_t1221;
 // System.Int32 Parse.Internal.IdentityEqualityComparer`1<Parse.ParseObject>::GetHashCode(T)
 #define IdentityEqualityComparer_1_GetHashCode_m34023(__this, ___obj, method) (( int32_t (*) (IdentityEqualityComparer_1_t1505 *, ParseObject_t1221 *, const MethodInfo*))IdentityEqualityComparer_1_GetHashCode_m31721_gshared)(__this, ___obj, method)
 // System.Void Parse.Internal.IdentityEqualityComparer`1<Parse.ParseObject>::.ctor()
-#define IdentityEqualityComparer_1__ctor_m7606(__this, method) (( void (*) (IdentityEqualityComparer_1_t1505 *, const MethodInfo*))IdentityEqualityComparer_1__ctor_m7479_gshared)(__this, method)
+#define IdentityEqualityComparer_1__ctor_m7607(__this, method) (( void (*) (IdentityEqualityComparer_1_t1505 *, const MethodInfo*))IdentityEqualityComparer_1__ctor_m7480_gshared)(__this, method)

@@ -34,8 +34,8 @@ struct Comparison_1_t846;
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_34.h"
 
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::.ctor()
-extern "C" void List_1__ctor_m5814_gshared (List_1_t886 * __this, const MethodInfo* method);
-#define List_1__ctor_m5814(__this, method) (( void (*) (List_1_t886 *, const MethodInfo*))List_1__ctor_m5814_gshared)(__this, method)
+extern "C" void List_1__ctor_m5815_gshared (List_1_t886 * __this, const MethodInfo* method);
+#define List_1__ctor_m5815(__this, method) (( void (*) (List_1_t886 *, const MethodInfo*))List_1__ctor_m5815_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
 extern "C" void List_1__ctor_m27873_gshared (List_1_t886 * __this, Object_t* ___collection, const MethodInfo* method);
 #define List_1__ctor_m27873(__this, ___collection, method) (( void (*) (List_1_t886 *, Object_t*, const MethodInfo*))List_1__ctor_m27873_gshared)(__this, ___collection, method)
@@ -184,8 +184,8 @@ extern "C" void List_1_Sort_m27920_gshared (List_1_t886 * __this, const MethodIn
 extern "C" void List_1_Sort_m27921_gshared (List_1_t886 * __this, Object_t* ___comparer, const MethodInfo* method);
 #define List_1_Sort_m27921(__this, ___comparer, method) (( void (*) (List_1_t886 *, Object_t*, const MethodInfo*))List_1_Sort_m27921_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Sort(System.Comparison`1<T>)
-extern "C" void List_1_Sort_m5775_gshared (List_1_t886 * __this, Comparison_1_t846 * ___comparison, const MethodInfo* method);
-#define List_1_Sort_m5775(__this, ___comparison, method) (( void (*) (List_1_t886 *, Comparison_1_t846 *, const MethodInfo*))List_1_Sort_m5775_gshared)(__this, ___comparison, method)
+extern "C" void List_1_Sort_m5776_gshared (List_1_t886 * __this, Comparison_1_t846 * ___comparison, const MethodInfo* method);
+#define List_1_Sort_m5776(__this, ___comparison, method) (( void (*) (List_1_t886 *, Comparison_1_t846 *, const MethodInfo*))List_1_Sort_m5776_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::ToArray()
 extern "C" RaycastResultU5BU5D_t5779* List_1_ToArray_m27922_gshared (List_1_t886 * __this, const MethodInfo* method);
 #define List_1_ToArray_m27922(__this, method) (( RaycastResultU5BU5D_t5779* (*) (List_1_t886 *, const MethodInfo*))List_1_ToArray_m27922_gshared)(__this, method)

@@ -16,7 +16,7 @@ extern "C" void Object__ctor_m354 (Object_t * __this, const MethodInfo* method) 
 // System.Boolean System.Object::Equals(System.Object)
 extern "C" bool Object_Equals_m493 (Object_t * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Object::Equals(System.Object,System.Object)
-extern "C" bool Object_Equals_m7376 (Object_t * __this /* static, unused */, Object_t * ___objA, Object_t * ___objB, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Object_Equals_m7377 (Object_t * __this /* static, unused */, Object_t * ___objA, Object_t * ___objB, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Object::Finalize()
 extern "C" void Object_Finalize_m490 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Object::GetHashCode()
@@ -24,10 +24,10 @@ extern "C" int32_t Object_GetHashCode_m406 (Object_t * __this, const MethodInfo*
 // System.Type System.Object::GetType()
 extern "C" Type_t * Object_GetType_m4060 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Object::MemberwiseClone()
-extern "C" Object_t * Object_MemberwiseClone_m15518 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Object_MemberwiseClone_m15519 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Object::ToString()
 extern "C" String_t* Object_ToString_m492 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Object::ReferenceEquals(System.Object,System.Object)
 extern "C" bool Object_ReferenceEquals_m405 (Object_t * __this /* static, unused */, Object_t * ___objA, Object_t * ___objB, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Object::InternalGetHashCode(System.Object)
-extern "C" int32_t Object_InternalGetHashCode_m15519 (Object_t * __this /* static, unused */, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Object_InternalGetHashCode_m15520 (Object_t * __this /* static, unused */, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;

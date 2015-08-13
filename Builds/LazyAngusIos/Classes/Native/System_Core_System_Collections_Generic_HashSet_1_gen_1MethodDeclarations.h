@@ -32,11 +32,11 @@ struct Object_t;
 #include "System_Core_System_Collections_Generic_HashSet_1_gen_0MethodDeclarations.h"
 #define HashSet_1__ctor_m34024(__this, method) (( void (*) (HashSet_1_t1269 *, const MethodInfo*))HashSet_1__ctor_m30472_gshared)(__this, method)
 // System.Void System.Collections.Generic.HashSet`1<Parse.ParseObject>::.ctor(System.Collections.Generic.IEqualityComparer`1<T>)
-#define HashSet_1__ctor_m7612(__this, ___comparer, method) (( void (*) (HashSet_1_t1269 *, Object_t*, const MethodInfo*))HashSet_1__ctor_m7480_gshared)(__this, ___comparer, method)
+#define HashSet_1__ctor_m7613(__this, ___comparer, method) (( void (*) (HashSet_1_t1269 *, Object_t*, const MethodInfo*))HashSet_1__ctor_m7481_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.HashSet`1<Parse.ParseObject>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
 #define HashSet_1__ctor_m34025(__this, ___collection, method) (( void (*) (HashSet_1_t1269 *, Object_t*, const MethodInfo*))HashSet_1__ctor_m30473_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.HashSet`1<Parse.ParseObject>::.ctor(System.Collections.Generic.IEnumerable`1<T>,System.Collections.Generic.IEqualityComparer`1<T>)
-#define HashSet_1__ctor_m7607(__this, ___collection, ___comparer, method) (( void (*) (HashSet_1_t1269 *, Object_t*, Object_t*, const MethodInfo*))HashSet_1__ctor_m30474_gshared)(__this, ___collection, ___comparer, method)
+#define HashSet_1__ctor_m7608(__this, ___collection, ___comparer, method) (( void (*) (HashSet_1_t1269 *, Object_t*, Object_t*, const MethodInfo*))HashSet_1__ctor_m30474_gshared)(__this, ___collection, ___comparer, method)
 // System.Void System.Collections.Generic.HashSet`1<Parse.ParseObject>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 #define HashSet_1__ctor_m34026(__this, ___info, ___context, method) (( void (*) (HashSet_1_t1269 *, SerializationInfo_t2919 *, StreamingContext_t2920 , const MethodInfo*))HashSet_1__ctor_m30475_gshared)(__this, ___info, ___context, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.HashSet`1<Parse.ParseObject>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()

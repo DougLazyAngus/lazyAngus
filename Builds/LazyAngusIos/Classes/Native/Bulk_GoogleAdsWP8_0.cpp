@@ -77,7 +77,7 @@ extern "C" AdManager_t730 * AdManager_get_instance_m3796 (Object_t * __this /* s
 	}
 	{
 		AdManager_t730 * L_2 = (AdManager_t730 *)il2cpp_codegen_object_new (AdManager_t730_il2cpp_TypeInfo_var);
-		AdManager__ctor_m10417(L_2, /*hidden argument*/NULL);
+		AdManager__ctor_m10418(L_2, /*hidden argument*/NULL);
 		((AdManager_t730_StaticFields*)AdManager_t730_il2cpp_TypeInfo_var->static_fields)->____instance_10 = L_2;
 	}
 
@@ -172,7 +172,7 @@ extern "C" void AdManager_SetOrientation_m3798 (AdManager_t730 * __this, int32_t
 	}
 }
 // System.Void GoogleAdsWP8.AdManager::.ctor()
-extern "C" void AdManager__ctor_m10417 (AdManager_t730 * __this, const MethodInfo* method)
+extern "C" void AdManager__ctor_m10418 (AdManager_t730 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);

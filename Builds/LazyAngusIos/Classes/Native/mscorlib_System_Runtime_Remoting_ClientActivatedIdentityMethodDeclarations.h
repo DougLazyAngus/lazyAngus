@@ -10,4 +10,4 @@ struct ClientActivatedIdentity_t4641;
 struct MarshalByRefObject_t4076;
 
 // System.MarshalByRefObject System.Runtime.Remoting.ClientActivatedIdentity::GetServerObject()
-extern "C" MarshalByRefObject_t4076 * ClientActivatedIdentity_GetServerObject_m18437 (ClientActivatedIdentity_t4641 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MarshalByRefObject_t4076 * ClientActivatedIdentity_GetServerObject_m18438 (ClientActivatedIdentity_t4641 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

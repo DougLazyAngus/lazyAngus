@@ -10,6 +10,6 @@ struct DictionaryBase_t3183;
 struct IEnumerable_1_t3292;
 
 // System.Void Mono.Xml.DictionaryBase::.ctor()
-extern "C" void DictionaryBase__ctor_m10573 (DictionaryBase_t3183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DictionaryBase__ctor_m10574 (DictionaryBase_t3183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IEnumerable`1<Mono.Xml.DTDNode> Mono.Xml.DictionaryBase::get_Values()
-extern "C" Object_t* DictionaryBase_get_Values_m10574 (DictionaryBase_t3183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* DictionaryBase_get_Values_m10575 (DictionaryBase_t3183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

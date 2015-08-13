@@ -12,7 +12,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType RegexOptions_t4125_0_0_0;
 extern const Il2CppType RegexOptions_t4125_0_0_0;
-static const ParameterInfo Key_t4129_Key__ctor_m14659_ParameterInfos[] = 
+static const ParameterInfo Key_t4129_Key__ctor_m14660_ParameterInfos[] = 
 {
 	{"pattern", 0, 134219347, 0, &String_t_0_0_0},
 	{"options", 1, 134219348, 0, &RegexOptions_t4125_0_0_0},
@@ -20,14 +20,14 @@ static const ParameterInfo Key_t4129_Key__ctor_m14659_ParameterInfos[] =
 extern const Il2CppType Void_t85_0_0_0;
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.FactoryCache/Key::.ctor(System.String,System.Text.RegularExpressions.RegexOptions)
-extern const MethodInfo Key__ctor_m14659_MethodInfo = 
+extern const MethodInfo Key__ctor_m14660_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Key__ctor_m14659/* method */
+	, (methodPointerType)&Key__ctor_m14660/* method */
 	, &Key_t4129_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, Key_t4129_Key__ctor_m14659_ParameterInfos/* parameters */
+	, Key_t4129_Key__ctor_m14660_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -44,10 +44,10 @@ extern const MethodInfo Key__ctor_m14659_MethodInfo =
 extern const Il2CppType Int32_t82_0_0_0;
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.FactoryCache/Key::GetHashCode()
-extern const MethodInfo Key_GetHashCode_m14660_MethodInfo = 
+extern const MethodInfo Key_GetHashCode_m14661_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&Key_GetHashCode_m14660/* method */
+	, (methodPointerType)&Key_GetHashCode_m14661/* method */
 	, &Key_t4129_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -67,21 +67,21 @@ extern const MethodInfo Key_GetHashCode_m14660_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Key_t4129_Key_Equals_m14661_ParameterInfos[] = 
+static const ParameterInfo Key_t4129_Key_Equals_m14662_ParameterInfos[] = 
 {
 	{"o", 0, 134219349, 0, &Object_t_0_0_0},
 };
 extern const Il2CppType Boolean_t59_0_0_0;
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.FactoryCache/Key::Equals(System.Object)
-extern const MethodInfo Key_Equals_m14661_MethodInfo = 
+extern const MethodInfo Key_Equals_m14662_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&Key_Equals_m14661/* method */
+	, (methodPointerType)&Key_Equals_m14662/* method */
 	, &Key_t4129_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Key_t4129_Key_Equals_m14661_ParameterInfos/* parameters */
+	, Key_t4129_Key_Equals_m14662_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -97,10 +97,10 @@ extern const MethodInfo Key_Equals_m14661_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.RegularExpressions.FactoryCache/Key::ToString()
-extern const MethodInfo Key_ToString_m14662_MethodInfo = 
+extern const MethodInfo Key_ToString_m14663_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&Key_ToString_m14662/* method */
+	, (methodPointerType)&Key_ToString_m14663/* method */
 	, &Key_t4129_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -120,22 +120,22 @@ extern const MethodInfo Key_ToString_m14662_MethodInfo =
 };
 static const MethodInfo* Key_t4129_MethodInfos[] =
 {
-	&Key__ctor_m14659_MethodInfo,
-	&Key_GetHashCode_m14660_MethodInfo,
-	&Key_Equals_m14661_MethodInfo,
-	&Key_ToString_m14662_MethodInfo,
+	&Key__ctor_m14660_MethodInfo,
+	&Key_GetHashCode_m14661_MethodInfo,
+	&Key_Equals_m14662_MethodInfo,
+	&Key_ToString_m14663_MethodInfo,
 	NULL
 };
-extern const MethodInfo Key_Equals_m14661_MethodInfo;
+extern const MethodInfo Key_Equals_m14662_MethodInfo;
 extern const MethodInfo Object_Finalize_m490_MethodInfo;
-extern const MethodInfo Key_GetHashCode_m14660_MethodInfo;
-extern const MethodInfo Key_ToString_m14662_MethodInfo;
+extern const MethodInfo Key_GetHashCode_m14661_MethodInfo;
+extern const MethodInfo Key_ToString_m14663_MethodInfo;
 static const Il2CppMethodReference Key_t4129_VTable[] =
 {
-	&Key_Equals_m14661_MethodInfo,
+	&Key_Equals_m14662_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Key_GetHashCode_m14660_MethodInfo,
-	&Key_ToString_m14662_MethodInfo,
+	&Key_GetHashCode_m14661_MethodInfo,
+	&Key_ToString_m14663_MethodInfo,
 };
 static bool Key_t4129_VTableIsGenericMethod[] =
 {
@@ -223,20 +223,20 @@ TypeInfo Key_t4129_il2cpp_TypeInfo =
 // System.Text.RegularExpressions.FactoryCache
 #include "System_System_Text_RegularExpressions_FactoryCacheMethodDeclarations.h"
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo FactoryCache_t4122_FactoryCache__ctor_m14663_ParameterInfos[] = 
+static const ParameterInfo FactoryCache_t4122_FactoryCache__ctor_m14664_ParameterInfos[] = 
 {
 	{"capacity", 0, 134219341, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.FactoryCache::.ctor(System.Int32)
-extern const MethodInfo FactoryCache__ctor_m14663_MethodInfo = 
+extern const MethodInfo FactoryCache__ctor_m14664_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&FactoryCache__ctor_m14663/* method */
+	, (methodPointerType)&FactoryCache__ctor_m14664/* method */
 	, &FactoryCache_t4122_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, FactoryCache_t4122_FactoryCache__ctor_m14663_ParameterInfos/* parameters */
+	, FactoryCache_t4122_FactoryCache__ctor_m14664_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -254,7 +254,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType RegexOptions_t4125_0_0_0;
 extern const Il2CppType IMachineFactory_t4123_0_0_0;
 extern const Il2CppType IMachineFactory_t4123_0_0_0;
-static const ParameterInfo FactoryCache_t4122_FactoryCache_Add_m14664_ParameterInfos[] = 
+static const ParameterInfo FactoryCache_t4122_FactoryCache_Add_m14665_ParameterInfos[] = 
 {
 	{"pattern", 0, 134219342, 0, &String_t_0_0_0},
 	{"options", 1, 134219343, 0, &RegexOptions_t4125_0_0_0},
@@ -262,14 +262,14 @@ static const ParameterInfo FactoryCache_t4122_FactoryCache_Add_m14664_ParameterI
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.FactoryCache::Add(System.String,System.Text.RegularExpressions.RegexOptions,System.Text.RegularExpressions.IMachineFactory)
-extern const MethodInfo FactoryCache_Add_m14664_MethodInfo = 
+extern const MethodInfo FactoryCache_Add_m14665_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&FactoryCache_Add_m14664/* method */
+	, (methodPointerType)&FactoryCache_Add_m14665/* method */
 	, &FactoryCache_t4122_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82_Object_t/* invoker_method */
-	, FactoryCache_t4122_FactoryCache_Add_m14664_ParameterInfos/* parameters */
+	, FactoryCache_t4122_FactoryCache_Add_m14665_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -285,10 +285,10 @@ extern const MethodInfo FactoryCache_Add_m14664_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.FactoryCache::Cleanup()
-extern const MethodInfo FactoryCache_Cleanup_m14665_MethodInfo = 
+extern const MethodInfo FactoryCache_Cleanup_m14666_MethodInfo = 
 {
 	"Cleanup"/* name */
-	, (methodPointerType)&FactoryCache_Cleanup_m14665/* method */
+	, (methodPointerType)&FactoryCache_Cleanup_m14666/* method */
 	, &FactoryCache_t4122_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -308,21 +308,21 @@ extern const MethodInfo FactoryCache_Cleanup_m14665_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType RegexOptions_t4125_0_0_0;
-static const ParameterInfo FactoryCache_t4122_FactoryCache_Lookup_m14666_ParameterInfos[] = 
+static const ParameterInfo FactoryCache_t4122_FactoryCache_Lookup_m14667_ParameterInfos[] = 
 {
 	{"pattern", 0, 134219345, 0, &String_t_0_0_0},
 	{"options", 1, 134219346, 0, &RegexOptions_t4125_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.IMachineFactory System.Text.RegularExpressions.FactoryCache::Lookup(System.String,System.Text.RegularExpressions.RegexOptions)
-extern const MethodInfo FactoryCache_Lookup_m14666_MethodInfo = 
+extern const MethodInfo FactoryCache_Lookup_m14667_MethodInfo = 
 {
 	"Lookup"/* name */
-	, (methodPointerType)&FactoryCache_Lookup_m14666/* method */
+	, (methodPointerType)&FactoryCache_Lookup_m14667/* method */
 	, &FactoryCache_t4122_il2cpp_TypeInfo/* declaring_type */
 	, &IMachineFactory_t4123_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t82/* invoker_method */
-	, FactoryCache_t4122_FactoryCache_Lookup_m14666_ParameterInfos/* parameters */
+	, FactoryCache_t4122_FactoryCache_Lookup_m14667_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -338,10 +338,10 @@ extern const MethodInfo FactoryCache_Lookup_m14666_MethodInfo =
 };
 static const MethodInfo* FactoryCache_t4122_MethodInfos[] =
 {
-	&FactoryCache__ctor_m14663_MethodInfo,
-	&FactoryCache_Add_m14664_MethodInfo,
-	&FactoryCache_Cleanup_m14665_MethodInfo,
-	&FactoryCache_Lookup_m14666_MethodInfo,
+	&FactoryCache__ctor_m14664_MethodInfo,
+	&FactoryCache_Add_m14665_MethodInfo,
+	&FactoryCache_Cleanup_m14666_MethodInfo,
+	&FactoryCache_Lookup_m14667_MethodInfo,
 	NULL
 };
 static const Il2CppType* FactoryCache_t4122_il2cpp_TypeInfo__nestedTypes[1] =
@@ -442,20 +442,20 @@ extern TypeInfo Node_t4131_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.MRUList/Node
 #include "System_System_Text_RegularExpressions_MRUList_NodeMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Node_t4131_Node__ctor_m14667_ParameterInfos[] = 
+static const ParameterInfo Node_t4131_Node__ctor_m14668_ParameterInfos[] = 
 {
 	{"value", 0, 134219351, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.MRUList/Node::.ctor(System.Object)
-extern const MethodInfo Node__ctor_m14667_MethodInfo = 
+extern const MethodInfo Node__ctor_m14668_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Node__ctor_m14667/* method */
+	, (methodPointerType)&Node__ctor_m14668/* method */
 	, &Node_t4131_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Node_t4131_Node__ctor_m14667_ParameterInfos/* parameters */
+	, Node_t4131_Node__ctor_m14668_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -471,7 +471,7 @@ extern const MethodInfo Node__ctor_m14667_MethodInfo =
 };
 static const MethodInfo* Node_t4131_MethodInfos[] =
 {
-	&Node__ctor_m14667_MethodInfo,
+	&Node__ctor_m14668_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference Node_t4131_VTable[] =
@@ -568,10 +568,10 @@ TypeInfo Node_t4131_il2cpp_TypeInfo =
 #include "System_System_Text_RegularExpressions_MRUListMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.MRUList::.ctor()
-extern const MethodInfo MRUList__ctor_m14668_MethodInfo = 
+extern const MethodInfo MRUList__ctor_m14669_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&MRUList__ctor_m14668/* method */
+	, (methodPointerType)&MRUList__ctor_m14669/* method */
 	, &MRUList_t4130_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -590,20 +590,20 @@ extern const MethodInfo MRUList__ctor_m14668_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo MRUList_t4130_MRUList_Use_m14669_ParameterInfos[] = 
+static const ParameterInfo MRUList_t4130_MRUList_Use_m14670_ParameterInfos[] = 
 {
 	{"o", 0, 134219350, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.MRUList::Use(System.Object)
-extern const MethodInfo MRUList_Use_m14669_MethodInfo = 
+extern const MethodInfo MRUList_Use_m14670_MethodInfo = 
 {
 	"Use"/* name */
-	, (methodPointerType)&MRUList_Use_m14669/* method */
+	, (methodPointerType)&MRUList_Use_m14670/* method */
 	, &MRUList_t4130_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, MRUList_t4130_MRUList_Use_m14669_ParameterInfos/* parameters */
+	, MRUList_t4130_MRUList_Use_m14670_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -619,10 +619,10 @@ extern const MethodInfo MRUList_Use_m14669_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Text.RegularExpressions.MRUList::Evict()
-extern const MethodInfo MRUList_Evict_m14670_MethodInfo = 
+extern const MethodInfo MRUList_Evict_m14671_MethodInfo = 
 {
 	"Evict"/* name */
-	, (methodPointerType)&MRUList_Evict_m14670/* method */
+	, (methodPointerType)&MRUList_Evict_m14671/* method */
 	, &MRUList_t4130_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -642,9 +642,9 @@ extern const MethodInfo MRUList_Evict_m14670_MethodInfo =
 };
 static const MethodInfo* MRUList_t4130_MethodInfos[] =
 {
-	&MRUList__ctor_m14668_MethodInfo,
-	&MRUList_Use_m14669_MethodInfo,
-	&MRUList_Evict_m14670_MethodInfo,
+	&MRUList__ctor_m14669_MethodInfo,
+	&MRUList_Use_m14670_MethodInfo,
+	&MRUList_Evict_m14671_MethodInfo,
 	NULL
 };
 static const Il2CppType* MRUList_t4130_il2cpp_TypeInfo__nestedTypes[1] =
@@ -909,20 +909,20 @@ extern TypeInfo CategoryUtils_t4133_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.CategoryUtils
 #include "System_System_Text_RegularExpressions_CategoryUtilsMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo CategoryUtils_t4133_CategoryUtils_CategoryFromName_m14671_ParameterInfos[] = 
+static const ParameterInfo CategoryUtils_t4133_CategoryUtils_CategoryFromName_m14672_ParameterInfos[] = 
 {
 	{"name", 0, 134219352, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Category_t4132_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Category System.Text.RegularExpressions.CategoryUtils::CategoryFromName(System.String)
-extern const MethodInfo CategoryUtils_CategoryFromName_m14671_MethodInfo = 
+extern const MethodInfo CategoryUtils_CategoryFromName_m14672_MethodInfo = 
 {
 	"CategoryFromName"/* name */
-	, (methodPointerType)&CategoryUtils_CategoryFromName_m14671/* method */
+	, (methodPointerType)&CategoryUtils_CategoryFromName_m14672/* method */
 	, &CategoryUtils_t4133_il2cpp_TypeInfo/* declaring_type */
 	, &Category_t4132_0_0_0/* return_type */
 	, RuntimeInvoker_Category_t4132_Object_t/* invoker_method */
-	, CategoryUtils_t4133_CategoryUtils_CategoryFromName_m14671_ParameterInfos/* parameters */
+	, CategoryUtils_t4133_CategoryUtils_CategoryFromName_m14672_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -939,21 +939,21 @@ extern const MethodInfo CategoryUtils_CategoryFromName_m14671_MethodInfo =
 extern const Il2CppType Category_t4132_0_0_0;
 extern const Il2CppType Char_t60_0_0_0;
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo CategoryUtils_t4133_CategoryUtils_IsCategory_m14672_ParameterInfos[] = 
+static const ParameterInfo CategoryUtils_t4133_CategoryUtils_IsCategory_m14673_ParameterInfos[] = 
 {
 	{"cat", 0, 134219353, 0, &Category_t4132_0_0_0},
 	{"c", 1, 134219354, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_UInt16_t743_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.CategoryUtils::IsCategory(System.Text.RegularExpressions.Category,System.Char)
-extern const MethodInfo CategoryUtils_IsCategory_m14672_MethodInfo = 
+extern const MethodInfo CategoryUtils_IsCategory_m14673_MethodInfo = 
 {
 	"IsCategory"/* name */
-	, (methodPointerType)&CategoryUtils_IsCategory_m14672/* method */
+	, (methodPointerType)&CategoryUtils_IsCategory_m14673/* method */
 	, &CategoryUtils_t4133_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_UInt16_t743_Int16_t742/* invoker_method */
-	, CategoryUtils_t4133_CategoryUtils_IsCategory_m14672_ParameterInfos/* parameters */
+	, CategoryUtils_t4133_CategoryUtils_IsCategory_m14673_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -970,21 +970,21 @@ extern const MethodInfo CategoryUtils_IsCategory_m14672_MethodInfo =
 extern const Il2CppType UnicodeCategory_t4332_0_0_0;
 extern const Il2CppType UnicodeCategory_t4332_0_0_0;
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo CategoryUtils_t4133_CategoryUtils_IsCategory_m14673_ParameterInfos[] = 
+static const ParameterInfo CategoryUtils_t4133_CategoryUtils_IsCategory_m14674_ParameterInfos[] = 
 {
 	{"uc", 0, 134219355, 0, &UnicodeCategory_t4332_0_0_0},
 	{"c", 1, 134219356, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.CategoryUtils::IsCategory(System.Globalization.UnicodeCategory,System.Char)
-extern const MethodInfo CategoryUtils_IsCategory_m14673_MethodInfo = 
+extern const MethodInfo CategoryUtils_IsCategory_m14674_MethodInfo = 
 {
 	"IsCategory"/* name */
-	, (methodPointerType)&CategoryUtils_IsCategory_m14673/* method */
+	, (methodPointerType)&CategoryUtils_IsCategory_m14674/* method */
 	, &CategoryUtils_t4133_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32_t82_Int16_t742/* invoker_method */
-	, CategoryUtils_t4133_CategoryUtils_IsCategory_m14673_ParameterInfos/* parameters */
+	, CategoryUtils_t4133_CategoryUtils_IsCategory_m14674_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -1000,9 +1000,9 @@ extern const MethodInfo CategoryUtils_IsCategory_m14673_MethodInfo =
 };
 static const MethodInfo* CategoryUtils_t4133_MethodInfos[] =
 {
-	&CategoryUtils_CategoryFromName_m14671_MethodInfo,
-	&CategoryUtils_IsCategory_m14672_MethodInfo,
+	&CategoryUtils_CategoryFromName_m14672_MethodInfo,
 	&CategoryUtils_IsCategory_m14673_MethodInfo,
+	&CategoryUtils_IsCategory_m14674_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference CategoryUtils_t4133_VTable[] =
@@ -1098,10 +1098,10 @@ extern TypeInfo LinkRef_t4134_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_LinkRefMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.LinkRef::.ctor()
-extern const MethodInfo LinkRef__ctor_m14674_MethodInfo = 
+extern const MethodInfo LinkRef__ctor_m14675_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&LinkRef__ctor_m14674/* method */
+	, (methodPointerType)&LinkRef__ctor_m14675/* method */
 	, &LinkRef_t4134_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -1121,7 +1121,7 @@ extern const MethodInfo LinkRef__ctor_m14674_MethodInfo =
 };
 static const MethodInfo* LinkRef_t4134_MethodInfos[] =
 {
-	&LinkRef__ctor_m14674_MethodInfo,
+	&LinkRef__ctor_m14675_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference LinkRef_t4134_VTable[] =
@@ -1213,7 +1213,7 @@ TypeInfo LinkRef_t4134_il2cpp_TypeInfo =
 extern TypeInfo ICompiler_t4189_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.IMachineFactory System.Text.RegularExpressions.ICompiler::GetMachineFactory()
-extern const MethodInfo ICompiler_GetMachineFactory_m15382_MethodInfo = 
+extern const MethodInfo ICompiler_GetMachineFactory_m15383_MethodInfo = 
 {
 	"GetMachineFactory"/* name */
 	, NULL/* method */
@@ -1236,7 +1236,7 @@ extern const MethodInfo ICompiler_GetMachineFactory_m15382_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitFalse()
-extern const MethodInfo ICompiler_EmitFalse_m15383_MethodInfo = 
+extern const MethodInfo ICompiler_EmitFalse_m15384_MethodInfo = 
 {
 	"EmitFalse"/* name */
 	, NULL/* method */
@@ -1259,7 +1259,7 @@ extern const MethodInfo ICompiler_EmitFalse_m15383_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitTrue()
-extern const MethodInfo ICompiler_EmitTrue_m15384_MethodInfo = 
+extern const MethodInfo ICompiler_EmitTrue_m15385_MethodInfo = 
 {
 	"EmitTrue"/* name */
 	, NULL/* method */
@@ -1284,7 +1284,7 @@ extern const Il2CppType Char_t60_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitCharacter_m15385_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitCharacter_m15386_ParameterInfos[] = 
 {
 	{"c", 0, 134219357, 0, &Char_t60_0_0_0},
 	{"negate", 1, 134219358, 0, &Boolean_t59_0_0_0},
@@ -1293,14 +1293,14 @@ static const ParameterInfo ICompiler_t4189_ICompiler_EmitCharacter_m15385_Parame
 };
 extern void* RuntimeInvoker_Void_t85_Int16_t742_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitCharacter(System.Char,System.Boolean,System.Boolean,System.Boolean)
-extern const MethodInfo ICompiler_EmitCharacter_m15385_MethodInfo = 
+extern const MethodInfo ICompiler_EmitCharacter_m15386_MethodInfo = 
 {
 	"EmitCharacter"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int16_t742_SByte_t88_SByte_t88_SByte_t88/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitCharacter_m15385_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitCharacter_m15386_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1317,7 +1317,7 @@ extern const MethodInfo ICompiler_EmitCharacter_m15385_MethodInfo =
 extern const Il2CppType Category_t4132_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitCategory_m15386_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitCategory_m15387_ParameterInfos[] = 
 {
 	{"cat", 0, 134219361, 0, &Category_t4132_0_0_0},
 	{"negate", 1, 134219362, 0, &Boolean_t59_0_0_0},
@@ -1325,14 +1325,14 @@ static const ParameterInfo ICompiler_t4189_ICompiler_EmitCategory_m15386_Paramet
 };
 extern void* RuntimeInvoker_Void_t85_UInt16_t743_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitCategory(System.Text.RegularExpressions.Category,System.Boolean,System.Boolean)
-extern const MethodInfo ICompiler_EmitCategory_m15386_MethodInfo = 
+extern const MethodInfo ICompiler_EmitCategory_m15387_MethodInfo = 
 {
 	"EmitCategory"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_UInt16_t743_SByte_t88_SByte_t88/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitCategory_m15386_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitCategory_m15387_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1349,7 +1349,7 @@ extern const MethodInfo ICompiler_EmitCategory_m15386_MethodInfo =
 extern const Il2CppType Category_t4132_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitNotCategory_m15387_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitNotCategory_m15388_ParameterInfos[] = 
 {
 	{"cat", 0, 134219364, 0, &Category_t4132_0_0_0},
 	{"negate", 1, 134219365, 0, &Boolean_t59_0_0_0},
@@ -1357,14 +1357,14 @@ static const ParameterInfo ICompiler_t4189_ICompiler_EmitNotCategory_m15387_Para
 };
 extern void* RuntimeInvoker_Void_t85_UInt16_t743_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitNotCategory(System.Text.RegularExpressions.Category,System.Boolean,System.Boolean)
-extern const MethodInfo ICompiler_EmitNotCategory_m15387_MethodInfo = 
+extern const MethodInfo ICompiler_EmitNotCategory_m15388_MethodInfo = 
 {
 	"EmitNotCategory"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_UInt16_t743_SByte_t88_SByte_t88/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitNotCategory_m15387_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitNotCategory_m15388_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1383,7 +1383,7 @@ extern const Il2CppType Char_t60_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitRange_m15388_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitRange_m15389_ParameterInfos[] = 
 {
 	{"lo", 0, 134219367, 0, &Char_t60_0_0_0},
 	{"hi", 1, 134219368, 0, &Char_t60_0_0_0},
@@ -1393,14 +1393,14 @@ static const ParameterInfo ICompiler_t4189_ICompiler_EmitRange_m15388_ParameterI
 };
 extern void* RuntimeInvoker_Void_t85_Int16_t742_Int16_t742_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitRange(System.Char,System.Char,System.Boolean,System.Boolean,System.Boolean)
-extern const MethodInfo ICompiler_EmitRange_m15388_MethodInfo = 
+extern const MethodInfo ICompiler_EmitRange_m15389_MethodInfo = 
 {
 	"EmitRange"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int16_t742_Int16_t742_SByte_t88_SByte_t88_SByte_t88/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitRange_m15388_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitRange_m15389_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1420,7 +1420,7 @@ extern const Il2CppType BitArray_t4170_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitSet_m15389_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitSet_m15390_ParameterInfos[] = 
 {
 	{"lo", 0, 134219372, 0, &Char_t60_0_0_0},
 	{"set", 1, 134219373, 0, &BitArray_t4170_0_0_0},
@@ -1430,14 +1430,14 @@ static const ParameterInfo ICompiler_t4189_ICompiler_EmitSet_m15389_ParameterInf
 };
 extern void* RuntimeInvoker_Void_t85_Int16_t742_Object_t_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitSet(System.Char,System.Collections.BitArray,System.Boolean,System.Boolean,System.Boolean)
-extern const MethodInfo ICompiler_EmitSet_m15389_MethodInfo = 
+extern const MethodInfo ICompiler_EmitSet_m15390_MethodInfo = 
 {
 	"EmitSet"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int16_t742_Object_t_SByte_t88_SByte_t88_SByte_t88/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitSet_m15389_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitSet_m15390_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1454,7 +1454,7 @@ extern const MethodInfo ICompiler_EmitSet_m15389_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitString_m15390_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitString_m15391_ParameterInfos[] = 
 {
 	{"str", 0, 134219377, 0, &String_t_0_0_0},
 	{"ignore", 1, 134219378, 0, &Boolean_t59_0_0_0},
@@ -1462,14 +1462,14 @@ static const ParameterInfo ICompiler_t4189_ICompiler_EmitString_m15390_Parameter
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitString(System.String,System.Boolean,System.Boolean)
-extern const MethodInfo ICompiler_EmitString_m15390_MethodInfo = 
+extern const MethodInfo ICompiler_EmitString_m15391_MethodInfo = 
 {
 	"EmitString"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88_SByte_t88/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitString_m15390_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitString_m15391_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1485,20 +1485,20 @@ extern const MethodInfo ICompiler_EmitString_m15390_MethodInfo =
 };
 extern const Il2CppType Position_t4128_0_0_0;
 extern const Il2CppType Position_t4128_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitPosition_m15391_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitPosition_m15392_ParameterInfos[] = 
 {
 	{"pos", 0, 134219380, 0, &Position_t4128_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_UInt16_t743 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitPosition(System.Text.RegularExpressions.Position)
-extern const MethodInfo ICompiler_EmitPosition_m15391_MethodInfo = 
+extern const MethodInfo ICompiler_EmitPosition_m15392_MethodInfo = 
 {
 	"EmitPosition"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_UInt16_t743/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitPosition_m15391_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitPosition_m15392_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1513,20 +1513,20 @@ extern const MethodInfo ICompiler_EmitPosition_m15391_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitOpen_m15392_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitOpen_m15393_ParameterInfos[] = 
 {
 	{"gid", 0, 134219381, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitOpen(System.Int32)
-extern const MethodInfo ICompiler_EmitOpen_m15392_MethodInfo = 
+extern const MethodInfo ICompiler_EmitOpen_m15393_MethodInfo = 
 {
 	"EmitOpen"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitOpen_m15392_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitOpen_m15393_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1541,20 +1541,20 @@ extern const MethodInfo ICompiler_EmitOpen_m15392_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitClose_m15393_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitClose_m15394_ParameterInfos[] = 
 {
 	{"gid", 0, 134219382, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitClose(System.Int32)
-extern const MethodInfo ICompiler_EmitClose_m15393_MethodInfo = 
+extern const MethodInfo ICompiler_EmitClose_m15394_MethodInfo = 
 {
 	"EmitClose"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitClose_m15393_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitClose_m15394_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1572,7 +1572,7 @@ extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitBalanceStart_m15394_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitBalanceStart_m15395_ParameterInfos[] = 
 {
 	{"gid", 0, 134219383, 0, &Int32_t82_0_0_0},
 	{"balance", 1, 134219384, 0, &Int32_t82_0_0_0},
@@ -1581,14 +1581,14 @@ static const ParameterInfo ICompiler_t4189_ICompiler_EmitBalanceStart_m15394_Par
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitBalanceStart(System.Int32,System.Int32,System.Boolean,System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo ICompiler_EmitBalanceStart_m15394_MethodInfo = 
+extern const MethodInfo ICompiler_EmitBalanceStart_m15395_MethodInfo = 
 {
 	"EmitBalanceStart"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88_Object_t/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitBalanceStart_m15394_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitBalanceStart_m15395_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1604,7 +1604,7 @@ extern const MethodInfo ICompiler_EmitBalanceStart_m15394_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitBalance()
-extern const MethodInfo ICompiler_EmitBalance_m15395_MethodInfo = 
+extern const MethodInfo ICompiler_EmitBalance_m15396_MethodInfo = 
 {
 	"EmitBalance"/* name */
 	, NULL/* method */
@@ -1628,7 +1628,7 @@ extern const MethodInfo ICompiler_EmitBalance_m15395_MethodInfo =
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitReference_m15396_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitReference_m15397_ParameterInfos[] = 
 {
 	{"gid", 0, 134219387, 0, &Int32_t82_0_0_0},
 	{"ignore", 1, 134219388, 0, &Boolean_t59_0_0_0},
@@ -1636,14 +1636,14 @@ static const ParameterInfo ICompiler_t4189_ICompiler_EmitReference_m15396_Parame
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitReference(System.Int32,System.Boolean,System.Boolean)
-extern const MethodInfo ICompiler_EmitReference_m15396_MethodInfo = 
+extern const MethodInfo ICompiler_EmitReference_m15397_MethodInfo = 
 {
 	"EmitReference"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_SByte_t88_SByte_t88/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitReference_m15396_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitReference_m15397_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1659,21 +1659,21 @@ extern const MethodInfo ICompiler_EmitReference_m15396_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitIfDefined_m15397_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitIfDefined_m15398_ParameterInfos[] = 
 {
 	{"gid", 0, 134219390, 0, &Int32_t82_0_0_0},
 	{"tail", 1, 134219391, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitIfDefined(System.Int32,System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo ICompiler_EmitIfDefined_m15397_MethodInfo = 
+extern const MethodInfo ICompiler_EmitIfDefined_m15398_MethodInfo = 
 {
 	"EmitIfDefined"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Object_t/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitIfDefined_m15397_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitIfDefined_m15398_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1688,20 +1688,20 @@ extern const MethodInfo ICompiler_EmitIfDefined_m15397_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitSub_m15398_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitSub_m15399_ParameterInfos[] = 
 {
 	{"tail", 0, 134219392, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitSub(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo ICompiler_EmitSub_m15398_MethodInfo = 
+extern const MethodInfo ICompiler_EmitSub_m15399_MethodInfo = 
 {
 	"EmitSub"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitSub_m15398_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitSub_m15399_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1717,21 +1717,21 @@ extern const MethodInfo ICompiler_EmitSub_m15398_MethodInfo =
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitTest_m15399_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitTest_m15400_ParameterInfos[] = 
 {
 	{"yes", 0, 134219393, 0, &LinkRef_t4134_0_0_0},
 	{"tail", 1, 134219394, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitTest(System.Text.RegularExpressions.LinkRef,System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo ICompiler_EmitTest_m15399_MethodInfo = 
+extern const MethodInfo ICompiler_EmitTest_m15400_MethodInfo = 
 {
 	"EmitTest"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitTest_m15399_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitTest_m15400_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1746,20 +1746,20 @@ extern const MethodInfo ICompiler_EmitTest_m15399_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitBranch_m15400_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitBranch_m15401_ParameterInfos[] = 
 {
 	{"next", 0, 134219395, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitBranch(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo ICompiler_EmitBranch_m15400_MethodInfo = 
+extern const MethodInfo ICompiler_EmitBranch_m15401_MethodInfo = 
 {
 	"EmitBranch"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitBranch_m15400_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitBranch_m15401_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1774,20 +1774,20 @@ extern const MethodInfo ICompiler_EmitBranch_m15400_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitJump_m15401_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitJump_m15402_ParameterInfos[] = 
 {
 	{"target", 0, 134219396, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitJump(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo ICompiler_EmitJump_m15401_MethodInfo = 
+extern const MethodInfo ICompiler_EmitJump_m15402_MethodInfo = 
 {
 	"EmitJump"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitJump_m15401_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitJump_m15402_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1805,7 +1805,7 @@ extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitRepeat_m15402_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitRepeat_m15403_ParameterInfos[] = 
 {
 	{"min", 0, 134219397, 0, &Int32_t82_0_0_0},
 	{"max", 1, 134219398, 0, &Int32_t82_0_0_0},
@@ -1814,14 +1814,14 @@ static const ParameterInfo ICompiler_t4189_ICompiler_EmitRepeat_m15402_Parameter
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitRepeat(System.Int32,System.Int32,System.Boolean,System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo ICompiler_EmitRepeat_m15402_MethodInfo = 
+extern const MethodInfo ICompiler_EmitRepeat_m15403_MethodInfo = 
 {
 	"EmitRepeat"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88_Object_t/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitRepeat_m15402_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitRepeat_m15403_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1836,20 +1836,20 @@ extern const MethodInfo ICompiler_EmitRepeat_m15402_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitUntil_m15403_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitUntil_m15404_ParameterInfos[] = 
 {
 	{"repeat", 0, 134219401, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitUntil(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo ICompiler_EmitUntil_m15403_MethodInfo = 
+extern const MethodInfo ICompiler_EmitUntil_m15404_MethodInfo = 
 {
 	"EmitUntil"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitUntil_m15403_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitUntil_m15404_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1864,20 +1864,20 @@ extern const MethodInfo ICompiler_EmitUntil_m15403_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitIn_m15404_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitIn_m15405_ParameterInfos[] = 
 {
 	{"tail", 0, 134219402, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitIn(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo ICompiler_EmitIn_m15404_MethodInfo = 
+extern const MethodInfo ICompiler_EmitIn_m15405_MethodInfo = 
 {
 	"EmitIn"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitIn_m15404_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitIn_m15405_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1894,7 +1894,7 @@ extern const MethodInfo ICompiler_EmitIn_m15404_MethodInfo =
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitInfo_m15405_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitInfo_m15406_ParameterInfos[] = 
 {
 	{"count", 0, 134219403, 0, &Int32_t82_0_0_0},
 	{"min", 1, 134219404, 0, &Int32_t82_0_0_0},
@@ -1902,14 +1902,14 @@ static const ParameterInfo ICompiler_t4189_ICompiler_EmitInfo_m15405_ParameterIn
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitInfo(System.Int32,System.Int32,System.Int32)
-extern const MethodInfo ICompiler_EmitInfo_m15405_MethodInfo = 
+extern const MethodInfo ICompiler_EmitInfo_m15406_MethodInfo = 
 {
 	"EmitInfo"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_Int32_t82/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitInfo_m15405_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitInfo_m15406_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1927,7 +1927,7 @@ extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitFastRepeat_m15406_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitFastRepeat_m15407_ParameterInfos[] = 
 {
 	{"min", 0, 134219406, 0, &Int32_t82_0_0_0},
 	{"max", 1, 134219407, 0, &Int32_t82_0_0_0},
@@ -1936,14 +1936,14 @@ static const ParameterInfo ICompiler_t4189_ICompiler_EmitFastRepeat_m15406_Param
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitFastRepeat(System.Int32,System.Int32,System.Boolean,System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo ICompiler_EmitFastRepeat_m15406_MethodInfo = 
+extern const MethodInfo ICompiler_EmitFastRepeat_m15407_MethodInfo = 
 {
 	"EmitFastRepeat"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88_Object_t/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitFastRepeat_m15406_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitFastRepeat_m15407_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1960,7 +1960,7 @@ extern const MethodInfo ICompiler_EmitFastRepeat_m15406_MethodInfo =
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_EmitAnchor_m15407_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_EmitAnchor_m15408_ParameterInfos[] = 
 {
 	{"reverse", 0, 134219410, 0, &Boolean_t59_0_0_0},
 	{"offset", 1, 134219411, 0, &Int32_t82_0_0_0},
@@ -1968,14 +1968,14 @@ static const ParameterInfo ICompiler_t4189_ICompiler_EmitAnchor_m15407_Parameter
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitAnchor(System.Boolean,System.Int32,System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo ICompiler_EmitAnchor_m15407_MethodInfo = 
+extern const MethodInfo ICompiler_EmitAnchor_m15408_MethodInfo = 
 {
 	"EmitAnchor"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88_Int32_t82_Object_t/* invoker_method */
-	, ICompiler_t4189_ICompiler_EmitAnchor_m15407_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_EmitAnchor_m15408_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -1991,7 +1991,7 @@ extern const MethodInfo ICompiler_EmitAnchor_m15407_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitBranchEnd()
-extern const MethodInfo ICompiler_EmitBranchEnd_m15408_MethodInfo = 
+extern const MethodInfo ICompiler_EmitBranchEnd_m15409_MethodInfo = 
 {
 	"EmitBranchEnd"/* name */
 	, NULL/* method */
@@ -2014,7 +2014,7 @@ extern const MethodInfo ICompiler_EmitBranchEnd_m15408_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::EmitAlternationEnd()
-extern const MethodInfo ICompiler_EmitAlternationEnd_m15409_MethodInfo = 
+extern const MethodInfo ICompiler_EmitAlternationEnd_m15410_MethodInfo = 
 {
 	"EmitAlternationEnd"/* name */
 	, NULL/* method */
@@ -2037,7 +2037,7 @@ extern const MethodInfo ICompiler_EmitAlternationEnd_m15409_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink()
-extern const MethodInfo ICompiler_NewLink_m15410_MethodInfo = 
+extern const MethodInfo ICompiler_NewLink_m15411_MethodInfo = 
 {
 	"NewLink"/* name */
 	, NULL/* method */
@@ -2059,20 +2059,20 @@ extern const MethodInfo ICompiler_NewLink_m15410_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo ICompiler_t4189_ICompiler_ResolveLink_m15411_ParameterInfos[] = 
+static const ParameterInfo ICompiler_t4189_ICompiler_ResolveLink_m15412_ParameterInfos[] = 
 {
 	{"link", 0, 134219413, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo ICompiler_ResolveLink_m15411_MethodInfo = 
+extern const MethodInfo ICompiler_ResolveLink_m15412_MethodInfo = 
 {
 	"ResolveLink"/* name */
 	, NULL/* method */
 	, &ICompiler_t4189_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ICompiler_t4189_ICompiler_ResolveLink_m15411_ParameterInfos/* parameters */
+	, ICompiler_t4189_ICompiler_ResolveLink_m15412_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -2088,36 +2088,36 @@ extern const MethodInfo ICompiler_ResolveLink_m15411_MethodInfo =
 };
 static const MethodInfo* ICompiler_t4189_MethodInfos[] =
 {
-	&ICompiler_GetMachineFactory_m15382_MethodInfo,
-	&ICompiler_EmitFalse_m15383_MethodInfo,
-	&ICompiler_EmitTrue_m15384_MethodInfo,
-	&ICompiler_EmitCharacter_m15385_MethodInfo,
-	&ICompiler_EmitCategory_m15386_MethodInfo,
-	&ICompiler_EmitNotCategory_m15387_MethodInfo,
-	&ICompiler_EmitRange_m15388_MethodInfo,
-	&ICompiler_EmitSet_m15389_MethodInfo,
-	&ICompiler_EmitString_m15390_MethodInfo,
-	&ICompiler_EmitPosition_m15391_MethodInfo,
-	&ICompiler_EmitOpen_m15392_MethodInfo,
-	&ICompiler_EmitClose_m15393_MethodInfo,
-	&ICompiler_EmitBalanceStart_m15394_MethodInfo,
-	&ICompiler_EmitBalance_m15395_MethodInfo,
-	&ICompiler_EmitReference_m15396_MethodInfo,
-	&ICompiler_EmitIfDefined_m15397_MethodInfo,
-	&ICompiler_EmitSub_m15398_MethodInfo,
-	&ICompiler_EmitTest_m15399_MethodInfo,
-	&ICompiler_EmitBranch_m15400_MethodInfo,
-	&ICompiler_EmitJump_m15401_MethodInfo,
-	&ICompiler_EmitRepeat_m15402_MethodInfo,
-	&ICompiler_EmitUntil_m15403_MethodInfo,
-	&ICompiler_EmitIn_m15404_MethodInfo,
-	&ICompiler_EmitInfo_m15405_MethodInfo,
-	&ICompiler_EmitFastRepeat_m15406_MethodInfo,
-	&ICompiler_EmitAnchor_m15407_MethodInfo,
-	&ICompiler_EmitBranchEnd_m15408_MethodInfo,
-	&ICompiler_EmitAlternationEnd_m15409_MethodInfo,
-	&ICompiler_NewLink_m15410_MethodInfo,
-	&ICompiler_ResolveLink_m15411_MethodInfo,
+	&ICompiler_GetMachineFactory_m15383_MethodInfo,
+	&ICompiler_EmitFalse_m15384_MethodInfo,
+	&ICompiler_EmitTrue_m15385_MethodInfo,
+	&ICompiler_EmitCharacter_m15386_MethodInfo,
+	&ICompiler_EmitCategory_m15387_MethodInfo,
+	&ICompiler_EmitNotCategory_m15388_MethodInfo,
+	&ICompiler_EmitRange_m15389_MethodInfo,
+	&ICompiler_EmitSet_m15390_MethodInfo,
+	&ICompiler_EmitString_m15391_MethodInfo,
+	&ICompiler_EmitPosition_m15392_MethodInfo,
+	&ICompiler_EmitOpen_m15393_MethodInfo,
+	&ICompiler_EmitClose_m15394_MethodInfo,
+	&ICompiler_EmitBalanceStart_m15395_MethodInfo,
+	&ICompiler_EmitBalance_m15396_MethodInfo,
+	&ICompiler_EmitReference_m15397_MethodInfo,
+	&ICompiler_EmitIfDefined_m15398_MethodInfo,
+	&ICompiler_EmitSub_m15399_MethodInfo,
+	&ICompiler_EmitTest_m15400_MethodInfo,
+	&ICompiler_EmitBranch_m15401_MethodInfo,
+	&ICompiler_EmitJump_m15402_MethodInfo,
+	&ICompiler_EmitRepeat_m15403_MethodInfo,
+	&ICompiler_EmitUntil_m15404_MethodInfo,
+	&ICompiler_EmitIn_m15405_MethodInfo,
+	&ICompiler_EmitInfo_m15406_MethodInfo,
+	&ICompiler_EmitFastRepeat_m15407_MethodInfo,
+	&ICompiler_EmitAnchor_m15408_MethodInfo,
+	&ICompiler_EmitBranchEnd_m15409_MethodInfo,
+	&ICompiler_EmitAlternationEnd_m15410_MethodInfo,
+	&ICompiler_NewLink_m15411_MethodInfo,
+	&ICompiler_ResolveLink_m15412_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_System_dll_Image;
@@ -2199,20 +2199,20 @@ extern TypeInfo InterpreterFactory_t4135_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_InterpreterFactoryMethodDeclarations.h"
 extern const Il2CppType UInt16U5BU5D_t4060_0_0_0;
 extern const Il2CppType UInt16U5BU5D_t4060_0_0_0;
-static const ParameterInfo InterpreterFactory_t4135_InterpreterFactory__ctor_m14675_ParameterInfos[] = 
+static const ParameterInfo InterpreterFactory_t4135_InterpreterFactory__ctor_m14676_ParameterInfos[] = 
 {
 	{"pattern", 0, 134219414, 0, &UInt16U5BU5D_t4060_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.InterpreterFactory::.ctor(System.UInt16[])
-extern const MethodInfo InterpreterFactory__ctor_m14675_MethodInfo = 
+extern const MethodInfo InterpreterFactory__ctor_m14676_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&InterpreterFactory__ctor_m14675/* method */
+	, (methodPointerType)&InterpreterFactory__ctor_m14676/* method */
 	, &InterpreterFactory_t4135_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, InterpreterFactory_t4135_InterpreterFactory__ctor_m14675_ParameterInfos/* parameters */
+	, InterpreterFactory_t4135_InterpreterFactory__ctor_m14676_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -2229,10 +2229,10 @@ extern const MethodInfo InterpreterFactory__ctor_m14675_MethodInfo =
 extern const Il2CppType IMachine_t4119_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.IMachine System.Text.RegularExpressions.InterpreterFactory::NewInstance()
-extern const MethodInfo InterpreterFactory_NewInstance_m14676_MethodInfo = 
+extern const MethodInfo InterpreterFactory_NewInstance_m14677_MethodInfo = 
 {
 	"NewInstance"/* name */
-	, (methodPointerType)&InterpreterFactory_NewInstance_m14676/* method */
+	, (methodPointerType)&InterpreterFactory_NewInstance_m14677/* method */
 	, &InterpreterFactory_t4135_il2cpp_TypeInfo/* declaring_type */
 	, &IMachine_t4119_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2252,10 +2252,10 @@ extern const MethodInfo InterpreterFactory_NewInstance_m14676_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.InterpreterFactory::get_GroupCount()
-extern const MethodInfo InterpreterFactory_get_GroupCount_m14677_MethodInfo = 
+extern const MethodInfo InterpreterFactory_get_GroupCount_m14678_MethodInfo = 
 {
 	"get_GroupCount"/* name */
-	, (methodPointerType)&InterpreterFactory_get_GroupCount_m14677/* method */
+	, (methodPointerType)&InterpreterFactory_get_GroupCount_m14678/* method */
 	, &InterpreterFactory_t4135_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -2275,10 +2275,10 @@ extern const MethodInfo InterpreterFactory_get_GroupCount_m14677_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.InterpreterFactory::get_Gap()
-extern const MethodInfo InterpreterFactory_get_Gap_m14678_MethodInfo = 
+extern const MethodInfo InterpreterFactory_get_Gap_m14679_MethodInfo = 
 {
 	"get_Gap"/* name */
-	, (methodPointerType)&InterpreterFactory_get_Gap_m14678/* method */
+	, (methodPointerType)&InterpreterFactory_get_Gap_m14679/* method */
 	, &InterpreterFactory_t4135_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -2297,20 +2297,20 @@ extern const MethodInfo InterpreterFactory_get_Gap_m14678_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo InterpreterFactory_t4135_InterpreterFactory_set_Gap_m14679_ParameterInfos[] = 
+static const ParameterInfo InterpreterFactory_t4135_InterpreterFactory_set_Gap_m14680_ParameterInfos[] = 
 {
 	{"value", 0, 134219415, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.InterpreterFactory::set_Gap(System.Int32)
-extern const MethodInfo InterpreterFactory_set_Gap_m14679_MethodInfo = 
+extern const MethodInfo InterpreterFactory_set_Gap_m14680_MethodInfo = 
 {
 	"set_Gap"/* name */
-	, (methodPointerType)&InterpreterFactory_set_Gap_m14679/* method */
+	, (methodPointerType)&InterpreterFactory_set_Gap_m14680/* method */
 	, &InterpreterFactory_t4135_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, InterpreterFactory_t4135_InterpreterFactory_set_Gap_m14679_ParameterInfos/* parameters */
+	, InterpreterFactory_t4135_InterpreterFactory_set_Gap_m14680_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -2327,10 +2327,10 @@ extern const MethodInfo InterpreterFactory_set_Gap_m14679_MethodInfo =
 extern const Il2CppType IDictionary_t685_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IDictionary System.Text.RegularExpressions.InterpreterFactory::get_Mapping()
-extern const MethodInfo InterpreterFactory_get_Mapping_m14680_MethodInfo = 
+extern const MethodInfo InterpreterFactory_get_Mapping_m14681_MethodInfo = 
 {
 	"get_Mapping"/* name */
-	, (methodPointerType)&InterpreterFactory_get_Mapping_m14680/* method */
+	, (methodPointerType)&InterpreterFactory_get_Mapping_m14681/* method */
 	, &InterpreterFactory_t4135_il2cpp_TypeInfo/* declaring_type */
 	, &IDictionary_t685_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2349,20 +2349,20 @@ extern const MethodInfo InterpreterFactory_get_Mapping_m14680_MethodInfo =
 
 };
 extern const Il2CppType IDictionary_t685_0_0_0;
-static const ParameterInfo InterpreterFactory_t4135_InterpreterFactory_set_Mapping_m14681_ParameterInfos[] = 
+static const ParameterInfo InterpreterFactory_t4135_InterpreterFactory_set_Mapping_m14682_ParameterInfos[] = 
 {
 	{"value", 0, 134219416, 0, &IDictionary_t685_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.InterpreterFactory::set_Mapping(System.Collections.IDictionary)
-extern const MethodInfo InterpreterFactory_set_Mapping_m14681_MethodInfo = 
+extern const MethodInfo InterpreterFactory_set_Mapping_m14682_MethodInfo = 
 {
 	"set_Mapping"/* name */
-	, (methodPointerType)&InterpreterFactory_set_Mapping_m14681/* method */
+	, (methodPointerType)&InterpreterFactory_set_Mapping_m14682/* method */
 	, &InterpreterFactory_t4135_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, InterpreterFactory_t4135_InterpreterFactory_set_Mapping_m14681_ParameterInfos/* parameters */
+	, InterpreterFactory_t4135_InterpreterFactory_set_Mapping_m14682_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -2379,10 +2379,10 @@ extern const MethodInfo InterpreterFactory_set_Mapping_m14681_MethodInfo =
 extern const Il2CppType StringU5BU5D_t75_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String[] System.Text.RegularExpressions.InterpreterFactory::get_NamesMapping()
-extern const MethodInfo InterpreterFactory_get_NamesMapping_m14682_MethodInfo = 
+extern const MethodInfo InterpreterFactory_get_NamesMapping_m14683_MethodInfo = 
 {
 	"get_NamesMapping"/* name */
-	, (methodPointerType)&InterpreterFactory_get_NamesMapping_m14682/* method */
+	, (methodPointerType)&InterpreterFactory_get_NamesMapping_m14683/* method */
 	, &InterpreterFactory_t4135_il2cpp_TypeInfo/* declaring_type */
 	, &StringU5BU5D_t75_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2401,20 +2401,20 @@ extern const MethodInfo InterpreterFactory_get_NamesMapping_m14682_MethodInfo =
 
 };
 extern const Il2CppType StringU5BU5D_t75_0_0_0;
-static const ParameterInfo InterpreterFactory_t4135_InterpreterFactory_set_NamesMapping_m14683_ParameterInfos[] = 
+static const ParameterInfo InterpreterFactory_t4135_InterpreterFactory_set_NamesMapping_m14684_ParameterInfos[] = 
 {
 	{"value", 0, 134219417, 0, &StringU5BU5D_t75_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.InterpreterFactory::set_NamesMapping(System.String[])
-extern const MethodInfo InterpreterFactory_set_NamesMapping_m14683_MethodInfo = 
+extern const MethodInfo InterpreterFactory_set_NamesMapping_m14684_MethodInfo = 
 {
 	"set_NamesMapping"/* name */
-	, (methodPointerType)&InterpreterFactory_set_NamesMapping_m14683/* method */
+	, (methodPointerType)&InterpreterFactory_set_NamesMapping_m14684/* method */
 	, &InterpreterFactory_t4135_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, InterpreterFactory_t4135_InterpreterFactory_set_NamesMapping_m14683_ParameterInfos/* parameters */
+	, InterpreterFactory_t4135_InterpreterFactory_set_NamesMapping_m14684_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -2430,60 +2430,60 @@ extern const MethodInfo InterpreterFactory_set_NamesMapping_m14683_MethodInfo =
 };
 static const MethodInfo* InterpreterFactory_t4135_MethodInfos[] =
 {
-	&InterpreterFactory__ctor_m14675_MethodInfo,
-	&InterpreterFactory_NewInstance_m14676_MethodInfo,
-	&InterpreterFactory_get_GroupCount_m14677_MethodInfo,
-	&InterpreterFactory_get_Gap_m14678_MethodInfo,
-	&InterpreterFactory_set_Gap_m14679_MethodInfo,
-	&InterpreterFactory_get_Mapping_m14680_MethodInfo,
-	&InterpreterFactory_set_Mapping_m14681_MethodInfo,
-	&InterpreterFactory_get_NamesMapping_m14682_MethodInfo,
-	&InterpreterFactory_set_NamesMapping_m14683_MethodInfo,
+	&InterpreterFactory__ctor_m14676_MethodInfo,
+	&InterpreterFactory_NewInstance_m14677_MethodInfo,
+	&InterpreterFactory_get_GroupCount_m14678_MethodInfo,
+	&InterpreterFactory_get_Gap_m14679_MethodInfo,
+	&InterpreterFactory_set_Gap_m14680_MethodInfo,
+	&InterpreterFactory_get_Mapping_m14681_MethodInfo,
+	&InterpreterFactory_set_Mapping_m14682_MethodInfo,
+	&InterpreterFactory_get_NamesMapping_m14683_MethodInfo,
+	&InterpreterFactory_set_NamesMapping_m14684_MethodInfo,
 	NULL
 };
-extern const MethodInfo InterpreterFactory_get_GroupCount_m14677_MethodInfo;
+extern const MethodInfo InterpreterFactory_get_GroupCount_m14678_MethodInfo;
 static const PropertyInfo InterpreterFactory_t4135____GroupCount_PropertyInfo = 
 {
 	&InterpreterFactory_t4135_il2cpp_TypeInfo/* parent */
 	, "GroupCount"/* name */
-	, &InterpreterFactory_get_GroupCount_m14677_MethodInfo/* get */
+	, &InterpreterFactory_get_GroupCount_m14678_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo InterpreterFactory_get_Gap_m14678_MethodInfo;
-extern const MethodInfo InterpreterFactory_set_Gap_m14679_MethodInfo;
+extern const MethodInfo InterpreterFactory_get_Gap_m14679_MethodInfo;
+extern const MethodInfo InterpreterFactory_set_Gap_m14680_MethodInfo;
 static const PropertyInfo InterpreterFactory_t4135____Gap_PropertyInfo = 
 {
 	&InterpreterFactory_t4135_il2cpp_TypeInfo/* parent */
 	, "Gap"/* name */
-	, &InterpreterFactory_get_Gap_m14678_MethodInfo/* get */
-	, &InterpreterFactory_set_Gap_m14679_MethodInfo/* set */
+	, &InterpreterFactory_get_Gap_m14679_MethodInfo/* get */
+	, &InterpreterFactory_set_Gap_m14680_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo InterpreterFactory_get_Mapping_m14680_MethodInfo;
-extern const MethodInfo InterpreterFactory_set_Mapping_m14681_MethodInfo;
+extern const MethodInfo InterpreterFactory_get_Mapping_m14681_MethodInfo;
+extern const MethodInfo InterpreterFactory_set_Mapping_m14682_MethodInfo;
 static const PropertyInfo InterpreterFactory_t4135____Mapping_PropertyInfo = 
 {
 	&InterpreterFactory_t4135_il2cpp_TypeInfo/* parent */
 	, "Mapping"/* name */
-	, &InterpreterFactory_get_Mapping_m14680_MethodInfo/* get */
-	, &InterpreterFactory_set_Mapping_m14681_MethodInfo/* set */
+	, &InterpreterFactory_get_Mapping_m14681_MethodInfo/* get */
+	, &InterpreterFactory_set_Mapping_m14682_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo InterpreterFactory_get_NamesMapping_m14682_MethodInfo;
-extern const MethodInfo InterpreterFactory_set_NamesMapping_m14683_MethodInfo;
+extern const MethodInfo InterpreterFactory_get_NamesMapping_m14683_MethodInfo;
+extern const MethodInfo InterpreterFactory_set_NamesMapping_m14684_MethodInfo;
 static const PropertyInfo InterpreterFactory_t4135____NamesMapping_PropertyInfo = 
 {
 	&InterpreterFactory_t4135_il2cpp_TypeInfo/* parent */
 	, "NamesMapping"/* name */
-	, &InterpreterFactory_get_NamesMapping_m14682_MethodInfo/* get */
-	, &InterpreterFactory_set_NamesMapping_m14683_MethodInfo/* set */
+	, &InterpreterFactory_get_NamesMapping_m14683_MethodInfo/* get */
+	, &InterpreterFactory_set_NamesMapping_m14684_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -2496,21 +2496,21 @@ static const PropertyInfo* InterpreterFactory_t4135_PropertyInfos[] =
 	&InterpreterFactory_t4135____NamesMapping_PropertyInfo,
 	NULL
 };
-extern const MethodInfo InterpreterFactory_NewInstance_m14676_MethodInfo;
+extern const MethodInfo InterpreterFactory_NewInstance_m14677_MethodInfo;
 static const Il2CppMethodReference InterpreterFactory_t4135_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&InterpreterFactory_NewInstance_m14676_MethodInfo,
-	&InterpreterFactory_get_Mapping_m14680_MethodInfo,
-	&InterpreterFactory_set_Mapping_m14681_MethodInfo,
-	&InterpreterFactory_get_GroupCount_m14677_MethodInfo,
-	&InterpreterFactory_get_Gap_m14678_MethodInfo,
-	&InterpreterFactory_set_Gap_m14679_MethodInfo,
-	&InterpreterFactory_get_NamesMapping_m14682_MethodInfo,
-	&InterpreterFactory_set_NamesMapping_m14683_MethodInfo,
+	&InterpreterFactory_NewInstance_m14677_MethodInfo,
+	&InterpreterFactory_get_Mapping_m14681_MethodInfo,
+	&InterpreterFactory_set_Mapping_m14682_MethodInfo,
+	&InterpreterFactory_get_GroupCount_m14678_MethodInfo,
+	&InterpreterFactory_get_Gap_m14679_MethodInfo,
+	&InterpreterFactory_set_Gap_m14680_MethodInfo,
+	&InterpreterFactory_get_NamesMapping_m14683_MethodInfo,
+	&InterpreterFactory_set_NamesMapping_m14684_MethodInfo,
 };
 static bool InterpreterFactory_t4135_VTableIsGenericMethod[] =
 {
@@ -2616,15 +2616,15 @@ static const MethodInfo* Link_t4136_MethodInfos[] =
 {
 	NULL
 };
-extern const MethodInfo ValueType_Equals_m4568_MethodInfo;
-extern const MethodInfo ValueType_GetHashCode_m4569_MethodInfo;
-extern const MethodInfo ValueType_ToString_m4570_MethodInfo;
+extern const MethodInfo ValueType_Equals_m4569_MethodInfo;
+extern const MethodInfo ValueType_GetHashCode_m4570_MethodInfo;
+extern const MethodInfo ValueType_ToString_m4571_MethodInfo;
 static const Il2CppMethodReference Link_t4136_VTable[] =
 {
-	&ValueType_Equals_m4568_MethodInfo,
+	&ValueType_Equals_m4569_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4569_MethodInfo,
-	&ValueType_ToString_m4570_MethodInfo,
+	&ValueType_GetHashCode_m4570_MethodInfo,
+	&ValueType_ToString_m4571_MethodInfo,
 };
 static bool Link_t4136_VTableIsGenericMethod[] =
 {
@@ -2713,10 +2713,10 @@ TypeInfo Link_t4136_il2cpp_TypeInfo =
 #include "System_System_Text_RegularExpressions_PatternCompiler_Patter_0MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::.ctor()
-extern const MethodInfo PatternLinkStack__ctor_m14684_MethodInfo = 
+extern const MethodInfo PatternLinkStack__ctor_m14685_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PatternLinkStack__ctor_m14684/* method */
+	, (methodPointerType)&PatternLinkStack__ctor_m14685/* method */
 	, &PatternLinkStack_t4137_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -2735,20 +2735,20 @@ extern const MethodInfo PatternLinkStack__ctor_m14684_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo PatternLinkStack_t4137_PatternLinkStack_set_BaseAddress_m14685_ParameterInfos[] = 
+static const ParameterInfo PatternLinkStack_t4137_PatternLinkStack_set_BaseAddress_m14686_ParameterInfos[] = 
 {
 	{"value", 0, 134219488, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::set_BaseAddress(System.Int32)
-extern const MethodInfo PatternLinkStack_set_BaseAddress_m14685_MethodInfo = 
+extern const MethodInfo PatternLinkStack_set_BaseAddress_m14686_MethodInfo = 
 {
 	"set_BaseAddress"/* name */
-	, (methodPointerType)&PatternLinkStack_set_BaseAddress_m14685/* method */
+	, (methodPointerType)&PatternLinkStack_set_BaseAddress_m14686/* method */
 	, &PatternLinkStack_t4137_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, PatternLinkStack_t4137_PatternLinkStack_set_BaseAddress_m14685_ParameterInfos/* parameters */
+	, PatternLinkStack_t4137_PatternLinkStack_set_BaseAddress_m14686_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -2764,10 +2764,10 @@ extern const MethodInfo PatternLinkStack_set_BaseAddress_m14685_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::get_OffsetAddress()
-extern const MethodInfo PatternLinkStack_get_OffsetAddress_m14686_MethodInfo = 
+extern const MethodInfo PatternLinkStack_get_OffsetAddress_m14687_MethodInfo = 
 {
 	"get_OffsetAddress"/* name */
-	, (methodPointerType)&PatternLinkStack_get_OffsetAddress_m14686/* method */
+	, (methodPointerType)&PatternLinkStack_get_OffsetAddress_m14687/* method */
 	, &PatternLinkStack_t4137_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -2786,20 +2786,20 @@ extern const MethodInfo PatternLinkStack_get_OffsetAddress_m14686_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo PatternLinkStack_t4137_PatternLinkStack_set_OffsetAddress_m14687_ParameterInfos[] = 
+static const ParameterInfo PatternLinkStack_t4137_PatternLinkStack_set_OffsetAddress_m14688_ParameterInfos[] = 
 {
 	{"value", 0, 134219489, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::set_OffsetAddress(System.Int32)
-extern const MethodInfo PatternLinkStack_set_OffsetAddress_m14687_MethodInfo = 
+extern const MethodInfo PatternLinkStack_set_OffsetAddress_m14688_MethodInfo = 
 {
 	"set_OffsetAddress"/* name */
-	, (methodPointerType)&PatternLinkStack_set_OffsetAddress_m14687/* method */
+	, (methodPointerType)&PatternLinkStack_set_OffsetAddress_m14688/* method */
 	, &PatternLinkStack_t4137_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, PatternLinkStack_t4137_PatternLinkStack_set_OffsetAddress_m14687_ParameterInfos/* parameters */
+	, PatternLinkStack_t4137_PatternLinkStack_set_OffsetAddress_m14688_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -2814,20 +2814,20 @@ extern const MethodInfo PatternLinkStack_set_OffsetAddress_m14687_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo PatternLinkStack_t4137_PatternLinkStack_GetOffset_m14688_ParameterInfos[] = 
+static const ParameterInfo PatternLinkStack_t4137_PatternLinkStack_GetOffset_m14689_ParameterInfos[] = 
 {
 	{"target_addr", 0, 134219490, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::GetOffset(System.Int32)
-extern const MethodInfo PatternLinkStack_GetOffset_m14688_MethodInfo = 
+extern const MethodInfo PatternLinkStack_GetOffset_m14689_MethodInfo = 
 {
 	"GetOffset"/* name */
-	, (methodPointerType)&PatternLinkStack_GetOffset_m14688/* method */
+	, (methodPointerType)&PatternLinkStack_GetOffset_m14689/* method */
 	, &PatternLinkStack_t4137_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Int32_t82/* invoker_method */
-	, PatternLinkStack_t4137_PatternLinkStack_GetOffset_m14688_ParameterInfos/* parameters */
+	, PatternLinkStack_t4137_PatternLinkStack_GetOffset_m14689_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -2843,10 +2843,10 @@ extern const MethodInfo PatternLinkStack_GetOffset_m14688_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::GetCurrent()
-extern const MethodInfo PatternLinkStack_GetCurrent_m14689_MethodInfo = 
+extern const MethodInfo PatternLinkStack_GetCurrent_m14690_MethodInfo = 
 {
 	"GetCurrent"/* name */
-	, (methodPointerType)&PatternLinkStack_GetCurrent_m14689/* method */
+	, (methodPointerType)&PatternLinkStack_GetCurrent_m14690/* method */
 	, &PatternLinkStack_t4137_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2865,20 +2865,20 @@ extern const MethodInfo PatternLinkStack_GetCurrent_m14689_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo PatternLinkStack_t4137_PatternLinkStack_SetCurrent_m14690_ParameterInfos[] = 
+static const ParameterInfo PatternLinkStack_t4137_PatternLinkStack_SetCurrent_m14691_ParameterInfos[] = 
 {
 	{"l", 0, 134219491, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::SetCurrent(System.Object)
-extern const MethodInfo PatternLinkStack_SetCurrent_m14690_MethodInfo = 
+extern const MethodInfo PatternLinkStack_SetCurrent_m14691_MethodInfo = 
 {
 	"SetCurrent"/* name */
-	, (methodPointerType)&PatternLinkStack_SetCurrent_m14690/* method */
+	, (methodPointerType)&PatternLinkStack_SetCurrent_m14691/* method */
 	, &PatternLinkStack_t4137_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PatternLinkStack_t4137_PatternLinkStack_SetCurrent_m14690_ParameterInfos/* parameters */
+	, PatternLinkStack_t4137_PatternLinkStack_SetCurrent_m14691_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -2894,34 +2894,34 @@ extern const MethodInfo PatternLinkStack_SetCurrent_m14690_MethodInfo =
 };
 static const MethodInfo* PatternLinkStack_t4137_MethodInfos[] =
 {
-	&PatternLinkStack__ctor_m14684_MethodInfo,
-	&PatternLinkStack_set_BaseAddress_m14685_MethodInfo,
-	&PatternLinkStack_get_OffsetAddress_m14686_MethodInfo,
-	&PatternLinkStack_set_OffsetAddress_m14687_MethodInfo,
-	&PatternLinkStack_GetOffset_m14688_MethodInfo,
-	&PatternLinkStack_GetCurrent_m14689_MethodInfo,
-	&PatternLinkStack_SetCurrent_m14690_MethodInfo,
+	&PatternLinkStack__ctor_m14685_MethodInfo,
+	&PatternLinkStack_set_BaseAddress_m14686_MethodInfo,
+	&PatternLinkStack_get_OffsetAddress_m14687_MethodInfo,
+	&PatternLinkStack_set_OffsetAddress_m14688_MethodInfo,
+	&PatternLinkStack_GetOffset_m14689_MethodInfo,
+	&PatternLinkStack_GetCurrent_m14690_MethodInfo,
+	&PatternLinkStack_SetCurrent_m14691_MethodInfo,
 	NULL
 };
-extern const MethodInfo PatternLinkStack_set_BaseAddress_m14685_MethodInfo;
+extern const MethodInfo PatternLinkStack_set_BaseAddress_m14686_MethodInfo;
 static const PropertyInfo PatternLinkStack_t4137____BaseAddress_PropertyInfo = 
 {
 	&PatternLinkStack_t4137_il2cpp_TypeInfo/* parent */
 	, "BaseAddress"/* name */
 	, NULL/* get */
-	, &PatternLinkStack_set_BaseAddress_m14685_MethodInfo/* set */
+	, &PatternLinkStack_set_BaseAddress_m14686_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo PatternLinkStack_get_OffsetAddress_m14686_MethodInfo;
-extern const MethodInfo PatternLinkStack_set_OffsetAddress_m14687_MethodInfo;
+extern const MethodInfo PatternLinkStack_get_OffsetAddress_m14687_MethodInfo;
+extern const MethodInfo PatternLinkStack_set_OffsetAddress_m14688_MethodInfo;
 static const PropertyInfo PatternLinkStack_t4137____OffsetAddress_PropertyInfo = 
 {
 	&PatternLinkStack_t4137_il2cpp_TypeInfo/* parent */
 	, "OffsetAddress"/* name */
-	, &PatternLinkStack_get_OffsetAddress_m14686_MethodInfo/* get */
-	, &PatternLinkStack_set_OffsetAddress_m14687_MethodInfo/* set */
+	, &PatternLinkStack_get_OffsetAddress_m14687_MethodInfo/* get */
+	, &PatternLinkStack_set_OffsetAddress_m14688_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -2936,16 +2936,16 @@ static const Il2CppType* PatternLinkStack_t4137_il2cpp_TypeInfo__nestedTypes[1] 
 {
 	&Link_t4136_0_0_0,
 };
-extern const MethodInfo PatternLinkStack_GetCurrent_m14689_MethodInfo;
-extern const MethodInfo PatternLinkStack_SetCurrent_m14690_MethodInfo;
+extern const MethodInfo PatternLinkStack_GetCurrent_m14690_MethodInfo;
+extern const MethodInfo PatternLinkStack_SetCurrent_m14691_MethodInfo;
 static const Il2CppMethodReference PatternLinkStack_t4137_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&PatternLinkStack_GetCurrent_m14689_MethodInfo,
-	&PatternLinkStack_SetCurrent_m14690_MethodInfo,
+	&PatternLinkStack_GetCurrent_m14690_MethodInfo,
+	&PatternLinkStack_SetCurrent_m14691_MethodInfo,
 };
 static bool PatternLinkStack_t4137_VTableIsGenericMethod[] =
 {
@@ -3036,10 +3036,10 @@ TypeInfo PatternLinkStack_t4137_il2cpp_TypeInfo =
 #include "System_System_Text_RegularExpressions_PatternCompilerMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::.ctor()
-extern const MethodInfo PatternCompiler__ctor_m14691_MethodInfo = 
+extern const MethodInfo PatternCompiler__ctor_m14692_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PatternCompiler__ctor_m14691/* method */
+	, (methodPointerType)&PatternCompiler__ctor_m14692/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3061,7 +3061,7 @@ extern const Il2CppType OpCode_t4126_0_0_0;
 extern const Il2CppType OpCode_t4126_0_0_0;
 extern const Il2CppType OpFlags_t4127_0_0_0;
 extern const Il2CppType OpFlags_t4127_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EncodeOp_m14692_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EncodeOp_m14693_ParameterInfos[] = 
 {
 	{"op", 0, 134219418, 0, &OpCode_t4126_0_0_0},
 	{"flags", 1, 134219419, 0, &OpFlags_t4127_0_0_0},
@@ -3069,14 +3069,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EncodeOp_m14692
 extern const Il2CppType UInt16_t743_0_0_0;
 extern void* RuntimeInvoker_UInt16_t743_UInt16_t743_UInt16_t743 (const MethodInfo* method, void* obj, void** args);
 // System.UInt16 System.Text.RegularExpressions.PatternCompiler::EncodeOp(System.Text.RegularExpressions.OpCode,System.Text.RegularExpressions.OpFlags)
-extern const MethodInfo PatternCompiler_EncodeOp_m14692_MethodInfo = 
+extern const MethodInfo PatternCompiler_EncodeOp_m14693_MethodInfo = 
 {
 	"EncodeOp"/* name */
-	, (methodPointerType)&PatternCompiler_EncodeOp_m14692/* method */
+	, (methodPointerType)&PatternCompiler_EncodeOp_m14693/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &UInt16_t743_0_0_0/* return_type */
 	, RuntimeInvoker_UInt16_t743_UInt16_t743_UInt16_t743/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EncodeOp_m14692_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EncodeOp_m14693_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -3092,10 +3092,10 @@ extern const MethodInfo PatternCompiler_EncodeOp_m14692_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.IMachineFactory System.Text.RegularExpressions.PatternCompiler::GetMachineFactory()
-extern const MethodInfo PatternCompiler_GetMachineFactory_m14693_MethodInfo = 
+extern const MethodInfo PatternCompiler_GetMachineFactory_m14694_MethodInfo = 
 {
 	"GetMachineFactory"/* name */
-	, (methodPointerType)&PatternCompiler_GetMachineFactory_m14693/* method */
+	, (methodPointerType)&PatternCompiler_GetMachineFactory_m14694/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &IMachineFactory_t4123_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3115,10 +3115,10 @@ extern const MethodInfo PatternCompiler_GetMachineFactory_m14693_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitFalse()
-extern const MethodInfo PatternCompiler_EmitFalse_m14694_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitFalse_m14695_MethodInfo = 
 {
 	"EmitFalse"/* name */
-	, (methodPointerType)&PatternCompiler_EmitFalse_m14694/* method */
+	, (methodPointerType)&PatternCompiler_EmitFalse_m14695/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3138,10 +3138,10 @@ extern const MethodInfo PatternCompiler_EmitFalse_m14694_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitTrue()
-extern const MethodInfo PatternCompiler_EmitTrue_m14695_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitTrue_m14696_MethodInfo = 
 {
 	"EmitTrue"/* name */
-	, (methodPointerType)&PatternCompiler_EmitTrue_m14695/* method */
+	, (methodPointerType)&PatternCompiler_EmitTrue_m14696/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3160,20 +3160,20 @@ extern const MethodInfo PatternCompiler_EmitTrue_m14695_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitCount_m14696_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitCount_m14697_ParameterInfos[] = 
 {
 	{"count", 0, 134219420, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitCount(System.Int32)
-extern const MethodInfo PatternCompiler_EmitCount_m14696_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitCount_m14697_MethodInfo = 
 {
 	"EmitCount"/* name */
-	, (methodPointerType)&PatternCompiler_EmitCount_m14696/* method */
+	, (methodPointerType)&PatternCompiler_EmitCount_m14697/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitCount_m14696_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitCount_m14697_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -3191,7 +3191,7 @@ extern const Il2CppType Char_t60_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitCharacter_m14697_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitCharacter_m14698_ParameterInfos[] = 
 {
 	{"c", 0, 134219421, 0, &Char_t60_0_0_0},
 	{"negate", 1, 134219422, 0, &Boolean_t59_0_0_0},
@@ -3200,14 +3200,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitCharacter_m
 };
 extern void* RuntimeInvoker_Void_t85_Int16_t742_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitCharacter(System.Char,System.Boolean,System.Boolean,System.Boolean)
-extern const MethodInfo PatternCompiler_EmitCharacter_m14697_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitCharacter_m14698_MethodInfo = 
 {
 	"EmitCharacter"/* name */
-	, (methodPointerType)&PatternCompiler_EmitCharacter_m14697/* method */
+	, (methodPointerType)&PatternCompiler_EmitCharacter_m14698/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int16_t742_SByte_t88_SByte_t88_SByte_t88/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitCharacter_m14697_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitCharacter_m14698_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3224,7 +3224,7 @@ extern const MethodInfo PatternCompiler_EmitCharacter_m14697_MethodInfo =
 extern const Il2CppType Category_t4132_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitCategory_m14698_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitCategory_m14699_ParameterInfos[] = 
 {
 	{"cat", 0, 134219425, 0, &Category_t4132_0_0_0},
 	{"negate", 1, 134219426, 0, &Boolean_t59_0_0_0},
@@ -3232,14 +3232,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitCategory_m1
 };
 extern void* RuntimeInvoker_Void_t85_UInt16_t743_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitCategory(System.Text.RegularExpressions.Category,System.Boolean,System.Boolean)
-extern const MethodInfo PatternCompiler_EmitCategory_m14698_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitCategory_m14699_MethodInfo = 
 {
 	"EmitCategory"/* name */
-	, (methodPointerType)&PatternCompiler_EmitCategory_m14698/* method */
+	, (methodPointerType)&PatternCompiler_EmitCategory_m14699/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_UInt16_t743_SByte_t88_SByte_t88/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitCategory_m14698_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitCategory_m14699_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3256,7 +3256,7 @@ extern const MethodInfo PatternCompiler_EmitCategory_m14698_MethodInfo =
 extern const Il2CppType Category_t4132_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitNotCategory_m14699_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitNotCategory_m14700_ParameterInfos[] = 
 {
 	{"cat", 0, 134219428, 0, &Category_t4132_0_0_0},
 	{"negate", 1, 134219429, 0, &Boolean_t59_0_0_0},
@@ -3264,14 +3264,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitNotCategory
 };
 extern void* RuntimeInvoker_Void_t85_UInt16_t743_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitNotCategory(System.Text.RegularExpressions.Category,System.Boolean,System.Boolean)
-extern const MethodInfo PatternCompiler_EmitNotCategory_m14699_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitNotCategory_m14700_MethodInfo = 
 {
 	"EmitNotCategory"/* name */
-	, (methodPointerType)&PatternCompiler_EmitNotCategory_m14699/* method */
+	, (methodPointerType)&PatternCompiler_EmitNotCategory_m14700/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_UInt16_t743_SByte_t88_SByte_t88/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitNotCategory_m14699_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitNotCategory_m14700_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3290,7 +3290,7 @@ extern const Il2CppType Char_t60_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitRange_m14700_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitRange_m14701_ParameterInfos[] = 
 {
 	{"lo", 0, 134219431, 0, &Char_t60_0_0_0},
 	{"hi", 1, 134219432, 0, &Char_t60_0_0_0},
@@ -3300,14 +3300,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitRange_m1470
 };
 extern void* RuntimeInvoker_Void_t85_Int16_t742_Int16_t742_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitRange(System.Char,System.Char,System.Boolean,System.Boolean,System.Boolean)
-extern const MethodInfo PatternCompiler_EmitRange_m14700_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitRange_m14701_MethodInfo = 
 {
 	"EmitRange"/* name */
-	, (methodPointerType)&PatternCompiler_EmitRange_m14700/* method */
+	, (methodPointerType)&PatternCompiler_EmitRange_m14701/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int16_t742_Int16_t742_SByte_t88_SByte_t88_SByte_t88/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitRange_m14700_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitRange_m14701_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3326,7 +3326,7 @@ extern const Il2CppType BitArray_t4170_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitSet_m14701_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitSet_m14702_ParameterInfos[] = 
 {
 	{"lo", 0, 134219436, 0, &Char_t60_0_0_0},
 	{"set", 1, 134219437, 0, &BitArray_t4170_0_0_0},
@@ -3336,14 +3336,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitSet_m14701_
 };
 extern void* RuntimeInvoker_Void_t85_Int16_t742_Object_t_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitSet(System.Char,System.Collections.BitArray,System.Boolean,System.Boolean,System.Boolean)
-extern const MethodInfo PatternCompiler_EmitSet_m14701_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitSet_m14702_MethodInfo = 
 {
 	"EmitSet"/* name */
-	, (methodPointerType)&PatternCompiler_EmitSet_m14701/* method */
+	, (methodPointerType)&PatternCompiler_EmitSet_m14702/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int16_t742_Object_t_SByte_t88_SByte_t88_SByte_t88/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitSet_m14701_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitSet_m14702_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3360,7 +3360,7 @@ extern const MethodInfo PatternCompiler_EmitSet_m14701_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitString_m14702_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitString_m14703_ParameterInfos[] = 
 {
 	{"str", 0, 134219441, 0, &String_t_0_0_0},
 	{"ignore", 1, 134219442, 0, &Boolean_t59_0_0_0},
@@ -3368,14 +3368,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitString_m147
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitString(System.String,System.Boolean,System.Boolean)
-extern const MethodInfo PatternCompiler_EmitString_m14702_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitString_m14703_MethodInfo = 
 {
 	"EmitString"/* name */
-	, (methodPointerType)&PatternCompiler_EmitString_m14702/* method */
+	, (methodPointerType)&PatternCompiler_EmitString_m14703/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88_SByte_t88/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitString_m14702_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitString_m14703_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3390,20 +3390,20 @@ extern const MethodInfo PatternCompiler_EmitString_m14702_MethodInfo =
 
 };
 extern const Il2CppType Position_t4128_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitPosition_m14703_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitPosition_m14704_ParameterInfos[] = 
 {
 	{"pos", 0, 134219444, 0, &Position_t4128_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_UInt16_t743 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitPosition(System.Text.RegularExpressions.Position)
-extern const MethodInfo PatternCompiler_EmitPosition_m14703_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitPosition_m14704_MethodInfo = 
 {
 	"EmitPosition"/* name */
-	, (methodPointerType)&PatternCompiler_EmitPosition_m14703/* method */
+	, (methodPointerType)&PatternCompiler_EmitPosition_m14704/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_UInt16_t743/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitPosition_m14703_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitPosition_m14704_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3418,20 +3418,20 @@ extern const MethodInfo PatternCompiler_EmitPosition_m14703_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitOpen_m14704_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitOpen_m14705_ParameterInfos[] = 
 {
 	{"gid", 0, 134219445, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitOpen(System.Int32)
-extern const MethodInfo PatternCompiler_EmitOpen_m14704_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitOpen_m14705_MethodInfo = 
 {
 	"EmitOpen"/* name */
-	, (methodPointerType)&PatternCompiler_EmitOpen_m14704/* method */
+	, (methodPointerType)&PatternCompiler_EmitOpen_m14705/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitOpen_m14704_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitOpen_m14705_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3446,20 +3446,20 @@ extern const MethodInfo PatternCompiler_EmitOpen_m14704_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitClose_m14705_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitClose_m14706_ParameterInfos[] = 
 {
 	{"gid", 0, 134219446, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitClose(System.Int32)
-extern const MethodInfo PatternCompiler_EmitClose_m14705_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitClose_m14706_MethodInfo = 
 {
 	"EmitClose"/* name */
-	, (methodPointerType)&PatternCompiler_EmitClose_m14705/* method */
+	, (methodPointerType)&PatternCompiler_EmitClose_m14706/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitClose_m14705_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitClose_m14706_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3477,7 +3477,7 @@ extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitBalanceStart_m14706_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitBalanceStart_m14707_ParameterInfos[] = 
 {
 	{"gid", 0, 134219447, 0, &Int32_t82_0_0_0},
 	{"balance", 1, 134219448, 0, &Int32_t82_0_0_0},
@@ -3486,14 +3486,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitBalanceStar
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitBalanceStart(System.Int32,System.Int32,System.Boolean,System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_EmitBalanceStart_m14706_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitBalanceStart_m14707_MethodInfo = 
 {
 	"EmitBalanceStart"/* name */
-	, (methodPointerType)&PatternCompiler_EmitBalanceStart_m14706/* method */
+	, (methodPointerType)&PatternCompiler_EmitBalanceStart_m14707/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitBalanceStart_m14706_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitBalanceStart_m14707_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3509,10 +3509,10 @@ extern const MethodInfo PatternCompiler_EmitBalanceStart_m14706_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitBalance()
-extern const MethodInfo PatternCompiler_EmitBalance_m14707_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitBalance_m14708_MethodInfo = 
 {
 	"EmitBalance"/* name */
-	, (methodPointerType)&PatternCompiler_EmitBalance_m14707/* method */
+	, (methodPointerType)&PatternCompiler_EmitBalance_m14708/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3533,7 +3533,7 @@ extern const MethodInfo PatternCompiler_EmitBalance_m14707_MethodInfo =
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitReference_m14708_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitReference_m14709_ParameterInfos[] = 
 {
 	{"gid", 0, 134219451, 0, &Int32_t82_0_0_0},
 	{"ignore", 1, 134219452, 0, &Boolean_t59_0_0_0},
@@ -3541,14 +3541,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitReference_m
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitReference(System.Int32,System.Boolean,System.Boolean)
-extern const MethodInfo PatternCompiler_EmitReference_m14708_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitReference_m14709_MethodInfo = 
 {
 	"EmitReference"/* name */
-	, (methodPointerType)&PatternCompiler_EmitReference_m14708/* method */
+	, (methodPointerType)&PatternCompiler_EmitReference_m14709/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_SByte_t88_SByte_t88/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitReference_m14708_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitReference_m14709_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3564,21 +3564,21 @@ extern const MethodInfo PatternCompiler_EmitReference_m14708_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitIfDefined_m14709_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitIfDefined_m14710_ParameterInfos[] = 
 {
 	{"gid", 0, 134219454, 0, &Int32_t82_0_0_0},
 	{"tail", 1, 134219455, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitIfDefined(System.Int32,System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_EmitIfDefined_m14709_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitIfDefined_m14710_MethodInfo = 
 {
 	"EmitIfDefined"/* name */
-	, (methodPointerType)&PatternCompiler_EmitIfDefined_m14709/* method */
+	, (methodPointerType)&PatternCompiler_EmitIfDefined_m14710/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitIfDefined_m14709_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitIfDefined_m14710_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3593,20 +3593,20 @@ extern const MethodInfo PatternCompiler_EmitIfDefined_m14709_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitSub_m14710_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitSub_m14711_ParameterInfos[] = 
 {
 	{"tail", 0, 134219456, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitSub(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_EmitSub_m14710_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitSub_m14711_MethodInfo = 
 {
 	"EmitSub"/* name */
-	, (methodPointerType)&PatternCompiler_EmitSub_m14710/* method */
+	, (methodPointerType)&PatternCompiler_EmitSub_m14711/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitSub_m14710_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitSub_m14711_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3622,21 +3622,21 @@ extern const MethodInfo PatternCompiler_EmitSub_m14710_MethodInfo =
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitTest_m14711_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitTest_m14712_ParameterInfos[] = 
 {
 	{"yes", 0, 134219457, 0, &LinkRef_t4134_0_0_0},
 	{"tail", 1, 134219458, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitTest(System.Text.RegularExpressions.LinkRef,System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_EmitTest_m14711_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitTest_m14712_MethodInfo = 
 {
 	"EmitTest"/* name */
-	, (methodPointerType)&PatternCompiler_EmitTest_m14711/* method */
+	, (methodPointerType)&PatternCompiler_EmitTest_m14712/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitTest_m14711_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitTest_m14712_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3651,20 +3651,20 @@ extern const MethodInfo PatternCompiler_EmitTest_m14711_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitBranch_m14712_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitBranch_m14713_ParameterInfos[] = 
 {
 	{"next", 0, 134219459, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitBranch(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_EmitBranch_m14712_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitBranch_m14713_MethodInfo = 
 {
 	"EmitBranch"/* name */
-	, (methodPointerType)&PatternCompiler_EmitBranch_m14712/* method */
+	, (methodPointerType)&PatternCompiler_EmitBranch_m14713/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitBranch_m14712_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitBranch_m14713_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3679,20 +3679,20 @@ extern const MethodInfo PatternCompiler_EmitBranch_m14712_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitJump_m14713_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitJump_m14714_ParameterInfos[] = 
 {
 	{"target", 0, 134219460, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitJump(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_EmitJump_m14713_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitJump_m14714_MethodInfo = 
 {
 	"EmitJump"/* name */
-	, (methodPointerType)&PatternCompiler_EmitJump_m14713/* method */
+	, (methodPointerType)&PatternCompiler_EmitJump_m14714/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitJump_m14713_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitJump_m14714_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3710,7 +3710,7 @@ extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitRepeat_m14714_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitRepeat_m14715_ParameterInfos[] = 
 {
 	{"min", 0, 134219461, 0, &Int32_t82_0_0_0},
 	{"max", 1, 134219462, 0, &Int32_t82_0_0_0},
@@ -3719,14 +3719,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitRepeat_m147
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitRepeat(System.Int32,System.Int32,System.Boolean,System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_EmitRepeat_m14714_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitRepeat_m14715_MethodInfo = 
 {
 	"EmitRepeat"/* name */
-	, (methodPointerType)&PatternCompiler_EmitRepeat_m14714/* method */
+	, (methodPointerType)&PatternCompiler_EmitRepeat_m14715/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitRepeat_m14714_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitRepeat_m14715_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3741,20 +3741,20 @@ extern const MethodInfo PatternCompiler_EmitRepeat_m14714_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitUntil_m14715_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitUntil_m14716_ParameterInfos[] = 
 {
 	{"repeat", 0, 134219465, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitUntil(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_EmitUntil_m14715_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitUntil_m14716_MethodInfo = 
 {
 	"EmitUntil"/* name */
-	, (methodPointerType)&PatternCompiler_EmitUntil_m14715/* method */
+	, (methodPointerType)&PatternCompiler_EmitUntil_m14716/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitUntil_m14715_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitUntil_m14716_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3772,7 +3772,7 @@ extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitFastRepeat_m14716_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitFastRepeat_m14717_ParameterInfos[] = 
 {
 	{"min", 0, 134219466, 0, &Int32_t82_0_0_0},
 	{"max", 1, 134219467, 0, &Int32_t82_0_0_0},
@@ -3781,14 +3781,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitFastRepeat_
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitFastRepeat(System.Int32,System.Int32,System.Boolean,System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_EmitFastRepeat_m14716_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitFastRepeat_m14717_MethodInfo = 
 {
 	"EmitFastRepeat"/* name */
-	, (methodPointerType)&PatternCompiler_EmitFastRepeat_m14716/* method */
+	, (methodPointerType)&PatternCompiler_EmitFastRepeat_m14717/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitFastRepeat_m14716_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitFastRepeat_m14717_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3803,20 +3803,20 @@ extern const MethodInfo PatternCompiler_EmitFastRepeat_m14716_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitIn_m14717_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitIn_m14718_ParameterInfos[] = 
 {
 	{"tail", 0, 134219470, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitIn(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_EmitIn_m14717_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitIn_m14718_MethodInfo = 
 {
 	"EmitIn"/* name */
-	, (methodPointerType)&PatternCompiler_EmitIn_m14717/* method */
+	, (methodPointerType)&PatternCompiler_EmitIn_m14718/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitIn_m14717_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitIn_m14718_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3833,7 +3833,7 @@ extern const MethodInfo PatternCompiler_EmitIn_m14717_MethodInfo =
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitAnchor_m14718_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitAnchor_m14719_ParameterInfos[] = 
 {
 	{"reverse", 0, 134219471, 0, &Boolean_t59_0_0_0},
 	{"offset", 1, 134219472, 0, &Int32_t82_0_0_0},
@@ -3841,14 +3841,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitAnchor_m147
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitAnchor(System.Boolean,System.Int32,System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_EmitAnchor_m14718_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitAnchor_m14719_MethodInfo = 
 {
 	"EmitAnchor"/* name */
-	, (methodPointerType)&PatternCompiler_EmitAnchor_m14718/* method */
+	, (methodPointerType)&PatternCompiler_EmitAnchor_m14719/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88_Int32_t82_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitAnchor_m14718_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitAnchor_m14719_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3865,7 +3865,7 @@ extern const MethodInfo PatternCompiler_EmitAnchor_m14718_MethodInfo =
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitInfo_m14719_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitInfo_m14720_ParameterInfos[] = 
 {
 	{"count", 0, 134219474, 0, &Int32_t82_0_0_0},
 	{"min", 1, 134219475, 0, &Int32_t82_0_0_0},
@@ -3873,14 +3873,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitInfo_m14719
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitInfo(System.Int32,System.Int32,System.Int32)
-extern const MethodInfo PatternCompiler_EmitInfo_m14719_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitInfo_m14720_MethodInfo = 
 {
 	"EmitInfo"/* name */
-	, (methodPointerType)&PatternCompiler_EmitInfo_m14719/* method */
+	, (methodPointerType)&PatternCompiler_EmitInfo_m14720/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_Int32_t82/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitInfo_m14719_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitInfo_m14720_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3896,10 +3896,10 @@ extern const MethodInfo PatternCompiler_EmitInfo_m14719_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.PatternCompiler::NewLink()
-extern const MethodInfo PatternCompiler_NewLink_m14720_MethodInfo = 
+extern const MethodInfo PatternCompiler_NewLink_m14721_MethodInfo = 
 {
 	"NewLink"/* name */
-	, (methodPointerType)&PatternCompiler_NewLink_m14720/* method */
+	, (methodPointerType)&PatternCompiler_NewLink_m14721/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &LinkRef_t4134_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3918,20 +3918,20 @@ extern const MethodInfo PatternCompiler_NewLink_m14720_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_ResolveLink_m14721_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_ResolveLink_m14722_ParameterInfos[] = 
 {
 	{"lref", 0, 134219477, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::ResolveLink(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_ResolveLink_m14721_MethodInfo = 
+extern const MethodInfo PatternCompiler_ResolveLink_m14722_MethodInfo = 
 {
 	"ResolveLink"/* name */
-	, (methodPointerType)&PatternCompiler_ResolveLink_m14721/* method */
+	, (methodPointerType)&PatternCompiler_ResolveLink_m14722/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_ResolveLink_m14721_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_ResolveLink_m14722_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3947,10 +3947,10 @@ extern const MethodInfo PatternCompiler_ResolveLink_m14721_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitBranchEnd()
-extern const MethodInfo PatternCompiler_EmitBranchEnd_m14722_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitBranchEnd_m14723_MethodInfo = 
 {
 	"EmitBranchEnd"/* name */
-	, (methodPointerType)&PatternCompiler_EmitBranchEnd_m14722/* method */
+	, (methodPointerType)&PatternCompiler_EmitBranchEnd_m14723/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3970,10 +3970,10 @@ extern const MethodInfo PatternCompiler_EmitBranchEnd_m14722_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitAlternationEnd()
-extern const MethodInfo PatternCompiler_EmitAlternationEnd_m14723_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitAlternationEnd_m14724_MethodInfo = 
 {
 	"EmitAlternationEnd"/* name */
-	, (methodPointerType)&PatternCompiler_EmitAlternationEnd_m14723/* method */
+	, (methodPointerType)&PatternCompiler_EmitAlternationEnd_m14724/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3995,7 +3995,7 @@ extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_MakeFlags_m14724_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_MakeFlags_m14725_ParameterInfos[] = 
 {
 	{"negate", 0, 134219478, 0, &Boolean_t59_0_0_0},
 	{"ignore", 1, 134219479, 0, &Boolean_t59_0_0_0},
@@ -4004,14 +4004,14 @@ static const ParameterInfo PatternCompiler_t4139_PatternCompiler_MakeFlags_m1472
 };
 extern void* RuntimeInvoker_OpFlags_t4127_SByte_t88_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.OpFlags System.Text.RegularExpressions.PatternCompiler::MakeFlags(System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-extern const MethodInfo PatternCompiler_MakeFlags_m14724_MethodInfo = 
+extern const MethodInfo PatternCompiler_MakeFlags_m14725_MethodInfo = 
 {
 	"MakeFlags"/* name */
-	, (methodPointerType)&PatternCompiler_MakeFlags_m14724/* method */
+	, (methodPointerType)&PatternCompiler_MakeFlags_m14725/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &OpFlags_t4127_0_0_0/* return_type */
 	, RuntimeInvoker_OpFlags_t4127_SByte_t88_SByte_t88_SByte_t88_SByte_t88/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_MakeFlags_m14724_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_MakeFlags_m14725_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -4026,20 +4026,20 @@ extern const MethodInfo PatternCompiler_MakeFlags_m14724_MethodInfo =
 
 };
 extern const Il2CppType OpCode_t4126_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_Emit_m14725_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_Emit_m14726_ParameterInfos[] = 
 {
 	{"op", 0, 134219482, 0, &OpCode_t4126_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_UInt16_t743 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::Emit(System.Text.RegularExpressions.OpCode)
-extern const MethodInfo PatternCompiler_Emit_m14725_MethodInfo = 
+extern const MethodInfo PatternCompiler_Emit_m14726_MethodInfo = 
 {
 	"Emit"/* name */
-	, (methodPointerType)&PatternCompiler_Emit_m14725/* method */
+	, (methodPointerType)&PatternCompiler_Emit_m14726/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_UInt16_t743/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_Emit_m14725_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_Emit_m14726_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4055,21 +4055,21 @@ extern const MethodInfo PatternCompiler_Emit_m14725_MethodInfo =
 };
 extern const Il2CppType OpCode_t4126_0_0_0;
 extern const Il2CppType OpFlags_t4127_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_Emit_m14726_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_Emit_m14727_ParameterInfos[] = 
 {
 	{"op", 0, 134219483, 0, &OpCode_t4126_0_0_0},
 	{"flags", 1, 134219484, 0, &OpFlags_t4127_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_UInt16_t743_UInt16_t743 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::Emit(System.Text.RegularExpressions.OpCode,System.Text.RegularExpressions.OpFlags)
-extern const MethodInfo PatternCompiler_Emit_m14726_MethodInfo = 
+extern const MethodInfo PatternCompiler_Emit_m14727_MethodInfo = 
 {
 	"Emit"/* name */
-	, (methodPointerType)&PatternCompiler_Emit_m14726/* method */
+	, (methodPointerType)&PatternCompiler_Emit_m14727/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_UInt16_t743_UInt16_t743/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_Emit_m14726_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_Emit_m14727_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4084,20 +4084,20 @@ extern const MethodInfo PatternCompiler_Emit_m14726_MethodInfo =
 
 };
 extern const Il2CppType UInt16_t743_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_Emit_m14727_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_Emit_m14728_ParameterInfos[] = 
 {
 	{"word", 0, 134219485, 0, &UInt16_t743_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::Emit(System.UInt16)
-extern const MethodInfo PatternCompiler_Emit_m14727_MethodInfo = 
+extern const MethodInfo PatternCompiler_Emit_m14728_MethodInfo = 
 {
 	"Emit"/* name */
-	, (methodPointerType)&PatternCompiler_Emit_m14727/* method */
+	, (methodPointerType)&PatternCompiler_Emit_m14728/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int16_t742/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_Emit_m14727_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_Emit_m14728_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4113,10 +4113,10 @@ extern const MethodInfo PatternCompiler_Emit_m14727_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.PatternCompiler::get_CurrentAddress()
-extern const MethodInfo PatternCompiler_get_CurrentAddress_m14728_MethodInfo = 
+extern const MethodInfo PatternCompiler_get_CurrentAddress_m14729_MethodInfo = 
 {
 	"get_CurrentAddress"/* name */
-	, (methodPointerType)&PatternCompiler_get_CurrentAddress_m14728/* method */
+	, (methodPointerType)&PatternCompiler_get_CurrentAddress_m14729/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -4135,20 +4135,20 @@ extern const MethodInfo PatternCompiler_get_CurrentAddress_m14728_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_BeginLink_m14729_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_BeginLink_m14730_ParameterInfos[] = 
 {
 	{"lref", 0, 134219486, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::BeginLink(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_BeginLink_m14729_MethodInfo = 
+extern const MethodInfo PatternCompiler_BeginLink_m14730_MethodInfo = 
 {
 	"BeginLink"/* name */
-	, (methodPointerType)&PatternCompiler_BeginLink_m14729/* method */
+	, (methodPointerType)&PatternCompiler_BeginLink_m14730/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_BeginLink_m14729_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_BeginLink_m14730_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4163,20 +4163,20 @@ extern const MethodInfo PatternCompiler_BeginLink_m14729_MethodInfo =
 
 };
 extern const Il2CppType LinkRef_t4134_0_0_0;
-static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitLink_m14730_ParameterInfos[] = 
+static const ParameterInfo PatternCompiler_t4139_PatternCompiler_EmitLink_m14731_ParameterInfos[] = 
 {
 	{"lref", 0, 134219487, 0, &LinkRef_t4134_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.PatternCompiler::EmitLink(System.Text.RegularExpressions.LinkRef)
-extern const MethodInfo PatternCompiler_EmitLink_m14730_MethodInfo = 
+extern const MethodInfo PatternCompiler_EmitLink_m14731_MethodInfo = 
 {
 	"EmitLink"/* name */
-	, (methodPointerType)&PatternCompiler_EmitLink_m14730/* method */
+	, (methodPointerType)&PatternCompiler_EmitLink_m14731/* method */
 	, &PatternCompiler_t4139_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PatternCompiler_t4139_PatternCompiler_EmitLink_m14730_ParameterInfos/* parameters */
+	, PatternCompiler_t4139_PatternCompiler_EmitLink_m14731_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4192,54 +4192,54 @@ extern const MethodInfo PatternCompiler_EmitLink_m14730_MethodInfo =
 };
 static const MethodInfo* PatternCompiler_t4139_MethodInfos[] =
 {
-	&PatternCompiler__ctor_m14691_MethodInfo,
-	&PatternCompiler_EncodeOp_m14692_MethodInfo,
-	&PatternCompiler_GetMachineFactory_m14693_MethodInfo,
-	&PatternCompiler_EmitFalse_m14694_MethodInfo,
-	&PatternCompiler_EmitTrue_m14695_MethodInfo,
-	&PatternCompiler_EmitCount_m14696_MethodInfo,
-	&PatternCompiler_EmitCharacter_m14697_MethodInfo,
-	&PatternCompiler_EmitCategory_m14698_MethodInfo,
-	&PatternCompiler_EmitNotCategory_m14699_MethodInfo,
-	&PatternCompiler_EmitRange_m14700_MethodInfo,
-	&PatternCompiler_EmitSet_m14701_MethodInfo,
-	&PatternCompiler_EmitString_m14702_MethodInfo,
-	&PatternCompiler_EmitPosition_m14703_MethodInfo,
-	&PatternCompiler_EmitOpen_m14704_MethodInfo,
-	&PatternCompiler_EmitClose_m14705_MethodInfo,
-	&PatternCompiler_EmitBalanceStart_m14706_MethodInfo,
-	&PatternCompiler_EmitBalance_m14707_MethodInfo,
-	&PatternCompiler_EmitReference_m14708_MethodInfo,
-	&PatternCompiler_EmitIfDefined_m14709_MethodInfo,
-	&PatternCompiler_EmitSub_m14710_MethodInfo,
-	&PatternCompiler_EmitTest_m14711_MethodInfo,
-	&PatternCompiler_EmitBranch_m14712_MethodInfo,
-	&PatternCompiler_EmitJump_m14713_MethodInfo,
-	&PatternCompiler_EmitRepeat_m14714_MethodInfo,
-	&PatternCompiler_EmitUntil_m14715_MethodInfo,
-	&PatternCompiler_EmitFastRepeat_m14716_MethodInfo,
-	&PatternCompiler_EmitIn_m14717_MethodInfo,
-	&PatternCompiler_EmitAnchor_m14718_MethodInfo,
-	&PatternCompiler_EmitInfo_m14719_MethodInfo,
-	&PatternCompiler_NewLink_m14720_MethodInfo,
-	&PatternCompiler_ResolveLink_m14721_MethodInfo,
-	&PatternCompiler_EmitBranchEnd_m14722_MethodInfo,
-	&PatternCompiler_EmitAlternationEnd_m14723_MethodInfo,
-	&PatternCompiler_MakeFlags_m14724_MethodInfo,
-	&PatternCompiler_Emit_m14725_MethodInfo,
+	&PatternCompiler__ctor_m14692_MethodInfo,
+	&PatternCompiler_EncodeOp_m14693_MethodInfo,
+	&PatternCompiler_GetMachineFactory_m14694_MethodInfo,
+	&PatternCompiler_EmitFalse_m14695_MethodInfo,
+	&PatternCompiler_EmitTrue_m14696_MethodInfo,
+	&PatternCompiler_EmitCount_m14697_MethodInfo,
+	&PatternCompiler_EmitCharacter_m14698_MethodInfo,
+	&PatternCompiler_EmitCategory_m14699_MethodInfo,
+	&PatternCompiler_EmitNotCategory_m14700_MethodInfo,
+	&PatternCompiler_EmitRange_m14701_MethodInfo,
+	&PatternCompiler_EmitSet_m14702_MethodInfo,
+	&PatternCompiler_EmitString_m14703_MethodInfo,
+	&PatternCompiler_EmitPosition_m14704_MethodInfo,
+	&PatternCompiler_EmitOpen_m14705_MethodInfo,
+	&PatternCompiler_EmitClose_m14706_MethodInfo,
+	&PatternCompiler_EmitBalanceStart_m14707_MethodInfo,
+	&PatternCompiler_EmitBalance_m14708_MethodInfo,
+	&PatternCompiler_EmitReference_m14709_MethodInfo,
+	&PatternCompiler_EmitIfDefined_m14710_MethodInfo,
+	&PatternCompiler_EmitSub_m14711_MethodInfo,
+	&PatternCompiler_EmitTest_m14712_MethodInfo,
+	&PatternCompiler_EmitBranch_m14713_MethodInfo,
+	&PatternCompiler_EmitJump_m14714_MethodInfo,
+	&PatternCompiler_EmitRepeat_m14715_MethodInfo,
+	&PatternCompiler_EmitUntil_m14716_MethodInfo,
+	&PatternCompiler_EmitFastRepeat_m14717_MethodInfo,
+	&PatternCompiler_EmitIn_m14718_MethodInfo,
+	&PatternCompiler_EmitAnchor_m14719_MethodInfo,
+	&PatternCompiler_EmitInfo_m14720_MethodInfo,
+	&PatternCompiler_NewLink_m14721_MethodInfo,
+	&PatternCompiler_ResolveLink_m14722_MethodInfo,
+	&PatternCompiler_EmitBranchEnd_m14723_MethodInfo,
+	&PatternCompiler_EmitAlternationEnd_m14724_MethodInfo,
+	&PatternCompiler_MakeFlags_m14725_MethodInfo,
 	&PatternCompiler_Emit_m14726_MethodInfo,
 	&PatternCompiler_Emit_m14727_MethodInfo,
-	&PatternCompiler_get_CurrentAddress_m14728_MethodInfo,
-	&PatternCompiler_BeginLink_m14729_MethodInfo,
-	&PatternCompiler_EmitLink_m14730_MethodInfo,
+	&PatternCompiler_Emit_m14728_MethodInfo,
+	&PatternCompiler_get_CurrentAddress_m14729_MethodInfo,
+	&PatternCompiler_BeginLink_m14730_MethodInfo,
+	&PatternCompiler_EmitLink_m14731_MethodInfo,
 	NULL
 };
-extern const MethodInfo PatternCompiler_get_CurrentAddress_m14728_MethodInfo;
+extern const MethodInfo PatternCompiler_get_CurrentAddress_m14729_MethodInfo;
 static const PropertyInfo PatternCompiler_t4139____CurrentAddress_PropertyInfo = 
 {
 	&PatternCompiler_t4139_il2cpp_TypeInfo/* parent */
 	, "CurrentAddress"/* name */
-	, &PatternCompiler_get_CurrentAddress_m14728_MethodInfo/* get */
+	, &PatternCompiler_get_CurrentAddress_m14729_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -4254,72 +4254,72 @@ static const Il2CppType* PatternCompiler_t4139_il2cpp_TypeInfo__nestedTypes[1] =
 {
 	&PatternLinkStack_t4137_0_0_0,
 };
-extern const MethodInfo PatternCompiler_GetMachineFactory_m14693_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitFalse_m14694_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitTrue_m14695_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitCharacter_m14697_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitCategory_m14698_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitNotCategory_m14699_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitRange_m14700_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitSet_m14701_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitString_m14702_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitPosition_m14703_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitOpen_m14704_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitClose_m14705_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitBalanceStart_m14706_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitBalance_m14707_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitReference_m14708_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitIfDefined_m14709_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitSub_m14710_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitTest_m14711_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitBranch_m14712_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitJump_m14713_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitRepeat_m14714_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitUntil_m14715_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitIn_m14717_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitInfo_m14719_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitFastRepeat_m14716_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitAnchor_m14718_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitBranchEnd_m14722_MethodInfo;
-extern const MethodInfo PatternCompiler_EmitAlternationEnd_m14723_MethodInfo;
-extern const MethodInfo PatternCompiler_NewLink_m14720_MethodInfo;
-extern const MethodInfo PatternCompiler_ResolveLink_m14721_MethodInfo;
+extern const MethodInfo PatternCompiler_GetMachineFactory_m14694_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitFalse_m14695_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitTrue_m14696_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitCharacter_m14698_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitCategory_m14699_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitNotCategory_m14700_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitRange_m14701_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitSet_m14702_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitString_m14703_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitPosition_m14704_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitOpen_m14705_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitClose_m14706_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitBalanceStart_m14707_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitBalance_m14708_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitReference_m14709_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitIfDefined_m14710_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitSub_m14711_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitTest_m14712_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitBranch_m14713_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitJump_m14714_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitRepeat_m14715_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitUntil_m14716_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitIn_m14718_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitInfo_m14720_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitFastRepeat_m14717_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitAnchor_m14719_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitBranchEnd_m14723_MethodInfo;
+extern const MethodInfo PatternCompiler_EmitAlternationEnd_m14724_MethodInfo;
+extern const MethodInfo PatternCompiler_NewLink_m14721_MethodInfo;
+extern const MethodInfo PatternCompiler_ResolveLink_m14722_MethodInfo;
 static const Il2CppMethodReference PatternCompiler_t4139_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&PatternCompiler_GetMachineFactory_m14693_MethodInfo,
-	&PatternCompiler_EmitFalse_m14694_MethodInfo,
-	&PatternCompiler_EmitTrue_m14695_MethodInfo,
-	&PatternCompiler_EmitCharacter_m14697_MethodInfo,
-	&PatternCompiler_EmitCategory_m14698_MethodInfo,
-	&PatternCompiler_EmitNotCategory_m14699_MethodInfo,
-	&PatternCompiler_EmitRange_m14700_MethodInfo,
-	&PatternCompiler_EmitSet_m14701_MethodInfo,
-	&PatternCompiler_EmitString_m14702_MethodInfo,
-	&PatternCompiler_EmitPosition_m14703_MethodInfo,
-	&PatternCompiler_EmitOpen_m14704_MethodInfo,
-	&PatternCompiler_EmitClose_m14705_MethodInfo,
-	&PatternCompiler_EmitBalanceStart_m14706_MethodInfo,
-	&PatternCompiler_EmitBalance_m14707_MethodInfo,
-	&PatternCompiler_EmitReference_m14708_MethodInfo,
-	&PatternCompiler_EmitIfDefined_m14709_MethodInfo,
-	&PatternCompiler_EmitSub_m14710_MethodInfo,
-	&PatternCompiler_EmitTest_m14711_MethodInfo,
-	&PatternCompiler_EmitBranch_m14712_MethodInfo,
-	&PatternCompiler_EmitJump_m14713_MethodInfo,
-	&PatternCompiler_EmitRepeat_m14714_MethodInfo,
-	&PatternCompiler_EmitUntil_m14715_MethodInfo,
-	&PatternCompiler_EmitIn_m14717_MethodInfo,
-	&PatternCompiler_EmitInfo_m14719_MethodInfo,
-	&PatternCompiler_EmitFastRepeat_m14716_MethodInfo,
-	&PatternCompiler_EmitAnchor_m14718_MethodInfo,
-	&PatternCompiler_EmitBranchEnd_m14722_MethodInfo,
-	&PatternCompiler_EmitAlternationEnd_m14723_MethodInfo,
-	&PatternCompiler_NewLink_m14720_MethodInfo,
-	&PatternCompiler_ResolveLink_m14721_MethodInfo,
+	&PatternCompiler_GetMachineFactory_m14694_MethodInfo,
+	&PatternCompiler_EmitFalse_m14695_MethodInfo,
+	&PatternCompiler_EmitTrue_m14696_MethodInfo,
+	&PatternCompiler_EmitCharacter_m14698_MethodInfo,
+	&PatternCompiler_EmitCategory_m14699_MethodInfo,
+	&PatternCompiler_EmitNotCategory_m14700_MethodInfo,
+	&PatternCompiler_EmitRange_m14701_MethodInfo,
+	&PatternCompiler_EmitSet_m14702_MethodInfo,
+	&PatternCompiler_EmitString_m14703_MethodInfo,
+	&PatternCompiler_EmitPosition_m14704_MethodInfo,
+	&PatternCompiler_EmitOpen_m14705_MethodInfo,
+	&PatternCompiler_EmitClose_m14706_MethodInfo,
+	&PatternCompiler_EmitBalanceStart_m14707_MethodInfo,
+	&PatternCompiler_EmitBalance_m14708_MethodInfo,
+	&PatternCompiler_EmitReference_m14709_MethodInfo,
+	&PatternCompiler_EmitIfDefined_m14710_MethodInfo,
+	&PatternCompiler_EmitSub_m14711_MethodInfo,
+	&PatternCompiler_EmitTest_m14712_MethodInfo,
+	&PatternCompiler_EmitBranch_m14713_MethodInfo,
+	&PatternCompiler_EmitJump_m14714_MethodInfo,
+	&PatternCompiler_EmitRepeat_m14715_MethodInfo,
+	&PatternCompiler_EmitUntil_m14716_MethodInfo,
+	&PatternCompiler_EmitIn_m14718_MethodInfo,
+	&PatternCompiler_EmitInfo_m14720_MethodInfo,
+	&PatternCompiler_EmitFastRepeat_m14717_MethodInfo,
+	&PatternCompiler_EmitAnchor_m14719_MethodInfo,
+	&PatternCompiler_EmitBranchEnd_m14723_MethodInfo,
+	&PatternCompiler_EmitAlternationEnd_m14724_MethodInfo,
+	&PatternCompiler_NewLink_m14721_MethodInfo,
+	&PatternCompiler_ResolveLink_m14722_MethodInfo,
 };
 static bool PatternCompiler_t4139_VTableIsGenericMethod[] =
 {
@@ -4444,10 +4444,10 @@ extern TypeInfo LinkStack_t4138_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_LinkStackMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.LinkStack::.ctor()
-extern const MethodInfo LinkStack__ctor_m14731_MethodInfo = 
+extern const MethodInfo LinkStack__ctor_m14732_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&LinkStack__ctor_m14731/* method */
+	, (methodPointerType)&LinkStack__ctor_m14732/* method */
 	, &LinkStack_t4138_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -4467,10 +4467,10 @@ extern const MethodInfo LinkStack__ctor_m14731_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.LinkStack::Push()
-extern const MethodInfo LinkStack_Push_m14732_MethodInfo = 
+extern const MethodInfo LinkStack_Push_m14733_MethodInfo = 
 {
 	"Push"/* name */
-	, (methodPointerType)&LinkStack_Push_m14732/* method */
+	, (methodPointerType)&LinkStack_Push_m14733/* method */
 	, &LinkStack_t4138_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -4490,10 +4490,10 @@ extern const MethodInfo LinkStack_Push_m14732_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.LinkStack::Pop()
-extern const MethodInfo LinkStack_Pop_m14733_MethodInfo = 
+extern const MethodInfo LinkStack_Pop_m14734_MethodInfo = 
 {
 	"Pop"/* name */
-	, (methodPointerType)&LinkStack_Pop_m14733/* method */
+	, (methodPointerType)&LinkStack_Pop_m14734/* method */
 	, &LinkStack_t4138_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -4513,7 +4513,7 @@ extern const MethodInfo LinkStack_Pop_m14733_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Text.RegularExpressions.LinkStack::GetCurrent()
-extern const MethodInfo LinkStack_GetCurrent_m15412_MethodInfo = 
+extern const MethodInfo LinkStack_GetCurrent_m15413_MethodInfo = 
 {
 	"GetCurrent"/* name */
 	, NULL/* method */
@@ -4535,20 +4535,20 @@ extern const MethodInfo LinkStack_GetCurrent_m15412_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo LinkStack_t4138_LinkStack_SetCurrent_m15413_ParameterInfos[] = 
+static const ParameterInfo LinkStack_t4138_LinkStack_SetCurrent_m15414_ParameterInfos[] = 
 {
 	{"l", 0, 134219492, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.LinkStack::SetCurrent(System.Object)
-extern const MethodInfo LinkStack_SetCurrent_m15413_MethodInfo = 
+extern const MethodInfo LinkStack_SetCurrent_m15414_MethodInfo = 
 {
 	"SetCurrent"/* name */
 	, NULL/* method */
 	, &LinkStack_t4138_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, LinkStack_t4138_LinkStack_SetCurrent_m15413_ParameterInfos/* parameters */
+	, LinkStack_t4138_LinkStack_SetCurrent_m15414_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1476/* flags */
 	, 0/* iflags */
@@ -4564,11 +4564,11 @@ extern const MethodInfo LinkStack_SetCurrent_m15413_MethodInfo =
 };
 static const MethodInfo* LinkStack_t4138_MethodInfos[] =
 {
-	&LinkStack__ctor_m14731_MethodInfo,
-	&LinkStack_Push_m14732_MethodInfo,
-	&LinkStack_Pop_m14733_MethodInfo,
-	&LinkStack_GetCurrent_m15412_MethodInfo,
-	&LinkStack_SetCurrent_m15413_MethodInfo,
+	&LinkStack__ctor_m14732_MethodInfo,
+	&LinkStack_Push_m14733_MethodInfo,
+	&LinkStack_Pop_m14734_MethodInfo,
+	&LinkStack_GetCurrent_m15413_MethodInfo,
+	&LinkStack_SetCurrent_m15414_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference LinkStack_t4138_VTable[] =
@@ -4667,10 +4667,10 @@ extern TypeInfo Mark_t4140_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_MarkMethodDeclarations.h"
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Mark::get_IsDefined()
-extern const MethodInfo Mark_get_IsDefined_m14734_MethodInfo = 
+extern const MethodInfo Mark_get_IsDefined_m14735_MethodInfo = 
 {
 	"get_IsDefined"/* name */
-	, (methodPointerType)&Mark_get_IsDefined_m14734/* method */
+	, (methodPointerType)&Mark_get_IsDefined_m14735/* method */
 	, &Mark_t4140_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -4690,10 +4690,10 @@ extern const MethodInfo Mark_get_IsDefined_m14734_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Mark::get_Index()
-extern const MethodInfo Mark_get_Index_m14735_MethodInfo = 
+extern const MethodInfo Mark_get_Index_m14736_MethodInfo = 
 {
 	"get_Index"/* name */
-	, (methodPointerType)&Mark_get_Index_m14735/* method */
+	, (methodPointerType)&Mark_get_Index_m14736/* method */
 	, &Mark_t4140_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -4713,10 +4713,10 @@ extern const MethodInfo Mark_get_Index_m14735_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Mark::get_Length()
-extern const MethodInfo Mark_get_Length_m14736_MethodInfo = 
+extern const MethodInfo Mark_get_Length_m14737_MethodInfo = 
 {
 	"get_Length"/* name */
-	, (methodPointerType)&Mark_get_Length_m14736/* method */
+	, (methodPointerType)&Mark_get_Length_m14737/* method */
 	, &Mark_t4140_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -4736,39 +4736,39 @@ extern const MethodInfo Mark_get_Length_m14736_MethodInfo =
 };
 static const MethodInfo* Mark_t4140_MethodInfos[] =
 {
-	&Mark_get_IsDefined_m14734_MethodInfo,
-	&Mark_get_Index_m14735_MethodInfo,
-	&Mark_get_Length_m14736_MethodInfo,
+	&Mark_get_IsDefined_m14735_MethodInfo,
+	&Mark_get_Index_m14736_MethodInfo,
+	&Mark_get_Length_m14737_MethodInfo,
 	NULL
 };
-extern const MethodInfo Mark_get_IsDefined_m14734_MethodInfo;
+extern const MethodInfo Mark_get_IsDefined_m14735_MethodInfo;
 static const PropertyInfo Mark_t4140____IsDefined_PropertyInfo = 
 {
 	&Mark_t4140_il2cpp_TypeInfo/* parent */
 	, "IsDefined"/* name */
-	, &Mark_get_IsDefined_m14734_MethodInfo/* get */
+	, &Mark_get_IsDefined_m14735_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Mark_get_Index_m14735_MethodInfo;
+extern const MethodInfo Mark_get_Index_m14736_MethodInfo;
 static const PropertyInfo Mark_t4140____Index_PropertyInfo = 
 {
 	&Mark_t4140_il2cpp_TypeInfo/* parent */
 	, "Index"/* name */
-	, &Mark_get_Index_m14735_MethodInfo/* get */
+	, &Mark_get_Index_m14736_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Mark_get_Length_m14736_MethodInfo;
+extern const MethodInfo Mark_get_Length_m14737_MethodInfo;
 static const PropertyInfo Mark_t4140____Length_PropertyInfo = 
 {
 	&Mark_t4140_il2cpp_TypeInfo/* parent */
 	, "Length"/* name */
-	, &Mark_get_Length_m14736_MethodInfo/* get */
+	, &Mark_get_Length_m14737_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -4783,10 +4783,10 @@ static const PropertyInfo* Mark_t4140_PropertyInfos[] =
 };
 static const Il2CppMethodReference Mark_t4140_VTable[] =
 {
-	&ValueType_Equals_m4568_MethodInfo,
+	&ValueType_Equals_m4569_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4569_MethodInfo,
-	&ValueType_ToString_m4570_MethodInfo,
+	&ValueType_GetHashCode_m4570_MethodInfo,
+	&ValueType_ToString_m4571_MethodInfo,
 };
 static bool Mark_t4140_VTableIsGenericMethod[] =
 {
@@ -4873,10 +4873,10 @@ extern TypeInfo IntStack_t4141_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Interpreter_IntStackMethodDeclarations.h"
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Interpreter/IntStack::Pop()
-extern const MethodInfo IntStack_Pop_m14737_MethodInfo = 
+extern const MethodInfo IntStack_Pop_m14738_MethodInfo = 
 {
 	"Pop"/* name */
-	, (methodPointerType)&IntStack_Pop_m14737/* method */
+	, (methodPointerType)&IntStack_Pop_m14738/* method */
 	, &IntStack_t4141_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -4895,20 +4895,20 @@ extern const MethodInfo IntStack_Pop_m14737_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo IntStack_t4141_IntStack_Push_m14738_ParameterInfos[] = 
+static const ParameterInfo IntStack_t4141_IntStack_Push_m14739_ParameterInfos[] = 
 {
 	{"value", 0, 134219530, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interpreter/IntStack::Push(System.Int32)
-extern const MethodInfo IntStack_Push_m14738_MethodInfo = 
+extern const MethodInfo IntStack_Push_m14739_MethodInfo = 
 {
 	"Push"/* name */
-	, (methodPointerType)&IntStack_Push_m14738/* method */
+	, (methodPointerType)&IntStack_Push_m14739/* method */
 	, &IntStack_t4141_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, IntStack_t4141_IntStack_Push_m14738_ParameterInfos/* parameters */
+	, IntStack_t4141_IntStack_Push_m14739_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4924,10 +4924,10 @@ extern const MethodInfo IntStack_Push_m14738_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Interpreter/IntStack::get_Count()
-extern const MethodInfo IntStack_get_Count_m14739_MethodInfo = 
+extern const MethodInfo IntStack_get_Count_m14740_MethodInfo = 
 {
 	"get_Count"/* name */
-	, (methodPointerType)&IntStack_get_Count_m14739/* method */
+	, (methodPointerType)&IntStack_get_Count_m14740/* method */
 	, &IntStack_t4141_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -4946,20 +4946,20 @@ extern const MethodInfo IntStack_get_Count_m14739_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo IntStack_t4141_IntStack_set_Count_m14740_ParameterInfos[] = 
+static const ParameterInfo IntStack_t4141_IntStack_set_Count_m14741_ParameterInfos[] = 
 {
 	{"value", 0, 134219531, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interpreter/IntStack::set_Count(System.Int32)
-extern const MethodInfo IntStack_set_Count_m14740_MethodInfo = 
+extern const MethodInfo IntStack_set_Count_m14741_MethodInfo = 
 {
 	"set_Count"/* name */
-	, (methodPointerType)&IntStack_set_Count_m14740/* method */
+	, (methodPointerType)&IntStack_set_Count_m14741/* method */
 	, &IntStack_t4141_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, IntStack_t4141_IntStack_set_Count_m14740_ParameterInfos/* parameters */
+	, IntStack_t4141_IntStack_set_Count_m14741_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -4975,20 +4975,20 @@ extern const MethodInfo IntStack_set_Count_m14740_MethodInfo =
 };
 static const MethodInfo* IntStack_t4141_MethodInfos[] =
 {
-	&IntStack_Pop_m14737_MethodInfo,
-	&IntStack_Push_m14738_MethodInfo,
-	&IntStack_get_Count_m14739_MethodInfo,
-	&IntStack_set_Count_m14740_MethodInfo,
+	&IntStack_Pop_m14738_MethodInfo,
+	&IntStack_Push_m14739_MethodInfo,
+	&IntStack_get_Count_m14740_MethodInfo,
+	&IntStack_set_Count_m14741_MethodInfo,
 	NULL
 };
-extern const MethodInfo IntStack_get_Count_m14739_MethodInfo;
-extern const MethodInfo IntStack_set_Count_m14740_MethodInfo;
+extern const MethodInfo IntStack_get_Count_m14740_MethodInfo;
+extern const MethodInfo IntStack_set_Count_m14741_MethodInfo;
 static const PropertyInfo IntStack_t4141____Count_PropertyInfo = 
 {
 	&IntStack_t4141_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
-	, &IntStack_get_Count_m14739_MethodInfo/* get */
-	, &IntStack_set_Count_m14740_MethodInfo/* set */
+	, &IntStack_get_Count_m14740_MethodInfo/* get */
+	, &IntStack_set_Count_m14741_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -5000,10 +5000,10 @@ static const PropertyInfo* IntStack_t4141_PropertyInfos[] =
 };
 static const Il2CppMethodReference IntStack_t4141_VTable[] =
 {
-	&ValueType_Equals_m4568_MethodInfo,
+	&ValueType_Equals_m4569_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4569_MethodInfo,
-	&ValueType_ToString_m4570_MethodInfo,
+	&ValueType_GetHashCode_m4570_MethodInfo,
+	&ValueType_ToString_m4571_MethodInfo,
 };
 static bool IntStack_t4141_VTableIsGenericMethod[] =
 {
@@ -5096,7 +5096,7 @@ extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo RepeatContext_t4142_RepeatContext__ctor_m14741_ParameterInfos[] = 
+static const ParameterInfo RepeatContext_t4142_RepeatContext__ctor_m14742_ParameterInfos[] = 
 {
 	{"previous", 0, 134219532, 0, &RepeatContext_t4142_0_0_0},
 	{"min", 1, 134219533, 0, &Int32_t82_0_0_0},
@@ -5106,14 +5106,14 @@ static const ParameterInfo RepeatContext_t4142_RepeatContext__ctor_m14741_Parame
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82_SByte_t88_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interpreter/RepeatContext::.ctor(System.Text.RegularExpressions.Interpreter/RepeatContext,System.Int32,System.Int32,System.Boolean,System.Int32)
-extern const MethodInfo RepeatContext__ctor_m14741_MethodInfo = 
+extern const MethodInfo RepeatContext__ctor_m14742_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RepeatContext__ctor_m14741/* method */
+	, (methodPointerType)&RepeatContext__ctor_m14742/* method */
 	, &RepeatContext_t4142_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82_SByte_t88_Int32_t82/* invoker_method */
-	, RepeatContext_t4142_RepeatContext__ctor_m14741_ParameterInfos/* parameters */
+	, RepeatContext_t4142_RepeatContext__ctor_m14742_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -5129,10 +5129,10 @@ extern const MethodInfo RepeatContext__ctor_m14741_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Interpreter/RepeatContext::get_Count()
-extern const MethodInfo RepeatContext_get_Count_m14742_MethodInfo = 
+extern const MethodInfo RepeatContext_get_Count_m14743_MethodInfo = 
 {
 	"get_Count"/* name */
-	, (methodPointerType)&RepeatContext_get_Count_m14742/* method */
+	, (methodPointerType)&RepeatContext_get_Count_m14743/* method */
 	, &RepeatContext_t4142_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -5151,20 +5151,20 @@ extern const MethodInfo RepeatContext_get_Count_m14742_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo RepeatContext_t4142_RepeatContext_set_Count_m14743_ParameterInfos[] = 
+static const ParameterInfo RepeatContext_t4142_RepeatContext_set_Count_m14744_ParameterInfos[] = 
 {
 	{"value", 0, 134219537, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interpreter/RepeatContext::set_Count(System.Int32)
-extern const MethodInfo RepeatContext_set_Count_m14743_MethodInfo = 
+extern const MethodInfo RepeatContext_set_Count_m14744_MethodInfo = 
 {
 	"set_Count"/* name */
-	, (methodPointerType)&RepeatContext_set_Count_m14743/* method */
+	, (methodPointerType)&RepeatContext_set_Count_m14744/* method */
 	, &RepeatContext_t4142_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, RepeatContext_t4142_RepeatContext_set_Count_m14743_ParameterInfos/* parameters */
+	, RepeatContext_t4142_RepeatContext_set_Count_m14744_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -5180,10 +5180,10 @@ extern const MethodInfo RepeatContext_set_Count_m14743_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Interpreter/RepeatContext::get_Start()
-extern const MethodInfo RepeatContext_get_Start_m14744_MethodInfo = 
+extern const MethodInfo RepeatContext_get_Start_m14745_MethodInfo = 
 {
 	"get_Start"/* name */
-	, (methodPointerType)&RepeatContext_get_Start_m14744/* method */
+	, (methodPointerType)&RepeatContext_get_Start_m14745/* method */
 	, &RepeatContext_t4142_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -5202,20 +5202,20 @@ extern const MethodInfo RepeatContext_get_Start_m14744_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo RepeatContext_t4142_RepeatContext_set_Start_m14745_ParameterInfos[] = 
+static const ParameterInfo RepeatContext_t4142_RepeatContext_set_Start_m14746_ParameterInfos[] = 
 {
 	{"value", 0, 134219538, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interpreter/RepeatContext::set_Start(System.Int32)
-extern const MethodInfo RepeatContext_set_Start_m14745_MethodInfo = 
+extern const MethodInfo RepeatContext_set_Start_m14746_MethodInfo = 
 {
 	"set_Start"/* name */
-	, (methodPointerType)&RepeatContext_set_Start_m14745/* method */
+	, (methodPointerType)&RepeatContext_set_Start_m14746/* method */
 	, &RepeatContext_t4142_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, RepeatContext_t4142_RepeatContext_set_Start_m14745_ParameterInfos/* parameters */
+	, RepeatContext_t4142_RepeatContext_set_Start_m14746_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -5231,10 +5231,10 @@ extern const MethodInfo RepeatContext_set_Start_m14745_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interpreter/RepeatContext::get_IsMinimum()
-extern const MethodInfo RepeatContext_get_IsMinimum_m14746_MethodInfo = 
+extern const MethodInfo RepeatContext_get_IsMinimum_m14747_MethodInfo = 
 {
 	"get_IsMinimum"/* name */
-	, (methodPointerType)&RepeatContext_get_IsMinimum_m14746/* method */
+	, (methodPointerType)&RepeatContext_get_IsMinimum_m14747/* method */
 	, &RepeatContext_t4142_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -5254,10 +5254,10 @@ extern const MethodInfo RepeatContext_get_IsMinimum_m14746_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interpreter/RepeatContext::get_IsMaximum()
-extern const MethodInfo RepeatContext_get_IsMaximum_m14747_MethodInfo = 
+extern const MethodInfo RepeatContext_get_IsMaximum_m14748_MethodInfo = 
 {
 	"get_IsMaximum"/* name */
-	, (methodPointerType)&RepeatContext_get_IsMaximum_m14747/* method */
+	, (methodPointerType)&RepeatContext_get_IsMaximum_m14748/* method */
 	, &RepeatContext_t4142_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -5277,10 +5277,10 @@ extern const MethodInfo RepeatContext_get_IsMaximum_m14747_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interpreter/RepeatContext::get_IsLazy()
-extern const MethodInfo RepeatContext_get_IsLazy_m14748_MethodInfo = 
+extern const MethodInfo RepeatContext_get_IsLazy_m14749_MethodInfo = 
 {
 	"get_IsLazy"/* name */
-	, (methodPointerType)&RepeatContext_get_IsLazy_m14748/* method */
+	, (methodPointerType)&RepeatContext_get_IsLazy_m14749/* method */
 	, &RepeatContext_t4142_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -5300,10 +5300,10 @@ extern const MethodInfo RepeatContext_get_IsLazy_m14748_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Interpreter/RepeatContext::get_Expression()
-extern const MethodInfo RepeatContext_get_Expression_m14749_MethodInfo = 
+extern const MethodInfo RepeatContext_get_Expression_m14750_MethodInfo = 
 {
 	"get_Expression"/* name */
-	, (methodPointerType)&RepeatContext_get_Expression_m14749/* method */
+	, (methodPointerType)&RepeatContext_get_Expression_m14750/* method */
 	, &RepeatContext_t4142_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -5323,10 +5323,10 @@ extern const MethodInfo RepeatContext_get_Expression_m14749_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Interpreter/RepeatContext System.Text.RegularExpressions.Interpreter/RepeatContext::get_Previous()
-extern const MethodInfo RepeatContext_get_Previous_m14750_MethodInfo = 
+extern const MethodInfo RepeatContext_get_Previous_m14751_MethodInfo = 
 {
 	"get_Previous"/* name */
-	, (methodPointerType)&RepeatContext_get_Previous_m14750/* method */
+	, (methodPointerType)&RepeatContext_get_Previous_m14751/* method */
 	, &RepeatContext_t4142_il2cpp_TypeInfo/* declaring_type */
 	, &RepeatContext_t4142_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -5346,92 +5346,92 @@ extern const MethodInfo RepeatContext_get_Previous_m14750_MethodInfo =
 };
 static const MethodInfo* RepeatContext_t4142_MethodInfos[] =
 {
-	&RepeatContext__ctor_m14741_MethodInfo,
-	&RepeatContext_get_Count_m14742_MethodInfo,
-	&RepeatContext_set_Count_m14743_MethodInfo,
-	&RepeatContext_get_Start_m14744_MethodInfo,
-	&RepeatContext_set_Start_m14745_MethodInfo,
-	&RepeatContext_get_IsMinimum_m14746_MethodInfo,
-	&RepeatContext_get_IsMaximum_m14747_MethodInfo,
-	&RepeatContext_get_IsLazy_m14748_MethodInfo,
-	&RepeatContext_get_Expression_m14749_MethodInfo,
-	&RepeatContext_get_Previous_m14750_MethodInfo,
+	&RepeatContext__ctor_m14742_MethodInfo,
+	&RepeatContext_get_Count_m14743_MethodInfo,
+	&RepeatContext_set_Count_m14744_MethodInfo,
+	&RepeatContext_get_Start_m14745_MethodInfo,
+	&RepeatContext_set_Start_m14746_MethodInfo,
+	&RepeatContext_get_IsMinimum_m14747_MethodInfo,
+	&RepeatContext_get_IsMaximum_m14748_MethodInfo,
+	&RepeatContext_get_IsLazy_m14749_MethodInfo,
+	&RepeatContext_get_Expression_m14750_MethodInfo,
+	&RepeatContext_get_Previous_m14751_MethodInfo,
 	NULL
 };
-extern const MethodInfo RepeatContext_get_Count_m14742_MethodInfo;
-extern const MethodInfo RepeatContext_set_Count_m14743_MethodInfo;
+extern const MethodInfo RepeatContext_get_Count_m14743_MethodInfo;
+extern const MethodInfo RepeatContext_set_Count_m14744_MethodInfo;
 static const PropertyInfo RepeatContext_t4142____Count_PropertyInfo = 
 {
 	&RepeatContext_t4142_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
-	, &RepeatContext_get_Count_m14742_MethodInfo/* get */
-	, &RepeatContext_set_Count_m14743_MethodInfo/* set */
+	, &RepeatContext_get_Count_m14743_MethodInfo/* get */
+	, &RepeatContext_set_Count_m14744_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo RepeatContext_get_Start_m14744_MethodInfo;
-extern const MethodInfo RepeatContext_set_Start_m14745_MethodInfo;
+extern const MethodInfo RepeatContext_get_Start_m14745_MethodInfo;
+extern const MethodInfo RepeatContext_set_Start_m14746_MethodInfo;
 static const PropertyInfo RepeatContext_t4142____Start_PropertyInfo = 
 {
 	&RepeatContext_t4142_il2cpp_TypeInfo/* parent */
 	, "Start"/* name */
-	, &RepeatContext_get_Start_m14744_MethodInfo/* get */
-	, &RepeatContext_set_Start_m14745_MethodInfo/* set */
+	, &RepeatContext_get_Start_m14745_MethodInfo/* get */
+	, &RepeatContext_set_Start_m14746_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo RepeatContext_get_IsMinimum_m14746_MethodInfo;
+extern const MethodInfo RepeatContext_get_IsMinimum_m14747_MethodInfo;
 static const PropertyInfo RepeatContext_t4142____IsMinimum_PropertyInfo = 
 {
 	&RepeatContext_t4142_il2cpp_TypeInfo/* parent */
 	, "IsMinimum"/* name */
-	, &RepeatContext_get_IsMinimum_m14746_MethodInfo/* get */
+	, &RepeatContext_get_IsMinimum_m14747_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo RepeatContext_get_IsMaximum_m14747_MethodInfo;
+extern const MethodInfo RepeatContext_get_IsMaximum_m14748_MethodInfo;
 static const PropertyInfo RepeatContext_t4142____IsMaximum_PropertyInfo = 
 {
 	&RepeatContext_t4142_il2cpp_TypeInfo/* parent */
 	, "IsMaximum"/* name */
-	, &RepeatContext_get_IsMaximum_m14747_MethodInfo/* get */
+	, &RepeatContext_get_IsMaximum_m14748_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo RepeatContext_get_IsLazy_m14748_MethodInfo;
+extern const MethodInfo RepeatContext_get_IsLazy_m14749_MethodInfo;
 static const PropertyInfo RepeatContext_t4142____IsLazy_PropertyInfo = 
 {
 	&RepeatContext_t4142_il2cpp_TypeInfo/* parent */
 	, "IsLazy"/* name */
-	, &RepeatContext_get_IsLazy_m14748_MethodInfo/* get */
+	, &RepeatContext_get_IsLazy_m14749_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo RepeatContext_get_Expression_m14749_MethodInfo;
+extern const MethodInfo RepeatContext_get_Expression_m14750_MethodInfo;
 static const PropertyInfo RepeatContext_t4142____Expression_PropertyInfo = 
 {
 	&RepeatContext_t4142_il2cpp_TypeInfo/* parent */
 	, "Expression"/* name */
-	, &RepeatContext_get_Expression_m14749_MethodInfo/* get */
+	, &RepeatContext_get_Expression_m14750_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo RepeatContext_get_Previous_m14750_MethodInfo;
+extern const MethodInfo RepeatContext_get_Previous_m14751_MethodInfo;
 static const PropertyInfo RepeatContext_t4142____Previous_PropertyInfo = 
 {
 	&RepeatContext_t4142_il2cpp_TypeInfo/* parent */
 	, "Previous"/* name */
-	, &RepeatContext_get_Previous_m14750_MethodInfo/* get */
+	, &RepeatContext_get_Previous_m14751_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -5679,20 +5679,20 @@ TypeInfo Mode_t4143_il2cpp_TypeInfo =
 // System.Text.RegularExpressions.Interpreter
 #include "System_System_Text_RegularExpressions_InterpreterMethodDeclarations.h"
 extern const Il2CppType UInt16U5BU5D_t4060_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter__ctor_m14751_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter__ctor_m14752_ParameterInfos[] = 
 {
 	{"program", 0, 134219493, 0, &UInt16U5BU5D_t4060_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interpreter::.ctor(System.UInt16[])
-extern const MethodInfo Interpreter__ctor_m14751_MethodInfo = 
+extern const MethodInfo Interpreter__ctor_m14752_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Interpreter__ctor_m14751/* method */
+	, (methodPointerType)&Interpreter__ctor_m14752/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Interpreter_t4146_Interpreter__ctor_m14751_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter__ctor_m14752_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -5707,20 +5707,20 @@ extern const MethodInfo Interpreter__ctor_m14751_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_ReadProgramCount_m14752_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_ReadProgramCount_m14753_ParameterInfos[] = 
 {
 	{"ptr", 0, 134219494, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Interpreter::ReadProgramCount(System.Int32)
-extern const MethodInfo Interpreter_ReadProgramCount_m14752_MethodInfo = 
+extern const MethodInfo Interpreter_ReadProgramCount_m14753_MethodInfo = 
 {
 	"ReadProgramCount"/* name */
-	, (methodPointerType)&Interpreter_ReadProgramCount_m14752/* method */
+	, (methodPointerType)&Interpreter_ReadProgramCount_m14753/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Int32_t82/* invoker_method */
-	, Interpreter_t4146_Interpreter_ReadProgramCount_m14752_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_ReadProgramCount_m14753_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -5739,7 +5739,7 @@ extern const Il2CppType Regex_t787_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_Scan_m14753_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_Scan_m14754_ParameterInfos[] = 
 {
 	{"regex", 0, 134219495, 0, &Regex_t787_0_0_0},
 	{"text", 1, 134219496, 0, &String_t_0_0_0},
@@ -5749,14 +5749,14 @@ static const ParameterInfo Interpreter_t4146_Interpreter_Scan_m14753_ParameterIn
 extern const Il2CppType Match_t1374_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.Interpreter::Scan(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32)
-extern const MethodInfo Interpreter_Scan_m14753_MethodInfo = 
+extern const MethodInfo Interpreter_Scan_m14754_MethodInfo = 
 {
 	"Scan"/* name */
-	, (methodPointerType)&Interpreter_Scan_m14753/* method */
+	, (methodPointerType)&Interpreter_Scan_m14754/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Match_t1374_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82_Int32_t82/* invoker_method */
-	, Interpreter_t4146_Interpreter_Scan_m14753_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_Scan_m14754_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -5772,10 +5772,10 @@ extern const MethodInfo Interpreter_Scan_m14753_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interpreter::Reset()
-extern const MethodInfo Interpreter_Reset_m14754_MethodInfo = 
+extern const MethodInfo Interpreter_Reset_m14755_MethodInfo = 
 {
 	"Reset"/* name */
-	, (methodPointerType)&Interpreter_Reset_m14754/* method */
+	, (methodPointerType)&Interpreter_Reset_m14755/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -5797,7 +5797,7 @@ extern const Il2CppType Mode_t4143_0_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_Eval_m14755_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_Eval_m14756_ParameterInfos[] = 
 {
 	{"mode", 0, 134219499, 0, &Mode_t4143_0_0_0},
 	{"ref_ptr", 1, 134219500, 0, &Int32_t82_1_0_0},
@@ -5805,14 +5805,14 @@ static const ParameterInfo Interpreter_t4146_Interpreter_Eval_m14755_ParameterIn
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82_Int32U26_t826_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interpreter::Eval(System.Text.RegularExpressions.Interpreter/Mode,System.Int32&,System.Int32)
-extern const MethodInfo Interpreter_Eval_m14755_MethodInfo = 
+extern const MethodInfo Interpreter_Eval_m14756_MethodInfo = 
 {
 	"Eval"/* name */
-	, (methodPointerType)&Interpreter_Eval_m14755/* method */
+	, (methodPointerType)&Interpreter_Eval_m14756/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32_t82_Int32U26_t826_Int32_t82/* invoker_method */
-	, Interpreter_t4146_Interpreter_Eval_m14755_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_Eval_m14756_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -5830,7 +5830,7 @@ extern const Il2CppType Mode_t4143_0_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_EvalChar_m14756_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_EvalChar_m14757_ParameterInfos[] = 
 {
 	{"mode", 0, 134219502, 0, &Mode_t4143_0_0_0},
 	{"ptr", 1, 134219503, 0, &Int32_t82_1_0_0},
@@ -5839,14 +5839,14 @@ static const ParameterInfo Interpreter_t4146_Interpreter_EvalChar_m14756_Paramet
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82_Int32U26_t826_Int32U26_t826_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interpreter::EvalChar(System.Text.RegularExpressions.Interpreter/Mode,System.Int32&,System.Int32&,System.Boolean)
-extern const MethodInfo Interpreter_EvalChar_m14756_MethodInfo = 
+extern const MethodInfo Interpreter_EvalChar_m14757_MethodInfo = 
 {
 	"EvalChar"/* name */
-	, (methodPointerType)&Interpreter_EvalChar_m14756/* method */
+	, (methodPointerType)&Interpreter_EvalChar_m14757/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32_t82_Int32U26_t826_Int32U26_t826_SByte_t88/* invoker_method */
-	, Interpreter_t4146_Interpreter_EvalChar_m14756_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_EvalChar_m14757_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -5862,21 +5862,21 @@ extern const MethodInfo Interpreter_EvalChar_m14756_MethodInfo =
 };
 extern const Il2CppType Int32_t82_1_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_TryMatch_m14757_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_TryMatch_m14758_ParameterInfos[] = 
 {
 	{"ref_ptr", 0, 134219506, 0, &Int32_t82_1_0_0},
 	{"pc", 1, 134219507, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32U26_t826_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interpreter::TryMatch(System.Int32&,System.Int32)
-extern const MethodInfo Interpreter_TryMatch_m14757_MethodInfo = 
+extern const MethodInfo Interpreter_TryMatch_m14758_MethodInfo = 
 {
 	"TryMatch"/* name */
-	, (methodPointerType)&Interpreter_TryMatch_m14757/* method */
+	, (methodPointerType)&Interpreter_TryMatch_m14758/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32U26_t826_Int32_t82/* invoker_method */
-	, Interpreter_t4146_Interpreter_TryMatch_m14757_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_TryMatch_m14758_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -5892,21 +5892,21 @@ extern const MethodInfo Interpreter_TryMatch_m14757_MethodInfo =
 };
 extern const Il2CppType Position_t4128_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_IsPosition_m14758_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_IsPosition_m14759_ParameterInfos[] = 
 {
 	{"pos", 0, 134219508, 0, &Position_t4128_0_0_0},
 	{"ptr", 1, 134219509, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_UInt16_t743_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interpreter::IsPosition(System.Text.RegularExpressions.Position,System.Int32)
-extern const MethodInfo Interpreter_IsPosition_m14758_MethodInfo = 
+extern const MethodInfo Interpreter_IsPosition_m14759_MethodInfo = 
 {
 	"IsPosition"/* name */
-	, (methodPointerType)&Interpreter_IsPosition_m14758/* method */
+	, (methodPointerType)&Interpreter_IsPosition_m14759/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_UInt16_t743_Int32_t82/* invoker_method */
-	, Interpreter_t4146_Interpreter_IsPosition_m14758_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_IsPosition_m14759_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -5921,20 +5921,20 @@ extern const MethodInfo Interpreter_IsPosition_m14758_MethodInfo =
 
 };
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_IsWordChar_m14759_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_IsWordChar_m14760_ParameterInfos[] = 
 {
 	{"c", 0, 134219510, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interpreter::IsWordChar(System.Char)
-extern const MethodInfo Interpreter_IsWordChar_m14759_MethodInfo = 
+extern const MethodInfo Interpreter_IsWordChar_m14760_MethodInfo = 
 {
 	"IsWordChar"/* name */
-	, (methodPointerType)&Interpreter_IsWordChar_m14759/* method */
+	, (methodPointerType)&Interpreter_IsWordChar_m14760/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int16_t742/* invoker_method */
-	, Interpreter_t4146_Interpreter_IsWordChar_m14759_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_IsWordChar_m14760_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -5949,20 +5949,20 @@ extern const MethodInfo Interpreter_IsWordChar_m14759_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_GetString_m14760_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_GetString_m14761_ParameterInfos[] = 
 {
 	{"pc", 0, 134219511, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.RegularExpressions.Interpreter::GetString(System.Int32)
-extern const MethodInfo Interpreter_GetString_m14760_MethodInfo = 
+extern const MethodInfo Interpreter_GetString_m14761_MethodInfo = 
 {
 	"GetString"/* name */
-	, (methodPointerType)&Interpreter_GetString_m14760/* method */
+	, (methodPointerType)&Interpreter_GetString_m14761/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
-	, Interpreter_t4146_Interpreter_GetString_m14760_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_GetString_m14761_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -5978,21 +5978,21 @@ extern const MethodInfo Interpreter_GetString_m14760_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_Open_m14761_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_Open_m14762_ParameterInfos[] = 
 {
 	{"gid", 0, 134219512, 0, &Int32_t82_0_0_0},
 	{"ptr", 1, 134219513, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interpreter::Open(System.Int32,System.Int32)
-extern const MethodInfo Interpreter_Open_m14761_MethodInfo = 
+extern const MethodInfo Interpreter_Open_m14762_MethodInfo = 
 {
 	"Open"/* name */
-	, (methodPointerType)&Interpreter_Open_m14761/* method */
+	, (methodPointerType)&Interpreter_Open_m14762/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82/* invoker_method */
-	, Interpreter_t4146_Interpreter_Open_m14761_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_Open_m14762_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -6008,21 +6008,21 @@ extern const MethodInfo Interpreter_Open_m14761_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_Close_m14762_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_Close_m14763_ParameterInfos[] = 
 {
 	{"gid", 0, 134219514, 0, &Int32_t82_0_0_0},
 	{"ptr", 1, 134219515, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interpreter::Close(System.Int32,System.Int32)
-extern const MethodInfo Interpreter_Close_m14762_MethodInfo = 
+extern const MethodInfo Interpreter_Close_m14763_MethodInfo = 
 {
 	"Close"/* name */
-	, (methodPointerType)&Interpreter_Close_m14762/* method */
+	, (methodPointerType)&Interpreter_Close_m14763/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82/* invoker_method */
-	, Interpreter_t4146_Interpreter_Close_m14762_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_Close_m14763_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -6040,7 +6040,7 @@ extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_Balance_m14763_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_Balance_m14764_ParameterInfos[] = 
 {
 	{"gid", 0, 134219516, 0, &Int32_t82_0_0_0},
 	{"balance_gid", 1, 134219517, 0, &Int32_t82_0_0_0},
@@ -6049,14 +6049,14 @@ static const ParameterInfo Interpreter_t4146_Interpreter_Balance_m14763_Paramete
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82_Int32_t82_SByte_t88_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interpreter::Balance(System.Int32,System.Int32,System.Boolean,System.Int32)
-extern const MethodInfo Interpreter_Balance_m14763_MethodInfo = 
+extern const MethodInfo Interpreter_Balance_m14764_MethodInfo = 
 {
 	"Balance"/* name */
-	, (methodPointerType)&Interpreter_Balance_m14763/* method */
+	, (methodPointerType)&Interpreter_Balance_m14764/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32_t82_Int32_t82_SByte_t88_Int32_t82/* invoker_method */
-	, Interpreter_t4146_Interpreter_Balance_m14763_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_Balance_m14764_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -6072,10 +6072,10 @@ extern const MethodInfo Interpreter_Balance_m14763_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Interpreter::Checkpoint()
-extern const MethodInfo Interpreter_Checkpoint_m14764_MethodInfo = 
+extern const MethodInfo Interpreter_Checkpoint_m14765_MethodInfo = 
 {
 	"Checkpoint"/* name */
-	, (methodPointerType)&Interpreter_Checkpoint_m14764/* method */
+	, (methodPointerType)&Interpreter_Checkpoint_m14765/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -6094,20 +6094,20 @@ extern const MethodInfo Interpreter_Checkpoint_m14764_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_Backtrack_m14765_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_Backtrack_m14766_ParameterInfos[] = 
 {
 	{"cp", 0, 134219520, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interpreter::Backtrack(System.Int32)
-extern const MethodInfo Interpreter_Backtrack_m14765_MethodInfo = 
+extern const MethodInfo Interpreter_Backtrack_m14766_MethodInfo = 
 {
 	"Backtrack"/* name */
-	, (methodPointerType)&Interpreter_Backtrack_m14765/* method */
+	, (methodPointerType)&Interpreter_Backtrack_m14766/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Interpreter_t4146_Interpreter_Backtrack_m14765_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_Backtrack_m14766_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -6123,10 +6123,10 @@ extern const MethodInfo Interpreter_Backtrack_m14765_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interpreter::ResetGroups()
-extern const MethodInfo Interpreter_ResetGroups_m14766_MethodInfo = 
+extern const MethodInfo Interpreter_ResetGroups_m14767_MethodInfo = 
 {
 	"ResetGroups"/* name */
-	, (methodPointerType)&Interpreter_ResetGroups_m14766/* method */
+	, (methodPointerType)&Interpreter_ResetGroups_m14767/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -6145,20 +6145,20 @@ extern const MethodInfo Interpreter_ResetGroups_m14766_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_GetLastDefined_m14767_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_GetLastDefined_m14768_ParameterInfos[] = 
 {
 	{"gid", 0, 134219521, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Interpreter::GetLastDefined(System.Int32)
-extern const MethodInfo Interpreter_GetLastDefined_m14767_MethodInfo = 
+extern const MethodInfo Interpreter_GetLastDefined_m14768_MethodInfo = 
 {
 	"GetLastDefined"/* name */
-	, (methodPointerType)&Interpreter_GetLastDefined_m14767/* method */
+	, (methodPointerType)&Interpreter_GetLastDefined_m14768/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Int32_t82/* invoker_method */
-	, Interpreter_t4146_Interpreter_GetLastDefined_m14767_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_GetLastDefined_m14768_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -6173,20 +6173,20 @@ extern const MethodInfo Interpreter_GetLastDefined_m14767_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_CreateMark_m14768_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_CreateMark_m14769_ParameterInfos[] = 
 {
 	{"previous", 0, 134219522, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Interpreter::CreateMark(System.Int32)
-extern const MethodInfo Interpreter_CreateMark_m14768_MethodInfo = 
+extern const MethodInfo Interpreter_CreateMark_m14769_MethodInfo = 
 {
 	"CreateMark"/* name */
-	, (methodPointerType)&Interpreter_CreateMark_m14768/* method */
+	, (methodPointerType)&Interpreter_CreateMark_m14769/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Int32_t82/* invoker_method */
-	, Interpreter_t4146_Interpreter_CreateMark_m14768_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_CreateMark_m14769_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -6203,7 +6203,7 @@ extern const MethodInfo Interpreter_CreateMark_m14768_MethodInfo =
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Int32_t82_1_0_2;
-static const ParameterInfo Interpreter_t4146_Interpreter_GetGroupInfo_m14769_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_GetGroupInfo_m14770_ParameterInfos[] = 
 {
 	{"gid", 0, 134219523, 0, &Int32_t82_0_0_0},
 	{"first_mark_index", 1, 134219524, 0, &Int32_t82_1_0_2},
@@ -6211,14 +6211,14 @@ static const ParameterInfo Interpreter_t4146_Interpreter_GetGroupInfo_m14769_Par
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32U26_t826_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interpreter::GetGroupInfo(System.Int32,System.Int32&,System.Int32&)
-extern const MethodInfo Interpreter_GetGroupInfo_m14769_MethodInfo = 
+extern const MethodInfo Interpreter_GetGroupInfo_m14770_MethodInfo = 
 {
 	"GetGroupInfo"/* name */
-	, (methodPointerType)&Interpreter_GetGroupInfo_m14769/* method */
+	, (methodPointerType)&Interpreter_GetGroupInfo_m14770/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32U26_t826_Int32U26_t826/* invoker_method */
-	, Interpreter_t4146_Interpreter_GetGroupInfo_m14769_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_GetGroupInfo_m14770_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -6236,7 +6236,7 @@ extern const Il2CppType Group_t1435_0_0_0;
 extern const Il2CppType Group_t1435_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_PopulateGroup_m14770_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_PopulateGroup_m14771_ParameterInfos[] = 
 {
 	{"g", 0, 134219526, 0, &Group_t1435_0_0_0},
 	{"first_mark_index", 1, 134219527, 0, &Int32_t82_0_0_0},
@@ -6244,14 +6244,14 @@ static const ParameterInfo Interpreter_t4146_Interpreter_PopulateGroup_m14770_Pa
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interpreter::PopulateGroup(System.Text.RegularExpressions.Group,System.Int32,System.Int32)
-extern const MethodInfo Interpreter_PopulateGroup_m14770_MethodInfo = 
+extern const MethodInfo Interpreter_PopulateGroup_m14771_MethodInfo = 
 {
 	"PopulateGroup"/* name */
-	, (methodPointerType)&Interpreter_PopulateGroup_m14770/* method */
+	, (methodPointerType)&Interpreter_PopulateGroup_m14771/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82/* invoker_method */
-	, Interpreter_t4146_Interpreter_PopulateGroup_m14770_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_PopulateGroup_m14771_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -6266,20 +6266,20 @@ extern const MethodInfo Interpreter_PopulateGroup_m14770_MethodInfo =
 
 };
 extern const Il2CppType Regex_t787_0_0_0;
-static const ParameterInfo Interpreter_t4146_Interpreter_GenerateMatch_m14771_ParameterInfos[] = 
+static const ParameterInfo Interpreter_t4146_Interpreter_GenerateMatch_m14772_ParameterInfos[] = 
 {
 	{"regex", 0, 134219529, 0, &Regex_t787_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.Interpreter::GenerateMatch(System.Text.RegularExpressions.Regex)
-extern const MethodInfo Interpreter_GenerateMatch_m14771_MethodInfo = 
+extern const MethodInfo Interpreter_GenerateMatch_m14772_MethodInfo = 
 {
 	"GenerateMatch"/* name */
-	, (methodPointerType)&Interpreter_GenerateMatch_m14771/* method */
+	, (methodPointerType)&Interpreter_GenerateMatch_m14772/* method */
 	, &Interpreter_t4146_il2cpp_TypeInfo/* declaring_type */
 	, &Match_t1374_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Interpreter_t4146_Interpreter_GenerateMatch_m14771_ParameterInfos/* parameters */
+	, Interpreter_t4146_Interpreter_GenerateMatch_m14772_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -6295,27 +6295,27 @@ extern const MethodInfo Interpreter_GenerateMatch_m14771_MethodInfo =
 };
 static const MethodInfo* Interpreter_t4146_MethodInfos[] =
 {
-	&Interpreter__ctor_m14751_MethodInfo,
-	&Interpreter_ReadProgramCount_m14752_MethodInfo,
-	&Interpreter_Scan_m14753_MethodInfo,
-	&Interpreter_Reset_m14754_MethodInfo,
-	&Interpreter_Eval_m14755_MethodInfo,
-	&Interpreter_EvalChar_m14756_MethodInfo,
-	&Interpreter_TryMatch_m14757_MethodInfo,
-	&Interpreter_IsPosition_m14758_MethodInfo,
-	&Interpreter_IsWordChar_m14759_MethodInfo,
-	&Interpreter_GetString_m14760_MethodInfo,
-	&Interpreter_Open_m14761_MethodInfo,
-	&Interpreter_Close_m14762_MethodInfo,
-	&Interpreter_Balance_m14763_MethodInfo,
-	&Interpreter_Checkpoint_m14764_MethodInfo,
-	&Interpreter_Backtrack_m14765_MethodInfo,
-	&Interpreter_ResetGroups_m14766_MethodInfo,
-	&Interpreter_GetLastDefined_m14767_MethodInfo,
-	&Interpreter_CreateMark_m14768_MethodInfo,
-	&Interpreter_GetGroupInfo_m14769_MethodInfo,
-	&Interpreter_PopulateGroup_m14770_MethodInfo,
-	&Interpreter_GenerateMatch_m14771_MethodInfo,
+	&Interpreter__ctor_m14752_MethodInfo,
+	&Interpreter_ReadProgramCount_m14753_MethodInfo,
+	&Interpreter_Scan_m14754_MethodInfo,
+	&Interpreter_Reset_m14755_MethodInfo,
+	&Interpreter_Eval_m14756_MethodInfo,
+	&Interpreter_EvalChar_m14757_MethodInfo,
+	&Interpreter_TryMatch_m14758_MethodInfo,
+	&Interpreter_IsPosition_m14759_MethodInfo,
+	&Interpreter_IsWordChar_m14760_MethodInfo,
+	&Interpreter_GetString_m14761_MethodInfo,
+	&Interpreter_Open_m14762_MethodInfo,
+	&Interpreter_Close_m14763_MethodInfo,
+	&Interpreter_Balance_m14764_MethodInfo,
+	&Interpreter_Checkpoint_m14765_MethodInfo,
+	&Interpreter_Backtrack_m14766_MethodInfo,
+	&Interpreter_ResetGroups_m14767_MethodInfo,
+	&Interpreter_GetLastDefined_m14768_MethodInfo,
+	&Interpreter_CreateMark_m14769_MethodInfo,
+	&Interpreter_GetGroupInfo_m14770_MethodInfo,
+	&Interpreter_PopulateGroup_m14771_MethodInfo,
+	&Interpreter_GenerateMatch_m14772_MethodInfo,
 	NULL
 };
 static const Il2CppType* Interpreter_t4146_il2cpp_TypeInfo__nestedTypes[3] =
@@ -6324,21 +6324,21 @@ static const Il2CppType* Interpreter_t4146_il2cpp_TypeInfo__nestedTypes[3] =
 	&RepeatContext_t4142_0_0_0,
 	&Mode_t4143_0_0_0,
 };
-extern const MethodInfo Interpreter_Scan_m14753_MethodInfo;
-extern const MethodInfo BaseMachine_Split_m14581_MethodInfo;
-extern const MethodInfo BaseMachine_Replace_m14580_MethodInfo;
+extern const MethodInfo Interpreter_Scan_m14754_MethodInfo;
+extern const MethodInfo BaseMachine_Split_m14582_MethodInfo;
+extern const MethodInfo BaseMachine_Replace_m14581_MethodInfo;
 static const Il2CppMethodReference Interpreter_t4146_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&Interpreter_Scan_m14753_MethodInfo,
-	&BaseMachine_Split_m14581_MethodInfo,
-	&BaseMachine_Replace_m14580_MethodInfo,
-	&BaseMachine_Replace_m14580_MethodInfo,
-	&BaseMachine_Split_m14581_MethodInfo,
-	&Interpreter_Scan_m14753_MethodInfo,
+	&Interpreter_Scan_m14754_MethodInfo,
+	&BaseMachine_Split_m14582_MethodInfo,
+	&BaseMachine_Replace_m14581_MethodInfo,
+	&BaseMachine_Replace_m14581_MethodInfo,
+	&BaseMachine_Split_m14582_MethodInfo,
+	&Interpreter_Scan_m14754_MethodInfo,
 };
 static bool Interpreter_t4146_VTableIsGenericMethod[] =
 {
@@ -6436,21 +6436,21 @@ extern TypeInfo Interval_t4147_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_IntervalMethodDeclarations.h"
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interval_t4147_Interval__ctor_m14772_ParameterInfos[] = 
+static const ParameterInfo Interval_t4147_Interval__ctor_m14773_ParameterInfos[] = 
 {
 	{"low", 0, 134219539, 0, &Int32_t82_0_0_0},
 	{"high", 1, 134219540, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interval::.ctor(System.Int32,System.Int32)
-extern const MethodInfo Interval__ctor_m14772_MethodInfo = 
+extern const MethodInfo Interval__ctor_m14773_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Interval__ctor_m14772/* method */
+	, (methodPointerType)&Interval__ctor_m14773/* method */
 	, &Interval_t4147_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82/* invoker_method */
-	, Interval_t4147_Interval__ctor_m14772_ParameterInfos/* parameters */
+	, Interval_t4147_Interval__ctor_m14773_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -6467,10 +6467,10 @@ extern const MethodInfo Interval__ctor_m14772_MethodInfo =
 extern const Il2CppType Interval_t4147_0_0_0;
 extern void* RuntimeInvoker_Interval_t4147 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Interval System.Text.RegularExpressions.Interval::get_Empty()
-extern const MethodInfo Interval_get_Empty_m14773_MethodInfo = 
+extern const MethodInfo Interval_get_Empty_m14774_MethodInfo = 
 {
 	"get_Empty"/* name */
-	, (methodPointerType)&Interval_get_Empty_m14773/* method */
+	, (methodPointerType)&Interval_get_Empty_m14774/* method */
 	, &Interval_t4147_il2cpp_TypeInfo/* declaring_type */
 	, &Interval_t4147_0_0_0/* return_type */
 	, RuntimeInvoker_Interval_t4147/* invoker_method */
@@ -6490,10 +6490,10 @@ extern const MethodInfo Interval_get_Empty_m14773_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interval::get_IsDiscontiguous()
-extern const MethodInfo Interval_get_IsDiscontiguous_m14774_MethodInfo = 
+extern const MethodInfo Interval_get_IsDiscontiguous_m14775_MethodInfo = 
 {
 	"get_IsDiscontiguous"/* name */
-	, (methodPointerType)&Interval_get_IsDiscontiguous_m14774/* method */
+	, (methodPointerType)&Interval_get_IsDiscontiguous_m14775/* method */
 	, &Interval_t4147_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -6513,10 +6513,10 @@ extern const MethodInfo Interval_get_IsDiscontiguous_m14774_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interval::get_IsSingleton()
-extern const MethodInfo Interval_get_IsSingleton_m14775_MethodInfo = 
+extern const MethodInfo Interval_get_IsSingleton_m14776_MethodInfo = 
 {
 	"get_IsSingleton"/* name */
-	, (methodPointerType)&Interval_get_IsSingleton_m14775/* method */
+	, (methodPointerType)&Interval_get_IsSingleton_m14776/* method */
 	, &Interval_t4147_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -6536,10 +6536,10 @@ extern const MethodInfo Interval_get_IsSingleton_m14775_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interval::get_IsEmpty()
-extern const MethodInfo Interval_get_IsEmpty_m14776_MethodInfo = 
+extern const MethodInfo Interval_get_IsEmpty_m14777_MethodInfo = 
 {
 	"get_IsEmpty"/* name */
-	, (methodPointerType)&Interval_get_IsEmpty_m14776/* method */
+	, (methodPointerType)&Interval_get_IsEmpty_m14777/* method */
 	, &Interval_t4147_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -6559,10 +6559,10 @@ extern const MethodInfo Interval_get_IsEmpty_m14776_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Interval::get_Size()
-extern const MethodInfo Interval_get_Size_m14777_MethodInfo = 
+extern const MethodInfo Interval_get_Size_m14778_MethodInfo = 
 {
 	"get_Size"/* name */
-	, (methodPointerType)&Interval_get_Size_m14777/* method */
+	, (methodPointerType)&Interval_get_Size_m14778/* method */
 	, &Interval_t4147_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -6581,20 +6581,20 @@ extern const MethodInfo Interval_get_Size_m14777_MethodInfo =
 
 };
 extern const Il2CppType Interval_t4147_0_0_0;
-static const ParameterInfo Interval_t4147_Interval_IsDisjoint_m14778_ParameterInfos[] = 
+static const ParameterInfo Interval_t4147_Interval_IsDisjoint_m14779_ParameterInfos[] = 
 {
 	{"i", 0, 134219541, 0, &Interval_t4147_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Interval_t4147 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interval::IsDisjoint(System.Text.RegularExpressions.Interval)
-extern const MethodInfo Interval_IsDisjoint_m14778_MethodInfo = 
+extern const MethodInfo Interval_IsDisjoint_m14779_MethodInfo = 
 {
 	"IsDisjoint"/* name */
-	, (methodPointerType)&Interval_IsDisjoint_m14778/* method */
+	, (methodPointerType)&Interval_IsDisjoint_m14779/* method */
 	, &Interval_t4147_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Interval_t4147/* invoker_method */
-	, Interval_t4147_Interval_IsDisjoint_m14778_ParameterInfos/* parameters */
+	, Interval_t4147_Interval_IsDisjoint_m14779_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6609,20 +6609,20 @@ extern const MethodInfo Interval_IsDisjoint_m14778_MethodInfo =
 
 };
 extern const Il2CppType Interval_t4147_0_0_0;
-static const ParameterInfo Interval_t4147_Interval_IsAdjacent_m14779_ParameterInfos[] = 
+static const ParameterInfo Interval_t4147_Interval_IsAdjacent_m14780_ParameterInfos[] = 
 {
 	{"i", 0, 134219542, 0, &Interval_t4147_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Interval_t4147 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interval::IsAdjacent(System.Text.RegularExpressions.Interval)
-extern const MethodInfo Interval_IsAdjacent_m14779_MethodInfo = 
+extern const MethodInfo Interval_IsAdjacent_m14780_MethodInfo = 
 {
 	"IsAdjacent"/* name */
-	, (methodPointerType)&Interval_IsAdjacent_m14779/* method */
+	, (methodPointerType)&Interval_IsAdjacent_m14780/* method */
 	, &Interval_t4147_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Interval_t4147/* invoker_method */
-	, Interval_t4147_Interval_IsAdjacent_m14779_ParameterInfos/* parameters */
+	, Interval_t4147_Interval_IsAdjacent_m14780_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6637,20 +6637,20 @@ extern const MethodInfo Interval_IsAdjacent_m14779_MethodInfo =
 
 };
 extern const Il2CppType Interval_t4147_0_0_0;
-static const ParameterInfo Interval_t4147_Interval_Contains_m14780_ParameterInfos[] = 
+static const ParameterInfo Interval_t4147_Interval_Contains_m14781_ParameterInfos[] = 
 {
 	{"i", 0, 134219543, 0, &Interval_t4147_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Interval_t4147 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interval::Contains(System.Text.RegularExpressions.Interval)
-extern const MethodInfo Interval_Contains_m14780_MethodInfo = 
+extern const MethodInfo Interval_Contains_m14781_MethodInfo = 
 {
 	"Contains"/* name */
-	, (methodPointerType)&Interval_Contains_m14780/* method */
+	, (methodPointerType)&Interval_Contains_m14781/* method */
 	, &Interval_t4147_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Interval_t4147/* invoker_method */
-	, Interval_t4147_Interval_Contains_m14780_ParameterInfos/* parameters */
+	, Interval_t4147_Interval_Contains_m14781_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6665,20 +6665,20 @@ extern const MethodInfo Interval_Contains_m14780_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Interval_t4147_Interval_Contains_m14781_ParameterInfos[] = 
+static const ParameterInfo Interval_t4147_Interval_Contains_m14782_ParameterInfos[] = 
 {
 	{"i", 0, 134219544, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interval::Contains(System.Int32)
-extern const MethodInfo Interval_Contains_m14781_MethodInfo = 
+extern const MethodInfo Interval_Contains_m14782_MethodInfo = 
 {
 	"Contains"/* name */
-	, (methodPointerType)&Interval_Contains_m14781/* method */
+	, (methodPointerType)&Interval_Contains_m14782/* method */
 	, &Interval_t4147_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32_t82/* invoker_method */
-	, Interval_t4147_Interval_Contains_m14781_ParameterInfos/* parameters */
+	, Interval_t4147_Interval_Contains_m14782_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6693,20 +6693,20 @@ extern const MethodInfo Interval_Contains_m14781_MethodInfo =
 
 };
 extern const Il2CppType Interval_t4147_0_0_0;
-static const ParameterInfo Interval_t4147_Interval_Intersects_m14782_ParameterInfos[] = 
+static const ParameterInfo Interval_t4147_Interval_Intersects_m14783_ParameterInfos[] = 
 {
 	{"i", 0, 134219545, 0, &Interval_t4147_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Interval_t4147 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Interval::Intersects(System.Text.RegularExpressions.Interval)
-extern const MethodInfo Interval_Intersects_m14782_MethodInfo = 
+extern const MethodInfo Interval_Intersects_m14783_MethodInfo = 
 {
 	"Intersects"/* name */
-	, (methodPointerType)&Interval_Intersects_m14782/* method */
+	, (methodPointerType)&Interval_Intersects_m14783/* method */
 	, &Interval_t4147_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Interval_t4147/* invoker_method */
-	, Interval_t4147_Interval_Intersects_m14782_ParameterInfos/* parameters */
+	, Interval_t4147_Interval_Intersects_m14783_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6721,20 +6721,20 @@ extern const MethodInfo Interval_Intersects_m14782_MethodInfo =
 
 };
 extern const Il2CppType Interval_t4147_0_0_0;
-static const ParameterInfo Interval_t4147_Interval_Merge_m14783_ParameterInfos[] = 
+static const ParameterInfo Interval_t4147_Interval_Merge_m14784_ParameterInfos[] = 
 {
 	{"i", 0, 134219546, 0, &Interval_t4147_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Interval_t4147 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Interval::Merge(System.Text.RegularExpressions.Interval)
-extern const MethodInfo Interval_Merge_m14783_MethodInfo = 
+extern const MethodInfo Interval_Merge_m14784_MethodInfo = 
 {
 	"Merge"/* name */
-	, (methodPointerType)&Interval_Merge_m14783/* method */
+	, (methodPointerType)&Interval_Merge_m14784/* method */
 	, &Interval_t4147_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Interval_t4147/* invoker_method */
-	, Interval_t4147_Interval_Merge_m14783_ParameterInfos/* parameters */
+	, Interval_t4147_Interval_Merge_m14784_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6749,20 +6749,20 @@ extern const MethodInfo Interval_Merge_m14783_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Interval_t4147_Interval_CompareTo_m14784_ParameterInfos[] = 
+static const ParameterInfo Interval_t4147_Interval_CompareTo_m14785_ParameterInfos[] = 
 {
 	{"o", 0, 134219547, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Interval::CompareTo(System.Object)
-extern const MethodInfo Interval_CompareTo_m14784_MethodInfo = 
+extern const MethodInfo Interval_CompareTo_m14785_MethodInfo = 
 {
 	"CompareTo"/* name */
-	, (methodPointerType)&Interval_CompareTo_m14784/* method */
+	, (methodPointerType)&Interval_CompareTo_m14785/* method */
 	, &Interval_t4147_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, Interval_t4147_Interval_CompareTo_m14784_ParameterInfos/* parameters */
+	, Interval_t4147_Interval_CompareTo_m14785_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -6778,71 +6778,71 @@ extern const MethodInfo Interval_CompareTo_m14784_MethodInfo =
 };
 static const MethodInfo* Interval_t4147_MethodInfos[] =
 {
-	&Interval__ctor_m14772_MethodInfo,
-	&Interval_get_Empty_m14773_MethodInfo,
-	&Interval_get_IsDiscontiguous_m14774_MethodInfo,
-	&Interval_get_IsSingleton_m14775_MethodInfo,
-	&Interval_get_IsEmpty_m14776_MethodInfo,
-	&Interval_get_Size_m14777_MethodInfo,
-	&Interval_IsDisjoint_m14778_MethodInfo,
-	&Interval_IsAdjacent_m14779_MethodInfo,
-	&Interval_Contains_m14780_MethodInfo,
+	&Interval__ctor_m14773_MethodInfo,
+	&Interval_get_Empty_m14774_MethodInfo,
+	&Interval_get_IsDiscontiguous_m14775_MethodInfo,
+	&Interval_get_IsSingleton_m14776_MethodInfo,
+	&Interval_get_IsEmpty_m14777_MethodInfo,
+	&Interval_get_Size_m14778_MethodInfo,
+	&Interval_IsDisjoint_m14779_MethodInfo,
+	&Interval_IsAdjacent_m14780_MethodInfo,
 	&Interval_Contains_m14781_MethodInfo,
-	&Interval_Intersects_m14782_MethodInfo,
-	&Interval_Merge_m14783_MethodInfo,
-	&Interval_CompareTo_m14784_MethodInfo,
+	&Interval_Contains_m14782_MethodInfo,
+	&Interval_Intersects_m14783_MethodInfo,
+	&Interval_Merge_m14784_MethodInfo,
+	&Interval_CompareTo_m14785_MethodInfo,
 	NULL
 };
-extern const MethodInfo Interval_get_Empty_m14773_MethodInfo;
+extern const MethodInfo Interval_get_Empty_m14774_MethodInfo;
 static const PropertyInfo Interval_t4147____Empty_PropertyInfo = 
 {
 	&Interval_t4147_il2cpp_TypeInfo/* parent */
 	, "Empty"/* name */
-	, &Interval_get_Empty_m14773_MethodInfo/* get */
+	, &Interval_get_Empty_m14774_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Interval_get_IsDiscontiguous_m14774_MethodInfo;
+extern const MethodInfo Interval_get_IsDiscontiguous_m14775_MethodInfo;
 static const PropertyInfo Interval_t4147____IsDiscontiguous_PropertyInfo = 
 {
 	&Interval_t4147_il2cpp_TypeInfo/* parent */
 	, "IsDiscontiguous"/* name */
-	, &Interval_get_IsDiscontiguous_m14774_MethodInfo/* get */
+	, &Interval_get_IsDiscontiguous_m14775_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Interval_get_IsSingleton_m14775_MethodInfo;
+extern const MethodInfo Interval_get_IsSingleton_m14776_MethodInfo;
 static const PropertyInfo Interval_t4147____IsSingleton_PropertyInfo = 
 {
 	&Interval_t4147_il2cpp_TypeInfo/* parent */
 	, "IsSingleton"/* name */
-	, &Interval_get_IsSingleton_m14775_MethodInfo/* get */
+	, &Interval_get_IsSingleton_m14776_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Interval_get_IsEmpty_m14776_MethodInfo;
+extern const MethodInfo Interval_get_IsEmpty_m14777_MethodInfo;
 static const PropertyInfo Interval_t4147____IsEmpty_PropertyInfo = 
 {
 	&Interval_t4147_il2cpp_TypeInfo/* parent */
 	, "IsEmpty"/* name */
-	, &Interval_get_IsEmpty_m14776_MethodInfo/* get */
+	, &Interval_get_IsEmpty_m14777_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Interval_get_Size_m14777_MethodInfo;
+extern const MethodInfo Interval_get_Size_m14778_MethodInfo;
 static const PropertyInfo Interval_t4147____Size_PropertyInfo = 
 {
 	&Interval_t4147_il2cpp_TypeInfo/* parent */
 	, "Size"/* name */
-	, &Interval_get_Size_m14777_MethodInfo/* get */
+	, &Interval_get_Size_m14778_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -6857,14 +6857,14 @@ static const PropertyInfo* Interval_t4147_PropertyInfos[] =
 	&Interval_t4147____Size_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Interval_CompareTo_m14784_MethodInfo;
+extern const MethodInfo Interval_CompareTo_m14785_MethodInfo;
 static const Il2CppMethodReference Interval_t4147_VTable[] =
 {
-	&ValueType_Equals_m4568_MethodInfo,
+	&ValueType_Equals_m4569_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4569_MethodInfo,
-	&ValueType_ToString_m4570_MethodInfo,
-	&Interval_CompareTo_m14784_MethodInfo,
+	&ValueType_GetHashCode_m4570_MethodInfo,
+	&ValueType_ToString_m4571_MethodInfo,
+	&Interval_CompareTo_m14785_MethodInfo,
 };
 static bool Interval_t4147_VTableIsGenericMethod[] =
 {
@@ -6959,20 +6959,20 @@ extern TypeInfo Enumerator_t4148_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_IntervalCollection_EnuMethodDeclarations.h"
 extern const Il2CppType IList_t686_0_0_0;
 extern const Il2CppType IList_t686_0_0_0;
-static const ParameterInfo Enumerator_t4148_Enumerator__ctor_m14785_ParameterInfos[] = 
+static const ParameterInfo Enumerator_t4148_Enumerator__ctor_m14786_ParameterInfos[] = 
 {
 	{"list", 0, 134219557, 0, &IList_t686_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.IntervalCollection/Enumerator::.ctor(System.Collections.IList)
-extern const MethodInfo Enumerator__ctor_m14785_MethodInfo = 
+extern const MethodInfo Enumerator__ctor_m14786_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Enumerator__ctor_m14785/* method */
+	, (methodPointerType)&Enumerator__ctor_m14786/* method */
 	, &Enumerator_t4148_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Enumerator_t4148_Enumerator__ctor_m14785_ParameterInfos/* parameters */
+	, Enumerator_t4148_Enumerator__ctor_m14786_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -6988,10 +6988,10 @@ extern const MethodInfo Enumerator__ctor_m14785_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Text.RegularExpressions.IntervalCollection/Enumerator::get_Current()
-extern const MethodInfo Enumerator_get_Current_m14786_MethodInfo = 
+extern const MethodInfo Enumerator_get_Current_m14787_MethodInfo = 
 {
 	"get_Current"/* name */
-	, (methodPointerType)&Enumerator_get_Current_m14786/* method */
+	, (methodPointerType)&Enumerator_get_Current_m14787/* method */
 	, &Enumerator_t4148_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7011,10 +7011,10 @@ extern const MethodInfo Enumerator_get_Current_m14786_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.IntervalCollection/Enumerator::MoveNext()
-extern const MethodInfo Enumerator_MoveNext_m14787_MethodInfo = 
+extern const MethodInfo Enumerator_MoveNext_m14788_MethodInfo = 
 {
 	"MoveNext"/* name */
-	, (methodPointerType)&Enumerator_MoveNext_m14787/* method */
+	, (methodPointerType)&Enumerator_MoveNext_m14788/* method */
 	, &Enumerator_t4148_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -7034,10 +7034,10 @@ extern const MethodInfo Enumerator_MoveNext_m14787_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.IntervalCollection/Enumerator::Reset()
-extern const MethodInfo Enumerator_Reset_m14788_MethodInfo = 
+extern const MethodInfo Enumerator_Reset_m14789_MethodInfo = 
 {
 	"Reset"/* name */
-	, (methodPointerType)&Enumerator_Reset_m14788/* method */
+	, (methodPointerType)&Enumerator_Reset_m14789/* method */
 	, &Enumerator_t4148_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7057,18 +7057,18 @@ extern const MethodInfo Enumerator_Reset_m14788_MethodInfo =
 };
 static const MethodInfo* Enumerator_t4148_MethodInfos[] =
 {
-	&Enumerator__ctor_m14785_MethodInfo,
-	&Enumerator_get_Current_m14786_MethodInfo,
-	&Enumerator_MoveNext_m14787_MethodInfo,
-	&Enumerator_Reset_m14788_MethodInfo,
+	&Enumerator__ctor_m14786_MethodInfo,
+	&Enumerator_get_Current_m14787_MethodInfo,
+	&Enumerator_MoveNext_m14788_MethodInfo,
+	&Enumerator_Reset_m14789_MethodInfo,
 	NULL
 };
-extern const MethodInfo Enumerator_get_Current_m14786_MethodInfo;
+extern const MethodInfo Enumerator_get_Current_m14787_MethodInfo;
 static const PropertyInfo Enumerator_t4148____Current_PropertyInfo = 
 {
 	&Enumerator_t4148_il2cpp_TypeInfo/* parent */
 	, "Current"/* name */
-	, &Enumerator_get_Current_m14786_MethodInfo/* get */
+	, &Enumerator_get_Current_m14787_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -7079,17 +7079,17 @@ static const PropertyInfo* Enumerator_t4148_PropertyInfos[] =
 	&Enumerator_t4148____Current_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Enumerator_MoveNext_m14787_MethodInfo;
-extern const MethodInfo Enumerator_Reset_m14788_MethodInfo;
+extern const MethodInfo Enumerator_MoveNext_m14788_MethodInfo;
+extern const MethodInfo Enumerator_Reset_m14789_MethodInfo;
 static const Il2CppMethodReference Enumerator_t4148_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&Enumerator_get_Current_m14786_MethodInfo,
-	&Enumerator_MoveNext_m14787_MethodInfo,
-	&Enumerator_Reset_m14788_MethodInfo,
+	&Enumerator_get_Current_m14787_MethodInfo,
+	&Enumerator_MoveNext_m14788_MethodInfo,
+	&Enumerator_Reset_m14789_MethodInfo,
 };
 static bool Enumerator_t4148_VTableIsGenericMethod[] =
 {
@@ -7192,21 +7192,21 @@ extern TypeInfo CostDelegate_t4149_il2cpp_TypeInfo;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo CostDelegate_t4149_CostDelegate__ctor_m14789_ParameterInfos[] = 
+static const ParameterInfo CostDelegate_t4149_CostDelegate__ctor_m14790_ParameterInfos[] = 
 {
 	{"object", 0, 134219558, 0, &Object_t_0_0_0},
 	{"method", 1, 134219559, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.IntervalCollection/CostDelegate::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo CostDelegate__ctor_m14789_MethodInfo = 
+extern const MethodInfo CostDelegate__ctor_m14790_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CostDelegate__ctor_m14789/* method */
+	, (methodPointerType)&CostDelegate__ctor_m14790/* method */
 	, &CostDelegate_t4149_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t/* invoker_method */
-	, CostDelegate_t4149_CostDelegate__ctor_m14789_ParameterInfos/* parameters */
+	, CostDelegate_t4149_CostDelegate__ctor_m14790_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -7221,21 +7221,21 @@ extern const MethodInfo CostDelegate__ctor_m14789_MethodInfo =
 
 };
 extern const Il2CppType Interval_t4147_0_0_0;
-static const ParameterInfo CostDelegate_t4149_CostDelegate_Invoke_m14790_ParameterInfos[] = 
+static const ParameterInfo CostDelegate_t4149_CostDelegate_Invoke_m14791_ParameterInfos[] = 
 {
 	{"i", 0, 134219560, 0, &Interval_t4147_0_0_0},
 };
 extern const Il2CppType Double_t90_0_0_0;
 extern void* RuntimeInvoker_Double_t90_Interval_t4147 (const MethodInfo* method, void* obj, void** args);
 // System.Double System.Text.RegularExpressions.IntervalCollection/CostDelegate::Invoke(System.Text.RegularExpressions.Interval)
-extern const MethodInfo CostDelegate_Invoke_m14790_MethodInfo = 
+extern const MethodInfo CostDelegate_Invoke_m14791_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&CostDelegate_Invoke_m14790/* method */
+	, (methodPointerType)&CostDelegate_Invoke_m14791/* method */
 	, &CostDelegate_t4149_il2cpp_TypeInfo/* declaring_type */
 	, &Double_t90_0_0_0/* return_type */
 	, RuntimeInvoker_Double_t90_Interval_t4147/* invoker_method */
-	, CostDelegate_t4149_CostDelegate_Invoke_m14790_ParameterInfos/* parameters */
+	, CostDelegate_t4149_CostDelegate_Invoke_m14791_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -7253,7 +7253,7 @@ extern const Il2CppType Interval_t4147_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo CostDelegate_t4149_CostDelegate_BeginInvoke_m14791_ParameterInfos[] = 
+static const ParameterInfo CostDelegate_t4149_CostDelegate_BeginInvoke_m14792_ParameterInfos[] = 
 {
 	{"i", 0, 134219561, 0, &Interval_t4147_0_0_0},
 	{"callback", 1, 134219562, 0, &AsyncCallback_t386_0_0_0},
@@ -7262,14 +7262,14 @@ static const ParameterInfo CostDelegate_t4149_CostDelegate_BeginInvoke_m14791_Pa
 extern const Il2CppType IAsyncResult_t385_0_0_0;
 extern void* RuntimeInvoker_Object_t_Interval_t4147_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult System.Text.RegularExpressions.IntervalCollection/CostDelegate::BeginInvoke(System.Text.RegularExpressions.Interval,System.AsyncCallback,System.Object)
-extern const MethodInfo CostDelegate_BeginInvoke_m14791_MethodInfo = 
+extern const MethodInfo CostDelegate_BeginInvoke_m14792_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&CostDelegate_BeginInvoke_m14791/* method */
+	, (methodPointerType)&CostDelegate_BeginInvoke_m14792/* method */
 	, &CostDelegate_t4149_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Interval_t4147_Object_t_Object_t/* invoker_method */
-	, CostDelegate_t4149_CostDelegate_BeginInvoke_m14791_ParameterInfos/* parameters */
+	, CostDelegate_t4149_CostDelegate_BeginInvoke_m14792_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -7284,20 +7284,20 @@ extern const MethodInfo CostDelegate_BeginInvoke_m14791_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo CostDelegate_t4149_CostDelegate_EndInvoke_m14792_ParameterInfos[] = 
+static const ParameterInfo CostDelegate_t4149_CostDelegate_EndInvoke_m14793_ParameterInfos[] = 
 {
 	{"result", 0, 134219564, 0, &IAsyncResult_t385_0_0_0},
 };
 extern void* RuntimeInvoker_Double_t90_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Double System.Text.RegularExpressions.IntervalCollection/CostDelegate::EndInvoke(System.IAsyncResult)
-extern const MethodInfo CostDelegate_EndInvoke_m14792_MethodInfo = 
+extern const MethodInfo CostDelegate_EndInvoke_m14793_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&CostDelegate_EndInvoke_m14792/* method */
+	, (methodPointerType)&CostDelegate_EndInvoke_m14793/* method */
 	, &CostDelegate_t4149_il2cpp_TypeInfo/* declaring_type */
 	, &Double_t90_0_0_0/* return_type */
 	, RuntimeInvoker_Double_t90_Object_t/* invoker_method */
-	, CostDelegate_t4149_CostDelegate_EndInvoke_m14792_ParameterInfos/* parameters */
+	, CostDelegate_t4149_CostDelegate_EndInvoke_m14793_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -7313,39 +7313,39 @@ extern const MethodInfo CostDelegate_EndInvoke_m14792_MethodInfo =
 };
 static const MethodInfo* CostDelegate_t4149_MethodInfos[] =
 {
-	&CostDelegate__ctor_m14789_MethodInfo,
-	&CostDelegate_Invoke_m14790_MethodInfo,
-	&CostDelegate_BeginInvoke_m14791_MethodInfo,
-	&CostDelegate_EndInvoke_m14792_MethodInfo,
+	&CostDelegate__ctor_m14790_MethodInfo,
+	&CostDelegate_Invoke_m14791_MethodInfo,
+	&CostDelegate_BeginInvoke_m14792_MethodInfo,
+	&CostDelegate_EndInvoke_m14793_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m4524_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m4525_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m4526_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo;
-extern const MethodInfo Delegate_Clone_m4528_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4529_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m4530_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4531_MethodInfo;
-extern const MethodInfo CostDelegate_Invoke_m14790_MethodInfo;
-extern const MethodInfo CostDelegate_BeginInvoke_m14791_MethodInfo;
-extern const MethodInfo CostDelegate_EndInvoke_m14792_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m4525_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m4526_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m4527_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo;
+extern const MethodInfo Delegate_Clone_m4529_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4530_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m4531_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4532_MethodInfo;
+extern const MethodInfo CostDelegate_Invoke_m14791_MethodInfo;
+extern const MethodInfo CostDelegate_BeginInvoke_m14792_MethodInfo;
+extern const MethodInfo CostDelegate_EndInvoke_m14793_MethodInfo;
 static const Il2CppMethodReference CostDelegate_t4149_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
-	&CostDelegate_Invoke_m14790_MethodInfo,
-	&CostDelegate_BeginInvoke_m14791_MethodInfo,
-	&CostDelegate_EndInvoke_m14792_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
+	&CostDelegate_Invoke_m14791_MethodInfo,
+	&CostDelegate_BeginInvoke_m14792_MethodInfo,
+	&CostDelegate_EndInvoke_m14793_MethodInfo,
 };
 static bool CostDelegate_t4149_VTableIsGenericMethod[] =
 {
@@ -7450,10 +7450,10 @@ TypeInfo CostDelegate_t4149_il2cpp_TypeInfo =
 #include "System_System_Text_RegularExpressions_IntervalCollectionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.IntervalCollection::.ctor()
-extern const MethodInfo IntervalCollection__ctor_m14793_MethodInfo = 
+extern const MethodInfo IntervalCollection__ctor_m14794_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&IntervalCollection__ctor_m14793/* method */
+	, (methodPointerType)&IntervalCollection__ctor_m14794/* method */
 	, &IntervalCollection_t4150_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7472,20 +7472,20 @@ extern const MethodInfo IntervalCollection__ctor_m14793_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo IntervalCollection_t4150_IntervalCollection_get_Item_m14794_ParameterInfos[] = 
+static const ParameterInfo IntervalCollection_t4150_IntervalCollection_get_Item_m14795_ParameterInfos[] = 
 {
 	{"i", 0, 134219548, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Interval_t4147_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Interval System.Text.RegularExpressions.IntervalCollection::get_Item(System.Int32)
-extern const MethodInfo IntervalCollection_get_Item_m14794_MethodInfo = 
+extern const MethodInfo IntervalCollection_get_Item_m14795_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&IntervalCollection_get_Item_m14794/* method */
+	, (methodPointerType)&IntervalCollection_get_Item_m14795/* method */
 	, &IntervalCollection_t4150_il2cpp_TypeInfo/* declaring_type */
 	, &Interval_t4147_0_0_0/* return_type */
 	, RuntimeInvoker_Interval_t4147_Int32_t82/* invoker_method */
-	, IntervalCollection_t4150_IntervalCollection_get_Item_m14794_ParameterInfos/* parameters */
+	, IntervalCollection_t4150_IntervalCollection_get_Item_m14795_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -7500,20 +7500,20 @@ extern const MethodInfo IntervalCollection_get_Item_m14794_MethodInfo =
 
 };
 extern const Il2CppType Interval_t4147_0_0_0;
-static const ParameterInfo IntervalCollection_t4150_IntervalCollection_Add_m14795_ParameterInfos[] = 
+static const ParameterInfo IntervalCollection_t4150_IntervalCollection_Add_m14796_ParameterInfos[] = 
 {
 	{"i", 0, 134219549, 0, &Interval_t4147_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Interval_t4147 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.IntervalCollection::Add(System.Text.RegularExpressions.Interval)
-extern const MethodInfo IntervalCollection_Add_m14795_MethodInfo = 
+extern const MethodInfo IntervalCollection_Add_m14796_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&IntervalCollection_Add_m14795/* method */
+	, (methodPointerType)&IntervalCollection_Add_m14796/* method */
 	, &IntervalCollection_t4150_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Interval_t4147/* invoker_method */
-	, IntervalCollection_t4150_IntervalCollection_Add_m14795_ParameterInfos/* parameters */
+	, IntervalCollection_t4150_IntervalCollection_Add_m14796_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -7529,10 +7529,10 @@ extern const MethodInfo IntervalCollection_Add_m14795_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.IntervalCollection::Normalize()
-extern const MethodInfo IntervalCollection_Normalize_m14796_MethodInfo = 
+extern const MethodInfo IntervalCollection_Normalize_m14797_MethodInfo = 
 {
 	"Normalize"/* name */
-	, (methodPointerType)&IntervalCollection_Normalize_m14796/* method */
+	, (methodPointerType)&IntervalCollection_Normalize_m14797/* method */
 	, &IntervalCollection_t4150_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7551,20 +7551,20 @@ extern const MethodInfo IntervalCollection_Normalize_m14796_MethodInfo =
 
 };
 extern const Il2CppType CostDelegate_t4149_0_0_0;
-static const ParameterInfo IntervalCollection_t4150_IntervalCollection_GetMetaCollection_m14797_ParameterInfos[] = 
+static const ParameterInfo IntervalCollection_t4150_IntervalCollection_GetMetaCollection_m14798_ParameterInfos[] = 
 {
 	{"cost_del", 0, 134219550, 0, &CostDelegate_t4149_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.IntervalCollection System.Text.RegularExpressions.IntervalCollection::GetMetaCollection(System.Text.RegularExpressions.IntervalCollection/CostDelegate)
-extern const MethodInfo IntervalCollection_GetMetaCollection_m14797_MethodInfo = 
+extern const MethodInfo IntervalCollection_GetMetaCollection_m14798_MethodInfo = 
 {
 	"GetMetaCollection"/* name */
-	, (methodPointerType)&IntervalCollection_GetMetaCollection_m14797/* method */
+	, (methodPointerType)&IntervalCollection_GetMetaCollection_m14798/* method */
 	, &IntervalCollection_t4150_il2cpp_TypeInfo/* declaring_type */
 	, &IntervalCollection_t4150_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, IntervalCollection_t4150_IntervalCollection_GetMetaCollection_m14797_ParameterInfos/* parameters */
+	, IntervalCollection_t4150_IntervalCollection_GetMetaCollection_m14798_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -7582,7 +7582,7 @@ extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType IntervalCollection_t4150_0_0_0;
 extern const Il2CppType CostDelegate_t4149_0_0_0;
-static const ParameterInfo IntervalCollection_t4150_IntervalCollection_Optimize_m14798_ParameterInfos[] = 
+static const ParameterInfo IntervalCollection_t4150_IntervalCollection_Optimize_m14799_ParameterInfos[] = 
 {
 	{"begin", 0, 134219551, 0, &Int32_t82_0_0_0},
 	{"end", 1, 134219552, 0, &Int32_t82_0_0_0},
@@ -7591,14 +7591,14 @@ static const ParameterInfo IntervalCollection_t4150_IntervalCollection_Optimize_
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.IntervalCollection::Optimize(System.Int32,System.Int32,System.Text.RegularExpressions.IntervalCollection,System.Text.RegularExpressions.IntervalCollection/CostDelegate)
-extern const MethodInfo IntervalCollection_Optimize_m14798_MethodInfo = 
+extern const MethodInfo IntervalCollection_Optimize_m14799_MethodInfo = 
 {
 	"Optimize"/* name */
-	, (methodPointerType)&IntervalCollection_Optimize_m14798/* method */
+	, (methodPointerType)&IntervalCollection_Optimize_m14799/* method */
 	, &IntervalCollection_t4150_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_Object_t_Object_t/* invoker_method */
-	, IntervalCollection_t4150_IntervalCollection_Optimize_m14798_ParameterInfos/* parameters */
+	, IntervalCollection_t4150_IntervalCollection_Optimize_m14799_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -7614,10 +7614,10 @@ extern const MethodInfo IntervalCollection_Optimize_m14798_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.IntervalCollection::get_Count()
-extern const MethodInfo IntervalCollection_get_Count_m14799_MethodInfo = 
+extern const MethodInfo IntervalCollection_get_Count_m14800_MethodInfo = 
 {
 	"get_Count"/* name */
-	, (methodPointerType)&IntervalCollection_get_Count_m14799/* method */
+	, (methodPointerType)&IntervalCollection_get_Count_m14800/* method */
 	, &IntervalCollection_t4150_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -7637,10 +7637,10 @@ extern const MethodInfo IntervalCollection_get_Count_m14799_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.IntervalCollection::get_IsSynchronized()
-extern const MethodInfo IntervalCollection_get_IsSynchronized_m14800_MethodInfo = 
+extern const MethodInfo IntervalCollection_get_IsSynchronized_m14801_MethodInfo = 
 {
 	"get_IsSynchronized"/* name */
-	, (methodPointerType)&IntervalCollection_get_IsSynchronized_m14800/* method */
+	, (methodPointerType)&IntervalCollection_get_IsSynchronized_m14801/* method */
 	, &IntervalCollection_t4150_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -7660,10 +7660,10 @@ extern const MethodInfo IntervalCollection_get_IsSynchronized_m14800_MethodInfo 
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Text.RegularExpressions.IntervalCollection::get_SyncRoot()
-extern const MethodInfo IntervalCollection_get_SyncRoot_m14801_MethodInfo = 
+extern const MethodInfo IntervalCollection_get_SyncRoot_m14802_MethodInfo = 
 {
 	"get_SyncRoot"/* name */
-	, (methodPointerType)&IntervalCollection_get_SyncRoot_m14801/* method */
+	, (methodPointerType)&IntervalCollection_get_SyncRoot_m14802/* method */
 	, &IntervalCollection_t4150_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7684,21 +7684,21 @@ extern const MethodInfo IntervalCollection_get_SyncRoot_m14801_MethodInfo =
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo IntervalCollection_t4150_IntervalCollection_CopyTo_m14802_ParameterInfos[] = 
+static const ParameterInfo IntervalCollection_t4150_IntervalCollection_CopyTo_m14803_ParameterInfos[] = 
 {
 	{"array", 0, 134219555, 0, &Array_t_0_0_0},
 	{"index", 1, 134219556, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.IntervalCollection::CopyTo(System.Array,System.Int32)
-extern const MethodInfo IntervalCollection_CopyTo_m14802_MethodInfo = 
+extern const MethodInfo IntervalCollection_CopyTo_m14803_MethodInfo = 
 {
 	"CopyTo"/* name */
-	, (methodPointerType)&IntervalCollection_CopyTo_m14802/* method */
+	, (methodPointerType)&IntervalCollection_CopyTo_m14803/* method */
 	, &IntervalCollection_t4150_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, IntervalCollection_t4150_IntervalCollection_CopyTo_m14802_ParameterInfos/* parameters */
+	, IntervalCollection_t4150_IntervalCollection_CopyTo_m14803_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -7714,10 +7714,10 @@ extern const MethodInfo IntervalCollection_CopyTo_m14802_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IEnumerator System.Text.RegularExpressions.IntervalCollection::GetEnumerator()
-extern const MethodInfo IntervalCollection_GetEnumerator_m14803_MethodInfo = 
+extern const MethodInfo IntervalCollection_GetEnumerator_m14804_MethodInfo = 
 {
 	"GetEnumerator"/* name */
-	, (methodPointerType)&IntervalCollection_GetEnumerator_m14803/* method */
+	, (methodPointerType)&IntervalCollection_GetEnumerator_m14804/* method */
 	, &IntervalCollection_t4150_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7737,58 +7737,58 @@ extern const MethodInfo IntervalCollection_GetEnumerator_m14803_MethodInfo =
 };
 static const MethodInfo* IntervalCollection_t4150_MethodInfos[] =
 {
-	&IntervalCollection__ctor_m14793_MethodInfo,
-	&IntervalCollection_get_Item_m14794_MethodInfo,
-	&IntervalCollection_Add_m14795_MethodInfo,
-	&IntervalCollection_Normalize_m14796_MethodInfo,
-	&IntervalCollection_GetMetaCollection_m14797_MethodInfo,
-	&IntervalCollection_Optimize_m14798_MethodInfo,
-	&IntervalCollection_get_Count_m14799_MethodInfo,
-	&IntervalCollection_get_IsSynchronized_m14800_MethodInfo,
-	&IntervalCollection_get_SyncRoot_m14801_MethodInfo,
-	&IntervalCollection_CopyTo_m14802_MethodInfo,
-	&IntervalCollection_GetEnumerator_m14803_MethodInfo,
+	&IntervalCollection__ctor_m14794_MethodInfo,
+	&IntervalCollection_get_Item_m14795_MethodInfo,
+	&IntervalCollection_Add_m14796_MethodInfo,
+	&IntervalCollection_Normalize_m14797_MethodInfo,
+	&IntervalCollection_GetMetaCollection_m14798_MethodInfo,
+	&IntervalCollection_Optimize_m14799_MethodInfo,
+	&IntervalCollection_get_Count_m14800_MethodInfo,
+	&IntervalCollection_get_IsSynchronized_m14801_MethodInfo,
+	&IntervalCollection_get_SyncRoot_m14802_MethodInfo,
+	&IntervalCollection_CopyTo_m14803_MethodInfo,
+	&IntervalCollection_GetEnumerator_m14804_MethodInfo,
 	NULL
 };
-extern const MethodInfo IntervalCollection_get_Item_m14794_MethodInfo;
+extern const MethodInfo IntervalCollection_get_Item_m14795_MethodInfo;
 static const PropertyInfo IntervalCollection_t4150____Item_PropertyInfo = 
 {
 	&IntervalCollection_t4150_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &IntervalCollection_get_Item_m14794_MethodInfo/* get */
+	, &IntervalCollection_get_Item_m14795_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IntervalCollection_get_Count_m14799_MethodInfo;
+extern const MethodInfo IntervalCollection_get_Count_m14800_MethodInfo;
 static const PropertyInfo IntervalCollection_t4150____Count_PropertyInfo = 
 {
 	&IntervalCollection_t4150_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
-	, &IntervalCollection_get_Count_m14799_MethodInfo/* get */
+	, &IntervalCollection_get_Count_m14800_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IntervalCollection_get_IsSynchronized_m14800_MethodInfo;
+extern const MethodInfo IntervalCollection_get_IsSynchronized_m14801_MethodInfo;
 static const PropertyInfo IntervalCollection_t4150____IsSynchronized_PropertyInfo = 
 {
 	&IntervalCollection_t4150_il2cpp_TypeInfo/* parent */
 	, "IsSynchronized"/* name */
-	, &IntervalCollection_get_IsSynchronized_m14800_MethodInfo/* get */
+	, &IntervalCollection_get_IsSynchronized_m14801_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IntervalCollection_get_SyncRoot_m14801_MethodInfo;
+extern const MethodInfo IntervalCollection_get_SyncRoot_m14802_MethodInfo;
 static const PropertyInfo IntervalCollection_t4150____SyncRoot_PropertyInfo = 
 {
 	&IntervalCollection_t4150_il2cpp_TypeInfo/* parent */
 	, "SyncRoot"/* name */
-	, &IntervalCollection_get_SyncRoot_m14801_MethodInfo/* get */
+	, &IntervalCollection_get_SyncRoot_m14802_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -7807,19 +7807,19 @@ static const Il2CppType* IntervalCollection_t4150_il2cpp_TypeInfo__nestedTypes[2
 	&Enumerator_t4148_0_0_0,
 	&CostDelegate_t4149_0_0_0,
 };
-extern const MethodInfo IntervalCollection_CopyTo_m14802_MethodInfo;
-extern const MethodInfo IntervalCollection_GetEnumerator_m14803_MethodInfo;
+extern const MethodInfo IntervalCollection_CopyTo_m14803_MethodInfo;
+extern const MethodInfo IntervalCollection_GetEnumerator_m14804_MethodInfo;
 static const Il2CppMethodReference IntervalCollection_t4150_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&IntervalCollection_get_Count_m14799_MethodInfo,
-	&IntervalCollection_get_IsSynchronized_m14800_MethodInfo,
-	&IntervalCollection_get_SyncRoot_m14801_MethodInfo,
-	&IntervalCollection_CopyTo_m14802_MethodInfo,
-	&IntervalCollection_GetEnumerator_m14803_MethodInfo,
+	&IntervalCollection_get_Count_m14800_MethodInfo,
+	&IntervalCollection_get_IsSynchronized_m14801_MethodInfo,
+	&IntervalCollection_get_SyncRoot_m14802_MethodInfo,
+	&IntervalCollection_CopyTo_m14803_MethodInfo,
+	&IntervalCollection_GetEnumerator_m14804_MethodInfo,
 };
 static bool IntervalCollection_t4150_VTableIsGenericMethod[] =
 {
@@ -7923,10 +7923,10 @@ extern TypeInfo Parser_t4151_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_ParserMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Parser::.ctor()
-extern const MethodInfo Parser__ctor_m14804_MethodInfo = 
+extern const MethodInfo Parser__ctor_m14805_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Parser__ctor_m14804/* method */
+	, (methodPointerType)&Parser__ctor_m14805/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7946,21 +7946,21 @@ extern const MethodInfo Parser__ctor_m14804_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseDecimal_m14805_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseDecimal_m14806_ParameterInfos[] = 
 {
 	{"str", 0, 134219565, 0, &String_t_0_0_0},
 	{"ptr", 1, 134219566, 0, &Int32_t82_1_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseDecimal(System.String,System.Int32&)
-extern const MethodInfo Parser_ParseDecimal_m14805_MethodInfo = 
+extern const MethodInfo Parser_ParseDecimal_m14806_MethodInfo = 
 {
 	"ParseDecimal"/* name */
-	, (methodPointerType)&Parser_ParseDecimal_m14805/* method */
+	, (methodPointerType)&Parser_ParseDecimal_m14806/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t_Int32U26_t826/* invoker_method */
-	, Parser_t4151_Parser_ParseDecimal_m14805_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseDecimal_m14806_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7976,21 +7976,21 @@ extern const MethodInfo Parser_ParseDecimal_m14805_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseOctal_m14806_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseOctal_m14807_ParameterInfos[] = 
 {
 	{"str", 0, 134219567, 0, &String_t_0_0_0},
 	{"ptr", 1, 134219568, 0, &Int32_t82_1_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseOctal(System.String,System.Int32&)
-extern const MethodInfo Parser_ParseOctal_m14806_MethodInfo = 
+extern const MethodInfo Parser_ParseOctal_m14807_MethodInfo = 
 {
 	"ParseOctal"/* name */
-	, (methodPointerType)&Parser_ParseOctal_m14806/* method */
+	, (methodPointerType)&Parser_ParseOctal_m14807/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t_Int32U26_t826/* invoker_method */
-	, Parser_t4151_Parser_ParseOctal_m14806_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseOctal_m14807_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -8007,7 +8007,7 @@ extern const MethodInfo Parser_ParseOctal_m14806_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseHex_m14807_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseHex_m14808_ParameterInfos[] = 
 {
 	{"str", 0, 134219569, 0, &String_t_0_0_0},
 	{"ptr", 1, 134219570, 0, &Int32_t82_1_0_0},
@@ -8015,14 +8015,14 @@ static const ParameterInfo Parser_t4151_Parser_ParseHex_m14807_ParameterInfos[] 
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t_Int32U26_t826_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseHex(System.String,System.Int32&,System.Int32)
-extern const MethodInfo Parser_ParseHex_m14807_MethodInfo = 
+extern const MethodInfo Parser_ParseHex_m14808_MethodInfo = 
 {
 	"ParseHex"/* name */
-	, (methodPointerType)&Parser_ParseHex_m14807/* method */
+	, (methodPointerType)&Parser_ParseHex_m14808/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t_Int32U26_t826_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_ParseHex_m14807_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseHex_m14808_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -8041,7 +8041,7 @@ extern const Il2CppType Int32_t82_1_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseNumber_m14808_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseNumber_m14809_ParameterInfos[] = 
 {
 	{"str", 0, 134219572, 0, &String_t_0_0_0},
 	{"ptr", 1, 134219573, 0, &Int32_t82_1_0_0},
@@ -8051,14 +8051,14 @@ static const ParameterInfo Parser_t4151_Parser_ParseNumber_m14808_ParameterInfos
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t_Int32U26_t826_Int32_t82_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseNumber(System.String,System.Int32&,System.Int32,System.Int32,System.Int32)
-extern const MethodInfo Parser_ParseNumber_m14808_MethodInfo = 
+extern const MethodInfo Parser_ParseNumber_m14809_MethodInfo = 
 {
 	"ParseNumber"/* name */
-	, (methodPointerType)&Parser_ParseNumber_m14808/* method */
+	, (methodPointerType)&Parser_ParseNumber_m14809/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t_Int32U26_t826_Int32_t82_Int32_t82_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_ParseNumber_m14808_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseNumber_m14809_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -8074,21 +8074,21 @@ extern const MethodInfo Parser_ParseNumber_m14808_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseName_m14809_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseName_m14810_ParameterInfos[] = 
 {
 	{"str", 0, 134219577, 0, &String_t_0_0_0},
 	{"ptr", 1, 134219578, 0, &Int32_t82_1_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.RegularExpressions.Syntax.Parser::ParseName(System.String,System.Int32&)
-extern const MethodInfo Parser_ParseName_m14809_MethodInfo = 
+extern const MethodInfo Parser_ParseName_m14810_MethodInfo = 
 {
 	"ParseName"/* name */
-	, (methodPointerType)&Parser_ParseName_m14809/* method */
+	, (methodPointerType)&Parser_ParseName_m14810/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32U26_t826/* invoker_method */
-	, Parser_t4151_Parser_ParseName_m14809_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseName_m14810_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -8104,7 +8104,7 @@ extern const MethodInfo Parser_ParseName_m14809_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType RegexOptions_t4125_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseRegularExpression_m14810_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseRegularExpression_m14811_ParameterInfos[] = 
 {
 	{"pattern", 0, 134219579, 0, &String_t_0_0_0},
 	{"options", 1, 134219580, 0, &RegexOptions_t4125_0_0_0},
@@ -8112,14 +8112,14 @@ static const ParameterInfo Parser_t4151_Parser_ParseRegularExpression_m14810_Par
 extern const Il2CppType RegularExpression_t4157_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.RegularExpression System.Text.RegularExpressions.Syntax.Parser::ParseRegularExpression(System.String,System.Text.RegularExpressions.RegexOptions)
-extern const MethodInfo Parser_ParseRegularExpression_m14810_MethodInfo = 
+extern const MethodInfo Parser_ParseRegularExpression_m14811_MethodInfo = 
 {
 	"ParseRegularExpression"/* name */
-	, (methodPointerType)&Parser_ParseRegularExpression_m14810/* method */
+	, (methodPointerType)&Parser_ParseRegularExpression_m14811/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &RegularExpression_t4157_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_ParseRegularExpression_m14810_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseRegularExpression_m14811_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8135,20 +8135,20 @@ extern const MethodInfo Parser_ParseRegularExpression_m14810_MethodInfo =
 };
 extern const Il2CppType Hashtable_t696_0_0_0;
 extern const Il2CppType Hashtable_t696_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_GetMapping_m14811_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_GetMapping_m14812_ParameterInfos[] = 
 {
 	{"mapping", 0, 134219581, 0, &Hashtable_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::GetMapping(System.Collections.Hashtable)
-extern const MethodInfo Parser_GetMapping_m14811_MethodInfo = 
+extern const MethodInfo Parser_GetMapping_m14812_MethodInfo = 
 {
 	"GetMapping"/* name */
-	, (methodPointerType)&Parser_GetMapping_m14811/* method */
+	, (methodPointerType)&Parser_GetMapping_m14812/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, Parser_t4151_Parser_GetMapping_m14811_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_GetMapping_m14812_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8167,7 +8167,7 @@ extern const Il2CppType Group_t4156_0_0_0;
 extern const Il2CppType RegexOptions_t4125_0_0_0;
 extern const Il2CppType Assertion_t4162_0_0_0;
 extern const Il2CppType Assertion_t4162_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseGroup_m14812_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseGroup_m14813_ParameterInfos[] = 
 {
 	{"group", 0, 134219582, 0, &Group_t4156_0_0_0},
 	{"options", 1, 134219583, 0, &RegexOptions_t4125_0_0_0},
@@ -8175,14 +8175,14 @@ static const ParameterInfo Parser_t4151_Parser_ParseGroup_m14812_ParameterInfos[
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Parser::ParseGroup(System.Text.RegularExpressions.Syntax.Group,System.Text.RegularExpressions.RegexOptions,System.Text.RegularExpressions.Syntax.Assertion)
-extern const MethodInfo Parser_ParseGroup_m14812_MethodInfo = 
+extern const MethodInfo Parser_ParseGroup_m14813_MethodInfo = 
 {
 	"ParseGroup"/* name */
-	, (methodPointerType)&Parser_ParseGroup_m14812/* method */
+	, (methodPointerType)&Parser_ParseGroup_m14813/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82_Object_t/* invoker_method */
-	, Parser_t4151_Parser_ParseGroup_m14812_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseGroup_m14813_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8198,21 +8198,21 @@ extern const MethodInfo Parser_ParseGroup_m14812_MethodInfo =
 };
 extern const Il2CppType RegexOptions_t4125_1_0_0;
 extern const Il2CppType RegexOptions_t4125_1_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseGroupingConstruct_m14813_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseGroupingConstruct_m14814_ParameterInfos[] = 
 {
 	{"options", 0, 134219585, 0, &RegexOptions_t4125_1_0_0},
 };
 extern const Il2CppType Expression_t4154_0_0_0;
 extern void* RuntimeInvoker_Object_t_RegexOptionsU26_t4333 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Parser::ParseGroupingConstruct(System.Text.RegularExpressions.RegexOptions&)
-extern const MethodInfo Parser_ParseGroupingConstruct_m14813_MethodInfo = 
+extern const MethodInfo Parser_ParseGroupingConstruct_m14814_MethodInfo = 
 {
 	"ParseGroupingConstruct"/* name */
-	, (methodPointerType)&Parser_ParseGroupingConstruct_m14813/* method */
+	, (methodPointerType)&Parser_ParseGroupingConstruct_m14814/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Expression_t4154_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_RegexOptionsU26_t4333/* invoker_method */
-	, Parser_t4151_Parser_ParseGroupingConstruct_m14813_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseGroupingConstruct_m14814_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8228,20 +8228,20 @@ extern const MethodInfo Parser_ParseGroupingConstruct_m14813_MethodInfo =
 };
 extern const Il2CppType ExpressionAssertion_t4163_0_0_0;
 extern const Il2CppType ExpressionAssertion_t4163_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseAssertionType_m14814_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseAssertionType_m14815_ParameterInfos[] = 
 {
 	{"assertion", 0, 134219586, 0, &ExpressionAssertion_t4163_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::ParseAssertionType(System.Text.RegularExpressions.Syntax.ExpressionAssertion)
-extern const MethodInfo Parser_ParseAssertionType_m14814_MethodInfo = 
+extern const MethodInfo Parser_ParseAssertionType_m14815_MethodInfo = 
 {
 	"ParseAssertionType"/* name */
-	, (methodPointerType)&Parser_ParseAssertionType_m14814/* method */
+	, (methodPointerType)&Parser_ParseAssertionType_m14815/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Parser_t4151_Parser_ParseAssertionType_m14814_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseAssertionType_m14815_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8257,21 +8257,21 @@ extern const MethodInfo Parser_ParseAssertionType_m14814_MethodInfo =
 };
 extern const Il2CppType RegexOptions_t4125_1_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseOptions_m14815_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseOptions_m14816_ParameterInfos[] = 
 {
 	{"options", 0, 134219587, 0, &RegexOptions_t4125_1_0_0},
 	{"negate", 1, 134219588, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_RegexOptionsU26_t4333_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Parser::ParseOptions(System.Text.RegularExpressions.RegexOptions&,System.Boolean)
-extern const MethodInfo Parser_ParseOptions_m14815_MethodInfo = 
+extern const MethodInfo Parser_ParseOptions_m14816_MethodInfo = 
 {
 	"ParseOptions"/* name */
-	, (methodPointerType)&Parser_ParseOptions_m14815/* method */
+	, (methodPointerType)&Parser_ParseOptions_m14816/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_RegexOptionsU26_t4333_SByte_t88/* invoker_method */
-	, Parser_t4151_Parser_ParseOptions_m14815_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseOptions_m14816_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8286,20 +8286,20 @@ extern const MethodInfo Parser_ParseOptions_m14815_MethodInfo =
 
 };
 extern const Il2CppType RegexOptions_t4125_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseCharacterClass_m14816_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseCharacterClass_m14817_ParameterInfos[] = 
 {
 	{"options", 0, 134219589, 0, &RegexOptions_t4125_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Parser::ParseCharacterClass(System.Text.RegularExpressions.RegexOptions)
-extern const MethodInfo Parser_ParseCharacterClass_m14816_MethodInfo = 
+extern const MethodInfo Parser_ParseCharacterClass_m14817_MethodInfo = 
 {
 	"ParseCharacterClass"/* name */
-	, (methodPointerType)&Parser_ParseCharacterClass_m14816/* method */
+	, (methodPointerType)&Parser_ParseCharacterClass_m14817/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Expression_t4154_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_ParseCharacterClass_m14816_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseCharacterClass_m14817_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8316,7 +8316,7 @@ extern const MethodInfo Parser_ParseCharacterClass_m14816_MethodInfo =
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType RegexOptions_t4125_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseRepetitionBounds_m14817_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseRepetitionBounds_m14818_ParameterInfos[] = 
 {
 	{"min", 0, 134219590, 0, &Int32_t82_1_0_2},
 	{"max", 1, 134219591, 0, &Int32_t82_1_0_2},
@@ -8324,14 +8324,14 @@ static const ParameterInfo Parser_t4151_Parser_ParseRepetitionBounds_m14817_Para
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32U26_t826_Int32U26_t826_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::ParseRepetitionBounds(System.Int32&,System.Int32&,System.Text.RegularExpressions.RegexOptions)
-extern const MethodInfo Parser_ParseRepetitionBounds_m14817_MethodInfo = 
+extern const MethodInfo Parser_ParseRepetitionBounds_m14818_MethodInfo = 
 {
 	"ParseRepetitionBounds"/* name */
-	, (methodPointerType)&Parser_ParseRepetitionBounds_m14817/* method */
+	, (methodPointerType)&Parser_ParseRepetitionBounds_m14818/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32U26_t826_Int32U26_t826_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_ParseRepetitionBounds_m14817_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseRepetitionBounds_m14818_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8347,10 +8347,10 @@ extern const MethodInfo Parser_ParseRepetitionBounds_m14817_MethodInfo =
 };
 extern void* RuntimeInvoker_Category_t4132 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Category System.Text.RegularExpressions.Syntax.Parser::ParseUnicodeCategory()
-extern const MethodInfo Parser_ParseUnicodeCategory_m14818_MethodInfo = 
+extern const MethodInfo Parser_ParseUnicodeCategory_m14819_MethodInfo = 
 {
 	"ParseUnicodeCategory"/* name */
-	, (methodPointerType)&Parser_ParseUnicodeCategory_m14818/* method */
+	, (methodPointerType)&Parser_ParseUnicodeCategory_m14819/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Category_t4132_0_0_0/* return_type */
 	, RuntimeInvoker_Category_t4132/* invoker_method */
@@ -8369,20 +8369,20 @@ extern const MethodInfo Parser_ParseUnicodeCategory_m14818_MethodInfo =
 
 };
 extern const Il2CppType RegexOptions_t4125_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseSpecial_m14819_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseSpecial_m14820_ParameterInfos[] = 
 {
 	{"options", 0, 134219593, 0, &RegexOptions_t4125_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Parser::ParseSpecial(System.Text.RegularExpressions.RegexOptions)
-extern const MethodInfo Parser_ParseSpecial_m14819_MethodInfo = 
+extern const MethodInfo Parser_ParseSpecial_m14820_MethodInfo = 
 {
 	"ParseSpecial"/* name */
-	, (methodPointerType)&Parser_ParseSpecial_m14819/* method */
+	, (methodPointerType)&Parser_ParseSpecial_m14820/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Expression_t4154_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_ParseSpecial_m14819_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseSpecial_m14820_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8398,10 +8398,10 @@ extern const MethodInfo Parser_ParseSpecial_m14819_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseEscape()
-extern const MethodInfo Parser_ParseEscape_m14820_MethodInfo = 
+extern const MethodInfo Parser_ParseEscape_m14821_MethodInfo = 
 {
 	"ParseEscape"/* name */
-	, (methodPointerType)&Parser_ParseEscape_m14820/* method */
+	, (methodPointerType)&Parser_ParseEscape_m14821/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -8421,10 +8421,10 @@ extern const MethodInfo Parser_ParseEscape_m14820_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.RegularExpressions.Syntax.Parser::ParseName()
-extern const MethodInfo Parser_ParseName_m14821_MethodInfo = 
+extern const MethodInfo Parser_ParseName_m14822_MethodInfo = 
 {
 	"ParseName"/* name */
-	, (methodPointerType)&Parser_ParseName_m14821/* method */
+	, (methodPointerType)&Parser_ParseName_m14822/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -8443,20 +8443,20 @@ extern const MethodInfo Parser_ParseName_m14821_MethodInfo =
 
 };
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_IsNameChar_m14822_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_IsNameChar_m14823_ParameterInfos[] = 
 {
 	{"c", 0, 134219594, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsNameChar(System.Char)
-extern const MethodInfo Parser_IsNameChar_m14822_MethodInfo = 
+extern const MethodInfo Parser_IsNameChar_m14823_MethodInfo = 
 {
 	"IsNameChar"/* name */
-	, (methodPointerType)&Parser_IsNameChar_m14822/* method */
+	, (methodPointerType)&Parser_IsNameChar_m14823/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int16_t742/* invoker_method */
-	, Parser_t4151_Parser_IsNameChar_m14822_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_IsNameChar_m14823_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -8473,7 +8473,7 @@ extern const MethodInfo Parser_IsNameChar_m14822_MethodInfo =
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseNumber_m14823_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseNumber_m14824_ParameterInfos[] = 
 {
 	{"b", 0, 134219595, 0, &Int32_t82_0_0_0},
 	{"min", 1, 134219596, 0, &Int32_t82_0_0_0},
@@ -8481,14 +8481,14 @@ static const ParameterInfo Parser_t4151_Parser_ParseNumber_m14823_ParameterInfos
 };
 extern void* RuntimeInvoker_Int32_t82_Int32_t82_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseNumber(System.Int32,System.Int32,System.Int32)
-extern const MethodInfo Parser_ParseNumber_m14823_MethodInfo = 
+extern const MethodInfo Parser_ParseNumber_m14824_MethodInfo = 
 {
 	"ParseNumber"/* name */
-	, (methodPointerType)&Parser_ParseNumber_m14823/* method */
+	, (methodPointerType)&Parser_ParseNumber_m14824/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Int32_t82_Int32_t82_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_ParseNumber_m14823_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseNumber_m14824_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8505,7 +8505,7 @@ extern const MethodInfo Parser_ParseNumber_m14823_MethodInfo =
 extern const Il2CppType Char_t60_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_ParseDigit_m14824_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ParseDigit_m14825_ParameterInfos[] = 
 {
 	{"c", 0, 134219598, 0, &Char_t60_0_0_0},
 	{"b", 1, 134219599, 0, &Int32_t82_0_0_0},
@@ -8513,14 +8513,14 @@ static const ParameterInfo Parser_t4151_Parser_ParseDigit_m14824_ParameterInfos[
 };
 extern void* RuntimeInvoker_Int32_t82_Int16_t742_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseDigit(System.Char,System.Int32,System.Int32)
-extern const MethodInfo Parser_ParseDigit_m14824_MethodInfo = 
+extern const MethodInfo Parser_ParseDigit_m14825_MethodInfo = 
 {
 	"ParseDigit"/* name */
-	, (methodPointerType)&Parser_ParseDigit_m14824/* method */
+	, (methodPointerType)&Parser_ParseDigit_m14825/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Int16_t742_Int32_t82_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_ParseDigit_m14824_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ParseDigit_m14825_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -8535,20 +8535,20 @@ extern const MethodInfo Parser_ParseDigit_m14824_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_ConsumeWhitespace_m14825_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_ConsumeWhitespace_m14826_ParameterInfos[] = 
 {
 	{"ignore", 0, 134219601, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Parser::ConsumeWhitespace(System.Boolean)
-extern const MethodInfo Parser_ConsumeWhitespace_m14825_MethodInfo = 
+extern const MethodInfo Parser_ConsumeWhitespace_m14826_MethodInfo = 
 {
 	"ConsumeWhitespace"/* name */
-	, (methodPointerType)&Parser_ConsumeWhitespace_m14825/* method */
+	, (methodPointerType)&Parser_ConsumeWhitespace_m14826/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Parser_t4151_Parser_ConsumeWhitespace_m14825_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_ConsumeWhitespace_m14826_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8564,10 +8564,10 @@ extern const MethodInfo Parser_ConsumeWhitespace_m14825_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Parser::ResolveReferences()
-extern const MethodInfo Parser_ResolveReferences_m14826_MethodInfo = 
+extern const MethodInfo Parser_ResolveReferences_m14827_MethodInfo = 
 {
 	"ResolveReferences"/* name */
-	, (methodPointerType)&Parser_ResolveReferences_m14826/* method */
+	, (methodPointerType)&Parser_ResolveReferences_m14827/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8587,20 +8587,20 @@ extern const MethodInfo Parser_ResolveReferences_m14826_MethodInfo =
 };
 extern const Il2CppType ArrayList_t698_0_0_0;
 extern const Il2CppType ArrayList_t698_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_HandleExplicitNumericGroups_m14827_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_HandleExplicitNumericGroups_m14828_ParameterInfos[] = 
 {
 	{"explicit_numeric_groups", 0, 134219602, 0, &ArrayList_t698_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Parser::HandleExplicitNumericGroups(System.Collections.ArrayList)
-extern const MethodInfo Parser_HandleExplicitNumericGroups_m14827_MethodInfo = 
+extern const MethodInfo Parser_HandleExplicitNumericGroups_m14828_MethodInfo = 
 {
 	"HandleExplicitNumericGroups"/* name */
-	, (methodPointerType)&Parser_HandleExplicitNumericGroups_m14827/* method */
+	, (methodPointerType)&Parser_HandleExplicitNumericGroups_m14828/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Parser_t4151_Parser_HandleExplicitNumericGroups_m14827_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_HandleExplicitNumericGroups_m14828_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8615,20 +8615,20 @@ extern const MethodInfo Parser_HandleExplicitNumericGroups_m14827_MethodInfo =
 
 };
 extern const Il2CppType RegexOptions_t4125_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_IsIgnoreCase_m14828_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_IsIgnoreCase_m14829_ParameterInfos[] = 
 {
 	{"options", 0, 134219603, 0, &RegexOptions_t4125_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsIgnoreCase(System.Text.RegularExpressions.RegexOptions)
-extern const MethodInfo Parser_IsIgnoreCase_m14828_MethodInfo = 
+extern const MethodInfo Parser_IsIgnoreCase_m14829_MethodInfo = 
 {
 	"IsIgnoreCase"/* name */
-	, (methodPointerType)&Parser_IsIgnoreCase_m14828/* method */
+	, (methodPointerType)&Parser_IsIgnoreCase_m14829/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_IsIgnoreCase_m14828_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_IsIgnoreCase_m14829_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -8643,20 +8643,20 @@ extern const MethodInfo Parser_IsIgnoreCase_m14828_MethodInfo =
 
 };
 extern const Il2CppType RegexOptions_t4125_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_IsMultiline_m14829_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_IsMultiline_m14830_ParameterInfos[] = 
 {
 	{"options", 0, 134219604, 0, &RegexOptions_t4125_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsMultiline(System.Text.RegularExpressions.RegexOptions)
-extern const MethodInfo Parser_IsMultiline_m14829_MethodInfo = 
+extern const MethodInfo Parser_IsMultiline_m14830_MethodInfo = 
 {
 	"IsMultiline"/* name */
-	, (methodPointerType)&Parser_IsMultiline_m14829/* method */
+	, (methodPointerType)&Parser_IsMultiline_m14830/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_IsMultiline_m14829_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_IsMultiline_m14830_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -8671,20 +8671,20 @@ extern const MethodInfo Parser_IsMultiline_m14829_MethodInfo =
 
 };
 extern const Il2CppType RegexOptions_t4125_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_IsExplicitCapture_m14830_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_IsExplicitCapture_m14831_ParameterInfos[] = 
 {
 	{"options", 0, 134219605, 0, &RegexOptions_t4125_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsExplicitCapture(System.Text.RegularExpressions.RegexOptions)
-extern const MethodInfo Parser_IsExplicitCapture_m14830_MethodInfo = 
+extern const MethodInfo Parser_IsExplicitCapture_m14831_MethodInfo = 
 {
 	"IsExplicitCapture"/* name */
-	, (methodPointerType)&Parser_IsExplicitCapture_m14830/* method */
+	, (methodPointerType)&Parser_IsExplicitCapture_m14831/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_IsExplicitCapture_m14830_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_IsExplicitCapture_m14831_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -8699,20 +8699,20 @@ extern const MethodInfo Parser_IsExplicitCapture_m14830_MethodInfo =
 
 };
 extern const Il2CppType RegexOptions_t4125_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_IsSingleline_m14831_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_IsSingleline_m14832_ParameterInfos[] = 
 {
 	{"options", 0, 134219606, 0, &RegexOptions_t4125_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsSingleline(System.Text.RegularExpressions.RegexOptions)
-extern const MethodInfo Parser_IsSingleline_m14831_MethodInfo = 
+extern const MethodInfo Parser_IsSingleline_m14832_MethodInfo = 
 {
 	"IsSingleline"/* name */
-	, (methodPointerType)&Parser_IsSingleline_m14831/* method */
+	, (methodPointerType)&Parser_IsSingleline_m14832/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_IsSingleline_m14831_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_IsSingleline_m14832_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -8727,20 +8727,20 @@ extern const MethodInfo Parser_IsSingleline_m14831_MethodInfo =
 
 };
 extern const Il2CppType RegexOptions_t4125_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_IsIgnorePatternWhitespace_m14832_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_IsIgnorePatternWhitespace_m14833_ParameterInfos[] = 
 {
 	{"options", 0, 134219607, 0, &RegexOptions_t4125_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsIgnorePatternWhitespace(System.Text.RegularExpressions.RegexOptions)
-extern const MethodInfo Parser_IsIgnorePatternWhitespace_m14832_MethodInfo = 
+extern const MethodInfo Parser_IsIgnorePatternWhitespace_m14833_MethodInfo = 
 {
 	"IsIgnorePatternWhitespace"/* name */
-	, (methodPointerType)&Parser_IsIgnorePatternWhitespace_m14832/* method */
+	, (methodPointerType)&Parser_IsIgnorePatternWhitespace_m14833/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_IsIgnorePatternWhitespace_m14832_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_IsIgnorePatternWhitespace_m14833_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -8755,20 +8755,20 @@ extern const MethodInfo Parser_IsIgnorePatternWhitespace_m14832_MethodInfo =
 
 };
 extern const Il2CppType RegexOptions_t4125_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_IsECMAScript_m14833_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_IsECMAScript_m14834_ParameterInfos[] = 
 {
 	{"options", 0, 134219608, 0, &RegexOptions_t4125_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsECMAScript(System.Text.RegularExpressions.RegexOptions)
-extern const MethodInfo Parser_IsECMAScript_m14833_MethodInfo = 
+extern const MethodInfo Parser_IsECMAScript_m14834_MethodInfo = 
 {
 	"IsECMAScript"/* name */
-	, (methodPointerType)&Parser_IsECMAScript_m14833/* method */
+	, (methodPointerType)&Parser_IsECMAScript_m14834/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int32_t82/* invoker_method */
-	, Parser_t4151_Parser_IsECMAScript_m14833_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_IsECMAScript_m14834_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -8783,21 +8783,21 @@ extern const MethodInfo Parser_IsECMAScript_m14833_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Parser_t4151_Parser_NewParseException_m14834_ParameterInfos[] = 
+static const ParameterInfo Parser_t4151_Parser_NewParseException_m14835_ParameterInfos[] = 
 {
 	{"msg", 0, 134219609, 0, &String_t_0_0_0},
 };
 extern const Il2CppType ArgumentException_t711_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.ArgumentException System.Text.RegularExpressions.Syntax.Parser::NewParseException(System.String)
-extern const MethodInfo Parser_NewParseException_m14834_MethodInfo = 
+extern const MethodInfo Parser_NewParseException_m14835_MethodInfo = 
 {
 	"NewParseException"/* name */
-	, (methodPointerType)&Parser_NewParseException_m14834/* method */
+	, (methodPointerType)&Parser_NewParseException_m14835/* method */
 	, &Parser_t4151_il2cpp_TypeInfo/* declaring_type */
 	, &ArgumentException_t711_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Parser_t4151_Parser_NewParseException_m14834_ParameterInfos/* parameters */
+	, Parser_t4151_Parser_NewParseException_m14835_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8813,37 +8813,37 @@ extern const MethodInfo Parser_NewParseException_m14834_MethodInfo =
 };
 static const MethodInfo* Parser_t4151_MethodInfos[] =
 {
-	&Parser__ctor_m14804_MethodInfo,
-	&Parser_ParseDecimal_m14805_MethodInfo,
-	&Parser_ParseOctal_m14806_MethodInfo,
-	&Parser_ParseHex_m14807_MethodInfo,
-	&Parser_ParseNumber_m14808_MethodInfo,
-	&Parser_ParseName_m14809_MethodInfo,
-	&Parser_ParseRegularExpression_m14810_MethodInfo,
-	&Parser_GetMapping_m14811_MethodInfo,
-	&Parser_ParseGroup_m14812_MethodInfo,
-	&Parser_ParseGroupingConstruct_m14813_MethodInfo,
-	&Parser_ParseAssertionType_m14814_MethodInfo,
-	&Parser_ParseOptions_m14815_MethodInfo,
-	&Parser_ParseCharacterClass_m14816_MethodInfo,
-	&Parser_ParseRepetitionBounds_m14817_MethodInfo,
-	&Parser_ParseUnicodeCategory_m14818_MethodInfo,
-	&Parser_ParseSpecial_m14819_MethodInfo,
-	&Parser_ParseEscape_m14820_MethodInfo,
-	&Parser_ParseName_m14821_MethodInfo,
-	&Parser_IsNameChar_m14822_MethodInfo,
-	&Parser_ParseNumber_m14823_MethodInfo,
-	&Parser_ParseDigit_m14824_MethodInfo,
-	&Parser_ConsumeWhitespace_m14825_MethodInfo,
-	&Parser_ResolveReferences_m14826_MethodInfo,
-	&Parser_HandleExplicitNumericGroups_m14827_MethodInfo,
-	&Parser_IsIgnoreCase_m14828_MethodInfo,
-	&Parser_IsMultiline_m14829_MethodInfo,
-	&Parser_IsExplicitCapture_m14830_MethodInfo,
-	&Parser_IsSingleline_m14831_MethodInfo,
-	&Parser_IsIgnorePatternWhitespace_m14832_MethodInfo,
-	&Parser_IsECMAScript_m14833_MethodInfo,
-	&Parser_NewParseException_m14834_MethodInfo,
+	&Parser__ctor_m14805_MethodInfo,
+	&Parser_ParseDecimal_m14806_MethodInfo,
+	&Parser_ParseOctal_m14807_MethodInfo,
+	&Parser_ParseHex_m14808_MethodInfo,
+	&Parser_ParseNumber_m14809_MethodInfo,
+	&Parser_ParseName_m14810_MethodInfo,
+	&Parser_ParseRegularExpression_m14811_MethodInfo,
+	&Parser_GetMapping_m14812_MethodInfo,
+	&Parser_ParseGroup_m14813_MethodInfo,
+	&Parser_ParseGroupingConstruct_m14814_MethodInfo,
+	&Parser_ParseAssertionType_m14815_MethodInfo,
+	&Parser_ParseOptions_m14816_MethodInfo,
+	&Parser_ParseCharacterClass_m14817_MethodInfo,
+	&Parser_ParseRepetitionBounds_m14818_MethodInfo,
+	&Parser_ParseUnicodeCategory_m14819_MethodInfo,
+	&Parser_ParseSpecial_m14820_MethodInfo,
+	&Parser_ParseEscape_m14821_MethodInfo,
+	&Parser_ParseName_m14822_MethodInfo,
+	&Parser_IsNameChar_m14823_MethodInfo,
+	&Parser_ParseNumber_m14824_MethodInfo,
+	&Parser_ParseDigit_m14825_MethodInfo,
+	&Parser_ConsumeWhitespace_m14826_MethodInfo,
+	&Parser_ResolveReferences_m14827_MethodInfo,
+	&Parser_HandleExplicitNumericGroups_m14828_MethodInfo,
+	&Parser_IsIgnoreCase_m14829_MethodInfo,
+	&Parser_IsMultiline_m14830_MethodInfo,
+	&Parser_IsExplicitCapture_m14831_MethodInfo,
+	&Parser_IsSingleline_m14832_MethodInfo,
+	&Parser_IsIgnorePatternWhitespace_m14833_MethodInfo,
+	&Parser_IsECMAScript_m14834_MethodInfo,
+	&Parser_NewParseException_m14835_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference Parser_t4151_VTable[] =
@@ -8940,7 +8940,7 @@ extern TypeInfo QuickSearch_t4144_il2cpp_TypeInfo;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo QuickSearch_t4144_QuickSearch__ctor_m14835_ParameterInfos[] = 
+static const ParameterInfo QuickSearch_t4144_QuickSearch__ctor_m14836_ParameterInfos[] = 
 {
 	{"str", 0, 134219610, 0, &String_t_0_0_0},
 	{"ignore", 1, 134219611, 0, &Boolean_t59_0_0_0},
@@ -8948,14 +8948,14 @@ static const ParameterInfo QuickSearch_t4144_QuickSearch__ctor_m14835_ParameterI
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.QuickSearch::.ctor(System.String,System.Boolean,System.Boolean)
-extern const MethodInfo QuickSearch__ctor_m14835_MethodInfo = 
+extern const MethodInfo QuickSearch__ctor_m14836_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&QuickSearch__ctor_m14835/* method */
+	, (methodPointerType)&QuickSearch__ctor_m14836/* method */
 	, &QuickSearch_t4144_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88_SByte_t88/* invoker_method */
-	, QuickSearch_t4144_QuickSearch__ctor_m14835_ParameterInfos/* parameters */
+	, QuickSearch_t4144_QuickSearch__ctor_m14836_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -8971,10 +8971,10 @@ extern const MethodInfo QuickSearch__ctor_m14835_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.QuickSearch::.cctor()
-extern const MethodInfo QuickSearch__cctor_m14836_MethodInfo = 
+extern const MethodInfo QuickSearch__cctor_m14837_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&QuickSearch__cctor_m14836/* method */
+	, (methodPointerType)&QuickSearch__cctor_m14837/* method */
 	, &QuickSearch_t4144_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8994,10 +8994,10 @@ extern const MethodInfo QuickSearch__cctor_m14836_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.QuickSearch::get_Length()
-extern const MethodInfo QuickSearch_get_Length_m14837_MethodInfo = 
+extern const MethodInfo QuickSearch_get_Length_m14838_MethodInfo = 
 {
 	"get_Length"/* name */
-	, (methodPointerType)&QuickSearch_get_Length_m14837/* method */
+	, (methodPointerType)&QuickSearch_get_Length_m14838/* method */
 	, &QuickSearch_t4144_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -9018,7 +9018,7 @@ extern const MethodInfo QuickSearch_get_Length_m14837_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo QuickSearch_t4144_QuickSearch_Search_m14838_ParameterInfos[] = 
+static const ParameterInfo QuickSearch_t4144_QuickSearch_Search_m14839_ParameterInfos[] = 
 {
 	{"text", 0, 134219613, 0, &String_t_0_0_0},
 	{"start", 1, 134219614, 0, &Int32_t82_0_0_0},
@@ -9026,14 +9026,14 @@ static const ParameterInfo QuickSearch_t4144_QuickSearch_Search_m14838_Parameter
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.QuickSearch::Search(System.String,System.Int32,System.Int32)
-extern const MethodInfo QuickSearch_Search_m14838_MethodInfo = 
+extern const MethodInfo QuickSearch_Search_m14839_MethodInfo = 
 {
 	"Search"/* name */
-	, (methodPointerType)&QuickSearch_Search_m14838/* method */
+	, (methodPointerType)&QuickSearch_Search_m14839/* method */
 	, &QuickSearch_t4144_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82/* invoker_method */
-	, QuickSearch_t4144_QuickSearch_Search_m14838_ParameterInfos/* parameters */
+	, QuickSearch_t4144_QuickSearch_Search_m14839_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -9049,10 +9049,10 @@ extern const MethodInfo QuickSearch_Search_m14838_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.QuickSearch::SetupShiftTable()
-extern const MethodInfo QuickSearch_SetupShiftTable_m14839_MethodInfo = 
+extern const MethodInfo QuickSearch_SetupShiftTable_m14840_MethodInfo = 
 {
 	"SetupShiftTable"/* name */
-	, (methodPointerType)&QuickSearch_SetupShiftTable_m14839/* method */
+	, (methodPointerType)&QuickSearch_SetupShiftTable_m14840/* method */
 	, &QuickSearch_t4144_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9071,20 +9071,20 @@ extern const MethodInfo QuickSearch_SetupShiftTable_m14839_MethodInfo =
 
 };
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo QuickSearch_t4144_QuickSearch_GetShiftDistance_m14840_ParameterInfos[] = 
+static const ParameterInfo QuickSearch_t4144_QuickSearch_GetShiftDistance_m14841_ParameterInfos[] = 
 {
 	{"c", 0, 134219616, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.QuickSearch::GetShiftDistance(System.Char)
-extern const MethodInfo QuickSearch_GetShiftDistance_m14840_MethodInfo = 
+extern const MethodInfo QuickSearch_GetShiftDistance_m14841_MethodInfo = 
 {
 	"GetShiftDistance"/* name */
-	, (methodPointerType)&QuickSearch_GetShiftDistance_m14840/* method */
+	, (methodPointerType)&QuickSearch_GetShiftDistance_m14841/* method */
 	, &QuickSearch_t4144_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Int16_t742/* invoker_method */
-	, QuickSearch_t4144_QuickSearch_GetShiftDistance_m14840_ParameterInfos/* parameters */
+	, QuickSearch_t4144_QuickSearch_GetShiftDistance_m14841_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9099,20 +9099,20 @@ extern const MethodInfo QuickSearch_GetShiftDistance_m14840_MethodInfo =
 
 };
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo QuickSearch_t4144_QuickSearch_GetChar_m14841_ParameterInfos[] = 
+static const ParameterInfo QuickSearch_t4144_QuickSearch_GetChar_m14842_ParameterInfos[] = 
 {
 	{"c", 0, 134219617, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Char_t60_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Text.RegularExpressions.QuickSearch::GetChar(System.Char)
-extern const MethodInfo QuickSearch_GetChar_m14841_MethodInfo = 
+extern const MethodInfo QuickSearch_GetChar_m14842_MethodInfo = 
 {
 	"GetChar"/* name */
-	, (methodPointerType)&QuickSearch_GetChar_m14841/* method */
+	, (methodPointerType)&QuickSearch_GetChar_m14842/* method */
 	, &QuickSearch_t4144_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t60_0_0_0/* return_type */
 	, RuntimeInvoker_Char_t60_Int16_t742/* invoker_method */
-	, QuickSearch_t4144_QuickSearch_GetChar_m14841_ParameterInfos/* parameters */
+	, QuickSearch_t4144_QuickSearch_GetChar_m14842_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9128,21 +9128,21 @@ extern const MethodInfo QuickSearch_GetChar_m14841_MethodInfo =
 };
 static const MethodInfo* QuickSearch_t4144_MethodInfos[] =
 {
-	&QuickSearch__ctor_m14835_MethodInfo,
-	&QuickSearch__cctor_m14836_MethodInfo,
-	&QuickSearch_get_Length_m14837_MethodInfo,
-	&QuickSearch_Search_m14838_MethodInfo,
-	&QuickSearch_SetupShiftTable_m14839_MethodInfo,
-	&QuickSearch_GetShiftDistance_m14840_MethodInfo,
-	&QuickSearch_GetChar_m14841_MethodInfo,
+	&QuickSearch__ctor_m14836_MethodInfo,
+	&QuickSearch__cctor_m14837_MethodInfo,
+	&QuickSearch_get_Length_m14838_MethodInfo,
+	&QuickSearch_Search_m14839_MethodInfo,
+	&QuickSearch_SetupShiftTable_m14840_MethodInfo,
+	&QuickSearch_GetShiftDistance_m14841_MethodInfo,
+	&QuickSearch_GetChar_m14842_MethodInfo,
 	NULL
 };
-extern const MethodInfo QuickSearch_get_Length_m14837_MethodInfo;
+extern const MethodInfo QuickSearch_get_Length_m14838_MethodInfo;
 static const PropertyInfo QuickSearch_t4144____Length_PropertyInfo = 
 {
 	&QuickSearch_t4144_il2cpp_TypeInfo/* parent */
 	, "Length"/* name */
-	, &QuickSearch_get_Length_m14837_MethodInfo/* get */
+	, &QuickSearch_get_Length_m14838_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -9246,21 +9246,21 @@ extern TypeInfo ReplacementEvaluator_t4152_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_ReplacementEvaluatorMethodDeclarations.h"
 extern const Il2CppType Regex_t787_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator__ctor_m14842_ParameterInfos[] = 
+static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator__ctor_m14843_ParameterInfos[] = 
 {
 	{"regex", 0, 134219618, 0, &Regex_t787_0_0_0},
 	{"replacement", 1, 134219619, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ReplacementEvaluator::.ctor(System.Text.RegularExpressions.Regex,System.String)
-extern const MethodInfo ReplacementEvaluator__ctor_m14842_MethodInfo = 
+extern const MethodInfo ReplacementEvaluator__ctor_m14843_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ReplacementEvaluator__ctor_m14842/* method */
+	, (methodPointerType)&ReplacementEvaluator__ctor_m14843/* method */
 	, &ReplacementEvaluator_t4152_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ReplacementEvaluator_t4152_ReplacementEvaluator__ctor_m14842_ParameterInfos/* parameters */
+	, ReplacementEvaluator_t4152_ReplacementEvaluator__ctor_m14843_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -9275,20 +9275,20 @@ extern const MethodInfo ReplacementEvaluator__ctor_m14842_MethodInfo =
 
 };
 extern const Il2CppType Match_t1374_0_0_0;
-static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator_Evaluate_m14843_ParameterInfos[] = 
+static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator_Evaluate_m14844_ParameterInfos[] = 
 {
 	{"match", 0, 134219620, 0, &Match_t1374_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.RegularExpressions.ReplacementEvaluator::Evaluate(System.Text.RegularExpressions.Match)
-extern const MethodInfo ReplacementEvaluator_Evaluate_m14843_MethodInfo = 
+extern const MethodInfo ReplacementEvaluator_Evaluate_m14844_MethodInfo = 
 {
 	"Evaluate"/* name */
-	, (methodPointerType)&ReplacementEvaluator_Evaluate_m14843/* method */
+	, (methodPointerType)&ReplacementEvaluator_Evaluate_m14844/* method */
 	, &ReplacementEvaluator_t4152_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ReplacementEvaluator_t4152_ReplacementEvaluator_Evaluate_m14843_ParameterInfos/* parameters */
+	, ReplacementEvaluator_t4152_ReplacementEvaluator_Evaluate_m14844_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -9305,21 +9305,21 @@ extern const MethodInfo ReplacementEvaluator_Evaluate_m14843_MethodInfo =
 extern const Il2CppType Match_t1374_0_0_0;
 extern const Il2CppType StringBuilder_t261_0_0_0;
 extern const Il2CppType StringBuilder_t261_0_0_0;
-static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator_EvaluateAppend_m14844_ParameterInfos[] = 
+static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator_EvaluateAppend_m14845_ParameterInfos[] = 
 {
 	{"match", 0, 134219621, 0, &Match_t1374_0_0_0},
 	{"sb", 1, 134219622, 0, &StringBuilder_t261_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ReplacementEvaluator::EvaluateAppend(System.Text.RegularExpressions.Match,System.Text.StringBuilder)
-extern const MethodInfo ReplacementEvaluator_EvaluateAppend_m14844_MethodInfo = 
+extern const MethodInfo ReplacementEvaluator_EvaluateAppend_m14845_MethodInfo = 
 {
 	"EvaluateAppend"/* name */
-	, (methodPointerType)&ReplacementEvaluator_EvaluateAppend_m14844/* method */
+	, (methodPointerType)&ReplacementEvaluator_EvaluateAppend_m14845/* method */
 	, &ReplacementEvaluator_t4152_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ReplacementEvaluator_t4152_ReplacementEvaluator_EvaluateAppend_m14844_ParameterInfos/* parameters */
+	, ReplacementEvaluator_t4152_ReplacementEvaluator_EvaluateAppend_m14845_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -9335,10 +9335,10 @@ extern const MethodInfo ReplacementEvaluator_EvaluateAppend_m14844_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.ReplacementEvaluator::get_NeedsGroupsOrCaptures()
-extern const MethodInfo ReplacementEvaluator_get_NeedsGroupsOrCaptures_m14845_MethodInfo = 
+extern const MethodInfo ReplacementEvaluator_get_NeedsGroupsOrCaptures_m14846_MethodInfo = 
 {
 	"get_NeedsGroupsOrCaptures"/* name */
-	, (methodPointerType)&ReplacementEvaluator_get_NeedsGroupsOrCaptures_m14845/* method */
+	, (methodPointerType)&ReplacementEvaluator_get_NeedsGroupsOrCaptures_m14846/* method */
 	, &ReplacementEvaluator_t4152_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -9357,20 +9357,20 @@ extern const MethodInfo ReplacementEvaluator_get_NeedsGroupsOrCaptures_m14845_Me
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator_Ensure_m14846_ParameterInfos[] = 
+static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator_Ensure_m14847_ParameterInfos[] = 
 {
 	{"size", 0, 134219623, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ReplacementEvaluator::Ensure(System.Int32)
-extern const MethodInfo ReplacementEvaluator_Ensure_m14846_MethodInfo = 
+extern const MethodInfo ReplacementEvaluator_Ensure_m14847_MethodInfo = 
 {
 	"Ensure"/* name */
-	, (methodPointerType)&ReplacementEvaluator_Ensure_m14846/* method */
+	, (methodPointerType)&ReplacementEvaluator_Ensure_m14847/* method */
 	, &ReplacementEvaluator_t4152_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, ReplacementEvaluator_t4152_ReplacementEvaluator_Ensure_m14846_ParameterInfos/* parameters */
+	, ReplacementEvaluator_t4152_ReplacementEvaluator_Ensure_m14847_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9386,21 +9386,21 @@ extern const MethodInfo ReplacementEvaluator_Ensure_m14846_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator_AddFromReplacement_m14847_ParameterInfos[] = 
+static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator_AddFromReplacement_m14848_ParameterInfos[] = 
 {
 	{"start", 0, 134219624, 0, &Int32_t82_0_0_0},
 	{"end", 1, 134219625, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ReplacementEvaluator::AddFromReplacement(System.Int32,System.Int32)
-extern const MethodInfo ReplacementEvaluator_AddFromReplacement_m14847_MethodInfo = 
+extern const MethodInfo ReplacementEvaluator_AddFromReplacement_m14848_MethodInfo = 
 {
 	"AddFromReplacement"/* name */
-	, (methodPointerType)&ReplacementEvaluator_AddFromReplacement_m14847/* method */
+	, (methodPointerType)&ReplacementEvaluator_AddFromReplacement_m14848/* method */
 	, &ReplacementEvaluator_t4152_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82/* invoker_method */
-	, ReplacementEvaluator_t4152_ReplacementEvaluator_AddFromReplacement_m14847_ParameterInfos/* parameters */
+	, ReplacementEvaluator_t4152_ReplacementEvaluator_AddFromReplacement_m14848_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9415,20 +9415,20 @@ extern const MethodInfo ReplacementEvaluator_AddFromReplacement_m14847_MethodInf
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator_AddInt_m14848_ParameterInfos[] = 
+static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator_AddInt_m14849_ParameterInfos[] = 
 {
 	{"i", 0, 134219626, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ReplacementEvaluator::AddInt(System.Int32)
-extern const MethodInfo ReplacementEvaluator_AddInt_m14848_MethodInfo = 
+extern const MethodInfo ReplacementEvaluator_AddInt_m14849_MethodInfo = 
 {
 	"AddInt"/* name */
-	, (methodPointerType)&ReplacementEvaluator_AddInt_m14848/* method */
+	, (methodPointerType)&ReplacementEvaluator_AddInt_m14849/* method */
 	, &ReplacementEvaluator_t4152_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, ReplacementEvaluator_t4152_ReplacementEvaluator_AddInt_m14848_ParameterInfos/* parameters */
+	, ReplacementEvaluator_t4152_ReplacementEvaluator_AddInt_m14849_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9444,10 +9444,10 @@ extern const MethodInfo ReplacementEvaluator_AddInt_m14848_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.ReplacementEvaluator::Compile()
-extern const MethodInfo ReplacementEvaluator_Compile_m14849_MethodInfo = 
+extern const MethodInfo ReplacementEvaluator_Compile_m14850_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&ReplacementEvaluator_Compile_m14849/* method */
+	, (methodPointerType)&ReplacementEvaluator_Compile_m14850/* method */
 	, &ReplacementEvaluator_t4152_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9466,20 +9466,20 @@ extern const MethodInfo ReplacementEvaluator_Compile_m14849_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_1_0_0;
-static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator_CompileTerm_m14850_ParameterInfos[] = 
+static const ParameterInfo ReplacementEvaluator_t4152_ReplacementEvaluator_CompileTerm_m14851_ParameterInfos[] = 
 {
 	{"ptr", 0, 134219627, 0, &Int32_t82_1_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.ReplacementEvaluator::CompileTerm(System.Int32&)
-extern const MethodInfo ReplacementEvaluator_CompileTerm_m14850_MethodInfo = 
+extern const MethodInfo ReplacementEvaluator_CompileTerm_m14851_MethodInfo = 
 {
 	"CompileTerm"/* name */
-	, (methodPointerType)&ReplacementEvaluator_CompileTerm_m14850/* method */
+	, (methodPointerType)&ReplacementEvaluator_CompileTerm_m14851/* method */
 	, &ReplacementEvaluator_t4152_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Int32U26_t826/* invoker_method */
-	, ReplacementEvaluator_t4152_ReplacementEvaluator_CompileTerm_m14850_ParameterInfos/* parameters */
+	, ReplacementEvaluator_t4152_ReplacementEvaluator_CompileTerm_m14851_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9495,23 +9495,23 @@ extern const MethodInfo ReplacementEvaluator_CompileTerm_m14850_MethodInfo =
 };
 static const MethodInfo* ReplacementEvaluator_t4152_MethodInfos[] =
 {
-	&ReplacementEvaluator__ctor_m14842_MethodInfo,
-	&ReplacementEvaluator_Evaluate_m14843_MethodInfo,
-	&ReplacementEvaluator_EvaluateAppend_m14844_MethodInfo,
-	&ReplacementEvaluator_get_NeedsGroupsOrCaptures_m14845_MethodInfo,
-	&ReplacementEvaluator_Ensure_m14846_MethodInfo,
-	&ReplacementEvaluator_AddFromReplacement_m14847_MethodInfo,
-	&ReplacementEvaluator_AddInt_m14848_MethodInfo,
-	&ReplacementEvaluator_Compile_m14849_MethodInfo,
-	&ReplacementEvaluator_CompileTerm_m14850_MethodInfo,
+	&ReplacementEvaluator__ctor_m14843_MethodInfo,
+	&ReplacementEvaluator_Evaluate_m14844_MethodInfo,
+	&ReplacementEvaluator_EvaluateAppend_m14845_MethodInfo,
+	&ReplacementEvaluator_get_NeedsGroupsOrCaptures_m14846_MethodInfo,
+	&ReplacementEvaluator_Ensure_m14847_MethodInfo,
+	&ReplacementEvaluator_AddFromReplacement_m14848_MethodInfo,
+	&ReplacementEvaluator_AddInt_m14849_MethodInfo,
+	&ReplacementEvaluator_Compile_m14850_MethodInfo,
+	&ReplacementEvaluator_CompileTerm_m14851_MethodInfo,
 	NULL
 };
-extern const MethodInfo ReplacementEvaluator_get_NeedsGroupsOrCaptures_m14845_MethodInfo;
+extern const MethodInfo ReplacementEvaluator_get_NeedsGroupsOrCaptures_m14846_MethodInfo;
 static const PropertyInfo ReplacementEvaluator_t4152____NeedsGroupsOrCaptures_PropertyInfo = 
 {
 	&ReplacementEvaluator_t4152_il2cpp_TypeInfo/* parent */
 	, "NeedsGroupsOrCaptures"/* name */
-	, &ReplacementEvaluator_get_NeedsGroupsOrCaptures_m14845_MethodInfo/* get */
+	, &ReplacementEvaluator_get_NeedsGroupsOrCaptures_m14846_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -9615,10 +9615,10 @@ extern TypeInfo ExpressionCollection_t4153_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_ExpressionColleMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionCollection::.ctor()
-extern const MethodInfo ExpressionCollection__ctor_m14851_MethodInfo = 
+extern const MethodInfo ExpressionCollection__ctor_m14852_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ExpressionCollection__ctor_m14851/* method */
+	, (methodPointerType)&ExpressionCollection__ctor_m14852/* method */
 	, &ExpressionCollection_t4153_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9637,20 +9637,20 @@ extern const MethodInfo ExpressionCollection__ctor_m14851_MethodInfo =
 
 };
 extern const Il2CppType Expression_t4154_0_0_0;
-static const ParameterInfo ExpressionCollection_t4153_ExpressionCollection_Add_m14852_ParameterInfos[] = 
+static const ParameterInfo ExpressionCollection_t4153_ExpressionCollection_Add_m14853_ParameterInfos[] = 
 {
 	{"e", 0, 134219628, 0, &Expression_t4154_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionCollection::Add(System.Text.RegularExpressions.Syntax.Expression)
-extern const MethodInfo ExpressionCollection_Add_m14852_MethodInfo = 
+extern const MethodInfo ExpressionCollection_Add_m14853_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&ExpressionCollection_Add_m14852/* method */
+	, (methodPointerType)&ExpressionCollection_Add_m14853/* method */
 	, &ExpressionCollection_t4153_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ExpressionCollection_t4153_ExpressionCollection_Add_m14852_ParameterInfos/* parameters */
+	, ExpressionCollection_t4153_ExpressionCollection_Add_m14853_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -9665,20 +9665,20 @@ extern const MethodInfo ExpressionCollection_Add_m14852_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ExpressionCollection_t4153_ExpressionCollection_get_Item_m14853_ParameterInfos[] = 
+static const ParameterInfo ExpressionCollection_t4153_ExpressionCollection_get_Item_m14854_ParameterInfos[] = 
 {
 	{"i", 0, 134219629, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.ExpressionCollection::get_Item(System.Int32)
-extern const MethodInfo ExpressionCollection_get_Item_m14853_MethodInfo = 
+extern const MethodInfo ExpressionCollection_get_Item_m14854_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&ExpressionCollection_get_Item_m14853/* method */
+	, (methodPointerType)&ExpressionCollection_get_Item_m14854/* method */
 	, &ExpressionCollection_t4153_il2cpp_TypeInfo/* declaring_type */
 	, &Expression_t4154_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
-	, ExpressionCollection_t4153_ExpressionCollection_get_Item_m14853_ParameterInfos/* parameters */
+	, ExpressionCollection_t4153_ExpressionCollection_get_Item_m14854_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -9694,21 +9694,21 @@ extern const MethodInfo ExpressionCollection_get_Item_m14853_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Expression_t4154_0_0_0;
-static const ParameterInfo ExpressionCollection_t4153_ExpressionCollection_set_Item_m14854_ParameterInfos[] = 
+static const ParameterInfo ExpressionCollection_t4153_ExpressionCollection_set_Item_m14855_ParameterInfos[] = 
 {
 	{"i", 0, 134219630, 0, &Int32_t82_0_0_0},
 	{"value", 1, 134219631, 0, &Expression_t4154_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionCollection::set_Item(System.Int32,System.Text.RegularExpressions.Syntax.Expression)
-extern const MethodInfo ExpressionCollection_set_Item_m14854_MethodInfo = 
+extern const MethodInfo ExpressionCollection_set_Item_m14855_MethodInfo = 
 {
 	"set_Item"/* name */
-	, (methodPointerType)&ExpressionCollection_set_Item_m14854/* method */
+	, (methodPointerType)&ExpressionCollection_set_Item_m14855/* method */
 	, &ExpressionCollection_t4153_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Object_t/* invoker_method */
-	, ExpressionCollection_t4153_ExpressionCollection_set_Item_m14854_ParameterInfos/* parameters */
+	, ExpressionCollection_t4153_ExpressionCollection_set_Item_m14855_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -9723,20 +9723,20 @@ extern const MethodInfo ExpressionCollection_set_Item_m14854_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ExpressionCollection_t4153_ExpressionCollection_OnValidate_m14855_ParameterInfos[] = 
+static const ParameterInfo ExpressionCollection_t4153_ExpressionCollection_OnValidate_m14856_ParameterInfos[] = 
 {
 	{"o", 0, 134219632, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionCollection::OnValidate(System.Object)
-extern const MethodInfo ExpressionCollection_OnValidate_m14855_MethodInfo = 
+extern const MethodInfo ExpressionCollection_OnValidate_m14856_MethodInfo = 
 {
 	"OnValidate"/* name */
-	, (methodPointerType)&ExpressionCollection_OnValidate_m14855/* method */
+	, (methodPointerType)&ExpressionCollection_OnValidate_m14856/* method */
 	, &ExpressionCollection_t4153_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ExpressionCollection_t4153_ExpressionCollection_OnValidate_m14855_ParameterInfos/* parameters */
+	, ExpressionCollection_t4153_ExpressionCollection_OnValidate_m14856_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -9752,21 +9752,21 @@ extern const MethodInfo ExpressionCollection_OnValidate_m14855_MethodInfo =
 };
 static const MethodInfo* ExpressionCollection_t4153_MethodInfos[] =
 {
-	&ExpressionCollection__ctor_m14851_MethodInfo,
-	&ExpressionCollection_Add_m14852_MethodInfo,
-	&ExpressionCollection_get_Item_m14853_MethodInfo,
-	&ExpressionCollection_set_Item_m14854_MethodInfo,
-	&ExpressionCollection_OnValidate_m14855_MethodInfo,
+	&ExpressionCollection__ctor_m14852_MethodInfo,
+	&ExpressionCollection_Add_m14853_MethodInfo,
+	&ExpressionCollection_get_Item_m14854_MethodInfo,
+	&ExpressionCollection_set_Item_m14855_MethodInfo,
+	&ExpressionCollection_OnValidate_m14856_MethodInfo,
 	NULL
 };
-extern const MethodInfo ExpressionCollection_get_Item_m14853_MethodInfo;
-extern const MethodInfo ExpressionCollection_set_Item_m14854_MethodInfo;
+extern const MethodInfo ExpressionCollection_get_Item_m14854_MethodInfo;
+extern const MethodInfo ExpressionCollection_set_Item_m14855_MethodInfo;
 static const PropertyInfo ExpressionCollection_t4153____Item_PropertyInfo = 
 {
 	&ExpressionCollection_t4153_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &ExpressionCollection_get_Item_m14853_MethodInfo/* get */
-	, &ExpressionCollection_set_Item_m14854_MethodInfo/* set */
+	, &ExpressionCollection_get_Item_m14854_MethodInfo/* get */
+	, &ExpressionCollection_set_Item_m14855_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -9776,62 +9776,62 @@ static const PropertyInfo* ExpressionCollection_t4153_PropertyInfos[] =
 	&ExpressionCollection_t4153____Item_PropertyInfo,
 	NULL
 };
-extern const MethodInfo CollectionBase_GetEnumerator_m15517_MethodInfo;
-extern const MethodInfo CollectionBase_get_Count_m13254_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_ICollection_get_IsSynchronized_m13255_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_ICollection_get_SyncRoot_m13256_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_ICollection_CopyTo_m13257_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_get_IsFixedSize_m13258_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_get_IsReadOnly_m13259_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_get_Item_m13260_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_set_Item_m13261_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_Add_m13262_MethodInfo;
-extern const MethodInfo CollectionBase_Clear_m13263_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_Contains_m13264_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_IndexOf_m13265_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_Insert_m13266_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_Remove_m13267_MethodInfo;
-extern const MethodInfo CollectionBase_RemoveAt_m13268_MethodInfo;
-extern const MethodInfo CollectionBase_OnClear_m13269_MethodInfo;
-extern const MethodInfo CollectionBase_OnClearComplete_m13270_MethodInfo;
-extern const MethodInfo CollectionBase_OnInsert_m13271_MethodInfo;
-extern const MethodInfo CollectionBase_OnInsertComplete_m13272_MethodInfo;
-extern const MethodInfo CollectionBase_OnRemove_m13273_MethodInfo;
-extern const MethodInfo CollectionBase_OnRemoveComplete_m13274_MethodInfo;
-extern const MethodInfo CollectionBase_OnSet_m13275_MethodInfo;
-extern const MethodInfo CollectionBase_OnSetComplete_m13276_MethodInfo;
-extern const MethodInfo ExpressionCollection_OnValidate_m14855_MethodInfo;
+extern const MethodInfo CollectionBase_GetEnumerator_m15518_MethodInfo;
+extern const MethodInfo CollectionBase_get_Count_m13255_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_ICollection_get_IsSynchronized_m13256_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_ICollection_get_SyncRoot_m13257_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_ICollection_CopyTo_m13258_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_get_IsFixedSize_m13259_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_get_IsReadOnly_m13260_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_get_Item_m13261_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_set_Item_m13262_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_Add_m13263_MethodInfo;
+extern const MethodInfo CollectionBase_Clear_m13264_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_Contains_m13265_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_IndexOf_m13266_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_Insert_m13267_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_Remove_m13268_MethodInfo;
+extern const MethodInfo CollectionBase_RemoveAt_m13269_MethodInfo;
+extern const MethodInfo CollectionBase_OnClear_m13270_MethodInfo;
+extern const MethodInfo CollectionBase_OnClearComplete_m13271_MethodInfo;
+extern const MethodInfo CollectionBase_OnInsert_m13272_MethodInfo;
+extern const MethodInfo CollectionBase_OnInsertComplete_m13273_MethodInfo;
+extern const MethodInfo CollectionBase_OnRemove_m13274_MethodInfo;
+extern const MethodInfo CollectionBase_OnRemoveComplete_m13275_MethodInfo;
+extern const MethodInfo CollectionBase_OnSet_m13276_MethodInfo;
+extern const MethodInfo CollectionBase_OnSetComplete_m13277_MethodInfo;
+extern const MethodInfo ExpressionCollection_OnValidate_m14856_MethodInfo;
 static const Il2CppMethodReference ExpressionCollection_t4153_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&CollectionBase_GetEnumerator_m15517_MethodInfo,
-	&CollectionBase_get_Count_m13254_MethodInfo,
-	&CollectionBase_System_Collections_ICollection_get_IsSynchronized_m13255_MethodInfo,
-	&CollectionBase_System_Collections_ICollection_get_SyncRoot_m13256_MethodInfo,
-	&CollectionBase_System_Collections_ICollection_CopyTo_m13257_MethodInfo,
-	&CollectionBase_System_Collections_IList_get_IsFixedSize_m13258_MethodInfo,
-	&CollectionBase_System_Collections_IList_get_IsReadOnly_m13259_MethodInfo,
-	&CollectionBase_System_Collections_IList_get_Item_m13260_MethodInfo,
-	&CollectionBase_System_Collections_IList_set_Item_m13261_MethodInfo,
-	&CollectionBase_System_Collections_IList_Add_m13262_MethodInfo,
-	&CollectionBase_Clear_m13263_MethodInfo,
-	&CollectionBase_System_Collections_IList_Contains_m13264_MethodInfo,
-	&CollectionBase_System_Collections_IList_IndexOf_m13265_MethodInfo,
-	&CollectionBase_System_Collections_IList_Insert_m13266_MethodInfo,
-	&CollectionBase_System_Collections_IList_Remove_m13267_MethodInfo,
-	&CollectionBase_RemoveAt_m13268_MethodInfo,
-	&CollectionBase_OnClear_m13269_MethodInfo,
-	&CollectionBase_OnClearComplete_m13270_MethodInfo,
-	&CollectionBase_OnInsert_m13271_MethodInfo,
-	&CollectionBase_OnInsertComplete_m13272_MethodInfo,
-	&CollectionBase_OnRemove_m13273_MethodInfo,
-	&CollectionBase_OnRemoveComplete_m13274_MethodInfo,
-	&CollectionBase_OnSet_m13275_MethodInfo,
-	&CollectionBase_OnSetComplete_m13276_MethodInfo,
-	&ExpressionCollection_OnValidate_m14855_MethodInfo,
+	&CollectionBase_GetEnumerator_m15518_MethodInfo,
+	&CollectionBase_get_Count_m13255_MethodInfo,
+	&CollectionBase_System_Collections_ICollection_get_IsSynchronized_m13256_MethodInfo,
+	&CollectionBase_System_Collections_ICollection_get_SyncRoot_m13257_MethodInfo,
+	&CollectionBase_System_Collections_ICollection_CopyTo_m13258_MethodInfo,
+	&CollectionBase_System_Collections_IList_get_IsFixedSize_m13259_MethodInfo,
+	&CollectionBase_System_Collections_IList_get_IsReadOnly_m13260_MethodInfo,
+	&CollectionBase_System_Collections_IList_get_Item_m13261_MethodInfo,
+	&CollectionBase_System_Collections_IList_set_Item_m13262_MethodInfo,
+	&CollectionBase_System_Collections_IList_Add_m13263_MethodInfo,
+	&CollectionBase_Clear_m13264_MethodInfo,
+	&CollectionBase_System_Collections_IList_Contains_m13265_MethodInfo,
+	&CollectionBase_System_Collections_IList_IndexOf_m13266_MethodInfo,
+	&CollectionBase_System_Collections_IList_Insert_m13267_MethodInfo,
+	&CollectionBase_System_Collections_IList_Remove_m13268_MethodInfo,
+	&CollectionBase_RemoveAt_m13269_MethodInfo,
+	&CollectionBase_OnClear_m13270_MethodInfo,
+	&CollectionBase_OnClearComplete_m13271_MethodInfo,
+	&CollectionBase_OnInsert_m13272_MethodInfo,
+	&CollectionBase_OnInsertComplete_m13273_MethodInfo,
+	&CollectionBase_OnRemove_m13274_MethodInfo,
+	&CollectionBase_OnRemoveComplete_m13275_MethodInfo,
+	&CollectionBase_OnSet_m13276_MethodInfo,
+	&CollectionBase_OnSetComplete_m13277_MethodInfo,
+	&ExpressionCollection_OnValidate_m14856_MethodInfo,
 };
 static bool ExpressionCollection_t4153_VTableIsGenericMethod[] =
 {
@@ -9951,10 +9951,10 @@ extern TypeInfo Expression_t4154_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_ExpressionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Expression::.ctor()
-extern const MethodInfo Expression__ctor_m14856_MethodInfo = 
+extern const MethodInfo Expression__ctor_m14857_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Expression__ctor_m14856/* method */
+	, (methodPointerType)&Expression__ctor_m14857/* method */
 	, &Expression_t4154_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9974,21 +9974,21 @@ extern const MethodInfo Expression__ctor_m14856_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Expression_t4154_Expression_Compile_m15414_ParameterInfos[] = 
+static const ParameterInfo Expression_t4154_Expression_Compile_m15415_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219633, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219634, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Expression::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo Expression_Compile_m15414_MethodInfo = 
+extern const MethodInfo Expression_Compile_m15415_MethodInfo = 
 {
 	"Compile"/* name */
 	, NULL/* method */
 	, &Expression_t4154_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, Expression_t4154_Expression_Compile_m15414_ParameterInfos/* parameters */
+	, Expression_t4154_Expression_Compile_m15415_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -10004,21 +10004,21 @@ extern const MethodInfo Expression_Compile_m15414_MethodInfo =
 };
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Int32_t82_1_0_2;
-static const ParameterInfo Expression_t4154_Expression_GetWidth_m15415_ParameterInfos[] = 
+static const ParameterInfo Expression_t4154_Expression_GetWidth_m15416_ParameterInfos[] = 
 {
 	{"min", 0, 134219635, 0, &Int32_t82_1_0_2},
 	{"max", 1, 134219636, 0, &Int32_t82_1_0_2},
 };
 extern void* RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Expression::GetWidth(System.Int32&,System.Int32&)
-extern const MethodInfo Expression_GetWidth_m15415_MethodInfo = 
+extern const MethodInfo Expression_GetWidth_m15416_MethodInfo = 
 {
 	"GetWidth"/* name */
 	, NULL/* method */
 	, &Expression_t4154_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826/* invoker_method */
-	, Expression_t4154_Expression_GetWidth_m15415_ParameterInfos/* parameters */
+	, Expression_t4154_Expression_GetWidth_m15416_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -10034,10 +10034,10 @@ extern const MethodInfo Expression_GetWidth_m15415_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.Expression::GetFixedWidth()
-extern const MethodInfo Expression_GetFixedWidth_m14857_MethodInfo = 
+extern const MethodInfo Expression_GetFixedWidth_m14858_MethodInfo = 
 {
 	"GetFixedWidth"/* name */
-	, (methodPointerType)&Expression_GetFixedWidth_m14857/* method */
+	, (methodPointerType)&Expression_GetFixedWidth_m14858/* method */
 	, &Expression_t4154_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -10056,21 +10056,21 @@ extern const MethodInfo Expression_GetFixedWidth_m14857_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Expression_t4154_Expression_GetAnchorInfo_m14858_ParameterInfos[] = 
+static const ParameterInfo Expression_t4154_Expression_GetAnchorInfo_m14859_ParameterInfos[] = 
 {
 	{"reverse", 0, 134219637, 0, &Boolean_t59_0_0_0},
 };
 extern const Il2CppType AnchorInfo_t4172_0_0_0;
 extern void* RuntimeInvoker_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Expression::GetAnchorInfo(System.Boolean)
-extern const MethodInfo Expression_GetAnchorInfo_m14858_MethodInfo = 
+extern const MethodInfo Expression_GetAnchorInfo_m14859_MethodInfo = 
 {
 	"GetAnchorInfo"/* name */
-	, (methodPointerType)&Expression_GetAnchorInfo_m14858/* method */
+	, (methodPointerType)&Expression_GetAnchorInfo_m14859/* method */
 	, &Expression_t4154_il2cpp_TypeInfo/* declaring_type */
 	, &AnchorInfo_t4172_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
-	, Expression_t4154_Expression_GetAnchorInfo_m14858_ParameterInfos/* parameters */
+	, Expression_t4154_Expression_GetAnchorInfo_m14859_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -10086,7 +10086,7 @@ extern const MethodInfo Expression_GetAnchorInfo_m14858_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.Expression::IsComplex()
-extern const MethodInfo Expression_IsComplex_m15416_MethodInfo = 
+extern const MethodInfo Expression_IsComplex_m15417_MethodInfo = 
 {
 	"IsComplex"/* name */
 	, NULL/* method */
@@ -10109,15 +10109,15 @@ extern const MethodInfo Expression_IsComplex_m15416_MethodInfo =
 };
 static const MethodInfo* Expression_t4154_MethodInfos[] =
 {
-	&Expression__ctor_m14856_MethodInfo,
-	&Expression_Compile_m15414_MethodInfo,
-	&Expression_GetWidth_m15415_MethodInfo,
-	&Expression_GetFixedWidth_m14857_MethodInfo,
-	&Expression_GetAnchorInfo_m14858_MethodInfo,
-	&Expression_IsComplex_m15416_MethodInfo,
+	&Expression__ctor_m14857_MethodInfo,
+	&Expression_Compile_m15415_MethodInfo,
+	&Expression_GetWidth_m15416_MethodInfo,
+	&Expression_GetFixedWidth_m14858_MethodInfo,
+	&Expression_GetAnchorInfo_m14859_MethodInfo,
+	&Expression_IsComplex_m15417_MethodInfo,
 	NULL
 };
-extern const MethodInfo Expression_GetAnchorInfo_m14858_MethodInfo;
+extern const MethodInfo Expression_GetAnchorInfo_m14859_MethodInfo;
 static const Il2CppMethodReference Expression_t4154_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
@@ -10126,7 +10126,7 @@ static const Il2CppMethodReference Expression_t4154_VTable[] =
 	&Object_ToString_m492_MethodInfo,
 	NULL,
 	NULL,
-	&Expression_GetAnchorInfo_m14858_MethodInfo,
+	&Expression_GetAnchorInfo_m14859_MethodInfo,
 	NULL,
 };
 static bool Expression_t4154_VTableIsGenericMethod[] =
@@ -10218,10 +10218,10 @@ extern TypeInfo CompositeExpression_t4155_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_CompositeExpresMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CompositeExpression::.ctor()
-extern const MethodInfo CompositeExpression__ctor_m14859_MethodInfo = 
+extern const MethodInfo CompositeExpression__ctor_m14860_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CompositeExpression__ctor_m14859/* method */
+	, (methodPointerType)&CompositeExpression__ctor_m14860/* method */
 	, &CompositeExpression_t4155_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10241,10 +10241,10 @@ extern const MethodInfo CompositeExpression__ctor_m14859_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.ExpressionCollection System.Text.RegularExpressions.Syntax.CompositeExpression::get_Expressions()
-extern const MethodInfo CompositeExpression_get_Expressions_m14860_MethodInfo = 
+extern const MethodInfo CompositeExpression_get_Expressions_m14861_MethodInfo = 
 {
 	"get_Expressions"/* name */
-	, (methodPointerType)&CompositeExpression_get_Expressions_m14860/* method */
+	, (methodPointerType)&CompositeExpression_get_Expressions_m14861/* method */
 	, &CompositeExpression_t4155_il2cpp_TypeInfo/* declaring_type */
 	, &ExpressionCollection_t4153_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10265,7 +10265,7 @@ extern const MethodInfo CompositeExpression_get_Expressions_m14860_MethodInfo =
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo CompositeExpression_t4155_CompositeExpression_GetWidth_m14861_ParameterInfos[] = 
+static const ParameterInfo CompositeExpression_t4155_CompositeExpression_GetWidth_m14862_ParameterInfos[] = 
 {
 	{"min", 0, 134219638, 0, &Int32_t82_1_0_2},
 	{"max", 1, 134219639, 0, &Int32_t82_1_0_2},
@@ -10273,14 +10273,14 @@ static const ParameterInfo CompositeExpression_t4155_CompositeExpression_GetWidt
 };
 extern void* RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CompositeExpression::GetWidth(System.Int32&,System.Int32&,System.Int32)
-extern const MethodInfo CompositeExpression_GetWidth_m14861_MethodInfo = 
+extern const MethodInfo CompositeExpression_GetWidth_m14862_MethodInfo = 
 {
 	"GetWidth"/* name */
-	, (methodPointerType)&CompositeExpression_GetWidth_m14861/* method */
+	, (methodPointerType)&CompositeExpression_GetWidth_m14862/* method */
 	, &CompositeExpression_t4155_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826_Int32_t82/* invoker_method */
-	, CompositeExpression_t4155_CompositeExpression_GetWidth_m14861_ParameterInfos/* parameters */
+	, CompositeExpression_t4155_CompositeExpression_GetWidth_m14862_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -10296,10 +10296,10 @@ extern const MethodInfo CompositeExpression_GetWidth_m14861_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.CompositeExpression::IsComplex()
-extern const MethodInfo CompositeExpression_IsComplex_m14862_MethodInfo = 
+extern const MethodInfo CompositeExpression_IsComplex_m14863_MethodInfo = 
 {
 	"IsComplex"/* name */
-	, (methodPointerType)&CompositeExpression_IsComplex_m14862/* method */
+	, (methodPointerType)&CompositeExpression_IsComplex_m14863/* method */
 	, &CompositeExpression_t4155_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -10319,18 +10319,18 @@ extern const MethodInfo CompositeExpression_IsComplex_m14862_MethodInfo =
 };
 static const MethodInfo* CompositeExpression_t4155_MethodInfos[] =
 {
-	&CompositeExpression__ctor_m14859_MethodInfo,
-	&CompositeExpression_get_Expressions_m14860_MethodInfo,
-	&CompositeExpression_GetWidth_m14861_MethodInfo,
-	&CompositeExpression_IsComplex_m14862_MethodInfo,
+	&CompositeExpression__ctor_m14860_MethodInfo,
+	&CompositeExpression_get_Expressions_m14861_MethodInfo,
+	&CompositeExpression_GetWidth_m14862_MethodInfo,
+	&CompositeExpression_IsComplex_m14863_MethodInfo,
 	NULL
 };
-extern const MethodInfo CompositeExpression_get_Expressions_m14860_MethodInfo;
+extern const MethodInfo CompositeExpression_get_Expressions_m14861_MethodInfo;
 static const PropertyInfo CompositeExpression_t4155____Expressions_PropertyInfo = 
 {
 	&CompositeExpression_t4155_il2cpp_TypeInfo/* parent */
 	, "Expressions"/* name */
-	, &CompositeExpression_get_Expressions_m14860_MethodInfo/* get */
+	, &CompositeExpression_get_Expressions_m14861_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -10341,7 +10341,7 @@ static const PropertyInfo* CompositeExpression_t4155_PropertyInfos[] =
 	&CompositeExpression_t4155____Expressions_PropertyInfo,
 	NULL
 };
-extern const MethodInfo CompositeExpression_IsComplex_m14862_MethodInfo;
+extern const MethodInfo CompositeExpression_IsComplex_m14863_MethodInfo;
 static const Il2CppMethodReference CompositeExpression_t4155_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
@@ -10350,8 +10350,8 @@ static const Il2CppMethodReference CompositeExpression_t4155_VTable[] =
 	&Object_ToString_m492_MethodInfo,
 	NULL,
 	NULL,
-	&Expression_GetAnchorInfo_m14858_MethodInfo,
-	&CompositeExpression_IsComplex_m14862_MethodInfo,
+	&Expression_GetAnchorInfo_m14859_MethodInfo,
+	&CompositeExpression_IsComplex_m14863_MethodInfo,
 };
 static bool CompositeExpression_t4155_VTableIsGenericMethod[] =
 {
@@ -10443,10 +10443,10 @@ extern TypeInfo Group_t4156_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_GroupMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Group::.ctor()
-extern const MethodInfo Group__ctor_m14863_MethodInfo = 
+extern const MethodInfo Group__ctor_m14864_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Group__ctor_m14863/* method */
+	, (methodPointerType)&Group__ctor_m14864/* method */
 	, &Group_t4156_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10465,20 +10465,20 @@ extern const MethodInfo Group__ctor_m14863_MethodInfo =
 
 };
 extern const Il2CppType Expression_t4154_0_0_0;
-static const ParameterInfo Group_t4156_Group_AppendExpression_m14864_ParameterInfos[] = 
+static const ParameterInfo Group_t4156_Group_AppendExpression_m14865_ParameterInfos[] = 
 {
 	{"e", 0, 134219641, 0, &Expression_t4154_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Group::AppendExpression(System.Text.RegularExpressions.Syntax.Expression)
-extern const MethodInfo Group_AppendExpression_m14864_MethodInfo = 
+extern const MethodInfo Group_AppendExpression_m14865_MethodInfo = 
 {
 	"AppendExpression"/* name */
-	, (methodPointerType)&Group_AppendExpression_m14864/* method */
+	, (methodPointerType)&Group_AppendExpression_m14865/* method */
 	, &Group_t4156_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Group_t4156_Group_AppendExpression_m14864_ParameterInfos/* parameters */
+	, Group_t4156_Group_AppendExpression_m14865_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -10494,21 +10494,21 @@ extern const MethodInfo Group_AppendExpression_m14864_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Group_t4156_Group_Compile_m14865_ParameterInfos[] = 
+static const ParameterInfo Group_t4156_Group_Compile_m14866_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219642, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219643, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Group::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo Group_Compile_m14865_MethodInfo = 
+extern const MethodInfo Group_Compile_m14866_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&Group_Compile_m14865/* method */
+	, (methodPointerType)&Group_Compile_m14866/* method */
 	, &Group_t4156_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, Group_t4156_Group_Compile_m14865_ParameterInfos/* parameters */
+	, Group_t4156_Group_Compile_m14866_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -10524,21 +10524,21 @@ extern const MethodInfo Group_Compile_m14865_MethodInfo =
 };
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Int32_t82_1_0_2;
-static const ParameterInfo Group_t4156_Group_GetWidth_m14866_ParameterInfos[] = 
+static const ParameterInfo Group_t4156_Group_GetWidth_m14867_ParameterInfos[] = 
 {
 	{"min", 0, 134219644, 0, &Int32_t82_1_0_2},
 	{"max", 1, 134219645, 0, &Int32_t82_1_0_2},
 };
 extern void* RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Group::GetWidth(System.Int32&,System.Int32&)
-extern const MethodInfo Group_GetWidth_m14866_MethodInfo = 
+extern const MethodInfo Group_GetWidth_m14867_MethodInfo = 
 {
 	"GetWidth"/* name */
-	, (methodPointerType)&Group_GetWidth_m14866/* method */
+	, (methodPointerType)&Group_GetWidth_m14867/* method */
 	, &Group_t4156_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826/* invoker_method */
-	, Group_t4156_Group_GetWidth_m14866_ParameterInfos/* parameters */
+	, Group_t4156_Group_GetWidth_m14867_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -10553,20 +10553,20 @@ extern const MethodInfo Group_GetWidth_m14866_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Group_t4156_Group_GetAnchorInfo_m14867_ParameterInfos[] = 
+static const ParameterInfo Group_t4156_Group_GetAnchorInfo_m14868_ParameterInfos[] = 
 {
 	{"reverse", 0, 134219646, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Group::GetAnchorInfo(System.Boolean)
-extern const MethodInfo Group_GetAnchorInfo_m14867_MethodInfo = 
+extern const MethodInfo Group_GetAnchorInfo_m14868_MethodInfo = 
 {
 	"GetAnchorInfo"/* name */
-	, (methodPointerType)&Group_GetAnchorInfo_m14867/* method */
+	, (methodPointerType)&Group_GetAnchorInfo_m14868/* method */
 	, &Group_t4156_il2cpp_TypeInfo/* declaring_type */
 	, &AnchorInfo_t4172_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
-	, Group_t4156_Group_GetAnchorInfo_m14867_ParameterInfos/* parameters */
+	, Group_t4156_Group_GetAnchorInfo_m14868_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -10582,26 +10582,26 @@ extern const MethodInfo Group_GetAnchorInfo_m14867_MethodInfo =
 };
 static const MethodInfo* Group_t4156_MethodInfos[] =
 {
-	&Group__ctor_m14863_MethodInfo,
-	&Group_AppendExpression_m14864_MethodInfo,
-	&Group_Compile_m14865_MethodInfo,
-	&Group_GetWidth_m14866_MethodInfo,
-	&Group_GetAnchorInfo_m14867_MethodInfo,
+	&Group__ctor_m14864_MethodInfo,
+	&Group_AppendExpression_m14865_MethodInfo,
+	&Group_Compile_m14866_MethodInfo,
+	&Group_GetWidth_m14867_MethodInfo,
+	&Group_GetAnchorInfo_m14868_MethodInfo,
 	NULL
 };
-extern const MethodInfo Group_Compile_m14865_MethodInfo;
-extern const MethodInfo Group_GetWidth_m14866_MethodInfo;
-extern const MethodInfo Group_GetAnchorInfo_m14867_MethodInfo;
+extern const MethodInfo Group_Compile_m14866_MethodInfo;
+extern const MethodInfo Group_GetWidth_m14867_MethodInfo;
+extern const MethodInfo Group_GetAnchorInfo_m14868_MethodInfo;
 static const Il2CppMethodReference Group_t4156_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&Group_Compile_m14865_MethodInfo,
-	&Group_GetWidth_m14866_MethodInfo,
-	&Group_GetAnchorInfo_m14867_MethodInfo,
-	&CompositeExpression_IsComplex_m14862_MethodInfo,
+	&Group_Compile_m14866_MethodInfo,
+	&Group_GetWidth_m14867_MethodInfo,
+	&Group_GetAnchorInfo_m14868_MethodInfo,
+	&CompositeExpression_IsComplex_m14863_MethodInfo,
 };
 static bool Group_t4156_VTableIsGenericMethod[] =
 {
@@ -10692,10 +10692,10 @@ extern TypeInfo RegularExpression_t4157_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_RegularExpressiMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.RegularExpression::.ctor()
-extern const MethodInfo RegularExpression__ctor_m14868_MethodInfo = 
+extern const MethodInfo RegularExpression__ctor_m14869_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RegularExpression__ctor_m14868/* method */
+	, (methodPointerType)&RegularExpression__ctor_m14869/* method */
 	, &RegularExpression_t4157_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10714,20 +10714,20 @@ extern const MethodInfo RegularExpression__ctor_m14868_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo RegularExpression_t4157_RegularExpression_set_GroupCount_m14869_ParameterInfos[] = 
+static const ParameterInfo RegularExpression_t4157_RegularExpression_set_GroupCount_m14870_ParameterInfos[] = 
 {
 	{"value", 0, 134219647, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.RegularExpression::set_GroupCount(System.Int32)
-extern const MethodInfo RegularExpression_set_GroupCount_m14869_MethodInfo = 
+extern const MethodInfo RegularExpression_set_GroupCount_m14870_MethodInfo = 
 {
 	"set_GroupCount"/* name */
-	, (methodPointerType)&RegularExpression_set_GroupCount_m14869/* method */
+	, (methodPointerType)&RegularExpression_set_GroupCount_m14870/* method */
 	, &RegularExpression_t4157_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, RegularExpression_t4157_RegularExpression_set_GroupCount_m14869_ParameterInfos/* parameters */
+	, RegularExpression_t4157_RegularExpression_set_GroupCount_m14870_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -10743,21 +10743,21 @@ extern const MethodInfo RegularExpression_set_GroupCount_m14869_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo RegularExpression_t4157_RegularExpression_Compile_m14870_ParameterInfos[] = 
+static const ParameterInfo RegularExpression_t4157_RegularExpression_Compile_m14871_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219648, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219649, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.RegularExpression::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo RegularExpression_Compile_m14870_MethodInfo = 
+extern const MethodInfo RegularExpression_Compile_m14871_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&RegularExpression_Compile_m14870/* method */
+	, (methodPointerType)&RegularExpression_Compile_m14871/* method */
 	, &RegularExpression_t4157_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, RegularExpression_t4157_RegularExpression_Compile_m14870_ParameterInfos/* parameters */
+	, RegularExpression_t4157_RegularExpression_Compile_m14871_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -10773,18 +10773,18 @@ extern const MethodInfo RegularExpression_Compile_m14870_MethodInfo =
 };
 static const MethodInfo* RegularExpression_t4157_MethodInfos[] =
 {
-	&RegularExpression__ctor_m14868_MethodInfo,
-	&RegularExpression_set_GroupCount_m14869_MethodInfo,
-	&RegularExpression_Compile_m14870_MethodInfo,
+	&RegularExpression__ctor_m14869_MethodInfo,
+	&RegularExpression_set_GroupCount_m14870_MethodInfo,
+	&RegularExpression_Compile_m14871_MethodInfo,
 	NULL
 };
-extern const MethodInfo RegularExpression_set_GroupCount_m14869_MethodInfo;
+extern const MethodInfo RegularExpression_set_GroupCount_m14870_MethodInfo;
 static const PropertyInfo RegularExpression_t4157____GroupCount_PropertyInfo = 
 {
 	&RegularExpression_t4157_il2cpp_TypeInfo/* parent */
 	, "GroupCount"/* name */
 	, NULL/* get */
-	, &RegularExpression_set_GroupCount_m14869_MethodInfo/* set */
+	, &RegularExpression_set_GroupCount_m14870_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -10794,17 +10794,17 @@ static const PropertyInfo* RegularExpression_t4157_PropertyInfos[] =
 	&RegularExpression_t4157____GroupCount_PropertyInfo,
 	NULL
 };
-extern const MethodInfo RegularExpression_Compile_m14870_MethodInfo;
+extern const MethodInfo RegularExpression_Compile_m14871_MethodInfo;
 static const Il2CppMethodReference RegularExpression_t4157_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&RegularExpression_Compile_m14870_MethodInfo,
-	&Group_GetWidth_m14866_MethodInfo,
-	&Group_GetAnchorInfo_m14867_MethodInfo,
-	&CompositeExpression_IsComplex_m14862_MethodInfo,
+	&RegularExpression_Compile_m14871_MethodInfo,
+	&Group_GetWidth_m14867_MethodInfo,
+	&Group_GetAnchorInfo_m14868_MethodInfo,
+	&CompositeExpression_IsComplex_m14863_MethodInfo,
 };
 static bool RegularExpression_t4157_VTableIsGenericMethod[] =
 {
@@ -10895,10 +10895,10 @@ extern TypeInfo CapturingGroup_t4158_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_CapturingGroupMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CapturingGroup::.ctor()
-extern const MethodInfo CapturingGroup__ctor_m14871_MethodInfo = 
+extern const MethodInfo CapturingGroup__ctor_m14872_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CapturingGroup__ctor_m14871/* method */
+	, (methodPointerType)&CapturingGroup__ctor_m14872/* method */
 	, &CapturingGroup_t4158_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10918,10 +10918,10 @@ extern const MethodInfo CapturingGroup__ctor_m14871_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.CapturingGroup::get_Index()
-extern const MethodInfo CapturingGroup_get_Index_m14872_MethodInfo = 
+extern const MethodInfo CapturingGroup_get_Index_m14873_MethodInfo = 
 {
 	"get_Index"/* name */
-	, (methodPointerType)&CapturingGroup_get_Index_m14872/* method */
+	, (methodPointerType)&CapturingGroup_get_Index_m14873/* method */
 	, &CapturingGroup_t4158_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -10940,20 +10940,20 @@ extern const MethodInfo CapturingGroup_get_Index_m14872_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo CapturingGroup_t4158_CapturingGroup_set_Index_m14873_ParameterInfos[] = 
+static const ParameterInfo CapturingGroup_t4158_CapturingGroup_set_Index_m14874_ParameterInfos[] = 
 {
 	{"value", 0, 134219650, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CapturingGroup::set_Index(System.Int32)
-extern const MethodInfo CapturingGroup_set_Index_m14873_MethodInfo = 
+extern const MethodInfo CapturingGroup_set_Index_m14874_MethodInfo = 
 {
 	"set_Index"/* name */
-	, (methodPointerType)&CapturingGroup_set_Index_m14873/* method */
+	, (methodPointerType)&CapturingGroup_set_Index_m14874/* method */
 	, &CapturingGroup_t4158_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, CapturingGroup_t4158_CapturingGroup_set_Index_m14873_ParameterInfos/* parameters */
+	, CapturingGroup_t4158_CapturingGroup_set_Index_m14874_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -10969,10 +10969,10 @@ extern const MethodInfo CapturingGroup_set_Index_m14873_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.RegularExpressions.Syntax.CapturingGroup::get_Name()
-extern const MethodInfo CapturingGroup_get_Name_m14874_MethodInfo = 
+extern const MethodInfo CapturingGroup_get_Name_m14875_MethodInfo = 
 {
 	"get_Name"/* name */
-	, (methodPointerType)&CapturingGroup_get_Name_m14874/* method */
+	, (methodPointerType)&CapturingGroup_get_Name_m14875/* method */
 	, &CapturingGroup_t4158_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10991,20 +10991,20 @@ extern const MethodInfo CapturingGroup_get_Name_m14874_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo CapturingGroup_t4158_CapturingGroup_set_Name_m14875_ParameterInfos[] = 
+static const ParameterInfo CapturingGroup_t4158_CapturingGroup_set_Name_m14876_ParameterInfos[] = 
 {
 	{"value", 0, 134219651, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CapturingGroup::set_Name(System.String)
-extern const MethodInfo CapturingGroup_set_Name_m14875_MethodInfo = 
+extern const MethodInfo CapturingGroup_set_Name_m14876_MethodInfo = 
 {
 	"set_Name"/* name */
-	, (methodPointerType)&CapturingGroup_set_Name_m14875/* method */
+	, (methodPointerType)&CapturingGroup_set_Name_m14876/* method */
 	, &CapturingGroup_t4158_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, CapturingGroup_t4158_CapturingGroup_set_Name_m14875_ParameterInfos/* parameters */
+	, CapturingGroup_t4158_CapturingGroup_set_Name_m14876_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11020,10 +11020,10 @@ extern const MethodInfo CapturingGroup_set_Name_m14875_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.CapturingGroup::get_IsNamed()
-extern const MethodInfo CapturingGroup_get_IsNamed_m14876_MethodInfo = 
+extern const MethodInfo CapturingGroup_get_IsNamed_m14877_MethodInfo = 
 {
 	"get_IsNamed"/* name */
-	, (methodPointerType)&CapturingGroup_get_IsNamed_m14876/* method */
+	, (methodPointerType)&CapturingGroup_get_IsNamed_m14877/* method */
 	, &CapturingGroup_t4158_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -11043,21 +11043,21 @@ extern const MethodInfo CapturingGroup_get_IsNamed_m14876_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo CapturingGroup_t4158_CapturingGroup_Compile_m14877_ParameterInfos[] = 
+static const ParameterInfo CapturingGroup_t4158_CapturingGroup_Compile_m14878_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219652, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219653, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CapturingGroup::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo CapturingGroup_Compile_m14877_MethodInfo = 
+extern const MethodInfo CapturingGroup_Compile_m14878_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&CapturingGroup_Compile_m14877/* method */
+	, (methodPointerType)&CapturingGroup_Compile_m14878/* method */
 	, &CapturingGroup_t4158_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, CapturingGroup_t4158_CapturingGroup_Compile_m14877_ParameterInfos/* parameters */
+	, CapturingGroup_t4158_CapturingGroup_Compile_m14878_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -11073,10 +11073,10 @@ extern const MethodInfo CapturingGroup_Compile_m14877_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.CapturingGroup::IsComplex()
-extern const MethodInfo CapturingGroup_IsComplex_m14878_MethodInfo = 
+extern const MethodInfo CapturingGroup_IsComplex_m14879_MethodInfo = 
 {
 	"IsComplex"/* name */
-	, (methodPointerType)&CapturingGroup_IsComplex_m14878/* method */
+	, (methodPointerType)&CapturingGroup_IsComplex_m14879/* method */
 	, &CapturingGroup_t4158_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -11095,20 +11095,20 @@ extern const MethodInfo CapturingGroup_IsComplex_m14878_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo CapturingGroup_t4158_CapturingGroup_CompareTo_m14879_ParameterInfos[] = 
+static const ParameterInfo CapturingGroup_t4158_CapturingGroup_CompareTo_m14880_ParameterInfos[] = 
 {
 	{"other", 0, 134219654, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.CapturingGroup::CompareTo(System.Object)
-extern const MethodInfo CapturingGroup_CompareTo_m14879_MethodInfo = 
+extern const MethodInfo CapturingGroup_CompareTo_m14880_MethodInfo = 
 {
 	"CompareTo"/* name */
-	, (methodPointerType)&CapturingGroup_CompareTo_m14879/* method */
+	, (methodPointerType)&CapturingGroup_CompareTo_m14880/* method */
 	, &CapturingGroup_t4158_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, CapturingGroup_t4158_CapturingGroup_CompareTo_m14879_ParameterInfos/* parameters */
+	, CapturingGroup_t4158_CapturingGroup_CompareTo_m14880_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11124,47 +11124,47 @@ extern const MethodInfo CapturingGroup_CompareTo_m14879_MethodInfo =
 };
 static const MethodInfo* CapturingGroup_t4158_MethodInfos[] =
 {
-	&CapturingGroup__ctor_m14871_MethodInfo,
-	&CapturingGroup_get_Index_m14872_MethodInfo,
-	&CapturingGroup_set_Index_m14873_MethodInfo,
-	&CapturingGroup_get_Name_m14874_MethodInfo,
-	&CapturingGroup_set_Name_m14875_MethodInfo,
-	&CapturingGroup_get_IsNamed_m14876_MethodInfo,
-	&CapturingGroup_Compile_m14877_MethodInfo,
-	&CapturingGroup_IsComplex_m14878_MethodInfo,
-	&CapturingGroup_CompareTo_m14879_MethodInfo,
+	&CapturingGroup__ctor_m14872_MethodInfo,
+	&CapturingGroup_get_Index_m14873_MethodInfo,
+	&CapturingGroup_set_Index_m14874_MethodInfo,
+	&CapturingGroup_get_Name_m14875_MethodInfo,
+	&CapturingGroup_set_Name_m14876_MethodInfo,
+	&CapturingGroup_get_IsNamed_m14877_MethodInfo,
+	&CapturingGroup_Compile_m14878_MethodInfo,
+	&CapturingGroup_IsComplex_m14879_MethodInfo,
+	&CapturingGroup_CompareTo_m14880_MethodInfo,
 	NULL
 };
-extern const MethodInfo CapturingGroup_get_Index_m14872_MethodInfo;
-extern const MethodInfo CapturingGroup_set_Index_m14873_MethodInfo;
+extern const MethodInfo CapturingGroup_get_Index_m14873_MethodInfo;
+extern const MethodInfo CapturingGroup_set_Index_m14874_MethodInfo;
 static const PropertyInfo CapturingGroup_t4158____Index_PropertyInfo = 
 {
 	&CapturingGroup_t4158_il2cpp_TypeInfo/* parent */
 	, "Index"/* name */
-	, &CapturingGroup_get_Index_m14872_MethodInfo/* get */
-	, &CapturingGroup_set_Index_m14873_MethodInfo/* set */
+	, &CapturingGroup_get_Index_m14873_MethodInfo/* get */
+	, &CapturingGroup_set_Index_m14874_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CapturingGroup_get_Name_m14874_MethodInfo;
-extern const MethodInfo CapturingGroup_set_Name_m14875_MethodInfo;
+extern const MethodInfo CapturingGroup_get_Name_m14875_MethodInfo;
+extern const MethodInfo CapturingGroup_set_Name_m14876_MethodInfo;
 static const PropertyInfo CapturingGroup_t4158____Name_PropertyInfo = 
 {
 	&CapturingGroup_t4158_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
-	, &CapturingGroup_get_Name_m14874_MethodInfo/* get */
-	, &CapturingGroup_set_Name_m14875_MethodInfo/* set */
+	, &CapturingGroup_get_Name_m14875_MethodInfo/* get */
+	, &CapturingGroup_set_Name_m14876_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CapturingGroup_get_IsNamed_m14876_MethodInfo;
+extern const MethodInfo CapturingGroup_get_IsNamed_m14877_MethodInfo;
 static const PropertyInfo CapturingGroup_t4158____IsNamed_PropertyInfo = 
 {
 	&CapturingGroup_t4158_il2cpp_TypeInfo/* parent */
 	, "IsNamed"/* name */
-	, &CapturingGroup_get_IsNamed_m14876_MethodInfo/* get */
+	, &CapturingGroup_get_IsNamed_m14877_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -11177,20 +11177,20 @@ static const PropertyInfo* CapturingGroup_t4158_PropertyInfos[] =
 	&CapturingGroup_t4158____IsNamed_PropertyInfo,
 	NULL
 };
-extern const MethodInfo CapturingGroup_Compile_m14877_MethodInfo;
-extern const MethodInfo CapturingGroup_IsComplex_m14878_MethodInfo;
-extern const MethodInfo CapturingGroup_CompareTo_m14879_MethodInfo;
+extern const MethodInfo CapturingGroup_Compile_m14878_MethodInfo;
+extern const MethodInfo CapturingGroup_IsComplex_m14879_MethodInfo;
+extern const MethodInfo CapturingGroup_CompareTo_m14880_MethodInfo;
 static const Il2CppMethodReference CapturingGroup_t4158_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&CapturingGroup_Compile_m14877_MethodInfo,
-	&Group_GetWidth_m14866_MethodInfo,
-	&Group_GetAnchorInfo_m14867_MethodInfo,
-	&CapturingGroup_IsComplex_m14878_MethodInfo,
-	&CapturingGroup_CompareTo_m14879_MethodInfo,
+	&CapturingGroup_Compile_m14878_MethodInfo,
+	&Group_GetWidth_m14867_MethodInfo,
+	&Group_GetAnchorInfo_m14868_MethodInfo,
+	&CapturingGroup_IsComplex_m14879_MethodInfo,
+	&CapturingGroup_CompareTo_m14880_MethodInfo,
 };
 static bool CapturingGroup_t4158_VTableIsGenericMethod[] =
 {
@@ -11291,10 +11291,10 @@ extern TypeInfo BalancingGroup_t4159_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_BalancingGroupMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.BalancingGroup::.ctor()
-extern const MethodInfo BalancingGroup__ctor_m14880_MethodInfo = 
+extern const MethodInfo BalancingGroup__ctor_m14881_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&BalancingGroup__ctor_m14880/* method */
+	, (methodPointerType)&BalancingGroup__ctor_m14881/* method */
 	, &BalancingGroup_t4159_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -11313,20 +11313,20 @@ extern const MethodInfo BalancingGroup__ctor_m14880_MethodInfo =
 
 };
 extern const Il2CppType CapturingGroup_t4158_0_0_0;
-static const ParameterInfo BalancingGroup_t4159_BalancingGroup_set_Balance_m14881_ParameterInfos[] = 
+static const ParameterInfo BalancingGroup_t4159_BalancingGroup_set_Balance_m14882_ParameterInfos[] = 
 {
 	{"value", 0, 134219655, 0, &CapturingGroup_t4158_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.BalancingGroup::set_Balance(System.Text.RegularExpressions.Syntax.CapturingGroup)
-extern const MethodInfo BalancingGroup_set_Balance_m14881_MethodInfo = 
+extern const MethodInfo BalancingGroup_set_Balance_m14882_MethodInfo = 
 {
 	"set_Balance"/* name */
-	, (methodPointerType)&BalancingGroup_set_Balance_m14881/* method */
+	, (methodPointerType)&BalancingGroup_set_Balance_m14882/* method */
 	, &BalancingGroup_t4159_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, BalancingGroup_t4159_BalancingGroup_set_Balance_m14881_ParameterInfos/* parameters */
+	, BalancingGroup_t4159_BalancingGroup_set_Balance_m14882_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11342,21 +11342,21 @@ extern const MethodInfo BalancingGroup_set_Balance_m14881_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo BalancingGroup_t4159_BalancingGroup_Compile_m14882_ParameterInfos[] = 
+static const ParameterInfo BalancingGroup_t4159_BalancingGroup_Compile_m14883_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219656, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219657, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.BalancingGroup::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo BalancingGroup_Compile_m14882_MethodInfo = 
+extern const MethodInfo BalancingGroup_Compile_m14883_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&BalancingGroup_Compile_m14882/* method */
+	, (methodPointerType)&BalancingGroup_Compile_m14883/* method */
 	, &BalancingGroup_t4159_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, BalancingGroup_t4159_BalancingGroup_Compile_m14882_ParameterInfos/* parameters */
+	, BalancingGroup_t4159_BalancingGroup_Compile_m14883_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -11372,18 +11372,18 @@ extern const MethodInfo BalancingGroup_Compile_m14882_MethodInfo =
 };
 static const MethodInfo* BalancingGroup_t4159_MethodInfos[] =
 {
-	&BalancingGroup__ctor_m14880_MethodInfo,
-	&BalancingGroup_set_Balance_m14881_MethodInfo,
-	&BalancingGroup_Compile_m14882_MethodInfo,
+	&BalancingGroup__ctor_m14881_MethodInfo,
+	&BalancingGroup_set_Balance_m14882_MethodInfo,
+	&BalancingGroup_Compile_m14883_MethodInfo,
 	NULL
 };
-extern const MethodInfo BalancingGroup_set_Balance_m14881_MethodInfo;
+extern const MethodInfo BalancingGroup_set_Balance_m14882_MethodInfo;
 static const PropertyInfo BalancingGroup_t4159____Balance_PropertyInfo = 
 {
 	&BalancingGroup_t4159_il2cpp_TypeInfo/* parent */
 	, "Balance"/* name */
 	, NULL/* get */
-	, &BalancingGroup_set_Balance_m14881_MethodInfo/* set */
+	, &BalancingGroup_set_Balance_m14882_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -11393,18 +11393,18 @@ static const PropertyInfo* BalancingGroup_t4159_PropertyInfos[] =
 	&BalancingGroup_t4159____Balance_PropertyInfo,
 	NULL
 };
-extern const MethodInfo BalancingGroup_Compile_m14882_MethodInfo;
+extern const MethodInfo BalancingGroup_Compile_m14883_MethodInfo;
 static const Il2CppMethodReference BalancingGroup_t4159_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&BalancingGroup_Compile_m14882_MethodInfo,
-	&Group_GetWidth_m14866_MethodInfo,
-	&Group_GetAnchorInfo_m14867_MethodInfo,
-	&CapturingGroup_IsComplex_m14878_MethodInfo,
-	&CapturingGroup_CompareTo_m14879_MethodInfo,
+	&BalancingGroup_Compile_m14883_MethodInfo,
+	&Group_GetWidth_m14867_MethodInfo,
+	&Group_GetAnchorInfo_m14868_MethodInfo,
+	&CapturingGroup_IsComplex_m14879_MethodInfo,
+	&CapturingGroup_CompareTo_m14880_MethodInfo,
 };
 static bool BalancingGroup_t4159_VTableIsGenericMethod[] =
 {
@@ -11501,10 +11501,10 @@ extern TypeInfo NonBacktrackingGroup_t4160_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_NonBacktrackingMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::.ctor()
-extern const MethodInfo NonBacktrackingGroup__ctor_m14883_MethodInfo = 
+extern const MethodInfo NonBacktrackingGroup__ctor_m14884_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&NonBacktrackingGroup__ctor_m14883/* method */
+	, (methodPointerType)&NonBacktrackingGroup__ctor_m14884/* method */
 	, &NonBacktrackingGroup_t4160_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -11524,21 +11524,21 @@ extern const MethodInfo NonBacktrackingGroup__ctor_m14883_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo NonBacktrackingGroup_t4160_NonBacktrackingGroup_Compile_m14884_ParameterInfos[] = 
+static const ParameterInfo NonBacktrackingGroup_t4160_NonBacktrackingGroup_Compile_m14885_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219658, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219659, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo NonBacktrackingGroup_Compile_m14884_MethodInfo = 
+extern const MethodInfo NonBacktrackingGroup_Compile_m14885_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&NonBacktrackingGroup_Compile_m14884/* method */
+	, (methodPointerType)&NonBacktrackingGroup_Compile_m14885/* method */
 	, &NonBacktrackingGroup_t4160_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, NonBacktrackingGroup_t4160_NonBacktrackingGroup_Compile_m14884_ParameterInfos/* parameters */
+	, NonBacktrackingGroup_t4160_NonBacktrackingGroup_Compile_m14885_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -11554,10 +11554,10 @@ extern const MethodInfo NonBacktrackingGroup_Compile_m14884_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::IsComplex()
-extern const MethodInfo NonBacktrackingGroup_IsComplex_m14885_MethodInfo = 
+extern const MethodInfo NonBacktrackingGroup_IsComplex_m14886_MethodInfo = 
 {
 	"IsComplex"/* name */
-	, (methodPointerType)&NonBacktrackingGroup_IsComplex_m14885/* method */
+	, (methodPointerType)&NonBacktrackingGroup_IsComplex_m14886/* method */
 	, &NonBacktrackingGroup_t4160_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -11577,23 +11577,23 @@ extern const MethodInfo NonBacktrackingGroup_IsComplex_m14885_MethodInfo =
 };
 static const MethodInfo* NonBacktrackingGroup_t4160_MethodInfos[] =
 {
-	&NonBacktrackingGroup__ctor_m14883_MethodInfo,
-	&NonBacktrackingGroup_Compile_m14884_MethodInfo,
-	&NonBacktrackingGroup_IsComplex_m14885_MethodInfo,
+	&NonBacktrackingGroup__ctor_m14884_MethodInfo,
+	&NonBacktrackingGroup_Compile_m14885_MethodInfo,
+	&NonBacktrackingGroup_IsComplex_m14886_MethodInfo,
 	NULL
 };
-extern const MethodInfo NonBacktrackingGroup_Compile_m14884_MethodInfo;
-extern const MethodInfo NonBacktrackingGroup_IsComplex_m14885_MethodInfo;
+extern const MethodInfo NonBacktrackingGroup_Compile_m14885_MethodInfo;
+extern const MethodInfo NonBacktrackingGroup_IsComplex_m14886_MethodInfo;
 static const Il2CppMethodReference NonBacktrackingGroup_t4160_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&NonBacktrackingGroup_Compile_m14884_MethodInfo,
-	&Group_GetWidth_m14866_MethodInfo,
-	&Group_GetAnchorInfo_m14867_MethodInfo,
-	&NonBacktrackingGroup_IsComplex_m14885_MethodInfo,
+	&NonBacktrackingGroup_Compile_m14885_MethodInfo,
+	&Group_GetWidth_m14867_MethodInfo,
+	&Group_GetAnchorInfo_m14868_MethodInfo,
+	&NonBacktrackingGroup_IsComplex_m14886_MethodInfo,
 };
 static bool NonBacktrackingGroup_t4160_VTableIsGenericMethod[] =
 {
@@ -11686,7 +11686,7 @@ extern TypeInfo Repetition_t4161_il2cpp_TypeInfo;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Repetition_t4161_Repetition__ctor_m14886_ParameterInfos[] = 
+static const ParameterInfo Repetition_t4161_Repetition__ctor_m14887_ParameterInfos[] = 
 {
 	{"min", 0, 134219660, 0, &Int32_t82_0_0_0},
 	{"max", 1, 134219661, 0, &Int32_t82_0_0_0},
@@ -11694,14 +11694,14 @@ static const ParameterInfo Repetition_t4161_Repetition__ctor_m14886_ParameterInf
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Repetition::.ctor(System.Int32,System.Int32,System.Boolean)
-extern const MethodInfo Repetition__ctor_m14886_MethodInfo = 
+extern const MethodInfo Repetition__ctor_m14887_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Repetition__ctor_m14886/* method */
+	, (methodPointerType)&Repetition__ctor_m14887/* method */
 	, &Repetition_t4161_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_SByte_t88/* invoker_method */
-	, Repetition_t4161_Repetition__ctor_m14886_ParameterInfos/* parameters */
+	, Repetition_t4161_Repetition__ctor_m14887_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -11717,10 +11717,10 @@ extern const MethodInfo Repetition__ctor_m14886_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Repetition::get_Expression()
-extern const MethodInfo Repetition_get_Expression_m14887_MethodInfo = 
+extern const MethodInfo Repetition_get_Expression_m14888_MethodInfo = 
 {
 	"get_Expression"/* name */
-	, (methodPointerType)&Repetition_get_Expression_m14887/* method */
+	, (methodPointerType)&Repetition_get_Expression_m14888/* method */
 	, &Repetition_t4161_il2cpp_TypeInfo/* declaring_type */
 	, &Expression_t4154_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11739,20 +11739,20 @@ extern const MethodInfo Repetition_get_Expression_m14887_MethodInfo =
 
 };
 extern const Il2CppType Expression_t4154_0_0_0;
-static const ParameterInfo Repetition_t4161_Repetition_set_Expression_m14888_ParameterInfos[] = 
+static const ParameterInfo Repetition_t4161_Repetition_set_Expression_m14889_ParameterInfos[] = 
 {
 	{"value", 0, 134219663, 0, &Expression_t4154_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Repetition::set_Expression(System.Text.RegularExpressions.Syntax.Expression)
-extern const MethodInfo Repetition_set_Expression_m14888_MethodInfo = 
+extern const MethodInfo Repetition_set_Expression_m14889_MethodInfo = 
 {
 	"set_Expression"/* name */
-	, (methodPointerType)&Repetition_set_Expression_m14888/* method */
+	, (methodPointerType)&Repetition_set_Expression_m14889/* method */
 	, &Repetition_t4161_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Repetition_t4161_Repetition_set_Expression_m14888_ParameterInfos/* parameters */
+	, Repetition_t4161_Repetition_set_Expression_m14889_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11768,10 +11768,10 @@ extern const MethodInfo Repetition_set_Expression_m14888_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.Repetition::get_Minimum()
-extern const MethodInfo Repetition_get_Minimum_m14889_MethodInfo = 
+extern const MethodInfo Repetition_get_Minimum_m14890_MethodInfo = 
 {
 	"get_Minimum"/* name */
-	, (methodPointerType)&Repetition_get_Minimum_m14889/* method */
+	, (methodPointerType)&Repetition_get_Minimum_m14890/* method */
 	, &Repetition_t4161_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -11791,21 +11791,21 @@ extern const MethodInfo Repetition_get_Minimum_m14889_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Repetition_t4161_Repetition_Compile_m14890_ParameterInfos[] = 
+static const ParameterInfo Repetition_t4161_Repetition_Compile_m14891_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219664, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219665, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Repetition::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo Repetition_Compile_m14890_MethodInfo = 
+extern const MethodInfo Repetition_Compile_m14891_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&Repetition_Compile_m14890/* method */
+	, (methodPointerType)&Repetition_Compile_m14891/* method */
 	, &Repetition_t4161_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, Repetition_t4161_Repetition_Compile_m14890_ParameterInfos/* parameters */
+	, Repetition_t4161_Repetition_Compile_m14891_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -11821,21 +11821,21 @@ extern const MethodInfo Repetition_Compile_m14890_MethodInfo =
 };
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Int32_t82_1_0_2;
-static const ParameterInfo Repetition_t4161_Repetition_GetWidth_m14891_ParameterInfos[] = 
+static const ParameterInfo Repetition_t4161_Repetition_GetWidth_m14892_ParameterInfos[] = 
 {
 	{"min", 0, 134219666, 0, &Int32_t82_1_0_2},
 	{"max", 1, 134219667, 0, &Int32_t82_1_0_2},
 };
 extern void* RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Repetition::GetWidth(System.Int32&,System.Int32&)
-extern const MethodInfo Repetition_GetWidth_m14891_MethodInfo = 
+extern const MethodInfo Repetition_GetWidth_m14892_MethodInfo = 
 {
 	"GetWidth"/* name */
-	, (methodPointerType)&Repetition_GetWidth_m14891/* method */
+	, (methodPointerType)&Repetition_GetWidth_m14892/* method */
 	, &Repetition_t4161_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826/* invoker_method */
-	, Repetition_t4161_Repetition_GetWidth_m14891_ParameterInfos/* parameters */
+	, Repetition_t4161_Repetition_GetWidth_m14892_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -11850,20 +11850,20 @@ extern const MethodInfo Repetition_GetWidth_m14891_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Repetition_t4161_Repetition_GetAnchorInfo_m14892_ParameterInfos[] = 
+static const ParameterInfo Repetition_t4161_Repetition_GetAnchorInfo_m14893_ParameterInfos[] = 
 {
 	{"reverse", 0, 134219668, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Repetition::GetAnchorInfo(System.Boolean)
-extern const MethodInfo Repetition_GetAnchorInfo_m14892_MethodInfo = 
+extern const MethodInfo Repetition_GetAnchorInfo_m14893_MethodInfo = 
 {
 	"GetAnchorInfo"/* name */
-	, (methodPointerType)&Repetition_GetAnchorInfo_m14892/* method */
+	, (methodPointerType)&Repetition_GetAnchorInfo_m14893/* method */
 	, &Repetition_t4161_il2cpp_TypeInfo/* declaring_type */
 	, &AnchorInfo_t4172_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
-	, Repetition_t4161_Repetition_GetAnchorInfo_m14892_ParameterInfos/* parameters */
+	, Repetition_t4161_Repetition_GetAnchorInfo_m14893_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -11879,33 +11879,33 @@ extern const MethodInfo Repetition_GetAnchorInfo_m14892_MethodInfo =
 };
 static const MethodInfo* Repetition_t4161_MethodInfos[] =
 {
-	&Repetition__ctor_m14886_MethodInfo,
-	&Repetition_get_Expression_m14887_MethodInfo,
-	&Repetition_set_Expression_m14888_MethodInfo,
-	&Repetition_get_Minimum_m14889_MethodInfo,
-	&Repetition_Compile_m14890_MethodInfo,
-	&Repetition_GetWidth_m14891_MethodInfo,
-	&Repetition_GetAnchorInfo_m14892_MethodInfo,
+	&Repetition__ctor_m14887_MethodInfo,
+	&Repetition_get_Expression_m14888_MethodInfo,
+	&Repetition_set_Expression_m14889_MethodInfo,
+	&Repetition_get_Minimum_m14890_MethodInfo,
+	&Repetition_Compile_m14891_MethodInfo,
+	&Repetition_GetWidth_m14892_MethodInfo,
+	&Repetition_GetAnchorInfo_m14893_MethodInfo,
 	NULL
 };
-extern const MethodInfo Repetition_get_Expression_m14887_MethodInfo;
-extern const MethodInfo Repetition_set_Expression_m14888_MethodInfo;
+extern const MethodInfo Repetition_get_Expression_m14888_MethodInfo;
+extern const MethodInfo Repetition_set_Expression_m14889_MethodInfo;
 static const PropertyInfo Repetition_t4161____Expression_PropertyInfo = 
 {
 	&Repetition_t4161_il2cpp_TypeInfo/* parent */
 	, "Expression"/* name */
-	, &Repetition_get_Expression_m14887_MethodInfo/* get */
-	, &Repetition_set_Expression_m14888_MethodInfo/* set */
+	, &Repetition_get_Expression_m14888_MethodInfo/* get */
+	, &Repetition_set_Expression_m14889_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Repetition_get_Minimum_m14889_MethodInfo;
+extern const MethodInfo Repetition_get_Minimum_m14890_MethodInfo;
 static const PropertyInfo Repetition_t4161____Minimum_PropertyInfo = 
 {
 	&Repetition_t4161_il2cpp_TypeInfo/* parent */
 	, "Minimum"/* name */
-	, &Repetition_get_Minimum_m14889_MethodInfo/* get */
+	, &Repetition_get_Minimum_m14890_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -11917,19 +11917,19 @@ static const PropertyInfo* Repetition_t4161_PropertyInfos[] =
 	&Repetition_t4161____Minimum_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Repetition_Compile_m14890_MethodInfo;
-extern const MethodInfo Repetition_GetWidth_m14891_MethodInfo;
-extern const MethodInfo Repetition_GetAnchorInfo_m14892_MethodInfo;
+extern const MethodInfo Repetition_Compile_m14891_MethodInfo;
+extern const MethodInfo Repetition_GetWidth_m14892_MethodInfo;
+extern const MethodInfo Repetition_GetAnchorInfo_m14893_MethodInfo;
 static const Il2CppMethodReference Repetition_t4161_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&Repetition_Compile_m14890_MethodInfo,
-	&Repetition_GetWidth_m14891_MethodInfo,
-	&Repetition_GetAnchorInfo_m14892_MethodInfo,
-	&CompositeExpression_IsComplex_m14862_MethodInfo,
+	&Repetition_Compile_m14891_MethodInfo,
+	&Repetition_GetWidth_m14892_MethodInfo,
+	&Repetition_GetAnchorInfo_m14893_MethodInfo,
+	&CompositeExpression_IsComplex_m14863_MethodInfo,
 };
 static bool Repetition_t4161_VTableIsGenericMethod[] =
 {
@@ -12021,10 +12021,10 @@ extern TypeInfo Assertion_t4162_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_AssertionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Assertion::.ctor()
-extern const MethodInfo Assertion__ctor_m14893_MethodInfo = 
+extern const MethodInfo Assertion__ctor_m14894_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Assertion__ctor_m14893/* method */
+	, (methodPointerType)&Assertion__ctor_m14894/* method */
 	, &Assertion_t4162_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12044,10 +12044,10 @@ extern const MethodInfo Assertion__ctor_m14893_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Assertion::get_TrueExpression()
-extern const MethodInfo Assertion_get_TrueExpression_m14894_MethodInfo = 
+extern const MethodInfo Assertion_get_TrueExpression_m14895_MethodInfo = 
 {
 	"get_TrueExpression"/* name */
-	, (methodPointerType)&Assertion_get_TrueExpression_m14894/* method */
+	, (methodPointerType)&Assertion_get_TrueExpression_m14895/* method */
 	, &Assertion_t4162_il2cpp_TypeInfo/* declaring_type */
 	, &Expression_t4154_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12066,20 +12066,20 @@ extern const MethodInfo Assertion_get_TrueExpression_m14894_MethodInfo =
 
 };
 extern const Il2CppType Expression_t4154_0_0_0;
-static const ParameterInfo Assertion_t4162_Assertion_set_TrueExpression_m14895_ParameterInfos[] = 
+static const ParameterInfo Assertion_t4162_Assertion_set_TrueExpression_m14896_ParameterInfos[] = 
 {
 	{"value", 0, 134219669, 0, &Expression_t4154_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Assertion::set_TrueExpression(System.Text.RegularExpressions.Syntax.Expression)
-extern const MethodInfo Assertion_set_TrueExpression_m14895_MethodInfo = 
+extern const MethodInfo Assertion_set_TrueExpression_m14896_MethodInfo = 
 {
 	"set_TrueExpression"/* name */
-	, (methodPointerType)&Assertion_set_TrueExpression_m14895/* method */
+	, (methodPointerType)&Assertion_set_TrueExpression_m14896/* method */
 	, &Assertion_t4162_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Assertion_t4162_Assertion_set_TrueExpression_m14895_ParameterInfos/* parameters */
+	, Assertion_t4162_Assertion_set_TrueExpression_m14896_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12095,10 +12095,10 @@ extern const MethodInfo Assertion_set_TrueExpression_m14895_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Assertion::get_FalseExpression()
-extern const MethodInfo Assertion_get_FalseExpression_m14896_MethodInfo = 
+extern const MethodInfo Assertion_get_FalseExpression_m14897_MethodInfo = 
 {
 	"get_FalseExpression"/* name */
-	, (methodPointerType)&Assertion_get_FalseExpression_m14896/* method */
+	, (methodPointerType)&Assertion_get_FalseExpression_m14897/* method */
 	, &Assertion_t4162_il2cpp_TypeInfo/* declaring_type */
 	, &Expression_t4154_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12117,20 +12117,20 @@ extern const MethodInfo Assertion_get_FalseExpression_m14896_MethodInfo =
 
 };
 extern const Il2CppType Expression_t4154_0_0_0;
-static const ParameterInfo Assertion_t4162_Assertion_set_FalseExpression_m14897_ParameterInfos[] = 
+static const ParameterInfo Assertion_t4162_Assertion_set_FalseExpression_m14898_ParameterInfos[] = 
 {
 	{"value", 0, 134219670, 0, &Expression_t4154_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Assertion::set_FalseExpression(System.Text.RegularExpressions.Syntax.Expression)
-extern const MethodInfo Assertion_set_FalseExpression_m14897_MethodInfo = 
+extern const MethodInfo Assertion_set_FalseExpression_m14898_MethodInfo = 
 {
 	"set_FalseExpression"/* name */
-	, (methodPointerType)&Assertion_set_FalseExpression_m14897/* method */
+	, (methodPointerType)&Assertion_set_FalseExpression_m14898/* method */
 	, &Assertion_t4162_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Assertion_t4162_Assertion_set_FalseExpression_m14897_ParameterInfos/* parameters */
+	, Assertion_t4162_Assertion_set_FalseExpression_m14898_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12146,21 +12146,21 @@ extern const MethodInfo Assertion_set_FalseExpression_m14897_MethodInfo =
 };
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Int32_t82_1_0_2;
-static const ParameterInfo Assertion_t4162_Assertion_GetWidth_m14898_ParameterInfos[] = 
+static const ParameterInfo Assertion_t4162_Assertion_GetWidth_m14899_ParameterInfos[] = 
 {
 	{"min", 0, 134219671, 0, &Int32_t82_1_0_2},
 	{"max", 1, 134219672, 0, &Int32_t82_1_0_2},
 };
 extern void* RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Assertion::GetWidth(System.Int32&,System.Int32&)
-extern const MethodInfo Assertion_GetWidth_m14898_MethodInfo = 
+extern const MethodInfo Assertion_GetWidth_m14899_MethodInfo = 
 {
 	"GetWidth"/* name */
-	, (methodPointerType)&Assertion_GetWidth_m14898/* method */
+	, (methodPointerType)&Assertion_GetWidth_m14899/* method */
 	, &Assertion_t4162_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826/* invoker_method */
-	, Assertion_t4162_Assertion_GetWidth_m14898_ParameterInfos/* parameters */
+	, Assertion_t4162_Assertion_GetWidth_m14899_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -12176,34 +12176,34 @@ extern const MethodInfo Assertion_GetWidth_m14898_MethodInfo =
 };
 static const MethodInfo* Assertion_t4162_MethodInfos[] =
 {
-	&Assertion__ctor_m14893_MethodInfo,
-	&Assertion_get_TrueExpression_m14894_MethodInfo,
-	&Assertion_set_TrueExpression_m14895_MethodInfo,
-	&Assertion_get_FalseExpression_m14896_MethodInfo,
-	&Assertion_set_FalseExpression_m14897_MethodInfo,
-	&Assertion_GetWidth_m14898_MethodInfo,
+	&Assertion__ctor_m14894_MethodInfo,
+	&Assertion_get_TrueExpression_m14895_MethodInfo,
+	&Assertion_set_TrueExpression_m14896_MethodInfo,
+	&Assertion_get_FalseExpression_m14897_MethodInfo,
+	&Assertion_set_FalseExpression_m14898_MethodInfo,
+	&Assertion_GetWidth_m14899_MethodInfo,
 	NULL
 };
-extern const MethodInfo Assertion_get_TrueExpression_m14894_MethodInfo;
-extern const MethodInfo Assertion_set_TrueExpression_m14895_MethodInfo;
+extern const MethodInfo Assertion_get_TrueExpression_m14895_MethodInfo;
+extern const MethodInfo Assertion_set_TrueExpression_m14896_MethodInfo;
 static const PropertyInfo Assertion_t4162____TrueExpression_PropertyInfo = 
 {
 	&Assertion_t4162_il2cpp_TypeInfo/* parent */
 	, "TrueExpression"/* name */
-	, &Assertion_get_TrueExpression_m14894_MethodInfo/* get */
-	, &Assertion_set_TrueExpression_m14895_MethodInfo/* set */
+	, &Assertion_get_TrueExpression_m14895_MethodInfo/* get */
+	, &Assertion_set_TrueExpression_m14896_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Assertion_get_FalseExpression_m14896_MethodInfo;
-extern const MethodInfo Assertion_set_FalseExpression_m14897_MethodInfo;
+extern const MethodInfo Assertion_get_FalseExpression_m14897_MethodInfo;
+extern const MethodInfo Assertion_set_FalseExpression_m14898_MethodInfo;
 static const PropertyInfo Assertion_t4162____FalseExpression_PropertyInfo = 
 {
 	&Assertion_t4162_il2cpp_TypeInfo/* parent */
 	, "FalseExpression"/* name */
-	, &Assertion_get_FalseExpression_m14896_MethodInfo/* get */
-	, &Assertion_set_FalseExpression_m14897_MethodInfo/* set */
+	, &Assertion_get_FalseExpression_m14897_MethodInfo/* get */
+	, &Assertion_set_FalseExpression_m14898_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -12214,7 +12214,7 @@ static const PropertyInfo* Assertion_t4162_PropertyInfos[] =
 	&Assertion_t4162____FalseExpression_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Assertion_GetWidth_m14898_MethodInfo;
+extern const MethodInfo Assertion_GetWidth_m14899_MethodInfo;
 static const Il2CppMethodReference Assertion_t4162_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
@@ -12222,9 +12222,9 @@ static const Il2CppMethodReference Assertion_t4162_VTable[] =
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 	NULL,
-	&Assertion_GetWidth_m14898_MethodInfo,
-	&Expression_GetAnchorInfo_m14858_MethodInfo,
-	&CompositeExpression_IsComplex_m14862_MethodInfo,
+	&Assertion_GetWidth_m14899_MethodInfo,
+	&Expression_GetAnchorInfo_m14859_MethodInfo,
+	&CompositeExpression_IsComplex_m14863_MethodInfo,
 };
 static bool Assertion_t4162_VTableIsGenericMethod[] =
 {
@@ -12315,20 +12315,20 @@ extern TypeInfo CaptureAssertion_t4165_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_CaptureAssertioMethodDeclarations.h"
 extern const Il2CppType Literal_t4164_0_0_0;
 extern const Il2CppType Literal_t4164_0_0_0;
-static const ParameterInfo CaptureAssertion_t4165_CaptureAssertion__ctor_m14899_ParameterInfos[] = 
+static const ParameterInfo CaptureAssertion_t4165_CaptureAssertion__ctor_m14900_ParameterInfos[] = 
 {
 	{"l", 0, 134219673, 0, &Literal_t4164_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CaptureAssertion::.ctor(System.Text.RegularExpressions.Syntax.Literal)
-extern const MethodInfo CaptureAssertion__ctor_m14899_MethodInfo = 
+extern const MethodInfo CaptureAssertion__ctor_m14900_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CaptureAssertion__ctor_m14899/* method */
+	, (methodPointerType)&CaptureAssertion__ctor_m14900/* method */
 	, &CaptureAssertion_t4165_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, CaptureAssertion_t4165_CaptureAssertion__ctor_m14899_ParameterInfos/* parameters */
+	, CaptureAssertion_t4165_CaptureAssertion__ctor_m14900_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -12343,20 +12343,20 @@ extern const MethodInfo CaptureAssertion__ctor_m14899_MethodInfo =
 
 };
 extern const Il2CppType CapturingGroup_t4158_0_0_0;
-static const ParameterInfo CaptureAssertion_t4165_CaptureAssertion_set_CapturingGroup_m14900_ParameterInfos[] = 
+static const ParameterInfo CaptureAssertion_t4165_CaptureAssertion_set_CapturingGroup_m14901_ParameterInfos[] = 
 {
 	{"value", 0, 134219674, 0, &CapturingGroup_t4158_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CaptureAssertion::set_CapturingGroup(System.Text.RegularExpressions.Syntax.CapturingGroup)
-extern const MethodInfo CaptureAssertion_set_CapturingGroup_m14900_MethodInfo = 
+extern const MethodInfo CaptureAssertion_set_CapturingGroup_m14901_MethodInfo = 
 {
 	"set_CapturingGroup"/* name */
-	, (methodPointerType)&CaptureAssertion_set_CapturingGroup_m14900/* method */
+	, (methodPointerType)&CaptureAssertion_set_CapturingGroup_m14901/* method */
 	, &CaptureAssertion_t4165_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, CaptureAssertion_t4165_CaptureAssertion_set_CapturingGroup_m14900_ParameterInfos/* parameters */
+	, CaptureAssertion_t4165_CaptureAssertion_set_CapturingGroup_m14901_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12372,21 +12372,21 @@ extern const MethodInfo CaptureAssertion_set_CapturingGroup_m14900_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo CaptureAssertion_t4165_CaptureAssertion_Compile_m14901_ParameterInfos[] = 
+static const ParameterInfo CaptureAssertion_t4165_CaptureAssertion_Compile_m14902_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219675, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219676, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CaptureAssertion::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo CaptureAssertion_Compile_m14901_MethodInfo = 
+extern const MethodInfo CaptureAssertion_Compile_m14902_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&CaptureAssertion_Compile_m14901/* method */
+	, (methodPointerType)&CaptureAssertion_Compile_m14902/* method */
 	, &CaptureAssertion_t4165_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, CaptureAssertion_t4165_CaptureAssertion_Compile_m14901_ParameterInfos/* parameters */
+	, CaptureAssertion_t4165_CaptureAssertion_Compile_m14902_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -12402,10 +12402,10 @@ extern const MethodInfo CaptureAssertion_Compile_m14901_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.CaptureAssertion::IsComplex()
-extern const MethodInfo CaptureAssertion_IsComplex_m14902_MethodInfo = 
+extern const MethodInfo CaptureAssertion_IsComplex_m14903_MethodInfo = 
 {
 	"IsComplex"/* name */
-	, (methodPointerType)&CaptureAssertion_IsComplex_m14902/* method */
+	, (methodPointerType)&CaptureAssertion_IsComplex_m14903/* method */
 	, &CaptureAssertion_t4165_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -12425,10 +12425,10 @@ extern const MethodInfo CaptureAssertion_IsComplex_m14902_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.ExpressionAssertion System.Text.RegularExpressions.Syntax.CaptureAssertion::get_Alternate()
-extern const MethodInfo CaptureAssertion_get_Alternate_m14903_MethodInfo = 
+extern const MethodInfo CaptureAssertion_get_Alternate_m14904_MethodInfo = 
 {
 	"get_Alternate"/* name */
-	, (methodPointerType)&CaptureAssertion_get_Alternate_m14903/* method */
+	, (methodPointerType)&CaptureAssertion_get_Alternate_m14904/* method */
 	, &CaptureAssertion_t4165_il2cpp_TypeInfo/* declaring_type */
 	, &ExpressionAssertion_t4163_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12448,30 +12448,30 @@ extern const MethodInfo CaptureAssertion_get_Alternate_m14903_MethodInfo =
 };
 static const MethodInfo* CaptureAssertion_t4165_MethodInfos[] =
 {
-	&CaptureAssertion__ctor_m14899_MethodInfo,
-	&CaptureAssertion_set_CapturingGroup_m14900_MethodInfo,
-	&CaptureAssertion_Compile_m14901_MethodInfo,
-	&CaptureAssertion_IsComplex_m14902_MethodInfo,
-	&CaptureAssertion_get_Alternate_m14903_MethodInfo,
+	&CaptureAssertion__ctor_m14900_MethodInfo,
+	&CaptureAssertion_set_CapturingGroup_m14901_MethodInfo,
+	&CaptureAssertion_Compile_m14902_MethodInfo,
+	&CaptureAssertion_IsComplex_m14903_MethodInfo,
+	&CaptureAssertion_get_Alternate_m14904_MethodInfo,
 	NULL
 };
-extern const MethodInfo CaptureAssertion_set_CapturingGroup_m14900_MethodInfo;
+extern const MethodInfo CaptureAssertion_set_CapturingGroup_m14901_MethodInfo;
 static const PropertyInfo CaptureAssertion_t4165____CapturingGroup_PropertyInfo = 
 {
 	&CaptureAssertion_t4165_il2cpp_TypeInfo/* parent */
 	, "CapturingGroup"/* name */
 	, NULL/* get */
-	, &CaptureAssertion_set_CapturingGroup_m14900_MethodInfo/* set */
+	, &CaptureAssertion_set_CapturingGroup_m14901_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CaptureAssertion_get_Alternate_m14903_MethodInfo;
+extern const MethodInfo CaptureAssertion_get_Alternate_m14904_MethodInfo;
 static const PropertyInfo CaptureAssertion_t4165____Alternate_PropertyInfo = 
 {
 	&CaptureAssertion_t4165_il2cpp_TypeInfo/* parent */
 	, "Alternate"/* name */
-	, &CaptureAssertion_get_Alternate_m14903_MethodInfo/* get */
+	, &CaptureAssertion_get_Alternate_m14904_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -12483,18 +12483,18 @@ static const PropertyInfo* CaptureAssertion_t4165_PropertyInfos[] =
 	&CaptureAssertion_t4165____Alternate_PropertyInfo,
 	NULL
 };
-extern const MethodInfo CaptureAssertion_Compile_m14901_MethodInfo;
-extern const MethodInfo CaptureAssertion_IsComplex_m14902_MethodInfo;
+extern const MethodInfo CaptureAssertion_Compile_m14902_MethodInfo;
+extern const MethodInfo CaptureAssertion_IsComplex_m14903_MethodInfo;
 static const Il2CppMethodReference CaptureAssertion_t4165_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&CaptureAssertion_Compile_m14901_MethodInfo,
-	&Assertion_GetWidth_m14898_MethodInfo,
-	&Expression_GetAnchorInfo_m14858_MethodInfo,
-	&CaptureAssertion_IsComplex_m14902_MethodInfo,
+	&CaptureAssertion_Compile_m14902_MethodInfo,
+	&Assertion_GetWidth_m14899_MethodInfo,
+	&Expression_GetAnchorInfo_m14859_MethodInfo,
+	&CaptureAssertion_IsComplex_m14903_MethodInfo,
 };
 static bool CaptureAssertion_t4165_VTableIsGenericMethod[] =
 {
@@ -12586,10 +12586,10 @@ extern TypeInfo ExpressionAssertion_t4163_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_ExpressionAsserMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::.ctor()
-extern const MethodInfo ExpressionAssertion__ctor_m14904_MethodInfo = 
+extern const MethodInfo ExpressionAssertion__ctor_m14905_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ExpressionAssertion__ctor_m14904/* method */
+	, (methodPointerType)&ExpressionAssertion__ctor_m14905/* method */
 	, &ExpressionAssertion_t4163_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12608,20 +12608,20 @@ extern const MethodInfo ExpressionAssertion__ctor_m14904_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ExpressionAssertion_t4163_ExpressionAssertion_set_Reverse_m14905_ParameterInfos[] = 
+static const ParameterInfo ExpressionAssertion_t4163_ExpressionAssertion_set_Reverse_m14906_ParameterInfos[] = 
 {
 	{"value", 0, 134219677, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::set_Reverse(System.Boolean)
-extern const MethodInfo ExpressionAssertion_set_Reverse_m14905_MethodInfo = 
+extern const MethodInfo ExpressionAssertion_set_Reverse_m14906_MethodInfo = 
 {
 	"set_Reverse"/* name */
-	, (methodPointerType)&ExpressionAssertion_set_Reverse_m14905/* method */
+	, (methodPointerType)&ExpressionAssertion_set_Reverse_m14906/* method */
 	, &ExpressionAssertion_t4163_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, ExpressionAssertion_t4163_ExpressionAssertion_set_Reverse_m14905_ParameterInfos/* parameters */
+	, ExpressionAssertion_t4163_ExpressionAssertion_set_Reverse_m14906_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12636,20 +12636,20 @@ extern const MethodInfo ExpressionAssertion_set_Reverse_m14905_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ExpressionAssertion_t4163_ExpressionAssertion_set_Negate_m14906_ParameterInfos[] = 
+static const ParameterInfo ExpressionAssertion_t4163_ExpressionAssertion_set_Negate_m14907_ParameterInfos[] = 
 {
 	{"value", 0, 134219678, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::set_Negate(System.Boolean)
-extern const MethodInfo ExpressionAssertion_set_Negate_m14906_MethodInfo = 
+extern const MethodInfo ExpressionAssertion_set_Negate_m14907_MethodInfo = 
 {
 	"set_Negate"/* name */
-	, (methodPointerType)&ExpressionAssertion_set_Negate_m14906/* method */
+	, (methodPointerType)&ExpressionAssertion_set_Negate_m14907/* method */
 	, &ExpressionAssertion_t4163_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, ExpressionAssertion_t4163_ExpressionAssertion_set_Negate_m14906_ParameterInfos/* parameters */
+	, ExpressionAssertion_t4163_ExpressionAssertion_set_Negate_m14907_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12665,10 +12665,10 @@ extern const MethodInfo ExpressionAssertion_set_Negate_m14906_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.ExpressionAssertion::get_TestExpression()
-extern const MethodInfo ExpressionAssertion_get_TestExpression_m14907_MethodInfo = 
+extern const MethodInfo ExpressionAssertion_get_TestExpression_m14908_MethodInfo = 
 {
 	"get_TestExpression"/* name */
-	, (methodPointerType)&ExpressionAssertion_get_TestExpression_m14907/* method */
+	, (methodPointerType)&ExpressionAssertion_get_TestExpression_m14908/* method */
 	, &ExpressionAssertion_t4163_il2cpp_TypeInfo/* declaring_type */
 	, &Expression_t4154_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12687,20 +12687,20 @@ extern const MethodInfo ExpressionAssertion_get_TestExpression_m14907_MethodInfo
 
 };
 extern const Il2CppType Expression_t4154_0_0_0;
-static const ParameterInfo ExpressionAssertion_t4163_ExpressionAssertion_set_TestExpression_m14908_ParameterInfos[] = 
+static const ParameterInfo ExpressionAssertion_t4163_ExpressionAssertion_set_TestExpression_m14909_ParameterInfos[] = 
 {
 	{"value", 0, 134219679, 0, &Expression_t4154_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::set_TestExpression(System.Text.RegularExpressions.Syntax.Expression)
-extern const MethodInfo ExpressionAssertion_set_TestExpression_m14908_MethodInfo = 
+extern const MethodInfo ExpressionAssertion_set_TestExpression_m14909_MethodInfo = 
 {
 	"set_TestExpression"/* name */
-	, (methodPointerType)&ExpressionAssertion_set_TestExpression_m14908/* method */
+	, (methodPointerType)&ExpressionAssertion_set_TestExpression_m14909/* method */
 	, &ExpressionAssertion_t4163_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ExpressionAssertion_t4163_ExpressionAssertion_set_TestExpression_m14908_ParameterInfos/* parameters */
+	, ExpressionAssertion_t4163_ExpressionAssertion_set_TestExpression_m14909_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12716,21 +12716,21 @@ extern const MethodInfo ExpressionAssertion_set_TestExpression_m14908_MethodInfo
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ExpressionAssertion_t4163_ExpressionAssertion_Compile_m14909_ParameterInfos[] = 
+static const ParameterInfo ExpressionAssertion_t4163_ExpressionAssertion_Compile_m14910_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219680, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219681, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo ExpressionAssertion_Compile_m14909_MethodInfo = 
+extern const MethodInfo ExpressionAssertion_Compile_m14910_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&ExpressionAssertion_Compile_m14909/* method */
+	, (methodPointerType)&ExpressionAssertion_Compile_m14910/* method */
 	, &ExpressionAssertion_t4163_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, ExpressionAssertion_t4163_ExpressionAssertion_Compile_m14909_ParameterInfos/* parameters */
+	, ExpressionAssertion_t4163_ExpressionAssertion_Compile_m14910_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -12746,10 +12746,10 @@ extern const MethodInfo ExpressionAssertion_Compile_m14909_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.ExpressionAssertion::IsComplex()
-extern const MethodInfo ExpressionAssertion_IsComplex_m14910_MethodInfo = 
+extern const MethodInfo ExpressionAssertion_IsComplex_m14911_MethodInfo = 
 {
 	"IsComplex"/* name */
-	, (methodPointerType)&ExpressionAssertion_IsComplex_m14910/* method */
+	, (methodPointerType)&ExpressionAssertion_IsComplex_m14911/* method */
 	, &ExpressionAssertion_t4163_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -12769,45 +12769,45 @@ extern const MethodInfo ExpressionAssertion_IsComplex_m14910_MethodInfo =
 };
 static const MethodInfo* ExpressionAssertion_t4163_MethodInfos[] =
 {
-	&ExpressionAssertion__ctor_m14904_MethodInfo,
-	&ExpressionAssertion_set_Reverse_m14905_MethodInfo,
-	&ExpressionAssertion_set_Negate_m14906_MethodInfo,
-	&ExpressionAssertion_get_TestExpression_m14907_MethodInfo,
-	&ExpressionAssertion_set_TestExpression_m14908_MethodInfo,
-	&ExpressionAssertion_Compile_m14909_MethodInfo,
-	&ExpressionAssertion_IsComplex_m14910_MethodInfo,
+	&ExpressionAssertion__ctor_m14905_MethodInfo,
+	&ExpressionAssertion_set_Reverse_m14906_MethodInfo,
+	&ExpressionAssertion_set_Negate_m14907_MethodInfo,
+	&ExpressionAssertion_get_TestExpression_m14908_MethodInfo,
+	&ExpressionAssertion_set_TestExpression_m14909_MethodInfo,
+	&ExpressionAssertion_Compile_m14910_MethodInfo,
+	&ExpressionAssertion_IsComplex_m14911_MethodInfo,
 	NULL
 };
-extern const MethodInfo ExpressionAssertion_set_Reverse_m14905_MethodInfo;
+extern const MethodInfo ExpressionAssertion_set_Reverse_m14906_MethodInfo;
 static const PropertyInfo ExpressionAssertion_t4163____Reverse_PropertyInfo = 
 {
 	&ExpressionAssertion_t4163_il2cpp_TypeInfo/* parent */
 	, "Reverse"/* name */
 	, NULL/* get */
-	, &ExpressionAssertion_set_Reverse_m14905_MethodInfo/* set */
+	, &ExpressionAssertion_set_Reverse_m14906_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ExpressionAssertion_set_Negate_m14906_MethodInfo;
+extern const MethodInfo ExpressionAssertion_set_Negate_m14907_MethodInfo;
 static const PropertyInfo ExpressionAssertion_t4163____Negate_PropertyInfo = 
 {
 	&ExpressionAssertion_t4163_il2cpp_TypeInfo/* parent */
 	, "Negate"/* name */
 	, NULL/* get */
-	, &ExpressionAssertion_set_Negate_m14906_MethodInfo/* set */
+	, &ExpressionAssertion_set_Negate_m14907_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ExpressionAssertion_get_TestExpression_m14907_MethodInfo;
-extern const MethodInfo ExpressionAssertion_set_TestExpression_m14908_MethodInfo;
+extern const MethodInfo ExpressionAssertion_get_TestExpression_m14908_MethodInfo;
+extern const MethodInfo ExpressionAssertion_set_TestExpression_m14909_MethodInfo;
 static const PropertyInfo ExpressionAssertion_t4163____TestExpression_PropertyInfo = 
 {
 	&ExpressionAssertion_t4163_il2cpp_TypeInfo/* parent */
 	, "TestExpression"/* name */
-	, &ExpressionAssertion_get_TestExpression_m14907_MethodInfo/* get */
-	, &ExpressionAssertion_set_TestExpression_m14908_MethodInfo/* set */
+	, &ExpressionAssertion_get_TestExpression_m14908_MethodInfo/* get */
+	, &ExpressionAssertion_set_TestExpression_m14909_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -12819,18 +12819,18 @@ static const PropertyInfo* ExpressionAssertion_t4163_PropertyInfos[] =
 	&ExpressionAssertion_t4163____TestExpression_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ExpressionAssertion_Compile_m14909_MethodInfo;
-extern const MethodInfo ExpressionAssertion_IsComplex_m14910_MethodInfo;
+extern const MethodInfo ExpressionAssertion_Compile_m14910_MethodInfo;
+extern const MethodInfo ExpressionAssertion_IsComplex_m14911_MethodInfo;
 static const Il2CppMethodReference ExpressionAssertion_t4163_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ExpressionAssertion_Compile_m14909_MethodInfo,
-	&Assertion_GetWidth_m14898_MethodInfo,
-	&Expression_GetAnchorInfo_m14858_MethodInfo,
-	&ExpressionAssertion_IsComplex_m14910_MethodInfo,
+	&ExpressionAssertion_Compile_m14910_MethodInfo,
+	&Assertion_GetWidth_m14899_MethodInfo,
+	&Expression_GetAnchorInfo_m14859_MethodInfo,
+	&ExpressionAssertion_IsComplex_m14911_MethodInfo,
 };
 static bool ExpressionAssertion_t4163_VTableIsGenericMethod[] =
 {
@@ -12921,10 +12921,10 @@ extern TypeInfo Alternation_t4166_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_AlternationMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Alternation::.ctor()
-extern const MethodInfo Alternation__ctor_m14911_MethodInfo = 
+extern const MethodInfo Alternation__ctor_m14912_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Alternation__ctor_m14911/* method */
+	, (methodPointerType)&Alternation__ctor_m14912/* method */
 	, &Alternation_t4166_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12944,10 +12944,10 @@ extern const MethodInfo Alternation__ctor_m14911_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.ExpressionCollection System.Text.RegularExpressions.Syntax.Alternation::get_Alternatives()
-extern const MethodInfo Alternation_get_Alternatives_m14912_MethodInfo = 
+extern const MethodInfo Alternation_get_Alternatives_m14913_MethodInfo = 
 {
 	"get_Alternatives"/* name */
-	, (methodPointerType)&Alternation_get_Alternatives_m14912/* method */
+	, (methodPointerType)&Alternation_get_Alternatives_m14913/* method */
 	, &Alternation_t4166_il2cpp_TypeInfo/* declaring_type */
 	, &ExpressionCollection_t4153_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12966,20 +12966,20 @@ extern const MethodInfo Alternation_get_Alternatives_m14912_MethodInfo =
 
 };
 extern const Il2CppType Expression_t4154_0_0_0;
-static const ParameterInfo Alternation_t4166_Alternation_AddAlternative_m14913_ParameterInfos[] = 
+static const ParameterInfo Alternation_t4166_Alternation_AddAlternative_m14914_ParameterInfos[] = 
 {
 	{"e", 0, 134219682, 0, &Expression_t4154_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Alternation::AddAlternative(System.Text.RegularExpressions.Syntax.Expression)
-extern const MethodInfo Alternation_AddAlternative_m14913_MethodInfo = 
+extern const MethodInfo Alternation_AddAlternative_m14914_MethodInfo = 
 {
 	"AddAlternative"/* name */
-	, (methodPointerType)&Alternation_AddAlternative_m14913/* method */
+	, (methodPointerType)&Alternation_AddAlternative_m14914/* method */
 	, &Alternation_t4166_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Alternation_t4166_Alternation_AddAlternative_m14913_ParameterInfos/* parameters */
+	, Alternation_t4166_Alternation_AddAlternative_m14914_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12995,21 +12995,21 @@ extern const MethodInfo Alternation_AddAlternative_m14913_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Alternation_t4166_Alternation_Compile_m14914_ParameterInfos[] = 
+static const ParameterInfo Alternation_t4166_Alternation_Compile_m14915_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219683, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219684, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Alternation::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo Alternation_Compile_m14914_MethodInfo = 
+extern const MethodInfo Alternation_Compile_m14915_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&Alternation_Compile_m14914/* method */
+	, (methodPointerType)&Alternation_Compile_m14915/* method */
 	, &Alternation_t4166_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, Alternation_t4166_Alternation_Compile_m14914_ParameterInfos/* parameters */
+	, Alternation_t4166_Alternation_Compile_m14915_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13025,21 +13025,21 @@ extern const MethodInfo Alternation_Compile_m14914_MethodInfo =
 };
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Int32_t82_1_0_2;
-static const ParameterInfo Alternation_t4166_Alternation_GetWidth_m14915_ParameterInfos[] = 
+static const ParameterInfo Alternation_t4166_Alternation_GetWidth_m14916_ParameterInfos[] = 
 {
 	{"min", 0, 134219685, 0, &Int32_t82_1_0_2},
 	{"max", 1, 134219686, 0, &Int32_t82_1_0_2},
 };
 extern void* RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Alternation::GetWidth(System.Int32&,System.Int32&)
-extern const MethodInfo Alternation_GetWidth_m14915_MethodInfo = 
+extern const MethodInfo Alternation_GetWidth_m14916_MethodInfo = 
 {
 	"GetWidth"/* name */
-	, (methodPointerType)&Alternation_GetWidth_m14915/* method */
+	, (methodPointerType)&Alternation_GetWidth_m14916/* method */
 	, &Alternation_t4166_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826/* invoker_method */
-	, Alternation_t4166_Alternation_GetWidth_m14915_ParameterInfos/* parameters */
+	, Alternation_t4166_Alternation_GetWidth_m14916_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13055,19 +13055,19 @@ extern const MethodInfo Alternation_GetWidth_m14915_MethodInfo =
 };
 static const MethodInfo* Alternation_t4166_MethodInfos[] =
 {
-	&Alternation__ctor_m14911_MethodInfo,
-	&Alternation_get_Alternatives_m14912_MethodInfo,
-	&Alternation_AddAlternative_m14913_MethodInfo,
-	&Alternation_Compile_m14914_MethodInfo,
-	&Alternation_GetWidth_m14915_MethodInfo,
+	&Alternation__ctor_m14912_MethodInfo,
+	&Alternation_get_Alternatives_m14913_MethodInfo,
+	&Alternation_AddAlternative_m14914_MethodInfo,
+	&Alternation_Compile_m14915_MethodInfo,
+	&Alternation_GetWidth_m14916_MethodInfo,
 	NULL
 };
-extern const MethodInfo Alternation_get_Alternatives_m14912_MethodInfo;
+extern const MethodInfo Alternation_get_Alternatives_m14913_MethodInfo;
 static const PropertyInfo Alternation_t4166____Alternatives_PropertyInfo = 
 {
 	&Alternation_t4166_il2cpp_TypeInfo/* parent */
 	, "Alternatives"/* name */
-	, &Alternation_get_Alternatives_m14912_MethodInfo/* get */
+	, &Alternation_get_Alternatives_m14913_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -13078,18 +13078,18 @@ static const PropertyInfo* Alternation_t4166_PropertyInfos[] =
 	&Alternation_t4166____Alternatives_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Alternation_Compile_m14914_MethodInfo;
-extern const MethodInfo Alternation_GetWidth_m14915_MethodInfo;
+extern const MethodInfo Alternation_Compile_m14915_MethodInfo;
+extern const MethodInfo Alternation_GetWidth_m14916_MethodInfo;
 static const Il2CppMethodReference Alternation_t4166_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&Alternation_Compile_m14914_MethodInfo,
-	&Alternation_GetWidth_m14915_MethodInfo,
-	&Expression_GetAnchorInfo_m14858_MethodInfo,
-	&CompositeExpression_IsComplex_m14862_MethodInfo,
+	&Alternation_Compile_m14915_MethodInfo,
+	&Alternation_GetWidth_m14916_MethodInfo,
+	&Expression_GetAnchorInfo_m14859_MethodInfo,
+	&CompositeExpression_IsComplex_m14863_MethodInfo,
 };
 static bool Alternation_t4166_VTableIsGenericMethod[] =
 {
@@ -13181,21 +13181,21 @@ extern TypeInfo Literal_t4164_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_LiteralMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Literal_t4164_Literal__ctor_m14916_ParameterInfos[] = 
+static const ParameterInfo Literal_t4164_Literal__ctor_m14917_ParameterInfos[] = 
 {
 	{"str", 0, 134219687, 0, &String_t_0_0_0},
 	{"ignore", 1, 134219688, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Literal::.ctor(System.String,System.Boolean)
-extern const MethodInfo Literal__ctor_m14916_MethodInfo = 
+extern const MethodInfo Literal__ctor_m14917_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Literal__ctor_m14916/* method */
+	, (methodPointerType)&Literal__ctor_m14917/* method */
 	, &Literal_t4164_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, Literal_t4164_Literal__ctor_m14916_ParameterInfos/* parameters */
+	, Literal_t4164_Literal__ctor_m14917_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -13213,7 +13213,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Literal_t4164_Literal_CompileLiteral_m14917_ParameterInfos[] = 
+static const ParameterInfo Literal_t4164_Literal_CompileLiteral_m14918_ParameterInfos[] = 
 {
 	{"str", 0, 134219689, 0, &String_t_0_0_0},
 	{"cmp", 1, 134219690, 0, &ICompiler_t4189_0_0_0},
@@ -13222,14 +13222,14 @@ static const ParameterInfo Literal_t4164_Literal_CompileLiteral_m14917_Parameter
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Literal::CompileLiteral(System.String,System.Text.RegularExpressions.ICompiler,System.Boolean,System.Boolean)
-extern const MethodInfo Literal_CompileLiteral_m14917_MethodInfo = 
+extern const MethodInfo Literal_CompileLiteral_m14918_MethodInfo = 
 {
 	"CompileLiteral"/* name */
-	, (methodPointerType)&Literal_CompileLiteral_m14917/* method */
+	, (methodPointerType)&Literal_CompileLiteral_m14918/* method */
 	, &Literal_t4164_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88_SByte_t88/* invoker_method */
-	, Literal_t4164_Literal_CompileLiteral_m14917_ParameterInfos/* parameters */
+	, Literal_t4164_Literal_CompileLiteral_m14918_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -13245,21 +13245,21 @@ extern const MethodInfo Literal_CompileLiteral_m14917_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Literal_t4164_Literal_Compile_m14918_ParameterInfos[] = 
+static const ParameterInfo Literal_t4164_Literal_Compile_m14919_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219693, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219694, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Literal::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo Literal_Compile_m14918_MethodInfo = 
+extern const MethodInfo Literal_Compile_m14919_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&Literal_Compile_m14918/* method */
+	, (methodPointerType)&Literal_Compile_m14919/* method */
 	, &Literal_t4164_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, Literal_t4164_Literal_Compile_m14918_ParameterInfos/* parameters */
+	, Literal_t4164_Literal_Compile_m14919_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13275,21 +13275,21 @@ extern const MethodInfo Literal_Compile_m14918_MethodInfo =
 };
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Int32_t82_1_0_2;
-static const ParameterInfo Literal_t4164_Literal_GetWidth_m14919_ParameterInfos[] = 
+static const ParameterInfo Literal_t4164_Literal_GetWidth_m14920_ParameterInfos[] = 
 {
 	{"min", 0, 134219695, 0, &Int32_t82_1_0_2},
 	{"max", 1, 134219696, 0, &Int32_t82_1_0_2},
 };
 extern void* RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Literal::GetWidth(System.Int32&,System.Int32&)
-extern const MethodInfo Literal_GetWidth_m14919_MethodInfo = 
+extern const MethodInfo Literal_GetWidth_m14920_MethodInfo = 
 {
 	"GetWidth"/* name */
-	, (methodPointerType)&Literal_GetWidth_m14919/* method */
+	, (methodPointerType)&Literal_GetWidth_m14920/* method */
 	, &Literal_t4164_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826/* invoker_method */
-	, Literal_t4164_Literal_GetWidth_m14919_ParameterInfos/* parameters */
+	, Literal_t4164_Literal_GetWidth_m14920_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13304,20 +13304,20 @@ extern const MethodInfo Literal_GetWidth_m14919_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Literal_t4164_Literal_GetAnchorInfo_m14920_ParameterInfos[] = 
+static const ParameterInfo Literal_t4164_Literal_GetAnchorInfo_m14921_ParameterInfos[] = 
 {
 	{"reverse", 0, 134219697, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Literal::GetAnchorInfo(System.Boolean)
-extern const MethodInfo Literal_GetAnchorInfo_m14920_MethodInfo = 
+extern const MethodInfo Literal_GetAnchorInfo_m14921_MethodInfo = 
 {
 	"GetAnchorInfo"/* name */
-	, (methodPointerType)&Literal_GetAnchorInfo_m14920/* method */
+	, (methodPointerType)&Literal_GetAnchorInfo_m14921/* method */
 	, &Literal_t4164_il2cpp_TypeInfo/* declaring_type */
 	, &AnchorInfo_t4172_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
-	, Literal_t4164_Literal_GetAnchorInfo_m14920_ParameterInfos/* parameters */
+	, Literal_t4164_Literal_GetAnchorInfo_m14921_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13333,10 +13333,10 @@ extern const MethodInfo Literal_GetAnchorInfo_m14920_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.Literal::IsComplex()
-extern const MethodInfo Literal_IsComplex_m14921_MethodInfo = 
+extern const MethodInfo Literal_IsComplex_m14922_MethodInfo = 
 {
 	"IsComplex"/* name */
-	, (methodPointerType)&Literal_IsComplex_m14921/* method */
+	, (methodPointerType)&Literal_IsComplex_m14922/* method */
 	, &Literal_t4164_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -13356,28 +13356,28 @@ extern const MethodInfo Literal_IsComplex_m14921_MethodInfo =
 };
 static const MethodInfo* Literal_t4164_MethodInfos[] =
 {
-	&Literal__ctor_m14916_MethodInfo,
-	&Literal_CompileLiteral_m14917_MethodInfo,
-	&Literal_Compile_m14918_MethodInfo,
-	&Literal_GetWidth_m14919_MethodInfo,
-	&Literal_GetAnchorInfo_m14920_MethodInfo,
-	&Literal_IsComplex_m14921_MethodInfo,
+	&Literal__ctor_m14917_MethodInfo,
+	&Literal_CompileLiteral_m14918_MethodInfo,
+	&Literal_Compile_m14919_MethodInfo,
+	&Literal_GetWidth_m14920_MethodInfo,
+	&Literal_GetAnchorInfo_m14921_MethodInfo,
+	&Literal_IsComplex_m14922_MethodInfo,
 	NULL
 };
-extern const MethodInfo Literal_Compile_m14918_MethodInfo;
-extern const MethodInfo Literal_GetWidth_m14919_MethodInfo;
-extern const MethodInfo Literal_GetAnchorInfo_m14920_MethodInfo;
-extern const MethodInfo Literal_IsComplex_m14921_MethodInfo;
+extern const MethodInfo Literal_Compile_m14919_MethodInfo;
+extern const MethodInfo Literal_GetWidth_m14920_MethodInfo;
+extern const MethodInfo Literal_GetAnchorInfo_m14921_MethodInfo;
+extern const MethodInfo Literal_IsComplex_m14922_MethodInfo;
 static const Il2CppMethodReference Literal_t4164_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&Literal_Compile_m14918_MethodInfo,
-	&Literal_GetWidth_m14919_MethodInfo,
-	&Literal_GetAnchorInfo_m14920_MethodInfo,
-	&Literal_IsComplex_m14921_MethodInfo,
+	&Literal_Compile_m14919_MethodInfo,
+	&Literal_GetWidth_m14920_MethodInfo,
+	&Literal_GetAnchorInfo_m14921_MethodInfo,
+	&Literal_IsComplex_m14922_MethodInfo,
 };
 static bool Literal_t4164_VTableIsGenericMethod[] =
 {
@@ -13467,20 +13467,20 @@ extern TypeInfo PositionAssertion_t4167_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.PositionAssertion
 #include "System_System_Text_RegularExpressions_Syntax_PositionAssertiMethodDeclarations.h"
 extern const Il2CppType Position_t4128_0_0_0;
-static const ParameterInfo PositionAssertion_t4167_PositionAssertion__ctor_m14922_ParameterInfos[] = 
+static const ParameterInfo PositionAssertion_t4167_PositionAssertion__ctor_m14923_ParameterInfos[] = 
 {
 	{"pos", 0, 134219698, 0, &Position_t4128_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_UInt16_t743 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.PositionAssertion::.ctor(System.Text.RegularExpressions.Position)
-extern const MethodInfo PositionAssertion__ctor_m14922_MethodInfo = 
+extern const MethodInfo PositionAssertion__ctor_m14923_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PositionAssertion__ctor_m14922/* method */
+	, (methodPointerType)&PositionAssertion__ctor_m14923/* method */
 	, &PositionAssertion_t4167_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_UInt16_t743/* invoker_method */
-	, PositionAssertion_t4167_PositionAssertion__ctor_m14922_ParameterInfos/* parameters */
+	, PositionAssertion_t4167_PositionAssertion__ctor_m14923_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -13496,21 +13496,21 @@ extern const MethodInfo PositionAssertion__ctor_m14922_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo PositionAssertion_t4167_PositionAssertion_Compile_m14923_ParameterInfos[] = 
+static const ParameterInfo PositionAssertion_t4167_PositionAssertion_Compile_m14924_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219699, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219700, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.PositionAssertion::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo PositionAssertion_Compile_m14923_MethodInfo = 
+extern const MethodInfo PositionAssertion_Compile_m14924_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&PositionAssertion_Compile_m14923/* method */
+	, (methodPointerType)&PositionAssertion_Compile_m14924/* method */
 	, &PositionAssertion_t4167_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, PositionAssertion_t4167_PositionAssertion_Compile_m14923_ParameterInfos/* parameters */
+	, PositionAssertion_t4167_PositionAssertion_Compile_m14924_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13526,21 +13526,21 @@ extern const MethodInfo PositionAssertion_Compile_m14923_MethodInfo =
 };
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Int32_t82_1_0_2;
-static const ParameterInfo PositionAssertion_t4167_PositionAssertion_GetWidth_m14924_ParameterInfos[] = 
+static const ParameterInfo PositionAssertion_t4167_PositionAssertion_GetWidth_m14925_ParameterInfos[] = 
 {
 	{"min", 0, 134219701, 0, &Int32_t82_1_0_2},
 	{"max", 1, 134219702, 0, &Int32_t82_1_0_2},
 };
 extern void* RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.PositionAssertion::GetWidth(System.Int32&,System.Int32&)
-extern const MethodInfo PositionAssertion_GetWidth_m14924_MethodInfo = 
+extern const MethodInfo PositionAssertion_GetWidth_m14925_MethodInfo = 
 {
 	"GetWidth"/* name */
-	, (methodPointerType)&PositionAssertion_GetWidth_m14924/* method */
+	, (methodPointerType)&PositionAssertion_GetWidth_m14925/* method */
 	, &PositionAssertion_t4167_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826/* invoker_method */
-	, PositionAssertion_t4167_PositionAssertion_GetWidth_m14924_ParameterInfos/* parameters */
+	, PositionAssertion_t4167_PositionAssertion_GetWidth_m14925_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13556,10 +13556,10 @@ extern const MethodInfo PositionAssertion_GetWidth_m14924_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.PositionAssertion::IsComplex()
-extern const MethodInfo PositionAssertion_IsComplex_m14925_MethodInfo = 
+extern const MethodInfo PositionAssertion_IsComplex_m14926_MethodInfo = 
 {
 	"IsComplex"/* name */
-	, (methodPointerType)&PositionAssertion_IsComplex_m14925/* method */
+	, (methodPointerType)&PositionAssertion_IsComplex_m14926/* method */
 	, &PositionAssertion_t4167_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -13578,20 +13578,20 @@ extern const MethodInfo PositionAssertion_IsComplex_m14925_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo PositionAssertion_t4167_PositionAssertion_GetAnchorInfo_m14926_ParameterInfos[] = 
+static const ParameterInfo PositionAssertion_t4167_PositionAssertion_GetAnchorInfo_m14927_ParameterInfos[] = 
 {
 	{"revers", 0, 134219703, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.PositionAssertion::GetAnchorInfo(System.Boolean)
-extern const MethodInfo PositionAssertion_GetAnchorInfo_m14926_MethodInfo = 
+extern const MethodInfo PositionAssertion_GetAnchorInfo_m14927_MethodInfo = 
 {
 	"GetAnchorInfo"/* name */
-	, (methodPointerType)&PositionAssertion_GetAnchorInfo_m14926/* method */
+	, (methodPointerType)&PositionAssertion_GetAnchorInfo_m14927/* method */
 	, &PositionAssertion_t4167_il2cpp_TypeInfo/* declaring_type */
 	, &AnchorInfo_t4172_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_SByte_t88/* invoker_method */
-	, PositionAssertion_t4167_PositionAssertion_GetAnchorInfo_m14926_ParameterInfos/* parameters */
+	, PositionAssertion_t4167_PositionAssertion_GetAnchorInfo_m14927_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13607,27 +13607,27 @@ extern const MethodInfo PositionAssertion_GetAnchorInfo_m14926_MethodInfo =
 };
 static const MethodInfo* PositionAssertion_t4167_MethodInfos[] =
 {
-	&PositionAssertion__ctor_m14922_MethodInfo,
-	&PositionAssertion_Compile_m14923_MethodInfo,
-	&PositionAssertion_GetWidth_m14924_MethodInfo,
-	&PositionAssertion_IsComplex_m14925_MethodInfo,
-	&PositionAssertion_GetAnchorInfo_m14926_MethodInfo,
+	&PositionAssertion__ctor_m14923_MethodInfo,
+	&PositionAssertion_Compile_m14924_MethodInfo,
+	&PositionAssertion_GetWidth_m14925_MethodInfo,
+	&PositionAssertion_IsComplex_m14926_MethodInfo,
+	&PositionAssertion_GetAnchorInfo_m14927_MethodInfo,
 	NULL
 };
-extern const MethodInfo PositionAssertion_Compile_m14923_MethodInfo;
-extern const MethodInfo PositionAssertion_GetWidth_m14924_MethodInfo;
-extern const MethodInfo PositionAssertion_GetAnchorInfo_m14926_MethodInfo;
-extern const MethodInfo PositionAssertion_IsComplex_m14925_MethodInfo;
+extern const MethodInfo PositionAssertion_Compile_m14924_MethodInfo;
+extern const MethodInfo PositionAssertion_GetWidth_m14925_MethodInfo;
+extern const MethodInfo PositionAssertion_GetAnchorInfo_m14927_MethodInfo;
+extern const MethodInfo PositionAssertion_IsComplex_m14926_MethodInfo;
 static const Il2CppMethodReference PositionAssertion_t4167_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&PositionAssertion_Compile_m14923_MethodInfo,
-	&PositionAssertion_GetWidth_m14924_MethodInfo,
-	&PositionAssertion_GetAnchorInfo_m14926_MethodInfo,
-	&PositionAssertion_IsComplex_m14925_MethodInfo,
+	&PositionAssertion_Compile_m14924_MethodInfo,
+	&PositionAssertion_GetWidth_m14925_MethodInfo,
+	&PositionAssertion_GetAnchorInfo_m14927_MethodInfo,
+	&PositionAssertion_IsComplex_m14926_MethodInfo,
 };
 static bool PositionAssertion_t4167_VTableIsGenericMethod[] =
 {
@@ -13718,20 +13718,20 @@ extern TypeInfo Reference_t4168_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.Reference
 #include "System_System_Text_RegularExpressions_Syntax_ReferenceMethodDeclarations.h"
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Reference_t4168_Reference__ctor_m14927_ParameterInfos[] = 
+static const ParameterInfo Reference_t4168_Reference__ctor_m14928_ParameterInfos[] = 
 {
 	{"ignore", 0, 134219704, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Reference::.ctor(System.Boolean)
-extern const MethodInfo Reference__ctor_m14927_MethodInfo = 
+extern const MethodInfo Reference__ctor_m14928_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Reference__ctor_m14927/* method */
+	, (methodPointerType)&Reference__ctor_m14928/* method */
 	, &Reference_t4168_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Reference_t4168_Reference__ctor_m14927_ParameterInfos/* parameters */
+	, Reference_t4168_Reference__ctor_m14928_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -13747,10 +13747,10 @@ extern const MethodInfo Reference__ctor_m14927_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Syntax.CapturingGroup System.Text.RegularExpressions.Syntax.Reference::get_CapturingGroup()
-extern const MethodInfo Reference_get_CapturingGroup_m14928_MethodInfo = 
+extern const MethodInfo Reference_get_CapturingGroup_m14929_MethodInfo = 
 {
 	"get_CapturingGroup"/* name */
-	, (methodPointerType)&Reference_get_CapturingGroup_m14928/* method */
+	, (methodPointerType)&Reference_get_CapturingGroup_m14929/* method */
 	, &Reference_t4168_il2cpp_TypeInfo/* declaring_type */
 	, &CapturingGroup_t4158_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13769,20 +13769,20 @@ extern const MethodInfo Reference_get_CapturingGroup_m14928_MethodInfo =
 
 };
 extern const Il2CppType CapturingGroup_t4158_0_0_0;
-static const ParameterInfo Reference_t4168_Reference_set_CapturingGroup_m14929_ParameterInfos[] = 
+static const ParameterInfo Reference_t4168_Reference_set_CapturingGroup_m14930_ParameterInfos[] = 
 {
 	{"value", 0, 134219705, 0, &CapturingGroup_t4158_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Reference::set_CapturingGroup(System.Text.RegularExpressions.Syntax.CapturingGroup)
-extern const MethodInfo Reference_set_CapturingGroup_m14929_MethodInfo = 
+extern const MethodInfo Reference_set_CapturingGroup_m14930_MethodInfo = 
 {
 	"set_CapturingGroup"/* name */
-	, (methodPointerType)&Reference_set_CapturingGroup_m14929/* method */
+	, (methodPointerType)&Reference_set_CapturingGroup_m14930/* method */
 	, &Reference_t4168_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Reference_t4168_Reference_set_CapturingGroup_m14929_ParameterInfos/* parameters */
+	, Reference_t4168_Reference_set_CapturingGroup_m14930_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -13798,10 +13798,10 @@ extern const MethodInfo Reference_set_CapturingGroup_m14929_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.Reference::get_IgnoreCase()
-extern const MethodInfo Reference_get_IgnoreCase_m14930_MethodInfo = 
+extern const MethodInfo Reference_get_IgnoreCase_m14931_MethodInfo = 
 {
 	"get_IgnoreCase"/* name */
-	, (methodPointerType)&Reference_get_IgnoreCase_m14930/* method */
+	, (methodPointerType)&Reference_get_IgnoreCase_m14931/* method */
 	, &Reference_t4168_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -13821,21 +13821,21 @@ extern const MethodInfo Reference_get_IgnoreCase_m14930_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Reference_t4168_Reference_Compile_m14931_ParameterInfos[] = 
+static const ParameterInfo Reference_t4168_Reference_Compile_m14932_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219706, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219707, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Reference::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo Reference_Compile_m14931_MethodInfo = 
+extern const MethodInfo Reference_Compile_m14932_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&Reference_Compile_m14931/* method */
+	, (methodPointerType)&Reference_Compile_m14932/* method */
 	, &Reference_t4168_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, Reference_t4168_Reference_Compile_m14931_ParameterInfos/* parameters */
+	, Reference_t4168_Reference_Compile_m14932_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13851,21 +13851,21 @@ extern const MethodInfo Reference_Compile_m14931_MethodInfo =
 };
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Int32_t82_1_0_2;
-static const ParameterInfo Reference_t4168_Reference_GetWidth_m14932_ParameterInfos[] = 
+static const ParameterInfo Reference_t4168_Reference_GetWidth_m14933_ParameterInfos[] = 
 {
 	{"min", 0, 134219708, 0, &Int32_t82_1_0_2},
 	{"max", 1, 134219709, 0, &Int32_t82_1_0_2},
 };
 extern void* RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.Reference::GetWidth(System.Int32&,System.Int32&)
-extern const MethodInfo Reference_GetWidth_m14932_MethodInfo = 
+extern const MethodInfo Reference_GetWidth_m14933_MethodInfo = 
 {
 	"GetWidth"/* name */
-	, (methodPointerType)&Reference_GetWidth_m14932/* method */
+	, (methodPointerType)&Reference_GetWidth_m14933/* method */
 	, &Reference_t4168_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826/* invoker_method */
-	, Reference_t4168_Reference_GetWidth_m14932_ParameterInfos/* parameters */
+	, Reference_t4168_Reference_GetWidth_m14933_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13881,10 +13881,10 @@ extern const MethodInfo Reference_GetWidth_m14932_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.Reference::IsComplex()
-extern const MethodInfo Reference_IsComplex_m14933_MethodInfo = 
+extern const MethodInfo Reference_IsComplex_m14934_MethodInfo = 
 {
 	"IsComplex"/* name */
-	, (methodPointerType)&Reference_IsComplex_m14933/* method */
+	, (methodPointerType)&Reference_IsComplex_m14934/* method */
 	, &Reference_t4168_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -13904,33 +13904,33 @@ extern const MethodInfo Reference_IsComplex_m14933_MethodInfo =
 };
 static const MethodInfo* Reference_t4168_MethodInfos[] =
 {
-	&Reference__ctor_m14927_MethodInfo,
-	&Reference_get_CapturingGroup_m14928_MethodInfo,
-	&Reference_set_CapturingGroup_m14929_MethodInfo,
-	&Reference_get_IgnoreCase_m14930_MethodInfo,
-	&Reference_Compile_m14931_MethodInfo,
-	&Reference_GetWidth_m14932_MethodInfo,
-	&Reference_IsComplex_m14933_MethodInfo,
+	&Reference__ctor_m14928_MethodInfo,
+	&Reference_get_CapturingGroup_m14929_MethodInfo,
+	&Reference_set_CapturingGroup_m14930_MethodInfo,
+	&Reference_get_IgnoreCase_m14931_MethodInfo,
+	&Reference_Compile_m14932_MethodInfo,
+	&Reference_GetWidth_m14933_MethodInfo,
+	&Reference_IsComplex_m14934_MethodInfo,
 	NULL
 };
-extern const MethodInfo Reference_get_CapturingGroup_m14928_MethodInfo;
-extern const MethodInfo Reference_set_CapturingGroup_m14929_MethodInfo;
+extern const MethodInfo Reference_get_CapturingGroup_m14929_MethodInfo;
+extern const MethodInfo Reference_set_CapturingGroup_m14930_MethodInfo;
 static const PropertyInfo Reference_t4168____CapturingGroup_PropertyInfo = 
 {
 	&Reference_t4168_il2cpp_TypeInfo/* parent */
 	, "CapturingGroup"/* name */
-	, &Reference_get_CapturingGroup_m14928_MethodInfo/* get */
-	, &Reference_set_CapturingGroup_m14929_MethodInfo/* set */
+	, &Reference_get_CapturingGroup_m14929_MethodInfo/* get */
+	, &Reference_set_CapturingGroup_m14930_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Reference_get_IgnoreCase_m14930_MethodInfo;
+extern const MethodInfo Reference_get_IgnoreCase_m14931_MethodInfo;
 static const PropertyInfo Reference_t4168____IgnoreCase_PropertyInfo = 
 {
 	&Reference_t4168_il2cpp_TypeInfo/* parent */
 	, "IgnoreCase"/* name */
-	, &Reference_get_IgnoreCase_m14930_MethodInfo/* get */
+	, &Reference_get_IgnoreCase_m14931_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -13942,19 +13942,19 @@ static const PropertyInfo* Reference_t4168_PropertyInfos[] =
 	&Reference_t4168____IgnoreCase_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Reference_Compile_m14931_MethodInfo;
-extern const MethodInfo Reference_GetWidth_m14932_MethodInfo;
-extern const MethodInfo Reference_IsComplex_m14933_MethodInfo;
+extern const MethodInfo Reference_Compile_m14932_MethodInfo;
+extern const MethodInfo Reference_GetWidth_m14933_MethodInfo;
+extern const MethodInfo Reference_IsComplex_m14934_MethodInfo;
 static const Il2CppMethodReference Reference_t4168_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&Reference_Compile_m14931_MethodInfo,
-	&Reference_GetWidth_m14932_MethodInfo,
-	&Expression_GetAnchorInfo_m14858_MethodInfo,
-	&Reference_IsComplex_m14933_MethodInfo,
+	&Reference_Compile_m14932_MethodInfo,
+	&Reference_GetWidth_m14933_MethodInfo,
+	&Expression_GetAnchorInfo_m14859_MethodInfo,
+	&Reference_IsComplex_m14934_MethodInfo,
 };
 static bool Reference_t4168_VTableIsGenericMethod[] =
 {
@@ -14046,21 +14046,21 @@ extern TypeInfo BackslashNumber_t4169_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_BackslashNumberMethodDeclarations.h"
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo BackslashNumber_t4169_BackslashNumber__ctor_m14934_ParameterInfos[] = 
+static const ParameterInfo BackslashNumber_t4169_BackslashNumber__ctor_m14935_ParameterInfos[] = 
 {
 	{"ignore", 0, 134219710, 0, &Boolean_t59_0_0_0},
 	{"ecma", 1, 134219711, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.BackslashNumber::.ctor(System.Boolean,System.Boolean)
-extern const MethodInfo BackslashNumber__ctor_m14934_MethodInfo = 
+extern const MethodInfo BackslashNumber__ctor_m14935_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&BackslashNumber__ctor_m14934/* method */
+	, (methodPointerType)&BackslashNumber__ctor_m14935/* method */
 	, &BackslashNumber_t4169_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88_SByte_t88/* invoker_method */
-	, BackslashNumber_t4169_BackslashNumber__ctor_m14934_ParameterInfos/* parameters */
+	, BackslashNumber_t4169_BackslashNumber__ctor_m14935_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -14076,21 +14076,21 @@ extern const MethodInfo BackslashNumber__ctor_m14934_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Hashtable_t696_0_0_0;
-static const ParameterInfo BackslashNumber_t4169_BackslashNumber_ResolveReference_m14935_ParameterInfos[] = 
+static const ParameterInfo BackslashNumber_t4169_BackslashNumber_ResolveReference_m14936_ParameterInfos[] = 
 {
 	{"num_str", 0, 134219712, 0, &String_t_0_0_0},
 	{"groups", 1, 134219713, 0, &Hashtable_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.BackslashNumber::ResolveReference(System.String,System.Collections.Hashtable)
-extern const MethodInfo BackslashNumber_ResolveReference_m14935_MethodInfo = 
+extern const MethodInfo BackslashNumber_ResolveReference_m14936_MethodInfo = 
 {
 	"ResolveReference"/* name */
-	, (methodPointerType)&BackslashNumber_ResolveReference_m14935/* method */
+	, (methodPointerType)&BackslashNumber_ResolveReference_m14936/* method */
 	, &BackslashNumber_t4169_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, BackslashNumber_t4169_BackslashNumber_ResolveReference_m14935_ParameterInfos/* parameters */
+	, BackslashNumber_t4169_BackslashNumber_ResolveReference_m14936_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -14106,21 +14106,21 @@ extern const MethodInfo BackslashNumber_ResolveReference_m14935_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo BackslashNumber_t4169_BackslashNumber_Compile_m14936_ParameterInfos[] = 
+static const ParameterInfo BackslashNumber_t4169_BackslashNumber_Compile_m14937_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219714, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219715, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.BackslashNumber::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo BackslashNumber_Compile_m14936_MethodInfo = 
+extern const MethodInfo BackslashNumber_Compile_m14937_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&BackslashNumber_Compile_m14936/* method */
+	, (methodPointerType)&BackslashNumber_Compile_m14937/* method */
 	, &BackslashNumber_t4169_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, BackslashNumber_t4169_BackslashNumber_Compile_m14936_ParameterInfos/* parameters */
+	, BackslashNumber_t4169_BackslashNumber_Compile_m14937_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -14136,22 +14136,22 @@ extern const MethodInfo BackslashNumber_Compile_m14936_MethodInfo =
 };
 static const MethodInfo* BackslashNumber_t4169_MethodInfos[] =
 {
-	&BackslashNumber__ctor_m14934_MethodInfo,
-	&BackslashNumber_ResolveReference_m14935_MethodInfo,
-	&BackslashNumber_Compile_m14936_MethodInfo,
+	&BackslashNumber__ctor_m14935_MethodInfo,
+	&BackslashNumber_ResolveReference_m14936_MethodInfo,
+	&BackslashNumber_Compile_m14937_MethodInfo,
 	NULL
 };
-extern const MethodInfo BackslashNumber_Compile_m14936_MethodInfo;
+extern const MethodInfo BackslashNumber_Compile_m14937_MethodInfo;
 static const Il2CppMethodReference BackslashNumber_t4169_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&BackslashNumber_Compile_m14936_MethodInfo,
-	&Reference_GetWidth_m14932_MethodInfo,
-	&Expression_GetAnchorInfo_m14858_MethodInfo,
-	&Reference_IsComplex_m14933_MethodInfo,
+	&BackslashNumber_Compile_m14937_MethodInfo,
+	&Reference_GetWidth_m14933_MethodInfo,
+	&Expression_GetAnchorInfo_m14859_MethodInfo,
+	&Reference_IsComplex_m14934_MethodInfo,
 };
 static bool BackslashNumber_t4169_VTableIsGenericMethod[] =
 {
@@ -14243,21 +14243,21 @@ extern TypeInfo CharacterClass_t4171_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_CharacterClassMethodDeclarations.h"
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo CharacterClass_t4171_CharacterClass__ctor_m14937_ParameterInfos[] = 
+static const ParameterInfo CharacterClass_t4171_CharacterClass__ctor_m14938_ParameterInfos[] = 
 {
 	{"negate", 0, 134219716, 0, &Boolean_t59_0_0_0},
 	{"ignore", 1, 134219717, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::.ctor(System.Boolean,System.Boolean)
-extern const MethodInfo CharacterClass__ctor_m14937_MethodInfo = 
+extern const MethodInfo CharacterClass__ctor_m14938_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CharacterClass__ctor_m14937/* method */
+	, (methodPointerType)&CharacterClass__ctor_m14938/* method */
 	, &CharacterClass_t4171_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88_SByte_t88/* invoker_method */
-	, CharacterClass_t4171_CharacterClass__ctor_m14937_ParameterInfos/* parameters */
+	, CharacterClass_t4171_CharacterClass__ctor_m14938_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -14273,21 +14273,21 @@ extern const MethodInfo CharacterClass__ctor_m14937_MethodInfo =
 };
 extern const Il2CppType Category_t4132_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo CharacterClass_t4171_CharacterClass__ctor_m14938_ParameterInfos[] = 
+static const ParameterInfo CharacterClass_t4171_CharacterClass__ctor_m14939_ParameterInfos[] = 
 {
 	{"cat", 0, 134219718, 0, &Category_t4132_0_0_0},
 	{"negate", 1, 134219719, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_UInt16_t743_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::.ctor(System.Text.RegularExpressions.Category,System.Boolean)
-extern const MethodInfo CharacterClass__ctor_m14938_MethodInfo = 
+extern const MethodInfo CharacterClass__ctor_m14939_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CharacterClass__ctor_m14938/* method */
+	, (methodPointerType)&CharacterClass__ctor_m14939/* method */
 	, &CharacterClass_t4171_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_UInt16_t743_SByte_t88/* invoker_method */
-	, CharacterClass_t4171_CharacterClass__ctor_m14938_ParameterInfos/* parameters */
+	, CharacterClass_t4171_CharacterClass__ctor_m14939_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -14303,10 +14303,10 @@ extern const MethodInfo CharacterClass__ctor_m14938_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::.cctor()
-extern const MethodInfo CharacterClass__cctor_m14939_MethodInfo = 
+extern const MethodInfo CharacterClass__cctor_m14940_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&CharacterClass__cctor_m14939/* method */
+	, (methodPointerType)&CharacterClass__cctor_m14940/* method */
 	, &CharacterClass_t4171_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14326,21 +14326,21 @@ extern const MethodInfo CharacterClass__cctor_m14939_MethodInfo =
 };
 extern const Il2CppType Category_t4132_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo CharacterClass_t4171_CharacterClass_AddCategory_m14940_ParameterInfos[] = 
+static const ParameterInfo CharacterClass_t4171_CharacterClass_AddCategory_m14941_ParameterInfos[] = 
 {
 	{"cat", 0, 134219720, 0, &Category_t4132_0_0_0},
 	{"negate", 1, 134219721, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_UInt16_t743_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::AddCategory(System.Text.RegularExpressions.Category,System.Boolean)
-extern const MethodInfo CharacterClass_AddCategory_m14940_MethodInfo = 
+extern const MethodInfo CharacterClass_AddCategory_m14941_MethodInfo = 
 {
 	"AddCategory"/* name */
-	, (methodPointerType)&CharacterClass_AddCategory_m14940/* method */
+	, (methodPointerType)&CharacterClass_AddCategory_m14941/* method */
 	, &CharacterClass_t4171_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_UInt16_t743_SByte_t88/* invoker_method */
-	, CharacterClass_t4171_CharacterClass_AddCategory_m14940_ParameterInfos/* parameters */
+	, CharacterClass_t4171_CharacterClass_AddCategory_m14941_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -14355,20 +14355,20 @@ extern const MethodInfo CharacterClass_AddCategory_m14940_MethodInfo =
 
 };
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo CharacterClass_t4171_CharacterClass_AddCharacter_m14941_ParameterInfos[] = 
+static const ParameterInfo CharacterClass_t4171_CharacterClass_AddCharacter_m14942_ParameterInfos[] = 
 {
 	{"c", 0, 134219722, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::AddCharacter(System.Char)
-extern const MethodInfo CharacterClass_AddCharacter_m14941_MethodInfo = 
+extern const MethodInfo CharacterClass_AddCharacter_m14942_MethodInfo = 
 {
 	"AddCharacter"/* name */
-	, (methodPointerType)&CharacterClass_AddCharacter_m14941/* method */
+	, (methodPointerType)&CharacterClass_AddCharacter_m14942/* method */
 	, &CharacterClass_t4171_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int16_t742/* invoker_method */
-	, CharacterClass_t4171_CharacterClass_AddCharacter_m14941_ParameterInfos/* parameters */
+	, CharacterClass_t4171_CharacterClass_AddCharacter_m14942_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -14384,21 +14384,21 @@ extern const MethodInfo CharacterClass_AddCharacter_m14941_MethodInfo =
 };
 extern const Il2CppType Char_t60_0_0_0;
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo CharacterClass_t4171_CharacterClass_AddRange_m14942_ParameterInfos[] = 
+static const ParameterInfo CharacterClass_t4171_CharacterClass_AddRange_m14943_ParameterInfos[] = 
 {
 	{"lo", 0, 134219723, 0, &Char_t60_0_0_0},
 	{"hi", 1, 134219724, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int16_t742_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::AddRange(System.Char,System.Char)
-extern const MethodInfo CharacterClass_AddRange_m14942_MethodInfo = 
+extern const MethodInfo CharacterClass_AddRange_m14943_MethodInfo = 
 {
 	"AddRange"/* name */
-	, (methodPointerType)&CharacterClass_AddRange_m14942/* method */
+	, (methodPointerType)&CharacterClass_AddRange_m14943/* method */
 	, &CharacterClass_t4171_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int16_t742_Int16_t742/* invoker_method */
-	, CharacterClass_t4171_CharacterClass_AddRange_m14942_ParameterInfos/* parameters */
+	, CharacterClass_t4171_CharacterClass_AddRange_m14943_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -14414,21 +14414,21 @@ extern const MethodInfo CharacterClass_AddRange_m14942_MethodInfo =
 };
 extern const Il2CppType ICompiler_t4189_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo CharacterClass_t4171_CharacterClass_Compile_m14943_ParameterInfos[] = 
+static const ParameterInfo CharacterClass_t4171_CharacterClass_Compile_m14944_ParameterInfos[] = 
 {
 	{"cmp", 0, 134219725, 0, &ICompiler_t4189_0_0_0},
 	{"reverse", 1, 134219726, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern const MethodInfo CharacterClass_Compile_m14943_MethodInfo = 
+extern const MethodInfo CharacterClass_Compile_m14944_MethodInfo = 
 {
 	"Compile"/* name */
-	, (methodPointerType)&CharacterClass_Compile_m14943/* method */
+	, (methodPointerType)&CharacterClass_Compile_m14944/* method */
 	, &CharacterClass_t4171_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, CharacterClass_t4171_CharacterClass_Compile_m14943_ParameterInfos/* parameters */
+	, CharacterClass_t4171_CharacterClass_Compile_m14944_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -14444,21 +14444,21 @@ extern const MethodInfo CharacterClass_Compile_m14943_MethodInfo =
 };
 extern const Il2CppType Int32_t82_1_0_2;
 extern const Il2CppType Int32_t82_1_0_2;
-static const ParameterInfo CharacterClass_t4171_CharacterClass_GetWidth_m14944_ParameterInfos[] = 
+static const ParameterInfo CharacterClass_t4171_CharacterClass_GetWidth_m14945_ParameterInfos[] = 
 {
 	{"min", 0, 134219727, 0, &Int32_t82_1_0_2},
 	{"max", 1, 134219728, 0, &Int32_t82_1_0_2},
 };
 extern void* RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::GetWidth(System.Int32&,System.Int32&)
-extern const MethodInfo CharacterClass_GetWidth_m14944_MethodInfo = 
+extern const MethodInfo CharacterClass_GetWidth_m14945_MethodInfo = 
 {
 	"GetWidth"/* name */
-	, (methodPointerType)&CharacterClass_GetWidth_m14944/* method */
+	, (methodPointerType)&CharacterClass_GetWidth_m14945/* method */
 	, &CharacterClass_t4171_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32U26_t826_Int32U26_t826/* invoker_method */
-	, CharacterClass_t4171_CharacterClass_GetWidth_m14944_ParameterInfos/* parameters */
+	, CharacterClass_t4171_CharacterClass_GetWidth_m14945_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -14474,10 +14474,10 @@ extern const MethodInfo CharacterClass_GetWidth_m14944_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.CharacterClass::IsComplex()
-extern const MethodInfo CharacterClass_IsComplex_m14945_MethodInfo = 
+extern const MethodInfo CharacterClass_IsComplex_m14946_MethodInfo = 
 {
 	"IsComplex"/* name */
-	, (methodPointerType)&CharacterClass_IsComplex_m14945/* method */
+	, (methodPointerType)&CharacterClass_IsComplex_m14946/* method */
 	, &CharacterClass_t4171_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -14496,20 +14496,20 @@ extern const MethodInfo CharacterClass_IsComplex_m14945_MethodInfo =
 
 };
 extern const Il2CppType Interval_t4147_0_0_0;
-static const ParameterInfo CharacterClass_t4171_CharacterClass_GetIntervalCost_m14946_ParameterInfos[] = 
+static const ParameterInfo CharacterClass_t4171_CharacterClass_GetIntervalCost_m14947_ParameterInfos[] = 
 {
 	{"i", 0, 134219729, 0, &Interval_t4147_0_0_0},
 };
 extern void* RuntimeInvoker_Double_t90_Interval_t4147 (const MethodInfo* method, void* obj, void** args);
 // System.Double System.Text.RegularExpressions.Syntax.CharacterClass::GetIntervalCost(System.Text.RegularExpressions.Interval)
-extern const MethodInfo CharacterClass_GetIntervalCost_m14946_MethodInfo = 
+extern const MethodInfo CharacterClass_GetIntervalCost_m14947_MethodInfo = 
 {
 	"GetIntervalCost"/* name */
-	, (methodPointerType)&CharacterClass_GetIntervalCost_m14946/* method */
+	, (methodPointerType)&CharacterClass_GetIntervalCost_m14947/* method */
 	, &CharacterClass_t4171_il2cpp_TypeInfo/* declaring_type */
 	, &Double_t90_0_0_0/* return_type */
 	, RuntimeInvoker_Double_t90_Interval_t4147/* invoker_method */
-	, CharacterClass_t4171_CharacterClass_GetIntervalCost_m14946_ParameterInfos/* parameters */
+	, CharacterClass_t4171_CharacterClass_GetIntervalCost_m14947_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -14525,31 +14525,31 @@ extern const MethodInfo CharacterClass_GetIntervalCost_m14946_MethodInfo =
 };
 static const MethodInfo* CharacterClass_t4171_MethodInfos[] =
 {
-	&CharacterClass__ctor_m14937_MethodInfo,
 	&CharacterClass__ctor_m14938_MethodInfo,
-	&CharacterClass__cctor_m14939_MethodInfo,
-	&CharacterClass_AddCategory_m14940_MethodInfo,
-	&CharacterClass_AddCharacter_m14941_MethodInfo,
-	&CharacterClass_AddRange_m14942_MethodInfo,
-	&CharacterClass_Compile_m14943_MethodInfo,
-	&CharacterClass_GetWidth_m14944_MethodInfo,
-	&CharacterClass_IsComplex_m14945_MethodInfo,
-	&CharacterClass_GetIntervalCost_m14946_MethodInfo,
+	&CharacterClass__ctor_m14939_MethodInfo,
+	&CharacterClass__cctor_m14940_MethodInfo,
+	&CharacterClass_AddCategory_m14941_MethodInfo,
+	&CharacterClass_AddCharacter_m14942_MethodInfo,
+	&CharacterClass_AddRange_m14943_MethodInfo,
+	&CharacterClass_Compile_m14944_MethodInfo,
+	&CharacterClass_GetWidth_m14945_MethodInfo,
+	&CharacterClass_IsComplex_m14946_MethodInfo,
+	&CharacterClass_GetIntervalCost_m14947_MethodInfo,
 	NULL
 };
-extern const MethodInfo CharacterClass_Compile_m14943_MethodInfo;
-extern const MethodInfo CharacterClass_GetWidth_m14944_MethodInfo;
-extern const MethodInfo CharacterClass_IsComplex_m14945_MethodInfo;
+extern const MethodInfo CharacterClass_Compile_m14944_MethodInfo;
+extern const MethodInfo CharacterClass_GetWidth_m14945_MethodInfo;
+extern const MethodInfo CharacterClass_IsComplex_m14946_MethodInfo;
 static const Il2CppMethodReference CharacterClass_t4171_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&CharacterClass_Compile_m14943_MethodInfo,
-	&CharacterClass_GetWidth_m14944_MethodInfo,
-	&Expression_GetAnchorInfo_m14858_MethodInfo,
-	&CharacterClass_IsComplex_m14945_MethodInfo,
+	&CharacterClass_Compile_m14944_MethodInfo,
+	&CharacterClass_GetWidth_m14945_MethodInfo,
+	&Expression_GetAnchorInfo_m14859_MethodInfo,
+	&CharacterClass_IsComplex_m14946_MethodInfo,
 };
 static bool CharacterClass_t4171_VTableIsGenericMethod[] =
 {
@@ -14641,21 +14641,21 @@ extern TypeInfo AnchorInfo_t4172_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_Syntax_AnchorInfoMethodDeclarations.h"
 extern const Il2CppType Expression_t4154_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo AnchorInfo_t4172_AnchorInfo__ctor_m14947_ParameterInfos[] = 
+static const ParameterInfo AnchorInfo_t4172_AnchorInfo__ctor_m14948_ParameterInfos[] = 
 {
 	{"expr", 0, 134219730, 0, &Expression_t4154_0_0_0},
 	{"width", 1, 134219731, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.AnchorInfo::.ctor(System.Text.RegularExpressions.Syntax.Expression,System.Int32)
-extern const MethodInfo AnchorInfo__ctor_m14947_MethodInfo = 
+extern const MethodInfo AnchorInfo__ctor_m14948_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AnchorInfo__ctor_m14947/* method */
+	, (methodPointerType)&AnchorInfo__ctor_m14948/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, AnchorInfo_t4172_AnchorInfo__ctor_m14947_ParameterInfos/* parameters */
+	, AnchorInfo_t4172_AnchorInfo__ctor_m14948_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -14674,7 +14674,7 @@ extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo AnchorInfo_t4172_AnchorInfo__ctor_m14948_ParameterInfos[] = 
+static const ParameterInfo AnchorInfo_t4172_AnchorInfo__ctor_m14949_ParameterInfos[] = 
 {
 	{"expr", 0, 134219732, 0, &Expression_t4154_0_0_0},
 	{"offset", 1, 134219733, 0, &Int32_t82_0_0_0},
@@ -14684,14 +14684,14 @@ static const ParameterInfo AnchorInfo_t4172_AnchorInfo__ctor_m14948_ParameterInf
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.AnchorInfo::.ctor(System.Text.RegularExpressions.Syntax.Expression,System.Int32,System.Int32,System.String,System.Boolean)
-extern const MethodInfo AnchorInfo__ctor_m14948_MethodInfo = 
+extern const MethodInfo AnchorInfo__ctor_m14949_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AnchorInfo__ctor_m14948/* method */
+	, (methodPointerType)&AnchorInfo__ctor_m14949/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82_Object_t_SByte_t88/* invoker_method */
-	, AnchorInfo_t4172_AnchorInfo__ctor_m14948_ParameterInfos/* parameters */
+	, AnchorInfo_t4172_AnchorInfo__ctor_m14949_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -14709,7 +14709,7 @@ extern const Il2CppType Expression_t4154_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Position_t4128_0_0_0;
-static const ParameterInfo AnchorInfo_t4172_AnchorInfo__ctor_m14949_ParameterInfos[] = 
+static const ParameterInfo AnchorInfo_t4172_AnchorInfo__ctor_m14950_ParameterInfos[] = 
 {
 	{"expr", 0, 134219737, 0, &Expression_t4154_0_0_0},
 	{"offset", 1, 134219738, 0, &Int32_t82_0_0_0},
@@ -14718,14 +14718,14 @@ static const ParameterInfo AnchorInfo_t4172_AnchorInfo__ctor_m14949_ParameterInf
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82_UInt16_t743 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.Syntax.AnchorInfo::.ctor(System.Text.RegularExpressions.Syntax.Expression,System.Int32,System.Int32,System.Text.RegularExpressions.Position)
-extern const MethodInfo AnchorInfo__ctor_m14949_MethodInfo = 
+extern const MethodInfo AnchorInfo__ctor_m14950_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AnchorInfo__ctor_m14949/* method */
+	, (methodPointerType)&AnchorInfo__ctor_m14950/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82_UInt16_t743/* invoker_method */
-	, AnchorInfo_t4172_AnchorInfo__ctor_m14949_ParameterInfos/* parameters */
+	, AnchorInfo_t4172_AnchorInfo__ctor_m14950_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -14741,10 +14741,10 @@ extern const MethodInfo AnchorInfo__ctor_m14949_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.AnchorInfo::get_Offset()
-extern const MethodInfo AnchorInfo_get_Offset_m14950_MethodInfo = 
+extern const MethodInfo AnchorInfo_get_Offset_m14951_MethodInfo = 
 {
 	"get_Offset"/* name */
-	, (methodPointerType)&AnchorInfo_get_Offset_m14950/* method */
+	, (methodPointerType)&AnchorInfo_get_Offset_m14951/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -14764,10 +14764,10 @@ extern const MethodInfo AnchorInfo_get_Offset_m14950_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.AnchorInfo::get_Width()
-extern const MethodInfo AnchorInfo_get_Width_m14951_MethodInfo = 
+extern const MethodInfo AnchorInfo_get_Width_m14952_MethodInfo = 
 {
 	"get_Width"/* name */
-	, (methodPointerType)&AnchorInfo_get_Width_m14951/* method */
+	, (methodPointerType)&AnchorInfo_get_Width_m14952/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -14787,10 +14787,10 @@ extern const MethodInfo AnchorInfo_get_Width_m14951_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Text.RegularExpressions.Syntax.AnchorInfo::get_Length()
-extern const MethodInfo AnchorInfo_get_Length_m14952_MethodInfo = 
+extern const MethodInfo AnchorInfo_get_Length_m14953_MethodInfo = 
 {
 	"get_Length"/* name */
-	, (methodPointerType)&AnchorInfo_get_Length_m14952/* method */
+	, (methodPointerType)&AnchorInfo_get_Length_m14953/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -14810,10 +14810,10 @@ extern const MethodInfo AnchorInfo_get_Length_m14952_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IsUnknownWidth()
-extern const MethodInfo AnchorInfo_get_IsUnknownWidth_m14953_MethodInfo = 
+extern const MethodInfo AnchorInfo_get_IsUnknownWidth_m14954_MethodInfo = 
 {
 	"get_IsUnknownWidth"/* name */
-	, (methodPointerType)&AnchorInfo_get_IsUnknownWidth_m14953/* method */
+	, (methodPointerType)&AnchorInfo_get_IsUnknownWidth_m14954/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -14833,10 +14833,10 @@ extern const MethodInfo AnchorInfo_get_IsUnknownWidth_m14953_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IsComplete()
-extern const MethodInfo AnchorInfo_get_IsComplete_m14954_MethodInfo = 
+extern const MethodInfo AnchorInfo_get_IsComplete_m14955_MethodInfo = 
 {
 	"get_IsComplete"/* name */
-	, (methodPointerType)&AnchorInfo_get_IsComplete_m14954/* method */
+	, (methodPointerType)&AnchorInfo_get_IsComplete_m14955/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -14856,10 +14856,10 @@ extern const MethodInfo AnchorInfo_get_IsComplete_m14954_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.RegularExpressions.Syntax.AnchorInfo::get_Substring()
-extern const MethodInfo AnchorInfo_get_Substring_m14955_MethodInfo = 
+extern const MethodInfo AnchorInfo_get_Substring_m14956_MethodInfo = 
 {
 	"get_Substring"/* name */
-	, (methodPointerType)&AnchorInfo_get_Substring_m14955/* method */
+	, (methodPointerType)&AnchorInfo_get_Substring_m14956/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14879,10 +14879,10 @@ extern const MethodInfo AnchorInfo_get_Substring_m14955_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IgnoreCase()
-extern const MethodInfo AnchorInfo_get_IgnoreCase_m14956_MethodInfo = 
+extern const MethodInfo AnchorInfo_get_IgnoreCase_m14957_MethodInfo = 
 {
 	"get_IgnoreCase"/* name */
-	, (methodPointerType)&AnchorInfo_get_IgnoreCase_m14956/* method */
+	, (methodPointerType)&AnchorInfo_get_IgnoreCase_m14957/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -14902,10 +14902,10 @@ extern const MethodInfo AnchorInfo_get_IgnoreCase_m14956_MethodInfo =
 };
 extern void* RuntimeInvoker_Position_t4128 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Position System.Text.RegularExpressions.Syntax.AnchorInfo::get_Position()
-extern const MethodInfo AnchorInfo_get_Position_m14957_MethodInfo = 
+extern const MethodInfo AnchorInfo_get_Position_m14958_MethodInfo = 
 {
 	"get_Position"/* name */
-	, (methodPointerType)&AnchorInfo_get_Position_m14957/* method */
+	, (methodPointerType)&AnchorInfo_get_Position_m14958/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &Position_t4128_0_0_0/* return_type */
 	, RuntimeInvoker_Position_t4128/* invoker_method */
@@ -14925,10 +14925,10 @@ extern const MethodInfo AnchorInfo_get_Position_m14957_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IsSubstring()
-extern const MethodInfo AnchorInfo_get_IsSubstring_m14958_MethodInfo = 
+extern const MethodInfo AnchorInfo_get_IsSubstring_m14959_MethodInfo = 
 {
 	"get_IsSubstring"/* name */
-	, (methodPointerType)&AnchorInfo_get_IsSubstring_m14958/* method */
+	, (methodPointerType)&AnchorInfo_get_IsSubstring_m14959/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -14948,10 +14948,10 @@ extern const MethodInfo AnchorInfo_get_IsSubstring_m14958_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IsPosition()
-extern const MethodInfo AnchorInfo_get_IsPosition_m14959_MethodInfo = 
+extern const MethodInfo AnchorInfo_get_IsPosition_m14960_MethodInfo = 
 {
 	"get_IsPosition"/* name */
-	, (methodPointerType)&AnchorInfo_get_IsPosition_m14959/* method */
+	, (methodPointerType)&AnchorInfo_get_IsPosition_m14960/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -14970,20 +14970,20 @@ extern const MethodInfo AnchorInfo_get_IsPosition_m14959_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo AnchorInfo_t4172_AnchorInfo_GetInterval_m14960_ParameterInfos[] = 
+static const ParameterInfo AnchorInfo_t4172_AnchorInfo_GetInterval_m14961_ParameterInfos[] = 
 {
 	{"start", 0, 134219741, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Interval_t4147_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Text.RegularExpressions.Interval System.Text.RegularExpressions.Syntax.AnchorInfo::GetInterval(System.Int32)
-extern const MethodInfo AnchorInfo_GetInterval_m14960_MethodInfo = 
+extern const MethodInfo AnchorInfo_GetInterval_m14961_MethodInfo = 
 {
 	"GetInterval"/* name */
-	, (methodPointerType)&AnchorInfo_GetInterval_m14960/* method */
+	, (methodPointerType)&AnchorInfo_GetInterval_m14961/* method */
 	, &AnchorInfo_t4172_il2cpp_TypeInfo/* declaring_type */
 	, &Interval_t4147_0_0_0/* return_type */
 	, RuntimeInvoker_Interval_t4147_Int32_t82/* invoker_method */
-	, AnchorInfo_t4172_AnchorInfo_GetInterval_m14960_ParameterInfos/* parameters */
+	, AnchorInfo_t4172_AnchorInfo_GetInterval_m14961_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -14999,127 +14999,127 @@ extern const MethodInfo AnchorInfo_GetInterval_m14960_MethodInfo =
 };
 static const MethodInfo* AnchorInfo_t4172_MethodInfos[] =
 {
-	&AnchorInfo__ctor_m14947_MethodInfo,
 	&AnchorInfo__ctor_m14948_MethodInfo,
 	&AnchorInfo__ctor_m14949_MethodInfo,
-	&AnchorInfo_get_Offset_m14950_MethodInfo,
-	&AnchorInfo_get_Width_m14951_MethodInfo,
-	&AnchorInfo_get_Length_m14952_MethodInfo,
-	&AnchorInfo_get_IsUnknownWidth_m14953_MethodInfo,
-	&AnchorInfo_get_IsComplete_m14954_MethodInfo,
-	&AnchorInfo_get_Substring_m14955_MethodInfo,
-	&AnchorInfo_get_IgnoreCase_m14956_MethodInfo,
-	&AnchorInfo_get_Position_m14957_MethodInfo,
-	&AnchorInfo_get_IsSubstring_m14958_MethodInfo,
-	&AnchorInfo_get_IsPosition_m14959_MethodInfo,
-	&AnchorInfo_GetInterval_m14960_MethodInfo,
+	&AnchorInfo__ctor_m14950_MethodInfo,
+	&AnchorInfo_get_Offset_m14951_MethodInfo,
+	&AnchorInfo_get_Width_m14952_MethodInfo,
+	&AnchorInfo_get_Length_m14953_MethodInfo,
+	&AnchorInfo_get_IsUnknownWidth_m14954_MethodInfo,
+	&AnchorInfo_get_IsComplete_m14955_MethodInfo,
+	&AnchorInfo_get_Substring_m14956_MethodInfo,
+	&AnchorInfo_get_IgnoreCase_m14957_MethodInfo,
+	&AnchorInfo_get_Position_m14958_MethodInfo,
+	&AnchorInfo_get_IsSubstring_m14959_MethodInfo,
+	&AnchorInfo_get_IsPosition_m14960_MethodInfo,
+	&AnchorInfo_GetInterval_m14961_MethodInfo,
 	NULL
 };
-extern const MethodInfo AnchorInfo_get_Offset_m14950_MethodInfo;
+extern const MethodInfo AnchorInfo_get_Offset_m14951_MethodInfo;
 static const PropertyInfo AnchorInfo_t4172____Offset_PropertyInfo = 
 {
 	&AnchorInfo_t4172_il2cpp_TypeInfo/* parent */
 	, "Offset"/* name */
-	, &AnchorInfo_get_Offset_m14950_MethodInfo/* get */
+	, &AnchorInfo_get_Offset_m14951_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AnchorInfo_get_Width_m14951_MethodInfo;
+extern const MethodInfo AnchorInfo_get_Width_m14952_MethodInfo;
 static const PropertyInfo AnchorInfo_t4172____Width_PropertyInfo = 
 {
 	&AnchorInfo_t4172_il2cpp_TypeInfo/* parent */
 	, "Width"/* name */
-	, &AnchorInfo_get_Width_m14951_MethodInfo/* get */
+	, &AnchorInfo_get_Width_m14952_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AnchorInfo_get_Length_m14952_MethodInfo;
+extern const MethodInfo AnchorInfo_get_Length_m14953_MethodInfo;
 static const PropertyInfo AnchorInfo_t4172____Length_PropertyInfo = 
 {
 	&AnchorInfo_t4172_il2cpp_TypeInfo/* parent */
 	, "Length"/* name */
-	, &AnchorInfo_get_Length_m14952_MethodInfo/* get */
+	, &AnchorInfo_get_Length_m14953_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AnchorInfo_get_IsUnknownWidth_m14953_MethodInfo;
+extern const MethodInfo AnchorInfo_get_IsUnknownWidth_m14954_MethodInfo;
 static const PropertyInfo AnchorInfo_t4172____IsUnknownWidth_PropertyInfo = 
 {
 	&AnchorInfo_t4172_il2cpp_TypeInfo/* parent */
 	, "IsUnknownWidth"/* name */
-	, &AnchorInfo_get_IsUnknownWidth_m14953_MethodInfo/* get */
+	, &AnchorInfo_get_IsUnknownWidth_m14954_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AnchorInfo_get_IsComplete_m14954_MethodInfo;
+extern const MethodInfo AnchorInfo_get_IsComplete_m14955_MethodInfo;
 static const PropertyInfo AnchorInfo_t4172____IsComplete_PropertyInfo = 
 {
 	&AnchorInfo_t4172_il2cpp_TypeInfo/* parent */
 	, "IsComplete"/* name */
-	, &AnchorInfo_get_IsComplete_m14954_MethodInfo/* get */
+	, &AnchorInfo_get_IsComplete_m14955_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AnchorInfo_get_Substring_m14955_MethodInfo;
+extern const MethodInfo AnchorInfo_get_Substring_m14956_MethodInfo;
 static const PropertyInfo AnchorInfo_t4172____Substring_PropertyInfo = 
 {
 	&AnchorInfo_t4172_il2cpp_TypeInfo/* parent */
 	, "Substring"/* name */
-	, &AnchorInfo_get_Substring_m14955_MethodInfo/* get */
+	, &AnchorInfo_get_Substring_m14956_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AnchorInfo_get_IgnoreCase_m14956_MethodInfo;
+extern const MethodInfo AnchorInfo_get_IgnoreCase_m14957_MethodInfo;
 static const PropertyInfo AnchorInfo_t4172____IgnoreCase_PropertyInfo = 
 {
 	&AnchorInfo_t4172_il2cpp_TypeInfo/* parent */
 	, "IgnoreCase"/* name */
-	, &AnchorInfo_get_IgnoreCase_m14956_MethodInfo/* get */
+	, &AnchorInfo_get_IgnoreCase_m14957_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AnchorInfo_get_Position_m14957_MethodInfo;
+extern const MethodInfo AnchorInfo_get_Position_m14958_MethodInfo;
 static const PropertyInfo AnchorInfo_t4172____Position_PropertyInfo = 
 {
 	&AnchorInfo_t4172_il2cpp_TypeInfo/* parent */
 	, "Position"/* name */
-	, &AnchorInfo_get_Position_m14957_MethodInfo/* get */
+	, &AnchorInfo_get_Position_m14958_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AnchorInfo_get_IsSubstring_m14958_MethodInfo;
+extern const MethodInfo AnchorInfo_get_IsSubstring_m14959_MethodInfo;
 static const PropertyInfo AnchorInfo_t4172____IsSubstring_PropertyInfo = 
 {
 	&AnchorInfo_t4172_il2cpp_TypeInfo/* parent */
 	, "IsSubstring"/* name */
-	, &AnchorInfo_get_IsSubstring_m14958_MethodInfo/* get */
+	, &AnchorInfo_get_IsSubstring_m14959_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AnchorInfo_get_IsPosition_m14959_MethodInfo;
+extern const MethodInfo AnchorInfo_get_IsPosition_m14960_MethodInfo;
 static const PropertyInfo AnchorInfo_t4172____IsPosition_PropertyInfo = 
 {
 	&AnchorInfo_t4172_il2cpp_TypeInfo/* parent */
 	, "IsPosition"/* name */
-	, &AnchorInfo_get_IsPosition_m14959_MethodInfo/* get */
+	, &AnchorInfo_get_IsPosition_m14960_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -15231,10 +15231,10 @@ extern TypeInfo DefaultUriParser_t4173_il2cpp_TypeInfo;
 #include "System_System_DefaultUriParserMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.DefaultUriParser::.ctor()
-extern const MethodInfo DefaultUriParser__ctor_m14961_MethodInfo = 
+extern const MethodInfo DefaultUriParser__ctor_m14962_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DefaultUriParser__ctor_m14961/* method */
+	, (methodPointerType)&DefaultUriParser__ctor_m14962/* method */
 	, &DefaultUriParser_t4173_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -15253,20 +15253,20 @@ extern const MethodInfo DefaultUriParser__ctor_m14961_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DefaultUriParser_t4173_DefaultUriParser__ctor_m14962_ParameterInfos[] = 
+static const ParameterInfo DefaultUriParser_t4173_DefaultUriParser__ctor_m14963_ParameterInfos[] = 
 {
 	{"scheme", 0, 134219742, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.DefaultUriParser::.ctor(System.String)
-extern const MethodInfo DefaultUriParser__ctor_m14962_MethodInfo = 
+extern const MethodInfo DefaultUriParser__ctor_m14963_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DefaultUriParser__ctor_m14962/* method */
+	, (methodPointerType)&DefaultUriParser__ctor_m14963/* method */
 	, &DefaultUriParser_t4173_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, DefaultUriParser_t4173_DefaultUriParser__ctor_m14962_ParameterInfos/* parameters */
+	, DefaultUriParser_t4173_DefaultUriParser__ctor_m14963_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15282,20 +15282,20 @@ extern const MethodInfo DefaultUriParser__ctor_m14962_MethodInfo =
 };
 static const MethodInfo* DefaultUriParser_t4173_MethodInfos[] =
 {
-	&DefaultUriParser__ctor_m14961_MethodInfo,
 	&DefaultUriParser__ctor_m14962_MethodInfo,
+	&DefaultUriParser__ctor_m14963_MethodInfo,
 	NULL
 };
-extern const MethodInfo UriParser_InitializeAndValidate_m15024_MethodInfo;
-extern const MethodInfo UriParser_OnRegister_m15025_MethodInfo;
+extern const MethodInfo UriParser_InitializeAndValidate_m15025_MethodInfo;
+extern const MethodInfo UriParser_OnRegister_m15026_MethodInfo;
 static const Il2CppMethodReference DefaultUriParser_t4173_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&UriParser_InitializeAndValidate_m15024_MethodInfo,
-	&UriParser_OnRegister_m15025_MethodInfo,
+	&UriParser_InitializeAndValidate_m15025_MethodInfo,
+	&UriParser_OnRegister_m15026_MethodInfo,
 };
 static bool DefaultUriParser_t4173_VTableIsGenericMethod[] =
 {
@@ -15394,8 +15394,8 @@ static const Il2CppMethodReference GenericUriParser_t4175_VTable[] =
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&UriParser_InitializeAndValidate_m15024_MethodInfo,
-	&UriParser_OnRegister_m15025_MethodInfo,
+	&UriParser_InitializeAndValidate_m15025_MethodInfo,
+	&UriParser_OnRegister_m15026_MethodInfo,
 };
 static bool GenericUriParser_t4175_VTableIsGenericMethod[] =
 {
@@ -15486,7 +15486,7 @@ extern TypeInfo UriScheme_t4176_il2cpp_TypeInfo;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo UriScheme_t4176_UriScheme__ctor_m14963_ParameterInfos[] = 
+static const ParameterInfo UriScheme_t4176_UriScheme__ctor_m14964_ParameterInfos[] = 
 {
 	{"s", 0, 134219812, 0, &String_t_0_0_0},
 	{"d", 1, 134219813, 0, &String_t_0_0_0},
@@ -15494,14 +15494,14 @@ static const ParameterInfo UriScheme_t4176_UriScheme__ctor_m14963_ParameterInfos
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri/UriScheme::.ctor(System.String,System.String,System.Int32)
-extern const MethodInfo UriScheme__ctor_m14963_MethodInfo = 
+extern const MethodInfo UriScheme__ctor_m14964_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UriScheme__ctor_m14963/* method */
+	, (methodPointerType)&UriScheme__ctor_m14964/* method */
 	, &UriScheme_t4176_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82/* invoker_method */
-	, UriScheme_t4176_UriScheme__ctor_m14963_ParameterInfos/* parameters */
+	, UriScheme_t4176_UriScheme__ctor_m14964_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15517,15 +15517,15 @@ extern const MethodInfo UriScheme__ctor_m14963_MethodInfo =
 };
 static const MethodInfo* UriScheme_t4176_MethodInfos[] =
 {
-	&UriScheme__ctor_m14963_MethodInfo,
+	&UriScheme__ctor_m14964_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference UriScheme_t4176_VTable[] =
 {
-	&ValueType_Equals_m4568_MethodInfo,
+	&ValueType_Equals_m4569_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4569_MethodInfo,
-	&ValueType_ToString_m4570_MethodInfo,
+	&ValueType_GetHashCode_m4570_MethodInfo,
+	&ValueType_ToString_m4571_MethodInfo,
 };
 static bool UriScheme_t4176_VTableIsGenericMethod[] =
 {
@@ -15612,20 +15612,20 @@ TypeInfo UriScheme_t4176_il2cpp_TypeInfo =
 // System.Uri
 #include "System_System_UriMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri__ctor_m7465_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri__ctor_m7466_ParameterInfos[] = 
 {
 	{"uriString", 0, 134219743, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::.ctor(System.String)
-extern const MethodInfo Uri__ctor_m7465_MethodInfo = 
+extern const MethodInfo Uri__ctor_m7466_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Uri__ctor_m7465/* method */
+	, (methodPointerType)&Uri__ctor_m7466/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Uri_t757_Uri__ctor_m7465_ParameterInfos/* parameters */
+	, Uri_t757_Uri__ctor_m7466_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15643,21 +15643,21 @@ extern const Il2CppType SerializationInfo_t2919_0_0_0;
 extern const Il2CppType SerializationInfo_t2919_0_0_0;
 extern const Il2CppType StreamingContext_t2920_0_0_0;
 extern const Il2CppType StreamingContext_t2920_0_0_0;
-static const ParameterInfo Uri_t757_Uri__ctor_m14964_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri__ctor_m14965_ParameterInfos[] = 
 {
 	{"serializationInfo", 0, 134219744, 0, &SerializationInfo_t2919_0_0_0},
 	{"streamingContext", 1, 134219745, 0, &StreamingContext_t2920_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2920 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo Uri__ctor_m14964_MethodInfo = 
+extern const MethodInfo Uri__ctor_m14965_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Uri__ctor_m14964/* method */
+	, (methodPointerType)&Uri__ctor_m14965/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2920/* invoker_method */
-	, Uri_t757_Uri__ctor_m14964_ParameterInfos/* parameters */
+	, Uri_t757_Uri__ctor_m14965_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -15674,21 +15674,21 @@ extern const MethodInfo Uri__ctor_m14964_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType UriKind_t4179_0_0_0;
 extern const Il2CppType UriKind_t4179_0_0_0;
-static const ParameterInfo Uri_t757_Uri__ctor_m7328_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri__ctor_m7329_ParameterInfos[] = 
 {
 	{"uriString", 0, 134219746, 0, &String_t_0_0_0},
 	{"uriKind", 1, 134219747, 0, &UriKind_t4179_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::.ctor(System.String,System.UriKind)
-extern const MethodInfo Uri__ctor_m7328_MethodInfo = 
+extern const MethodInfo Uri__ctor_m7329_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Uri__ctor_m7328/* method */
+	, (methodPointerType)&Uri__ctor_m7329/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, Uri_t757_Uri__ctor_m7328_ParameterInfos/* parameters */
+	, Uri_t757_Uri__ctor_m7329_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15704,21 +15704,21 @@ extern const MethodInfo Uri__ctor_m7328_MethodInfo =
 };
 extern const Il2CppType Uri_t757_0_0_0;
 extern const Il2CppType Uri_t757_0_0_0;
-static const ParameterInfo Uri_t757_Uri__ctor_m7472_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri__ctor_m7473_ParameterInfos[] = 
 {
 	{"baseUri", 0, 134219748, 0, &Uri_t757_0_0_0},
 	{"relativeUri", 1, 134219749, 0, &Uri_t757_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::.ctor(System.Uri,System.Uri)
-extern const MethodInfo Uri__ctor_m7472_MethodInfo = 
+extern const MethodInfo Uri__ctor_m7473_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Uri__ctor_m7472/* method */
+	, (methodPointerType)&Uri__ctor_m7473/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, Uri_t757_Uri__ctor_m7472_ParameterInfos/* parameters */
+	, Uri_t757_Uri__ctor_m7473_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15734,21 +15734,21 @@ extern const MethodInfo Uri__ctor_m7472_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Uri_t757_Uri__ctor_m14965_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri__ctor_m14966_ParameterInfos[] = 
 {
 	{"uriString", 0, 134219750, 0, &String_t_0_0_0},
 	{"dontEscape", 1, 134219751, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::.ctor(System.String,System.Boolean)
-extern const MethodInfo Uri__ctor_m14965_MethodInfo = 
+extern const MethodInfo Uri__ctor_m14966_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Uri__ctor_m14965/* method */
+	, (methodPointerType)&Uri__ctor_m14966/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, Uri_t757_Uri__ctor_m14965_ParameterInfos/* parameters */
+	, Uri_t757_Uri__ctor_m14966_ParameterInfos/* parameters */
 	, 98/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15764,21 +15764,21 @@ extern const MethodInfo Uri__ctor_m14965_MethodInfo =
 };
 extern const Il2CppType Uri_t757_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri__ctor_m7308_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri__ctor_m7309_ParameterInfos[] = 
 {
 	{"baseUri", 0, 134219752, 0, &Uri_t757_0_0_0},
 	{"relativeUri", 1, 134219753, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::.ctor(System.Uri,System.String)
-extern const MethodInfo Uri__ctor_m7308_MethodInfo = 
+extern const MethodInfo Uri__ctor_m7309_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Uri__ctor_m7308/* method */
+	, (methodPointerType)&Uri__ctor_m7309/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, Uri_t757_Uri__ctor_m7308_ParameterInfos/* parameters */
+	, Uri_t757_Uri__ctor_m7309_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15794,10 +15794,10 @@ extern const MethodInfo Uri__ctor_m7308_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::.cctor()
-extern const MethodInfo Uri__cctor_m14966_MethodInfo = 
+extern const MethodInfo Uri__cctor_m14967_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&Uri__cctor_m14966/* method */
+	, (methodPointerType)&Uri__cctor_m14967/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -15817,21 +15817,21 @@ extern const MethodInfo Uri__cctor_m14966_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t2919_0_0_0;
 extern const Il2CppType StreamingContext_t2920_0_0_0;
-static const ParameterInfo Uri_t757_Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14967_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14968_ParameterInfos[] = 
 {
 	{"info", 0, 134219754, 0, &SerializationInfo_t2919_0_0_0},
 	{"context", 1, 134219755, 0, &StreamingContext_t2920_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2920 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14967_MethodInfo = 
+extern const MethodInfo Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14968_MethodInfo = 
 {
 	"System.Runtime.Serialization.ISerializable.GetObjectData"/* name */
-	, (methodPointerType)&Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14967/* method */
+	, (methodPointerType)&Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14968/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2920/* invoker_method */
-	, Uri_t757_Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14967_ParameterInfos/* parameters */
+	, Uri_t757_Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14968_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -15847,21 +15847,21 @@ extern const MethodInfo Uri_System_Runtime_Serialization_ISerializable_GetObject
 };
 extern const Il2CppType Uri_t757_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_Merge_m14968_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_Merge_m14969_ParameterInfos[] = 
 {
 	{"baseUri", 0, 134219756, 0, &Uri_t757_0_0_0},
 	{"relativeUri", 1, 134219757, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::Merge(System.Uri,System.String)
-extern const MethodInfo Uri_Merge_m14968_MethodInfo = 
+extern const MethodInfo Uri_Merge_m14969_MethodInfo = 
 {
 	"Merge"/* name */
-	, (methodPointerType)&Uri_Merge_m14968/* method */
+	, (methodPointerType)&Uri_Merge_m14969/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, Uri_t757_Uri_Merge_m14968_ParameterInfos/* parameters */
+	, Uri_t757_Uri_Merge_m14969_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -15877,10 +15877,10 @@ extern const MethodInfo Uri_Merge_m14968_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::get_AbsolutePath()
-extern const MethodInfo Uri_get_AbsolutePath_m11496_MethodInfo = 
+extern const MethodInfo Uri_get_AbsolutePath_m11497_MethodInfo = 
 {
 	"get_AbsolutePath"/* name */
-	, (methodPointerType)&Uri_get_AbsolutePath_m11496/* method */
+	, (methodPointerType)&Uri_get_AbsolutePath_m11497/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15900,10 +15900,10 @@ extern const MethodInfo Uri_get_AbsolutePath_m11496_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::get_AbsoluteUri()
-extern const MethodInfo Uri_get_AbsoluteUri_m7321_MethodInfo = 
+extern const MethodInfo Uri_get_AbsoluteUri_m7322_MethodInfo = 
 {
 	"get_AbsoluteUri"/* name */
-	, (methodPointerType)&Uri_get_AbsoluteUri_m7321/* method */
+	, (methodPointerType)&Uri_get_AbsoluteUri_m7322/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15923,10 +15923,10 @@ extern const MethodInfo Uri_get_AbsoluteUri_m7321_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::get_Authority()
-extern const MethodInfo Uri_get_Authority_m14969_MethodInfo = 
+extern const MethodInfo Uri_get_Authority_m14970_MethodInfo = 
 {
 	"get_Authority"/* name */
-	, (methodPointerType)&Uri_get_Authority_m14969/* method */
+	, (methodPointerType)&Uri_get_Authority_m14970/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15946,10 +15946,10 @@ extern const MethodInfo Uri_get_Authority_m14969_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::get_Fragment()
-extern const MethodInfo Uri_get_Fragment_m7322_MethodInfo = 
+extern const MethodInfo Uri_get_Fragment_m7323_MethodInfo = 
 {
 	"get_Fragment"/* name */
-	, (methodPointerType)&Uri_get_Fragment_m7322/* method */
+	, (methodPointerType)&Uri_get_Fragment_m7323/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15969,10 +15969,10 @@ extern const MethodInfo Uri_get_Fragment_m7322_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::get_Host()
-extern const MethodInfo Uri_get_Host_m13188_MethodInfo = 
+extern const MethodInfo Uri_get_Host_m13189_MethodInfo = 
 {
 	"get_Host"/* name */
-	, (methodPointerType)&Uri_get_Host_m13188/* method */
+	, (methodPointerType)&Uri_get_Host_m13189/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15993,10 +15993,10 @@ extern const MethodInfo Uri_get_Host_m13188_MethodInfo =
 extern const Il2CppType UriHostNameType_t4178_0_0_0;
 extern void* RuntimeInvoker_UriHostNameType_t4178 (const MethodInfo* method, void* obj, void** args);
 // System.UriHostNameType System.Uri::get_HostNameType()
-extern const MethodInfo Uri_get_HostNameType_m14970_MethodInfo = 
+extern const MethodInfo Uri_get_HostNameType_m14971_MethodInfo = 
 {
 	"get_HostNameType"/* name */
-	, (methodPointerType)&Uri_get_HostNameType_m14970/* method */
+	, (methodPointerType)&Uri_get_HostNameType_m14971/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &UriHostNameType_t4178_0_0_0/* return_type */
 	, RuntimeInvoker_UriHostNameType_t4178/* invoker_method */
@@ -16016,10 +16016,10 @@ extern const MethodInfo Uri_get_HostNameType_m14970_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::get_IsDefaultPort()
-extern const MethodInfo Uri_get_IsDefaultPort_m14971_MethodInfo = 
+extern const MethodInfo Uri_get_IsDefaultPort_m14972_MethodInfo = 
 {
 	"get_IsDefaultPort"/* name */
-	, (methodPointerType)&Uri_get_IsDefaultPort_m14971/* method */
+	, (methodPointerType)&Uri_get_IsDefaultPort_m14972/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -16039,10 +16039,10 @@ extern const MethodInfo Uri_get_IsDefaultPort_m14971_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::get_IsFile()
-extern const MethodInfo Uri_get_IsFile_m14972_MethodInfo = 
+extern const MethodInfo Uri_get_IsFile_m14973_MethodInfo = 
 {
 	"get_IsFile"/* name */
-	, (methodPointerType)&Uri_get_IsFile_m14972/* method */
+	, (methodPointerType)&Uri_get_IsFile_m14973/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -16062,10 +16062,10 @@ extern const MethodInfo Uri_get_IsFile_m14972_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::get_IsLoopback()
-extern const MethodInfo Uri_get_IsLoopback_m14973_MethodInfo = 
+extern const MethodInfo Uri_get_IsLoopback_m14974_MethodInfo = 
 {
 	"get_IsLoopback"/* name */
-	, (methodPointerType)&Uri_get_IsLoopback_m14973/* method */
+	, (methodPointerType)&Uri_get_IsLoopback_m14974/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -16085,10 +16085,10 @@ extern const MethodInfo Uri_get_IsLoopback_m14973_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::get_IsUnc()
-extern const MethodInfo Uri_get_IsUnc_m14974_MethodInfo = 
+extern const MethodInfo Uri_get_IsUnc_m14975_MethodInfo = 
 {
 	"get_IsUnc"/* name */
-	, (methodPointerType)&Uri_get_IsUnc_m14974/* method */
+	, (methodPointerType)&Uri_get_IsUnc_m14975/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -16108,10 +16108,10 @@ extern const MethodInfo Uri_get_IsUnc_m14974_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::get_LocalPath()
-extern const MethodInfo Uri_get_LocalPath_m11497_MethodInfo = 
+extern const MethodInfo Uri_get_LocalPath_m11498_MethodInfo = 
 {
 	"get_LocalPath"/* name */
-	, (methodPointerType)&Uri_get_LocalPath_m11497/* method */
+	, (methodPointerType)&Uri_get_LocalPath_m11498/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16131,10 +16131,10 @@ extern const MethodInfo Uri_get_LocalPath_m11497_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::get_PathAndQuery()
-extern const MethodInfo Uri_get_PathAndQuery_m14975_MethodInfo = 
+extern const MethodInfo Uri_get_PathAndQuery_m14976_MethodInfo = 
 {
 	"get_PathAndQuery"/* name */
-	, (methodPointerType)&Uri_get_PathAndQuery_m14975/* method */
+	, (methodPointerType)&Uri_get_PathAndQuery_m14976/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16154,10 +16154,10 @@ extern const MethodInfo Uri_get_PathAndQuery_m14975_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Uri::get_Port()
-extern const MethodInfo Uri_get_Port_m14976_MethodInfo = 
+extern const MethodInfo Uri_get_Port_m14977_MethodInfo = 
 {
 	"get_Port"/* name */
-	, (methodPointerType)&Uri_get_Port_m14976/* method */
+	, (methodPointerType)&Uri_get_Port_m14977/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -16177,10 +16177,10 @@ extern const MethodInfo Uri_get_Port_m14976_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::get_Query()
-extern const MethodInfo Uri_get_Query_m7323_MethodInfo = 
+extern const MethodInfo Uri_get_Query_m7324_MethodInfo = 
 {
 	"get_Query"/* name */
-	, (methodPointerType)&Uri_get_Query_m7323/* method */
+	, (methodPointerType)&Uri_get_Query_m7324/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16200,10 +16200,10 @@ extern const MethodInfo Uri_get_Query_m7323_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::get_Scheme()
-extern const MethodInfo Uri_get_Scheme_m11495_MethodInfo = 
+extern const MethodInfo Uri_get_Scheme_m11496_MethodInfo = 
 {
 	"get_Scheme"/* name */
-	, (methodPointerType)&Uri_get_Scheme_m11495/* method */
+	, (methodPointerType)&Uri_get_Scheme_m11496/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16223,10 +16223,10 @@ extern const MethodInfo Uri_get_Scheme_m11495_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::get_IsAbsoluteUri()
-extern const MethodInfo Uri_get_IsAbsoluteUri_m11494_MethodInfo = 
+extern const MethodInfo Uri_get_IsAbsoluteUri_m11495_MethodInfo = 
 {
 	"get_IsAbsoluteUri"/* name */
-	, (methodPointerType)&Uri_get_IsAbsoluteUri_m11494/* method */
+	, (methodPointerType)&Uri_get_IsAbsoluteUri_m11495/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -16246,10 +16246,10 @@ extern const MethodInfo Uri_get_IsAbsoluteUri_m11494_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::get_OriginalString()
-extern const MethodInfo Uri_get_OriginalString_m14977_MethodInfo = 
+extern const MethodInfo Uri_get_OriginalString_m14978_MethodInfo = 
 {
 	"get_OriginalString"/* name */
-	, (methodPointerType)&Uri_get_OriginalString_m14977/* method */
+	, (methodPointerType)&Uri_get_OriginalString_m14978/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16268,20 +16268,20 @@ extern const MethodInfo Uri_get_OriginalString_m14977_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_CheckHostName_m14978_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_CheckHostName_m14979_ParameterInfos[] = 
 {
 	{"name", 0, 134219758, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_UriHostNameType_t4178_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UriHostNameType System.Uri::CheckHostName(System.String)
-extern const MethodInfo Uri_CheckHostName_m14978_MethodInfo = 
+extern const MethodInfo Uri_CheckHostName_m14979_MethodInfo = 
 {
 	"CheckHostName"/* name */
-	, (methodPointerType)&Uri_CheckHostName_m14978/* method */
+	, (methodPointerType)&Uri_CheckHostName_m14979/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &UriHostNameType_t4178_0_0_0/* return_type */
 	, RuntimeInvoker_UriHostNameType_t4178_Object_t/* invoker_method */
-	, Uri_t757_Uri_CheckHostName_m14978_ParameterInfos/* parameters */
+	, Uri_t757_Uri_CheckHostName_m14979_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -16296,20 +16296,20 @@ extern const MethodInfo Uri_CheckHostName_m14978_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_IsIPv4Address_m14979_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_IsIPv4Address_m14980_ParameterInfos[] = 
 {
 	{"name", 0, 134219759, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::IsIPv4Address(System.String)
-extern const MethodInfo Uri_IsIPv4Address_m14979_MethodInfo = 
+extern const MethodInfo Uri_IsIPv4Address_m14980_MethodInfo = 
 {
 	"IsIPv4Address"/* name */
-	, (methodPointerType)&Uri_IsIPv4Address_m14979/* method */
+	, (methodPointerType)&Uri_IsIPv4Address_m14980/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Uri_t757_Uri_IsIPv4Address_m14979_ParameterInfos/* parameters */
+	, Uri_t757_Uri_IsIPv4Address_m14980_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -16324,20 +16324,20 @@ extern const MethodInfo Uri_IsIPv4Address_m14979_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_IsDomainAddress_m14980_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_IsDomainAddress_m14981_ParameterInfos[] = 
 {
 	{"name", 0, 134219760, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::IsDomainAddress(System.String)
-extern const MethodInfo Uri_IsDomainAddress_m14980_MethodInfo = 
+extern const MethodInfo Uri_IsDomainAddress_m14981_MethodInfo = 
 {
 	"IsDomainAddress"/* name */
-	, (methodPointerType)&Uri_IsDomainAddress_m14980/* method */
+	, (methodPointerType)&Uri_IsDomainAddress_m14981/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Uri_t757_Uri_IsDomainAddress_m14980_ParameterInfos/* parameters */
+	, Uri_t757_Uri_IsDomainAddress_m14981_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -16352,20 +16352,20 @@ extern const MethodInfo Uri_IsDomainAddress_m14980_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_CheckSchemeName_m14981_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_CheckSchemeName_m14982_ParameterInfos[] = 
 {
 	{"schemeName", 0, 134219761, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::CheckSchemeName(System.String)
-extern const MethodInfo Uri_CheckSchemeName_m14981_MethodInfo = 
+extern const MethodInfo Uri_CheckSchemeName_m14982_MethodInfo = 
 {
 	"CheckSchemeName"/* name */
-	, (methodPointerType)&Uri_CheckSchemeName_m14981/* method */
+	, (methodPointerType)&Uri_CheckSchemeName_m14982/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Uri_t757_Uri_CheckSchemeName_m14981_ParameterInfos/* parameters */
+	, Uri_t757_Uri_CheckSchemeName_m14982_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -16380,20 +16380,20 @@ extern const MethodInfo Uri_CheckSchemeName_m14981_MethodInfo =
 
 };
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo Uri_t757_Uri_IsAlpha_m14982_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_IsAlpha_m14983_ParameterInfos[] = 
 {
 	{"c", 0, 134219762, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::IsAlpha(System.Char)
-extern const MethodInfo Uri_IsAlpha_m14982_MethodInfo = 
+extern const MethodInfo Uri_IsAlpha_m14983_MethodInfo = 
 {
 	"IsAlpha"/* name */
-	, (methodPointerType)&Uri_IsAlpha_m14982/* method */
+	, (methodPointerType)&Uri_IsAlpha_m14983/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int16_t742/* invoker_method */
-	, Uri_t757_Uri_IsAlpha_m14982_ParameterInfos/* parameters */
+	, Uri_t757_Uri_IsAlpha_m14983_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -16408,20 +16408,20 @@ extern const MethodInfo Uri_IsAlpha_m14982_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_Equals_m14983_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_Equals_m14984_ParameterInfos[] = 
 {
 	{"comparant", 0, 134219763, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::Equals(System.Object)
-extern const MethodInfo Uri_Equals_m14983_MethodInfo = 
+extern const MethodInfo Uri_Equals_m14984_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&Uri_Equals_m14983/* method */
+	, (methodPointerType)&Uri_Equals_m14984/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Uri_t757_Uri_Equals_m14983_ParameterInfos/* parameters */
+	, Uri_t757_Uri_Equals_m14984_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -16436,20 +16436,20 @@ extern const MethodInfo Uri_Equals_m14983_MethodInfo =
 
 };
 extern const Il2CppType Uri_t757_0_0_0;
-static const ParameterInfo Uri_t757_Uri_InternalEquals_m14984_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_InternalEquals_m14985_ParameterInfos[] = 
 {
 	{"uri", 0, 134219764, 0, &Uri_t757_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::InternalEquals(System.Uri)
-extern const MethodInfo Uri_InternalEquals_m14984_MethodInfo = 
+extern const MethodInfo Uri_InternalEquals_m14985_MethodInfo = 
 {
 	"InternalEquals"/* name */
-	, (methodPointerType)&Uri_InternalEquals_m14984/* method */
+	, (methodPointerType)&Uri_InternalEquals_m14985/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Uri_t757_Uri_InternalEquals_m14984_ParameterInfos/* parameters */
+	, Uri_t757_Uri_InternalEquals_m14985_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -16465,10 +16465,10 @@ extern const MethodInfo Uri_InternalEquals_m14984_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Uri::GetHashCode()
-extern const MethodInfo Uri_GetHashCode_m14985_MethodInfo = 
+extern const MethodInfo Uri_GetHashCode_m14986_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&Uri_GetHashCode_m14985/* method */
+	, (methodPointerType)&Uri_GetHashCode_m14986/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -16488,20 +16488,20 @@ extern const MethodInfo Uri_GetHashCode_m14985_MethodInfo =
 };
 extern const Il2CppType UriPartial_t4180_0_0_0;
 extern const Il2CppType UriPartial_t4180_0_0_0;
-static const ParameterInfo Uri_t757_Uri_GetLeftPart_m14986_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_GetLeftPart_m14987_ParameterInfos[] = 
 {
 	{"part", 0, 134219765, 0, &UriPartial_t4180_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::GetLeftPart(System.UriPartial)
-extern const MethodInfo Uri_GetLeftPart_m14986_MethodInfo = 
+extern const MethodInfo Uri_GetLeftPart_m14987_MethodInfo = 
 {
 	"GetLeftPart"/* name */
-	, (methodPointerType)&Uri_GetLeftPart_m14986/* method */
+	, (methodPointerType)&Uri_GetLeftPart_m14987/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
-	, Uri_t757_Uri_GetLeftPart_m14986_ParameterInfos/* parameters */
+	, Uri_t757_Uri_GetLeftPart_m14987_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16516,20 +16516,20 @@ extern const MethodInfo Uri_GetLeftPart_m14986_MethodInfo =
 
 };
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo Uri_t757_Uri_FromHex_m14987_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_FromHex_m14988_ParameterInfos[] = 
 {
 	{"digit", 0, 134219766, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Uri::FromHex(System.Char)
-extern const MethodInfo Uri_FromHex_m14987_MethodInfo = 
+extern const MethodInfo Uri_FromHex_m14988_MethodInfo = 
 {
 	"FromHex"/* name */
-	, (methodPointerType)&Uri_FromHex_m14987/* method */
+	, (methodPointerType)&Uri_FromHex_m14988/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Int16_t742/* invoker_method */
-	, Uri_t757_Uri_FromHex_m14987_ParameterInfos/* parameters */
+	, Uri_t757_Uri_FromHex_m14988_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -16544,20 +16544,20 @@ extern const MethodInfo Uri_FromHex_m14987_MethodInfo =
 
 };
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo Uri_t757_Uri_HexEscape_m14988_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_HexEscape_m14989_ParameterInfos[] = 
 {
 	{"character", 0, 134219767, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::HexEscape(System.Char)
-extern const MethodInfo Uri_HexEscape_m14988_MethodInfo = 
+extern const MethodInfo Uri_HexEscape_m14989_MethodInfo = 
 {
 	"HexEscape"/* name */
-	, (methodPointerType)&Uri_HexEscape_m14988/* method */
+	, (methodPointerType)&Uri_HexEscape_m14989/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int16_t742/* invoker_method */
-	, Uri_t757_Uri_HexEscape_m14988_ParameterInfos/* parameters */
+	, Uri_t757_Uri_HexEscape_m14989_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -16572,20 +16572,20 @@ extern const MethodInfo Uri_HexEscape_m14988_MethodInfo =
 
 };
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo Uri_t757_Uri_IsHexDigit_m14989_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_IsHexDigit_m14990_ParameterInfos[] = 
 {
 	{"digit", 0, 134219768, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::IsHexDigit(System.Char)
-extern const MethodInfo Uri_IsHexDigit_m14989_MethodInfo = 
+extern const MethodInfo Uri_IsHexDigit_m14990_MethodInfo = 
 {
 	"IsHexDigit"/* name */
-	, (methodPointerType)&Uri_IsHexDigit_m14989/* method */
+	, (methodPointerType)&Uri_IsHexDigit_m14990/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int16_t742/* invoker_method */
-	, Uri_t757_Uri_IsHexDigit_m14989_ParameterInfos/* parameters */
+	, Uri_t757_Uri_IsHexDigit_m14990_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -16601,21 +16601,21 @@ extern const MethodInfo Uri_IsHexDigit_m14989_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Uri_t757_Uri_IsHexEncoding_m14990_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_IsHexEncoding_m14991_ParameterInfos[] = 
 {
 	{"pattern", 0, 134219769, 0, &String_t_0_0_0},
 	{"index", 1, 134219770, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::IsHexEncoding(System.String,System.Int32)
-extern const MethodInfo Uri_IsHexEncoding_m14990_MethodInfo = 
+extern const MethodInfo Uri_IsHexEncoding_m14991_MethodInfo = 
 {
 	"IsHexEncoding"/* name */
-	, (methodPointerType)&Uri_IsHexEncoding_m14990/* method */
+	, (methodPointerType)&Uri_IsHexEncoding_m14991/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Int32_t82/* invoker_method */
-	, Uri_t757_Uri_IsHexEncoding_m14990_ParameterInfos/* parameters */
+	, Uri_t757_Uri_IsHexEncoding_m14991_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -16631,20 +16631,20 @@ extern const MethodInfo Uri_IsHexEncoding_m14990_MethodInfo =
 };
 extern const Il2CppType String_t_1_0_0;
 extern const Il2CppType String_t_1_0_0;
-static const ParameterInfo Uri_t757_Uri_AppendQueryAndFragment_m14991_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_AppendQueryAndFragment_m14992_ParameterInfos[] = 
 {
 	{"result", 0, 134219771, 0, &String_t_1_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_StringU26_t813 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::AppendQueryAndFragment(System.String&)
-extern const MethodInfo Uri_AppendQueryAndFragment_m14991_MethodInfo = 
+extern const MethodInfo Uri_AppendQueryAndFragment_m14992_MethodInfo = 
 {
 	"AppendQueryAndFragment"/* name */
-	, (methodPointerType)&Uri_AppendQueryAndFragment_m14991/* method */
+	, (methodPointerType)&Uri_AppendQueryAndFragment_m14992/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_StringU26_t813/* invoker_method */
-	, Uri_t757_Uri_AppendQueryAndFragment_m14991_ParameterInfos/* parameters */
+	, Uri_t757_Uri_AppendQueryAndFragment_m14992_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -16660,10 +16660,10 @@ extern const MethodInfo Uri_AppendQueryAndFragment_m14991_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::ToString()
-extern const MethodInfo Uri_ToString_m14992_MethodInfo = 
+extern const MethodInfo Uri_ToString_m14993_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&Uri_ToString_m14992/* method */
+	, (methodPointerType)&Uri_ToString_m14993/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16682,20 +16682,20 @@ extern const MethodInfo Uri_ToString_m14992_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_EscapeString_m14993_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_EscapeString_m14994_ParameterInfos[] = 
 {
 	{"str", 0, 134219772, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::EscapeString(System.String)
-extern const MethodInfo Uri_EscapeString_m14993_MethodInfo = 
+extern const MethodInfo Uri_EscapeString_m14994_MethodInfo = 
 {
 	"EscapeString"/* name */
-	, (methodPointerType)&Uri_EscapeString_m14993/* method */
+	, (methodPointerType)&Uri_EscapeString_m14994/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Uri_t757_Uri_EscapeString_m14993_ParameterInfos/* parameters */
+	, Uri_t757_Uri_EscapeString_m14994_ParameterInfos/* parameters */
 	, 99/* custom_attributes_cache */
 	, 148/* flags */
 	, 0/* iflags */
@@ -16713,7 +16713,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Uri_t757_Uri_EscapeString_m14994_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_EscapeString_m14995_ParameterInfos[] = 
 {
 	{"str", 0, 134219773, 0, &String_t_0_0_0},
 	{"escapeReserved", 1, 134219774, 0, &Boolean_t59_0_0_0},
@@ -16722,14 +16722,14 @@ static const ParameterInfo Uri_t757_Uri_EscapeString_m14994_ParameterInfos[] =
 };
 extern void* RuntimeInvoker_Object_t_Object_t_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::EscapeString(System.String,System.Boolean,System.Boolean,System.Boolean)
-extern const MethodInfo Uri_EscapeString_m14994_MethodInfo = 
+extern const MethodInfo Uri_EscapeString_m14995_MethodInfo = 
 {
 	"EscapeString"/* name */
-	, (methodPointerType)&Uri_EscapeString_m14994/* method */
+	, (methodPointerType)&Uri_EscapeString_m14995/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88_SByte_t88_SByte_t88/* invoker_method */
-	, Uri_t757_Uri_EscapeString_m14994_ParameterInfos/* parameters */
+	, Uri_t757_Uri_EscapeString_m14995_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -16744,20 +16744,20 @@ extern const MethodInfo Uri_EscapeString_m14994_MethodInfo =
 
 };
 extern const Il2CppType UriKind_t4179_0_0_0;
-static const ParameterInfo Uri_t757_Uri_ParseUri_m14995_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_ParseUri_m14996_ParameterInfos[] = 
 {
 	{"kind", 0, 134219777, 0, &UriKind_t4179_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::ParseUri(System.UriKind)
-extern const MethodInfo Uri_ParseUri_m14995_MethodInfo = 
+extern const MethodInfo Uri_ParseUri_m14996_MethodInfo = 
 {
 	"ParseUri"/* name */
-	, (methodPointerType)&Uri_ParseUri_m14995/* method */
+	, (methodPointerType)&Uri_ParseUri_m14996/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Uri_t757_Uri_ParseUri_m14995_ParameterInfos/* parameters */
+	, Uri_t757_Uri_ParseUri_m14996_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -16772,20 +16772,20 @@ extern const MethodInfo Uri_ParseUri_m14995_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_Unescape_m14996_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_Unescape_m14997_ParameterInfos[] = 
 {
 	{"str", 0, 134219778, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::Unescape(System.String)
-extern const MethodInfo Uri_Unescape_m14996_MethodInfo = 
+extern const MethodInfo Uri_Unescape_m14997_MethodInfo = 
 {
 	"Unescape"/* name */
-	, (methodPointerType)&Uri_Unescape_m14996/* method */
+	, (methodPointerType)&Uri_Unescape_m14997/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Uri_t757_Uri_Unescape_m14996_ParameterInfos/* parameters */
+	, Uri_t757_Uri_Unescape_m14997_ParameterInfos/* parameters */
 	, 100/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -16801,21 +16801,21 @@ extern const MethodInfo Uri_Unescape_m14996_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Uri_t757_Uri_Unescape_m14997_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_Unescape_m14998_ParameterInfos[] = 
 {
 	{"str", 0, 134219779, 0, &String_t_0_0_0},
 	{"excludeSpecial", 1, 134219780, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::Unescape(System.String,System.Boolean)
-extern const MethodInfo Uri_Unescape_m14997_MethodInfo = 
+extern const MethodInfo Uri_Unescape_m14998_MethodInfo = 
 {
 	"Unescape"/* name */
-	, (methodPointerType)&Uri_Unescape_m14997/* method */
+	, (methodPointerType)&Uri_Unescape_m14998/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88/* invoker_method */
-	, Uri_t757_Uri_Unescape_m14997_ParameterInfos/* parameters */
+	, Uri_t757_Uri_Unescape_m14998_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -16830,20 +16830,20 @@ extern const MethodInfo Uri_Unescape_m14997_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_ParseAsWindowsUNC_m14998_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_ParseAsWindowsUNC_m14999_ParameterInfos[] = 
 {
 	{"uriString", 0, 134219781, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::ParseAsWindowsUNC(System.String)
-extern const MethodInfo Uri_ParseAsWindowsUNC_m14998_MethodInfo = 
+extern const MethodInfo Uri_ParseAsWindowsUNC_m14999_MethodInfo = 
 {
 	"ParseAsWindowsUNC"/* name */
-	, (methodPointerType)&Uri_ParseAsWindowsUNC_m14998/* method */
+	, (methodPointerType)&Uri_ParseAsWindowsUNC_m14999/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Uri_t757_Uri_ParseAsWindowsUNC_m14998_ParameterInfos/* parameters */
+	, Uri_t757_Uri_ParseAsWindowsUNC_m14999_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -16858,20 +16858,20 @@ extern const MethodInfo Uri_ParseAsWindowsUNC_m14998_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_ParseAsWindowsAbsoluteFilePath_m14999_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_ParseAsWindowsAbsoluteFilePath_m15000_ParameterInfos[] = 
 {
 	{"uriString", 0, 134219782, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::ParseAsWindowsAbsoluteFilePath(System.String)
-extern const MethodInfo Uri_ParseAsWindowsAbsoluteFilePath_m14999_MethodInfo = 
+extern const MethodInfo Uri_ParseAsWindowsAbsoluteFilePath_m15000_MethodInfo = 
 {
 	"ParseAsWindowsAbsoluteFilePath"/* name */
-	, (methodPointerType)&Uri_ParseAsWindowsAbsoluteFilePath_m14999/* method */
+	, (methodPointerType)&Uri_ParseAsWindowsAbsoluteFilePath_m15000/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Uri_t757_Uri_ParseAsWindowsAbsoluteFilePath_m14999_ParameterInfos/* parameters */
+	, Uri_t757_Uri_ParseAsWindowsAbsoluteFilePath_m15000_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -16886,20 +16886,20 @@ extern const MethodInfo Uri_ParseAsWindowsAbsoluteFilePath_m14999_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_ParseAsUnixAbsoluteFilePath_m15000_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_ParseAsUnixAbsoluteFilePath_m15001_ParameterInfos[] = 
 {
 	{"uriString", 0, 134219783, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::ParseAsUnixAbsoluteFilePath(System.String)
-extern const MethodInfo Uri_ParseAsUnixAbsoluteFilePath_m15000_MethodInfo = 
+extern const MethodInfo Uri_ParseAsUnixAbsoluteFilePath_m15001_MethodInfo = 
 {
 	"ParseAsUnixAbsoluteFilePath"/* name */
-	, (methodPointerType)&Uri_ParseAsUnixAbsoluteFilePath_m15000/* method */
+	, (methodPointerType)&Uri_ParseAsUnixAbsoluteFilePath_m15001/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Uri_t757_Uri_ParseAsUnixAbsoluteFilePath_m15000_ParameterInfos/* parameters */
+	, Uri_t757_Uri_ParseAsUnixAbsoluteFilePath_m15001_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -16915,21 +16915,21 @@ extern const MethodInfo Uri_ParseAsUnixAbsoluteFilePath_m15000_MethodInfo =
 };
 extern const Il2CppType UriKind_t4179_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_Parse_m15001_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_Parse_m15002_ParameterInfos[] = 
 {
 	{"kind", 0, 134219784, 0, &UriKind_t4179_0_0_0},
 	{"uriString", 1, 134219785, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::Parse(System.UriKind,System.String)
-extern const MethodInfo Uri_Parse_m15001_MethodInfo = 
+extern const MethodInfo Uri_Parse_m15002_MethodInfo = 
 {
 	"Parse"/* name */
-	, (methodPointerType)&Uri_Parse_m15001/* method */
+	, (methodPointerType)&Uri_Parse_m15002/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Object_t/* invoker_method */
-	, Uri_t757_Uri_Parse_m15001_ParameterInfos/* parameters */
+	, Uri_t757_Uri_Parse_m15002_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -16945,21 +16945,21 @@ extern const MethodInfo Uri_Parse_m15001_MethodInfo =
 };
 extern const Il2CppType UriKind_t4179_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_ParseNoExceptions_m15002_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_ParseNoExceptions_m15003_ParameterInfos[] = 
 {
 	{"kind", 0, 134219786, 0, &UriKind_t4179_0_0_0},
 	{"uriString", 1, 134219787, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::ParseNoExceptions(System.UriKind,System.String)
-extern const MethodInfo Uri_ParseNoExceptions_m15002_MethodInfo = 
+extern const MethodInfo Uri_ParseNoExceptions_m15003_MethodInfo = 
 {
 	"ParseNoExceptions"/* name */
-	, (methodPointerType)&Uri_ParseNoExceptions_m15002/* method */
+	, (methodPointerType)&Uri_ParseNoExceptions_m15003/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82_Object_t/* invoker_method */
-	, Uri_t757_Uri_ParseNoExceptions_m15002_ParameterInfos/* parameters */
+	, Uri_t757_Uri_ParseNoExceptions_m15003_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -16974,20 +16974,20 @@ extern const MethodInfo Uri_ParseNoExceptions_m15002_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_CompactEscaped_m15003_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_CompactEscaped_m15004_ParameterInfos[] = 
 {
 	{"scheme", 0, 134219788, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::CompactEscaped(System.String)
-extern const MethodInfo Uri_CompactEscaped_m15003_MethodInfo = 
+extern const MethodInfo Uri_CompactEscaped_m15004_MethodInfo = 
 {
 	"CompactEscaped"/* name */
-	, (methodPointerType)&Uri_CompactEscaped_m15003/* method */
+	, (methodPointerType)&Uri_CompactEscaped_m15004/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Uri_t757_Uri_CompactEscaped_m15003_ParameterInfos/* parameters */
+	, Uri_t757_Uri_CompactEscaped_m15004_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17003,21 +17003,21 @@ extern const MethodInfo Uri_CompactEscaped_m15003_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Uri_t757_Uri_Reduce_m15004_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_Reduce_m15005_ParameterInfos[] = 
 {
 	{"path", 0, 134219789, 0, &String_t_0_0_0},
 	{"compact_escaped", 1, 134219790, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::Reduce(System.String,System.Boolean)
-extern const MethodInfo Uri_Reduce_m15004_MethodInfo = 
+extern const MethodInfo Uri_Reduce_m15005_MethodInfo = 
 {
 	"Reduce"/* name */
-	, (methodPointerType)&Uri_Reduce_m15004/* method */
+	, (methodPointerType)&Uri_Reduce_m15005/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88/* invoker_method */
-	, Uri_t757_Uri_Reduce_m15004_ParameterInfos/* parameters */
+	, Uri_t757_Uri_Reduce_m15005_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17035,7 +17035,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
 extern const Il2CppType Char_t60_1_0_2;
 extern const Il2CppType Char_t60_1_0_0;
-static const ParameterInfo Uri_t757_Uri_HexUnescapeMultiByte_m15005_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_HexUnescapeMultiByte_m15006_ParameterInfos[] = 
 {
 	{"pattern", 0, 134219791, 0, &String_t_0_0_0},
 	{"index", 1, 134219792, 0, &Int32_t82_1_0_0},
@@ -17043,14 +17043,14 @@ static const ParameterInfo Uri_t757_Uri_HexUnescapeMultiByte_m15005_ParameterInf
 };
 extern void* RuntimeInvoker_Char_t60_Object_t_Int32U26_t826_CharU26_t4334 (const MethodInfo* method, void* obj, void** args);
 // System.Char System.Uri::HexUnescapeMultiByte(System.String,System.Int32&,System.Char&)
-extern const MethodInfo Uri_HexUnescapeMultiByte_m15005_MethodInfo = 
+extern const MethodInfo Uri_HexUnescapeMultiByte_m15006_MethodInfo = 
 {
 	"HexUnescapeMultiByte"/* name */
-	, (methodPointerType)&Uri_HexUnescapeMultiByte_m15005/* method */
+	, (methodPointerType)&Uri_HexUnescapeMultiByte_m15006/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Char_t60_0_0_0/* return_type */
 	, RuntimeInvoker_Char_t60_Object_t_Int32U26_t826_CharU26_t4334/* invoker_method */
-	, Uri_t757_Uri_HexUnescapeMultiByte_m15005_ParameterInfos/* parameters */
+	, Uri_t757_Uri_HexUnescapeMultiByte_m15006_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17065,20 +17065,20 @@ extern const MethodInfo Uri_HexUnescapeMultiByte_m15005_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_GetSchemeDelimiter_m15006_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_GetSchemeDelimiter_m15007_ParameterInfos[] = 
 {
 	{"scheme", 0, 134219794, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::GetSchemeDelimiter(System.String)
-extern const MethodInfo Uri_GetSchemeDelimiter_m15006_MethodInfo = 
+extern const MethodInfo Uri_GetSchemeDelimiter_m15007_MethodInfo = 
 {
 	"GetSchemeDelimiter"/* name */
-	, (methodPointerType)&Uri_GetSchemeDelimiter_m15006/* method */
+	, (methodPointerType)&Uri_GetSchemeDelimiter_m15007/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Uri_t757_Uri_GetSchemeDelimiter_m15006_ParameterInfos/* parameters */
+	, Uri_t757_Uri_GetSchemeDelimiter_m15007_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -17093,20 +17093,20 @@ extern const MethodInfo Uri_GetSchemeDelimiter_m15006_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_GetDefaultPort_m15007_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_GetDefaultPort_m15008_ParameterInfos[] = 
 {
 	{"scheme", 0, 134219795, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Uri::GetDefaultPort(System.String)
-extern const MethodInfo Uri_GetDefaultPort_m15007_MethodInfo = 
+extern const MethodInfo Uri_GetDefaultPort_m15008_MethodInfo = 
 {
 	"GetDefaultPort"/* name */
-	, (methodPointerType)&Uri_GetDefaultPort_m15007/* method */
+	, (methodPointerType)&Uri_GetDefaultPort_m15008/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, Uri_t757_Uri_GetDefaultPort_m15007_ParameterInfos/* parameters */
+	, Uri_t757_Uri_GetDefaultPort_m15008_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -17122,10 +17122,10 @@ extern const MethodInfo Uri_GetDefaultPort_m15007_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::GetOpaqueWiseSchemeDelimiter()
-extern const MethodInfo Uri_GetOpaqueWiseSchemeDelimiter_m15008_MethodInfo = 
+extern const MethodInfo Uri_GetOpaqueWiseSchemeDelimiter_m15009_MethodInfo = 
 {
 	"GetOpaqueWiseSchemeDelimiter"/* name */
-	, (methodPointerType)&Uri_GetOpaqueWiseSchemeDelimiter_m15008/* method */
+	, (methodPointerType)&Uri_GetOpaqueWiseSchemeDelimiter_m15009/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17144,20 +17144,20 @@ extern const MethodInfo Uri_GetOpaqueWiseSchemeDelimiter_m15008_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_IsPredefinedScheme_m15009_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_IsPredefinedScheme_m15010_ParameterInfos[] = 
 {
 	{"scheme", 0, 134219796, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::IsPredefinedScheme(System.String)
-extern const MethodInfo Uri_IsPredefinedScheme_m15009_MethodInfo = 
+extern const MethodInfo Uri_IsPredefinedScheme_m15010_MethodInfo = 
 {
 	"IsPredefinedScheme"/* name */
-	, (methodPointerType)&Uri_IsPredefinedScheme_m15009/* method */
+	, (methodPointerType)&Uri_IsPredefinedScheme_m15010/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Uri_t757_Uri_IsPredefinedScheme_m15009_ParameterInfos/* parameters */
+	, Uri_t757_Uri_IsPredefinedScheme_m15010_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17173,10 +17173,10 @@ extern const MethodInfo Uri_IsPredefinedScheme_m15009_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UriParser System.Uri::get_Parser()
-extern const MethodInfo Uri_get_Parser_m15010_MethodInfo = 
+extern const MethodInfo Uri_get_Parser_m15011_MethodInfo = 
 {
 	"get_Parser"/* name */
-	, (methodPointerType)&Uri_get_Parser_m15010/* method */
+	, (methodPointerType)&Uri_get_Parser_m15011/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &UriParser_t4174_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17195,20 +17195,20 @@ extern const MethodInfo Uri_get_Parser_m15010_MethodInfo =
 
 };
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo Uri_t757_Uri_NeedToEscapeDataChar_m15011_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_NeedToEscapeDataChar_m15012_ParameterInfos[] = 
 {
 	{"b", 0, 134219797, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::NeedToEscapeDataChar(System.Char)
-extern const MethodInfo Uri_NeedToEscapeDataChar_m15011_MethodInfo = 
+extern const MethodInfo Uri_NeedToEscapeDataChar_m15012_MethodInfo = 
 {
 	"NeedToEscapeDataChar"/* name */
-	, (methodPointerType)&Uri_NeedToEscapeDataChar_m15011/* method */
+	, (methodPointerType)&Uri_NeedToEscapeDataChar_m15012/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int16_t742/* invoker_method */
-	, Uri_t757_Uri_NeedToEscapeDataChar_m15011_ParameterInfos/* parameters */
+	, Uri_t757_Uri_NeedToEscapeDataChar_m15012_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17251,20 +17251,20 @@ extern const MethodInfo Uri_EscapeDataString_m3942_MethodInfo =
 
 };
 extern const Il2CppType Char_t60_0_0_0;
-static const ParameterInfo Uri_t757_Uri_NeedToEscapeUriChar_m15012_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_NeedToEscapeUriChar_m15013_ParameterInfos[] = 
 {
 	{"b", 0, 134219799, 0, &Char_t60_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Int16_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::NeedToEscapeUriChar(System.Char)
-extern const MethodInfo Uri_NeedToEscapeUriChar_m15012_MethodInfo = 
+extern const MethodInfo Uri_NeedToEscapeUriChar_m15013_MethodInfo = 
 {
 	"NeedToEscapeUriChar"/* name */
-	, (methodPointerType)&Uri_NeedToEscapeUriChar_m15012/* method */
+	, (methodPointerType)&Uri_NeedToEscapeUriChar_m15013/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Int16_t742/* invoker_method */
-	, Uri_t757_Uri_NeedToEscapeUriChar_m15012_ParameterInfos/* parameters */
+	, Uri_t757_Uri_NeedToEscapeUriChar_m15013_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17279,20 +17279,20 @@ extern const MethodInfo Uri_NeedToEscapeUriChar_m15012_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_EscapeUriString_m15013_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_EscapeUriString_m15014_ParameterInfos[] = 
 {
 	{"stringToEscape", 0, 134219800, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::EscapeUriString(System.String)
-extern const MethodInfo Uri_EscapeUriString_m15013_MethodInfo = 
+extern const MethodInfo Uri_EscapeUriString_m15014_MethodInfo = 
 {
 	"EscapeUriString"/* name */
-	, (methodPointerType)&Uri_EscapeUriString_m15013/* method */
+	, (methodPointerType)&Uri_EscapeUriString_m15014/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Uri_t757_Uri_EscapeUriString_m15013_ParameterInfos/* parameters */
+	, Uri_t757_Uri_EscapeUriString_m15014_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -17307,20 +17307,20 @@ extern const MethodInfo Uri_EscapeUriString_m15013_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Uri_t757_Uri_UnescapeDataString_m7478_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_UnescapeDataString_m7479_ParameterInfos[] = 
 {
 	{"stringToUnescape", 0, 134219801, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Uri::UnescapeDataString(System.String)
-extern const MethodInfo Uri_UnescapeDataString_m7478_MethodInfo = 
+extern const MethodInfo Uri_UnescapeDataString_m7479_MethodInfo = 
 {
 	"UnescapeDataString"/* name */
-	, (methodPointerType)&Uri_UnescapeDataString_m7478/* method */
+	, (methodPointerType)&Uri_UnescapeDataString_m7479/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Uri_t757_Uri_UnescapeDataString_m7478_ParameterInfos/* parameters */
+	, Uri_t757_Uri_UnescapeDataString_m7479_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -17336,20 +17336,20 @@ extern const MethodInfo Uri_UnescapeDataString_m7478_MethodInfo =
 };
 extern const Il2CppType Byte_t741_0_0_0;
 extern const Il2CppType Byte_t741_0_0_0;
-static const ParameterInfo Uri_t757_Uri_GetInt_m15014_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_GetInt_m15015_ParameterInfos[] = 
 {
 	{"b", 0, 134219802, 0, &Byte_t741_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Uri::GetInt(System.Byte)
-extern const MethodInfo Uri_GetInt_m15014_MethodInfo = 
+extern const MethodInfo Uri_GetInt_m15015_MethodInfo = 
 {
 	"GetInt"/* name */
-	, (methodPointerType)&Uri_GetInt_m15014/* method */
+	, (methodPointerType)&Uri_GetInt_m15015/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_SByte_t88/* invoker_method */
-	, Uri_t757_Uri_GetInt_m15014_ParameterInfos/* parameters */
+	, Uri_t757_Uri_GetInt_m15015_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17366,7 +17366,7 @@ extern const MethodInfo Uri_GetInt_m15014_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Uri_t757_Uri_GetChar_m15015_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_GetChar_m15016_ParameterInfos[] = 
 {
 	{"str", 0, 134219803, 0, &String_t_0_0_0},
 	{"offset", 1, 134219804, 0, &Int32_t82_0_0_0},
@@ -17374,14 +17374,14 @@ static const ParameterInfo Uri_t757_Uri_GetChar_m15015_ParameterInfos[] =
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Uri::GetChar(System.String,System.Int32,System.Int32)
-extern const MethodInfo Uri_GetChar_m15015_MethodInfo = 
+extern const MethodInfo Uri_GetChar_m15016_MethodInfo = 
 {
 	"GetChar"/* name */
-	, (methodPointerType)&Uri_GetChar_m15015/* method */
+	, (methodPointerType)&Uri_GetChar_m15016/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82/* invoker_method */
-	, Uri_t757_Uri_GetChar_m15015_ParameterInfos/* parameters */
+	, Uri_t757_Uri_GetChar_m15016_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17399,7 +17399,7 @@ extern const Il2CppType MemoryStream_t65_0_0_0;
 extern const Il2CppType MemoryStream_t65_0_0_0;
 extern const Il2CppType Encoding_t739_0_0_0;
 extern const Il2CppType Encoding_t739_0_0_0;
-static const ParameterInfo Uri_t757_Uri_GetChars_m15016_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_GetChars_m15017_ParameterInfos[] = 
 {
 	{"b", 0, 134219806, 0, &MemoryStream_t65_0_0_0},
 	{"e", 1, 134219807, 0, &Encoding_t739_0_0_0},
@@ -17407,14 +17407,14 @@ static const ParameterInfo Uri_t757_Uri_GetChars_m15016_ParameterInfos[] =
 extern const Il2CppType CharU5BU5D_t697_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Char[] System.Uri::GetChars(System.IO.MemoryStream,System.Text.Encoding)
-extern const MethodInfo Uri_GetChars_m15016_MethodInfo = 
+extern const MethodInfo Uri_GetChars_m15017_MethodInfo = 
 {
 	"GetChars"/* name */
-	, (methodPointerType)&Uri_GetChars_m15016/* method */
+	, (methodPointerType)&Uri_GetChars_m15017/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &CharU5BU5D_t697_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, Uri_t757_Uri_GetChars_m15016_ParameterInfos/* parameters */
+	, Uri_t757_Uri_GetChars_m15017_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17430,10 +17430,10 @@ extern const MethodInfo Uri_GetChars_m15016_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Uri::EnsureAbsoluteUri()
-extern const MethodInfo Uri_EnsureAbsoluteUri_m15017_MethodInfo = 
+extern const MethodInfo Uri_EnsureAbsoluteUri_m15018_MethodInfo = 
 {
 	"EnsureAbsoluteUri"/* name */
-	, (methodPointerType)&Uri_EnsureAbsoluteUri_m15017/* method */
+	, (methodPointerType)&Uri_EnsureAbsoluteUri_m15018/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17453,21 +17453,21 @@ extern const MethodInfo Uri_EnsureAbsoluteUri_m15017_MethodInfo =
 };
 extern const Il2CppType Uri_t757_0_0_0;
 extern const Il2CppType Uri_t757_0_0_0;
-static const ParameterInfo Uri_t757_Uri_op_Equality_m11484_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_op_Equality_m11485_ParameterInfos[] = 
 {
 	{"u1", 0, 134219808, 0, &Uri_t757_0_0_0},
 	{"u2", 1, 134219809, 0, &Uri_t757_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::op_Equality(System.Uri,System.Uri)
-extern const MethodInfo Uri_op_Equality_m11484_MethodInfo = 
+extern const MethodInfo Uri_op_Equality_m11485_MethodInfo = 
 {
 	"op_Equality"/* name */
-	, (methodPointerType)&Uri_op_Equality_m11484/* method */
+	, (methodPointerType)&Uri_op_Equality_m11485/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, Uri_t757_Uri_op_Equality_m11484_ParameterInfos/* parameters */
+	, Uri_t757_Uri_op_Equality_m11485_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -17483,21 +17483,21 @@ extern const MethodInfo Uri_op_Equality_m11484_MethodInfo =
 };
 extern const Il2CppType Uri_t757_0_0_0;
 extern const Il2CppType Uri_t757_0_0_0;
-static const ParameterInfo Uri_t757_Uri_op_Inequality_m11449_ParameterInfos[] = 
+static const ParameterInfo Uri_t757_Uri_op_Inequality_m11450_ParameterInfos[] = 
 {
 	{"u1", 0, 134219810, 0, &Uri_t757_0_0_0},
 	{"u2", 1, 134219811, 0, &Uri_t757_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Uri::op_Inequality(System.Uri,System.Uri)
-extern const MethodInfo Uri_op_Inequality_m11449_MethodInfo = 
+extern const MethodInfo Uri_op_Inequality_m11450_MethodInfo = 
 {
 	"op_Inequality"/* name */
-	, (methodPointerType)&Uri_op_Inequality_m11449/* method */
+	, (methodPointerType)&Uri_op_Inequality_m11450/* method */
 	, &Uri_t757_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, Uri_t757_Uri_op_Inequality_m11449_ParameterInfos/* parameters */
+	, Uri_t757_Uri_op_Inequality_m11450_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -17513,271 +17513,271 @@ extern const MethodInfo Uri_op_Inequality_m11449_MethodInfo =
 };
 static const MethodInfo* Uri_t757_MethodInfos[] =
 {
-	&Uri__ctor_m7465_MethodInfo,
-	&Uri__ctor_m14964_MethodInfo,
-	&Uri__ctor_m7328_MethodInfo,
-	&Uri__ctor_m7472_MethodInfo,
+	&Uri__ctor_m7466_MethodInfo,
 	&Uri__ctor_m14965_MethodInfo,
-	&Uri__ctor_m7308_MethodInfo,
-	&Uri__cctor_m14966_MethodInfo,
-	&Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14967_MethodInfo,
-	&Uri_Merge_m14968_MethodInfo,
-	&Uri_get_AbsolutePath_m11496_MethodInfo,
-	&Uri_get_AbsoluteUri_m7321_MethodInfo,
-	&Uri_get_Authority_m14969_MethodInfo,
-	&Uri_get_Fragment_m7322_MethodInfo,
-	&Uri_get_Host_m13188_MethodInfo,
-	&Uri_get_HostNameType_m14970_MethodInfo,
-	&Uri_get_IsDefaultPort_m14971_MethodInfo,
-	&Uri_get_IsFile_m14972_MethodInfo,
-	&Uri_get_IsLoopback_m14973_MethodInfo,
-	&Uri_get_IsUnc_m14974_MethodInfo,
-	&Uri_get_LocalPath_m11497_MethodInfo,
-	&Uri_get_PathAndQuery_m14975_MethodInfo,
-	&Uri_get_Port_m14976_MethodInfo,
-	&Uri_get_Query_m7323_MethodInfo,
-	&Uri_get_Scheme_m11495_MethodInfo,
-	&Uri_get_IsAbsoluteUri_m11494_MethodInfo,
-	&Uri_get_OriginalString_m14977_MethodInfo,
-	&Uri_CheckHostName_m14978_MethodInfo,
-	&Uri_IsIPv4Address_m14979_MethodInfo,
-	&Uri_IsDomainAddress_m14980_MethodInfo,
-	&Uri_CheckSchemeName_m14981_MethodInfo,
-	&Uri_IsAlpha_m14982_MethodInfo,
-	&Uri_Equals_m14983_MethodInfo,
-	&Uri_InternalEquals_m14984_MethodInfo,
-	&Uri_GetHashCode_m14985_MethodInfo,
-	&Uri_GetLeftPart_m14986_MethodInfo,
-	&Uri_FromHex_m14987_MethodInfo,
-	&Uri_HexEscape_m14988_MethodInfo,
-	&Uri_IsHexDigit_m14989_MethodInfo,
-	&Uri_IsHexEncoding_m14990_MethodInfo,
-	&Uri_AppendQueryAndFragment_m14991_MethodInfo,
-	&Uri_ToString_m14992_MethodInfo,
-	&Uri_EscapeString_m14993_MethodInfo,
+	&Uri__ctor_m7329_MethodInfo,
+	&Uri__ctor_m7473_MethodInfo,
+	&Uri__ctor_m14966_MethodInfo,
+	&Uri__ctor_m7309_MethodInfo,
+	&Uri__cctor_m14967_MethodInfo,
+	&Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14968_MethodInfo,
+	&Uri_Merge_m14969_MethodInfo,
+	&Uri_get_AbsolutePath_m11497_MethodInfo,
+	&Uri_get_AbsoluteUri_m7322_MethodInfo,
+	&Uri_get_Authority_m14970_MethodInfo,
+	&Uri_get_Fragment_m7323_MethodInfo,
+	&Uri_get_Host_m13189_MethodInfo,
+	&Uri_get_HostNameType_m14971_MethodInfo,
+	&Uri_get_IsDefaultPort_m14972_MethodInfo,
+	&Uri_get_IsFile_m14973_MethodInfo,
+	&Uri_get_IsLoopback_m14974_MethodInfo,
+	&Uri_get_IsUnc_m14975_MethodInfo,
+	&Uri_get_LocalPath_m11498_MethodInfo,
+	&Uri_get_PathAndQuery_m14976_MethodInfo,
+	&Uri_get_Port_m14977_MethodInfo,
+	&Uri_get_Query_m7324_MethodInfo,
+	&Uri_get_Scheme_m11496_MethodInfo,
+	&Uri_get_IsAbsoluteUri_m11495_MethodInfo,
+	&Uri_get_OriginalString_m14978_MethodInfo,
+	&Uri_CheckHostName_m14979_MethodInfo,
+	&Uri_IsIPv4Address_m14980_MethodInfo,
+	&Uri_IsDomainAddress_m14981_MethodInfo,
+	&Uri_CheckSchemeName_m14982_MethodInfo,
+	&Uri_IsAlpha_m14983_MethodInfo,
+	&Uri_Equals_m14984_MethodInfo,
+	&Uri_InternalEquals_m14985_MethodInfo,
+	&Uri_GetHashCode_m14986_MethodInfo,
+	&Uri_GetLeftPart_m14987_MethodInfo,
+	&Uri_FromHex_m14988_MethodInfo,
+	&Uri_HexEscape_m14989_MethodInfo,
+	&Uri_IsHexDigit_m14990_MethodInfo,
+	&Uri_IsHexEncoding_m14991_MethodInfo,
+	&Uri_AppendQueryAndFragment_m14992_MethodInfo,
+	&Uri_ToString_m14993_MethodInfo,
 	&Uri_EscapeString_m14994_MethodInfo,
-	&Uri_ParseUri_m14995_MethodInfo,
-	&Uri_Unescape_m14996_MethodInfo,
+	&Uri_EscapeString_m14995_MethodInfo,
+	&Uri_ParseUri_m14996_MethodInfo,
 	&Uri_Unescape_m14997_MethodInfo,
-	&Uri_ParseAsWindowsUNC_m14998_MethodInfo,
-	&Uri_ParseAsWindowsAbsoluteFilePath_m14999_MethodInfo,
-	&Uri_ParseAsUnixAbsoluteFilePath_m15000_MethodInfo,
-	&Uri_Parse_m15001_MethodInfo,
-	&Uri_ParseNoExceptions_m15002_MethodInfo,
-	&Uri_CompactEscaped_m15003_MethodInfo,
-	&Uri_Reduce_m15004_MethodInfo,
-	&Uri_HexUnescapeMultiByte_m15005_MethodInfo,
-	&Uri_GetSchemeDelimiter_m15006_MethodInfo,
-	&Uri_GetDefaultPort_m15007_MethodInfo,
-	&Uri_GetOpaqueWiseSchemeDelimiter_m15008_MethodInfo,
-	&Uri_IsPredefinedScheme_m15009_MethodInfo,
-	&Uri_get_Parser_m15010_MethodInfo,
-	&Uri_NeedToEscapeDataChar_m15011_MethodInfo,
+	&Uri_Unescape_m14998_MethodInfo,
+	&Uri_ParseAsWindowsUNC_m14999_MethodInfo,
+	&Uri_ParseAsWindowsAbsoluteFilePath_m15000_MethodInfo,
+	&Uri_ParseAsUnixAbsoluteFilePath_m15001_MethodInfo,
+	&Uri_Parse_m15002_MethodInfo,
+	&Uri_ParseNoExceptions_m15003_MethodInfo,
+	&Uri_CompactEscaped_m15004_MethodInfo,
+	&Uri_Reduce_m15005_MethodInfo,
+	&Uri_HexUnescapeMultiByte_m15006_MethodInfo,
+	&Uri_GetSchemeDelimiter_m15007_MethodInfo,
+	&Uri_GetDefaultPort_m15008_MethodInfo,
+	&Uri_GetOpaqueWiseSchemeDelimiter_m15009_MethodInfo,
+	&Uri_IsPredefinedScheme_m15010_MethodInfo,
+	&Uri_get_Parser_m15011_MethodInfo,
+	&Uri_NeedToEscapeDataChar_m15012_MethodInfo,
 	&Uri_EscapeDataString_m3942_MethodInfo,
-	&Uri_NeedToEscapeUriChar_m15012_MethodInfo,
-	&Uri_EscapeUriString_m15013_MethodInfo,
-	&Uri_UnescapeDataString_m7478_MethodInfo,
-	&Uri_GetInt_m15014_MethodInfo,
-	&Uri_GetChar_m15015_MethodInfo,
-	&Uri_GetChars_m15016_MethodInfo,
-	&Uri_EnsureAbsoluteUri_m15017_MethodInfo,
-	&Uri_op_Equality_m11484_MethodInfo,
-	&Uri_op_Inequality_m11449_MethodInfo,
+	&Uri_NeedToEscapeUriChar_m15013_MethodInfo,
+	&Uri_EscapeUriString_m15014_MethodInfo,
+	&Uri_UnescapeDataString_m7479_MethodInfo,
+	&Uri_GetInt_m15015_MethodInfo,
+	&Uri_GetChar_m15016_MethodInfo,
+	&Uri_GetChars_m15017_MethodInfo,
+	&Uri_EnsureAbsoluteUri_m15018_MethodInfo,
+	&Uri_op_Equality_m11485_MethodInfo,
+	&Uri_op_Inequality_m11450_MethodInfo,
 	NULL
 };
-extern const MethodInfo Uri_get_AbsolutePath_m11496_MethodInfo;
+extern const MethodInfo Uri_get_AbsolutePath_m11497_MethodInfo;
 static const PropertyInfo Uri_t757____AbsolutePath_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "AbsolutePath"/* name */
-	, &Uri_get_AbsolutePath_m11496_MethodInfo/* get */
+	, &Uri_get_AbsolutePath_m11497_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_AbsoluteUri_m7321_MethodInfo;
+extern const MethodInfo Uri_get_AbsoluteUri_m7322_MethodInfo;
 static const PropertyInfo Uri_t757____AbsoluteUri_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "AbsoluteUri"/* name */
-	, &Uri_get_AbsoluteUri_m7321_MethodInfo/* get */
+	, &Uri_get_AbsoluteUri_m7322_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_Authority_m14969_MethodInfo;
+extern const MethodInfo Uri_get_Authority_m14970_MethodInfo;
 static const PropertyInfo Uri_t757____Authority_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "Authority"/* name */
-	, &Uri_get_Authority_m14969_MethodInfo/* get */
+	, &Uri_get_Authority_m14970_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_Fragment_m7322_MethodInfo;
+extern const MethodInfo Uri_get_Fragment_m7323_MethodInfo;
 static const PropertyInfo Uri_t757____Fragment_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "Fragment"/* name */
-	, &Uri_get_Fragment_m7322_MethodInfo/* get */
+	, &Uri_get_Fragment_m7323_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_Host_m13188_MethodInfo;
+extern const MethodInfo Uri_get_Host_m13189_MethodInfo;
 static const PropertyInfo Uri_t757____Host_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "Host"/* name */
-	, &Uri_get_Host_m13188_MethodInfo/* get */
+	, &Uri_get_Host_m13189_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_HostNameType_m14970_MethodInfo;
+extern const MethodInfo Uri_get_HostNameType_m14971_MethodInfo;
 static const PropertyInfo Uri_t757____HostNameType_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "HostNameType"/* name */
-	, &Uri_get_HostNameType_m14970_MethodInfo/* get */
+	, &Uri_get_HostNameType_m14971_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_IsDefaultPort_m14971_MethodInfo;
+extern const MethodInfo Uri_get_IsDefaultPort_m14972_MethodInfo;
 static const PropertyInfo Uri_t757____IsDefaultPort_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "IsDefaultPort"/* name */
-	, &Uri_get_IsDefaultPort_m14971_MethodInfo/* get */
+	, &Uri_get_IsDefaultPort_m14972_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_IsFile_m14972_MethodInfo;
+extern const MethodInfo Uri_get_IsFile_m14973_MethodInfo;
 static const PropertyInfo Uri_t757____IsFile_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "IsFile"/* name */
-	, &Uri_get_IsFile_m14972_MethodInfo/* get */
+	, &Uri_get_IsFile_m14973_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_IsLoopback_m14973_MethodInfo;
+extern const MethodInfo Uri_get_IsLoopback_m14974_MethodInfo;
 static const PropertyInfo Uri_t757____IsLoopback_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "IsLoopback"/* name */
-	, &Uri_get_IsLoopback_m14973_MethodInfo/* get */
+	, &Uri_get_IsLoopback_m14974_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_IsUnc_m14974_MethodInfo;
+extern const MethodInfo Uri_get_IsUnc_m14975_MethodInfo;
 static const PropertyInfo Uri_t757____IsUnc_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "IsUnc"/* name */
-	, &Uri_get_IsUnc_m14974_MethodInfo/* get */
+	, &Uri_get_IsUnc_m14975_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_LocalPath_m11497_MethodInfo;
+extern const MethodInfo Uri_get_LocalPath_m11498_MethodInfo;
 static const PropertyInfo Uri_t757____LocalPath_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "LocalPath"/* name */
-	, &Uri_get_LocalPath_m11497_MethodInfo/* get */
+	, &Uri_get_LocalPath_m11498_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_PathAndQuery_m14975_MethodInfo;
+extern const MethodInfo Uri_get_PathAndQuery_m14976_MethodInfo;
 static const PropertyInfo Uri_t757____PathAndQuery_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "PathAndQuery"/* name */
-	, &Uri_get_PathAndQuery_m14975_MethodInfo/* get */
+	, &Uri_get_PathAndQuery_m14976_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_Port_m14976_MethodInfo;
+extern const MethodInfo Uri_get_Port_m14977_MethodInfo;
 static const PropertyInfo Uri_t757____Port_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "Port"/* name */
-	, &Uri_get_Port_m14976_MethodInfo/* get */
+	, &Uri_get_Port_m14977_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_Query_m7323_MethodInfo;
+extern const MethodInfo Uri_get_Query_m7324_MethodInfo;
 static const PropertyInfo Uri_t757____Query_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "Query"/* name */
-	, &Uri_get_Query_m7323_MethodInfo/* get */
+	, &Uri_get_Query_m7324_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_Scheme_m11495_MethodInfo;
+extern const MethodInfo Uri_get_Scheme_m11496_MethodInfo;
 static const PropertyInfo Uri_t757____Scheme_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "Scheme"/* name */
-	, &Uri_get_Scheme_m11495_MethodInfo/* get */
+	, &Uri_get_Scheme_m11496_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_IsAbsoluteUri_m11494_MethodInfo;
+extern const MethodInfo Uri_get_IsAbsoluteUri_m11495_MethodInfo;
 static const PropertyInfo Uri_t757____IsAbsoluteUri_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "IsAbsoluteUri"/* name */
-	, &Uri_get_IsAbsoluteUri_m11494_MethodInfo/* get */
+	, &Uri_get_IsAbsoluteUri_m11495_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_OriginalString_m14977_MethodInfo;
+extern const MethodInfo Uri_get_OriginalString_m14978_MethodInfo;
 static const PropertyInfo Uri_t757____OriginalString_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "OriginalString"/* name */
-	, &Uri_get_OriginalString_m14977_MethodInfo/* get */
+	, &Uri_get_OriginalString_m14978_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Uri_get_Parser_m15010_MethodInfo;
+extern const MethodInfo Uri_get_Parser_m15011_MethodInfo;
 static const PropertyInfo Uri_t757____Parser_PropertyInfo = 
 {
 	&Uri_t757_il2cpp_TypeInfo/* parent */
 	, "Parser"/* name */
-	, &Uri_get_Parser_m15010_MethodInfo/* get */
+	, &Uri_get_Parser_m15011_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -17809,19 +17809,19 @@ static const Il2CppType* Uri_t757_il2cpp_TypeInfo__nestedTypes[1] =
 {
 	&UriScheme_t4176_0_0_0,
 };
-extern const MethodInfo Uri_Equals_m14983_MethodInfo;
-extern const MethodInfo Uri_GetHashCode_m14985_MethodInfo;
-extern const MethodInfo Uri_ToString_m14992_MethodInfo;
-extern const MethodInfo Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14967_MethodInfo;
-extern const MethodInfo Uri_Unescape_m14996_MethodInfo;
+extern const MethodInfo Uri_Equals_m14984_MethodInfo;
+extern const MethodInfo Uri_GetHashCode_m14986_MethodInfo;
+extern const MethodInfo Uri_ToString_m14993_MethodInfo;
+extern const MethodInfo Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14968_MethodInfo;
+extern const MethodInfo Uri_Unescape_m14997_MethodInfo;
 static const Il2CppMethodReference Uri_t757_VTable[] =
 {
-	&Uri_Equals_m14983_MethodInfo,
+	&Uri_Equals_m14984_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Uri_GetHashCode_m14985_MethodInfo,
-	&Uri_ToString_m14992_MethodInfo,
-	&Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14967_MethodInfo,
-	&Uri_Unescape_m14996_MethodInfo,
+	&Uri_GetHashCode_m14986_MethodInfo,
+	&Uri_ToString_m14993_MethodInfo,
+	&Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m14968_MethodInfo,
+	&Uri_Unescape_m14997_MethodInfo,
 };
 static bool Uri_t757_VTableIsGenericMethod[] =
 {
@@ -17918,10 +17918,10 @@ extern TypeInfo UriFormatException_t3294_il2cpp_TypeInfo;
 #include "System_System_UriFormatExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UriFormatException::.ctor()
-extern const MethodInfo UriFormatException__ctor_m15018_MethodInfo = 
+extern const MethodInfo UriFormatException__ctor_m15019_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UriFormatException__ctor_m15018/* method */
+	, (methodPointerType)&UriFormatException__ctor_m15019/* method */
 	, &UriFormatException_t3294_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17940,20 +17940,20 @@ extern const MethodInfo UriFormatException__ctor_m15018_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UriFormatException_t3294_UriFormatException__ctor_m15019_ParameterInfos[] = 
+static const ParameterInfo UriFormatException_t3294_UriFormatException__ctor_m15020_ParameterInfos[] = 
 {
 	{"message", 0, 134219815, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UriFormatException::.ctor(System.String)
-extern const MethodInfo UriFormatException__ctor_m15019_MethodInfo = 
+extern const MethodInfo UriFormatException__ctor_m15020_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UriFormatException__ctor_m15019/* method */
+	, (methodPointerType)&UriFormatException__ctor_m15020/* method */
 	, &UriFormatException_t3294_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, UriFormatException_t3294_UriFormatException__ctor_m15019_ParameterInfos/* parameters */
+	, UriFormatException_t3294_UriFormatException__ctor_m15020_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -17969,21 +17969,21 @@ extern const MethodInfo UriFormatException__ctor_m15019_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t2919_0_0_0;
 extern const Il2CppType StreamingContext_t2920_0_0_0;
-static const ParameterInfo UriFormatException_t3294_UriFormatException__ctor_m15020_ParameterInfos[] = 
+static const ParameterInfo UriFormatException_t3294_UriFormatException__ctor_m15021_ParameterInfos[] = 
 {
 	{"info", 0, 134219816, 0, &SerializationInfo_t2919_0_0_0},
 	{"context", 1, 134219817, 0, &StreamingContext_t2920_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2920 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UriFormatException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo UriFormatException__ctor_m15020_MethodInfo = 
+extern const MethodInfo UriFormatException__ctor_m15021_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UriFormatException__ctor_m15020/* method */
+	, (methodPointerType)&UriFormatException__ctor_m15021/* method */
 	, &UriFormatException_t3294_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2920/* invoker_method */
-	, UriFormatException_t3294_UriFormatException__ctor_m15020_ParameterInfos/* parameters */
+	, UriFormatException_t3294_UriFormatException__ctor_m15021_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -17999,21 +17999,21 @@ extern const MethodInfo UriFormatException__ctor_m15020_MethodInfo =
 };
 extern const Il2CppType SerializationInfo_t2919_0_0_0;
 extern const Il2CppType StreamingContext_t2920_0_0_0;
-static const ParameterInfo UriFormatException_t3294_UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15021_ParameterInfos[] = 
+static const ParameterInfo UriFormatException_t3294_UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15022_ParameterInfos[] = 
 {
 	{"info", 0, 134219818, 0, &SerializationInfo_t2919_0_0_0},
 	{"context", 1, 134219819, 0, &StreamingContext_t2920_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2920 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UriFormatException::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15021_MethodInfo = 
+extern const MethodInfo UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15022_MethodInfo = 
 {
 	"System.Runtime.Serialization.ISerializable.GetObjectData"/* name */
-	, (methodPointerType)&UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15021/* method */
+	, (methodPointerType)&UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15022/* method */
 	, &UriFormatException_t3294_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2920/* invoker_method */
-	, UriFormatException_t3294_UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15021_ParameterInfos/* parameters */
+	, UriFormatException_t3294_UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15022_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -18029,33 +18029,33 @@ extern const MethodInfo UriFormatException_System_Runtime_Serialization_ISeriali
 };
 static const MethodInfo* UriFormatException_t3294_MethodInfos[] =
 {
-	&UriFormatException__ctor_m15018_MethodInfo,
 	&UriFormatException__ctor_m15019_MethodInfo,
 	&UriFormatException__ctor_m15020_MethodInfo,
-	&UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15021_MethodInfo,
+	&UriFormatException__ctor_m15021_MethodInfo,
+	&UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15022_MethodInfo,
 	NULL
 };
-extern const MethodInfo Exception_ToString_m7794_MethodInfo;
-extern const MethodInfo UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15021_MethodInfo;
-extern const MethodInfo Exception_get_InnerException_m8385_MethodInfo;
-extern const MethodInfo Exception_get_Message_m8386_MethodInfo;
-extern const MethodInfo Exception_get_Source_m8387_MethodInfo;
-extern const MethodInfo Exception_get_StackTrace_m8388_MethodInfo;
-extern const MethodInfo Exception_GetObjectData_m8384_MethodInfo;
-extern const MethodInfo Exception_GetType_m8389_MethodInfo;
+extern const MethodInfo Exception_ToString_m7795_MethodInfo;
+extern const MethodInfo UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15022_MethodInfo;
+extern const MethodInfo Exception_get_InnerException_m8386_MethodInfo;
+extern const MethodInfo Exception_get_Message_m8387_MethodInfo;
+extern const MethodInfo Exception_get_Source_m8388_MethodInfo;
+extern const MethodInfo Exception_get_StackTrace_m8389_MethodInfo;
+extern const MethodInfo Exception_GetObjectData_m8385_MethodInfo;
+extern const MethodInfo Exception_GetType_m8390_MethodInfo;
 static const Il2CppMethodReference UriFormatException_t3294_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&Exception_ToString_m7794_MethodInfo,
-	&UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15021_MethodInfo,
-	&Exception_get_InnerException_m8385_MethodInfo,
-	&Exception_get_Message_m8386_MethodInfo,
-	&Exception_get_Source_m8387_MethodInfo,
-	&Exception_get_StackTrace_m8388_MethodInfo,
-	&Exception_GetObjectData_m8384_MethodInfo,
-	&Exception_GetType_m8389_MethodInfo,
+	&Exception_ToString_m7795_MethodInfo,
+	&UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m15022_MethodInfo,
+	&Exception_get_InnerException_m8386_MethodInfo,
+	&Exception_get_Message_m8387_MethodInfo,
+	&Exception_get_Source_m8388_MethodInfo,
+	&Exception_get_StackTrace_m8389_MethodInfo,
+	&Exception_GetObjectData_m8385_MethodInfo,
+	&Exception_GetType_m8390_MethodInfo,
 };
 static bool UriFormatException_t3294_VTableIsGenericMethod[] =
 {
@@ -18435,10 +18435,10 @@ extern TypeInfo UriParser_t4174_il2cpp_TypeInfo;
 #include "System_System_UriParserMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UriParser::.ctor()
-extern const MethodInfo UriParser__ctor_m15022_MethodInfo = 
+extern const MethodInfo UriParser__ctor_m15023_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UriParser__ctor_m15022/* method */
+	, (methodPointerType)&UriParser__ctor_m15023/* method */
 	, &UriParser_t4174_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -18458,10 +18458,10 @@ extern const MethodInfo UriParser__ctor_m15022_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UriParser::.cctor()
-extern const MethodInfo UriParser__cctor_m15023_MethodInfo = 
+extern const MethodInfo UriParser__cctor_m15024_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&UriParser__cctor_m15023/* method */
+	, (methodPointerType)&UriParser__cctor_m15024/* method */
 	, &UriParser_t4174_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -18481,21 +18481,21 @@ extern const MethodInfo UriParser__cctor_m15023_MethodInfo =
 };
 extern const Il2CppType Uri_t757_0_0_0;
 extern const Il2CppType UriFormatException_t3294_1_0_2;
-static const ParameterInfo UriParser_t4174_UriParser_InitializeAndValidate_m15024_ParameterInfos[] = 
+static const ParameterInfo UriParser_t4174_UriParser_InitializeAndValidate_m15025_ParameterInfos[] = 
 {
 	{"uri", 0, 134219820, 0, &Uri_t757_0_0_0},
 	{"parsingError", 1, 134219821, 0, &UriFormatException_t3294_1_0_2},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_UriFormatExceptionU26_t4335 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UriParser::InitializeAndValidate(System.Uri,System.UriFormatException&)
-extern const MethodInfo UriParser_InitializeAndValidate_m15024_MethodInfo = 
+extern const MethodInfo UriParser_InitializeAndValidate_m15025_MethodInfo = 
 {
 	"InitializeAndValidate"/* name */
-	, (methodPointerType)&UriParser_InitializeAndValidate_m15024/* method */
+	, (methodPointerType)&UriParser_InitializeAndValidate_m15025/* method */
 	, &UriParser_t4174_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_UriFormatExceptionU26_t4335/* invoker_method */
-	, UriParser_t4174_UriParser_InitializeAndValidate_m15024_ParameterInfos/* parameters */
+	, UriParser_t4174_UriParser_InitializeAndValidate_m15025_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 453/* flags */
 	, 0/* iflags */
@@ -18511,21 +18511,21 @@ extern const MethodInfo UriParser_InitializeAndValidate_m15024_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo UriParser_t4174_UriParser_OnRegister_m15025_ParameterInfos[] = 
+static const ParameterInfo UriParser_t4174_UriParser_OnRegister_m15026_ParameterInfos[] = 
 {
 	{"schemeName", 0, 134219822, 0, &String_t_0_0_0},
 	{"defaultPort", 1, 134219823, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UriParser::OnRegister(System.String,System.Int32)
-extern const MethodInfo UriParser_OnRegister_m15025_MethodInfo = 
+extern const MethodInfo UriParser_OnRegister_m15026_MethodInfo = 
 {
 	"OnRegister"/* name */
-	, (methodPointerType)&UriParser_OnRegister_m15025/* method */
+	, (methodPointerType)&UriParser_OnRegister_m15026/* method */
 	, &UriParser_t4174_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, UriParser_t4174_UriParser_OnRegister_m15025_ParameterInfos/* parameters */
+	, UriParser_t4174_UriParser_OnRegister_m15026_ParameterInfos/* parameters */
 	, 101/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -18540,20 +18540,20 @@ extern const MethodInfo UriParser_OnRegister_m15025_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UriParser_t4174_UriParser_set_SchemeName_m15026_ParameterInfos[] = 
+static const ParameterInfo UriParser_t4174_UriParser_set_SchemeName_m15027_ParameterInfos[] = 
 {
 	{"value", 0, 134219824, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UriParser::set_SchemeName(System.String)
-extern const MethodInfo UriParser_set_SchemeName_m15026_MethodInfo = 
+extern const MethodInfo UriParser_set_SchemeName_m15027_MethodInfo = 
 {
 	"set_SchemeName"/* name */
-	, (methodPointerType)&UriParser_set_SchemeName_m15026/* method */
+	, (methodPointerType)&UriParser_set_SchemeName_m15027/* method */
 	, &UriParser_t4174_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, UriParser_t4174_UriParser_set_SchemeName_m15026_ParameterInfos/* parameters */
+	, UriParser_t4174_UriParser_set_SchemeName_m15027_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -18569,10 +18569,10 @@ extern const MethodInfo UriParser_set_SchemeName_m15026_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.UriParser::get_DefaultPort()
-extern const MethodInfo UriParser_get_DefaultPort_m15027_MethodInfo = 
+extern const MethodInfo UriParser_get_DefaultPort_m15028_MethodInfo = 
 {
 	"get_DefaultPort"/* name */
-	, (methodPointerType)&UriParser_get_DefaultPort_m15027/* method */
+	, (methodPointerType)&UriParser_get_DefaultPort_m15028/* method */
 	, &UriParser_t4174_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -18591,20 +18591,20 @@ extern const MethodInfo UriParser_get_DefaultPort_m15027_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo UriParser_t4174_UriParser_set_DefaultPort_m15028_ParameterInfos[] = 
+static const ParameterInfo UriParser_t4174_UriParser_set_DefaultPort_m15029_ParameterInfos[] = 
 {
 	{"value", 0, 134219825, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UriParser::set_DefaultPort(System.Int32)
-extern const MethodInfo UriParser_set_DefaultPort_m15028_MethodInfo = 
+extern const MethodInfo UriParser_set_DefaultPort_m15029_MethodInfo = 
 {
 	"set_DefaultPort"/* name */
-	, (methodPointerType)&UriParser_set_DefaultPort_m15028/* method */
+	, (methodPointerType)&UriParser_set_DefaultPort_m15029/* method */
 	, &UriParser_t4174_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, UriParser_t4174_UriParser_set_DefaultPort_m15028_ParameterInfos/* parameters */
+	, UriParser_t4174_UriParser_set_DefaultPort_m15029_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -18620,10 +18620,10 @@ extern const MethodInfo UriParser_set_DefaultPort_m15028_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UriParser::CreateDefaults()
-extern const MethodInfo UriParser_CreateDefaults_m15029_MethodInfo = 
+extern const MethodInfo UriParser_CreateDefaults_m15030_MethodInfo = 
 {
 	"CreateDefaults"/* name */
-	, (methodPointerType)&UriParser_CreateDefaults_m15029/* method */
+	, (methodPointerType)&UriParser_CreateDefaults_m15030/* method */
 	, &UriParser_t4174_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -18645,7 +18645,7 @@ extern const Il2CppType Hashtable_t696_0_0_0;
 extern const Il2CppType UriParser_t4174_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo UriParser_t4174_UriParser_InternalRegister_m15030_ParameterInfos[] = 
+static const ParameterInfo UriParser_t4174_UriParser_InternalRegister_m15031_ParameterInfos[] = 
 {
 	{"table", 0, 134219826, 0, &Hashtable_t696_0_0_0},
 	{"uriParser", 1, 134219827, 0, &UriParser_t4174_0_0_0},
@@ -18654,14 +18654,14 @@ static const ParameterInfo UriParser_t4174_UriParser_InternalRegister_m15030_Par
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.UriParser::InternalRegister(System.Collections.Hashtable,System.UriParser,System.String,System.Int32)
-extern const MethodInfo UriParser_InternalRegister_m15030_MethodInfo = 
+extern const MethodInfo UriParser_InternalRegister_m15031_MethodInfo = 
 {
 	"InternalRegister"/* name */
-	, (methodPointerType)&UriParser_InternalRegister_m15030/* method */
+	, (methodPointerType)&UriParser_InternalRegister_m15031/* method */
 	, &UriParser_t4174_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Int32_t82/* invoker_method */
-	, UriParser_t4174_UriParser_InternalRegister_m15030_ParameterInfos/* parameters */
+	, UriParser_t4174_UriParser_InternalRegister_m15031_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18676,20 +18676,20 @@ extern const MethodInfo UriParser_InternalRegister_m15030_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UriParser_t4174_UriParser_GetParser_m15031_ParameterInfos[] = 
+static const ParameterInfo UriParser_t4174_UriParser_GetParser_m15032_ParameterInfos[] = 
 {
 	{"schemeName", 0, 134219830, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.UriParser System.UriParser::GetParser(System.String)
-extern const MethodInfo UriParser_GetParser_m15031_MethodInfo = 
+extern const MethodInfo UriParser_GetParser_m15032_MethodInfo = 
 {
 	"GetParser"/* name */
-	, (methodPointerType)&UriParser_GetParser_m15031/* method */
+	, (methodPointerType)&UriParser_GetParser_m15032/* method */
 	, &UriParser_t4174_il2cpp_TypeInfo/* declaring_type */
 	, &UriParser_t4174_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, UriParser_t4174_UriParser_GetParser_m15031_ParameterInfos/* parameters */
+	, UriParser_t4174_UriParser_GetParser_m15032_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -18705,37 +18705,37 @@ extern const MethodInfo UriParser_GetParser_m15031_MethodInfo =
 };
 static const MethodInfo* UriParser_t4174_MethodInfos[] =
 {
-	&UriParser__ctor_m15022_MethodInfo,
-	&UriParser__cctor_m15023_MethodInfo,
-	&UriParser_InitializeAndValidate_m15024_MethodInfo,
-	&UriParser_OnRegister_m15025_MethodInfo,
-	&UriParser_set_SchemeName_m15026_MethodInfo,
-	&UriParser_get_DefaultPort_m15027_MethodInfo,
-	&UriParser_set_DefaultPort_m15028_MethodInfo,
-	&UriParser_CreateDefaults_m15029_MethodInfo,
-	&UriParser_InternalRegister_m15030_MethodInfo,
-	&UriParser_GetParser_m15031_MethodInfo,
+	&UriParser__ctor_m15023_MethodInfo,
+	&UriParser__cctor_m15024_MethodInfo,
+	&UriParser_InitializeAndValidate_m15025_MethodInfo,
+	&UriParser_OnRegister_m15026_MethodInfo,
+	&UriParser_set_SchemeName_m15027_MethodInfo,
+	&UriParser_get_DefaultPort_m15028_MethodInfo,
+	&UriParser_set_DefaultPort_m15029_MethodInfo,
+	&UriParser_CreateDefaults_m15030_MethodInfo,
+	&UriParser_InternalRegister_m15031_MethodInfo,
+	&UriParser_GetParser_m15032_MethodInfo,
 	NULL
 };
-extern const MethodInfo UriParser_set_SchemeName_m15026_MethodInfo;
+extern const MethodInfo UriParser_set_SchemeName_m15027_MethodInfo;
 static const PropertyInfo UriParser_t4174____SchemeName_PropertyInfo = 
 {
 	&UriParser_t4174_il2cpp_TypeInfo/* parent */
 	, "SchemeName"/* name */
 	, NULL/* get */
-	, &UriParser_set_SchemeName_m15026_MethodInfo/* set */
+	, &UriParser_set_SchemeName_m15027_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo UriParser_get_DefaultPort_m15027_MethodInfo;
-extern const MethodInfo UriParser_set_DefaultPort_m15028_MethodInfo;
+extern const MethodInfo UriParser_get_DefaultPort_m15028_MethodInfo;
+extern const MethodInfo UriParser_set_DefaultPort_m15029_MethodInfo;
 static const PropertyInfo UriParser_t4174____DefaultPort_PropertyInfo = 
 {
 	&UriParser_t4174_il2cpp_TypeInfo/* parent */
 	, "DefaultPort"/* name */
-	, &UriParser_get_DefaultPort_m15027_MethodInfo/* get */
-	, &UriParser_set_DefaultPort_m15028_MethodInfo/* set */
+	, &UriParser_get_DefaultPort_m15028_MethodInfo/* get */
+	, &UriParser_set_DefaultPort_m15029_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -18752,8 +18752,8 @@ static const Il2CppMethodReference UriParser_t4174_VTable[] =
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&UriParser_InitializeAndValidate_m15024_MethodInfo,
-	&UriParser_OnRegister_m15025_MethodInfo,
+	&UriParser_InitializeAndValidate_m15025_MethodInfo,
+	&UriParser_OnRegister_m15026_MethodInfo,
 };
 static bool UriParser_t4174_VTableIsGenericMethod[] =
 {
@@ -19075,21 +19075,21 @@ extern TypeInfo PropertyChangedEventHandler_t1401_il2cpp_TypeInfo;
 #include "System_System_ComponentModel_PropertyChangedEventHandlerMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo PropertyChangedEventHandler_t1401_PropertyChangedEventHandler__ctor_m15032_ParameterInfos[] = 
+static const ParameterInfo PropertyChangedEventHandler_t1401_PropertyChangedEventHandler__ctor_m15033_ParameterInfos[] = 
 {
 	{"object", 0, 134219831, 0, &Object_t_0_0_0},
 	{"method", 1, 134219832, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ComponentModel.PropertyChangedEventHandler::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo PropertyChangedEventHandler__ctor_m15032_MethodInfo = 
+extern const MethodInfo PropertyChangedEventHandler__ctor_m15033_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PropertyChangedEventHandler__ctor_m15032/* method */
+	, (methodPointerType)&PropertyChangedEventHandler__ctor_m15033/* method */
 	, &PropertyChangedEventHandler_t1401_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t/* invoker_method */
-	, PropertyChangedEventHandler_t1401_PropertyChangedEventHandler__ctor_m15032_ParameterInfos/* parameters */
+	, PropertyChangedEventHandler_t1401_PropertyChangedEventHandler__ctor_m15033_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -19106,21 +19106,21 @@ extern const MethodInfo PropertyChangedEventHandler__ctor_m15032_MethodInfo =
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType PropertyChangedEventArgs_t1507_0_0_0;
 extern const Il2CppType PropertyChangedEventArgs_t1507_0_0_0;
-static const ParameterInfo PropertyChangedEventHandler_t1401_PropertyChangedEventHandler_Invoke_m15033_ParameterInfos[] = 
+static const ParameterInfo PropertyChangedEventHandler_t1401_PropertyChangedEventHandler_Invoke_m15034_ParameterInfos[] = 
 {
 	{"sender", 0, 134219833, 0, &Object_t_0_0_0},
 	{"e", 1, 134219834, 0, &PropertyChangedEventArgs_t1507_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ComponentModel.PropertyChangedEventHandler::Invoke(System.Object,System.ComponentModel.PropertyChangedEventArgs)
-extern const MethodInfo PropertyChangedEventHandler_Invoke_m15033_MethodInfo = 
+extern const MethodInfo PropertyChangedEventHandler_Invoke_m15034_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&PropertyChangedEventHandler_Invoke_m15033/* method */
+	, (methodPointerType)&PropertyChangedEventHandler_Invoke_m15034/* method */
 	, &PropertyChangedEventHandler_t1401_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, PropertyChangedEventHandler_t1401_PropertyChangedEventHandler_Invoke_m15033_ParameterInfos/* parameters */
+	, PropertyChangedEventHandler_t1401_PropertyChangedEventHandler_Invoke_m15034_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -19138,7 +19138,7 @@ extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType PropertyChangedEventArgs_t1507_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo PropertyChangedEventHandler_t1401_PropertyChangedEventHandler_BeginInvoke_m15034_ParameterInfos[] = 
+static const ParameterInfo PropertyChangedEventHandler_t1401_PropertyChangedEventHandler_BeginInvoke_m15035_ParameterInfos[] = 
 {
 	{"sender", 0, 134219835, 0, &Object_t_0_0_0},
 	{"e", 1, 134219836, 0, &PropertyChangedEventArgs_t1507_0_0_0},
@@ -19147,14 +19147,14 @@ static const ParameterInfo PropertyChangedEventHandler_t1401_PropertyChangedEven
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult System.ComponentModel.PropertyChangedEventHandler::BeginInvoke(System.Object,System.ComponentModel.PropertyChangedEventArgs,System.AsyncCallback,System.Object)
-extern const MethodInfo PropertyChangedEventHandler_BeginInvoke_m15034_MethodInfo = 
+extern const MethodInfo PropertyChangedEventHandler_BeginInvoke_m15035_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&PropertyChangedEventHandler_BeginInvoke_m15034/* method */
+	, (methodPointerType)&PropertyChangedEventHandler_BeginInvoke_m15035/* method */
 	, &PropertyChangedEventHandler_t1401_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, PropertyChangedEventHandler_t1401_PropertyChangedEventHandler_BeginInvoke_m15034_ParameterInfos/* parameters */
+	, PropertyChangedEventHandler_t1401_PropertyChangedEventHandler_BeginInvoke_m15035_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -19169,20 +19169,20 @@ extern const MethodInfo PropertyChangedEventHandler_BeginInvoke_m15034_MethodInf
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo PropertyChangedEventHandler_t1401_PropertyChangedEventHandler_EndInvoke_m15035_ParameterInfos[] = 
+static const ParameterInfo PropertyChangedEventHandler_t1401_PropertyChangedEventHandler_EndInvoke_m15036_ParameterInfos[] = 
 {
 	{"result", 0, 134219839, 0, &IAsyncResult_t385_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.ComponentModel.PropertyChangedEventHandler::EndInvoke(System.IAsyncResult)
-extern const MethodInfo PropertyChangedEventHandler_EndInvoke_m15035_MethodInfo = 
+extern const MethodInfo PropertyChangedEventHandler_EndInvoke_m15036_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&PropertyChangedEventHandler_EndInvoke_m15035/* method */
+	, (methodPointerType)&PropertyChangedEventHandler_EndInvoke_m15036/* method */
 	, &PropertyChangedEventHandler_t1401_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PropertyChangedEventHandler_t1401_PropertyChangedEventHandler_EndInvoke_m15035_ParameterInfos/* parameters */
+	, PropertyChangedEventHandler_t1401_PropertyChangedEventHandler_EndInvoke_m15036_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -19198,31 +19198,31 @@ extern const MethodInfo PropertyChangedEventHandler_EndInvoke_m15035_MethodInfo 
 };
 static const MethodInfo* PropertyChangedEventHandler_t1401_MethodInfos[] =
 {
-	&PropertyChangedEventHandler__ctor_m15032_MethodInfo,
-	&PropertyChangedEventHandler_Invoke_m15033_MethodInfo,
-	&PropertyChangedEventHandler_BeginInvoke_m15034_MethodInfo,
-	&PropertyChangedEventHandler_EndInvoke_m15035_MethodInfo,
+	&PropertyChangedEventHandler__ctor_m15033_MethodInfo,
+	&PropertyChangedEventHandler_Invoke_m15034_MethodInfo,
+	&PropertyChangedEventHandler_BeginInvoke_m15035_MethodInfo,
+	&PropertyChangedEventHandler_EndInvoke_m15036_MethodInfo,
 	NULL
 };
-extern const MethodInfo PropertyChangedEventHandler_Invoke_m15033_MethodInfo;
-extern const MethodInfo PropertyChangedEventHandler_BeginInvoke_m15034_MethodInfo;
-extern const MethodInfo PropertyChangedEventHandler_EndInvoke_m15035_MethodInfo;
+extern const MethodInfo PropertyChangedEventHandler_Invoke_m15034_MethodInfo;
+extern const MethodInfo PropertyChangedEventHandler_BeginInvoke_m15035_MethodInfo;
+extern const MethodInfo PropertyChangedEventHandler_EndInvoke_m15036_MethodInfo;
 static const Il2CppMethodReference PropertyChangedEventHandler_t1401_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
-	&PropertyChangedEventHandler_Invoke_m15033_MethodInfo,
-	&PropertyChangedEventHandler_BeginInvoke_m15034_MethodInfo,
-	&PropertyChangedEventHandler_EndInvoke_m15035_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
+	&PropertyChangedEventHandler_Invoke_m15034_MethodInfo,
+	&PropertyChangedEventHandler_BeginInvoke_m15035_MethodInfo,
+	&PropertyChangedEventHandler_EndInvoke_m15036_MethodInfo,
 };
 static bool PropertyChangedEventHandler_t1401_VTableIsGenericMethod[] =
 {
@@ -19325,21 +19325,21 @@ extern TypeInfo LocalCertificateSelectionCallback_t3986_il2cpp_TypeInfo;
 #include "System_System_Net_Security_LocalCertificateSelectionCallbackMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback__ctor_m15036_ParameterInfos[] = 
+static const ParameterInfo LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback__ctor_m15037_ParameterInfos[] = 
 {
 	{"object", 0, 134219840, 0, &Object_t_0_0_0},
 	{"method", 1, 134219841, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Net.Security.LocalCertificateSelectionCallback::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo LocalCertificateSelectionCallback__ctor_m15036_MethodInfo = 
+extern const MethodInfo LocalCertificateSelectionCallback__ctor_m15037_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&LocalCertificateSelectionCallback__ctor_m15036/* method */
+	, (methodPointerType)&LocalCertificateSelectionCallback__ctor_m15037/* method */
 	, &LocalCertificateSelectionCallback_t3986_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t/* invoker_method */
-	, LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback__ctor_m15036_ParameterInfos/* parameters */
+	, LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback__ctor_m15037_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -19360,7 +19360,7 @@ extern const Il2CppType X509CertificateCollection_t3881_0_0_0;
 extern const Il2CppType X509Certificate_t3882_0_0_0;
 extern const Il2CppType X509Certificate_t3882_0_0_0;
 extern const Il2CppType StringU5BU5D_t75_0_0_0;
-static const ParameterInfo LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback_Invoke_m15037_ParameterInfos[] = 
+static const ParameterInfo LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback_Invoke_m15038_ParameterInfos[] = 
 {
 	{"sender", 0, 134219842, 0, &Object_t_0_0_0},
 	{"targetHost", 1, 134219843, 0, &String_t_0_0_0},
@@ -19370,14 +19370,14 @@ static const ParameterInfo LocalCertificateSelectionCallback_t3986_LocalCertific
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.X509Certificates.X509Certificate System.Net.Security.LocalCertificateSelectionCallback::Invoke(System.Object,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[])
-extern const MethodInfo LocalCertificateSelectionCallback_Invoke_m15037_MethodInfo = 
+extern const MethodInfo LocalCertificateSelectionCallback_Invoke_m15038_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&LocalCertificateSelectionCallback_Invoke_m15037/* method */
+	, (methodPointerType)&LocalCertificateSelectionCallback_Invoke_m15038/* method */
 	, &LocalCertificateSelectionCallback_t3986_il2cpp_TypeInfo/* declaring_type */
 	, &X509Certificate_t3882_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback_Invoke_m15037_ParameterInfos/* parameters */
+	, LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback_Invoke_m15038_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -19398,7 +19398,7 @@ extern const Il2CppType X509Certificate_t3882_0_0_0;
 extern const Il2CppType StringU5BU5D_t75_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback_BeginInvoke_m15038_ParameterInfos[] = 
+static const ParameterInfo LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback_BeginInvoke_m15039_ParameterInfos[] = 
 {
 	{"sender", 0, 134219847, 0, &Object_t_0_0_0},
 	{"targetHost", 1, 134219848, 0, &String_t_0_0_0},
@@ -19410,14 +19410,14 @@ static const ParameterInfo LocalCertificateSelectionCallback_t3986_LocalCertific
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult System.Net.Security.LocalCertificateSelectionCallback::BeginInvoke(System.Object,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[],System.AsyncCallback,System.Object)
-extern const MethodInfo LocalCertificateSelectionCallback_BeginInvoke_m15038_MethodInfo = 
+extern const MethodInfo LocalCertificateSelectionCallback_BeginInvoke_m15039_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&LocalCertificateSelectionCallback_BeginInvoke_m15038/* method */
+	, (methodPointerType)&LocalCertificateSelectionCallback_BeginInvoke_m15039/* method */
 	, &LocalCertificateSelectionCallback_t3986_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback_BeginInvoke_m15038_ParameterInfos/* parameters */
+	, LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback_BeginInvoke_m15039_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -19432,20 +19432,20 @@ extern const MethodInfo LocalCertificateSelectionCallback_BeginInvoke_m15038_Met
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback_EndInvoke_m15039_ParameterInfos[] = 
+static const ParameterInfo LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback_EndInvoke_m15040_ParameterInfos[] = 
 {
 	{"result", 0, 134219854, 0, &IAsyncResult_t385_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Security.Cryptography.X509Certificates.X509Certificate System.Net.Security.LocalCertificateSelectionCallback::EndInvoke(System.IAsyncResult)
-extern const MethodInfo LocalCertificateSelectionCallback_EndInvoke_m15039_MethodInfo = 
+extern const MethodInfo LocalCertificateSelectionCallback_EndInvoke_m15040_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&LocalCertificateSelectionCallback_EndInvoke_m15039/* method */
+	, (methodPointerType)&LocalCertificateSelectionCallback_EndInvoke_m15040/* method */
 	, &LocalCertificateSelectionCallback_t3986_il2cpp_TypeInfo/* declaring_type */
 	, &X509Certificate_t3882_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback_EndInvoke_m15039_ParameterInfos/* parameters */
+	, LocalCertificateSelectionCallback_t3986_LocalCertificateSelectionCallback_EndInvoke_m15040_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -19461,31 +19461,31 @@ extern const MethodInfo LocalCertificateSelectionCallback_EndInvoke_m15039_Metho
 };
 static const MethodInfo* LocalCertificateSelectionCallback_t3986_MethodInfos[] =
 {
-	&LocalCertificateSelectionCallback__ctor_m15036_MethodInfo,
-	&LocalCertificateSelectionCallback_Invoke_m15037_MethodInfo,
-	&LocalCertificateSelectionCallback_BeginInvoke_m15038_MethodInfo,
-	&LocalCertificateSelectionCallback_EndInvoke_m15039_MethodInfo,
+	&LocalCertificateSelectionCallback__ctor_m15037_MethodInfo,
+	&LocalCertificateSelectionCallback_Invoke_m15038_MethodInfo,
+	&LocalCertificateSelectionCallback_BeginInvoke_m15039_MethodInfo,
+	&LocalCertificateSelectionCallback_EndInvoke_m15040_MethodInfo,
 	NULL
 };
-extern const MethodInfo LocalCertificateSelectionCallback_Invoke_m15037_MethodInfo;
-extern const MethodInfo LocalCertificateSelectionCallback_BeginInvoke_m15038_MethodInfo;
-extern const MethodInfo LocalCertificateSelectionCallback_EndInvoke_m15039_MethodInfo;
+extern const MethodInfo LocalCertificateSelectionCallback_Invoke_m15038_MethodInfo;
+extern const MethodInfo LocalCertificateSelectionCallback_BeginInvoke_m15039_MethodInfo;
+extern const MethodInfo LocalCertificateSelectionCallback_EndInvoke_m15040_MethodInfo;
 static const Il2CppMethodReference LocalCertificateSelectionCallback_t3986_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
-	&LocalCertificateSelectionCallback_Invoke_m15037_MethodInfo,
-	&LocalCertificateSelectionCallback_BeginInvoke_m15038_MethodInfo,
-	&LocalCertificateSelectionCallback_EndInvoke_m15039_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
+	&LocalCertificateSelectionCallback_Invoke_m15038_MethodInfo,
+	&LocalCertificateSelectionCallback_BeginInvoke_m15039_MethodInfo,
+	&LocalCertificateSelectionCallback_EndInvoke_m15040_MethodInfo,
 };
 static bool LocalCertificateSelectionCallback_t3986_VTableIsGenericMethod[] =
 {
@@ -19588,21 +19588,21 @@ extern TypeInfo RemoteCertificateValidationCallback_t3935_il2cpp_TypeInfo;
 #include "System_System_Net_Security_RemoteCertificateValidationCallbaMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback__ctor_m15040_ParameterInfos[] = 
+static const ParameterInfo RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback__ctor_m15041_ParameterInfos[] = 
 {
 	{"object", 0, 134219855, 0, &Object_t_0_0_0},
 	{"method", 1, 134219856, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Net.Security.RemoteCertificateValidationCallback::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo RemoteCertificateValidationCallback__ctor_m15040_MethodInfo = 
+extern const MethodInfo RemoteCertificateValidationCallback__ctor_m15041_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RemoteCertificateValidationCallback__ctor_m15040/* method */
+	, (methodPointerType)&RemoteCertificateValidationCallback__ctor_m15041/* method */
 	, &RemoteCertificateValidationCallback_t3935_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t/* invoker_method */
-	, RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback__ctor_m15040_ParameterInfos/* parameters */
+	, RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback__ctor_m15041_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -19622,7 +19622,7 @@ extern const Il2CppType X509Chain_t3937_0_0_0;
 extern const Il2CppType X509Chain_t3937_0_0_0;
 extern const Il2CppType SslPolicyErrors_t3983_0_0_0;
 extern const Il2CppType SslPolicyErrors_t3983_0_0_0;
-static const ParameterInfo RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback_Invoke_m15041_ParameterInfos[] = 
+static const ParameterInfo RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback_Invoke_m15042_ParameterInfos[] = 
 {
 	{"sender", 0, 134219857, 0, &Object_t_0_0_0},
 	{"certificate", 1, 134219858, 0, &X509Certificate_t3882_0_0_0},
@@ -19631,14 +19631,14 @@ static const ParameterInfo RemoteCertificateValidationCallback_t3935_RemoteCerti
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Net.Security.RemoteCertificateValidationCallback::Invoke(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
-extern const MethodInfo RemoteCertificateValidationCallback_Invoke_m15041_MethodInfo = 
+extern const MethodInfo RemoteCertificateValidationCallback_Invoke_m15042_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&RemoteCertificateValidationCallback_Invoke_m15041/* method */
+	, (methodPointerType)&RemoteCertificateValidationCallback_Invoke_m15042/* method */
 	, &RemoteCertificateValidationCallback_t3935_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t_Int32_t82/* invoker_method */
-	, RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback_Invoke_m15041_ParameterInfos/* parameters */
+	, RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback_Invoke_m15042_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -19658,7 +19658,7 @@ extern const Il2CppType X509Chain_t3937_0_0_0;
 extern const Il2CppType SslPolicyErrors_t3983_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback_BeginInvoke_m15042_ParameterInfos[] = 
+static const ParameterInfo RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback_BeginInvoke_m15043_ParameterInfos[] = 
 {
 	{"sender", 0, 134219861, 0, &Object_t_0_0_0},
 	{"certificate", 1, 134219862, 0, &X509Certificate_t3882_0_0_0},
@@ -19669,14 +19669,14 @@ static const ParameterInfo RemoteCertificateValidationCallback_t3935_RemoteCerti
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult System.Net.Security.RemoteCertificateValidationCallback::BeginInvoke(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors,System.AsyncCallback,System.Object)
-extern const MethodInfo RemoteCertificateValidationCallback_BeginInvoke_m15042_MethodInfo = 
+extern const MethodInfo RemoteCertificateValidationCallback_BeginInvoke_m15043_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&RemoteCertificateValidationCallback_BeginInvoke_m15042/* method */
+	, (methodPointerType)&RemoteCertificateValidationCallback_BeginInvoke_m15043/* method */
 	, &RemoteCertificateValidationCallback_t3935_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Int32_t82_Object_t_Object_t/* invoker_method */
-	, RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback_BeginInvoke_m15042_ParameterInfos/* parameters */
+	, RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback_BeginInvoke_m15043_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -19691,20 +19691,20 @@ extern const MethodInfo RemoteCertificateValidationCallback_BeginInvoke_m15042_M
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback_EndInvoke_m15043_ParameterInfos[] = 
+static const ParameterInfo RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback_EndInvoke_m15044_ParameterInfos[] = 
 {
 	{"result", 0, 134219867, 0, &IAsyncResult_t385_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Net.Security.RemoteCertificateValidationCallback::EndInvoke(System.IAsyncResult)
-extern const MethodInfo RemoteCertificateValidationCallback_EndInvoke_m15043_MethodInfo = 
+extern const MethodInfo RemoteCertificateValidationCallback_EndInvoke_m15044_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&RemoteCertificateValidationCallback_EndInvoke_m15043/* method */
+	, (methodPointerType)&RemoteCertificateValidationCallback_EndInvoke_m15044/* method */
 	, &RemoteCertificateValidationCallback_t3935_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback_EndInvoke_m15043_ParameterInfos/* parameters */
+	, RemoteCertificateValidationCallback_t3935_RemoteCertificateValidationCallback_EndInvoke_m15044_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -19720,31 +19720,31 @@ extern const MethodInfo RemoteCertificateValidationCallback_EndInvoke_m15043_Met
 };
 static const MethodInfo* RemoteCertificateValidationCallback_t3935_MethodInfos[] =
 {
-	&RemoteCertificateValidationCallback__ctor_m15040_MethodInfo,
-	&RemoteCertificateValidationCallback_Invoke_m15041_MethodInfo,
-	&RemoteCertificateValidationCallback_BeginInvoke_m15042_MethodInfo,
-	&RemoteCertificateValidationCallback_EndInvoke_m15043_MethodInfo,
+	&RemoteCertificateValidationCallback__ctor_m15041_MethodInfo,
+	&RemoteCertificateValidationCallback_Invoke_m15042_MethodInfo,
+	&RemoteCertificateValidationCallback_BeginInvoke_m15043_MethodInfo,
+	&RemoteCertificateValidationCallback_EndInvoke_m15044_MethodInfo,
 	NULL
 };
-extern const MethodInfo RemoteCertificateValidationCallback_Invoke_m15041_MethodInfo;
-extern const MethodInfo RemoteCertificateValidationCallback_BeginInvoke_m15042_MethodInfo;
-extern const MethodInfo RemoteCertificateValidationCallback_EndInvoke_m15043_MethodInfo;
+extern const MethodInfo RemoteCertificateValidationCallback_Invoke_m15042_MethodInfo;
+extern const MethodInfo RemoteCertificateValidationCallback_BeginInvoke_m15043_MethodInfo;
+extern const MethodInfo RemoteCertificateValidationCallback_EndInvoke_m15044_MethodInfo;
 static const Il2CppMethodReference RemoteCertificateValidationCallback_t3935_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
-	&RemoteCertificateValidationCallback_Invoke_m15041_MethodInfo,
-	&RemoteCertificateValidationCallback_BeginInvoke_m15042_MethodInfo,
-	&RemoteCertificateValidationCallback_EndInvoke_m15043_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
+	&RemoteCertificateValidationCallback_Invoke_m15042_MethodInfo,
+	&RemoteCertificateValidationCallback_BeginInvoke_m15043_MethodInfo,
+	&RemoteCertificateValidationCallback_EndInvoke_m15044_MethodInfo,
 };
 static bool RemoteCertificateValidationCallback_t3935_VTableIsGenericMethod[] =
 {
@@ -19847,21 +19847,21 @@ extern TypeInfo BindIPEndPoint_t4065_il2cpp_TypeInfo;
 #include "System_System_Net_BindIPEndPointMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo BindIPEndPoint_t4065_BindIPEndPoint__ctor_m15044_ParameterInfos[] = 
+static const ParameterInfo BindIPEndPoint_t4065_BindIPEndPoint__ctor_m15045_ParameterInfos[] = 
 {
 	{"object", 0, 134219868, 0, &Object_t_0_0_0},
 	{"method", 1, 134219869, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Net.BindIPEndPoint::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo BindIPEndPoint__ctor_m15044_MethodInfo = 
+extern const MethodInfo BindIPEndPoint__ctor_m15045_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&BindIPEndPoint__ctor_m15044/* method */
+	, (methodPointerType)&BindIPEndPoint__ctor_m15045/* method */
 	, &BindIPEndPoint_t4065_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t/* invoker_method */
-	, BindIPEndPoint_t4065_BindIPEndPoint__ctor_m15044_ParameterInfos/* parameters */
+	, BindIPEndPoint_t4065_BindIPEndPoint__ctor_m15045_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -19880,7 +19880,7 @@ extern const Il2CppType ServicePoint_t3934_0_0_0;
 extern const Il2CppType IPEndPoint_t4048_0_0_0;
 extern const Il2CppType IPEndPoint_t4048_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo BindIPEndPoint_t4065_BindIPEndPoint_Invoke_m15045_ParameterInfos[] = 
+static const ParameterInfo BindIPEndPoint_t4065_BindIPEndPoint_Invoke_m15046_ParameterInfos[] = 
 {
 	{"servicePoint", 0, 134219870, 0, &ServicePoint_t3934_0_0_0},
 	{"remoteEndPoint", 1, 134219871, 0, &IPEndPoint_t4048_0_0_0},
@@ -19888,14 +19888,14 @@ static const ParameterInfo BindIPEndPoint_t4065_BindIPEndPoint_Invoke_m15045_Par
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Net.IPEndPoint System.Net.BindIPEndPoint::Invoke(System.Net.ServicePoint,System.Net.IPEndPoint,System.Int32)
-extern const MethodInfo BindIPEndPoint_Invoke_m15045_MethodInfo = 
+extern const MethodInfo BindIPEndPoint_Invoke_m15046_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&BindIPEndPoint_Invoke_m15045/* method */
+	, (methodPointerType)&BindIPEndPoint_Invoke_m15046/* method */
 	, &BindIPEndPoint_t4065_il2cpp_TypeInfo/* declaring_type */
 	, &IPEndPoint_t4048_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82/* invoker_method */
-	, BindIPEndPoint_t4065_BindIPEndPoint_Invoke_m15045_ParameterInfos/* parameters */
+	, BindIPEndPoint_t4065_BindIPEndPoint_Invoke_m15046_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -19914,7 +19914,7 @@ extern const Il2CppType IPEndPoint_t4048_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo BindIPEndPoint_t4065_BindIPEndPoint_BeginInvoke_m15046_ParameterInfos[] = 
+static const ParameterInfo BindIPEndPoint_t4065_BindIPEndPoint_BeginInvoke_m15047_ParameterInfos[] = 
 {
 	{"servicePoint", 0, 134219873, 0, &ServicePoint_t3934_0_0_0},
 	{"remoteEndPoint", 1, 134219874, 0, &IPEndPoint_t4048_0_0_0},
@@ -19924,14 +19924,14 @@ static const ParameterInfo BindIPEndPoint_t4065_BindIPEndPoint_BeginInvoke_m1504
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult System.Net.BindIPEndPoint::BeginInvoke(System.Net.ServicePoint,System.Net.IPEndPoint,System.Int32,System.AsyncCallback,System.Object)
-extern const MethodInfo BindIPEndPoint_BeginInvoke_m15046_MethodInfo = 
+extern const MethodInfo BindIPEndPoint_BeginInvoke_m15047_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&BindIPEndPoint_BeginInvoke_m15046/* method */
+	, (methodPointerType)&BindIPEndPoint_BeginInvoke_m15047/* method */
 	, &BindIPEndPoint_t4065_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82_Object_t_Object_t/* invoker_method */
-	, BindIPEndPoint_t4065_BindIPEndPoint_BeginInvoke_m15046_ParameterInfos/* parameters */
+	, BindIPEndPoint_t4065_BindIPEndPoint_BeginInvoke_m15047_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -19946,20 +19946,20 @@ extern const MethodInfo BindIPEndPoint_BeginInvoke_m15046_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo BindIPEndPoint_t4065_BindIPEndPoint_EndInvoke_m15047_ParameterInfos[] = 
+static const ParameterInfo BindIPEndPoint_t4065_BindIPEndPoint_EndInvoke_m15048_ParameterInfos[] = 
 {
 	{"result", 0, 134219878, 0, &IAsyncResult_t385_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Net.IPEndPoint System.Net.BindIPEndPoint::EndInvoke(System.IAsyncResult)
-extern const MethodInfo BindIPEndPoint_EndInvoke_m15047_MethodInfo = 
+extern const MethodInfo BindIPEndPoint_EndInvoke_m15048_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&BindIPEndPoint_EndInvoke_m15047/* method */
+	, (methodPointerType)&BindIPEndPoint_EndInvoke_m15048/* method */
 	, &BindIPEndPoint_t4065_il2cpp_TypeInfo/* declaring_type */
 	, &IPEndPoint_t4048_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, BindIPEndPoint_t4065_BindIPEndPoint_EndInvoke_m15047_ParameterInfos/* parameters */
+	, BindIPEndPoint_t4065_BindIPEndPoint_EndInvoke_m15048_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -19975,31 +19975,31 @@ extern const MethodInfo BindIPEndPoint_EndInvoke_m15047_MethodInfo =
 };
 static const MethodInfo* BindIPEndPoint_t4065_MethodInfos[] =
 {
-	&BindIPEndPoint__ctor_m15044_MethodInfo,
-	&BindIPEndPoint_Invoke_m15045_MethodInfo,
-	&BindIPEndPoint_BeginInvoke_m15046_MethodInfo,
-	&BindIPEndPoint_EndInvoke_m15047_MethodInfo,
+	&BindIPEndPoint__ctor_m15045_MethodInfo,
+	&BindIPEndPoint_Invoke_m15046_MethodInfo,
+	&BindIPEndPoint_BeginInvoke_m15047_MethodInfo,
+	&BindIPEndPoint_EndInvoke_m15048_MethodInfo,
 	NULL
 };
-extern const MethodInfo BindIPEndPoint_Invoke_m15045_MethodInfo;
-extern const MethodInfo BindIPEndPoint_BeginInvoke_m15046_MethodInfo;
-extern const MethodInfo BindIPEndPoint_EndInvoke_m15047_MethodInfo;
+extern const MethodInfo BindIPEndPoint_Invoke_m15046_MethodInfo;
+extern const MethodInfo BindIPEndPoint_BeginInvoke_m15047_MethodInfo;
+extern const MethodInfo BindIPEndPoint_EndInvoke_m15048_MethodInfo;
 static const Il2CppMethodReference BindIPEndPoint_t4065_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
-	&BindIPEndPoint_Invoke_m15045_MethodInfo,
-	&BindIPEndPoint_BeginInvoke_m15046_MethodInfo,
-	&BindIPEndPoint_EndInvoke_m15047_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
+	&BindIPEndPoint_Invoke_m15046_MethodInfo,
+	&BindIPEndPoint_BeginInvoke_m15047_MethodInfo,
+	&BindIPEndPoint_EndInvoke_m15048_MethodInfo,
 };
 static bool BindIPEndPoint_t4065_VTableIsGenericMethod[] =
 {
@@ -20102,21 +20102,21 @@ extern TypeInfo HttpContinueDelegate_t4053_il2cpp_TypeInfo;
 #include "System_System_Net_HttpContinueDelegateMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo HttpContinueDelegate_t4053_HttpContinueDelegate__ctor_m15048_ParameterInfos[] = 
+static const ParameterInfo HttpContinueDelegate_t4053_HttpContinueDelegate__ctor_m15049_ParameterInfos[] = 
 {
 	{"object", 0, 134219879, 0, &Object_t_0_0_0},
 	{"method", 1, 134219880, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Net.HttpContinueDelegate::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo HttpContinueDelegate__ctor_m15048_MethodInfo = 
+extern const MethodInfo HttpContinueDelegate__ctor_m15049_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&HttpContinueDelegate__ctor_m15048/* method */
+	, (methodPointerType)&HttpContinueDelegate__ctor_m15049/* method */
 	, &HttpContinueDelegate_t4053_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t/* invoker_method */
-	, HttpContinueDelegate_t4053_HttpContinueDelegate__ctor_m15048_ParameterInfos/* parameters */
+	, HttpContinueDelegate_t4053_HttpContinueDelegate__ctor_m15049_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -20133,21 +20133,21 @@ extern const MethodInfo HttpContinueDelegate__ctor_m15048_MethodInfo =
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType WebHeaderCollection_t4016_0_0_0;
 extern const Il2CppType WebHeaderCollection_t4016_0_0_0;
-static const ParameterInfo HttpContinueDelegate_t4053_HttpContinueDelegate_Invoke_m15049_ParameterInfos[] = 
+static const ParameterInfo HttpContinueDelegate_t4053_HttpContinueDelegate_Invoke_m15050_ParameterInfos[] = 
 {
 	{"StatusCode", 0, 134219881, 0, &Int32_t82_0_0_0},
 	{"httpHeaders", 1, 134219882, 0, &WebHeaderCollection_t4016_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Net.HttpContinueDelegate::Invoke(System.Int32,System.Net.WebHeaderCollection)
-extern const MethodInfo HttpContinueDelegate_Invoke_m15049_MethodInfo = 
+extern const MethodInfo HttpContinueDelegate_Invoke_m15050_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&HttpContinueDelegate_Invoke_m15049/* method */
+	, (methodPointerType)&HttpContinueDelegate_Invoke_m15050/* method */
 	, &HttpContinueDelegate_t4053_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Object_t/* invoker_method */
-	, HttpContinueDelegate_t4053_HttpContinueDelegate_Invoke_m15049_ParameterInfos/* parameters */
+	, HttpContinueDelegate_t4053_HttpContinueDelegate_Invoke_m15050_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -20165,7 +20165,7 @@ extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType WebHeaderCollection_t4016_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo HttpContinueDelegate_t4053_HttpContinueDelegate_BeginInvoke_m15050_ParameterInfos[] = 
+static const ParameterInfo HttpContinueDelegate_t4053_HttpContinueDelegate_BeginInvoke_m15051_ParameterInfos[] = 
 {
 	{"StatusCode", 0, 134219883, 0, &Int32_t82_0_0_0},
 	{"httpHeaders", 1, 134219884, 0, &WebHeaderCollection_t4016_0_0_0},
@@ -20174,14 +20174,14 @@ static const ParameterInfo HttpContinueDelegate_t4053_HttpContinueDelegate_Begin
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult System.Net.HttpContinueDelegate::BeginInvoke(System.Int32,System.Net.WebHeaderCollection,System.AsyncCallback,System.Object)
-extern const MethodInfo HttpContinueDelegate_BeginInvoke_m15050_MethodInfo = 
+extern const MethodInfo HttpContinueDelegate_BeginInvoke_m15051_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&HttpContinueDelegate_BeginInvoke_m15050/* method */
+	, (methodPointerType)&HttpContinueDelegate_BeginInvoke_m15051/* method */
 	, &HttpContinueDelegate_t4053_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82_Object_t_Object_t_Object_t/* invoker_method */
-	, HttpContinueDelegate_t4053_HttpContinueDelegate_BeginInvoke_m15050_ParameterInfos/* parameters */
+	, HttpContinueDelegate_t4053_HttpContinueDelegate_BeginInvoke_m15051_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -20196,20 +20196,20 @@ extern const MethodInfo HttpContinueDelegate_BeginInvoke_m15050_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo HttpContinueDelegate_t4053_HttpContinueDelegate_EndInvoke_m15051_ParameterInfos[] = 
+static const ParameterInfo HttpContinueDelegate_t4053_HttpContinueDelegate_EndInvoke_m15052_ParameterInfos[] = 
 {
 	{"result", 0, 134219887, 0, &IAsyncResult_t385_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Net.HttpContinueDelegate::EndInvoke(System.IAsyncResult)
-extern const MethodInfo HttpContinueDelegate_EndInvoke_m15051_MethodInfo = 
+extern const MethodInfo HttpContinueDelegate_EndInvoke_m15052_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&HttpContinueDelegate_EndInvoke_m15051/* method */
+	, (methodPointerType)&HttpContinueDelegate_EndInvoke_m15052/* method */
 	, &HttpContinueDelegate_t4053_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, HttpContinueDelegate_t4053_HttpContinueDelegate_EndInvoke_m15051_ParameterInfos/* parameters */
+	, HttpContinueDelegate_t4053_HttpContinueDelegate_EndInvoke_m15052_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -20225,31 +20225,31 @@ extern const MethodInfo HttpContinueDelegate_EndInvoke_m15051_MethodInfo =
 };
 static const MethodInfo* HttpContinueDelegate_t4053_MethodInfos[] =
 {
-	&HttpContinueDelegate__ctor_m15048_MethodInfo,
-	&HttpContinueDelegate_Invoke_m15049_MethodInfo,
-	&HttpContinueDelegate_BeginInvoke_m15050_MethodInfo,
-	&HttpContinueDelegate_EndInvoke_m15051_MethodInfo,
+	&HttpContinueDelegate__ctor_m15049_MethodInfo,
+	&HttpContinueDelegate_Invoke_m15050_MethodInfo,
+	&HttpContinueDelegate_BeginInvoke_m15051_MethodInfo,
+	&HttpContinueDelegate_EndInvoke_m15052_MethodInfo,
 	NULL
 };
-extern const MethodInfo HttpContinueDelegate_Invoke_m15049_MethodInfo;
-extern const MethodInfo HttpContinueDelegate_BeginInvoke_m15050_MethodInfo;
-extern const MethodInfo HttpContinueDelegate_EndInvoke_m15051_MethodInfo;
+extern const MethodInfo HttpContinueDelegate_Invoke_m15050_MethodInfo;
+extern const MethodInfo HttpContinueDelegate_BeginInvoke_m15051_MethodInfo;
+extern const MethodInfo HttpContinueDelegate_EndInvoke_m15052_MethodInfo;
 static const Il2CppMethodReference HttpContinueDelegate_t4053_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
-	&HttpContinueDelegate_Invoke_m15049_MethodInfo,
-	&HttpContinueDelegate_BeginInvoke_m15050_MethodInfo,
-	&HttpContinueDelegate_EndInvoke_m15051_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
+	&HttpContinueDelegate_Invoke_m15050_MethodInfo,
+	&HttpContinueDelegate_BeginInvoke_m15051_MethodInfo,
+	&HttpContinueDelegate_EndInvoke_m15052_MethodInfo,
 };
 static bool HttpContinueDelegate_t4053_VTableIsGenericMethod[] =
 {
@@ -20352,21 +20352,21 @@ extern TypeInfo MatchEvaluator_t1179_il2cpp_TypeInfo;
 #include "System_System_Text_RegularExpressions_MatchEvaluatorMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo MatchEvaluator_t1179_MatchEvaluator__ctor_m7354_ParameterInfos[] = 
+static const ParameterInfo MatchEvaluator_t1179_MatchEvaluator__ctor_m7355_ParameterInfos[] = 
 {
 	{"object", 0, 134219888, 0, &Object_t_0_0_0},
 	{"method", 1, 134219889, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Text.RegularExpressions.MatchEvaluator::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo MatchEvaluator__ctor_m7354_MethodInfo = 
+extern const MethodInfo MatchEvaluator__ctor_m7355_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&MatchEvaluator__ctor_m7354/* method */
+	, (methodPointerType)&MatchEvaluator__ctor_m7355/* method */
 	, &MatchEvaluator_t1179_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t/* invoker_method */
-	, MatchEvaluator_t1179_MatchEvaluator__ctor_m7354_ParameterInfos/* parameters */
+	, MatchEvaluator_t1179_MatchEvaluator__ctor_m7355_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -20381,20 +20381,20 @@ extern const MethodInfo MatchEvaluator__ctor_m7354_MethodInfo =
 
 };
 extern const Il2CppType Match_t1374_0_0_0;
-static const ParameterInfo MatchEvaluator_t1179_MatchEvaluator_Invoke_m15052_ParameterInfos[] = 
+static const ParameterInfo MatchEvaluator_t1179_MatchEvaluator_Invoke_m15053_ParameterInfos[] = 
 {
 	{"match", 0, 134219890, 0, &Match_t1374_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.RegularExpressions.MatchEvaluator::Invoke(System.Text.RegularExpressions.Match)
-extern const MethodInfo MatchEvaluator_Invoke_m15052_MethodInfo = 
+extern const MethodInfo MatchEvaluator_Invoke_m15053_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&MatchEvaluator_Invoke_m15052/* method */
+	, (methodPointerType)&MatchEvaluator_Invoke_m15053/* method */
 	, &MatchEvaluator_t1179_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, MatchEvaluator_t1179_MatchEvaluator_Invoke_m15052_ParameterInfos/* parameters */
+	, MatchEvaluator_t1179_MatchEvaluator_Invoke_m15053_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -20411,7 +20411,7 @@ extern const MethodInfo MatchEvaluator_Invoke_m15052_MethodInfo =
 extern const Il2CppType Match_t1374_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo MatchEvaluator_t1179_MatchEvaluator_BeginInvoke_m15053_ParameterInfos[] = 
+static const ParameterInfo MatchEvaluator_t1179_MatchEvaluator_BeginInvoke_m15054_ParameterInfos[] = 
 {
 	{"match", 0, 134219891, 0, &Match_t1374_0_0_0},
 	{"callback", 1, 134219892, 0, &AsyncCallback_t386_0_0_0},
@@ -20419,14 +20419,14 @@ static const ParameterInfo MatchEvaluator_t1179_MatchEvaluator_BeginInvoke_m1505
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult System.Text.RegularExpressions.MatchEvaluator::BeginInvoke(System.Text.RegularExpressions.Match,System.AsyncCallback,System.Object)
-extern const MethodInfo MatchEvaluator_BeginInvoke_m15053_MethodInfo = 
+extern const MethodInfo MatchEvaluator_BeginInvoke_m15054_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&MatchEvaluator_BeginInvoke_m15053/* method */
+	, (methodPointerType)&MatchEvaluator_BeginInvoke_m15054/* method */
 	, &MatchEvaluator_t1179_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, MatchEvaluator_t1179_MatchEvaluator_BeginInvoke_m15053_ParameterInfos/* parameters */
+	, MatchEvaluator_t1179_MatchEvaluator_BeginInvoke_m15054_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -20441,20 +20441,20 @@ extern const MethodInfo MatchEvaluator_BeginInvoke_m15053_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo MatchEvaluator_t1179_MatchEvaluator_EndInvoke_m15054_ParameterInfos[] = 
+static const ParameterInfo MatchEvaluator_t1179_MatchEvaluator_EndInvoke_m15055_ParameterInfos[] = 
 {
 	{"result", 0, 134219894, 0, &IAsyncResult_t385_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Text.RegularExpressions.MatchEvaluator::EndInvoke(System.IAsyncResult)
-extern const MethodInfo MatchEvaluator_EndInvoke_m15054_MethodInfo = 
+extern const MethodInfo MatchEvaluator_EndInvoke_m15055_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&MatchEvaluator_EndInvoke_m15054/* method */
+	, (methodPointerType)&MatchEvaluator_EndInvoke_m15055/* method */
 	, &MatchEvaluator_t1179_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, MatchEvaluator_t1179_MatchEvaluator_EndInvoke_m15054_ParameterInfos/* parameters */
+	, MatchEvaluator_t1179_MatchEvaluator_EndInvoke_m15055_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -20470,31 +20470,31 @@ extern const MethodInfo MatchEvaluator_EndInvoke_m15054_MethodInfo =
 };
 static const MethodInfo* MatchEvaluator_t1179_MethodInfos[] =
 {
-	&MatchEvaluator__ctor_m7354_MethodInfo,
-	&MatchEvaluator_Invoke_m15052_MethodInfo,
-	&MatchEvaluator_BeginInvoke_m15053_MethodInfo,
-	&MatchEvaluator_EndInvoke_m15054_MethodInfo,
+	&MatchEvaluator__ctor_m7355_MethodInfo,
+	&MatchEvaluator_Invoke_m15053_MethodInfo,
+	&MatchEvaluator_BeginInvoke_m15054_MethodInfo,
+	&MatchEvaluator_EndInvoke_m15055_MethodInfo,
 	NULL
 };
-extern const MethodInfo MatchEvaluator_Invoke_m15052_MethodInfo;
-extern const MethodInfo MatchEvaluator_BeginInvoke_m15053_MethodInfo;
-extern const MethodInfo MatchEvaluator_EndInvoke_m15054_MethodInfo;
+extern const MethodInfo MatchEvaluator_Invoke_m15053_MethodInfo;
+extern const MethodInfo MatchEvaluator_BeginInvoke_m15054_MethodInfo;
+extern const MethodInfo MatchEvaluator_EndInvoke_m15055_MethodInfo;
 static const Il2CppMethodReference MatchEvaluator_t1179_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
-	&MatchEvaluator_Invoke_m15052_MethodInfo,
-	&MatchEvaluator_BeginInvoke_m15053_MethodInfo,
-	&MatchEvaluator_EndInvoke_m15054_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
+	&MatchEvaluator_Invoke_m15053_MethodInfo,
+	&MatchEvaluator_BeginInvoke_m15054_MethodInfo,
+	&MatchEvaluator_EndInvoke_m15055_MethodInfo,
 };
 static bool MatchEvaluator_t1179_VTableIsGenericMethod[] =
 {
@@ -20601,10 +20601,10 @@ static const MethodInfo* U24ArrayTypeU2416_t4182_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2416_t4182_VTable[] =
 {
-	&ValueType_Equals_m4568_MethodInfo,
+	&ValueType_Equals_m4569_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4569_MethodInfo,
-	&ValueType_ToString_m4570_MethodInfo,
+	&ValueType_GetHashCode_m4570_MethodInfo,
+	&ValueType_ToString_m4571_MethodInfo,
 };
 static bool U24ArrayTypeU2416_t4182_VTableIsGenericMethod[] =
 {
@@ -20697,10 +20697,10 @@ static const MethodInfo* U24ArrayTypeU24128_t4183_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU24128_t4183_VTable[] =
 {
-	&ValueType_Equals_m4568_MethodInfo,
+	&ValueType_Equals_m4569_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4569_MethodInfo,
-	&ValueType_ToString_m4570_MethodInfo,
+	&ValueType_GetHashCode_m4570_MethodInfo,
+	&ValueType_ToString_m4571_MethodInfo,
 };
 static bool U24ArrayTypeU24128_t4183_VTableIsGenericMethod[] =
 {
@@ -20791,10 +20791,10 @@ static const MethodInfo* U24ArrayTypeU2412_t4184_MethodInfos[] =
 };
 static const Il2CppMethodReference U24ArrayTypeU2412_t4184_VTable[] =
 {
-	&ValueType_Equals_m4568_MethodInfo,
+	&ValueType_Equals_m4569_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4569_MethodInfo,
-	&ValueType_ToString_m4570_MethodInfo,
+	&ValueType_GetHashCode_m4570_MethodInfo,
+	&ValueType_ToString_m4571_MethodInfo,
 };
 static bool U24ArrayTypeU2412_t4184_VTableIsGenericMethod[] =
 {

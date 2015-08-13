@@ -10,4 +10,4 @@ struct DTDAutomataFactory_t3174;
 struct DTDObjectModel_t3173;
 
 // System.Void Mono.Xml.DTDAutomataFactory::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDAutomataFactory__ctor_m10532 (DTDAutomataFactory_t3174 * __this, DTDObjectModel_t3173 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDAutomataFactory__ctor_m10533 (DTDAutomataFactory_t3174 * __this, DTDObjectModel_t3173 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;

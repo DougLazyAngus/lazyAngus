@@ -14,8 +14,8 @@ struct Exception_t57;
 #include "Parse_Unity_Parse_ParseException_ErrorCode.h"
 
 // System.Void Parse.ParseException::.ctor(Parse.ParseException/ErrorCode,System.String,System.Exception)
-extern "C" void ParseException__ctor_m6708 (ParseException_t1238 * __this, int32_t ___code, String_t* ___message, Exception_t57 * ___cause, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseException__ctor_m6709 (ParseException_t1238 * __this, int32_t ___code, String_t* ___message, Exception_t57 * ___cause, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Parse.ParseException/ErrorCode Parse.ParseException::get_Code()
-extern "C" int32_t ParseException_get_Code_m6709 (ParseException_t1238 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ParseException_get_Code_m6710 (ParseException_t1238 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseException::set_Code(Parse.ParseException/ErrorCode)
-extern "C" void ParseException_set_Code_m6710 (ParseException_t1238 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseException_set_Code_m6711 (ParseException_t1238 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

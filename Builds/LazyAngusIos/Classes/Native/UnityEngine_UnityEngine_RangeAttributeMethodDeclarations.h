@@ -8,4 +8,4 @@
 struct RangeAttribute_t1113;
 
 // System.Void UnityEngine.RangeAttribute::.ctor(System.Single,System.Single)
-extern "C" void RangeAttribute__ctor_m6263 (RangeAttribute_t1113 * __this, float ___min, float ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RangeAttribute__ctor_m6264 (RangeAttribute_t1113 * __this, float ___min, float ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;

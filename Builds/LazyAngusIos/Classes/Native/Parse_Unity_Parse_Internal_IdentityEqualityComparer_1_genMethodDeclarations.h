@@ -16,5 +16,5 @@ extern "C" bool IdentityEqualityComparer_1_Equals_m31720_gshared (IdentityEquali
 extern "C" int32_t IdentityEqualityComparer_1_GetHashCode_m31721_gshared (IdentityEqualityComparer_1_t1466 * __this, Object_t * ___obj, const MethodInfo* method);
 #define IdentityEqualityComparer_1_GetHashCode_m31721(__this, ___obj, method) (( int32_t (*) (IdentityEqualityComparer_1_t1466 *, Object_t *, const MethodInfo*))IdentityEqualityComparer_1_GetHashCode_m31721_gshared)(__this, ___obj, method)
 // System.Void Parse.Internal.IdentityEqualityComparer`1<System.Object>::.ctor()
-extern "C" void IdentityEqualityComparer_1__ctor_m7479_gshared (IdentityEqualityComparer_1_t1466 * __this, const MethodInfo* method);
-#define IdentityEqualityComparer_1__ctor_m7479(__this, method) (( void (*) (IdentityEqualityComparer_1_t1466 *, const MethodInfo*))IdentityEqualityComparer_1__ctor_m7479_gshared)(__this, method)
+extern "C" void IdentityEqualityComparer_1__ctor_m7480_gshared (IdentityEqualityComparer_1_t1466 * __this, const MethodInfo* method);
+#define IdentityEqualityComparer_1__ctor_m7480(__this, method) (( void (*) (IdentityEqualityComparer_1_t1466 *, const MethodInfo*))IdentityEqualityComparer_1__ctor_m7480_gshared)(__this, method)

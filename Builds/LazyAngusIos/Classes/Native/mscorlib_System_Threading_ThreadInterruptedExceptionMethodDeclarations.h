@@ -12,6 +12,6 @@ struct SerializationInfo_t2919;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Threading.ThreadInterruptedException::.ctor()
-extern "C" void ThreadInterruptedException__ctor_m19296 (ThreadInterruptedException_t4770 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadInterruptedException__ctor_m19297 (ThreadInterruptedException_t4770 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ThreadInterruptedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ThreadInterruptedException__ctor_m19297 (ThreadInterruptedException_t4770 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadInterruptedException__ctor_m19298 (ThreadInterruptedException_t4770 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

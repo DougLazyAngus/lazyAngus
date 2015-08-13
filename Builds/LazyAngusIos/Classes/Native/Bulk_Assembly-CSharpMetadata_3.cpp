@@ -966,30 +966,30 @@ static const MethodInfo* BoostActiveEventHandler_t507_MethodInfos[] =
 	&BoostActiveEventHandler_EndInvoke_m2777_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m4524_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m4525_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m4526_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo;
-extern const MethodInfo Delegate_Clone_m4528_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4529_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m4530_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4531_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m4525_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m4526_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m4527_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo;
+extern const MethodInfo Delegate_Clone_m4529_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4530_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m4531_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4532_MethodInfo;
 extern const MethodInfo BoostActiveEventHandler_Invoke_m2775_MethodInfo;
 extern const MethodInfo BoostActiveEventHandler_BeginInvoke_m2776_MethodInfo;
 extern const MethodInfo BoostActiveEventHandler_EndInvoke_m2777_MethodInfo;
 static const Il2CppMethodReference BoostActiveEventHandler_t507_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
 	&BoostActiveEventHandler_Invoke_m2775_MethodInfo,
 	&BoostActiveEventHandler_BeginInvoke_m2776_MethodInfo,
 	&BoostActiveEventHandler_EndInvoke_m2777_MethodInfo,
@@ -4080,17 +4080,17 @@ extern const MethodInfo MultiKillEventHandler_BeginInvoke_m2845_MethodInfo;
 extern const MethodInfo MultiKillEventHandler_EndInvoke_m2846_MethodInfo;
 static const Il2CppMethodReference MultiKillEventHandler_t526_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
 	&MultiKillEventHandler_Invoke_m2844_MethodInfo,
 	&MultiKillEventHandler_BeginInvoke_m2845_MethodInfo,
 	&MultiKillEventHandler_EndInvoke_m2846_MethodInfo,
@@ -4327,17 +4327,17 @@ extern const MethodInfo MouseKillEventHandler_BeginInvoke_m2849_MethodInfo;
 extern const MethodInfo MouseKillEventHandler_EndInvoke_m2850_MethodInfo;
 static const Il2CppMethodReference MouseKillEventHandler_t528_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
 	&MouseKillEventHandler_Invoke_m2848_MethodInfo,
 	&MouseKillEventHandler_BeginInvoke_m2849_MethodInfo,
 	&MouseKillEventHandler_EndInvoke_m2850_MethodInfo,
@@ -6023,19 +6023,19 @@ static const Il2CppGenericParameter* EnumAccumulator_1_t811_Il2CppGenericParamet
 };
 extern const Il2CppGenericContainer EnumAccumulator_1_t811_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&EnumAccumulator_1_t811_il2cpp_TypeInfo, 1, 0, EnumAccumulator_1_t811_Il2CppGenericParametersArray };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1__ctor_m4487_ParameterInfos[] = 
+static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1__ctor_m4488_ParameterInfos[] = 
 {
 	{"numValues", 0, 134220026, 0, &Int32_t82_0_0_0},
 };
 // System.Void EnumAccumulator`1::.ctor(System.Int32)
-extern const MethodInfo EnumAccumulator_1__ctor_m4487_MethodInfo = 
+extern const MethodInfo EnumAccumulator_1__ctor_m4488_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &EnumAccumulator_1_t811_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, EnumAccumulator_1_t811_EnumAccumulator_1__ctor_m4487_ParameterInfos/* parameters */
+	, EnumAccumulator_1_t811_EnumAccumulator_1__ctor_m4488_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -6051,19 +6051,19 @@ extern const MethodInfo EnumAccumulator_1__ctor_m4487_MethodInfo =
 };
 extern const Il2CppType Int32U5BU5D_t484_0_0_0;
 extern const Il2CppType Int32U5BU5D_t484_0_0_0;
-static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1_InitToZero_m4488_ParameterInfos[] = 
+static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1_InitToZero_m4489_ParameterInfos[] = 
 {
 	{"array", 0, 134220027, 0, &Int32U5BU5D_t484_0_0_0},
 };
 // System.Void EnumAccumulator`1::InitToZero(System.Int32[])
-extern const MethodInfo EnumAccumulator_1_InitToZero_m4488_MethodInfo = 
+extern const MethodInfo EnumAccumulator_1_InitToZero_m4489_MethodInfo = 
 {
 	"InitToZero"/* name */
 	, NULL/* method */
 	, &EnumAccumulator_1_t811_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, EnumAccumulator_1_t811_EnumAccumulator_1_InitToZero_m4488_ParameterInfos/* parameters */
+	, EnumAccumulator_1_t811_EnumAccumulator_1_InitToZero_m4489_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -6079,20 +6079,20 @@ extern const MethodInfo EnumAccumulator_1_InitToZero_m4488_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1_AddNew_m4489_ParameterInfos[] = 
+static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1_AddNew_m4490_ParameterInfos[] = 
 {
 	{"indexT", 0, 134220028, 0, &Int32_t82_0_0_0},
 	{"value", 1, 134220029, 0, &Int32_t82_0_0_0},
 };
 // System.Void EnumAccumulator`1::AddNew(System.Int32,System.Int32)
-extern const MethodInfo EnumAccumulator_1_AddNew_m4489_MethodInfo = 
+extern const MethodInfo EnumAccumulator_1_AddNew_m4490_MethodInfo = 
 {
 	"AddNew"/* name */
 	, NULL/* method */
 	, &EnumAccumulator_1_t811_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, EnumAccumulator_1_t811_EnumAccumulator_1_AddNew_m4489_ParameterInfos/* parameters */
+	, EnumAccumulator_1_t811_EnumAccumulator_1_AddNew_m4490_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6107,19 +6107,19 @@ extern const MethodInfo EnumAccumulator_1_AddNew_m4489_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1_AddNew_m4490_ParameterInfos[] = 
+static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1_AddNew_m4491_ParameterInfos[] = 
 {
 	{"indexT", 0, 134220030, 0, &Int32_t82_0_0_0},
 };
 // System.Void EnumAccumulator`1::AddNew(System.Int32)
-extern const MethodInfo EnumAccumulator_1_AddNew_m4490_MethodInfo = 
+extern const MethodInfo EnumAccumulator_1_AddNew_m4491_MethodInfo = 
 {
 	"AddNew"/* name */
 	, NULL/* method */
 	, &EnumAccumulator_1_t811_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, EnumAccumulator_1_t811_EnumAccumulator_1_AddNew_m4490_ParameterInfos/* parameters */
+	, EnumAccumulator_1_t811_EnumAccumulator_1_AddNew_m4491_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6135,20 +6135,20 @@ extern const MethodInfo EnumAccumulator_1_AddNew_m4490_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1_AddDerived_m4491_ParameterInfos[] = 
+static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1_AddDerived_m4492_ParameterInfos[] = 
 {
 	{"indexT", 0, 134220031, 0, &Int32_t82_0_0_0},
 	{"value", 1, 134220032, 0, &Int32_t82_0_0_0},
 };
 // System.Void EnumAccumulator`1::AddDerived(System.Int32,System.Int32)
-extern const MethodInfo EnumAccumulator_1_AddDerived_m4491_MethodInfo = 
+extern const MethodInfo EnumAccumulator_1_AddDerived_m4492_MethodInfo = 
 {
 	"AddDerived"/* name */
 	, NULL/* method */
 	, &EnumAccumulator_1_t811_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, EnumAccumulator_1_t811_EnumAccumulator_1_AddDerived_m4491_ParameterInfos/* parameters */
+	, EnumAccumulator_1_t811_EnumAccumulator_1_AddDerived_m4492_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6163,19 +6163,19 @@ extern const MethodInfo EnumAccumulator_1_AddDerived_m4491_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1_AddDerived_m4492_ParameterInfos[] = 
+static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1_AddDerived_m4493_ParameterInfos[] = 
 {
 	{"indexT", 0, 134220033, 0, &Int32_t82_0_0_0},
 };
 // System.Void EnumAccumulator`1::AddDerived(System.Int32)
-extern const MethodInfo EnumAccumulator_1_AddDerived_m4492_MethodInfo = 
+extern const MethodInfo EnumAccumulator_1_AddDerived_m4493_MethodInfo = 
 {
 	"AddDerived"/* name */
 	, NULL/* method */
 	, &EnumAccumulator_1_t811_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, EnumAccumulator_1_t811_EnumAccumulator_1_AddDerived_m4492_ParameterInfos/* parameters */
+	, EnumAccumulator_1_t811_EnumAccumulator_1_AddDerived_m4493_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6191,19 +6191,19 @@ extern const MethodInfo EnumAccumulator_1_AddDerived_m4492_MethodInfo =
 };
 extern const Il2CppType EnumAccumulator_1_t830_0_0_0;
 extern const Il2CppType EnumAccumulator_1_t830_0_0_0;
-static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1_DeriveFrom_m4493_ParameterInfos[] = 
+static const ParameterInfo EnumAccumulator_1_t811_EnumAccumulator_1_DeriveFrom_m4494_ParameterInfos[] = 
 {
 	{"enumAccumulator", 0, 134220034, 0, &EnumAccumulator_1_t830_0_0_0},
 };
 // System.Void EnumAccumulator`1::DeriveFrom(EnumAccumulator`1<T>)
-extern const MethodInfo EnumAccumulator_1_DeriveFrom_m4493_MethodInfo = 
+extern const MethodInfo EnumAccumulator_1_DeriveFrom_m4494_MethodInfo = 
 {
 	"DeriveFrom"/* name */
 	, NULL/* method */
 	, &EnumAccumulator_1_t811_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, EnumAccumulator_1_t811_EnumAccumulator_1_DeriveFrom_m4493_ParameterInfos/* parameters */
+	, EnumAccumulator_1_t811_EnumAccumulator_1_DeriveFrom_m4494_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6219,7 +6219,7 @@ extern const MethodInfo EnumAccumulator_1_DeriveFrom_m4493_MethodInfo =
 };
 extern const Il2CppType List_1_t797_0_0_0;
 // System.Collections.Generic.List`1<System.Int32> EnumAccumulator`1::GetDistribution()
-extern const MethodInfo EnumAccumulator_1_GetDistribution_m4494_MethodInfo = 
+extern const MethodInfo EnumAccumulator_1_GetDistribution_m4495_MethodInfo = 
 {
 	"GetDistribution"/* name */
 	, NULL/* method */
@@ -6242,14 +6242,14 @@ extern const MethodInfo EnumAccumulator_1_GetDistribution_m4494_MethodInfo =
 };
 static const MethodInfo* EnumAccumulator_1_t811_MethodInfos[] =
 {
-	&EnumAccumulator_1__ctor_m4487_MethodInfo,
-	&EnumAccumulator_1_InitToZero_m4488_MethodInfo,
-	&EnumAccumulator_1_AddNew_m4489_MethodInfo,
+	&EnumAccumulator_1__ctor_m4488_MethodInfo,
+	&EnumAccumulator_1_InitToZero_m4489_MethodInfo,
 	&EnumAccumulator_1_AddNew_m4490_MethodInfo,
-	&EnumAccumulator_1_AddDerived_m4491_MethodInfo,
+	&EnumAccumulator_1_AddNew_m4491_MethodInfo,
 	&EnumAccumulator_1_AddDerived_m4492_MethodInfo,
-	&EnumAccumulator_1_DeriveFrom_m4493_MethodInfo,
-	&EnumAccumulator_1_GetDistribution_m4494_MethodInfo,
+	&EnumAccumulator_1_AddDerived_m4493_MethodInfo,
+	&EnumAccumulator_1_DeriveFrom_m4494_MethodInfo,
+	&EnumAccumulator_1_GetDistribution_m4495_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference EnumAccumulator_1_t811_VTable[] =
@@ -6266,14 +6266,14 @@ static bool EnumAccumulator_1_t811_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod EnumAccumulator_1_InitToZero_m4571_GenericMethod;
-extern const Il2CppGenericMethod EnumAccumulator_1_AddNew_m4572_GenericMethod;
-extern const Il2CppGenericMethod EnumAccumulator_1_AddDerived_m4573_GenericMethod;
+extern const Il2CppGenericMethod EnumAccumulator_1_InitToZero_m4572_GenericMethod;
+extern const Il2CppGenericMethod EnumAccumulator_1_AddNew_m4573_GenericMethod;
+extern const Il2CppGenericMethod EnumAccumulator_1_AddDerived_m4574_GenericMethod;
 static Il2CppRGCTXDefinition EnumAccumulator_1_t811_RGCTXData[4] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &EnumAccumulator_1_InitToZero_m4571_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EnumAccumulator_1_AddNew_m4572_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EnumAccumulator_1_AddDerived_m4573_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EnumAccumulator_1_InitToZero_m4572_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EnumAccumulator_1_AddNew_m4573_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EnumAccumulator_1_AddDerived_m4574_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
@@ -9475,17 +9475,17 @@ extern const MethodInfo GameLevelChangedEventHandler_BeginInvoke_m2966_MethodInf
 extern const MethodInfo GameLevelChangedEventHandler_EndInvoke_m2967_MethodInfo;
 static const Il2CppMethodReference GameLevelChangedEventHandler_t555_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
 	&GameLevelChangedEventHandler_Invoke_m2965_MethodInfo,
 	&GameLevelChangedEventHandler_BeginInvoke_m2966_MethodInfo,
 	&GameLevelChangedEventHandler_EndInvoke_m2967_MethodInfo,
@@ -10266,17 +10266,17 @@ extern const MethodInfo GameInstanceChangedEventHandler_BeginInvoke_m2980_Method
 extern const MethodInfo GameInstanceChangedEventHandler_EndInvoke_m2981_MethodInfo;
 static const Il2CppMethodReference GameInstanceChangedEventHandler_t558_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
 	&GameInstanceChangedEventHandler_Invoke_m2979_MethodInfo,
 	&GameInstanceChangedEventHandler_BeginInvoke_m2980_MethodInfo,
 	&GameInstanceChangedEventHandler_EndInvoke_m2981_MethodInfo,
@@ -10504,17 +10504,17 @@ extern const MethodInfo GamePhaseChangedEventHandler_BeginInvoke_m2984_MethodInf
 extern const MethodInfo GamePhaseChangedEventHandler_EndInvoke_m2985_MethodInfo;
 static const Il2CppMethodReference GamePhaseChangedEventHandler_t559_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
 	&GamePhaseChangedEventHandler_Invoke_m2983_MethodInfo,
 	&GamePhaseChangedEventHandler_BeginInvoke_m2984_MethodInfo,
 	&GamePhaseChangedEventHandler_EndInvoke_m2985_MethodInfo,
@@ -18177,17 +18177,17 @@ extern const MethodInfo MousePopChangedEventHandler_BeginInvoke_m3155_MethodInfo
 extern const MethodInfo MousePopChangedEventHandler_EndInvoke_m3156_MethodInfo;
 static const Il2CppMethodReference MousePopChangedEventHandler_t601_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
 	&MousePopChangedEventHandler_Invoke_m3154_MethodInfo,
 	&MousePopChangedEventHandler_BeginInvoke_m3155_MethodInfo,
 	&MousePopChangedEventHandler_EndInvoke_m3156_MethodInfo,
@@ -18415,17 +18415,17 @@ extern const MethodInfo CapacityChangedEventHandler_BeginInvoke_m3159_MethodInfo
 extern const MethodInfo CapacityChangedEventHandler_EndInvoke_m3160_MethodInfo;
 static const Il2CppMethodReference CapacityChangedEventHandler_t602_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
 	&CapacityChangedEventHandler_Invoke_m3158_MethodInfo,
 	&CapacityChangedEventHandler_BeginInvoke_m3159_MethodInfo,
 	&CapacityChangedEventHandler_EndInvoke_m3160_MethodInfo,
@@ -20377,17 +20377,17 @@ extern const MethodInfo MouseSpawnEventHandler_BeginInvoke_m3219_MethodInfo;
 extern const MethodInfo MouseSpawnEventHandler_EndInvoke_m3220_MethodInfo;
 static const Il2CppMethodReference MouseSpawnEventHandler_t606_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
 	&MouseSpawnEventHandler_Invoke_m3218_MethodInfo,
 	&MouseSpawnEventHandler_BeginInvoke_m3219_MethodInfo,
 	&MouseSpawnEventHandler_EndInvoke_m3220_MethodInfo,
@@ -25913,17 +25913,17 @@ extern const MethodInfo ScoreChangedEventHandler_BeginInvoke_m3355_MethodInfo;
 extern const MethodInfo ScoreChangedEventHandler_EndInvoke_m3356_MethodInfo;
 static const Il2CppMethodReference ScoreChangedEventHandler_t626_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
 	&ScoreChangedEventHandler_Invoke_m3354_MethodInfo,
 	&ScoreChangedEventHandler_BeginInvoke_m3355_MethodInfo,
 	&ScoreChangedEventHandler_EndInvoke_m3356_MethodInfo,
@@ -26153,17 +26153,17 @@ extern const MethodInfo MoneyChangedEventHandler_BeginInvoke_m3359_MethodInfo;
 extern const MethodInfo MoneyChangedEventHandler_EndInvoke_m3360_MethodInfo;
 static const Il2CppMethodReference MoneyChangedEventHandler_t627_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
 	&MoneyChangedEventHandler_Invoke_m3358_MethodInfo,
 	&MoneyChangedEventHandler_BeginInvoke_m3359_MethodInfo,
 	&MoneyChangedEventHandler_EndInvoke_m3360_MethodInfo,
@@ -26391,17 +26391,17 @@ extern const MethodInfo BoostsChangedEventHandler_BeginInvoke_m3363_MethodInfo;
 extern const MethodInfo BoostsChangedEventHandler_EndInvoke_m3364_MethodInfo;
 static const Il2CppMethodReference BoostsChangedEventHandler_t628_VTable[] =
 {
-	&MulticastDelegate_Equals_m4524_MethodInfo,
+	&MulticastDelegate_Equals_m4525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4525_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4527_MethodInfo,
-	&Delegate_Clone_m4528_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4526_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4529_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4530_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4531_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
+	&Delegate_Clone_m4529_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
 	&BoostsChangedEventHandler_Invoke_m3362_MethodInfo,
 	&BoostsChangedEventHandler_BeginInvoke_m3363_MethodInfo,
 	&BoostsChangedEventHandler_EndInvoke_m3364_MethodInfo,
@@ -27512,39 +27512,11 @@ static const Il2CppGenericParameter* QuasiRandomGenerator_1_t812_Il2CppGenericPa
 extern const Il2CppGenericContainer QuasiRandomGenerator_1_t812_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&QuasiRandomGenerator_1_t812_il2cpp_TypeInfo, 1, 0, QuasiRandomGenerator_1_t812_Il2CppGenericParametersArray };
 extern const Il2CppType List_1_t835_0_0_0;
 extern const Il2CppType List_1_t835_0_0_0;
-static const ParameterInfo QuasiRandomGenerator_1_t812_QuasiRandomGenerator_1__ctor_m4495_ParameterInfos[] = 
+static const ParameterInfo QuasiRandomGenerator_1_t812_QuasiRandomGenerator_1__ctor_m4496_ParameterInfos[] = 
 {
 	{"distribution", 0, 134220262, 0, &List_1_t835_0_0_0},
 };
 // System.Void QuasiRandomGenerator`1::.ctor(System.Collections.Generic.List`1<T>)
-extern const MethodInfo QuasiRandomGenerator_1__ctor_m4495_MethodInfo = 
-{
-	".ctor"/* name */
-	, NULL/* method */
-	, &QuasiRandomGenerator_1_t812_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, NULL/* invoker_method */
-	, QuasiRandomGenerator_1_t812_QuasiRandomGenerator_1__ctor_m4495_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 3011/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType TU5BU5D_t836_0_0_0;
-extern const Il2CppType TU5BU5D_t836_0_0_0;
-static const ParameterInfo QuasiRandomGenerator_1_t812_QuasiRandomGenerator_1__ctor_m4496_ParameterInfos[] = 
-{
-	{"distribution", 0, 134220263, 0, &TU5BU5D_t836_0_0_0},
-};
-// System.Void QuasiRandomGenerator`1::.ctor(T[])
 extern const MethodInfo QuasiRandomGenerator_1__ctor_m4496_MethodInfo = 
 {
 	".ctor"/* name */
@@ -27560,6 +27532,34 @@ extern const MethodInfo QuasiRandomGenerator_1__ctor_m4496_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
+	, 3011/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType TU5BU5D_t836_0_0_0;
+extern const Il2CppType TU5BU5D_t836_0_0_0;
+static const ParameterInfo QuasiRandomGenerator_1_t812_QuasiRandomGenerator_1__ctor_m4497_ParameterInfos[] = 
+{
+	{"distribution", 0, 134220263, 0, &TU5BU5D_t836_0_0_0},
+};
+// System.Void QuasiRandomGenerator`1::.ctor(T[])
+extern const MethodInfo QuasiRandomGenerator_1__ctor_m4497_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &QuasiRandomGenerator_1_t812_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, QuasiRandomGenerator_1_t812_QuasiRandomGenerator_1__ctor_m4497_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
 	, 3012/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
@@ -27567,7 +27567,7 @@ extern const MethodInfo QuasiRandomGenerator_1__ctor_m4496_MethodInfo =
 
 };
 // System.Collections.Generic.List`1<T> QuasiRandomGenerator`1::RandomizeDistrubiton()
-extern const MethodInfo QuasiRandomGenerator_1_RandomizeDistrubiton_m4497_MethodInfo = 
+extern const MethodInfo QuasiRandomGenerator_1_RandomizeDistrubiton_m4498_MethodInfo = 
 {
 	"RandomizeDistrubiton"/* name */
 	, NULL/* method */
@@ -27590,7 +27590,7 @@ extern const MethodInfo QuasiRandomGenerator_1_RandomizeDistrubiton_m4497_Method
 };
 extern const Il2CppType QuasiRandomGenerator_1_t812_gp_0_0_0_0;
 // T QuasiRandomGenerator`1::GetNextValue()
-extern const MethodInfo QuasiRandomGenerator_1_GetNextValue_m4498_MethodInfo = 
+extern const MethodInfo QuasiRandomGenerator_1_GetNextValue_m4499_MethodInfo = 
 {
 	"GetNextValue"/* name */
 	, NULL/* method */
@@ -27612,7 +27612,7 @@ extern const MethodInfo QuasiRandomGenerator_1_GetNextValue_m4498_MethodInfo =
 
 };
 // System.Void QuasiRandomGenerator`1::RefreshValues()
-extern const MethodInfo QuasiRandomGenerator_1_RefreshValues_m4499_MethodInfo = 
+extern const MethodInfo QuasiRandomGenerator_1_RefreshValues_m4500_MethodInfo = 
 {
 	"RefreshValues"/* name */
 	, NULL/* method */
@@ -27635,11 +27635,11 @@ extern const MethodInfo QuasiRandomGenerator_1_RefreshValues_m4499_MethodInfo =
 };
 static const MethodInfo* QuasiRandomGenerator_1_t812_MethodInfos[] =
 {
-	&QuasiRandomGenerator_1__ctor_m4495_MethodInfo,
 	&QuasiRandomGenerator_1__ctor_m4496_MethodInfo,
-	&QuasiRandomGenerator_1_RandomizeDistrubiton_m4497_MethodInfo,
-	&QuasiRandomGenerator_1_GetNextValue_m4498_MethodInfo,
-	&QuasiRandomGenerator_1_RefreshValues_m4499_MethodInfo,
+	&QuasiRandomGenerator_1__ctor_m4497_MethodInfo,
+	&QuasiRandomGenerator_1_RandomizeDistrubiton_m4498_MethodInfo,
+	&QuasiRandomGenerator_1_GetNextValue_m4499_MethodInfo,
+	&QuasiRandomGenerator_1_RefreshValues_m4500_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference QuasiRandomGenerator_1_t812_VTable[] =
@@ -27656,27 +27656,27 @@ static bool QuasiRandomGenerator_1_t812_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod List_1_ToArray_m4574_GenericMethod;
-extern const Il2CppGenericMethod List_1__ctor_m4575_GenericMethod;
-extern const Il2CppGenericMethod List_1_Add_m4576_GenericMethod;
-extern const Il2CppGenericMethod Utilities_ShuffleList_TisT_t834_m4577_GenericMethod;
-extern const Il2CppGenericMethod List_1_get_Count_m4578_GenericMethod;
-extern const Il2CppGenericMethod QuasiRandomGenerator_1_RefreshValues_m4579_GenericMethod;
-extern const Il2CppGenericMethod Enumerable_ElementAt_TisT_t834_m4580_GenericMethod;
-extern const Il2CppGenericMethod List_1_RemoveAt_m4581_GenericMethod;
-extern const Il2CppGenericMethod QuasiRandomGenerator_1_RandomizeDistrubiton_m4582_GenericMethod;
+extern const Il2CppGenericMethod List_1_ToArray_m4575_GenericMethod;
+extern const Il2CppGenericMethod List_1__ctor_m4576_GenericMethod;
+extern const Il2CppGenericMethod List_1_Add_m4577_GenericMethod;
+extern const Il2CppGenericMethod Utilities_ShuffleList_TisT_t834_m4578_GenericMethod;
+extern const Il2CppGenericMethod List_1_get_Count_m4579_GenericMethod;
+extern const Il2CppGenericMethod QuasiRandomGenerator_1_RefreshValues_m4580_GenericMethod;
+extern const Il2CppGenericMethod Enumerable_ElementAt_TisT_t834_m4581_GenericMethod;
+extern const Il2CppGenericMethod List_1_RemoveAt_m4582_GenericMethod;
+extern const Il2CppGenericMethod QuasiRandomGenerator_1_RandomizeDistrubiton_m4583_GenericMethod;
 static Il2CppRGCTXDefinition QuasiRandomGenerator_1_t812_RGCTXData[11] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_ToArray_m4574_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_ToArray_m4575_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&List_1_t835_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1__ctor_m4575_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_Add_m4576_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Utilities_ShuffleList_TisT_t834_m4577_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_get_Count_m4578_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &QuasiRandomGenerator_1_RefreshValues_m4579_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_ElementAt_TisT_t834_m4580_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_RemoveAt_m4581_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &QuasiRandomGenerator_1_RandomizeDistrubiton_m4582_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1__ctor_m4576_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_Add_m4577_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Utilities_ShuffleList_TisT_t834_m4578_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_get_Count_m4579_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &QuasiRandomGenerator_1_RefreshValues_m4580_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_ElementAt_TisT_t834_m4581_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_RemoveAt_m4582_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &QuasiRandomGenerator_1_RandomizeDistrubiton_m4583_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;

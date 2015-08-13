@@ -18,14 +18,14 @@ extern "C" Object_t* ThreadLocal_1_get_ThreadLocalData_m59644_gshared (Object_t 
 extern "C" void ThreadLocal_1__ctor_m59645_gshared (ThreadLocal_1_t1351 * __this, const MethodInfo* method);
 #define ThreadLocal_1__ctor_m59645(__this, method) (( void (*) (ThreadLocal_1_t1351 *, const MethodInfo*))ThreadLocal_1__ctor_m59645_gshared)(__this, method)
 // System.Void System.Threading.ThreadLocal`1<System.Int32>::.ctor(System.Func`1<T>)
-extern "C" void ThreadLocal_1__ctor_m7823_gshared (ThreadLocal_1_t1351 * __this, Func_1_t1354 * ___valueFactory, const MethodInfo* method);
-#define ThreadLocal_1__ctor_m7823(__this, ___valueFactory, method) (( void (*) (ThreadLocal_1_t1351 *, Func_1_t1354 *, const MethodInfo*))ThreadLocal_1__ctor_m7823_gshared)(__this, ___valueFactory, method)
+extern "C" void ThreadLocal_1__ctor_m7824_gshared (ThreadLocal_1_t1351 * __this, Func_1_t1354 * ___valueFactory, const MethodInfo* method);
+#define ThreadLocal_1__ctor_m7824(__this, ___valueFactory, method) (( void (*) (ThreadLocal_1_t1351 *, Func_1_t1354 *, const MethodInfo*))ThreadLocal_1__ctor_m7824_gshared)(__this, ___valueFactory, method)
 // T System.Threading.ThreadLocal`1<System.Int32>::get_Value()
-extern "C" int32_t ThreadLocal_1_get_Value_m7825_gshared (ThreadLocal_1_t1351 * __this, const MethodInfo* method);
-#define ThreadLocal_1_get_Value_m7825(__this, method) (( int32_t (*) (ThreadLocal_1_t1351 *, const MethodInfo*))ThreadLocal_1_get_Value_m7825_gshared)(__this, method)
+extern "C" int32_t ThreadLocal_1_get_Value_m7826_gshared (ThreadLocal_1_t1351 * __this, const MethodInfo* method);
+#define ThreadLocal_1_get_Value_m7826(__this, method) (( int32_t (*) (ThreadLocal_1_t1351 *, const MethodInfo*))ThreadLocal_1_get_Value_m7826_gshared)(__this, method)
 // System.Void System.Threading.ThreadLocal`1<System.Int32>::set_Value(T)
-extern "C" void ThreadLocal_1_set_Value_m7826_gshared (ThreadLocal_1_t1351 * __this, int32_t ___value, const MethodInfo* method);
-#define ThreadLocal_1_set_Value_m7826(__this, ___value, method) (( void (*) (ThreadLocal_1_t1351 *, int32_t, const MethodInfo*))ThreadLocal_1_set_Value_m7826_gshared)(__this, ___value, method)
+extern "C" void ThreadLocal_1_set_Value_m7827_gshared (ThreadLocal_1_t1351 * __this, int32_t ___value, const MethodInfo* method);
+#define ThreadLocal_1_set_Value_m7827(__this, ___value, method) (( void (*) (ThreadLocal_1_t1351 *, int32_t, const MethodInfo*))ThreadLocal_1_set_Value_m7827_gshared)(__this, ___value, method)
 // System.Void System.Threading.ThreadLocal`1<System.Int32>::Finalize()
 extern "C" void ThreadLocal_1_Finalize_m59646_gshared (ThreadLocal_1_t1351 * __this, const MethodInfo* method);
 #define ThreadLocal_1_Finalize_m59646(__this, method) (( void (*) (ThreadLocal_1_t1351 *, const MethodInfo*))ThreadLocal_1_Finalize_m59646_gshared)(__this, method)

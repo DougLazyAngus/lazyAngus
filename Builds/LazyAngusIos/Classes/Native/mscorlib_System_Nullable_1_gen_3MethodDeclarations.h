@@ -16,14 +16,14 @@ struct String_t;
 #include "mscorlib_System_Nullable_1_gen_3.h"
 
 // System.Void System.Nullable`1<System.TimeSpan>::.ctor(T)
-extern "C" void Nullable_1__ctor_m20177_gshared (Nullable_1_t1295 * __this, TimeSpan_t334  ___value, const MethodInfo* method);
-#define Nullable_1__ctor_m20177(__this, ___value, method) (( void (*) (Nullable_1_t1295 *, TimeSpan_t334 , const MethodInfo*))Nullable_1__ctor_m20177_gshared)(__this, ___value, method)
+extern "C" void Nullable_1__ctor_m20178_gshared (Nullable_1_t1295 * __this, TimeSpan_t334  ___value, const MethodInfo* method);
+#define Nullable_1__ctor_m20178(__this, ___value, method) (( void (*) (Nullable_1_t1295 *, TimeSpan_t334 , const MethodInfo*))Nullable_1__ctor_m20178_gshared)(__this, ___value, method)
 // System.Boolean System.Nullable`1<System.TimeSpan>::get_HasValue()
-extern "C" bool Nullable_1_get_HasValue_m7667_gshared (Nullable_1_t1295 * __this, const MethodInfo* method);
-#define Nullable_1_get_HasValue_m7667(__this, method) (( bool (*) (Nullable_1_t1295 *, const MethodInfo*))Nullable_1_get_HasValue_m7667_gshared)(__this, method)
+extern "C" bool Nullable_1_get_HasValue_m7668_gshared (Nullable_1_t1295 * __this, const MethodInfo* method);
+#define Nullable_1_get_HasValue_m7668(__this, method) (( bool (*) (Nullable_1_t1295 *, const MethodInfo*))Nullable_1_get_HasValue_m7668_gshared)(__this, method)
 // T System.Nullable`1<System.TimeSpan>::get_Value()
-extern "C" TimeSpan_t334  Nullable_1_get_Value_m7669_gshared (Nullable_1_t1295 * __this, const MethodInfo* method);
-#define Nullable_1_get_Value_m7669(__this, method) (( TimeSpan_t334  (*) (Nullable_1_t1295 *, const MethodInfo*))Nullable_1_get_Value_m7669_gshared)(__this, method)
+extern "C" TimeSpan_t334  Nullable_1_get_Value_m7670_gshared (Nullable_1_t1295 * __this, const MethodInfo* method);
+#define Nullable_1_get_Value_m7670(__this, method) (( TimeSpan_t334  (*) (Nullable_1_t1295 *, const MethodInfo*))Nullable_1_get_Value_m7670_gshared)(__this, method)
 // System.Boolean System.Nullable`1<System.TimeSpan>::Equals(System.Object)
 extern "C" bool Nullable_1_Equals_m34600_gshared (Nullable_1_t1295 * __this, Object_t * ___other, const MethodInfo* method);
 #define Nullable_1_Equals_m34600(__this, ___other, method) (( bool (*) (Nullable_1_t1295 *, Object_t *, const MethodInfo*))Nullable_1_Equals_m34600_gshared)(__this, ___other, method)

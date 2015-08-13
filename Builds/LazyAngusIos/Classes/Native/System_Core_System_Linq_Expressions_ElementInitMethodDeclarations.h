@@ -14,8 +14,8 @@ struct ReadOnlyCollection_1_t3323;
 struct String_t;
 
 // System.Reflection.MethodInfo System.Linq.Expressions.ElementInit::get_AddMethod()
-extern "C" MethodInfo_t * ElementInit_get_AddMethod_m11626 (ElementInit_t3324 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * ElementInit_get_AddMethod_m11627 (ElementInit_t3324 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> System.Linq.Expressions.ElementInit::get_Arguments()
-extern "C" ReadOnlyCollection_1_t3323 * ElementInit_get_Arguments_m11627 (ElementInit_t3324 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ReadOnlyCollection_1_t3323 * ElementInit_get_Arguments_m11628 (ElementInit_t3324 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Linq.Expressions.ElementInit::ToString()
-extern "C" String_t* ElementInit_ToString_m11628 (ElementInit_t3324 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ElementInit_ToString_m11629 (ElementInit_t3324 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

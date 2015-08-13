@@ -340,6 +340,8 @@ public class MouseMove : MonoBehaviour
 	}
 
 	void MakeDeadMouse() {
+		SFXPlayer.instance.PlayRandom(SFXPlayer.instance.deadMouseIds,
+		                              0.2f);
 		/*
 		GameObject deadMouseObject = Instantiate (MouseConfig.instance.deadMousePrototype, 
 		                                          new Vector3 (0, 0, 0),
@@ -362,8 +364,10 @@ public class MouseMove : MonoBehaviour
 		baseSpeedM = md.speed;
 
 		Vector3 scaleVector = transform.localScale;
-		scaleVector *= md.scale;
-		transform.localScale = scaleVector;
+		float orientation = isClockwise ? 1f : -1f;
+		transform.localScale = new Vector3 (scaleVector.x * md.scale, 
+		                                    scaleVector.y * md.scale * orientation, 
+		                                	scaleVector.z);
 
 		Material [] materials = new Material[1];
 		materials [0] = md.mouseMaterial;

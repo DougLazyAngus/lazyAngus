@@ -14,7 +14,7 @@ struct List_1_t1039;
 // System.Void UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>::.ctor(UnityEngine.Events.UnityAction`1<T>,UnityEngine.Events.UnityAction`1<T>)
 // UnityEngine.UI.ObjectPool`1<System.Object>
 #include "UnityEngine_UI_UnityEngine_UI_ObjectPool_1_gen_3MethodDeclarations.h"
-#define ObjectPool_1__ctor_m5802(__this, ___actionOnGet, ___actionOnRelease, method) (( void (*) (ObjectPool_1_t872 *, UnityAction_1_t874 *, UnityAction_1_t874 *, const MethodInfo*))ObjectPool_1__ctor_m27741_gshared)(__this, ___actionOnGet, ___actionOnRelease, method)
+#define ObjectPool_1__ctor_m5803(__this, ___actionOnGet, ___actionOnRelease, method) (( void (*) (ObjectPool_1_t872 *, UnityAction_1_t874 *, UnityAction_1_t874 *, const MethodInfo*))ObjectPool_1__ctor_m27741_gshared)(__this, ___actionOnGet, ___actionOnRelease, method)
 // System.Int32 UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>::get_countAll()
 #define ObjectPool_1_get_countAll_m27742(__this, method) (( int32_t (*) (ObjectPool_1_t872 *, const MethodInfo*))ObjectPool_1_get_countAll_m27743_gshared)(__this, method)
 // System.Void UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>::set_countAll(System.Int32)

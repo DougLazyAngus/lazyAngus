@@ -7,7 +7,7 @@ struct List_1_t798;
 // MouseHole/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
 // System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>
-struct  Enumerator_t5748 
+struct  Enumerator_t5747 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::l
 	List_1_t798 * ___l_0;

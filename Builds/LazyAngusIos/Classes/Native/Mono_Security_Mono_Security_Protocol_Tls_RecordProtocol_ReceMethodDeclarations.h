@@ -20,26 +20,26 @@ struct WaitHandle_t3913;
 struct AsyncCallback_t386;
 
 // System.Void Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::.ctor(System.AsyncCallback,System.Object,System.Byte[],System.IO.Stream)
-extern "C" void ReceiveRecordAsyncResult__ctor_m12793 (ReceiveRecordAsyncResult_t3863 * __this, AsyncCallback_t386 * ___userCallback, Object_t * ___userState, ByteU5BU5D_t66* ___initialBuffer, Stream_t51 * ___record, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReceiveRecordAsyncResult__ctor_m12794 (ReceiveRecordAsyncResult_t3863 * __this, AsyncCallback_t386 * ___userCallback, Object_t * ___userState, ByteU5BU5D_t66* ___initialBuffer, Stream_t51 * ___record, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.Stream Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::get_Record()
-extern "C" Stream_t51 * ReceiveRecordAsyncResult_get_Record_m12794 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Stream_t51 * ReceiveRecordAsyncResult_get_Record_m12795 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::get_ResultingBuffer()
-extern "C" ByteU5BU5D_t66* ReceiveRecordAsyncResult_get_ResultingBuffer_m12795 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* ReceiveRecordAsyncResult_get_ResultingBuffer_m12796 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::get_InitialBuffer()
-extern "C" ByteU5BU5D_t66* ReceiveRecordAsyncResult_get_InitialBuffer_m12796 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* ReceiveRecordAsyncResult_get_InitialBuffer_m12797 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::get_AsyncState()
-extern "C" Object_t * ReceiveRecordAsyncResult_get_AsyncState_m12797 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ReceiveRecordAsyncResult_get_AsyncState_m12798 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::get_AsyncException()
-extern "C" Exception_t57 * ReceiveRecordAsyncResult_get_AsyncException_m12798 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t57 * ReceiveRecordAsyncResult_get_AsyncException_m12799 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::get_CompletedWithError()
-extern "C" bool ReceiveRecordAsyncResult_get_CompletedWithError_m12799 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ReceiveRecordAsyncResult_get_CompletedWithError_m12800 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.WaitHandle Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::get_AsyncWaitHandle()
-extern "C" WaitHandle_t3913 * ReceiveRecordAsyncResult_get_AsyncWaitHandle_m12800 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WaitHandle_t3913 * ReceiveRecordAsyncResult_get_AsyncWaitHandle_m12801 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::get_IsCompleted()
-extern "C" bool ReceiveRecordAsyncResult_get_IsCompleted_m12801 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ReceiveRecordAsyncResult_get_IsCompleted_m12802 (ReceiveRecordAsyncResult_t3863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::SetComplete(System.Exception,System.Byte[])
-extern "C" void ReceiveRecordAsyncResult_SetComplete_m12802 (ReceiveRecordAsyncResult_t3863 * __this, Exception_t57 * ___ex, ByteU5BU5D_t66* ___resultingBuffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReceiveRecordAsyncResult_SetComplete_m12803 (ReceiveRecordAsyncResult_t3863 * __this, Exception_t57 * ___ex, ByteU5BU5D_t66* ___resultingBuffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::SetComplete(System.Exception)
-extern "C" void ReceiveRecordAsyncResult_SetComplete_m12803 (ReceiveRecordAsyncResult_t3863 * __this, Exception_t57 * ___ex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReceiveRecordAsyncResult_SetComplete_m12804 (ReceiveRecordAsyncResult_t3863 * __this, Exception_t57 * ___ex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.RecordProtocol/ReceiveRecordAsyncResult::SetComplete(System.Byte[])
-extern "C" void ReceiveRecordAsyncResult_SetComplete_m12804 (ReceiveRecordAsyncResult_t3863 * __this, ByteU5BU5D_t66* ___resultingBuffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReceiveRecordAsyncResult_SetComplete_m12805 (ReceiveRecordAsyncResult_t3863 * __this, ByteU5BU5D_t66* ___resultingBuffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;

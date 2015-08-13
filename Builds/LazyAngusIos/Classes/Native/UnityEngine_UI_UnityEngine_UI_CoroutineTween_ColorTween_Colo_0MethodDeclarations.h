@@ -8,4 +8,4 @@
 struct ColorTweenCallback_t901;
 
 // System.Void UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback::.ctor()
-extern "C" void ColorTweenCallback__ctor_m4859 (ColorTweenCallback_t901 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ColorTweenCallback__ctor_m4860 (ColorTweenCallback_t901 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

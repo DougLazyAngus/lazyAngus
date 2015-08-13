@@ -12,16 +12,16 @@ struct String_t;
 struct ByteU5BU5D_t66;
 
 // System.Void System.Security.Cryptography.MACTripleDES::.ctor()
-extern "C" void MACTripleDES__ctor_m18678 (MACTripleDES_t4693 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MACTripleDES__ctor_m18679 (MACTripleDES_t4693 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.MACTripleDES::Setup(System.String,System.Byte[])
-extern "C" void MACTripleDES_Setup_m18679 (MACTripleDES_t4693 * __this, String_t* ___strTripleDES, ByteU5BU5D_t66* ___rgbKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MACTripleDES_Setup_m18680 (MACTripleDES_t4693 * __this, String_t* ___strTripleDES, ByteU5BU5D_t66* ___rgbKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.MACTripleDES::Finalize()
-extern "C" void MACTripleDES_Finalize_m18680 (MACTripleDES_t4693 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MACTripleDES_Finalize_m18681 (MACTripleDES_t4693 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.MACTripleDES::Dispose(System.Boolean)
-extern "C" void MACTripleDES_Dispose_m18681 (MACTripleDES_t4693 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MACTripleDES_Dispose_m18682 (MACTripleDES_t4693 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.MACTripleDES::Initialize()
-extern "C" void MACTripleDES_Initialize_m18682 (MACTripleDES_t4693 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MACTripleDES_Initialize_m18683 (MACTripleDES_t4693 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.MACTripleDES::HashCore(System.Byte[],System.Int32,System.Int32)
-extern "C" void MACTripleDES_HashCore_m18683 (MACTripleDES_t4693 * __this, ByteU5BU5D_t66* ___rgbData, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MACTripleDES_HashCore_m18684 (MACTripleDES_t4693 * __this, ByteU5BU5D_t66* ___rgbData, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.MACTripleDES::HashFinal()
-extern "C" ByteU5BU5D_t66* MACTripleDES_HashFinal_m18684 (MACTripleDES_t4693 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* MACTripleDES_HashFinal_m18685 (MACTripleDES_t4693 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

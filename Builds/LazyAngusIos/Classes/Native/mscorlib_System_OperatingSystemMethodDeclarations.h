@@ -18,10 +18,10 @@ struct String_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.OperatingSystem::.ctor(System.PlatformID,System.Version)
-extern "C" void OperatingSystem__ctor_m20001 (OperatingSystem_t4809 * __this, int32_t ___platform, Version_t1384 * ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OperatingSystem__ctor_m20002 (OperatingSystem_t4809 * __this, int32_t ___platform, Version_t1384 * ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.PlatformID System.OperatingSystem::get_Platform()
-extern "C" int32_t OperatingSystem_get_Platform_m20002 (OperatingSystem_t4809 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t OperatingSystem_get_Platform_m20003 (OperatingSystem_t4809 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.OperatingSystem::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void OperatingSystem_GetObjectData_m20003 (OperatingSystem_t4809 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OperatingSystem_GetObjectData_m20004 (OperatingSystem_t4809 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.OperatingSystem::ToString()
-extern "C" String_t* OperatingSystem_ToString_m20004 (OperatingSystem_t4809 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* OperatingSystem_ToString_m20005 (OperatingSystem_t4809 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -16,10 +16,10 @@ struct ObjectU5BU5D_t682;
 struct Delegate_t724;
 
 // System.Void UnityEngine.Events.BaseInvokableCall::.ctor()
-extern "C" void BaseInvokableCall__ctor_m10030 (BaseInvokableCall_t2883 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseInvokableCall__ctor_m10031 (BaseInvokableCall_t2883 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.BaseInvokableCall::.ctor(System.Object,System.Reflection.MethodInfo)
-extern "C" void BaseInvokableCall__ctor_m10031 (BaseInvokableCall_t2883 * __this, Object_t * ___target, MethodInfo_t * ___function, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseInvokableCall__ctor_m10032 (BaseInvokableCall_t2883 * __this, Object_t * ___target, MethodInfo_t * ___function, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.BaseInvokableCall::Invoke(System.Object[])
 // System.Boolean UnityEngine.Events.BaseInvokableCall::AllowInvoke(System.Delegate)
-extern "C" bool BaseInvokableCall_AllowInvoke_m10032 (Object_t * __this /* static, unused */, Delegate_t724 * ___delegate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool BaseInvokableCall_AllowInvoke_m10033 (Object_t * __this /* static, unused */, Delegate_t724 * ___delegate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Events.BaseInvokableCall::Find(System.Object,System.Reflection.MethodInfo)

@@ -22,7 +22,7 @@ struct Comparison_1_t911;
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>::.ctor()
 // UnityEngine.UI.Collections.IndexedSet`1<System.Object>
 #include "UnityEngine_UI_UnityEngine_UI_Collections_IndexedSet_1_gen_1MethodDeclarations.h"
-#define IndexedSet_1__ctor_m5886(__this, method) (( void (*) (IndexedSet_1_t910 *, const MethodInfo*))IndexedSet_1__ctor_m28710_gshared)(__this, method)
+#define IndexedSet_1__ctor_m5887(__this, method) (( void (*) (IndexedSet_1_t910 *, const MethodInfo*))IndexedSet_1__ctor_m28710_gshared)(__this, method)
 // System.Collections.IEnumerator UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>::System.Collections.IEnumerable.GetEnumerator()
 #define IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m28711(__this, method) (( Object_t * (*) (IndexedSet_1_t910 *, const MethodInfo*))IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m28712_gshared)(__this, method)
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>::Add(T)
@@ -52,6 +52,6 @@ struct Comparison_1_t911;
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>::set_Item(System.Int32,T)
 #define IndexedSet_1_set_Item_m28737(__this, ___index, ___value, method) (( void (*) (IndexedSet_1_t910 *, int32_t, Object_t *, const MethodInfo*))IndexedSet_1_set_Item_m28738_gshared)(__this, ___index, ___value, method)
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>::RemoveAll(System.Predicate`1<T>)
-#define IndexedSet_1_RemoveAll_m5891(__this, ___match, method) (( void (*) (IndexedSet_1_t910 *, Predicate_1_t912 *, const MethodInfo*))IndexedSet_1_RemoveAll_m28739_gshared)(__this, ___match, method)
+#define IndexedSet_1_RemoveAll_m5892(__this, ___match, method) (( void (*) (IndexedSet_1_t910 *, Predicate_1_t912 *, const MethodInfo*))IndexedSet_1_RemoveAll_m28739_gshared)(__this, ___match, method)
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>::Sort(System.Comparison`1<T>)
-#define IndexedSet_1_Sort_m5892(__this, ___sortLayoutFunction, method) (( void (*) (IndexedSet_1_t910 *, Comparison_1_t911 *, const MethodInfo*))IndexedSet_1_Sort_m28740_gshared)(__this, ___sortLayoutFunction, method)
+#define IndexedSet_1_Sort_m5893(__this, ___sortLayoutFunction, method) (( void (*) (IndexedSet_1_t910 *, Comparison_1_t911 *, const MethodInfo*))IndexedSet_1_Sort_m28740_gshared)(__this, ___sortLayoutFunction, method)

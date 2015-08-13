@@ -16,11 +16,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void SimpleJson.Reflection.ReflectionUtils/GetDelegate::.ctor(System.Object,System.IntPtr)
-extern "C" void GetDelegate__ctor_m9818 (GetDelegate_t2826 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GetDelegate__ctor_m9819 (GetDelegate_t2826 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object SimpleJson.Reflection.ReflectionUtils/GetDelegate::Invoke(System.Object)
-extern "C" Object_t * GetDelegate_Invoke_m9819 (GetDelegate_t2826 * __this, Object_t * ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GetDelegate_Invoke_m9820 (GetDelegate_t2826 * __this, Object_t * ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" Object_t * pinvoke_delegate_wrapper_GetDelegate_t2826(Il2CppObject* delegate, Object_t * ___source);
 // System.IAsyncResult SimpleJson.Reflection.ReflectionUtils/GetDelegate::BeginInvoke(System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * GetDelegate_BeginInvoke_m9820 (GetDelegate_t2826 * __this, Object_t * ___source, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GetDelegate_BeginInvoke_m9821 (GetDelegate_t2826 * __this, Object_t * ___source, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object SimpleJson.Reflection.ReflectionUtils/GetDelegate::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * GetDelegate_EndInvoke_m9821 (GetDelegate_t2826 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GetDelegate_EndInvoke_m9822 (GetDelegate_t2826 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

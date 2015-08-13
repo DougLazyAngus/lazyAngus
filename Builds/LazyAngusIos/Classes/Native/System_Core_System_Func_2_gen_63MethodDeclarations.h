@@ -22,7 +22,7 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>,System.Threading.Tasks.Task>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Object>
 #include "System_Core_System_Func_2_gen_18MethodDeclarations.h"
-#define Func_2__ctor_m31044(__this, ___object, ___method, method) (( void (*) (Func_2_t5996 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7469_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m31044(__this, ___object, ___method, method) (( void (*) (Func_2_t5996 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7470_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>,System.Threading.Tasks.Task>::Invoke(T)
 #define Func_2_Invoke_m31045(__this, ___arg1, method) (( Task_t1210 * (*) (Func_2_t5996 *, Tuple_2_t2366 *, const MethodInfo*))Func_2_Invoke_m30734_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>,System.Threading.Tasks.Task>::BeginInvoke(T,System.AsyncCallback,System.Object)

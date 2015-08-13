@@ -20,7 +20,7 @@ struct AggregateException_t1338;
 #include "Parse_Unity_System_Threading_Tasks_Task_1_gen_2MethodDeclarations.h"
 #define Task_1__ctor_m31354(__this, method) (( void (*) (Task_1_t1372 *, const MethodInfo*))Task_1__ctor_m30544_gshared)(__this, method)
 // T System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>::get_Result()
-#define Task_1_get_Result_m7311(__this, method) (( Tuple_2_t1425 * (*) (Task_1_t1372 *, const MethodInfo*))Task_1_get_Result_m30545_gshared)(__this, method)
+#define Task_1_get_Result_m7312(__this, method) (( Tuple_2_t1425 * (*) (Task_1_t1372 *, const MethodInfo*))Task_1_get_Result_m30545_gshared)(__this, method)
 // System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<T>>)
 #define Task_1_ContinueWith_m31355(__this, ___continuation, method) (( Task_t1210 * (*) (Task_1_t1372 *, Action_1_t1426 *, const MethodInfo*))Task_1_ContinueWith_m30547_gshared)(__this, ___continuation, method)
 // System.Void System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>::RunContinuations()

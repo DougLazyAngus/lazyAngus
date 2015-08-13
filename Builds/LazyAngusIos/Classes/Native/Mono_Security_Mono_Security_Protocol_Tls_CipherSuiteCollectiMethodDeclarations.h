@@ -30,56 +30,56 @@ struct SslCipherSuite_t3877;
 #include "Mono_Security_Mono_Security_Protocol_Tls_ExchangeAlgorithmTy.h"
 
 // System.Void Mono.Security.Protocol.Tls.CipherSuiteCollection::.ctor(Mono.Security.Protocol.Tls.SecurityProtocolType)
-extern "C" void CipherSuiteCollection__ctor_m12668 (CipherSuiteCollection_t3843 * __this, int32_t ___protocol, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CipherSuiteCollection__ctor_m12669 (CipherSuiteCollection_t3843 * __this, int32_t ___protocol, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.IList.get_Item(System.Int32)
-extern "C" Object_t * CipherSuiteCollection_System_Collections_IList_get_Item_m12669 (CipherSuiteCollection_t3843 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CipherSuiteCollection_System_Collections_IList_get_Item_m12670 (CipherSuiteCollection_t3843 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.IList.set_Item(System.Int32,System.Object)
-extern "C" void CipherSuiteCollection_System_Collections_IList_set_Item_m12670 (CipherSuiteCollection_t3843 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CipherSuiteCollection_System_Collections_IList_set_Item_m12671 (CipherSuiteCollection_t3843 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.ICollection.get_IsSynchronized()
-extern "C" bool CipherSuiteCollection_System_Collections_ICollection_get_IsSynchronized_m12671 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CipherSuiteCollection_System_Collections_ICollection_get_IsSynchronized_m12672 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.ICollection.get_SyncRoot()
-extern "C" Object_t * CipherSuiteCollection_System_Collections_ICollection_get_SyncRoot_m12672 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CipherSuiteCollection_System_Collections_ICollection_get_SyncRoot_m12673 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * CipherSuiteCollection_System_Collections_IEnumerable_GetEnumerator_m12673 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CipherSuiteCollection_System_Collections_IEnumerable_GetEnumerator_m12674 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.IList.Contains(System.Object)
-extern "C" bool CipherSuiteCollection_System_Collections_IList_Contains_m12674 (CipherSuiteCollection_t3843 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CipherSuiteCollection_System_Collections_IList_Contains_m12675 (CipherSuiteCollection_t3843 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.IList.IndexOf(System.Object)
-extern "C" int32_t CipherSuiteCollection_System_Collections_IList_IndexOf_m12675 (CipherSuiteCollection_t3843 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CipherSuiteCollection_System_Collections_IList_IndexOf_m12676 (CipherSuiteCollection_t3843 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.IList.Insert(System.Int32,System.Object)
-extern "C" void CipherSuiteCollection_System_Collections_IList_Insert_m12676 (CipherSuiteCollection_t3843 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CipherSuiteCollection_System_Collections_IList_Insert_m12677 (CipherSuiteCollection_t3843 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.IList.Remove(System.Object)
-extern "C" void CipherSuiteCollection_System_Collections_IList_Remove_m12677 (CipherSuiteCollection_t3843 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CipherSuiteCollection_System_Collections_IList_Remove_m12678 (CipherSuiteCollection_t3843 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.IList.RemoveAt(System.Int32)
-extern "C" void CipherSuiteCollection_System_Collections_IList_RemoveAt_m12678 (CipherSuiteCollection_t3843 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CipherSuiteCollection_System_Collections_IList_RemoveAt_m12679 (CipherSuiteCollection_t3843 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.IList.Add(System.Object)
-extern "C" int32_t CipherSuiteCollection_System_Collections_IList_Add_m12679 (CipherSuiteCollection_t3843 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CipherSuiteCollection_System_Collections_IList_Add_m12680 (CipherSuiteCollection_t3843 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.CipherSuite Mono.Security.Protocol.Tls.CipherSuiteCollection::get_Item(System.String)
-extern "C" CipherSuite_t3842 * CipherSuiteCollection_get_Item_m12680 (CipherSuiteCollection_t3843 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CipherSuite_t3842 * CipherSuiteCollection_get_Item_m12681 (CipherSuiteCollection_t3843 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.CipherSuite Mono.Security.Protocol.Tls.CipherSuiteCollection::get_Item(System.Int32)
-extern "C" CipherSuite_t3842 * CipherSuiteCollection_get_Item_m12681 (CipherSuiteCollection_t3843 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CipherSuite_t3842 * CipherSuiteCollection_get_Item_m12682 (CipherSuiteCollection_t3843 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.CipherSuiteCollection::set_Item(System.Int32,Mono.Security.Protocol.Tls.CipherSuite)
-extern "C" void CipherSuiteCollection_set_Item_m12682 (CipherSuiteCollection_t3843 * __this, int32_t ___index, CipherSuite_t3842 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CipherSuiteCollection_set_Item_m12683 (CipherSuiteCollection_t3843 * __this, int32_t ___index, CipherSuite_t3842 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.CipherSuite Mono.Security.Protocol.Tls.CipherSuiteCollection::get_Item(System.Int16)
-extern "C" CipherSuite_t3842 * CipherSuiteCollection_get_Item_m12683 (CipherSuiteCollection_t3843 * __this, int16_t ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CipherSuite_t3842 * CipherSuiteCollection_get_Item_m12684 (CipherSuiteCollection_t3843 * __this, int16_t ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Protocol.Tls.CipherSuiteCollection::get_Count()
-extern "C" int32_t CipherSuiteCollection_get_Count_m12684 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CipherSuiteCollection_get_Count_m12685 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.CipherSuiteCollection::get_IsFixedSize()
-extern "C" bool CipherSuiteCollection_get_IsFixedSize_m12685 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CipherSuiteCollection_get_IsFixedSize_m12686 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.CipherSuiteCollection::get_IsReadOnly()
-extern "C" bool CipherSuiteCollection_get_IsReadOnly_m12686 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CipherSuiteCollection_get_IsReadOnly_m12687 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.CipherSuiteCollection::CopyTo(System.Array,System.Int32)
-extern "C" void CipherSuiteCollection_CopyTo_m12687 (CipherSuiteCollection_t3843 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CipherSuiteCollection_CopyTo_m12688 (CipherSuiteCollection_t3843 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.CipherSuiteCollection::Clear()
-extern "C" void CipherSuiteCollection_Clear_m12688 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CipherSuiteCollection_Clear_m12689 (CipherSuiteCollection_t3843 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Protocol.Tls.CipherSuiteCollection::IndexOf(System.String)
-extern "C" int32_t CipherSuiteCollection_IndexOf_m12689 (CipherSuiteCollection_t3843 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CipherSuiteCollection_IndexOf_m12690 (CipherSuiteCollection_t3843 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Protocol.Tls.CipherSuiteCollection::IndexOf(System.Int16)
-extern "C" int32_t CipherSuiteCollection_IndexOf_m12690 (CipherSuiteCollection_t3843 * __this, int16_t ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CipherSuiteCollection_IndexOf_m12691 (CipherSuiteCollection_t3843 * __this, int16_t ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.CipherSuite Mono.Security.Protocol.Tls.CipherSuiteCollection::Add(System.Int16,System.String,Mono.Security.Protocol.Tls.CipherAlgorithmType,Mono.Security.Protocol.Tls.HashAlgorithmType,Mono.Security.Protocol.Tls.ExchangeAlgorithmType,System.Boolean,System.Boolean,System.Byte,System.Byte,System.Int16,System.Byte,System.Byte)
-extern "C" CipherSuite_t3842 * CipherSuiteCollection_Add_m12691 (CipherSuiteCollection_t3843 * __this, int16_t ___code, String_t* ___name, int32_t ___cipherType, int32_t ___hashType, int32_t ___exchangeType, bool ___exportable, bool ___blockMode, uint8_t ___keyMaterialSize, uint8_t ___expandedKeyMaterialSize, int16_t ___effectiveKeyBytes, uint8_t ___ivSize, uint8_t ___blockSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CipherSuite_t3842 * CipherSuiteCollection_Add_m12692 (CipherSuiteCollection_t3843 * __this, int16_t ___code, String_t* ___name, int32_t ___cipherType, int32_t ___hashType, int32_t ___exchangeType, bool ___exportable, bool ___blockMode, uint8_t ___keyMaterialSize, uint8_t ___expandedKeyMaterialSize, int16_t ___effectiveKeyBytes, uint8_t ___ivSize, uint8_t ___blockSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.TlsCipherSuite Mono.Security.Protocol.Tls.CipherSuiteCollection::add(Mono.Security.Protocol.Tls.TlsCipherSuite)
-extern "C" TlsCipherSuite_t3880 * CipherSuiteCollection_add_m12692 (CipherSuiteCollection_t3843 * __this, TlsCipherSuite_t3880 * ___cipherSuite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TlsCipherSuite_t3880 * CipherSuiteCollection_add_m12693 (CipherSuiteCollection_t3843 * __this, TlsCipherSuite_t3880 * ___cipherSuite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.SslCipherSuite Mono.Security.Protocol.Tls.CipherSuiteCollection::add(Mono.Security.Protocol.Tls.SslCipherSuite)
-extern "C" SslCipherSuite_t3877 * CipherSuiteCollection_add_m12693 (CipherSuiteCollection_t3843 * __this, SslCipherSuite_t3877 * ___cipherSuite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SslCipherSuite_t3877 * CipherSuiteCollection_add_m12694 (CipherSuiteCollection_t3843 * __this, SslCipherSuite_t3877 * ___cipherSuite, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.CipherSuiteCollection::cultureAwareCompare(System.String,System.String)
-extern "C" bool CipherSuiteCollection_cultureAwareCompare_m12694 (CipherSuiteCollection_t3843 * __this, String_t* ___strA, String_t* ___strB, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CipherSuiteCollection_cultureAwareCompare_m12695 (CipherSuiteCollection_t3843 * __this, String_t* ___strA, String_t* ___strB, const MethodInfo* method) IL2CPP_METHOD_ATTR;

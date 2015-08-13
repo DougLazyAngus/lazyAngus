@@ -40,8 +40,8 @@ extern "C" void List_1__ctor_m63356_gshared (List_1_t3365 * __this, const Method
 extern "C" void List_1__ctor_m63357_gshared (List_1_t3365 * __this, Object_t* ___collection, const MethodInfo* method);
 #define List_1__ctor_m63357(__this, ___collection, method) (( void (*) (List_1_t3365 *, Object_t*, const MethodInfo*))List_1__ctor_m63357_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::.ctor(System.Int32)
-extern "C" void List_1__ctor_m11859_gshared (List_1_t3365 * __this, int32_t ___capacity, const MethodInfo* method);
-#define List_1__ctor_m11859(__this, ___capacity, method) (( void (*) (List_1_t3365 *, int32_t, const MethodInfo*))List_1__ctor_m11859_gshared)(__this, ___capacity, method)
+extern "C" void List_1__ctor_m11860_gshared (List_1_t3365 * __this, int32_t ___capacity, const MethodInfo* method);
+#define List_1__ctor_m11860(__this, ___capacity, method) (( void (*) (List_1_t3365 *, int32_t, const MethodInfo*))List_1__ctor_m11860_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::.ctor(T[],System.Int32)
 extern "C" void List_1__ctor_m63358_gshared (List_1_t3365 * __this, KeyValuePair_2U5BU5D_t8611* ___data, int32_t ___size, const MethodInfo* method);
 #define List_1__ctor_m63358(__this, ___data, ___size, method) (( void (*) (List_1_t3365 *, KeyValuePair_2U5BU5D_t8611*, int32_t, const MethodInfo*))List_1__ctor_m63358_gshared)(__this, ___data, ___size, method)

@@ -18,11 +18,11 @@ struct Object_t;
 // System.Void <>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>::.ctor(<constructor>j__TPar,<parameters>j__TPar)
 // <>f__AnonymousType0`2<System.Object,System.Object>
 #include "Parse_Unity_U3CU3Ef__AnonymousType0_2_gen_0MethodDeclarations.h"
-#define U3CU3Ef__AnonymousType0_2__ctor_m7427(__this, ___constructor, ___parameters, method) (( void (*) (U3CU3Ef__AnonymousType0_2_t1382 *, ConstructorInfo_t1381 *, ParameterInfoU5BU5D_t1458*, const MethodInfo*))U3CU3Ef__AnonymousType0_2__ctor_m32050_gshared)(__this, ___constructor, ___parameters, method)
+#define U3CU3Ef__AnonymousType0_2__ctor_m7428(__this, ___constructor, ___parameters, method) (( void (*) (U3CU3Ef__AnonymousType0_2_t1382 *, ConstructorInfo_t1381 *, ParameterInfoU5BU5D_t1458*, const MethodInfo*))U3CU3Ef__AnonymousType0_2__ctor_m32050_gshared)(__this, ___constructor, ___parameters, method)
 // <constructor>j__TPar <>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>::get_constructor()
-#define U3CU3Ef__AnonymousType0_2_get_constructor_m7432(__this, method) (( ConstructorInfo_t1381 * (*) (U3CU3Ef__AnonymousType0_2_t1382 *, const MethodInfo*))U3CU3Ef__AnonymousType0_2_get_constructor_m32051_gshared)(__this, method)
+#define U3CU3Ef__AnonymousType0_2_get_constructor_m7433(__this, method) (( ConstructorInfo_t1381 * (*) (U3CU3Ef__AnonymousType0_2_t1382 *, const MethodInfo*))U3CU3Ef__AnonymousType0_2_get_constructor_m32051_gshared)(__this, method)
 // <parameters>j__TPar <>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>::get_parameters()
-#define U3CU3Ef__AnonymousType0_2_get_parameters_m7428(__this, method) (( ParameterInfoU5BU5D_t1458* (*) (U3CU3Ef__AnonymousType0_2_t1382 *, const MethodInfo*))U3CU3Ef__AnonymousType0_2_get_parameters_m32052_gshared)(__this, method)
+#define U3CU3Ef__AnonymousType0_2_get_parameters_m7429(__this, method) (( ParameterInfoU5BU5D_t1458* (*) (U3CU3Ef__AnonymousType0_2_t1382 *, const MethodInfo*))U3CU3Ef__AnonymousType0_2_get_parameters_m32052_gshared)(__this, method)
 // System.String <>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>::ToString()
 #define U3CU3Ef__AnonymousType0_2_ToString_m32053(__this, method) (( String_t* (*) (U3CU3Ef__AnonymousType0_2_t1382 *, const MethodInfo*))U3CU3Ef__AnonymousType0_2_ToString_m32054_gshared)(__this, method)
 // System.Boolean <>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>::Equals(System.Object)

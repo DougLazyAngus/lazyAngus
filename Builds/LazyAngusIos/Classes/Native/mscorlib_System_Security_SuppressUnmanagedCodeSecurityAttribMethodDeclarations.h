@@ -8,4 +8,4 @@
 struct SuppressUnmanagedCodeSecurityAttribute_t4219;
 
 // System.Void System.Security.SuppressUnmanagedCodeSecurityAttribute::.ctor()
-extern "C" void SuppressUnmanagedCodeSecurityAttribute__ctor_m15359 (SuppressUnmanagedCodeSecurityAttribute_t4219 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SuppressUnmanagedCodeSecurityAttribute__ctor_m15360 (SuppressUnmanagedCodeSecurityAttribute_t4219 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

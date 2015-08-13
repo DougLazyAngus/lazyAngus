@@ -10,4 +10,4 @@ struct AssemblyTitleAttribute_t1102;
 struct String_t;
 
 // System.Void System.Reflection.AssemblyTitleAttribute::.ctor(System.String)
-extern "C" void AssemblyTitleAttribute__ctor_m6207 (AssemblyTitleAttribute_t1102 * __this, String_t* ___title, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyTitleAttribute__ctor_m6208 (AssemblyTitleAttribute_t1102 * __this, String_t* ___title, const MethodInfo* method) IL2CPP_METHOD_ATTR;

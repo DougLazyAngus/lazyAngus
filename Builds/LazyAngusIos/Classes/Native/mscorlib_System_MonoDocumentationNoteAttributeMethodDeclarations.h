@@ -10,4 +10,4 @@ struct MonoDocumentationNoteAttribute_t4360;
 struct String_t;
 
 // System.Void System.MonoDocumentationNoteAttribute::.ctor(System.String)
-extern "C" void MonoDocumentationNoteAttribute__ctor_m16297 (MonoDocumentationNoteAttribute_t4360 * __this, String_t* ___comment, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoDocumentationNoteAttribute__ctor_m16298 (MonoDocumentationNoteAttribute_t4360 * __this, String_t* ___comment, const MethodInfo* method) IL2CPP_METHOD_ATTR;

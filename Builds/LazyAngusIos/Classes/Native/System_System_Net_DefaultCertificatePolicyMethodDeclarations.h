@@ -14,6 +14,6 @@ struct X509Certificate_t3882;
 struct WebRequest_t3301;
 
 // System.Void System.Net.DefaultCertificatePolicy::.ctor()
-extern "C" void DefaultCertificatePolicy__ctor_m13753 (DefaultCertificatePolicy_t4025 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DefaultCertificatePolicy__ctor_m13754 (DefaultCertificatePolicy_t4025 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.DefaultCertificatePolicy::CheckValidationResult(System.Net.ServicePoint,System.Security.Cryptography.X509Certificates.X509Certificate,System.Net.WebRequest,System.Int32)
-extern "C" bool DefaultCertificatePolicy_CheckValidationResult_m13754 (DefaultCertificatePolicy_t4025 * __this, ServicePoint_t3934 * ___point, X509Certificate_t3882 * ___certificate, WebRequest_t3301 * ___request, int32_t ___certificateProblem, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DefaultCertificatePolicy_CheckValidationResult_m13755 (DefaultCertificatePolicy_t4025 * __this, ServicePoint_t3934 * ___point, X509Certificate_t3882 * ___certificate, WebRequest_t3301 * ___request, int32_t ___certificateProblem, const MethodInfo* method) IL2CPP_METHOD_ATTR;

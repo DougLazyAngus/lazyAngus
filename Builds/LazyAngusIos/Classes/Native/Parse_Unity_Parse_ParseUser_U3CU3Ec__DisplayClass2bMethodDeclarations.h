@@ -12,6 +12,6 @@ struct Task_1_t1390;
 struct Task_1_t1373;
 
 // System.Void Parse.ParseUser/<>c__DisplayClass2b::.ctor()
-extern "C" void U3CU3Ec__DisplayClass2b__ctor_m7045 (U3CU3Ec__DisplayClass2b_t1316 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass2b__ctor_m7046 (U3CU3Ec__DisplayClass2b_t1316 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<Parse.ParseUser> Parse.ParseUser/<>c__DisplayClass2b::<LogInWithAsync>b__2a(System.Threading.Tasks.Task`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>)
-extern "C" Task_1_t1390 * U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7046 (U3CU3Ec__DisplayClass2b_t1316 * __this, Task_1_t1373 * ___authData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1390 * U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7047 (U3CU3Ec__DisplayClass2b_t1316 * __this, Task_1_t1373 * ___authData, const MethodInfo* method) IL2CPP_METHOD_ATTR;

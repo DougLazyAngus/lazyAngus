@@ -12,8 +12,8 @@ struct String_t;
 struct Object_t;
 
 // System.Void System.Runtime.Remoting.Messaging.Header::.ctor(System.String,System.Object)
-extern "C" void Header__ctor_m18260 (Header_t4611 * __this, String_t* ____Name, Object_t * ____Value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Header__ctor_m18261 (Header_t4611 * __this, String_t* ____Name, Object_t * ____Value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.Header::.ctor(System.String,System.Object,System.Boolean)
-extern "C" void Header__ctor_m18261 (Header_t4611 * __this, String_t* ____Name, Object_t * ____Value, bool ____MustUnderstand, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Header__ctor_m18262 (Header_t4611 * __this, String_t* ____Name, Object_t * ____Value, bool ____MustUnderstand, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.Header::.ctor(System.String,System.Object,System.Boolean,System.String)
-extern "C" void Header__ctor_m18262 (Header_t4611 * __this, String_t* ____Name, Object_t * ____Value, bool ____MustUnderstand, String_t* ____HeaderNamespace, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Header__ctor_m18263 (Header_t4611 * __this, String_t* ____Name, Object_t * ____Value, bool ____MustUnderstand, String_t* ____HeaderNamespace, const MethodInfo* method) IL2CPP_METHOD_ATTR;

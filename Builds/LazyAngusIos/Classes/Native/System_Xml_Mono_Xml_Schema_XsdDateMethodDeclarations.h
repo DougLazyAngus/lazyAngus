@@ -10,6 +10,6 @@ struct XsdDate_t3141;
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
 
 // System.Void Mono.Xml.Schema.XsdDate::.ctor()
-extern "C" void XsdDate__ctor_m10486 (XsdDate_t3141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdDate__ctor_m10487 (XsdDate_t3141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDate::get_TokenizedType()
-extern "C" int32_t XsdDate_get_TokenizedType_m10487 (XsdDate_t3141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdDate_get_TokenizedType_m10488 (XsdDate_t3141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

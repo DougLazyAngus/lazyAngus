@@ -14,8 +14,8 @@ struct SerializationInfo_t2919;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Security.Cryptography.CryptographicUnexpectedOperationException::.ctor()
-extern "C" void CryptographicUnexpectedOperationException__ctor_m18591 (CryptographicUnexpectedOperationException_t3928 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CryptographicUnexpectedOperationException__ctor_m18592 (CryptographicUnexpectedOperationException_t3928 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.CryptographicUnexpectedOperationException::.ctor(System.String)
-extern "C" void CryptographicUnexpectedOperationException__ctor_m13179 (CryptographicUnexpectedOperationException_t3928 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CryptographicUnexpectedOperationException__ctor_m13180 (CryptographicUnexpectedOperationException_t3928 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.CryptographicUnexpectedOperationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void CryptographicUnexpectedOperationException__ctor_m18592 (CryptographicUnexpectedOperationException_t3928 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CryptographicUnexpectedOperationException__ctor_m18593 (CryptographicUnexpectedOperationException_t3928 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

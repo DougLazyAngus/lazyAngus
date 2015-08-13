@@ -12,10 +12,10 @@ struct SerializationInfo_t2919;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.ActivationContext::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m19328 (ActivationContext_t4777 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m19329 (ActivationContext_t4777 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ActivationContext::Finalize()
-extern "C" void ActivationContext_Finalize_m19329 (ActivationContext_t4777 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ActivationContext_Finalize_m19330 (ActivationContext_t4777 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ActivationContext::Dispose()
-extern "C" void ActivationContext_Dispose_m19330 (ActivationContext_t4777 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ActivationContext_Dispose_m19331 (ActivationContext_t4777 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ActivationContext::Dispose(System.Boolean)
-extern "C" void ActivationContext_Dispose_m19331 (ActivationContext_t4777 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ActivationContext_Dispose_m19332 (ActivationContext_t4777 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;

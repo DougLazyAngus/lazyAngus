@@ -10,6 +10,6 @@ struct BitConverterLE_t3786;
 struct ByteU5BU5D_t66;
 
 // System.Byte[] Mono.Security.BitConverterLE::GetUIntBytes(System.Byte*)
-extern "C" ByteU5BU5D_t66* BitConverterLE_GetUIntBytes_m12350 (Object_t * __this /* static, unused */, uint8_t* ___bytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* BitConverterLE_GetUIntBytes_m12351 (Object_t * __this /* static, unused */, uint8_t* ___bytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.BitConverterLE::GetBytes(System.Int32)
-extern "C" ByteU5BU5D_t66* BitConverterLE_GetBytes_m12351 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* BitConverterLE_GetBytes_m12352 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -20,7 +20,7 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Single>
 #include "System_Core_System_Func_2_gen_58MethodDeclarations.h"
-#define Func_2__ctor_m6187(__this, ___object, ___method, method) (( void (*) (Func_2_t1007 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m30301_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m6188(__this, ___object, ___method, method) (( void (*) (Func_2_t1007 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m30301_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>::Invoke(T)
 #define Func_2_Invoke_m30302(__this, ___arg1, method) (( float (*) (Func_2_t1007 *, Object_t *, const MethodInfo*))Func_2_Invoke_m30303_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>::BeginInvoke(T,System.AsyncCallback,System.Object)

@@ -11,7 +11,7 @@ struct GcAchievementData_t2846_marshaled;
 struct Achievement_t2857;
 
 // UnityEngine.SocialPlatforms.Impl.Achievement UnityEngine.SocialPlatforms.GameCenter.GcAchievementData::ToAchievement()
-extern "C" Achievement_t2857 * GcAchievementData_ToAchievement_m9872 (GcAchievementData_t2846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Achievement_t2857 * GcAchievementData_ToAchievement_m9873 (GcAchievementData_t2846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 void GcAchievementData_t2846_marshal(const GcAchievementData_t2846& unmarshaled, GcAchievementData_t2846_marshaled& marshaled);
 void GcAchievementData_t2846_marshal_back(const GcAchievementData_t2846_marshaled& marshaled, GcAchievementData_t2846& unmarshaled);
 void GcAchievementData_t2846_marshal_cleanup(GcAchievementData_t2846_marshaled& marshaled);

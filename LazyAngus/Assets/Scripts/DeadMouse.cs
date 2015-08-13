@@ -7,10 +7,6 @@ public class DeadMouse : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		if (!SoundController.instance.sfxMuted) {
-			SFXPlayer.instance.PlayRandom(SFXPlayer.instance.deadMouseIds,
-			                              0.2f);
-		}
 	}
 	
 	// Update is called once per frame

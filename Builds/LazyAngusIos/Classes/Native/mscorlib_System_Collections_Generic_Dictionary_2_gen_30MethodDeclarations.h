@@ -48,9 +48,9 @@ struct IDictionaryEnumerator_t784;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Boolean>::.ctor()
 // System.Collections.Generic.Dictionary`2<System.Object,System.Byte>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_gen_56MethodDeclarations.h"
-#define Dictionary_2__ctor_m7576(__this, method) (( void (*) (Dictionary_2_t1497 *, const MethodInfo*))Dictionary_2__ctor_m33422_gshared)(__this, method)
+#define Dictionary_2__ctor_m7577(__this, method) (( void (*) (Dictionary_2_t1497 *, const MethodInfo*))Dictionary_2__ctor_m33422_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Boolean>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2__ctor_m15144(__this, ___comparer, method) (( void (*) (Dictionary_2_t1497 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m33423_gshared)(__this, ___comparer, method)
+#define Dictionary_2__ctor_m15145(__this, ___comparer, method) (( void (*) (Dictionary_2_t1497 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m33423_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Boolean>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
 #define Dictionary_2__ctor_m33424(__this, ___dictionary, method) (( void (*) (Dictionary_2_t1497 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m33425_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Boolean>::.ctor(System.Int32)

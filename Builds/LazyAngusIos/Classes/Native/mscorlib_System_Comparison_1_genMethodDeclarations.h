@@ -18,8 +18,8 @@ struct AsyncCallback_t386;
 #include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
 
 // System.Void System.Comparison`1<UnityEngine.EventSystems.RaycastResult>::.ctor(System.Object,System.IntPtr)
-extern "C" void Comparison_1__ctor_m5771_gshared (Comparison_1_t846 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Comparison_1__ctor_m5771(__this, ___object, ___method, method) (( void (*) (Comparison_1_t846 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m5771_gshared)(__this, ___object, ___method, method)
+extern "C" void Comparison_1__ctor_m5772_gshared (Comparison_1_t846 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Comparison_1__ctor_m5772(__this, ___object, ___method, method) (( void (*) (Comparison_1_t846 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m5772_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<UnityEngine.EventSystems.RaycastResult>::Invoke(T,T)
 extern "C" int32_t Comparison_1_Invoke_m27628_gshared (Comparison_1_t846 * __this, RaycastResult_t880  ___x, RaycastResult_t880  ___y, const MethodInfo* method);
 #define Comparison_1_Invoke_m27628(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t846 *, RaycastResult_t880 , RaycastResult_t880 , const MethodInfo*))Comparison_1_Invoke_m27628_gshared)(__this, ___x, ___y, method)

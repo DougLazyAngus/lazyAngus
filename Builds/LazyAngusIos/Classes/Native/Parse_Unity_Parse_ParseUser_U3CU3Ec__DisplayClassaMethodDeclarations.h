@@ -12,6 +12,6 @@ struct ParseUser_t1305;
 struct Task_1_t1387;
 
 // System.Void Parse.ParseUser/<>c__DisplayClassa::.ctor()
-extern "C" void U3CU3Ec__DisplayClassa__ctor_m7028 (U3CU3Ec__DisplayClassa_t1308 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClassa__ctor_m7029 (U3CU3Ec__DisplayClassa_t1308 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Parse.ParseUser Parse.ParseUser/<>c__DisplayClassa::<BecomeAsync>b__9(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-extern "C" ParseUser_t1305 * U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m7029 (U3CU3Ec__DisplayClassa_t1308 * __this, Task_1_t1387 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParseUser_t1305 * U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m7030 (U3CU3Ec__DisplayClassa_t1308 * __this, Task_1_t1387 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

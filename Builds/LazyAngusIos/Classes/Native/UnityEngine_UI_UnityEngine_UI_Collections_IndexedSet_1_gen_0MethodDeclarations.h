@@ -22,7 +22,7 @@ struct Comparison_1_t925;
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>::.ctor()
 // UnityEngine.UI.Collections.IndexedSet`1<System.Object>
 #include "UnityEngine_UI_UnityEngine_UI_Collections_IndexedSet_1_gen_1MethodDeclarations.h"
-#define IndexedSet_1__ctor_m5946(__this, method) (( void (*) (IndexedSet_1_t1071 *, const MethodInfo*))IndexedSet_1__ctor_m28710_gshared)(__this, method)
+#define IndexedSet_1__ctor_m5947(__this, method) (( void (*) (IndexedSet_1_t1071 *, const MethodInfo*))IndexedSet_1__ctor_m28710_gshared)(__this, method)
 // System.Collections.IEnumerator UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>::System.Collections.IEnumerable.GetEnumerator()
 #define IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m29545(__this, method) (( Object_t * (*) (IndexedSet_1_t1071 *, const MethodInfo*))IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m28712_gshared)(__this, method)
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>::Add(T)

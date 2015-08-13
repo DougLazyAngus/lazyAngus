@@ -16,22 +16,22 @@ struct StackFrame_t2955;
 struct String_t;
 
 // System.Void System.Diagnostics.StackTrace::.ctor()
-extern "C" void StackTrace__ctor_m15136 (StackTrace_t2918 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StackTrace__ctor_m15137 (StackTrace_t2918 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Diagnostics.StackTrace::.ctor(System.Int32,System.Boolean)
-extern "C" void StackTrace__ctor_m10175 (StackTrace_t2918 * __this, int32_t ___skipFrames, bool ___fNeedFileInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StackTrace__ctor_m10176 (StackTrace_t2918 * __this, int32_t ___skipFrames, bool ___fNeedFileInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Diagnostics.StackTrace::.ctor(System.Exception,System.Boolean)
-extern "C" void StackTrace__ctor_m17110 (StackTrace_t2918 * __this, Exception_t57 * ___e, bool ___fNeedFileInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StackTrace__ctor_m17111 (StackTrace_t2918 * __this, Exception_t57 * ___e, bool ___fNeedFileInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Diagnostics.StackTrace::.ctor(System.Exception,System.Int32,System.Boolean)
-extern "C" void StackTrace__ctor_m17111 (StackTrace_t2918 * __this, Exception_t57 * ___e, int32_t ___skipFrames, bool ___fNeedFileInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StackTrace__ctor_m17112 (StackTrace_t2918 * __this, Exception_t57 * ___e, int32_t ___skipFrames, bool ___fNeedFileInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Diagnostics.StackTrace::.ctor(System.Exception,System.Int32,System.Boolean,System.Boolean)
-extern "C" void StackTrace__ctor_m17112 (StackTrace_t2918 * __this, Exception_t57 * ___e, int32_t ___skipFrames, bool ___fNeedFileInfo, bool ___returnNativeFrames, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StackTrace__ctor_m17113 (StackTrace_t2918 * __this, Exception_t57 * ___e, int32_t ___skipFrames, bool ___fNeedFileInfo, bool ___returnNativeFrames, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Diagnostics.StackTrace::init_frames(System.Int32,System.Boolean)
-extern "C" void StackTrace_init_frames_m17113 (StackTrace_t2918 * __this, int32_t ___skipFrames, bool ___fNeedFileInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StackTrace_init_frames_m17114 (StackTrace_t2918 * __this, int32_t ___skipFrames, bool ___fNeedFileInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Diagnostics.StackFrame[] System.Diagnostics.StackTrace::get_trace(System.Exception,System.Int32,System.Boolean)
-extern "C" StackFrameU5BU5D_t4462* StackTrace_get_trace_m17114 (Object_t * __this /* static, unused */, Exception_t57 * ___e, int32_t ___skipFrames, bool ___fNeedFileInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StackFrameU5BU5D_t4462* StackTrace_get_trace_m17115 (Object_t * __this /* static, unused */, Exception_t57 * ___e, int32_t ___skipFrames, bool ___fNeedFileInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Diagnostics.StackTrace::get_FrameCount()
-extern "C" int32_t StackTrace_get_FrameCount_m17115 (StackTrace_t2918 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StackTrace_get_FrameCount_m17116 (StackTrace_t2918 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Diagnostics.StackFrame System.Diagnostics.StackTrace::GetFrame(System.Int32)
-extern "C" StackFrame_t2955 * StackTrace_GetFrame_m17116 (StackTrace_t2918 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StackFrame_t2955 * StackTrace_GetFrame_m17117 (StackTrace_t2918 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Diagnostics.StackTrace::ToString()
-extern "C" String_t* StackTrace_ToString_m17117 (StackTrace_t2918 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* StackTrace_ToString_m17118 (StackTrace_t2918 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

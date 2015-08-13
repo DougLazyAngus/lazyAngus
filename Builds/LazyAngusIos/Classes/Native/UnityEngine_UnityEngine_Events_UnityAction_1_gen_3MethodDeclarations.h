@@ -16,8 +16,8 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.Events.UnityAction`1<System.Single>::.ctor(System.Object,System.IntPtr)
-extern "C" void UnityAction_1__ctor_m6087_gshared (UnityAction_1_t1082 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define UnityAction_1__ctor_m6087(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t1082 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m6087_gshared)(__this, ___object, ___method, method)
+extern "C" void UnityAction_1__ctor_m6088_gshared (UnityAction_1_t1082 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define UnityAction_1__ctor_m6088(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t1082 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m6088_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Events.UnityAction`1<System.Single>::Invoke(T0)
 extern "C" void UnityAction_1_Invoke_m29732_gshared (UnityAction_1_t1082 * __this, float ___arg0, const MethodInfo* method);
 #define UnityAction_1_Invoke_m29732(__this, ___arg0, method) (( void (*) (UnityAction_1_t1082 *, float, const MethodInfo*))UnityAction_1_Invoke_m29732_gshared)(__this, ___arg0, method)

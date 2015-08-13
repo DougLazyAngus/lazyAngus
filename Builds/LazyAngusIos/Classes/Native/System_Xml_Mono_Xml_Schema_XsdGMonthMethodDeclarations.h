@@ -8,4 +8,4 @@
 struct XsdGMonth_t3146;
 
 // System.Void Mono.Xml.Schema.XsdGMonth::.ctor()
-extern "C" void XsdGMonth__ctor_m10494 (XsdGMonth_t3146 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdGMonth__ctor_m10495 (XsdGMonth_t3146 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

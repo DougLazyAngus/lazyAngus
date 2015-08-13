@@ -12,6 +12,6 @@ struct CCFixed_t4465;
 #include "mscorlib_System_DayOfWeek.h"
 
 // System.Int32 System.Globalization.CCFixed::FromDateTime(System.DateTime)
-extern "C" int32_t CCFixed_FromDateTime_m17124 (Object_t * __this /* static, unused */, DateTime_t287  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CCFixed_FromDateTime_m17125 (Object_t * __this /* static, unused */, DateTime_t287  ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DayOfWeek System.Globalization.CCFixed::day_of_week(System.Int32)
-extern "C" int32_t CCFixed_day_of_week_m17125 (Object_t * __this /* static, unused */, int32_t ___date, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CCFixed_day_of_week_m17126 (Object_t * __this /* static, unused */, int32_t ___date, const MethodInfo* method) IL2CPP_METHOD_ATTR;

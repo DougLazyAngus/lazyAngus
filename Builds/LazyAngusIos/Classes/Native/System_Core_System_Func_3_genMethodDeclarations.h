@@ -16,8 +16,8 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Func`3<System.Object,System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_3__ctor_m7381_gshared (Func_3_t1194 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_3__ctor_m7381(__this, ___object, ___method, method) (( void (*) (Func_3_t1194 *, Object_t *, IntPtr_t, const MethodInfo*))Func_3__ctor_m7381_gshared)(__this, ___object, ___method, method)
+extern "C" void Func_3__ctor_m7382_gshared (Func_3_t1194 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Func_3__ctor_m7382(__this, ___object, ___method, method) (( void (*) (Func_3_t1194 *, Object_t *, IntPtr_t, const MethodInfo*))Func_3__ctor_m7382_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`3<System.Object,System.Object,System.Object>::Invoke(T1,T2)
 extern "C" Object_t * Func_3_Invoke_m30656_gshared (Func_3_t1194 * __this, Object_t * ___arg1, Object_t * ___arg2, const MethodInfo* method);
 #define Func_3_Invoke_m30656(__this, ___arg1, ___arg2, method) (( Object_t * (*) (Func_3_t1194 *, Object_t *, Object_t *, const MethodInfo*))Func_3_Invoke_m30656_gshared)(__this, ___arg1, ___arg2, method)

@@ -8,4 +8,4 @@
 struct CLSCompliantAttribute_t3307;
 
 // System.Void System.CLSCompliantAttribute::.ctor(System.Boolean)
-extern "C" void CLSCompliantAttribute__ctor_m11504 (CLSCompliantAttribute_t3307 * __this, bool ___isCompliant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CLSCompliantAttribute__ctor_m11505 (CLSCompliantAttribute_t3307 * __this, bool ___isCompliant, const MethodInfo* method) IL2CPP_METHOD_ATTR;

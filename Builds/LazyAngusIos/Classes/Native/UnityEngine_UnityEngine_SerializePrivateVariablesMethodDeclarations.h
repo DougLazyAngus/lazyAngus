@@ -8,4 +8,4 @@
 struct SerializePrivateVariables_t2740;
 
 // System.Void UnityEngine.SerializePrivateVariables::.ctor()
-extern "C" void SerializePrivateVariables__ctor_m9247 (SerializePrivateVariables_t2740 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializePrivateVariables__ctor_m9248 (SerializePrivateVariables_t2740 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -9,7 +9,7 @@ struct FlexibleListWrapper_2_t1573;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IList`1<System.Single>
-struct IList_1_t5728;
+struct IList_1_t5727;
 // System.Object[]
 struct ObjectU5BU5D_t682;
 // System.Collections.Generic.IEnumerator`1<System.Object>

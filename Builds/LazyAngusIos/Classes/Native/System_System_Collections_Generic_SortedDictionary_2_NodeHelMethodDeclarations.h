@@ -14,17 +14,17 @@ struct Object_t;
 struct Node_t3951;
 
 // System.Void System.Collections.Generic.SortedDictionary`2/NodeHelper<System.Object,System.Object>::.ctor(System.Collections.Generic.IComparer`1<TKey>)
-extern "C" void NodeHelper__ctor_m25966_gshared (NodeHelper_t5637 * __this, Object_t* ___cmp, const MethodInfo* method);
-#define NodeHelper__ctor_m25966(__this, ___cmp, method) (( void (*) (NodeHelper_t5637 *, Object_t*, const MethodInfo*))NodeHelper__ctor_m25966_gshared)(__this, ___cmp, method)
+extern "C" void NodeHelper__ctor_m25967_gshared (NodeHelper_t5637 * __this, Object_t* ___cmp, const MethodInfo* method);
+#define NodeHelper__ctor_m25967(__this, ___cmp, method) (( void (*) (NodeHelper_t5637 *, Object_t*, const MethodInfo*))NodeHelper__ctor_m25967_gshared)(__this, ___cmp, method)
 // System.Void System.Collections.Generic.SortedDictionary`2/NodeHelper<System.Object,System.Object>::.cctor()
-extern "C" void NodeHelper__cctor_m25967_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define NodeHelper__cctor_m25967(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))NodeHelper__cctor_m25967_gshared)(__this /* static, unused */, method)
+extern "C" void NodeHelper__cctor_m25968_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define NodeHelper__cctor_m25968(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))NodeHelper__cctor_m25968_gshared)(__this /* static, unused */, method)
 // System.Int32 System.Collections.Generic.SortedDictionary`2/NodeHelper<System.Object,System.Object>::Compare(TKey,System.Collections.Generic.RBTree/Node)
-extern "C" int32_t NodeHelper_Compare_m25968_gshared (NodeHelper_t5637 * __this, Object_t * ___key, Node_t3951 * ___node, const MethodInfo* method);
-#define NodeHelper_Compare_m25968(__this, ___key, ___node, method) (( int32_t (*) (NodeHelper_t5637 *, Object_t *, Node_t3951 *, const MethodInfo*))NodeHelper_Compare_m25968_gshared)(__this, ___key, ___node, method)
+extern "C" int32_t NodeHelper_Compare_m25969_gshared (NodeHelper_t5637 * __this, Object_t * ___key, Node_t3951 * ___node, const MethodInfo* method);
+#define NodeHelper_Compare_m25969(__this, ___key, ___node, method) (( int32_t (*) (NodeHelper_t5637 *, Object_t *, Node_t3951 *, const MethodInfo*))NodeHelper_Compare_m25969_gshared)(__this, ___key, ___node, method)
 // System.Collections.Generic.RBTree/Node System.Collections.Generic.SortedDictionary`2/NodeHelper<System.Object,System.Object>::CreateNode(TKey)
-extern "C" Node_t3951 * NodeHelper_CreateNode_m25969_gshared (NodeHelper_t5637 * __this, Object_t * ___key, const MethodInfo* method);
-#define NodeHelper_CreateNode_m25969(__this, ___key, method) (( Node_t3951 * (*) (NodeHelper_t5637 *, Object_t *, const MethodInfo*))NodeHelper_CreateNode_m25969_gshared)(__this, ___key, method)
+extern "C" Node_t3951 * NodeHelper_CreateNode_m25970_gshared (NodeHelper_t5637 * __this, Object_t * ___key, const MethodInfo* method);
+#define NodeHelper_CreateNode_m25970(__this, ___key, method) (( Node_t3951 * (*) (NodeHelper_t5637 *, Object_t *, const MethodInfo*))NodeHelper_CreateNode_m25970_gshared)(__this, ___key, method)
 // System.Collections.Generic.SortedDictionary`2/NodeHelper<TKey,TValue> System.Collections.Generic.SortedDictionary`2/NodeHelper<System.Object,System.Object>::GetHelper(System.Collections.Generic.IComparer`1<TKey>)
-extern "C" NodeHelper_t5637 * NodeHelper_GetHelper_m25970_gshared (Object_t * __this /* static, unused */, Object_t* ___cmp, const MethodInfo* method);
-#define NodeHelper_GetHelper_m25970(__this /* static, unused */, ___cmp, method) (( NodeHelper_t5637 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))NodeHelper_GetHelper_m25970_gshared)(__this /* static, unused */, ___cmp, method)
+extern "C" NodeHelper_t5637 * NodeHelper_GetHelper_m25971_gshared (Object_t * __this /* static, unused */, Object_t* ___cmp, const MethodInfo* method);
+#define NodeHelper_GetHelper_m25971(__this /* static, unused */, ___cmp, method) (( NodeHelper_t5637 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))NodeHelper_GetHelper_m25971_gshared)(__this /* static, unused */, ___cmp, method)

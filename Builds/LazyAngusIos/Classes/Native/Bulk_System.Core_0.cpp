@@ -42,7 +42,7 @@
 
 
 // System.Void System.Runtime.CompilerServices.ExtensionAttribute::.ctor()
-extern "C" void ExtensionAttribute__ctor_m4345 (ExtensionAttribute_t803 * __this, const MethodInfo* method)
+extern "C" void ExtensionAttribute__ctor_m4346 (ExtensionAttribute_t803 * __this, const MethodInfo* method)
 {
 	{
 		Attribute__ctor_m4061(__this, /*hidden argument*/NULL);
@@ -70,11 +70,11 @@ extern "C" void ExtensionAttribute__ctor_m4345 (ExtensionAttribute_t803 * __this
 
 
 // System.Void System.Linq.Expressions.LambdaExpression::.ctor(System.Type,System.Linq.Expressions.Expression,System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression>)
-extern "C" void LambdaExpression__ctor_m11602 (LambdaExpression_t3319 * __this, Type_t * ___delegateType, Expression_t1520 * ___body, ReadOnlyCollection_1_t3318 * ___parameters, const MethodInfo* method)
+extern "C" void LambdaExpression__ctor_m11603 (LambdaExpression_t3319 * __this, Type_t * ___delegateType, Expression_t1520 * ___body, ReadOnlyCollection_1_t3318 * ___parameters, const MethodInfo* method)
 {
 	{
 		Type_t * L_0 = ___delegateType;
-		Expression__ctor_m11604(__this, ((int32_t)18), L_0, /*hidden argument*/NULL);
+		Expression__ctor_m11605(__this, ((int32_t)18), L_0, /*hidden argument*/NULL);
 		Expression_t1520 * L_1 = ___body;
 		__this->___body_2 = L_1;
 		ReadOnlyCollection_1_t3318 * L_2 = ___parameters;
@@ -83,7 +83,7 @@ extern "C" void LambdaExpression__ctor_m11602 (LambdaExpression_t3319 * __this, 
 	}
 }
 // System.Linq.Expressions.Expression System.Linq.Expressions.LambdaExpression::get_Body()
-extern "C" Expression_t1520 * LambdaExpression_get_Body_m7683 (LambdaExpression_t3319 * __this, const MethodInfo* method)
+extern "C" Expression_t1520 * LambdaExpression_get_Body_m7684 (LambdaExpression_t3319 * __this, const MethodInfo* method)
 {
 	{
 		Expression_t1520 * L_0 = (__this->___body_2);
@@ -91,7 +91,7 @@ extern "C" Expression_t1520 * LambdaExpression_get_Body_m7683 (LambdaExpression_
 	}
 }
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression> System.Linq.Expressions.LambdaExpression::get_Parameters()
-extern "C" ReadOnlyCollection_1_t3318 * LambdaExpression_get_Parameters_m11603 (LambdaExpression_t3319 * __this, const MethodInfo* method)
+extern "C" ReadOnlyCollection_1_t3318 * LambdaExpression_get_Parameters_m11604 (LambdaExpression_t3319 * __this, const MethodInfo* method)
 {
 	{
 		ReadOnlyCollection_1_t3318 * L_0 = (__this->___parameters_3);
@@ -188,11 +188,11 @@ struct ReadOnlyCollection_1_t1185;
 struct IEnumerable_1_t710;
 // Declaration System.Collections.ObjectModel.ReadOnlyCollection`1<!!0> System.Linq.Enumerable::ToReadOnlyCollection<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<!!0> System.Linq.Enumerable::ToReadOnlyCollection<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
-extern "C" ReadOnlyCollection_1_t1185 * Enumerable_ToReadOnlyCollection_TisObject_t_m11808_gshared (Object_t * __this /* static, unused */, Object_t* p0, const MethodInfo* method);
-#define Enumerable_ToReadOnlyCollection_TisObject_t_m11808(__this /* static, unused */, p0, method) (( ReadOnlyCollection_1_t1185 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToReadOnlyCollection_TisObject_t_m11808_gshared)(__this /* static, unused */, p0, method)
+extern "C" ReadOnlyCollection_1_t1185 * Enumerable_ToReadOnlyCollection_TisObject_t_m11809_gshared (Object_t * __this /* static, unused */, Object_t* p0, const MethodInfo* method);
+#define Enumerable_ToReadOnlyCollection_TisObject_t_m11809(__this /* static, unused */, p0, method) (( ReadOnlyCollection_1_t1185 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToReadOnlyCollection_TisObject_t_m11809_gshared)(__this /* static, unused */, p0, method)
 // Declaration System.Collections.ObjectModel.ReadOnlyCollection`1<!!0> System.Linq.Enumerable::ToReadOnlyCollection<System.Linq.Expressions.Expression>(System.Collections.Generic.IEnumerable`1<!!0>)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<!!0> System.Linq.Enumerable::ToReadOnlyCollection<System.Linq.Expressions.Expression>(System.Collections.Generic.IEnumerable`1<!!0>)
-#define Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11807(__this /* static, unused */, p0, method) (( ReadOnlyCollection_1_t3323 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToReadOnlyCollection_TisObject_t_m11808_gshared)(__this /* static, unused */, p0, method)
+#define Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11808(__this /* static, unused */, p0, method) (( ReadOnlyCollection_1_t3323 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToReadOnlyCollection_TisObject_t_m11809_gshared)(__this /* static, unused */, p0, method)
 struct Enumerable_t68;
 struct List_1_t3366;
 struct IEnumerable_1_t3360;
@@ -205,11 +205,11 @@ extern "C" List_1_t684 * Enumerable_ToList_TisObject_t_m3707_gshared (Object_t *
 #define Enumerable_ToList_TisObject_t_m3707(__this /* static, unused */, p0, method) (( List_1_t684 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToList_TisObject_t_m3707_gshared)(__this /* static, unused */, p0, method)
 // Declaration System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Linq.Expressions.Expression>(System.Collections.Generic.IEnumerable`1<!!0>)
 // System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Linq.Expressions.Expression>(System.Collections.Generic.IEnumerable`1<!!0>)
-#define Enumerable_ToList_TisExpression_t1520_m11809(__this /* static, unused */, p0, method) (( List_1_t3366 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToList_TisObject_t_m3707_gshared)(__this /* static, unused */, p0, method)
+#define Enumerable_ToList_TisExpression_t1520_m11810(__this /* static, unused */, p0, method) (( List_1_t3366 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToList_TisObject_t_m3707_gshared)(__this /* static, unused */, p0, method)
 
 
 // System.Void System.Linq.Expressions.Expression::.ctor(System.Linq.Expressions.ExpressionType,System.Type)
-extern "C" void Expression__ctor_m11604 (Expression_t1520 * __this, int32_t ___node_type, Type_t * ___type, const MethodInfo* method)
+extern "C" void Expression__ctor_m11605 (Expression_t1520 * __this, int32_t ___node_type, Type_t * ___type, const MethodInfo* method)
 {
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
@@ -221,7 +221,7 @@ extern "C" void Expression__ctor_m11604 (Expression_t1520 * __this, int32_t ___n
 	}
 }
 // System.Linq.Expressions.ExpressionType System.Linq.Expressions.Expression::get_NodeType()
-extern "C" int32_t Expression_get_NodeType_m11605 (Expression_t1520 * __this, const MethodInfo* method)
+extern "C" int32_t Expression_get_NodeType_m11606 (Expression_t1520 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___node_type_0);
@@ -229,7 +229,7 @@ extern "C" int32_t Expression_get_NodeType_m11605 (Expression_t1520 * __this, co
 	}
 }
 // System.Type System.Linq.Expressions.Expression::get_Type()
-extern "C" Type_t * Expression_get_Type_m11606 (Expression_t1520 * __this, const MethodInfo* method)
+extern "C" Type_t * Expression_get_Type_m11607 (Expression_t1520 * __this, const MethodInfo* method)
 {
 	{
 		Type_t * L_0 = (__this->___type_1);
@@ -237,15 +237,15 @@ extern "C" Type_t * Expression_get_Type_m11606 (Expression_t1520 * __this, const
 	}
 }
 // System.String System.Linq.Expressions.Expression::ToString()
-extern "C" String_t* Expression_ToString_m11607 (Expression_t1520 * __this, const MethodInfo* method)
+extern "C" String_t* Expression_ToString_m11608 (Expression_t1520 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = ExpressionPrinter_ToString_m11631(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		String_t* L_0 = ExpressionPrinter_ToString_m11632(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.Boolean System.Linq.Expressions.Expression::IsAssignableToParameterType(System.Type,System.Reflection.ParameterInfo)
-extern "C" bool Expression_IsAssignableToParameterType_m11608 (Object_t * __this /* static, unused */, Type_t * ___type, ParameterInfo_t1383 * ___param, const MethodInfo* method)
+extern "C" bool Expression_IsAssignableToParameterType_m11609 (Object_t * __this /* static, unused */, Type_t * ___type, ParameterInfo_t1383 * ___param, const MethodInfo* method)
 {
 	Type_t * V_0 = {0};
 	{
@@ -271,20 +271,20 @@ extern "C" bool Expression_IsAssignableToParameterType_m11608 (Object_t * __this
 IL_0019:
 	{
 		Type_t * L_6 = ___type;
-		Type_t * L_7 = Extensions_GetNotNullableType_m11688(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Type_t * L_7 = Extensions_GetNotNullableType_m11689(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		Type_t * L_8 = V_0;
-		bool L_9 = Extensions_IsAssignableTo_m11686(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		bool L_9 = Extensions_IsAssignableTo_m11687(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
 		return L_9;
 	}
 }
 // System.Linq.Expressions.MethodCallExpression System.Linq.Expressions.Expression::Call(System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.Expression[])
-extern "C" MethodCallExpression_t1528 * Expression_Call_m7682 (Object_t * __this /* static, unused */, Expression_t1520 * ___instance, MethodInfo_t * ___method, ExpressionU5BU5D_t1524* ___arguments, const MethodInfo* method)
+extern "C" MethodCallExpression_t1528 * Expression_Call_m7683 (Object_t * __this /* static, unused */, Expression_t1520 * ___instance, MethodInfo_t * ___method, ExpressionU5BU5D_t1524* ___arguments, const MethodInfo* method)
 {
 	{
 		Expression_t1520 * L_0 = ___instance;
 		MethodInfo_t * L_1 = ___method;
 		ExpressionU5BU5D_t1524* L_2 = ___arguments;
-		MethodCallExpression_t1528 * L_3 = Expression_Call_m11609(NULL /*static, unused*/, L_0, L_1, (Object_t*)(Object_t*)L_2, /*hidden argument*/NULL);
+		MethodCallExpression_t1528 * L_3 = Expression_Call_m11610(NULL /*static, unused*/, L_0, L_1, (Object_t*)(Object_t*)L_2, /*hidden argument*/NULL);
 		return L_3;
 	}
 }
@@ -292,7 +292,7 @@ extern "C" MethodCallExpression_t1528 * Expression_Call_m7682 (Object_t * __this
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentException_t711_il2cpp_TypeInfo_var;
 extern TypeInfo* MethodCallExpression_t1528_il2cpp_TypeInfo_var;
-extern "C" MethodCallExpression_t1528 * Expression_Call_m11609 (Object_t * __this /* static, unused */, Expression_t1520 * ___instance, MethodInfo_t * ___method, Object_t* ___arguments, const MethodInfo* method)
+extern "C" MethodCallExpression_t1528 * Expression_Call_m11610 (Object_t * __this /* static, unused */, Expression_t1520 * ___instance, MethodInfo_t * ___method, Object_t* ___arguments, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -375,11 +375,11 @@ IL_0049:
 	{
 		Expression_t1520 * L_12 = ___instance;
 		NullCheck(L_12);
-		Type_t * L_13 = Expression_get_Type_m11606(L_12, /*hidden argument*/NULL);
+		Type_t * L_13 = Expression_get_Type_m11607(L_12, /*hidden argument*/NULL);
 		MethodInfo_t * L_14 = ___method;
 		NullCheck(L_14);
 		Type_t * L_15 = (Type_t *)VirtFuncInvoker0< Type_t * >::Invoke(6 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_14);
-		bool L_16 = Extensions_IsAssignableTo_m11686(NULL /*static, unused*/, L_13, L_15, /*hidden argument*/NULL);
+		bool L_16 = Extensions_IsAssignableTo_m11687(NULL /*static, unused*/, L_13, L_15, /*hidden argument*/NULL);
 		if (L_16)
 		{
 			goto IL_0075;
@@ -395,13 +395,13 @@ IL_0075:
 	{
 		MethodInfo_t * L_18 = ___method;
 		Object_t* L_19 = ___arguments;
-		ReadOnlyCollection_1_t3323 * L_20 = Expression_CheckMethodArguments_m11615(NULL /*static, unused*/, L_18, L_19, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_20 = Expression_CheckMethodArguments_m11616(NULL /*static, unused*/, L_18, L_19, /*hidden argument*/NULL);
 		V_0 = L_20;
 		Expression_t1520 * L_21 = ___instance;
 		MethodInfo_t * L_22 = ___method;
 		ReadOnlyCollection_1_t3323 * L_23 = V_0;
 		MethodCallExpression_t1528 * L_24 = (MethodCallExpression_t1528 *)il2cpp_codegen_object_new (MethodCallExpression_t1528_il2cpp_TypeInfo_var);
-		MethodCallExpression__ctor_m11706(L_24, L_21, L_22, L_23, /*hidden argument*/NULL);
+		MethodCallExpression__ctor_m11707(L_24, L_21, L_22, L_23, /*hidden argument*/NULL);
 		return L_24;
 	}
 }
@@ -409,7 +409,7 @@ IL_0075:
 extern const Il2CppType* Object_t_0_0_0_var;
 extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ConstantExpression_t1526_il2cpp_TypeInfo_var;
-extern "C" ConstantExpression_t1526 * Expression_Constant_m7679 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method)
+extern "C" ConstantExpression_t1526 * Expression_Constant_m7680 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -430,7 +430,7 @@ extern "C" ConstantExpression_t1526 * Expression_Constant_m7679 (Object_t * __th
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_1 = Type_GetTypeFromHandle_m4058(NULL /*static, unused*/, LoadTypeToken(Object_t_0_0_0_var), /*hidden argument*/NULL);
 		ConstantExpression_t1526 * L_2 = (ConstantExpression_t1526 *)il2cpp_codegen_object_new (ConstantExpression_t1526_il2cpp_TypeInfo_var);
-		ConstantExpression__ctor_m11624(L_2, NULL, L_1, /*hidden argument*/NULL);
+		ConstantExpression__ctor_m11625(L_2, NULL, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 
@@ -440,7 +440,7 @@ IL_0017:
 		Object_t * L_4 = ___value;
 		NullCheck(L_4);
 		Type_t * L_5 = Object_GetType_m4060(L_4, /*hidden argument*/NULL);
-		ConstantExpression_t1526 * L_6 = Expression_Constant_m11610(NULL /*static, unused*/, L_3, L_5, /*hidden argument*/NULL);
+		ConstantExpression_t1526 * L_6 = Expression_Constant_m11611(NULL /*static, unused*/, L_3, L_5, /*hidden argument*/NULL);
 		return L_6;
 	}
 }
@@ -448,7 +448,7 @@ IL_0017:
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentException_t711_il2cpp_TypeInfo_var;
 extern TypeInfo* ConstantExpression_t1526_il2cpp_TypeInfo_var;
-extern "C" ConstantExpression_t1526 * Expression_Constant_m11610 (Object_t * __this /* static, unused */, Object_t * ___value, Type_t * ___type, const MethodInfo* method)
+extern "C" ConstantExpression_t1526 * Expression_Constant_m11611 (Object_t * __this /* static, unused */, Object_t * ___value, Type_t * ___type, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -490,7 +490,7 @@ IL_0011:
 	}
 	{
 		Type_t * L_5 = ___type;
-		bool L_6 = Extensions_IsNullable_m11684(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		bool L_6 = Extensions_IsNullable_m11685(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		if (L_6)
 		{
 			goto IL_0033;
@@ -498,7 +498,7 @@ IL_0011:
 	}
 	{
 		ArgumentException_t711 * L_7 = (ArgumentException_t711 *)il2cpp_codegen_object_new (ArgumentException_t711_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m11480(L_7, /*hidden argument*/NULL);
+		ArgumentException__ctor_m11481(L_7, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -519,7 +519,7 @@ IL_0038:
 	}
 	{
 		Type_t * L_10 = ___type;
-		bool L_11 = Extensions_IsNullable_m11684(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		bool L_11 = Extensions_IsNullable_m11685(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		if (L_11)
 		{
 			goto IL_0065;
@@ -532,7 +532,7 @@ IL_004e:
 		NullCheck(L_12);
 		Type_t * L_13 = Object_GetType_m4060(L_12, /*hidden argument*/NULL);
 		Type_t * L_14 = ___type;
-		bool L_15 = Extensions_IsAssignableTo_m11686(NULL /*static, unused*/, L_13, L_14, /*hidden argument*/NULL);
+		bool L_15 = Extensions_IsAssignableTo_m11687(NULL /*static, unused*/, L_13, L_14, /*hidden argument*/NULL);
 		if (L_15)
 		{
 			goto IL_0065;
@@ -540,7 +540,7 @@ IL_004e:
 	}
 	{
 		ArgumentException_t711 * L_16 = (ArgumentException_t711 *)il2cpp_codegen_object_new (ArgumentException_t711_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m11480(L_16, /*hidden argument*/NULL);
+		ArgumentException__ctor_m11481(L_16, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_16);
 	}
 
@@ -549,7 +549,7 @@ IL_0065:
 		Object_t * L_17 = ___value;
 		Type_t * L_18 = ___type;
 		ConstantExpression_t1526 * L_19 = (ConstantExpression_t1526 *)il2cpp_codegen_object_new (ConstantExpression_t1526_il2cpp_TypeInfo_var);
-		ConstantExpression__ctor_m11624(L_19, L_17, L_18, /*hidden argument*/NULL);
+		ConstantExpression__ctor_m11625(L_19, L_17, L_18, /*hidden argument*/NULL);
 		return L_19;
 	}
 }
@@ -557,7 +557,7 @@ IL_0065:
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentException_t711_il2cpp_TypeInfo_var;
 extern TypeInfo* MemberExpression_t1527_il2cpp_TypeInfo_var;
-extern "C" MemberExpression_t1527 * Expression_Field_m7681 (Object_t * __this /* static, unused */, Expression_t1520 * ___expression, FieldInfo_t * ___field, const MethodInfo* method)
+extern "C" MemberExpression_t1527 * Expression_Field_m7682 (Object_t * __this /* static, unused */, Expression_t1520 * ___expression, FieldInfo_t * ___field, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -607,11 +607,11 @@ IL_002d:
 	{
 		Expression_t1520 * L_6 = ___expression;
 		NullCheck(L_6);
-		Type_t * L_7 = Expression_get_Type_m11606(L_6, /*hidden argument*/NULL);
+		Type_t * L_7 = Expression_get_Type_m11607(L_6, /*hidden argument*/NULL);
 		FieldInfo_t * L_8 = ___field;
 		NullCheck(L_8);
 		Type_t * L_9 = (Type_t *)VirtFuncInvoker0< Type_t * >::Invoke(6 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_8);
-		bool L_10 = Extensions_IsAssignableTo_m11686(NULL /*static, unused*/, L_7, L_9, /*hidden argument*/NULL);
+		bool L_10 = Extensions_IsAssignableTo_m11687(NULL /*static, unused*/, L_7, L_9, /*hidden argument*/NULL);
 		if (L_10)
 		{
 			goto IL_004e;
@@ -650,12 +650,12 @@ IL_0064:
 		NullCheck(L_16);
 		Type_t * L_17 = (Type_t *)VirtFuncInvoker0< Type_t * >::Invoke(16 /* System.Type System.Reflection.FieldInfo::get_FieldType() */, L_16);
 		MemberExpression_t1527 * L_18 = (MemberExpression_t1527 *)il2cpp_codegen_object_new (MemberExpression_t1527_il2cpp_TypeInfo_var);
-		MemberExpression__ctor_m11699(L_18, L_14, L_15, L_17, /*hidden argument*/NULL);
+		MemberExpression__ctor_m11700(L_18, L_14, L_15, L_17, /*hidden argument*/NULL);
 		return L_18;
 	}
 }
 // System.Boolean System.Linq.Expressions.Expression::CanAssign(System.Type,System.Type)
-extern "C" bool Expression_CanAssign_m11611 (Object_t * __this /* static, unused */, Type_t * ___target, Type_t * ___source, const MethodInfo* method)
+extern "C" bool Expression_CanAssign_m11612 (Object_t * __this /* static, unused */, Type_t * ___target, Type_t * ___source, const MethodInfo* method)
 {
 	{
 		Type_t * L_0 = ___target;
@@ -677,7 +677,7 @@ IL_0014:
 	{
 		Type_t * L_4 = ___source;
 		Type_t * L_5 = ___target;
-		bool L_6 = Extensions_IsAssignableTo_m11686(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
+		bool L_6 = Extensions_IsAssignableTo_m11687(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
 		return L_6;
 	}
 }
@@ -688,7 +688,7 @@ extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentException_t711_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
-extern "C" Expression_t1520 * Expression_CheckLambda_m11612 (Object_t * __this /* static, unused */, Type_t * ___delegateType, Expression_t1520 * ___body, ReadOnlyCollection_1_t3318 * ___parameters, const MethodInfo* method)
+extern "C" Expression_t1520 * Expression_CheckLambda_m11613 (Object_t * __this /* static, unused */, Type_t * ___delegateType, Expression_t1520 * ___body, ReadOnlyCollection_1_t3318 * ___parameters, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -725,7 +725,7 @@ extern "C" Expression_t1520 * Expression_CheckLambda_m11612 (Object_t * __this /
 IL_0020:
 	{
 		Type_t * L_4 = ___delegateType;
-		MethodInfo_t * L_5 = Extensions_GetInvokeMethod_m11689(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		MethodInfo_t * L_5 = Extensions_GetInvokeMethod_m11690(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
 		MethodInfo_t * L_6 = V_0;
 		if (L_6)
@@ -793,7 +793,7 @@ IL_0088:
 	{
 		ParameterExpression_t3342 * L_21 = V_3;
 		NullCheck(L_21);
-		Type_t * L_22 = Expression_get_Type_m11606(L_21, /*hidden argument*/NULL);
+		Type_t * L_22 = Expression_get_Type_m11607(L_21, /*hidden argument*/NULL);
 		ParameterInfoU5BU5D_t1458* L_23 = V_1;
 		int32_t L_24 = V_2;
 		NullCheck(L_23);
@@ -801,7 +801,7 @@ IL_0088:
 		int32_t L_25 = L_24;
 		NullCheck((*(ParameterInfo_t1383 **)(ParameterInfo_t1383 **)SZArrayLdElema(L_23, L_25)));
 		Type_t * L_26 = (Type_t *)VirtFuncInvoker0< Type_t * >::Invoke(6 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, (*(ParameterInfo_t1383 **)(ParameterInfo_t1383 **)SZArrayLdElema(L_23, L_25)));
-		bool L_27 = Expression_CanAssign_m11611(NULL /*static, unused*/, L_22, L_26, /*hidden argument*/NULL);
+		bool L_27 = Expression_CanAssign_m11612(NULL /*static, unused*/, L_22, L_26, /*hidden argument*/NULL);
 		if (L_27)
 		{
 			goto IL_00be;
@@ -817,7 +817,7 @@ IL_0088:
 		Type_t * L_31 = (Type_t *)VirtFuncInvoker0< Type_t * >::Invoke(6 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, (*(ParameterInfo_t1383 **)(ParameterInfo_t1383 **)SZArrayLdElema(L_28, L_30)));
 		ParameterExpression_t3342 * L_32 = V_3;
 		NullCheck(L_32);
-		Type_t * L_33 = Expression_get_Type_m11606(L_32, /*hidden argument*/NULL);
+		Type_t * L_33 = Expression_get_Type_m11607(L_32, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_34 = String_Format_m4059(NULL /*static, unused*/, (String_t*) &_stringLiteral2472, L_31, L_33, /*hidden argument*/NULL);
 		ArgumentException_t711 * L_35 = (ArgumentException_t711 *)il2cpp_codegen_object_new (ArgumentException_t711_il2cpp_TypeInfo_var);
@@ -858,8 +858,8 @@ IL_00c2:
 		Type_t * L_43 = (Type_t *)VirtFuncInvoker0< Type_t * >::Invoke(28 /* System.Type System.Reflection.MethodInfo::get_ReturnType() */, L_42);
 		Expression_t1520 * L_44 = ___body;
 		NullCheck(L_44);
-		Type_t * L_45 = Expression_get_Type_m11606(L_44, /*hidden argument*/NULL);
-		bool L_46 = Expression_CanAssign_m11611(NULL /*static, unused*/, L_43, L_45, /*hidden argument*/NULL);
+		Type_t * L_45 = Expression_get_Type_m11607(L_44, /*hidden argument*/NULL);
+		bool L_46 = Expression_CanAssign_m11612(NULL /*static, unused*/, L_43, L_45, /*hidden argument*/NULL);
 		if (L_46)
 		{
 			goto IL_0129;
@@ -869,7 +869,7 @@ IL_00c2:
 		MethodInfo_t * L_47 = V_0;
 		NullCheck(L_47);
 		Type_t * L_48 = (Type_t *)VirtFuncInvoker0< Type_t * >::Invoke(28 /* System.Type System.Reflection.MethodInfo::get_ReturnType() */, L_47);
-		bool L_49 = Extensions_IsExpression_m11685(NULL /*static, unused*/, L_48, /*hidden argument*/NULL);
+		bool L_49 = Extensions_IsExpression_m11686(NULL /*static, unused*/, L_48, /*hidden argument*/NULL);
 		if (!L_49)
 		{
 			goto IL_010d;
@@ -877,7 +877,7 @@ IL_00c2:
 	}
 	{
 		Expression_t1520 * L_50 = ___body;
-		UnaryExpression_t3344 * L_51 = Expression_Quote_m11616(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
+		UnaryExpression_t3344 * L_51 = Expression_Quote_m11617(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
 		return L_51;
 	}
 
@@ -885,7 +885,7 @@ IL_010d:
 	{
 		Expression_t1520 * L_52 = ___body;
 		NullCheck(L_52);
-		Type_t * L_53 = Expression_get_Type_m11606(L_52, /*hidden argument*/NULL);
+		Type_t * L_53 = Expression_get_Type_m11607(L_52, /*hidden argument*/NULL);
 		MethodInfo_t * L_54 = V_0;
 		NullCheck(L_54);
 		Type_t * L_55 = (Type_t *)VirtFuncInvoker0< Type_t * >::Invoke(28 /* System.Type System.Reflection.MethodInfo::get_ReturnType() */, L_54);
@@ -903,15 +903,15 @@ IL_0129:
 	}
 }
 // System.Collections.Generic.IList`1<System.Linq.Expressions.Expression> System.Linq.Expressions.Expression::CreateArgumentList(System.Collections.Generic.IEnumerable`1<System.Linq.Expressions.Expression>)
-extern const MethodInfo* Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11807_MethodInfo_var;
-extern const MethodInfo* Enumerable_ToList_TisExpression_t1520_m11809_MethodInfo_var;
-extern "C" Object_t* Expression_CreateArgumentList_m11613 (Object_t * __this /* static, unused */, Object_t* ___arguments, const MethodInfo* method)
+extern const MethodInfo* Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11808_MethodInfo_var;
+extern const MethodInfo* Enumerable_ToList_TisExpression_t1520_m11810_MethodInfo_var;
+extern "C" Object_t* Expression_CreateArgumentList_m11614 (Object_t * __this /* static, unused */, Object_t* ___arguments, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11807_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485170);
-		Enumerable_ToList_TisExpression_t1520_m11809_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485171);
+		Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11808_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485171);
+		Enumerable_ToList_TisExpression_t1520_m11810_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485172);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -923,20 +923,20 @@ extern "C" Object_t* Expression_CreateArgumentList_m11613 (Object_t * __this /* 
 	}
 	{
 		Object_t* L_1 = ___arguments;
-		ReadOnlyCollection_1_t3323 * L_2 = Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11807(NULL /*static, unused*/, L_1, /*hidden argument*/Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11807_MethodInfo_var);
+		ReadOnlyCollection_1_t3323 * L_2 = Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11808(NULL /*static, unused*/, L_1, /*hidden argument*/Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11808_MethodInfo_var);
 		return L_2;
 	}
 
 IL_000d:
 	{
 		Object_t* L_3 = ___arguments;
-		List_1_t3366 * L_4 = Enumerable_ToList_TisExpression_t1520_m11809(NULL /*static, unused*/, L_3, /*hidden argument*/Enumerable_ToList_TisExpression_t1520_m11809_MethodInfo_var);
+		List_1_t3366 * L_4 = Enumerable_ToList_TisExpression_t1520_m11810(NULL /*static, unused*/, L_3, /*hidden argument*/Enumerable_ToList_TisExpression_t1520_m11810_MethodInfo_var);
 		return L_4;
 	}
 }
 // System.Void System.Linq.Expressions.Expression::CheckNonGenericMethod(System.Reflection.MethodBase)
 extern TypeInfo* ArgumentException_t711_il2cpp_TypeInfo_var;
-extern "C" void Expression_CheckNonGenericMethod_m11614 (Object_t * __this /* static, unused */, MethodBase_t1525 * ___method, const MethodInfo* method)
+extern "C" void Expression_CheckNonGenericMethod_m11615 (Object_t * __this /* static, unused */, MethodBase_t1525 * ___method, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -980,8 +980,8 @@ extern TypeInfo* ICollection_1_t3367_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentException_t711_il2cpp_TypeInfo_var;
 extern TypeInfo* IList_1_t3361_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
-extern const MethodInfo* Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11807_MethodInfo_var;
-extern "C" ReadOnlyCollection_1_t3323 * Expression_CheckMethodArguments_m11615 (Object_t * __this /* static, unused */, MethodBase_t1525 * ___method, Object_t* ___args, const MethodInfo* method)
+extern const MethodInfo* Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11808_MethodInfo_var;
+extern "C" ReadOnlyCollection_1_t3323 * Expression_CheckMethodArguments_m11616 (Object_t * __this /* static, unused */, MethodBase_t1525 * ___method, Object_t* ___args, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -990,7 +990,7 @@ extern "C" ReadOnlyCollection_1_t3323 * Expression_CheckMethodArguments_m11615 (
 		ArgumentException_t711_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
 		IList_1_t3361_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5970);
 		ArgumentNullException_t770_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11807_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485170);
+		Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11808_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485171);
 		s_Il2CppMethodIntialized = true;
 	}
 	Object_t* V_0 = {0};
@@ -998,9 +998,9 @@ extern "C" ReadOnlyCollection_1_t3323 * Expression_CheckMethodArguments_m11615 (
 	int32_t V_2 = 0;
 	{
 		MethodBase_t1525 * L_0 = ___method;
-		Expression_CheckNonGenericMethod_m11614(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Expression_CheckNonGenericMethod_m11615(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		Object_t* L_1 = ___args;
-		Object_t* L_2 = Expression_CreateArgumentList_m11613(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		Object_t* L_2 = Expression_CreateArgumentList_m11614(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		MethodBase_t1525 * L_3 = ___method;
 		NullCheck(L_3);
@@ -1052,13 +1052,13 @@ IL_004b:
 		NullCheck(L_13);
 		Expression_t1520 * L_15 = (Expression_t1520 *)InterfaceFuncInvoker1< Expression_t1520 *, int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<System.Linq.Expressions.Expression>::get_Item(System.Int32) */, IList_1_t3361_il2cpp_TypeInfo_var, L_13, L_14);
 		NullCheck(L_15);
-		Type_t * L_16 = Expression_get_Type_m11606(L_15, /*hidden argument*/NULL);
+		Type_t * L_16 = Expression_get_Type_m11607(L_15, /*hidden argument*/NULL);
 		ParameterInfoU5BU5D_t1458* L_17 = V_1;
 		int32_t L_18 = V_2;
 		NullCheck(L_17);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_17, L_18);
 		int32_t L_19 = L_18;
-		bool L_20 = Expression_IsAssignableToParameterType_m11608(NULL /*static, unused*/, L_16, (*(ParameterInfo_t1383 **)(ParameterInfo_t1383 **)SZArrayLdElema(L_17, L_19)), /*hidden argument*/NULL);
+		bool L_20 = Expression_IsAssignableToParameterType_m11609(NULL /*static, unused*/, L_16, (*(ParameterInfo_t1383 **)(ParameterInfo_t1383 **)SZArrayLdElema(L_17, L_19)), /*hidden argument*/NULL);
 		if (L_20)
 		{
 			goto IL_0094;
@@ -1072,7 +1072,7 @@ IL_004b:
 		int32_t L_23 = L_22;
 		NullCheck((*(ParameterInfo_t1383 **)(ParameterInfo_t1383 **)SZArrayLdElema(L_21, L_23)));
 		Type_t * L_24 = (Type_t *)VirtFuncInvoker0< Type_t * >::Invoke(6 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, (*(ParameterInfo_t1383 **)(ParameterInfo_t1383 **)SZArrayLdElema(L_21, L_23)));
-		bool L_25 = Extensions_IsExpression_m11685(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		bool L_25 = Extensions_IsExpression_m11686(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
 		if (L_25)
 		{
 			goto IL_0081;
@@ -1092,7 +1092,7 @@ IL_0081:
 		int32_t L_30 = V_2;
 		NullCheck(L_29);
 		Expression_t1520 * L_31 = (Expression_t1520 *)InterfaceFuncInvoker1< Expression_t1520 *, int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<System.Linq.Expressions.Expression>::get_Item(System.Int32) */, IList_1_t3361_il2cpp_TypeInfo_var, L_29, L_30);
-		UnaryExpression_t3344 * L_32 = Expression_Quote_m11616(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+		UnaryExpression_t3344 * L_32 = Expression_Quote_m11617(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
 		NullCheck(L_27);
 		InterfaceActionInvoker2< int32_t, Expression_t1520 * >::Invoke(4 /* System.Void System.Collections.Generic.IList`1<System.Linq.Expressions.Expression>::set_Item(System.Int32,!0) */, IList_1_t3361_il2cpp_TypeInfo_var, L_27, L_28, L_32);
 	}
@@ -1115,14 +1115,14 @@ IL_0098:
 	}
 	{
 		Object_t* L_36 = V_0;
-		ReadOnlyCollection_1_t3323 * L_37 = Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11807(NULL /*static, unused*/, L_36, /*hidden argument*/Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11807_MethodInfo_var);
+		ReadOnlyCollection_1_t3323 * L_37 = Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11808(NULL /*static, unused*/, L_36, /*hidden argument*/Enumerable_ToReadOnlyCollection_TisExpression_t1520_m11808_MethodInfo_var);
 		return L_37;
 	}
 }
 // System.Linq.Expressions.UnaryExpression System.Linq.Expressions.Expression::Quote(System.Linq.Expressions.Expression)
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
 extern TypeInfo* UnaryExpression_t3344_il2cpp_TypeInfo_var;
-extern "C" UnaryExpression_t3344 * Expression_Quote_m11616 (Object_t * __this /* static, unused */, Expression_t1520 * ___expression, const MethodInfo* method)
+extern "C" UnaryExpression_t3344 * Expression_Quote_m11617 (Object_t * __this /* static, unused */, Expression_t1520 * ___expression, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1151,7 +1151,7 @@ IL_0011:
 		NullCheck(L_3);
 		Type_t * L_4 = Object_GetType_m4060(L_3, /*hidden argument*/NULL);
 		UnaryExpression_t3344 * L_5 = (UnaryExpression_t3344 *)il2cpp_codegen_object_new (UnaryExpression_t3344_il2cpp_TypeInfo_var);
-		UnaryExpression__ctor_m11715(L_5, ((int32_t)40), L_2, L_4, /*hidden argument*/NULL);
+		UnaryExpression__ctor_m11716(L_5, ((int32_t)40), L_2, L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
 }
@@ -1166,7 +1166,7 @@ IL_0011:
 
 
 // System.Void System.MonoTODOAttribute::.ctor()
-extern "C" void MonoTODOAttribute__ctor_m11617 (MonoTODOAttribute_t3320 * __this, const MethodInfo* method)
+extern "C" void MonoTODOAttribute__ctor_m11618 (MonoTODOAttribute_t3320 * __this, const MethodInfo* method)
 {
 	{
 		Attribute__ctor_m4061(__this, /*hidden argument*/NULL);
@@ -1184,7 +1184,7 @@ extern "C" void MonoTODOAttribute__ctor_m11617 (MonoTODOAttribute_t3320 * __this
 
 
 // System.Linq.Expressions.Expression System.Linq.Expressions.BinaryExpression::get_Left()
-extern "C" Expression_t1520 * BinaryExpression_get_Left_m11618 (BinaryExpression_t3321 * __this, const MethodInfo* method)
+extern "C" Expression_t1520 * BinaryExpression_get_Left_m11619 (BinaryExpression_t3321 * __this, const MethodInfo* method)
 {
 	{
 		Expression_t1520 * L_0 = (__this->___left_2);
@@ -1192,7 +1192,7 @@ extern "C" Expression_t1520 * BinaryExpression_get_Left_m11618 (BinaryExpression
 	}
 }
 // System.Linq.Expressions.Expression System.Linq.Expressions.BinaryExpression::get_Right()
-extern "C" Expression_t1520 * BinaryExpression_get_Right_m11619 (BinaryExpression_t3321 * __this, const MethodInfo* method)
+extern "C" Expression_t1520 * BinaryExpression_get_Right_m11620 (BinaryExpression_t3321 * __this, const MethodInfo* method)
 {
 	{
 		Expression_t1520 * L_0 = (__this->___right_3);
@@ -1200,7 +1200,7 @@ extern "C" Expression_t1520 * BinaryExpression_get_Right_m11619 (BinaryExpressio
 	}
 }
 // System.Linq.Expressions.LambdaExpression System.Linq.Expressions.BinaryExpression::get_Conversion()
-extern "C" LambdaExpression_t3319 * BinaryExpression_get_Conversion_m11620 (BinaryExpression_t3321 * __this, const MethodInfo* method)
+extern "C" LambdaExpression_t3319 * BinaryExpression_get_Conversion_m11621 (BinaryExpression_t3321 * __this, const MethodInfo* method)
 {
 	{
 		LambdaExpression_t3319 * L_0 = (__this->___conversion_4);
@@ -1218,7 +1218,7 @@ extern "C" LambdaExpression_t3319 * BinaryExpression_get_Conversion_m11620 (Bina
 
 
 // System.Linq.Expressions.Expression System.Linq.Expressions.ConditionalExpression::get_Test()
-extern "C" Expression_t1520 * ConditionalExpression_get_Test_m11621 (ConditionalExpression_t3322 * __this, const MethodInfo* method)
+extern "C" Expression_t1520 * ConditionalExpression_get_Test_m11622 (ConditionalExpression_t3322 * __this, const MethodInfo* method)
 {
 	{
 		Expression_t1520 * L_0 = (__this->___test_2);
@@ -1226,7 +1226,7 @@ extern "C" Expression_t1520 * ConditionalExpression_get_Test_m11621 (Conditional
 	}
 }
 // System.Linq.Expressions.Expression System.Linq.Expressions.ConditionalExpression::get_IfTrue()
-extern "C" Expression_t1520 * ConditionalExpression_get_IfTrue_m11622 (ConditionalExpression_t3322 * __this, const MethodInfo* method)
+extern "C" Expression_t1520 * ConditionalExpression_get_IfTrue_m11623 (ConditionalExpression_t3322 * __this, const MethodInfo* method)
 {
 	{
 		Expression_t1520 * L_0 = (__this->___if_true_3);
@@ -1234,7 +1234,7 @@ extern "C" Expression_t1520 * ConditionalExpression_get_IfTrue_m11622 (Condition
 	}
 }
 // System.Linq.Expressions.Expression System.Linq.Expressions.ConditionalExpression::get_IfFalse()
-extern "C" Expression_t1520 * ConditionalExpression_get_IfFalse_m11623 (ConditionalExpression_t3322 * __this, const MethodInfo* method)
+extern "C" Expression_t1520 * ConditionalExpression_get_IfFalse_m11624 (ConditionalExpression_t3322 * __this, const MethodInfo* method)
 {
 	{
 		Expression_t1520 * L_0 = (__this->___if_false_4);
@@ -1248,18 +1248,18 @@ extern "C" Expression_t1520 * ConditionalExpression_get_IfFalse_m11623 (Conditio
 
 
 // System.Void System.Linq.Expressions.ConstantExpression::.ctor(System.Object,System.Type)
-extern "C" void ConstantExpression__ctor_m11624 (ConstantExpression_t1526 * __this, Object_t * ___value, Type_t * ___type, const MethodInfo* method)
+extern "C" void ConstantExpression__ctor_m11625 (ConstantExpression_t1526 * __this, Object_t * ___value, Type_t * ___type, const MethodInfo* method)
 {
 	{
 		Type_t * L_0 = ___type;
-		Expression__ctor_m11604(__this, ((int32_t)9), L_0, /*hidden argument*/NULL);
+		Expression__ctor_m11605(__this, ((int32_t)9), L_0, /*hidden argument*/NULL);
 		Object_t * L_1 = ___value;
 		__this->___value_2 = L_1;
 		return;
 	}
 }
 // System.Object System.Linq.Expressions.ConstantExpression::get_Value()
-extern "C" Object_t * ConstantExpression_get_Value_m11625 (ConstantExpression_t1526 * __this, const MethodInfo* method)
+extern "C" Object_t * ConstantExpression_get_Value_m11626 (ConstantExpression_t1526 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___value_2);
@@ -1277,7 +1277,7 @@ extern "C" Object_t * ConstantExpression_get_Value_m11625 (ConstantExpression_t1
 
 
 // System.Reflection.MethodInfo System.Linq.Expressions.ElementInit::get_AddMethod()
-extern "C" MethodInfo_t * ElementInit_get_AddMethod_m11626 (ElementInit_t3324 * __this, const MethodInfo* method)
+extern "C" MethodInfo_t * ElementInit_get_AddMethod_m11627 (ElementInit_t3324 * __this, const MethodInfo* method)
 {
 	{
 		MethodInfo_t * L_0 = (__this->___add_method_0);
@@ -1285,7 +1285,7 @@ extern "C" MethodInfo_t * ElementInit_get_AddMethod_m11626 (ElementInit_t3324 * 
 	}
 }
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> System.Linq.Expressions.ElementInit::get_Arguments()
-extern "C" ReadOnlyCollection_1_t3323 * ElementInit_get_Arguments_m11627 (ElementInit_t3324 * __this, const MethodInfo* method)
+extern "C" ReadOnlyCollection_1_t3323 * ElementInit_get_Arguments_m11628 (ElementInit_t3324 * __this, const MethodInfo* method)
 {
 	{
 		ReadOnlyCollection_1_t3323 * L_0 = (__this->___arguments_1);
@@ -1293,10 +1293,10 @@ extern "C" ReadOnlyCollection_1_t3323 * ElementInit_get_Arguments_m11627 (Elemen
 	}
 }
 // System.String System.Linq.Expressions.ElementInit::ToString()
-extern "C" String_t* ElementInit_ToString_m11628 (ElementInit_t3324 * __this, const MethodInfo* method)
+extern "C" String_t* ElementInit_ToString_m11629 (ElementInit_t3324 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = ExpressionPrinter_ToString_m11632(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		String_t* L_0 = ExpressionPrinter_ToString_m11633(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -1396,30 +1396,30 @@ struct ReadOnlyCollection_1_t1185;
 struct Action_1_t3369;
 // Declaration System.Void System.Linq.Expressions.ExpressionVisitor::VisitList<System.Object>(System.Collections.ObjectModel.ReadOnlyCollection`1<!!0>,System.Action`1<!!0>)
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitList<System.Object>(System.Collections.ObjectModel.ReadOnlyCollection`1<!!0>,System.Action`1<!!0>)
-extern "C" void ExpressionVisitor_VisitList_TisObject_t_m11811_gshared (ExpressionVisitor_t3326 * __this, ReadOnlyCollection_1_t1185 * p0, Action_1_t3369 * p1, const MethodInfo* method);
-#define ExpressionVisitor_VisitList_TisObject_t_m11811(__this, p0, p1, method) (( void (*) (ExpressionVisitor_t3326 *, ReadOnlyCollection_1_t1185 *, Action_1_t3369 *, const MethodInfo*))ExpressionVisitor_VisitList_TisObject_t_m11811_gshared)(__this, p0, p1, method)
+extern "C" void ExpressionVisitor_VisitList_TisObject_t_m11812_gshared (ExpressionVisitor_t3326 * __this, ReadOnlyCollection_1_t1185 * p0, Action_1_t3369 * p1, const MethodInfo* method);
+#define ExpressionVisitor_VisitList_TisObject_t_m11812(__this, p0, p1, method) (( void (*) (ExpressionVisitor_t3326 *, ReadOnlyCollection_1_t1185 *, Action_1_t3369 *, const MethodInfo*))ExpressionVisitor_VisitList_TisObject_t_m11812_gshared)(__this, p0, p1, method)
 // Declaration System.Void System.Linq.Expressions.ExpressionVisitor::VisitList<System.Linq.Expressions.MemberBinding>(System.Collections.ObjectModel.ReadOnlyCollection`1<!!0>,System.Action`1<!!0>)
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitList<System.Linq.Expressions.MemberBinding>(System.Collections.ObjectModel.ReadOnlyCollection`1<!!0>,System.Action`1<!!0>)
-#define ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11810(__this, p0, p1, method) (( void (*) (ExpressionVisitor_t3326 *, ReadOnlyCollection_1_t3336 *, Action_1_t3368 *, const MethodInfo*))ExpressionVisitor_VisitList_TisObject_t_m11811_gshared)(__this, p0, p1, method)
+#define ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11811(__this, p0, p1, method) (( void (*) (ExpressionVisitor_t3326 *, ReadOnlyCollection_1_t3336 *, Action_1_t3368 *, const MethodInfo*))ExpressionVisitor_VisitList_TisObject_t_m11812_gshared)(__this, p0, p1, method)
 struct ExpressionVisitor_t3326;
 struct ReadOnlyCollection_1_t3331;
 struct Action_1_t3370;
 // Declaration System.Void System.Linq.Expressions.ExpressionVisitor::VisitList<System.Linq.Expressions.ElementInit>(System.Collections.ObjectModel.ReadOnlyCollection`1<!!0>,System.Action`1<!!0>)
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitList<System.Linq.Expressions.ElementInit>(System.Collections.ObjectModel.ReadOnlyCollection`1<!!0>,System.Action`1<!!0>)
-#define ExpressionVisitor_VisitList_TisElementInit_t3324_m11812(__this, p0, p1, method) (( void (*) (ExpressionVisitor_t3326 *, ReadOnlyCollection_1_t3331 *, Action_1_t3370 *, const MethodInfo*))ExpressionVisitor_VisitList_TisObject_t_m11811_gshared)(__this, p0, p1, method)
+#define ExpressionVisitor_VisitList_TisElementInit_t3324_m11813(__this, p0, p1, method) (( void (*) (ExpressionVisitor_t3326 *, ReadOnlyCollection_1_t3331 *, Action_1_t3370 *, const MethodInfo*))ExpressionVisitor_VisitList_TisObject_t_m11812_gshared)(__this, p0, p1, method)
 struct ExpressionVisitor_t3326;
 struct ReadOnlyCollection_1_t3318;
 struct Action_1_t3371;
 // Declaration System.Void System.Linq.Expressions.ExpressionVisitor::VisitList<System.Linq.Expressions.ParameterExpression>(System.Collections.ObjectModel.ReadOnlyCollection`1<!!0>,System.Action`1<!!0>)
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitList<System.Linq.Expressions.ParameterExpression>(System.Collections.ObjectModel.ReadOnlyCollection`1<!!0>,System.Action`1<!!0>)
-#define ExpressionVisitor_VisitList_TisParameterExpression_t3342_m11813(__this, p0, p1, method) (( void (*) (ExpressionVisitor_t3326 *, ReadOnlyCollection_1_t3318 *, Action_1_t3371 *, const MethodInfo*))ExpressionVisitor_VisitList_TisObject_t_m11811_gshared)(__this, p0, p1, method)
+#define ExpressionVisitor_VisitList_TisParameterExpression_t3342_m11814(__this, p0, p1, method) (( void (*) (ExpressionVisitor_t3326 *, ReadOnlyCollection_1_t3318 *, Action_1_t3371 *, const MethodInfo*))ExpressionVisitor_VisitList_TisObject_t_m11812_gshared)(__this, p0, p1, method)
 
 
 // System.Void System.Linq.Expressions.ExpressionPrinter::.ctor(System.Text.StringBuilder)
-extern "C" void ExpressionPrinter__ctor_m11629 (ExpressionPrinter_t3325 * __this, StringBuilder_t261 * ___builder, const MethodInfo* method)
+extern "C" void ExpressionPrinter__ctor_m11630 (ExpressionPrinter_t3325 * __this, StringBuilder_t261 * ___builder, const MethodInfo* method)
 {
 	{
-		ExpressionVisitor__ctor_m11659(__this, /*hidden argument*/NULL);
+		ExpressionVisitor__ctor_m11660(__this, /*hidden argument*/NULL);
 		StringBuilder_t261 * L_0 = ___builder;
 		__this->___builder_0 = L_0;
 		return;
@@ -1427,7 +1427,7 @@ extern "C" void ExpressionPrinter__ctor_m11629 (ExpressionPrinter_t3325 * __this
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::.ctor()
 extern TypeInfo* StringBuilder_t261_il2cpp_TypeInfo_var;
-extern "C" void ExpressionPrinter__ctor_m11630 (ExpressionPrinter_t3325 * __this, const MethodInfo* method)
+extern "C" void ExpressionPrinter__ctor_m11631 (ExpressionPrinter_t3325 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1438,13 +1438,13 @@ extern "C" void ExpressionPrinter__ctor_m11630 (ExpressionPrinter_t3325 * __this
 	{
 		StringBuilder_t261 * L_0 = (StringBuilder_t261 *)il2cpp_codegen_object_new (StringBuilder_t261_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m3840(L_0, /*hidden argument*/NULL);
-		ExpressionPrinter__ctor_m11629(__this, L_0, /*hidden argument*/NULL);
+		ExpressionPrinter__ctor_m11630(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String System.Linq.Expressions.ExpressionPrinter::ToString(System.Linq.Expressions.Expression)
 extern TypeInfo* ExpressionPrinter_t3325_il2cpp_TypeInfo_var;
-extern "C" String_t* ExpressionPrinter_ToString_m11631 (Object_t * __this /* static, unused */, Expression_t1520 * ___expression, const MethodInfo* method)
+extern "C" String_t* ExpressionPrinter_ToString_m11632 (Object_t * __this /* static, unused */, Expression_t1520 * ___expression, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1455,7 +1455,7 @@ extern "C" String_t* ExpressionPrinter_ToString_m11631 (Object_t * __this /* sta
 	ExpressionPrinter_t3325 * V_0 = {0};
 	{
 		ExpressionPrinter_t3325 * L_0 = (ExpressionPrinter_t3325 *)il2cpp_codegen_object_new (ExpressionPrinter_t3325_il2cpp_TypeInfo_var);
-		ExpressionPrinter__ctor_m11630(L_0, /*hidden argument*/NULL);
+		ExpressionPrinter__ctor_m11631(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		ExpressionPrinter_t3325 * L_1 = V_0;
 		Expression_t1520 * L_2 = ___expression;
@@ -1471,7 +1471,7 @@ extern "C" String_t* ExpressionPrinter_ToString_m11631 (Object_t * __this /* sta
 }
 // System.String System.Linq.Expressions.ExpressionPrinter::ToString(System.Linq.Expressions.ElementInit)
 extern TypeInfo* ExpressionPrinter_t3325_il2cpp_TypeInfo_var;
-extern "C" String_t* ExpressionPrinter_ToString_m11632 (Object_t * __this /* static, unused */, ElementInit_t3324 * ___init, const MethodInfo* method)
+extern "C" String_t* ExpressionPrinter_ToString_m11633 (Object_t * __this /* static, unused */, ElementInit_t3324 * ___init, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1482,7 +1482,7 @@ extern "C" String_t* ExpressionPrinter_ToString_m11632 (Object_t * __this /* sta
 	ExpressionPrinter_t3325 * V_0 = {0};
 	{
 		ExpressionPrinter_t3325 * L_0 = (ExpressionPrinter_t3325 *)il2cpp_codegen_object_new (ExpressionPrinter_t3325_il2cpp_TypeInfo_var);
-		ExpressionPrinter__ctor_m11630(L_0, /*hidden argument*/NULL);
+		ExpressionPrinter__ctor_m11631(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		ExpressionPrinter_t3325 * L_1 = V_0;
 		ElementInit_t3324 * L_2 = ___init;
@@ -1498,7 +1498,7 @@ extern "C" String_t* ExpressionPrinter_ToString_m11632 (Object_t * __this /* sta
 }
 // System.String System.Linq.Expressions.ExpressionPrinter::ToString(System.Linq.Expressions.MemberBinding)
 extern TypeInfo* ExpressionPrinter_t3325_il2cpp_TypeInfo_var;
-extern "C" String_t* ExpressionPrinter_ToString_m11633 (Object_t * __this /* static, unused */, MemberBinding_t3334 * ___binding, const MethodInfo* method)
+extern "C" String_t* ExpressionPrinter_ToString_m11634 (Object_t * __this /* static, unused */, MemberBinding_t3334 * ___binding, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1509,7 +1509,7 @@ extern "C" String_t* ExpressionPrinter_ToString_m11633 (Object_t * __this /* sta
 	ExpressionPrinter_t3325 * V_0 = {0};
 	{
 		ExpressionPrinter_t3325 * L_0 = (ExpressionPrinter_t3325 *)il2cpp_codegen_object_new (ExpressionPrinter_t3325_il2cpp_TypeInfo_var);
-		ExpressionPrinter__ctor_m11630(L_0, /*hidden argument*/NULL);
+		ExpressionPrinter__ctor_m11631(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		ExpressionPrinter_t3325 * L_1 = V_0;
 		MemberBinding_t3334 * L_2 = ___binding;
@@ -1524,7 +1524,7 @@ extern "C" String_t* ExpressionPrinter_ToString_m11633 (Object_t * __this /* sta
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::Print(System.String)
-extern "C" void ExpressionPrinter_Print_m11634 (ExpressionPrinter_t3325 * __this, String_t* ___str, const MethodInfo* method)
+extern "C" void ExpressionPrinter_Print_m11635 (ExpressionPrinter_t3325 * __this, String_t* ___str, const MethodInfo* method)
 {
 	{
 		StringBuilder_t261 * L_0 = (__this->___builder_0);
@@ -1535,7 +1535,7 @@ extern "C" void ExpressionPrinter_Print_m11634 (ExpressionPrinter_t3325 * __this
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::Print(System.Object)
-extern "C" void ExpressionPrinter_Print_m11635 (ExpressionPrinter_t3325 * __this, Object_t * ___obj, const MethodInfo* method)
+extern "C" void ExpressionPrinter_Print_m11636 (ExpressionPrinter_t3325 * __this, Object_t * ___obj, const MethodInfo* method)
 {
 	{
 		StringBuilder_t261 * L_0 = (__this->___builder_0);
@@ -1546,31 +1546,31 @@ extern "C" void ExpressionPrinter_Print_m11635 (ExpressionPrinter_t3325 * __this
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::Print(System.String,System.Object[])
-extern "C" void ExpressionPrinter_Print_m11636 (ExpressionPrinter_t3325 * __this, String_t* ___str, ObjectU5BU5D_t682* ___objs, const MethodInfo* method)
+extern "C" void ExpressionPrinter_Print_m11637 (ExpressionPrinter_t3325 * __this, String_t* ___str, ObjectU5BU5D_t682* ___objs, const MethodInfo* method)
 {
 	{
 		StringBuilder_t261 * L_0 = (__this->___builder_0);
 		String_t* L_1 = ___str;
 		ObjectU5BU5D_t682* L_2 = ___objs;
 		NullCheck(L_0);
-		StringBuilder_AppendFormat_m11814(L_0, L_1, L_2, /*hidden argument*/NULL);
+		StringBuilder_AppendFormat_m11815(L_0, L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitElementInitializer(System.Linq.Expressions.ElementInit)
-extern "C" void ExpressionPrinter_VisitElementInitializer_m11637 (ExpressionPrinter_t3325 * __this, ElementInit_t3324 * ___initializer, const MethodInfo* method)
+extern "C" void ExpressionPrinter_VisitElementInitializer_m11638 (ExpressionPrinter_t3325 * __this, ElementInit_t3324 * ___initializer, const MethodInfo* method)
 {
 	{
 		ElementInit_t3324 * L_0 = ___initializer;
 		NullCheck(L_0);
-		MethodInfo_t * L_1 = ElementInit_get_AddMethod_m11626(L_0, /*hidden argument*/NULL);
-		ExpressionPrinter_Print_m11635(__this, L_1, /*hidden argument*/NULL);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
+		MethodInfo_t * L_1 = ElementInit_get_AddMethod_m11627(L_0, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11636(__this, L_1, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
 		ElementInit_t3324 * L_2 = ___initializer;
 		NullCheck(L_2);
-		ReadOnlyCollection_1_t3323 * L_3 = ElementInit_get_Arguments_m11627(L_2, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_3 = ElementInit_get_Arguments_m11628(L_2, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3323 * >::Invoke(16 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitExpressionList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>) */, __this, L_3);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1578,7 +1578,7 @@ extern "C" void ExpressionPrinter_VisitElementInitializer_m11637 (ExpressionPrin
 extern TypeInfo* ObjectU5BU5D_t682_il2cpp_TypeInfo_var;
 extern TypeInfo* ExpressionType_t3327_il2cpp_TypeInfo_var;
 extern TypeInfo* NotImplementedException_t1440_il2cpp_TypeInfo_var;
-extern "C" void ExpressionPrinter_VisitUnary_m11638 (ExpressionPrinter_t3325 * __this, UnaryExpression_t3344 * ___unary, const MethodInfo* method)
+extern "C" void ExpressionPrinter_VisitUnary_m11639 (ExpressionPrinter_t3325 * __this, UnaryExpression_t3344 * ___unary, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1592,7 +1592,7 @@ extern "C" void ExpressionPrinter_VisitUnary_m11638 (ExpressionPrinter_t3325 * _
 	{
 		UnaryExpression_t3344 * L_0 = ___unary;
 		NullCheck(L_0);
-		int32_t L_1 = Expression_get_NodeType_m11605(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Expression_get_NodeType_m11606(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) == ((int32_t)((int32_t)10))))
@@ -1658,28 +1658,28 @@ IL_004b:
 		ObjectU5BU5D_t682* L_10 = ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 1));
 		UnaryExpression_t3344 * L_11 = ___unary;
 		NullCheck(L_11);
-		int32_t L_12 = Expression_get_NodeType_m11605(L_11, /*hidden argument*/NULL);
+		int32_t L_12 = Expression_get_NodeType_m11606(L_11, /*hidden argument*/NULL);
 		int32_t L_13 = L_12;
 		Object_t * L_14 = Box(ExpressionType_t3327_il2cpp_TypeInfo_var, &L_13);
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 0);
 		ArrayElementTypeCheck (L_10, L_14);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 0)) = (Object_t *)L_14;
-		ExpressionPrinter_Print_m11636(__this, (String_t*) &_stringLiteral2483, L_10, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11637(__this, (String_t*) &_stringLiteral2483, L_10, /*hidden argument*/NULL);
 		UnaryExpression_t3344 * L_15 = ___unary;
 		NullCheck(L_15);
-		Expression_t1520 * L_16 = UnaryExpression_get_Operand_m11716(L_15, /*hidden argument*/NULL);
+		Expression_t1520 * L_16 = UnaryExpression_get_Operand_m11717(L_15, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_16);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
 		return;
 	}
 
 IL_0082:
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral997, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral997, /*hidden argument*/NULL);
 		UnaryExpression_t3344 * L_17 = ___unary;
 		NullCheck(L_17);
-		Expression_t1520 * L_18 = UnaryExpression_get_Operand_m11716(L_17, /*hidden argument*/NULL);
+		Expression_t1520 * L_18 = UnaryExpression_get_Operand_m11717(L_17, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_18);
 		return;
 	}
@@ -1688,38 +1688,38 @@ IL_009a:
 	{
 		UnaryExpression_t3344 * L_19 = ___unary;
 		NullCheck(L_19);
-		Expression_t1520 * L_20 = UnaryExpression_get_Operand_m11716(L_19, /*hidden argument*/NULL);
+		Expression_t1520 * L_20 = UnaryExpression_get_Operand_m11717(L_19, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_20);
 		return;
 	}
 
 IL_00a7:
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
 		UnaryExpression_t3344 * L_21 = ___unary;
 		NullCheck(L_21);
-		Expression_t1520 * L_22 = UnaryExpression_get_Operand_m11716(L_21, /*hidden argument*/NULL);
+		Expression_t1520 * L_22 = UnaryExpression_get_Operand_m11717(L_21, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_22);
 		ObjectU5BU5D_t682* L_23 = ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 1));
 		UnaryExpression_t3344 * L_24 = ___unary;
 		NullCheck(L_24);
-		Type_t * L_25 = Expression_get_Type_m11606(L_24, /*hidden argument*/NULL);
+		Type_t * L_25 = Expression_get_Type_m11607(L_24, /*hidden argument*/NULL);
 		NullCheck(L_25);
 		String_t* L_26 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_25);
 		NullCheck(L_23);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_23, 0);
 		ArrayElementTypeCheck (L_23, L_26);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_23, 0)) = (Object_t *)L_26;
-		ExpressionPrinter_Print_m11636(__this, (String_t*) &_stringLiteral2484, L_23, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11637(__this, (String_t*) &_stringLiteral2484, L_23, /*hidden argument*/NULL);
 		return;
 	}
 
 IL_00de:
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral1164, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral1164, /*hidden argument*/NULL);
 		UnaryExpression_t3344 * L_27 = ___unary;
 		NullCheck(L_27);
-		Expression_t1520 * L_28 = UnaryExpression_get_Operand_m11716(L_27, /*hidden argument*/NULL);
+		Expression_t1520 * L_28 = UnaryExpression_get_Operand_m11717(L_27, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_28);
 		return;
 	}
@@ -1727,12 +1727,12 @@ IL_00de:
 IL_00f6:
 	{
 		NotImplementedException_t1440 * L_29 = (NotImplementedException_t1440 *)il2cpp_codegen_object_new (NotImplementedException_t1440_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m7377(L_29, /*hidden argument*/NULL);
+		NotImplementedException__ctor_m7378(L_29, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_29);
 	}
 }
 // System.String System.Linq.Expressions.ExpressionPrinter::OperatorToString(System.Linq.Expressions.BinaryExpression)
-extern "C" String_t* ExpressionPrinter_OperatorToString_m11639 (Object_t * __this /* static, unused */, BinaryExpression_t3321 * ___binary, const MethodInfo* method)
+extern "C" String_t* ExpressionPrinter_OperatorToString_m11640 (Object_t * __this /* static, unused */, BinaryExpression_t3321 * ___binary, const MethodInfo* method)
 {
 	int32_t V_0 = {0};
 	String_t* G_B23_0 = {0};
@@ -1740,7 +1740,7 @@ extern "C" String_t* ExpressionPrinter_OperatorToString_m11639 (Object_t * __thi
 	{
 		BinaryExpression_t3321 * L_0 = ___binary;
 		NullCheck(L_0);
-		int32_t L_1 = Expression_get_NodeType_m11605(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Expression_get_NodeType_m11606(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if (L_2 == 0)
@@ -2017,7 +2017,7 @@ IL_0128:
 IL_012e:
 	{
 		BinaryExpression_t3321 * L_3 = ___binary;
-		bool L_4 = ExpressionPrinter_IsBoolean_m11640(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		bool L_4 = ExpressionPrinter_IsBoolean_m11641(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0143;
@@ -2041,7 +2041,7 @@ IL_0148:
 IL_0149:
 	{
 		BinaryExpression_t3321 * L_5 = ___binary;
-		bool L_6 = ExpressionPrinter_IsBoolean_m11640(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		bool L_6 = ExpressionPrinter_IsBoolean_m11641(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_015e;
@@ -2071,7 +2071,7 @@ IL_0164:
 extern const Il2CppType* Boolean_t59_0_0_0_var;
 extern const Il2CppType* Nullable_1_t3372_0_0_0_var;
 extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
-extern "C" bool ExpressionPrinter_IsBoolean_m11640 (Object_t * __this /* static, unused */, Expression_t1520 * ___expression, const MethodInfo* method)
+extern "C" bool ExpressionPrinter_IsBoolean_m11641 (Object_t * __this /* static, unused */, Expression_t1520 * ___expression, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2085,7 +2085,7 @@ extern "C" bool ExpressionPrinter_IsBoolean_m11640 (Object_t * __this /* static,
 	{
 		Expression_t1520 * L_0 = ___expression;
 		NullCheck(L_0);
-		Type_t * L_1 = Expression_get_Type_m11606(L_0, /*hidden argument*/NULL);
+		Type_t * L_1 = Expression_get_Type_m11607(L_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_2 = Type_GetTypeFromHandle_m4058(NULL /*static, unused*/, LoadTypeToken(Boolean_t59_0_0_0_var), /*hidden argument*/NULL);
 		if ((((Object_t*)(Type_t *)L_1) == ((Object_t*)(Type_t *)L_2)))
@@ -2096,7 +2096,7 @@ extern "C" bool ExpressionPrinter_IsBoolean_m11640 (Object_t * __this /* static,
 	{
 		Expression_t1520 * L_3 = ___expression;
 		NullCheck(L_3);
-		Type_t * L_4 = Expression_get_Type_m11606(L_3, /*hidden argument*/NULL);
+		Type_t * L_4 = Expression_get_Type_m11607(L_3, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_5 = Type_GetTypeFromHandle_m4058(NULL /*static, unused*/, LoadTypeToken(Nullable_1_t3372_0_0_0_var), /*hidden argument*/NULL);
 		G_B3_0 = ((((Object_t*)(Type_t *)L_4) == ((Object_t*)(Type_t *)L_5))? 1 : 0);
@@ -2114,25 +2114,25 @@ IL_002a:
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::PrintArrayIndex(System.Linq.Expressions.BinaryExpression)
-extern "C" void ExpressionPrinter_PrintArrayIndex_m11641 (ExpressionPrinter_t3325 * __this, BinaryExpression_t3321 * ___index, const MethodInfo* method)
+extern "C" void ExpressionPrinter_PrintArrayIndex_m11642 (ExpressionPrinter_t3325 * __this, BinaryExpression_t3321 * ___index, const MethodInfo* method)
 {
 	{
 		BinaryExpression_t3321 * L_0 = ___index;
 		NullCheck(L_0);
-		Expression_t1520 * L_1 = BinaryExpression_get_Left_m11618(L_0, /*hidden argument*/NULL);
+		Expression_t1520 * L_1 = BinaryExpression_get_Left_m11619(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_1);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral950, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral950, /*hidden argument*/NULL);
 		BinaryExpression_t3321 * L_2 = ___index;
 		NullCheck(L_2);
-		Expression_t1520 * L_3 = BinaryExpression_get_Right_m11619(L_2, /*hidden argument*/NULL);
+		Expression_t1520 * L_3 = BinaryExpression_get_Right_m11620(L_2, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_3);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral123, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral123, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitBinary(System.Linq.Expressions.BinaryExpression)
 extern TypeInfo* ObjectU5BU5D_t682_il2cpp_TypeInfo_var;
-extern "C" void ExpressionPrinter_VisitBinary_m11642 (ExpressionPrinter_t3325 * __this, BinaryExpression_t3321 * ___binary, const MethodInfo* method)
+extern "C" void ExpressionPrinter_VisitBinary_m11643 (ExpressionPrinter_t3325 * __this, BinaryExpression_t3321 * ___binary, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2144,7 +2144,7 @@ extern "C" void ExpressionPrinter_VisitBinary_m11642 (ExpressionPrinter_t3325 * 
 	{
 		BinaryExpression_t3321 * L_0 = ___binary;
 		NullCheck(L_0);
-		int32_t L_1 = Expression_get_NodeType_m11605(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Expression_get_NodeType_m11606(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) == ((int32_t)5)))
@@ -2159,37 +2159,37 @@ extern "C" void ExpressionPrinter_VisitBinary_m11642 (ExpressionPrinter_t3325 * 
 IL_0013:
 	{
 		BinaryExpression_t3321 * L_3 = ___binary;
-		ExpressionPrinter_PrintArrayIndex_m11641(__this, L_3, /*hidden argument*/NULL);
+		ExpressionPrinter_PrintArrayIndex_m11642(__this, L_3, /*hidden argument*/NULL);
 		return;
 	}
 
 IL_001b:
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
 		BinaryExpression_t3321 * L_4 = ___binary;
 		NullCheck(L_4);
-		Expression_t1520 * L_5 = BinaryExpression_get_Left_m11618(L_4, /*hidden argument*/NULL);
+		Expression_t1520 * L_5 = BinaryExpression_get_Left_m11619(L_4, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_5);
 		ObjectU5BU5D_t682* L_6 = ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 1));
 		BinaryExpression_t3321 * L_7 = ___binary;
-		String_t* L_8 = ExpressionPrinter_OperatorToString_m11639(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		String_t* L_8 = ExpressionPrinter_OperatorToString_m11640(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 0);
 		ArrayElementTypeCheck (L_6, L_8);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 0)) = (Object_t *)L_8;
-		ExpressionPrinter_Print_m11636(__this, (String_t*) &_stringLiteral2495, L_6, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11637(__this, (String_t*) &_stringLiteral2495, L_6, /*hidden argument*/NULL);
 		BinaryExpression_t3321 * L_9 = ___binary;
 		NullCheck(L_9);
-		Expression_t1520 * L_10 = BinaryExpression_get_Right_m11619(L_9, /*hidden argument*/NULL);
+		Expression_t1520 * L_10 = BinaryExpression_get_Right_m11620(L_9, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_10);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitTypeIs(System.Linq.Expressions.TypeBinaryExpression)
 extern TypeInfo* ObjectU5BU5D_t682_il2cpp_TypeInfo_var;
 extern TypeInfo* NotImplementedException_t1440_il2cpp_TypeInfo_var;
-extern "C" void ExpressionPrinter_VisitTypeIs_m11643 (ExpressionPrinter_t3325 * __this, TypeBinaryExpression_t3343 * ___type, const MethodInfo* method)
+extern "C" void ExpressionPrinter_VisitTypeIs_m11644 (ExpressionPrinter_t3325 * __this, TypeBinaryExpression_t3343 * ___type, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2202,7 +2202,7 @@ extern "C" void ExpressionPrinter_VisitTypeIs_m11643 (ExpressionPrinter_t3325 * 
 	{
 		TypeBinaryExpression_t3343 * L_0 = ___type;
 		NullCheck(L_0);
-		int32_t L_1 = Expression_get_NodeType_m11605(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Expression_get_NodeType_m11606(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) == ((int32_t)((int32_t)45))))
@@ -2216,35 +2216,35 @@ extern "C" void ExpressionPrinter_VisitTypeIs_m11643 (ExpressionPrinter_t3325 * 
 
 IL_0014:
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
 		TypeBinaryExpression_t3343 * L_3 = ___type;
 		NullCheck(L_3);
-		Expression_t1520 * L_4 = TypeBinaryExpression_get_Expression_m11713(L_3, /*hidden argument*/NULL);
+		Expression_t1520 * L_4 = TypeBinaryExpression_get_Expression_m11714(L_3, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_4);
 		ObjectU5BU5D_t682* L_5 = ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 1));
 		TypeBinaryExpression_t3343 * L_6 = ___type;
 		NullCheck(L_6);
-		Type_t * L_7 = TypeBinaryExpression_get_TypeOperand_m11714(L_6, /*hidden argument*/NULL);
+		Type_t * L_7 = TypeBinaryExpression_get_TypeOperand_m11715(L_6, /*hidden argument*/NULL);
 		NullCheck(L_7);
 		String_t* L_8 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_7);
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 0);
 		ArrayElementTypeCheck (L_5, L_8);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 0)) = (Object_t *)L_8;
-		ExpressionPrinter_Print_m11636(__this, (String_t*) &_stringLiteral2496, L_5, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11637(__this, (String_t*) &_stringLiteral2496, L_5, /*hidden argument*/NULL);
 		return;
 	}
 
 IL_004b:
 	{
 		NotImplementedException_t1440 * L_9 = (NotImplementedException_t1440 *)il2cpp_codegen_object_new (NotImplementedException_t1440_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m7377(L_9, /*hidden argument*/NULL);
+		NotImplementedException__ctor_m7378(L_9, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_9);
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitConstant(System.Linq.Expressions.ConstantExpression)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" void ExpressionPrinter_VisitConstant_m11644 (ExpressionPrinter_t3325 * __this, ConstantExpression_t1526 * ___constant, const MethodInfo* method)
+extern "C" void ExpressionPrinter_VisitConstant_m11645 (ExpressionPrinter_t3325 * __this, ConstantExpression_t1526 * ___constant, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2256,7 +2256,7 @@ extern "C" void ExpressionPrinter_VisitConstant_m11644 (ExpressionPrinter_t3325 
 	{
 		ConstantExpression_t1526 * L_0 = ___constant;
 		NullCheck(L_0);
-		Object_t * L_1 = ConstantExpression_get_Value_m11625(L_0, /*hidden argument*/NULL);
+		Object_t * L_1 = ConstantExpression_get_Value_m11626(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Object_t * L_2 = V_0;
 		if (L_2)
@@ -2265,7 +2265,7 @@ extern "C" void ExpressionPrinter_VisitConstant_m11644 (ExpressionPrinter_t3325 
 		}
 	}
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral501, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral501, /*hidden argument*/NULL);
 		goto IL_007e;
 	}
 
@@ -2278,34 +2278,34 @@ IL_001d:
 		}
 	}
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral125, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral125, /*hidden argument*/NULL);
 		Object_t * L_4 = V_0;
-		ExpressionPrinter_Print_m11635(__this, L_4, /*hidden argument*/NULL);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral125, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11636(__this, L_4, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral125, /*hidden argument*/NULL);
 		goto IL_007e;
 	}
 
 IL_004a:
 	{
 		Object_t * L_5 = V_0;
-		bool L_6 = ExpressionPrinter_HasStringRepresentation_m11645(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		bool L_6 = ExpressionPrinter_HasStringRepresentation_m11646(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		if (L_6)
 		{
 			goto IL_0077;
 		}
 	}
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2497, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2497, /*hidden argument*/NULL);
 		Object_t * L_7 = V_0;
-		ExpressionPrinter_Print_m11635(__this, L_7, /*hidden argument*/NULL);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11636(__this, L_7, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
 		goto IL_007e;
 	}
 
 IL_0077:
 	{
 		Object_t * L_8 = V_0;
-		ExpressionPrinter_Print_m11635(__this, L_8, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11636(__this, L_8, /*hidden argument*/NULL);
 	}
 
 IL_007e:
@@ -2315,7 +2315,7 @@ IL_007e:
 }
 // System.Boolean System.Linq.Expressions.ExpressionPrinter::HasStringRepresentation(System.Object)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" bool ExpressionPrinter_HasStringRepresentation_m11645 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
+extern "C" bool ExpressionPrinter_HasStringRepresentation_m11646 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2338,30 +2338,30 @@ extern "C" bool ExpressionPrinter_HasStringRepresentation_m11645 (Object_t * __t
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitConditional(System.Linq.Expressions.ConditionalExpression)
-extern "C" void ExpressionPrinter_VisitConditional_m11646 (ExpressionPrinter_t3325 * __this, ConditionalExpression_t3322 * ___conditional, const MethodInfo* method)
+extern "C" void ExpressionPrinter_VisitConditional_m11647 (ExpressionPrinter_t3325 * __this, ConditionalExpression_t3322 * ___conditional, const MethodInfo* method)
 {
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2498, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2498, /*hidden argument*/NULL);
 		ConditionalExpression_t3322 * L_0 = ___conditional;
 		NullCheck(L_0);
-		Expression_t1520 * L_1 = ConditionalExpression_get_Test_m11621(L_0, /*hidden argument*/NULL);
+		Expression_t1520 * L_1 = ConditionalExpression_get_Test_m11622(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_1);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral120, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral120, /*hidden argument*/NULL);
 		ConditionalExpression_t3322 * L_2 = ___conditional;
 		NullCheck(L_2);
-		Expression_t1520 * L_3 = ConditionalExpression_get_IfTrue_m11622(L_2, /*hidden argument*/NULL);
+		Expression_t1520 * L_3 = ConditionalExpression_get_IfTrue_m11623(L_2, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_3);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral120, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral120, /*hidden argument*/NULL);
 		ConditionalExpression_t3322 * L_4 = ___conditional;
 		NullCheck(L_4);
-		Expression_t1520 * L_5 = ConditionalExpression_get_IfFalse_m11623(L_4, /*hidden argument*/NULL);
+		Expression_t1520 * L_5 = ConditionalExpression_get_IfFalse_m11624(L_4, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_5);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitParameter(System.Linq.Expressions.ParameterExpression)
-extern "C" void ExpressionPrinter_VisitParameter_m11647 (ExpressionPrinter_t3325 * __this, ParameterExpression_t3342 * ___parameter, const MethodInfo* method)
+extern "C" void ExpressionPrinter_VisitParameter_m11648 (ExpressionPrinter_t3325 * __this, ParameterExpression_t3342 * ___parameter, const MethodInfo* method)
 {
 	String_t* G_B2_0 = {0};
 	ExpressionPrinter_t3325 * G_B2_1 = {0};
@@ -2370,7 +2370,7 @@ extern "C" void ExpressionPrinter_VisitParameter_m11647 (ExpressionPrinter_t3325
 	{
 		ParameterExpression_t3342 * L_0 = ___parameter;
 		NullCheck(L_0);
-		String_t* L_1 = ParameterExpression_get_Name_m11712(L_0, /*hidden argument*/NULL);
+		String_t* L_1 = ParameterExpression_get_Name_m11713(L_0, /*hidden argument*/NULL);
 		String_t* L_2 = L_1;
 		G_B1_0 = L_2;
 		G_B1_1 = __this;
@@ -2389,13 +2389,13 @@ extern "C" void ExpressionPrinter_VisitParameter_m11647 (ExpressionPrinter_t3325
 IL_0013:
 	{
 		NullCheck(G_B2_1);
-		ExpressionPrinter_Print_m11634(G_B2_1, G_B2_0, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(G_B2_1, G_B2_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitMemberAccess(System.Linq.Expressions.MemberExpression)
 extern TypeInfo* ObjectU5BU5D_t682_il2cpp_TypeInfo_var;
-extern "C" void ExpressionPrinter_VisitMemberAccess_m11648 (ExpressionPrinter_t3325 * __this, MemberExpression_t1527 * ___access, const MethodInfo* method)
+extern "C" void ExpressionPrinter_VisitMemberAccess_m11649 (ExpressionPrinter_t3325 * __this, MemberExpression_t1527 * ___access, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2406,7 +2406,7 @@ extern "C" void ExpressionPrinter_VisitMemberAccess_m11648 (ExpressionPrinter_t3
 	{
 		MemberExpression_t1527 * L_0 = ___access;
 		NullCheck(L_0);
-		Expression_t1520 * L_1 = MemberExpression_get_Expression_m11700(L_0, /*hidden argument*/NULL);
+		Expression_t1520 * L_1 = MemberExpression_get_Expression_m11701(L_0, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_0026;
@@ -2415,12 +2415,12 @@ extern "C" void ExpressionPrinter_VisitMemberAccess_m11648 (ExpressionPrinter_t3
 	{
 		MemberExpression_t1527 * L_2 = ___access;
 		NullCheck(L_2);
-		MemberInfo_t * L_3 = MemberExpression_get_Member_m11701(L_2, /*hidden argument*/NULL);
+		MemberInfo_t * L_3 = MemberExpression_get_Member_m11702(L_2, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		Type_t * L_4 = (Type_t *)VirtFuncInvoker0< Type_t * >::Invoke(6 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_3);
 		NullCheck(L_4);
 		String_t* L_5 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_4);
-		ExpressionPrinter_Print_m11634(__this, L_5, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, L_5, /*hidden argument*/NULL);
 		goto IL_0032;
 	}
 
@@ -2428,7 +2428,7 @@ IL_0026:
 	{
 		MemberExpression_t1527 * L_6 = ___access;
 		NullCheck(L_6);
-		Expression_t1520 * L_7 = MemberExpression_get_Expression_m11700(L_6, /*hidden argument*/NULL);
+		Expression_t1520 * L_7 = MemberExpression_get_Expression_m11701(L_6, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_7);
 	}
 
@@ -2437,24 +2437,24 @@ IL_0032:
 		ObjectU5BU5D_t682* L_8 = ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 1));
 		MemberExpression_t1527 * L_9 = ___access;
 		NullCheck(L_9);
-		MemberInfo_t * L_10 = MemberExpression_get_Member_m11701(L_9, /*hidden argument*/NULL);
+		MemberInfo_t * L_10 = MemberExpression_get_Member_m11702(L_9, /*hidden argument*/NULL);
 		NullCheck(L_10);
 		String_t* L_11 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_10);
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 0);
 		ArrayElementTypeCheck (L_8, L_11);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 0)) = (Object_t *)L_11;
-		ExpressionPrinter_Print_m11636(__this, (String_t*) &_stringLiteral2500, L_8, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11637(__this, (String_t*) &_stringLiteral2500, L_8, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitMethodCall(System.Linq.Expressions.MethodCallExpression)
-extern "C" void ExpressionPrinter_VisitMethodCall_m11649 (ExpressionPrinter_t3325 * __this, MethodCallExpression_t1528 * ___call, const MethodInfo* method)
+extern "C" void ExpressionPrinter_VisitMethodCall_m11650 (ExpressionPrinter_t3325 * __this, MethodCallExpression_t1528 * ___call, const MethodInfo* method)
 {
 	{
 		MethodCallExpression_t1528 * L_0 = ___call;
 		NullCheck(L_0);
-		Expression_t1520 * L_1 = MethodCallExpression_get_Object_m11707(L_0, /*hidden argument*/NULL);
+		Expression_t1520 * L_1 = MethodCallExpression_get_Object_m11708(L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0022;
@@ -2463,31 +2463,31 @@ extern "C" void ExpressionPrinter_VisitMethodCall_m11649 (ExpressionPrinter_t332
 	{
 		MethodCallExpression_t1528 * L_2 = ___call;
 		NullCheck(L_2);
-		Expression_t1520 * L_3 = MethodCallExpression_get_Object_m11707(L_2, /*hidden argument*/NULL);
+		Expression_t1520 * L_3 = MethodCallExpression_get_Object_m11708(L_2, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_3);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral993, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral993, /*hidden argument*/NULL);
 	}
 
 IL_0022:
 	{
 		MethodCallExpression_t1528 * L_4 = ___call;
 		NullCheck(L_4);
-		MethodInfo_t * L_5 = MethodCallExpression_get_Method_m7684(L_4, /*hidden argument*/NULL);
+		MethodInfo_t * L_5 = MethodCallExpression_get_Method_m7685(L_4, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		String_t* L_6 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_5);
-		ExpressionPrinter_Print_m11634(__this, L_6, /*hidden argument*/NULL);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, L_6, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
 		MethodCallExpression_t1528 * L_7 = ___call;
 		NullCheck(L_7);
-		ReadOnlyCollection_1_t3323 * L_8 = MethodCallExpression_get_Arguments_m11708(L_7, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_8 = MethodCallExpression_get_Arguments_m11709(L_7, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3323 * >::Invoke(16 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitExpressionList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>) */, __this, L_8);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitMemberAssignment(System.Linq.Expressions.MemberAssignment)
 extern TypeInfo* ObjectU5BU5D_t682_il2cpp_TypeInfo_var;
-extern "C" void ExpressionPrinter_VisitMemberAssignment_m11650 (ExpressionPrinter_t3325 * __this, MemberAssignment_t3333 * ___assignment, const MethodInfo* method)
+extern "C" void ExpressionPrinter_VisitMemberAssignment_m11651 (ExpressionPrinter_t3325 * __this, MemberAssignment_t3333 * ___assignment, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2499,105 +2499,105 @@ extern "C" void ExpressionPrinter_VisitMemberAssignment_m11650 (ExpressionPrinte
 		ObjectU5BU5D_t682* L_0 = ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 1));
 		MemberAssignment_t3333 * L_1 = ___assignment;
 		NullCheck(L_1);
-		MemberInfo_t * L_2 = MemberBinding_get_Member_m11697(L_1, /*hidden argument*/NULL);
+		MemberInfo_t * L_2 = MemberBinding_get_Member_m11698(L_1, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		String_t* L_3 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_2);
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
 		ArrayElementTypeCheck (L_0, L_3);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0)) = (Object_t *)L_3;
-		ExpressionPrinter_Print_m11636(__this, (String_t*) &_stringLiteral2501, L_0, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11637(__this, (String_t*) &_stringLiteral2501, L_0, /*hidden argument*/NULL);
 		MemberAssignment_t3333 * L_4 = ___assignment;
 		NullCheck(L_4);
-		Expression_t1520 * L_5 = MemberAssignment_get_Expression_m11695(L_4, /*hidden argument*/NULL);
+		Expression_t1520 * L_5 = MemberAssignment_get_Expression_m11696(L_4, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_5);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitMemberMemberBinding(System.Linq.Expressions.MemberMemberBinding)
 extern TypeInfo* Action_1_t3368_il2cpp_TypeInfo_var;
-extern const MethodInfo* Action_1__ctor_m11815_MethodInfo_var;
-extern const MethodInfo* ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11810_MethodInfo_var;
-extern "C" void ExpressionPrinter_VisitMemberMemberBinding_m11651 (ExpressionPrinter_t3325 * __this, MemberMemberBinding_t3339 * ___binding, const MethodInfo* method)
+extern const MethodInfo* Action_1__ctor_m11816_MethodInfo_var;
+extern const MethodInfo* ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11811_MethodInfo_var;
+extern "C" void ExpressionPrinter_VisitMemberMemberBinding_m11652 (ExpressionPrinter_t3325 * __this, MemberMemberBinding_t3339 * ___binding, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Action_1_t3368_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5976);
-		Action_1__ctor_m11815_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485172);
-		ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11810_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485173);
+		Action_1__ctor_m11816_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485173);
+		ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11811_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485174);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		MemberMemberBinding_t3339 * L_0 = ___binding;
 		NullCheck(L_0);
-		MemberInfo_t * L_1 = MemberBinding_get_Member_m11697(L_0, /*hidden argument*/NULL);
+		MemberInfo_t * L_1 = MemberBinding_get_Member_m11698(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		String_t* L_2 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_1);
-		ExpressionPrinter_Print_m11634(__this, L_2, /*hidden argument*/NULL);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2502, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, L_2, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2502, /*hidden argument*/NULL);
 		MemberMemberBinding_t3339 * L_3 = ___binding;
 		NullCheck(L_3);
-		ReadOnlyCollection_1_t3336 * L_4 = MemberMemberBinding_get_Bindings_m11705(L_3, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3336 * L_4 = MemberMemberBinding_get_Bindings_m11706(L_3, /*hidden argument*/NULL);
 		IntPtr_t L_5 = { (void*)GetVirtualMethodInfo(__this, 5) };
 		Action_1_t3368 * L_6 = (Action_1_t3368 *)il2cpp_codegen_object_new (Action_1_t3368_il2cpp_TypeInfo_var);
-		Action_1__ctor_m11815(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m11815_MethodInfo_var);
-		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3336 *, Action_1_t3368 * >::Invoke(ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11810_MethodInfo_var, __this, L_4, L_6);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral127, /*hidden argument*/NULL);
+		Action_1__ctor_m11816(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m11816_MethodInfo_var);
+		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3336 *, Action_1_t3368 * >::Invoke(ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11811_MethodInfo_var, __this, L_4, L_6);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral127, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitMemberListBinding(System.Linq.Expressions.MemberListBinding)
 extern TypeInfo* Action_1_t3370_il2cpp_TypeInfo_var;
-extern const MethodInfo* Action_1__ctor_m11816_MethodInfo_var;
-extern const MethodInfo* ExpressionVisitor_VisitList_TisElementInit_t3324_m11812_MethodInfo_var;
-extern "C" void ExpressionPrinter_VisitMemberListBinding_m11652 (ExpressionPrinter_t3325 * __this, MemberListBinding_t3338 * ___binding, const MethodInfo* method)
+extern const MethodInfo* Action_1__ctor_m11817_MethodInfo_var;
+extern const MethodInfo* ExpressionVisitor_VisitList_TisElementInit_t3324_m11813_MethodInfo_var;
+extern "C" void ExpressionPrinter_VisitMemberListBinding_m11653 (ExpressionPrinter_t3325 * __this, MemberListBinding_t3338 * ___binding, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Action_1_t3370_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5978);
-		Action_1__ctor_m11816_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485174);
-		ExpressionVisitor_VisitList_TisElementInit_t3324_m11812_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485175);
+		Action_1__ctor_m11817_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485175);
+		ExpressionVisitor_VisitList_TisElementInit_t3324_m11813_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485176);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		MemberListBinding_t3338 * L_0 = ___binding;
 		NullCheck(L_0);
-		MemberInfo_t * L_1 = MemberBinding_get_Member_m11697(L_0, /*hidden argument*/NULL);
+		MemberInfo_t * L_1 = MemberBinding_get_Member_m11698(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		String_t* L_2 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_1);
-		ExpressionPrinter_Print_m11634(__this, L_2, /*hidden argument*/NULL);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2502, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, L_2, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2502, /*hidden argument*/NULL);
 		MemberListBinding_t3338 * L_3 = ___binding;
 		NullCheck(L_3);
-		ReadOnlyCollection_1_t3331 * L_4 = MemberListBinding_get_Initializers_m11704(L_3, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3331 * L_4 = MemberListBinding_get_Initializers_m11705(L_3, /*hidden argument*/NULL);
 		IntPtr_t L_5 = { (void*)GetVirtualMethodInfo(__this, 6) };
 		Action_1_t3370 * L_6 = (Action_1_t3370 *)il2cpp_codegen_object_new (Action_1_t3370_il2cpp_TypeInfo_var);
-		Action_1__ctor_m11816(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m11816_MethodInfo_var);
-		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3331 *, Action_1_t3370 * >::Invoke(ExpressionVisitor_VisitList_TisElementInit_t3324_m11812_MethodInfo_var, __this, L_4, L_6);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral127, /*hidden argument*/NULL);
+		Action_1__ctor_m11817(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m11817_MethodInfo_var);
+		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3331 *, Action_1_t3370 * >::Invoke(ExpressionVisitor_VisitList_TisElementInit_t3324_m11813_MethodInfo_var, __this, L_4, L_6);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral127, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitLambda(System.Linq.Expressions.LambdaExpression)
 extern TypeInfo* Action_1_t3371_il2cpp_TypeInfo_var;
-extern const MethodInfo* Action_1__ctor_m11817_MethodInfo_var;
-extern const MethodInfo* ExpressionVisitor_VisitList_TisParameterExpression_t3342_m11813_MethodInfo_var;
-extern "C" void ExpressionPrinter_VisitLambda_m11653 (ExpressionPrinter_t3325 * __this, LambdaExpression_t3319 * ___lambda, const MethodInfo* method)
+extern const MethodInfo* Action_1__ctor_m11818_MethodInfo_var;
+extern const MethodInfo* ExpressionVisitor_VisitList_TisParameterExpression_t3342_m11814_MethodInfo_var;
+extern "C" void ExpressionPrinter_VisitLambda_m11654 (ExpressionPrinter_t3325 * __this, LambdaExpression_t3319 * ___lambda, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Action_1_t3371_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5979);
-		Action_1__ctor_m11817_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485176);
-		ExpressionVisitor_VisitList_TisParameterExpression_t3342_m11813_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485177);
+		Action_1__ctor_m11818_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485177);
+		ExpressionVisitor_VisitList_TisParameterExpression_t3342_m11814_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485178);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		LambdaExpression_t3319 * L_0 = ___lambda;
 		NullCheck(L_0);
-		ReadOnlyCollection_1_t3318 * L_1 = LambdaExpression_get_Parameters_m11603(L_0, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3318 * L_1 = LambdaExpression_get_Parameters_m11604(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		int32_t L_2 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression>::get_Count() */, L_1);
 		if ((((int32_t)L_2) == ((int32_t)1)))
@@ -2606,15 +2606,15 @@ extern "C" void ExpressionPrinter_VisitLambda_m11653 (ExpressionPrinter_t3325 * 
 		}
 	}
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
 		LambdaExpression_t3319 * L_3 = ___lambda;
 		NullCheck(L_3);
-		ReadOnlyCollection_1_t3318 * L_4 = LambdaExpression_get_Parameters_m11603(L_3, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3318 * L_4 = LambdaExpression_get_Parameters_m11604(L_3, /*hidden argument*/NULL);
 		IntPtr_t L_5 = { (void*)GetVirtualMethodInfo(__this, 4) };
 		Action_1_t3371 * L_6 = (Action_1_t3371 *)il2cpp_codegen_object_new (Action_1_t3371_il2cpp_TypeInfo_var);
-		Action_1__ctor_m11817(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m11817_MethodInfo_var);
-		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3318 *, Action_1_t3371 * >::Invoke(ExpressionVisitor_VisitList_TisParameterExpression_t3342_m11813_MethodInfo_var, __this, L_4, L_6);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
+		Action_1__ctor_m11818(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m11818_MethodInfo_var);
+		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3318 *, Action_1_t3371 * >::Invoke(ExpressionVisitor_VisitList_TisParameterExpression_t3342_m11814_MethodInfo_var, __this, L_4, L_6);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
 		goto IL_0057;
 	}
 
@@ -2622,7 +2622,7 @@ IL_0045:
 	{
 		LambdaExpression_t3319 * L_7 = ___lambda;
 		NullCheck(L_7);
-		ReadOnlyCollection_1_t3318 * L_8 = LambdaExpression_get_Parameters_m11603(L_7, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3318 * L_8 = LambdaExpression_get_Parameters_m11604(L_7, /*hidden argument*/NULL);
 		NullCheck(L_8);
 		ParameterExpression_t3342 * L_9 = (ParameterExpression_t3342 *)VirtFuncInvoker1< ParameterExpression_t3342 *, int32_t >::Invoke(33 /* !0 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression>::get_Item(System.Int32) */, L_8, 0);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_9);
@@ -2630,17 +2630,17 @@ IL_0045:
 
 IL_0057:
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2503, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2503, /*hidden argument*/NULL);
 		LambdaExpression_t3319 * L_10 = ___lambda;
 		NullCheck(L_10);
-		Expression_t1520 * L_11 = LambdaExpression_get_Body_m7683(L_10, /*hidden argument*/NULL);
+		Expression_t1520 * L_11 = LambdaExpression_get_Body_m7684(L_10, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_11);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitNew(System.Linq.Expressions.NewExpression)
 extern TypeInfo* ObjectU5BU5D_t682_il2cpp_TypeInfo_var;
-extern "C" void ExpressionPrinter_VisitNew_m11654 (ExpressionPrinter_t3325 * __this, NewExpression_t3330 * ___nex, const MethodInfo* method)
+extern "C" void ExpressionPrinter_VisitNew_m11655 (ExpressionPrinter_t3325 * __this, NewExpression_t3330 * ___nex, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2653,17 +2653,17 @@ extern "C" void ExpressionPrinter_VisitNew_m11654 (ExpressionPrinter_t3325 * __t
 		ObjectU5BU5D_t682* L_0 = ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 1));
 		NewExpression_t3330 * L_1 = ___nex;
 		NullCheck(L_1);
-		Type_t * L_2 = Expression_get_Type_m11606(L_1, /*hidden argument*/NULL);
+		Type_t * L_2 = Expression_get_Type_m11607(L_1, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		String_t* L_3 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_2);
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
 		ArrayElementTypeCheck (L_0, L_3);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0)) = (Object_t *)L_3;
-		ExpressionPrinter_Print_m11636(__this, (String_t*) &_stringLiteral2504, L_0, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11637(__this, (String_t*) &_stringLiteral2504, L_0, /*hidden argument*/NULL);
 		NewExpression_t3330 * L_4 = ___nex;
 		NullCheck(L_4);
-		ReadOnlyCollection_1_t3341 * L_5 = NewExpression_get_Members_m11711(L_4, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3341 * L_5 = NewExpression_get_Members_m11712(L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_00a5;
@@ -2672,7 +2672,7 @@ extern "C" void ExpressionPrinter_VisitNew_m11654 (ExpressionPrinter_t3325 * __t
 	{
 		NewExpression_t3330 * L_6 = ___nex;
 		NullCheck(L_6);
-		ReadOnlyCollection_1_t3341 * L_7 = NewExpression_get_Members_m11711(L_6, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3341 * L_7 = NewExpression_get_Members_m11712(L_6, /*hidden argument*/NULL);
 		NullCheck(L_7);
 		int32_t L_8 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.MemberInfo>::get_Count() */, L_7);
 		if ((((int32_t)L_8) <= ((int32_t)0)))
@@ -2694,7 +2694,7 @@ IL_0042:
 		}
 	}
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral120, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral120, /*hidden argument*/NULL);
 	}
 
 IL_0054:
@@ -2702,7 +2702,7 @@ IL_0054:
 		ObjectU5BU5D_t682* L_10 = ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 1));
 		NewExpression_t3330 * L_11 = ___nex;
 		NullCheck(L_11);
-		ReadOnlyCollection_1_t3341 * L_12 = NewExpression_get_Members_m11711(L_11, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3341 * L_12 = NewExpression_get_Members_m11712(L_11, /*hidden argument*/NULL);
 		int32_t L_13 = V_0;
 		NullCheck(L_12);
 		MemberInfo_t * L_14 = (MemberInfo_t *)VirtFuncInvoker1< MemberInfo_t *, int32_t >::Invoke(33 /* !0 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.MemberInfo>::get_Item(System.Int32) */, L_12, L_13);
@@ -2712,10 +2712,10 @@ IL_0054:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 0);
 		ArrayElementTypeCheck (L_10, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 0)) = (Object_t *)L_15;
-		ExpressionPrinter_Print_m11636(__this, (String_t*) &_stringLiteral2501, L_10, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11637(__this, (String_t*) &_stringLiteral2501, L_10, /*hidden argument*/NULL);
 		NewExpression_t3330 * L_16 = ___nex;
 		NullCheck(L_16);
-		ReadOnlyCollection_1_t3323 * L_17 = NewExpression_get_Arguments_m11710(L_16, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_17 = NewExpression_get_Arguments_m11711(L_16, /*hidden argument*/NULL);
 		int32_t L_18 = V_0;
 		NullCheck(L_17);
 		Expression_t1520 * L_19 = (Expression_t1520 *)VirtFuncInvoker1< Expression_t1520 *, int32_t >::Invoke(33 /* !0 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>::get_Item(System.Int32) */, L_17, L_18);
@@ -2729,7 +2729,7 @@ IL_008f:
 		int32_t L_21 = V_0;
 		NewExpression_t3330 * L_22 = ___nex;
 		NullCheck(L_22);
-		ReadOnlyCollection_1_t3341 * L_23 = NewExpression_get_Members_m11711(L_22, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3341 * L_23 = NewExpression_get_Members_m11712(L_22, /*hidden argument*/NULL);
 		NullCheck(L_23);
 		int32_t L_24 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.MemberInfo>::get_Count() */, L_23);
 		if ((((int32_t)L_21) < ((int32_t)L_24)))
@@ -2745,81 +2745,81 @@ IL_00a5:
 	{
 		NewExpression_t3330 * L_25 = ___nex;
 		NullCheck(L_25);
-		ReadOnlyCollection_1_t3323 * L_26 = NewExpression_get_Arguments_m11710(L_25, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_26 = NewExpression_get_Arguments_m11711(L_25, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3323 * >::Invoke(16 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitExpressionList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>) */, __this, L_26);
 	}
 
 IL_00b1:
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitMemberInit(System.Linq.Expressions.MemberInitExpression)
 extern TypeInfo* Action_1_t3368_il2cpp_TypeInfo_var;
-extern const MethodInfo* Action_1__ctor_m11815_MethodInfo_var;
-extern const MethodInfo* ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11810_MethodInfo_var;
-extern "C" void ExpressionPrinter_VisitMemberInit_m11655 (ExpressionPrinter_t3325 * __this, MemberInitExpression_t3337 * ___init, const MethodInfo* method)
+extern const MethodInfo* Action_1__ctor_m11816_MethodInfo_var;
+extern const MethodInfo* ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11811_MethodInfo_var;
+extern "C" void ExpressionPrinter_VisitMemberInit_m11656 (ExpressionPrinter_t3325 * __this, MemberInitExpression_t3337 * ___init, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Action_1_t3368_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5976);
-		Action_1__ctor_m11815_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485172);
-		ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11810_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485173);
+		Action_1__ctor_m11816_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485173);
+		ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11811_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485174);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		MemberInitExpression_t3337 * L_0 = ___init;
 		NullCheck(L_0);
-		NewExpression_t3330 * L_1 = MemberInitExpression_get_NewExpression_m11702(L_0, /*hidden argument*/NULL);
+		NewExpression_t3330 * L_1 = MemberInitExpression_get_NewExpression_m11703(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_1);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2505, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2505, /*hidden argument*/NULL);
 		MemberInitExpression_t3337 * L_2 = ___init;
 		NullCheck(L_2);
-		ReadOnlyCollection_1_t3336 * L_3 = MemberInitExpression_get_Bindings_m11703(L_2, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3336 * L_3 = MemberInitExpression_get_Bindings_m11704(L_2, /*hidden argument*/NULL);
 		IntPtr_t L_4 = { (void*)GetVirtualMethodInfo(__this, 5) };
 		Action_1_t3368 * L_5 = (Action_1_t3368 *)il2cpp_codegen_object_new (Action_1_t3368_il2cpp_TypeInfo_var);
-		Action_1__ctor_m11815(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m11815_MethodInfo_var);
-		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3336 *, Action_1_t3368 * >::Invoke(ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11810_MethodInfo_var, __this, L_3, L_5);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral127, /*hidden argument*/NULL);
+		Action_1__ctor_m11816(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m11816_MethodInfo_var);
+		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3336 *, Action_1_t3368 * >::Invoke(ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11811_MethodInfo_var, __this, L_3, L_5);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral127, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitListInit(System.Linq.Expressions.ListInitExpression)
 extern TypeInfo* Action_1_t3370_il2cpp_TypeInfo_var;
-extern const MethodInfo* Action_1__ctor_m11816_MethodInfo_var;
-extern const MethodInfo* ExpressionVisitor_VisitList_TisElementInit_t3324_m11812_MethodInfo_var;
-extern "C" void ExpressionPrinter_VisitListInit_m11656 (ExpressionPrinter_t3325 * __this, ListInitExpression_t3332 * ___init, const MethodInfo* method)
+extern const MethodInfo* Action_1__ctor_m11817_MethodInfo_var;
+extern const MethodInfo* ExpressionVisitor_VisitList_TisElementInit_t3324_m11813_MethodInfo_var;
+extern "C" void ExpressionPrinter_VisitListInit_m11657 (ExpressionPrinter_t3325 * __this, ListInitExpression_t3332 * ___init, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Action_1_t3370_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5978);
-		Action_1__ctor_m11816_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485174);
-		ExpressionVisitor_VisitList_TisElementInit_t3324_m11812_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485175);
+		Action_1__ctor_m11817_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485175);
+		ExpressionVisitor_VisitList_TisElementInit_t3324_m11813_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485176);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		ListInitExpression_t3332 * L_0 = ___init;
 		NullCheck(L_0);
-		NewExpression_t3330 * L_1 = ListInitExpression_get_NewExpression_m11693(L_0, /*hidden argument*/NULL);
+		NewExpression_t3330 * L_1 = ListInitExpression_get_NewExpression_m11694(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_1);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2505, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2505, /*hidden argument*/NULL);
 		ListInitExpression_t3332 * L_2 = ___init;
 		NullCheck(L_2);
-		ReadOnlyCollection_1_t3331 * L_3 = ListInitExpression_get_Initializers_m11694(L_2, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3331 * L_3 = ListInitExpression_get_Initializers_m11695(L_2, /*hidden argument*/NULL);
 		IntPtr_t L_4 = { (void*)GetVirtualMethodInfo(__this, 6) };
 		Action_1_t3370 * L_5 = (Action_1_t3370 *)il2cpp_codegen_object_new (Action_1_t3370_il2cpp_TypeInfo_var);
-		Action_1__ctor_m11816(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m11816_MethodInfo_var);
-		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3331 *, Action_1_t3370 * >::Invoke(ExpressionVisitor_VisitList_TisElementInit_t3324_m11812_MethodInfo_var, __this, L_3, L_5);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral127, /*hidden argument*/NULL);
+		Action_1__ctor_m11817(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m11817_MethodInfo_var);
+		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3331 *, Action_1_t3370 * >::Invoke(ExpressionVisitor_VisitList_TisElementInit_t3324_m11813_MethodInfo_var, __this, L_3, L_5);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral127, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitNewArray(System.Linq.Expressions.NewArrayExpression)
 extern TypeInfo* NotSupportedException_t56_il2cpp_TypeInfo_var;
-extern "C" void ExpressionPrinter_VisitNewArray_m11657 (ExpressionPrinter_t3325 * __this, NewArrayExpression_t3340 * ___newArray, const MethodInfo* method)
+extern "C" void ExpressionPrinter_VisitNewArray_m11658 (ExpressionPrinter_t3325 * __this, NewArrayExpression_t3340 * ___newArray, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2829,10 +2829,10 @@ extern "C" void ExpressionPrinter_VisitNewArray_m11657 (ExpressionPrinter_t3325 
 	}
 	int32_t V_0 = {0};
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2506, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2506, /*hidden argument*/NULL);
 		NewArrayExpression_t3340 * L_0 = ___newArray;
 		NullCheck(L_0);
-		int32_t L_1 = Expression_get_NodeType_m11605(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Expression_get_NodeType_m11606(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) == ((int32_t)((int32_t)32))))
@@ -2855,25 +2855,25 @@ IL_0027:
 	{
 		NewArrayExpression_t3340 * L_4 = ___newArray;
 		NullCheck(L_4);
-		Type_t * L_5 = Expression_get_Type_m11606(L_4, /*hidden argument*/NULL);
-		ExpressionPrinter_Print_m11635(__this, L_5, /*hidden argument*/NULL);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
+		Type_t * L_5 = Expression_get_Type_m11607(L_4, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11636(__this, L_5, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2010, /*hidden argument*/NULL);
 		NewArrayExpression_t3340 * L_6 = ___newArray;
 		NullCheck(L_6);
-		ReadOnlyCollection_1_t3323 * L_7 = NewArrayExpression_get_Expressions_m11709(L_6, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_7 = NewArrayExpression_get_Expressions_m11710(L_6, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3323 * >::Invoke(16 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitExpressionList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>) */, __this, L_7);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
 		return;
 	}
 
 IL_0056:
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2507, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2507, /*hidden argument*/NULL);
 		NewArrayExpression_t3340 * L_8 = ___newArray;
 		NullCheck(L_8);
-		ReadOnlyCollection_1_t3323 * L_9 = NewArrayExpression_get_Expressions_m11709(L_8, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_9 = NewArrayExpression_get_Expressions_m11710(L_8, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3323 * >::Invoke(16 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitExpressionList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>) */, __this, L_9);
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral127, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral127, /*hidden argument*/NULL);
 		return;
 	}
 
@@ -2885,17 +2885,17 @@ IL_0079:
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionPrinter::VisitInvocation(System.Linq.Expressions.InvocationExpression)
-extern "C" void ExpressionPrinter_VisitInvocation_m11658 (ExpressionPrinter_t3325 * __this, InvocationExpression_t3329 * ___invocation, const MethodInfo* method)
+extern "C" void ExpressionPrinter_VisitInvocation_m11659 (ExpressionPrinter_t3325 * __this, InvocationExpression_t3329 * ___invocation, const MethodInfo* method)
 {
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral2508, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral2508, /*hidden argument*/NULL);
 		InvocationExpression_t3329 * L_0 = ___invocation;
 		NullCheck(L_0);
-		Expression_t1520 * L_1 = InvocationExpression_get_Expression_m11691(L_0, /*hidden argument*/NULL);
+		Expression_t1520 * L_1 = InvocationExpression_get_Expression_m11692(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_1);
 		InvocationExpression_t3329 * L_2 = ___invocation;
 		NullCheck(L_2);
-		ReadOnlyCollection_1_t3323 * L_3 = InvocationExpression_get_Arguments_m11692(L_2, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_3 = InvocationExpression_get_Arguments_m11693(L_2, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		int32_t L_4 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>::get_Count() */, L_3);
 		if (!L_4)
@@ -2904,16 +2904,16 @@ extern "C" void ExpressionPrinter_VisitInvocation_m11658 (ExpressionPrinter_t332
 		}
 	}
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral120, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral120, /*hidden argument*/NULL);
 		InvocationExpression_t3329 * L_5 = ___invocation;
 		NullCheck(L_5);
-		ReadOnlyCollection_1_t3323 * L_6 = InvocationExpression_get_Arguments_m11692(L_5, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_6 = InvocationExpression_get_Arguments_m11693(L_5, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3323 * >::Invoke(16 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitExpressionList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>) */, __this, L_6);
 	}
 
 IL_003e:
 	{
-		ExpressionPrinter_Print_m11634(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
+		ExpressionPrinter_Print_m11635(__this, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -2940,11 +2940,11 @@ struct ReadOnlyCollection_1_t3323;
 struct Action_1_t3373;
 // Declaration System.Void System.Linq.Expressions.ExpressionVisitor::VisitList<System.Linq.Expressions.Expression>(System.Collections.ObjectModel.ReadOnlyCollection`1<!!0>,System.Action`1<!!0>)
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitList<System.Linq.Expressions.Expression>(System.Collections.ObjectModel.ReadOnlyCollection`1<!!0>,System.Action`1<!!0>)
-#define ExpressionVisitor_VisitList_TisExpression_t1520_m11818(__this, p0, p1, method) (( void (*) (ExpressionVisitor_t3326 *, ReadOnlyCollection_1_t3323 *, Action_1_t3373 *, const MethodInfo*))ExpressionVisitor_VisitList_TisObject_t_m11811_gshared)(__this, p0, p1, method)
+#define ExpressionVisitor_VisitList_TisExpression_t1520_m11819(__this, p0, p1, method) (( void (*) (ExpressionVisitor_t3326 *, ReadOnlyCollection_1_t3323 *, Action_1_t3373 *, const MethodInfo*))ExpressionVisitor_VisitList_TisObject_t_m11812_gshared)(__this, p0, p1, method)
 
 
 // System.Void System.Linq.Expressions.ExpressionVisitor::.ctor()
-extern "C" void ExpressionVisitor__ctor_m11659 (ExpressionVisitor_t3326 * __this, const MethodInfo* method)
+extern "C" void ExpressionVisitor__ctor_m11660 (ExpressionVisitor_t3326 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
@@ -2969,7 +2969,7 @@ extern TypeInfo* ListInitExpression_t3332_il2cpp_TypeInfo_var;
 extern TypeInfo* ExpressionType_t3327_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentException_t711_il2cpp_TypeInfo_var;
-extern "C" void ExpressionVisitor_Visit_m11660 (ExpressionVisitor_t3326 * __this, Expression_t1520 * ___expression, const MethodInfo* method)
+extern "C" void ExpressionVisitor_Visit_m11661 (ExpressionVisitor_t3326 * __this, Expression_t1520 * ___expression, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3009,7 +3009,7 @@ IL_0007:
 	{
 		Expression_t1520 * L_1 = ___expression;
 		NullCheck(L_1);
-		int32_t L_2 = Expression_get_NodeType_m11605(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = Expression_get_NodeType_m11606(L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		int32_t L_3 = V_0;
 		if (L_3 == 0)
@@ -3303,7 +3303,7 @@ IL_01bf:
 	{
 		Expression_t1520 * L_18 = ___expression;
 		NullCheck(L_18);
-		int32_t L_19 = Expression_get_NodeType_m11605(L_18, /*hidden argument*/NULL);
+		int32_t L_19 = Expression_get_NodeType_m11606(L_18, /*hidden argument*/NULL);
 		int32_t L_20 = L_19;
 		Object_t * L_21 = Box(ExpressionType_t3327_il2cpp_TypeInfo_var, &L_20);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
@@ -3325,7 +3325,7 @@ extern TypeInfo* MemberListBinding_t3338_il2cpp_TypeInfo_var;
 extern TypeInfo* MemberBindingType_t3335_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentException_t711_il2cpp_TypeInfo_var;
-extern "C" void ExpressionVisitor_VisitBinding_m11661 (ExpressionVisitor_t3326 * __this, MemberBinding_t3334 * ___binding, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitBinding_m11662 (ExpressionVisitor_t3326 * __this, MemberBinding_t3334 * ___binding, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3342,7 +3342,7 @@ extern "C" void ExpressionVisitor_VisitBinding_m11661 (ExpressionVisitor_t3326 *
 	{
 		MemberBinding_t3334 * L_0 = ___binding;
 		NullCheck(L_0);
-		int32_t L_1 = MemberBinding_get_BindingType_m11696(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = MemberBinding_get_BindingType_m11697(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if (L_2 == 0)
@@ -3387,7 +3387,7 @@ IL_0051:
 	{
 		MemberBinding_t3334 * L_6 = ___binding;
 		NullCheck(L_6);
-		int32_t L_7 = MemberBinding_get_BindingType_m11696(L_6, /*hidden argument*/NULL);
+		int32_t L_7 = MemberBinding_get_BindingType_m11697(L_6, /*hidden argument*/NULL);
 		int32_t L_8 = L_7;
 		Object_t * L_9 = Box(MemberBindingType_t3335_il2cpp_TypeInfo_var, &L_8);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
@@ -3403,292 +3403,292 @@ IL_006c:
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitElementInitializer(System.Linq.Expressions.ElementInit)
-extern "C" void ExpressionVisitor_VisitElementInitializer_m11662 (ExpressionVisitor_t3326 * __this, ElementInit_t3324 * ___initializer, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitElementInitializer_m11663 (ExpressionVisitor_t3326 * __this, ElementInit_t3324 * ___initializer, const MethodInfo* method)
 {
 	{
 		ElementInit_t3324 * L_0 = ___initializer;
 		NullCheck(L_0);
-		ReadOnlyCollection_1_t3323 * L_1 = ElementInit_get_Arguments_m11627(L_0, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_1 = ElementInit_get_Arguments_m11628(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3323 * >::Invoke(16 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitExpressionList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>) */, __this, L_1);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitUnary(System.Linq.Expressions.UnaryExpression)
-extern "C" void ExpressionVisitor_VisitUnary_m11663 (ExpressionVisitor_t3326 * __this, UnaryExpression_t3344 * ___unary, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitUnary_m11664 (ExpressionVisitor_t3326 * __this, UnaryExpression_t3344 * ___unary, const MethodInfo* method)
 {
 	{
 		UnaryExpression_t3344 * L_0 = ___unary;
 		NullCheck(L_0);
-		Expression_t1520 * L_1 = UnaryExpression_get_Operand_m11716(L_0, /*hidden argument*/NULL);
+		Expression_t1520 * L_1 = UnaryExpression_get_Operand_m11717(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_1);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitBinary(System.Linq.Expressions.BinaryExpression)
-extern "C" void ExpressionVisitor_VisitBinary_m11664 (ExpressionVisitor_t3326 * __this, BinaryExpression_t3321 * ___binary, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitBinary_m11665 (ExpressionVisitor_t3326 * __this, BinaryExpression_t3321 * ___binary, const MethodInfo* method)
 {
 	{
 		BinaryExpression_t3321 * L_0 = ___binary;
 		NullCheck(L_0);
-		Expression_t1520 * L_1 = BinaryExpression_get_Left_m11618(L_0, /*hidden argument*/NULL);
+		Expression_t1520 * L_1 = BinaryExpression_get_Left_m11619(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_1);
 		BinaryExpression_t3321 * L_2 = ___binary;
 		NullCheck(L_2);
-		Expression_t1520 * L_3 = BinaryExpression_get_Right_m11619(L_2, /*hidden argument*/NULL);
+		Expression_t1520 * L_3 = BinaryExpression_get_Right_m11620(L_2, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_3);
 		BinaryExpression_t3321 * L_4 = ___binary;
 		NullCheck(L_4);
-		LambdaExpression_t3319 * L_5 = BinaryExpression_get_Conversion_m11620(L_4, /*hidden argument*/NULL);
+		LambdaExpression_t3319 * L_5 = BinaryExpression_get_Conversion_m11621(L_4, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_5);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitTypeIs(System.Linq.Expressions.TypeBinaryExpression)
-extern "C" void ExpressionVisitor_VisitTypeIs_m11665 (ExpressionVisitor_t3326 * __this, TypeBinaryExpression_t3343 * ___type, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitTypeIs_m11666 (ExpressionVisitor_t3326 * __this, TypeBinaryExpression_t3343 * ___type, const MethodInfo* method)
 {
 	{
 		TypeBinaryExpression_t3343 * L_0 = ___type;
 		NullCheck(L_0);
-		Expression_t1520 * L_1 = TypeBinaryExpression_get_Expression_m11713(L_0, /*hidden argument*/NULL);
+		Expression_t1520 * L_1 = TypeBinaryExpression_get_Expression_m11714(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_1);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitConstant(System.Linq.Expressions.ConstantExpression)
-extern "C" void ExpressionVisitor_VisitConstant_m11666 (ExpressionVisitor_t3326 * __this, ConstantExpression_t1526 * ___constant, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitConstant_m11667 (ExpressionVisitor_t3326 * __this, ConstantExpression_t1526 * ___constant, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitConditional(System.Linq.Expressions.ConditionalExpression)
-extern "C" void ExpressionVisitor_VisitConditional_m11667 (ExpressionVisitor_t3326 * __this, ConditionalExpression_t3322 * ___conditional, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitConditional_m11668 (ExpressionVisitor_t3326 * __this, ConditionalExpression_t3322 * ___conditional, const MethodInfo* method)
 {
 	{
 		ConditionalExpression_t3322 * L_0 = ___conditional;
 		NullCheck(L_0);
-		Expression_t1520 * L_1 = ConditionalExpression_get_Test_m11621(L_0, /*hidden argument*/NULL);
+		Expression_t1520 * L_1 = ConditionalExpression_get_Test_m11622(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_1);
 		ConditionalExpression_t3322 * L_2 = ___conditional;
 		NullCheck(L_2);
-		Expression_t1520 * L_3 = ConditionalExpression_get_IfTrue_m11622(L_2, /*hidden argument*/NULL);
+		Expression_t1520 * L_3 = ConditionalExpression_get_IfTrue_m11623(L_2, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_3);
 		ConditionalExpression_t3322 * L_4 = ___conditional;
 		NullCheck(L_4);
-		Expression_t1520 * L_5 = ConditionalExpression_get_IfFalse_m11623(L_4, /*hidden argument*/NULL);
+		Expression_t1520 * L_5 = ConditionalExpression_get_IfFalse_m11624(L_4, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_5);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitParameter(System.Linq.Expressions.ParameterExpression)
-extern "C" void ExpressionVisitor_VisitParameter_m11668 (ExpressionVisitor_t3326 * __this, ParameterExpression_t3342 * ___parameter, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitParameter_m11669 (ExpressionVisitor_t3326 * __this, ParameterExpression_t3342 * ___parameter, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitMemberAccess(System.Linq.Expressions.MemberExpression)
-extern "C" void ExpressionVisitor_VisitMemberAccess_m11669 (ExpressionVisitor_t3326 * __this, MemberExpression_t1527 * ___member, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitMemberAccess_m11670 (ExpressionVisitor_t3326 * __this, MemberExpression_t1527 * ___member, const MethodInfo* method)
 {
 	{
 		MemberExpression_t1527 * L_0 = ___member;
 		NullCheck(L_0);
-		Expression_t1520 * L_1 = MemberExpression_get_Expression_m11700(L_0, /*hidden argument*/NULL);
+		Expression_t1520 * L_1 = MemberExpression_get_Expression_m11701(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_1);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitMethodCall(System.Linq.Expressions.MethodCallExpression)
-extern "C" void ExpressionVisitor_VisitMethodCall_m11670 (ExpressionVisitor_t3326 * __this, MethodCallExpression_t1528 * ___methodCall, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitMethodCall_m11671 (ExpressionVisitor_t3326 * __this, MethodCallExpression_t1528 * ___methodCall, const MethodInfo* method)
 {
 	{
 		MethodCallExpression_t1528 * L_0 = ___methodCall;
 		NullCheck(L_0);
-		Expression_t1520 * L_1 = MethodCallExpression_get_Object_m11707(L_0, /*hidden argument*/NULL);
+		Expression_t1520 * L_1 = MethodCallExpression_get_Object_m11708(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_1);
 		MethodCallExpression_t1528 * L_2 = ___methodCall;
 		NullCheck(L_2);
-		ReadOnlyCollection_1_t3323 * L_3 = MethodCallExpression_get_Arguments_m11708(L_2, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_3 = MethodCallExpression_get_Arguments_m11709(L_2, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3323 * >::Invoke(16 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitExpressionList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>) */, __this, L_3);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitExpressionList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>)
 extern TypeInfo* Action_1_t3373_il2cpp_TypeInfo_var;
-extern const MethodInfo* Action_1__ctor_m11819_MethodInfo_var;
-extern const MethodInfo* ExpressionVisitor_VisitList_TisExpression_t1520_m11818_MethodInfo_var;
-extern "C" void ExpressionVisitor_VisitExpressionList_m11671 (ExpressionVisitor_t3326 * __this, ReadOnlyCollection_1_t3323 * ___list, const MethodInfo* method)
+extern const MethodInfo* Action_1__ctor_m11820_MethodInfo_var;
+extern const MethodInfo* ExpressionVisitor_VisitList_TisExpression_t1520_m11819_MethodInfo_var;
+extern "C" void ExpressionVisitor_VisitExpressionList_m11672 (ExpressionVisitor_t3326 * __this, ReadOnlyCollection_1_t3323 * ___list, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Action_1_t3373_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5993);
-		Action_1__ctor_m11819_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485178);
-		ExpressionVisitor_VisitList_TisExpression_t1520_m11818_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485179);
+		Action_1__ctor_m11820_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485179);
+		ExpressionVisitor_VisitList_TisExpression_t1520_m11819_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485180);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		ReadOnlyCollection_1_t3323 * L_0 = ___list;
 		IntPtr_t L_1 = { (void*)GetVirtualMethodInfo(__this, 4) };
 		Action_1_t3373 * L_2 = (Action_1_t3373 *)il2cpp_codegen_object_new (Action_1_t3373_il2cpp_TypeInfo_var);
-		Action_1__ctor_m11819(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m11819_MethodInfo_var);
-		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3323 *, Action_1_t3373 * >::Invoke(ExpressionVisitor_VisitList_TisExpression_t1520_m11818_MethodInfo_var, __this, L_0, L_2);
+		Action_1__ctor_m11820(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m11820_MethodInfo_var);
+		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3323 *, Action_1_t3373 * >::Invoke(ExpressionVisitor_VisitList_TisExpression_t1520_m11819_MethodInfo_var, __this, L_0, L_2);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitMemberAssignment(System.Linq.Expressions.MemberAssignment)
-extern "C" void ExpressionVisitor_VisitMemberAssignment_m11672 (ExpressionVisitor_t3326 * __this, MemberAssignment_t3333 * ___assignment, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitMemberAssignment_m11673 (ExpressionVisitor_t3326 * __this, MemberAssignment_t3333 * ___assignment, const MethodInfo* method)
 {
 	{
 		MemberAssignment_t3333 * L_0 = ___assignment;
 		NullCheck(L_0);
-		Expression_t1520 * L_1 = MemberAssignment_get_Expression_m11695(L_0, /*hidden argument*/NULL);
+		Expression_t1520 * L_1 = MemberAssignment_get_Expression_m11696(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_1);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitMemberMemberBinding(System.Linq.Expressions.MemberMemberBinding)
-extern "C" void ExpressionVisitor_VisitMemberMemberBinding_m11673 (ExpressionVisitor_t3326 * __this, MemberMemberBinding_t3339 * ___binding, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitMemberMemberBinding_m11674 (ExpressionVisitor_t3326 * __this, MemberMemberBinding_t3339 * ___binding, const MethodInfo* method)
 {
 	{
 		MemberMemberBinding_t3339 * L_0 = ___binding;
 		NullCheck(L_0);
-		ReadOnlyCollection_1_t3336 * L_1 = MemberMemberBinding_get_Bindings_m11705(L_0, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3336 * L_1 = MemberMemberBinding_get_Bindings_m11706(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3336 * >::Invoke(20 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitBindingList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.MemberBinding>) */, __this, L_1);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitMemberListBinding(System.Linq.Expressions.MemberListBinding)
-extern "C" void ExpressionVisitor_VisitMemberListBinding_m11674 (ExpressionVisitor_t3326 * __this, MemberListBinding_t3338 * ___binding, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitMemberListBinding_m11675 (ExpressionVisitor_t3326 * __this, MemberListBinding_t3338 * ___binding, const MethodInfo* method)
 {
 	{
 		MemberListBinding_t3338 * L_0 = ___binding;
 		NullCheck(L_0);
-		ReadOnlyCollection_1_t3331 * L_1 = MemberListBinding_get_Initializers_m11704(L_0, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3331 * L_1 = MemberListBinding_get_Initializers_m11705(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3331 * >::Invoke(21 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitElementInitializerList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit>) */, __this, L_1);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitBindingList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.MemberBinding>)
 extern TypeInfo* Action_1_t3368_il2cpp_TypeInfo_var;
-extern const MethodInfo* Action_1__ctor_m11815_MethodInfo_var;
-extern const MethodInfo* ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11810_MethodInfo_var;
-extern "C" void ExpressionVisitor_VisitBindingList_m11675 (ExpressionVisitor_t3326 * __this, ReadOnlyCollection_1_t3336 * ___list, const MethodInfo* method)
+extern const MethodInfo* Action_1__ctor_m11816_MethodInfo_var;
+extern const MethodInfo* ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11811_MethodInfo_var;
+extern "C" void ExpressionVisitor_VisitBindingList_m11676 (ExpressionVisitor_t3326 * __this, ReadOnlyCollection_1_t3336 * ___list, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Action_1_t3368_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5976);
-		Action_1__ctor_m11815_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485172);
-		ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11810_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485173);
+		Action_1__ctor_m11816_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485173);
+		ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11811_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485174);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		ReadOnlyCollection_1_t3336 * L_0 = ___list;
 		IntPtr_t L_1 = { (void*)GetVirtualMethodInfo(__this, 5) };
 		Action_1_t3368 * L_2 = (Action_1_t3368 *)il2cpp_codegen_object_new (Action_1_t3368_il2cpp_TypeInfo_var);
-		Action_1__ctor_m11815(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m11815_MethodInfo_var);
-		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3336 *, Action_1_t3368 * >::Invoke(ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11810_MethodInfo_var, __this, L_0, L_2);
+		Action_1__ctor_m11816(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m11816_MethodInfo_var);
+		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3336 *, Action_1_t3368 * >::Invoke(ExpressionVisitor_VisitList_TisMemberBinding_t3334_m11811_MethodInfo_var, __this, L_0, L_2);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitElementInitializerList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit>)
 extern TypeInfo* Action_1_t3370_il2cpp_TypeInfo_var;
-extern const MethodInfo* Action_1__ctor_m11816_MethodInfo_var;
-extern const MethodInfo* ExpressionVisitor_VisitList_TisElementInit_t3324_m11812_MethodInfo_var;
-extern "C" void ExpressionVisitor_VisitElementInitializerList_m11676 (ExpressionVisitor_t3326 * __this, ReadOnlyCollection_1_t3331 * ___list, const MethodInfo* method)
+extern const MethodInfo* Action_1__ctor_m11817_MethodInfo_var;
+extern const MethodInfo* ExpressionVisitor_VisitList_TisElementInit_t3324_m11813_MethodInfo_var;
+extern "C" void ExpressionVisitor_VisitElementInitializerList_m11677 (ExpressionVisitor_t3326 * __this, ReadOnlyCollection_1_t3331 * ___list, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Action_1_t3370_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5978);
-		Action_1__ctor_m11816_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485174);
-		ExpressionVisitor_VisitList_TisElementInit_t3324_m11812_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485175);
+		Action_1__ctor_m11817_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485175);
+		ExpressionVisitor_VisitList_TisElementInit_t3324_m11813_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485176);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		ReadOnlyCollection_1_t3331 * L_0 = ___list;
 		IntPtr_t L_1 = { (void*)GetVirtualMethodInfo(__this, 6) };
 		Action_1_t3370 * L_2 = (Action_1_t3370 *)il2cpp_codegen_object_new (Action_1_t3370_il2cpp_TypeInfo_var);
-		Action_1__ctor_m11816(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m11816_MethodInfo_var);
-		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3331 *, Action_1_t3370 * >::Invoke(ExpressionVisitor_VisitList_TisElementInit_t3324_m11812_MethodInfo_var, __this, L_0, L_2);
+		Action_1__ctor_m11817(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m11817_MethodInfo_var);
+		GenericVirtActionInvoker2< ReadOnlyCollection_1_t3331 *, Action_1_t3370 * >::Invoke(ExpressionVisitor_VisitList_TisElementInit_t3324_m11813_MethodInfo_var, __this, L_0, L_2);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitLambda(System.Linq.Expressions.LambdaExpression)
-extern "C" void ExpressionVisitor_VisitLambda_m11677 (ExpressionVisitor_t3326 * __this, LambdaExpression_t3319 * ___lambda, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitLambda_m11678 (ExpressionVisitor_t3326 * __this, LambdaExpression_t3319 * ___lambda, const MethodInfo* method)
 {
 	{
 		LambdaExpression_t3319 * L_0 = ___lambda;
 		NullCheck(L_0);
-		Expression_t1520 * L_1 = LambdaExpression_get_Body_m7683(L_0, /*hidden argument*/NULL);
+		Expression_t1520 * L_1 = LambdaExpression_get_Body_m7684(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_1);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitNew(System.Linq.Expressions.NewExpression)
-extern "C" void ExpressionVisitor_VisitNew_m11678 (ExpressionVisitor_t3326 * __this, NewExpression_t3330 * ___nex, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitNew_m11679 (ExpressionVisitor_t3326 * __this, NewExpression_t3330 * ___nex, const MethodInfo* method)
 {
 	{
 		NewExpression_t3330 * L_0 = ___nex;
 		NullCheck(L_0);
-		ReadOnlyCollection_1_t3323 * L_1 = NewExpression_get_Arguments_m11710(L_0, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_1 = NewExpression_get_Arguments_m11711(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3323 * >::Invoke(16 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitExpressionList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>) */, __this, L_1);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitMemberInit(System.Linq.Expressions.MemberInitExpression)
-extern "C" void ExpressionVisitor_VisitMemberInit_m11679 (ExpressionVisitor_t3326 * __this, MemberInitExpression_t3337 * ___init, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitMemberInit_m11680 (ExpressionVisitor_t3326 * __this, MemberInitExpression_t3337 * ___init, const MethodInfo* method)
 {
 	{
 		MemberInitExpression_t3337 * L_0 = ___init;
 		NullCheck(L_0);
-		NewExpression_t3330 * L_1 = MemberInitExpression_get_NewExpression_m11702(L_0, /*hidden argument*/NULL);
+		NewExpression_t3330 * L_1 = MemberInitExpression_get_NewExpression_m11703(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< NewExpression_t3330 * >::Invoke(23 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitNew(System.Linq.Expressions.NewExpression) */, __this, L_1);
 		MemberInitExpression_t3337 * L_2 = ___init;
 		NullCheck(L_2);
-		ReadOnlyCollection_1_t3336 * L_3 = MemberInitExpression_get_Bindings_m11703(L_2, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3336 * L_3 = MemberInitExpression_get_Bindings_m11704(L_2, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3336 * >::Invoke(20 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitBindingList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.MemberBinding>) */, __this, L_3);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitListInit(System.Linq.Expressions.ListInitExpression)
-extern "C" void ExpressionVisitor_VisitListInit_m11680 (ExpressionVisitor_t3326 * __this, ListInitExpression_t3332 * ___init, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitListInit_m11681 (ExpressionVisitor_t3326 * __this, ListInitExpression_t3332 * ___init, const MethodInfo* method)
 {
 	{
 		ListInitExpression_t3332 * L_0 = ___init;
 		NullCheck(L_0);
-		NewExpression_t3330 * L_1 = ListInitExpression_get_NewExpression_m11693(L_0, /*hidden argument*/NULL);
+		NewExpression_t3330 * L_1 = ListInitExpression_get_NewExpression_m11694(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< NewExpression_t3330 * >::Invoke(23 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitNew(System.Linq.Expressions.NewExpression) */, __this, L_1);
 		ListInitExpression_t3332 * L_2 = ___init;
 		NullCheck(L_2);
-		ReadOnlyCollection_1_t3331 * L_3 = ListInitExpression_get_Initializers_m11694(L_2, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3331 * L_3 = ListInitExpression_get_Initializers_m11695(L_2, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3331 * >::Invoke(21 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitElementInitializerList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit>) */, __this, L_3);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitNewArray(System.Linq.Expressions.NewArrayExpression)
-extern "C" void ExpressionVisitor_VisitNewArray_m11681 (ExpressionVisitor_t3326 * __this, NewArrayExpression_t3340 * ___newArray, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitNewArray_m11682 (ExpressionVisitor_t3326 * __this, NewArrayExpression_t3340 * ___newArray, const MethodInfo* method)
 {
 	{
 		NewArrayExpression_t3340 * L_0 = ___newArray;
 		NullCheck(L_0);
-		ReadOnlyCollection_1_t3323 * L_1 = NewArrayExpression_get_Expressions_m11709(L_0, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_1 = NewArrayExpression_get_Expressions_m11710(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3323 * >::Invoke(16 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitExpressionList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>) */, __this, L_1);
 		return;
 	}
 }
 // System.Void System.Linq.Expressions.ExpressionVisitor::VisitInvocation(System.Linq.Expressions.InvocationExpression)
-extern "C" void ExpressionVisitor_VisitInvocation_m11682 (ExpressionVisitor_t3326 * __this, InvocationExpression_t3329 * ___invocation, const MethodInfo* method)
+extern "C" void ExpressionVisitor_VisitInvocation_m11683 (ExpressionVisitor_t3326 * __this, InvocationExpression_t3329 * ___invocation, const MethodInfo* method)
 {
 	{
 		InvocationExpression_t3329 * L_0 = ___invocation;
 		NullCheck(L_0);
-		ReadOnlyCollection_1_t3323 * L_1 = InvocationExpression_get_Arguments_m11692(L_0, /*hidden argument*/NULL);
+		ReadOnlyCollection_1_t3323 * L_1 = InvocationExpression_get_Arguments_m11693(L_0, /*hidden argument*/NULL);
 		VirtActionInvoker1< ReadOnlyCollection_1_t3323 * >::Invoke(16 /* System.Void System.Linq.Expressions.ExpressionVisitor::VisitExpressionList(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>) */, __this, L_1);
 		InvocationExpression_t3329 * L_2 = ___invocation;
 		NullCheck(L_2);
-		Expression_t1520 * L_3 = InvocationExpression_get_Expression_m11691(L_2, /*hidden argument*/NULL);
+		Expression_t1520 * L_3 = InvocationExpression_get_Expression_m11692(L_2, /*hidden argument*/NULL);
 		VirtActionInvoker1< Expression_t1520 * >::Invoke(4 /* System.Void System.Linq.Expressions.ExpressionVisitor::Visit(System.Linq.Expressions.Expression) */, __this, L_3);
 		return;
 	}
@@ -3704,7 +3704,7 @@ extern "C" void ExpressionVisitor_VisitInvocation_m11682 (ExpressionVisitor_t332
 
 
 // System.Boolean System.Linq.Expressions.Extensions::IsGenericInstanceOf(System.Type,System.Type)
-extern "C" bool Extensions_IsGenericInstanceOf_m11683 (Object_t * __this /* static, unused */, Type_t * ___self, Type_t * ___type, const MethodInfo* method)
+extern "C" bool Extensions_IsGenericInstanceOf_m11684 (Object_t * __this /* static, unused */, Type_t * ___self, Type_t * ___type, const MethodInfo* method)
 {
 	{
 		Type_t * L_0 = ___self;
@@ -3731,7 +3731,7 @@ IL_000d:
 // System.Boolean System.Linq.Expressions.Extensions::IsNullable(System.Type)
 extern const Il2CppType* Nullable_1_t1457_0_0_0_var;
 extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
-extern "C" bool Extensions_IsNullable_m11684 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method)
+extern "C" bool Extensions_IsNullable_m11685 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3754,7 +3754,7 @@ extern "C" bool Extensions_IsNullable_m11684 (Object_t * __this /* static, unuse
 		Type_t * L_2 = ___self;
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_3 = Type_GetTypeFromHandle_m4058(NULL /*static, unused*/, LoadTypeToken(Nullable_1_t1457_0_0_0_var), /*hidden argument*/NULL);
-		bool L_4 = Extensions_IsGenericInstanceOf_m11683(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		bool L_4 = Extensions_IsGenericInstanceOf_m11684(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		G_B3_0 = ((int32_t)(L_4));
 		goto IL_001e;
 	}
@@ -3772,7 +3772,7 @@ IL_001e:
 // System.Boolean System.Linq.Expressions.Extensions::IsExpression(System.Type)
 extern const Il2CppType* Expression_t1520_0_0_0_var;
 extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
-extern "C" bool Extensions_IsExpression_m11685 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method)
+extern "C" bool Extensions_IsExpression_m11686 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3812,7 +3812,7 @@ IL_0023:
 	}
 }
 // System.Boolean System.Linq.Expressions.Extensions::IsAssignableTo(System.Type,System.Type)
-extern "C" bool Extensions_IsAssignableTo_m11686 (Object_t * __this /* static, unused */, Type_t * ___self, Type_t * ___type, const MethodInfo* method)
+extern "C" bool Extensions_IsAssignableTo_m11687 (Object_t * __this /* static, unused */, Type_t * ___self, Type_t * ___type, const MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
@@ -3828,7 +3828,7 @@ extern "C" bool Extensions_IsAssignableTo_m11686 (Object_t * __this /* static, u
 	{
 		Type_t * L_3 = ___self;
 		Type_t * L_4 = ___type;
-		bool L_5 = Extensions_ArrayTypeIsAssignableTo_m11690(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		bool L_5 = Extensions_ArrayTypeIsAssignableTo_m11691(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
 		G_B3_0 = ((int32_t)(L_5));
 		goto IL_0016;
 	}
@@ -3844,7 +3844,7 @@ IL_0016:
 	}
 }
 // System.Type System.Linq.Expressions.Extensions::GetFirstGenericArgument(System.Type)
-extern "C" Type_t * Extensions_GetFirstGenericArgument_m11687 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method)
+extern "C" Type_t * Extensions_GetFirstGenericArgument_m11688 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method)
 {
 	{
 		Type_t * L_0 = ___self;
@@ -3857,12 +3857,12 @@ extern "C" Type_t * Extensions_GetFirstGenericArgument_m11687 (Object_t * __this
 	}
 }
 // System.Type System.Linq.Expressions.Extensions::GetNotNullableType(System.Type)
-extern "C" Type_t * Extensions_GetNotNullableType_m11688 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method)
+extern "C" Type_t * Extensions_GetNotNullableType_m11689 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method)
 {
 	Type_t * G_B3_0 = {0};
 	{
 		Type_t * L_0 = ___self;
-		bool L_1 = Extensions_IsNullable_m11684(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_1 = Extensions_IsNullable_m11685(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0016;
@@ -3870,7 +3870,7 @@ extern "C" Type_t * Extensions_GetNotNullableType_m11688 (Object_t * __this /* s
 	}
 	{
 		Type_t * L_2 = ___self;
-		Type_t * L_3 = Extensions_GetFirstGenericArgument_m11687(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Type_t * L_3 = Extensions_GetFirstGenericArgument_m11688(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		G_B3_0 = L_3;
 		goto IL_0017;
 	}
@@ -3887,7 +3887,7 @@ IL_0017:
 	}
 }
 // System.Reflection.MethodInfo System.Linq.Expressions.Extensions::GetInvokeMethod(System.Type)
-extern "C" MethodInfo_t * Extensions_GetInvokeMethod_m11689 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method)
+extern "C" MethodInfo_t * Extensions_GetInvokeMethod_m11690 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method)
 {
 	{
 		Type_t * L_0 = ___self;
@@ -3897,7 +3897,7 @@ extern "C" MethodInfo_t * Extensions_GetInvokeMethod_m11689 (Object_t * __this /
 	}
 }
 // System.Boolean System.Linq.Expressions.Extensions::ArrayTypeIsAssignableTo(System.Type,System.Type)
-extern "C" bool Extensions_ArrayTypeIsAssignableTo_m11690 (Object_t * __this /* static, unused */, Type_t * ___type, Type_t * ___candidate, const MethodInfo* method)
+extern "C" bool Extensions_ArrayTypeIsAssignableTo_m11691 (Object_t * __this /* static, unused */, Type_t * ___type, Type_t * ___candidate, const MethodInfo* method)
 {
 	{
 		Type_t * L_0 = ___type;
@@ -3948,7 +3948,7 @@ IL_002b:
 		Type_t * L_10 = ___candidate;
 		NullCheck(L_10);
 		Type_t * L_11 = (Type_t *)VirtFuncInvoker0< Type_t * >::Invoke(43 /* System.Type System.Type::GetElementType() */, L_10);
-		bool L_12 = Extensions_IsAssignableTo_m11686(NULL /*static, unused*/, L_9, L_11, /*hidden argument*/NULL);
+		bool L_12 = Extensions_IsAssignableTo_m11687(NULL /*static, unused*/, L_9, L_11, /*hidden argument*/NULL);
 		return L_12;
 	}
 }
@@ -3959,7 +3959,7 @@ IL_002b:
 
 
 // System.Linq.Expressions.Expression System.Linq.Expressions.InvocationExpression::get_Expression()
-extern "C" Expression_t1520 * InvocationExpression_get_Expression_m11691 (InvocationExpression_t3329 * __this, const MethodInfo* method)
+extern "C" Expression_t1520 * InvocationExpression_get_Expression_m11692 (InvocationExpression_t3329 * __this, const MethodInfo* method)
 {
 	{
 		Expression_t1520 * L_0 = (__this->___expression_2);
@@ -3967,7 +3967,7 @@ extern "C" Expression_t1520 * InvocationExpression_get_Expression_m11691 (Invoca
 	}
 }
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> System.Linq.Expressions.InvocationExpression::get_Arguments()
-extern "C" ReadOnlyCollection_1_t3323 * InvocationExpression_get_Arguments_m11692 (InvocationExpression_t3329 * __this, const MethodInfo* method)
+extern "C" ReadOnlyCollection_1_t3323 * InvocationExpression_get_Arguments_m11693 (InvocationExpression_t3329 * __this, const MethodInfo* method)
 {
 	{
 		ReadOnlyCollection_1_t3323 * L_0 = (__this->___arguments_3);
@@ -3981,7 +3981,7 @@ extern "C" ReadOnlyCollection_1_t3323 * InvocationExpression_get_Arguments_m1169
 
 
 // System.Linq.Expressions.NewExpression System.Linq.Expressions.ListInitExpression::get_NewExpression()
-extern "C" NewExpression_t3330 * ListInitExpression_get_NewExpression_m11693 (ListInitExpression_t3332 * __this, const MethodInfo* method)
+extern "C" NewExpression_t3330 * ListInitExpression_get_NewExpression_m11694 (ListInitExpression_t3332 * __this, const MethodInfo* method)
 {
 	{
 		NewExpression_t3330 * L_0 = (__this->___new_expression_2);
@@ -3989,7 +3989,7 @@ extern "C" NewExpression_t3330 * ListInitExpression_get_NewExpression_m11693 (Li
 	}
 }
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit> System.Linq.Expressions.ListInitExpression::get_Initializers()
-extern "C" ReadOnlyCollection_1_t3331 * ListInitExpression_get_Initializers_m11694 (ListInitExpression_t3332 * __this, const MethodInfo* method)
+extern "C" ReadOnlyCollection_1_t3331 * ListInitExpression_get_Initializers_m11695 (ListInitExpression_t3332 * __this, const MethodInfo* method)
 {
 	{
 		ReadOnlyCollection_1_t3331 * L_0 = (__this->___initializers_3);
@@ -4003,7 +4003,7 @@ extern "C" ReadOnlyCollection_1_t3331 * ListInitExpression_get_Initializers_m116
 
 
 // System.Linq.Expressions.Expression System.Linq.Expressions.MemberAssignment::get_Expression()
-extern "C" Expression_t1520 * MemberAssignment_get_Expression_m11695 (MemberAssignment_t3333 * __this, const MethodInfo* method)
+extern "C" Expression_t1520 * MemberAssignment_get_Expression_m11696 (MemberAssignment_t3333 * __this, const MethodInfo* method)
 {
 	{
 		Expression_t1520 * L_0 = (__this->___expression_2);
@@ -4017,7 +4017,7 @@ extern "C" Expression_t1520 * MemberAssignment_get_Expression_m11695 (MemberAssi
 
 
 // System.Linq.Expressions.MemberBindingType System.Linq.Expressions.MemberBinding::get_BindingType()
-extern "C" int32_t MemberBinding_get_BindingType_m11696 (MemberBinding_t3334 * __this, const MethodInfo* method)
+extern "C" int32_t MemberBinding_get_BindingType_m11697 (MemberBinding_t3334 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___binding_type_0);
@@ -4025,7 +4025,7 @@ extern "C" int32_t MemberBinding_get_BindingType_m11696 (MemberBinding_t3334 * _
 	}
 }
 // System.Reflection.MemberInfo System.Linq.Expressions.MemberBinding::get_Member()
-extern "C" MemberInfo_t * MemberBinding_get_Member_m11697 (MemberBinding_t3334 * __this, const MethodInfo* method)
+extern "C" MemberInfo_t * MemberBinding_get_Member_m11698 (MemberBinding_t3334 * __this, const MethodInfo* method)
 {
 	{
 		MemberInfo_t * L_0 = (__this->___member_1);
@@ -4033,10 +4033,10 @@ extern "C" MemberInfo_t * MemberBinding_get_Member_m11697 (MemberBinding_t3334 *
 	}
 }
 // System.String System.Linq.Expressions.MemberBinding::ToString()
-extern "C" String_t* MemberBinding_ToString_m11698 (MemberBinding_t3334 * __this, const MethodInfo* method)
+extern "C" String_t* MemberBinding_ToString_m11699 (MemberBinding_t3334 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = ExpressionPrinter_ToString_m11633(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		String_t* L_0 = ExpressionPrinter_ToString_m11634(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -4055,11 +4055,11 @@ extern "C" String_t* MemberBinding_ToString_m11698 (MemberBinding_t3334 * __this
 
 
 // System.Void System.Linq.Expressions.MemberExpression::.ctor(System.Linq.Expressions.Expression,System.Reflection.MemberInfo,System.Type)
-extern "C" void MemberExpression__ctor_m11699 (MemberExpression_t1527 * __this, Expression_t1520 * ___expression, MemberInfo_t * ___member, Type_t * ___type, const MethodInfo* method)
+extern "C" void MemberExpression__ctor_m11700 (MemberExpression_t1527 * __this, Expression_t1520 * ___expression, MemberInfo_t * ___member, Type_t * ___type, const MethodInfo* method)
 {
 	{
 		Type_t * L_0 = ___type;
-		Expression__ctor_m11604(__this, ((int32_t)23), L_0, /*hidden argument*/NULL);
+		Expression__ctor_m11605(__this, ((int32_t)23), L_0, /*hidden argument*/NULL);
 		Expression_t1520 * L_1 = ___expression;
 		__this->___expression_2 = L_1;
 		MemberInfo_t * L_2 = ___member;
@@ -4068,7 +4068,7 @@ extern "C" void MemberExpression__ctor_m11699 (MemberExpression_t1527 * __this, 
 	}
 }
 // System.Linq.Expressions.Expression System.Linq.Expressions.MemberExpression::get_Expression()
-extern "C" Expression_t1520 * MemberExpression_get_Expression_m11700 (MemberExpression_t1527 * __this, const MethodInfo* method)
+extern "C" Expression_t1520 * MemberExpression_get_Expression_m11701 (MemberExpression_t1527 * __this, const MethodInfo* method)
 {
 	{
 		Expression_t1520 * L_0 = (__this->___expression_2);
@@ -4076,7 +4076,7 @@ extern "C" Expression_t1520 * MemberExpression_get_Expression_m11700 (MemberExpr
 	}
 }
 // System.Reflection.MemberInfo System.Linq.Expressions.MemberExpression::get_Member()
-extern "C" MemberInfo_t * MemberExpression_get_Member_m11701 (MemberExpression_t1527 * __this, const MethodInfo* method)
+extern "C" MemberInfo_t * MemberExpression_get_Member_m11702 (MemberExpression_t1527 * __this, const MethodInfo* method)
 {
 	{
 		MemberInfo_t * L_0 = (__this->___member_3);
@@ -4090,7 +4090,7 @@ extern "C" MemberInfo_t * MemberExpression_get_Member_m11701 (MemberExpression_t
 
 
 // System.Linq.Expressions.NewExpression System.Linq.Expressions.MemberInitExpression::get_NewExpression()
-extern "C" NewExpression_t3330 * MemberInitExpression_get_NewExpression_m11702 (MemberInitExpression_t3337 * __this, const MethodInfo* method)
+extern "C" NewExpression_t3330 * MemberInitExpression_get_NewExpression_m11703 (MemberInitExpression_t3337 * __this, const MethodInfo* method)
 {
 	{
 		NewExpression_t3330 * L_0 = (__this->___new_expression_2);
@@ -4098,7 +4098,7 @@ extern "C" NewExpression_t3330 * MemberInitExpression_get_NewExpression_m11702 (
 	}
 }
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.MemberBinding> System.Linq.Expressions.MemberInitExpression::get_Bindings()
-extern "C" ReadOnlyCollection_1_t3336 * MemberInitExpression_get_Bindings_m11703 (MemberInitExpression_t3337 * __this, const MethodInfo* method)
+extern "C" ReadOnlyCollection_1_t3336 * MemberInitExpression_get_Bindings_m11704 (MemberInitExpression_t3337 * __this, const MethodInfo* method)
 {
 	{
 		ReadOnlyCollection_1_t3336 * L_0 = (__this->___bindings_3);
@@ -4112,7 +4112,7 @@ extern "C" ReadOnlyCollection_1_t3336 * MemberInitExpression_get_Bindings_m11703
 
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit> System.Linq.Expressions.MemberListBinding::get_Initializers()
-extern "C" ReadOnlyCollection_1_t3331 * MemberListBinding_get_Initializers_m11704 (MemberListBinding_t3338 * __this, const MethodInfo* method)
+extern "C" ReadOnlyCollection_1_t3331 * MemberListBinding_get_Initializers_m11705 (MemberListBinding_t3338 * __this, const MethodInfo* method)
 {
 	{
 		ReadOnlyCollection_1_t3331 * L_0 = (__this->___initializers_2);
@@ -4126,7 +4126,7 @@ extern "C" ReadOnlyCollection_1_t3331 * MemberListBinding_get_Initializers_m1170
 
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.MemberBinding> System.Linq.Expressions.MemberMemberBinding::get_Bindings()
-extern "C" ReadOnlyCollection_1_t3336 * MemberMemberBinding_get_Bindings_m11705 (MemberMemberBinding_t3339 * __this, const MethodInfo* method)
+extern "C" ReadOnlyCollection_1_t3336 * MemberMemberBinding_get_Bindings_m11706 (MemberMemberBinding_t3339 * __this, const MethodInfo* method)
 {
 	{
 		ReadOnlyCollection_1_t3336 * L_0 = (__this->___bindings_2);
@@ -4140,13 +4140,13 @@ extern "C" ReadOnlyCollection_1_t3336 * MemberMemberBinding_get_Bindings_m11705 
 
 
 // System.Void System.Linq.Expressions.MethodCallExpression::.ctor(System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>)
-extern "C" void MethodCallExpression__ctor_m11706 (MethodCallExpression_t1528 * __this, Expression_t1520 * ___obj, MethodInfo_t * ___method, ReadOnlyCollection_1_t3323 * ___arguments, const MethodInfo* method)
+extern "C" void MethodCallExpression__ctor_m11707 (MethodCallExpression_t1528 * __this, Expression_t1520 * ___obj, MethodInfo_t * ___method, ReadOnlyCollection_1_t3323 * ___arguments, const MethodInfo* method)
 {
 	{
 		MethodInfo_t * L_0 = ___method;
 		NullCheck(L_0);
 		Type_t * L_1 = (Type_t *)VirtFuncInvoker0< Type_t * >::Invoke(28 /* System.Type System.Reflection.MethodInfo::get_ReturnType() */, L_0);
-		Expression__ctor_m11604(__this, 6, L_1, /*hidden argument*/NULL);
+		Expression__ctor_m11605(__this, 6, L_1, /*hidden argument*/NULL);
 		Expression_t1520 * L_2 = ___obj;
 		__this->___obj_2 = L_2;
 		MethodInfo_t * L_3 = ___method;
@@ -4157,7 +4157,7 @@ extern "C" void MethodCallExpression__ctor_m11706 (MethodCallExpression_t1528 * 
 	}
 }
 // System.Linq.Expressions.Expression System.Linq.Expressions.MethodCallExpression::get_Object()
-extern "C" Expression_t1520 * MethodCallExpression_get_Object_m11707 (MethodCallExpression_t1528 * __this, const MethodInfo* method)
+extern "C" Expression_t1520 * MethodCallExpression_get_Object_m11708 (MethodCallExpression_t1528 * __this, const MethodInfo* method)
 {
 	{
 		Expression_t1520 * L_0 = (__this->___obj_2);
@@ -4165,7 +4165,7 @@ extern "C" Expression_t1520 * MethodCallExpression_get_Object_m11707 (MethodCall
 	}
 }
 // System.Reflection.MethodInfo System.Linq.Expressions.MethodCallExpression::get_Method()
-extern "C" MethodInfo_t * MethodCallExpression_get_Method_m7684 (MethodCallExpression_t1528 * __this, const MethodInfo* method)
+extern "C" MethodInfo_t * MethodCallExpression_get_Method_m7685 (MethodCallExpression_t1528 * __this, const MethodInfo* method)
 {
 	{
 		MethodInfo_t * L_0 = (__this->___method_3);
@@ -4173,7 +4173,7 @@ extern "C" MethodInfo_t * MethodCallExpression_get_Method_m7684 (MethodCallExpre
 	}
 }
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> System.Linq.Expressions.MethodCallExpression::get_Arguments()
-extern "C" ReadOnlyCollection_1_t3323 * MethodCallExpression_get_Arguments_m11708 (MethodCallExpression_t1528 * __this, const MethodInfo* method)
+extern "C" ReadOnlyCollection_1_t3323 * MethodCallExpression_get_Arguments_m11709 (MethodCallExpression_t1528 * __this, const MethodInfo* method)
 {
 	{
 		ReadOnlyCollection_1_t3323 * L_0 = (__this->___arguments_4);
@@ -4187,7 +4187,7 @@ extern "C" ReadOnlyCollection_1_t3323 * MethodCallExpression_get_Arguments_m1170
 
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> System.Linq.Expressions.NewArrayExpression::get_Expressions()
-extern "C" ReadOnlyCollection_1_t3323 * NewArrayExpression_get_Expressions_m11709 (NewArrayExpression_t3340 * __this, const MethodInfo* method)
+extern "C" ReadOnlyCollection_1_t3323 * NewArrayExpression_get_Expressions_m11710 (NewArrayExpression_t3340 * __this, const MethodInfo* method)
 {
 	{
 		ReadOnlyCollection_1_t3323 * L_0 = (__this->___expressions_2);
@@ -4201,7 +4201,7 @@ extern "C" ReadOnlyCollection_1_t3323 * NewArrayExpression_get_Expressions_m1170
 
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> System.Linq.Expressions.NewExpression::get_Arguments()
-extern "C" ReadOnlyCollection_1_t3323 * NewExpression_get_Arguments_m11710 (NewExpression_t3330 * __this, const MethodInfo* method)
+extern "C" ReadOnlyCollection_1_t3323 * NewExpression_get_Arguments_m11711 (NewExpression_t3330 * __this, const MethodInfo* method)
 {
 	{
 		ReadOnlyCollection_1_t3323 * L_0 = (__this->___arguments_2);
@@ -4209,7 +4209,7 @@ extern "C" ReadOnlyCollection_1_t3323 * NewExpression_get_Arguments_m11710 (NewE
 	}
 }
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.MemberInfo> System.Linq.Expressions.NewExpression::get_Members()
-extern "C" ReadOnlyCollection_1_t3341 * NewExpression_get_Members_m11711 (NewExpression_t3330 * __this, const MethodInfo* method)
+extern "C" ReadOnlyCollection_1_t3341 * NewExpression_get_Members_m11712 (NewExpression_t3330 * __this, const MethodInfo* method)
 {
 	{
 		ReadOnlyCollection_1_t3341 * L_0 = (__this->___members_3);
@@ -4223,7 +4223,7 @@ extern "C" ReadOnlyCollection_1_t3341 * NewExpression_get_Members_m11711 (NewExp
 
 
 // System.String System.Linq.Expressions.ParameterExpression::get_Name()
-extern "C" String_t* ParameterExpression_get_Name_m11712 (ParameterExpression_t3342 * __this, const MethodInfo* method)
+extern "C" String_t* ParameterExpression_get_Name_m11713 (ParameterExpression_t3342 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___name_2);
@@ -4237,7 +4237,7 @@ extern "C" String_t* ParameterExpression_get_Name_m11712 (ParameterExpression_t3
 
 
 // System.Linq.Expressions.Expression System.Linq.Expressions.TypeBinaryExpression::get_Expression()
-extern "C" Expression_t1520 * TypeBinaryExpression_get_Expression_m11713 (TypeBinaryExpression_t3343 * __this, const MethodInfo* method)
+extern "C" Expression_t1520 * TypeBinaryExpression_get_Expression_m11714 (TypeBinaryExpression_t3343 * __this, const MethodInfo* method)
 {
 	{
 		Expression_t1520 * L_0 = (__this->___expression_2);
@@ -4245,7 +4245,7 @@ extern "C" Expression_t1520 * TypeBinaryExpression_get_Expression_m11713 (TypeBi
 	}
 }
 // System.Type System.Linq.Expressions.TypeBinaryExpression::get_TypeOperand()
-extern "C" Type_t * TypeBinaryExpression_get_TypeOperand_m11714 (TypeBinaryExpression_t3343 * __this, const MethodInfo* method)
+extern "C" Type_t * TypeBinaryExpression_get_TypeOperand_m11715 (TypeBinaryExpression_t3343 * __this, const MethodInfo* method)
 {
 	{
 		Type_t * L_0 = (__this->___type_operand_3);
@@ -4259,19 +4259,19 @@ extern "C" Type_t * TypeBinaryExpression_get_TypeOperand_m11714 (TypeBinaryExpre
 
 
 // System.Void System.Linq.Expressions.UnaryExpression::.ctor(System.Linq.Expressions.ExpressionType,System.Linq.Expressions.Expression,System.Type)
-extern "C" void UnaryExpression__ctor_m11715 (UnaryExpression_t3344 * __this, int32_t ___node_type, Expression_t1520 * ___operand, Type_t * ___type, const MethodInfo* method)
+extern "C" void UnaryExpression__ctor_m11716 (UnaryExpression_t3344 * __this, int32_t ___node_type, Expression_t1520 * ___operand, Type_t * ___type, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___node_type;
 		Type_t * L_1 = ___type;
-		Expression__ctor_m11604(__this, L_0, L_1, /*hidden argument*/NULL);
+		Expression__ctor_m11605(__this, L_0, L_1, /*hidden argument*/NULL);
 		Expression_t1520 * L_2 = ___operand;
 		__this->___operand_2 = L_2;
 		return;
 	}
 }
 // System.Linq.Expressions.Expression System.Linq.Expressions.UnaryExpression::get_Operand()
-extern "C" Expression_t1520 * UnaryExpression_get_Operand_m11716 (UnaryExpression_t3344 * __this, const MethodInfo* method)
+extern "C" Expression_t1520 * UnaryExpression_get_Operand_m11717 (UnaryExpression_t3344 * __this, const MethodInfo* method)
 {
 	{
 		Expression_t1520 * L_0 = (__this->___operand_2);
@@ -4290,7 +4290,7 @@ extern "C" Expression_t1520 * UnaryExpression_get_Operand_m11716 (UnaryExpressio
 
 // System.Void System.Linq.Check::Source(System.Object)
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
-extern "C" void Check_Source_m11717 (Object_t * __this /* static, unused */, Object_t * ___source, const MethodInfo* method)
+extern "C" void Check_Source_m11718 (Object_t * __this /* static, unused */, Object_t * ___source, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4318,7 +4318,7 @@ IL_0011:
 }
 // System.Void System.Linq.Check::SourceAndSelector(System.Object,System.Object)
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
-extern "C" void Check_SourceAndSelector_m11718 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___selector, const MethodInfo* method)
+extern "C" void Check_SourceAndSelector_m11719 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___selector, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4360,7 +4360,7 @@ IL_0022:
 }
 // System.Void System.Linq.Check::SourceAndPredicate(System.Object,System.Object)
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
-extern "C" void Check_SourceAndPredicate_m11719 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___predicate, const MethodInfo* method)
+extern "C" void Check_SourceAndPredicate_m11720 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___predicate, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4402,7 +4402,7 @@ IL_0022:
 }
 // System.Void System.Linq.Check::FirstAndSecond(System.Object,System.Object)
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
-extern "C" void Check_FirstAndSecond_m11720 (Object_t * __this /* static, unused */, Object_t * ___first, Object_t * ___second, const MethodInfo* method)
+extern "C" void Check_FirstAndSecond_m11721 (Object_t * __this /* static, unused */, Object_t * ___first, Object_t * ___second, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4444,7 +4444,7 @@ IL_0022:
 }
 // System.Void System.Linq.Check::SourceAndKeySelector(System.Object,System.Object)
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
-extern "C" void Check_SourceAndKeySelector_m11721 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___keySelector, const MethodInfo* method)
+extern "C" void Check_SourceAndKeySelector_m11722 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___keySelector, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4486,7 +4486,7 @@ IL_0022:
 }
 // System.Void System.Linq.Check::SourceAndKeyElementSelectors(System.Object,System.Object,System.Object)
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
-extern "C" void Check_SourceAndKeyElementSelectors_m11722 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___keySelector, Object_t * ___elementSelector, const MethodInfo* method)
+extern "C" void Check_SourceAndKeyElementSelectors_m11723 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___keySelector, Object_t * ___elementSelector, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4542,7 +4542,7 @@ IL_0033:
 }
 // System.Void System.Linq.Check::SourceAndCollectionSelectors(System.Object,System.Object,System.Object)
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
-extern "C" void Check_SourceAndCollectionSelectors_m11723 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___collectionSelector, Object_t * ___selector, const MethodInfo* method)
+extern "C" void Check_SourceAndCollectionSelectors_m11724 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___collectionSelector, Object_t * ___selector, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4621,7 +4621,7 @@ IL_0033:
 
 
 // System.Void System.Linq.Enumerable/<CreateRangeIterator>c__IteratorD::.ctor()
-extern "C" void U3CCreateRangeIteratorU3Ec__IteratorD__ctor_m11724 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
+extern "C" void U3CCreateRangeIteratorU3Ec__IteratorD__ctor_m11725 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
@@ -4629,7 +4629,7 @@ extern "C" void U3CCreateRangeIteratorU3Ec__IteratorD__ctor_m11724 (U3CCreateRan
 	}
 }
 // System.Int32 System.Linq.Enumerable/<CreateRangeIterator>c__IteratorD::System.Collections.Generic.IEnumerator<int>.get_Current()
-extern "C" int32_t U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CintU3E_get_Current_m11725 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
+extern "C" int32_t U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CintU3E_get_Current_m11726 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___U24current_4);
@@ -4638,7 +4638,7 @@ extern "C" int32_t U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Gene
 }
 // System.Object System.Linq.Enumerable/<CreateRangeIterator>c__IteratorD::System.Collections.IEnumerator.get_Current()
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
-extern "C" Object_t * U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m11726 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
+extern "C" Object_t * U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m11727 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4654,7 +4654,7 @@ extern "C" Object_t * U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_I
 	}
 }
 // System.Collections.IEnumerator System.Linq.Enumerable/<CreateRangeIterator>c__IteratorD::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_IEnumerable_GetEnumerator_m11727 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
+extern "C" Object_t * U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_IEnumerable_GetEnumerator_m11728 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
 {
 	{
 		Object_t* L_0 = (Object_t*)VirtFuncInvoker0< Object_t* >::Invoke(9 /* System.Collections.Generic.IEnumerator`1<System.Int32> System.Linq.Enumerable/<CreateRangeIterator>c__IteratorD::System.Collections.Generic.IEnumerable<int>.GetEnumerator() */, __this);
@@ -4663,7 +4663,7 @@ extern "C" Object_t * U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_I
 }
 // System.Collections.Generic.IEnumerator`1<System.Int32> System.Linq.Enumerable/<CreateRangeIterator>c__IteratorD::System.Collections.Generic.IEnumerable<int>.GetEnumerator()
 extern TypeInfo* U3CCreateRangeIteratorU3Ec__IteratorD_t3347_il2cpp_TypeInfo_var;
-extern "C" Object_t* U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Generic_IEnumerableU3CintU3E_GetEnumerator_m11728 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
+extern "C" Object_t* U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Generic_IEnumerableU3CintU3E_GetEnumerator_m11729 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4687,7 +4687,7 @@ extern "C" Object_t* U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Ge
 IL_0014:
 	{
 		U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * L_2 = (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 *)il2cpp_codegen_object_new (U3CCreateRangeIteratorU3Ec__IteratorD_t3347_il2cpp_TypeInfo_var);
-		U3CCreateRangeIteratorU3Ec__IteratorD__ctor_m11724(L_2, /*hidden argument*/NULL);
+		U3CCreateRangeIteratorU3Ec__IteratorD__ctor_m11725(L_2, /*hidden argument*/NULL);
 		V_0 = L_2;
 		U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * L_3 = V_0;
 		int32_t L_4 = (__this->___U3CU24U3Estart_5);
@@ -4702,7 +4702,7 @@ IL_0014:
 	}
 }
 // System.Boolean System.Linq.Enumerable/<CreateRangeIterator>c__IteratorD::MoveNext()
-extern "C" bool U3CCreateRangeIteratorU3Ec__IteratorD_MoveNext_m11729 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
+extern "C" bool U3CCreateRangeIteratorU3Ec__IteratorD_MoveNext_m11730 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
 {
 	uint32_t V_0 = 0;
 	bool V_1 = false;
@@ -4770,7 +4770,7 @@ IL_0072:
 	// Dead block : IL_0074: ldloc.1
 }
 // System.Void System.Linq.Enumerable/<CreateRangeIterator>c__IteratorD::Dispose()
-extern "C" void U3CCreateRangeIteratorU3Ec__IteratorD_Dispose_m11730 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
+extern "C" void U3CCreateRangeIteratorU3Ec__IteratorD_Dispose_m11731 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
 {
 	{
 		__this->___U24PC_3 = (-1);
@@ -4779,7 +4779,7 @@ extern "C" void U3CCreateRangeIteratorU3Ec__IteratorD_Dispose_m11730 (U3CCreateR
 }
 // System.Void System.Linq.Enumerable/<CreateRangeIterator>c__IteratorD::Reset()
 extern TypeInfo* NotSupportedException_t56_il2cpp_TypeInfo_var;
-extern "C" void U3CCreateRangeIteratorU3Ec__IteratorD_Reset_m11731 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
+extern "C" void U3CCreateRangeIteratorU3Ec__IteratorD_Reset_m11732 (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4807,7 +4807,7 @@ extern "C" void U3CCreateRangeIteratorU3Ec__IteratorD_Reset_m11731 (U3CCreateRan
 
 // System.Collections.Generic.IEnumerable`1<System.Int32> System.Linq.Enumerable::Range(System.Int32,System.Int32)
 extern TypeInfo* ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var;
-extern "C" Object_t* Enumerable_Range_m7518 (Object_t * __this /* static, unused */, int32_t ___start, int32_t ___count, const MethodInfo* method)
+extern "C" Object_t* Enumerable_Range_m7519 (Object_t * __this /* static, unused */, int32_t ___start, int32_t ___count, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4825,7 +4825,7 @@ extern "C" Object_t* Enumerable_Range_m7518 (Object_t * __this /* static, unused
 	}
 	{
 		ArgumentOutOfRangeException_t1473 * L_1 = (ArgumentOutOfRangeException_t1473 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11453(L_1, (String_t*) &_stringLiteral632, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m11454(L_1, (String_t*) &_stringLiteral632, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -4842,7 +4842,7 @@ IL_0012:
 	}
 	{
 		ArgumentOutOfRangeException_t1473 * L_5 = (ArgumentOutOfRangeException_t1473 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11482(L_5, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m11483(L_5, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -4850,13 +4850,13 @@ IL_002d:
 	{
 		int32_t L_6 = ___start;
 		int64_t L_7 = V_0;
-		Object_t* L_8 = Enumerable_CreateRangeIterator_m11732(NULL /*static, unused*/, L_6, (((int32_t)L_7)), /*hidden argument*/NULL);
+		Object_t* L_8 = Enumerable_CreateRangeIterator_m11733(NULL /*static, unused*/, L_6, (((int32_t)L_7)), /*hidden argument*/NULL);
 		return L_8;
 	}
 }
 // System.Collections.Generic.IEnumerable`1<System.Int32> System.Linq.Enumerable::CreateRangeIterator(System.Int32,System.Int32)
 extern TypeInfo* U3CCreateRangeIteratorU3Ec__IteratorD_t3347_il2cpp_TypeInfo_var;
-extern "C" Object_t* Enumerable_CreateRangeIterator_m11732 (Object_t * __this /* static, unused */, int32_t ___start, int32_t ___upto, const MethodInfo* method)
+extern "C" Object_t* Enumerable_CreateRangeIterator_m11733 (Object_t * __this /* static, unused */, int32_t ___start, int32_t ___upto, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4867,7 +4867,7 @@ extern "C" Object_t* Enumerable_CreateRangeIterator_m11732 (Object_t * __this /*
 	U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * V_0 = {0};
 	{
 		U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * L_0 = (U3CCreateRangeIteratorU3Ec__IteratorD_t3347 *)il2cpp_codegen_object_new (U3CCreateRangeIteratorU3Ec__IteratorD_t3347_il2cpp_TypeInfo_var);
-		U3CCreateRangeIteratorU3Ec__IteratorD__ctor_m11724(L_0, /*hidden argument*/NULL);
+		U3CCreateRangeIteratorU3Ec__IteratorD__ctor_m11725(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		U3CCreateRangeIteratorU3Ec__IteratorD_t3347 * L_1 = V_0;
 		int32_t L_2 = ___start;
@@ -4919,15 +4919,15 @@ extern "C" Object_t* Enumerable_CreateRangeIterator_m11732 (Object_t * __this /*
 
 
 // System.Void System.Threading.LockRecursionException::.ctor()
-extern "C" void LockRecursionException__ctor_m11733 (LockRecursionException_t3349 * __this, const MethodInfo* method)
+extern "C" void LockRecursionException__ctor_m11734 (LockRecursionException_t3349 * __this, const MethodInfo* method)
 {
 	{
-		Exception__ctor_m7790(__this, /*hidden argument*/NULL);
+		Exception__ctor_m7791(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.LockRecursionException::.ctor(System.String)
-extern "C" void LockRecursionException__ctor_m11734 (LockRecursionException_t3349 * __this, String_t* ___message, const MethodInfo* method)
+extern "C" void LockRecursionException__ctor_m11735 (LockRecursionException_t3349 * __this, String_t* ___message, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___message;
@@ -4936,12 +4936,12 @@ extern "C" void LockRecursionException__ctor_m11734 (LockRecursionException_t334
 	}
 }
 // System.Void System.Threading.LockRecursionException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void LockRecursionException__ctor_m11735 (LockRecursionException_t3349 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___sc, const MethodInfo* method)
+extern "C" void LockRecursionException__ctor_m11736 (LockRecursionException_t3349 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___sc, const MethodInfo* method)
 {
 	{
 		SerializationInfo_t2919 * L_0 = ___info;
 		StreamingContext_t2920  L_1 = ___sc;
-		Exception__ctor_m10180(__this, L_0, L_1, /*hidden argument*/NULL);
+		Exception__ctor_m10181(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -4956,7 +4956,7 @@ extern "C" void LockRecursionException__ctor_m11735 (LockRecursionException_t334
 
 
 // System.Void System.Threading.ReaderWriterLockSlim/LockDetails::.ctor()
-extern "C" void LockDetails__ctor_m11736 (LockDetails_t3350 * __this, const MethodInfo* method)
+extern "C" void LockDetails__ctor_m11737 (LockDetails_t3350 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
@@ -5013,16 +5013,16 @@ struct Array_t;
 struct ObjectU5BU5D_t682;
 // Declaration System.Void System.Array::Resize<System.Object>(!!0[]&,System.Int32)
 // System.Void System.Array::Resize<System.Object>(!!0[]&,System.Int32)
-extern "C" void Array_Resize_TisObject_t_m11821_gshared (Object_t * __this /* static, unused */, ObjectU5BU5D_t682** p0, int32_t p1, const MethodInfo* method);
-#define Array_Resize_TisObject_t_m11821(__this /* static, unused */, p0, p1, method) (( void (*) (Object_t * /* static, unused */, ObjectU5BU5D_t682**, int32_t, const MethodInfo*))Array_Resize_TisObject_t_m11821_gshared)(__this /* static, unused */, p0, p1, method)
+extern "C" void Array_Resize_TisObject_t_m11822_gshared (Object_t * __this /* static, unused */, ObjectU5BU5D_t682** p0, int32_t p1, const MethodInfo* method);
+#define Array_Resize_TisObject_t_m11822(__this /* static, unused */, p0, p1, method) (( void (*) (Object_t * /* static, unused */, ObjectU5BU5D_t682**, int32_t, const MethodInfo*))Array_Resize_TisObject_t_m11822_gshared)(__this /* static, unused */, p0, p1, method)
 // Declaration System.Void System.Array::Resize<System.Threading.ReaderWriterLockSlim/LockDetails>(!!0[]&,System.Int32)
 // System.Void System.Array::Resize<System.Threading.ReaderWriterLockSlim/LockDetails>(!!0[]&,System.Int32)
-#define Array_Resize_TisLockDetails_t3350_m11820(__this /* static, unused */, p0, p1, method) (( void (*) (Object_t * /* static, unused */, LockDetailsU5BU5D_t3352**, int32_t, const MethodInfo*))Array_Resize_TisObject_t_m11821_gshared)(__this /* static, unused */, p0, p1, method)
+#define Array_Resize_TisLockDetails_t3350_m11821(__this /* static, unused */, p0, p1, method) (( void (*) (Object_t * /* static, unused */, LockDetailsU5BU5D_t3352**, int32_t, const MethodInfo*))Array_Resize_TisObject_t_m11822_gshared)(__this /* static, unused */, p0, p1, method)
 
 
 // System.Void System.Threading.ReaderWriterLockSlim::.ctor()
 extern TypeInfo* LockDetailsU5BU5D_t3352_il2cpp_TypeInfo_var;
-extern "C" void ReaderWriterLockSlim__ctor_m7628 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim__ctor_m7629 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5038,7 +5038,7 @@ extern "C" void ReaderWriterLockSlim__ctor_m7628 (ReaderWriterLockSlim_t1277 * _
 }
 // System.Void System.Threading.ReaderWriterLockSlim::.cctor()
 extern TypeInfo* ReaderWriterLockSlim_t1277_il2cpp_TypeInfo_var;
-extern "C" void ReaderWriterLockSlim__cctor_m11737 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim__cctor_m11738 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5047,16 +5047,16 @@ extern "C" void ReaderWriterLockSlim__cctor_m11737 (Object_t * __this /* static,
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		int32_t L_0 = Environment_get_ProcessorCount_m11822(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Environment_get_ProcessorCount_m11823(NULL /*static, unused*/, /*hidden argument*/NULL);
 		((ReaderWriterLockSlim_t1277_StaticFields*)ReaderWriterLockSlim_t1277_il2cpp_TypeInfo_var->static_fields)->___smp_0 = ((((int32_t)L_0) > ((int32_t)1))? 1 : 0);
 		return;
 	}
 }
 // System.Void System.Threading.ReaderWriterLockSlim::EnterReadLock()
-extern "C" void ReaderWriterLockSlim_EnterReadLock_m7615 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim_EnterReadLock_m7616 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	{
-		ReaderWriterLockSlim_TryEnterReadLock_m11738(__this, (-1), /*hidden argument*/NULL);
+		ReaderWriterLockSlim_TryEnterReadLock_m11739(__this, (-1), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -5065,7 +5065,7 @@ extern TypeInfo* ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var;
 extern TypeInfo* ObjectDisposedException_t3296_il2cpp_TypeInfo_var;
 extern TypeInfo* Thread_t1461_il2cpp_TypeInfo_var;
 extern TypeInfo* LockRecursionException_t3349_il2cpp_TypeInfo_var;
-extern "C" bool ReaderWriterLockSlim_TryEnterReadLock_m11738 (ReaderWriterLockSlim_t1277 * __this, int32_t ___millisecondsTimeout, const MethodInfo* method)
+extern "C" bool ReaderWriterLockSlim_TryEnterReadLock_m11739 (ReaderWriterLockSlim_t1277 * __this, int32_t ___millisecondsTimeout, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5086,7 +5086,7 @@ extern "C" bool ReaderWriterLockSlim_TryEnterReadLock_m11738 (ReaderWriterLockSl
 	}
 	{
 		ArgumentOutOfRangeException_t1473 * L_1 = (ArgumentOutOfRangeException_t1473 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11453(L_1, (String_t*) &_stringLiteral2519, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m11454(L_1, (String_t*) &_stringLiteral2519, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -5100,14 +5100,14 @@ IL_0012:
 	}
 	{
 		ObjectDisposedException_t3296 * L_3 = (ObjectDisposedException_t3296 *)il2cpp_codegen_object_new (ObjectDisposedException_t3296_il2cpp_TypeInfo_var);
-		ObjectDisposedException__ctor_m11823(L_3, (String_t*)NULL, /*hidden argument*/NULL);
+		ObjectDisposedException__ctor_m11824(L_3, (String_t*)NULL, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
 IL_0024:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_t1461 * L_4 = Thread_get_CurrentThread_m7448(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Thread_t1461 * L_4 = Thread_get_CurrentThread_m7449(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Thread_t1461 * L_5 = (__this->___write_thread_4);
 		if ((!(((Object_t*)(Thread_t1461 *)L_4) == ((Object_t*)(Thread_t1461 *)L_5))))
 		{
@@ -5116,18 +5116,18 @@ IL_0024:
 	}
 	{
 		LockRecursionException_t3349 * L_6 = (LockRecursionException_t3349 *)il2cpp_codegen_object_new (LockRecursionException_t3349_il2cpp_TypeInfo_var);
-		LockRecursionException__ctor_m11734(L_6, (String_t*) &_stringLiteral2520, /*hidden argument*/NULL);
+		LockRecursionException__ctor_m11735(L_6, (String_t*) &_stringLiteral2520, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
 IL_003f:
 	{
-		ReaderWriterLockSlim_EnterMyLock_m11745(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_EnterMyLock_m11746(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_t1461 * L_7 = Thread_get_CurrentThread_m7448(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Thread_t1461 * L_7 = Thread_get_CurrentThread_m7449(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		int32_t L_8 = Thread_get_ManagedThreadId_m7449(L_7, /*hidden argument*/NULL);
-		LockDetails_t3350 * L_9 = ReaderWriterLockSlim_GetReadLockDetails_m11751(__this, L_8, 1, /*hidden argument*/NULL);
+		int32_t L_8 = Thread_get_ManagedThreadId_m7450(L_7, /*hidden argument*/NULL);
+		LockDetails_t3350 * L_9 = ReaderWriterLockSlim_GetReadLockDetails_m11752(__this, L_8, 1, /*hidden argument*/NULL);
 		V_0 = L_9;
 		LockDetails_t3350 * L_10 = V_0;
 		NullCheck(L_10);
@@ -5138,9 +5138,9 @@ IL_003f:
 		}
 	}
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		LockRecursionException_t3349 * L_12 = (LockRecursionException_t3349 *)il2cpp_codegen_object_new (LockRecursionException_t3349_il2cpp_TypeInfo_var);
-		LockRecursionException__ctor_m11734(L_12, (String_t*) &_stringLiteral2521, /*hidden argument*/NULL);
+		LockRecursionException__ctor_m11735(L_12, (String_t*) &_stringLiteral2521, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
 	}
 
@@ -5184,7 +5184,7 @@ IL_00ab:
 		}
 	}
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		return 0;
 	}
 
@@ -5198,7 +5198,7 @@ IL_00b9:
 	}
 	{
 		EventWaitHandle_t3351 ** L_21 = &(__this->___readEvent_9);
-		ReaderWriterLockSlim_LazyCreateEvent_m11749(__this, L_21, 0, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_LazyCreateEvent_m11750(__this, L_21, 0, /*hidden argument*/NULL);
 		goto IL_0081;
 	}
 
@@ -5207,7 +5207,7 @@ IL_00d6:
 		EventWaitHandle_t3351 * L_22 = (__this->___readEvent_9);
 		uint32_t* L_23 = &(__this->___numReadWaiters_6);
 		int32_t L_24 = ___millisecondsTimeout;
-		bool L_25 = ReaderWriterLockSlim_WaitOnEvent_m11750(__this, L_22, L_23, L_24, /*hidden argument*/NULL);
+		bool L_25 = ReaderWriterLockSlim_WaitOnEvent_m11751(__this, L_22, L_23, L_24, /*hidden argument*/NULL);
 		if (L_25)
 		{
 			goto IL_00f0;
@@ -5224,14 +5224,14 @@ IL_00f0:
 
 IL_00f5:
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		return 1;
 	}
 }
 // System.Void System.Threading.ReaderWriterLockSlim::ExitReadLock()
 extern TypeInfo* SynchronizationLockException_t3374_il2cpp_TypeInfo_var;
 extern TypeInfo* Thread_t1461_il2cpp_TypeInfo_var;
-extern "C" void ReaderWriterLockSlim_ExitReadLock_m7616 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim_ExitReadLock_m7617 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5241,7 +5241,7 @@ extern "C" void ReaderWriterLockSlim_ExitReadLock_m7616 (ReaderWriterLockSlim_t1
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		ReaderWriterLockSlim_EnterMyLock_m11745(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_EnterMyLock_m11746(__this, /*hidden argument*/NULL);
 		int32_t L_0 = (__this->___owners_2);
 		if ((((int32_t)L_0) >= ((int32_t)1)))
 		{
@@ -5249,9 +5249,9 @@ extern "C" void ReaderWriterLockSlim_ExitReadLock_m7616 (ReaderWriterLockSlim_t1
 		}
 	}
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		SynchronizationLockException_t3374 * L_1 = (SynchronizationLockException_t3374 *)il2cpp_codegen_object_new (SynchronizationLockException_t3374_il2cpp_TypeInfo_var);
-		SynchronizationLockException__ctor_m11824(L_1, (String_t*) &_stringLiteral2522, /*hidden argument*/NULL);
+		SynchronizationLockException__ctor_m11825(L_1, (String_t*) &_stringLiteral2522, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -5260,24 +5260,24 @@ IL_0023:
 		int32_t L_2 = (__this->___owners_2);
 		__this->___owners_2 = ((int32_t)((int32_t)L_2-(int32_t)1));
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_t1461 * L_3 = Thread_get_CurrentThread_m7448(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Thread_t1461 * L_3 = Thread_get_CurrentThread_m7449(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		int32_t L_4 = Thread_get_ManagedThreadId_m7449(L_3, /*hidden argument*/NULL);
-		LockDetails_t3350 * L_5 = ReaderWriterLockSlim_GetReadLockDetails_m11751(__this, L_4, 0, /*hidden argument*/NULL);
+		int32_t L_4 = Thread_get_ManagedThreadId_m7450(L_3, /*hidden argument*/NULL);
+		LockDetails_t3350 * L_5 = ReaderWriterLockSlim_GetReadLockDetails_m11752(__this, L_4, 0, /*hidden argument*/NULL);
 		LockDetails_t3350 * L_6 = L_5;
 		NullCheck(L_6);
 		int32_t L_7 = (L_6->___ReadLocks_1);
 		NullCheck(L_6);
 		L_6->___ReadLocks_1 = ((int32_t)((int32_t)L_7-(int32_t)1));
-		ReaderWriterLockSlim_ExitAndWakeUpAppropriateWaiters_m11748(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitAndWakeUpAppropriateWaiters_m11749(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.ReaderWriterLockSlim::EnterWriteLock()
-extern "C" void ReaderWriterLockSlim_EnterWriteLock_m7618 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim_EnterWriteLock_m7619 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	{
-		ReaderWriterLockSlim_TryEnterWriteLock_m11739(__this, (-1), /*hidden argument*/NULL);
+		ReaderWriterLockSlim_TryEnterWriteLock_m11740(__this, (-1), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -5287,7 +5287,7 @@ extern TypeInfo* ObjectDisposedException_t3296_il2cpp_TypeInfo_var;
 extern TypeInfo* LockRecursionException_t3349_il2cpp_TypeInfo_var;
 extern TypeInfo* Thread_t1461_il2cpp_TypeInfo_var;
 extern TypeInfo* ApplicationException_t3375_il2cpp_TypeInfo_var;
-extern "C" bool ReaderWriterLockSlim_TryEnterWriteLock_m11739 (ReaderWriterLockSlim_t1277 * __this, int32_t ___millisecondsTimeout, const MethodInfo* method)
+extern "C" bool ReaderWriterLockSlim_TryEnterWriteLock_m11740 (ReaderWriterLockSlim_t1277 * __this, int32_t ___millisecondsTimeout, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5309,7 +5309,7 @@ extern "C" bool ReaderWriterLockSlim_TryEnterWriteLock_m11739 (ReaderWriterLockS
 	}
 	{
 		ArgumentOutOfRangeException_t1473 * L_1 = (ArgumentOutOfRangeException_t1473 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11453(L_1, (String_t*) &_stringLiteral2519, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m11454(L_1, (String_t*) &_stringLiteral2519, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -5323,13 +5323,13 @@ IL_0012:
 	}
 	{
 		ObjectDisposedException_t3296 * L_3 = (ObjectDisposedException_t3296 *)il2cpp_codegen_object_new (ObjectDisposedException_t3296_il2cpp_TypeInfo_var);
-		ObjectDisposedException__ctor_m11823(L_3, (String_t*)NULL, /*hidden argument*/NULL);
+		ObjectDisposedException__ctor_m11824(L_3, (String_t*)NULL, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
 IL_0024:
 	{
-		bool L_4 = ReaderWriterLockSlim_get_IsWriteLockHeld_m7775(__this, /*hidden argument*/NULL);
+		bool L_4 = ReaderWriterLockSlim_get_IsWriteLockHeld_m7776(__this, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0035;
@@ -5337,18 +5337,18 @@ IL_0024:
 	}
 	{
 		LockRecursionException_t3349 * L_5 = (LockRecursionException_t3349 *)il2cpp_codegen_object_new (LockRecursionException_t3349_il2cpp_TypeInfo_var);
-		LockRecursionException__ctor_m11733(L_5, /*hidden argument*/NULL);
+		LockRecursionException__ctor_m11734(L_5, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
 IL_0035:
 	{
-		ReaderWriterLockSlim_EnterMyLock_m11745(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_EnterMyLock_m11746(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_t1461 * L_6 = Thread_get_CurrentThread_m7448(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Thread_t1461 * L_6 = Thread_get_CurrentThread_m7449(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		int32_t L_7 = Thread_get_ManagedThreadId_m7449(L_6, /*hidden argument*/NULL);
-		LockDetails_t3350 * L_8 = ReaderWriterLockSlim_GetReadLockDetails_m11751(__this, L_7, 0, /*hidden argument*/NULL);
+		int32_t L_7 = Thread_get_ManagedThreadId_m7450(L_6, /*hidden argument*/NULL);
+		LockDetails_t3350 * L_8 = ReaderWriterLockSlim_GetReadLockDetails_m11752(__this, L_7, 0, /*hidden argument*/NULL);
 		V_0 = L_8;
 		LockDetails_t3350 * L_9 = V_0;
 		if (!L_9)
@@ -5366,9 +5366,9 @@ IL_0035:
 		}
 	}
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		LockRecursionException_t3349 * L_12 = (LockRecursionException_t3349 *)il2cpp_codegen_object_new (LockRecursionException_t3349_il2cpp_TypeInfo_var);
-		LockRecursionException__ctor_m11734(L_12, (String_t*) &_stringLiteral2523, /*hidden argument*/NULL);
+		LockRecursionException__ctor_m11735(L_12, (String_t*) &_stringLiteral2523, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
 	}
 
@@ -5383,7 +5383,7 @@ IL_0070:
 	{
 		__this->___owners_2 = (-1);
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_t1461 * L_14 = Thread_get_CurrentThread_m7448(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Thread_t1461 * L_14 = Thread_get_CurrentThread_m7449(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___write_thread_4 = L_14;
 		goto IL_0178;
 	}
@@ -5399,7 +5399,7 @@ IL_0092:
 	{
 		Thread_t1461 * L_16 = (__this->___upgradable_thread_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_t1461 * L_17 = Thread_get_CurrentThread_m7448(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Thread_t1461 * L_17 = Thread_get_CurrentThread_m7449(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((!(((Object_t*)(Thread_t1461 *)L_16) == ((Object_t*)(Thread_t1461 *)L_17))))
 		{
 			goto IL_00c5;
@@ -5408,7 +5408,7 @@ IL_0092:
 	{
 		__this->___owners_2 = (-1);
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_t1461 * L_18 = Thread_get_CurrentThread_m7448(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Thread_t1461 * L_18 = Thread_get_CurrentThread_m7449(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___write_thread_4 = L_18;
 		goto IL_0178;
 	}
@@ -5422,7 +5422,7 @@ IL_00c5:
 		}
 	}
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		return 0;
 	}
 
@@ -5430,7 +5430,7 @@ IL_00d3:
 	{
 		Thread_t1461 * L_20 = (__this->___upgradable_thread_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_t1461 * L_21 = Thread_get_CurrentThread_m7448(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Thread_t1461 * L_21 = Thread_get_CurrentThread_m7449(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((!(((Object_t*)(Thread_t1461 *)L_20) == ((Object_t*)(Thread_t1461 *)L_21))))
 		{
 			goto IL_013c;
@@ -5445,7 +5445,7 @@ IL_00d3:
 	}
 	{
 		EventWaitHandle_t3351 ** L_23 = &(__this->___upgradeEvent_10);
-		ReaderWriterLockSlim_LazyCreateEvent_m11749(__this, L_23, 0, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_LazyCreateEvent_m11750(__this, L_23, 0, /*hidden argument*/NULL);
 		goto IL_0070;
 	}
 
@@ -5458,9 +5458,9 @@ IL_0100:
 		}
 	}
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		ApplicationException_t3375 * L_25 = (ApplicationException_t3375 *)il2cpp_codegen_object_new (ApplicationException_t3375_il2cpp_TypeInfo_var);
-		ApplicationException__ctor_m11825(L_25, (String_t*) &_stringLiteral2524, /*hidden argument*/NULL);
+		ApplicationException__ctor_m11826(L_25, (String_t*) &_stringLiteral2524, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_25);
 	}
 
@@ -5469,7 +5469,7 @@ IL_011d:
 		EventWaitHandle_t3351 * L_26 = (__this->___upgradeEvent_10);
 		uint32_t* L_27 = &(__this->___numUpgradeWaiters_7);
 		int32_t L_28 = ___millisecondsTimeout;
-		bool L_29 = ReaderWriterLockSlim_WaitOnEvent_m11750(__this, L_26, L_27, L_28, /*hidden argument*/NULL);
+		bool L_29 = ReaderWriterLockSlim_WaitOnEvent_m11751(__this, L_26, L_27, L_28, /*hidden argument*/NULL);
 		if (L_29)
 		{
 			goto IL_0137;
@@ -5494,7 +5494,7 @@ IL_013c:
 	}
 	{
 		EventWaitHandle_t3351 ** L_31 = &(__this->___writeEvent_8);
-		ReaderWriterLockSlim_LazyCreateEvent_m11749(__this, L_31, 1, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_LazyCreateEvent_m11750(__this, L_31, 1, /*hidden argument*/NULL);
 		goto IL_0070;
 	}
 
@@ -5503,7 +5503,7 @@ IL_0159:
 		EventWaitHandle_t3351 * L_32 = (__this->___writeEvent_8);
 		uint32_t* L_33 = &(__this->___numWriteWaiters_5);
 		int32_t L_34 = ___millisecondsTimeout;
-		bool L_35 = ReaderWriterLockSlim_WaitOnEvent_m11750(__this, L_32, L_33, L_34, /*hidden argument*/NULL);
+		bool L_35 = ReaderWriterLockSlim_WaitOnEvent_m11751(__this, L_32, L_33, L_34, /*hidden argument*/NULL);
 		if (L_35)
 		{
 			goto IL_0173;
@@ -5520,14 +5520,14 @@ IL_0173:
 
 IL_0178:
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		return 1;
 	}
 }
 // System.Void System.Threading.ReaderWriterLockSlim::ExitWriteLock()
 extern TypeInfo* SynchronizationLockException_t3374_il2cpp_TypeInfo_var;
 extern TypeInfo* Thread_t1461_il2cpp_TypeInfo_var;
-extern "C" void ReaderWriterLockSlim_ExitWriteLock_m7619 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim_ExitWriteLock_m7620 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5537,7 +5537,7 @@ extern "C" void ReaderWriterLockSlim_ExitWriteLock_m7619 (ReaderWriterLockSlim_t
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		ReaderWriterLockSlim_EnterMyLock_m11745(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_EnterMyLock_m11746(__this, /*hidden argument*/NULL);
 		int32_t L_0 = (__this->___owners_2);
 		if ((((int32_t)L_0) == ((int32_t)(-1))))
 		{
@@ -5545,9 +5545,9 @@ extern "C" void ReaderWriterLockSlim_ExitWriteLock_m7619 (ReaderWriterLockSlim_t
 		}
 	}
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		SynchronizationLockException_t3374 * L_1 = (SynchronizationLockException_t3374 *)il2cpp_codegen_object_new (SynchronizationLockException_t3374_il2cpp_TypeInfo_var);
-		SynchronizationLockException__ctor_m11824(L_1, (String_t*) &_stringLiteral2525, /*hidden argument*/NULL);
+		SynchronizationLockException__ctor_m11825(L_1, (String_t*) &_stringLiteral2525, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -5555,7 +5555,7 @@ IL_0023:
 	{
 		Thread_t1461 * L_2 = (__this->___upgradable_thread_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_t1461 * L_3 = Thread_get_CurrentThread_m7448(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Thread_t1461 * L_3 = Thread_get_CurrentThread_m7449(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((!(((Object_t*)(Thread_t1461 *)L_2) == ((Object_t*)(Thread_t1461 *)L_3))))
 		{
 			goto IL_003f;
@@ -5574,15 +5574,15 @@ IL_003f:
 IL_0046:
 	{
 		__this->___write_thread_4 = (Thread_t1461 *)NULL;
-		ReaderWriterLockSlim_ExitAndWakeUpAppropriateWaiters_m11748(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitAndWakeUpAppropriateWaiters_m11749(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.ReaderWriterLockSlim::EnterUpgradeableReadLock()
-extern "C" void ReaderWriterLockSlim_EnterUpgradeableReadLock_m7617 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim_EnterUpgradeableReadLock_m7618 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	{
-		ReaderWriterLockSlim_TryEnterUpgradeableReadLock_m11740(__this, (-1), /*hidden argument*/NULL);
+		ReaderWriterLockSlim_TryEnterUpgradeableReadLock_m11741(__this, (-1), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -5591,7 +5591,7 @@ extern TypeInfo* ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var;
 extern TypeInfo* ObjectDisposedException_t3296_il2cpp_TypeInfo_var;
 extern TypeInfo* LockRecursionException_t3349_il2cpp_TypeInfo_var;
 extern TypeInfo* Thread_t1461_il2cpp_TypeInfo_var;
-extern "C" bool ReaderWriterLockSlim_TryEnterUpgradeableReadLock_m11740 (ReaderWriterLockSlim_t1277 * __this, int32_t ___millisecondsTimeout, const MethodInfo* method)
+extern "C" bool ReaderWriterLockSlim_TryEnterUpgradeableReadLock_m11741 (ReaderWriterLockSlim_t1277 * __this, int32_t ___millisecondsTimeout, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5611,7 +5611,7 @@ extern "C" bool ReaderWriterLockSlim_TryEnterUpgradeableReadLock_m11740 (ReaderW
 	}
 	{
 		ArgumentOutOfRangeException_t1473 * L_1 = (ArgumentOutOfRangeException_t1473 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11453(L_1, (String_t*) &_stringLiteral2519, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m11454(L_1, (String_t*) &_stringLiteral2519, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -5625,13 +5625,13 @@ IL_0012:
 	}
 	{
 		ObjectDisposedException_t3296 * L_3 = (ObjectDisposedException_t3296 *)il2cpp_codegen_object_new (ObjectDisposedException_t3296_il2cpp_TypeInfo_var);
-		ObjectDisposedException__ctor_m11823(L_3, (String_t*)NULL, /*hidden argument*/NULL);
+		ObjectDisposedException__ctor_m11824(L_3, (String_t*)NULL, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
 IL_0024:
 	{
-		bool L_4 = ReaderWriterLockSlim_get_IsUpgradeableReadLockHeld_m11742(__this, /*hidden argument*/NULL);
+		bool L_4 = ReaderWriterLockSlim_get_IsUpgradeableReadLockHeld_m11743(__this, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0035;
@@ -5639,13 +5639,13 @@ IL_0024:
 	}
 	{
 		LockRecursionException_t3349 * L_5 = (LockRecursionException_t3349 *)il2cpp_codegen_object_new (LockRecursionException_t3349_il2cpp_TypeInfo_var);
-		LockRecursionException__ctor_m11733(L_5, /*hidden argument*/NULL);
+		LockRecursionException__ctor_m11734(L_5, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
 IL_0035:
 	{
-		bool L_6 = ReaderWriterLockSlim_get_IsWriteLockHeld_m7775(__this, /*hidden argument*/NULL);
+		bool L_6 = ReaderWriterLockSlim_get_IsWriteLockHeld_m7776(__this, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_0046;
@@ -5653,13 +5653,13 @@ IL_0035:
 	}
 	{
 		LockRecursionException_t3349 * L_7 = (LockRecursionException_t3349 *)il2cpp_codegen_object_new (LockRecursionException_t3349_il2cpp_TypeInfo_var);
-		LockRecursionException__ctor_m11733(L_7, /*hidden argument*/NULL);
+		LockRecursionException__ctor_m11734(L_7, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
 IL_0046:
 	{
-		ReaderWriterLockSlim_EnterMyLock_m11745(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_EnterMyLock_m11746(__this, /*hidden argument*/NULL);
 	}
 
 IL_004c:
@@ -5688,7 +5688,7 @@ IL_004c:
 		int32_t L_11 = (__this->___owners_2);
 		__this->___owners_2 = ((int32_t)((int32_t)L_11+(int32_t)1));
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_t1461 * L_12 = Thread_get_CurrentThread_m7448(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Thread_t1461 * L_12 = Thread_get_CurrentThread_m7449(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___upgradable_thread_3 = L_12;
 		goto IL_00d5;
 	}
@@ -5702,7 +5702,7 @@ IL_008b:
 		}
 	}
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		return 0;
 	}
 
@@ -5716,7 +5716,7 @@ IL_0099:
 	}
 	{
 		EventWaitHandle_t3351 ** L_15 = &(__this->___readEvent_9);
-		ReaderWriterLockSlim_LazyCreateEvent_m11749(__this, L_15, 0, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_LazyCreateEvent_m11750(__this, L_15, 0, /*hidden argument*/NULL);
 		goto IL_004c;
 	}
 
@@ -5725,7 +5725,7 @@ IL_00b6:
 		EventWaitHandle_t3351 * L_16 = (__this->___readEvent_9);
 		uint32_t* L_17 = &(__this->___numReadWaiters_6);
 		int32_t L_18 = ___millisecondsTimeout;
-		bool L_19 = ReaderWriterLockSlim_WaitOnEvent_m11750(__this, L_16, L_17, L_18, /*hidden argument*/NULL);
+		bool L_19 = ReaderWriterLockSlim_WaitOnEvent_m11751(__this, L_16, L_17, L_18, /*hidden argument*/NULL);
 		if (L_19)
 		{
 			goto IL_00d0;
@@ -5742,24 +5742,24 @@ IL_00d0:
 
 IL_00d5:
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		return 1;
 	}
 }
 // System.Void System.Threading.ReaderWriterLockSlim::ExitUpgradeableReadLock()
-extern "C" void ReaderWriterLockSlim_ExitUpgradeableReadLock_m7620 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim_ExitUpgradeableReadLock_m7621 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	{
-		ReaderWriterLockSlim_EnterMyLock_m11745(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_EnterMyLock_m11746(__this, /*hidden argument*/NULL);
 		int32_t L_0 = (__this->___owners_2);
 		__this->___owners_2 = ((int32_t)((int32_t)L_0-(int32_t)1));
 		__this->___upgradable_thread_3 = (Thread_t1461 *)NULL;
-		ReaderWriterLockSlim_ExitAndWakeUpAppropriateWaiters_m11748(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitAndWakeUpAppropriateWaiters_m11749(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.ReaderWriterLockSlim::Dispose()
-extern "C" void ReaderWriterLockSlim_Dispose_m11741 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim_Dispose_m11742 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	{
 		__this->___read_locks_11 = (LockDetailsU5BU5D_t3352*)NULL;
@@ -5767,24 +5767,24 @@ extern "C" void ReaderWriterLockSlim_Dispose_m11741 (ReaderWriterLockSlim_t1277 
 	}
 }
 // System.Boolean System.Threading.ReaderWriterLockSlim::get_IsWriteLockHeld()
-extern "C" bool ReaderWriterLockSlim_get_IsWriteLockHeld_m7775 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" bool ReaderWriterLockSlim_get_IsWriteLockHeld_m7776 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = ReaderWriterLockSlim_get_RecursiveWriteCount_m11744(__this, /*hidden argument*/NULL);
+		int32_t L_0 = ReaderWriterLockSlim_get_RecursiveWriteCount_m11745(__this, /*hidden argument*/NULL);
 		return ((((int32_t)((((int32_t)L_0) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
 // System.Boolean System.Threading.ReaderWriterLockSlim::get_IsUpgradeableReadLockHeld()
-extern "C" bool ReaderWriterLockSlim_get_IsUpgradeableReadLockHeld_m11742 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" bool ReaderWriterLockSlim_get_IsUpgradeableReadLockHeld_m11743 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = ReaderWriterLockSlim_get_RecursiveUpgradeCount_m11743(__this, /*hidden argument*/NULL);
+		int32_t L_0 = ReaderWriterLockSlim_get_RecursiveUpgradeCount_m11744(__this, /*hidden argument*/NULL);
 		return ((((int32_t)((((int32_t)L_0) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
 // System.Int32 System.Threading.ReaderWriterLockSlim::get_RecursiveUpgradeCount()
 extern TypeInfo* Thread_t1461_il2cpp_TypeInfo_var;
-extern "C" int32_t ReaderWriterLockSlim_get_RecursiveUpgradeCount_m11743 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" int32_t ReaderWriterLockSlim_get_RecursiveUpgradeCount_m11744 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5796,7 +5796,7 @@ extern "C" int32_t ReaderWriterLockSlim_get_RecursiveUpgradeCount_m11743 (Reader
 	{
 		Thread_t1461 * L_0 = (__this->___upgradable_thread_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_t1461 * L_1 = Thread_get_CurrentThread_m7448(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Thread_t1461 * L_1 = Thread_get_CurrentThread_m7449(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((!(((Object_t*)(Thread_t1461 *)L_0) == ((Object_t*)(Thread_t1461 *)L_1))))
 		{
 			goto IL_0016;
@@ -5819,7 +5819,7 @@ IL_0017:
 }
 // System.Int32 System.Threading.ReaderWriterLockSlim::get_RecursiveWriteCount()
 extern TypeInfo* Thread_t1461_il2cpp_TypeInfo_var;
-extern "C" int32_t ReaderWriterLockSlim_get_RecursiveWriteCount_m11744 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" int32_t ReaderWriterLockSlim_get_RecursiveWriteCount_m11745 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5831,7 +5831,7 @@ extern "C" int32_t ReaderWriterLockSlim_get_RecursiveWriteCount_m11744 (ReaderWr
 	{
 		Thread_t1461 * L_0 = (__this->___write_thread_4);
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_t1461 * L_1 = Thread_get_CurrentThread_m7448(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Thread_t1461 * L_1 = Thread_get_CurrentThread_m7449(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((!(((Object_t*)(Thread_t1461 *)L_0) == ((Object_t*)(Thread_t1461 *)L_1))))
 		{
 			goto IL_0016;
@@ -5853,7 +5853,7 @@ IL_0017:
 	}
 }
 // System.Void System.Threading.ReaderWriterLockSlim::EnterMyLock()
-extern "C" void ReaderWriterLockSlim_EnterMyLock_m11745 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim_EnterMyLock_m11746 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	{
 		int32_t* L_0 = &(__this->___myLock_1);
@@ -5864,7 +5864,7 @@ extern "C" void ReaderWriterLockSlim_EnterMyLock_m11745 (ReaderWriterLockSlim_t1
 		}
 	}
 	{
-		ReaderWriterLockSlim_EnterMyLockSpin_m11746(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_EnterMyLockSpin_m11747(__this, /*hidden argument*/NULL);
 	}
 
 IL_0018:
@@ -5875,7 +5875,7 @@ IL_0018:
 // System.Void System.Threading.ReaderWriterLockSlim::EnterMyLockSpin()
 extern TypeInfo* ReaderWriterLockSlim_t1277_il2cpp_TypeInfo_var;
 extern TypeInfo* Thread_t1461_il2cpp_TypeInfo_var;
-extern "C" void ReaderWriterLockSlim_EnterMyLockSpin_m11746 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim_EnterMyLockSpin_m11747 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5908,14 +5908,14 @@ IL_0007:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_SpinWait_m11826(NULL /*static, unused*/, ((int32_t)20), /*hidden argument*/NULL);
+		Thread_SpinWait_m11827(NULL /*static, unused*/, ((int32_t)20), /*hidden argument*/NULL);
 		goto IL_002a;
 	}
 
 IL_0024:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1461_il2cpp_TypeInfo_var);
-		Thread_Sleep_m11827(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		Thread_Sleep_m11828(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 	}
 
 IL_002a:
@@ -5943,7 +5943,7 @@ IL_0041:
 	}
 }
 // System.Void System.Threading.ReaderWriterLockSlim::ExitMyLock()
-extern "C" void ReaderWriterLockSlim_ExitMyLock_m11747 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim_ExitMyLock_m11748 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	{
 		__this->___myLock_1 = 0;
@@ -5951,7 +5951,7 @@ extern "C" void ReaderWriterLockSlim_ExitMyLock_m11747 (ReaderWriterLockSlim_t12
 	}
 }
 // System.Void System.Threading.ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaiters()
-extern "C" void ReaderWriterLockSlim_ExitAndWakeUpAppropriateWaiters_m11748 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim_ExitAndWakeUpAppropriateWaiters_m11749 (ReaderWriterLockSlim_t1277 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___owners_2);
@@ -5968,10 +5968,10 @@ extern "C" void ReaderWriterLockSlim_ExitAndWakeUpAppropriateWaiters_m11748 (Rea
 		}
 	}
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		EventWaitHandle_t3351 * L_2 = (__this->___upgradeEvent_10);
 		NullCheck(L_2);
-		EventWaitHandle_Set_m11828(L_2, /*hidden argument*/NULL);
+		EventWaitHandle_Set_m11829(L_2, /*hidden argument*/NULL);
 		goto IL_0090;
 	}
 
@@ -5991,10 +5991,10 @@ IL_002e:
 		}
 	}
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		EventWaitHandle_t3351 * L_5 = (__this->___writeEvent_8);
 		NullCheck(L_5);
-		EventWaitHandle_Set_m11828(L_5, /*hidden argument*/NULL);
+		EventWaitHandle_Set_m11829(L_5, /*hidden argument*/NULL);
 		goto IL_0090;
 	}
 
@@ -6014,16 +6014,16 @@ IL_005c:
 		}
 	}
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		EventWaitHandle_t3351 * L_8 = (__this->___readEvent_9);
 		NullCheck(L_8);
-		EventWaitHandle_Set_m11828(L_8, /*hidden argument*/NULL);
+		EventWaitHandle_Set_m11829(L_8, /*hidden argument*/NULL);
 		goto IL_0090;
 	}
 
 IL_008a:
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 	}
 
 IL_0090:
@@ -6034,7 +6034,7 @@ IL_0090:
 // System.Void System.Threading.ReaderWriterLockSlim::LazyCreateEvent(System.Threading.EventWaitHandle&,System.Boolean)
 extern TypeInfo* AutoResetEvent_t3376_il2cpp_TypeInfo_var;
 extern TypeInfo* ManualResetEvent_t3377_il2cpp_TypeInfo_var;
-extern "C" void ReaderWriterLockSlim_LazyCreateEvent_m11749 (ReaderWriterLockSlim_t1277 * __this, EventWaitHandle_t3351 ** ___waitEvent, bool ___makeAutoResetEvent, const MethodInfo* method)
+extern "C" void ReaderWriterLockSlim_LazyCreateEvent_m11750 (ReaderWriterLockSlim_t1277 * __this, EventWaitHandle_t3351 ** ___waitEvent, bool ___makeAutoResetEvent, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6045,7 +6045,7 @@ extern "C" void ReaderWriterLockSlim_LazyCreateEvent_m11749 (ReaderWriterLockSli
 	}
 	EventWaitHandle_t3351 * V_0 = {0};
 	{
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		bool L_0 = ___makeAutoResetEvent;
 		if (!L_0)
 		{
@@ -6054,7 +6054,7 @@ extern "C" void ReaderWriterLockSlim_LazyCreateEvent_m11749 (ReaderWriterLockSli
 	}
 	{
 		AutoResetEvent_t3376 * L_1 = (AutoResetEvent_t3376 *)il2cpp_codegen_object_new (AutoResetEvent_t3376_il2cpp_TypeInfo_var);
-		AutoResetEvent__ctor_m11829(L_1, 0, /*hidden argument*/NULL);
+		AutoResetEvent__ctor_m11830(L_1, 0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		goto IL_001f;
 	}
@@ -6062,13 +6062,13 @@ extern "C" void ReaderWriterLockSlim_LazyCreateEvent_m11749 (ReaderWriterLockSli
 IL_0018:
 	{
 		ManualResetEvent_t3377 * L_2 = (ManualResetEvent_t3377 *)il2cpp_codegen_object_new (ManualResetEvent_t3377_il2cpp_TypeInfo_var);
-		ManualResetEvent__ctor_m11830(L_2, 0, /*hidden argument*/NULL);
+		ManualResetEvent__ctor_m11831(L_2, 0, /*hidden argument*/NULL);
 		V_0 = L_2;
 	}
 
 IL_001f:
 	{
-		ReaderWriterLockSlim_EnterMyLock_m11745(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_EnterMyLock_m11746(__this, /*hidden argument*/NULL);
 		EventWaitHandle_t3351 ** L_3 = ___waitEvent;
 		if ((*((EventWaitHandle_t3351 **)L_3)))
 		{
@@ -6087,7 +6087,7 @@ IL_002f:
 	}
 }
 // System.Boolean System.Threading.ReaderWriterLockSlim::WaitOnEvent(System.Threading.EventWaitHandle,System.UInt32&,System.Int32)
-extern "C" bool ReaderWriterLockSlim_WaitOnEvent_m11750 (ReaderWriterLockSlim_t1277 * __this, EventWaitHandle_t3351 * ___waitEvent, uint32_t* ___numWaiters, int32_t ___millisecondsTimeout, const MethodInfo* method)
+extern "C" bool ReaderWriterLockSlim_WaitOnEvent_m11751 (ReaderWriterLockSlim_t1277 * __this, EventWaitHandle_t3351 * ___waitEvent, uint32_t* ___numWaiters, int32_t ___millisecondsTimeout, const MethodInfo* method)
 {
 	bool V_0 = false;
 	Exception_t57 * __last_unhandled_exception = 0;
@@ -6099,12 +6099,12 @@ extern "C" bool ReaderWriterLockSlim_WaitOnEvent_m11750 (ReaderWriterLockSlim_t1
 	{
 		EventWaitHandle_t3351 * L_0 = ___waitEvent;
 		NullCheck(L_0);
-		EventWaitHandle_Reset_m11831(L_0, /*hidden argument*/NULL);
+		EventWaitHandle_Reset_m11832(L_0, /*hidden argument*/NULL);
 		uint32_t* L_1 = ___numWaiters;
 		uint32_t* L_2 = ___numWaiters;
 		*((int32_t*)(L_1)) = (int32_t)((int32_t)((int32_t)(*((uint32_t*)L_2))+(int32_t)1));
 		V_0 = 0;
-		ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+		ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 	}
 
 IL_0015:
@@ -6126,7 +6126,7 @@ IL_0015:
 FINALLY_0023:
 	{ // begin finally (depth: 1)
 		{
-			ReaderWriterLockSlim_EnterMyLock_m11745(__this, /*hidden argument*/NULL);
+			ReaderWriterLockSlim_EnterMyLock_m11746(__this, /*hidden argument*/NULL);
 			uint32_t* L_6 = ___numWaiters;
 			uint32_t* L_7 = ___numWaiters;
 			*((int32_t*)(L_6)) = (int32_t)((int32_t)((int32_t)(*((uint32_t*)L_7))-(int32_t)1));
@@ -6139,7 +6139,7 @@ FINALLY_0023:
 
 IL_0035:
 		{
-			ReaderWriterLockSlim_ExitMyLock_m11747(__this, /*hidden argument*/NULL);
+			ReaderWriterLockSlim_ExitMyLock_m11748(__this, /*hidden argument*/NULL);
 		}
 
 IL_003b:
@@ -6161,14 +6161,14 @@ IL_003c:
 }
 // System.Threading.ReaderWriterLockSlim/LockDetails System.Threading.ReaderWriterLockSlim::GetReadLockDetails(System.Int32,System.Boolean)
 extern TypeInfo* LockDetails_t3350_il2cpp_TypeInfo_var;
-extern const MethodInfo* Array_Resize_TisLockDetails_t3350_m11820_MethodInfo_var;
-extern "C" LockDetails_t3350 * ReaderWriterLockSlim_GetReadLockDetails_m11751 (ReaderWriterLockSlim_t1277 * __this, int32_t ___threadId, bool ___create, const MethodInfo* method)
+extern const MethodInfo* Array_Resize_TisLockDetails_t3350_m11821_MethodInfo_var;
+extern "C" LockDetails_t3350 * ReaderWriterLockSlim_GetReadLockDetails_m11752 (ReaderWriterLockSlim_t1277 * __this, int32_t ___threadId, bool ___create, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		LockDetails_t3350_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5996);
-		Array_Resize_TisLockDetails_t3350_m11820_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485180);
+		Array_Resize_TisLockDetails_t3350_m11821_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485181);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -6256,7 +6256,7 @@ IL_0043:
 		LockDetailsU5BU5D_t3352** L_14 = &(__this->___read_locks_11);
 		LockDetailsU5BU5D_t3352* L_15 = (__this->___read_locks_11);
 		NullCheck(L_15);
-		Array_Resize_TisLockDetails_t3350_m11820(NULL /*static, unused*/, L_14, ((int32_t)((int32_t)(((int32_t)(((Array_t *)L_15)->max_length)))*(int32_t)2)), /*hidden argument*/Array_Resize_TisLockDetails_t3350_m11820_MethodInfo_var);
+		Array_Resize_TisLockDetails_t3350_m11821(NULL /*static, unused*/, L_14, ((int32_t)((int32_t)(((int32_t)(((Array_t *)L_15)->max_length)))*(int32_t)2)), /*hidden argument*/Array_Resize_TisLockDetails_t3350_m11821_MethodInfo_var);
 	}
 
 IL_0066:
@@ -6264,7 +6264,7 @@ IL_0066:
 		LockDetailsU5BU5D_t3352* L_16 = (__this->___read_locks_11);
 		int32_t L_17 = V_0;
 		LockDetails_t3350 * L_18 = (LockDetails_t3350 *)il2cpp_codegen_object_new (LockDetails_t3350_il2cpp_TypeInfo_var);
-		LockDetails__ctor_m11736(L_18, /*hidden argument*/NULL);
+		LockDetails__ctor_m11737(L_18, /*hidden argument*/NULL);
 		LockDetails_t3350 * L_19 = L_18;
 		V_2 = L_19;
 		NullCheck(L_16);
@@ -6292,15 +6292,15 @@ IL_0066:
 
 
 // System.Void System.InvalidTimeZoneException::.ctor()
-extern "C" void InvalidTimeZoneException__ctor_m11752 (InvalidTimeZoneException_t3353 * __this, const MethodInfo* method)
+extern "C" void InvalidTimeZoneException__ctor_m11753 (InvalidTimeZoneException_t3353 * __this, const MethodInfo* method)
 {
 	{
-		Exception__ctor_m7790(__this, /*hidden argument*/NULL);
+		Exception__ctor_m7791(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.InvalidTimeZoneException::.ctor(System.String)
-extern "C" void InvalidTimeZoneException__ctor_m11753 (InvalidTimeZoneException_t3353 * __this, String_t* ___message, const MethodInfo* method)
+extern "C" void InvalidTimeZoneException__ctor_m11754 (InvalidTimeZoneException_t3353 * __this, String_t* ___message, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___message;
@@ -6309,12 +6309,12 @@ extern "C" void InvalidTimeZoneException__ctor_m11753 (InvalidTimeZoneException_
 	}
 }
 // System.Void System.InvalidTimeZoneException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void InvalidTimeZoneException__ctor_m11754 (InvalidTimeZoneException_t3353 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___sc, const MethodInfo* method)
+extern "C" void InvalidTimeZoneException__ctor_m11755 (InvalidTimeZoneException_t3353 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___sc, const MethodInfo* method)
 {
 	{
 		SerializationInfo_t2919 * L_0 = ___info;
 		StreamingContext_t2920  L_1 = ___sc;
-		Exception__ctor_m10180(__this, L_0, L_1, /*hidden argument*/NULL);
+		Exception__ctor_m10181(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -6347,7 +6347,7 @@ extern TypeInfo* ArgumentException_t711_il2cpp_TypeInfo_var;
 extern TypeInfo* DateTime_t287_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var;
 extern TypeInfo* TimeSpan_t334_il2cpp_TypeInfo_var;
-extern "C" void AdjustmentRule__ctor_m11755 (AdjustmentRule_t3354 * __this, DateTime_t287  ___dateStart, DateTime_t287  ___dateEnd, TimeSpan_t334  ___daylightDelta, TransitionTime_t3355  ___daylightTransitionStart, TransitionTime_t3355  ___daylightTransitionEnd, const MethodInfo* method)
+extern "C" void AdjustmentRule__ctor_m11756 (AdjustmentRule_t3354 * __this, DateTime_t287  ___dateStart, DateTime_t287  ___dateEnd, TimeSpan_t334  ___daylightDelta, TransitionTime_t3355  ___daylightTransitionStart, TransitionTime_t3355  ___daylightTransitionEnd, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6360,14 +6360,14 @@ extern "C" void AdjustmentRule__ctor_m11755 (AdjustmentRule_t3354 * __this, Date
 	}
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
-		int32_t L_0 = DateTime_get_Kind_m11832((&___dateStart), /*hidden argument*/NULL);
+		int32_t L_0 = DateTime_get_Kind_m11833((&___dateStart), /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		int32_t L_1 = DateTime_get_Kind_m11832((&___dateEnd), /*hidden argument*/NULL);
+		int32_t L_1 = DateTime_get_Kind_m11833((&___dateEnd), /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0029;
@@ -6385,7 +6385,7 @@ IL_0029:
 	{
 		TransitionTime_t3355  L_3 = ___daylightTransitionStart;
 		TransitionTime_t3355  L_4 = ___daylightTransitionEnd;
-		bool L_5 = TransitionTime_op_Equality_m11772(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		bool L_5 = TransitionTime_op_Equality_m11773(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0042;
@@ -6425,7 +6425,7 @@ IL_0079:
 		DateTime_t287  L_10 = ___dateEnd;
 		DateTime_t287  L_11 = ___dateStart;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		bool L_12 = DateTime_op_LessThan_m10174(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		bool L_12 = DateTime_op_LessThan_m10175(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
 		if (!L_12)
 		{
 			goto IL_0090;
@@ -6433,7 +6433,7 @@ IL_0079:
 	}
 	{
 		ArgumentOutOfRangeException_t1473 * L_13 = (ArgumentOutOfRangeException_t1473 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11453(L_13, (String_t*) &_stringLiteral2544, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m11454(L_13, (String_t*) &_stringLiteral2544, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_13);
 	}
 
@@ -6441,9 +6441,9 @@ IL_0090:
 	{
 		TimeSpan_t334  L_14 = ___daylightDelta;
 		TimeSpan_t334  L_15 = {0};
-		TimeSpan__ctor_m11833(&L_15, ((int32_t)14), 0, 0, /*hidden argument*/NULL);
+		TimeSpan__ctor_m11834(&L_15, ((int32_t)14), 0, 0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t334_il2cpp_TypeInfo_var);
-		bool L_16 = TimeSpan_op_GreaterThan_m11834(NULL /*static, unused*/, L_14, L_15, /*hidden argument*/NULL);
+		bool L_16 = TimeSpan_op_GreaterThan_m11835(NULL /*static, unused*/, L_14, L_15, /*hidden argument*/NULL);
 		if (L_16)
 		{
 			goto IL_00b8;
@@ -6452,9 +6452,9 @@ IL_0090:
 	{
 		TimeSpan_t334  L_17 = ___daylightDelta;
 		TimeSpan_t334  L_18 = {0};
-		TimeSpan__ctor_m11833(&L_18, ((int32_t)-14), 0, 0, /*hidden argument*/NULL);
+		TimeSpan__ctor_m11834(&L_18, ((int32_t)-14), 0, 0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t334_il2cpp_TypeInfo_var);
-		bool L_19 = TimeSpan_op_LessThan_m11835(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
+		bool L_19 = TimeSpan_op_LessThan_m11836(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
 		if (!L_19)
 		{
 			goto IL_00c3;
@@ -6464,13 +6464,13 @@ IL_0090:
 IL_00b8:
 	{
 		ArgumentOutOfRangeException_t1473 * L_20 = (ArgumentOutOfRangeException_t1473 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11453(L_20, (String_t*) &_stringLiteral2545, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m11454(L_20, (String_t*) &_stringLiteral2545, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_20);
 	}
 
 IL_00c3:
 	{
-		int64_t L_21 = TimeSpan_get_Ticks_m11836((&___daylightDelta), /*hidden argument*/NULL);
+		int64_t L_21 = TimeSpan_get_Ticks_m11837((&___daylightDelta), /*hidden argument*/NULL);
 		if (!((int64_t)((int64_t)L_21%(int64_t)(((int64_t)((int32_t)10000000))))))
 		{
 			goto IL_00e1;
@@ -6478,7 +6478,7 @@ IL_00c3:
 	}
 	{
 		ArgumentOutOfRangeException_t1473 * L_22 = (ArgumentOutOfRangeException_t1473 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11453(L_22, (String_t*) &_stringLiteral2546, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m11454(L_22, (String_t*) &_stringLiteral2546, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_22);
 	}
 
@@ -6498,7 +6498,7 @@ IL_00e1:
 	}
 }
 // System.DateTime System.TimeZoneInfo/AdjustmentRule::get_DateEnd()
-extern "C" DateTime_t287  AdjustmentRule_get_DateEnd_m11756 (AdjustmentRule_t3354 * __this, const MethodInfo* method)
+extern "C" DateTime_t287  AdjustmentRule_get_DateEnd_m11757 (AdjustmentRule_t3354 * __this, const MethodInfo* method)
 {
 	{
 		DateTime_t287  L_0 = (__this->___dateEnd_0);
@@ -6506,7 +6506,7 @@ extern "C" DateTime_t287  AdjustmentRule_get_DateEnd_m11756 (AdjustmentRule_t335
 	}
 }
 // System.DateTime System.TimeZoneInfo/AdjustmentRule::get_DateStart()
-extern "C" DateTime_t287  AdjustmentRule_get_DateStart_m11757 (AdjustmentRule_t3354 * __this, const MethodInfo* method)
+extern "C" DateTime_t287  AdjustmentRule_get_DateStart_m11758 (AdjustmentRule_t3354 * __this, const MethodInfo* method)
 {
 	{
 		DateTime_t287  L_0 = (__this->___dateStart_1);
@@ -6514,7 +6514,7 @@ extern "C" DateTime_t287  AdjustmentRule_get_DateStart_m11757 (AdjustmentRule_t3
 	}
 }
 // System.TimeSpan System.TimeZoneInfo/AdjustmentRule::get_DaylightDelta()
-extern "C" TimeSpan_t334  AdjustmentRule_get_DaylightDelta_m11758 (AdjustmentRule_t3354 * __this, const MethodInfo* method)
+extern "C" TimeSpan_t334  AdjustmentRule_get_DaylightDelta_m11759 (AdjustmentRule_t3354 * __this, const MethodInfo* method)
 {
 	{
 		TimeSpan_t334  L_0 = (__this->___daylightDelta_2);
@@ -6523,7 +6523,7 @@ extern "C" TimeSpan_t334  AdjustmentRule_get_DaylightDelta_m11758 (AdjustmentRul
 }
 // System.TimeZoneInfo/AdjustmentRule System.TimeZoneInfo/AdjustmentRule::CreateAdjustmentRule(System.DateTime,System.DateTime,System.TimeSpan,System.TimeZoneInfo/TransitionTime,System.TimeZoneInfo/TransitionTime)
 extern TypeInfo* AdjustmentRule_t3354_il2cpp_TypeInfo_var;
-extern "C" AdjustmentRule_t3354 * AdjustmentRule_CreateAdjustmentRule_m11759 (Object_t * __this /* static, unused */, DateTime_t287  ___dateStart, DateTime_t287  ___dateEnd, TimeSpan_t334  ___daylightDelta, TransitionTime_t3355  ___daylightTransitionStart, TransitionTime_t3355  ___daylightTransitionEnd, const MethodInfo* method)
+extern "C" AdjustmentRule_t3354 * AdjustmentRule_CreateAdjustmentRule_m11760 (Object_t * __this /* static, unused */, DateTime_t287  ___dateStart, DateTime_t287  ___dateEnd, TimeSpan_t334  ___daylightDelta, TransitionTime_t3355  ___daylightTransitionStart, TransitionTime_t3355  ___daylightTransitionEnd, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6538,14 +6538,14 @@ extern "C" AdjustmentRule_t3354 * AdjustmentRule_CreateAdjustmentRule_m11759 (Ob
 		TransitionTime_t3355  L_3 = ___daylightTransitionStart;
 		TransitionTime_t3355  L_4 = ___daylightTransitionEnd;
 		AdjustmentRule_t3354 * L_5 = (AdjustmentRule_t3354 *)il2cpp_codegen_object_new (AdjustmentRule_t3354_il2cpp_TypeInfo_var);
-		AdjustmentRule__ctor_m11755(L_5, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		AdjustmentRule__ctor_m11756(L_5, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
 }
 // System.Boolean System.TimeZoneInfo/AdjustmentRule::Equals(System.TimeZoneInfo/AdjustmentRule)
 extern TypeInfo* DateTime_t287_il2cpp_TypeInfo_var;
 extern TypeInfo* TimeSpan_t334_il2cpp_TypeInfo_var;
-extern "C" bool AdjustmentRule_Equals_m11760 (AdjustmentRule_t3354 * __this, AdjustmentRule_t3354 * ___other, const MethodInfo* method)
+extern "C" bool AdjustmentRule_Equals_m11761 (AdjustmentRule_t3354 * __this, AdjustmentRule_t3354 * ___other, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6561,7 +6561,7 @@ extern "C" bool AdjustmentRule_Equals_m11760 (AdjustmentRule_t3354 * __this, Adj
 		NullCheck(L_1);
 		DateTime_t287  L_2 = (L_1->___dateStart_1);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		bool L_3 = DateTime_op_Equality_m11837(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		bool L_3 = DateTime_op_Equality_m11838(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_006b;
@@ -6573,7 +6573,7 @@ extern "C" bool AdjustmentRule_Equals_m11760 (AdjustmentRule_t3354 * __this, Adj
 		NullCheck(L_5);
 		DateTime_t287  L_6 = (L_5->___dateEnd_0);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		bool L_7 = DateTime_op_Equality_m11837(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		bool L_7 = DateTime_op_Equality_m11838(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_006b;
@@ -6585,7 +6585,7 @@ extern "C" bool AdjustmentRule_Equals_m11760 (AdjustmentRule_t3354 * __this, Adj
 		NullCheck(L_9);
 		TimeSpan_t334  L_10 = (L_9->___daylightDelta_2);
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t334_il2cpp_TypeInfo_var);
-		bool L_11 = TimeSpan_op_Equality_m11838(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		bool L_11 = TimeSpan_op_Equality_m11839(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_006b;
@@ -6596,7 +6596,7 @@ extern "C" bool AdjustmentRule_Equals_m11760 (AdjustmentRule_t3354 * __this, Adj
 		AdjustmentRule_t3354 * L_13 = ___other;
 		NullCheck(L_13);
 		TransitionTime_t3355  L_14 = (L_13->___daylightTransitionStart_4);
-		bool L_15 = TransitionTime_op_Equality_m11772(NULL /*static, unused*/, L_12, L_14, /*hidden argument*/NULL);
+		bool L_15 = TransitionTime_op_Equality_m11773(NULL /*static, unused*/, L_12, L_14, /*hidden argument*/NULL);
 		if (!L_15)
 		{
 			goto IL_006b;
@@ -6607,7 +6607,7 @@ extern "C" bool AdjustmentRule_Equals_m11760 (AdjustmentRule_t3354 * __this, Adj
 		AdjustmentRule_t3354 * L_17 = ___other;
 		NullCheck(L_17);
 		TransitionTime_t3355  L_18 = (L_17->___daylightTransitionEnd_3);
-		bool L_19 = TransitionTime_op_Equality_m11772(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		bool L_19 = TransitionTime_op_Equality_m11773(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
 		G_B6_0 = ((int32_t)(L_19));
 		goto IL_006c;
 	}
@@ -6623,25 +6623,25 @@ IL_006c:
 	}
 }
 // System.Int32 System.TimeZoneInfo/AdjustmentRule::GetHashCode()
-extern "C" int32_t AdjustmentRule_GetHashCode_m11761 (AdjustmentRule_t3354 * __this, const MethodInfo* method)
+extern "C" int32_t AdjustmentRule_GetHashCode_m11762 (AdjustmentRule_t3354 * __this, const MethodInfo* method)
 {
 	{
 		DateTime_t287 * L_0 = &(__this->___dateStart_1);
-		int32_t L_1 = DateTime_GetHashCode_m11839(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = DateTime_GetHashCode_m11840(L_0, /*hidden argument*/NULL);
 		DateTime_t287 * L_2 = &(__this->___dateEnd_0);
-		int32_t L_3 = DateTime_GetHashCode_m11839(L_2, /*hidden argument*/NULL);
+		int32_t L_3 = DateTime_GetHashCode_m11840(L_2, /*hidden argument*/NULL);
 		TimeSpan_t334 * L_4 = &(__this->___daylightDelta_2);
-		int32_t L_5 = TimeSpan_GetHashCode_m11840(L_4, /*hidden argument*/NULL);
+		int32_t L_5 = TimeSpan_GetHashCode_m11841(L_4, /*hidden argument*/NULL);
 		TransitionTime_t3355 * L_6 = &(__this->___daylightTransitionStart_4);
-		int32_t L_7 = TransitionTime_GetHashCode_m11770(L_6, /*hidden argument*/NULL);
+		int32_t L_7 = TransitionTime_GetHashCode_m11771(L_6, /*hidden argument*/NULL);
 		TransitionTime_t3355 * L_8 = &(__this->___daylightTransitionEnd_3);
-		int32_t L_9 = TransitionTime_GetHashCode_m11770(L_8, /*hidden argument*/NULL);
+		int32_t L_9 = TransitionTime_GetHashCode_m11771(L_8, /*hidden argument*/NULL);
 		return ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_1^(int32_t)L_3))^(int32_t)L_5))^(int32_t)L_7))^(int32_t)L_9));
 	}
 }
 // System.Void System.TimeZoneInfo/AdjustmentRule::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern TypeInfo* NotImplementedException_t1440_il2cpp_TypeInfo_var;
-extern "C" void AdjustmentRule_GetObjectData_m11762 (AdjustmentRule_t3354 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method)
+extern "C" void AdjustmentRule_GetObjectData_m11763 (AdjustmentRule_t3354 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6651,13 +6651,13 @@ extern "C" void AdjustmentRule_GetObjectData_m11762 (AdjustmentRule_t3354 * __th
 	}
 	{
 		NotImplementedException_t1440 * L_0 = (NotImplementedException_t1440 *)il2cpp_codegen_object_new (NotImplementedException_t1440_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m7377(L_0, /*hidden argument*/NULL);
+		NotImplementedException__ctor_m7378(L_0, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.Void System.TimeZoneInfo/AdjustmentRule::OnDeserialization(System.Object)
 extern TypeInfo* NotImplementedException_t1440_il2cpp_TypeInfo_var;
-extern "C" void AdjustmentRule_OnDeserialization_m11763 (AdjustmentRule_t3354 * __this, Object_t * ___sender, const MethodInfo* method)
+extern "C" void AdjustmentRule_OnDeserialization_m11764 (AdjustmentRule_t3354 * __this, Object_t * ___sender, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6667,7 +6667,7 @@ extern "C" void AdjustmentRule_OnDeserialization_m11763 (AdjustmentRule_t3354 * 
 	}
 	{
 		NotImplementedException_t1440 * L_0 = (NotImplementedException_t1440 *)il2cpp_codegen_object_new (NotImplementedException_t1440_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m7377(L_0, /*hidden argument*/NULL);
+		NotImplementedException__ctor_m7378(L_0, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -6681,7 +6681,7 @@ extern "C" void AdjustmentRule_OnDeserialization_m11763 (AdjustmentRule_t3354 * 
 
 // System.Void System.TimeZoneInfo/TransitionTime::.ctor(System.DateTime,System.Int32,System.Int32)
 extern TypeInfo* ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var;
-extern "C" void TransitionTime__ctor_m11764 (TransitionTime_t3355 * __this, DateTime_t287  ___timeOfDay, int32_t ___month, int32_t ___day, const MethodInfo* method)
+extern "C" void TransitionTime__ctor_m11765 (TransitionTime_t3355 * __this, DateTime_t287  ___timeOfDay, int32_t ___month, int32_t ___day, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6692,7 +6692,7 @@ extern "C" void TransitionTime__ctor_m11764 (TransitionTime_t3355 * __this, Date
 	{
 		DateTime_t287  L_0 = ___timeOfDay;
 		int32_t L_1 = ___month;
-		TransitionTime__ctor_m11765(__this, L_0, L_1, /*hidden argument*/NULL);
+		TransitionTime__ctor_m11766(__this, L_0, L_1, /*hidden argument*/NULL);
 		int32_t L_2 = ___day;
 		if ((((int32_t)L_2) < ((int32_t)1)))
 		{
@@ -6710,7 +6710,7 @@ extern "C" void TransitionTime__ctor_m11764 (TransitionTime_t3355 * __this, Date
 IL_0017:
 	{
 		ArgumentOutOfRangeException_t1473 * L_4 = (ArgumentOutOfRangeException_t1473 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11453(L_4, (String_t*) &_stringLiteral2547, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m11454(L_4, (String_t*) &_stringLiteral2547, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -6725,7 +6725,7 @@ IL_0022:
 // System.Void System.TimeZoneInfo/TransitionTime::.ctor(System.DateTime,System.Int32)
 extern TypeInfo* ArgumentException_t711_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var;
-extern "C" void TransitionTime__ctor_m11765 (TransitionTime_t3355 * __this, DateTime_t287  ___timeOfDay, int32_t ___month, const MethodInfo* method)
+extern "C" void TransitionTime__ctor_m11766 (TransitionTime_t3355 * __this, DateTime_t287  ___timeOfDay, int32_t ___month, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6735,21 +6735,21 @@ extern "C" void TransitionTime__ctor_m11765 (TransitionTime_t3355 * __this, Date
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		int32_t L_0 = DateTime_get_Year_m11841((&___timeOfDay), /*hidden argument*/NULL);
+		int32_t L_0 = DateTime_get_Year_m11842((&___timeOfDay), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
 			goto IL_0027;
 		}
 	}
 	{
-		int32_t L_1 = DateTime_get_Month_m11842((&___timeOfDay), /*hidden argument*/NULL);
+		int32_t L_1 = DateTime_get_Month_m11843((&___timeOfDay), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
 		{
 			goto IL_0027;
 		}
 	}
 	{
-		int32_t L_2 = DateTime_get_Day_m11843((&___timeOfDay), /*hidden argument*/NULL);
+		int32_t L_2 = DateTime_get_Day_m11844((&___timeOfDay), /*hidden argument*/NULL);
 		if ((((int32_t)L_2) == ((int32_t)1)))
 		{
 			goto IL_0032;
@@ -6765,7 +6765,7 @@ IL_0027:
 
 IL_0032:
 	{
-		int32_t L_4 = DateTime_get_Kind_m11832((&___timeOfDay), /*hidden argument*/NULL);
+		int32_t L_4 = DateTime_get_Kind_m11833((&___timeOfDay), /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0049;
@@ -6810,7 +6810,7 @@ IL_0067:
 IL_0076:
 	{
 		ArgumentOutOfRangeException_t1473 * L_10 = (ArgumentOutOfRangeException_t1473 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11453(L_10, (String_t*) &_stringLiteral2551, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m11454(L_10, (String_t*) &_stringLiteral2551, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 
@@ -6828,20 +6828,20 @@ IL_0081:
 	}
 }
 // System.TimeZoneInfo/TransitionTime System.TimeZoneInfo/TransitionTime::CreateFixedDateRule(System.DateTime,System.Int32,System.Int32)
-extern "C" TransitionTime_t3355  TransitionTime_CreateFixedDateRule_m11766 (Object_t * __this /* static, unused */, DateTime_t287  ___timeOfDay, int32_t ___month, int32_t ___day, const MethodInfo* method)
+extern "C" TransitionTime_t3355  TransitionTime_CreateFixedDateRule_m11767 (Object_t * __this /* static, unused */, DateTime_t287  ___timeOfDay, int32_t ___month, int32_t ___day, const MethodInfo* method)
 {
 	{
 		DateTime_t287  L_0 = ___timeOfDay;
 		int32_t L_1 = ___month;
 		int32_t L_2 = ___day;
 		TransitionTime_t3355  L_3 = {0};
-		TransitionTime__ctor_m11764(&L_3, L_0, L_1, L_2, /*hidden argument*/NULL);
+		TransitionTime__ctor_m11765(&L_3, L_0, L_1, L_2, /*hidden argument*/NULL);
 		return L_3;
 	}
 }
 // System.Void System.TimeZoneInfo/TransitionTime::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern TypeInfo* NotImplementedException_t1440_il2cpp_TypeInfo_var;
-extern "C" void TransitionTime_GetObjectData_m11767 (TransitionTime_t3355 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method)
+extern "C" void TransitionTime_GetObjectData_m11768 (TransitionTime_t3355 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6851,13 +6851,13 @@ extern "C" void TransitionTime_GetObjectData_m11767 (TransitionTime_t3355 * __th
 	}
 	{
 		NotImplementedException_t1440 * L_0 = (NotImplementedException_t1440 *)il2cpp_codegen_object_new (NotImplementedException_t1440_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m7377(L_0, /*hidden argument*/NULL);
+		NotImplementedException__ctor_m7378(L_0, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.Boolean System.TimeZoneInfo/TransitionTime::Equals(System.Object)
 extern TypeInfo* TransitionTime_t3355_il2cpp_TypeInfo_var;
-extern "C" bool TransitionTime_Equals_m11768 (TransitionTime_t3355 * __this, Object_t * ___other, const MethodInfo* method)
+extern "C" bool TransitionTime_Equals_m11769 (TransitionTime_t3355 * __this, Object_t * ___other, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6874,7 +6874,7 @@ extern "C" bool TransitionTime_Equals_m11768 (TransitionTime_t3355 * __this, Obj
 	}
 	{
 		Object_t * L_1 = ___other;
-		bool L_2 = TransitionTime_op_Equality_m11772(NULL /*static, unused*/, (*(TransitionTime_t3355 *)__this), ((*(TransitionTime_t3355 *)((TransitionTime_t3355 *)UnBox (L_1, TransitionTime_t3355_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		bool L_2 = TransitionTime_op_Equality_m11773(NULL /*static, unused*/, (*(TransitionTime_t3355 *)__this), ((*(TransitionTime_t3355 *)((TransitionTime_t3355 *)UnBox (L_1, TransitionTime_t3355_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		return L_2;
 	}
 
@@ -6884,16 +6884,16 @@ IL_001d:
 	}
 }
 // System.Boolean System.TimeZoneInfo/TransitionTime::Equals(System.TimeZoneInfo/TransitionTime)
-extern "C" bool TransitionTime_Equals_m11769 (TransitionTime_t3355 * __this, TransitionTime_t3355  ___other, const MethodInfo* method)
+extern "C" bool TransitionTime_Equals_m11770 (TransitionTime_t3355 * __this, TransitionTime_t3355  ___other, const MethodInfo* method)
 {
 	{
 		TransitionTime_t3355  L_0 = ___other;
-		bool L_1 = TransitionTime_op_Equality_m11772(NULL /*static, unused*/, (*(TransitionTime_t3355 *)__this), L_0, /*hidden argument*/NULL);
+		bool L_1 = TransitionTime_op_Equality_m11773(NULL /*static, unused*/, (*(TransitionTime_t3355 *)__this), L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Int32 System.TimeZoneInfo/TransitionTime::GetHashCode()
-extern "C" int32_t TransitionTime_GetHashCode_m11770 (TransitionTime_t3355 * __this, const MethodInfo* method)
+extern "C" int32_t TransitionTime_GetHashCode_m11771 (TransitionTime_t3355 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___day_2);
@@ -6907,7 +6907,7 @@ extern "C" int32_t TransitionTime_GetHashCode_m11770 (TransitionTime_t3355 * __t
 }
 // System.Void System.TimeZoneInfo/TransitionTime::OnDeserialization(System.Object)
 extern TypeInfo* NotImplementedException_t1440_il2cpp_TypeInfo_var;
-extern "C" void TransitionTime_OnDeserialization_m11771 (TransitionTime_t3355 * __this, Object_t * ___sender, const MethodInfo* method)
+extern "C" void TransitionTime_OnDeserialization_m11772 (TransitionTime_t3355 * __this, Object_t * ___sender, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6917,13 +6917,13 @@ extern "C" void TransitionTime_OnDeserialization_m11771 (TransitionTime_t3355 * 
 	}
 	{
 		NotImplementedException_t1440 * L_0 = (NotImplementedException_t1440 *)il2cpp_codegen_object_new (NotImplementedException_t1440_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m7377(L_0, /*hidden argument*/NULL);
+		NotImplementedException__ctor_m7378(L_0, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.Boolean System.TimeZoneInfo/TransitionTime::op_Equality(System.TimeZoneInfo/TransitionTime,System.TimeZoneInfo/TransitionTime)
 extern TypeInfo* DateTime_t287_il2cpp_TypeInfo_var;
-extern "C" bool TransitionTime_op_Equality_m11772 (Object_t * __this /* static, unused */, TransitionTime_t3355  ___t1, TransitionTime_t3355  ___t2, const MethodInfo* method)
+extern "C" bool TransitionTime_op_Equality_m11773 (Object_t * __this /* static, unused */, TransitionTime_t3355  ___t1, TransitionTime_t3355  ___t2, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6968,7 +6968,7 @@ extern "C" bool TransitionTime_op_Equality_m11772 (Object_t * __this /* static, 
 		DateTime_t287  L_8 = ((&___t1)->___timeOfDay_0);
 		DateTime_t287  L_9 = ((&___t2)->___timeOfDay_0);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		bool L_10 = DateTime_op_Equality_m11837(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		bool L_10 = DateTime_op_Equality_m11838(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
 		if (!L_10)
 		{
 			goto IL_0076;
@@ -6992,12 +6992,12 @@ IL_0077:
 	}
 }
 // System.Boolean System.TimeZoneInfo/TransitionTime::op_Inequality(System.TimeZoneInfo/TransitionTime,System.TimeZoneInfo/TransitionTime)
-extern "C" bool TransitionTime_op_Inequality_m11773 (Object_t * __this /* static, unused */, TransitionTime_t3355  ___t1, TransitionTime_t3355  ___t2, const MethodInfo* method)
+extern "C" bool TransitionTime_op_Inequality_m11774 (Object_t * __this /* static, unused */, TransitionTime_t3355  ___t1, TransitionTime_t3355  ___t2, const MethodInfo* method)
 {
 	{
 		TransitionTime_t3355  L_0 = ___t1;
 		TransitionTime_t3355  L_1 = ___t2;
-		bool L_2 = TransitionTime_op_Equality_m11772(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		bool L_2 = TransitionTime_op_Equality_m11773(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return ((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -7012,7 +7012,7 @@ extern "C" bool TransitionTime_op_Inequality_m11773 (Object_t * __this /* static
 
 
 // System.Void System.TimeZoneInfo/TimeType::.ctor(System.Int32,System.Boolean,System.String)
-extern "C" void TimeType__ctor_m11774 (TimeType_t3356 * __this, int32_t ___offset, bool ___is_dst, String_t* ___abbrev, const MethodInfo* method)
+extern "C" void TimeType__ctor_m11775 (TimeType_t3356 * __this, int32_t ___offset, bool ___is_dst, String_t* ___abbrev, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___offset;
@@ -7029,7 +7029,7 @@ extern TypeInfo* ObjectU5BU5D_t682_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
 extern TypeInfo* Boolean_t59_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" String_t* TimeType_ToString_m11775 (TimeType_t3356 * __this, const MethodInfo* method)
+extern "C" String_t* TimeType_ToString_m11776 (TimeType_t3356 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7164,7 +7164,7 @@ extern TypeInfo* TimeSpan_t334_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var;
 extern TypeInfo* InvalidTimeZoneException_t3353_il2cpp_TypeInfo_var;
 extern TypeInfo* DateTime_t287_il2cpp_TypeInfo_var;
-extern "C" void TimeZoneInfo__ctor_m11776 (TimeZoneInfo_t1513 * __this, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, String_t* ___daylightDisplayName, AdjustmentRuleU5BU5D_t3357* ___adjustmentRules, bool ___disableDaylightSavingTime, const MethodInfo* method)
+extern "C" void TimeZoneInfo__ctor_m11777 (TimeZoneInfo_t1513 * __this, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, String_t* ___daylightDisplayName, AdjustmentRuleU5BU5D_t3357* ___adjustmentRules, bool ___disableDaylightSavingTime, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7223,7 +7223,7 @@ IL_0017:
 
 IL_0032:
 	{
-		int64_t L_6 = TimeSpan_get_Ticks_m11836((&___baseUtcOffset), /*hidden argument*/NULL);
+		int64_t L_6 = TimeSpan_get_Ticks_m11837((&___baseUtcOffset), /*hidden argument*/NULL);
 		if (!((int64_t)((int64_t)L_6%(int64_t)(((int64_t)((int32_t)600000000))))))
 		{
 			goto IL_0050;
@@ -7239,9 +7239,9 @@ IL_0050:
 	{
 		TimeSpan_t334  L_8 = ___baseUtcOffset;
 		TimeSpan_t334  L_9 = {0};
-		TimeSpan__ctor_m11833(&L_9, ((int32_t)14), 0, 0, /*hidden argument*/NULL);
+		TimeSpan__ctor_m11834(&L_9, ((int32_t)14), 0, 0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t334_il2cpp_TypeInfo_var);
-		bool L_10 = TimeSpan_op_GreaterThan_m11834(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		bool L_10 = TimeSpan_op_GreaterThan_m11835(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
 		if (L_10)
 		{
 			goto IL_0078;
@@ -7250,9 +7250,9 @@ IL_0050:
 	{
 		TimeSpan_t334  L_11 = ___baseUtcOffset;
 		TimeSpan_t334  L_12 = {0};
-		TimeSpan__ctor_m11833(&L_12, ((int32_t)-14), 0, 0, /*hidden argument*/NULL);
+		TimeSpan__ctor_m11834(&L_12, ((int32_t)-14), 0, 0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t334_il2cpp_TypeInfo_var);
-		bool L_13 = TimeSpan_op_LessThan_m11835(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/NULL);
+		bool L_13 = TimeSpan_op_LessThan_m11836(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/NULL);
 		if (!L_13)
 		{
 			goto IL_0083;
@@ -7262,7 +7262,7 @@ IL_0050:
 IL_0078:
 	{
 		ArgumentOutOfRangeException_t1473 * L_14 = (ArgumentOutOfRangeException_t1473 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1473_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11453(L_14, (String_t*) &_stringLiteral2532, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m11454(L_14, (String_t*) &_stringLiteral2532, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
 	}
 
@@ -7306,7 +7306,7 @@ IL_009f:
 	}
 	{
 		InvalidTimeZoneException_t3353 * L_22 = (InvalidTimeZoneException_t3353 *)il2cpp_codegen_object_new (InvalidTimeZoneException_t3353_il2cpp_TypeInfo_var);
-		InvalidTimeZoneException__ctor_m11753(L_22, (String_t*) &_stringLiteral2533, /*hidden argument*/NULL);
+		InvalidTimeZoneException__ctor_m11754(L_22, (String_t*) &_stringLiteral2533, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_22);
 	}
 
@@ -7315,12 +7315,12 @@ IL_00b4:
 		TimeSpan_t334  L_23 = ___baseUtcOffset;
 		AdjustmentRule_t3354 * L_24 = V_1;
 		NullCheck(L_24);
-		TimeSpan_t334  L_25 = AdjustmentRule_get_DaylightDelta_m11758(L_24, /*hidden argument*/NULL);
+		TimeSpan_t334  L_25 = AdjustmentRule_get_DaylightDelta_m11759(L_24, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t334_il2cpp_TypeInfo_var);
-		TimeSpan_t334  L_26 = TimeSpan_op_Addition_m11844(NULL /*static, unused*/, L_23, L_25, /*hidden argument*/NULL);
+		TimeSpan_t334  L_26 = TimeSpan_op_Addition_m11845(NULL /*static, unused*/, L_23, L_25, /*hidden argument*/NULL);
 		TimeSpan_t334  L_27 = {0};
-		TimeSpan__ctor_m11833(&L_27, ((int32_t)-14), 0, 0, /*hidden argument*/NULL);
-		bool L_28 = TimeSpan_op_LessThan_m11835(NULL /*static, unused*/, L_26, L_27, /*hidden argument*/NULL);
+		TimeSpan__ctor_m11834(&L_27, ((int32_t)-14), 0, 0, /*hidden argument*/NULL);
+		bool L_28 = TimeSpan_op_LessThan_m11836(NULL /*static, unused*/, L_26, L_27, /*hidden argument*/NULL);
 		if (L_28)
 		{
 			goto IL_00f2;
@@ -7330,12 +7330,12 @@ IL_00b4:
 		TimeSpan_t334  L_29 = ___baseUtcOffset;
 		AdjustmentRule_t3354 * L_30 = V_1;
 		NullCheck(L_30);
-		TimeSpan_t334  L_31 = AdjustmentRule_get_DaylightDelta_m11758(L_30, /*hidden argument*/NULL);
+		TimeSpan_t334  L_31 = AdjustmentRule_get_DaylightDelta_m11759(L_30, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t334_il2cpp_TypeInfo_var);
-		TimeSpan_t334  L_32 = TimeSpan_op_Addition_m11844(NULL /*static, unused*/, L_29, L_31, /*hidden argument*/NULL);
+		TimeSpan_t334  L_32 = TimeSpan_op_Addition_m11845(NULL /*static, unused*/, L_29, L_31, /*hidden argument*/NULL);
 		TimeSpan_t334  L_33 = {0};
-		TimeSpan__ctor_m11833(&L_33, ((int32_t)14), 0, 0, /*hidden argument*/NULL);
-		bool L_34 = TimeSpan_op_GreaterThan_m11834(NULL /*static, unused*/, L_32, L_33, /*hidden argument*/NULL);
+		TimeSpan__ctor_m11834(&L_33, ((int32_t)14), 0, 0, /*hidden argument*/NULL);
+		bool L_34 = TimeSpan_op_GreaterThan_m11835(NULL /*static, unused*/, L_32, L_33, /*hidden argument*/NULL);
 		if (!L_34)
 		{
 			goto IL_00fd;
@@ -7345,7 +7345,7 @@ IL_00b4:
 IL_00f2:
 	{
 		InvalidTimeZoneException_t3353 * L_35 = (InvalidTimeZoneException_t3353 *)il2cpp_codegen_object_new (InvalidTimeZoneException_t3353_il2cpp_TypeInfo_var);
-		InvalidTimeZoneException__ctor_m11753(L_35, (String_t*) &_stringLiteral2534, /*hidden argument*/NULL);
+		InvalidTimeZoneException__ctor_m11754(L_35, (String_t*) &_stringLiteral2534, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_35);
 	}
 
@@ -7360,12 +7360,12 @@ IL_00fd:
 	{
 		AdjustmentRule_t3354 * L_37 = V_0;
 		NullCheck(L_37);
-		DateTime_t287  L_38 = AdjustmentRule_get_DateStart_m11757(L_37, /*hidden argument*/NULL);
+		DateTime_t287  L_38 = AdjustmentRule_get_DateStart_m11758(L_37, /*hidden argument*/NULL);
 		AdjustmentRule_t3354 * L_39 = V_1;
 		NullCheck(L_39);
-		DateTime_t287  L_40 = AdjustmentRule_get_DateStart_m11757(L_39, /*hidden argument*/NULL);
+		DateTime_t287  L_40 = AdjustmentRule_get_DateStart_m11758(L_39, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		bool L_41 = DateTime_op_GreaterThan_m11845(NULL /*static, unused*/, L_38, L_40, /*hidden argument*/NULL);
+		bool L_41 = DateTime_op_GreaterThan_m11846(NULL /*static, unused*/, L_38, L_40, /*hidden argument*/NULL);
 		if (!L_41)
 		{
 			goto IL_0124;
@@ -7373,7 +7373,7 @@ IL_00fd:
 	}
 	{
 		InvalidTimeZoneException_t3353 * L_42 = (InvalidTimeZoneException_t3353 *)il2cpp_codegen_object_new (InvalidTimeZoneException_t3353_il2cpp_TypeInfo_var);
-		InvalidTimeZoneException__ctor_m11753(L_42, (String_t*) &_stringLiteral2535, /*hidden argument*/NULL);
+		InvalidTimeZoneException__ctor_m11754(L_42, (String_t*) &_stringLiteral2535, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_42);
 	}
 
@@ -7388,12 +7388,12 @@ IL_0124:
 	{
 		AdjustmentRule_t3354 * L_44 = V_0;
 		NullCheck(L_44);
-		DateTime_t287  L_45 = AdjustmentRule_get_DateEnd_m11756(L_44, /*hidden argument*/NULL);
+		DateTime_t287  L_45 = AdjustmentRule_get_DateEnd_m11757(L_44, /*hidden argument*/NULL);
 		AdjustmentRule_t3354 * L_46 = V_1;
 		NullCheck(L_46);
-		DateTime_t287  L_47 = AdjustmentRule_get_DateStart_m11757(L_46, /*hidden argument*/NULL);
+		DateTime_t287  L_47 = AdjustmentRule_get_DateStart_m11758(L_46, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		bool L_48 = DateTime_op_GreaterThan_m11845(NULL /*static, unused*/, L_45, L_47, /*hidden argument*/NULL);
+		bool L_48 = DateTime_op_GreaterThan_m11846(NULL /*static, unused*/, L_45, L_47, /*hidden argument*/NULL);
 		if (!L_48)
 		{
 			goto IL_014b;
@@ -7401,7 +7401,7 @@ IL_0124:
 	}
 	{
 		InvalidTimeZoneException_t3353 * L_49 = (InvalidTimeZoneException_t3353 *)il2cpp_codegen_object_new (InvalidTimeZoneException_t3353_il2cpp_TypeInfo_var);
-		InvalidTimeZoneException__ctor_m11753(L_49, (String_t*) &_stringLiteral2536, /*hidden argument*/NULL);
+		InvalidTimeZoneException__ctor_m11754(L_49, (String_t*) &_stringLiteral2536, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_49);
 	}
 
@@ -7416,12 +7416,12 @@ IL_014b:
 	{
 		AdjustmentRule_t3354 * L_51 = V_0;
 		NullCheck(L_51);
-		DateTime_t287  L_52 = AdjustmentRule_get_DateEnd_m11756(L_51, /*hidden argument*/NULL);
+		DateTime_t287  L_52 = AdjustmentRule_get_DateEnd_m11757(L_51, /*hidden argument*/NULL);
 		AdjustmentRule_t3354 * L_53 = V_1;
 		NullCheck(L_53);
-		DateTime_t287  L_54 = AdjustmentRule_get_DateStart_m11757(L_53, /*hidden argument*/NULL);
+		DateTime_t287  L_54 = AdjustmentRule_get_DateStart_m11758(L_53, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		bool L_55 = DateTime_op_Equality_m11837(NULL /*static, unused*/, L_52, L_54, /*hidden argument*/NULL);
+		bool L_55 = DateTime_op_Equality_m11838(NULL /*static, unused*/, L_52, L_54, /*hidden argument*/NULL);
 		if (!L_55)
 		{
 			goto IL_0172;
@@ -7429,7 +7429,7 @@ IL_014b:
 	}
 	{
 		InvalidTimeZoneException_t3353 * L_56 = (InvalidTimeZoneException_t3353 *)il2cpp_codegen_object_new (InvalidTimeZoneException_t3353_il2cpp_TypeInfo_var);
-		InvalidTimeZoneException__ctor_m11753(L_56, (String_t*) &_stringLiteral2537, /*hidden argument*/NULL);
+		InvalidTimeZoneException__ctor_m11754(L_56, (String_t*) &_stringLiteral2537, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_56);
 	}
 
@@ -7510,14 +7510,14 @@ IL_01a9:
 	}
 }
 // System.Void System.TimeZoneInfo::.cctor()
-extern "C" void TimeZoneInfo__cctor_m11777 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void TimeZoneInfo__cctor_m11778 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.TimeSpan System.TimeZoneInfo::get_BaseUtcOffset()
-extern "C" TimeSpan_t334  TimeZoneInfo_get_BaseUtcOffset_m11778 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
+extern "C" TimeSpan_t334  TimeZoneInfo_get_BaseUtcOffset_m11779 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
 {
 	{
 		TimeSpan_t334  L_0 = (__this->___baseUtcOffset_0);
@@ -7525,7 +7525,7 @@ extern "C" TimeSpan_t334  TimeZoneInfo_get_BaseUtcOffset_m11778 (TimeZoneInfo_t1
 	}
 }
 // System.String System.TimeZoneInfo::get_DisplayName()
-extern "C" String_t* TimeZoneInfo_get_DisplayName_m11779 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
+extern "C" String_t* TimeZoneInfo_get_DisplayName_m11780 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___displayName_2);
@@ -7533,7 +7533,7 @@ extern "C" String_t* TimeZoneInfo_get_DisplayName_m11779 (TimeZoneInfo_t1513 * _
 	}
 }
 // System.String System.TimeZoneInfo::get_Id()
-extern "C" String_t* TimeZoneInfo_get_Id_m11780 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
+extern "C" String_t* TimeZoneInfo_get_Id_m11781 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___id_3);
@@ -7545,7 +7545,7 @@ extern TypeInfo* TimeZoneInfo_t1513_il2cpp_TypeInfo_var;
 extern TypeInfo* Object_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Path_t2143_il2cpp_TypeInfo_var;
 extern TypeInfo* TimeZoneNotFoundException_t1514_il2cpp_TypeInfo_var;
-extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_get_Local_m7653 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_get_Local_m7654 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7575,7 +7575,7 @@ IL_000a:
 	try
 	{ // begin try (depth: 1)
 		IL2CPP_RUNTIME_CLASS_INIT(TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-		TimeZoneInfo_t1513 * L_1 = TimeZoneInfo_FindSystemTimeZoneByFileName_m11786(NULL /*static, unused*/, (String_t*) &_stringLiteral2526, (String_t*) &_stringLiteral2527, /*hidden argument*/NULL);
+		TimeZoneInfo_t1513 * L_1 = TimeZoneInfo_FindSystemTimeZoneByFileName_m11787(NULL /*static, unused*/, (String_t*) &_stringLiteral2526, (String_t*) &_stringLiteral2527, /*hidden argument*/NULL);
 		((TimeZoneInfo_t1513_StaticFields*)TimeZoneInfo_t1513_il2cpp_TypeInfo_var->static_fields)->___local_4 = L_1;
 		goto IL_0058;
 	} // end try (depth: 1)
@@ -7596,10 +7596,10 @@ IL_0024:
 		try
 		{ // begin try (depth: 2)
 			IL2CPP_RUNTIME_CLASS_INIT(TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-			String_t* L_2 = TimeZoneInfo_get_TimeZoneDirectory_m11781(NULL /*static, unused*/, /*hidden argument*/NULL);
+			String_t* L_2 = TimeZoneInfo_get_TimeZoneDirectory_m11782(NULL /*static, unused*/, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(Path_t2143_il2cpp_TypeInfo_var);
-			String_t* L_3 = Path_Combine_m7777(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral2528, /*hidden argument*/NULL);
-			TimeZoneInfo_t1513 * L_4 = TimeZoneInfo_FindSystemTimeZoneByFileName_m11786(NULL /*static, unused*/, (String_t*) &_stringLiteral2526, L_3, /*hidden argument*/NULL);
+			String_t* L_3 = Path_Combine_m7778(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral2528, /*hidden argument*/NULL);
+			TimeZoneInfo_t1513 * L_4 = TimeZoneInfo_FindSystemTimeZoneByFileName_m11787(NULL /*static, unused*/, (String_t*) &_stringLiteral2526, L_3, /*hidden argument*/NULL);
 			((TimeZoneInfo_t1513_StaticFields*)TimeZoneInfo_t1513_il2cpp_TypeInfo_var->static_fields)->___local_4 = L_4;
 			goto IL_0053;
 		} // end try (depth: 2)
@@ -7614,7 +7614,7 @@ IL_0024:
 CATCH_0047:
 		{ // begin catch(System.Object)
 			TimeZoneNotFoundException_t1514 * L_5 = (TimeZoneNotFoundException_t1514 *)il2cpp_codegen_object_new (TimeZoneNotFoundException_t1514_il2cpp_TypeInfo_var);
-			TimeZoneNotFoundException__ctor_m11802(L_5, /*hidden argument*/NULL);
+			TimeZoneNotFoundException__ctor_m11803(L_5, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_5);
 			goto IL_0053;
 		} // end catch (depth: 2)
@@ -7633,7 +7633,7 @@ IL_0058:
 	}
 }
 // System.String System.TimeZoneInfo::get_StandardName()
-extern "C" String_t* TimeZoneInfo_get_StandardName_m7654 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
+extern "C" String_t* TimeZoneInfo_get_StandardName_m7655 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___standardDisplayName_5);
@@ -7642,7 +7642,7 @@ extern "C" String_t* TimeZoneInfo_get_StandardName_m7654 (TimeZoneInfo_t1513 * _
 }
 // System.String System.TimeZoneInfo::get_TimeZoneDirectory()
 extern TypeInfo* TimeZoneInfo_t1513_il2cpp_TypeInfo_var;
-extern "C" String_t* TimeZoneInfo_get_TimeZoneDirectory_m11781 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" String_t* TimeZoneInfo_get_TimeZoneDirectory_m11782 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7672,7 +7672,7 @@ IL_0014:
 }
 // System.TimeZoneInfo System.TimeZoneInfo::CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String)
 extern TypeInfo* TimeZoneInfo_t1513_il2cpp_TypeInfo_var;
-extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_CreateCustomTimeZone_m11782 (Object_t * __this /* static, unused */, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, const MethodInfo* method)
+extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_CreateCustomTimeZone_m11783 (Object_t * __this /* static, unused */, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7686,13 +7686,13 @@ extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_CreateCustomTimeZone_m11782 (Object
 		String_t* L_2 = ___displayName;
 		String_t* L_3 = ___standardDisplayName;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-		TimeZoneInfo_t1513 * L_4 = TimeZoneInfo_CreateCustomTimeZone_m11784(NULL /*static, unused*/, L_0, L_1, L_2, L_3, (String_t*)NULL, (AdjustmentRuleU5BU5D_t3357*)(AdjustmentRuleU5BU5D_t3357*)NULL, 1, /*hidden argument*/NULL);
+		TimeZoneInfo_t1513 * L_4 = TimeZoneInfo_CreateCustomTimeZone_m11785(NULL /*static, unused*/, L_0, L_1, L_2, L_3, (String_t*)NULL, (AdjustmentRuleU5BU5D_t3357*)(AdjustmentRuleU5BU5D_t3357*)NULL, 1, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
 // System.TimeZoneInfo System.TimeZoneInfo::CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String,System.String,System.TimeZoneInfo/AdjustmentRule[])
 extern TypeInfo* TimeZoneInfo_t1513_il2cpp_TypeInfo_var;
-extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_CreateCustomTimeZone_m11783 (Object_t * __this /* static, unused */, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, String_t* ___daylightDisplayName, AdjustmentRuleU5BU5D_t3357* ___adjustmentRules, const MethodInfo* method)
+extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_CreateCustomTimeZone_m11784 (Object_t * __this /* static, unused */, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, String_t* ___daylightDisplayName, AdjustmentRuleU5BU5D_t3357* ___adjustmentRules, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7708,13 +7708,13 @@ extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_CreateCustomTimeZone_m11783 (Object
 		String_t* L_4 = ___daylightDisplayName;
 		AdjustmentRuleU5BU5D_t3357* L_5 = ___adjustmentRules;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-		TimeZoneInfo_t1513 * L_6 = TimeZoneInfo_CreateCustomTimeZone_m11784(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, 0, /*hidden argument*/NULL);
+		TimeZoneInfo_t1513 * L_6 = TimeZoneInfo_CreateCustomTimeZone_m11785(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, 0, /*hidden argument*/NULL);
 		return L_6;
 	}
 }
 // System.TimeZoneInfo System.TimeZoneInfo::CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String,System.String,System.TimeZoneInfo/AdjustmentRule[],System.Boolean)
 extern TypeInfo* TimeZoneInfo_t1513_il2cpp_TypeInfo_var;
-extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_CreateCustomTimeZone_m11784 (Object_t * __this /* static, unused */, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, String_t* ___daylightDisplayName, AdjustmentRuleU5BU5D_t3357* ___adjustmentRules, bool ___disableDaylightSavingTime, const MethodInfo* method)
+extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_CreateCustomTimeZone_m11785 (Object_t * __this /* static, unused */, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, String_t* ___daylightDisplayName, AdjustmentRuleU5BU5D_t3357* ___adjustmentRules, bool ___disableDaylightSavingTime, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7731,13 +7731,13 @@ extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_CreateCustomTimeZone_m11784 (Object
 		AdjustmentRuleU5BU5D_t3357* L_5 = ___adjustmentRules;
 		bool L_6 = ___disableDaylightSavingTime;
 		TimeZoneInfo_t1513 * L_7 = (TimeZoneInfo_t1513 *)il2cpp_codegen_object_new (TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-		TimeZoneInfo__ctor_m11776(L_7, L_0, L_1, L_2, L_3, L_4, L_5, L_6, /*hidden argument*/NULL);
+		TimeZoneInfo__ctor_m11777(L_7, L_0, L_1, L_2, L_3, L_4, L_5, L_6, /*hidden argument*/NULL);
 		return L_7;
 	}
 }
 // System.Boolean System.TimeZoneInfo::Equals(System.TimeZoneInfo)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" bool TimeZoneInfo_Equals_m11785 (TimeZoneInfo_t1513 * __this, TimeZoneInfo_t1513 * ___other, const MethodInfo* method)
+extern "C" bool TimeZoneInfo_Equals_m11786 (TimeZoneInfo_t1513 * __this, TimeZoneInfo_t1513 * ___other, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7761,8 +7761,8 @@ IL_0008:
 	{
 		TimeZoneInfo_t1513 * L_1 = ___other;
 		NullCheck(L_1);
-		String_t* L_2 = TimeZoneInfo_get_Id_m11780(L_1, /*hidden argument*/NULL);
-		String_t* L_3 = TimeZoneInfo_get_Id_m11780(__this, /*hidden argument*/NULL);
+		String_t* L_2 = TimeZoneInfo_get_Id_m11781(L_1, /*hidden argument*/NULL);
+		String_t* L_3 = TimeZoneInfo_get_Id_m11781(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_4 = String_op_Equality_m456(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		if (!L_4)
@@ -7772,7 +7772,7 @@ IL_0008:
 	}
 	{
 		TimeZoneInfo_t1513 * L_5 = ___other;
-		bool L_6 = TimeZoneInfo_HasSameRules_m11790(__this, L_5, /*hidden argument*/NULL);
+		bool L_6 = TimeZoneInfo_HasSameRules_m11791(__this, L_5, /*hidden argument*/NULL);
 		G_B5_0 = ((int32_t)(L_6));
 		goto IL_0028;
 	}
@@ -7794,7 +7794,7 @@ extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
 extern TypeInfo* TimeZoneInfo_t1513_il2cpp_TypeInfo_var;
 extern TypeInfo* InvalidTimeZoneException_t3353_il2cpp_TypeInfo_var;
 extern TypeInfo* Exception_t57_il2cpp_TypeInfo_var;
-extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_FindSystemTimeZoneByFileName_m11786 (Object_t * __this /* static, unused */, String_t* ___id, String_t* ___filepath, const MethodInfo* method)
+extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_FindSystemTimeZoneByFileName_m11787 (Object_t * __this /* static, unused */, String_t* ___id, String_t* ___filepath, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7820,7 +7820,7 @@ extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_FindSystemTimeZoneByFileName_m11786
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		String_t* L_0 = ___filepath;
-		bool L_1 = File_Exists_m4297(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_1 = File_Exists_m4298(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_0011;
@@ -7828,7 +7828,7 @@ extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_FindSystemTimeZoneByFileName_m11786
 	}
 	{
 		TimeZoneNotFoundException_t1514 * L_2 = (TimeZoneNotFoundException_t1514 *)il2cpp_codegen_object_new (TimeZoneNotFoundException_t1514_il2cpp_TypeInfo_var);
-		TimeZoneNotFoundException__ctor_m11802(L_2, /*hidden argument*/NULL);
+		TimeZoneNotFoundException__ctor_m11803(L_2, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -7889,7 +7889,7 @@ IL_0043:
 		ByteU5BU5D_t66* L_10 = V_0;
 		int32_t L_11 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-		bool L_12 = TimeZoneInfo_ValidTZFile_m11793(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		bool L_12 = TimeZoneInfo_ValidTZFile_m11794(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
 		if (L_12)
 		{
 			goto IL_005a;
@@ -7897,7 +7897,7 @@ IL_0043:
 	}
 	{
 		InvalidTimeZoneException_t3353 * L_13 = (InvalidTimeZoneException_t3353 *)il2cpp_codegen_object_new (InvalidTimeZoneException_t3353_il2cpp_TypeInfo_var);
-		InvalidTimeZoneException__ctor_m11753(L_13, (String_t*) &_stringLiteral2538, /*hidden argument*/NULL);
+		InvalidTimeZoneException__ctor_m11754(L_13, (String_t*) &_stringLiteral2538, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_13);
 	}
 
@@ -7909,7 +7909,7 @@ IL_005a:
 			ByteU5BU5D_t66* L_15 = V_0;
 			int32_t L_16 = V_1;
 			IL2CPP_RUNTIME_CLASS_INIT(TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-			TimeZoneInfo_t1513 * L_17 = TimeZoneInfo_ParseTZBuffer_m11796(NULL /*static, unused*/, L_14, L_15, L_16, /*hidden argument*/NULL);
+			TimeZoneInfo_t1513 * L_17 = TimeZoneInfo_ParseTZBuffer_m11797(NULL /*static, unused*/, L_14, L_15, L_16, /*hidden argument*/NULL);
 			V_4 = L_17;
 			goto IL_0080;
 		}
@@ -7934,7 +7934,7 @@ CATCH_006e:
 		NullCheck(L_18);
 		String_t* L_19 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_18);
 		InvalidTimeZoneException_t3353 * L_20 = (InvalidTimeZoneException_t3353 *)il2cpp_codegen_object_new (InvalidTimeZoneException_t3353_il2cpp_TypeInfo_var);
-		InvalidTimeZoneException__ctor_m11753(L_20, L_19, /*hidden argument*/NULL);
+		InvalidTimeZoneException__ctor_m11754(L_20, L_19, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_20);
 		goto IL_0080;
 	} // end catch (depth: 1)
@@ -7947,7 +7947,7 @@ IL_0080:
 }
 // System.TimeZoneInfo/AdjustmentRule[] System.TimeZoneInfo::GetAdjustmentRules()
 extern TypeInfo* AdjustmentRuleU5BU5D_t3357_il2cpp_TypeInfo_var;
-extern "C" AdjustmentRuleU5BU5D_t3357* TimeZoneInfo_GetAdjustmentRules_m11787 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
+extern "C" AdjustmentRuleU5BU5D_t3357* TimeZoneInfo_GetAdjustmentRules_m11788 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7975,18 +7975,18 @@ IL_0012:
 	}
 }
 // System.Int32 System.TimeZoneInfo::GetHashCode()
-extern "C" int32_t TimeZoneInfo_GetHashCode_m11788 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
+extern "C" int32_t TimeZoneInfo_GetHashCode_m11789 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	AdjustmentRule_t3354 * V_1 = {0};
 	AdjustmentRuleU5BU5D_t3357* V_2 = {0};
 	int32_t V_3 = 0;
 	{
-		String_t* L_0 = TimeZoneInfo_get_Id_m11780(__this, /*hidden argument*/NULL);
+		String_t* L_0 = TimeZoneInfo_get_Id_m11781(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.String::GetHashCode() */, L_0);
 		V_0 = L_1;
-		AdjustmentRuleU5BU5D_t3357* L_2 = TimeZoneInfo_GetAdjustmentRules_m11787(__this, /*hidden argument*/NULL);
+		AdjustmentRuleU5BU5D_t3357* L_2 = TimeZoneInfo_GetAdjustmentRules_m11788(__this, /*hidden argument*/NULL);
 		V_2 = L_2;
 		V_3 = 0;
 		goto IL_002b;
@@ -8026,7 +8026,7 @@ IL_002b:
 }
 // System.Void System.TimeZoneInfo::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern TypeInfo* NotImplementedException_t1440_il2cpp_TypeInfo_var;
-extern "C" void TimeZoneInfo_GetObjectData_m11789 (TimeZoneInfo_t1513 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method)
+extern "C" void TimeZoneInfo_GetObjectData_m11790 (TimeZoneInfo_t1513 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8036,14 +8036,14 @@ extern "C" void TimeZoneInfo_GetObjectData_m11789 (TimeZoneInfo_t1513 * __this, 
 	}
 	{
 		NotImplementedException_t1440 * L_0 = (NotImplementedException_t1440 *)il2cpp_codegen_object_new (NotImplementedException_t1440_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m7377(L_0, /*hidden argument*/NULL);
+		NotImplementedException__ctor_m7378(L_0, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.Boolean System.TimeZoneInfo::HasSameRules(System.TimeZoneInfo)
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
 extern TypeInfo* TimeSpan_t334_il2cpp_TypeInfo_var;
-extern "C" bool TimeZoneInfo_HasSameRules_m11790 (TimeZoneInfo_t1513 * __this, TimeZoneInfo_t1513 * ___other, const MethodInfo* method)
+extern "C" bool TimeZoneInfo_HasSameRules_m11791 (TimeZoneInfo_t1513 * __this, TimeZoneInfo_t1513 * ___other, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8095,12 +8095,12 @@ IL_002a:
 
 IL_0037:
 	{
-		TimeSpan_t334  L_6 = TimeZoneInfo_get_BaseUtcOffset_m11778(__this, /*hidden argument*/NULL);
+		TimeSpan_t334  L_6 = TimeZoneInfo_get_BaseUtcOffset_m11779(__this, /*hidden argument*/NULL);
 		TimeZoneInfo_t1513 * L_7 = ___other;
 		NullCheck(L_7);
-		TimeSpan_t334  L_8 = TimeZoneInfo_get_BaseUtcOffset_m11778(L_7, /*hidden argument*/NULL);
+		TimeSpan_t334  L_8 = TimeZoneInfo_get_BaseUtcOffset_m11779(L_7, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t334_il2cpp_TypeInfo_var);
-		bool L_9 = TimeSpan_op_Inequality_m11846(NULL /*static, unused*/, L_6, L_8, /*hidden argument*/NULL);
+		bool L_9 = TimeSpan_op_Inequality_m11847(NULL /*static, unused*/, L_6, L_8, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_004f;
@@ -8180,7 +8180,7 @@ IL_008d:
 }
 // System.Void System.TimeZoneInfo::OnDeserialization(System.Object)
 extern TypeInfo* NotImplementedException_t1440_il2cpp_TypeInfo_var;
-extern "C" void TimeZoneInfo_OnDeserialization_m11791 (TimeZoneInfo_t1513 * __this, Object_t * ___sender, const MethodInfo* method)
+extern "C" void TimeZoneInfo_OnDeserialization_m11792 (TimeZoneInfo_t1513 * __this, Object_t * ___sender, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8190,22 +8190,22 @@ extern "C" void TimeZoneInfo_OnDeserialization_m11791 (TimeZoneInfo_t1513 * __th
 	}
 	{
 		NotImplementedException_t1440 * L_0 = (NotImplementedException_t1440 *)il2cpp_codegen_object_new (NotImplementedException_t1440_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m7377(L_0, /*hidden argument*/NULL);
+		NotImplementedException__ctor_m7378(L_0, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.String System.TimeZoneInfo::ToString()
-extern "C" String_t* TimeZoneInfo_ToString_m11792 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
+extern "C" String_t* TimeZoneInfo_ToString_m11793 (TimeZoneInfo_t1513 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = TimeZoneInfo_get_DisplayName_m11779(__this, /*hidden argument*/NULL);
+		String_t* L_0 = TimeZoneInfo_get_DisplayName_m11780(__this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.Boolean System.TimeZoneInfo::ValidTZFile(System.Byte[],System.Int32)
 extern TypeInfo* StringBuilder_t261_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" bool TimeZoneInfo_ValidTZFile_m11793 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___length, const MethodInfo* method)
+extern "C" bool TimeZoneInfo_ValidTZFile_m11794 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___length, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8279,7 +8279,7 @@ IL_0047:
 	}
 }
 // System.Int32 System.TimeZoneInfo::SwapInt32(System.Int32)
-extern "C" int32_t TimeZoneInfo_SwapInt32_m11794 (Object_t * __this /* static, unused */, int32_t ___i, const MethodInfo* method)
+extern "C" int32_t TimeZoneInfo_SwapInt32_m11795 (Object_t * __this /* static, unused */, int32_t ___i, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___i;
@@ -8292,7 +8292,7 @@ extern "C" int32_t TimeZoneInfo_SwapInt32_m11794 (Object_t * __this /* static, u
 // System.Int32 System.TimeZoneInfo::ReadBigEndianInt32(System.Byte[],System.Int32)
 extern TypeInfo* BitConverter_t3378_il2cpp_TypeInfo_var;
 extern TypeInfo* TimeZoneInfo_t1513_il2cpp_TypeInfo_var;
-extern "C" int32_t TimeZoneInfo_ReadBigEndianInt32_m11795 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___start, const MethodInfo* method)
+extern "C" int32_t TimeZoneInfo_ReadBigEndianInt32_m11796 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___start, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8306,7 +8306,7 @@ extern "C" int32_t TimeZoneInfo_ReadBigEndianInt32_m11795 (Object_t * __this /* 
 		ByteU5BU5D_t66* L_0 = ___buffer;
 		int32_t L_1 = ___start;
 		IL2CPP_RUNTIME_CLASS_INIT(BitConverter_t3378_il2cpp_TypeInfo_var);
-		int32_t L_2 = BitConverter_ToInt32_m11847(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = BitConverter_ToInt32_m11848(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		bool L_3 = ((BitConverter_t3378_StaticFields*)BitConverter_t3378_il2cpp_TypeInfo_var->static_fields)->___IsLittleEndian_1;
 		if (L_3)
@@ -8323,7 +8323,7 @@ IL_0014:
 	{
 		int32_t L_5 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-		int32_t L_6 = TimeZoneInfo_SwapInt32_m11794(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		int32_t L_6 = TimeZoneInfo_SwapInt32_m11795(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		return L_6;
 	}
 }
@@ -8334,11 +8334,11 @@ extern TypeInfo* DateTime_t287_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t3363_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* TimeSpan_t334_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m11849_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m11850_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m11851_MethodInfo_var;
-extern const MethodInfo* List_1_ToArray_m11856_MethodInfo_var;
-extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_ParseTZBuffer_m11796 (Object_t * __this /* static, unused */, String_t* ___id, ByteU5BU5D_t66* ___buffer, int32_t ___length, const MethodInfo* method)
+extern const MethodInfo* List_1__ctor_m11850_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m11851_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m11852_MethodInfo_var;
+extern const MethodInfo* List_1_ToArray_m11857_MethodInfo_var;
+extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_ParseTZBuffer_m11797 (Object_t * __this /* static, unused */, String_t* ___id, ByteU5BU5D_t66* ___buffer, int32_t ___length, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8349,10 +8349,10 @@ extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_ParseTZBuffer_m11796 (Object_t * __
 		List_1_t3363_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6008);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		TimeSpan_t334_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2467);
-		List_1__ctor_m11849_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485181);
-		KeyValuePair_2_get_Key_m11850_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485182);
-		KeyValuePair_2_get_Value_m11851_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485183);
-		List_1_ToArray_m11856_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485184);
+		List_1__ctor_m11850_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485182);
+		KeyValuePair_2_get_Key_m11851_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485183);
+		KeyValuePair_2_get_Value_m11852_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485184);
+		List_1_ToArray_m11857_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485185);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -8385,22 +8385,22 @@ extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_ParseTZBuffer_m11796 (Object_t * __
 	{
 		ByteU5BU5D_t66* L_0 = ___buffer;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-		int32_t L_1 = TimeZoneInfo_ReadBigEndianInt32_m11795(NULL /*static, unused*/, L_0, ((int32_t)20), /*hidden argument*/NULL);
+		int32_t L_1 = TimeZoneInfo_ReadBigEndianInt32_m11796(NULL /*static, unused*/, L_0, ((int32_t)20), /*hidden argument*/NULL);
 		V_0 = L_1;
 		ByteU5BU5D_t66* L_2 = ___buffer;
-		int32_t L_3 = TimeZoneInfo_ReadBigEndianInt32_m11795(NULL /*static, unused*/, L_2, ((int32_t)24), /*hidden argument*/NULL);
+		int32_t L_3 = TimeZoneInfo_ReadBigEndianInt32_m11796(NULL /*static, unused*/, L_2, ((int32_t)24), /*hidden argument*/NULL);
 		V_1 = L_3;
 		ByteU5BU5D_t66* L_4 = ___buffer;
-		int32_t L_5 = TimeZoneInfo_ReadBigEndianInt32_m11795(NULL /*static, unused*/, L_4, ((int32_t)28), /*hidden argument*/NULL);
+		int32_t L_5 = TimeZoneInfo_ReadBigEndianInt32_m11796(NULL /*static, unused*/, L_4, ((int32_t)28), /*hidden argument*/NULL);
 		V_2 = L_5;
 		ByteU5BU5D_t66* L_6 = ___buffer;
-		int32_t L_7 = TimeZoneInfo_ReadBigEndianInt32_m11795(NULL /*static, unused*/, L_6, ((int32_t)32), /*hidden argument*/NULL);
+		int32_t L_7 = TimeZoneInfo_ReadBigEndianInt32_m11796(NULL /*static, unused*/, L_6, ((int32_t)32), /*hidden argument*/NULL);
 		V_3 = L_7;
 		ByteU5BU5D_t66* L_8 = ___buffer;
-		int32_t L_9 = TimeZoneInfo_ReadBigEndianInt32_m11795(NULL /*static, unused*/, L_8, ((int32_t)36), /*hidden argument*/NULL);
+		int32_t L_9 = TimeZoneInfo_ReadBigEndianInt32_m11796(NULL /*static, unused*/, L_8, ((int32_t)36), /*hidden argument*/NULL);
 		V_4 = L_9;
 		ByteU5BU5D_t66* L_10 = ___buffer;
-		int32_t L_11 = TimeZoneInfo_ReadBigEndianInt32_m11795(NULL /*static, unused*/, L_10, ((int32_t)40), /*hidden argument*/NULL);
+		int32_t L_11 = TimeZoneInfo_ReadBigEndianInt32_m11796(NULL /*static, unused*/, L_10, ((int32_t)40), /*hidden argument*/NULL);
 		V_5 = L_11;
 		int32_t L_12 = ___length;
 		int32_t L_13 = V_3;
@@ -8416,7 +8416,7 @@ extern "C" TimeZoneInfo_t1513 * TimeZoneInfo_ParseTZBuffer_m11796 (Object_t * __
 	}
 	{
 		InvalidTimeZoneException_t3353 * L_19 = (InvalidTimeZoneException_t3353 *)il2cpp_codegen_object_new (InvalidTimeZoneException_t3353_il2cpp_TypeInfo_var);
-		InvalidTimeZoneException__ctor_m11752(L_19, /*hidden argument*/NULL);
+		InvalidTimeZoneException__ctor_m11753(L_19, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_19);
 	}
 
@@ -8428,19 +8428,19 @@ IL_005a:
 		int32_t L_23 = V_4;
 		int32_t L_24 = V_5;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-		Dictionary_2_t103 * L_25 = TimeZoneInfo_ParseAbbreviations_m11798(NULL /*static, unused*/, L_20, ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)44)+(int32_t)((int32_t)((int32_t)4*(int32_t)L_21))))+(int32_t)L_22))+(int32_t)((int32_t)((int32_t)6*(int32_t)L_23)))), L_24, /*hidden argument*/NULL);
+		Dictionary_2_t103 * L_25 = TimeZoneInfo_ParseAbbreviations_m11799(NULL /*static, unused*/, L_20, ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)44)+(int32_t)((int32_t)((int32_t)4*(int32_t)L_21))))+(int32_t)L_22))+(int32_t)((int32_t)((int32_t)6*(int32_t)L_23)))), L_24, /*hidden argument*/NULL);
 		V_6 = L_25;
 		ByteU5BU5D_t66* L_26 = ___buffer;
 		int32_t L_27 = V_3;
 		int32_t L_28 = V_3;
 		int32_t L_29 = V_4;
 		Dictionary_2_t103 * L_30 = V_6;
-		Dictionary_2_t3364 * L_31 = TimeZoneInfo_ParseTimesTypes_m11799(NULL /*static, unused*/, L_26, ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)44)+(int32_t)((int32_t)((int32_t)4*(int32_t)L_27))))+(int32_t)L_28)), L_29, L_30, /*hidden argument*/NULL);
+		Dictionary_2_t3364 * L_31 = TimeZoneInfo_ParseTimesTypes_m11800(NULL /*static, unused*/, L_26, ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)44)+(int32_t)((int32_t)((int32_t)4*(int32_t)L_27))))+(int32_t)L_28)), L_29, L_30, /*hidden argument*/NULL);
 		V_7 = L_31;
 		ByteU5BU5D_t66* L_32 = ___buffer;
 		int32_t L_33 = V_3;
 		Dictionary_2_t3364 * L_34 = V_7;
-		List_1_t3365 * L_35 = TimeZoneInfo_ParseTransitions_m11800(NULL /*static, unused*/, L_32, ((int32_t)44), L_33, L_34, /*hidden argument*/NULL);
+		List_1_t3365 * L_35 = TimeZoneInfo_ParseTransitions_m11801(NULL /*static, unused*/, L_32, ((int32_t)44), L_33, L_34, /*hidden argument*/NULL);
 		V_8 = L_35;
 		Dictionary_2_t3364 * L_36 = V_7;
 		NullCheck(L_36);
@@ -8452,7 +8452,7 @@ IL_005a:
 	}
 	{
 		InvalidTimeZoneException_t3353 * L_38 = (InvalidTimeZoneException_t3353 *)il2cpp_codegen_object_new (InvalidTimeZoneException_t3353_il2cpp_TypeInfo_var);
-		InvalidTimeZoneException__ctor_m11752(L_38, /*hidden argument*/NULL);
+		InvalidTimeZoneException__ctor_m11753(L_38, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_38);
 	}
 
@@ -8479,14 +8479,14 @@ IL_00a4:
 	}
 	{
 		InvalidTimeZoneException_t3353 * L_44 = (InvalidTimeZoneException_t3353 *)il2cpp_codegen_object_new (InvalidTimeZoneException_t3353_il2cpp_TypeInfo_var);
-		InvalidTimeZoneException__ctor_m11752(L_44, /*hidden argument*/NULL);
+		InvalidTimeZoneException__ctor_m11753(L_44, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_44);
 	}
 
 IL_00cd:
 	{
-		TimeSpan__ctor_m11848((&V_9), (((int64_t)0)), /*hidden argument*/NULL);
-		TimeSpan__ctor_m11848((&V_10), (((int64_t)0)), /*hidden argument*/NULL);
+		TimeSpan__ctor_m11849((&V_9), (((int64_t)0)), /*hidden argument*/NULL);
+		TimeSpan__ctor_m11849((&V_10), (((int64_t)0)), /*hidden argument*/NULL);
 		V_11 = (String_t*)NULL;
 		V_12 = (String_t*)NULL;
 		V_13 = 0;
@@ -8494,7 +8494,7 @@ IL_00cd:
 		DateTime_t287  L_45 = ((DateTime_t287_StaticFields*)DateTime_t287_il2cpp_TypeInfo_var->static_fields)->___MinValue_13;
 		V_14 = L_45;
 		List_1_t3363 * L_46 = (List_1_t3363 *)il2cpp_codegen_object_new (List_1_t3363_il2cpp_TypeInfo_var);
-		List_1__ctor_m11849(L_46, /*hidden argument*/List_1__ctor_m11849_MethodInfo_var);
+		List_1__ctor_m11850(L_46, /*hidden argument*/List_1__ctor_m11850_MethodInfo_var);
 		V_15 = L_46;
 		V_16 = 0;
 		goto IL_031d;
@@ -8507,9 +8507,9 @@ IL_00fe:
 		NullCheck(L_47);
 		KeyValuePair_2_t3379  L_49 = (KeyValuePair_2_t3379 )VirtFuncInvoker1< KeyValuePair_2_t3379 , int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::get_Item(System.Int32) */, L_47, L_48);
 		V_17 = L_49;
-		DateTime_t287  L_50 = KeyValuePair_2_get_Key_m11850((&V_17), /*hidden argument*/KeyValuePair_2_get_Key_m11850_MethodInfo_var);
+		DateTime_t287  L_50 = KeyValuePair_2_get_Key_m11851((&V_17), /*hidden argument*/KeyValuePair_2_get_Key_m11851_MethodInfo_var);
 		V_18 = L_50;
-		TimeType_t3356  L_51 = KeyValuePair_2_get_Value_m11851((&V_17), /*hidden argument*/KeyValuePair_2_get_Value_m11851_MethodInfo_var);
+		TimeType_t3356  L_51 = KeyValuePair_2_get_Value_m11852((&V_17), /*hidden argument*/KeyValuePair_2_get_Value_m11852_MethodInfo_var);
 		V_19 = L_51;
 		bool L_52 = ((&V_19)->___IsDst_1);
 		if (L_52)
@@ -8542,9 +8542,9 @@ IL_014e:
 		V_11 = L_58;
 		V_12 = (String_t*)NULL;
 		int32_t L_59 = ((&V_19)->___Offset_0);
-		TimeSpan__ctor_m11833((&V_9), 0, 0, L_59, /*hidden argument*/NULL);
+		TimeSpan__ctor_m11834((&V_9), 0, 0, L_59, /*hidden argument*/NULL);
 		List_1_t3363 * L_60 = (List_1_t3363 *)il2cpp_codegen_object_new (List_1_t3363_il2cpp_TypeInfo_var);
-		List_1__ctor_m11849(L_60, /*hidden argument*/List_1__ctor_m11849_MethodInfo_var);
+		List_1__ctor_m11850(L_60, /*hidden argument*/List_1__ctor_m11850_MethodInfo_var);
 		V_15 = L_60;
 		V_13 = 0;
 	}
@@ -8561,27 +8561,27 @@ IL_0174:
 		DateTime_t287  L_62 = V_14;
 		TimeSpan_t334  L_63 = V_9;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		DateTime_t287  L_64 = DateTime_op_Addition_m7314(NULL /*static, unused*/, L_62, L_63, /*hidden argument*/NULL);
+		DateTime_t287  L_64 = DateTime_op_Addition_m7315(NULL /*static, unused*/, L_62, L_63, /*hidden argument*/NULL);
 		V_14 = L_64;
 		DateTime_t287  L_65 = V_18;
 		TimeSpan_t334  L_66 = V_9;
-		DateTime_t287  L_67 = DateTime_op_Addition_m7314(NULL /*static, unused*/, L_65, L_66, /*hidden argument*/NULL);
+		DateTime_t287  L_67 = DateTime_op_Addition_m7315(NULL /*static, unused*/, L_65, L_66, /*hidden argument*/NULL);
 		TimeSpan_t334  L_68 = V_10;
-		DateTime_t287  L_69 = DateTime_op_Addition_m7314(NULL /*static, unused*/, L_67, L_68, /*hidden argument*/NULL);
+		DateTime_t287  L_69 = DateTime_op_Addition_m7315(NULL /*static, unused*/, L_67, L_68, /*hidden argument*/NULL);
 		V_20 = L_69;
-		DateTime_t287  L_70 = DateTime_get_Date_m11852((&V_20), /*hidden argument*/NULL);
-		int32_t L_71 = DateTime_get_Year_m11841((&V_20), /*hidden argument*/NULL);
+		DateTime_t287  L_70 = DateTime_get_Date_m11853((&V_20), /*hidden argument*/NULL);
+		int32_t L_71 = DateTime_get_Year_m11842((&V_20), /*hidden argument*/NULL);
 		DateTime_t287  L_72 = {0};
-		DateTime__ctor_m4329(&L_72, L_71, 1, 1, /*hidden argument*/NULL);
-		bool L_73 = DateTime_op_Equality_m11837(NULL /*static, unused*/, L_70, L_72, /*hidden argument*/NULL);
+		DateTime__ctor_m4330(&L_72, L_71, 1, 1, /*hidden argument*/NULL);
+		bool L_73 = DateTime_op_Equality_m11838(NULL /*static, unused*/, L_70, L_72, /*hidden argument*/NULL);
 		if (!L_73)
 		{
 			goto IL_01dc;
 		}
 	}
 	{
-		int32_t L_74 = DateTime_get_Year_m11841((&V_20), /*hidden argument*/NULL);
-		int32_t L_75 = DateTime_get_Year_m11841((&V_14), /*hidden argument*/NULL);
+		int32_t L_74 = DateTime_get_Year_m11842((&V_20), /*hidden argument*/NULL);
+		int32_t L_75 = DateTime_get_Year_m11842((&V_14), /*hidden argument*/NULL);
 		if ((((int32_t)L_74) <= ((int32_t)L_75)))
 		{
 			goto IL_01dc;
@@ -8590,74 +8590,74 @@ IL_0174:
 	{
 		DateTime_t287  L_76 = V_20;
 		TimeSpan_t334  L_77 = {0};
-		TimeSpan__ctor_m11833(&L_77, ((int32_t)24), 0, 0, /*hidden argument*/NULL);
+		TimeSpan__ctor_m11834(&L_77, ((int32_t)24), 0, 0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		DateTime_t287  L_78 = DateTime_op_Subtraction_m11853(NULL /*static, unused*/, L_76, L_77, /*hidden argument*/NULL);
+		DateTime_t287  L_78 = DateTime_op_Subtraction_m11854(NULL /*static, unused*/, L_76, L_77, /*hidden argument*/NULL);
 		V_20 = L_78;
 	}
 
 IL_01dc:
 	{
-		int32_t L_79 = DateTime_get_Month_m11842((&V_14), /*hidden argument*/NULL);
+		int32_t L_79 = DateTime_get_Month_m11843((&V_14), /*hidden argument*/NULL);
 		if ((((int32_t)L_79) >= ((int32_t)7)))
 		{
 			goto IL_01fe;
 		}
 	}
 	{
-		int32_t L_80 = DateTime_get_Year_m11841((&V_14), /*hidden argument*/NULL);
-		DateTime__ctor_m4329((&V_21), L_80, 1, 1, /*hidden argument*/NULL);
+		int32_t L_80 = DateTime_get_Year_m11842((&V_14), /*hidden argument*/NULL);
+		DateTime__ctor_m4330((&V_21), L_80, 1, 1, /*hidden argument*/NULL);
 		goto IL_020e;
 	}
 
 IL_01fe:
 	{
-		int32_t L_81 = DateTime_get_Year_m11841((&V_14), /*hidden argument*/NULL);
-		DateTime__ctor_m4329((&V_21), L_81, 7, 1, /*hidden argument*/NULL);
+		int32_t L_81 = DateTime_get_Year_m11842((&V_14), /*hidden argument*/NULL);
+		DateTime__ctor_m4330((&V_21), L_81, 7, 1, /*hidden argument*/NULL);
 	}
 
 IL_020e:
 	{
-		int32_t L_82 = DateTime_get_Month_m11842((&V_20), /*hidden argument*/NULL);
+		int32_t L_82 = DateTime_get_Month_m11843((&V_20), /*hidden argument*/NULL);
 		if ((((int32_t)L_82) < ((int32_t)7)))
 		{
 			goto IL_0232;
 		}
 	}
 	{
-		int32_t L_83 = DateTime_get_Year_m11841((&V_20), /*hidden argument*/NULL);
-		DateTime__ctor_m4329((&V_22), L_83, ((int32_t)12), ((int32_t)31), /*hidden argument*/NULL);
+		int32_t L_83 = DateTime_get_Year_m11842((&V_20), /*hidden argument*/NULL);
+		DateTime__ctor_m4330((&V_22), L_83, ((int32_t)12), ((int32_t)31), /*hidden argument*/NULL);
 		goto IL_0243;
 	}
 
 IL_0232:
 	{
-		int32_t L_84 = DateTime_get_Year_m11841((&V_20), /*hidden argument*/NULL);
-		DateTime__ctor_m4329((&V_22), L_84, 6, ((int32_t)30), /*hidden argument*/NULL);
+		int32_t L_84 = DateTime_get_Year_m11842((&V_20), /*hidden argument*/NULL);
+		DateTime__ctor_m4330((&V_22), L_84, 6, ((int32_t)30), /*hidden argument*/NULL);
 	}
 
 IL_0243:
 	{
 		DateTime_t287  L_85 = {0};
-		DateTime__ctor_m4329(&L_85, 1, 1, 1, /*hidden argument*/NULL);
-		TimeSpan_t334  L_86 = DateTime_get_TimeOfDay_m11854((&V_14), /*hidden argument*/NULL);
+		DateTime__ctor_m4330(&L_85, 1, 1, 1, /*hidden argument*/NULL);
+		TimeSpan_t334  L_86 = DateTime_get_TimeOfDay_m11855((&V_14), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		DateTime_t287  L_87 = DateTime_op_Addition_m7314(NULL /*static, unused*/, L_85, L_86, /*hidden argument*/NULL);
-		int32_t L_88 = DateTime_get_Month_m11842((&V_14), /*hidden argument*/NULL);
-		int32_t L_89 = DateTime_get_Day_m11843((&V_14), /*hidden argument*/NULL);
-		TransitionTime_t3355  L_90 = TransitionTime_CreateFixedDateRule_m11766(NULL /*static, unused*/, L_87, L_88, L_89, /*hidden argument*/NULL);
+		DateTime_t287  L_87 = DateTime_op_Addition_m7315(NULL /*static, unused*/, L_85, L_86, /*hidden argument*/NULL);
+		int32_t L_88 = DateTime_get_Month_m11843((&V_14), /*hidden argument*/NULL);
+		int32_t L_89 = DateTime_get_Day_m11844((&V_14), /*hidden argument*/NULL);
+		TransitionTime_t3355  L_90 = TransitionTime_CreateFixedDateRule_m11767(NULL /*static, unused*/, L_87, L_88, L_89, /*hidden argument*/NULL);
 		V_23 = L_90;
 		DateTime_t287  L_91 = {0};
-		DateTime__ctor_m4329(&L_91, 1, 1, 1, /*hidden argument*/NULL);
-		TimeSpan_t334  L_92 = DateTime_get_TimeOfDay_m11854((&V_20), /*hidden argument*/NULL);
-		DateTime_t287  L_93 = DateTime_op_Addition_m7314(NULL /*static, unused*/, L_91, L_92, /*hidden argument*/NULL);
-		int32_t L_94 = DateTime_get_Month_m11842((&V_20), /*hidden argument*/NULL);
-		int32_t L_95 = DateTime_get_Day_m11843((&V_20), /*hidden argument*/NULL);
-		TransitionTime_t3355  L_96 = TransitionTime_CreateFixedDateRule_m11766(NULL /*static, unused*/, L_93, L_94, L_95, /*hidden argument*/NULL);
+		DateTime__ctor_m4330(&L_91, 1, 1, 1, /*hidden argument*/NULL);
+		TimeSpan_t334  L_92 = DateTime_get_TimeOfDay_m11855((&V_20), /*hidden argument*/NULL);
+		DateTime_t287  L_93 = DateTime_op_Addition_m7315(NULL /*static, unused*/, L_91, L_92, /*hidden argument*/NULL);
+		int32_t L_94 = DateTime_get_Month_m11843((&V_20), /*hidden argument*/NULL);
+		int32_t L_95 = DateTime_get_Day_m11844((&V_20), /*hidden argument*/NULL);
+		TransitionTime_t3355  L_96 = TransitionTime_CreateFixedDateRule_m11767(NULL /*static, unused*/, L_93, L_94, L_95, /*hidden argument*/NULL);
 		V_24 = L_96;
 		TransitionTime_t3355  L_97 = V_23;
 		TransitionTime_t3355  L_98 = V_24;
-		bool L_99 = TransitionTime_op_Inequality_m11773(NULL /*static, unused*/, L_97, L_98, /*hidden argument*/NULL);
+		bool L_99 = TransitionTime_op_Inequality_m11774(NULL /*static, unused*/, L_97, L_98, /*hidden argument*/NULL);
 		if (!L_99)
 		{
 			goto IL_02b9;
@@ -8670,7 +8670,7 @@ IL_0243:
 		TimeSpan_t334  L_103 = V_10;
 		TransitionTime_t3355  L_104 = V_23;
 		TransitionTime_t3355  L_105 = V_24;
-		AdjustmentRule_t3354 * L_106 = AdjustmentRule_CreateAdjustmentRule_m11759(NULL /*static, unused*/, L_101, L_102, L_103, L_104, L_105, /*hidden argument*/NULL);
+		AdjustmentRule_t3354 * L_106 = AdjustmentRule_CreateAdjustmentRule_m11760(NULL /*static, unused*/, L_101, L_102, L_103, L_104, L_105, /*hidden argument*/NULL);
 		NullCheck(L_100);
 		VirtActionInvoker1< AdjustmentRule_t3354 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::Add(!0) */, L_100, L_106);
 	}
@@ -8708,10 +8708,10 @@ IL_02f0:
 		V_12 = L_113;
 		int32_t L_114 = ((&V_19)->___Offset_0);
 		TimeSpan_t334  L_115 = {0};
-		TimeSpan__ctor_m11833(&L_115, 0, 0, L_114, /*hidden argument*/NULL);
+		TimeSpan__ctor_m11834(&L_115, 0, 0, L_114, /*hidden argument*/NULL);
 		TimeSpan_t334  L_116 = V_9;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t334_il2cpp_TypeInfo_var);
-		TimeSpan_t334  L_117 = TimeSpan_op_Subtraction_m11855(NULL /*static, unused*/, L_115, L_116, /*hidden argument*/NULL);
+		TimeSpan_t334  L_117 = TimeSpan_op_Subtraction_m11856(NULL /*static, unused*/, L_115, L_116, /*hidden argument*/NULL);
 		V_10 = L_117;
 	}
 
@@ -8763,7 +8763,7 @@ IL_031d:
 		String_t* L_128 = ((&V_25)->___Name_2);
 		V_11 = L_128;
 		int32_t L_129 = ((&V_25)->___Offset_0);
-		TimeSpan__ctor_m11833((&V_9), 0, 0, L_129, /*hidden argument*/NULL);
+		TimeSpan__ctor_m11834((&V_9), 0, 0, L_129, /*hidden argument*/NULL);
 	}
 
 IL_0361:
@@ -8773,7 +8773,7 @@ IL_0361:
 		String_t* L_132 = ___id;
 		String_t* L_133 = V_11;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-		TimeZoneInfo_t1513 * L_134 = TimeZoneInfo_CreateCustomTimeZone_m11782(NULL /*static, unused*/, L_130, L_131, L_132, L_133, /*hidden argument*/NULL);
+		TimeZoneInfo_t1513 * L_134 = TimeZoneInfo_CreateCustomTimeZone_m11783(NULL /*static, unused*/, L_130, L_131, L_132, L_133, /*hidden argument*/NULL);
 		return L_134;
 	}
 
@@ -8786,23 +8786,23 @@ IL_036d:
 		String_t* L_139 = V_12;
 		List_1_t3363 * L_140 = V_15;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-		List_1_t3363 * L_141 = TimeZoneInfo_ValidateRules_m11797(NULL /*static, unused*/, L_140, /*hidden argument*/NULL);
+		List_1_t3363 * L_141 = TimeZoneInfo_ValidateRules_m11798(NULL /*static, unused*/, L_140, /*hidden argument*/NULL);
 		NullCheck(L_141);
-		AdjustmentRuleU5BU5D_t3357* L_142 = List_1_ToArray_m11856(L_141, /*hidden argument*/List_1_ToArray_m11856_MethodInfo_var);
-		TimeZoneInfo_t1513 * L_143 = TimeZoneInfo_CreateCustomTimeZone_m11783(NULL /*static, unused*/, L_135, L_136, L_137, L_138, L_139, L_142, /*hidden argument*/NULL);
+		AdjustmentRuleU5BU5D_t3357* L_142 = List_1_ToArray_m11857(L_141, /*hidden argument*/List_1_ToArray_m11857_MethodInfo_var);
+		TimeZoneInfo_t1513 * L_143 = TimeZoneInfo_CreateCustomTimeZone_m11784(NULL /*static, unused*/, L_135, L_136, L_137, L_138, L_139, L_142, /*hidden argument*/NULL);
 		return L_143;
 	}
 }
 // System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule> System.TimeZoneInfo::ValidateRules(System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>)
 extern TypeInfo* DateTime_t287_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_ToArray_m11856_MethodInfo_var;
-extern "C" List_1_t3363 * TimeZoneInfo_ValidateRules_m11797 (Object_t * __this /* static, unused */, List_1_t3363 * ___adjustmentRules, const MethodInfo* method)
+extern const MethodInfo* List_1_ToArray_m11857_MethodInfo_var;
+extern "C" List_1_t3363 * TimeZoneInfo_ValidateRules_m11798 (Object_t * __this /* static, unused */, List_1_t3363 * ___adjustmentRules, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		DateTime_t287_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(311);
-		List_1_ToArray_m11856_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485184);
+		List_1_ToArray_m11857_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485185);
 		s_Il2CppMethodIntialized = true;
 	}
 	AdjustmentRule_t3354 * V_0 = {0};
@@ -8813,7 +8813,7 @@ extern "C" List_1_t3363 * TimeZoneInfo_ValidateRules_m11797 (Object_t * __this /
 		V_0 = (AdjustmentRule_t3354 *)NULL;
 		List_1_t3363 * L_0 = ___adjustmentRules;
 		NullCheck(L_0);
-		AdjustmentRuleU5BU5D_t3357* L_1 = List_1_ToArray_m11856(L_0, /*hidden argument*/List_1_ToArray_m11856_MethodInfo_var);
+		AdjustmentRuleU5BU5D_t3357* L_1 = List_1_ToArray_m11857(L_0, /*hidden argument*/List_1_ToArray_m11857_MethodInfo_var);
 		V_2 = L_1;
 		V_3 = 0;
 		goto IL_003e;
@@ -8836,12 +8836,12 @@ IL_0010:
 	{
 		AdjustmentRule_t3354 * L_6 = V_0;
 		NullCheck(L_6);
-		DateTime_t287  L_7 = AdjustmentRule_get_DateEnd_m11756(L_6, /*hidden argument*/NULL);
+		DateTime_t287  L_7 = AdjustmentRule_get_DateEnd_m11757(L_6, /*hidden argument*/NULL);
 		AdjustmentRule_t3354 * L_8 = V_1;
 		NullCheck(L_8);
-		DateTime_t287  L_9 = AdjustmentRule_get_DateStart_m11757(L_8, /*hidden argument*/NULL);
+		DateTime_t287  L_9 = AdjustmentRule_get_DateStart_m11758(L_8, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		bool L_10 = DateTime_op_GreaterThan_m11845(NULL /*static, unused*/, L_7, L_9, /*hidden argument*/NULL);
+		bool L_10 = DateTime_op_GreaterThan_m11846(NULL /*static, unused*/, L_7, L_9, /*hidden argument*/NULL);
 		if (!L_10)
 		{
 			goto IL_0038;
@@ -8880,15 +8880,15 @@ IL_003e:
 // System.Collections.Generic.Dictionary`2<System.Int32,System.String> System.TimeZoneInfo::ParseAbbreviations(System.Byte[],System.Int32,System.Int32)
 extern TypeInfo* Dictionary_2_t103_il2cpp_TypeInfo_var;
 extern TypeInfo* StringBuilder_t261_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m11857_MethodInfo_var;
-extern "C" Dictionary_2_t103 * TimeZoneInfo_ParseAbbreviations_m11798 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method)
+extern const MethodInfo* Dictionary_2__ctor_m11858_MethodInfo_var;
+extern "C" Dictionary_2_t103 * TimeZoneInfo_ParseAbbreviations_m11799 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t103_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(122);
 		StringBuilder_t261_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(266);
-		Dictionary_2__ctor_m11857_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485185);
+		Dictionary_2__ctor_m11858_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485186);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t103 * V_0 = {0};
@@ -8899,7 +8899,7 @@ extern "C" Dictionary_2_t103 * TimeZoneInfo_ParseAbbreviations_m11798 (Object_t 
 	int32_t V_5 = 0;
 	{
 		Dictionary_2_t103 * L_0 = (Dictionary_2_t103 *)il2cpp_codegen_object_new (Dictionary_2_t103_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m11857(L_0, /*hidden argument*/Dictionary_2__ctor_m11857_MethodInfo_var);
+		Dictionary_2__ctor_m11858(L_0, /*hidden argument*/Dictionary_2__ctor_m11858_MethodInfo_var);
 		V_0 = L_0;
 		V_1 = 0;
 		StringBuilder_t261 * L_1 = (StringBuilder_t261 *)il2cpp_codegen_object_new (StringBuilder_t261_il2cpp_TypeInfo_var);
@@ -8954,10 +8954,10 @@ IL_0047:
 		int32_t L_17 = V_5;
 		StringBuilder_t261 * L_18 = V_2;
 		NullCheck(L_18);
-		int32_t L_19 = StringBuilder_get_Length_m7353(L_18, /*hidden argument*/NULL);
+		int32_t L_19 = StringBuilder_get_Length_m7354(L_18, /*hidden argument*/NULL);
 		int32_t L_20 = V_5;
 		NullCheck(L_16);
-		String_t* L_21 = StringBuilder_ToString_m11447(L_16, L_17, ((int32_t)((int32_t)L_19-(int32_t)L_20)), /*hidden argument*/NULL);
+		String_t* L_21 = StringBuilder_ToString_m11448(L_16, L_17, ((int32_t)((int32_t)L_19-(int32_t)L_20)), /*hidden argument*/NULL);
 		NullCheck(L_13);
 		VirtActionInvoker2< int32_t, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.String>::Add(!0,!1) */, L_13, ((int32_t)((int32_t)L_14+(int32_t)L_15)), L_21);
 		int32_t L_22 = V_5;
@@ -8969,7 +8969,7 @@ IL_0068:
 		int32_t L_23 = V_5;
 		StringBuilder_t261 * L_24 = V_2;
 		NullCheck(L_24);
-		int32_t L_25 = StringBuilder_get_Length_m7353(L_24, /*hidden argument*/NULL);
+		int32_t L_25 = StringBuilder_get_Length_m7354(L_24, /*hidden argument*/NULL);
 		if ((((int32_t)L_23) < ((int32_t)L_25)))
 		{
 			goto IL_0047;
@@ -9006,15 +9006,15 @@ IL_0083:
 // System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType> System.TimeZoneInfo::ParseTimesTypes(System.Byte[],System.Int32,System.Int32,System.Collections.Generic.Dictionary`2<System.Int32,System.String>)
 extern TypeInfo* Dictionary_2_t3364_il2cpp_TypeInfo_var;
 extern TypeInfo* TimeZoneInfo_t1513_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m11858_MethodInfo_var;
-extern "C" Dictionary_2_t3364 * TimeZoneInfo_ParseTimesTypes_m11799 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, Dictionary_2_t103 * ___abbreviations, const MethodInfo* method)
+extern const MethodInfo* Dictionary_2__ctor_m11859_MethodInfo_var;
+extern "C" Dictionary_2_t3364 * TimeZoneInfo_ParseTimesTypes_m11800 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, Dictionary_2_t103 * ___abbreviations, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t3364_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6009);
 		TimeZoneInfo_t1513_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2668);
-		Dictionary_2__ctor_m11858_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485186);
+		Dictionary_2__ctor_m11859_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485187);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t3364 * V_0 = {0};
@@ -9025,7 +9025,7 @@ extern "C" Dictionary_2_t3364 * TimeZoneInfo_ParseTimesTypes_m11799 (Object_t * 
 	{
 		int32_t L_0 = ___count;
 		Dictionary_2_t3364 * L_1 = (Dictionary_2_t3364 *)il2cpp_codegen_object_new (Dictionary_2_t3364_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m11858(L_1, L_0, /*hidden argument*/Dictionary_2__ctor_m11858_MethodInfo_var);
+		Dictionary_2__ctor_m11859(L_1, L_0, /*hidden argument*/Dictionary_2__ctor_m11859_MethodInfo_var);
 		V_0 = L_1;
 		V_1 = 0;
 		goto IL_004f;
@@ -9037,7 +9037,7 @@ IL_000e:
 		int32_t L_3 = ___index;
 		int32_t L_4 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-		int32_t L_5 = TimeZoneInfo_ReadBigEndianInt32_m11795(NULL /*static, unused*/, L_2, ((int32_t)((int32_t)L_3+(int32_t)((int32_t)((int32_t)6*(int32_t)L_4)))), /*hidden argument*/NULL);
+		int32_t L_5 = TimeZoneInfo_ReadBigEndianInt32_m11796(NULL /*static, unused*/, L_2, ((int32_t)((int32_t)L_3+(int32_t)((int32_t)((int32_t)6*(int32_t)L_4)))), /*hidden argument*/NULL);
 		V_2 = L_5;
 		ByteU5BU5D_t66* L_6 = ___buffer;
 		int32_t L_7 = ___index;
@@ -9062,7 +9062,7 @@ IL_000e:
 		NullCheck(L_18);
 		String_t* L_20 = (String_t*)VirtFuncInvoker1< String_t*, int32_t >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.Int32,System.String>::get_Item(!0) */, L_18, L_19);
 		TimeType_t3356  L_21 = {0};
-		TimeType__ctor_m11774(&L_21, L_16, ((((int32_t)((((int32_t)L_17) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0), L_20, /*hidden argument*/NULL);
+		TimeType__ctor_m11775(&L_21, L_16, ((((int32_t)((((int32_t)L_17) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0), L_20, /*hidden argument*/NULL);
 		NullCheck(L_14);
 		VirtActionInvoker2< int32_t, TimeType_t3356  >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::Add(!0,!1) */, L_14, L_15, L_21);
 		int32_t L_22 = V_1;
@@ -9086,17 +9086,17 @@ IL_004f:
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>> System.TimeZoneInfo::ParseTransitions(System.Byte[],System.Int32,System.Int32,System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>)
 extern TypeInfo* List_1_t3365_il2cpp_TypeInfo_var;
 extern TypeInfo* TimeZoneInfo_t1513_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m11859_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2__ctor_m11860_MethodInfo_var;
-extern "C" List_1_t3365 * TimeZoneInfo_ParseTransitions_m11800 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, Dictionary_2_t3364 * ___time_types, const MethodInfo* method)
+extern const MethodInfo* List_1__ctor_m11860_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2__ctor_m11861_MethodInfo_var;
+extern "C" List_1_t3365 * TimeZoneInfo_ParseTransitions_m11801 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, Dictionary_2_t3364 * ___time_types, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t3365_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6011);
 		TimeZoneInfo_t1513_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2668);
-		List_1__ctor_m11859_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485187);
-		KeyValuePair_2__ctor_m11860_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485188);
+		List_1__ctor_m11860_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485188);
+		KeyValuePair_2__ctor_m11861_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147485189);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t3365 * V_0 = {0};
@@ -9107,7 +9107,7 @@ extern "C" List_1_t3365 * TimeZoneInfo_ParseTransitions_m11800 (Object_t * __thi
 	{
 		int32_t L_0 = ___count;
 		List_1_t3365 * L_1 = (List_1_t3365 *)il2cpp_codegen_object_new (List_1_t3365_il2cpp_TypeInfo_var);
-		List_1__ctor_m11859(L_1, L_0, /*hidden argument*/List_1__ctor_m11859_MethodInfo_var);
+		List_1__ctor_m11860(L_1, L_0, /*hidden argument*/List_1__ctor_m11860_MethodInfo_var);
 		V_0 = L_1;
 		V_1 = 0;
 		goto IL_0045;
@@ -9119,10 +9119,10 @@ IL_000e:
 		int32_t L_3 = ___index;
 		int32_t L_4 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeZoneInfo_t1513_il2cpp_TypeInfo_var);
-		int32_t L_5 = TimeZoneInfo_ReadBigEndianInt32_m11795(NULL /*static, unused*/, L_2, ((int32_t)((int32_t)L_3+(int32_t)((int32_t)((int32_t)4*(int32_t)L_4)))), /*hidden argument*/NULL);
+		int32_t L_5 = TimeZoneInfo_ReadBigEndianInt32_m11796(NULL /*static, unused*/, L_2, ((int32_t)((int32_t)L_3+(int32_t)((int32_t)((int32_t)4*(int32_t)L_4)))), /*hidden argument*/NULL);
 		V_2 = L_5;
 		int32_t L_6 = V_2;
-		DateTime_t287  L_7 = TimeZoneInfo_DateTimeFromUnixTime_m11801(NULL /*static, unused*/, (((int64_t)L_6)), /*hidden argument*/NULL);
+		DateTime_t287  L_7 = TimeZoneInfo_DateTimeFromUnixTime_m11802(NULL /*static, unused*/, (((int64_t)L_6)), /*hidden argument*/NULL);
 		V_3 = L_7;
 		ByteU5BU5D_t66* L_8 = ___buffer;
 		int32_t L_9 = ___index;
@@ -9139,7 +9139,7 @@ IL_000e:
 		NullCheck(L_15);
 		TimeType_t3356  L_17 = (TimeType_t3356 )VirtFuncInvoker1< TimeType_t3356 , int32_t >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::get_Item(!0) */, L_15, L_16);
 		KeyValuePair_2_t3379  L_18 = {0};
-		KeyValuePair_2__ctor_m11860(&L_18, L_14, L_17, /*hidden argument*/KeyValuePair_2__ctor_m11860_MethodInfo_var);
+		KeyValuePair_2__ctor_m11861(&L_18, L_14, L_17, /*hidden argument*/KeyValuePair_2__ctor_m11861_MethodInfo_var);
 		NullCheck(L_13);
 		VirtActionInvoker1< KeyValuePair_2_t3379  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Add(!0) */, L_13, L_18);
 		int32_t L_19 = V_1;
@@ -9161,11 +9161,11 @@ IL_0045:
 	}
 }
 // System.DateTime System.TimeZoneInfo::DateTimeFromUnixTime(System.Int64)
-extern "C" DateTime_t287  TimeZoneInfo_DateTimeFromUnixTime_m11801 (Object_t * __this /* static, unused */, int64_t ___unix_time, const MethodInfo* method)
+extern "C" DateTime_t287  TimeZoneInfo_DateTimeFromUnixTime_m11802 (Object_t * __this /* static, unused */, int64_t ___unix_time, const MethodInfo* method)
 {
 	DateTime_t287  V_0 = {0};
 	{
-		DateTime__ctor_m4329((&V_0), ((int32_t)1970), 1, 1, /*hidden argument*/NULL);
+		DateTime__ctor_m4330((&V_0), ((int32_t)1970), 1, 1, /*hidden argument*/NULL);
 		int64_t L_0 = ___unix_time;
 		DateTime_t287  L_1 = DateTime_AddSeconds_m4091((&V_0), (((double)L_0)), /*hidden argument*/NULL);
 		return L_1;
@@ -9178,20 +9178,20 @@ extern "C" DateTime_t287  TimeZoneInfo_DateTimeFromUnixTime_m11801 (Object_t * _
 
 
 // System.Void System.TimeZoneNotFoundException::.ctor()
-extern "C" void TimeZoneNotFoundException__ctor_m11802 (TimeZoneNotFoundException_t1514 * __this, const MethodInfo* method)
+extern "C" void TimeZoneNotFoundException__ctor_m11803 (TimeZoneNotFoundException_t1514 * __this, const MethodInfo* method)
 {
 	{
-		Exception__ctor_m7790(__this, /*hidden argument*/NULL);
+		Exception__ctor_m7791(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.TimeZoneNotFoundException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void TimeZoneNotFoundException__ctor_m11803 (TimeZoneNotFoundException_t1514 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___sc, const MethodInfo* method)
+extern "C" void TimeZoneNotFoundException__ctor_m11804 (TimeZoneNotFoundException_t1514 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___sc, const MethodInfo* method)
 {
 	{
 		SerializationInfo_t2919 * L_0 = ___info;
 		StreamingContext_t2920  L_1 = ___sc;
-		Exception__ctor_m10180(__this, L_0, L_1, /*hidden argument*/NULL);
+		Exception__ctor_m10181(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -9215,11 +9215,11 @@ extern "C" void Action__ctor_m3758 (Action_t143 * __this, Object_t * ___object, 
 	__this->___m_target_2 = ___object;
 }
 // System.Void System.Action::Invoke()
-extern "C" void Action_Invoke_m11804 (Action_t143 * __this, const MethodInfo* method)
+extern "C" void Action_Invoke_m11805 (Action_t143 * __this, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		Action_Invoke_m11804((Action_t143 *)__this->___prev_9, method);
+		Action_Invoke_m11805((Action_t143 *)__this->___prev_9, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -9243,13 +9243,13 @@ extern "C" void pinvoke_delegate_wrapper_Action_t143(Il2CppObject* delegate)
 
 }
 // System.IAsyncResult System.Action::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * Action_BeginInvoke_m11805 (Action_t143 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * Action_BeginInvoke_m11806 (Action_t143 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[1] = {0};
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void System.Action::EndInvoke(System.IAsyncResult)
-extern "C" void Action_EndInvoke_m11806 (Action_t143 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" void Action_EndInvoke_m11807 (Action_t143 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }

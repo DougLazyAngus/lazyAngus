@@ -12,8 +12,8 @@ struct String_t;
 struct ASN1_t3784;
 
 // System.Void Mono.Security.X509.SafeBag::.ctor(System.String,Mono.Security.ASN1)
-extern "C" void SafeBag__ctor_m12437 (SafeBag_t3806 * __this, String_t* ___bagOID, ASN1_t3784 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeBag__ctor_m12438 (SafeBag_t3806 * __this, String_t* ___bagOID, ASN1_t3784 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.SafeBag::get_BagOID()
-extern "C" String_t* SafeBag_get_BagOID_m12438 (SafeBag_t3806 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SafeBag_get_BagOID_m12439 (SafeBag_t3806 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.ASN1 Mono.Security.X509.SafeBag::get_ASN1()
-extern "C" ASN1_t3784 * SafeBag_get_ASN1_m12439 (SafeBag_t3806 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ASN1_t3784 * SafeBag_get_ASN1_m12440 (SafeBag_t3806 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

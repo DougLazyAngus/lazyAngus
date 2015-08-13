@@ -55,8 +55,8 @@ extern "C" void Dictionary_2__ctor_m63204_gshared (Dictionary_2_t3364 * __this, 
 extern "C" void Dictionary_2__ctor_m63205_gshared (Dictionary_2_t3364 * __this, Object_t* ___dictionary, const MethodInfo* method);
 #define Dictionary_2__ctor_m63205(__this, ___dictionary, method) (( void (*) (Dictionary_2_t3364 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m63205_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::.ctor(System.Int32)
-extern "C" void Dictionary_2__ctor_m11858_gshared (Dictionary_2_t3364 * __this, int32_t ___capacity, const MethodInfo* method);
-#define Dictionary_2__ctor_m11858(__this, ___capacity, method) (( void (*) (Dictionary_2_t3364 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m11858_gshared)(__this, ___capacity, method)
+extern "C" void Dictionary_2__ctor_m11859_gshared (Dictionary_2_t3364 * __this, int32_t ___capacity, const MethodInfo* method);
+#define Dictionary_2__ctor_m11859(__this, ___capacity, method) (( void (*) (Dictionary_2_t3364 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m11859_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>,System.Collections.Generic.IEqualityComparer`1<TKey>)
 extern "C" void Dictionary_2__ctor_m63206_gshared (Dictionary_2_t3364 * __this, Object_t* ___dictionary, Object_t* ___comparer, const MethodInfo* method);
 #define Dictionary_2__ctor_m63206(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t3364 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m63206_gshared)(__this, ___dictionary, ___comparer, method)

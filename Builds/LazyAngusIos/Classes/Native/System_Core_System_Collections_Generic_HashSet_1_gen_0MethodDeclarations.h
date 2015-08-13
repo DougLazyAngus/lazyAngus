@@ -29,8 +29,8 @@ struct IEnumerator_t48;
 extern "C" void HashSet_1__ctor_m30472_gshared (HashSet_1_t1467 * __this, const MethodInfo* method);
 #define HashSet_1__ctor_m30472(__this, method) (( void (*) (HashSet_1_t1467 *, const MethodInfo*))HashSet_1__ctor_m30472_gshared)(__this, method)
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor(System.Collections.Generic.IEqualityComparer`1<T>)
-extern "C" void HashSet_1__ctor_m7480_gshared (HashSet_1_t1467 * __this, Object_t* ___comparer, const MethodInfo* method);
-#define HashSet_1__ctor_m7480(__this, ___comparer, method) (( void (*) (HashSet_1_t1467 *, Object_t*, const MethodInfo*))HashSet_1__ctor_m7480_gshared)(__this, ___comparer, method)
+extern "C" void HashSet_1__ctor_m7481_gshared (HashSet_1_t1467 * __this, Object_t* ___comparer, const MethodInfo* method);
+#define HashSet_1__ctor_m7481(__this, ___comparer, method) (( void (*) (HashSet_1_t1467 *, Object_t*, const MethodInfo*))HashSet_1__ctor_m7481_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
 extern "C" void HashSet_1__ctor_m30473_gshared (HashSet_1_t1467 * __this, Object_t* ___collection, const MethodInfo* method);
 #define HashSet_1__ctor_m30473(__this, ___collection, method) (( void (*) (HashSet_1_t1467 *, Object_t*, const MethodInfo*))HashSet_1__ctor_m30473_gshared)(__this, ___collection, method)

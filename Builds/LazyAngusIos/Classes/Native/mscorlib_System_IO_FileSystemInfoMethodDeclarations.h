@@ -14,18 +14,18 @@ struct SerializationInfo_t2919;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.IO.FileSystemInfo::.ctor()
-extern "C" void FileSystemInfo__ctor_m17408 (FileSystemInfo_t4479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileSystemInfo__ctor_m17409 (FileSystemInfo_t4479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileSystemInfo::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void FileSystemInfo__ctor_m17409 (FileSystemInfo_t4479 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileSystemInfo__ctor_m17410 (FileSystemInfo_t4479 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileSystemInfo::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void FileSystemInfo_GetObjectData_m17410 (FileSystemInfo_t4479 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileSystemInfo_GetObjectData_m17411 (FileSystemInfo_t4479 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.FileSystemInfo::get_Exists()
 // System.String System.IO.FileSystemInfo::get_Name()
 // System.String System.IO.FileSystemInfo::get_FullName()
-extern "C" String_t* FileSystemInfo_get_FullName_m17411 (FileSystemInfo_t4479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* FileSystemInfo_get_FullName_m17412 (FileSystemInfo_t4479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileSystemInfo::Refresh(System.Boolean)
-extern "C" void FileSystemInfo_Refresh_m17412 (FileSystemInfo_t4479 * __this, bool ___force, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileSystemInfo_Refresh_m17413 (FileSystemInfo_t4479 * __this, bool ___force, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileSystemInfo::InternalRefresh()
-extern "C" void FileSystemInfo_InternalRefresh_m17413 (FileSystemInfo_t4479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileSystemInfo_InternalRefresh_m17414 (FileSystemInfo_t4479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileSystemInfo::CheckPath(System.String)
-extern "C" void FileSystemInfo_CheckPath_m17414 (FileSystemInfo_t4479 * __this, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileSystemInfo_CheckPath_m17415 (FileSystemInfo_t4479 * __this, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;

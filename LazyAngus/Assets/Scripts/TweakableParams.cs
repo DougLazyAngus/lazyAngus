@@ -4,7 +4,7 @@ using System.Collections;
 public class TweakableParams : MonoBehaviour {
 
 	// Boost params.
-	public const float fastPawsPauseMultiplier = 0.1f;
+	public const float fastPawsPauseMultiplier = 0.333f;
 	public const float fastPawsSwipeSpeedMultiplier = 1.0f;
 
 	public const float goodEyesAngleMultiplier = 1.6666f;

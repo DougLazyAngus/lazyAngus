@@ -12,6 +12,6 @@ struct Object_t;
 struct Type_t;
 
 // System.Void System.Linq.Expressions.ConstantExpression::.ctor(System.Object,System.Type)
-extern "C" void ConstantExpression__ctor_m11624 (ConstantExpression_t1526 * __this, Object_t * ___value, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstantExpression__ctor_m11625 (ConstantExpression_t1526 * __this, Object_t * ___value, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Linq.Expressions.ConstantExpression::get_Value()
-extern "C" Object_t * ConstantExpression_get_Value_m11625 (ConstantExpression_t1526 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ConstantExpression_get_Value_m11626 (ConstantExpression_t1526 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

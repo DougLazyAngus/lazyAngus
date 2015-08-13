@@ -20,7 +20,7 @@ struct AggregateException_t1338;
 #include "Parse_Unity_System_Threading_Tasks_Task_1_gen_2MethodDeclarations.h"
 #define Task_1__ctor_m30543(__this, method) (( void (*) (Task_1_t1371 *, const MethodInfo*))Task_1__ctor_m30544_gshared)(__this, method)
 // T System.Threading.Tasks.Task`1<System.String>::get_Result()
-#define Task_1_get_Result_m7656(__this, method) (( String_t* (*) (Task_1_t1371 *, const MethodInfo*))Task_1_get_Result_m30545_gshared)(__this, method)
+#define Task_1_get_Result_m7657(__this, method) (( String_t* (*) (Task_1_t1371 *, const MethodInfo*))Task_1_get_Result_m30545_gshared)(__this, method)
 // System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.String>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<T>>)
 #define Task_1_ContinueWith_m30546(__this, ___continuation, method) (( Task_t1210 * (*) (Task_1_t1371 *, Action_1_t1511 *, const MethodInfo*))Task_1_ContinueWith_m30547_gshared)(__this, ___continuation, method)
 // System.Void System.Threading.Tasks.Task`1<System.String>::RunContinuations()

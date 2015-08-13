@@ -8,4 +8,4 @@
 struct XmlReaderBinarySupport_t3254;
 
 // System.Void System.Xml.XmlReaderBinarySupport::Reset()
-extern "C" void XmlReaderBinarySupport_Reset_m11168 (XmlReaderBinarySupport_t3254 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlReaderBinarySupport_Reset_m11169 (XmlReaderBinarySupport_t3254 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

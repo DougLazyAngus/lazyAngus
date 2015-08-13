@@ -12,6 +12,6 @@ struct SerializationInfo_t2919;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.OperationCanceledException::.ctor()
-extern "C" void OperationCanceledException__ctor_m7795 (OperationCanceledException_t2149 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OperationCanceledException__ctor_m7796 (OperationCanceledException_t2149 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.OperationCanceledException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void OperationCanceledException__ctor_m20005 (OperationCanceledException_t2149 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OperationCanceledException__ctor_m20006 (OperationCanceledException_t2149 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

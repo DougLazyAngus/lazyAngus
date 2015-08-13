@@ -12,4 +12,4 @@ struct Task_t1210;
 struct Task_1_t1357;
 
 // System.Threading.Tasks.Task System.Threading.Tasks.TaskExtensions::Unwrap(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>)
-extern "C" Task_t1210 * TaskExtensions_Unwrap_m7261 (Object_t * __this /* static, unused */, Task_1_t1357 * ___task, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1210 * TaskExtensions_Unwrap_m7262 (Object_t * __this /* static, unused */, Task_1_t1357 * ___task, const MethodInfo* method) IL2CPP_METHOD_ATTR;

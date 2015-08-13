@@ -12,6 +12,6 @@ struct Expression_t1520;
 struct Type_t;
 
 // System.Linq.Expressions.Expression System.Linq.Expressions.TypeBinaryExpression::get_Expression()
-extern "C" Expression_t1520 * TypeBinaryExpression_get_Expression_m11713 (TypeBinaryExpression_t3343 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t1520 * TypeBinaryExpression_get_Expression_m11714 (TypeBinaryExpression_t3343 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Linq.Expressions.TypeBinaryExpression::get_TypeOperand()
-extern "C" Type_t * TypeBinaryExpression_get_TypeOperand_m11714 (TypeBinaryExpression_t3343 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * TypeBinaryExpression_get_TypeOperand_m11715 (TypeBinaryExpression_t3343 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

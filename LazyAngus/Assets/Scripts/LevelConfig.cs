@@ -274,9 +274,8 @@ public class LevelConfig : MonoBehaviour
 		ld.wigglesAccumulator.AddDerived ((int)MouseConfig.MouseWiggleType.NONE);
 
 		// Basic distribution of wave types.
-		ld.waveTypesAccumulator.AddDerived ((int)LevelDescription.WaveType.DISTRIBUTED, 2);
-		ld.waveTypesAccumulator.AddDerived ((int)LevelDescription.WaveType.PARADE, 2);
-		ld.waveTypesAccumulator.AddDerived ((int)LevelDescription.WaveType.SPOUT);
+		ld.waveTypesAccumulator.AddDerived ((int)LevelDescription.WaveType.DISTRIBUTED, 3);
+		ld.waveTypesAccumulator.AddDerived ((int)LevelDescription.WaveType.PARADE, 1);
 	}
 
 	LevelDescription MakePresetGameLevelSkeleton (int gameLevel)
@@ -756,7 +755,10 @@ public class LevelConfig : MonoBehaviour
 			ld.specialText = "One mouse hole is growing!";
 			ld.sprite = mouseHoleIntroSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.WEST);
-			
+
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.DISTRIBUTED, 1);
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.PARADE, 1);
+
 			return ld;
 		}
 		
@@ -910,6 +912,9 @@ public class LevelConfig : MonoBehaviour
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 					BoostConfig.BoostType.BOOST_TYPE_POISON_PAWS);
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_POISON_PAWS);
+
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.DISTRIBUTED);
+
 			return ld;
 		}
 		
@@ -917,6 +922,9 @@ public class LevelConfig : MonoBehaviour
 			ld.specialText = "Another mouse hole expands!";
 			ld.sprite = mouseHoleIntroSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseHole.MouseHoleLocation.EAST);
+
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.SPOUT);
+
 			return ld;
 		}
 		
@@ -997,6 +1005,10 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.SPOUT);
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.DISTRIBUTED);
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.PARADE);
+
 			return ld;
 		}
 		
@@ -1012,6 +1024,8 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.PARADE);
+
 			return ld;
 		}
 		
@@ -1027,6 +1041,9 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.SPOUT);
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.DISTRIBUTED);
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.PARADE);
 			return ld;
 		}
 		
@@ -1042,6 +1059,7 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.SPOUT);
 			return ld;
 		}
 		
@@ -1057,6 +1075,9 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.SPOUT);
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.DISTRIBUTED);
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.PARADE);
 			return ld;
 		}
 		

@@ -50,7 +50,7 @@ struct IDictionaryEnumerator_t784;
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::.ctor()
 // System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_gen_71MethodDeclarations.h"
-#define Dictionary_2__ctor_m10130(__this, method) (( void (*) (Dictionary_2_t2815 *, const MethodInfo*))Dictionary_2__ctor_m61470_gshared)(__this, method)
+#define Dictionary_2__ctor_m10131(__this, method) (( void (*) (Dictionary_2_t2815 *, const MethodInfo*))Dictionary_2__ctor_m61470_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
 #define Dictionary_2__ctor_m61471(__this, ___comparer, method) (( void (*) (Dictionary_2_t2815 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m61472_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)

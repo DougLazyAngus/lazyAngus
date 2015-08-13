@@ -25,7 +25,7 @@ void g_AssemblyU2DCSharp_Assembly_CustomAttributesCacheGenerator(CustomAttribute
 	{
 		ExtensionAttribute_t803 * tmp;
 		tmp = (ExtensionAttribute_t803 *)il2cpp_codegen_object_new (ExtensionAttribute_t803_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4345(tmp, NULL);
+		ExtensionAttribute__ctor_m4346(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 	{
@@ -278,7 +278,7 @@ void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_t145_Goog
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -408,7 +408,7 @@ void GoogleMobileAdSettings_t147_CustomAttributesCacheGenerator_testDevices(Cust
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -714,7 +714,7 @@ void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_t
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1128,7 +1128,7 @@ void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_t
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1362,7 +1362,7 @@ void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobCont
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1488,7 +1488,7 @@ void AN_GoogleAdProxy_t162_CustomAttributesCacheGenerator_AN_GoogleAdProxy_t162_
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1506,7 +1506,7 @@ void AN_ProxyPool_t163_CustomAttributesCacheGenerator_AN_ProxyPool_t163_AN_Proxy
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1524,7 +1524,7 @@ void AN_BillingProxy_t164_CustomAttributesCacheGenerator_AN_BillingProxy_t164_AN
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1542,7 +1542,7 @@ void AN_FBProxy_t165_CustomAttributesCacheGenerator_AN_FBProxy_t165_AN_FBProxy_C
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1560,7 +1560,7 @@ void AN_GMSGeneralProxy_t166_CustomAttributesCacheGenerator_AN_GMSGeneralProxy_t
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1578,7 +1578,7 @@ void AN_GMSGiftsProxy_t167_CustomAttributesCacheGenerator_AN_GMSGiftsProxy_t167_
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1596,7 +1596,7 @@ void AN_GMSInvitationProxy_t168_CustomAttributesCacheGenerator_AN_GMSInvitationP
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1614,7 +1614,7 @@ void AN_GMSQuestsEventsProxy_t169_CustomAttributesCacheGenerator_AN_GMSQuestsEve
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1632,7 +1632,7 @@ void AN_GMSRTMProxy_t170_CustomAttributesCacheGenerator_AN_GMSRTMProxy_t170_AN_G
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1650,7 +1650,7 @@ void AN_GoogleAnalyticsProxy_t171_CustomAttributesCacheGenerator_AN_GoogleAnalyt
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1668,7 +1668,7 @@ void AN_GooglePlayUtilsProxy_t172_CustomAttributesCacheGenerator_AN_GooglePlayUt
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1686,7 +1686,7 @@ void AN_ImmersiveModeProxy_t173_CustomAttributesCacheGenerator_AN_ImmersiveModeP
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1704,7 +1704,7 @@ void AN_LicenseManagerProxy_t174_CustomAttributesCacheGenerator_AN_LicenseManage
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1722,7 +1722,7 @@ void AN_PlusButtonProxy_t175_CustomAttributesCacheGenerator_AN_PlusButtonProxy_t
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1740,7 +1740,7 @@ void AN_SocialSharingProxy_t176_CustomAttributesCacheGenerator_AN_SocialSharingP
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1758,7 +1758,7 @@ void AN_TVControllerProxy_t177_CustomAttributesCacheGenerator_AN_TVControllerPro
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1776,7 +1776,7 @@ void AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_Androi
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1794,12 +1794,12 @@ void AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_Androi
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t804_il2cpp_TypeInfo_var;
-void GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdInterface_t142_GoogleMobileAdInterface_AddTestDevices_m4400_Arg0_ParameterInfo(CustomAttributesCache* cache)
+void GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdInterface_t142_GoogleMobileAdInterface_AddTestDevices_m4401_Arg0_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1812,7 +1812,7 @@ void GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdI
 	{
 		ParamArrayAttribute_t804 * tmp;
 		tmp = (ParamArrayAttribute_t804 *)il2cpp_codegen_object_new (ParamArrayAttribute_t804_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4364(tmp, NULL);
+		ParamArrayAttribute__ctor_m4365(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4606,7 +4606,7 @@ void GameThrive_t378_CustomAttributesCacheGenerator(CustomAttributesCache* cache
 	{
 		ObsoleteAttribute_t807 * tmp;
 		tmp = (ObsoleteAttribute_t807 *)il2cpp_codegen_object_new (ObsoleteAttribute_t807_il2cpp_TypeInfo_var);
-		ObsoleteAttribute__ctor_m4452(tmp, il2cpp_codegen_string_new_wrapper("GameThrive is decorated and will be removed in future releases. Please rename GameThrive to OneSignal in your code and your AndroidManifest.xml if your app is for Android."), NULL);
+		ObsoleteAttribute__ctor_m4453(tmp, il2cpp_codegen_string_new_wrapper("GameThrive is decorated and will be removed in future releases. Please rename GameThrive to OneSignal in your code and your AndroidManifest.xml if your app is for Android."), NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4750,7 +4750,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator(CustomAttribut
 	{
 		ExtensionAttribute_t803 * tmp;
 		tmp = (ExtensionAttribute_t803 *)il2cpp_codegen_object_new (ExtensionAttribute_t803_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4345(tmp, NULL);
+		ExtensionAttribute__ctor_m4346(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4768,7 +4768,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t803 * tmp;
 		tmp = (ExtensionAttribute_t803 *)il2cpp_codegen_object_new (ExtensionAttribute_t803_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4345(tmp, NULL);
+		ExtensionAttribute__ctor_m4346(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4786,7 +4786,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t803 * tmp;
 		tmp = (ExtensionAttribute_t803 *)il2cpp_codegen_object_new (ExtensionAttribute_t803_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4345(tmp, NULL);
+		ExtensionAttribute__ctor_m4346(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4804,7 +4804,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t803 * tmp;
 		tmp = (ExtensionAttribute_t803 *)il2cpp_codegen_object_new (ExtensionAttribute_t803_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4345(tmp, NULL);
+		ExtensionAttribute__ctor_m4346(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4822,7 +4822,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t803 * tmp;
 		tmp = (ExtensionAttribute_t803 *)il2cpp_codegen_object_new (ExtensionAttribute_t803_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4345(tmp, NULL);
+		ExtensionAttribute__ctor_m4346(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4840,7 +4840,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t803 * tmp;
 		tmp = (ExtensionAttribute_t803 *)il2cpp_codegen_object_new (ExtensionAttribute_t803_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4345(tmp, NULL);
+		ExtensionAttribute__ctor_m4346(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4858,7 +4858,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t803 * tmp;
 		tmp = (ExtensionAttribute_t803 *)il2cpp_codegen_object_new (ExtensionAttribute_t803_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4345(tmp, NULL);
+		ExtensionAttribute__ctor_m4346(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4876,7 +4876,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t803 * tmp;
 		tmp = (ExtensionAttribute_t803 *)il2cpp_codegen_object_new (ExtensionAttribute_t803_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4345(tmp, NULL);
+		ExtensionAttribute__ctor_m4346(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4894,7 +4894,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t803 * tmp;
 		tmp = (ExtensionAttribute_t803 *)il2cpp_codegen_object_new (ExtensionAttribute_t803_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4345(tmp, NULL);
+		ExtensionAttribute__ctor_m4346(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4912,7 +4912,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t803 * tmp;
 		tmp = (ExtensionAttribute_t803 *)il2cpp_codegen_object_new (ExtensionAttribute_t803_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4345(tmp, NULL);
+		ExtensionAttribute__ctor_m4346(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4930,7 +4930,7 @@ void AbstractFacebook_t414_CustomAttributesCacheGenerator_AbstractFacebook_AppRe
 	{
 		ObsoleteAttribute_t807 * tmp;
 		tmp = (ObsoleteAttribute_t807 *)il2cpp_codegen_object_new (ObsoleteAttribute_t807_il2cpp_TypeInfo_var);
-		ObsoleteAttribute__ctor_m4470(tmp, NULL);
+		ObsoleteAttribute__ctor_m4471(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4948,7 +4948,7 @@ void FB_t421_CustomAttributesCacheGenerator_FB_PublishInstall_m2269(CustomAttrib
 	{
 		ObsoleteAttribute_t807 * tmp;
 		tmp = (ObsoleteAttribute_t807 *)il2cpp_codegen_object_new (ObsoleteAttribute_t807_il2cpp_TypeInfo_var);
-		ObsoleteAttribute__ctor_m4452(tmp, il2cpp_codegen_string_new_wrapper("use FB.ActivateApp()"), NULL);
+		ObsoleteAttribute__ctor_m4453(tmp, il2cpp_codegen_string_new_wrapper("use FB.ActivateApp()"), NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4970,7 +4970,7 @@ void FBBuildVersionAttribute_t425_CustomAttributesCacheGenerator(CustomAttribute
 	{
 		AttributeUsageAttribute_t808 * tmp;
 		tmp = (AttributeUsageAttribute_t808 *)il2cpp_codegen_object_new (AttributeUsageAttribute_t808_il2cpp_TypeInfo_var);
-		AttributeUsageAttribute__ctor_m4482(tmp, 1, NULL);
+		AttributeUsageAttribute__ctor_m4483(tmp, 1, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4988,7 +4988,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_selectedAppIndex(CustomAttri
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5006,7 +5006,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_appIds(CustomAttributesCache
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5024,7 +5024,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_appLabels(CustomAttributesCa
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5042,7 +5042,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_cookie(CustomAttributesCache
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5060,7 +5060,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_logging(CustomAttributesCach
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5078,7 +5078,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_status(CustomAttributesCache
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5096,7 +5096,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_xfbml(CustomAttributesCache*
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5114,7 +5114,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_frictionlessRequests(CustomA
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5132,7 +5132,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_iosURLSuffix(CustomAttribute
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5668,13 +5668,13 @@ void GameAnalytics_t479_CustomAttributesCacheGenerator(CustomAttributesCache* ca
 	{
 		RequireComponent_t809 * tmp;
 		tmp = (RequireComponent_t809 *)il2cpp_codegen_object_new (RequireComponent_t809_il2cpp_TypeInfo_var);
-		RequireComponent__ctor_m4485(tmp, il2cpp_codegen_type_get_object(GA_SpecialEvents_t476_0_0_0_var), NULL);
+		RequireComponent__ctor_m4486(tmp, il2cpp_codegen_type_get_object(GA_SpecialEvents_t476_0_0_0_var), NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 	{
 		ExecuteInEditMode_t810 * tmp;
 		tmp = (ExecuteInEditMode_t810 *)il2cpp_codegen_object_new (ExecuteInEditMode_t810_il2cpp_TypeInfo_var);
-		ExecuteInEditMode__ctor_m4486(tmp, NULL);
+		ExecuteInEditMode__ctor_m4487(tmp, NULL);
 		cache->attributes[1] = (Il2CppObject*)tmp;
 	}
 }
@@ -5714,7 +5714,7 @@ void Settings_t478_CustomAttributesCacheGenerator_gameKey(CustomAttributesCache*
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5732,7 +5732,7 @@ void Settings_t478_CustomAttributesCacheGenerator_secretKey(CustomAttributesCach
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5750,7 +5750,7 @@ void Settings_t478_CustomAttributesCacheGenerator_Build(CustomAttributesCache* c
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5768,7 +5768,7 @@ void Settings_t478_CustomAttributesCacheGenerator_SelectedPlatformStudio(CustomA
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5786,7 +5786,7 @@ void Settings_t478_CustomAttributesCacheGenerator_SelectedPlatformGame(CustomAtt
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5804,7 +5804,7 @@ void Settings_t478_CustomAttributesCacheGenerator_SelectedPlatformGameID(CustomA
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5822,7 +5822,7 @@ void Settings_t478_CustomAttributesCacheGenerator_SelectedStudio(CustomAttribute
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5840,7 +5840,7 @@ void Settings_t478_CustomAttributesCacheGenerator_SelectedGame(CustomAttributesC
 	{
 		SerializeField_t805 * tmp;
 		tmp = (SerializeField_t805 *)il2cpp_codegen_object_new (SerializeField_t805_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4365(tmp, NULL);
+		SerializeField__ctor_m4366(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -9833,7 +9833,7 @@ extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_Assembly_Attribu
 	AN_TVControllerProxy_t177_CustomAttributesCacheGenerator_AN_TVControllerProxy_t177_AN_TVControllerProxy_CallActivityFunction_m1208_Arg1_ParameterInfo,
 	AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallUtility_m1235_Arg1_ParameterInfo,
 	AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallAndroidNativeBridge_m1236_Arg1_ParameterInfo,
-	GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdInterface_t142_GoogleMobileAdInterface_AddTestDevices_m4400_Arg0_ParameterInfo,
+	GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdInterface_t142_GoogleMobileAdInterface_AddTestDevices_m4401_Arg0_ParameterInfo,
 	AndroidADBanner_t215_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheF,
 	AndroidADBanner_t215_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache10,
 	AndroidADBanner_t215_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache11,

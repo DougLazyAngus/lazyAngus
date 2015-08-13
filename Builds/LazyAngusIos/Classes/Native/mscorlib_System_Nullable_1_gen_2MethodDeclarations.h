@@ -16,14 +16,14 @@ struct String_t;
 #include "mscorlib_System_Nullable_1_gen_2.h"
 
 // System.Void System.Nullable`1<System.DateTime>::.ctor(T)
-extern "C" void Nullable_1__ctor_m7595_gshared (Nullable_1_t1287 * __this, DateTime_t287  ___value, const MethodInfo* method);
-#define Nullable_1__ctor_m7595(__this, ___value, method) (( void (*) (Nullable_1_t1287 *, DateTime_t287 , const MethodInfo*))Nullable_1__ctor_m7595_gshared)(__this, ___value, method)
+extern "C" void Nullable_1__ctor_m7596_gshared (Nullable_1_t1287 * __this, DateTime_t287  ___value, const MethodInfo* method);
+#define Nullable_1__ctor_m7596(__this, ___value, method) (( void (*) (Nullable_1_t1287 *, DateTime_t287 , const MethodInfo*))Nullable_1__ctor_m7596_gshared)(__this, ___value, method)
 // System.Boolean System.Nullable`1<System.DateTime>::get_HasValue()
-extern "C" bool Nullable_1_get_HasValue_m7596_gshared (Nullable_1_t1287 * __this, const MethodInfo* method);
-#define Nullable_1_get_HasValue_m7596(__this, method) (( bool (*) (Nullable_1_t1287 *, const MethodInfo*))Nullable_1_get_HasValue_m7596_gshared)(__this, method)
+extern "C" bool Nullable_1_get_HasValue_m7597_gshared (Nullable_1_t1287 * __this, const MethodInfo* method);
+#define Nullable_1_get_HasValue_m7597(__this, method) (( bool (*) (Nullable_1_t1287 *, const MethodInfo*))Nullable_1_get_HasValue_m7597_gshared)(__this, method)
 // T System.Nullable`1<System.DateTime>::get_Value()
-extern "C" DateTime_t287  Nullable_1_get_Value_m7647_gshared (Nullable_1_t1287 * __this, const MethodInfo* method);
-#define Nullable_1_get_Value_m7647(__this, method) (( DateTime_t287  (*) (Nullable_1_t1287 *, const MethodInfo*))Nullable_1_get_Value_m7647_gshared)(__this, method)
+extern "C" DateTime_t287  Nullable_1_get_Value_m7648_gshared (Nullable_1_t1287 * __this, const MethodInfo* method);
+#define Nullable_1_get_Value_m7648(__this, method) (( DateTime_t287  (*) (Nullable_1_t1287 *, const MethodInfo*))Nullable_1_get_Value_m7648_gshared)(__this, method)
 // System.Boolean System.Nullable`1<System.DateTime>::Equals(System.Object)
 extern "C" bool Nullable_1_Equals_m33212_gshared (Nullable_1_t1287 * __this, Object_t * ___other, const MethodInfo* method);
 #define Nullable_1_Equals_m33212(__this, ___other, method) (( bool (*) (Nullable_1_t1287 *, Object_t *, const MethodInfo*))Nullable_1_Equals_m33212_gshared)(__this, ___other, method)

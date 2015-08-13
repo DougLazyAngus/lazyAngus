@@ -14,10 +14,10 @@ struct IMachineFactory_t4123;
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
 
 // System.Void System.Text.RegularExpressions.FactoryCache::.ctor(System.Int32)
-extern "C" void FactoryCache__ctor_m14663 (FactoryCache_t4122 * __this, int32_t ___capacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FactoryCache__ctor_m14664 (FactoryCache_t4122 * __this, int32_t ___capacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.FactoryCache::Add(System.String,System.Text.RegularExpressions.RegexOptions,System.Text.RegularExpressions.IMachineFactory)
-extern "C" void FactoryCache_Add_m14664 (FactoryCache_t4122 * __this, String_t* ___pattern, int32_t ___options, Object_t * ___factory, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FactoryCache_Add_m14665 (FactoryCache_t4122 * __this, String_t* ___pattern, int32_t ___options, Object_t * ___factory, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.FactoryCache::Cleanup()
-extern "C" void FactoryCache_Cleanup_m14665 (FactoryCache_t4122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FactoryCache_Cleanup_m14666 (FactoryCache_t4122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.IMachineFactory System.Text.RegularExpressions.FactoryCache::Lookup(System.String,System.Text.RegularExpressions.RegexOptions)
-extern "C" Object_t * FactoryCache_Lookup_m14666 (FactoryCache_t4122 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FactoryCache_Lookup_m14667 (FactoryCache_t4122 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -8,4 +8,4 @@
 struct CallContextRemotingData_t4612;
 
 // System.Void System.Runtime.Remoting.Messaging.CallContextRemotingData::.ctor()
-extern "C" void CallContextRemotingData__ctor_m18267 (CallContextRemotingData_t4612 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CallContextRemotingData__ctor_m18268 (CallContextRemotingData_t4612 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

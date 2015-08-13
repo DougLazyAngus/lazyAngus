@@ -28,7 +28,7 @@ struct IEnumerator_1_t9639;
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::.ctor(SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<TKey,TValue>)
 // SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Object,System.Object>
 #include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_ThreadSafe_6MethodDeclarations.h"
-#define ThreadSafeDictionary_2__ctor_m10151(__this, ___valueFactory, method) (( void (*) (ThreadSafeDictionary_2_t2935 *, ThreadSafeDictionaryValueFactory_2_t2934 *, const MethodInfo*))ThreadSafeDictionary_2__ctor_m61762_gshared)(__this, ___valueFactory, method)
+#define ThreadSafeDictionary_2__ctor_m10152(__this, ___valueFactory, method) (( void (*) (ThreadSafeDictionary_2_t2935 *, ThreadSafeDictionaryValueFactory_2_t2934 *, const MethodInfo*))ThreadSafeDictionary_2__ctor_m61762_gshared)(__this, ___valueFactory, method)
 // System.Collections.IEnumerator SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.IEnumerable.GetEnumerator()
 #define ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m61763(__this, method) (( Object_t * (*) (ThreadSafeDictionary_2_t2935 *, const MethodInfo*))ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m61764_gshared)(__this, method)
 // TValue SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Get(TKey)

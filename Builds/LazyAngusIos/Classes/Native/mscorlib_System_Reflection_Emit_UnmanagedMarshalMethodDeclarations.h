@@ -10,4 +10,4 @@ struct UnmanagedMarshal_t4512;
 struct MarshalAsAttribute_t4346;
 
 // System.Runtime.InteropServices.MarshalAsAttribute System.Reflection.Emit.UnmanagedMarshal::ToMarshalAsAttribute()
-extern "C" MarshalAsAttribute_t4346 * UnmanagedMarshal_ToMarshalAsAttribute_m17852 (UnmanagedMarshal_t4512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MarshalAsAttribute_t4346 * UnmanagedMarshal_ToMarshalAsAttribute_m17853 (UnmanagedMarshal_t4512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

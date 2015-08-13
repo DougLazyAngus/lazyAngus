@@ -18,7 +18,7 @@ struct AsyncCallback_t386;
 // System.Void System.Func`3<System.AsyncCallback,System.Object,System.IAsyncResult>::.ctor(System.Object,System.IntPtr)
 // System.Func`3<System.Object,System.Object,System.Object>
 #include "System_Core_System_Func_3_genMethodDeclarations.h"
-#define Func_3__ctor_m30654(__this, ___object, ___method, method) (( void (*) (Func_3_t1416 *, Object_t *, IntPtr_t, const MethodInfo*))Func_3__ctor_m7381_gshared)(__this, ___object, ___method, method)
+#define Func_3__ctor_m30654(__this, ___object, ___method, method) (( void (*) (Func_3_t1416 *, Object_t *, IntPtr_t, const MethodInfo*))Func_3__ctor_m7382_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`3<System.AsyncCallback,System.Object,System.IAsyncResult>::Invoke(T1,T2)
 #define Func_3_Invoke_m30655(__this, ___arg1, ___arg2, method) (( Object_t * (*) (Func_3_t1416 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_3_Invoke_m30656_gshared)(__this, ___arg1, ___arg2, method)
 // System.IAsyncResult System.Func`3<System.AsyncCallback,System.Object,System.IAsyncResult>::BeginInvoke(T1,T2,System.AsyncCallback,System.Object)

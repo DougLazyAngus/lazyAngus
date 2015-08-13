@@ -20,7 +20,7 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<UnityEngine.UI.Toggle,System.Boolean>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Byte>
 #include "System_Core_System_Func_2_gen_57MethodDeclarations.h"
-#define Func_2__ctor_m6152(__this, ___object, ___method, method) (( void (*) (Func_2_t987 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m30178_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m6153(__this, ___object, ___method, method) (( void (*) (Func_2_t987 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m30178_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<UnityEngine.UI.Toggle,System.Boolean>::Invoke(T)
 #define Func_2_Invoke_m30179(__this, ___arg1, method) (( bool (*) (Func_2_t987 *, Toggle_t984 *, const MethodInfo*))Func_2_Invoke_m30180_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<UnityEngine.UI.Toggle,System.Boolean>::BeginInvoke(T,System.AsyncCallback,System.Object)

@@ -401,13 +401,6 @@ struct  IComparable_1U5BU5D_t9751  : public Array_t
 struct  IEquatable_1U5BU5D_t9752  : public Array_t
 {
 };
-// System.Enum[]
-// System.Enum[]
-struct  EnumU5BU5D_t9753  : public Array_t
-{
-};
-struct EnumU5BU5D_t9753_StaticFields{
-};
 // System.Single[]
 // System.Single[]
 struct  SingleU5BU5D_t586  : public Array_t
@@ -415,18 +408,25 @@ struct  SingleU5BU5D_t586  : public Array_t
 };
 // System.IComparable`1<System.Single>[]
 // System.IComparable`1<System.Single>[]
-struct  IComparable_1U5BU5D_t9754  : public Array_t
+struct  IComparable_1U5BU5D_t9753  : public Array_t
 {
 };
 // System.IEquatable`1<System.Single>[]
 // System.IEquatable`1<System.Single>[]
-struct  IEquatable_1U5BU5D_t9755  : public Array_t
+struct  IEquatable_1U5BU5D_t9754  : public Array_t
 {
 };
 // System.Collections.Generic.KeyValuePair`2<System.Int32,LevelDescription>[]
 // System.Collections.Generic.KeyValuePair`2<System.Int32,LevelDescription>[]
 struct  KeyValuePair_2U5BU5D_t8936  : public Array_t
 {
+};
+// System.Enum[]
+// System.Enum[]
+struct  EnumU5BU5D_t9755  : public Array_t
+{
+};
+struct EnumU5BU5D_t9755_StaticFields{
 };
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>[]
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>[]

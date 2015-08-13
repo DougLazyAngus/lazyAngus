@@ -7,7 +7,7 @@ struct ExplicitMouseDesc_t537;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>
-struct  Enumerator_t5722 
+struct  Enumerator_t5721 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::l
 	List_1_t579 * ___l_0;

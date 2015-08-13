@@ -8,6 +8,6 @@
 struct SafeHandleZeroOrMinusOneIsInvalid_t4361;
 
 // System.Void Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid::.ctor(System.Boolean)
-extern "C" void SafeHandleZeroOrMinusOneIsInvalid__ctor_m16298 (SafeHandleZeroOrMinusOneIsInvalid_t4361 * __this, bool ___ownsHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeHandleZeroOrMinusOneIsInvalid__ctor_m16299 (SafeHandleZeroOrMinusOneIsInvalid_t4361 * __this, bool ___ownsHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid::get_IsInvalid()
-extern "C" bool SafeHandleZeroOrMinusOneIsInvalid_get_IsInvalid_m16299 (SafeHandleZeroOrMinusOneIsInvalid_t4361 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SafeHandleZeroOrMinusOneIsInvalid_get_IsInvalid_m16300 (SafeHandleZeroOrMinusOneIsInvalid_t4361 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

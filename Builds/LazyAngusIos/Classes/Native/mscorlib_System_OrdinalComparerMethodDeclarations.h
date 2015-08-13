@@ -10,10 +10,10 @@ struct OrdinalComparer_t4838;
 struct String_t;
 
 // System.Void System.OrdinalComparer::.ctor(System.Boolean)
-extern "C" void OrdinalComparer__ctor_m20033 (OrdinalComparer_t4838 * __this, bool ___ignoreCase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OrdinalComparer__ctor_m20034 (OrdinalComparer_t4838 * __this, bool ___ignoreCase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.OrdinalComparer::Compare(System.String,System.String)
-extern "C" int32_t OrdinalComparer_Compare_m20034 (OrdinalComparer_t4838 * __this, String_t* ___x, String_t* ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t OrdinalComparer_Compare_m20035 (OrdinalComparer_t4838 * __this, String_t* ___x, String_t* ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.OrdinalComparer::Equals(System.String,System.String)
-extern "C" bool OrdinalComparer_Equals_m20035 (OrdinalComparer_t4838 * __this, String_t* ___x, String_t* ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool OrdinalComparer_Equals_m20036 (OrdinalComparer_t4838 * __this, String_t* ___x, String_t* ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.OrdinalComparer::GetHashCode(System.String)
-extern "C" int32_t OrdinalComparer_GetHashCode_m20036 (OrdinalComparer_t4838 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t OrdinalComparer_GetHashCode_m20037 (OrdinalComparer_t4838 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;

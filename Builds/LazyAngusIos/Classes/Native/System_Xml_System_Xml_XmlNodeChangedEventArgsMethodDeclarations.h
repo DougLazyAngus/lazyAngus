@@ -14,4 +14,4 @@ struct String_t;
 #include "System_Xml_System_Xml_XmlNodeChangedAction.h"
 
 // System.Void System.Xml.XmlNodeChangedEventArgs::.ctor(System.Xml.XmlNode,System.Xml.XmlNode,System.Xml.XmlNode,System.String,System.String,System.Xml.XmlNodeChangedAction)
-extern "C" void XmlNodeChangedEventArgs__ctor_m11073 (XmlNodeChangedEventArgs_t3245 * __this, XmlNode_t717 * ___node, XmlNode_t717 * ___oldParent, XmlNode_t717 * ___newParent, String_t* ___oldValue, String_t* ___newValue, int32_t ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlNodeChangedEventArgs__ctor_m11074 (XmlNodeChangedEventArgs_t3245 * __this, XmlNode_t717 * ___node, XmlNode_t717 * ___oldParent, XmlNode_t717 * ___newParent, String_t* ___oldValue, String_t* ___newValue, int32_t ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;

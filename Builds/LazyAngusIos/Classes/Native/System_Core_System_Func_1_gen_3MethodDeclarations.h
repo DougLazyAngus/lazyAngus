@@ -20,7 +20,7 @@ struct AsyncCallback_t386;
 // System.Void System.Func`1<Parse.ParseObject>::.ctor(System.Object,System.IntPtr)
 // System.Func`1<System.Object>
 #include "System_Core_System_Func_1_gen_7MethodDeclarations.h"
-#define Func_1__ctor_m7584(__this, ___object, ___method, method) (( void (*) (Func_1_t1395 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m30568_gshared)(__this, ___object, ___method, method)
+#define Func_1__ctor_m7585(__this, ___object, ___method, method) (( void (*) (Func_1_t1395 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m30568_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`1<Parse.ParseObject>::Invoke()
 #define Func_1_Invoke_m32388(__this, method) (( ParseObject_t1221 * (*) (Func_1_t1395 *, const MethodInfo*))Func_1_Invoke_m30570_gshared)(__this, method)
 // System.IAsyncResult System.Func`1<Parse.ParseObject>::BeginInvoke(System.AsyncCallback,System.Object)

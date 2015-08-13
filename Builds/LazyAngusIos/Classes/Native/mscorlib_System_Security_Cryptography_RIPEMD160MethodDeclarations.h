@@ -8,4 +8,4 @@
 struct RIPEMD160_t4698;
 
 // System.Void System.Security.Cryptography.RIPEMD160::.ctor()
-extern "C" void RIPEMD160__ctor_m18711 (RIPEMD160_t4698 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RIPEMD160__ctor_m18712 (RIPEMD160_t4698 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

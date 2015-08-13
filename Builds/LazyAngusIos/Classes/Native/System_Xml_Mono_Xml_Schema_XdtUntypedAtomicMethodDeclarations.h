@@ -8,4 +8,4 @@
 struct XdtUntypedAtomic_t3101;
 
 // System.Void Mono.Xml.Schema.XdtUntypedAtomic::.ctor()
-extern "C" void XdtUntypedAtomic__ctor_m10424 (XdtUntypedAtomic_t3101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XdtUntypedAtomic__ctor_m10425 (XdtUntypedAtomic_t3101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -17,7 +17,7 @@ struct IEnumerator_1_t105;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.List`1<System.Single>
-struct List_1_t5726;
+struct List_1_t5725;
 
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.List`1<System.Single>>::.ctor(System.Collections.Generic.IList`1<TIn>)
 // Parse.Internal.FlexibleListWrapper`2<System.Object,System.Object>
@@ -52,4 +52,4 @@ struct List_1_t5726;
 // System.Collections.IEnumerator Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.List`1<System.Single>>::System.Collections.IEnumerable.GetEnumerator()
 #define FlexibleListWrapper_2_System_Collections_IEnumerable_GetEnumerator_m42982(__this, method) (( Object_t * (*) (FlexibleListWrapper_2_t1776 *, const MethodInfo*))FlexibleListWrapper_2_System_Collections_IEnumerable_GetEnumerator_m31711_gshared)(__this, method)
 // TOut Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.List`1<System.Single>>::<CopyTo>b__0(TIn)
-#define FlexibleListWrapper_2_U3CCopyToU3Eb__0_m42983(__this /* static, unused */, ___item, method) (( Object_t * (*) (Object_t * /* static, unused */, List_1_t5726 *, const MethodInfo*))FlexibleListWrapper_2_U3CCopyToU3Eb__0_m31712_gshared)(__this /* static, unused */, ___item, method)
+#define FlexibleListWrapper_2_U3CCopyToU3Eb__0_m42983(__this /* static, unused */, ___item, method) (( Object_t * (*) (Object_t * /* static, unused */, List_1_t5725 *, const MethodInfo*))FlexibleListWrapper_2_U3CCopyToU3Eb__0_m31712_gshared)(__this /* static, unused */, ___item, method)

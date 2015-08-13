@@ -50,7 +50,7 @@ struct IDictionaryEnumerator_t784;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::.ctor()
 // System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_gen_75MethodDeclarations.h"
-#define Dictionary_2__ctor_m10157(__this, method) (( void (*) (Dictionary_2_t2943 *, const MethodInfo*))Dictionary_2__ctor_m62116_gshared)(__this, method)
+#define Dictionary_2__ctor_m10158(__this, method) (( void (*) (Dictionary_2_t2943 *, const MethodInfo*))Dictionary_2__ctor_m62116_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
 #define Dictionary_2__ctor_m62117(__this, ___comparer, method) (( void (*) (Dictionary_2_t2943 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m62118_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)

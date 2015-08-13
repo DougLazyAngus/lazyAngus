@@ -18,72 +18,72 @@ struct Type_t;
 struct IFormatProvider_t4502;
 
 // System.Void System.Globalization.NumberFormatInfo::.ctor(System.Int32,System.Boolean)
-extern "C" void NumberFormatInfo__ctor_m17256 (NumberFormatInfo_t452 * __this, int32_t ___lcid, bool ___read_only, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NumberFormatInfo__ctor_m17257 (NumberFormatInfo_t452 * __this, int32_t ___lcid, bool ___read_only, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.NumberFormatInfo::.ctor(System.Boolean)
-extern "C" void NumberFormatInfo__ctor_m17257 (NumberFormatInfo_t452 * __this, bool ___read_only, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NumberFormatInfo__ctor_m17258 (NumberFormatInfo_t452 * __this, bool ___read_only, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.NumberFormatInfo::.ctor()
-extern "C" void NumberFormatInfo__ctor_m17258 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NumberFormatInfo__ctor_m17259 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.NumberFormatInfo::.cctor()
-extern "C" void NumberFormatInfo__cctor_m17259 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NumberFormatInfo__cctor_m17260 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.NumberFormatInfo::get_CurrencyDecimalDigits()
-extern "C" int32_t NumberFormatInfo_get_CurrencyDecimalDigits_m17260 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t NumberFormatInfo_get_CurrencyDecimalDigits_m17261 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_CurrencyDecimalSeparator()
-extern "C" String_t* NumberFormatInfo_get_CurrencyDecimalSeparator_m17261 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_CurrencyDecimalSeparator_m17262 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_CurrencyGroupSeparator()
-extern "C" String_t* NumberFormatInfo_get_CurrencyGroupSeparator_m17262 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_CurrencyGroupSeparator_m17263 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32[] System.Globalization.NumberFormatInfo::get_RawCurrencyGroupSizes()
-extern "C" Int32U5BU5D_t484* NumberFormatInfo_get_RawCurrencyGroupSizes_m17263 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Int32U5BU5D_t484* NumberFormatInfo_get_RawCurrencyGroupSizes_m17264 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.NumberFormatInfo::get_CurrencyNegativePattern()
-extern "C" int32_t NumberFormatInfo_get_CurrencyNegativePattern_m17264 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t NumberFormatInfo_get_CurrencyNegativePattern_m17265 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.NumberFormatInfo::get_CurrencyPositivePattern()
-extern "C" int32_t NumberFormatInfo_get_CurrencyPositivePattern_m17265 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t NumberFormatInfo_get_CurrencyPositivePattern_m17266 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_CurrencySymbol()
-extern "C" String_t* NumberFormatInfo_get_CurrencySymbol_m17266 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_CurrencySymbol_m17267 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.NumberFormatInfo System.Globalization.NumberFormatInfo::get_CurrentInfo()
-extern "C" NumberFormatInfo_t452 * NumberFormatInfo_get_CurrentInfo_m17267 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" NumberFormatInfo_t452 * NumberFormatInfo_get_CurrentInfo_m17268 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.NumberFormatInfo System.Globalization.NumberFormatInfo::get_InvariantInfo()
-extern "C" NumberFormatInfo_t452 * NumberFormatInfo_get_InvariantInfo_m17268 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" NumberFormatInfo_t452 * NumberFormatInfo_get_InvariantInfo_m17269 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_NaNSymbol()
-extern "C" String_t* NumberFormatInfo_get_NaNSymbol_m17269 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_NaNSymbol_m17270 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_NegativeInfinitySymbol()
-extern "C" String_t* NumberFormatInfo_get_NegativeInfinitySymbol_m17270 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_NegativeInfinitySymbol_m17271 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_NegativeSign()
-extern "C" String_t* NumberFormatInfo_get_NegativeSign_m17271 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_NegativeSign_m17272 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.NumberFormatInfo::get_NumberDecimalDigits()
-extern "C" int32_t NumberFormatInfo_get_NumberDecimalDigits_m17272 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t NumberFormatInfo_get_NumberDecimalDigits_m17273 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_NumberDecimalSeparator()
-extern "C" String_t* NumberFormatInfo_get_NumberDecimalSeparator_m17273 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_NumberDecimalSeparator_m17274 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_NumberGroupSeparator()
-extern "C" String_t* NumberFormatInfo_get_NumberGroupSeparator_m17274 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_NumberGroupSeparator_m17275 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32[] System.Globalization.NumberFormatInfo::get_RawNumberGroupSizes()
-extern "C" Int32U5BU5D_t484* NumberFormatInfo_get_RawNumberGroupSizes_m17275 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Int32U5BU5D_t484* NumberFormatInfo_get_RawNumberGroupSizes_m17276 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.NumberFormatInfo::get_NumberNegativePattern()
-extern "C" int32_t NumberFormatInfo_get_NumberNegativePattern_m17276 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t NumberFormatInfo_get_NumberNegativePattern_m17277 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.NumberFormatInfo::set_NumberNegativePattern(System.Int32)
-extern "C" void NumberFormatInfo_set_NumberNegativePattern_m17277 (NumberFormatInfo_t452 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NumberFormatInfo_set_NumberNegativePattern_m17278 (NumberFormatInfo_t452 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.NumberFormatInfo::get_PercentDecimalDigits()
-extern "C" int32_t NumberFormatInfo_get_PercentDecimalDigits_m17278 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t NumberFormatInfo_get_PercentDecimalDigits_m17279 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_PercentDecimalSeparator()
-extern "C" String_t* NumberFormatInfo_get_PercentDecimalSeparator_m17279 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_PercentDecimalSeparator_m17280 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_PercentGroupSeparator()
-extern "C" String_t* NumberFormatInfo_get_PercentGroupSeparator_m17280 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_PercentGroupSeparator_m17281 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32[] System.Globalization.NumberFormatInfo::get_RawPercentGroupSizes()
-extern "C" Int32U5BU5D_t484* NumberFormatInfo_get_RawPercentGroupSizes_m17281 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Int32U5BU5D_t484* NumberFormatInfo_get_RawPercentGroupSizes_m17282 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.NumberFormatInfo::get_PercentNegativePattern()
-extern "C" int32_t NumberFormatInfo_get_PercentNegativePattern_m17282 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t NumberFormatInfo_get_PercentNegativePattern_m17283 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.NumberFormatInfo::get_PercentPositivePattern()
-extern "C" int32_t NumberFormatInfo_get_PercentPositivePattern_m17283 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t NumberFormatInfo_get_PercentPositivePattern_m17284 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_PercentSymbol()
-extern "C" String_t* NumberFormatInfo_get_PercentSymbol_m17284 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_PercentSymbol_m17285 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_PerMilleSymbol()
-extern "C" String_t* NumberFormatInfo_get_PerMilleSymbol_m17285 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_PerMilleSymbol_m17286 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_PositiveInfinitySymbol()
-extern "C" String_t* NumberFormatInfo_get_PositiveInfinitySymbol_m17286 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_PositiveInfinitySymbol_m17287 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Globalization.NumberFormatInfo::get_PositiveSign()
-extern "C" String_t* NumberFormatInfo_get_PositiveSign_m17287 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NumberFormatInfo_get_PositiveSign_m17288 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Globalization.NumberFormatInfo::GetFormat(System.Type)
-extern "C" Object_t * NumberFormatInfo_GetFormat_m17288 (NumberFormatInfo_t452 * __this, Type_t * ___formatType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * NumberFormatInfo_GetFormat_m17289 (NumberFormatInfo_t452 * __this, Type_t * ___formatType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Globalization.NumberFormatInfo::Clone()
-extern "C" Object_t * NumberFormatInfo_Clone_m17289 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * NumberFormatInfo_Clone_m17290 (NumberFormatInfo_t452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.NumberFormatInfo System.Globalization.NumberFormatInfo::GetInstance(System.IFormatProvider)
-extern "C" NumberFormatInfo_t452 * NumberFormatInfo_GetInstance_m17290 (Object_t * __this /* static, unused */, Object_t * ___formatProvider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" NumberFormatInfo_t452 * NumberFormatInfo_GetInstance_m17291 (Object_t * __this /* static, unused */, Object_t * ___formatProvider, const MethodInfo* method) IL2CPP_METHOD_ATTR;

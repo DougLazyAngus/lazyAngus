@@ -22,7 +22,7 @@ struct AsyncCallback_t386;
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISubmitHandler>::.ctor(System.Object,System.IntPtr)
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<System.Object>
 #include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEvents_EventF_16MethodDeclarations.h"
-#define EventFunction_1__ctor_m5799(__this, ___object, ___method, method) (( void (*) (EventFunction_1_t870 *, Object_t *, IntPtr_t, const MethodInfo*))EventFunction_1__ctor_m27631_gshared)(__this, ___object, ___method, method)
+#define EventFunction_1__ctor_m5800(__this, ___object, ___method, method) (( void (*) (EventFunction_1_t870 *, Object_t *, IntPtr_t, const MethodInfo*))EventFunction_1__ctor_m27631_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISubmitHandler>::Invoke(T1,UnityEngine.EventSystems.BaseEventData)
 #define EventFunction_1_Invoke_m28276(__this, ___handler, ___eventData, method) (( void (*) (EventFunction_1_t870 *, Object_t *, BaseEventData_t845 *, const MethodInfo*))EventFunction_1_Invoke_m27633_gshared)(__this, ___handler, ___eventData, method)
 // System.IAsyncResult UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISubmitHandler>::BeginInvoke(T1,UnityEngine.EventSystems.BaseEventData,System.AsyncCallback,System.Object)

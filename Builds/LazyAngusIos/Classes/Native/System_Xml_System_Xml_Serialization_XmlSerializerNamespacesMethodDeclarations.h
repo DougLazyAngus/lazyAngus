@@ -8,4 +8,4 @@
 struct XmlSerializerNamespaces_t3159;
 
 // System.Void System.Xml.Serialization.XmlSerializerNamespaces::.ctor()
-extern "C" void XmlSerializerNamespaces__ctor_m10531 (XmlSerializerNamespaces_t3159 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSerializerNamespaces__ctor_m10532 (XmlSerializerNamespaces_t3159 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

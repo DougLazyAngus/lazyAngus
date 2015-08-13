@@ -10,10 +10,10 @@ struct DtdInputStateStack_t3267;
 #include "System_Xml_Mono_Xml2_XmlTextReader_DtdInputState.h"
 
 // System.Void Mono.Xml2.XmlTextReader/DtdInputStateStack::.ctor()
-extern "C" void DtdInputStateStack__ctor_m11201 (DtdInputStateStack_t3267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DtdInputStateStack__ctor_m11202 (DtdInputStateStack_t3267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml2.XmlTextReader/DtdInputState Mono.Xml2.XmlTextReader/DtdInputStateStack::Peek()
-extern "C" int32_t DtdInputStateStack_Peek_m11202 (DtdInputStateStack_t3267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DtdInputStateStack_Peek_m11203 (DtdInputStateStack_t3267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml2.XmlTextReader/DtdInputState Mono.Xml2.XmlTextReader/DtdInputStateStack::Pop()
-extern "C" int32_t DtdInputStateStack_Pop_m11203 (DtdInputStateStack_t3267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DtdInputStateStack_Pop_m11204 (DtdInputStateStack_t3267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml2.XmlTextReader/DtdInputStateStack::Push(Mono.Xml2.XmlTextReader/DtdInputState)
-extern "C" void DtdInputStateStack_Push_m11204 (DtdInputStateStack_t3267 * __this, int32_t ___val, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DtdInputStateStack_Push_m11205 (DtdInputStateStack_t3267 * __this, int32_t ___val, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -7,7 +7,7 @@
 // Parse.Internal.FlexibleListWrapper`2<System.UInt64,System.Single>
 struct FlexibleListWrapper_2_t1690;
 // System.Collections.Generic.IList`1<System.Single>
-struct IList_1_t5728;
+struct IList_1_t5727;
 // System.UInt64[]
 struct UInt64U5BU5D_t4710;
 // System.Collections.Generic.IEnumerator`1<System.UInt64>

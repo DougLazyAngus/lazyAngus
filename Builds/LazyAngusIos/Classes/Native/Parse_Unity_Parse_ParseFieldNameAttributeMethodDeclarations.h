@@ -10,8 +10,8 @@ struct ParseFieldNameAttribute_t1241;
 struct String_t;
 
 // System.Void Parse.ParseFieldNameAttribute::.ctor(System.String)
-extern "C" void ParseFieldNameAttribute__ctor_m6721 (ParseFieldNameAttribute_t1241 * __this, String_t* ___fieldName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseFieldNameAttribute__ctor_m6722 (ParseFieldNameAttribute_t1241 * __this, String_t* ___fieldName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.ParseFieldNameAttribute::get_FieldName()
-extern "C" String_t* ParseFieldNameAttribute_get_FieldName_m6722 (ParseFieldNameAttribute_t1241 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParseFieldNameAttribute_get_FieldName_m6723 (ParseFieldNameAttribute_t1241 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseFieldNameAttribute::set_FieldName(System.String)
-extern "C" void ParseFieldNameAttribute_set_FieldName_m6723 (ParseFieldNameAttribute_t1241 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseFieldNameAttribute_set_FieldName_m6724 (ParseFieldNameAttribute_t1241 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

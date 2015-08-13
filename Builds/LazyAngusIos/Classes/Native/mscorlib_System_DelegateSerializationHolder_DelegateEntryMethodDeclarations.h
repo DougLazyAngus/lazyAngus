@@ -14,6 +14,6 @@ struct String_t;
 struct SerializationInfo_t2919;
 
 // System.Void System.DelegateSerializationHolder/DelegateEntry::.ctor(System.Delegate,System.String)
-extern "C" void DelegateEntry__ctor_m19709 (DelegateEntry_t4797 * __this, Delegate_t724 * ___del, String_t* ___targetLabel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DelegateEntry__ctor_m19710 (DelegateEntry_t4797 * __this, Delegate_t724 * ___del, String_t* ___targetLabel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Delegate System.DelegateSerializationHolder/DelegateEntry::DeserializeDelegate(System.Runtime.Serialization.SerializationInfo)
-extern "C" Delegate_t724 * DelegateEntry_DeserializeDelegate_m19710 (DelegateEntry_t4797 * __this, SerializationInfo_t2919 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Delegate_t724 * DelegateEntry_DeserializeDelegate_m19711 (DelegateEntry_t4797 * __this, SerializationInfo_t2919 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;

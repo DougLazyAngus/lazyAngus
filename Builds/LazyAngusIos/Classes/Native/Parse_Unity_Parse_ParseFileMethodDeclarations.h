@@ -24,30 +24,30 @@ struct IProgress_1_t1243;
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 
 // System.Void Parse.ParseFile::.ctor(System.String,System.Uri,System.String)
-extern "C" void ParseFile__ctor_m6730 (ParseFile_t1242 * __this, String_t* ___name, Uri_t757 * ___uri, String_t* ___mimeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseFile__ctor_m6731 (ParseFile_t1242 * __this, String_t* ___name, Uri_t757 * ___uri, String_t* ___mimeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseFile::.ctor(System.String,System.Byte[],System.String)
-extern "C" void ParseFile__ctor_m6731 (ParseFile_t1242 * __this, String_t* ___name, ByteU5BU5D_t66* ___data, String_t* ___mimeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseFile__ctor_m6732 (ParseFile_t1242 * __this, String_t* ___name, ByteU5BU5D_t66* ___data, String_t* ___mimeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseFile::.ctor(System.String,System.IO.Stream,System.String)
-extern "C" void ParseFile__ctor_m6732 (ParseFile_t1242 * __this, String_t* ___name, Stream_t51 * ___data, String_t* ___mimeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseFile__ctor_m6733 (ParseFile_t1242 * __this, String_t* ___name, Stream_t51 * ___data, String_t* ___mimeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.ParseFile::get_IsDirty()
-extern "C" bool ParseFile_get_IsDirty_m6733 (ParseFile_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ParseFile_get_IsDirty_m6734 (ParseFile_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.ParseFile::get_Name()
-extern "C" String_t* ParseFile_get_Name_m6734 (ParseFile_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParseFile_get_Name_m6735 (ParseFile_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.ParseFile::get_MimeType()
-extern "C" String_t* ParseFile_get_MimeType_m6735 (ParseFile_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParseFile_get_MimeType_m6736 (ParseFile_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Uri Parse.ParseFile::get_Url()
-extern "C" Uri_t757 * ParseFile_get_Url_m6736 (ParseFile_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Uri_t757 * ParseFile_get_Url_m6737 (ParseFile_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseFile::ToJSON()
-extern "C" Object_t* ParseFile_ToJSON_m6737 (ParseFile_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* ParseFile_ToJSON_m6738 (ParseFile_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseFile::MergeFromJSON(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C" void ParseFile_MergeFromJSON_m6738 (ParseFile_t1242 * __this, Object_t* ___jsonData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseFile_MergeFromJSON_m6739 (ParseFile_t1242 * __this, Object_t* ___jsonData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseFile::SaveAsync()
-extern "C" Task_t1210 * ParseFile_SaveAsync_m6739 (ParseFile_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1210 * ParseFile_SaveAsync_m6740 (ParseFile_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseFile::SaveAsync(System.Threading.CancellationToken)
-extern "C" Task_t1210 * ParseFile_SaveAsync_m6740 (ParseFile_t1242 * __this, CancellationToken_t1164  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1210 * ParseFile_SaveAsync_m6741 (ParseFile_t1242 * __this, CancellationToken_t1164  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseFile::SaveAsync(System.IProgress`1<Parse.ParseUploadProgressEventArgs>)
-extern "C" Task_t1210 * ParseFile_SaveAsync_m6741 (ParseFile_t1242 * __this, Object_t* ___progress, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1210 * ParseFile_SaveAsync_m6742 (ParseFile_t1242 * __this, Object_t* ___progress, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseFile::SaveAsync(System.IProgress`1<Parse.ParseUploadProgressEventArgs>,System.Threading.CancellationToken)
-extern "C" Task_t1210 * ParseFile_SaveAsync_m6742 (ParseFile_t1242 * __this, Object_t* ___progress, CancellationToken_t1164  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1210 * ParseFile_SaveAsync_m6743 (ParseFile_t1242 * __this, Object_t* ___progress, CancellationToken_t1164  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseFile::SaveAsync(System.Threading.Tasks.Task,System.IProgress`1<Parse.ParseUploadProgressEventArgs>,System.Threading.CancellationToken)
-extern "C" Task_t1210 * ParseFile_SaveAsync_m6743 (ParseFile_t1242 * __this, Task_t1210 * ___toAwait, Object_t* ___progress, CancellationToken_t1164  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1210 * ParseFile_SaveAsync_m6744 (ParseFile_t1242 * __this, Task_t1210 * ___toAwait, Object_t* ___progress, CancellationToken_t1164  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;

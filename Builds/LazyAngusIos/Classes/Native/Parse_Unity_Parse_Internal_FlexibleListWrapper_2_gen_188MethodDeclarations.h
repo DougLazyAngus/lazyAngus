@@ -17,7 +17,7 @@ struct IEnumerator_1_t105;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.IList`1<System.Single>
-struct IList_1_t5728;
+struct IList_1_t5727;
 
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.IList`1<System.Single>>::.ctor(System.Collections.Generic.IList`1<TIn>)
 // Parse.Internal.FlexibleListWrapper`2<System.Object,System.Object>

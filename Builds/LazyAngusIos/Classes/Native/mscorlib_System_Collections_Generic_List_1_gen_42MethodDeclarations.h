@@ -36,7 +36,7 @@ struct Comparison_1_t6098;
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::.ctor()
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
 #include "mscorlib_System_Collections_Generic_List_1_gen_70MethodDeclarations.h"
-#define List_1__ctor_m7474(__this, method) (( void (*) (List_1_t1385 *, const MethodInfo*))List_1__ctor_m31434_gshared)(__this, method)
+#define List_1__ctor_m7475(__this, method) (( void (*) (List_1_t1385 *, const MethodInfo*))List_1__ctor_m31434_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1__ctor_m32164(__this, ___collection, method) (( void (*) (List_1_t1385 *, Object_t*, const MethodInfo*))List_1__ctor_m31435_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::.ctor(System.Int32)

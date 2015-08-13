@@ -30,11 +30,11 @@ struct Object_t;
 // System.Void System.Collections.Generic.HashSet`1<System.String>::.ctor()
 // System.Collections.Generic.HashSet`1<System.Object>
 #include "System_Core_System_Collections_Generic_HashSet_1_gen_0MethodDeclarations.h"
-#define HashSet_1__ctor_m7438(__this, method) (( void (*) (HashSet_1_t1290 *, const MethodInfo*))HashSet_1__ctor_m30472_gshared)(__this, method)
+#define HashSet_1__ctor_m7439(__this, method) (( void (*) (HashSet_1_t1290 *, const MethodInfo*))HashSet_1__ctor_m30472_gshared)(__this, method)
 // System.Void System.Collections.Generic.HashSet`1<System.String>::.ctor(System.Collections.Generic.IEqualityComparer`1<T>)
-#define HashSet_1__ctor_m32108(__this, ___comparer, method) (( void (*) (HashSet_1_t1290 *, Object_t*, const MethodInfo*))HashSet_1__ctor_m7480_gshared)(__this, ___comparer, method)
+#define HashSet_1__ctor_m32108(__this, ___comparer, method) (( void (*) (HashSet_1_t1290 *, Object_t*, const MethodInfo*))HashSet_1__ctor_m7481_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.HashSet`1<System.String>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-#define HashSet_1__ctor_m7441(__this, ___collection, method) (( void (*) (HashSet_1_t1290 *, Object_t*, const MethodInfo*))HashSet_1__ctor_m30473_gshared)(__this, ___collection, method)
+#define HashSet_1__ctor_m7442(__this, ___collection, method) (( void (*) (HashSet_1_t1290 *, Object_t*, const MethodInfo*))HashSet_1__ctor_m30473_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.HashSet`1<System.String>::.ctor(System.Collections.Generic.IEnumerable`1<T>,System.Collections.Generic.IEqualityComparer`1<T>)
 #define HashSet_1__ctor_m32109(__this, ___collection, ___comparer, method) (( void (*) (HashSet_1_t1290 *, Object_t*, Object_t*, const MethodInfo*))HashSet_1__ctor_m30474_gshared)(__this, ___collection, ___comparer, method)
 // System.Void System.Collections.Generic.HashSet`1<System.String>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -68,7 +68,7 @@ struct Object_t;
 // System.Int32 System.Collections.Generic.HashSet`1<System.String>::GetItemHashCode(T)
 #define HashSet_1_GetItemHashCode_m32124(__this, ___item, method) (( int32_t (*) (HashSet_1_t1290 *, String_t*, const MethodInfo*))HashSet_1_GetItemHashCode_m30489_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.HashSet`1<System.String>::Add(T)
-#define HashSet_1_Add_m7658(__this, ___item, method) (( bool (*) (HashSet_1_t1290 *, String_t*, const MethodInfo*))HashSet_1_Add_m30490_gshared)(__this, ___item, method)
+#define HashSet_1_Add_m7659(__this, ___item, method) (( bool (*) (HashSet_1_t1290 *, String_t*, const MethodInfo*))HashSet_1_Add_m30490_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.HashSet`1<System.String>::Clear()
 #define HashSet_1_Clear_m32125(__this, method) (( void (*) (HashSet_1_t1290 *, const MethodInfo*))HashSet_1_Clear_m30491_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.HashSet`1<System.String>::Contains(T)

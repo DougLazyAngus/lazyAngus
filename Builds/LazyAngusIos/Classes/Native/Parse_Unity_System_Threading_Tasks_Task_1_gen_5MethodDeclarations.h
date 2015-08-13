@@ -18,9 +18,9 @@ struct AggregateException_t1338;
 #include "Parse_Unity_System_Threading_Tasks_Task_1_gen_2MethodDeclarations.h"
 #define Task_1__ctor_m31742(__this, method) (( void (*) (Task_1_t1357 *, const MethodInfo*))Task_1__ctor_m30544_gshared)(__this, method)
 // T System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>::get_Result()
-#define Task_1_get_Result_m7829(__this, method) (( Task_t1210 * (*) (Task_1_t1357 *, const MethodInfo*))Task_1_get_Result_m30545_gshared)(__this, method)
+#define Task_1_get_Result_m7830(__this, method) (( Task_t1210 * (*) (Task_1_t1357 *, const MethodInfo*))Task_1_get_Result_m30545_gshared)(__this, method)
 // System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<T>>)
-#define Task_1_ContinueWith_m7831(__this, ___continuation, method) (( Task_t1210 * (*) (Task_1_t1357 *, Action_1_t2159 *, const MethodInfo*))Task_1_ContinueWith_m30547_gshared)(__this, ___continuation, method)
+#define Task_1_ContinueWith_m7832(__this, ___continuation, method) (( Task_t1210 * (*) (Task_1_t1357 *, Action_1_t2159 *, const MethodInfo*))Task_1_ContinueWith_m30547_gshared)(__this, ___continuation, method)
 // System.Void System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>::RunContinuations()
 #define Task_1_RunContinuations_m31743(__this, method) (( void (*) (Task_1_t1357 *, const MethodInfo*))Task_1_RunContinuations_m30549_gshared)(__this, method)
 // System.Boolean System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>::TrySetResult(T)

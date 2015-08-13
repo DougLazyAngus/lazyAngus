@@ -10,8 +10,8 @@ struct GenericComparer_1_t4904;
 #include "mscorlib_System_DateTimeOffset.h"
 
 // System.Void System.Collections.Generic.GenericComparer`1<System.DateTimeOffset>::.ctor()
-extern "C" void GenericComparer_1__ctor_m20175_gshared (GenericComparer_1_t4904 * __this, const MethodInfo* method);
-#define GenericComparer_1__ctor_m20175(__this, method) (( void (*) (GenericComparer_1_t4904 *, const MethodInfo*))GenericComparer_1__ctor_m20175_gshared)(__this, method)
+extern "C" void GenericComparer_1__ctor_m20176_gshared (GenericComparer_1_t4904 * __this, const MethodInfo* method);
+#define GenericComparer_1__ctor_m20176(__this, method) (( void (*) (GenericComparer_1_t4904 *, const MethodInfo*))GenericComparer_1__ctor_m20176_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.GenericComparer`1<System.DateTimeOffset>::Compare(T,T)
 extern "C" int32_t GenericComparer_1_Compare_m64225_gshared (GenericComparer_1_t4904 * __this, DateTimeOffset_t2945  ___x, DateTimeOffset_t2945  ___y, const MethodInfo* method);
 #define GenericComparer_1_Compare_m64225(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t4904 *, DateTimeOffset_t2945 , DateTimeOffset_t2945 , const MethodInfo*))GenericComparer_1_Compare_m64225_gshared)(__this, ___x, ___y, method)

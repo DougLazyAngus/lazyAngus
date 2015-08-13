@@ -20,7 +20,7 @@ struct AsyncCallback_t386;
 // System.Void UnityEngine.Events.UnityAction`1<System.String>::.ctor(System.Object,System.IntPtr)
 // UnityEngine.Events.UnityAction`1<System.Object>
 #include "UnityEngine_UnityEngine_Events_UnityAction_1_gen_7MethodDeclarations.h"
-#define UnityAction_1__ctor_m4312(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t800 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m27494_gshared)(__this, ___object, ___method, method)
+#define UnityAction_1__ctor_m4313(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t800 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m27494_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Events.UnityAction`1<System.String>::Invoke(T0)
 #define UnityAction_1_Invoke_m27495(__this, ___arg0, method) (( void (*) (UnityAction_1_t800 *, String_t*, const MethodInfo*))UnityAction_1_Invoke_m27496_gshared)(__this, ___arg0, method)
 // System.IAsyncResult UnityEngine.Events.UnityAction`1<System.String>::BeginInvoke(T0,System.AsyncCallback,System.Object)

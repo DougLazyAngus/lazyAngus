@@ -8,4 +8,4 @@
 struct ScrollRectEvent_t965;
 
 // System.Void UnityEngine.UI.ScrollRect/ScrollRectEvent::.ctor()
-extern "C" void ScrollRectEvent__ctor_m5294 (ScrollRectEvent_t965 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ScrollRectEvent__ctor_m5295 (ScrollRectEvent_t965 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

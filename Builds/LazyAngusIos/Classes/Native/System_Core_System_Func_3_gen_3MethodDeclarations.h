@@ -22,7 +22,7 @@ struct AsyncCallback_t386;
 // System.Void System.Func`3<System.Object,Parse.ParseObject,<>f__AnonymousType6`2<System.Object,Parse.ParseObject>>::.ctor(System.Object,System.IntPtr)
 // System.Func`3<System.Object,System.Object,System.Object>
 #include "System_Core_System_Func_3_genMethodDeclarations.h"
-#define Func_3__ctor_m32595(__this, ___object, ___method, method) (( void (*) (Func_3_t6117 *, Object_t *, IntPtr_t, const MethodInfo*))Func_3__ctor_m7381_gshared)(__this, ___object, ___method, method)
+#define Func_3__ctor_m32595(__this, ___object, ___method, method) (( void (*) (Func_3_t6117 *, Object_t *, IntPtr_t, const MethodInfo*))Func_3__ctor_m7382_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`3<System.Object,Parse.ParseObject,<>f__AnonymousType6`2<System.Object,Parse.ParseObject>>::Invoke(T1,T2)
 #define Func_3_Invoke_m32596(__this, ___arg1, ___arg2, method) (( U3CU3Ef__AnonymousType6_2_t6127 * (*) (Func_3_t6117 *, Object_t *, ParseObject_t1221 *, const MethodInfo*))Func_3_Invoke_m30656_gshared)(__this, ___arg1, ___arg2, method)
 // System.IAsyncResult System.Func`3<System.Object,Parse.ParseObject,<>f__AnonymousType6`2<System.Object,Parse.ParseObject>>::BeginInvoke(T1,T2,System.AsyncCallback,System.Object)

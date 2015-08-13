@@ -10,8 +10,8 @@ struct SystemInfo_t2687;
 struct String_t;
 
 // System.String UnityEngine.SystemInfo::get_operatingSystem()
-extern "C" String_t* SystemInfo_get_operatingSystem_m4335 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SystemInfo_get_operatingSystem_m4336 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.SystemInfo::get_deviceUniqueIdentifier()
-extern "C" String_t* SystemInfo_get_deviceUniqueIdentifier_m8695 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SystemInfo_get_deviceUniqueIdentifier_m8696 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.SystemInfo::get_deviceModel()
-extern "C" String_t* SystemInfo_get_deviceModel_m7778 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SystemInfo_get_deviceModel_m7779 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

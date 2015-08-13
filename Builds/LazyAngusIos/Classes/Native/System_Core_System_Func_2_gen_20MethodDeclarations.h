@@ -22,7 +22,7 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,<>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>
 #include "System_Core_System_Func_2_gen_68MethodDeclarations.h"
-#define Func_2__ctor_m7475(__this, ___object, ___method, method) (( void (*) (Func_2_t1228 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m32101_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m7476(__this, ___object, ___method, method) (( void (*) (Func_2_t1228 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m32101_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,<>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>>::Invoke(T)
 #define Func_2_Invoke_m32368(__this, ___arg1, method) (( U3CU3Ef__AnonymousType2_2_t1388 * (*) (Func_2_t1228 *, KeyValuePair_2_t777 , const MethodInfo*))Func_2_Invoke_m32103_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,<>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>>::BeginInvoke(T,System.AsyncCallback,System.Object)

@@ -8,4 +8,4 @@
 struct PreserveSigAttribute_t4579;
 
 // System.Void System.Runtime.InteropServices.PreserveSigAttribute::.ctor()
-extern "C" void PreserveSigAttribute__ctor_m18160 (PreserveSigAttribute_t4579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PreserveSigAttribute__ctor_m18161 (PreserveSigAttribute_t4579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

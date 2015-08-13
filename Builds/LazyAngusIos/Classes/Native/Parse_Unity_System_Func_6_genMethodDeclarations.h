@@ -20,7 +20,7 @@ struct AsyncCallback_t386;
 // System.Void System.Func`6<System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object,System.IAsyncResult>::.ctor(System.Object,System.IntPtr)
 // System.Func`6<System.Object,System.Int32,System.Int32,System.Object,System.Object,System.Object>
 #include "Parse_Unity_System_Func_6_gen_1MethodDeclarations.h"
-#define Func_6__ctor_m7299(__this, ___object, ___method, method) (( void (*) (Func_6_t1422 *, Object_t *, IntPtr_t, const MethodInfo*))Func_6__ctor_m30634_gshared)(__this, ___object, ___method, method)
+#define Func_6__ctor_m7300(__this, ___object, ___method, method) (( void (*) (Func_6_t1422 *, Object_t *, IntPtr_t, const MethodInfo*))Func_6__ctor_m30634_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`6<System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object,System.IAsyncResult>::Invoke(TArg1,TArg2,TArg3,TArg4,TArg5)
 #define Func_6_Invoke_m30635(__this, ___arg1, ___arg2, ___arg3, ___arg4, ___arg5, method) (( Object_t * (*) (Func_6_t1422 *, ByteU5BU5D_t66*, int32_t, int32_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_6_Invoke_m30636_gshared)(__this, ___arg1, ___arg2, ___arg3, ___arg4, ___arg5, method)
 // System.IAsyncResult System.Func`6<System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object,System.IAsyncResult>::BeginInvoke(TArg1,TArg2,TArg3,TArg4,TArg5,System.AsyncCallback,System.Object)

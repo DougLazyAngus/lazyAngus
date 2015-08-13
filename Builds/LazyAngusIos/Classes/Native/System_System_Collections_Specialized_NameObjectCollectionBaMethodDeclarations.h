@@ -12,4 +12,4 @@ struct String_t;
 struct Object_t;
 
 // System.Void System.Collections.Specialized.NameObjectCollectionBase/_Item::.ctor(System.String,System.Object)
-extern "C" void _Item__ctor_m13369 (_Item_t3962 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void _Item__ctor_m13370 (_Item_t3962 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

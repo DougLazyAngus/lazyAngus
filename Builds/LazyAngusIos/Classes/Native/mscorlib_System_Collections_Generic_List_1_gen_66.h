@@ -5,7 +5,7 @@ struct SingleU5BU5D_t586;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<System.Single>
-struct  List_1_t5726  : public Object_t
+struct  List_1_t5725  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<System.Single>::_items
 	SingleU5BU5D_t586* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t5726  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<System.Single>::_version
 	int32_t ____version_3;
 };
-struct List_1_t5726_StaticFields{
+struct List_1_t5725_StaticFields{
 	// T[] System.Collections.Generic.List`1<System.Single>::EmptyArray
 	SingleU5BU5D_t586* ___EmptyArray_4;
 };

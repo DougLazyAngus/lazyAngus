@@ -16,8 +16,8 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Func`1<System.Int32>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_1__ctor_m7818_gshared (Func_1_t1354 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_1__ctor_m7818(__this, ___object, ___method, method) (( void (*) (Func_1_t1354 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m7818_gshared)(__this, ___object, ___method, method)
+extern "C" void Func_1__ctor_m7819_gshared (Func_1_t1354 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Func_1__ctor_m7819(__this, ___object, ___method, method) (( void (*) (Func_1_t1354 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m7819_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`1<System.Int32>::Invoke()
 extern "C" int32_t Func_1_Invoke_m59791_gshared (Func_1_t1354 * __this, const MethodInfo* method);
 #define Func_1_Invoke_m59791(__this, method) (( int32_t (*) (Func_1_t1354 *, const MethodInfo*))Func_1_Invoke_m59791_gshared)(__this, method)

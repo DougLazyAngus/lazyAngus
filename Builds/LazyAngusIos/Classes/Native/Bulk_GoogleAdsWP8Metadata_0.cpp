@@ -438,10 +438,10 @@ extern const MethodInfo AdManager_SetOrientation_m3798_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::.ctor()
-extern const MethodInfo AdManager__ctor_m10417_MethodInfo = 
+extern const MethodInfo AdManager__ctor_m10418_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AdManager__ctor_m10417/* method */
+	, (methodPointerType)&AdManager__ctor_m10418/* method */
 	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -474,7 +474,7 @@ static const MethodInfo* AdManager_t730_MethodInfos[] =
 	&AdManager_LoadInterstitialAd_m3807_MethodInfo,
 	&AdManager_ShowInterstitialAd_m3808_MethodInfo,
 	&AdManager_SetOrientation_m3798_MethodInfo,
-	&AdManager__ctor_m10417_MethodInfo,
+	&AdManager__ctor_m10418_MethodInfo,
 	NULL
 };
 extern const MethodInfo AdManager_get_instance_m3796_MethodInfo;

@@ -18,8 +18,8 @@ struct AsyncCallback_t386;
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Void UnityEngine.Events.UnityAction`1<UnityEngine.Color>::.ctor(System.Object,System.IntPtr)
-extern "C" void UnityAction_1__ctor_m5926_gshared (UnityAction_1_t1040 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define UnityAction_1__ctor_m5926(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t1040 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m5926_gshared)(__this, ___object, ___method, method)
+extern "C" void UnityAction_1__ctor_m5927_gshared (UnityAction_1_t1040 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define UnityAction_1__ctor_m5927(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t1040 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m5927_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Events.UnityAction`1<UnityEngine.Color>::Invoke(T0)
 extern "C" void UnityAction_1_Invoke_m28703_gshared (UnityAction_1_t1040 * __this, Color_t325  ___arg0, const MethodInfo* method);
 #define UnityAction_1_Invoke_m28703(__this, ___arg0, method) (( void (*) (UnityAction_1_t1040 *, Color_t325 , const MethodInfo*))UnityAction_1_Invoke_m28703_gshared)(__this, ___arg0, method)

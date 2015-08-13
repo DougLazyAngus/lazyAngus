@@ -10,4 +10,4 @@ struct SetPropertyUtility_t973;
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Boolean UnityEngine.UI.SetPropertyUtility::SetColor(UnityEngine.Color&,UnityEngine.Color)
-extern "C" bool SetPropertyUtility_SetColor_m5409 (Object_t * __this /* static, unused */, Color_t325 * ___currentValue, Color_t325  ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SetPropertyUtility_SetColor_m5410 (Object_t * __this /* static, unused */, Color_t325 * ___currentValue, Color_t325  ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;

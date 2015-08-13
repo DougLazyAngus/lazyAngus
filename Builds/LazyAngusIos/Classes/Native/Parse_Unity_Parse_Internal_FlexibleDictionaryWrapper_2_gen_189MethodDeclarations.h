@@ -11,7 +11,7 @@ struct ICollection_1_t1213;
 // System.Collections.Generic.ICollection`1<System.Collections.Generic.IList`1<System.Single>>
 struct ICollection_1_t9422;
 // System.Collections.Generic.IList`1<System.Single>
-struct IList_1_t5728;
+struct IList_1_t5727;
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>

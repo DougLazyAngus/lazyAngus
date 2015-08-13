@@ -40,8 +40,8 @@ extern "C" void List_1__ctor_m60735_gshared (List_1_t2789 * __this, const Method
 extern "C" void List_1__ctor_m60736_gshared (List_1_t2789 * __this, Object_t* ___collection, const MethodInfo* method);
 #define List_1__ctor_m60736(__this, ___collection, method) (( void (*) (List_1_t2789 *, Object_t*, const MethodInfo*))List_1__ctor_m60736_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UICharInfo>::.ctor(System.Int32)
-extern "C" void List_1__ctor_m10118_gshared (List_1_t2789 * __this, int32_t ___capacity, const MethodInfo* method);
-#define List_1__ctor_m10118(__this, ___capacity, method) (( void (*) (List_1_t2789 *, int32_t, const MethodInfo*))List_1__ctor_m10118_gshared)(__this, ___capacity, method)
+extern "C" void List_1__ctor_m10119_gshared (List_1_t2789 * __this, int32_t ___capacity, const MethodInfo* method);
+#define List_1__ctor_m10119(__this, ___capacity, method) (( void (*) (List_1_t2789 *, int32_t, const MethodInfo*))List_1__ctor_m10119_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UICharInfo>::.ctor(T[],System.Int32)
 extern "C" void List_1__ctor_m60737_gshared (List_1_t2789 * __this, UICharInfoU5BU5D_t2909* ___data, int32_t ___size, const MethodInfo* method);
 #define List_1__ctor_m60737(__this, ___data, ___size, method) (( void (*) (List_1_t2789 *, UICharInfoU5BU5D_t2909*, int32_t, const MethodInfo*))List_1__ctor_m60737_gshared)(__this, ___data, ___size, method)

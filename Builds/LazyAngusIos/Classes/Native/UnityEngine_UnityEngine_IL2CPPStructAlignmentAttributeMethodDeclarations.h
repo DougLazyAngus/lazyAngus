@@ -8,4 +8,4 @@
 struct IL2CPPStructAlignmentAttribute_t2836;
 
 // System.Void UnityEngine.IL2CPPStructAlignmentAttribute::.ctor()
-extern "C" void IL2CPPStructAlignmentAttribute__ctor_m9859 (IL2CPPStructAlignmentAttribute_t2836 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IL2CPPStructAlignmentAttribute__ctor_m9860 (IL2CPPStructAlignmentAttribute_t2836 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

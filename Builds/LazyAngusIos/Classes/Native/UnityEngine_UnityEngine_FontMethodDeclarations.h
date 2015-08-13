@@ -12,16 +12,16 @@ struct Material_t523;
 struct Action_1_t1061;
 
 // System.Void UnityEngine.Font::add_textureRebuilt(System.Action`1<UnityEngine.Font>)
-extern "C" void Font_add_textureRebuilt_m5898 (Object_t * __this /* static, unused */, Action_1_t1061 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Font_add_textureRebuilt_m5899 (Object_t * __this /* static, unused */, Action_1_t1061 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Font::remove_textureRebuilt(System.Action`1<UnityEngine.Font>)
-extern "C" void Font_remove_textureRebuilt_m9586 (Object_t * __this /* static, unused */, Action_1_t1061 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Font_remove_textureRebuilt_m9587 (Object_t * __this /* static, unused */, Action_1_t1061 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Material UnityEngine.Font::get_material()
-extern "C" Material_t523 * Font_get_material_m6138 (Font_t914 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Material_t523 * Font_get_material_m6139 (Font_t914 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Font::HasCharacter(System.Char)
-extern "C" bool Font_HasCharacter_m6034 (Font_t914 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Font_HasCharacter_m6035 (Font_t914 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Font::InvokeTextureRebuilt_Internal(UnityEngine.Font)
-extern "C" void Font_InvokeTextureRebuilt_Internal_m9587 (Object_t * __this /* static, unused */, Font_t914 * ___font, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Font_InvokeTextureRebuilt_Internal_m9588 (Object_t * __this /* static, unused */, Font_t914 * ___font, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Font::get_dynamic()
-extern "C" bool Font_get_dynamic_m6140 (Font_t914 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Font_get_dynamic_m6141 (Font_t914 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Font::get_fontSize()
-extern "C" int32_t Font_get_fontSize_m6141 (Font_t914 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Font_get_fontSize_m6142 (Font_t914 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

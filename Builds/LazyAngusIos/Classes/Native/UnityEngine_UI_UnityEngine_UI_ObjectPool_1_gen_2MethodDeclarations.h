@@ -14,7 +14,7 @@ struct List_1_t1047;
 // System.Void UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.Component>>::.ctor(UnityEngine.Events.UnityAction`1<T>,UnityEngine.Events.UnityAction`1<T>)
 // UnityEngine.UI.ObjectPool`1<System.Object>
 #include "UnityEngine_UI_UnityEngine_UI_ObjectPool_1_gen_3MethodDeclarations.h"
-#define ObjectPool_1__ctor_m6196(__this, ___actionOnGet, ___actionOnRelease, method) (( void (*) (ObjectPool_1_t1014 *, UnityAction_1_t1015 *, UnityAction_1_t1015 *, const MethodInfo*))ObjectPool_1__ctor_m27741_gshared)(__this, ___actionOnGet, ___actionOnRelease, method)
+#define ObjectPool_1__ctor_m6197(__this, ___actionOnGet, ___actionOnRelease, method) (( void (*) (ObjectPool_1_t1014 *, UnityAction_1_t1015 *, UnityAction_1_t1015 *, const MethodInfo*))ObjectPool_1__ctor_m27741_gshared)(__this, ___actionOnGet, ___actionOnRelease, method)
 // System.Int32 UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.Component>>::get_countAll()
 #define ObjectPool_1_get_countAll_m30327(__this, method) (( int32_t (*) (ObjectPool_1_t1014 *, const MethodInfo*))ObjectPool_1_get_countAll_m27743_gshared)(__this, method)
 // System.Void UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.Component>>::set_countAll(System.Int32)
@@ -24,6 +24,6 @@ struct List_1_t1047;
 // System.Int32 UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.Component>>::get_countInactive()
 #define ObjectPool_1_get_countInactive_m30330(__this, method) (( int32_t (*) (ObjectPool_1_t1014 *, const MethodInfo*))ObjectPool_1_get_countInactive_m27749_gshared)(__this, method)
 // T UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.Component>>::Get()
-#define ObjectPool_1_Get_m6197(__this, method) (( List_1_t1047 * (*) (ObjectPool_1_t1014 *, const MethodInfo*))ObjectPool_1_Get_m27751_gshared)(__this, method)
+#define ObjectPool_1_Get_m6198(__this, method) (( List_1_t1047 * (*) (ObjectPool_1_t1014 *, const MethodInfo*))ObjectPool_1_Get_m27751_gshared)(__this, method)
 // System.Void UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.Component>>::Release(T)
-#define ObjectPool_1_Release_m6198(__this, ___element, method) (( void (*) (ObjectPool_1_t1014 *, List_1_t1047 *, const MethodInfo*))ObjectPool_1_Release_m27753_gshared)(__this, ___element, method)
+#define ObjectPool_1_Release_m6199(__this, ___element, method) (( void (*) (ObjectPool_1_t1014 *, List_1_t1047 *, const MethodInfo*))ObjectPool_1_Release_m27753_gshared)(__this, ___element, method)

@@ -12,4 +12,4 @@ struct Rigidbody_t2767;
 // System.Void UnityEngine.Collider::set_enabled(System.Boolean)
 extern "C" void Collider_set_enabled_m4023 (Collider_t764 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rigidbody UnityEngine.Collider::get_attachedRigidbody()
-extern "C" Rigidbody_t2767 * Collider_get_attachedRigidbody_m9483 (Collider_t764 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rigidbody_t2767 * Collider_get_attachedRigidbody_m9484 (Collider_t764 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

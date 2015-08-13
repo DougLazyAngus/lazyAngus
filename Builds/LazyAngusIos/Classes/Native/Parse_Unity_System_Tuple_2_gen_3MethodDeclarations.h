@@ -24,7 +24,7 @@ struct Object_t;
 // System.Void System.Tuple`2<System.Type,System.String>::set_Item2(T2)
 #define Tuple_2_set_Item2_m33220(__this, ___value, method) (( void (*) (Tuple_2_t1499 *, String_t*, const MethodInfo*))Tuple_2_set_Item2_m30851_gshared)(__this, ___value, method)
 // System.Void System.Tuple`2<System.Type,System.String>::.ctor(T1,T2)
-#define Tuple_2__ctor_m7583(__this, ___item1, ___item2, method) (( void (*) (Tuple_2_t1499 *, Type_t *, String_t*, const MethodInfo*))Tuple_2__ctor_m30853_gshared)(__this, ___item1, ___item2, method)
+#define Tuple_2__ctor_m7584(__this, ___item1, ___item2, method) (( void (*) (Tuple_2_t1499 *, Type_t *, String_t*, const MethodInfo*))Tuple_2__ctor_m30853_gshared)(__this, ___item1, ___item2, method)
 // System.Boolean System.Tuple`2<System.Type,System.String>::Equals(System.Object)
 #define Tuple_2_Equals_m33221(__this, ___obj, method) (( bool (*) (Tuple_2_t1499 *, Object_t *, const MethodInfo*))Tuple_2_Equals_m30855_gshared)(__this, ___obj, method)
 // System.Int32 System.Tuple`2<System.Type,System.String>::GetHashCode()

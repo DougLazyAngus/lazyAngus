@@ -26,6 +26,6 @@ struct List_1_t3187;
 // System.Void System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::VerifyState()
 #define Enumerator_VerifyState_m62924(__this, method) (( void (*) (Enumerator_t3185 *, const MethodInfo*))Enumerator_VerifyState_m31496_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::MoveNext()
-#define Enumerator_MoveNext_m11440(__this, method) (( bool (*) (Enumerator_t3185 *, const MethodInfo*))Enumerator_MoveNext_m31497_gshared)(__this, method)
+#define Enumerator_MoveNext_m11441(__this, method) (( bool (*) (Enumerator_t3185 *, const MethodInfo*))Enumerator_MoveNext_m31497_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::get_Current()
-#define Enumerator_get_Current_m11438(__this, method) (( KeyValuePair_2_t3186  (*) (Enumerator_t3185 *, const MethodInfo*))Enumerator_get_Current_m31498_gshared)(__this, method)
+#define Enumerator_get_Current_m11439(__this, method) (( KeyValuePair_2_t3186  (*) (Enumerator_t3185 *, const MethodInfo*))Enumerator_get_Current_m31498_gshared)(__this, method)

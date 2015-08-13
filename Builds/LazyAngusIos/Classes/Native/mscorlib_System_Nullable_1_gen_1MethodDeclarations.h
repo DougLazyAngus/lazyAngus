@@ -16,14 +16,14 @@ struct String_t;
 #include "mscorlib_System_Nullable_1_gen_1.h"
 
 // System.Void System.Nullable`1<System.Guid>::.ctor(T)
-extern "C" void Nullable_1__ctor_m7467_gshared (Nullable_1_t1231 * __this, Guid_t74  ___value, const MethodInfo* method);
-#define Nullable_1__ctor_m7467(__this, ___value, method) (( void (*) (Nullable_1_t1231 *, Guid_t74 , const MethodInfo*))Nullable_1__ctor_m7467_gshared)(__this, ___value, method)
+extern "C" void Nullable_1__ctor_m7468_gshared (Nullable_1_t1231 * __this, Guid_t74  ___value, const MethodInfo* method);
+#define Nullable_1__ctor_m7468(__this, ___value, method) (( void (*) (Nullable_1_t1231 *, Guid_t74 , const MethodInfo*))Nullable_1__ctor_m7468_gshared)(__this, ___value, method)
 // System.Boolean System.Nullable`1<System.Guid>::get_HasValue()
-extern "C" bool Nullable_1_get_HasValue_m7466_gshared (Nullable_1_t1231 * __this, const MethodInfo* method);
-#define Nullable_1_get_HasValue_m7466(__this, method) (( bool (*) (Nullable_1_t1231 *, const MethodInfo*))Nullable_1_get_HasValue_m7466_gshared)(__this, method)
+extern "C" bool Nullable_1_get_HasValue_m7467_gshared (Nullable_1_t1231 * __this, const MethodInfo* method);
+#define Nullable_1_get_HasValue_m7467(__this, method) (( bool (*) (Nullable_1_t1231 *, const MethodInfo*))Nullable_1_get_HasValue_m7467_gshared)(__this, method)
 // T System.Nullable`1<System.Guid>::get_Value()
-extern "C" Guid_t74  Nullable_1_get_Value_m7649_gshared (Nullable_1_t1231 * __this, const MethodInfo* method);
-#define Nullable_1_get_Value_m7649(__this, method) (( Guid_t74  (*) (Nullable_1_t1231 *, const MethodInfo*))Nullable_1_get_Value_m7649_gshared)(__this, method)
+extern "C" Guid_t74  Nullable_1_get_Value_m7650_gshared (Nullable_1_t1231 * __this, const MethodInfo* method);
+#define Nullable_1_get_Value_m7650(__this, method) (( Guid_t74  (*) (Nullable_1_t1231 *, const MethodInfo*))Nullable_1_get_Value_m7650_gshared)(__this, method)
 // System.Boolean System.Nullable`1<System.Guid>::Equals(System.Object)
 extern "C" bool Nullable_1_Equals_m32159_gshared (Nullable_1_t1231 * __this, Object_t * ___other, const MethodInfo* method);
 #define Nullable_1_Equals_m32159(__this, ___other, method) (( bool (*) (Nullable_1_t1231 *, Object_t *, const MethodInfo*))Nullable_1_Equals_m32159_gshared)(__this, ___other, method)
