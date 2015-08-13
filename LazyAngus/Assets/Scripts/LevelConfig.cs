@@ -292,17 +292,7 @@ public class LevelConfig : MonoBehaviour
 
 			SetupInitialAccumulators (ld);
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs,
-				                      3.0f, true, MouseHole.MouseHoleLocation.NORTH,
-				                      MouseConfig.MouseType.SLOW, 
-				                      0);
-				
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, 
-				                      true, MouseHole.MouseHoleLocation.SOUTH,
-				                      MouseConfig.MouseType.SLOW, 
-				                      1);		
-				
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f,
 				                      true, MouseHole.MouseHoleLocation.NORTH,
 				                      MouseConfig.MouseType.SLOW, 
 				                      2);
