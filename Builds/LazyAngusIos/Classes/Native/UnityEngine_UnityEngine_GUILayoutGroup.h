@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>
-struct List_1_t2666;
+struct List_1_t2716;
 // UnityEngine.RectOffset
-struct RectOffset_t650;
+struct RectOffset_t700;
 // UnityEngine.GUILayoutEntry
 #include "UnityEngine_UnityEngine_GUILayoutEntry.h"
 // UnityEngine.GUILayoutGroup
-struct  GUILayoutGroup_t2662  : public GUILayoutEntry_t2665
+struct  GUILayoutGroup_t2712  : public GUILayoutEntry_t2715
 {
 	// System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry> UnityEngine.GUILayoutGroup::entries
-	List_1_t2666 * ___entries_10;
+	List_1_t2716 * ___entries_10;
 	// System.Boolean UnityEngine.GUILayoutGroup::isVertical
 	bool ___isVertical_11;
 	// System.Boolean UnityEngine.GUILayoutGroup::resetCoords
@@ -42,5 +42,5 @@ struct  GUILayoutGroup_t2662  : public GUILayoutEntry_t2665
 	// System.Single UnityEngine.GUILayoutGroup::childMaxHeight
 	float ___childMaxHeight_25;
 	// UnityEngine.RectOffset UnityEngine.GUILayoutGroup::m_Margin
-	RectOffset_t650 * ___m_Margin_26;
+	RectOffset_t700 * ___m_Margin_26;
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.String,System.Single>
-struct Dictionary_2_t6982;
+// System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>
+struct Dictionary_2_t1546;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Single>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_56.h"
-// System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Single>
-struct  Enumerator_t6986 
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_52.h"
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.Internal.IParseAuthenticationProvider>
+struct  Enumerator_t6301 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Single>::dictionary
-	Dictionary_2_t6982 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Single>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.Internal.IParseAuthenticationProvider>::dictionary
+	Dictionary_2_t1546 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.Internal.IParseAuthenticationProvider>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Single>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.Internal.IParseAuthenticationProvider>::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Single>::current
-	KeyValuePair_2_t6983  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.Internal.IParseAuthenticationProvider>::current
+	KeyValuePair_2_t6298  ___current_3;
 };

@@ -7,10 +7,10 @@ struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt64>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_76.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_77.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt64>,System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt64>>
-struct  Func_2_t7729  : public MulticastDelegate_t388
+struct  Func_2_t7801  : public MulticastDelegate_t388
 {
 };

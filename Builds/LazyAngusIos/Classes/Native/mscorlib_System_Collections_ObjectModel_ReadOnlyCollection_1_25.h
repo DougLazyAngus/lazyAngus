@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<ExplicitMouseDesc>
-struct IList_1_t5645;
+// System.Collections.Generic.IList`1<GameAnalyticsSDK.Settings/HelpTypes>
+struct IList_1_t5692;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<ExplicitMouseDesc>
-struct  ReadOnlyCollection_1_t5646  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<GameAnalyticsSDK.Settings/HelpTypes>
+struct  ReadOnlyCollection_1_t5693  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<ExplicitMouseDesc>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<GameAnalyticsSDK.Settings/HelpTypes>::list
 	Object_t* ___list_0;
 };

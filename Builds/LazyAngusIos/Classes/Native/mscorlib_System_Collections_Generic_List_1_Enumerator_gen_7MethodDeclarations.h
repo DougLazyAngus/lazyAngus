@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.List`1/Enumerator<FBAppRequest>
-struct Enumerator_t710;
+struct Enumerator_t759;
 // System.Object
 struct Object_t;
 // FBAppRequest
@@ -16,16 +16,16 @@ struct List_1_t275;
 // System.Void System.Collections.Generic.List`1/Enumerator<FBAppRequest>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m24630(__this, ___l, method) (( void (*) (Enumerator_t710 *, List_1_t275 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
+#define Enumerator__ctor_m24888(__this, ___l, method) (( void (*) (Enumerator_t759 *, List_1_t275 *, const MethodInfo*))Enumerator__ctor_m21652_gshared)(__this, ___l, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<FBAppRequest>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m24631(__this, method) (( void (*) (Enumerator_t710 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21395_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_Reset_m24889(__this, method) (( void (*) (Enumerator_t759 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21653_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1/Enumerator<FBAppRequest>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m24632(__this, method) (( Object_t * (*) (Enumerator_t710 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21396_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_get_Current_m24890(__this, method) (( Object_t * (*) (Enumerator_t759 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21654_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<FBAppRequest>::Dispose()
-#define Enumerator_Dispose_m24633(__this, method) (( void (*) (Enumerator_t710 *, const MethodInfo*))Enumerator_Dispose_m21397_gshared)(__this, method)
+#define Enumerator_Dispose_m24891(__this, method) (( void (*) (Enumerator_t759 *, const MethodInfo*))Enumerator_Dispose_m21655_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<FBAppRequest>::VerifyState()
-#define Enumerator_VerifyState_m24634(__this, method) (( void (*) (Enumerator_t710 *, const MethodInfo*))Enumerator_VerifyState_m21398_gshared)(__this, method)
+#define Enumerator_VerifyState_m24892(__this, method) (( void (*) (Enumerator_t759 *, const MethodInfo*))Enumerator_VerifyState_m21656_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1/Enumerator<FBAppRequest>::MoveNext()
-#define Enumerator_MoveNext_m3725(__this, method) (( bool (*) (Enumerator_t710 *, const MethodInfo*))Enumerator_MoveNext_m3632_gshared)(__this, method)
+#define Enumerator_MoveNext_m3964(__this, method) (( bool (*) (Enumerator_t759 *, const MethodInfo*))Enumerator_MoveNext_m3871_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<FBAppRequest>::get_Current()
-#define Enumerator_get_Current_m3724(__this, method) (( FBAppRequest_t286 * (*) (Enumerator_t710 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)
+#define Enumerator_get_Current_m3963(__this, method) (( FBAppRequest_t286 * (*) (Enumerator_t759 *, const MethodInfo*))Enumerator_get_Current_m3870_gshared)(__this, method)

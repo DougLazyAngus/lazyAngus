@@ -4,48 +4,48 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-struct Enumerator_t8442;
+// System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>
+struct Enumerator_t8492;
 // System.Object
 struct Object_t;
-// System.String
-struct String_t;
-// SimpleJson.Reflection.ReflectionUtils/GetDelegate
-struct GetDelegate_t2776;
-// System.Collections.Generic.Dictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-struct Dictionary_2_t2890;
+// UnityEngine.Networking.Types.NetworkAccessToken
+struct NetworkAccessToken_t2813;
+// System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>
+struct Dictionary_2_t2815;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_15.h"
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_135.h"
+// UnityEngine.Networking.Types.NetworkID
+#include "UnityEngine_UnityEngine_Networking_Types_NetworkID.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__14MethodDeclarations.h"
-#define Enumerator__ctor_m61418(__this, ___dictionary, method) (( void (*) (Enumerator_t8442 *, Dictionary_2_t2890 *, const MethodInfo*))Enumerator__ctor_m21670_gshared)(__this, ___dictionary, method)
-// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m61419(__this, method) (( Object_t * (*) (Enumerator_t8442 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21671_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m61420(__this, method) (( void (*) (Enumerator_t8442 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21672_gshared)(__this, method)
-// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.IDictionaryEnumerator.get_Entry()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m61421(__this, method) (( DictionaryEntry_t2088  (*) (Enumerator_t8442 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m21673_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.IDictionaryEnumerator.get_Key()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m61422(__this, method) (( Object_t * (*) (Enumerator_t8442 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m21674_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::System.Collections.IDictionaryEnumerator.get_Value()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m61423(__this, method) (( Object_t * (*) (Enumerator_t8442 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m21675_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::MoveNext()
-#define Enumerator_MoveNext_m61424(__this, method) (( bool (*) (Enumerator_t8442 *, const MethodInfo*))Enumerator_MoveNext_m21676_gshared)(__this, method)
-// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::get_Current()
-#define Enumerator_get_Current_m61425(__this, method) (( KeyValuePair_2_t2896  (*) (Enumerator_t8442 *, const MethodInfo*))Enumerator_get_Current_m21677_gshared)(__this, method)
-// TKey System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::get_CurrentKey()
-#define Enumerator_get_CurrentKey_m61426(__this, method) (( String_t* (*) (Enumerator_t8442 *, const MethodInfo*))Enumerator_get_CurrentKey_m21678_gshared)(__this, method)
-// TValue System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::get_CurrentValue()
-#define Enumerator_get_CurrentValue_m61427(__this, method) (( GetDelegate_t2776 * (*) (Enumerator_t8442 *, const MethodInfo*))Enumerator_get_CurrentValue_m21679_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::Reset()
-#define Enumerator_Reset_m61428(__this, method) (( void (*) (Enumerator_t8442 *, const MethodInfo*))Enumerator_Reset_m21680_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::VerifyState()
-#define Enumerator_VerifyState_m61429(__this, method) (( void (*) (Enumerator_t8442 *, const MethodInfo*))Enumerator_VerifyState_m21681_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::VerifyCurrent()
-#define Enumerator_VerifyCurrent_m61430(__this, method) (( void (*) (Enumerator_t8442 *, const MethodInfo*))Enumerator_VerifyCurrent_m21682_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::Dispose()
-#define Enumerator_Dispose_m61431(__this, method) (( void (*) (Enumerator_t8442 *, const MethodInfo*))Enumerator_Dispose_m21683_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+// System.Collections.Generic.Dictionary`2/Enumerator<System.UInt64,System.Object>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__67MethodDeclarations.h"
+#define Enumerator__ctor_m61698(__this, ___dictionary, method) (( void (*) (Enumerator_t8492 *, Dictionary_2_t2815 *, const MethodInfo*))Enumerator__ctor_m61603_gshared)(__this, ___dictionary, method)
+// System.Object System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m61699(__this, method) (( Object_t * (*) (Enumerator_t8492 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m61604_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.IEnumerator.Reset()
+#define Enumerator_System_Collections_IEnumerator_Reset_m61700(__this, method) (( void (*) (Enumerator_t8492 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m61605_gshared)(__this, method)
+// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.IDictionaryEnumerator.get_Entry()
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m61701(__this, method) (( DictionaryEntry_t2139  (*) (Enumerator_t8492 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m61606_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.IDictionaryEnumerator.get_Key()
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m61702(__this, method) (( Object_t * (*) (Enumerator_t8492 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m61607_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.IDictionaryEnumerator.get_Value()
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m61703(__this, method) (( Object_t * (*) (Enumerator_t8492 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m61608_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::MoveNext()
+#define Enumerator_MoveNext_m61704(__this, method) (( bool (*) (Enumerator_t8492 *, const MethodInfo*))Enumerator_MoveNext_m61609_gshared)(__this, method)
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::get_Current()
+#define Enumerator_get_Current_m61705(__this, method) (( KeyValuePair_2_t8489  (*) (Enumerator_t8492 *, const MethodInfo*))Enumerator_get_Current_m61610_gshared)(__this, method)
+// TKey System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::get_CurrentKey()
+#define Enumerator_get_CurrentKey_m61706(__this, method) (( uint64_t (*) (Enumerator_t8492 *, const MethodInfo*))Enumerator_get_CurrentKey_m61611_gshared)(__this, method)
+// TValue System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::get_CurrentValue()
+#define Enumerator_get_CurrentValue_m61707(__this, method) (( NetworkAccessToken_t2813 * (*) (Enumerator_t8492 *, const MethodInfo*))Enumerator_get_CurrentValue_m61612_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::Reset()
+#define Enumerator_Reset_m61708(__this, method) (( void (*) (Enumerator_t8492 *, const MethodInfo*))Enumerator_Reset_m61613_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::VerifyState()
+#define Enumerator_VerifyState_m61709(__this, method) (( void (*) (Enumerator_t8492 *, const MethodInfo*))Enumerator_VerifyState_m61614_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::VerifyCurrent()
+#define Enumerator_VerifyCurrent_m61710(__this, method) (( void (*) (Enumerator_t8492 *, const MethodInfo*))Enumerator_VerifyCurrent_m61615_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::Dispose()
+#define Enumerator_Dispose_m61711(__this, method) (( void (*) (Enumerator_t8492 *, const MethodInfo*))Enumerator_Dispose_m61616_gshared)(__this, method)

@@ -4,26 +4,30 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>
-struct InternalEnumerator_1_t8462;
+// System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>
+struct InternalEnumerator_1_t8495;
 // System.Object
 struct Object_t;
-// UnityEngine.ExecuteInEditMode
-struct ExecuteInEditMode_t1056;
 // System.Array
 struct Array_t;
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_136.h"
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>::.ctor(System.Array)
-// System.Array/InternalEnumerator`1<System.Object>
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m61674(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8462 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20941_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m61675(__this, method) (( void (*) (InternalEnumerator_1_t8462 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20942_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m61676(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8462 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20943_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>::Dispose()
-#define InternalEnumerator_1_Dispose_m61677(__this, method) (( void (*) (InternalEnumerator_1_t8462 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20944_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m61678(__this, method) (( bool (*) (InternalEnumerator_1_t8462 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.ExecuteInEditMode>::get_Current()
-#define InternalEnumerator_1_get_Current_m61679(__this, method) (( ExecuteInEditMode_t1056 * (*) (InternalEnumerator_1_t8462 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m61743_gshared (InternalEnumerator_1_t8495 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m61743(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8495 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m61743_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>::System.Collections.IEnumerator.Reset()
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m61744_gshared (InternalEnumerator_1_t8495 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m61744(__this, method) (( void (*) (InternalEnumerator_1_t8495 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m61744_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m61745_gshared (InternalEnumerator_1_t8495 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m61745(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8495 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m61745_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m61746_gshared (InternalEnumerator_1_t8495 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m61746(__this, method) (( void (*) (InternalEnumerator_1_t8495 *, const MethodInfo*))InternalEnumerator_1_Dispose_m61746_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m61747_gshared (InternalEnumerator_1_t8495 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m61747(__this, method) (( bool (*) (InternalEnumerator_1_t8495 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m61747_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>::get_Current()
+extern "C" KeyValuePair_2_t8494  InternalEnumerator_1_get_Current_m61748_gshared (InternalEnumerator_1_t8495 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m61748(__this, method) (( KeyValuePair_2_t8494  (*) (InternalEnumerator_1_t8495 *, const MethodInfo*))InternalEnumerator_1_get_Current_m61748_gshared)(__this, method)

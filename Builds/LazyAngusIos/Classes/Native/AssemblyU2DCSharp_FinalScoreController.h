@@ -3,7 +3,7 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // FinalScoreController
-struct  FinalScoreController_t501  : public MonoBehaviour_t13
+struct  FinalScoreController_t540  : public MonoBehaviour_t13
 {
 	// System.Boolean FinalScoreController::registeredForEvents
 	bool ___registeredForEvents_2;

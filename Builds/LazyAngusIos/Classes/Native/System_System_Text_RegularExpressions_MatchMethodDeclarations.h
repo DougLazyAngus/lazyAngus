@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Match
-struct Match_t1323;
+struct Match_t1374;
 // System.Text.RegularExpressions.GroupCollection
-struct GroupCollection_t1386;
+struct GroupCollection_t1437;
 // System.Text.RegularExpressions.Regex
-struct Regex_t1125;
+struct Regex_t787;
 // System.Text.RegularExpressions.IMachine
-struct IMachine_t4073;
+struct IMachine_t4119;
 // System.String
 struct String_t;
 
 // System.Void System.Text.RegularExpressions.Match::.ctor()
-extern "C" void Match__ctor_m14352 (Match_t1323 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Match__ctor_m14608 (Match_t1374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Match::.ctor(System.Text.RegularExpressions.Regex,System.Text.RegularExpressions.IMachine,System.String,System.Int32,System.Int32,System.Int32,System.Int32)
-extern "C" void Match__ctor_m14353 (Match_t1323 * __this, Regex_t1125 * ___regex, Object_t * ___machine, String_t* ___text, int32_t ___text_length, int32_t ___n_groups, int32_t ___index, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Match__ctor_m14609 (Match_t1374 * __this, Regex_t787 * ___regex, Object_t * ___machine, String_t* ___text, int32_t ___text_length, int32_t ___n_groups, int32_t ___index, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Match::.ctor(System.Text.RegularExpressions.Regex,System.Text.RegularExpressions.IMachine,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-extern "C" void Match__ctor_m14354 (Match_t1323 * __this, Regex_t1125 * ___regex, Object_t * ___machine, String_t* ___text, int32_t ___text_length, int32_t ___n_groups, int32_t ___index, int32_t ___length, int32_t ___n_caps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Match__ctor_m14610 (Match_t1374 * __this, Regex_t787 * ___regex, Object_t * ___machine, String_t* ___text, int32_t ___text_length, int32_t ___n_groups, int32_t ___index, int32_t ___length, int32_t ___n_caps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Match::.cctor()
-extern "C" void Match__cctor_m14355 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Match__cctor_m14611 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.Match::get_Empty()
-extern "C" Match_t1323 * Match_get_Empty_m14356 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Match_t1374 * Match_get_Empty_m14612 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups()
-extern "C" GroupCollection_t1386 * Match_get_Groups_m14357 (Match_t1323 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GroupCollection_t1437 * Match_get_Groups_m14613 (Match_t1374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.Match::NextMatch()
-extern "C" Match_t1323 * Match_NextMatch_m14358 (Match_t1323 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Match_t1374 * Match_NextMatch_m14614 (Match_t1374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Regex System.Text.RegularExpressions.Match::get_Regex()
-extern "C" Regex_t1125 * Match_get_Regex_m14359 (Match_t1323 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Regex_t787 * Match_get_Regex_m14615 (Match_t1374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

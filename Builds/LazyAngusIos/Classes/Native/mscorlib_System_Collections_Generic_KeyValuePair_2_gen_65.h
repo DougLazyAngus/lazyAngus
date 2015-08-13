@@ -2,13 +2,15 @@
 #include <stdint.h>
 // System.String
 struct String_t;
+// Parse.ParseRole
+struct ParseRole_t1300;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>
-struct  KeyValuePair_2_t7111 
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseRole>
+struct  KeyValuePair_2_t7175 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>::key
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseRole>::key
 	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>::value
-	uint8_t ___value_1;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseRole>::value
+	ParseRole_t1300 * ___value_1;
 };

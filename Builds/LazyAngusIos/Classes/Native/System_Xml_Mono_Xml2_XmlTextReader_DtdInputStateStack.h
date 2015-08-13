@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Stack
-struct Stack_t2847;
+struct Stack_t2897;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Xml2.XmlTextReader/DtdInputStateStack
-struct  DtdInputStateStack_t3219  : public Object_t
+struct  DtdInputStateStack_t3267  : public Object_t
 {
 	// System.Collections.Stack Mono.Xml2.XmlTextReader/DtdInputStateStack::intern
-	Stack_t2847 * ___intern_0;
+	Stack_t2897 * ___intern_0;
 };

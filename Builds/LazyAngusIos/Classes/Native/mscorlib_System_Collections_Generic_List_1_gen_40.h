@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// Parse.ParseObject[]
-struct ParseObjectU5BU5D_t1398;
+// UnityEngine.RectTransform[]
+struct RectTransformU5BU5D_t547;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<Parse.ParseObject>
-struct  List_1_t1211  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.RectTransform>
+struct  List_1_t1003  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<Parse.ParseObject>::_items
-	ParseObjectU5BU5D_t1398* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<Parse.ParseObject>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::_items
+	RectTransformU5BU5D_t547* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<Parse.ParseObject>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1211_StaticFields{
-	// T[] System.Collections.Generic.List`1<Parse.ParseObject>::EmptyArray
-	ParseObjectU5BU5D_t1398* ___EmptyArray_4;
+struct List_1_t1003_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::EmptyArray
+	RectTransformU5BU5D_t547* ___EmptyArray_4;
 };

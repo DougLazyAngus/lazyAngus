@@ -5,22 +5,22 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Comparer`1<UnityEngine.UIVertex>
-struct Comparer_1_t5777;
+struct Comparer_1_t5853;
 // System.Object
 struct Object_t;
 // UnityEngine.UIVertex
 #include "UnityEngine_UnityEngine_UIVertex.h"
 
 // System.Void System.Collections.Generic.Comparer`1<UnityEngine.UIVertex>::.ctor()
-extern "C" void Comparer_1__ctor_m28520_gshared (Comparer_1_t5777 * __this, const MethodInfo* method);
-#define Comparer_1__ctor_m28520(__this, method) (( void (*) (Comparer_1_t5777 *, const MethodInfo*))Comparer_1__ctor_m28520_gshared)(__this, method)
+extern "C" void Comparer_1__ctor_m29224_gshared (Comparer_1_t5853 * __this, const MethodInfo* method);
+#define Comparer_1__ctor_m29224(__this, method) (( void (*) (Comparer_1_t5853 *, const MethodInfo*))Comparer_1__ctor_m29224_gshared)(__this, method)
 // System.Void System.Collections.Generic.Comparer`1<UnityEngine.UIVertex>::.cctor()
-extern "C" void Comparer_1__cctor_m28521_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define Comparer_1__cctor_m28521(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1__cctor_m28521_gshared)(__this /* static, unused */, method)
+extern "C" void Comparer_1__cctor_m29225_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define Comparer_1__cctor_m29225(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1__cctor_m29225_gshared)(__this /* static, unused */, method)
 // System.Int32 System.Collections.Generic.Comparer`1<UnityEngine.UIVertex>::System.Collections.IComparer.Compare(System.Object,System.Object)
-extern "C" int32_t Comparer_1_System_Collections_IComparer_Compare_m28522_gshared (Comparer_1_t5777 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define Comparer_1_System_Collections_IComparer_Compare_m28522(__this, ___x, ___y, method) (( int32_t (*) (Comparer_1_t5777 *, Object_t *, Object_t *, const MethodInfo*))Comparer_1_System_Collections_IComparer_Compare_m28522_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t Comparer_1_System_Collections_IComparer_Compare_m29226_gshared (Comparer_1_t5853 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define Comparer_1_System_Collections_IComparer_Compare_m29226(__this, ___x, ___y, method) (( int32_t (*) (Comparer_1_t5853 *, Object_t *, Object_t *, const MethodInfo*))Comparer_1_System_Collections_IComparer_Compare_m29226_gshared)(__this, ___x, ___y, method)
 // System.Int32 System.Collections.Generic.Comparer`1<UnityEngine.UIVertex>::Compare(T,T)
 // System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1<UnityEngine.UIVertex>::get_Default()
-extern "C" Comparer_1_t5777 * Comparer_1_get_Default_m28523_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define Comparer_1_get_Default_m28523(__this /* static, unused */, method) (( Comparer_1_t5777 * (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1_get_Default_m28523_gshared)(__this /* static, unused */, method)
+extern "C" Comparer_1_t5853 * Comparer_1_get_Default_m29227_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define Comparer_1_get_Default_m29227(__this /* static, unused */, method) (( Comparer_1_t5853 * (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1_get_Default_m29227_gshared)(__this /* static, unused */, method)

@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // GADTestDevice[]
-struct GADTestDeviceU5BU5D_t5460;
+struct GADTestDeviceU5BU5D_t5506;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<GADTestDevice>
 struct  List_1_t146  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<GADTestDevice>::_items
-	GADTestDeviceU5BU5D_t5460* ____items_1;
+	GADTestDeviceU5BU5D_t5506* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<GADTestDevice>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<GADTestDevice>::_version
@@ -16,5 +16,5 @@ struct  List_1_t146  : public Object_t
 };
 struct List_1_t146_StaticFields{
 	// T[] System.Collections.Generic.List`1<GADTestDevice>::EmptyArray
-	GADTestDeviceU5BU5D_t5460* ___EmptyArray_4;
+	GADTestDeviceU5BU5D_t5506* ___EmptyArray_4;
 };

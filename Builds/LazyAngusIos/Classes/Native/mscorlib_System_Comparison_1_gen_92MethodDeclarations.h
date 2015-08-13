@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Comparison`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct Comparison_1_t8314;
+// System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>
+struct Comparison_1_t8018;
 // System.Object
 struct Object_t;
-// UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard
-struct GcLeaderboard_t2649;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_61.h"
 
-// System.Void System.Comparison`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::.ctor(System.Object,System.IntPtr)
-// System.Comparison`1<System.Object>
-#include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m59458(__this, ___object, ___method, method) (( void (*) (Comparison_1_t8314 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21492_gshared)(__this, ___object, ___method, method)
-// System.Int32 System.Comparison`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::Invoke(T,T)
-#define Comparison_1_Invoke_m59459(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t8314 *, GcLeaderboard_t2649 *, GcLeaderboard_t2649 *, const MethodInfo*))Comparison_1_Invoke_m21493_gshared)(__this, ___x, ___y, method)
-// System.IAsyncResult System.Comparison`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m59460(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t8314 *, GcLeaderboard_t2649 *, GcLeaderboard_t2649 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21494_gshared)(__this, ___x, ___y, ___callback, ___object, method)
-// System.Int32 System.Comparison`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m59461(__this, ___result, method) (( int32_t (*) (Comparison_1_t8314 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21495_gshared)(__this, ___result, method)
+// System.Void System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::.ctor(System.Object,System.IntPtr)
+// System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>
+#include "mscorlib_System_Comparison_1_gen_91MethodDeclarations.h"
+#define Comparison_1__ctor_m56057(__this, ___object, ___method, method) (( void (*) (Comparison_1_t8018 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m55954_gshared)(__this, ___object, ___method, method)
+// System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Invoke(T,T)
+#define Comparison_1_Invoke_m56058(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t8018 *, KeyValuePair_2_t7128 , KeyValuePair_2_t7128 , const MethodInfo*))Comparison_1_Invoke_m55955_gshared)(__this, ___x, ___y, method)
+// System.IAsyncResult System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+#define Comparison_1_BeginInvoke_m56059(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t8018 *, KeyValuePair_2_t7128 , KeyValuePair_2_t7128 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m55956_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+// System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::EndInvoke(System.IAsyncResult)
+#define Comparison_1_EndInvoke_m56060(__this, ___result, method) (( int32_t (*) (Comparison_1_t8018 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m55957_gshared)(__this, ___result, method)

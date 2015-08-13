@@ -4,28 +4,31 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>
-struct Enumerator_t5648;
+// System.Collections.Generic.List`1/Enumerator<System.Int32>
+struct Enumerator_t5683;
 // System.Object
 struct Object_t;
-// ExplicitMouseDesc
-struct ExplicitMouseDesc_t498;
-// System.Collections.Generic.List`1<ExplicitMouseDesc>
-struct List_1_t537;
+// System.Collections.Generic.List`1<System.Int32>
+struct List_1_t797;
 
-// System.Void System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::.ctor(System.Collections.Generic.List`1<T>)
-// System.Collections.Generic.List`1/Enumerator<System.Object>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m26377(__this, ___l, method) (( void (*) (Enumerator_t5648 *, List_1_t537 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m26378(__this, method) (( void (*) (Enumerator_t5648 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21395_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m26379(__this, method) (( Object_t * (*) (Enumerator_t5648 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21396_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::Dispose()
-#define Enumerator_Dispose_m26380(__this, method) (( void (*) (Enumerator_t5648 *, const MethodInfo*))Enumerator_Dispose_m21397_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::VerifyState()
-#define Enumerator_VerifyState_m26381(__this, method) (( void (*) (Enumerator_t5648 *, const MethodInfo*))Enumerator_VerifyState_m21398_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::MoveNext()
-#define Enumerator_MoveNext_m26382(__this, method) (( bool (*) (Enumerator_t5648 *, const MethodInfo*))Enumerator_MoveNext_m3632_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<ExplicitMouseDesc>::get_Current()
-#define Enumerator_get_Current_m26383(__this, method) (( ExplicitMouseDesc_t498 * (*) (Enumerator_t5648 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Int32>::.ctor(System.Collections.Generic.List`1<T>)
+extern "C" void Enumerator__ctor_m26570_gshared (Enumerator_t5683 * __this, List_1_t797 * ___l, const MethodInfo* method);
+#define Enumerator__ctor_m26570(__this, ___l, method) (( void (*) (Enumerator_t5683 *, List_1_t797 *, const MethodInfo*))Enumerator__ctor_m26570_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Int32>::System.Collections.IEnumerator.Reset()
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m26571_gshared (Enumerator_t5683 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_Reset_m26571(__this, method) (( void (*) (Enumerator_t5683 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m26571_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<System.Int32>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m26572_gshared (Enumerator_t5683 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m26572(__this, method) (( Object_t * (*) (Enumerator_t5683 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m26572_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Int32>::Dispose()
+extern "C" void Enumerator_Dispose_m26573_gshared (Enumerator_t5683 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m26573(__this, method) (( void (*) (Enumerator_t5683 *, const MethodInfo*))Enumerator_Dispose_m26573_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Int32>::VerifyState()
+extern "C" void Enumerator_VerifyState_m26574_gshared (Enumerator_t5683 * __this, const MethodInfo* method);
+#define Enumerator_VerifyState_m26574(__this, method) (( void (*) (Enumerator_t5683 *, const MethodInfo*))Enumerator_VerifyState_m26574_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Int32>::MoveNext()
+extern "C" bool Enumerator_MoveNext_m26575_gshared (Enumerator_t5683 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m26575(__this, method) (( bool (*) (Enumerator_t5683 *, const MethodInfo*))Enumerator_MoveNext_m26575_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<System.Int32>::get_Current()
+extern "C" int32_t Enumerator_get_Current_m26576_gshared (Enumerator_t5683 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m26576(__this, method) (( int32_t (*) (Enumerator_t5683 *, const MethodInfo*))Enumerator_get_Current_m26576_gshared)(__this, method)

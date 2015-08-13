@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.Toggle[]
-struct ToggleU5BU5D_t5837;
+// UnityEngine.UI.Selectable[]
+struct SelectableU5BU5D_t5889;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
-struct  List_1_t926  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
+struct  List_1_t970  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_items
-	ToggleU5BU5D_t5837* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_items
+	SelectableU5BU5D_t5889* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_version
 	int32_t ____version_3;
 };
-struct List_1_t926_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::EmptyArray
-	ToggleU5BU5D_t5837* ___EmptyArray_4;
+struct List_1_t970_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::EmptyArray
+	SelectableU5BU5D_t5889* ___EmptyArray_4;
 };

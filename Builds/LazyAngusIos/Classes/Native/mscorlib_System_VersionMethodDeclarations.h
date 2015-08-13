@@ -5,47 +5,47 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Version
-struct Version_t1333;
+struct Version_t1384;
 // System.String
 struct String_t;
 // System.Object
 struct Object_t;
 
 // System.Void System.Version::.ctor()
-extern "C" void Version__ctor_m19840 (Version_t1333 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Version__ctor_m20098 (Version_t1384 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Version::.ctor(System.String)
-extern "C" void Version__ctor_m7391 (Version_t1333 * __this, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Version__ctor_m7650 (Version_t1384 * __this, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Version::.ctor(System.Int32,System.Int32)
-extern "C" void Version__ctor_m14860 (Version_t1333 * __this, int32_t ___major, int32_t ___minor, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Version__ctor_m15119 (Version_t1384 * __this, int32_t ___major, int32_t ___minor, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Version::.ctor(System.Int32,System.Int32,System.Int32,System.Int32)
-extern "C" void Version__ctor_m19841 (Version_t1333 * __this, int32_t ___major, int32_t ___minor, int32_t ___build, int32_t ___revision, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Version__ctor_m20099 (Version_t1384 * __this, int32_t ___major, int32_t ___minor, int32_t ___build, int32_t ___revision, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Version::CheckedSet(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-extern "C" void Version_CheckedSet_m19842 (Version_t1333 * __this, int32_t ___defined, int32_t ___major, int32_t ___minor, int32_t ___build, int32_t ___revision, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Version_CheckedSet_m20100 (Version_t1384 * __this, int32_t ___defined, int32_t ___major, int32_t ___minor, int32_t ___build, int32_t ___revision, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Version::get_Build()
-extern "C" int32_t Version_get_Build_m19843 (Version_t1333 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Version_get_Build_m20101 (Version_t1384 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Version::get_Major()
-extern "C" int32_t Version_get_Major_m14864 (Version_t1333 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Version_get_Major_m15123 (Version_t1384 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Version::get_Minor()
-extern "C" int32_t Version_get_Minor_m14865 (Version_t1333 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Version_get_Minor_m15124 (Version_t1384 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Version::get_Revision()
-extern "C" int32_t Version_get_Revision_m19844 (Version_t1333 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Version_get_Revision_m20102 (Version_t1384 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Version::CompareTo(System.Object)
-extern "C" int32_t Version_CompareTo_m19845 (Version_t1333 * __this, Object_t * ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Version_CompareTo_m20103 (Version_t1384 * __this, Object_t * ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Version::Equals(System.Object)
-extern "C" bool Version_Equals_m19846 (Version_t1333 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Version_Equals_m20104 (Version_t1384 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Version::CompareTo(System.Version)
-extern "C" int32_t Version_CompareTo_m19847 (Version_t1333 * __this, Version_t1333 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Version_CompareTo_m20105 (Version_t1384 * __this, Version_t1384 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Version::Equals(System.Version)
-extern "C" bool Version_Equals_m19848 (Version_t1333 * __this, Version_t1333 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Version_Equals_m20106 (Version_t1384 * __this, Version_t1384 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Version::GetHashCode()
-extern "C" int32_t Version_GetHashCode_m19849 (Version_t1333 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Version_GetHashCode_m20107 (Version_t1384 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Version::ToString()
-extern "C" String_t* Version_ToString_m19850 (Version_t1333 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Version_ToString_m20108 (Version_t1384 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Version System.Version::CreateFromString(System.String)
-extern "C" Version_t1333 * Version_CreateFromString_m19851 (Object_t * __this /* static, unused */, String_t* ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Version_t1384 * Version_CreateFromString_m20109 (Object_t * __this /* static, unused */, String_t* ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Version::op_Equality(System.Version,System.Version)
-extern "C" bool Version_op_Equality_m14861 (Object_t * __this /* static, unused */, Version_t1333 * ___v1, Version_t1333 * ___v2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Version_op_Equality_m15120 (Object_t * __this /* static, unused */, Version_t1384 * ___v1, Version_t1384 * ___v2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Version::op_Inequality(System.Version,System.Version)
-extern "C" bool Version_op_Inequality_m14862 (Object_t * __this /* static, unused */, Version_t1333 * ___v1, Version_t1333 * ___v2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Version_op_Inequality_m15121 (Object_t * __this /* static, unused */, Version_t1384 * ___v1, Version_t1384 * ___v2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Version::op_LessThan(System.Version,System.Version)
-extern "C" bool Version_op_LessThan_m14863 (Object_t * __this /* static, unused */, Version_t1333 * ___v1, Version_t1333 * ___v2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Version_op_LessThan_m15122 (Object_t * __this /* static, unused */, Version_t1384 * ___v1, Version_t1384 * ___v2, const MethodInfo* method) IL2CPP_METHOD_ATTR;

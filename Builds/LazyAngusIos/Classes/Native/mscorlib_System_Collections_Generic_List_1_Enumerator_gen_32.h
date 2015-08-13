@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>
-struct List_1_t816;
-// UnityEngine.EventSystems.BaseRaycaster
-struct BaseRaycaster_t818;
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>
+struct List_1_t1039;
+// UnityEngine.EventSystems.IEventSystemHandler
+struct IEventSystemHandler_t1106;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseRaycaster>
-struct  Enumerator_t5716 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>
+struct  Enumerator_t5769 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseRaycaster>::l
-	List_1_t816 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseRaycaster>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::l
+	List_1_t1039 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseRaycaster>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseRaycaster>::current
-	BaseRaycaster_t818 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::current
+	Object_t * ___current_3;
 };

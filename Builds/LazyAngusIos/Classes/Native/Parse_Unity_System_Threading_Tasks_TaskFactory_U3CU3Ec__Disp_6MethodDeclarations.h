@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.TaskFactory/<>c__DisplayClass4`3<System.Object,System.Object,System.Object>
-struct U3CU3Ec__DisplayClass4_3_t8290;
+struct U3CU3Ec__DisplayClass4_3_t8362;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -14,8 +14,8 @@ struct AsyncCallback_t386;
 struct Object_t;
 
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass4`3<System.Object,System.Object,System.Object>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass4_3__ctor_m59248_gshared (U3CU3Ec__DisplayClass4_3_t8290 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass4_3__ctor_m59248(__this, method) (( void (*) (U3CU3Ec__DisplayClass4_3_t8290 *, const MethodInfo*))U3CU3Ec__DisplayClass4_3__ctor_m59248_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass4_3__ctor_m59932_gshared (U3CU3Ec__DisplayClass4_3_t8362 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass4_3__ctor_m59932(__this, method) (( void (*) (U3CU3Ec__DisplayClass4_3_t8362 *, const MethodInfo*))U3CU3Ec__DisplayClass4_3__ctor_m59932_gshared)(__this, method)
 // System.IAsyncResult System.Threading.Tasks.TaskFactory/<>c__DisplayClass4`3<System.Object,System.Object,System.Object>::<FromAsync>b__3(System.AsyncCallback,System.Object)
-extern "C" Object_t * U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m59249_gshared (U3CU3Ec__DisplayClass4_3_t8290 * __this, AsyncCallback_t386 * ___callback, Object_t * ____, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m59249(__this, ___callback, ____, method) (( Object_t * (*) (U3CU3Ec__DisplayClass4_3_t8290 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m59249_gshared)(__this, ___callback, ____, method)
+extern "C" Object_t * U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m59933_gshared (U3CU3Ec__DisplayClass4_3_t8362 * __this, AsyncCallback_t386 * ___callback, Object_t * ____, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m59933(__this, ___callback, ____, method) (( Object_t * (*) (U3CU3Ec__DisplayClass4_3_t8362 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m59933_gshared)(__this, ___callback, ____, method)

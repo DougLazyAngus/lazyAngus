@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Reflection.ConstructorInfo>
-struct InternalEnumerator_1_t6016;
+// System.Array/InternalEnumerator`1<Parse.ParseObject>
+struct InternalEnumerator_1_t6082;
 // System.Object
 struct Object_t;
-// System.Reflection.ConstructorInfo
-struct ConstructorInfo_t1330;
+// Parse.ParseObject
+struct ParseObject_t1221;
 // System.Array
 struct Array_t;
 
-// System.Void System.Array/InternalEnumerator`1<System.Reflection.ConstructorInfo>::.ctor(System.Array)
+// System.Void System.Array/InternalEnumerator`1<Parse.ParseObject>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m31398(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6016 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20941_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<System.Reflection.ConstructorInfo>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m31399(__this, method) (( void (*) (InternalEnumerator_1_t6016 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20942_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<System.Reflection.ConstructorInfo>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m31400(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6016 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20943_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Reflection.ConstructorInfo>::Dispose()
-#define InternalEnumerator_1_Dispose_m31401(__this, method) (( void (*) (InternalEnumerator_1_t6016 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20944_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Reflection.ConstructorInfo>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m31402(__this, method) (( bool (*) (InternalEnumerator_1_t6016 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Reflection.ConstructorInfo>::get_Current()
-#define InternalEnumerator_1_get_Current_m31403(__this, method) (( ConstructorInfo_t1330 * (*) (InternalEnumerator_1_t6016 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1__ctor_m32022(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6082 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m21199_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<Parse.ParseObject>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m32023(__this, method) (( void (*) (InternalEnumerator_1_t6082 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m21200_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<Parse.ParseObject>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m32024(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6082 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m21201_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<Parse.ParseObject>::Dispose()
+#define InternalEnumerator_1_Dispose_m32025(__this, method) (( void (*) (InternalEnumerator_1_t6082 *, const MethodInfo*))InternalEnumerator_1_Dispose_m21202_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<Parse.ParseObject>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m32026(__this, method) (( bool (*) (InternalEnumerator_1_t6082 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m21203_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<Parse.ParseObject>::get_Current()
+#define InternalEnumerator_1_get_Current_m32027(__this, method) (( ParseObject_t1221 * (*) (InternalEnumerator_1_t6082 *, const MethodInfo*))InternalEnumerator_1_get_Current_m21204_gshared)(__this, method)

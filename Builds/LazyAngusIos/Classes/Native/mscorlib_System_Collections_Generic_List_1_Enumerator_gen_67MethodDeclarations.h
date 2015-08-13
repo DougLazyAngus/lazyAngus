@@ -4,28 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>
-struct Enumerator_t6906;
+// System.Collections.Generic.List`1/Enumerator<System.Boolean>
+struct Enumerator_t6927;
 // System.Object
 struct Object_t;
-// Parse.ParseUser
-struct ParseUser_t1253;
-// System.Collections.Generic.List`1<Parse.ParseUser>
-struct List_1_t6903;
+// System.Collections.Generic.List`1<System.Boolean>
+struct List_1_t6924;
 
-// System.Void System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::.ctor(System.Collections.Generic.List`1<T>)
-// System.Collections.Generic.List`1/Enumerator<System.Object>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m42900(__this, ___l, method) (( void (*) (Enumerator_t6906 *, List_1_t6903 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m42901(__this, method) (( void (*) (Enumerator_t6906 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21395_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m42902(__this, method) (( Object_t * (*) (Enumerator_t6906 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21396_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::Dispose()
-#define Enumerator_Dispose_m42903(__this, method) (( void (*) (Enumerator_t6906 *, const MethodInfo*))Enumerator_Dispose_m21397_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::VerifyState()
-#define Enumerator_VerifyState_m42904(__this, method) (( void (*) (Enumerator_t6906 *, const MethodInfo*))Enumerator_VerifyState_m21398_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::MoveNext()
-#define Enumerator_MoveNext_m42905(__this, method) (( bool (*) (Enumerator_t6906 *, const MethodInfo*))Enumerator_MoveNext_m3632_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::get_Current()
-#define Enumerator_get_Current_m42906(__this, method) (( ParseUser_t1253 * (*) (Enumerator_t6906 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Boolean>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Collections.Generic.List`1/Enumerator<System.Byte>
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_57MethodDeclarations.h"
+#define Enumerator__ctor_m42835(__this, ___l, method) (( void (*) (Enumerator_t6927 *, List_1_t6924 *, const MethodInfo*))Enumerator__ctor_m35684_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Boolean>::System.Collections.IEnumerator.Reset()
+#define Enumerator_System_Collections_IEnumerator_Reset_m42836(__this, method) (( void (*) (Enumerator_t6927 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m35685_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<System.Boolean>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m42837(__this, method) (( Object_t * (*) (Enumerator_t6927 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m35686_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Boolean>::Dispose()
+#define Enumerator_Dispose_m42838(__this, method) (( void (*) (Enumerator_t6927 *, const MethodInfo*))Enumerator_Dispose_m35687_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Boolean>::VerifyState()
+#define Enumerator_VerifyState_m42839(__this, method) (( void (*) (Enumerator_t6927 *, const MethodInfo*))Enumerator_VerifyState_m35688_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Boolean>::MoveNext()
+#define Enumerator_MoveNext_m42840(__this, method) (( bool (*) (Enumerator_t6927 *, const MethodInfo*))Enumerator_MoveNext_m35689_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<System.Boolean>::get_Current()
+#define Enumerator_get_Current_m42841(__this, method) (( bool (*) (Enumerator_t6927 *, const MethodInfo*))Enumerator_get_Current_m35690_gshared)(__this, method)

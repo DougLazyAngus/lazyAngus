@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t708;
+struct Uri_t757;
 // System.Version
-struct Version_t1333;
+struct Version_t1384;
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t3834;
+struct X509Certificate_t3882;
 // System.Net.IPHostEntry
-struct IPHostEntry_t4000;
+struct IPHostEntry_t4047;
 // System.Collections.Hashtable
-struct Hashtable_t1276;
+struct Hashtable_t696;
 // System.Object
 struct Object_t;
 // System.Net.BindIPEndPoint
-struct BindIPEndPoint_t4018;
+struct BindIPEndPoint_t4065;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Net.ServicePoint
-struct  ServicePoint_t3886  : public Object_t
+struct  ServicePoint_t3934  : public Object_t
 {
 	// System.Uri System.Net.ServicePoint::uri
-	Uri_t708 * ___uri_0;
+	Uri_t757 * ___uri_0;
 	// System.Int32 System.Net.ServicePoint::connectionLimit
 	int32_t ___connectionLimit_1;
 	// System.Int32 System.Net.ServicePoint::maxIdleTime
@@ -32,17 +32,17 @@ struct  ServicePoint_t3886  : public Object_t
 	// System.DateTime System.Net.ServicePoint::idleSince
 	DateTime_t287  ___idleSince_4;
 	// System.Version System.Net.ServicePoint::protocolVersion
-	Version_t1333 * ___protocolVersion_5;
+	Version_t1384 * ___protocolVersion_5;
 	// System.Security.Cryptography.X509Certificates.X509Certificate System.Net.ServicePoint::certificate
-	X509Certificate_t3834 * ___certificate_6;
+	X509Certificate_t3882 * ___certificate_6;
 	// System.Security.Cryptography.X509Certificates.X509Certificate System.Net.ServicePoint::clientCertificate
-	X509Certificate_t3834 * ___clientCertificate_7;
+	X509Certificate_t3882 * ___clientCertificate_7;
 	// System.Net.IPHostEntry System.Net.ServicePoint::host
-	IPHostEntry_t4000 * ___host_8;
+	IPHostEntry_t4047 * ___host_8;
 	// System.Boolean System.Net.ServicePoint::usesProxy
 	bool ___usesProxy_9;
 	// System.Collections.Hashtable System.Net.ServicePoint::groups
-	Hashtable_t1276 * ___groups_10;
+	Hashtable_t696 * ___groups_10;
 	// System.Boolean System.Net.ServicePoint::sendContinue
 	bool ___sendContinue_11;
 	// System.Boolean System.Net.ServicePoint::useConnect
@@ -54,5 +54,5 @@ struct  ServicePoint_t3886  : public Object_t
 	// System.Boolean System.Net.ServicePoint::useNagle
 	bool ___useNagle_15;
 	// System.Net.BindIPEndPoint System.Net.ServicePoint::endPointCallback
-	BindIPEndPoint_t4018 * ___endPointCallback_16;
+	BindIPEndPoint_t4065 * ___endPointCallback_16;
 };

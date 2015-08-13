@@ -4,24 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>
-struct KeyValuePair_2_t5799;
-// UnityEngine.UI.Graphic
-struct Graphic_t861;
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
+struct KeyValuePair_2_t5871;
+// UnityEngine.Canvas
+struct Canvas_t674;
+// UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>
+struct IndexedSet_1_t1071;
 // System.String
 struct String_t;
 
-// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::.ctor(TKey,TValue)
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_24MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m28909(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t5799 *, Graphic_t861 *, int32_t, const MethodInfo*))KeyValuePair_2__ctor_m23602_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::get_Key()
-#define KeyValuePair_2_get_Key_m28910(__this, method) (( Graphic_t861 * (*) (KeyValuePair_2_t5799 *, const MethodInfo*))KeyValuePair_2_get_Key_m23603_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m28911(__this, ___value, method) (( void (*) (KeyValuePair_2_t5799 *, Graphic_t861 *, const MethodInfo*))KeyValuePair_2_set_Key_m23604_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::get_Value()
-#define KeyValuePair_2_get_Value_m28912(__this, method) (( int32_t (*) (KeyValuePair_2_t5799 *, const MethodInfo*))KeyValuePair_2_get_Value_m23605_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m28913(__this, ___value, method) (( void (*) (KeyValuePair_2_t5799 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Value_m23606_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::ToString()
-#define KeyValuePair_2_ToString_m28914(__this, method) (( String_t* (*) (KeyValuePair_2_t5799 *, const MethodInfo*))KeyValuePair_2_ToString_m23607_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::.ctor(TKey,TValue)
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0MethodDeclarations.h"
+#define KeyValuePair_2__ctor_m29561(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t5871 *, Canvas_t674 *, IndexedSet_1_t1071 *, const MethodInfo*))KeyValuePair_2__ctor_m21902_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::get_Key()
+#define KeyValuePair_2_get_Key_m29562(__this, method) (( Canvas_t674 * (*) (KeyValuePair_2_t5871 *, const MethodInfo*))KeyValuePair_2_get_Key_m21903_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m29563(__this, ___value, method) (( void (*) (KeyValuePair_2_t5871 *, Canvas_t674 *, const MethodInfo*))KeyValuePair_2_set_Key_m21904_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::get_Value()
+#define KeyValuePair_2_get_Value_m29564(__this, method) (( IndexedSet_1_t1071 * (*) (KeyValuePair_2_t5871 *, const MethodInfo*))KeyValuePair_2_get_Value_m21905_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m29565(__this, ___value, method) (( void (*) (KeyValuePair_2_t5871 *, IndexedSet_1_t1071 *, const MethodInfo*))KeyValuePair_2_set_Value_m21906_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::ToString()
+#define KeyValuePair_2_ToString_m29566(__this, method) (( String_t* (*) (KeyValuePair_2_t5871 *, const MethodInfo*))KeyValuePair_2_ToString_m21907_gshared)(__this, method)

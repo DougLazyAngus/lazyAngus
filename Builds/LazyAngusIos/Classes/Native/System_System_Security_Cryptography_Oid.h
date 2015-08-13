@@ -7,14 +7,14 @@ struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.Oid
-struct  Oid_t4036  : public Object_t
+struct  Oid_t4082  : public Object_t
 {
 	// System.String System.Security.Cryptography.Oid::_value
 	String_t* ____value_0;
 	// System.String System.Security.Cryptography.Oid::_name
 	String_t* ____name_1;
 };
-struct Oid_t4036_StaticFields{
+struct Oid_t4082_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Security.Cryptography.Oid::<>f__switch$map10
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map10_2;
 };

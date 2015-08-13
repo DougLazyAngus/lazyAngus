@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.ParseObjectIdComparer
-struct  ParseObjectIdComparer_t1139  : public Object_t
+struct  ParseObjectIdComparer_t1192  : public Object_t
 {
 };

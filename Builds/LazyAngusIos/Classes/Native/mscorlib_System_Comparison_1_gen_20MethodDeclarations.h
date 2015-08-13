@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<Facebook.FacebookDelegate>
-struct Comparison_1_t5614;
+struct Comparison_1_t5660;
 // System.Object
 struct Object_t;
 // Facebook.FacebookDelegate
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Comparison`1<Facebook.FacebookDelegate>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m25864(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5614 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21492_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m26122(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5660 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21750_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<Facebook.FacebookDelegate>::Invoke(T,T)
-#define Comparison_1_Invoke_m25865(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5614 *, FacebookDelegate_t433 *, FacebookDelegate_t433 *, const MethodInfo*))Comparison_1_Invoke_m21493_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m26123(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5660 *, FacebookDelegate_t433 *, FacebookDelegate_t433 *, const MethodInfo*))Comparison_1_Invoke_m21751_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<Facebook.FacebookDelegate>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m25866(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5614 *, FacebookDelegate_t433 *, FacebookDelegate_t433 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21494_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m26124(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5660 *, FacebookDelegate_t433 *, FacebookDelegate_t433 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21752_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<Facebook.FacebookDelegate>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m25867(__this, ___result, method) (( int32_t (*) (Comparison_1_t5614 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21495_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m26125(__this, ___result, method) (( int32_t (*) (Comparison_1_t5660 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21753_gshared)(__this, ___result, method)

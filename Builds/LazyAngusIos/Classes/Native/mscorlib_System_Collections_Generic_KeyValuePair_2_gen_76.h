@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Object
-struct Object_t;
+// System.String
+struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt64>
-struct  KeyValuePair_2_t7182 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Int64>
+struct  KeyValuePair_2_t7245 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt64>::key
-	Object_t * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt64>::value
-	uint64_t ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Int64>::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Int64>::value
+	int64_t ___value_1;
 };

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t824;
+// LevelDescription
+struct LevelDescription_t585;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -14,7 +14,7 @@ struct Object_t;
 #include "mscorlib_System_Int32.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,UnityEngine.EventSystems.PointerEventData,System.Collections.DictionaryEntry>
-struct  Transform_1_t5738  : public MulticastDelegate_t388
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,LevelDescription,System.Collections.DictionaryEntry>
+struct  Transform_1_t5740  : public MulticastDelegate_t388
 {
 };

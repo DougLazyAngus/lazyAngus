@@ -2,15 +2,15 @@
 #include <stdint.h>
 // System.String
 struct String_t;
-// System.Collections.Generic.IList`1<System.DateTime>
-struct IList_1_t6758;
+// System.Collections.Generic.IList`1<System.Object>
+struct IList_1_t1375;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<System.DateTime>>
-struct  KeyValuePair_2_t7982 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<System.Object>>
+struct  KeyValuePair_2_t8050 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<System.DateTime>>::key
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<System.Object>>::key
 	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<System.DateTime>>::value
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<System.Object>>::value
 	Object_t* ___value_1;
 };

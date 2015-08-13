@@ -1,26 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>
-struct Tuple_2_t1198;
+struct Tuple_2_t1251;
 // System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>
-struct IDictionary_2_t1199;
+struct IDictionary_2_t1252;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t766;
+struct IDictionary_2_t822;
 // System.String
 struct String_t;
 // Parse.ParseObject
-struct ParseObject_t1168;
+struct ParseObject_t1221;
 // System.Threading.Tasks.Task
-struct Task_t1157;
+struct Task_t1210;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.CancellationToken
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 // Parse.ParseObject/<>c__DisplayClass15
-struct  U3CU3Ec__DisplayClass15_t1200  : public Object_t
+struct  U3CU3Ec__DisplayClass15_t1253  : public Object_t
 {
 	// System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>> Parse.ParseObject/<>c__DisplayClass15::result
-	Tuple_2_t1198 * ___result_0;
+	Tuple_2_t1251 * ___result_0;
 	// System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation> Parse.ParseObject/<>c__DisplayClass15::currentOperations
 	Object_t* ___currentOperations_1;
 	// System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseObject/<>c__DisplayClass15::objectJSON
@@ -28,9 +28,9 @@ struct  U3CU3Ec__DisplayClass15_t1200  : public Object_t
 	// System.String Parse.ParseObject/<>c__DisplayClass15::sessionToken
 	String_t* ___sessionToken_3;
 	// Parse.ParseObject Parse.ParseObject/<>c__DisplayClass15::<>4__this
-	ParseObject_t1168 * ___U3CU3E4__this_4;
+	ParseObject_t1221 * ___U3CU3E4__this_4;
 	// System.Threading.Tasks.Task Parse.ParseObject/<>c__DisplayClass15::toAwait
-	Task_t1157 * ___toAwait_5;
+	Task_t1210 * ___toAwait_5;
 	// System.Threading.CancellationToken Parse.ParseObject/<>c__DisplayClass15::cancellationToken
-	CancellationToken_t1110  ___cancellationToken_6;
+	CancellationToken_t1164  ___cancellationToken_6;
 };

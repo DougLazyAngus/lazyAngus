@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// Parse.ParseFile[]
-struct ParseFileU5BU5D_t6884;
+// System.DateTime[]
+struct DateTimeU5BU5D_t4895;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<Parse.ParseFile>
-struct  List_1_t6885  : public Object_t
+// System.Collections.Generic.List`1<System.DateTime>
+struct  List_1_t6839  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<Parse.ParseFile>::_items
-	ParseFileU5BU5D_t6884* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<Parse.ParseFile>::_size
+	// T[] System.Collections.Generic.List`1<System.DateTime>::_items
+	DateTimeU5BU5D_t4895* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.DateTime>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<Parse.ParseFile>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.DateTime>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6885_StaticFields{
-	// T[] System.Collections.Generic.List`1<Parse.ParseFile>::EmptyArray
-	ParseFileU5BU5D_t6884* ___EmptyArray_4;
+struct List_1_t6839_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.DateTime>::EmptyArray
+	DateTimeU5BU5D_t4895* ___EmptyArray_4;
 };

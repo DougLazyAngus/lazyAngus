@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.StencilMaterial/MatEntry
-struct MatEntry_t918;
+struct MatEntry_t977;
 
 // System.Void UnityEngine.UI.StencilMaterial/MatEntry::.ctor()
-extern "C" void MatEntry__ctor_m5191 (MatEntry_t918 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MatEntry__ctor_m5459 (MatEntry_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

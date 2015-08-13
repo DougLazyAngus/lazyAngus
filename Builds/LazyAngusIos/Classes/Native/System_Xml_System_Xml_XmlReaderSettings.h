@@ -5,7 +5,7 @@
 // System.Xml.ConformanceLevel
 #include "System_Xml_System_Xml_ConformanceLevel.h"
 // System.Xml.XmlReaderSettings
-struct  XmlReaderSettings_t3207  : public Object_t
+struct  XmlReaderSettings_t3255  : public Object_t
 {
 	// System.Boolean System.Xml.XmlReaderSettings::checkCharacters
 	bool ___checkCharacters_0;

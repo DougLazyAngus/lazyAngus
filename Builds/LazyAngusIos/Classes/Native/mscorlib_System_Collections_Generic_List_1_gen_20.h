@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.EventSystems.BaseInputModule[]
-struct BaseInputModuleU5BU5D_t5681;
+// ExplicitMouseDesc[]
+struct ExplicitMouseDescU5BU5D_t5718;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
-struct  List_1_t782  : public Object_t
+// System.Collections.Generic.List`1<ExplicitMouseDesc>
+struct  List_1_t579  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_items
-	BaseInputModuleU5BU5D_t5681* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_size
+	// T[] System.Collections.Generic.List`1<ExplicitMouseDesc>::_items
+	ExplicitMouseDescU5BU5D_t5718* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<ExplicitMouseDesc>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_version
+	// System.Int32 System.Collections.Generic.List`1<ExplicitMouseDesc>::_version
 	int32_t ____version_3;
 };
-struct List_1_t782_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::EmptyArray
-	BaseInputModuleU5BU5D_t5681* ___EmptyArray_4;
+struct List_1_t579_StaticFields{
+	// T[] System.Collections.Generic.List`1<ExplicitMouseDesc>::EmptyArray
+	ExplicitMouseDescU5BU5D_t5718* ___EmptyArray_4;
 };

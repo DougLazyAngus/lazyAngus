@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.Compression.DeflateStream/ReadMethod
-struct ReadMethod_t3929;
+struct ReadMethod_t3976;
 // System.Object
 struct Object_t;
 // System.Byte[]
@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.IO.Compression.DeflateStream/ReadMethod::.ctor(System.Object,System.IntPtr)
-extern "C" void ReadMethod__ctor_m13182 (ReadMethod_t3929 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReadMethod__ctor_m13437 (ReadMethod_t3976 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.Compression.DeflateStream/ReadMethod::Invoke(System.Byte[],System.Int32,System.Int32)
-extern "C" int32_t ReadMethod_Invoke_m13183 (ReadMethod_t3929 * __this, ByteU5BU5D_t66* ___array, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ReadMethod_Invoke_m13438 (ReadMethod_t3976 * __this, ByteU5BU5D_t66* ___array, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 #include "mscorlib_ArrayTypes.h"
 // System.Byte
 #include "mscorlib_System_Byte.h"
-extern "C" int32_t pinvoke_delegate_wrapper_ReadMethod_t3929(Il2CppObject* delegate, ByteU5BU5D_t66* ___array, int32_t ___offset, int32_t ___count);
+extern "C" int32_t pinvoke_delegate_wrapper_ReadMethod_t3976(Il2CppObject* delegate, ByteU5BU5D_t66* ___array, int32_t ___offset, int32_t ___count);
 // System.IAsyncResult System.IO.Compression.DeflateStream/ReadMethod::BeginInvoke(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-extern "C" Object_t * ReadMethod_BeginInvoke_m13184 (ReadMethod_t3929 * __this, ByteU5BU5D_t66* ___array, int32_t ___offset, int32_t ___count, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ReadMethod_BeginInvoke_m13439 (ReadMethod_t3976 * __this, ByteU5BU5D_t66* ___array, int32_t ___offset, int32_t ___count, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.Compression.DeflateStream/ReadMethod::EndInvoke(System.IAsyncResult)
-extern "C" int32_t ReadMethod_EndInvoke_m13185 (ReadMethod_t3929 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ReadMethod_EndInvoke_m13440 (ReadMethod_t3976 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

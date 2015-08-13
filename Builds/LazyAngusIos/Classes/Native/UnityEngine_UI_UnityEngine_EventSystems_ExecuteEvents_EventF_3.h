@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.IPointerDownHandler
-struct IPointerDownHandler_t964;
+struct IPointerDownHandler_t1023;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t784;
+struct BaseEventData_t845;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerDownHandler>
-struct  EventFunction_1_t796  : public MulticastDelegate_t388
+struct  EventFunction_1_t857  : public MulticastDelegate_t388
 {
 };

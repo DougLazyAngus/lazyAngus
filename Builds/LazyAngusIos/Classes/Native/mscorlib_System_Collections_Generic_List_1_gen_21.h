@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.EventSystems.RaycastResult[]
-struct RaycastResultU5BU5D_t5701;
+// System.Int32[]
+struct Int32U5BU5D_t484;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
-struct  List_1_t825  : public Object_t
+// System.Collections.Generic.List`1<System.Int32>
+struct  List_1_t797  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_items
-	RaycastResultU5BU5D_t5701* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_size
+	// T[] System.Collections.Generic.List`1<System.Int32>::_items
+	Int32U5BU5D_t484* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Int32>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Int32>::_version
 	int32_t ____version_3;
 };
-struct List_1_t825_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::EmptyArray
-	RaycastResultU5BU5D_t5701* ___EmptyArray_4;
+struct List_1_t797_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Int32>::EmptyArray
+	Int32U5BU5D_t484* ___EmptyArray_4;
 };

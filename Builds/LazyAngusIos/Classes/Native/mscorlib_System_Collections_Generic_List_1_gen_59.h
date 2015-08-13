@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.TimeZoneInfo/AdjustmentRule[]
-struct AdjustmentRuleU5BU5D_t3309;
+// System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>[]
+struct KeyValuePair_2U5BU5D_t8577;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>
-struct  List_1_t3315  : public Object_t
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
+struct  List_1_t3187  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::_items
-	AdjustmentRuleU5BU5D_t3309* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::_size
+	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::_items
+	KeyValuePair_2U5BU5D_t8577* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::_version
 	int32_t ____version_3;
 };
-struct List_1_t3315_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::EmptyArray
-	AdjustmentRuleU5BU5D_t3309* ___EmptyArray_4;
+struct List_1_t3187_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::EmptyArray
+	KeyValuePair_2U5BU5D_t8577* ___EmptyArray_4;
 };

@@ -2,57 +2,53 @@
 #include <stdint.h>
 // UnityEngine.GameObject
 struct GameObject_t352;
-// ConeOfViewRenderer
-struct ConeOfViewRenderer_t484;
 // HeadMovement
-struct HeadMovement_t527;
+struct HeadMovement_t569;
 // TipConfig
-struct TipConfig_t473;
+struct TipConfig_t511;
 // PlayerController
-struct PlayerController_t583;
+struct PlayerController_t625;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
-// PlayerController/BodyMovementType
-#include "AssemblyU2DCSharp_PlayerController_BodyMovementType.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
+// PlayerController/BodyMovementType
+#include "AssemblyU2DCSharp_PlayerController_BodyMovementType.h"
 // PlayerController
-struct  PlayerController_t583  : public MonoBehaviour_t13
+struct  PlayerController_t625  : public MonoBehaviour_t13
 {
 	// UnityEngine.GameObject PlayerController::rightPawGameObject
 	GameObject_t352 * ___rightPawGameObject_3;
 	// UnityEngine.GameObject PlayerController::leftPawGameObject
 	GameObject_t352 * ___leftPawGameObject_4;
-	// ConeOfViewRenderer PlayerController::coneOfView
-	ConeOfViewRenderer_t484 * ___coneOfView_5;
 	// HeadMovement PlayerController::headMovement
-	HeadMovement_t527 * ___headMovement_6;
+	HeadMovement_t569 * ___headMovement_5;
 	// UnityEngine.GameObject PlayerController::fartPuffPrototype
-	GameObject_t352 * ___fartPuffPrototype_7;
+	GameObject_t352 * ___fartPuffPrototype_6;
 	// UnityEngine.GameObject PlayerController::butthole
-	GameObject_t352 * ___butthole_8;
-	// PlayerController/BodyMovementType PlayerController::bodyMovement
-	int32_t ___bodyMovement_9;
+	GameObject_t352 * ___butthole_7;
 	// System.Single PlayerController::targetTurnAngleDegrees
-	float ___targetTurnAngleDegrees_10;
+	float ___targetTurnAngleDegrees_8;
 	// System.Single PlayerController::currentTurnAngleDegrees
-	float ___currentTurnAngleDegrees_11;
+	float ___currentTurnAngleDegrees_9;
 	// UnityEngine.Vector3 PlayerController::dragAnchorCat
-	Vector3_t497  ___dragAnchorCat_12;
+	Vector3_t536  ___dragAnchorCat_10;
 	// System.Single PlayerController::dragAnchorAngleCat
-	float ___dragAnchorAngleCat_13;
+	float ___dragAnchorAngleCat_11;
 	// System.Boolean PlayerController::registeredForEvents
-	bool ___registeredForEvents_14;
+	bool ___registeredForEvents_12;
 	// TipConfig PlayerController::turningTip
-	TipConfig_t473 * ___turningTip_15;
+	TipConfig_t511 * ___turningTip_13;
 	// System.Single PlayerController::turningTipPause
-	float ___turningTipPause_16;
+	float ___turningTipPause_14;
 	// System.Single PlayerController::lastFartTime
-	float ___lastFartTime_17;
+	float ___lastFartTime_15;
 	// System.Single PlayerController::fartPause
-	float ___fartPause_18;
+	float ___fartPause_16;
+	// PlayerController/BodyMovementType PlayerController::<bodyMovement>k__BackingField
+	int32_t ___U3CbodyMovementU3Ek__BackingField_17;
 };
-struct PlayerController_t583_StaticFields{
+struct PlayerController_t625_StaticFields{
 	// PlayerController PlayerController::<instance>k__BackingField
-	PlayerController_t583 * ___U3CinstanceU3Ek__BackingField_19;
+	PlayerController_t625 * ___U3CinstanceU3Ek__BackingField_18;
 };

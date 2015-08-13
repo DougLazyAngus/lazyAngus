@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.InvalidOperationException
-struct  InvalidOperationException_t1378  : public SystemException_t3182
+struct  InvalidOperationException_t1429  : public SystemException_t3230
 {
 };

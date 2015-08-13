@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit>
-struct ReadOnlyCollection_1_t3283;
+struct ReadOnlyCollection_1_t3331;
 // System.Linq.Expressions.MemberBinding
 #include "System_Core_System_Linq_Expressions_MemberBinding.h"
 // System.Linq.Expressions.MemberListBinding
-struct  MemberListBinding_t3290  : public MemberBinding_t3286
+struct  MemberListBinding_t3338  : public MemberBinding_t3334
 {
 	// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit> System.Linq.Expressions.MemberListBinding::initializers
-	ReadOnlyCollection_1_t3283 * ___initializers_2;
+	ReadOnlyCollection_1_t3331 * ___initializers_2;
 };

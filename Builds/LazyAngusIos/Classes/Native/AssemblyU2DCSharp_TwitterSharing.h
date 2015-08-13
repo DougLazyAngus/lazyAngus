@@ -3,18 +3,18 @@
 // System.String
 struct String_t;
 // TwitterSharing
-struct TwitterSharing_t623;
+struct TwitterSharing_t669;
 // UnityEngine.Texture2D
 struct Texture2D_t108;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TwitterSharing
-struct  TwitterSharing_t623  : public MonoBehaviour_t13
+struct  TwitterSharing_t669  : public MonoBehaviour_t13
 {
 	// UnityEngine.Texture2D TwitterSharing::lazyAngusIcon
 	Texture2D_t108 * ___lazyAngusIcon_5;
 };
-struct TwitterSharing_t623_StaticFields{
+struct TwitterSharing_t669_StaticFields{
 	// TwitterSharing TwitterSharing::instance
-	TwitterSharing_t623 * ___instance_4;
+	TwitterSharing_t669 * ___instance_4;
 };

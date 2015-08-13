@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlNode
-struct XmlNode_t668;
+struct XmlNode_t717;
 // System.String
 struct String_t;
 // System.EventArgs
@@ -9,16 +9,16 @@ struct String_t;
 // System.Xml.XmlNodeChangedAction
 #include "System_Xml_System_Xml_XmlNodeChangedAction.h"
 // System.Xml.XmlNodeChangedEventArgs
-struct  XmlNodeChangedEventArgs_t3197  : public EventArgs_t1245
+struct  XmlNodeChangedEventArgs_t3245  : public EventArgs_t1297
 {
 	// System.Xml.XmlNode System.Xml.XmlNodeChangedEventArgs::_oldParent
-	XmlNode_t668 * ____oldParent_1;
+	XmlNode_t717 * ____oldParent_1;
 	// System.Xml.XmlNode System.Xml.XmlNodeChangedEventArgs::_newParent
-	XmlNode_t668 * ____newParent_2;
+	XmlNode_t717 * ____newParent_2;
 	// System.Xml.XmlNodeChangedAction System.Xml.XmlNodeChangedEventArgs::_action
 	int32_t ____action_3;
 	// System.Xml.XmlNode System.Xml.XmlNodeChangedEventArgs::_node
-	XmlNode_t668 * ____node_4;
+	XmlNode_t717 * ____node_4;
 	// System.String System.Xml.XmlNodeChangedEventArgs::_oldValue
 	String_t* ____oldValue_5;
 	// System.String System.Xml.XmlNodeChangedEventArgs::_newValue

@@ -4,12 +4,12 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Predicate`1<UnityEngine.Rigidbody2D>
-struct Predicate_1_t8350;
+// System.Predicate`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
+struct Predicate_1_t8385;
 // System.Object
 struct Object_t;
-// UnityEngine.Rigidbody2D
-struct Rigidbody2D_t2719;
+// UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard
+struct GcLeaderboard_t2699;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -17,13 +17,13 @@ struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Predicate`1<UnityEngine.Rigidbody2D>::.ctor(System.Object,System.IntPtr)
+// System.Void System.Predicate`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m60030(__this, ___object, ___method, method) (( void (*) (Predicate_1_t8350 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21464_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<UnityEngine.Rigidbody2D>::Invoke(T)
-#define Predicate_1_Invoke_m60031(__this, ___obj, method) (( bool (*) (Predicate_1_t8350 *, Rigidbody2D_t2719 *, const MethodInfo*))Predicate_1_Invoke_m21465_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<UnityEngine.Rigidbody2D>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m60032(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t8350 *, Rigidbody2D_t2719 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21466_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<UnityEngine.Rigidbody2D>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m60033(__this, ___result, method) (( bool (*) (Predicate_1_t8350 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21467_gshared)(__this, ___result, method)
+#define Predicate_1__ctor_m60133(__this, ___object, ___method, method) (( void (*) (Predicate_1_t8385 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21722_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::Invoke(T)
+#define Predicate_1_Invoke_m60134(__this, ___obj, method) (( bool (*) (Predicate_1_t8385 *, GcLeaderboard_t2699 *, const MethodInfo*))Predicate_1_Invoke_m21723_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Predicate_1_BeginInvoke_m60135(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t8385 *, GcLeaderboard_t2699 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21724_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::EndInvoke(System.IAsyncResult)
+#define Predicate_1_EndInvoke_m60136(__this, ___result, method) (( bool (*) (Predicate_1_t8385 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21725_gshared)(__this, ___result, method)

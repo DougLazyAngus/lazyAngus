@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<System.Object>>
-struct Task_1_t6033;
+struct Task_1_t6106;
 // System.Threading.Tasks.Task
 #include "Parse_Unity_System_Threading_Tasks_Task.h"
 // System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<System.Object>>>
-struct  Task_1_t6100  : public Task_t1157
+struct  Task_1_t6173  : public Task_t1210
 {
 	// T System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<System.Object>>>::result
-	Task_1_t6033 * ___result_9;
+	Task_1_t6106 * ___result_9;
 };

@@ -4,10 +4,10 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// SocialHelper/<Authenticate>c__AnonStorey1B
-struct U3CAuthenticateU3Ec__AnonStorey1B_t603;
+// SocialHelper/<Authenticate>c__AnonStorey1D
+struct U3CAuthenticateU3Ec__AnonStorey1D_t645;
 
-// System.Void SocialHelper/<Authenticate>c__AnonStorey1B::.ctor()
-extern "C" void U3CAuthenticateU3Ec__AnonStorey1B__ctor_m3250 (U3CAuthenticateU3Ec__AnonStorey1B_t603 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void SocialHelper/<Authenticate>c__AnonStorey1B::<>m__4E(System.Boolean)
-extern "C" void U3CAuthenticateU3Ec__AnonStorey1B_U3CU3Em__4E_m3251 (U3CAuthenticateU3Ec__AnonStorey1B_t603 * __this, bool ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SocialHelper/<Authenticate>c__AnonStorey1D::.ctor()
+extern "C" void U3CAuthenticateU3Ec__AnonStorey1D__ctor_m3473 (U3CAuthenticateU3Ec__AnonStorey1D_t645 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SocialHelper/<Authenticate>c__AnonStorey1D::<>m__50(System.Boolean)
+extern "C" void U3CAuthenticateU3Ec__AnonStorey1D_U3CU3Em__50_m3474 (U3CAuthenticateU3Ec__AnonStorey1D_t645 * __this, bool ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;

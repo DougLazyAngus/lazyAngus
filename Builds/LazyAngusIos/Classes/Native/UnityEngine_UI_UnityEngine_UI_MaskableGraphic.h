@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Material
-struct Material_t483;
+struct Material_t523;
 // UnityEngine.UI.Graphic
 #include "UnityEngine_UI_UnityEngine_UI_Graphic.h"
 // UnityEngine.UI.MaskableGraphic
-struct  MaskableGraphic_t876  : public Graphic_t861
+struct  MaskableGraphic_t936  : public Graphic_t922
 {
 	// System.Boolean UnityEngine.UI.MaskableGraphic::m_Maskable
 	bool ___m_Maskable_18;
 	// UnityEngine.Material UnityEngine.UI.MaskableGraphic::m_MaskMaterial
-	Material_t483 * ___m_MaskMaterial_19;
+	Material_t523 * ___m_MaskMaterial_19;
 	// System.Boolean UnityEngine.UI.MaskableGraphic::m_IncludeForMasking
 	bool ___m_IncludeForMasking_20;
 	// System.Int32 UnityEngine.UI.MaskableGraphic::m_StencilValue

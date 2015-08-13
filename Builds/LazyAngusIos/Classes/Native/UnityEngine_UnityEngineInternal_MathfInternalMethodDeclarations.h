@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngineInternal.MathfInternal
-struct MathfInternal_t2685;
+struct MathfInternal_t2735;
 
 // System.Void UnityEngineInternal.MathfInternal::.cctor()
-extern "C" void MathfInternal__cctor_m8957 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MathfInternal__cctor_m9215 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

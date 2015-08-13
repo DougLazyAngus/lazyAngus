@@ -4,26 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Predicate`1<UnityEngine.Transform>
-struct Predicate_1_t5729;
+// System.Predicate`1<UnityEngine.EventSystems.RaycastResult>
+struct Predicate_1_t5787;
 // System.Object
 struct Object_t;
-// UnityEngine.Transform
-struct Transform_t406;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
+// UnityEngine.EventSystems.RaycastResult
+#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
 
-// System.Void System.Predicate`1<UnityEngine.Transform>::.ctor(System.Object,System.IntPtr)
-// System.Predicate`1<System.Object>
-#include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m27665(__this, ___object, ___method, method) (( void (*) (Predicate_1_t5729 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21464_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<UnityEngine.Transform>::Invoke(T)
-#define Predicate_1_Invoke_m27666(__this, ___obj, method) (( bool (*) (Predicate_1_t5729 *, Transform_t406 *, const MethodInfo*))Predicate_1_Invoke_m21465_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<UnityEngine.Transform>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m27667(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t5729 *, Transform_t406 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21466_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<UnityEngine.Transform>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m27668(__this, ___result, method) (( bool (*) (Predicate_1_t5729 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21467_gshared)(__this, ___result, method)
+// System.Void System.Predicate`1<UnityEngine.EventSystems.RaycastResult>::.ctor(System.Object,System.IntPtr)
+extern "C" void Predicate_1__ctor_m28016_gshared (Predicate_1_t5787 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Predicate_1__ctor_m28016(__this, ___object, ___method, method) (( void (*) (Predicate_1_t5787 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m28016_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<UnityEngine.EventSystems.RaycastResult>::Invoke(T)
+extern "C" bool Predicate_1_Invoke_m28017_gshared (Predicate_1_t5787 * __this, RaycastResult_t880  ___obj, const MethodInfo* method);
+#define Predicate_1_Invoke_m28017(__this, ___obj, method) (( bool (*) (Predicate_1_t5787 *, RaycastResult_t880 , const MethodInfo*))Predicate_1_Invoke_m28017_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<UnityEngine.EventSystems.RaycastResult>::BeginInvoke(T,System.AsyncCallback,System.Object)
+extern "C" Object_t * Predicate_1_BeginInvoke_m28018_gshared (Predicate_1_t5787 * __this, RaycastResult_t880  ___obj, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Predicate_1_BeginInvoke_m28018(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t5787 *, RaycastResult_t880 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m28018_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<UnityEngine.EventSystems.RaycastResult>::EndInvoke(System.IAsyncResult)
+extern "C" bool Predicate_1_EndInvoke_m28019_gshared (Predicate_1_t5787 * __this, Object_t * ___result, const MethodInfo* method);
+#define Predicate_1_EndInvoke_m28019(__this, ___result, method) (( bool (*) (Predicate_1_t5787 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m28019_gshared)(__this, ___result, method)

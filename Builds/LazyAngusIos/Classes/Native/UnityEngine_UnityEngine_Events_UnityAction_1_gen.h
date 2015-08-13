@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>
-struct List_1_t980;
+// System.String
+struct String_t;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -12,7 +12,7 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>
-struct  UnityAction_1_t813  : public MulticastDelegate_t388
+// UnityEngine.Events.UnityAction`1<System.String>
+struct  UnityAction_1_t800  : public MulticastDelegate_t388
 {
 };

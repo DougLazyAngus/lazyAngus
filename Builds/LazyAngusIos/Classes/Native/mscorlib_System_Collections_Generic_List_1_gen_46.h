@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.GUILayoutEntry[]
-struct GUILayoutEntryU5BU5D_t8327;
+// System.Exception[]
+struct ExceptionU5BU5D_t8332;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>
-struct  List_1_t2666  : public Object_t
+// System.Collections.Generic.List`1<System.Exception>
+struct  List_1_t2147  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>::_items
-	GUILayoutEntryU5BU5D_t8327* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>::_size
+	// T[] System.Collections.Generic.List`1<System.Exception>::_items
+	ExceptionU5BU5D_t8332* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Exception>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Exception>::_version
 	int32_t ____version_3;
 };
-struct List_1_t2666_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>::EmptyArray
-	GUILayoutEntryU5BU5D_t8327* ___EmptyArray_4;
+struct List_1_t2147_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Exception>::EmptyArray
+	ExceptionU5BU5D_t8332* ___EmptyArray_4;
 };

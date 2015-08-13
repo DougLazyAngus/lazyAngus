@@ -3,16 +3,16 @@
 // System.Object
 struct Object_t;
 // Parse.Internal.ParseDeleteOperation
-struct ParseDeleteOperation_t1138;
+struct ParseDeleteOperation_t1191;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.ParseDeleteOperation
-struct  ParseDeleteOperation_t1138  : public Object_t
+struct  ParseDeleteOperation_t1191  : public Object_t
 {
 };
-struct ParseDeleteOperation_t1138_StaticFields{
+struct ParseDeleteOperation_t1191_StaticFields{
 	// System.Object Parse.Internal.ParseDeleteOperation::DeleteToken
 	Object_t * ___DeleteToken_0;
 	// Parse.Internal.ParseDeleteOperation Parse.Internal.ParseDeleteOperation::_Instance
-	ParseDeleteOperation_t1138 * ____Instance_1;
+	ParseDeleteOperation_t1191 * ____Instance_1;
 };

@@ -4,10 +4,12 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// UnityEngine.Events.UnityAction`1<System.Object>
-struct UnityAction_1_t5693;
+// UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Component>>
+struct UnityAction_1_t1015;
 // System.Object
 struct Object_t;
+// System.Collections.Generic.List`1<UnityEngine.Component>
+struct List_1_t1047;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,15 +17,13 @@ struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void UnityEngine.Events.UnityAction`1<System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void UnityAction_1__ctor_m27035_gshared (UnityAction_1_t5693 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define UnityAction_1__ctor_m27035(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t5693 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m27035_gshared)(__this, ___object, ___method, method)
-// System.Void UnityEngine.Events.UnityAction`1<System.Object>::Invoke(T0)
-extern "C" void UnityAction_1_Invoke_m27036_gshared (UnityAction_1_t5693 * __this, Object_t * ___arg0, const MethodInfo* method);
-#define UnityAction_1_Invoke_m27036(__this, ___arg0, method) (( void (*) (UnityAction_1_t5693 *, Object_t *, const MethodInfo*))UnityAction_1_Invoke_m27036_gshared)(__this, ___arg0, method)
-// System.IAsyncResult UnityEngine.Events.UnityAction`1<System.Object>::BeginInvoke(T0,System.AsyncCallback,System.Object)
-extern "C" Object_t * UnityAction_1_BeginInvoke_m27037_gshared (UnityAction_1_t5693 * __this, Object_t * ___arg0, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define UnityAction_1_BeginInvoke_m27037(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t5693 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m27037_gshared)(__this, ___arg0, ___callback, ___object, method)
-// System.Void UnityEngine.Events.UnityAction`1<System.Object>::EndInvoke(System.IAsyncResult)
-extern "C" void UnityAction_1_EndInvoke_m27038_gshared (UnityAction_1_t5693 * __this, Object_t * ___result, const MethodInfo* method);
-#define UnityAction_1_EndInvoke_m27038(__this, ___result, method) (( void (*) (UnityAction_1_t5693 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m27038_gshared)(__this, ___result, method)
+// System.Void UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Component>>::.ctor(System.Object,System.IntPtr)
+// UnityEngine.Events.UnityAction`1<System.Object>
+#include "UnityEngine_UnityEngine_Events_UnityAction_1_gen_7MethodDeclarations.h"
+#define UnityAction_1__ctor_m6195(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t1015 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m27494_gshared)(__this, ___object, ___method, method)
+// System.Void UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Component>>::Invoke(T0)
+#define UnityAction_1_Invoke_m30343(__this, ___arg0, method) (( void (*) (UnityAction_1_t1015 *, List_1_t1047 *, const MethodInfo*))UnityAction_1_Invoke_m27496_gshared)(__this, ___arg0, method)
+// System.IAsyncResult UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Component>>::BeginInvoke(T0,System.AsyncCallback,System.Object)
+#define UnityAction_1_BeginInvoke_m30344(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t1015 *, List_1_t1047 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m27498_gshared)(__this, ___arg0, ___callback, ___object, method)
+// System.Void UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Component>>::EndInvoke(System.IAsyncResult)
+#define UnityAction_1_EndInvoke_m30345(__this, ___result, method) (( void (*) (UnityAction_1_t1015 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m27500_gshared)(__this, ___result, method)

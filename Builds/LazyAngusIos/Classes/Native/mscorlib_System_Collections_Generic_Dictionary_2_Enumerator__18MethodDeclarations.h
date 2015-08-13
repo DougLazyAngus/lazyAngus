@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>
-struct Enumerator_t5459;
+struct Enumerator_t5505;
 // System.Object
 struct Object_t;
 // System.String
@@ -22,30 +22,30 @@ struct Dictionary_2_t136;
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__14MethodDeclarations.h"
-#define Enumerator__ctor_m22961(__this, ___dictionary, method) (( void (*) (Enumerator_t5459 *, Dictionary_2_t136 *, const MethodInfo*))Enumerator__ctor_m21670_gshared)(__this, ___dictionary, method)
+#define Enumerator__ctor_m23219(__this, ___dictionary, method) (( void (*) (Enumerator_t5505 *, Dictionary_2_t136 *, const MethodInfo*))Enumerator__ctor_m21928_gshared)(__this, ___dictionary, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m22962(__this, method) (( Object_t * (*) (Enumerator_t5459 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21671_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_get_Current_m23220(__this, method) (( Object_t * (*) (Enumerator_t5505 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21929_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m22963(__this, method) (( void (*) (Enumerator_t5459 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21672_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_Reset_m23221(__this, method) (( void (*) (Enumerator_t5505 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21930_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::System.Collections.IDictionaryEnumerator.get_Entry()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m22964(__this, method) (( DictionaryEntry_t2088  (*) (Enumerator_t5459 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m21673_gshared)(__this, method)
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m23222(__this, method) (( DictionaryEntry_t2139  (*) (Enumerator_t5505 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m21931_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::System.Collections.IDictionaryEnumerator.get_Key()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m22965(__this, method) (( Object_t * (*) (Enumerator_t5459 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m21674_gshared)(__this, method)
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m23223(__this, method) (( Object_t * (*) (Enumerator_t5505 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m21932_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::System.Collections.IDictionaryEnumerator.get_Value()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m22966(__this, method) (( Object_t * (*) (Enumerator_t5459 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m21675_gshared)(__this, method)
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m23224(__this, method) (( Object_t * (*) (Enumerator_t5505 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m21933_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::MoveNext()
-#define Enumerator_MoveNext_m22967(__this, method) (( bool (*) (Enumerator_t5459 *, const MethodInfo*))Enumerator_MoveNext_m21676_gshared)(__this, method)
+#define Enumerator_MoveNext_m23225(__this, method) (( bool (*) (Enumerator_t5505 *, const MethodInfo*))Enumerator_MoveNext_m21934_gshared)(__this, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::get_Current()
-#define Enumerator_get_Current_m22968(__this, method) (( KeyValuePair_2_t5456  (*) (Enumerator_t5459 *, const MethodInfo*))Enumerator_get_Current_m21677_gshared)(__this, method)
+#define Enumerator_get_Current_m23226(__this, method) (( KeyValuePair_2_t5502  (*) (Enumerator_t5505 *, const MethodInfo*))Enumerator_get_Current_m21935_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::get_CurrentKey()
-#define Enumerator_get_CurrentKey_m22969(__this, method) (( String_t* (*) (Enumerator_t5459 *, const MethodInfo*))Enumerator_get_CurrentKey_m21678_gshared)(__this, method)
+#define Enumerator_get_CurrentKey_m23227(__this, method) (( String_t* (*) (Enumerator_t5505 *, const MethodInfo*))Enumerator_get_CurrentKey_m21936_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::get_CurrentValue()
-#define Enumerator_get_CurrentValue_m22970(__this, method) (( Object_t * (*) (Enumerator_t5459 *, const MethodInfo*))Enumerator_get_CurrentValue_m21679_gshared)(__this, method)
+#define Enumerator_get_CurrentValue_m23228(__this, method) (( Object_t * (*) (Enumerator_t5505 *, const MethodInfo*))Enumerator_get_CurrentValue_m21937_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::Reset()
-#define Enumerator_Reset_m22971(__this, method) (( void (*) (Enumerator_t5459 *, const MethodInfo*))Enumerator_Reset_m21680_gshared)(__this, method)
+#define Enumerator_Reset_m23229(__this, method) (( void (*) (Enumerator_t5505 *, const MethodInfo*))Enumerator_Reset_m21938_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::VerifyState()
-#define Enumerator_VerifyState_m22972(__this, method) (( void (*) (Enumerator_t5459 *, const MethodInfo*))Enumerator_VerifyState_m21681_gshared)(__this, method)
+#define Enumerator_VerifyState_m23230(__this, method) (( void (*) (Enumerator_t5505 *, const MethodInfo*))Enumerator_VerifyState_m21939_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::VerifyCurrent()
-#define Enumerator_VerifyCurrent_m22973(__this, method) (( void (*) (Enumerator_t5459 *, const MethodInfo*))Enumerator_VerifyCurrent_m21682_gshared)(__this, method)
+#define Enumerator_VerifyCurrent_m23231(__this, method) (( void (*) (Enumerator_t5505 *, const MethodInfo*))Enumerator_VerifyCurrent_m21940_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,GoogleMobileAdBanner>::Dispose()
-#define Enumerator_Dispose_m22974(__this, method) (( void (*) (Enumerator_t5459 *, const MethodInfo*))Enumerator_Dispose_m21683_gshared)(__this, method)
+#define Enumerator_Dispose_m23232(__this, method) (( void (*) (Enumerator_t5505 *, const MethodInfo*))Enumerator_Dispose_m21941_gshared)(__this, method)

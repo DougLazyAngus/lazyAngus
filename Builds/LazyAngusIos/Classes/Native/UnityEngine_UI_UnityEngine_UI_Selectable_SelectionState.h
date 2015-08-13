@@ -5,7 +5,7 @@
 // UnityEngine.UI.Selectable/SelectionState
 #include "UnityEngine_UI_UnityEngine_UI_Selectable_SelectionState.h"
 // UnityEngine.UI.Selectable/SelectionState
-struct  SelectionState_t910 
+struct  SelectionState_t969 
 {
 	// System.Int32 UnityEngine.UI.Selectable/SelectionState::value__
 	int32_t ___value___1;

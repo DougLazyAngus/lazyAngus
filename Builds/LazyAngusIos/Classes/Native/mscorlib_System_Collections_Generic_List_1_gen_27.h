@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.EventSystems.PointerInputModule/ButtonState[]
-struct ButtonStateU5BU5D_t5740;
+// UnityEngine.EventSystems.IEventSystemHandler[]
+struct IEventSystemHandlerU5BU5D_t5766;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
-struct  List_1_t828  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>
+struct  List_1_t1039  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::_items
-	ButtonStateU5BU5D_t5740* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>::_items
+	IEventSystemHandlerU5BU5D_t5766* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>::_version
 	int32_t ____version_3;
 };
-struct List_1_t828_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::EmptyArray
-	ButtonStateU5BU5D_t5740* ___EmptyArray_4;
+struct List_1_t1039_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>::EmptyArray
+	IEventSystemHandlerU5BU5D_t5766* ___EmptyArray_4;
 };

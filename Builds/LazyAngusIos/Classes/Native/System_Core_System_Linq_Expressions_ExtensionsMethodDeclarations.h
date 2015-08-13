@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Expressions.Extensions
-struct Extensions_t3280;
+struct Extensions_t3328;
 // System.Type
 struct Type_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 
 // System.Boolean System.Linq.Expressions.Extensions::IsGenericInstanceOf(System.Type,System.Type)
-extern "C" bool Extensions_IsGenericInstanceOf_m11428 (Object_t * __this /* static, unused */, Type_t * ___self, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Extensions_IsGenericInstanceOf_m11683 (Object_t * __this /* static, unused */, Type_t * ___self, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Linq.Expressions.Extensions::IsNullable(System.Type)
-extern "C" bool Extensions_IsNullable_m11429 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Extensions_IsNullable_m11684 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Linq.Expressions.Extensions::IsExpression(System.Type)
-extern "C" bool Extensions_IsExpression_m11430 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Extensions_IsExpression_m11685 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Linq.Expressions.Extensions::IsAssignableTo(System.Type,System.Type)
-extern "C" bool Extensions_IsAssignableTo_m11431 (Object_t * __this /* static, unused */, Type_t * ___self, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Extensions_IsAssignableTo_m11686 (Object_t * __this /* static, unused */, Type_t * ___self, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Linq.Expressions.Extensions::GetFirstGenericArgument(System.Type)
-extern "C" Type_t * Extensions_GetFirstGenericArgument_m11432 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * Extensions_GetFirstGenericArgument_m11687 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Linq.Expressions.Extensions::GetNotNullableType(System.Type)
-extern "C" Type_t * Extensions_GetNotNullableType_m11433 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * Extensions_GetNotNullableType_m11688 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Linq.Expressions.Extensions::GetInvokeMethod(System.Type)
-extern "C" MethodInfo_t * Extensions_GetInvokeMethod_m11434 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * Extensions_GetInvokeMethod_m11689 (Object_t * __this /* static, unused */, Type_t * ___self, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Linq.Expressions.Extensions::ArrayTypeIsAssignableTo(System.Type,System.Type)
-extern "C" bool Extensions_ArrayTypeIsAssignableTo_m11435 (Object_t * __this /* static, unused */, Type_t * ___type, Type_t * ___candidate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Extensions_ArrayTypeIsAssignableTo_m11690 (Object_t * __this /* static, unused */, Type_t * ___type, Type_t * ___candidate, const MethodInfo* method) IL2CPP_METHOD_ATTR;

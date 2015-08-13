@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Networking.Match.Response
-struct Response_t2744;
+struct Response_t2794;
 // System.String
 struct String_t;
 // System.Object
 struct Object_t;
 
 // System.Void UnityEngine.Networking.Match.Response::.ctor()
-extern "C" void Response__ctor_m9380 (Response_t2744 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Response__ctor_m9638 (Response_t2794 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Networking.Match.Response::get_success()
-extern "C" bool Response_get_success_m9381 (Response_t2744 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Response_get_success_m9639 (Response_t2794 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.Response::set_success(System.Boolean)
-extern "C" void Response_set_success_m9382 (Response_t2744 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Response_set_success_m9640 (Response_t2794 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Networking.Match.Response::get_extendedInfo()
-extern "C" String_t* Response_get_extendedInfo_m9383 (Response_t2744 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Response_get_extendedInfo_m9641 (Response_t2794 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.Response::set_extendedInfo(System.String)
-extern "C" void Response_set_extendedInfo_m9384 (Response_t2744 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Response_set_extendedInfo_m9642 (Response_t2794 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Networking.Match.Response::ToString()
-extern "C" String_t* Response_ToString_m9385 (Response_t2744 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Response_ToString_m9643 (Response_t2794 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.Response::Parse(System.Object)
-extern "C" void Response_Parse_m9386 (Response_t2744 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Response_Parse_m9644 (Response_t2794 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

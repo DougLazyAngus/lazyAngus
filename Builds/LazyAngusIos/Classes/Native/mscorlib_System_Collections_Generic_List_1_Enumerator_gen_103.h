@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
-struct List_1_t3317;
+// System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>
+struct List_1_t2807;
+// UnityEngine.Networking.Match.MatchDesc
+struct MatchDesc_t2806;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_17.h"
-// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
-struct  Enumerator_t8541 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>
+struct  Enumerator_t8469 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::l
-	List_1_t3317 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::l
+	List_1_t2807 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::current
-	KeyValuePair_2_t3331  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::current
+	MatchDesc_t2806 * ___current_3;
 };

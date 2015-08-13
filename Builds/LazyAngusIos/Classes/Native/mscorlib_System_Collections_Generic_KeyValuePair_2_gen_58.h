@@ -4,13 +4,11 @@
 struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.DateTime
-#include "mscorlib_System_DateTime.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.DateTime>
-struct  KeyValuePair_2_t7029 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Double>
+struct  KeyValuePair_2_t7075 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.DateTime>::key
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Double>::key
 	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.DateTime>::value
-	DateTime_t287  ___value_1;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Double>::value
+	double ___value_1;
 };

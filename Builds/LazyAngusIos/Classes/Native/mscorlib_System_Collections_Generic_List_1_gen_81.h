@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Boolean[]
-struct BooleanU5BU5D_t4028;
+// System.Double[]
+struct DoubleU5BU5D_t4873;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Boolean>
-struct  List_1_t6852  : public Object_t
+// System.Collections.Generic.List`1<System.Double>
+struct  List_1_t6751  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Boolean>::_items
-	BooleanU5BU5D_t4028* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Boolean>::_size
+	// T[] System.Collections.Generic.List`1<System.Double>::_items
+	DoubleU5BU5D_t4873* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Double>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Boolean>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Double>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6852_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Boolean>::EmptyArray
-	BooleanU5BU5D_t4028* ___EmptyArray_4;
+struct List_1_t6751_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Double>::EmptyArray
+	DoubleU5BU5D_t4873* ___EmptyArray_4;
 };

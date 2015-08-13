@@ -4,28 +4,27 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>
-struct KeyValuePair_2_t8525;
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
+struct KeyValuePair_2_t8548;
+// UnityEngine.Event
+struct Event_t783;
+struct Event_t783_marshaled;
 // System.String
 struct String_t;
-// System.TimeZoneInfo/TimeType
-#include "System_Core_System_TimeZoneInfo_TimeType.h"
+// UnityEngine.TextEditor/TextEditOp
+#include "UnityEngine_UnityEngine_TextEditor_TextEditOp.h"
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>::.ctor(TKey,TValue)
-extern "C" void KeyValuePair_2__ctor_m62575_gshared (KeyValuePair_2_t8525 * __this, int32_t ___key, TimeType_t3308  ___value, const MethodInfo* method);
-#define KeyValuePair_2__ctor_m62575(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t8525 *, int32_t, TimeType_t3308 , const MethodInfo*))KeyValuePair_2__ctor_m62575_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>::get_Key()
-extern "C" int32_t KeyValuePair_2_get_Key_m62576_gshared (KeyValuePair_2_t8525 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Key_m62576(__this, method) (( int32_t (*) (KeyValuePair_2_t8525 *, const MethodInfo*))KeyValuePair_2_get_Key_m62576_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>::set_Key(TKey)
-extern "C" void KeyValuePair_2_set_Key_m62577_gshared (KeyValuePair_2_t8525 * __this, int32_t ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Key_m62577(__this, ___value, method) (( void (*) (KeyValuePair_2_t8525 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m62577_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>::get_Value()
-extern "C" TimeType_t3308  KeyValuePair_2_get_Value_m62578_gshared (KeyValuePair_2_t8525 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Value_m62578(__this, method) (( TimeType_t3308  (*) (KeyValuePair_2_t8525 *, const MethodInfo*))KeyValuePair_2_get_Value_m62578_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>::set_Value(TValue)
-extern "C" void KeyValuePair_2_set_Value_m62579_gshared (KeyValuePair_2_t8525 * __this, TimeType_t3308  ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Value_m62579(__this, ___value, method) (( void (*) (KeyValuePair_2_t8525 *, TimeType_t3308 , const MethodInfo*))KeyValuePair_2_set_Value_m62579_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>::ToString()
-extern "C" String_t* KeyValuePair_2_ToString_m62580_gshared (KeyValuePair_2_t8525 * __this, const MethodInfo* method);
-#define KeyValuePair_2_ToString_m62580(__this, method) (( String_t* (*) (KeyValuePair_2_t8525 *, const MethodInfo*))KeyValuePair_2_ToString_m62580_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::.ctor(TKey,TValue)
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_24MethodDeclarations.h"
+#define KeyValuePair_2__ctor_m62553(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t8548 *, Event_t783 *, int32_t, const MethodInfo*))KeyValuePair_2__ctor_m23860_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::get_Key()
+#define KeyValuePair_2_get_Key_m62554(__this, method) (( Event_t783 * (*) (KeyValuePair_2_t8548 *, const MethodInfo*))KeyValuePair_2_get_Key_m23861_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m62555(__this, ___value, method) (( void (*) (KeyValuePair_2_t8548 *, Event_t783 *, const MethodInfo*))KeyValuePair_2_set_Key_m23862_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::get_Value()
+#define KeyValuePair_2_get_Value_m62556(__this, method) (( int32_t (*) (KeyValuePair_2_t8548 *, const MethodInfo*))KeyValuePair_2_get_Value_m23863_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m62557(__this, ___value, method) (( void (*) (KeyValuePair_2_t8548 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Value_m23864_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::ToString()
+#define KeyValuePair_2_ToString_m62558(__this, method) (( String_t* (*) (KeyValuePair_2_t8548 *, const MethodInfo*))KeyValuePair_2_ToString_m23865_gshared)(__this, method)

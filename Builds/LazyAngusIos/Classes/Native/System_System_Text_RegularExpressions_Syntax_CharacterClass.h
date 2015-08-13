@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.BitArray
-struct BitArray_t4124;
+struct BitArray_t4170;
 // System.Text.RegularExpressions.IntervalCollection
-struct IntervalCollection_t4104;
+struct IntervalCollection_t4150;
 // System.Text.RegularExpressions.Syntax.Expression
 #include "System_System_Text_RegularExpressions_Syntax_Expression.h"
 // System.Text.RegularExpressions.Interval
 #include "System_System_Text_RegularExpressions_Interval.h"
 // System.Text.RegularExpressions.Syntax.CharacterClass
-struct  CharacterClass_t4125  : public Expression_t4108
+struct  CharacterClass_t4171  : public Expression_t4154
 {
 	// System.Boolean System.Text.RegularExpressions.Syntax.CharacterClass::negate
 	bool ___negate_1;
 	// System.Boolean System.Text.RegularExpressions.Syntax.CharacterClass::ignore
 	bool ___ignore_2;
 	// System.Collections.BitArray System.Text.RegularExpressions.Syntax.CharacterClass::pos_cats
-	BitArray_t4124 * ___pos_cats_3;
+	BitArray_t4170 * ___pos_cats_3;
 	// System.Collections.BitArray System.Text.RegularExpressions.Syntax.CharacterClass::neg_cats
-	BitArray_t4124 * ___neg_cats_4;
+	BitArray_t4170 * ___neg_cats_4;
 	// System.Text.RegularExpressions.IntervalCollection System.Text.RegularExpressions.Syntax.CharacterClass::intervals
-	IntervalCollection_t4104 * ___intervals_5;
+	IntervalCollection_t4150 * ___intervals_5;
 };
-struct CharacterClass_t4125_StaticFields{
+struct CharacterClass_t4171_StaticFields{
 	// System.Text.RegularExpressions.Interval System.Text.RegularExpressions.Syntax.CharacterClass::upper_case_characters
-	Interval_t4101  ___upper_case_characters_0;
+	Interval_t4147  ___upper_case_characters_0;
 };

@@ -1,7 +1,5 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct List_1_t892;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -10,9 +8,11 @@ struct AsyncCallback_t386;
 struct Object_t;
 // System.Void
 #include "mscorlib_System_Void.h"
+// UnityEngine.Color
+#include "UnityEngine_UnityEngine_Color.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.UIVertex>>
-struct  UnityAction_1_t860  : public MulticastDelegate_t388
+// UnityEngine.Events.UnityAction`1<UnityEngine.Color>
+struct  UnityAction_1_t1040  : public MulticastDelegate_t388
 {
 };

@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.String,Parse.ParseGeoPoint>
-struct Dictionary_2_t7055;
+// System.Collections.Generic.Dictionary`2<System.String,Parse.ParseObject>
+struct Dictionary_2_t1488;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>
-struct  ValueCollection_t7058  : public Object_t
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseObject>
+struct  ValueCollection_t7121  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::dictionary
-	Dictionary_2_t7055 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseObject>::dictionary
+	Dictionary_2_t1488 * ___dictionary_0;
 };

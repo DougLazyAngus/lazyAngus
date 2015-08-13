@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Buffer
-struct  Buffer_t4743  : public Object_t
+struct  Buffer_t4789  : public Object_t
 {
 };

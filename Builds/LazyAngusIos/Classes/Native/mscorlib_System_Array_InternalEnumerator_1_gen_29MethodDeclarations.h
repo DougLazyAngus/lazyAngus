@@ -4,30 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>
-struct InternalEnumerator_1_t5746;
+// System.Array/InternalEnumerator`1<UnityEngine.AudioSource>
+struct InternalEnumerator_1_t5754;
 // System.Object
 struct Object_t;
+// UnityEngine.AudioSource
+struct AudioSource_t611;
 // System.Array
 struct Array_t;
-// UnityEngine.RaycastHit2D
-#include "UnityEngine_UnityEngine_RaycastHit2D.h"
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m27982_gshared (InternalEnumerator_1_t5746 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m27982(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5746 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m27982_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m27983_gshared (InternalEnumerator_1_t5746 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m27983(__this, method) (( void (*) (InternalEnumerator_1_t5746 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m27983_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27984_gshared (InternalEnumerator_1_t5746 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27984(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5746 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27984_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m27985_gshared (InternalEnumerator_1_t5746 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m27985(__this, method) (( void (*) (InternalEnumerator_1_t5746 *, const MethodInfo*))InternalEnumerator_1_Dispose_m27985_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m27986_gshared (InternalEnumerator_1_t5746 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m27986(__this, method) (( bool (*) (InternalEnumerator_1_t5746 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m27986_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::get_Current()
-extern "C" RaycastHit2D_t998  InternalEnumerator_1_get_Current_m27987_gshared (InternalEnumerator_1_t5746 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m27987(__this, method) (( RaycastHit2D_t998  (*) (InternalEnumerator_1_t5746 *, const MethodInfo*))InternalEnumerator_1_get_Current_m27987_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Object>
+#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m27488(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5754 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m21199_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m27489(__this, method) (( void (*) (InternalEnumerator_1_t5754 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m21200_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27490(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5754 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m21201_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::Dispose()
+#define InternalEnumerator_1_Dispose_m27491(__this, method) (( void (*) (InternalEnumerator_1_t5754 *, const MethodInfo*))InternalEnumerator_1_Dispose_m21202_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m27492(__this, method) (( bool (*) (InternalEnumerator_1_t5754 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m21203_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::get_Current()
+#define InternalEnumerator_1_get_Current_m27493(__this, method) (( AudioSource_t611 * (*) (InternalEnumerator_1_t5754 *, const MethodInfo*))InternalEnumerator_1_get_Current_m21204_gshared)(__this, method)

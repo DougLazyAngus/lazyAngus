@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.DateTime[]
-struct DateTimeU5BU5D_t4849;
+// System.Int64[]
+struct Int64U5BU5D_t4872;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.DateTime>
-struct  List_1_t6767  : public Object_t
+// System.Collections.Generic.List`1<System.Int64>
+struct  List_1_t6647  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.DateTime>::_items
-	DateTimeU5BU5D_t4849* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.DateTime>::_size
+	// T[] System.Collections.Generic.List`1<System.Int64>::_items
+	Int64U5BU5D_t4872* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Int64>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.DateTime>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Int64>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6767_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.DateTime>::EmptyArray
-	DateTimeU5BU5D_t4849* ___EmptyArray_4;
+struct List_1_t6647_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Int64>::EmptyArray
+	Int64U5BU5D_t4872* ___EmptyArray_4;
 };

@@ -4,110 +4,82 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>
-struct ReadOnlyCollection_1_t7293;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>
+struct ReadOnlyCollection_1_t6985;
+// Parse.ParseRole
+struct ParseRole_t1300;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>
-struct IList_1_t7292;
+// System.Collections.Generic.IList`1<Parse.ParseRole>
+struct IList_1_t6880;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>[]
-struct KeyValuePair_2U5BU5D_t7289;
-// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>
-struct IEnumerator_1_t7125;
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_66.h"
+// Parse.ParseRole[]
+struct ParseRoleU5BU5D_t6983;
+// System.Collections.Generic.IEnumerator`1<Parse.ParseRole>
+struct IEnumerator_1_t9214;
 
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::.ctor(System.Collections.Generic.IList`1<T>)
-extern "C" void ReadOnlyCollection_1__ctor_m47400_gshared (ReadOnlyCollection_1_t7293 * __this, Object_t* ___list, const MethodInfo* method);
-#define ReadOnlyCollection_1__ctor_m47400(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t7293 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m47400_gshared)(__this, ___list, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.Generic.ICollection<T>.Add(T)
-extern "C" void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m47401_gshared (ReadOnlyCollection_1_t7293 * __this, KeyValuePair_2_t7120  ___item, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m47401(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t7293 *, KeyValuePair_2_t7120 , const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m47401_gshared)(__this, ___item, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.Generic.ICollection<T>.Clear()
-extern "C" void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m47402_gshared (ReadOnlyCollection_1_t7293 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m47402(__this, method) (( void (*) (ReadOnlyCollection_1_t7293 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m47402_gshared)(__this, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
-extern "C" void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m47403_gshared (ReadOnlyCollection_1_t7293 * __this, int32_t ___index, KeyValuePair_2_t7120  ___item, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m47403(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t7293 *, int32_t, KeyValuePair_2_t7120 , const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m47403_gshared)(__this, ___index, ___item, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.Generic.ICollection<T>.Remove(T)
-extern "C" bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m47404_gshared (ReadOnlyCollection_1_t7293 * __this, KeyValuePair_2_t7120  ___item, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m47404(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t7293 *, KeyValuePair_2_t7120 , const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m47404_gshared)(__this, ___item, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
-extern "C" void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m47405_gshared (ReadOnlyCollection_1_t7293 * __this, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m47405(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t7293 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m47405_gshared)(__this, ___index, method)
-// T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
-extern "C" KeyValuePair_2_t7120  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m47406_gshared (ReadOnlyCollection_1_t7293 * __this, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m47406(__this, ___index, method) (( KeyValuePair_2_t7120  (*) (ReadOnlyCollection_1_t7293 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m47406_gshared)(__this, ___index, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
-extern "C" void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m47407_gshared (ReadOnlyCollection_1_t7293 * __this, int32_t ___index, KeyValuePair_2_t7120  ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m47407(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t7293 *, int32_t, KeyValuePair_2_t7120 , const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m47407_gshared)(__this, ___index, ___value, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-extern "C" bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m47408_gshared (ReadOnlyCollection_1_t7293 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m47408(__this, method) (( bool (*) (ReadOnlyCollection_1_t7293 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m47408_gshared)(__this, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C" void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m47409_gshared (ReadOnlyCollection_1_t7293 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m47409(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t7293 *, Array_t *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m47409_gshared)(__this, ___array, ___index, method)
-// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m47410_gshared (ReadOnlyCollection_1_t7293 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m47410(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t7293 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m47410_gshared)(__this, method)
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.IList.Add(System.Object)
-extern "C" int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m47411_gshared (ReadOnlyCollection_1_t7293 * __this, Object_t * ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_Add_m47411(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t7293 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Add_m47411_gshared)(__this, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.IList.Clear()
-extern "C" void ReadOnlyCollection_1_System_Collections_IList_Clear_m47412_gshared (ReadOnlyCollection_1_t7293 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_Clear_m47412(__this, method) (( void (*) (ReadOnlyCollection_1_t7293 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Clear_m47412_gshared)(__this, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.IList.Contains(System.Object)
-extern "C" bool ReadOnlyCollection_1_System_Collections_IList_Contains_m47413_gshared (ReadOnlyCollection_1_t7293 * __this, Object_t * ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_Contains_m47413(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t7293 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Contains_m47413_gshared)(__this, ___value, method)
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.IList.IndexOf(System.Object)
-extern "C" int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m47414_gshared (ReadOnlyCollection_1_t7293 * __this, Object_t * ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_IndexOf_m47414(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t7293 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_IndexOf_m47414_gshared)(__this, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.IList.Insert(System.Int32,System.Object)
-extern "C" void ReadOnlyCollection_1_System_Collections_IList_Insert_m47415_gshared (ReadOnlyCollection_1_t7293 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_Insert_m47415(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t7293 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Insert_m47415_gshared)(__this, ___index, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.IList.Remove(System.Object)
-extern "C" void ReadOnlyCollection_1_System_Collections_IList_Remove_m47416_gshared (ReadOnlyCollection_1_t7293 * __this, Object_t * ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_Remove_m47416(__this, ___value, method) (( void (*) (ReadOnlyCollection_1_t7293 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Remove_m47416_gshared)(__this, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.IList.RemoveAt(System.Int32)
-extern "C" void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m47417_gshared (ReadOnlyCollection_1_t7293 * __this, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m47417(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t7293 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m47417_gshared)(__this, ___index, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.ICollection.get_IsSynchronized()
-extern "C" bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m47418_gshared (ReadOnlyCollection_1_t7293 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m47418(__this, method) (( bool (*) (ReadOnlyCollection_1_t7293 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m47418_gshared)(__this, method)
-// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.ICollection.get_SyncRoot()
-extern "C" Object_t * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m47419_gshared (ReadOnlyCollection_1_t7293 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m47419(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t7293 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m47419_gshared)(__this, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.IList.get_IsFixedSize()
-extern "C" bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m47420_gshared (ReadOnlyCollection_1_t7293 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m47420(__this, method) (( bool (*) (ReadOnlyCollection_1_t7293 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m47420_gshared)(__this, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.IList.get_IsReadOnly()
-extern "C" bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m47421_gshared (ReadOnlyCollection_1_t7293 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m47421(__this, method) (( bool (*) (ReadOnlyCollection_1_t7293 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m47421_gshared)(__this, method)
-// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.IList.get_Item(System.Int32)
-extern "C" Object_t * ReadOnlyCollection_1_System_Collections_IList_get_Item_m47422_gshared (ReadOnlyCollection_1_t7293 * __this, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_get_Item_m47422(__this, ___index, method) (( Object_t * (*) (ReadOnlyCollection_1_t7293 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_Item_m47422_gshared)(__this, ___index, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::System.Collections.IList.set_Item(System.Int32,System.Object)
-extern "C" void ReadOnlyCollection_1_System_Collections_IList_set_Item_m47423_gshared (ReadOnlyCollection_1_t7293 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_set_Item_m47423(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t7293 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m47423_gshared)(__this, ___index, ___value, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::Contains(T)
-extern "C" bool ReadOnlyCollection_1_Contains_m47424_gshared (ReadOnlyCollection_1_t7293 * __this, KeyValuePair_2_t7120  ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_Contains_m47424(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t7293 *, KeyValuePair_2_t7120 , const MethodInfo*))ReadOnlyCollection_1_Contains_m47424_gshared)(__this, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::CopyTo(T[],System.Int32)
-extern "C" void ReadOnlyCollection_1_CopyTo_m47425_gshared (ReadOnlyCollection_1_t7293 * __this, KeyValuePair_2U5BU5D_t7289* ___array, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_CopyTo_m47425(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t7293 *, KeyValuePair_2U5BU5D_t7289*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m47425_gshared)(__this, ___array, ___index, method)
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::GetEnumerator()
-extern "C" Object_t* ReadOnlyCollection_1_GetEnumerator_m47426_gshared (ReadOnlyCollection_1_t7293 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_GetEnumerator_m47426(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t7293 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m47426_gshared)(__this, method)
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::IndexOf(T)
-extern "C" int32_t ReadOnlyCollection_1_IndexOf_m47427_gshared (ReadOnlyCollection_1_t7293 * __this, KeyValuePair_2_t7120  ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_IndexOf_m47427(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t7293 *, KeyValuePair_2_t7120 , const MethodInfo*))ReadOnlyCollection_1_IndexOf_m47427_gshared)(__this, ___value, method)
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::get_Count()
-extern "C" int32_t ReadOnlyCollection_1_get_Count_m47428_gshared (ReadOnlyCollection_1_t7293 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_get_Count_m47428(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t7293 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m47428_gshared)(__this, method)
-// T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::get_Item(System.Int32)
-extern "C" KeyValuePair_2_t7120  ReadOnlyCollection_1_get_Item_m47429_gshared (ReadOnlyCollection_1_t7293 * __this, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_get_Item_m47429(__this, ___index, method) (( KeyValuePair_2_t7120  (*) (ReadOnlyCollection_1_t7293 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m47429_gshared)(__this, ___index, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::.ctor(System.Collections.Generic.IList`1<T>)
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>
+#include "mscorlib_System_Collections_ObjectModel_ReadOnlyCollection_1MethodDeclarations.h"
+#define ReadOnlyCollection_1__ctor_m43693(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t6985 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m7371_gshared)(__this, ___list, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.Generic.ICollection<T>.Add(T)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m43694(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t6985 *, ParseRole_t1300 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m21657_gshared)(__this, ___item, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.Generic.ICollection<T>.Clear()
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m43695(__this, method) (( void (*) (ReadOnlyCollection_1_t6985 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m21658_gshared)(__this, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m43696(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t6985 *, int32_t, ParseRole_t1300 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m21659_gshared)(__this, ___index, ___item, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.Generic.ICollection<T>.Remove(T)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m43697(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t6985 *, ParseRole_t1300 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m21660_gshared)(__this, ___item, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m43698(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t6985 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m21661_gshared)(__this, ___index, method)
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m43699(__this, ___index, method) (( ParseRole_t1300 * (*) (ReadOnlyCollection_1_t6985 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m21662_gshared)(__this, ___index, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m43700(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6985 *, int32_t, ParseRole_t1300 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m21663_gshared)(__this, ___index, ___value, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m43701(__this, method) (( bool (*) (ReadOnlyCollection_1_t6985 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m21664_gshared)(__this, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m43702(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t6985 *, Array_t *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m21665_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.IEnumerable.GetEnumerator()
+#define ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m43703(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t6985 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m21666_gshared)(__this, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.IList.Add(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Add_m43704(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6985 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Add_m21667_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.IList.Clear()
+#define ReadOnlyCollection_1_System_Collections_IList_Clear_m43705(__this, method) (( void (*) (ReadOnlyCollection_1_t6985 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Clear_m21668_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.IList.Contains(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Contains_m43706(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t6985 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Contains_m21669_gshared)(__this, ___value, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.IList.IndexOf(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_IndexOf_m43707(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6985 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_IndexOf_m21670_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.IList.Insert(System.Int32,System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Insert_m43708(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6985 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Insert_m21671_gshared)(__this, ___index, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.IList.Remove(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Remove_m43709(__this, ___value, method) (( void (*) (ReadOnlyCollection_1_t6985 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Remove_m21672_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.IList.RemoveAt(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m43710(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t6985 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m21673_gshared)(__this, ___index, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.ICollection.get_IsSynchronized()
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m43711(__this, method) (( bool (*) (ReadOnlyCollection_1_t6985 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m21674_gshared)(__this, method)
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.ICollection.get_SyncRoot()
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m43712(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t6985 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m21675_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.IList.get_IsFixedSize()
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m43713(__this, method) (( bool (*) (ReadOnlyCollection_1_t6985 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m21676_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.IList.get_IsReadOnly()
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m43714(__this, method) (( bool (*) (ReadOnlyCollection_1_t6985 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m21677_gshared)(__this, method)
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.IList.get_Item(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_IList_get_Item_m43715(__this, ___index, method) (( Object_t * (*) (ReadOnlyCollection_1_t6985 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_Item_m21678_gshared)(__this, ___index, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::System.Collections.IList.set_Item(System.Int32,System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_set_Item_m43716(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6985 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m21679_gshared)(__this, ___index, ___value, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::Contains(T)
+#define ReadOnlyCollection_1_Contains_m43717(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t6985 *, ParseRole_t1300 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m21680_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::CopyTo(T[],System.Int32)
+#define ReadOnlyCollection_1_CopyTo_m43718(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t6985 *, ParseRoleU5BU5D_t6983*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m21681_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::GetEnumerator()
+#define ReadOnlyCollection_1_GetEnumerator_m43719(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t6985 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m21682_gshared)(__this, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::IndexOf(T)
+#define ReadOnlyCollection_1_IndexOf_m43720(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6985 *, ParseRole_t1300 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m21683_gshared)(__this, ___value, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::get_Count()
+#define ReadOnlyCollection_1_get_Count_m43721(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t6985 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m21684_gshared)(__this, method)
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::get_Item(System.Int32)
+#define ReadOnlyCollection_1_get_Item_m43722(__this, ___index, method) (( ParseRole_t1300 * (*) (ReadOnlyCollection_1_t6985 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m21685_gshared)(__this, ___index, method)

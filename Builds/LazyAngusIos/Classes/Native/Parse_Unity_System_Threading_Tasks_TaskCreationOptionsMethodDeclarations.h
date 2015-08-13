@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.TaskCreationOptions
-struct TaskCreationOptions_t1305;
+struct TaskCreationOptions_t1356;
 

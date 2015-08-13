@@ -5,39 +5,39 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Interval
-struct Interval_t4101;
-struct Interval_t4101_marshaled;
+struct Interval_t4147;
+struct Interval_t4147_marshaled;
 // System.Object
 struct Object_t;
 // System.Text.RegularExpressions.Interval
 #include "System_System_Text_RegularExpressions_Interval.h"
 
 // System.Void System.Text.RegularExpressions.Interval::.ctor(System.Int32,System.Int32)
-extern "C" void Interval__ctor_m14513 (Interval_t4101 * __this, int32_t ___low, int32_t ___high, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Interval__ctor_m14772 (Interval_t4147 * __this, int32_t ___low, int32_t ___high, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Interval System.Text.RegularExpressions.Interval::get_Empty()
-extern "C" Interval_t4101  Interval_get_Empty_m14514 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Interval_t4147  Interval_get_Empty_m14773 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interval::get_IsDiscontiguous()
-extern "C" bool Interval_get_IsDiscontiguous_m14515 (Interval_t4101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interval_get_IsDiscontiguous_m14774 (Interval_t4147 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interval::get_IsSingleton()
-extern "C" bool Interval_get_IsSingleton_m14516 (Interval_t4101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interval_get_IsSingleton_m14775 (Interval_t4147 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interval::get_IsEmpty()
-extern "C" bool Interval_get_IsEmpty_m14517 (Interval_t4101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interval_get_IsEmpty_m14776 (Interval_t4147 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Interval::get_Size()
-extern "C" int32_t Interval_get_Size_m14518 (Interval_t4101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Interval_get_Size_m14777 (Interval_t4147 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interval::IsDisjoint(System.Text.RegularExpressions.Interval)
-extern "C" bool Interval_IsDisjoint_m14519 (Interval_t4101 * __this, Interval_t4101  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interval_IsDisjoint_m14778 (Interval_t4147 * __this, Interval_t4147  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interval::IsAdjacent(System.Text.RegularExpressions.Interval)
-extern "C" bool Interval_IsAdjacent_m14520 (Interval_t4101 * __this, Interval_t4101  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interval_IsAdjacent_m14779 (Interval_t4147 * __this, Interval_t4147  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interval::Contains(System.Text.RegularExpressions.Interval)
-extern "C" bool Interval_Contains_m14521 (Interval_t4101 * __this, Interval_t4101  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interval_Contains_m14780 (Interval_t4147 * __this, Interval_t4147  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interval::Contains(System.Int32)
-extern "C" bool Interval_Contains_m14522 (Interval_t4101 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interval_Contains_m14781 (Interval_t4147 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interval::Intersects(System.Text.RegularExpressions.Interval)
-extern "C" bool Interval_Intersects_m14523 (Interval_t4101 * __this, Interval_t4101  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interval_Intersects_m14782 (Interval_t4147 * __this, Interval_t4147  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interval::Merge(System.Text.RegularExpressions.Interval)
-extern "C" void Interval_Merge_m14524 (Interval_t4101 * __this, Interval_t4101  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Interval_Merge_m14783 (Interval_t4147 * __this, Interval_t4147  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Interval::CompareTo(System.Object)
-extern "C" int32_t Interval_CompareTo_m14525 (Interval_t4101 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-void Interval_t4101_marshal(const Interval_t4101& unmarshaled, Interval_t4101_marshaled& marshaled);
-void Interval_t4101_marshal_back(const Interval_t4101_marshaled& marshaled, Interval_t4101& unmarshaled);
-void Interval_t4101_marshal_cleanup(Interval_t4101_marshaled& marshaled);
+extern "C" int32_t Interval_CompareTo_m14784 (Interval_t4147 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+void Interval_t4147_marshal(const Interval_t4147& unmarshaled, Interval_t4147_marshaled& marshaled);
+void Interval_t4147_marshal_back(const Interval_t4147_marshaled& marshaled, Interval_t4147& unmarshaled);
+void Interval_t4147_marshal_cleanup(Interval_t4147_marshaled& marshaled);

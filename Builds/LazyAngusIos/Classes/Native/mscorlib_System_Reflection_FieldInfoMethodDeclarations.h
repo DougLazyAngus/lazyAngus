@@ -9,15 +9,15 @@ struct FieldInfo_t;
 // System.Type
 struct Type_t;
 // System.Reflection.Emit.UnmanagedMarshal
-struct UnmanagedMarshal_t4466;
+struct UnmanagedMarshal_t4512;
 // System.Object
 struct Object_t;
 // System.Reflection.Binder
-struct Binder_t2903;
+struct Binder_t2953;
 // System.Globalization.CultureInfo
-struct CultureInfo_t719;
+struct CultureInfo_t768;
 // System.Object[]
-struct ObjectU5BU5D_t636;
+struct ObjectU5BU5D_t682;
 // System.Reflection.FieldAttributes
 #include "mscorlib_System_Reflection_FieldAttributes.h"
 // System.RuntimeFieldHandle
@@ -30,35 +30,35 @@ struct ObjectU5BU5D_t636;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Reflection.FieldInfo::.ctor()
-extern "C" void FieldInfo__ctor_m17665 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FieldInfo__ctor_m17923 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.FieldAttributes System.Reflection.FieldInfo::get_Attributes()
 // System.RuntimeFieldHandle System.Reflection.FieldInfo::get_FieldHandle()
 // System.Type System.Reflection.FieldInfo::get_FieldType()
 // System.Object System.Reflection.FieldInfo::GetValue(System.Object)
 // System.Reflection.MemberTypes System.Reflection.FieldInfo::get_MemberType()
-extern "C" int32_t FieldInfo_get_MemberType_m17666 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FieldInfo_get_MemberType_m17924 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.FieldInfo::get_IsLiteral()
-extern "C" bool FieldInfo_get_IsLiteral_m17667 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FieldInfo_get_IsLiteral_m17925 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.FieldInfo::get_IsStatic()
-extern "C" bool FieldInfo_get_IsStatic_m17668 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FieldInfo_get_IsStatic_m17926 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.FieldInfo::get_IsInitOnly()
-extern "C" bool FieldInfo_get_IsInitOnly_m17669 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FieldInfo_get_IsInitOnly_m17927 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.FieldInfo::get_IsPublic()
-extern "C" bool FieldInfo_get_IsPublic_m17670 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FieldInfo_get_IsPublic_m17928 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.FieldInfo::get_IsNotSerialized()
-extern "C" bool FieldInfo_get_IsNotSerialized_m17671 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FieldInfo_get_IsNotSerialized_m17929 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.FieldInfo::SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Globalization.CultureInfo)
 // System.Void System.Reflection.FieldInfo::SetValue(System.Object,System.Object)
-extern "C" void FieldInfo_SetValue_m17672 (FieldInfo_t * __this, Object_t * ___obj, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FieldInfo_SetValue_m17930 (FieldInfo_t * __this, Object_t * ___obj, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.FieldInfo System.Reflection.FieldInfo::internal_from_handle_type(System.IntPtr,System.IntPtr)
-extern "C" FieldInfo_t * FieldInfo_internal_from_handle_type_m17673 (Object_t * __this /* static, unused */, IntPtr_t ___field_handle, IntPtr_t ___type_handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" FieldInfo_t * FieldInfo_internal_from_handle_type_m17931 (Object_t * __this /* static, unused */, IntPtr_t ___field_handle, IntPtr_t ___type_handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.FieldInfo System.Reflection.FieldInfo::GetFieldFromHandle(System.RuntimeFieldHandle)
-extern "C" FieldInfo_t * FieldInfo_GetFieldFromHandle_m7421 (Object_t * __this /* static, unused */, RuntimeFieldHandle_t4297  ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" FieldInfo_t * FieldInfo_GetFieldFromHandle_m7680 (Object_t * __this /* static, unused */, RuntimeFieldHandle_t4343  ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.FieldInfo::GetFieldOffset()
-extern "C" int32_t FieldInfo_GetFieldOffset_m17674 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FieldInfo_GetFieldOffset_m17932 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Emit.UnmanagedMarshal System.Reflection.FieldInfo::GetUnmanagedMarshal()
-extern "C" UnmanagedMarshal_t4466 * FieldInfo_GetUnmanagedMarshal_m17675 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" UnmanagedMarshal_t4512 * FieldInfo_GetUnmanagedMarshal_m17933 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Emit.UnmanagedMarshal System.Reflection.FieldInfo::get_UMarshal()
-extern "C" UnmanagedMarshal_t4466 * FieldInfo_get_UMarshal_m17676 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" UnmanagedMarshal_t4512 * FieldInfo_get_UMarshal_m17934 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.FieldInfo::GetPseudoCustomAttributes()
-extern "C" ObjectU5BU5D_t636* FieldInfo_GetPseudoCustomAttributes_m17677 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t682* FieldInfo_GetPseudoCustomAttributes_m17935 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

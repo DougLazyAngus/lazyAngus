@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // BoostConfig/BoostActiveEventHandler
-struct  BoostActiveEventHandler_t469  : public MulticastDelegate_t388
+struct  BoostActiveEventHandler_t507  : public MulticastDelegate_t388
 {
 };

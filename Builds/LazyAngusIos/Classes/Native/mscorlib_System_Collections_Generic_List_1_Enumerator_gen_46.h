@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Threading.Tasks.Task>
-struct List_1_t1442;
-// System.Threading.Tasks.Task
-struct Task_t1157;
+// System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
+struct List_1_t978;
+// UnityEngine.UI.StencilMaterial/MatEntry
+struct MatEntry_t977;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>
-struct  Enumerator_t5915 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>
+struct  Enumerator_t5905 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::l
-	List_1_t1442 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::l
+	List_1_t978 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::current
-	Task_t1157 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::current
+	MatEntry_t977 * ___current_3;
 };

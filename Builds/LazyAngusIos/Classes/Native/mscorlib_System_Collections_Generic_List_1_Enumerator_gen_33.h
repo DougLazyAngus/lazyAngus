@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct List_1_t791;
-// UnityEngine.EventSystems.EventTrigger/Entry
-struct Entry_t790;
+// System.Collections.Generic.List`1<UnityEngine.Component>
+struct List_1_t1047;
+// UnityEngine.Component
+struct Component_t761;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>
-struct  Enumerator_t5722 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>
+struct  Enumerator_t5777 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>::l
-	List_1_t791 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::l
+	List_1_t1047 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>::current
-	Entry_t790 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::current
+	Component_t761 * ___current_3;
 };

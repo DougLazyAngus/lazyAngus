@@ -1,46 +1,46 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t549;
+struct Int32U5BU5D_t484;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5345;
-// UnityEngine.EventSystems.PointerEventData[]
-struct PointerEventDataU5BU5D_t5737;
+struct LinkU5BU5D_t5391;
+// LevelDescription[]
+struct LevelDescriptionU5BU5D_t5739;
 // System.Collections.Generic.IEqualityComparer`1<System.Int32>
-struct IEqualityComparer_1_t5346;
+struct IEqualityComparer_1_t5392;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2869;
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,UnityEngine.EventSystems.PointerEventData,System.Collections.DictionaryEntry>
-struct Transform_1_t5738;
+struct SerializationInfo_t2919;
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,LevelDescription,System.Collections.DictionaryEntry>
+struct Transform_1_t5740;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>
-struct  Dictionary_2_t830  : public Object_t
+// System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>
+struct  Dictionary_2_t590  : public Object_t
 {
-	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::table
-	Int32U5BU5D_t549* ___table_4;
-	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::linkSlots
-	LinkU5BU5D_t5345* ___linkSlots_5;
-	// TKey[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::keySlots
-	Int32U5BU5D_t549* ___keySlots_6;
-	// TValue[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::valueSlots
-	PointerEventDataU5BU5D_t5737* ___valueSlots_7;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::touchedSlots
+	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::table
+	Int32U5BU5D_t484* ___table_4;
+	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::linkSlots
+	LinkU5BU5D_t5391* ___linkSlots_5;
+	// TKey[] System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::keySlots
+	Int32U5BU5D_t484* ___keySlots_6;
+	// TValue[] System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::valueSlots
+	LevelDescriptionU5BU5D_t5739* ___valueSlots_7;
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::touchedSlots
 	int32_t ___touchedSlots_8;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::emptySlot
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::emptySlot
 	int32_t ___emptySlot_9;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::count
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::count
 	int32_t ___count_10;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::threshold
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::threshold
 	int32_t ___threshold_11;
-	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::hcp
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::hcp
 	Object_t* ___hcp_12;
-	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::serialization_info
-	SerializationInfo_t2869 * ___serialization_info_13;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::generation
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::serialization_info
+	SerializationInfo_t2919 * ___serialization_info_13;
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t830_StaticFields{
-	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::<>f__am$cacheB
-	Transform_1_t5738 * ___U3CU3Ef__amU24cacheB_15;
+struct Dictionary_2_t590_StaticFields{
+	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>::<>f__am$cacheB
+	Transform_1_t5740 * ___U3CU3Ef__amU24cacheB_15;
 };

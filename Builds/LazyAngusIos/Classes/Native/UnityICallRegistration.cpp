@@ -1,4 +1,4 @@
-//Generated on : 8/6/2015 2:39:58 PM
+//Generated on : 8/13/2015 11:00:40 AM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -58,6 +58,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.String UnityEngine.Application::get_persistentDataPath()
 		void Register_UnityEngine_Application_get_persistentDataPath();
 		Register_UnityEngine_Application_get_persistentDataPath();
+
+		//System.String UnityEngine.Application::get_unityVersion()
+		void Register_UnityEngine_Application_get_unityVersion();
+		Register_UnityEngine_Application_get_unityVersion();
 
 		//System.Void UnityEngine.Application::Internal_ExternalCall(System.String)
 		void Register_UnityEngine_Application_Internal_ExternalCall();
@@ -372,6 +376,18 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_CanvasRenderer_GetColor();
 
 	//End Registrations for type : UnityEngine.CanvasRenderer
+
+	//Start Registrations for type : UnityEngine.CircleCollider2D
+
+		//System.Single UnityEngine.CircleCollider2D::get_radius()
+		void Register_UnityEngine_CircleCollider2D_get_radius();
+		Register_UnityEngine_CircleCollider2D_get_radius();
+
+		//System.Void UnityEngine.CircleCollider2D::set_radius(System.Single)
+		void Register_UnityEngine_CircleCollider2D_set_radius();
+		Register_UnityEngine_CircleCollider2D_set_radius();
+
+	//End Registrations for type : UnityEngine.CircleCollider2D
 
 	//Start Registrations for type : UnityEngine.Collider
 
@@ -1115,9 +1131,17 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Mesh_Internal_Create();
 		Register_UnityEngine_Mesh_Internal_Create();
 
+		//System.Void UnityEngine.Mesh::RecalculateNormals()
+		void Register_UnityEngine_Mesh_RecalculateNormals();
+		Register_UnityEngine_Mesh_RecalculateNormals();
+
 		//System.Void UnityEngine.Mesh::set_triangles(System.Int32[])
 		void Register_UnityEngine_Mesh_set_triangles();
 		Register_UnityEngine_Mesh_set_triangles();
+
+		//System.Void UnityEngine.Mesh::set_uv(UnityEngine.Vector2[])
+		void Register_UnityEngine_Mesh_set_uv();
+		Register_UnityEngine_Mesh_set_uv();
 
 		//System.Void UnityEngine.Mesh::set_vertices(UnityEngine.Vector3[])
 		void Register_UnityEngine_Mesh_set_vertices();
@@ -1962,6 +1986,10 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.Vector3 UnityEngine.Transform::INTERNAL_CALL_TransformPoint(UnityEngine.Transform,UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_INTERNAL_CALL_TransformPoint();
 		Register_UnityEngine_Transform_INTERNAL_CALL_TransformPoint();
+
+		//UnityEngine.Vector3 UnityEngine.Transform::INTERNAL_CALL_TransformVector(UnityEngine.Transform,UnityEngine.Vector3&)
+		void Register_UnityEngine_Transform_INTERNAL_CALL_TransformVector();
+		Register_UnityEngine_Transform_INTERNAL_CALL_TransformVector();
 
 	//End Registrations for type : UnityEngine.Transform
 

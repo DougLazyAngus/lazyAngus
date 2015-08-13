@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// BoostButton
-struct BoostButton_t459;
+// GameAnalyticsSDK.Studio
+struct Studio_t489;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -10,7 +10,7 @@ struct AsyncCallback_t386;
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<BoostButton>
-struct  Comparison_1_t5626  : public MulticastDelegate_t388
+// System.Comparison`1<GameAnalyticsSDK.Studio>
+struct  Comparison_1_t5681  : public MulticastDelegate_t388
 {
 };

@@ -4,26 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.GameObject>
-struct InternalEnumerator_1_t5627;
+// System.Array/InternalEnumerator`1<System.Boolean>
+struct InternalEnumerator_1_t5697;
 // System.Object
 struct Object_t;
-// UnityEngine.GameObject
-struct GameObject_t352;
 // System.Array
 struct Array_t;
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.GameObject>::.ctor(System.Array)
-// System.Array/InternalEnumerator`1<System.Object>
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m26085(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5627 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20941_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.GameObject>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m26086(__this, method) (( void (*) (InternalEnumerator_1_t5627 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20942_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.GameObject>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m26087(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5627 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20943_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.GameObject>::Dispose()
-#define InternalEnumerator_1_Dispose_m26088(__this, method) (( void (*) (InternalEnumerator_1_t5627 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20944_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.GameObject>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m26089(__this, method) (( bool (*) (InternalEnumerator_1_t5627 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.GameObject>::get_Current()
-#define InternalEnumerator_1_get_Current_m26090(__this, method) (( GameObject_t352 * (*) (InternalEnumerator_1_t5627 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Boolean>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Byte>
+#include "mscorlib_System_Array_InternalEnumerator_1_gen_6MethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m26704(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5697 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m21561_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<System.Boolean>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m26705(__this, method) (( void (*) (InternalEnumerator_1_t5697 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m21562_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<System.Boolean>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m26706(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5697 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m21563_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Boolean>::Dispose()
+#define InternalEnumerator_1_Dispose_m26707(__this, method) (( void (*) (InternalEnumerator_1_t5697 *, const MethodInfo*))InternalEnumerator_1_Dispose_m21564_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Boolean>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m26708(__this, method) (( bool (*) (InternalEnumerator_1_t5697 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m21565_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Boolean>::get_Current()
+#define InternalEnumerator_1_get_Current_m26709(__this, method) (( bool (*) (InternalEnumerator_1_t5697 *, const MethodInfo*))InternalEnumerator_1_get_Current_m21566_gshared)(__this, method)

@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISubmitHandler>
-struct EventFunction_1_t809;
+struct EventFunction_1_t870;
 // System.Object
 struct Object_t;
 // UnityEngine.EventSystems.ISubmitHandler
-struct ISubmitHandler_t977;
+struct ISubmitHandler_t1036;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t784;
+struct BaseEventData_t845;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -22,10 +22,10 @@ struct AsyncCallback_t386;
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISubmitHandler>::.ctor(System.Object,System.IntPtr)
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<System.Object>
 #include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEvents_EventF_16MethodDeclarations.h"
-#define EventFunction_1__ctor_m5531(__this, ___object, ___method, method) (( void (*) (EventFunction_1_t809 *, Object_t *, IntPtr_t, const MethodInfo*))EventFunction_1__ctor_m26912_gshared)(__this, ___object, ___method, method)
+#define EventFunction_1__ctor_m5799(__this, ___object, ___method, method) (( void (*) (EventFunction_1_t870 *, Object_t *, IntPtr_t, const MethodInfo*))EventFunction_1__ctor_m27631_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISubmitHandler>::Invoke(T1,UnityEngine.EventSystems.BaseEventData)
-#define EventFunction_1_Invoke_m27572(__this, ___handler, ___eventData, method) (( void (*) (EventFunction_1_t809 *, Object_t *, BaseEventData_t784 *, const MethodInfo*))EventFunction_1_Invoke_m26914_gshared)(__this, ___handler, ___eventData, method)
+#define EventFunction_1_Invoke_m28276(__this, ___handler, ___eventData, method) (( void (*) (EventFunction_1_t870 *, Object_t *, BaseEventData_t845 *, const MethodInfo*))EventFunction_1_Invoke_m27633_gshared)(__this, ___handler, ___eventData, method)
 // System.IAsyncResult UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISubmitHandler>::BeginInvoke(T1,UnityEngine.EventSystems.BaseEventData,System.AsyncCallback,System.Object)
-#define EventFunction_1_BeginInvoke_m27573(__this, ___handler, ___eventData, ___callback, ___object, method) (( Object_t * (*) (EventFunction_1_t809 *, Object_t *, BaseEventData_t784 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))EventFunction_1_BeginInvoke_m26916_gshared)(__this, ___handler, ___eventData, ___callback, ___object, method)
+#define EventFunction_1_BeginInvoke_m28277(__this, ___handler, ___eventData, ___callback, ___object, method) (( Object_t * (*) (EventFunction_1_t870 *, Object_t *, BaseEventData_t845 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))EventFunction_1_BeginInvoke_m27635_gshared)(__this, ___handler, ___eventData, ___callback, ___object, method)
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISubmitHandler>::EndInvoke(System.IAsyncResult)
-#define EventFunction_1_EndInvoke_m27574(__this, ___result, method) (( void (*) (EventFunction_1_t809 *, Object_t *, const MethodInfo*))EventFunction_1_EndInvoke_m26918_gshared)(__this, ___result, method)
+#define EventFunction_1_EndInvoke_m28278(__this, ___result, method) (( void (*) (EventFunction_1_t870 *, Object_t *, const MethodInfo*))EventFunction_1_EndInvoke_m27637_gshared)(__this, ___result, method)

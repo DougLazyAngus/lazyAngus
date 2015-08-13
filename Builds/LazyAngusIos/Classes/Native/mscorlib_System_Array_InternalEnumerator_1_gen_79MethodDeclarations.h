@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.GUIContent>
-struct InternalEnumerator_1_t8319;
+// System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.Achievement>
+struct InternalEnumerator_1_t8388;
 // System.Object
 struct Object_t;
-// UnityEngine.GUIContent
-struct GUIContent_t733;
+// UnityEngine.SocialPlatforms.Impl.Achievement
+struct Achievement_t2857;
 // System.Array
 struct Array_t;
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.GUIContent>::.ctor(System.Array)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.Achievement>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m59486(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8319 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20941_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.GUIContent>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m59487(__this, method) (( void (*) (InternalEnumerator_1_t8319 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20942_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.GUIContent>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m59488(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8319 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20943_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.GUIContent>::Dispose()
-#define InternalEnumerator_1_Dispose_m59489(__this, method) (( void (*) (InternalEnumerator_1_t8319 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20944_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.GUIContent>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m59490(__this, method) (( bool (*) (InternalEnumerator_1_t8319 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.GUIContent>::get_Current()
-#define InternalEnumerator_1_get_Current_m59491(__this, method) (( GUIContent_t733 * (*) (InternalEnumerator_1_t8319 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1__ctor_m60152(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8388 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m21199_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.Achievement>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m60153(__this, method) (( void (*) (InternalEnumerator_1_t8388 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m21200_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.Achievement>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m60154(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8388 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m21201_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.Achievement>::Dispose()
+#define InternalEnumerator_1_Dispose_m60155(__this, method) (( void (*) (InternalEnumerator_1_t8388 *, const MethodInfo*))InternalEnumerator_1_Dispose_m21202_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.Achievement>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m60156(__this, method) (( bool (*) (InternalEnumerator_1_t8388 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m21203_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.Achievement>::get_Current()
+#define InternalEnumerator_1_get_Current_m60157(__this, method) (( Achievement_t2857 * (*) (InternalEnumerator_1_t8388 *, const MethodInfo*))InternalEnumerator_1_get_Current_m21204_gshared)(__this, method)

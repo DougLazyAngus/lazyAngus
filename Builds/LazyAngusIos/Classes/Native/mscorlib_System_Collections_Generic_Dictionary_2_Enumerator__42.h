@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>
-struct Dictionary_2_t1447;
+// System.Collections.Generic.Dictionary`2<System.String,System.Boolean>
+struct Dictionary_2_t1497;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Object,Parse.Internal.ParseJSONCacheItem>
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_47.h"
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>
-struct  Enumerator_t6152 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Boolean>
+struct  Enumerator_t6218 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::dictionary
-	Dictionary_2_t1447 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Boolean>::dictionary
+	Dictionary_2_t1497 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Boolean>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Boolean>::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::current
-	KeyValuePair_2_t6149  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Boolean>::current
+	KeyValuePair_2_t6215  ___current_3;
 };

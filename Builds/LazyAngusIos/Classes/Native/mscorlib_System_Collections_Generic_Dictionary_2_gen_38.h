@@ -1,46 +1,48 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t549;
+struct Int32U5BU5D_t484;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5345;
-// UnityEngine.GUILayoutUtility/LayoutCache[]
-struct LayoutCacheU5BU5D_t8321;
-// System.Collections.Generic.IEqualityComparer`1<System.Int32>
-struct IEqualityComparer_1_t5346;
+struct LinkU5BU5D_t5391;
+// System.String[]
+struct StringU5BU5D_t75;
+// Parse.Internal.IParseAuthenticationProvider[]
+struct IParseAuthenticationProviderU5BU5D_t6296;
+// System.Collections.Generic.IEqualityComparer`1<System.String>
+struct IEqualityComparer_1_t5379;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2869;
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache,System.Collections.DictionaryEntry>
-struct Transform_1_t8322;
+struct SerializationInfo_t2919;
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,Parse.Internal.IParseAuthenticationProvider,System.Collections.DictionaryEntry>
+struct Transform_1_t6297;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
-struct  Dictionary_2_t2664  : public Object_t
+// System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>
+struct  Dictionary_2_t1546  : public Object_t
 {
-	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::table
-	Int32U5BU5D_t549* ___table_4;
-	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::linkSlots
-	LinkU5BU5D_t5345* ___linkSlots_5;
-	// TKey[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::keySlots
-	Int32U5BU5D_t549* ___keySlots_6;
-	// TValue[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::valueSlots
-	LayoutCacheU5BU5D_t8321* ___valueSlots_7;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::touchedSlots
+	// System.Int32[] System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>::table
+	Int32U5BU5D_t484* ___table_4;
+	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>::linkSlots
+	LinkU5BU5D_t5391* ___linkSlots_5;
+	// TKey[] System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>::keySlots
+	StringU5BU5D_t75* ___keySlots_6;
+	// TValue[] System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>::valueSlots
+	IParseAuthenticationProviderU5BU5D_t6296* ___valueSlots_7;
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>::touchedSlots
 	int32_t ___touchedSlots_8;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::emptySlot
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>::emptySlot
 	int32_t ___emptySlot_9;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::count
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>::count
 	int32_t ___count_10;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::threshold
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>::threshold
 	int32_t ___threshold_11;
-	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::hcp
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>::hcp
 	Object_t* ___hcp_12;
-	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::serialization_info
-	SerializationInfo_t2869 * ___serialization_info_13;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::generation
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>::serialization_info
+	SerializationInfo_t2919 * ___serialization_info_13;
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t2664_StaticFields{
-	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::<>f__am$cacheB
-	Transform_1_t8322 * ___U3CU3Ef__amU24cacheB_15;
+struct Dictionary_2_t1546_StaticFields{
+	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>::<>f__am$cacheB
+	Transform_1_t6297 * ___U3CU3Ef__amU24cacheB_15;
 };

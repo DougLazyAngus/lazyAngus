@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlQualifiedName
-struct XmlQualifiedName_t3113;
+struct XmlQualifiedName_t3161;
 // System.String
 struct String_t;
 // System.Object
 struct Object_t;
 
 // System.Void System.Xml.XmlQualifiedName::.ctor()
-extern "C" void XmlQualifiedName__ctor_m10884 (XmlQualifiedName_t3113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlQualifiedName__ctor_m11140 (XmlQualifiedName_t3161 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlQualifiedName::.ctor(System.String,System.String)
-extern "C" void XmlQualifiedName__ctor_m10885 (XmlQualifiedName_t3113 * __this, String_t* ___name, String_t* ___ns, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlQualifiedName__ctor_m11141 (XmlQualifiedName_t3161 * __this, String_t* ___name, String_t* ___ns, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlQualifiedName::.cctor()
-extern "C" void XmlQualifiedName__cctor_m10886 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlQualifiedName__cctor_m11142 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlQualifiedName::get_Name()
-extern "C" String_t* XmlQualifiedName_get_Name_m10887 (XmlQualifiedName_t3113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlQualifiedName_get_Name_m11143 (XmlQualifiedName_t3161 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlQualifiedName::get_Namespace()
-extern "C" String_t* XmlQualifiedName_get_Namespace_m10888 (XmlQualifiedName_t3113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlQualifiedName_get_Namespace_m11144 (XmlQualifiedName_t3161 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlQualifiedName::Equals(System.Object)
-extern "C" bool XmlQualifiedName_Equals_m10889 (XmlQualifiedName_t3113 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlQualifiedName_Equals_m11145 (XmlQualifiedName_t3161 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlQualifiedName::GetHashCode()
-extern "C" int32_t XmlQualifiedName_GetHashCode_m10890 (XmlQualifiedName_t3113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlQualifiedName_GetHashCode_m11146 (XmlQualifiedName_t3161 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlQualifiedName::ToString()
-extern "C" String_t* XmlQualifiedName_ToString_m10891 (XmlQualifiedName_t3113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlQualifiedName_ToString_m11147 (XmlQualifiedName_t3161 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlQualifiedName::op_Equality(System.Xml.XmlQualifiedName,System.Xml.XmlQualifiedName)
-extern "C" bool XmlQualifiedName_op_Equality_m10892 (Object_t * __this /* static, unused */, XmlQualifiedName_t3113 * ___a, XmlQualifiedName_t3113 * ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlQualifiedName_op_Equality_m11148 (Object_t * __this /* static, unused */, XmlQualifiedName_t3161 * ___a, XmlQualifiedName_t3161 * ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;

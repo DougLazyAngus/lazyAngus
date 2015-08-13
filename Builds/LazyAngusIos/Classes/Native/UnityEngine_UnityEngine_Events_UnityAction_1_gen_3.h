@@ -1,7 +1,5 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Component
-struct Component_t712;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -10,9 +8,11 @@ struct AsyncCallback_t386;
 struct Object_t;
 // System.Void
 #include "mscorlib_System_Void.h"
+// System.Single
+#include "mscorlib_System_Single.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// UnityEngine.Events.UnityAction`1<UnityEngine.Component>
-struct  UnityAction_1_t945  : public MulticastDelegate_t388
+// UnityEngine.Events.UnityAction`1<System.Single>
+struct  UnityAction_1_t1082  : public MulticastDelegate_t388
 {
 };

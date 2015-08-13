@@ -3,7 +3,7 @@
 // System.Threading.Tasks.Task
 #include "Parse_Unity_System_Threading_Tasks_Task.h"
 // System.Threading.Tasks.Task`1<System.Int16>
-struct  Task_1_t1501  : public Task_t1157
+struct  Task_1_t1552  : public Task_t1210
 {
 	// T System.Threading.Tasks.Task`1<System.Int16>::result
 	int16_t ___result_9;

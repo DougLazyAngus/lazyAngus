@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.AudioSource>
-struct InternalEnumerator_1_t5680;
+// System.Array/InternalEnumerator`1<MouseWiggleDesc>
+struct InternalEnumerator_1_t5751;
 // System.Object
 struct Object_t;
-// UnityEngine.AudioSource
-struct AudioSource_t570;
+// MouseWiggleDesc
+struct MouseWiggleDesc_t609;
 // System.Array
 struct Array_t;
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::.ctor(System.Array)
+// System.Void System.Array/InternalEnumerator`1<MouseWiggleDesc>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m26801(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5680 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20941_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m26802(__this, method) (( void (*) (InternalEnumerator_1_t5680 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20942_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m26803(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5680 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20943_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::Dispose()
-#define InternalEnumerator_1_Dispose_m26804(__this, method) (( void (*) (InternalEnumerator_1_t5680 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20944_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m26805(__this, method) (( bool (*) (InternalEnumerator_1_t5680 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.AudioSource>::get_Current()
-#define InternalEnumerator_1_get_Current_m26806(__this, method) (( AudioSource_t570 * (*) (InternalEnumerator_1_t5680 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1__ctor_m27471(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5751 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m21199_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<MouseWiggleDesc>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m27472(__this, method) (( void (*) (InternalEnumerator_1_t5751 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m21200_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<MouseWiggleDesc>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27473(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5751 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m21201_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<MouseWiggleDesc>::Dispose()
+#define InternalEnumerator_1_Dispose_m27474(__this, method) (( void (*) (InternalEnumerator_1_t5751 *, const MethodInfo*))InternalEnumerator_1_Dispose_m21202_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<MouseWiggleDesc>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m27475(__this, method) (( bool (*) (InternalEnumerator_1_t5751 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m21203_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<MouseWiggleDesc>::get_Current()
+#define InternalEnumerator_1_get_Current_m27476(__this, method) (( MouseWiggleDesc_t609 * (*) (InternalEnumerator_1_t5751 *, const MethodInfo*))InternalEnumerator_1_get_Current_m21204_gshared)(__this, method)

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Int32[]
-struct Int32U5BU5D_t549;
+// GameAnalyticsSDK.Studio[]
+struct StudioU5BU5D_t5676;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Int32>
-struct  List_1_t745  : public Object_t
+// System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>
+struct  List_1_t485  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Int32>::_items
-	Int32U5BU5D_t549* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Int32>::_size
+	// T[] System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::_items
+	StudioU5BU5D_t5676* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Int32>::_version
+	// System.Int32 System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::_version
 	int32_t ____version_3;
 };
-struct List_1_t745_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Int32>::EmptyArray
-	Int32U5BU5D_t549* ___EmptyArray_4;
+struct List_1_t485_StaticFields{
+	// T[] System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::EmptyArray
+	StudioU5BU5D_t5676* ___EmptyArray_4;
 };

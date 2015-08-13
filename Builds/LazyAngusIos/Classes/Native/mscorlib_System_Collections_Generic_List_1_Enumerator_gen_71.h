@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>
-struct List_1_t7290;
+// System.Collections.Generic.List`1<Parse.ParseRole>
+struct List_1_t6984;
+// Parse.ParseRole
+struct ParseRole_t1300;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_66.h"
-// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>
-struct  Enumerator_t7291 
+// System.Collections.Generic.List`1/Enumerator<Parse.ParseRole>
+struct  Enumerator_t6987 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::l
-	List_1_t7290 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Parse.ParseRole>::l
+	List_1_t6984 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseRole>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseRole>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::current
-	KeyValuePair_2_t7120  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<Parse.ParseRole>::current
+	ParseRole_t1300 * ___current_3;
 };

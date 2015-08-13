@@ -4,150 +4,150 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>
-struct List_1_t5749;
+// System.Collections.Generic.List`1<System.Net.Cookie>
+struct List_1_t4020;
 // System.Object
 struct Object_t;
-// UnityEngine.UI.ICanvasElement
-struct ICanvasElement_t982;
-// System.Collections.Generic.IEnumerable`1<UnityEngine.UI.ICanvasElement>
-struct IEnumerable_1_t8894;
-// UnityEngine.UI.ICanvasElement[]
-struct ICanvasElementU5BU5D_t5751;
-// System.Collections.Generic.IEnumerator`1<UnityEngine.UI.ICanvasElement>
-struct IEnumerator_1_t8893;
+// System.Net.Cookie
+struct Cookie_t4018;
+// System.Collections.Generic.IEnumerable`1<System.Net.Cookie>
+struct IEnumerable_1_t9712;
+// System.Net.Cookie[]
+struct CookieU5BU5D_t8637;
+// System.Collections.Generic.IEnumerator`1<System.Net.Cookie>
+struct IEnumerator_1_t9713;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
-// System.Collections.Generic.ICollection`1<UnityEngine.UI.ICanvasElement>
-struct ICollection_1_t8895;
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.ICanvasElement>
-struct ReadOnlyCollection_1_t8896;
-// System.Predicate`1<UnityEngine.UI.ICanvasElement>
-struct Predicate_1_t851;
-// System.Collections.Generic.IComparer`1<UnityEngine.UI.ICanvasElement>
-struct IComparer_1_t8897;
-// System.Comparison`1<UnityEngine.UI.ICanvasElement>
-struct Comparison_1_t850;
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.ICanvasElement>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_106.h"
+// System.Collections.Generic.ICollection`1<System.Net.Cookie>
+struct ICollection_1_t9714;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>
+struct ReadOnlyCollection_1_t8638;
+// System.Predicate`1<System.Net.Cookie>
+struct Predicate_1_t8639;
+// System.Collections.Generic.IComparer`1<System.Net.Cookie>
+struct IComparer_1_t4322;
+// System.Comparison`1<System.Net.Cookie>
+struct Comparison_1_t8640;
+// System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_15.h"
 
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::.ctor()
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::.ctor()
 // System.Collections.Generic.List`1<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_gen_0MethodDeclarations.h"
-#define List_1__ctor_m28037(__this, method) (( void (*) (List_1_t5749 *, const MethodInfo*))List_1__ctor_m3474_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1__ctor_m28038(__this, ___collection, method) (( void (*) (List_1_t5749 *, Object_t*, const MethodInfo*))List_1__ctor_m7211_gshared)(__this, ___collection, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::.ctor(System.Int32)
-#define List_1__ctor_m28039(__this, ___capacity, method) (( void (*) (List_1_t5749 *, int32_t, const MethodInfo*))List_1__ctor_m21311_gshared)(__this, ___capacity, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::.ctor(T[],System.Int32)
-#define List_1__ctor_m28040(__this, ___data, ___size, method) (( void (*) (List_1_t5749 *, ICanvasElementU5BU5D_t5751*, int32_t, const MethodInfo*))List_1__ctor_m21313_gshared)(__this, ___data, ___size, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::.cctor()
-#define List_1__cctor_m28041(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m21315_gshared)(__this /* static, unused */, method)
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m28042(__this, method) (( Object_t* (*) (List_1_t5749 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m10104_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define List_1_System_Collections_ICollection_CopyTo_m28043(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t5749 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m10087_gshared)(__this, ___array, ___arrayIndex, method)
-// System.Collections.IEnumerator System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.IEnumerable.GetEnumerator()
-#define List_1_System_Collections_IEnumerable_GetEnumerator_m28044(__this, method) (( Object_t * (*) (List_1_t5749 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m10083_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.IList.Add(System.Object)
-#define List_1_System_Collections_IList_Add_m28045(__this, ___item, method) (( int32_t (*) (List_1_t5749 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m10092_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.IList.Contains(System.Object)
-#define List_1_System_Collections_IList_Contains_m28046(__this, ___item, method) (( bool (*) (List_1_t5749 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m10094_gshared)(__this, ___item, method)
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.IList.IndexOf(System.Object)
-#define List_1_System_Collections_IList_IndexOf_m28047(__this, ___item, method) (( int32_t (*) (List_1_t5749 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m10095_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.IList.Insert(System.Int32,System.Object)
-#define List_1_System_Collections_IList_Insert_m28048(__this, ___index, ___item, method) (( void (*) (List_1_t5749 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m10096_gshared)(__this, ___index, ___item, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.IList.Remove(System.Object)
-#define List_1_System_Collections_IList_Remove_m28049(__this, ___item, method) (( void (*) (List_1_t5749 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m10097_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m28050(__this, method) (( bool (*) (List_1_t5749 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m10099_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.ICollection.get_IsSynchronized()
-#define List_1_System_Collections_ICollection_get_IsSynchronized_m28051(__this, method) (( bool (*) (List_1_t5749 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m10085_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.ICollection.get_SyncRoot()
-#define List_1_System_Collections_ICollection_get_SyncRoot_m28052(__this, method) (( Object_t * (*) (List_1_t5749 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m10086_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.IList.get_IsFixedSize()
-#define List_1_System_Collections_IList_get_IsFixedSize_m28053(__this, method) (( bool (*) (List_1_t5749 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m10088_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.IList.get_IsReadOnly()
-#define List_1_System_Collections_IList_get_IsReadOnly_m28054(__this, method) (( bool (*) (List_1_t5749 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m10089_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.IList.get_Item(System.Int32)
-#define List_1_System_Collections_IList_get_Item_m28055(__this, ___index, method) (( Object_t * (*) (List_1_t5749 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m10090_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::System.Collections.IList.set_Item(System.Int32,System.Object)
-#define List_1_System_Collections_IList_set_Item_m28056(__this, ___index, ___value, method) (( void (*) (List_1_t5749 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m10091_gshared)(__this, ___index, ___value, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Add(T)
-#define List_1_Add_m28057(__this, ___item, method) (( void (*) (List_1_t5749 *, Object_t *, const MethodInfo*))List_1_Add_m10100_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::GrowIfNeeded(System.Int32)
-#define List_1_GrowIfNeeded_m28058(__this, ___newCount, method) (( void (*) (List_1_t5749 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m21333_gshared)(__this, ___newCount, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::CheckRange(System.Int32,System.Int32)
-#define List_1_CheckRange_m28059(__this, ___idx, ___count, method) (( void (*) (List_1_t5749 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m21335_gshared)(__this, ___idx, ___count, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::AddCollection(System.Collections.Generic.ICollection`1<T>)
-#define List_1_AddCollection_m28060(__this, ___collection, method) (( void (*) (List_1_t5749 *, Object_t*, const MethodInfo*))List_1_AddCollection_m21337_gshared)(__this, ___collection, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_AddEnumerable_m28061(__this, ___enumerable, method) (( void (*) (List_1_t5749 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m21339_gshared)(__this, ___enumerable, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_AddRange_m28062(__this, ___collection, method) (( void (*) (List_1_t5749 *, Object_t*, const MethodInfo*))List_1_AddRange_m21341_gshared)(__this, ___collection, method)
-// System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::AsReadOnly()
-#define List_1_AsReadOnly_m28063(__this, method) (( ReadOnlyCollection_1_t8896 * (*) (List_1_t5749 *, const MethodInfo*))List_1_AsReadOnly_m21343_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Clear()
-#define List_1_Clear_m28064(__this, method) (( void (*) (List_1_t5749 *, const MethodInfo*))List_1_Clear_m10093_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Contains(T)
-#define List_1_Contains_m28065(__this, ___item, method) (( bool (*) (List_1_t5749 *, Object_t *, const MethodInfo*))List_1_Contains_m10101_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m28066(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t5749 *, ICanvasElementU5BU5D_t5751*, int32_t, const MethodInfo*))List_1_CopyTo_m10102_gshared)(__this, ___array, ___arrayIndex, method)
-// T System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Find(System.Predicate`1<T>)
-#define List_1_Find_m28067(__this, ___match, method) (( Object_t * (*) (List_1_t5749 *, Predicate_1_t851 *, const MethodInfo*))List_1_Find_m21348_gshared)(__this, ___match, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m28068(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t851 *, const MethodInfo*))List_1_CheckMatch_m21350_gshared)(__this /* static, unused */, ___match, method)
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m28069(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t5749 *, int32_t, int32_t, Predicate_1_t851 *, const MethodInfo*))List_1_GetIndex_m21352_gshared)(__this, ___startIndex, ___count, ___match, method)
-// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::GetEnumerator()
-#define List_1_GetEnumerator_m28070(__this, method) (( Enumerator_t8898  (*) (List_1_t5749 *, const MethodInfo*))List_1_GetEnumerator_m3630_gshared)(__this, method)
-// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::GetRange(System.Int32,System.Int32)
-#define List_1_GetRange_m28071(__this, ___index, ___count, method) (( List_1_t5749 * (*) (List_1_t5749 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21354_gshared)(__this, ___index, ___count, method)
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::IndexOf(T)
-#define List_1_IndexOf_m28072(__this, ___item, method) (( int32_t (*) (List_1_t5749 *, Object_t *, const MethodInfo*))List_1_IndexOf_m10105_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Shift(System.Int32,System.Int32)
-#define List_1_Shift_m28073(__this, ___start, ___delta, method) (( void (*) (List_1_t5749 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m21357_gshared)(__this, ___start, ___delta, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::CheckIndex(System.Int32)
-#define List_1_CheckIndex_m28074(__this, ___index, method) (( void (*) (List_1_t5749 *, int32_t, const MethodInfo*))List_1_CheckIndex_m21359_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Insert(System.Int32,T)
-#define List_1_Insert_m28075(__this, ___index, ___item, method) (( void (*) (List_1_t5749 *, int32_t, Object_t *, const MethodInfo*))List_1_Insert_m10106_gshared)(__this, ___index, ___item, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_CheckCollection_m28076(__this, ___collection, method) (( void (*) (List_1_t5749 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m21362_gshared)(__this, ___collection, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_InsertRange_m28077(__this, ___index, ___collection, method) (( void (*) (List_1_t5749 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m21364_gshared)(__this, ___index, ___collection, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::InsertCollection(System.Int32,System.Collections.Generic.ICollection`1<T>)
-#define List_1_InsertCollection_m28078(__this, ___index, ___collection, method) (( void (*) (List_1_t5749 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m21366_gshared)(__this, ___index, ___collection, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_InsertEnumeration_m28079(__this, ___index, ___enumerable, method) (( void (*) (List_1_t5749 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m21368_gshared)(__this, ___index, ___enumerable, method)
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Remove(T)
-#define List_1_Remove_m28080(__this, ___item, method) (( bool (*) (List_1_t5749 *, Object_t *, const MethodInfo*))List_1_Remove_m10103_gshared)(__this, ___item, method)
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m28081(__this, ___match, method) (( int32_t (*) (List_1_t5749 *, Predicate_1_t851 *, const MethodInfo*))List_1_RemoveAll_m21371_gshared)(__this, ___match, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::RemoveAt(System.Int32)
-#define List_1_RemoveAt_m28082(__this, ___index, method) (( void (*) (List_1_t5749 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10098_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::RemoveRange(System.Int32,System.Int32)
-#define List_1_RemoveRange_m28083(__this, ___index, ___count, method) (( void (*) (List_1_t5749 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m21374_gshared)(__this, ___index, ___count, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Reverse()
-#define List_1_Reverse_m28084(__this, method) (( void (*) (List_1_t5749 *, const MethodInfo*))List_1_Reverse_m21376_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Sort()
-#define List_1_Sort_m28085(__this, method) (( void (*) (List_1_t5749 *, const MethodInfo*))List_1_Sort_m21378_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Sort(System.Collections.Generic.IComparer`1<T>)
-#define List_1_Sort_m28086(__this, ___comparer, method) (( void (*) (List_1_t5749 *, Object_t*, const MethodInfo*))List_1_Sort_m21380_gshared)(__this, ___comparer, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m28087(__this, ___comparison, method) (( void (*) (List_1_t5749 *, Comparison_1_t850 *, const MethodInfo*))List_1_Sort_m21382_gshared)(__this, ___comparison, method)
-// T[] System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::ToArray()
-#define List_1_ToArray_m28088(__this, method) (( ICanvasElementU5BU5D_t5751* (*) (List_1_t5749 *, const MethodInfo*))List_1_ToArray_m21384_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::TrimExcess()
-#define List_1_TrimExcess_m28089(__this, method) (( void (*) (List_1_t5749 *, const MethodInfo*))List_1_TrimExcess_m21386_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::get_Capacity()
-#define List_1_get_Capacity_m28090(__this, method) (( int32_t (*) (List_1_t5749 *, const MethodInfo*))List_1_get_Capacity_m21388_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::set_Capacity(System.Int32)
-#define List_1_set_Capacity_m28091(__this, ___value, method) (( void (*) (List_1_t5749 *, int32_t, const MethodInfo*))List_1_set_Capacity_m21390_gshared)(__this, ___value, method)
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::get_Count()
-#define List_1_get_Count_m28092(__this, method) (( int32_t (*) (List_1_t5749 *, const MethodInfo*))List_1_get_Count_m10084_gshared)(__this, method)
-// T System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::get_Item(System.Int32)
-#define List_1_get_Item_m28093(__this, ___index, method) (( Object_t * (*) (List_1_t5749 *, int32_t, const MethodInfo*))List_1_get_Item_m10107_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::set_Item(System.Int32,T)
-#define List_1_set_Item_m28094(__this, ___index, ___value, method) (( void (*) (List_1_t5749 *, int32_t, Object_t *, const MethodInfo*))List_1_set_Item_m10108_gshared)(__this, ___index, ___value, method)
+#define List_1__ctor_m15099(__this, method) (( void (*) (List_1_t4020 *, const MethodInfo*))List_1__ctor_m3713_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1__ctor_m63680(__this, ___collection, method) (( void (*) (List_1_t4020 *, Object_t*, const MethodInfo*))List_1__ctor_m7470_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::.ctor(System.Int32)
+#define List_1__ctor_m63681(__this, ___capacity, method) (( void (*) (List_1_t4020 *, int32_t, const MethodInfo*))List_1__ctor_m21569_gshared)(__this, ___capacity, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::.ctor(T[],System.Int32)
+#define List_1__ctor_m63682(__this, ___data, ___size, method) (( void (*) (List_1_t4020 *, CookieU5BU5D_t8637*, int32_t, const MethodInfo*))List_1__ctor_m21571_gshared)(__this, ___data, ___size, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::.cctor()
+#define List_1__cctor_m63683(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m21573_gshared)(__this /* static, unused */, method)
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m63684(__this, method) (( Object_t* (*) (List_1_t4020 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m10360_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define List_1_System_Collections_ICollection_CopyTo_m63685(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t4020 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m10343_gshared)(__this, ___array, ___arrayIndex, method)
+// System.Collections.IEnumerator System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.IEnumerable.GetEnumerator()
+#define List_1_System_Collections_IEnumerable_GetEnumerator_m63686(__this, method) (( Object_t * (*) (List_1_t4020 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m10339_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.IList.Add(System.Object)
+#define List_1_System_Collections_IList_Add_m63687(__this, ___item, method) (( int32_t (*) (List_1_t4020 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m10348_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.IList.Contains(System.Object)
+#define List_1_System_Collections_IList_Contains_m63688(__this, ___item, method) (( bool (*) (List_1_t4020 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m10350_gshared)(__this, ___item, method)
+// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.IList.IndexOf(System.Object)
+#define List_1_System_Collections_IList_IndexOf_m63689(__this, ___item, method) (( int32_t (*) (List_1_t4020 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m10351_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.IList.Insert(System.Int32,System.Object)
+#define List_1_System_Collections_IList_Insert_m63690(__this, ___index, ___item, method) (( void (*) (List_1_t4020 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m10352_gshared)(__this, ___index, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.IList.Remove(System.Object)
+#define List_1_System_Collections_IList_Remove_m63691(__this, ___item, method) (( void (*) (List_1_t4020 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m10353_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m63692(__this, method) (( bool (*) (List_1_t4020 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m10355_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.ICollection.get_IsSynchronized()
+#define List_1_System_Collections_ICollection_get_IsSynchronized_m63693(__this, method) (( bool (*) (List_1_t4020 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m10341_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.ICollection.get_SyncRoot()
+#define List_1_System_Collections_ICollection_get_SyncRoot_m63694(__this, method) (( Object_t * (*) (List_1_t4020 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m10342_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.IList.get_IsFixedSize()
+#define List_1_System_Collections_IList_get_IsFixedSize_m63695(__this, method) (( bool (*) (List_1_t4020 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m10344_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.IList.get_IsReadOnly()
+#define List_1_System_Collections_IList_get_IsReadOnly_m63696(__this, method) (( bool (*) (List_1_t4020 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m10345_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.IList.get_Item(System.Int32)
+#define List_1_System_Collections_IList_get_Item_m63697(__this, ___index, method) (( Object_t * (*) (List_1_t4020 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m10346_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::System.Collections.IList.set_Item(System.Int32,System.Object)
+#define List_1_System_Collections_IList_set_Item_m63698(__this, ___index, ___value, method) (( void (*) (List_1_t4020 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m10347_gshared)(__this, ___index, ___value, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::Add(T)
+#define List_1_Add_m63699(__this, ___item, method) (( void (*) (List_1_t4020 *, Cookie_t4018 *, const MethodInfo*))List_1_Add_m10356_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::GrowIfNeeded(System.Int32)
+#define List_1_GrowIfNeeded_m63700(__this, ___newCount, method) (( void (*) (List_1_t4020 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m21591_gshared)(__this, ___newCount, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::CheckRange(System.Int32,System.Int32)
+#define List_1_CheckRange_m63701(__this, ___idx, ___count, method) (( void (*) (List_1_t4020 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m21593_gshared)(__this, ___idx, ___count, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::AddCollection(System.Collections.Generic.ICollection`1<T>)
+#define List_1_AddCollection_m63702(__this, ___collection, method) (( void (*) (List_1_t4020 *, Object_t*, const MethodInfo*))List_1_AddCollection_m21595_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_AddEnumerable_m63703(__this, ___enumerable, method) (( void (*) (List_1_t4020 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m21597_gshared)(__this, ___enumerable, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_AddRange_m63704(__this, ___collection, method) (( void (*) (List_1_t4020 *, Object_t*, const MethodInfo*))List_1_AddRange_m21599_gshared)(__this, ___collection, method)
+// System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<System.Net.Cookie>::AsReadOnly()
+#define List_1_AsReadOnly_m63705(__this, method) (( ReadOnlyCollection_1_t8638 * (*) (List_1_t4020 *, const MethodInfo*))List_1_AsReadOnly_m21601_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::Clear()
+#define List_1_Clear_m63706(__this, method) (( void (*) (List_1_t4020 *, const MethodInfo*))List_1_Clear_m10349_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Net.Cookie>::Contains(T)
+#define List_1_Contains_m63707(__this, ___item, method) (( bool (*) (List_1_t4020 *, Cookie_t4018 *, const MethodInfo*))List_1_Contains_m10357_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::CopyTo(T[],System.Int32)
+#define List_1_CopyTo_m63708(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t4020 *, CookieU5BU5D_t8637*, int32_t, const MethodInfo*))List_1_CopyTo_m10358_gshared)(__this, ___array, ___arrayIndex, method)
+// T System.Collections.Generic.List`1<System.Net.Cookie>::Find(System.Predicate`1<T>)
+#define List_1_Find_m63709(__this, ___match, method) (( Cookie_t4018 * (*) (List_1_t4020 *, Predicate_1_t8639 *, const MethodInfo*))List_1_Find_m21606_gshared)(__this, ___match, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::CheckMatch(System.Predicate`1<T>)
+#define List_1_CheckMatch_m63710(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t8639 *, const MethodInfo*))List_1_CheckMatch_m21608_gshared)(__this /* static, unused */, ___match, method)
+// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
+#define List_1_GetIndex_m63711(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t4020 *, int32_t, int32_t, Predicate_1_t8639 *, const MethodInfo*))List_1_GetIndex_m21610_gshared)(__this, ___startIndex, ___count, ___match, method)
+// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.Net.Cookie>::GetEnumerator()
+#define List_1_GetEnumerator_m15100(__this, method) (( Enumerator_t4198  (*) (List_1_t4020 *, const MethodInfo*))List_1_GetEnumerator_m3869_gshared)(__this, method)
+// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<System.Net.Cookie>::GetRange(System.Int32,System.Int32)
+#define List_1_GetRange_m63712(__this, ___index, ___count, method) (( List_1_t4020 * (*) (List_1_t4020 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21612_gshared)(__this, ___index, ___count, method)
+// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::IndexOf(T)
+#define List_1_IndexOf_m63713(__this, ___item, method) (( int32_t (*) (List_1_t4020 *, Cookie_t4018 *, const MethodInfo*))List_1_IndexOf_m10361_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::Shift(System.Int32,System.Int32)
+#define List_1_Shift_m63714(__this, ___start, ___delta, method) (( void (*) (List_1_t4020 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m21615_gshared)(__this, ___start, ___delta, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::CheckIndex(System.Int32)
+#define List_1_CheckIndex_m63715(__this, ___index, method) (( void (*) (List_1_t4020 *, int32_t, const MethodInfo*))List_1_CheckIndex_m21617_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::Insert(System.Int32,T)
+#define List_1_Insert_m63716(__this, ___index, ___item, method) (( void (*) (List_1_t4020 *, int32_t, Cookie_t4018 *, const MethodInfo*))List_1_Insert_m10362_gshared)(__this, ___index, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_CheckCollection_m63717(__this, ___collection, method) (( void (*) (List_1_t4020 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m21620_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_InsertRange_m63718(__this, ___index, ___collection, method) (( void (*) (List_1_t4020 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m21622_gshared)(__this, ___index, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::InsertCollection(System.Int32,System.Collections.Generic.ICollection`1<T>)
+#define List_1_InsertCollection_m63719(__this, ___index, ___collection, method) (( void (*) (List_1_t4020 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m21624_gshared)(__this, ___index, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_InsertEnumeration_m63720(__this, ___index, ___enumerable, method) (( void (*) (List_1_t4020 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m21626_gshared)(__this, ___index, ___enumerable, method)
+// System.Boolean System.Collections.Generic.List`1<System.Net.Cookie>::Remove(T)
+#define List_1_Remove_m63721(__this, ___item, method) (( bool (*) (List_1_t4020 *, Cookie_t4018 *, const MethodInfo*))List_1_Remove_m10359_gshared)(__this, ___item, method)
+// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::RemoveAll(System.Predicate`1<T>)
+#define List_1_RemoveAll_m63722(__this, ___match, method) (( int32_t (*) (List_1_t4020 *, Predicate_1_t8639 *, const MethodInfo*))List_1_RemoveAll_m21629_gshared)(__this, ___match, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::RemoveAt(System.Int32)
+#define List_1_RemoveAt_m63723(__this, ___index, method) (( void (*) (List_1_t4020 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10354_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::RemoveRange(System.Int32,System.Int32)
+#define List_1_RemoveRange_m63724(__this, ___index, ___count, method) (( void (*) (List_1_t4020 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m21632_gshared)(__this, ___index, ___count, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::Reverse()
+#define List_1_Reverse_m63725(__this, method) (( void (*) (List_1_t4020 *, const MethodInfo*))List_1_Reverse_m21634_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::Sort()
+#define List_1_Sort_m63726(__this, method) (( void (*) (List_1_t4020 *, const MethodInfo*))List_1_Sort_m21636_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::Sort(System.Collections.Generic.IComparer`1<T>)
+#define List_1_Sort_m15101(__this, ___comparer, method) (( void (*) (List_1_t4020 *, Object_t*, const MethodInfo*))List_1_Sort_m21638_gshared)(__this, ___comparer, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::Sort(System.Comparison`1<T>)
+#define List_1_Sort_m63727(__this, ___comparison, method) (( void (*) (List_1_t4020 *, Comparison_1_t8640 *, const MethodInfo*))List_1_Sort_m21640_gshared)(__this, ___comparison, method)
+// T[] System.Collections.Generic.List`1<System.Net.Cookie>::ToArray()
+#define List_1_ToArray_m63728(__this, method) (( CookieU5BU5D_t8637* (*) (List_1_t4020 *, const MethodInfo*))List_1_ToArray_m21642_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::TrimExcess()
+#define List_1_TrimExcess_m63729(__this, method) (( void (*) (List_1_t4020 *, const MethodInfo*))List_1_TrimExcess_m21644_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::get_Capacity()
+#define List_1_get_Capacity_m63730(__this, method) (( int32_t (*) (List_1_t4020 *, const MethodInfo*))List_1_get_Capacity_m21646_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::set_Capacity(System.Int32)
+#define List_1_set_Capacity_m63731(__this, ___value, method) (( void (*) (List_1_t4020 *, int32_t, const MethodInfo*))List_1_set_Capacity_m21648_gshared)(__this, ___value, method)
+// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::get_Count()
+#define List_1_get_Count_m63732(__this, method) (( int32_t (*) (List_1_t4020 *, const MethodInfo*))List_1_get_Count_m10340_gshared)(__this, method)
+// T System.Collections.Generic.List`1<System.Net.Cookie>::get_Item(System.Int32)
+#define List_1_get_Item_m63733(__this, ___index, method) (( Cookie_t4018 * (*) (List_1_t4020 *, int32_t, const MethodInfo*))List_1_get_Item_m10363_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Net.Cookie>::set_Item(System.Int32,T)
+#define List_1_set_Item_m63734(__this, ___index, ___value, method) (( void (*) (List_1_t4020 *, int32_t, Cookie_t4018 *, const MethodInfo*))List_1_set_Item_m10364_gshared)(__this, ___index, ___value, method)

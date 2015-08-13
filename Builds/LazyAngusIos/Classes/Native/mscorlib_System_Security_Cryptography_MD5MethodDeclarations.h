@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.MD5
-struct MD5_t3874;
+struct MD5_t3922;
 // System.String
 struct String_t;
 
 // System.Void System.Security.Cryptography.MD5::.ctor()
-extern "C" void MD5__ctor_m18427 (MD5_t3874 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MD5__ctor_m18685 (MD5_t3922 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.MD5 System.Security.Cryptography.MD5::Create()
-extern "C" MD5_t3874 * MD5_Create_m12907 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MD5_t3922 * MD5_Create_m13162 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.MD5 System.Security.Cryptography.MD5::Create(System.String)
-extern "C" MD5_t3874 * MD5_Create_m18428 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MD5_t3922 * MD5_Create_m18686 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

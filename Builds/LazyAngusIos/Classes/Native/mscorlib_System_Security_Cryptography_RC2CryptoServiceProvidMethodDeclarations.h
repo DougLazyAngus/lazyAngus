@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.RC2CryptoServiceProvider
-struct RC2CryptoServiceProvider_t4650;
+struct RC2CryptoServiceProvider_t4696;
 // System.Security.Cryptography.ICryptoTransform
-struct ICryptoTransform_t3793;
+struct ICryptoTransform_t3841;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 
 // System.Void System.Security.Cryptography.RC2CryptoServiceProvider::.ctor()
-extern "C" void RC2CryptoServiceProvider__ctor_m18444 (RC2CryptoServiceProvider_t4650 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RC2CryptoServiceProvider__ctor_m18702 (RC2CryptoServiceProvider_t4696 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.RC2CryptoServiceProvider::get_EffectiveKeySize()
-extern "C" int32_t RC2CryptoServiceProvider_get_EffectiveKeySize_m18445 (RC2CryptoServiceProvider_t4650 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RC2CryptoServiceProvider_get_EffectiveKeySize_m18703 (RC2CryptoServiceProvider_t4696 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.RC2CryptoServiceProvider::CreateDecryptor(System.Byte[],System.Byte[])
-extern "C" Object_t * RC2CryptoServiceProvider_CreateDecryptor_m18446 (RC2CryptoServiceProvider_t4650 * __this, ByteU5BU5D_t66* ___rgbKey, ByteU5BU5D_t66* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RC2CryptoServiceProvider_CreateDecryptor_m18704 (RC2CryptoServiceProvider_t4696 * __this, ByteU5BU5D_t66* ___rgbKey, ByteU5BU5D_t66* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.RC2CryptoServiceProvider::CreateEncryptor(System.Byte[],System.Byte[])
-extern "C" Object_t * RC2CryptoServiceProvider_CreateEncryptor_m18447 (RC2CryptoServiceProvider_t4650 * __this, ByteU5BU5D_t66* ___rgbKey, ByteU5BU5D_t66* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RC2CryptoServiceProvider_CreateEncryptor_m18705 (RC2CryptoServiceProvider_t4696 * __this, ByteU5BU5D_t66* ___rgbKey, ByteU5BU5D_t66* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RC2CryptoServiceProvider::GenerateIV()
-extern "C" void RC2CryptoServiceProvider_GenerateIV_m18448 (RC2CryptoServiceProvider_t4650 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RC2CryptoServiceProvider_GenerateIV_m18706 (RC2CryptoServiceProvider_t4696 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RC2CryptoServiceProvider::GenerateKey()
-extern "C" void RC2CryptoServiceProvider_GenerateKey_m18449 (RC2CryptoServiceProvider_t4650 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RC2CryptoServiceProvider_GenerateKey_m18707 (RC2CryptoServiceProvider_t4696 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

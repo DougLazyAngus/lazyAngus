@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.Transform>
-struct List_1_t812;
-// UnityEngine.Transform
-struct Transform_t406;
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
+struct List_1_t886;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>
-struct  Enumerator_t5730 
+// UnityEngine.EventSystems.RaycastResult
+#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>
+struct  Enumerator_t5781 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::l
-	List_1_t812 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::l
+	List_1_t886 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::current
-	Transform_t406 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::current
+	RaycastResult_t880  ___current_3;
 };

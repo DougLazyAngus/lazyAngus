@@ -9,10 +9,10 @@ struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_10.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.Boolean>>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_117.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_118.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.Boolean>>,System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
-struct  Func_2_t8111  : public MulticastDelegate_t388
+struct  Func_2_t8183  : public MulticastDelegate_t388
 {
 };

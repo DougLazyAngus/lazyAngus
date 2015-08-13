@@ -1,8 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Event
-struct Event_t734;
-struct Event_t734_marshaled;
+// System.String
+struct String_t;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,11 +10,11 @@ struct AsyncCallback_t386;
 struct Object_t;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-// UnityEngine.TextEditor/TextEditOp
-#include "UnityEngine_UnityEngine_TextEditor_TextEditOp.h"
+// System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_14.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp,System.Collections.DictionaryEntry>
-struct  Transform_1_t8475  : public MulticastDelegate_t388
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>,System.Collections.DictionaryEntry>
+struct  Transform_1_t8516  : public MulticastDelegate_t388
 {
 };

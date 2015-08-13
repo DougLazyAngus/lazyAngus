@@ -1,14 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// LevelDescription
-struct LevelDescription_t543;
+// System.String
+struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Int32,LevelDescription>
-struct  KeyValuePair_2_t5667 
+// GameAnalyticsSDK.GA_ServerFieldTypes/FieldType
+#include "AssemblyU2DCSharp_GameAnalyticsSDK_GA_ServerFieldTypes_Field.h"
+// System.Collections.Generic.KeyValuePair`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>
+struct  KeyValuePair_2_t5672 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,LevelDescription>::key
+	// TKey System.Collections.Generic.KeyValuePair`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::key
 	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,LevelDescription>::value
-	LevelDescription_t543 * ___value_1;
+	// TValue System.Collections.Generic.KeyValuePair`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::value
+	String_t* ___value_1;
 };

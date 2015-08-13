@@ -12,7 +12,7 @@ struct Object_t;
 #include "mscorlib_System_Byte.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Byte,System.Byte>
-struct  Transform_1_t6125  : public MulticastDelegate_t388
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Byte,System.Int64>
+struct  Transform_1_t6194  : public MulticastDelegate_t388
 {
 };

@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.TripleDES
-struct TripleDES_t3884;
+struct TripleDES_t3932;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.String
 struct String_t;
 
 // System.Void System.Security.Cryptography.TripleDES::.ctor()
-extern "C" void TripleDES__ctor_m18618 (TripleDES_t3884 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TripleDES__ctor_m18876 (TripleDES_t3932 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.TripleDES::get_Key()
-extern "C" ByteU5BU5D_t66* TripleDES_get_Key_m18619 (TripleDES_t3884 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* TripleDES_get_Key_m18877 (TripleDES_t3932 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.TripleDES::set_Key(System.Byte[])
-extern "C" void TripleDES_set_Key_m18620 (TripleDES_t3884 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TripleDES_set_Key_m18878 (TripleDES_t3932 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.TripleDES::IsWeakKey(System.Byte[])
-extern "C" bool TripleDES_IsWeakKey_m18621 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___rgbKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TripleDES_IsWeakKey_m18879 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___rgbKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.TripleDES System.Security.Cryptography.TripleDES::Create()
-extern "C" TripleDES_t3884 * TripleDES_Create_m12927 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TripleDES_t3932 * TripleDES_Create_m13182 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.TripleDES System.Security.Cryptography.TripleDES::Create(System.String)
-extern "C" TripleDES_t3884 * TripleDES_Create_m18622 (Object_t * __this /* static, unused */, String_t* ___str, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TripleDES_t3932 * TripleDES_Create_m18880 (Object_t * __this /* static, unused */, String_t* ___str, const MethodInfo* method) IL2CPP_METHOD_ATTR;

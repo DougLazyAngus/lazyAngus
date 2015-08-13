@@ -3,10 +3,10 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__72.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__73.h"
 // System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Int32,System.TimeZoneInfo/TimeType>
-struct  ShimEnumerator_t8536  : public Object_t
+struct  ShimEnumerator_t8608  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Int32,System.TimeZoneInfo/TimeType>::host_enumerator
-	Enumerator_t8530  ___host_enumerator_0;
+	Enumerator_t8602  ___host_enumerator_0;
 };

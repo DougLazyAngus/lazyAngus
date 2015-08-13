@@ -5,7 +5,7 @@
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.RuntimeArgumentHandle
-struct  RuntimeArgumentHandle_t4307 
+struct  RuntimeArgumentHandle_t4353 
 {
 	// System.IntPtr System.RuntimeArgumentHandle::args
 	IntPtr_t ___args_0;

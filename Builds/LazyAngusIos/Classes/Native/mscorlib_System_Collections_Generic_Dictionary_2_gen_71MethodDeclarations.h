@@ -4,150 +4,195 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct Dictionary_2_t8425;
-// System.Collections.Generic.ICollection`1<System.Type>
-struct ICollection_1_t9002;
-// System.Collections.Generic.ICollection`1<SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct ICollection_1_t9546;
+// System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>
+struct Dictionary_2_t8477;
+// System.Collections.Generic.ICollection`1<System.UInt64>
+struct ICollection_1_t9203;
+// System.Collections.Generic.ICollection`1<System.Object>
+struct ICollection_1_t1223;
 // System.Collections.ICollection
-struct ICollection_t705;
+struct ICollection_t754;
 // System.Object
 struct Object_t;
-// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate
-struct ConstructorDelegate_t2778;
-// System.Type
-struct Type_t;
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct KeyCollection_t9549;
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct ValueCollection_t9550;
-// System.Collections.Generic.IEqualityComparer`1<System.Type>
-struct IEqualityComparer_1_t6184;
-// System.Collections.Generic.IDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct IDictionary_2_t2773;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.UInt64,System.Object>
+struct KeyCollection_t8480;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>
+struct ValueCollection_t8484;
+// System.Collections.Generic.IEqualityComparer`1<System.UInt64>
+struct IEqualityComparer_1_t8475;
+// System.Collections.Generic.IDictionary`2<System.UInt64,System.Object>
+struct IDictionary_2_t9630;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2869;
-// System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>[]
-struct KeyValuePair_2U5BU5D_t9547;
+struct SerializationInfo_t2919;
+// System.Collections.Generic.KeyValuePair`2<System.UInt64,System.Object>[]
+struct KeyValuePair_2U5BU5D_t9631;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
-// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>>
-struct IEnumerator_1_t9548;
+// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.UInt64,System.Object>>
+struct IEnumerator_1_t9632;
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t3911;
+struct IDictionaryEnumerator_t784;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
-// System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_136.h"
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__74.h"
+// System.Collections.Generic.KeyValuePair`2<System.UInt64,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_134.h"
+// System.Collections.Generic.Dictionary`2/Enumerator<System.UInt64,System.Object>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__67.h"
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::.ctor()
-// System.Collections.Generic.Dictionary`2<System.Object,System.Object>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_gen_47MethodDeclarations.h"
-#define Dictionary_2__ctor_m61117(__this, method) (( void (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2__ctor_m21539_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2__ctor_m61118(__this, ___comparer, method) (( void (*) (Dictionary_2_t8425 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m21541_gshared)(__this, ___comparer, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-#define Dictionary_2__ctor_m61119(__this, ___dictionary, method) (( void (*) (Dictionary_2_t8425 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m21543_gshared)(__this, ___dictionary, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::.ctor(System.Int32)
-#define Dictionary_2__ctor_m61120(__this, ___capacity, method) (( void (*) (Dictionary_2_t8425 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m21545_gshared)(__this, ___capacity, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>,System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2__ctor_m61121(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t8425 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m21547_gshared)(__this, ___dictionary, ___comparer, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2__ctor_m61122(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t8425 *, SerializationInfo_t2869 *, StreamingContext_t2870 , const MethodInfo*))Dictionary_2__ctor_m21549_gshared)(__this, ___info, ___context, method)
-// System.Collections.Generic.ICollection`1<TKey> System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys()
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m61123(__this, method) (( Object_t* (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m21551_gshared)(__this, method)
-// System.Collections.Generic.ICollection`1<TValue> System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Values()
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m61124(__this, method) (( Object_t* (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m21553_gshared)(__this, method)
-// System.Collections.ICollection System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.IDictionary.get_Keys()
-#define Dictionary_2_System_Collections_IDictionary_get_Keys_m61125(__this, method) (( Object_t * (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m21555_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.IDictionary.get_Item(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_get_Item_m61126(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t8425 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m21557_gshared)(__this, ___key, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.IDictionary.set_Item(System.Object,System.Object)
-#define Dictionary_2_System_Collections_IDictionary_set_Item_m61127(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t8425 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m21559_gshared)(__this, ___key, ___value, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.IDictionary.Add(System.Object,System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Add_m61128(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t8425 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m21561_gshared)(__this, ___key, ___value, method)
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.IDictionary.Contains(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Contains_m61129(__this, ___key, method) (( bool (*) (Dictionary_2_t8425 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m21563_gshared)(__this, ___key, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.IDictionary.Remove(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Remove_m61130(__this, ___key, method) (( void (*) (Dictionary_2_t8425 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m21565_gshared)(__this, ___key, method)
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.ICollection.get_IsSynchronized()
-#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m61131(__this, method) (( bool (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m21567_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.ICollection.get_SyncRoot()
-#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m61132(__this, method) (( Object_t * (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m21569_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m61133(__this, method) (( bool (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m21571_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m61134(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t8425 *, KeyValuePair_2_t8429 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m21573_gshared)(__this, ___keyValuePair, method)
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m61135(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t8425 *, KeyValuePair_2_t8429 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m21575_gshared)(__this, ___keyValuePair, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m61136(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t8425 *, KeyValuePair_2U5BU5D_t9547*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m21577_gshared)(__this, ___array, ___index, method)
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m61137(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t8425 *, KeyValuePair_2_t8429 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m21579_gshared)(__this, ___keyValuePair, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define Dictionary_2_System_Collections_ICollection_CopyTo_m61138(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t8425 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m21581_gshared)(__this, ___array, ___index, method)
-// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.IEnumerable.GetEnumerator()
-#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m61139(__this, method) (( Object_t * (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m21583_gshared)(__this, method)
-// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
-#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m61140(__this, method) (( Object_t* (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m21585_gshared)(__this, method)
-// System.Collections.IDictionaryEnumerator System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::System.Collections.IDictionary.GetEnumerator()
-#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m61141(__this, method) (( Object_t * (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m21587_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::get_Count()
-#define Dictionary_2_get_Count_m61142(__this, method) (( int32_t (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_get_Count_m21589_gshared)(__this, method)
-// TValue System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::get_Item(TKey)
-#define Dictionary_2_get_Item_m61143(__this, ___key, method) (( ConstructorDelegate_t2778 * (*) (Dictionary_2_t8425 *, Type_t *, const MethodInfo*))Dictionary_2_get_Item_m21591_gshared)(__this, ___key, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::set_Item(TKey,TValue)
-#define Dictionary_2_set_Item_m61144(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t8425 *, Type_t *, ConstructorDelegate_t2778 *, const MethodInfo*))Dictionary_2_set_Item_m21593_gshared)(__this, ___key, ___value, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2_Init_m61145(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t8425 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m21595_gshared)(__this, ___capacity, ___hcp, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::InitArrays(System.Int32)
-#define Dictionary_2_InitArrays_m61146(__this, ___size, method) (( void (*) (Dictionary_2_t8425 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m21597_gshared)(__this, ___size, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::CopyToCheck(System.Array,System.Int32)
-#define Dictionary_2_CopyToCheck_m61147(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t8425 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m21599_gshared)(__this, ___array, ___index, method)
-// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::make_pair(TKey,TValue)
-#define Dictionary_2_make_pair_m61148(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t8429  (*) (Object_t * /* static, unused */, Type_t *, ConstructorDelegate_t2778 *, const MethodInfo*))Dictionary_2_make_pair_m21601_gshared)(__this /* static, unused */, ___key, ___value, method)
-// TKey System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::pick_key(TKey,TValue)
-#define Dictionary_2_pick_key_m61149(__this /* static, unused */, ___key, ___value, method) (( Type_t * (*) (Object_t * /* static, unused */, Type_t *, ConstructorDelegate_t2778 *, const MethodInfo*))Dictionary_2_pick_key_m21603_gshared)(__this /* static, unused */, ___key, ___value, method)
-// TValue System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::pick_value(TKey,TValue)
-#define Dictionary_2_pick_value_m61150(__this /* static, unused */, ___key, ___value, method) (( ConstructorDelegate_t2778 * (*) (Object_t * /* static, unused */, Type_t *, ConstructorDelegate_t2778 *, const MethodInfo*))Dictionary_2_pick_value_m21605_gshared)(__this /* static, unused */, ___key, ___value, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_CopyTo_m61151(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t8425 *, KeyValuePair_2U5BU5D_t9547*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m21607_gshared)(__this, ___array, ___index, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Resize()
-#define Dictionary_2_Resize_m61152(__this, method) (( void (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_Resize_m21609_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Add(TKey,TValue)
-#define Dictionary_2_Add_m61153(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t8425 *, Type_t *, ConstructorDelegate_t2778 *, const MethodInfo*))Dictionary_2_Add_m21611_gshared)(__this, ___key, ___value, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Clear()
-#define Dictionary_2_Clear_m61154(__this, method) (( void (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_Clear_m21613_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::ContainsKey(TKey)
-#define Dictionary_2_ContainsKey_m61155(__this, ___key, method) (( bool (*) (Dictionary_2_t8425 *, Type_t *, const MethodInfo*))Dictionary_2_ContainsKey_m21615_gshared)(__this, ___key, method)
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::ContainsValue(TValue)
-#define Dictionary_2_ContainsValue_m61156(__this, ___value, method) (( bool (*) (Dictionary_2_t8425 *, ConstructorDelegate_t2778 *, const MethodInfo*))Dictionary_2_ContainsValue_m21617_gshared)(__this, ___value, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2_GetObjectData_m61157(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t8425 *, SerializationInfo_t2869 *, StreamingContext_t2870 , const MethodInfo*))Dictionary_2_GetObjectData_m21619_gshared)(__this, ___info, ___context, method)
-// System.Void System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::OnDeserialization(System.Object)
-#define Dictionary_2_OnDeserialization_m61158(__this, ___sender, method) (( void (*) (Dictionary_2_t8425 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m21621_gshared)(__this, ___sender, method)
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Remove(TKey)
-#define Dictionary_2_Remove_m61159(__this, ___key, method) (( bool (*) (Dictionary_2_t8425 *, Type_t *, const MethodInfo*))Dictionary_2_Remove_m21623_gshared)(__this, ___key, method)
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::TryGetValue(TKey,TValue&)
-#define Dictionary_2_TryGetValue_m61160(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t8425 *, Type_t *, ConstructorDelegate_t2778 **, const MethodInfo*))Dictionary_2_TryGetValue_m21625_gshared)(__this, ___key, ___value, method)
-// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::get_Keys()
-#define Dictionary_2_get_Keys_m61161(__this, method) (( KeyCollection_t9549 * (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_get_Keys_m21626_gshared)(__this, method)
-// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::get_Values()
-#define Dictionary_2_get_Values_m61162(__this, method) (( ValueCollection_t9550 * (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_get_Values_m21628_gshared)(__this, method)
-// TKey System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::ToTKey(System.Object)
-#define Dictionary_2_ToTKey_m61163(__this, ___key, method) (( Type_t * (*) (Dictionary_2_t8425 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m21630_gshared)(__this, ___key, method)
-// TValue System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::ToTValue(System.Object)
-#define Dictionary_2_ToTValue_m61164(__this, ___value, method) (( ConstructorDelegate_t2778 * (*) (Dictionary_2_t8425 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m21632_gshared)(__this, ___value, method)
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_ContainsKeyValuePair_m61165(__this, ___pair, method) (( bool (*) (Dictionary_2_t8425 *, KeyValuePair_2_t8429 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m21634_gshared)(__this, ___pair, method)
-// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::GetEnumerator()
-#define Dictionary_2_GetEnumerator_m61166(__this, method) (( Enumerator_t9551  (*) (Dictionary_2_t8425 *, const MethodInfo*))Dictionary_2_GetEnumerator_m21635_gshared)(__this, method)
-// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::<CopyTo>m__0(TKey,TValue)
-#define Dictionary_2_U3CCopyToU3Em__0_m61167(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2088  (*) (Object_t * /* static, unused */, Type_t *, ConstructorDelegate_t2778 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m21637_gshared)(__this /* static, unused */, ___key, ___value, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::.ctor()
+extern "C" void Dictionary_2__ctor_m61470_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2__ctor_m61470(__this, method) (( void (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2__ctor_m61470_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
+extern "C" void Dictionary_2__ctor_m61472_gshared (Dictionary_2_t8477 * __this, Object_t* ___comparer, const MethodInfo* method);
+#define Dictionary_2__ctor_m61472(__this, ___comparer, method) (( void (*) (Dictionary_2_t8477 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m61472_gshared)(__this, ___comparer, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
+extern "C" void Dictionary_2__ctor_m61474_gshared (Dictionary_2_t8477 * __this, Object_t* ___dictionary, const MethodInfo* method);
+#define Dictionary_2__ctor_m61474(__this, ___dictionary, method) (( void (*) (Dictionary_2_t8477 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m61474_gshared)(__this, ___dictionary, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::.ctor(System.Int32)
+extern "C" void Dictionary_2__ctor_m61476_gshared (Dictionary_2_t8477 * __this, int32_t ___capacity, const MethodInfo* method);
+#define Dictionary_2__ctor_m61476(__this, ___capacity, method) (( void (*) (Dictionary_2_t8477 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m61476_gshared)(__this, ___capacity, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>,System.Collections.Generic.IEqualityComparer`1<TKey>)
+extern "C" void Dictionary_2__ctor_m61478_gshared (Dictionary_2_t8477 * __this, Object_t* ___dictionary, Object_t* ___comparer, const MethodInfo* method);
+#define Dictionary_2__ctor_m61478(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t8477 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m61478_gshared)(__this, ___dictionary, ___comparer, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern "C" void Dictionary_2__ctor_m61480_gshared (Dictionary_2_t8477 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method);
+#define Dictionary_2__ctor_m61480(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t8477 *, SerializationInfo_t2919 *, StreamingContext_t2920 , const MethodInfo*))Dictionary_2__ctor_m61480_gshared)(__this, ___info, ___context, method)
+// System.Collections.Generic.ICollection`1<TKey> System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys()
+extern "C" Object_t* Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m61482_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m61482(__this, method) (( Object_t* (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m61482_gshared)(__this, method)
+// System.Collections.Generic.ICollection`1<TValue> System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Values()
+extern "C" Object_t* Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m61484_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m61484(__this, method) (( Object_t* (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m61484_gshared)(__this, method)
+// System.Collections.ICollection System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.IDictionary.get_Keys()
+extern "C" Object_t * Dictionary_2_System_Collections_IDictionary_get_Keys_m61486_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_get_Keys_m61486(__this, method) (( Object_t * (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m61486_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.IDictionary.get_Item(System.Object)
+extern "C" Object_t * Dictionary_2_System_Collections_IDictionary_get_Item_m61488_gshared (Dictionary_2_t8477 * __this, Object_t * ___key, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_get_Item_m61488(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t8477 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m61488_gshared)(__this, ___key, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.IDictionary.set_Item(System.Object,System.Object)
+extern "C" void Dictionary_2_System_Collections_IDictionary_set_Item_m61490_gshared (Dictionary_2_t8477 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_set_Item_m61490(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t8477 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m61490_gshared)(__this, ___key, ___value, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.IDictionary.Add(System.Object,System.Object)
+extern "C" void Dictionary_2_System_Collections_IDictionary_Add_m61492_gshared (Dictionary_2_t8477 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_Add_m61492(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t8477 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m61492_gshared)(__this, ___key, ___value, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.IDictionary.Contains(System.Object)
+extern "C" bool Dictionary_2_System_Collections_IDictionary_Contains_m61494_gshared (Dictionary_2_t8477 * __this, Object_t * ___key, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_Contains_m61494(__this, ___key, method) (( bool (*) (Dictionary_2_t8477 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m61494_gshared)(__this, ___key, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.IDictionary.Remove(System.Object)
+extern "C" void Dictionary_2_System_Collections_IDictionary_Remove_m61496_gshared (Dictionary_2_t8477 * __this, Object_t * ___key, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_Remove_m61496(__this, ___key, method) (( void (*) (Dictionary_2_t8477 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m61496_gshared)(__this, ___key, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.ICollection.get_IsSynchronized()
+extern "C" bool Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m61498_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m61498(__this, method) (( bool (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m61498_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.ICollection.get_SyncRoot()
+extern "C" Object_t * Dictionary_2_System_Collections_ICollection_get_SyncRoot_m61500_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m61500(__this, method) (( Object_t * (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m61500_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
+extern "C" bool Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m61502_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m61502(__this, method) (( bool (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m61502_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+extern "C" void Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m61504_gshared (Dictionary_2_t8477 * __this, KeyValuePair_2_t8478  ___keyValuePair, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m61504(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t8477 *, KeyValuePair_2_t8478 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m61504_gshared)(__this, ___keyValuePair, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+extern "C" bool Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m61506_gshared (Dictionary_2_t8477 * __this, KeyValuePair_2_t8478  ___keyValuePair, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m61506(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t8477 *, KeyValuePair_2_t8478 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m61506_gshared)(__this, ___keyValuePair, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
+extern "C" void Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m61508_gshared (Dictionary_2_t8477 * __this, KeyValuePair_2U5BU5D_t9631* ___array, int32_t ___index, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m61508(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t8477 *, KeyValuePair_2U5BU5D_t9631*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m61508_gshared)(__this, ___array, ___index, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+extern "C" bool Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m61510_gshared (Dictionary_2_t8477 * __this, KeyValuePair_2_t8478  ___keyValuePair, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m61510(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t8477 *, KeyValuePair_2_t8478 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m61510_gshared)(__this, ___keyValuePair, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern "C" void Dictionary_2_System_Collections_ICollection_CopyTo_m61512_gshared (Dictionary_2_t8477 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
+#define Dictionary_2_System_Collections_ICollection_CopyTo_m61512(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t8477 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m61512_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.IEnumerable.GetEnumerator()
+extern "C" Object_t * Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m61514_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m61514(__this, method) (( Object_t * (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m61514_gshared)(__this, method)
+// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
+extern "C" Object_t* Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m61516_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m61516(__this, method) (( Object_t* (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m61516_gshared)(__this, method)
+// System.Collections.IDictionaryEnumerator System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::System.Collections.IDictionary.GetEnumerator()
+extern "C" Object_t * Dictionary_2_System_Collections_IDictionary_GetEnumerator_m61518_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m61518(__this, method) (( Object_t * (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m61518_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::get_Count()
+extern "C" int32_t Dictionary_2_get_Count_m61520_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_get_Count_m61520(__this, method) (( int32_t (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_get_Count_m61520_gshared)(__this, method)
+// TValue System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::get_Item(TKey)
+extern "C" Object_t * Dictionary_2_get_Item_m61522_gshared (Dictionary_2_t8477 * __this, uint64_t ___key, const MethodInfo* method);
+#define Dictionary_2_get_Item_m61522(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t8477 *, uint64_t, const MethodInfo*))Dictionary_2_get_Item_m61522_gshared)(__this, ___key, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::set_Item(TKey,TValue)
+extern "C" void Dictionary_2_set_Item_m61524_gshared (Dictionary_2_t8477 * __this, uint64_t ___key, Object_t * ___value, const MethodInfo* method);
+#define Dictionary_2_set_Item_m61524(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t8477 *, uint64_t, Object_t *, const MethodInfo*))Dictionary_2_set_Item_m61524_gshared)(__this, ___key, ___value, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
+extern "C" void Dictionary_2_Init_m61526_gshared (Dictionary_2_t8477 * __this, int32_t ___capacity, Object_t* ___hcp, const MethodInfo* method);
+#define Dictionary_2_Init_m61526(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t8477 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m61526_gshared)(__this, ___capacity, ___hcp, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::InitArrays(System.Int32)
+extern "C" void Dictionary_2_InitArrays_m61528_gshared (Dictionary_2_t8477 * __this, int32_t ___size, const MethodInfo* method);
+#define Dictionary_2_InitArrays_m61528(__this, ___size, method) (( void (*) (Dictionary_2_t8477 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m61528_gshared)(__this, ___size, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::CopyToCheck(System.Array,System.Int32)
+extern "C" void Dictionary_2_CopyToCheck_m61530_gshared (Dictionary_2_t8477 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
+#define Dictionary_2_CopyToCheck_m61530(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t8477 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m61530_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::make_pair(TKey,TValue)
+extern "C" KeyValuePair_2_t8478  Dictionary_2_make_pair_m61532_gshared (Object_t * __this /* static, unused */, uint64_t ___key, Object_t * ___value, const MethodInfo* method);
+#define Dictionary_2_make_pair_m61532(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t8478  (*) (Object_t * /* static, unused */, uint64_t, Object_t *, const MethodInfo*))Dictionary_2_make_pair_m61532_gshared)(__this /* static, unused */, ___key, ___value, method)
+// TKey System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::pick_key(TKey,TValue)
+extern "C" uint64_t Dictionary_2_pick_key_m61534_gshared (Object_t * __this /* static, unused */, uint64_t ___key, Object_t * ___value, const MethodInfo* method);
+#define Dictionary_2_pick_key_m61534(__this /* static, unused */, ___key, ___value, method) (( uint64_t (*) (Object_t * /* static, unused */, uint64_t, Object_t *, const MethodInfo*))Dictionary_2_pick_key_m61534_gshared)(__this /* static, unused */, ___key, ___value, method)
+// TValue System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::pick_value(TKey,TValue)
+extern "C" Object_t * Dictionary_2_pick_value_m61536_gshared (Object_t * __this /* static, unused */, uint64_t ___key, Object_t * ___value, const MethodInfo* method);
+#define Dictionary_2_pick_value_m61536(__this /* static, unused */, ___key, ___value, method) (( Object_t * (*) (Object_t * /* static, unused */, uint64_t, Object_t *, const MethodInfo*))Dictionary_2_pick_value_m61536_gshared)(__this /* static, unused */, ___key, ___value, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
+extern "C" void Dictionary_2_CopyTo_m61538_gshared (Dictionary_2_t8477 * __this, KeyValuePair_2U5BU5D_t9631* ___array, int32_t ___index, const MethodInfo* method);
+#define Dictionary_2_CopyTo_m61538(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t8477 *, KeyValuePair_2U5BU5D_t9631*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m61538_gshared)(__this, ___array, ___index, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::Resize()
+extern "C" void Dictionary_2_Resize_m61540_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_Resize_m61540(__this, method) (( void (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_Resize_m61540_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::Add(TKey,TValue)
+extern "C" void Dictionary_2_Add_m61542_gshared (Dictionary_2_t8477 * __this, uint64_t ___key, Object_t * ___value, const MethodInfo* method);
+#define Dictionary_2_Add_m61542(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t8477 *, uint64_t, Object_t *, const MethodInfo*))Dictionary_2_Add_m61542_gshared)(__this, ___key, ___value, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::Clear()
+extern "C" void Dictionary_2_Clear_m61544_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_Clear_m61544(__this, method) (( void (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_Clear_m61544_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::ContainsKey(TKey)
+extern "C" bool Dictionary_2_ContainsKey_m61546_gshared (Dictionary_2_t8477 * __this, uint64_t ___key, const MethodInfo* method);
+#define Dictionary_2_ContainsKey_m61546(__this, ___key, method) (( bool (*) (Dictionary_2_t8477 *, uint64_t, const MethodInfo*))Dictionary_2_ContainsKey_m61546_gshared)(__this, ___key, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::ContainsValue(TValue)
+extern "C" bool Dictionary_2_ContainsValue_m61548_gshared (Dictionary_2_t8477 * __this, Object_t * ___value, const MethodInfo* method);
+#define Dictionary_2_ContainsValue_m61548(__this, ___value, method) (( bool (*) (Dictionary_2_t8477 *, Object_t *, const MethodInfo*))Dictionary_2_ContainsValue_m61548_gshared)(__this, ___value, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern "C" void Dictionary_2_GetObjectData_m61550_gshared (Dictionary_2_t8477 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method);
+#define Dictionary_2_GetObjectData_m61550(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t8477 *, SerializationInfo_t2919 *, StreamingContext_t2920 , const MethodInfo*))Dictionary_2_GetObjectData_m61550_gshared)(__this, ___info, ___context, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::OnDeserialization(System.Object)
+extern "C" void Dictionary_2_OnDeserialization_m61552_gshared (Dictionary_2_t8477 * __this, Object_t * ___sender, const MethodInfo* method);
+#define Dictionary_2_OnDeserialization_m61552(__this, ___sender, method) (( void (*) (Dictionary_2_t8477 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m61552_gshared)(__this, ___sender, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::Remove(TKey)
+extern "C" bool Dictionary_2_Remove_m61554_gshared (Dictionary_2_t8477 * __this, uint64_t ___key, const MethodInfo* method);
+#define Dictionary_2_Remove_m61554(__this, ___key, method) (( bool (*) (Dictionary_2_t8477 *, uint64_t, const MethodInfo*))Dictionary_2_Remove_m61554_gshared)(__this, ___key, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::TryGetValue(TKey,TValue&)
+extern "C" bool Dictionary_2_TryGetValue_m61556_gshared (Dictionary_2_t8477 * __this, uint64_t ___key, Object_t ** ___value, const MethodInfo* method);
+#define Dictionary_2_TryGetValue_m61556(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t8477 *, uint64_t, Object_t **, const MethodInfo*))Dictionary_2_TryGetValue_m61556_gshared)(__this, ___key, ___value, method)
+// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::get_Keys()
+extern "C" KeyCollection_t8480 * Dictionary_2_get_Keys_m61558_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_get_Keys_m61558(__this, method) (( KeyCollection_t8480 * (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_get_Keys_m61558_gshared)(__this, method)
+// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::get_Values()
+extern "C" ValueCollection_t8484 * Dictionary_2_get_Values_m61560_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_get_Values_m61560(__this, method) (( ValueCollection_t8484 * (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_get_Values_m61560_gshared)(__this, method)
+// TKey System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::ToTKey(System.Object)
+extern "C" uint64_t Dictionary_2_ToTKey_m61562_gshared (Dictionary_2_t8477 * __this, Object_t * ___key, const MethodInfo* method);
+#define Dictionary_2_ToTKey_m61562(__this, ___key, method) (( uint64_t (*) (Dictionary_2_t8477 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m61562_gshared)(__this, ___key, method)
+// TValue System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::ToTValue(System.Object)
+extern "C" Object_t * Dictionary_2_ToTValue_m61564_gshared (Dictionary_2_t8477 * __this, Object_t * ___value, const MethodInfo* method);
+#define Dictionary_2_ToTValue_m61564(__this, ___value, method) (( Object_t * (*) (Dictionary_2_t8477 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m61564_gshared)(__this, ___value, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+extern "C" bool Dictionary_2_ContainsKeyValuePair_m61566_gshared (Dictionary_2_t8477 * __this, KeyValuePair_2_t8478  ___pair, const MethodInfo* method);
+#define Dictionary_2_ContainsKeyValuePair_m61566(__this, ___pair, method) (( bool (*) (Dictionary_2_t8477 *, KeyValuePair_2_t8478 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m61566_gshared)(__this, ___pair, method)
+// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::GetEnumerator()
+extern "C" Enumerator_t8482  Dictionary_2_GetEnumerator_m61568_gshared (Dictionary_2_t8477 * __this, const MethodInfo* method);
+#define Dictionary_2_GetEnumerator_m61568(__this, method) (( Enumerator_t8482  (*) (Dictionary_2_t8477 *, const MethodInfo*))Dictionary_2_GetEnumerator_m61568_gshared)(__this, method)
+// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>::<CopyTo>m__0(TKey,TValue)
+extern "C" DictionaryEntry_t2139  Dictionary_2_U3CCopyToU3Em__0_m61570_gshared (Object_t * __this /* static, unused */, uint64_t ___key, Object_t * ___value, const MethodInfo* method);
+#define Dictionary_2_U3CCopyToU3Em__0_m61570(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2139  (*) (Object_t * /* static, unused */, uint64_t, Object_t *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m61570_gshared)(__this /* static, unused */, ___key, ___value, method)

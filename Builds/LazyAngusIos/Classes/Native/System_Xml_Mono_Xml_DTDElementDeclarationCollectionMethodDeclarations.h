@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.DTDElementDeclarationCollection
-struct DTDElementDeclarationCollection_t3127;
+struct DTDElementDeclarationCollection_t3175;
 // Mono.Xml.DTDObjectModel
-struct DTDObjectModel_t3125;
+struct DTDObjectModel_t3173;
 // System.String
 struct String_t;
 // Mono.Xml.DTDElementDeclaration
-struct DTDElementDeclaration_t3143;
+struct DTDElementDeclaration_t3191;
 
 // System.Void Mono.Xml.DTDElementDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDElementDeclarationCollection__ctor_m10324 (DTDElementDeclarationCollection_t3127 * __this, DTDObjectModel_t3125 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDElementDeclarationCollection__ctor_m10580 (DTDElementDeclarationCollection_t3175 * __this, DTDObjectModel_t3173 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDElementDeclarationCollection::Add(System.String,Mono.Xml.DTDElementDeclaration)
-extern "C" void DTDElementDeclarationCollection_Add_m10325 (DTDElementDeclarationCollection_t3127 * __this, String_t* ___name, DTDElementDeclaration_t3143 * ___decl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDElementDeclarationCollection_Add_m10581 (DTDElementDeclarationCollection_t3175 * __this, String_t* ___name, DTDElementDeclaration_t3191 * ___decl, const MethodInfo* method) IL2CPP_METHOD_ATTR;

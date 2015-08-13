@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// ExplicitMouseDesc[]
-struct ExplicitMouseDescU5BU5D_t5644;
+// GameAnalyticsSDK.Game[]
+struct GameU5BU5D_t5698;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<ExplicitMouseDesc>
-struct  List_1_t537  : public Object_t
+// System.Collections.Generic.List`1<GameAnalyticsSDK.Game>
+struct  List_1_t488  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<ExplicitMouseDesc>::_items
-	ExplicitMouseDescU5BU5D_t5644* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<ExplicitMouseDesc>::_size
+	// T[] System.Collections.Generic.List`1<GameAnalyticsSDK.Game>::_items
+	GameU5BU5D_t5698* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<GameAnalyticsSDK.Game>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<ExplicitMouseDesc>::_version
+	// System.Int32 System.Collections.Generic.List`1<GameAnalyticsSDK.Game>::_version
 	int32_t ____version_3;
 };
-struct List_1_t537_StaticFields{
-	// T[] System.Collections.Generic.List`1<ExplicitMouseDesc>::EmptyArray
-	ExplicitMouseDescU5BU5D_t5644* ___EmptyArray_4;
+struct List_1_t488_StaticFields{
+	// T[] System.Collections.Generic.List`1<GameAnalyticsSDK.Game>::EmptyArray
+	GameU5BU5D_t5698* ___EmptyArray_4;
 };

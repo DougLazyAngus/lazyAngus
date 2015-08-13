@@ -9,7 +9,7 @@
 // System.TimeZoneInfo/TransitionTime
 #include "System_Core_System_TimeZoneInfo_TransitionTime.h"
 // System.TimeZoneInfo/AdjustmentRule
-struct  AdjustmentRule_t3306  : public Object_t
+struct  AdjustmentRule_t3354  : public Object_t
 {
 	// System.DateTime System.TimeZoneInfo/AdjustmentRule::dateEnd
 	DateTime_t287  ___dateEnd_0;
@@ -18,7 +18,7 @@ struct  AdjustmentRule_t3306  : public Object_t
 	// System.TimeSpan System.TimeZoneInfo/AdjustmentRule::daylightDelta
 	TimeSpan_t334  ___daylightDelta_2;
 	// System.TimeZoneInfo/TransitionTime System.TimeZoneInfo/AdjustmentRule::daylightTransitionEnd
-	TransitionTime_t3307  ___daylightTransitionEnd_3;
+	TransitionTime_t3355  ___daylightTransitionEnd_3;
 	// System.TimeZoneInfo/TransitionTime System.TimeZoneInfo/AdjustmentRule::daylightTransitionStart
-	TransitionTime_t3307  ___daylightTransitionStart_4;
+	TransitionTime_t3355  ___daylightTransitionStart_4;
 };

@@ -9,12 +9,12 @@ struct AN_GMSGiftsProxy_t167;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t636;
+struct ObjectU5BU5D_t682;
 
 // System.Void AN_GMSGiftsProxy::.ctor()
 extern "C" void AN_GMSGiftsProxy__ctor_m1114 (AN_GMSGiftsProxy_t167 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSGiftsProxy::CallActivityFunction(System.String,System.Object[])
-extern "C" void AN_GMSGiftsProxy_CallActivityFunction_m1115 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t636* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_GMSGiftsProxy_CallActivityFunction_m1115 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t682* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSGiftsProxy::sendGiftRequest(System.Int32,System.String,System.Int32,System.String,System.String)
 extern "C" void AN_GMSGiftsProxy_sendGiftRequest_m1116 (Object_t * __this /* static, unused */, int32_t ___type, String_t* ___playload, int32_t ___requestLifetimeDays, String_t* ___icon, String_t* ___description, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSGiftsProxy::showRequestAccepDialog()

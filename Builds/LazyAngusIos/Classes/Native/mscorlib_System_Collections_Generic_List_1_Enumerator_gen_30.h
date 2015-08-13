@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.Component>
-struct List_1_t988;
-// UnityEngine.Component
-struct Component_t712;
+// System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>
+struct List_1_t798;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>
-struct  Enumerator_t5699 
+// MouseHole/MouseHoleLocation
+#include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
+// System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>
+struct  Enumerator_t5748 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::l
-	List_1_t988 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::l
+	List_1_t798 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::current
-	Component_t712 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<MouseHole/MouseHoleLocation>::current
+	int32_t ___current_3;
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaDerivationMethod
-struct XmlSchemaDerivationMethod_t3102;
+struct XmlSchemaDerivationMethod_t3151;
 

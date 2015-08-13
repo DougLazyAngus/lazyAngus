@@ -2,8 +2,8 @@
 #include <stdint.h>
 // System.String
 struct String_t;
-// Parse.ParseRole
-struct ParseRole_t1248;
+// Parse.ParseUser
+struct ParseUser_t1305;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -14,7 +14,7 @@ struct Object_t;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.String,Parse.ParseRole,System.Collections.DictionaryEntry>
-struct  Transform_1_t7101  : public MulticastDelegate_t388
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,Parse.ParseUser,System.Collections.DictionaryEntry>
+struct  Transform_1_t7164  : public MulticastDelegate_t388
 {
 };

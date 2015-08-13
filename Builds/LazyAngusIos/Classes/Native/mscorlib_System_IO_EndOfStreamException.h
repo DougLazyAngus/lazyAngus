@@ -3,6 +3,6 @@
 // System.IO.IOException
 #include "mscorlib_System_IO_IOException.h"
 // System.IO.EndOfStreamException
-struct  EndOfStreamException_t4435  : public IOException_t3892
+struct  EndOfStreamException_t4481  : public IOException_t3940
 {
 };

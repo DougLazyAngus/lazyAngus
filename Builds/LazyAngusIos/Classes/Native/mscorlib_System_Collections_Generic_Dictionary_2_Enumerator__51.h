@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.Object,System.Double>
-struct Dictionary_2_t7008;
+// System.Collections.Generic.Dictionary`2<System.String,System.Double>
+struct Dictionary_2_t7074;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Double>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_53.h"
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>
-struct  Enumerator_t7011 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Double>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_58.h"
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Double>
+struct  Enumerator_t7078 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::dictionary
-	Dictionary_2_t7008 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Double>::dictionary
+	Dictionary_2_t7074 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Double>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Double>::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::current
-	KeyValuePair_2_t6934  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Double>::current
+	KeyValuePair_2_t7075  ___current_3;
 };

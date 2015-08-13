@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.CollectionDebuggerView`1<System.Object>
-struct CollectionDebuggerView_1_t8592;
+struct CollectionDebuggerView_1_t8664;
 

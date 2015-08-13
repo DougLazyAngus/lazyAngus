@@ -1,26 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable
-struct Hashtable_t1276;
+struct Hashtable_t696;
 // System.Collections.Generic.Dictionary`2<System.String,System.Boolean>
-struct Dictionary_2_t1446;
+struct Dictionary_2_t1497;
 // System.Boolean[]
-struct BooleanU5BU5D_t4028;
+struct BooleanU5BU5D_t487;
 // System.Collections.Specialized.NameValueCollection
 #include "System_System_Collections_Specialized_NameValueCollection.h"
 // System.Net.WebHeaderCollection
-struct  WebHeaderCollection_t3969  : public NameValueCollection_t3921
+struct  WebHeaderCollection_t4016  : public NameValueCollection_t3968
 {
 	// System.Boolean System.Net.WebHeaderCollection::internallyCreated
 	bool ___internallyCreated_15;
 };
-struct WebHeaderCollection_t3969_StaticFields{
+struct WebHeaderCollection_t4016_StaticFields{
 	// System.Collections.Hashtable System.Net.WebHeaderCollection::restricted
-	Hashtable_t1276 * ___restricted_12;
+	Hashtable_t696 * ___restricted_12;
 	// System.Collections.Hashtable System.Net.WebHeaderCollection::multiValue
-	Hashtable_t1276 * ___multiValue_13;
+	Hashtable_t696 * ___multiValue_13;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Boolean> System.Net.WebHeaderCollection::restricted_response
-	Dictionary_2_t1446 * ___restricted_response_14;
+	Dictionary_2_t1497 * ___restricted_response_14;
 	// System.Boolean[] System.Net.WebHeaderCollection::allowed_chars
-	BooleanU5BU5D_t4028* ___allowed_chars_16;
+	BooleanU5BU5D_t487* ___allowed_chars_16;
 };

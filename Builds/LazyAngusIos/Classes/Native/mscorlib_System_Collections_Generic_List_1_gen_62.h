@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Security.Policy.StrongName[]
-struct StrongNameU5BU5D_t8616;
+// System.TimeZoneInfo/AdjustmentRule[]
+struct AdjustmentRuleU5BU5D_t3357;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Security.Policy.StrongName>
-struct  List_1_t4855  : public Object_t
+// System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>
+struct  List_1_t3363  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_items
-	StrongNameU5BU5D_t8616* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_size
+	// T[] System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::_items
+	AdjustmentRuleU5BU5D_t3357* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::_version
 	int32_t ____version_3;
 };
-struct List_1_t4855_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Security.Policy.StrongName>::EmptyArray
-	StrongNameU5BU5D_t8616* ___EmptyArray_4;
+struct List_1_t3363_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::EmptyArray
+	AdjustmentRuleU5BU5D_t3357* ___EmptyArray_4;
 };

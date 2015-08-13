@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Type[]
-struct TypeU5BU5D_t1150;
+// UnityEngine.UILineInfo[]
+struct UILineInfoU5BU5D_t2910;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Type>
-struct  List_1_t2902  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UILineInfo>
+struct  List_1_t2790  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Type>::_items
-	TypeU5BU5D_t1150* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Type>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UILineInfo>::_items
+	UILineInfoU5BU5D_t2910* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UILineInfo>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Type>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UILineInfo>::_version
 	int32_t ____version_3;
 };
-struct List_1_t2902_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Type>::EmptyArray
-	TypeU5BU5D_t1150* ___EmptyArray_4;
+struct List_1_t2790_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UILineInfo>::EmptyArray
+	UILineInfoU5BU5D_t2910* ___EmptyArray_4;
 };

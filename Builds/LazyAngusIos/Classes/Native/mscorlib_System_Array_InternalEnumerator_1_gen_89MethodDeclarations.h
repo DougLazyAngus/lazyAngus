@@ -4,30 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>
-struct InternalEnumerator_1_t8423;
+// System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>
+struct InternalEnumerator_1_t8418;
 // System.Object
 struct Object_t;
+// UnityEngine.iOS.RemoteNotification
+struct RemoteNotification_t2762;
 // System.Array
 struct Array_t;
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_135.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m61059_gshared (InternalEnumerator_1_t8423 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m61059(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8423 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m61059_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m61060_gshared (InternalEnumerator_1_t8423 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m61060(__this, method) (( void (*) (InternalEnumerator_1_t8423 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m61060_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m61061_gshared (InternalEnumerator_1_t8423 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m61061(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8423 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m61061_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m61062_gshared (InternalEnumerator_1_t8423 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m61062(__this, method) (( void (*) (InternalEnumerator_1_t8423 *, const MethodInfo*))InternalEnumerator_1_Dispose_m61062_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m61063_gshared (InternalEnumerator_1_t8423 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m61063(__this, method) (( bool (*) (InternalEnumerator_1_t8423 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m61063_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>>::get_Current()
-extern "C" KeyValuePair_2_t8422  InternalEnumerator_1_get_Current_m61064_gshared (InternalEnumerator_1_t8423 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m61064(__this, method) (( KeyValuePair_2_t8422  (*) (InternalEnumerator_1_t8423 *, const MethodInfo*))InternalEnumerator_1_get_Current_m61064_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Object>
+#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m60621(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8418 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m21199_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m60622(__this, method) (( void (*) (InternalEnumerator_1_t8418 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m21200_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m60623(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8418 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m21201_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>::Dispose()
+#define InternalEnumerator_1_Dispose_m60624(__this, method) (( void (*) (InternalEnumerator_1_t8418 *, const MethodInfo*))InternalEnumerator_1_Dispose_m21202_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m60625(__this, method) (( bool (*) (InternalEnumerator_1_t8418 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m21203_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>::get_Current()
+#define InternalEnumerator_1_get_Current_m60626(__this, method) (( RemoteNotification_t2762 * (*) (InternalEnumerator_1_t8418 *, const MethodInfo*))InternalEnumerator_1_get_Current_m21204_gshared)(__this, method)

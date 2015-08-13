@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<System.Tuple`2<System.Type,System.Type>>
-struct IList_1_t6005;
+// System.Collections.Generic.IList`1<System.WeakReference>
+struct IList_1_t6001;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Tuple`2<System.Type,System.Type>>
-struct  ReadOnlyCollection_1_t6006  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.WeakReference>
+struct  ReadOnlyCollection_1_t6023  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Tuple`2<System.Type,System.Type>>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.WeakReference>::list
 	Object_t* ___list_0;
 };

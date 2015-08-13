@@ -14,7 +14,7 @@
 		<string>https://github.com/DougLazyAngus/lazyAngus.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Builds/LazyAngusIos/Unity-iPhone.xcodeproj</string>
+	<string>Builds/Old.LazyAngusIos/Unity-iPhone.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>CE346DEF7E7D92C3C6812BB5EC01C43CA3C2F454</key>

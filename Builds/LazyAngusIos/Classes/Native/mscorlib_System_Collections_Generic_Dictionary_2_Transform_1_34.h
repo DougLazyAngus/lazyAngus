@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// LevelDescription
-struct LevelDescription_t543;
+// System.String
+struct String_t;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -10,11 +10,11 @@ struct AsyncCallback_t386;
 struct Object_t;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-// System.Int32
-#include "mscorlib_System_Int32.h"
+// GameAnalyticsSDK.GA_ServerFieldTypes/FieldType
+#include "AssemblyU2DCSharp_GameAnalyticsSDK_GA_ServerFieldTypes_Field.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,LevelDescription,System.Collections.DictionaryEntry>
-struct  Transform_1_t5666  : public MulticastDelegate_t388
+// System.Collections.Generic.Dictionary`2/Transform`1<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String,System.Collections.DictionaryEntry>
+struct  Transform_1_t5671  : public MulticastDelegate_t388
 {
 };

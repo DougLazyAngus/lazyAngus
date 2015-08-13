@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Predicate`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct Predicate_1_t8313;
+// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>
+struct Predicate_1_t8016;
 // System.Object
 struct Object_t;
-// UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard
-struct GcLeaderboard_t2649;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_61.h"
 
-// System.Void System.Predicate`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::.ctor(System.Object,System.IntPtr)
-// System.Predicate`1<System.Object>
-#include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m59449(__this, ___object, ___method, method) (( void (*) (Predicate_1_t8313 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21464_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::Invoke(T)
-#define Predicate_1_Invoke_m59450(__this, ___obj, method) (( bool (*) (Predicate_1_t8313 *, GcLeaderboard_t2649 *, const MethodInfo*))Predicate_1_Invoke_m21465_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m59451(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t8313 *, GcLeaderboard_t2649 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21466_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m59452(__this, ___result, method) (( bool (*) (Predicate_1_t8313 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21467_gshared)(__this, ___result, method)
+// System.Void System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::.ctor(System.Object,System.IntPtr)
+// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>
+#include "mscorlib_System_Predicate_1_gen_91MethodDeclarations.h"
+#define Predicate_1__ctor_m56046(__this, ___object, ___method, method) (( void (*) (Predicate_1_t8016 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m55944_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Invoke(T)
+#define Predicate_1_Invoke_m56047(__this, ___obj, method) (( bool (*) (Predicate_1_t8016 *, KeyValuePair_2_t7128 , const MethodInfo*))Predicate_1_Invoke_m55945_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Predicate_1_BeginInvoke_m56048(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t8016 *, KeyValuePair_2_t7128 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m55946_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::EndInvoke(System.IAsyncResult)
+#define Predicate_1_EndInvoke_m56049(__this, ___result, method) (( bool (*) (Predicate_1_t8016 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m55947_gshared)(__this, ___result, method)

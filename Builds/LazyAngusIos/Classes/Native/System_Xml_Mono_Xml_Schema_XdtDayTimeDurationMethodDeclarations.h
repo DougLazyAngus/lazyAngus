@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XdtDayTimeDuration
-struct XdtDayTimeDuration_t3089;
+struct XdtDayTimeDuration_t3138;
 
 // System.Void Mono.Xml.Schema.XdtDayTimeDuration::.ctor()
-extern "C" void XdtDayTimeDuration__ctor_m10226 (XdtDayTimeDuration_t3089 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XdtDayTimeDuration__ctor_m10482 (XdtDayTimeDuration_t3138 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

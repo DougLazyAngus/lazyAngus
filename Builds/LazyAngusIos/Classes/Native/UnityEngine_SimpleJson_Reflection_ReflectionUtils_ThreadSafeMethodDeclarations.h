@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct ThreadSafeDictionaryValueFactory_2_t2884;
+struct ThreadSafeDictionaryValueFactory_2_t2934;
 // System.Object
 struct Object_t;
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate
-struct ConstructorDelegate_t2778;
+struct ConstructorDelegate_t2828;
 // System.Type
 struct Type_t;
 // System.IAsyncResult
@@ -22,10 +22,10 @@ struct AsyncCallback_t386;
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::.ctor(System.Object,System.IntPtr)
 // SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Object,System.Object>
 #include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_ThreadSafe_5MethodDeclarations.h"
-#define ThreadSafeDictionaryValueFactory_2__ctor_m9893(__this, ___object, ___method, method) (( void (*) (ThreadSafeDictionaryValueFactory_2_t2884 *, Object_t *, IntPtr_t, const MethodInfo*))ThreadSafeDictionaryValueFactory_2__ctor_m61071_gshared)(__this, ___object, ___method, method)
+#define ThreadSafeDictionaryValueFactory_2__ctor_m10150(__this, ___object, ___method, method) (( void (*) (ThreadSafeDictionaryValueFactory_2_t2934 *, Object_t *, IntPtr_t, const MethodInfo*))ThreadSafeDictionaryValueFactory_2__ctor_m61755_gshared)(__this, ___object, ___method, method)
 // TValue SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::Invoke(TKey)
-#define ThreadSafeDictionaryValueFactory_2_Invoke_m61072(__this, ___key, method) (( ConstructorDelegate_t2778 * (*) (ThreadSafeDictionaryValueFactory_2_t2884 *, Type_t *, const MethodInfo*))ThreadSafeDictionaryValueFactory_2_Invoke_m61073_gshared)(__this, ___key, method)
+#define ThreadSafeDictionaryValueFactory_2_Invoke_m61756(__this, ___key, method) (( ConstructorDelegate_t2828 * (*) (ThreadSafeDictionaryValueFactory_2_t2934 *, Type_t *, const MethodInfo*))ThreadSafeDictionaryValueFactory_2_Invoke_m61757_gshared)(__this, ___key, method)
 // System.IAsyncResult SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::BeginInvoke(TKey,System.AsyncCallback,System.Object)
-#define ThreadSafeDictionaryValueFactory_2_BeginInvoke_m61074(__this, ___key, ___callback, ___object, method) (( Object_t * (*) (ThreadSafeDictionaryValueFactory_2_t2884 *, Type_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))ThreadSafeDictionaryValueFactory_2_BeginInvoke_m61075_gshared)(__this, ___key, ___callback, ___object, method)
+#define ThreadSafeDictionaryValueFactory_2_BeginInvoke_m61758(__this, ___key, ___callback, ___object, method) (( Object_t * (*) (ThreadSafeDictionaryValueFactory_2_t2934 *, Type_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))ThreadSafeDictionaryValueFactory_2_BeginInvoke_m61759_gshared)(__this, ___key, ___callback, ___object, method)
 // TValue SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::EndInvoke(System.IAsyncResult)
-#define ThreadSafeDictionaryValueFactory_2_EndInvoke_m61076(__this, ___result, method) (( ConstructorDelegate_t2778 * (*) (ThreadSafeDictionaryValueFactory_2_t2884 *, Object_t *, const MethodInfo*))ThreadSafeDictionaryValueFactory_2_EndInvoke_m61077_gshared)(__this, ___result, method)
+#define ThreadSafeDictionaryValueFactory_2_EndInvoke_m61760(__this, ___result, method) (( ConstructorDelegate_t2828 * (*) (ThreadSafeDictionaryValueFactory_2_t2934 *, Object_t *, const MethodInfo*))ThreadSafeDictionaryValueFactory_2_EndInvoke_m61761_gshared)(__this, ___result, method)

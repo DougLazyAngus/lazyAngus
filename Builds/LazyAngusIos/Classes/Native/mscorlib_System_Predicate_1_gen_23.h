@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// ExplicitMouseDesc
-struct ExplicitMouseDesc_t498;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
+// GameAnalyticsSDK.Settings/HelpTypes
+#include "AssemblyU2DCSharp_GameAnalyticsSDK_Settings_HelpTypes.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<ExplicitMouseDesc>
-struct  Predicate_1_t5647  : public MulticastDelegate_t388
+// System.Predicate`1<GameAnalyticsSDK.Settings/HelpTypes>
+struct  Predicate_1_t5694  : public MulticastDelegate_t388
 {
 };

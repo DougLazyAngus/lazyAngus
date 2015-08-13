@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdNonNegativeInteger
-struct XsdNonNegativeInteger_t3073;
+struct XsdNonNegativeInteger_t3122;
 
 // System.Void Mono.Xml.Schema.XsdNonNegativeInteger::.ctor()
-extern "C" void XsdNonNegativeInteger__ctor_m10204 (XsdNonNegativeInteger_t3073 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdNonNegativeInteger__ctor_m10460 (XsdNonNegativeInteger_t3122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -2,15 +2,15 @@
 #include <stdint.h>
 // System.String
 struct String_t;
+// Parse.ParseObject
+struct ParseObject_t1221;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// Parse.ParseGeoPoint
-#include "Parse_Unity_Parse_ParseGeoPoint.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>
-struct  KeyValuePair_2_t7056 
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseObject>
+struct  KeyValuePair_2_t7119 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>::key
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseObject>::key
 	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>::value
-	ParseGeoPoint_t1194  ___value_1;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseObject>::value
+	ParseObject_t1221 * ___value_1;
 };

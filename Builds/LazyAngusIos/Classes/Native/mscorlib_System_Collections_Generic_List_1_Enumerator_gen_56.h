@@ -1,18 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Int16>
-struct List_1_t6400;
+// System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
+struct List_1_t1261;
+// System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>
+struct IDictionary_2_t1252;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Int16>
-struct  Enumerator_t6401 
+// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
+struct  Enumerator_t6266 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Int16>::l
-	List_1_t6400 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Int16>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::l
+	List_1_t1261 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Int16>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Int16>::current
-	int16_t ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::current
+	Object_t* ___current_3;
 };

@@ -4,52 +4,30 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>
-struct ValueCollection_t8458;
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
+struct Enumerator_t8524;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>
-struct Dictionary_2_t2893;
-// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>
-struct IEnumerator_1_t9576;
-// System.Array
-struct Array_t;
-// System.Collections.IEnumerator
-struct IEnumerator_t48;
-// System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>[]
-struct KeyValuePair_2U5BU5D_t8443;
-// System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_14.h"
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_147.h"
+// System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
+struct Dictionary_2_t8518;
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_84MethodDeclarations.h"
-#define ValueCollection__ctor_m61634(__this, ___dictionary, method) (( void (*) (ValueCollection_t8458 *, Dictionary_2_t2893 *, const MethodInfo*))ValueCollection__ctor_m61571_gshared)(__this, ___dictionary, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m61635(__this, ___item, method) (( void (*) (ValueCollection_t8458 *, KeyValuePair_2_t2894 , const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m61572_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::System.Collections.Generic.ICollection<TValue>.Clear()
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m61636(__this, method) (( void (*) (ValueCollection_t8458 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m61573_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m61637(__this, ___item, method) (( bool (*) (ValueCollection_t8458 *, KeyValuePair_2_t2894 , const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m61574_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m61638(__this, ___item, method) (( bool (*) (ValueCollection_t8458 *, KeyValuePair_2_t2894 , const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m61575_gshared)(__this, ___item, method)
-// System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
-#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m61639(__this, method) (( Object_t* (*) (ValueCollection_t8458 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m61576_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define ValueCollection_System_Collections_ICollection_CopyTo_m61640(__this, ___array, ___index, method) (( void (*) (ValueCollection_t8458 *, Array_t *, int32_t, const MethodInfo*))ValueCollection_System_Collections_ICollection_CopyTo_m61577_gshared)(__this, ___array, ___index, method)
-// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::System.Collections.IEnumerable.GetEnumerator()
-#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m61641(__this, method) (( Object_t * (*) (ValueCollection_t8458 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m61578_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::System.Collections.Generic.ICollection<TValue>.get_IsReadOnly()
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m61642(__this, method) (( bool (*) (ValueCollection_t8458 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m61579_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::System.Collections.ICollection.get_IsSynchronized()
-#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m61643(__this, method) (( bool (*) (ValueCollection_t8458 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_IsSynchronized_m61580_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::System.Collections.ICollection.get_SyncRoot()
-#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m61644(__this, method) (( Object_t * (*) (ValueCollection_t8458 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m61581_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::CopyTo(TValue[],System.Int32)
-#define ValueCollection_CopyTo_m61645(__this, ___array, ___index, method) (( void (*) (ValueCollection_t8458 *, KeyValuePair_2U5BU5D_t8443*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m61582_gshared)(__this, ___array, ___index, method)
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::GetEnumerator()
-#define ValueCollection_GetEnumerator_m61646(__this, method) (( Enumerator_t9577  (*) (ValueCollection_t8458 *, const MethodInfo*))ValueCollection_GetEnumerator_m61583_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::get_Count()
-#define ValueCollection_get_Count_m61647(__this, method) (( int32_t (*) (ValueCollection_t8458 *, const MethodInfo*))ValueCollection_get_Count_m61584_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+extern "C" void Enumerator__ctor_m62269_gshared (Enumerator_t8524 * __this, Dictionary_2_t8518 * ___host, const MethodInfo* method);
+#define Enumerator__ctor_m62269(__this, ___host, method) (( void (*) (Enumerator_t8524 *, Dictionary_2_t8518 *, const MethodInfo*))Enumerator__ctor_m62269_gshared)(__this, ___host, method)
+// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m62270_gshared (Enumerator_t8524 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m62270(__this, method) (( Object_t * (*) (Enumerator_t8524 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m62270_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::System.Collections.IEnumerator.Reset()
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m62271_gshared (Enumerator_t8524 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_Reset_m62271(__this, method) (( void (*) (Enumerator_t8524 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m62271_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::Dispose()
+extern "C" void Enumerator_Dispose_m62272_gshared (Enumerator_t8524 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m62272(__this, method) (( void (*) (Enumerator_t8524 *, const MethodInfo*))Enumerator_Dispose_m62272_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::MoveNext()
+extern "C" bool Enumerator_MoveNext_m62273_gshared (Enumerator_t8524 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m62273(__this, method) (( bool (*) (Enumerator_t8524 *, const MethodInfo*))Enumerator_MoveNext_m62273_gshared)(__this, method)
+// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::get_Current()
+extern "C" KeyValuePair_2_t70  Enumerator_get_Current_m62274_gshared (Enumerator_t8524 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m62274(__this, method) (( KeyValuePair_2_t70  (*) (Enumerator_t8524 *, const MethodInfo*))Enumerator_get_Current_m62274_gshared)(__this, method)

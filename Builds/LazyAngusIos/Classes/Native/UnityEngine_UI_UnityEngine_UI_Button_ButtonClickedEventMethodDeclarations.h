@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Button/ButtonClickedEvent
-struct ButtonClickedEvent_t741;
+struct ButtonClickedEvent_t793;
 
 // System.Void UnityEngine.UI.Button/ButtonClickedEvent::.ctor()
-extern "C" void ButtonClickedEvent__ctor_m4615 (ButtonClickedEvent_t741 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ButtonClickedEvent__ctor_m4884 (ButtonClickedEvent_t793 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

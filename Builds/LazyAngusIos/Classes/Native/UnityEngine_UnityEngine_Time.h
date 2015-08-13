@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Time
-struct  Time_t2707  : public Object_t
+struct  Time_t2757  : public Object_t
 {
 };

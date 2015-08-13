@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // MouseMove
-struct MouseMove_t488;
+struct MouseMove_t527;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // DeadMouseRelay/MouseKillEventHandler
-struct  MouseKillEventHandler_t489  : public MulticastDelegate_t388
+struct  MouseKillEventHandler_t528  : public MulticastDelegate_t388
 {
 };

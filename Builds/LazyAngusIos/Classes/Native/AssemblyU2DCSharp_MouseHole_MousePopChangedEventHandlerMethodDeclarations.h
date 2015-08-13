@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // MouseHole/MousePopChangedEventHandler
-struct MousePopChangedEventHandler_t561;
+struct MousePopChangedEventHandler_t601;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,11 +16,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void MouseHole/MousePopChangedEventHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void MousePopChangedEventHandler__ctor_m2943 (MousePopChangedEventHandler_t561 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MousePopChangedEventHandler__ctor_m3153 (MousePopChangedEventHandler_t601 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseHole/MousePopChangedEventHandler::Invoke()
-extern "C" void MousePopChangedEventHandler_Invoke_m2944 (MousePopChangedEventHandler_t561 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_MousePopChangedEventHandler_t561(Il2CppObject* delegate);
+extern "C" void MousePopChangedEventHandler_Invoke_m3154 (MousePopChangedEventHandler_t601 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_MousePopChangedEventHandler_t601(Il2CppObject* delegate);
 // System.IAsyncResult MouseHole/MousePopChangedEventHandler::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * MousePopChangedEventHandler_BeginInvoke_m2945 (MousePopChangedEventHandler_t561 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MousePopChangedEventHandler_BeginInvoke_m3155 (MousePopChangedEventHandler_t601 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseHole/MousePopChangedEventHandler::EndInvoke(System.IAsyncResult)
-extern "C" void MousePopChangedEventHandler_EndInvoke_m2946 (MousePopChangedEventHandler_t561 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MousePopChangedEventHandler_EndInvoke_m3156 (MousePopChangedEventHandler_t601 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,20 +5,20 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.CachedInvokableCall`1<System.String>
-struct CachedInvokableCall_1_t2908;
+struct CachedInvokableCall_1_t2958;
 // UnityEngine.Object
-struct Object_t653;
-struct Object_t653_marshaled;
+struct Object_t703;
+struct Object_t703_marshaled;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t636;
+struct ObjectU5BU5D_t682;
 
 // System.Void UnityEngine.Events.CachedInvokableCall`1<System.String>::.ctor(UnityEngine.Object,System.Reflection.MethodInfo,T)
 // UnityEngine.Events.CachedInvokableCall`1<System.Object>
 #include "UnityEngine_UnityEngine_Events_CachedInvokableCall_1_gen_3MethodDeclarations.h"
-#define CachedInvokableCall_1__ctor_m9932(__this, ___target, ___theFunction, ___argument, method) (( void (*) (CachedInvokableCall_1_t2908 *, Object_t653 *, MethodInfo_t *, String_t*, const MethodInfo*))CachedInvokableCall_1__ctor_m61938_gshared)(__this, ___target, ___theFunction, ___argument, method)
+#define CachedInvokableCall_1__ctor_m10188(__this, ___target, ___theFunction, ___argument, method) (( void (*) (CachedInvokableCall_1_t2958 *, Object_t703 *, MethodInfo_t *, String_t*, const MethodInfo*))CachedInvokableCall_1__ctor_m62622_gshared)(__this, ___target, ___theFunction, ___argument, method)
 // System.Void UnityEngine.Events.CachedInvokableCall`1<System.String>::Invoke(System.Object[])
-#define CachedInvokableCall_1_Invoke_m61950(__this, ___args, method) (( void (*) (CachedInvokableCall_1_t2908 *, ObjectU5BU5D_t636*, const MethodInfo*))CachedInvokableCall_1_Invoke_m61939_gshared)(__this, ___args, method)
+#define CachedInvokableCall_1_Invoke_m62634(__this, ___args, method) (( void (*) (CachedInvokableCall_1_t2958 *, ObjectU5BU5D_t682*, const MethodInfo*))CachedInvokableCall_1_Invoke_m62623_gshared)(__this, ___args, method)

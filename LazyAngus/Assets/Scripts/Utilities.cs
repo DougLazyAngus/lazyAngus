@@ -226,17 +226,24 @@ public class Utilities
 		float angleIncrementDeg = totalRange / numTriangles;
 		
 		Vector3[] vertices = new Vector3[numTriangles + 2];
-		
+		Vector2[] uvs = new Vector2[numTriangles + 2];
+
 		vertices [0].x = 0f;
 		vertices [0].y = 0f;
 		vertices [0].z = 0f;
 		
+		uvs [0].x = 0f;
+		uvs [0].y = 0f;
+
 		float angle;
 		for (int i = 0; i < numTriangles + 1; i++) {
 			angle = startAngle + i * angleIncrementDeg;
 			vertices [i + 1].y = Mathf.Sin (Mathf.Deg2Rad * angle) * radius;
 			vertices [i + 1].x = Mathf.Cos (Mathf.Deg2Rad * angle) * radius;
 			vertices [i + 1].z = 0f;
+
+			uvs [i+1].x = 1f;
+			uvs [i+1].y = (float)i/(float)numTriangles;
 		}
 		
 		int [] triangles = new int[numTriangles * 3];
@@ -245,9 +252,14 @@ public class Utilities
 			triangles [i * 3 + 1] = i + 2;
 			triangles [i * 3 + 2] = i + 1;
 		}
-		
+
+
+
 		mesh.vertices = vertices;
 		mesh.triangles = triangles;
+		mesh.uv = uvs;
+
+		mesh.RecalculateNormals();
 	}
 }
 

@@ -4,22 +4,30 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Single>
-struct KeyValuePair_2_t6983;
+// System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>
+struct KeyValuePair_2_t7026;
+// System.Object
+struct Object_t;
 // System.String
 struct String_t;
+// Parse.ParseGeoPoint
+#include "Parse_Unity_Parse_ParseGeoPoint.h"
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Single>::.ctor(TKey,TValue)
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_52MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m43808(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t6983 *, String_t*, float, const MethodInfo*))KeyValuePair_2__ctor_m43242_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Single>::get_Key()
-#define KeyValuePair_2_get_Key_m43809(__this, method) (( String_t* (*) (KeyValuePair_2_t6983 *, const MethodInfo*))KeyValuePair_2_get_Key_m43243_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Single>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m43810(__this, ___value, method) (( void (*) (KeyValuePair_2_t6983 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m43244_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Single>::get_Value()
-#define KeyValuePair_2_get_Value_m43811(__this, method) (( float (*) (KeyValuePair_2_t6983 *, const MethodInfo*))KeyValuePair_2_get_Value_m43245_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Single>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m43812(__this, ___value, method) (( void (*) (KeyValuePair_2_t6983 *, float, const MethodInfo*))KeyValuePair_2_set_Value_m43246_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.String,System.Single>::ToString()
-#define KeyValuePair_2_ToString_m43813(__this, method) (( String_t* (*) (KeyValuePair_2_t6983 *, const MethodInfo*))KeyValuePair_2_ToString_m43247_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>::.ctor(TKey,TValue)
+extern "C" void KeyValuePair_2__ctor_m44202_gshared (KeyValuePair_2_t7026 * __this, Object_t * ___key, ParseGeoPoint_t1247  ___value, const MethodInfo* method);
+#define KeyValuePair_2__ctor_m44202(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t7026 *, Object_t *, ParseGeoPoint_t1247 , const MethodInfo*))KeyValuePair_2__ctor_m44202_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>::get_Key()
+extern "C" Object_t * KeyValuePair_2_get_Key_m44203_gshared (KeyValuePair_2_t7026 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Key_m44203(__this, method) (( Object_t * (*) (KeyValuePair_2_t7026 *, const MethodInfo*))KeyValuePair_2_get_Key_m44203_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>::set_Key(TKey)
+extern "C" void KeyValuePair_2_set_Key_m44204_gshared (KeyValuePair_2_t7026 * __this, Object_t * ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Key_m44204(__this, ___value, method) (( void (*) (KeyValuePair_2_t7026 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Key_m44204_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>::get_Value()
+extern "C" ParseGeoPoint_t1247  KeyValuePair_2_get_Value_m44205_gshared (KeyValuePair_2_t7026 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Value_m44205(__this, method) (( ParseGeoPoint_t1247  (*) (KeyValuePair_2_t7026 *, const MethodInfo*))KeyValuePair_2_get_Value_m44205_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>::set_Value(TValue)
+extern "C" void KeyValuePair_2_set_Value_m44206_gshared (KeyValuePair_2_t7026 * __this, ParseGeoPoint_t1247  ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Value_m44206(__this, ___value, method) (( void (*) (KeyValuePair_2_t7026 *, ParseGeoPoint_t1247 , const MethodInfo*))KeyValuePair_2_set_Value_m44206_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>::ToString()
+extern "C" String_t* KeyValuePair_2_ToString_m44207_gshared (KeyValuePair_2_t7026 * __this, const MethodInfo* method);
+#define KeyValuePair_2_ToString_m44207(__this, method) (( String_t* (*) (KeyValuePair_2_t7026 *, const MethodInfo*))KeyValuePair_2_ToString_m44207_gshared)(__this, method)

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<System.String>
-struct IList_1_t647;
+struct IList_1_t693;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -11,6 +11,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Object,System.Collections.Generic.IList`1<System.String>>
-struct  Func_2_t6825  : public MulticastDelegate_t388
+struct  Func_2_t6897  : public MulticastDelegate_t388
 {
 };

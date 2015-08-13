@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.Thread
-struct Thread_t1410;
+struct Thread_t1461;
 // System.Threading.EventWaitHandle
-struct EventWaitHandle_t3303;
+struct EventWaitHandle_t3351;
 // System.Threading.ReaderWriterLockSlim/LockDetails[]
-struct LockDetailsU5BU5D_t3304;
+struct LockDetailsU5BU5D_t3352;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.ReaderWriterLockSlim
-struct  ReaderWriterLockSlim_t1224  : public Object_t
+struct  ReaderWriterLockSlim_t1277  : public Object_t
 {
 	// System.Int32 System.Threading.ReaderWriterLockSlim::myLock
 	int32_t ___myLock_1;
 	// System.Int32 System.Threading.ReaderWriterLockSlim::owners
 	int32_t ___owners_2;
 	// System.Threading.Thread System.Threading.ReaderWriterLockSlim::upgradable_thread
-	Thread_t1410 * ___upgradable_thread_3;
+	Thread_t1461 * ___upgradable_thread_3;
 	// System.Threading.Thread System.Threading.ReaderWriterLockSlim::write_thread
-	Thread_t1410 * ___write_thread_4;
+	Thread_t1461 * ___write_thread_4;
 	// System.UInt32 System.Threading.ReaderWriterLockSlim::numWriteWaiters
 	uint32_t ___numWriteWaiters_5;
 	// System.UInt32 System.Threading.ReaderWriterLockSlim::numReadWaiters
@@ -26,15 +26,15 @@ struct  ReaderWriterLockSlim_t1224  : public Object_t
 	// System.UInt32 System.Threading.ReaderWriterLockSlim::numUpgradeWaiters
 	uint32_t ___numUpgradeWaiters_7;
 	// System.Threading.EventWaitHandle System.Threading.ReaderWriterLockSlim::writeEvent
-	EventWaitHandle_t3303 * ___writeEvent_8;
+	EventWaitHandle_t3351 * ___writeEvent_8;
 	// System.Threading.EventWaitHandle System.Threading.ReaderWriterLockSlim::readEvent
-	EventWaitHandle_t3303 * ___readEvent_9;
+	EventWaitHandle_t3351 * ___readEvent_9;
 	// System.Threading.EventWaitHandle System.Threading.ReaderWriterLockSlim::upgradeEvent
-	EventWaitHandle_t3303 * ___upgradeEvent_10;
+	EventWaitHandle_t3351 * ___upgradeEvent_10;
 	// System.Threading.ReaderWriterLockSlim/LockDetails[] System.Threading.ReaderWriterLockSlim::read_locks
-	LockDetailsU5BU5D_t3304* ___read_locks_11;
+	LockDetailsU5BU5D_t3352* ___read_locks_11;
 };
-struct ReaderWriterLockSlim_t1224_StaticFields{
+struct ReaderWriterLockSlim_t1277_StaticFields{
 	// System.Boolean System.Threading.ReaderWriterLockSlim::smp
 	bool ___smp_0;
 };

@@ -5,7 +5,7 @@ struct ByteU5BU5D_t66;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.ChunkStream/Chunk
-struct  Chunk_t3968  : public Object_t
+struct  Chunk_t4015  : public Object_t
 {
 	// System.Byte[] System.Net.ChunkStream/Chunk::Bytes
 	ByteU5BU5D_t66* ___Bytes_0;

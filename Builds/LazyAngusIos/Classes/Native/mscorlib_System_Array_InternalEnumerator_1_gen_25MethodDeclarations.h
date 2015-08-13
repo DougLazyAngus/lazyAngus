@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<MouseWiggleDesc>
-struct InternalEnumerator_1_t5677;
+// System.Array/InternalEnumerator`1<GameUI>
+struct InternalEnumerator_1_t5724;
 // System.Object
 struct Object_t;
-// MouseWiggleDesc
-struct MouseWiggleDesc_t568;
+// GameUI
+struct GameUI_t542;
 // System.Array
 struct Array_t;
 
-// System.Void System.Array/InternalEnumerator`1<MouseWiggleDesc>::.ctor(System.Array)
+// System.Void System.Array/InternalEnumerator`1<GameUI>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m26784(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5677 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m20941_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<MouseWiggleDesc>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m26785(__this, method) (( void (*) (InternalEnumerator_1_t5677 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m20942_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<MouseWiggleDesc>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m26786(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5677 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m20943_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<MouseWiggleDesc>::Dispose()
-#define InternalEnumerator_1_Dispose_m26787(__this, method) (( void (*) (InternalEnumerator_1_t5677 *, const MethodInfo*))InternalEnumerator_1_Dispose_m20944_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<MouseWiggleDesc>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m26788(__this, method) (( bool (*) (InternalEnumerator_1_t5677 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m20945_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<MouseWiggleDesc>::get_Current()
-#define InternalEnumerator_1_get_Current_m26789(__this, method) (( MouseWiggleDesc_t568 * (*) (InternalEnumerator_1_t5677 *, const MethodInfo*))InternalEnumerator_1_get_Current_m20946_gshared)(__this, method)
+#define InternalEnumerator_1__ctor_m27075(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5724 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m21199_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<GameUI>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m27076(__this, method) (( void (*) (InternalEnumerator_1_t5724 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m21200_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<GameUI>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27077(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5724 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m21201_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<GameUI>::Dispose()
+#define InternalEnumerator_1_Dispose_m27078(__this, method) (( void (*) (InternalEnumerator_1_t5724 *, const MethodInfo*))InternalEnumerator_1_Dispose_m21202_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<GameUI>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m27079(__this, method) (( bool (*) (InternalEnumerator_1_t5724 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m21203_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<GameUI>::get_Current()
+#define InternalEnumerator_1_get_Current_m27080(__this, method) (( GameUI_t542 * (*) (InternalEnumerator_1_t5724 *, const MethodInfo*))InternalEnumerator_1_get_Current_m21204_gshared)(__this, method)

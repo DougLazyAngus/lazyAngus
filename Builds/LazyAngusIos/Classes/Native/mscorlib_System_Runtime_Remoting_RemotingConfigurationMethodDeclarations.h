@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.RemotingConfiguration
-struct RemotingConfiguration_t4591;
+struct RemotingConfiguration_t4637;
 // System.String
 struct String_t;
 // System.Runtime.Remoting.ActivatedClientTypeEntry
-struct ActivatedClientTypeEntry_t4583;
+struct ActivatedClientTypeEntry_t4629;
 // System.Type
 struct Type_t;
 
 // System.Void System.Runtime.Remoting.RemotingConfiguration::.cctor()
-extern "C" void RemotingConfiguration__cctor_m18147 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration__cctor_m18405 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.RemotingConfiguration::get_ApplicationName()
-extern "C" String_t* RemotingConfiguration_get_ApplicationName_m18148 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* RemotingConfiguration_get_ApplicationName_m18406 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.RemotingConfiguration::get_ProcessId()
-extern "C" String_t* RemotingConfiguration_get_ProcessId_m18149 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* RemotingConfiguration_get_ProcessId_m18407 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.ActivatedClientTypeEntry System.Runtime.Remoting.RemotingConfiguration::IsRemotelyActivatedClientType(System.Type)
-extern "C" ActivatedClientTypeEntry_t4583 * RemotingConfiguration_IsRemotelyActivatedClientType_m18150 (Object_t * __this /* static, unused */, Type_t * ___svrType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ActivatedClientTypeEntry_t4629 * RemotingConfiguration_IsRemotelyActivatedClientType_m18408 (Object_t * __this /* static, unused */, Type_t * ___svrType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

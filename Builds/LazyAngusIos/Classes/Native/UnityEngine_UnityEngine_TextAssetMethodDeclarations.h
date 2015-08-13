@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.TextAsset
-struct TextAsset_t730;
+struct TextAsset_t779;
 // System.String
 struct String_t;
 
 // System.String UnityEngine.TextAsset::get_text()
-extern "C" String_t* TextAsset_get_text_m3861 (TextAsset_t730 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TextAsset_get_text_m4100 (TextAsset_t779 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.TextAsset::ToString()
-extern "C" String_t* TextAsset_ToString_m8989 (TextAsset_t730 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TextAsset_ToString_m9246 (TextAsset_t779 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

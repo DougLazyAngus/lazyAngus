@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<FBScore>
-struct List_1_t642;
+struct List_1_t688;
 // FBScore
 struct FBScore_t293;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<FBScore>
-struct  Enumerator_t5536 
+struct  Enumerator_t5582 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<FBScore>::l
-	List_1_t642 * ___l_0;
+	List_1_t688 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<FBScore>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<FBScore>::ver

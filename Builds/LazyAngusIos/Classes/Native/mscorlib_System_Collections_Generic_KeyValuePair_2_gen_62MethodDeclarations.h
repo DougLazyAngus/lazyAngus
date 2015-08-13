@@ -4,24 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseACL>
-struct KeyValuePair_2_t7085;
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>
+struct KeyValuePair_2_t7148;
 // System.String
 struct String_t;
-// Parse.ParseACL
-struct ParseACL_t1163;
+// Parse.ParseFile
+struct ParseFile_t1242;
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseACL>::.ctor(TKey,TValue)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>::.ctor(TKey,TValue)
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m45203(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t7085 *, String_t*, ParseACL_t1163 *, const MethodInfo*))KeyValuePair_2__ctor_m21644_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseACL>::get_Key()
-#define KeyValuePair_2_get_Key_m45204(__this, method) (( String_t* (*) (KeyValuePair_2_t7085 *, const MethodInfo*))KeyValuePair_2_get_Key_m21645_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseACL>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m45205(__this, ___value, method) (( void (*) (KeyValuePair_2_t7085 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m21646_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseACL>::get_Value()
-#define KeyValuePair_2_get_Value_m45206(__this, method) (( ParseACL_t1163 * (*) (KeyValuePair_2_t7085 *, const MethodInfo*))KeyValuePair_2_get_Value_m21647_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseACL>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m45207(__this, ___value, method) (( void (*) (KeyValuePair_2_t7085 *, ParseACL_t1163 *, const MethodInfo*))KeyValuePair_2_set_Value_m21648_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseACL>::ToString()
-#define KeyValuePair_2_ToString_m45208(__this, method) (( String_t* (*) (KeyValuePair_2_t7085 *, const MethodInfo*))KeyValuePair_2_ToString_m21649_gshared)(__this, method)
+#define KeyValuePair_2__ctor_m45744(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t7148 *, String_t*, ParseFile_t1242 *, const MethodInfo*))KeyValuePair_2__ctor_m21902_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>::get_Key()
+#define KeyValuePair_2_get_Key_m45745(__this, method) (( String_t* (*) (KeyValuePair_2_t7148 *, const MethodInfo*))KeyValuePair_2_get_Key_m21903_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m45746(__this, ___value, method) (( void (*) (KeyValuePair_2_t7148 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m21904_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>::get_Value()
+#define KeyValuePair_2_get_Value_m45747(__this, method) (( ParseFile_t1242 * (*) (KeyValuePair_2_t7148 *, const MethodInfo*))KeyValuePair_2_get_Value_m21905_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m45748(__this, ___value, method) (( void (*) (KeyValuePair_2_t7148 *, ParseFile_t1242 *, const MethodInfo*))KeyValuePair_2_set_Value_m21906_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>::ToString()
+#define KeyValuePair_2_ToString_m45749(__this, method) (( String_t* (*) (KeyValuePair_2_t7148 *, const MethodInfo*))KeyValuePair_2_ToString_m21907_gshared)(__this, method)

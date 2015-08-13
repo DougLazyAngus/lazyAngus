@@ -3,6 +3,6 @@
 // System.MarshalByRefObject
 #include "mscorlib_System_MarshalByRefObject.h"
 // System.AppDomainManager
-struct  AppDomainManager_t4733  : public MarshalByRefObject_t4030
+struct  AppDomainManager_t4779  : public MarshalByRefObject_t4076
 {
 };

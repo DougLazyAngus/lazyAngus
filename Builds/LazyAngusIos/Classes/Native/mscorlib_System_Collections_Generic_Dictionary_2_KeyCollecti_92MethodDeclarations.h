@@ -4,28 +4,62 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>
-struct Enumerator_t8529;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>
+struct KeyCollection_t8600;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>
-struct Dictionary_2_t3316;
+struct Dictionary_2_t3364;
+// System.Collections.Generic.IEnumerator`1<System.Int32>
+struct IEnumerator_1_t3362;
+// System.Array
+struct Array_t;
+// System.Collections.IEnumerator
+struct IEnumerator_t48;
+// System.Int32[]
+struct Int32U5BU5D_t484;
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_93.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C" void Enumerator__ctor_m62601_gshared (Enumerator_t8529 * __this, Dictionary_2_t3316 * ___host, const MethodInfo* method);
-#define Enumerator__ctor_m62601(__this, ___host, method) (( void (*) (Enumerator_t8529 *, Dictionary_2_t3316 *, const MethodInfo*))Enumerator__ctor_m62601_gshared)(__this, ___host, method)
-// System.Object System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m62602_gshared (Enumerator_t8529 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_get_Current_m62602(__this, method) (( Object_t * (*) (Enumerator_t8529 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m62602_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.IEnumerator.Reset()
-extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m62603_gshared (Enumerator_t8529 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_Reset_m62603(__this, method) (( void (*) (Enumerator_t8529 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m62603_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::Dispose()
-extern "C" void Enumerator_Dispose_m62604_gshared (Enumerator_t8529 * __this, const MethodInfo* method);
-#define Enumerator_Dispose_m62604(__this, method) (( void (*) (Enumerator_t8529 *, const MethodInfo*))Enumerator_Dispose_m62604_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::MoveNext()
-extern "C" bool Enumerator_MoveNext_m62605_gshared (Enumerator_t8529 * __this, const MethodInfo* method);
-#define Enumerator_MoveNext_m62605(__this, method) (( bool (*) (Enumerator_t8529 *, const MethodInfo*))Enumerator_MoveNext_m62605_gshared)(__this, method)
-// TKey System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::get_Current()
-extern "C" int32_t Enumerator_get_Current_m62606_gshared (Enumerator_t8529 * __this, const MethodInfo* method);
-#define Enumerator_get_Current_m62606(__this, method) (( int32_t (*) (Enumerator_t8529 *, const MethodInfo*))Enumerator_get_Current_m62606_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+extern "C" void KeyCollection__ctor_m63271_gshared (KeyCollection_t8600 * __this, Dictionary_2_t3364 * ___dictionary, const MethodInfo* method);
+#define KeyCollection__ctor_m63271(__this, ___dictionary, method) (( void (*) (KeyCollection_t8600 *, Dictionary_2_t3364 *, const MethodInfo*))KeyCollection__ctor_m63271_gshared)(__this, ___dictionary, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
+extern "C" void KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m63272_gshared (KeyCollection_t8600 * __this, int32_t ___item, const MethodInfo* method);
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m63272(__this, ___item, method) (( void (*) (KeyCollection_t8600 *, int32_t, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m63272_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.Generic.ICollection<TKey>.Clear()
+extern "C" void KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m63273_gshared (KeyCollection_t8600 * __this, const MethodInfo* method);
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m63273(__this, method) (( void (*) (KeyCollection_t8600 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m63273_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.Generic.ICollection<TKey>.Contains(TKey)
+extern "C" bool KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m63274_gshared (KeyCollection_t8600 * __this, int32_t ___item, const MethodInfo* method);
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m63274(__this, ___item, method) (( bool (*) (KeyCollection_t8600 *, int32_t, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m63274_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.Generic.ICollection<TKey>.Remove(TKey)
+extern "C" bool KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m63275_gshared (KeyCollection_t8600 * __this, int32_t ___item, const MethodInfo* method);
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m63275(__this, ___item, method) (( bool (*) (KeyCollection_t8600 *, int32_t, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m63275_gshared)(__this, ___item, method)
+// System.Collections.Generic.IEnumerator`1<TKey> System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.Generic.IEnumerable<TKey>.GetEnumerator()
+extern "C" Object_t* KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m63276_gshared (KeyCollection_t8600 * __this, const MethodInfo* method);
+#define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m63276(__this, method) (( Object_t* (*) (KeyCollection_t8600 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m63276_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern "C" void KeyCollection_System_Collections_ICollection_CopyTo_m63277_gshared (KeyCollection_t8600 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
+#define KeyCollection_System_Collections_ICollection_CopyTo_m63277(__this, ___array, ___index, method) (( void (*) (KeyCollection_t8600 *, Array_t *, int32_t, const MethodInfo*))KeyCollection_System_Collections_ICollection_CopyTo_m63277_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.IEnumerable.GetEnumerator()
+extern "C" Object_t * KeyCollection_System_Collections_IEnumerable_GetEnumerator_m63278_gshared (KeyCollection_t8600 * __this, const MethodInfo* method);
+#define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m63278(__this, method) (( Object_t * (*) (KeyCollection_t8600 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m63278_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.Generic.ICollection<TKey>.get_IsReadOnly()
+extern "C" bool KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m63279_gshared (KeyCollection_t8600 * __this, const MethodInfo* method);
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m63279(__this, method) (( bool (*) (KeyCollection_t8600 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m63279_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.ICollection.get_IsSynchronized()
+extern "C" bool KeyCollection_System_Collections_ICollection_get_IsSynchronized_m63280_gshared (KeyCollection_t8600 * __this, const MethodInfo* method);
+#define KeyCollection_System_Collections_ICollection_get_IsSynchronized_m63280(__this, method) (( bool (*) (KeyCollection_t8600 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_IsSynchronized_m63280_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.ICollection.get_SyncRoot()
+extern "C" Object_t * KeyCollection_System_Collections_ICollection_get_SyncRoot_m63281_gshared (KeyCollection_t8600 * __this, const MethodInfo* method);
+#define KeyCollection_System_Collections_ICollection_get_SyncRoot_m63281(__this, method) (( Object_t * (*) (KeyCollection_t8600 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m63281_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::CopyTo(TKey[],System.Int32)
+extern "C" void KeyCollection_CopyTo_m63282_gshared (KeyCollection_t8600 * __this, Int32U5BU5D_t484* ___array, int32_t ___index, const MethodInfo* method);
+#define KeyCollection_CopyTo_m63282(__this, ___array, ___index, method) (( void (*) (KeyCollection_t8600 *, Int32U5BU5D_t484*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m63282_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::GetEnumerator()
+extern "C" Enumerator_t8601  KeyCollection_GetEnumerator_m63283_gshared (KeyCollection_t8600 * __this, const MethodInfo* method);
+#define KeyCollection_GetEnumerator_m63283(__this, method) (( Enumerator_t8601  (*) (KeyCollection_t8600 *, const MethodInfo*))KeyCollection_GetEnumerator_m63283_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,System.TimeZoneInfo/TimeType>::get_Count()
+extern "C" int32_t KeyCollection_get_Count_m63284_gshared (KeyCollection_t8600 * __this, const MethodInfo* method);
+#define KeyCollection_get_Count_m63284(__this, method) (( int32_t (*) (KeyCollection_t8600 *, const MethodInfo*))KeyCollection_get_Count_m63284_gshared)(__this, method)

@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Linq.Expressions.Expression
-struct Expression_t1469;
+struct Expression_t1520;
 // System.Linq.Expressions.Expression
 #include "System_Core_System_Linq_Expressions_Expression.h"
 // System.Linq.Expressions.UnaryExpression
-struct  UnaryExpression_t3296  : public Expression_t1469
+struct  UnaryExpression_t3344  : public Expression_t1520
 {
 	// System.Linq.Expressions.Expression System.Linq.Expressions.UnaryExpression::operand
-	Expression_t1469 * ___operand_2;
+	Expression_t1520 * ___operand_2;
 };

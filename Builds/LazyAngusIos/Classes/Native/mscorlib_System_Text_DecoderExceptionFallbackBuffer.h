@@ -3,6 +3,6 @@
 // System.Text.DecoderFallbackBuffer
 #include "mscorlib_System_Text_DecoderFallbackBuffer.h"
 // System.Text.DecoderExceptionFallbackBuffer
-struct  DecoderExceptionFallbackBuffer_t4699  : public DecoderFallbackBuffer_t4697
+struct  DecoderExceptionFallbackBuffer_t4745  : public DecoderFallbackBuffer_t4743
 {
 };

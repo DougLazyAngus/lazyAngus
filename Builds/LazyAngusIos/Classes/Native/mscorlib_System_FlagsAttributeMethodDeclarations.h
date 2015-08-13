@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.FlagsAttribute
-struct FlagsAttribute_t1046;
+struct FlagsAttribute_t1105;
 
 // System.Void System.FlagsAttribute::.ctor()
-extern "C" void FlagsAttribute__ctor_m5946 (FlagsAttribute_t1046 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FlagsAttribute__ctor_m6210 (FlagsAttribute_t1105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

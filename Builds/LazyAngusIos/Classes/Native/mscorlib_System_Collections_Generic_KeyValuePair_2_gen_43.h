@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Object
-struct Object_t;
-// System.Collections.Generic.List`1<System.Object>
-struct List_1_t638;
+// System.String
+struct String_t;
+// System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>
+struct Task_1_t2437;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.List`1<System.Object>>
-struct  KeyValuePair_2_t6084 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>
+struct  KeyValuePair_2_t6123 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.List`1<System.Object>>::key
-	Object_t * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.List`1<System.Object>>::value
-	List_1_t638 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::value
+	Task_1_t2437 * ___value_1;
 };

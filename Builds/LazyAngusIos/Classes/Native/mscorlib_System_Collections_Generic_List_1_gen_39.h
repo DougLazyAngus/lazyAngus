@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.KeyValuePair`2<System.String,System.String>[]
-struct KeyValuePair_2U5BU5D_t6021;
+// UnityEngine.UI.Toggle[]
+struct ToggleU5BU5D_t5911;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
-struct  List_1_t1334  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
+struct  List_1_t985  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::_items
-	KeyValuePair_2U5BU5D_t6021* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_items
+	ToggleU5BU5D_t5911* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1334_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::EmptyArray
-	KeyValuePair_2U5BU5D_t6021* ___EmptyArray_4;
+struct List_1_t985_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::EmptyArray
+	ToggleU5BU5D_t5911* ___EmptyArray_4;
 };

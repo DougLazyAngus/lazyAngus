@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AudioSource
-struct AudioSource_t570;
+struct AudioSource_t611;
 // UnityEngine.AudioClip
 struct AudioClip_t395;
 
 // System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
-extern "C" void AudioSource_set_clip_m3760 (AudioSource_t570 * __this, AudioClip_t395 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioSource_set_clip_m3999 (AudioSource_t611 * __this, AudioClip_t395 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSource::Play(System.UInt64)
-extern "C" void AudioSource_Play_m9250 (AudioSource_t570 * __this, uint64_t ___delay, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioSource_Play_m9508 (AudioSource_t611 * __this, uint64_t ___delay, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSource::Play()
-extern "C" void AudioSource_Play_m4032 (AudioSource_t570 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioSource_Play_m4284 (AudioSource_t611 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSource::PlayDelayed(System.Single)
-extern "C" void AudioSource_PlayDelayed_m4050 (AudioSource_t570 * __this, float ___delay, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioSource_PlayDelayed_m4306 (AudioSource_t611 * __this, float ___delay, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSource::Stop()
-extern "C" void AudioSource_Stop_m3761 (AudioSource_t570 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioSource_Stop_m4000 (AudioSource_t611 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.AudioSource::get_isPlaying()
-extern "C" bool AudioSource_get_isPlaying_m4033 (AudioSource_t570 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AudioSource_get_isPlaying_m4285 (AudioSource_t611 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSource::PlayOneShot(UnityEngine.AudioClip,System.Single)
-extern "C" void AudioSource_PlayOneShot_m9251 (AudioSource_t570 * __this, AudioClip_t395 * ___clip, float ___volumeScale, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioSource_PlayOneShot_m9509 (AudioSource_t611 * __this, AudioClip_t395 * ___clip, float ___volumeScale, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSource::PlayOneShot(UnityEngine.AudioClip)
-extern "C" void AudioSource_PlayOneShot_m3774 (AudioSource_t570 * __this, AudioClip_t395 * ___clip, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioSource_PlayOneShot_m4013 (AudioSource_t611 * __this, AudioClip_t395 * ___clip, const MethodInfo* method) IL2CPP_METHOD_ATTR;

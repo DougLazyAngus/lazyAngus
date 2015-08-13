@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.RectTransform
-struct RectTransform_t504;
+struct RectTransform_t543;
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 // UnityEngine.UI.AspectRatioFitter/AspectMode
@@ -9,14 +9,14 @@ struct RectTransform_t504;
 // UnityEngine.DrivenRectTransformTracker
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 // UnityEngine.UI.AspectRatioFitter
-struct  AspectRatioFitter_t930  : public UIBehaviour_t787
+struct  AspectRatioFitter_t989  : public UIBehaviour_t848
 {
 	// UnityEngine.UI.AspectRatioFitter/AspectMode UnityEngine.UI.AspectRatioFitter::m_AspectMode
 	int32_t ___m_AspectMode_2;
 	// System.Single UnityEngine.UI.AspectRatioFitter::m_AspectRatio
 	float ___m_AspectRatio_3;
 	// UnityEngine.RectTransform UnityEngine.UI.AspectRatioFitter::m_Rect
-	RectTransform_t504 * ___m_Rect_4;
+	RectTransform_t543 * ___m_Rect_4;
 	// UnityEngine.DrivenRectTransformTracker UnityEngine.UI.AspectRatioFitter::m_Tracker
-	DrivenRectTransformTracker_t904  ___m_Tracker_5;
+	DrivenRectTransformTracker_t963  ___m_Tracker_5;
 };

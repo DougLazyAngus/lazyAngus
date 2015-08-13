@@ -5,11 +5,11 @@ struct Object_t;
 // System.Exception
 struct Exception_t57;
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t3329;
+struct ManualResetEvent_t3377;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IO.StreamAsyncResult
-struct  StreamAsyncResult_t4451  : public Object_t
+struct  StreamAsyncResult_t4497  : public Object_t
 {
 	// System.Object System.IO.StreamAsyncResult::state
 	Object_t * ___state_0;
@@ -22,5 +22,5 @@ struct  StreamAsyncResult_t4451  : public Object_t
 	// System.Int32 System.IO.StreamAsyncResult::nbytes
 	int32_t ___nbytes_4;
 	// System.Threading.ManualResetEvent System.IO.StreamAsyncResult::wh
-	ManualResetEvent_t3329 * ___wh_5;
+	ManualResetEvent_t3377 * ___wh_5;
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>[]
-struct Tuple_2U5BU5D_t5921;
+// System.Security.Policy.StrongName[]
+struct StrongNameU5BU5D_t8688;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>
-struct  List_1_t5922  : public Object_t
+// System.Collections.Generic.List`1<System.Security.Policy.StrongName>
+struct  List_1_t4901  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_items
-	Tuple_2U5BU5D_t5921* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_size
+	// T[] System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_items
+	StrongNameU5BU5D_t8688* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_version
 	int32_t ____version_3;
 };
-struct List_1_t5922_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::EmptyArray
-	Tuple_2U5BU5D_t5921* ___EmptyArray_4;
+struct List_1_t4901_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Security.Policy.StrongName>::EmptyArray
+	StrongNameU5BU5D_t8688* ___EmptyArray_4;
 };

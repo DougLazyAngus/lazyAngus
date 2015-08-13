@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
+// UnityEngine.RectTransform
+struct RectTransform_t543;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct  Predicate_1_t5972  : public MulticastDelegate_t388
+// System.Predicate`1<UnityEngine.RectTransform>
+struct  Predicate_1_t5920  : public MulticastDelegate_t388
 {
 };

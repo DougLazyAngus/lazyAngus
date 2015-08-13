@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.CanvasScaler
-struct CanvasScaler_t479;
+struct CanvasScaler_t517;
 // UnityEngine.UI.CanvasScaler/ScaleMode
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_ScaleMode.h"
 // UnityEngine.Vector2
@@ -16,64 +16,64 @@ struct CanvasScaler_t479;
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_Unit.h"
 
 // System.Void UnityEngine.UI.CanvasScaler::.ctor()
-extern "C" void CanvasScaler__ctor_m5287 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler__ctor_m5555 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.CanvasScaler/ScaleMode UnityEngine.UI.CanvasScaler::get_uiScaleMode()
-extern "C" int32_t CanvasScaler_get_uiScaleMode_m5288 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CanvasScaler_get_uiScaleMode_m5556 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::set_uiScaleMode(UnityEngine.UI.CanvasScaler/ScaleMode)
-extern "C" void CanvasScaler_set_uiScaleMode_m5289 (CanvasScaler_t479 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_set_uiScaleMode_m5557 (CanvasScaler_t517 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.CanvasScaler::get_referencePixelsPerUnit()
-extern "C" float CanvasScaler_get_referencePixelsPerUnit_m5290 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float CanvasScaler_get_referencePixelsPerUnit_m5558 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::set_referencePixelsPerUnit(System.Single)
-extern "C" void CanvasScaler_set_referencePixelsPerUnit_m5291 (CanvasScaler_t479 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_set_referencePixelsPerUnit_m5559 (CanvasScaler_t517 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.CanvasScaler::get_scaleFactor()
-extern "C" float CanvasScaler_get_scaleFactor_m5292 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float CanvasScaler_get_scaleFactor_m5560 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::set_scaleFactor(System.Single)
-extern "C" void CanvasScaler_set_scaleFactor_m3927 (CanvasScaler_t479 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_set_scaleFactor_m4183 (CanvasScaler_t517 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.UI.CanvasScaler::get_referenceResolution()
-extern "C" Vector2_t110  CanvasScaler_get_referenceResolution_m5293 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t110  CanvasScaler_get_referenceResolution_m5561 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::set_referenceResolution(UnityEngine.Vector2)
-extern "C" void CanvasScaler_set_referenceResolution_m5294 (CanvasScaler_t479 * __this, Vector2_t110  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_set_referenceResolution_m5562 (CanvasScaler_t517 * __this, Vector2_t110  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.CanvasScaler/ScreenMatchMode UnityEngine.UI.CanvasScaler::get_screenMatchMode()
-extern "C" int32_t CanvasScaler_get_screenMatchMode_m5295 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CanvasScaler_get_screenMatchMode_m5563 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::set_screenMatchMode(UnityEngine.UI.CanvasScaler/ScreenMatchMode)
-extern "C" void CanvasScaler_set_screenMatchMode_m5296 (CanvasScaler_t479 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_set_screenMatchMode_m5564 (CanvasScaler_t517 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.CanvasScaler::get_matchWidthOrHeight()
-extern "C" float CanvasScaler_get_matchWidthOrHeight_m5297 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float CanvasScaler_get_matchWidthOrHeight_m5565 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::set_matchWidthOrHeight(System.Single)
-extern "C" void CanvasScaler_set_matchWidthOrHeight_m5298 (CanvasScaler_t479 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_set_matchWidthOrHeight_m5566 (CanvasScaler_t517 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.CanvasScaler/Unit UnityEngine.UI.CanvasScaler::get_physicalUnit()
-extern "C" int32_t CanvasScaler_get_physicalUnit_m5299 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CanvasScaler_get_physicalUnit_m5567 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::set_physicalUnit(UnityEngine.UI.CanvasScaler/Unit)
-extern "C" void CanvasScaler_set_physicalUnit_m5300 (CanvasScaler_t479 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_set_physicalUnit_m5568 (CanvasScaler_t517 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.CanvasScaler::get_fallbackScreenDPI()
-extern "C" float CanvasScaler_get_fallbackScreenDPI_m5301 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float CanvasScaler_get_fallbackScreenDPI_m5569 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::set_fallbackScreenDPI(System.Single)
-extern "C" void CanvasScaler_set_fallbackScreenDPI_m5302 (CanvasScaler_t479 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_set_fallbackScreenDPI_m5570 (CanvasScaler_t517 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.CanvasScaler::get_defaultSpriteDPI()
-extern "C" float CanvasScaler_get_defaultSpriteDPI_m5303 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float CanvasScaler_get_defaultSpriteDPI_m5571 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::set_defaultSpriteDPI(System.Single)
-extern "C" void CanvasScaler_set_defaultSpriteDPI_m5304 (CanvasScaler_t479 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_set_defaultSpriteDPI_m5572 (CanvasScaler_t517 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.CanvasScaler::get_dynamicPixelsPerUnit()
-extern "C" float CanvasScaler_get_dynamicPixelsPerUnit_m5305 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float CanvasScaler_get_dynamicPixelsPerUnit_m5573 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::set_dynamicPixelsPerUnit(System.Single)
-extern "C" void CanvasScaler_set_dynamicPixelsPerUnit_m5306 (CanvasScaler_t479 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_set_dynamicPixelsPerUnit_m5574 (CanvasScaler_t517 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::OnEnable()
-extern "C" void CanvasScaler_OnEnable_m5307 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_OnEnable_m5575 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::OnDisable()
-extern "C" void CanvasScaler_OnDisable_m5308 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_OnDisable_m5576 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::Update()
-extern "C" void CanvasScaler_Update_m5309 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_Update_m5577 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::Handle()
-extern "C" void CanvasScaler_Handle_m5310 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_Handle_m5578 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::HandleWorldCanvas()
-extern "C" void CanvasScaler_HandleWorldCanvas_m5311 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_HandleWorldCanvas_m5579 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::HandleConstantPixelSize()
-extern "C" void CanvasScaler_HandleConstantPixelSize_m5312 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_HandleConstantPixelSize_m5580 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::HandleScaleWithScreenSize()
-extern "C" void CanvasScaler_HandleScaleWithScreenSize_m5313 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_HandleScaleWithScreenSize_m5581 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::HandleConstantPhysicalSize()
-extern "C" void CanvasScaler_HandleConstantPhysicalSize_m5314 (CanvasScaler_t479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_HandleConstantPhysicalSize_m5582 (CanvasScaler_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::SetScaleFactor(System.Single)
-extern "C" void CanvasScaler_SetScaleFactor_m5315 (CanvasScaler_t479 * __this, float ___scaleFactor, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_SetScaleFactor_m5583 (CanvasScaler_t517 * __this, float ___scaleFactor, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CanvasScaler::SetReferencePixelsPerUnit(System.Single)
-extern "C" void CanvasScaler_SetReferencePixelsPerUnit_m5316 (CanvasScaler_t479 * __this, float ___referencePixelsPerUnit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasScaler_SetReferencePixelsPerUnit_m5584 (CanvasScaler_t517 * __this, float ___referencePixelsPerUnit, const MethodInfo* method) IL2CPP_METHOD_ATTR;

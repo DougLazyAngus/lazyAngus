@@ -28,14 +28,14 @@
 #include "mscorlib_System_Array.h"
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$96
-void U24ArrayTypeU2496_t4818_marshal(const U24ArrayTypeU2496_t4818& unmarshaled, U24ArrayTypeU2496_t4818_marshaled& marshaled)
+void U24ArrayTypeU2496_t4864_marshal(const U24ArrayTypeU2496_t4864& unmarshaled, U24ArrayTypeU2496_t4864_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2496_t4818_marshal_back(const U24ArrayTypeU2496_t4818_marshaled& marshaled, U24ArrayTypeU2496_t4818& unmarshaled)
+void U24ArrayTypeU2496_t4864_marshal_back(const U24ArrayTypeU2496_t4864_marshaled& marshaled, U24ArrayTypeU2496_t4864& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$96
-void U24ArrayTypeU2496_t4818_marshal_cleanup(U24ArrayTypeU2496_t4818_marshaled& marshaled)
+void U24ArrayTypeU2496_t4864_marshal_cleanup(U24ArrayTypeU2496_t4864_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$2048
@@ -49,14 +49,14 @@ void U24ArrayTypeU2496_t4818_marshal_cleanup(U24ArrayTypeU2496_t4818_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$2048
-void U24ArrayTypeU242048_t4819_marshal(const U24ArrayTypeU242048_t4819& unmarshaled, U24ArrayTypeU242048_t4819_marshaled& marshaled)
+void U24ArrayTypeU242048_t4865_marshal(const U24ArrayTypeU242048_t4865& unmarshaled, U24ArrayTypeU242048_t4865_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU242048_t4819_marshal_back(const U24ArrayTypeU242048_t4819_marshaled& marshaled, U24ArrayTypeU242048_t4819& unmarshaled)
+void U24ArrayTypeU242048_t4865_marshal_back(const U24ArrayTypeU242048_t4865_marshaled& marshaled, U24ArrayTypeU242048_t4865& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$2048
-void U24ArrayTypeU242048_t4819_marshal_cleanup(U24ArrayTypeU242048_t4819_marshaled& marshaled)
+void U24ArrayTypeU242048_t4865_marshal_cleanup(U24ArrayTypeU242048_t4865_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$256
@@ -70,14 +70,14 @@ void U24ArrayTypeU242048_t4819_marshal_cleanup(U24ArrayTypeU242048_t4819_marshal
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$256
-void U24ArrayTypeU24256_t4820_marshal(const U24ArrayTypeU24256_t4820& unmarshaled, U24ArrayTypeU24256_t4820_marshaled& marshaled)
+void U24ArrayTypeU24256_t4866_marshal(const U24ArrayTypeU24256_t4866& unmarshaled, U24ArrayTypeU24256_t4866_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU24256_t4820_marshal_back(const U24ArrayTypeU24256_t4820_marshaled& marshaled, U24ArrayTypeU24256_t4820& unmarshaled)
+void U24ArrayTypeU24256_t4866_marshal_back(const U24ArrayTypeU24256_t4866_marshaled& marshaled, U24ArrayTypeU24256_t4866& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$256
-void U24ArrayTypeU24256_t4820_marshal_cleanup(U24ArrayTypeU24256_t4820_marshaled& marshaled)
+void U24ArrayTypeU24256_t4866_marshal_cleanup(U24ArrayTypeU24256_t4866_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$1024
@@ -91,14 +91,14 @@ void U24ArrayTypeU24256_t4820_marshal_cleanup(U24ArrayTypeU24256_t4820_marshaled
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$1024
-void U24ArrayTypeU241024_t4821_marshal(const U24ArrayTypeU241024_t4821& unmarshaled, U24ArrayTypeU241024_t4821_marshaled& marshaled)
+void U24ArrayTypeU241024_t4867_marshal(const U24ArrayTypeU241024_t4867& unmarshaled, U24ArrayTypeU241024_t4867_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU241024_t4821_marshal_back(const U24ArrayTypeU241024_t4821_marshaled& marshaled, U24ArrayTypeU241024_t4821& unmarshaled)
+void U24ArrayTypeU241024_t4867_marshal_back(const U24ArrayTypeU241024_t4867_marshaled& marshaled, U24ArrayTypeU241024_t4867& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$1024
-void U24ArrayTypeU241024_t4821_marshal_cleanup(U24ArrayTypeU241024_t4821_marshaled& marshaled)
+void U24ArrayTypeU241024_t4867_marshal_cleanup(U24ArrayTypeU241024_t4867_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$640
@@ -112,14 +112,14 @@ void U24ArrayTypeU241024_t4821_marshal_cleanup(U24ArrayTypeU241024_t4821_marshal
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$640
-void U24ArrayTypeU24640_t4822_marshal(const U24ArrayTypeU24640_t4822& unmarshaled, U24ArrayTypeU24640_t4822_marshaled& marshaled)
+void U24ArrayTypeU24640_t4868_marshal(const U24ArrayTypeU24640_t4868& unmarshaled, U24ArrayTypeU24640_t4868_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU24640_t4822_marshal_back(const U24ArrayTypeU24640_t4822_marshaled& marshaled, U24ArrayTypeU24640_t4822& unmarshaled)
+void U24ArrayTypeU24640_t4868_marshal_back(const U24ArrayTypeU24640_t4868_marshaled& marshaled, U24ArrayTypeU24640_t4868& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$640
-void U24ArrayTypeU24640_t4822_marshal_cleanup(U24ArrayTypeU24640_t4822_marshaled& marshaled)
+void U24ArrayTypeU24640_t4868_marshal_cleanup(U24ArrayTypeU24640_t4868_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$128
@@ -133,14 +133,14 @@ void U24ArrayTypeU24640_t4822_marshal_cleanup(U24ArrayTypeU24640_t4822_marshaled
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$128
-void U24ArrayTypeU24128_t4823_marshal(const U24ArrayTypeU24128_t4823& unmarshaled, U24ArrayTypeU24128_t4823_marshaled& marshaled)
+void U24ArrayTypeU24128_t4869_marshal(const U24ArrayTypeU24128_t4869& unmarshaled, U24ArrayTypeU24128_t4869_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU24128_t4823_marshal_back(const U24ArrayTypeU24128_t4823_marshaled& marshaled, U24ArrayTypeU24128_t4823& unmarshaled)
+void U24ArrayTypeU24128_t4869_marshal_back(const U24ArrayTypeU24128_t4869_marshaled& marshaled, U24ArrayTypeU24128_t4869& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$128
-void U24ArrayTypeU24128_t4823_marshal_cleanup(U24ArrayTypeU24128_t4823_marshaled& marshaled)
+void U24ArrayTypeU24128_t4869_marshal_cleanup(U24ArrayTypeU24128_t4869_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$52
@@ -154,14 +154,14 @@ void U24ArrayTypeU24128_t4823_marshal_cleanup(U24ArrayTypeU24128_t4823_marshaled
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$52
-void U24ArrayTypeU2452_t4824_marshal(const U24ArrayTypeU2452_t4824& unmarshaled, U24ArrayTypeU2452_t4824_marshaled& marshaled)
+void U24ArrayTypeU2452_t4870_marshal(const U24ArrayTypeU2452_t4870& unmarshaled, U24ArrayTypeU2452_t4870_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2452_t4824_marshal_back(const U24ArrayTypeU2452_t4824_marshaled& marshaled, U24ArrayTypeU2452_t4824& unmarshaled)
+void U24ArrayTypeU2452_t4870_marshal_back(const U24ArrayTypeU2452_t4870_marshaled& marshaled, U24ArrayTypeU2452_t4870& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$52
-void U24ArrayTypeU2452_t4824_marshal_cleanup(U24ArrayTypeU2452_t4824_marshaled& marshaled)
+void U24ArrayTypeU2452_t4870_marshal_cleanup(U24ArrayTypeU2452_t4870_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>

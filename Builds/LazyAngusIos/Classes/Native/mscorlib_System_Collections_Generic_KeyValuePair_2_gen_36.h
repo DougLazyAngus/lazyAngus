@@ -1,14 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.Graphic
-struct Graphic_t861;
+// UnityEngine.Canvas
+struct Canvas_t674;
+// UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>
+struct IndexedSet_1_t1071;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>
-struct  KeyValuePair_2_t5799 
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
+struct  KeyValuePair_2_t5871 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::key
-	Graphic_t861 * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::value
-	int32_t ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::key
+	Canvas_t674 * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::value
+	IndexedSet_1_t1071 * ___value_1;
 };

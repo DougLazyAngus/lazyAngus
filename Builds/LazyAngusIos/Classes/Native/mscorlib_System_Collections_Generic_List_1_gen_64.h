@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.ICanvasElement[]
-struct ICanvasElementU5BU5D_t5751;
+// System.Net.Cookie[]
+struct CookieU5BU5D_t8637;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>
-struct  List_1_t5749  : public Object_t
+// System.Collections.Generic.List`1<System.Net.Cookie>
+struct  List_1_t4020  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::_items
-	ICanvasElementU5BU5D_t5751* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::_size
+	// T[] System.Collections.Generic.List`1<System.Net.Cookie>::_items
+	CookieU5BU5D_t8637* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::_version
 	int32_t ____version_3;
 };
-struct List_1_t5749_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::EmptyArray
-	ICanvasElementU5BU5D_t5751* ___EmptyArray_4;
+struct List_1_t4020_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Net.Cookie>::EmptyArray
+	CookieU5BU5D_t8637* ___EmptyArray_4;
 };

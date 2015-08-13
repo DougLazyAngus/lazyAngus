@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.TimeZoneInfo/AdjustmentRule
-struct AdjustmentRule_t3306;
+// UnityEngine.Events.BaseInvokableCall
+struct BaseInvokableCall_t2883;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -10,7 +10,7 @@ struct AsyncCallback_t386;
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<System.TimeZoneInfo/AdjustmentRule>
-struct  Comparison_1_t8555  : public MulticastDelegate_t388
+// System.Comparison`1<UnityEngine.Events.BaseInvokableCall>
+struct  Comparison_1_t8573  : public MulticastDelegate_t388
 {
 };

@@ -4,28 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct Predicate_1_t5972;
+// System.Predicate`1<UnityEngine.RectTransform>
+struct Predicate_1_t5920;
 // System.Object
 struct Object_t;
+// UnityEngine.RectTransform
+struct RectTransform_t543;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0.h"
 
-// System.Void System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::.ctor(System.Object,System.IntPtr)
-extern "C" void Predicate_1__ctor_m30882_gshared (Predicate_1_t5972 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Predicate_1__ctor_m30882(__this, ___object, ___method, method) (( void (*) (Predicate_1_t5972 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m30882_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::Invoke(T)
-extern "C" bool Predicate_1_Invoke_m30883_gshared (Predicate_1_t5972 * __this, KeyValuePair_2_t70  ___obj, const MethodInfo* method);
-#define Predicate_1_Invoke_m30883(__this, ___obj, method) (( bool (*) (Predicate_1_t5972 *, KeyValuePair_2_t70 , const MethodInfo*))Predicate_1_Invoke_m30883_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Predicate_1_BeginInvoke_m30884_gshared (Predicate_1_t5972 * __this, KeyValuePair_2_t70  ___obj, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Predicate_1_BeginInvoke_m30884(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t5972 *, KeyValuePair_2_t70 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m30884_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::EndInvoke(System.IAsyncResult)
-extern "C" bool Predicate_1_EndInvoke_m30885_gshared (Predicate_1_t5972 * __this, Object_t * ___result, const MethodInfo* method);
-#define Predicate_1_EndInvoke_m30885(__this, ___result, method) (( bool (*) (Predicate_1_t5972 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m30885_gshared)(__this, ___result, method)
+// System.Void System.Predicate`1<UnityEngine.RectTransform>::.ctor(System.Object,System.IntPtr)
+// System.Predicate`1<System.Object>
+#include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
+#define Predicate_1__ctor_m30283(__this, ___object, ___method, method) (( void (*) (Predicate_1_t5920 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21722_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<UnityEngine.RectTransform>::Invoke(T)
+#define Predicate_1_Invoke_m30284(__this, ___obj, method) (( bool (*) (Predicate_1_t5920 *, RectTransform_t543 *, const MethodInfo*))Predicate_1_Invoke_m21723_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<UnityEngine.RectTransform>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Predicate_1_BeginInvoke_m30285(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t5920 *, RectTransform_t543 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21724_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<UnityEngine.RectTransform>::EndInvoke(System.IAsyncResult)
+#define Predicate_1_EndInvoke_m30286(__this, ___result, method) (( bool (*) (Predicate_1_t5920 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21725_gshared)(__this, ___result, method)

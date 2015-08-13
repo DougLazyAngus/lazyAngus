@@ -17,9 +17,9 @@ struct String_t;
 // System.Collections.Generic.List`1<AN_PropertyTemplate>
 struct List_1_t123;
 // System.Xml.XmlDocument
-struct XmlDocument_t631;
+struct XmlDocument_t677;
 // System.Xml.XmlElement
-struct XmlElement_t632;
+struct XmlElement_t678;
 
 // System.Void AN_BaseTemplate::.ctor()
 extern "C" void AN_BaseTemplate__ctor_m589 (AN_BaseTemplate_t118 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -53,9 +53,9 @@ extern "C" void AN_BaseTemplate_RemoveProperty_m602 (AN_BaseTemplate_t118 * __th
 // System.Void AN_BaseTemplate::RemoveValue(System.String)
 extern "C" void AN_BaseTemplate_RemoveValue_m603 (AN_BaseTemplate_t118 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_BaseTemplate::AddPropertiesToXml(System.Xml.XmlDocument,System.Xml.XmlElement,AN_BaseTemplate)
-extern "C" void AN_BaseTemplate_AddPropertiesToXml_m604 (AN_BaseTemplate_t118 * __this, XmlDocument_t631 * ___doc, XmlElement_t632 * ___parent, AN_BaseTemplate_t118 * ___template, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_BaseTemplate_AddPropertiesToXml_m604 (AN_BaseTemplate_t118 * __this, XmlDocument_t677 * ___doc, XmlElement_t678 * ___parent, AN_BaseTemplate_t118 * ___template, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_BaseTemplate::AddAttributesToXml(System.Xml.XmlDocument,System.Xml.XmlElement,AN_BaseTemplate)
-extern "C" void AN_BaseTemplate_AddAttributesToXml_m605 (AN_BaseTemplate_t118 * __this, XmlDocument_t631 * ___doc, XmlElement_t632 * ___parent, AN_BaseTemplate_t118 * ___template, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_BaseTemplate_AddAttributesToXml_m605 (AN_BaseTemplate_t118 * __this, XmlDocument_t677 * ___doc, XmlElement_t678 * ___parent, AN_BaseTemplate_t118 * ___template, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<System.String,System.String> AN_BaseTemplate::get_Values()
 extern "C" Dictionary_2_t122 * AN_BaseTemplate_get_Values_m606 (AN_BaseTemplate_t118 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>> AN_BaseTemplate::get_Properties()

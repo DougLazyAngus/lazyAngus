@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<System.Int32>
-struct  Predicate_1_t5636  : public MulticastDelegate_t388
+struct  Predicate_1_t5687  : public MulticastDelegate_t388
 {
 };

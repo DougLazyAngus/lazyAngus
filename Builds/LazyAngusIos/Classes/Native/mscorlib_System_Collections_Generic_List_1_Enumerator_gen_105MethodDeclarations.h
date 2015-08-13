@@ -4,28 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<System.Security.Policy.StrongName>
-struct Enumerator_t8619;
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>
+struct Enumerator_t8572;
 // System.Object
 struct Object_t;
-// System.Security.Policy.StrongName
-struct StrongName_t4683;
-// System.Collections.Generic.List`1<System.Security.Policy.StrongName>
-struct List_1_t4855;
+// UnityEngine.Events.BaseInvokableCall
+struct BaseInvokableCall_t2883;
+// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>
+struct List_1_t2889;
 
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Security.Policy.StrongName>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m63524(__this, ___l, method) (( void (*) (Enumerator_t8619 *, List_1_t4855 *, const MethodInfo*))Enumerator__ctor_m21394_gshared)(__this, ___l, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Security.Policy.StrongName>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m63525(__this, method) (( void (*) (Enumerator_t8619 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21395_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<System.Security.Policy.StrongName>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m63526(__this, method) (( Object_t * (*) (Enumerator_t8619 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21396_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Security.Policy.StrongName>::Dispose()
-#define Enumerator_Dispose_m63527(__this, method) (( void (*) (Enumerator_t8619 *, const MethodInfo*))Enumerator_Dispose_m21397_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Security.Policy.StrongName>::VerifyState()
-#define Enumerator_VerifyState_m63528(__this, method) (( void (*) (Enumerator_t8619 *, const MethodInfo*))Enumerator_VerifyState_m21398_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Security.Policy.StrongName>::MoveNext()
-#define Enumerator_MoveNext_m63529(__this, method) (( bool (*) (Enumerator_t8619 *, const MethodInfo*))Enumerator_MoveNext_m3632_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<System.Security.Policy.StrongName>::get_Current()
-#define Enumerator_get_Current_m63530(__this, method) (( StrongName_t4683 * (*) (Enumerator_t8619 *, const MethodInfo*))Enumerator_get_Current_m3631_gshared)(__this, method)
+#define Enumerator__ctor_m62833(__this, ___l, method) (( void (*) (Enumerator_t8572 *, List_1_t2889 *, const MethodInfo*))Enumerator__ctor_m21652_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::System.Collections.IEnumerator.Reset()
+#define Enumerator_System_Collections_IEnumerator_Reset_m62834(__this, method) (( void (*) (Enumerator_t8572 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21653_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m62835(__this, method) (( Object_t * (*) (Enumerator_t8572 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21654_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::Dispose()
+#define Enumerator_Dispose_m62836(__this, method) (( void (*) (Enumerator_t8572 *, const MethodInfo*))Enumerator_Dispose_m21655_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::VerifyState()
+#define Enumerator_VerifyState_m62837(__this, method) (( void (*) (Enumerator_t8572 *, const MethodInfo*))Enumerator_VerifyState_m21656_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::MoveNext()
+#define Enumerator_MoveNext_m62838(__this, method) (( bool (*) (Enumerator_t8572 *, const MethodInfo*))Enumerator_MoveNext_m3871_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::get_Current()
+#define Enumerator_get_Current_m62839(__this, method) (( BaseInvokableCall_t2883 * (*) (Enumerator_t8572 *, const MethodInfo*))Enumerator_get_Current_m3870_gshared)(__this, method)

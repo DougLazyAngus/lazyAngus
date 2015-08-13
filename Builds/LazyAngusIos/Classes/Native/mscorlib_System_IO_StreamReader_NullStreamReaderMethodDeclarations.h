@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.StreamReader/NullStreamReader
-struct NullStreamReader_t4452;
+struct NullStreamReader_t4498;
 // System.Char[]
-struct CharU5BU5D_t661;
+struct CharU5BU5D_t697;
 // System.String
 struct String_t;
 
 // System.Void System.IO.StreamReader/NullStreamReader::.ctor()
-extern "C" void NullStreamReader__ctor_m17249 (NullStreamReader_t4452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullStreamReader__ctor_m17507 (NullStreamReader_t4498 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.StreamReader/NullStreamReader::Peek()
-extern "C" int32_t NullStreamReader_Peek_m17250 (NullStreamReader_t4452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t NullStreamReader_Peek_m17508 (NullStreamReader_t4498 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.StreamReader/NullStreamReader::Read()
-extern "C" int32_t NullStreamReader_Read_m17251 (NullStreamReader_t4452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t NullStreamReader_Read_m17509 (NullStreamReader_t4498 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.StreamReader/NullStreamReader::Read(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t NullStreamReader_Read_m17252 (NullStreamReader_t4452 * __this, CharU5BU5D_t661* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t NullStreamReader_Read_m17510 (NullStreamReader_t4498 * __this, CharU5BU5D_t697* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.StreamReader/NullStreamReader::ReadLine()
-extern "C" String_t* NullStreamReader_ReadLine_m17253 (NullStreamReader_t4452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NullStreamReader_ReadLine_m17511 (NullStreamReader_t4498 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.StreamReader/NullStreamReader::ReadToEnd()
-extern "C" String_t* NullStreamReader_ReadToEnd_m17254 (NullStreamReader_t4452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NullStreamReader_ReadToEnd_m17512 (NullStreamReader_t4498 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

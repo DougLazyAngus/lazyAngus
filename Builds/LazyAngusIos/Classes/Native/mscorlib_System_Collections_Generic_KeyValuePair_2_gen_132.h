@@ -1,16 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.String
-struct String_t;
-// UnityEngine.GUIStyle
-struct GUIStyle_t107;
+// UnityEngine.GUILayoutUtility/LayoutCache
+struct LayoutCache_t2713;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>
-struct  KeyValuePair_2_t8334 
+// System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
+struct  KeyValuePair_2_t8395 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>::key
-	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>::value
-	GUIStyle_t107 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::key
+	int32_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::value
+	LayoutCache_t2713 * ___value_1;
 };

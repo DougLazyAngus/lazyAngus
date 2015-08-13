@@ -3,7 +3,7 @@
 // UnityEngine.GUILayoutEntry
 #include "UnityEngine_UnityEngine_GUILayoutEntry.h"
 // UnityEngine.GUIGridSizer
-struct  GUIGridSizer_t2668  : public GUILayoutEntry_t2665
+struct  GUIGridSizer_t2718  : public GUILayoutEntry_t2715
 {
 	// System.Int32 UnityEngine.GUIGridSizer::count
 	int32_t ___count_10;

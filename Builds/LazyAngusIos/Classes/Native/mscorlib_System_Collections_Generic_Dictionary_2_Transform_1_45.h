@@ -1,20 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Tuple`2<System.Type,System.Type>
-struct Tuple_2_t1390;
-// System.Func`3<System.Object,System.Object,System.Object>
-struct Func_3_t1141;
+// System.Object
+struct Object_t;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
-// System.Object
-struct Object_t;
-// System.Collections.DictionaryEntry
-#include "mscorlib_System_Collections_DictionaryEntry.h"
+// System.Collections.Generic.KeyValuePair`2<System.Int64,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_40.h"
+// System.Int64
+#include "mscorlib_System_Int64.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>,System.Collections.DictionaryEntry>
-struct  Transform_1_t6000  : public MulticastDelegate_t388
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Object,System.Collections.Generic.KeyValuePair`2<System.Int64,System.Object>>
+struct  Transform_1_t6016  : public MulticastDelegate_t388
 {
 };

@@ -1,16 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>
-struct Reference_t5857;
-// System.Object
-struct Object_t;
+// UnityEngine.UI.ICanvasElement
+struct ICanvasElement_t1041;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>
-struct  KeyValuePair_2_t5862 
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>
+struct  KeyValuePair_2_t5879 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::key
-	Reference_t5857 * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::value
-	Object_t * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>::key
+	Object_t * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>::value
+	int32_t ___value_1;
 };

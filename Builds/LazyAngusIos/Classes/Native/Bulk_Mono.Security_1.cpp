@@ -175,36 +175,36 @@
 
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern "C" void TlsServerCertificate__ctor_m12817 (TlsServerCertificate_t3845 * __this, Context_t3792 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method)
+extern "C" void TlsServerCertificate__ctor_m13072 (TlsServerCertificate_t3893 * __this, Context_t3840 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method)
 {
 	{
-		Context_t3792 * L_0 = ___context;
+		Context_t3840 * L_0 = ___context;
 		ByteU5BU5D_t66* L_1 = ___buffer;
-		HandshakeMessage__ctor_m12782(__this, L_0, ((int32_t)11), L_1, /*hidden argument*/NULL);
+		HandshakeMessage__ctor_m13037(__this, L_0, ((int32_t)11), L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::Update()
-extern "C" void TlsServerCertificate_Update_m12818 (TlsServerCertificate_t3845 * __this, const MethodInfo* method)
+extern "C" void TlsServerCertificate_Update_m13073 (TlsServerCertificate_t3893 * __this, const MethodInfo* method)
 {
 	{
-		HandshakeMessage_Update_m12787(__this, /*hidden argument*/NULL);
-		Context_t3792 * L_0 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		HandshakeMessage_Update_m13042(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_0 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TlsServerSettings_t3804 * L_1 = Context_get_ServerSettings_m12484(L_0, /*hidden argument*/NULL);
-		X509CertificateCollection_t3760 * L_2 = (__this->___certificates_9);
+		TlsServerSettings_t3852 * L_1 = Context_get_ServerSettings_m12739(L_0, /*hidden argument*/NULL);
+		X509CertificateCollection_t3808 * L_2 = (__this->___certificates_9);
 		NullCheck(L_1);
-		TlsServerSettings_set_Certificates_m12744(L_1, L_2, /*hidden argument*/NULL);
-		Context_t3792 * L_3 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		TlsServerSettings_set_Certificates_m12999(L_1, L_2, /*hidden argument*/NULL);
+		Context_t3840 * L_3 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		TlsServerSettings_t3804 * L_4 = Context_get_ServerSettings_m12484(L_3, /*hidden argument*/NULL);
+		TlsServerSettings_t3852 * L_4 = Context_get_ServerSettings_m12739(L_3, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		TlsServerSettings_UpdateCertificateRSA_m12753(L_4, /*hidden argument*/NULL);
+		TlsServerSettings_UpdateCertificateRSA_m13008(L_4, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::ProcessAsSsl3()
-extern "C" void TlsServerCertificate_ProcessAsSsl3_m12819 (TlsServerCertificate_t3845 * __this, const MethodInfo* method)
+extern "C" void TlsServerCertificate_ProcessAsSsl3_m13074 (TlsServerCertificate_t3893 * __this, const MethodInfo* method)
 {
 	{
 		VirtActionInvoker0::Invoke(26 /* System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::ProcessAsTls1() */, __this);
@@ -212,35 +212,35 @@ extern "C" void TlsServerCertificate_ProcessAsSsl3_m12819 (TlsServerCertificate_
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::ProcessAsTls1()
-extern TypeInfo* X509CertificateCollection_t3760_il2cpp_TypeInfo_var;
-extern TypeInfo* X509Certificate_t3765_il2cpp_TypeInfo_var;
-extern "C" void TlsServerCertificate_ProcessAsTls1_m12820 (TlsServerCertificate_t3845 * __this, const MethodInfo* method)
+extern TypeInfo* X509CertificateCollection_t3808_il2cpp_TypeInfo_var;
+extern TypeInfo* X509Certificate_t3813_il2cpp_TypeInfo_var;
+extern "C" void TlsServerCertificate_ProcessAsTls1_m13075 (TlsServerCertificate_t3893 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		X509CertificateCollection_t3760_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6520);
-		X509Certificate_t3765_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6526);
+		X509CertificateCollection_t3808_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6638);
+		X509Certificate_t3813_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6644);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	ByteU5BU5D_t66* V_3 = {0};
-	X509Certificate_t3765 * V_4 = {0};
+	X509Certificate_t3813 * V_4 = {0};
 	{
-		X509CertificateCollection_t3760 * L_0 = (X509CertificateCollection_t3760 *)il2cpp_codegen_object_new (X509CertificateCollection_t3760_il2cpp_TypeInfo_var);
-		X509CertificateCollection__ctor_m12258(L_0, /*hidden argument*/NULL);
+		X509CertificateCollection_t3808 * L_0 = (X509CertificateCollection_t3808 *)il2cpp_codegen_object_new (X509CertificateCollection_t3808_il2cpp_TypeInfo_var);
+		X509CertificateCollection__ctor_m12513(L_0, /*hidden argument*/NULL);
 		__this->___certificates_9 = L_0;
 		V_0 = 0;
-		int32_t L_1 = TlsStream_ReadInt24_m12766(__this, /*hidden argument*/NULL);
+		int32_t L_1 = TlsStream_ReadInt24_m13021(__this, /*hidden argument*/NULL);
 		V_1 = L_1;
 		goto IL_004d;
 	}
 
 IL_0019:
 	{
-		int32_t L_2 = TlsStream_ReadInt24_m12766(__this, /*hidden argument*/NULL);
+		int32_t L_2 = TlsStream_ReadInt24_m13021(__this, /*hidden argument*/NULL);
 		V_2 = L_2;
 		int32_t L_3 = V_0;
 		V_0 = ((int32_t)((int32_t)L_3+(int32_t)3));
@@ -252,16 +252,16 @@ IL_0019:
 	}
 	{
 		int32_t L_5 = V_2;
-		ByteU5BU5D_t66* L_6 = TlsStream_ReadBytes_m12767(__this, L_5, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_6 = TlsStream_ReadBytes_m13022(__this, L_5, /*hidden argument*/NULL);
 		V_3 = L_6;
 		ByteU5BU5D_t66* L_7 = V_3;
-		X509Certificate_t3765 * L_8 = (X509Certificate_t3765 *)il2cpp_codegen_object_new (X509Certificate_t3765_il2cpp_TypeInfo_var);
-		X509Certificate__ctor_m12218(L_8, L_7, /*hidden argument*/NULL);
+		X509Certificate_t3813 * L_8 = (X509Certificate_t3813 *)il2cpp_codegen_object_new (X509Certificate_t3813_il2cpp_TypeInfo_var);
+		X509Certificate__ctor_m12473(L_8, L_7, /*hidden argument*/NULL);
 		V_4 = L_8;
-		X509CertificateCollection_t3760 * L_9 = (__this->___certificates_9);
-		X509Certificate_t3765 * L_10 = V_4;
+		X509CertificateCollection_t3808 * L_9 = (__this->___certificates_9);
+		X509Certificate_t3813 * L_10 = V_4;
 		NullCheck(L_9);
-		X509CertificateCollection_Add_m12262(L_9, L_10, /*hidden argument*/NULL);
+		X509CertificateCollection_Add_m12517(L_9, L_10, /*hidden argument*/NULL);
 		int32_t L_11 = V_0;
 		int32_t L_12 = V_2;
 		V_0 = ((int32_t)((int32_t)L_11+(int32_t)L_12));
@@ -277,42 +277,42 @@ IL_004d:
 		}
 	}
 	{
-		X509CertificateCollection_t3760 * L_15 = (__this->___certificates_9);
-		TlsServerCertificate_validateCertificates_m12822(__this, L_15, /*hidden argument*/NULL);
+		X509CertificateCollection_t3808 * L_15 = (__this->___certificates_9);
+		TlsServerCertificate_validateCertificates_m13077(__this, L_15, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Boolean Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::checkCertificateUsage(Mono.Security.X509.X509Certificate)
-extern TypeInfo* ClientContext_t3798_il2cpp_TypeInfo_var;
-extern TypeInfo* KeyUsageExtension_t3781_il2cpp_TypeInfo_var;
-extern TypeInfo* ExtendedKeyUsageExtension_t3778_il2cpp_TypeInfo_var;
-extern TypeInfo* NetscapeCertTypeExtension_t3783_il2cpp_TypeInfo_var;
-extern "C" bool TlsServerCertificate_checkCertificateUsage_m12821 (TlsServerCertificate_t3845 * __this, X509Certificate_t3765 * ___cert, const MethodInfo* method)
+extern TypeInfo* ClientContext_t3846_il2cpp_TypeInfo_var;
+extern TypeInfo* KeyUsageExtension_t3829_il2cpp_TypeInfo_var;
+extern TypeInfo* ExtendedKeyUsageExtension_t3826_il2cpp_TypeInfo_var;
+extern TypeInfo* NetscapeCertTypeExtension_t3831_il2cpp_TypeInfo_var;
+extern "C" bool TlsServerCertificate_checkCertificateUsage_m13076 (TlsServerCertificate_t3893 * __this, X509Certificate_t3813 * ___cert, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ClientContext_t3798_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6552);
-		KeyUsageExtension_t3781_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6604);
-		ExtendedKeyUsageExtension_t3778_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6544);
-		NetscapeCertTypeExtension_t3783_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6605);
+		ClientContext_t3846_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6670);
+		KeyUsageExtension_t3829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6722);
+		ExtendedKeyUsageExtension_t3826_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6662);
+		NetscapeCertTypeExtension_t3831_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6723);
 		s_Il2CppMethodIntialized = true;
 	}
-	ClientContext_t3798 * V_0 = {0};
+	ClientContext_t3846 * V_0 = {0};
 	int32_t V_1 = {0};
-	KeyUsageExtension_t3781 * V_2 = {0};
-	ExtendedKeyUsageExtension_t3778 * V_3 = {0};
-	X509Extension_t3772 * V_4 = {0};
-	NetscapeCertTypeExtension_t3783 * V_5 = {0};
+	KeyUsageExtension_t3829 * V_2 = {0};
+	ExtendedKeyUsageExtension_t3826 * V_3 = {0};
+	X509Extension_t3820 * V_4 = {0};
+	NetscapeCertTypeExtension_t3831 * V_5 = {0};
 	int32_t V_6 = {0};
 	int32_t G_B19_0 = 0;
 	int32_t G_B26_0 = 0;
 	{
-		Context_t3792 * L_0 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
-		V_0 = ((ClientContext_t3798 *)Castclass(L_0, ClientContext_t3798_il2cpp_TypeInfo_var));
-		X509Certificate_t3765 * L_1 = ___cert;
+		Context_t3840 * L_0 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
+		V_0 = ((ClientContext_t3846 *)Castclass(L_0, ClientContext_t3846_il2cpp_TypeInfo_var));
+		X509Certificate_t3813 * L_1 = ___cert;
 		NullCheck(L_1);
-		int32_t L_2 = X509Certificate_get_Version_m12240(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = X509Certificate_get_Version_m12495(L_1, /*hidden argument*/NULL);
 		if ((((int32_t)L_2) >= ((int32_t)3)))
 		{
 			goto IL_001a;
@@ -325,13 +325,13 @@ extern "C" bool TlsServerCertificate_checkCertificateUsage_m12821 (TlsServerCert
 IL_001a:
 	{
 		V_1 = 0;
-		ClientContext_t3798 * L_3 = V_0;
+		ClientContext_t3846 * L_3 = V_0;
 		NullCheck(L_3);
-		SecurityParameters_t3806 * L_4 = Context_get_Negotiating_m12528(L_3, /*hidden argument*/NULL);
+		SecurityParameters_t3854 * L_4 = Context_get_Negotiating_m12783(L_3, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		CipherSuite_t3794 * L_5 = SecurityParameters_get_Cipher_m12598(L_4, /*hidden argument*/NULL);
+		CipherSuite_t3842 * L_5 = SecurityParameters_get_Cipher_m12853(L_4, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		int32_t L_6 = CipherSuite_get_ExchangeAlgorithmType_m12391(L_5, /*hidden argument*/NULL);
+		int32_t L_6 = CipherSuite_get_ExchangeAlgorithmType_m12646(L_5, /*hidden argument*/NULL);
 		V_6 = L_6;
 		int32_t L_7 = V_6;
 		if (L_7 == 0)
@@ -384,68 +384,68 @@ IL_0068:
 
 IL_006a:
 	{
-		V_2 = (KeyUsageExtension_t3781 *)NULL;
-		V_3 = (ExtendedKeyUsageExtension_t3778 *)NULL;
-		X509Certificate_t3765 * L_8 = ___cert;
+		V_2 = (KeyUsageExtension_t3829 *)NULL;
+		V_3 = (ExtendedKeyUsageExtension_t3826 *)NULL;
+		X509Certificate_t3813 * L_8 = ___cert;
 		NullCheck(L_8);
-		X509ExtensionCollection_t3764 * L_9 = X509Certificate_get_Extensions_m12224(L_8, /*hidden argument*/NULL);
+		X509ExtensionCollection_t3812 * L_9 = X509Certificate_get_Extensions_m12479(L_8, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		X509Extension_t3772 * L_10 = X509ExtensionCollection_get_Item_m12312(L_9, (String_t*) &_stringLiteral2825, /*hidden argument*/NULL);
+		X509Extension_t3820 * L_10 = X509ExtensionCollection_get_Item_m12567(L_9, (String_t*) &_stringLiteral2869, /*hidden argument*/NULL);
 		V_4 = L_10;
-		X509Extension_t3772 * L_11 = V_4;
+		X509Extension_t3820 * L_11 = V_4;
 		if (!L_11)
 		{
 			goto IL_008f;
 		}
 	}
 	{
-		X509Extension_t3772 * L_12 = V_4;
-		KeyUsageExtension_t3781 * L_13 = (KeyUsageExtension_t3781 *)il2cpp_codegen_object_new (KeyUsageExtension_t3781_il2cpp_TypeInfo_var);
-		KeyUsageExtension__ctor_m12346(L_13, L_12, /*hidden argument*/NULL);
+		X509Extension_t3820 * L_12 = V_4;
+		KeyUsageExtension_t3829 * L_13 = (KeyUsageExtension_t3829 *)il2cpp_codegen_object_new (KeyUsageExtension_t3829_il2cpp_TypeInfo_var);
+		KeyUsageExtension__ctor_m12601(L_13, L_12, /*hidden argument*/NULL);
 		V_2 = L_13;
 	}
 
 IL_008f:
 	{
-		X509Certificate_t3765 * L_14 = ___cert;
+		X509Certificate_t3813 * L_14 = ___cert;
 		NullCheck(L_14);
-		X509ExtensionCollection_t3764 * L_15 = X509Certificate_get_Extensions_m12224(L_14, /*hidden argument*/NULL);
+		X509ExtensionCollection_t3812 * L_15 = X509Certificate_get_Extensions_m12479(L_14, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		X509Extension_t3772 * L_16 = X509ExtensionCollection_get_Item_m12312(L_15, (String_t*) &_stringLiteral2826, /*hidden argument*/NULL);
+		X509Extension_t3820 * L_16 = X509ExtensionCollection_get_Item_m12567(L_15, (String_t*) &_stringLiteral2870, /*hidden argument*/NULL);
 		V_4 = L_16;
-		X509Extension_t3772 * L_17 = V_4;
+		X509Extension_t3820 * L_17 = V_4;
 		if (!L_17)
 		{
 			goto IL_00b0;
 		}
 	}
 	{
-		X509Extension_t3772 * L_18 = V_4;
-		ExtendedKeyUsageExtension_t3778 * L_19 = (ExtendedKeyUsageExtension_t3778 *)il2cpp_codegen_object_new (ExtendedKeyUsageExtension_t3778_il2cpp_TypeInfo_var);
-		ExtendedKeyUsageExtension__ctor_m12337(L_19, L_18, /*hidden argument*/NULL);
+		X509Extension_t3820 * L_18 = V_4;
+		ExtendedKeyUsageExtension_t3826 * L_19 = (ExtendedKeyUsageExtension_t3826 *)il2cpp_codegen_object_new (ExtendedKeyUsageExtension_t3826_il2cpp_TypeInfo_var);
+		ExtendedKeyUsageExtension__ctor_m12592(L_19, L_18, /*hidden argument*/NULL);
 		V_3 = L_19;
 	}
 
 IL_00b0:
 	{
-		KeyUsageExtension_t3781 * L_20 = V_2;
+		KeyUsageExtension_t3829 * L_20 = V_2;
 		if (!L_20)
 		{
 			goto IL_00f3;
 		}
 	}
 	{
-		ExtendedKeyUsageExtension_t3778 * L_21 = V_3;
+		ExtendedKeyUsageExtension_t3826 * L_21 = V_3;
 		if (!L_21)
 		{
 			goto IL_00f3;
 		}
 	}
 	{
-		KeyUsageExtension_t3781 * L_22 = V_2;
+		KeyUsageExtension_t3829 * L_22 = V_2;
 		int32_t L_23 = V_1;
 		NullCheck(L_22);
-		bool L_24 = KeyUsageExtension_Support_m12349(L_22, L_23, /*hidden argument*/NULL);
+		bool L_24 = KeyUsageExtension_Support_m12604(L_22, L_23, /*hidden argument*/NULL);
 		if (L_24)
 		{
 			goto IL_00ca;
@@ -457,22 +457,22 @@ IL_00b0:
 
 IL_00ca:
 	{
-		ExtendedKeyUsageExtension_t3778 * L_25 = V_3;
+		ExtendedKeyUsageExtension_t3826 * L_25 = V_3;
 		NullCheck(L_25);
-		ArrayList_t3111 * L_26 = ExtendedKeyUsageExtension_get_KeyPurpose_m12340(L_25, /*hidden argument*/NULL);
+		ArrayList_t698 * L_26 = ExtendedKeyUsageExtension_get_KeyPurpose_m12595(L_25, /*hidden argument*/NULL);
 		NullCheck(L_26);
-		bool L_27 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(31 /* System.Boolean System.Collections.ArrayList::Contains(System.Object) */, L_26, (String_t*) &_stringLiteral2702);
+		bool L_27 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(31 /* System.Boolean System.Collections.ArrayList::Contains(System.Object) */, L_26, (String_t*) &_stringLiteral2746);
 		if (L_27)
 		{
 			goto IL_00f1;
 		}
 	}
 	{
-		ExtendedKeyUsageExtension_t3778 * L_28 = V_3;
+		ExtendedKeyUsageExtension_t3826 * L_28 = V_3;
 		NullCheck(L_28);
-		ArrayList_t3111 * L_29 = ExtendedKeyUsageExtension_get_KeyPurpose_m12340(L_28, /*hidden argument*/NULL);
+		ArrayList_t698 * L_29 = ExtendedKeyUsageExtension_get_KeyPurpose_m12595(L_28, /*hidden argument*/NULL);
 		NullCheck(L_29);
-		bool L_30 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(31 /* System.Boolean System.Collections.ArrayList::Contains(System.Object) */, L_29, (String_t*) &_stringLiteral2827);
+		bool L_30 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(31 /* System.Boolean System.Collections.ArrayList::Contains(System.Object) */, L_29, (String_t*) &_stringLiteral2871);
 		G_B19_0 = ((int32_t)(L_30));
 		goto IL_00f2;
 	}
@@ -489,45 +489,45 @@ IL_00f2:
 
 IL_00f3:
 	{
-		KeyUsageExtension_t3781 * L_31 = V_2;
+		KeyUsageExtension_t3829 * L_31 = V_2;
 		if (!L_31)
 		{
 			goto IL_0101;
 		}
 	}
 	{
-		KeyUsageExtension_t3781 * L_32 = V_2;
+		KeyUsageExtension_t3829 * L_32 = V_2;
 		int32_t L_33 = V_1;
 		NullCheck(L_32);
-		bool L_34 = KeyUsageExtension_Support_m12349(L_32, L_33, /*hidden argument*/NULL);
+		bool L_34 = KeyUsageExtension_Support_m12604(L_32, L_33, /*hidden argument*/NULL);
 		return L_34;
 	}
 
 IL_0101:
 	{
-		ExtendedKeyUsageExtension_t3778 * L_35 = V_3;
+		ExtendedKeyUsageExtension_t3826 * L_35 = V_3;
 		if (!L_35)
 		{
 			goto IL_0130;
 		}
 	}
 	{
-		ExtendedKeyUsageExtension_t3778 * L_36 = V_3;
+		ExtendedKeyUsageExtension_t3826 * L_36 = V_3;
 		NullCheck(L_36);
-		ArrayList_t3111 * L_37 = ExtendedKeyUsageExtension_get_KeyPurpose_m12340(L_36, /*hidden argument*/NULL);
+		ArrayList_t698 * L_37 = ExtendedKeyUsageExtension_get_KeyPurpose_m12595(L_36, /*hidden argument*/NULL);
 		NullCheck(L_37);
-		bool L_38 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(31 /* System.Boolean System.Collections.ArrayList::Contains(System.Object) */, L_37, (String_t*) &_stringLiteral2702);
+		bool L_38 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(31 /* System.Boolean System.Collections.ArrayList::Contains(System.Object) */, L_37, (String_t*) &_stringLiteral2746);
 		if (L_38)
 		{
 			goto IL_012e;
 		}
 	}
 	{
-		ExtendedKeyUsageExtension_t3778 * L_39 = V_3;
+		ExtendedKeyUsageExtension_t3826 * L_39 = V_3;
 		NullCheck(L_39);
-		ArrayList_t3111 * L_40 = ExtendedKeyUsageExtension_get_KeyPurpose_m12340(L_39, /*hidden argument*/NULL);
+		ArrayList_t698 * L_40 = ExtendedKeyUsageExtension_get_KeyPurpose_m12595(L_39, /*hidden argument*/NULL);
 		NullCheck(L_40);
-		bool L_41 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(31 /* System.Boolean System.Collections.ArrayList::Contains(System.Object) */, L_40, (String_t*) &_stringLiteral2827);
+		bool L_41 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(31 /* System.Boolean System.Collections.ArrayList::Contains(System.Object) */, L_40, (String_t*) &_stringLiteral2871);
 		G_B26_0 = ((int32_t)(L_41));
 		goto IL_012f;
 	}
@@ -544,26 +544,26 @@ IL_012f:
 
 IL_0130:
 	{
-		X509Certificate_t3765 * L_42 = ___cert;
+		X509Certificate_t3813 * L_42 = ___cert;
 		NullCheck(L_42);
-		X509ExtensionCollection_t3764 * L_43 = X509Certificate_get_Extensions_m12224(L_42, /*hidden argument*/NULL);
+		X509ExtensionCollection_t3812 * L_43 = X509Certificate_get_Extensions_m12479(L_42, /*hidden argument*/NULL);
 		NullCheck(L_43);
-		X509Extension_t3772 * L_44 = X509ExtensionCollection_get_Item_m12312(L_43, (String_t*) &_stringLiteral2828, /*hidden argument*/NULL);
+		X509Extension_t3820 * L_44 = X509ExtensionCollection_get_Item_m12567(L_43, (String_t*) &_stringLiteral2872, /*hidden argument*/NULL);
 		V_4 = L_44;
-		X509Extension_t3772 * L_45 = V_4;
+		X509Extension_t3820 * L_45 = V_4;
 		if (!L_45)
 		{
 			goto IL_015c;
 		}
 	}
 	{
-		X509Extension_t3772 * L_46 = V_4;
-		NetscapeCertTypeExtension_t3783 * L_47 = (NetscapeCertTypeExtension_t3783 *)il2cpp_codegen_object_new (NetscapeCertTypeExtension_t3783_il2cpp_TypeInfo_var);
-		NetscapeCertTypeExtension__ctor_m12351(L_47, L_46, /*hidden argument*/NULL);
+		X509Extension_t3820 * L_46 = V_4;
+		NetscapeCertTypeExtension_t3831 * L_47 = (NetscapeCertTypeExtension_t3831 *)il2cpp_codegen_object_new (NetscapeCertTypeExtension_t3831_il2cpp_TypeInfo_var);
+		NetscapeCertTypeExtension__ctor_m12606(L_47, L_46, /*hidden argument*/NULL);
 		V_5 = L_47;
-		NetscapeCertTypeExtension_t3783 * L_48 = V_5;
+		NetscapeCertTypeExtension_t3831 * L_48 = V_5;
 		NullCheck(L_48);
-		bool L_49 = NetscapeCertTypeExtension_Support_m12353(L_48, ((int32_t)64), /*hidden argument*/NULL);
+		bool L_49 = NetscapeCertTypeExtension_Support_m12608(L_48, ((int32_t)64), /*hidden argument*/NULL);
 		return L_49;
 	}
 
@@ -574,50 +574,50 @@ IL_015c:
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::validateCertificates(Mono.Security.X509.X509CertificateCollection)
 extern const Il2CppType* Int32_t82_0_0_0_var;
-extern TypeInfo* ClientContext_t3798_il2cpp_TypeInfo_var;
+extern TypeInfo* ClientContext_t3846_il2cpp_TypeInfo_var;
 extern TypeInfo* Int64_t89_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* TlsException_t3835_il2cpp_TypeInfo_var;
-extern TypeInfo* X509Certificate_t3834_il2cpp_TypeInfo_var;
-extern TypeInfo* ArrayList_t3111_il2cpp_TypeInfo_var;
+extern TypeInfo* TlsException_t3883_il2cpp_TypeInfo_var;
+extern TypeInfo* X509Certificate_t3882_il2cpp_TypeInfo_var;
+extern TypeInfo* ArrayList_t698_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
-extern TypeInfo* X509CertificateCollection_t3760_il2cpp_TypeInfo_var;
-extern TypeInfo* X509Chain_t3768_il2cpp_TypeInfo_var;
+extern TypeInfo* X509CertificateCollection_t3808_il2cpp_TypeInfo_var;
+extern TypeInfo* X509Chain_t3816_il2cpp_TypeInfo_var;
 extern TypeInfo* Exception_t57_il2cpp_TypeInfo_var;
 extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
-extern TypeInfo* Int32U5BU5D_t549_il2cpp_TypeInfo_var;
-extern "C" void TlsServerCertificate_validateCertificates_m12822 (TlsServerCertificate_t3845 * __this, X509CertificateCollection_t3760 * ___certificates, const MethodInfo* method)
+extern TypeInfo* Int32U5BU5D_t484_il2cpp_TypeInfo_var;
+extern "C" void TlsServerCertificate_validateCertificates_m13077 (TlsServerCertificate_t3893 * __this, X509CertificateCollection_t3808 * ___certificates, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Int32_t82_0_0_0_var = il2cpp_codegen_type_from_index(75);
-		ClientContext_t3798_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6552);
+		ClientContext_t3846_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6670);
 		Int64_t89_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(77);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		TlsException_t3835_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6574);
-		X509Certificate_t3834_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6593);
-		ArrayList_t3111_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5313);
+		TlsException_t3883_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6692);
+		X509Certificate_t3882_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6711);
+		ArrayList_t698_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(438);
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
-		X509CertificateCollection_t3760_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6520);
-		X509Chain_t3768_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6606);
+		X509CertificateCollection_t3808_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6638);
+		X509Chain_t3816_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6724);
 		Exception_t57_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(29);
 		Type_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(410);
-		Int32U5BU5D_t549_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(471);
+		Int32U5BU5D_t484_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(454);
 		s_Il2CppMethodIntialized = true;
 	}
-	ClientContext_t3798 * V_0 = {0};
+	ClientContext_t3846 * V_0 = {0};
 	uint8_t V_1 = {0};
-	ValidationResult_t3825 * V_2 = {0};
+	ValidationResult_t3873 * V_2 = {0};
 	int64_t V_3 = 0;
 	String_t* V_4 = {0};
-	X509Certificate_t3765 * V_5 = {0};
-	X509Certificate_t3834 * V_6 = {0};
-	ArrayList_t3111 * V_7 = {0};
-	X509CertificateCollection_t3760 * V_8 = {0};
-	X509Chain_t3768 * V_9 = {0};
+	X509Certificate_t3813 * V_5 = {0};
+	X509Certificate_t3882 * V_6 = {0};
+	ArrayList_t698 * V_7 = {0};
+	X509CertificateCollection_t3808 * V_8 = {0};
+	X509Chain_t3816 * V_9 = {0};
 	bool V_10 = false;
-	Int32U5BU5D_t549* V_11 = {0};
+	Int32U5BU5D_t484* V_11 = {0};
 	int64_t V_12 = 0;
 	int32_t V_13 = {0};
 	Exception_t57 * __last_unhandled_exception = 0;
@@ -627,12 +627,12 @@ extern "C" void TlsServerCertificate_validateCertificates_m12822 (TlsServerCerti
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		Context_t3792 * L_0 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
-		V_0 = ((ClientContext_t3798 *)Castclass(L_0, ClientContext_t3798_il2cpp_TypeInfo_var));
+		Context_t3840 * L_0 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
+		V_0 = ((ClientContext_t3846 *)Castclass(L_0, ClientContext_t3846_il2cpp_TypeInfo_var));
 		V_1 = ((int32_t)42);
-		ClientContext_t3798 * L_1 = V_0;
+		ClientContext_t3846 * L_1 = V_0;
 		NullCheck(L_1);
-		SslClientStream_t3797 * L_2 = ClientContext_get_SslStream_m12444(L_1, /*hidden argument*/NULL);
+		SslClientStream_t3845 * L_2 = ClientContext_get_SslStream_m12699(L_1, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		bool L_3 = (bool)VirtFuncInvoker0< bool >::Invoke(31 /* System.Boolean Mono.Security.Protocol.Tls.SslClientStream::get_HaveRemoteValidation2Callback() */, L_2);
 		if (!L_3)
@@ -641,16 +641,16 @@ extern "C" void TlsServerCertificate_validateCertificates_m12822 (TlsServerCerti
 		}
 	}
 	{
-		ClientContext_t3798 * L_4 = V_0;
+		ClientContext_t3846 * L_4 = V_0;
 		NullCheck(L_4);
-		SslClientStream_t3797 * L_5 = ClientContext_get_SslStream_m12444(L_4, /*hidden argument*/NULL);
-		X509CertificateCollection_t3760 * L_6 = ___certificates;
+		SslClientStream_t3845 * L_5 = ClientContext_get_SslStream_m12699(L_4, /*hidden argument*/NULL);
+		X509CertificateCollection_t3808 * L_6 = ___certificates;
 		NullCheck(L_5);
-		ValidationResult_t3825 * L_7 = (ValidationResult_t3825 *)VirtFuncInvoker1< ValidationResult_t3825 *, X509CertificateCollection_t3760 * >::Invoke(34 /* Mono.Security.Protocol.Tls.ValidationResult Mono.Security.Protocol.Tls.SslClientStream::RaiseServerCertificateValidation2(Mono.Security.X509.X509CertificateCollection) */, L_5, L_6);
+		ValidationResult_t3873 * L_7 = (ValidationResult_t3873 *)VirtFuncInvoker1< ValidationResult_t3873 *, X509CertificateCollection_t3808 * >::Invoke(34 /* Mono.Security.Protocol.Tls.ValidationResult Mono.Security.Protocol.Tls.SslClientStream::RaiseServerCertificateValidation2(Mono.Security.X509.X509CertificateCollection) */, L_5, L_6);
 		V_2 = L_7;
-		ValidationResult_t3825 * L_8 = V_2;
+		ValidationResult_t3873 * L_8 = V_2;
 		NullCheck(L_8);
-		bool L_9 = ValidationResult_get_Trusted_m12606(L_8, /*hidden argument*/NULL);
+		bool L_9 = ValidationResult_get_Trusted_m12861(L_8, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_0038;
@@ -662,9 +662,9 @@ extern "C" void TlsServerCertificate_validateCertificates_m12822 (TlsServerCerti
 
 IL_0038:
 	{
-		ValidationResult_t3825 * L_10 = V_2;
+		ValidationResult_t3873 * L_10 = V_2;
 		NullCheck(L_10);
-		int32_t L_11 = ValidationResult_get_ErrorCode_m12607(L_10, /*hidden argument*/NULL);
+		int32_t L_11 = ValidationResult_get_ErrorCode_m12862(L_10, /*hidden argument*/NULL);
 		V_3 = (((int64_t)L_11));
 		int64_t L_12 = V_3;
 		V_12 = L_12;
@@ -722,40 +722,40 @@ IL_008f:
 		int64_t L_17 = L_16;
 		Object_t * L_18 = Box(Int64_t89_il2cpp_TypeInfo_var, &L_17);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_19 = String_Format_m3871(NULL /*static, unused*/, (String_t*) &_stringLiteral2829, L_18, /*hidden argument*/NULL);
+		String_t* L_19 = String_Format_m4110(NULL /*static, unused*/, (String_t*) &_stringLiteral2873, L_18, /*hidden argument*/NULL);
 		V_4 = L_19;
 		uint8_t L_20 = V_1;
 		String_t* L_21 = V_4;
-		String_t* L_22 = String_Concat_m408(NULL /*static, unused*/, (String_t*) &_stringLiteral2830, L_21, /*hidden argument*/NULL);
-		TlsException_t3835 * L_23 = (TlsException_t3835 *)il2cpp_codegen_object_new (TlsException_t3835_il2cpp_TypeInfo_var);
-		TlsException__ctor_m12738(L_23, L_20, L_22, /*hidden argument*/NULL);
+		String_t* L_22 = String_Concat_m408(NULL /*static, unused*/, (String_t*) &_stringLiteral2874, L_21, /*hidden argument*/NULL);
+		TlsException_t3883 * L_23 = (TlsException_t3883 *)il2cpp_codegen_object_new (TlsException_t3883_il2cpp_TypeInfo_var);
+		TlsException__ctor_m12993(L_23, L_20, L_22, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_23);
 	}
 
 IL_00b4:
 	{
-		X509CertificateCollection_t3760 * L_24 = ___certificates;
+		X509CertificateCollection_t3808 * L_24 = ___certificates;
 		NullCheck(L_24);
-		X509Certificate_t3765 * L_25 = X509CertificateCollection_get_Item_m12261(L_24, 0, /*hidden argument*/NULL);
+		X509Certificate_t3813 * L_25 = X509CertificateCollection_get_Item_m12516(L_24, 0, /*hidden argument*/NULL);
 		V_5 = L_25;
-		X509Certificate_t3765 * L_26 = V_5;
+		X509Certificate_t3813 * L_26 = V_5;
 		NullCheck(L_26);
 		ByteU5BU5D_t66* L_27 = (ByteU5BU5D_t66*)VirtFuncInvoker0< ByteU5BU5D_t66* >::Invoke(12 /* System.Byte[] Mono.Security.X509.X509Certificate::get_RawData() */, L_26);
-		X509Certificate_t3834 * L_28 = (X509Certificate_t3834 *)il2cpp_codegen_object_new (X509Certificate_t3834_il2cpp_TypeInfo_var);
-		X509Certificate__ctor_m12950(L_28, L_27, /*hidden argument*/NULL);
+		X509Certificate_t3882 * L_28 = (X509Certificate_t3882 *)il2cpp_codegen_object_new (X509Certificate_t3882_il2cpp_TypeInfo_var);
+		X509Certificate__ctor_m13205(L_28, L_27, /*hidden argument*/NULL);
 		V_6 = L_28;
-		ArrayList_t3111 * L_29 = (ArrayList_t3111 *)il2cpp_codegen_object_new (ArrayList_t3111_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m11181(L_29, /*hidden argument*/NULL);
+		ArrayList_t698 * L_29 = (ArrayList_t698 *)il2cpp_codegen_object_new (ArrayList_t698_il2cpp_TypeInfo_var);
+		ArrayList__ctor_m4133(L_29, /*hidden argument*/NULL);
 		V_7 = L_29;
-		X509Certificate_t3765 * L_30 = V_5;
-		bool L_31 = TlsServerCertificate_checkCertificateUsage_m12821(__this, L_30, /*hidden argument*/NULL);
+		X509Certificate_t3813 * L_30 = V_5;
+		bool L_31 = TlsServerCertificate_checkCertificateUsage_m13076(__this, L_30, /*hidden argument*/NULL);
 		if (L_31)
 		{
 			goto IL_00f1;
 		}
 	}
 	{
-		ArrayList_t3111 * L_32 = V_7;
+		ArrayList_t698 * L_32 = V_7;
 		int32_t L_33 = ((int32_t)-2146762490);
 		Object_t * L_34 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_33);
 		NullCheck(L_32);
@@ -764,15 +764,15 @@ IL_00b4:
 
 IL_00f1:
 	{
-		X509Certificate_t3765 * L_35 = V_5;
-		bool L_36 = TlsServerCertificate_checkServerIdentity_m12823(__this, L_35, /*hidden argument*/NULL);
+		X509Certificate_t3813 * L_35 = V_5;
+		bool L_36 = TlsServerCertificate_checkServerIdentity_m13078(__this, L_35, /*hidden argument*/NULL);
 		if (L_36)
 		{
 			goto IL_0110;
 		}
 	}
 	{
-		ArrayList_t3111 * L_37 = V_7;
+		ArrayList_t698 * L_37 = V_7;
 		int32_t L_38 = ((int32_t)-2146762481);
 		Object_t * L_39 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_38);
 		NullCheck(L_37);
@@ -781,17 +781,17 @@ IL_00f1:
 
 IL_0110:
 	{
-		X509CertificateCollection_t3760 * L_40 = ___certificates;
-		X509CertificateCollection_t3760 * L_41 = (X509CertificateCollection_t3760 *)il2cpp_codegen_object_new (X509CertificateCollection_t3760_il2cpp_TypeInfo_var);
-		X509CertificateCollection__ctor_m12259(L_41, L_40, /*hidden argument*/NULL);
+		X509CertificateCollection_t3808 * L_40 = ___certificates;
+		X509CertificateCollection_t3808 * L_41 = (X509CertificateCollection_t3808 *)il2cpp_codegen_object_new (X509CertificateCollection_t3808_il2cpp_TypeInfo_var);
+		X509CertificateCollection__ctor_m12514(L_41, L_40, /*hidden argument*/NULL);
 		V_8 = L_41;
-		X509CertificateCollection_t3760 * L_42 = V_8;
-		X509Certificate_t3765 * L_43 = V_5;
+		X509CertificateCollection_t3808 * L_42 = V_8;
+		X509Certificate_t3813 * L_43 = V_5;
 		NullCheck(L_42);
-		X509CertificateCollection_Remove_m12268(L_42, L_43, /*hidden argument*/NULL);
-		X509CertificateCollection_t3760 * L_44 = V_8;
-		X509Chain_t3768 * L_45 = (X509Chain_t3768 *)il2cpp_codegen_object_new (X509Chain_t3768_il2cpp_TypeInfo_var);
-		X509Chain__ctor_m12271(L_45, L_44, /*hidden argument*/NULL);
+		X509CertificateCollection_Remove_m12523(L_42, L_43, /*hidden argument*/NULL);
+		X509CertificateCollection_t3808 * L_44 = V_8;
+		X509Chain_t3816 * L_45 = (X509Chain_t3816 *)il2cpp_codegen_object_new (X509Chain_t3816_il2cpp_TypeInfo_var);
+		X509Chain__ctor_m12526(L_45, L_44, /*hidden argument*/NULL);
 		V_9 = L_45;
 		V_10 = 0;
 	}
@@ -799,10 +799,10 @@ IL_0110:
 IL_012d:
 	try
 	{ // begin try (depth: 1)
-		X509Chain_t3768 * L_46 = V_9;
-		X509Certificate_t3765 * L_47 = V_5;
+		X509Chain_t3816 * L_46 = V_9;
+		X509Certificate_t3813 * L_47 = V_5;
 		NullCheck(L_46);
-		bool L_48 = X509Chain_Build_m12274(L_46, L_47, /*hidden argument*/NULL);
+		bool L_48 = X509Chain_Build_m12529(L_46, L_47, /*hidden argument*/NULL);
 		V_10 = L_48;
 		goto IL_0146;
 	} // end try (depth: 1)
@@ -829,9 +829,9 @@ IL_0146:
 		}
 	}
 	{
-		X509Chain_t3768 * L_50 = V_9;
+		X509Chain_t3816 * L_50 = V_9;
 		NullCheck(L_50);
-		int32_t L_51 = X509Chain_get_Status_m12272(L_50, /*hidden argument*/NULL);
+		int32_t L_51 = X509Chain_get_Status_m12527(L_50, /*hidden argument*/NULL);
 		V_13 = L_51;
 		int32_t L_52 = V_13;
 		if ((((int32_t)L_52) == ((int32_t)1)))
@@ -880,7 +880,7 @@ IL_0146:
 
 IL_0194:
 	{
-		ArrayList_t3111 * L_58 = V_7;
+		ArrayList_t698 * L_58 = V_7;
 		int32_t L_59 = ((int32_t)-2146869223);
 		Object_t * L_60 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_59);
 		NullCheck(L_58);
@@ -890,7 +890,7 @@ IL_0194:
 
 IL_01ab:
 	{
-		ArrayList_t3111 * L_61 = V_7;
+		ArrayList_t698 * L_61 = V_7;
 		int32_t L_62 = ((int32_t)-2146869232);
 		Object_t * L_63 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_62);
 		NullCheck(L_61);
@@ -900,7 +900,7 @@ IL_01ab:
 
 IL_01c2:
 	{
-		ArrayList_t3111 * L_64 = V_7;
+		ArrayList_t698 * L_64 = V_7;
 		int32_t L_65 = ((int32_t)-2146762494);
 		Object_t * L_66 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_65);
 		NullCheck(L_64);
@@ -911,7 +911,7 @@ IL_01c2:
 IL_01d9:
 	{
 		V_1 = ((int32_t)45);
-		ArrayList_t3111 * L_67 = V_7;
+		ArrayList_t698 * L_67 = V_7;
 		int32_t L_68 = ((int32_t)-2146762495);
 		Object_t * L_69 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_68);
 		NullCheck(L_67);
@@ -922,7 +922,7 @@ IL_01d9:
 IL_01f3:
 	{
 		V_1 = ((int32_t)48);
-		ArrayList_t3111 * L_70 = V_7;
+		ArrayList_t698 * L_70 = V_7;
 		int32_t L_71 = ((int32_t)-2146762486);
 		Object_t * L_72 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_71);
 		NullCheck(L_70);
@@ -933,7 +933,7 @@ IL_01f3:
 IL_020d:
 	{
 		V_1 = ((int32_t)48);
-		ArrayList_t3111 * L_73 = V_7;
+		ArrayList_t698 * L_73 = V_7;
 		int32_t L_74 = ((int32_t)-2146762487);
 		Object_t * L_75 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_74);
 		NullCheck(L_73);
@@ -944,10 +944,10 @@ IL_020d:
 IL_0227:
 	{
 		V_1 = ((int32_t)46);
-		ArrayList_t3111 * L_76 = V_7;
-		X509Chain_t3768 * L_77 = V_9;
+		ArrayList_t698 * L_76 = V_7;
+		X509Chain_t3816 * L_77 = V_9;
 		NullCheck(L_77);
-		int32_t L_78 = X509Chain_get_Status_m12272(L_77, /*hidden argument*/NULL);
+		int32_t L_78 = X509Chain_get_Status_m12527(L_77, /*hidden argument*/NULL);
 		int32_t L_79 = L_78;
 		Object_t * L_80 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_79);
 		NullCheck(L_76);
@@ -957,19 +957,19 @@ IL_0227:
 
 IL_0243:
 	{
-		ArrayList_t3111 * L_81 = V_7;
+		ArrayList_t698 * L_81 = V_7;
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_82 = Type_GetTypeFromHandle_m3819(NULL /*static, unused*/, LoadTypeToken(Int32_t82_0_0_0_var), /*hidden argument*/NULL);
+		Type_t * L_82 = Type_GetTypeFromHandle_m4058(NULL /*static, unused*/, LoadTypeToken(Int32_t82_0_0_0_var), /*hidden argument*/NULL);
 		NullCheck(L_81);
 		Array_t * L_83 = (Array_t *)VirtFuncInvoker1< Array_t *, Type_t * >::Invoke(47 /* System.Array System.Collections.ArrayList::ToArray(System.Type) */, L_81, L_82);
-		V_11 = ((Int32U5BU5D_t549*)Castclass(L_83, Int32U5BU5D_t549_il2cpp_TypeInfo_var));
-		ClientContext_t3798 * L_84 = V_0;
+		V_11 = ((Int32U5BU5D_t484*)Castclass(L_83, Int32U5BU5D_t484_il2cpp_TypeInfo_var));
+		ClientContext_t3846 * L_84 = V_0;
 		NullCheck(L_84);
-		SslClientStream_t3797 * L_85 = ClientContext_get_SslStream_m12444(L_84, /*hidden argument*/NULL);
-		X509Certificate_t3834 * L_86 = V_6;
-		Int32U5BU5D_t549* L_87 = V_11;
+		SslClientStream_t3845 * L_85 = ClientContext_get_SslStream_m12699(L_84, /*hidden argument*/NULL);
+		X509Certificate_t3882 * L_86 = V_6;
+		Int32U5BU5D_t484* L_87 = V_11;
 		NullCheck(L_85);
-		bool L_88 = (bool)VirtFuncInvoker2< bool, X509Certificate_t3834 *, Int32U5BU5D_t549* >::Invoke(33 /* System.Boolean Mono.Security.Protocol.Tls.SslClientStream::RaiseServerCertificateValidation(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[]) */, L_85, L_86, L_87);
+		bool L_88 = (bool)VirtFuncInvoker2< bool, X509Certificate_t3882 *, Int32U5BU5D_t484* >::Invoke(33 /* System.Boolean Mono.Security.Protocol.Tls.SslClientStream::RaiseServerCertificateValidation(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[]) */, L_85, L_86, L_87);
 		if (L_88)
 		{
 			goto IL_027b;
@@ -977,8 +977,8 @@ IL_0243:
 	}
 	{
 		uint8_t L_89 = V_1;
-		TlsException_t3835 * L_90 = (TlsException_t3835 *)il2cpp_codegen_object_new (TlsException_t3835_il2cpp_TypeInfo_var);
-		TlsException__ctor_m12738(L_90, L_89, (String_t*) &_stringLiteral2831, /*hidden argument*/NULL);
+		TlsException_t3883 * L_90 = (TlsException_t3883 *)il2cpp_codegen_object_new (TlsException_t3883_il2cpp_TypeInfo_var);
+		TlsException__ctor_m12993(L_90, L_89, (String_t*) &_stringLiteral2875, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_90);
 	}
 
@@ -988,23 +988,23 @@ IL_027b:
 	}
 }
 // System.Boolean Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::checkServerIdentity(Mono.Security.X509.X509Certificate)
-extern TypeInfo* ClientContext_t3798_il2cpp_TypeInfo_var;
-extern TypeInfo* SubjectAltNameExtension_t3784_il2cpp_TypeInfo_var;
+extern TypeInfo* ClientContext_t3846_il2cpp_TypeInfo_var;
+extern TypeInfo* SubjectAltNameExtension_t3832_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" bool TlsServerCertificate_checkServerIdentity_m12823 (TlsServerCertificate_t3845 * __this, X509Certificate_t3765 * ___cert, const MethodInfo* method)
+extern "C" bool TlsServerCertificate_checkServerIdentity_m13078 (TlsServerCertificate_t3893 * __this, X509Certificate_t3813 * ___cert, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ClientContext_t3798_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6552);
-		SubjectAltNameExtension_t3784_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6607);
+		ClientContext_t3846_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6670);
+		SubjectAltNameExtension_t3832_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6725);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
 	}
-	ClientContext_t3798 * V_0 = {0};
+	ClientContext_t3846 * V_0 = {0};
 	String_t* V_1 = {0};
-	X509Extension_t3772 * V_2 = {0};
-	SubjectAltNameExtension_t3784 * V_3 = {0};
+	X509Extension_t3820 * V_2 = {0};
+	SubjectAltNameExtension_t3832 * V_3 = {0};
 	String_t* V_4 = {0};
 	StringU5BU5D_t75* V_5 = {0};
 	int32_t V_6 = 0;
@@ -1012,34 +1012,34 @@ extern "C" bool TlsServerCertificate_checkServerIdentity_m12823 (TlsServerCertif
 	StringU5BU5D_t75* V_8 = {0};
 	int32_t V_9 = 0;
 	{
-		Context_t3792 * L_0 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
-		V_0 = ((ClientContext_t3798 *)Castclass(L_0, ClientContext_t3798_il2cpp_TypeInfo_var));
-		ClientContext_t3798 * L_1 = V_0;
+		Context_t3840 * L_0 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
+		V_0 = ((ClientContext_t3846 *)Castclass(L_0, ClientContext_t3846_il2cpp_TypeInfo_var));
+		ClientContext_t3846 * L_1 = V_0;
 		NullCheck(L_1);
-		TlsClientSettings_t3805 * L_2 = Context_get_ClientSettings_m12485(L_1, /*hidden argument*/NULL);
+		TlsClientSettings_t3853 * L_2 = Context_get_ClientSettings_m12740(L_1, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		String_t* L_3 = TlsClientSettings_get_TargetHost_m12726(L_2, /*hidden argument*/NULL);
+		String_t* L_3 = TlsClientSettings_get_TargetHost_m12981(L_2, /*hidden argument*/NULL);
 		V_1 = L_3;
-		X509Certificate_t3765 * L_4 = ___cert;
+		X509Certificate_t3813 * L_4 = ___cert;
 		NullCheck(L_4);
-		X509ExtensionCollection_t3764 * L_5 = X509Certificate_get_Extensions_m12224(L_4, /*hidden argument*/NULL);
+		X509ExtensionCollection_t3812 * L_5 = X509Certificate_get_Extensions_m12479(L_4, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		X509Extension_t3772 * L_6 = X509ExtensionCollection_get_Item_m12312(L_5, (String_t*) &_stringLiteral2832, /*hidden argument*/NULL);
+		X509Extension_t3820 * L_6 = X509ExtensionCollection_get_Item_m12567(L_5, (String_t*) &_stringLiteral2876, /*hidden argument*/NULL);
 		V_2 = L_6;
-		X509Extension_t3772 * L_7 = V_2;
+		X509Extension_t3820 * L_7 = V_2;
 		if (!L_7)
 		{
 			goto IL_00a4;
 		}
 	}
 	{
-		X509Extension_t3772 * L_8 = V_2;
-		SubjectAltNameExtension_t3784 * L_9 = (SubjectAltNameExtension_t3784 *)il2cpp_codegen_object_new (SubjectAltNameExtension_t3784_il2cpp_TypeInfo_var);
-		SubjectAltNameExtension__ctor_m12355(L_9, L_8, /*hidden argument*/NULL);
+		X509Extension_t3820 * L_8 = V_2;
+		SubjectAltNameExtension_t3832 * L_9 = (SubjectAltNameExtension_t3832 *)il2cpp_codegen_object_new (SubjectAltNameExtension_t3832_il2cpp_TypeInfo_var);
+		SubjectAltNameExtension__ctor_m12610(L_9, L_8, /*hidden argument*/NULL);
 		V_3 = L_9;
-		SubjectAltNameExtension_t3784 * L_10 = V_3;
+		SubjectAltNameExtension_t3832 * L_10 = V_3;
 		NullCheck(L_10);
-		StringU5BU5D_t75* L_11 = SubjectAltNameExtension_get_DNSNames_m12357(L_10, /*hidden argument*/NULL);
+		StringU5BU5D_t75* L_11 = SubjectAltNameExtension_get_DNSNames_m12612(L_10, /*hidden argument*/NULL);
 		V_5 = L_11;
 		V_6 = 0;
 		goto IL_0062;
@@ -1055,7 +1055,7 @@ IL_0046:
 		V_4 = (*(String_t**)(String_t**)SZArrayLdElema(L_12, L_14));
 		String_t* L_15 = V_1;
 		String_t* L_16 = V_4;
-		bool L_17 = TlsServerCertificate_Match_m12825(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
+		bool L_17 = TlsServerCertificate_Match_m13080(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
 		if (!L_17)
 		{
 			goto IL_005c;
@@ -1082,9 +1082,9 @@ IL_0062:
 		}
 	}
 	{
-		SubjectAltNameExtension_t3784 * L_21 = V_3;
+		SubjectAltNameExtension_t3832 * L_21 = V_3;
 		NullCheck(L_21);
-		StringU5BU5D_t75* L_22 = SubjectAltNameExtension_get_IPAddresses_m12358(L_21, /*hidden argument*/NULL);
+		StringU5BU5D_t75* L_22 = SubjectAltNameExtension_get_IPAddresses_m12613(L_21, /*hidden argument*/NULL);
 		V_8 = L_22;
 		V_9 = 0;
 		goto IL_0099;
@@ -1130,46 +1130,46 @@ IL_0099:
 
 IL_00a4:
 	{
-		X509Certificate_t3765 * L_32 = ___cert;
+		X509Certificate_t3813 * L_32 = ___cert;
 		NullCheck(L_32);
 		String_t* L_33 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(16 /* System.String Mono.Security.X509.X509Certificate::get_SubjectName() */, L_32);
-		bool L_34 = TlsServerCertificate_checkDomainName_m12824(__this, L_33, /*hidden argument*/NULL);
+		bool L_34 = TlsServerCertificate_checkDomainName_m13079(__this, L_33, /*hidden argument*/NULL);
 		return L_34;
 	}
 }
 // System.Boolean Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::checkDomainName(System.String)
-extern TypeInfo* ClientContext_t3798_il2cpp_TypeInfo_var;
+extern TypeInfo* ClientContext_t3846_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* Regex_t1125_il2cpp_TypeInfo_var;
-extern "C" bool TlsServerCertificate_checkDomainName_m12824 (TlsServerCertificate_t3845 * __this, String_t* ___subjectName, const MethodInfo* method)
+extern TypeInfo* Regex_t787_il2cpp_TypeInfo_var;
+extern "C" bool TlsServerCertificate_checkDomainName_m13079 (TlsServerCertificate_t3893 * __this, String_t* ___subjectName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ClientContext_t3798_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6552);
+		ClientContext_t3846_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6670);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		Regex_t1125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2362);
+		Regex_t787_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(450);
 		s_Il2CppMethodIntialized = true;
 	}
-	ClientContext_t3798 * V_0 = {0};
+	ClientContext_t3846 * V_0 = {0};
 	String_t* V_1 = {0};
-	Regex_t1125 * V_2 = {0};
-	MatchCollection_t3895 * V_3 = {0};
+	Regex_t787 * V_2 = {0};
+	MatchCollection_t3943 * V_3 = {0};
 	{
-		Context_t3792 * L_0 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
-		V_0 = ((ClientContext_t3798 *)Castclass(L_0, ClientContext_t3798_il2cpp_TypeInfo_var));
+		Context_t3840 * L_0 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
+		V_0 = ((ClientContext_t3846 *)Castclass(L_0, ClientContext_t3846_il2cpp_TypeInfo_var));
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		V_1 = L_1;
-		Regex_t1125 * L_2 = (Regex_t1125 *)il2cpp_codegen_object_new (Regex_t1125_il2cpp_TypeInfo_var);
-		Regex__ctor_m7099(L_2, (String_t*) &_stringLiteral2833, /*hidden argument*/NULL);
+		Regex_t787 * L_2 = (Regex_t787 *)il2cpp_codegen_object_new (Regex_t787_il2cpp_TypeInfo_var);
+		Regex__ctor_m7358(L_2, (String_t*) &_stringLiteral2877, /*hidden argument*/NULL);
 		V_2 = L_2;
-		Regex_t1125 * L_3 = V_2;
+		Regex_t787 * L_3 = V_2;
 		String_t* L_4 = ___subjectName;
 		NullCheck(L_3);
-		MatchCollection_t3895 * L_5 = Regex_Matches_m12956(L_3, L_4, /*hidden argument*/NULL);
+		MatchCollection_t3943 * L_5 = Regex_Matches_m13211(L_3, L_4, /*hidden argument*/NULL);
 		V_3 = L_5;
-		MatchCollection_t3895 * L_6 = V_3;
+		MatchCollection_t3943 * L_6 = V_3;
 		NullCheck(L_6);
 		int32_t L_7 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 System.Text.RegularExpressions.MatchCollection::get_Count() */, L_6);
 		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
@@ -1178,26 +1178,26 @@ extern "C" bool TlsServerCertificate_checkDomainName_m12824 (TlsServerCertificat
 		}
 	}
 	{
-		MatchCollection_t3895 * L_8 = V_3;
+		MatchCollection_t3943 * L_8 = V_3;
 		NullCheck(L_8);
-		Match_t1323 * L_9 = (Match_t1323 *)VirtFuncInvoker1< Match_t1323 *, int32_t >::Invoke(9 /* System.Text.RegularExpressions.Match System.Text.RegularExpressions.MatchCollection::get_Item(System.Int32) */, L_8, 0);
+		Match_t1374 * L_9 = (Match_t1374 *)VirtFuncInvoker1< Match_t1374 *, int32_t >::Invoke(9 /* System.Text.RegularExpressions.Match System.Text.RegularExpressions.MatchCollection::get_Item(System.Int32) */, L_8, 0);
 		NullCheck(L_9);
-		bool L_10 = Group_get_Success_m7092(L_9, /*hidden argument*/NULL);
+		bool L_10 = Group_get_Success_m7351(L_9, /*hidden argument*/NULL);
 		if (!L_10)
 		{
 			goto IL_005f;
 		}
 	}
 	{
-		MatchCollection_t3895 * L_11 = V_3;
+		MatchCollection_t3943 * L_11 = V_3;
 		NullCheck(L_11);
-		Match_t1323 * L_12 = (Match_t1323 *)VirtFuncInvoker1< Match_t1323 *, int32_t >::Invoke(9 /* System.Text.RegularExpressions.Match System.Text.RegularExpressions.MatchCollection::get_Item(System.Int32) */, L_11, 0);
+		Match_t1374 * L_12 = (Match_t1374 *)VirtFuncInvoker1< Match_t1374 *, int32_t >::Invoke(9 /* System.Text.RegularExpressions.Match System.Text.RegularExpressions.MatchCollection::get_Item(System.Int32) */, L_11, 0);
 		NullCheck(L_12);
-		GroupCollection_t1386 * L_13 = (GroupCollection_t1386 *)VirtFuncInvoker0< GroupCollection_t1386 * >::Invoke(4 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_12);
+		GroupCollection_t1437 * L_13 = (GroupCollection_t1437 *)VirtFuncInvoker0< GroupCollection_t1437 * >::Invoke(4 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_12);
 		NullCheck(L_13);
-		Group_t1384 * L_14 = GroupCollection_get_Item_m12957(L_13, 1, /*hidden argument*/NULL);
+		Group_t1435 * L_14 = GroupCollection_get_Item_m13212(L_13, 1, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		String_t* L_15 = Capture_get_Value_m7084(L_14, /*hidden argument*/NULL);
+		String_t* L_15 = Capture_get_Value_m7343(L_14, /*hidden argument*/NULL);
 		NullCheck(L_15);
 		String_t* L_16 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.String::ToString() */, L_15);
 		V_1 = L_16;
@@ -1205,25 +1205,25 @@ extern "C" bool TlsServerCertificate_checkDomainName_m12824 (TlsServerCertificat
 
 IL_005f:
 	{
-		ClientContext_t3798 * L_17 = V_0;
+		ClientContext_t3846 * L_17 = V_0;
 		NullCheck(L_17);
-		TlsClientSettings_t3805 * L_18 = Context_get_ClientSettings_m12485(L_17, /*hidden argument*/NULL);
+		TlsClientSettings_t3853 * L_18 = Context_get_ClientSettings_m12740(L_17, /*hidden argument*/NULL);
 		NullCheck(L_18);
-		String_t* L_19 = TlsClientSettings_get_TargetHost_m12726(L_18, /*hidden argument*/NULL);
+		String_t* L_19 = TlsClientSettings_get_TargetHost_m12981(L_18, /*hidden argument*/NULL);
 		String_t* L_20 = V_1;
-		bool L_21 = TlsServerCertificate_Match_m12825(NULL /*static, unused*/, L_19, L_20, /*hidden argument*/NULL);
+		bool L_21 = TlsServerCertificate_Match_m13080(NULL /*static, unused*/, L_19, L_20, /*hidden argument*/NULL);
 		return L_21;
 	}
 }
 // System.Boolean Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::Match(System.String,System.String)
-extern TypeInfo* CultureInfo_t719_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t768_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" bool TlsServerCertificate_Match_m12825 (Object_t * __this /* static, unused */, String_t* ___hostname, String_t* ___pattern, const MethodInfo* method)
+extern "C" bool TlsServerCertificate_Match_m13080 (Object_t * __this /* static, unused */, String_t* ___hostname, String_t* ___pattern, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CultureInfo_t719_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
+		CultureInfo_t768_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -1237,7 +1237,7 @@ extern "C" bool TlsServerCertificate_Match_m12825 (Object_t * __this /* static, 
 	{
 		String_t* L_0 = ___pattern;
 		NullCheck(L_0);
-		int32_t L_1 = String_IndexOf_m3604(L_0, ((int32_t)42), /*hidden argument*/NULL);
+		int32_t L_1 = String_IndexOf_m3843(L_0, ((int32_t)42), /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
@@ -1248,10 +1248,10 @@ extern "C" bool TlsServerCertificate_Match_m12825 (Object_t * __this /* static, 
 	{
 		String_t* L_3 = ___hostname;
 		String_t* L_4 = ___pattern;
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t719_il2cpp_TypeInfo_var);
-		CultureInfo_t719 * L_5 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t768_il2cpp_TypeInfo_var);
+		CultureInfo_t768 * L_5 = CultureInfo_get_InvariantCulture_m4062(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		int32_t L_6 = String_Compare_m11199(NULL /*static, unused*/, L_3, L_4, 1, L_5, /*hidden argument*/NULL);
+		int32_t L_6 = String_Compare_m11454(NULL /*static, unused*/, L_3, L_4, 1, L_5, /*hidden argument*/NULL);
 		return ((((int32_t)L_6) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -1285,7 +1285,7 @@ IL_0041:
 		String_t* L_13 = ___pattern;
 		int32_t L_14 = V_0;
 		NullCheck(L_13);
-		int32_t L_15 = String_IndexOf_m9847(L_13, ((int32_t)42), ((int32_t)((int32_t)L_14+(int32_t)1)), /*hidden argument*/NULL);
+		int32_t L_15 = String_IndexOf_m10105(L_13, ((int32_t)42), ((int32_t)((int32_t)L_14+(int32_t)1)), /*hidden argument*/NULL);
 		V_1 = L_15;
 		int32_t L_16 = V_1;
 		if ((((int32_t)L_16) == ((int32_t)(-1))))
@@ -1302,7 +1302,7 @@ IL_0056:
 		String_t* L_17 = ___pattern;
 		int32_t L_18 = V_0;
 		NullCheck(L_17);
-		String_t* L_19 = String_Substring_m3883(L_17, ((int32_t)((int32_t)L_18+(int32_t)1)), /*hidden argument*/NULL);
+		String_t* L_19 = String_Substring_m4122(L_17, ((int32_t)((int32_t)L_18+(int32_t)1)), /*hidden argument*/NULL);
 		V_2 = L_19;
 		String_t* L_20 = ___hostname;
 		NullCheck(L_20);
@@ -1329,10 +1329,10 @@ IL_0077:
 		String_t* L_28 = V_2;
 		NullCheck(L_28);
 		int32_t L_29 = String_get_Length_m410(L_28, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t719_il2cpp_TypeInfo_var);
-		CultureInfo_t719 * L_30 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t768_il2cpp_TypeInfo_var);
+		CultureInfo_t768 * L_30 = CultureInfo_get_InvariantCulture_m4062(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		int32_t L_31 = String_Compare_m12958(NULL /*static, unused*/, L_25, L_26, L_27, 0, L_29, 1, L_30, /*hidden argument*/NULL);
+		int32_t L_31 = String_Compare_m13213(NULL /*static, unused*/, L_25, L_26, L_27, 0, L_29, 1, L_30, /*hidden argument*/NULL);
 		if (!L_31)
 		{
 			goto IL_0093;
@@ -1353,7 +1353,7 @@ IL_0093:
 	{
 		String_t* L_33 = ___hostname;
 		NullCheck(L_33);
-		int32_t L_34 = String_IndexOf_m3604(L_33, ((int32_t)46), /*hidden argument*/NULL);
+		int32_t L_34 = String_IndexOf_m3843(L_33, ((int32_t)46), /*hidden argument*/NULL);
 		V_4 = L_34;
 		int32_t L_35 = V_4;
 		if ((((int32_t)L_35) == ((int32_t)(-1))))
@@ -1395,10 +1395,10 @@ IL_00c3:
 		String_t* L_46 = V_5;
 		NullCheck(L_46);
 		int32_t L_47 = String_get_Length_m410(L_46, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t719_il2cpp_TypeInfo_var);
-		CultureInfo_t719 * L_48 = CultureInfo_get_InvariantCulture_m3823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t768_il2cpp_TypeInfo_var);
+		CultureInfo_t768 * L_48 = CultureInfo_get_InvariantCulture_m4062(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		int32_t L_49 = String_Compare_m12958(NULL /*static, unused*/, L_44, 0, L_45, 0, L_47, 1, L_48, /*hidden argument*/NULL);
+		int32_t L_49 = String_Compare_m13213(NULL /*static, unused*/, L_44, 0, L_45, 0, L_47, 1, L_48, /*hidden argument*/NULL);
 		return ((((int32_t)L_49) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -1426,42 +1426,42 @@ IL_00c3:
 
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern "C" void TlsServerCertificateRequest__ctor_m12826 (TlsServerCertificateRequest_t3846 * __this, Context_t3792 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method)
+extern "C" void TlsServerCertificateRequest__ctor_m13081 (TlsServerCertificateRequest_t3894 * __this, Context_t3840 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method)
 {
 	{
-		Context_t3792 * L_0 = ___context;
+		Context_t3840 * L_0 = ___context;
 		ByteU5BU5D_t66* L_1 = ___buffer;
-		HandshakeMessage__ctor_m12782(__this, L_0, ((int32_t)13), L_1, /*hidden argument*/NULL);
+		HandshakeMessage__ctor_m13037(__this, L_0, ((int32_t)13), L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::Update()
-extern "C" void TlsServerCertificateRequest_Update_m12827 (TlsServerCertificateRequest_t3846 * __this, const MethodInfo* method)
+extern "C" void TlsServerCertificateRequest_Update_m13082 (TlsServerCertificateRequest_t3894 * __this, const MethodInfo* method)
 {
 	{
-		HandshakeMessage_Update_m12787(__this, /*hidden argument*/NULL);
-		Context_t3792 * L_0 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		HandshakeMessage_Update_m13042(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_0 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TlsServerSettings_t3804 * L_1 = Context_get_ServerSettings_m12484(L_0, /*hidden argument*/NULL);
-		ClientCertificateTypeU5BU5D_t3836* L_2 = (__this->___certificateTypes_9);
+		TlsServerSettings_t3852 * L_1 = Context_get_ServerSettings_m12739(L_0, /*hidden argument*/NULL);
+		ClientCertificateTypeU5BU5D_t3884* L_2 = (__this->___certificateTypes_9);
 		NullCheck(L_1);
-		TlsServerSettings_set_CertificateTypes_m12751(L_1, L_2, /*hidden argument*/NULL);
-		Context_t3792 * L_3 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		TlsServerSettings_set_CertificateTypes_m13006(L_1, L_2, /*hidden argument*/NULL);
+		Context_t3840 * L_3 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		TlsServerSettings_t3804 * L_4 = Context_get_ServerSettings_m12484(L_3, /*hidden argument*/NULL);
+		TlsServerSettings_t3852 * L_4 = Context_get_ServerSettings_m12739(L_3, /*hidden argument*/NULL);
 		StringU5BU5D_t75* L_5 = (__this->___distinguisedNames_10);
 		NullCheck(L_4);
-		TlsServerSettings_set_DistinguisedNames_m12752(L_4, L_5, /*hidden argument*/NULL);
-		Context_t3792 * L_6 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		TlsServerSettings_set_DistinguisedNames_m13007(L_4, L_5, /*hidden argument*/NULL);
+		Context_t3840 * L_6 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		TlsServerSettings_t3804 * L_7 = Context_get_ServerSettings_m12484(L_6, /*hidden argument*/NULL);
+		TlsServerSettings_t3852 * L_7 = Context_get_ServerSettings_m12739(L_6, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		TlsServerSettings_set_CertificateRequest_m12750(L_7, 1, /*hidden argument*/NULL);
+		TlsServerSettings_set_CertificateRequest_m13005(L_7, 1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::ProcessAsSsl3()
-extern "C" void TlsServerCertificateRequest_ProcessAsSsl3_m12828 (TlsServerCertificateRequest_t3846 * __this, const MethodInfo* method)
+extern "C" void TlsServerCertificateRequest_ProcessAsSsl3_m13083 (TlsServerCertificateRequest_t3894 * __this, const MethodInfo* method)
 {
 	{
 		VirtActionInvoker0::Invoke(26 /* System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::ProcessAsTls1() */, __this);
@@ -1469,40 +1469,40 @@ extern "C" void TlsServerCertificateRequest_ProcessAsSsl3_m12828 (TlsServerCerti
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::ProcessAsTls1()
-extern TypeInfo* ClientCertificateTypeU5BU5D_t3836_il2cpp_TypeInfo_var;
-extern TypeInfo* ASN1_t3736_il2cpp_TypeInfo_var;
+extern TypeInfo* ClientCertificateTypeU5BU5D_t3884_il2cpp_TypeInfo_var;
+extern TypeInfo* ASN1_t3784_il2cpp_TypeInfo_var;
 extern TypeInfo* StringU5BU5D_t75_il2cpp_TypeInfo_var;
-extern TypeInfo* Encoding_t690_il2cpp_TypeInfo_var;
-extern "C" void TlsServerCertificateRequest_ProcessAsTls1_m12829 (TlsServerCertificateRequest_t3846 * __this, const MethodInfo* method)
+extern TypeInfo* Encoding_t739_il2cpp_TypeInfo_var;
+extern "C" void TlsServerCertificateRequest_ProcessAsTls1_m13084 (TlsServerCertificateRequest_t3894 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ClientCertificateTypeU5BU5D_t3836_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6608);
-		ASN1_t3736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6504);
+		ClientCertificateTypeU5BU5D_t3884_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6726);
+		ASN1_t3784_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6622);
 		StringU5BU5D_t75_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(50);
-		Encoding_t690_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		Encoding_t739_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	ASN1_t3736 * V_2 = {0};
+	ASN1_t3784 * V_2 = {0};
 	int32_t V_3 = 0;
-	ASN1_t3736 * V_4 = {0};
+	ASN1_t3784 * V_4 = {0};
 	{
-		uint8_t L_0 = TlsStream_ReadByte_m12764(__this, /*hidden argument*/NULL);
+		uint8_t L_0 = TlsStream_ReadByte_m13019(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
-		__this->___certificateTypes_9 = ((ClientCertificateTypeU5BU5D_t3836*)SZArrayNew(ClientCertificateTypeU5BU5D_t3836_il2cpp_TypeInfo_var, L_1));
+		__this->___certificateTypes_9 = ((ClientCertificateTypeU5BU5D_t3884*)SZArrayNew(ClientCertificateTypeU5BU5D_t3884_il2cpp_TypeInfo_var, L_1));
 		V_1 = 0;
 		goto IL_002c;
 	}
 
 IL_001a:
 	{
-		ClientCertificateTypeU5BU5D_t3836* L_2 = (__this->___certificateTypes_9);
+		ClientCertificateTypeU5BU5D_t3884* L_2 = (__this->___certificateTypes_9);
 		int32_t L_3 = V_1;
-		uint8_t L_4 = TlsStream_ReadByte_m12764(__this, /*hidden argument*/NULL);
+		uint8_t L_4 = TlsStream_ReadByte_m13019(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, L_3);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_2, L_3)) = (int32_t)L_4;
@@ -1520,21 +1520,21 @@ IL_002c:
 		}
 	}
 	{
-		int16_t L_8 = TlsStream_ReadInt16_m12765(__this, /*hidden argument*/NULL);
+		int16_t L_8 = TlsStream_ReadInt16_m13020(__this, /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_00aa;
 		}
 	}
 	{
-		int16_t L_9 = TlsStream_ReadInt16_m12765(__this, /*hidden argument*/NULL);
-		ByteU5BU5D_t66* L_10 = TlsStream_ReadBytes_m12767(__this, L_9, /*hidden argument*/NULL);
-		ASN1_t3736 * L_11 = (ASN1_t3736 *)il2cpp_codegen_object_new (ASN1_t3736_il2cpp_TypeInfo_var);
-		ASN1__ctor_m12075(L_11, L_10, /*hidden argument*/NULL);
+		int16_t L_9 = TlsStream_ReadInt16_m13020(__this, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_10 = TlsStream_ReadBytes_m13022(__this, L_9, /*hidden argument*/NULL);
+		ASN1_t3784 * L_11 = (ASN1_t3784 *)il2cpp_codegen_object_new (ASN1_t3784_il2cpp_TypeInfo_var);
+		ASN1__ctor_m12330(L_11, L_10, /*hidden argument*/NULL);
 		V_2 = L_11;
-		ASN1_t3736 * L_12 = V_2;
+		ASN1_t3784 * L_12 = V_2;
 		NullCheck(L_12);
-		int32_t L_13 = ASN1_get_Count_m12076(L_12, /*hidden argument*/NULL);
+		int32_t L_13 = ASN1_get_Count_m12331(L_12, /*hidden argument*/NULL);
 		__this->___distinguisedNames_10 = ((StringU5BU5D_t75*)SZArrayNew(StringU5BU5D_t75_il2cpp_TypeInfo_var, L_13));
 		V_3 = 0;
 		goto IL_009e;
@@ -1542,24 +1542,24 @@ IL_002c:
 
 IL_0068:
 	{
-		ASN1_t3736 * L_14 = V_2;
+		ASN1_t3784 * L_14 = V_2;
 		int32_t L_15 = V_3;
 		NullCheck(L_14);
-		ASN1_t3736 * L_16 = ASN1_get_Item_m12087(L_14, L_15, /*hidden argument*/NULL);
+		ASN1_t3784 * L_16 = ASN1_get_Item_m12342(L_14, L_15, /*hidden argument*/NULL);
 		NullCheck(L_16);
-		ByteU5BU5D_t66* L_17 = ASN1_get_Value_m12079(L_16, /*hidden argument*/NULL);
-		ASN1_t3736 * L_18 = (ASN1_t3736 *)il2cpp_codegen_object_new (ASN1_t3736_il2cpp_TypeInfo_var);
-		ASN1__ctor_m12075(L_18, L_17, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_17 = ASN1_get_Value_m12334(L_16, /*hidden argument*/NULL);
+		ASN1_t3784 * L_18 = (ASN1_t3784 *)il2cpp_codegen_object_new (ASN1_t3784_il2cpp_TypeInfo_var);
+		ASN1__ctor_m12330(L_18, L_17, /*hidden argument*/NULL);
 		V_4 = L_18;
 		StringU5BU5D_t75* L_19 = (__this->___distinguisedNames_10);
 		int32_t L_20 = V_3;
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t690_il2cpp_TypeInfo_var);
-		Encoding_t690 * L_21 = Encoding_get_UTF8_m3598(NULL /*static, unused*/, /*hidden argument*/NULL);
-		ASN1_t3736 * L_22 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t739_il2cpp_TypeInfo_var);
+		Encoding_t739 * L_21 = Encoding_get_UTF8_m3837(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ASN1_t3784 * L_22 = V_4;
 		NullCheck(L_22);
-		ASN1_t3736 * L_23 = ASN1_get_Item_m12087(L_22, 1, /*hidden argument*/NULL);
+		ASN1_t3784 * L_23 = ASN1_get_Item_m12342(L_22, 1, /*hidden argument*/NULL);
 		NullCheck(L_23);
-		ByteU5BU5D_t66* L_24 = ASN1_get_Value_m12079(L_23, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_24 = ASN1_get_Value_m12334(L_23, /*hidden argument*/NULL);
 		NullCheck(L_21);
 		String_t* L_25 = (String_t*)VirtFuncInvoker1< String_t*, ByteU5BU5D_t66* >::Invoke(20 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_21, L_24);
 		NullCheck(L_19);
@@ -1573,9 +1573,9 @@ IL_0068:
 IL_009e:
 	{
 		int32_t L_27 = V_3;
-		ASN1_t3736 * L_28 = V_2;
+		ASN1_t3784 * L_28 = V_2;
 		NullCheck(L_28);
-		int32_t L_29 = ASN1_get_Count_m12076(L_28, /*hidden argument*/NULL);
+		int32_t L_29 = ASN1_get_Count_m12331(L_28, /*hidden argument*/NULL);
 		if ((((int32_t)L_27) < ((int32_t)L_29)))
 		{
 			goto IL_0068;
@@ -1624,118 +1624,118 @@ IL_00aa:
 
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern "C" void TlsServerFinished__ctor_m12830 (TlsServerFinished_t3847 * __this, Context_t3792 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method)
+extern "C" void TlsServerFinished__ctor_m13085 (TlsServerFinished_t3895 * __this, Context_t3840 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method)
 {
 	{
-		Context_t3792 * L_0 = ___context;
+		Context_t3840 * L_0 = ___context;
 		ByteU5BU5D_t66* L_1 = ___buffer;
-		HandshakeMessage__ctor_m12782(__this, L_0, ((int32_t)20), L_1, /*hidden argument*/NULL);
+		HandshakeMessage__ctor_m13037(__this, L_0, ((int32_t)20), L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::.cctor()
 extern TypeInfo* ByteU5BU5D_t66_il2cpp_TypeInfo_var;
-extern TypeInfo* TlsServerFinished_t3847_il2cpp_TypeInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3862____U24U24fieldU2D22_14_FieldInfo_var;
-extern "C" void TlsServerFinished__cctor_m12831 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* TlsServerFinished_t3895_il2cpp_TypeInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3910____U24U24fieldU2D22_14_FieldInfo_var;
+extern "C" void TlsServerFinished__cctor_m13086 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		ByteU5BU5D_t66_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(254);
-		TlsServerFinished_t3847_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6573);
-		U3CPrivateImplementationDetailsU3E_t3862____U24U24fieldU2D22_14_FieldInfo_var = il2cpp_codegen_field_info_from_index(6501, 14);
+		TlsServerFinished_t3895_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6691);
+		U3CPrivateImplementationDetailsU3E_t3910____U24U24fieldU2D22_14_FieldInfo_var = il2cpp_codegen_field_info_from_index(6619, 14);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		ByteU5BU5D_t66* L_0 = ((ByteU5BU5D_t66*)SZArrayNew(ByteU5BU5D_t66_il2cpp_TypeInfo_var, 4));
-		RuntimeHelpers_InitializeArray_m11178(NULL /*static, unused*/, (Array_t *)(Array_t *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3862____U24U24fieldU2D22_14_FieldInfo_var), /*hidden argument*/NULL);
-		((TlsServerFinished_t3847_StaticFields*)TlsServerFinished_t3847_il2cpp_TypeInfo_var->static_fields)->___Ssl3Marker_9 = L_0;
+		RuntimeHelpers_InitializeArray_m11434(NULL /*static, unused*/, (Array_t *)(Array_t *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3910____U24U24fieldU2D22_14_FieldInfo_var), /*hidden argument*/NULL);
+		((TlsServerFinished_t3895_StaticFields*)TlsServerFinished_t3895_il2cpp_TypeInfo_var->static_fields)->___Ssl3Marker_9 = L_0;
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::Update()
-extern "C" void TlsServerFinished_Update_m12832 (TlsServerFinished_t3847 * __this, const MethodInfo* method)
+extern "C" void TlsServerFinished_Update_m13087 (TlsServerFinished_t3895 * __this, const MethodInfo* method)
 {
 	{
-		HandshakeMessage_Update_m12787(__this, /*hidden argument*/NULL);
-		Context_t3792 * L_0 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		HandshakeMessage_Update_m13042(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_0 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Context_set_HandshakeState_m12489(L_0, 2, /*hidden argument*/NULL);
+		Context_set_HandshakeState_m12744(L_0, 2, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::ProcessAsSsl3()
-extern TypeInfo* SslHandshakeHash_t3830_il2cpp_TypeInfo_var;
-extern TypeInfo* TlsServerFinished_t3847_il2cpp_TypeInfo_var;
-extern TypeInfo* CipherSuite_t3794_il2cpp_TypeInfo_var;
-extern TypeInfo* TlsException_t3835_il2cpp_TypeInfo_var;
-extern "C" void TlsServerFinished_ProcessAsSsl3_m12833 (TlsServerFinished_t3847 * __this, const MethodInfo* method)
+extern TypeInfo* SslHandshakeHash_t3878_il2cpp_TypeInfo_var;
+extern TypeInfo* TlsServerFinished_t3895_il2cpp_TypeInfo_var;
+extern TypeInfo* CipherSuite_t3842_il2cpp_TypeInfo_var;
+extern TypeInfo* TlsException_t3883_il2cpp_TypeInfo_var;
+extern "C" void TlsServerFinished_ProcessAsSsl3_m13088 (TlsServerFinished_t3895 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SslHandshakeHash_t3830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6602);
-		TlsServerFinished_t3847_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6573);
-		CipherSuite_t3794_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6551);
-		TlsException_t3835_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6574);
+		SslHandshakeHash_t3878_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6720);
+		TlsServerFinished_t3895_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6691);
+		CipherSuite_t3842_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6669);
+		TlsException_t3883_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6692);
 		s_Il2CppMethodIntialized = true;
 	}
-	HashAlgorithm_t3747 * V_0 = {0};
+	HashAlgorithm_t3795 * V_0 = {0};
 	ByteU5BU5D_t66* V_1 = {0};
 	ByteU5BU5D_t66* V_2 = {0};
 	ByteU5BU5D_t66* V_3 = {0};
 	{
-		Context_t3792 * L_0 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_0 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		ByteU5BU5D_t66* L_1 = Context_get_MasterSecret_m12509(L_0, /*hidden argument*/NULL);
-		SslHandshakeHash_t3830 * L_2 = (SslHandshakeHash_t3830 *)il2cpp_codegen_object_new (SslHandshakeHash_t3830_il2cpp_TypeInfo_var);
-		SslHandshakeHash__ctor_m12650(L_2, L_1, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_1 = Context_get_MasterSecret_m12764(L_0, /*hidden argument*/NULL);
+		SslHandshakeHash_t3878 * L_2 = (SslHandshakeHash_t3878 *)il2cpp_codegen_object_new (SslHandshakeHash_t3878_il2cpp_TypeInfo_var);
+		SslHandshakeHash__ctor_m12905(L_2, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
-		Context_t3792 * L_3 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_3 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		TlsStream_t3807 * L_4 = Context_get_HandshakeMessages_m12496(L_3, /*hidden argument*/NULL);
+		TlsStream_t3855 * L_4 = Context_get_HandshakeMessages_m12751(L_3, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		ByteU5BU5D_t66* L_5 = TlsStream_ToArray_m12774(L_4, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_5 = TlsStream_ToArray_m13029(L_4, /*hidden argument*/NULL);
 		V_1 = L_5;
-		HashAlgorithm_t3747 * L_6 = V_0;
+		HashAlgorithm_t3795 * L_6 = V_0;
 		ByteU5BU5D_t66* L_7 = V_1;
 		ByteU5BU5D_t66* L_8 = V_1;
 		NullCheck(L_8);
 		ByteU5BU5D_t66* L_9 = V_1;
 		NullCheck(L_6);
 		VirtFuncInvoker5< int32_t, ByteU5BU5D_t66*, int32_t, int32_t, ByteU5BU5D_t66*, int32_t >::Invoke(6 /* System.Int32 System.Security.Cryptography.HashAlgorithm::TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32) */, L_6, L_7, 0, (((int32_t)(((Array_t *)L_8)->max_length))), L_9, 0);
-		HashAlgorithm_t3747 * L_10 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(TlsServerFinished_t3847_il2cpp_TypeInfo_var);
-		ByteU5BU5D_t66* L_11 = ((TlsServerFinished_t3847_StaticFields*)TlsServerFinished_t3847_il2cpp_TypeInfo_var->static_fields)->___Ssl3Marker_9;
-		ByteU5BU5D_t66* L_12 = ((TlsServerFinished_t3847_StaticFields*)TlsServerFinished_t3847_il2cpp_TypeInfo_var->static_fields)->___Ssl3Marker_9;
+		HashAlgorithm_t3795 * L_10 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(TlsServerFinished_t3895_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t66* L_11 = ((TlsServerFinished_t3895_StaticFields*)TlsServerFinished_t3895_il2cpp_TypeInfo_var->static_fields)->___Ssl3Marker_9;
+		ByteU5BU5D_t66* L_12 = ((TlsServerFinished_t3895_StaticFields*)TlsServerFinished_t3895_il2cpp_TypeInfo_var->static_fields)->___Ssl3Marker_9;
 		NullCheck(L_12);
-		ByteU5BU5D_t66* L_13 = ((TlsServerFinished_t3847_StaticFields*)TlsServerFinished_t3847_il2cpp_TypeInfo_var->static_fields)->___Ssl3Marker_9;
+		ByteU5BU5D_t66* L_13 = ((TlsServerFinished_t3895_StaticFields*)TlsServerFinished_t3895_il2cpp_TypeInfo_var->static_fields)->___Ssl3Marker_9;
 		NullCheck(L_10);
 		VirtFuncInvoker5< int32_t, ByteU5BU5D_t66*, int32_t, int32_t, ByteU5BU5D_t66*, int32_t >::Invoke(6 /* System.Int32 System.Security.Cryptography.HashAlgorithm::TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32) */, L_10, L_11, 0, (((int32_t)(((Array_t *)L_12)->max_length))), L_13, 0);
-		HashAlgorithm_t3747 * L_14 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(CipherSuite_t3794_il2cpp_TypeInfo_var);
-		ByteU5BU5D_t66* L_15 = ((CipherSuite_t3794_StaticFields*)CipherSuite_t3794_il2cpp_TypeInfo_var->static_fields)->___EmptyArray_0;
+		HashAlgorithm_t3795 * L_14 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(CipherSuite_t3842_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t66* L_15 = ((CipherSuite_t3842_StaticFields*)CipherSuite_t3842_il2cpp_TypeInfo_var->static_fields)->___EmptyArray_0;
 		NullCheck(L_14);
 		VirtFuncInvoker3< ByteU5BU5D_t66*, ByteU5BU5D_t66*, int32_t, int32_t >::Invoke(7 /* System.Byte[] System.Security.Cryptography.HashAlgorithm::TransformFinalBlock(System.Byte[],System.Int32,System.Int32) */, L_14, L_15, 0, 0);
 		int64_t L_16 = (int64_t)VirtFuncInvoker0< int64_t >::Invoke(8 /* System.Int64 Mono.Security.Protocol.Tls.TlsStream::get_Length() */, __this);
-		ByteU5BU5D_t66* L_17 = TlsStream_ReadBytes_m12767(__this, (((int32_t)L_16)), /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_17 = TlsStream_ReadBytes_m13022(__this, (((int32_t)L_16)), /*hidden argument*/NULL);
 		V_2 = L_17;
-		HashAlgorithm_t3747 * L_18 = V_0;
+		HashAlgorithm_t3795 * L_18 = V_0;
 		NullCheck(L_18);
 		ByteU5BU5D_t66* L_19 = (ByteU5BU5D_t66*)VirtFuncInvoker0< ByteU5BU5D_t66* >::Invoke(9 /* System.Byte[] System.Security.Cryptography.HashAlgorithm::get_Hash() */, L_18);
 		V_3 = L_19;
 		ByteU5BU5D_t66* L_20 = V_3;
 		ByteU5BU5D_t66* L_21 = V_2;
-		bool L_22 = HandshakeMessage_Compare_m12789(NULL /*static, unused*/, L_20, L_21, /*hidden argument*/NULL);
+		bool L_22 = HandshakeMessage_Compare_m13044(NULL /*static, unused*/, L_20, L_21, /*hidden argument*/NULL);
 		if (L_22)
 		{
 			goto IL_0086;
 		}
 	}
 	{
-		TlsException_t3835 * L_23 = (TlsException_t3835 *)il2cpp_codegen_object_new (TlsException_t3835_il2cpp_TypeInfo_var);
-		TlsException__ctor_m12738(L_23, ((int32_t)71), (String_t*) &_stringLiteral2834, /*hidden argument*/NULL);
+		TlsException_t3883 * L_23 = (TlsException_t3883 *)il2cpp_codegen_object_new (TlsException_t3883_il2cpp_TypeInfo_var);
+		TlsException__ctor_m12993(L_23, ((int32_t)71), (String_t*) &_stringLiteral2878, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_23);
 	}
 
@@ -1745,65 +1745,65 @@ IL_0086:
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerFinished::ProcessAsTls1()
-extern TypeInfo* MD5SHA1_t3787_il2cpp_TypeInfo_var;
-extern TypeInfo* TlsException_t3835_il2cpp_TypeInfo_var;
-extern "C" void TlsServerFinished_ProcessAsTls1_m12834 (TlsServerFinished_t3847 * __this, const MethodInfo* method)
+extern TypeInfo* MD5SHA1_t3835_il2cpp_TypeInfo_var;
+extern TypeInfo* TlsException_t3883_il2cpp_TypeInfo_var;
+extern "C" void TlsServerFinished_ProcessAsTls1_m13089 (TlsServerFinished_t3895 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		MD5SHA1_t3787_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6591);
-		TlsException_t3835_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6574);
+		MD5SHA1_t3835_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6709);
+		TlsException_t3883_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6692);
 		s_Il2CppMethodIntialized = true;
 	}
 	ByteU5BU5D_t66* V_0 = {0};
-	HashAlgorithm_t3747 * V_1 = {0};
+	HashAlgorithm_t3795 * V_1 = {0};
 	ByteU5BU5D_t66* V_2 = {0};
 	ByteU5BU5D_t66* V_3 = {0};
 	ByteU5BU5D_t66* V_4 = {0};
 	{
 		int64_t L_0 = (int64_t)VirtFuncInvoker0< int64_t >::Invoke(8 /* System.Int64 Mono.Security.Protocol.Tls.TlsStream::get_Length() */, __this);
-		ByteU5BU5D_t66* L_1 = TlsStream_ReadBytes_m12767(__this, (((int32_t)L_0)), /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_1 = TlsStream_ReadBytes_m13022(__this, (((int32_t)L_0)), /*hidden argument*/NULL);
 		V_0 = L_1;
-		MD5SHA1_t3787 * L_2 = (MD5SHA1_t3787 *)il2cpp_codegen_object_new (MD5SHA1_t3787_il2cpp_TypeInfo_var);
-		MD5SHA1__ctor_m12367(L_2, /*hidden argument*/NULL);
+		MD5SHA1_t3835 * L_2 = (MD5SHA1_t3835 *)il2cpp_codegen_object_new (MD5SHA1_t3835_il2cpp_TypeInfo_var);
+		MD5SHA1__ctor_m12622(L_2, /*hidden argument*/NULL);
 		V_1 = L_2;
-		Context_t3792 * L_3 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_3 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		TlsStream_t3807 * L_4 = Context_get_HandshakeMessages_m12496(L_3, /*hidden argument*/NULL);
+		TlsStream_t3855 * L_4 = Context_get_HandshakeMessages_m12751(L_3, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		ByteU5BU5D_t66* L_5 = TlsStream_ToArray_m12774(L_4, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_5 = TlsStream_ToArray_m13029(L_4, /*hidden argument*/NULL);
 		V_2 = L_5;
-		HashAlgorithm_t3747 * L_6 = V_1;
+		HashAlgorithm_t3795 * L_6 = V_1;
 		ByteU5BU5D_t66* L_7 = V_2;
 		ByteU5BU5D_t66* L_8 = V_2;
 		NullCheck(L_8);
 		NullCheck(L_6);
-		ByteU5BU5D_t66* L_9 = HashAlgorithm_ComputeHash_m12897(L_6, L_7, 0, (((int32_t)(((Array_t *)L_8)->max_length))), /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_9 = HashAlgorithm_ComputeHash_m13152(L_6, L_7, 0, (((int32_t)(((Array_t *)L_8)->max_length))), /*hidden argument*/NULL);
 		V_3 = L_9;
-		Context_t3792 * L_10 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_10 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		SecurityParameters_t3806 * L_11 = Context_get_Current_m12527(L_10, /*hidden argument*/NULL);
+		SecurityParameters_t3854 * L_11 = Context_get_Current_m12782(L_10, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		CipherSuite_t3794 * L_12 = SecurityParameters_get_Cipher_m12598(L_11, /*hidden argument*/NULL);
-		Context_t3792 * L_13 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		CipherSuite_t3842 * L_12 = SecurityParameters_get_Cipher_m12853(L_11, /*hidden argument*/NULL);
+		Context_t3840 * L_13 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		ByteU5BU5D_t66* L_14 = Context_get_MasterSecret_m12509(L_13, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_14 = Context_get_MasterSecret_m12764(L_13, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_15 = V_3;
 		NullCheck(L_12);
-		ByteU5BU5D_t66* L_16 = CipherSuite_PRF_m12409(L_12, L_14, (String_t*) &_stringLiteral2835, L_15, ((int32_t)12), /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_16 = CipherSuite_PRF_m12664(L_12, L_14, (String_t*) &_stringLiteral2879, L_15, ((int32_t)12), /*hidden argument*/NULL);
 		V_4 = L_16;
 		ByteU5BU5D_t66* L_17 = V_4;
 		ByteU5BU5D_t66* L_18 = V_0;
-		bool L_19 = HandshakeMessage_Compare_m12789(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
+		bool L_19 = HandshakeMessage_Compare_m13044(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
 		if (L_19)
 		{
 			goto IL_0073;
 		}
 	}
 	{
-		TlsException_t3835 * L_20 = (TlsException_t3835 *)il2cpp_codegen_object_new (TlsException_t3835_il2cpp_TypeInfo_var);
-		TlsException__ctor_m12733(L_20, (String_t*) &_stringLiteral2834, /*hidden argument*/NULL);
+		TlsException_t3883 * L_20 = (TlsException_t3883 *)il2cpp_codegen_object_new (TlsException_t3883_il2cpp_TypeInfo_var);
+		TlsException__ctor_m12988(L_20, (String_t*) &_stringLiteral2878, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_20);
 	}
 
@@ -1837,18 +1837,18 @@ IL_0073:
 
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern "C" void TlsServerHello__ctor_m12835 (TlsServerHello_t3848 * __this, Context_t3792 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method)
+extern "C" void TlsServerHello__ctor_m13090 (TlsServerHello_t3896 * __this, Context_t3840 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method)
 {
 	{
-		Context_t3792 * L_0 = ___context;
+		Context_t3840 * L_0 = ___context;
 		ByteU5BU5D_t66* L_1 = ___buffer;
-		HandshakeMessage__ctor_m12782(__this, L_0, 2, L_1, /*hidden argument*/NULL);
+		HandshakeMessage__ctor_m13037(__this, L_0, 2, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::Update()
 extern TypeInfo* ByteU5BU5D_t66_il2cpp_TypeInfo_var;
-extern "C" void TlsServerHello_Update_m12836 (TlsServerHello_t3848 * __this, const MethodInfo* method)
+extern "C" void TlsServerHello_Update_m13091 (TlsServerHello_t3896 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1862,36 +1862,36 @@ extern "C" void TlsServerHello_Update_m12836 (TlsServerHello_t3848 * __this, con
 	ByteU5BU5D_t66* V_3 = {0};
 	ByteU5BU5D_t66* V_4 = {0};
 	{
-		HandshakeMessage_Update_m12787(__this, /*hidden argument*/NULL);
-		Context_t3792 * L_0 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		HandshakeMessage_Update_m13042(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_0 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_1 = (__this->___sessionId_11);
 		NullCheck(L_0);
-		Context_set_SessionId_m12481(L_0, L_1, /*hidden argument*/NULL);
-		Context_t3792 * L_2 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_set_SessionId_m12736(L_0, L_1, /*hidden argument*/NULL);
+		Context_t3840 * L_2 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_3 = (__this->___random_10);
 		NullCheck(L_2);
-		Context_set_ServerRandom_m12504(L_2, L_3, /*hidden argument*/NULL);
-		Context_t3792 * L_4 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_set_ServerRandom_m12759(L_2, L_3, /*hidden argument*/NULL);
+		Context_t3840 * L_4 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		SecurityParameters_t3806 * L_5 = Context_get_Negotiating_m12528(L_4, /*hidden argument*/NULL);
-		CipherSuite_t3794 * L_6 = (__this->___cipherSuite_12);
+		SecurityParameters_t3854 * L_5 = Context_get_Negotiating_m12783(L_4, /*hidden argument*/NULL);
+		CipherSuite_t3842 * L_6 = (__this->___cipherSuite_12);
 		NullCheck(L_5);
-		SecurityParameters_set_Cipher_m12599(L_5, L_6, /*hidden argument*/NULL);
-		Context_t3792 * L_7 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		SecurityParameters_set_Cipher_m12854(L_5, L_6, /*hidden argument*/NULL);
+		Context_t3840 * L_7 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		int32_t L_8 = (__this->___compressionMethod_9);
 		NullCheck(L_7);
-		Context_set_CompressionMethod_m12483(L_7, L_8, /*hidden argument*/NULL);
-		Context_t3792 * L_9 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_set_CompressionMethod_m12738(L_7, L_8, /*hidden argument*/NULL);
+		Context_t3840 * L_9 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		Context_set_ProtocolNegotiated_m12475(L_9, 1, /*hidden argument*/NULL);
-		Context_t3792 * L_10 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_set_ProtocolNegotiated_m12730(L_9, 1, /*hidden argument*/NULL);
+		Context_t3840 * L_10 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		ByteU5BU5D_t66* L_11 = Context_get_ClientRandom_m12501(L_10, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_11 = Context_get_ClientRandom_m12756(L_10, /*hidden argument*/NULL);
 		NullCheck(L_11);
 		V_0 = (((int32_t)(((Array_t *)L_11)->max_length)));
-		Context_t3792 * L_12 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_12 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		ByteU5BU5D_t66* L_13 = Context_get_ServerRandom_m12503(L_12, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_13 = Context_get_ServerRandom_m12758(L_12, /*hidden argument*/NULL);
 		NullCheck(L_13);
 		V_1 = (((int32_t)(((Array_t *)L_13)->max_length)));
 		int32_t L_14 = V_0;
@@ -1899,47 +1899,47 @@ extern "C" void TlsServerHello_Update_m12836 (TlsServerHello_t3848 * __this, con
 		V_2 = ((int32_t)((int32_t)L_14+(int32_t)L_15));
 		int32_t L_16 = V_2;
 		V_3 = ((ByteU5BU5D_t66*)SZArrayNew(ByteU5BU5D_t66_il2cpp_TypeInfo_var, L_16));
-		Context_t3792 * L_17 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_17 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		ByteU5BU5D_t66* L_18 = Context_get_ClientRandom_m12501(L_17, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_18 = Context_get_ClientRandom_m12756(L_17, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_19 = V_3;
 		int32_t L_20 = V_0;
-		Buffer_BlockCopy_m11221(NULL /*static, unused*/, (Array_t *)(Array_t *)L_18, 0, (Array_t *)(Array_t *)L_19, 0, L_20, /*hidden argument*/NULL);
-		Context_t3792 * L_21 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m11476(NULL /*static, unused*/, (Array_t *)(Array_t *)L_18, 0, (Array_t *)(Array_t *)L_19, 0, L_20, /*hidden argument*/NULL);
+		Context_t3840 * L_21 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_21);
-		ByteU5BU5D_t66* L_22 = Context_get_ServerRandom_m12503(L_21, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_22 = Context_get_ServerRandom_m12758(L_21, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_23 = V_3;
 		int32_t L_24 = V_0;
 		int32_t L_25 = V_1;
-		Buffer_BlockCopy_m11221(NULL /*static, unused*/, (Array_t *)(Array_t *)L_22, 0, (Array_t *)(Array_t *)L_23, L_24, L_25, /*hidden argument*/NULL);
-		Context_t3792 * L_26 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m11476(NULL /*static, unused*/, (Array_t *)(Array_t *)L_22, 0, (Array_t *)(Array_t *)L_23, L_24, L_25, /*hidden argument*/NULL);
+		Context_t3840 * L_26 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_27 = V_3;
 		NullCheck(L_26);
-		Context_set_RandomCS_m12506(L_26, L_27, /*hidden argument*/NULL);
+		Context_set_RandomCS_m12761(L_26, L_27, /*hidden argument*/NULL);
 		int32_t L_28 = V_2;
 		V_4 = ((ByteU5BU5D_t66*)SZArrayNew(ByteU5BU5D_t66_il2cpp_TypeInfo_var, L_28));
-		Context_t3792 * L_29 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_29 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_29);
-		ByteU5BU5D_t66* L_30 = Context_get_ServerRandom_m12503(L_29, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_30 = Context_get_ServerRandom_m12758(L_29, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_31 = V_4;
 		int32_t L_32 = V_1;
-		Buffer_BlockCopy_m11221(NULL /*static, unused*/, (Array_t *)(Array_t *)L_30, 0, (Array_t *)(Array_t *)L_31, 0, L_32, /*hidden argument*/NULL);
-		Context_t3792 * L_33 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m11476(NULL /*static, unused*/, (Array_t *)(Array_t *)L_30, 0, (Array_t *)(Array_t *)L_31, 0, L_32, /*hidden argument*/NULL);
+		Context_t3840 * L_33 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_33);
-		ByteU5BU5D_t66* L_34 = Context_get_ClientRandom_m12501(L_33, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_34 = Context_get_ClientRandom_m12756(L_33, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_35 = V_4;
 		int32_t L_36 = V_1;
 		int32_t L_37 = V_0;
-		Buffer_BlockCopy_m11221(NULL /*static, unused*/, (Array_t *)(Array_t *)L_34, 0, (Array_t *)(Array_t *)L_35, L_36, L_37, /*hidden argument*/NULL);
-		Context_t3792 * L_38 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m11476(NULL /*static, unused*/, (Array_t *)(Array_t *)L_34, 0, (Array_t *)(Array_t *)L_35, L_36, L_37, /*hidden argument*/NULL);
+		Context_t3840 * L_38 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_39 = V_4;
 		NullCheck(L_38);
-		Context_set_RandomSC_m12508(L_38, L_39, /*hidden argument*/NULL);
+		Context_set_RandomSC_m12763(L_38, L_39, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::ProcessAsSsl3()
-extern "C" void TlsServerHello_ProcessAsSsl3_m12837 (TlsServerHello_t3848 * __this, const MethodInfo* method)
+extern "C" void TlsServerHello_ProcessAsSsl3_m13092 (TlsServerHello_t3896 * __this, const MethodInfo* method)
 {
 	{
 		VirtActionInvoker0::Invoke(26 /* System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::ProcessAsTls1() */, __this);
@@ -1947,25 +1947,25 @@ extern "C" void TlsServerHello_ProcessAsSsl3_m12837 (TlsServerHello_t3848 * __th
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::ProcessAsTls1()
-extern TypeInfo* ClientSessionCache_t3802_il2cpp_TypeInfo_var;
-extern TypeInfo* TlsException_t3835_il2cpp_TypeInfo_var;
-extern "C" void TlsServerHello_ProcessAsTls1_m12838 (TlsServerHello_t3848 * __this, const MethodInfo* method)
+extern TypeInfo* ClientSessionCache_t3850_il2cpp_TypeInfo_var;
+extern TypeInfo* TlsException_t3883_il2cpp_TypeInfo_var;
+extern "C" void TlsServerHello_ProcessAsTls1_m13093 (TlsServerHello_t3896 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ClientSessionCache_t3802_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6576);
-		TlsException_t3835_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6574);
+		ClientSessionCache_t3850_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6694);
+		TlsException_t3883_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6692);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	int16_t V_1 = 0;
 	{
-		int16_t L_0 = TlsStream_ReadInt16_m12765(__this, /*hidden argument*/NULL);
-		TlsServerHello_processProtocol_m12839(__this, L_0, /*hidden argument*/NULL);
-		ByteU5BU5D_t66* L_1 = TlsStream_ReadBytes_m12767(__this, ((int32_t)32), /*hidden argument*/NULL);
+		int16_t L_0 = TlsStream_ReadInt16_m13020(__this, /*hidden argument*/NULL);
+		TlsServerHello_processProtocol_m13094(__this, L_0, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_1 = TlsStream_ReadBytes_m13022(__this, ((int32_t)32), /*hidden argument*/NULL);
 		__this->___random_10 = L_1;
-		uint8_t L_2 = TlsStream_ReadByte_m12764(__this, /*hidden argument*/NULL);
+		uint8_t L_2 = TlsStream_ReadByte_m13019(__this, /*hidden argument*/NULL);
 		V_0 = L_2;
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_3) <= ((int32_t)0)))
@@ -1975,90 +1975,90 @@ extern "C" void TlsServerHello_ProcessAsTls1_m12838 (TlsServerHello_t3848 * __th
 	}
 	{
 		int32_t L_4 = V_0;
-		ByteU5BU5D_t66* L_5 = TlsStream_ReadBytes_m12767(__this, L_4, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_5 = TlsStream_ReadBytes_m13022(__this, L_4, /*hidden argument*/NULL);
 		__this->___sessionId_11 = L_5;
-		Context_t3792 * L_6 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_6 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		TlsClientSettings_t3805 * L_7 = Context_get_ClientSettings_m12485(L_6, /*hidden argument*/NULL);
+		TlsClientSettings_t3853 * L_7 = Context_get_ClientSettings_m12740(L_6, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		String_t* L_8 = TlsClientSettings_get_TargetHost_m12726(L_7, /*hidden argument*/NULL);
+		String_t* L_8 = TlsClientSettings_get_TargetHost_m12981(L_7, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_9 = (__this->___sessionId_11);
-		IL2CPP_RUNTIME_CLASS_INIT(ClientSessionCache_t3802_il2cpp_TypeInfo_var);
-		ClientSessionCache_Add_m12466(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
-		Context_t3792 * L_10 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(ClientSessionCache_t3850_il2cpp_TypeInfo_var);
+		ClientSessionCache_Add_m12721(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		Context_t3840 * L_10 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_11 = (__this->___sessionId_11);
-		Context_t3792 * L_12 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_12 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		ByteU5BU5D_t66* L_13 = Context_get_SessionId_m12480(L_12, /*hidden argument*/NULL);
-		bool L_14 = HandshakeMessage_Compare_m12789(NULL /*static, unused*/, L_11, L_13, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_13 = Context_get_SessionId_m12735(L_12, /*hidden argument*/NULL);
+		bool L_14 = HandshakeMessage_Compare_m13044(NULL /*static, unused*/, L_11, L_13, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		Context_set_AbbreviatedHandshake_m12473(L_10, L_14, /*hidden argument*/NULL);
+		Context_set_AbbreviatedHandshake_m12728(L_10, L_14, /*hidden argument*/NULL);
 		goto IL_0082;
 	}
 
 IL_0076:
 	{
-		Context_t3792 * L_15 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_15 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		Context_set_AbbreviatedHandshake_m12473(L_15, 0, /*hidden argument*/NULL);
+		Context_set_AbbreviatedHandshake_m12728(L_15, 0, /*hidden argument*/NULL);
 	}
 
 IL_0082:
 	{
-		int16_t L_16 = TlsStream_ReadInt16_m12765(__this, /*hidden argument*/NULL);
+		int16_t L_16 = TlsStream_ReadInt16_m13020(__this, /*hidden argument*/NULL);
 		V_1 = L_16;
-		Context_t3792 * L_17 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_17 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		CipherSuiteCollection_t3795 * L_18 = Context_get_SupportedCiphers_m12494(L_17, /*hidden argument*/NULL);
+		CipherSuiteCollection_t3843 * L_18 = Context_get_SupportedCiphers_m12749(L_17, /*hidden argument*/NULL);
 		int16_t L_19 = V_1;
 		NullCheck(L_18);
-		int32_t L_20 = CipherSuiteCollection_IndexOf_m12435(L_18, L_19, /*hidden argument*/NULL);
+		int32_t L_20 = CipherSuiteCollection_IndexOf_m12690(L_18, L_19, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_20) == ((uint32_t)(-1)))))
 		{
 			goto IL_00ad;
 		}
 	}
 	{
-		TlsException_t3835 * L_21 = (TlsException_t3835 *)il2cpp_codegen_object_new (TlsException_t3835_il2cpp_TypeInfo_var);
-		TlsException__ctor_m12738(L_21, ((int32_t)71), (String_t*) &_stringLiteral2836, /*hidden argument*/NULL);
+		TlsException_t3883 * L_21 = (TlsException_t3883 *)il2cpp_codegen_object_new (TlsException_t3883_il2cpp_TypeInfo_var);
+		TlsException__ctor_m12993(L_21, ((int32_t)71), (String_t*) &_stringLiteral2880, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_21);
 	}
 
 IL_00ad:
 	{
-		Context_t3792 * L_22 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_22 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		CipherSuiteCollection_t3795 * L_23 = Context_get_SupportedCiphers_m12494(L_22, /*hidden argument*/NULL);
+		CipherSuiteCollection_t3843 * L_23 = Context_get_SupportedCiphers_m12749(L_22, /*hidden argument*/NULL);
 		int16_t L_24 = V_1;
 		NullCheck(L_23);
-		CipherSuite_t3794 * L_25 = CipherSuiteCollection_get_Item_m12428(L_23, L_24, /*hidden argument*/NULL);
+		CipherSuite_t3842 * L_25 = CipherSuiteCollection_get_Item_m12683(L_23, L_24, /*hidden argument*/NULL);
 		__this->___cipherSuite_12 = L_25;
-		uint8_t L_26 = TlsStream_ReadByte_m12764(__this, /*hidden argument*/NULL);
+		uint8_t L_26 = TlsStream_ReadByte_m13019(__this, /*hidden argument*/NULL);
 		__this->___compressionMethod_9 = L_26;
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::processProtocol(System.Int16)
-extern TypeInfo* TlsException_t3835_il2cpp_TypeInfo_var;
-extern "C" void TlsServerHello_processProtocol_m12839 (TlsServerHello_t3848 * __this, int16_t ___protocol, const MethodInfo* method)
+extern TypeInfo* TlsException_t3883_il2cpp_TypeInfo_var;
+extern "C" void TlsServerHello_processProtocol_m13094 (TlsServerHello_t3896 * __this, int16_t ___protocol, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		TlsException_t3835_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6574);
+		TlsException_t3883_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6692);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = {0};
 	{
-		Context_t3792 * L_0 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_0 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		int16_t L_1 = ___protocol;
 		NullCheck(L_0);
-		int32_t L_2 = Context_DecodeProtocolCode_m12525(L_0, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = Context_DecodeProtocolCode_m12780(L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		int32_t L_3 = V_0;
-		Context_t3792 * L_4 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_4 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		int32_t L_5 = Context_get_SecurityProtocolFlags_m12478(L_4, /*hidden argument*/NULL);
+		int32_t L_5 = Context_get_SecurityProtocolFlags_m12733(L_4, /*hidden argument*/NULL);
 		int32_t L_6 = V_0;
 		if ((((int32_t)((int32_t)((int32_t)L_3&(int32_t)L_5))) == ((int32_t)L_6)))
 		{
@@ -2066,9 +2066,9 @@ extern "C" void TlsServerHello_processProtocol_m12839 (TlsServerHello_t3848 * __
 		}
 	}
 	{
-		Context_t3792 * L_7 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_7 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		int32_t L_8 = Context_get_SecurityProtocolFlags_m12478(L_7, /*hidden argument*/NULL);
+		int32_t L_8 = Context_get_SecurityProtocolFlags_m12733(L_7, /*hidden argument*/NULL);
 		if ((!(((uint32_t)((int32_t)((int32_t)L_8&(int32_t)((int32_t)-1073741824)))) == ((uint32_t)((int32_t)-1073741824)))))
 		{
 			goto IL_0079;
@@ -2077,30 +2077,30 @@ extern "C" void TlsServerHello_processProtocol_m12839 (TlsServerHello_t3848 * __
 
 IL_003b:
 	{
-		Context_t3792 * L_9 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_9 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		int32_t L_10 = V_0;
 		NullCheck(L_9);
-		Context_set_SecurityProtocol_m12477(L_9, L_10, /*hidden argument*/NULL);
-		Context_t3792 * L_11 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_set_SecurityProtocol_m12732(L_9, L_10, /*hidden argument*/NULL);
+		Context_t3840 * L_11 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		CipherSuiteCollection_t3795 * L_12 = Context_get_SupportedCiphers_m12494(L_11, /*hidden argument*/NULL);
+		CipherSuiteCollection_t3843 * L_12 = Context_get_SupportedCiphers_m12749(L_11, /*hidden argument*/NULL);
 		NullCheck(L_12);
 		VirtActionInvoker0::Invoke(14 /* System.Void Mono.Security.Protocol.Tls.CipherSuiteCollection::Clear() */, L_12);
-		Context_t3792 * L_13 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_13 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		Context_set_SupportedCiphers_m12495(L_13, (CipherSuiteCollection_t3795 *)NULL, /*hidden argument*/NULL);
-		Context_t3792 * L_14 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		Context_set_SupportedCiphers_m12750(L_13, (CipherSuiteCollection_t3843 *)NULL, /*hidden argument*/NULL);
+		Context_t3840 * L_14 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		int32_t L_15 = V_0;
-		CipherSuiteCollection_t3795 * L_16 = CipherSuiteFactory_GetSupportedCiphers_m12440(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		CipherSuiteCollection_t3843 * L_16 = CipherSuiteFactory_GetSupportedCiphers_m12695(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		Context_set_SupportedCiphers_m12495(L_14, L_16, /*hidden argument*/NULL);
+		Context_set_SupportedCiphers_m12750(L_14, L_16, /*hidden argument*/NULL);
 		goto IL_0086;
 	}
 
 IL_0079:
 	{
-		TlsException_t3835 * L_17 = (TlsException_t3835 *)il2cpp_codegen_object_new (TlsException_t3835_il2cpp_TypeInfo_var);
-		TlsException__ctor_m12738(L_17, ((int32_t)70), (String_t*) &_stringLiteral2777, /*hidden argument*/NULL);
+		TlsException_t3883 * L_17 = (TlsException_t3883 *)il2cpp_codegen_object_new (TlsException_t3883_il2cpp_TypeInfo_var);
+		TlsException__ctor_m12993(L_17, ((int32_t)70), (String_t*) &_stringLiteral2821, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_17);
 	}
 
@@ -2120,24 +2120,24 @@ IL_0086:
 
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHelloDone::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern "C" void TlsServerHelloDone__ctor_m12840 (TlsServerHelloDone_t3849 * __this, Context_t3792 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method)
+extern "C" void TlsServerHelloDone__ctor_m13095 (TlsServerHelloDone_t3897 * __this, Context_t3840 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method)
 {
 	{
-		Context_t3792 * L_0 = ___context;
+		Context_t3840 * L_0 = ___context;
 		ByteU5BU5D_t66* L_1 = ___buffer;
-		HandshakeMessage__ctor_m12782(__this, L_0, ((int32_t)14), L_1, /*hidden argument*/NULL);
+		HandshakeMessage__ctor_m13037(__this, L_0, ((int32_t)14), L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHelloDone::ProcessAsSsl3()
-extern "C" void TlsServerHelloDone_ProcessAsSsl3_m12841 (TlsServerHelloDone_t3849 * __this, const MethodInfo* method)
+extern "C" void TlsServerHelloDone_ProcessAsSsl3_m13096 (TlsServerHelloDone_t3897 * __this, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHelloDone::ProcessAsTls1()
-extern "C" void TlsServerHelloDone_ProcessAsTls1_m12842 (TlsServerHelloDone_t3849 * __this, const MethodInfo* method)
+extern "C" void TlsServerHelloDone_ProcessAsTls1_m13097 (TlsServerHelloDone_t3897 * __this, const MethodInfo* method)
 {
 	{
 		return;
@@ -2158,43 +2158,43 @@ extern "C" void TlsServerHelloDone_ProcessAsTls1_m12842 (TlsServerHelloDone_t384
 
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern "C" void TlsServerKeyExchange__ctor_m12843 (TlsServerKeyExchange_t3850 * __this, Context_t3792 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method)
+extern "C" void TlsServerKeyExchange__ctor_m13098 (TlsServerKeyExchange_t3898 * __this, Context_t3840 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method)
 {
 	{
-		Context_t3792 * L_0 = ___context;
+		Context_t3840 * L_0 = ___context;
 		ByteU5BU5D_t66* L_1 = ___buffer;
-		HandshakeMessage__ctor_m12782(__this, L_0, ((int32_t)12), L_1, /*hidden argument*/NULL);
-		TlsServerKeyExchange_verifySignature_m12847(__this, /*hidden argument*/NULL);
+		HandshakeMessage__ctor_m13037(__this, L_0, ((int32_t)12), L_1, /*hidden argument*/NULL);
+		TlsServerKeyExchange_verifySignature_m13102(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::Update()
-extern "C" void TlsServerKeyExchange_Update_m12844 (TlsServerKeyExchange_t3850 * __this, const MethodInfo* method)
+extern "C" void TlsServerKeyExchange_Update_m13099 (TlsServerKeyExchange_t3898 * __this, const MethodInfo* method)
 {
 	{
-		HandshakeMessage_Update_m12787(__this, /*hidden argument*/NULL);
-		Context_t3792 * L_0 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		HandshakeMessage_Update_m13042(__this, /*hidden argument*/NULL);
+		Context_t3840 * L_0 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TlsServerSettings_t3804 * L_1 = Context_get_ServerSettings_m12484(L_0, /*hidden argument*/NULL);
+		TlsServerSettings_t3852 * L_1 = Context_get_ServerSettings_m12739(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		TlsServerSettings_set_ServerKeyExchange_m12742(L_1, 1, /*hidden argument*/NULL);
-		Context_t3792 * L_2 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		TlsServerSettings_set_ServerKeyExchange_m12997(L_1, 1, /*hidden argument*/NULL);
+		Context_t3840 * L_2 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		TlsServerSettings_t3804 * L_3 = Context_get_ServerSettings_m12484(L_2, /*hidden argument*/NULL);
-		RSAParameters_t3837  L_4 = (__this->___rsaParams_9);
+		TlsServerSettings_t3852 * L_3 = Context_get_ServerSettings_m12739(L_2, /*hidden argument*/NULL);
+		RSAParameters_t3885  L_4 = (__this->___rsaParams_9);
 		NullCheck(L_3);
-		TlsServerSettings_set_RsaParameters_m12747(L_3, L_4, /*hidden argument*/NULL);
-		Context_t3792 * L_5 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		TlsServerSettings_set_RsaParameters_m13002(L_3, L_4, /*hidden argument*/NULL);
+		Context_t3840 * L_5 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		TlsServerSettings_t3804 * L_6 = Context_get_ServerSettings_m12484(L_5, /*hidden argument*/NULL);
+		TlsServerSettings_t3852 * L_6 = Context_get_ServerSettings_m12739(L_5, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_7 = (__this->___signedParams_10);
 		NullCheck(L_6);
-		TlsServerSettings_set_SignedParams_m12748(L_6, L_7, /*hidden argument*/NULL);
+		TlsServerSettings_set_SignedParams_m13003(L_6, L_7, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::ProcessAsSsl3()
-extern "C" void TlsServerKeyExchange_ProcessAsSsl3_m12845 (TlsServerKeyExchange_t3850 * __this, const MethodInfo* method)
+extern "C" void TlsServerKeyExchange_ProcessAsSsl3_m13100 (TlsServerKeyExchange_t3898 * __this, const MethodInfo* method)
 {
 	{
 		VirtActionInvoker0::Invoke(26 /* System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::ProcessAsTls1() */, __this);
@@ -2202,95 +2202,95 @@ extern "C" void TlsServerKeyExchange_ProcessAsSsl3_m12845 (TlsServerKeyExchange_
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::ProcessAsTls1()
-extern TypeInfo* RSAParameters_t3837_il2cpp_TypeInfo_var;
-extern "C" void TlsServerKeyExchange_ProcessAsTls1_m12846 (TlsServerKeyExchange_t3850 * __this, const MethodInfo* method)
+extern TypeInfo* RSAParameters_t3885_il2cpp_TypeInfo_var;
+extern "C" void TlsServerKeyExchange_ProcessAsTls1_m13101 (TlsServerKeyExchange_t3898 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		RSAParameters_t3837_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6513);
+		RSAParameters_t3885_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6631);
 		s_Il2CppMethodIntialized = true;
 	}
-	RSAParameters_t3837  V_0 = {0};
+	RSAParameters_t3885  V_0 = {0};
 	{
-		Initobj (RSAParameters_t3837_il2cpp_TypeInfo_var, (&V_0));
-		RSAParameters_t3837  L_0 = V_0;
+		Initobj (RSAParameters_t3885_il2cpp_TypeInfo_var, (&V_0));
+		RSAParameters_t3885  L_0 = V_0;
 		__this->___rsaParams_9 = L_0;
-		RSAParameters_t3837 * L_1 = &(__this->___rsaParams_9);
-		int16_t L_2 = TlsStream_ReadInt16_m12765(__this, /*hidden argument*/NULL);
-		ByteU5BU5D_t66* L_3 = TlsStream_ReadBytes_m12767(__this, L_2, /*hidden argument*/NULL);
+		RSAParameters_t3885 * L_1 = &(__this->___rsaParams_9);
+		int16_t L_2 = TlsStream_ReadInt16_m13020(__this, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_3 = TlsStream_ReadBytes_m13022(__this, L_2, /*hidden argument*/NULL);
 		L_1->___Modulus_6 = L_3;
-		RSAParameters_t3837 * L_4 = &(__this->___rsaParams_9);
-		int16_t L_5 = TlsStream_ReadInt16_m12765(__this, /*hidden argument*/NULL);
-		ByteU5BU5D_t66* L_6 = TlsStream_ReadBytes_m12767(__this, L_5, /*hidden argument*/NULL);
+		RSAParameters_t3885 * L_4 = &(__this->___rsaParams_9);
+		int16_t L_5 = TlsStream_ReadInt16_m13020(__this, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_6 = TlsStream_ReadBytes_m13022(__this, L_5, /*hidden argument*/NULL);
 		L_4->___Exponent_7 = L_6;
-		int16_t L_7 = TlsStream_ReadInt16_m12765(__this, /*hidden argument*/NULL);
-		ByteU5BU5D_t66* L_8 = TlsStream_ReadBytes_m12767(__this, L_7, /*hidden argument*/NULL);
+		int16_t L_7 = TlsStream_ReadInt16_m13020(__this, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_8 = TlsStream_ReadBytes_m13022(__this, L_7, /*hidden argument*/NULL);
 		__this->___signedParams_10 = L_8;
 		return;
 	}
 }
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::verifySignature()
-extern TypeInfo* MD5SHA1_t3787_il2cpp_TypeInfo_var;
-extern TypeInfo* TlsStream_t3807_il2cpp_TypeInfo_var;
-extern TypeInfo* TlsException_t3835_il2cpp_TypeInfo_var;
-extern "C" void TlsServerKeyExchange_verifySignature_m12847 (TlsServerKeyExchange_t3850 * __this, const MethodInfo* method)
+extern TypeInfo* MD5SHA1_t3835_il2cpp_TypeInfo_var;
+extern TypeInfo* TlsStream_t3855_il2cpp_TypeInfo_var;
+extern TypeInfo* TlsException_t3883_il2cpp_TypeInfo_var;
+extern "C" void TlsServerKeyExchange_verifySignature_m13102 (TlsServerKeyExchange_t3898 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		MD5SHA1_t3787_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6591);
-		TlsStream_t3807_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6553);
-		TlsException_t3835_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6574);
+		MD5SHA1_t3835_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6709);
+		TlsStream_t3855_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6671);
+		TlsException_t3883_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6692);
 		s_Il2CppMethodIntialized = true;
 	}
-	MD5SHA1_t3787 * V_0 = {0};
+	MD5SHA1_t3835 * V_0 = {0};
 	int32_t V_1 = 0;
-	TlsStream_t3807 * V_2 = {0};
+	TlsStream_t3855 * V_2 = {0};
 	bool V_3 = false;
 	{
-		MD5SHA1_t3787 * L_0 = (MD5SHA1_t3787 *)il2cpp_codegen_object_new (MD5SHA1_t3787_il2cpp_TypeInfo_var);
-		MD5SHA1__ctor_m12367(L_0, /*hidden argument*/NULL);
+		MD5SHA1_t3835 * L_0 = (MD5SHA1_t3835 *)il2cpp_codegen_object_new (MD5SHA1_t3835_il2cpp_TypeInfo_var);
+		MD5SHA1__ctor_m12622(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
-		RSAParameters_t3837 * L_1 = &(__this->___rsaParams_9);
+		RSAParameters_t3885 * L_1 = &(__this->___rsaParams_9);
 		ByteU5BU5D_t66* L_2 = (L_1->___Modulus_6);
 		NullCheck(L_2);
-		RSAParameters_t3837 * L_3 = &(__this->___rsaParams_9);
+		RSAParameters_t3885 * L_3 = &(__this->___rsaParams_9);
 		ByteU5BU5D_t66* L_4 = (L_3->___Exponent_7);
 		NullCheck(L_4);
 		V_1 = ((int32_t)((int32_t)((int32_t)((int32_t)(((int32_t)(((Array_t *)L_2)->max_length)))+(int32_t)(((int32_t)(((Array_t *)L_4)->max_length)))))+(int32_t)4));
-		TlsStream_t3807 * L_5 = (TlsStream_t3807 *)il2cpp_codegen_object_new (TlsStream_t3807_il2cpp_TypeInfo_var);
-		TlsStream__ctor_m12754(L_5, /*hidden argument*/NULL);
+		TlsStream_t3855 * L_5 = (TlsStream_t3855 *)il2cpp_codegen_object_new (TlsStream_t3855_il2cpp_TypeInfo_var);
+		TlsStream__ctor_m13009(L_5, /*hidden argument*/NULL);
 		V_2 = L_5;
-		TlsStream_t3807 * L_6 = V_2;
-		Context_t3792 * L_7 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		TlsStream_t3855 * L_6 = V_2;
+		Context_t3840 * L_7 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		ByteU5BU5D_t66* L_8 = Context_get_RandomCS_m12505(L_7, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_8 = Context_get_RandomCS_m12760(L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		TlsStream_Write_m12772(L_6, L_8, /*hidden argument*/NULL);
-		TlsStream_t3807 * L_9 = V_2;
-		ByteU5BU5D_t66* L_10 = TlsStream_ToArray_m12774(__this, /*hidden argument*/NULL);
+		TlsStream_Write_m13027(L_6, L_8, /*hidden argument*/NULL);
+		TlsStream_t3855 * L_9 = V_2;
+		ByteU5BU5D_t66* L_10 = TlsStream_ToArray_m13029(__this, /*hidden argument*/NULL);
 		int32_t L_11 = V_1;
 		NullCheck(L_9);
 		VirtActionInvoker3< ByteU5BU5D_t66*, int32_t, int32_t >::Invoke(20 /* System.Void Mono.Security.Protocol.Tls.TlsStream::Write(System.Byte[],System.Int32,System.Int32) */, L_9, L_10, 0, L_11);
-		MD5SHA1_t3787 * L_12 = V_0;
-		TlsStream_t3807 * L_13 = V_2;
+		MD5SHA1_t3835 * L_12 = V_0;
+		TlsStream_t3855 * L_13 = V_2;
 		NullCheck(L_13);
-		ByteU5BU5D_t66* L_14 = TlsStream_ToArray_m12774(L_13, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_14 = TlsStream_ToArray_m13029(L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		HashAlgorithm_ComputeHash_m3708(L_12, L_14, /*hidden argument*/NULL);
-		TlsStream_t3807 * L_15 = V_2;
+		HashAlgorithm_ComputeHash_m3947(L_12, L_14, /*hidden argument*/NULL);
+		TlsStream_t3855 * L_15 = V_2;
 		NullCheck(L_15);
-		TlsStream_Reset_m12773(L_15, /*hidden argument*/NULL);
-		MD5SHA1_t3787 * L_16 = V_0;
-		Context_t3792 * L_17 = HandshakeMessage_get_Context_m12783(__this, /*hidden argument*/NULL);
+		TlsStream_Reset_m13028(L_15, /*hidden argument*/NULL);
+		MD5SHA1_t3835 * L_16 = V_0;
+		Context_t3840 * L_17 = HandshakeMessage_get_Context_m13038(__this, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		TlsServerSettings_t3804 * L_18 = Context_get_ServerSettings_m12484(L_17, /*hidden argument*/NULL);
+		TlsServerSettings_t3852 * L_18 = Context_get_ServerSettings_m12739(L_17, /*hidden argument*/NULL);
 		NullCheck(L_18);
-		RSA_t3757 * L_19 = TlsServerSettings_get_CertificateRSA_m12745(L_18, /*hidden argument*/NULL);
+		RSA_t3805 * L_19 = TlsServerSettings_get_CertificateRSA_m13000(L_18, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_20 = (__this->___signedParams_10);
 		NullCheck(L_16);
-		bool L_21 = MD5SHA1_VerifySignature_m12372(L_16, L_19, L_20, /*hidden argument*/NULL);
+		bool L_21 = MD5SHA1_VerifySignature_m12627(L_16, L_19, L_20, /*hidden argument*/NULL);
 		V_3 = L_21;
 		bool L_22 = V_3;
 		if (L_22)
@@ -2299,8 +2299,8 @@ extern "C" void TlsServerKeyExchange_verifySignature_m12847 (TlsServerKeyExchang
 		}
 	}
 	{
-		TlsException_t3835 * L_23 = (TlsException_t3835 *)il2cpp_codegen_object_new (TlsException_t3835_il2cpp_TypeInfo_var);
-		TlsException__ctor_m12738(L_23, ((int32_t)50), (String_t*) &_stringLiteral2837, /*hidden argument*/NULL);
+		TlsException_t3883 * L_23 = (TlsException_t3883 *)il2cpp_codegen_object_new (TlsException_t3883_il2cpp_TypeInfo_var);
+		TlsException__ctor_m12993(L_23, ((int32_t)50), (String_t*) &_stringLiteral2881, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_23);
 	}
 
@@ -2328,29 +2328,29 @@ IL_008c:
 
 
 // System.Void Mono.Math.Prime.PrimalityTest::.ctor(System.Object,System.IntPtr)
-extern "C" void PrimalityTest__ctor_m12848 (PrimalityTest_t3851 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void PrimalityTest__ctor_m13103 (PrimalityTest_t3899 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Boolean Mono.Math.Prime.PrimalityTest::Invoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" bool PrimalityTest_Invoke_m12849 (PrimalityTest_t3851 * __this, BigInteger_t3728 * ___bi, int32_t ___confidence, const MethodInfo* method)
+extern "C" bool PrimalityTest_Invoke_m13104 (PrimalityTest_t3899 * __this, BigInteger_t3776 * ___bi, int32_t ___confidence, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		PrimalityTest_Invoke_m12849((PrimalityTest_t3851 *)__this->___prev_9,___bi, ___confidence, method);
+		PrimalityTest_Invoke_m13104((PrimalityTest_t3899 *)__this->___prev_9,___bi, ___confidence, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef bool (*FunctionPointerType) (Object_t *, Object_t * __this, BigInteger_t3728 * ___bi, int32_t ___confidence, const MethodInfo* method);
+		typedef bool (*FunctionPointerType) (Object_t *, Object_t * __this, BigInteger_t3776 * ___bi, int32_t ___confidence, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___bi, ___confidence,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef bool (*FunctionPointerType) (Object_t * __this, BigInteger_t3728 * ___bi, int32_t ___confidence, const MethodInfo* method);
+		typedef bool (*FunctionPointerType) (Object_t * __this, BigInteger_t3776 * ___bi, int32_t ___confidence, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___bi, ___confidence,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
@@ -2359,29 +2359,29 @@ extern "C" bool PrimalityTest_Invoke_m12849 (PrimalityTest_t3851 * __this, BigIn
 		return ((FunctionPointerType)__this->___method_ptr_0)(___bi, ___confidence,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" bool pinvoke_delegate_wrapper_PrimalityTest_t3851(Il2CppObject* delegate, BigInteger_t3728 * ___bi, int32_t ___confidence)
+extern "C" bool pinvoke_delegate_wrapper_PrimalityTest_t3899(Il2CppObject* delegate, BigInteger_t3776 * ___bi, int32_t ___confidence)
 {
 	// Marshaling of parameter '___bi' to native representation
-	BigInteger_t3728 * ____bi_marshaled = { 0 };
+	BigInteger_t3776 * ____bi_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'Mono.Math.BigInteger'."));
 }
 // System.IAsyncResult Mono.Math.Prime.PrimalityTest::BeginInvoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor,System.AsyncCallback,System.Object)
-extern TypeInfo* ConfidenceFactor_t3732_il2cpp_TypeInfo_var;
-extern "C" Object_t * PrimalityTest_BeginInvoke_m12850 (PrimalityTest_t3851 * __this, BigInteger_t3728 * ___bi, int32_t ___confidence, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern TypeInfo* ConfidenceFactor_t3780_il2cpp_TypeInfo_var;
+extern "C" Object_t * PrimalityTest_BeginInvoke_m13105 (PrimalityTest_t3899 * __this, BigInteger_t3776 * ___bi, int32_t ___confidence, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ConfidenceFactor_t3732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6610);
+		ConfidenceFactor_t3780_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6728);
 		s_Il2CppMethodIntialized = true;
 	}
 	void *__d_args[3] = {0};
 	__d_args[0] = ___bi;
-	__d_args[1] = Box(ConfidenceFactor_t3732_il2cpp_TypeInfo_var, &___confidence);
+	__d_args[1] = Box(ConfidenceFactor_t3780_il2cpp_TypeInfo_var, &___confidence);
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Boolean Mono.Math.Prime.PrimalityTest::EndInvoke(System.IAsyncResult)
-extern "C" bool PrimalityTest_EndInvoke_m12851 (PrimalityTest_t3851 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" bool PrimalityTest_EndInvoke_m13106 (PrimalityTest_t3899 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 	return *(bool*)UnBox ((Il2CppCodeGenObject*)__result);
@@ -2397,45 +2397,45 @@ extern "C" bool PrimalityTest_EndInvoke_m12851 (PrimalityTest_t3851 * __this, Ob
 
 
 // System.Void Mono.Security.Protocol.Tls.CertificateValidationCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void CertificateValidationCallback__ctor_m12852 (CertificateValidationCallback_t3826 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void CertificateValidationCallback__ctor_m13107 (CertificateValidationCallback_t3874 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Boolean Mono.Security.Protocol.Tls.CertificateValidationCallback::Invoke(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[])
-extern "C" bool CertificateValidationCallback_Invoke_m12853 (CertificateValidationCallback_t3826 * __this, X509Certificate_t3834 * ___certificate, Int32U5BU5D_t549* ___certificateErrors, const MethodInfo* method)
+extern "C" bool CertificateValidationCallback_Invoke_m13108 (CertificateValidationCallback_t3874 * __this, X509Certificate_t3882 * ___certificate, Int32U5BU5D_t484* ___certificateErrors, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		CertificateValidationCallback_Invoke_m12853((CertificateValidationCallback_t3826 *)__this->___prev_9,___certificate, ___certificateErrors, method);
+		CertificateValidationCallback_Invoke_m13108((CertificateValidationCallback_t3874 *)__this->___prev_9,___certificate, ___certificateErrors, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef bool (*FunctionPointerType) (Object_t *, Object_t * __this, X509Certificate_t3834 * ___certificate, Int32U5BU5D_t549* ___certificateErrors, const MethodInfo* method);
+		typedef bool (*FunctionPointerType) (Object_t *, Object_t * __this, X509Certificate_t3882 * ___certificate, Int32U5BU5D_t484* ___certificateErrors, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___certificate, ___certificateErrors,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef bool (*FunctionPointerType) (Object_t * __this, X509Certificate_t3834 * ___certificate, Int32U5BU5D_t549* ___certificateErrors, const MethodInfo* method);
+		typedef bool (*FunctionPointerType) (Object_t * __this, X509Certificate_t3882 * ___certificate, Int32U5BU5D_t484* ___certificateErrors, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___certificate, ___certificateErrors,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
 	{
-		typedef bool (*FunctionPointerType) (Object_t * __this, Int32U5BU5D_t549* ___certificateErrors, const MethodInfo* method);
+		typedef bool (*FunctionPointerType) (Object_t * __this, Int32U5BU5D_t484* ___certificateErrors, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(___certificate, ___certificateErrors,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" bool pinvoke_delegate_wrapper_CertificateValidationCallback_t3826(Il2CppObject* delegate, X509Certificate_t3834 * ___certificate, Int32U5BU5D_t549* ___certificateErrors)
+extern "C" bool pinvoke_delegate_wrapper_CertificateValidationCallback_t3874(Il2CppObject* delegate, X509Certificate_t3882 * ___certificate, Int32U5BU5D_t484* ___certificateErrors)
 {
 	// Marshaling of parameter '___certificate' to native representation
-	X509Certificate_t3834 * ____certificate_marshaled = { 0 };
+	X509Certificate_t3882 * ____certificate_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Security.Cryptography.X509Certificates.X509Certificate'."));
 }
 // System.IAsyncResult Mono.Security.Protocol.Tls.CertificateValidationCallback::BeginInvoke(System.Security.Cryptography.X509Certificates.X509Certificate,System.Int32[],System.AsyncCallback,System.Object)
-extern "C" Object_t * CertificateValidationCallback_BeginInvoke_m12854 (CertificateValidationCallback_t3826 * __this, X509Certificate_t3834 * ___certificate, Int32U5BU5D_t549* ___certificateErrors, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * CertificateValidationCallback_BeginInvoke_m13109 (CertificateValidationCallback_t3874 * __this, X509Certificate_t3882 * ___certificate, Int32U5BU5D_t484* ___certificateErrors, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = ___certificate;
@@ -2443,7 +2443,7 @@ extern "C" Object_t * CertificateValidationCallback_BeginInvoke_m12854 (Certific
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Boolean Mono.Security.Protocol.Tls.CertificateValidationCallback::EndInvoke(System.IAsyncResult)
-extern "C" bool CertificateValidationCallback_EndInvoke_m12855 (CertificateValidationCallback_t3826 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" bool CertificateValidationCallback_EndInvoke_m13110 (CertificateValidationCallback_t3874 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 	return *(bool*)UnBox ((Il2CppCodeGenObject*)__result);
@@ -2459,55 +2459,55 @@ extern "C" bool CertificateValidationCallback_EndInvoke_m12855 (CertificateValid
 
 
 // System.Void Mono.Security.Protocol.Tls.CertificateValidationCallback2::.ctor(System.Object,System.IntPtr)
-extern "C" void CertificateValidationCallback2__ctor_m12856 (CertificateValidationCallback2_t3827 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void CertificateValidationCallback2__ctor_m13111 (CertificateValidationCallback2_t3875 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // Mono.Security.Protocol.Tls.ValidationResult Mono.Security.Protocol.Tls.CertificateValidationCallback2::Invoke(Mono.Security.X509.X509CertificateCollection)
-extern "C" ValidationResult_t3825 * CertificateValidationCallback2_Invoke_m12857 (CertificateValidationCallback2_t3827 * __this, X509CertificateCollection_t3760 * ___collection, const MethodInfo* method)
+extern "C" ValidationResult_t3873 * CertificateValidationCallback2_Invoke_m13112 (CertificateValidationCallback2_t3875 * __this, X509CertificateCollection_t3808 * ___collection, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		CertificateValidationCallback2_Invoke_m12857((CertificateValidationCallback2_t3827 *)__this->___prev_9,___collection, method);
+		CertificateValidationCallback2_Invoke_m13112((CertificateValidationCallback2_t3875 *)__this->___prev_9,___collection, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef ValidationResult_t3825 * (*FunctionPointerType) (Object_t *, Object_t * __this, X509CertificateCollection_t3760 * ___collection, const MethodInfo* method);
+		typedef ValidationResult_t3873 * (*FunctionPointerType) (Object_t *, Object_t * __this, X509CertificateCollection_t3808 * ___collection, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___collection,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef ValidationResult_t3825 * (*FunctionPointerType) (Object_t * __this, X509CertificateCollection_t3760 * ___collection, const MethodInfo* method);
+		typedef ValidationResult_t3873 * (*FunctionPointerType) (Object_t * __this, X509CertificateCollection_t3808 * ___collection, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___collection,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
 	{
-		typedef ValidationResult_t3825 * (*FunctionPointerType) (Object_t * __this, const MethodInfo* method);
+		typedef ValidationResult_t3873 * (*FunctionPointerType) (Object_t * __this, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(___collection,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" ValidationResult_t3825 * pinvoke_delegate_wrapper_CertificateValidationCallback2_t3827(Il2CppObject* delegate, X509CertificateCollection_t3760 * ___collection)
+extern "C" ValidationResult_t3873 * pinvoke_delegate_wrapper_CertificateValidationCallback2_t3875(Il2CppObject* delegate, X509CertificateCollection_t3808 * ___collection)
 {
 	// Marshaling of parameter '___collection' to native representation
-	X509CertificateCollection_t3760 * ____collection_marshaled = { 0 };
+	X509CertificateCollection_t3808 * ____collection_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'Mono.Security.X509.X509CertificateCollection'."));
 }
 // System.IAsyncResult Mono.Security.Protocol.Tls.CertificateValidationCallback2::BeginInvoke(Mono.Security.X509.X509CertificateCollection,System.AsyncCallback,System.Object)
-extern "C" Object_t * CertificateValidationCallback2_BeginInvoke_m12858 (CertificateValidationCallback2_t3827 * __this, X509CertificateCollection_t3760 * ___collection, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * CertificateValidationCallback2_BeginInvoke_m13113 (CertificateValidationCallback2_t3875 * __this, X509CertificateCollection_t3808 * ___collection, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___collection;
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // Mono.Security.Protocol.Tls.ValidationResult Mono.Security.Protocol.Tls.CertificateValidationCallback2::EndInvoke(System.IAsyncResult)
-extern "C" ValidationResult_t3825 * CertificateValidationCallback2_EndInvoke_m12859 (CertificateValidationCallback2_t3827 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" ValidationResult_t3873 * CertificateValidationCallback2_EndInvoke_m13114 (CertificateValidationCallback2_t3875 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
-	return (ValidationResult_t3825 *)__result;
+	return (ValidationResult_t3873 *)__result;
 }
 // Mono.Security.Protocol.Tls.CertificateSelectionCallback
 #include "Mono_Security_Mono_Security_Protocol_Tls_CertificateSelectio.h"
@@ -2522,45 +2522,45 @@ extern "C" ValidationResult_t3825 * CertificateValidationCallback2_EndInvoke_m12
 
 
 // System.Void Mono.Security.Protocol.Tls.CertificateSelectionCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void CertificateSelectionCallback__ctor_m12860 (CertificateSelectionCallback_t3812 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void CertificateSelectionCallback__ctor_m13115 (CertificateSelectionCallback_t3860 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.CertificateSelectionCallback::Invoke(System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection)
-extern "C" X509Certificate_t3834 * CertificateSelectionCallback_Invoke_m12861 (CertificateSelectionCallback_t3812 * __this, X509CertificateCollection_t3833 * ___clientCertificates, X509Certificate_t3834 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t3833 * ___serverRequestedCertificates, const MethodInfo* method)
+extern "C" X509Certificate_t3882 * CertificateSelectionCallback_Invoke_m13116 (CertificateSelectionCallback_t3860 * __this, X509CertificateCollection_t3881 * ___clientCertificates, X509Certificate_t3882 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t3881 * ___serverRequestedCertificates, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		CertificateSelectionCallback_Invoke_m12861((CertificateSelectionCallback_t3812 *)__this->___prev_9,___clientCertificates, ___serverCertificate, ___targetHost, ___serverRequestedCertificates, method);
+		CertificateSelectionCallback_Invoke_m13116((CertificateSelectionCallback_t3860 *)__this->___prev_9,___clientCertificates, ___serverCertificate, ___targetHost, ___serverRequestedCertificates, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef X509Certificate_t3834 * (*FunctionPointerType) (Object_t *, Object_t * __this, X509CertificateCollection_t3833 * ___clientCertificates, X509Certificate_t3834 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t3833 * ___serverRequestedCertificates, const MethodInfo* method);
+		typedef X509Certificate_t3882 * (*FunctionPointerType) (Object_t *, Object_t * __this, X509CertificateCollection_t3881 * ___clientCertificates, X509Certificate_t3882 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t3881 * ___serverRequestedCertificates, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___clientCertificates, ___serverCertificate, ___targetHost, ___serverRequestedCertificates,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef X509Certificate_t3834 * (*FunctionPointerType) (Object_t * __this, X509CertificateCollection_t3833 * ___clientCertificates, X509Certificate_t3834 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t3833 * ___serverRequestedCertificates, const MethodInfo* method);
+		typedef X509Certificate_t3882 * (*FunctionPointerType) (Object_t * __this, X509CertificateCollection_t3881 * ___clientCertificates, X509Certificate_t3882 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t3881 * ___serverRequestedCertificates, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___clientCertificates, ___serverCertificate, ___targetHost, ___serverRequestedCertificates,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
 	{
-		typedef X509Certificate_t3834 * (*FunctionPointerType) (Object_t * __this, X509Certificate_t3834 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t3833 * ___serverRequestedCertificates, const MethodInfo* method);
+		typedef X509Certificate_t3882 * (*FunctionPointerType) (Object_t * __this, X509Certificate_t3882 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t3881 * ___serverRequestedCertificates, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(___clientCertificates, ___serverCertificate, ___targetHost, ___serverRequestedCertificates,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" X509Certificate_t3834 * pinvoke_delegate_wrapper_CertificateSelectionCallback_t3812(Il2CppObject* delegate, X509CertificateCollection_t3833 * ___clientCertificates, X509Certificate_t3834 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t3833 * ___serverRequestedCertificates)
+extern "C" X509Certificate_t3882 * pinvoke_delegate_wrapper_CertificateSelectionCallback_t3860(Il2CppObject* delegate, X509CertificateCollection_t3881 * ___clientCertificates, X509Certificate_t3882 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t3881 * ___serverRequestedCertificates)
 {
 	// Marshaling of parameter '___clientCertificates' to native representation
-	X509CertificateCollection_t3833 * ____clientCertificates_marshaled = { 0 };
+	X509CertificateCollection_t3881 * ____clientCertificates_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Security.Cryptography.X509Certificates.X509CertificateCollection'."));
 }
 // System.IAsyncResult Mono.Security.Protocol.Tls.CertificateSelectionCallback::BeginInvoke(System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.AsyncCallback,System.Object)
-extern "C" Object_t * CertificateSelectionCallback_BeginInvoke_m12862 (CertificateSelectionCallback_t3812 * __this, X509CertificateCollection_t3833 * ___clientCertificates, X509Certificate_t3834 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t3833 * ___serverRequestedCertificates, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * CertificateSelectionCallback_BeginInvoke_m13117 (CertificateSelectionCallback_t3860 * __this, X509CertificateCollection_t3881 * ___clientCertificates, X509Certificate_t3882 * ___serverCertificate, String_t* ___targetHost, X509CertificateCollection_t3881 * ___serverRequestedCertificates, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[5] = {0};
 	__d_args[0] = ___clientCertificates;
@@ -2570,10 +2570,10 @@ extern "C" Object_t * CertificateSelectionCallback_BeginInvoke_m12862 (Certifica
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Security.Cryptography.X509Certificates.X509Certificate Mono.Security.Protocol.Tls.CertificateSelectionCallback::EndInvoke(System.IAsyncResult)
-extern "C" X509Certificate_t3834 * CertificateSelectionCallback_EndInvoke_m12863 (CertificateSelectionCallback_t3812 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" X509Certificate_t3882 * CertificateSelectionCallback_EndInvoke_m13118 (CertificateSelectionCallback_t3860 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
-	return (X509Certificate_t3834 *)__result;
+	return (X509Certificate_t3882 *)__result;
 }
 // Mono.Security.Protocol.Tls.PrivateKeySelectionCallback
 #include "Mono_Security_Mono_Security_Protocol_Tls_PrivateKeySelection.h"
@@ -2588,45 +2588,45 @@ extern "C" X509Certificate_t3834 * CertificateSelectionCallback_EndInvoke_m12863
 
 
 // System.Void Mono.Security.Protocol.Tls.PrivateKeySelectionCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void PrivateKeySelectionCallback__ctor_m12864 (PrivateKeySelectionCallback_t3813 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void PrivateKeySelectionCallback__ctor_m13119 (PrivateKeySelectionCallback_t3861 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Security.Cryptography.AsymmetricAlgorithm Mono.Security.Protocol.Tls.PrivateKeySelectionCallback::Invoke(System.Security.Cryptography.X509Certificates.X509Certificate,System.String)
-extern "C" AsymmetricAlgorithm_t3852 * PrivateKeySelectionCallback_Invoke_m12865 (PrivateKeySelectionCallback_t3813 * __this, X509Certificate_t3834 * ___certificate, String_t* ___targetHost, const MethodInfo* method)
+extern "C" AsymmetricAlgorithm_t3900 * PrivateKeySelectionCallback_Invoke_m13120 (PrivateKeySelectionCallback_t3861 * __this, X509Certificate_t3882 * ___certificate, String_t* ___targetHost, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		PrivateKeySelectionCallback_Invoke_m12865((PrivateKeySelectionCallback_t3813 *)__this->___prev_9,___certificate, ___targetHost, method);
+		PrivateKeySelectionCallback_Invoke_m13120((PrivateKeySelectionCallback_t3861 *)__this->___prev_9,___certificate, ___targetHost, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef AsymmetricAlgorithm_t3852 * (*FunctionPointerType) (Object_t *, Object_t * __this, X509Certificate_t3834 * ___certificate, String_t* ___targetHost, const MethodInfo* method);
+		typedef AsymmetricAlgorithm_t3900 * (*FunctionPointerType) (Object_t *, Object_t * __this, X509Certificate_t3882 * ___certificate, String_t* ___targetHost, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___certificate, ___targetHost,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef AsymmetricAlgorithm_t3852 * (*FunctionPointerType) (Object_t * __this, X509Certificate_t3834 * ___certificate, String_t* ___targetHost, const MethodInfo* method);
+		typedef AsymmetricAlgorithm_t3900 * (*FunctionPointerType) (Object_t * __this, X509Certificate_t3882 * ___certificate, String_t* ___targetHost, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___certificate, ___targetHost,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
 	{
-		typedef AsymmetricAlgorithm_t3852 * (*FunctionPointerType) (Object_t * __this, String_t* ___targetHost, const MethodInfo* method);
+		typedef AsymmetricAlgorithm_t3900 * (*FunctionPointerType) (Object_t * __this, String_t* ___targetHost, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(___certificate, ___targetHost,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" AsymmetricAlgorithm_t3852 * pinvoke_delegate_wrapper_PrivateKeySelectionCallback_t3813(Il2CppObject* delegate, X509Certificate_t3834 * ___certificate, String_t* ___targetHost)
+extern "C" AsymmetricAlgorithm_t3900 * pinvoke_delegate_wrapper_PrivateKeySelectionCallback_t3861(Il2CppObject* delegate, X509Certificate_t3882 * ___certificate, String_t* ___targetHost)
 {
 	// Marshaling of parameter '___certificate' to native representation
-	X509Certificate_t3834 * ____certificate_marshaled = { 0 };
+	X509Certificate_t3882 * ____certificate_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Security.Cryptography.X509Certificates.X509Certificate'."));
 }
 // System.IAsyncResult Mono.Security.Protocol.Tls.PrivateKeySelectionCallback::BeginInvoke(System.Security.Cryptography.X509Certificates.X509Certificate,System.String,System.AsyncCallback,System.Object)
-extern "C" Object_t * PrivateKeySelectionCallback_BeginInvoke_m12866 (PrivateKeySelectionCallback_t3813 * __this, X509Certificate_t3834 * ___certificate, String_t* ___targetHost, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * PrivateKeySelectionCallback_BeginInvoke_m13121 (PrivateKeySelectionCallback_t3861 * __this, X509Certificate_t3882 * ___certificate, String_t* ___targetHost, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = ___certificate;
@@ -2634,10 +2634,10 @@ extern "C" Object_t * PrivateKeySelectionCallback_BeginInvoke_m12866 (PrivateKey
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Security.Cryptography.AsymmetricAlgorithm Mono.Security.Protocol.Tls.PrivateKeySelectionCallback::EndInvoke(System.IAsyncResult)
-extern "C" AsymmetricAlgorithm_t3852 * PrivateKeySelectionCallback_EndInvoke_m12867 (PrivateKeySelectionCallback_t3813 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" AsymmetricAlgorithm_t3900 * PrivateKeySelectionCallback_EndInvoke_m13122 (PrivateKeySelectionCallback_t3861 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
-	return (AsymmetricAlgorithm_t3852 *)__result;
+	return (AsymmetricAlgorithm_t3900 *)__result;
 }
 // <PrivateImplementationDetails>/$ArrayType$3132
 #include "Mono_Security_U3CPrivateImplementationDetailsU3E_U24ArrayTyp.h"
@@ -2650,14 +2650,14 @@ extern "C" AsymmetricAlgorithm_t3852 * PrivateKeySelectionCallback_EndInvoke_m12
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$3132
-void U24ArrayTypeU243132_t3853_marshal(const U24ArrayTypeU243132_t3853& unmarshaled, U24ArrayTypeU243132_t3853_marshaled& marshaled)
+void U24ArrayTypeU243132_t3901_marshal(const U24ArrayTypeU243132_t3901& unmarshaled, U24ArrayTypeU243132_t3901_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU243132_t3853_marshal_back(const U24ArrayTypeU243132_t3853_marshaled& marshaled, U24ArrayTypeU243132_t3853& unmarshaled)
+void U24ArrayTypeU243132_t3901_marshal_back(const U24ArrayTypeU243132_t3901_marshaled& marshaled, U24ArrayTypeU243132_t3901& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$3132
-void U24ArrayTypeU243132_t3853_marshal_cleanup(U24ArrayTypeU243132_t3853_marshaled& marshaled)
+void U24ArrayTypeU243132_t3901_marshal_cleanup(U24ArrayTypeU243132_t3901_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$256
@@ -2671,14 +2671,14 @@ void U24ArrayTypeU243132_t3853_marshal_cleanup(U24ArrayTypeU243132_t3853_marshal
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$256
-void U24ArrayTypeU24256_t3854_marshal(const U24ArrayTypeU24256_t3854& unmarshaled, U24ArrayTypeU24256_t3854_marshaled& marshaled)
+void U24ArrayTypeU24256_t3902_marshal(const U24ArrayTypeU24256_t3902& unmarshaled, U24ArrayTypeU24256_t3902_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU24256_t3854_marshal_back(const U24ArrayTypeU24256_t3854_marshaled& marshaled, U24ArrayTypeU24256_t3854& unmarshaled)
+void U24ArrayTypeU24256_t3902_marshal_back(const U24ArrayTypeU24256_t3902_marshaled& marshaled, U24ArrayTypeU24256_t3902& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$256
-void U24ArrayTypeU24256_t3854_marshal_cleanup(U24ArrayTypeU24256_t3854_marshaled& marshaled)
+void U24ArrayTypeU24256_t3902_marshal_cleanup(U24ArrayTypeU24256_t3902_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$20
@@ -2692,14 +2692,14 @@ void U24ArrayTypeU24256_t3854_marshal_cleanup(U24ArrayTypeU24256_t3854_marshaled
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$20
-void U24ArrayTypeU2420_t3855_marshal(const U24ArrayTypeU2420_t3855& unmarshaled, U24ArrayTypeU2420_t3855_marshaled& marshaled)
+void U24ArrayTypeU2420_t3903_marshal(const U24ArrayTypeU2420_t3903& unmarshaled, U24ArrayTypeU2420_t3903_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2420_t3855_marshal_back(const U24ArrayTypeU2420_t3855_marshaled& marshaled, U24ArrayTypeU2420_t3855& unmarshaled)
+void U24ArrayTypeU2420_t3903_marshal_back(const U24ArrayTypeU2420_t3903_marshaled& marshaled, U24ArrayTypeU2420_t3903& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$20
-void U24ArrayTypeU2420_t3855_marshal_cleanup(U24ArrayTypeU2420_t3855_marshaled& marshaled)
+void U24ArrayTypeU2420_t3903_marshal_cleanup(U24ArrayTypeU2420_t3903_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$32
@@ -2713,14 +2713,14 @@ void U24ArrayTypeU2420_t3855_marshal_cleanup(U24ArrayTypeU2420_t3855_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$32
-void U24ArrayTypeU2432_t3856_marshal(const U24ArrayTypeU2432_t3856& unmarshaled, U24ArrayTypeU2432_t3856_marshaled& marshaled)
+void U24ArrayTypeU2432_t3904_marshal(const U24ArrayTypeU2432_t3904& unmarshaled, U24ArrayTypeU2432_t3904_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2432_t3856_marshal_back(const U24ArrayTypeU2432_t3856_marshaled& marshaled, U24ArrayTypeU2432_t3856& unmarshaled)
+void U24ArrayTypeU2432_t3904_marshal_back(const U24ArrayTypeU2432_t3904_marshaled& marshaled, U24ArrayTypeU2432_t3904& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$32
-void U24ArrayTypeU2432_t3856_marshal_cleanup(U24ArrayTypeU2432_t3856_marshaled& marshaled)
+void U24ArrayTypeU2432_t3904_marshal_cleanup(U24ArrayTypeU2432_t3904_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$48
@@ -2734,14 +2734,14 @@ void U24ArrayTypeU2432_t3856_marshal_cleanup(U24ArrayTypeU2432_t3856_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$48
-void U24ArrayTypeU2448_t3857_marshal(const U24ArrayTypeU2448_t3857& unmarshaled, U24ArrayTypeU2448_t3857_marshaled& marshaled)
+void U24ArrayTypeU2448_t3905_marshal(const U24ArrayTypeU2448_t3905& unmarshaled, U24ArrayTypeU2448_t3905_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2448_t3857_marshal_back(const U24ArrayTypeU2448_t3857_marshaled& marshaled, U24ArrayTypeU2448_t3857& unmarshaled)
+void U24ArrayTypeU2448_t3905_marshal_back(const U24ArrayTypeU2448_t3905_marshaled& marshaled, U24ArrayTypeU2448_t3905& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$48
-void U24ArrayTypeU2448_t3857_marshal_cleanup(U24ArrayTypeU2448_t3857_marshaled& marshaled)
+void U24ArrayTypeU2448_t3905_marshal_cleanup(U24ArrayTypeU2448_t3905_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$64
@@ -2755,14 +2755,14 @@ void U24ArrayTypeU2448_t3857_marshal_cleanup(U24ArrayTypeU2448_t3857_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$64
-void U24ArrayTypeU2464_t3858_marshal(const U24ArrayTypeU2464_t3858& unmarshaled, U24ArrayTypeU2464_t3858_marshaled& marshaled)
+void U24ArrayTypeU2464_t3906_marshal(const U24ArrayTypeU2464_t3906& unmarshaled, U24ArrayTypeU2464_t3906_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2464_t3858_marshal_back(const U24ArrayTypeU2464_t3858_marshaled& marshaled, U24ArrayTypeU2464_t3858& unmarshaled)
+void U24ArrayTypeU2464_t3906_marshal_back(const U24ArrayTypeU2464_t3906_marshaled& marshaled, U24ArrayTypeU2464_t3906& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$64
-void U24ArrayTypeU2464_t3858_marshal_cleanup(U24ArrayTypeU2464_t3858_marshaled& marshaled)
+void U24ArrayTypeU2464_t3906_marshal_cleanup(U24ArrayTypeU2464_t3906_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$12
@@ -2776,14 +2776,14 @@ void U24ArrayTypeU2464_t3858_marshal_cleanup(U24ArrayTypeU2464_t3858_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$12
-void U24ArrayTypeU2412_t3859_marshal(const U24ArrayTypeU2412_t3859& unmarshaled, U24ArrayTypeU2412_t3859_marshaled& marshaled)
+void U24ArrayTypeU2412_t3907_marshal(const U24ArrayTypeU2412_t3907& unmarshaled, U24ArrayTypeU2412_t3907_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2412_t3859_marshal_back(const U24ArrayTypeU2412_t3859_marshaled& marshaled, U24ArrayTypeU2412_t3859& unmarshaled)
+void U24ArrayTypeU2412_t3907_marshal_back(const U24ArrayTypeU2412_t3907_marshaled& marshaled, U24ArrayTypeU2412_t3907& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$12
-void U24ArrayTypeU2412_t3859_marshal_cleanup(U24ArrayTypeU2412_t3859_marshaled& marshaled)
+void U24ArrayTypeU2412_t3907_marshal_cleanup(U24ArrayTypeU2412_t3907_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$16
@@ -2797,14 +2797,14 @@ void U24ArrayTypeU2412_t3859_marshal_cleanup(U24ArrayTypeU2412_t3859_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$16
-void U24ArrayTypeU2416_t3860_marshal(const U24ArrayTypeU2416_t3860& unmarshaled, U24ArrayTypeU2416_t3860_marshaled& marshaled)
+void U24ArrayTypeU2416_t3908_marshal(const U24ArrayTypeU2416_t3908& unmarshaled, U24ArrayTypeU2416_t3908_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2416_t3860_marshal_back(const U24ArrayTypeU2416_t3860_marshaled& marshaled, U24ArrayTypeU2416_t3860& unmarshaled)
+void U24ArrayTypeU2416_t3908_marshal_back(const U24ArrayTypeU2416_t3908_marshaled& marshaled, U24ArrayTypeU2416_t3908& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$16
-void U24ArrayTypeU2416_t3860_marshal_cleanup(U24ArrayTypeU2416_t3860_marshaled& marshaled)
+void U24ArrayTypeU2416_t3908_marshal_cleanup(U24ArrayTypeU2416_t3908_marshaled& marshaled)
 {
 }
 #ifndef _MSC_VER
@@ -2816,14 +2816,14 @@ void U24ArrayTypeU2416_t3860_marshal_cleanup(U24ArrayTypeU2416_t3860_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$4
-void U24ArrayTypeU244_t3861_marshal(const U24ArrayTypeU244_t3861& unmarshaled, U24ArrayTypeU244_t3861_marshaled& marshaled)
+void U24ArrayTypeU244_t3909_marshal(const U24ArrayTypeU244_t3909& unmarshaled, U24ArrayTypeU244_t3909_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU244_t3861_marshal_back(const U24ArrayTypeU244_t3861_marshaled& marshaled, U24ArrayTypeU244_t3861& unmarshaled)
+void U24ArrayTypeU244_t3909_marshal_back(const U24ArrayTypeU244_t3909_marshaled& marshaled, U24ArrayTypeU244_t3909& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$4
-void U24ArrayTypeU244_t3861_marshal_cleanup(U24ArrayTypeU244_t3861_marshaled& marshaled)
+void U24ArrayTypeU244_t3909_marshal_cleanup(U24ArrayTypeU244_t3909_marshaled& marshaled)
 {
 }
 #ifndef _MSC_VER

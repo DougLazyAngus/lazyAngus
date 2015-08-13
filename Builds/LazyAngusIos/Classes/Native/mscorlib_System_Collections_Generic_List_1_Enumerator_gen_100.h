@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>
-struct List_1_t2757;
-// UnityEngine.Networking.Match.MatchDesc
-struct MatchDesc_t2756;
+// System.Collections.Generic.List`1<UnityEngine.UICharInfo>
+struct List_1_t2789;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>
-struct  Enumerator_t8397 
+// UnityEngine.UICharInfo
+#include "UnityEngine_UnityEngine_UICharInfo.h"
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>
+struct  Enumerator_t8426 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::l
-	List_1_t2757 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::l
+	List_1_t2789 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::current
-	MatchDesc_t2756 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::current
+	UICharInfo_t1078  ___current_3;
 };

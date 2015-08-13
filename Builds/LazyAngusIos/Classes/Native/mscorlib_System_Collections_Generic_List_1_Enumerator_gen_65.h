@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<Parse.ParseFile>
-struct List_1_t6885;
-// Parse.ParseFile
-struct ParseFile_t1189;
+// System.Collections.Generic.List`1<System.DateTime>
+struct List_1_t6839;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<Parse.ParseFile>
-struct  Enumerator_t6888 
+// System.DateTime
+#include "mscorlib_System_DateTime.h"
+// System.Collections.Generic.List`1/Enumerator<System.DateTime>
+struct  Enumerator_t6840 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Parse.ParseFile>::l
-	List_1_t6885 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseFile>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.DateTime>::l
+	List_1_t6839 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.DateTime>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseFile>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.DateTime>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<Parse.ParseFile>::current
-	ParseFile_t1189 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.DateTime>::current
+	DateTime_t287  ___current_3;
 };

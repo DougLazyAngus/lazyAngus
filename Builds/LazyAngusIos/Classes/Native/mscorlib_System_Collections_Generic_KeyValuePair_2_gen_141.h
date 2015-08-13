@@ -1,14 +1,17 @@
 ﻿#pragma once
 #include <stdint.h>
+// UnityEngine.Event
+struct Event_t783;
+struct Event_t783_marshaled;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.TimeZoneInfo/TimeType
-#include "System_Core_System_TimeZoneInfo_TimeType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>
-struct  KeyValuePair_2_t8525 
+// UnityEngine.TextEditor/TextEditOp
+#include "UnityEngine_UnityEngine_TextEditor_TextEditOp.h"
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
+struct  KeyValuePair_2_t8548 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>::value
-	TimeType_t3308  ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::key
+	Event_t783 * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::value
+	int32_t ___value_1;
 };

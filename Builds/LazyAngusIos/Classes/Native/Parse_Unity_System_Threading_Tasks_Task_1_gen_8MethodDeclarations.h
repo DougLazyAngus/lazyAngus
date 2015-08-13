@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>
-struct Task_1_t1418;
+struct Task_1_t1469;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>
-struct Task_1_t1336;
+struct Task_1_t1387;
 // System.Threading.Tasks.Task
-struct Task_t1157;
+struct Task_t1210;
 // System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>>
-struct Action_1_t9009;
+struct Action_1_t9100;
 // System.AggregateException
-struct AggregateException_t1287;
+struct AggregateException_t1338;
 
 // System.Void System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>::.ctor()
 // System.Threading.Tasks.Task`1<System.Object>
 #include "Parse_Unity_System_Threading_Tasks_Task_1_gen_2MethodDeclarations.h"
-#define Task_1__ctor_m31726(__this, method) (( void (*) (Task_1_t1418 *, const MethodInfo*))Task_1__ctor_m29853_gshared)(__this, method)
+#define Task_1__ctor_m32417(__this, method) (( void (*) (Task_1_t1469 *, const MethodInfo*))Task_1__ctor_m30544_gshared)(__this, method)
 // T System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>::get_Result()
-#define Task_1_get_Result_m31727(__this, method) (( Task_1_t1336 * (*) (Task_1_t1418 *, const MethodInfo*))Task_1_get_Result_m29854_gshared)(__this, method)
+#define Task_1_get_Result_m32418(__this, method) (( Task_1_t1387 * (*) (Task_1_t1469 *, const MethodInfo*))Task_1_get_Result_m30545_gshared)(__this, method)
 // System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<T>>)
-#define Task_1_ContinueWith_m31728(__this, ___continuation, method) (( Task_t1157 * (*) (Task_1_t1418 *, Action_1_t9009 *, const MethodInfo*))Task_1_ContinueWith_m29856_gshared)(__this, ___continuation, method)
+#define Task_1_ContinueWith_m32419(__this, ___continuation, method) (( Task_t1210 * (*) (Task_1_t1469 *, Action_1_t9100 *, const MethodInfo*))Task_1_ContinueWith_m30547_gshared)(__this, ___continuation, method)
 // System.Void System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>::RunContinuations()
-#define Task_1_RunContinuations_m31729(__this, method) (( void (*) (Task_1_t1418 *, const MethodInfo*))Task_1_RunContinuations_m29858_gshared)(__this, method)
+#define Task_1_RunContinuations_m32420(__this, method) (( void (*) (Task_1_t1469 *, const MethodInfo*))Task_1_RunContinuations_m30549_gshared)(__this, method)
 // System.Boolean System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>::TrySetResult(T)
-#define Task_1_TrySetResult_m31730(__this, ___result, method) (( bool (*) (Task_1_t1418 *, Task_1_t1336 *, const MethodInfo*))Task_1_TrySetResult_m29860_gshared)(__this, ___result, method)
+#define Task_1_TrySetResult_m32421(__this, ___result, method) (( bool (*) (Task_1_t1469 *, Task_1_t1387 *, const MethodInfo*))Task_1_TrySetResult_m30551_gshared)(__this, ___result, method)
 // System.Boolean System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>::TrySetCanceled()
-#define Task_1_TrySetCanceled_m31731(__this, method) (( bool (*) (Task_1_t1418 *, const MethodInfo*))Task_1_TrySetCanceled_m29862_gshared)(__this, method)
+#define Task_1_TrySetCanceled_m32422(__this, method) (( bool (*) (Task_1_t1469 *, const MethodInfo*))Task_1_TrySetCanceled_m30553_gshared)(__this, method)
 // System.Boolean System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>>::TrySetException(System.AggregateException)
-#define Task_1_TrySetException_m31732(__this, ___exception, method) (( bool (*) (Task_1_t1418 *, AggregateException_t1287 *, const MethodInfo*))Task_1_TrySetException_m29864_gshared)(__this, ___exception, method)
+#define Task_1_TrySetException_m32423(__this, ___exception, method) (( bool (*) (Task_1_t1469 *, AggregateException_t1338 *, const MethodInfo*))Task_1_TrySetException_m30555_gshared)(__this, ___exception, method)

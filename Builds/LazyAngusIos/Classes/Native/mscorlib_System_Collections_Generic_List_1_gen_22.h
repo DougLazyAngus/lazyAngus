@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.EventSystems.BaseRaycaster[]
-struct BaseRaycasterU5BU5D_t5712;
+// MouseHole/MouseHoleLocation[]
+struct MouseHoleLocationU5BU5D_t5725;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>
-struct  List_1_t816  : public Object_t
+// System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>
+struct  List_1_t798  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::_items
-	BaseRaycasterU5BU5D_t5712* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::_size
+	// T[] System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>::_items
+	MouseHoleLocationU5BU5D_t5725* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::_version
+	// System.Int32 System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>::_version
 	int32_t ____version_3;
 };
-struct List_1_t816_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::EmptyArray
-	BaseRaycasterU5BU5D_t5712* ___EmptyArray_4;
+struct List_1_t798_StaticFields{
+	// T[] System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>::EmptyArray
+	MouseHoleLocationU5BU5D_t5725* ___EmptyArray_4;
 };

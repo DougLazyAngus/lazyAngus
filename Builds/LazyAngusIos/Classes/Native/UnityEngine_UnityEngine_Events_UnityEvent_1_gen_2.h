@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Object[]
-struct ObjectU5BU5D_t636;
+struct ObjectU5BU5D_t682;
 // UnityEngine.Events.UnityEventBase
 #include "UnityEngine_UnityEngine_Events_UnityEventBase.h"
 // UnityEngine.Events.UnityEvent`1<System.Single>
-struct  UnityEvent_1_t900  : public UnityEventBase_t2841
+struct  UnityEvent_1_t959  : public UnityEventBase_t2891
 {
 	// System.Object[] UnityEngine.Events.UnityEvent`1<System.Single>::m_InvokeArray
-	ObjectU5BU5D_t636* ___m_InvokeArray_4;
+	ObjectU5BU5D_t682* ___m_InvokeArray_4;
 };

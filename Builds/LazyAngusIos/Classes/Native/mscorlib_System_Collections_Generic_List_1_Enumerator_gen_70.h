@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>>
-struct List_1_t7225;
+// System.Collections.Generic.List`1<Parse.ParseUser>
+struct List_1_t6975;
+// Parse.ParseUser
+struct ParseUser_t1305;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_65.h"
-// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>>
-struct  Enumerator_t7229 
+// System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>
+struct  Enumerator_t6978 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>>::l
-	List_1_t7225 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::l
+	List_1_t6975 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>>::current
-	KeyValuePair_2_t7111  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::current
+	ParseUser_t1305 * ___current_3;
 };

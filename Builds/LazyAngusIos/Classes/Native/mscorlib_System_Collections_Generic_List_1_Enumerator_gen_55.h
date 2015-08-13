@@ -1,18 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.SByte>
-struct List_1_t6353;
+// System.Collections.Generic.List`1<Parse.ParseObject>
+struct List_1_t1264;
+// Parse.ParseObject
+struct ParseObject_t1221;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.SByte>
-struct  Enumerator_t6354 
+// System.Collections.Generic.List`1/Enumerator<Parse.ParseObject>
+struct  Enumerator_t6235 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.SByte>::l
-	List_1_t6353 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.SByte>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Parse.ParseObject>::l
+	List_1_t1264 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseObject>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.SByte>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseObject>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.SByte>::current
-	int8_t ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<Parse.ParseObject>::current
+	ParseObject_t1221 * ___current_3;
 };

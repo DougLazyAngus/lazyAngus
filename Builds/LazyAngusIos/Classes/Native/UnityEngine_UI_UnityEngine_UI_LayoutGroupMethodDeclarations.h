@@ -5,72 +5,72 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.LayoutGroup
-struct LayoutGroup_t940;
+struct LayoutGroup_t999;
 // UnityEngine.RectOffset
-struct RectOffset_t650;
+struct RectOffset_t700;
 // UnityEngine.RectTransform
-struct RectTransform_t504;
+struct RectTransform_t543;
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
-struct List_1_t944;
+struct List_1_t1003;
 // UnityEngine.TextAnchor
 #include "UnityEngine_UnityEngine_TextAnchor.h"
 
 // System.Void UnityEngine.UI.LayoutGroup::.ctor()
-extern "C" void LayoutGroup__ctor_m5386 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup__ctor_m5654 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RectOffset UnityEngine.UI.LayoutGroup::get_padding()
-extern "C" RectOffset_t650 * LayoutGroup_get_padding_m5387 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RectOffset_t700 * LayoutGroup_get_padding_m5655 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::set_padding(UnityEngine.RectOffset)
-extern "C" void LayoutGroup_set_padding_m5388 (LayoutGroup_t940 * __this, RectOffset_t650 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup_set_padding_m5656 (LayoutGroup_t999 * __this, RectOffset_t700 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TextAnchor UnityEngine.UI.LayoutGroup::get_childAlignment()
-extern "C" int32_t LayoutGroup_get_childAlignment_m5389 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t LayoutGroup_get_childAlignment_m5657 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::set_childAlignment(UnityEngine.TextAnchor)
-extern "C" void LayoutGroup_set_childAlignment_m5390 (LayoutGroup_t940 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup_set_childAlignment_m5658 (LayoutGroup_t999 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RectTransform UnityEngine.UI.LayoutGroup::get_rectTransform()
-extern "C" RectTransform_t504 * LayoutGroup_get_rectTransform_m5391 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RectTransform_t543 * LayoutGroup_get_rectTransform_m5659 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnityEngine.RectTransform> UnityEngine.UI.LayoutGroup::get_rectChildren()
-extern "C" List_1_t944 * LayoutGroup_get_rectChildren_m5392 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t1003 * LayoutGroup_get_rectChildren_m5660 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::CalculateLayoutInputHorizontal()
-extern "C" void LayoutGroup_CalculateLayoutInputHorizontal_m5393 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup_CalculateLayoutInputHorizontal_m5661 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::CalculateLayoutInputVertical()
 // System.Single UnityEngine.UI.LayoutGroup::get_minWidth()
-extern "C" float LayoutGroup_get_minWidth_m5394 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutGroup_get_minWidth_m5662 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutGroup::get_preferredWidth()
-extern "C" float LayoutGroup_get_preferredWidth_m5395 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutGroup_get_preferredWidth_m5663 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutGroup::get_flexibleWidth()
-extern "C" float LayoutGroup_get_flexibleWidth_m5396 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutGroup_get_flexibleWidth_m5664 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutGroup::get_minHeight()
-extern "C" float LayoutGroup_get_minHeight_m5397 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutGroup_get_minHeight_m5665 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutGroup::get_preferredHeight()
-extern "C" float LayoutGroup_get_preferredHeight_m5398 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutGroup_get_preferredHeight_m5666 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutGroup::get_flexibleHeight()
-extern "C" float LayoutGroup_get_flexibleHeight_m5399 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutGroup_get_flexibleHeight_m5667 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.LayoutGroup::get_layoutPriority()
-extern "C" int32_t LayoutGroup_get_layoutPriority_m5400 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t LayoutGroup_get_layoutPriority_m5668 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::SetLayoutHorizontal()
 // System.Void UnityEngine.UI.LayoutGroup::SetLayoutVertical()
 // System.Void UnityEngine.UI.LayoutGroup::OnEnable()
-extern "C" void LayoutGroup_OnEnable_m5401 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup_OnEnable_m5669 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::OnDisable()
-extern "C" void LayoutGroup_OnDisable_m5402 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup_OnDisable_m5670 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::OnDidApplyAnimationProperties()
-extern "C" void LayoutGroup_OnDidApplyAnimationProperties_m5403 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup_OnDidApplyAnimationProperties_m5671 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutGroup::GetTotalMinSize(System.Int32)
-extern "C" float LayoutGroup_GetTotalMinSize_m5404 (LayoutGroup_t940 * __this, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutGroup_GetTotalMinSize_m5672 (LayoutGroup_t999 * __this, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutGroup::GetTotalPreferredSize(System.Int32)
-extern "C" float LayoutGroup_GetTotalPreferredSize_m5405 (LayoutGroup_t940 * __this, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutGroup_GetTotalPreferredSize_m5673 (LayoutGroup_t999 * __this, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutGroup::GetTotalFlexibleSize(System.Int32)
-extern "C" float LayoutGroup_GetTotalFlexibleSize_m5406 (LayoutGroup_t940 * __this, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutGroup_GetTotalFlexibleSize_m5674 (LayoutGroup_t999 * __this, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.LayoutGroup::GetStartOffset(System.Int32,System.Single)
-extern "C" float LayoutGroup_GetStartOffset_m5407 (LayoutGroup_t940 * __this, int32_t ___axis, float ___requiredSpaceWithoutPadding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float LayoutGroup_GetStartOffset_m5675 (LayoutGroup_t999 * __this, int32_t ___axis, float ___requiredSpaceWithoutPadding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::SetLayoutInputForAxis(System.Single,System.Single,System.Single,System.Int32)
-extern "C" void LayoutGroup_SetLayoutInputForAxis_m5408 (LayoutGroup_t940 * __this, float ___totalMin, float ___totalPreferred, float ___totalFlexible, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup_SetLayoutInputForAxis_m5676 (LayoutGroup_t999 * __this, float ___totalMin, float ___totalPreferred, float ___totalFlexible, int32_t ___axis, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::SetChildAlongAxis(UnityEngine.RectTransform,System.Int32,System.Single,System.Single)
-extern "C" void LayoutGroup_SetChildAlongAxis_m5409 (LayoutGroup_t940 * __this, RectTransform_t504 * ___rect, int32_t ___axis, float ___pos, float ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup_SetChildAlongAxis_m5677 (LayoutGroup_t999 * __this, RectTransform_t543 * ___rect, int32_t ___axis, float ___pos, float ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.LayoutGroup::get_isRootLayoutGroup()
-extern "C" bool LayoutGroup_get_isRootLayoutGroup_m5410 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool LayoutGroup_get_isRootLayoutGroup_m5678 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::OnRectTransformDimensionsChange()
-extern "C" void LayoutGroup_OnRectTransformDimensionsChange_m5411 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup_OnRectTransformDimensionsChange_m5679 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::OnTransformChildrenChanged()
-extern "C" void LayoutGroup_OnTransformChildrenChanged_m5412 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup_OnTransformChildrenChanged_m5680 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.LayoutGroup::SetDirty()
-extern "C" void LayoutGroup_SetDirty_m5413 (LayoutGroup_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutGroup_SetDirty_m5681 (LayoutGroup_t999 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

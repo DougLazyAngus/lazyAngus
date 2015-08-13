@@ -3,16 +3,16 @@
 // System.Object
 struct Object_t;
 // GoogleAdController
-struct GoogleAdController_t524;
+struct GoogleAdController_t566;
 // System.Object
 #include "mscorlib_System_Object.h"
-// GoogleAdController/<CreatePendingInterstitialAd>c__Iterator14
-struct  U3CCreatePendingInterstitialAdU3Ec__Iterator14_t525  : public Object_t
+// GoogleAdController/<CreatePendingInterstitialAd>c__Iterator16
+struct  U3CCreatePendingInterstitialAdU3Ec__Iterator16_t567  : public Object_t
 {
-	// System.Int32 GoogleAdController/<CreatePendingInterstitialAd>c__Iterator14::$PC
+	// System.Int32 GoogleAdController/<CreatePendingInterstitialAd>c__Iterator16::$PC
 	int32_t ___U24PC_0;
-	// System.Object GoogleAdController/<CreatePendingInterstitialAd>c__Iterator14::$current
+	// System.Object GoogleAdController/<CreatePendingInterstitialAd>c__Iterator16::$current
 	Object_t * ___U24current_1;
-	// GoogleAdController GoogleAdController/<CreatePendingInterstitialAd>c__Iterator14::<>f__this
-	GoogleAdController_t524 * ___U3CU3Ef__this_2;
+	// GoogleAdController GoogleAdController/<CreatePendingInterstitialAd>c__Iterator16::<>f__this
+	GoogleAdController_t566 * ___U3CU3Ef__this_2;
 };

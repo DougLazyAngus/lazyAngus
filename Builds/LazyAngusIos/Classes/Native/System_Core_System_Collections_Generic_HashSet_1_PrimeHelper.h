@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Int32[]
-struct Int32U5BU5D_t549;
+struct Int32U5BU5D_t484;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.HashSet`1/PrimeHelper<System.Object>
-struct  PrimeHelper_t5872  : public Object_t
+struct  PrimeHelper_t5945  : public Object_t
 {
 };
-struct PrimeHelper_t5872_StaticFields{
+struct PrimeHelper_t5945_StaticFields{
 	// System.Int32[] System.Collections.Generic.HashSet`1/PrimeHelper<System.Object>::primes_table
-	Int32U5BU5D_t549* ___primes_table_0;
+	Int32U5BU5D_t484* ___primes_table_0;
 };

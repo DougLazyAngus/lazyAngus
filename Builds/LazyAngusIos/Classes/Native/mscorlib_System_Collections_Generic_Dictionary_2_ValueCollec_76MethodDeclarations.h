@@ -4,52 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
-struct ValueCollection_t8325;
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Int32>
+struct Enumerator_t8346;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
-struct Dictionary_2_t2664;
-// UnityEngine.GUILayoutUtility/LayoutCache
-struct LayoutCache_t2663;
-// System.Collections.Generic.IEnumerator`1<UnityEngine.GUILayoutUtility/LayoutCache>
-struct IEnumerator_1_t9496;
-// System.Array
-struct Array_t;
-// System.Collections.IEnumerator
-struct IEnumerator_t48;
-// UnityEngine.GUILayoutUtility/LayoutCache[]
-struct LayoutCacheU5BU5D_t8321;
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_143.h"
+// System.Collections.Generic.Dictionary`2<System.Int64,System.Int32>
+struct Dictionary_2_t8340;
 
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Object>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_5MethodDeclarations.h"
-#define ValueCollection__ctor_m59572(__this, ___dictionary, method) (( void (*) (ValueCollection_t8325 *, Dictionary_2_t2664 *, const MethodInfo*))ValueCollection__ctor_m21009_gshared)(__this, ___dictionary, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m59573(__this, ___item, method) (( void (*) (ValueCollection_t8325 *, LayoutCache_t2663 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m21010_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::System.Collections.Generic.ICollection<TValue>.Clear()
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m59574(__this, method) (( void (*) (ValueCollection_t8325 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m21011_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m59575(__this, ___item, method) (( bool (*) (ValueCollection_t8325 *, LayoutCache_t2663 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m21012_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m59576(__this, ___item, method) (( bool (*) (ValueCollection_t8325 *, LayoutCache_t2663 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m21013_gshared)(__this, ___item, method)
-// System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
-#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m59577(__this, method) (( Object_t* (*) (ValueCollection_t8325 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m21014_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define ValueCollection_System_Collections_ICollection_CopyTo_m59578(__this, ___array, ___index, method) (( void (*) (ValueCollection_t8325 *, Array_t *, int32_t, const MethodInfo*))ValueCollection_System_Collections_ICollection_CopyTo_m21015_gshared)(__this, ___array, ___index, method)
-// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::System.Collections.IEnumerable.GetEnumerator()
-#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m59579(__this, method) (( Object_t * (*) (ValueCollection_t8325 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m21016_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::System.Collections.Generic.ICollection<TValue>.get_IsReadOnly()
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m59580(__this, method) (( bool (*) (ValueCollection_t8325 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m21017_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::System.Collections.ICollection.get_IsSynchronized()
-#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m59581(__this, method) (( bool (*) (ValueCollection_t8325 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_IsSynchronized_m21018_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::System.Collections.ICollection.get_SyncRoot()
-#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m59582(__this, method) (( Object_t * (*) (ValueCollection_t8325 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m21019_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::CopyTo(TValue[],System.Int32)
-#define ValueCollection_CopyTo_m59583(__this, ___array, ___index, method) (( void (*) (ValueCollection_t8325 *, LayoutCacheU5BU5D_t8321*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m21020_gshared)(__this, ___array, ___index, method)
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::GetEnumerator()
-#define ValueCollection_GetEnumerator_m59584(__this, method) (( Enumerator_t9497  (*) (ValueCollection_t8325 *, const MethodInfo*))ValueCollection_GetEnumerator_m21021_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::get_Count()
-#define ValueCollection_get_Count_m59585(__this, method) (( int32_t (*) (ValueCollection_t8325 *, const MethodInfo*))ValueCollection_get_Count_m21022_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+extern "C" void Enumerator__ctor_m59766_gshared (Enumerator_t8346 * __this, Dictionary_2_t8340 * ___host, const MethodInfo* method);
+#define Enumerator__ctor_m59766(__this, ___host, method) (( void (*) (Enumerator_t8346 *, Dictionary_2_t8340 *, const MethodInfo*))Enumerator__ctor_m59766_gshared)(__this, ___host, method)
+// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Int32>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m59767_gshared (Enumerator_t8346 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m59767(__this, method) (( Object_t * (*) (Enumerator_t8346 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m59767_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Int32>::System.Collections.IEnumerator.Reset()
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m59768_gshared (Enumerator_t8346 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_Reset_m59768(__this, method) (( void (*) (Enumerator_t8346 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m59768_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Int32>::Dispose()
+extern "C" void Enumerator_Dispose_m59769_gshared (Enumerator_t8346 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m59769(__this, method) (( void (*) (Enumerator_t8346 *, const MethodInfo*))Enumerator_Dispose_m59769_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Int32>::MoveNext()
+extern "C" bool Enumerator_MoveNext_m59770_gshared (Enumerator_t8346 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m59770(__this, method) (( bool (*) (Enumerator_t8346 *, const MethodInfo*))Enumerator_MoveNext_m59770_gshared)(__this, method)
+// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Int32>::get_Current()
+extern "C" int32_t Enumerator_get_Current_m59771_gshared (Enumerator_t8346 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m59771(__this, method) (( int32_t (*) (Enumerator_t8346 *, const MethodInfo*))Enumerator_get_Current_m59771_gshared)(__this, method)

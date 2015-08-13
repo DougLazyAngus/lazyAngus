@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct Dictionary_2_t8446;
+// System.Collections.Generic.Dictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
+struct Dictionary_2_t2940;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_135.h"
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct  Enumerator_t8449 
+// System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_15.h"
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
+struct  Enumerator_t8514 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::dictionary
-	Dictionary_2_t8446 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::dictionary
+	Dictionary_2_t2940 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::current
-	KeyValuePair_2_t8422  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::current
+	KeyValuePair_2_t2946  ___current_3;
 };

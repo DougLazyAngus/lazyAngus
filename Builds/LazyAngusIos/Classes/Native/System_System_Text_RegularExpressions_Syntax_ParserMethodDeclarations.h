@@ -5,89 +5,89 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Syntax.Parser
-struct Parser_t4105;
+struct Parser_t4151;
 // System.String
 struct String_t;
 // System.Text.RegularExpressions.Syntax.RegularExpression
-struct RegularExpression_t4111;
+struct RegularExpression_t4157;
 // System.Collections.Hashtable
-struct Hashtable_t1276;
+struct Hashtable_t696;
 // System.Text.RegularExpressions.Syntax.Group
-struct Group_t4110;
+struct Group_t4156;
 // System.Text.RegularExpressions.Syntax.Assertion
-struct Assertion_t4116;
+struct Assertion_t4162;
 // System.Text.RegularExpressions.Syntax.Expression
-struct Expression_t4108;
+struct Expression_t4154;
 // System.Text.RegularExpressions.Syntax.ExpressionAssertion
-struct ExpressionAssertion_t4117;
+struct ExpressionAssertion_t4163;
 // System.Collections.ArrayList
-struct ArrayList_t3111;
+struct ArrayList_t698;
 // System.ArgumentException
-struct ArgumentException_t662;
+struct ArgumentException_t711;
 // System.Text.RegularExpressions.RegexOptions
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
 // System.Text.RegularExpressions.Category
 #include "System_System_Text_RegularExpressions_Category.h"
 
 // System.Void System.Text.RegularExpressions.Syntax.Parser::.ctor()
-extern "C" void Parser__ctor_m14545 (Parser_t4105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Parser__ctor_m14804 (Parser_t4151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseDecimal(System.String,System.Int32&)
-extern "C" int32_t Parser_ParseDecimal_m14546 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Parser_ParseDecimal_m14805 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseOctal(System.String,System.Int32&)
-extern "C" int32_t Parser_ParseOctal_m14547 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Parser_ParseOctal_m14806 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseHex(System.String,System.Int32&,System.Int32)
-extern "C" int32_t Parser_ParseHex_m14548 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, int32_t ___digits, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Parser_ParseHex_m14807 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, int32_t ___digits, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseNumber(System.String,System.Int32&,System.Int32,System.Int32,System.Int32)
-extern "C" int32_t Parser_ParseNumber_m14549 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, int32_t ___b, int32_t ___min, int32_t ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Parser_ParseNumber_m14808 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, int32_t ___b, int32_t ___min, int32_t ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.Syntax.Parser::ParseName(System.String,System.Int32&)
-extern "C" String_t* Parser_ParseName_m14550 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Parser_ParseName_m14809 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.RegularExpression System.Text.RegularExpressions.Syntax.Parser::ParseRegularExpression(System.String,System.Text.RegularExpressions.RegexOptions)
-extern "C" RegularExpression_t4111 * Parser_ParseRegularExpression_m14551 (Parser_t4105 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RegularExpression_t4157 * Parser_ParseRegularExpression_m14810 (Parser_t4151 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::GetMapping(System.Collections.Hashtable)
-extern "C" int32_t Parser_GetMapping_m14552 (Parser_t4105 * __this, Hashtable_t1276 * ___mapping, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Parser_GetMapping_m14811 (Parser_t4151 * __this, Hashtable_t696 * ___mapping, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Parser::ParseGroup(System.Text.RegularExpressions.Syntax.Group,System.Text.RegularExpressions.RegexOptions,System.Text.RegularExpressions.Syntax.Assertion)
-extern "C" void Parser_ParseGroup_m14553 (Parser_t4105 * __this, Group_t4110 * ___group, int32_t ___options, Assertion_t4116 * ___assertion, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Parser_ParseGroup_m14812 (Parser_t4151 * __this, Group_t4156 * ___group, int32_t ___options, Assertion_t4162 * ___assertion, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Parser::ParseGroupingConstruct(System.Text.RegularExpressions.RegexOptions&)
-extern "C" Expression_t4108 * Parser_ParseGroupingConstruct_m14554 (Parser_t4105 * __this, int32_t* ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t4154 * Parser_ParseGroupingConstruct_m14813 (Parser_t4151 * __this, int32_t* ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::ParseAssertionType(System.Text.RegularExpressions.Syntax.ExpressionAssertion)
-extern "C" bool Parser_ParseAssertionType_m14555 (Parser_t4105 * __this, ExpressionAssertion_t4117 * ___assertion, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Parser_ParseAssertionType_m14814 (Parser_t4151 * __this, ExpressionAssertion_t4163 * ___assertion, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Parser::ParseOptions(System.Text.RegularExpressions.RegexOptions&,System.Boolean)
-extern "C" void Parser_ParseOptions_m14556 (Parser_t4105 * __this, int32_t* ___options, bool ___negate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Parser_ParseOptions_m14815 (Parser_t4151 * __this, int32_t* ___options, bool ___negate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Parser::ParseCharacterClass(System.Text.RegularExpressions.RegexOptions)
-extern "C" Expression_t4108 * Parser_ParseCharacterClass_m14557 (Parser_t4105 * __this, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t4154 * Parser_ParseCharacterClass_m14816 (Parser_t4151 * __this, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::ParseRepetitionBounds(System.Int32&,System.Int32&,System.Text.RegularExpressions.RegexOptions)
-extern "C" bool Parser_ParseRepetitionBounds_m14558 (Parser_t4105 * __this, int32_t* ___min, int32_t* ___max, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Parser_ParseRepetitionBounds_m14817 (Parser_t4151 * __this, int32_t* ___min, int32_t* ___max, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Category System.Text.RegularExpressions.Syntax.Parser::ParseUnicodeCategory()
-extern "C" uint16_t Parser_ParseUnicodeCategory_m14559 (Parser_t4105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Parser_ParseUnicodeCategory_m14818 (Parser_t4151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Parser::ParseSpecial(System.Text.RegularExpressions.RegexOptions)
-extern "C" Expression_t4108 * Parser_ParseSpecial_m14560 (Parser_t4105 * __this, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t4154 * Parser_ParseSpecial_m14819 (Parser_t4151 * __this, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseEscape()
-extern "C" int32_t Parser_ParseEscape_m14561 (Parser_t4105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Parser_ParseEscape_m14820 (Parser_t4151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.Syntax.Parser::ParseName()
-extern "C" String_t* Parser_ParseName_m14562 (Parser_t4105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Parser_ParseName_m14821 (Parser_t4151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsNameChar(System.Char)
-extern "C" bool Parser_IsNameChar_m14563 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Parser_IsNameChar_m14822 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseNumber(System.Int32,System.Int32,System.Int32)
-extern "C" int32_t Parser_ParseNumber_m14564 (Parser_t4105 * __this, int32_t ___b, int32_t ___min, int32_t ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Parser_ParseNumber_m14823 (Parser_t4151 * __this, int32_t ___b, int32_t ___min, int32_t ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseDigit(System.Char,System.Int32,System.Int32)
-extern "C" int32_t Parser_ParseDigit_m14565 (Object_t * __this /* static, unused */, uint16_t ___c, int32_t ___b, int32_t ___n, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Parser_ParseDigit_m14824 (Object_t * __this /* static, unused */, uint16_t ___c, int32_t ___b, int32_t ___n, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Parser::ConsumeWhitespace(System.Boolean)
-extern "C" void Parser_ConsumeWhitespace_m14566 (Parser_t4105 * __this, bool ___ignore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Parser_ConsumeWhitespace_m14825 (Parser_t4151 * __this, bool ___ignore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Parser::ResolveReferences()
-extern "C" void Parser_ResolveReferences_m14567 (Parser_t4105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Parser_ResolveReferences_m14826 (Parser_t4151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Parser::HandleExplicitNumericGroups(System.Collections.ArrayList)
-extern "C" void Parser_HandleExplicitNumericGroups_m14568 (Parser_t4105 * __this, ArrayList_t3111 * ___explicit_numeric_groups, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Parser_HandleExplicitNumericGroups_m14827 (Parser_t4151 * __this, ArrayList_t698 * ___explicit_numeric_groups, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsIgnoreCase(System.Text.RegularExpressions.RegexOptions)
-extern "C" bool Parser_IsIgnoreCase_m14569 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Parser_IsIgnoreCase_m14828 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsMultiline(System.Text.RegularExpressions.RegexOptions)
-extern "C" bool Parser_IsMultiline_m14570 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Parser_IsMultiline_m14829 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsExplicitCapture(System.Text.RegularExpressions.RegexOptions)
-extern "C" bool Parser_IsExplicitCapture_m14571 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Parser_IsExplicitCapture_m14830 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsSingleline(System.Text.RegularExpressions.RegexOptions)
-extern "C" bool Parser_IsSingleline_m14572 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Parser_IsSingleline_m14831 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsIgnorePatternWhitespace(System.Text.RegularExpressions.RegexOptions)
-extern "C" bool Parser_IsIgnorePatternWhitespace_m14573 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Parser_IsIgnorePatternWhitespace_m14832 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsECMAScript(System.Text.RegularExpressions.RegexOptions)
-extern "C" bool Parser_IsECMAScript_m14574 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Parser_IsECMAScript_m14833 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.ArgumentException System.Text.RegularExpressions.Syntax.Parser::NewParseException(System.String)
-extern "C" ArgumentException_t662 * Parser_NewParseException_m14575 (Parser_t4105 * __this, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ArgumentException_t711 * Parser_NewParseException_m14834 (Parser_t4151 * __this, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -19,9 +19,9 @@
 			<method name="Play"/>
 		</type>
 		<type fullname="RateMeDialog">
-			<method name="RateThis"/>
-			<method name="RemindMeLater"/>
 			<method name="NoThanks"/>
+			<method name="RemindMeLater"/>
+			<method name="RateThis"/>
 		</type>
 		<type fullname="SecretUI">
 			<method name="ToggleVisibility"/>

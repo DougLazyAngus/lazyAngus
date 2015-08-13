@@ -5,33 +5,33 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlNamedNodeMap
-struct XmlNamedNodeMap_t3166;
+struct XmlNamedNodeMap_t3214;
 // System.Collections.ArrayList
-struct ArrayList_t3111;
+struct ArrayList_t698;
 // System.Xml.XmlNode
-struct XmlNode_t668;
+struct XmlNode_t717;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.String
 struct String_t;
 
 // System.Void System.Xml.XmlNamedNodeMap::.ctor(System.Xml.XmlNode)
-extern "C" void XmlNamedNodeMap__ctor_m10744 (XmlNamedNodeMap_t3166 * __this, XmlNode_t668 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlNamedNodeMap__ctor_m11000 (XmlNamedNodeMap_t3214 * __this, XmlNode_t717 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlNamedNodeMap::.cctor()
-extern "C" void XmlNamedNodeMap__cctor_m10745 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlNamedNodeMap__cctor_m11001 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ArrayList System.Xml.XmlNamedNodeMap::get_NodeList()
-extern "C" ArrayList_t3111 * XmlNamedNodeMap_get_NodeList_m10746 (XmlNamedNodeMap_t3166 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ArrayList_t698 * XmlNamedNodeMap_get_NodeList_m11002 (XmlNamedNodeMap_t3214 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlNamedNodeMap::get_Count()
-extern "C" int32_t XmlNamedNodeMap_get_Count_m10747 (XmlNamedNodeMap_t3166 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlNamedNodeMap_get_Count_m11003 (XmlNamedNodeMap_t3214 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Xml.XmlNamedNodeMap::GetEnumerator()
-extern "C" Object_t * XmlNamedNodeMap_GetEnumerator_m10748 (XmlNamedNodeMap_t3166 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * XmlNamedNodeMap_GetEnumerator_m11004 (XmlNamedNodeMap_t3214 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlNamedNodeMap::GetNamedItem(System.String)
-extern "C" XmlNode_t668 * XmlNamedNodeMap_GetNamedItem_m10749 (XmlNamedNodeMap_t3166 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t717 * XmlNamedNodeMap_GetNamedItem_m11005 (XmlNamedNodeMap_t3214 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlNamedNodeMap::RemoveNamedItem(System.String,System.String)
-extern "C" XmlNode_t668 * XmlNamedNodeMap_RemoveNamedItem_m10750 (XmlNamedNodeMap_t3166 * __this, String_t* ___localName, String_t* ___namespaceURI, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t717 * XmlNamedNodeMap_RemoveNamedItem_m11006 (XmlNamedNodeMap_t3214 * __this, String_t* ___localName, String_t* ___namespaceURI, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlNamedNodeMap::SetNamedItem(System.Xml.XmlNode)
-extern "C" XmlNode_t668 * XmlNamedNodeMap_SetNamedItem_m10751 (XmlNamedNodeMap_t3166 * __this, XmlNode_t668 * ___node, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t717 * XmlNamedNodeMap_SetNamedItem_m11007 (XmlNamedNodeMap_t3214 * __this, XmlNode_t717 * ___node, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlNamedNodeMap::SetNamedItem(System.Xml.XmlNode,System.Int32,System.Boolean)
-extern "C" XmlNode_t668 * XmlNamedNodeMap_SetNamedItem_m10752 (XmlNamedNodeMap_t3166 * __this, XmlNode_t668 * ___node, int32_t ___pos, bool ___raiseEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t717 * XmlNamedNodeMap_SetNamedItem_m11008 (XmlNamedNodeMap_t3214 * __this, XmlNode_t717 * ___node, int32_t ___pos, bool ___raiseEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ArrayList System.Xml.XmlNamedNodeMap::get_Nodes()
-extern "C" ArrayList_t3111 * XmlNamedNodeMap_get_Nodes_m10753 (XmlNamedNodeMap_t3166 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ArrayList_t698 * XmlNamedNodeMap_get_Nodes_m11009 (XmlNamedNodeMap_t3214 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
