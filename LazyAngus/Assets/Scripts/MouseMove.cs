@@ -292,31 +292,26 @@ public class MouseMove : MonoBehaviour
 			}
 			break;
 		case MouseConfig.MovementPhaseType.RUNNING:
-			{
-				float distanceDelta = actualSpeedM * Time.deltaTime;
-				float angleDeltaRad = distanceDelta / mouseRadius;
-				float angleDeltaDeg = angleDeltaRad * Mathf.Rad2Deg;
+		{
+			float distanceDelta = actualSpeedM * Time.deltaTime;
+			float angleDeltaRad = distanceDelta / mouseRadius;
+			float angleDeltaDeg = angleDeltaRad * Mathf.Rad2Deg;
 
-				if (isClockwise) {
-					mouseAngleDeg += angleDeltaDeg;
-				} else {
-					mouseAngleDeg -= angleDeltaDeg;
+			if (isClockwise) {
+				mouseAngleDeg -= angleDeltaDeg;
+				if (mouseAngleDeg <= endAngleDeg) {
+					mouseAngleDeg = endAngleDeg;
+					SetPhase (MouseConfig.MovementPhaseType.TURNING_BEFORE_LEAVING);
 				}
-
-				if (isClockwise) {
-					if (mouseAngleDeg >= endAngleDeg) {
-						mouseAngleDeg = endAngleDeg;
-						SetPhase (MouseConfig.MovementPhaseType.TURNING_BEFORE_LEAVING);
-					} 
-				} else {
-					if (mouseAngleDeg <= endAngleDeg) {
-						mouseAngleDeg = endAngleDeg;
-						SetPhase (MouseConfig.MovementPhaseType.TURNING_BEFORE_LEAVING);
-					}
-				}
-
-				break;
+			} else {
+				mouseAngleDeg += angleDeltaDeg;
+				if (mouseAngleDeg >= endAngleDeg) {
+					mouseAngleDeg = endAngleDeg;
+					SetPhase (MouseConfig.MovementPhaseType.TURNING_BEFORE_LEAVING);
+				} 
 			}
+			break;
+		}
 		case MouseConfig.MovementPhaseType.TURNING_BEFORE_LEAVING:
 			if (Time.time >= MouseConfig.instance.timeToTurn + phaseStartTime) {
 				SetPhase (MouseConfig.MovementPhaseType.LEAVING);
@@ -364,7 +359,7 @@ public class MouseMove : MonoBehaviour
 		baseSpeedM = md.speed;
 
 		Vector3 scaleVector = transform.localScale;
-		float orientation = isClockwise ? 1f : -1f;
+		float orientation = isClockwise ? -1f : 1f;
 		transform.localScale = new Vector3 (scaleVector.x * md.scale, 
 		                                    scaleVector.y * md.scale * orientation, 
 		                                	scaleVector.z);
@@ -385,12 +380,13 @@ public class MouseMove : MonoBehaviour
 	                       int track)
 	{
 		this.isClockwise = isClockwise;
+
 		if (isClockwise) {
-			angleAdjustmentWhileRunning = 90f;
-			zeroCenteredAngleAdjustmentWhileRunning = 90f;
-		} else {
 			angleAdjustmentWhileRunning = 270f;
 			zeroCenteredAngleAdjustmentWhileRunning = -90f;
+		} else {
+			angleAdjustmentWhileRunning = 90f;
+			zeroCenteredAngleAdjustmentWhileRunning = 90f;
 		}
 
 		startAngleDeg = (float)originHole * MouseHole.angleBetweenHoles;
@@ -408,13 +404,13 @@ public class MouseMove : MonoBehaviour
 		float angleDistance = numSections * MouseHole.angleBetweenHoles;
 
 		if (isClockwise) {
-			endAngleDeg = startAngleDeg + angleDistance;
-		} else {
 			endAngleDeg = startAngleDeg - angleDistance;
 			if (endAngleDeg < 0) {
 				startAngleDeg += 360.0f;
 				endAngleDeg += 360.0f;
 			}
+		} else {
+			endAngleDeg = startAngleDeg + angleDistance;
 		}	
 	}
 

@@ -3,18 +3,19 @@ using System.Collections;
 
 public class PawController : MonoBehaviour {
 	enum SwipePhase {
-		SWIPE_NONE = 0,
-		SWIPE_INITIAL_PAUSE,
-		SWIPE_EXTENDING,
-		SWIPE_EXTENDED_PAUSE,
-		SWIPE_RETRACTING,
+		NONE = 0,
+		EXTENDING,
+		EXTENDED_PAUSE,
 		NUM_PHASES,
 	};
 
-	private Vector3 swipeLocationCat;
+	private Vector3 nextSwipeLocationCat;
+	private Vector3 currentSwipeLocationCat;
 
 	private SwipePhase swipePhase;
-	private float pauseStarted;
+
+	private float timeStartNextSwipe;
+	private float extendedPauseStarted;
 
 	public GameObject normalPawArtGameObject;
 	public GameObject dangerPawArtGameObject;
@@ -45,7 +46,7 @@ public class PawController : MonoBehaviour {
 	}
 
 	void Start() {
-		swipePhase = SwipePhase.SWIPE_NONE;
+		swipePhase = SwipePhase.NONE;
 
 		swipeSpeed = TweakableParams.baseSwipeSpeed;
 		initialPauseLength = TweakableParams.swipeInitialPause;
@@ -97,39 +98,34 @@ public class PawController : MonoBehaviour {
 	}
 
 	void Update() {
-		UpdateTimerWidgetPosition ();
+		if (timeStartNextSwipe != 0 &&
+			Time.time > timeStartNextSwipe) {
+			timeStartNextSwipe = 0;
+			currentSwipeLocationCat = nextSwipeLocationCat;
+			SetPhase (SwipePhase.EXTENDING);
+		}
+
+		UpdateTimerWidget ();
 
 		switch (swipePhase) {
-		case SwipePhase.SWIPE_INITIAL_PAUSE:
+		case SwipePhase.EXTENDING:
 		{
-			float timeNow = Time.time;
-			if (timeNow - pauseStarted > initialPauseLength) {
-				SetPhase(SwipePhase.SWIPE_EXTENDING);
-			} else {
-				MovePawTowards (pawHomeCatTransform.localPosition);
-			}
-			break;
-		}
-		case SwipePhase.SWIPE_EXTENDING:
-		{
-			if (MovePawTowards (swipeLocationCat)) {
+			if (MovePawTowards (currentSwipeLocationCat)) {
 				RemoveTimer ();
-				SetPhase(SwipePhase.SWIPE_EXTENDED_PAUSE);
+				SetPhase(SwipePhase.EXTENDED_PAUSE);
 			}
 			break;
 		}
-		case SwipePhase.SWIPE_EXTENDED_PAUSE:
+		case SwipePhase.EXTENDED_PAUSE:
 		{
 			float timeNow = Time.time;
-			if (timeNow - pauseStarted > TweakableParams.swipeExtendedPause) {
-				SetPhase(SwipePhase.SWIPE_RETRACTING);
+			if (timeNow - extendedPauseStarted > TweakableParams.swipeExtendedPause) {
+				SetPhase(SwipePhase.NONE);
 			}
 			break;
 		}
-		case SwipePhase.SWIPE_RETRACTING: 
-			if (MovePawTowards (pawHomeCatTransform.localPosition)) {
-				SetPhase(SwipePhase.SWIPE_NONE);
-			}
+		case SwipePhase.NONE: 
+			MovePawTowards (pawHomeCatTransform.localPosition);
 			break;
 		}
 	}
@@ -138,7 +134,7 @@ public class PawController : MonoBehaviour {
 		SwipePhase oldPhase = swipePhase;
 		swipePhase = newPhase;
 
-		if (oldPhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
+		if (oldPhase == SwipePhase.EXTENDED_PAUSE) {
 			if (killsThisSwipe > 1) {
 				DeadMouseRelay.instance.HandleMultiKill(killsThisSwipe, 
 				                                        transform.position);
@@ -146,12 +142,8 @@ public class PawController : MonoBehaviour {
 			killsThisSwipe = 0;
 		}
 
-		if (newPhase == SwipePhase.SWIPE_EXTENDED_PAUSE || 
-			newPhase == SwipePhase.SWIPE_INITIAL_PAUSE) {
-			pauseStarted = Time.time;
-		}
-
-		if (newPhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
+		if (newPhase == SwipePhase.EXTENDED_PAUSE) {
+			extendedPauseStarted = Time.time;
 			PlayRandomSound ();
 		}
 
@@ -171,7 +163,7 @@ public class PawController : MonoBehaviour {
 
 			bigCollider.gameObject.SetActive (true);
 
-			if (swipePhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
+			if (swipePhase == SwipePhase.EXTENDED_PAUSE) {
 				bigDangerPawArtGameObject.SetActive (true);
 				bigPawArtGameObject.SetActive (false);
 				bigCollider.isTrigger = true;
@@ -187,7 +179,7 @@ public class PawController : MonoBehaviour {
 			
 			normalCollider.gameObject.SetActive (true);
 			
-			if (swipePhase == SwipePhase.SWIPE_EXTENDED_PAUSE) {
+			if (swipePhase == SwipePhase.EXTENDED_PAUSE) {
 				dangerPawArtGameObject.SetActive (true);
 				normalPawArtGameObject.SetActive (false);
 				normalCollider.isTrigger = true;
@@ -241,18 +233,16 @@ public class PawController : MonoBehaviour {
 	}
 
 	public void Swipe(Vector3 location) {
-		swipeLocationCat = location;
+		nextSwipeLocationCat = location;
 
-		pauseStarted = Time.time;
-		debugTimer = Time.time;
-		SetPhase (SwipePhase.SWIPE_INITIAL_PAUSE);
-
-		AddTimer ();
+		if (TweakableParams.swipeCancelsCurrentSwipe || timeStartNextSwipe == 0) {
+			timeStartNextSwipe = Time.time + TweakableParams.swipeInitialPause;
+		}
 	}
 
 	public void CancelSwipe() {
 		RemoveTimer ();
-		SetPhase(SwipePhase.SWIPE_RETRACTING);
+		SetPhase(SwipePhase.NONE);
 	}
 
 	public void AddTimer() {
@@ -264,18 +254,27 @@ public class PawController : MonoBehaviour {
 		timerWidget = timerWidgetGameObject.GetComponent<TimerWidget> ();
 		timerWidget.Configure (initialPauseLength, 
 		                       GetTimerWidgetPosition());
-		UpdateTimerWidgetPosition ();
 	}
 
 	Vector3 GetTimerWidgetPosition() {
-		return transform.parent.transform.TransformVector (swipeLocationCat);
+		return transform.parent.transform.TransformVector (nextSwipeLocationCat);
 	}
 
-	void UpdateTimerWidgetPosition () {
-		if (timerWidget == null) {
-			return;
+	bool ShouldHaveTimer() {
+		return (Time.time < timeStartNextSwipe);
+	}
+
+	void UpdateTimerWidget () {
+		if (ShouldHaveTimer ()) {
+			if (timerWidget == null) {
+				AddTimer ();
+			}
+			timerWidget.UpdatePosition (GetTimerWidgetPosition());
+		} else {
+			if (timerWidget != null) {
+				RemoveTimer ();
+			}
 		}
-		timerWidget.UpdatePosition (GetTimerWidgetPosition());
 	}
 
 	public void RemoveTimer() {

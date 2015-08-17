@@ -6,10 +6,10 @@ public class MouseHole : MonoBehaviour {
 	public Vector3 meterOffset;
 
 	public enum MouseHoleLocation {
-		NORTH = 0,
-		EAST,
-		SOUTH,
+		EAST = 0,
+		NORTH,
 		WEST,
+		SOUTH,
 		NUM_TYPES,
 	};
 	
