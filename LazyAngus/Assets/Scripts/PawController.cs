@@ -208,10 +208,14 @@ public class PawController : MonoBehaviour {
 		float moveDistance = swipeSpeed * deltaTime;
 		float actualDistance = directionCat.magnitude;
 
+		if (actualDistance == 0) { 
+			return true;
+		}
+
 		Vector3 newPawLocationCat;
 		bool doneMoving;
 
-		if (actualDistance < moveDistance) {
+		if (actualDistance <= moveDistance) {
 			newPawLocationCat = targetLocationCat;
 			doneMoving = true;
 		} else {

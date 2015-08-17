@@ -6,99 +6,36 @@ using SimpleJSON;
 
 public class PersistentStorage : MonoBehaviour {
 	public static PersistentStorage instance;
-	public static string valueStoreFilePath = "valuestore.txt";
-	
-	private JSONNode storedValues;
-
-
-	string FullPathFromPartialPath(string path) {
-		return Application.persistentDataPath + "/" + path;
-	}
-		
 
 	void Awake() {
 		instance = this;
-
-		LoadValueStore ();
-	}
-
-	string ReadFileAsText(string path) {
-		path = FullPathFromPartialPath(path);
-		if (!System.IO.File.Exists (path)) {
-			return "";
-		}
-
-		return System.IO.File.ReadAllText (path);
-	}
-
-	void WriteTextToFile(string path, string text) {
-		path = FullPathFromPartialPath(path);
-		System.IO.File.WriteAllText (path, text);
+		PlayerPrefs.DeleteAll ();
 	}
 
 	public void SetFloatValue(string name, float value) {
-		storedValues[name] = "" + value;
-		SaveValueStore ();
+		PlayerPrefs.SetFloat (name, value);
 	}
 	
 	public float GetFloatValue(string name, float defaultValue) {
-		if (storedValues == null) {
-			return defaultValue;
-		}
-		
-		string storedValue = storedValues [name];
-		if (storedValue == null) {
-			return defaultValue;
-		} else {
-			return float.Parse (storedValue);
-		}
+		return PlayerPrefs.GetFloat (name, defaultValue);
 	}
 	
 	public void SetIntValue(string name, int value) {
-		storedValues[name] = "" + value;
-		SaveValueStore ();
+		PlayerPrefs.SetInt (name, value);
 	}
 	
 	public int GetIntValue(string name, int defaultValue) {
-		if (storedValues == null) {
-			return defaultValue;
-		}
-		
-		string storedValue = storedValues [name];
-		if (storedValue == null) {
-			return defaultValue;
-		} else {
-			return Convert.ToInt32(storedValue);
-		}
+		return PlayerPrefs.GetInt (name, defaultValue);
 	}
 	
 	public void SetBoolValue(string name, bool value) {
-		SetIntValue (name, value ? 1 : 0);
+		int iVal = value ? 1 : 0;
+		PlayerPrefs.SetInt (name, iVal);
 	}
 	
 	public bool GetBoolValue(string name, bool defaultValue) {
-		if (storedValues == null) {
-			return defaultValue;
-		}
-		
-		string storedValue = storedValues [name];
-		if (storedValue == null) {
-			return defaultValue;
-		} else {
-			return (Convert.ToInt32(storedValue) != 0);
-		}
-	}
-
-	void SaveValueStore() {
-		string serializedValues = storedValues.ToString ();
-		WriteTextToFile (valueStoreFilePath, serializedValues);
-	}
-
-	void LoadValueStore() {
-		string valuesAsString = ReadFileAsText (valueStoreFilePath);
-		storedValues = JSON.Parse (valuesAsString);
-		if (storedValues == null) {
-			storedValues = JSON.Parse ("{}");
-		}
+		int iVal = defaultValue ? 1 : 0;
+		iVal = PlayerPrefs.GetInt (name, iVal);
+		return (iVal != 0);
 	}
 }
