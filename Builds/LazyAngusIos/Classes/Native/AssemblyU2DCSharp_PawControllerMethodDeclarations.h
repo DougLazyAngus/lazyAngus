@@ -47,9 +47,11 @@ extern "C" void PawController_CancelSwipe_m3307 (PawController_t532 * __this, co
 extern "C" void PawController_AddTimer_m3308 (PawController_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 PawController::GetTimerWidgetPosition()
 extern "C" Vector3_t536  PawController_GetTimerWidgetPosition_m3309 (PawController_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void PawController::UpdateTimerWidgetPosition()
-extern "C" void PawController_UpdateTimerWidgetPosition_m3310 (PawController_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean PawController::ShouldHaveTimer()
+extern "C" bool PawController_ShouldHaveTimer_m3310 (PawController_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void PawController::UpdateTimerWidget()
+extern "C" void PawController_UpdateTimerWidget_m3311 (PawController_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PawController::RemoveTimer()
-extern "C" void PawController_RemoveTimer_m3311 (PawController_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PawController_RemoveTimer_m3312 (PawController_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PawController::CountKill()
-extern "C" void PawController_CountKill_m3312 (PawController_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PawController_CountKill_m3313 (PawController_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

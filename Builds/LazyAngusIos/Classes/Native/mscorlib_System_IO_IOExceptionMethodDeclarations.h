@@ -18,9 +18,9 @@ struct SerializationInfo_t2919;
 // System.Void System.IO.IOException::.ctor()
 extern "C" void IOException__ctor_m17416 (IOException_t3940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.IOException::.ctor(System.String)
-extern "C" void IOException__ctor_m15089 (IOException_t3940 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOException__ctor_m15091 (IOException_t3940 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.IOException::.ctor(System.String,System.Exception)
-extern "C" void IOException__ctor_m13205 (IOException_t3940 * __this, String_t* ___message, Exception_t57 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOException__ctor_m13207 (IOException_t3940 * __this, String_t* ___message, Exception_t57 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.IOException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern "C" void IOException__ctor_m17417 (IOException_t3940 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.IOException::.ctor(System.String,System.Int32)

@@ -14,7 +14,7 @@ struct ByteU5BU5D_t66;
 // System.Void System.IO.MemoryStream::.ctor()
 extern "C" void MemoryStream__ctor_m425 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::.ctor(System.Int32)
-extern "C" void MemoryStream__ctor_m10111 (MemoryStream_t65 * __this, int32_t ___capacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemoryStream__ctor_m10112 (MemoryStream_t65 * __this, int32_t ___capacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::.ctor(System.Byte[])
 extern "C" void MemoryStream__ctor_m430 (MemoryStream_t65 * __this, ByteU5BU5D_t66* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::InternalConstructor(System.Byte[],System.Int32,System.Int32,System.Boolean,System.Boolean)

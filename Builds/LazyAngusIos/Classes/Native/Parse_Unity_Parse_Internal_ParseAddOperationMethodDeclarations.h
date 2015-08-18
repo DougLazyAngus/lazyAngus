@@ -18,12 +18,12 @@ struct ParseObject_t1221;
 struct String_t;
 
 // System.Void Parse.Internal.ParseAddOperation::.ctor(System.Collections.Generic.IEnumerable`1<System.Object>)
-extern "C" void ParseAddOperation__ctor_m6460 (ParseAddOperation_t1186 * __this, Object_t* ___objects, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseAddOperation__ctor_m6458 (ParseAddOperation_t1186 * __this, Object_t* ___objects, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.Internal.ParseAddOperation::Encode()
-extern "C" Object_t * ParseAddOperation_Encode_m6461 (ParseAddOperation_t1186 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ParseAddOperation_Encode_m6459 (ParseAddOperation_t1186 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Parse.Internal.IParseFieldOperation Parse.Internal.ParseAddOperation::MergeWithPrevious(Parse.Internal.IParseFieldOperation)
-extern "C" Object_t * ParseAddOperation_MergeWithPrevious_m6462 (ParseAddOperation_t1186 * __this, Object_t * ___previous, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ParseAddOperation_MergeWithPrevious_m6460 (ParseAddOperation_t1186 * __this, Object_t * ___previous, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.Internal.ParseAddOperation::Apply(System.Object,Parse.ParseObject,System.String)
-extern "C" Object_t * ParseAddOperation_Apply_m6463 (ParseAddOperation_t1186 * __this, Object_t * ___oldValue, ParseObject_t1221 * ___obj, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ParseAddOperation_Apply_m6461 (ParseAddOperation_t1186 * __this, Object_t * ___oldValue, ParseObject_t1221 * ___obj, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IEnumerable`1<System.Object> Parse.Internal.ParseAddOperation::get_Objects()
-extern "C" Object_t* ParseAddOperation_get_Objects_m6464 (ParseAddOperation_t1186 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* ParseAddOperation_get_Objects_m6462 (ParseAddOperation_t1186 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -8,4 +8,4 @@
 struct SHA384_t4709;
 
 // System.Void System.Security.Cryptography.SHA384::.ctor()
-extern "C" void SHA384__ctor_m18826 (SHA384_t4709 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA384__ctor_m18823 (SHA384_t4709 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -8,10 +8,10 @@
 struct TrackLevel_t663;
 
 // System.Void TrackLevel::.ctor()
-extern "C" void TrackLevel__ctor_m3575 (TrackLevel_t663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TrackLevel__ctor_m3572 (TrackLevel_t663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TrackLevel::Start()
-extern "C" void TrackLevel_Start_m3576 (TrackLevel_t663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TrackLevel_Start_m3573 (TrackLevel_t663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TrackLevel::OnDestroy()
-extern "C" void TrackLevel_OnDestroy_m3577 (TrackLevel_t663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TrackLevel_OnDestroy_m3574 (TrackLevel_t663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TrackLevel::SetGameLevelText()
-extern "C" void TrackLevel_SetGameLevelText_m3578 (TrackLevel_t663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TrackLevel_SetGameLevelText_m3575 (TrackLevel_t663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

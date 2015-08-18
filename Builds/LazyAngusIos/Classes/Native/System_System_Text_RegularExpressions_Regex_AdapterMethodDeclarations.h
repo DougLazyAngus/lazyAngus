@@ -14,6 +14,6 @@ struct Match_t1374;
 struct StringBuilder_t261;
 
 // System.Void System.Text.RegularExpressions.Regex/Adapter::.ctor(System.Text.RegularExpressions.MatchEvaluator)
-extern "C" void Adapter__ctor_m14630 (Adapter_t4121 * __this, MatchEvaluator_t1179 * ___ev, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Adapter__ctor_m14632 (Adapter_t4121 * __this, MatchEvaluator_t1179 * ___ev, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Regex/Adapter::Evaluate(System.Text.RegularExpressions.Match,System.Text.StringBuilder)
-extern "C" void Adapter_Evaluate_m14631 (Adapter_t4121 * __this, Match_t1374 * ___m, StringBuilder_t261 * ___sb, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Adapter_Evaluate_m14633 (Adapter_t4121 * __this, Match_t1374 * ___m, StringBuilder_t261 * ___sb, const MethodInfo* method) IL2CPP_METHOD_ATTR;

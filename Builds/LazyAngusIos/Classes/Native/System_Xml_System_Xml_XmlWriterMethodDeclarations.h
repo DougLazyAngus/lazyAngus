@@ -14,19 +14,19 @@ struct XmlReader_t3256;
 #include "System_Xml_System_Xml_XmlSpace.h"
 
 // System.Void System.Xml.XmlWriter::.ctor()
-extern "C" void XmlWriter__ctor_m11424 (XmlWriter_t3281 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlWriter__ctor_m11425 (XmlWriter_t3281 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlWriter::System.IDisposable.Dispose()
-extern "C" void XmlWriter_System_IDisposable_Dispose_m11425 (XmlWriter_t3281 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlWriter_System_IDisposable_Dispose_m11426 (XmlWriter_t3281 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlWriter::get_XmlLang()
-extern "C" String_t* XmlWriter_get_XmlLang_m11426 (XmlWriter_t3281 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlWriter_get_XmlLang_m11427 (XmlWriter_t3281 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlSpace System.Xml.XmlWriter::get_XmlSpace()
-extern "C" int32_t XmlWriter_get_XmlSpace_m11427 (XmlWriter_t3281 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlWriter_get_XmlSpace_m11428 (XmlWriter_t3281 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlWriter::Close()
 // System.Void System.Xml.XmlWriter::Dispose(System.Boolean)
-extern "C" void XmlWriter_Dispose_m11428 (XmlWriter_t3281 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlWriter_Dispose_m11429 (XmlWriter_t3281 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlWriter::LookupPrefix(System.String)
 // System.Void System.Xml.XmlWriter::WriteAttribute(System.Xml.XmlReader,System.Boolean)
-extern "C" void XmlWriter_WriteAttribute_m11429 (XmlWriter_t3281 * __this, XmlReader_t3256 * ___reader, bool ___defattr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlWriter_WriteAttribute_m11430 (XmlWriter_t3281 * __this, XmlReader_t3256 * ___reader, bool ___defattr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlWriter::WriteCData(System.String)
 // System.Void System.Xml.XmlWriter::WriteComment(System.String)
 // System.Void System.Xml.XmlWriter::WriteDocType(System.String,System.String,System.String,System.String)
@@ -35,7 +35,7 @@ extern "C" void XmlWriter_WriteAttribute_m11429 (XmlWriter_t3281 * __this, XmlRe
 // System.Void System.Xml.XmlWriter::WriteEntityRef(System.String)
 // System.Void System.Xml.XmlWriter::WriteFullEndElement()
 // System.Void System.Xml.XmlWriter::WriteNode(System.Xml.XmlReader,System.Boolean)
-extern "C" void XmlWriter_WriteNode_m11430 (XmlWriter_t3281 * __this, XmlReader_t3256 * ___reader, bool ___defattr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlWriter_WriteNode_m11431 (XmlWriter_t3281 * __this, XmlReader_t3256 * ___reader, bool ___defattr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlWriter::WriteProcessingInstruction(System.String,System.String)
 // System.Void System.Xml.XmlWriter::WriteStartAttribute(System.String,System.String,System.String)
 // System.Void System.Xml.XmlWriter::WriteStartElement(System.String,System.String,System.String)

@@ -17,42 +17,46 @@ struct TimerWidget_t620;
 // PawController
 struct  PawController_t532  : public MonoBehaviour_t13
 {
-	// UnityEngine.Vector3 PawController::swipeLocationCat
-	Vector3_t536  ___swipeLocationCat_2;
+	// UnityEngine.Vector3 PawController::nextSwipeLocationCat
+	Vector3_t536  ___nextSwipeLocationCat_2;
+	// UnityEngine.Vector3 PawController::currentSwipeLocationCat
+	Vector3_t536  ___currentSwipeLocationCat_3;
 	// PawController/SwipePhase PawController::swipePhase
-	int32_t ___swipePhase_3;
-	// System.Single PawController::pauseStarted
-	float ___pauseStarted_4;
+	int32_t ___swipePhase_4;
+	// System.Single PawController::timeStartNextSwipe
+	float ___timeStartNextSwipe_5;
+	// System.Single PawController::extendedPauseStarted
+	float ___extendedPauseStarted_6;
 	// UnityEngine.GameObject PawController::normalPawArtGameObject
-	GameObject_t352 * ___normalPawArtGameObject_5;
+	GameObject_t352 * ___normalPawArtGameObject_7;
 	// UnityEngine.GameObject PawController::dangerPawArtGameObject
-	GameObject_t352 * ___dangerPawArtGameObject_6;
+	GameObject_t352 * ___dangerPawArtGameObject_8;
 	// UnityEngine.GameObject PawController::bigPawArtGameObject
-	GameObject_t352 * ___bigPawArtGameObject_7;
+	GameObject_t352 * ___bigPawArtGameObject_9;
 	// UnityEngine.GameObject PawController::bigDangerPawArtGameObject
-	GameObject_t352 * ___bigDangerPawArtGameObject_8;
+	GameObject_t352 * ___bigDangerPawArtGameObject_10;
 	// UnityEngine.CircleCollider2D PawController::normalCollider
-	CircleCollider2D_t619 * ___normalCollider_9;
+	CircleCollider2D_t619 * ___normalCollider_11;
 	// UnityEngine.CircleCollider2D PawController::bigCollider
-	CircleCollider2D_t619 * ___bigCollider_10;
+	CircleCollider2D_t619 * ___bigCollider_12;
 	// System.Single PawController::debugTimer
-	float ___debugTimer_11;
+	float ___debugTimer_13;
 	// System.Single PawController::swipeSpeed
-	float ___swipeSpeed_12;
+	float ___swipeSpeed_14;
 	// System.Single PawController::initialPauseLength
-	float ___initialPauseLength_13;
+	float ___initialPauseLength_15;
 	// System.Int32 PawController::killsThisSwipe
-	int32_t ___killsThisSwipe_14;
+	int32_t ___killsThisSwipe_16;
 	// System.Boolean PawController::registerdForEvents
-	bool ___registerdForEvents_15;
+	bool ___registerdForEvents_17;
 	// UnityEngine.Transform PawController::pawHomeCatTransform
-	Transform_t406 * ___pawHomeCatTransform_16;
+	Transform_t406 * ___pawHomeCatTransform_18;
 	// UnityEngine.Transform PawController::shoulderJointCatTransform
-	Transform_t406 * ___shoulderJointCatTransform_17;
+	Transform_t406 * ___shoulderJointCatTransform_19;
 	// System.Single PawController::pawHomeCatTransformMagnitude
-	float ___pawHomeCatTransformMagnitude_18;
+	float ___pawHomeCatTransformMagnitude_20;
 	// UnityEngine.GameObject PawController::timerWidgetPrototype
-	GameObject_t352 * ___timerWidgetPrototype_19;
+	GameObject_t352 * ___timerWidgetPrototype_21;
 	// TimerWidget PawController::timerWidget
-	TimerWidget_t620 * ___timerWidget_20;
+	TimerWidget_t620 * ___timerWidget_22;
 };

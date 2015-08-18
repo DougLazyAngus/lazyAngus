@@ -8,4 +8,4 @@
 struct InAttribute_t4347;
 
 // System.Void System.Runtime.InteropServices.InAttribute::.ctor()
-extern "C" void InAttribute__ctor_m16277 (InAttribute_t4347 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InAttribute__ctor_m16279 (InAttribute_t4347 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,7 +14,7 @@ struct CharU5BU5D_t697;
 // System.Void System.IO.Path::.cctor()
 extern "C" void Path__cctor_m17466 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.Path::Combine(System.String,System.String)
-extern "C" String_t* Path_Combine_m7778 (Object_t * __this /* static, unused */, String_t* ___path1, String_t* ___path2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Path_Combine_m7777 (Object_t * __this /* static, unused */, String_t* ___path1, String_t* ___path2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.Path::CleanPath(System.String)
 extern "C" String_t* Path_CleanPath_m17467 (Object_t * __this /* static, unused */, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.Path::GetDirectoryName(System.String)
@@ -22,7 +22,7 @@ extern "C" String_t* Path_GetDirectoryName_m17468 (Object_t * __this /* static, 
 // System.String System.IO.Path::GetFileName(System.String)
 extern "C" String_t* Path_GetFileName_m17469 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.Path::GetFullPath(System.String)
-extern "C" String_t* Path_GetFullPath_m11486 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Path_GetFullPath_m11487 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.Path::WindowsDriveAdjustment(System.String)
 extern "C" String_t* Path_WindowsDriveAdjustment_m17470 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.Path::InsecureGetFullPath(System.String)

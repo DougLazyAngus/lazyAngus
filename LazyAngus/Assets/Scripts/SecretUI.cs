@@ -11,6 +11,10 @@ public class SecretUI : MonoBehaviour {
 	public InputField levelInputField;
 	public InputField debugFlagsInputField;
 
+	public void ResetPreferences() {
+		PersistentStorage.instance.ClearAll ();
+	}
+
 	public void ToggleVisibility() {
 		inputs.SetActive(true);
 	}

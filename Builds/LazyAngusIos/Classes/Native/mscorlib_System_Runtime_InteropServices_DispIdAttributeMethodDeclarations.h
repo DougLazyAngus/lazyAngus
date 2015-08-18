@@ -8,4 +8,4 @@
 struct DispIdAttribute_t4575;
 
 // System.Void System.Runtime.InteropServices.DispIdAttribute::.ctor(System.Int32)
-extern "C" void DispIdAttribute__ctor_m18140 (DispIdAttribute_t4575 * __this, int32_t ___dispId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DispIdAttribute__ctor_m18137 (DispIdAttribute_t4575 * __this, int32_t ___dispId, const MethodInfo* method) IL2CPP_METHOD_ATTR;

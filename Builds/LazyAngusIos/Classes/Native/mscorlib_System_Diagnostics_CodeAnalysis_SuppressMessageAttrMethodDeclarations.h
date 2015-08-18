@@ -10,6 +10,6 @@ struct SuppressMessageAttribute_t2970;
 struct String_t;
 
 // System.Void System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::.ctor(System.String,System.String)
-extern "C" void SuppressMessageAttribute__ctor_m10237 (SuppressMessageAttribute_t2970 * __this, String_t* ___category, String_t* ___checkId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SuppressMessageAttribute__ctor_m10238 (SuppressMessageAttribute_t2970 * __this, String_t* ___category, String_t* ___checkId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::set_Justification(System.String)
-extern "C" void SuppressMessageAttribute_set_Justification_m10238 (SuppressMessageAttribute_t2970 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SuppressMessageAttribute_set_Justification_m10239 (SuppressMessageAttribute_t2970 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

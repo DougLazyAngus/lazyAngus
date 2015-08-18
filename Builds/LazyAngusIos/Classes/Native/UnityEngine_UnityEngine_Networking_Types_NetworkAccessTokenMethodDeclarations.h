@@ -10,6 +10,6 @@ struct NetworkAccessToken_t2813;
 struct String_t;
 
 // System.Void UnityEngine.Networking.Types.NetworkAccessToken::.ctor()
-extern "C" void NetworkAccessToken__ctor_m9746 (NetworkAccessToken_t2813 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NetworkAccessToken__ctor_m9747 (NetworkAccessToken_t2813 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Networking.Types.NetworkAccessToken::GetByteString()
-extern "C" String_t* NetworkAccessToken_GetByteString_m9747 (NetworkAccessToken_t2813 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NetworkAccessToken_GetByteString_m9748 (NetworkAccessToken_t2813 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

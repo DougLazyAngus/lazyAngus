@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_17.h"
 
 // System.Void System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::.ctor(System.Object,System.IntPtr)
-extern "C" void Comparison_1__ctor_m63510_gshared (Comparison_1_t8622 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Comparison_1__ctor_m63510(__this, ___object, ___method, method) (( void (*) (Comparison_1_t8622 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m63510_gshared)(__this, ___object, ___method, method)
+extern "C" void Comparison_1__ctor_m63507_gshared (Comparison_1_t8622 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Comparison_1__ctor_m63507(__this, ___object, ___method, method) (( void (*) (Comparison_1_t8622 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m63507_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Invoke(T,T)
-extern "C" int32_t Comparison_1_Invoke_m63511_gshared (Comparison_1_t8622 * __this, KeyValuePair_2_t3379  ___x, KeyValuePair_2_t3379  ___y, const MethodInfo* method);
-#define Comparison_1_Invoke_m63511(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t8622 *, KeyValuePair_2_t3379 , KeyValuePair_2_t3379 , const MethodInfo*))Comparison_1_Invoke_m63511_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t Comparison_1_Invoke_m63508_gshared (Comparison_1_t8622 * __this, KeyValuePair_2_t3379  ___x, KeyValuePair_2_t3379  ___y, const MethodInfo* method);
+#define Comparison_1_Invoke_m63508(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t8622 *, KeyValuePair_2_t3379 , KeyValuePair_2_t3379 , const MethodInfo*))Comparison_1_Invoke_m63508_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Comparison_1_BeginInvoke_m63512_gshared (Comparison_1_t8622 * __this, KeyValuePair_2_t3379  ___x, KeyValuePair_2_t3379  ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Comparison_1_BeginInvoke_m63512(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t8622 *, KeyValuePair_2_t3379 , KeyValuePair_2_t3379 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m63512_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+extern "C" Object_t * Comparison_1_BeginInvoke_m63509_gshared (Comparison_1_t8622 * __this, KeyValuePair_2_t3379  ___x, KeyValuePair_2_t3379  ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Comparison_1_BeginInvoke_m63509(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t8622 *, KeyValuePair_2_t3379 , KeyValuePair_2_t3379 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m63509_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::EndInvoke(System.IAsyncResult)
-extern "C" int32_t Comparison_1_EndInvoke_m63513_gshared (Comparison_1_t8622 * __this, Object_t * ___result, const MethodInfo* method);
-#define Comparison_1_EndInvoke_m63513(__this, ___result, method) (( int32_t (*) (Comparison_1_t8622 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m63513_gshared)(__this, ___result, method)
+extern "C" int32_t Comparison_1_EndInvoke_m63510_gshared (Comparison_1_t8622 * __this, Object_t * ___result, const MethodInfo* method);
+#define Comparison_1_EndInvoke_m63510(__this, ___result, method) (( int32_t (*) (Comparison_1_t8622 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m63510_gshared)(__this, ___result, method)

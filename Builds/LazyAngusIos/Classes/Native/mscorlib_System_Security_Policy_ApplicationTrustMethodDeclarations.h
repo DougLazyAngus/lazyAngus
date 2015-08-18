@@ -8,4 +8,4 @@
 struct ApplicationTrust_t4726;
 
 // System.Void System.Security.Policy.ApplicationTrust::.ctor()
-extern "C" void ApplicationTrust__ctor_m18900 (ApplicationTrust_t4726 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ApplicationTrust__ctor_m18897 (ApplicationTrust_t4726 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -10,6 +10,6 @@ struct ChannelInfo_t4591;
 struct ObjectU5BU5D_t682;
 
 // System.Void System.Runtime.Remoting.ChannelInfo::.ctor()
-extern "C" void ChannelInfo__ctor_m18185 (ChannelInfo_t4591 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ChannelInfo__ctor_m18182 (ChannelInfo_t4591 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Runtime.Remoting.ChannelInfo::get_ChannelData()
-extern "C" ObjectU5BU5D_t682* ChannelInfo_get_ChannelData_m18186 (ChannelInfo_t4591 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t682* ChannelInfo_get_ChannelData_m18183 (ChannelInfo_t4591 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

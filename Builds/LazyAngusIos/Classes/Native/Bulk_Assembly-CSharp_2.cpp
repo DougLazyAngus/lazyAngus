@@ -259,11 +259,11 @@ struct GameObject_t352;
 struct Object_t;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<System.Object>()
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
-extern "C" Object_t * GameObject_AddComponent_TisObject_t_m3857_gshared (GameObject_t352 * __this, const MethodInfo* method);
-#define GameObject_AddComponent_TisObject_t_m3857(__this, method) (( Object_t * (*) (GameObject_t352 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m3857_gshared)(__this, method)
+extern "C" Object_t * GameObject_AddComponent_TisObject_t_m3854_gshared (GameObject_t352 * __this, const MethodInfo* method);
+#define GameObject_AddComponent_TisObject_t_m3854(__this, method) (( Object_t * (*) (GameObject_t352 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m3854_gshared)(__this, method)
 // Declaration !!0 UnityEngine.GameObject::AddComponent<OneSignal>()
 // !!0 UnityEngine.GameObject::AddComponent<OneSignal>()
-#define GameObject_AddComponent_TisOneSignal_t379_m3989(__this, method) (( OneSignal_t379 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m3857_gshared)(__this, method)
+#define GameObject_AddComponent_TisOneSignal_t379_m3986(__this, method) (( OneSignal_t379 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m3854_gshared)(__this, method)
 
 
 // System.Void OneSignal::.ctor()
@@ -292,7 +292,7 @@ extern "C" void OneSignal__cctor_m2119 (Object_t * __this /* static, unused */, 
 // System.Void OneSignal::Init(System.String,System.String,OneSignal/NotificationReceived,System.Boolean)
 extern TypeInfo* OneSignal_t379_il2cpp_TypeInfo_var;
 extern TypeInfo* GameObject_t352_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisOneSignal_t379_m3989_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisOneSignal_t379_m3986_MethodInfo_var;
 extern "C" void OneSignal_Init_m2120 (Object_t * __this /* static, unused */, String_t* ___appId, String_t* ___googleProjectNumber, NotificationReceived_t387 * ___inNotificationDelegate, bool ___autoRegister, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -300,7 +300,7 @@ extern "C" void OneSignal_Init_m2120 (Object_t * __this /* static, unused */, St
 	{
 		OneSignal_t379_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(382);
 		GameObject_t352_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(278);
-		GameObject_AddComponent_TisOneSignal_t379_m3989_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484059);
+		GameObject_AddComponent_TisOneSignal_t379_m3986_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484059);
 		s_Il2CppMethodIntialized = true;
 	}
 	GameObject_t352 * V_0 = {0};
@@ -322,11 +322,11 @@ IL_000b:
 		IL2CPP_RUNTIME_CLASS_INIT(OneSignal_t379_il2cpp_TypeInfo_var);
 		((OneSignal_t379_StaticFields*)OneSignal_t379_il2cpp_TypeInfo_var->static_fields)->___notificationDelegate_9 = L_1;
 		GameObject_t352 * L_2 = (GameObject_t352 *)il2cpp_codegen_object_new (GameObject_t352_il2cpp_TypeInfo_var);
-		GameObject__ctor_m3858(L_2, (String_t*) &_stringLiteral802, /*hidden argument*/NULL);
+		GameObject__ctor_m3855(L_2, (String_t*) &_stringLiteral802, /*hidden argument*/NULL);
 		V_0 = L_2;
 		GameObject_t352 * L_3 = V_0;
 		NullCheck(L_3);
-		GameObject_AddComponent_TisOneSignal_t379_m3989(L_3, /*hidden argument*/GameObject_AddComponent_TisOneSignal_t379_m3989_MethodInfo_var);
+		GameObject_AddComponent_TisOneSignal_t379_m3986(L_3, /*hidden argument*/GameObject_AddComponent_TisOneSignal_t379_m3986_MethodInfo_var);
 		GameObject_t352 * L_4 = V_0;
 		Object_DontDestroyOnLoad_m385(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		((OneSignal_t379_StaticFields*)OneSignal_t379_il2cpp_TypeInfo_var->static_fields)->___initialized_8 = 1;
@@ -840,7 +840,7 @@ extern "C" bool U3CSaveScreenshotU3Ec__IteratorD_MoveNext_m2144 (U3CSaveScreensh
 IL_0021:
 	{
 		WaitForEndOfFrame_t708 * L_2 = (WaitForEndOfFrame_t708 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t708_il2cpp_TypeInfo_var);
-		WaitForEndOfFrame__ctor_m3698(L_2, /*hidden argument*/NULL);
+		WaitForEndOfFrame__ctor_m3695(L_2, /*hidden argument*/NULL);
 		__this->___U24current_4 = L_2;
 		__this->___U24PC_3 = 1;
 		goto IL_00cb;
@@ -848,25 +848,25 @@ IL_0021:
 
 IL_0038:
 	{
-		int32_t L_3 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CwidthU3E__0_0 = L_3;
-		int32_t L_4 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CheightU3E__1_1 = L_4;
 		int32_t L_5 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_6 = (__this->___U3CheightU3E__1_1);
 		Texture2D_t108 * L_7 = (Texture2D_t108 *)il2cpp_codegen_object_new (Texture2D_t108_il2cpp_TypeInfo_var);
-		Texture2D__ctor_m3699(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
+		Texture2D__ctor_m3696(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
 		__this->___U3CtexU3E__2_2 = L_7;
 		Texture2D_t108 * L_8 = (__this->___U3CtexU3E__2_2);
 		int32_t L_9 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_10 = (__this->___U3CheightU3E__1_1);
 		Rect_t694  L_11 = {0};
-		Rect__ctor_m3683(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Texture2D_ReadPixels_m3700(L_8, L_11, 0, 0, /*hidden argument*/NULL);
+		Texture2D_ReadPixels_m3697(L_8, L_11, 0, 0, /*hidden argument*/NULL);
 		Texture2D_t108 * L_12 = (__this->___U3CtexU3E__2_2);
 		NullCheck(L_12);
-		Texture2D_Apply_m3701(L_12, /*hidden argument*/NULL);
+		Texture2D_Apply_m3698(L_12, /*hidden argument*/NULL);
 		SA_ScreenShotMaker_t391 * L_13 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_13);
 		Action_1_t268 * L_14 = (L_13->___OnScreenshotReady_6);
@@ -938,19 +938,19 @@ extern "C" void U3CSaveScreenshotU3Ec__IteratorD_Reset_m2146 (U3CSaveScreenshotU
 
 // System.Void SA_ScreenShotMaker::.ctor()
 extern TypeInfo* SA_Singleton_1_t393_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m3990_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m3987_MethodInfo_var;
 extern "C" void SA_ScreenShotMaker__ctor_m2147 (SA_ScreenShotMaker_t391 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t393_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(388);
-		SA_Singleton_1__ctor_m3990_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484060);
+		SA_Singleton_1__ctor_m3987_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484060);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t393_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m3990(__this, /*hidden argument*/SA_Singleton_1__ctor_m3990_MethodInfo_var);
+		SA_Singleton_1__ctor_m3987(__this, /*hidden argument*/SA_Singleton_1__ctor_m3987_MethodInfo_var);
 		return;
 	}
 }
@@ -959,7 +959,7 @@ extern "C" void SA_ScreenShotMaker_GetScreenshot_m2148 (SA_ScreenShotMaker_t391 
 {
 	{
 		Object_t * L_0 = SA_ScreenShotMaker_SaveScreenshot_m2149(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m3719(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m3716(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1044,22 +1044,22 @@ struct GameObject_t352;
 struct Object_t;
 // Declaration !!0 UnityEngine.GameObject::GetComponentInChildren<System.Object>()
 // !!0 UnityEngine.GameObject::GetComponentInChildren<System.Object>()
-extern "C" Object_t * GameObject_GetComponentInChildren_TisObject_t_m3992_gshared (GameObject_t352 * __this, const MethodInfo* method);
-#define GameObject_GetComponentInChildren_TisObject_t_m3992(__this, method) (( Object_t * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponentInChildren_TisObject_t_m3992_gshared)(__this, method)
+extern "C" Object_t * GameObject_GetComponentInChildren_TisObject_t_m3989_gshared (GameObject_t352 * __this, const MethodInfo* method);
+#define GameObject_GetComponentInChildren_TisObject_t_m3989(__this, method) (( Object_t * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponentInChildren_TisObject_t_m3989_gshared)(__this, method)
 // Declaration !!0 UnityEngine.GameObject::GetComponentInChildren<UnityEngine.TextMesh>()
 // !!0 UnityEngine.GameObject::GetComponentInChildren<UnityEngine.TextMesh>()
-#define GameObject_GetComponentInChildren_TisTextMesh_t403_m3991(__this, method) (( TextMesh_t403 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponentInChildren_TisObject_t_m3992_gshared)(__this, method)
+#define GameObject_GetComponentInChildren_TisTextMesh_t403_m3988(__this, method) (( TextMesh_t403 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponentInChildren_TisObject_t_m3989_gshared)(__this, method)
 struct GameObject_t352;
 struct TextMeshU5BU5D_t760;
 struct GameObject_t352;
 struct ObjectU5BU5D_t682;
 // Declaration !!0[] UnityEngine.GameObject::GetComponentsInChildren<System.Object>()
 // !!0[] UnityEngine.GameObject::GetComponentsInChildren<System.Object>()
-extern "C" ObjectU5BU5D_t682* GameObject_GetComponentsInChildren_TisObject_t_m3994_gshared (GameObject_t352 * __this, const MethodInfo* method);
-#define GameObject_GetComponentsInChildren_TisObject_t_m3994(__this, method) (( ObjectU5BU5D_t682* (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m3994_gshared)(__this, method)
+extern "C" ObjectU5BU5D_t682* GameObject_GetComponentsInChildren_TisObject_t_m3991_gshared (GameObject_t352 * __this, const MethodInfo* method);
+#define GameObject_GetComponentsInChildren_TisObject_t_m3991(__this, method) (( ObjectU5BU5D_t682* (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m3991_gshared)(__this, method)
 // Declaration !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.TextMesh>()
 // !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.TextMesh>()
-#define GameObject_GetComponentsInChildren_TisTextMesh_t403_m3993(__this, method) (( TextMeshU5BU5D_t760* (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m3994_gshared)(__this, method)
+#define GameObject_GetComponentsInChildren_TisTextMesh_t403_m3990(__this, method) (( TextMeshU5BU5D_t760* (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m3991_gshared)(__this, method)
 struct Component_t761;
 struct AudioSource_t611;
 // UnityEngine.Component
@@ -1068,21 +1068,21 @@ struct Component_t761;
 struct Object_t;
 // Declaration !!0 UnityEngine.Component::GetComponent<System.Object>()
 // !!0 UnityEngine.Component::GetComponent<System.Object>()
-extern "C" Object_t * Component_GetComponent_TisObject_t_m3996_gshared (Component_t761 * __this, const MethodInfo* method);
-#define Component_GetComponent_TisObject_t_m3996(__this, method) (( Object_t * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3996_gshared)(__this, method)
+extern "C" Object_t * Component_GetComponent_TisObject_t_m3993_gshared (Component_t761 * __this, const MethodInfo* method);
+#define Component_GetComponent_TisObject_t_m3993(__this, method) (( Object_t * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3993_gshared)(__this, method)
 // Declaration !!0 UnityEngine.Component::GetComponent<UnityEngine.AudioSource>()
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.AudioSource>()
-#define Component_GetComponent_TisAudioSource_t611_m3995(__this, method) (( AudioSource_t611 * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3996_gshared)(__this, method)
+#define Component_GetComponent_TisAudioSource_t611_m3992(__this, method) (( AudioSource_t611 * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3993_gshared)(__this, method)
 struct GameObject_t352;
 struct AudioSource_t611;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<UnityEngine.AudioSource>()
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.AudioSource>()
-#define GameObject_AddComponent_TisAudioSource_t611_m3997(__this, method) (( AudioSource_t611 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m3857_gshared)(__this, method)
+#define GameObject_AddComponent_TisAudioSource_t611_m3994(__this, method) (( AudioSource_t611 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m3854_gshared)(__this, method)
 struct Component_t761;
 struct Renderer_t604;
 // Declaration !!0 UnityEngine.Component::GetComponent<UnityEngine.Renderer>()
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Renderer>()
-#define Component_GetComponent_TisRenderer_t604_m3998(__this, method) (( Renderer_t604 * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3996_gshared)(__this, method)
+#define Component_GetComponent_TisRenderer_t604_m3995(__this, method) (( Renderer_t604 * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3993_gshared)(__this, method)
 
 
 // System.Void DefaultPreviewButton::.ctor()
@@ -1095,51 +1095,51 @@ extern "C" void DefaultPreviewButton__ctor_m2150 (DefaultPreviewButton_t349 * __
 }
 // System.Void DefaultPreviewButton::Awake()
 extern TypeInfo* Material_t523_il2cpp_TypeInfo_var;
-extern const MethodInfo* Component_GetComponent_TisAudioSource_t611_m3995_MethodInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisAudioSource_t611_m3997_MethodInfo_var;
-extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisAudioSource_t611_m3992_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisAudioSource_t611_m3994_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var;
 extern "C" void DefaultPreviewButton_Awake_m2151 (DefaultPreviewButton_t349 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Material_t523_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(392);
-		Component_GetComponent_TisAudioSource_t611_m3995_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484061);
-		GameObject_AddComponent_TisAudioSource_t611_m3997_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484062);
-		Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
+		Component_GetComponent_TisAudioSource_t611_m3992_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484061);
+		GameObject_AddComponent_TisAudioSource_t611_m3994_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484062);
+		Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		AudioSource_t611 * L_0 = Component_GetComponent_TisAudioSource_t611_m3995(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t611_m3995_MethodInfo_var);
-		bool L_1 = Object_op_Equality_m3781(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		AudioSource_t611 * L_0 = Component_GetComponent_TisAudioSource_t611_m3992(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t611_m3992_MethodInfo_var);
+		bool L_1 = Object_op_Equality_m3778(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0039;
 		}
 	}
 	{
-		GameObject_t352 * L_2 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_2 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		GameObject_AddComponent_TisAudioSource_t611_m3997(L_2, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t611_m3997_MethodInfo_var);
-		AudioSource_t611 * L_3 = Component_GetComponent_TisAudioSource_t611_m3995(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t611_m3995_MethodInfo_var);
+		GameObject_AddComponent_TisAudioSource_t611_m3994(L_2, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t611_m3994_MethodInfo_var);
+		AudioSource_t611 * L_3 = Component_GetComponent_TisAudioSource_t611_m3992(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t611_m3992_MethodInfo_var);
 		AudioClip_t395 * L_4 = (__this->___sound_9);
 		NullCheck(L_3);
-		AudioSource_set_clip_m3999(L_3, L_4, /*hidden argument*/NULL);
-		AudioSource_t611 * L_5 = Component_GetComponent_TisAudioSource_t611_m3995(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t611_m3995_MethodInfo_var);
+		AudioSource_set_clip_m3996(L_3, L_4, /*hidden argument*/NULL);
+		AudioSource_t611 * L_5 = Component_GetComponent_TisAudioSource_t611_m3992(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t611_m3992_MethodInfo_var);
 		NullCheck(L_5);
-		AudioSource_Stop_m4000(L_5, /*hidden argument*/NULL);
+		AudioSource_Stop_m3997(L_5, /*hidden argument*/NULL);
 	}
 
 IL_0039:
 	{
-		Renderer_t604 * L_6 = Component_GetComponent_TisRenderer_t604_m3998(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
-		Renderer_t604 * L_7 = Component_GetComponent_TisRenderer_t604_m3998(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		Renderer_t604 * L_6 = Component_GetComponent_TisRenderer_t604_m3995(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
+		Renderer_t604 * L_7 = Component_GetComponent_TisRenderer_t604_m3995(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_7);
-		Material_t523 * L_8 = Renderer_get_material_m4001(L_7, /*hidden argument*/NULL);
+		Material_t523 * L_8 = Renderer_get_material_m3998(L_7, /*hidden argument*/NULL);
 		Material_t523 * L_9 = (Material_t523 *)il2cpp_codegen_object_new (Material_t523_il2cpp_TypeInfo_var);
-		Material__ctor_m4002(L_9, L_8, /*hidden argument*/NULL);
+		Material__ctor_m3999(L_9, L_8, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		Renderer_set_material_m4003(L_6, L_9, /*hidden argument*/NULL);
+		Renderer_set_material_m4000(L_6, L_9, /*hidden argument*/NULL);
 		Texture_t394 * L_10 = (__this->___normalTexture_4);
 		__this->___normalTex_8 = L_10;
 		return;
@@ -1166,30 +1166,30 @@ extern "C" void DefaultPreviewButton_Unselect_m2153 (DefaultPreviewButton_t349 *
 	}
 }
 // System.Void DefaultPreviewButton::DisabledButton()
-extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var;
 extern "C" void DefaultPreviewButton_DisabledButton_m2154 (DefaultPreviewButton_t349 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
+		Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Texture_t394 * L_0 = (__this->___disabledTexture_6);
-		bool L_1 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0027;
 		}
 	}
 	{
-		Renderer_t604 * L_2 = Component_GetComponent_TisRenderer_t604_m3998(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		Renderer_t604 * L_2 = Component_GetComponent_TisRenderer_t604_m3995(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_2);
-		Material_t523 * L_3 = Renderer_get_material_m4001(L_2, /*hidden argument*/NULL);
+		Material_t523 * L_3 = Renderer_get_material_m3998(L_2, /*hidden argument*/NULL);
 		Texture_t394 * L_4 = (__this->___disabledTexture_6);
 		NullCheck(L_3);
-		Material_set_mainTexture_m4004(L_3, L_4, /*hidden argument*/NULL);
+		Material_set_mainTexture_m4001(L_3, L_4, /*hidden argument*/NULL);
 	}
 
 IL_0027:
@@ -1199,30 +1199,30 @@ IL_0027:
 	}
 }
 // System.Void DefaultPreviewButton::EnabledButton()
-extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var;
 extern "C" void DefaultPreviewButton_EnabledButton_m2155 (DefaultPreviewButton_t349 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
+		Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Texture_t394 * L_0 = (__this->___disabledTexture_6);
-		bool L_1 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0027;
 		}
 	}
 	{
-		Renderer_t604 * L_2 = Component_GetComponent_TisRenderer_t604_m3998(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		Renderer_t604 * L_2 = Component_GetComponent_TisRenderer_t604_m3995(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_2);
-		Material_t523 * L_3 = Renderer_get_material_m4001(L_2, /*hidden argument*/NULL);
+		Material_t523 * L_3 = Renderer_get_material_m3998(L_2, /*hidden argument*/NULL);
 		Texture_t394 * L_4 = (__this->___normalTexture_4);
 		NullCheck(L_3);
-		Material_set_mainTexture_m4004(L_3, L_4, /*hidden argument*/NULL);
+		Material_set_mainTexture_m4001(L_3, L_4, /*hidden argument*/NULL);
 	}
 
 IL_0027:
@@ -1232,35 +1232,35 @@ IL_0027:
 	}
 }
 // System.String DefaultPreviewButton::get_text()
-extern const MethodInfo* GameObject_GetComponentInChildren_TisTextMesh_t403_m3991_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponentInChildren_TisTextMesh_t403_m3988_MethodInfo_var;
 extern "C" String_t* DefaultPreviewButton_get_text_m2156 (DefaultPreviewButton_t349 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		GameObject_GetComponentInChildren_TisTextMesh_t403_m3991_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484064);
+		GameObject_GetComponentInChildren_TisTextMesh_t403_m3988_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484064);
 		s_Il2CppMethodIntialized = true;
 	}
 	TextMesh_t403 * V_0 = {0};
 	{
-		GameObject_t352 * L_0 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_0 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TextMesh_t403 * L_1 = GameObject_GetComponentInChildren_TisTextMesh_t403_m3991(L_0, /*hidden argument*/GameObject_GetComponentInChildren_TisTextMesh_t403_m3991_MethodInfo_var);
+		TextMesh_t403 * L_1 = GameObject_GetComponentInChildren_TisTextMesh_t403_m3988(L_0, /*hidden argument*/GameObject_GetComponentInChildren_TisTextMesh_t403_m3988_MethodInfo_var);
 		V_0 = L_1;
 		TextMesh_t403 * L_2 = V_0;
 		NullCheck(L_2);
-		String_t* L_3 = TextMesh_get_text_m4005(L_2, /*hidden argument*/NULL);
+		String_t* L_3 = TextMesh_get_text_m4002(L_2, /*hidden argument*/NULL);
 		return L_3;
 	}
 }
 // System.Void DefaultPreviewButton::set_text(System.String)
-extern const MethodInfo* GameObject_GetComponentsInChildren_TisTextMesh_t403_m3993_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponentsInChildren_TisTextMesh_t403_m3990_MethodInfo_var;
 extern "C" void DefaultPreviewButton_set_text_m2157 (DefaultPreviewButton_t349 * __this, String_t* ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		GameObject_GetComponentsInChildren_TisTextMesh_t403_m3993_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484065);
+		GameObject_GetComponentsInChildren_TisTextMesh_t403_m3990_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484065);
 		s_Il2CppMethodIntialized = true;
 	}
 	TextMeshU5BU5D_t760* V_0 = {0};
@@ -1268,9 +1268,9 @@ extern "C" void DefaultPreviewButton_set_text_m2157 (DefaultPreviewButton_t349 *
 	TextMeshU5BU5D_t760* V_2 = {0};
 	int32_t V_3 = 0;
 	{
-		GameObject_t352 * L_0 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_0 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		TextMeshU5BU5D_t760* L_1 = GameObject_GetComponentsInChildren_TisTextMesh_t403_m3993(L_0, /*hidden argument*/GameObject_GetComponentsInChildren_TisTextMesh_t403_m3993_MethodInfo_var);
+		TextMeshU5BU5D_t760* L_1 = GameObject_GetComponentsInChildren_TisTextMesh_t403_m3990(L_0, /*hidden argument*/GameObject_GetComponentsInChildren_TisTextMesh_t403_m3990_MethodInfo_var);
 		V_0 = L_1;
 		TextMeshU5BU5D_t760* L_2 = V_0;
 		V_2 = L_2;
@@ -1289,7 +1289,7 @@ IL_0015:
 		TextMesh_t403 * L_6 = V_1;
 		String_t* L_7 = ___value;
 		NullCheck(L_6);
-		TextMesh_set_text_m4006(L_6, L_7, /*hidden argument*/NULL);
+		TextMesh_set_text_m4003(L_6, L_7, /*hidden argument*/NULL);
 		int32_t L_8 = V_3;
 		V_3 = ((int32_t)((int32_t)L_8+(int32_t)1));
 	}
@@ -1321,13 +1321,13 @@ extern "C" void DefaultPreviewButton_Update_m2158 (DefaultPreviewButton_t349 * _
 	Ray_t762  V_0 = {0};
 	RaycastHit_t763  V_1 = {0};
 	{
-		Camera_t574 * L_0 = Camera_get_main_m4007(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t574 * L_0 = Camera_get_main_m4004(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t707_il2cpp_TypeInfo_var);
-		Vector3_t536  L_1 = Input_get_mousePosition_m4008(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t536  L_1 = Input_get_mousePosition_m4005(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Ray_t762  L_2 = Camera_ScreenPointToRay_m4009(L_0, L_1, /*hidden argument*/NULL);
+		Ray_t762  L_2 = Camera_ScreenPointToRay_m4006(L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
-		bool L_3 = Input_GetMouseButtonDown_m4010(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		bool L_3 = Input_GetMouseButtonDown_m4007(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_004f;
@@ -1335,18 +1335,18 @@ extern "C" void DefaultPreviewButton_Update_m2158 (DefaultPreviewButton_t349 * _
 	}
 	{
 		Ray_t762  L_4 = V_0;
-		bool L_5 = Physics_Raycast_m4011(NULL /*static, unused*/, L_4, (&V_1), (std::numeric_limits<float>::infinity()), /*hidden argument*/NULL);
+		bool L_5 = Physics_Raycast_m4008(NULL /*static, unused*/, L_4, (&V_1), (std::numeric_limits<float>::infinity()), /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_004f;
 		}
 	}
 	{
-		Transform_t406 * L_6 = RaycastHit_get_transform_m4012((&V_1), /*hidden argument*/NULL);
+		Transform_t406 * L_6 = RaycastHit_get_transform_m4009((&V_1), /*hidden argument*/NULL);
 		NullCheck(L_6);
-		GameObject_t352 * L_7 = Component_get_gameObject_m3756(L_6, /*hidden argument*/NULL);
-		GameObject_t352 * L_8 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
-		bool L_9 = Object_op_Equality_m3781(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		GameObject_t352 * L_7 = Component_get_gameObject_m3753(L_6, /*hidden argument*/NULL);
+		GameObject_t352 * L_8 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
+		bool L_9 = Object_op_Equality_m3778(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_004f;
@@ -1362,15 +1362,15 @@ IL_004f:
 	}
 }
 // System.Void DefaultPreviewButton::OnClick()
-extern const MethodInfo* Component_GetComponent_TisAudioSource_t611_m3995_MethodInfo_var;
-extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisAudioSource_t611_m3992_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var;
 extern "C" void DefaultPreviewButton_OnClick_m2159 (DefaultPreviewButton_t349 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisAudioSource_t611_m3995_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484061);
-		Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
+		Component_GetComponent_TisAudioSource_t611_m3992_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484061);
+		Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1381,48 +1381,48 @@ extern "C" void DefaultPreviewButton_OnClick_m2159 (DefaultPreviewButton_t349 * 
 		}
 	}
 	{
-		AudioSource_t611 * L_1 = Component_GetComponent_TisAudioSource_t611_m3995(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t611_m3995_MethodInfo_var);
+		AudioSource_t611 * L_1 = Component_GetComponent_TisAudioSource_t611_m3992(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t611_m3992_MethodInfo_var);
 		AudioClip_t395 * L_2 = (__this->___disabledsound_10);
 		NullCheck(L_1);
-		AudioSource_PlayOneShot_m4013(L_1, L_2, /*hidden argument*/NULL);
+		AudioSource_PlayOneShot_m4010(L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 
 IL_001d:
 	{
-		AudioSource_t611 * L_3 = Component_GetComponent_TisAudioSource_t611_m3995(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t611_m3995_MethodInfo_var);
+		AudioSource_t611 * L_3 = Component_GetComponent_TisAudioSource_t611_m3992(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t611_m3992_MethodInfo_var);
 		AudioClip_t395 * L_4 = (__this->___sound_9);
 		NullCheck(L_3);
-		AudioSource_PlayOneShot_m4013(L_3, L_4, /*hidden argument*/NULL);
-		Renderer_t604 * L_5 = Component_GetComponent_TisRenderer_t604_m3998(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		AudioSource_PlayOneShot_m4010(L_3, L_4, /*hidden argument*/NULL);
+		Renderer_t604 * L_5 = Component_GetComponent_TisRenderer_t604_m3995(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_5);
-		Material_t523 * L_6 = Renderer_get_material_m4001(L_5, /*hidden argument*/NULL);
+		Material_t523 * L_6 = Renderer_get_material_m3998(L_5, /*hidden argument*/NULL);
 		Texture_t394 * L_7 = (__this->___pressedTexture_5);
 		NullCheck(L_6);
-		Material_set_mainTexture_m4004(L_6, L_7, /*hidden argument*/NULL);
+		Material_set_mainTexture_m4001(L_6, L_7, /*hidden argument*/NULL);
 		VirtActionInvoker1< String_t* >::Invoke(18 /* System.Void UnionAssets.FLE.EventDispatcher::dispatch(System.String) */, __this, (String_t*) &_stringLiteral243);
-		MonoBehaviour_CancelInvoke_m4014(__this, (String_t*) &_stringLiteral805, /*hidden argument*/NULL);
-		MonoBehaviour_Invoke_m4015(__this, (String_t*) &_stringLiteral805, (0.1f), /*hidden argument*/NULL);
+		MonoBehaviour_CancelInvoke_m4011(__this, (String_t*) &_stringLiteral805, /*hidden argument*/NULL);
+		MonoBehaviour_Invoke_m4012(__this, (String_t*) &_stringLiteral805, (0.1f), /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void DefaultPreviewButton::OnTimeoutPress()
-extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var;
 extern "C" void DefaultPreviewButton_OnTimeoutPress_m2160 (DefaultPreviewButton_t349 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
+		Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Renderer_t604 * L_0 = Component_GetComponent_TisRenderer_t604_m3998(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		Renderer_t604 * L_0 = Component_GetComponent_TisRenderer_t604_m3995(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_0);
-		Material_t523 * L_1 = Renderer_get_material_m4001(L_0, /*hidden argument*/NULL);
+		Material_t523 * L_1 = Renderer_get_material_m3998(L_0, /*hidden argument*/NULL);
 		Texture_t394 * L_2 = (__this->___normalTexture_4);
 		NullCheck(L_1);
-		Material_set_mainTexture_m4004(L_1, L_2, /*hidden argument*/NULL);
+		Material_set_mainTexture_m4001(L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1442,19 +1442,19 @@ extern "C" void DefaultPreviewButton_OnTimeoutPress_m2160 (DefaultPreviewButton_
 
 // System.Void SALevelLoader::.ctor()
 extern TypeInfo* SA_Singleton_1_t397_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m4016_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m4013_MethodInfo_var;
 extern "C" void SALevelLoader__ctor_m2161 (SALevelLoader_t396 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t397_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(395);
-		SA_Singleton_1__ctor_m4016_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484066);
+		SA_Singleton_1__ctor_m4013_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484066);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t397_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m4016(__this, /*hidden argument*/SA_Singleton_1__ctor_m4016_MethodInfo_var);
+		SA_Singleton_1__ctor_m4013(__this, /*hidden argument*/SA_Singleton_1__ctor_m4013_MethodInfo_var);
 		return;
 	}
 }
@@ -1462,7 +1462,7 @@ extern "C" void SALevelLoader__ctor_m2161 (SALevelLoader_t396 * __this, const Me
 extern "C" void SALevelLoader_Awake_m2162 (SALevelLoader_t396 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t352 * L_0 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_0 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		Object_DontDestroyOnLoad_m385(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
@@ -1472,7 +1472,7 @@ extern "C" void SALevelLoader_LoadLevel_m2163 (SALevelLoader_t396 * __this, Stri
 {
 	{
 		String_t* L_0 = ___name;
-		Application_LoadLevel_m4017(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Application_LoadLevel_m4014(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1480,8 +1480,8 @@ extern "C" void SALevelLoader_LoadLevel_m2163 (SALevelLoader_t396 * __this, Stri
 extern "C" void SALevelLoader_Restart_m2164 (SALevelLoader_t396 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = Application_get_loadedLevelName_m3755(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Application_LoadLevel_m4017(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		String_t* L_0 = Application_get_loadedLevelName_m3752(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Application_LoadLevel_m4014(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1507,19 +1507,19 @@ extern "C" void SALoadedSceneOnClick__ctor_m2165 (SALoadedSceneOnClick_t398 * __
 }
 // System.Void SALoadedSceneOnClick::OnClick()
 extern TypeInfo* SA_Singleton_1_t397_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m4018_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m4015_MethodInfo_var;
 extern "C" void SALoadedSceneOnClick_OnClick_m2166 (SALoadedSceneOnClick_t398 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t397_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(395);
-		SA_Singleton_1_get_instance_m4018_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484067);
+		SA_Singleton_1_get_instance_m4015_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484067);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t397_il2cpp_TypeInfo_var);
-		SALevelLoader_t396 * L_0 = SA_Singleton_1_get_instance_m4018(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m4018_MethodInfo_var);
+		SALevelLoader_t396 * L_0 = SA_Singleton_1_get_instance_m4015(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m4015_MethodInfo_var);
 		String_t* L_1 = (__this->___levelName_2);
 		NullCheck(L_0);
 		SALevelLoader_LoadLevel_m2163(L_0, L_1, /*hidden argument*/NULL);
@@ -1540,7 +1540,7 @@ struct Component_t761;
 struct DefaultPreviewButton_t349;
 // Declaration !!0 UnityEngine.Component::GetComponent<DefaultPreviewButton>()
 // !!0 UnityEngine.Component::GetComponent<DefaultPreviewButton>()
-#define Component_GetComponent_TisDefaultPreviewButton_t349_m4019(__this, method) (( DefaultPreviewButton_t349 * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3996_gshared)(__this, method)
+#define Component_GetComponent_TisDefaultPreviewButton_t349_m4016(__this, method) (( DefaultPreviewButton_t349 * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3993_gshared)(__this, method)
 
 
 // System.Void SAOnClickAction::.ctor()
@@ -1553,22 +1553,22 @@ extern "C" void SAOnClickAction__ctor_m2167 (SAOnClickAction_t399 * __this, cons
 }
 // System.Void SAOnClickAction::Awake()
 extern TypeInfo* EventHandlerFunction_t675_il2cpp_TypeInfo_var;
-extern const MethodInfo* Component_GetComponent_TisDefaultPreviewButton_t349_m4019_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisDefaultPreviewButton_t349_m4016_MethodInfo_var;
 extern "C" void SAOnClickAction_Awake_m2168 (SAOnClickAction_t399 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		EventHandlerFunction_t675_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(207);
-		Component_GetComponent_TisDefaultPreviewButton_t349_m4019_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484068);
+		Component_GetComponent_TisDefaultPreviewButton_t349_m4016_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484068);
 		s_Il2CppMethodIntialized = true;
 	}
 	DefaultPreviewButton_t349 * V_0 = {0};
 	{
-		DefaultPreviewButton_t349 * L_0 = Component_GetComponent_TisDefaultPreviewButton_t349_m4019(__this, /*hidden argument*/Component_GetComponent_TisDefaultPreviewButton_t349_m4019_MethodInfo_var);
+		DefaultPreviewButton_t349 * L_0 = Component_GetComponent_TisDefaultPreviewButton_t349_m4016(__this, /*hidden argument*/Component_GetComponent_TisDefaultPreviewButton_t349_m4016_MethodInfo_var);
 		V_0 = L_0;
 		DefaultPreviewButton_t349 * L_1 = V_0;
-		bool L_2 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_1, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_1, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_002b;
@@ -1578,7 +1578,7 @@ extern "C" void SAOnClickAction_Awake_m2168 (SAOnClickAction_t399 * __this, cons
 		DefaultPreviewButton_t349 * L_3 = V_0;
 		IntPtr_t L_4 = { (void*)GetVirtualMethodInfo(__this, 4) };
 		EventHandlerFunction_t675 * L_5 = (EventHandlerFunction_t675 *)il2cpp_codegen_object_new (EventHandlerFunction_t675_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m3639(L_5, __this, L_4, /*hidden argument*/NULL);
+		EventHandlerFunction__ctor_m3636(L_5, __this, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		VirtActionInvoker2< String_t*, EventHandlerFunction_t675 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_3, (String_t*) &_stringLiteral243, L_5);
 	}
@@ -1612,7 +1612,7 @@ extern "C" void SAOpenUrlOnClick_OnClick_m2170 (SAOpenUrlOnClick_t400 * __this, 
 {
 	{
 		String_t* L_0 = (__this->___url_2);
-		Application_OpenURL_m3960(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Application_OpenURL_m3957(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1643,7 +1643,7 @@ extern "C" void SASendMessageOnClick_OnClick_m2172 (SASendMessageOnClick_t401 * 
 		GameObject_t352 * L_0 = (__this->___Reciver_2);
 		String_t* L_1 = (__this->___MethodName_3);
 		NullCheck(L_0);
-		GameObject_SendMessage_m4020(L_0, L_1, 1, /*hidden argument*/NULL);
+		GameObject_SendMessage_m4017(L_0, L_1, 1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1665,7 +1665,7 @@ struct Component_t761;
 struct Collider_t764;
 // Declaration !!0 UnityEngine.Component::GetComponent<UnityEngine.Collider>()
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Collider>()
-#define Component_GetComponent_TisCollider_t764_m4021(__this, method) (( Collider_t764 * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3996_gshared)(__this, method)
+#define Component_GetComponent_TisCollider_t764_m4018(__this, method) (( Collider_t764 * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3993_gshared)(__this, method)
 
 
 // System.Void SA_BackButton::.ctor()
@@ -1719,14 +1719,14 @@ extern "C" void SA_BackButton_Start_m2175 (SA_BackButton_t402 * __this, const Me
 		}
 	}
 	{
-		GameObject_t352 * L_3 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
-		Object_Destroy_m3900(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		GameObject_t352 * L_3 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
+		Object_Destroy_m3897(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		return;
 	}
 
 IL_0020:
 	{
-		GameObject_t352 * L_4 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_4 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		Object_DontDestroyOnLoad_m385(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_BackButton_t402_il2cpp_TypeInfo_var);
 		String_t* L_5 = ((SA_BackButton_t402_StaticFields*)SA_BackButton_t402_il2cpp_TypeInfo_var->static_fields)->___firstLevel_12;
@@ -1739,7 +1739,7 @@ IL_0020:
 		}
 	}
 	{
-		String_t* L_8 = Application_get_loadedLevelName_m3755(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_8 = Application_get_loadedLevelName_m3752(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_BackButton_t402_il2cpp_TypeInfo_var);
 		((SA_BackButton_t402_StaticFields*)SA_BackButton_t402_il2cpp_TypeInfo_var->static_fields)->___firstLevel_12 = L_8;
 	}
@@ -1751,20 +1751,20 @@ IL_0049:
 }
 // System.Void SA_BackButton::FixedUpdate()
 extern TypeInfo* SA_BackButton_t402_il2cpp_TypeInfo_var;
-extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var;
-extern const MethodInfo* Component_GetComponent_TisCollider_t764_m4021_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisCollider_t764_m4018_MethodInfo_var;
 extern "C" void SA_BackButton_FixedUpdate_m2176 (SA_BackButton_t402 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_BackButton_t402_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(397);
-		Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
-		Component_GetComponent_TisCollider_t764_m4021_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484069);
+		Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
+		Component_GetComponent_TisCollider_t764_m4018_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484069);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = Application_get_loadedLevelName_m3755(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_0 = Application_get_loadedLevelName_m3752(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_BackButton_t402_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((SA_BackButton_t402_StaticFields*)SA_BackButton_t402_il2cpp_TypeInfo_var->static_fields)->___firstLevel_12;
 		NullCheck(L_0);
@@ -1775,23 +1775,23 @@ extern "C" void SA_BackButton_FixedUpdate_m2176 (SA_BackButton_t402 * __this, co
 		}
 	}
 	{
-		Renderer_t604 * L_3 = Component_GetComponent_TisRenderer_t604_m3998(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		Renderer_t604 * L_3 = Component_GetComponent_TisRenderer_t604_m3995(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_3);
-		Renderer_set_enabled_m4022(L_3, 0, /*hidden argument*/NULL);
-		Collider_t764 * L_4 = Component_GetComponent_TisCollider_t764_m4021(__this, /*hidden argument*/Component_GetComponent_TisCollider_t764_m4021_MethodInfo_var);
+		Renderer_set_enabled_m4019(L_3, 0, /*hidden argument*/NULL);
+		Collider_t764 * L_4 = Component_GetComponent_TisCollider_t764_m4018(__this, /*hidden argument*/Component_GetComponent_TisCollider_t764_m4018_MethodInfo_var);
 		NullCheck(L_4);
-		Collider_set_enabled_m4023(L_4, 0, /*hidden argument*/NULL);
+		Collider_set_enabled_m4020(L_4, 0, /*hidden argument*/NULL);
 		goto IL_0049;
 	}
 
 IL_0031:
 	{
-		Renderer_t604 * L_5 = Component_GetComponent_TisRenderer_t604_m3998(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		Renderer_t604 * L_5 = Component_GetComponent_TisRenderer_t604_m3995(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_5);
-		Renderer_set_enabled_m4022(L_5, 1, /*hidden argument*/NULL);
-		Collider_t764 * L_6 = Component_GetComponent_TisCollider_t764_m4021(__this, /*hidden argument*/Component_GetComponent_TisCollider_t764_m4021_MethodInfo_var);
+		Renderer_set_enabled_m4019(L_5, 1, /*hidden argument*/NULL);
+		Collider_t764 * L_6 = Component_GetComponent_TisCollider_t764_m4018(__this, /*hidden argument*/Component_GetComponent_TisCollider_t764_m4018_MethodInfo_var);
 		NullCheck(L_6);
-		Collider_set_enabled_m4023(L_6, 1, /*hidden argument*/NULL);
+		Collider_set_enabled_m4020(L_6, 1, /*hidden argument*/NULL);
 	}
 
 IL_0049:
@@ -1811,7 +1811,7 @@ extern "C" void SA_BackButton_OnClick_m2177 (SA_BackButton_t402 * __this, const 
 // System.Void SA_BackButton::GoBack()
 extern TypeInfo* SA_Singleton_1_t397_il2cpp_TypeInfo_var;
 extern TypeInfo* SA_BackButton_t402_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m4018_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m4015_MethodInfo_var;
 extern "C" void SA_BackButton_GoBack_m2178 (SA_BackButton_t402 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -1819,12 +1819,12 @@ extern "C" void SA_BackButton_GoBack_m2178 (SA_BackButton_t402 * __this, const M
 	{
 		SA_Singleton_1_t397_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(395);
 		SA_BackButton_t402_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(397);
-		SA_Singleton_1_get_instance_m4018_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484067);
+		SA_Singleton_1_get_instance_m4015_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484067);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t397_il2cpp_TypeInfo_var);
-		SALevelLoader_t396 * L_0 = SA_Singleton_1_get_instance_m4018(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m4018_MethodInfo_var);
+		SALevelLoader_t396 * L_0 = SA_Singleton_1_get_instance_m4015(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m4015_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(SA_BackButton_t402_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((SA_BackButton_t402_StaticFields*)SA_BackButton_t402_il2cpp_TypeInfo_var->static_fields)->___firstLevel_12;
 		NullCheck(L_0);
@@ -1852,20 +1852,20 @@ extern "C" void SA_Label__ctor_m2179 (SA_Label_t351 * __this, const MethodInfo* 
 }
 // System.String SA_Label::get_text()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_GetComponentInChildren_TisTextMesh_t403_m3991_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponentInChildren_TisTextMesh_t403_m3988_MethodInfo_var;
 extern "C" String_t* SA_Label_get_text_m2180 (SA_Label_t351 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		GameObject_GetComponentInChildren_TisTextMesh_t403_m3991_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484064);
+		GameObject_GetComponentInChildren_TisTextMesh_t403_m3988_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484064);
 		s_Il2CppMethodIntialized = true;
 	}
 	TextMesh_t403 * V_0 = {0};
 	{
-		GameObject_t352 * L_0 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m3781(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		GameObject_t352 * L_0 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3778(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0017;
@@ -1879,12 +1879,12 @@ extern "C" String_t* SA_Label_get_text_m2180 (SA_Label_t351 * __this, const Meth
 
 IL_0017:
 	{
-		GameObject_t352 * L_3 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_3 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		TextMesh_t403 * L_4 = GameObject_GetComponentInChildren_TisTextMesh_t403_m3991(L_3, /*hidden argument*/GameObject_GetComponentInChildren_TisTextMesh_t403_m3991_MethodInfo_var);
+		TextMesh_t403 * L_4 = GameObject_GetComponentInChildren_TisTextMesh_t403_m3988(L_3, /*hidden argument*/GameObject_GetComponentInChildren_TisTextMesh_t403_m3988_MethodInfo_var);
 		V_0 = L_4;
 		TextMesh_t403 * L_5 = V_0;
-		bool L_6 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_5, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_6 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_5, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_0036;
@@ -1893,7 +1893,7 @@ IL_0017:
 	{
 		TextMesh_t403 * L_7 = V_0;
 		NullCheck(L_7);
-		String_t* L_8 = TextMesh_get_text_m4005(L_7, /*hidden argument*/NULL);
+		String_t* L_8 = TextMesh_get_text_m4002(L_7, /*hidden argument*/NULL);
 		return L_8;
 	}
 
@@ -1905,13 +1905,13 @@ IL_0036:
 	}
 }
 // System.Void SA_Label::set_text(System.String)
-extern const MethodInfo* GameObject_GetComponentsInChildren_TisTextMesh_t403_m3993_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponentsInChildren_TisTextMesh_t403_m3990_MethodInfo_var;
 extern "C" void SA_Label_set_text_m2181 (SA_Label_t351 * __this, String_t* ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		GameObject_GetComponentsInChildren_TisTextMesh_t403_m3993_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484065);
+		GameObject_GetComponentsInChildren_TisTextMesh_t403_m3990_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484065);
 		s_Il2CppMethodIntialized = true;
 	}
 	TextMeshU5BU5D_t760* V_0 = {0};
@@ -1919,8 +1919,8 @@ extern "C" void SA_Label_set_text_m2181 (SA_Label_t351 * __this, String_t* ___va
 	TextMeshU5BU5D_t760* V_2 = {0};
 	int32_t V_3 = 0;
 	{
-		GameObject_t352 * L_0 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m3781(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		GameObject_t352 * L_0 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3778(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0012;
@@ -1932,9 +1932,9 @@ extern "C" void SA_Label_set_text_m2181 (SA_Label_t351 * __this, String_t* ___va
 
 IL_0012:
 	{
-		GameObject_t352 * L_2 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_2 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		TextMeshU5BU5D_t760* L_3 = GameObject_GetComponentsInChildren_TisTextMesh_t403_m3993(L_2, /*hidden argument*/GameObject_GetComponentsInChildren_TisTextMesh_t403_m3993_MethodInfo_var);
+		TextMeshU5BU5D_t760* L_3 = GameObject_GetComponentsInChildren_TisTextMesh_t403_m3990(L_2, /*hidden argument*/GameObject_GetComponentsInChildren_TisTextMesh_t403_m3990_MethodInfo_var);
 		V_0 = L_3;
 		TextMeshU5BU5D_t760* L_4 = V_0;
 		V_2 = L_4;
@@ -1951,7 +1951,7 @@ IL_0027:
 		int32_t L_7 = L_6;
 		V_1 = (*(TextMesh_t403 **)(TextMesh_t403 **)SZArrayLdElema(L_5, L_7));
 		TextMesh_t403 * L_8 = V_1;
-		bool L_9 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_8, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_9 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_8, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_003e;
@@ -1961,7 +1961,7 @@ IL_0027:
 		TextMesh_t403 * L_10 = V_1;
 		String_t* L_11 = ___value;
 		NullCheck(L_10);
-		TextMesh_set_text_m4006(L_10, L_11, /*hidden argument*/NULL);
+		TextMesh_set_text_m4003(L_10, L_11, /*hidden argument*/NULL);
 	}
 
 IL_003e:
@@ -1998,11 +1998,11 @@ struct Object_t703;
 struct Object_t;
 // Declaration !!0 UnityEngine.Object::FindObjectOfType<System.Object>()
 // !!0 UnityEngine.Object::FindObjectOfType<System.Object>()
-extern "C" Object_t * Object_FindObjectOfType_TisObject_t_m4025_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define Object_FindObjectOfType_TisObject_t_m4025(__this /* static, unused */, method) (( Object_t * (*) (Object_t * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisObject_t_m4025_gshared)(__this /* static, unused */, method)
+extern "C" Object_t * Object_FindObjectOfType_TisObject_t_m4022_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define Object_FindObjectOfType_TisObject_t_m4022(__this /* static, unused */, method) (( Object_t * (*) (Object_t * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisObject_t_m4022_gshared)(__this /* static, unused */, method)
 // Declaration !!0 UnityEngine.Object::FindObjectOfType<SA_StatusBar>()
 // !!0 UnityEngine.Object::FindObjectOfType<SA_StatusBar>()
-#define Object_FindObjectOfType_TisSA_StatusBar_t404_m4024(__this /* static, unused */, method) (( SA_StatusBar_t404 * (*) (Object_t * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisObject_t_m4025_gshared)(__this /* static, unused */, method)
+#define Object_FindObjectOfType_TisSA_StatusBar_t404_m4021(__this /* static, unused */, method) (( SA_StatusBar_t404 * (*) (Object_t * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisObject_t_m4022_gshared)(__this /* static, unused */, method)
 
 
 // System.Void SA_StatusBar::.ctor()
@@ -2020,32 +2020,32 @@ extern "C" void SA_StatusBar_SetText_m2183 (SA_StatusBar_t404 * __this, String_t
 		TextMesh_t403 * L_0 = (__this->___title_2);
 		String_t* L_1 = ___text;
 		NullCheck(L_0);
-		TextMesh_set_text_m4006(L_0, L_1, /*hidden argument*/NULL);
+		TextMesh_set_text_m4003(L_0, L_1, /*hidden argument*/NULL);
 		TextMesh_t403 * L_2 = (__this->___shadow_3);
 		String_t* L_3 = ___text;
 		NullCheck(L_2);
-		TextMesh_set_text_m4006(L_2, L_3, /*hidden argument*/NULL);
+		TextMesh_set_text_m4003(L_2, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String SA_StatusBar::get_text()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* Object_FindObjectOfType_TisSA_StatusBar_t404_m4024_MethodInfo_var;
+extern const MethodInfo* Object_FindObjectOfType_TisSA_StatusBar_t404_m4021_MethodInfo_var;
 extern "C" String_t* SA_StatusBar_get_text_m2184 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		Object_FindObjectOfType_TisSA_StatusBar_t404_m4024_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484070);
+		Object_FindObjectOfType_TisSA_StatusBar_t404_m4021_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484070);
 		s_Il2CppMethodIntialized = true;
 	}
 	SA_StatusBar_t404 * V_0 = {0};
 	{
-		SA_StatusBar_t404 * L_0 = Object_FindObjectOfType_TisSA_StatusBar_t404_m4024(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisSA_StatusBar_t404_m4024_MethodInfo_var);
+		SA_StatusBar_t404 * L_0 = Object_FindObjectOfType_TisSA_StatusBar_t404_m4021(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisSA_StatusBar_t404_m4021_MethodInfo_var);
 		V_0 = L_0;
 		SA_StatusBar_t404 * L_1 = V_0;
-		bool L_2 = Object_op_Equality_m3781(NULL /*static, unused*/, L_1, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3778(NULL /*static, unused*/, L_1, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0018;
@@ -2063,26 +2063,26 @@ IL_0018:
 		NullCheck(L_4);
 		TextMesh_t403 * L_5 = (L_4->___title_2);
 		NullCheck(L_5);
-		String_t* L_6 = TextMesh_get_text_m4005(L_5, /*hidden argument*/NULL);
+		String_t* L_6 = TextMesh_get_text_m4002(L_5, /*hidden argument*/NULL);
 		return L_6;
 	}
 }
 // System.Void SA_StatusBar::set_text(System.String)
-extern const MethodInfo* Object_FindObjectOfType_TisSA_StatusBar_t404_m4024_MethodInfo_var;
+extern const MethodInfo* Object_FindObjectOfType_TisSA_StatusBar_t404_m4021_MethodInfo_var;
 extern "C" void SA_StatusBar_set_text_m2185 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Object_FindObjectOfType_TisSA_StatusBar_t404_m4024_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484070);
+		Object_FindObjectOfType_TisSA_StatusBar_t404_m4021_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484070);
 		s_Il2CppMethodIntialized = true;
 	}
 	SA_StatusBar_t404 * V_0 = {0};
 	{
-		SA_StatusBar_t404 * L_0 = Object_FindObjectOfType_TisSA_StatusBar_t404_m4024(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisSA_StatusBar_t404_m4024_MethodInfo_var);
+		SA_StatusBar_t404 * L_0 = Object_FindObjectOfType_TisSA_StatusBar_t404_m4021(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisSA_StatusBar_t404_m4021_MethodInfo_var);
 		V_0 = L_0;
 		SA_StatusBar_t404 * L_1 = V_0;
-		bool L_2 = Object_op_Equality_m3781(NULL /*static, unused*/, L_1, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3778(NULL /*static, unused*/, L_1, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0013;
@@ -2121,64 +2121,64 @@ extern "C" void SA_Texture__ctor_m2186 (SA_Texture_t350 * __this, const MethodIn
 }
 // System.Void SA_Texture::Awake()
 extern TypeInfo* Material_t523_il2cpp_TypeInfo_var;
-extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var;
 extern "C" void SA_Texture_Awake_m2187 (SA_Texture_t350 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Material_t523_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(392);
-		Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
+		Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Renderer_t604 * L_0 = Component_GetComponent_TisRenderer_t604_m3998(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
-		Renderer_t604 * L_1 = Component_GetComponent_TisRenderer_t604_m3998(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		Renderer_t604 * L_0 = Component_GetComponent_TisRenderer_t604_m3995(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
+		Renderer_t604 * L_1 = Component_GetComponent_TisRenderer_t604_m3995(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_1);
-		Material_t523 * L_2 = Renderer_get_material_m4001(L_1, /*hidden argument*/NULL);
+		Material_t523 * L_2 = Renderer_get_material_m3998(L_1, /*hidden argument*/NULL);
 		Material_t523 * L_3 = (Material_t523 *)il2cpp_codegen_object_new (Material_t523_il2cpp_TypeInfo_var);
-		Material__ctor_m4002(L_3, L_2, /*hidden argument*/NULL);
+		Material__ctor_m3999(L_3, L_2, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Renderer_set_material_m4003(L_0, L_3, /*hidden argument*/NULL);
+		Renderer_set_material_m4000(L_0, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
 // UnityEngine.Texture SA_Texture::get_texture()
-extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var;
 extern "C" Texture_t394 * SA_Texture_get_texture_m2188 (SA_Texture_t350 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
+		Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Renderer_t604 * L_0 = Component_GetComponent_TisRenderer_t604_m3998(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		Renderer_t604 * L_0 = Component_GetComponent_TisRenderer_t604_m3995(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_0);
-		Material_t523 * L_1 = Renderer_get_material_m4001(L_0, /*hidden argument*/NULL);
+		Material_t523 * L_1 = Renderer_get_material_m3998(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		Texture_t394 * L_2 = Material_get_mainTexture_m4026(L_1, /*hidden argument*/NULL);
+		Texture_t394 * L_2 = Material_get_mainTexture_m4023(L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Void SA_Texture::set_texture(UnityEngine.Texture)
-extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var;
 extern "C" void SA_Texture_set_texture_m2189 (SA_Texture_t350 * __this, Texture_t394 * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
+		Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Renderer_t604 * L_0 = Component_GetComponent_TisRenderer_t604_m3998(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		Renderer_t604 * L_0 = Component_GetComponent_TisRenderer_t604_m3995(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_0);
-		Material_t523 * L_1 = Renderer_get_material_m4001(L_0, /*hidden argument*/NULL);
+		Material_t523 * L_1 = Renderer_get_material_m3998(L_0, /*hidden argument*/NULL);
 		Texture_t394 * L_2 = ___value;
 		NullCheck(L_1);
-		Material_set_mainTexture_m4004(L_1, L_2, /*hidden argument*/NULL);
+		Material_set_mainTexture_m4001(L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -2202,18 +2202,18 @@ struct GameObject_t352;
 struct PreviewScreenUtil_t405;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<PreviewScreenUtil>()
 // !!0 UnityEngine.GameObject::AddComponent<PreviewScreenUtil>()
-#define GameObject_AddComponent_TisPreviewScreenUtil_t405_m4027(__this, method) (( PreviewScreenUtil_t405 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m3857_gshared)(__this, method)
+#define GameObject_AddComponent_TisPreviewScreenUtil_t405_m4024(__this, method) (( PreviewScreenUtil_t405 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m3854_gshared)(__this, method)
 struct GameObject_t352;
 struct Renderer_t604;
 struct GameObject_t352;
 struct Object_t;
 // Declaration !!0 UnityEngine.GameObject::GetComponent<System.Object>()
 // !!0 UnityEngine.GameObject::GetComponent<System.Object>()
-extern "C" Object_t * GameObject_GetComponent_TisObject_t_m4029_gshared (GameObject_t352 * __this, const MethodInfo* method);
-#define GameObject_GetComponent_TisObject_t_m4029(__this, method) (( Object_t * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4029_gshared)(__this, method)
+extern "C" Object_t * GameObject_GetComponent_TisObject_t_m4026_gshared (GameObject_t352 * __this, const MethodInfo* method);
+#define GameObject_GetComponent_TisObject_t_m4026(__this, method) (( Object_t * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4026_gshared)(__this, method)
 // Declaration !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Renderer>()
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Renderer>()
-#define GameObject_GetComponent_TisRenderer_t604_m4028(__this, method) (( Renderer_t604 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4029_gshared)(__this, method)
+#define GameObject_GetComponent_TisRenderer_t604_m4025(__this, method) (( Renderer_t604 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4026_gshared)(__this, method)
 
 
 // System.Void PreviewScreenUtil::.ctor()
@@ -2235,11 +2235,11 @@ extern "C" void PreviewScreenUtil__cctor_m2191 (Object_t * __this /* static, unu
 extern "C" bool PreviewScreenUtil_isInScreenRect_m2192 (Object_t * __this /* static, unused */, Rect_t694  ___rect, Vector2_t110  ___point, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_1 = ((&___point)->___y_2);
 		(&___point)->___y_2 = ((float)((float)(((float)L_0))-(float)L_1));
 		Vector2_t110  L_2 = ___point;
-		bool L_3 = Rect_Contains_m4030((&___rect), L_2, /*hidden argument*/NULL);
+		bool L_3 = Rect_Contains_m4027((&___rect), L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0024;
@@ -2257,7 +2257,7 @@ IL_0024:
 // UnityEngine.Rect PreviewScreenUtil::getObjectBounds(UnityEngine.GameObject)
 extern TypeInfo* PreviewScreenUtil_t405_il2cpp_TypeInfo_var;
 extern TypeInfo* Rect_t694_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_GetComponent_TisRenderer_t604_m4028_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisRenderer_t604_m4025_MethodInfo_var;
 extern "C" Rect_t694  PreviewScreenUtil_getObjectBounds_m2193 (Object_t * __this /* static, unused */, GameObject_t352 * ___obj, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -2265,15 +2265,15 @@ extern "C" Rect_t694  PreviewScreenUtil_getObjectBounds_m2193 (Object_t * __this
 	{
 		PreviewScreenUtil_t405_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(400);
 		Rect_t694_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(401);
-		GameObject_GetComponent_TisRenderer_t604_m4028_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484071);
+		GameObject_GetComponent_TisRenderer_t604_m4025_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484071);
 		s_Il2CppMethodIntialized = true;
 	}
 	Rect_t694  V_0 = {0};
 	{
 		GameObject_t352 * L_0 = ___obj;
 		NullCheck(L_0);
-		Renderer_t604 * L_1 = GameObject_GetComponent_TisRenderer_t604_m4028(L_0, /*hidden argument*/GameObject_GetComponent_TisRenderer_t604_m4028_MethodInfo_var);
-		bool L_2 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_1, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		Renderer_t604 * L_1 = GameObject_GetComponent_TisRenderer_t604_m4025(L_0, /*hidden argument*/GameObject_GetComponent_TisRenderer_t604_m4025_MethodInfo_var);
+		bool L_2 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_1, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_001d;
@@ -2282,7 +2282,7 @@ extern "C" Rect_t694  PreviewScreenUtil_getObjectBounds_m2193 (Object_t * __this
 	{
 		GameObject_t352 * L_3 = ___obj;
 		NullCheck(L_3);
-		Renderer_t604 * L_4 = GameObject_GetComponent_TisRenderer_t604_m4028(L_3, /*hidden argument*/GameObject_GetComponent_TisRenderer_t604_m4028_MethodInfo_var);
+		Renderer_t604 * L_4 = GameObject_GetComponent_TisRenderer_t604_m4025(L_3, /*hidden argument*/GameObject_GetComponent_TisRenderer_t604_m4025_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t405_il2cpp_TypeInfo_var);
 		Rect_t694  L_5 = PreviewScreenUtil_getRendererBounds_m2194(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		return L_5;
@@ -2310,54 +2310,54 @@ extern "C" Rect_t694  PreviewScreenUtil_getRendererBounds_m2194 (Object_t * __th
 	Bounds_t765  V_9 = {0};
 	Vector3_t536  V_10 = {0};
 	{
-		Camera_t574 * L_0 = Camera_get_main_m4007(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t574 * L_0 = Camera_get_main_m4004(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Renderer_t604 * L_1 = ___renderer;
 		NullCheck(L_1);
-		Bounds_t765  L_2 = Renderer_get_bounds_m4031(L_1, /*hidden argument*/NULL);
+		Bounds_t765  L_2 = Renderer_get_bounds_m4028(L_1, /*hidden argument*/NULL);
 		V_3 = L_2;
-		Vector3_t536  L_3 = Bounds_get_min_m4032((&V_3), /*hidden argument*/NULL);
+		Vector3_t536  L_3 = Bounds_get_min_m4029((&V_3), /*hidden argument*/NULL);
 		V_4 = L_3;
 		float L_4 = ((&V_4)->___x_1);
 		Renderer_t604 * L_5 = ___renderer;
 		NullCheck(L_5);
-		Bounds_t765  L_6 = Renderer_get_bounds_m4031(L_5, /*hidden argument*/NULL);
+		Bounds_t765  L_6 = Renderer_get_bounds_m4028(L_5, /*hidden argument*/NULL);
 		V_5 = L_6;
-		Vector3_t536  L_7 = Bounds_get_max_m4033((&V_5), /*hidden argument*/NULL);
+		Vector3_t536  L_7 = Bounds_get_max_m4030((&V_5), /*hidden argument*/NULL);
 		V_6 = L_7;
 		float L_8 = ((&V_6)->___y_2);
 		Vector3_t536  L_9 = {0};
-		Vector3__ctor_m4034(&L_9, L_4, L_8, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_9, L_4, L_8, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Vector3_t536  L_10 = Camera_WorldToScreenPoint_m4035(L_0, L_9, /*hidden argument*/NULL);
+		Vector3_t536  L_10 = Camera_WorldToScreenPoint_m4032(L_0, L_9, /*hidden argument*/NULL);
 		V_0 = L_10;
-		Camera_t574 * L_11 = Camera_get_main_m4007(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t574 * L_11 = Camera_get_main_m4004(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Renderer_t604 * L_12 = ___renderer;
 		NullCheck(L_12);
-		Bounds_t765  L_13 = Renderer_get_bounds_m4031(L_12, /*hidden argument*/NULL);
+		Bounds_t765  L_13 = Renderer_get_bounds_m4028(L_12, /*hidden argument*/NULL);
 		V_7 = L_13;
-		Vector3_t536  L_14 = Bounds_get_max_m4033((&V_7), /*hidden argument*/NULL);
+		Vector3_t536  L_14 = Bounds_get_max_m4030((&V_7), /*hidden argument*/NULL);
 		V_8 = L_14;
 		float L_15 = ((&V_8)->___x_1);
 		Renderer_t604 * L_16 = ___renderer;
 		NullCheck(L_16);
-		Bounds_t765  L_17 = Renderer_get_bounds_m4031(L_16, /*hidden argument*/NULL);
+		Bounds_t765  L_17 = Renderer_get_bounds_m4028(L_16, /*hidden argument*/NULL);
 		V_9 = L_17;
-		Vector3_t536  L_18 = Bounds_get_min_m4032((&V_9), /*hidden argument*/NULL);
+		Vector3_t536  L_18 = Bounds_get_min_m4029((&V_9), /*hidden argument*/NULL);
 		V_10 = L_18;
 		float L_19 = ((&V_10)->___y_2);
 		Vector3_t536  L_20 = {0};
-		Vector3__ctor_m4034(&L_20, L_15, L_19, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_20, L_15, L_19, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_11);
-		Vector3_t536  L_21 = Camera_WorldToScreenPoint_m4035(L_11, L_20, /*hidden argument*/NULL);
+		Vector3_t536  L_21 = Camera_WorldToScreenPoint_m4032(L_11, L_20, /*hidden argument*/NULL);
 		V_1 = L_21;
 		float L_22 = ((&V_0)->___x_1);
-		int32_t L_23 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_23 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_24 = ((&V_0)->___y_2);
 		float L_25 = ((&V_1)->___x_1);
 		float L_26 = ((&V_0)->___x_1);
 		float L_27 = ((&V_0)->___y_2);
 		float L_28 = ((&V_1)->___y_2);
-		Rect__ctor_m3683((&V_2), L_22, ((float)((float)(((float)L_23))-(float)L_24)), ((float)((float)L_25-(float)L_26)), ((float)((float)L_27-(float)L_28)), /*hidden argument*/NULL);
+		Rect__ctor_m3680((&V_2), L_22, ((float)((float)(((float)L_23))-(float)L_24)), ((float)((float)L_25-(float)L_26)), ((float)((float)L_27-(float)L_28)), /*hidden argument*/NULL);
 		Rect_t694  L_29 = V_2;
 		return L_29;
 	}
@@ -2366,9 +2366,9 @@ extern "C" Rect_t694  PreviewScreenUtil_getRendererBounds_m2194 (Object_t * __th
 extern "C" void PreviewScreenUtil_Awake_m2195 (PreviewScreenUtil_t405 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___W_6 = L_0;
-		int32_t L_1 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___H_7 = L_1;
 		return;
 	}
@@ -2378,7 +2378,7 @@ extern "C" void PreviewScreenUtil_FixedUpdate_m2196 (PreviewScreenUtil_t405 * __
 {
 	{
 		int32_t L_0 = (__this->___W_6);
-		int32_t L_1 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
 		{
 			goto IL_0020;
@@ -2386,7 +2386,7 @@ extern "C" void PreviewScreenUtil_FixedUpdate_m2196 (PreviewScreenUtil_t405 * __
 	}
 	{
 		int32_t L_2 = (__this->___H_7);
-		int32_t L_3 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_2) == ((int32_t)L_3)))
 		{
 			goto IL_0041;
@@ -2395,9 +2395,9 @@ extern "C" void PreviewScreenUtil_FixedUpdate_m2196 (PreviewScreenUtil_t405 * __
 
 IL_0020:
 	{
-		int32_t L_4 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___W_6 = L_4;
-		int32_t L_5 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_5 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___H_7 = L_5;
 		VirtActionInvoker1< String_t* >::Invoke(18 /* System.Void UnionAssets.FLE.EventDispatcher::dispatch(System.String) */, __this, (String_t*) &_stringLiteral807);
 	}
@@ -2410,7 +2410,7 @@ IL_0041:
 // PreviewScreenUtil PreviewScreenUtil::get_instance()
 extern TypeInfo* PreviewScreenUtil_t405_il2cpp_TypeInfo_var;
 extern TypeInfo* GameObject_t352_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisPreviewScreenUtil_t405_m4027_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisPreviewScreenUtil_t405_m4024_MethodInfo_var;
 extern "C" PreviewScreenUtil_t405 * PreviewScreenUtil_get_instance_m2197 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -2418,13 +2418,13 @@ extern "C" PreviewScreenUtil_t405 * PreviewScreenUtil_get_instance_m2197 (Object
 	{
 		PreviewScreenUtil_t405_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(400);
 		GameObject_t352_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(278);
-		GameObject_AddComponent_TisPreviewScreenUtil_t405_m4027_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484072);
+		GameObject_AddComponent_TisPreviewScreenUtil_t405_m4024_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484072);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t405_il2cpp_TypeInfo_var);
 		PreviewScreenUtil_t405 * L_0 = ((PreviewScreenUtil_t405_StaticFields*)PreviewScreenUtil_t405_il2cpp_TypeInfo_var->static_fields)->____instance_5;
-		bool L_1 = Object_op_Equality_m3781(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3778(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0033;
@@ -2432,14 +2432,14 @@ extern "C" PreviewScreenUtil_t405 * PreviewScreenUtil_get_instance_m2197 (Object
 	}
 	{
 		GameObject_t352 * L_2 = (GameObject_t352 *)il2cpp_codegen_object_new (GameObject_t352_il2cpp_TypeInfo_var);
-		GameObject__ctor_m3858(L_2, (String_t*) &_stringLiteral806, /*hidden argument*/NULL);
+		GameObject__ctor_m3855(L_2, (String_t*) &_stringLiteral806, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		PreviewScreenUtil_t405 * L_3 = GameObject_AddComponent_TisPreviewScreenUtil_t405_m4027(L_2, /*hidden argument*/GameObject_AddComponent_TisPreviewScreenUtil_t405_m4027_MethodInfo_var);
+		PreviewScreenUtil_t405 * L_3 = GameObject_AddComponent_TisPreviewScreenUtil_t405_m4024(L_2, /*hidden argument*/GameObject_AddComponent_TisPreviewScreenUtil_t405_m4024_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t405_il2cpp_TypeInfo_var);
 		((PreviewScreenUtil_t405_StaticFields*)PreviewScreenUtil_t405_il2cpp_TypeInfo_var->static_fields)->____instance_5 = L_3;
 		PreviewScreenUtil_t405 * L_4 = ((PreviewScreenUtil_t405_StaticFields*)PreviewScreenUtil_t405_il2cpp_TypeInfo_var->static_fields)->____instance_5;
 		NullCheck(L_4);
-		GameObject_t352 * L_5 = Component_get_gameObject_m3756(L_4, /*hidden argument*/NULL);
+		GameObject_t352 * L_5 = Component_get_gameObject_m3753(L_4, /*hidden argument*/NULL);
 		Object_DontDestroyOnLoad_m385(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 	}
 
@@ -2523,13 +2523,13 @@ IL_0011:
 	}
 }
 // System.Void ScreenPlacement::placementCalculation()
-extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var;
 extern "C" void ScreenPlacement_placementCalculation_m2201 (ScreenPlacement_t407 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
+		Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484063);
 		s_Il2CppMethodIntialized = true;
 	}
 	Transform_t406 * V_0 = {0};
@@ -2548,19 +2548,19 @@ extern "C" void ScreenPlacement_placementCalculation_m2201 (ScreenPlacement_t407
 	Vector3_t536  V_13 = {0};
 	int32_t V_14 = {0};
 	{
-		Transform_t406 * L_0 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_0 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		int32_t L_1 = (__this->___position_2);
 		Vector2_t110  L_2 = (__this->___pixelOffset_3);
 		ScreenPlacementExtension_ScreenPlacement_m2208(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
 		Transform_t406 * L_3 = (__this->___boundsTransform_6);
-		bool L_4 = Object_op_Equality_m3781(NULL /*static, unused*/, L_3, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Equality_m3778(NULL /*static, unused*/, L_3, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0034;
 		}
 	}
 	{
-		Transform_t406 * L_5 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_5 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		V_0 = L_5;
 		goto IL_003b;
 	}
@@ -2573,62 +2573,62 @@ IL_0034:
 
 IL_003b:
 	{
-		Camera_t574 * L_7 = Camera_get_main_m4007(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t574 * L_7 = Camera_get_main_m4004(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Transform_t406 * L_8 = V_0;
 		NullCheck(L_8);
-		Renderer_t604 * L_9 = Component_GetComponent_TisRenderer_t604_m3998(L_8, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		Renderer_t604 * L_9 = Component_GetComponent_TisRenderer_t604_m3995(L_8, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_9);
-		Bounds_t765  L_10 = Renderer_get_bounds_m4031(L_9, /*hidden argument*/NULL);
+		Bounds_t765  L_10 = Renderer_get_bounds_m4028(L_9, /*hidden argument*/NULL);
 		V_6 = L_10;
-		Vector3_t536  L_11 = Bounds_get_min_m4032((&V_6), /*hidden argument*/NULL);
+		Vector3_t536  L_11 = Bounds_get_min_m4029((&V_6), /*hidden argument*/NULL);
 		V_7 = L_11;
 		float L_12 = ((&V_7)->___x_1);
 		Transform_t406 * L_13 = V_0;
 		NullCheck(L_13);
-		Renderer_t604 * L_14 = Component_GetComponent_TisRenderer_t604_m3998(L_13, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		Renderer_t604 * L_14 = Component_GetComponent_TisRenderer_t604_m3995(L_13, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_14);
-		Bounds_t765  L_15 = Renderer_get_bounds_m4031(L_14, /*hidden argument*/NULL);
+		Bounds_t765  L_15 = Renderer_get_bounds_m4028(L_14, /*hidden argument*/NULL);
 		V_8 = L_15;
-		Vector3_t536  L_16 = Bounds_get_max_m4033((&V_8), /*hidden argument*/NULL);
+		Vector3_t536  L_16 = Bounds_get_max_m4030((&V_8), /*hidden argument*/NULL);
 		V_9 = L_16;
 		float L_17 = ((&V_9)->___y_2);
 		Vector3_t536  L_18 = {0};
-		Vector3__ctor_m4034(&L_18, L_12, L_17, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_18, L_12, L_17, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_7);
-		Vector3_t536  L_19 = Camera_WorldToScreenPoint_m4035(L_7, L_18, /*hidden argument*/NULL);
+		Vector3_t536  L_19 = Camera_WorldToScreenPoint_m4032(L_7, L_18, /*hidden argument*/NULL);
 		V_1 = L_19;
-		Camera_t574 * L_20 = Camera_get_main_m4007(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t574 * L_20 = Camera_get_main_m4004(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Transform_t406 * L_21 = V_0;
 		NullCheck(L_21);
-		Renderer_t604 * L_22 = Component_GetComponent_TisRenderer_t604_m3998(L_21, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		Renderer_t604 * L_22 = Component_GetComponent_TisRenderer_t604_m3995(L_21, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_22);
-		Bounds_t765  L_23 = Renderer_get_bounds_m4031(L_22, /*hidden argument*/NULL);
+		Bounds_t765  L_23 = Renderer_get_bounds_m4028(L_22, /*hidden argument*/NULL);
 		V_10 = L_23;
-		Vector3_t536  L_24 = Bounds_get_max_m4033((&V_10), /*hidden argument*/NULL);
+		Vector3_t536  L_24 = Bounds_get_max_m4030((&V_10), /*hidden argument*/NULL);
 		V_11 = L_24;
 		float L_25 = ((&V_11)->___x_1);
 		Transform_t406 * L_26 = V_0;
 		NullCheck(L_26);
-		Renderer_t604 * L_27 = Component_GetComponent_TisRenderer_t604_m3998(L_26, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3998_MethodInfo_var);
+		Renderer_t604 * L_27 = Component_GetComponent_TisRenderer_t604_m3995(L_26, /*hidden argument*/Component_GetComponent_TisRenderer_t604_m3995_MethodInfo_var);
 		NullCheck(L_27);
-		Bounds_t765  L_28 = Renderer_get_bounds_m4031(L_27, /*hidden argument*/NULL);
+		Bounds_t765  L_28 = Renderer_get_bounds_m4028(L_27, /*hidden argument*/NULL);
 		V_12 = L_28;
-		Vector3_t536  L_29 = Bounds_get_min_m4032((&V_12), /*hidden argument*/NULL);
+		Vector3_t536  L_29 = Bounds_get_min_m4029((&V_12), /*hidden argument*/NULL);
 		V_13 = L_29;
 		float L_30 = ((&V_13)->___y_2);
 		Vector3_t536  L_31 = {0};
-		Vector3__ctor_m4034(&L_31, L_25, L_30, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_31, L_25, L_30, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_20);
-		Vector3_t536  L_32 = Camera_WorldToScreenPoint_m4035(L_20, L_31, /*hidden argument*/NULL);
+		Vector3_t536  L_32 = Camera_WorldToScreenPoint_m4032(L_20, L_31, /*hidden argument*/NULL);
 		V_2 = L_32;
 		float L_33 = ((&V_1)->___x_1);
-		int32_t L_34 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_34 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_35 = ((&V_1)->___y_2);
 		float L_36 = ((&V_2)->___x_1);
 		float L_37 = ((&V_1)->___x_1);
 		float L_38 = ((&V_1)->___y_2);
 		float L_39 = ((&V_2)->___y_2);
-		Rect__ctor_m3683((&V_3), L_33, ((float)((float)(((float)L_34))-(float)L_35)), ((float)((float)L_36-(float)L_37)), ((float)((float)L_38-(float)L_39)), /*hidden argument*/NULL);
+		Rect__ctor_m3680((&V_3), L_33, ((float)((float)(((float)L_34))-(float)L_35)), ((float)((float)L_36-(float)L_37)), ((float)((float)L_38-(float)L_39)), /*hidden argument*/NULL);
 		V_4 = (0.0f);
 		V_5 = (0.0f);
 		bool L_40 = (__this->___persents_4);
@@ -2638,11 +2638,11 @@ IL_003b:
 		}
 	}
 	{
-		int32_t L_41 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_41 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Vector2_t110 * L_42 = &(__this->___pixelOffset_3);
 		float L_43 = (L_42->___x_1);
 		V_4 = ((float)((float)(((float)((int32_t)((int32_t)L_41/(int32_t)((int32_t)100)))))*(float)L_43));
-		int32_t L_44 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_44 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Vector2_t110 * L_45 = &(__this->___pixelOffset_3);
 		float L_46 = (L_45->___y_2);
 		V_5 = ((float)((float)(((float)((int32_t)((int32_t)L_44/(int32_t)((int32_t)100)))))*(float)L_46));
@@ -2709,7 +2709,7 @@ IL_01b1:
 	{
 		Vector2_t110 * L_53 = &(__this->___actualOffset_7);
 		float L_54 = V_4;
-		float L_55 = Rect_get_width_m4037((&V_3), /*hidden argument*/NULL);
+		float L_55 = Rect_get_width_m4034((&V_3), /*hidden argument*/NULL);
 		L_53->___x_1 = ((float)((float)L_54+(float)((float)((float)L_55/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -2718,11 +2718,11 @@ IL_01d1:
 	{
 		Vector2_t110 * L_56 = &(__this->___actualOffset_7);
 		float L_57 = V_4;
-		float L_58 = Rect_get_width_m4037((&V_3), /*hidden argument*/NULL);
+		float L_58 = Rect_get_width_m4034((&V_3), /*hidden argument*/NULL);
 		L_56->___x_1 = ((float)((float)L_57+(float)((float)((float)L_58/(float)(2.0f)))));
 		Vector2_t110 * L_59 = &(__this->___actualOffset_7);
 		float L_60 = V_5;
-		float L_61 = Rect_get_height_m4038((&V_3), /*hidden argument*/NULL);
+		float L_61 = Rect_get_height_m4035((&V_3), /*hidden argument*/NULL);
 		L_59->___y_2 = ((float)((float)L_60+(float)((float)((float)L_61/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -2731,11 +2731,11 @@ IL_020c:
 	{
 		Vector2_t110 * L_62 = &(__this->___actualOffset_7);
 		float L_63 = V_4;
-		float L_64 = Rect_get_width_m4037((&V_3), /*hidden argument*/NULL);
+		float L_64 = Rect_get_width_m4034((&V_3), /*hidden argument*/NULL);
 		L_62->___x_1 = ((float)((float)L_63+(float)((float)((float)L_64/(float)(2.0f)))));
 		Vector2_t110 * L_65 = &(__this->___actualOffset_7);
 		float L_66 = V_5;
-		float L_67 = Rect_get_height_m4038((&V_3), /*hidden argument*/NULL);
+		float L_67 = Rect_get_height_m4035((&V_3), /*hidden argument*/NULL);
 		L_65->___y_2 = ((float)((float)L_66+(float)((float)((float)L_67/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -2744,7 +2744,7 @@ IL_0247:
 	{
 		Vector2_t110 * L_68 = &(__this->___actualOffset_7);
 		float L_69 = V_4;
-		float L_70 = Rect_get_width_m4037((&V_3), /*hidden argument*/NULL);
+		float L_70 = Rect_get_width_m4034((&V_3), /*hidden argument*/NULL);
 		L_68->___x_1 = ((float)((float)L_69+(float)((float)((float)L_70/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -2753,11 +2753,11 @@ IL_0267:
 	{
 		Vector2_t110 * L_71 = &(__this->___actualOffset_7);
 		float L_72 = V_4;
-		float L_73 = Rect_get_width_m4037((&V_3), /*hidden argument*/NULL);
+		float L_73 = Rect_get_width_m4034((&V_3), /*hidden argument*/NULL);
 		L_71->___x_1 = ((float)((float)L_72+(float)((float)((float)L_73/(float)(2.0f)))));
 		Vector2_t110 * L_74 = &(__this->___actualOffset_7);
 		float L_75 = V_5;
-		float L_76 = Rect_get_height_m4038((&V_3), /*hidden argument*/NULL);
+		float L_76 = Rect_get_height_m4035((&V_3), /*hidden argument*/NULL);
 		L_74->___y_2 = ((float)((float)L_75+(float)((float)((float)L_76/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -2766,11 +2766,11 @@ IL_02a2:
 	{
 		Vector2_t110 * L_77 = &(__this->___actualOffset_7);
 		float L_78 = V_4;
-		float L_79 = Rect_get_width_m4037((&V_3), /*hidden argument*/NULL);
+		float L_79 = Rect_get_width_m4034((&V_3), /*hidden argument*/NULL);
 		L_77->___x_1 = ((float)((float)L_78+(float)((float)((float)L_79/(float)(2.0f)))));
 		Vector2_t110 * L_80 = &(__this->___actualOffset_7);
 		float L_81 = V_5;
-		float L_82 = Rect_get_height_m4038((&V_3), /*hidden argument*/NULL);
+		float L_82 = Rect_get_height_m4035((&V_3), /*hidden argument*/NULL);
 		L_80->___y_2 = ((float)((float)L_81+(float)((float)((float)L_82/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -2779,7 +2779,7 @@ IL_02dd:
 	{
 		Vector2_t110 * L_83 = &(__this->___actualOffset_7);
 		float L_84 = V_5;
-		float L_85 = Rect_get_height_m4038((&V_3), /*hidden argument*/NULL);
+		float L_85 = Rect_get_height_m4035((&V_3), /*hidden argument*/NULL);
 		L_83->___y_2 = ((float)((float)L_84+(float)((float)((float)L_85/(float)(2.0f)))));
 		goto IL_031d;
 	}
@@ -2788,14 +2788,14 @@ IL_02fd:
 	{
 		Vector2_t110 * L_86 = &(__this->___actualOffset_7);
 		float L_87 = V_5;
-		float L_88 = Rect_get_height_m4038((&V_3), /*hidden argument*/NULL);
+		float L_88 = Rect_get_height_m4035((&V_3), /*hidden argument*/NULL);
 		L_86->___y_2 = ((float)((float)L_87+(float)((float)((float)L_88/(float)(2.0f)))));
 		goto IL_031d;
 	}
 
 IL_031d:
 	{
-		Transform_t406 * L_89 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_89 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		int32_t L_90 = (__this->___position_2);
 		Vector2_t110  L_91 = (__this->___actualOffset_7);
 		ScreenPlacementExtension_ScreenPlacement_m2208(NULL /*static, unused*/, L_89, L_90, L_91, /*hidden argument*/NULL);
@@ -2828,10 +2828,10 @@ extern "C" void ScreenPlacementExtension_ScreenPlacement_m2202 (Object_t * __thi
 	{
 		GameObject_t352 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t406 * L_1 = GameObject_get_transform_m4039(L_0, /*hidden argument*/NULL);
+		Transform_t406 * L_1 = GameObject_get_transform_m4036(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
-		Vector2_t110  L_3 = Vector2_get_zero_m3660(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Camera_t574 * L_4 = Camera_get_main_m4007(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t110  L_3 = Vector2_get_zero_m3657(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t574 * L_4 = Camera_get_main_m4004(NULL /*static, unused*/, /*hidden argument*/NULL);
 		ScreenPlacementExtension_DoScreenPlacement_m2210(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
@@ -2842,9 +2842,9 @@ extern "C" void ScreenPlacementExtension_ScreenPlacement_m2203 (Object_t * __thi
 	{
 		GameObject_t352 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t406 * L_1 = GameObject_get_transform_m4039(L_0, /*hidden argument*/NULL);
+		Transform_t406 * L_1 = GameObject_get_transform_m4036(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
-		Vector2_t110  L_3 = Vector2_get_zero_m3660(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t110  L_3 = Vector2_get_zero_m3657(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Camera_t574 * L_4 = ___renderingCamera;
 		ScreenPlacementExtension_DoScreenPlacement_m2210(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
@@ -2856,10 +2856,10 @@ extern "C" void ScreenPlacementExtension_ScreenPlacement_m2204 (Object_t * __thi
 	{
 		GameObject_t352 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t406 * L_1 = GameObject_get_transform_m4039(L_0, /*hidden argument*/NULL);
+		Transform_t406 * L_1 = GameObject_get_transform_m4036(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
 		Vector2_t110  L_3 = ___pixelsFromEdge;
-		Camera_t574 * L_4 = Camera_get_main_m4007(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t574 * L_4 = Camera_get_main_m4004(NULL /*static, unused*/, /*hidden argument*/NULL);
 		ScreenPlacementExtension_DoScreenPlacement_m2210(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
@@ -2870,7 +2870,7 @@ extern "C" void ScreenPlacementExtension_ScreenPlacement_m2205 (Object_t * __thi
 	{
 		GameObject_t352 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t406 * L_1 = GameObject_get_transform_m4039(L_0, /*hidden argument*/NULL);
+		Transform_t406 * L_1 = GameObject_get_transform_m4036(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
 		Vector2_t110  L_3 = ___pixelsFromEdge;
 		Camera_t574 * L_4 = ___renderingCamera;
@@ -2884,10 +2884,10 @@ extern "C" void ScreenPlacementExtension_ScreenPlacement_m2206 (Object_t * __thi
 	{
 		Transform_t406 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t406 * L_1 = Component_get_transform_m4036(L_0, /*hidden argument*/NULL);
+		Transform_t406 * L_1 = Component_get_transform_m4033(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
-		Vector2_t110  L_3 = Vector2_get_zero_m3660(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Camera_t574 * L_4 = Camera_get_main_m4007(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t110  L_3 = Vector2_get_zero_m3657(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t574 * L_4 = Camera_get_main_m4004(NULL /*static, unused*/, /*hidden argument*/NULL);
 		ScreenPlacementExtension_DoScreenPlacement_m2210(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
@@ -2898,9 +2898,9 @@ extern "C" void ScreenPlacementExtension_ScreenPlacement_m2207 (Object_t * __thi
 	{
 		Transform_t406 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t406 * L_1 = Component_get_transform_m4036(L_0, /*hidden argument*/NULL);
+		Transform_t406 * L_1 = Component_get_transform_m4033(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
-		Vector2_t110  L_3 = Vector2_get_zero_m3660(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t110  L_3 = Vector2_get_zero_m3657(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Camera_t574 * L_4 = ___renderingCamera;
 		ScreenPlacementExtension_DoScreenPlacement_m2210(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
@@ -2912,10 +2912,10 @@ extern "C" void ScreenPlacementExtension_ScreenPlacement_m2208 (Object_t * __thi
 	{
 		Transform_t406 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t406 * L_1 = Component_get_transform_m4036(L_0, /*hidden argument*/NULL);
+		Transform_t406 * L_1 = Component_get_transform_m4033(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
 		Vector2_t110  L_3 = ___pixelsFromEdge;
-		Camera_t574 * L_4 = Camera_get_main_m4007(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t574 * L_4 = Camera_get_main_m4004(NULL /*static, unused*/, /*hidden argument*/NULL);
 		ScreenPlacementExtension_DoScreenPlacement_m2210(NULL /*static, unused*/, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
@@ -2926,7 +2926,7 @@ extern "C" void ScreenPlacementExtension_ScreenPlacement_m2209 (Object_t * __thi
 	{
 		Transform_t406 * L_0 = ___target;
 		NullCheck(L_0);
-		Transform_t406 * L_1 = Component_get_transform_m4036(L_0, /*hidden argument*/NULL);
+		Transform_t406 * L_1 = Component_get_transform_m4033(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = ___position;
 		Vector2_t110  L_3 = ___pixelsFromEdge;
 		Camera_t574 * L_4 = ___renderingCamera;
@@ -2943,18 +2943,18 @@ extern "C" void ScreenPlacementExtension_DoScreenPlacement_m2210 (Object_t * __t
 	Vector3_t536  V_3 = {0};
 	int32_t V_4 = {0};
 	{
-		Vector3_t536  L_0 = Vector3_get_zero_m4040(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t536  L_0 = Vector3_get_zero_m4037(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		Camera_t574 * L_1 = ___renderingCamera;
 		NullCheck(L_1);
-		Transform_t406 * L_2 = Component_get_transform_m4036(L_1, /*hidden argument*/NULL);
+		Transform_t406 * L_2 = Component_get_transform_m4033(L_1, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		Vector3_t536  L_3 = Transform_get_position_m4041(L_2, /*hidden argument*/NULL);
+		Vector3_t536  L_3 = Transform_get_position_m4038(L_2, /*hidden argument*/NULL);
 		V_2 = L_3;
 		float L_4 = ((&V_2)->___z_3);
 		Transform_t406 * L_5 = ___target;
 		NullCheck(L_5);
-		Vector3_t536  L_6 = Transform_get_position_m4041(L_5, /*hidden argument*/NULL);
+		Vector3_t536  L_6 = Transform_get_position_m4038(L_5, /*hidden argument*/NULL);
 		V_3 = L_6;
 		float L_7 = ((&V_3)->___z_3);
 		V_1 = ((float)((float)((-L_4))+(float)L_7));
@@ -3006,13 +3006,13 @@ IL_005d:
 	{
 		Camera_t574 * L_10 = ___renderingCamera;
 		float L_11 = ((&___pixelsFromEdge)->___x_1);
-		int32_t L_12 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_12 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_13 = ((&___pixelsFromEdge)->___y_2);
 		float L_14 = V_1;
 		Vector3_t536  L_15 = {0};
-		Vector3__ctor_m4034(&L_15, L_11, ((float)((float)(((float)L_12))-(float)L_13)), L_14, /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_15, L_11, ((float)((float)(((float)L_12))-(float)L_13)), L_14, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		Vector3_t536  L_16 = Camera_ScreenToWorldPoint_m4042(L_10, L_15, /*hidden argument*/NULL);
+		Vector3_t536  L_16 = Camera_ScreenToWorldPoint_m4039(L_10, L_15, /*hidden argument*/NULL);
 		V_0 = L_16;
 		goto IL_01dd;
 	}
@@ -3020,15 +3020,15 @@ IL_005d:
 IL_0084:
 	{
 		Camera_t574 * L_17 = ___renderingCamera;
-		int32_t L_18 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_18 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_19 = ((&___pixelsFromEdge)->___x_1);
-		int32_t L_20 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_20 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_21 = ((&___pixelsFromEdge)->___y_2);
 		float L_22 = V_1;
 		Vector3_t536  L_23 = {0};
-		Vector3__ctor_m4034(&L_23, ((float)((float)(((float)((int32_t)((int32_t)L_18/(int32_t)2))))+(float)L_19)), ((float)((float)(((float)L_20))-(float)L_21)), L_22, /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_23, ((float)((float)(((float)((int32_t)((int32_t)L_18/(int32_t)2))))+(float)L_19)), ((float)((float)(((float)L_20))-(float)L_21)), L_22, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		Vector3_t536  L_24 = Camera_ScreenToWorldPoint_m4042(L_17, L_23, /*hidden argument*/NULL);
+		Vector3_t536  L_24 = Camera_ScreenToWorldPoint_m4039(L_17, L_23, /*hidden argument*/NULL);
 		V_0 = L_24;
 		goto IL_01dd;
 	}
@@ -3036,15 +3036,15 @@ IL_0084:
 IL_00b4:
 	{
 		Camera_t574 * L_25 = ___renderingCamera;
-		int32_t L_26 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_26 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_27 = ((&___pixelsFromEdge)->___x_1);
-		int32_t L_28 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_28 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_29 = ((&___pixelsFromEdge)->___y_2);
 		float L_30 = V_1;
 		Vector3_t536  L_31 = {0};
-		Vector3__ctor_m4034(&L_31, ((float)((float)(((float)L_26))-(float)L_27)), ((float)((float)(((float)L_28))-(float)L_29)), L_30, /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_31, ((float)((float)(((float)L_26))-(float)L_27)), ((float)((float)(((float)L_28))-(float)L_29)), L_30, /*hidden argument*/NULL);
 		NullCheck(L_25);
-		Vector3_t536  L_32 = Camera_ScreenToWorldPoint_m4042(L_25, L_31, /*hidden argument*/NULL);
+		Vector3_t536  L_32 = Camera_ScreenToWorldPoint_m4039(L_25, L_31, /*hidden argument*/NULL);
 		V_0 = L_32;
 		goto IL_01dd;
 	}
@@ -3053,13 +3053,13 @@ IL_00e2:
 	{
 		Camera_t574 * L_33 = ___renderingCamera;
 		float L_34 = ((&___pixelsFromEdge)->___x_1);
-		int32_t L_35 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_35 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_36 = ((&___pixelsFromEdge)->___y_2);
 		float L_37 = V_1;
 		Vector3_t536  L_38 = {0};
-		Vector3__ctor_m4034(&L_38, L_34, ((float)((float)(((float)((int32_t)((int32_t)L_35/(int32_t)2))))-(float)L_36)), L_37, /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_38, L_34, ((float)((float)(((float)((int32_t)((int32_t)L_35/(int32_t)2))))-(float)L_36)), L_37, /*hidden argument*/NULL);
 		NullCheck(L_33);
-		Vector3_t536  L_39 = Camera_ScreenToWorldPoint_m4042(L_33, L_38, /*hidden argument*/NULL);
+		Vector3_t536  L_39 = Camera_ScreenToWorldPoint_m4039(L_33, L_38, /*hidden argument*/NULL);
 		V_0 = L_39;
 		goto IL_01dd;
 	}
@@ -3067,15 +3067,15 @@ IL_00e2:
 IL_010b:
 	{
 		Camera_t574 * L_40 = ___renderingCamera;
-		int32_t L_41 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_41 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_42 = ((&___pixelsFromEdge)->___x_1);
-		int32_t L_43 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_43 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_44 = ((&___pixelsFromEdge)->___y_2);
 		float L_45 = V_1;
 		Vector3_t536  L_46 = {0};
-		Vector3__ctor_m4034(&L_46, ((float)((float)(((float)((int32_t)((int32_t)L_41/(int32_t)2))))+(float)L_42)), ((float)((float)(((float)((int32_t)((int32_t)L_43/(int32_t)2))))-(float)L_44)), L_45, /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_46, ((float)((float)(((float)((int32_t)((int32_t)L_41/(int32_t)2))))+(float)L_42)), ((float)((float)(((float)((int32_t)((int32_t)L_43/(int32_t)2))))-(float)L_44)), L_45, /*hidden argument*/NULL);
 		NullCheck(L_40);
-		Vector3_t536  L_47 = Camera_ScreenToWorldPoint_m4042(L_40, L_46, /*hidden argument*/NULL);
+		Vector3_t536  L_47 = Camera_ScreenToWorldPoint_m4039(L_40, L_46, /*hidden argument*/NULL);
 		V_0 = L_47;
 		goto IL_01dd;
 	}
@@ -3083,15 +3083,15 @@ IL_010b:
 IL_013d:
 	{
 		Camera_t574 * L_48 = ___renderingCamera;
-		int32_t L_49 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_49 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_50 = ((&___pixelsFromEdge)->___x_1);
-		int32_t L_51 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_51 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_52 = ((&___pixelsFromEdge)->___y_2);
 		float L_53 = V_1;
 		Vector3_t536  L_54 = {0};
-		Vector3__ctor_m4034(&L_54, ((float)((float)(((float)L_49))-(float)L_50)), ((float)((float)(((float)((int32_t)((int32_t)L_51/(int32_t)2))))-(float)L_52)), L_53, /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_54, ((float)((float)(((float)L_49))-(float)L_50)), ((float)((float)(((float)((int32_t)((int32_t)L_51/(int32_t)2))))-(float)L_52)), L_53, /*hidden argument*/NULL);
 		NullCheck(L_48);
-		Vector3_t536  L_55 = Camera_ScreenToWorldPoint_m4042(L_48, L_54, /*hidden argument*/NULL);
+		Vector3_t536  L_55 = Camera_ScreenToWorldPoint_m4039(L_48, L_54, /*hidden argument*/NULL);
 		V_0 = L_55;
 		goto IL_01dd;
 	}
@@ -3103,9 +3103,9 @@ IL_016d:
 		float L_58 = ((&___pixelsFromEdge)->___y_2);
 		float L_59 = V_1;
 		Vector3_t536  L_60 = {0};
-		Vector3__ctor_m4034(&L_60, L_57, L_58, L_59, /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_60, L_57, L_58, L_59, /*hidden argument*/NULL);
 		NullCheck(L_56);
-		Vector3_t536  L_61 = Camera_ScreenToWorldPoint_m4042(L_56, L_60, /*hidden argument*/NULL);
+		Vector3_t536  L_61 = Camera_ScreenToWorldPoint_m4039(L_56, L_60, /*hidden argument*/NULL);
 		V_0 = L_61;
 		goto IL_01dd;
 	}
@@ -3113,14 +3113,14 @@ IL_016d:
 IL_018d:
 	{
 		Camera_t574 * L_62 = ___renderingCamera;
-		int32_t L_63 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_63 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_64 = ((&___pixelsFromEdge)->___x_1);
 		float L_65 = ((&___pixelsFromEdge)->___y_2);
 		float L_66 = V_1;
 		Vector3_t536  L_67 = {0};
-		Vector3__ctor_m4034(&L_67, ((float)((float)(((float)((int32_t)((int32_t)L_63/(int32_t)2))))+(float)L_64)), L_65, L_66, /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_67, ((float)((float)(((float)((int32_t)((int32_t)L_63/(int32_t)2))))+(float)L_64)), L_65, L_66, /*hidden argument*/NULL);
 		NullCheck(L_62);
-		Vector3_t536  L_68 = Camera_ScreenToWorldPoint_m4042(L_62, L_67, /*hidden argument*/NULL);
+		Vector3_t536  L_68 = Camera_ScreenToWorldPoint_m4039(L_62, L_67, /*hidden argument*/NULL);
 		V_0 = L_68;
 		goto IL_01dd;
 	}
@@ -3128,14 +3128,14 @@ IL_018d:
 IL_01b6:
 	{
 		Camera_t574 * L_69 = ___renderingCamera;
-		int32_t L_70 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_70 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_71 = ((&___pixelsFromEdge)->___x_1);
 		float L_72 = ((&___pixelsFromEdge)->___y_2);
 		float L_73 = V_1;
 		Vector3_t536  L_74 = {0};
-		Vector3__ctor_m4034(&L_74, ((float)((float)(((float)L_70))-(float)L_71)), L_72, L_73, /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_74, ((float)((float)(((float)L_70))-(float)L_71)), L_72, L_73, /*hidden argument*/NULL);
 		NullCheck(L_69);
-		Vector3_t536  L_75 = Camera_ScreenToWorldPoint_m4042(L_69, L_74, /*hidden argument*/NULL);
+		Vector3_t536  L_75 = Camera_ScreenToWorldPoint_m4039(L_69, L_74, /*hidden argument*/NULL);
 		V_0 = L_75;
 		goto IL_01dd;
 	}
@@ -3144,10 +3144,10 @@ IL_01dd:
 	{
 		Transform_t406 * L_76 = ___target;
 		NullCheck(L_76);
-		Transform_t406 * L_77 = Component_get_transform_m4036(L_76, /*hidden argument*/NULL);
+		Transform_t406 * L_77 = Component_get_transform_m4033(L_76, /*hidden argument*/NULL);
 		Vector3_t536  L_78 = V_0;
 		NullCheck(L_77);
-		Transform_set_position_m4043(L_77, L_78, /*hidden argument*/NULL);
+		Transform_set_position_m4040(L_77, L_78, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -3179,20 +3179,20 @@ extern "C" void ScreenScaler_Awake_m2212 (ScreenScaler_t410 * __this, const Meth
 	Vector3_t536  V_1 = {0};
 	Vector3_t536  V_2 = {0};
 	{
-		Transform_t406 * L_0 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_0 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Vector3_t536  L_1 = Transform_get_localScale_m4044(L_0, /*hidden argument*/NULL);
+		Vector3_t536  L_1 = Transform_get_localScale_m4041(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		float L_2 = ((&V_0)->___y_2);
 		__this->____scaleFactorY_4 = L_2;
-		Transform_t406 * L_3 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_3 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Vector3_t536  L_4 = Transform_get_localScale_m4044(L_3, /*hidden argument*/NULL);
+		Vector3_t536  L_4 = Transform_get_localScale_m4041(L_3, /*hidden argument*/NULL);
 		V_1 = L_4;
 		float L_5 = ((&V_1)->___x_1);
-		Transform_t406 * L_6 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_6 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		Vector3_t536  L_7 = Transform_get_localScale_m4044(L_6, /*hidden argument*/NULL);
+		Vector3_t536  L_7 = Transform_get_localScale_m4041(L_6, /*hidden argument*/NULL);
 		V_2 = L_7;
 		float L_8 = ((&V_2)->___y_2);
 		__this->____xScaleDiff_5 = ((float)((float)L_5/(float)L_8));
@@ -3248,14 +3248,14 @@ extern "C" void ScreenScaler_placementCalculation_m2214 (ScreenScaler_t410 * __t
 	Vector3_t536  V_5 = {0};
 	Vector3_t536  V_6 = {0};
 	{
-		int32_t L_0 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_1 = (__this->___persentsY_3);
 		V_0 = ((float)((float)((float)((float)(((float)L_0))/(float)(100.0f)))*(float)L_1));
-		GameObject_t352 * L_2 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_2 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t405_il2cpp_TypeInfo_var);
 		Rect_t694  L_3 = PreviewScreenUtil_getObjectBounds_m2193(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		V_1 = L_3;
-		float L_4 = Rect_get_height_m4038((&V_1), /*hidden argument*/NULL);
+		float L_4 = Rect_get_height_m4035((&V_1), /*hidden argument*/NULL);
 		float L_5 = V_0;
 		if ((!(((float)L_4) < ((float)L_5))))
 		{
@@ -3268,25 +3268,25 @@ extern "C" void ScreenScaler_placementCalculation_m2214 (ScreenScaler_t410 * __t
 
 IL_0032:
 	{
-		GameObject_t352 * L_6 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_6 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t405_il2cpp_TypeInfo_var);
 		Rect_t694  L_7 = PreviewScreenUtil_getObjectBounds_m2193(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		V_1 = L_7;
-		Transform_t406 * L_8 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_8 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		float L_9 = (__this->____scaleFactorY_4);
 		float L_10 = (__this->____xScaleDiff_5);
 		float L_11 = (__this->____scaleFactorY_4);
 		Vector3_t536  L_12 = {0};
-		Vector3__ctor_m4034(&L_12, ((float)((float)L_9*(float)L_10)), L_11, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_12, ((float)((float)L_9*(float)L_10)), L_11, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Transform_set_localScale_m4045(L_8, L_12, /*hidden argument*/NULL);
+		Transform_set_localScale_m4042(L_8, L_12, /*hidden argument*/NULL);
 		float L_13 = (__this->____scaleFactorY_4);
 		__this->____scaleFactorY_4 = ((float)((float)L_13+(float)(0.1f)));
 	}
 
 IL_0078:
 	{
-		float L_14 = Rect_get_height_m4038((&V_1), /*hidden argument*/NULL);
+		float L_14 = Rect_get_height_m4035((&V_1), /*hidden argument*/NULL);
 		float L_15 = V_0;
 		if ((((float)L_14) < ((float)L_15)))
 		{
@@ -3304,45 +3304,45 @@ IL_008a:
 
 IL_008f:
 	{
-		GameObject_t352 * L_16 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_16 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t405_il2cpp_TypeInfo_var);
 		Rect_t694  L_17 = PreviewScreenUtil_getObjectBounds_m2193(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 		V_1 = L_17;
-		Transform_t406 * L_18 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
-		Transform_t406 * L_19 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_18 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_19 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		NullCheck(L_19);
-		Vector3_t536  L_20 = Transform_get_localScale_m4044(L_19, /*hidden argument*/NULL);
+		Vector3_t536  L_20 = Transform_get_localScale_m4041(L_19, /*hidden argument*/NULL);
 		V_2 = L_20;
 		float L_21 = ((&V_2)->___x_1);
-		Transform_t406 * L_22 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_22 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		Vector3_t536  L_23 = Transform_get_localScale_m4044(L_22, /*hidden argument*/NULL);
+		Vector3_t536  L_23 = Transform_get_localScale_m4041(L_22, /*hidden argument*/NULL);
 		V_3 = L_23;
 		float L_24 = ((&V_3)->___x_1);
-		Transform_t406 * L_25 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_25 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		NullCheck(L_25);
-		Vector3_t536  L_26 = Transform_get_localScale_m4044(L_25, /*hidden argument*/NULL);
+		Vector3_t536  L_26 = Transform_get_localScale_m4041(L_25, /*hidden argument*/NULL);
 		V_4 = L_26;
 		float L_27 = ((&V_4)->___y_2);
-		Transform_t406 * L_28 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_28 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		NullCheck(L_28);
-		Vector3_t536  L_29 = Transform_get_localScale_m4044(L_28, /*hidden argument*/NULL);
+		Vector3_t536  L_29 = Transform_get_localScale_m4041(L_28, /*hidden argument*/NULL);
 		V_5 = L_29;
 		float L_30 = ((&V_5)->___y_2);
-		Transform_t406 * L_31 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_31 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		NullCheck(L_31);
-		Vector3_t536  L_32 = Transform_get_localScale_m4044(L_31, /*hidden argument*/NULL);
+		Vector3_t536  L_32 = Transform_get_localScale_m4041(L_31, /*hidden argument*/NULL);
 		V_6 = L_32;
 		float L_33 = ((&V_6)->___z_3);
 		Vector3_t536  L_34 = {0};
-		Vector3__ctor_m4034(&L_34, ((float)((float)L_21-(float)((float)((float)L_24*(float)(0.1f))))), ((float)((float)L_27-(float)((float)((float)L_30*(float)(0.1f))))), L_33, /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_34, ((float)((float)L_21-(float)((float)((float)L_24*(float)(0.1f))))), ((float)((float)L_27-(float)((float)((float)L_30*(float)(0.1f))))), L_33, /*hidden argument*/NULL);
 		NullCheck(L_18);
-		Transform_set_localScale_m4045(L_18, L_34, /*hidden argument*/NULL);
+		Transform_set_localScale_m4042(L_18, L_34, /*hidden argument*/NULL);
 	}
 
 IL_011b:
 	{
-		float L_35 = Rect_get_height_m4038((&V_1), /*hidden argument*/NULL);
+		float L_35 = Rect_get_height_m4035((&V_1), /*hidden argument*/NULL);
 		float L_36 = V_0;
 		if ((((float)L_35) > ((float)L_36)))
 		{
@@ -3415,14 +3415,14 @@ extern "C" void XScaleModifayer_Calculate_m2218 (XScaleModifayer_t411 * __this, 
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	{
-		GameObject_t352 * L_0 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_0 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(PreviewScreenUtil_t405_il2cpp_TypeInfo_var);
 		Rect_t694  L_1 = PreviewScreenUtil_getObjectBounds_m2193(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
-		int32_t L_2 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_3 = (__this->___XMaxSize_2);
 		V_1 = ((float)((float)((float)((float)(((float)L_2))/(float)(100.0f)))*(float)L_3));
-		float L_4 = Rect_get_width_m4037((&V_0), /*hidden argument*/NULL);
+		float L_4 = Rect_get_width_m4034((&V_0), /*hidden argument*/NULL);
 		float L_5 = V_1;
 		if ((!(((float)L_4) < ((float)L_5))))
 		{
@@ -3443,16 +3443,16 @@ extern "C" void XScaleModifayer_Calculate_m2218 (XScaleModifayer_t411 * __this, 
 IL_0039:
 	{
 		float L_7 = V_1;
-		float L_8 = Rect_get_width_m4037((&V_0), /*hidden argument*/NULL);
+		float L_8 = Rect_get_width_m4034((&V_0), /*hidden argument*/NULL);
 		V_2 = ((float)((float)L_7/(float)L_8));
-		Transform_t406 * L_9 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
-		Transform_t406 * L_10 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_9 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_10 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		Vector3_t536  L_11 = Transform_get_localScale_m4044(L_10, /*hidden argument*/NULL);
+		Vector3_t536  L_11 = Transform_get_localScale_m4041(L_10, /*hidden argument*/NULL);
 		float L_12 = V_2;
-		Vector3_t536  L_13 = Vector3_op_Multiply_m4046(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/NULL);
+		Vector3_t536  L_13 = Vector3_op_Multiply_m4043(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		Transform_set_localScale_m4045(L_9, L_13, /*hidden argument*/NULL);
+		Transform_set_localScale_m4042(L_9, L_13, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -3542,8 +3542,8 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* DateTime_t287_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t412_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t413_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m4047_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m4048_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m4044_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m4045_MethodInfo_var;
 extern "C" void AbstractFacebook_Awake_m2220 (AbstractFacebook_t414 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -3553,8 +3553,8 @@ extern "C" void AbstractFacebook_Awake_m2220 (AbstractFacebook_t414 * __this, co
 		DateTime_t287_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(311);
 		List_1_t412_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(403);
 		Dictionary_2_t413_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(404);
-		List_1__ctor_m4047_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484073);
-		Dictionary_2__ctor_m4048_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484074);
+		List_1__ctor_m4044_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484073);
+		Dictionary_2__ctor_m4045_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484074);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -3570,11 +3570,11 @@ extern "C" void AbstractFacebook_Awake_m2220 (AbstractFacebook_t414 * __this, co
 		DateTime_t287  L_2 = ((DateTime_t287_StaticFields*)DateTime_t287_il2cpp_TypeInfo_var->static_fields)->___MinValue_13;
 		__this->___accessTokenExpiresAt_8 = L_2;
 		List_1_t412 * L_3 = (List_1_t412 *)il2cpp_codegen_object_new (List_1_t412_il2cpp_TypeInfo_var);
-		List_1__ctor_m4047(L_3, /*hidden argument*/List_1__ctor_m4047_MethodInfo_var);
+		List_1__ctor_m4044(L_3, /*hidden argument*/List_1__ctor_m4044_MethodInfo_var);
 		__this->___authDelegates_10 = L_3;
 		__this->___nextAsyncId_11 = 0;
 		Dictionary_2_t413 * L_4 = (Dictionary_2_t413 *)il2cpp_codegen_object_new (Dictionary_2_t413_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m4048(L_4, /*hidden argument*/Dictionary_2__ctor_m4048_MethodInfo_var);
+		Dictionary_2__ctor_m4045(L_4, /*hidden argument*/Dictionary_2__ctor_m4045_MethodInfo_var);
 		__this->___facebookDelegates_12 = L_4;
 		VirtActionInvoker0::Invoke(4 /* System.Void Facebook.AbstractFacebook::OnAwake() */, __this);
 		return;
@@ -3676,14 +3676,14 @@ extern "C" void AbstractFacebook_AppRequest_m2229 (AbstractFacebook_t414 * __thi
 // System.Void Facebook.AbstractFacebook::GameGroupJoin(System.String,Facebook.FacebookDelegate)
 // System.Void Facebook.AbstractFacebook::API(System.String,Facebook.HttpMethod,System.Collections.Generic.Dictionary`2<System.String,System.String>,Facebook.FacebookDelegate)
 extern TypeInfo* Dictionary_2_t122_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3695_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3692_MethodInfo_var;
 extern "C" void AbstractFacebook_API_m2230 (AbstractFacebook_t414 * __this, String_t* ___query, HttpMethod_t448 * ___method, Dictionary_2_t122 * ___formData, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t122_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(182);
-		Dictionary_2__ctor_m3695_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483707);
+		Dictionary_2__ctor_m3692_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483707);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t122 * V_0 = {0};
@@ -3705,7 +3705,7 @@ extern "C" void AbstractFacebook_API_m2230 (AbstractFacebook_t414 * __this, Stri
 IL_0012:
 	{
 		Dictionary_2_t122 * L_3 = (Dictionary_2_t122 *)il2cpp_codegen_object_new (Dictionary_2_t122_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3695(L_3, /*hidden argument*/Dictionary_2__ctor_m3695_MethodInfo_var);
+		Dictionary_2__ctor_m3692(L_3, /*hidden argument*/Dictionary_2__ctor_m3692_MethodInfo_var);
 		G_B3_0 = L_3;
 	}
 
@@ -3723,7 +3723,7 @@ IL_0017:
 	{
 		String_t* L_6 = ___query;
 		NullCheck(L_6);
-		bool L_7 = String_Contains_m3742(L_6, (String_t*) &_stringLiteral808, /*hidden argument*/NULL);
+		bool L_7 = String_Contains_m3739(L_6, (String_t*) &_stringLiteral808, /*hidden argument*/NULL);
 		if (L_7)
 		{
 			goto IL_0049;
@@ -3766,7 +3766,7 @@ extern "C" void AbstractFacebook_API_m2231 (AbstractFacebook_t414 * __this, Stri
 	}
 	{
 		WWWForm_t112 * L_1 = (WWWForm_t112 *)il2cpp_codegen_object_new (WWWForm_t112_il2cpp_TypeInfo_var);
-		WWWForm__ctor_m3703(L_1, /*hidden argument*/NULL);
+		WWWForm__ctor_m3700(L_1, /*hidden argument*/NULL);
 		___formData = L_1;
 	}
 
@@ -3775,7 +3775,7 @@ IL_000d:
 		WWWForm_t112 * L_2 = ___formData;
 		String_t* L_3 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(5 /* System.String Facebook.AbstractFacebook::get_AccessToken() */, __this);
 		NullCheck(L_2);
-		WWWForm_AddField_m3705(L_2, (String_t*) &_stringLiteral615, L_3, /*hidden argument*/NULL);
+		WWWForm_AddField_m3702(L_2, (String_t*) &_stringLiteral615, L_3, /*hidden argument*/NULL);
 		String_t* L_4 = ___query;
 		String_t* L_5 = AbstractFacebook_GetGraphUrl_m2237(__this, L_4, /*hidden argument*/NULL);
 		HttpMethod_t448 * L_6 = ___method;
@@ -3809,10 +3809,10 @@ extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
 extern TypeInfo* FBResult_t281_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t766_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m4049_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m4050_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m4051_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m4046_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m4047_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4048_MethodInfo_var;
 extern "C" void AbstractFacebook_OnAuthResponse_m2233 (AbstractFacebook_t414 * __this, FBResult_t281 * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -3825,10 +3825,10 @@ extern "C" void AbstractFacebook_OnAuthResponse_m2233 (AbstractFacebook_t414 * _
 		FBResult_t281_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		Enumerator_t766_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(405);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
-		List_1_GetEnumerator_m4049_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484075);
-		Enumerator_get_Current_m4050_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484076);
-		Enumerator_MoveNext_m4051_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484077);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		List_1_GetEnumerator_m4046_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484075);
+		Enumerator_get_Current_m4047_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484076);
+		Enumerator_MoveNext_m4048_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484077);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
@@ -3843,7 +3843,7 @@ extern "C" void AbstractFacebook_OnAuthResponse_m2233 (AbstractFacebook_t414 * _
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		Dictionary_2_t312 * L_0 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_0, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_0, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t312 * L_1 = V_0;
 		bool L_2 = AbstractFacebook_get_IsLoggedIn_m2222(__this, /*hidden argument*/NULL);
@@ -3876,7 +3876,7 @@ extern "C" void AbstractFacebook_OnAuthResponse_m2233 (AbstractFacebook_t414 * _
 		V_1 = L_17;
 		List_1_t412 * L_18 = (__this->___authDelegates_10);
 		NullCheck(L_18);
-		Enumerator_t766  L_19 = List_1_GetEnumerator_m4049(L_18, /*hidden argument*/List_1_GetEnumerator_m4049_MethodInfo_var);
+		Enumerator_t766  L_19 = List_1_GetEnumerator_m4046(L_18, /*hidden argument*/List_1_GetEnumerator_m4046_MethodInfo_var);
 		V_3 = L_19;
 	}
 
@@ -3889,7 +3889,7 @@ IL_0072:
 
 IL_0077:
 		{
-			FacebookDelegate_t433 * L_20 = Enumerator_get_Current_m4050((&V_3), /*hidden argument*/Enumerator_get_Current_m4050_MethodInfo_var);
+			FacebookDelegate_t433 * L_20 = Enumerator_get_Current_m4047((&V_3), /*hidden argument*/Enumerator_get_Current_m4047_MethodInfo_var);
 			V_2 = L_20;
 			FacebookDelegate_t433 * L_21 = V_2;
 			if (!L_21)
@@ -3908,7 +3908,7 @@ IL_0085:
 
 IL_008c:
 		{
-			bool L_24 = Enumerator_MoveNext_m4051((&V_3), /*hidden argument*/Enumerator_MoveNext_m4051_MethodInfo_var);
+			bool L_24 = Enumerator_MoveNext_m4048((&V_3), /*hidden argument*/Enumerator_MoveNext_m4048_MethodInfo_var);
 			if (L_24)
 			{
 				goto IL_0077;
@@ -4012,12 +4012,12 @@ extern TypeInfo* Dictionary_2_t122_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t301_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m4052_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m3906_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3907_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m3908_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m3909_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3910_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m4049_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m3903_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3904_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m3905_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m3906_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3907_MethodInfo_var;
 extern "C" Dictionary_2_t122 * AbstractFacebook_CopyByValue_m2236 (AbstractFacebook_t414 * __this, Dictionary_2_t122 * ___data, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -4027,12 +4027,12 @@ extern "C" Dictionary_2_t122 * AbstractFacebook_CopyByValue_m2236 (AbstractFaceb
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		Enumerator_t301_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(317);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		Dictionary_2__ctor_m4052_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484078);
-		Dictionary_2_GetEnumerator_m3906_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483945);
-		Enumerator_get_Current_m3907_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483946);
-		KeyValuePair_2_get_Key_m3908_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483947);
-		KeyValuePair_2_get_Value_m3909_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483948);
-		Enumerator_MoveNext_m3910_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483949);
+		Dictionary_2__ctor_m4049_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484078);
+		Dictionary_2_GetEnumerator_m3903_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483945);
+		Enumerator_get_Current_m3904_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483946);
+		KeyValuePair_2_get_Key_m3905_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483947);
+		KeyValuePair_2_get_Value_m3906_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483948);
+		Enumerator_MoveNext_m3907_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483949);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t122 * V_0 = {0};
@@ -4049,11 +4049,11 @@ extern "C" Dictionary_2_t122 * AbstractFacebook_CopyByValue_m2236 (AbstractFaceb
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.String>::get_Count() */, L_0);
 		Dictionary_2_t122 * L_2 = (Dictionary_2_t122 *)il2cpp_codegen_object_new (Dictionary_2_t122_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m4052(L_2, L_1, /*hidden argument*/Dictionary_2__ctor_m4052_MethodInfo_var);
+		Dictionary_2__ctor_m4049(L_2, L_1, /*hidden argument*/Dictionary_2__ctor_m4049_MethodInfo_var);
 		V_0 = L_2;
 		Dictionary_2_t122 * L_3 = ___data;
 		NullCheck(L_3);
-		Enumerator_t301  L_4 = Dictionary_2_GetEnumerator_m3906(L_3, /*hidden argument*/Dictionary_2_GetEnumerator_m3906_MethodInfo_var);
+		Enumerator_t301  L_4 = Dictionary_2_GetEnumerator_m3903(L_3, /*hidden argument*/Dictionary_2_GetEnumerator_m3903_MethodInfo_var);
 		V_2 = L_4;
 	}
 
@@ -4066,20 +4066,20 @@ IL_0013:
 
 IL_0018:
 		{
-			KeyValuePair_2_t302  L_5 = Enumerator_get_Current_m3907((&V_2), /*hidden argument*/Enumerator_get_Current_m3907_MethodInfo_var);
+			KeyValuePair_2_t302  L_5 = Enumerator_get_Current_m3904((&V_2), /*hidden argument*/Enumerator_get_Current_m3904_MethodInfo_var);
 			V_1 = L_5;
 			Dictionary_2_t122 * L_6 = V_0;
-			String_t* L_7 = KeyValuePair_2_get_Key_m3908((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m3908_MethodInfo_var);
-			String_t* L_8 = KeyValuePair_2_get_Value_m3909((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m3909_MethodInfo_var);
+			String_t* L_7 = KeyValuePair_2_get_Key_m3905((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m3905_MethodInfo_var);
+			String_t* L_8 = KeyValuePair_2_get_Value_m3906((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m3906_MethodInfo_var);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_9 = String_Copy_m4053(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+			String_t* L_9 = String_Copy_m4050(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 			NullCheck(L_6);
 			VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_6, L_7, L_9);
 		}
 
 IL_0039:
 		{
-			bool L_10 = Enumerator_MoveNext_m3910((&V_2), /*hidden argument*/Enumerator_MoveNext_m3910_MethodInfo_var);
+			bool L_10 = Enumerator_MoveNext_m3907((&V_2), /*hidden argument*/Enumerator_MoveNext_m3907_MethodInfo_var);
 			if (L_10)
 			{
 				goto IL_0018;
@@ -4131,7 +4131,7 @@ extern "C" String_t* AbstractFacebook_GetGraphUrl_m2237 (AbstractFacebook_t414 *
 	{
 		String_t* L_0 = ___query;
 		NullCheck(L_0);
-		bool L_1 = String_StartsWith_m4054(L_0, (String_t*) &_stringLiteral521, /*hidden argument*/NULL);
+		bool L_1 = String_StartsWith_m4051(L_0, (String_t*) &_stringLiteral521, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_001d;
@@ -4188,7 +4188,7 @@ extern "C" bool AppEvents_get_LimitEventUsage_m2239 (Object_t * __this /* static
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		AbstractFacebook_t414 * L_0 = ((FB_t421_StaticFields*)FB_t421_il2cpp_TypeInfo_var->static_fields)->___facebook_4;
-		bool L_1 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001c;
@@ -4362,7 +4362,7 @@ extern "C" String_t* Android_get_KeyHash_m2246 (Object_t * __this /* static, unu
 		AbstractFacebook_t414 * L_0 = ((FB_t421_StaticFields*)FB_t421_il2cpp_TypeInfo_var->static_fields)->___facebook_4;
 		V_0 = ((AndroidFacebook_t434 *)IsInst(L_0, AndroidFacebook_t434_il2cpp_TypeInfo_var));
 		AndroidFacebook_t434 * L_1 = V_0;
-		bool L_2 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_1, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_1, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0022;
@@ -4422,7 +4422,7 @@ extern "C" void CompiledFacebookLoader_Start_m2248 (CompiledFacebookLoader_t418 
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		((FB_t421_StaticFields*)FB_t421_il2cpp_TypeInfo_var->static_fields)->___facebook_4 = L_0;
 		FB_OnDllLoaded_m2260(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Object_Destroy_m3900(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		Object_Destroy_m3897(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -4464,18 +4464,18 @@ struct FBComponentFactory_t428;
 struct Object_t;
 // Declaration !!0 Facebook.FBComponentFactory::GetComponent<System.Object>(Facebook.IfNotExist)
 // !!0 Facebook.FBComponentFactory::GetComponent<System.Object>(Facebook.IfNotExist)
-extern "C" Object_t * FBComponentFactory_GetComponent_TisObject_t_m4056_gshared (Object_t * __this /* static, unused */, int32_t p0, const MethodInfo* method);
-#define FBComponentFactory_GetComponent_TisObject_t_m4056(__this /* static, unused */, p0, method) (( Object_t * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4056_gshared)(__this /* static, unused */, p0, method)
+extern "C" Object_t * FBComponentFactory_GetComponent_TisObject_t_m4053_gshared (Object_t * __this /* static, unused */, int32_t p0, const MethodInfo* method);
+#define FBComponentFactory_GetComponent_TisObject_t_m4053(__this /* static, unused */, p0, method) (( Object_t * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4053_gshared)(__this /* static, unused */, p0, method)
 // Declaration !!0 Facebook.FBComponentFactory::GetComponent<Facebook.IOSFacebookLoader>(Facebook.IfNotExist)
 // !!0 Facebook.FBComponentFactory::GetComponent<Facebook.IOSFacebookLoader>(Facebook.IfNotExist)
-#define FBComponentFactory_GetComponent_TisIOSFacebookLoader_t445_m4055(__this /* static, unused */, p0, method) (( IOSFacebookLoader_t445 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4056_gshared)(__this /* static, unused */, p0, method)
+#define FBComponentFactory_GetComponent_TisIOSFacebookLoader_t445_m4052(__this /* static, unused */, p0, method) (( IOSFacebookLoader_t445 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4053_gshared)(__this /* static, unused */, p0, method)
 
 
 // System.Void FB::.ctor()
 extern "C" void FB__ctor_m2249 (FB_t421 * __this, const MethodInfo* method)
 {
 	{
-		ScriptableObject__ctor_m3780(__this, /*hidden argument*/NULL);
+		ScriptableObject__ctor_m3777(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -4501,7 +4501,7 @@ extern "C" AbstractFacebook_t414 * FB_get_FacebookImpl_m2251 (Object_t * __this 
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		AbstractFacebook_t414 * L_0 = ((FB_t421_StaticFields*)FB_t421_il2cpp_TypeInfo_var->static_fields)->___facebook_4;
-		bool L_1 = Object_op_Equality_m3781(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3778(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001b;
@@ -4509,7 +4509,7 @@ extern "C" AbstractFacebook_t414 * FB_get_FacebookImpl_m2251 (Object_t * __this 
 	}
 	{
 		NullReferenceException_t767 * L_2 = (NullReferenceException_t767 *)il2cpp_codegen_object_new (NullReferenceException_t767_il2cpp_TypeInfo_var);
-		NullReferenceException__ctor_m4057(L_2, (String_t*) &_stringLiteral812, /*hidden argument*/NULL);
+		NullReferenceException__ctor_m4054(L_2, (String_t*) &_stringLiteral812, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -4552,7 +4552,7 @@ extern "C" String_t* FB_get_UserId_m2253 (Object_t * __this /* static, unused */
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		AbstractFacebook_t414 * L_0 = ((FB_t421_StaticFields*)FB_t421_il2cpp_TypeInfo_var->static_fields)->___facebook_4;
-		bool L_1 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001f;
@@ -4595,7 +4595,7 @@ extern "C" String_t* FB_get_AccessToken_m2254 (Object_t * __this /* static, unus
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		AbstractFacebook_t414 * L_0 = ((FB_t421_StaticFields*)FB_t421_il2cpp_TypeInfo_var->static_fields)->___facebook_4;
-		bool L_1 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001f;
@@ -4638,7 +4638,7 @@ extern "C" DateTime_t287  FB_get_AccessTokenExpiresAt_m2255 (Object_t * __this /
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		AbstractFacebook_t414 * L_0 = ((FB_t421_StaticFields*)FB_t421_il2cpp_TypeInfo_var->static_fields)->___facebook_4;
-		bool L_1 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001f;
@@ -4679,7 +4679,7 @@ extern "C" bool FB_get_IsLoggedIn_m2256 (Object_t * __this /* static, unused */,
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		AbstractFacebook_t414 * L_0 = ((FB_t421_StaticFields*)FB_t421_il2cpp_TypeInfo_var->static_fields)->___facebook_4;
-		bool L_1 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001c;
@@ -4718,7 +4718,7 @@ extern "C" bool FB_get_IsInitialized_m2257 (Object_t * __this /* static, unused 
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		AbstractFacebook_t414 * L_0 = ((FB_t421_StaticFields*)FB_t421_il2cpp_TypeInfo_var->static_fields)->___facebook_4;
-		bool L_1 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001c;
@@ -4773,7 +4773,7 @@ extern const Il2CppType* AbstractFacebook_t414_0_0_0_var;
 extern TypeInfo* FB_t421_il2cpp_TypeInfo_var;
 extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* FBComponentFactory_GetComponent_TisIOSFacebookLoader_t445_m4055_MethodInfo_var;
+extern const MethodInfo* FBComponentFactory_GetComponent_TisIOSFacebookLoader_t445_m4052_MethodInfo_var;
 extern "C" void FB_Init_m2259 (Object_t * __this /* static, unused */, InitDelegate_t419 * ___onInitComplete, String_t* ___appId, bool ___cookie, bool ___logging, bool ___status, bool ___xfbml, bool ___frictionlessRequests, HideUnityDelegate_t420 * ___onHideUnity, String_t* ___authResponse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -4783,7 +4783,7 @@ extern "C" void FB_Init_m2259 (Object_t * __this /* static, unused */, InitDeleg
 		FB_t421_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(172);
 		Type_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(410);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		FBComponentFactory_GetComponent_TisIOSFacebookLoader_t445_m4055_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484079);
+		FBComponentFactory_GetComponent_TisIOSFacebookLoader_t445_m4052_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484079);
 		s_Il2CppMethodIntialized = true;
 	}
 	FBBuildVersionAttribute_t425 * V_0 = {0};
@@ -4815,7 +4815,7 @@ extern "C" void FB_Init_m2259 (Object_t * __this /* static, unused */, InitDeleg
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_10 = Type_GetTypeFromHandle_m4058(NULL /*static, unused*/, LoadTypeToken(AbstractFacebook_t414_0_0_0_var), /*hidden argument*/NULL);
+		Type_t * L_10 = Type_GetTypeFromHandle_m4055(NULL /*static, unused*/, LoadTypeToken(AbstractFacebook_t414_0_0_0_var), /*hidden argument*/NULL);
 		FBBuildVersionAttribute_t425 * L_11 = FBBuildVersionAttribute_GetVersionAttributeOfType_m2283(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		V_0 = L_11;
 		FBBuildVersionAttribute_t425 * L_12 = V_0;
@@ -4838,13 +4838,13 @@ IL_006a:
 		NullCheck(L_15);
 		String_t* L_16 = FBBuildVersionAttribute_get_BuildVersion_m2281(L_15, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_17 = String_Format_m4059(NULL /*static, unused*/, (String_t*) &_stringLiteral814, L_14, L_16, /*hidden argument*/NULL);
+		String_t* L_17 = String_Format_m4056(NULL /*static, unused*/, (String_t*) &_stringLiteral814, L_14, L_16, /*hidden argument*/NULL);
 		FBDebug_Info_m2288(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 	}
 
 IL_0085:
 	{
-		FBComponentFactory_GetComponent_TisIOSFacebookLoader_t445_m4055(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisIOSFacebookLoader_t445_m4055_MethodInfo_var);
+		FBComponentFactory_GetComponent_TisIOSFacebookLoader_t445_m4052(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisIOSFacebookLoader_t445_m4052_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		((FB_t421_StaticFields*)FB_t421_il2cpp_TypeInfo_var->static_fields)->___isInitCalled_6 = 1;
 		return;
@@ -4855,7 +4855,7 @@ IL_0093:
 		FBDebug_Warn_m2289(NULL /*static, unused*/, (String_t*) &_stringLiteral815, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		AbstractFacebook_t414 * L_18 = FB_get_FacebookImpl_m2251(NULL /*static, unused*/, /*hidden argument*/NULL);
-		bool L_19 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_18, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_19 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_18, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_19)
 		{
 			goto IL_00b2;
@@ -4888,7 +4888,7 @@ extern "C" void FB_OnDllLoaded_m2260 (Object_t * __this /* static, unused */, co
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		AbstractFacebook_t414 * L_0 = FB_get_FacebookImpl_m2251(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Type_t * L_1 = Object_GetType_m4060(L_0, /*hidden argument*/NULL);
+		Type_t * L_1 = Object_GetType_m4057(L_0, /*hidden argument*/NULL);
 		FBBuildVersionAttribute_t425 * L_2 = FBBuildVersionAttribute_GetVersionAttributeOfType_m2283(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		FBBuildVersionAttribute_t425 * L_3 = V_0;
@@ -4905,7 +4905,7 @@ extern "C" void FB_OnDllLoaded_m2260 (Object_t * __this /* static, unused */, co
 		NullCheck(L_6);
 		String_t* L_7 = FBBuildVersionAttribute_get_BuildVersion_m2281(L_6, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Format_m4059(NULL /*static, unused*/, (String_t*) &_stringLiteral816, L_5, L_7, /*hidden argument*/NULL);
+		String_t* L_8 = String_Format_m4056(NULL /*static, unused*/, (String_t*) &_stringLiteral816, L_5, L_7, /*hidden argument*/NULL);
 		FBDebug_Log_m2287(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 	}
 
@@ -5272,17 +5272,17 @@ extern "C" void FBAppEventParameterName__ctor_m2275 (FBAppEventParameterName_t42
 
 
 // System.Void FBAppRequestsFilterGroup::.ctor(System.String,System.Collections.Generic.List`1<System.String>)
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
 extern "C" void FBAppRequestsFilterGroup__ctor_m2276 (FBAppRequestsFilterGroup_t424 * __this, String_t* ___name, List_1_t115 * ___user_ids, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Dictionary_2__ctor_m3715(__this, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(__this, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		String_t* L_0 = ___name;
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, __this, (String_t*) &_stringLiteral524, L_0);
 		List_1_t115 * L_1 = ___user_ids;
@@ -5329,7 +5329,7 @@ extern "C" void FBBuildVersionAttribute__ctor_m2277 (FBBuildVersionAttribute_t42
 	}
 	StringU5BU5D_t75* V_0 = {0};
 	{
-		Attribute__ctor_m4061(__this, /*hidden argument*/NULL);
+		Attribute__ctor_m4058(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___buildVersion;
 		__this->___buildVersion_2 = L_0;
 		String_t* L_1 = ___buildVersion;
@@ -5338,16 +5338,16 @@ extern "C" void FBBuildVersionAttribute__ctor_m2277 (FBBuildVersionAttribute_t42
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_2, 0)) = (uint16_t)((int32_t)46);
 		NullCheck(L_1);
-		StringU5BU5D_t75* L_3 = String_Split_m3712(L_1, L_2, /*hidden argument*/NULL);
+		StringU5BU5D_t75* L_3 = String_Split_m3709(L_1, L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		StringU5BU5D_t75* L_4 = V_0;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 0);
 		int32_t L_5 = 0;
 		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t768_il2cpp_TypeInfo_var);
-		CultureInfo_t768 * L_6 = CultureInfo_get_InvariantCulture_m4062(NULL /*static, unused*/, /*hidden argument*/NULL);
+		CultureInfo_t768 * L_6 = CultureInfo_get_InvariantCulture_m4059(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		DateTime_t287  L_7 = DateTime_ParseExact_m4063(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_4, L_5)), (String_t*) &_stringLiteral818, L_6, /*hidden argument*/NULL);
+		DateTime_t287  L_7 = DateTime_ParseExact_m4060(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_4, L_5)), (String_t*) &_stringLiteral818, L_6, /*hidden argument*/NULL);
 		__this->___buildDate_0 = L_7;
 		StringU5BU5D_t75* L_8 = V_0;
 		NullCheck(L_8);
@@ -5466,7 +5466,7 @@ extern "C" FBBuildVersionAttributeU5BU5D_t695* FBBuildVersionAttribute_getAttrib
 	}
 	{
 		ArgumentNullException_t770 * L_1 = (ArgumentNullException_t770 *)il2cpp_codegen_object_new (ArgumentNullException_t770_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4064(L_1, (String_t*) &_stringLiteral819, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m4061(L_1, (String_t*) &_stringLiteral819, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -5478,7 +5478,7 @@ IL_0011:
 		V_0 = L_3;
 		Assembly_t769 * L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_5 = Type_GetTypeFromHandle_m4058(NULL /*static, unused*/, LoadTypeToken(FBBuildVersionAttribute_t425_0_0_0_var), /*hidden argument*/NULL);
+		Type_t * L_5 = Type_GetTypeFromHandle_m4055(NULL /*static, unused*/, LoadTypeToken(FBBuildVersionAttribute_t425_0_0_0_var), /*hidden argument*/NULL);
 		NullCheck(L_4);
 		ObjectU5BU5D_t682* L_6 = (ObjectU5BU5D_t682*)VirtFuncInvoker2< ObjectU5BU5D_t682*, Type_t *, bool >::Invoke(9 /* System.Object[] System.Reflection.Assembly::GetCustomAttributes(System.Type,System.Boolean) */, L_4, L_5, 0);
 		return ((FBBuildVersionAttributeU5BU5D_t695*)Castclass(L_6, FBBuildVersionAttributeU5BU5D_t695_il2cpp_TypeInfo_var));
@@ -5520,7 +5520,7 @@ extern "C" GameObject_t352 * FBComponentFactory_get_FacebookGameObject_m2286 (Ob
 	}
 	{
 		GameObject_t352 * L_0 = ((FBComponentFactory_t428_StaticFields*)FBComponentFactory_t428_il2cpp_TypeInfo_var->static_fields)->___facebookGameObject_1;
-		bool L_1 = Object_op_Equality_m3781(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3778(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001f;
@@ -5528,7 +5528,7 @@ extern "C" GameObject_t352 * FBComponentFactory_get_FacebookGameObject_m2286 (Ob
 	}
 	{
 		GameObject_t352 * L_2 = (GameObject_t352 *)il2cpp_codegen_object_new (GameObject_t352_il2cpp_TypeInfo_var);
-		GameObject__ctor_m3858(L_2, (String_t*) &_stringLiteral820, /*hidden argument*/NULL);
+		GameObject__ctor_m3855(L_2, (String_t*) &_stringLiteral820, /*hidden argument*/NULL);
 		((FBComponentFactory_t428_StaticFields*)FBComponentFactory_t428_il2cpp_TypeInfo_var->static_fields)->___facebookGameObject_1 = L_2;
 	}
 
@@ -5559,14 +5559,14 @@ extern "C" void FBDebug_Log_m2287 (Object_t * __this /* static, unused */, Strin
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = Debug_get_isDebugBuild_m4065(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = Debug_get_isDebugBuild_m4062(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_002e;
 		}
 	}
 	{
-		bool L_1 = Application_get_isWebPlayer_m4066(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_1 = Application_get_isWebPlayer_m4063(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0028;
@@ -5579,7 +5579,7 @@ extern "C" void FBDebug_Log_m2287 (Object_t * __this /* static, unused */, Strin
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
 		ArrayElementTypeCheck (L_2, L_3);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 0)) = (Object_t *)L_3;
-		Application_ExternalCall_m4067(NULL /*static, unused*/, (String_t*) &_stringLiteral821, L_2, /*hidden argument*/NULL);
+		Application_ExternalCall_m4064(NULL /*static, unused*/, (String_t*) &_stringLiteral821, L_2, /*hidden argument*/NULL);
 	}
 
 IL_0028:
@@ -5604,7 +5604,7 @@ extern "C" void FBDebug_Info_m2288 (Object_t * __this /* static, unused */, Stri
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = Application_get_isWebPlayer_m4066(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = Application_get_isWebPlayer_m4063(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_001e;
@@ -5617,7 +5617,7 @@ extern "C" void FBDebug_Info_m2288 (Object_t * __this /* static, unused */, Stri
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
 		ArrayElementTypeCheck (L_1, L_2);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 0)) = (Object_t *)L_2;
-		Application_ExternalCall_m4067(NULL /*static, unused*/, (String_t*) &_stringLiteral822, L_1, /*hidden argument*/NULL);
+		Application_ExternalCall_m4064(NULL /*static, unused*/, (String_t*) &_stringLiteral822, L_1, /*hidden argument*/NULL);
 	}
 
 IL_001e:
@@ -5638,7 +5638,7 @@ extern "C" void FBDebug_Warn_m2289 (Object_t * __this /* static, unused */, Stri
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = Application_get_isWebPlayer_m4066(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = Application_get_isWebPlayer_m4063(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_001e;
@@ -5651,7 +5651,7 @@ extern "C" void FBDebug_Warn_m2289 (Object_t * __this /* static, unused */, Stri
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
 		ArrayElementTypeCheck (L_1, L_2);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 0)) = (Object_t *)L_2;
-		Application_ExternalCall_m4067(NULL /*static, unused*/, (String_t*) &_stringLiteral823, L_1, /*hidden argument*/NULL);
+		Application_ExternalCall_m4064(NULL /*static, unused*/, (String_t*) &_stringLiteral823, L_1, /*hidden argument*/NULL);
 	}
 
 IL_001e:
@@ -5672,7 +5672,7 @@ extern "C" void FBDebug_Error_m2290 (Object_t * __this /* static, unused */, Str
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = Application_get_isWebPlayer_m4066(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = Application_get_isWebPlayer_m4063(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_001e;
@@ -5685,7 +5685,7 @@ extern "C" void FBDebug_Error_m2290 (Object_t * __this /* static, unused */, Str
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
 		ArrayElementTypeCheck (L_1, L_2);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 0)) = (Object_t *)L_2;
-		Application_ExternalCall_m4067(NULL /*static, unused*/, (String_t*) &_stringLiteral824, L_1, /*hidden argument*/NULL);
+		Application_ExternalCall_m4064(NULL /*static, unused*/, (String_t*) &_stringLiteral824, L_1, /*hidden argument*/NULL);
 	}
 
 IL_001e:
@@ -5751,7 +5751,7 @@ extern "C" Texture2D_t108 * FBResult_get_Texture_m2293 (FBResult_t281 * __this, 
 	{
 		Object_t * L_1 = (__this->___data_1);
 		NullCheck(((WWW_t265 *)Castclass(L_1, WWW_t265_il2cpp_TypeInfo_var)));
-		Texture2D_t108 * L_2 = WWW_get_texture_m3855(((WWW_t265 *)Castclass(L_1, WWW_t265_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		Texture2D_t108 * L_2 = WWW_get_texture_m3852(((WWW_t265 *)Castclass(L_1, WWW_t265_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		G_B3_0 = L_2;
 		goto IL_002b;
 	}
@@ -5790,7 +5790,7 @@ extern "C" String_t* FBResult_get_Text_m2294 (FBResult_t281 * __this, const Meth
 	{
 		Object_t * L_1 = (__this->___data_1);
 		NullCheck(((WWW_t265 *)Castclass(L_1, WWW_t265_il2cpp_TypeInfo_var)));
-		String_t* L_2 = WWW_get_text_m3911(((WWW_t265 *)Castclass(L_1, WWW_t265_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		String_t* L_2 = WWW_get_text_m3908(((WWW_t265 *)Castclass(L_1, WWW_t265_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		G_B3_0 = L_2;
 		goto IL_002b;
 	}
@@ -5827,7 +5827,7 @@ extern "C" String_t* FBResult_get_Error_m2295 (FBResult_t281 * __this, const Met
 	{
 		Object_t * L_1 = (__this->___data_1);
 		NullCheck(((WWW_t265 *)Castclass(L_1, WWW_t265_il2cpp_TypeInfo_var)));
-		String_t* L_2 = WWW_get_error_m3854(((WWW_t265 *)Castclass(L_1, WWW_t265_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		String_t* L_2 = WWW_get_error_m3851(((WWW_t265 *)Castclass(L_1, WWW_t265_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		G_B3_0 = L_2;
 		goto IL_0026;
 	}
@@ -5932,11 +5932,11 @@ struct ScriptableObject_t148;
 struct Object_t;
 // Declaration !!0 UnityEngine.ScriptableObject::CreateInstance<System.Object>()
 // !!0 UnityEngine.ScriptableObject::CreateInstance<System.Object>()
-extern "C" Object_t * ScriptableObject_CreateInstance_TisObject_t_m3778_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define ScriptableObject_CreateInstance_TisObject_t_m3778(__this /* static, unused */, method) (( Object_t * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m3778_gshared)(__this /* static, unused */, method)
+extern "C" Object_t * ScriptableObject_CreateInstance_TisObject_t_m3775_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define ScriptableObject_CreateInstance_TisObject_t_m3775(__this /* static, unused */, method) (( Object_t * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m3775_gshared)(__this /* static, unused */, method)
 // Declaration !!0 UnityEngine.ScriptableObject::CreateInstance<FBSettings>()
 // !!0 UnityEngine.ScriptableObject::CreateInstance<FBSettings>()
-#define ScriptableObject_CreateInstance_TisFBSettings_t430_m4068(__this /* static, unused */, method) (( FBSettings_t430 * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m3778_gshared)(__this /* static, unused */, method)
+#define ScriptableObject_CreateInstance_TisFBSettings_t430_m4065(__this /* static, unused */, method) (( FBSettings_t430 * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m3775_gshared)(__this /* static, unused */, method)
 
 
 // System.Void FBSettings::.ctor()
@@ -5971,42 +5971,42 @@ extern "C" void FBSettings__ctor_m2298 (FBSettings_t430 * __this, const MethodIn
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___iosURLSuffix_14 = L_2;
-		ScriptableObject__ctor_m3780(__this, /*hidden argument*/NULL);
+		ScriptableObject__ctor_m3777(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // FBSettings FBSettings::get_Instance()
 extern TypeInfo* FBSettings_t430_il2cpp_TypeInfo_var;
-extern const MethodInfo* ScriptableObject_CreateInstance_TisFBSettings_t430_m4068_MethodInfo_var;
+extern const MethodInfo* ScriptableObject_CreateInstance_TisFBSettings_t430_m4065_MethodInfo_var;
 extern "C" FBSettings_t430 * FBSettings_get_Instance_m2299 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		FBSettings_t430_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(416);
-		ScriptableObject_CreateInstance_TisFBSettings_t430_m4068_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484080);
+		ScriptableObject_CreateInstance_TisFBSettings_t430_m4065_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484080);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		FBSettings_t430 * L_0 = ((FBSettings_t430_StaticFields*)FBSettings_t430_il2cpp_TypeInfo_var->static_fields)->___instance_5;
-		bool L_1 = Object_op_Equality_m3781(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3778(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		Object_t703 * L_2 = Resources_Load_m3782(NULL /*static, unused*/, (String_t*) &_stringLiteral825, /*hidden argument*/NULL);
+		Object_t703 * L_2 = Resources_Load_m3779(NULL /*static, unused*/, (String_t*) &_stringLiteral825, /*hidden argument*/NULL);
 		((FBSettings_t430_StaticFields*)FBSettings_t430_il2cpp_TypeInfo_var->static_fields)->___instance_5 = ((FBSettings_t430 *)IsInst(L_2, FBSettings_t430_il2cpp_TypeInfo_var));
 		FBSettings_t430 * L_3 = ((FBSettings_t430_StaticFields*)FBSettings_t430_il2cpp_TypeInfo_var->static_fields)->___instance_5;
-		bool L_4 = Object_op_Equality_m3781(NULL /*static, unused*/, L_3, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Equality_m3778(NULL /*static, unused*/, L_3, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		FBSettings_t430 * L_5 = ScriptableObject_CreateInstance_TisFBSettings_t430_m4068(NULL /*static, unused*/, /*hidden argument*/ScriptableObject_CreateInstance_TisFBSettings_t430_m4068_MethodInfo_var);
+		FBSettings_t430 * L_5 = ScriptableObject_CreateInstance_TisFBSettings_t430_m4065(NULL /*static, unused*/, /*hidden argument*/ScriptableObject_CreateInstance_TisFBSettings_t430_m4065_MethodInfo_var);
 		((FBSettings_t430_StaticFields*)FBSettings_t430_il2cpp_TypeInfo_var->static_fields)->___instance_5 = L_5;
 	}
 
@@ -6644,7 +6644,7 @@ extern "C" void AndroidFacebook_set_LimitEventUsage_m2331 (AndroidFacebook_t434 
 	{
 		bool L_0 = ___value;
 		((AbstractFacebook_t414 *)__this)->___limitEventUsage_9 = L_0;
-		String_t* L_1 = Boolean_ToString_m3819((&___value), /*hidden argument*/NULL);
+		String_t* L_1 = Boolean_ToString_m3816((&___value), /*hidden argument*/NULL);
 		AndroidFacebook_CallFB_m2332(__this, (String_t*) &_stringLiteral828, L_1, /*hidden argument*/NULL);
 		return;
 	}
@@ -6687,7 +6687,7 @@ extern TypeInfo* ArgumentException_t711_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
 extern TypeInfo* Boolean_t59_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
 extern "C" void AndroidFacebook_Init_m2335 (AndroidFacebook_t434 * __this, InitDelegate_t419 * ___onInitComplete, String_t* ___appId, bool ___cookie, bool ___logging, bool ___status, bool ___xfbml, String_t* ___channelUrl, String_t* ___authResponse, bool ___frictionlessRequests, HideUnityDelegate_t420 * ___hideUnityDelegate, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -6698,7 +6698,7 @@ extern "C" void AndroidFacebook_Init_m2335 (AndroidFacebook_t434 * __this, InitD
 		Dictionary_2_t312_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(179);
 		Boolean_t59_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(24);
 		Json_t453_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
@@ -6714,14 +6714,14 @@ extern "C" void AndroidFacebook_Init_m2335 (AndroidFacebook_t434 * __this, InitD
 	}
 	{
 		ArgumentException_t711 * L_2 = (ArgumentException_t711 *)il2cpp_codegen_object_new (ArgumentException_t711_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m4069(L_2, (String_t*) &_stringLiteral830, /*hidden argument*/NULL);
+		ArgumentException__ctor_m4066(L_2, (String_t*) &_stringLiteral830, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
 IL_0016:
 	{
 		Dictionary_2_t312 * L_3 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_3, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_3, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_3;
 		Dictionary_2_t312 * L_4 = V_0;
 		String_t* L_5 = ___appId;
@@ -6881,7 +6881,7 @@ IL_0024:
 // System.Void Facebook.AndroidFacebook::Login(System.String,Facebook.FacebookDelegate)
 extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
 extern "C" void AndroidFacebook_Login_m2337 (AndroidFacebook_t434 * __this, String_t* ___scope, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -6889,14 +6889,14 @@ extern "C" void AndroidFacebook_Login_m2337 (AndroidFacebook_t434 * __this, Stri
 	{
 		Dictionary_2_t312_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(179);
 		Json_t453_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
 	String_t* V_1 = {0};
 	{
 		Dictionary_2_t312 * L_0 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_0, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_0, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t312 * L_1 = V_0;
 		String_t* L_2 = ___scope;
@@ -6956,7 +6956,7 @@ extern "C" void AndroidFacebook_OnLoginComplete_m2338 (AndroidFacebook_t434 * __
 		Dictionary_2_t312 * L_8 = V_0;
 		NullCheck(L_8);
 		Object_t * L_9 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_8, (String_t*) &_stringLiteral840);
-		int32_t L_10 = Int32_Parse_m3710(NULL /*static, unused*/, ((String_t*)Castclass(L_9, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		int32_t L_10 = Int32_Parse_m3707(NULL /*static, unused*/, ((String_t*)Castclass(L_9, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		DateTime_t287  L_11 = AndroidFacebook_FromTimestamp_m2358(__this, L_10, /*hidden argument*/NULL);
 		((AbstractFacebook_t414 *)__this)->___accessTokenExpiresAt_8 = L_11;
 	}
@@ -7062,7 +7062,7 @@ extern "C" void AndroidFacebook_OnAccessTokenRefresh_m2340 (AndroidFacebook_t434
 		Dictionary_2_t312 * L_6 = V_0;
 		NullCheck(L_6);
 		Object_t * L_7 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_6, (String_t*) &_stringLiteral840);
-		int32_t L_8 = Int32_Parse_m3710(NULL /*static, unused*/, ((String_t*)Castclass(L_7, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		int32_t L_8 = Int32_Parse_m3707(NULL /*static, unused*/, ((String_t*)Castclass(L_7, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		DateTime_t287  L_9 = AndroidFacebook_FromTimestamp_m2358(__this, L_8, /*hidden argument*/NULL);
 		((AbstractFacebook_t414 *)__this)->___accessTokenExpiresAt_8 = L_9;
 	}
@@ -7115,9 +7115,9 @@ extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
-extern const MethodInfo* Nullable_1_get_HasValue_m4071_MethodInfo_var;
-extern const MethodInfo* Nullable_1_get_Value_m4072_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m4068_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m4069_MethodInfo_var;
 extern "C" void AndroidFacebook_AppRequest_m2343 (AndroidFacebook_t434 * __this, String_t* ___message, OGActionType_t432 * ___actionType, String_t* ___objectId, StringU5BU5D_t75* ___to, List_1_t684 * ___filters, StringU5BU5D_t75* ___excludeIds, Nullable_1_t690  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -7128,9 +7128,9 @@ extern "C" void AndroidFacebook_AppRequest_m2343 (AndroidFacebook_t434 * __this,
 		Dictionary_2_t312_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(179);
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
 		Json_t453_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
-		Nullable_1_get_HasValue_m4071_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484081);
-		Nullable_1_get_Value_m4072_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484082);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Nullable_1_get_HasValue_m4068_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484081);
+		Nullable_1_get_Value_m4069_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484082);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
@@ -7146,7 +7146,7 @@ extern "C" void AndroidFacebook_AppRequest_m2343 (AndroidFacebook_t434 * __this,
 	}
 	{
 		ArgumentNullException_t770 * L_2 = (ArgumentNullException_t770 *)il2cpp_codegen_object_new (ArgumentNullException_t770_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4070(L_2, (String_t*) &_stringLiteral158, (String_t*) &_stringLiteral843, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m4067(L_2, (String_t*) &_stringLiteral158, (String_t*) &_stringLiteral843, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -7169,7 +7169,7 @@ IL_001b:
 	}
 	{
 		ArgumentNullException_t770 * L_6 = (ArgumentNullException_t770 *)il2cpp_codegen_object_new (ArgumentNullException_t770_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4070(L_6, (String_t*) &_stringLiteral844, (String_t*) &_stringLiteral845, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m4067(L_6, (String_t*) &_stringLiteral844, (String_t*) &_stringLiteral845, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -7192,14 +7192,14 @@ IL_003c:
 	}
 	{
 		ArgumentNullException_t770 * L_10 = (ArgumentNullException_t770 *)il2cpp_codegen_object_new (ArgumentNullException_t770_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4070(L_10, (String_t*) &_stringLiteral846, (String_t*) &_stringLiteral847, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m4067(L_10, (String_t*) &_stringLiteral846, (String_t*) &_stringLiteral847, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 
 IL_005d:
 	{
 		Dictionary_2_t312 * L_11 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_11, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_11, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_11;
 		Dictionary_2_t312 * L_12 = V_0;
 		String_t* L_13 = ___message;
@@ -7261,7 +7261,7 @@ IL_00b7:
 		Dictionary_2_t312 * L_27 = V_0;
 		StringU5BU5D_t75* L_28 = ___to;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_29 = String_Join_m3787(NULL /*static, unused*/, (String_t*) &_stringLiteral303, L_28, /*hidden argument*/NULL);
+		String_t* L_29 = String_Join_m3784(NULL /*static, unused*/, (String_t*) &_stringLiteral303, L_28, /*hidden argument*/NULL);
 		NullCheck(L_27);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_27, (String_t*) &_stringLiteral178, L_29);
 	}
@@ -7303,7 +7303,7 @@ IL_00d5:
 
 IL_0109:
 	{
-		bool L_38 = Nullable_1_get_HasValue_m4071((&___maxRecipients), /*hidden argument*/Nullable_1_get_HasValue_m4071_MethodInfo_var);
+		bool L_38 = Nullable_1_get_HasValue_m4068((&___maxRecipients), /*hidden argument*/Nullable_1_get_HasValue_m4068_MethodInfo_var);
 		if (!L_38)
 		{
 			goto IL_012c;
@@ -7311,7 +7311,7 @@ IL_0109:
 	}
 	{
 		Dictionary_2_t312 * L_39 = V_0;
-		int32_t L_40 = Nullable_1_get_Value_m4072((&___maxRecipients), /*hidden argument*/Nullable_1_get_Value_m4072_MethodInfo_var);
+		int32_t L_40 = Nullable_1_get_Value_m4069((&___maxRecipients), /*hidden argument*/Nullable_1_get_Value_m4069_MethodInfo_var);
 		int32_t L_41 = L_40;
 		Object_t * L_42 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_41);
 		NullCheck(L_39);
@@ -7369,12 +7369,12 @@ extern TypeInfo* List_1_t115_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t771_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
 extern TypeInfo* FBResult_t281_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
-extern const MethodInfo* List_1__ctor_m4073_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_get_Keys_m4074_MethodInfo_var;
-extern const MethodInfo* KeyCollection_GetEnumerator_m4075_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m4076_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m4077_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m4070_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Keys_m4071_MethodInfo_var;
+extern const MethodInfo* KeyCollection_GetEnumerator_m4072_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m4073_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4074_MethodInfo_var;
 extern "C" void AndroidFacebook_OnAppRequestsComplete_m2344 (AndroidFacebook_t434 * __this, String_t* ___message, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -7387,12 +7387,12 @@ extern "C" void AndroidFacebook_OnAppRequestsComplete_m2344 (AndroidFacebook_t43
 		Enumerator_t771_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(417);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
 		FBResult_t281_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
-		List_1__ctor_m4073_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484083);
-		Dictionary_2_get_Keys_m4074_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484084);
-		KeyCollection_GetEnumerator_m4075_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484085);
-		Enumerator_get_Current_m4076_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484086);
-		Enumerator_MoveNext_m4077_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484087);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		List_1__ctor_m4070_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484083);
+		Dictionary_2_get_Keys_m4071_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484084);
+		KeyCollection_GetEnumerator_m4072_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484085);
+		Enumerator_get_Current_m4073_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484086);
+		Enumerator_MoveNext_m4074_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484087);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
@@ -7422,7 +7422,7 @@ extern "C" void AndroidFacebook_OnAppRequestsComplete_m2344 (AndroidFacebook_t43
 	}
 	{
 		Dictionary_2_t312 * L_4 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_4, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_4, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_1 = L_4;
 		Dictionary_2_t312 * L_5 = V_0;
 		NullCheck(L_5);
@@ -7444,13 +7444,13 @@ extern "C" void AndroidFacebook_OnAppRequestsComplete_m2344 (AndroidFacebook_t43
 		NullCheck(L_10);
 		int32_t L_11 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Count() */, L_10);
 		List_1_t115 * L_12 = (List_1_t115 *)il2cpp_codegen_object_new (List_1_t115_il2cpp_TypeInfo_var);
-		List_1__ctor_m4073(L_12, ((int32_t)((int32_t)L_11-(int32_t)1)), /*hidden argument*/List_1__ctor_m4073_MethodInfo_var);
+		List_1__ctor_m4070(L_12, ((int32_t)((int32_t)L_11-(int32_t)1)), /*hidden argument*/List_1__ctor_m4070_MethodInfo_var);
 		V_3 = L_12;
 		Dictionary_2_t312 * L_13 = V_0;
 		NullCheck(L_13);
-		KeyCollection_t772 * L_14 = Dictionary_2_get_Keys_m4074(L_13, /*hidden argument*/Dictionary_2_get_Keys_m4074_MethodInfo_var);
+		KeyCollection_t772 * L_14 = Dictionary_2_get_Keys_m4071(L_13, /*hidden argument*/Dictionary_2_get_Keys_m4071_MethodInfo_var);
 		NullCheck(L_14);
-		Enumerator_t771  L_15 = KeyCollection_GetEnumerator_m4075(L_14, /*hidden argument*/KeyCollection_GetEnumerator_m4075_MethodInfo_var);
+		Enumerator_t771  L_15 = KeyCollection_GetEnumerator_m4072(L_14, /*hidden argument*/KeyCollection_GetEnumerator_m4072_MethodInfo_var);
 		V_5 = L_15;
 	}
 
@@ -7463,11 +7463,11 @@ IL_0066:
 
 IL_006b:
 		{
-			String_t* L_16 = Enumerator_get_Current_m4076((&V_5), /*hidden argument*/Enumerator_get_Current_m4076_MethodInfo_var);
+			String_t* L_16 = Enumerator_get_Current_m4073((&V_5), /*hidden argument*/Enumerator_get_Current_m4073_MethodInfo_var);
 			V_4 = L_16;
 			String_t* L_17 = V_4;
 			NullCheck(L_17);
-			bool L_18 = String_StartsWith_m4054(L_17, (String_t*) &_stringLiteral178, /*hidden argument*/NULL);
+			bool L_18 = String_StartsWith_m4051(L_17, (String_t*) &_stringLiteral178, /*hidden argument*/NULL);
 			if (L_18)
 			{
 				goto IL_009a;
@@ -7500,7 +7500,7 @@ IL_009a:
 
 IL_00ad:
 		{
-			bool L_28 = Enumerator_MoveNext_m4077((&V_5), /*hidden argument*/Enumerator_MoveNext_m4077_MethodInfo_var);
+			bool L_28 = Enumerator_MoveNext_m4074((&V_5), /*hidden argument*/Enumerator_MoveNext_m4074_MethodInfo_var);
 			if (L_28)
 			{
 				goto IL_006b;
@@ -7575,12 +7575,12 @@ extern TypeInfo* Dictionary_2U5BU5D_t775_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t774_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m4078_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m4079_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m4080_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m4081_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m4082_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m4075_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m4076_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m4077_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m4078_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4079_MethodInfo_var;
 extern "C" void AndroidFacebook_FeedRequest_m2345 (AndroidFacebook_t434 * __this, String_t* ___toId, String_t* ___link, String_t* ___linkName, String_t* ___linkCaption, String_t* ___linkDescription, String_t* ___picture, String_t* ___mediaSource, String_t* ___actionName, String_t* ___actionLink, String_t* ___reference, Dictionary_2_t116 * ___properties, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -7592,12 +7592,12 @@ extern "C" void AndroidFacebook_FeedRequest_m2345 (AndroidFacebook_t434 * __this
 		Enumerator_t774_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(419);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
 		Json_t453_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
-		Dictionary_2_GetEnumerator_m4078_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484088);
-		Enumerator_get_Current_m4079_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484089);
-		KeyValuePair_2_get_Value_m4080_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484090);
-		KeyValuePair_2_get_Key_m4081_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484091);
-		Enumerator_MoveNext_m4082_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484092);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2_GetEnumerator_m4075_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484088);
+		Enumerator_get_Current_m4076_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484089);
+		KeyValuePair_2_get_Value_m4077_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484090);
+		KeyValuePair_2_get_Key_m4078_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484091);
+		Enumerator_MoveNext_m4079_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484092);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
@@ -7614,7 +7614,7 @@ extern "C" void AndroidFacebook_FeedRequest_m2345 (AndroidFacebook_t434 * __this
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		Dictionary_2_t312 * L_0 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_0, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_0, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_0;
 		FacebookDelegate_t433 * L_1 = ___callback;
 		if (!L_1)
@@ -7770,7 +7770,7 @@ IL_00c9:
 	}
 	{
 		Dictionary_2_t312 * L_37 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_37, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_37, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_1 = L_37;
 		Dictionary_2_t312 * L_38 = V_1;
 		String_t* L_39 = ___actionName;
@@ -7818,11 +7818,11 @@ IL_012f:
 	}
 	{
 		Dictionary_2_t312 * L_50 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_50, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_50, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_2 = L_50;
 		Dictionary_2_t116 * L_51 = ___properties;
 		NullCheck(L_51);
-		Enumerator_t774  L_52 = Dictionary_2_GetEnumerator_m4078(L_51, /*hidden argument*/Dictionary_2_GetEnumerator_m4078_MethodInfo_var);
+		Enumerator_t774  L_52 = Dictionary_2_GetEnumerator_m4075(L_51, /*hidden argument*/Dictionary_2_GetEnumerator_m4075_MethodInfo_var);
 		V_4 = L_52;
 	}
 
@@ -7835,9 +7835,9 @@ IL_0145:
 
 IL_014a:
 		{
-			KeyValuePair_2_t773  L_53 = Enumerator_get_Current_m4079((&V_4), /*hidden argument*/Enumerator_get_Current_m4079_MethodInfo_var);
+			KeyValuePair_2_t773  L_53 = Enumerator_get_Current_m4076((&V_4), /*hidden argument*/Enumerator_get_Current_m4076_MethodInfo_var);
 			V_3 = L_53;
-			StringU5BU5D_t75* L_54 = KeyValuePair_2_get_Value_m4080((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4080_MethodInfo_var);
+			StringU5BU5D_t75* L_54 = KeyValuePair_2_get_Value_m4077((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4077_MethodInfo_var);
 			NullCheck(L_54);
 			if ((((int32_t)(((int32_t)(((Array_t *)L_54)->max_length)))) >= ((int32_t)1)))
 			{
@@ -7852,7 +7852,7 @@ IL_0161:
 
 IL_0166:
 		{
-			StringU5BU5D_t75* L_55 = KeyValuePair_2_get_Value_m4080((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4080_MethodInfo_var);
+			StringU5BU5D_t75* L_55 = KeyValuePair_2_get_Value_m4077((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4077_MethodInfo_var);
 			NullCheck(L_55);
 			if ((!(((uint32_t)(((int32_t)(((Array_t *)L_55)->max_length)))) == ((uint32_t)1))))
 			{
@@ -7863,8 +7863,8 @@ IL_0166:
 IL_0175:
 		{
 			Dictionary_2_t312 * L_56 = V_2;
-			String_t* L_57 = KeyValuePair_2_get_Key_m4081((&V_3), /*hidden argument*/KeyValuePair_2_get_Key_m4081_MethodInfo_var);
-			StringU5BU5D_t75* L_58 = KeyValuePair_2_get_Value_m4080((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4080_MethodInfo_var);
+			String_t* L_57 = KeyValuePair_2_get_Key_m4078((&V_3), /*hidden argument*/KeyValuePair_2_get_Key_m4078_MethodInfo_var);
+			StringU5BU5D_t75* L_58 = KeyValuePair_2_get_Value_m4077((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4077_MethodInfo_var);
 			NullCheck(L_58);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_58, 0);
 			int32_t L_59 = 0;
@@ -7876,24 +7876,24 @@ IL_0175:
 IL_0190:
 		{
 			Dictionary_2_t312 * L_60 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-			Dictionary_2__ctor_m3715(L_60, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+			Dictionary_2__ctor_m3712(L_60, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 			V_5 = L_60;
 			Dictionary_2_t312 * L_61 = V_5;
-			StringU5BU5D_t75* L_62 = KeyValuePair_2_get_Value_m4080((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4080_MethodInfo_var);
+			StringU5BU5D_t75* L_62 = KeyValuePair_2_get_Value_m4077((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4077_MethodInfo_var);
 			NullCheck(L_62);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_62, 0);
 			int32_t L_63 = 0;
 			NullCheck(L_61);
 			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_61, (String_t*) &_stringLiteral616, (*(String_t**)(String_t**)SZArrayLdElema(L_62, L_63)));
 			Dictionary_2_t312 * L_64 = V_5;
-			StringU5BU5D_t75* L_65 = KeyValuePair_2_get_Value_m4080((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4080_MethodInfo_var);
+			StringU5BU5D_t75* L_65 = KeyValuePair_2_get_Value_m4077((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4077_MethodInfo_var);
 			NullCheck(L_65);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_65, 1);
 			int32_t L_66 = 1;
 			NullCheck(L_64);
 			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_64, (String_t*) &_stringLiteral858, (*(String_t**)(String_t**)SZArrayLdElema(L_65, L_66)));
 			Dictionary_2_t312 * L_67 = V_2;
-			String_t* L_68 = KeyValuePair_2_get_Key_m4081((&V_3), /*hidden argument*/KeyValuePair_2_get_Key_m4081_MethodInfo_var);
+			String_t* L_68 = KeyValuePair_2_get_Key_m4078((&V_3), /*hidden argument*/KeyValuePair_2_get_Key_m4078_MethodInfo_var);
 			Dictionary_2_t312 * L_69 = V_5;
 			NullCheck(L_67);
 			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_67, L_68, L_69);
@@ -7901,7 +7901,7 @@ IL_0190:
 
 IL_01d0:
 		{
-			bool L_70 = Enumerator_MoveNext_m4082((&V_4), /*hidden argument*/Enumerator_MoveNext_m4082_MethodInfo_var);
+			bool L_70 = Enumerator_MoveNext_m4079((&V_4), /*hidden argument*/Enumerator_MoveNext_m4079_MethodInfo_var);
 			if (L_70)
 			{
 				goto IL_014a;
@@ -7958,11 +7958,11 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t771_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
 extern TypeInfo* FBResult_t281_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_get_Keys_m4074_MethodInfo_var;
-extern const MethodInfo* KeyCollection_GetEnumerator_m4075_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m4076_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m4077_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Keys_m4071_MethodInfo_var;
+extern const MethodInfo* KeyCollection_GetEnumerator_m4072_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m4073_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4074_MethodInfo_var;
 extern "C" void AndroidFacebook_OnFeedRequestComplete_m2346 (AndroidFacebook_t434 * __this, String_t* ___message, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -7974,11 +7974,11 @@ extern "C" void AndroidFacebook_OnFeedRequestComplete_m2346 (AndroidFacebook_t43
 		Enumerator_t771_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(417);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
 		FBResult_t281_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
-		Dictionary_2_get_Keys_m4074_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484084);
-		KeyCollection_GetEnumerator_m4075_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484085);
-		Enumerator_get_Current_m4076_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484086);
-		Enumerator_MoveNext_m4077_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484087);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2_get_Keys_m4071_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484084);
+		KeyCollection_GetEnumerator_m4072_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484085);
+		Enumerator_get_Current_m4073_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484086);
+		Enumerator_MoveNext_m4074_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484087);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
@@ -8007,7 +8007,7 @@ extern "C" void AndroidFacebook_OnFeedRequestComplete_m2346 (AndroidFacebook_t43
 	}
 	{
 		Dictionary_2_t312 * L_4 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_4, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_4, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_1 = L_4;
 		Dictionary_2_t312 * L_5 = V_0;
 		NullCheck(L_5);
@@ -8027,9 +8027,9 @@ extern "C" void AndroidFacebook_OnFeedRequestComplete_m2346 (AndroidFacebook_t43
 	{
 		Dictionary_2_t312 * L_10 = V_0;
 		NullCheck(L_10);
-		KeyCollection_t772 * L_11 = Dictionary_2_get_Keys_m4074(L_10, /*hidden argument*/Dictionary_2_get_Keys_m4074_MethodInfo_var);
+		KeyCollection_t772 * L_11 = Dictionary_2_get_Keys_m4071(L_10, /*hidden argument*/Dictionary_2_get_Keys_m4071_MethodInfo_var);
 		NullCheck(L_11);
-		Enumerator_t771  L_12 = KeyCollection_GetEnumerator_m4075(L_11, /*hidden argument*/KeyCollection_GetEnumerator_m4075_MethodInfo_var);
+		Enumerator_t771  L_12 = KeyCollection_GetEnumerator_m4072(L_11, /*hidden argument*/KeyCollection_GetEnumerator_m4072_MethodInfo_var);
 		V_4 = L_12;
 	}
 
@@ -8042,7 +8042,7 @@ IL_0058:
 
 IL_005d:
 		{
-			String_t* L_13 = Enumerator_get_Current_m4076((&V_4), /*hidden argument*/Enumerator_get_Current_m4076_MethodInfo_var);
+			String_t* L_13 = Enumerator_get_Current_m4073((&V_4), /*hidden argument*/Enumerator_get_Current_m4073_MethodInfo_var);
 			V_3 = L_13;
 			Dictionary_2_t312 * L_14 = V_1;
 			String_t* L_15 = V_3;
@@ -8056,7 +8056,7 @@ IL_005d:
 
 IL_0073:
 		{
-			bool L_19 = Enumerator_MoveNext_m4077((&V_4), /*hidden argument*/Enumerator_MoveNext_m4077_MethodInfo_var);
+			bool L_19 = Enumerator_MoveNext_m4074((&V_4), /*hidden argument*/Enumerator_MoveNext_m4074_MethodInfo_var);
 			if (L_19)
 			{
 				goto IL_005d;
@@ -8132,14 +8132,14 @@ extern "C" void AndroidFacebook_Pay_m2347 (AndroidFacebook_t434 * __this, String
 	}
 	{
 		PlatformNotSupportedException_t776 * L_0 = (PlatformNotSupportedException_t776 *)il2cpp_codegen_object_new (PlatformNotSupportedException_t776_il2cpp_TypeInfo_var);
-		PlatformNotSupportedException__ctor_m4083(L_0, (String_t*) &_stringLiteral861, /*hidden argument*/NULL);
+		PlatformNotSupportedException__ctor_m4080(L_0, (String_t*) &_stringLiteral861, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.Void Facebook.AndroidFacebook::GameGroupCreate(System.String,System.String,System.String,Facebook.FacebookDelegate)
 extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
 extern "C" void AndroidFacebook_GameGroupCreate_m2348 (AndroidFacebook_t434 * __this, String_t* ___name, String_t* ___description, String_t* ___privacy, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8147,13 +8147,13 @@ extern "C" void AndroidFacebook_GameGroupCreate_m2348 (AndroidFacebook_t434 * __
 	{
 		Dictionary_2_t312_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(179);
 		Json_t453_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
 	{
 		Dictionary_2_t312 * L_0 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_0, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_0, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t312 * L_1 = V_0;
 		String_t* L_2 = ___name;
@@ -8193,7 +8193,7 @@ IL_0044:
 // System.Void Facebook.AndroidFacebook::GameGroupJoin(System.String,Facebook.FacebookDelegate)
 extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
 extern "C" void AndroidFacebook_GameGroupJoin_m2349 (AndroidFacebook_t434 * __this, String_t* ___id, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8201,13 +8201,13 @@ extern "C" void AndroidFacebook_GameGroupJoin_m2349 (AndroidFacebook_t434 * __th
 	{
 		Dictionary_2_t312_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(179);
 		Json_t453_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
 	{
 		Dictionary_2_t312 * L_0 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_0, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_0, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t312 * L_1 = V_0;
 		String_t* L_2 = ___id;
@@ -8321,9 +8321,9 @@ IL_0042:
 extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
 extern TypeInfo* Single_t87_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
-extern const MethodInfo* Nullable_1_get_HasValue_m4084_MethodInfo_var;
-extern const MethodInfo* Nullable_1_get_Value_m4085_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m4081_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m4082_MethodInfo_var;
 extern "C" void AndroidFacebook_AppEventsLogEvent_m2352 (AndroidFacebook_t434 * __this, String_t* ___logEvent, Nullable_1_t691  ___valueToSum, Dictionary_2_t312 * ___parameters, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8332,21 +8332,21 @@ extern "C" void AndroidFacebook_AppEventsLogEvent_m2352 (AndroidFacebook_t434 * 
 		Dictionary_2_t312_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(179);
 		Single_t87_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(66);
 		Json_t453_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
-		Nullable_1_get_HasValue_m4084_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484093);
-		Nullable_1_get_Value_m4085_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484094);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Nullable_1_get_HasValue_m4081_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484093);
+		Nullable_1_get_Value_m4082_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484094);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
 	{
 		Dictionary_2_t312 * L_0 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_0, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_0, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t312 * L_1 = V_0;
 		String_t* L_2 = ___logEvent;
 		NullCheck(L_1);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_1, (String_t*) &_stringLiteral867, L_2);
-		bool L_3 = Nullable_1_get_HasValue_m4084((&___valueToSum), /*hidden argument*/Nullable_1_get_HasValue_m4084_MethodInfo_var);
+		bool L_3 = Nullable_1_get_HasValue_m4081((&___valueToSum), /*hidden argument*/Nullable_1_get_HasValue_m4081_MethodInfo_var);
 		if (!L_3)
 		{
 			goto IL_0035;
@@ -8354,7 +8354,7 @@ extern "C" void AndroidFacebook_AppEventsLogEvent_m2352 (AndroidFacebook_t434 * 
 	}
 	{
 		Dictionary_2_t312 * L_4 = V_0;
-		float L_5 = Nullable_1_get_Value_m4085((&___valueToSum), /*hidden argument*/Nullable_1_get_Value_m4085_MethodInfo_var);
+		float L_5 = Nullable_1_get_Value_m4082((&___valueToSum), /*hidden argument*/Nullable_1_get_Value_m4082_MethodInfo_var);
 		float L_6 = L_5;
 		Object_t * L_7 = Box(Single_t87_il2cpp_TypeInfo_var, &L_6);
 		NullCheck(L_4);
@@ -8391,7 +8391,7 @@ extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
 extern TypeInfo* Single_t87_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
 extern "C" void AndroidFacebook_AppEventsLogPurchase_m2353 (AndroidFacebook_t434 * __this, float ___logPurchase, String_t* ___currency, Dictionary_2_t312 * ___parameters, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8401,7 +8401,7 @@ extern "C" void AndroidFacebook_AppEventsLogPurchase_m2353 (AndroidFacebook_t434
 		Single_t87_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(66);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		Json_t453_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
@@ -8414,7 +8414,7 @@ extern "C" void AndroidFacebook_AppEventsLogPurchase_m2353 (AndroidFacebook_t434
 	Dictionary_2_t312 * G_B3_2 = {0};
 	{
 		Dictionary_2_t312 * L_0 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_0, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_0, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t312 * L_1 = V_0;
 		float L_2 = ___logPurchase;
@@ -8480,7 +8480,7 @@ IL_0050:
 // System.Void Facebook.AndroidFacebook::PublishInstall(System.String,Facebook.FacebookDelegate)
 extern TypeInfo* Dictionary_2_t122_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m4052_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m4049_MethodInfo_var;
 extern "C" void AndroidFacebook_PublishInstall_m2354 (AndroidFacebook_t434 * __this, String_t* ___appId, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8488,13 +8488,13 @@ extern "C" void AndroidFacebook_PublishInstall_m2354 (AndroidFacebook_t434 * __t
 	{
 		Dictionary_2_t122_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(182);
 		Json_t453_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
-		Dictionary_2__ctor_m4052_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484078);
+		Dictionary_2__ctor_m4049_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484078);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t122 * V_0 = {0};
 	{
 		Dictionary_2_t122 * L_0 = (Dictionary_2_t122 *)il2cpp_codegen_object_new (Dictionary_2_t122_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m4052(L_0, 2, /*hidden argument*/Dictionary_2__ctor_m4052_MethodInfo_var);
+		Dictionary_2__ctor_m4049(L_0, 2, /*hidden argument*/Dictionary_2__ctor_m4049_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t122 * L_1 = V_0;
 		String_t* L_2 = ___appId;
@@ -8573,7 +8573,7 @@ IL_003d:
 extern TypeInfo* Dictionary_2_t122_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m4052_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m4049_MethodInfo_var;
 extern "C" void AndroidFacebook_ActivateApp_m2356 (AndroidFacebook_t434 * __this, String_t* ___appId, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8582,13 +8582,13 @@ extern "C" void AndroidFacebook_ActivateApp_m2356 (AndroidFacebook_t434 * __this
 		Dictionary_2_t122_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(182);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		Json_t453_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
-		Dictionary_2__ctor_m4052_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484078);
+		Dictionary_2__ctor_m4049_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484078);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t122 * V_0 = {0};
 	{
 		Dictionary_2_t122 * L_0 = (Dictionary_2_t122 *)il2cpp_codegen_object_new (Dictionary_2_t122_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m4052(L_0, 1, /*hidden argument*/Dictionary_2__ctor_m4052_MethodInfo_var);
+		Dictionary_2__ctor_m4049(L_0, 1, /*hidden argument*/Dictionary_2__ctor_m4049_MethodInfo_var);
 		V_0 = L_0;
 		String_t* L_1 = ___appId;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
@@ -8618,12 +8618,12 @@ IL_001e:
 extern TypeInfo* Dictionary_2_t122_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t778_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3695_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m4086_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m4087_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m4088_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m4089_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m4090_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3692_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m4083_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m4084_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m4085_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m4086_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4087_MethodInfo_var;
 extern "C" Dictionary_2_t122 * AndroidFacebook_ToStringDict_m2357 (AndroidFacebook_t434 * __this, Dictionary_2_t312 * ___dict, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8632,12 +8632,12 @@ extern "C" Dictionary_2_t122 * AndroidFacebook_ToStringDict_m2357 (AndroidFacebo
 		Dictionary_2_t122_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(182);
 		Enumerator_t778_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(421);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		Dictionary_2__ctor_m3695_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483707);
-		Dictionary_2_GetEnumerator_m4086_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484095);
-		Enumerator_get_Current_m4087_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484096);
-		KeyValuePair_2_get_Key_m4088_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484097);
-		KeyValuePair_2_get_Value_m4089_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484098);
-		Enumerator_MoveNext_m4090_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484099);
+		Dictionary_2__ctor_m3692_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483707);
+		Dictionary_2_GetEnumerator_m4083_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484095);
+		Enumerator_get_Current_m4084_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484096);
+		KeyValuePair_2_get_Key_m4085_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484097);
+		KeyValuePair_2_get_Value_m4086_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484098);
+		Enumerator_MoveNext_m4087_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484099);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t122 * V_0 = {0};
@@ -8663,11 +8663,11 @@ extern "C" Dictionary_2_t122 * AndroidFacebook_ToStringDict_m2357 (AndroidFacebo
 IL_0008:
 	{
 		Dictionary_2_t122 * L_1 = (Dictionary_2_t122 *)il2cpp_codegen_object_new (Dictionary_2_t122_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3695(L_1, /*hidden argument*/Dictionary_2__ctor_m3695_MethodInfo_var);
+		Dictionary_2__ctor_m3692(L_1, /*hidden argument*/Dictionary_2__ctor_m3692_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t312 * L_2 = ___dict;
 		NullCheck(L_2);
-		Enumerator_t778  L_3 = Dictionary_2_GetEnumerator_m4086(L_2, /*hidden argument*/Dictionary_2_GetEnumerator_m4086_MethodInfo_var);
+		Enumerator_t778  L_3 = Dictionary_2_GetEnumerator_m4083(L_2, /*hidden argument*/Dictionary_2_GetEnumerator_m4083_MethodInfo_var);
 		V_2 = L_3;
 	}
 
@@ -8680,11 +8680,11 @@ IL_0015:
 
 IL_001a:
 		{
-			KeyValuePair_2_t777  L_4 = Enumerator_get_Current_m4087((&V_2), /*hidden argument*/Enumerator_get_Current_m4087_MethodInfo_var);
+			KeyValuePair_2_t777  L_4 = Enumerator_get_Current_m4084((&V_2), /*hidden argument*/Enumerator_get_Current_m4084_MethodInfo_var);
 			V_1 = L_4;
 			Dictionary_2_t122 * L_5 = V_0;
-			String_t* L_6 = KeyValuePair_2_get_Key_m4088((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m4088_MethodInfo_var);
-			Object_t * L_7 = KeyValuePair_2_get_Value_m4089((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m4089_MethodInfo_var);
+			String_t* L_6 = KeyValuePair_2_get_Key_m4085((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m4085_MethodInfo_var);
+			Object_t * L_7 = KeyValuePair_2_get_Value_m4086((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m4086_MethodInfo_var);
 			NullCheck(L_7);
 			String_t* L_8 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_7);
 			NullCheck(L_5);
@@ -8693,7 +8693,7 @@ IL_001a:
 
 IL_003b:
 		{
-			bool L_9 = Enumerator_MoveNext_m4090((&V_2), /*hidden argument*/Enumerator_MoveNext_m4090_MethodInfo_var);
+			bool L_9 = Enumerator_MoveNext_m4087((&V_2), /*hidden argument*/Enumerator_MoveNext_m4087_MethodInfo_var);
 			if (L_9)
 			{
 				goto IL_001a;
@@ -8737,9 +8737,9 @@ extern "C" DateTime_t287  AndroidFacebook_FromTimestamp_m2358 (AndroidFacebook_t
 {
 	DateTime_t287  V_0 = {0};
 	{
-		DateTime__ctor_m3934((&V_0), ((int32_t)1970), 1, 1, 0, 0, 0, 0, /*hidden argument*/NULL);
+		DateTime__ctor_m3931((&V_0), ((int32_t)1970), 1, 1, 0, 0, 0, 0, /*hidden argument*/NULL);
 		int32_t L_0 = ___timestamp;
-		DateTime_t287  L_1 = DateTime_AddSeconds_m4091((&V_0), (((double)L_0)), /*hidden argument*/NULL);
+		DateTime_t287  L_1 = DateTime_AddSeconds_m4088((&V_0), (((double)L_0)), /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -8755,7 +8755,7 @@ struct FBComponentFactory_t428;
 struct AndroidFacebook_t434;
 // Declaration !!0 Facebook.FBComponentFactory::GetComponent<Facebook.AndroidFacebook>(Facebook.IfNotExist)
 // !!0 Facebook.FBComponentFactory::GetComponent<Facebook.AndroidFacebook>(Facebook.IfNotExist)
-#define FBComponentFactory_GetComponent_TisAndroidFacebook_t434_m4092(__this /* static, unused */, p0, method) (( AndroidFacebook_t434 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4056_gshared)(__this /* static, unused */, p0, method)
+#define FBComponentFactory_GetComponent_TisAndroidFacebook_t434_m4089(__this /* static, unused */, p0, method) (( AndroidFacebook_t434 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4053_gshared)(__this /* static, unused */, p0, method)
 
 
 // System.Void Facebook.AndroidFacebookLoader::.ctor()
@@ -8767,17 +8767,17 @@ extern "C" void AndroidFacebookLoader__ctor_m2359 (AndroidFacebookLoader_t435 * 
 	}
 }
 // Facebook.AbstractFacebook Facebook.AndroidFacebookLoader::get_fb()
-extern const MethodInfo* FBComponentFactory_GetComponent_TisAndroidFacebook_t434_m4092_MethodInfo_var;
+extern const MethodInfo* FBComponentFactory_GetComponent_TisAndroidFacebook_t434_m4089_MethodInfo_var;
 extern "C" AbstractFacebook_t414 * AndroidFacebookLoader_get_fb_m2360 (AndroidFacebookLoader_t435 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		FBComponentFactory_GetComponent_TisAndroidFacebook_t434_m4092_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484100);
+		FBComponentFactory_GetComponent_TisAndroidFacebook_t434_m4089_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484100);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		AndroidFacebook_t434 * L_0 = FBComponentFactory_GetComponent_TisAndroidFacebook_t434_m4092(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisAndroidFacebook_t434_m4092_MethodInfo_var);
+		AndroidFacebook_t434 * L_0 = FBComponentFactory_GetComponent_TisAndroidFacebook_t434_m4089(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisAndroidFacebook_t434_m4089_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -8805,7 +8805,7 @@ struct GameObject_t352;
 struct JsBridge_t438;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<Facebook.JsBridge>()
 // !!0 UnityEngine.GameObject::AddComponent<Facebook.JsBridge>()
-#define GameObject_AddComponent_TisJsBridge_t438_m4093(__this, method) (( JsBridge_t438 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m3857_gshared)(__this, method)
+#define GameObject_AddComponent_TisJsBridge_t438_m4090(__this, method) (( JsBridge_t438 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m3854_gshared)(__this, method)
 
 
 // System.Void Facebook.CanvasFacebook::.ctor()
@@ -8829,32 +8829,32 @@ extern "C" void CanvasFacebook__ctor_m2361 (CanvasFacebook_t436 * __this, const 
 }
 // System.Void Facebook.CanvasFacebook::OnAwake()
 extern TypeInfo* GameObject_t352_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisJsBridge_t438_m4093_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisJsBridge_t438_m4090_MethodInfo_var;
 extern "C" void CanvasFacebook_OnAwake_m2362 (CanvasFacebook_t436 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t352_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(278);
-		GameObject_AddComponent_TisJsBridge_t438_m4093_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484101);
+		GameObject_AddComponent_TisJsBridge_t438_m4090_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484101);
 		s_Il2CppMethodIntialized = true;
 	}
 	GameObject_t352 * V_0 = {0};
 	{
 		GameObject_t352 * L_0 = (GameObject_t352 *)il2cpp_codegen_object_new (GameObject_t352_il2cpp_TypeInfo_var);
-		GameObject__ctor_m3858(L_0, (String_t*) &_stringLiteral877, /*hidden argument*/NULL);
+		GameObject__ctor_m3855(L_0, (String_t*) &_stringLiteral877, /*hidden argument*/NULL);
 		V_0 = L_0;
 		GameObject_t352 * L_1 = V_0;
 		NullCheck(L_1);
-		GameObject_AddComponent_TisJsBridge_t438_m4093(L_1, /*hidden argument*/GameObject_AddComponent_TisJsBridge_t438_m4093_MethodInfo_var);
+		GameObject_AddComponent_TisJsBridge_t438_m4090(L_1, /*hidden argument*/GameObject_AddComponent_TisJsBridge_t438_m4090_MethodInfo_var);
 		GameObject_t352 * L_2 = V_0;
 		NullCheck(L_2);
-		Transform_t406 * L_3 = GameObject_get_transform_m4039(L_2, /*hidden argument*/NULL);
-		GameObject_t352 * L_4 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_3 = GameObject_get_transform_m4036(L_2, /*hidden argument*/NULL);
+		GameObject_t352 * L_4 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		Transform_t406 * L_5 = GameObject_get_transform_m4039(L_4, /*hidden argument*/NULL);
+		Transform_t406 * L_5 = GameObject_get_transform_m4036(L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Transform_set_parent_m4094(L_3, L_5, /*hidden argument*/NULL);
+		Transform_set_parent_m4091(L_3, L_5, /*hidden argument*/NULL);
 		String_t* L_6 = CanvasFacebook_StringFromFile_m2384(__this, (String_t*) &_stringLiteral878, /*hidden argument*/NULL);
 		__this->___integrationMethodJs_22 = L_6;
 		return;
@@ -8886,7 +8886,7 @@ extern TypeInfo* Boolean_t59_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
 extern TypeInfo* ObjectU5BU5D_t682_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
 extern "C" void CanvasFacebook_Init_m2365 (CanvasFacebook_t436 * __this, InitDelegate_t419 * ___onInitComplete, String_t* ___appId, bool ___cookie, bool ___logging, bool ___status, bool ___xfbml, String_t* ___channelUrl, String_t* ___authResponse, bool ___frictionlessRequests, HideUnityDelegate_t420 * ___hideUnityDelegate, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8900,7 +8900,7 @@ extern "C" void CanvasFacebook_Init_m2365 (CanvasFacebook_t436 * __this, InitDel
 		Json_t453_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
 		ObjectU5BU5D_t682_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(171);
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
@@ -8956,7 +8956,7 @@ extern "C" void CanvasFacebook_Init_m2365 (CanvasFacebook_t436 * __this, InitDel
 	}
 	{
 		ArgumentException_t711 * L_2 = (ArgumentException_t711 *)il2cpp_codegen_object_new (ArgumentException_t711_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m4069(L_2, (String_t*) &_stringLiteral830, /*hidden argument*/NULL);
+		ArgumentException__ctor_m4066(L_2, (String_t*) &_stringLiteral830, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -8981,7 +8981,7 @@ IL_002c:
 		HideUnityDelegate_t420 * L_6 = ___hideUnityDelegate;
 		__this->___OnHideUnity_21 = L_6;
 		Dictionary_2_t312 * L_7 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_7, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_7, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_7;
 		String_t* L_8 = ___appId;
 		__this->___appId_23 = L_8;
@@ -9111,7 +9111,7 @@ IL_00fd:
 		String_t* L_41 = Json_Serialize_m2512(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
 		V_1 = L_41;
 		String_t* L_42 = (__this->___integrationMethodJs_22);
-		Application_ExternalEval_m4095(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
+		Application_ExternalEval_m4092(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
 		V_2 = 1;
 		ObjectU5BU5D_t682* L_43 = ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 6));
 		bool L_44 = V_2;
@@ -9253,7 +9253,7 @@ IL_0180:
 		IL2CPP_ARRAY_BOUNDS_CHECK(G_B27_2, G_B27_1);
 		ArrayElementTypeCheck (G_B27_2, L_59);
 		*((Object_t **)(Object_t **)SZArrayLdElema(G_B27_2, G_B27_1)) = (Object_t *)L_59;
-		Application_ExternalCall_m4067(NULL /*static, unused*/, G_B27_4, G_B27_3, /*hidden argument*/NULL);
+		Application_ExternalCall_m4064(NULL /*static, unused*/, G_B27_4, G_B27_3, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -9268,14 +9268,14 @@ extern "C" void CanvasFacebook_Login_m2366 (CanvasFacebook_t436 * __this, String
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = Screen_get_fullScreen_m4096(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = Screen_get_fullScreen_m4093(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_0010;
 		}
 	}
 	{
-		Screen_set_fullScreen_m4097(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		Screen_set_fullScreen_m4094(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 	}
 
 IL_0010:
@@ -9288,7 +9288,7 @@ IL_0010:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
 		ArrayElementTypeCheck (L_2, L_3);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 0)) = (Object_t *)L_3;
-		Application_ExternalCall_m4067(NULL /*static, unused*/, (String_t*) &_stringLiteral884, L_2, /*hidden argument*/NULL);
+		Application_ExternalCall_m4064(NULL /*static, unused*/, (String_t*) &_stringLiteral884, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -9316,7 +9316,7 @@ extern "C" void CanvasFacebook_Logout_m2367 (CanvasFacebook_t436 * __this, const
 		((AbstractFacebook_t414 *)__this)->___isLoggedIn_5 = 0;
 		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		((AbstractFacebook_t414 *)__this)->___userId_6 = L_2;
-		Application_ExternalCall_m4067(NULL /*static, unused*/, (String_t*) &_stringLiteral885, ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		Application_ExternalCall_m4064(NULL /*static, unused*/, (String_t*) &_stringLiteral885, ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -9325,9 +9325,9 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
-extern const MethodInfo* Nullable_1_get_HasValue_m4071_MethodInfo_var;
-extern const MethodInfo* Nullable_1_get_Value_m4072_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m4068_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m4069_MethodInfo_var;
 extern "C" void CanvasFacebook_AppRequest_m2368 (CanvasFacebook_t436 * __this, String_t* ___message, OGActionType_t432 * ___actionType, String_t* ___objectId, StringU5BU5D_t75* ___to, List_1_t684 * ___filters, StringU5BU5D_t75* ___excludeIds, Nullable_1_t690  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -9337,9 +9337,9 @@ extern "C" void CanvasFacebook_AppRequest_m2368 (CanvasFacebook_t436 * __this, S
 		ArgumentNullException_t770_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
 		Dictionary_2_t312_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(179);
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
-		Nullable_1_get_HasValue_m4071_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484081);
-		Nullable_1_get_Value_m4072_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484082);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Nullable_1_get_HasValue_m4068_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484081);
+		Nullable_1_get_Value_m4069_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484082);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
@@ -9354,7 +9354,7 @@ extern "C" void CanvasFacebook_AppRequest_m2368 (CanvasFacebook_t436 * __this, S
 	}
 	{
 		ArgumentNullException_t770 * L_2 = (ArgumentNullException_t770 *)il2cpp_codegen_object_new (ArgumentNullException_t770_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4070(L_2, (String_t*) &_stringLiteral158, (String_t*) &_stringLiteral843, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m4067(L_2, (String_t*) &_stringLiteral158, (String_t*) &_stringLiteral843, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -9377,7 +9377,7 @@ IL_001b:
 	}
 	{
 		ArgumentNullException_t770 * L_6 = (ArgumentNullException_t770 *)il2cpp_codegen_object_new (ArgumentNullException_t770_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4070(L_6, (String_t*) &_stringLiteral844, (String_t*) &_stringLiteral845, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m4067(L_6, (String_t*) &_stringLiteral844, (String_t*) &_stringLiteral845, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -9400,14 +9400,14 @@ IL_003c:
 	}
 	{
 		ArgumentNullException_t770 * L_10 = (ArgumentNullException_t770 *)il2cpp_codegen_object_new (ArgumentNullException_t770_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4070(L_10, (String_t*) &_stringLiteral846, (String_t*) &_stringLiteral847, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m4067(L_10, (String_t*) &_stringLiteral846, (String_t*) &_stringLiteral847, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 
 IL_005d:
 	{
 		Dictionary_2_t312 * L_11 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_11, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_11, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_11;
 		Dictionary_2_t312 * L_12 = V_0;
 		String_t* L_13 = ___message;
@@ -9423,7 +9423,7 @@ IL_005d:
 		Dictionary_2_t312 * L_15 = V_0;
 		StringU5BU5D_t75* L_16 = ___to;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_17 = String_Join_m3787(NULL /*static, unused*/, (String_t*) &_stringLiteral303, L_16, /*hidden argument*/NULL);
+		String_t* L_17 = String_Join_m3784(NULL /*static, unused*/, (String_t*) &_stringLiteral303, L_16, /*hidden argument*/NULL);
 		NullCheck(L_15);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_15, (String_t*) &_stringLiteral178, L_17);
 	}
@@ -9490,7 +9490,7 @@ IL_00cf:
 
 IL_00e3:
 	{
-		bool L_32 = Nullable_1_get_HasValue_m4071((&___maxRecipients), /*hidden argument*/Nullable_1_get_HasValue_m4071_MethodInfo_var);
+		bool L_32 = Nullable_1_get_HasValue_m4068((&___maxRecipients), /*hidden argument*/Nullable_1_get_HasValue_m4068_MethodInfo_var);
 		if (!L_32)
 		{
 			goto IL_0106;
@@ -9498,7 +9498,7 @@ IL_00e3:
 	}
 	{
 		Dictionary_2_t312 * L_33 = V_0;
-		int32_t L_34 = Nullable_1_get_Value_m4072((&___maxRecipients), /*hidden argument*/Nullable_1_get_Value_m4072_MethodInfo_var);
+		int32_t L_34 = Nullable_1_get_Value_m4069((&___maxRecipients), /*hidden argument*/Nullable_1_get_Value_m4069_MethodInfo_var);
 		int32_t L_35 = L_34;
 		Object_t * L_36 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_35);
 		NullCheck(L_33);
@@ -9566,7 +9566,7 @@ extern "C" void CanvasFacebook_ActivateApp_m2370 (CanvasFacebook_t436 * __this, 
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Application_ExternalCall_m4067(NULL /*static, unused*/, (String_t*) &_stringLiteral889, ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		Application_ExternalCall_m4064(NULL /*static, unused*/, (String_t*) &_stringLiteral889, ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -9577,12 +9577,12 @@ extern TypeInfo* Dictionary_2U5BU5D_t775_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t774_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m4078_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m4079_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m4080_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m4081_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m4082_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m4075_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m4076_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m4077_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m4078_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4079_MethodInfo_var;
 extern "C" void CanvasFacebook_FeedRequest_m2371 (CanvasFacebook_t436 * __this, String_t* ___toId, String_t* ___link, String_t* ___linkName, String_t* ___linkCaption, String_t* ___linkDescription, String_t* ___picture, String_t* ___mediaSource, String_t* ___actionName, String_t* ___actionLink, String_t* ___reference, Dictionary_2_t116 * ___properties, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -9594,12 +9594,12 @@ extern "C" void CanvasFacebook_FeedRequest_m2371 (CanvasFacebook_t436 * __this, 
 		Json_t453_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
 		Enumerator_t774_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(419);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
-		Dictionary_2_GetEnumerator_m4078_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484088);
-		Enumerator_get_Current_m4079_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484089);
-		KeyValuePair_2_get_Value_m4080_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484090);
-		KeyValuePair_2_get_Key_m4081_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484091);
-		Enumerator_MoveNext_m4082_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484092);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2_GetEnumerator_m4075_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484088);
+		Enumerator_get_Current_m4076_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484089);
+		KeyValuePair_2_get_Value_m4077_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484090);
+		KeyValuePair_2_get_Key_m4078_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484091);
+		Enumerator_MoveNext_m4079_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484092);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
@@ -9616,7 +9616,7 @@ extern "C" void CanvasFacebook_FeedRequest_m2371 (CanvasFacebook_t436 * __this, 
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		Dictionary_2_t312 * L_0 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_0, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_0, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_0;
 		String_t* L_1 = ___toId;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
@@ -9756,7 +9756,7 @@ IL_00af:
 	}
 	{
 		Dictionary_2_t312 * L_33 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_33, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_33, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_1 = L_33;
 		Dictionary_2_t312 * L_34 = V_1;
 		String_t* L_35 = ___actionName;
@@ -9806,11 +9806,11 @@ IL_011a:
 	}
 	{
 		Dictionary_2_t312 * L_47 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_47, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_47, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_2 = L_47;
 		Dictionary_2_t116 * L_48 = ___properties;
 		NullCheck(L_48);
-		Enumerator_t774  L_49 = Dictionary_2_GetEnumerator_m4078(L_48, /*hidden argument*/Dictionary_2_GetEnumerator_m4078_MethodInfo_var);
+		Enumerator_t774  L_49 = Dictionary_2_GetEnumerator_m4075(L_48, /*hidden argument*/Dictionary_2_GetEnumerator_m4075_MethodInfo_var);
 		V_4 = L_49;
 	}
 
@@ -9823,9 +9823,9 @@ IL_0130:
 
 IL_0135:
 		{
-			KeyValuePair_2_t773  L_50 = Enumerator_get_Current_m4079((&V_4), /*hidden argument*/Enumerator_get_Current_m4079_MethodInfo_var);
+			KeyValuePair_2_t773  L_50 = Enumerator_get_Current_m4076((&V_4), /*hidden argument*/Enumerator_get_Current_m4076_MethodInfo_var);
 			V_3 = L_50;
-			StringU5BU5D_t75* L_51 = KeyValuePair_2_get_Value_m4080((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4080_MethodInfo_var);
+			StringU5BU5D_t75* L_51 = KeyValuePair_2_get_Value_m4077((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4077_MethodInfo_var);
 			NullCheck(L_51);
 			if ((((int32_t)(((int32_t)(((Array_t *)L_51)->max_length)))) >= ((int32_t)1)))
 			{
@@ -9840,7 +9840,7 @@ IL_014c:
 
 IL_0151:
 		{
-			StringU5BU5D_t75* L_52 = KeyValuePair_2_get_Value_m4080((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4080_MethodInfo_var);
+			StringU5BU5D_t75* L_52 = KeyValuePair_2_get_Value_m4077((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4077_MethodInfo_var);
 			NullCheck(L_52);
 			if ((!(((uint32_t)(((int32_t)(((Array_t *)L_52)->max_length)))) == ((uint32_t)1))))
 			{
@@ -9851,8 +9851,8 @@ IL_0151:
 IL_0160:
 		{
 			Dictionary_2_t312 * L_53 = V_2;
-			String_t* L_54 = KeyValuePair_2_get_Key_m4081((&V_3), /*hidden argument*/KeyValuePair_2_get_Key_m4081_MethodInfo_var);
-			StringU5BU5D_t75* L_55 = KeyValuePair_2_get_Value_m4080((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4080_MethodInfo_var);
+			String_t* L_54 = KeyValuePair_2_get_Key_m4078((&V_3), /*hidden argument*/KeyValuePair_2_get_Key_m4078_MethodInfo_var);
+			StringU5BU5D_t75* L_55 = KeyValuePair_2_get_Value_m4077((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4077_MethodInfo_var);
 			NullCheck(L_55);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_55, 0);
 			int32_t L_56 = 0;
@@ -9864,24 +9864,24 @@ IL_0160:
 IL_017b:
 		{
 			Dictionary_2_t312 * L_57 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-			Dictionary_2__ctor_m3715(L_57, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+			Dictionary_2__ctor_m3712(L_57, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 			V_5 = L_57;
 			Dictionary_2_t312 * L_58 = V_5;
-			StringU5BU5D_t75* L_59 = KeyValuePair_2_get_Value_m4080((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4080_MethodInfo_var);
+			StringU5BU5D_t75* L_59 = KeyValuePair_2_get_Value_m4077((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4077_MethodInfo_var);
 			NullCheck(L_59);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_59, 0);
 			int32_t L_60 = 0;
 			NullCheck(L_58);
 			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_58, (String_t*) &_stringLiteral616, (*(String_t**)(String_t**)SZArrayLdElema(L_59, L_60)));
 			Dictionary_2_t312 * L_61 = V_5;
-			StringU5BU5D_t75* L_62 = KeyValuePair_2_get_Value_m4080((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4080_MethodInfo_var);
+			StringU5BU5D_t75* L_62 = KeyValuePair_2_get_Value_m4077((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m4077_MethodInfo_var);
 			NullCheck(L_62);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_62, 1);
 			int32_t L_63 = 1;
 			NullCheck(L_61);
 			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_61, (String_t*) &_stringLiteral858, (*(String_t**)(String_t**)SZArrayLdElema(L_62, L_63)));
 			Dictionary_2_t312 * L_64 = V_2;
-			String_t* L_65 = KeyValuePair_2_get_Key_m4081((&V_3), /*hidden argument*/KeyValuePair_2_get_Key_m4081_MethodInfo_var);
+			String_t* L_65 = KeyValuePair_2_get_Key_m4078((&V_3), /*hidden argument*/KeyValuePair_2_get_Key_m4078_MethodInfo_var);
 			Dictionary_2_t312 * L_66 = V_5;
 			NullCheck(L_64);
 			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_64, L_65, L_66);
@@ -9889,7 +9889,7 @@ IL_017b:
 
 IL_01bb:
 		{
-			bool L_67 = Enumerator_MoveNext_m4082((&V_4), /*hidden argument*/Enumerator_MoveNext_m4082_MethodInfo_var);
+			bool L_67 = Enumerator_MoveNext_m4079((&V_4), /*hidden argument*/Enumerator_MoveNext_m4079_MethodInfo_var);
 			if (L_67)
 			{
 				goto IL_0135;
@@ -9944,9 +9944,9 @@ IL_01ea:
 extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t82_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
-extern const MethodInfo* Nullable_1_get_HasValue_m4071_MethodInfo_var;
-extern const MethodInfo* Nullable_1_get_Value_m4072_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m4068_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m4069_MethodInfo_var;
 extern "C" void CanvasFacebook_Pay_m2372 (CanvasFacebook_t436 * __this, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t690  ___quantityMin, Nullable_1_t690  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -9955,15 +9955,15 @@ extern "C" void CanvasFacebook_Pay_m2372 (CanvasFacebook_t436 * __this, String_t
 		Dictionary_2_t312_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(179);
 		Int32_t82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
-		Nullable_1_get_HasValue_m4071_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484081);
-		Nullable_1_get_Value_m4072_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484082);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Nullable_1_get_HasValue_m4068_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484081);
+		Nullable_1_get_Value_m4069_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484082);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
 	{
 		Dictionary_2_t312 * L_0 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_0, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_0, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t312 * L_1 = V_0;
 		String_t* L_2 = ___product;
@@ -9979,7 +9979,7 @@ extern "C" void CanvasFacebook_Pay_m2372 (CanvasFacebook_t436 * __this, String_t
 		Object_t * L_8 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_7);
 		NullCheck(L_5);
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_5, (String_t*) &_stringLiteral892, L_8);
-		bool L_9 = Nullable_1_get_HasValue_m4071((&___quantityMin), /*hidden argument*/Nullable_1_get_HasValue_m4071_MethodInfo_var);
+		bool L_9 = Nullable_1_get_HasValue_m4068((&___quantityMin), /*hidden argument*/Nullable_1_get_HasValue_m4068_MethodInfo_var);
 		if (!L_9)
 		{
 			goto IL_0052;
@@ -9987,7 +9987,7 @@ extern "C" void CanvasFacebook_Pay_m2372 (CanvasFacebook_t436 * __this, String_t
 	}
 	{
 		Dictionary_2_t312 * L_10 = V_0;
-		int32_t L_11 = Nullable_1_get_Value_m4072((&___quantityMin), /*hidden argument*/Nullable_1_get_Value_m4072_MethodInfo_var);
+		int32_t L_11 = Nullable_1_get_Value_m4069((&___quantityMin), /*hidden argument*/Nullable_1_get_Value_m4069_MethodInfo_var);
 		int32_t L_12 = L_11;
 		Object_t * L_13 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_12);
 		NullCheck(L_10);
@@ -9996,7 +9996,7 @@ extern "C" void CanvasFacebook_Pay_m2372 (CanvasFacebook_t436 * __this, String_t
 
 IL_0052:
 	{
-		bool L_14 = Nullable_1_get_HasValue_m4071((&___quantityMax), /*hidden argument*/Nullable_1_get_HasValue_m4071_MethodInfo_var);
+		bool L_14 = Nullable_1_get_HasValue_m4068((&___quantityMax), /*hidden argument*/Nullable_1_get_HasValue_m4068_MethodInfo_var);
 		if (!L_14)
 		{
 			goto IL_0075;
@@ -10004,7 +10004,7 @@ IL_0052:
 	}
 	{
 		Dictionary_2_t312 * L_15 = V_0;
-		int32_t L_16 = Nullable_1_get_Value_m4072((&___quantityMax), /*hidden argument*/Nullable_1_get_Value_m4072_MethodInfo_var);
+		int32_t L_16 = Nullable_1_get_Value_m4069((&___quantityMax), /*hidden argument*/Nullable_1_get_Value_m4069_MethodInfo_var);
 		int32_t L_17 = L_16;
 		Object_t * L_18 = Box(Int32_t82_il2cpp_TypeInfo_var, &L_17);
 		NullCheck(L_15);
@@ -10072,20 +10072,20 @@ IL_00c0:
 }
 // System.Void Facebook.CanvasFacebook::GameGroupCreate(System.String,System.String,System.String,Facebook.FacebookDelegate)
 extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
 extern "C" void CanvasFacebook_GameGroupCreate_m2373 (CanvasFacebook_t436 * __this, String_t* ___name, String_t* ___description, String_t* ___privacy, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t312_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(179);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
 	{
 		Dictionary_2_t312 * L_0 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_0, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_0, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t312 * L_1 = V_0;
 		String_t* L_2 = ___name;
@@ -10110,20 +10110,20 @@ extern "C" void CanvasFacebook_GameGroupCreate_m2373 (CanvasFacebook_t436 * __th
 }
 // System.Void Facebook.CanvasFacebook::GameGroupJoin(System.String,Facebook.FacebookDelegate)
 extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
 extern "C" void CanvasFacebook_GameGroupJoin_m2374 (CanvasFacebook_t436 * __this, String_t* ___id, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t312_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(179);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
 	{
 		Dictionary_2_t312 * L_0 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_0, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_0, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t312 * L_1 = V_0;
 		String_t* L_2 = ___id;
@@ -10142,7 +10142,7 @@ extern "C" void CanvasFacebook_GameGroupJoin_m2374 (CanvasFacebook_t436 * __this
 extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
 extern TypeInfo* ObjectU5BU5D_t682_il2cpp_TypeInfo_var;
 extern TypeInfo* Json_t453_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m4098_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m4095_MethodInfo_var;
 extern "C" void CanvasFacebook_UI_m2375 (CanvasFacebook_t436 * __this, String_t* ___method, Dictionary_2_t312 * ___paramsDict, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -10151,27 +10151,27 @@ extern "C" void CanvasFacebook_UI_m2375 (CanvasFacebook_t436 * __this, String_t*
 		Dictionary_2_t312_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(179);
 		ObjectU5BU5D_t682_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(171);
 		Json_t453_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(178);
-		Dictionary_2__ctor_m4098_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484102);
+		Dictionary_2__ctor_m4095_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484102);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
 	String_t* V_1 = {0};
 	{
-		bool L_0 = Screen_get_fullScreen_m4096(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = Screen_get_fullScreen_m4093(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_0010;
 		}
 	}
 	{
-		Screen_set_fullScreen_m4097(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		Screen_set_fullScreen_m4094(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 	}
 
 IL_0010:
 	{
 		Dictionary_2_t312 * L_1 = ___paramsDict;
 		Dictionary_2_t312 * L_2 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m4098(L_2, L_1, /*hidden argument*/Dictionary_2__ctor_m4098_MethodInfo_var);
+		Dictionary_2__ctor_m4095(L_2, L_1, /*hidden argument*/Dictionary_2__ctor_m4095_MethodInfo_var);
 		V_0 = L_2;
 		Dictionary_2_t312 * L_3 = V_0;
 		String_t* L_4 = (__this->___appId_23);
@@ -10198,7 +10198,7 @@ IL_0010:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 1);
 		ArrayElementTypeCheck (L_12, L_13);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 1)) = (Object_t *)L_13;
-		Application_ExternalCall_m4067(NULL /*static, unused*/, (String_t*) &_stringLiteral904, L_12, /*hidden argument*/NULL);
+		Application_ExternalCall_m4064(NULL /*static, unused*/, (String_t*) &_stringLiteral904, L_12, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -10270,7 +10270,7 @@ extern "C" void CanvasFacebook_AppEventsLogEvent_m2377 (CanvasFacebook_t436 * __
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 2);
 		ArrayElementTypeCheck (L_6, L_8);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 2)) = (Object_t *)L_8;
-		Application_ExternalCall_m4067(NULL /*static, unused*/, (String_t*) &_stringLiteral905, L_6, /*hidden argument*/NULL);
+		Application_ExternalCall_m4064(NULL /*static, unused*/, (String_t*) &_stringLiteral905, L_6, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -10311,7 +10311,7 @@ extern "C" void CanvasFacebook_AppEventsLogPurchase_m2378 (CanvasFacebook_t436 *
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 2);
 		ArrayElementTypeCheck (L_6, L_8);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 2)) = (Object_t *)L_8;
-		Application_ExternalCall_m4067(NULL /*static, unused*/, (String_t*) &_stringLiteral906, L_6, /*hidden argument*/NULL);
+		Application_ExternalCall_m4064(NULL /*static, unused*/, (String_t*) &_stringLiteral906, L_6, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -10385,12 +10385,12 @@ IL_002a:
 		Object_t * L_12 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_11, (String_t*) &_stringLiteral907);
 		((AbstractFacebook_t414 *)__this)->___accessToken_7 = ((String_t*)IsInst(L_12, String_t_il2cpp_TypeInfo_var));
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		DateTime_t287  L_13 = DateTime_get_Now_m3940(NULL /*static, unused*/, /*hidden argument*/NULL);
+		DateTime_t287  L_13 = DateTime_get_Now_m3937(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_2 = L_13;
 		Dictionary_2_t312 * L_14 = V_1;
 		NullCheck(L_14);
 		Object_t * L_15 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_14, (String_t*) &_stringLiteral908);
-		DateTime_t287  L_16 = DateTime_AddSeconds_m4091((&V_2), (((double)((*(int64_t*)((int64_t*)UnBox (L_15, Int64_t89_il2cpp_TypeInfo_var)))))), /*hidden argument*/NULL);
+		DateTime_t287  L_16 = DateTime_AddSeconds_m4088((&V_2), (((double)((*(int64_t*)((int64_t*)UnBox (L_15, Int64_t89_il2cpp_TypeInfo_var)))))), /*hidden argument*/NULL);
 		((AbstractFacebook_t414 *)__this)->___accessTokenExpiresAt_8 = L_16;
 		Dictionary_2_t312 * L_17 = V_1;
 		NullCheck(L_17);
@@ -10500,12 +10500,12 @@ IL_001d:
 		Object_t * L_7 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_6, (String_t*) &_stringLiteral907);
 		((AbstractFacebook_t414 *)__this)->___accessToken_7 = ((String_t*)IsInst(L_7, String_t_il2cpp_TypeInfo_var));
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		DateTime_t287  L_8 = DateTime_get_Now_m3940(NULL /*static, unused*/, /*hidden argument*/NULL);
+		DateTime_t287  L_8 = DateTime_get_Now_m3937(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_2 = L_8;
 		Dictionary_2_t312 * L_9 = V_1;
 		NullCheck(L_9);
 		Object_t * L_10 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_9, (String_t*) &_stringLiteral908);
-		DateTime_t287  L_11 = DateTime_AddSeconds_m4091((&V_2), (((double)((*(int64_t*)((int64_t*)UnBox (L_10, Int64_t89_il2cpp_TypeInfo_var)))))), /*hidden argument*/NULL);
+		DateTime_t287  L_11 = DateTime_AddSeconds_m4088((&V_2), (((double)((*(int64_t*)((int64_t*)UnBox (L_10, Int64_t89_il2cpp_TypeInfo_var)))))), /*hidden argument*/NULL);
 		((AbstractFacebook_t414 *)__this)->___accessTokenExpiresAt_8 = L_11;
 		return;
 	}
@@ -10623,10 +10623,10 @@ extern "C" String_t* CanvasFacebook_StringFromFile_m2384 (CanvasFacebook_t436 * 
 	TextAsset_t779 * V_0 = {0};
 	{
 		String_t* L_0 = ___resourceName;
-		Object_t703 * L_1 = Resources_Load_m3782(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Object_t703 * L_1 = Resources_Load_m3779(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = ((TextAsset_t779 *)IsInst(L_1, TextAsset_t779_il2cpp_TypeInfo_var));
 		TextAsset_t779 * L_2 = V_0;
-		bool L_3 = Object_op_Implicit_m4099(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Implicit_m4096(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_001e;
@@ -10635,7 +10635,7 @@ extern "C" String_t* CanvasFacebook_StringFromFile_m2384 (CanvasFacebook_t436 * 
 	{
 		TextAsset_t779 * L_4 = V_0;
 		NullCheck(L_4);
-		String_t* L_5 = TextAsset_get_text_m4100(L_4, /*hidden argument*/NULL);
+		String_t* L_5 = TextAsset_get_text_m4097(L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
 
@@ -10656,7 +10656,7 @@ struct FBComponentFactory_t428;
 struct CanvasFacebook_t436;
 // Declaration !!0 Facebook.FBComponentFactory::GetComponent<Facebook.CanvasFacebook>(Facebook.IfNotExist)
 // !!0 Facebook.FBComponentFactory::GetComponent<Facebook.CanvasFacebook>(Facebook.IfNotExist)
-#define FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4101(__this /* static, unused */, p0, method) (( CanvasFacebook_t436 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4056_gshared)(__this /* static, unused */, p0, method)
+#define FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4098(__this /* static, unused */, p0, method) (( CanvasFacebook_t436 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4053_gshared)(__this /* static, unused */, p0, method)
 
 
 // System.Void Facebook.CanvasFacebookLoader::.ctor()
@@ -10668,17 +10668,17 @@ extern "C" void CanvasFacebookLoader__ctor_m2385 (CanvasFacebookLoader_t437 * __
 	}
 }
 // Facebook.AbstractFacebook Facebook.CanvasFacebookLoader::get_fb()
-extern const MethodInfo* FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4101_MethodInfo_var;
+extern const MethodInfo* FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4098_MethodInfo_var;
 extern "C" AbstractFacebook_t414 * CanvasFacebookLoader_get_fb_m2386 (CanvasFacebookLoader_t437 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4101_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484103);
+		FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4098_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484103);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		CanvasFacebook_t436 * L_0 = FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4101(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4101_MethodInfo_var);
+		CanvasFacebook_t436 * L_0 = FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4098(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4098_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -10701,17 +10701,17 @@ extern "C" void JsBridge__ctor_m2387 (JsBridge_t438 * __this, const MethodInfo* 
 	}
 }
 // System.Void Facebook.JsBridge::Start()
-extern const MethodInfo* FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4101_MethodInfo_var;
+extern const MethodInfo* FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4098_MethodInfo_var;
 extern "C" void JsBridge_Start_m2388 (JsBridge_t438 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4101_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484103);
+		FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4098_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484103);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		CanvasFacebook_t436 * L_0 = FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4101(NULL /*static, unused*/, 1, /*hidden argument*/FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4101_MethodInfo_var);
+		CanvasFacebook_t436 * L_0 = FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4098(NULL /*static, unused*/, 1, /*hidden argument*/FBComponentFactory_GetComponent_TisCanvasFacebook_t436_m4098_MethodInfo_var);
 		__this->___facebook_2 = L_0;
 		return;
 	}
@@ -10845,7 +10845,7 @@ struct FBComponentFactory_t428;
 struct EditorFacebookAccessToken_t440;
 // Declaration !!0 Facebook.FBComponentFactory::GetComponent<EditorFacebookAccessToken>(Facebook.IfNotExist)
 // !!0 Facebook.FBComponentFactory::GetComponent<EditorFacebookAccessToken>(Facebook.IfNotExist)
-#define FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4102(__this /* static, unused */, p0, method) (( EditorFacebookAccessToken_t440 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4056_gshared)(__this /* static, unused */, p0, method)
+#define FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4099(__this /* static, unused */, p0, method) (( EditorFacebookAccessToken_t440 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4053_gshared)(__this /* static, unused */, p0, method)
 
 
 // System.Void Facebook.EditorFacebook::.ctor()
@@ -10903,19 +10903,19 @@ IL_0013:
 	}
 }
 // System.Void Facebook.EditorFacebook::Login(System.String,Facebook.FacebookDelegate)
-extern const MethodInfo* FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4102_MethodInfo_var;
+extern const MethodInfo* FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4099_MethodInfo_var;
 extern "C" void EditorFacebook_Login_m2400 (EditorFacebook_t439 * __this, String_t* ___scope, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4102_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484104);
+		FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4099_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484104);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		FacebookDelegate_t433 * L_0 = ___callback;
 		AbstractFacebook_AddAuthDelegate_m2232(__this, L_0, /*hidden argument*/NULL);
-		FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4102(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4102_MethodInfo_var);
+		FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4099(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4099_MethodInfo_var);
 		return;
 	}
 }
@@ -10975,7 +10975,7 @@ extern "C" void EditorFacebook_GameGroupCreate_m2405 (EditorFacebook_t439 * __th
 	}
 	{
 		PlatformNotSupportedException_t776 * L_0 = (PlatformNotSupportedException_t776 *)il2cpp_codegen_object_new (PlatformNotSupportedException_t776_il2cpp_TypeInfo_var);
-		PlatformNotSupportedException__ctor_m4083(L_0, (String_t*) &_stringLiteral916, /*hidden argument*/NULL);
+		PlatformNotSupportedException__ctor_m4080(L_0, (String_t*) &_stringLiteral916, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -10991,7 +10991,7 @@ extern "C" void EditorFacebook_GameGroupJoin_m2406 (EditorFacebook_t439 * __this
 	}
 	{
 		PlatformNotSupportedException_t776 * L_0 = (PlatformNotSupportedException_t776 *)il2cpp_codegen_object_new (PlatformNotSupportedException_t776_il2cpp_TypeInfo_var);
-		PlatformNotSupportedException__ctor_m4083(L_0, (String_t*) &_stringLiteral917, /*hidden argument*/NULL);
+		PlatformNotSupportedException__ctor_m4080(L_0, (String_t*) &_stringLiteral917, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -11068,11 +11068,11 @@ extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t421_il2cpp_TypeInfo_var;
 extern TypeInfo* FBResult_t281_il2cpp_TypeInfo_var;
 extern TypeInfo* Exception_t57_il2cpp_TypeInfo_var;
-extern const MethodInfo* FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4102_MethodInfo_var;
-extern const MethodInfo* List_1__ctor_m3708_MethodInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m3869_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3870_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3871_MethodInfo_var;
+extern const MethodInfo* FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4099_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3705_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3866_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3867_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3868_MethodInfo_var;
 extern "C" void EditorFacebook_MockLoginCallback_m2412 (EditorFacebook_t439 * __this, FBResult_t281 * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -11088,11 +11088,11 @@ extern "C" void EditorFacebook_MockLoginCallback_m2412 (EditorFacebook_t439 * __
 		FB_t421_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(172);
 		FBResult_t281_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
 		Exception_t57_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(29);
-		FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4102_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484104);
-		List_1__ctor_m3708_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483708);
-		List_1_GetEnumerator_m3869_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483890);
-		Enumerator_get_Current_m3870_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483891);
-		Enumerator_MoveNext_m3871_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483892);
+		FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4099_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484104);
+		List_1__ctor_m3705_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483708);
+		List_1_GetEnumerator_m3866_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483890);
+		Enumerator_get_Current_m3867_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483891);
+		Enumerator_MoveNext_m3868_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483892);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t684 * V_0 = {0};
@@ -11110,8 +11110,8 @@ extern "C" void EditorFacebook_MockLoginCallback_m2412 (EditorFacebook_t439 * __
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		EditorFacebookAccessToken_t440 * L_0 = FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4102(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4102_MethodInfo_var);
-		Object_Destroy_m3900(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		EditorFacebookAccessToken_t440 * L_0 = FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4099(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4099_MethodInfo_var);
+		Object_Destroy_m3897(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		FBResult_t281 * L_1 = ___result;
 		NullCheck(L_1);
 		String_t* L_2 = FBResult_get_Error_m2295(L_1, /*hidden argument*/NULL);
@@ -11139,11 +11139,11 @@ IL_0023:
 			Object_t * L_7 = Json_Deserialize_m2511(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 			V_0 = ((List_1_t684 *)Castclass(L_7, List_1_t684_il2cpp_TypeInfo_var));
 			List_1_t115 * L_8 = (List_1_t115 *)il2cpp_codegen_object_new (List_1_t115_il2cpp_TypeInfo_var);
-			List_1__ctor_m3708(L_8, /*hidden argument*/List_1__ctor_m3708_MethodInfo_var);
+			List_1__ctor_m3705(L_8, /*hidden argument*/List_1__ctor_m3705_MethodInfo_var);
 			V_1 = L_8;
 			List_1_t684 * L_9 = V_0;
 			NullCheck(L_9);
-			Enumerator_t746  L_10 = List_1_GetEnumerator_m3869(L_9, /*hidden argument*/List_1_GetEnumerator_m3869_MethodInfo_var);
+			Enumerator_t746  L_10 = List_1_GetEnumerator_m3866(L_9, /*hidden argument*/List_1_GetEnumerator_m3866_MethodInfo_var);
 			V_3 = L_10;
 		}
 
@@ -11156,7 +11156,7 @@ IL_0041:
 
 IL_0046:
 			{
-				Object_t * L_11 = Enumerator_get_Current_m3870((&V_3), /*hidden argument*/Enumerator_get_Current_m3870_MethodInfo_var);
+				Object_t * L_11 = Enumerator_get_Current_m3867((&V_3), /*hidden argument*/Enumerator_get_Current_m3867_MethodInfo_var);
 				V_2 = L_11;
 				Object_t * L_12 = V_2;
 				if (((Dictionary_2_t312 *)IsInst(L_12, Dictionary_2_t312_il2cpp_TypeInfo_var)))
@@ -11200,7 +11200,7 @@ IL_007c:
 
 IL_0093:
 			{
-				bool L_19 = Enumerator_MoveNext_m3871((&V_3), /*hidden argument*/Enumerator_MoveNext_m3871_MethodInfo_var);
+				bool L_19 = Enumerator_MoveNext_m3868((&V_3), /*hidden argument*/Enumerator_MoveNext_m3868_MethodInfo_var);
 				if (L_19)
 				{
 					goto IL_0046;
@@ -11332,14 +11332,14 @@ extern "C" void EditorFacebook_MockCancelledLoginCallback_m2413 (EditorFacebook_
 }
 // System.Void Facebook.EditorFacebook::BadAccessToken(System.String)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4102_MethodInfo_var;
+extern const MethodInfo* FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4099_MethodInfo_var;
 extern "C" void EditorFacebook_BadAccessToken_m2414 (EditorFacebook_t439 * __this, String_t* ___error, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4102_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484104);
+		FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4099_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484104);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -11350,7 +11350,7 @@ extern "C" void EditorFacebook_BadAccessToken_m2414 (EditorFacebook_t439 * __thi
 		AbstractFacebook_set_UserId_m2224(__this, L_1, /*hidden argument*/NULL);
 		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		VirtActionInvoker1< String_t* >::Invoke(6 /* System.Void Facebook.AbstractFacebook::set_AccessToken(System.String) */, __this, L_2);
-		FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4102(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4102_MethodInfo_var);
+		FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4099(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisEditorFacebookAccessToken_t440_m4099_MethodInfo_var);
 		return;
 	}
 }
@@ -11400,7 +11400,7 @@ struct FBComponentFactory_t428;
 struct EditorFacebook_t439;
 // Declaration !!0 Facebook.FBComponentFactory::GetComponent<Facebook.EditorFacebook>(Facebook.IfNotExist)
 // !!0 Facebook.FBComponentFactory::GetComponent<Facebook.EditorFacebook>(Facebook.IfNotExist)
-#define FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4103(__this /* static, unused */, p0, method) (( EditorFacebook_t439 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4056_gshared)(__this /* static, unused */, p0, method)
+#define FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4100(__this /* static, unused */, p0, method) (( EditorFacebook_t439 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4053_gshared)(__this /* static, unused */, p0, method)
 
 
 // System.Void EditorFacebookAccessToken::.ctor()
@@ -11439,26 +11439,26 @@ extern "C" void EditorFacebookAccessToken_OnGUI_m2416 (EditorFacebookAccessToken
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		int32_t L_0 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_1 = (__this->___windowHeight_3);
 		V_0 = ((float)((float)(((float)((int32_t)((int32_t)L_0/(int32_t)2))))-(float)((float)((float)L_1/(float)(2.0f)))));
-		int32_t L_2 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_1 = ((float)((float)(((float)((int32_t)((int32_t)L_2/(int32_t)2))))-(float)(296.0f)));
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUISkin_t780 * L_3 = GUI_get_skin_m4104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUISkin_t780 * L_3 = GUI_get_skin_m4101(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		GUIStyle_t107 * L_4 = GUISkin_get_button_m4105(L_3, /*hidden argument*/NULL);
+		GUIStyle_t107 * L_4 = GUISkin_get_button_m4102(L_3, /*hidden argument*/NULL);
 		__this->___greyButton_6 = L_4;
 		int32_t L_5 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 UnityEngine.Object::GetHashCode() */, __this);
 		float L_6 = V_1;
 		float L_7 = V_0;
 		float L_8 = (__this->___windowHeight_3);
 		Rect_t694  L_9 = {0};
-		Rect__ctor_m3683(&L_9, L_6, L_7, (592.0f), L_8, /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_9, L_6, L_7, (592.0f), L_8, /*hidden argument*/NULL);
 		IntPtr_t L_10 = { (void*)EditorFacebookAccessToken_OnGUIDialog_m2417_MethodInfo_var };
 		WindowFunction_t781 * L_11 = (WindowFunction_t781 *)il2cpp_codegen_object_new (WindowFunction_t781_il2cpp_TypeInfo_var);
-		WindowFunction__ctor_m4106(L_11, __this, L_10, /*hidden argument*/NULL);
-		GUI_ModalWindow_m4107(NULL /*static, unused*/, L_5, L_9, L_11, (String_t*) &_stringLiteral925, /*hidden argument*/NULL);
+		WindowFunction__ctor_m4103(L_11, __this, L_10, /*hidden argument*/NULL);
+		GUI_ModalWindow_m4104(NULL /*static, unused*/, L_5, L_9, L_11, (String_t*) &_stringLiteral925, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -11472,8 +11472,8 @@ extern TypeInfo* GUILayoutUtility_t704_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t122_il2cpp_TypeInfo_var;
 extern TypeInfo* HttpMethod_t448_il2cpp_TypeInfo_var;
 extern TypeInfo* FacebookDelegate_t433_il2cpp_TypeInfo_var;
-extern const MethodInfo* FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4103_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3695_MethodInfo_var;
+extern const MethodInfo* FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4100_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3692_MethodInfo_var;
 extern const MethodInfo* EditorFacebook_MockLoginCallback_m2412_MethodInfo_var;
 extern "C" void EditorFacebookAccessToken_OnGUIDialog_m2417 (EditorFacebookAccessToken_t440 * __this, int32_t ___windowId, const MethodInfo* method)
 {
@@ -11489,8 +11489,8 @@ extern "C" void EditorFacebookAccessToken_OnGUIDialog_m2417 (EditorFacebookAcces
 		Dictionary_2_t122_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(182);
 		HttpMethod_t448_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(181);
 		FacebookDelegate_t433_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(177);
-		FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4103_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484106);
-		Dictionary_2__ctor_m3695_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483707);
+		FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4100_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484106);
+		Dictionary_2__ctor_m3692_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483707);
 		EditorFacebook_MockLoginCallback_m2412_MethodInfo_var = il2cpp_codegen_method_info_from_index(459);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -11503,29 +11503,29 @@ extern "C" void EditorFacebookAccessToken_OnGUIDialog_m2417 (EditorFacebookAcces
 	{
 		bool L_0 = (__this->___isLoggingIn_5);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, ((((int32_t)L_0) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
-		GUILayout_Space_m3686(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
-		GUILayout_BeginHorizontal_m3671(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
-		GUILayout_BeginVertical_m3685(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
-		GUILayout_Space_m3686(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
-		GUILayout_Label_m3672(NULL /*static, unused*/, (String_t*) &_stringLiteral926, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
-		GUILayout_EndVertical_m3696(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, ((((int32_t)L_0) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
+		GUILayout_Space_m3683(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
+		GUILayout_BeginHorizontal_m3668(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		GUILayout_BeginVertical_m3682(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		GUILayout_Space_m3683(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
+		GUILayout_Label_m3669(NULL /*static, unused*/, (String_t*) &_stringLiteral926, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		GUILayout_EndVertical_m3693(NULL /*static, unused*/, /*hidden argument*/NULL);
 		String_t* L_1 = (__this->___accessToken_4);
-		GUISkin_t780 * L_2 = GUI_get_skin_m4104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUISkin_t780 * L_2 = GUI_get_skin_m4101(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		GUIStyle_t107 * L_3 = GUISkin_get_textArea_m4108(L_2, /*hidden argument*/NULL);
+		GUIStyle_t107 * L_3 = GUISkin_get_textArea_m4105(L_2, /*hidden argument*/NULL);
 		GUILayoutOptionU5BU5D_t701* L_4 = ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 1));
-		GUILayoutOption_t702 * L_5 = GUILayout_MinWidth_m3687(NULL /*static, unused*/, (400.0f), /*hidden argument*/NULL);
+		GUILayoutOption_t702 * L_5 = GUILayout_MinWidth_m3684(NULL /*static, unused*/, (400.0f), /*hidden argument*/NULL);
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 0);
 		ArrayElementTypeCheck (L_4, L_5);
 		*((GUILayoutOption_t702 **)(GUILayoutOption_t702 **)SZArrayLdElema(L_4, 0)) = (GUILayoutOption_t702 *)L_5;
-		String_t* L_6 = GUILayout_TextField_m4109(NULL /*static, unused*/, L_1, L_3, L_4, /*hidden argument*/NULL);
+		String_t* L_6 = GUILayout_TextField_m4106(NULL /*static, unused*/, L_1, L_3, L_4, /*hidden argument*/NULL);
 		__this->___accessToken_4 = L_6;
-		GUILayout_EndHorizontal_m3674(NULL /*static, unused*/, /*hidden argument*/NULL);
-		GUILayout_Space_m3686(NULL /*static, unused*/, (20.0f), /*hidden argument*/NULL);
-		GUILayout_BeginHorizontal_m3671(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
-		bool L_7 = GUILayout_Button_m3670(NULL /*static, unused*/, (String_t*) &_stringLiteral927, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		GUILayout_EndHorizontal_m3671(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_Space_m3683(NULL /*static, unused*/, (20.0f), /*hidden argument*/NULL);
+		GUILayout_BeginHorizontal_m3668(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		bool L_7 = GUILayout_Button_m3667(NULL /*static, unused*/, (String_t*) &_stringLiteral927, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_00be;
@@ -11535,41 +11535,41 @@ extern "C" void EditorFacebookAccessToken_OnGUIDialog_m2417 (EditorFacebookAcces
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		String_t* L_8 = FB_get_AppId_m2252(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_9 = String_Format_m4110(NULL /*static, unused*/, (String_t*) &_stringLiteral928, L_8, /*hidden argument*/NULL);
-		Application_OpenURL_m3960(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		String_t* L_9 = String_Format_m4107(NULL /*static, unused*/, (String_t*) &_stringLiteral928, L_8, /*hidden argument*/NULL);
+		Application_OpenURL_m3957(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 	}
 
 IL_00be:
 	{
-		GUILayout_FlexibleSpace_m4111(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_FlexibleSpace_m4108(NULL /*static, unused*/, /*hidden argument*/NULL);
 		GUIContent_t782 * L_10 = (GUIContent_t782 *)il2cpp_codegen_object_new (GUIContent_t782_il2cpp_TypeInfo_var);
-		GUIContent__ctor_m4112(L_10, (String_t*) &_stringLiteral139, /*hidden argument*/NULL);
+		GUIContent__ctor_m4109(L_10, (String_t*) &_stringLiteral139, /*hidden argument*/NULL);
 		V_0 = L_10;
 		GUIContent_t782 * L_11 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUISkin_t780 * L_12 = GUI_get_skin_m4104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUISkin_t780 * L_12 = GUI_get_skin_m4101(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		GUIStyle_t107 * L_13 = GUISkin_get_button_m4105(L_12, /*hidden argument*/NULL);
+		GUIStyle_t107 * L_13 = GUISkin_get_button_m4102(L_12, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUILayoutUtility_t704_il2cpp_TypeInfo_var);
-		Rect_t694  L_14 = GUILayoutUtility_GetRect_m4113(NULL /*static, unused*/, L_11, L_13, /*hidden argument*/NULL);
+		Rect_t694  L_14 = GUILayoutUtility_GetRect_m4110(NULL /*static, unused*/, L_11, L_13, /*hidden argument*/NULL);
 		V_1 = L_14;
 		Rect_t694  L_15 = V_1;
 		GUIContent_t782 * L_16 = V_0;
-		bool L_17 = GUI_Button_m4114(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
+		bool L_17 = GUI_Button_m4111(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
 		if (!L_17)
 		{
 			goto IL_0158;
 		}
 	}
 	{
-		EditorFacebook_t439 * L_18 = FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4103(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4103_MethodInfo_var);
+		EditorFacebook_t439 * L_18 = FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4100(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4100_MethodInfo_var);
 		V_2 = L_18;
 		EditorFacebook_t439 * L_19 = V_2;
 		String_t* L_20 = (__this->___accessToken_4);
 		NullCheck(L_19);
 		VirtActionInvoker1< String_t* >::Invoke(6 /* System.Void Facebook.AbstractFacebook::set_AccessToken(System.String) */, L_19, L_20);
 		Dictionary_2_t122 * L_21 = (Dictionary_2_t122 *)il2cpp_codegen_object_new (Dictionary_2_t122_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3695(L_21, /*hidden argument*/Dictionary_2__ctor_m3695_MethodInfo_var);
+		Dictionary_2__ctor_m3692(L_21, /*hidden argument*/Dictionary_2__ctor_m3692_MethodInfo_var);
 		V_3 = L_21;
 		Dictionary_2_t122 * L_22 = V_3;
 		NullCheck(L_22);
@@ -11586,7 +11586,7 @@ IL_00be:
 		EditorFacebook_t439 * L_27 = V_2;
 		IntPtr_t L_28 = { (void*)EditorFacebook_MockLoginCallback_m2412_MethodInfo_var };
 		FacebookDelegate_t433 * L_29 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_29, L_27, L_28, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_29, L_27, L_28, /*hidden argument*/NULL);
 		Dictionary_2_t122 * L_30 = V_3;
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		FB_API_m2267(NULL /*static, unused*/, (String_t*) &_stringLiteral521, L_26, L_29, L_30, /*hidden argument*/NULL);
@@ -11596,53 +11596,53 @@ IL_00be:
 IL_0158:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 		GUIContent_t782 * L_31 = (GUIContent_t782 *)il2cpp_codegen_object_new (GUIContent_t782_il2cpp_TypeInfo_var);
-		GUIContent__ctor_m4112(L_31, (String_t*) &_stringLiteral932, /*hidden argument*/NULL);
+		GUIContent__ctor_m4109(L_31, (String_t*) &_stringLiteral932, /*hidden argument*/NULL);
 		V_4 = L_31;
 		GUIContent_t782 * L_32 = V_4;
 		GUIStyle_t107 * L_33 = (__this->___greyButton_6);
 		IL2CPP_RUNTIME_CLASS_INIT(GUILayoutUtility_t704_il2cpp_TypeInfo_var);
-		Rect_t694  L_34 = GUILayoutUtility_GetRect_m4113(NULL /*static, unused*/, L_32, L_33, /*hidden argument*/NULL);
+		Rect_t694  L_34 = GUILayoutUtility_GetRect_m4110(NULL /*static, unused*/, L_32, L_33, /*hidden argument*/NULL);
 		V_5 = L_34;
 		Rect_t694  L_35 = V_5;
 		GUIContent_t782 * L_36 = V_4;
 		GUIStyle_t107 * L_37 = (__this->___greyButton_6);
-		bool L_38 = GUI_Button_m4115(NULL /*static, unused*/, L_35, L_36, L_37, /*hidden argument*/NULL);
+		bool L_38 = GUI_Button_m4112(NULL /*static, unused*/, L_35, L_36, L_37, /*hidden argument*/NULL);
 		if (!L_38)
 		{
 			goto IL_019e;
 		}
 	}
 	{
-		EditorFacebook_t439 * L_39 = FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4103(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4103_MethodInfo_var);
+		EditorFacebook_t439 * L_39 = FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4100(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4100_MethodInfo_var);
 		NullCheck(L_39);
 		EditorFacebook_MockCancelledLoginCallback_m2413(L_39, /*hidden argument*/NULL);
-		Object_Destroy_m3900(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		Object_Destroy_m3897(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
 	}
 
 IL_019e:
 	{
-		GUILayout_EndHorizontal_m3674(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Event_t783 * L_40 = Event_get_current_m4116(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_EndHorizontal_m3671(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Event_t783 * L_40 = Event_get_current_m4113(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_40);
-		int32_t L_41 = Event_get_type_m4117(L_40, /*hidden argument*/NULL);
+		int32_t L_41 = Event_get_type_m4114(L_40, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_41) == ((uint32_t)7))))
 		{
 			goto IL_01de;
 		}
 	}
 	{
-		float L_42 = Rect_get_y_m3681((&V_5), /*hidden argument*/NULL);
-		float L_43 = Rect_get_height_m4038((&V_5), /*hidden argument*/NULL);
+		float L_42 = Rect_get_y_m3678((&V_5), /*hidden argument*/NULL);
+		float L_43 = Rect_get_height_m4035((&V_5), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUISkin_t780 * L_44 = GUI_get_skin_m4104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUISkin_t780 * L_44 = GUI_get_skin_m4101(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_44);
-		GUIStyle_t107 * L_45 = GUISkin_get_window_m4118(L_44, /*hidden argument*/NULL);
+		GUIStyle_t107 * L_45 = GUISkin_get_window_m4115(L_44, /*hidden argument*/NULL);
 		NullCheck(L_45);
-		RectOffset_t700 * L_46 = GUIStyle_get_padding_m4119(L_45, /*hidden argument*/NULL);
+		RectOffset_t700 * L_46 = GUIStyle_get_padding_m4116(L_45, /*hidden argument*/NULL);
 		NullCheck(L_46);
-		int32_t L_47 = RectOffset_get_bottom_m4120(L_46, /*hidden argument*/NULL);
+		int32_t L_47 = RectOffset_get_bottom_m4117(L_46, /*hidden argument*/NULL);
 		__this->___windowHeight_3 = ((float)((float)((float)((float)L_42+(float)L_43))+(float)(((float)L_47))));
 	}
 
@@ -11670,17 +11670,17 @@ extern "C" void EditorFacebookLoader__ctor_m2418 (EditorFacebookLoader_t441 * __
 	}
 }
 // Facebook.AbstractFacebook Facebook.EditorFacebookLoader::get_fb()
-extern const MethodInfo* FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4103_MethodInfo_var;
+extern const MethodInfo* FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4100_MethodInfo_var;
 extern "C" AbstractFacebook_t414 * EditorFacebookLoader_get_fb_m2419 (EditorFacebookLoader_t441 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4103_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484106);
+		FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4100_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484106);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		EditorFacebook_t439 * L_0 = FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4103(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4103_MethodInfo_var);
+		EditorFacebook_t439 * L_0 = FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4100(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisEditorFacebook_t439_m4100_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -12442,8 +12442,8 @@ extern "C" void IOSFacebook_Logout_m2443 (IOSFacebook_t444 * __this, const Metho
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentNullException_t770_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t67_il2cpp_TypeInfo_var;
-extern const MethodInfo* Nullable_1_get_HasValue_m4071_MethodInfo_var;
-extern const MethodInfo* Nullable_1_get_Value_m4072_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m4068_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m4069_MethodInfo_var;
 extern "C" void IOSFacebook_AppRequest_m2444 (IOSFacebook_t444 * __this, String_t* ___message, OGActionType_t432 * ___actionType, String_t* ___objectId, StringU5BU5D_t75* ___to, List_1_t684 * ___filters, StringU5BU5D_t75* ___excludeIds, Nullable_1_t690  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -12452,8 +12452,8 @@ extern "C" void IOSFacebook_AppRequest_m2444 (IOSFacebook_t444 * __this, String_
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		ArgumentNullException_t770_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
 		Convert_t67_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(33);
-		Nullable_1_get_HasValue_m4071_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484081);
-		Nullable_1_get_Value_m4072_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484082);
+		Nullable_1_get_HasValue_m4068_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484081);
+		Nullable_1_get_Value_m4069_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484082);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -12566,7 +12566,7 @@ extern "C" void IOSFacebook_AppRequest_m2444 (IOSFacebook_t444 * __this, String_
 	}
 	{
 		ArgumentNullException_t770 * L_2 = (ArgumentNullException_t770 *)il2cpp_codegen_object_new (ArgumentNullException_t770_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4070(L_2, (String_t*) &_stringLiteral158, (String_t*) &_stringLiteral843, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m4067(L_2, (String_t*) &_stringLiteral158, (String_t*) &_stringLiteral843, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -12589,7 +12589,7 @@ IL_001b:
 	}
 	{
 		ArgumentNullException_t770 * L_6 = (ArgumentNullException_t770 *)il2cpp_codegen_object_new (ArgumentNullException_t770_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4070(L_6, (String_t*) &_stringLiteral844, (String_t*) &_stringLiteral845, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m4067(L_6, (String_t*) &_stringLiteral844, (String_t*) &_stringLiteral845, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -12612,7 +12612,7 @@ IL_003c:
 	}
 	{
 		ArgumentNullException_t770 * L_10 = (ArgumentNullException_t770 *)il2cpp_codegen_object_new (ArgumentNullException_t770_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4070(L_10, (String_t*) &_stringLiteral846, (String_t*) &_stringLiteral847, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m4067(L_10, (String_t*) &_stringLiteral846, (String_t*) &_stringLiteral847, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 
@@ -12646,7 +12646,7 @@ IL_0081:
 		FacebookDelegate_t433 * L_16 = ___callback;
 		String_t* L_17 = AbstractFacebook_AddFacebookDelegate_m2234(__this, L_16, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_18 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		int32_t L_18 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 		String_t* L_19 = ___message;
 		OGActionType_t432 * L_20 = ___actionType;
 		G_B12_0 = L_19;
@@ -12817,8 +12817,8 @@ IL_00d8:
 
 IL_00d9:
 	{
-		bool L_33 = Nullable_1_get_HasValue_m4071((&___maxRecipients), /*hidden argument*/Nullable_1_get_HasValue_m4071_MethodInfo_var);
-		bool L_34 = Nullable_1_get_HasValue_m4071((&___maxRecipients), /*hidden argument*/Nullable_1_get_HasValue_m4071_MethodInfo_var);
+		bool L_33 = Nullable_1_get_HasValue_m4068((&___maxRecipients), /*hidden argument*/Nullable_1_get_HasValue_m4068_MethodInfo_var);
+		bool L_34 = Nullable_1_get_HasValue_m4068((&___maxRecipients), /*hidden argument*/Nullable_1_get_HasValue_m4068_MethodInfo_var);
 		G_B24_0 = L_33;
 		G_B24_1 = G_B23_0;
 		G_B24_2 = G_B23_1;
@@ -12845,7 +12845,7 @@ IL_00d9:
 		}
 	}
 	{
-		int32_t L_35 = Nullable_1_get_Value_m4072((&___maxRecipients), /*hidden argument*/Nullable_1_get_Value_m4072_MethodInfo_var);
+		int32_t L_35 = Nullable_1_get_Value_m4069((&___maxRecipients), /*hidden argument*/Nullable_1_get_Value_m4069_MethodInfo_var);
 		G_B26_0 = L_35;
 		G_B26_1 = G_B24_0;
 		G_B26_2 = G_B24_1;
@@ -12897,7 +12897,7 @@ extern "C" void IOSFacebook_FeedRequest_m2445 (IOSFacebook_t444 * __this, String
 		FacebookDelegate_t433 * L_0 = ___callback;
 		String_t* L_1 = AbstractFacebook_AddFacebookDelegate_m2234(__this, L_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_2 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		String_t* L_3 = ___toId;
 		String_t* L_4 = ___link;
 		String_t* L_5 = ___linkName;
@@ -12924,7 +12924,7 @@ extern "C" void IOSFacebook_Pay_m2446 (IOSFacebook_t444 * __this, String_t* ___p
 	}
 	{
 		PlatformNotSupportedException_t776 * L_0 = (PlatformNotSupportedException_t776 *)il2cpp_codegen_object_new (PlatformNotSupportedException_t776_il2cpp_TypeInfo_var);
-		PlatformNotSupportedException__ctor_m4083(L_0, (String_t*) &_stringLiteral934, /*hidden argument*/NULL);
+		PlatformNotSupportedException__ctor_m4080(L_0, (String_t*) &_stringLiteral934, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -12942,7 +12942,7 @@ extern "C" void IOSFacebook_GameGroupCreate_m2447 (IOSFacebook_t444 * __this, St
 		FacebookDelegate_t433 * L_0 = ___callback;
 		String_t* L_1 = AbstractFacebook_AddFacebookDelegate_m2234(__this, L_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_2 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		String_t* L_3 = ___name;
 		String_t* L_4 = ___description;
 		String_t* L_5 = ___privacy;
@@ -12964,7 +12964,7 @@ extern "C" void IOSFacebook_GameGroupJoin_m2448 (IOSFacebook_t444 * __this, Stri
 		FacebookDelegate_t433 * L_0 = ___callback;
 		String_t* L_1 = AbstractFacebook_AddFacebookDelegate_m2234(__this, L_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_2 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		String_t* L_3 = ___id;
 		IOSFacebook_iosJoinGameGroup_m2429(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		return;
@@ -13045,15 +13045,15 @@ IL_0018:
 	}
 }
 // System.Void Facebook.IOSFacebook::AppEventsLogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-extern const MethodInfo* Nullable_1_get_HasValue_m4084_MethodInfo_var;
-extern const MethodInfo* Nullable_1_get_Value_m4085_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m4081_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m4082_MethodInfo_var;
 extern "C" void IOSFacebook_AppEventsLogEvent_m2451 (IOSFacebook_t444 * __this, String_t* ___logEvent, Nullable_1_t691  ___valueToSum, Dictionary_2_t312 * ___parameters, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Nullable_1_get_HasValue_m4084_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484093);
-		Nullable_1_get_Value_m4085_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484094);
+		Nullable_1_get_HasValue_m4081_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484093);
+		Nullable_1_get_Value_m4082_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484094);
 		s_Il2CppMethodIntialized = true;
 	}
 	NativeDict_t442 * V_0 = {0};
@@ -13061,7 +13061,7 @@ extern "C" void IOSFacebook_AppEventsLogEvent_m2451 (IOSFacebook_t444 * __this, 
 		Dictionary_2_t312 * L_0 = ___parameters;
 		NativeDict_t442 * L_1 = IOSFacebook_MarshallDict_m2455(__this, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
-		bool L_2 = Nullable_1_get_HasValue_m4084((&___valueToSum), /*hidden argument*/Nullable_1_get_HasValue_m4084_MethodInfo_var);
+		bool L_2 = Nullable_1_get_HasValue_m4081((&___valueToSum), /*hidden argument*/Nullable_1_get_HasValue_m4081_MethodInfo_var);
 		if (!L_2)
 		{
 			goto IL_0039;
@@ -13069,7 +13069,7 @@ extern "C" void IOSFacebook_AppEventsLogEvent_m2451 (IOSFacebook_t444 * __this, 
 	}
 	{
 		String_t* L_3 = ___logEvent;
-		float L_4 = Nullable_1_get_Value_m4085((&___valueToSum), /*hidden argument*/Nullable_1_get_Value_m4085_MethodInfo_var);
+		float L_4 = Nullable_1_get_Value_m4082((&___valueToSum), /*hidden argument*/Nullable_1_get_Value_m4082_MethodInfo_var);
 		NativeDict_t442 * L_5 = V_0;
 		NullCheck(L_5);
 		int32_t L_6 = (L_5->___numEntries_0);
@@ -13161,7 +13161,7 @@ extern "C" void IOSFacebook_PublishInstall_m2453 (IOSFacebook_t444 * __this, Str
 		FacebookDelegate_t433 * L_0 = ___callback;
 		String_t* L_1 = AbstractFacebook_AddFacebookDelegate_m2234(__this, L_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_2 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		String_t* L_3 = ___appId;
 		IOSFacebook_iosFBSettingsPublishInstall_m2430(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		return;
@@ -13181,11 +13181,11 @@ extern TypeInfo* NativeDict_t442_il2cpp_TypeInfo_var;
 extern TypeInfo* StringU5BU5D_t75_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t778_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m4086_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m4087_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m4088_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m4089_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m4090_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m4083_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m4084_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m4085_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m4086_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4087_MethodInfo_var;
 extern "C" NativeDict_t442 * IOSFacebook_MarshallDict_m2455 (IOSFacebook_t444 * __this, Dictionary_2_t312 * ___dict, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -13195,11 +13195,11 @@ extern "C" NativeDict_t442 * IOSFacebook_MarshallDict_m2455 (IOSFacebook_t444 * 
 		StringU5BU5D_t75_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(50);
 		Enumerator_t778_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(421);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		Dictionary_2_GetEnumerator_m4086_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484095);
-		Enumerator_get_Current_m4087_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484096);
-		KeyValuePair_2_get_Key_m4088_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484097);
-		KeyValuePair_2_get_Value_m4089_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484098);
-		Enumerator_MoveNext_m4090_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484099);
+		Dictionary_2_GetEnumerator_m4083_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484095);
+		Enumerator_get_Current_m4084_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484096);
+		KeyValuePair_2_get_Key_m4085_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484097);
+		KeyValuePair_2_get_Value_m4086_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484098);
+		Enumerator_MoveNext_m4087_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484099);
 		s_Il2CppMethodIntialized = true;
 	}
 	NativeDict_t442 * V_0 = {0};
@@ -13248,7 +13248,7 @@ extern "C" NativeDict_t442 * IOSFacebook_MarshallDict_m2455 (IOSFacebook_t444 * 
 		L_10->___numEntries_0 = 0;
 		Dictionary_2_t312 * L_11 = ___dict;
 		NullCheck(L_11);
-		Enumerator_t778  L_12 = Dictionary_2_GetEnumerator_m4086(L_11, /*hidden argument*/Dictionary_2_GetEnumerator_m4086_MethodInfo_var);
+		Enumerator_t778  L_12 = Dictionary_2_GetEnumerator_m4083(L_11, /*hidden argument*/Dictionary_2_GetEnumerator_m4083_MethodInfo_var);
 		V_2 = L_12;
 	}
 
@@ -13261,7 +13261,7 @@ IL_0048:
 
 IL_004d:
 		{
-			KeyValuePair_2_t777  L_13 = Enumerator_get_Current_m4087((&V_2), /*hidden argument*/Enumerator_get_Current_m4087_MethodInfo_var);
+			KeyValuePair_2_t777  L_13 = Enumerator_get_Current_m4084((&V_2), /*hidden argument*/Enumerator_get_Current_m4084_MethodInfo_var);
 			V_1 = L_13;
 			NativeDict_t442 * L_14 = V_0;
 			NullCheck(L_14);
@@ -13269,7 +13269,7 @@ IL_004d:
 			NativeDict_t442 * L_16 = V_0;
 			NullCheck(L_16);
 			int32_t L_17 = (L_16->___numEntries_0);
-			String_t* L_18 = KeyValuePair_2_get_Key_m4088((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m4088_MethodInfo_var);
+			String_t* L_18 = KeyValuePair_2_get_Key_m4085((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m4085_MethodInfo_var);
 			NullCheck(L_15);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_15, L_17);
 			ArrayElementTypeCheck (L_15, L_18);
@@ -13280,7 +13280,7 @@ IL_004d:
 			NativeDict_t442 * L_21 = V_0;
 			NullCheck(L_21);
 			int32_t L_22 = (L_21->___numEntries_0);
-			Object_t * L_23 = KeyValuePair_2_get_Value_m4089((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m4089_MethodInfo_var);
+			Object_t * L_23 = KeyValuePair_2_get_Value_m4086((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m4086_MethodInfo_var);
 			NullCheck(L_23);
 			String_t* L_24 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_23);
 			NullCheck(L_20);
@@ -13297,7 +13297,7 @@ IL_004d:
 
 IL_0090:
 		{
-			bool L_28 = Enumerator_MoveNext_m4090((&V_2), /*hidden argument*/Enumerator_MoveNext_m4090_MethodInfo_var);
+			bool L_28 = Enumerator_MoveNext_m4087((&V_2), /*hidden argument*/Enumerator_MoveNext_m4087_MethodInfo_var);
 			if (L_28)
 			{
 				goto IL_004d;
@@ -13341,11 +13341,11 @@ extern TypeInfo* NativeDict_t442_il2cpp_TypeInfo_var;
 extern TypeInfo* StringU5BU5D_t75_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t301_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m3906_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3907_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m3908_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m3909_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3910_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m3903_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3904_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m3905_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m3906_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3907_MethodInfo_var;
 extern "C" NativeDict_t442 * IOSFacebook_MarshallDict_m2456 (IOSFacebook_t444 * __this, Dictionary_2_t122 * ___dict, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -13355,11 +13355,11 @@ extern "C" NativeDict_t442 * IOSFacebook_MarshallDict_m2456 (IOSFacebook_t444 * 
 		StringU5BU5D_t75_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(50);
 		Enumerator_t301_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(317);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		Dictionary_2_GetEnumerator_m3906_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483945);
-		Enumerator_get_Current_m3907_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483946);
-		KeyValuePair_2_get_Key_m3908_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483947);
-		KeyValuePair_2_get_Value_m3909_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483948);
-		Enumerator_MoveNext_m3910_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483949);
+		Dictionary_2_GetEnumerator_m3903_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483945);
+		Enumerator_get_Current_m3904_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483946);
+		KeyValuePair_2_get_Key_m3905_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483947);
+		KeyValuePair_2_get_Value_m3906_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483948);
+		Enumerator_MoveNext_m3907_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483949);
 		s_Il2CppMethodIntialized = true;
 	}
 	NativeDict_t442 * V_0 = {0};
@@ -13408,7 +13408,7 @@ extern "C" NativeDict_t442 * IOSFacebook_MarshallDict_m2456 (IOSFacebook_t444 * 
 		L_10->___numEntries_0 = 0;
 		Dictionary_2_t122 * L_11 = ___dict;
 		NullCheck(L_11);
-		Enumerator_t301  L_12 = Dictionary_2_GetEnumerator_m3906(L_11, /*hidden argument*/Dictionary_2_GetEnumerator_m3906_MethodInfo_var);
+		Enumerator_t301  L_12 = Dictionary_2_GetEnumerator_m3903(L_11, /*hidden argument*/Dictionary_2_GetEnumerator_m3903_MethodInfo_var);
 		V_2 = L_12;
 	}
 
@@ -13421,7 +13421,7 @@ IL_0048:
 
 IL_004d:
 		{
-			KeyValuePair_2_t302  L_13 = Enumerator_get_Current_m3907((&V_2), /*hidden argument*/Enumerator_get_Current_m3907_MethodInfo_var);
+			KeyValuePair_2_t302  L_13 = Enumerator_get_Current_m3904((&V_2), /*hidden argument*/Enumerator_get_Current_m3904_MethodInfo_var);
 			V_1 = L_13;
 			NativeDict_t442 * L_14 = V_0;
 			NullCheck(L_14);
@@ -13429,7 +13429,7 @@ IL_004d:
 			NativeDict_t442 * L_16 = V_0;
 			NullCheck(L_16);
 			int32_t L_17 = (L_16->___numEntries_0);
-			String_t* L_18 = KeyValuePair_2_get_Key_m3908((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m3908_MethodInfo_var);
+			String_t* L_18 = KeyValuePair_2_get_Key_m3905((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m3905_MethodInfo_var);
 			NullCheck(L_15);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_15, L_17);
 			ArrayElementTypeCheck (L_15, L_18);
@@ -13440,7 +13440,7 @@ IL_004d:
 			NativeDict_t442 * L_21 = V_0;
 			NullCheck(L_21);
 			int32_t L_22 = (L_21->___numEntries_0);
-			String_t* L_23 = KeyValuePair_2_get_Value_m3909((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m3909_MethodInfo_var);
+			String_t* L_23 = KeyValuePair_2_get_Value_m3906((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m3906_MethodInfo_var);
 			NullCheck(L_20);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_20, L_22);
 			ArrayElementTypeCheck (L_20, L_23);
@@ -13455,7 +13455,7 @@ IL_004d:
 
 IL_008b:
 		{
-			bool L_27 = Enumerator_MoveNext_m3910((&V_2), /*hidden argument*/Enumerator_MoveNext_m3910_MethodInfo_var);
+			bool L_27 = Enumerator_MoveNext_m3907((&V_2), /*hidden argument*/Enumerator_MoveNext_m3907_MethodInfo_var);
 			if (L_27)
 			{
 				goto IL_004d;
@@ -13646,7 +13646,7 @@ IL_004c:
 		Dictionary_2_t312 * L_10 = ___parameters;
 		NullCheck(L_10);
 		Object_t * L_11 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_10, (String_t*) &_stringLiteral840);
-		int32_t L_12 = Int32_Parse_m3710(NULL /*static, unused*/, ((String_t*)Castclass(L_11, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		int32_t L_12 = Int32_Parse_m3707(NULL /*static, unused*/, ((String_t*)Castclass(L_11, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		DateTime_t287  L_13 = IOSFacebook_FromTimestamp_m2461(__this, L_12, /*hidden argument*/NULL);
 		((AbstractFacebook_t414 *)__this)->___accessTokenExpiresAt_8 = L_13;
 	}
@@ -13690,9 +13690,9 @@ extern "C" DateTime_t287  IOSFacebook_FromTimestamp_m2461 (IOSFacebook_t444 * __
 {
 	DateTime_t287  V_0 = {0};
 	{
-		DateTime__ctor_m3934((&V_0), ((int32_t)1970), 1, 1, 0, 0, 0, 0, /*hidden argument*/NULL);
+		DateTime__ctor_m3931((&V_0), ((int32_t)1970), 1, 1, 0, 0, 0, 0, /*hidden argument*/NULL);
 		int32_t L_0 = ___timestamp;
-		DateTime_t287  L_1 = DateTime_AddSeconds_m4091((&V_0), (((double)L_0)), /*hidden argument*/NULL);
+		DateTime_t287  L_1 = DateTime_AddSeconds_m4088((&V_0), (((double)L_0)), /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -13722,7 +13722,7 @@ extern "C" void IOSFacebook_OnRequestComplete_m2463 (IOSFacebook_t444 * __this, 
 	{
 		String_t* L_0 = ___msg;
 		NullCheck(L_0);
-		int32_t L_1 = String_IndexOf_m4121(L_0, (String_t*) &_stringLiteral610, /*hidden argument*/NULL);
+		int32_t L_1 = String_IndexOf_m4118(L_0, (String_t*) &_stringLiteral610, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) > ((int32_t)0)))
@@ -13749,7 +13749,7 @@ IL_002e:
 		String_t* L_8 = ___msg;
 		int32_t L_9 = V_0;
 		NullCheck(L_8);
-		String_t* L_10 = String_Substring_m4122(L_8, ((int32_t)((int32_t)L_9+(int32_t)1)), /*hidden argument*/NULL);
+		String_t* L_10 = String_Substring_m4119(L_8, ((int32_t)((int32_t)L_9+(int32_t)1)), /*hidden argument*/NULL);
 		V_2 = L_10;
 		String_t* L_11 = V_1;
 		String_t* L_12 = V_2;
@@ -13774,7 +13774,7 @@ struct FBComponentFactory_t428;
 struct IOSFacebook_t444;
 // Declaration !!0 Facebook.FBComponentFactory::GetComponent<Facebook.IOSFacebook>(Facebook.IfNotExist)
 // !!0 Facebook.FBComponentFactory::GetComponent<Facebook.IOSFacebook>(Facebook.IfNotExist)
-#define FBComponentFactory_GetComponent_TisIOSFacebook_t444_m4123(__this /* static, unused */, p0, method) (( IOSFacebook_t444 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4056_gshared)(__this /* static, unused */, p0, method)
+#define FBComponentFactory_GetComponent_TisIOSFacebook_t444_m4120(__this /* static, unused */, p0, method) (( IOSFacebook_t444 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))FBComponentFactory_GetComponent_TisObject_t_m4053_gshared)(__this /* static, unused */, p0, method)
 
 
 // System.Void Facebook.IOSFacebookLoader::.ctor()
@@ -13786,17 +13786,17 @@ extern "C" void IOSFacebookLoader__ctor_m2464 (IOSFacebookLoader_t445 * __this, 
 	}
 }
 // Facebook.AbstractFacebook Facebook.IOSFacebookLoader::get_fb()
-extern const MethodInfo* FBComponentFactory_GetComponent_TisIOSFacebook_t444_m4123_MethodInfo_var;
+extern const MethodInfo* FBComponentFactory_GetComponent_TisIOSFacebook_t444_m4120_MethodInfo_var;
 extern "C" AbstractFacebook_t414 * IOSFacebookLoader_get_fb_m2465 (IOSFacebookLoader_t445 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		FBComponentFactory_GetComponent_TisIOSFacebook_t444_m4123_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484108);
+		FBComponentFactory_GetComponent_TisIOSFacebook_t444_m4120_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484108);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		IOSFacebook_t444 * L_0 = FBComponentFactory_GetComponent_TisIOSFacebook_t444_m4123(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisIOSFacebook_t444_m4123_MethodInfo_var);
+		IOSFacebook_t444 * L_0 = FBComponentFactory_GetComponent_TisIOSFacebook_t444_m4120(NULL /*static, unused*/, 0, /*hidden argument*/FBComponentFactory_GetComponent_TisIOSFacebook_t444_m4120_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -13847,11 +13847,11 @@ extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
 extern TypeInfo* WWW_t265_il2cpp_TypeInfo_var;
 extern TypeInfo* WWWForm_t112_il2cpp_TypeInfo_var;
 extern TypeInfo* FBResult_t281_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m3906_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3907_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m3908_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m3909_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3910_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m3903_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3904_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m3905_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m3906_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3907_MethodInfo_var;
 extern "C" bool U3CStartU3Ec__IteratorE_MoveNext_m2469 (U3CStartU3Ec__IteratorE_t447 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -13865,11 +13865,11 @@ extern "C" bool U3CStartU3Ec__IteratorE_MoveNext_m2469 (U3CStartU3Ec__IteratorE_
 		WWW_t265_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(276);
 		WWWForm_t112_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(185);
 		FBResult_t281_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		Dictionary_2_GetEnumerator_m3906_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483945);
-		Enumerator_get_Current_m3907_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483946);
-		KeyValuePair_2_get_Key_m3908_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483947);
-		KeyValuePair_2_get_Value_m3909_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483948);
-		Enumerator_MoveNext_m3910_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483949);
+		Dictionary_2_GetEnumerator_m3903_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483945);
+		Enumerator_get_Current_m3904_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483946);
+		KeyValuePair_2_get_Key_m3905_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483947);
+		KeyValuePair_2_get_Value_m3906_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483948);
+		Enumerator_MoveNext_m3907_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483949);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -13919,7 +13919,7 @@ IL_0021:
 		NullCheck(L_5);
 		String_t* L_6 = (L_5->___url_2);
 		NullCheck(L_6);
-		bool L_7 = String_Contains_m3742(L_6, (String_t*) &_stringLiteral600, /*hidden argument*/NULL);
+		bool L_7 = String_Contains_m3739(L_6, (String_t*) &_stringLiteral600, /*hidden argument*/NULL);
 		G_B4_0 = __this;
 		if (!L_7)
 		{
@@ -13956,7 +13956,7 @@ IL_0060:
 		NullCheck(L_10);
 		Dictionary_2_t122 * L_11 = (L_10->___formData_4);
 		NullCheck(L_11);
-		Enumerator_t301  L_12 = Dictionary_2_GetEnumerator_m3906(L_11, /*hidden argument*/Dictionary_2_GetEnumerator_m3906_MethodInfo_var);
+		Enumerator_t301  L_12 = Dictionary_2_GetEnumerator_m3903(L_11, /*hidden argument*/Dictionary_2_GetEnumerator_m3903_MethodInfo_var);
 		__this->___U3CU24s_77U3E__1_1 = L_12;
 	}
 
@@ -13970,18 +13970,18 @@ IL_008b:
 IL_0090:
 		{
 			Enumerator_t301 * L_13 = &(__this->___U3CU24s_77U3E__1_1);
-			KeyValuePair_2_t302  L_14 = Enumerator_get_Current_m3907(L_13, /*hidden argument*/Enumerator_get_Current_m3907_MethodInfo_var);
+			KeyValuePair_2_t302  L_14 = Enumerator_get_Current_m3904(L_13, /*hidden argument*/Enumerator_get_Current_m3904_MethodInfo_var);
 			__this->___U3CpairU3E__2_2 = L_14;
 			String_t* L_15 = (__this->___U3CurlParamsU3E__0_0);
 			KeyValuePair_2_t302 * L_16 = &(__this->___U3CpairU3E__2_2);
-			String_t* L_17 = KeyValuePair_2_get_Key_m3908(L_16, /*hidden argument*/KeyValuePair_2_get_Key_m3908_MethodInfo_var);
+			String_t* L_17 = KeyValuePair_2_get_Key_m3905(L_16, /*hidden argument*/KeyValuePair_2_get_Key_m3905_MethodInfo_var);
 			IL2CPP_RUNTIME_CLASS_INIT(Uri_t757_il2cpp_TypeInfo_var);
-			String_t* L_18 = Uri_EscapeDataString_m3942(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+			String_t* L_18 = Uri_EscapeDataString_m3939(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 			KeyValuePair_2_t302 * L_19 = &(__this->___U3CpairU3E__2_2);
-			String_t* L_20 = KeyValuePair_2_get_Value_m3909(L_19, /*hidden argument*/KeyValuePair_2_get_Value_m3909_MethodInfo_var);
-			String_t* L_21 = Uri_EscapeDataString_m3942(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+			String_t* L_20 = KeyValuePair_2_get_Value_m3906(L_19, /*hidden argument*/KeyValuePair_2_get_Value_m3906_MethodInfo_var);
+			String_t* L_21 = Uri_EscapeDataString_m3939(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_22 = String_Format_m4059(NULL /*static, unused*/, (String_t*) &_stringLiteral939, L_18, L_21, /*hidden argument*/NULL);
+			String_t* L_22 = String_Format_m4056(NULL /*static, unused*/, (String_t*) &_stringLiteral939, L_18, L_21, /*hidden argument*/NULL);
 			String_t* L_23 = String_Concat_m408(NULL /*static, unused*/, L_15, L_22, /*hidden argument*/NULL);
 			__this->___U3CurlParamsU3E__0_0 = L_23;
 		}
@@ -13989,7 +13989,7 @@ IL_0090:
 IL_00dc:
 		{
 			Enumerator_t301 * L_24 = &(__this->___U3CU24s_77U3E__1_1);
-			bool L_25 = Enumerator_MoveNext_m3910(L_24, /*hidden argument*/Enumerator_MoveNext_m3910_MethodInfo_var);
+			bool L_25 = Enumerator_MoveNext_m3907(L_24, /*hidden argument*/Enumerator_MoveNext_m3907_MethodInfo_var);
 			if (L_25)
 			{
 				goto IL_0090;
@@ -14031,7 +14031,7 @@ IL_0102:
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_32 = String_Concat_m408(NULL /*static, unused*/, L_30, L_31, /*hidden argument*/NULL);
 		WWW_t265 * L_33 = (WWW_t265 *)il2cpp_codegen_object_new (WWW_t265_il2cpp_TypeInfo_var);
-		WWW__ctor_m3853(L_33, L_32, /*hidden argument*/NULL);
+		WWW__ctor_m3850(L_33, L_32, /*hidden argument*/NULL);
 		__this->___U3CwwwU3E__3_3 = L_33;
 		goto IL_0220;
 	}
@@ -14049,7 +14049,7 @@ IL_0128:
 	{
 		AsyncRequestString_t446 * L_36 = (__this->___U3CU3Ef__this_8);
 		WWWForm_t112 * L_37 = (WWWForm_t112 *)il2cpp_codegen_object_new (WWWForm_t112_il2cpp_TypeInfo_var);
-		WWWForm__ctor_m3703(L_37, /*hidden argument*/NULL);
+		WWWForm__ctor_m3700(L_37, /*hidden argument*/NULL);
 		NullCheck(L_36);
 		L_36->___query_5 = L_37;
 	}
@@ -14071,7 +14071,7 @@ IL_0148:
 		NullCheck(L_41);
 		WWWForm_t112 * L_42 = (L_41->___query_5);
 		NullCheck(L_42);
-		WWWForm_AddField_m3705(L_42, (String_t*) &_stringLiteral903, (String_t*) &_stringLiteral940, /*hidden argument*/NULL);
+		WWWForm_AddField_m3702(L_42, (String_t*) &_stringLiteral903, (String_t*) &_stringLiteral940, /*hidden argument*/NULL);
 	}
 
 IL_0177:
@@ -14089,7 +14089,7 @@ IL_0177:
 		NullCheck(L_45);
 		Dictionary_2_t122 * L_46 = (L_45->___formData_4);
 		NullCheck(L_46);
-		Enumerator_t301  L_47 = Dictionary_2_GetEnumerator_m3906(L_46, /*hidden argument*/Dictionary_2_GetEnumerator_m3906_MethodInfo_var);
+		Enumerator_t301  L_47 = Dictionary_2_GetEnumerator_m3903(L_46, /*hidden argument*/Dictionary_2_GetEnumerator_m3903_MethodInfo_var);
 		__this->___U3CU24s_78U3E__4_4 = L_47;
 	}
 
@@ -14103,23 +14103,23 @@ IL_019d:
 IL_01a2:
 		{
 			Enumerator_t301 * L_48 = &(__this->___U3CU24s_78U3E__4_4);
-			KeyValuePair_2_t302  L_49 = Enumerator_get_Current_m3907(L_48, /*hidden argument*/Enumerator_get_Current_m3907_MethodInfo_var);
+			KeyValuePair_2_t302  L_49 = Enumerator_get_Current_m3904(L_48, /*hidden argument*/Enumerator_get_Current_m3904_MethodInfo_var);
 			__this->___U3CpairU3E__5_5 = L_49;
 			AsyncRequestString_t446 * L_50 = (__this->___U3CU3Ef__this_8);
 			NullCheck(L_50);
 			WWWForm_t112 * L_51 = (L_50->___query_5);
 			KeyValuePair_2_t302 * L_52 = &(__this->___U3CpairU3E__5_5);
-			String_t* L_53 = KeyValuePair_2_get_Key_m3908(L_52, /*hidden argument*/KeyValuePair_2_get_Key_m3908_MethodInfo_var);
+			String_t* L_53 = KeyValuePair_2_get_Key_m3905(L_52, /*hidden argument*/KeyValuePair_2_get_Key_m3905_MethodInfo_var);
 			KeyValuePair_2_t302 * L_54 = &(__this->___U3CpairU3E__5_5);
-			String_t* L_55 = KeyValuePair_2_get_Value_m3909(L_54, /*hidden argument*/KeyValuePair_2_get_Value_m3909_MethodInfo_var);
+			String_t* L_55 = KeyValuePair_2_get_Value_m3906(L_54, /*hidden argument*/KeyValuePair_2_get_Value_m3906_MethodInfo_var);
 			NullCheck(L_51);
-			WWWForm_AddField_m3705(L_51, L_53, L_55, /*hidden argument*/NULL);
+			WWWForm_AddField_m3702(L_51, L_53, L_55, /*hidden argument*/NULL);
 		}
 
 IL_01d9:
 		{
 			Enumerator_t301 * L_56 = &(__this->___U3CU24s_78U3E__4_4);
-			bool L_57 = Enumerator_MoveNext_m3910(L_56, /*hidden argument*/Enumerator_MoveNext_m3910_MethodInfo_var);
+			bool L_57 = Enumerator_MoveNext_m3907(L_56, /*hidden argument*/Enumerator_MoveNext_m3907_MethodInfo_var);
 			if (L_57)
 			{
 				goto IL_01a2;
@@ -14161,7 +14161,7 @@ IL_01ff:
 		NullCheck(L_63);
 		WWWForm_t112 * L_64 = (L_63->___query_5);
 		WWW_t265 * L_65 = (WWW_t265 *)il2cpp_codegen_object_new (WWW_t265_il2cpp_TypeInfo_var);
-		WWW__ctor_m4124(L_65, L_62, L_64, /*hidden argument*/NULL);
+		WWW__ctor_m4121(L_65, L_62, L_64, /*hidden argument*/NULL);
 		__this->___U3CwwwU3E__3_3 = L_65;
 	}
 
@@ -14200,7 +14200,7 @@ IL_0263:
 		NullCheck(L_73);
 		VirtActionInvoker0::Invoke(4 /* System.Void UnityEngine.WWW::Dispose() */, L_73);
 		AsyncRequestString_t446 * L_74 = (__this->___U3CU3Ef__this_8);
-		Object_Destroy_m3900(NULL /*static, unused*/, L_74, /*hidden argument*/NULL);
+		Object_Destroy_m3897(NULL /*static, unused*/, L_74, /*hidden argument*/NULL);
 		__this->___U24PC_6 = (-1);
 	}
 
@@ -14249,11 +14249,11 @@ struct FBComponentFactory_t428;
 struct Object_t;
 // Declaration !!0 Facebook.FBComponentFactory::AddComponent<System.Object>()
 // !!0 Facebook.FBComponentFactory::AddComponent<System.Object>()
-extern "C" Object_t * FBComponentFactory_AddComponent_TisObject_t_m4126_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define FBComponentFactory_AddComponent_TisObject_t_m4126(__this /* static, unused */, method) (( Object_t * (*) (Object_t * /* static, unused */, const MethodInfo*))FBComponentFactory_AddComponent_TisObject_t_m4126_gshared)(__this /* static, unused */, method)
+extern "C" Object_t * FBComponentFactory_AddComponent_TisObject_t_m4123_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define FBComponentFactory_AddComponent_TisObject_t_m4123(__this /* static, unused */, method) (( Object_t * (*) (Object_t * /* static, unused */, const MethodInfo*))FBComponentFactory_AddComponent_TisObject_t_m4123_gshared)(__this /* static, unused */, method)
 // Declaration !!0 Facebook.FBComponentFactory::AddComponent<Facebook.AsyncRequestString>()
 // !!0 Facebook.FBComponentFactory::AddComponent<Facebook.AsyncRequestString>()
-#define FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4125(__this /* static, unused */, method) (( AsyncRequestString_t446 * (*) (Object_t * /* static, unused */, const MethodInfo*))FBComponentFactory_AddComponent_TisObject_t_m4126_gshared)(__this /* static, unused */, method)
+#define FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4122(__this /* static, unused */, method) (( AsyncRequestString_t446 * (*) (Object_t * /* static, unused */, const MethodInfo*))FBComponentFactory_AddComponent_TisObject_t_m4123_gshared)(__this /* static, unused */, method)
 
 
 // System.Void Facebook.AsyncRequestString::.ctor()
@@ -14305,17 +14305,17 @@ extern "C" void AsyncRequestString_Get_m2474 (Object_t * __this /* static, unuse
 	}
 }
 // System.Void Facebook.AsyncRequestString::Request(System.String,Facebook.HttpMethod,UnityEngine.WWWForm,Facebook.FacebookDelegate)
-extern const MethodInfo* FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4125_MethodInfo_var;
+extern const MethodInfo* FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4122_MethodInfo_var;
 extern "C" void AsyncRequestString_Request_m2475 (Object_t * __this /* static, unused */, String_t* ___url, HttpMethod_t448 * ___method, WWWForm_t112 * ___query, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4125_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484109);
+		FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4122_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484109);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		AsyncRequestString_t446 * L_0 = FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4125(NULL /*static, unused*/, /*hidden argument*/FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4125_MethodInfo_var);
+		AsyncRequestString_t446 * L_0 = FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4122(NULL /*static, unused*/, /*hidden argument*/FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4122_MethodInfo_var);
 		String_t* L_1 = ___url;
 		NullCheck(L_0);
 		AsyncRequestString_t446 * L_2 = AsyncRequestString_SetUrl_m2478(L_0, L_1, /*hidden argument*/NULL);
@@ -14332,17 +14332,17 @@ extern "C" void AsyncRequestString_Request_m2475 (Object_t * __this /* static, u
 	}
 }
 // System.Void Facebook.AsyncRequestString::Request(System.String,Facebook.HttpMethod,System.Collections.Generic.Dictionary`2<System.String,System.String>,Facebook.FacebookDelegate)
-extern const MethodInfo* FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4125_MethodInfo_var;
+extern const MethodInfo* FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4122_MethodInfo_var;
 extern "C" void AsyncRequestString_Request_m2476 (Object_t * __this /* static, unused */, String_t* ___url, HttpMethod_t448 * ___method, Dictionary_2_t122 * ___formData, FacebookDelegate_t433 * ___callback, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4125_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484109);
+		FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4122_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484109);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		AsyncRequestString_t446 * L_0 = FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4125(NULL /*static, unused*/, /*hidden argument*/FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4125_MethodInfo_var);
+		AsyncRequestString_t446 * L_0 = FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4122(NULL /*static, unused*/, /*hidden argument*/FBComponentFactory_AddComponent_TisAsyncRequestString_t446_m4122_MethodInfo_var);
 		String_t* L_1 = ___url;
 		NullCheck(L_0);
 		AsyncRequestString_t446 * L_2 = AsyncRequestString_SetUrl_m2478(L_0, L_1, /*hidden argument*/NULL);
@@ -14578,7 +14578,7 @@ extern "C" void Parser__ctor_m2489 (Parser_t450 * __this, String_t* ___jsonStrin
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___jsonString;
 		StringReader_t259 * L_1 = (StringReader_t259 *)il2cpp_codegen_object_new (StringReader_t259_il2cpp_TypeInfo_var);
-		StringReader__ctor_m3839(L_1, L_0, /*hidden argument*/NULL);
+		StringReader__ctor_m3836(L_1, L_0, /*hidden argument*/NULL);
 		__this->___json_2 = L_1;
 		return;
 	}
@@ -14679,14 +14679,14 @@ extern "C" void Parser_Dispose_m2491 (Parser_t450 * __this, const MethodInfo* me
 }
 // System.Collections.Generic.Dictionary`2<System.String,System.Object> Facebook.MiniJSON.Json/Parser::ParseObject()
 extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
 extern "C" Dictionary_2_t312 * Parser_ParseObject_m2492 (Parser_t450 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t312_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(179);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t312 * V_0 = {0};
@@ -14694,7 +14694,7 @@ extern "C" Dictionary_2_t312 * Parser_ParseObject_m2492 (Parser_t450 * __this, c
 	int32_t V_2 = {0};
 	{
 		Dictionary_2_t312 * L_0 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_0, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_0, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_0 = L_0;
 		StringReader_t259 * L_1 = (__this->___json_2);
 		NullCheck(L_1);
@@ -14794,14 +14794,14 @@ IL_007b:
 }
 // System.Collections.Generic.List`1<System.Object> Facebook.MiniJSON.Json/Parser::ParseArray()
 extern TypeInfo* List_1_t684_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3713_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3710_MethodInfo_var;
 extern "C" List_1_t684 * Parser_ParseArray_m2493 (Parser_t450 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t684_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(180);
-		List_1__ctor_m3713_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483711);
+		List_1__ctor_m3710_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483711);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t684 * V_0 = {0};
@@ -14811,7 +14811,7 @@ extern "C" List_1_t684 * Parser_ParseArray_m2493 (Parser_t450 * __this, const Me
 	int32_t V_4 = {0};
 	{
 		List_1_t684 * L_0 = (List_1_t684 *)il2cpp_codegen_object_new (List_1_t684_il2cpp_TypeInfo_var);
-		List_1__ctor_m3713(L_0, /*hidden argument*/List_1__ctor_m3713_MethodInfo_var);
+		List_1__ctor_m3710(L_0, /*hidden argument*/List_1__ctor_m3710_MethodInfo_var);
 		V_0 = L_0;
 		StringReader_t259 * L_1 = (__this->___json_2);
 		NullCheck(L_1);
@@ -15039,7 +15039,7 @@ extern "C" String_t* Parser_ParseString_m2496 (Parser_t450 * __this, const Metho
 	uint16_t V_6 = 0x0;
 	{
 		StringBuilder_t261 * L_0 = (StringBuilder_t261 *)il2cpp_codegen_object_new (StringBuilder_t261_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m3840(L_0, /*hidden argument*/NULL);
+		StringBuilder__ctor_m3837(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		StringReader_t259 * L_1 = (__this->___json_2);
 		NullCheck(L_1);
@@ -15193,7 +15193,7 @@ IL_00d7:
 		StringBuilder_t261 * L_18 = V_0;
 		uint16_t L_19 = V_1;
 		NullCheck(L_18);
-		StringBuilder_Append_m3841(L_18, L_19, /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_18, L_19, /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
@@ -15201,7 +15201,7 @@ IL_00e4:
 	{
 		StringBuilder_t261 * L_20 = V_0;
 		NullCheck(L_20);
-		StringBuilder_Append_m3841(L_20, 8, /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_20, 8, /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
@@ -15209,7 +15209,7 @@ IL_00f1:
 	{
 		StringBuilder_t261 * L_21 = V_0;
 		NullCheck(L_21);
-		StringBuilder_Append_m3841(L_21, ((int32_t)12), /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_21, ((int32_t)12), /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
@@ -15217,7 +15217,7 @@ IL_00ff:
 	{
 		StringBuilder_t261 * L_22 = V_0;
 		NullCheck(L_22);
-		StringBuilder_Append_m3841(L_22, ((int32_t)10), /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_22, ((int32_t)10), /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
@@ -15225,7 +15225,7 @@ IL_010d:
 	{
 		StringBuilder_t261 * L_23 = V_0;
 		NullCheck(L_23);
-		StringBuilder_Append_m3841(L_23, ((int32_t)13), /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_23, ((int32_t)13), /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
@@ -15233,14 +15233,14 @@ IL_011b:
 	{
 		StringBuilder_t261 * L_24 = V_0;
 		NullCheck(L_24);
-		StringBuilder_Append_m3841(L_24, ((int32_t)9), /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_24, ((int32_t)9), /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
 IL_0129:
 	{
 		StringBuilder_t261 * L_25 = (StringBuilder_t261 *)il2cpp_codegen_object_new (StringBuilder_t261_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m3840(L_25, /*hidden argument*/NULL);
+		StringBuilder__ctor_m3837(L_25, /*hidden argument*/NULL);
 		V_3 = L_25;
 		V_4 = 0;
 		goto IL_014a;
@@ -15251,7 +15251,7 @@ IL_0137:
 		StringBuilder_t261 * L_26 = V_3;
 		uint16_t L_27 = Parser_get_NextChar_m2500(__this, /*hidden argument*/NULL);
 		NullCheck(L_26);
-		StringBuilder_Append_m3841(L_26, L_27, /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_26, L_27, /*hidden argument*/NULL);
 		int32_t L_28 = V_4;
 		V_4 = ((int32_t)((int32_t)L_28+(int32_t)1));
 	}
@@ -15270,9 +15270,9 @@ IL_014a:
 		NullCheck(L_31);
 		String_t* L_32 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Text.StringBuilder::ToString() */, L_31);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_33 = Convert_ToInt32_m3842(NULL /*static, unused*/, L_32, ((int32_t)16), /*hidden argument*/NULL);
+		int32_t L_33 = Convert_ToInt32_m3839(NULL /*static, unused*/, L_32, ((int32_t)16), /*hidden argument*/NULL);
 		NullCheck(L_30);
-		StringBuilder_Append_m3841(L_30, (((uint16_t)L_33)), /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_30, (((uint16_t)L_33)), /*hidden argument*/NULL);
 		goto IL_016c;
 	}
 
@@ -15286,7 +15286,7 @@ IL_0171:
 		StringBuilder_t261 * L_34 = V_0;
 		uint16_t L_35 = V_1;
 		NullCheck(L_34);
-		StringBuilder_Append_m3841(L_34, L_35, /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_34, L_35, /*hidden argument*/NULL);
 		goto IL_017e;
 	}
 
@@ -15327,7 +15327,7 @@ extern "C" Object_t * Parser_ParseNumber_m2497 (Parser_t450 * __this, const Meth
 		V_0 = L_0;
 		String_t* L_1 = V_0;
 		NullCheck(L_1);
-		int32_t L_2 = String_IndexOf_m3843(L_1, ((int32_t)46), /*hidden argument*/NULL);
+		int32_t L_2 = String_IndexOf_m3840(L_1, ((int32_t)46), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
 		{
 			goto IL_0026;
@@ -15337,7 +15337,7 @@ extern "C" Object_t * Parser_ParseNumber_m2497 (Parser_t450 * __this, const Meth
 		String_t* L_3 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Json_t453_il2cpp_TypeInfo_var);
 		NumberFormatInfo_t452 * L_4 = ((Json_t453_StaticFields*)Json_t453_il2cpp_TypeInfo_var->static_fields)->___numberFormat_0;
-		int64_t L_5 = Int64_Parse_m4127(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		int64_t L_5 = Int64_Parse_m4124(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
 		int64_t L_6 = L_5;
 		Object_t * L_7 = Box(Int64_t89_il2cpp_TypeInfo_var, &L_6);
 		return L_7;
@@ -15348,7 +15348,7 @@ IL_0026:
 		String_t* L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Json_t453_il2cpp_TypeInfo_var);
 		NumberFormatInfo_t452 * L_9 = ((Json_t453_StaticFields*)Json_t453_il2cpp_TypeInfo_var->static_fields)->___numberFormat_0;
-		double L_10 = Double_Parse_m4128(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		double L_10 = Double_Parse_m4125(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
 		double L_11 = L_10;
 		Object_t * L_12 = Box(Double_t90_il2cpp_TypeInfo_var, &L_11);
 		return L_12;
@@ -15382,7 +15382,7 @@ IL_0027:
 	{
 		uint16_t L_3 = Parser_get_PeekChar_m2499(__this, /*hidden argument*/NULL);
 		NullCheck((String_t*) &_stringLiteral502);
-		int32_t L_4 = String_IndexOf_m3843((String_t*) &_stringLiteral502, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = String_IndexOf_m3840((String_t*) &_stringLiteral502, L_3, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_4) == ((uint32_t)(-1)))))
 		{
 			goto IL_0005;
@@ -15409,7 +15409,7 @@ extern "C" uint16_t Parser_get_PeekChar_m2499 (Parser_t450 * __this, const Metho
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 System.IO.StringReader::Peek() */, L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		uint16_t L_2 = Convert_ToChar_m3845(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		uint16_t L_2 = Convert_ToChar_m3842(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -15428,7 +15428,7 @@ extern "C" uint16_t Parser_get_NextChar_m2500 (Parser_t450 * __this, const Metho
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(8 /* System.Int32 System.IO.StringReader::Read() */, L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		uint16_t L_2 = Convert_ToChar_m3845(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		uint16_t L_2 = Convert_ToChar_m3842(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -15445,7 +15445,7 @@ extern "C" String_t* Parser_get_NextWord_m2501 (Parser_t450 * __this, const Meth
 	StringBuilder_t261 * V_0 = {0};
 	{
 		StringBuilder_t261 * L_0 = (StringBuilder_t261 *)il2cpp_codegen_object_new (StringBuilder_t261_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m3840(L_0, /*hidden argument*/NULL);
+		StringBuilder__ctor_m3837(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		goto IL_002e;
 	}
@@ -15455,7 +15455,7 @@ IL_000b:
 		StringBuilder_t261 * L_1 = V_0;
 		uint16_t L_2 = Parser_get_NextChar_m2500(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		StringBuilder_Append_m3841(L_1, L_2, /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_1, L_2, /*hidden argument*/NULL);
 		StringReader_t259 * L_3 = (__this->___json_2);
 		NullCheck(L_3);
 		int32_t L_4 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 System.IO.StringReader::Peek() */, L_3);
@@ -15472,7 +15472,7 @@ IL_002e:
 	{
 		uint16_t L_5 = Parser_get_PeekChar_m2499(__this, /*hidden argument*/NULL);
 		NullCheck((String_t*) &_stringLiteral500);
-		int32_t L_6 = String_IndexOf_m3843((String_t*) &_stringLiteral500, L_5, /*hidden argument*/NULL);
+		int32_t L_6 = String_IndexOf_m3840((String_t*) &_stringLiteral500, L_5, /*hidden argument*/NULL);
 		if ((((int32_t)L_6) == ((int32_t)(-1))))
 		{
 			goto IL_000b;
@@ -15490,7 +15490,7 @@ IL_0044:
 // Facebook.MiniJSON.Json/Parser/TOKEN Facebook.MiniJSON.Json/Parser::get_NextToken()
 extern TypeInfo* Parser_t450_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t223_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3846_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3843_MethodInfo_var;
 extern "C" int32_t Parser_get_NextToken_m2502 (Parser_t450 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -15498,7 +15498,7 @@ extern "C" int32_t Parser_get_NextToken_m2502 (Parser_t450 * __this, const Metho
 	{
 		Parser_t450_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(433);
 		Dictionary_2_t223_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(247);
-		Dictionary_2__ctor_m3846_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483857);
+		Dictionary_2__ctor_m3843_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483857);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint16_t V_0 = 0x0;
@@ -15737,7 +15737,7 @@ IL_00f2:
 	}
 	{
 		Dictionary_2_t223 * L_14 = (Dictionary_2_t223 *)il2cpp_codegen_object_new (Dictionary_2_t223_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3846(L_14, 3, /*hidden argument*/Dictionary_2__ctor_m3846_MethodInfo_var);
+		Dictionary_2__ctor_m3843(L_14, 3, /*hidden argument*/Dictionary_2__ctor_m3843_MethodInfo_var);
 		V_4 = L_14;
 		Dictionary_2_t223 * L_15 = V_4;
 		NullCheck(L_15);
@@ -15837,7 +15837,7 @@ extern "C" void Serializer__ctor_m2503 (Serializer_t451 * __this, const MethodIn
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		StringBuilder_t261 * L_0 = (StringBuilder_t261 *)il2cpp_codegen_object_new (StringBuilder_t261_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m3840(L_0, /*hidden argument*/NULL);
+		StringBuilder__ctor_m3837(L_0, /*hidden argument*/NULL);
 		__this->___builder_0 = L_0;
 		return;
 	}
@@ -15900,7 +15900,7 @@ extern "C" void Serializer_SerializeValue_m2505 (Serializer_t451 * __this, Objec
 	{
 		StringBuilder_t261 * L_1 = (__this->___builder_0);
 		NullCheck(L_1);
-		StringBuilder_Append_m3847(L_1, (String_t*) &_stringLiteral501, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_1, (String_t*) &_stringLiteral501, /*hidden argument*/NULL);
 		goto IL_00b1;
 	}
 
@@ -15934,9 +15934,9 @@ IL_0035:
 		NullCheck(L_7);
 		String_t* L_8 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_7);
 		NullCheck(L_8);
-		String_t* L_9 = String_ToLower_m3848(L_8, /*hidden argument*/NULL);
+		String_t* L_9 = String_ToLower_m3845(L_8, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		StringBuilder_Append_m3847(L_6, L_9, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_6, L_9, /*hidden argument*/NULL);
 		goto IL_00b1;
 	}
 
@@ -16029,7 +16029,7 @@ extern "C" void Serializer_SerializeObject_m2506 (Serializer_t451 * __this, Obje
 		V_0 = 1;
 		StringBuilder_t261 * L_0 = (__this->___builder_0);
 		NullCheck(L_0);
-		StringBuilder_Append_m3841(L_0, ((int32_t)123), /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_0, ((int32_t)123), /*hidden argument*/NULL);
 		Object_t * L_1 = ___obj;
 		NullCheck(L_1);
 		Object_t * L_2 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(2 /* System.Collections.ICollection System.Collections.IDictionary::get_Keys() */, IDictionary_t685_il2cpp_TypeInfo_var, L_1);
@@ -16062,7 +16062,7 @@ IL_002e:
 		{
 			StringBuilder_t261 * L_7 = (__this->___builder_0);
 			NullCheck(L_7);
-			StringBuilder_Append_m3841(L_7, ((int32_t)44), /*hidden argument*/NULL);
+			StringBuilder_Append_m3838(L_7, ((int32_t)44), /*hidden argument*/NULL);
 		}
 
 IL_003c:
@@ -16073,7 +16073,7 @@ IL_003c:
 			Serializer_SerializeString_m2508(__this, L_9, /*hidden argument*/NULL);
 			StringBuilder_t261 * L_10 = (__this->___builder_0);
 			NullCheck(L_10);
-			StringBuilder_Append_m3841(L_10, ((int32_t)58), /*hidden argument*/NULL);
+			StringBuilder_Append_m3838(L_10, ((int32_t)58), /*hidden argument*/NULL);
 			Object_t * L_11 = ___obj;
 			Object_t * L_12 = V_1;
 			NullCheck(L_11);
@@ -16139,7 +16139,7 @@ IL_0087:
 	{
 		StringBuilder_t261 * L_19 = (__this->___builder_0);
 		NullCheck(L_19);
-		StringBuilder_Append_m3841(L_19, ((int32_t)125), /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_19, ((int32_t)125), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -16170,7 +16170,7 @@ extern "C" void Serializer_SerializeArray_m2507 (Serializer_t451 * __this, Objec
 	{
 		StringBuilder_t261 * L_0 = (__this->___builder_0);
 		NullCheck(L_0);
-		StringBuilder_Append_m3841(L_0, ((int32_t)91), /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_0, ((int32_t)91), /*hidden argument*/NULL);
 		V_0 = 1;
 		Object_t * L_1 = ___anArray;
 		NullCheck(L_1);
@@ -16202,7 +16202,7 @@ IL_0029:
 		{
 			StringBuilder_t261 * L_6 = (__this->___builder_0);
 			NullCheck(L_6);
-			StringBuilder_Append_m3841(L_6, ((int32_t)44), /*hidden argument*/NULL);
+			StringBuilder_Append_m3838(L_6, ((int32_t)44), /*hidden argument*/NULL);
 		}
 
 IL_0037:
@@ -16269,7 +16269,7 @@ IL_0062:
 	{
 		StringBuilder_t261 * L_13 = (__this->___builder_0);
 		NullCheck(L_13);
-		StringBuilder_Append_m3841(L_13, ((int32_t)93), /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_13, ((int32_t)93), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -16294,10 +16294,10 @@ extern "C" void Serializer_SerializeString_m2508 (Serializer_t451 * __this, Stri
 	{
 		StringBuilder_t261 * L_0 = (__this->___builder_0);
 		NullCheck(L_0);
-		StringBuilder_Append_m3841(L_0, ((int32_t)34), /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_0, ((int32_t)34), /*hidden argument*/NULL);
 		String_t* L_1 = ___str;
 		NullCheck(L_1);
-		CharU5BU5D_t697* L_2 = String_ToCharArray_m3849(L_1, /*hidden argument*/NULL);
+		CharU5BU5D_t697* L_2 = String_ToCharArray_m3846(L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		CharU5BU5D_t697* L_3 = V_0;
 		V_2 = L_3;
@@ -16365,7 +16365,7 @@ IL_005d:
 	{
 		StringBuilder_t261 * L_11 = (__this->___builder_0);
 		NullCheck(L_11);
-		StringBuilder_Append_m3847(L_11, (String_t*) &_stringLiteral109, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_11, (String_t*) &_stringLiteral109, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -16373,7 +16373,7 @@ IL_0073:
 	{
 		StringBuilder_t261 * L_12 = (__this->___builder_0);
 		NullCheck(L_12);
-		StringBuilder_Append_m3847(L_12, (String_t*) &_stringLiteral108, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_12, (String_t*) &_stringLiteral108, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -16381,7 +16381,7 @@ IL_0089:
 	{
 		StringBuilder_t261 * L_13 = (__this->___builder_0);
 		NullCheck(L_13);
-		StringBuilder_Append_m3847(L_13, (String_t*) &_stringLiteral113, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_13, (String_t*) &_stringLiteral113, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -16389,7 +16389,7 @@ IL_009f:
 	{
 		StringBuilder_t261 * L_14 = (__this->___builder_0);
 		NullCheck(L_14);
-		StringBuilder_Append_m3847(L_14, (String_t*) &_stringLiteral114, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_14, (String_t*) &_stringLiteral114, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -16397,7 +16397,7 @@ IL_00b5:
 	{
 		StringBuilder_t261 * L_15 = (__this->___builder_0);
 		NullCheck(L_15);
-		StringBuilder_Append_m3847(L_15, (String_t*) &_stringLiteral110, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_15, (String_t*) &_stringLiteral110, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -16405,7 +16405,7 @@ IL_00cb:
 	{
 		StringBuilder_t261 * L_16 = (__this->___builder_0);
 		NullCheck(L_16);
-		StringBuilder_Append_m3847(L_16, (String_t*) &_stringLiteral111, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_16, (String_t*) &_stringLiteral111, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -16413,7 +16413,7 @@ IL_00e1:
 	{
 		StringBuilder_t261 * L_17 = (__this->___builder_0);
 		NullCheck(L_17);
-		StringBuilder_Append_m3847(L_17, (String_t*) &_stringLiteral112, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_17, (String_t*) &_stringLiteral112, /*hidden argument*/NULL);
 		goto IL_014f;
 	}
 
@@ -16421,7 +16421,7 @@ IL_00f7:
 	{
 		uint16_t L_18 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_19 = Convert_ToInt32_m3850(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		int32_t L_19 = Convert_ToInt32_m3847(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 		V_4 = L_19;
 		int32_t L_20 = V_4;
 		if ((((int32_t)L_20) < ((int32_t)((int32_t)32))))
@@ -16440,7 +16440,7 @@ IL_00f7:
 		StringBuilder_t261 * L_22 = (__this->___builder_0);
 		uint16_t L_23 = V_1;
 		NullCheck(L_22);
-		StringBuilder_Append_m3841(L_22, L_23, /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_22, L_23, /*hidden argument*/NULL);
 		goto IL_014a;
 	}
 
@@ -16449,13 +16449,13 @@ IL_0123:
 		StringBuilder_t261 * L_24 = (__this->___builder_0);
 		int32_t L_25 = V_4;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		String_t* L_26 = Convert_ToString_m3851(NULL /*static, unused*/, L_25, ((int32_t)16), /*hidden argument*/NULL);
+		String_t* L_26 = Convert_ToString_m3848(NULL /*static, unused*/, L_25, ((int32_t)16), /*hidden argument*/NULL);
 		NullCheck(L_26);
-		String_t* L_27 = String_PadLeft_m3852(L_26, 4, ((int32_t)48), /*hidden argument*/NULL);
+		String_t* L_27 = String_PadLeft_m3849(L_26, 4, ((int32_t)48), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_28 = String_Concat_m408(NULL /*static, unused*/, (String_t*) &_stringLiteral503, L_27, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		StringBuilder_Append_m3847(L_24, L_28, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_24, L_28, /*hidden argument*/NULL);
 	}
 
 IL_014a:
@@ -16482,7 +16482,7 @@ IL_0153:
 	{
 		StringBuilder_t261 * L_32 = (__this->___builder_0);
 		NullCheck(L_32);
-		StringBuilder_Append_m3841(L_32, ((int32_t)34), /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_32, ((int32_t)34), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -16601,7 +16601,7 @@ IL_0079:
 		NullCheck(L_12);
 		String_t* L_13 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_12);
 		NullCheck(L_11);
-		StringBuilder_Append_m3847(L_11, L_13, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_11, L_13, /*hidden argument*/NULL);
 		goto IL_009c;
 	}
 
@@ -16638,7 +16638,7 @@ extern "C" void Json__cctor_m2510 (Object_t * __this /* static, unused */, const
 	}
 	{
 		CultureInfo_t768 * L_0 = (CultureInfo_t768 *)il2cpp_codegen_object_new (CultureInfo_t768_il2cpp_TypeInfo_var);
-		CultureInfo__ctor_m4129(L_0, (String_t*) &_stringLiteral943, /*hidden argument*/NULL);
+		CultureInfo__ctor_m4126(L_0, (String_t*) &_stringLiteral943, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		NumberFormatInfo_t452 * L_1 = (NumberFormatInfo_t452 *)VirtFuncInvoker0< NumberFormatInfo_t452 * >::Invoke(11 /* System.Globalization.NumberFormatInfo System.Globalization.CultureInfo::get_NumberFormat() */, L_0);
 		((Json_t453_StaticFields*)Json_t453_il2cpp_TypeInfo_var->static_fields)->___numberFormat_0 = L_1;
@@ -17986,7 +17986,7 @@ extern "C" void GA_Debug__cctor_m2573 (Object_t * __this /* static, unused */, c
 extern TypeInfo* GA_Debug_t461_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t115_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3708_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3705_MethodInfo_var;
 extern "C" void GA_Debug_HandleLog_m2574 (Object_t * __this /* static, unused */, String_t* ___logString, String_t* ___stackTrace, int32_t ___type, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -17995,7 +17995,7 @@ extern "C" void GA_Debug_HandleLog_m2574 (Object_t * __this /* static, unused */
 		GA_Debug_t461_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(435);
 		List_1_t115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(186);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		List_1__ctor_m3708_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483708);
+		List_1__ctor_m3705_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483708);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -18018,7 +18018,7 @@ extern "C" void GA_Debug_HandleLog_m2574 (Object_t * __this /* static, unused */
 	}
 	{
 		List_1_t115 * L_2 = (List_1_t115 *)il2cpp_codegen_object_new (List_1_t115_il2cpp_TypeInfo_var);
-		List_1__ctor_m3708(L_2, /*hidden argument*/List_1__ctor_m3708_MethodInfo_var);
+		List_1__ctor_m3705(L_2, /*hidden argument*/List_1__ctor_m3705_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(GA_Debug_t461_il2cpp_TypeInfo_var);
 		((GA_Debug_t461_StaticFields*)GA_Debug_t461_il2cpp_TypeInfo_var->static_fields)->___Messages_3 = L_2;
 	}
@@ -18064,19 +18064,19 @@ IL_0029:
 		((GA_Debug_t461_StaticFields*)GA_Debug_t461_il2cpp_TypeInfo_var->static_fields)->____errorCount_1 = ((int32_t)((int32_t)L_10+(int32_t)1));
 		String_t* L_11 = ___logString;
 		NullCheck(L_11);
-		String_t* L_12 = String_Replace_m4130(L_11, ((int32_t)34), ((int32_t)39), /*hidden argument*/NULL);
+		String_t* L_12 = String_Replace_m4127(L_11, ((int32_t)34), ((int32_t)39), /*hidden argument*/NULL);
 		NullCheck(L_12);
-		String_t* L_13 = String_Replace_m4130(L_12, ((int32_t)10), ((int32_t)32), /*hidden argument*/NULL);
+		String_t* L_13 = String_Replace_m4127(L_12, ((int32_t)10), ((int32_t)32), /*hidden argument*/NULL);
 		NullCheck(L_13);
-		String_t* L_14 = String_Replace_m4130(L_13, ((int32_t)13), ((int32_t)32), /*hidden argument*/NULL);
+		String_t* L_14 = String_Replace_m4127(L_13, ((int32_t)13), ((int32_t)32), /*hidden argument*/NULL);
 		V_0 = L_14;
 		String_t* L_15 = ___stackTrace;
 		NullCheck(L_15);
-		String_t* L_16 = String_Replace_m4130(L_15, ((int32_t)34), ((int32_t)39), /*hidden argument*/NULL);
+		String_t* L_16 = String_Replace_m4127(L_15, ((int32_t)34), ((int32_t)39), /*hidden argument*/NULL);
 		NullCheck(L_16);
-		String_t* L_17 = String_Replace_m4130(L_16, ((int32_t)10), ((int32_t)32), /*hidden argument*/NULL);
+		String_t* L_17 = String_Replace_m4127(L_16, ((int32_t)10), ((int32_t)32), /*hidden argument*/NULL);
 		NullCheck(L_17);
-		String_t* L_18 = String_Replace_m4130(L_17, ((int32_t)13), ((int32_t)32), /*hidden argument*/NULL);
+		String_t* L_18 = String_Replace_m4127(L_17, ((int32_t)13), ((int32_t)32), /*hidden argument*/NULL);
 		V_1 = L_18;
 		String_t* L_19 = V_0;
 		String_t* L_20 = V_1;
@@ -18191,20 +18191,20 @@ extern "C" void GA_Debug_EnabledLog_m2576 (Object_t * __this /* static, unused *
 
 
 // System.Void GameAnalyticsSDK.GA_Design::NewEvent(System.String,System.Single)
-extern const MethodInfo* Nullable_1__ctor_m3894_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m3891_MethodInfo_var;
 extern "C" void GA_Design_NewEvent_m2577 (Object_t * __this /* static, unused */, String_t* ___eventName, float ___eventValue, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Nullable_1__ctor_m3894_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483920);
+		Nullable_1__ctor_m3891_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483920);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = ___eventName;
 		float L_1 = ___eventValue;
 		Nullable_1_t691  L_2 = {0};
-		Nullable_1__ctor_m3894(&L_2, L_1, /*hidden argument*/Nullable_1__ctor_m3894_MethodInfo_var);
+		Nullable_1__ctor_m3891(&L_2, L_1, /*hidden argument*/Nullable_1__ctor_m3891_MethodInfo_var);
 		GA_Design_CreateNewEvent_m2579(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
 		return;
 	}
@@ -18229,19 +18229,19 @@ extern "C" void GA_Design_NewEvent_m2578 (Object_t * __this /* static, unused */
 	}
 }
 // System.Void GameAnalyticsSDK.GA_Design::CreateNewEvent(System.String,System.Nullable`1<System.Single>)
-extern const MethodInfo* Nullable_1_get_HasValue_m4084_MethodInfo_var;
-extern const MethodInfo* Nullable_1_get_Value_m4085_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m4081_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m4082_MethodInfo_var;
 extern "C" void GA_Design_CreateNewEvent_m2579 (Object_t * __this /* static, unused */, String_t* ___eventName, Nullable_1_t691  ___eventValue, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Nullable_1_get_HasValue_m4084_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484093);
-		Nullable_1_get_Value_m4085_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484094);
+		Nullable_1_get_HasValue_m4081_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484093);
+		Nullable_1_get_Value_m4082_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484094);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = Nullable_1_get_HasValue_m4084((&___eventValue), /*hidden argument*/Nullable_1_get_HasValue_m4084_MethodInfo_var);
+		bool L_0 = Nullable_1_get_HasValue_m4081((&___eventValue), /*hidden argument*/Nullable_1_get_HasValue_m4081_MethodInfo_var);
 		if (!L_0)
 		{
 			goto IL_001e;
@@ -18249,7 +18249,7 @@ extern "C" void GA_Design_CreateNewEvent_m2579 (Object_t * __this /* static, unu
 	}
 	{
 		String_t* L_1 = ___eventName;
-		float L_2 = Nullable_1_get_Value_m4085((&___eventValue), /*hidden argument*/Nullable_1_get_Value_m4085_MethodInfo_var);
+		float L_2 = Nullable_1_get_Value_m4082((&___eventValue), /*hidden argument*/Nullable_1_get_Value_m4082_MethodInfo_var);
 		GA_Wrapper_AddDesignEvent_m2531(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
 		goto IL_0024;
 	}
@@ -18388,7 +18388,7 @@ extern "C" Object_t * GA_MiniJSON_JsonDecode_m2584 (Object_t * __this /* static,
 	{
 		String_t* L_3 = ___json;
 		NullCheck(L_3);
-		CharU5BU5D_t697* L_4 = String_ToCharArray_m3849(L_3, /*hidden argument*/NULL);
+		CharU5BU5D_t697* L_4 = String_ToCharArray_m3846(L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
 		V_1 = 0;
 		V_2 = 1;
@@ -18449,7 +18449,7 @@ extern "C" String_t* GA_MiniJSON_JsonEncode_m2585 (Object_t * __this /* static, 
 	String_t* G_B3_0 = {0};
 	{
 		StringBuilder_t261 * L_0 = (StringBuilder_t261 *)il2cpp_codegen_object_new (StringBuilder_t261_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m4131(L_0, ((int32_t)2000), /*hidden argument*/NULL);
+		StringBuilder__ctor_m4128(L_0, ((int32_t)2000), /*hidden argument*/NULL);
 		V_0 = L_0;
 		IL2CPP_RUNTIME_CLASS_INIT(GA_MiniJSON_t465_il2cpp_TypeInfo_var);
 		GA_MiniJSON_t465 * L_1 = ((GA_MiniJSON_t465_StaticFields*)GA_MiniJSON_t465_il2cpp_TypeInfo_var->static_fields)->___instance_13;
@@ -18625,7 +18625,7 @@ extern "C" Hashtable_t696 * GA_MiniJSON_ParseObject_m2589 (GA_MiniJSON_t465 * __
 	Object_t * V_5 = {0};
 	{
 		Hashtable_t696 * L_0 = (Hashtable_t696 *)il2cpp_codegen_object_new (Hashtable_t696_il2cpp_TypeInfo_var);
-		Hashtable__ctor_m4132(L_0, /*hidden argument*/NULL);
+		Hashtable__ctor_m4129(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		CharU5BU5D_t697* L_1 = ___json;
 		int32_t* L_2 = ___index;
@@ -18769,7 +18769,7 @@ extern "C" ArrayList_t698 * GA_MiniJSON_ParseArray_m2590 (GA_MiniJSON_t465 * __t
 	Object_t * V_4 = {0};
 	{
 		ArrayList_t698 * L_0 = (ArrayList_t698 *)il2cpp_codegen_object_new (ArrayList_t698_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m4133(L_0, /*hidden argument*/NULL);
+		ArrayList__ctor_m4130(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		CharU5BU5D_t697* L_1 = ___json;
 		int32_t* L_2 = ___index;
@@ -18976,7 +18976,7 @@ IL_006e:
 		int32_t* L_19 = ___index;
 		GA_MiniJSON_NextToken_m2597(__this, L_18, L_19, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Boolean_t59_il2cpp_TypeInfo_var);
-		bool L_20 = Boolean_Parse_m4134(NULL /*static, unused*/, (String_t*) &_stringLiteral945, /*hidden argument*/NULL);
+		bool L_20 = Boolean_Parse_m4131(NULL /*static, unused*/, (String_t*) &_stringLiteral945, /*hidden argument*/NULL);
 		bool L_21 = L_20;
 		Object_t * L_22 = Box(Boolean_t59_il2cpp_TypeInfo_var, &L_21);
 		return L_22;
@@ -18988,7 +18988,7 @@ IL_0087:
 		int32_t* L_24 = ___index;
 		GA_MiniJSON_NextToken_m2597(__this, L_23, L_24, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Boolean_t59_il2cpp_TypeInfo_var);
-		bool L_25 = Boolean_Parse_m4134(NULL /*static, unused*/, (String_t*) &_stringLiteral946, /*hidden argument*/NULL);
+		bool L_25 = Boolean_Parse_m4131(NULL /*static, unused*/, (String_t*) &_stringLiteral946, /*hidden argument*/NULL);
 		bool L_26 = L_25;
 		Object_t * L_27 = Box(Boolean_t59_il2cpp_TypeInfo_var, &L_26);
 		return L_27;
@@ -19318,7 +19318,7 @@ IL_017a:
 		String_t* L_76 = V_0;
 		CharU5BU5D_t697* L_77 = V_4;
 		String_t* L_78 = (String_t*)il2cpp_codegen_object_new (String_t_il2cpp_TypeInfo_var);
-		L_78 = String_CreateString_m3982(L_78, L_77, /*hidden argument*/NULL);
+		L_78 = String_CreateString_m3979(L_78, L_77, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_79 = String_Concat_m384(NULL /*static, unused*/, L_76, (String_t*) &_stringLiteral947, L_78, (String_t*) &_stringLiteral948, /*hidden argument*/NULL);
 		V_0 = L_79;
@@ -19341,7 +19341,7 @@ IL_01aa:
 IL_01af:
 	{
 		String_t* L_82 = V_0;
-		String_t* L_83 = Char_ToString_m4135((&V_1), /*hidden argument*/NULL);
+		String_t* L_83 = Char_ToString_m4132((&V_1), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_84 = String_Concat_m408(NULL /*static, unused*/, L_82, L_83, /*hidden argument*/NULL);
 		V_0 = L_84;
@@ -19439,8 +19439,8 @@ IL_0034:
 		*((int32_t*)(L_17)) = (int32_t)((int32_t)((int32_t)L_18+(int32_t)1));
 		CharU5BU5D_t697* L_19 = V_2;
 		String_t* L_20 = (String_t*)il2cpp_codegen_object_new (String_t_il2cpp_TypeInfo_var);
-		L_20 = String_CreateString_m3982(L_20, L_19, /*hidden argument*/NULL);
-		float L_21 = Single_Parse_m4136(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		L_20 = String_CreateString_m3979(L_20, L_19, /*hidden argument*/NULL);
+		float L_21 = Single_Parse_m4133(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
 		return L_21;
 	}
 }
@@ -19462,7 +19462,7 @@ IL_0007:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, L_2);
 		int32_t L_3 = L_2;
 		NullCheck((String_t*) &_stringLiteral949);
-		int32_t L_4 = String_IndexOf_m3843((String_t*) &_stringLiteral949, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_1, L_3)), /*hidden argument*/NULL);
+		int32_t L_4 = String_IndexOf_m3840((String_t*) &_stringLiteral949, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_1, L_3)), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_4) == ((uint32_t)(-1)))))
 		{
 			goto IL_001f;
@@ -19510,7 +19510,7 @@ IL_0005:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, (*((int32_t*)L_1)));
 		int32_t L_2 = (*((int32_t*)L_1));
 		NullCheck((String_t*) &_stringLiteral502);
-		int32_t L_3 = String_IndexOf_m3843((String_t*) &_stringLiteral502, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_0, L_2)), /*hidden argument*/NULL);
+		int32_t L_3 = String_IndexOf_m3840((String_t*) &_stringLiteral502, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_0, L_2)), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_3) == ((uint32_t)(-1)))))
 		{
 			goto IL_001e;
@@ -20035,7 +20035,7 @@ extern "C" bool GA_MiniJSON_SerializeObject_m2599 (GA_MiniJSON_t465 * __this, Ha
 	{
 		StringBuilder_t261 * L_0 = ___builder;
 		NullCheck(L_0);
-		StringBuilder_Append_m3847(L_0, (String_t*) &_stringLiteral124, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_0, (String_t*) &_stringLiteral124, /*hidden argument*/NULL);
 		Hashtable_t696 * L_1 = ___anObject;
 		NullCheck(L_1);
 		Object_t * L_2 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(29 /* System.Collections.IDictionaryEnumerator System.Collections.Hashtable::GetEnumerator() */, L_1);
@@ -20065,7 +20065,7 @@ IL_001a:
 	{
 		StringBuilder_t261 * L_9 = ___builder;
 		NullCheck(L_9);
-		StringBuilder_Append_m3847(L_9, (String_t*) &_stringLiteral120, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_9, (String_t*) &_stringLiteral120, /*hidden argument*/NULL);
 	}
 
 IL_003f:
@@ -20075,7 +20075,7 @@ IL_003f:
 		GA_MiniJSON_SerializeString_m2602(__this, L_10, L_11, /*hidden argument*/NULL);
 		StringBuilder_t261 * L_12 = ___builder;
 		NullCheck(L_12);
-		StringBuilder_Append_m3847(L_12, (String_t*) &_stringLiteral610, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_12, (String_t*) &_stringLiteral610, /*hidden argument*/NULL);
 		Object_t * L_13 = V_3;
 		StringBuilder_t261 * L_14 = ___builder;
 		bool L_15 = GA_MiniJSON_SerializeValue_m2601(__this, L_13, L_14, /*hidden argument*/NULL);
@@ -20106,7 +20106,7 @@ IL_0064:
 	{
 		StringBuilder_t261 * L_18 = ___builder;
 		NullCheck(L_18);
-		StringBuilder_Append_m3847(L_18, (String_t*) &_stringLiteral127, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_18, (String_t*) &_stringLiteral127, /*hidden argument*/NULL);
 		return 1;
 	}
 }
@@ -20119,7 +20119,7 @@ extern "C" bool GA_MiniJSON_SerializeArray_m2600 (GA_MiniJSON_t465 * __this, Arr
 	{
 		StringBuilder_t261 * L_0 = ___builder;
 		NullCheck(L_0);
-		StringBuilder_Append_m3847(L_0, (String_t*) &_stringLiteral950, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_0, (String_t*) &_stringLiteral950, /*hidden argument*/NULL);
 		V_0 = 1;
 		V_1 = 0;
 		goto IL_0044;
@@ -20141,7 +20141,7 @@ IL_0015:
 	{
 		StringBuilder_t261 * L_5 = ___builder;
 		NullCheck(L_5);
-		StringBuilder_Append_m3847(L_5, (String_t*) &_stringLiteral120, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_5, (String_t*) &_stringLiteral120, /*hidden argument*/NULL);
 	}
 
 IL_002f:
@@ -20179,7 +20179,7 @@ IL_0044:
 	{
 		StringBuilder_t261 * L_13 = ___builder;
 		NullCheck(L_13);
-		StringBuilder_Append_m3847(L_13, (String_t*) &_stringLiteral123, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_13, (String_t*) &_stringLiteral123, /*hidden argument*/NULL);
 		return 1;
 	}
 }
@@ -20215,7 +20215,7 @@ extern "C" bool GA_MiniJSON_SerializeValue_m2601 (GA_MiniJSON_t465 * __this, Obj
 	{
 		StringBuilder_t261 * L_1 = ___builder;
 		NullCheck(L_1);
-		StringBuilder_Append_m3847(L_1, (String_t*) &_stringLiteral501, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_1, (String_t*) &_stringLiteral501, /*hidden argument*/NULL);
 		goto IL_0122;
 	}
 
@@ -20223,7 +20223,7 @@ IL_0017:
 	{
 		Object_t * L_2 = ___value;
 		NullCheck(L_2);
-		Type_t * L_3 = Object_GetType_m4060(L_2, /*hidden argument*/NULL);
+		Type_t * L_3 = Object_GetType_m4057(L_2, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		bool L_4 = (bool)VirtFuncInvoker0< bool >::Invoke(21 /* System.Boolean System.Type::get_IsArray() */, L_3);
 		if (!L_4)
@@ -20234,7 +20234,7 @@ IL_0017:
 	{
 		Object_t * L_5 = ___value;
 		ArrayList_t698 * L_6 = (ArrayList_t698 *)il2cpp_codegen_object_new (ArrayList_t698_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m4137(L_6, ((Object_t *)Castclass(L_5, ICollection_t754_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		ArrayList__ctor_m4134(L_6, ((Object_t *)Castclass(L_5, ICollection_t754_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		StringBuilder_t261 * L_7 = ___builder;
 		GA_MiniJSON_SerializeArray_m2600(__this, L_6, L_7, /*hidden argument*/NULL);
 		goto IL_0122;
@@ -20320,7 +20320,7 @@ IL_00b5:
 	{
 		StringBuilder_t261 * L_23 = ___builder;
 		NullCheck(L_23);
-		StringBuilder_Append_m3847(L_23, (String_t*) &_stringLiteral105, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_23, (String_t*) &_stringLiteral105, /*hidden argument*/NULL);
 		goto IL_0122;
 	}
 
@@ -20342,7 +20342,7 @@ IL_00dc:
 	{
 		StringBuilder_t261 * L_26 = ___builder;
 		NullCheck(L_26);
-		StringBuilder_Append_m3847(L_26, (String_t*) &_stringLiteral106, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_26, (String_t*) &_stringLiteral106, /*hidden argument*/NULL);
 		goto IL_0122;
 	}
 
@@ -20381,10 +20381,10 @@ extern "C" void GA_MiniJSON_SerializeString_m2602 (GA_MiniJSON_t465 * __this, St
 	{
 		StringBuilder_t261 * L_0 = ___builder;
 		NullCheck(L_0);
-		StringBuilder_Append_m3847(L_0, (String_t*) &_stringLiteral125, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_0, (String_t*) &_stringLiteral125, /*hidden argument*/NULL);
 		String_t* L_1 = ___aString;
 		NullCheck(L_1);
-		CharU5BU5D_t697* L_2 = String_ToCharArray_m3849(L_1, /*hidden argument*/NULL);
+		CharU5BU5D_t697* L_2 = String_ToCharArray_m3846(L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		V_1 = 0;
 		goto IL_00ea;
@@ -20407,7 +20407,7 @@ IL_001a:
 	{
 		StringBuilder_t261 * L_7 = ___builder;
 		NullCheck(L_7);
-		StringBuilder_Append_m3847(L_7, (String_t*) &_stringLiteral109, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_7, (String_t*) &_stringLiteral109, /*hidden argument*/NULL);
 		goto IL_00e6;
 	}
 
@@ -20422,7 +20422,7 @@ IL_0037:
 	{
 		StringBuilder_t261 * L_9 = ___builder;
 		NullCheck(L_9);
-		StringBuilder_Append_m3847(L_9, (String_t*) &_stringLiteral108, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_9, (String_t*) &_stringLiteral108, /*hidden argument*/NULL);
 		goto IL_00e6;
 	}
 
@@ -20437,7 +20437,7 @@ IL_0050:
 	{
 		StringBuilder_t261 * L_11 = ___builder;
 		NullCheck(L_11);
-		StringBuilder_Append_m3847(L_11, (String_t*) &_stringLiteral113, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_11, (String_t*) &_stringLiteral113, /*hidden argument*/NULL);
 		goto IL_00e6;
 	}
 
@@ -20452,7 +20452,7 @@ IL_0068:
 	{
 		StringBuilder_t261 * L_13 = ___builder;
 		NullCheck(L_13);
-		StringBuilder_Append_m3847(L_13, (String_t*) &_stringLiteral114, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_13, (String_t*) &_stringLiteral114, /*hidden argument*/NULL);
 		goto IL_00e6;
 	}
 
@@ -20467,7 +20467,7 @@ IL_0081:
 	{
 		StringBuilder_t261 * L_15 = ___builder;
 		NullCheck(L_15);
-		StringBuilder_Append_m3847(L_15, (String_t*) &_stringLiteral110, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_15, (String_t*) &_stringLiteral110, /*hidden argument*/NULL);
 		goto IL_00e6;
 	}
 
@@ -20482,7 +20482,7 @@ IL_009a:
 	{
 		StringBuilder_t261 * L_17 = ___builder;
 		NullCheck(L_17);
-		StringBuilder_Append_m3847(L_17, (String_t*) &_stringLiteral111, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_17, (String_t*) &_stringLiteral111, /*hidden argument*/NULL);
 		goto IL_00e6;
 	}
 
@@ -20497,7 +20497,7 @@ IL_00b3:
 	{
 		StringBuilder_t261 * L_19 = ___builder;
 		NullCheck(L_19);
-		StringBuilder_Append_m3847(L_19, (String_t*) &_stringLiteral112, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_19, (String_t*) &_stringLiteral112, /*hidden argument*/NULL);
 		goto IL_00e6;
 	}
 
@@ -20522,7 +20522,7 @@ IL_00cc:
 		StringBuilder_t261 * L_23 = ___builder;
 		uint16_t L_24 = V_2;
 		NullCheck(L_23);
-		StringBuilder_Append_m3841(L_23, L_24, /*hidden argument*/NULL);
+		StringBuilder_Append_m3838(L_23, L_24, /*hidden argument*/NULL);
 	}
 
 IL_00e6:
@@ -20544,7 +20544,7 @@ IL_00ea:
 	{
 		StringBuilder_t261 * L_28 = ___builder;
 		NullCheck(L_28);
-		StringBuilder_Append_m3847(L_28, (String_t*) &_stringLiteral125, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_28, (String_t*) &_stringLiteral125, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -20555,7 +20555,7 @@ extern "C" void GA_MiniJSON_SerializeNumber_m2603 (GA_MiniJSON_t465 * __this, fl
 		StringBuilder_t261 * L_0 = ___builder;
 		String_t* L_1 = Single_ToString_m401((&___number), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		StringBuilder_Append_m3847(L_0, L_1, /*hidden argument*/NULL);
+		StringBuilder_Append_m3844(L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -20641,13 +20641,13 @@ extern "C" void GA_Progression_NewEvent_m2606 (Object_t * __this /* static, unus
 	}
 }
 // System.Void GameAnalyticsSDK.GA_Progression::NewEvent(GameAnalyticsSDK.GA_Progression/GAProgressionStatus,System.String,System.Int32)
-extern const MethodInfo* Nullable_1__ctor_m3711_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m3708_MethodInfo_var;
 extern "C" void GA_Progression_NewEvent_m2607 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, int32_t ___score, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Nullable_1__ctor_m3711_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483710);
+		Nullable_1__ctor_m3708_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483710);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -20655,19 +20655,19 @@ extern "C" void GA_Progression_NewEvent_m2607 (Object_t * __this /* static, unus
 		String_t* L_1 = ___progression01;
 		int32_t L_2 = ___score;
 		Nullable_1_t690  L_3 = {0};
-		Nullable_1__ctor_m3711(&L_3, L_2, /*hidden argument*/Nullable_1__ctor_m3711_MethodInfo_var);
+		Nullable_1__ctor_m3708(&L_3, L_2, /*hidden argument*/Nullable_1__ctor_m3708_MethodInfo_var);
 		GA_Progression_CreateEvent_m2610(NULL /*static, unused*/, L_0, L_1, (String_t*)NULL, (String_t*)NULL, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void GameAnalyticsSDK.GA_Progression::NewEvent(GameAnalyticsSDK.GA_Progression/GAProgressionStatus,System.String,System.String,System.Int32)
-extern const MethodInfo* Nullable_1__ctor_m3711_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m3708_MethodInfo_var;
 extern "C" void GA_Progression_NewEvent_m2608 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, String_t* ___progression02, int32_t ___score, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Nullable_1__ctor_m3711_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483710);
+		Nullable_1__ctor_m3708_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483710);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -20676,19 +20676,19 @@ extern "C" void GA_Progression_NewEvent_m2608 (Object_t * __this /* static, unus
 		String_t* L_2 = ___progression02;
 		int32_t L_3 = ___score;
 		Nullable_1_t690  L_4 = {0};
-		Nullable_1__ctor_m3711(&L_4, L_3, /*hidden argument*/Nullable_1__ctor_m3711_MethodInfo_var);
+		Nullable_1__ctor_m3708(&L_4, L_3, /*hidden argument*/Nullable_1__ctor_m3708_MethodInfo_var);
 		GA_Progression_CreateEvent_m2610(NULL /*static, unused*/, L_0, L_1, L_2, (String_t*)NULL, L_4, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void GameAnalyticsSDK.GA_Progression::NewEvent(GameAnalyticsSDK.GA_Progression/GAProgressionStatus,System.String,System.String,System.String,System.Int32)
-extern const MethodInfo* Nullable_1__ctor_m3711_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m3708_MethodInfo_var;
 extern "C" void GA_Progression_NewEvent_m2609 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, String_t* ___progression02, String_t* ___progression03, int32_t ___score, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Nullable_1__ctor_m3711_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483710);
+		Nullable_1__ctor_m3708_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483710);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -20698,25 +20698,25 @@ extern "C" void GA_Progression_NewEvent_m2609 (Object_t * __this /* static, unus
 		String_t* L_3 = ___progression03;
 		int32_t L_4 = ___score;
 		Nullable_1_t690  L_5 = {0};
-		Nullable_1__ctor_m3711(&L_5, L_4, /*hidden argument*/Nullable_1__ctor_m3711_MethodInfo_var);
+		Nullable_1__ctor_m3708(&L_5, L_4, /*hidden argument*/Nullable_1__ctor_m3708_MethodInfo_var);
 		GA_Progression_CreateEvent_m2610(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_5, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void GameAnalyticsSDK.GA_Progression::CreateEvent(GameAnalyticsSDK.GA_Progression/GAProgressionStatus,System.String,System.String,System.String,System.Nullable`1<System.Int32>)
-extern const MethodInfo* Nullable_1_get_HasValue_m4071_MethodInfo_var;
-extern const MethodInfo* Nullable_1_get_Value_m4072_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m4068_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m4069_MethodInfo_var;
 extern "C" void GA_Progression_CreateEvent_m2610 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, String_t* ___progression02, String_t* ___progression03, Nullable_1_t690  ___score, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Nullable_1_get_HasValue_m4071_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484081);
-		Nullable_1_get_Value_m4072_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484082);
+		Nullable_1_get_HasValue_m4068_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484081);
+		Nullable_1_get_Value_m4069_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484082);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = Nullable_1_get_HasValue_m4071((&___score), /*hidden argument*/Nullable_1_get_HasValue_m4071_MethodInfo_var);
+		bool L_0 = Nullable_1_get_HasValue_m4068((&___score), /*hidden argument*/Nullable_1_get_HasValue_m4068_MethodInfo_var);
 		if (!L_0)
 		{
 			goto IL_0021;
@@ -20727,7 +20727,7 @@ extern "C" void GA_Progression_CreateEvent_m2610 (Object_t * __this /* static, u
 		String_t* L_2 = ___progression01;
 		String_t* L_3 = ___progression02;
 		String_t* L_4 = ___progression03;
-		int32_t L_5 = Nullable_1_get_Value_m4072((&___score), /*hidden argument*/Nullable_1_get_Value_m4072_MethodInfo_var);
+		int32_t L_5 = Nullable_1_get_Value_m4069((&___score), /*hidden argument*/Nullable_1_get_Value_m4069_MethodInfo_var);
 		GA_Wrapper_AddProgressionEventWithScore_m2530(NULL /*static, unused*/, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
 		goto IL_002a;
 	}
@@ -20804,7 +20804,7 @@ extern "C" void GA_Resource_NewEvent_m2611 (Object_t * __this /* static, unused 
 // System.Void GameAnalyticsSDK.GA_ServerFieldTypes::.cctor()
 extern TypeInfo* Dictionary_2_t471_il2cpp_TypeInfo_var;
 extern TypeInfo* GA_ServerFieldTypes_t472_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m4138_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m4135_MethodInfo_var;
 extern "C" void GA_ServerFieldTypes__cctor_m2612 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20812,13 +20812,13 @@ extern "C" void GA_ServerFieldTypes__cctor_m2612 (Object_t * __this /* static, u
 	{
 		Dictionary_2_t471_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(441);
 		GA_ServerFieldTypes_t472_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(442);
-		Dictionary_2__ctor_m4138_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484110);
+		Dictionary_2__ctor_m4135_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484110);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t471 * V_0 = {0};
 	{
 		Dictionary_2_t471 * L_0 = (Dictionary_2_t471 *)il2cpp_codegen_object_new (Dictionary_2_t471_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m4138(L_0, /*hidden argument*/Dictionary_2__ctor_m4138_MethodInfo_var);
+		Dictionary_2__ctor_m4135(L_0, /*hidden argument*/Dictionary_2__ctor_m4135_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t471 * L_1 = V_0;
 		NullCheck(L_1);
@@ -20961,21 +20961,21 @@ extern "C" void GA_ServerFieldTypes__cctor_m2612 (Object_t * __this /* static, u
 
 // System.Void GameAnalyticsSDK.GA_Setup::SetAvailableCustomDimensions01(System.Collections.Generic.List`1<System.String>)
 extern TypeInfo* GA_MiniJSON_t465_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_ToArray_m3776_MethodInfo_var;
+extern const MethodInfo* List_1_ToArray_m3773_MethodInfo_var;
 extern "C" void GA_Setup_SetAvailableCustomDimensions01_m2613 (Object_t * __this /* static, unused */, List_1_t115 * ___customDimensions, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GA_MiniJSON_t465_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(436);
-		List_1_ToArray_m3776_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483772);
+		List_1_ToArray_m3773_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483772);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
 	{
 		List_1_t115 * L_0 = ___customDimensions;
 		NullCheck(L_0);
-		StringU5BU5D_t75* L_1 = List_1_ToArray_m3776(L_0, /*hidden argument*/List_1_ToArray_m3776_MethodInfo_var);
+		StringU5BU5D_t75* L_1 = List_1_ToArray_m3773(L_0, /*hidden argument*/List_1_ToArray_m3773_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(GA_MiniJSON_t465_il2cpp_TypeInfo_var);
 		String_t* L_2 = GA_MiniJSON_JsonEncode_m2585(NULL /*static, unused*/, (Object_t *)(Object_t *)L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
@@ -20986,21 +20986,21 @@ extern "C" void GA_Setup_SetAvailableCustomDimensions01_m2613 (Object_t * __this
 }
 // System.Void GameAnalyticsSDK.GA_Setup::SetAvailableCustomDimensions02(System.Collections.Generic.List`1<System.String>)
 extern TypeInfo* GA_MiniJSON_t465_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_ToArray_m3776_MethodInfo_var;
+extern const MethodInfo* List_1_ToArray_m3773_MethodInfo_var;
 extern "C" void GA_Setup_SetAvailableCustomDimensions02_m2614 (Object_t * __this /* static, unused */, List_1_t115 * ___customDimensions, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GA_MiniJSON_t465_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(436);
-		List_1_ToArray_m3776_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483772);
+		List_1_ToArray_m3773_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483772);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
 	{
 		List_1_t115 * L_0 = ___customDimensions;
 		NullCheck(L_0);
-		StringU5BU5D_t75* L_1 = List_1_ToArray_m3776(L_0, /*hidden argument*/List_1_ToArray_m3776_MethodInfo_var);
+		StringU5BU5D_t75* L_1 = List_1_ToArray_m3773(L_0, /*hidden argument*/List_1_ToArray_m3773_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(GA_MiniJSON_t465_il2cpp_TypeInfo_var);
 		String_t* L_2 = GA_MiniJSON_JsonEncode_m2585(NULL /*static, unused*/, (Object_t *)(Object_t *)L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
@@ -21011,21 +21011,21 @@ extern "C" void GA_Setup_SetAvailableCustomDimensions02_m2614 (Object_t * __this
 }
 // System.Void GameAnalyticsSDK.GA_Setup::SetAvailableCustomDimensions03(System.Collections.Generic.List`1<System.String>)
 extern TypeInfo* GA_MiniJSON_t465_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_ToArray_m3776_MethodInfo_var;
+extern const MethodInfo* List_1_ToArray_m3773_MethodInfo_var;
 extern "C" void GA_Setup_SetAvailableCustomDimensions03_m2615 (Object_t * __this /* static, unused */, List_1_t115 * ___customDimensions, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GA_MiniJSON_t465_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(436);
-		List_1_ToArray_m3776_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483772);
+		List_1_ToArray_m3773_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483772);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
 	{
 		List_1_t115 * L_0 = ___customDimensions;
 		NullCheck(L_0);
-		StringU5BU5D_t75* L_1 = List_1_ToArray_m3776(L_0, /*hidden argument*/List_1_ToArray_m3776_MethodInfo_var);
+		StringU5BU5D_t75* L_1 = List_1_ToArray_m3773(L_0, /*hidden argument*/List_1_ToArray_m3773_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(GA_MiniJSON_t465_il2cpp_TypeInfo_var);
 		String_t* L_2 = GA_MiniJSON_JsonEncode_m2585(NULL /*static, unused*/, (Object_t *)(Object_t *)L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
@@ -21036,21 +21036,21 @@ extern "C" void GA_Setup_SetAvailableCustomDimensions03_m2615 (Object_t * __this
 }
 // System.Void GameAnalyticsSDK.GA_Setup::SetAvailableResourceCurrencies(System.Collections.Generic.List`1<System.String>)
 extern TypeInfo* GA_MiniJSON_t465_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_ToArray_m3776_MethodInfo_var;
+extern const MethodInfo* List_1_ToArray_m3773_MethodInfo_var;
 extern "C" void GA_Setup_SetAvailableResourceCurrencies_m2616 (Object_t * __this /* static, unused */, List_1_t115 * ___resourceCurrencies, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GA_MiniJSON_t465_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(436);
-		List_1_ToArray_m3776_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483772);
+		List_1_ToArray_m3773_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483772);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
 	{
 		List_1_t115 * L_0 = ___resourceCurrencies;
 		NullCheck(L_0);
-		StringU5BU5D_t75* L_1 = List_1_ToArray_m3776(L_0, /*hidden argument*/List_1_ToArray_m3776_MethodInfo_var);
+		StringU5BU5D_t75* L_1 = List_1_ToArray_m3773(L_0, /*hidden argument*/List_1_ToArray_m3773_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(GA_MiniJSON_t465_il2cpp_TypeInfo_var);
 		String_t* L_2 = GA_MiniJSON_JsonEncode_m2585(NULL /*static, unused*/, (Object_t *)(Object_t *)L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
@@ -21061,21 +21061,21 @@ extern "C" void GA_Setup_SetAvailableResourceCurrencies_m2616 (Object_t * __this
 }
 // System.Void GameAnalyticsSDK.GA_Setup::SetAvailableResourceItemTypes(System.Collections.Generic.List`1<System.String>)
 extern TypeInfo* GA_MiniJSON_t465_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_ToArray_m3776_MethodInfo_var;
+extern const MethodInfo* List_1_ToArray_m3773_MethodInfo_var;
 extern "C" void GA_Setup_SetAvailableResourceItemTypes_m2617 (Object_t * __this /* static, unused */, List_1_t115 * ___resourceItemTypes, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GA_MiniJSON_t465_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(436);
-		List_1_ToArray_m3776_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483772);
+		List_1_ToArray_m3773_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483772);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
 	{
 		List_1_t115 * L_0 = ___resourceItemTypes;
 		NullCheck(L_0);
-		StringU5BU5D_t75* L_1 = List_1_ToArray_m3776(L_0, /*hidden argument*/List_1_ToArray_m3776_MethodInfo_var);
+		StringU5BU5D_t75* L_1 = List_1_ToArray_m3773(L_0, /*hidden argument*/List_1_ToArray_m3773_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(GA_MiniJSON_t465_il2cpp_TypeInfo_var);
 		String_t* L_2 = GA_MiniJSON_JsonEncode_m2585(NULL /*static, unused*/, (Object_t *)(Object_t *)L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
@@ -21268,7 +21268,7 @@ IL_0021:
 IL_0026:
 	{
 		WaitForSeconds_t785 * L_2 = (WaitForSeconds_t785 *)il2cpp_codegen_object_new (WaitForSeconds_t785_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m4139(L_2, (30.0f), /*hidden argument*/NULL);
+		WaitForSeconds__ctor_m4136(L_2, (30.0f), /*hidden argument*/NULL);
 		__this->___U24current_1 = L_2;
 		__this->___U24PC_0 = 1;
 		goto IL_0069;
@@ -21282,7 +21282,7 @@ IL_0042:
 
 IL_0047:
 	{
-		bool L_3 = Application_get_isPlaying_m4140(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_3 = Application_get_isPlaying_m4137(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0060;
@@ -21415,7 +21415,7 @@ IL_0026:
 		NullCheck(L_2);
 		int32_t L_3 = (L_2->___FpsCirticalSubmitInterval_78);
 		WaitForSeconds_t785 * L_4 = (WaitForSeconds_t785 *)il2cpp_codegen_object_new (WaitForSeconds_t785_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m4139(L_4, (((float)L_3)), /*hidden argument*/NULL);
+		WaitForSeconds__ctor_m4136(L_4, (((float)L_3)), /*hidden argument*/NULL);
 		__this->___U24current_1 = L_4;
 		__this->___U24PC_0 = 1;
 		goto IL_0075;
@@ -21430,7 +21430,7 @@ IL_0048:
 
 IL_0053:
 	{
-		bool L_6 = Application_get_isPlaying_m4140(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_6 = Application_get_isPlaying_m4137(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_006c;
@@ -21514,9 +21514,9 @@ extern "C" void GA_SpecialEvents_Start_m2640 (GA_SpecialEvents_t476 * __this, co
 {
 	{
 		Object_t * L_0 = GA_SpecialEvents_SubmitFPSRoutine_m2641(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m3719(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m3716(__this, L_0, /*hidden argument*/NULL);
 		Object_t * L_1 = GA_SpecialEvents_CheckCriticalFPSRoutine_m2642(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m3719(__this, L_1, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m3716(__this, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -21628,7 +21628,7 @@ extern "C" void GA_SpecialEvents_SubmitFPS_m2644 (Object_t * __this /* static, u
 		}
 	}
 	{
-		float L_2 = Time_get_time_m4141(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_2 = Time_get_time_m4138(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GA_SpecialEvents_t476_il2cpp_TypeInfo_var);
 		float L_3 = ((GA_SpecialEvents_t476_StaticFields*)GA_SpecialEvents_t476_il2cpp_TypeInfo_var->static_fields)->____lastUpdateAvg_3;
 		V_0 = ((float)((float)L_2-(float)L_3));
@@ -21643,7 +21643,7 @@ extern "C" void GA_SpecialEvents_SubmitFPS_m2644 (Object_t * __this /* static, u
 		int32_t L_5 = ((GA_SpecialEvents_t476_StaticFields*)GA_SpecialEvents_t476_il2cpp_TypeInfo_var->static_fields)->____frameCountAvg_2;
 		float L_6 = V_0;
 		V_1 = ((float)((float)(((float)L_5))/(float)L_6));
-		float L_7 = Time_get_time_m4141(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_7 = Time_get_time_m4138(NULL /*static, unused*/, /*hidden argument*/NULL);
 		((GA_SpecialEvents_t476_StaticFields*)GA_SpecialEvents_t476_il2cpp_TypeInfo_var->static_fields)->____lastUpdateAvg_3 = L_7;
 		((GA_SpecialEvents_t476_StaticFields*)GA_SpecialEvents_t476_il2cpp_TypeInfo_var->static_fields)->____frameCountAvg_2 = 0;
 		float L_8 = V_1;
@@ -21709,7 +21709,7 @@ extern "C" void GA_SpecialEvents_CheckCriticalFPS_m2645 (GA_SpecialEvents_t476 *
 		}
 	}
 	{
-		float L_2 = Time_get_time_m4141(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_2 = Time_get_time_m4138(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_3 = (__this->____lastUpdateCrit_5);
 		V_0 = ((float)((float)L_2-(float)L_3));
 		float L_4 = V_0;
@@ -21722,7 +21722,7 @@ extern "C" void GA_SpecialEvents_CheckCriticalFPS_m2645 (GA_SpecialEvents_t476 *
 		int32_t L_5 = (__this->____frameCountCrit_4);
 		float L_6 = V_0;
 		V_1 = ((float)((float)(((float)L_5))/(float)L_6));
-		float L_7 = Time_get_time_m4141(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_7 = Time_get_time_m4138(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->____lastUpdateCrit_5 = L_7;
 		__this->____frameCountCrit_4 = 0;
 		float L_8 = V_1;
@@ -21783,7 +21783,7 @@ extern "C" Settings_t478 * GameAnalytics_get_SettingsGA_m2647 (Object_t * __this
 	}
 	{
 		Settings_t478 * L_0 = ((GameAnalytics_t479_StaticFields*)GameAnalytics_t479_il2cpp_TypeInfo_var->static_fields)->____settings_2;
-		bool L_1 = Object_op_Equality_m3781(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3778(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0015;
@@ -21830,7 +21830,7 @@ extern "C" void GameAnalytics_Awake_m2649 (GameAnalytics_t479 * __this, const Me
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = Application_get_isPlaying_m4140(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = Application_get_isPlaying_m4137(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_000b;
@@ -21843,7 +21843,7 @@ extern "C" void GameAnalytics_Awake_m2649 (GameAnalytics_t479 * __this, const Me
 IL_000b:
 	{
 		GameAnalytics_t479 * L_1 = ((GameAnalytics_t479_StaticFields*)GameAnalytics_t479_il2cpp_TypeInfo_var->static_fields)->____instance_3;
-		bool L_2 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_1, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_1, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0031;
@@ -21851,20 +21851,20 @@ IL_000b:
 	}
 	{
 		Debug_LogWarning_m389(NULL /*static, unused*/, (String_t*) &_stringLiteral988, /*hidden argument*/NULL);
-		GameObject_t352 * L_3 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
-		Object_Destroy_m3900(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		GameObject_t352 * L_3 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
+		Object_Destroy_m3897(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		return;
 	}
 
 IL_0031:
 	{
 		((GameAnalytics_t479_StaticFields*)GameAnalytics_t479_il2cpp_TypeInfo_var->static_fields)->____instance_3 = __this;
-		GameObject_t352 * L_4 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_4 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		Object_DontDestroyOnLoad_m385(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		IntPtr_t L_5 = { (void*)GA_Debug_HandleLog_m2574_MethodInfo_var };
 		LogCallback_t54 * L_6 = (LogCallback_t54 *)il2cpp_codegen_object_new (LogCallback_t54_il2cpp_TypeInfo_var);
 		LogCallback__ctor_m380(L_6, NULL, L_5, /*hidden argument*/NULL);
-		Application_add_logMessageReceived_m4142(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Application_add_logMessageReceived_m4139(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		GameAnalytics_Initialize_m2654(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return;
 	}
@@ -21880,7 +21880,7 @@ extern "C" void GameAnalytics_OnDestroy_m2650 (GameAnalytics_t479 * __this, cons
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = Application_get_isPlaying_m4140(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = Application_get_isPlaying_m4137(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_000b;
@@ -21893,7 +21893,7 @@ extern "C" void GameAnalytics_OnDestroy_m2650 (GameAnalytics_t479 * __this, cons
 IL_000b:
 	{
 		GameAnalytics_t479 * L_1 = ((GameAnalytics_t479_StaticFields*)GameAnalytics_t479_il2cpp_TypeInfo_var->static_fields)->____instance_3;
-		bool L_2 = Object_op_Equality_m3781(NULL /*static, unused*/, L_1, __this, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3778(NULL /*static, unused*/, L_1, __this, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0021;
@@ -21954,8 +21954,8 @@ IL_0000:
 	try
 	{ // begin try (depth: 1)
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_0 = Type_GetTypeFromHandle_m4058(NULL /*static, unused*/, LoadTypeToken(Settings_t478_0_0_0_var), /*hidden argument*/NULL);
-		Object_t703 * L_1 = Resources_Load_m4143(NULL /*static, unused*/, (String_t*) &_stringLiteral989, L_0, /*hidden argument*/NULL);
+		Type_t * L_0 = Type_GetTypeFromHandle_m4055(NULL /*static, unused*/, LoadTypeToken(Settings_t478_0_0_0_var), /*hidden argument*/NULL);
+		Object_t703 * L_1 = Resources_Load_m4140(NULL /*static, unused*/, (String_t*) &_stringLiteral989, L_0, /*hidden argument*/NULL);
 		((GameAnalytics_t479_StaticFields*)GameAnalytics_t479_il2cpp_TypeInfo_var->static_fields)->____settings_2 = ((Settings_t478 *)Castclass(L_1, Settings_t478_il2cpp_TypeInfo_var));
 		goto IL_003e;
 	} // end try (depth: 1)
@@ -22002,7 +22002,7 @@ extern "C" void GameAnalytics_Initialize_m2654 (Object_t * __this /* static, unu
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		bool L_0 = Application_get_isPlaying_m4140(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = Application_get_isPlaying_m4137(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_000b;
@@ -22191,7 +22191,7 @@ IL_0132:
 
 IL_015e:
 	{
-		int32_t L_49 = Application_get_platform_m3769(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_49 = Application_get_platform_m3766(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_50 = L_49;
 		Object_t * L_51 = Box(RuntimePlatform_t786_il2cpp_TypeInfo_var, &L_50);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
@@ -22432,13 +22432,13 @@ extern "C" String_t* GameAnalytics_GetUnityVersion_m2674 (Object_t * __this /* s
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		V_0 = L_0;
-		String_t* L_1 = Application_get_unityVersion_m4144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = Application_get_unityVersion_m4141(NULL /*static, unused*/, /*hidden argument*/NULL);
 		CharU5BU5D_t697* L_2 = ((CharU5BU5D_t697*)SZArrayNew(CharU5BU5D_t697_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_2, 0)) = (uint16_t)((int32_t)46);
 		NullCheck(L_1);
-		StringU5BU5D_t75* L_3 = String_Split_m3712(L_1, L_2, /*hidden argument*/NULL);
+		StringU5BU5D_t75* L_3 = String_Split_m3709(L_1, L_2, /*hidden argument*/NULL);
 		V_1 = L_3;
 		V_2 = 0;
 		goto IL_0092;
@@ -22500,7 +22500,7 @@ IL_0055:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_17, L_18);
 		int32_t L_19 = L_18;
 		IL2CPP_RUNTIME_CLASS_INIT(Regex_t787_il2cpp_TypeInfo_var);
-		StringU5BU5D_t75* L_20 = Regex_Split_m4145(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_17, L_19)), (String_t*) &_stringLiteral994, /*hidden argument*/NULL);
+		StringU5BU5D_t75* L_20 = Regex_Split_m4142(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_17, L_19)), (String_t*) &_stringLiteral994, /*hidden argument*/NULL);
 		V_4 = L_20;
 		StringU5BU5D_t75* L_21 = V_4;
 		NullCheck(L_21);
@@ -22559,7 +22559,7 @@ extern "C" int32_t GameAnalytics_GetPlatform_m2675 (Object_t * __this /* static,
 	int32_t V_1 = {0};
 	{
 		V_0 = 0;
-		int32_t L_0 = Application_get_platform_m3769(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m3766(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_1 = L_0;
 		int32_t L_1 = V_1;
 		if (((int32_t)((int32_t)L_1-(int32_t)8)) == 0)
@@ -22676,8 +22676,8 @@ extern TypeInfo* Settings_t478_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t115_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t486_il2cpp_TypeInfo_var;
 extern TypeInfo* BooleanU5BU5D_t487_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3708_MethodInfo_var;
-extern const MethodInfo* List_1__ctor_m4146_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3705_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m4143_MethodInfo_var;
 extern "C" void Settings__ctor_m2676 (Settings_t478 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -22688,8 +22688,8 @@ extern "C" void Settings__ctor_m2676 (Settings_t478 * __this, const MethodInfo* 
 		List_1_t115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(186);
 		List_1_t486_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(452);
 		BooleanU5BU5D_t487_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(453);
-		List_1__ctor_m3708_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483708);
-		List_1__ctor_m4146_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484112);
+		List_1__ctor_m3705_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483708);
+		List_1__ctor_m4143_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484112);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -22742,22 +22742,22 @@ extern "C" void Settings__ctor_m2676 (Settings_t478 * __this, const MethodInfo* 
 		__this->___InfoLogEditor_43 = 1;
 		__this->___InfoLogBuild_44 = 1;
 		List_1_t115 * L_20 = (List_1_t115 *)il2cpp_codegen_object_new (List_1_t115_il2cpp_TypeInfo_var);
-		List_1__ctor_m3708(L_20, /*hidden argument*/List_1__ctor_m3708_MethodInfo_var);
+		List_1__ctor_m3705(L_20, /*hidden argument*/List_1__ctor_m3705_MethodInfo_var);
 		__this->___CustomDimensions01_48 = L_20;
 		List_1_t115 * L_21 = (List_1_t115 *)il2cpp_codegen_object_new (List_1_t115_il2cpp_TypeInfo_var);
-		List_1__ctor_m3708(L_21, /*hidden argument*/List_1__ctor_m3708_MethodInfo_var);
+		List_1__ctor_m3705(L_21, /*hidden argument*/List_1__ctor_m3705_MethodInfo_var);
 		__this->___CustomDimensions02_49 = L_21;
 		List_1_t115 * L_22 = (List_1_t115 *)il2cpp_codegen_object_new (List_1_t115_il2cpp_TypeInfo_var);
-		List_1__ctor_m3708(L_22, /*hidden argument*/List_1__ctor_m3708_MethodInfo_var);
+		List_1__ctor_m3705(L_22, /*hidden argument*/List_1__ctor_m3705_MethodInfo_var);
 		__this->___CustomDimensions03_50 = L_22;
 		List_1_t115 * L_23 = (List_1_t115 *)il2cpp_codegen_object_new (List_1_t115_il2cpp_TypeInfo_var);
-		List_1__ctor_m3708(L_23, /*hidden argument*/List_1__ctor_m3708_MethodInfo_var);
+		List_1__ctor_m3705(L_23, /*hidden argument*/List_1__ctor_m3705_MethodInfo_var);
 		__this->___ResourceItemTypes_51 = L_23;
 		List_1_t115 * L_24 = (List_1_t115 *)il2cpp_codegen_object_new (List_1_t115_il2cpp_TypeInfo_var);
-		List_1__ctor_m3708(L_24, /*hidden argument*/List_1__ctor_m3708_MethodInfo_var);
+		List_1__ctor_m3705(L_24, /*hidden argument*/List_1__ctor_m3705_MethodInfo_var);
 		__this->___ResourceCurrencies_52 = L_24;
 		List_1_t486 * L_25 = (List_1_t486 *)il2cpp_codegen_object_new (List_1_t486_il2cpp_TypeInfo_var);
-		List_1__ctor_m4146(L_25, /*hidden argument*/List_1__ctor_m4146_MethodInfo_var);
+		List_1__ctor_m4143(L_25, /*hidden argument*/List_1__ctor_m4143_MethodInfo_var);
 		__this->___ClosedHints_55 = L_25;
 		__this->___SubmitErrors_73 = 1;
 		__this->___MaxErrorCount_74 = ((int32_t)10);
@@ -22766,7 +22766,7 @@ extern "C" void Settings__ctor_m2676 (Settings_t478 * __this, const MethodInfo* 
 		__this->___FpsCriticalThreshold_77 = ((int32_t)20);
 		__this->___FpsCirticalSubmitInterval_78 = 1;
 		__this->___PlatformFoldOut_79 = ((BooleanU5BU5D_t487*)SZArrayNew(BooleanU5BU5D_t487_il2cpp_TypeInfo_var, 2));
-		ScriptableObject__ctor_m3780(__this, /*hidden argument*/NULL);
+		ScriptableObject__ctor_m3777(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -23768,17 +23768,17 @@ extern "C" void AcceleratingSpinner_Update_m2710 (AcceleratingSpinner_t491 * __t
 	{
 		float L_0 = (__this->___angleDeg_4);
 		float L_1 = (__this->___angleVelocityDeg_5);
-		float L_2 = Time_get_deltaTime_m4147(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_2 = Time_get_deltaTime_m4144(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___angleDeg_4 = ((float)((float)L_0+(float)((float)((float)L_1*(float)L_2))));
 		float L_3 = (__this->___angleVelocityDeg_5);
 		float L_4 = (__this->___angleAccelerationDeg_3);
-		float L_5 = Time_get_deltaTime_m4147(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_5 = Time_get_deltaTime_m4144(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___angleVelocityDeg_5 = ((float)((float)L_3+(float)((float)((float)L_4*(float)L_5))));
-		Transform_t406 * L_6 = Component_get_transform_m4036(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_6 = Component_get_transform_m4033(__this, /*hidden argument*/NULL);
 		float L_7 = (__this->___angleDeg_4);
-		Quaternion_t788  L_8 = Quaternion_Euler_m4148(NULL /*static, unused*/, (0.0f), (0.0f), L_7, /*hidden argument*/NULL);
+		Quaternion_t788  L_8 = Quaternion_Euler_m4145(NULL /*static, unused*/, (0.0f), (0.0f), L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		Transform_set_rotation_m4149(L_6, L_8, /*hidden argument*/NULL);
+		Transform_set_rotation_m4146(L_6, L_8, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -23974,7 +23974,7 @@ extern "C" void AchievementController_OnGameInstanceChanged_m2718 (AchievementCo
 	{
 		SocialHelper_t647 * L_2 = ((SocialHelper_t647_StaticFields*)SocialHelper_t647_il2cpp_TypeInfo_var->static_fields)->___instance_3;
 		NullCheck(L_2);
-		SocialHelper_ClearAchievements_m3483(L_2, /*hidden argument*/NULL);
+		SocialHelper_ClearAchievements_m3480(L_2, /*hidden argument*/NULL);
 	}
 
 IL_0019:
@@ -24012,7 +24012,7 @@ extern "C" void AchievementController_OnGameLevelChanged_m2719 (AchievementContr
 		NullCheck(L_5);
 		String_t* L_6 = (L_5->___previousLevelClearedAchievementID_11);
 		NullCheck(L_4);
-		SocialHelper_RecordAchievement_m3485(L_4, L_6, /*hidden argument*/NULL);
+		SocialHelper_RecordAchievement_m3482(L_4, L_6, /*hidden argument*/NULL);
 	}
 
 IL_0026:
@@ -24032,7 +24032,7 @@ struct Component_t761;
 struct Camera_t574;
 // Declaration !!0 UnityEngine.Component::GetComponent<UnityEngine.Camera>()
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Camera>()
-#define Component_GetComponent_TisCamera_t574_m4150(__this, method) (( Camera_t574 * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3996_gshared)(__this, method)
+#define Component_GetComponent_TisCamera_t574_m4147(__this, method) (( Camera_t574 * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3993_gshared)(__this, method)
 
 
 // System.Void AspectRatioPreserve::.ctor()
@@ -24044,13 +24044,13 @@ extern "C" void AspectRatioPreserve__ctor_m2720 (AspectRatioPreserve_t493 * __th
 	}
 }
 // System.Void AspectRatioPreserve::Start()
-extern const MethodInfo* Component_GetComponent_TisCamera_t574_m4150_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisCamera_t574_m4147_MethodInfo_var;
 extern "C" void AspectRatioPreserve_Start_m2721 (AspectRatioPreserve_t493 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisCamera_t574_m4150_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484115);
+		Component_GetComponent_TisCamera_t574_m4147_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484115);
 		s_Il2CppMethodIntialized = true;
 	}
 	float V_0 = 0.0f;
@@ -24062,13 +24062,13 @@ extern "C" void AspectRatioPreserve_Start_m2721 (AspectRatioPreserve_t493 * __th
 	Rect_t694  V_6 = {0};
 	{
 		V_0 = (1.0f);
-		int32_t L_0 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
-		int32_t L_1 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_1 = ((float)((float)(((float)L_0))/(float)(((float)L_1))));
 		float L_2 = V_1;
 		float L_3 = V_0;
 		V_2 = ((float)((float)L_2/(float)L_3));
-		Camera_t574 * L_4 = Component_GetComponent_TisCamera_t574_m4150(__this, /*hidden argument*/Component_GetComponent_TisCamera_t574_m4150_MethodInfo_var);
+		Camera_t574 * L_4 = Component_GetComponent_TisCamera_t574_m4147(__this, /*hidden argument*/Component_GetComponent_TisCamera_t574_m4147_MethodInfo_var);
 		V_3 = L_4;
 		float L_5 = V_2;
 		if ((!(((float)L_5) < ((float)(1.0f)))))
@@ -24079,18 +24079,18 @@ extern "C" void AspectRatioPreserve_Start_m2721 (AspectRatioPreserve_t493 * __th
 	{
 		Camera_t574 * L_6 = V_3;
 		NullCheck(L_6);
-		Rect_t694  L_7 = Camera_get_rect_m4151(L_6, /*hidden argument*/NULL);
+		Rect_t694  L_7 = Camera_get_rect_m4148(L_6, /*hidden argument*/NULL);
 		V_4 = L_7;
-		Rect_set_width_m4152((&V_4), (1.0f), /*hidden argument*/NULL);
+		Rect_set_width_m4149((&V_4), (1.0f), /*hidden argument*/NULL);
 		float L_8 = V_2;
-		Rect_set_height_m4153((&V_4), L_8, /*hidden argument*/NULL);
-		Rect_set_x_m4154((&V_4), (0.0f), /*hidden argument*/NULL);
+		Rect_set_height_m4150((&V_4), L_8, /*hidden argument*/NULL);
+		Rect_set_x_m4151((&V_4), (0.0f), /*hidden argument*/NULL);
 		float L_9 = V_2;
-		Rect_set_y_m4155((&V_4), ((float)((float)((float)((float)(1.0f)-(float)L_9))/(float)(2.0f))), /*hidden argument*/NULL);
+		Rect_set_y_m4152((&V_4), ((float)((float)((float)((float)(1.0f)-(float)L_9))/(float)(2.0f))), /*hidden argument*/NULL);
 		Camera_t574 * L_10 = V_3;
 		Rect_t694  L_11 = V_4;
 		NullCheck(L_10);
-		Camera_set_rect_m4156(L_10, L_11, /*hidden argument*/NULL);
+		Camera_set_rect_m4153(L_10, L_11, /*hidden argument*/NULL);
 		goto IL_00c2;
 	}
 
@@ -24100,18 +24100,18 @@ IL_0073:
 		V_5 = ((float)((float)(1.0f)/(float)L_12));
 		Camera_t574 * L_13 = V_3;
 		NullCheck(L_13);
-		Rect_t694  L_14 = Camera_get_rect_m4151(L_13, /*hidden argument*/NULL);
+		Rect_t694  L_14 = Camera_get_rect_m4148(L_13, /*hidden argument*/NULL);
 		V_6 = L_14;
 		float L_15 = V_5;
-		Rect_set_width_m4152((&V_6), L_15, /*hidden argument*/NULL);
-		Rect_set_height_m4153((&V_6), (1.0f), /*hidden argument*/NULL);
+		Rect_set_width_m4149((&V_6), L_15, /*hidden argument*/NULL);
+		Rect_set_height_m4150((&V_6), (1.0f), /*hidden argument*/NULL);
 		float L_16 = V_5;
-		Rect_set_x_m4154((&V_6), ((float)((float)((float)((float)(1.0f)-(float)L_16))/(float)(2.0f))), /*hidden argument*/NULL);
-		Rect_set_y_m4155((&V_6), (0.0f), /*hidden argument*/NULL);
+		Rect_set_x_m4151((&V_6), ((float)((float)((float)((float)(1.0f)-(float)L_16))/(float)(2.0f))), /*hidden argument*/NULL);
+		Rect_set_y_m4152((&V_6), (0.0f), /*hidden argument*/NULL);
 		Camera_t574 * L_17 = V_3;
 		Rect_t694  L_18 = V_6;
 		NullCheck(L_17);
-		Camera_set_rect_m4156(L_17, L_18, /*hidden argument*/NULL);
+		Camera_set_rect_m4153(L_17, L_18, /*hidden argument*/NULL);
 	}
 
 IL_00c2:
@@ -24162,17 +24162,17 @@ struct GameObject_t352;
 struct Slider_t495;
 // Declaration !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Slider>()
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Slider>()
-#define GameObject_GetComponent_TisSlider_t495_m4157(__this, method) (( Slider_t495 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4029_gshared)(__this, method)
+#define GameObject_GetComponent_TisSlider_t495_m4154(__this, method) (( Slider_t495 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4026_gshared)(__this, method)
 struct GameObject_t352;
 struct BoostButtonLayout_t502;
 // Declaration !!0 UnityEngine.GameObject::GetComponent<BoostButtonLayout>()
 // !!0 UnityEngine.GameObject::GetComponent<BoostButtonLayout>()
-#define GameObject_GetComponent_TisBoostButtonLayout_t502_m4158(__this, method) (( BoostButtonLayout_t502 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4029_gshared)(__this, method)
+#define GameObject_GetComponent_TisBoostButtonLayout_t502_m4155(__this, method) (( BoostButtonLayout_t502 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4026_gshared)(__this, method)
 struct GameObject_t352;
 struct RectTransform_t543;
 // Declaration !!0 UnityEngine.GameObject::GetComponent<UnityEngine.RectTransform>()
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.RectTransform>()
-#define GameObject_GetComponent_TisRectTransform_t543_m4159(__this, method) (( RectTransform_t543 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4029_gshared)(__this, method)
+#define GameObject_GetComponent_TisRectTransform_t543_m4156(__this, method) (( RectTransform_t543 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4026_gshared)(__this, method)
 
 
 // System.Void BoostActiveLayout::.ctor()
@@ -24321,49 +24321,49 @@ extern "C" void BoostActiveLayout_OnBoostUsageChanged_m2731 (BoostActiveLayout_t
 }
 // System.Void BoostActiveLayout::AddSlider()
 extern TypeInfo* GameObject_t352_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_GetComponent_TisSlider_t495_m4157_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisSlider_t495_m4154_MethodInfo_var;
 extern "C" void BoostActiveLayout_AddSlider_m2732 (BoostActiveLayout_t496 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t352_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(278);
-		GameObject_GetComponent_TisSlider_t495_m4157_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484117);
+		GameObject_GetComponent_TisSlider_t495_m4154_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484117);
 		s_Il2CppMethodIntialized = true;
 	}
 	GameObject_t352 * V_0 = {0};
 	{
 		GameObject_t352 * L_0 = (__this->___sliderPrototype_2);
 		Vector3_t536  L_1 = {0};
-		Vector3__ctor_m4034(&L_1, (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		Quaternion_t788  L_2 = Quaternion_get_identity_m4160(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Object_t703 * L_3 = Object_Instantiate_m4161(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_1, (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Quaternion_t788  L_2 = Quaternion_get_identity_m4157(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t703 * L_3 = Object_Instantiate_m4158(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
 		V_0 = ((GameObject_t352 *)IsInst(L_3, GameObject_t352_il2cpp_TypeInfo_var));
 		GameObject_t352 * L_4 = V_0;
 		NullCheck(L_4);
-		Slider_t495 * L_5 = GameObject_GetComponent_TisSlider_t495_m4157(L_4, /*hidden argument*/GameObject_GetComponent_TisSlider_t495_m4157_MethodInfo_var);
+		Slider_t495 * L_5 = GameObject_GetComponent_TisSlider_t495_m4154(L_4, /*hidden argument*/GameObject_GetComponent_TisSlider_t495_m4154_MethodInfo_var);
 		__this->___sliderInstance_9 = L_5;
 		GameObject_t352 * L_6 = V_0;
 		NullCheck(L_6);
-		Transform_t406 * L_7 = GameObject_get_transform_m4039(L_6, /*hidden argument*/NULL);
-		GameObject_t352 * L_8 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_7 = GameObject_get_transform_m4036(L_6, /*hidden argument*/NULL);
+		GameObject_t352 * L_8 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Transform_t406 * L_9 = GameObject_get_transform_m4039(L_8, /*hidden argument*/NULL);
+		Transform_t406 * L_9 = GameObject_get_transform_m4036(L_8, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		Transform_SetParent_m4162(L_7, L_9, 0, /*hidden argument*/NULL);
+		Transform_SetParent_m4159(L_7, L_9, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void BoostActiveLayout::RefreshSlider()
-extern const MethodInfo* GameObject_GetComponent_TisBoostButtonLayout_t502_m4158_MethodInfo_var;
-extern const MethodInfo* GameObject_GetComponent_TisRectTransform_t543_m4159_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisBoostButtonLayout_t502_m4155_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisRectTransform_t543_m4156_MethodInfo_var;
 extern "C" void BoostActiveLayout_RefreshSlider_m2733 (BoostActiveLayout_t496 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		GameObject_GetComponent_TisBoostButtonLayout_t502_m4158_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484118);
-		GameObject_GetComponent_TisRectTransform_t543_m4159_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484119);
+		GameObject_GetComponent_TisBoostButtonLayout_t502_m4155_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484118);
+		GameObject_GetComponent_TisRectTransform_t543_m4156_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484119);
 		s_Il2CppMethodIntialized = true;
 	}
 	BoostButtonLayout_t502 * V_0 = {0};
@@ -24380,15 +24380,15 @@ extern "C" void BoostActiveLayout_RefreshSlider_m2733 (BoostActiveLayout_t496 * 
 		}
 	}
 	{
-		GameObject_t352 * L_2 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_2 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		BoostButtonLayout_t502 * L_3 = GameObject_GetComponent_TisBoostButtonLayout_t502_m4158(L_2, /*hidden argument*/GameObject_GetComponent_TisBoostButtonLayout_t502_m4158_MethodInfo_var);
+		BoostButtonLayout_t502 * L_3 = GameObject_GetComponent_TisBoostButtonLayout_t502_m4155(L_2, /*hidden argument*/GameObject_GetComponent_TisBoostButtonLayout_t502_m4155_MethodInfo_var);
 		V_0 = L_3;
 		Slider_t495 * L_4 = (__this->___sliderInstance_9);
 		NullCheck(L_4);
-		GameObject_t352 * L_5 = Component_get_gameObject_m3756(L_4, /*hidden argument*/NULL);
+		GameObject_t352 * L_5 = Component_get_gameObject_m3753(L_4, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		GameObject_SetActive_m3956(L_5, 1, /*hidden argument*/NULL);
+		GameObject_SetActive_m3953(L_5, 1, /*hidden argument*/NULL);
 		BoostButtonLayout_t502 * L_6 = V_0;
 		BoostConfig_t494 * L_7 = (__this->___boostConfig_7);
 		NullCheck(L_7);
@@ -24398,38 +24398,38 @@ extern "C" void BoostActiveLayout_RefreshSlider_m2733 (BoostActiveLayout_t496 * 
 		V_1 = L_9;
 		BoostButton_t497 * L_10 = V_1;
 		NullCheck(L_10);
-		GameObject_t352 * L_11 = Component_get_gameObject_m3756(L_10, /*hidden argument*/NULL);
+		GameObject_t352 * L_11 = Component_get_gameObject_m3753(L_10, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		RectTransform_t543 * L_12 = GameObject_GetComponent_TisRectTransform_t543_m4159(L_11, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t543_m4159_MethodInfo_var);
+		RectTransform_t543 * L_12 = GameObject_GetComponent_TisRectTransform_t543_m4156(L_11, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t543_m4156_MethodInfo_var);
 		V_2 = L_12;
 		Slider_t495 * L_13 = (__this->___sliderInstance_9);
 		NullCheck(L_13);
-		GameObject_t352 * L_14 = Component_get_gameObject_m3756(L_13, /*hidden argument*/NULL);
+		GameObject_t352 * L_14 = Component_get_gameObject_m3753(L_13, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		Transform_t406 * L_15 = GameObject_get_transform_m4039(L_14, /*hidden argument*/NULL);
+		Transform_t406 * L_15 = GameObject_get_transform_m4036(L_14, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		Transform_SetAsLastSibling_m4163(L_15, /*hidden argument*/NULL);
+		Transform_SetAsLastSibling_m4160(L_15, /*hidden argument*/NULL);
 		Slider_t495 * L_16 = (__this->___sliderInstance_9);
 		NullCheck(L_16);
-		GameObject_t352 * L_17 = Component_get_gameObject_m3756(L_16, /*hidden argument*/NULL);
+		GameObject_t352 * L_17 = Component_get_gameObject_m3753(L_16, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		RectTransform_t543 * L_18 = GameObject_GetComponent_TisRectTransform_t543_m4159(L_17, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t543_m4159_MethodInfo_var);
+		RectTransform_t543 * L_18 = GameObject_GetComponent_TisRectTransform_t543_m4156(L_17, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t543_m4156_MethodInfo_var);
 		V_3 = L_18;
 		RectTransform_t543 * L_19 = V_3;
 		RectTransform_t543 * L_20 = V_2;
 		NullCheck(L_20);
-		Vector3_t536  L_21 = RectTransform_get_anchoredPosition3D_m4164(L_20, /*hidden argument*/NULL);
+		Vector3_t536  L_21 = RectTransform_get_anchoredPosition3D_m4161(L_20, /*hidden argument*/NULL);
 		NullCheck(L_19);
-		RectTransform_set_anchoredPosition3D_m4165(L_19, L_21, /*hidden argument*/NULL);
+		RectTransform_set_anchoredPosition3D_m4162(L_19, L_21, /*hidden argument*/NULL);
 		RectTransform_t543 * L_22 = V_3;
 		Vector3_t536  L_23 = {0};
-		Vector3__ctor_m4034(&L_23, (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_23, (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_22);
-		Transform_set_localScale_m4045(L_22, L_23, /*hidden argument*/NULL);
+		Transform_set_localScale_m4042(L_22, L_23, /*hidden argument*/NULL);
 		RectTransform_t543 * L_24 = V_3;
-		Quaternion_t788  L_25 = Quaternion_get_identity_m4160(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Quaternion_t788  L_25 = Quaternion_get_identity_m4157(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		Transform_set_rotation_m4149(L_24, L_25, /*hidden argument*/NULL);
+		Transform_set_rotation_m4146(L_24, L_25, /*hidden argument*/NULL);
 		goto IL_00b8;
 	}
 
@@ -24437,9 +24437,9 @@ IL_00a7:
 	{
 		Slider_t495 * L_26 = (__this->___sliderInstance_9);
 		NullCheck(L_26);
-		GameObject_t352 * L_27 = Component_get_gameObject_m3756(L_26, /*hidden argument*/NULL);
+		GameObject_t352 * L_27 = Component_get_gameObject_m3753(L_26, /*hidden argument*/NULL);
 		NullCheck(L_27);
-		GameObject_SetActive_m3956(L_27, 0, /*hidden argument*/NULL);
+		GameObject_SetActive_m3953(L_27, 0, /*hidden argument*/NULL);
 	}
 
 IL_00b8:
@@ -24468,7 +24468,7 @@ extern "C" void BoostActiveLayout_MaybeUpdateSliderProgress_m2734 (BoostActiveLa
 		Slider_t495 * L_4 = (__this->___sliderInstance_9);
 		float L_5 = V_0;
 		NullCheck(L_4);
-		Slider_set_value_m4166(L_4, L_5, /*hidden argument*/NULL);
+		Slider_set_value_m4163(L_4, L_5, /*hidden argument*/NULL);
 	}
 
 IL_0028:
@@ -24492,7 +24492,7 @@ struct Component_t761;
 struct DistortForEffect_t535;
 // Declaration !!0 UnityEngine.Component::GetComponent<DistortForEffect>()
 // !!0 UnityEngine.Component::GetComponent<DistortForEffect>()
-#define Component_GetComponent_TisDistortForEffect_t535_m4167(__this, method) (( DistortForEffect_t535 * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3996_gshared)(__this, method)
+#define Component_GetComponent_TisDistortForEffect_t535_m4164(__this, method) (( DistortForEffect_t535 * (*) (Component_t761 *, const MethodInfo*))Component_GetComponent_TisObject_t_m3993_gshared)(__this, method)
 
 
 // System.Void BoostButton/<TriggerDistortionEffect>c__Iterator11::.ctor()
@@ -24521,14 +24521,14 @@ extern "C" Object_t * U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collecti
 }
 // System.Boolean BoostButton/<TriggerDistortionEffect>c__Iterator11::MoveNext()
 extern TypeInfo* WaitForSeconds_t785_il2cpp_TypeInfo_var;
-extern const MethodInfo* Component_GetComponent_TisDistortForEffect_t535_m4167_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisDistortForEffect_t535_m4164_MethodInfo_var;
 extern "C" bool U3CTriggerDistortionEffectU3Ec__Iterator11_MoveNext_m2738 (U3CTriggerDistortionEffectU3Ec__Iterator11_t498 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		WaitForSeconds_t785_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(443);
-		Component_GetComponent_TisDistortForEffect_t535_m4167_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484120);
+		Component_GetComponent_TisDistortForEffect_t535_m4164_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484120);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -24554,7 +24554,7 @@ extern "C" bool U3CTriggerDistortionEffectU3Ec__Iterator11_MoveNext_m2738 (U3CTr
 IL_0021:
 	{
 		WaitForSeconds_t785 * L_2 = (WaitForSeconds_t785 *)il2cpp_codegen_object_new (WaitForSeconds_t785_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m4139(L_2, (0.25f), /*hidden argument*/NULL);
+		WaitForSeconds__ctor_m4136(L_2, (0.25f), /*hidden argument*/NULL);
 		__this->___U24current_1 = L_2;
 		__this->___U24PC_0 = 1;
 		goto IL_0056;
@@ -24564,7 +24564,7 @@ IL_003d:
 	{
 		BoostButton_t497 * L_3 = (__this->___U3CU3Ef__this_2);
 		NullCheck(L_3);
-		DistortForEffect_t535 * L_4 = Component_GetComponent_TisDistortForEffect_t535_m4167(L_3, /*hidden argument*/Component_GetComponent_TisDistortForEffect_t535_m4167_MethodInfo_var);
+		DistortForEffect_t535 * L_4 = Component_GetComponent_TisDistortForEffect_t535_m4164(L_3, /*hidden argument*/Component_GetComponent_TisDistortForEffect_t535_m4164_MethodInfo_var);
 		NullCheck(L_4);
 		DistortForEffect_Distort_m2884(L_4, /*hidden argument*/NULL);
 		__this->___U24PC_0 = (-1);
@@ -24647,12 +24647,12 @@ struct GameObject_t352;
 struct Button_t499;
 // Declaration !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Button>()
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Button>()
-#define GameObject_GetComponent_TisButton_t499_m4168(__this, method) (( Button_t499 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4029_gshared)(__this, method)
+#define GameObject_GetComponent_TisButton_t499_m4165(__this, method) (( Button_t499 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4026_gshared)(__this, method)
 struct GameObject_t352;
 struct Image_t501;
 // Declaration !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Image>()
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Image>()
-#define GameObject_GetComponent_TisImage_t501_m4169(__this, method) (( Image_t501 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4029_gshared)(__this, method)
+#define GameObject_GetComponent_TisImage_t501_m4166(__this, method) (( Image_t501 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4026_gshared)(__this, method)
 
 
 // System.Void BoostButton::.ctor()
@@ -24729,18 +24729,18 @@ extern "C" void BoostButton_RegisterForEvents_m2744 (BoostButton_t497 * __this, 
 	}
 	{
 		__this->___registeredForEvents_8 = 1;
-		PlayerStats_t513 * L_1 = PlayerStats_get_instance_m3376(NULL /*static, unused*/, /*hidden argument*/NULL);
+		PlayerStats_t513 * L_1 = PlayerStats_get_instance_m3372(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_2 = { (void*)BoostButton_OnTreatsChanged_m2755_MethodInfo_var };
 		MoneyChangedEventHandler_t627 * L_3 = (MoneyChangedEventHandler_t627 *)il2cpp_codegen_object_new (MoneyChangedEventHandler_t627_il2cpp_TypeInfo_var);
-		MoneyChangedEventHandler__ctor_m3357(L_3, __this, L_2, /*hidden argument*/NULL);
+		MoneyChangedEventHandler__ctor_m3353(L_3, __this, L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		PlayerStats_add_MoneyChanged_m3368(L_1, L_3, /*hidden argument*/NULL);
-		PlayerStats_t513 * L_4 = PlayerStats_get_instance_m3376(NULL /*static, unused*/, /*hidden argument*/NULL);
+		PlayerStats_add_MoneyChanged_m3364(L_1, L_3, /*hidden argument*/NULL);
+		PlayerStats_t513 * L_4 = PlayerStats_get_instance_m3372(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_5 = { (void*)BoostButton_OnBoostsChanged_m2753_MethodInfo_var };
 		BoostsChangedEventHandler_t628 * L_6 = (BoostsChangedEventHandler_t628 *)il2cpp_codegen_object_new (BoostsChangedEventHandler_t628_il2cpp_TypeInfo_var);
-		BoostsChangedEventHandler__ctor_m3361(L_6, __this, L_5, /*hidden argument*/NULL);
+		BoostsChangedEventHandler__ctor_m3357(L_6, __this, L_5, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		PlayerStats_add_BoostsChanged_m3370(L_4, L_6, /*hidden argument*/NULL);
+		PlayerStats_add_BoostsChanged_m3366(L_4, L_6, /*hidden argument*/NULL);
 		GameLevelState_t556 * L_7 = GameLevelState_get_instance_m2973(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_8 = { (void*)BoostButton_OnGameLevelChanged_m2750_MethodInfo_var };
 		GameLevelChangedEventHandler_t555 * L_9 = (GameLevelChangedEventHandler_t555 *)il2cpp_codegen_object_new (GameLevelChangedEventHandler_t555_il2cpp_TypeInfo_var);
@@ -24800,18 +24800,18 @@ extern "C" void BoostButton_UnregisterForEvents_m2745 (BoostButton_t497 * __this
 		}
 	}
 	{
-		PlayerStats_t513 * L_1 = PlayerStats_get_instance_m3376(NULL /*static, unused*/, /*hidden argument*/NULL);
+		PlayerStats_t513 * L_1 = PlayerStats_get_instance_m3372(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_2 = { (void*)BoostButton_OnTreatsChanged_m2755_MethodInfo_var };
 		MoneyChangedEventHandler_t627 * L_3 = (MoneyChangedEventHandler_t627 *)il2cpp_codegen_object_new (MoneyChangedEventHandler_t627_il2cpp_TypeInfo_var);
-		MoneyChangedEventHandler__ctor_m3357(L_3, __this, L_2, /*hidden argument*/NULL);
+		MoneyChangedEventHandler__ctor_m3353(L_3, __this, L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		PlayerStats_remove_MoneyChanged_m3369(L_1, L_3, /*hidden argument*/NULL);
-		PlayerStats_t513 * L_4 = PlayerStats_get_instance_m3376(NULL /*static, unused*/, /*hidden argument*/NULL);
+		PlayerStats_remove_MoneyChanged_m3365(L_1, L_3, /*hidden argument*/NULL);
+		PlayerStats_t513 * L_4 = PlayerStats_get_instance_m3372(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_5 = { (void*)BoostButton_OnBoostsChanged_m2753_MethodInfo_var };
 		BoostsChangedEventHandler_t628 * L_6 = (BoostsChangedEventHandler_t628 *)il2cpp_codegen_object_new (BoostsChangedEventHandler_t628_il2cpp_TypeInfo_var);
-		BoostsChangedEventHandler__ctor_m3361(L_6, __this, L_5, /*hidden argument*/NULL);
+		BoostsChangedEventHandler__ctor_m3357(L_6, __this, L_5, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		PlayerStats_remove_BoostsChanged_m3371(L_4, L_6, /*hidden argument*/NULL);
+		PlayerStats_remove_BoostsChanged_m3367(L_4, L_6, /*hidden argument*/NULL);
 		GameLevelState_t556 * L_7 = GameLevelState_get_instance_m2973(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_8 = { (void*)BoostButton_OnGameLevelChanged_m2750_MethodInfo_var };
 		GameLevelChangedEventHandler_t555 * L_9 = (GameLevelChangedEventHandler_t555 *)il2cpp_codegen_object_new (GameLevelChangedEventHandler_t555_il2cpp_TypeInfo_var);
@@ -24846,28 +24846,28 @@ extern "C" void BoostButton_OnDestroy_m2746 (BoostButton_t497 * __this, const Me
 	}
 }
 // System.Void BoostButton::ConfigureForType(BoostConfig/BoostType)
-extern const MethodInfo* GameObject_GetComponent_TisButton_t499_m4168_MethodInfo_var;
-extern const MethodInfo* GameObject_GetComponent_TisImage_t501_m4169_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisButton_t499_m4165_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisImage_t501_m4166_MethodInfo_var;
 extern "C" void BoostButton_ConfigureForType_m2747 (BoostButton_t497 * __this, int32_t ___bType, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		GameObject_GetComponent_TisButton_t499_m4168_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484126);
-		GameObject_GetComponent_TisImage_t501_m4169_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484127);
+		GameObject_GetComponent_TisButton_t499_m4165_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484126);
+		GameObject_GetComponent_TisImage_t501_m4166_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484127);
 		s_Il2CppMethodIntialized = true;
 	}
 	Image_t501 * V_0 = {0};
 	{
 		int32_t L_0 = ___bType;
 		__this->___boostType_6 = L_0;
-		GameObject_t352 * L_1 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_1 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		Button_t499 * L_2 = GameObject_GetComponent_TisButton_t499_m4168(L_1, /*hidden argument*/GameObject_GetComponent_TisButton_t499_m4168_MethodInfo_var);
+		Button_t499 * L_2 = GameObject_GetComponent_TisButton_t499_m4165(L_1, /*hidden argument*/GameObject_GetComponent_TisButton_t499_m4165_MethodInfo_var);
 		__this->___button_2 = L_2;
-		GameObject_t352 * L_3 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_3 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Image_t501 * L_4 = GameObject_GetComponent_TisImage_t501_m4169(L_3, /*hidden argument*/GameObject_GetComponent_TisImage_t501_m4169_MethodInfo_var);
+		Image_t501 * L_4 = GameObject_GetComponent_TisImage_t501_m4166(L_3, /*hidden argument*/GameObject_GetComponent_TisImage_t501_m4166_MethodInfo_var);
 		V_0 = L_4;
 		Image_t501 * L_5 = V_0;
 		BoostConfig_t494 * L_6 = BoostConfig_get_instance_m2787(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -24875,7 +24875,7 @@ extern "C" void BoostButton_ConfigureForType_m2747 (BoostButton_t497 * __this, i
 		NullCheck(L_6);
 		Sprite_t510 * L_8 = BoostConfig_GetButtonImageForType_m2798(L_6, L_7, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		Image_set_sprite_m4170(L_5, L_8, /*hidden argument*/NULL);
+		Image_set_sprite_m4167(L_5, L_8, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -24901,9 +24901,9 @@ extern "C" void BoostButton_RefreshButton_m2748 (BoostButton_t497 * __this, cons
 	{
 		Text_t500 * L_0 = (__this->___levelLockText_3);
 		NullCheck(L_0);
-		GameObject_t352 * L_1 = Component_get_gameObject_m3756(L_0, /*hidden argument*/NULL);
+		GameObject_t352 * L_1 = Component_get_gameObject_m3753(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		GameObject_SetActive_m3956(L_1, 1, /*hidden argument*/NULL);
+		GameObject_SetActive_m3953(L_1, 1, /*hidden argument*/NULL);
 		LevelConfig_t591 * L_2 = LevelConfig_get_instance_m3103(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_3 = (__this->___boostType_6);
 		NullCheck(L_2);
@@ -24923,19 +24923,19 @@ extern "C" void BoostButton_RefreshButton_m2748 (BoostButton_t497 * __this, cons
 	{
 		Text_t500 * L_9 = (__this->___levelLockText_3);
 		NullCheck(L_9);
-		GameObject_t352 * L_10 = Component_get_gameObject_m3756(L_9, /*hidden argument*/NULL);
+		GameObject_t352 * L_10 = Component_get_gameObject_m3753(L_9, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		GameObject_SetActive_m3956(L_10, 1, /*hidden argument*/NULL);
+		GameObject_SetActive_m3953(L_10, 1, /*hidden argument*/NULL);
 		Image_t501 * L_11 = (__this->___levelLockImage_4);
 		NullCheck(L_11);
-		GameObject_t352 * L_12 = Component_get_gameObject_m3756(L_11, /*hidden argument*/NULL);
+		GameObject_t352 * L_12 = Component_get_gameObject_m3753(L_11, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		GameObject_SetActive_m3956(L_12, 1, /*hidden argument*/NULL);
+		GameObject_SetActive_m3953(L_12, 1, /*hidden argument*/NULL);
 		Text_t500 * L_13 = (__this->___costText_5);
 		NullCheck(L_13);
-		GameObject_t352 * L_14 = Component_get_gameObject_m3756(L_13, /*hidden argument*/NULL);
+		GameObject_t352 * L_14 = Component_get_gameObject_m3753(L_13, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		GameObject_SetActive_m3956(L_14, 0, /*hidden argument*/NULL);
+		GameObject_SetActive_m3953(L_14, 0, /*hidden argument*/NULL);
 		Text_t500 * L_15 = (__this->___levelLockText_3);
 		int32_t L_16 = V_0;
 		int32_t L_17 = L_16;
@@ -24946,7 +24946,7 @@ extern "C" void BoostButton_RefreshButton_m2748 (BoostButton_t497 * __this, cons
 		VirtActionInvoker1< String_t* >::Invoke(48 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_15, L_19);
 		Button_t499 * L_20 = (__this->___button_2);
 		NullCheck(L_20);
-		Selectable_set_interactable_m4171(L_20, 0, /*hidden argument*/NULL);
+		Selectable_set_interactable_m4168(L_20, 0, /*hidden argument*/NULL);
 		goto IL_0165;
 	}
 
@@ -24954,19 +24954,19 @@ IL_0093:
 	{
 		Text_t500 * L_21 = (__this->___levelLockText_3);
 		NullCheck(L_21);
-		GameObject_t352 * L_22 = Component_get_gameObject_m3756(L_21, /*hidden argument*/NULL);
+		GameObject_t352 * L_22 = Component_get_gameObject_m3753(L_21, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		GameObject_SetActive_m3956(L_22, 0, /*hidden argument*/NULL);
+		GameObject_SetActive_m3953(L_22, 0, /*hidden argument*/NULL);
 		Image_t501 * L_23 = (__this->___levelLockImage_4);
 		NullCheck(L_23);
-		GameObject_t352 * L_24 = Component_get_gameObject_m3756(L_23, /*hidden argument*/NULL);
+		GameObject_t352 * L_24 = Component_get_gameObject_m3753(L_23, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		GameObject_SetActive_m3956(L_24, 0, /*hidden argument*/NULL);
+		GameObject_SetActive_m3953(L_24, 0, /*hidden argument*/NULL);
 		Text_t500 * L_25 = (__this->___costText_5);
 		NullCheck(L_25);
-		GameObject_t352 * L_26 = Component_get_gameObject_m3756(L_25, /*hidden argument*/NULL);
+		GameObject_t352 * L_26 = Component_get_gameObject_m3753(L_25, /*hidden argument*/NULL);
 		NullCheck(L_26);
-		GameObject_SetActive_m3956(L_26, 1, /*hidden argument*/NULL);
+		GameObject_SetActive_m3953(L_26, 1, /*hidden argument*/NULL);
 		BoostConfig_t494 * L_27 = BoostConfig_get_instance_m2787(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_28 = (__this->___boostType_6);
 		NullCheck(L_27);
@@ -24981,10 +24981,10 @@ IL_0093:
 		NullCheck(L_30);
 		VirtActionInvoker1< String_t* >::Invoke(48 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_30, L_34);
 		Button_t499 * L_35 = (__this->___button_2);
-		PlayerStats_t513 * L_36 = PlayerStats_get_instance_m3376(NULL /*static, unused*/, /*hidden argument*/NULL);
+		PlayerStats_t513 * L_36 = PlayerStats_get_instance_m3372(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_37 = (__this->___priceInTreats_7);
 		NullCheck(L_36);
-		bool L_38 = PlayerStats_CanAfford_m3386(L_36, L_37, /*hidden argument*/NULL);
+		bool L_38 = PlayerStats_CanAfford_m3382(L_36, L_37, /*hidden argument*/NULL);
 		G_B3_0 = L_35;
 		if (!L_38)
 		{
@@ -25021,10 +25021,10 @@ IL_0132:
 IL_0133:
 	{
 		NullCheck(G_B6_1);
-		Selectable_set_interactable_m4171(G_B6_1, G_B6_0, /*hidden argument*/NULL);
+		Selectable_set_interactable_m4168(G_B6_1, G_B6_0, /*hidden argument*/NULL);
 		Button_t499 * L_43 = (__this->___button_2);
 		NullCheck(L_43);
-		bool L_44 = Selectable_get_interactable_m4172(L_43, /*hidden argument*/NULL);
+		bool L_44 = Selectable_get_interactable_m4169(L_43, /*hidden argument*/NULL);
 		if (L_44)
 		{
 			goto IL_0159;
@@ -25033,7 +25033,7 @@ IL_0133:
 	{
 		Text_t500 * L_45 = (__this->___costText_5);
 		NullCheck(L_45);
-		Text_set_fontStyle_m4173(L_45, 2, /*hidden argument*/NULL);
+		Text_set_fontStyle_m4170(L_45, 2, /*hidden argument*/NULL);
 		goto IL_0165;
 	}
 
@@ -25041,7 +25041,7 @@ IL_0159:
 	{
 		Text_t500 * L_46 = (__this->___costText_5);
 		NullCheck(L_46);
-		Text_set_fontStyle_m4173(L_46, 0, /*hidden argument*/NULL);
+		Text_set_fontStyle_m4170(L_46, 0, /*hidden argument*/NULL);
 	}
 
 IL_0165:
@@ -25115,7 +25115,7 @@ extern "C" void BoostButton_CheckForLevelUnlockEffects_m2752 (BoostButton_t497 *
 	}
 	{
 		Object_t * L_7 = BoostButton_TriggerDistortionEffect_m2757(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m3719(__this, L_7, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m3716(__this, L_7, /*hidden argument*/NULL);
 	}
 
 IL_003b:
@@ -25148,13 +25148,13 @@ extern "C" void BoostButton_OnTreatsChanged_m2755 (BoostButton_t497 * __this, co
 	}
 }
 // System.Void BoostButton::OnBoostUnlocked(BoostConfig/BoostType)
-extern const MethodInfo* Component_GetComponent_TisDistortForEffect_t535_m4167_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisDistortForEffect_t535_m4164_MethodInfo_var;
 extern "C" void BoostButton_OnBoostUnlocked_m2756 (BoostButton_t497 * __this, int32_t ___bType, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Component_GetComponent_TisDistortForEffect_t535_m4167_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484120);
+		Component_GetComponent_TisDistortForEffect_t535_m4164_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484120);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -25166,7 +25166,7 @@ extern "C" void BoostButton_OnBoostUnlocked_m2756 (BoostButton_t497 * __this, in
 		}
 	}
 	{
-		DistortForEffect_t535 * L_2 = Component_GetComponent_TisDistortForEffect_t535_m4167(__this, /*hidden argument*/Component_GetComponent_TisDistortForEffect_t535_m4167_MethodInfo_var);
+		DistortForEffect_t535 * L_2 = Component_GetComponent_TisDistortForEffect_t535_m4164(__this, /*hidden argument*/Component_GetComponent_TisDistortForEffect_t535_m4164_MethodInfo_var);
 		NullCheck(L_2);
 		DistortForEffect_Distort_m2884(L_2, /*hidden argument*/NULL);
 	}
@@ -25265,7 +25265,7 @@ extern "C" bool U3CDelayThenLayoutU3Ec__Iterator12_MoveNext_m2761 (U3CDelayThenL
 IL_0021:
 	{
 		WaitForSeconds_t785 * L_2 = (WaitForSeconds_t785 *)il2cpp_codegen_object_new (WaitForSeconds_t785_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m4139(L_2, (0.0f), /*hidden argument*/NULL);
+		WaitForSeconds__ctor_m4136(L_2, (0.0f), /*hidden argument*/NULL);
 		__this->___U24current_1 = L_2;
 		__this->___U24PC_0 = 1;
 		goto IL_0051;
@@ -25332,7 +25332,7 @@ struct GameObject_t352;
 struct BoostButton_t497;
 // Declaration !!0 UnityEngine.GameObject::GetComponent<BoostButton>()
 // !!0 UnityEngine.GameObject::GetComponent<BoostButton>()
-#define GameObject_GetComponent_TisBoostButton_t497_m4174(__this, method) (( BoostButton_t497 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4029_gshared)(__this, method)
+#define GameObject_GetComponent_TisBoostButton_t497_m4171(__this, method) (( BoostButton_t497 * (*) (GameObject_t352 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m4026_gshared)(__this, method)
 
 
 // System.Void BoostButtonLayout::.ctor()
@@ -25356,7 +25356,7 @@ extern "C" void BoostButtonLayout_Start_m2766 (BoostButtonLayout_t502 * __this, 
 {
 	{
 		Object_t * L_0 = BoostButtonLayout_DelayThenLayout_m2767(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m3719(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m3716(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -25395,7 +25395,7 @@ extern "C" void BoostButtonLayout_DoLayout_m2768 (BoostButtonLayout_t502 * __thi
 // System.Void BoostButtonLayout::AddBoostButtons()
 extern TypeInfo* List_1_t504_il2cpp_TypeInfo_var;
 extern TypeInfo* GameObjectU5BU5D_t505_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m4175_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m4172_MethodInfo_var;
 extern "C" void BoostButtonLayout_AddBoostButtons_m2769 (BoostButtonLayout_t502 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -25403,13 +25403,13 @@ extern "C" void BoostButtonLayout_AddBoostButtons_m2769 (BoostButtonLayout_t502 
 	{
 		List_1_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(472);
 		GameObjectU5BU5D_t505_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(473);
-		List_1__ctor_m4175_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484128);
+		List_1__ctor_m4172_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484128);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	{
 		List_1_t504 * L_0 = (List_1_t504 *)il2cpp_codegen_object_new (List_1_t504_il2cpp_TypeInfo_var);
-		List_1__ctor_m4175(L_0, /*hidden argument*/List_1__ctor_m4175_MethodInfo_var);
+		List_1__ctor_m4172(L_0, /*hidden argument*/List_1__ctor_m4172_MethodInfo_var);
 		__this->___boostButtons_4 = L_0;
 		__this->___boostButtonGameObjects_5 = ((GameObjectU5BU5D_t505*)SZArrayNew(GameObjectU5BU5D_t505_il2cpp_TypeInfo_var, 5));
 		V_0 = 0;
@@ -25438,14 +25438,14 @@ IL_0029:
 }
 // System.Void BoostButtonLayout::AddBoostButtonForType(BoostConfig/BoostType)
 extern TypeInfo* GameObject_t352_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_GetComponent_TisBoostButton_t497_m4174_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisBoostButton_t497_m4171_MethodInfo_var;
 extern "C" void BoostButtonLayout_AddBoostButtonForType_m2770 (BoostButtonLayout_t502 * __this, int32_t ___bType, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GameObject_t352_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(278);
-		GameObject_GetComponent_TisBoostButton_t497_m4174_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484129);
+		GameObject_GetComponent_TisBoostButton_t497_m4171_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484129);
 		s_Il2CppMethodIntialized = true;
 	}
 	GameObject_t352 * V_0 = {0};
@@ -25453,22 +25453,22 @@ extern "C" void BoostButtonLayout_AddBoostButtonForType_m2770 (BoostButtonLayout
 	{
 		GameObject_t352 * L_0 = (__this->___boostButtonPrototype_3);
 		Vector3_t536  L_1 = {0};
-		Vector3__ctor_m4034(&L_1, (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		Quaternion_t788  L_2 = Quaternion_get_identity_m4160(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Object_t703 * L_3 = Object_Instantiate_m4161(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		Vector3__ctor_m4031(&L_1, (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Quaternion_t788  L_2 = Quaternion_get_identity_m4157(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t703 * L_3 = Object_Instantiate_m4158(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
 		V_0 = ((GameObject_t352 *)IsInst(L_3, GameObject_t352_il2cpp_TypeInfo_var));
 		GameObject_t352 * L_4 = V_0;
 		NullCheck(L_4);
-		BoostButton_t497 * L_5 = GameObject_GetComponent_TisBoostButton_t497_m4174(L_4, /*hidden argument*/GameObject_GetComponent_TisBoostButton_t497_m4174_MethodInfo_var);
+		BoostButton_t497 * L_5 = GameObject_GetComponent_TisBoostButton_t497_m4171(L_4, /*hidden argument*/GameObject_GetComponent_TisBoostButton_t497_m4171_MethodInfo_var);
 		V_1 = L_5;
 		GameObject_t352 * L_6 = V_0;
 		NullCheck(L_6);
-		Transform_t406 * L_7 = GameObject_get_transform_m4039(L_6, /*hidden argument*/NULL);
-		GameObject_t352 * L_8 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		Transform_t406 * L_7 = GameObject_get_transform_m4036(L_6, /*hidden argument*/NULL);
+		GameObject_t352 * L_8 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Transform_t406 * L_9 = GameObject_get_transform_m4039(L_8, /*hidden argument*/NULL);
+		Transform_t406 * L_9 = GameObject_get_transform_m4036(L_8, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		Transform_SetParent_m4162(L_7, L_9, 0, /*hidden argument*/NULL);
+		Transform_SetParent_m4159(L_7, L_9, 0, /*hidden argument*/NULL);
 		BoostButton_t497 * L_10 = V_1;
 		int32_t L_11 = ___bType;
 		NullCheck(L_10);
@@ -25481,7 +25481,7 @@ extern "C" void BoostButtonLayout_AddBoostButtonForType_m2770 (BoostButtonLayout
 		int32_t L_15 = ___bType;
 		BoostButton_t497 * L_16 = V_1;
 		NullCheck(L_16);
-		GameObject_t352 * L_17 = Component_get_gameObject_m3756(L_16, /*hidden argument*/NULL);
+		GameObject_t352 * L_17 = Component_get_gameObject_m3753(L_16, /*hidden argument*/NULL);
 		NullCheck(L_14);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, L_15);
 		ArrayElementTypeCheck (L_14, L_17);
@@ -25491,44 +25491,44 @@ extern "C" void BoostButtonLayout_AddBoostButtonForType_m2770 (BoostButtonLayout
 }
 // System.Void BoostButtonLayout::LayoutBoostButtons()
 extern TypeInfo* Utilities_t672_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_GetComponent_TisRectTransform_t543_m4159_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisRectTransform_t543_m4156_MethodInfo_var;
 extern "C" void BoostButtonLayout_LayoutBoostButtons_m2771 (BoostButtonLayout_t502 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Utilities_t672_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(474);
-		GameObject_GetComponent_TisRectTransform_t543_m4159_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484119);
+		GameObject_GetComponent_TisRectTransform_t543_m4156_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484119);
 		s_Il2CppMethodIntialized = true;
 	}
 	RectTransform_t543 * V_0 = {0};
 	float V_1 = 0.0f;
 	Rect_t694  V_2 = {0};
 	{
-		GameObject_t352 * L_0 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_0 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		RectTransform_t543 * L_1 = GameObject_GetComponent_TisRectTransform_t543_m4159(L_0, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t543_m4159_MethodInfo_var);
+		RectTransform_t543 * L_1 = GameObject_GetComponent_TisRectTransform_t543_m4156(L_0, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t543_m4156_MethodInfo_var);
 		V_0 = L_1;
 		RectTransform_t543 * L_2 = V_0;
 		NullCheck(L_2);
-		Rect_t694  L_3 = RectTransform_get_rect_m4176(L_2, /*hidden argument*/NULL);
+		Rect_t694  L_3 = RectTransform_get_rect_m4173(L_2, /*hidden argument*/NULL);
 		V_2 = L_3;
-		float L_4 = Rect_get_width_m4037((&V_2), /*hidden argument*/NULL);
+		float L_4 = Rect_get_width_m4034((&V_2), /*hidden argument*/NULL);
 		V_1 = L_4;
 		float L_5 = V_1;
 		GameObjectU5BU5D_t505* L_6 = (__this->___boostButtonGameObjects_5);
 		float L_7 = (__this->___boostButtonYOffset_2);
 		IL2CPP_RUNTIME_CLASS_INIT(Utilities_t672_il2cpp_TypeInfo_var);
-		Utilities_SpaceHorizontally_m3622(NULL /*static, unused*/, L_5, L_6, L_7, (0.0f), /*hidden argument*/NULL);
+		Utilities_SpaceHorizontally_m3619(NULL /*static, unused*/, L_5, L_6, L_7, (0.0f), /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void BoostButtonLayout::RefreshBoostButtons()
 extern TypeInfo* Enumerator_t789_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m4177_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m4178_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m4179_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m4174_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m4175_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4176_MethodInfo_var;
 extern "C" void BoostButtonLayout_RefreshBoostButtons_m2772 (BoostButtonLayout_t502 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -25536,9 +25536,9 @@ extern "C" void BoostButtonLayout_RefreshBoostButtons_m2772 (BoostButtonLayout_t
 	{
 		Enumerator_t789_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(475);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1_GetEnumerator_m4177_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484130);
-		Enumerator_get_Current_m4178_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484131);
-		Enumerator_MoveNext_m4179_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484132);
+		List_1_GetEnumerator_m4174_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484130);
+		Enumerator_get_Current_m4175_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484131);
+		Enumerator_MoveNext_m4176_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484132);
 		s_Il2CppMethodIntialized = true;
 	}
 	BoostButton_t497 * V_0 = {0};
@@ -25552,7 +25552,7 @@ extern "C" void BoostButtonLayout_RefreshBoostButtons_m2772 (BoostButtonLayout_t
 	{
 		List_1_t504 * L_0 = (__this->___boostButtons_4);
 		NullCheck(L_0);
-		Enumerator_t789  L_1 = List_1_GetEnumerator_m4177(L_0, /*hidden argument*/List_1_GetEnumerator_m4177_MethodInfo_var);
+		Enumerator_t789  L_1 = List_1_GetEnumerator_m4174(L_0, /*hidden argument*/List_1_GetEnumerator_m4174_MethodInfo_var);
 		V_1 = L_1;
 	}
 
@@ -25565,7 +25565,7 @@ IL_000c:
 
 IL_0011:
 		{
-			BoostButton_t497 * L_2 = Enumerator_get_Current_m4178((&V_1), /*hidden argument*/Enumerator_get_Current_m4178_MethodInfo_var);
+			BoostButton_t497 * L_2 = Enumerator_get_Current_m4175((&V_1), /*hidden argument*/Enumerator_get_Current_m4175_MethodInfo_var);
 			V_0 = L_2;
 			BoostButton_t497 * L_3 = V_0;
 			NullCheck(L_3);
@@ -25574,7 +25574,7 @@ IL_0011:
 
 IL_001f:
 		{
-			bool L_4 = Enumerator_MoveNext_m4179((&V_1), /*hidden argument*/Enumerator_MoveNext_m4179_MethodInfo_var);
+			bool L_4 = Enumerator_MoveNext_m4176((&V_1), /*hidden argument*/Enumerator_MoveNext_m4176_MethodInfo_var);
 			if (L_4)
 			{
 				goto IL_0011;
@@ -25783,7 +25783,7 @@ IL_0021:
 	{
 		float L_2 = (__this->___pauseTime_0);
 		WaitForSeconds_t785 * L_3 = (WaitForSeconds_t785 *)il2cpp_codegen_object_new (WaitForSeconds_t785_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m4139(L_3, L_2, /*hidden argument*/NULL);
+		WaitForSeconds__ctor_m4136(L_3, L_2, /*hidden argument*/NULL);
 		__this->___U24current_2 = L_3;
 		__this->___U24PC_1 = 1;
 		goto IL_005e;
@@ -25890,7 +25890,7 @@ extern "C" void BoostConfig_add_BoostActive_m2785 (BoostConfig_t494 * __this, Bo
 	{
 		BoostActiveEventHandler_t507 * L_0 = (__this->___BoostActive_7);
 		BoostActiveEventHandler_t507 * L_1 = ___value;
-		Delegate_t724 * L_2 = Delegate_Combine_m3759(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		Delegate_t724 * L_2 = Delegate_Combine_m3756(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		__this->___BoostActive_7 = ((BoostActiveEventHandler_t507 *)Castclass(L_2, BoostActiveEventHandler_t507_il2cpp_TypeInfo_var));
 		return;
 	}
@@ -25908,7 +25908,7 @@ extern "C" void BoostConfig_remove_BoostActive_m2786 (BoostConfig_t494 * __this,
 	{
 		BoostActiveEventHandler_t507 * L_0 = (__this->___BoostActive_7);
 		BoostActiveEventHandler_t507 * L_1 = ___value;
-		Delegate_t724 * L_2 = Delegate_Remove_m3767(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		Delegate_t724 * L_2 = Delegate_Remove_m3764(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		__this->___BoostActive_7 = ((BoostActiveEventHandler_t507 *)Castclass(L_2, BoostActiveEventHandler_t507_il2cpp_TypeInfo_var));
 		return;
 	}
@@ -26108,7 +26108,7 @@ extern "C" void BoostConfig_LoadBoostDescs_m2797 (BoostConfig_t494 * __this, con
 		__this->___boostDescs_2 = ((BoostDescU5BU5D_t509*)SZArrayNew(BoostDescU5BU5D_t509_il2cpp_TypeInfo_var, 5));
 		BoostDescU5BU5D_t509* L_0 = (__this->___boostDescs_2);
 		TipConfig_t511 * L_1 = (TipConfig_t511 *)il2cpp_codegen_object_new (TipConfig_t511_il2cpp_TypeInfo_var);
-		TipConfig__ctor_m3553(L_1, (String_t*) &_stringLiteral1002, (String_t*) &_stringLiteral1003, /*hidden argument*/NULL);
+		TipConfig__ctor_m3550(L_1, (String_t*) &_stringLiteral1002, (String_t*) &_stringLiteral1003, /*hidden argument*/NULL);
 		BoostDesc_t512 * L_2 = (BoostDesc_t512 *)il2cpp_codegen_object_new (BoostDesc_t512_il2cpp_TypeInfo_var);
 		BoostDesc__ctor_m2809(L_2, (String_t*) &_stringLiteral1000, (String_t*) &_stringLiteral1001, (String_t*) &_stringLiteral1001, (15.0f), L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
@@ -26117,7 +26117,7 @@ extern "C" void BoostConfig_LoadBoostDescs_m2797 (BoostConfig_t494 * __this, con
 		*((BoostDesc_t512 **)(BoostDesc_t512 **)SZArrayLdElema(L_0, 0)) = (BoostDesc_t512 *)L_2;
 		BoostDescU5BU5D_t509* L_3 = (__this->___boostDescs_2);
 		TipConfig_t511 * L_4 = (TipConfig_t511 *)il2cpp_codegen_object_new (TipConfig_t511_il2cpp_TypeInfo_var);
-		TipConfig__ctor_m3553(L_4, (String_t*) &_stringLiteral1006, (String_t*) &_stringLiteral1007, /*hidden argument*/NULL);
+		TipConfig__ctor_m3550(L_4, (String_t*) &_stringLiteral1006, (String_t*) &_stringLiteral1007, /*hidden argument*/NULL);
 		BoostDesc_t512 * L_5 = (BoostDesc_t512 *)il2cpp_codegen_object_new (BoostDesc_t512_il2cpp_TypeInfo_var);
 		BoostDesc__ctor_m2809(L_5, (String_t*) &_stringLiteral1004, (String_t*) &_stringLiteral1005, (String_t*) &_stringLiteral1005, (15.0f), L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
@@ -26126,7 +26126,7 @@ extern "C" void BoostConfig_LoadBoostDescs_m2797 (BoostConfig_t494 * __this, con
 		*((BoostDesc_t512 **)(BoostDesc_t512 **)SZArrayLdElema(L_3, 1)) = (BoostDesc_t512 *)L_5;
 		BoostDescU5BU5D_t509* L_6 = (__this->___boostDescs_2);
 		TipConfig_t511 * L_7 = (TipConfig_t511 *)il2cpp_codegen_object_new (TipConfig_t511_il2cpp_TypeInfo_var);
-		TipConfig__ctor_m3553(L_7, (String_t*) &_stringLiteral1010, (String_t*) &_stringLiteral1011, /*hidden argument*/NULL);
+		TipConfig__ctor_m3550(L_7, (String_t*) &_stringLiteral1010, (String_t*) &_stringLiteral1011, /*hidden argument*/NULL);
 		BoostDesc_t512 * L_8 = (BoostDesc_t512 *)il2cpp_codegen_object_new (BoostDesc_t512_il2cpp_TypeInfo_var);
 		BoostDesc__ctor_m2809(L_8, (String_t*) &_stringLiteral1008, (String_t*) &_stringLiteral1009, (String_t*) &_stringLiteral1009, (15.0f), L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
@@ -26135,7 +26135,7 @@ extern "C" void BoostConfig_LoadBoostDescs_m2797 (BoostConfig_t494 * __this, con
 		*((BoostDesc_t512 **)(BoostDesc_t512 **)SZArrayLdElema(L_6, 2)) = (BoostDesc_t512 *)L_8;
 		BoostDescU5BU5D_t509* L_9 = (__this->___boostDescs_2);
 		TipConfig_t511 * L_10 = (TipConfig_t511 *)il2cpp_codegen_object_new (TipConfig_t511_il2cpp_TypeInfo_var);
-		TipConfig__ctor_m3553(L_10, (String_t*) &_stringLiteral1014, (String_t*) &_stringLiteral1015, /*hidden argument*/NULL);
+		TipConfig__ctor_m3550(L_10, (String_t*) &_stringLiteral1014, (String_t*) &_stringLiteral1015, /*hidden argument*/NULL);
 		BoostDesc_t512 * L_11 = (BoostDesc_t512 *)il2cpp_codegen_object_new (BoostDesc_t512_il2cpp_TypeInfo_var);
 		BoostDesc__ctor_m2809(L_11, (String_t*) &_stringLiteral1012, (String_t*) &_stringLiteral1013, (String_t*) &_stringLiteral1013, (7.0f), L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
@@ -26144,7 +26144,7 @@ extern "C" void BoostConfig_LoadBoostDescs_m2797 (BoostConfig_t494 * __this, con
 		*((BoostDesc_t512 **)(BoostDesc_t512 **)SZArrayLdElema(L_9, 4)) = (BoostDesc_t512 *)L_11;
 		BoostDescU5BU5D_t509* L_12 = (__this->___boostDescs_2);
 		TipConfig_t511 * L_13 = (TipConfig_t511 *)il2cpp_codegen_object_new (TipConfig_t511_il2cpp_TypeInfo_var);
-		TipConfig__ctor_m3553(L_13, (String_t*) &_stringLiteral1018, (String_t*) &_stringLiteral1019, /*hidden argument*/NULL);
+		TipConfig__ctor_m3550(L_13, (String_t*) &_stringLiteral1018, (String_t*) &_stringLiteral1019, /*hidden argument*/NULL);
 		BoostDesc_t512 * L_14 = (BoostDesc_t512 *)il2cpp_codegen_object_new (BoostDesc_t512_il2cpp_TypeInfo_var);
 		BoostDesc__ctor_m2809(L_14, (String_t*) &_stringLiteral1016, (String_t*) &_stringLiteral1017, (String_t*) &_stringLiteral1017, (7.0f), L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
@@ -26210,10 +26210,10 @@ extern "C" int32_t BoostConfig_GetCurrentPriceForBoost_m2801 (BoostConfig_t494 *
 {
 	int32_t V_0 = 0;
 	{
-		PlayerStats_t513 * L_0 = PlayerStats_get_instance_m3376(NULL /*static, unused*/, /*hidden argument*/NULL);
+		PlayerStats_t513 * L_0 = PlayerStats_get_instance_m3372(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_1 = ___bType;
 		NullCheck(L_0);
-		int32_t L_2 = PlayerStats_GetPurchasedBoostCount_m3389(L_0, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = PlayerStats_GetPurchasedBoostCount_m3385(L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		int32_t L_3 = V_0;
 		int32_t L_4 = V_0;
@@ -26319,23 +26319,23 @@ IL_0025:
 		V_1 = L_6;
 		int32_t L_7 = ___bType;
 		BoostConfig_set_activeBoost_m2790(__this, L_7, /*hidden argument*/NULL);
-		float L_8 = Time_get_time_m4141(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_8 = Time_get_time_m4138(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___activeBoostStartTime_4 = L_8;
 		float L_9 = (__this->___activeBoostStartTime_4);
 		float L_10 = V_0;
 		__this->___activeBoostEndTime_5 = ((float)((float)L_9+(float)L_10));
 		SoundController_t651 * L_11 = ((SoundController_t651_StaticFields*)SoundController_t651_il2cpp_TypeInfo_var->static_fields)->___instance_4;
 		NullCheck(L_11);
-		bool L_12 = SoundController_get_sfxMuted_m3509(L_11, /*hidden argument*/NULL);
+		bool L_12 = SoundController_get_sfxMuted_m3506(L_11, /*hidden argument*/NULL);
 		if (L_12)
 		{
 			goto IL_0074;
 		}
 	}
 	{
-		SFXPlayer_t638 * L_13 = SFXPlayer_get_instance_m3426(NULL /*static, unused*/, /*hidden argument*/NULL);
+		SFXPlayer_t638 * L_13 = SFXPlayer_get_instance_m3422(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		SFXPlayer_Play_m3431(L_13, 6, /*hidden argument*/NULL);
+		SFXPlayer_Play_m3427(L_13, 6, /*hidden argument*/NULL);
 	}
 
 IL_0074:
@@ -26370,9 +26370,9 @@ IL_0091:
 		NullCheck(L_24);
 		TipConfig_t511 * L_25 = (L_24->___tipConfig_4);
 		NullCheck(L_23);
-		TipController_MaybeShowTip_m3571(L_23, L_25, /*hidden argument*/NULL);
+		TipController_MaybeShowTip_m3568(L_23, L_25, /*hidden argument*/NULL);
 		Object_t * L_26 = (__this->___activePause_3);
-		MonoBehaviour_StartCoroutine_m3719(__this, L_26, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m3716(__this, L_26, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -26420,7 +26420,7 @@ extern "C" void BoostConfig_CleanupActiveBoost_m2806 (BoostConfig_t494 * __this,
 	}
 	{
 		Object_t * L_1 = (__this->___activePause_3);
-		MonoBehaviour_StopCoroutine_m4180(__this, L_1, /*hidden argument*/NULL);
+		MonoBehaviour_StopCoroutine_m4177(__this, L_1, /*hidden argument*/NULL);
 		__this->___activePause_3 = (Object_t *)NULL;
 	}
 
@@ -26457,7 +26457,7 @@ IL_005d:
 extern "C" float BoostConfig_GetActiveBoostFractionUsed_m2807 (BoostConfig_t494 * __this, const MethodInfo* method)
 {
 	{
-		float L_0 = Time_get_time_m4141(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_0 = Time_get_time_m4138(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_1 = (__this->___activeBoostStartTime_4);
 		float L_2 = (__this->___activeBoostEndTime_5);
 		float L_3 = (__this->___activeBoostStartTime_4);

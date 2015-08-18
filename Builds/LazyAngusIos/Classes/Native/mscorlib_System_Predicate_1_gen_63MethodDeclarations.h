@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "Parse_Unity_Parse_ParseGeoPoint.h"
 
 // System.Void System.Predicate`1<Parse.ParseGeoPoint>::.ctor(System.Object,System.IntPtr)
-extern "C" void Predicate_1__ctor_m42084_gshared (Predicate_1_t6866 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Predicate_1__ctor_m42084(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6866 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m42084_gshared)(__this, ___object, ___method, method)
+extern "C" void Predicate_1__ctor_m42081_gshared (Predicate_1_t6866 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Predicate_1__ctor_m42081(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6866 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m42081_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<Parse.ParseGeoPoint>::Invoke(T)
-extern "C" bool Predicate_1_Invoke_m42085_gshared (Predicate_1_t6866 * __this, ParseGeoPoint_t1247  ___obj, const MethodInfo* method);
-#define Predicate_1_Invoke_m42085(__this, ___obj, method) (( bool (*) (Predicate_1_t6866 *, ParseGeoPoint_t1247 , const MethodInfo*))Predicate_1_Invoke_m42085_gshared)(__this, ___obj, method)
+extern "C" bool Predicate_1_Invoke_m42082_gshared (Predicate_1_t6866 * __this, ParseGeoPoint_t1247  ___obj, const MethodInfo* method);
+#define Predicate_1_Invoke_m42082(__this, ___obj, method) (( bool (*) (Predicate_1_t6866 *, ParseGeoPoint_t1247 , const MethodInfo*))Predicate_1_Invoke_m42082_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<Parse.ParseGeoPoint>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Predicate_1_BeginInvoke_m42086_gshared (Predicate_1_t6866 * __this, ParseGeoPoint_t1247  ___obj, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Predicate_1_BeginInvoke_m42086(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6866 *, ParseGeoPoint_t1247 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m42086_gshared)(__this, ___obj, ___callback, ___object, method)
+extern "C" Object_t * Predicate_1_BeginInvoke_m42083_gshared (Predicate_1_t6866 * __this, ParseGeoPoint_t1247  ___obj, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Predicate_1_BeginInvoke_m42083(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6866 *, ParseGeoPoint_t1247 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m42083_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<Parse.ParseGeoPoint>::EndInvoke(System.IAsyncResult)
-extern "C" bool Predicate_1_EndInvoke_m42087_gshared (Predicate_1_t6866 * __this, Object_t * ___result, const MethodInfo* method);
-#define Predicate_1_EndInvoke_m42087(__this, ___result, method) (( bool (*) (Predicate_1_t6866 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m42087_gshared)(__this, ___result, method)
+extern "C" bool Predicate_1_EndInvoke_m42084_gshared (Predicate_1_t6866 * __this, Object_t * ___result, const MethodInfo* method);
+#define Predicate_1_EndInvoke_m42084(__this, ___result, method) (( bool (*) (Predicate_1_t6866 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m42084_gshared)(__this, ___result, method)

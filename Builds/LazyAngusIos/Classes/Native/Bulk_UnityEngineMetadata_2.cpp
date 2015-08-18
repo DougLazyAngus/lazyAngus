@@ -16,21 +16,21 @@ extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo ResponseDelegate_1_t2967_ResponseDelegate_1__ctor_m10226_ParameterInfos[] = 
+static const ParameterInfo ResponseDelegate_1_t2967_ResponseDelegate_1__ctor_m10227_ParameterInfos[] = 
 {
-	{"object", 0, 134219549, 0, &Object_t_0_0_0},
-	{"method", 1, 134219550, 0, &IntPtr_t_0_0_0},
+	{"object", 0, 134219561, 0, &Object_t_0_0_0},
+	{"method", 1, 134219562, 0, &IntPtr_t_0_0_0},
 };
 extern const Il2CppType Void_t85_0_0_0;
 // System.Void UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo ResponseDelegate_1__ctor_m10226_MethodInfo = 
+extern const MethodInfo ResponseDelegate_1__ctor_m10227_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &ResponseDelegate_1_t2967_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ResponseDelegate_1_t2967_ResponseDelegate_1__ctor_m10226_ParameterInfos/* parameters */
+	, ResponseDelegate_1_t2967_ResponseDelegate_1__ctor_m10227_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -38,7 +38,7 @@ extern const MethodInfo ResponseDelegate_1__ctor_m10226_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1605/* token */
+	, 1612/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -46,19 +46,19 @@ extern const MethodInfo ResponseDelegate_1__ctor_m10226_MethodInfo =
 };
 extern const Il2CppType ResponseDelegate_1_t2967_gp_0_0_0_0;
 extern const Il2CppType ResponseDelegate_1_t2967_gp_0_0_0_0;
-static const ParameterInfo ResponseDelegate_1_t2967_ResponseDelegate_1_Invoke_m10227_ParameterInfos[] = 
+static const ParameterInfo ResponseDelegate_1_t2967_ResponseDelegate_1_Invoke_m10228_ParameterInfos[] = 
 {
-	{"response", 0, 134219551, 0, &ResponseDelegate_1_t2967_gp_0_0_0_0},
+	{"response", 0, 134219563, 0, &ResponseDelegate_1_t2967_gp_0_0_0_0},
 };
 // System.Void UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1::Invoke(T)
-extern const MethodInfo ResponseDelegate_1_Invoke_m10227_MethodInfo = 
+extern const MethodInfo ResponseDelegate_1_Invoke_m10228_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
 	, &ResponseDelegate_1_t2967_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ResponseDelegate_1_t2967_ResponseDelegate_1_Invoke_m10227_ParameterInfos/* parameters */
+	, ResponseDelegate_1_t2967_ResponseDelegate_1_Invoke_m10228_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -66,7 +66,7 @@ extern const MethodInfo ResponseDelegate_1_Invoke_m10227_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1606/* token */
+	, 1613/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -76,22 +76,22 @@ extern const Il2CppType ResponseDelegate_1_t2967_gp_0_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ResponseDelegate_1_t2967_ResponseDelegate_1_BeginInvoke_m10228_ParameterInfos[] = 
+static const ParameterInfo ResponseDelegate_1_t2967_ResponseDelegate_1_BeginInvoke_m10229_ParameterInfos[] = 
 {
-	{"response", 0, 134219552, 0, &ResponseDelegate_1_t2967_gp_0_0_0_0},
-	{"callback", 1, 134219553, 0, &AsyncCallback_t386_0_0_0},
-	{"object", 2, 134219554, 0, &Object_t_0_0_0},
+	{"response", 0, 134219564, 0, &ResponseDelegate_1_t2967_gp_0_0_0_0},
+	{"callback", 1, 134219565, 0, &AsyncCallback_t386_0_0_0},
+	{"object", 2, 134219566, 0, &Object_t_0_0_0},
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
 // System.IAsyncResult UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern const MethodInfo ResponseDelegate_1_BeginInvoke_m10228_MethodInfo = 
+extern const MethodInfo ResponseDelegate_1_BeginInvoke_m10229_MethodInfo = 
 {
 	"BeginInvoke"/* name */
 	, NULL/* method */
 	, &ResponseDelegate_1_t2967_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ResponseDelegate_1_t2967_ResponseDelegate_1_BeginInvoke_m10228_ParameterInfos/* parameters */
+	, ResponseDelegate_1_t2967_ResponseDelegate_1_BeginInvoke_m10229_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -99,26 +99,26 @@ extern const MethodInfo ResponseDelegate_1_BeginInvoke_m10228_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1607/* token */
+	, 1614/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo ResponseDelegate_1_t2967_ResponseDelegate_1_EndInvoke_m10229_ParameterInfos[] = 
+static const ParameterInfo ResponseDelegate_1_t2967_ResponseDelegate_1_EndInvoke_m10230_ParameterInfos[] = 
 {
-	{"result", 0, 134219555, 0, &IAsyncResult_t385_0_0_0},
+	{"result", 0, 134219567, 0, &IAsyncResult_t385_0_0_0},
 };
 // System.Void UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1::EndInvoke(System.IAsyncResult)
-extern const MethodInfo ResponseDelegate_1_EndInvoke_m10229_MethodInfo = 
+extern const MethodInfo ResponseDelegate_1_EndInvoke_m10230_MethodInfo = 
 {
 	"EndInvoke"/* name */
 	, NULL/* method */
 	, &ResponseDelegate_1_t2967_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ResponseDelegate_1_t2967_ResponseDelegate_1_EndInvoke_m10229_ParameterInfos/* parameters */
+	, ResponseDelegate_1_t2967_ResponseDelegate_1_EndInvoke_m10230_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -126,7 +126,7 @@ extern const MethodInfo ResponseDelegate_1_EndInvoke_m10229_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1608/* token */
+	, 1615/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -134,41 +134,41 @@ extern const MethodInfo ResponseDelegate_1_EndInvoke_m10229_MethodInfo =
 };
 static const MethodInfo* ResponseDelegate_1_t2967_MethodInfos[] =
 {
-	&ResponseDelegate_1__ctor_m10226_MethodInfo,
-	&ResponseDelegate_1_Invoke_m10227_MethodInfo,
-	&ResponseDelegate_1_BeginInvoke_m10228_MethodInfo,
-	&ResponseDelegate_1_EndInvoke_m10229_MethodInfo,
+	&ResponseDelegate_1__ctor_m10227_MethodInfo,
+	&ResponseDelegate_1_Invoke_m10228_MethodInfo,
+	&ResponseDelegate_1_BeginInvoke_m10229_MethodInfo,
+	&ResponseDelegate_1_EndInvoke_m10230_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m4525_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m4523_MethodInfo;
 extern const MethodInfo Object_Finalize_m490_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m4526_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m4524_MethodInfo;
 extern const MethodInfo Object_ToString_m492_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m4527_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo;
-extern const MethodInfo Delegate_Clone_m4529_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4530_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m4531_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4532_MethodInfo;
-extern const MethodInfo ResponseDelegate_1_Invoke_m10227_MethodInfo;
-extern const MethodInfo ResponseDelegate_1_BeginInvoke_m10228_MethodInfo;
-extern const MethodInfo ResponseDelegate_1_EndInvoke_m10229_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m4525_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4526_MethodInfo;
+extern const MethodInfo Delegate_Clone_m4527_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4528_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m4529_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4530_MethodInfo;
+extern const MethodInfo ResponseDelegate_1_Invoke_m10228_MethodInfo;
+extern const MethodInfo ResponseDelegate_1_BeginInvoke_m10229_MethodInfo;
+extern const MethodInfo ResponseDelegate_1_EndInvoke_m10230_MethodInfo;
 static const Il2CppMethodReference ResponseDelegate_1_t2967_VTable[] =
 {
-	&MulticastDelegate_Equals_m4525_MethodInfo,
+	&MulticastDelegate_Equals_m4523_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4524_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
-	&Delegate_Clone_m4529_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
-	&ResponseDelegate_1_Invoke_m10227_MethodInfo,
-	&ResponseDelegate_1_BeginInvoke_m10228_MethodInfo,
-	&ResponseDelegate_1_EndInvoke_m10229_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4525_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4526_MethodInfo,
+	&Delegate_Clone_m4527_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4525_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4528_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4529_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4530_MethodInfo,
+	&ResponseDelegate_1_Invoke_m10228_MethodInfo,
+	&ResponseDelegate_1_BeginInvoke_m10229_MethodInfo,
+	&ResponseDelegate_1_EndInvoke_m10230_MethodInfo,
 };
 static bool ResponseDelegate_1_t2967_VTableIsGenericMethod[] =
 {
@@ -283,7 +283,7 @@ static const Il2CppGenericParameter* U3CProcessMatchResponseU3Ec__Iterator0_1_t2
 };
 extern const Il2CppGenericContainer U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_il2cpp_TypeInfo, 1, 0, U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_Il2CppGenericParametersArray };
 // System.Void UnityEngine.Networking.Match.NetworkMatch/<ProcessMatchResponse>c__Iterator0`1::.ctor()
-extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1__ctor_m10230_MethodInfo = 
+extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1__ctor_m10231_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -298,14 +298,14 @@ extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1__ctor_m10230_Me
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1609/* token */
+	, 1616/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 // System.Object UnityEngine.Networking.Match.NetworkMatch/<ProcessMatchResponse>c__Iterator0`1::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m10231_MethodInfo = 
+extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m10232_MethodInfo = 
 {
 	"System.Collections.Generic.IEnumerator<object>.get_Current"/* name */
 	, NULL/* method */
@@ -313,21 +313,21 @@ extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collecti
 	, &Object_t_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
-	, 731/* custom_attributes_cache */
+	, 738/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
 	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1610/* token */
+	, 1617/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 // System.Object UnityEngine.Networking.Match.NetworkMatch/<ProcessMatchResponse>c__Iterator0`1::System.Collections.IEnumerator.get_Current()
-extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m10232_MethodInfo = 
+extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m10233_MethodInfo = 
 {
 	"System.Collections.IEnumerator.get_Current"/* name */
 	, NULL/* method */
@@ -335,14 +335,14 @@ extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collecti
 	, &Object_t_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
-	, 732/* custom_attributes_cache */
+	, 739/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
 	, 5/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1611/* token */
+	, 1618/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -350,7 +350,7 @@ extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collecti
 };
 extern const Il2CppType Boolean_t59_0_0_0;
 // System.Boolean UnityEngine.Networking.Match.NetworkMatch/<ProcessMatchResponse>c__Iterator0`1::MoveNext()
-extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_MoveNext_m10233_MethodInfo = 
+extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_MoveNext_m10234_MethodInfo = 
 {
 	"MoveNext"/* name */
 	, NULL/* method */
@@ -365,14 +365,14 @@ extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_MoveNext_m10233
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1612/* token */
+	, 1619/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 // System.Void UnityEngine.Networking.Match.NetworkMatch/<ProcessMatchResponse>c__Iterator0`1::Dispose()
-extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_Dispose_m10234_MethodInfo = 
+extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_Dispose_m10235_MethodInfo = 
 {
 	"Dispose"/* name */
 	, NULL/* method */
@@ -380,21 +380,21 @@ extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_Dispose_m10234_
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
-	, 733/* custom_attributes_cache */
+	, 740/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
 	, 4/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1613/* token */
+	, 1620/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 // System.Void UnityEngine.Networking.Match.NetworkMatch/<ProcessMatchResponse>c__Iterator0`1::Reset()
-extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_Reset_m10235_MethodInfo = 
+extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_Reset_m10236_MethodInfo = 
 {
 	"Reset"/* name */
 	, NULL/* method */
@@ -402,14 +402,14 @@ extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_Reset_m10235_Me
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
-	, 734/* custom_attributes_cache */
+	, 741/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
 	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1614/* token */
+	, 1621/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -417,31 +417,31 @@ extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_Reset_m10235_Me
 };
 static const MethodInfo* U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_MethodInfos[] =
 {
-	&U3CProcessMatchResponseU3Ec__Iterator0_1__ctor_m10230_MethodInfo,
-	&U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m10231_MethodInfo,
-	&U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m10232_MethodInfo,
-	&U3CProcessMatchResponseU3Ec__Iterator0_1_MoveNext_m10233_MethodInfo,
-	&U3CProcessMatchResponseU3Ec__Iterator0_1_Dispose_m10234_MethodInfo,
-	&U3CProcessMatchResponseU3Ec__Iterator0_1_Reset_m10235_MethodInfo,
+	&U3CProcessMatchResponseU3Ec__Iterator0_1__ctor_m10231_MethodInfo,
+	&U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m10232_MethodInfo,
+	&U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m10233_MethodInfo,
+	&U3CProcessMatchResponseU3Ec__Iterator0_1_MoveNext_m10234_MethodInfo,
+	&U3CProcessMatchResponseU3Ec__Iterator0_1_Dispose_m10235_MethodInfo,
+	&U3CProcessMatchResponseU3Ec__Iterator0_1_Reset_m10236_MethodInfo,
 	NULL
 };
-extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m10231_MethodInfo;
+extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m10232_MethodInfo;
 static const PropertyInfo U3CProcessMatchResponseU3Ec__Iterator0_1_t2968____System_Collections_Generic_IEnumeratorU3CobjectU3E_Current_PropertyInfo = 
 {
 	&U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_il2cpp_TypeInfo/* parent */
 	, "System.Collections.Generic.IEnumerator<object>.Current"/* name */
-	, &U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m10231_MethodInfo/* get */
+	, &U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m10232_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m10232_MethodInfo;
+extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m10233_MethodInfo;
 static const PropertyInfo U3CProcessMatchResponseU3Ec__Iterator0_1_t2968____System_Collections_IEnumerator_Current_PropertyInfo = 
 {
 	&U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_il2cpp_TypeInfo/* parent */
 	, "System.Collections.IEnumerator.Current"/* name */
-	, &U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m10232_MethodInfo/* get */
+	, &U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m10233_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -455,20 +455,20 @@ static const PropertyInfo* U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_Proper
 };
 extern const MethodInfo Object_Equals_m493_MethodInfo;
 extern const MethodInfo Object_GetHashCode_m406_MethodInfo;
-extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_Dispose_m10234_MethodInfo;
-extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_MoveNext_m10233_MethodInfo;
-extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_Reset_m10235_MethodInfo;
+extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_Dispose_m10235_MethodInfo;
+extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_MoveNext_m10234_MethodInfo;
+extern const MethodInfo U3CProcessMatchResponseU3Ec__Iterator0_1_Reset_m10236_MethodInfo;
 static const Il2CppMethodReference U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&U3CProcessMatchResponseU3Ec__Iterator0_1_Dispose_m10234_MethodInfo,
-	&U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m10232_MethodInfo,
-	&U3CProcessMatchResponseU3Ec__Iterator0_1_MoveNext_m10233_MethodInfo,
-	&U3CProcessMatchResponseU3Ec__Iterator0_1_Reset_m10235_MethodInfo,
-	&U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m10231_MethodInfo,
+	&U3CProcessMatchResponseU3Ec__Iterator0_1_Dispose_m10235_MethodInfo,
+	&U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m10233_MethodInfo,
+	&U3CProcessMatchResponseU3Ec__Iterator0_1_MoveNext_m10234_MethodInfo,
+	&U3CProcessMatchResponseU3Ec__Iterator0_1_Reset_m10236_MethodInfo,
+	&U3CProcessMatchResponseU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m10232_MethodInfo,
 };
 static bool U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_VTableIsGenericMethod[] =
 {
@@ -498,13 +498,13 @@ static Il2CppInterfaceOffsetPair U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_
 	{ &IEnumerator_1_t105_0_0_0, 8},
 };
 extern const Il2CppType U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_gp_0_0_0_0;
-extern const Il2CppGenericMethod Activator_CreateInstance_TisJSONRESPONSE_t3027_m10337_GenericMethod;
-extern const Il2CppGenericMethod ResponseDelegate_1_Invoke_m10338_GenericMethod;
+extern const Il2CppGenericMethod Activator_CreateInstance_TisJSONRESPONSE_t3027_m10338_GenericMethod;
+extern const Il2CppGenericMethod ResponseDelegate_1_Invoke_m10339_GenericMethod;
 static Il2CppRGCTXDefinition U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_RGCTXData[4] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_gp_0_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Activator_CreateInstance_TisJSONRESPONSE_t3027_m10337_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ResponseDelegate_1_Invoke_m10338_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Activator_CreateInstance_TisJSONRESPONSE_t3027_m10338_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ResponseDelegate_1_Invoke_m10339_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
@@ -535,7 +535,7 @@ TypeInfo U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 730/* custom_attributes_cache */
+	, 737/* custom_attributes_cache */
 	, &U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_0_0_0/* byval_arg */
 	, &U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_1_0_0/* this_arg */
 	, &U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_DefinitionMetadata/* definitionMetadata */
@@ -585,10 +585,10 @@ TypeInfo U3CProcessMatchResponseU3Ec__Iterator0_1_t2968_il2cpp_TypeInfo =
 #include "UnityEngine_UnityEngine_Networking_Match_NetworkMatchMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Networking.Match.NetworkMatch::.ctor()
-extern const MethodInfo NetworkMatch__ctor_m9753_MethodInfo = 
+extern const MethodInfo NetworkMatch__ctor_m9754_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&NetworkMatch__ctor_m9753/* method */
+	, (methodPointerType)&NetworkMatch__ctor_m9754/* method */
 	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -600,7 +600,7 @@ extern const MethodInfo NetworkMatch__ctor_m9753_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1590/* token */
+	, 1597/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -609,10 +609,10 @@ extern const MethodInfo NetworkMatch__ctor_m9753_MethodInfo =
 extern const Il2CppType Uri_t757_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Uri UnityEngine.Networking.Match.NetworkMatch::get_baseUri()
-extern const MethodInfo NetworkMatch_get_baseUri_m9754_MethodInfo = 
+extern const MethodInfo NetworkMatch_get_baseUri_m9755_MethodInfo = 
 {
 	"get_baseUri"/* name */
-	, (methodPointerType)&NetworkMatch_get_baseUri_m9754/* method */
+	, (methodPointerType)&NetworkMatch_get_baseUri_m9755/* method */
 	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
 	, &Uri_t757_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -624,27 +624,27 @@ extern const MethodInfo NetworkMatch_get_baseUri_m9754_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1591/* token */
+	, 1598/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Uri_t757_0_0_0;
-static const ParameterInfo NetworkMatch_t2817_NetworkMatch_set_baseUri_m9755_ParameterInfos[] = 
+static const ParameterInfo NetworkMatch_t2817_NetworkMatch_set_baseUri_m9756_ParameterInfos[] = 
 {
-	{"value", 0, 134219518, 0, &Uri_t757_0_0_0},
+	{"value", 0, 134219530, 0, &Uri_t757_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Networking.Match.NetworkMatch::set_baseUri(System.Uri)
-extern const MethodInfo NetworkMatch_set_baseUri_m9755_MethodInfo = 
+extern const MethodInfo NetworkMatch_set_baseUri_m9756_MethodInfo = 
 {
 	"set_baseUri"/* name */
-	, (methodPointerType)&NetworkMatch_set_baseUri_m9755/* method */
+	, (methodPointerType)&NetworkMatch_set_baseUri_m9756/* method */
 	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, NetworkMatch_t2817_NetworkMatch_set_baseUri_m9755_ParameterInfos/* parameters */
+	, NetworkMatch_t2817_NetworkMatch_set_baseUri_m9756_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -652,7 +652,7 @@ extern const MethodInfo NetworkMatch_set_baseUri_m9755_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1592/* token */
+	, 1599/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -660,20 +660,20 @@ extern const MethodInfo NetworkMatch_set_baseUri_m9755_MethodInfo =
 };
 extern const Il2CppType AppID_t2809_0_0_0;
 extern const Il2CppType AppID_t2809_0_0_0;
-static const ParameterInfo NetworkMatch_t2817_NetworkMatch_SetProgramAppID_m9756_ParameterInfos[] = 
+static const ParameterInfo NetworkMatch_t2817_NetworkMatch_SetProgramAppID_m9757_ParameterInfos[] = 
 {
-	{"programAppID", 0, 134219519, 0, &AppID_t2809_0_0_0},
+	{"programAppID", 0, 134219531, 0, &AppID_t2809_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_UInt64_t744 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Networking.Match.NetworkMatch::SetProgramAppID(UnityEngine.Networking.Types.AppID)
-extern const MethodInfo NetworkMatch_SetProgramAppID_m9756_MethodInfo = 
+extern const MethodInfo NetworkMatch_SetProgramAppID_m9757_MethodInfo = 
 {
 	"SetProgramAppID"/* name */
-	, (methodPointerType)&NetworkMatch_SetProgramAppID_m9756/* method */
+	, (methodPointerType)&NetworkMatch_SetProgramAppID_m9757/* method */
 	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_UInt64_t744/* invoker_method */
-	, NetworkMatch_t2817_NetworkMatch_SetProgramAppID_m9756_ParameterInfos/* parameters */
+	, NetworkMatch_t2817_NetworkMatch_SetProgramAppID_m9757_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -681,7 +681,7 @@ extern const MethodInfo NetworkMatch_SetProgramAppID_m9756_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1593/* token */
+	, 1600/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -695,252 +695,30 @@ extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ResponseDelegate_1_t2911_0_0_0;
 extern const Il2CppType ResponseDelegate_1_t2911_0_0_0;
-static const ParameterInfo NetworkMatch_t2817_NetworkMatch_CreateMatch_m9757_ParameterInfos[] = 
+static const ParameterInfo NetworkMatch_t2817_NetworkMatch_CreateMatch_m9758_ParameterInfos[] = 
 {
-	{"matchName", 0, 134219520, 0, &String_t_0_0_0},
-	{"matchSize", 1, 134219521, 0, &UInt32_t740_0_0_0},
-	{"matchAdvertise", 2, 134219522, 0, &Boolean_t59_0_0_0},
-	{"matchPassword", 3, 134219523, 0, &String_t_0_0_0},
-	{"callback", 4, 134219524, 0, &ResponseDelegate_1_t2911_0_0_0},
+	{"matchName", 0, 134219532, 0, &String_t_0_0_0},
+	{"matchSize", 1, 134219533, 0, &UInt32_t740_0_0_0},
+	{"matchAdvertise", 2, 134219534, 0, &Boolean_t59_0_0_0},
+	{"matchPassword", 3, 134219535, 0, &String_t_0_0_0},
+	{"callback", 4, 134219536, 0, &ResponseDelegate_1_t2911_0_0_0},
 };
 extern const Il2CppType Coroutine_t952_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t82_SByte_t88_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::CreateMatch(System.String,System.UInt32,System.Boolean,System.String,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.CreateMatchResponse>)
-extern const MethodInfo NetworkMatch_CreateMatch_m9757_MethodInfo = 
-{
-	"CreateMatch"/* name */
-	, (methodPointerType)&NetworkMatch_CreateMatch_m9757/* method */
-	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
-	, &Coroutine_t952_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Int32_t82_SByte_t88_Object_t_Object_t/* invoker_method */
-	, NetworkMatch_t2817_NetworkMatch_CreateMatch_m9757_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 5/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1594/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType CreateMatchRequest_t2797_0_0_0;
-extern const Il2CppType CreateMatchRequest_t2797_0_0_0;
-extern const Il2CppType ResponseDelegate_1_t2911_0_0_0;
-static const ParameterInfo NetworkMatch_t2817_NetworkMatch_CreateMatch_m9758_ParameterInfos[] = 
-{
-	{"req", 0, 134219525, 0, &CreateMatchRequest_t2797_0_0_0},
-	{"callback", 1, 134219526, 0, &ResponseDelegate_1_t2911_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::CreateMatch(UnityEngine.Networking.Match.CreateMatchRequest,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.CreateMatchResponse>)
 extern const MethodInfo NetworkMatch_CreateMatch_m9758_MethodInfo = 
 {
 	"CreateMatch"/* name */
 	, (methodPointerType)&NetworkMatch_CreateMatch_m9758/* method */
 	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
 	, &Coroutine_t952_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Object_t_Int32_t82_SByte_t88_Object_t_Object_t/* invoker_method */
 	, NetworkMatch_t2817_NetworkMatch_CreateMatch_m9758_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1595/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType NetworkID_t2811_0_0_0;
-extern const Il2CppType NetworkID_t2811_0_0_0;
-extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ResponseDelegate_1_t2912_0_0_0;
-extern const Il2CppType ResponseDelegate_1_t2912_0_0_0;
-static const ParameterInfo NetworkMatch_t2817_NetworkMatch_JoinMatch_m9759_ParameterInfos[] = 
-{
-	{"netId", 0, 134219527, 0, &NetworkID_t2811_0_0_0},
-	{"matchPassword", 1, 134219528, 0, &String_t_0_0_0},
-	{"callback", 2, 134219529, 0, &ResponseDelegate_1_t2912_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_UInt64_t744_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::JoinMatch(UnityEngine.Networking.Types.NetworkID,System.String,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.JoinMatchResponse>)
-extern const MethodInfo NetworkMatch_JoinMatch_m9759_MethodInfo = 
-{
-	"JoinMatch"/* name */
-	, (methodPointerType)&NetworkMatch_JoinMatch_m9759/* method */
-	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
-	, &Coroutine_t952_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_UInt64_t744_Object_t_Object_t/* invoker_method */
-	, NetworkMatch_t2817_NetworkMatch_JoinMatch_m9759_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 3/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1596/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType JoinMatchRequest_t2799_0_0_0;
-extern const Il2CppType JoinMatchRequest_t2799_0_0_0;
-extern const Il2CppType ResponseDelegate_1_t2912_0_0_0;
-static const ParameterInfo NetworkMatch_t2817_NetworkMatch_JoinMatch_m9760_ParameterInfos[] = 
-{
-	{"req", 0, 134219530, 0, &JoinMatchRequest_t2799_0_0_0},
-	{"callback", 1, 134219531, 0, &ResponseDelegate_1_t2912_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::JoinMatch(UnityEngine.Networking.Match.JoinMatchRequest,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.JoinMatchResponse>)
-extern const MethodInfo NetworkMatch_JoinMatch_m9760_MethodInfo = 
-{
-	"JoinMatch"/* name */
-	, (methodPointerType)&NetworkMatch_JoinMatch_m9760/* method */
-	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
-	, &Coroutine_t952_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, NetworkMatch_t2817_NetworkMatch_JoinMatch_m9760_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1597/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType NetworkID_t2811_0_0_0;
-extern const Il2CppType ResponseDelegate_1_t2913_0_0_0;
-extern const Il2CppType ResponseDelegate_1_t2913_0_0_0;
-static const ParameterInfo NetworkMatch_t2817_NetworkMatch_DestroyMatch_m9761_ParameterInfos[] = 
-{
-	{"netId", 0, 134219532, 0, &NetworkID_t2811_0_0_0},
-	{"callback", 1, 134219533, 0, &ResponseDelegate_1_t2913_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_UInt64_t744_Object_t (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::DestroyMatch(UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.BasicResponse>)
-extern const MethodInfo NetworkMatch_DestroyMatch_m9761_MethodInfo = 
-{
-	"DestroyMatch"/* name */
-	, (methodPointerType)&NetworkMatch_DestroyMatch_m9761/* method */
-	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
-	, &Coroutine_t952_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_UInt64_t744_Object_t/* invoker_method */
-	, NetworkMatch_t2817_NetworkMatch_DestroyMatch_m9761_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1598/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType DestroyMatchRequest_t2801_0_0_0;
-extern const Il2CppType DestroyMatchRequest_t2801_0_0_0;
-extern const Il2CppType ResponseDelegate_1_t2913_0_0_0;
-static const ParameterInfo NetworkMatch_t2817_NetworkMatch_DestroyMatch_m9762_ParameterInfos[] = 
-{
-	{"req", 0, 134219534, 0, &DestroyMatchRequest_t2801_0_0_0},
-	{"callback", 1, 134219535, 0, &ResponseDelegate_1_t2913_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::DestroyMatch(UnityEngine.Networking.Match.DestroyMatchRequest,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.BasicResponse>)
-extern const MethodInfo NetworkMatch_DestroyMatch_m9762_MethodInfo = 
-{
-	"DestroyMatch"/* name */
-	, (methodPointerType)&NetworkMatch_DestroyMatch_m9762/* method */
-	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
-	, &Coroutine_t952_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, NetworkMatch_t2817_NetworkMatch_DestroyMatch_m9762_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1599/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType NetworkID_t2811_0_0_0;
-extern const Il2CppType NodeID_t2812_0_0_0;
-extern const Il2CppType NodeID_t2812_0_0_0;
-extern const Il2CppType ResponseDelegate_1_t2913_0_0_0;
-static const ParameterInfo NetworkMatch_t2817_NetworkMatch_DropConnection_m9763_ParameterInfos[] = 
-{
-	{"netId", 0, 134219536, 0, &NetworkID_t2811_0_0_0},
-	{"dropNodeId", 1, 134219537, 0, &NodeID_t2812_0_0_0},
-	{"callback", 2, 134219538, 0, &ResponseDelegate_1_t2913_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_UInt64_t744_UInt16_t743_Object_t (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::DropConnection(UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NodeID,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.BasicResponse>)
-extern const MethodInfo NetworkMatch_DropConnection_m9763_MethodInfo = 
-{
-	"DropConnection"/* name */
-	, (methodPointerType)&NetworkMatch_DropConnection_m9763/* method */
-	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
-	, &Coroutine_t952_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_UInt64_t744_UInt16_t743_Object_t/* invoker_method */
-	, NetworkMatch_t2817_NetworkMatch_DropConnection_m9763_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 3/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1600/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType DropConnectionRequest_t2802_0_0_0;
-extern const Il2CppType DropConnectionRequest_t2802_0_0_0;
-extern const Il2CppType ResponseDelegate_1_t2913_0_0_0;
-static const ParameterInfo NetworkMatch_t2817_NetworkMatch_DropConnection_m9764_ParameterInfos[] = 
-{
-	{"req", 0, 134219539, 0, &DropConnectionRequest_t2802_0_0_0},
-	{"callback", 1, 134219540, 0, &ResponseDelegate_1_t2913_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::DropConnection(UnityEngine.Networking.Match.DropConnectionRequest,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.BasicResponse>)
-extern const MethodInfo NetworkMatch_DropConnection_m9764_MethodInfo = 
-{
-	"DropConnection"/* name */
-	, (methodPointerType)&NetworkMatch_DropConnection_m9764/* method */
-	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
-	, &Coroutine_t952_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, NetworkMatch_t2817_NetworkMatch_DropConnection_m9764_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
+	, 5/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1601/* token */
@@ -949,34 +727,29 @@ extern const MethodInfo NetworkMatch_DropConnection_m9764_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ResponseDelegate_1_t2914_0_0_0;
-extern const Il2CppType ResponseDelegate_1_t2914_0_0_0;
-static const ParameterInfo NetworkMatch_t2817_NetworkMatch_ListMatches_m9765_ParameterInfos[] = 
+extern const Il2CppType CreateMatchRequest_t2797_0_0_0;
+extern const Il2CppType CreateMatchRequest_t2797_0_0_0;
+extern const Il2CppType ResponseDelegate_1_t2911_0_0_0;
+static const ParameterInfo NetworkMatch_t2817_NetworkMatch_CreateMatch_m9759_ParameterInfos[] = 
 {
-	{"startPageNumber", 0, 134219541, 0, &Int32_t82_0_0_0},
-	{"resultPageSize", 1, 134219542, 0, &Int32_t82_0_0_0},
-	{"matchNameFilter", 2, 134219543, 0, &String_t_0_0_0},
-	{"callback", 3, 134219544, 0, &ResponseDelegate_1_t2914_0_0_0},
+	{"req", 0, 134219537, 0, &CreateMatchRequest_t2797_0_0_0},
+	{"callback", 1, 134219538, 0, &ResponseDelegate_1_t2911_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Int32_t82_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::ListMatches(System.Int32,System.Int32,System.String,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.ListMatchResponse>)
-extern const MethodInfo NetworkMatch_ListMatches_m9765_MethodInfo = 
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::CreateMatch(UnityEngine.Networking.Match.CreateMatchRequest,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.CreateMatchResponse>)
+extern const MethodInfo NetworkMatch_CreateMatch_m9759_MethodInfo = 
 {
-	"ListMatches"/* name */
-	, (methodPointerType)&NetworkMatch_ListMatches_m9765/* method */
+	"CreateMatch"/* name */
+	, (methodPointerType)&NetworkMatch_CreateMatch_m9759/* method */
 	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
 	, &Coroutine_t952_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int32_t82_Int32_t82_Object_t_Object_t/* invoker_method */
-	, NetworkMatch_t2817_NetworkMatch_ListMatches_m9765_ParameterInfos/* parameters */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, NetworkMatch_t2817_NetworkMatch_CreateMatch_m9759_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 4/* parameters_count */
+	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1602/* token */
@@ -985,24 +758,58 @@ extern const MethodInfo NetworkMatch_ListMatches_m9765_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ListMatchRequest_t2803_0_0_0;
-extern const Il2CppType ListMatchRequest_t2803_0_0_0;
-extern const Il2CppType ResponseDelegate_1_t2914_0_0_0;
-static const ParameterInfo NetworkMatch_t2817_NetworkMatch_ListMatches_m9766_ParameterInfos[] = 
+extern const Il2CppType NetworkID_t2811_0_0_0;
+extern const Il2CppType NetworkID_t2811_0_0_0;
+extern const Il2CppType String_t_0_0_0;
+extern const Il2CppType ResponseDelegate_1_t2912_0_0_0;
+extern const Il2CppType ResponseDelegate_1_t2912_0_0_0;
+static const ParameterInfo NetworkMatch_t2817_NetworkMatch_JoinMatch_m9760_ParameterInfos[] = 
 {
-	{"req", 0, 134219545, 0, &ListMatchRequest_t2803_0_0_0},
-	{"callback", 1, 134219546, 0, &ResponseDelegate_1_t2914_0_0_0},
+	{"netId", 0, 134219539, 0, &NetworkID_t2811_0_0_0},
+	{"matchPassword", 1, 134219540, 0, &String_t_0_0_0},
+	{"callback", 2, 134219541, 0, &ResponseDelegate_1_t2912_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_UInt64_t744_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::JoinMatch(UnityEngine.Networking.Types.NetworkID,System.String,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.JoinMatchResponse>)
+extern const MethodInfo NetworkMatch_JoinMatch_m9760_MethodInfo = 
+{
+	"JoinMatch"/* name */
+	, (methodPointerType)&NetworkMatch_JoinMatch_m9760/* method */
+	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
+	, &Coroutine_t952_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_UInt64_t744_Object_t_Object_t/* invoker_method */
+	, NetworkMatch_t2817_NetworkMatch_JoinMatch_m9760_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1603/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType JoinMatchRequest_t2799_0_0_0;
+extern const Il2CppType JoinMatchRequest_t2799_0_0_0;
+extern const Il2CppType ResponseDelegate_1_t2912_0_0_0;
+static const ParameterInfo NetworkMatch_t2817_NetworkMatch_JoinMatch_m9761_ParameterInfos[] = 
+{
+	{"req", 0, 134219542, 0, &JoinMatchRequest_t2799_0_0_0},
+	{"callback", 1, 134219543, 0, &ResponseDelegate_1_t2912_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::ListMatches(UnityEngine.Networking.Match.ListMatchRequest,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.ListMatchResponse>)
-extern const MethodInfo NetworkMatch_ListMatches_m9766_MethodInfo = 
+// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::JoinMatch(UnityEngine.Networking.Match.JoinMatchRequest,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.JoinMatchResponse>)
+extern const MethodInfo NetworkMatch_JoinMatch_m9761_MethodInfo = 
 {
-	"ListMatches"/* name */
-	, (methodPointerType)&NetworkMatch_ListMatches_m9766/* method */
+	"JoinMatch"/* name */
+	, (methodPointerType)&NetworkMatch_JoinMatch_m9761/* method */
 	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
 	, &Coroutine_t952_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, NetworkMatch_t2817_NetworkMatch_ListMatches_m9766_ParameterInfos/* parameters */
+	, NetworkMatch_t2817_NetworkMatch_JoinMatch_m9761_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -1010,7 +817,200 @@ extern const MethodInfo NetworkMatch_ListMatches_m9766_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1603/* token */
+	, 1604/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType NetworkID_t2811_0_0_0;
+extern const Il2CppType ResponseDelegate_1_t2913_0_0_0;
+extern const Il2CppType ResponseDelegate_1_t2913_0_0_0;
+static const ParameterInfo NetworkMatch_t2817_NetworkMatch_DestroyMatch_m9762_ParameterInfos[] = 
+{
+	{"netId", 0, 134219544, 0, &NetworkID_t2811_0_0_0},
+	{"callback", 1, 134219545, 0, &ResponseDelegate_1_t2913_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_UInt64_t744_Object_t (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::DestroyMatch(UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.BasicResponse>)
+extern const MethodInfo NetworkMatch_DestroyMatch_m9762_MethodInfo = 
+{
+	"DestroyMatch"/* name */
+	, (methodPointerType)&NetworkMatch_DestroyMatch_m9762/* method */
+	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
+	, &Coroutine_t952_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_UInt64_t744_Object_t/* invoker_method */
+	, NetworkMatch_t2817_NetworkMatch_DestroyMatch_m9762_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1605/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType DestroyMatchRequest_t2801_0_0_0;
+extern const Il2CppType DestroyMatchRequest_t2801_0_0_0;
+extern const Il2CppType ResponseDelegate_1_t2913_0_0_0;
+static const ParameterInfo NetworkMatch_t2817_NetworkMatch_DestroyMatch_m9763_ParameterInfos[] = 
+{
+	{"req", 0, 134219546, 0, &DestroyMatchRequest_t2801_0_0_0},
+	{"callback", 1, 134219547, 0, &ResponseDelegate_1_t2913_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::DestroyMatch(UnityEngine.Networking.Match.DestroyMatchRequest,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.BasicResponse>)
+extern const MethodInfo NetworkMatch_DestroyMatch_m9763_MethodInfo = 
+{
+	"DestroyMatch"/* name */
+	, (methodPointerType)&NetworkMatch_DestroyMatch_m9763/* method */
+	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
+	, &Coroutine_t952_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, NetworkMatch_t2817_NetworkMatch_DestroyMatch_m9763_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1606/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType NetworkID_t2811_0_0_0;
+extern const Il2CppType NodeID_t2812_0_0_0;
+extern const Il2CppType NodeID_t2812_0_0_0;
+extern const Il2CppType ResponseDelegate_1_t2913_0_0_0;
+static const ParameterInfo NetworkMatch_t2817_NetworkMatch_DropConnection_m9764_ParameterInfos[] = 
+{
+	{"netId", 0, 134219548, 0, &NetworkID_t2811_0_0_0},
+	{"dropNodeId", 1, 134219549, 0, &NodeID_t2812_0_0_0},
+	{"callback", 2, 134219550, 0, &ResponseDelegate_1_t2913_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_UInt64_t744_UInt16_t743_Object_t (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::DropConnection(UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NodeID,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.BasicResponse>)
+extern const MethodInfo NetworkMatch_DropConnection_m9764_MethodInfo = 
+{
+	"DropConnection"/* name */
+	, (methodPointerType)&NetworkMatch_DropConnection_m9764/* method */
+	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
+	, &Coroutine_t952_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_UInt64_t744_UInt16_t743_Object_t/* invoker_method */
+	, NetworkMatch_t2817_NetworkMatch_DropConnection_m9764_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1607/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType DropConnectionRequest_t2802_0_0_0;
+extern const Il2CppType DropConnectionRequest_t2802_0_0_0;
+extern const Il2CppType ResponseDelegate_1_t2913_0_0_0;
+static const ParameterInfo NetworkMatch_t2817_NetworkMatch_DropConnection_m9765_ParameterInfos[] = 
+{
+	{"req", 0, 134219551, 0, &DropConnectionRequest_t2802_0_0_0},
+	{"callback", 1, 134219552, 0, &ResponseDelegate_1_t2913_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::DropConnection(UnityEngine.Networking.Match.DropConnectionRequest,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.BasicResponse>)
+extern const MethodInfo NetworkMatch_DropConnection_m9765_MethodInfo = 
+{
+	"DropConnection"/* name */
+	, (methodPointerType)&NetworkMatch_DropConnection_m9765/* method */
+	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
+	, &Coroutine_t952_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, NetworkMatch_t2817_NetworkMatch_DropConnection_m9765_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1608/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Int32_t82_0_0_0;
+extern const Il2CppType Int32_t82_0_0_0;
+extern const Il2CppType Int32_t82_0_0_0;
+extern const Il2CppType String_t_0_0_0;
+extern const Il2CppType ResponseDelegate_1_t2914_0_0_0;
+extern const Il2CppType ResponseDelegate_1_t2914_0_0_0;
+static const ParameterInfo NetworkMatch_t2817_NetworkMatch_ListMatches_m9766_ParameterInfos[] = 
+{
+	{"startPageNumber", 0, 134219553, 0, &Int32_t82_0_0_0},
+	{"resultPageSize", 1, 134219554, 0, &Int32_t82_0_0_0},
+	{"matchNameFilter", 2, 134219555, 0, &String_t_0_0_0},
+	{"callback", 3, 134219556, 0, &ResponseDelegate_1_t2914_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Int32_t82_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::ListMatches(System.Int32,System.Int32,System.String,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.ListMatchResponse>)
+extern const MethodInfo NetworkMatch_ListMatches_m9766_MethodInfo = 
+{
+	"ListMatches"/* name */
+	, (methodPointerType)&NetworkMatch_ListMatches_m9766/* method */
+	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
+	, &Coroutine_t952_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Int32_t82_Int32_t82_Object_t_Object_t/* invoker_method */
+	, NetworkMatch_t2817_NetworkMatch_ListMatches_m9766_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 4/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1609/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType ListMatchRequest_t2803_0_0_0;
+extern const Il2CppType ListMatchRequest_t2803_0_0_0;
+extern const Il2CppType ResponseDelegate_1_t2914_0_0_0;
+static const ParameterInfo NetworkMatch_t2817_NetworkMatch_ListMatches_m9767_ParameterInfos[] = 
+{
+	{"req", 0, 134219557, 0, &ListMatchRequest_t2803_0_0_0},
+	{"callback", 1, 134219558, 0, &ResponseDelegate_1_t2914_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Coroutine UnityEngine.Networking.Match.NetworkMatch::ListMatches(UnityEngine.Networking.Match.ListMatchRequest,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.ListMatchResponse>)
+extern const MethodInfo NetworkMatch_ListMatches_m9767_MethodInfo = 
+{
+	"ListMatches"/* name */
+	, (methodPointerType)&NetworkMatch_ListMatches_m9767/* method */
+	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
+	, &Coroutine_t952_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, NetworkMatch_t2817_NetworkMatch_ListMatches_m9767_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1610/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1020,80 +1020,80 @@ extern const Il2CppType WWW_t265_0_0_0;
 extern const Il2CppType WWW_t265_0_0_0;
 extern const Il2CppType ResponseDelegate_1_t3028_0_0_0;
 extern const Il2CppType ResponseDelegate_1_t3028_0_0_0;
-static const ParameterInfo NetworkMatch_t2817_NetworkMatch_ProcessMatchResponse_m10225_ParameterInfos[] = 
+static const ParameterInfo NetworkMatch_t2817_NetworkMatch_ProcessMatchResponse_m10226_ParameterInfos[] = 
 {
-	{"client", 0, 134219547, 0, &WWW_t265_0_0_0},
-	{"callback", 1, 134219548, 0, &ResponseDelegate_1_t3028_0_0_0},
+	{"client", 0, 134219559, 0, &WWW_t265_0_0_0},
+	{"callback", 1, 134219560, 0, &ResponseDelegate_1_t3028_0_0_0},
 };
-extern const Il2CppGenericContainer NetworkMatch_ProcessMatchResponse_m10225_Il2CppGenericContainer;
-extern TypeInfo NetworkMatch_ProcessMatchResponse_m10225_gp_JSONRESPONSE_0_il2cpp_TypeInfo;
-static const Il2CppType* NetworkMatch_ProcessMatchResponse_m10225_gp_JSONRESPONSE_0_il2cpp_TypeInfo_constraints[] = { 
+extern const Il2CppGenericContainer NetworkMatch_ProcessMatchResponse_m10226_Il2CppGenericContainer;
+extern TypeInfo NetworkMatch_ProcessMatchResponse_m10226_gp_JSONRESPONSE_0_il2cpp_TypeInfo;
+static const Il2CppType* NetworkMatch_ProcessMatchResponse_m10226_gp_JSONRESPONSE_0_il2cpp_TypeInfo_constraints[] = { 
 &Response_t2794_0_0_0 /* UnityEngine.Networking.Match.Response */, 
  NULL };
-extern const Il2CppGenericParameter NetworkMatch_ProcessMatchResponse_m10225_gp_JSONRESPONSE_0_il2cpp_TypeInfo_GenericParamFull = { &NetworkMatch_ProcessMatchResponse_m10225_Il2CppGenericContainer, NetworkMatch_ProcessMatchResponse_m10225_gp_JSONRESPONSE_0_il2cpp_TypeInfo_constraints, "JSONRESPONSE", 0, 16 };
-static const Il2CppGenericParameter* NetworkMatch_ProcessMatchResponse_m10225_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericParameter NetworkMatch_ProcessMatchResponse_m10226_gp_JSONRESPONSE_0_il2cpp_TypeInfo_GenericParamFull = { &NetworkMatch_ProcessMatchResponse_m10226_Il2CppGenericContainer, NetworkMatch_ProcessMatchResponse_m10226_gp_JSONRESPONSE_0_il2cpp_TypeInfo_constraints, "JSONRESPONSE", 0, 16 };
+static const Il2CppGenericParameter* NetworkMatch_ProcessMatchResponse_m10226_Il2CppGenericParametersArray[1] = 
 {
-	&NetworkMatch_ProcessMatchResponse_m10225_gp_JSONRESPONSE_0_il2cpp_TypeInfo_GenericParamFull,
+	&NetworkMatch_ProcessMatchResponse_m10226_gp_JSONRESPONSE_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo NetworkMatch_ProcessMatchResponse_m10225_MethodInfo;
-extern const Il2CppGenericContainer NetworkMatch_ProcessMatchResponse_m10225_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&NetworkMatch_ProcessMatchResponse_m10225_MethodInfo, 1, 1, NetworkMatch_ProcessMatchResponse_m10225_Il2CppGenericParametersArray };
+extern const MethodInfo NetworkMatch_ProcessMatchResponse_m10226_MethodInfo;
+extern const Il2CppGenericContainer NetworkMatch_ProcessMatchResponse_m10226_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&NetworkMatch_ProcessMatchResponse_m10226_MethodInfo, 1, 1, NetworkMatch_ProcessMatchResponse_m10226_Il2CppGenericParametersArray };
 extern const Il2CppType U3CProcessMatchResponseU3Ec__Iterator0_1_t3030_0_0_0;
-extern const Il2CppGenericMethod U3CProcessMatchResponseU3Ec__Iterator0_1__ctor_m10339_GenericMethod;
-static Il2CppRGCTXDefinition NetworkMatch_ProcessMatchResponse_m10225_RGCTXData[3] = 
+extern const Il2CppGenericMethod U3CProcessMatchResponseU3Ec__Iterator0_1__ctor_m10340_GenericMethod;
+static Il2CppRGCTXDefinition NetworkMatch_ProcessMatchResponse_m10226_RGCTXData[3] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CProcessMatchResponseU3Ec__Iterator0_1_t3030_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CProcessMatchResponseU3Ec__Iterator0_1__ctor_m10339_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CProcessMatchResponseU3Ec__Iterator0_1__ctor_m10340_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Collections.IEnumerator UnityEngine.Networking.Match.NetworkMatch::ProcessMatchResponse(UnityEngine.WWW,UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<JSONRESPONSE>)
-extern const MethodInfo NetworkMatch_ProcessMatchResponse_m10225_MethodInfo = 
+extern const MethodInfo NetworkMatch_ProcessMatchResponse_m10226_MethodInfo = 
 {
 	"ProcessMatchResponse"/* name */
 	, NULL/* method */
 	, &NetworkMatch_t2817_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, NetworkMatch_t2817_NetworkMatch_ProcessMatchResponse_m10225_ParameterInfos/* parameters */
-	, 729/* custom_attributes_cache */
+	, NetworkMatch_t2817_NetworkMatch_ProcessMatchResponse_m10226_ParameterInfos/* parameters */
+	, 736/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
 	, 255/* slot */
 	, 2/* parameters_count */
 	, true/* is_generic */
 	, false/* is_inflated */
-	, 1604/* token */
-	, NetworkMatch_ProcessMatchResponse_m10225_RGCTXData/* rgctx_data */
+	, 1611/* token */
+	, NetworkMatch_ProcessMatchResponse_m10226_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &NetworkMatch_ProcessMatchResponse_m10225_Il2CppGenericContainer/* genericContainer */
+	, &NetworkMatch_ProcessMatchResponse_m10226_Il2CppGenericContainer/* genericContainer */
 
 };
 static const MethodInfo* NetworkMatch_t2817_MethodInfos[] =
 {
-	&NetworkMatch__ctor_m9753_MethodInfo,
-	&NetworkMatch_get_baseUri_m9754_MethodInfo,
-	&NetworkMatch_set_baseUri_m9755_MethodInfo,
-	&NetworkMatch_SetProgramAppID_m9756_MethodInfo,
-	&NetworkMatch_CreateMatch_m9757_MethodInfo,
+	&NetworkMatch__ctor_m9754_MethodInfo,
+	&NetworkMatch_get_baseUri_m9755_MethodInfo,
+	&NetworkMatch_set_baseUri_m9756_MethodInfo,
+	&NetworkMatch_SetProgramAppID_m9757_MethodInfo,
 	&NetworkMatch_CreateMatch_m9758_MethodInfo,
-	&NetworkMatch_JoinMatch_m9759_MethodInfo,
+	&NetworkMatch_CreateMatch_m9759_MethodInfo,
 	&NetworkMatch_JoinMatch_m9760_MethodInfo,
-	&NetworkMatch_DestroyMatch_m9761_MethodInfo,
+	&NetworkMatch_JoinMatch_m9761_MethodInfo,
 	&NetworkMatch_DestroyMatch_m9762_MethodInfo,
-	&NetworkMatch_DropConnection_m9763_MethodInfo,
+	&NetworkMatch_DestroyMatch_m9763_MethodInfo,
 	&NetworkMatch_DropConnection_m9764_MethodInfo,
-	&NetworkMatch_ListMatches_m9765_MethodInfo,
+	&NetworkMatch_DropConnection_m9765_MethodInfo,
 	&NetworkMatch_ListMatches_m9766_MethodInfo,
-	&NetworkMatch_ProcessMatchResponse_m10225_MethodInfo,
+	&NetworkMatch_ListMatches_m9767_MethodInfo,
+	&NetworkMatch_ProcessMatchResponse_m10226_MethodInfo,
 	NULL
 };
-extern const MethodInfo NetworkMatch_get_baseUri_m9754_MethodInfo;
-extern const MethodInfo NetworkMatch_set_baseUri_m9755_MethodInfo;
+extern const MethodInfo NetworkMatch_get_baseUri_m9755_MethodInfo;
+extern const MethodInfo NetworkMatch_set_baseUri_m9756_MethodInfo;
 static const PropertyInfo NetworkMatch_t2817____baseUri_PropertyInfo = 
 {
 	&NetworkMatch_t2817_il2cpp_TypeInfo/* parent */
 	, "baseUri"/* name */
-	, &NetworkMatch_get_baseUri_m9754_MethodInfo/* get */
-	, &NetworkMatch_set_baseUri_m9755_MethodInfo/* set */
+	, &NetworkMatch_get_baseUri_m9755_MethodInfo/* get */
+	, &NetworkMatch_set_baseUri_m9756_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -1204,10 +1204,10 @@ extern TypeInfo JsonArray_t2818_il2cpp_TypeInfo;
 #include "UnityEngine_SimpleJson_JsonArrayMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.JsonArray::.ctor()
-extern const MethodInfo JsonArray__ctor_m9767_MethodInfo = 
+extern const MethodInfo JsonArray__ctor_m9768_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&JsonArray__ctor_m9767/* method */
+	, (methodPointerType)&JsonArray__ctor_m9768/* method */
 	, &JsonArray_t2818_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -1219,7 +1219,7 @@ extern const MethodInfo JsonArray__ctor_m9767_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1615/* token */
+	, 1622/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1227,10 +1227,10 @@ extern const MethodInfo JsonArray__ctor_m9767_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String SimpleJson.JsonArray::ToString()
-extern const MethodInfo JsonArray_ToString_m9768_MethodInfo = 
+extern const MethodInfo JsonArray_ToString_m9769_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&JsonArray_ToString_m9768/* method */
+	, (methodPointerType)&JsonArray_ToString_m9769/* method */
 	, &JsonArray_t2818_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1242,7 +1242,7 @@ extern const MethodInfo JsonArray_ToString_m9768_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1616/* token */
+	, 1623/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1250,72 +1250,72 @@ extern const MethodInfo JsonArray_ToString_m9768_MethodInfo =
 };
 static const MethodInfo* JsonArray_t2818_MethodInfos[] =
 {
-	&JsonArray__ctor_m9767_MethodInfo,
-	&JsonArray_ToString_m9768_MethodInfo,
+	&JsonArray__ctor_m9768_MethodInfo,
+	&JsonArray_ToString_m9769_MethodInfo,
 	NULL
 };
-extern const MethodInfo JsonArray_ToString_m9768_MethodInfo;
-extern const Il2CppGenericMethod List_1_System_Collections_IEnumerable_GetEnumerator_m10340_GenericMethod;
-extern const Il2CppGenericMethod List_1_get_Count_m10341_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_ICollection_get_IsSynchronized_m10342_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_ICollection_get_SyncRoot_m10343_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_ICollection_CopyTo_m10344_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_get_IsFixedSize_m10345_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_get_IsReadOnly_m10346_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_get_Item_m10347_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_set_Item_m10348_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_Add_m10349_GenericMethod;
-extern const Il2CppGenericMethod List_1_Clear_m10350_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_Contains_m10351_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_IndexOf_m10352_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_Insert_m10353_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_IList_Remove_m10354_GenericMethod;
-extern const Il2CppGenericMethod List_1_RemoveAt_m10355_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m10356_GenericMethod;
-extern const Il2CppGenericMethod List_1_Add_m10357_GenericMethod;
-extern const Il2CppGenericMethod List_1_Contains_m10358_GenericMethod;
-extern const Il2CppGenericMethod List_1_CopyTo_m10359_GenericMethod;
-extern const Il2CppGenericMethod List_1_Remove_m10360_GenericMethod;
-extern const Il2CppGenericMethod List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m10361_GenericMethod;
-extern const Il2CppGenericMethod List_1_IndexOf_m10362_GenericMethod;
-extern const Il2CppGenericMethod List_1_Insert_m10363_GenericMethod;
-extern const Il2CppGenericMethod List_1_get_Item_m10364_GenericMethod;
-extern const Il2CppGenericMethod List_1_set_Item_m10365_GenericMethod;
+extern const MethodInfo JsonArray_ToString_m9769_MethodInfo;
+extern const Il2CppGenericMethod List_1_System_Collections_IEnumerable_GetEnumerator_m10341_GenericMethod;
+extern const Il2CppGenericMethod List_1_get_Count_m10342_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_ICollection_get_IsSynchronized_m10343_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_ICollection_get_SyncRoot_m10344_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_ICollection_CopyTo_m10345_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_get_IsFixedSize_m10346_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_get_IsReadOnly_m10347_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_get_Item_m10348_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_set_Item_m10349_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_Add_m10350_GenericMethod;
+extern const Il2CppGenericMethod List_1_Clear_m10351_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_Contains_m10352_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_IndexOf_m10353_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_Insert_m10354_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_IList_Remove_m10355_GenericMethod;
+extern const Il2CppGenericMethod List_1_RemoveAt_m10356_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m10357_GenericMethod;
+extern const Il2CppGenericMethod List_1_Add_m10358_GenericMethod;
+extern const Il2CppGenericMethod List_1_Contains_m10359_GenericMethod;
+extern const Il2CppGenericMethod List_1_CopyTo_m10360_GenericMethod;
+extern const Il2CppGenericMethod List_1_Remove_m10361_GenericMethod;
+extern const Il2CppGenericMethod List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m10362_GenericMethod;
+extern const Il2CppGenericMethod List_1_IndexOf_m10363_GenericMethod;
+extern const Il2CppGenericMethod List_1_Insert_m10364_GenericMethod;
+extern const Il2CppGenericMethod List_1_get_Item_m10365_GenericMethod;
+extern const Il2CppGenericMethod List_1_set_Item_m10366_GenericMethod;
 static const Il2CppMethodReference JsonArray_t2818_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&JsonArray_ToString_m9768_MethodInfo,
-	&List_1_System_Collections_IEnumerable_GetEnumerator_m10340_GenericMethod,
-	&List_1_get_Count_m10341_GenericMethod,
-	&List_1_System_Collections_ICollection_get_IsSynchronized_m10342_GenericMethod,
-	&List_1_System_Collections_ICollection_get_SyncRoot_m10343_GenericMethod,
-	&List_1_System_Collections_ICollection_CopyTo_m10344_GenericMethod,
-	&List_1_System_Collections_IList_get_IsFixedSize_m10345_GenericMethod,
-	&List_1_System_Collections_IList_get_IsReadOnly_m10346_GenericMethod,
-	&List_1_System_Collections_IList_get_Item_m10347_GenericMethod,
-	&List_1_System_Collections_IList_set_Item_m10348_GenericMethod,
-	&List_1_System_Collections_IList_Add_m10349_GenericMethod,
-	&List_1_Clear_m10350_GenericMethod,
-	&List_1_System_Collections_IList_Contains_m10351_GenericMethod,
-	&List_1_System_Collections_IList_IndexOf_m10352_GenericMethod,
-	&List_1_System_Collections_IList_Insert_m10353_GenericMethod,
-	&List_1_System_Collections_IList_Remove_m10354_GenericMethod,
-	&List_1_RemoveAt_m10355_GenericMethod,
-	&List_1_get_Count_m10341_GenericMethod,
-	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m10356_GenericMethod,
-	&List_1_Add_m10357_GenericMethod,
-	&List_1_Clear_m10350_GenericMethod,
-	&List_1_Contains_m10358_GenericMethod,
-	&List_1_CopyTo_m10359_GenericMethod,
-	&List_1_Remove_m10360_GenericMethod,
-	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m10361_GenericMethod,
-	&List_1_IndexOf_m10362_GenericMethod,
-	&List_1_Insert_m10363_GenericMethod,
-	&List_1_RemoveAt_m10355_GenericMethod,
-	&List_1_get_Item_m10364_GenericMethod,
-	&List_1_set_Item_m10365_GenericMethod,
+	&JsonArray_ToString_m9769_MethodInfo,
+	&List_1_System_Collections_IEnumerable_GetEnumerator_m10341_GenericMethod,
+	&List_1_get_Count_m10342_GenericMethod,
+	&List_1_System_Collections_ICollection_get_IsSynchronized_m10343_GenericMethod,
+	&List_1_System_Collections_ICollection_get_SyncRoot_m10344_GenericMethod,
+	&List_1_System_Collections_ICollection_CopyTo_m10345_GenericMethod,
+	&List_1_System_Collections_IList_get_IsFixedSize_m10346_GenericMethod,
+	&List_1_System_Collections_IList_get_IsReadOnly_m10347_GenericMethod,
+	&List_1_System_Collections_IList_get_Item_m10348_GenericMethod,
+	&List_1_System_Collections_IList_set_Item_m10349_GenericMethod,
+	&List_1_System_Collections_IList_Add_m10350_GenericMethod,
+	&List_1_Clear_m10351_GenericMethod,
+	&List_1_System_Collections_IList_Contains_m10352_GenericMethod,
+	&List_1_System_Collections_IList_IndexOf_m10353_GenericMethod,
+	&List_1_System_Collections_IList_Insert_m10354_GenericMethod,
+	&List_1_System_Collections_IList_Remove_m10355_GenericMethod,
+	&List_1_RemoveAt_m10356_GenericMethod,
+	&List_1_get_Count_m10342_GenericMethod,
+	&List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m10357_GenericMethod,
+	&List_1_Add_m10358_GenericMethod,
+	&List_1_Clear_m10351_GenericMethod,
+	&List_1_Contains_m10359_GenericMethod,
+	&List_1_CopyTo_m10360_GenericMethod,
+	&List_1_Remove_m10361_GenericMethod,
+	&List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m10362_GenericMethod,
+	&List_1_IndexOf_m10363_GenericMethod,
+	&List_1_Insert_m10364_GenericMethod,
+	&List_1_RemoveAt_m10356_GenericMethod,
+	&List_1_get_Item_m10365_GenericMethod,
+	&List_1_set_Item_m10366_GenericMethod,
 };
 static bool JsonArray_t2818_VTableIsGenericMethod[] =
 {
@@ -1397,7 +1397,7 @@ TypeInfo JsonArray_t2818_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &JsonArray_t2818_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 735/* custom_attributes_cache */
+	, 742/* custom_attributes_cache */
 	, &JsonArray_t2818_0_0_0/* byval_arg */
 	, &JsonArray_t2818_1_0_0/* this_arg */
 	, &JsonArray_t2818_DefinitionMetadata/* definitionMetadata */
@@ -1448,10 +1448,10 @@ extern TypeInfo JsonObject_t2819_il2cpp_TypeInfo;
 #include "UnityEngine_SimpleJson_JsonObjectMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.JsonObject::.ctor()
-extern const MethodInfo JsonObject__ctor_m9769_MethodInfo = 
+extern const MethodInfo JsonObject__ctor_m9770_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&JsonObject__ctor_m9769/* method */
+	, (methodPointerType)&JsonObject__ctor_m9770/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -1463,7 +1463,7 @@ extern const MethodInfo JsonObject__ctor_m9769_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1617/* token */
+	, 1624/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1471,10 +1471,10 @@ extern const MethodInfo JsonObject__ctor_m9769_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IEnumerator SimpleJson.JsonObject::System.Collections.IEnumerable.GetEnumerator()
-extern const MethodInfo JsonObject_System_Collections_IEnumerable_GetEnumerator_m9770_MethodInfo = 
+extern const MethodInfo JsonObject_System_Collections_IEnumerable_GetEnumerator_m9771_MethodInfo = 
 {
 	"System.Collections.IEnumerable.GetEnumerator"/* name */
-	, (methodPointerType)&JsonObject_System_Collections_IEnumerable_GetEnumerator_m9770/* method */
+	, (methodPointerType)&JsonObject_System_Collections_IEnumerable_GetEnumerator_m9771/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1486,7 +1486,7 @@ extern const MethodInfo JsonObject_System_Collections_IEnumerable_GetEnumerator_
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1618/* token */
+	, 1625/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1494,21 +1494,21 @@ extern const MethodInfo JsonObject_System_Collections_IEnumerable_GetEnumerator_
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo JsonObject_t2819_JsonObject_Add_m9771_ParameterInfos[] = 
+static const ParameterInfo JsonObject_t2819_JsonObject_Add_m9772_ParameterInfos[] = 
 {
-	{"key", 0, 134219556, 0, &String_t_0_0_0},
-	{"value", 1, 134219557, 0, &Object_t_0_0_0},
+	{"key", 0, 134219568, 0, &String_t_0_0_0},
+	{"value", 1, 134219569, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.JsonObject::Add(System.String,System.Object)
-extern const MethodInfo JsonObject_Add_m9771_MethodInfo = 
+extern const MethodInfo JsonObject_Add_m9772_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&JsonObject_Add_m9771/* method */
+	, (methodPointerType)&JsonObject_Add_m9772/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, JsonObject_t2819_JsonObject_Add_m9771_ParameterInfos/* parameters */
+	, JsonObject_t2819_JsonObject_Add_m9772_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -1516,27 +1516,27 @@ extern const MethodInfo JsonObject_Add_m9771_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1619/* token */
+	, 1626/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo JsonObject_t2819_JsonObject_ContainsKey_m9772_ParameterInfos[] = 
+static const ParameterInfo JsonObject_t2819_JsonObject_ContainsKey_m9773_ParameterInfos[] = 
 {
-	{"key", 0, 134219558, 0, &String_t_0_0_0},
+	{"key", 0, 134219570, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean SimpleJson.JsonObject::ContainsKey(System.String)
-extern const MethodInfo JsonObject_ContainsKey_m9772_MethodInfo = 
+extern const MethodInfo JsonObject_ContainsKey_m9773_MethodInfo = 
 {
 	"ContainsKey"/* name */
-	, (methodPointerType)&JsonObject_ContainsKey_m9772/* method */
+	, (methodPointerType)&JsonObject_ContainsKey_m9773/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, JsonObject_t2819_JsonObject_ContainsKey_m9772_ParameterInfos/* parameters */
+	, JsonObject_t2819_JsonObject_ContainsKey_m9773_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -1544,7 +1544,7 @@ extern const MethodInfo JsonObject_ContainsKey_m9772_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1620/* token */
+	, 1627/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1553,10 +1553,10 @@ extern const MethodInfo JsonObject_ContainsKey_m9772_MethodInfo =
 extern const Il2CppType ICollection_1_t1213_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.ICollection`1<System.String> SimpleJson.JsonObject::get_Keys()
-extern const MethodInfo JsonObject_get_Keys_m9773_MethodInfo = 
+extern const MethodInfo JsonObject_get_Keys_m9774_MethodInfo = 
 {
 	"get_Keys"/* name */
-	, (methodPointerType)&JsonObject_get_Keys_m9773/* method */
+	, (methodPointerType)&JsonObject_get_Keys_m9774/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &ICollection_1_t1213_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1568,27 +1568,27 @@ extern const MethodInfo JsonObject_get_Keys_m9773_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1621/* token */
+	, 1628/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo JsonObject_t2819_JsonObject_Remove_m9774_ParameterInfos[] = 
+static const ParameterInfo JsonObject_t2819_JsonObject_Remove_m9775_ParameterInfos[] = 
 {
-	{"key", 0, 134219559, 0, &String_t_0_0_0},
+	{"key", 0, 134219571, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean SimpleJson.JsonObject::Remove(System.String)
-extern const MethodInfo JsonObject_Remove_m9774_MethodInfo = 
+extern const MethodInfo JsonObject_Remove_m9775_MethodInfo = 
 {
 	"Remove"/* name */
-	, (methodPointerType)&JsonObject_Remove_m9774/* method */
+	, (methodPointerType)&JsonObject_Remove_m9775/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, JsonObject_t2819_JsonObject_Remove_m9774_ParameterInfos/* parameters */
+	, JsonObject_t2819_JsonObject_Remove_m9775_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -1596,7 +1596,7 @@ extern const MethodInfo JsonObject_Remove_m9774_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1622/* token */
+	, 1629/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1605,21 +1605,21 @@ extern const MethodInfo JsonObject_Remove_m9774_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_1_0_2;
 extern const Il2CppType Object_t_1_0_0;
-static const ParameterInfo JsonObject_t2819_JsonObject_TryGetValue_m9775_ParameterInfos[] = 
+static const ParameterInfo JsonObject_t2819_JsonObject_TryGetValue_m9776_ParameterInfos[] = 
 {
-	{"key", 0, 134219560, 0, &String_t_0_0_0},
-	{"value", 1, 134219561, 0, &Object_t_1_0_2},
+	{"key", 0, 134219572, 0, &String_t_0_0_0},
+	{"value", 1, 134219573, 0, &Object_t_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean SimpleJson.JsonObject::TryGetValue(System.String,System.Object&)
-extern const MethodInfo JsonObject_TryGetValue_m9775_MethodInfo = 
+extern const MethodInfo JsonObject_TryGetValue_m9776_MethodInfo = 
 {
 	"TryGetValue"/* name */
-	, (methodPointerType)&JsonObject_TryGetValue_m9775/* method */
+	, (methodPointerType)&JsonObject_TryGetValue_m9776/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362/* invoker_method */
-	, JsonObject_t2819_JsonObject_TryGetValue_m9775_ParameterInfos/* parameters */
+	, JsonObject_t2819_JsonObject_TryGetValue_m9776_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -1627,7 +1627,7 @@ extern const MethodInfo JsonObject_TryGetValue_m9775_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1623/* token */
+	, 1630/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1635,10 +1635,10 @@ extern const MethodInfo JsonObject_TryGetValue_m9775_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.ICollection`1<System.Object> SimpleJson.JsonObject::get_Values()
-extern const MethodInfo JsonObject_get_Values_m9776_MethodInfo = 
+extern const MethodInfo JsonObject_get_Values_m9777_MethodInfo = 
 {
 	"get_Values"/* name */
-	, (methodPointerType)&JsonObject_get_Values_m9776/* method */
+	, (methodPointerType)&JsonObject_get_Values_m9777/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &ICollection_1_t1223_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1650,27 +1650,27 @@ extern const MethodInfo JsonObject_get_Values_m9776_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1624/* token */
+	, 1631/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo JsonObject_t2819_JsonObject_get_Item_m9777_ParameterInfos[] = 
+static const ParameterInfo JsonObject_t2819_JsonObject_get_Item_m9778_ParameterInfos[] = 
 {
-	{"key", 0, 134219562, 0, &String_t_0_0_0},
+	{"key", 0, 134219574, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object SimpleJson.JsonObject::get_Item(System.String)
-extern const MethodInfo JsonObject_get_Item_m9777_MethodInfo = 
+extern const MethodInfo JsonObject_get_Item_m9778_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&JsonObject_get_Item_m9777/* method */
+	, (methodPointerType)&JsonObject_get_Item_m9778/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, JsonObject_t2819_JsonObject_get_Item_m9777_ParameterInfos/* parameters */
+	, JsonObject_t2819_JsonObject_get_Item_m9778_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -1678,7 +1678,7 @@ extern const MethodInfo JsonObject_get_Item_m9777_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1625/* token */
+	, 1632/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1686,21 +1686,21 @@ extern const MethodInfo JsonObject_get_Item_m9777_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo JsonObject_t2819_JsonObject_set_Item_m9778_ParameterInfos[] = 
+static const ParameterInfo JsonObject_t2819_JsonObject_set_Item_m9779_ParameterInfos[] = 
 {
-	{"key", 0, 134219563, 0, &String_t_0_0_0},
-	{"value", 1, 134219564, 0, &Object_t_0_0_0},
+	{"key", 0, 134219575, 0, &String_t_0_0_0},
+	{"value", 1, 134219576, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.JsonObject::set_Item(System.String,System.Object)
-extern const MethodInfo JsonObject_set_Item_m9778_MethodInfo = 
+extern const MethodInfo JsonObject_set_Item_m9779_MethodInfo = 
 {
 	"set_Item"/* name */
-	, (methodPointerType)&JsonObject_set_Item_m9778/* method */
+	, (methodPointerType)&JsonObject_set_Item_m9779/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, JsonObject_t2819_JsonObject_set_Item_m9778_ParameterInfos/* parameters */
+	, JsonObject_t2819_JsonObject_set_Item_m9779_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -1708,7 +1708,7 @@ extern const MethodInfo JsonObject_set_Item_m9778_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1626/* token */
+	, 1633/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1716,20 +1716,20 @@ extern const MethodInfo JsonObject_set_Item_m9778_MethodInfo =
 };
 extern const Il2CppType KeyValuePair_2_t777_0_0_0;
 extern const Il2CppType KeyValuePair_2_t777_0_0_0;
-static const ParameterInfo JsonObject_t2819_JsonObject_Add_m9779_ParameterInfos[] = 
+static const ParameterInfo JsonObject_t2819_JsonObject_Add_m9780_ParameterInfos[] = 
 {
-	{"item", 0, 134219565, 0, &KeyValuePair_2_t777_0_0_0},
+	{"item", 0, 134219577, 0, &KeyValuePair_2_t777_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_KeyValuePair_2_t777 (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.JsonObject::Add(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern const MethodInfo JsonObject_Add_m9779_MethodInfo = 
+extern const MethodInfo JsonObject_Add_m9780_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&JsonObject_Add_m9779/* method */
+	, (methodPointerType)&JsonObject_Add_m9780/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_KeyValuePair_2_t777/* invoker_method */
-	, JsonObject_t2819_JsonObject_Add_m9779_ParameterInfos/* parameters */
+	, JsonObject_t2819_JsonObject_Add_m9780_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -1737,7 +1737,7 @@ extern const MethodInfo JsonObject_Add_m9779_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1627/* token */
+	, 1634/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1745,10 +1745,10 @@ extern const MethodInfo JsonObject_Add_m9779_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.JsonObject::Clear()
-extern const MethodInfo JsonObject_Clear_m9780_MethodInfo = 
+extern const MethodInfo JsonObject_Clear_m9781_MethodInfo = 
 {
 	"Clear"/* name */
-	, (methodPointerType)&JsonObject_Clear_m9780/* method */
+	, (methodPointerType)&JsonObject_Clear_m9781/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -1760,27 +1760,27 @@ extern const MethodInfo JsonObject_Clear_m9780_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1628/* token */
+	, 1635/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType KeyValuePair_2_t777_0_0_0;
-static const ParameterInfo JsonObject_t2819_JsonObject_Contains_m9781_ParameterInfos[] = 
+static const ParameterInfo JsonObject_t2819_JsonObject_Contains_m9782_ParameterInfos[] = 
 {
-	{"item", 0, 134219566, 0, &KeyValuePair_2_t777_0_0_0},
+	{"item", 0, 134219578, 0, &KeyValuePair_2_t777_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t777 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean SimpleJson.JsonObject::Contains(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern const MethodInfo JsonObject_Contains_m9781_MethodInfo = 
+extern const MethodInfo JsonObject_Contains_m9782_MethodInfo = 
 {
 	"Contains"/* name */
-	, (methodPointerType)&JsonObject_Contains_m9781/* method */
+	, (methodPointerType)&JsonObject_Contains_m9782/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_KeyValuePair_2_t777/* invoker_method */
-	, JsonObject_t2819_JsonObject_Contains_m9781_ParameterInfos/* parameters */
+	, JsonObject_t2819_JsonObject_Contains_m9782_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -1788,7 +1788,7 @@ extern const MethodInfo JsonObject_Contains_m9781_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1629/* token */
+	, 1636/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1797,21 +1797,21 @@ extern const MethodInfo JsonObject_Contains_m9781_MethodInfo =
 extern const Il2CppType KeyValuePair_2U5BU5D_t1412_0_0_0;
 extern const Il2CppType KeyValuePair_2U5BU5D_t1412_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo JsonObject_t2819_JsonObject_CopyTo_m9782_ParameterInfos[] = 
+static const ParameterInfo JsonObject_t2819_JsonObject_CopyTo_m9783_ParameterInfos[] = 
 {
-	{"array", 0, 134219567, 0, &KeyValuePair_2U5BU5D_t1412_0_0_0},
-	{"arrayIndex", 1, 134219568, 0, &Int32_t82_0_0_0},
+	{"array", 0, 134219579, 0, &KeyValuePair_2U5BU5D_t1412_0_0_0},
+	{"arrayIndex", 1, 134219580, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.JsonObject::CopyTo(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>[],System.Int32)
-extern const MethodInfo JsonObject_CopyTo_m9782_MethodInfo = 
+extern const MethodInfo JsonObject_CopyTo_m9783_MethodInfo = 
 {
 	"CopyTo"/* name */
-	, (methodPointerType)&JsonObject_CopyTo_m9782/* method */
+	, (methodPointerType)&JsonObject_CopyTo_m9783/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, JsonObject_t2819_JsonObject_CopyTo_m9782_ParameterInfos/* parameters */
+	, JsonObject_t2819_JsonObject_CopyTo_m9783_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -1819,7 +1819,7 @@ extern const MethodInfo JsonObject_CopyTo_m9782_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1630/* token */
+	, 1637/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1827,10 +1827,10 @@ extern const MethodInfo JsonObject_CopyTo_m9782_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 SimpleJson.JsonObject::get_Count()
-extern const MethodInfo JsonObject_get_Count_m9783_MethodInfo = 
+extern const MethodInfo JsonObject_get_Count_m9784_MethodInfo = 
 {
 	"get_Count"/* name */
-	, (methodPointerType)&JsonObject_get_Count_m9783/* method */
+	, (methodPointerType)&JsonObject_get_Count_m9784/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -1842,7 +1842,7 @@ extern const MethodInfo JsonObject_get_Count_m9783_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1631/* token */
+	, 1638/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1850,10 +1850,10 @@ extern const MethodInfo JsonObject_get_Count_m9783_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean SimpleJson.JsonObject::get_IsReadOnly()
-extern const MethodInfo JsonObject_get_IsReadOnly_m9784_MethodInfo = 
+extern const MethodInfo JsonObject_get_IsReadOnly_m9785_MethodInfo = 
 {
 	"get_IsReadOnly"/* name */
-	, (methodPointerType)&JsonObject_get_IsReadOnly_m9784/* method */
+	, (methodPointerType)&JsonObject_get_IsReadOnly_m9785/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -1865,27 +1865,27 @@ extern const MethodInfo JsonObject_get_IsReadOnly_m9784_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1632/* token */
+	, 1639/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType KeyValuePair_2_t777_0_0_0;
-static const ParameterInfo JsonObject_t2819_JsonObject_Remove_m9785_ParameterInfos[] = 
+static const ParameterInfo JsonObject_t2819_JsonObject_Remove_m9786_ParameterInfos[] = 
 {
-	{"item", 0, 134219569, 0, &KeyValuePair_2_t777_0_0_0},
+	{"item", 0, 134219581, 0, &KeyValuePair_2_t777_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t777 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean SimpleJson.JsonObject::Remove(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern const MethodInfo JsonObject_Remove_m9785_MethodInfo = 
+extern const MethodInfo JsonObject_Remove_m9786_MethodInfo = 
 {
 	"Remove"/* name */
-	, (methodPointerType)&JsonObject_Remove_m9785/* method */
+	, (methodPointerType)&JsonObject_Remove_m9786/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_KeyValuePair_2_t777/* invoker_method */
-	, JsonObject_t2819_JsonObject_Remove_m9785_ParameterInfos/* parameters */
+	, JsonObject_t2819_JsonObject_Remove_m9786_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -1893,7 +1893,7 @@ extern const MethodInfo JsonObject_Remove_m9785_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1633/* token */
+	, 1640/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1902,10 +1902,10 @@ extern const MethodInfo JsonObject_Remove_m9785_MethodInfo =
 extern const Il2CppType IEnumerator_1_t1399_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>> SimpleJson.JsonObject::GetEnumerator()
-extern const MethodInfo JsonObject_GetEnumerator_m9786_MethodInfo = 
+extern const MethodInfo JsonObject_GetEnumerator_m9787_MethodInfo = 
 {
 	"GetEnumerator"/* name */
-	, (methodPointerType)&JsonObject_GetEnumerator_m9786/* method */
+	, (methodPointerType)&JsonObject_GetEnumerator_m9787/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_1_t1399_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1917,7 +1917,7 @@ extern const MethodInfo JsonObject_GetEnumerator_m9786_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1634/* token */
+	, 1641/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1925,10 +1925,10 @@ extern const MethodInfo JsonObject_GetEnumerator_m9786_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String SimpleJson.JsonObject::ToString()
-extern const MethodInfo JsonObject_ToString_m9787_MethodInfo = 
+extern const MethodInfo JsonObject_ToString_m9788_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&JsonObject_ToString_m9787/* method */
+	, (methodPointerType)&JsonObject_ToString_m9788/* method */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1940,7 +1940,7 @@ extern const MethodInfo JsonObject_ToString_m9787_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1635/* token */
+	, 1642/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -1948,78 +1948,78 @@ extern const MethodInfo JsonObject_ToString_m9787_MethodInfo =
 };
 static const MethodInfo* JsonObject_t2819_MethodInfos[] =
 {
-	&JsonObject__ctor_m9769_MethodInfo,
-	&JsonObject_System_Collections_IEnumerable_GetEnumerator_m9770_MethodInfo,
-	&JsonObject_Add_m9771_MethodInfo,
-	&JsonObject_ContainsKey_m9772_MethodInfo,
-	&JsonObject_get_Keys_m9773_MethodInfo,
-	&JsonObject_Remove_m9774_MethodInfo,
-	&JsonObject_TryGetValue_m9775_MethodInfo,
-	&JsonObject_get_Values_m9776_MethodInfo,
-	&JsonObject_get_Item_m9777_MethodInfo,
-	&JsonObject_set_Item_m9778_MethodInfo,
-	&JsonObject_Add_m9779_MethodInfo,
-	&JsonObject_Clear_m9780_MethodInfo,
-	&JsonObject_Contains_m9781_MethodInfo,
-	&JsonObject_CopyTo_m9782_MethodInfo,
-	&JsonObject_get_Count_m9783_MethodInfo,
-	&JsonObject_get_IsReadOnly_m9784_MethodInfo,
-	&JsonObject_Remove_m9785_MethodInfo,
-	&JsonObject_GetEnumerator_m9786_MethodInfo,
-	&JsonObject_ToString_m9787_MethodInfo,
+	&JsonObject__ctor_m9770_MethodInfo,
+	&JsonObject_System_Collections_IEnumerable_GetEnumerator_m9771_MethodInfo,
+	&JsonObject_Add_m9772_MethodInfo,
+	&JsonObject_ContainsKey_m9773_MethodInfo,
+	&JsonObject_get_Keys_m9774_MethodInfo,
+	&JsonObject_Remove_m9775_MethodInfo,
+	&JsonObject_TryGetValue_m9776_MethodInfo,
+	&JsonObject_get_Values_m9777_MethodInfo,
+	&JsonObject_get_Item_m9778_MethodInfo,
+	&JsonObject_set_Item_m9779_MethodInfo,
+	&JsonObject_Add_m9780_MethodInfo,
+	&JsonObject_Clear_m9781_MethodInfo,
+	&JsonObject_Contains_m9782_MethodInfo,
+	&JsonObject_CopyTo_m9783_MethodInfo,
+	&JsonObject_get_Count_m9784_MethodInfo,
+	&JsonObject_get_IsReadOnly_m9785_MethodInfo,
+	&JsonObject_Remove_m9786_MethodInfo,
+	&JsonObject_GetEnumerator_m9787_MethodInfo,
+	&JsonObject_ToString_m9788_MethodInfo,
 	NULL
 };
-extern const MethodInfo JsonObject_get_Keys_m9773_MethodInfo;
+extern const MethodInfo JsonObject_get_Keys_m9774_MethodInfo;
 static const PropertyInfo JsonObject_t2819____Keys_PropertyInfo = 
 {
 	&JsonObject_t2819_il2cpp_TypeInfo/* parent */
 	, "Keys"/* name */
-	, &JsonObject_get_Keys_m9773_MethodInfo/* get */
+	, &JsonObject_get_Keys_m9774_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo JsonObject_get_Values_m9776_MethodInfo;
+extern const MethodInfo JsonObject_get_Values_m9777_MethodInfo;
 static const PropertyInfo JsonObject_t2819____Values_PropertyInfo = 
 {
 	&JsonObject_t2819_il2cpp_TypeInfo/* parent */
 	, "Values"/* name */
-	, &JsonObject_get_Values_m9776_MethodInfo/* get */
+	, &JsonObject_get_Values_m9777_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo JsonObject_get_Item_m9777_MethodInfo;
-extern const MethodInfo JsonObject_set_Item_m9778_MethodInfo;
+extern const MethodInfo JsonObject_get_Item_m9778_MethodInfo;
+extern const MethodInfo JsonObject_set_Item_m9779_MethodInfo;
 static const PropertyInfo JsonObject_t2819____Item_PropertyInfo = 
 {
 	&JsonObject_t2819_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &JsonObject_get_Item_m9777_MethodInfo/* get */
-	, &JsonObject_set_Item_m9778_MethodInfo/* set */
+	, &JsonObject_get_Item_m9778_MethodInfo/* get */
+	, &JsonObject_set_Item_m9779_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo JsonObject_get_Count_m9783_MethodInfo;
+extern const MethodInfo JsonObject_get_Count_m9784_MethodInfo;
 static const PropertyInfo JsonObject_t2819____Count_PropertyInfo = 
 {
 	&JsonObject_t2819_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
-	, &JsonObject_get_Count_m9783_MethodInfo/* get */
+	, &JsonObject_get_Count_m9784_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo JsonObject_get_IsReadOnly_m9784_MethodInfo;
+extern const MethodInfo JsonObject_get_IsReadOnly_m9785_MethodInfo;
 static const PropertyInfo JsonObject_t2819____IsReadOnly_PropertyInfo = 
 {
 	&JsonObject_t2819_il2cpp_TypeInfo/* parent */
 	, "IsReadOnly"/* name */
-	, &JsonObject_get_IsReadOnly_m9784_MethodInfo/* get */
+	, &JsonObject_get_IsReadOnly_m9785_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -2034,41 +2034,41 @@ static const PropertyInfo* JsonObject_t2819_PropertyInfos[] =
 	&JsonObject_t2819____IsReadOnly_PropertyInfo,
 	NULL
 };
-extern const MethodInfo JsonObject_ToString_m9787_MethodInfo;
-extern const MethodInfo JsonObject_Add_m9771_MethodInfo;
-extern const MethodInfo JsonObject_ContainsKey_m9772_MethodInfo;
-extern const MethodInfo JsonObject_Remove_m9774_MethodInfo;
-extern const MethodInfo JsonObject_TryGetValue_m9775_MethodInfo;
-extern const MethodInfo JsonObject_GetEnumerator_m9786_MethodInfo;
-extern const MethodInfo JsonObject_System_Collections_IEnumerable_GetEnumerator_m9770_MethodInfo;
-extern const MethodInfo JsonObject_Add_m9779_MethodInfo;
-extern const MethodInfo JsonObject_Clear_m9780_MethodInfo;
-extern const MethodInfo JsonObject_Contains_m9781_MethodInfo;
-extern const MethodInfo JsonObject_CopyTo_m9782_MethodInfo;
-extern const MethodInfo JsonObject_Remove_m9785_MethodInfo;
+extern const MethodInfo JsonObject_ToString_m9788_MethodInfo;
+extern const MethodInfo JsonObject_Add_m9772_MethodInfo;
+extern const MethodInfo JsonObject_ContainsKey_m9773_MethodInfo;
+extern const MethodInfo JsonObject_Remove_m9775_MethodInfo;
+extern const MethodInfo JsonObject_TryGetValue_m9776_MethodInfo;
+extern const MethodInfo JsonObject_GetEnumerator_m9787_MethodInfo;
+extern const MethodInfo JsonObject_System_Collections_IEnumerable_GetEnumerator_m9771_MethodInfo;
+extern const MethodInfo JsonObject_Add_m9780_MethodInfo;
+extern const MethodInfo JsonObject_Clear_m9781_MethodInfo;
+extern const MethodInfo JsonObject_Contains_m9782_MethodInfo;
+extern const MethodInfo JsonObject_CopyTo_m9783_MethodInfo;
+extern const MethodInfo JsonObject_Remove_m9786_MethodInfo;
 static const Il2CppMethodReference JsonObject_t2819_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&JsonObject_ToString_m9787_MethodInfo,
-	&JsonObject_Add_m9771_MethodInfo,
-	&JsonObject_ContainsKey_m9772_MethodInfo,
-	&JsonObject_Remove_m9774_MethodInfo,
-	&JsonObject_TryGetValue_m9775_MethodInfo,
-	&JsonObject_get_Item_m9777_MethodInfo,
-	&JsonObject_set_Item_m9778_MethodInfo,
-	&JsonObject_get_Keys_m9773_MethodInfo,
-	&JsonObject_get_Values_m9776_MethodInfo,
-	&JsonObject_GetEnumerator_m9786_MethodInfo,
-	&JsonObject_System_Collections_IEnumerable_GetEnumerator_m9770_MethodInfo,
-	&JsonObject_get_Count_m9783_MethodInfo,
-	&JsonObject_get_IsReadOnly_m9784_MethodInfo,
-	&JsonObject_Add_m9779_MethodInfo,
-	&JsonObject_Clear_m9780_MethodInfo,
-	&JsonObject_Contains_m9781_MethodInfo,
-	&JsonObject_CopyTo_m9782_MethodInfo,
-	&JsonObject_Remove_m9785_MethodInfo,
+	&JsonObject_ToString_m9788_MethodInfo,
+	&JsonObject_Add_m9772_MethodInfo,
+	&JsonObject_ContainsKey_m9773_MethodInfo,
+	&JsonObject_Remove_m9775_MethodInfo,
+	&JsonObject_TryGetValue_m9776_MethodInfo,
+	&JsonObject_get_Item_m9778_MethodInfo,
+	&JsonObject_set_Item_m9779_MethodInfo,
+	&JsonObject_get_Keys_m9774_MethodInfo,
+	&JsonObject_get_Values_m9777_MethodInfo,
+	&JsonObject_GetEnumerator_m9787_MethodInfo,
+	&JsonObject_System_Collections_IEnumerable_GetEnumerator_m9771_MethodInfo,
+	&JsonObject_get_Count_m9784_MethodInfo,
+	&JsonObject_get_IsReadOnly_m9785_MethodInfo,
+	&JsonObject_Add_m9780_MethodInfo,
+	&JsonObject_Clear_m9781_MethodInfo,
+	&JsonObject_Contains_m9782_MethodInfo,
+	&JsonObject_CopyTo_m9783_MethodInfo,
+	&JsonObject_Remove_m9786_MethodInfo,
 };
 static bool JsonObject_t2819_VTableIsGenericMethod[] =
 {
@@ -2139,7 +2139,7 @@ TypeInfo JsonObject_t2819_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &JsonObject_t2819_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 736/* custom_attributes_cache */
+	, 743/* custom_attributes_cache */
 	, &JsonObject_t2819_0_0_0/* byval_arg */
 	, &JsonObject_t2819_1_0_0/* this_arg */
 	, &JsonObject_t2819_DefinitionMetadata/* definitionMetadata */
@@ -2190,244 +2190,26 @@ extern TypeInfo SimpleJson_t2822_il2cpp_TypeInfo;
 #include "UnityEngine_SimpleJson_SimpleJsonMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_1_0_2;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_TryDeserializeObject_m9788_ParameterInfos[] = 
+static const ParameterInfo SimpleJson_t2822_SimpleJson_TryDeserializeObject_m9789_ParameterInfos[] = 
 {
-	{"json", 0, 134219570, 0, &String_t_0_0_0},
-	{"obj", 1, 134219571, 0, &Object_t_1_0_2},
+	{"json", 0, 134219582, 0, &String_t_0_0_0},
+	{"obj", 1, 134219583, 0, &Object_t_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean SimpleJson.SimpleJson::TryDeserializeObject(System.String,System.Object&)
-extern const MethodInfo SimpleJson_TryDeserializeObject_m9788_MethodInfo = 
+extern const MethodInfo SimpleJson_TryDeserializeObject_m9789_MethodInfo = 
 {
 	"TryDeserializeObject"/* name */
-	, (methodPointerType)&SimpleJson_TryDeserializeObject_m9788/* method */
+	, (methodPointerType)&SimpleJson_TryDeserializeObject_m9789/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_TryDeserializeObject_m9788_ParameterInfos/* parameters */
-	, 738/* custom_attributes_cache */
+	, SimpleJson_t2822_SimpleJson_TryDeserializeObject_m9789_ParameterInfos/* parameters */
+	, 745/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
 	, 255/* slot */
 	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1636/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType IJsonSerializerStrategy_t2820_0_0_0;
-extern const Il2CppType IJsonSerializerStrategy_t2820_0_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeObject_m9789_ParameterInfos[] = 
-{
-	{"json", 0, 134219572, 0, &Object_t_0_0_0},
-	{"jsonSerializerStrategy", 1, 134219573, 0, &IJsonSerializerStrategy_t2820_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.String SimpleJson.SimpleJson::SerializeObject(System.Object,SimpleJson.IJsonSerializerStrategy)
-extern const MethodInfo SimpleJson_SerializeObject_m9789_MethodInfo = 
-{
-	"SerializeObject"/* name */
-	, (methodPointerType)&SimpleJson_SerializeObject_m9789/* method */
-	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_SerializeObject_m9789_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 150/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1637/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeObject_m9790_ParameterInfos[] = 
-{
-	{"json", 0, 134219574, 0, &Object_t_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.String SimpleJson.SimpleJson::SerializeObject(System.Object)
-extern const MethodInfo SimpleJson_SerializeObject_m9790_MethodInfo = 
-{
-	"SerializeObject"/* name */
-	, (methodPointerType)&SimpleJson_SerializeObject_m9790/* method */
-	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_SerializeObject_m9790_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 150/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1638/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType CharU5BU5D_t697_0_0_0;
-extern const Il2CppType CharU5BU5D_t697_0_0_0;
-extern const Il2CppType Int32_t82_1_0_0;
-extern const Il2CppType Int32_t82_1_0_0;
-extern const Il2CppType Boolean_t59_1_0_0;
-extern const Il2CppType Boolean_t59_1_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_ParseObject_m9791_ParameterInfos[] = 
-{
-	{"json", 0, 134219575, 0, &CharU5BU5D_t697_0_0_0},
-	{"index", 1, 134219576, 0, &Int32_t82_1_0_0},
-	{"success", 2, 134219577, 0, &Boolean_t59_1_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827 (const MethodInfo* method, void* obj, void** args);
-// System.Collections.Generic.IDictionary`2<System.String,System.Object> SimpleJson.SimpleJson::ParseObject(System.Char[],System.Int32&,System.Boolean&)
-extern const MethodInfo SimpleJson_ParseObject_m9791_MethodInfo = 
-{
-	"ParseObject"/* name */
-	, (methodPointerType)&SimpleJson_ParseObject_m9791/* method */
-	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_2_t822_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_ParseObject_m9791_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 145/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 3/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1639/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType CharU5BU5D_t697_0_0_0;
-extern const Il2CppType Int32_t82_1_0_0;
-extern const Il2CppType Boolean_t59_1_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_ParseArray_m9792_ParameterInfos[] = 
-{
-	{"json", 0, 134219578, 0, &CharU5BU5D_t697_0_0_0},
-	{"index", 1, 134219579, 0, &Int32_t82_1_0_0},
-	{"success", 2, 134219580, 0, &Boolean_t59_1_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827 (const MethodInfo* method, void* obj, void** args);
-// SimpleJson.JsonArray SimpleJson.SimpleJson::ParseArray(System.Char[],System.Int32&,System.Boolean&)
-extern const MethodInfo SimpleJson_ParseArray_m9792_MethodInfo = 
-{
-	"ParseArray"/* name */
-	, (methodPointerType)&SimpleJson_ParseArray_m9792/* method */
-	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &JsonArray_t2818_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_ParseArray_m9792_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 145/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 3/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1640/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType CharU5BU5D_t697_0_0_0;
-extern const Il2CppType Int32_t82_1_0_0;
-extern const Il2CppType Boolean_t59_1_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_ParseValue_m9793_ParameterInfos[] = 
-{
-	{"json", 0, 134219581, 0, &CharU5BU5D_t697_0_0_0},
-	{"index", 1, 134219582, 0, &Int32_t82_1_0_0},
-	{"success", 2, 134219583, 0, &Boolean_t59_1_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827 (const MethodInfo* method, void* obj, void** args);
-// System.Object SimpleJson.SimpleJson::ParseValue(System.Char[],System.Int32&,System.Boolean&)
-extern const MethodInfo SimpleJson_ParseValue_m9793_MethodInfo = 
-{
-	"ParseValue"/* name */
-	, (methodPointerType)&SimpleJson_ParseValue_m9793/* method */
-	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &Object_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_ParseValue_m9793_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 145/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 3/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1641/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType CharU5BU5D_t697_0_0_0;
-extern const Il2CppType Int32_t82_1_0_0;
-extern const Il2CppType Boolean_t59_1_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_ParseString_m9794_ParameterInfos[] = 
-{
-	{"json", 0, 134219584, 0, &CharU5BU5D_t697_0_0_0},
-	{"index", 1, 134219585, 0, &Int32_t82_1_0_0},
-	{"success", 2, 134219586, 0, &Boolean_t59_1_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827 (const MethodInfo* method, void* obj, void** args);
-// System.String SimpleJson.SimpleJson::ParseString(System.Char[],System.Int32&,System.Boolean&)
-extern const MethodInfo SimpleJson_ParseString_m9794_MethodInfo = 
-{
-	"ParseString"/* name */
-	, (methodPointerType)&SimpleJson_ParseString_m9794/* method */
-	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_ParseString_m9794_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 145/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 3/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1642/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_ConvertFromUtf32_m9795_ParameterInfos[] = 
-{
-	{"utf32", 0, 134219587, 0, &Int32_t82_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
-// System.String SimpleJson.SimpleJson::ConvertFromUtf32(System.Int32)
-extern const MethodInfo SimpleJson_ConvertFromUtf32_m9795_MethodInfo = 
-{
-	"ConvertFromUtf32"/* name */
-	, (methodPointerType)&SimpleJson_ConvertFromUtf32_m9795/* method */
-	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_ConvertFromUtf32_m9795_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 145/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1643/* token */
@@ -2436,30 +2218,29 @@ extern const MethodInfo SimpleJson_ConvertFromUtf32_m9795_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t697_0_0_0;
-extern const Il2CppType Int32_t82_1_0_0;
-extern const Il2CppType Boolean_t59_1_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_ParseNumber_m9796_ParameterInfos[] = 
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType IJsonSerializerStrategy_t2820_0_0_0;
+extern const Il2CppType IJsonSerializerStrategy_t2820_0_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeObject_m9790_ParameterInfos[] = 
 {
-	{"json", 0, 134219588, 0, &CharU5BU5D_t697_0_0_0},
-	{"index", 1, 134219589, 0, &Int32_t82_1_0_0},
-	{"success", 2, 134219590, 0, &Boolean_t59_1_0_0},
+	{"json", 0, 134219584, 0, &Object_t_0_0_0},
+	{"jsonSerializerStrategy", 1, 134219585, 0, &IJsonSerializerStrategy_t2820_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827 (const MethodInfo* method, void* obj, void** args);
-// System.Object SimpleJson.SimpleJson::ParseNumber(System.Char[],System.Int32&,System.Boolean&)
-extern const MethodInfo SimpleJson_ParseNumber_m9796_MethodInfo = 
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.String SimpleJson.SimpleJson::SerializeObject(System.Object,SimpleJson.IJsonSerializerStrategy)
+extern const MethodInfo SimpleJson_SerializeObject_m9790_MethodInfo = 
 {
-	"ParseNumber"/* name */
-	, (methodPointerType)&SimpleJson_ParseNumber_m9796/* method */
+	"SerializeObject"/* name */
+	, (methodPointerType)&SimpleJson_SerializeObject_m9790/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &Object_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_ParseNumber_m9796_ParameterInfos/* parameters */
+	, &String_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_SerializeObject_m9790_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
-	, 145/* flags */
+	, 150/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 3/* parameters_count */
+	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1644/* token */
@@ -2468,28 +2249,26 @@ extern const MethodInfo SimpleJson_ParseNumber_m9796_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType CharU5BU5D_t697_0_0_0;
-extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_GetLastIndexOfNumber_m9797_ParameterInfos[] = 
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeObject_m9791_ParameterInfos[] = 
 {
-	{"json", 0, 134219591, 0, &CharU5BU5D_t697_0_0_0},
-	{"index", 1, 134219592, 0, &Int32_t82_0_0_0},
+	{"json", 0, 134219586, 0, &Object_t_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
-// System.Int32 SimpleJson.SimpleJson::GetLastIndexOfNumber(System.Char[],System.Int32)
-extern const MethodInfo SimpleJson_GetLastIndexOfNumber_m9797_MethodInfo = 
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.String SimpleJson.SimpleJson::SerializeObject(System.Object)
+extern const MethodInfo SimpleJson_SerializeObject_m9791_MethodInfo = 
 {
-	"GetLastIndexOfNumber"/* name */
-	, (methodPointerType)&SimpleJson_GetLastIndexOfNumber_m9797/* method */
+	"SerializeObject"/* name */
+	, (methodPointerType)&SimpleJson_SerializeObject_m9791/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Object_t_Int32_t82/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_GetLastIndexOfNumber_m9797_ParameterInfos/* parameters */
+	, &String_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_SerializeObject_m9791_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
-	, 145/* flags */
+	, 150/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 2/* parameters_count */
+	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1645/* token */
@@ -2499,27 +2278,32 @@ extern const MethodInfo SimpleJson_GetLastIndexOfNumber_m9797_MethodInfo =
 
 };
 extern const Il2CppType CharU5BU5D_t697_0_0_0;
+extern const Il2CppType CharU5BU5D_t697_0_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_EatWhitespace_m9798_ParameterInfos[] = 
+extern const Il2CppType Int32_t82_1_0_0;
+extern const Il2CppType Boolean_t59_1_0_0;
+extern const Il2CppType Boolean_t59_1_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_ParseObject_m9792_ParameterInfos[] = 
 {
-	{"json", 0, 134219593, 0, &CharU5BU5D_t697_0_0_0},
-	{"index", 1, 134219594, 0, &Int32_t82_1_0_0},
+	{"json", 0, 134219587, 0, &CharU5BU5D_t697_0_0_0},
+	{"index", 1, 134219588, 0, &Int32_t82_1_0_0},
+	{"success", 2, 134219589, 0, &Boolean_t59_1_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
-// System.Void SimpleJson.SimpleJson::EatWhitespace(System.Char[],System.Int32&)
-extern const MethodInfo SimpleJson_EatWhitespace_m9798_MethodInfo = 
+extern void* RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827 (const MethodInfo* method, void* obj, void** args);
+// System.Collections.Generic.IDictionary`2<System.String,System.Object> SimpleJson.SimpleJson::ParseObject(System.Char[],System.Int32&,System.Boolean&)
+extern const MethodInfo SimpleJson_ParseObject_m9792_MethodInfo = 
 {
-	"EatWhitespace"/* name */
-	, (methodPointerType)&SimpleJson_EatWhitespace_m9798/* method */
+	"ParseObject"/* name */
+	, (methodPointerType)&SimpleJson_ParseObject_m9792/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_Int32U26_t826/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_EatWhitespace_m9798_ParameterInfos/* parameters */
+	, &IDictionary_2_t822_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_ParseObject_m9792_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 2/* parameters_count */
+	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1646/* token */
@@ -2529,27 +2313,29 @@ extern const MethodInfo SimpleJson_EatWhitespace_m9798_MethodInfo =
 
 };
 extern const Il2CppType CharU5BU5D_t697_0_0_0;
-extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_LookAhead_m9799_ParameterInfos[] = 
+extern const Il2CppType Int32_t82_1_0_0;
+extern const Il2CppType Boolean_t59_1_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_ParseArray_m9793_ParameterInfos[] = 
 {
-	{"json", 0, 134219595, 0, &CharU5BU5D_t697_0_0_0},
-	{"index", 1, 134219596, 0, &Int32_t82_0_0_0},
+	{"json", 0, 134219590, 0, &CharU5BU5D_t697_0_0_0},
+	{"index", 1, 134219591, 0, &Int32_t82_1_0_0},
+	{"success", 2, 134219592, 0, &Boolean_t59_1_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
-// System.Int32 SimpleJson.SimpleJson::LookAhead(System.Char[],System.Int32)
-extern const MethodInfo SimpleJson_LookAhead_m9799_MethodInfo = 
+extern void* RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827 (const MethodInfo* method, void* obj, void** args);
+// SimpleJson.JsonArray SimpleJson.SimpleJson::ParseArray(System.Char[],System.Int32&,System.Boolean&)
+extern const MethodInfo SimpleJson_ParseArray_m9793_MethodInfo = 
 {
-	"LookAhead"/* name */
-	, (methodPointerType)&SimpleJson_LookAhead_m9799/* method */
+	"ParseArray"/* name */
+	, (methodPointerType)&SimpleJson_ParseArray_m9793/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Object_t_Int32_t82/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_LookAhead_m9799_ParameterInfos/* parameters */
+	, &JsonArray_t2818_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_ParseArray_m9793_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 2/* parameters_count */
+	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1647/* token */
@@ -2560,26 +2346,28 @@ extern const MethodInfo SimpleJson_LookAhead_m9799_MethodInfo =
 };
 extern const Il2CppType CharU5BU5D_t697_0_0_0;
 extern const Il2CppType Int32_t82_1_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_NextToken_m9800_ParameterInfos[] = 
+extern const Il2CppType Boolean_t59_1_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_ParseValue_m9794_ParameterInfos[] = 
 {
-	{"json", 0, 134219597, 0, &CharU5BU5D_t697_0_0_0},
-	{"index", 1, 134219598, 0, &Int32_t82_1_0_0},
+	{"json", 0, 134219593, 0, &CharU5BU5D_t697_0_0_0},
+	{"index", 1, 134219594, 0, &Int32_t82_1_0_0},
+	{"success", 2, 134219595, 0, &Boolean_t59_1_0_0},
 };
-extern void* RuntimeInvoker_Int32_t82_Object_t_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
-// System.Int32 SimpleJson.SimpleJson::NextToken(System.Char[],System.Int32&)
-extern const MethodInfo SimpleJson_NextToken_m9800_MethodInfo = 
+extern void* RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827 (const MethodInfo* method, void* obj, void** args);
+// System.Object SimpleJson.SimpleJson::ParseValue(System.Char[],System.Int32&,System.Boolean&)
+extern const MethodInfo SimpleJson_ParseValue_m9794_MethodInfo = 
 {
-	"NextToken"/* name */
-	, (methodPointerType)&SimpleJson_NextToken_m9800/* method */
+	"ParseValue"/* name */
+	, (methodPointerType)&SimpleJson_ParseValue_m9794/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82_Object_t_Int32U26_t826/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_NextToken_m9800_ParameterInfos/* parameters */
-	, 739/* custom_attributes_cache */
+	, &Object_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_ParseValue_m9794_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 2/* parameters_count */
+	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1648/* token */
@@ -2588,26 +2376,25 @@ extern const MethodInfo SimpleJson_NextToken_m9800_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IJsonSerializerStrategy_t2820_0_0_0;
-extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType StringBuilder_t261_0_0_0;
-extern const Il2CppType StringBuilder_t261_0_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeValue_m9801_ParameterInfos[] = 
+extern const Il2CppType CharU5BU5D_t697_0_0_0;
+extern const Il2CppType Int32_t82_1_0_0;
+extern const Il2CppType Boolean_t59_1_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_ParseString_m9795_ParameterInfos[] = 
 {
-	{"jsonSerializerStrategy", 0, 134219599, 0, &IJsonSerializerStrategy_t2820_0_0_0},
-	{"value", 1, 134219600, 0, &Object_t_0_0_0},
-	{"builder", 2, 134219601, 0, &StringBuilder_t261_0_0_0},
+	{"json", 0, 134219596, 0, &CharU5BU5D_t697_0_0_0},
+	{"index", 1, 134219597, 0, &Int32_t82_1_0_0},
+	{"success", 2, 134219598, 0, &Boolean_t59_1_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Boolean SimpleJson.SimpleJson::SerializeValue(SimpleJson.IJsonSerializerStrategy,System.Object,System.Text.StringBuilder)
-extern const MethodInfo SimpleJson_SerializeValue_m9801_MethodInfo = 
+extern void* RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827 (const MethodInfo* method, void* obj, void** args);
+// System.String SimpleJson.SimpleJson::ParseString(System.Char[],System.Int32&,System.Boolean&)
+extern const MethodInfo SimpleJson_ParseString_m9795_MethodInfo = 
 {
-	"SerializeValue"/* name */
-	, (methodPointerType)&SimpleJson_SerializeValue_m9801/* method */
+	"ParseString"/* name */
+	, (methodPointerType)&SimpleJson_ParseString_m9795/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_SerializeValue_m9801_ParameterInfos/* parameters */
+	, &String_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_ParseString_m9795_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -2621,32 +2408,26 @@ extern const MethodInfo SimpleJson_SerializeValue_m9801_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IJsonSerializerStrategy_t2820_0_0_0;
-extern const Il2CppType IEnumerable_t104_0_0_0;
-extern const Il2CppType IEnumerable_t104_0_0_0;
-extern const Il2CppType StringBuilder_t261_0_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeObject_m9802_ParameterInfos[] = 
+extern const Il2CppType Int32_t82_0_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_ConvertFromUtf32_m9796_ParameterInfos[] = 
 {
-	{"jsonSerializerStrategy", 0, 134219602, 0, &IJsonSerializerStrategy_t2820_0_0_0},
-	{"keys", 1, 134219603, 0, &IEnumerable_t104_0_0_0},
-	{"values", 2, 134219604, 0, &IEnumerable_t104_0_0_0},
-	{"builder", 3, 134219605, 0, &StringBuilder_t261_0_0_0},
+	{"utf32", 0, 134219599, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Boolean SimpleJson.SimpleJson::SerializeObject(SimpleJson.IJsonSerializerStrategy,System.Collections.IEnumerable,System.Collections.IEnumerable,System.Text.StringBuilder)
-extern const MethodInfo SimpleJson_SerializeObject_m9802_MethodInfo = 
+extern void* RuntimeInvoker_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+// System.String SimpleJson.SimpleJson::ConvertFromUtf32(System.Int32)
+extern const MethodInfo SimpleJson_ConvertFromUtf32_m9796_MethodInfo = 
 {
-	"SerializeObject"/* name */
-	, (methodPointerType)&SimpleJson_SerializeObject_m9802/* method */
+	"ConvertFromUtf32"/* name */
+	, (methodPointerType)&SimpleJson_ConvertFromUtf32_m9796/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_SerializeObject_m9802_ParameterInfos/* parameters */
+	, &String_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_ConvertFromUtf32_m9796_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 4/* parameters_count */
+	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1650/* token */
@@ -2655,25 +2436,25 @@ extern const MethodInfo SimpleJson_SerializeObject_m9802_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IJsonSerializerStrategy_t2820_0_0_0;
-extern const Il2CppType IEnumerable_t104_0_0_0;
-extern const Il2CppType StringBuilder_t261_0_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeArray_m9803_ParameterInfos[] = 
+extern const Il2CppType CharU5BU5D_t697_0_0_0;
+extern const Il2CppType Int32_t82_1_0_0;
+extern const Il2CppType Boolean_t59_1_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_ParseNumber_m9797_ParameterInfos[] = 
 {
-	{"jsonSerializerStrategy", 0, 134219606, 0, &IJsonSerializerStrategy_t2820_0_0_0},
-	{"anArray", 1, 134219607, 0, &IEnumerable_t104_0_0_0},
-	{"builder", 2, 134219608, 0, &StringBuilder_t261_0_0_0},
+	{"json", 0, 134219600, 0, &CharU5BU5D_t697_0_0_0},
+	{"index", 1, 134219601, 0, &Int32_t82_1_0_0},
+	{"success", 2, 134219602, 0, &Boolean_t59_1_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Boolean SimpleJson.SimpleJson::SerializeArray(SimpleJson.IJsonSerializerStrategy,System.Collections.IEnumerable,System.Text.StringBuilder)
-extern const MethodInfo SimpleJson_SerializeArray_m9803_MethodInfo = 
+extern void* RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827 (const MethodInfo* method, void* obj, void** args);
+// System.Object SimpleJson.SimpleJson::ParseNumber(System.Char[],System.Int32&,System.Boolean&)
+extern const MethodInfo SimpleJson_ParseNumber_m9797_MethodInfo = 
 {
-	"SerializeArray"/* name */
-	, (methodPointerType)&SimpleJson_SerializeArray_m9803/* method */
+	"ParseNumber"/* name */
+	, (methodPointerType)&SimpleJson_ParseNumber_m9797/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_SerializeArray_m9803_ParameterInfos/* parameters */
+	, &Object_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Int32U26_t826_BooleanU26_t827/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_ParseNumber_m9797_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -2687,23 +2468,23 @@ extern const MethodInfo SimpleJson_SerializeArray_m9803_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType StringBuilder_t261_0_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeString_m9804_ParameterInfos[] = 
+extern const Il2CppType CharU5BU5D_t697_0_0_0;
+extern const Il2CppType Int32_t82_0_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_GetLastIndexOfNumber_m9798_ParameterInfos[] = 
 {
-	{"aString", 0, 134219609, 0, &String_t_0_0_0},
-	{"builder", 1, 134219610, 0, &StringBuilder_t261_0_0_0},
+	{"json", 0, 134219603, 0, &CharU5BU5D_t697_0_0_0},
+	{"index", 1, 134219604, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Boolean SimpleJson.SimpleJson::SerializeString(System.String,System.Text.StringBuilder)
-extern const MethodInfo SimpleJson_SerializeString_m9804_MethodInfo = 
+extern void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+// System.Int32 SimpleJson.SimpleJson::GetLastIndexOfNumber(System.Char[],System.Int32)
+extern const MethodInfo SimpleJson_GetLastIndexOfNumber_m9798_MethodInfo = 
 {
-	"SerializeString"/* name */
-	, (methodPointerType)&SimpleJson_SerializeString_m9804/* method */
+	"GetLastIndexOfNumber"/* name */
+	, (methodPointerType)&SimpleJson_GetLastIndexOfNumber_m9798/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_SerializeString_m9804_ParameterInfos/* parameters */
+	, &Int32_t82_0_0_0/* return_type */
+	, RuntimeInvoker_Int32_t82_Object_t_Int32_t82/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_GetLastIndexOfNumber_m9798_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -2717,23 +2498,23 @@ extern const MethodInfo SimpleJson_SerializeString_m9804_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType StringBuilder_t261_0_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeNumber_m9805_ParameterInfos[] = 
+extern const Il2CppType CharU5BU5D_t697_0_0_0;
+extern const Il2CppType Int32_t82_1_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_EatWhitespace_m9799_ParameterInfos[] = 
 {
-	{"number", 0, 134219611, 0, &Object_t_0_0_0},
-	{"builder", 1, 134219612, 0, &StringBuilder_t261_0_0_0},
+	{"json", 0, 134219605, 0, &CharU5BU5D_t697_0_0_0},
+	{"index", 1, 134219606, 0, &Int32_t82_1_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Boolean SimpleJson.SimpleJson::SerializeNumber(System.Object,System.Text.StringBuilder)
-extern const MethodInfo SimpleJson_SerializeNumber_m9805_MethodInfo = 
+extern void* RuntimeInvoker_Void_t85_Object_t_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
+// System.Void SimpleJson.SimpleJson::EatWhitespace(System.Char[],System.Int32&)
+extern const MethodInfo SimpleJson_EatWhitespace_m9799_MethodInfo = 
 {
-	"SerializeNumber"/* name */
-	, (methodPointerType)&SimpleJson_SerializeNumber_m9805/* method */
+	"EatWhitespace"/* name */
+	, (methodPointerType)&SimpleJson_EatWhitespace_m9799/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_SerializeNumber_m9805_ParameterInfos/* parameters */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85_Object_t_Int32U26_t826/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_EatWhitespace_m9799_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -2747,26 +2528,28 @@ extern const MethodInfo SimpleJson_SerializeNumber_m9805_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo SimpleJson_t2822_SimpleJson_IsNumeric_m9806_ParameterInfos[] = 
+extern const Il2CppType CharU5BU5D_t697_0_0_0;
+extern const Il2CppType Int32_t82_0_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_LookAhead_m9800_ParameterInfos[] = 
 {
-	{"value", 0, 134219613, 0, &Object_t_0_0_0},
+	{"json", 0, 134219607, 0, &CharU5BU5D_t697_0_0_0},
+	{"index", 1, 134219608, 0, &Int32_t82_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Boolean SimpleJson.SimpleJson::IsNumeric(System.Object)
-extern const MethodInfo SimpleJson_IsNumeric_m9806_MethodInfo = 
+extern void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+// System.Int32 SimpleJson.SimpleJson::LookAhead(System.Char[],System.Int32)
+extern const MethodInfo SimpleJson_LookAhead_m9800_MethodInfo = 
 {
-	"IsNumeric"/* name */
-	, (methodPointerType)&SimpleJson_IsNumeric_m9806/* method */
+	"LookAhead"/* name */
+	, (methodPointerType)&SimpleJson_LookAhead_m9800/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, SimpleJson_t2822_SimpleJson_IsNumeric_m9806_ParameterInfos/* parameters */
+	, &Int32_t82_0_0_0/* return_type */
+	, RuntimeInvoker_Int32_t82_Object_t_Int32_t82/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_LookAhead_m9800_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 1/* parameters_count */
+	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1654/* token */
@@ -2775,12 +2558,229 @@ extern const MethodInfo SimpleJson_IsNumeric_m9806_MethodInfo =
 	, NULL/* dummy */
 
 };
+extern const Il2CppType CharU5BU5D_t697_0_0_0;
+extern const Il2CppType Int32_t82_1_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_NextToken_m9801_ParameterInfos[] = 
+{
+	{"json", 0, 134219609, 0, &CharU5BU5D_t697_0_0_0},
+	{"index", 1, 134219610, 0, &Int32_t82_1_0_0},
+};
+extern void* RuntimeInvoker_Int32_t82_Object_t_Int32U26_t826 (const MethodInfo* method, void* obj, void** args);
+// System.Int32 SimpleJson.SimpleJson::NextToken(System.Char[],System.Int32&)
+extern const MethodInfo SimpleJson_NextToken_m9801_MethodInfo = 
+{
+	"NextToken"/* name */
+	, (methodPointerType)&SimpleJson_NextToken_m9801/* method */
+	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
+	, &Int32_t82_0_0_0/* return_type */
+	, RuntimeInvoker_Int32_t82_Object_t_Int32U26_t826/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_NextToken_m9801_ParameterInfos/* parameters */
+	, 746/* custom_attributes_cache */
+	, 145/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1655/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType IJsonSerializerStrategy_t2820_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType StringBuilder_t261_0_0_0;
+extern const Il2CppType StringBuilder_t261_0_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeValue_m9802_ParameterInfos[] = 
+{
+	{"jsonSerializerStrategy", 0, 134219611, 0, &IJsonSerializerStrategy_t2820_0_0_0},
+	{"value", 1, 134219612, 0, &Object_t_0_0_0},
+	{"builder", 2, 134219613, 0, &StringBuilder_t261_0_0_0},
+};
+extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Boolean SimpleJson.SimpleJson::SerializeValue(SimpleJson.IJsonSerializerStrategy,System.Object,System.Text.StringBuilder)
+extern const MethodInfo SimpleJson_SerializeValue_m9802_MethodInfo = 
+{
+	"SerializeValue"/* name */
+	, (methodPointerType)&SimpleJson_SerializeValue_m9802/* method */
+	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t59_0_0_0/* return_type */
+	, RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_SerializeValue_m9802_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 145/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1656/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType IJsonSerializerStrategy_t2820_0_0_0;
+extern const Il2CppType IEnumerable_t104_0_0_0;
+extern const Il2CppType IEnumerable_t104_0_0_0;
+extern const Il2CppType StringBuilder_t261_0_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeObject_m9803_ParameterInfos[] = 
+{
+	{"jsonSerializerStrategy", 0, 134219614, 0, &IJsonSerializerStrategy_t2820_0_0_0},
+	{"keys", 1, 134219615, 0, &IEnumerable_t104_0_0_0},
+	{"values", 2, 134219616, 0, &IEnumerable_t104_0_0_0},
+	{"builder", 3, 134219617, 0, &StringBuilder_t261_0_0_0},
+};
+extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Boolean SimpleJson.SimpleJson::SerializeObject(SimpleJson.IJsonSerializerStrategy,System.Collections.IEnumerable,System.Collections.IEnumerable,System.Text.StringBuilder)
+extern const MethodInfo SimpleJson_SerializeObject_m9803_MethodInfo = 
+{
+	"SerializeObject"/* name */
+	, (methodPointerType)&SimpleJson_SerializeObject_m9803/* method */
+	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t59_0_0_0/* return_type */
+	, RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t_Object_t/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_SerializeObject_m9803_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 145/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 4/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1657/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType IJsonSerializerStrategy_t2820_0_0_0;
+extern const Il2CppType IEnumerable_t104_0_0_0;
+extern const Il2CppType StringBuilder_t261_0_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeArray_m9804_ParameterInfos[] = 
+{
+	{"jsonSerializerStrategy", 0, 134219618, 0, &IJsonSerializerStrategy_t2820_0_0_0},
+	{"anArray", 1, 134219619, 0, &IEnumerable_t104_0_0_0},
+	{"builder", 2, 134219620, 0, &StringBuilder_t261_0_0_0},
+};
+extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Boolean SimpleJson.SimpleJson::SerializeArray(SimpleJson.IJsonSerializerStrategy,System.Collections.IEnumerable,System.Text.StringBuilder)
+extern const MethodInfo SimpleJson_SerializeArray_m9804_MethodInfo = 
+{
+	"SerializeArray"/* name */
+	, (methodPointerType)&SimpleJson_SerializeArray_m9804/* method */
+	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t59_0_0_0/* return_type */
+	, RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_SerializeArray_m9804_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 145/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1658/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType String_t_0_0_0;
+extern const Il2CppType StringBuilder_t261_0_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeString_m9805_ParameterInfos[] = 
+{
+	{"aString", 0, 134219621, 0, &String_t_0_0_0},
+	{"builder", 1, 134219622, 0, &StringBuilder_t261_0_0_0},
+};
+extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Boolean SimpleJson.SimpleJson::SerializeString(System.String,System.Text.StringBuilder)
+extern const MethodInfo SimpleJson_SerializeString_m9805_MethodInfo = 
+{
+	"SerializeString"/* name */
+	, (methodPointerType)&SimpleJson_SerializeString_m9805/* method */
+	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t59_0_0_0/* return_type */
+	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_SerializeString_m9805_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 145/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1659/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType StringBuilder_t261_0_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_SerializeNumber_m9806_ParameterInfos[] = 
+{
+	{"number", 0, 134219623, 0, &Object_t_0_0_0},
+	{"builder", 1, 134219624, 0, &StringBuilder_t261_0_0_0},
+};
+extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Boolean SimpleJson.SimpleJson::SerializeNumber(System.Object,System.Text.StringBuilder)
+extern const MethodInfo SimpleJson_SerializeNumber_m9806_MethodInfo = 
+{
+	"SerializeNumber"/* name */
+	, (methodPointerType)&SimpleJson_SerializeNumber_m9806/* method */
+	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t59_0_0_0/* return_type */
+	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_SerializeNumber_m9806_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 145/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1660/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo SimpleJson_t2822_SimpleJson_IsNumeric_m9807_ParameterInfos[] = 
+{
+	{"value", 0, 134219625, 0, &Object_t_0_0_0},
+};
+extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Boolean SimpleJson.SimpleJson::IsNumeric(System.Object)
+extern const MethodInfo SimpleJson_IsNumeric_m9807_MethodInfo = 
+{
+	"IsNumeric"/* name */
+	, (methodPointerType)&SimpleJson_IsNumeric_m9807/* method */
+	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t59_0_0_0/* return_type */
+	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
+	, SimpleJson_t2822_SimpleJson_IsNumeric_m9807_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 145/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1661/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // SimpleJson.IJsonSerializerStrategy SimpleJson.SimpleJson::get_CurrentJsonSerializerStrategy()
-extern const MethodInfo SimpleJson_get_CurrentJsonSerializerStrategy_m9807_MethodInfo = 
+extern const MethodInfo SimpleJson_get_CurrentJsonSerializerStrategy_m9808_MethodInfo = 
 {
 	"get_CurrentJsonSerializerStrategy"/* name */
-	, (methodPointerType)&SimpleJson_get_CurrentJsonSerializerStrategy_m9807/* method */
+	, (methodPointerType)&SimpleJson_get_CurrentJsonSerializerStrategy_m9808/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
 	, &IJsonSerializerStrategy_t2820_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2792,7 +2792,7 @@ extern const MethodInfo SimpleJson_get_CurrentJsonSerializerStrategy_m9807_Metho
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1655/* token */
+	, 1662/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -2801,10 +2801,10 @@ extern const MethodInfo SimpleJson_get_CurrentJsonSerializerStrategy_m9807_Metho
 extern const Il2CppType PocoJsonSerializerStrategy_t2821_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // SimpleJson.PocoJsonSerializerStrategy SimpleJson.SimpleJson::get_PocoJsonSerializerStrategy()
-extern const MethodInfo SimpleJson_get_PocoJsonSerializerStrategy_m9808_MethodInfo = 
+extern const MethodInfo SimpleJson_get_PocoJsonSerializerStrategy_m9809_MethodInfo = 
 {
 	"get_PocoJsonSerializerStrategy"/* name */
-	, (methodPointerType)&SimpleJson_get_PocoJsonSerializerStrategy_m9808/* method */
+	, (methodPointerType)&SimpleJson_get_PocoJsonSerializerStrategy_m9809/* method */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* declaring_type */
 	, &PocoJsonSerializerStrategy_t2821_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2816,7 +2816,7 @@ extern const MethodInfo SimpleJson_get_PocoJsonSerializerStrategy_m9808_MethodIn
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1656/* token */
+	, 1663/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -2824,49 +2824,49 @@ extern const MethodInfo SimpleJson_get_PocoJsonSerializerStrategy_m9808_MethodIn
 };
 static const MethodInfo* SimpleJson_t2822_MethodInfos[] =
 {
-	&SimpleJson_TryDeserializeObject_m9788_MethodInfo,
-	&SimpleJson_SerializeObject_m9789_MethodInfo,
+	&SimpleJson_TryDeserializeObject_m9789_MethodInfo,
 	&SimpleJson_SerializeObject_m9790_MethodInfo,
-	&SimpleJson_ParseObject_m9791_MethodInfo,
-	&SimpleJson_ParseArray_m9792_MethodInfo,
-	&SimpleJson_ParseValue_m9793_MethodInfo,
-	&SimpleJson_ParseString_m9794_MethodInfo,
-	&SimpleJson_ConvertFromUtf32_m9795_MethodInfo,
-	&SimpleJson_ParseNumber_m9796_MethodInfo,
-	&SimpleJson_GetLastIndexOfNumber_m9797_MethodInfo,
-	&SimpleJson_EatWhitespace_m9798_MethodInfo,
-	&SimpleJson_LookAhead_m9799_MethodInfo,
-	&SimpleJson_NextToken_m9800_MethodInfo,
-	&SimpleJson_SerializeValue_m9801_MethodInfo,
-	&SimpleJson_SerializeObject_m9802_MethodInfo,
-	&SimpleJson_SerializeArray_m9803_MethodInfo,
-	&SimpleJson_SerializeString_m9804_MethodInfo,
-	&SimpleJson_SerializeNumber_m9805_MethodInfo,
-	&SimpleJson_IsNumeric_m9806_MethodInfo,
-	&SimpleJson_get_CurrentJsonSerializerStrategy_m9807_MethodInfo,
-	&SimpleJson_get_PocoJsonSerializerStrategy_m9808_MethodInfo,
+	&SimpleJson_SerializeObject_m9791_MethodInfo,
+	&SimpleJson_ParseObject_m9792_MethodInfo,
+	&SimpleJson_ParseArray_m9793_MethodInfo,
+	&SimpleJson_ParseValue_m9794_MethodInfo,
+	&SimpleJson_ParseString_m9795_MethodInfo,
+	&SimpleJson_ConvertFromUtf32_m9796_MethodInfo,
+	&SimpleJson_ParseNumber_m9797_MethodInfo,
+	&SimpleJson_GetLastIndexOfNumber_m9798_MethodInfo,
+	&SimpleJson_EatWhitespace_m9799_MethodInfo,
+	&SimpleJson_LookAhead_m9800_MethodInfo,
+	&SimpleJson_NextToken_m9801_MethodInfo,
+	&SimpleJson_SerializeValue_m9802_MethodInfo,
+	&SimpleJson_SerializeObject_m9803_MethodInfo,
+	&SimpleJson_SerializeArray_m9804_MethodInfo,
+	&SimpleJson_SerializeString_m9805_MethodInfo,
+	&SimpleJson_SerializeNumber_m9806_MethodInfo,
+	&SimpleJson_IsNumeric_m9807_MethodInfo,
+	&SimpleJson_get_CurrentJsonSerializerStrategy_m9808_MethodInfo,
+	&SimpleJson_get_PocoJsonSerializerStrategy_m9809_MethodInfo,
 	NULL
 };
-extern const MethodInfo SimpleJson_get_CurrentJsonSerializerStrategy_m9807_MethodInfo;
+extern const MethodInfo SimpleJson_get_CurrentJsonSerializerStrategy_m9808_MethodInfo;
 static const PropertyInfo SimpleJson_t2822____CurrentJsonSerializerStrategy_PropertyInfo = 
 {
 	&SimpleJson_t2822_il2cpp_TypeInfo/* parent */
 	, "CurrentJsonSerializerStrategy"/* name */
-	, &SimpleJson_get_CurrentJsonSerializerStrategy_m9807_MethodInfo/* get */
+	, &SimpleJson_get_CurrentJsonSerializerStrategy_m9808_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SimpleJson_get_PocoJsonSerializerStrategy_m9808_MethodInfo;
+extern const MethodInfo SimpleJson_get_PocoJsonSerializerStrategy_m9809_MethodInfo;
 static const PropertyInfo SimpleJson_t2822____PocoJsonSerializerStrategy_PropertyInfo = 
 {
 	&SimpleJson_t2822_il2cpp_TypeInfo/* parent */
 	, "PocoJsonSerializerStrategy"/* name */
-	, &SimpleJson_get_PocoJsonSerializerStrategy_m9808_MethodInfo/* get */
+	, &SimpleJson_get_PocoJsonSerializerStrategy_m9809_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
-	, 740/* custom_attributes_cache */
+	, 747/* custom_attributes_cache */
 
 };
 static const PropertyInfo* SimpleJson_t2822_PropertyInfos[] =
@@ -2917,7 +2917,7 @@ TypeInfo SimpleJson_t2822_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &SimpleJson_t2822_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 737/* custom_attributes_cache */
+	, 744/* custom_attributes_cache */
 	, &SimpleJson_t2822_0_0_0/* byval_arg */
 	, &SimpleJson_t2822_1_0_0/* this_arg */
 	, &SimpleJson_t2822_DefinitionMetadata/* definitionMetadata */
@@ -2964,29 +2964,29 @@ TypeInfo SimpleJson_t2822_il2cpp_TypeInfo =
 extern TypeInfo IJsonSerializerStrategy_t2820_il2cpp_TypeInfo;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_1_0_2;
-static const ParameterInfo IJsonSerializerStrategy_t2820_IJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m10239_ParameterInfos[] = 
+static const ParameterInfo IJsonSerializerStrategy_t2820_IJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m10240_ParameterInfos[] = 
 {
-	{"input", 0, 134219614, 0, &Object_t_0_0_0},
-	{"output", 1, 134219615, 0, &Object_t_1_0_2},
+	{"input", 0, 134219626, 0, &Object_t_0_0_0},
+	{"output", 1, 134219627, 0, &Object_t_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean SimpleJson.IJsonSerializerStrategy::TrySerializeNonPrimitiveObject(System.Object,System.Object&)
-extern const MethodInfo IJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m10239_MethodInfo = 
+extern const MethodInfo IJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m10240_MethodInfo = 
 {
 	"TrySerializeNonPrimitiveObject"/* name */
 	, NULL/* method */
 	, &IJsonSerializerStrategy_t2820_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362/* invoker_method */
-	, IJsonSerializerStrategy_t2820_IJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m10239_ParameterInfos/* parameters */
-	, 742/* custom_attributes_cache */
+	, IJsonSerializerStrategy_t2820_IJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m10240_ParameterInfos/* parameters */
+	, 749/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
 	, 0/* slot */
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1657/* token */
+	, 1664/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -2994,7 +2994,7 @@ extern const MethodInfo IJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m
 };
 static const MethodInfo* IJsonSerializerStrategy_t2820_MethodInfos[] =
 {
-	&IJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m10239_MethodInfo,
+	&IJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m10240_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
@@ -3024,7 +3024,7 @@ TypeInfo IJsonSerializerStrategy_t2820_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &IJsonSerializerStrategy_t2820_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 741/* custom_attributes_cache */
+	, 748/* custom_attributes_cache */
 	, &IJsonSerializerStrategy_t2820_0_0_0/* byval_arg */
 	, &IJsonSerializerStrategy_t2820_1_0_0/* this_arg */
 	, &IJsonSerializerStrategy_t2820_DefinitionMetadata/* definitionMetadata */
@@ -3075,10 +3075,10 @@ extern TypeInfo PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo;
 #include "UnityEngine_SimpleJson_PocoJsonSerializerStrategyMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.PocoJsonSerializerStrategy::.ctor()
-extern const MethodInfo PocoJsonSerializerStrategy__ctor_m9809_MethodInfo = 
+extern const MethodInfo PocoJsonSerializerStrategy__ctor_m9810_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PocoJsonSerializerStrategy__ctor_m9809/* method */
+	, (methodPointerType)&PocoJsonSerializerStrategy__ctor_m9810/* method */
 	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3090,7 +3090,7 @@ extern const MethodInfo PocoJsonSerializerStrategy__ctor_m9809_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1658/* token */
+	, 1665/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -3098,10 +3098,10 @@ extern const MethodInfo PocoJsonSerializerStrategy__ctor_m9809_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.PocoJsonSerializerStrategy::.cctor()
-extern const MethodInfo PocoJsonSerializerStrategy__cctor_m9810_MethodInfo = 
+extern const MethodInfo PocoJsonSerializerStrategy__cctor_m9811_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&PocoJsonSerializerStrategy__cctor_m9810/* method */
+	, (methodPointerType)&PocoJsonSerializerStrategy__cctor_m9811/* method */
 	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3113,239 +3113,32 @@ extern const MethodInfo PocoJsonSerializerStrategy__cctor_m9810_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1659/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9811_ParameterInfos[] = 
-{
-	{"clrPropertyName", 0, 134219616, 0, &String_t_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.String SimpleJson.PocoJsonSerializerStrategy::MapClrMemberNameToJsonFieldName(System.String)
-extern const MethodInfo PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9811_MethodInfo = 
-{
-	"MapClrMemberNameToJsonFieldName"/* name */
-	, (methodPointerType)&PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9811/* method */
-	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
-	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9811_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 452/* flags */
-	, 0/* iflags */
-	, 5/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1660/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_ContructorDelegateFactory_m9812_ParameterInfos[] = 
-{
-	{"key", 0, 134219617, 0, &Type_t_0_0_0},
-};
-extern const Il2CppType ConstructorDelegate_t2828_0_0_0;
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate SimpleJson.PocoJsonSerializerStrategy::ContructorDelegateFactory(System.Type)
-extern const MethodInfo PocoJsonSerializerStrategy_ContructorDelegateFactory_m9812_MethodInfo = 
-{
-	"ContructorDelegateFactory"/* name */
-	, (methodPointerType)&PocoJsonSerializerStrategy_ContructorDelegateFactory_m9812/* method */
-	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
-	, &ConstructorDelegate_t2828_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_ContructorDelegateFactory_m9812_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 451/* flags */
-	, 0/* iflags */
-	, 6/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1661/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_GetterValueFactory_m9813_ParameterInfos[] = 
-{
-	{"type", 0, 134219618, 0, &Type_t_0_0_0},
-};
-extern const Il2CppType IDictionary_2_t2915_0_0_0;
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate> SimpleJson.PocoJsonSerializerStrategy::GetterValueFactory(System.Type)
-extern const MethodInfo PocoJsonSerializerStrategy_GetterValueFactory_m9813_MethodInfo = 
-{
-	"GetterValueFactory"/* name */
-	, (methodPointerType)&PocoJsonSerializerStrategy_GetterValueFactory_m9813/* method */
-	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_2_t2915_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_GetterValueFactory_m9813_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 451/* flags */
-	, 0/* iflags */
-	, 7/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1662/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_SetterValueFactory_m9814_ParameterInfos[] = 
-{
-	{"type", 0, 134219619, 0, &Type_t_0_0_0},
-};
-extern const Il2CppType IDictionary_2_t2916_0_0_0;
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>> SimpleJson.PocoJsonSerializerStrategy::SetterValueFactory(System.Type)
-extern const MethodInfo PocoJsonSerializerStrategy_SetterValueFactory_m9814_MethodInfo = 
-{
-	"SetterValueFactory"/* name */
-	, (methodPointerType)&PocoJsonSerializerStrategy_SetterValueFactory_m9814/* method */
-	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_2_t2916_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_SetterValueFactory_m9814_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 451/* flags */
-	, 0/* iflags */
-	, 8/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1663/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType Object_t_1_0_2;
-static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9815_ParameterInfos[] = 
-{
-	{"input", 0, 134219620, 0, &Object_t_0_0_0},
-	{"output", 1, 134219621, 0, &Object_t_1_0_2},
-};
-extern void* RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362 (const MethodInfo* method, void* obj, void** args);
-// System.Boolean SimpleJson.PocoJsonSerializerStrategy::TrySerializeNonPrimitiveObject(System.Object,System.Object&)
-extern const MethodInfo PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9815_MethodInfo = 
-{
-	"TrySerializeNonPrimitiveObject"/* name */
-	, (methodPointerType)&PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9815/* method */
-	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362/* invoker_method */
-	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9815_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 454/* flags */
-	, 0/* iflags */
-	, 9/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1664/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Enum_t100_0_0_0;
-extern const Il2CppType Enum_t100_0_0_0;
-static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_SerializeEnum_m9816_ParameterInfos[] = 
-{
-	{"p", 0, 134219622, 0, &Enum_t100_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Object SimpleJson.PocoJsonSerializerStrategy::SerializeEnum(System.Enum)
-extern const MethodInfo PocoJsonSerializerStrategy_SerializeEnum_m9816_MethodInfo = 
-{
-	"SerializeEnum"/* name */
-	, (methodPointerType)&PocoJsonSerializerStrategy_SerializeEnum_m9816/* method */
-	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
-	, &Object_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_SerializeEnum_m9816_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 452/* flags */
-	, 0/* iflags */
-	, 10/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1665/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType Object_t_1_0_2;
-static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9817_ParameterInfos[] = 
-{
-	{"input", 0, 134219623, 0, &Object_t_0_0_0},
-	{"output", 1, 134219624, 0, &Object_t_1_0_2},
-};
-extern void* RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362 (const MethodInfo* method, void* obj, void** args);
-// System.Boolean SimpleJson.PocoJsonSerializerStrategy::TrySerializeKnownTypes(System.Object,System.Object&)
-extern const MethodInfo PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9817_MethodInfo = 
-{
-	"TrySerializeKnownTypes"/* name */
-	, (methodPointerType)&PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9817/* method */
-	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362/* invoker_method */
-	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9817_ParameterInfos/* parameters */
-	, 744/* custom_attributes_cache */
-	, 452/* flags */
-	, 0/* iflags */
-	, 11/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
 	, 1666/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType Object_t_1_0_2;
-static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9818_ParameterInfos[] = 
+extern const Il2CppType String_t_0_0_0;
+static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9812_ParameterInfos[] = 
 {
-	{"input", 0, 134219625, 0, &Object_t_0_0_0},
-	{"output", 1, 134219626, 0, &Object_t_1_0_2},
+	{"clrPropertyName", 0, 134219628, 0, &String_t_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362 (const MethodInfo* method, void* obj, void** args);
-// System.Boolean SimpleJson.PocoJsonSerializerStrategy::TrySerializeUnknownTypes(System.Object,System.Object&)
-extern const MethodInfo PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9818_MethodInfo = 
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.String SimpleJson.PocoJsonSerializerStrategy::MapClrMemberNameToJsonFieldName(System.String)
+extern const MethodInfo PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9812_MethodInfo = 
 {
-	"TrySerializeUnknownTypes"/* name */
-	, (methodPointerType)&PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9818/* method */
+	"MapClrMemberNameToJsonFieldName"/* name */
+	, (methodPointerType)&PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9812/* method */
 	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362/* invoker_method */
-	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9818_ParameterInfos/* parameters */
-	, 745/* custom_attributes_cache */
+	, &String_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9812_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
-	, 12/* slot */
-	, 2/* parameters_count */
+	, 5/* slot */
+	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1667/* token */
@@ -3354,43 +3147,250 @@ extern const MethodInfo PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m981
 	, NULL/* dummy */
 
 };
+extern const Il2CppType Type_t_0_0_0;
+extern const Il2CppType Type_t_0_0_0;
+static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_ContructorDelegateFactory_m9813_ParameterInfos[] = 
+{
+	{"key", 0, 134219629, 0, &Type_t_0_0_0},
+};
+extern const Il2CppType ConstructorDelegate_t2828_0_0_0;
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate SimpleJson.PocoJsonSerializerStrategy::ContructorDelegateFactory(System.Type)
+extern const MethodInfo PocoJsonSerializerStrategy_ContructorDelegateFactory_m9813_MethodInfo = 
+{
+	"ContructorDelegateFactory"/* name */
+	, (methodPointerType)&PocoJsonSerializerStrategy_ContructorDelegateFactory_m9813/* method */
+	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
+	, &ConstructorDelegate_t2828_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_ContructorDelegateFactory_m9813_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 451/* flags */
+	, 0/* iflags */
+	, 6/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1668/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Type_t_0_0_0;
+static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_GetterValueFactory_m9814_ParameterInfos[] = 
+{
+	{"type", 0, 134219630, 0, &Type_t_0_0_0},
+};
+extern const Il2CppType IDictionary_2_t2915_0_0_0;
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate> SimpleJson.PocoJsonSerializerStrategy::GetterValueFactory(System.Type)
+extern const MethodInfo PocoJsonSerializerStrategy_GetterValueFactory_m9814_MethodInfo = 
+{
+	"GetterValueFactory"/* name */
+	, (methodPointerType)&PocoJsonSerializerStrategy_GetterValueFactory_m9814/* method */
+	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
+	, &IDictionary_2_t2915_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_GetterValueFactory_m9814_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 451/* flags */
+	, 0/* iflags */
+	, 7/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1669/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Type_t_0_0_0;
+static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_SetterValueFactory_m9815_ParameterInfos[] = 
+{
+	{"type", 0, 134219631, 0, &Type_t_0_0_0},
+};
+extern const Il2CppType IDictionary_2_t2916_0_0_0;
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>> SimpleJson.PocoJsonSerializerStrategy::SetterValueFactory(System.Type)
+extern const MethodInfo PocoJsonSerializerStrategy_SetterValueFactory_m9815_MethodInfo = 
+{
+	"SetterValueFactory"/* name */
+	, (methodPointerType)&PocoJsonSerializerStrategy_SetterValueFactory_m9815/* method */
+	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
+	, &IDictionary_2_t2916_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_SetterValueFactory_m9815_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 451/* flags */
+	, 0/* iflags */
+	, 8/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1670/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType Object_t_1_0_2;
+static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9816_ParameterInfos[] = 
+{
+	{"input", 0, 134219632, 0, &Object_t_0_0_0},
+	{"output", 1, 134219633, 0, &Object_t_1_0_2},
+};
+extern void* RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362 (const MethodInfo* method, void* obj, void** args);
+// System.Boolean SimpleJson.PocoJsonSerializerStrategy::TrySerializeNonPrimitiveObject(System.Object,System.Object&)
+extern const MethodInfo PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9816_MethodInfo = 
+{
+	"TrySerializeNonPrimitiveObject"/* name */
+	, (methodPointerType)&PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9816/* method */
+	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t59_0_0_0/* return_type */
+	, RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362/* invoker_method */
+	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9816_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 454/* flags */
+	, 0/* iflags */
+	, 9/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1671/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Enum_t100_0_0_0;
+extern const Il2CppType Enum_t100_0_0_0;
+static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_SerializeEnum_m9817_ParameterInfos[] = 
+{
+	{"p", 0, 134219634, 0, &Enum_t100_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Object SimpleJson.PocoJsonSerializerStrategy::SerializeEnum(System.Enum)
+extern const MethodInfo PocoJsonSerializerStrategy_SerializeEnum_m9817_MethodInfo = 
+{
+	"SerializeEnum"/* name */
+	, (methodPointerType)&PocoJsonSerializerStrategy_SerializeEnum_m9817/* method */
+	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
+	, &Object_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_SerializeEnum_m9817_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 452/* flags */
+	, 0/* iflags */
+	, 10/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1672/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType Object_t_1_0_2;
+static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9818_ParameterInfos[] = 
+{
+	{"input", 0, 134219635, 0, &Object_t_0_0_0},
+	{"output", 1, 134219636, 0, &Object_t_1_0_2},
+};
+extern void* RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362 (const MethodInfo* method, void* obj, void** args);
+// System.Boolean SimpleJson.PocoJsonSerializerStrategy::TrySerializeKnownTypes(System.Object,System.Object&)
+extern const MethodInfo PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9818_MethodInfo = 
+{
+	"TrySerializeKnownTypes"/* name */
+	, (methodPointerType)&PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9818/* method */
+	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t59_0_0_0/* return_type */
+	, RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362/* invoker_method */
+	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9818_ParameterInfos/* parameters */
+	, 751/* custom_attributes_cache */
+	, 452/* flags */
+	, 0/* iflags */
+	, 11/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1673/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType Object_t_1_0_2;
+static const ParameterInfo PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9819_ParameterInfos[] = 
+{
+	{"input", 0, 134219637, 0, &Object_t_0_0_0},
+	{"output", 1, 134219638, 0, &Object_t_1_0_2},
+};
+extern void* RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362 (const MethodInfo* method, void* obj, void** args);
+// System.Boolean SimpleJson.PocoJsonSerializerStrategy::TrySerializeUnknownTypes(System.Object,System.Object&)
+extern const MethodInfo PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9819_MethodInfo = 
+{
+	"TrySerializeUnknownTypes"/* name */
+	, (methodPointerType)&PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9819/* method */
+	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t59_0_0_0/* return_type */
+	, RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2362/* invoker_method */
+	, PocoJsonSerializerStrategy_t2821_PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9819_ParameterInfos/* parameters */
+	, 752/* custom_attributes_cache */
+	, 452/* flags */
+	, 0/* iflags */
+	, 12/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1674/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
 static const MethodInfo* PocoJsonSerializerStrategy_t2821_MethodInfos[] =
 {
-	&PocoJsonSerializerStrategy__ctor_m9809_MethodInfo,
-	&PocoJsonSerializerStrategy__cctor_m9810_MethodInfo,
-	&PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9811_MethodInfo,
-	&PocoJsonSerializerStrategy_ContructorDelegateFactory_m9812_MethodInfo,
-	&PocoJsonSerializerStrategy_GetterValueFactory_m9813_MethodInfo,
-	&PocoJsonSerializerStrategy_SetterValueFactory_m9814_MethodInfo,
-	&PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9815_MethodInfo,
-	&PocoJsonSerializerStrategy_SerializeEnum_m9816_MethodInfo,
-	&PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9817_MethodInfo,
-	&PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9818_MethodInfo,
+	&PocoJsonSerializerStrategy__ctor_m9810_MethodInfo,
+	&PocoJsonSerializerStrategy__cctor_m9811_MethodInfo,
+	&PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9812_MethodInfo,
+	&PocoJsonSerializerStrategy_ContructorDelegateFactory_m9813_MethodInfo,
+	&PocoJsonSerializerStrategy_GetterValueFactory_m9814_MethodInfo,
+	&PocoJsonSerializerStrategy_SetterValueFactory_m9815_MethodInfo,
+	&PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9816_MethodInfo,
+	&PocoJsonSerializerStrategy_SerializeEnum_m9817_MethodInfo,
+	&PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9818_MethodInfo,
+	&PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9819_MethodInfo,
 	NULL
 };
-extern const MethodInfo PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9815_MethodInfo;
-extern const MethodInfo PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9811_MethodInfo;
-extern const MethodInfo PocoJsonSerializerStrategy_ContructorDelegateFactory_m9812_MethodInfo;
-extern const MethodInfo PocoJsonSerializerStrategy_GetterValueFactory_m9813_MethodInfo;
-extern const MethodInfo PocoJsonSerializerStrategy_SetterValueFactory_m9814_MethodInfo;
-extern const MethodInfo PocoJsonSerializerStrategy_SerializeEnum_m9816_MethodInfo;
-extern const MethodInfo PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9817_MethodInfo;
-extern const MethodInfo PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9818_MethodInfo;
+extern const MethodInfo PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9816_MethodInfo;
+extern const MethodInfo PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9812_MethodInfo;
+extern const MethodInfo PocoJsonSerializerStrategy_ContructorDelegateFactory_m9813_MethodInfo;
+extern const MethodInfo PocoJsonSerializerStrategy_GetterValueFactory_m9814_MethodInfo;
+extern const MethodInfo PocoJsonSerializerStrategy_SetterValueFactory_m9815_MethodInfo;
+extern const MethodInfo PocoJsonSerializerStrategy_SerializeEnum_m9817_MethodInfo;
+extern const MethodInfo PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9818_MethodInfo;
+extern const MethodInfo PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9819_MethodInfo;
 static const Il2CppMethodReference PocoJsonSerializerStrategy_t2821_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9815_MethodInfo,
-	&PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9811_MethodInfo,
-	&PocoJsonSerializerStrategy_ContructorDelegateFactory_m9812_MethodInfo,
-	&PocoJsonSerializerStrategy_GetterValueFactory_m9813_MethodInfo,
-	&PocoJsonSerializerStrategy_SetterValueFactory_m9814_MethodInfo,
-	&PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9815_MethodInfo,
-	&PocoJsonSerializerStrategy_SerializeEnum_m9816_MethodInfo,
-	&PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9817_MethodInfo,
-	&PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9818_MethodInfo,
+	&PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9816_MethodInfo,
+	&PocoJsonSerializerStrategy_MapClrMemberNameToJsonFieldName_m9812_MethodInfo,
+	&PocoJsonSerializerStrategy_ContructorDelegateFactory_m9813_MethodInfo,
+	&PocoJsonSerializerStrategy_GetterValueFactory_m9814_MethodInfo,
+	&PocoJsonSerializerStrategy_SetterValueFactory_m9815_MethodInfo,
+	&PocoJsonSerializerStrategy_TrySerializeNonPrimitiveObject_m9816_MethodInfo,
+	&PocoJsonSerializerStrategy_SerializeEnum_m9817_MethodInfo,
+	&PocoJsonSerializerStrategy_TrySerializeKnownTypes_m9818_MethodInfo,
+	&PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m9819_MethodInfo,
 };
 static bool PocoJsonSerializerStrategy_t2821_VTableIsGenericMethod[] =
 {
@@ -3443,7 +3443,7 @@ TypeInfo PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &PocoJsonSerializerStrategy_t2821_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 743/* custom_attributes_cache */
+	, 750/* custom_attributes_cache */
 	, &PocoJsonSerializerStrategy_t2821_0_0_0/* byval_arg */
 	, &PocoJsonSerializerStrategy_t2821_1_0_0/* this_arg */
 	, &PocoJsonSerializerStrategy_t2821_DefinitionMetadata/* definitionMetadata */
@@ -3501,19 +3501,19 @@ static const Il2CppGenericParameter* ThreadSafeDictionary_2_t2971_Il2CppGenericP
 extern const Il2CppGenericContainer ThreadSafeDictionary_2_t2971_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo, 2, 0, ThreadSafeDictionary_2_t2971_Il2CppGenericParametersArray };
 extern const Il2CppType ThreadSafeDictionaryValueFactory_2_t3033_0_0_0;
 extern const Il2CppType ThreadSafeDictionaryValueFactory_2_t3033_0_0_0;
-static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2__ctor_m10240_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2__ctor_m10241_ParameterInfos[] = 
 {
-	{"valueFactory", 0, 134219647, 0, &ThreadSafeDictionaryValueFactory_2_t3033_0_0_0},
+	{"valueFactory", 0, 134219659, 0, &ThreadSafeDictionaryValueFactory_2_t3033_0_0_0},
 };
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::.ctor(SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<TKey,TValue>)
-extern const MethodInfo ThreadSafeDictionary_2__ctor_m10240_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2__ctor_m10241_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2__ctor_m10240_ParameterInfos/* parameters */
+	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2__ctor_m10241_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -3521,14 +3521,14 @@ extern const MethodInfo ThreadSafeDictionary_2__ctor_m10240_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1686/* token */
+	, 1693/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 // System.Collections.IEnumerator SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::System.Collections.IEnumerable.GetEnumerator()
-extern const MethodInfo ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m10241_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m10242_MethodInfo = 
 {
 	"System.Collections.IEnumerable.GetEnumerator"/* name */
 	, NULL/* method */
@@ -3543,7 +3543,7 @@ extern const MethodInfo ThreadSafeDictionary_2_System_Collections_IEnumerable_Ge
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1687/* token */
+	, 1694/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -3551,20 +3551,20 @@ extern const MethodInfo ThreadSafeDictionary_2_System_Collections_IEnumerable_Ge
 };
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_0_0_0_0;
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_0_0_0_0;
-static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Get_m10242_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Get_m10243_ParameterInfos[] = 
 {
-	{"key", 0, 134219648, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
+	{"key", 0, 134219660, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
 };
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_1_0_0_0;
 // TValue SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::Get(TKey)
-extern const MethodInfo ThreadSafeDictionary_2_Get_m10242_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_Get_m10243_MethodInfo = 
 {
 	"Get"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* declaring_type */
 	, &ThreadSafeDictionary_2_t2971_gp_1_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Get_m10242_ParameterInfos/* parameters */
+	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Get_m10243_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -3572,26 +3572,26 @@ extern const MethodInfo ThreadSafeDictionary_2_Get_m10242_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1688/* token */
+	, 1695/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_0_0_0_0;
-static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_AddValue_m10243_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_AddValue_m10244_ParameterInfos[] = 
 {
-	{"key", 0, 134219649, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
+	{"key", 0, 134219661, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
 };
 // TValue SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::AddValue(TKey)
-extern const MethodInfo ThreadSafeDictionary_2_AddValue_m10243_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_AddValue_m10244_MethodInfo = 
 {
 	"AddValue"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* declaring_type */
 	, &ThreadSafeDictionary_2_t2971_gp_1_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_AddValue_m10243_ParameterInfos/* parameters */
+	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_AddValue_m10244_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -3599,7 +3599,7 @@ extern const MethodInfo ThreadSafeDictionary_2_AddValue_m10243_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1689/* token */
+	, 1696/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -3607,20 +3607,20 @@ extern const MethodInfo ThreadSafeDictionary_2_AddValue_m10243_MethodInfo =
 };
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_0_0_0_0;
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_1_0_0_0;
-static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Add_m10244_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Add_m10245_ParameterInfos[] = 
 {
-	{"key", 0, 134219650, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
-	{"value", 1, 134219651, 0, &ThreadSafeDictionary_2_t2971_gp_1_0_0_0},
+	{"key", 0, 134219662, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
+	{"value", 1, 134219663, 0, &ThreadSafeDictionary_2_t2971_gp_1_0_0_0},
 };
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::Add(TKey,TValue)
-extern const MethodInfo ThreadSafeDictionary_2_Add_m10244_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_Add_m10245_MethodInfo = 
 {
 	"Add"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Add_m10244_ParameterInfos/* parameters */
+	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Add_m10245_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3628,26 +3628,26 @@ extern const MethodInfo ThreadSafeDictionary_2_Add_m10244_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1690/* token */
+	, 1697/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_0_0_0_0;
-static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_ContainsKey_m10245_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_ContainsKey_m10246_ParameterInfos[] = 
 {
-	{"key", 0, 134219652, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
+	{"key", 0, 134219664, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
 };
 // System.Boolean SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::ContainsKey(TKey)
-extern const MethodInfo ThreadSafeDictionary_2_ContainsKey_m10245_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_ContainsKey_m10246_MethodInfo = 
 {
 	"ContainsKey"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_ContainsKey_m10245_ParameterInfos/* parameters */
+	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_ContainsKey_m10246_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3655,7 +3655,7 @@ extern const MethodInfo ThreadSafeDictionary_2_ContainsKey_m10245_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1691/* token */
+	, 1698/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -3663,7 +3663,7 @@ extern const MethodInfo ThreadSafeDictionary_2_ContainsKey_m10245_MethodInfo =
 };
 extern const Il2CppType ICollection_1_t3034_0_0_0;
 // System.Collections.Generic.ICollection`1<TKey> SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::get_Keys()
-extern const MethodInfo ThreadSafeDictionary_2_get_Keys_m10246_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_get_Keys_m10247_MethodInfo = 
 {
 	"get_Keys"/* name */
 	, NULL/* method */
@@ -3678,26 +3678,26 @@ extern const MethodInfo ThreadSafeDictionary_2_get_Keys_m10246_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1692/* token */
+	, 1699/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_0_0_0_0;
-static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Remove_m10247_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Remove_m10248_ParameterInfos[] = 
 {
-	{"key", 0, 134219653, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
+	{"key", 0, 134219665, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
 };
 // System.Boolean SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::Remove(TKey)
-extern const MethodInfo ThreadSafeDictionary_2_Remove_m10247_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_Remove_m10248_MethodInfo = 
 {
 	"Remove"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Remove_m10247_ParameterInfos/* parameters */
+	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Remove_m10248_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3705,7 +3705,7 @@ extern const MethodInfo ThreadSafeDictionary_2_Remove_m10247_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1693/* token */
+	, 1700/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -3714,20 +3714,20 @@ extern const MethodInfo ThreadSafeDictionary_2_Remove_m10247_MethodInfo =
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_0_0_0_0;
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_1_1_0_2;
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_1_1_0_0;
-static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_TryGetValue_m10248_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_TryGetValue_m10249_ParameterInfos[] = 
 {
-	{"key", 0, 134219654, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
-	{"value", 1, 134219655, 0, &ThreadSafeDictionary_2_t2971_gp_1_1_0_2},
+	{"key", 0, 134219666, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
+	{"value", 1, 134219667, 0, &ThreadSafeDictionary_2_t2971_gp_1_1_0_2},
 };
 // System.Boolean SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::TryGetValue(TKey,TValue&)
-extern const MethodInfo ThreadSafeDictionary_2_TryGetValue_m10248_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_TryGetValue_m10249_MethodInfo = 
 {
 	"TryGetValue"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_TryGetValue_m10248_ParameterInfos/* parameters */
+	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_TryGetValue_m10249_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3735,7 +3735,7 @@ extern const MethodInfo ThreadSafeDictionary_2_TryGetValue_m10248_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1694/* token */
+	, 1701/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -3743,7 +3743,7 @@ extern const MethodInfo ThreadSafeDictionary_2_TryGetValue_m10248_MethodInfo =
 };
 extern const Il2CppType ICollection_1_t3035_0_0_0;
 // System.Collections.Generic.ICollection`1<TValue> SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::get_Values()
-extern const MethodInfo ThreadSafeDictionary_2_get_Values_m10249_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_get_Values_m10250_MethodInfo = 
 {
 	"get_Values"/* name */
 	, NULL/* method */
@@ -3758,26 +3758,26 @@ extern const MethodInfo ThreadSafeDictionary_2_get_Values_m10249_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1695/* token */
+	, 1702/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_0_0_0_0;
-static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_get_Item_m10250_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_get_Item_m10251_ParameterInfos[] = 
 {
-	{"key", 0, 134219656, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
+	{"key", 0, 134219668, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
 };
 // TValue SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::get_Item(TKey)
-extern const MethodInfo ThreadSafeDictionary_2_get_Item_m10250_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_get_Item_m10251_MethodInfo = 
 {
 	"get_Item"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* declaring_type */
 	, &ThreadSafeDictionary_2_t2971_gp_1_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_get_Item_m10250_ParameterInfos/* parameters */
+	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_get_Item_m10251_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -3785,7 +3785,7 @@ extern const MethodInfo ThreadSafeDictionary_2_get_Item_m10250_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1696/* token */
+	, 1703/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -3793,20 +3793,20 @@ extern const MethodInfo ThreadSafeDictionary_2_get_Item_m10250_MethodInfo =
 };
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_0_0_0_0;
 extern const Il2CppType ThreadSafeDictionary_2_t2971_gp_1_0_0_0;
-static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_set_Item_m10251_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_set_Item_m10252_ParameterInfos[] = 
 {
-	{"key", 0, 134219657, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
-	{"value", 1, 134219658, 0, &ThreadSafeDictionary_2_t2971_gp_1_0_0_0},
+	{"key", 0, 134219669, 0, &ThreadSafeDictionary_2_t2971_gp_0_0_0_0},
+	{"value", 1, 134219670, 0, &ThreadSafeDictionary_2_t2971_gp_1_0_0_0},
 };
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::set_Item(TKey,TValue)
-extern const MethodInfo ThreadSafeDictionary_2_set_Item_m10251_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_set_Item_m10252_MethodInfo = 
 {
 	"set_Item"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_set_Item_m10251_ParameterInfos/* parameters */
+	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_set_Item_m10252_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -3814,7 +3814,7 @@ extern const MethodInfo ThreadSafeDictionary_2_set_Item_m10251_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1697/* token */
+	, 1704/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -3822,19 +3822,19 @@ extern const MethodInfo ThreadSafeDictionary_2_set_Item_m10251_MethodInfo =
 };
 extern const Il2CppType KeyValuePair_2_t3036_0_0_0;
 extern const Il2CppType KeyValuePair_2_t3036_0_0_0;
-static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Add_m10252_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Add_m10253_ParameterInfos[] = 
 {
-	{"item", 0, 134219659, 0, &KeyValuePair_2_t3036_0_0_0},
+	{"item", 0, 134219671, 0, &KeyValuePair_2_t3036_0_0_0},
 };
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-extern const MethodInfo ThreadSafeDictionary_2_Add_m10252_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_Add_m10253_MethodInfo = 
 {
 	"Add"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Add_m10252_ParameterInfos/* parameters */
+	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Add_m10253_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3842,14 +3842,14 @@ extern const MethodInfo ThreadSafeDictionary_2_Add_m10252_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1698/* token */
+	, 1705/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::Clear()
-extern const MethodInfo ThreadSafeDictionary_2_Clear_m10253_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_Clear_m10254_MethodInfo = 
 {
 	"Clear"/* name */
 	, NULL/* method */
@@ -3864,26 +3864,26 @@ extern const MethodInfo ThreadSafeDictionary_2_Clear_m10253_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1699/* token */
+	, 1706/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType KeyValuePair_2_t3036_0_0_0;
-static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Contains_m10254_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Contains_m10255_ParameterInfos[] = 
 {
-	{"item", 0, 134219660, 0, &KeyValuePair_2_t3036_0_0_0},
+	{"item", 0, 134219672, 0, &KeyValuePair_2_t3036_0_0_0},
 };
 // System.Boolean SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-extern const MethodInfo ThreadSafeDictionary_2_Contains_m10254_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_Contains_m10255_MethodInfo = 
 {
 	"Contains"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Contains_m10254_ParameterInfos/* parameters */
+	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Contains_m10255_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3891,7 +3891,7 @@ extern const MethodInfo ThreadSafeDictionary_2_Contains_m10254_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1700/* token */
+	, 1707/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -3900,20 +3900,20 @@ extern const MethodInfo ThreadSafeDictionary_2_Contains_m10254_MethodInfo =
 extern const Il2CppType KeyValuePair_2U5BU5D_t3037_0_0_0;
 extern const Il2CppType KeyValuePair_2U5BU5D_t3037_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_CopyTo_m10255_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_CopyTo_m10256_ParameterInfos[] = 
 {
-	{"array", 0, 134219661, 0, &KeyValuePair_2U5BU5D_t3037_0_0_0},
-	{"arrayIndex", 1, 134219662, 0, &Int32_t82_0_0_0},
+	{"array", 0, 134219673, 0, &KeyValuePair_2U5BU5D_t3037_0_0_0},
+	{"arrayIndex", 1, 134219674, 0, &Int32_t82_0_0_0},
 };
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-extern const MethodInfo ThreadSafeDictionary_2_CopyTo_m10255_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_CopyTo_m10256_MethodInfo = 
 {
 	"CopyTo"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_CopyTo_m10255_ParameterInfos/* parameters */
+	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_CopyTo_m10256_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3921,14 +3921,14 @@ extern const MethodInfo ThreadSafeDictionary_2_CopyTo_m10255_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1701/* token */
+	, 1708/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 // System.Int32 SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::get_Count()
-extern const MethodInfo ThreadSafeDictionary_2_get_Count_m10256_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_get_Count_m10257_MethodInfo = 
 {
 	"get_Count"/* name */
 	, NULL/* method */
@@ -3943,14 +3943,14 @@ extern const MethodInfo ThreadSafeDictionary_2_get_Count_m10256_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1702/* token */
+	, 1709/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 // System.Boolean SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::get_IsReadOnly()
-extern const MethodInfo ThreadSafeDictionary_2_get_IsReadOnly_m10257_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_get_IsReadOnly_m10258_MethodInfo = 
 {
 	"get_IsReadOnly"/* name */
 	, NULL/* method */
@@ -3965,26 +3965,26 @@ extern const MethodInfo ThreadSafeDictionary_2_get_IsReadOnly_m10257_MethodInfo 
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1703/* token */
+	, 1710/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType KeyValuePair_2_t3036_0_0_0;
-static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Remove_m10258_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Remove_m10259_ParameterInfos[] = 
 {
-	{"item", 0, 134219663, 0, &KeyValuePair_2_t3036_0_0_0},
+	{"item", 0, 134219675, 0, &KeyValuePair_2_t3036_0_0_0},
 };
 // System.Boolean SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-extern const MethodInfo ThreadSafeDictionary_2_Remove_m10258_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_Remove_m10259_MethodInfo = 
 {
 	"Remove"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Remove_m10258_ParameterInfos/* parameters */
+	, ThreadSafeDictionary_2_t2971_ThreadSafeDictionary_2_Remove_m10259_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -3992,7 +3992,7 @@ extern const MethodInfo ThreadSafeDictionary_2_Remove_m10258_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1704/* token */
+	, 1711/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -4000,7 +4000,7 @@ extern const MethodInfo ThreadSafeDictionary_2_Remove_m10258_MethodInfo =
 };
 extern const Il2CppType IEnumerator_1_t3038_0_0_0;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2::GetEnumerator()
-extern const MethodInfo ThreadSafeDictionary_2_GetEnumerator_m10259_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionary_2_GetEnumerator_m10260_MethodInfo = 
 {
 	"GetEnumerator"/* name */
 	, NULL/* method */
@@ -4015,7 +4015,7 @@ extern const MethodInfo ThreadSafeDictionary_2_GetEnumerator_m10259_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1705/* token */
+	, 1712/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -4023,79 +4023,79 @@ extern const MethodInfo ThreadSafeDictionary_2_GetEnumerator_m10259_MethodInfo =
 };
 static const MethodInfo* ThreadSafeDictionary_2_t2971_MethodInfos[] =
 {
-	&ThreadSafeDictionary_2__ctor_m10240_MethodInfo,
-	&ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m10241_MethodInfo,
-	&ThreadSafeDictionary_2_Get_m10242_MethodInfo,
-	&ThreadSafeDictionary_2_AddValue_m10243_MethodInfo,
-	&ThreadSafeDictionary_2_Add_m10244_MethodInfo,
-	&ThreadSafeDictionary_2_ContainsKey_m10245_MethodInfo,
-	&ThreadSafeDictionary_2_get_Keys_m10246_MethodInfo,
-	&ThreadSafeDictionary_2_Remove_m10247_MethodInfo,
-	&ThreadSafeDictionary_2_TryGetValue_m10248_MethodInfo,
-	&ThreadSafeDictionary_2_get_Values_m10249_MethodInfo,
-	&ThreadSafeDictionary_2_get_Item_m10250_MethodInfo,
-	&ThreadSafeDictionary_2_set_Item_m10251_MethodInfo,
-	&ThreadSafeDictionary_2_Add_m10252_MethodInfo,
-	&ThreadSafeDictionary_2_Clear_m10253_MethodInfo,
-	&ThreadSafeDictionary_2_Contains_m10254_MethodInfo,
-	&ThreadSafeDictionary_2_CopyTo_m10255_MethodInfo,
-	&ThreadSafeDictionary_2_get_Count_m10256_MethodInfo,
-	&ThreadSafeDictionary_2_get_IsReadOnly_m10257_MethodInfo,
-	&ThreadSafeDictionary_2_Remove_m10258_MethodInfo,
-	&ThreadSafeDictionary_2_GetEnumerator_m10259_MethodInfo,
+	&ThreadSafeDictionary_2__ctor_m10241_MethodInfo,
+	&ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m10242_MethodInfo,
+	&ThreadSafeDictionary_2_Get_m10243_MethodInfo,
+	&ThreadSafeDictionary_2_AddValue_m10244_MethodInfo,
+	&ThreadSafeDictionary_2_Add_m10245_MethodInfo,
+	&ThreadSafeDictionary_2_ContainsKey_m10246_MethodInfo,
+	&ThreadSafeDictionary_2_get_Keys_m10247_MethodInfo,
+	&ThreadSafeDictionary_2_Remove_m10248_MethodInfo,
+	&ThreadSafeDictionary_2_TryGetValue_m10249_MethodInfo,
+	&ThreadSafeDictionary_2_get_Values_m10250_MethodInfo,
+	&ThreadSafeDictionary_2_get_Item_m10251_MethodInfo,
+	&ThreadSafeDictionary_2_set_Item_m10252_MethodInfo,
+	&ThreadSafeDictionary_2_Add_m10253_MethodInfo,
+	&ThreadSafeDictionary_2_Clear_m10254_MethodInfo,
+	&ThreadSafeDictionary_2_Contains_m10255_MethodInfo,
+	&ThreadSafeDictionary_2_CopyTo_m10256_MethodInfo,
+	&ThreadSafeDictionary_2_get_Count_m10257_MethodInfo,
+	&ThreadSafeDictionary_2_get_IsReadOnly_m10258_MethodInfo,
+	&ThreadSafeDictionary_2_Remove_m10259_MethodInfo,
+	&ThreadSafeDictionary_2_GetEnumerator_m10260_MethodInfo,
 	NULL
 };
-extern const MethodInfo ThreadSafeDictionary_2_get_Keys_m10246_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_get_Keys_m10247_MethodInfo;
 static const PropertyInfo ThreadSafeDictionary_2_t2971____Keys_PropertyInfo = 
 {
 	&ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* parent */
 	, "Keys"/* name */
-	, &ThreadSafeDictionary_2_get_Keys_m10246_MethodInfo/* get */
+	, &ThreadSafeDictionary_2_get_Keys_m10247_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ThreadSafeDictionary_2_get_Values_m10249_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_get_Values_m10250_MethodInfo;
 static const PropertyInfo ThreadSafeDictionary_2_t2971____Values_PropertyInfo = 
 {
 	&ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* parent */
 	, "Values"/* name */
-	, &ThreadSafeDictionary_2_get_Values_m10249_MethodInfo/* get */
+	, &ThreadSafeDictionary_2_get_Values_m10250_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ThreadSafeDictionary_2_get_Item_m10250_MethodInfo;
-extern const MethodInfo ThreadSafeDictionary_2_set_Item_m10251_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_get_Item_m10251_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_set_Item_m10252_MethodInfo;
 static const PropertyInfo ThreadSafeDictionary_2_t2971____Item_PropertyInfo = 
 {
 	&ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &ThreadSafeDictionary_2_get_Item_m10250_MethodInfo/* get */
-	, &ThreadSafeDictionary_2_set_Item_m10251_MethodInfo/* set */
+	, &ThreadSafeDictionary_2_get_Item_m10251_MethodInfo/* get */
+	, &ThreadSafeDictionary_2_set_Item_m10252_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ThreadSafeDictionary_2_get_Count_m10256_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_get_Count_m10257_MethodInfo;
 static const PropertyInfo ThreadSafeDictionary_2_t2971____Count_PropertyInfo = 
 {
 	&ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
-	, &ThreadSafeDictionary_2_get_Count_m10256_MethodInfo/* get */
+	, &ThreadSafeDictionary_2_get_Count_m10257_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ThreadSafeDictionary_2_get_IsReadOnly_m10257_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_get_IsReadOnly_m10258_MethodInfo;
 static const PropertyInfo ThreadSafeDictionary_2_t2971____IsReadOnly_PropertyInfo = 
 {
 	&ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* parent */
 	, "IsReadOnly"/* name */
-	, &ThreadSafeDictionary_2_get_IsReadOnly_m10257_MethodInfo/* get */
+	, &ThreadSafeDictionary_2_get_IsReadOnly_m10258_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -4110,40 +4110,40 @@ static const PropertyInfo* ThreadSafeDictionary_2_t2971_PropertyInfos[] =
 	&ThreadSafeDictionary_2_t2971____IsReadOnly_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m10241_MethodInfo;
-extern const MethodInfo ThreadSafeDictionary_2_Add_m10244_MethodInfo;
-extern const MethodInfo ThreadSafeDictionary_2_ContainsKey_m10245_MethodInfo;
-extern const MethodInfo ThreadSafeDictionary_2_Remove_m10247_MethodInfo;
-extern const MethodInfo ThreadSafeDictionary_2_TryGetValue_m10248_MethodInfo;
-extern const MethodInfo ThreadSafeDictionary_2_Add_m10252_MethodInfo;
-extern const MethodInfo ThreadSafeDictionary_2_Clear_m10253_MethodInfo;
-extern const MethodInfo ThreadSafeDictionary_2_Contains_m10254_MethodInfo;
-extern const MethodInfo ThreadSafeDictionary_2_CopyTo_m10255_MethodInfo;
-extern const MethodInfo ThreadSafeDictionary_2_Remove_m10258_MethodInfo;
-extern const MethodInfo ThreadSafeDictionary_2_GetEnumerator_m10259_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m10242_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_Add_m10245_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_ContainsKey_m10246_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_Remove_m10248_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_TryGetValue_m10249_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_Add_m10253_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_Clear_m10254_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_Contains_m10255_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_CopyTo_m10256_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_Remove_m10259_MethodInfo;
+extern const MethodInfo ThreadSafeDictionary_2_GetEnumerator_m10260_MethodInfo;
 static const Il2CppMethodReference ThreadSafeDictionary_2_t2971_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m10241_MethodInfo,
-	&ThreadSafeDictionary_2_Add_m10244_MethodInfo,
-	&ThreadSafeDictionary_2_ContainsKey_m10245_MethodInfo,
-	&ThreadSafeDictionary_2_Remove_m10247_MethodInfo,
-	&ThreadSafeDictionary_2_TryGetValue_m10248_MethodInfo,
-	&ThreadSafeDictionary_2_get_Item_m10250_MethodInfo,
-	&ThreadSafeDictionary_2_set_Item_m10251_MethodInfo,
-	&ThreadSafeDictionary_2_get_Keys_m10246_MethodInfo,
-	&ThreadSafeDictionary_2_get_Values_m10249_MethodInfo,
-	&ThreadSafeDictionary_2_get_Count_m10256_MethodInfo,
-	&ThreadSafeDictionary_2_get_IsReadOnly_m10257_MethodInfo,
-	&ThreadSafeDictionary_2_Add_m10252_MethodInfo,
-	&ThreadSafeDictionary_2_Clear_m10253_MethodInfo,
-	&ThreadSafeDictionary_2_Contains_m10254_MethodInfo,
-	&ThreadSafeDictionary_2_CopyTo_m10255_MethodInfo,
-	&ThreadSafeDictionary_2_Remove_m10258_MethodInfo,
-	&ThreadSafeDictionary_2_GetEnumerator_m10259_MethodInfo,
+	&ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m10242_MethodInfo,
+	&ThreadSafeDictionary_2_Add_m10245_MethodInfo,
+	&ThreadSafeDictionary_2_ContainsKey_m10246_MethodInfo,
+	&ThreadSafeDictionary_2_Remove_m10248_MethodInfo,
+	&ThreadSafeDictionary_2_TryGetValue_m10249_MethodInfo,
+	&ThreadSafeDictionary_2_get_Item_m10251_MethodInfo,
+	&ThreadSafeDictionary_2_set_Item_m10252_MethodInfo,
+	&ThreadSafeDictionary_2_get_Keys_m10247_MethodInfo,
+	&ThreadSafeDictionary_2_get_Values_m10250_MethodInfo,
+	&ThreadSafeDictionary_2_get_Count_m10257_MethodInfo,
+	&ThreadSafeDictionary_2_get_IsReadOnly_m10258_MethodInfo,
+	&ThreadSafeDictionary_2_Add_m10253_MethodInfo,
+	&ThreadSafeDictionary_2_Clear_m10254_MethodInfo,
+	&ThreadSafeDictionary_2_Contains_m10255_MethodInfo,
+	&ThreadSafeDictionary_2_CopyTo_m10256_MethodInfo,
+	&ThreadSafeDictionary_2_Remove_m10259_MethodInfo,
+	&ThreadSafeDictionary_2_GetEnumerator_m10260_MethodInfo,
 };
 static bool ThreadSafeDictionary_2_t2971_VTableIsGenericMethod[] =
 {
@@ -4186,38 +4186,38 @@ static Il2CppInterfaceOffsetPair ThreadSafeDictionary_2_t2971_InterfacesOffsets[
 	{ &ICollection_1_t3040_0_0_0, 13},
 	{ &IEnumerable_1_t3041_0_0_0, 20},
 };
-extern const Il2CppGenericMethod Dictionary_2_GetEnumerator_m10366_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_GetEnumerator_m10367_GenericMethod;
 extern const Il2CppType Enumerator_t3042_0_0_0;
-extern const Il2CppGenericMethod ThreadSafeDictionary_2_AddValue_m10367_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_TryGetValue_m10368_GenericMethod;
-extern const Il2CppGenericMethod ThreadSafeDictionaryValueFactory_2_Invoke_m10369_GenericMethod;
+extern const Il2CppGenericMethod ThreadSafeDictionary_2_AddValue_m10368_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_TryGetValue_m10369_GenericMethod;
+extern const Il2CppGenericMethod ThreadSafeDictionaryValueFactory_2_Invoke_m10370_GenericMethod;
 extern const Il2CppType Dictionary_2_t3043_0_0_0;
-extern const Il2CppGenericMethod Dictionary_2__ctor_m10370_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_set_Item_m10371_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2__ctor_m10372_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_ContainsKey_m10373_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_get_Keys_m10374_GenericMethod;
-extern const Il2CppGenericMethod ThreadSafeDictionary_2_get_Item_m10375_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_get_Values_m10376_GenericMethod;
-extern const Il2CppGenericMethod ThreadSafeDictionary_2_Get_m10377_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_get_Count_m10378_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2__ctor_m10371_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_set_Item_m10372_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2__ctor_m10373_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_ContainsKey_m10374_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_get_Keys_m10375_GenericMethod;
+extern const Il2CppGenericMethod ThreadSafeDictionary_2_get_Item_m10376_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_get_Values_m10377_GenericMethod;
+extern const Il2CppGenericMethod ThreadSafeDictionary_2_Get_m10378_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_get_Count_m10379_GenericMethod;
 static Il2CppRGCTXDefinition ThreadSafeDictionary_2_t2971_RGCTXData[16] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_GetEnumerator_m10366_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_GetEnumerator_m10367_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Enumerator_t3042_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ThreadSafeDictionary_2_AddValue_m10367_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_TryGetValue_m10368_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ThreadSafeDictionaryValueFactory_2_Invoke_m10369_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ThreadSafeDictionary_2_AddValue_m10368_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_TryGetValue_m10369_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ThreadSafeDictionaryValueFactory_2_Invoke_m10370_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Dictionary_2_t3043_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2__ctor_m10370_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_set_Item_m10371_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2__ctor_m10372_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_ContainsKey_m10373_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_get_Keys_m10374_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ThreadSafeDictionary_2_get_Item_m10375_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_get_Values_m10376_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ThreadSafeDictionary_2_Get_m10377_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_get_Count_m10378_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2__ctor_m10371_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_set_Item_m10372_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2__ctor_m10373_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_ContainsKey_m10374_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_get_Keys_m10375_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ThreadSafeDictionary_2_get_Item_m10376_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_get_Values_m10377_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ThreadSafeDictionary_2_Get_m10378_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_get_Count_m10379_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
@@ -4250,7 +4250,7 @@ TypeInfo ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &ThreadSafeDictionary_2_t2971_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 750/* custom_attributes_cache */
+	, 757/* custom_attributes_cache */
 	, &ThreadSafeDictionary_2_t2971_0_0_0/* byval_arg */
 	, &ThreadSafeDictionary_2_t2971_1_0_0/* this_arg */
 	, &ThreadSafeDictionary_2_t2971_DefinitionMetadata/* definitionMetadata */
@@ -4301,21 +4301,21 @@ extern TypeInfo GetDelegate_t2826_il2cpp_TypeInfo;
 #include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_GetDelegatMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo GetDelegate_t2826_GetDelegate__ctor_m9819_ParameterInfos[] = 
+static const ParameterInfo GetDelegate_t2826_GetDelegate__ctor_m9820_ParameterInfos[] = 
 {
-	{"object", 0, 134219664, 0, &Object_t_0_0_0},
-	{"method", 1, 134219665, 0, &IntPtr_t_0_0_0},
+	{"object", 0, 134219676, 0, &Object_t_0_0_0},
+	{"method", 1, 134219677, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.Reflection.ReflectionUtils/GetDelegate::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo GetDelegate__ctor_m9819_MethodInfo = 
+extern const MethodInfo GetDelegate__ctor_m9820_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&GetDelegate__ctor_m9819/* method */
+	, (methodPointerType)&GetDelegate__ctor_m9820/* method */
 	, &GetDelegate_t2826_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t/* invoker_method */
-	, GetDelegate_t2826_GetDelegate__ctor_m9819_ParameterInfos/* parameters */
+	, GetDelegate_t2826_GetDelegate__ctor_m9820_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -4323,27 +4323,27 @@ extern const MethodInfo GetDelegate__ctor_m9819_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1706/* token */
+	, 1713/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo GetDelegate_t2826_GetDelegate_Invoke_m9820_ParameterInfos[] = 
+static const ParameterInfo GetDelegate_t2826_GetDelegate_Invoke_m9821_ParameterInfos[] = 
 {
-	{"source", 0, 134219666, 0, &Object_t_0_0_0},
+	{"source", 0, 134219678, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object SimpleJson.Reflection.ReflectionUtils/GetDelegate::Invoke(System.Object)
-extern const MethodInfo GetDelegate_Invoke_m9820_MethodInfo = 
+extern const MethodInfo GetDelegate_Invoke_m9821_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&GetDelegate_Invoke_m9820/* method */
+	, (methodPointerType)&GetDelegate_Invoke_m9821/* method */
 	, &GetDelegate_t2826_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, GetDelegate_t2826_GetDelegate_Invoke_m9820_ParameterInfos/* parameters */
+	, GetDelegate_t2826_GetDelegate_Invoke_m9821_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -4351,7 +4351,7 @@ extern const MethodInfo GetDelegate_Invoke_m9820_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1707/* token */
+	, 1714/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -4360,22 +4360,22 @@ extern const MethodInfo GetDelegate_Invoke_m9820_MethodInfo =
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo GetDelegate_t2826_GetDelegate_BeginInvoke_m9821_ParameterInfos[] = 
+static const ParameterInfo GetDelegate_t2826_GetDelegate_BeginInvoke_m9822_ParameterInfos[] = 
 {
-	{"source", 0, 134219667, 0, &Object_t_0_0_0},
-	{"callback", 1, 134219668, 0, &AsyncCallback_t386_0_0_0},
-	{"object", 2, 134219669, 0, &Object_t_0_0_0},
+	{"source", 0, 134219679, 0, &Object_t_0_0_0},
+	{"callback", 1, 134219680, 0, &AsyncCallback_t386_0_0_0},
+	{"object", 2, 134219681, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult SimpleJson.Reflection.ReflectionUtils/GetDelegate::BeginInvoke(System.Object,System.AsyncCallback,System.Object)
-extern const MethodInfo GetDelegate_BeginInvoke_m9821_MethodInfo = 
+extern const MethodInfo GetDelegate_BeginInvoke_m9822_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&GetDelegate_BeginInvoke_m9821/* method */
+	, (methodPointerType)&GetDelegate_BeginInvoke_m9822/* method */
 	, &GetDelegate_t2826_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, GetDelegate_t2826_GetDelegate_BeginInvoke_m9821_ParameterInfos/* parameters */
+	, GetDelegate_t2826_GetDelegate_BeginInvoke_m9822_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -4383,27 +4383,27 @@ extern const MethodInfo GetDelegate_BeginInvoke_m9821_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1708/* token */
+	, 1715/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo GetDelegate_t2826_GetDelegate_EndInvoke_m9822_ParameterInfos[] = 
+static const ParameterInfo GetDelegate_t2826_GetDelegate_EndInvoke_m9823_ParameterInfos[] = 
 {
-	{"result", 0, 134219670, 0, &IAsyncResult_t385_0_0_0},
+	{"result", 0, 134219682, 0, &IAsyncResult_t385_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object SimpleJson.Reflection.ReflectionUtils/GetDelegate::EndInvoke(System.IAsyncResult)
-extern const MethodInfo GetDelegate_EndInvoke_m9822_MethodInfo = 
+extern const MethodInfo GetDelegate_EndInvoke_m9823_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&GetDelegate_EndInvoke_m9822/* method */
+	, (methodPointerType)&GetDelegate_EndInvoke_m9823/* method */
 	, &GetDelegate_t2826_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, GetDelegate_t2826_GetDelegate_EndInvoke_m9822_ParameterInfos/* parameters */
+	, GetDelegate_t2826_GetDelegate_EndInvoke_m9823_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -4411,7 +4411,7 @@ extern const MethodInfo GetDelegate_EndInvoke_m9822_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1709/* token */
+	, 1716/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -4419,31 +4419,31 @@ extern const MethodInfo GetDelegate_EndInvoke_m9822_MethodInfo =
 };
 static const MethodInfo* GetDelegate_t2826_MethodInfos[] =
 {
-	&GetDelegate__ctor_m9819_MethodInfo,
-	&GetDelegate_Invoke_m9820_MethodInfo,
-	&GetDelegate_BeginInvoke_m9821_MethodInfo,
-	&GetDelegate_EndInvoke_m9822_MethodInfo,
+	&GetDelegate__ctor_m9820_MethodInfo,
+	&GetDelegate_Invoke_m9821_MethodInfo,
+	&GetDelegate_BeginInvoke_m9822_MethodInfo,
+	&GetDelegate_EndInvoke_m9823_MethodInfo,
 	NULL
 };
-extern const MethodInfo GetDelegate_Invoke_m9820_MethodInfo;
-extern const MethodInfo GetDelegate_BeginInvoke_m9821_MethodInfo;
-extern const MethodInfo GetDelegate_EndInvoke_m9822_MethodInfo;
+extern const MethodInfo GetDelegate_Invoke_m9821_MethodInfo;
+extern const MethodInfo GetDelegate_BeginInvoke_m9822_MethodInfo;
+extern const MethodInfo GetDelegate_EndInvoke_m9823_MethodInfo;
 static const Il2CppMethodReference GetDelegate_t2826_VTable[] =
 {
-	&MulticastDelegate_Equals_m4525_MethodInfo,
+	&MulticastDelegate_Equals_m4523_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4524_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
-	&Delegate_Clone_m4529_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
-	&GetDelegate_Invoke_m9820_MethodInfo,
-	&GetDelegate_BeginInvoke_m9821_MethodInfo,
-	&GetDelegate_EndInvoke_m9822_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4525_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4526_MethodInfo,
+	&Delegate_Clone_m4527_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4525_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4528_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4529_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4530_MethodInfo,
+	&GetDelegate_Invoke_m9821_MethodInfo,
+	&GetDelegate_BeginInvoke_m9822_MethodInfo,
+	&GetDelegate_EndInvoke_m9823_MethodInfo,
 };
 static bool GetDelegate_t2826_VTableIsGenericMethod[] =
 {
@@ -4546,21 +4546,21 @@ extern TypeInfo SetDelegate_t2827_il2cpp_TypeInfo;
 #include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_SetDelegatMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo SetDelegate_t2827_SetDelegate__ctor_m9823_ParameterInfos[] = 
+static const ParameterInfo SetDelegate_t2827_SetDelegate__ctor_m9824_ParameterInfos[] = 
 {
-	{"object", 0, 134219671, 0, &Object_t_0_0_0},
-	{"method", 1, 134219672, 0, &IntPtr_t_0_0_0},
+	{"object", 0, 134219683, 0, &Object_t_0_0_0},
+	{"method", 1, 134219684, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.Reflection.ReflectionUtils/SetDelegate::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo SetDelegate__ctor_m9823_MethodInfo = 
+extern const MethodInfo SetDelegate__ctor_m9824_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SetDelegate__ctor_m9823/* method */
+	, (methodPointerType)&SetDelegate__ctor_m9824/* method */
 	, &SetDelegate_t2827_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t/* invoker_method */
-	, SetDelegate_t2827_SetDelegate__ctor_m9823_ParameterInfos/* parameters */
+	, SetDelegate_t2827_SetDelegate__ctor_m9824_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -4568,7 +4568,7 @@ extern const MethodInfo SetDelegate__ctor_m9823_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1710/* token */
+	, 1717/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -4576,21 +4576,21 @@ extern const MethodInfo SetDelegate__ctor_m9823_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo SetDelegate_t2827_SetDelegate_Invoke_m9824_ParameterInfos[] = 
+static const ParameterInfo SetDelegate_t2827_SetDelegate_Invoke_m9825_ParameterInfos[] = 
 {
-	{"source", 0, 134219673, 0, &Object_t_0_0_0},
-	{"value", 1, 134219674, 0, &Object_t_0_0_0},
+	{"source", 0, 134219685, 0, &Object_t_0_0_0},
+	{"value", 1, 134219686, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.Reflection.ReflectionUtils/SetDelegate::Invoke(System.Object,System.Object)
-extern const MethodInfo SetDelegate_Invoke_m9824_MethodInfo = 
+extern const MethodInfo SetDelegate_Invoke_m9825_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&SetDelegate_Invoke_m9824/* method */
+	, (methodPointerType)&SetDelegate_Invoke_m9825/* method */
 	, &SetDelegate_t2827_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, SetDelegate_t2827_SetDelegate_Invoke_m9824_ParameterInfos/* parameters */
+	, SetDelegate_t2827_SetDelegate_Invoke_m9825_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -4598,7 +4598,7 @@ extern const MethodInfo SetDelegate_Invoke_m9824_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1711/* token */
+	, 1718/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -4608,23 +4608,23 @@ extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo SetDelegate_t2827_SetDelegate_BeginInvoke_m9825_ParameterInfos[] = 
+static const ParameterInfo SetDelegate_t2827_SetDelegate_BeginInvoke_m9826_ParameterInfos[] = 
 {
-	{"source", 0, 134219675, 0, &Object_t_0_0_0},
-	{"value", 1, 134219676, 0, &Object_t_0_0_0},
-	{"callback", 2, 134219677, 0, &AsyncCallback_t386_0_0_0},
-	{"object", 3, 134219678, 0, &Object_t_0_0_0},
+	{"source", 0, 134219687, 0, &Object_t_0_0_0},
+	{"value", 1, 134219688, 0, &Object_t_0_0_0},
+	{"callback", 2, 134219689, 0, &AsyncCallback_t386_0_0_0},
+	{"object", 3, 134219690, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult SimpleJson.Reflection.ReflectionUtils/SetDelegate::BeginInvoke(System.Object,System.Object,System.AsyncCallback,System.Object)
-extern const MethodInfo SetDelegate_BeginInvoke_m9825_MethodInfo = 
+extern const MethodInfo SetDelegate_BeginInvoke_m9826_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&SetDelegate_BeginInvoke_m9825/* method */
+	, (methodPointerType)&SetDelegate_BeginInvoke_m9826/* method */
 	, &SetDelegate_t2827_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, SetDelegate_t2827_SetDelegate_BeginInvoke_m9825_ParameterInfos/* parameters */
+	, SetDelegate_t2827_SetDelegate_BeginInvoke_m9826_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -4632,27 +4632,27 @@ extern const MethodInfo SetDelegate_BeginInvoke_m9825_MethodInfo =
 	, 4/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1712/* token */
+	, 1719/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo SetDelegate_t2827_SetDelegate_EndInvoke_m9826_ParameterInfos[] = 
+static const ParameterInfo SetDelegate_t2827_SetDelegate_EndInvoke_m9827_ParameterInfos[] = 
 {
-	{"result", 0, 134219679, 0, &IAsyncResult_t385_0_0_0},
+	{"result", 0, 134219691, 0, &IAsyncResult_t385_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.Reflection.ReflectionUtils/SetDelegate::EndInvoke(System.IAsyncResult)
-extern const MethodInfo SetDelegate_EndInvoke_m9826_MethodInfo = 
+extern const MethodInfo SetDelegate_EndInvoke_m9827_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&SetDelegate_EndInvoke_m9826/* method */
+	, (methodPointerType)&SetDelegate_EndInvoke_m9827/* method */
 	, &SetDelegate_t2827_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SetDelegate_t2827_SetDelegate_EndInvoke_m9826_ParameterInfos/* parameters */
+	, SetDelegate_t2827_SetDelegate_EndInvoke_m9827_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -4660,7 +4660,7 @@ extern const MethodInfo SetDelegate_EndInvoke_m9826_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1713/* token */
+	, 1720/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -4668,31 +4668,31 @@ extern const MethodInfo SetDelegate_EndInvoke_m9826_MethodInfo =
 };
 static const MethodInfo* SetDelegate_t2827_MethodInfos[] =
 {
-	&SetDelegate__ctor_m9823_MethodInfo,
-	&SetDelegate_Invoke_m9824_MethodInfo,
-	&SetDelegate_BeginInvoke_m9825_MethodInfo,
-	&SetDelegate_EndInvoke_m9826_MethodInfo,
+	&SetDelegate__ctor_m9824_MethodInfo,
+	&SetDelegate_Invoke_m9825_MethodInfo,
+	&SetDelegate_BeginInvoke_m9826_MethodInfo,
+	&SetDelegate_EndInvoke_m9827_MethodInfo,
 	NULL
 };
-extern const MethodInfo SetDelegate_Invoke_m9824_MethodInfo;
-extern const MethodInfo SetDelegate_BeginInvoke_m9825_MethodInfo;
-extern const MethodInfo SetDelegate_EndInvoke_m9826_MethodInfo;
+extern const MethodInfo SetDelegate_Invoke_m9825_MethodInfo;
+extern const MethodInfo SetDelegate_BeginInvoke_m9826_MethodInfo;
+extern const MethodInfo SetDelegate_EndInvoke_m9827_MethodInfo;
 static const Il2CppMethodReference SetDelegate_t2827_VTable[] =
 {
-	&MulticastDelegate_Equals_m4525_MethodInfo,
+	&MulticastDelegate_Equals_m4523_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4524_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
-	&Delegate_Clone_m4529_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
-	&SetDelegate_Invoke_m9824_MethodInfo,
-	&SetDelegate_BeginInvoke_m9825_MethodInfo,
-	&SetDelegate_EndInvoke_m9826_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4525_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4526_MethodInfo,
+	&Delegate_Clone_m4527_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4525_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4528_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4529_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4530_MethodInfo,
+	&SetDelegate_Invoke_m9825_MethodInfo,
+	&SetDelegate_BeginInvoke_m9826_MethodInfo,
+	&SetDelegate_EndInvoke_m9827_MethodInfo,
 };
 static bool SetDelegate_t2827_VTableIsGenericMethod[] =
 {
@@ -4795,21 +4795,21 @@ extern TypeInfo ConstructorDelegate_t2828_il2cpp_TypeInfo;
 #include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_ConstructoMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo ConstructorDelegate_t2828_ConstructorDelegate__ctor_m9827_ParameterInfos[] = 
+static const ParameterInfo ConstructorDelegate_t2828_ConstructorDelegate__ctor_m9828_ParameterInfos[] = 
 {
-	{"object", 0, 134219680, 0, &Object_t_0_0_0},
-	{"method", 1, 134219681, 0, &IntPtr_t_0_0_0},
+	{"object", 0, 134219692, 0, &Object_t_0_0_0},
+	{"method", 1, 134219693, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo ConstructorDelegate__ctor_m9827_MethodInfo = 
+extern const MethodInfo ConstructorDelegate__ctor_m9828_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ConstructorDelegate__ctor_m9827/* method */
+	, (methodPointerType)&ConstructorDelegate__ctor_m9828/* method */
 	, &ConstructorDelegate_t2828_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t/* invoker_method */
-	, ConstructorDelegate_t2828_ConstructorDelegate__ctor_m9827_ParameterInfos/* parameters */
+	, ConstructorDelegate_t2828_ConstructorDelegate__ctor_m9828_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -4817,7 +4817,7 @@ extern const MethodInfo ConstructorDelegate__ctor_m9827_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1714/* token */
+	, 1721/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -4825,20 +4825,20 @@ extern const MethodInfo ConstructorDelegate__ctor_m9827_MethodInfo =
 };
 extern const Il2CppType ObjectU5BU5D_t682_0_0_0;
 extern const Il2CppType ObjectU5BU5D_t682_0_0_0;
-static const ParameterInfo ConstructorDelegate_t2828_ConstructorDelegate_Invoke_m9828_ParameterInfos[] = 
+static const ParameterInfo ConstructorDelegate_t2828_ConstructorDelegate_Invoke_m9829_ParameterInfos[] = 
 {
-	{"args", 0, 134219682, 751, &ObjectU5BU5D_t682_0_0_0},
+	{"args", 0, 134219694, 758, &ObjectU5BU5D_t682_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate::Invoke(System.Object[])
-extern const MethodInfo ConstructorDelegate_Invoke_m9828_MethodInfo = 
+extern const MethodInfo ConstructorDelegate_Invoke_m9829_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&ConstructorDelegate_Invoke_m9828/* method */
+	, (methodPointerType)&ConstructorDelegate_Invoke_m9829/* method */
 	, &ConstructorDelegate_t2828_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConstructorDelegate_t2828_ConstructorDelegate_Invoke_m9828_ParameterInfos/* parameters */
+	, ConstructorDelegate_t2828_ConstructorDelegate_Invoke_m9829_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -4846,7 +4846,7 @@ extern const MethodInfo ConstructorDelegate_Invoke_m9828_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1715/* token */
+	, 1722/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -4855,22 +4855,22 @@ extern const MethodInfo ConstructorDelegate_Invoke_m9828_MethodInfo =
 extern const Il2CppType ObjectU5BU5D_t682_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConstructorDelegate_t2828_ConstructorDelegate_BeginInvoke_m9829_ParameterInfos[] = 
+static const ParameterInfo ConstructorDelegate_t2828_ConstructorDelegate_BeginInvoke_m9830_ParameterInfos[] = 
 {
-	{"args", 0, 134219683, 752, &ObjectU5BU5D_t682_0_0_0},
-	{"callback", 1, 134219684, 0, &AsyncCallback_t386_0_0_0},
-	{"object", 2, 134219685, 0, &Object_t_0_0_0},
+	{"args", 0, 134219695, 759, &ObjectU5BU5D_t682_0_0_0},
+	{"callback", 1, 134219696, 0, &AsyncCallback_t386_0_0_0},
+	{"object", 2, 134219697, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate::BeginInvoke(System.Object[],System.AsyncCallback,System.Object)
-extern const MethodInfo ConstructorDelegate_BeginInvoke_m9829_MethodInfo = 
+extern const MethodInfo ConstructorDelegate_BeginInvoke_m9830_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&ConstructorDelegate_BeginInvoke_m9829/* method */
+	, (methodPointerType)&ConstructorDelegate_BeginInvoke_m9830/* method */
 	, &ConstructorDelegate_t2828_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, ConstructorDelegate_t2828_ConstructorDelegate_BeginInvoke_m9829_ParameterInfos/* parameters */
+	, ConstructorDelegate_t2828_ConstructorDelegate_BeginInvoke_m9830_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -4878,27 +4878,27 @@ extern const MethodInfo ConstructorDelegate_BeginInvoke_m9829_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1716/* token */
+	, 1723/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo ConstructorDelegate_t2828_ConstructorDelegate_EndInvoke_m9830_ParameterInfos[] = 
+static const ParameterInfo ConstructorDelegate_t2828_ConstructorDelegate_EndInvoke_m9831_ParameterInfos[] = 
 {
-	{"result", 0, 134219686, 0, &IAsyncResult_t385_0_0_0},
+	{"result", 0, 134219698, 0, &IAsyncResult_t385_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate::EndInvoke(System.IAsyncResult)
-extern const MethodInfo ConstructorDelegate_EndInvoke_m9830_MethodInfo = 
+extern const MethodInfo ConstructorDelegate_EndInvoke_m9831_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&ConstructorDelegate_EndInvoke_m9830/* method */
+	, (methodPointerType)&ConstructorDelegate_EndInvoke_m9831/* method */
 	, &ConstructorDelegate_t2828_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConstructorDelegate_t2828_ConstructorDelegate_EndInvoke_m9830_ParameterInfos/* parameters */
+	, ConstructorDelegate_t2828_ConstructorDelegate_EndInvoke_m9831_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -4906,7 +4906,7 @@ extern const MethodInfo ConstructorDelegate_EndInvoke_m9830_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1717/* token */
+	, 1724/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -4914,31 +4914,31 @@ extern const MethodInfo ConstructorDelegate_EndInvoke_m9830_MethodInfo =
 };
 static const MethodInfo* ConstructorDelegate_t2828_MethodInfos[] =
 {
-	&ConstructorDelegate__ctor_m9827_MethodInfo,
-	&ConstructorDelegate_Invoke_m9828_MethodInfo,
-	&ConstructorDelegate_BeginInvoke_m9829_MethodInfo,
-	&ConstructorDelegate_EndInvoke_m9830_MethodInfo,
+	&ConstructorDelegate__ctor_m9828_MethodInfo,
+	&ConstructorDelegate_Invoke_m9829_MethodInfo,
+	&ConstructorDelegate_BeginInvoke_m9830_MethodInfo,
+	&ConstructorDelegate_EndInvoke_m9831_MethodInfo,
 	NULL
 };
-extern const MethodInfo ConstructorDelegate_Invoke_m9828_MethodInfo;
-extern const MethodInfo ConstructorDelegate_BeginInvoke_m9829_MethodInfo;
-extern const MethodInfo ConstructorDelegate_EndInvoke_m9830_MethodInfo;
+extern const MethodInfo ConstructorDelegate_Invoke_m9829_MethodInfo;
+extern const MethodInfo ConstructorDelegate_BeginInvoke_m9830_MethodInfo;
+extern const MethodInfo ConstructorDelegate_EndInvoke_m9831_MethodInfo;
 static const Il2CppMethodReference ConstructorDelegate_t2828_VTable[] =
 {
-	&MulticastDelegate_Equals_m4525_MethodInfo,
+	&MulticastDelegate_Equals_m4523_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4524_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
-	&Delegate_Clone_m4529_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
-	&ConstructorDelegate_Invoke_m9828_MethodInfo,
-	&ConstructorDelegate_BeginInvoke_m9829_MethodInfo,
-	&ConstructorDelegate_EndInvoke_m9830_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4525_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4526_MethodInfo,
+	&Delegate_Clone_m4527_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4525_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4528_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4529_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4530_MethodInfo,
+	&ConstructorDelegate_Invoke_m9829_MethodInfo,
+	&ConstructorDelegate_BeginInvoke_m9830_MethodInfo,
+	&ConstructorDelegate_EndInvoke_m9831_MethodInfo,
 };
 static bool ConstructorDelegate_t2828_VTableIsGenericMethod[] =
 {
@@ -5047,20 +5047,20 @@ static const Il2CppGenericParameter* ThreadSafeDictionaryValueFactory_2_t2972_Il
 extern const Il2CppGenericContainer ThreadSafeDictionaryValueFactory_2_t2972_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ThreadSafeDictionaryValueFactory_2_t2972_il2cpp_TypeInfo, 2, 0, ThreadSafeDictionaryValueFactory_2_t2972_Il2CppGenericParametersArray };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2__ctor_m10260_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2__ctor_m10261_ParameterInfos[] = 
 {
-	{"object", 0, 134219687, 0, &Object_t_0_0_0},
-	{"method", 1, 134219688, 0, &IntPtr_t_0_0_0},
+	{"object", 0, 134219699, 0, &Object_t_0_0_0},
+	{"method", 1, 134219700, 0, &IntPtr_t_0_0_0},
 };
 // System.Void SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo ThreadSafeDictionaryValueFactory_2__ctor_m10260_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionaryValueFactory_2__ctor_m10261_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionaryValueFactory_2_t2972_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2__ctor_m10260_ParameterInfos/* parameters */
+	, ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2__ctor_m10261_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -5068,7 +5068,7 @@ extern const MethodInfo ThreadSafeDictionaryValueFactory_2__ctor_m10260_MethodIn
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1718/* token */
+	, 1725/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -5076,20 +5076,20 @@ extern const MethodInfo ThreadSafeDictionaryValueFactory_2__ctor_m10260_MethodIn
 };
 extern const Il2CppType ThreadSafeDictionaryValueFactory_2_t2972_gp_0_0_0_0;
 extern const Il2CppType ThreadSafeDictionaryValueFactory_2_t2972_gp_0_0_0_0;
-static const ParameterInfo ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2_Invoke_m10261_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2_Invoke_m10262_ParameterInfos[] = 
 {
-	{"key", 0, 134219689, 0, &ThreadSafeDictionaryValueFactory_2_t2972_gp_0_0_0_0},
+	{"key", 0, 134219701, 0, &ThreadSafeDictionaryValueFactory_2_t2972_gp_0_0_0_0},
 };
 extern const Il2CppType ThreadSafeDictionaryValueFactory_2_t2972_gp_1_0_0_0;
 // TValue SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2::Invoke(TKey)
-extern const MethodInfo ThreadSafeDictionaryValueFactory_2_Invoke_m10261_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionaryValueFactory_2_Invoke_m10262_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionaryValueFactory_2_t2972_il2cpp_TypeInfo/* declaring_type */
 	, &ThreadSafeDictionaryValueFactory_2_t2972_gp_1_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2_Invoke_m10261_ParameterInfos/* parameters */
+	, ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2_Invoke_m10262_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -5097,7 +5097,7 @@ extern const MethodInfo ThreadSafeDictionaryValueFactory_2_Invoke_m10261_MethodI
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1719/* token */
+	, 1726/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -5106,21 +5106,21 @@ extern const MethodInfo ThreadSafeDictionaryValueFactory_2_Invoke_m10261_MethodI
 extern const Il2CppType ThreadSafeDictionaryValueFactory_2_t2972_gp_0_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2_BeginInvoke_m10262_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2_BeginInvoke_m10263_ParameterInfos[] = 
 {
-	{"key", 0, 134219690, 0, &ThreadSafeDictionaryValueFactory_2_t2972_gp_0_0_0_0},
-	{"callback", 1, 134219691, 0, &AsyncCallback_t386_0_0_0},
-	{"object", 2, 134219692, 0, &Object_t_0_0_0},
+	{"key", 0, 134219702, 0, &ThreadSafeDictionaryValueFactory_2_t2972_gp_0_0_0_0},
+	{"callback", 1, 134219703, 0, &AsyncCallback_t386_0_0_0},
+	{"object", 2, 134219704, 0, &Object_t_0_0_0},
 };
 // System.IAsyncResult SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2::BeginInvoke(TKey,System.AsyncCallback,System.Object)
-extern const MethodInfo ThreadSafeDictionaryValueFactory_2_BeginInvoke_m10262_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionaryValueFactory_2_BeginInvoke_m10263_MethodInfo = 
 {
 	"BeginInvoke"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionaryValueFactory_2_t2972_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2_BeginInvoke_m10262_ParameterInfos/* parameters */
+	, ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2_BeginInvoke_m10263_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -5128,26 +5128,26 @@ extern const MethodInfo ThreadSafeDictionaryValueFactory_2_BeginInvoke_m10262_Me
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1720/* token */
+	, 1727/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2_EndInvoke_m10263_ParameterInfos[] = 
+static const ParameterInfo ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2_EndInvoke_m10264_ParameterInfos[] = 
 {
-	{"result", 0, 134219693, 0, &IAsyncResult_t385_0_0_0},
+	{"result", 0, 134219705, 0, &IAsyncResult_t385_0_0_0},
 };
 // TValue SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2::EndInvoke(System.IAsyncResult)
-extern const MethodInfo ThreadSafeDictionaryValueFactory_2_EndInvoke_m10263_MethodInfo = 
+extern const MethodInfo ThreadSafeDictionaryValueFactory_2_EndInvoke_m10264_MethodInfo = 
 {
 	"EndInvoke"/* name */
 	, NULL/* method */
 	, &ThreadSafeDictionaryValueFactory_2_t2972_il2cpp_TypeInfo/* declaring_type */
 	, &ThreadSafeDictionaryValueFactory_2_t2972_gp_1_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2_EndInvoke_m10263_ParameterInfos/* parameters */
+	, ThreadSafeDictionaryValueFactory_2_t2972_ThreadSafeDictionaryValueFactory_2_EndInvoke_m10264_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -5155,7 +5155,7 @@ extern const MethodInfo ThreadSafeDictionaryValueFactory_2_EndInvoke_m10263_Meth
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1721/* token */
+	, 1728/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -5163,31 +5163,31 @@ extern const MethodInfo ThreadSafeDictionaryValueFactory_2_EndInvoke_m10263_Meth
 };
 static const MethodInfo* ThreadSafeDictionaryValueFactory_2_t2972_MethodInfos[] =
 {
-	&ThreadSafeDictionaryValueFactory_2__ctor_m10260_MethodInfo,
-	&ThreadSafeDictionaryValueFactory_2_Invoke_m10261_MethodInfo,
-	&ThreadSafeDictionaryValueFactory_2_BeginInvoke_m10262_MethodInfo,
-	&ThreadSafeDictionaryValueFactory_2_EndInvoke_m10263_MethodInfo,
+	&ThreadSafeDictionaryValueFactory_2__ctor_m10261_MethodInfo,
+	&ThreadSafeDictionaryValueFactory_2_Invoke_m10262_MethodInfo,
+	&ThreadSafeDictionaryValueFactory_2_BeginInvoke_m10263_MethodInfo,
+	&ThreadSafeDictionaryValueFactory_2_EndInvoke_m10264_MethodInfo,
 	NULL
 };
-extern const MethodInfo ThreadSafeDictionaryValueFactory_2_Invoke_m10261_MethodInfo;
-extern const MethodInfo ThreadSafeDictionaryValueFactory_2_BeginInvoke_m10262_MethodInfo;
-extern const MethodInfo ThreadSafeDictionaryValueFactory_2_EndInvoke_m10263_MethodInfo;
+extern const MethodInfo ThreadSafeDictionaryValueFactory_2_Invoke_m10262_MethodInfo;
+extern const MethodInfo ThreadSafeDictionaryValueFactory_2_BeginInvoke_m10263_MethodInfo;
+extern const MethodInfo ThreadSafeDictionaryValueFactory_2_EndInvoke_m10264_MethodInfo;
 static const Il2CppMethodReference ThreadSafeDictionaryValueFactory_2_t2972_VTable[] =
 {
-	&MulticastDelegate_Equals_m4525_MethodInfo,
+	&MulticastDelegate_Equals_m4523_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4526_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4524_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4528_MethodInfo,
-	&Delegate_Clone_m4529_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4527_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4530_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4531_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4532_MethodInfo,
-	&ThreadSafeDictionaryValueFactory_2_Invoke_m10261_MethodInfo,
-	&ThreadSafeDictionaryValueFactory_2_BeginInvoke_m10262_MethodInfo,
-	&ThreadSafeDictionaryValueFactory_2_EndInvoke_m10263_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4525_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4526_MethodInfo,
+	&Delegate_Clone_m4527_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4525_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4528_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4529_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4530_MethodInfo,
+	&ThreadSafeDictionaryValueFactory_2_Invoke_m10262_MethodInfo,
+	&ThreadSafeDictionaryValueFactory_2_BeginInvoke_m10263_MethodInfo,
+	&ThreadSafeDictionaryValueFactory_2_EndInvoke_m10264_MethodInfo,
 };
 static bool ThreadSafeDictionaryValueFactory_2_t2972_VTableIsGenericMethod[] =
 {
@@ -5290,10 +5290,10 @@ extern TypeInfo U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_il2cpp_Type
 #include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_U3CGetConsMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.Reflection.ReflectionUtils/<GetConstructorByReflection>c__AnonStorey1::.ctor()
-extern const MethodInfo U3CGetConstructorByReflectionU3Ec__AnonStorey1__ctor_m9831_MethodInfo = 
+extern const MethodInfo U3CGetConstructorByReflectionU3Ec__AnonStorey1__ctor_m9832_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CGetConstructorByReflectionU3Ec__AnonStorey1__ctor_m9831/* method */
+	, (methodPointerType)&U3CGetConstructorByReflectionU3Ec__AnonStorey1__ctor_m9832/* method */
 	, &U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -5305,27 +5305,27 @@ extern const MethodInfo U3CGetConstructorByReflectionU3Ec__AnonStorey1__ctor_m98
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1722/* token */
+	, 1729/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ObjectU5BU5D_t682_0_0_0;
-static const ParameterInfo U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__0_m9832_ParameterInfos[] = 
+static const ParameterInfo U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__0_m9833_ParameterInfos[] = 
 {
-	{"args", 0, 134219694, 0, &ObjectU5BU5D_t682_0_0_0},
+	{"args", 0, 134219706, 0, &ObjectU5BU5D_t682_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object SimpleJson.Reflection.ReflectionUtils/<GetConstructorByReflection>c__AnonStorey1::<>m__0(System.Object[])
-extern const MethodInfo U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__0_m9832_MethodInfo = 
+extern const MethodInfo U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__0_m9833_MethodInfo = 
 {
 	"<>m__0"/* name */
-	, (methodPointerType)&U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__0_m9832/* method */
+	, (methodPointerType)&U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__0_m9833/* method */
 	, &U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__0_m9832_ParameterInfos/* parameters */
+	, U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__0_m9833_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -5333,7 +5333,7 @@ extern const MethodInfo U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1723/* token */
+	, 1730/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -5341,8 +5341,8 @@ extern const MethodInfo U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__
 };
 static const MethodInfo* U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_MethodInfos[] =
 {
-	&U3CGetConstructorByReflectionU3Ec__AnonStorey1__ctor_m9831_MethodInfo,
-	&U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__0_m9832_MethodInfo,
+	&U3CGetConstructorByReflectionU3Ec__AnonStorey1__ctor_m9832_MethodInfo,
+	&U3CGetConstructorByReflectionU3Ec__AnonStorey1_U3CU3Em__0_m9833_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_VTable[] =
@@ -5387,7 +5387,7 @@ TypeInfo U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 753/* custom_attributes_cache */
+	, 760/* custom_attributes_cache */
 	, &U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_0_0_0/* byval_arg */
 	, &U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_1_0_0/* this_arg */
 	, &U3CGetConstructorByReflectionU3Ec__AnonStorey1_t2829_DefinitionMetadata/* definitionMetadata */
@@ -5438,10 +5438,10 @@ extern TypeInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_il2cpp_TypeIn
 #include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_U3CGetGetMMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.Reflection.ReflectionUtils/<GetGetMethodByReflection>c__AnonStorey2::.ctor()
-extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey2__ctor_m9833_MethodInfo = 
+extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey2__ctor_m9834_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CGetGetMethodByReflectionU3Ec__AnonStorey2__ctor_m9833/* method */
+	, (methodPointerType)&U3CGetGetMethodByReflectionU3Ec__AnonStorey2__ctor_m9834/* method */
 	, &U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -5453,27 +5453,27 @@ extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey2__ctor_m9833
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1724/* token */
+	, 1731/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_m9834_ParameterInfos[] = 
+static const ParameterInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_m9835_ParameterInfos[] = 
 {
-	{"source", 0, 134219695, 0, &Object_t_0_0_0},
+	{"source", 0, 134219707, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object SimpleJson.Reflection.ReflectionUtils/<GetGetMethodByReflection>c__AnonStorey2::<>m__1(System.Object)
-extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_m9834_MethodInfo = 
+extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_m9835_MethodInfo = 
 {
 	"<>m__1"/* name */
-	, (methodPointerType)&U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_m9834/* method */
+	, (methodPointerType)&U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_m9835/* method */
 	, &U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_m9834_ParameterInfos/* parameters */
+	, U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_m9835_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -5481,7 +5481,7 @@ extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1725/* token */
+	, 1732/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -5489,8 +5489,8 @@ extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_
 };
 static const MethodInfo* U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_MethodInfos[] =
 {
-	&U3CGetGetMethodByReflectionU3Ec__AnonStorey2__ctor_m9833_MethodInfo,
-	&U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_m9834_MethodInfo,
+	&U3CGetGetMethodByReflectionU3Ec__AnonStorey2__ctor_m9834_MethodInfo,
+	&U3CGetGetMethodByReflectionU3Ec__AnonStorey2_U3CU3Em__1_m9835_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_VTable[] =
@@ -5535,7 +5535,7 @@ TypeInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 754/* custom_attributes_cache */
+	, 761/* custom_attributes_cache */
 	, &U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_0_0_0/* byval_arg */
 	, &U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_1_0_0/* this_arg */
 	, &U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t2830_DefinitionMetadata/* definitionMetadata */
@@ -5586,10 +5586,10 @@ extern TypeInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_il2cpp_TypeIn
 #include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_U3CGetGetM_0MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.Reflection.ReflectionUtils/<GetGetMethodByReflection>c__AnonStorey3::.ctor()
-extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey3__ctor_m9835_MethodInfo = 
+extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey3__ctor_m9836_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CGetGetMethodByReflectionU3Ec__AnonStorey3__ctor_m9835/* method */
+	, (methodPointerType)&U3CGetGetMethodByReflectionU3Ec__AnonStorey3__ctor_m9836/* method */
 	, &U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -5601,27 +5601,27 @@ extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey3__ctor_m9835
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1726/* token */
+	, 1733/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__2_m9836_ParameterInfos[] = 
+static const ParameterInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__2_m9837_ParameterInfos[] = 
 {
-	{"source", 0, 134219696, 0, &Object_t_0_0_0},
+	{"source", 0, 134219708, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object SimpleJson.Reflection.ReflectionUtils/<GetGetMethodByReflection>c__AnonStorey3::<>m__2(System.Object)
-extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__2_m9836_MethodInfo = 
+extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__2_m9837_MethodInfo = 
 {
 	"<>m__2"/* name */
-	, (methodPointerType)&U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__2_m9836/* method */
+	, (methodPointerType)&U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__2_m9837/* method */
 	, &U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__2_m9836_ParameterInfos/* parameters */
+	, U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__2_m9837_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -5629,7 +5629,7 @@ extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__2_
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1727/* token */
+	, 1734/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -5637,8 +5637,8 @@ extern const MethodInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__2_
 };
 static const MethodInfo* U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_MethodInfos[] =
 {
-	&U3CGetGetMethodByReflectionU3Ec__AnonStorey3__ctor_m9835_MethodInfo,
-	&U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__2_m9836_MethodInfo,
+	&U3CGetGetMethodByReflectionU3Ec__AnonStorey3__ctor_m9836_MethodInfo,
+	&U3CGetGetMethodByReflectionU3Ec__AnonStorey3_U3CU3Em__2_m9837_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_VTable[] =
@@ -5683,7 +5683,7 @@ TypeInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 755/* custom_attributes_cache */
+	, 762/* custom_attributes_cache */
 	, &U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_0_0_0/* byval_arg */
 	, &U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_1_0_0/* this_arg */
 	, &U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t2831_DefinitionMetadata/* definitionMetadata */
@@ -5734,10 +5734,10 @@ extern TypeInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_il2cpp_TypeIn
 #include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_U3CGetSetMMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.Reflection.ReflectionUtils/<GetSetMethodByReflection>c__AnonStorey4::.ctor()
-extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey4__ctor_m9837_MethodInfo = 
+extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey4__ctor_m9838_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CGetSetMethodByReflectionU3Ec__AnonStorey4__ctor_m9837/* method */
+	, (methodPointerType)&U3CGetSetMethodByReflectionU3Ec__AnonStorey4__ctor_m9838/* method */
 	, &U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -5749,7 +5749,7 @@ extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey4__ctor_m9837
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1728/* token */
+	, 1735/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -5757,21 +5757,21 @@ extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey4__ctor_m9837
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_U3CGetSetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__3_m9838_ParameterInfos[] = 
+static const ParameterInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_U3CGetSetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__3_m9839_ParameterInfos[] = 
 {
-	{"source", 0, 134219697, 0, &Object_t_0_0_0},
-	{"value", 1, 134219698, 0, &Object_t_0_0_0},
+	{"source", 0, 134219709, 0, &Object_t_0_0_0},
+	{"value", 1, 134219710, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.Reflection.ReflectionUtils/<GetSetMethodByReflection>c__AnonStorey4::<>m__3(System.Object,System.Object)
-extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__3_m9838_MethodInfo = 
+extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__3_m9839_MethodInfo = 
 {
 	"<>m__3"/* name */
-	, (methodPointerType)&U3CGetSetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__3_m9838/* method */
+	, (methodPointerType)&U3CGetSetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__3_m9839/* method */
 	, &U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_U3CGetSetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__3_m9838_ParameterInfos/* parameters */
+	, U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_U3CGetSetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__3_m9839_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -5779,7 +5779,7 @@ extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__3_
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1729/* token */
+	, 1736/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -5787,8 +5787,8 @@ extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__3_
 };
 static const MethodInfo* U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_MethodInfos[] =
 {
-	&U3CGetSetMethodByReflectionU3Ec__AnonStorey4__ctor_m9837_MethodInfo,
-	&U3CGetSetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__3_m9838_MethodInfo,
+	&U3CGetSetMethodByReflectionU3Ec__AnonStorey4__ctor_m9838_MethodInfo,
+	&U3CGetSetMethodByReflectionU3Ec__AnonStorey4_U3CU3Em__3_m9839_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_VTable[] =
@@ -5833,7 +5833,7 @@ TypeInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 756/* custom_attributes_cache */
+	, 763/* custom_attributes_cache */
 	, &U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_0_0_0/* byval_arg */
 	, &U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_1_0_0/* this_arg */
 	, &U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t2832_DefinitionMetadata/* definitionMetadata */
@@ -5884,10 +5884,10 @@ extern TypeInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_il2cpp_TypeIn
 #include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_U3CGetSetM_0MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.Reflection.ReflectionUtils/<GetSetMethodByReflection>c__AnonStorey5::.ctor()
-extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5__ctor_m9839_MethodInfo = 
+extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5__ctor_m9840_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CGetSetMethodByReflectionU3Ec__AnonStorey5__ctor_m9839/* method */
+	, (methodPointerType)&U3CGetSetMethodByReflectionU3Ec__AnonStorey5__ctor_m9840/* method */
 	, &U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -5899,7 +5899,7 @@ extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5__ctor_m9839
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1730/* token */
+	, 1737/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -5907,21 +5907,21 @@ extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5__ctor_m9839
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__4_m9840_ParameterInfos[] = 
+static const ParameterInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__4_m9841_ParameterInfos[] = 
 {
-	{"source", 0, 134219699, 0, &Object_t_0_0_0},
-	{"value", 1, 134219700, 0, &Object_t_0_0_0},
+	{"source", 0, 134219711, 0, &Object_t_0_0_0},
+	{"value", 1, 134219712, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.Reflection.ReflectionUtils/<GetSetMethodByReflection>c__AnonStorey5::<>m__4(System.Object,System.Object)
-extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__4_m9840_MethodInfo = 
+extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__4_m9841_MethodInfo = 
 {
 	"<>m__4"/* name */
-	, (methodPointerType)&U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__4_m9840/* method */
+	, (methodPointerType)&U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__4_m9841/* method */
 	, &U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__4_m9840_ParameterInfos/* parameters */
+	, U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__4_m9841_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -5929,7 +5929,7 @@ extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__4_
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1731/* token */
+	, 1738/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -5937,8 +5937,8 @@ extern const MethodInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__4_
 };
 static const MethodInfo* U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_MethodInfos[] =
 {
-	&U3CGetSetMethodByReflectionU3Ec__AnonStorey5__ctor_m9839_MethodInfo,
-	&U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__4_m9840_MethodInfo,
+	&U3CGetSetMethodByReflectionU3Ec__AnonStorey5__ctor_m9840_MethodInfo,
+	&U3CGetSetMethodByReflectionU3Ec__AnonStorey5_U3CU3Em__4_m9841_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_VTable[] =
@@ -5983,7 +5983,7 @@ TypeInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 757/* custom_attributes_cache */
+	, 764/* custom_attributes_cache */
 	, &U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_0_0_0/* byval_arg */
 	, &U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_1_0_0/* this_arg */
 	, &U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_DefinitionMetadata/* definitionMetadata */
@@ -6033,10 +6033,10 @@ TypeInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t2833_il2cpp_TypeInfo =
 #include "UnityEngine_SimpleJson_Reflection_ReflectionUtilsMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void SimpleJson.Reflection.ReflectionUtils::.cctor()
-extern const MethodInfo ReflectionUtils__cctor_m9841_MethodInfo = 
+extern const MethodInfo ReflectionUtils__cctor_m9842_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&ReflectionUtils__cctor_m9841/* method */
+	, (methodPointerType)&ReflectionUtils__cctor_m9842/* method */
 	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -6048,234 +6048,28 @@ extern const MethodInfo ReflectionUtils__cctor_m9841_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1668/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetConstructors_m9842_ParameterInfos[] = 
-{
-	{"type", 0, 134219627, 0, &Type_t_0_0_0},
-};
-extern const Il2CppType IEnumerable_1_t1380_0_0_0;
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Collections.Generic.IEnumerable`1<System.Reflection.ConstructorInfo> SimpleJson.Reflection.ReflectionUtils::GetConstructors(System.Type)
-extern const MethodInfo ReflectionUtils_GetConstructors_m9842_MethodInfo = 
-{
-	"GetConstructors"/* name */
-	, (methodPointerType)&ReflectionUtils_GetConstructors_m9842/* method */
-	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
-	, &IEnumerable_1_t1380_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ReflectionUtils_t2834_ReflectionUtils_GetConstructors_m9842_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 150/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1669/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType TypeU5BU5D_t1203_0_0_0;
-extern const Il2CppType TypeU5BU5D_t1203_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetConstructorInfo_m9843_ParameterInfos[] = 
-{
-	{"type", 0, 134219628, 0, &Type_t_0_0_0},
-	{"argsType", 1, 134219629, 747, &TypeU5BU5D_t1203_0_0_0},
-};
-extern const Il2CppType ConstructorInfo_t1381_0_0_0;
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Reflection.ConstructorInfo SimpleJson.Reflection.ReflectionUtils::GetConstructorInfo(System.Type,System.Type[])
-extern const MethodInfo ReflectionUtils_GetConstructorInfo_m9843_MethodInfo = 
-{
-	"GetConstructorInfo"/* name */
-	, (methodPointerType)&ReflectionUtils_GetConstructorInfo_m9843/* method */
-	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
-	, &ConstructorInfo_t1381_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, ReflectionUtils_t2834_ReflectionUtils_GetConstructorInfo_m9843_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 150/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1670/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetProperties_m9844_ParameterInfos[] = 
-{
-	{"type", 0, 134219630, 0, &Type_t_0_0_0},
-};
-extern const Il2CppType IEnumerable_1_t1378_0_0_0;
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Collections.Generic.IEnumerable`1<System.Reflection.PropertyInfo> SimpleJson.Reflection.ReflectionUtils::GetProperties(System.Type)
-extern const MethodInfo ReflectionUtils_GetProperties_m9844_MethodInfo = 
-{
-	"GetProperties"/* name */
-	, (methodPointerType)&ReflectionUtils_GetProperties_m9844/* method */
-	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
-	, &IEnumerable_1_t1378_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ReflectionUtils_t2834_ReflectionUtils_GetProperties_m9844_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 150/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1671/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetFields_m9845_ParameterInfos[] = 
-{
-	{"type", 0, 134219631, 0, &Type_t_0_0_0},
-};
-extern const Il2CppType IEnumerable_1_t2917_0_0_0;
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Collections.Generic.IEnumerable`1<System.Reflection.FieldInfo> SimpleJson.Reflection.ReflectionUtils::GetFields(System.Type)
-extern const MethodInfo ReflectionUtils_GetFields_m9845_MethodInfo = 
-{
-	"GetFields"/* name */
-	, (methodPointerType)&ReflectionUtils_GetFields_m9845/* method */
-	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
-	, &IEnumerable_1_t2917_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ReflectionUtils_t2834_ReflectionUtils_GetFields_m9845_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 150/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1672/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType PropertyInfo_t_0_0_0;
-extern const Il2CppType PropertyInfo_t_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetGetterMethodInfo_m9846_ParameterInfos[] = 
-{
-	{"propertyInfo", 0, 134219632, 0, &PropertyInfo_t_0_0_0},
-};
-extern const Il2CppType MethodInfo_t_0_0_0;
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Reflection.MethodInfo SimpleJson.Reflection.ReflectionUtils::GetGetterMethodInfo(System.Reflection.PropertyInfo)
-extern const MethodInfo ReflectionUtils_GetGetterMethodInfo_m9846_MethodInfo = 
-{
-	"GetGetterMethodInfo"/* name */
-	, (methodPointerType)&ReflectionUtils_GetGetterMethodInfo_m9846/* method */
-	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
-	, &MethodInfo_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ReflectionUtils_t2834_ReflectionUtils_GetGetterMethodInfo_m9846_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 150/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1673/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType PropertyInfo_t_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetSetterMethodInfo_m9847_ParameterInfos[] = 
-{
-	{"propertyInfo", 0, 134219633, 0, &PropertyInfo_t_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Reflection.MethodInfo SimpleJson.Reflection.ReflectionUtils::GetSetterMethodInfo(System.Reflection.PropertyInfo)
-extern const MethodInfo ReflectionUtils_GetSetterMethodInfo_m9847_MethodInfo = 
-{
-	"GetSetterMethodInfo"/* name */
-	, (methodPointerType)&ReflectionUtils_GetSetterMethodInfo_m9847/* method */
-	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
-	, &MethodInfo_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ReflectionUtils_t2834_ReflectionUtils_GetSetterMethodInfo_m9847_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 150/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1674/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType TypeU5BU5D_t1203_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetContructor_m9848_ParameterInfos[] = 
-{
-	{"type", 0, 134219634, 0, &Type_t_0_0_0},
-	{"argsType", 1, 134219635, 748, &TypeU5BU5D_t1203_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate SimpleJson.Reflection.ReflectionUtils::GetContructor(System.Type,System.Type[])
-extern const MethodInfo ReflectionUtils_GetContructor_m9848_MethodInfo = 
-{
-	"GetContructor"/* name */
-	, (methodPointerType)&ReflectionUtils_GetContructor_m9848/* method */
-	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
-	, &ConstructorDelegate_t2828_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, ReflectionUtils_t2834_ReflectionUtils_GetContructor_m9848_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 150/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
 	, 1675/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConstructorInfo_t1381_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetConstructorByReflection_m9849_ParameterInfos[] = 
+extern const Il2CppType Type_t_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetConstructors_m9843_ParameterInfos[] = 
 {
-	{"constructorInfo", 0, 134219636, 0, &ConstructorInfo_t1381_0_0_0},
+	{"type", 0, 134219639, 0, &Type_t_0_0_0},
 };
+extern const Il2CppType IEnumerable_1_t1380_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate SimpleJson.Reflection.ReflectionUtils::GetConstructorByReflection(System.Reflection.ConstructorInfo)
-extern const MethodInfo ReflectionUtils_GetConstructorByReflection_m9849_MethodInfo = 
+// System.Collections.Generic.IEnumerable`1<System.Reflection.ConstructorInfo> SimpleJson.Reflection.ReflectionUtils::GetConstructors(System.Type)
+extern const MethodInfo ReflectionUtils_GetConstructors_m9843_MethodInfo = 
 {
-	"GetConstructorByReflection"/* name */
-	, (methodPointerType)&ReflectionUtils_GetConstructorByReflection_m9849/* method */
+	"GetConstructors"/* name */
+	, (methodPointerType)&ReflectionUtils_GetConstructors_m9843/* method */
 	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
-	, &ConstructorDelegate_t2828_0_0_0/* return_type */
+	, &IEnumerable_1_t1380_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ReflectionUtils_t2834_ReflectionUtils_GetConstructorByReflection_m9849_ParameterInfos/* parameters */
+	, ReflectionUtils_t2834_ReflectionUtils_GetConstructors_m9843_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6291,21 +6085,23 @@ extern const MethodInfo ReflectionUtils_GetConstructorByReflection_m9849_MethodI
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType TypeU5BU5D_t1203_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetConstructorByReflection_m9850_ParameterInfos[] = 
+extern const Il2CppType TypeU5BU5D_t1203_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetConstructorInfo_m9844_ParameterInfos[] = 
 {
-	{"type", 0, 134219637, 0, &Type_t_0_0_0},
-	{"argsType", 1, 134219638, 749, &TypeU5BU5D_t1203_0_0_0},
+	{"type", 0, 134219640, 0, &Type_t_0_0_0},
+	{"argsType", 1, 134219641, 754, &TypeU5BU5D_t1203_0_0_0},
 };
+extern const Il2CppType ConstructorInfo_t1381_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate SimpleJson.Reflection.ReflectionUtils::GetConstructorByReflection(System.Type,System.Type[])
-extern const MethodInfo ReflectionUtils_GetConstructorByReflection_m9850_MethodInfo = 
+// System.Reflection.ConstructorInfo SimpleJson.Reflection.ReflectionUtils::GetConstructorInfo(System.Type,System.Type[])
+extern const MethodInfo ReflectionUtils_GetConstructorInfo_m9844_MethodInfo = 
 {
-	"GetConstructorByReflection"/* name */
-	, (methodPointerType)&ReflectionUtils_GetConstructorByReflection_m9850/* method */
+	"GetConstructorInfo"/* name */
+	, (methodPointerType)&ReflectionUtils_GetConstructorInfo_m9844/* method */
 	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
-	, &ConstructorDelegate_t2828_0_0_0/* return_type */
+	, &ConstructorInfo_t1381_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, ReflectionUtils_t2834_ReflectionUtils_GetConstructorByReflection_m9850_ParameterInfos/* parameters */
+	, ReflectionUtils_t2834_ReflectionUtils_GetConstructorInfo_m9844_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6319,21 +6115,22 @@ extern const MethodInfo ReflectionUtils_GetConstructorByReflection_m9850_MethodI
 	, NULL/* dummy */
 
 };
-extern const Il2CppType PropertyInfo_t_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetGetMethod_m9851_ParameterInfos[] = 
+extern const Il2CppType Type_t_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetProperties_m9845_ParameterInfos[] = 
 {
-	{"propertyInfo", 0, 134219639, 0, &PropertyInfo_t_0_0_0},
+	{"type", 0, 134219642, 0, &Type_t_0_0_0},
 };
+extern const Il2CppType IEnumerable_1_t1378_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// SimpleJson.Reflection.ReflectionUtils/GetDelegate SimpleJson.Reflection.ReflectionUtils::GetGetMethod(System.Reflection.PropertyInfo)
-extern const MethodInfo ReflectionUtils_GetGetMethod_m9851_MethodInfo = 
+// System.Collections.Generic.IEnumerable`1<System.Reflection.PropertyInfo> SimpleJson.Reflection.ReflectionUtils::GetProperties(System.Type)
+extern const MethodInfo ReflectionUtils_GetProperties_m9845_MethodInfo = 
 {
-	"GetGetMethod"/* name */
-	, (methodPointerType)&ReflectionUtils_GetGetMethod_m9851/* method */
+	"GetProperties"/* name */
+	, (methodPointerType)&ReflectionUtils_GetProperties_m9845/* method */
 	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
-	, &GetDelegate_t2826_0_0_0/* return_type */
+	, &IEnumerable_1_t1378_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ReflectionUtils_t2834_ReflectionUtils_GetGetMethod_m9851_ParameterInfos/* parameters */
+	, ReflectionUtils_t2834_ReflectionUtils_GetProperties_m9845_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6347,14 +6144,188 @@ extern const MethodInfo ReflectionUtils_GetGetMethod_m9851_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType FieldInfo_t_0_0_0;
-extern const Il2CppType FieldInfo_t_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetGetMethod_m9852_ParameterInfos[] = 
+extern const Il2CppType Type_t_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetFields_m9846_ParameterInfos[] = 
 {
-	{"fieldInfo", 0, 134219640, 0, &FieldInfo_t_0_0_0},
+	{"type", 0, 134219643, 0, &Type_t_0_0_0},
+};
+extern const Il2CppType IEnumerable_1_t2917_0_0_0;
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Collections.Generic.IEnumerable`1<System.Reflection.FieldInfo> SimpleJson.Reflection.ReflectionUtils::GetFields(System.Type)
+extern const MethodInfo ReflectionUtils_GetFields_m9846_MethodInfo = 
+{
+	"GetFields"/* name */
+	, (methodPointerType)&ReflectionUtils_GetFields_m9846/* method */
+	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
+	, &IEnumerable_1_t2917_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, ReflectionUtils_t2834_ReflectionUtils_GetFields_m9846_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1679/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType PropertyInfo_t_0_0_0;
+extern const Il2CppType PropertyInfo_t_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetGetterMethodInfo_m9847_ParameterInfos[] = 
+{
+	{"propertyInfo", 0, 134219644, 0, &PropertyInfo_t_0_0_0},
+};
+extern const Il2CppType MethodInfo_t_0_0_0;
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Reflection.MethodInfo SimpleJson.Reflection.ReflectionUtils::GetGetterMethodInfo(System.Reflection.PropertyInfo)
+extern const MethodInfo ReflectionUtils_GetGetterMethodInfo_m9847_MethodInfo = 
+{
+	"GetGetterMethodInfo"/* name */
+	, (methodPointerType)&ReflectionUtils_GetGetterMethodInfo_m9847/* method */
+	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
+	, &MethodInfo_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, ReflectionUtils_t2834_ReflectionUtils_GetGetterMethodInfo_m9847_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1680/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType PropertyInfo_t_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetSetterMethodInfo_m9848_ParameterInfos[] = 
+{
+	{"propertyInfo", 0, 134219645, 0, &PropertyInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// SimpleJson.Reflection.ReflectionUtils/GetDelegate SimpleJson.Reflection.ReflectionUtils::GetGetMethod(System.Reflection.FieldInfo)
+// System.Reflection.MethodInfo SimpleJson.Reflection.ReflectionUtils::GetSetterMethodInfo(System.Reflection.PropertyInfo)
+extern const MethodInfo ReflectionUtils_GetSetterMethodInfo_m9848_MethodInfo = 
+{
+	"GetSetterMethodInfo"/* name */
+	, (methodPointerType)&ReflectionUtils_GetSetterMethodInfo_m9848/* method */
+	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
+	, &MethodInfo_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, ReflectionUtils_t2834_ReflectionUtils_GetSetterMethodInfo_m9848_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1681/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Type_t_0_0_0;
+extern const Il2CppType TypeU5BU5D_t1203_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetContructor_m9849_ParameterInfos[] = 
+{
+	{"type", 0, 134219646, 0, &Type_t_0_0_0},
+	{"argsType", 1, 134219647, 755, &TypeU5BU5D_t1203_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate SimpleJson.Reflection.ReflectionUtils::GetContructor(System.Type,System.Type[])
+extern const MethodInfo ReflectionUtils_GetContructor_m9849_MethodInfo = 
+{
+	"GetContructor"/* name */
+	, (methodPointerType)&ReflectionUtils_GetContructor_m9849/* method */
+	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
+	, &ConstructorDelegate_t2828_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, ReflectionUtils_t2834_ReflectionUtils_GetContructor_m9849_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1682/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType ConstructorInfo_t1381_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetConstructorByReflection_m9850_ParameterInfos[] = 
+{
+	{"constructorInfo", 0, 134219648, 0, &ConstructorInfo_t1381_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate SimpleJson.Reflection.ReflectionUtils::GetConstructorByReflection(System.Reflection.ConstructorInfo)
+extern const MethodInfo ReflectionUtils_GetConstructorByReflection_m9850_MethodInfo = 
+{
+	"GetConstructorByReflection"/* name */
+	, (methodPointerType)&ReflectionUtils_GetConstructorByReflection_m9850/* method */
+	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
+	, &ConstructorDelegate_t2828_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, ReflectionUtils_t2834_ReflectionUtils_GetConstructorByReflection_m9850_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1683/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Type_t_0_0_0;
+extern const Il2CppType TypeU5BU5D_t1203_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetConstructorByReflection_m9851_ParameterInfos[] = 
+{
+	{"type", 0, 134219649, 0, &Type_t_0_0_0},
+	{"argsType", 1, 134219650, 756, &TypeU5BU5D_t1203_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate SimpleJson.Reflection.ReflectionUtils::GetConstructorByReflection(System.Type,System.Type[])
+extern const MethodInfo ReflectionUtils_GetConstructorByReflection_m9851_MethodInfo = 
+{
+	"GetConstructorByReflection"/* name */
+	, (methodPointerType)&ReflectionUtils_GetConstructorByReflection_m9851/* method */
+	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
+	, &ConstructorDelegate_t2828_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, ReflectionUtils_t2834_ReflectionUtils_GetConstructorByReflection_m9851_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1684/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType PropertyInfo_t_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetGetMethod_m9852_ParameterInfos[] = 
+{
+	{"propertyInfo", 0, 134219651, 0, &PropertyInfo_t_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// SimpleJson.Reflection.ReflectionUtils/GetDelegate SimpleJson.Reflection.ReflectionUtils::GetGetMethod(System.Reflection.PropertyInfo)
 extern const MethodInfo ReflectionUtils_GetGetMethod_m9852_MethodInfo = 
 {
 	"GetGetMethod"/* name */
@@ -6370,27 +6341,28 @@ extern const MethodInfo ReflectionUtils_GetGetMethod_m9852_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1679/* token */
+	, 1685/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-extern const Il2CppType PropertyInfo_t_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetGetMethodByReflection_m9853_ParameterInfos[] = 
+extern const Il2CppType FieldInfo_t_0_0_0;
+extern const Il2CppType FieldInfo_t_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetGetMethod_m9853_ParameterInfos[] = 
 {
-	{"propertyInfo", 0, 134219641, 0, &PropertyInfo_t_0_0_0},
+	{"fieldInfo", 0, 134219652, 0, &FieldInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// SimpleJson.Reflection.ReflectionUtils/GetDelegate SimpleJson.Reflection.ReflectionUtils::GetGetMethodByReflection(System.Reflection.PropertyInfo)
-extern const MethodInfo ReflectionUtils_GetGetMethodByReflection_m9853_MethodInfo = 
+// SimpleJson.Reflection.ReflectionUtils/GetDelegate SimpleJson.Reflection.ReflectionUtils::GetGetMethod(System.Reflection.FieldInfo)
+extern const MethodInfo ReflectionUtils_GetGetMethod_m9853_MethodInfo = 
 {
-	"GetGetMethodByReflection"/* name */
-	, (methodPointerType)&ReflectionUtils_GetGetMethodByReflection_m9853/* method */
+	"GetGetMethod"/* name */
+	, (methodPointerType)&ReflectionUtils_GetGetMethod_m9853/* method */
 	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
 	, &GetDelegate_t2826_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ReflectionUtils_t2834_ReflectionUtils_GetGetMethodByReflection_m9853_ParameterInfos/* parameters */
+	, ReflectionUtils_t2834_ReflectionUtils_GetGetMethod_m9853_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6398,19 +6370,19 @@ extern const MethodInfo ReflectionUtils_GetGetMethodByReflection_m9853_MethodInf
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1680/* token */
+	, 1686/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-extern const Il2CppType FieldInfo_t_0_0_0;
+extern const Il2CppType PropertyInfo_t_0_0_0;
 static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetGetMethodByReflection_m9854_ParameterInfos[] = 
 {
-	{"fieldInfo", 0, 134219642, 0, &FieldInfo_t_0_0_0},
+	{"propertyInfo", 0, 134219653, 0, &PropertyInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// SimpleJson.Reflection.ReflectionUtils/GetDelegate SimpleJson.Reflection.ReflectionUtils::GetGetMethodByReflection(System.Reflection.FieldInfo)
+// SimpleJson.Reflection.ReflectionUtils/GetDelegate SimpleJson.Reflection.ReflectionUtils::GetGetMethodByReflection(System.Reflection.PropertyInfo)
 extern const MethodInfo ReflectionUtils_GetGetMethodByReflection_m9854_MethodInfo = 
 {
 	"GetGetMethodByReflection"/* name */
@@ -6426,27 +6398,27 @@ extern const MethodInfo ReflectionUtils_GetGetMethodByReflection_m9854_MethodInf
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1681/* token */
+	, 1687/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-extern const Il2CppType PropertyInfo_t_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetSetMethod_m9855_ParameterInfos[] = 
+extern const Il2CppType FieldInfo_t_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetGetMethodByReflection_m9855_ParameterInfos[] = 
 {
-	{"propertyInfo", 0, 134219643, 0, &PropertyInfo_t_0_0_0},
+	{"fieldInfo", 0, 134219654, 0, &FieldInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// SimpleJson.Reflection.ReflectionUtils/SetDelegate SimpleJson.Reflection.ReflectionUtils::GetSetMethod(System.Reflection.PropertyInfo)
-extern const MethodInfo ReflectionUtils_GetSetMethod_m9855_MethodInfo = 
+// SimpleJson.Reflection.ReflectionUtils/GetDelegate SimpleJson.Reflection.ReflectionUtils::GetGetMethodByReflection(System.Reflection.FieldInfo)
+extern const MethodInfo ReflectionUtils_GetGetMethodByReflection_m9855_MethodInfo = 
 {
-	"GetSetMethod"/* name */
-	, (methodPointerType)&ReflectionUtils_GetSetMethod_m9855/* method */
+	"GetGetMethodByReflection"/* name */
+	, (methodPointerType)&ReflectionUtils_GetGetMethodByReflection_m9855/* method */
 	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
-	, &SetDelegate_t2827_0_0_0/* return_type */
+	, &GetDelegate_t2826_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ReflectionUtils_t2834_ReflectionUtils_GetSetMethod_m9855_ParameterInfos/* parameters */
+	, ReflectionUtils_t2834_ReflectionUtils_GetGetMethodByReflection_m9855_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6454,19 +6426,19 @@ extern const MethodInfo ReflectionUtils_GetSetMethod_m9855_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1682/* token */
+	, 1688/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-extern const Il2CppType FieldInfo_t_0_0_0;
+extern const Il2CppType PropertyInfo_t_0_0_0;
 static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetSetMethod_m9856_ParameterInfos[] = 
 {
-	{"fieldInfo", 0, 134219644, 0, &FieldInfo_t_0_0_0},
+	{"propertyInfo", 0, 134219655, 0, &PropertyInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// SimpleJson.Reflection.ReflectionUtils/SetDelegate SimpleJson.Reflection.ReflectionUtils::GetSetMethod(System.Reflection.FieldInfo)
+// SimpleJson.Reflection.ReflectionUtils/SetDelegate SimpleJson.Reflection.ReflectionUtils::GetSetMethod(System.Reflection.PropertyInfo)
 extern const MethodInfo ReflectionUtils_GetSetMethod_m9856_MethodInfo = 
 {
 	"GetSetMethod"/* name */
@@ -6482,27 +6454,27 @@ extern const MethodInfo ReflectionUtils_GetSetMethod_m9856_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1683/* token */
+	, 1689/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-extern const Il2CppType PropertyInfo_t_0_0_0;
-static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetSetMethodByReflection_m9857_ParameterInfos[] = 
+extern const Il2CppType FieldInfo_t_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetSetMethod_m9857_ParameterInfos[] = 
 {
-	{"propertyInfo", 0, 134219645, 0, &PropertyInfo_t_0_0_0},
+	{"fieldInfo", 0, 134219656, 0, &FieldInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// SimpleJson.Reflection.ReflectionUtils/SetDelegate SimpleJson.Reflection.ReflectionUtils::GetSetMethodByReflection(System.Reflection.PropertyInfo)
-extern const MethodInfo ReflectionUtils_GetSetMethodByReflection_m9857_MethodInfo = 
+// SimpleJson.Reflection.ReflectionUtils/SetDelegate SimpleJson.Reflection.ReflectionUtils::GetSetMethod(System.Reflection.FieldInfo)
+extern const MethodInfo ReflectionUtils_GetSetMethod_m9857_MethodInfo = 
 {
-	"GetSetMethodByReflection"/* name */
-	, (methodPointerType)&ReflectionUtils_GetSetMethodByReflection_m9857/* method */
+	"GetSetMethod"/* name */
+	, (methodPointerType)&ReflectionUtils_GetSetMethod_m9857/* method */
 	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
 	, &SetDelegate_t2827_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ReflectionUtils_t2834_ReflectionUtils_GetSetMethodByReflection_m9857_ParameterInfos/* parameters */
+	, ReflectionUtils_t2834_ReflectionUtils_GetSetMethod_m9857_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6510,19 +6482,19 @@ extern const MethodInfo ReflectionUtils_GetSetMethodByReflection_m9857_MethodInf
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1684/* token */
+	, 1690/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-extern const Il2CppType FieldInfo_t_0_0_0;
+extern const Il2CppType PropertyInfo_t_0_0_0;
 static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetSetMethodByReflection_m9858_ParameterInfos[] = 
 {
-	{"fieldInfo", 0, 134219646, 0, &FieldInfo_t_0_0_0},
+	{"propertyInfo", 0, 134219657, 0, &PropertyInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// SimpleJson.Reflection.ReflectionUtils/SetDelegate SimpleJson.Reflection.ReflectionUtils::GetSetMethodByReflection(System.Reflection.FieldInfo)
+// SimpleJson.Reflection.ReflectionUtils/SetDelegate SimpleJson.Reflection.ReflectionUtils::GetSetMethodByReflection(System.Reflection.PropertyInfo)
 extern const MethodInfo ReflectionUtils_GetSetMethodByReflection_m9858_MethodInfo = 
 {
 	"GetSetMethodByReflection"/* name */
@@ -6538,7 +6510,35 @@ extern const MethodInfo ReflectionUtils_GetSetMethodByReflection_m9858_MethodInf
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1685/* token */
+	, 1691/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType FieldInfo_t_0_0_0;
+static const ParameterInfo ReflectionUtils_t2834_ReflectionUtils_GetSetMethodByReflection_m9859_ParameterInfos[] = 
+{
+	{"fieldInfo", 0, 134219658, 0, &FieldInfo_t_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// SimpleJson.Reflection.ReflectionUtils/SetDelegate SimpleJson.Reflection.ReflectionUtils::GetSetMethodByReflection(System.Reflection.FieldInfo)
+extern const MethodInfo ReflectionUtils_GetSetMethodByReflection_m9859_MethodInfo = 
+{
+	"GetSetMethodByReflection"/* name */
+	, (methodPointerType)&ReflectionUtils_GetSetMethodByReflection_m9859/* method */
+	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* declaring_type */
+	, &SetDelegate_t2827_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, ReflectionUtils_t2834_ReflectionUtils_GetSetMethodByReflection_m9859_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1692/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -6546,24 +6546,24 @@ extern const MethodInfo ReflectionUtils_GetSetMethodByReflection_m9858_MethodInf
 };
 static const MethodInfo* ReflectionUtils_t2834_MethodInfos[] =
 {
-	&ReflectionUtils__cctor_m9841_MethodInfo,
-	&ReflectionUtils_GetConstructors_m9842_MethodInfo,
-	&ReflectionUtils_GetConstructorInfo_m9843_MethodInfo,
-	&ReflectionUtils_GetProperties_m9844_MethodInfo,
-	&ReflectionUtils_GetFields_m9845_MethodInfo,
-	&ReflectionUtils_GetGetterMethodInfo_m9846_MethodInfo,
-	&ReflectionUtils_GetSetterMethodInfo_m9847_MethodInfo,
-	&ReflectionUtils_GetContructor_m9848_MethodInfo,
-	&ReflectionUtils_GetConstructorByReflection_m9849_MethodInfo,
+	&ReflectionUtils__cctor_m9842_MethodInfo,
+	&ReflectionUtils_GetConstructors_m9843_MethodInfo,
+	&ReflectionUtils_GetConstructorInfo_m9844_MethodInfo,
+	&ReflectionUtils_GetProperties_m9845_MethodInfo,
+	&ReflectionUtils_GetFields_m9846_MethodInfo,
+	&ReflectionUtils_GetGetterMethodInfo_m9847_MethodInfo,
+	&ReflectionUtils_GetSetterMethodInfo_m9848_MethodInfo,
+	&ReflectionUtils_GetContructor_m9849_MethodInfo,
 	&ReflectionUtils_GetConstructorByReflection_m9850_MethodInfo,
-	&ReflectionUtils_GetGetMethod_m9851_MethodInfo,
+	&ReflectionUtils_GetConstructorByReflection_m9851_MethodInfo,
 	&ReflectionUtils_GetGetMethod_m9852_MethodInfo,
-	&ReflectionUtils_GetGetMethodByReflection_m9853_MethodInfo,
+	&ReflectionUtils_GetGetMethod_m9853_MethodInfo,
 	&ReflectionUtils_GetGetMethodByReflection_m9854_MethodInfo,
-	&ReflectionUtils_GetSetMethod_m9855_MethodInfo,
+	&ReflectionUtils_GetGetMethodByReflection_m9855_MethodInfo,
 	&ReflectionUtils_GetSetMethod_m9856_MethodInfo,
-	&ReflectionUtils_GetSetMethodByReflection_m9857_MethodInfo,
+	&ReflectionUtils_GetSetMethod_m9857_MethodInfo,
 	&ReflectionUtils_GetSetMethodByReflection_m9858_MethodInfo,
+	&ReflectionUtils_GetSetMethodByReflection_m9859_MethodInfo,
 	NULL
 };
 static const Il2CppType* ReflectionUtils_t2834_il2cpp_TypeInfo__nestedTypes[10] =
@@ -6620,7 +6620,7 @@ TypeInfo ReflectionUtils_t2834_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &ReflectionUtils_t2834_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 746/* custom_attributes_cache */
+	, 753/* custom_attributes_cache */
 	, &ReflectionUtils_t2834_0_0_0/* byval_arg */
 	, &ReflectionUtils_t2834_1_0_0/* this_arg */
 	, &ReflectionUtils_t2834_DefinitionMetadata/* definitionMetadata */
@@ -6671,10 +6671,10 @@ extern TypeInfo WrapperlessIcall_t2835_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_WrapperlessIcallMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.WrapperlessIcall::.ctor()
-extern const MethodInfo WrapperlessIcall__ctor_m9859_MethodInfo = 
+extern const MethodInfo WrapperlessIcall__ctor_m9860_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&WrapperlessIcall__ctor_m9859/* method */
+	, (methodPointerType)&WrapperlessIcall__ctor_m9860/* method */
 	, &WrapperlessIcall_t2835_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -6686,7 +6686,7 @@ extern const MethodInfo WrapperlessIcall__ctor_m9859_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1732/* token */
+	, 1739/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -6694,7 +6694,7 @@ extern const MethodInfo WrapperlessIcall__ctor_m9859_MethodInfo =
 };
 static const MethodInfo* WrapperlessIcall_t2835_MethodInfos[] =
 {
-	&WrapperlessIcall__ctor_m9859_MethodInfo,
+	&WrapperlessIcall__ctor_m9860_MethodInfo,
 	NULL
 };
 extern const MethodInfo Attribute_Equals_m489_MethodInfo;
@@ -6798,10 +6798,10 @@ extern TypeInfo IL2CPPStructAlignmentAttribute_t2836_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_IL2CPPStructAlignmentAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.IL2CPPStructAlignmentAttribute::.ctor()
-extern const MethodInfo IL2CPPStructAlignmentAttribute__ctor_m9860_MethodInfo = 
+extern const MethodInfo IL2CPPStructAlignmentAttribute__ctor_m9861_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&IL2CPPStructAlignmentAttribute__ctor_m9860/* method */
+	, (methodPointerType)&IL2CPPStructAlignmentAttribute__ctor_m9861/* method */
 	, &IL2CPPStructAlignmentAttribute_t2836_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -6813,7 +6813,7 @@ extern const MethodInfo IL2CPPStructAlignmentAttribute__ctor_m9860_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1733/* token */
+	, 1740/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -6821,7 +6821,7 @@ extern const MethodInfo IL2CPPStructAlignmentAttribute__ctor_m9860_MethodInfo =
 };
 static const MethodInfo* IL2CPPStructAlignmentAttribute_t2836_MethodInfos[] =
 {
-	&IL2CPPStructAlignmentAttribute__ctor_m9860_MethodInfo,
+	&IL2CPPStructAlignmentAttribute__ctor_m9861_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference IL2CPPStructAlignmentAttribute_t2836_VTable[] =
@@ -6870,7 +6870,7 @@ TypeInfo IL2CPPStructAlignmentAttribute_t2836_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &IL2CPPStructAlignmentAttribute_t2836_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 758/* custom_attributes_cache */
+	, 765/* custom_attributes_cache */
 	, &IL2CPPStructAlignmentAttribute_t2836_0_0_0/* byval_arg */
 	, &IL2CPPStructAlignmentAttribute_t2836_1_0_0/* this_arg */
 	, &IL2CPPStructAlignmentAttribute_t2836_DefinitionMetadata/* definitionMetadata */
@@ -6921,10 +6921,10 @@ extern TypeInfo AttributeHelperEngine_t2840_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_AttributeHelperEngineMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.AttributeHelperEngine::.cctor()
-extern const MethodInfo AttributeHelperEngine__cctor_m9861_MethodInfo = 
+extern const MethodInfo AttributeHelperEngine__cctor_m9862_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&AttributeHelperEngine__cctor_m9861/* method */
+	, (methodPointerType)&AttributeHelperEngine__cctor_m9862/* method */
 	, &AttributeHelperEngine_t2840_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -6936,27 +6936,27 @@ extern const MethodInfo AttributeHelperEngine__cctor_m9861_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1734/* token */
+	, 1741/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo AttributeHelperEngine_t2840_AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m9862_ParameterInfos[] = 
+static const ParameterInfo AttributeHelperEngine_t2840_AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m9863_ParameterInfos[] = 
 {
-	{"type", 0, 134219701, 0, &Type_t_0_0_0},
+	{"type", 0, 134219713, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type UnityEngine.AttributeHelperEngine::GetParentTypeDisallowingMultipleInclusion(System.Type)
-extern const MethodInfo AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m9862_MethodInfo = 
+extern const MethodInfo AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m9863_MethodInfo = 
 {
 	"GetParentTypeDisallowingMultipleInclusion"/* name */
-	, (methodPointerType)&AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m9862/* method */
+	, (methodPointerType)&AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m9863/* method */
 	, &AttributeHelperEngine_t2840_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, AttributeHelperEngine_t2840_AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m9862_ParameterInfos/* parameters */
+	, AttributeHelperEngine_t2840_AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m9863_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -6964,27 +6964,27 @@ extern const MethodInfo AttributeHelperEngine_GetParentTypeDisallowingMultipleIn
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1735/* token */
+	, 1742/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo AttributeHelperEngine_t2840_AttributeHelperEngine_GetRequiredComponents_m9863_ParameterInfos[] = 
+static const ParameterInfo AttributeHelperEngine_t2840_AttributeHelperEngine_GetRequiredComponents_m9864_ParameterInfos[] = 
 {
-	{"klass", 0, 134219702, 0, &Type_t_0_0_0},
+	{"klass", 0, 134219714, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type[] UnityEngine.AttributeHelperEngine::GetRequiredComponents(System.Type)
-extern const MethodInfo AttributeHelperEngine_GetRequiredComponents_m9863_MethodInfo = 
+extern const MethodInfo AttributeHelperEngine_GetRequiredComponents_m9864_MethodInfo = 
 {
 	"GetRequiredComponents"/* name */
-	, (methodPointerType)&AttributeHelperEngine_GetRequiredComponents_m9863/* method */
+	, (methodPointerType)&AttributeHelperEngine_GetRequiredComponents_m9864/* method */
 	, &AttributeHelperEngine_t2840_il2cpp_TypeInfo/* declaring_type */
 	, &TypeU5BU5D_t1203_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, AttributeHelperEngine_t2840_AttributeHelperEngine_GetRequiredComponents_m9863_ParameterInfos/* parameters */
+	, AttributeHelperEngine_t2840_AttributeHelperEngine_GetRequiredComponents_m9864_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -6992,27 +6992,27 @@ extern const MethodInfo AttributeHelperEngine_GetRequiredComponents_m9863_Method
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1736/* token */
+	, 1743/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo AttributeHelperEngine_t2840_AttributeHelperEngine_CheckIsEditorScript_m9864_ParameterInfos[] = 
+static const ParameterInfo AttributeHelperEngine_t2840_AttributeHelperEngine_CheckIsEditorScript_m9865_ParameterInfos[] = 
 {
-	{"klass", 0, 134219703, 0, &Type_t_0_0_0},
+	{"klass", 0, 134219715, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.AttributeHelperEngine::CheckIsEditorScript(System.Type)
-extern const MethodInfo AttributeHelperEngine_CheckIsEditorScript_m9864_MethodInfo = 
+extern const MethodInfo AttributeHelperEngine_CheckIsEditorScript_m9865_MethodInfo = 
 {
 	"CheckIsEditorScript"/* name */
-	, (methodPointerType)&AttributeHelperEngine_CheckIsEditorScript_m9864/* method */
+	, (methodPointerType)&AttributeHelperEngine_CheckIsEditorScript_m9865/* method */
 	, &AttributeHelperEngine_t2840_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, AttributeHelperEngine_t2840_AttributeHelperEngine_CheckIsEditorScript_m9864_ParameterInfos/* parameters */
+	, AttributeHelperEngine_t2840_AttributeHelperEngine_CheckIsEditorScript_m9865_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -7020,7 +7020,7 @@ extern const MethodInfo AttributeHelperEngine_CheckIsEditorScript_m9864_MethodIn
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1737/* token */
+	, 1744/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7028,10 +7028,10 @@ extern const MethodInfo AttributeHelperEngine_CheckIsEditorScript_m9864_MethodIn
 };
 static const MethodInfo* AttributeHelperEngine_t2840_MethodInfos[] =
 {
-	&AttributeHelperEngine__cctor_m9861_MethodInfo,
-	&AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m9862_MethodInfo,
-	&AttributeHelperEngine_GetRequiredComponents_m9863_MethodInfo,
-	&AttributeHelperEngine_CheckIsEditorScript_m9864_MethodInfo,
+	&AttributeHelperEngine__cctor_m9862_MethodInfo,
+	&AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m9863_MethodInfo,
+	&AttributeHelperEngine_GetRequiredComponents_m9864_MethodInfo,
+	&AttributeHelperEngine_CheckIsEditorScript_m9865_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference AttributeHelperEngine_t2840_VTable[] =
@@ -7127,10 +7127,10 @@ extern TypeInfo DisallowMultipleComponent_t1114_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_DisallowMultipleComponentMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.DisallowMultipleComponent::.ctor()
-extern const MethodInfo DisallowMultipleComponent__ctor_m6265_MethodInfo = 
+extern const MethodInfo DisallowMultipleComponent__ctor_m6263_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DisallowMultipleComponent__ctor_m6265/* method */
+	, (methodPointerType)&DisallowMultipleComponent__ctor_m6263/* method */
 	, &DisallowMultipleComponent_t1114_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7142,7 +7142,7 @@ extern const MethodInfo DisallowMultipleComponent__ctor_m6265_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1738/* token */
+	, 1745/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7150,7 +7150,7 @@ extern const MethodInfo DisallowMultipleComponent__ctor_m6265_MethodInfo =
 };
 static const MethodInfo* DisallowMultipleComponent_t1114_MethodInfos[] =
 {
-	&DisallowMultipleComponent__ctor_m6265_MethodInfo,
+	&DisallowMultipleComponent__ctor_m6263_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference DisallowMultipleComponent_t1114_VTable[] =
@@ -7199,7 +7199,7 @@ TypeInfo DisallowMultipleComponent_t1114_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &DisallowMultipleComponent_t1114_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 759/* custom_attributes_cache */
+	, 766/* custom_attributes_cache */
 	, &DisallowMultipleComponent_t1114_0_0_0/* byval_arg */
 	, &DisallowMultipleComponent_t1114_1_0_0/* this_arg */
 	, &DisallowMultipleComponent_t1114_DefinitionMetadata/* definitionMetadata */
@@ -7249,20 +7249,20 @@ extern TypeInfo RequireComponent_t809_il2cpp_TypeInfo;
 // UnityEngine.RequireComponent
 #include "UnityEngine_UnityEngine_RequireComponentMethodDeclarations.h"
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo RequireComponent_t809_RequireComponent__ctor_m4486_ParameterInfos[] = 
+static const ParameterInfo RequireComponent_t809_RequireComponent__ctor_m4484_ParameterInfos[] = 
 {
-	{"requiredComponent", 0, 134219704, 0, &Type_t_0_0_0},
+	{"requiredComponent", 0, 134219716, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.RequireComponent::.ctor(System.Type)
-extern const MethodInfo RequireComponent__ctor_m4486_MethodInfo = 
+extern const MethodInfo RequireComponent__ctor_m4484_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RequireComponent__ctor_m4486/* method */
+	, (methodPointerType)&RequireComponent__ctor_m4484/* method */
 	, &RequireComponent_t809_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, RequireComponent_t809_RequireComponent__ctor_m4486_ParameterInfos/* parameters */
+	, RequireComponent_t809_RequireComponent__ctor_m4484_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -7270,7 +7270,7 @@ extern const MethodInfo RequireComponent__ctor_m4486_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1739/* token */
+	, 1746/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7278,7 +7278,7 @@ extern const MethodInfo RequireComponent__ctor_m4486_MethodInfo =
 };
 static const MethodInfo* RequireComponent_t809_MethodInfos[] =
 {
-	&RequireComponent__ctor_m4486_MethodInfo,
+	&RequireComponent__ctor_m4484_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference RequireComponent_t809_VTable[] =
@@ -7327,7 +7327,7 @@ TypeInfo RequireComponent_t809_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &RequireComponent_t809_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 760/* custom_attributes_cache */
+	, 767/* custom_attributes_cache */
 	, &RequireComponent_t809_0_0_0/* byval_arg */
 	, &RequireComponent_t809_1_0_0/* this_arg */
 	, &RequireComponent_t809_DefinitionMetadata/* definitionMetadata */
@@ -7377,20 +7377,20 @@ extern TypeInfo AddComponentMenu_t1107_il2cpp_TypeInfo;
 // UnityEngine.AddComponentMenu
 #include "UnityEngine_UnityEngine_AddComponentMenuMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo AddComponentMenu_t1107_AddComponentMenu__ctor_m6229_ParameterInfos[] = 
+static const ParameterInfo AddComponentMenu_t1107_AddComponentMenu__ctor_m6227_ParameterInfos[] = 
 {
-	{"menuName", 0, 134219705, 0, &String_t_0_0_0},
+	{"menuName", 0, 134219717, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.AddComponentMenu::.ctor(System.String)
-extern const MethodInfo AddComponentMenu__ctor_m6229_MethodInfo = 
+extern const MethodInfo AddComponentMenu__ctor_m6227_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AddComponentMenu__ctor_m6229/* method */
+	, (methodPointerType)&AddComponentMenu__ctor_m6227/* method */
 	, &AddComponentMenu_t1107_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, AddComponentMenu_t1107_AddComponentMenu__ctor_m6229_ParameterInfos/* parameters */
+	, AddComponentMenu_t1107_AddComponentMenu__ctor_m6227_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -7398,7 +7398,7 @@ extern const MethodInfo AddComponentMenu__ctor_m6229_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1740/* token */
+	, 1747/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7406,21 +7406,21 @@ extern const MethodInfo AddComponentMenu__ctor_m6229_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo AddComponentMenu_t1107_AddComponentMenu__ctor_m6260_ParameterInfos[] = 
+static const ParameterInfo AddComponentMenu_t1107_AddComponentMenu__ctor_m6258_ParameterInfos[] = 
 {
-	{"menuName", 0, 134219706, 0, &String_t_0_0_0},
-	{"order", 1, 134219707, 0, &Int32_t82_0_0_0},
+	{"menuName", 0, 134219718, 0, &String_t_0_0_0},
+	{"order", 1, 134219719, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.AddComponentMenu::.ctor(System.String,System.Int32)
-extern const MethodInfo AddComponentMenu__ctor_m6260_MethodInfo = 
+extern const MethodInfo AddComponentMenu__ctor_m6258_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AddComponentMenu__ctor_m6260/* method */
+	, (methodPointerType)&AddComponentMenu__ctor_m6258/* method */
 	, &AddComponentMenu_t1107_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, AddComponentMenu_t1107_AddComponentMenu__ctor_m6260_ParameterInfos/* parameters */
+	, AddComponentMenu_t1107_AddComponentMenu__ctor_m6258_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -7428,7 +7428,7 @@ extern const MethodInfo AddComponentMenu__ctor_m6260_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1741/* token */
+	, 1748/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7436,8 +7436,8 @@ extern const MethodInfo AddComponentMenu__ctor_m6260_MethodInfo =
 };
 static const MethodInfo* AddComponentMenu_t1107_MethodInfos[] =
 {
-	&AddComponentMenu__ctor_m6229_MethodInfo,
-	&AddComponentMenu__ctor_m6260_MethodInfo,
+	&AddComponentMenu__ctor_m6227_MethodInfo,
+	&AddComponentMenu__ctor_m6258_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference AddComponentMenu_t1107_VTable[] =
@@ -7537,10 +7537,10 @@ extern TypeInfo ExecuteInEditMode_t810_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_ExecuteInEditModeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.ExecuteInEditMode::.ctor()
-extern const MethodInfo ExecuteInEditMode__ctor_m4487_MethodInfo = 
+extern const MethodInfo ExecuteInEditMode__ctor_m4485_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ExecuteInEditMode__ctor_m4487/* method */
+	, (methodPointerType)&ExecuteInEditMode__ctor_m4485/* method */
 	, &ExecuteInEditMode_t810_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7552,7 +7552,7 @@ extern const MethodInfo ExecuteInEditMode__ctor_m4487_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1742/* token */
+	, 1749/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7560,7 +7560,7 @@ extern const MethodInfo ExecuteInEditMode__ctor_m4487_MethodInfo =
 };
 static const MethodInfo* ExecuteInEditMode_t810_MethodInfos[] =
 {
-	&ExecuteInEditMode__ctor_m4487_MethodInfo,
+	&ExecuteInEditMode__ctor_m4485_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference ExecuteInEditMode_t810_VTable[] =
@@ -7675,7 +7675,7 @@ extern const MethodInfo HideInInspector__ctor_m462_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1743/* token */
+	, 1750/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7789,15 +7789,15 @@ static const MethodInfo* CastHelper_1_t2973_MethodInfos[] =
 {
 	NULL
 };
-extern const MethodInfo ValueType_Equals_m4569_MethodInfo;
-extern const MethodInfo ValueType_GetHashCode_m4570_MethodInfo;
-extern const MethodInfo ValueType_ToString_m4571_MethodInfo;
+extern const MethodInfo ValueType_Equals_m4567_MethodInfo;
+extern const MethodInfo ValueType_GetHashCode_m4568_MethodInfo;
+extern const MethodInfo ValueType_ToString_m4569_MethodInfo;
 static const Il2CppMethodReference CastHelper_1_t2973_VTable[] =
 {
-	&ValueType_Equals_m4569_MethodInfo,
+	&ValueType_Equals_m4567_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4570_MethodInfo,
-	&ValueType_ToString_m4571_MethodInfo,
+	&ValueType_GetHashCode_m4568_MethodInfo,
+	&ValueType_ToString_m4569_MethodInfo,
 };
 static bool CastHelper_1_t2973_VTableIsGenericMethod[] =
 {
@@ -7885,10 +7885,10 @@ extern TypeInfo SetupCoroutine_t2841_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_SetupCoroutineMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SetupCoroutine::.ctor()
-extern const MethodInfo SetupCoroutine__ctor_m9865_MethodInfo = 
+extern const MethodInfo SetupCoroutine__ctor_m9866_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SetupCoroutine__ctor_m9865/* method */
+	, (methodPointerType)&SetupCoroutine__ctor_m9866/* method */
 	, &SetupCoroutine_t2841_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7900,7 +7900,7 @@ extern const MethodInfo SetupCoroutine__ctor_m9865_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1744/* token */
+	, 1751/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7909,22 +7909,22 @@ extern const MethodInfo SetupCoroutine__ctor_m9865_MethodInfo =
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo SetupCoroutine_t2841_SetupCoroutine_InvokeMember_m9866_ParameterInfos[] = 
+static const ParameterInfo SetupCoroutine_t2841_SetupCoroutine_InvokeMember_m9867_ParameterInfos[] = 
 {
-	{"behaviour", 0, 134219708, 0, &Object_t_0_0_0},
-	{"name", 1, 134219709, 0, &String_t_0_0_0},
-	{"variable", 2, 134219710, 0, &Object_t_0_0_0},
+	{"behaviour", 0, 134219720, 0, &Object_t_0_0_0},
+	{"name", 1, 134219721, 0, &String_t_0_0_0},
+	{"variable", 2, 134219722, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object UnityEngine.SetupCoroutine::InvokeMember(System.Object,System.String,System.Object)
-extern const MethodInfo SetupCoroutine_InvokeMember_m9866_MethodInfo = 
+extern const MethodInfo SetupCoroutine_InvokeMember_m9867_MethodInfo = 
 {
 	"InvokeMember"/* name */
-	, (methodPointerType)&SetupCoroutine_InvokeMember_m9866/* method */
+	, (methodPointerType)&SetupCoroutine_InvokeMember_m9867/* method */
 	, &SetupCoroutine_t2841_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, SetupCoroutine_t2841_SetupCoroutine_InvokeMember_m9866_ParameterInfos/* parameters */
+	, SetupCoroutine_t2841_SetupCoroutine_InvokeMember_m9867_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7932,7 +7932,7 @@ extern const MethodInfo SetupCoroutine_InvokeMember_m9866_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1745/* token */
+	, 1752/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7941,22 +7941,22 @@ extern const MethodInfo SetupCoroutine_InvokeMember_m9866_MethodInfo =
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo SetupCoroutine_t2841_SetupCoroutine_InvokeStatic_m9867_ParameterInfos[] = 
+static const ParameterInfo SetupCoroutine_t2841_SetupCoroutine_InvokeStatic_m9868_ParameterInfos[] = 
 {
-	{"klass", 0, 134219711, 0, &Type_t_0_0_0},
-	{"name", 1, 134219712, 0, &String_t_0_0_0},
-	{"variable", 2, 134219713, 0, &Object_t_0_0_0},
+	{"klass", 0, 134219723, 0, &Type_t_0_0_0},
+	{"name", 1, 134219724, 0, &String_t_0_0_0},
+	{"variable", 2, 134219725, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object UnityEngine.SetupCoroutine::InvokeStatic(System.Type,System.String,System.Object)
-extern const MethodInfo SetupCoroutine_InvokeStatic_m9867_MethodInfo = 
+extern const MethodInfo SetupCoroutine_InvokeStatic_m9868_MethodInfo = 
 {
 	"InvokeStatic"/* name */
-	, (methodPointerType)&SetupCoroutine_InvokeStatic_m9867/* method */
+	, (methodPointerType)&SetupCoroutine_InvokeStatic_m9868/* method */
 	, &SetupCoroutine_t2841_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, SetupCoroutine_t2841_SetupCoroutine_InvokeStatic_m9867_ParameterInfos/* parameters */
+	, SetupCoroutine_t2841_SetupCoroutine_InvokeStatic_m9868_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7964,7 +7964,7 @@ extern const MethodInfo SetupCoroutine_InvokeStatic_m9867_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1746/* token */
+	, 1753/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7972,9 +7972,9 @@ extern const MethodInfo SetupCoroutine_InvokeStatic_m9867_MethodInfo =
 };
 static const MethodInfo* SetupCoroutine_t2841_MethodInfos[] =
 {
-	&SetupCoroutine__ctor_m9865_MethodInfo,
-	&SetupCoroutine_InvokeMember_m9866_MethodInfo,
-	&SetupCoroutine_InvokeStatic_m9867_MethodInfo,
+	&SetupCoroutine__ctor_m9866_MethodInfo,
+	&SetupCoroutine_InvokeMember_m9867_MethodInfo,
+	&SetupCoroutine_InvokeStatic_m9868_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference SetupCoroutine_t2841_VTable[] =
@@ -8070,10 +8070,10 @@ extern TypeInfo WritableAttribute_t2842_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_WritableAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.WritableAttribute::.ctor()
-extern const MethodInfo WritableAttribute__ctor_m9868_MethodInfo = 
+extern const MethodInfo WritableAttribute__ctor_m9869_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&WritableAttribute__ctor_m9868/* method */
+	, (methodPointerType)&WritableAttribute__ctor_m9869/* method */
 	, &WritableAttribute_t2842_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8085,7 +8085,7 @@ extern const MethodInfo WritableAttribute__ctor_m9868_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1747/* token */
+	, 1754/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8093,7 +8093,7 @@ extern const MethodInfo WritableAttribute__ctor_m9868_MethodInfo =
 };
 static const MethodInfo* WritableAttribute_t2842_MethodInfos[] =
 {
-	&WritableAttribute__ctor_m9868_MethodInfo,
+	&WritableAttribute__ctor_m9869_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference WritableAttribute_t2842_VTable[] =
@@ -8142,7 +8142,7 @@ TypeInfo WritableAttribute_t2842_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &WritableAttribute_t2842_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 761/* custom_attributes_cache */
+	, 768/* custom_attributes_cache */
 	, &WritableAttribute_t2842_0_0_0/* byval_arg */
 	, &WritableAttribute_t2842_1_0_0/* this_arg */
 	, &WritableAttribute_t2842_DefinitionMetadata/* definitionMetadata */
@@ -8193,10 +8193,10 @@ extern TypeInfo AssemblyIsEditorAssembly_t2843_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_AssemblyIsEditorAssemblyMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.AssemblyIsEditorAssembly::.ctor()
-extern const MethodInfo AssemblyIsEditorAssembly__ctor_m9869_MethodInfo = 
+extern const MethodInfo AssemblyIsEditorAssembly__ctor_m9870_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AssemblyIsEditorAssembly__ctor_m9869/* method */
+	, (methodPointerType)&AssemblyIsEditorAssembly__ctor_m9870/* method */
 	, &AssemblyIsEditorAssembly_t2843_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8208,7 +8208,7 @@ extern const MethodInfo AssemblyIsEditorAssembly__ctor_m9869_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1748/* token */
+	, 1755/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8216,7 +8216,7 @@ extern const MethodInfo AssemblyIsEditorAssembly__ctor_m9869_MethodInfo =
 };
 static const MethodInfo* AssemblyIsEditorAssembly_t2843_MethodInfos[] =
 {
-	&AssemblyIsEditorAssembly__ctor_m9869_MethodInfo,
+	&AssemblyIsEditorAssembly__ctor_m9870_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference AssemblyIsEditorAssembly_t2843_VTable[] =
@@ -8265,7 +8265,7 @@ TypeInfo AssemblyIsEditorAssembly_t2843_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &AssemblyIsEditorAssembly_t2843_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 762/* custom_attributes_cache */
+	, 769/* custom_attributes_cache */
 	, &AssemblyIsEditorAssembly_t2843_0_0_0/* byval_arg */
 	, &AssemblyIsEditorAssembly_t2843_1_0_0/* this_arg */
 	, &AssemblyIsEditorAssembly_t2843_DefinitionMetadata/* definitionMetadata */
@@ -8317,10 +8317,10 @@ extern TypeInfo GcUserProfileData_t2844_il2cpp_TypeInfo;
 extern const Il2CppType UserProfile_t2856_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.SocialPlatforms.Impl.UserProfile UnityEngine.SocialPlatforms.GameCenter.GcUserProfileData::ToUserProfile()
-extern const MethodInfo GcUserProfileData_ToUserProfile_m9870_MethodInfo = 
+extern const MethodInfo GcUserProfileData_ToUserProfile_m9871_MethodInfo = 
 {
 	"ToUserProfile"/* name */
-	, (methodPointerType)&GcUserProfileData_ToUserProfile_m9870/* method */
+	, (methodPointerType)&GcUserProfileData_ToUserProfile_m9871/* method */
 	, &GcUserProfileData_t2844_il2cpp_TypeInfo/* declaring_type */
 	, &UserProfile_t2856_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -8332,7 +8332,7 @@ extern const MethodInfo GcUserProfileData_ToUserProfile_m9870_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1749/* token */
+	, 1756/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8341,21 +8341,21 @@ extern const MethodInfo GcUserProfileData_ToUserProfile_m9870_MethodInfo =
 extern const Il2CppType UserProfileU5BU5D_t2695_1_0_0;
 extern const Il2CppType UserProfileU5BU5D_t2695_1_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo GcUserProfileData_t2844_GcUserProfileData_AddToArray_m9871_ParameterInfos[] = 
+static const ParameterInfo GcUserProfileData_t2844_GcUserProfileData_AddToArray_m9872_ParameterInfos[] = 
 {
-	{"array", 0, 134219714, 0, &UserProfileU5BU5D_t2695_1_0_0},
-	{"number", 1, 134219715, 0, &Int32_t82_0_0_0},
+	{"array", 0, 134219726, 0, &UserProfileU5BU5D_t2695_1_0_0},
+	{"number", 1, 134219727, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_UserProfileU5BU5DU26_t2988_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GcUserProfileData::AddToArray(UnityEngine.SocialPlatforms.Impl.UserProfile[]&,System.Int32)
-extern const MethodInfo GcUserProfileData_AddToArray_m9871_MethodInfo = 
+extern const MethodInfo GcUserProfileData_AddToArray_m9872_MethodInfo = 
 {
 	"AddToArray"/* name */
-	, (methodPointerType)&GcUserProfileData_AddToArray_m9871/* method */
+	, (methodPointerType)&GcUserProfileData_AddToArray_m9872/* method */
 	, &GcUserProfileData_t2844_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_UserProfileU5BU5DU26_t2988_Int32_t82/* invoker_method */
-	, GcUserProfileData_t2844_GcUserProfileData_AddToArray_m9871_ParameterInfos/* parameters */
+	, GcUserProfileData_t2844_GcUserProfileData_AddToArray_m9872_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8363,7 +8363,7 @@ extern const MethodInfo GcUserProfileData_AddToArray_m9871_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1750/* token */
+	, 1757/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8371,16 +8371,16 @@ extern const MethodInfo GcUserProfileData_AddToArray_m9871_MethodInfo =
 };
 static const MethodInfo* GcUserProfileData_t2844_MethodInfos[] =
 {
-	&GcUserProfileData_ToUserProfile_m9870_MethodInfo,
-	&GcUserProfileData_AddToArray_m9871_MethodInfo,
+	&GcUserProfileData_ToUserProfile_m9871_MethodInfo,
+	&GcUserProfileData_AddToArray_m9872_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference GcUserProfileData_t2844_VTable[] =
 {
-	&ValueType_Equals_m4569_MethodInfo,
+	&ValueType_Equals_m4567_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4570_MethodInfo,
-	&ValueType_ToString_m4571_MethodInfo,
+	&ValueType_GetHashCode_m4568_MethodInfo,
+	&ValueType_ToString_m4569_MethodInfo,
 };
 static bool GcUserProfileData_t2844_VTableIsGenericMethod[] =
 {
@@ -8468,10 +8468,10 @@ extern TypeInfo GcAchievementDescriptionData_t2845_il2cpp_TypeInfo;
 extern const Il2CppType AchievementDescription_t2858_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.SocialPlatforms.Impl.AchievementDescription UnityEngine.SocialPlatforms.GameCenter.GcAchievementDescriptionData::ToAchievementDescription()
-extern const MethodInfo GcAchievementDescriptionData_ToAchievementDescription_m9872_MethodInfo = 
+extern const MethodInfo GcAchievementDescriptionData_ToAchievementDescription_m9873_MethodInfo = 
 {
 	"ToAchievementDescription"/* name */
-	, (methodPointerType)&GcAchievementDescriptionData_ToAchievementDescription_m9872/* method */
+	, (methodPointerType)&GcAchievementDescriptionData_ToAchievementDescription_m9873/* method */
 	, &GcAchievementDescriptionData_t2845_il2cpp_TypeInfo/* declaring_type */
 	, &AchievementDescription_t2858_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -8483,7 +8483,7 @@ extern const MethodInfo GcAchievementDescriptionData_ToAchievementDescription_m9
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1751/* token */
+	, 1758/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8491,15 +8491,15 @@ extern const MethodInfo GcAchievementDescriptionData_ToAchievementDescription_m9
 };
 static const MethodInfo* GcAchievementDescriptionData_t2845_MethodInfos[] =
 {
-	&GcAchievementDescriptionData_ToAchievementDescription_m9872_MethodInfo,
+	&GcAchievementDescriptionData_ToAchievementDescription_m9873_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference GcAchievementDescriptionData_t2845_VTable[] =
 {
-	&ValueType_Equals_m4569_MethodInfo,
+	&ValueType_Equals_m4567_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4570_MethodInfo,
-	&ValueType_ToString_m4571_MethodInfo,
+	&ValueType_GetHashCode_m4568_MethodInfo,
+	&ValueType_ToString_m4569_MethodInfo,
 };
 static bool GcAchievementDescriptionData_t2845_VTableIsGenericMethod[] =
 {
@@ -8587,10 +8587,10 @@ extern TypeInfo GcAchievementData_t2846_il2cpp_TypeInfo;
 extern const Il2CppType Achievement_t2857_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.SocialPlatforms.Impl.Achievement UnityEngine.SocialPlatforms.GameCenter.GcAchievementData::ToAchievement()
-extern const MethodInfo GcAchievementData_ToAchievement_m9873_MethodInfo = 
+extern const MethodInfo GcAchievementData_ToAchievement_m9874_MethodInfo = 
 {
 	"ToAchievement"/* name */
-	, (methodPointerType)&GcAchievementData_ToAchievement_m9873/* method */
+	, (methodPointerType)&GcAchievementData_ToAchievement_m9874/* method */
 	, &GcAchievementData_t2846_il2cpp_TypeInfo/* declaring_type */
 	, &Achievement_t2857_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -8602,7 +8602,7 @@ extern const MethodInfo GcAchievementData_ToAchievement_m9873_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1752/* token */
+	, 1759/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8610,15 +8610,15 @@ extern const MethodInfo GcAchievementData_ToAchievement_m9873_MethodInfo =
 };
 static const MethodInfo* GcAchievementData_t2846_MethodInfos[] =
 {
-	&GcAchievementData_ToAchievement_m9873_MethodInfo,
+	&GcAchievementData_ToAchievement_m9874_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference GcAchievementData_t2846_VTable[] =
 {
-	&ValueType_Equals_m4569_MethodInfo,
+	&ValueType_Equals_m4567_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4570_MethodInfo,
-	&ValueType_ToString_m4571_MethodInfo,
+	&ValueType_GetHashCode_m4568_MethodInfo,
+	&ValueType_ToString_m4569_MethodInfo,
 };
 static bool GcAchievementData_t2846_VTableIsGenericMethod[] =
 {
@@ -8706,10 +8706,10 @@ extern TypeInfo GcScoreData_t2847_il2cpp_TypeInfo;
 extern const Il2CppType Score_t2859_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.SocialPlatforms.Impl.Score UnityEngine.SocialPlatforms.GameCenter.GcScoreData::ToScore()
-extern const MethodInfo GcScoreData_ToScore_m9874_MethodInfo = 
+extern const MethodInfo GcScoreData_ToScore_m9875_MethodInfo = 
 {
 	"ToScore"/* name */
-	, (methodPointerType)&GcScoreData_ToScore_m9874/* method */
+	, (methodPointerType)&GcScoreData_ToScore_m9875/* method */
 	, &GcScoreData_t2847_il2cpp_TypeInfo/* declaring_type */
 	, &Score_t2859_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -8721,7 +8721,7 @@ extern const MethodInfo GcScoreData_ToScore_m9874_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1753/* token */
+	, 1760/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8729,15 +8729,15 @@ extern const MethodInfo GcScoreData_ToScore_m9874_MethodInfo =
 };
 static const MethodInfo* GcScoreData_t2847_MethodInfos[] =
 {
-	&GcScoreData_ToScore_m9874_MethodInfo,
+	&GcScoreData_ToScore_m9875_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference GcScoreData_t2847_VTable[] =
 {
-	&ValueType_Equals_m4569_MethodInfo,
+	&ValueType_Equals_m4567_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4570_MethodInfo,
-	&ValueType_ToString_m4571_MethodInfo,
+	&ValueType_GetHashCode_m4568_MethodInfo,
+	&ValueType_ToString_m4569_MethodInfo,
 };
 static bool GcScoreData_t2847_VTableIsGenericMethod[] =
 {
@@ -8824,10 +8824,10 @@ extern TypeInfo Resolution_t2848_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_ResolutionMethodDeclarations.h"
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.Resolution::get_width()
-extern const MethodInfo Resolution_get_width_m9875_MethodInfo = 
+extern const MethodInfo Resolution_get_width_m9876_MethodInfo = 
 {
 	"get_width"/* name */
-	, (methodPointerType)&Resolution_get_width_m9875/* method */
+	, (methodPointerType)&Resolution_get_width_m9876/* method */
 	, &Resolution_t2848_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -8839,27 +8839,27 @@ extern const MethodInfo Resolution_get_width_m9875_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1754/* token */
+	, 1761/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Resolution_t2848_Resolution_set_width_m9876_ParameterInfos[] = 
+static const ParameterInfo Resolution_t2848_Resolution_set_width_m9877_ParameterInfos[] = 
 {
-	{"value", 0, 134219716, 0, &Int32_t82_0_0_0},
+	{"value", 0, 134219728, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Resolution::set_width(System.Int32)
-extern const MethodInfo Resolution_set_width_m9876_MethodInfo = 
+extern const MethodInfo Resolution_set_width_m9877_MethodInfo = 
 {
 	"set_width"/* name */
-	, (methodPointerType)&Resolution_set_width_m9876/* method */
+	, (methodPointerType)&Resolution_set_width_m9877/* method */
 	, &Resolution_t2848_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Resolution_t2848_Resolution_set_width_m9876_ParameterInfos/* parameters */
+	, Resolution_t2848_Resolution_set_width_m9877_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -8867,7 +8867,7 @@ extern const MethodInfo Resolution_set_width_m9876_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1755/* token */
+	, 1762/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8875,10 +8875,10 @@ extern const MethodInfo Resolution_set_width_m9876_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.Resolution::get_height()
-extern const MethodInfo Resolution_get_height_m9877_MethodInfo = 
+extern const MethodInfo Resolution_get_height_m9878_MethodInfo = 
 {
 	"get_height"/* name */
-	, (methodPointerType)&Resolution_get_height_m9877/* method */
+	, (methodPointerType)&Resolution_get_height_m9878/* method */
 	, &Resolution_t2848_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -8890,27 +8890,27 @@ extern const MethodInfo Resolution_get_height_m9877_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1756/* token */
+	, 1763/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Resolution_t2848_Resolution_set_height_m9878_ParameterInfos[] = 
+static const ParameterInfo Resolution_t2848_Resolution_set_height_m9879_ParameterInfos[] = 
 {
-	{"value", 0, 134219717, 0, &Int32_t82_0_0_0},
+	{"value", 0, 134219729, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Resolution::set_height(System.Int32)
-extern const MethodInfo Resolution_set_height_m9878_MethodInfo = 
+extern const MethodInfo Resolution_set_height_m9879_MethodInfo = 
 {
 	"set_height"/* name */
-	, (methodPointerType)&Resolution_set_height_m9878/* method */
+	, (methodPointerType)&Resolution_set_height_m9879/* method */
 	, &Resolution_t2848_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Resolution_t2848_Resolution_set_height_m9878_ParameterInfos/* parameters */
+	, Resolution_t2848_Resolution_set_height_m9879_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -8918,7 +8918,7 @@ extern const MethodInfo Resolution_set_height_m9878_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1757/* token */
+	, 1764/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8926,10 +8926,10 @@ extern const MethodInfo Resolution_set_height_m9878_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.Resolution::get_refreshRate()
-extern const MethodInfo Resolution_get_refreshRate_m9879_MethodInfo = 
+extern const MethodInfo Resolution_get_refreshRate_m9880_MethodInfo = 
 {
 	"get_refreshRate"/* name */
-	, (methodPointerType)&Resolution_get_refreshRate_m9879/* method */
+	, (methodPointerType)&Resolution_get_refreshRate_m9880/* method */
 	, &Resolution_t2848_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -8941,27 +8941,27 @@ extern const MethodInfo Resolution_get_refreshRate_m9879_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1758/* token */
+	, 1765/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Resolution_t2848_Resolution_set_refreshRate_m9880_ParameterInfos[] = 
+static const ParameterInfo Resolution_t2848_Resolution_set_refreshRate_m9881_ParameterInfos[] = 
 {
-	{"value", 0, 134219718, 0, &Int32_t82_0_0_0},
+	{"value", 0, 134219730, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Resolution::set_refreshRate(System.Int32)
-extern const MethodInfo Resolution_set_refreshRate_m9880_MethodInfo = 
+extern const MethodInfo Resolution_set_refreshRate_m9881_MethodInfo = 
 {
 	"set_refreshRate"/* name */
-	, (methodPointerType)&Resolution_set_refreshRate_m9880/* method */
+	, (methodPointerType)&Resolution_set_refreshRate_m9881/* method */
 	, &Resolution_t2848_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Resolution_t2848_Resolution_set_refreshRate_m9880_ParameterInfos/* parameters */
+	, Resolution_t2848_Resolution_set_refreshRate_m9881_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -8969,7 +8969,7 @@ extern const MethodInfo Resolution_set_refreshRate_m9880_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1759/* token */
+	, 1766/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8977,10 +8977,10 @@ extern const MethodInfo Resolution_set_refreshRate_m9880_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.Resolution::ToString()
-extern const MethodInfo Resolution_ToString_m9881_MethodInfo = 
+extern const MethodInfo Resolution_ToString_m9882_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&Resolution_ToString_m9881/* method */
+	, (methodPointerType)&Resolution_ToString_m9882/* method */
 	, &Resolution_t2848_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -8992,7 +8992,7 @@ extern const MethodInfo Resolution_ToString_m9881_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1760/* token */
+	, 1767/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -9000,47 +9000,47 @@ extern const MethodInfo Resolution_ToString_m9881_MethodInfo =
 };
 static const MethodInfo* Resolution_t2848_MethodInfos[] =
 {
-	&Resolution_get_width_m9875_MethodInfo,
-	&Resolution_set_width_m9876_MethodInfo,
-	&Resolution_get_height_m9877_MethodInfo,
-	&Resolution_set_height_m9878_MethodInfo,
-	&Resolution_get_refreshRate_m9879_MethodInfo,
-	&Resolution_set_refreshRate_m9880_MethodInfo,
-	&Resolution_ToString_m9881_MethodInfo,
+	&Resolution_get_width_m9876_MethodInfo,
+	&Resolution_set_width_m9877_MethodInfo,
+	&Resolution_get_height_m9878_MethodInfo,
+	&Resolution_set_height_m9879_MethodInfo,
+	&Resolution_get_refreshRate_m9880_MethodInfo,
+	&Resolution_set_refreshRate_m9881_MethodInfo,
+	&Resolution_ToString_m9882_MethodInfo,
 	NULL
 };
-extern const MethodInfo Resolution_get_width_m9875_MethodInfo;
-extern const MethodInfo Resolution_set_width_m9876_MethodInfo;
+extern const MethodInfo Resolution_get_width_m9876_MethodInfo;
+extern const MethodInfo Resolution_set_width_m9877_MethodInfo;
 static const PropertyInfo Resolution_t2848____width_PropertyInfo = 
 {
 	&Resolution_t2848_il2cpp_TypeInfo/* parent */
 	, "width"/* name */
-	, &Resolution_get_width_m9875_MethodInfo/* get */
-	, &Resolution_set_width_m9876_MethodInfo/* set */
+	, &Resolution_get_width_m9876_MethodInfo/* get */
+	, &Resolution_set_width_m9877_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Resolution_get_height_m9877_MethodInfo;
-extern const MethodInfo Resolution_set_height_m9878_MethodInfo;
+extern const MethodInfo Resolution_get_height_m9878_MethodInfo;
+extern const MethodInfo Resolution_set_height_m9879_MethodInfo;
 static const PropertyInfo Resolution_t2848____height_PropertyInfo = 
 {
 	&Resolution_t2848_il2cpp_TypeInfo/* parent */
 	, "height"/* name */
-	, &Resolution_get_height_m9877_MethodInfo/* get */
-	, &Resolution_set_height_m9878_MethodInfo/* set */
+	, &Resolution_get_height_m9878_MethodInfo/* get */
+	, &Resolution_set_height_m9879_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Resolution_get_refreshRate_m9879_MethodInfo;
-extern const MethodInfo Resolution_set_refreshRate_m9880_MethodInfo;
+extern const MethodInfo Resolution_get_refreshRate_m9880_MethodInfo;
+extern const MethodInfo Resolution_set_refreshRate_m9881_MethodInfo;
 static const PropertyInfo Resolution_t2848____refreshRate_PropertyInfo = 
 {
 	&Resolution_t2848_il2cpp_TypeInfo/* parent */
 	, "refreshRate"/* name */
-	, &Resolution_get_refreshRate_m9879_MethodInfo/* get */
-	, &Resolution_set_refreshRate_m9880_MethodInfo/* set */
+	, &Resolution_get_refreshRate_m9880_MethodInfo/* get */
+	, &Resolution_set_refreshRate_m9881_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -9052,13 +9052,13 @@ static const PropertyInfo* Resolution_t2848_PropertyInfos[] =
 	&Resolution_t2848____refreshRate_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Resolution_ToString_m9881_MethodInfo;
+extern const MethodInfo Resolution_ToString_m9882_MethodInfo;
 static const Il2CppMethodReference Resolution_t2848_VTable[] =
 {
-	&ValueType_Equals_m4569_MethodInfo,
+	&ValueType_Equals_m4567_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4570_MethodInfo,
-	&Resolution_ToString_m9881_MethodInfo,
+	&ValueType_GetHashCode_m4568_MethodInfo,
+	&Resolution_ToString_m9882_MethodInfo,
 };
 static bool Resolution_t2848_VTableIsGenericMethod[] =
 {
@@ -9149,10 +9149,10 @@ static const MethodInfo* RenderBuffer_t2849_MethodInfos[] =
 };
 static const Il2CppMethodReference RenderBuffer_t2849_VTable[] =
 {
-	&ValueType_Equals_m4569_MethodInfo,
+	&ValueType_Equals_m4567_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4570_MethodInfo,
-	&ValueType_ToString_m4571_MethodInfo,
+	&ValueType_GetHashCode_m4568_MethodInfo,
+	&ValueType_ToString_m4569_MethodInfo,
 };
 static bool RenderBuffer_t2849_VTableIsGenericMethod[] =
 {
@@ -9685,10 +9685,10 @@ static const MethodInfo* ReflectionProbeBlendInfo_t2852_MethodInfos[] =
 };
 static const Il2CppMethodReference ReflectionProbeBlendInfo_t2852_VTable[] =
 {
-	&ValueType_Equals_m4569_MethodInfo,
+	&ValueType_Equals_m4567_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4570_MethodInfo,
-	&ValueType_ToString_m4571_MethodInfo,
+	&ValueType_GetHashCode_m4568_MethodInfo,
+	&ValueType_ToString_m4569_MethodInfo,
 };
 static bool ReflectionProbeBlendInfo_t2852_VTableIsGenericMethod[] =
 {
@@ -9775,10 +9775,10 @@ extern TypeInfo GUIStateObjects_t2854_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_GUIStateObjectsMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.GUIStateObjects::.cctor()
-extern const MethodInfo GUIStateObjects__cctor_m9882_MethodInfo = 
+extern const MethodInfo GUIStateObjects__cctor_m9883_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&GUIStateObjects__cctor_m9882/* method */
+	, (methodPointerType)&GUIStateObjects__cctor_m9883/* method */
 	, &GUIStateObjects_t2854_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9790,7 +9790,7 @@ extern const MethodInfo GUIStateObjects__cctor_m9882_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1761/* token */
+	, 1768/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -9798,29 +9798,29 @@ extern const MethodInfo GUIStateObjects__cctor_m9882_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo GUIStateObjects_t2854_GUIStateObjects_GetStateObject_m9883_ParameterInfos[] = 
+static const ParameterInfo GUIStateObjects_t2854_GUIStateObjects_GetStateObject_m9884_ParameterInfos[] = 
 {
-	{"t", 0, 134219719, 0, &Type_t_0_0_0},
-	{"controlID", 1, 134219720, 0, &Int32_t82_0_0_0},
+	{"t", 0, 134219731, 0, &Type_t_0_0_0},
+	{"controlID", 1, 134219732, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Object UnityEngine.GUIStateObjects::GetStateObject(System.Type,System.Int32)
-extern const MethodInfo GUIStateObjects_GetStateObject_m9883_MethodInfo = 
+extern const MethodInfo GUIStateObjects_GetStateObject_m9884_MethodInfo = 
 {
 	"GetStateObject"/* name */
-	, (methodPointerType)&GUIStateObjects_GetStateObject_m9883/* method */
+	, (methodPointerType)&GUIStateObjects_GetStateObject_m9884/* method */
 	, &GUIStateObjects_t2854_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t82/* invoker_method */
-	, GUIStateObjects_t2854_GUIStateObjects_GetStateObject_m9883_ParameterInfos/* parameters */
-	, 763/* custom_attributes_cache */
+	, GUIStateObjects_t2854_GUIStateObjects_GetStateObject_m9884_ParameterInfos/* parameters */
+	, 770/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
 	, 255/* slot */
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1762/* token */
+	, 1769/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -9828,8 +9828,8 @@ extern const MethodInfo GUIStateObjects_GetStateObject_m9883_MethodInfo =
 };
 static const MethodInfo* GUIStateObjects_t2854_MethodInfos[] =
 {
-	&GUIStateObjects__cctor_m9882_MethodInfo,
-	&GUIStateObjects_GetStateObject_m9883_MethodInfo,
+	&GUIStateObjects__cctor_m9883_MethodInfo,
+	&GUIStateObjects_GetStateObject_m9884_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference GUIStateObjects_t2854_VTable[] =
@@ -9925,10 +9925,10 @@ extern TypeInfo LocalUser_t2696_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_SocialPlatforms_Impl_LocalUserMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.LocalUser::.ctor()
-extern const MethodInfo LocalUser__ctor_m9884_MethodInfo = 
+extern const MethodInfo LocalUser__ctor_m9885_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&LocalUser__ctor_m9884/* method */
+	, (methodPointerType)&LocalUser__ctor_m9885/* method */
 	, &LocalUser_t2696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9940,7 +9940,7 @@ extern const MethodInfo LocalUser__ctor_m9884_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1763/* token */
+	, 1770/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -9948,20 +9948,20 @@ extern const MethodInfo LocalUser__ctor_m9884_MethodInfo =
 };
 extern const Il2CppType Action_1_t277_0_0_0;
 extern const Il2CppType Action_1_t277_0_0_0;
-static const ParameterInfo LocalUser_t2696_LocalUser_Authenticate_m9885_ParameterInfos[] = 
+static const ParameterInfo LocalUser_t2696_LocalUser_Authenticate_m9886_ParameterInfos[] = 
 {
-	{"callback", 0, 134219721, 0, &Action_1_t277_0_0_0},
+	{"callback", 0, 134219733, 0, &Action_1_t277_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.LocalUser::Authenticate(System.Action`1<System.Boolean>)
-extern const MethodInfo LocalUser_Authenticate_m9885_MethodInfo = 
+extern const MethodInfo LocalUser_Authenticate_m9886_MethodInfo = 
 {
 	"Authenticate"/* name */
-	, (methodPointerType)&LocalUser_Authenticate_m9885/* method */
+	, (methodPointerType)&LocalUser_Authenticate_m9886/* method */
 	, &LocalUser_t2696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, LocalUser_t2696_LocalUser_Authenticate_m9885_ParameterInfos/* parameters */
+	, LocalUser_t2696_LocalUser_Authenticate_m9886_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -9969,7 +9969,7 @@ extern const MethodInfo LocalUser_Authenticate_m9885_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1764/* token */
+	, 1771/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -9977,20 +9977,20 @@ extern const MethodInfo LocalUser_Authenticate_m9885_MethodInfo =
 };
 extern const Il2CppType IUserProfileU5BU5D_t2855_0_0_0;
 extern const Il2CppType IUserProfileU5BU5D_t2855_0_0_0;
-static const ParameterInfo LocalUser_t2696_LocalUser_SetFriends_m9886_ParameterInfos[] = 
+static const ParameterInfo LocalUser_t2696_LocalUser_SetFriends_m9887_ParameterInfos[] = 
 {
-	{"friends", 0, 134219722, 0, &IUserProfileU5BU5D_t2855_0_0_0},
+	{"friends", 0, 134219734, 0, &IUserProfileU5BU5D_t2855_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.LocalUser::SetFriends(UnityEngine.SocialPlatforms.IUserProfile[])
-extern const MethodInfo LocalUser_SetFriends_m9886_MethodInfo = 
+extern const MethodInfo LocalUser_SetFriends_m9887_MethodInfo = 
 {
 	"SetFriends"/* name */
-	, (methodPointerType)&LocalUser_SetFriends_m9886/* method */
+	, (methodPointerType)&LocalUser_SetFriends_m9887/* method */
 	, &LocalUser_t2696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, LocalUser_t2696_LocalUser_SetFriends_m9886_ParameterInfos/* parameters */
+	, LocalUser_t2696_LocalUser_SetFriends_m9887_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -9998,27 +9998,27 @@ extern const MethodInfo LocalUser_SetFriends_m9886_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1765/* token */
+	, 1772/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo LocalUser_t2696_LocalUser_SetAuthenticated_m9887_ParameterInfos[] = 
+static const ParameterInfo LocalUser_t2696_LocalUser_SetAuthenticated_m9888_ParameterInfos[] = 
 {
-	{"value", 0, 134219723, 0, &Boolean_t59_0_0_0},
+	{"value", 0, 134219735, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.LocalUser::SetAuthenticated(System.Boolean)
-extern const MethodInfo LocalUser_SetAuthenticated_m9887_MethodInfo = 
+extern const MethodInfo LocalUser_SetAuthenticated_m9888_MethodInfo = 
 {
 	"SetAuthenticated"/* name */
-	, (methodPointerType)&LocalUser_SetAuthenticated_m9887/* method */
+	, (methodPointerType)&LocalUser_SetAuthenticated_m9888/* method */
 	, &LocalUser_t2696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, LocalUser_t2696_LocalUser_SetAuthenticated_m9887_ParameterInfos/* parameters */
+	, LocalUser_t2696_LocalUser_SetAuthenticated_m9888_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -10026,27 +10026,27 @@ extern const MethodInfo LocalUser_SetAuthenticated_m9887_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1766/* token */
+	, 1773/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo LocalUser_t2696_LocalUser_SetUnderage_m9888_ParameterInfos[] = 
+static const ParameterInfo LocalUser_t2696_LocalUser_SetUnderage_m9889_ParameterInfos[] = 
 {
-	{"value", 0, 134219724, 0, &Boolean_t59_0_0_0},
+	{"value", 0, 134219736, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.LocalUser::SetUnderage(System.Boolean)
-extern const MethodInfo LocalUser_SetUnderage_m9888_MethodInfo = 
+extern const MethodInfo LocalUser_SetUnderage_m9889_MethodInfo = 
 {
 	"SetUnderage"/* name */
-	, (methodPointerType)&LocalUser_SetUnderage_m9888/* method */
+	, (methodPointerType)&LocalUser_SetUnderage_m9889/* method */
 	, &LocalUser_t2696_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, LocalUser_t2696_LocalUser_SetUnderage_m9888_ParameterInfos/* parameters */
+	, LocalUser_t2696_LocalUser_SetUnderage_m9889_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -10054,7 +10054,7 @@ extern const MethodInfo LocalUser_SetUnderage_m9888_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1767/* token */
+	, 1774/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10062,10 +10062,10 @@ extern const MethodInfo LocalUser_SetUnderage_m9888_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.SocialPlatforms.Impl.LocalUser::get_authenticated()
-extern const MethodInfo LocalUser_get_authenticated_m9889_MethodInfo = 
+extern const MethodInfo LocalUser_get_authenticated_m9890_MethodInfo = 
 {
 	"get_authenticated"/* name */
-	, (methodPointerType)&LocalUser_get_authenticated_m9889/* method */
+	, (methodPointerType)&LocalUser_get_authenticated_m9890/* method */
 	, &LocalUser_t2696_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -10077,7 +10077,7 @@ extern const MethodInfo LocalUser_get_authenticated_m9889_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1768/* token */
+	, 1775/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10085,10 +10085,10 @@ extern const MethodInfo LocalUser_get_authenticated_m9889_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.SocialPlatforms.Impl.LocalUser::get_underage()
-extern const MethodInfo LocalUser_get_underage_m9890_MethodInfo = 
+extern const MethodInfo LocalUser_get_underage_m9891_MethodInfo = 
 {
 	"get_underage"/* name */
-	, (methodPointerType)&LocalUser_get_underage_m9890/* method */
+	, (methodPointerType)&LocalUser_get_underage_m9891/* method */
 	, &LocalUser_t2696_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -10100,7 +10100,7 @@ extern const MethodInfo LocalUser_get_underage_m9890_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1769/* token */
+	, 1776/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10108,32 +10108,32 @@ extern const MethodInfo LocalUser_get_underage_m9890_MethodInfo =
 };
 static const MethodInfo* LocalUser_t2696_MethodInfos[] =
 {
-	&LocalUser__ctor_m9884_MethodInfo,
-	&LocalUser_Authenticate_m9885_MethodInfo,
-	&LocalUser_SetFriends_m9886_MethodInfo,
-	&LocalUser_SetAuthenticated_m9887_MethodInfo,
-	&LocalUser_SetUnderage_m9888_MethodInfo,
-	&LocalUser_get_authenticated_m9889_MethodInfo,
-	&LocalUser_get_underage_m9890_MethodInfo,
+	&LocalUser__ctor_m9885_MethodInfo,
+	&LocalUser_Authenticate_m9886_MethodInfo,
+	&LocalUser_SetFriends_m9887_MethodInfo,
+	&LocalUser_SetAuthenticated_m9888_MethodInfo,
+	&LocalUser_SetUnderage_m9889_MethodInfo,
+	&LocalUser_get_authenticated_m9890_MethodInfo,
+	&LocalUser_get_underage_m9891_MethodInfo,
 	NULL
 };
-extern const MethodInfo LocalUser_get_authenticated_m9889_MethodInfo;
+extern const MethodInfo LocalUser_get_authenticated_m9890_MethodInfo;
 static const PropertyInfo LocalUser_t2696____authenticated_PropertyInfo = 
 {
 	&LocalUser_t2696_il2cpp_TypeInfo/* parent */
 	, "authenticated"/* name */
-	, &LocalUser_get_authenticated_m9889_MethodInfo/* get */
+	, &LocalUser_get_authenticated_m9890_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo LocalUser_get_underage_m9890_MethodInfo;
+extern const MethodInfo LocalUser_get_underage_m9891_MethodInfo;
 static const PropertyInfo LocalUser_t2696____underage_PropertyInfo = 
 {
 	&LocalUser_t2696_il2cpp_TypeInfo/* parent */
 	, "underage"/* name */
-	, &LocalUser_get_underage_m9890_MethodInfo/* get */
+	, &LocalUser_get_underage_m9891_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -10145,25 +10145,25 @@ static const PropertyInfo* LocalUser_t2696_PropertyInfos[] =
 	&LocalUser_t2696____underage_PropertyInfo,
 	NULL
 };
-extern const MethodInfo UserProfile_ToString_m9893_MethodInfo;
-extern const MethodInfo UserProfile_get_userName_m9897_MethodInfo;
-extern const MethodInfo UserProfile_get_id_m9898_MethodInfo;
-extern const MethodInfo UserProfile_get_isFriend_m9899_MethodInfo;
-extern const MethodInfo UserProfile_get_state_m9900_MethodInfo;
-extern const MethodInfo LocalUser_Authenticate_m9885_MethodInfo;
+extern const MethodInfo UserProfile_ToString_m9894_MethodInfo;
+extern const MethodInfo UserProfile_get_userName_m9898_MethodInfo;
+extern const MethodInfo UserProfile_get_id_m9899_MethodInfo;
+extern const MethodInfo UserProfile_get_isFriend_m9900_MethodInfo;
+extern const MethodInfo UserProfile_get_state_m9901_MethodInfo;
+extern const MethodInfo LocalUser_Authenticate_m9886_MethodInfo;
 static const Il2CppMethodReference LocalUser_t2696_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&UserProfile_ToString_m9893_MethodInfo,
-	&UserProfile_get_userName_m9897_MethodInfo,
-	&UserProfile_get_id_m9898_MethodInfo,
-	&UserProfile_get_isFriend_m9899_MethodInfo,
-	&UserProfile_get_state_m9900_MethodInfo,
-	&LocalUser_Authenticate_m9885_MethodInfo,
-	&LocalUser_get_authenticated_m9889_MethodInfo,
-	&LocalUser_get_underage_m9890_MethodInfo,
+	&UserProfile_ToString_m9894_MethodInfo,
+	&UserProfile_get_userName_m9898_MethodInfo,
+	&UserProfile_get_id_m9899_MethodInfo,
+	&UserProfile_get_isFriend_m9900_MethodInfo,
+	&UserProfile_get_state_m9901_MethodInfo,
+	&LocalUser_Authenticate_m9886_MethodInfo,
+	&LocalUser_get_authenticated_m9890_MethodInfo,
+	&LocalUser_get_underage_m9891_MethodInfo,
 };
 static bool LocalUser_t2696_VTableIsGenericMethod[] =
 {
@@ -10270,10 +10270,10 @@ extern TypeInfo UserProfile_t2856_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_SocialPlatforms_Impl_UserProfileMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.UserProfile::.ctor()
-extern const MethodInfo UserProfile__ctor_m9891_MethodInfo = 
+extern const MethodInfo UserProfile__ctor_m9892_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UserProfile__ctor_m9891/* method */
+	, (methodPointerType)&UserProfile__ctor_m9892/* method */
 	, &UserProfile_t2856_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10285,7 +10285,7 @@ extern const MethodInfo UserProfile__ctor_m9891_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1770/* token */
+	, 1777/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10298,24 +10298,24 @@ extern const Il2CppType UserState_t2870_0_0_0;
 extern const Il2CppType UserState_t2870_0_0_0;
 extern const Il2CppType Texture2D_t108_0_0_0;
 extern const Il2CppType Texture2D_t108_0_0_0;
-static const ParameterInfo UserProfile_t2856_UserProfile__ctor_m9892_ParameterInfos[] = 
+static const ParameterInfo UserProfile_t2856_UserProfile__ctor_m9893_ParameterInfos[] = 
 {
-	{"name", 0, 134219725, 0, &String_t_0_0_0},
-	{"id", 1, 134219726, 0, &String_t_0_0_0},
-	{"friend", 2, 134219727, 0, &Boolean_t59_0_0_0},
-	{"state", 3, 134219728, 0, &UserState_t2870_0_0_0},
-	{"image", 4, 134219729, 0, &Texture2D_t108_0_0_0},
+	{"name", 0, 134219737, 0, &String_t_0_0_0},
+	{"id", 1, 134219738, 0, &String_t_0_0_0},
+	{"friend", 2, 134219739, 0, &Boolean_t59_0_0_0},
+	{"state", 3, 134219740, 0, &UserState_t2870_0_0_0},
+	{"image", 4, 134219741, 0, &Texture2D_t108_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.UserProfile::.ctor(System.String,System.String,System.Boolean,UnityEngine.SocialPlatforms.UserState,UnityEngine.Texture2D)
-extern const MethodInfo UserProfile__ctor_m9892_MethodInfo = 
+extern const MethodInfo UserProfile__ctor_m9893_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UserProfile__ctor_m9892/* method */
+	, (methodPointerType)&UserProfile__ctor_m9893/* method */
 	, &UserProfile_t2856_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88_Int32_t82_Object_t/* invoker_method */
-	, UserProfile_t2856_UserProfile__ctor_m9892_ParameterInfos/* parameters */
+	, UserProfile_t2856_UserProfile__ctor_m9893_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -10323,7 +10323,7 @@ extern const MethodInfo UserProfile__ctor_m9892_MethodInfo =
 	, 5/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1771/* token */
+	, 1778/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10331,10 +10331,10 @@ extern const MethodInfo UserProfile__ctor_m9892_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.UserProfile::ToString()
-extern const MethodInfo UserProfile_ToString_m9893_MethodInfo = 
+extern const MethodInfo UserProfile_ToString_m9894_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&UserProfile_ToString_m9893/* method */
+	, (methodPointerType)&UserProfile_ToString_m9894/* method */
 	, &UserProfile_t2856_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10346,27 +10346,27 @@ extern const MethodInfo UserProfile_ToString_m9893_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1772/* token */
+	, 1779/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UserProfile_t2856_UserProfile_SetUserName_m9894_ParameterInfos[] = 
+static const ParameterInfo UserProfile_t2856_UserProfile_SetUserName_m9895_ParameterInfos[] = 
 {
-	{"name", 0, 134219730, 0, &String_t_0_0_0},
+	{"name", 0, 134219742, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.UserProfile::SetUserName(System.String)
-extern const MethodInfo UserProfile_SetUserName_m9894_MethodInfo = 
+extern const MethodInfo UserProfile_SetUserName_m9895_MethodInfo = 
 {
 	"SetUserName"/* name */
-	, (methodPointerType)&UserProfile_SetUserName_m9894/* method */
+	, (methodPointerType)&UserProfile_SetUserName_m9895/* method */
 	, &UserProfile_t2856_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, UserProfile_t2856_UserProfile_SetUserName_m9894_ParameterInfos/* parameters */
+	, UserProfile_t2856_UserProfile_SetUserName_m9895_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -10374,27 +10374,27 @@ extern const MethodInfo UserProfile_SetUserName_m9894_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1773/* token */
+	, 1780/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UserProfile_t2856_UserProfile_SetUserID_m9895_ParameterInfos[] = 
+static const ParameterInfo UserProfile_t2856_UserProfile_SetUserID_m9896_ParameterInfos[] = 
 {
-	{"id", 0, 134219731, 0, &String_t_0_0_0},
+	{"id", 0, 134219743, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.UserProfile::SetUserID(System.String)
-extern const MethodInfo UserProfile_SetUserID_m9895_MethodInfo = 
+extern const MethodInfo UserProfile_SetUserID_m9896_MethodInfo = 
 {
 	"SetUserID"/* name */
-	, (methodPointerType)&UserProfile_SetUserID_m9895/* method */
+	, (methodPointerType)&UserProfile_SetUserID_m9896/* method */
 	, &UserProfile_t2856_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, UserProfile_t2856_UserProfile_SetUserID_m9895_ParameterInfos/* parameters */
+	, UserProfile_t2856_UserProfile_SetUserID_m9896_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -10402,27 +10402,27 @@ extern const MethodInfo UserProfile_SetUserID_m9895_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1774/* token */
+	, 1781/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Texture2D_t108_0_0_0;
-static const ParameterInfo UserProfile_t2856_UserProfile_SetImage_m9896_ParameterInfos[] = 
+static const ParameterInfo UserProfile_t2856_UserProfile_SetImage_m9897_ParameterInfos[] = 
 {
-	{"image", 0, 134219732, 0, &Texture2D_t108_0_0_0},
+	{"image", 0, 134219744, 0, &Texture2D_t108_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.UserProfile::SetImage(UnityEngine.Texture2D)
-extern const MethodInfo UserProfile_SetImage_m9896_MethodInfo = 
+extern const MethodInfo UserProfile_SetImage_m9897_MethodInfo = 
 {
 	"SetImage"/* name */
-	, (methodPointerType)&UserProfile_SetImage_m9896/* method */
+	, (methodPointerType)&UserProfile_SetImage_m9897/* method */
 	, &UserProfile_t2856_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, UserProfile_t2856_UserProfile_SetImage_m9896_ParameterInfos/* parameters */
+	, UserProfile_t2856_UserProfile_SetImage_m9897_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -10430,7 +10430,7 @@ extern const MethodInfo UserProfile_SetImage_m9896_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1775/* token */
+	, 1782/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10438,10 +10438,10 @@ extern const MethodInfo UserProfile_SetImage_m9896_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.UserProfile::get_userName()
-extern const MethodInfo UserProfile_get_userName_m9897_MethodInfo = 
+extern const MethodInfo UserProfile_get_userName_m9898_MethodInfo = 
 {
 	"get_userName"/* name */
-	, (methodPointerType)&UserProfile_get_userName_m9897/* method */
+	, (methodPointerType)&UserProfile_get_userName_m9898/* method */
 	, &UserProfile_t2856_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10453,7 +10453,7 @@ extern const MethodInfo UserProfile_get_userName_m9897_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1776/* token */
+	, 1783/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10461,10 +10461,10 @@ extern const MethodInfo UserProfile_get_userName_m9897_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.UserProfile::get_id()
-extern const MethodInfo UserProfile_get_id_m9898_MethodInfo = 
+extern const MethodInfo UserProfile_get_id_m9899_MethodInfo = 
 {
 	"get_id"/* name */
-	, (methodPointerType)&UserProfile_get_id_m9898/* method */
+	, (methodPointerType)&UserProfile_get_id_m9899/* method */
 	, &UserProfile_t2856_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10476,7 +10476,7 @@ extern const MethodInfo UserProfile_get_id_m9898_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1777/* token */
+	, 1784/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10484,10 +10484,10 @@ extern const MethodInfo UserProfile_get_id_m9898_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.SocialPlatforms.Impl.UserProfile::get_isFriend()
-extern const MethodInfo UserProfile_get_isFriend_m9899_MethodInfo = 
+extern const MethodInfo UserProfile_get_isFriend_m9900_MethodInfo = 
 {
 	"get_isFriend"/* name */
-	, (methodPointerType)&UserProfile_get_isFriend_m9899/* method */
+	, (methodPointerType)&UserProfile_get_isFriend_m9900/* method */
 	, &UserProfile_t2856_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -10499,7 +10499,7 @@ extern const MethodInfo UserProfile_get_isFriend_m9899_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1778/* token */
+	, 1785/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10507,10 +10507,10 @@ extern const MethodInfo UserProfile_get_isFriend_m9899_MethodInfo =
 };
 extern void* RuntimeInvoker_UserState_t2870 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.SocialPlatforms.UserState UnityEngine.SocialPlatforms.Impl.UserProfile::get_state()
-extern const MethodInfo UserProfile_get_state_m9900_MethodInfo = 
+extern const MethodInfo UserProfile_get_state_m9901_MethodInfo = 
 {
 	"get_state"/* name */
-	, (methodPointerType)&UserProfile_get_state_m9900/* method */
+	, (methodPointerType)&UserProfile_get_state_m9901/* method */
 	, &UserProfile_t2856_il2cpp_TypeInfo/* declaring_type */
 	, &UserState_t2870_0_0_0/* return_type */
 	, RuntimeInvoker_UserState_t2870/* invoker_method */
@@ -10522,7 +10522,7 @@ extern const MethodInfo UserProfile_get_state_m9900_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1779/* token */
+	, 1786/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10530,23 +10530,23 @@ extern const MethodInfo UserProfile_get_state_m9900_MethodInfo =
 };
 static const MethodInfo* UserProfile_t2856_MethodInfos[] =
 {
-	&UserProfile__ctor_m9891_MethodInfo,
 	&UserProfile__ctor_m9892_MethodInfo,
-	&UserProfile_ToString_m9893_MethodInfo,
-	&UserProfile_SetUserName_m9894_MethodInfo,
-	&UserProfile_SetUserID_m9895_MethodInfo,
-	&UserProfile_SetImage_m9896_MethodInfo,
-	&UserProfile_get_userName_m9897_MethodInfo,
-	&UserProfile_get_id_m9898_MethodInfo,
-	&UserProfile_get_isFriend_m9899_MethodInfo,
-	&UserProfile_get_state_m9900_MethodInfo,
+	&UserProfile__ctor_m9893_MethodInfo,
+	&UserProfile_ToString_m9894_MethodInfo,
+	&UserProfile_SetUserName_m9895_MethodInfo,
+	&UserProfile_SetUserID_m9896_MethodInfo,
+	&UserProfile_SetImage_m9897_MethodInfo,
+	&UserProfile_get_userName_m9898_MethodInfo,
+	&UserProfile_get_id_m9899_MethodInfo,
+	&UserProfile_get_isFriend_m9900_MethodInfo,
+	&UserProfile_get_state_m9901_MethodInfo,
 	NULL
 };
 static const PropertyInfo UserProfile_t2856____userName_PropertyInfo = 
 {
 	&UserProfile_t2856_il2cpp_TypeInfo/* parent */
 	, "userName"/* name */
-	, &UserProfile_get_userName_m9897_MethodInfo/* get */
+	, &UserProfile_get_userName_m9898_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -10556,7 +10556,7 @@ static const PropertyInfo UserProfile_t2856____id_PropertyInfo =
 {
 	&UserProfile_t2856_il2cpp_TypeInfo/* parent */
 	, "id"/* name */
-	, &UserProfile_get_id_m9898_MethodInfo/* get */
+	, &UserProfile_get_id_m9899_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -10566,7 +10566,7 @@ static const PropertyInfo UserProfile_t2856____isFriend_PropertyInfo =
 {
 	&UserProfile_t2856_il2cpp_TypeInfo/* parent */
 	, "isFriend"/* name */
-	, &UserProfile_get_isFriend_m9899_MethodInfo/* get */
+	, &UserProfile_get_isFriend_m9900_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -10576,7 +10576,7 @@ static const PropertyInfo UserProfile_t2856____state_PropertyInfo =
 {
 	&UserProfile_t2856_il2cpp_TypeInfo/* parent */
 	, "state"/* name */
-	, &UserProfile_get_state_m9900_MethodInfo/* get */
+	, &UserProfile_get_state_m9901_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -10595,11 +10595,11 @@ static const Il2CppMethodReference UserProfile_t2856_VTable[] =
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&UserProfile_ToString_m9893_MethodInfo,
-	&UserProfile_get_userName_m9897_MethodInfo,
-	&UserProfile_get_id_m9898_MethodInfo,
-	&UserProfile_get_isFriend_m9899_MethodInfo,
-	&UserProfile_get_state_m9900_MethodInfo,
+	&UserProfile_ToString_m9894_MethodInfo,
+	&UserProfile_get_userName_m9898_MethodInfo,
+	&UserProfile_get_id_m9899_MethodInfo,
+	&UserProfile_get_isFriend_m9900_MethodInfo,
+	&UserProfile_get_state_m9901_MethodInfo,
 };
 static bool UserProfile_t2856_VTableIsGenericMethod[] =
 {
@@ -10703,24 +10703,24 @@ extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType DateTime_t287_0_0_0;
 extern const Il2CppType DateTime_t287_0_0_0;
-static const ParameterInfo Achievement_t2857_Achievement__ctor_m9901_ParameterInfos[] = 
+static const ParameterInfo Achievement_t2857_Achievement__ctor_m9902_ParameterInfos[] = 
 {
-	{"id", 0, 134219733, 0, &String_t_0_0_0},
-	{"percentCompleted", 1, 134219734, 0, &Double_t90_0_0_0},
-	{"completed", 2, 134219735, 0, &Boolean_t59_0_0_0},
-	{"hidden", 3, 134219736, 0, &Boolean_t59_0_0_0},
-	{"lastReportedDate", 4, 134219737, 0, &DateTime_t287_0_0_0},
+	{"id", 0, 134219745, 0, &String_t_0_0_0},
+	{"percentCompleted", 1, 134219746, 0, &Double_t90_0_0_0},
+	{"completed", 2, 134219747, 0, &Boolean_t59_0_0_0},
+	{"hidden", 3, 134219748, 0, &Boolean_t59_0_0_0},
+	{"lastReportedDate", 4, 134219749, 0, &DateTime_t287_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Double_t90_SByte_t88_SByte_t88_DateTime_t287 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Achievement::.ctor(System.String,System.Double,System.Boolean,System.Boolean,System.DateTime)
-extern const MethodInfo Achievement__ctor_m9901_MethodInfo = 
+extern const MethodInfo Achievement__ctor_m9902_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Achievement__ctor_m9901/* method */
+	, (methodPointerType)&Achievement__ctor_m9902/* method */
 	, &Achievement_t2857_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Double_t90_SByte_t88_SByte_t88_DateTime_t287/* invoker_method */
-	, Achievement_t2857_Achievement__ctor_m9901_ParameterInfos/* parameters */
+	, Achievement_t2857_Achievement__ctor_m9902_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -10728,7 +10728,7 @@ extern const MethodInfo Achievement__ctor_m9901_MethodInfo =
 	, 5/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1780/* token */
+	, 1787/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10736,21 +10736,21 @@ extern const MethodInfo Achievement__ctor_m9901_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Double_t90_0_0_0;
-static const ParameterInfo Achievement_t2857_Achievement__ctor_m9902_ParameterInfos[] = 
+static const ParameterInfo Achievement_t2857_Achievement__ctor_m9903_ParameterInfos[] = 
 {
-	{"id", 0, 134219738, 0, &String_t_0_0_0},
-	{"percent", 1, 134219739, 0, &Double_t90_0_0_0},
+	{"id", 0, 134219750, 0, &String_t_0_0_0},
+	{"percent", 1, 134219751, 0, &Double_t90_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Double_t90 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Achievement::.ctor(System.String,System.Double)
-extern const MethodInfo Achievement__ctor_m9902_MethodInfo = 
+extern const MethodInfo Achievement__ctor_m9903_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Achievement__ctor_m9902/* method */
+	, (methodPointerType)&Achievement__ctor_m9903/* method */
 	, &Achievement_t2857_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Double_t90/* invoker_method */
-	, Achievement_t2857_Achievement__ctor_m9902_ParameterInfos/* parameters */
+	, Achievement_t2857_Achievement__ctor_m9903_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -10758,7 +10758,7 @@ extern const MethodInfo Achievement__ctor_m9902_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1781/* token */
+	, 1788/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10766,10 +10766,10 @@ extern const MethodInfo Achievement__ctor_m9902_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Achievement::.ctor()
-extern const MethodInfo Achievement__ctor_m9903_MethodInfo = 
+extern const MethodInfo Achievement__ctor_m9904_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Achievement__ctor_m9903/* method */
+	, (methodPointerType)&Achievement__ctor_m9904/* method */
 	, &Achievement_t2857_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10781,7 +10781,7 @@ extern const MethodInfo Achievement__ctor_m9903_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1782/* token */
+	, 1789/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10789,10 +10789,10 @@ extern const MethodInfo Achievement__ctor_m9903_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.Achievement::ToString()
-extern const MethodInfo Achievement_ToString_m9904_MethodInfo = 
+extern const MethodInfo Achievement_ToString_m9905_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&Achievement_ToString_m9904/* method */
+	, (methodPointerType)&Achievement_ToString_m9905/* method */
 	, &Achievement_t2857_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10804,7 +10804,7 @@ extern const MethodInfo Achievement_ToString_m9904_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1783/* token */
+	, 1790/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10812,50 +10812,50 @@ extern const MethodInfo Achievement_ToString_m9904_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.Achievement::get_id()
-extern const MethodInfo Achievement_get_id_m9905_MethodInfo = 
+extern const MethodInfo Achievement_get_id_m9906_MethodInfo = 
 {
 	"get_id"/* name */
-	, (methodPointerType)&Achievement_get_id_m9905/* method */
+	, (methodPointerType)&Achievement_get_id_m9906/* method */
 	, &Achievement_t2857_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
-	, 766/* custom_attributes_cache */
+	, 773/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
 	, 4/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1784/* token */
+	, 1791/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Achievement_t2857_Achievement_set_id_m9906_ParameterInfos[] = 
+static const ParameterInfo Achievement_t2857_Achievement_set_id_m9907_ParameterInfos[] = 
 {
-	{"value", 0, 134219740, 0, &String_t_0_0_0},
+	{"value", 0, 134219752, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Achievement::set_id(System.String)
-extern const MethodInfo Achievement_set_id_m9906_MethodInfo = 
+extern const MethodInfo Achievement_set_id_m9907_MethodInfo = 
 {
 	"set_id"/* name */
-	, (methodPointerType)&Achievement_set_id_m9906/* method */
+	, (methodPointerType)&Achievement_set_id_m9907/* method */
 	, &Achievement_t2857_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Achievement_t2857_Achievement_set_id_m9906_ParameterInfos/* parameters */
-	, 767/* custom_attributes_cache */
+	, Achievement_t2857_Achievement_set_id_m9907_ParameterInfos/* parameters */
+	, 774/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
 	, 5/* slot */
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1785/* token */
+	, 1792/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10863,50 +10863,50 @@ extern const MethodInfo Achievement_set_id_m9906_MethodInfo =
 };
 extern void* RuntimeInvoker_Double_t90 (const MethodInfo* method, void* obj, void** args);
 // System.Double UnityEngine.SocialPlatforms.Impl.Achievement::get_percentCompleted()
-extern const MethodInfo Achievement_get_percentCompleted_m9907_MethodInfo = 
+extern const MethodInfo Achievement_get_percentCompleted_m9908_MethodInfo = 
 {
 	"get_percentCompleted"/* name */
-	, (methodPointerType)&Achievement_get_percentCompleted_m9907/* method */
+	, (methodPointerType)&Achievement_get_percentCompleted_m9908/* method */
 	, &Achievement_t2857_il2cpp_TypeInfo/* declaring_type */
 	, &Double_t90_0_0_0/* return_type */
 	, RuntimeInvoker_Double_t90/* invoker_method */
 	, NULL/* parameters */
-	, 768/* custom_attributes_cache */
+	, 775/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
 	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1786/* token */
+	, 1793/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Double_t90_0_0_0;
-static const ParameterInfo Achievement_t2857_Achievement_set_percentCompleted_m9908_ParameterInfos[] = 
+static const ParameterInfo Achievement_t2857_Achievement_set_percentCompleted_m9909_ParameterInfos[] = 
 {
-	{"value", 0, 134219741, 0, &Double_t90_0_0_0},
+	{"value", 0, 134219753, 0, &Double_t90_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Double_t90 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Achievement::set_percentCompleted(System.Double)
-extern const MethodInfo Achievement_set_percentCompleted_m9908_MethodInfo = 
+extern const MethodInfo Achievement_set_percentCompleted_m9909_MethodInfo = 
 {
 	"set_percentCompleted"/* name */
-	, (methodPointerType)&Achievement_set_percentCompleted_m9908/* method */
+	, (methodPointerType)&Achievement_set_percentCompleted_m9909/* method */
 	, &Achievement_t2857_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Double_t90/* invoker_method */
-	, Achievement_t2857_Achievement_set_percentCompleted_m9908_ParameterInfos/* parameters */
-	, 769/* custom_attributes_cache */
+	, Achievement_t2857_Achievement_set_percentCompleted_m9909_ParameterInfos/* parameters */
+	, 776/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
 	, 7/* slot */
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1787/* token */
+	, 1794/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10914,10 +10914,10 @@ extern const MethodInfo Achievement_set_percentCompleted_m9908_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.SocialPlatforms.Impl.Achievement::get_completed()
-extern const MethodInfo Achievement_get_completed_m9909_MethodInfo = 
+extern const MethodInfo Achievement_get_completed_m9910_MethodInfo = 
 {
 	"get_completed"/* name */
-	, (methodPointerType)&Achievement_get_completed_m9909/* method */
+	, (methodPointerType)&Achievement_get_completed_m9910/* method */
 	, &Achievement_t2857_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -10929,7 +10929,7 @@ extern const MethodInfo Achievement_get_completed_m9909_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1788/* token */
+	, 1795/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10937,10 +10937,10 @@ extern const MethodInfo Achievement_get_completed_m9909_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.SocialPlatforms.Impl.Achievement::get_hidden()
-extern const MethodInfo Achievement_get_hidden_m9910_MethodInfo = 
+extern const MethodInfo Achievement_get_hidden_m9911_MethodInfo = 
 {
 	"get_hidden"/* name */
-	, (methodPointerType)&Achievement_get_hidden_m9910/* method */
+	, (methodPointerType)&Achievement_get_hidden_m9911/* method */
 	, &Achievement_t2857_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -10952,7 +10952,7 @@ extern const MethodInfo Achievement_get_hidden_m9910_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1789/* token */
+	, 1796/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10960,10 +10960,10 @@ extern const MethodInfo Achievement_get_hidden_m9910_MethodInfo =
 };
 extern void* RuntimeInvoker_DateTime_t287 (const MethodInfo* method, void* obj, void** args);
 // System.DateTime UnityEngine.SocialPlatforms.Impl.Achievement::get_lastReportedDate()
-extern const MethodInfo Achievement_get_lastReportedDate_m9911_MethodInfo = 
+extern const MethodInfo Achievement_get_lastReportedDate_m9912_MethodInfo = 
 {
 	"get_lastReportedDate"/* name */
-	, (methodPointerType)&Achievement_get_lastReportedDate_m9911/* method */
+	, (methodPointerType)&Achievement_get_lastReportedDate_m9912/* method */
 	, &Achievement_t2857_il2cpp_TypeInfo/* declaring_type */
 	, &DateTime_t287_0_0_0/* return_type */
 	, RuntimeInvoker_DateTime_t287/* invoker_method */
@@ -10975,7 +10975,7 @@ extern const MethodInfo Achievement_get_lastReportedDate_m9911_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1790/* token */
+	, 1797/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10983,71 +10983,71 @@ extern const MethodInfo Achievement_get_lastReportedDate_m9911_MethodInfo =
 };
 static const MethodInfo* Achievement_t2857_MethodInfos[] =
 {
-	&Achievement__ctor_m9901_MethodInfo,
 	&Achievement__ctor_m9902_MethodInfo,
 	&Achievement__ctor_m9903_MethodInfo,
-	&Achievement_ToString_m9904_MethodInfo,
-	&Achievement_get_id_m9905_MethodInfo,
-	&Achievement_set_id_m9906_MethodInfo,
-	&Achievement_get_percentCompleted_m9907_MethodInfo,
-	&Achievement_set_percentCompleted_m9908_MethodInfo,
-	&Achievement_get_completed_m9909_MethodInfo,
-	&Achievement_get_hidden_m9910_MethodInfo,
-	&Achievement_get_lastReportedDate_m9911_MethodInfo,
+	&Achievement__ctor_m9904_MethodInfo,
+	&Achievement_ToString_m9905_MethodInfo,
+	&Achievement_get_id_m9906_MethodInfo,
+	&Achievement_set_id_m9907_MethodInfo,
+	&Achievement_get_percentCompleted_m9908_MethodInfo,
+	&Achievement_set_percentCompleted_m9909_MethodInfo,
+	&Achievement_get_completed_m9910_MethodInfo,
+	&Achievement_get_hidden_m9911_MethodInfo,
+	&Achievement_get_lastReportedDate_m9912_MethodInfo,
 	NULL
 };
-extern const MethodInfo Achievement_get_id_m9905_MethodInfo;
-extern const MethodInfo Achievement_set_id_m9906_MethodInfo;
+extern const MethodInfo Achievement_get_id_m9906_MethodInfo;
+extern const MethodInfo Achievement_set_id_m9907_MethodInfo;
 static const PropertyInfo Achievement_t2857____id_PropertyInfo = 
 {
 	&Achievement_t2857_il2cpp_TypeInfo/* parent */
 	, "id"/* name */
-	, &Achievement_get_id_m9905_MethodInfo/* get */
-	, &Achievement_set_id_m9906_MethodInfo/* set */
+	, &Achievement_get_id_m9906_MethodInfo/* get */
+	, &Achievement_set_id_m9907_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Achievement_get_percentCompleted_m9907_MethodInfo;
-extern const MethodInfo Achievement_set_percentCompleted_m9908_MethodInfo;
+extern const MethodInfo Achievement_get_percentCompleted_m9908_MethodInfo;
+extern const MethodInfo Achievement_set_percentCompleted_m9909_MethodInfo;
 static const PropertyInfo Achievement_t2857____percentCompleted_PropertyInfo = 
 {
 	&Achievement_t2857_il2cpp_TypeInfo/* parent */
 	, "percentCompleted"/* name */
-	, &Achievement_get_percentCompleted_m9907_MethodInfo/* get */
-	, &Achievement_set_percentCompleted_m9908_MethodInfo/* set */
+	, &Achievement_get_percentCompleted_m9908_MethodInfo/* get */
+	, &Achievement_set_percentCompleted_m9909_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Achievement_get_completed_m9909_MethodInfo;
+extern const MethodInfo Achievement_get_completed_m9910_MethodInfo;
 static const PropertyInfo Achievement_t2857____completed_PropertyInfo = 
 {
 	&Achievement_t2857_il2cpp_TypeInfo/* parent */
 	, "completed"/* name */
-	, &Achievement_get_completed_m9909_MethodInfo/* get */
+	, &Achievement_get_completed_m9910_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Achievement_get_hidden_m9910_MethodInfo;
+extern const MethodInfo Achievement_get_hidden_m9911_MethodInfo;
 static const PropertyInfo Achievement_t2857____hidden_PropertyInfo = 
 {
 	&Achievement_t2857_il2cpp_TypeInfo/* parent */
 	, "hidden"/* name */
-	, &Achievement_get_hidden_m9910_MethodInfo/* get */
+	, &Achievement_get_hidden_m9911_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Achievement_get_lastReportedDate_m9911_MethodInfo;
+extern const MethodInfo Achievement_get_lastReportedDate_m9912_MethodInfo;
 static const PropertyInfo Achievement_t2857____lastReportedDate_PropertyInfo = 
 {
 	&Achievement_t2857_il2cpp_TypeInfo/* parent */
 	, "lastReportedDate"/* name */
-	, &Achievement_get_lastReportedDate_m9911_MethodInfo/* get */
+	, &Achievement_get_lastReportedDate_m9912_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -11062,20 +11062,20 @@ static const PropertyInfo* Achievement_t2857_PropertyInfos[] =
 	&Achievement_t2857____lastReportedDate_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Achievement_ToString_m9904_MethodInfo;
+extern const MethodInfo Achievement_ToString_m9905_MethodInfo;
 static const Il2CppMethodReference Achievement_t2857_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&Achievement_ToString_m9904_MethodInfo,
-	&Achievement_get_id_m9905_MethodInfo,
-	&Achievement_set_id_m9906_MethodInfo,
-	&Achievement_get_percentCompleted_m9907_MethodInfo,
-	&Achievement_set_percentCompleted_m9908_MethodInfo,
-	&Achievement_get_completed_m9909_MethodInfo,
-	&Achievement_get_hidden_m9910_MethodInfo,
-	&Achievement_get_lastReportedDate_m9911_MethodInfo,
+	&Achievement_ToString_m9905_MethodInfo,
+	&Achievement_get_id_m9906_MethodInfo,
+	&Achievement_set_id_m9907_MethodInfo,
+	&Achievement_get_percentCompleted_m9908_MethodInfo,
+	&Achievement_set_percentCompleted_m9909_MethodInfo,
+	&Achievement_get_completed_m9910_MethodInfo,
+	&Achievement_get_hidden_m9911_MethodInfo,
+	&Achievement_get_lastReportedDate_m9912_MethodInfo,
 };
 static bool Achievement_t2857_VTableIsGenericMethod[] =
 {
@@ -11183,26 +11183,26 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo AchievementDescription_t2858_AchievementDescription__ctor_m9912_ParameterInfos[] = 
+static const ParameterInfo AchievementDescription_t2858_AchievementDescription__ctor_m9913_ParameterInfos[] = 
 {
-	{"id", 0, 134219742, 0, &String_t_0_0_0},
-	{"title", 1, 134219743, 0, &String_t_0_0_0},
-	{"image", 2, 134219744, 0, &Texture2D_t108_0_0_0},
-	{"achievedDescription", 3, 134219745, 0, &String_t_0_0_0},
-	{"unachievedDescription", 4, 134219746, 0, &String_t_0_0_0},
-	{"hidden", 5, 134219747, 0, &Boolean_t59_0_0_0},
-	{"points", 6, 134219748, 0, &Int32_t82_0_0_0},
+	{"id", 0, 134219754, 0, &String_t_0_0_0},
+	{"title", 1, 134219755, 0, &String_t_0_0_0},
+	{"image", 2, 134219756, 0, &Texture2D_t108_0_0_0},
+	{"achievedDescription", 3, 134219757, 0, &String_t_0_0_0},
+	{"unachievedDescription", 4, 134219758, 0, &String_t_0_0_0},
+	{"hidden", 5, 134219759, 0, &Boolean_t59_0_0_0},
+	{"points", 6, 134219760, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_SByte_t88_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.AchievementDescription::.ctor(System.String,System.String,UnityEngine.Texture2D,System.String,System.String,System.Boolean,System.Int32)
-extern const MethodInfo AchievementDescription__ctor_m9912_MethodInfo = 
+extern const MethodInfo AchievementDescription__ctor_m9913_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AchievementDescription__ctor_m9912/* method */
+	, (methodPointerType)&AchievementDescription__ctor_m9913/* method */
 	, &AchievementDescription_t2858_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_SByte_t88_Int32_t82/* invoker_method */
-	, AchievementDescription_t2858_AchievementDescription__ctor_m9912_ParameterInfos/* parameters */
+	, AchievementDescription_t2858_AchievementDescription__ctor_m9913_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -11210,7 +11210,7 @@ extern const MethodInfo AchievementDescription__ctor_m9912_MethodInfo =
 	, 7/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1791/* token */
+	, 1798/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -11218,10 +11218,10 @@ extern const MethodInfo AchievementDescription__ctor_m9912_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.AchievementDescription::ToString()
-extern const MethodInfo AchievementDescription_ToString_m9913_MethodInfo = 
+extern const MethodInfo AchievementDescription_ToString_m9914_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&AchievementDescription_ToString_m9913/* method */
+	, (methodPointerType)&AchievementDescription_ToString_m9914/* method */
 	, &AchievementDescription_t2858_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11233,27 +11233,27 @@ extern const MethodInfo AchievementDescription_ToString_m9913_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1792/* token */
+	, 1799/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Texture2D_t108_0_0_0;
-static const ParameterInfo AchievementDescription_t2858_AchievementDescription_SetImage_m9914_ParameterInfos[] = 
+static const ParameterInfo AchievementDescription_t2858_AchievementDescription_SetImage_m9915_ParameterInfos[] = 
 {
-	{"image", 0, 134219749, 0, &Texture2D_t108_0_0_0},
+	{"image", 0, 134219761, 0, &Texture2D_t108_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.AchievementDescription::SetImage(UnityEngine.Texture2D)
-extern const MethodInfo AchievementDescription_SetImage_m9914_MethodInfo = 
+extern const MethodInfo AchievementDescription_SetImage_m9915_MethodInfo = 
 {
 	"SetImage"/* name */
-	, (methodPointerType)&AchievementDescription_SetImage_m9914/* method */
+	, (methodPointerType)&AchievementDescription_SetImage_m9915/* method */
 	, &AchievementDescription_t2858_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, AchievementDescription_t2858_AchievementDescription_SetImage_m9914_ParameterInfos/* parameters */
+	, AchievementDescription_t2858_AchievementDescription_SetImage_m9915_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -11261,7 +11261,7 @@ extern const MethodInfo AchievementDescription_SetImage_m9914_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1793/* token */
+	, 1800/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -11269,50 +11269,50 @@ extern const MethodInfo AchievementDescription_SetImage_m9914_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.AchievementDescription::get_id()
-extern const MethodInfo AchievementDescription_get_id_m9915_MethodInfo = 
+extern const MethodInfo AchievementDescription_get_id_m9916_MethodInfo = 
 {
 	"get_id"/* name */
-	, (methodPointerType)&AchievementDescription_get_id_m9915/* method */
+	, (methodPointerType)&AchievementDescription_get_id_m9916/* method */
 	, &AchievementDescription_t2858_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
-	, 771/* custom_attributes_cache */
+	, 778/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
 	, 4/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1794/* token */
+	, 1801/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo AchievementDescription_t2858_AchievementDescription_set_id_m9916_ParameterInfos[] = 
+static const ParameterInfo AchievementDescription_t2858_AchievementDescription_set_id_m9917_ParameterInfos[] = 
 {
-	{"value", 0, 134219750, 0, &String_t_0_0_0},
+	{"value", 0, 134219762, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.AchievementDescription::set_id(System.String)
-extern const MethodInfo AchievementDescription_set_id_m9916_MethodInfo = 
+extern const MethodInfo AchievementDescription_set_id_m9917_MethodInfo = 
 {
 	"set_id"/* name */
-	, (methodPointerType)&AchievementDescription_set_id_m9916/* method */
+	, (methodPointerType)&AchievementDescription_set_id_m9917/* method */
 	, &AchievementDescription_t2858_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, AchievementDescription_t2858_AchievementDescription_set_id_m9916_ParameterInfos/* parameters */
-	, 772/* custom_attributes_cache */
+	, AchievementDescription_t2858_AchievementDescription_set_id_m9917_ParameterInfos/* parameters */
+	, 779/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
 	, 5/* slot */
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1795/* token */
+	, 1802/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -11320,10 +11320,10 @@ extern const MethodInfo AchievementDescription_set_id_m9916_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.AchievementDescription::get_title()
-extern const MethodInfo AchievementDescription_get_title_m9917_MethodInfo = 
+extern const MethodInfo AchievementDescription_get_title_m9918_MethodInfo = 
 {
 	"get_title"/* name */
-	, (methodPointerType)&AchievementDescription_get_title_m9917/* method */
+	, (methodPointerType)&AchievementDescription_get_title_m9918/* method */
 	, &AchievementDescription_t2858_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11335,7 +11335,7 @@ extern const MethodInfo AchievementDescription_get_title_m9917_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1796/* token */
+	, 1803/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -11343,10 +11343,10 @@ extern const MethodInfo AchievementDescription_get_title_m9917_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.AchievementDescription::get_achievedDescription()
-extern const MethodInfo AchievementDescription_get_achievedDescription_m9918_MethodInfo = 
+extern const MethodInfo AchievementDescription_get_achievedDescription_m9919_MethodInfo = 
 {
 	"get_achievedDescription"/* name */
-	, (methodPointerType)&AchievementDescription_get_achievedDescription_m9918/* method */
+	, (methodPointerType)&AchievementDescription_get_achievedDescription_m9919/* method */
 	, &AchievementDescription_t2858_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11358,7 +11358,7 @@ extern const MethodInfo AchievementDescription_get_achievedDescription_m9918_Met
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1797/* token */
+	, 1804/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -11366,10 +11366,10 @@ extern const MethodInfo AchievementDescription_get_achievedDescription_m9918_Met
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.AchievementDescription::get_unachievedDescription()
-extern const MethodInfo AchievementDescription_get_unachievedDescription_m9919_MethodInfo = 
+extern const MethodInfo AchievementDescription_get_unachievedDescription_m9920_MethodInfo = 
 {
 	"get_unachievedDescription"/* name */
-	, (methodPointerType)&AchievementDescription_get_unachievedDescription_m9919/* method */
+	, (methodPointerType)&AchievementDescription_get_unachievedDescription_m9920/* method */
 	, &AchievementDescription_t2858_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11381,7 +11381,7 @@ extern const MethodInfo AchievementDescription_get_unachievedDescription_m9919_M
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1798/* token */
+	, 1805/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -11389,10 +11389,10 @@ extern const MethodInfo AchievementDescription_get_unachievedDescription_m9919_M
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.SocialPlatforms.Impl.AchievementDescription::get_hidden()
-extern const MethodInfo AchievementDescription_get_hidden_m9920_MethodInfo = 
+extern const MethodInfo AchievementDescription_get_hidden_m9921_MethodInfo = 
 {
 	"get_hidden"/* name */
-	, (methodPointerType)&AchievementDescription_get_hidden_m9920/* method */
+	, (methodPointerType)&AchievementDescription_get_hidden_m9921/* method */
 	, &AchievementDescription_t2858_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -11404,7 +11404,7 @@ extern const MethodInfo AchievementDescription_get_hidden_m9920_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1799/* token */
+	, 1806/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -11412,10 +11412,10 @@ extern const MethodInfo AchievementDescription_get_hidden_m9920_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.SocialPlatforms.Impl.AchievementDescription::get_points()
-extern const MethodInfo AchievementDescription_get_points_m9921_MethodInfo = 
+extern const MethodInfo AchievementDescription_get_points_m9922_MethodInfo = 
 {
 	"get_points"/* name */
-	, (methodPointerType)&AchievementDescription_get_points_m9921/* method */
+	, (methodPointerType)&AchievementDescription_get_points_m9922/* method */
 	, &AchievementDescription_t2858_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -11427,7 +11427,7 @@ extern const MethodInfo AchievementDescription_get_points_m9921_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1800/* token */
+	, 1807/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -11435,80 +11435,80 @@ extern const MethodInfo AchievementDescription_get_points_m9921_MethodInfo =
 };
 static const MethodInfo* AchievementDescription_t2858_MethodInfos[] =
 {
-	&AchievementDescription__ctor_m9912_MethodInfo,
-	&AchievementDescription_ToString_m9913_MethodInfo,
-	&AchievementDescription_SetImage_m9914_MethodInfo,
-	&AchievementDescription_get_id_m9915_MethodInfo,
-	&AchievementDescription_set_id_m9916_MethodInfo,
-	&AchievementDescription_get_title_m9917_MethodInfo,
-	&AchievementDescription_get_achievedDescription_m9918_MethodInfo,
-	&AchievementDescription_get_unachievedDescription_m9919_MethodInfo,
-	&AchievementDescription_get_hidden_m9920_MethodInfo,
-	&AchievementDescription_get_points_m9921_MethodInfo,
+	&AchievementDescription__ctor_m9913_MethodInfo,
+	&AchievementDescription_ToString_m9914_MethodInfo,
+	&AchievementDescription_SetImage_m9915_MethodInfo,
+	&AchievementDescription_get_id_m9916_MethodInfo,
+	&AchievementDescription_set_id_m9917_MethodInfo,
+	&AchievementDescription_get_title_m9918_MethodInfo,
+	&AchievementDescription_get_achievedDescription_m9919_MethodInfo,
+	&AchievementDescription_get_unachievedDescription_m9920_MethodInfo,
+	&AchievementDescription_get_hidden_m9921_MethodInfo,
+	&AchievementDescription_get_points_m9922_MethodInfo,
 	NULL
 };
-extern const MethodInfo AchievementDescription_get_id_m9915_MethodInfo;
-extern const MethodInfo AchievementDescription_set_id_m9916_MethodInfo;
+extern const MethodInfo AchievementDescription_get_id_m9916_MethodInfo;
+extern const MethodInfo AchievementDescription_set_id_m9917_MethodInfo;
 static const PropertyInfo AchievementDescription_t2858____id_PropertyInfo = 
 {
 	&AchievementDescription_t2858_il2cpp_TypeInfo/* parent */
 	, "id"/* name */
-	, &AchievementDescription_get_id_m9915_MethodInfo/* get */
-	, &AchievementDescription_set_id_m9916_MethodInfo/* set */
+	, &AchievementDescription_get_id_m9916_MethodInfo/* get */
+	, &AchievementDescription_set_id_m9917_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AchievementDescription_get_title_m9917_MethodInfo;
+extern const MethodInfo AchievementDescription_get_title_m9918_MethodInfo;
 static const PropertyInfo AchievementDescription_t2858____title_PropertyInfo = 
 {
 	&AchievementDescription_t2858_il2cpp_TypeInfo/* parent */
 	, "title"/* name */
-	, &AchievementDescription_get_title_m9917_MethodInfo/* get */
+	, &AchievementDescription_get_title_m9918_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AchievementDescription_get_achievedDescription_m9918_MethodInfo;
+extern const MethodInfo AchievementDescription_get_achievedDescription_m9919_MethodInfo;
 static const PropertyInfo AchievementDescription_t2858____achievedDescription_PropertyInfo = 
 {
 	&AchievementDescription_t2858_il2cpp_TypeInfo/* parent */
 	, "achievedDescription"/* name */
-	, &AchievementDescription_get_achievedDescription_m9918_MethodInfo/* get */
+	, &AchievementDescription_get_achievedDescription_m9919_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AchievementDescription_get_unachievedDescription_m9919_MethodInfo;
+extern const MethodInfo AchievementDescription_get_unachievedDescription_m9920_MethodInfo;
 static const PropertyInfo AchievementDescription_t2858____unachievedDescription_PropertyInfo = 
 {
 	&AchievementDescription_t2858_il2cpp_TypeInfo/* parent */
 	, "unachievedDescription"/* name */
-	, &AchievementDescription_get_unachievedDescription_m9919_MethodInfo/* get */
+	, &AchievementDescription_get_unachievedDescription_m9920_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AchievementDescription_get_hidden_m9920_MethodInfo;
+extern const MethodInfo AchievementDescription_get_hidden_m9921_MethodInfo;
 static const PropertyInfo AchievementDescription_t2858____hidden_PropertyInfo = 
 {
 	&AchievementDescription_t2858_il2cpp_TypeInfo/* parent */
 	, "hidden"/* name */
-	, &AchievementDescription_get_hidden_m9920_MethodInfo/* get */
+	, &AchievementDescription_get_hidden_m9921_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AchievementDescription_get_points_m9921_MethodInfo;
+extern const MethodInfo AchievementDescription_get_points_m9922_MethodInfo;
 static const PropertyInfo AchievementDescription_t2858____points_PropertyInfo = 
 {
 	&AchievementDescription_t2858_il2cpp_TypeInfo/* parent */
 	, "points"/* name */
-	, &AchievementDescription_get_points_m9921_MethodInfo/* get */
+	, &AchievementDescription_get_points_m9922_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -11524,20 +11524,20 @@ static const PropertyInfo* AchievementDescription_t2858_PropertyInfos[] =
 	&AchievementDescription_t2858____points_PropertyInfo,
 	NULL
 };
-extern const MethodInfo AchievementDescription_ToString_m9913_MethodInfo;
+extern const MethodInfo AchievementDescription_ToString_m9914_MethodInfo;
 static const Il2CppMethodReference AchievementDescription_t2858_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&AchievementDescription_ToString_m9913_MethodInfo,
-	&AchievementDescription_get_id_m9915_MethodInfo,
-	&AchievementDescription_set_id_m9916_MethodInfo,
-	&AchievementDescription_get_title_m9917_MethodInfo,
-	&AchievementDescription_get_achievedDescription_m9918_MethodInfo,
-	&AchievementDescription_get_unachievedDescription_m9919_MethodInfo,
-	&AchievementDescription_get_hidden_m9920_MethodInfo,
-	&AchievementDescription_get_points_m9921_MethodInfo,
+	&AchievementDescription_ToString_m9914_MethodInfo,
+	&AchievementDescription_get_id_m9916_MethodInfo,
+	&AchievementDescription_set_id_m9917_MethodInfo,
+	&AchievementDescription_get_title_m9918_MethodInfo,
+	&AchievementDescription_get_achievedDescription_m9919_MethodInfo,
+	&AchievementDescription_get_unachievedDescription_m9920_MethodInfo,
+	&AchievementDescription_get_hidden_m9921_MethodInfo,
+	&AchievementDescription_get_points_m9922_MethodInfo,
 };
 static bool AchievementDescription_t2858_VTableIsGenericMethod[] =
 {
@@ -11641,21 +11641,21 @@ extern TypeInfo Score_t2859_il2cpp_TypeInfo;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int64_t89_0_0_0;
 extern const Il2CppType Int64_t89_0_0_0;
-static const ParameterInfo Score_t2859_Score__ctor_m9922_ParameterInfos[] = 
+static const ParameterInfo Score_t2859_Score__ctor_m9923_ParameterInfos[] = 
 {
-	{"leaderboardID", 0, 134219751, 0, &String_t_0_0_0},
-	{"value", 1, 134219752, 0, &Int64_t89_0_0_0},
+	{"leaderboardID", 0, 134219763, 0, &String_t_0_0_0},
+	{"value", 1, 134219764, 0, &Int64_t89_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Score::.ctor(System.String,System.Int64)
-extern const MethodInfo Score__ctor_m9922_MethodInfo = 
+extern const MethodInfo Score__ctor_m9923_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Score__ctor_m9922/* method */
+	, (methodPointerType)&Score__ctor_m9923/* method */
 	, &Score_t2859_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int64_t89/* invoker_method */
-	, Score_t2859_Score__ctor_m9922_ParameterInfos/* parameters */
+	, Score_t2859_Score__ctor_m9923_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -11663,7 +11663,7 @@ extern const MethodInfo Score__ctor_m9922_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1801/* token */
+	, 1808/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -11675,25 +11675,25 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType DateTime_t287_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Score_t2859_Score__ctor_m9923_ParameterInfos[] = 
+static const ParameterInfo Score_t2859_Score__ctor_m9924_ParameterInfos[] = 
 {
-	{"leaderboardID", 0, 134219753, 0, &String_t_0_0_0},
-	{"value", 1, 134219754, 0, &Int64_t89_0_0_0},
-	{"userID", 2, 134219755, 0, &String_t_0_0_0},
-	{"date", 3, 134219756, 0, &DateTime_t287_0_0_0},
-	{"formattedValue", 4, 134219757, 0, &String_t_0_0_0},
-	{"rank", 5, 134219758, 0, &Int32_t82_0_0_0},
+	{"leaderboardID", 0, 134219765, 0, &String_t_0_0_0},
+	{"value", 1, 134219766, 0, &Int64_t89_0_0_0},
+	{"userID", 2, 134219767, 0, &String_t_0_0_0},
+	{"date", 3, 134219768, 0, &DateTime_t287_0_0_0},
+	{"formattedValue", 4, 134219769, 0, &String_t_0_0_0},
+	{"rank", 5, 134219770, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int64_t89_Object_t_DateTime_t287_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Score::.ctor(System.String,System.Int64,System.String,System.DateTime,System.String,System.Int32)
-extern const MethodInfo Score__ctor_m9923_MethodInfo = 
+extern const MethodInfo Score__ctor_m9924_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Score__ctor_m9923/* method */
+	, (methodPointerType)&Score__ctor_m9924/* method */
 	, &Score_t2859_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int64_t89_Object_t_DateTime_t287_Object_t_Int32_t82/* invoker_method */
-	, Score_t2859_Score__ctor_m9923_ParameterInfos/* parameters */
+	, Score_t2859_Score__ctor_m9924_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -11701,7 +11701,7 @@ extern const MethodInfo Score__ctor_m9923_MethodInfo =
 	, 6/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1802/* token */
+	, 1809/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -11709,10 +11709,10 @@ extern const MethodInfo Score__ctor_m9923_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.Score::ToString()
-extern const MethodInfo Score_ToString_m9924_MethodInfo = 
+extern const MethodInfo Score_ToString_m9925_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&Score_ToString_m9924/* method */
+	, (methodPointerType)&Score_ToString_m9925/* method */
 	, &Score_t2859_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11724,7 +11724,7 @@ extern const MethodInfo Score_ToString_m9924_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1803/* token */
+	, 1810/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -11732,50 +11732,50 @@ extern const MethodInfo Score_ToString_m9924_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.Score::get_leaderboardID()
-extern const MethodInfo Score_get_leaderboardID_m9925_MethodInfo = 
+extern const MethodInfo Score_get_leaderboardID_m9926_MethodInfo = 
 {
 	"get_leaderboardID"/* name */
-	, (methodPointerType)&Score_get_leaderboardID_m9925/* method */
+	, (methodPointerType)&Score_get_leaderboardID_m9926/* method */
 	, &Score_t2859_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
-	, 775/* custom_attributes_cache */
+	, 782/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
 	, 4/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1804/* token */
+	, 1811/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Score_t2859_Score_set_leaderboardID_m9926_ParameterInfos[] = 
+static const ParameterInfo Score_t2859_Score_set_leaderboardID_m9927_ParameterInfos[] = 
 {
-	{"value", 0, 134219759, 0, &String_t_0_0_0},
+	{"value", 0, 134219771, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Score::set_leaderboardID(System.String)
-extern const MethodInfo Score_set_leaderboardID_m9926_MethodInfo = 
+extern const MethodInfo Score_set_leaderboardID_m9927_MethodInfo = 
 {
 	"set_leaderboardID"/* name */
-	, (methodPointerType)&Score_set_leaderboardID_m9926/* method */
+	, (methodPointerType)&Score_set_leaderboardID_m9927/* method */
 	, &Score_t2859_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Score_t2859_Score_set_leaderboardID_m9926_ParameterInfos/* parameters */
-	, 776/* custom_attributes_cache */
+	, Score_t2859_Score_set_leaderboardID_m9927_ParameterInfos/* parameters */
+	, 783/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
 	, 5/* slot */
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1805/* token */
+	, 1812/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -11783,50 +11783,50 @@ extern const MethodInfo Score_set_leaderboardID_m9926_MethodInfo =
 };
 extern void* RuntimeInvoker_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Int64 UnityEngine.SocialPlatforms.Impl.Score::get_value()
-extern const MethodInfo Score_get_value_m9927_MethodInfo = 
+extern const MethodInfo Score_get_value_m9928_MethodInfo = 
 {
 	"get_value"/* name */
-	, (methodPointerType)&Score_get_value_m9927/* method */
+	, (methodPointerType)&Score_get_value_m9928/* method */
 	, &Score_t2859_il2cpp_TypeInfo/* declaring_type */
 	, &Int64_t89_0_0_0/* return_type */
 	, RuntimeInvoker_Int64_t89/* invoker_method */
 	, NULL/* parameters */
-	, 777/* custom_attributes_cache */
+	, 784/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
 	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1806/* token */
+	, 1813/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Int64_t89_0_0_0;
-static const ParameterInfo Score_t2859_Score_set_value_m9928_ParameterInfos[] = 
+static const ParameterInfo Score_t2859_Score_set_value_m9929_ParameterInfos[] = 
 {
-	{"value", 0, 134219760, 0, &Int64_t89_0_0_0},
+	{"value", 0, 134219772, 0, &Int64_t89_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int64_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Score::set_value(System.Int64)
-extern const MethodInfo Score_set_value_m9928_MethodInfo = 
+extern const MethodInfo Score_set_value_m9929_MethodInfo = 
 {
 	"set_value"/* name */
-	, (methodPointerType)&Score_set_value_m9928/* method */
+	, (methodPointerType)&Score_set_value_m9929/* method */
 	, &Score_t2859_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int64_t89/* invoker_method */
-	, Score_t2859_Score_set_value_m9928_ParameterInfos/* parameters */
-	, 778/* custom_attributes_cache */
+	, Score_t2859_Score_set_value_m9929_ParameterInfos/* parameters */
+	, 785/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
 	, 7/* slot */
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1807/* token */
+	, 1814/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -11834,35 +11834,35 @@ extern const MethodInfo Score_set_value_m9928_MethodInfo =
 };
 static const MethodInfo* Score_t2859_MethodInfos[] =
 {
-	&Score__ctor_m9922_MethodInfo,
 	&Score__ctor_m9923_MethodInfo,
-	&Score_ToString_m9924_MethodInfo,
-	&Score_get_leaderboardID_m9925_MethodInfo,
-	&Score_set_leaderboardID_m9926_MethodInfo,
-	&Score_get_value_m9927_MethodInfo,
-	&Score_set_value_m9928_MethodInfo,
+	&Score__ctor_m9924_MethodInfo,
+	&Score_ToString_m9925_MethodInfo,
+	&Score_get_leaderboardID_m9926_MethodInfo,
+	&Score_set_leaderboardID_m9927_MethodInfo,
+	&Score_get_value_m9928_MethodInfo,
+	&Score_set_value_m9929_MethodInfo,
 	NULL
 };
-extern const MethodInfo Score_get_leaderboardID_m9925_MethodInfo;
-extern const MethodInfo Score_set_leaderboardID_m9926_MethodInfo;
+extern const MethodInfo Score_get_leaderboardID_m9926_MethodInfo;
+extern const MethodInfo Score_set_leaderboardID_m9927_MethodInfo;
 static const PropertyInfo Score_t2859____leaderboardID_PropertyInfo = 
 {
 	&Score_t2859_il2cpp_TypeInfo/* parent */
 	, "leaderboardID"/* name */
-	, &Score_get_leaderboardID_m9925_MethodInfo/* get */
-	, &Score_set_leaderboardID_m9926_MethodInfo/* set */
+	, &Score_get_leaderboardID_m9926_MethodInfo/* get */
+	, &Score_set_leaderboardID_m9927_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Score_get_value_m9927_MethodInfo;
-extern const MethodInfo Score_set_value_m9928_MethodInfo;
+extern const MethodInfo Score_get_value_m9928_MethodInfo;
+extern const MethodInfo Score_set_value_m9929_MethodInfo;
 static const PropertyInfo Score_t2859____value_PropertyInfo = 
 {
 	&Score_t2859_il2cpp_TypeInfo/* parent */
 	, "value"/* name */
-	, &Score_get_value_m9927_MethodInfo/* get */
-	, &Score_set_value_m9928_MethodInfo/* set */
+	, &Score_get_value_m9928_MethodInfo/* get */
+	, &Score_set_value_m9929_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -11873,17 +11873,17 @@ static const PropertyInfo* Score_t2859_PropertyInfos[] =
 	&Score_t2859____value_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Score_ToString_m9924_MethodInfo;
+extern const MethodInfo Score_ToString_m9925_MethodInfo;
 static const Il2CppMethodReference Score_t2859_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&Score_ToString_m9924_MethodInfo,
-	&Score_get_leaderboardID_m9925_MethodInfo,
-	&Score_set_leaderboardID_m9926_MethodInfo,
-	&Score_get_value_m9927_MethodInfo,
-	&Score_set_value_m9928_MethodInfo,
+	&Score_ToString_m9925_MethodInfo,
+	&Score_get_leaderboardID_m9926_MethodInfo,
+	&Score_set_leaderboardID_m9927_MethodInfo,
+	&Score_get_value_m9928_MethodInfo,
+	&Score_set_value_m9929_MethodInfo,
 };
 static bool Score_t2859_VTableIsGenericMethod[] =
 {
@@ -11983,10 +11983,10 @@ extern TypeInfo Leaderboard_t2698_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_SocialPlatforms_Impl_LeaderboardMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::.ctor()
-extern const MethodInfo Leaderboard__ctor_m9929_MethodInfo = 
+extern const MethodInfo Leaderboard__ctor_m9930_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Leaderboard__ctor_m9929/* method */
+	, (methodPointerType)&Leaderboard__ctor_m9930/* method */
 	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -11998,7 +11998,7 @@ extern const MethodInfo Leaderboard__ctor_m9929_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1808/* token */
+	, 1815/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -12006,10 +12006,10 @@ extern const MethodInfo Leaderboard__ctor_m9929_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.Leaderboard::ToString()
-extern const MethodInfo Leaderboard_ToString_m9930_MethodInfo = 
+extern const MethodInfo Leaderboard_ToString_m9931_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&Leaderboard_ToString_m9930/* method */
+	, (methodPointerType)&Leaderboard_ToString_m9931/* method */
 	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12021,27 +12021,27 @@ extern const MethodInfo Leaderboard_ToString_m9930_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1809/* token */
+	, 1816/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType IScore_t2860_0_0_0;
-static const ParameterInfo Leaderboard_t2698_Leaderboard_SetLocalUserScore_m9931_ParameterInfos[] = 
+static const ParameterInfo Leaderboard_t2698_Leaderboard_SetLocalUserScore_m9932_ParameterInfos[] = 
 {
-	{"score", 0, 134219761, 0, &IScore_t2860_0_0_0},
+	{"score", 0, 134219773, 0, &IScore_t2860_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::SetLocalUserScore(UnityEngine.SocialPlatforms.IScore)
-extern const MethodInfo Leaderboard_SetLocalUserScore_m9931_MethodInfo = 
+extern const MethodInfo Leaderboard_SetLocalUserScore_m9932_MethodInfo = 
 {
 	"SetLocalUserScore"/* name */
-	, (methodPointerType)&Leaderboard_SetLocalUserScore_m9931/* method */
+	, (methodPointerType)&Leaderboard_SetLocalUserScore_m9932/* method */
 	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Leaderboard_t2698_Leaderboard_SetLocalUserScore_m9931_ParameterInfos/* parameters */
+	, Leaderboard_t2698_Leaderboard_SetLocalUserScore_m9932_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12049,27 +12049,27 @@ extern const MethodInfo Leaderboard_SetLocalUserScore_m9931_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1810/* token */
+	, 1817/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType UInt32_t740_0_0_0;
-static const ParameterInfo Leaderboard_t2698_Leaderboard_SetMaxRange_m9932_ParameterInfos[] = 
+static const ParameterInfo Leaderboard_t2698_Leaderboard_SetMaxRange_m9933_ParameterInfos[] = 
 {
-	{"maxRange", 0, 134219762, 0, &UInt32_t740_0_0_0},
+	{"maxRange", 0, 134219774, 0, &UInt32_t740_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::SetMaxRange(System.UInt32)
-extern const MethodInfo Leaderboard_SetMaxRange_m9932_MethodInfo = 
+extern const MethodInfo Leaderboard_SetMaxRange_m9933_MethodInfo = 
 {
 	"SetMaxRange"/* name */
-	, (methodPointerType)&Leaderboard_SetMaxRange_m9932/* method */
+	, (methodPointerType)&Leaderboard_SetMaxRange_m9933/* method */
 	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Leaderboard_t2698_Leaderboard_SetMaxRange_m9932_ParameterInfos/* parameters */
+	, Leaderboard_t2698_Leaderboard_SetMaxRange_m9933_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12077,7 +12077,7 @@ extern const MethodInfo Leaderboard_SetMaxRange_m9932_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1811/* token */
+	, 1818/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -12085,20 +12085,20 @@ extern const MethodInfo Leaderboard_SetMaxRange_m9932_MethodInfo =
 };
 extern const Il2CppType IScoreU5BU5D_t2861_0_0_0;
 extern const Il2CppType IScoreU5BU5D_t2861_0_0_0;
-static const ParameterInfo Leaderboard_t2698_Leaderboard_SetScores_m9933_ParameterInfos[] = 
+static const ParameterInfo Leaderboard_t2698_Leaderboard_SetScores_m9934_ParameterInfos[] = 
 {
-	{"scores", 0, 134219763, 0, &IScoreU5BU5D_t2861_0_0_0},
+	{"scores", 0, 134219775, 0, &IScoreU5BU5D_t2861_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::SetScores(UnityEngine.SocialPlatforms.IScore[])
-extern const MethodInfo Leaderboard_SetScores_m9933_MethodInfo = 
+extern const MethodInfo Leaderboard_SetScores_m9934_MethodInfo = 
 {
 	"SetScores"/* name */
-	, (methodPointerType)&Leaderboard_SetScores_m9933/* method */
+	, (methodPointerType)&Leaderboard_SetScores_m9934/* method */
 	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Leaderboard_t2698_Leaderboard_SetScores_m9933_ParameterInfos/* parameters */
+	, Leaderboard_t2698_Leaderboard_SetScores_m9934_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12106,27 +12106,27 @@ extern const MethodInfo Leaderboard_SetScores_m9933_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1812/* token */
+	, 1819/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Leaderboard_t2698_Leaderboard_SetTitle_m9934_ParameterInfos[] = 
+static const ParameterInfo Leaderboard_t2698_Leaderboard_SetTitle_m9935_ParameterInfos[] = 
 {
-	{"title", 0, 134219764, 0, &String_t_0_0_0},
+	{"title", 0, 134219776, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::SetTitle(System.String)
-extern const MethodInfo Leaderboard_SetTitle_m9934_MethodInfo = 
+extern const MethodInfo Leaderboard_SetTitle_m9935_MethodInfo = 
 {
 	"SetTitle"/* name */
-	, (methodPointerType)&Leaderboard_SetTitle_m9934/* method */
+	, (methodPointerType)&Leaderboard_SetTitle_m9935/* method */
 	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Leaderboard_t2698_Leaderboard_SetTitle_m9934_ParameterInfos/* parameters */
+	, Leaderboard_t2698_Leaderboard_SetTitle_m9935_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12134,7 +12134,7 @@ extern const MethodInfo Leaderboard_SetTitle_m9934_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1813/* token */
+	, 1820/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -12143,10 +12143,10 @@ extern const MethodInfo Leaderboard_SetTitle_m9934_MethodInfo =
 extern const Il2CppType StringU5BU5D_t75_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String[] UnityEngine.SocialPlatforms.Impl.Leaderboard::GetUserFilter()
-extern const MethodInfo Leaderboard_GetUserFilter_m9935_MethodInfo = 
+extern const MethodInfo Leaderboard_GetUserFilter_m9936_MethodInfo = 
 {
 	"GetUserFilter"/* name */
-	, (methodPointerType)&Leaderboard_GetUserFilter_m9935/* method */
+	, (methodPointerType)&Leaderboard_GetUserFilter_m9936/* method */
 	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
 	, &StringU5BU5D_t75_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12158,7 +12158,7 @@ extern const MethodInfo Leaderboard_GetUserFilter_m9935_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1814/* token */
+	, 1821/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -12166,203 +12166,19 @@ extern const MethodInfo Leaderboard_GetUserFilter_m9935_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.Impl.Leaderboard::get_id()
-extern const MethodInfo Leaderboard_get_id_m9936_MethodInfo = 
+extern const MethodInfo Leaderboard_get_id_m9937_MethodInfo = 
 {
 	"get_id"/* name */
-	, (methodPointerType)&Leaderboard_get_id_m9936/* method */
+	, (methodPointerType)&Leaderboard_get_id_m9937/* method */
 	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
-	, 783/* custom_attributes_cache */
+	, 790/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
 	, 4/* slot */
 	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1815/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Leaderboard_t2698_Leaderboard_set_id_m9937_ParameterInfos[] = 
-{
-	{"value", 0, 134219765, 0, &String_t_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_id(System.String)
-extern const MethodInfo Leaderboard_set_id_m9937_MethodInfo = 
-{
-	"set_id"/* name */
-	, (methodPointerType)&Leaderboard_set_id_m9937/* method */
-	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Leaderboard_t2698_Leaderboard_set_id_m9937_ParameterInfos/* parameters */
-	, 784/* custom_attributes_cache */
-	, 2534/* flags */
-	, 0/* iflags */
-	, 8/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1816/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType UserScope_t2871_0_0_0;
-extern void* RuntimeInvoker_UserScope_t2871 (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.SocialPlatforms.UserScope UnityEngine.SocialPlatforms.Impl.Leaderboard::get_userScope()
-extern const MethodInfo Leaderboard_get_userScope_m9938_MethodInfo = 
-{
-	"get_userScope"/* name */
-	, (methodPointerType)&Leaderboard_get_userScope_m9938/* method */
-	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
-	, &UserScope_t2871_0_0_0/* return_type */
-	, RuntimeInvoker_UserScope_t2871/* invoker_method */
-	, NULL/* parameters */
-	, 785/* custom_attributes_cache */
-	, 2534/* flags */
-	, 0/* iflags */
-	, 5/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1817/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType UserScope_t2871_0_0_0;
-static const ParameterInfo Leaderboard_t2698_Leaderboard_set_userScope_m9939_ParameterInfos[] = 
-{
-	{"value", 0, 134219766, 0, &UserScope_t2871_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_userScope(UnityEngine.SocialPlatforms.UserScope)
-extern const MethodInfo Leaderboard_set_userScope_m9939_MethodInfo = 
-{
-	"set_userScope"/* name */
-	, (methodPointerType)&Leaderboard_set_userScope_m9939/* method */
-	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Leaderboard_t2698_Leaderboard_set_userScope_m9939_ParameterInfos/* parameters */
-	, 786/* custom_attributes_cache */
-	, 2534/* flags */
-	, 0/* iflags */
-	, 9/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1818/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Range_t2862_0_0_0;
-extern void* RuntimeInvoker_Range_t2862 (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.SocialPlatforms.Range UnityEngine.SocialPlatforms.Impl.Leaderboard::get_range()
-extern const MethodInfo Leaderboard_get_range_m9940_MethodInfo = 
-{
-	"get_range"/* name */
-	, (methodPointerType)&Leaderboard_get_range_m9940/* method */
-	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
-	, &Range_t2862_0_0_0/* return_type */
-	, RuntimeInvoker_Range_t2862/* invoker_method */
-	, NULL/* parameters */
-	, 787/* custom_attributes_cache */
-	, 2534/* flags */
-	, 0/* iflags */
-	, 6/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1819/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Range_t2862_0_0_0;
-static const ParameterInfo Leaderboard_t2698_Leaderboard_set_range_m9941_ParameterInfos[] = 
-{
-	{"value", 0, 134219767, 0, &Range_t2862_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t85_Range_t2862 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_range(UnityEngine.SocialPlatforms.Range)
-extern const MethodInfo Leaderboard_set_range_m9941_MethodInfo = 
-{
-	"set_range"/* name */
-	, (methodPointerType)&Leaderboard_set_range_m9941/* method */
-	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Range_t2862/* invoker_method */
-	, Leaderboard_t2698_Leaderboard_set_range_m9941_ParameterInfos/* parameters */
-	, 788/* custom_attributes_cache */
-	, 2534/* flags */
-	, 0/* iflags */
-	, 10/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1820/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType TimeScope_t2872_0_0_0;
-extern void* RuntimeInvoker_TimeScope_t2872 (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.SocialPlatforms.TimeScope UnityEngine.SocialPlatforms.Impl.Leaderboard::get_timeScope()
-extern const MethodInfo Leaderboard_get_timeScope_m9942_MethodInfo = 
-{
-	"get_timeScope"/* name */
-	, (methodPointerType)&Leaderboard_get_timeScope_m9942/* method */
-	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
-	, &TimeScope_t2872_0_0_0/* return_type */
-	, RuntimeInvoker_TimeScope_t2872/* invoker_method */
-	, NULL/* parameters */
-	, 789/* custom_attributes_cache */
-	, 2534/* flags */
-	, 0/* iflags */
-	, 7/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1821/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType TimeScope_t2872_0_0_0;
-static const ParameterInfo Leaderboard_t2698_Leaderboard_set_timeScope_m9943_ParameterInfos[] = 
-{
-	{"value", 0, 134219768, 0, &TimeScope_t2872_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_timeScope(UnityEngine.SocialPlatforms.TimeScope)
-extern const MethodInfo Leaderboard_set_timeScope_m9943_MethodInfo = 
-{
-	"set_timeScope"/* name */
-	, (methodPointerType)&Leaderboard_set_timeScope_m9943/* method */
-	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Leaderboard_t2698_Leaderboard_set_timeScope_m9943_ParameterInfos/* parameters */
-	, 790/* custom_attributes_cache */
-	, 2534/* flags */
-	, 0/* iflags */
-	, 11/* slot */
-	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1822/* token */
@@ -12371,69 +12187,253 @@ extern const MethodInfo Leaderboard_set_timeScope_m9943_MethodInfo =
 	, NULL/* dummy */
 
 };
+extern const Il2CppType String_t_0_0_0;
+static const ParameterInfo Leaderboard_t2698_Leaderboard_set_id_m9938_ParameterInfos[] = 
+{
+	{"value", 0, 134219777, 0, &String_t_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_id(System.String)
+extern const MethodInfo Leaderboard_set_id_m9938_MethodInfo = 
+{
+	"set_id"/* name */
+	, (methodPointerType)&Leaderboard_set_id_m9938/* method */
+	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
+	, Leaderboard_t2698_Leaderboard_set_id_m9938_ParameterInfos/* parameters */
+	, 791/* custom_attributes_cache */
+	, 2534/* flags */
+	, 0/* iflags */
+	, 8/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1823/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType UserScope_t2871_0_0_0;
+extern void* RuntimeInvoker_UserScope_t2871 (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.SocialPlatforms.UserScope UnityEngine.SocialPlatforms.Impl.Leaderboard::get_userScope()
+extern const MethodInfo Leaderboard_get_userScope_m9939_MethodInfo = 
+{
+	"get_userScope"/* name */
+	, (methodPointerType)&Leaderboard_get_userScope_m9939/* method */
+	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
+	, &UserScope_t2871_0_0_0/* return_type */
+	, RuntimeInvoker_UserScope_t2871/* invoker_method */
+	, NULL/* parameters */
+	, 792/* custom_attributes_cache */
+	, 2534/* flags */
+	, 0/* iflags */
+	, 5/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1824/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType UserScope_t2871_0_0_0;
+static const ParameterInfo Leaderboard_t2698_Leaderboard_set_userScope_m9940_ParameterInfos[] = 
+{
+	{"value", 0, 134219778, 0, &UserScope_t2871_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_userScope(UnityEngine.SocialPlatforms.UserScope)
+extern const MethodInfo Leaderboard_set_userScope_m9940_MethodInfo = 
+{
+	"set_userScope"/* name */
+	, (methodPointerType)&Leaderboard_set_userScope_m9940/* method */
+	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
+	, Leaderboard_t2698_Leaderboard_set_userScope_m9940_ParameterInfos/* parameters */
+	, 793/* custom_attributes_cache */
+	, 2534/* flags */
+	, 0/* iflags */
+	, 9/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1825/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Range_t2862_0_0_0;
+extern void* RuntimeInvoker_Range_t2862 (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.SocialPlatforms.Range UnityEngine.SocialPlatforms.Impl.Leaderboard::get_range()
+extern const MethodInfo Leaderboard_get_range_m9941_MethodInfo = 
+{
+	"get_range"/* name */
+	, (methodPointerType)&Leaderboard_get_range_m9941/* method */
+	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
+	, &Range_t2862_0_0_0/* return_type */
+	, RuntimeInvoker_Range_t2862/* invoker_method */
+	, NULL/* parameters */
+	, 794/* custom_attributes_cache */
+	, 2534/* flags */
+	, 0/* iflags */
+	, 6/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1826/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Range_t2862_0_0_0;
+static const ParameterInfo Leaderboard_t2698_Leaderboard_set_range_m9942_ParameterInfos[] = 
+{
+	{"value", 0, 134219779, 0, &Range_t2862_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t85_Range_t2862 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_range(UnityEngine.SocialPlatforms.Range)
+extern const MethodInfo Leaderboard_set_range_m9942_MethodInfo = 
+{
+	"set_range"/* name */
+	, (methodPointerType)&Leaderboard_set_range_m9942/* method */
+	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85_Range_t2862/* invoker_method */
+	, Leaderboard_t2698_Leaderboard_set_range_m9942_ParameterInfos/* parameters */
+	, 795/* custom_attributes_cache */
+	, 2534/* flags */
+	, 0/* iflags */
+	, 10/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1827/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType TimeScope_t2872_0_0_0;
+extern void* RuntimeInvoker_TimeScope_t2872 (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.SocialPlatforms.TimeScope UnityEngine.SocialPlatforms.Impl.Leaderboard::get_timeScope()
+extern const MethodInfo Leaderboard_get_timeScope_m9943_MethodInfo = 
+{
+	"get_timeScope"/* name */
+	, (methodPointerType)&Leaderboard_get_timeScope_m9943/* method */
+	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
+	, &TimeScope_t2872_0_0_0/* return_type */
+	, RuntimeInvoker_TimeScope_t2872/* invoker_method */
+	, NULL/* parameters */
+	, 796/* custom_attributes_cache */
+	, 2534/* flags */
+	, 0/* iflags */
+	, 7/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1828/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType TimeScope_t2872_0_0_0;
+static const ParameterInfo Leaderboard_t2698_Leaderboard_set_timeScope_m9944_ParameterInfos[] = 
+{
+	{"value", 0, 134219780, 0, &TimeScope_t2872_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_timeScope(UnityEngine.SocialPlatforms.TimeScope)
+extern const MethodInfo Leaderboard_set_timeScope_m9944_MethodInfo = 
+{
+	"set_timeScope"/* name */
+	, (methodPointerType)&Leaderboard_set_timeScope_m9944/* method */
+	, &Leaderboard_t2698_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
+	, Leaderboard_t2698_Leaderboard_set_timeScope_m9944_ParameterInfos/* parameters */
+	, 797/* custom_attributes_cache */
+	, 2534/* flags */
+	, 0/* iflags */
+	, 11/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1829/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
 static const MethodInfo* Leaderboard_t2698_MethodInfos[] =
 {
-	&Leaderboard__ctor_m9929_MethodInfo,
-	&Leaderboard_ToString_m9930_MethodInfo,
-	&Leaderboard_SetLocalUserScore_m9931_MethodInfo,
-	&Leaderboard_SetMaxRange_m9932_MethodInfo,
-	&Leaderboard_SetScores_m9933_MethodInfo,
-	&Leaderboard_SetTitle_m9934_MethodInfo,
-	&Leaderboard_GetUserFilter_m9935_MethodInfo,
-	&Leaderboard_get_id_m9936_MethodInfo,
-	&Leaderboard_set_id_m9937_MethodInfo,
-	&Leaderboard_get_userScope_m9938_MethodInfo,
-	&Leaderboard_set_userScope_m9939_MethodInfo,
-	&Leaderboard_get_range_m9940_MethodInfo,
-	&Leaderboard_set_range_m9941_MethodInfo,
-	&Leaderboard_get_timeScope_m9942_MethodInfo,
-	&Leaderboard_set_timeScope_m9943_MethodInfo,
+	&Leaderboard__ctor_m9930_MethodInfo,
+	&Leaderboard_ToString_m9931_MethodInfo,
+	&Leaderboard_SetLocalUserScore_m9932_MethodInfo,
+	&Leaderboard_SetMaxRange_m9933_MethodInfo,
+	&Leaderboard_SetScores_m9934_MethodInfo,
+	&Leaderboard_SetTitle_m9935_MethodInfo,
+	&Leaderboard_GetUserFilter_m9936_MethodInfo,
+	&Leaderboard_get_id_m9937_MethodInfo,
+	&Leaderboard_set_id_m9938_MethodInfo,
+	&Leaderboard_get_userScope_m9939_MethodInfo,
+	&Leaderboard_set_userScope_m9940_MethodInfo,
+	&Leaderboard_get_range_m9941_MethodInfo,
+	&Leaderboard_set_range_m9942_MethodInfo,
+	&Leaderboard_get_timeScope_m9943_MethodInfo,
+	&Leaderboard_set_timeScope_m9944_MethodInfo,
 	NULL
 };
-extern const MethodInfo Leaderboard_get_id_m9936_MethodInfo;
-extern const MethodInfo Leaderboard_set_id_m9937_MethodInfo;
+extern const MethodInfo Leaderboard_get_id_m9937_MethodInfo;
+extern const MethodInfo Leaderboard_set_id_m9938_MethodInfo;
 static const PropertyInfo Leaderboard_t2698____id_PropertyInfo = 
 {
 	&Leaderboard_t2698_il2cpp_TypeInfo/* parent */
 	, "id"/* name */
-	, &Leaderboard_get_id_m9936_MethodInfo/* get */
-	, &Leaderboard_set_id_m9937_MethodInfo/* set */
+	, &Leaderboard_get_id_m9937_MethodInfo/* get */
+	, &Leaderboard_set_id_m9938_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Leaderboard_get_userScope_m9938_MethodInfo;
-extern const MethodInfo Leaderboard_set_userScope_m9939_MethodInfo;
+extern const MethodInfo Leaderboard_get_userScope_m9939_MethodInfo;
+extern const MethodInfo Leaderboard_set_userScope_m9940_MethodInfo;
 static const PropertyInfo Leaderboard_t2698____userScope_PropertyInfo = 
 {
 	&Leaderboard_t2698_il2cpp_TypeInfo/* parent */
 	, "userScope"/* name */
-	, &Leaderboard_get_userScope_m9938_MethodInfo/* get */
-	, &Leaderboard_set_userScope_m9939_MethodInfo/* set */
+	, &Leaderboard_get_userScope_m9939_MethodInfo/* get */
+	, &Leaderboard_set_userScope_m9940_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Leaderboard_get_range_m9940_MethodInfo;
-extern const MethodInfo Leaderboard_set_range_m9941_MethodInfo;
+extern const MethodInfo Leaderboard_get_range_m9941_MethodInfo;
+extern const MethodInfo Leaderboard_set_range_m9942_MethodInfo;
 static const PropertyInfo Leaderboard_t2698____range_PropertyInfo = 
 {
 	&Leaderboard_t2698_il2cpp_TypeInfo/* parent */
 	, "range"/* name */
-	, &Leaderboard_get_range_m9940_MethodInfo/* get */
-	, &Leaderboard_set_range_m9941_MethodInfo/* set */
+	, &Leaderboard_get_range_m9941_MethodInfo/* get */
+	, &Leaderboard_set_range_m9942_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Leaderboard_get_timeScope_m9942_MethodInfo;
-extern const MethodInfo Leaderboard_set_timeScope_m9943_MethodInfo;
+extern const MethodInfo Leaderboard_get_timeScope_m9943_MethodInfo;
+extern const MethodInfo Leaderboard_set_timeScope_m9944_MethodInfo;
 static const PropertyInfo Leaderboard_t2698____timeScope_PropertyInfo = 
 {
 	&Leaderboard_t2698_il2cpp_TypeInfo/* parent */
 	, "timeScope"/* name */
-	, &Leaderboard_get_timeScope_m9942_MethodInfo/* get */
-	, &Leaderboard_set_timeScope_m9943_MethodInfo/* set */
+	, &Leaderboard_get_timeScope_m9943_MethodInfo/* get */
+	, &Leaderboard_set_timeScope_m9944_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -12446,21 +12446,21 @@ static const PropertyInfo* Leaderboard_t2698_PropertyInfos[] =
 	&Leaderboard_t2698____timeScope_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Leaderboard_ToString_m9930_MethodInfo;
+extern const MethodInfo Leaderboard_ToString_m9931_MethodInfo;
 static const Il2CppMethodReference Leaderboard_t2698_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&Leaderboard_ToString_m9930_MethodInfo,
-	&Leaderboard_get_id_m9936_MethodInfo,
-	&Leaderboard_get_userScope_m9938_MethodInfo,
-	&Leaderboard_get_range_m9940_MethodInfo,
-	&Leaderboard_get_timeScope_m9942_MethodInfo,
-	&Leaderboard_set_id_m9937_MethodInfo,
-	&Leaderboard_set_userScope_m9939_MethodInfo,
-	&Leaderboard_set_range_m9941_MethodInfo,
-	&Leaderboard_set_timeScope_m9943_MethodInfo,
+	&Leaderboard_ToString_m9931_MethodInfo,
+	&Leaderboard_get_id_m9937_MethodInfo,
+	&Leaderboard_get_userScope_m9939_MethodInfo,
+	&Leaderboard_get_range_m9941_MethodInfo,
+	&Leaderboard_get_timeScope_m9943_MethodInfo,
+	&Leaderboard_set_id_m9938_MethodInfo,
+	&Leaderboard_set_userScope_m9940_MethodInfo,
+	&Leaderboard_set_range_m9942_MethodInfo,
+	&Leaderboard_set_timeScope_m9944_MethodInfo,
 };
 static bool Leaderboard_t2698_VTableIsGenericMethod[] =
 {
@@ -12564,20 +12564,20 @@ extern TypeInfo HitInfo_t2863_il2cpp_TypeInfo;
 // UnityEngine.SendMouseEvents/HitInfo
 #include "UnityEngine_UnityEngine_SendMouseEvents_HitInfoMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo HitInfo_t2863_HitInfo_SendMessage_m9944_ParameterInfos[] = 
+static const ParameterInfo HitInfo_t2863_HitInfo_SendMessage_m9945_ParameterInfos[] = 
 {
-	{"name", 0, 134219773, 0, &String_t_0_0_0},
+	{"name", 0, 134219785, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SendMouseEvents/HitInfo::SendMessage(System.String)
-extern const MethodInfo HitInfo_SendMessage_m9944_MethodInfo = 
+extern const MethodInfo HitInfo_SendMessage_m9945_MethodInfo = 
 {
 	"SendMessage"/* name */
-	, (methodPointerType)&HitInfo_SendMessage_m9944/* method */
+	, (methodPointerType)&HitInfo_SendMessage_m9945/* method */
 	, &HitInfo_t2863_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, HitInfo_t2863_HitInfo_SendMessage_m9944_ParameterInfos/* parameters */
+	, HitInfo_t2863_HitInfo_SendMessage_m9945_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12585,7 +12585,7 @@ extern const MethodInfo HitInfo_SendMessage_m9944_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1826/* token */
+	, 1833/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -12594,21 +12594,21 @@ extern const MethodInfo HitInfo_SendMessage_m9944_MethodInfo =
 extern const Il2CppType HitInfo_t2863_0_0_0;
 extern const Il2CppType HitInfo_t2863_0_0_0;
 extern const Il2CppType HitInfo_t2863_0_0_0;
-static const ParameterInfo HitInfo_t2863_HitInfo_Compare_m9945_ParameterInfos[] = 
+static const ParameterInfo HitInfo_t2863_HitInfo_Compare_m9946_ParameterInfos[] = 
 {
-	{"lhs", 0, 134219774, 0, &HitInfo_t2863_0_0_0},
-	{"rhs", 1, 134219775, 0, &HitInfo_t2863_0_0_0},
+	{"lhs", 0, 134219786, 0, &HitInfo_t2863_0_0_0},
+	{"rhs", 1, 134219787, 0, &HitInfo_t2863_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_HitInfo_t2863_HitInfo_t2863 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.SendMouseEvents/HitInfo::Compare(UnityEngine.SendMouseEvents/HitInfo,UnityEngine.SendMouseEvents/HitInfo)
-extern const MethodInfo HitInfo_Compare_m9945_MethodInfo = 
+extern const MethodInfo HitInfo_Compare_m9946_MethodInfo = 
 {
 	"Compare"/* name */
-	, (methodPointerType)&HitInfo_Compare_m9945/* method */
+	, (methodPointerType)&HitInfo_Compare_m9946/* method */
 	, &HitInfo_t2863_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_HitInfo_t2863_HitInfo_t2863/* invoker_method */
-	, HitInfo_t2863_HitInfo_Compare_m9945_ParameterInfos/* parameters */
+	, HitInfo_t2863_HitInfo_Compare_m9946_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -12616,27 +12616,27 @@ extern const MethodInfo HitInfo_Compare_m9945_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1827/* token */
+	, 1834/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType HitInfo_t2863_0_0_0;
-static const ParameterInfo HitInfo_t2863_HitInfo_op_Implicit_m9946_ParameterInfos[] = 
+static const ParameterInfo HitInfo_t2863_HitInfo_op_Implicit_m9947_ParameterInfos[] = 
 {
-	{"exists", 0, 134219776, 0, &HitInfo_t2863_0_0_0},
+	{"exists", 0, 134219788, 0, &HitInfo_t2863_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_HitInfo_t2863 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.SendMouseEvents/HitInfo::op_Implicit(UnityEngine.SendMouseEvents/HitInfo)
-extern const MethodInfo HitInfo_op_Implicit_m9946_MethodInfo = 
+extern const MethodInfo HitInfo_op_Implicit_m9947_MethodInfo = 
 {
 	"op_Implicit"/* name */
-	, (methodPointerType)&HitInfo_op_Implicit_m9946/* method */
+	, (methodPointerType)&HitInfo_op_Implicit_m9947/* method */
 	, &HitInfo_t2863_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_HitInfo_t2863/* invoker_method */
-	, HitInfo_t2863_HitInfo_op_Implicit_m9946_ParameterInfos/* parameters */
+	, HitInfo_t2863_HitInfo_op_Implicit_m9947_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -12644,7 +12644,7 @@ extern const MethodInfo HitInfo_op_Implicit_m9946_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1828/* token */
+	, 1835/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -12652,17 +12652,17 @@ extern const MethodInfo HitInfo_op_Implicit_m9946_MethodInfo =
 };
 static const MethodInfo* HitInfo_t2863_MethodInfos[] =
 {
-	&HitInfo_SendMessage_m9944_MethodInfo,
-	&HitInfo_Compare_m9945_MethodInfo,
-	&HitInfo_op_Implicit_m9946_MethodInfo,
+	&HitInfo_SendMessage_m9945_MethodInfo,
+	&HitInfo_Compare_m9946_MethodInfo,
+	&HitInfo_op_Implicit_m9947_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference HitInfo_t2863_VTable[] =
 {
-	&ValueType_Equals_m4569_MethodInfo,
+	&ValueType_Equals_m4567_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4570_MethodInfo,
-	&ValueType_ToString_m4571_MethodInfo,
+	&ValueType_GetHashCode_m4568_MethodInfo,
+	&ValueType_ToString_m4569_MethodInfo,
 };
 static bool HitInfo_t2863_VTableIsGenericMethod[] =
 {
@@ -12749,10 +12749,10 @@ TypeInfo HitInfo_t2863_il2cpp_TypeInfo =
 #include "UnityEngine_UnityEngine_SendMouseEventsMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SendMouseEvents::.cctor()
-extern const MethodInfo SendMouseEvents__cctor_m9947_MethodInfo = 
+extern const MethodInfo SendMouseEvents__cctor_m9948_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&SendMouseEvents__cctor_m9947/* method */
+	, (methodPointerType)&SendMouseEvents__cctor_m9948/* method */
 	, &SendMouseEvents_t2866_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12764,7 +12764,7 @@ extern const MethodInfo SendMouseEvents__cctor_m9947_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1823/* token */
+	, 1830/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -12772,21 +12772,21 @@ extern const MethodInfo SendMouseEvents__cctor_m9947_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo SendMouseEvents_t2866_SendMouseEvents_DoSendMouseEvents_m9948_ParameterInfos[] = 
+static const ParameterInfo SendMouseEvents_t2866_SendMouseEvents_DoSendMouseEvents_m9949_ParameterInfos[] = 
 {
-	{"mouseUsed", 0, 134219769, 0, &Int32_t82_0_0_0},
-	{"skipRTCameras", 1, 134219770, 0, &Int32_t82_0_0_0},
+	{"mouseUsed", 0, 134219781, 0, &Int32_t82_0_0_0},
+	{"skipRTCameras", 1, 134219782, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SendMouseEvents::DoSendMouseEvents(System.Int32,System.Int32)
-extern const MethodInfo SendMouseEvents_DoSendMouseEvents_m9948_MethodInfo = 
+extern const MethodInfo SendMouseEvents_DoSendMouseEvents_m9949_MethodInfo = 
 {
 	"DoSendMouseEvents"/* name */
-	, (methodPointerType)&SendMouseEvents_DoSendMouseEvents_m9948/* method */
+	, (methodPointerType)&SendMouseEvents_DoSendMouseEvents_m9949/* method */
 	, &SendMouseEvents_t2866_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82/* invoker_method */
-	, SendMouseEvents_t2866_SendMouseEvents_DoSendMouseEvents_m9948_ParameterInfos/* parameters */
+	, SendMouseEvents_t2866_SendMouseEvents_DoSendMouseEvents_m9949_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -12794,7 +12794,7 @@ extern const MethodInfo SendMouseEvents_DoSendMouseEvents_m9948_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1824/* token */
+	, 1831/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -12802,21 +12802,21 @@ extern const MethodInfo SendMouseEvents_DoSendMouseEvents_m9948_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType HitInfo_t2863_0_0_0;
-static const ParameterInfo SendMouseEvents_t2866_SendMouseEvents_SendEvents_m9949_ParameterInfos[] = 
+static const ParameterInfo SendMouseEvents_t2866_SendMouseEvents_SendEvents_m9950_ParameterInfos[] = 
 {
-	{"i", 0, 134219771, 0, &Int32_t82_0_0_0},
-	{"hit", 1, 134219772, 0, &HitInfo_t2863_0_0_0},
+	{"i", 0, 134219783, 0, &Int32_t82_0_0_0},
+	{"hit", 1, 134219784, 0, &HitInfo_t2863_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_HitInfo_t2863 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SendMouseEvents::SendEvents(System.Int32,UnityEngine.SendMouseEvents/HitInfo)
-extern const MethodInfo SendMouseEvents_SendEvents_m9949_MethodInfo = 
+extern const MethodInfo SendMouseEvents_SendEvents_m9950_MethodInfo = 
 {
 	"SendEvents"/* name */
-	, (methodPointerType)&SendMouseEvents_SendEvents_m9949/* method */
+	, (methodPointerType)&SendMouseEvents_SendEvents_m9950/* method */
 	, &SendMouseEvents_t2866_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_HitInfo_t2863/* invoker_method */
-	, SendMouseEvents_t2866_SendMouseEvents_SendEvents_m9949_ParameterInfos/* parameters */
+	, SendMouseEvents_t2866_SendMouseEvents_SendEvents_m9950_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -12824,7 +12824,7 @@ extern const MethodInfo SendMouseEvents_SendEvents_m9949_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1825/* token */
+	, 1832/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -12832,9 +12832,9 @@ extern const MethodInfo SendMouseEvents_SendEvents_m9949_MethodInfo =
 };
 static const MethodInfo* SendMouseEvents_t2866_MethodInfos[] =
 {
-	&SendMouseEvents__cctor_m9947_MethodInfo,
-	&SendMouseEvents_DoSendMouseEvents_m9948_MethodInfo,
-	&SendMouseEvents_SendEvents_m9949_MethodInfo,
+	&SendMouseEvents__cctor_m9948_MethodInfo,
+	&SendMouseEvents_DoSendMouseEvents_m9949_MethodInfo,
+	&SendMouseEvents_SendEvents_m9950_MethodInfo,
 	NULL
 };
 static const Il2CppType* SendMouseEvents_t2866_il2cpp_TypeInfo__nestedTypes[1] =
@@ -12934,10 +12934,10 @@ extern TypeInfo Social_t2867_il2cpp_TypeInfo;
 extern const Il2CppType ISocialPlatform_t2868_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.Social::get_Active()
-extern const MethodInfo Social_get_Active_m9950_MethodInfo = 
+extern const MethodInfo Social_get_Active_m9951_MethodInfo = 
 {
 	"get_Active"/* name */
-	, (methodPointerType)&Social_get_Active_m9950/* method */
+	, (methodPointerType)&Social_get_Active_m9951/* method */
 	, &Social_t2867_il2cpp_TypeInfo/* declaring_type */
 	, &ISocialPlatform_t2868_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12949,7 +12949,7 @@ extern const MethodInfo Social_get_Active_m9950_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1829/* token */
+	, 1836/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -12957,10 +12957,10 @@ extern const MethodInfo Social_get_Active_m9950_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.SocialPlatforms.ILocalUser UnityEngine.Social::get_localUser()
-extern const MethodInfo Social_get_localUser_m4214_MethodInfo = 
+extern const MethodInfo Social_get_localUser_m4211_MethodInfo = 
 {
 	"get_localUser"/* name */
-	, (methodPointerType)&Social_get_localUser_m4214/* method */
+	, (methodPointerType)&Social_get_localUser_m4211/* method */
 	, &Social_t2867_il2cpp_TypeInfo/* declaring_type */
 	, &ILocalUser_t795_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12972,7 +12972,7 @@ extern const MethodInfo Social_get_localUser_m4214_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1830/* token */
+	, 1837/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -12981,22 +12981,22 @@ extern const MethodInfo Social_get_localUser_m4214_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Double_t90_0_0_0;
 extern const Il2CppType Action_1_t277_0_0_0;
-static const ParameterInfo Social_t2867_Social_ReportProgress_m4319_ParameterInfos[] = 
+static const ParameterInfo Social_t2867_Social_ReportProgress_m4317_ParameterInfos[] = 
 {
-	{"achievementID", 0, 134219777, 0, &String_t_0_0_0},
-	{"progress", 1, 134219778, 0, &Double_t90_0_0_0},
-	{"callback", 2, 134219779, 0, &Action_1_t277_0_0_0},
+	{"achievementID", 0, 134219789, 0, &String_t_0_0_0},
+	{"progress", 1, 134219790, 0, &Double_t90_0_0_0},
+	{"callback", 2, 134219791, 0, &Action_1_t277_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Double_t90_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Social::ReportProgress(System.String,System.Double,System.Action`1<System.Boolean>)
-extern const MethodInfo Social_ReportProgress_m4319_MethodInfo = 
+extern const MethodInfo Social_ReportProgress_m4317_MethodInfo = 
 {
 	"ReportProgress"/* name */
-	, (methodPointerType)&Social_ReportProgress_m4319/* method */
+	, (methodPointerType)&Social_ReportProgress_m4317/* method */
 	, &Social_t2867_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Double_t90_Object_t/* invoker_method */
-	, Social_t2867_Social_ReportProgress_m4319_ParameterInfos/* parameters */
+	, Social_t2867_Social_ReportProgress_m4317_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -13004,7 +13004,7 @@ extern const MethodInfo Social_ReportProgress_m4319_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1831/* token */
+	, 1838/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13013,22 +13013,22 @@ extern const MethodInfo Social_ReportProgress_m4319_MethodInfo =
 extern const Il2CppType Int64_t89_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Action_1_t277_0_0_0;
-static const ParameterInfo Social_t2867_Social_ReportScore_m4318_ParameterInfos[] = 
+static const ParameterInfo Social_t2867_Social_ReportScore_m4316_ParameterInfos[] = 
 {
-	{"score", 0, 134219780, 0, &Int64_t89_0_0_0},
-	{"board", 1, 134219781, 0, &String_t_0_0_0},
-	{"callback", 2, 134219782, 0, &Action_1_t277_0_0_0},
+	{"score", 0, 134219792, 0, &Int64_t89_0_0_0},
+	{"board", 1, 134219793, 0, &String_t_0_0_0},
+	{"callback", 2, 134219794, 0, &Action_1_t277_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int64_t89_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Social::ReportScore(System.Int64,System.String,System.Action`1<System.Boolean>)
-extern const MethodInfo Social_ReportScore_m4318_MethodInfo = 
+extern const MethodInfo Social_ReportScore_m4316_MethodInfo = 
 {
 	"ReportScore"/* name */
-	, (methodPointerType)&Social_ReportScore_m4318/* method */
+	, (methodPointerType)&Social_ReportScore_m4316/* method */
 	, &Social_t2867_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int64_t89_Object_t_Object_t/* invoker_method */
-	, Social_t2867_Social_ReportScore_m4318_ParameterInfos/* parameters */
+	, Social_t2867_Social_ReportScore_m4316_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -13036,7 +13036,7 @@ extern const MethodInfo Social_ReportScore_m4318_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1832/* token */
+	, 1839/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13044,10 +13044,10 @@ extern const MethodInfo Social_ReportScore_m4318_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Social::ShowAchievementsUI()
-extern const MethodInfo Social_ShowAchievementsUI_m4321_MethodInfo = 
+extern const MethodInfo Social_ShowAchievementsUI_m4319_MethodInfo = 
 {
 	"ShowAchievementsUI"/* name */
-	, (methodPointerType)&Social_ShowAchievementsUI_m4321/* method */
+	, (methodPointerType)&Social_ShowAchievementsUI_m4319/* method */
 	, &Social_t2867_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -13059,7 +13059,7 @@ extern const MethodInfo Social_ShowAchievementsUI_m4321_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1833/* token */
+	, 1840/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13067,30 +13067,30 @@ extern const MethodInfo Social_ShowAchievementsUI_m4321_MethodInfo =
 };
 static const MethodInfo* Social_t2867_MethodInfos[] =
 {
-	&Social_get_Active_m9950_MethodInfo,
-	&Social_get_localUser_m4214_MethodInfo,
-	&Social_ReportProgress_m4319_MethodInfo,
-	&Social_ReportScore_m4318_MethodInfo,
-	&Social_ShowAchievementsUI_m4321_MethodInfo,
+	&Social_get_Active_m9951_MethodInfo,
+	&Social_get_localUser_m4211_MethodInfo,
+	&Social_ReportProgress_m4317_MethodInfo,
+	&Social_ReportScore_m4316_MethodInfo,
+	&Social_ShowAchievementsUI_m4319_MethodInfo,
 	NULL
 };
-extern const MethodInfo Social_get_Active_m9950_MethodInfo;
+extern const MethodInfo Social_get_Active_m9951_MethodInfo;
 static const PropertyInfo Social_t2867____Active_PropertyInfo = 
 {
 	&Social_t2867_il2cpp_TypeInfo/* parent */
 	, "Active"/* name */
-	, &Social_get_Active_m9950_MethodInfo/* get */
+	, &Social_get_Active_m9951_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Social_get_localUser_m4214_MethodInfo;
+extern const MethodInfo Social_get_localUser_m4211_MethodInfo;
 static const PropertyInfo Social_t2867____localUser_PropertyInfo = 
 {
 	&Social_t2867_il2cpp_TypeInfo/* parent */
 	, "localUser"/* name */
-	, &Social_get_localUser_m4214_MethodInfo/* get */
+	, &Social_get_localUser_m4211_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -13195,10 +13195,10 @@ extern TypeInfo ActivePlatform_t2869_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_SocialPlatforms_ActivePlatformMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.SocialPlatforms.ActivePlatform::get_Instance()
-extern const MethodInfo ActivePlatform_get_Instance_m9951_MethodInfo = 
+extern const MethodInfo ActivePlatform_get_Instance_m9952_MethodInfo = 
 {
 	"get_Instance"/* name */
-	, (methodPointerType)&ActivePlatform_get_Instance_m9951/* method */
+	, (methodPointerType)&ActivePlatform_get_Instance_m9952/* method */
 	, &ActivePlatform_t2869_il2cpp_TypeInfo/* declaring_type */
 	, &ISocialPlatform_t2868_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13210,7 +13210,7 @@ extern const MethodInfo ActivePlatform_get_Instance_m9951_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1834/* token */
+	, 1841/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13218,10 +13218,10 @@ extern const MethodInfo ActivePlatform_get_Instance_m9951_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.SocialPlatforms.ActivePlatform::SelectSocialPlatform()
-extern const MethodInfo ActivePlatform_SelectSocialPlatform_m9952_MethodInfo = 
+extern const MethodInfo ActivePlatform_SelectSocialPlatform_m9953_MethodInfo = 
 {
 	"SelectSocialPlatform"/* name */
-	, (methodPointerType)&ActivePlatform_SelectSocialPlatform_m9952/* method */
+	, (methodPointerType)&ActivePlatform_SelectSocialPlatform_m9953/* method */
 	, &ActivePlatform_t2869_il2cpp_TypeInfo/* declaring_type */
 	, &ISocialPlatform_t2868_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13233,7 +13233,7 @@ extern const MethodInfo ActivePlatform_SelectSocialPlatform_m9952_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1835/* token */
+	, 1842/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13241,16 +13241,16 @@ extern const MethodInfo ActivePlatform_SelectSocialPlatform_m9952_MethodInfo =
 };
 static const MethodInfo* ActivePlatform_t2869_MethodInfos[] =
 {
-	&ActivePlatform_get_Instance_m9951_MethodInfo,
-	&ActivePlatform_SelectSocialPlatform_m9952_MethodInfo,
+	&ActivePlatform_get_Instance_m9952_MethodInfo,
+	&ActivePlatform_SelectSocialPlatform_m9953_MethodInfo,
 	NULL
 };
-extern const MethodInfo ActivePlatform_get_Instance_m9951_MethodInfo;
+extern const MethodInfo ActivePlatform_get_Instance_m9952_MethodInfo;
 static const PropertyInfo ActivePlatform_t2869____Instance_PropertyInfo = 
 {
 	&ActivePlatform_t2869_il2cpp_TypeInfo/* parent */
 	, "Instance"/* name */
-	, &ActivePlatform_get_Instance_m9951_MethodInfo/* get */
+	, &ActivePlatform_get_Instance_m9952_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -13350,7 +13350,7 @@ TypeInfo ActivePlatform_t2869_il2cpp_TypeInfo =
 extern TypeInfo ISocialPlatform_t2868_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.SocialPlatforms.ILocalUser UnityEngine.SocialPlatforms.ISocialPlatform::get_localUser()
-extern const MethodInfo ISocialPlatform_get_localUser_m10264_MethodInfo = 
+extern const MethodInfo ISocialPlatform_get_localUser_m10265_MethodInfo = 
 {
 	"get_localUser"/* name */
 	, NULL/* method */
@@ -13365,7 +13365,7 @@ extern const MethodInfo ISocialPlatform_get_localUser_m10264_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1836/* token */
+	, 1843/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13374,22 +13374,22 @@ extern const MethodInfo ISocialPlatform_get_localUser_m10264_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Double_t90_0_0_0;
 extern const Il2CppType Action_1_t277_0_0_0;
-static const ParameterInfo ISocialPlatform_t2868_ISocialPlatform_ReportProgress_m10265_ParameterInfos[] = 
+static const ParameterInfo ISocialPlatform_t2868_ISocialPlatform_ReportProgress_m10266_ParameterInfos[] = 
 {
-	{"achievementID", 0, 134219783, 0, &String_t_0_0_0},
-	{"progress", 1, 134219784, 0, &Double_t90_0_0_0},
-	{"callback", 2, 134219785, 0, &Action_1_t277_0_0_0},
+	{"achievementID", 0, 134219795, 0, &String_t_0_0_0},
+	{"progress", 1, 134219796, 0, &Double_t90_0_0_0},
+	{"callback", 2, 134219797, 0, &Action_1_t277_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Double_t90_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.ISocialPlatform::ReportProgress(System.String,System.Double,System.Action`1<System.Boolean>)
-extern const MethodInfo ISocialPlatform_ReportProgress_m10265_MethodInfo = 
+extern const MethodInfo ISocialPlatform_ReportProgress_m10266_MethodInfo = 
 {
 	"ReportProgress"/* name */
 	, NULL/* method */
 	, &ISocialPlatform_t2868_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Double_t90_Object_t/* invoker_method */
-	, ISocialPlatform_t2868_ISocialPlatform_ReportProgress_m10265_ParameterInfos/* parameters */
+	, ISocialPlatform_t2868_ISocialPlatform_ReportProgress_m10266_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -13397,7 +13397,7 @@ extern const MethodInfo ISocialPlatform_ReportProgress_m10265_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1837/* token */
+	, 1844/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13406,22 +13406,22 @@ extern const MethodInfo ISocialPlatform_ReportProgress_m10265_MethodInfo =
 extern const Il2CppType Int64_t89_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Action_1_t277_0_0_0;
-static const ParameterInfo ISocialPlatform_t2868_ISocialPlatform_ReportScore_m10266_ParameterInfos[] = 
+static const ParameterInfo ISocialPlatform_t2868_ISocialPlatform_ReportScore_m10267_ParameterInfos[] = 
 {
-	{"score", 0, 134219786, 0, &Int64_t89_0_0_0},
-	{"board", 1, 134219787, 0, &String_t_0_0_0},
-	{"callback", 2, 134219788, 0, &Action_1_t277_0_0_0},
+	{"score", 0, 134219798, 0, &Int64_t89_0_0_0},
+	{"board", 1, 134219799, 0, &String_t_0_0_0},
+	{"callback", 2, 134219800, 0, &Action_1_t277_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int64_t89_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.ISocialPlatform::ReportScore(System.Int64,System.String,System.Action`1<System.Boolean>)
-extern const MethodInfo ISocialPlatform_ReportScore_m10266_MethodInfo = 
+extern const MethodInfo ISocialPlatform_ReportScore_m10267_MethodInfo = 
 {
 	"ReportScore"/* name */
 	, NULL/* method */
 	, &ISocialPlatform_t2868_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int64_t89_Object_t_Object_t/* invoker_method */
-	, ISocialPlatform_t2868_ISocialPlatform_ReportScore_m10266_ParameterInfos/* parameters */
+	, ISocialPlatform_t2868_ISocialPlatform_ReportScore_m10267_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -13429,7 +13429,7 @@ extern const MethodInfo ISocialPlatform_ReportScore_m10266_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1838/* token */
+	, 1845/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13437,7 +13437,7 @@ extern const MethodInfo ISocialPlatform_ReportScore_m10266_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.ISocialPlatform::ShowAchievementsUI()
-extern const MethodInfo ISocialPlatform_ShowAchievementsUI_m10267_MethodInfo = 
+extern const MethodInfo ISocialPlatform_ShowAchievementsUI_m10268_MethodInfo = 
 {
 	"ShowAchievementsUI"/* name */
 	, NULL/* method */
@@ -13452,7 +13452,7 @@ extern const MethodInfo ISocialPlatform_ShowAchievementsUI_m10267_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1839/* token */
+	, 1846/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13460,21 +13460,21 @@ extern const MethodInfo ISocialPlatform_ShowAchievementsUI_m10267_MethodInfo =
 };
 extern const Il2CppType ILocalUser_t795_0_0_0;
 extern const Il2CppType Action_1_t277_0_0_0;
-static const ParameterInfo ISocialPlatform_t2868_ISocialPlatform_Authenticate_m10268_ParameterInfos[] = 
+static const ParameterInfo ISocialPlatform_t2868_ISocialPlatform_Authenticate_m10269_ParameterInfos[] = 
 {
-	{"user", 0, 134219789, 0, &ILocalUser_t795_0_0_0},
-	{"callback", 1, 134219790, 0, &Action_1_t277_0_0_0},
+	{"user", 0, 134219801, 0, &ILocalUser_t795_0_0_0},
+	{"callback", 1, 134219802, 0, &Action_1_t277_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.ISocialPlatform::Authenticate(UnityEngine.SocialPlatforms.ILocalUser,System.Action`1<System.Boolean>)
-extern const MethodInfo ISocialPlatform_Authenticate_m10268_MethodInfo = 
+extern const MethodInfo ISocialPlatform_Authenticate_m10269_MethodInfo = 
 {
 	"Authenticate"/* name */
 	, NULL/* method */
 	, &ISocialPlatform_t2868_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ISocialPlatform_t2868_ISocialPlatform_Authenticate_m10268_ParameterInfos/* parameters */
+	, ISocialPlatform_t2868_ISocialPlatform_Authenticate_m10269_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -13482,7 +13482,7 @@ extern const MethodInfo ISocialPlatform_Authenticate_m10268_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1840/* token */
+	, 1847/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13490,21 +13490,21 @@ extern const MethodInfo ISocialPlatform_Authenticate_m10268_MethodInfo =
 };
 extern const Il2CppType ILocalUser_t795_0_0_0;
 extern const Il2CppType Action_1_t277_0_0_0;
-static const ParameterInfo ISocialPlatform_t2868_ISocialPlatform_LoadFriends_m10269_ParameterInfos[] = 
+static const ParameterInfo ISocialPlatform_t2868_ISocialPlatform_LoadFriends_m10270_ParameterInfos[] = 
 {
-	{"user", 0, 134219791, 0, &ILocalUser_t795_0_0_0},
-	{"callback", 1, 134219792, 0, &Action_1_t277_0_0_0},
+	{"user", 0, 134219803, 0, &ILocalUser_t795_0_0_0},
+	{"callback", 1, 134219804, 0, &Action_1_t277_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.ISocialPlatform::LoadFriends(UnityEngine.SocialPlatforms.ILocalUser,System.Action`1<System.Boolean>)
-extern const MethodInfo ISocialPlatform_LoadFriends_m10269_MethodInfo = 
+extern const MethodInfo ISocialPlatform_LoadFriends_m10270_MethodInfo = 
 {
 	"LoadFriends"/* name */
 	, NULL/* method */
 	, &ISocialPlatform_t2868_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ISocialPlatform_t2868_ISocialPlatform_LoadFriends_m10269_ParameterInfos/* parameters */
+	, ISocialPlatform_t2868_ISocialPlatform_LoadFriends_m10270_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -13512,7 +13512,7 @@ extern const MethodInfo ISocialPlatform_LoadFriends_m10269_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1841/* token */
+	, 1848/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13520,20 +13520,20 @@ extern const MethodInfo ISocialPlatform_LoadFriends_m10269_MethodInfo =
 };
 static const MethodInfo* ISocialPlatform_t2868_MethodInfos[] =
 {
-	&ISocialPlatform_get_localUser_m10264_MethodInfo,
-	&ISocialPlatform_ReportProgress_m10265_MethodInfo,
-	&ISocialPlatform_ReportScore_m10266_MethodInfo,
-	&ISocialPlatform_ShowAchievementsUI_m10267_MethodInfo,
-	&ISocialPlatform_Authenticate_m10268_MethodInfo,
-	&ISocialPlatform_LoadFriends_m10269_MethodInfo,
+	&ISocialPlatform_get_localUser_m10265_MethodInfo,
+	&ISocialPlatform_ReportProgress_m10266_MethodInfo,
+	&ISocialPlatform_ReportScore_m10267_MethodInfo,
+	&ISocialPlatform_ShowAchievementsUI_m10268_MethodInfo,
+	&ISocialPlatform_Authenticate_m10269_MethodInfo,
+	&ISocialPlatform_LoadFriends_m10270_MethodInfo,
 	NULL
 };
-extern const MethodInfo ISocialPlatform_get_localUser_m10264_MethodInfo;
+extern const MethodInfo ISocialPlatform_get_localUser_m10265_MethodInfo;
 static const PropertyInfo ISocialPlatform_t2868____localUser_PropertyInfo = 
 {
 	&ISocialPlatform_t2868_il2cpp_TypeInfo/* parent */
 	, "localUser"/* name */
-	, &ISocialPlatform_get_localUser_m10264_MethodInfo/* get */
+	, &ISocialPlatform_get_localUser_m10265_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -13617,20 +13617,20 @@ TypeInfo ISocialPlatform_t2868_il2cpp_TypeInfo =
 // Metadata Definition UnityEngine.SocialPlatforms.ILocalUser
 extern TypeInfo ILocalUser_t795_il2cpp_TypeInfo;
 extern const Il2CppType Action_1_t277_0_0_0;
-static const ParameterInfo ILocalUser_t795_ILocalUser_Authenticate_m10270_ParameterInfos[] = 
+static const ParameterInfo ILocalUser_t795_ILocalUser_Authenticate_m10271_ParameterInfos[] = 
 {
-	{"callback", 0, 134219793, 0, &Action_1_t277_0_0_0},
+	{"callback", 0, 134219805, 0, &Action_1_t277_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.ILocalUser::Authenticate(System.Action`1<System.Boolean>)
-extern const MethodInfo ILocalUser_Authenticate_m10270_MethodInfo = 
+extern const MethodInfo ILocalUser_Authenticate_m10271_MethodInfo = 
 {
 	"Authenticate"/* name */
 	, NULL/* method */
 	, &ILocalUser_t795_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ILocalUser_t795_ILocalUser_Authenticate_m10270_ParameterInfos/* parameters */
+	, ILocalUser_t795_ILocalUser_Authenticate_m10271_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -13638,7 +13638,7 @@ extern const MethodInfo ILocalUser_Authenticate_m10270_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1842/* token */
+	, 1849/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13646,7 +13646,7 @@ extern const MethodInfo ILocalUser_Authenticate_m10270_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.SocialPlatforms.ILocalUser::get_authenticated()
-extern const MethodInfo ILocalUser_get_authenticated_m10271_MethodInfo = 
+extern const MethodInfo ILocalUser_get_authenticated_m10272_MethodInfo = 
 {
 	"get_authenticated"/* name */
 	, NULL/* method */
@@ -13661,7 +13661,7 @@ extern const MethodInfo ILocalUser_get_authenticated_m10271_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1843/* token */
+	, 1850/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13669,7 +13669,7 @@ extern const MethodInfo ILocalUser_get_authenticated_m10271_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.SocialPlatforms.ILocalUser::get_underage()
-extern const MethodInfo ILocalUser_get_underage_m10272_MethodInfo = 
+extern const MethodInfo ILocalUser_get_underage_m10273_MethodInfo = 
 {
 	"get_underage"/* name */
 	, NULL/* method */
@@ -13684,7 +13684,7 @@ extern const MethodInfo ILocalUser_get_underage_m10272_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1844/* token */
+	, 1851/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13692,28 +13692,28 @@ extern const MethodInfo ILocalUser_get_underage_m10272_MethodInfo =
 };
 static const MethodInfo* ILocalUser_t795_MethodInfos[] =
 {
-	&ILocalUser_Authenticate_m10270_MethodInfo,
-	&ILocalUser_get_authenticated_m10271_MethodInfo,
-	&ILocalUser_get_underage_m10272_MethodInfo,
+	&ILocalUser_Authenticate_m10271_MethodInfo,
+	&ILocalUser_get_authenticated_m10272_MethodInfo,
+	&ILocalUser_get_underage_m10273_MethodInfo,
 	NULL
 };
-extern const MethodInfo ILocalUser_get_authenticated_m10271_MethodInfo;
+extern const MethodInfo ILocalUser_get_authenticated_m10272_MethodInfo;
 static const PropertyInfo ILocalUser_t795____authenticated_PropertyInfo = 
 {
 	&ILocalUser_t795_il2cpp_TypeInfo/* parent */
 	, "authenticated"/* name */
-	, &ILocalUser_get_authenticated_m10271_MethodInfo/* get */
+	, &ILocalUser_get_authenticated_m10272_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ILocalUser_get_underage_m10272_MethodInfo;
+extern const MethodInfo ILocalUser_get_underage_m10273_MethodInfo;
 static const PropertyInfo ILocalUser_t795____underage_PropertyInfo = 
 {
 	&ILocalUser_t795_il2cpp_TypeInfo/* parent */
 	, "underage"/* name */
-	, &ILocalUser_get_underage_m10272_MethodInfo/* get */
+	, &ILocalUser_get_underage_m10273_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -13940,7 +13940,7 @@ TypeInfo UserState_t2870_il2cpp_TypeInfo =
 extern TypeInfo IUserProfile_t794_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.IUserProfile::get_userName()
-extern const MethodInfo IUserProfile_get_userName_m10273_MethodInfo = 
+extern const MethodInfo IUserProfile_get_userName_m10274_MethodInfo = 
 {
 	"get_userName"/* name */
 	, NULL/* method */
@@ -13955,7 +13955,7 @@ extern const MethodInfo IUserProfile_get_userName_m10273_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1845/* token */
+	, 1852/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13963,7 +13963,7 @@ extern const MethodInfo IUserProfile_get_userName_m10273_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.IUserProfile::get_id()
-extern const MethodInfo IUserProfile_get_id_m10274_MethodInfo = 
+extern const MethodInfo IUserProfile_get_id_m10275_MethodInfo = 
 {
 	"get_id"/* name */
 	, NULL/* method */
@@ -13978,7 +13978,7 @@ extern const MethodInfo IUserProfile_get_id_m10274_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1846/* token */
+	, 1853/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -13986,27 +13986,27 @@ extern const MethodInfo IUserProfile_get_id_m10274_MethodInfo =
 };
 static const MethodInfo* IUserProfile_t794_MethodInfos[] =
 {
-	&IUserProfile_get_userName_m10273_MethodInfo,
-	&IUserProfile_get_id_m10274_MethodInfo,
+	&IUserProfile_get_userName_m10274_MethodInfo,
+	&IUserProfile_get_id_m10275_MethodInfo,
 	NULL
 };
-extern const MethodInfo IUserProfile_get_userName_m10273_MethodInfo;
+extern const MethodInfo IUserProfile_get_userName_m10274_MethodInfo;
 static const PropertyInfo IUserProfile_t794____userName_PropertyInfo = 
 {
 	&IUserProfile_t794_il2cpp_TypeInfo/* parent */
 	, "userName"/* name */
-	, &IUserProfile_get_userName_m10273_MethodInfo/* get */
+	, &IUserProfile_get_userName_m10274_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IUserProfile_get_id_m10274_MethodInfo;
+extern const MethodInfo IUserProfile_get_id_m10275_MethodInfo;
 static const PropertyInfo IUserProfile_t794____id_PropertyInfo = 
 {
 	&IUserProfile_t794_il2cpp_TypeInfo/* parent */
 	, "id"/* name */
-	, &IUserProfile_get_id_m10274_MethodInfo/* get */
+	, &IUserProfile_get_id_m10275_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -14598,21 +14598,21 @@ extern TypeInfo Range_t2862_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_SocialPlatforms_RangeMethodDeclarations.h"
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Range_t2862_Range__ctor_m9953_ParameterInfos[] = 
+static const ParameterInfo Range_t2862_Range__ctor_m9954_ParameterInfos[] = 
 {
-	{"fromValue", 0, 134219794, 0, &Int32_t82_0_0_0},
-	{"valueCount", 1, 134219795, 0, &Int32_t82_0_0_0},
+	{"fromValue", 0, 134219806, 0, &Int32_t82_0_0_0},
+	{"valueCount", 1, 134219807, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SocialPlatforms.Range::.ctor(System.Int32,System.Int32)
-extern const MethodInfo Range__ctor_m9953_MethodInfo = 
+extern const MethodInfo Range__ctor_m9954_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Range__ctor_m9953/* method */
+	, (methodPointerType)&Range__ctor_m9954/* method */
 	, &Range_t2862_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82/* invoker_method */
-	, Range_t2862_Range__ctor_m9953_ParameterInfos/* parameters */
+	, Range_t2862_Range__ctor_m9954_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -14620,7 +14620,7 @@ extern const MethodInfo Range__ctor_m9953_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1847/* token */
+	, 1854/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -14628,15 +14628,15 @@ extern const MethodInfo Range__ctor_m9953_MethodInfo =
 };
 static const MethodInfo* Range_t2862_MethodInfos[] =
 {
-	&Range__ctor_m9953_MethodInfo,
+	&Range__ctor_m9954_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference Range_t2862_VTable[] =
 {
-	&ValueType_Equals_m4569_MethodInfo,
+	&ValueType_Equals_m4567_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4570_MethodInfo,
-	&ValueType_ToString_m4571_MethodInfo,
+	&ValueType_GetHashCode_m4568_MethodInfo,
+	&ValueType_ToString_m4569_MethodInfo,
 };
 static bool Range_t2862_VTableIsGenericMethod[] =
 {
@@ -14718,7 +14718,7 @@ TypeInfo Range_t2862_il2cpp_TypeInfo =
 extern TypeInfo ILeaderboard_t2901_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.SocialPlatforms.ILeaderboard::get_id()
-extern const MethodInfo ILeaderboard_get_id_m10275_MethodInfo = 
+extern const MethodInfo ILeaderboard_get_id_m10276_MethodInfo = 
 {
 	"get_id"/* name */
 	, NULL/* method */
@@ -14733,7 +14733,7 @@ extern const MethodInfo ILeaderboard_get_id_m10275_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1848/* token */
+	, 1855/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -14741,7 +14741,7 @@ extern const MethodInfo ILeaderboard_get_id_m10275_MethodInfo =
 };
 extern void* RuntimeInvoker_UserScope_t2871 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.SocialPlatforms.UserScope UnityEngine.SocialPlatforms.ILeaderboard::get_userScope()
-extern const MethodInfo ILeaderboard_get_userScope_m10276_MethodInfo = 
+extern const MethodInfo ILeaderboard_get_userScope_m10277_MethodInfo = 
 {
 	"get_userScope"/* name */
 	, NULL/* method */
@@ -14756,7 +14756,7 @@ extern const MethodInfo ILeaderboard_get_userScope_m10276_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1849/* token */
+	, 1856/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -14764,7 +14764,7 @@ extern const MethodInfo ILeaderboard_get_userScope_m10276_MethodInfo =
 };
 extern void* RuntimeInvoker_Range_t2862 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.SocialPlatforms.Range UnityEngine.SocialPlatforms.ILeaderboard::get_range()
-extern const MethodInfo ILeaderboard_get_range_m10277_MethodInfo = 
+extern const MethodInfo ILeaderboard_get_range_m10278_MethodInfo = 
 {
 	"get_range"/* name */
 	, NULL/* method */
@@ -14779,7 +14779,7 @@ extern const MethodInfo ILeaderboard_get_range_m10277_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1850/* token */
+	, 1857/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -14787,7 +14787,7 @@ extern const MethodInfo ILeaderboard_get_range_m10277_MethodInfo =
 };
 extern void* RuntimeInvoker_TimeScope_t2872 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.SocialPlatforms.TimeScope UnityEngine.SocialPlatforms.ILeaderboard::get_timeScope()
-extern const MethodInfo ILeaderboard_get_timeScope_m10278_MethodInfo = 
+extern const MethodInfo ILeaderboard_get_timeScope_m10279_MethodInfo = 
 {
 	"get_timeScope"/* name */
 	, NULL/* method */
@@ -14802,7 +14802,7 @@ extern const MethodInfo ILeaderboard_get_timeScope_m10278_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1851/* token */
+	, 1858/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -14810,51 +14810,51 @@ extern const MethodInfo ILeaderboard_get_timeScope_m10278_MethodInfo =
 };
 static const MethodInfo* ILeaderboard_t2901_MethodInfos[] =
 {
-	&ILeaderboard_get_id_m10275_MethodInfo,
-	&ILeaderboard_get_userScope_m10276_MethodInfo,
-	&ILeaderboard_get_range_m10277_MethodInfo,
-	&ILeaderboard_get_timeScope_m10278_MethodInfo,
+	&ILeaderboard_get_id_m10276_MethodInfo,
+	&ILeaderboard_get_userScope_m10277_MethodInfo,
+	&ILeaderboard_get_range_m10278_MethodInfo,
+	&ILeaderboard_get_timeScope_m10279_MethodInfo,
 	NULL
 };
-extern const MethodInfo ILeaderboard_get_id_m10275_MethodInfo;
+extern const MethodInfo ILeaderboard_get_id_m10276_MethodInfo;
 static const PropertyInfo ILeaderboard_t2901____id_PropertyInfo = 
 {
 	&ILeaderboard_t2901_il2cpp_TypeInfo/* parent */
 	, "id"/* name */
-	, &ILeaderboard_get_id_m10275_MethodInfo/* get */
+	, &ILeaderboard_get_id_m10276_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ILeaderboard_get_userScope_m10276_MethodInfo;
+extern const MethodInfo ILeaderboard_get_userScope_m10277_MethodInfo;
 static const PropertyInfo ILeaderboard_t2901____userScope_PropertyInfo = 
 {
 	&ILeaderboard_t2901_il2cpp_TypeInfo/* parent */
 	, "userScope"/* name */
-	, &ILeaderboard_get_userScope_m10276_MethodInfo/* get */
+	, &ILeaderboard_get_userScope_m10277_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ILeaderboard_get_range_m10277_MethodInfo;
+extern const MethodInfo ILeaderboard_get_range_m10278_MethodInfo;
 static const PropertyInfo ILeaderboard_t2901____range_PropertyInfo = 
 {
 	&ILeaderboard_t2901_il2cpp_TypeInfo/* parent */
 	, "range"/* name */
-	, &ILeaderboard_get_range_m10277_MethodInfo/* get */
+	, &ILeaderboard_get_range_m10278_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ILeaderboard_get_timeScope_m10278_MethodInfo;
+extern const MethodInfo ILeaderboard_get_timeScope_m10279_MethodInfo;
 static const PropertyInfo ILeaderboard_t2901____timeScope_PropertyInfo = 
 {
 	&ILeaderboard_t2901_il2cpp_TypeInfo/* parent */
 	, "timeScope"/* name */
-	, &ILeaderboard_get_timeScope_m10278_MethodInfo/* get */
+	, &ILeaderboard_get_timeScope_m10279_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -14961,7 +14961,7 @@ extern const MethodInfo PropertyAttribute__ctor_m353_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1852/* token */
+	, 1859/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -15018,7 +15018,7 @@ TypeInfo PropertyAttribute_t2_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &PropertyAttribute_t2_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 791/* custom_attributes_cache */
+	, 798/* custom_attributes_cache */
 	, &PropertyAttribute_t2_0_0_0/* byval_arg */
 	, &PropertyAttribute_t2_1_0_0/* this_arg */
 	, &PropertyAttribute_t2_DefinitionMetadata/* definitionMetadata */
@@ -15068,20 +15068,20 @@ extern TypeInfo TooltipAttribute_t1117_il2cpp_TypeInfo;
 // UnityEngine.TooltipAttribute
 #include "UnityEngine_UnityEngine_TooltipAttributeMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TooltipAttribute_t1117_TooltipAttribute__ctor_m6271_ParameterInfos[] = 
+static const ParameterInfo TooltipAttribute_t1117_TooltipAttribute__ctor_m6269_ParameterInfos[] = 
 {
-	{"tooltip", 0, 134219796, 0, &String_t_0_0_0},
+	{"tooltip", 0, 134219808, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.TooltipAttribute::.ctor(System.String)
-extern const MethodInfo TooltipAttribute__ctor_m6271_MethodInfo = 
+extern const MethodInfo TooltipAttribute__ctor_m6269_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TooltipAttribute__ctor_m6271/* method */
+	, (methodPointerType)&TooltipAttribute__ctor_m6269/* method */
 	, &TooltipAttribute_t1117_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, TooltipAttribute_t1117_TooltipAttribute__ctor_m6271_ParameterInfos/* parameters */
+	, TooltipAttribute_t1117_TooltipAttribute__ctor_m6269_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15089,7 +15089,7 @@ extern const MethodInfo TooltipAttribute__ctor_m6271_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1853/* token */
+	, 1860/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -15097,7 +15097,7 @@ extern const MethodInfo TooltipAttribute__ctor_m6271_MethodInfo =
 };
 static const MethodInfo* TooltipAttribute_t1117_MethodInfos[] =
 {
-	&TooltipAttribute__ctor_m6271_MethodInfo,
+	&TooltipAttribute__ctor_m6269_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference TooltipAttribute_t1117_VTable[] =
@@ -15146,7 +15146,7 @@ TypeInfo TooltipAttribute_t1117_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &TooltipAttribute_t1117_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 792/* custom_attributes_cache */
+	, 799/* custom_attributes_cache */
 	, &TooltipAttribute_t1117_0_0_0/* byval_arg */
 	, &TooltipAttribute_t1117_1_0_0/* this_arg */
 	, &TooltipAttribute_t1117_DefinitionMetadata/* definitionMetadata */
@@ -15197,20 +15197,20 @@ extern TypeInfo SpaceAttribute_t1115_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_SpaceAttributeMethodDeclarations.h"
 extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo SpaceAttribute_t1115_SpaceAttribute__ctor_m6269_ParameterInfos[] = 
+static const ParameterInfo SpaceAttribute_t1115_SpaceAttribute__ctor_m6267_ParameterInfos[] = 
 {
-	{"height", 0, 134219797, 0, &Single_t87_0_0_0},
+	{"height", 0, 134219809, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SpaceAttribute::.ctor(System.Single)
-extern const MethodInfo SpaceAttribute__ctor_m6269_MethodInfo = 
+extern const MethodInfo SpaceAttribute__ctor_m6267_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SpaceAttribute__ctor_m6269/* method */
+	, (methodPointerType)&SpaceAttribute__ctor_m6267/* method */
 	, &SpaceAttribute_t1115_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, SpaceAttribute_t1115_SpaceAttribute__ctor_m6269_ParameterInfos/* parameters */
+	, SpaceAttribute_t1115_SpaceAttribute__ctor_m6267_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15218,7 +15218,7 @@ extern const MethodInfo SpaceAttribute__ctor_m6269_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1854/* token */
+	, 1861/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -15226,7 +15226,7 @@ extern const MethodInfo SpaceAttribute__ctor_m6269_MethodInfo =
 };
 static const MethodInfo* SpaceAttribute_t1115_MethodInfos[] =
 {
-	&SpaceAttribute__ctor_m6269_MethodInfo,
+	&SpaceAttribute__ctor_m6267_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference SpaceAttribute_t1115_VTable[] =
@@ -15275,7 +15275,7 @@ TypeInfo SpaceAttribute_t1115_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &SpaceAttribute_t1115_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 793/* custom_attributes_cache */
+	, 800/* custom_attributes_cache */
 	, &SpaceAttribute_t1115_0_0_0/* byval_arg */
 	, &SpaceAttribute_t1115_1_0_0/* this_arg */
 	, &SpaceAttribute_t1115_DefinitionMetadata/* definitionMetadata */
@@ -15326,21 +15326,21 @@ extern TypeInfo RangeAttribute_t1113_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_RangeAttributeMethodDeclarations.h"
 extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo RangeAttribute_t1113_RangeAttribute__ctor_m6264_ParameterInfos[] = 
+static const ParameterInfo RangeAttribute_t1113_RangeAttribute__ctor_m6262_ParameterInfos[] = 
 {
-	{"min", 0, 134219798, 0, &Single_t87_0_0_0},
-	{"max", 1, 134219799, 0, &Single_t87_0_0_0},
+	{"min", 0, 134219810, 0, &Single_t87_0_0_0},
+	{"max", 1, 134219811, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.RangeAttribute::.ctor(System.Single,System.Single)
-extern const MethodInfo RangeAttribute__ctor_m6264_MethodInfo = 
+extern const MethodInfo RangeAttribute__ctor_m6262_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RangeAttribute__ctor_m6264/* method */
+	, (methodPointerType)&RangeAttribute__ctor_m6262/* method */
 	, &RangeAttribute_t1113_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87_Single_t87/* invoker_method */
-	, RangeAttribute_t1113_RangeAttribute__ctor_m6264_ParameterInfos/* parameters */
+	, RangeAttribute_t1113_RangeAttribute__ctor_m6262_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15348,7 +15348,7 @@ extern const MethodInfo RangeAttribute__ctor_m6264_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1855/* token */
+	, 1862/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -15356,7 +15356,7 @@ extern const MethodInfo RangeAttribute__ctor_m6264_MethodInfo =
 };
 static const MethodInfo* RangeAttribute_t1113_MethodInfos[] =
 {
-	&RangeAttribute__ctor_m6264_MethodInfo,
+	&RangeAttribute__ctor_m6262_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference RangeAttribute_t1113_VTable[] =
@@ -15405,7 +15405,7 @@ TypeInfo RangeAttribute_t1113_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &RangeAttribute_t1113_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 794/* custom_attributes_cache */
+	, 801/* custom_attributes_cache */
 	, &RangeAttribute_t1113_0_0_0/* byval_arg */
 	, &RangeAttribute_t1113_1_0_0/* this_arg */
 	, &RangeAttribute_t1113_DefinitionMetadata/* definitionMetadata */
@@ -15456,21 +15456,21 @@ extern TypeInfo TextAreaAttribute_t1118_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_TextAreaAttributeMethodDeclarations.h"
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo TextAreaAttribute_t1118_TextAreaAttribute__ctor_m6274_ParameterInfos[] = 
+static const ParameterInfo TextAreaAttribute_t1118_TextAreaAttribute__ctor_m6272_ParameterInfos[] = 
 {
-	{"minLines", 0, 134219800, 0, &Int32_t82_0_0_0},
-	{"maxLines", 1, 134219801, 0, &Int32_t82_0_0_0},
+	{"minLines", 0, 134219812, 0, &Int32_t82_0_0_0},
+	{"maxLines", 1, 134219813, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.TextAreaAttribute::.ctor(System.Int32,System.Int32)
-extern const MethodInfo TextAreaAttribute__ctor_m6274_MethodInfo = 
+extern const MethodInfo TextAreaAttribute__ctor_m6272_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TextAreaAttribute__ctor_m6274/* method */
+	, (methodPointerType)&TextAreaAttribute__ctor_m6272/* method */
 	, &TextAreaAttribute_t1118_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82/* invoker_method */
-	, TextAreaAttribute_t1118_TextAreaAttribute__ctor_m6274_ParameterInfos/* parameters */
+	, TextAreaAttribute_t1118_TextAreaAttribute__ctor_m6272_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15478,7 +15478,7 @@ extern const MethodInfo TextAreaAttribute__ctor_m6274_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1856/* token */
+	, 1863/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -15486,7 +15486,7 @@ extern const MethodInfo TextAreaAttribute__ctor_m6274_MethodInfo =
 };
 static const MethodInfo* TextAreaAttribute_t1118_MethodInfos[] =
 {
-	&TextAreaAttribute__ctor_m6274_MethodInfo,
+	&TextAreaAttribute__ctor_m6272_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference TextAreaAttribute_t1118_VTable[] =
@@ -15535,7 +15535,7 @@ TypeInfo TextAreaAttribute_t1118_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &TextAreaAttribute_t1118_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 795/* custom_attributes_cache */
+	, 802/* custom_attributes_cache */
 	, &TextAreaAttribute_t1118_0_0_0/* byval_arg */
 	, &TextAreaAttribute_t1118_1_0_0/* this_arg */
 	, &TextAreaAttribute_t1118_DefinitionMetadata/* definitionMetadata */
@@ -15586,10 +15586,10 @@ extern TypeInfo SelectionBaseAttribute_t1116_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_SelectionBaseAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SelectionBaseAttribute::.ctor()
-extern const MethodInfo SelectionBaseAttribute__ctor_m6270_MethodInfo = 
+extern const MethodInfo SelectionBaseAttribute__ctor_m6268_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SelectionBaseAttribute__ctor_m6270/* method */
+	, (methodPointerType)&SelectionBaseAttribute__ctor_m6268/* method */
 	, &SelectionBaseAttribute_t1116_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -15601,7 +15601,7 @@ extern const MethodInfo SelectionBaseAttribute__ctor_m6270_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1857/* token */
+	, 1864/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -15609,7 +15609,7 @@ extern const MethodInfo SelectionBaseAttribute__ctor_m6270_MethodInfo =
 };
 static const MethodInfo* SelectionBaseAttribute_t1116_MethodInfos[] =
 {
-	&SelectionBaseAttribute__ctor_m6270_MethodInfo,
+	&SelectionBaseAttribute__ctor_m6268_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference SelectionBaseAttribute_t1116_VTable[] =
@@ -15658,7 +15658,7 @@ TypeInfo SelectionBaseAttribute_t1116_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &SelectionBaseAttribute_t1116_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 796/* custom_attributes_cache */
+	, 803/* custom_attributes_cache */
 	, &SelectionBaseAttribute_t1116_0_0_0/* byval_arg */
 	, &SelectionBaseAttribute_t1116_1_0_0/* this_arg */
 	, &SelectionBaseAttribute_t1116_DefinitionMetadata/* definitionMetadata */
@@ -15709,10 +15709,10 @@ extern TypeInfo SliderState_t2873_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_SliderStateMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SliderState::.ctor()
-extern const MethodInfo SliderState__ctor_m9954_MethodInfo = 
+extern const MethodInfo SliderState__ctor_m9955_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SliderState__ctor_m9954/* method */
+	, (methodPointerType)&SliderState__ctor_m9955/* method */
 	, &SliderState_t2873_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -15724,7 +15724,7 @@ extern const MethodInfo SliderState__ctor_m9954_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1858/* token */
+	, 1865/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -15732,7 +15732,7 @@ extern const MethodInfo SliderState__ctor_m9954_MethodInfo =
 };
 static const MethodInfo* SliderState_t2873_MethodInfos[] =
 {
-	&SliderState__ctor_m9954_MethodInfo,
+	&SliderState__ctor_m9955_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference SliderState_t2873_VTable[] =
@@ -15837,28 +15837,28 @@ extern const Il2CppType GUIStyle_t107_0_0_0;
 extern const Il2CppType GUIStyle_t107_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo SliderHandler_t2874_SliderHandler__ctor_m9955_ParameterInfos[] = 
+static const ParameterInfo SliderHandler_t2874_SliderHandler__ctor_m9956_ParameterInfos[] = 
 {
-	{"position", 0, 134219802, 0, &Rect_t694_0_0_0},
-	{"currentValue", 1, 134219803, 0, &Single_t87_0_0_0},
-	{"size", 2, 134219804, 0, &Single_t87_0_0_0},
-	{"start", 3, 134219805, 0, &Single_t87_0_0_0},
-	{"end", 4, 134219806, 0, &Single_t87_0_0_0},
-	{"slider", 5, 134219807, 0, &GUIStyle_t107_0_0_0},
-	{"thumb", 6, 134219808, 0, &GUIStyle_t107_0_0_0},
-	{"horiz", 7, 134219809, 0, &Boolean_t59_0_0_0},
-	{"id", 8, 134219810, 0, &Int32_t82_0_0_0},
+	{"position", 0, 134219814, 0, &Rect_t694_0_0_0},
+	{"currentValue", 1, 134219815, 0, &Single_t87_0_0_0},
+	{"size", 2, 134219816, 0, &Single_t87_0_0_0},
+	{"start", 3, 134219817, 0, &Single_t87_0_0_0},
+	{"end", 4, 134219818, 0, &Single_t87_0_0_0},
+	{"slider", 5, 134219819, 0, &GUIStyle_t107_0_0_0},
+	{"thumb", 6, 134219820, 0, &GUIStyle_t107_0_0_0},
+	{"horiz", 7, 134219821, 0, &Boolean_t59_0_0_0},
+	{"id", 8, 134219822, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Rect_t694_Single_t87_Single_t87_Single_t87_Single_t87_Object_t_Object_t_SByte_t88_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SliderHandler::.ctor(UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,System.Boolean,System.Int32)
-extern const MethodInfo SliderHandler__ctor_m9955_MethodInfo = 
+extern const MethodInfo SliderHandler__ctor_m9956_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SliderHandler__ctor_m9955/* method */
+	, (methodPointerType)&SliderHandler__ctor_m9956/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Rect_t694_Single_t87_Single_t87_Single_t87_Single_t87_Object_t_Object_t_SByte_t88_Int32_t82/* invoker_method */
-	, SliderHandler_t2874_SliderHandler__ctor_m9955_ParameterInfos/* parameters */
+	, SliderHandler_t2874_SliderHandler__ctor_m9956_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15866,7 +15866,7 @@ extern const MethodInfo SliderHandler__ctor_m9955_MethodInfo =
 	, 9/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1859/* token */
+	, 1866/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -15874,10 +15874,10 @@ extern const MethodInfo SliderHandler__ctor_m9955_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.SliderHandler::Handle()
-extern const MethodInfo SliderHandler_Handle_m9956_MethodInfo = 
+extern const MethodInfo SliderHandler_Handle_m9957_MethodInfo = 
 {
 	"Handle"/* name */
-	, (methodPointerType)&SliderHandler_Handle_m9956/* method */
+	, (methodPointerType)&SliderHandler_Handle_m9957/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -15889,7 +15889,7 @@ extern const MethodInfo SliderHandler_Handle_m9956_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1860/* token */
+	, 1867/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -15897,175 +15897,13 @@ extern const MethodInfo SliderHandler_Handle_m9956_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.SliderHandler::OnMouseDown()
-extern const MethodInfo SliderHandler_OnMouseDown_m9957_MethodInfo = 
+extern const MethodInfo SliderHandler_OnMouseDown_m9958_MethodInfo = 
 {
 	"OnMouseDown"/* name */
-	, (methodPointerType)&SliderHandler_OnMouseDown_m9957/* method */
+	, (methodPointerType)&SliderHandler_OnMouseDown_m9958/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1861/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Single UnityEngine.SliderHandler::OnMouseDrag()
-extern const MethodInfo SliderHandler_OnMouseDrag_m9958_MethodInfo = 
-{
-	"OnMouseDrag"/* name */
-	, (methodPointerType)&SliderHandler_OnMouseDrag_m9958/* method */
-	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t87_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t87/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1862/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Single UnityEngine.SliderHandler::OnMouseUp()
-extern const MethodInfo SliderHandler_OnMouseUp_m9959_MethodInfo = 
-{
-	"OnMouseUp"/* name */
-	, (methodPointerType)&SliderHandler_OnMouseUp_m9959/* method */
-	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t87_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t87/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1863/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Single UnityEngine.SliderHandler::OnRepaint()
-extern const MethodInfo SliderHandler_OnRepaint_m9960_MethodInfo = 
-{
-	"OnRepaint"/* name */
-	, (methodPointerType)&SliderHandler_OnRepaint_m9960/* method */
-	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t87_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t87/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1864/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType EventType_t2733_0_0_0;
-extern void* RuntimeInvoker_EventType_t2733 (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.EventType UnityEngine.SliderHandler::CurrentEventType()
-extern const MethodInfo SliderHandler_CurrentEventType_m9961_MethodInfo = 
-{
-	"CurrentEventType"/* name */
-	, (methodPointerType)&SliderHandler_CurrentEventType_m9961/* method */
-	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &EventType_t2733_0_0_0/* return_type */
-	, RuntimeInvoker_EventType_t2733/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1865/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
-// System.Int32 UnityEngine.SliderHandler::CurrentScrollTroughSide()
-extern const MethodInfo SliderHandler_CurrentScrollTroughSide_m9962_MethodInfo = 
-{
-	"CurrentScrollTroughSide"/* name */
-	, (methodPointerType)&SliderHandler_CurrentScrollTroughSide_m9962/* method */
-	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Int32_t82_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t82/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1866/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
-// System.Boolean UnityEngine.SliderHandler::IsEmptySlider()
-extern const MethodInfo SliderHandler_IsEmptySlider_m9963_MethodInfo = 
-{
-	"IsEmptySlider"/* name */
-	, (methodPointerType)&SliderHandler_IsEmptySlider_m9963/* method */
-	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1867/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
-// System.Boolean UnityEngine.SliderHandler::SupportsPageMovements()
-extern const MethodInfo SliderHandler_SupportsPageMovements_m9964_MethodInfo = 
-{
-	"SupportsPageMovements"/* name */
-	, (methodPointerType)&SliderHandler_SupportsPageMovements_m9964/* method */
-	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -16081,11 +15919,11 @@ extern const MethodInfo SliderHandler_SupportsPageMovements_m9964_MethodInfo =
 
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Single UnityEngine.SliderHandler::PageMovementValue()
-extern const MethodInfo SliderHandler_PageMovementValue_m9965_MethodInfo = 
+// System.Single UnityEngine.SliderHandler::OnMouseDrag()
+extern const MethodInfo SliderHandler_OnMouseDrag_m9959_MethodInfo = 
 {
-	"PageMovementValue"/* name */
-	, (methodPointerType)&SliderHandler_PageMovementValue_m9965/* method */
+	"OnMouseDrag"/* name */
+	, (methodPointerType)&SliderHandler_OnMouseDrag_m9959/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -16104,11 +15942,11 @@ extern const MethodInfo SliderHandler_PageMovementValue_m9965_MethodInfo =
 
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Single UnityEngine.SliderHandler::PageUpMovementBound()
-extern const MethodInfo SliderHandler_PageUpMovementBound_m9966_MethodInfo = 
+// System.Single UnityEngine.SliderHandler::OnMouseUp()
+extern const MethodInfo SliderHandler_OnMouseUp_m9960_MethodInfo = 
 {
-	"PageUpMovementBound"/* name */
-	, (methodPointerType)&SliderHandler_PageUpMovementBound_m9966/* method */
+	"OnMouseUp"/* name */
+	, (methodPointerType)&SliderHandler_OnMouseUp_m9960/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -16126,16 +15964,15 @@ extern const MethodInfo SliderHandler_PageUpMovementBound_m9966_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Event_t783_0_0_0;
-extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Event UnityEngine.SliderHandler::CurrentEvent()
-extern const MethodInfo SliderHandler_CurrentEvent_m9967_MethodInfo = 
+extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
+// System.Single UnityEngine.SliderHandler::OnRepaint()
+extern const MethodInfo SliderHandler_OnRepaint_m9961_MethodInfo = 
 {
-	"CurrentEvent"/* name */
-	, (methodPointerType)&SliderHandler_CurrentEvent_m9967/* method */
+	"OnRepaint"/* name */
+	, (methodPointerType)&SliderHandler_OnRepaint_m9961/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Event_t783_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t/* invoker_method */
+	, &Single_t87_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t87/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -16150,15 +15987,16 @@ extern const MethodInfo SliderHandler_CurrentEvent_m9967_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Single UnityEngine.SliderHandler::ValueForCurrentMousePosition()
-extern const MethodInfo SliderHandler_ValueForCurrentMousePosition_m9968_MethodInfo = 
+extern const Il2CppType EventType_t2733_0_0_0;
+extern void* RuntimeInvoker_EventType_t2733 (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.EventType UnityEngine.SliderHandler::CurrentEventType()
+extern const MethodInfo SliderHandler_CurrentEventType_m9962_MethodInfo = 
 {
-	"ValueForCurrentMousePosition"/* name */
-	, (methodPointerType)&SliderHandler_ValueForCurrentMousePosition_m9968/* method */
+	"CurrentEventType"/* name */
+	, (methodPointerType)&SliderHandler_CurrentEventType_m9962/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t87_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t87/* invoker_method */
+	, &EventType_t2733_0_0_0/* return_type */
+	, RuntimeInvoker_EventType_t2733/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -16173,26 +16011,21 @@ extern const MethodInfo SliderHandler_ValueForCurrentMousePosition_m9968_MethodI
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo SliderHandler_t2874_SliderHandler_Clamp_m9969_ParameterInfos[] = 
+extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
+// System.Int32 UnityEngine.SliderHandler::CurrentScrollTroughSide()
+extern const MethodInfo SliderHandler_CurrentScrollTroughSide_m9963_MethodInfo = 
 {
-	{"value", 0, 134219811, 0, &Single_t87_0_0_0},
-};
-extern void* RuntimeInvoker_Single_t87_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Single UnityEngine.SliderHandler::Clamp(System.Single)
-extern const MethodInfo SliderHandler_Clamp_m9969_MethodInfo = 
-{
-	"Clamp"/* name */
-	, (methodPointerType)&SliderHandler_Clamp_m9969/* method */
+	"CurrentScrollTroughSide"/* name */
+	, (methodPointerType)&SliderHandler_CurrentScrollTroughSide_m9963/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t87_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t87_Single_t87/* invoker_method */
-	, SliderHandler_t2874_SliderHandler_Clamp_m9969_ParameterInfos/* parameters */
+	, &Int32_t82_0_0_0/* return_type */
+	, RuntimeInvoker_Int32_t82/* invoker_method */
+	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 1/* parameters_count */
+	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1873/* token */
@@ -16201,15 +16034,15 @@ extern const MethodInfo SliderHandler_Clamp_m9969_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Rect_t694 (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Rect UnityEngine.SliderHandler::ThumbSelectionRect()
-extern const MethodInfo SliderHandler_ThumbSelectionRect_m9970_MethodInfo = 
+extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
+// System.Boolean UnityEngine.SliderHandler::IsEmptySlider()
+extern const MethodInfo SliderHandler_IsEmptySlider_m9964_MethodInfo = 
 {
-	"ThumbSelectionRect"/* name */
-	, (methodPointerType)&SliderHandler_ThumbSelectionRect_m9970/* method */
+	"IsEmptySlider"/* name */
+	, (methodPointerType)&SliderHandler_IsEmptySlider_m9964/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Rect_t694_0_0_0/* return_type */
-	, RuntimeInvoker_Rect_t694/* invoker_method */
+	, &Boolean_t59_0_0_0/* return_type */
+	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -16224,26 +16057,21 @@ extern const MethodInfo SliderHandler_ThumbSelectionRect_m9970_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo SliderHandler_t2874_SliderHandler_StartDraggingWithValue_m9971_ParameterInfos[] = 
+extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
+// System.Boolean UnityEngine.SliderHandler::SupportsPageMovements()
+extern const MethodInfo SliderHandler_SupportsPageMovements_m9965_MethodInfo = 
 {
-	{"dragStartValue", 0, 134219812, 0, &Single_t87_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.SliderHandler::StartDraggingWithValue(System.Single)
-extern const MethodInfo SliderHandler_StartDraggingWithValue_m9971_MethodInfo = 
-{
-	"StartDraggingWithValue"/* name */
-	, (methodPointerType)&SliderHandler_StartDraggingWithValue_m9971/* method */
+	"SupportsPageMovements"/* name */
+	, (methodPointerType)&SliderHandler_SupportsPageMovements_m9965/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, SliderHandler_t2874_SliderHandler_StartDraggingWithValue_m9971_ParameterInfos/* parameters */
+	, &Boolean_t59_0_0_0/* return_type */
+	, RuntimeInvoker_Boolean_t59/* invoker_method */
+	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 1/* parameters_count */
+	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1875/* token */
@@ -16252,15 +16080,15 @@ extern const MethodInfo SliderHandler_StartDraggingWithValue_m9971_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.SliderState UnityEngine.SliderHandler::SliderState()
-extern const MethodInfo SliderHandler_SliderState_m9972_MethodInfo = 
+extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
+// System.Single UnityEngine.SliderHandler::PageMovementValue()
+extern const MethodInfo SliderHandler_PageMovementValue_m9966_MethodInfo = 
 {
-	"SliderState"/* name */
-	, (methodPointerType)&SliderHandler_SliderState_m9972/* method */
+	"PageMovementValue"/* name */
+	, (methodPointerType)&SliderHandler_PageMovementValue_m9966/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &SliderState_t2873_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t/* invoker_method */
+	, &Single_t87_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t87/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -16275,15 +16103,15 @@ extern const MethodInfo SliderHandler_SliderState_m9972_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Rect_t694 (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Rect UnityEngine.SliderHandler::ThumbRect()
-extern const MethodInfo SliderHandler_ThumbRect_m9973_MethodInfo = 
+extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
+// System.Single UnityEngine.SliderHandler::PageUpMovementBound()
+extern const MethodInfo SliderHandler_PageUpMovementBound_m9967_MethodInfo = 
 {
-	"ThumbRect"/* name */
-	, (methodPointerType)&SliderHandler_ThumbRect_m9973/* method */
+	"PageUpMovementBound"/* name */
+	, (methodPointerType)&SliderHandler_PageUpMovementBound_m9967/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Rect_t694_0_0_0/* return_type */
-	, RuntimeInvoker_Rect_t694/* invoker_method */
+	, &Single_t87_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t87/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -16298,15 +16126,16 @@ extern const MethodInfo SliderHandler_ThumbRect_m9973_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Rect_t694 (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Rect UnityEngine.SliderHandler::VerticalThumbRect()
-extern const MethodInfo SliderHandler_VerticalThumbRect_m9974_MethodInfo = 
+extern const Il2CppType Event_t783_0_0_0;
+extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Event UnityEngine.SliderHandler::CurrentEvent()
+extern const MethodInfo SliderHandler_CurrentEvent_m9968_MethodInfo = 
 {
-	"VerticalThumbRect"/* name */
-	, (methodPointerType)&SliderHandler_VerticalThumbRect_m9974/* method */
+	"CurrentEvent"/* name */
+	, (methodPointerType)&SliderHandler_CurrentEvent_m9968/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Rect_t694_0_0_0/* return_type */
-	, RuntimeInvoker_Rect_t694/* invoker_method */
+	, &Event_t783_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -16321,15 +16150,15 @@ extern const MethodInfo SliderHandler_VerticalThumbRect_m9974_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Rect_t694 (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Rect UnityEngine.SliderHandler::HorizontalThumbRect()
-extern const MethodInfo SliderHandler_HorizontalThumbRect_m9975_MethodInfo = 
+extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
+// System.Single UnityEngine.SliderHandler::ValueForCurrentMousePosition()
+extern const MethodInfo SliderHandler_ValueForCurrentMousePosition_m9969_MethodInfo = 
 {
-	"HorizontalThumbRect"/* name */
-	, (methodPointerType)&SliderHandler_HorizontalThumbRect_m9975/* method */
+	"ValueForCurrentMousePosition"/* name */
+	, (methodPointerType)&SliderHandler_ValueForCurrentMousePosition_m9969/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Rect_t694_0_0_0/* return_type */
-	, RuntimeInvoker_Rect_t694/* invoker_method */
+	, &Single_t87_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t87/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -16344,21 +16173,26 @@ extern const MethodInfo SliderHandler_HorizontalThumbRect_m9975_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Single UnityEngine.SliderHandler::ClampedCurrentValue()
-extern const MethodInfo SliderHandler_ClampedCurrentValue_m9976_MethodInfo = 
+extern const Il2CppType Single_t87_0_0_0;
+static const ParameterInfo SliderHandler_t2874_SliderHandler_Clamp_m9970_ParameterInfos[] = 
 {
-	"ClampedCurrentValue"/* name */
-	, (methodPointerType)&SliderHandler_ClampedCurrentValue_m9976/* method */
+	{"value", 0, 134219823, 0, &Single_t87_0_0_0},
+};
+extern void* RuntimeInvoker_Single_t87_Single_t87 (const MethodInfo* method, void* obj, void** args);
+// System.Single UnityEngine.SliderHandler::Clamp(System.Single)
+extern const MethodInfo SliderHandler_Clamp_m9970_MethodInfo = 
+{
+	"Clamp"/* name */
+	, (methodPointerType)&SliderHandler_Clamp_m9970/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t87/* invoker_method */
-	, NULL/* parameters */
+	, RuntimeInvoker_Single_t87_Single_t87/* invoker_method */
+	, SliderHandler_t2874_SliderHandler_Clamp_m9970_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 0/* parameters_count */
+	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1880/* token */
@@ -16367,15 +16201,15 @@ extern const MethodInfo SliderHandler_ClampedCurrentValue_m9976_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Single UnityEngine.SliderHandler::MousePosition()
-extern const MethodInfo SliderHandler_MousePosition_m9977_MethodInfo = 
+extern void* RuntimeInvoker_Rect_t694 (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Rect UnityEngine.SliderHandler::ThumbSelectionRect()
+extern const MethodInfo SliderHandler_ThumbSelectionRect_m9971_MethodInfo = 
 {
-	"MousePosition"/* name */
-	, (methodPointerType)&SliderHandler_MousePosition_m9977/* method */
+	"ThumbSelectionRect"/* name */
+	, (methodPointerType)&SliderHandler_ThumbSelectionRect_m9971/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t87_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t87/* invoker_method */
+	, &Rect_t694_0_0_0/* return_type */
+	, RuntimeInvoker_Rect_t694/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -16390,21 +16224,26 @@ extern const MethodInfo SliderHandler_MousePosition_m9977_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Single UnityEngine.SliderHandler::ValuesPerPixel()
-extern const MethodInfo SliderHandler_ValuesPerPixel_m9978_MethodInfo = 
+extern const Il2CppType Single_t87_0_0_0;
+static const ParameterInfo SliderHandler_t2874_SliderHandler_StartDraggingWithValue_m9972_ParameterInfos[] = 
 {
-	"ValuesPerPixel"/* name */
-	, (methodPointerType)&SliderHandler_ValuesPerPixel_m9978/* method */
+	{"dragStartValue", 0, 134219824, 0, &Single_t87_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.SliderHandler::StartDraggingWithValue(System.Single)
+extern const MethodInfo SliderHandler_StartDraggingWithValue_m9972_MethodInfo = 
+{
+	"StartDraggingWithValue"/* name */
+	, (methodPointerType)&SliderHandler_StartDraggingWithValue_m9972/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t87_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t87/* invoker_method */
-	, NULL/* parameters */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
+	, SliderHandler_t2874_SliderHandler_StartDraggingWithValue_m9972_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 0/* parameters_count */
+	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1882/* token */
@@ -16413,15 +16252,15 @@ extern const MethodInfo SliderHandler_ValuesPerPixel_m9978_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Single UnityEngine.SliderHandler::ThumbSize()
-extern const MethodInfo SliderHandler_ThumbSize_m9979_MethodInfo = 
+extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.SliderState UnityEngine.SliderHandler::SliderState()
+extern const MethodInfo SliderHandler_SliderState_m9973_MethodInfo = 
 {
-	"ThumbSize"/* name */
-	, (methodPointerType)&SliderHandler_ThumbSize_m9979/* method */
+	"SliderState"/* name */
+	, (methodPointerType)&SliderHandler_SliderState_m9973/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t87_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t87/* invoker_method */
+	, &SliderState_t2873_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -16436,15 +16275,15 @@ extern const MethodInfo SliderHandler_ThumbSize_m9979_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Single UnityEngine.SliderHandler::MaxValue()
-extern const MethodInfo SliderHandler_MaxValue_m9980_MethodInfo = 
+extern void* RuntimeInvoker_Rect_t694 (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Rect UnityEngine.SliderHandler::ThumbRect()
+extern const MethodInfo SliderHandler_ThumbRect_m9974_MethodInfo = 
 {
-	"MaxValue"/* name */
-	, (methodPointerType)&SliderHandler_MaxValue_m9980/* method */
+	"ThumbRect"/* name */
+	, (methodPointerType)&SliderHandler_ThumbRect_m9974/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t87_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t87/* invoker_method */
+	, &Rect_t694_0_0_0/* return_type */
+	, RuntimeInvoker_Rect_t694/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -16459,15 +16298,15 @@ extern const MethodInfo SliderHandler_MaxValue_m9980_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
-// System.Single UnityEngine.SliderHandler::MinValue()
-extern const MethodInfo SliderHandler_MinValue_m9981_MethodInfo = 
+extern void* RuntimeInvoker_Rect_t694 (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Rect UnityEngine.SliderHandler::VerticalThumbRect()
+extern const MethodInfo SliderHandler_VerticalThumbRect_m9975_MethodInfo = 
 {
-	"MinValue"/* name */
-	, (methodPointerType)&SliderHandler_MinValue_m9981/* method */
+	"VerticalThumbRect"/* name */
+	, (methodPointerType)&SliderHandler_VerticalThumbRect_m9975/* method */
 	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t87_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t87/* invoker_method */
+	, &Rect_t694_0_0_0/* return_type */
+	, RuntimeInvoker_Rect_t694/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -16482,43 +16321,204 @@ extern const MethodInfo SliderHandler_MinValue_m9981_MethodInfo =
 	, NULL/* dummy */
 
 };
+extern void* RuntimeInvoker_Rect_t694 (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Rect UnityEngine.SliderHandler::HorizontalThumbRect()
+extern const MethodInfo SliderHandler_HorizontalThumbRect_m9976_MethodInfo = 
+{
+	"HorizontalThumbRect"/* name */
+	, (methodPointerType)&SliderHandler_HorizontalThumbRect_m9976/* method */
+	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
+	, &Rect_t694_0_0_0/* return_type */
+	, RuntimeInvoker_Rect_t694/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1886/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
+// System.Single UnityEngine.SliderHandler::ClampedCurrentValue()
+extern const MethodInfo SliderHandler_ClampedCurrentValue_m9977_MethodInfo = 
+{
+	"ClampedCurrentValue"/* name */
+	, (methodPointerType)&SliderHandler_ClampedCurrentValue_m9977/* method */
+	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
+	, &Single_t87_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t87/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1887/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
+// System.Single UnityEngine.SliderHandler::MousePosition()
+extern const MethodInfo SliderHandler_MousePosition_m9978_MethodInfo = 
+{
+	"MousePosition"/* name */
+	, (methodPointerType)&SliderHandler_MousePosition_m9978/* method */
+	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
+	, &Single_t87_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t87/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1888/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
+// System.Single UnityEngine.SliderHandler::ValuesPerPixel()
+extern const MethodInfo SliderHandler_ValuesPerPixel_m9979_MethodInfo = 
+{
+	"ValuesPerPixel"/* name */
+	, (methodPointerType)&SliderHandler_ValuesPerPixel_m9979/* method */
+	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
+	, &Single_t87_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t87/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1889/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
+// System.Single UnityEngine.SliderHandler::ThumbSize()
+extern const MethodInfo SliderHandler_ThumbSize_m9980_MethodInfo = 
+{
+	"ThumbSize"/* name */
+	, (methodPointerType)&SliderHandler_ThumbSize_m9980/* method */
+	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
+	, &Single_t87_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t87/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1890/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
+// System.Single UnityEngine.SliderHandler::MaxValue()
+extern const MethodInfo SliderHandler_MaxValue_m9981_MethodInfo = 
+{
+	"MaxValue"/* name */
+	, (methodPointerType)&SliderHandler_MaxValue_m9981/* method */
+	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
+	, &Single_t87_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t87/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1891/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
+// System.Single UnityEngine.SliderHandler::MinValue()
+extern const MethodInfo SliderHandler_MinValue_m9982_MethodInfo = 
+{
+	"MinValue"/* name */
+	, (methodPointerType)&SliderHandler_MinValue_m9982/* method */
+	, &SliderHandler_t2874_il2cpp_TypeInfo/* declaring_type */
+	, &Single_t87_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t87/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1892/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
 static const MethodInfo* SliderHandler_t2874_MethodInfos[] =
 {
-	&SliderHandler__ctor_m9955_MethodInfo,
-	&SliderHandler_Handle_m9956_MethodInfo,
-	&SliderHandler_OnMouseDown_m9957_MethodInfo,
-	&SliderHandler_OnMouseDrag_m9958_MethodInfo,
-	&SliderHandler_OnMouseUp_m9959_MethodInfo,
-	&SliderHandler_OnRepaint_m9960_MethodInfo,
-	&SliderHandler_CurrentEventType_m9961_MethodInfo,
-	&SliderHandler_CurrentScrollTroughSide_m9962_MethodInfo,
-	&SliderHandler_IsEmptySlider_m9963_MethodInfo,
-	&SliderHandler_SupportsPageMovements_m9964_MethodInfo,
-	&SliderHandler_PageMovementValue_m9965_MethodInfo,
-	&SliderHandler_PageUpMovementBound_m9966_MethodInfo,
-	&SliderHandler_CurrentEvent_m9967_MethodInfo,
-	&SliderHandler_ValueForCurrentMousePosition_m9968_MethodInfo,
-	&SliderHandler_Clamp_m9969_MethodInfo,
-	&SliderHandler_ThumbSelectionRect_m9970_MethodInfo,
-	&SliderHandler_StartDraggingWithValue_m9971_MethodInfo,
-	&SliderHandler_SliderState_m9972_MethodInfo,
-	&SliderHandler_ThumbRect_m9973_MethodInfo,
-	&SliderHandler_VerticalThumbRect_m9974_MethodInfo,
-	&SliderHandler_HorizontalThumbRect_m9975_MethodInfo,
-	&SliderHandler_ClampedCurrentValue_m9976_MethodInfo,
-	&SliderHandler_MousePosition_m9977_MethodInfo,
-	&SliderHandler_ValuesPerPixel_m9978_MethodInfo,
-	&SliderHandler_ThumbSize_m9979_MethodInfo,
-	&SliderHandler_MaxValue_m9980_MethodInfo,
-	&SliderHandler_MinValue_m9981_MethodInfo,
+	&SliderHandler__ctor_m9956_MethodInfo,
+	&SliderHandler_Handle_m9957_MethodInfo,
+	&SliderHandler_OnMouseDown_m9958_MethodInfo,
+	&SliderHandler_OnMouseDrag_m9959_MethodInfo,
+	&SliderHandler_OnMouseUp_m9960_MethodInfo,
+	&SliderHandler_OnRepaint_m9961_MethodInfo,
+	&SliderHandler_CurrentEventType_m9962_MethodInfo,
+	&SliderHandler_CurrentScrollTroughSide_m9963_MethodInfo,
+	&SliderHandler_IsEmptySlider_m9964_MethodInfo,
+	&SliderHandler_SupportsPageMovements_m9965_MethodInfo,
+	&SliderHandler_PageMovementValue_m9966_MethodInfo,
+	&SliderHandler_PageUpMovementBound_m9967_MethodInfo,
+	&SliderHandler_CurrentEvent_m9968_MethodInfo,
+	&SliderHandler_ValueForCurrentMousePosition_m9969_MethodInfo,
+	&SliderHandler_Clamp_m9970_MethodInfo,
+	&SliderHandler_ThumbSelectionRect_m9971_MethodInfo,
+	&SliderHandler_StartDraggingWithValue_m9972_MethodInfo,
+	&SliderHandler_SliderState_m9973_MethodInfo,
+	&SliderHandler_ThumbRect_m9974_MethodInfo,
+	&SliderHandler_VerticalThumbRect_m9975_MethodInfo,
+	&SliderHandler_HorizontalThumbRect_m9976_MethodInfo,
+	&SliderHandler_ClampedCurrentValue_m9977_MethodInfo,
+	&SliderHandler_MousePosition_m9978_MethodInfo,
+	&SliderHandler_ValuesPerPixel_m9979_MethodInfo,
+	&SliderHandler_ThumbSize_m9980_MethodInfo,
+	&SliderHandler_MaxValue_m9981_MethodInfo,
+	&SliderHandler_MinValue_m9982_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference SliderHandler_t2874_VTable[] =
 {
-	&ValueType_Equals_m4569_MethodInfo,
+	&ValueType_Equals_m4567_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4570_MethodInfo,
-	&ValueType_ToString_m4571_MethodInfo,
+	&ValueType_GetHashCode_m4568_MethodInfo,
+	&ValueType_ToString_m4569_MethodInfo,
 };
 static bool SliderHandler_t2874_VTableIsGenericMethod[] =
 {
@@ -16605,10 +16605,10 @@ extern TypeInfo StackTraceUtility_t55_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_StackTraceUtilityMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.StackTraceUtility::.ctor()
-extern const MethodInfo StackTraceUtility__ctor_m9982_MethodInfo = 
+extern const MethodInfo StackTraceUtility__ctor_m9983_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&StackTraceUtility__ctor_m9982/* method */
+	, (methodPointerType)&StackTraceUtility__ctor_m9983/* method */
 	, &StackTraceUtility_t55_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16620,7 +16620,7 @@ extern const MethodInfo StackTraceUtility__ctor_m9982_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1886/* token */
+	, 1893/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -16628,10 +16628,10 @@ extern const MethodInfo StackTraceUtility__ctor_m9982_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.StackTraceUtility::.cctor()
-extern const MethodInfo StackTraceUtility__cctor_m9983_MethodInfo = 
+extern const MethodInfo StackTraceUtility__cctor_m9984_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&StackTraceUtility__cctor_m9983/* method */
+	, (methodPointerType)&StackTraceUtility__cctor_m9984/* method */
 	, &StackTraceUtility_t55_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16643,27 +16643,27 @@ extern const MethodInfo StackTraceUtility__cctor_m9983_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1887/* token */
+	, 1894/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo StackTraceUtility_t55_StackTraceUtility_SetProjectFolder_m9984_ParameterInfos[] = 
+static const ParameterInfo StackTraceUtility_t55_StackTraceUtility_SetProjectFolder_m9985_ParameterInfos[] = 
 {
-	{"folder", 0, 134219813, 0, &String_t_0_0_0},
+	{"folder", 0, 134219825, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.StackTraceUtility::SetProjectFolder(System.String)
-extern const MethodInfo StackTraceUtility_SetProjectFolder_m9984_MethodInfo = 
+extern const MethodInfo StackTraceUtility_SetProjectFolder_m9985_MethodInfo = 
 {
 	"SetProjectFolder"/* name */
-	, (methodPointerType)&StackTraceUtility_SetProjectFolder_m9984/* method */
+	, (methodPointerType)&StackTraceUtility_SetProjectFolder_m9985/* method */
 	, &StackTraceUtility_t55_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, StackTraceUtility_t55_StackTraceUtility_SetProjectFolder_m9984_ParameterInfos/* parameters */
+	, StackTraceUtility_t55_StackTraceUtility_SetProjectFolder_m9985_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -16671,7 +16671,7 @@ extern const MethodInfo StackTraceUtility_SetProjectFolder_m9984_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1888/* token */
+	, 1895/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -16687,34 +16687,34 @@ extern const MethodInfo StackTraceUtility_ExtractStackTrace_m383_MethodInfo =
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
-	, 797/* custom_attributes_cache */
+	, 804/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
 	, 255/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1889/* token */
+	, 1896/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo StackTraceUtility_t55_StackTraceUtility_IsSystemStacktraceType_m9985_ParameterInfos[] = 
+static const ParameterInfo StackTraceUtility_t55_StackTraceUtility_IsSystemStacktraceType_m9986_ParameterInfos[] = 
 {
-	{"name", 0, 134219814, 0, &Object_t_0_0_0},
+	{"name", 0, 134219826, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.StackTraceUtility::IsSystemStacktraceType(System.Object)
-extern const MethodInfo StackTraceUtility_IsSystemStacktraceType_m9985_MethodInfo = 
+extern const MethodInfo StackTraceUtility_IsSystemStacktraceType_m9986_MethodInfo = 
 {
 	"IsSystemStacktraceType"/* name */
-	, (methodPointerType)&StackTraceUtility_IsSystemStacktraceType_m9985/* method */
+	, (methodPointerType)&StackTraceUtility_IsSystemStacktraceType_m9986/* method */
 	, &StackTraceUtility_t55_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, StackTraceUtility_t55_StackTraceUtility_IsSystemStacktraceType_m9985_ParameterInfos/* parameters */
+	, StackTraceUtility_t55_StackTraceUtility_IsSystemStacktraceType_m9986_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -16722,27 +16722,27 @@ extern const MethodInfo StackTraceUtility_IsSystemStacktraceType_m9985_MethodInf
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1890/* token */
+	, 1897/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo StackTraceUtility_t55_StackTraceUtility_ExtractStringFromException_m9986_ParameterInfos[] = 
+static const ParameterInfo StackTraceUtility_t55_StackTraceUtility_ExtractStringFromException_m9987_ParameterInfos[] = 
 {
-	{"exception", 0, 134219815, 0, &Object_t_0_0_0},
+	{"exception", 0, 134219827, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.StackTraceUtility::ExtractStringFromException(System.Object)
-extern const MethodInfo StackTraceUtility_ExtractStringFromException_m9986_MethodInfo = 
+extern const MethodInfo StackTraceUtility_ExtractStringFromException_m9987_MethodInfo = 
 {
 	"ExtractStringFromException"/* name */
-	, (methodPointerType)&StackTraceUtility_ExtractStringFromException_m9986/* method */
+	, (methodPointerType)&StackTraceUtility_ExtractStringFromException_m9987/* method */
 	, &StackTraceUtility_t55_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, StackTraceUtility_t55_StackTraceUtility_ExtractStringFromException_m9986_ParameterInfos/* parameters */
+	, StackTraceUtility_t55_StackTraceUtility_ExtractStringFromException_m9987_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -16750,7 +16750,7 @@ extern const MethodInfo StackTraceUtility_ExtractStringFromException_m9986_Metho
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1891/* token */
+	, 1898/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -16760,30 +16760,30 @@ extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType String_t_1_0_2;
 extern const Il2CppType String_t_1_0_0;
 extern const Il2CppType String_t_1_0_2;
-static const ParameterInfo StackTraceUtility_t55_StackTraceUtility_ExtractStringFromExceptionInternal_m9987_ParameterInfos[] = 
+static const ParameterInfo StackTraceUtility_t55_StackTraceUtility_ExtractStringFromExceptionInternal_m9988_ParameterInfos[] = 
 {
-	{"exceptiono", 0, 134219816, 0, &Object_t_0_0_0},
-	{"message", 1, 134219817, 0, &String_t_1_0_2},
-	{"stackTrace", 2, 134219818, 0, &String_t_1_0_2},
+	{"exceptiono", 0, 134219828, 0, &Object_t_0_0_0},
+	{"message", 1, 134219829, 0, &String_t_1_0_2},
+	{"stackTrace", 2, 134219830, 0, &String_t_1_0_2},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_StringU26_t813_StringU26_t813 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.StackTraceUtility::ExtractStringFromExceptionInternal(System.Object,System.String&,System.String&)
-extern const MethodInfo StackTraceUtility_ExtractStringFromExceptionInternal_m9987_MethodInfo = 
+extern const MethodInfo StackTraceUtility_ExtractStringFromExceptionInternal_m9988_MethodInfo = 
 {
 	"ExtractStringFromExceptionInternal"/* name */
-	, (methodPointerType)&StackTraceUtility_ExtractStringFromExceptionInternal_m9987/* method */
+	, (methodPointerType)&StackTraceUtility_ExtractStringFromExceptionInternal_m9988/* method */
 	, &StackTraceUtility_t55_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_StringU26_t813_StringU26_t813/* invoker_method */
-	, StackTraceUtility_t55_StackTraceUtility_ExtractStringFromExceptionInternal_m9987_ParameterInfos/* parameters */
-	, 798/* custom_attributes_cache */
+	, StackTraceUtility_t55_StackTraceUtility_ExtractStringFromExceptionInternal_m9988_ParameterInfos/* parameters */
+	, 805/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
 	, 255/* slot */
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1892/* token */
+	, 1899/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -16791,21 +16791,21 @@ extern const MethodInfo StackTraceUtility_ExtractStringFromExceptionInternal_m99
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo StackTraceUtility_t55_StackTraceUtility_PostprocessStacktrace_m9988_ParameterInfos[] = 
+static const ParameterInfo StackTraceUtility_t55_StackTraceUtility_PostprocessStacktrace_m9989_ParameterInfos[] = 
 {
-	{"oldString", 0, 134219819, 0, &String_t_0_0_0},
-	{"stripEngineInternalInformation", 1, 134219820, 0, &Boolean_t59_0_0_0},
+	{"oldString", 0, 134219831, 0, &String_t_0_0_0},
+	{"stripEngineInternalInformation", 1, 134219832, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.StackTraceUtility::PostprocessStacktrace(System.String,System.Boolean)
-extern const MethodInfo StackTraceUtility_PostprocessStacktrace_m9988_MethodInfo = 
+extern const MethodInfo StackTraceUtility_PostprocessStacktrace_m9989_MethodInfo = 
 {
 	"PostprocessStacktrace"/* name */
-	, (methodPointerType)&StackTraceUtility_PostprocessStacktrace_m9988/* method */
+	, (methodPointerType)&StackTraceUtility_PostprocessStacktrace_m9989/* method */
 	, &StackTraceUtility_t55_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88/* invoker_method */
-	, StackTraceUtility_t55_StackTraceUtility_PostprocessStacktrace_m9988_ParameterInfos/* parameters */
+	, StackTraceUtility_t55_StackTraceUtility_PostprocessStacktrace_m9989_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -16813,7 +16813,7 @@ extern const MethodInfo StackTraceUtility_PostprocessStacktrace_m9988_MethodInfo
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1893/* token */
+	, 1900/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -16821,28 +16821,28 @@ extern const MethodInfo StackTraceUtility_PostprocessStacktrace_m9988_MethodInfo
 };
 extern const Il2CppType StackTrace_t2918_0_0_0;
 extern const Il2CppType StackTrace_t2918_0_0_0;
-static const ParameterInfo StackTraceUtility_t55_StackTraceUtility_ExtractFormattedStackTrace_m9989_ParameterInfos[] = 
+static const ParameterInfo StackTraceUtility_t55_StackTraceUtility_ExtractFormattedStackTrace_m9990_ParameterInfos[] = 
 {
-	{"stackTrace", 0, 134219821, 0, &StackTrace_t2918_0_0_0},
+	{"stackTrace", 0, 134219833, 0, &StackTrace_t2918_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.StackTraceUtility::ExtractFormattedStackTrace(System.Diagnostics.StackTrace)
-extern const MethodInfo StackTraceUtility_ExtractFormattedStackTrace_m9989_MethodInfo = 
+extern const MethodInfo StackTraceUtility_ExtractFormattedStackTrace_m9990_MethodInfo = 
 {
 	"ExtractFormattedStackTrace"/* name */
-	, (methodPointerType)&StackTraceUtility_ExtractFormattedStackTrace_m9989/* method */
+	, (methodPointerType)&StackTraceUtility_ExtractFormattedStackTrace_m9990/* method */
 	, &StackTraceUtility_t55_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, StackTraceUtility_t55_StackTraceUtility_ExtractFormattedStackTrace_m9989_ParameterInfos/* parameters */
-	, 799/* custom_attributes_cache */
+	, StackTraceUtility_t55_StackTraceUtility_ExtractFormattedStackTrace_m9990_ParameterInfos/* parameters */
+	, 806/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
 	, 255/* slot */
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1894/* token */
+	, 1901/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -16850,15 +16850,15 @@ extern const MethodInfo StackTraceUtility_ExtractFormattedStackTrace_m9989_Metho
 };
 static const MethodInfo* StackTraceUtility_t55_MethodInfos[] =
 {
-	&StackTraceUtility__ctor_m9982_MethodInfo,
-	&StackTraceUtility__cctor_m9983_MethodInfo,
-	&StackTraceUtility_SetProjectFolder_m9984_MethodInfo,
+	&StackTraceUtility__ctor_m9983_MethodInfo,
+	&StackTraceUtility__cctor_m9984_MethodInfo,
+	&StackTraceUtility_SetProjectFolder_m9985_MethodInfo,
 	&StackTraceUtility_ExtractStackTrace_m383_MethodInfo,
-	&StackTraceUtility_IsSystemStacktraceType_m9985_MethodInfo,
-	&StackTraceUtility_ExtractStringFromException_m9986_MethodInfo,
-	&StackTraceUtility_ExtractStringFromExceptionInternal_m9987_MethodInfo,
-	&StackTraceUtility_PostprocessStacktrace_m9988_MethodInfo,
-	&StackTraceUtility_ExtractFormattedStackTrace_m9989_MethodInfo,
+	&StackTraceUtility_IsSystemStacktraceType_m9986_MethodInfo,
+	&StackTraceUtility_ExtractStringFromException_m9987_MethodInfo,
+	&StackTraceUtility_ExtractStringFromExceptionInternal_m9988_MethodInfo,
+	&StackTraceUtility_PostprocessStacktrace_m9989_MethodInfo,
+	&StackTraceUtility_ExtractFormattedStackTrace_m9990_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference StackTraceUtility_t55_VTable[] =
@@ -16954,10 +16954,10 @@ extern TypeInfo UnityException_t1072_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_UnityExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UnityException::.ctor()
-extern const MethodInfo UnityException__ctor_m9990_MethodInfo = 
+extern const MethodInfo UnityException__ctor_m9991_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UnityException__ctor_m9990/* method */
+	, (methodPointerType)&UnityException__ctor_m9991/* method */
 	, &UnityException_t1072_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16969,27 +16969,27 @@ extern const MethodInfo UnityException__ctor_m9990_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1895/* token */
+	, 1902/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UnityException_t1072_UnityException__ctor_m9991_ParameterInfos[] = 
+static const ParameterInfo UnityException_t1072_UnityException__ctor_m9992_ParameterInfos[] = 
 {
-	{"message", 0, 134219822, 0, &String_t_0_0_0},
+	{"message", 0, 134219834, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UnityException::.ctor(System.String)
-extern const MethodInfo UnityException__ctor_m9991_MethodInfo = 
+extern const MethodInfo UnityException__ctor_m9992_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UnityException__ctor_m9991/* method */
+	, (methodPointerType)&UnityException__ctor_m9992/* method */
 	, &UnityException_t1072_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, UnityException_t1072_UnityException__ctor_m9991_ParameterInfos/* parameters */
+	, UnityException_t1072_UnityException__ctor_m9992_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -16997,7 +16997,7 @@ extern const MethodInfo UnityException__ctor_m9991_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1896/* token */
+	, 1903/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17006,21 +17006,21 @@ extern const MethodInfo UnityException__ctor_m9991_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Exception_t57_0_0_0;
 extern const Il2CppType Exception_t57_0_0_0;
-static const ParameterInfo UnityException_t1072_UnityException__ctor_m9992_ParameterInfos[] = 
+static const ParameterInfo UnityException_t1072_UnityException__ctor_m9993_ParameterInfos[] = 
 {
-	{"message", 0, 134219823, 0, &String_t_0_0_0},
-	{"innerException", 1, 134219824, 0, &Exception_t57_0_0_0},
+	{"message", 0, 134219835, 0, &String_t_0_0_0},
+	{"innerException", 1, 134219836, 0, &Exception_t57_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UnityException::.ctor(System.String,System.Exception)
-extern const MethodInfo UnityException__ctor_m9992_MethodInfo = 
+extern const MethodInfo UnityException__ctor_m9993_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UnityException__ctor_m9992/* method */
+	, (methodPointerType)&UnityException__ctor_m9993/* method */
 	, &UnityException_t1072_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, UnityException_t1072_UnityException__ctor_m9992_ParameterInfos/* parameters */
+	, UnityException_t1072_UnityException__ctor_m9993_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -17028,7 +17028,7 @@ extern const MethodInfo UnityException__ctor_m9992_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1897/* token */
+	, 1904/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17038,21 +17038,21 @@ extern const Il2CppType SerializationInfo_t2919_0_0_0;
 extern const Il2CppType SerializationInfo_t2919_0_0_0;
 extern const Il2CppType StreamingContext_t2920_0_0_0;
 extern const Il2CppType StreamingContext_t2920_0_0_0;
-static const ParameterInfo UnityException_t1072_UnityException__ctor_m9993_ParameterInfos[] = 
+static const ParameterInfo UnityException_t1072_UnityException__ctor_m9994_ParameterInfos[] = 
 {
-	{"info", 0, 134219825, 0, &SerializationInfo_t2919_0_0_0},
-	{"context", 1, 134219826, 0, &StreamingContext_t2920_0_0_0},
+	{"info", 0, 134219837, 0, &SerializationInfo_t2919_0_0_0},
+	{"context", 1, 134219838, 0, &StreamingContext_t2920_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2920 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UnityException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo UnityException__ctor_m9993_MethodInfo = 
+extern const MethodInfo UnityException__ctor_m9994_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UnityException__ctor_m9993/* method */
+	, (methodPointerType)&UnityException__ctor_m9994/* method */
 	, &UnityException_t1072_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2920/* invoker_method */
-	, UnityException_t1072_UnityException__ctor_m9993_ParameterInfos/* parameters */
+	, UnityException_t1072_UnityException__ctor_m9994_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -17060,7 +17060,7 @@ extern const MethodInfo UnityException__ctor_m9993_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1898/* token */
+	, 1905/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17068,32 +17068,32 @@ extern const MethodInfo UnityException__ctor_m9993_MethodInfo =
 };
 static const MethodInfo* UnityException_t1072_MethodInfos[] =
 {
-	&UnityException__ctor_m9990_MethodInfo,
 	&UnityException__ctor_m9991_MethodInfo,
 	&UnityException__ctor_m9992_MethodInfo,
 	&UnityException__ctor_m9993_MethodInfo,
+	&UnityException__ctor_m9994_MethodInfo,
 	NULL
 };
-extern const MethodInfo Exception_ToString_m7795_MethodInfo;
-extern const MethodInfo Exception_GetObjectData_m8385_MethodInfo;
-extern const MethodInfo Exception_get_InnerException_m8386_MethodInfo;
-extern const MethodInfo Exception_get_Message_m8387_MethodInfo;
-extern const MethodInfo Exception_get_Source_m8388_MethodInfo;
-extern const MethodInfo Exception_get_StackTrace_m8389_MethodInfo;
-extern const MethodInfo Exception_GetType_m8390_MethodInfo;
+extern const MethodInfo Exception_ToString_m7794_MethodInfo;
+extern const MethodInfo Exception_GetObjectData_m8384_MethodInfo;
+extern const MethodInfo Exception_get_InnerException_m8385_MethodInfo;
+extern const MethodInfo Exception_get_Message_m8386_MethodInfo;
+extern const MethodInfo Exception_get_Source_m8387_MethodInfo;
+extern const MethodInfo Exception_get_StackTrace_m8388_MethodInfo;
+extern const MethodInfo Exception_GetType_m8389_MethodInfo;
 static const Il2CppMethodReference UnityException_t1072_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&Exception_ToString_m7795_MethodInfo,
-	&Exception_GetObjectData_m8385_MethodInfo,
-	&Exception_get_InnerException_m8386_MethodInfo,
-	&Exception_get_Message_m8387_MethodInfo,
-	&Exception_get_Source_m8388_MethodInfo,
-	&Exception_get_StackTrace_m8389_MethodInfo,
-	&Exception_GetObjectData_m8385_MethodInfo,
-	&Exception_GetType_m8390_MethodInfo,
+	&Exception_ToString_m7794_MethodInfo,
+	&Exception_GetObjectData_m8384_MethodInfo,
+	&Exception_get_InnerException_m8385_MethodInfo,
+	&Exception_get_Message_m8386_MethodInfo,
+	&Exception_get_Source_m8387_MethodInfo,
+	&Exception_get_StackTrace_m8388_MethodInfo,
+	&Exception_GetObjectData_m8384_MethodInfo,
+	&Exception_GetType_m8389_MethodInfo,
 };
 static bool UnityException_t1072_VTableIsGenericMethod[] =
 {
@@ -17194,10 +17194,10 @@ extern TypeInfo SharedBetweenAnimatorsAttribute_t2875_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_SharedBetweenAnimatorsAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SharedBetweenAnimatorsAttribute::.ctor()
-extern const MethodInfo SharedBetweenAnimatorsAttribute__ctor_m9994_MethodInfo = 
+extern const MethodInfo SharedBetweenAnimatorsAttribute__ctor_m9995_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SharedBetweenAnimatorsAttribute__ctor_m9994/* method */
+	, (methodPointerType)&SharedBetweenAnimatorsAttribute__ctor_m9995/* method */
 	, &SharedBetweenAnimatorsAttribute_t2875_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17209,7 +17209,7 @@ extern const MethodInfo SharedBetweenAnimatorsAttribute__ctor_m9994_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1899/* token */
+	, 1906/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17217,7 +17217,7 @@ extern const MethodInfo SharedBetweenAnimatorsAttribute__ctor_m9994_MethodInfo =
 };
 static const MethodInfo* SharedBetweenAnimatorsAttribute_t2875_MethodInfos[] =
 {
-	&SharedBetweenAnimatorsAttribute__ctor_m9994_MethodInfo,
+	&SharedBetweenAnimatorsAttribute__ctor_m9995_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference SharedBetweenAnimatorsAttribute_t2875_VTable[] =
@@ -17266,7 +17266,7 @@ TypeInfo SharedBetweenAnimatorsAttribute_t2875_il2cpp_TypeInfo =
 	, NULL/* events */
 	, &SharedBetweenAnimatorsAttribute_t2875_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 800/* custom_attributes_cache */
+	, 807/* custom_attributes_cache */
 	, &SharedBetweenAnimatorsAttribute_t2875_0_0_0/* byval_arg */
 	, &SharedBetweenAnimatorsAttribute_t2875_1_0_0/* this_arg */
 	, &SharedBetweenAnimatorsAttribute_t2875_DefinitionMetadata/* definitionMetadata */
@@ -17317,10 +17317,10 @@ extern TypeInfo StateMachineBehaviour_t2876_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_StateMachineBehaviourMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.StateMachineBehaviour::.ctor()
-extern const MethodInfo StateMachineBehaviour__ctor_m9995_MethodInfo = 
+extern const MethodInfo StateMachineBehaviour__ctor_m9996_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&StateMachineBehaviour__ctor_m9995/* method */
+	, (methodPointerType)&StateMachineBehaviour__ctor_m9996/* method */
 	, &StateMachineBehaviour_t2876_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17332,7 +17332,7 @@ extern const MethodInfo StateMachineBehaviour__ctor_m9995_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1900/* token */
+	, 1907/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17343,22 +17343,22 @@ extern const Il2CppType Animator_t666_0_0_0;
 extern const Il2CppType AnimatorStateInfo_t2778_0_0_0;
 extern const Il2CppType AnimatorStateInfo_t2778_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateEnter_m9996_ParameterInfos[] = 
+static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateEnter_m9997_ParameterInfos[] = 
 {
-	{"animator", 0, 134219827, 0, &Animator_t666_0_0_0},
-	{"stateInfo", 1, 134219828, 0, &AnimatorStateInfo_t2778_0_0_0},
-	{"layerIndex", 2, 134219829, 0, &Int32_t82_0_0_0},
+	{"animator", 0, 134219839, 0, &Animator_t666_0_0_0},
+	{"stateInfo", 1, 134219840, 0, &AnimatorStateInfo_t2778_0_0_0},
+	{"layerIndex", 2, 134219841, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_AnimatorStateInfo_t2778_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.StateMachineBehaviour::OnStateEnter(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
-extern const MethodInfo StateMachineBehaviour_OnStateEnter_m9996_MethodInfo = 
+extern const MethodInfo StateMachineBehaviour_OnStateEnter_m9997_MethodInfo = 
 {
 	"OnStateEnter"/* name */
-	, (methodPointerType)&StateMachineBehaviour_OnStateEnter_m9996/* method */
+	, (methodPointerType)&StateMachineBehaviour_OnStateEnter_m9997/* method */
 	, &StateMachineBehaviour_t2876_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_AnimatorStateInfo_t2778_Int32_t82/* invoker_method */
-	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateEnter_m9996_ParameterInfos/* parameters */
+	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateEnter_m9997_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -17366,7 +17366,7 @@ extern const MethodInfo StateMachineBehaviour_OnStateEnter_m9996_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1901/* token */
+	, 1908/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17375,22 +17375,22 @@ extern const MethodInfo StateMachineBehaviour_OnStateEnter_m9996_MethodInfo =
 extern const Il2CppType Animator_t666_0_0_0;
 extern const Il2CppType AnimatorStateInfo_t2778_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateUpdate_m9997_ParameterInfos[] = 
+static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateUpdate_m9998_ParameterInfos[] = 
 {
-	{"animator", 0, 134219830, 0, &Animator_t666_0_0_0},
-	{"stateInfo", 1, 134219831, 0, &AnimatorStateInfo_t2778_0_0_0},
-	{"layerIndex", 2, 134219832, 0, &Int32_t82_0_0_0},
+	{"animator", 0, 134219842, 0, &Animator_t666_0_0_0},
+	{"stateInfo", 1, 134219843, 0, &AnimatorStateInfo_t2778_0_0_0},
+	{"layerIndex", 2, 134219844, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_AnimatorStateInfo_t2778_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.StateMachineBehaviour::OnStateUpdate(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
-extern const MethodInfo StateMachineBehaviour_OnStateUpdate_m9997_MethodInfo = 
+extern const MethodInfo StateMachineBehaviour_OnStateUpdate_m9998_MethodInfo = 
 {
 	"OnStateUpdate"/* name */
-	, (methodPointerType)&StateMachineBehaviour_OnStateUpdate_m9997/* method */
+	, (methodPointerType)&StateMachineBehaviour_OnStateUpdate_m9998/* method */
 	, &StateMachineBehaviour_t2876_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_AnimatorStateInfo_t2778_Int32_t82/* invoker_method */
-	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateUpdate_m9997_ParameterInfos/* parameters */
+	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateUpdate_m9998_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -17398,7 +17398,7 @@ extern const MethodInfo StateMachineBehaviour_OnStateUpdate_m9997_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1902/* token */
+	, 1909/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17407,22 +17407,22 @@ extern const MethodInfo StateMachineBehaviour_OnStateUpdate_m9997_MethodInfo =
 extern const Il2CppType Animator_t666_0_0_0;
 extern const Il2CppType AnimatorStateInfo_t2778_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateExit_m9998_ParameterInfos[] = 
+static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateExit_m9999_ParameterInfos[] = 
 {
-	{"animator", 0, 134219833, 0, &Animator_t666_0_0_0},
-	{"stateInfo", 1, 134219834, 0, &AnimatorStateInfo_t2778_0_0_0},
-	{"layerIndex", 2, 134219835, 0, &Int32_t82_0_0_0},
+	{"animator", 0, 134219845, 0, &Animator_t666_0_0_0},
+	{"stateInfo", 1, 134219846, 0, &AnimatorStateInfo_t2778_0_0_0},
+	{"layerIndex", 2, 134219847, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_AnimatorStateInfo_t2778_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.StateMachineBehaviour::OnStateExit(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
-extern const MethodInfo StateMachineBehaviour_OnStateExit_m9998_MethodInfo = 
+extern const MethodInfo StateMachineBehaviour_OnStateExit_m9999_MethodInfo = 
 {
 	"OnStateExit"/* name */
-	, (methodPointerType)&StateMachineBehaviour_OnStateExit_m9998/* method */
+	, (methodPointerType)&StateMachineBehaviour_OnStateExit_m9999/* method */
 	, &StateMachineBehaviour_t2876_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_AnimatorStateInfo_t2778_Int32_t82/* invoker_method */
-	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateExit_m9998_ParameterInfos/* parameters */
+	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateExit_m9999_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -17430,7 +17430,7 @@ extern const MethodInfo StateMachineBehaviour_OnStateExit_m9998_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1903/* token */
+	, 1910/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17439,22 +17439,22 @@ extern const MethodInfo StateMachineBehaviour_OnStateExit_m9998_MethodInfo =
 extern const Il2CppType Animator_t666_0_0_0;
 extern const Il2CppType AnimatorStateInfo_t2778_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateMove_m9999_ParameterInfos[] = 
+static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateMove_m10000_ParameterInfos[] = 
 {
-	{"animator", 0, 134219836, 0, &Animator_t666_0_0_0},
-	{"stateInfo", 1, 134219837, 0, &AnimatorStateInfo_t2778_0_0_0},
-	{"layerIndex", 2, 134219838, 0, &Int32_t82_0_0_0},
+	{"animator", 0, 134219848, 0, &Animator_t666_0_0_0},
+	{"stateInfo", 1, 134219849, 0, &AnimatorStateInfo_t2778_0_0_0},
+	{"layerIndex", 2, 134219850, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_AnimatorStateInfo_t2778_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.StateMachineBehaviour::OnStateMove(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
-extern const MethodInfo StateMachineBehaviour_OnStateMove_m9999_MethodInfo = 
+extern const MethodInfo StateMachineBehaviour_OnStateMove_m10000_MethodInfo = 
 {
 	"OnStateMove"/* name */
-	, (methodPointerType)&StateMachineBehaviour_OnStateMove_m9999/* method */
+	, (methodPointerType)&StateMachineBehaviour_OnStateMove_m10000/* method */
 	, &StateMachineBehaviour_t2876_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_AnimatorStateInfo_t2778_Int32_t82/* invoker_method */
-	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateMove_m9999_ParameterInfos/* parameters */
+	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateMove_m10000_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -17462,7 +17462,7 @@ extern const MethodInfo StateMachineBehaviour_OnStateMove_m9999_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1904/* token */
+	, 1911/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17471,22 +17471,22 @@ extern const MethodInfo StateMachineBehaviour_OnStateMove_m9999_MethodInfo =
 extern const Il2CppType Animator_t666_0_0_0;
 extern const Il2CppType AnimatorStateInfo_t2778_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateIK_m10000_ParameterInfos[] = 
+static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateIK_m10001_ParameterInfos[] = 
 {
-	{"animator", 0, 134219839, 0, &Animator_t666_0_0_0},
-	{"stateInfo", 1, 134219840, 0, &AnimatorStateInfo_t2778_0_0_0},
-	{"layerIndex", 2, 134219841, 0, &Int32_t82_0_0_0},
+	{"animator", 0, 134219851, 0, &Animator_t666_0_0_0},
+	{"stateInfo", 1, 134219852, 0, &AnimatorStateInfo_t2778_0_0_0},
+	{"layerIndex", 2, 134219853, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_AnimatorStateInfo_t2778_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.StateMachineBehaviour::OnStateIK(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
-extern const MethodInfo StateMachineBehaviour_OnStateIK_m10000_MethodInfo = 
+extern const MethodInfo StateMachineBehaviour_OnStateIK_m10001_MethodInfo = 
 {
 	"OnStateIK"/* name */
-	, (methodPointerType)&StateMachineBehaviour_OnStateIK_m10000/* method */
+	, (methodPointerType)&StateMachineBehaviour_OnStateIK_m10001/* method */
 	, &StateMachineBehaviour_t2876_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_AnimatorStateInfo_t2778_Int32_t82/* invoker_method */
-	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateIK_m10000_ParameterInfos/* parameters */
+	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateIK_m10001_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -17494,7 +17494,7 @@ extern const MethodInfo StateMachineBehaviour_OnStateIK_m10000_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1905/* token */
+	, 1912/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17502,21 +17502,21 @@ extern const MethodInfo StateMachineBehaviour_OnStateIK_m10000_MethodInfo =
 };
 extern const Il2CppType Animator_t666_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateMachineEnter_m10001_ParameterInfos[] = 
+static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateMachineEnter_m10002_ParameterInfos[] = 
 {
-	{"animator", 0, 134219842, 0, &Animator_t666_0_0_0},
-	{"stateMachinePathHash", 1, 134219843, 0, &Int32_t82_0_0_0},
+	{"animator", 0, 134219854, 0, &Animator_t666_0_0_0},
+	{"stateMachinePathHash", 1, 134219855, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.StateMachineBehaviour::OnStateMachineEnter(UnityEngine.Animator,System.Int32)
-extern const MethodInfo StateMachineBehaviour_OnStateMachineEnter_m10001_MethodInfo = 
+extern const MethodInfo StateMachineBehaviour_OnStateMachineEnter_m10002_MethodInfo = 
 {
 	"OnStateMachineEnter"/* name */
-	, (methodPointerType)&StateMachineBehaviour_OnStateMachineEnter_m10001/* method */
+	, (methodPointerType)&StateMachineBehaviour_OnStateMachineEnter_m10002/* method */
 	, &StateMachineBehaviour_t2876_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateMachineEnter_m10001_ParameterInfos/* parameters */
+	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateMachineEnter_m10002_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -17524,7 +17524,7 @@ extern const MethodInfo StateMachineBehaviour_OnStateMachineEnter_m10001_MethodI
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1906/* token */
+	, 1913/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17532,21 +17532,21 @@ extern const MethodInfo StateMachineBehaviour_OnStateMachineEnter_m10001_MethodI
 };
 extern const Il2CppType Animator_t666_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateMachineExit_m10002_ParameterInfos[] = 
+static const ParameterInfo StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateMachineExit_m10003_ParameterInfos[] = 
 {
-	{"animator", 0, 134219844, 0, &Animator_t666_0_0_0},
-	{"stateMachinePathHash", 1, 134219845, 0, &Int32_t82_0_0_0},
+	{"animator", 0, 134219856, 0, &Animator_t666_0_0_0},
+	{"stateMachinePathHash", 1, 134219857, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.StateMachineBehaviour::OnStateMachineExit(UnityEngine.Animator,System.Int32)
-extern const MethodInfo StateMachineBehaviour_OnStateMachineExit_m10002_MethodInfo = 
+extern const MethodInfo StateMachineBehaviour_OnStateMachineExit_m10003_MethodInfo = 
 {
 	"OnStateMachineExit"/* name */
-	, (methodPointerType)&StateMachineBehaviour_OnStateMachineExit_m10002/* method */
+	, (methodPointerType)&StateMachineBehaviour_OnStateMachineExit_m10003/* method */
 	, &StateMachineBehaviour_t2876_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateMachineExit_m10002_ParameterInfos/* parameters */
+	, StateMachineBehaviour_t2876_StateMachineBehaviour_OnStateMachineExit_m10003_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -17554,7 +17554,7 @@ extern const MethodInfo StateMachineBehaviour_OnStateMachineExit_m10002_MethodIn
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1907/* token */
+	, 1914/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17562,36 +17562,36 @@ extern const MethodInfo StateMachineBehaviour_OnStateMachineExit_m10002_MethodIn
 };
 static const MethodInfo* StateMachineBehaviour_t2876_MethodInfos[] =
 {
-	&StateMachineBehaviour__ctor_m9995_MethodInfo,
-	&StateMachineBehaviour_OnStateEnter_m9996_MethodInfo,
-	&StateMachineBehaviour_OnStateUpdate_m9997_MethodInfo,
-	&StateMachineBehaviour_OnStateExit_m9998_MethodInfo,
-	&StateMachineBehaviour_OnStateMove_m9999_MethodInfo,
-	&StateMachineBehaviour_OnStateIK_m10000_MethodInfo,
-	&StateMachineBehaviour_OnStateMachineEnter_m10001_MethodInfo,
-	&StateMachineBehaviour_OnStateMachineExit_m10002_MethodInfo,
+	&StateMachineBehaviour__ctor_m9996_MethodInfo,
+	&StateMachineBehaviour_OnStateEnter_m9997_MethodInfo,
+	&StateMachineBehaviour_OnStateUpdate_m9998_MethodInfo,
+	&StateMachineBehaviour_OnStateExit_m9999_MethodInfo,
+	&StateMachineBehaviour_OnStateMove_m10000_MethodInfo,
+	&StateMachineBehaviour_OnStateIK_m10001_MethodInfo,
+	&StateMachineBehaviour_OnStateMachineEnter_m10002_MethodInfo,
+	&StateMachineBehaviour_OnStateMachineExit_m10003_MethodInfo,
 	NULL
 };
-extern const MethodInfo StateMachineBehaviour_OnStateEnter_m9996_MethodInfo;
-extern const MethodInfo StateMachineBehaviour_OnStateUpdate_m9997_MethodInfo;
-extern const MethodInfo StateMachineBehaviour_OnStateExit_m9998_MethodInfo;
-extern const MethodInfo StateMachineBehaviour_OnStateMove_m9999_MethodInfo;
-extern const MethodInfo StateMachineBehaviour_OnStateIK_m10000_MethodInfo;
-extern const MethodInfo StateMachineBehaviour_OnStateMachineEnter_m10001_MethodInfo;
-extern const MethodInfo StateMachineBehaviour_OnStateMachineExit_m10002_MethodInfo;
+extern const MethodInfo StateMachineBehaviour_OnStateEnter_m9997_MethodInfo;
+extern const MethodInfo StateMachineBehaviour_OnStateUpdate_m9998_MethodInfo;
+extern const MethodInfo StateMachineBehaviour_OnStateExit_m9999_MethodInfo;
+extern const MethodInfo StateMachineBehaviour_OnStateMove_m10000_MethodInfo;
+extern const MethodInfo StateMachineBehaviour_OnStateIK_m10001_MethodInfo;
+extern const MethodInfo StateMachineBehaviour_OnStateMachineEnter_m10002_MethodInfo;
+extern const MethodInfo StateMachineBehaviour_OnStateMachineExit_m10003_MethodInfo;
 static const Il2CppMethodReference StateMachineBehaviour_t2876_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m524_MethodInfo,
 	&Object_ToString_m525_MethodInfo,
-	&StateMachineBehaviour_OnStateEnter_m9996_MethodInfo,
-	&StateMachineBehaviour_OnStateUpdate_m9997_MethodInfo,
-	&StateMachineBehaviour_OnStateExit_m9998_MethodInfo,
-	&StateMachineBehaviour_OnStateMove_m9999_MethodInfo,
-	&StateMachineBehaviour_OnStateIK_m10000_MethodInfo,
-	&StateMachineBehaviour_OnStateMachineEnter_m10001_MethodInfo,
-	&StateMachineBehaviour_OnStateMachineExit_m10002_MethodInfo,
+	&StateMachineBehaviour_OnStateEnter_m9997_MethodInfo,
+	&StateMachineBehaviour_OnStateUpdate_m9998_MethodInfo,
+	&StateMachineBehaviour_OnStateExit_m9999_MethodInfo,
+	&StateMachineBehaviour_OnStateMove_m10000_MethodInfo,
+	&StateMachineBehaviour_OnStateIK_m10001_MethodInfo,
+	&StateMachineBehaviour_OnStateMachineEnter_m10002_MethodInfo,
+	&StateMachineBehaviour_OnStateMachineExit_m10003_MethodInfo,
 };
 static bool StateMachineBehaviour_t2876_VTableIsGenericMethod[] =
 {
@@ -17687,10 +17687,10 @@ extern TypeInfo SystemClock_t2877_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_SystemClockMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.SystemClock::.cctor()
-extern const MethodInfo SystemClock__cctor_m10003_MethodInfo = 
+extern const MethodInfo SystemClock__cctor_m10004_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&SystemClock__cctor_m10003/* method */
+	, (methodPointerType)&SystemClock__cctor_m10004/* method */
 	, &SystemClock_t2877_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17702,7 +17702,7 @@ extern const MethodInfo SystemClock__cctor_m10003_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1908/* token */
+	, 1915/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17710,10 +17710,10 @@ extern const MethodInfo SystemClock__cctor_m10003_MethodInfo =
 };
 extern void* RuntimeInvoker_DateTime_t287 (const MethodInfo* method, void* obj, void** args);
 // System.DateTime UnityEngine.SystemClock::get_now()
-extern const MethodInfo SystemClock_get_now_m10004_MethodInfo = 
+extern const MethodInfo SystemClock_get_now_m10005_MethodInfo = 
 {
 	"get_now"/* name */
-	, (methodPointerType)&SystemClock_get_now_m10004/* method */
+	, (methodPointerType)&SystemClock_get_now_m10005/* method */
 	, &SystemClock_t2877_il2cpp_TypeInfo/* declaring_type */
 	, &DateTime_t287_0_0_0/* return_type */
 	, RuntimeInvoker_DateTime_t287/* invoker_method */
@@ -17725,7 +17725,7 @@ extern const MethodInfo SystemClock_get_now_m10004_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1909/* token */
+	, 1916/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -17733,16 +17733,16 @@ extern const MethodInfo SystemClock_get_now_m10004_MethodInfo =
 };
 static const MethodInfo* SystemClock_t2877_MethodInfos[] =
 {
-	&SystemClock__cctor_m10003_MethodInfo,
-	&SystemClock_get_now_m10004_MethodInfo,
+	&SystemClock__cctor_m10004_MethodInfo,
+	&SystemClock_get_now_m10005_MethodInfo,
 	NULL
 };
-extern const MethodInfo SystemClock_get_now_m10004_MethodInfo;
+extern const MethodInfo SystemClock_get_now_m10005_MethodInfo;
 static const PropertyInfo SystemClock_t2877____now_PropertyInfo = 
 {
 	&SystemClock_t2877_il2cpp_TypeInfo/* parent */
 	, "now"/* name */
-	, &SystemClock_get_now_m10004_MethodInfo/* get */
+	, &SystemClock_get_now_m10005_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -18126,182 +18126,16 @@ TypeInfo TextEditOp_t2879_il2cpp_TypeInfo =
 #include "UnityEngine_UnityEngine_TextEditorMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.TextEditor::.ctor()
-extern const MethodInfo TextEditor__ctor_m6016_MethodInfo = 
+extern const MethodInfo TextEditor__ctor_m6014_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TextEditor__ctor_m6016/* method */
+	, (methodPointerType)&TextEditor__ctor_m6014/* method */
 	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1910/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.TextEditor::ClearCursorPos()
-extern const MethodInfo TextEditor_ClearCursorPos_m10005_MethodInfo = 
-{
-	"ClearCursorPos"/* name */
-	, (methodPointerType)&TextEditor_ClearCursorPos_m10005/* method */
-	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1911/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.TextEditor::OnFocus()
-extern const MethodInfo TextEditor_OnFocus_m6019_MethodInfo = 
-{
-	"OnFocus"/* name */
-	, (methodPointerType)&TextEditor_OnFocus_m6019/* method */
-	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1912/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.TextEditor::OnLostFocus()
-extern const MethodInfo TextEditor_OnLostFocus_m10006_MethodInfo = 
-{
-	"OnLostFocus"/* name */
-	, (methodPointerType)&TextEditor_OnLostFocus_m10006/* method */
-	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1913/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.TextEditor::SelectAll()
-extern const MethodInfo TextEditor_SelectAll_m10007_MethodInfo = 
-{
-	"SelectAll"/* name */
-	, (methodPointerType)&TextEditor_SelectAll_m10007/* method */
-	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1914/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
-// System.Boolean UnityEngine.TextEditor::DeleteSelection()
-extern const MethodInfo TextEditor_DeleteSelection_m10008_MethodInfo = 
-{
-	"DeleteSelection"/* name */
-	, (methodPointerType)&TextEditor_DeleteSelection_m10008/* method */
-	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t59_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t59/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1915/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TextEditor_t1074_TextEditor_ReplaceSelection_m10009_ParameterInfos[] = 
-{
-	{"replace", 0, 134219846, 0, &String_t_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.TextEditor::ReplaceSelection(System.String)
-extern const MethodInfo TextEditor_ReplaceSelection_m10009_MethodInfo = 
-{
-	"ReplaceSelection"/* name */
-	, (methodPointerType)&TextEditor_ReplaceSelection_m10009/* method */
-	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, TextEditor_t1074_TextEditor_ReplaceSelection_m10009_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1916/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.TextEditor::UpdateScrollOffsetIfNeeded()
-extern const MethodInfo TextEditor_UpdateScrollOffsetIfNeeded_m10010_MethodInfo = 
-{
-	"UpdateScrollOffsetIfNeeded"/* name */
-	, (methodPointerType)&TextEditor_UpdateScrollOffsetIfNeeded_m10010/* method */
-	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
 	, 0/* iflags */
 	, 255/* slot */
 	, 0/* parameters_count */
@@ -18314,11 +18148,11 @@ extern const MethodInfo TextEditor_UpdateScrollOffsetIfNeeded_m10010_MethodInfo 
 
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.TextEditor::UpdateScrollOffset()
-extern const MethodInfo TextEditor_UpdateScrollOffset_m10011_MethodInfo = 
+// System.Void UnityEngine.TextEditor::ClearCursorPos()
+extern const MethodInfo TextEditor_ClearCursorPos_m10006_MethodInfo = 
 {
-	"UpdateScrollOffset"/* name */
-	, (methodPointerType)&TextEditor_UpdateScrollOffset_m10011/* method */
+	"ClearCursorPos"/* name */
+	, (methodPointerType)&TextEditor_ClearCursorPos_m10006/* method */
 	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -18337,11 +18171,11 @@ extern const MethodInfo TextEditor_UpdateScrollOffset_m10011_MethodInfo =
 
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.TextEditor::SaveBackup()
-extern const MethodInfo TextEditor_SaveBackup_m10012_MethodInfo = 
+// System.Void UnityEngine.TextEditor::OnFocus()
+extern const MethodInfo TextEditor_OnFocus_m6017_MethodInfo = 
 {
-	"SaveBackup"/* name */
-	, (methodPointerType)&TextEditor_SaveBackup_m10012/* method */
+	"OnFocus"/* name */
+	, (methodPointerType)&TextEditor_OnFocus_m6017/* method */
 	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -18360,11 +18194,11 @@ extern const MethodInfo TextEditor_SaveBackup_m10012_MethodInfo =
 
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.TextEditor::Copy()
-extern const MethodInfo TextEditor_Copy_m6020_MethodInfo = 
+// System.Void UnityEngine.TextEditor::OnLostFocus()
+extern const MethodInfo TextEditor_OnLostFocus_m10007_MethodInfo = 
 {
-	"Copy"/* name */
-	, (methodPointerType)&TextEditor_Copy_m6020/* method */
+	"OnLostFocus"/* name */
+	, (methodPointerType)&TextEditor_OnLostFocus_m10007/* method */
 	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -18382,26 +18216,21 @@ extern const MethodInfo TextEditor_Copy_m6020_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TextEditor_t1074_TextEditor_ReplaceNewlinesWithSpaces_m10013_ParameterInfos[] = 
+extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.TextEditor::SelectAll()
+extern const MethodInfo TextEditor_SelectAll_m10008_MethodInfo = 
 {
-	{"value", 0, 134219847, 0, &String_t_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.String UnityEngine.TextEditor::ReplaceNewlinesWithSpaces(System.String)
-extern const MethodInfo TextEditor_ReplaceNewlinesWithSpaces_m10013_MethodInfo = 
-{
-	"ReplaceNewlinesWithSpaces"/* name */
-	, (methodPointerType)&TextEditor_ReplaceNewlinesWithSpaces_m10013/* method */
+	"SelectAll"/* name */
+	, (methodPointerType)&TextEditor_SelectAll_m10008/* method */
 	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
-	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, TextEditor_t1074_TextEditor_ReplaceNewlinesWithSpaces_m10013_ParameterInfos/* parameters */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85/* invoker_method */
+	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
-	, 145/* flags */
+	, 134/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 1/* parameters_count */
+	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
 	, 1921/* token */
@@ -18411,11 +18240,11 @@ extern const MethodInfo TextEditor_ReplaceNewlinesWithSpaces_m10013_MethodInfo =
 
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
-// System.Boolean UnityEngine.TextEditor::Paste()
-extern const MethodInfo TextEditor_Paste_m6017_MethodInfo = 
+// System.Boolean UnityEngine.TextEditor::DeleteSelection()
+extern const MethodInfo TextEditor_DeleteSelection_m10009_MethodInfo = 
 {
-	"Paste"/* name */
-	, (methodPointerType)&TextEditor_Paste_m6017/* method */
+	"DeleteSelection"/* name */
+	, (methodPointerType)&TextEditor_DeleteSelection_m10009/* method */
 	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -18433,12 +18262,40 @@ extern const MethodInfo TextEditor_Paste_m6017_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.TextEditor::ClampPos()
-extern const MethodInfo TextEditor_ClampPos_m10014_MethodInfo = 
+extern const Il2CppType String_t_0_0_0;
+static const ParameterInfo TextEditor_t1074_TextEditor_ReplaceSelection_m10010_ParameterInfos[] = 
 {
-	"ClampPos"/* name */
-	, (methodPointerType)&TextEditor_ClampPos_m10014/* method */
+	{"replace", 0, 134219858, 0, &String_t_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.TextEditor::ReplaceSelection(System.String)
+extern const MethodInfo TextEditor_ReplaceSelection_m10010_MethodInfo = 
+{
+	"ReplaceSelection"/* name */
+	, (methodPointerType)&TextEditor_ReplaceSelection_m10010/* method */
+	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
+	, TextEditor_t1074_TextEditor_ReplaceSelection_m10010_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1923/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.TextEditor::UpdateScrollOffsetIfNeeded()
+extern const MethodInfo TextEditor_UpdateScrollOffsetIfNeeded_m10011_MethodInfo = 
+{
+	"UpdateScrollOffsetIfNeeded"/* name */
+	, (methodPointerType)&TextEditor_UpdateScrollOffsetIfNeeded_m10011/* method */
 	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -18450,7 +18307,150 @@ extern const MethodInfo TextEditor_ClampPos_m10014_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1923/* token */
+	, 1924/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.TextEditor::UpdateScrollOffset()
+extern const MethodInfo TextEditor_UpdateScrollOffset_m10012_MethodInfo = 
+{
+	"UpdateScrollOffset"/* name */
+	, (methodPointerType)&TextEditor_UpdateScrollOffset_m10012/* method */
+	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1925/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.TextEditor::SaveBackup()
+extern const MethodInfo TextEditor_SaveBackup_m10013_MethodInfo = 
+{
+	"SaveBackup"/* name */
+	, (methodPointerType)&TextEditor_SaveBackup_m10013/* method */
+	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1926/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.TextEditor::Copy()
+extern const MethodInfo TextEditor_Copy_m6018_MethodInfo = 
+{
+	"Copy"/* name */
+	, (methodPointerType)&TextEditor_Copy_m6018/* method */
+	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1927/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType String_t_0_0_0;
+static const ParameterInfo TextEditor_t1074_TextEditor_ReplaceNewlinesWithSpaces_m10014_ParameterInfos[] = 
+{
+	{"value", 0, 134219859, 0, &String_t_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.String UnityEngine.TextEditor::ReplaceNewlinesWithSpaces(System.String)
+extern const MethodInfo TextEditor_ReplaceNewlinesWithSpaces_m10014_MethodInfo = 
+{
+	"ReplaceNewlinesWithSpaces"/* name */
+	, (methodPointerType)&TextEditor_ReplaceNewlinesWithSpaces_m10014/* method */
+	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
+	, &String_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, TextEditor_t1074_TextEditor_ReplaceNewlinesWithSpaces_m10014_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 145/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1928/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
+// System.Boolean UnityEngine.TextEditor::Paste()
+extern const MethodInfo TextEditor_Paste_m6015_MethodInfo = 
+{
+	"Paste"/* name */
+	, (methodPointerType)&TextEditor_Paste_m6015/* method */
+	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t59_0_0_0/* return_type */
+	, RuntimeInvoker_Boolean_t59/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1929/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.TextEditor::ClampPos()
+extern const MethodInfo TextEditor_ClampPos_m10015_MethodInfo = 
+{
+	"ClampPos"/* name */
+	, (methodPointerType)&TextEditor_ClampPos_m10015/* method */
+	, &TextEditor_t1074_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1930/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -18458,20 +18458,20 @@ extern const MethodInfo TextEditor_ClampPos_m10014_MethodInfo =
 };
 static const MethodInfo* TextEditor_t1074_MethodInfos[] =
 {
-	&TextEditor__ctor_m6016_MethodInfo,
-	&TextEditor_ClearCursorPos_m10005_MethodInfo,
-	&TextEditor_OnFocus_m6019_MethodInfo,
-	&TextEditor_OnLostFocus_m10006_MethodInfo,
-	&TextEditor_SelectAll_m10007_MethodInfo,
-	&TextEditor_DeleteSelection_m10008_MethodInfo,
-	&TextEditor_ReplaceSelection_m10009_MethodInfo,
-	&TextEditor_UpdateScrollOffsetIfNeeded_m10010_MethodInfo,
-	&TextEditor_UpdateScrollOffset_m10011_MethodInfo,
-	&TextEditor_SaveBackup_m10012_MethodInfo,
-	&TextEditor_Copy_m6020_MethodInfo,
-	&TextEditor_ReplaceNewlinesWithSpaces_m10013_MethodInfo,
-	&TextEditor_Paste_m6017_MethodInfo,
-	&TextEditor_ClampPos_m10014_MethodInfo,
+	&TextEditor__ctor_m6014_MethodInfo,
+	&TextEditor_ClearCursorPos_m10006_MethodInfo,
+	&TextEditor_OnFocus_m6017_MethodInfo,
+	&TextEditor_OnLostFocus_m10007_MethodInfo,
+	&TextEditor_SelectAll_m10008_MethodInfo,
+	&TextEditor_DeleteSelection_m10009_MethodInfo,
+	&TextEditor_ReplaceSelection_m10010_MethodInfo,
+	&TextEditor_UpdateScrollOffsetIfNeeded_m10011_MethodInfo,
+	&TextEditor_UpdateScrollOffset_m10012_MethodInfo,
+	&TextEditor_SaveBackup_m10013_MethodInfo,
+	&TextEditor_Copy_m6018_MethodInfo,
+	&TextEditor_ReplaceNewlinesWithSpaces_m10014_MethodInfo,
+	&TextEditor_Paste_m6015_MethodInfo,
+	&TextEditor_ClampPos_m10015_MethodInfo,
 	NULL
 };
 static const Il2CppType* TextEditor_t1074_il2cpp_TypeInfo__nestedTypes[2] =
@@ -18572,21 +18572,21 @@ extern TypeInfo TextGenerationSettings_t1045_il2cpp_TypeInfo;
 extern const Il2CppType Color_t325_0_0_0;
 extern const Il2CppType Color_t325_0_0_0;
 extern const Il2CppType Color_t325_0_0_0;
-static const ParameterInfo TextGenerationSettings_t1045_TextGenerationSettings_CompareColors_m10015_ParameterInfos[] = 
+static const ParameterInfo TextGenerationSettings_t1045_TextGenerationSettings_CompareColors_m10016_ParameterInfos[] = 
 {
-	{"left", 0, 134219848, 0, &Color_t325_0_0_0},
-	{"right", 1, 134219849, 0, &Color_t325_0_0_0},
+	{"left", 0, 134219860, 0, &Color_t325_0_0_0},
+	{"right", 1, 134219861, 0, &Color_t325_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Color_t325_Color_t325 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.TextGenerationSettings::CompareColors(UnityEngine.Color,UnityEngine.Color)
-extern const MethodInfo TextGenerationSettings_CompareColors_m10015_MethodInfo = 
+extern const MethodInfo TextGenerationSettings_CompareColors_m10016_MethodInfo = 
 {
 	"CompareColors"/* name */
-	, (methodPointerType)&TextGenerationSettings_CompareColors_m10015/* method */
+	, (methodPointerType)&TextGenerationSettings_CompareColors_m10016/* method */
 	, &TextGenerationSettings_t1045_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Color_t325_Color_t325/* invoker_method */
-	, TextGenerationSettings_t1045_TextGenerationSettings_CompareColors_m10015_ParameterInfos/* parameters */
+	, TextGenerationSettings_t1045_TextGenerationSettings_CompareColors_m10016_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -18594,7 +18594,7 @@ extern const MethodInfo TextGenerationSettings_CompareColors_m10015_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1924/* token */
+	, 1931/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -18603,21 +18603,21 @@ extern const MethodInfo TextGenerationSettings_CompareColors_m10015_MethodInfo =
 extern const Il2CppType Vector2_t110_0_0_0;
 extern const Il2CppType Vector2_t110_0_0_0;
 extern const Il2CppType Vector2_t110_0_0_0;
-static const ParameterInfo TextGenerationSettings_t1045_TextGenerationSettings_CompareVector2_m10016_ParameterInfos[] = 
+static const ParameterInfo TextGenerationSettings_t1045_TextGenerationSettings_CompareVector2_m10017_ParameterInfos[] = 
 {
-	{"left", 0, 134219850, 0, &Vector2_t110_0_0_0},
-	{"right", 1, 134219851, 0, &Vector2_t110_0_0_0},
+	{"left", 0, 134219862, 0, &Vector2_t110_0_0_0},
+	{"right", 1, 134219863, 0, &Vector2_t110_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Vector2_t110_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.TextGenerationSettings::CompareVector2(UnityEngine.Vector2,UnityEngine.Vector2)
-extern const MethodInfo TextGenerationSettings_CompareVector2_m10016_MethodInfo = 
+extern const MethodInfo TextGenerationSettings_CompareVector2_m10017_MethodInfo = 
 {
 	"CompareVector2"/* name */
-	, (methodPointerType)&TextGenerationSettings_CompareVector2_m10016/* method */
+	, (methodPointerType)&TextGenerationSettings_CompareVector2_m10017/* method */
 	, &TextGenerationSettings_t1045_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Vector2_t110_Vector2_t110/* invoker_method */
-	, TextGenerationSettings_t1045_TextGenerationSettings_CompareVector2_m10016_ParameterInfos/* parameters */
+	, TextGenerationSettings_t1045_TextGenerationSettings_CompareVector2_m10017_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -18625,7 +18625,7 @@ extern const MethodInfo TextGenerationSettings_CompareVector2_m10016_MethodInfo 
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1925/* token */
+	, 1932/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -18633,20 +18633,20 @@ extern const MethodInfo TextGenerationSettings_CompareVector2_m10016_MethodInfo 
 };
 extern const Il2CppType TextGenerationSettings_t1045_0_0_0;
 extern const Il2CppType TextGenerationSettings_t1045_0_0_0;
-static const ParameterInfo TextGenerationSettings_t1045_TextGenerationSettings_Equals_m10017_ParameterInfos[] = 
+static const ParameterInfo TextGenerationSettings_t1045_TextGenerationSettings_Equals_m10018_ParameterInfos[] = 
 {
-	{"other", 0, 134219852, 0, &TextGenerationSettings_t1045_0_0_0},
+	{"other", 0, 134219864, 0, &TextGenerationSettings_t1045_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_TextGenerationSettings_t1045 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.TextGenerationSettings::Equals(UnityEngine.TextGenerationSettings)
-extern const MethodInfo TextGenerationSettings_Equals_m10017_MethodInfo = 
+extern const MethodInfo TextGenerationSettings_Equals_m10018_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&TextGenerationSettings_Equals_m10017/* method */
+	, (methodPointerType)&TextGenerationSettings_Equals_m10018/* method */
 	, &TextGenerationSettings_t1045_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_TextGenerationSettings_t1045/* invoker_method */
-	, TextGenerationSettings_t1045_TextGenerationSettings_Equals_m10017_ParameterInfos/* parameters */
+	, TextGenerationSettings_t1045_TextGenerationSettings_Equals_m10018_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -18654,7 +18654,7 @@ extern const MethodInfo TextGenerationSettings_Equals_m10017_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1926/* token */
+	, 1933/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -18662,17 +18662,17 @@ extern const MethodInfo TextGenerationSettings_Equals_m10017_MethodInfo =
 };
 static const MethodInfo* TextGenerationSettings_t1045_MethodInfos[] =
 {
-	&TextGenerationSettings_CompareColors_m10015_MethodInfo,
-	&TextGenerationSettings_CompareVector2_m10016_MethodInfo,
-	&TextGenerationSettings_Equals_m10017_MethodInfo,
+	&TextGenerationSettings_CompareColors_m10016_MethodInfo,
+	&TextGenerationSettings_CompareVector2_m10017_MethodInfo,
+	&TextGenerationSettings_Equals_m10018_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference TextGenerationSettings_t1045_VTable[] =
 {
-	&ValueType_Equals_m4569_MethodInfo,
+	&ValueType_Equals_m4567_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4570_MethodInfo,
-	&ValueType_ToString_m4571_MethodInfo,
+	&ValueType_GetHashCode_m4568_MethodInfo,
+	&ValueType_ToString_m4569_MethodInfo,
 };
 static bool TextGenerationSettings_t1045_VTableIsGenericMethod[] =
 {
@@ -18757,20 +18757,20 @@ extern TypeInfo TrackedReference_t2782_il2cpp_TypeInfo;
 // UnityEngine.TrackedReference
 #include "UnityEngine_UnityEngine_TrackedReferenceMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo TrackedReference_t2782_TrackedReference_Equals_m10018_ParameterInfos[] = 
+static const ParameterInfo TrackedReference_t2782_TrackedReference_Equals_m10019_ParameterInfos[] = 
 {
-	{"o", 0, 134219853, 0, &Object_t_0_0_0},
+	{"o", 0, 134219865, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.TrackedReference::Equals(System.Object)
-extern const MethodInfo TrackedReference_Equals_m10018_MethodInfo = 
+extern const MethodInfo TrackedReference_Equals_m10019_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&TrackedReference_Equals_m10018/* method */
+	, (methodPointerType)&TrackedReference_Equals_m10019/* method */
 	, &TrackedReference_t2782_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, TrackedReference_t2782_TrackedReference_Equals_m10018_ParameterInfos/* parameters */
+	, TrackedReference_t2782_TrackedReference_Equals_m10019_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18778,7 +18778,7 @@ extern const MethodInfo TrackedReference_Equals_m10018_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1927/* token */
+	, 1934/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -18786,10 +18786,10 @@ extern const MethodInfo TrackedReference_Equals_m10018_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.TrackedReference::GetHashCode()
-extern const MethodInfo TrackedReference_GetHashCode_m10019_MethodInfo = 
+extern const MethodInfo TrackedReference_GetHashCode_m10020_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&TrackedReference_GetHashCode_m10019/* method */
+	, (methodPointerType)&TrackedReference_GetHashCode_m10020/* method */
 	, &TrackedReference_t2782_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -18801,7 +18801,7 @@ extern const MethodInfo TrackedReference_GetHashCode_m10019_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1928/* token */
+	, 1935/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -18810,21 +18810,21 @@ extern const MethodInfo TrackedReference_GetHashCode_m10019_MethodInfo =
 extern const Il2CppType TrackedReference_t2782_0_0_0;
 extern const Il2CppType TrackedReference_t2782_0_0_0;
 extern const Il2CppType TrackedReference_t2782_0_0_0;
-static const ParameterInfo TrackedReference_t2782_TrackedReference_op_Equality_m10020_ParameterInfos[] = 
+static const ParameterInfo TrackedReference_t2782_TrackedReference_op_Equality_m10021_ParameterInfos[] = 
 {
-	{"x", 0, 134219854, 0, &TrackedReference_t2782_0_0_0},
-	{"y", 1, 134219855, 0, &TrackedReference_t2782_0_0_0},
+	{"x", 0, 134219866, 0, &TrackedReference_t2782_0_0_0},
+	{"y", 1, 134219867, 0, &TrackedReference_t2782_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.TrackedReference::op_Equality(UnityEngine.TrackedReference,UnityEngine.TrackedReference)
-extern const MethodInfo TrackedReference_op_Equality_m10020_MethodInfo = 
+extern const MethodInfo TrackedReference_op_Equality_m10021_MethodInfo = 
 {
 	"op_Equality"/* name */
-	, (methodPointerType)&TrackedReference_op_Equality_m10020/* method */
+	, (methodPointerType)&TrackedReference_op_Equality_m10021/* method */
 	, &TrackedReference_t2782_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, TrackedReference_t2782_TrackedReference_op_Equality_m10020_ParameterInfos/* parameters */
+	, TrackedReference_t2782_TrackedReference_op_Equality_m10021_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -18832,7 +18832,7 @@ extern const MethodInfo TrackedReference_op_Equality_m10020_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1929/* token */
+	, 1936/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -18840,18 +18840,18 @@ extern const MethodInfo TrackedReference_op_Equality_m10020_MethodInfo =
 };
 static const MethodInfo* TrackedReference_t2782_MethodInfos[] =
 {
-	&TrackedReference_Equals_m10018_MethodInfo,
-	&TrackedReference_GetHashCode_m10019_MethodInfo,
-	&TrackedReference_op_Equality_m10020_MethodInfo,
+	&TrackedReference_Equals_m10019_MethodInfo,
+	&TrackedReference_GetHashCode_m10020_MethodInfo,
+	&TrackedReference_op_Equality_m10021_MethodInfo,
 	NULL
 };
-extern const MethodInfo TrackedReference_Equals_m10018_MethodInfo;
-extern const MethodInfo TrackedReference_GetHashCode_m10019_MethodInfo;
+extern const MethodInfo TrackedReference_Equals_m10019_MethodInfo;
+extern const MethodInfo TrackedReference_GetHashCode_m10020_MethodInfo;
 static const Il2CppMethodReference TrackedReference_t2782_VTable[] =
 {
-	&TrackedReference_Equals_m10018_MethodInfo,
+	&TrackedReference_Equals_m10019_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&TrackedReference_GetHashCode_m10019_MethodInfo,
+	&TrackedReference_GetHashCode_m10020_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
 static bool TrackedReference_t2782_VTableIsGenericMethod[] =
@@ -19077,10 +19077,10 @@ extern TypeInfo ArgumentCache_t2882_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_Events_ArgumentCacheMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.ArgumentCache::.ctor()
-extern const MethodInfo ArgumentCache__ctor_m10021_MethodInfo = 
+extern const MethodInfo ArgumentCache__ctor_m10022_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgumentCache__ctor_m10021/* method */
+	, (methodPointerType)&ArgumentCache__ctor_m10022/* method */
 	, &ArgumentCache_t2882_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19092,7 +19092,7 @@ extern const MethodInfo ArgumentCache__ctor_m10021_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1930/* token */
+	, 1937/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19101,10 +19101,10 @@ extern const MethodInfo ArgumentCache__ctor_m10021_MethodInfo =
 extern const Il2CppType Object_t703_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Object UnityEngine.Events.ArgumentCache::get_unityObjectArgument()
-extern const MethodInfo ArgumentCache_get_unityObjectArgument_m10022_MethodInfo = 
+extern const MethodInfo ArgumentCache_get_unityObjectArgument_m10023_MethodInfo = 
 {
 	"get_unityObjectArgument"/* name */
-	, (methodPointerType)&ArgumentCache_get_unityObjectArgument_m10022/* method */
+	, (methodPointerType)&ArgumentCache_get_unityObjectArgument_m10023/* method */
 	, &ArgumentCache_t2882_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t703_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -19116,7 +19116,7 @@ extern const MethodInfo ArgumentCache_get_unityObjectArgument_m10022_MethodInfo 
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1931/* token */
+	, 1938/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19124,10 +19124,10 @@ extern const MethodInfo ArgumentCache_get_unityObjectArgument_m10022_MethodInfo 
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.Events.ArgumentCache::get_unityObjectArgumentAssemblyTypeName()
-extern const MethodInfo ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m10023_MethodInfo = 
+extern const MethodInfo ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m10024_MethodInfo = 
 {
 	"get_unityObjectArgumentAssemblyTypeName"/* name */
-	, (methodPointerType)&ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m10023/* method */
+	, (methodPointerType)&ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m10024/* method */
 	, &ArgumentCache_t2882_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -19139,7 +19139,7 @@ extern const MethodInfo ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m1
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1932/* token */
+	, 1939/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19147,10 +19147,10 @@ extern const MethodInfo ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m1
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.Events.ArgumentCache::get_intArgument()
-extern const MethodInfo ArgumentCache_get_intArgument_m10024_MethodInfo = 
+extern const MethodInfo ArgumentCache_get_intArgument_m10025_MethodInfo = 
 {
 	"get_intArgument"/* name */
-	, (methodPointerType)&ArgumentCache_get_intArgument_m10024/* method */
+	, (methodPointerType)&ArgumentCache_get_intArgument_m10025/* method */
 	, &ArgumentCache_t2882_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -19162,7 +19162,7 @@ extern const MethodInfo ArgumentCache_get_intArgument_m10024_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1933/* token */
+	, 1940/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19170,10 +19170,10 @@ extern const MethodInfo ArgumentCache_get_intArgument_m10024_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.Events.ArgumentCache::get_floatArgument()
-extern const MethodInfo ArgumentCache_get_floatArgument_m10025_MethodInfo = 
+extern const MethodInfo ArgumentCache_get_floatArgument_m10026_MethodInfo = 
 {
 	"get_floatArgument"/* name */
-	, (methodPointerType)&ArgumentCache_get_floatArgument_m10025/* method */
+	, (methodPointerType)&ArgumentCache_get_floatArgument_m10026/* method */
 	, &ArgumentCache_t2882_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -19185,7 +19185,7 @@ extern const MethodInfo ArgumentCache_get_floatArgument_m10025_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1934/* token */
+	, 1941/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19193,10 +19193,10 @@ extern const MethodInfo ArgumentCache_get_floatArgument_m10025_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.Events.ArgumentCache::get_stringArgument()
-extern const MethodInfo ArgumentCache_get_stringArgument_m10026_MethodInfo = 
+extern const MethodInfo ArgumentCache_get_stringArgument_m10027_MethodInfo = 
 {
 	"get_stringArgument"/* name */
-	, (methodPointerType)&ArgumentCache_get_stringArgument_m10026/* method */
+	, (methodPointerType)&ArgumentCache_get_stringArgument_m10027/* method */
 	, &ArgumentCache_t2882_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -19208,7 +19208,7 @@ extern const MethodInfo ArgumentCache_get_stringArgument_m10026_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1935/* token */
+	, 1942/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19216,10 +19216,10 @@ extern const MethodInfo ArgumentCache_get_stringArgument_m10026_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.Events.ArgumentCache::get_boolArgument()
-extern const MethodInfo ArgumentCache_get_boolArgument_m10027_MethodInfo = 
+extern const MethodInfo ArgumentCache_get_boolArgument_m10028_MethodInfo = 
 {
 	"get_boolArgument"/* name */
-	, (methodPointerType)&ArgumentCache_get_boolArgument_m10027/* method */
+	, (methodPointerType)&ArgumentCache_get_boolArgument_m10028/* method */
 	, &ArgumentCache_t2882_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -19231,7 +19231,7 @@ extern const MethodInfo ArgumentCache_get_boolArgument_m10027_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1936/* token */
+	, 1943/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19239,10 +19239,10 @@ extern const MethodInfo ArgumentCache_get_boolArgument_m10027_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.ArgumentCache::TidyAssemblyTypeName()
-extern const MethodInfo ArgumentCache_TidyAssemblyTypeName_m10028_MethodInfo = 
+extern const MethodInfo ArgumentCache_TidyAssemblyTypeName_m10029_MethodInfo = 
 {
 	"TidyAssemblyTypeName"/* name */
-	, (methodPointerType)&ArgumentCache_TidyAssemblyTypeName_m10028/* method */
+	, (methodPointerType)&ArgumentCache_TidyAssemblyTypeName_m10029/* method */
 	, &ArgumentCache_t2882_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19254,7 +19254,7 @@ extern const MethodInfo ArgumentCache_TidyAssemblyTypeName_m10028_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1937/* token */
+	, 1944/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19262,10 +19262,10 @@ extern const MethodInfo ArgumentCache_TidyAssemblyTypeName_m10028_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.ArgumentCache::OnBeforeSerialize()
-extern const MethodInfo ArgumentCache_OnBeforeSerialize_m10029_MethodInfo = 
+extern const MethodInfo ArgumentCache_OnBeforeSerialize_m10030_MethodInfo = 
 {
 	"OnBeforeSerialize"/* name */
-	, (methodPointerType)&ArgumentCache_OnBeforeSerialize_m10029/* method */
+	, (methodPointerType)&ArgumentCache_OnBeforeSerialize_m10030/* method */
 	, &ArgumentCache_t2882_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19277,7 +19277,7 @@ extern const MethodInfo ArgumentCache_OnBeforeSerialize_m10029_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1938/* token */
+	, 1945/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19285,10 +19285,10 @@ extern const MethodInfo ArgumentCache_OnBeforeSerialize_m10029_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.ArgumentCache::OnAfterDeserialize()
-extern const MethodInfo ArgumentCache_OnAfterDeserialize_m10030_MethodInfo = 
+extern const MethodInfo ArgumentCache_OnAfterDeserialize_m10031_MethodInfo = 
 {
 	"OnAfterDeserialize"/* name */
-	, (methodPointerType)&ArgumentCache_OnAfterDeserialize_m10030/* method */
+	, (methodPointerType)&ArgumentCache_OnAfterDeserialize_m10031/* method */
 	, &ArgumentCache_t2882_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19300,7 +19300,7 @@ extern const MethodInfo ArgumentCache_OnAfterDeserialize_m10030_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1939/* token */
+	, 1946/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19308,79 +19308,79 @@ extern const MethodInfo ArgumentCache_OnAfterDeserialize_m10030_MethodInfo =
 };
 static const MethodInfo* ArgumentCache_t2882_MethodInfos[] =
 {
-	&ArgumentCache__ctor_m10021_MethodInfo,
-	&ArgumentCache_get_unityObjectArgument_m10022_MethodInfo,
-	&ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m10023_MethodInfo,
-	&ArgumentCache_get_intArgument_m10024_MethodInfo,
-	&ArgumentCache_get_floatArgument_m10025_MethodInfo,
-	&ArgumentCache_get_stringArgument_m10026_MethodInfo,
-	&ArgumentCache_get_boolArgument_m10027_MethodInfo,
-	&ArgumentCache_TidyAssemblyTypeName_m10028_MethodInfo,
-	&ArgumentCache_OnBeforeSerialize_m10029_MethodInfo,
-	&ArgumentCache_OnAfterDeserialize_m10030_MethodInfo,
+	&ArgumentCache__ctor_m10022_MethodInfo,
+	&ArgumentCache_get_unityObjectArgument_m10023_MethodInfo,
+	&ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m10024_MethodInfo,
+	&ArgumentCache_get_intArgument_m10025_MethodInfo,
+	&ArgumentCache_get_floatArgument_m10026_MethodInfo,
+	&ArgumentCache_get_stringArgument_m10027_MethodInfo,
+	&ArgumentCache_get_boolArgument_m10028_MethodInfo,
+	&ArgumentCache_TidyAssemblyTypeName_m10029_MethodInfo,
+	&ArgumentCache_OnBeforeSerialize_m10030_MethodInfo,
+	&ArgumentCache_OnAfterDeserialize_m10031_MethodInfo,
 	NULL
 };
-extern const MethodInfo ArgumentCache_get_unityObjectArgument_m10022_MethodInfo;
+extern const MethodInfo ArgumentCache_get_unityObjectArgument_m10023_MethodInfo;
 static const PropertyInfo ArgumentCache_t2882____unityObjectArgument_PropertyInfo = 
 {
 	&ArgumentCache_t2882_il2cpp_TypeInfo/* parent */
 	, "unityObjectArgument"/* name */
-	, &ArgumentCache_get_unityObjectArgument_m10022_MethodInfo/* get */
+	, &ArgumentCache_get_unityObjectArgument_m10023_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m10023_MethodInfo;
+extern const MethodInfo ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m10024_MethodInfo;
 static const PropertyInfo ArgumentCache_t2882____unityObjectArgumentAssemblyTypeName_PropertyInfo = 
 {
 	&ArgumentCache_t2882_il2cpp_TypeInfo/* parent */
 	, "unityObjectArgumentAssemblyTypeName"/* name */
-	, &ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m10023_MethodInfo/* get */
+	, &ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m10024_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ArgumentCache_get_intArgument_m10024_MethodInfo;
+extern const MethodInfo ArgumentCache_get_intArgument_m10025_MethodInfo;
 static const PropertyInfo ArgumentCache_t2882____intArgument_PropertyInfo = 
 {
 	&ArgumentCache_t2882_il2cpp_TypeInfo/* parent */
 	, "intArgument"/* name */
-	, &ArgumentCache_get_intArgument_m10024_MethodInfo/* get */
+	, &ArgumentCache_get_intArgument_m10025_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ArgumentCache_get_floatArgument_m10025_MethodInfo;
+extern const MethodInfo ArgumentCache_get_floatArgument_m10026_MethodInfo;
 static const PropertyInfo ArgumentCache_t2882____floatArgument_PropertyInfo = 
 {
 	&ArgumentCache_t2882_il2cpp_TypeInfo/* parent */
 	, "floatArgument"/* name */
-	, &ArgumentCache_get_floatArgument_m10025_MethodInfo/* get */
+	, &ArgumentCache_get_floatArgument_m10026_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ArgumentCache_get_stringArgument_m10026_MethodInfo;
+extern const MethodInfo ArgumentCache_get_stringArgument_m10027_MethodInfo;
 static const PropertyInfo ArgumentCache_t2882____stringArgument_PropertyInfo = 
 {
 	&ArgumentCache_t2882_il2cpp_TypeInfo/* parent */
 	, "stringArgument"/* name */
-	, &ArgumentCache_get_stringArgument_m10026_MethodInfo/* get */
+	, &ArgumentCache_get_stringArgument_m10027_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ArgumentCache_get_boolArgument_m10027_MethodInfo;
+extern const MethodInfo ArgumentCache_get_boolArgument_m10028_MethodInfo;
 static const PropertyInfo ArgumentCache_t2882____boolArgument_PropertyInfo = 
 {
 	&ArgumentCache_t2882_il2cpp_TypeInfo/* parent */
 	, "boolArgument"/* name */
-	, &ArgumentCache_get_boolArgument_m10027_MethodInfo/* get */
+	, &ArgumentCache_get_boolArgument_m10028_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -19396,16 +19396,16 @@ static const PropertyInfo* ArgumentCache_t2882_PropertyInfos[] =
 	&ArgumentCache_t2882____boolArgument_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ArgumentCache_OnBeforeSerialize_m10029_MethodInfo;
-extern const MethodInfo ArgumentCache_OnAfterDeserialize_m10030_MethodInfo;
+extern const MethodInfo ArgumentCache_OnBeforeSerialize_m10030_MethodInfo;
+extern const MethodInfo ArgumentCache_OnAfterDeserialize_m10031_MethodInfo;
 static const Il2CppMethodReference ArgumentCache_t2882_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ArgumentCache_OnBeforeSerialize_m10029_MethodInfo,
-	&ArgumentCache_OnAfterDeserialize_m10030_MethodInfo,
+	&ArgumentCache_OnBeforeSerialize_m10030_MethodInfo,
+	&ArgumentCache_OnAfterDeserialize_m10031_MethodInfo,
 };
 static bool ArgumentCache_t2882_VTableIsGenericMethod[] =
 {
@@ -19504,10 +19504,10 @@ extern TypeInfo BaseInvokableCall_t2883_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_Events_BaseInvokableCallMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.BaseInvokableCall::.ctor()
-extern const MethodInfo BaseInvokableCall__ctor_m10031_MethodInfo = 
+extern const MethodInfo BaseInvokableCall__ctor_m10032_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&BaseInvokableCall__ctor_m10031/* method */
+	, (methodPointerType)&BaseInvokableCall__ctor_m10032/* method */
 	, &BaseInvokableCall_t2883_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19519,7 +19519,7 @@ extern const MethodInfo BaseInvokableCall__ctor_m10031_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1940/* token */
+	, 1947/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19527,21 +19527,21 @@ extern const MethodInfo BaseInvokableCall__ctor_m10031_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo BaseInvokableCall_t2883_BaseInvokableCall__ctor_m10032_ParameterInfos[] = 
+static const ParameterInfo BaseInvokableCall_t2883_BaseInvokableCall__ctor_m10033_ParameterInfos[] = 
 {
-	{"target", 0, 134219856, 0, &Object_t_0_0_0},
-	{"function", 1, 134219857, 0, &MethodInfo_t_0_0_0},
+	{"target", 0, 134219868, 0, &Object_t_0_0_0},
+	{"function", 1, 134219869, 0, &MethodInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.BaseInvokableCall::.ctor(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo BaseInvokableCall__ctor_m10032_MethodInfo = 
+extern const MethodInfo BaseInvokableCall__ctor_m10033_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&BaseInvokableCall__ctor_m10032/* method */
+	, (methodPointerType)&BaseInvokableCall__ctor_m10033/* method */
 	, &BaseInvokableCall_t2883_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, BaseInvokableCall_t2883_BaseInvokableCall__ctor_m10032_ParameterInfos/* parameters */
+	, BaseInvokableCall_t2883_BaseInvokableCall__ctor_m10033_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -19549,27 +19549,27 @@ extern const MethodInfo BaseInvokableCall__ctor_m10032_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1941/* token */
+	, 1948/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ObjectU5BU5D_t682_0_0_0;
-static const ParameterInfo BaseInvokableCall_t2883_BaseInvokableCall_Invoke_m10279_ParameterInfos[] = 
+static const ParameterInfo BaseInvokableCall_t2883_BaseInvokableCall_Invoke_m10280_ParameterInfos[] = 
 {
-	{"args", 0, 134219858, 0, &ObjectU5BU5D_t682_0_0_0},
+	{"args", 0, 134219870, 0, &ObjectU5BU5D_t682_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.BaseInvokableCall::Invoke(System.Object[])
-extern const MethodInfo BaseInvokableCall_Invoke_m10279_MethodInfo = 
+extern const MethodInfo BaseInvokableCall_Invoke_m10280_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
 	, &BaseInvokableCall_t2883_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, BaseInvokableCall_t2883_BaseInvokableCall_Invoke_m10279_ParameterInfos/* parameters */
+	, BaseInvokableCall_t2883_BaseInvokableCall_Invoke_m10280_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -19577,42 +19577,42 @@ extern const MethodInfo BaseInvokableCall_Invoke_m10279_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1942/* token */
+	, 1949/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo BaseInvokableCall_t2883_BaseInvokableCall_ThrowOnInvalidArg_m10280_ParameterInfos[] = 
+static const ParameterInfo BaseInvokableCall_t2883_BaseInvokableCall_ThrowOnInvalidArg_m10281_ParameterInfos[] = 
 {
-	{"arg", 0, 134219859, 0, &Object_t_0_0_0},
+	{"arg", 0, 134219871, 0, &Object_t_0_0_0},
 };
-extern const Il2CppGenericContainer BaseInvokableCall_ThrowOnInvalidArg_m10280_Il2CppGenericContainer;
-extern TypeInfo BaseInvokableCall_ThrowOnInvalidArg_m10280_gp_T_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter BaseInvokableCall_ThrowOnInvalidArg_m10280_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &BaseInvokableCall_ThrowOnInvalidArg_m10280_Il2CppGenericContainer, NULL, "T", 0, 0 };
-static const Il2CppGenericParameter* BaseInvokableCall_ThrowOnInvalidArg_m10280_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer BaseInvokableCall_ThrowOnInvalidArg_m10281_Il2CppGenericContainer;
+extern TypeInfo BaseInvokableCall_ThrowOnInvalidArg_m10281_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter BaseInvokableCall_ThrowOnInvalidArg_m10281_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &BaseInvokableCall_ThrowOnInvalidArg_m10281_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* BaseInvokableCall_ThrowOnInvalidArg_m10281_Il2CppGenericParametersArray[1] = 
 {
-	&BaseInvokableCall_ThrowOnInvalidArg_m10280_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&BaseInvokableCall_ThrowOnInvalidArg_m10281_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo BaseInvokableCall_ThrowOnInvalidArg_m10280_MethodInfo;
-extern const Il2CppGenericContainer BaseInvokableCall_ThrowOnInvalidArg_m10280_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&BaseInvokableCall_ThrowOnInvalidArg_m10280_MethodInfo, 1, 1, BaseInvokableCall_ThrowOnInvalidArg_m10280_Il2CppGenericParametersArray };
-extern const Il2CppType BaseInvokableCall_ThrowOnInvalidArg_m10280_gp_0_0_0_0;
-static Il2CppRGCTXDefinition BaseInvokableCall_ThrowOnInvalidArg_m10280_RGCTXData[3] = 
+extern const MethodInfo BaseInvokableCall_ThrowOnInvalidArg_m10281_MethodInfo;
+extern const Il2CppGenericContainer BaseInvokableCall_ThrowOnInvalidArg_m10281_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&BaseInvokableCall_ThrowOnInvalidArg_m10281_MethodInfo, 1, 1, BaseInvokableCall_ThrowOnInvalidArg_m10281_Il2CppGenericParametersArray };
+extern const Il2CppType BaseInvokableCall_ThrowOnInvalidArg_m10281_gp_0_0_0_0;
+static Il2CppRGCTXDefinition BaseInvokableCall_ThrowOnInvalidArg_m10281_RGCTXData[3] = 
 {
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&BaseInvokableCall_ThrowOnInvalidArg_m10280_gp_0_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&BaseInvokableCall_ThrowOnInvalidArg_m10280_gp_0_0_0_0 }/* Type */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&BaseInvokableCall_ThrowOnInvalidArg_m10281_gp_0_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&BaseInvokableCall_ThrowOnInvalidArg_m10281_gp_0_0_0_0 }/* Type */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Void UnityEngine.Events.BaseInvokableCall::ThrowOnInvalidArg(System.Object)
-extern const MethodInfo BaseInvokableCall_ThrowOnInvalidArg_m10280_MethodInfo = 
+extern const MethodInfo BaseInvokableCall_ThrowOnInvalidArg_m10281_MethodInfo = 
 {
 	"ThrowOnInvalidArg"/* name */
 	, NULL/* method */
 	, &BaseInvokableCall_t2883_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, BaseInvokableCall_t2883_BaseInvokableCall_ThrowOnInvalidArg_m10280_ParameterInfos/* parameters */
+	, BaseInvokableCall_t2883_BaseInvokableCall_ThrowOnInvalidArg_m10281_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 148/* flags */
 	, 0/* iflags */
@@ -19620,28 +19620,28 @@ extern const MethodInfo BaseInvokableCall_ThrowOnInvalidArg_m10280_MethodInfo =
 	, 1/* parameters_count */
 	, true/* is_generic */
 	, false/* is_inflated */
-	, 1943/* token */
-	, BaseInvokableCall_ThrowOnInvalidArg_m10280_RGCTXData/* rgctx_data */
+	, 1950/* token */
+	, BaseInvokableCall_ThrowOnInvalidArg_m10281_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &BaseInvokableCall_ThrowOnInvalidArg_m10280_Il2CppGenericContainer/* genericContainer */
+	, &BaseInvokableCall_ThrowOnInvalidArg_m10281_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType Delegate_t724_0_0_0;
 extern const Il2CppType Delegate_t724_0_0_0;
-static const ParameterInfo BaseInvokableCall_t2883_BaseInvokableCall_AllowInvoke_m10033_ParameterInfos[] = 
+static const ParameterInfo BaseInvokableCall_t2883_BaseInvokableCall_AllowInvoke_m10034_ParameterInfos[] = 
 {
-	{"delegate", 0, 134219860, 0, &Delegate_t724_0_0_0},
+	{"delegate", 0, 134219872, 0, &Delegate_t724_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.Events.BaseInvokableCall::AllowInvoke(System.Delegate)
-extern const MethodInfo BaseInvokableCall_AllowInvoke_m10033_MethodInfo = 
+extern const MethodInfo BaseInvokableCall_AllowInvoke_m10034_MethodInfo = 
 {
 	"AllowInvoke"/* name */
-	, (methodPointerType)&BaseInvokableCall_AllowInvoke_m10033/* method */
+	, (methodPointerType)&BaseInvokableCall_AllowInvoke_m10034/* method */
 	, &BaseInvokableCall_t2883_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, BaseInvokableCall_t2883_BaseInvokableCall_AllowInvoke_m10033_ParameterInfos/* parameters */
+	, BaseInvokableCall_t2883_BaseInvokableCall_AllowInvoke_m10034_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 148/* flags */
 	, 0/* iflags */
@@ -19649,7 +19649,7 @@ extern const MethodInfo BaseInvokableCall_AllowInvoke_m10033_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1944/* token */
+	, 1951/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19657,21 +19657,21 @@ extern const MethodInfo BaseInvokableCall_AllowInvoke_m10033_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo BaseInvokableCall_t2883_BaseInvokableCall_Find_m10281_ParameterInfos[] = 
+static const ParameterInfo BaseInvokableCall_t2883_BaseInvokableCall_Find_m10282_ParameterInfos[] = 
 {
-	{"targetObj", 0, 134219861, 0, &Object_t_0_0_0},
-	{"method", 1, 134219862, 0, &MethodInfo_t_0_0_0},
+	{"targetObj", 0, 134219873, 0, &Object_t_0_0_0},
+	{"method", 1, 134219874, 0, &MethodInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.Events.BaseInvokableCall::Find(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo BaseInvokableCall_Find_m10281_MethodInfo = 
+extern const MethodInfo BaseInvokableCall_Find_m10282_MethodInfo = 
 {
 	"Find"/* name */
 	, NULL/* method */
 	, &BaseInvokableCall_t2883_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, BaseInvokableCall_t2883_BaseInvokableCall_Find_m10281_ParameterInfos/* parameters */
+	, BaseInvokableCall_t2883_BaseInvokableCall_Find_m10282_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -19679,7 +19679,7 @@ extern const MethodInfo BaseInvokableCall_Find_m10281_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1945/* token */
+	, 1952/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19687,12 +19687,12 @@ extern const MethodInfo BaseInvokableCall_Find_m10281_MethodInfo =
 };
 static const MethodInfo* BaseInvokableCall_t2883_MethodInfos[] =
 {
-	&BaseInvokableCall__ctor_m10031_MethodInfo,
 	&BaseInvokableCall__ctor_m10032_MethodInfo,
-	&BaseInvokableCall_Invoke_m10279_MethodInfo,
-	&BaseInvokableCall_ThrowOnInvalidArg_m10280_MethodInfo,
-	&BaseInvokableCall_AllowInvoke_m10033_MethodInfo,
-	&BaseInvokableCall_Find_m10281_MethodInfo,
+	&BaseInvokableCall__ctor_m10033_MethodInfo,
+	&BaseInvokableCall_Invoke_m10280_MethodInfo,
+	&BaseInvokableCall_ThrowOnInvalidArg_m10281_MethodInfo,
+	&BaseInvokableCall_AllowInvoke_m10034_MethodInfo,
+	&BaseInvokableCall_Find_m10282_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference BaseInvokableCall_t2883_VTable[] =
@@ -19792,21 +19792,21 @@ extern TypeInfo InvokableCall_t2884_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_Events_InvokableCallMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo InvokableCall_t2884_InvokableCall__ctor_m10034_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_t2884_InvokableCall__ctor_m10035_ParameterInfos[] = 
 {
-	{"target", 0, 134219863, 0, &Object_t_0_0_0},
-	{"theFunction", 1, 134219864, 0, &MethodInfo_t_0_0_0},
+	{"target", 0, 134219875, 0, &Object_t_0_0_0},
+	{"theFunction", 1, 134219876, 0, &MethodInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.InvokableCall::.ctor(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo InvokableCall__ctor_m10034_MethodInfo = 
+extern const MethodInfo InvokableCall__ctor_m10035_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&InvokableCall__ctor_m10034/* method */
+	, (methodPointerType)&InvokableCall__ctor_m10035/* method */
 	, &InvokableCall_t2884_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, InvokableCall_t2884_InvokableCall__ctor_m10034_ParameterInfos/* parameters */
+	, InvokableCall_t2884_InvokableCall__ctor_m10035_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -19814,7 +19814,7 @@ extern const MethodInfo InvokableCall__ctor_m10034_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1946/* token */
+	, 1953/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19822,20 +19822,20 @@ extern const MethodInfo InvokableCall__ctor_m10034_MethodInfo =
 };
 extern const Il2CppType UnityAction_t550_0_0_0;
 extern const Il2CppType UnityAction_t550_0_0_0;
-static const ParameterInfo InvokableCall_t2884_InvokableCall__ctor_m10035_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_t2884_InvokableCall__ctor_m10036_ParameterInfos[] = 
 {
-	{"action", 0, 134219865, 0, &UnityAction_t550_0_0_0},
+	{"action", 0, 134219877, 0, &UnityAction_t550_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.InvokableCall::.ctor(UnityEngine.Events.UnityAction)
-extern const MethodInfo InvokableCall__ctor_m10035_MethodInfo = 
+extern const MethodInfo InvokableCall__ctor_m10036_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&InvokableCall__ctor_m10035/* method */
+	, (methodPointerType)&InvokableCall__ctor_m10036/* method */
 	, &InvokableCall_t2884_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, InvokableCall_t2884_InvokableCall__ctor_m10035_ParameterInfos/* parameters */
+	, InvokableCall_t2884_InvokableCall__ctor_m10036_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -19843,27 +19843,27 @@ extern const MethodInfo InvokableCall__ctor_m10035_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1947/* token */
+	, 1954/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ObjectU5BU5D_t682_0_0_0;
-static const ParameterInfo InvokableCall_t2884_InvokableCall_Invoke_m10036_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_t2884_InvokableCall_Invoke_m10037_ParameterInfos[] = 
 {
-	{"args", 0, 134219866, 0, &ObjectU5BU5D_t682_0_0_0},
+	{"args", 0, 134219878, 0, &ObjectU5BU5D_t682_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.InvokableCall::Invoke(System.Object[])
-extern const MethodInfo InvokableCall_Invoke_m10036_MethodInfo = 
+extern const MethodInfo InvokableCall_Invoke_m10037_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&InvokableCall_Invoke_m10036/* method */
+	, (methodPointerType)&InvokableCall_Invoke_m10037/* method */
 	, &InvokableCall_t2884_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, InvokableCall_t2884_InvokableCall_Invoke_m10036_ParameterInfos/* parameters */
+	, InvokableCall_t2884_InvokableCall_Invoke_m10037_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19871,7 +19871,7 @@ extern const MethodInfo InvokableCall_Invoke_m10036_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1948/* token */
+	, 1955/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19879,21 +19879,21 @@ extern const MethodInfo InvokableCall_Invoke_m10036_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo InvokableCall_t2884_InvokableCall_Find_m10037_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_t2884_InvokableCall_Find_m10038_ParameterInfos[] = 
 {
-	{"targetObj", 0, 134219867, 0, &Object_t_0_0_0},
-	{"method", 1, 134219868, 0, &MethodInfo_t_0_0_0},
+	{"targetObj", 0, 134219879, 0, &Object_t_0_0_0},
+	{"method", 1, 134219880, 0, &MethodInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.Events.InvokableCall::Find(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo InvokableCall_Find_m10037_MethodInfo = 
+extern const MethodInfo InvokableCall_Find_m10038_MethodInfo = 
 {
 	"Find"/* name */
-	, (methodPointerType)&InvokableCall_Find_m10037/* method */
+	, (methodPointerType)&InvokableCall_Find_m10038/* method */
 	, &InvokableCall_t2884_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, InvokableCall_t2884_InvokableCall_Find_m10037_ParameterInfos/* parameters */
+	, InvokableCall_t2884_InvokableCall_Find_m10038_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19901,7 +19901,7 @@ extern const MethodInfo InvokableCall_Find_m10037_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1949/* token */
+	, 1956/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19909,22 +19909,22 @@ extern const MethodInfo InvokableCall_Find_m10037_MethodInfo =
 };
 static const MethodInfo* InvokableCall_t2884_MethodInfos[] =
 {
-	&InvokableCall__ctor_m10034_MethodInfo,
 	&InvokableCall__ctor_m10035_MethodInfo,
-	&InvokableCall_Invoke_m10036_MethodInfo,
-	&InvokableCall_Find_m10037_MethodInfo,
+	&InvokableCall__ctor_m10036_MethodInfo,
+	&InvokableCall_Invoke_m10037_MethodInfo,
+	&InvokableCall_Find_m10038_MethodInfo,
 	NULL
 };
-extern const MethodInfo InvokableCall_Invoke_m10036_MethodInfo;
-extern const MethodInfo InvokableCall_Find_m10037_MethodInfo;
+extern const MethodInfo InvokableCall_Invoke_m10037_MethodInfo;
+extern const MethodInfo InvokableCall_Find_m10038_MethodInfo;
 static const Il2CppMethodReference InvokableCall_t2884_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&InvokableCall_Invoke_m10036_MethodInfo,
-	&InvokableCall_Find_m10037_MethodInfo,
+	&InvokableCall_Invoke_m10037_MethodInfo,
+	&InvokableCall_Find_m10038_MethodInfo,
 };
 static bool InvokableCall_t2884_VTableIsGenericMethod[] =
 {
@@ -20018,40 +20018,12 @@ static const Il2CppGenericParameter* InvokableCall_1_t2975_Il2CppGenericParamete
 extern const Il2CppGenericContainer InvokableCall_1_t2975_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&InvokableCall_1_t2975_il2cpp_TypeInfo, 1, 0, InvokableCall_1_t2975_Il2CppGenericParametersArray };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo InvokableCall_1_t2975_InvokableCall_1__ctor_m10282_ParameterInfos[] = 
-{
-	{"target", 0, 134219869, 0, &Object_t_0_0_0},
-	{"theFunction", 1, 134219870, 0, &MethodInfo_t_0_0_0},
-};
-// System.Void UnityEngine.Events.InvokableCall`1::.ctor(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo InvokableCall_1__ctor_m10282_MethodInfo = 
-{
-	".ctor"/* name */
-	, NULL/* method */
-	, &InvokableCall_1_t2975_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, NULL/* invoker_method */
-	, InvokableCall_1_t2975_InvokableCall_1__ctor_m10282_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1950/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType UnityAction_1_t3049_0_0_0;
-extern const Il2CppType UnityAction_1_t3049_0_0_0;
 static const ParameterInfo InvokableCall_1_t2975_InvokableCall_1__ctor_m10283_ParameterInfos[] = 
 {
-	{"callback", 0, 134219871, 0, &UnityAction_1_t3049_0_0_0},
+	{"target", 0, 134219881, 0, &Object_t_0_0_0},
+	{"theFunction", 1, 134219882, 0, &MethodInfo_t_0_0_0},
 };
-// System.Void UnityEngine.Events.InvokableCall`1::.ctor(UnityEngine.Events.UnityAction`1<T1>)
+// System.Void UnityEngine.Events.InvokableCall`1::.ctor(System.Object,System.Reflection.MethodInfo)
 extern const MethodInfo InvokableCall_1__ctor_m10283_MethodInfo = 
 {
 	".ctor"/* name */
@@ -20064,29 +20036,57 @@ extern const MethodInfo InvokableCall_1__ctor_m10283_MethodInfo =
 	, 6278/* flags */
 	, 0/* iflags */
 	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1957/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType UnityAction_1_t3049_0_0_0;
+extern const Il2CppType UnityAction_1_t3049_0_0_0;
+static const ParameterInfo InvokableCall_1_t2975_InvokableCall_1__ctor_m10284_ParameterInfos[] = 
+{
+	{"callback", 0, 134219883, 0, &UnityAction_1_t3049_0_0_0},
+};
+// System.Void UnityEngine.Events.InvokableCall`1::.ctor(UnityEngine.Events.UnityAction`1<T1>)
+extern const MethodInfo InvokableCall_1__ctor_m10284_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &InvokableCall_1_t2975_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, InvokableCall_1_t2975_InvokableCall_1__ctor_m10284_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1951/* token */
+	, 1958/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ObjectU5BU5D_t682_0_0_0;
-static const ParameterInfo InvokableCall_1_t2975_InvokableCall_1_Invoke_m10284_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_1_t2975_InvokableCall_1_Invoke_m10285_ParameterInfos[] = 
 {
-	{"args", 0, 134219872, 0, &ObjectU5BU5D_t682_0_0_0},
+	{"args", 0, 134219884, 0, &ObjectU5BU5D_t682_0_0_0},
 };
 // System.Void UnityEngine.Events.InvokableCall`1::Invoke(System.Object[])
-extern const MethodInfo InvokableCall_1_Invoke_m10284_MethodInfo = 
+extern const MethodInfo InvokableCall_1_Invoke_m10285_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
 	, &InvokableCall_1_t2975_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, InvokableCall_1_t2975_InvokableCall_1_Invoke_m10284_ParameterInfos/* parameters */
+	, InvokableCall_1_t2975_InvokableCall_1_Invoke_m10285_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20094,7 +20094,7 @@ extern const MethodInfo InvokableCall_1_Invoke_m10284_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1952/* token */
+	, 1959/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -20102,20 +20102,20 @@ extern const MethodInfo InvokableCall_1_Invoke_m10284_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo InvokableCall_1_t2975_InvokableCall_1_Find_m10285_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_1_t2975_InvokableCall_1_Find_m10286_ParameterInfos[] = 
 {
-	{"targetObj", 0, 134219873, 0, &Object_t_0_0_0},
-	{"method", 1, 134219874, 0, &MethodInfo_t_0_0_0},
+	{"targetObj", 0, 134219885, 0, &Object_t_0_0_0},
+	{"method", 1, 134219886, 0, &MethodInfo_t_0_0_0},
 };
 // System.Boolean UnityEngine.Events.InvokableCall`1::Find(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo InvokableCall_1_Find_m10285_MethodInfo = 
+extern const MethodInfo InvokableCall_1_Find_m10286_MethodInfo = 
 {
 	"Find"/* name */
 	, NULL/* method */
 	, &InvokableCall_1_t2975_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, InvokableCall_1_t2975_InvokableCall_1_Find_m10285_ParameterInfos/* parameters */
+	, InvokableCall_1_t2975_InvokableCall_1_Find_m10286_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20123,7 +20123,7 @@ extern const MethodInfo InvokableCall_1_Find_m10285_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1953/* token */
+	, 1960/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -20131,22 +20131,22 @@ extern const MethodInfo InvokableCall_1_Find_m10285_MethodInfo =
 };
 static const MethodInfo* InvokableCall_1_t2975_MethodInfos[] =
 {
-	&InvokableCall_1__ctor_m10282_MethodInfo,
 	&InvokableCall_1__ctor_m10283_MethodInfo,
-	&InvokableCall_1_Invoke_m10284_MethodInfo,
-	&InvokableCall_1_Find_m10285_MethodInfo,
+	&InvokableCall_1__ctor_m10284_MethodInfo,
+	&InvokableCall_1_Invoke_m10285_MethodInfo,
+	&InvokableCall_1_Find_m10286_MethodInfo,
 	NULL
 };
-extern const MethodInfo InvokableCall_1_Invoke_m10284_MethodInfo;
-extern const MethodInfo InvokableCall_1_Find_m10285_MethodInfo;
+extern const MethodInfo InvokableCall_1_Invoke_m10285_MethodInfo;
+extern const MethodInfo InvokableCall_1_Find_m10286_MethodInfo;
 static const Il2CppMethodReference InvokableCall_1_t2975_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&InvokableCall_1_Invoke_m10284_MethodInfo,
-	&InvokableCall_1_Find_m10285_MethodInfo,
+	&InvokableCall_1_Invoke_m10285_MethodInfo,
+	&InvokableCall_1_Find_m10286_MethodInfo,
 };
 static bool InvokableCall_1_t2975_VTableIsGenericMethod[] =
 {
@@ -20157,16 +20157,16 @@ static bool InvokableCall_1_t2975_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3048_m10379_GenericMethod;
+extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3048_m10380_GenericMethod;
 extern const Il2CppType InvokableCall_1_t2975_gp_0_0_0_0;
-extern const Il2CppGenericMethod UnityAction_1_Invoke_m10380_GenericMethod;
+extern const Il2CppGenericMethod UnityAction_1_Invoke_m10381_GenericMethod;
 static Il2CppRGCTXDefinition InvokableCall_1_t2975_RGCTXData[6] = 
 {
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&UnityAction_1_t3049_0_0_0 }/* Type */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&UnityAction_1_t3049_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3048_m10379_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3048_m10380_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_1_t2975_gp_0_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &UnityAction_1_Invoke_m10380_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &UnityAction_1_Invoke_m10381_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
@@ -20255,20 +20255,20 @@ static const Il2CppGenericParameter* InvokableCall_2_t2976_Il2CppGenericParamete
 extern const Il2CppGenericContainer InvokableCall_2_t2976_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&InvokableCall_2_t2976_il2cpp_TypeInfo, 2, 0, InvokableCall_2_t2976_Il2CppGenericParametersArray };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo InvokableCall_2_t2976_InvokableCall_2__ctor_m10286_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_2_t2976_InvokableCall_2__ctor_m10287_ParameterInfos[] = 
 {
-	{"target", 0, 134219875, 0, &Object_t_0_0_0},
-	{"theFunction", 1, 134219876, 0, &MethodInfo_t_0_0_0},
+	{"target", 0, 134219887, 0, &Object_t_0_0_0},
+	{"theFunction", 1, 134219888, 0, &MethodInfo_t_0_0_0},
 };
 // System.Void UnityEngine.Events.InvokableCall`2::.ctor(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo InvokableCall_2__ctor_m10286_MethodInfo = 
+extern const MethodInfo InvokableCall_2__ctor_m10287_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &InvokableCall_2_t2976_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, InvokableCall_2_t2976_InvokableCall_2__ctor_m10286_ParameterInfos/* parameters */
+	, InvokableCall_2_t2976_InvokableCall_2__ctor_m10287_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20276,26 +20276,26 @@ extern const MethodInfo InvokableCall_2__ctor_m10286_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1954/* token */
+	, 1961/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ObjectU5BU5D_t682_0_0_0;
-static const ParameterInfo InvokableCall_2_t2976_InvokableCall_2_Invoke_m10287_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_2_t2976_InvokableCall_2_Invoke_m10288_ParameterInfos[] = 
 {
-	{"args", 0, 134219877, 0, &ObjectU5BU5D_t682_0_0_0},
+	{"args", 0, 134219889, 0, &ObjectU5BU5D_t682_0_0_0},
 };
 // System.Void UnityEngine.Events.InvokableCall`2::Invoke(System.Object[])
-extern const MethodInfo InvokableCall_2_Invoke_m10287_MethodInfo = 
+extern const MethodInfo InvokableCall_2_Invoke_m10288_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
 	, &InvokableCall_2_t2976_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, InvokableCall_2_t2976_InvokableCall_2_Invoke_m10287_ParameterInfos/* parameters */
+	, InvokableCall_2_t2976_InvokableCall_2_Invoke_m10288_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20303,7 +20303,7 @@ extern const MethodInfo InvokableCall_2_Invoke_m10287_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1955/* token */
+	, 1962/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -20311,20 +20311,20 @@ extern const MethodInfo InvokableCall_2_Invoke_m10287_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo InvokableCall_2_t2976_InvokableCall_2_Find_m10288_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_2_t2976_InvokableCall_2_Find_m10289_ParameterInfos[] = 
 {
-	{"targetObj", 0, 134219878, 0, &Object_t_0_0_0},
-	{"method", 1, 134219879, 0, &MethodInfo_t_0_0_0},
+	{"targetObj", 0, 134219890, 0, &Object_t_0_0_0},
+	{"method", 1, 134219891, 0, &MethodInfo_t_0_0_0},
 };
 // System.Boolean UnityEngine.Events.InvokableCall`2::Find(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo InvokableCall_2_Find_m10288_MethodInfo = 
+extern const MethodInfo InvokableCall_2_Find_m10289_MethodInfo = 
 {
 	"Find"/* name */
 	, NULL/* method */
 	, &InvokableCall_2_t2976_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, InvokableCall_2_t2976_InvokableCall_2_Find_m10288_ParameterInfos/* parameters */
+	, InvokableCall_2_t2976_InvokableCall_2_Find_m10289_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20332,7 +20332,7 @@ extern const MethodInfo InvokableCall_2_Find_m10288_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1956/* token */
+	, 1963/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -20340,21 +20340,21 @@ extern const MethodInfo InvokableCall_2_Find_m10288_MethodInfo =
 };
 static const MethodInfo* InvokableCall_2_t2976_MethodInfos[] =
 {
-	&InvokableCall_2__ctor_m10286_MethodInfo,
-	&InvokableCall_2_Invoke_m10287_MethodInfo,
-	&InvokableCall_2_Find_m10288_MethodInfo,
+	&InvokableCall_2__ctor_m10287_MethodInfo,
+	&InvokableCall_2_Invoke_m10288_MethodInfo,
+	&InvokableCall_2_Find_m10289_MethodInfo,
 	NULL
 };
-extern const MethodInfo InvokableCall_2_Invoke_m10287_MethodInfo;
-extern const MethodInfo InvokableCall_2_Find_m10288_MethodInfo;
+extern const MethodInfo InvokableCall_2_Invoke_m10288_MethodInfo;
+extern const MethodInfo InvokableCall_2_Find_m10289_MethodInfo;
 static const Il2CppMethodReference InvokableCall_2_t2976_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&InvokableCall_2_Invoke_m10287_MethodInfo,
-	&InvokableCall_2_Find_m10288_MethodInfo,
+	&InvokableCall_2_Invoke_m10288_MethodInfo,
+	&InvokableCall_2_Find_m10289_MethodInfo,
 };
 static bool InvokableCall_2_t2976_VTableIsGenericMethod[] =
 {
@@ -20366,20 +20366,20 @@ static bool InvokableCall_2_t2976_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType UnityAction_2_t3052_0_0_0;
-extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3050_m10381_GenericMethod;
-extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT2_t3051_m10382_GenericMethod;
+extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3050_m10382_GenericMethod;
+extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT2_t3051_m10383_GenericMethod;
 extern const Il2CppType InvokableCall_2_t2976_gp_0_0_0_0;
 extern const Il2CppType InvokableCall_2_t2976_gp_1_0_0_0;
-extern const Il2CppGenericMethod UnityAction_2_Invoke_m10383_GenericMethod;
+extern const Il2CppGenericMethod UnityAction_2_Invoke_m10384_GenericMethod;
 static Il2CppRGCTXDefinition InvokableCall_2_t2976_RGCTXData[8] = 
 {
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&UnityAction_2_t3052_0_0_0 }/* Type */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&UnityAction_2_t3052_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3050_m10381_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT2_t3051_m10382_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3050_m10382_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT2_t3051_m10383_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_2_t2976_gp_0_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_2_t2976_gp_1_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &UnityAction_2_Invoke_m10383_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &UnityAction_2_Invoke_m10384_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
@@ -20471,20 +20471,20 @@ static const Il2CppGenericParameter* InvokableCall_3_t2977_Il2CppGenericParamete
 extern const Il2CppGenericContainer InvokableCall_3_t2977_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&InvokableCall_3_t2977_il2cpp_TypeInfo, 3, 0, InvokableCall_3_t2977_Il2CppGenericParametersArray };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo InvokableCall_3_t2977_InvokableCall_3__ctor_m10289_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_3_t2977_InvokableCall_3__ctor_m10290_ParameterInfos[] = 
 {
-	{"target", 0, 134219880, 0, &Object_t_0_0_0},
-	{"theFunction", 1, 134219881, 0, &MethodInfo_t_0_0_0},
+	{"target", 0, 134219892, 0, &Object_t_0_0_0},
+	{"theFunction", 1, 134219893, 0, &MethodInfo_t_0_0_0},
 };
 // System.Void UnityEngine.Events.InvokableCall`3::.ctor(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo InvokableCall_3__ctor_m10289_MethodInfo = 
+extern const MethodInfo InvokableCall_3__ctor_m10290_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &InvokableCall_3_t2977_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, InvokableCall_3_t2977_InvokableCall_3__ctor_m10289_ParameterInfos/* parameters */
+	, InvokableCall_3_t2977_InvokableCall_3__ctor_m10290_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20492,26 +20492,26 @@ extern const MethodInfo InvokableCall_3__ctor_m10289_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1957/* token */
+	, 1964/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ObjectU5BU5D_t682_0_0_0;
-static const ParameterInfo InvokableCall_3_t2977_InvokableCall_3_Invoke_m10290_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_3_t2977_InvokableCall_3_Invoke_m10291_ParameterInfos[] = 
 {
-	{"args", 0, 134219882, 0, &ObjectU5BU5D_t682_0_0_0},
+	{"args", 0, 134219894, 0, &ObjectU5BU5D_t682_0_0_0},
 };
 // System.Void UnityEngine.Events.InvokableCall`3::Invoke(System.Object[])
-extern const MethodInfo InvokableCall_3_Invoke_m10290_MethodInfo = 
+extern const MethodInfo InvokableCall_3_Invoke_m10291_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
 	, &InvokableCall_3_t2977_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, InvokableCall_3_t2977_InvokableCall_3_Invoke_m10290_ParameterInfos/* parameters */
+	, InvokableCall_3_t2977_InvokableCall_3_Invoke_m10291_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20519,7 +20519,7 @@ extern const MethodInfo InvokableCall_3_Invoke_m10290_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1958/* token */
+	, 1965/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -20527,20 +20527,20 @@ extern const MethodInfo InvokableCall_3_Invoke_m10290_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo InvokableCall_3_t2977_InvokableCall_3_Find_m10291_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_3_t2977_InvokableCall_3_Find_m10292_ParameterInfos[] = 
 {
-	{"targetObj", 0, 134219883, 0, &Object_t_0_0_0},
-	{"method", 1, 134219884, 0, &MethodInfo_t_0_0_0},
+	{"targetObj", 0, 134219895, 0, &Object_t_0_0_0},
+	{"method", 1, 134219896, 0, &MethodInfo_t_0_0_0},
 };
 // System.Boolean UnityEngine.Events.InvokableCall`3::Find(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo InvokableCall_3_Find_m10291_MethodInfo = 
+extern const MethodInfo InvokableCall_3_Find_m10292_MethodInfo = 
 {
 	"Find"/* name */
 	, NULL/* method */
 	, &InvokableCall_3_t2977_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, InvokableCall_3_t2977_InvokableCall_3_Find_m10291_ParameterInfos/* parameters */
+	, InvokableCall_3_t2977_InvokableCall_3_Find_m10292_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20548,7 +20548,7 @@ extern const MethodInfo InvokableCall_3_Find_m10291_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1959/* token */
+	, 1966/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -20556,21 +20556,21 @@ extern const MethodInfo InvokableCall_3_Find_m10291_MethodInfo =
 };
 static const MethodInfo* InvokableCall_3_t2977_MethodInfos[] =
 {
-	&InvokableCall_3__ctor_m10289_MethodInfo,
-	&InvokableCall_3_Invoke_m10290_MethodInfo,
-	&InvokableCall_3_Find_m10291_MethodInfo,
+	&InvokableCall_3__ctor_m10290_MethodInfo,
+	&InvokableCall_3_Invoke_m10291_MethodInfo,
+	&InvokableCall_3_Find_m10292_MethodInfo,
 	NULL
 };
-extern const MethodInfo InvokableCall_3_Invoke_m10290_MethodInfo;
-extern const MethodInfo InvokableCall_3_Find_m10291_MethodInfo;
+extern const MethodInfo InvokableCall_3_Invoke_m10291_MethodInfo;
+extern const MethodInfo InvokableCall_3_Find_m10292_MethodInfo;
 static const Il2CppMethodReference InvokableCall_3_t2977_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&InvokableCall_3_Invoke_m10290_MethodInfo,
-	&InvokableCall_3_Find_m10291_MethodInfo,
+	&InvokableCall_3_Invoke_m10291_MethodInfo,
+	&InvokableCall_3_Find_m10292_MethodInfo,
 };
 static bool InvokableCall_3_t2977_VTableIsGenericMethod[] =
 {
@@ -20582,24 +20582,24 @@ static bool InvokableCall_3_t2977_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType UnityAction_3_t3056_0_0_0;
-extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3053_m10384_GenericMethod;
-extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT2_t3054_m10385_GenericMethod;
-extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT3_t3055_m10386_GenericMethod;
+extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3053_m10385_GenericMethod;
+extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT2_t3054_m10386_GenericMethod;
+extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT3_t3055_m10387_GenericMethod;
 extern const Il2CppType InvokableCall_3_t2977_gp_0_0_0_0;
 extern const Il2CppType InvokableCall_3_t2977_gp_1_0_0_0;
 extern const Il2CppType InvokableCall_3_t2977_gp_2_0_0_0;
-extern const Il2CppGenericMethod UnityAction_3_Invoke_m10387_GenericMethod;
+extern const Il2CppGenericMethod UnityAction_3_Invoke_m10388_GenericMethod;
 static Il2CppRGCTXDefinition InvokableCall_3_t2977_RGCTXData[10] = 
 {
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&UnityAction_3_t3056_0_0_0 }/* Type */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&UnityAction_3_t3056_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3053_m10384_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT2_t3054_m10385_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT3_t3055_m10386_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3053_m10385_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT2_t3054_m10386_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT3_t3055_m10387_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_3_t2977_gp_0_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_3_t2977_gp_1_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_3_t2977_gp_2_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &UnityAction_3_Invoke_m10387_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &UnityAction_3_Invoke_m10388_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
@@ -20694,20 +20694,20 @@ static const Il2CppGenericParameter* InvokableCall_4_t2978_Il2CppGenericParamete
 extern const Il2CppGenericContainer InvokableCall_4_t2978_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&InvokableCall_4_t2978_il2cpp_TypeInfo, 4, 0, InvokableCall_4_t2978_Il2CppGenericParametersArray };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo InvokableCall_4_t2978_InvokableCall_4__ctor_m10292_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_4_t2978_InvokableCall_4__ctor_m10293_ParameterInfos[] = 
 {
-	{"target", 0, 134219885, 0, &Object_t_0_0_0},
-	{"theFunction", 1, 134219886, 0, &MethodInfo_t_0_0_0},
+	{"target", 0, 134219897, 0, &Object_t_0_0_0},
+	{"theFunction", 1, 134219898, 0, &MethodInfo_t_0_0_0},
 };
 // System.Void UnityEngine.Events.InvokableCall`4::.ctor(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo InvokableCall_4__ctor_m10292_MethodInfo = 
+extern const MethodInfo InvokableCall_4__ctor_m10293_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &InvokableCall_4_t2978_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, InvokableCall_4_t2978_InvokableCall_4__ctor_m10292_ParameterInfos/* parameters */
+	, InvokableCall_4_t2978_InvokableCall_4__ctor_m10293_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20715,26 +20715,26 @@ extern const MethodInfo InvokableCall_4__ctor_m10292_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1960/* token */
+	, 1967/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ObjectU5BU5D_t682_0_0_0;
-static const ParameterInfo InvokableCall_4_t2978_InvokableCall_4_Invoke_m10293_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_4_t2978_InvokableCall_4_Invoke_m10294_ParameterInfos[] = 
 {
-	{"args", 0, 134219887, 0, &ObjectU5BU5D_t682_0_0_0},
+	{"args", 0, 134219899, 0, &ObjectU5BU5D_t682_0_0_0},
 };
 // System.Void UnityEngine.Events.InvokableCall`4::Invoke(System.Object[])
-extern const MethodInfo InvokableCall_4_Invoke_m10293_MethodInfo = 
+extern const MethodInfo InvokableCall_4_Invoke_m10294_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
 	, &InvokableCall_4_t2978_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, InvokableCall_4_t2978_InvokableCall_4_Invoke_m10293_ParameterInfos/* parameters */
+	, InvokableCall_4_t2978_InvokableCall_4_Invoke_m10294_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20742,7 +20742,7 @@ extern const MethodInfo InvokableCall_4_Invoke_m10293_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1961/* token */
+	, 1968/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -20750,20 +20750,20 @@ extern const MethodInfo InvokableCall_4_Invoke_m10293_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo InvokableCall_4_t2978_InvokableCall_4_Find_m10294_ParameterInfos[] = 
+static const ParameterInfo InvokableCall_4_t2978_InvokableCall_4_Find_m10295_ParameterInfos[] = 
 {
-	{"targetObj", 0, 134219888, 0, &Object_t_0_0_0},
-	{"method", 1, 134219889, 0, &MethodInfo_t_0_0_0},
+	{"targetObj", 0, 134219900, 0, &Object_t_0_0_0},
+	{"method", 1, 134219901, 0, &MethodInfo_t_0_0_0},
 };
 // System.Boolean UnityEngine.Events.InvokableCall`4::Find(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo InvokableCall_4_Find_m10294_MethodInfo = 
+extern const MethodInfo InvokableCall_4_Find_m10295_MethodInfo = 
 {
 	"Find"/* name */
 	, NULL/* method */
 	, &InvokableCall_4_t2978_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, InvokableCall_4_t2978_InvokableCall_4_Find_m10294_ParameterInfos/* parameters */
+	, InvokableCall_4_t2978_InvokableCall_4_Find_m10295_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20771,7 +20771,7 @@ extern const MethodInfo InvokableCall_4_Find_m10294_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1962/* token */
+	, 1969/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -20779,21 +20779,21 @@ extern const MethodInfo InvokableCall_4_Find_m10294_MethodInfo =
 };
 static const MethodInfo* InvokableCall_4_t2978_MethodInfos[] =
 {
-	&InvokableCall_4__ctor_m10292_MethodInfo,
-	&InvokableCall_4_Invoke_m10293_MethodInfo,
-	&InvokableCall_4_Find_m10294_MethodInfo,
+	&InvokableCall_4__ctor_m10293_MethodInfo,
+	&InvokableCall_4_Invoke_m10294_MethodInfo,
+	&InvokableCall_4_Find_m10295_MethodInfo,
 	NULL
 };
-extern const MethodInfo InvokableCall_4_Invoke_m10293_MethodInfo;
-extern const MethodInfo InvokableCall_4_Find_m10294_MethodInfo;
+extern const MethodInfo InvokableCall_4_Invoke_m10294_MethodInfo;
+extern const MethodInfo InvokableCall_4_Find_m10295_MethodInfo;
 static const Il2CppMethodReference InvokableCall_4_t2978_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&InvokableCall_4_Invoke_m10293_MethodInfo,
-	&InvokableCall_4_Find_m10294_MethodInfo,
+	&InvokableCall_4_Invoke_m10294_MethodInfo,
+	&InvokableCall_4_Find_m10295_MethodInfo,
 };
 static bool InvokableCall_4_t2978_VTableIsGenericMethod[] =
 {
@@ -20805,28 +20805,28 @@ static bool InvokableCall_4_t2978_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType UnityAction_4_t3061_0_0_0;
-extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3057_m10388_GenericMethod;
-extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT2_t3058_m10389_GenericMethod;
-extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT3_t3059_m10390_GenericMethod;
-extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT4_t3060_m10391_GenericMethod;
+extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3057_m10389_GenericMethod;
+extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT2_t3058_m10390_GenericMethod;
+extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT3_t3059_m10391_GenericMethod;
+extern const Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisT4_t3060_m10392_GenericMethod;
 extern const Il2CppType InvokableCall_4_t2978_gp_0_0_0_0;
 extern const Il2CppType InvokableCall_4_t2978_gp_1_0_0_0;
 extern const Il2CppType InvokableCall_4_t2978_gp_2_0_0_0;
 extern const Il2CppType InvokableCall_4_t2978_gp_3_0_0_0;
-extern const Il2CppGenericMethod UnityAction_4_Invoke_m10392_GenericMethod;
+extern const Il2CppGenericMethod UnityAction_4_Invoke_m10393_GenericMethod;
 static Il2CppRGCTXDefinition InvokableCall_4_t2978_RGCTXData[12] = 
 {
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&UnityAction_4_t3061_0_0_0 }/* Type */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&UnityAction_4_t3061_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3057_m10388_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT2_t3058_m10389_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT3_t3059_m10390_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT4_t3060_m10391_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT1_t3057_m10389_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT2_t3058_m10390_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT3_t3059_m10391_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &BaseInvokableCall_ThrowOnInvalidArg_TisT4_t3060_m10392_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_4_t2978_gp_0_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_4_t2978_gp_1_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_4_t2978_gp_2_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_4_t2978_gp_3_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &UnityAction_4_Invoke_m10392_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &UnityAction_4_Invoke_m10393_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
@@ -20914,21 +20914,21 @@ extern const Il2CppType Object_t703_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
 extern const Il2CppType CachedInvokableCall_1_t2960_gp_0_0_0_0;
 extern const Il2CppType CachedInvokableCall_1_t2960_gp_0_0_0_0;
-static const ParameterInfo CachedInvokableCall_1_t2960_CachedInvokableCall_1__ctor_m10295_ParameterInfos[] = 
+static const ParameterInfo CachedInvokableCall_1_t2960_CachedInvokableCall_1__ctor_m10296_ParameterInfos[] = 
 {
-	{"target", 0, 134219890, 0, &Object_t703_0_0_0},
-	{"theFunction", 1, 134219891, 0, &MethodInfo_t_0_0_0},
-	{"argument", 2, 134219892, 0, &CachedInvokableCall_1_t2960_gp_0_0_0_0},
+	{"target", 0, 134219902, 0, &Object_t703_0_0_0},
+	{"theFunction", 1, 134219903, 0, &MethodInfo_t_0_0_0},
+	{"argument", 2, 134219904, 0, &CachedInvokableCall_1_t2960_gp_0_0_0_0},
 };
 // System.Void UnityEngine.Events.CachedInvokableCall`1::.ctor(UnityEngine.Object,System.Reflection.MethodInfo,T)
-extern const MethodInfo CachedInvokableCall_1__ctor_m10295_MethodInfo = 
+extern const MethodInfo CachedInvokableCall_1__ctor_m10296_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &CachedInvokableCall_1_t2960_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, CachedInvokableCall_1_t2960_CachedInvokableCall_1__ctor_m10295_ParameterInfos/* parameters */
+	, CachedInvokableCall_1_t2960_CachedInvokableCall_1__ctor_m10296_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -20936,26 +20936,26 @@ extern const MethodInfo CachedInvokableCall_1__ctor_m10295_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1963/* token */
+	, 1970/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ObjectU5BU5D_t682_0_0_0;
-static const ParameterInfo CachedInvokableCall_1_t2960_CachedInvokableCall_1_Invoke_m10296_ParameterInfos[] = 
+static const ParameterInfo CachedInvokableCall_1_t2960_CachedInvokableCall_1_Invoke_m10297_ParameterInfos[] = 
 {
-	{"args", 0, 134219893, 0, &ObjectU5BU5D_t682_0_0_0},
+	{"args", 0, 134219905, 0, &ObjectU5BU5D_t682_0_0_0},
 };
 // System.Void UnityEngine.Events.CachedInvokableCall`1::Invoke(System.Object[])
-extern const MethodInfo CachedInvokableCall_1_Invoke_m10296_MethodInfo = 
+extern const MethodInfo CachedInvokableCall_1_Invoke_m10297_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
 	, &CachedInvokableCall_1_t2960_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, CachedInvokableCall_1_t2960_CachedInvokableCall_1_Invoke_m10296_ParameterInfos/* parameters */
+	, CachedInvokableCall_1_t2960_CachedInvokableCall_1_Invoke_m10297_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -20963,7 +20963,7 @@ extern const MethodInfo CachedInvokableCall_1_Invoke_m10296_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1964/* token */
+	, 1971/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -20971,20 +20971,20 @@ extern const MethodInfo CachedInvokableCall_1_Invoke_m10296_MethodInfo =
 };
 static const MethodInfo* CachedInvokableCall_1_t2960_MethodInfos[] =
 {
-	&CachedInvokableCall_1__ctor_m10295_MethodInfo,
-	&CachedInvokableCall_1_Invoke_m10296_MethodInfo,
+	&CachedInvokableCall_1__ctor_m10296_MethodInfo,
+	&CachedInvokableCall_1_Invoke_m10297_MethodInfo,
 	NULL
 };
-extern const MethodInfo CachedInvokableCall_1_Invoke_m10296_MethodInfo;
-extern const Il2CppGenericMethod InvokableCall_1_Find_m10393_GenericMethod;
+extern const MethodInfo CachedInvokableCall_1_Invoke_m10297_MethodInfo;
+extern const Il2CppGenericMethod InvokableCall_1_Find_m10394_GenericMethod;
 static const Il2CppMethodReference CachedInvokableCall_1_t2960_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&CachedInvokableCall_1_Invoke_m10296_MethodInfo,
-	&InvokableCall_1_Find_m10393_GenericMethod,
+	&CachedInvokableCall_1_Invoke_m10297_MethodInfo,
+	&InvokableCall_1_Find_m10394_GenericMethod,
 };
 static bool CachedInvokableCall_1_t2960_VTableIsGenericMethod[] =
 {
@@ -20995,13 +20995,13 @@ static bool CachedInvokableCall_1_t2960_VTableIsGenericMethod[] =
 	false,
 	true,
 };
-extern const Il2CppGenericMethod InvokableCall_1__ctor_m10394_GenericMethod;
-extern const Il2CppGenericMethod InvokableCall_1_Invoke_m10395_GenericMethod;
+extern const Il2CppGenericMethod InvokableCall_1__ctor_m10395_GenericMethod;
+extern const Il2CppGenericMethod InvokableCall_1_Invoke_m10396_GenericMethod;
 static Il2CppRGCTXDefinition CachedInvokableCall_1_t2960_RGCTXData[4] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &InvokableCall_1__ctor_m10394_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &InvokableCall_1__ctor_m10395_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&CachedInvokableCall_1_t2960_gp_0_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &InvokableCall_1_Invoke_m10395_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &InvokableCall_1_Invoke_m10396_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
@@ -21222,10 +21222,10 @@ extern TypeInfo PersistentCall_t2886_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_Events_PersistentCallMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.PersistentCall::.ctor()
-extern const MethodInfo PersistentCall__ctor_m10038_MethodInfo = 
+extern const MethodInfo PersistentCall__ctor_m10039_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PersistentCall__ctor_m10038/* method */
+	, (methodPointerType)&PersistentCall__ctor_m10039/* method */
 	, &PersistentCall_t2886_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -21237,7 +21237,7 @@ extern const MethodInfo PersistentCall__ctor_m10038_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1965/* token */
+	, 1972/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -21245,10 +21245,10 @@ extern const MethodInfo PersistentCall__ctor_m10038_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Object UnityEngine.Events.PersistentCall::get_target()
-extern const MethodInfo PersistentCall_get_target_m10039_MethodInfo = 
+extern const MethodInfo PersistentCall_get_target_m10040_MethodInfo = 
 {
 	"get_target"/* name */
-	, (methodPointerType)&PersistentCall_get_target_m10039/* method */
+	, (methodPointerType)&PersistentCall_get_target_m10040/* method */
 	, &PersistentCall_t2886_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t703_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -21260,7 +21260,7 @@ extern const MethodInfo PersistentCall_get_target_m10039_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1966/* token */
+	, 1973/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -21268,10 +21268,10 @@ extern const MethodInfo PersistentCall_get_target_m10039_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.Events.PersistentCall::get_methodName()
-extern const MethodInfo PersistentCall_get_methodName_m10040_MethodInfo = 
+extern const MethodInfo PersistentCall_get_methodName_m10041_MethodInfo = 
 {
 	"get_methodName"/* name */
-	, (methodPointerType)&PersistentCall_get_methodName_m10040/* method */
+	, (methodPointerType)&PersistentCall_get_methodName_m10041/* method */
 	, &PersistentCall_t2886_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -21283,7 +21283,7 @@ extern const MethodInfo PersistentCall_get_methodName_m10040_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1967/* token */
+	, 1974/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -21291,10 +21291,10 @@ extern const MethodInfo PersistentCall_get_methodName_m10040_MethodInfo =
 };
 extern void* RuntimeInvoker_PersistentListenerMode_t2881 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Events.PersistentListenerMode UnityEngine.Events.PersistentCall::get_mode()
-extern const MethodInfo PersistentCall_get_mode_m10041_MethodInfo = 
+extern const MethodInfo PersistentCall_get_mode_m10042_MethodInfo = 
 {
 	"get_mode"/* name */
-	, (methodPointerType)&PersistentCall_get_mode_m10041/* method */
+	, (methodPointerType)&PersistentCall_get_mode_m10042/* method */
 	, &PersistentCall_t2886_il2cpp_TypeInfo/* declaring_type */
 	, &PersistentListenerMode_t2881_0_0_0/* return_type */
 	, RuntimeInvoker_PersistentListenerMode_t2881/* invoker_method */
@@ -21306,7 +21306,7 @@ extern const MethodInfo PersistentCall_get_mode_m10041_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1968/* token */
+	, 1975/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -21314,10 +21314,10 @@ extern const MethodInfo PersistentCall_get_mode_m10041_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Events.ArgumentCache UnityEngine.Events.PersistentCall::get_arguments()
-extern const MethodInfo PersistentCall_get_arguments_m10042_MethodInfo = 
+extern const MethodInfo PersistentCall_get_arguments_m10043_MethodInfo = 
 {
 	"get_arguments"/* name */
-	, (methodPointerType)&PersistentCall_get_arguments_m10042/* method */
+	, (methodPointerType)&PersistentCall_get_arguments_m10043/* method */
 	, &PersistentCall_t2886_il2cpp_TypeInfo/* declaring_type */
 	, &ArgumentCache_t2882_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -21329,7 +21329,7 @@ extern const MethodInfo PersistentCall_get_arguments_m10042_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1969/* token */
+	, 1976/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -21337,10 +21337,10 @@ extern const MethodInfo PersistentCall_get_arguments_m10042_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.Events.PersistentCall::IsValid()
-extern const MethodInfo PersistentCall_IsValid_m10043_MethodInfo = 
+extern const MethodInfo PersistentCall_IsValid_m10044_MethodInfo = 
 {
 	"IsValid"/* name */
-	, (methodPointerType)&PersistentCall_IsValid_m10043/* method */
+	, (methodPointerType)&PersistentCall_IsValid_m10044/* method */
 	, &PersistentCall_t2886_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -21352,7 +21352,7 @@ extern const MethodInfo PersistentCall_IsValid_m10043_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1970/* token */
+	, 1977/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -21360,20 +21360,20 @@ extern const MethodInfo PersistentCall_IsValid_m10043_MethodInfo =
 };
 extern const Il2CppType UnityEventBase_t2891_0_0_0;
 extern const Il2CppType UnityEventBase_t2891_0_0_0;
-static const ParameterInfo PersistentCall_t2886_PersistentCall_GetRuntimeCall_m10044_ParameterInfos[] = 
+static const ParameterInfo PersistentCall_t2886_PersistentCall_GetRuntimeCall_m10045_ParameterInfos[] = 
 {
-	{"theEvent", 0, 134219894, 0, &UnityEventBase_t2891_0_0_0},
+	{"theEvent", 0, 134219906, 0, &UnityEventBase_t2891_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.PersistentCall::GetRuntimeCall(UnityEngine.Events.UnityEventBase)
-extern const MethodInfo PersistentCall_GetRuntimeCall_m10044_MethodInfo = 
+extern const MethodInfo PersistentCall_GetRuntimeCall_m10045_MethodInfo = 
 {
 	"GetRuntimeCall"/* name */
-	, (methodPointerType)&PersistentCall_GetRuntimeCall_m10044/* method */
+	, (methodPointerType)&PersistentCall_GetRuntimeCall_m10045/* method */
 	, &PersistentCall_t2886_il2cpp_TypeInfo/* declaring_type */
 	, &BaseInvokableCall_t2883_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, PersistentCall_t2886_PersistentCall_GetRuntimeCall_m10044_ParameterInfos/* parameters */
+	, PersistentCall_t2886_PersistentCall_GetRuntimeCall_m10045_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21381,7 +21381,7 @@ extern const MethodInfo PersistentCall_GetRuntimeCall_m10044_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1971/* token */
+	, 1978/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -21390,22 +21390,22 @@ extern const MethodInfo PersistentCall_GetRuntimeCall_m10044_MethodInfo =
 extern const Il2CppType Object_t703_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
 extern const Il2CppType ArgumentCache_t2882_0_0_0;
-static const ParameterInfo PersistentCall_t2886_PersistentCall_GetObjectCall_m10045_ParameterInfos[] = 
+static const ParameterInfo PersistentCall_t2886_PersistentCall_GetObjectCall_m10046_ParameterInfos[] = 
 {
-	{"target", 0, 134219895, 0, &Object_t703_0_0_0},
-	{"method", 1, 134219896, 0, &MethodInfo_t_0_0_0},
-	{"arguments", 2, 134219897, 0, &ArgumentCache_t2882_0_0_0},
+	{"target", 0, 134219907, 0, &Object_t703_0_0_0},
+	{"method", 1, 134219908, 0, &MethodInfo_t_0_0_0},
+	{"arguments", 2, 134219909, 0, &ArgumentCache_t2882_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.PersistentCall::GetObjectCall(UnityEngine.Object,System.Reflection.MethodInfo,UnityEngine.Events.ArgumentCache)
-extern const MethodInfo PersistentCall_GetObjectCall_m10045_MethodInfo = 
+extern const MethodInfo PersistentCall_GetObjectCall_m10046_MethodInfo = 
 {
 	"GetObjectCall"/* name */
-	, (methodPointerType)&PersistentCall_GetObjectCall_m10045/* method */
+	, (methodPointerType)&PersistentCall_GetObjectCall_m10046/* method */
 	, &PersistentCall_t2886_il2cpp_TypeInfo/* declaring_type */
 	, &BaseInvokableCall_t2883_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, PersistentCall_t2886_PersistentCall_GetObjectCall_m10045_ParameterInfos/* parameters */
+	, PersistentCall_t2886_PersistentCall_GetObjectCall_m10046_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -21413,7 +21413,7 @@ extern const MethodInfo PersistentCall_GetObjectCall_m10045_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1972/* token */
+	, 1979/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -21421,55 +21421,55 @@ extern const MethodInfo PersistentCall_GetObjectCall_m10045_MethodInfo =
 };
 static const MethodInfo* PersistentCall_t2886_MethodInfos[] =
 {
-	&PersistentCall__ctor_m10038_MethodInfo,
-	&PersistentCall_get_target_m10039_MethodInfo,
-	&PersistentCall_get_methodName_m10040_MethodInfo,
-	&PersistentCall_get_mode_m10041_MethodInfo,
-	&PersistentCall_get_arguments_m10042_MethodInfo,
-	&PersistentCall_IsValid_m10043_MethodInfo,
-	&PersistentCall_GetRuntimeCall_m10044_MethodInfo,
-	&PersistentCall_GetObjectCall_m10045_MethodInfo,
+	&PersistentCall__ctor_m10039_MethodInfo,
+	&PersistentCall_get_target_m10040_MethodInfo,
+	&PersistentCall_get_methodName_m10041_MethodInfo,
+	&PersistentCall_get_mode_m10042_MethodInfo,
+	&PersistentCall_get_arguments_m10043_MethodInfo,
+	&PersistentCall_IsValid_m10044_MethodInfo,
+	&PersistentCall_GetRuntimeCall_m10045_MethodInfo,
+	&PersistentCall_GetObjectCall_m10046_MethodInfo,
 	NULL
 };
-extern const MethodInfo PersistentCall_get_target_m10039_MethodInfo;
+extern const MethodInfo PersistentCall_get_target_m10040_MethodInfo;
 static const PropertyInfo PersistentCall_t2886____target_PropertyInfo = 
 {
 	&PersistentCall_t2886_il2cpp_TypeInfo/* parent */
 	, "target"/* name */
-	, &PersistentCall_get_target_m10039_MethodInfo/* get */
+	, &PersistentCall_get_target_m10040_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo PersistentCall_get_methodName_m10040_MethodInfo;
+extern const MethodInfo PersistentCall_get_methodName_m10041_MethodInfo;
 static const PropertyInfo PersistentCall_t2886____methodName_PropertyInfo = 
 {
 	&PersistentCall_t2886_il2cpp_TypeInfo/* parent */
 	, "methodName"/* name */
-	, &PersistentCall_get_methodName_m10040_MethodInfo/* get */
+	, &PersistentCall_get_methodName_m10041_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo PersistentCall_get_mode_m10041_MethodInfo;
+extern const MethodInfo PersistentCall_get_mode_m10042_MethodInfo;
 static const PropertyInfo PersistentCall_t2886____mode_PropertyInfo = 
 {
 	&PersistentCall_t2886_il2cpp_TypeInfo/* parent */
 	, "mode"/* name */
-	, &PersistentCall_get_mode_m10041_MethodInfo/* get */
+	, &PersistentCall_get_mode_m10042_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo PersistentCall_get_arguments_m10042_MethodInfo;
+extern const MethodInfo PersistentCall_get_arguments_m10043_MethodInfo;
 static const PropertyInfo PersistentCall_t2886____arguments_PropertyInfo = 
 {
 	&PersistentCall_t2886_il2cpp_TypeInfo/* parent */
 	, "arguments"/* name */
-	, &PersistentCall_get_arguments_m10042_MethodInfo/* get */
+	, &PersistentCall_get_arguments_m10043_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -21576,10 +21576,10 @@ extern TypeInfo PersistentCallGroup_t2888_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_Events_PersistentCallGroupMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.PersistentCallGroup::.ctor()
-extern const MethodInfo PersistentCallGroup__ctor_m10046_MethodInfo = 
+extern const MethodInfo PersistentCallGroup__ctor_m10047_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PersistentCallGroup__ctor_m10046/* method */
+	, (methodPointerType)&PersistentCallGroup__ctor_m10047/* method */
 	, &PersistentCallGroup_t2888_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -21591,7 +21591,7 @@ extern const MethodInfo PersistentCallGroup__ctor_m10046_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1973/* token */
+	, 1980/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -21600,21 +21600,21 @@ extern const MethodInfo PersistentCallGroup__ctor_m10046_MethodInfo =
 extern const Il2CppType InvokableCallList_t2890_0_0_0;
 extern const Il2CppType InvokableCallList_t2890_0_0_0;
 extern const Il2CppType UnityEventBase_t2891_0_0_0;
-static const ParameterInfo PersistentCallGroup_t2888_PersistentCallGroup_Initialize_m10047_ParameterInfos[] = 
+static const ParameterInfo PersistentCallGroup_t2888_PersistentCallGroup_Initialize_m10048_ParameterInfos[] = 
 {
-	{"invokableList", 0, 134219898, 0, &InvokableCallList_t2890_0_0_0},
-	{"unityEventBase", 1, 134219899, 0, &UnityEventBase_t2891_0_0_0},
+	{"invokableList", 0, 134219910, 0, &InvokableCallList_t2890_0_0_0},
+	{"unityEventBase", 1, 134219911, 0, &UnityEventBase_t2891_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.PersistentCallGroup::Initialize(UnityEngine.Events.InvokableCallList,UnityEngine.Events.UnityEventBase)
-extern const MethodInfo PersistentCallGroup_Initialize_m10047_MethodInfo = 
+extern const MethodInfo PersistentCallGroup_Initialize_m10048_MethodInfo = 
 {
 	"Initialize"/* name */
-	, (methodPointerType)&PersistentCallGroup_Initialize_m10047/* method */
+	, (methodPointerType)&PersistentCallGroup_Initialize_m10048/* method */
 	, &PersistentCallGroup_t2888_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, PersistentCallGroup_t2888_PersistentCallGroup_Initialize_m10047_ParameterInfos/* parameters */
+	, PersistentCallGroup_t2888_PersistentCallGroup_Initialize_m10048_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21622,7 +21622,7 @@ extern const MethodInfo PersistentCallGroup_Initialize_m10047_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1974/* token */
+	, 1981/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -21630,8 +21630,8 @@ extern const MethodInfo PersistentCallGroup_Initialize_m10047_MethodInfo =
 };
 static const MethodInfo* PersistentCallGroup_t2888_MethodInfos[] =
 {
-	&PersistentCallGroup__ctor_m10046_MethodInfo,
-	&PersistentCallGroup_Initialize_m10047_MethodInfo,
+	&PersistentCallGroup__ctor_m10047_MethodInfo,
+	&PersistentCallGroup_Initialize_m10048_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference PersistentCallGroup_t2888_VTable[] =
@@ -21727,10 +21727,10 @@ extern TypeInfo InvokableCallList_t2890_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_Events_InvokableCallListMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.InvokableCallList::.ctor()
-extern const MethodInfo InvokableCallList__ctor_m10048_MethodInfo = 
+extern const MethodInfo InvokableCallList__ctor_m10049_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&InvokableCallList__ctor_m10048/* method */
+	, (methodPointerType)&InvokableCallList__ctor_m10049/* method */
 	, &InvokableCallList_t2890_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -21742,27 +21742,27 @@ extern const MethodInfo InvokableCallList__ctor_m10048_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1975/* token */
+	, 1982/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType BaseInvokableCall_t2883_0_0_0;
-static const ParameterInfo InvokableCallList_t2890_InvokableCallList_AddPersistentInvokableCall_m10049_ParameterInfos[] = 
+static const ParameterInfo InvokableCallList_t2890_InvokableCallList_AddPersistentInvokableCall_m10050_ParameterInfos[] = 
 {
-	{"call", 0, 134219900, 0, &BaseInvokableCall_t2883_0_0_0},
+	{"call", 0, 134219912, 0, &BaseInvokableCall_t2883_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.InvokableCallList::AddPersistentInvokableCall(UnityEngine.Events.BaseInvokableCall)
-extern const MethodInfo InvokableCallList_AddPersistentInvokableCall_m10049_MethodInfo = 
+extern const MethodInfo InvokableCallList_AddPersistentInvokableCall_m10050_MethodInfo = 
 {
 	"AddPersistentInvokableCall"/* name */
-	, (methodPointerType)&InvokableCallList_AddPersistentInvokableCall_m10049/* method */
+	, (methodPointerType)&InvokableCallList_AddPersistentInvokableCall_m10050/* method */
 	, &InvokableCallList_t2890_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, InvokableCallList_t2890_InvokableCallList_AddPersistentInvokableCall_m10049_ParameterInfos/* parameters */
+	, InvokableCallList_t2890_InvokableCallList_AddPersistentInvokableCall_m10050_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21770,27 +21770,27 @@ extern const MethodInfo InvokableCallList_AddPersistentInvokableCall_m10049_Meth
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1976/* token */
+	, 1983/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType BaseInvokableCall_t2883_0_0_0;
-static const ParameterInfo InvokableCallList_t2890_InvokableCallList_AddListener_m10050_ParameterInfos[] = 
+static const ParameterInfo InvokableCallList_t2890_InvokableCallList_AddListener_m10051_ParameterInfos[] = 
 {
-	{"call", 0, 134219901, 0, &BaseInvokableCall_t2883_0_0_0},
+	{"call", 0, 134219913, 0, &BaseInvokableCall_t2883_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.InvokableCallList::AddListener(UnityEngine.Events.BaseInvokableCall)
-extern const MethodInfo InvokableCallList_AddListener_m10050_MethodInfo = 
+extern const MethodInfo InvokableCallList_AddListener_m10051_MethodInfo = 
 {
 	"AddListener"/* name */
-	, (methodPointerType)&InvokableCallList_AddListener_m10050/* method */
+	, (methodPointerType)&InvokableCallList_AddListener_m10051/* method */
 	, &InvokableCallList_t2890_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, InvokableCallList_t2890_InvokableCallList_AddListener_m10050_ParameterInfos/* parameters */
+	, InvokableCallList_t2890_InvokableCallList_AddListener_m10051_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21798,7 +21798,7 @@ extern const MethodInfo InvokableCallList_AddListener_m10050_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1977/* token */
+	, 1984/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -21806,21 +21806,21 @@ extern const MethodInfo InvokableCallList_AddListener_m10050_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo InvokableCallList_t2890_InvokableCallList_RemoveListener_m10051_ParameterInfos[] = 
+static const ParameterInfo InvokableCallList_t2890_InvokableCallList_RemoveListener_m10052_ParameterInfos[] = 
 {
-	{"targetObj", 0, 134219902, 0, &Object_t_0_0_0},
-	{"method", 1, 134219903, 0, &MethodInfo_t_0_0_0},
+	{"targetObj", 0, 134219914, 0, &Object_t_0_0_0},
+	{"method", 1, 134219915, 0, &MethodInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.InvokableCallList::RemoveListener(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo InvokableCallList_RemoveListener_m10051_MethodInfo = 
+extern const MethodInfo InvokableCallList_RemoveListener_m10052_MethodInfo = 
 {
 	"RemoveListener"/* name */
-	, (methodPointerType)&InvokableCallList_RemoveListener_m10051/* method */
+	, (methodPointerType)&InvokableCallList_RemoveListener_m10052/* method */
 	, &InvokableCallList_t2890_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, InvokableCallList_t2890_InvokableCallList_RemoveListener_m10051_ParameterInfos/* parameters */
+	, InvokableCallList_t2890_InvokableCallList_RemoveListener_m10052_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21828,7 +21828,7 @@ extern const MethodInfo InvokableCallList_RemoveListener_m10051_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1978/* token */
+	, 1985/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -21836,10 +21836,10 @@ extern const MethodInfo InvokableCallList_RemoveListener_m10051_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.InvokableCallList::ClearPersistent()
-extern const MethodInfo InvokableCallList_ClearPersistent_m10052_MethodInfo = 
+extern const MethodInfo InvokableCallList_ClearPersistent_m10053_MethodInfo = 
 {
 	"ClearPersistent"/* name */
-	, (methodPointerType)&InvokableCallList_ClearPersistent_m10052/* method */
+	, (methodPointerType)&InvokableCallList_ClearPersistent_m10053/* method */
 	, &InvokableCallList_t2890_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -21851,27 +21851,27 @@ extern const MethodInfo InvokableCallList_ClearPersistent_m10052_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1979/* token */
+	, 1986/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ObjectU5BU5D_t682_0_0_0;
-static const ParameterInfo InvokableCallList_t2890_InvokableCallList_Invoke_m10053_ParameterInfos[] = 
+static const ParameterInfo InvokableCallList_t2890_InvokableCallList_Invoke_m10054_ParameterInfos[] = 
 {
-	{"parameters", 0, 134219904, 0, &ObjectU5BU5D_t682_0_0_0},
+	{"parameters", 0, 134219916, 0, &ObjectU5BU5D_t682_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.InvokableCallList::Invoke(System.Object[])
-extern const MethodInfo InvokableCallList_Invoke_m10053_MethodInfo = 
+extern const MethodInfo InvokableCallList_Invoke_m10054_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&InvokableCallList_Invoke_m10053/* method */
+	, (methodPointerType)&InvokableCallList_Invoke_m10054/* method */
 	, &InvokableCallList_t2890_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, InvokableCallList_t2890_InvokableCallList_Invoke_m10053_ParameterInfos/* parameters */
+	, InvokableCallList_t2890_InvokableCallList_Invoke_m10054_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21879,7 +21879,7 @@ extern const MethodInfo InvokableCallList_Invoke_m10053_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1980/* token */
+	, 1987/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -21887,12 +21887,12 @@ extern const MethodInfo InvokableCallList_Invoke_m10053_MethodInfo =
 };
 static const MethodInfo* InvokableCallList_t2890_MethodInfos[] =
 {
-	&InvokableCallList__ctor_m10048_MethodInfo,
-	&InvokableCallList_AddPersistentInvokableCall_m10049_MethodInfo,
-	&InvokableCallList_AddListener_m10050_MethodInfo,
-	&InvokableCallList_RemoveListener_m10051_MethodInfo,
-	&InvokableCallList_ClearPersistent_m10052_MethodInfo,
-	&InvokableCallList_Invoke_m10053_MethodInfo,
+	&InvokableCallList__ctor_m10049_MethodInfo,
+	&InvokableCallList_AddPersistentInvokableCall_m10050_MethodInfo,
+	&InvokableCallList_AddListener_m10051_MethodInfo,
+	&InvokableCallList_RemoveListener_m10052_MethodInfo,
+	&InvokableCallList_ClearPersistent_m10053_MethodInfo,
+	&InvokableCallList_Invoke_m10054_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference InvokableCallList_t2890_VTable[] =
@@ -21987,207 +21987,16 @@ extern TypeInfo UnityEventBase_t2891_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_Events_UnityEventBaseMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.UnityEventBase::.ctor()
-extern const MethodInfo UnityEventBase__ctor_m10054_MethodInfo = 
+extern const MethodInfo UnityEventBase__ctor_m10055_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UnityEventBase__ctor_m10054/* method */
+	, (methodPointerType)&UnityEventBase__ctor_m10055/* method */
 	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1981/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.Events.UnityEventBase::UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
-extern const MethodInfo UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6319_MethodInfo = 
-{
-	"UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize"/* name */
-	, (methodPointerType)&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6319/* method */
-	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 481/* flags */
-	, 0/* iflags */
-	, 4/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1982/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.Events.UnityEventBase::UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
-extern const MethodInfo UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6320_MethodInfo = 
-{
-	"UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize"/* name */
-	, (methodPointerType)&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6320/* method */
-	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 481/* flags */
-	, 0/* iflags */
-	, 5/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1983/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UnityEventBase_t2891_UnityEventBase_FindMethod_Impl_m10297_ParameterInfos[] = 
-{
-	{"name", 0, 134219905, 0, &String_t_0_0_0},
-	{"targetObj", 1, 134219906, 0, &Object_t_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Reflection.MethodInfo UnityEngine.Events.UnityEventBase::FindMethod_Impl(System.String,System.Object)
-extern const MethodInfo UnityEventBase_FindMethod_Impl_m10297_MethodInfo = 
-{
-	"FindMethod_Impl"/* name */
-	, NULL/* method */
-	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
-	, &MethodInfo_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, UnityEventBase_t2891_UnityEventBase_FindMethod_Impl_m10297_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 1476/* flags */
-	, 0/* iflags */
-	, 6/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1984/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo UnityEventBase_t2891_UnityEventBase_GetDelegate_m10298_ParameterInfos[] = 
-{
-	{"target", 0, 134219907, 0, &Object_t_0_0_0},
-	{"theFunction", 1, 134219908, 0, &MethodInfo_t_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEventBase::GetDelegate(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo UnityEventBase_GetDelegate_m10298_MethodInfo = 
-{
-	"GetDelegate"/* name */
-	, NULL/* method */
-	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
-	, &BaseInvokableCall_t2883_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, UnityEventBase_t2891_UnityEventBase_GetDelegate_m10298_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 1475/* flags */
-	, 0/* iflags */
-	, 7/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1985/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType PersistentCall_t2886_0_0_0;
-static const ParameterInfo UnityEventBase_t2891_UnityEventBase_FindMethod_m10055_ParameterInfos[] = 
-{
-	{"call", 0, 134219909, 0, &PersistentCall_t2886_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Reflection.MethodInfo UnityEngine.Events.UnityEventBase::FindMethod(UnityEngine.Events.PersistentCall)
-extern const MethodInfo UnityEventBase_FindMethod_m10055_MethodInfo = 
-{
-	"FindMethod"/* name */
-	, (methodPointerType)&UnityEventBase_FindMethod_m10055/* method */
-	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
-	, &MethodInfo_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, UnityEventBase_t2891_UnityEventBase_FindMethod_m10055_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 131/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1986/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType PersistentListenerMode_t2881_0_0_0;
-extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo UnityEventBase_t2891_UnityEventBase_FindMethod_m10056_ParameterInfos[] = 
-{
-	{"name", 0, 134219910, 0, &String_t_0_0_0},
-	{"listener", 1, 134219911, 0, &Object_t_0_0_0},
-	{"mode", 2, 134219912, 0, &PersistentListenerMode_t2881_0_0_0},
-	{"argumentType", 3, 134219913, 0, &Type_t_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Reflection.MethodInfo UnityEngine.Events.UnityEventBase::FindMethod(System.String,System.Object,UnityEngine.Events.PersistentListenerMode,System.Type)
-extern const MethodInfo UnityEventBase_FindMethod_m10056_MethodInfo = 
-{
-	"FindMethod"/* name */
-	, (methodPointerType)&UnityEventBase_FindMethod_m10056/* method */
-	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
-	, &MethodInfo_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82_Object_t/* invoker_method */
-	, UnityEventBase_t2891_UnityEventBase_FindMethod_m10056_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 131/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 4/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1987/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.Events.UnityEventBase::DirtyPersistentCalls()
-extern const MethodInfo UnityEventBase_DirtyPersistentCalls_m10057_MethodInfo = 
-{
-	"DirtyPersistentCalls"/* name */
-	, (methodPointerType)&UnityEventBase_DirtyPersistentCalls_m10057/* method */
-	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
 	, 0/* iflags */
 	, 255/* slot */
 	, 0/* parameters_count */
@@ -22200,11 +22009,179 @@ extern const MethodInfo UnityEventBase_DirtyPersistentCalls_m10057_MethodInfo =
 
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
-// System.Void UnityEngine.Events.UnityEventBase::RebuildPersistentCallsIfNeeded()
-extern const MethodInfo UnityEventBase_RebuildPersistentCallsIfNeeded_m10058_MethodInfo = 
+// System.Void UnityEngine.Events.UnityEventBase::UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
+extern const MethodInfo UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6317_MethodInfo = 
 {
-	"RebuildPersistentCallsIfNeeded"/* name */
-	, (methodPointerType)&UnityEventBase_RebuildPersistentCallsIfNeeded_m10058/* method */
+	"UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize"/* name */
+	, (methodPointerType)&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6317/* method */
+	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 481/* flags */
+	, 0/* iflags */
+	, 4/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1989/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.Events.UnityEventBase::UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
+extern const MethodInfo UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6318_MethodInfo = 
+{
+	"UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize"/* name */
+	, (methodPointerType)&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6318/* method */
+	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 481/* flags */
+	, 0/* iflags */
+	, 5/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1990/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType String_t_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo UnityEventBase_t2891_UnityEventBase_FindMethod_Impl_m10298_ParameterInfos[] = 
+{
+	{"name", 0, 134219917, 0, &String_t_0_0_0},
+	{"targetObj", 1, 134219918, 0, &Object_t_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Reflection.MethodInfo UnityEngine.Events.UnityEventBase::FindMethod_Impl(System.String,System.Object)
+extern const MethodInfo UnityEventBase_FindMethod_Impl_m10298_MethodInfo = 
+{
+	"FindMethod_Impl"/* name */
+	, NULL/* method */
+	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
+	, &MethodInfo_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, UnityEventBase_t2891_UnityEventBase_FindMethod_Impl_m10298_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 1476/* flags */
+	, 0/* iflags */
+	, 6/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1991/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType MethodInfo_t_0_0_0;
+static const ParameterInfo UnityEventBase_t2891_UnityEventBase_GetDelegate_m10299_ParameterInfos[] = 
+{
+	{"target", 0, 134219919, 0, &Object_t_0_0_0},
+	{"theFunction", 1, 134219920, 0, &MethodInfo_t_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEventBase::GetDelegate(System.Object,System.Reflection.MethodInfo)
+extern const MethodInfo UnityEventBase_GetDelegate_m10299_MethodInfo = 
+{
+	"GetDelegate"/* name */
+	, NULL/* method */
+	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
+	, &BaseInvokableCall_t2883_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, UnityEventBase_t2891_UnityEventBase_GetDelegate_m10299_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 1475/* flags */
+	, 0/* iflags */
+	, 7/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1992/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType PersistentCall_t2886_0_0_0;
+static const ParameterInfo UnityEventBase_t2891_UnityEventBase_FindMethod_m10056_ParameterInfos[] = 
+{
+	{"call", 0, 134219921, 0, &PersistentCall_t2886_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Reflection.MethodInfo UnityEngine.Events.UnityEventBase::FindMethod(UnityEngine.Events.PersistentCall)
+extern const MethodInfo UnityEventBase_FindMethod_m10056_MethodInfo = 
+{
+	"FindMethod"/* name */
+	, (methodPointerType)&UnityEventBase_FindMethod_m10056/* method */
+	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
+	, &MethodInfo_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, UnityEventBase_t2891_UnityEventBase_FindMethod_m10056_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1993/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType String_t_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+extern const Il2CppType PersistentListenerMode_t2881_0_0_0;
+extern const Il2CppType Type_t_0_0_0;
+static const ParameterInfo UnityEventBase_t2891_UnityEventBase_FindMethod_m10057_ParameterInfos[] = 
+{
+	{"name", 0, 134219922, 0, &String_t_0_0_0},
+	{"listener", 1, 134219923, 0, &Object_t_0_0_0},
+	{"mode", 2, 134219924, 0, &PersistentListenerMode_t2881_0_0_0},
+	{"argumentType", 3, 134219925, 0, &Type_t_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Reflection.MethodInfo UnityEngine.Events.UnityEventBase::FindMethod(System.String,System.Object,UnityEngine.Events.PersistentListenerMode,System.Type)
+extern const MethodInfo UnityEventBase_FindMethod_m10057_MethodInfo = 
+{
+	"FindMethod"/* name */
+	, (methodPointerType)&UnityEventBase_FindMethod_m10057/* method */
+	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
+	, &MethodInfo_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82_Object_t/* invoker_method */
+	, UnityEventBase_t2891_UnityEventBase_FindMethod_m10057_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 4/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1994/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.Events.UnityEventBase::DirtyPersistentCalls()
+extern const MethodInfo UnityEventBase_DirtyPersistentCalls_m10058_MethodInfo = 
+{
+	"DirtyPersistentCalls"/* name */
+	, (methodPointerType)&UnityEventBase_DirtyPersistentCalls_m10058/* method */
 	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -22216,27 +22193,50 @@ extern const MethodInfo UnityEventBase_RebuildPersistentCallsIfNeeded_m10058_Met
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1989/* token */
+	, 1995/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityEngine.Events.UnityEventBase::RebuildPersistentCallsIfNeeded()
+extern const MethodInfo UnityEventBase_RebuildPersistentCallsIfNeeded_m10059_MethodInfo = 
+{
+	"RebuildPersistentCallsIfNeeded"/* name */
+	, (methodPointerType)&UnityEventBase_RebuildPersistentCallsIfNeeded_m10059/* method */
+	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1996/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType BaseInvokableCall_t2883_0_0_0;
-static const ParameterInfo UnityEventBase_t2891_UnityEventBase_AddCall_m10059_ParameterInfos[] = 
+static const ParameterInfo UnityEventBase_t2891_UnityEventBase_AddCall_m10060_ParameterInfos[] = 
 {
-	{"call", 0, 134219914, 0, &BaseInvokableCall_t2883_0_0_0},
+	{"call", 0, 134219926, 0, &BaseInvokableCall_t2883_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.UnityEventBase::AddCall(UnityEngine.Events.BaseInvokableCall)
-extern const MethodInfo UnityEventBase_AddCall_m10059_MethodInfo = 
+extern const MethodInfo UnityEventBase_AddCall_m10060_MethodInfo = 
 {
 	"AddCall"/* name */
-	, (methodPointerType)&UnityEventBase_AddCall_m10059/* method */
+	, (methodPointerType)&UnityEventBase_AddCall_m10060/* method */
 	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, UnityEventBase_t2891_UnityEventBase_AddCall_m10059_ParameterInfos/* parameters */
+	, UnityEventBase_t2891_UnityEventBase_AddCall_m10060_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -22244,7 +22244,7 @@ extern const MethodInfo UnityEventBase_AddCall_m10059_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1990/* token */
+	, 1997/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -22252,21 +22252,21 @@ extern const MethodInfo UnityEventBase_AddCall_m10059_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo UnityEventBase_t2891_UnityEventBase_RemoveListener_m10060_ParameterInfos[] = 
+static const ParameterInfo UnityEventBase_t2891_UnityEventBase_RemoveListener_m10061_ParameterInfos[] = 
 {
-	{"targetObj", 0, 134219915, 0, &Object_t_0_0_0},
-	{"method", 1, 134219916, 0, &MethodInfo_t_0_0_0},
+	{"targetObj", 0, 134219927, 0, &Object_t_0_0_0},
+	{"method", 1, 134219928, 0, &MethodInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.UnityEventBase::RemoveListener(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo UnityEventBase_RemoveListener_m10060_MethodInfo = 
+extern const MethodInfo UnityEventBase_RemoveListener_m10061_MethodInfo = 
 {
 	"RemoveListener"/* name */
-	, (methodPointerType)&UnityEventBase_RemoveListener_m10060/* method */
+	, (methodPointerType)&UnityEventBase_RemoveListener_m10061/* method */
 	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, UnityEventBase_t2891_UnityEventBase_RemoveListener_m10060_ParameterInfos/* parameters */
+	, UnityEventBase_t2891_UnityEventBase_RemoveListener_m10061_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -22274,27 +22274,27 @@ extern const MethodInfo UnityEventBase_RemoveListener_m10060_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1991/* token */
+	, 1998/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType ObjectU5BU5D_t682_0_0_0;
-static const ParameterInfo UnityEventBase_t2891_UnityEventBase_Invoke_m10061_ParameterInfos[] = 
+static const ParameterInfo UnityEventBase_t2891_UnityEventBase_Invoke_m10062_ParameterInfos[] = 
 {
-	{"parameters", 0, 134219917, 0, &ObjectU5BU5D_t682_0_0_0},
+	{"parameters", 0, 134219929, 0, &ObjectU5BU5D_t682_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.UnityEventBase::Invoke(System.Object[])
-extern const MethodInfo UnityEventBase_Invoke_m10061_MethodInfo = 
+extern const MethodInfo UnityEventBase_Invoke_m10062_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&UnityEventBase_Invoke_m10061/* method */
+	, (methodPointerType)&UnityEventBase_Invoke_m10062/* method */
 	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, UnityEventBase_t2891_UnityEventBase_Invoke_m10061_ParameterInfos/* parameters */
+	, UnityEventBase_t2891_UnityEventBase_Invoke_m10062_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -22302,7 +22302,7 @@ extern const MethodInfo UnityEventBase_Invoke_m10061_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1992/* token */
+	, 1999/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -22310,10 +22310,10 @@ extern const MethodInfo UnityEventBase_Invoke_m10061_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.Events.UnityEventBase::ToString()
-extern const MethodInfo UnityEventBase_ToString_m6318_MethodInfo = 
+extern const MethodInfo UnityEventBase_ToString_m6316_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&UnityEventBase_ToString_m6318/* method */
+	, (methodPointerType)&UnityEventBase_ToString_m6316/* method */
 	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -22325,7 +22325,7 @@ extern const MethodInfo UnityEventBase_ToString_m6318_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1993/* token */
+	, 2000/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -22334,22 +22334,22 @@ extern const MethodInfo UnityEventBase_ToString_m6318_MethodInfo =
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType TypeU5BU5D_t1203_0_0_0;
-static const ParameterInfo UnityEventBase_t2891_UnityEventBase_GetValidMethodInfo_m10062_ParameterInfos[] = 
+static const ParameterInfo UnityEventBase_t2891_UnityEventBase_GetValidMethodInfo_m10063_ParameterInfos[] = 
 {
-	{"obj", 0, 134219918, 0, &Object_t_0_0_0},
-	{"functionName", 1, 134219919, 0, &String_t_0_0_0},
-	{"argumentTypes", 2, 134219920, 0, &TypeU5BU5D_t1203_0_0_0},
+	{"obj", 0, 134219930, 0, &Object_t_0_0_0},
+	{"functionName", 1, 134219931, 0, &String_t_0_0_0},
+	{"argumentTypes", 2, 134219932, 0, &TypeU5BU5D_t1203_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEventBase::GetValidMethodInfo(System.Object,System.String,System.Type[])
-extern const MethodInfo UnityEventBase_GetValidMethodInfo_m10062_MethodInfo = 
+extern const MethodInfo UnityEventBase_GetValidMethodInfo_m10063_MethodInfo = 
 {
 	"GetValidMethodInfo"/* name */
-	, (methodPointerType)&UnityEventBase_GetValidMethodInfo_m10062/* method */
+	, (methodPointerType)&UnityEventBase_GetValidMethodInfo_m10063/* method */
 	, &UnityEventBase_t2891_il2cpp_TypeInfo/* declaring_type */
 	, &MethodInfo_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, UnityEventBase_t2891_UnityEventBase_GetValidMethodInfo_m10062_ParameterInfos/* parameters */
+	, UnityEventBase_t2891_UnityEventBase_GetValidMethodInfo_m10063_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -22357,7 +22357,7 @@ extern const MethodInfo UnityEventBase_GetValidMethodInfo_m10062_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1994/* token */
+	, 2001/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -22365,33 +22365,33 @@ extern const MethodInfo UnityEventBase_GetValidMethodInfo_m10062_MethodInfo =
 };
 static const MethodInfo* UnityEventBase_t2891_MethodInfos[] =
 {
-	&UnityEventBase__ctor_m10054_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6319_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6320_MethodInfo,
-	&UnityEventBase_FindMethod_Impl_m10297_MethodInfo,
-	&UnityEventBase_GetDelegate_m10298_MethodInfo,
-	&UnityEventBase_FindMethod_m10055_MethodInfo,
+	&UnityEventBase__ctor_m10055_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6317_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6318_MethodInfo,
+	&UnityEventBase_FindMethod_Impl_m10298_MethodInfo,
+	&UnityEventBase_GetDelegate_m10299_MethodInfo,
 	&UnityEventBase_FindMethod_m10056_MethodInfo,
-	&UnityEventBase_DirtyPersistentCalls_m10057_MethodInfo,
-	&UnityEventBase_RebuildPersistentCallsIfNeeded_m10058_MethodInfo,
-	&UnityEventBase_AddCall_m10059_MethodInfo,
-	&UnityEventBase_RemoveListener_m10060_MethodInfo,
-	&UnityEventBase_Invoke_m10061_MethodInfo,
-	&UnityEventBase_ToString_m6318_MethodInfo,
-	&UnityEventBase_GetValidMethodInfo_m10062_MethodInfo,
+	&UnityEventBase_FindMethod_m10057_MethodInfo,
+	&UnityEventBase_DirtyPersistentCalls_m10058_MethodInfo,
+	&UnityEventBase_RebuildPersistentCallsIfNeeded_m10059_MethodInfo,
+	&UnityEventBase_AddCall_m10060_MethodInfo,
+	&UnityEventBase_RemoveListener_m10061_MethodInfo,
+	&UnityEventBase_Invoke_m10062_MethodInfo,
+	&UnityEventBase_ToString_m6316_MethodInfo,
+	&UnityEventBase_GetValidMethodInfo_m10063_MethodInfo,
 	NULL
 };
-extern const MethodInfo UnityEventBase_ToString_m6318_MethodInfo;
-extern const MethodInfo UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6319_MethodInfo;
-extern const MethodInfo UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6320_MethodInfo;
+extern const MethodInfo UnityEventBase_ToString_m6316_MethodInfo;
+extern const MethodInfo UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6317_MethodInfo;
+extern const MethodInfo UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6318_MethodInfo;
 static const Il2CppMethodReference UnityEventBase_t2891_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&UnityEventBase_ToString_m6318_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6319_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6320_MethodInfo,
+	&UnityEventBase_ToString_m6316_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6317_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6318_MethodInfo,
 	NULL,
 	NULL,
 };
@@ -22492,10 +22492,10 @@ extern TypeInfo UnityEvent_t905_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_Events_UnityEventMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.UnityEvent::.ctor()
-extern const MethodInfo UnityEvent__ctor_m5884_MethodInfo = 
+extern const MethodInfo UnityEvent__ctor_m5882_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UnityEvent__ctor_m5884/* method */
+	, (methodPointerType)&UnityEvent__ctor_m5882/* method */
 	, &UnityEvent_t905_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -22507,27 +22507,27 @@ extern const MethodInfo UnityEvent__ctor_m5884_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1995/* token */
+	, 2002/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType UnityAction_t550_0_0_0;
-static const ParameterInfo UnityEvent_t905_UnityEvent_AddListener_m4212_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_t905_UnityEvent_AddListener_m4209_ParameterInfos[] = 
 {
-	{"call", 0, 134219921, 0, &UnityAction_t550_0_0_0},
+	{"call", 0, 134219933, 0, &UnityAction_t550_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
-extern const MethodInfo UnityEvent_AddListener_m4212_MethodInfo = 
+extern const MethodInfo UnityEvent_AddListener_m4209_MethodInfo = 
 {
 	"AddListener"/* name */
-	, (methodPointerType)&UnityEvent_AddListener_m4212/* method */
+	, (methodPointerType)&UnityEvent_AddListener_m4209/* method */
 	, &UnityEvent_t905_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, UnityEvent_t905_UnityEvent_AddListener_m4212_ParameterInfos/* parameters */
+	, UnityEvent_t905_UnityEvent_AddListener_m4209_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -22535,7 +22535,7 @@ extern const MethodInfo UnityEvent_AddListener_m4212_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1996/* token */
+	, 2003/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -22543,21 +22543,21 @@ extern const MethodInfo UnityEvent_AddListener_m4212_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UnityEvent_t905_UnityEvent_FindMethod_Impl_m6333_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_t905_UnityEvent_FindMethod_Impl_m6331_ParameterInfos[] = 
 {
-	{"name", 0, 134219922, 0, &String_t_0_0_0},
-	{"targetObj", 1, 134219923, 0, &Object_t_0_0_0},
+	{"name", 0, 134219934, 0, &String_t_0_0_0},
+	{"targetObj", 1, 134219935, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEvent::FindMethod_Impl(System.String,System.Object)
-extern const MethodInfo UnityEvent_FindMethod_Impl_m6333_MethodInfo = 
+extern const MethodInfo UnityEvent_FindMethod_Impl_m6331_MethodInfo = 
 {
 	"FindMethod_Impl"/* name */
-	, (methodPointerType)&UnityEvent_FindMethod_Impl_m6333/* method */
+	, (methodPointerType)&UnityEvent_FindMethod_Impl_m6331/* method */
 	, &UnityEvent_t905_il2cpp_TypeInfo/* declaring_type */
 	, &MethodInfo_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, UnityEvent_t905_UnityEvent_FindMethod_Impl_m6333_ParameterInfos/* parameters */
+	, UnityEvent_t905_UnityEvent_FindMethod_Impl_m6331_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -22565,7 +22565,7 @@ extern const MethodInfo UnityEvent_FindMethod_Impl_m6333_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1997/* token */
+	, 2004/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -22573,21 +22573,21 @@ extern const MethodInfo UnityEvent_FindMethod_Impl_m6333_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo UnityEvent_t905_UnityEvent_GetDelegate_m6334_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_t905_UnityEvent_GetDelegate_m6332_ParameterInfos[] = 
 {
-	{"target", 0, 134219924, 0, &Object_t_0_0_0},
-	{"theFunction", 1, 134219925, 0, &MethodInfo_t_0_0_0},
+	{"target", 0, 134219936, 0, &Object_t_0_0_0},
+	{"theFunction", 1, 134219937, 0, &MethodInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent::GetDelegate(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo UnityEvent_GetDelegate_m6334_MethodInfo = 
+extern const MethodInfo UnityEvent_GetDelegate_m6332_MethodInfo = 
 {
 	"GetDelegate"/* name */
-	, (methodPointerType)&UnityEvent_GetDelegate_m6334/* method */
+	, (methodPointerType)&UnityEvent_GetDelegate_m6332/* method */
 	, &UnityEvent_t905_il2cpp_TypeInfo/* declaring_type */
 	, &BaseInvokableCall_t2883_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, UnityEvent_t905_UnityEvent_GetDelegate_m6334_ParameterInfos/* parameters */
+	, UnityEvent_t905_UnityEvent_GetDelegate_m6332_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 195/* flags */
 	, 0/* iflags */
@@ -22595,27 +22595,27 @@ extern const MethodInfo UnityEvent_GetDelegate_m6334_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1998/* token */
+	, 2005/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType UnityAction_t550_0_0_0;
-static const ParameterInfo UnityEvent_t905_UnityEvent_GetDelegate_m10063_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_t905_UnityEvent_GetDelegate_m10064_ParameterInfos[] = 
 {
-	{"action", 0, 134219926, 0, &UnityAction_t550_0_0_0},
+	{"action", 0, 134219938, 0, &UnityAction_t550_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent::GetDelegate(UnityEngine.Events.UnityAction)
-extern const MethodInfo UnityEvent_GetDelegate_m10063_MethodInfo = 
+extern const MethodInfo UnityEvent_GetDelegate_m10064_MethodInfo = 
 {
 	"GetDelegate"/* name */
-	, (methodPointerType)&UnityEvent_GetDelegate_m10063/* method */
+	, (methodPointerType)&UnityEvent_GetDelegate_m10064/* method */
 	, &UnityEvent_t905_il2cpp_TypeInfo/* declaring_type */
 	, &BaseInvokableCall_t2883_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, UnityEvent_t905_UnityEvent_GetDelegate_m10063_ParameterInfos/* parameters */
+	, UnityEvent_t905_UnityEvent_GetDelegate_m10064_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -22623,7 +22623,7 @@ extern const MethodInfo UnityEvent_GetDelegate_m10063_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1999/* token */
+	, 2006/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -22631,10 +22631,10 @@ extern const MethodInfo UnityEvent_GetDelegate_m10063_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.Events.UnityEvent::Invoke()
-extern const MethodInfo UnityEvent_Invoke_m5886_MethodInfo = 
+extern const MethodInfo UnityEvent_Invoke_m5884_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&UnityEvent_Invoke_m5886/* method */
+	, (methodPointerType)&UnityEvent_Invoke_m5884/* method */
 	, &UnityEvent_t905_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -22646,7 +22646,7 @@ extern const MethodInfo UnityEvent_Invoke_m5886_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2000/* token */
+	, 2007/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -22654,26 +22654,26 @@ extern const MethodInfo UnityEvent_Invoke_m5886_MethodInfo =
 };
 static const MethodInfo* UnityEvent_t905_MethodInfos[] =
 {
-	&UnityEvent__ctor_m5884_MethodInfo,
-	&UnityEvent_AddListener_m4212_MethodInfo,
-	&UnityEvent_FindMethod_Impl_m6333_MethodInfo,
-	&UnityEvent_GetDelegate_m6334_MethodInfo,
-	&UnityEvent_GetDelegate_m10063_MethodInfo,
-	&UnityEvent_Invoke_m5886_MethodInfo,
+	&UnityEvent__ctor_m5882_MethodInfo,
+	&UnityEvent_AddListener_m4209_MethodInfo,
+	&UnityEvent_FindMethod_Impl_m6331_MethodInfo,
+	&UnityEvent_GetDelegate_m6332_MethodInfo,
+	&UnityEvent_GetDelegate_m10064_MethodInfo,
+	&UnityEvent_Invoke_m5884_MethodInfo,
 	NULL
 };
-extern const MethodInfo UnityEvent_FindMethod_Impl_m6333_MethodInfo;
-extern const MethodInfo UnityEvent_GetDelegate_m6334_MethodInfo;
+extern const MethodInfo UnityEvent_FindMethod_Impl_m6331_MethodInfo;
+extern const MethodInfo UnityEvent_GetDelegate_m6332_MethodInfo;
 static const Il2CppMethodReference UnityEvent_t905_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&UnityEventBase_ToString_m6318_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6319_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6320_MethodInfo,
-	&UnityEvent_FindMethod_Impl_m6333_MethodInfo,
-	&UnityEvent_GetDelegate_m6334_MethodInfo,
+	&UnityEventBase_ToString_m6316_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6317_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6318_MethodInfo,
+	&UnityEvent_FindMethod_Impl_m6331_MethodInfo,
+	&UnityEvent_GetDelegate_m6332_MethodInfo,
 };
 static bool UnityEvent_t905_VTableIsGenericMethod[] =
 {
@@ -22772,7 +22772,7 @@ static const Il2CppGenericParameter* UnityEvent_1_t2979_Il2CppGenericParametersA
 };
 extern const Il2CppGenericContainer UnityEvent_1_t2979_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&UnityEvent_1_t2979_il2cpp_TypeInfo, 1, 0, UnityEvent_1_t2979_Il2CppGenericParametersArray };
 // System.Void UnityEngine.Events.UnityEvent`1::.ctor()
-extern const MethodInfo UnityEvent_1__ctor_m10299_MethodInfo = 
+extern const MethodInfo UnityEvent_1__ctor_m10300_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -22787,7 +22787,7 @@ extern const MethodInfo UnityEvent_1__ctor_m10299_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2001/* token */
+	, 2008/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -22795,19 +22795,19 @@ extern const MethodInfo UnityEvent_1__ctor_m10299_MethodInfo =
 };
 extern const Il2CppType UnityAction_1_t3065_0_0_0;
 extern const Il2CppType UnityAction_1_t3065_0_0_0;
-static const ParameterInfo UnityEvent_1_t2979_UnityEvent_1_AddListener_m10300_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_1_t2979_UnityEvent_1_AddListener_m10301_ParameterInfos[] = 
 {
-	{"call", 0, 134219927, 0, &UnityAction_1_t3065_0_0_0},
+	{"call", 0, 134219939, 0, &UnityAction_1_t3065_0_0_0},
 };
 // System.Void UnityEngine.Events.UnityEvent`1::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-extern const MethodInfo UnityEvent_1_AddListener_m10300_MethodInfo = 
+extern const MethodInfo UnityEvent_1_AddListener_m10301_MethodInfo = 
 {
 	"AddListener"/* name */
 	, NULL/* method */
 	, &UnityEvent_1_t2979_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityEvent_1_t2979_UnityEvent_1_AddListener_m10300_ParameterInfos/* parameters */
+	, UnityEvent_1_t2979_UnityEvent_1_AddListener_m10301_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -22815,26 +22815,26 @@ extern const MethodInfo UnityEvent_1_AddListener_m10300_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2002/* token */
+	, 2009/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType UnityAction_1_t3065_0_0_0;
-static const ParameterInfo UnityEvent_1_t2979_UnityEvent_1_RemoveListener_m10301_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_1_t2979_UnityEvent_1_RemoveListener_m10302_ParameterInfos[] = 
 {
-	{"call", 0, 134219928, 0, &UnityAction_1_t3065_0_0_0},
+	{"call", 0, 134219940, 0, &UnityAction_1_t3065_0_0_0},
 };
 // System.Void UnityEngine.Events.UnityEvent`1::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-extern const MethodInfo UnityEvent_1_RemoveListener_m10301_MethodInfo = 
+extern const MethodInfo UnityEvent_1_RemoveListener_m10302_MethodInfo = 
 {
 	"RemoveListener"/* name */
 	, NULL/* method */
 	, &UnityEvent_1_t2979_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityEvent_1_t2979_UnityEvent_1_RemoveListener_m10301_ParameterInfos/* parameters */
+	, UnityEvent_1_t2979_UnityEvent_1_RemoveListener_m10302_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -22842,7 +22842,7 @@ extern const MethodInfo UnityEvent_1_RemoveListener_m10301_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2003/* token */
+	, 2010/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -22850,20 +22850,20 @@ extern const MethodInfo UnityEvent_1_RemoveListener_m10301_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UnityEvent_1_t2979_UnityEvent_1_FindMethod_Impl_m10302_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_1_t2979_UnityEvent_1_FindMethod_Impl_m10303_ParameterInfos[] = 
 {
-	{"name", 0, 134219929, 0, &String_t_0_0_0},
-	{"targetObj", 1, 134219930, 0, &Object_t_0_0_0},
+	{"name", 0, 134219941, 0, &String_t_0_0_0},
+	{"targetObj", 1, 134219942, 0, &Object_t_0_0_0},
 };
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`1::FindMethod_Impl(System.String,System.Object)
-extern const MethodInfo UnityEvent_1_FindMethod_Impl_m10302_MethodInfo = 
+extern const MethodInfo UnityEvent_1_FindMethod_Impl_m10303_MethodInfo = 
 {
 	"FindMethod_Impl"/* name */
 	, NULL/* method */
 	, &UnityEvent_1_t2979_il2cpp_TypeInfo/* declaring_type */
 	, &MethodInfo_t_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityEvent_1_t2979_UnityEvent_1_FindMethod_Impl_m10302_ParameterInfos/* parameters */
+	, UnityEvent_1_t2979_UnityEvent_1_FindMethod_Impl_m10303_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -22871,7 +22871,7 @@ extern const MethodInfo UnityEvent_1_FindMethod_Impl_m10302_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2004/* token */
+	, 2011/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -22879,39 +22879,12 @@ extern const MethodInfo UnityEvent_1_FindMethod_Impl_m10302_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo UnityEvent_1_t2979_UnityEvent_1_GetDelegate_m10303_ParameterInfos[] = 
-{
-	{"target", 0, 134219931, 0, &Object_t_0_0_0},
-	{"theFunction", 1, 134219932, 0, &MethodInfo_t_0_0_0},
-};
-// UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1::GetDelegate(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo UnityEvent_1_GetDelegate_m10303_MethodInfo = 
-{
-	"GetDelegate"/* name */
-	, NULL/* method */
-	, &UnityEvent_1_t2979_il2cpp_TypeInfo/* declaring_type */
-	, &BaseInvokableCall_t2883_0_0_0/* return_type */
-	, NULL/* invoker_method */
-	, UnityEvent_1_t2979_UnityEvent_1_GetDelegate_m10303_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 195/* flags */
-	, 0/* iflags */
-	, 7/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 2005/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType UnityAction_1_t3065_0_0_0;
 static const ParameterInfo UnityEvent_1_t2979_UnityEvent_1_GetDelegate_m10304_ParameterInfos[] = 
 {
-	{"action", 0, 134219933, 0, &UnityAction_1_t3065_0_0_0},
+	{"target", 0, 134219943, 0, &Object_t_0_0_0},
+	{"theFunction", 1, 134219944, 0, &MethodInfo_t_0_0_0},
 };
-// UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1::GetDelegate(UnityEngine.Events.UnityAction`1<T0>)
+// UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1::GetDelegate(System.Object,System.Reflection.MethodInfo)
 extern const MethodInfo UnityEvent_1_GetDelegate_m10304_MethodInfo = 
 {
 	"GetDelegate"/* name */
@@ -22921,13 +22894,40 @@ extern const MethodInfo UnityEvent_1_GetDelegate_m10304_MethodInfo =
 	, NULL/* invoker_method */
 	, UnityEvent_1_t2979_UnityEvent_1_GetDelegate_m10304_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
+	, 195/* flags */
+	, 0/* iflags */
+	, 7/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 2012/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType UnityAction_1_t3065_0_0_0;
+static const ParameterInfo UnityEvent_1_t2979_UnityEvent_1_GetDelegate_m10305_ParameterInfos[] = 
+{
+	{"action", 0, 134219945, 0, &UnityAction_1_t3065_0_0_0},
+};
+// UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1::GetDelegate(UnityEngine.Events.UnityAction`1<T0>)
+extern const MethodInfo UnityEvent_1_GetDelegate_m10305_MethodInfo = 
+{
+	"GetDelegate"/* name */
+	, NULL/* method */
+	, &UnityEvent_1_t2979_il2cpp_TypeInfo/* declaring_type */
+	, &BaseInvokableCall_t2883_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, UnityEvent_1_t2979_UnityEvent_1_GetDelegate_m10305_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
 	, 255/* slot */
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2006/* token */
+	, 2013/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -22935,19 +22935,19 @@ extern const MethodInfo UnityEvent_1_GetDelegate_m10304_MethodInfo =
 };
 extern const Il2CppType UnityEvent_1_t2979_gp_0_0_0_0;
 extern const Il2CppType UnityEvent_1_t2979_gp_0_0_0_0;
-static const ParameterInfo UnityEvent_1_t2979_UnityEvent_1_Invoke_m10305_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_1_t2979_UnityEvent_1_Invoke_m10306_ParameterInfos[] = 
 {
-	{"arg0", 0, 134219934, 0, &UnityEvent_1_t2979_gp_0_0_0_0},
+	{"arg0", 0, 134219946, 0, &UnityEvent_1_t2979_gp_0_0_0_0},
 };
 // System.Void UnityEngine.Events.UnityEvent`1::Invoke(T0)
-extern const MethodInfo UnityEvent_1_Invoke_m10305_MethodInfo = 
+extern const MethodInfo UnityEvent_1_Invoke_m10306_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
 	, &UnityEvent_1_t2979_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityEvent_1_t2979_UnityEvent_1_Invoke_m10305_ParameterInfos/* parameters */
+	, UnityEvent_1_t2979_UnityEvent_1_Invoke_m10306_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -22955,7 +22955,7 @@ extern const MethodInfo UnityEvent_1_Invoke_m10305_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2007/* token */
+	, 2014/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -22963,27 +22963,27 @@ extern const MethodInfo UnityEvent_1_Invoke_m10305_MethodInfo =
 };
 static const MethodInfo* UnityEvent_1_t2979_MethodInfos[] =
 {
-	&UnityEvent_1__ctor_m10299_MethodInfo,
-	&UnityEvent_1_AddListener_m10300_MethodInfo,
-	&UnityEvent_1_RemoveListener_m10301_MethodInfo,
-	&UnityEvent_1_FindMethod_Impl_m10302_MethodInfo,
-	&UnityEvent_1_GetDelegate_m10303_MethodInfo,
+	&UnityEvent_1__ctor_m10300_MethodInfo,
+	&UnityEvent_1_AddListener_m10301_MethodInfo,
+	&UnityEvent_1_RemoveListener_m10302_MethodInfo,
+	&UnityEvent_1_FindMethod_Impl_m10303_MethodInfo,
 	&UnityEvent_1_GetDelegate_m10304_MethodInfo,
-	&UnityEvent_1_Invoke_m10305_MethodInfo,
+	&UnityEvent_1_GetDelegate_m10305_MethodInfo,
+	&UnityEvent_1_Invoke_m10306_MethodInfo,
 	NULL
 };
-extern const MethodInfo UnityEvent_1_FindMethod_Impl_m10302_MethodInfo;
-extern const MethodInfo UnityEvent_1_GetDelegate_m10303_MethodInfo;
+extern const MethodInfo UnityEvent_1_FindMethod_Impl_m10303_MethodInfo;
+extern const MethodInfo UnityEvent_1_GetDelegate_m10304_MethodInfo;
 static const Il2CppMethodReference UnityEvent_1_t2979_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&UnityEventBase_ToString_m6318_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6319_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6320_MethodInfo,
-	&UnityEvent_1_FindMethod_Impl_m10302_MethodInfo,
-	&UnityEvent_1_GetDelegate_m10303_MethodInfo,
+	&UnityEventBase_ToString_m6316_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6317_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6318_MethodInfo,
+	&UnityEvent_1_FindMethod_Impl_m10303_MethodInfo,
+	&UnityEvent_1_GetDelegate_m10304_MethodInfo,
 };
 static bool UnityEvent_1_t2979_VTableIsGenericMethod[] =
 {
@@ -23000,17 +23000,17 @@ static Il2CppInterfaceOffsetPair UnityEvent_1_t2979_InterfacesOffsets[] =
 {
 	{ &ISerializationCallbackReceiver_t1121_0_0_0, 4},
 };
-extern const Il2CppGenericMethod UnityEvent_1_GetDelegate_m10396_GenericMethod;
+extern const Il2CppGenericMethod UnityEvent_1_GetDelegate_m10397_GenericMethod;
 extern const Il2CppType InvokableCall_1_t3066_0_0_0;
-extern const Il2CppGenericMethod InvokableCall_1__ctor_m10397_GenericMethod;
 extern const Il2CppGenericMethod InvokableCall_1__ctor_m10398_GenericMethod;
+extern const Il2CppGenericMethod InvokableCall_1__ctor_m10399_GenericMethod;
 static Il2CppRGCTXDefinition UnityEvent_1_t2979_RGCTXData[7] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &UnityEvent_1_GetDelegate_m10396_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &UnityEvent_1_GetDelegate_m10397_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&UnityEvent_1_t2979_gp_0_0_0_0 }/* Type */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_1_t3066_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &InvokableCall_1__ctor_m10397_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_METHOD, &InvokableCall_1__ctor_m10398_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &InvokableCall_1__ctor_m10399_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&UnityEvent_1_t2979_gp_0_0_0_0 }/* Class */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
@@ -23099,7 +23099,7 @@ static const Il2CppGenericParameter* UnityEvent_2_t2980_Il2CppGenericParametersA
 };
 extern const Il2CppGenericContainer UnityEvent_2_t2980_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&UnityEvent_2_t2980_il2cpp_TypeInfo, 2, 0, UnityEvent_2_t2980_Il2CppGenericParametersArray };
 // System.Void UnityEngine.Events.UnityEvent`2::.ctor()
-extern const MethodInfo UnityEvent_2__ctor_m10306_MethodInfo = 
+extern const MethodInfo UnityEvent_2__ctor_m10307_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -23114,7 +23114,7 @@ extern const MethodInfo UnityEvent_2__ctor_m10306_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2008/* token */
+	, 2015/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -23122,20 +23122,20 @@ extern const MethodInfo UnityEvent_2__ctor_m10306_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UnityEvent_2_t2980_UnityEvent_2_FindMethod_Impl_m10307_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_2_t2980_UnityEvent_2_FindMethod_Impl_m10308_ParameterInfos[] = 
 {
-	{"name", 0, 134219935, 0, &String_t_0_0_0},
-	{"targetObj", 1, 134219936, 0, &Object_t_0_0_0},
+	{"name", 0, 134219947, 0, &String_t_0_0_0},
+	{"targetObj", 1, 134219948, 0, &Object_t_0_0_0},
 };
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`2::FindMethod_Impl(System.String,System.Object)
-extern const MethodInfo UnityEvent_2_FindMethod_Impl_m10307_MethodInfo = 
+extern const MethodInfo UnityEvent_2_FindMethod_Impl_m10308_MethodInfo = 
 {
 	"FindMethod_Impl"/* name */
 	, NULL/* method */
 	, &UnityEvent_2_t2980_il2cpp_TypeInfo/* declaring_type */
 	, &MethodInfo_t_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityEvent_2_t2980_UnityEvent_2_FindMethod_Impl_m10307_ParameterInfos/* parameters */
+	, UnityEvent_2_t2980_UnityEvent_2_FindMethod_Impl_m10308_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -23143,7 +23143,7 @@ extern const MethodInfo UnityEvent_2_FindMethod_Impl_m10307_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2009/* token */
+	, 2016/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -23151,20 +23151,20 @@ extern const MethodInfo UnityEvent_2_FindMethod_Impl_m10307_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo UnityEvent_2_t2980_UnityEvent_2_GetDelegate_m10308_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_2_t2980_UnityEvent_2_GetDelegate_m10309_ParameterInfos[] = 
 {
-	{"target", 0, 134219937, 0, &Object_t_0_0_0},
-	{"theFunction", 1, 134219938, 0, &MethodInfo_t_0_0_0},
+	{"target", 0, 134219949, 0, &Object_t_0_0_0},
+	{"theFunction", 1, 134219950, 0, &MethodInfo_t_0_0_0},
 };
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`2::GetDelegate(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo UnityEvent_2_GetDelegate_m10308_MethodInfo = 
+extern const MethodInfo UnityEvent_2_GetDelegate_m10309_MethodInfo = 
 {
 	"GetDelegate"/* name */
 	, NULL/* method */
 	, &UnityEvent_2_t2980_il2cpp_TypeInfo/* declaring_type */
 	, &BaseInvokableCall_t2883_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityEvent_2_t2980_UnityEvent_2_GetDelegate_m10308_ParameterInfos/* parameters */
+	, UnityEvent_2_t2980_UnityEvent_2_GetDelegate_m10309_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 195/* flags */
 	, 0/* iflags */
@@ -23172,7 +23172,7 @@ extern const MethodInfo UnityEvent_2_GetDelegate_m10308_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2010/* token */
+	, 2017/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -23180,23 +23180,23 @@ extern const MethodInfo UnityEvent_2_GetDelegate_m10308_MethodInfo =
 };
 static const MethodInfo* UnityEvent_2_t2980_MethodInfos[] =
 {
-	&UnityEvent_2__ctor_m10306_MethodInfo,
-	&UnityEvent_2_FindMethod_Impl_m10307_MethodInfo,
-	&UnityEvent_2_GetDelegate_m10308_MethodInfo,
+	&UnityEvent_2__ctor_m10307_MethodInfo,
+	&UnityEvent_2_FindMethod_Impl_m10308_MethodInfo,
+	&UnityEvent_2_GetDelegate_m10309_MethodInfo,
 	NULL
 };
-extern const MethodInfo UnityEvent_2_FindMethod_Impl_m10307_MethodInfo;
-extern const MethodInfo UnityEvent_2_GetDelegate_m10308_MethodInfo;
+extern const MethodInfo UnityEvent_2_FindMethod_Impl_m10308_MethodInfo;
+extern const MethodInfo UnityEvent_2_GetDelegate_m10309_MethodInfo;
 static const Il2CppMethodReference UnityEvent_2_t2980_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&UnityEventBase_ToString_m6318_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6319_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6320_MethodInfo,
-	&UnityEvent_2_FindMethod_Impl_m10307_MethodInfo,
-	&UnityEvent_2_GetDelegate_m10308_MethodInfo,
+	&UnityEventBase_ToString_m6316_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6317_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6318_MethodInfo,
+	&UnityEvent_2_FindMethod_Impl_m10308_MethodInfo,
+	&UnityEvent_2_GetDelegate_m10309_MethodInfo,
 };
 static bool UnityEvent_2_t2980_VTableIsGenericMethod[] =
 {
@@ -23216,13 +23216,13 @@ static Il2CppInterfaceOffsetPair UnityEvent_2_t2980_InterfacesOffsets[] =
 extern const Il2CppType UnityEvent_2_t2980_gp_0_0_0_0;
 extern const Il2CppType UnityEvent_2_t2980_gp_1_0_0_0;
 extern const Il2CppType InvokableCall_2_t3069_0_0_0;
-extern const Il2CppGenericMethod InvokableCall_2__ctor_m10399_GenericMethod;
+extern const Il2CppGenericMethod InvokableCall_2__ctor_m10400_GenericMethod;
 static Il2CppRGCTXDefinition UnityEvent_2_t2980_RGCTXData[5] = 
 {
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&UnityEvent_2_t2980_gp_0_0_0_0 }/* Type */,
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&UnityEvent_2_t2980_gp_1_0_0_0 }/* Type */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_2_t3069_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &InvokableCall_2__ctor_m10399_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &InvokableCall_2__ctor_m10400_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
@@ -23313,7 +23313,7 @@ static const Il2CppGenericParameter* UnityEvent_3_t2981_Il2CppGenericParametersA
 };
 extern const Il2CppGenericContainer UnityEvent_3_t2981_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&UnityEvent_3_t2981_il2cpp_TypeInfo, 3, 0, UnityEvent_3_t2981_Il2CppGenericParametersArray };
 // System.Void UnityEngine.Events.UnityEvent`3::.ctor()
-extern const MethodInfo UnityEvent_3__ctor_m10309_MethodInfo = 
+extern const MethodInfo UnityEvent_3__ctor_m10310_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -23328,7 +23328,7 @@ extern const MethodInfo UnityEvent_3__ctor_m10309_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2011/* token */
+	, 2018/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -23336,20 +23336,20 @@ extern const MethodInfo UnityEvent_3__ctor_m10309_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UnityEvent_3_t2981_UnityEvent_3_FindMethod_Impl_m10310_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_3_t2981_UnityEvent_3_FindMethod_Impl_m10311_ParameterInfos[] = 
 {
-	{"name", 0, 134219939, 0, &String_t_0_0_0},
-	{"targetObj", 1, 134219940, 0, &Object_t_0_0_0},
+	{"name", 0, 134219951, 0, &String_t_0_0_0},
+	{"targetObj", 1, 134219952, 0, &Object_t_0_0_0},
 };
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`3::FindMethod_Impl(System.String,System.Object)
-extern const MethodInfo UnityEvent_3_FindMethod_Impl_m10310_MethodInfo = 
+extern const MethodInfo UnityEvent_3_FindMethod_Impl_m10311_MethodInfo = 
 {
 	"FindMethod_Impl"/* name */
 	, NULL/* method */
 	, &UnityEvent_3_t2981_il2cpp_TypeInfo/* declaring_type */
 	, &MethodInfo_t_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityEvent_3_t2981_UnityEvent_3_FindMethod_Impl_m10310_ParameterInfos/* parameters */
+	, UnityEvent_3_t2981_UnityEvent_3_FindMethod_Impl_m10311_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -23357,7 +23357,7 @@ extern const MethodInfo UnityEvent_3_FindMethod_Impl_m10310_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2012/* token */
+	, 2019/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -23365,20 +23365,20 @@ extern const MethodInfo UnityEvent_3_FindMethod_Impl_m10310_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo UnityEvent_3_t2981_UnityEvent_3_GetDelegate_m10311_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_3_t2981_UnityEvent_3_GetDelegate_m10312_ParameterInfos[] = 
 {
-	{"target", 0, 134219941, 0, &Object_t_0_0_0},
-	{"theFunction", 1, 134219942, 0, &MethodInfo_t_0_0_0},
+	{"target", 0, 134219953, 0, &Object_t_0_0_0},
+	{"theFunction", 1, 134219954, 0, &MethodInfo_t_0_0_0},
 };
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`3::GetDelegate(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo UnityEvent_3_GetDelegate_m10311_MethodInfo = 
+extern const MethodInfo UnityEvent_3_GetDelegate_m10312_MethodInfo = 
 {
 	"GetDelegate"/* name */
 	, NULL/* method */
 	, &UnityEvent_3_t2981_il2cpp_TypeInfo/* declaring_type */
 	, &BaseInvokableCall_t2883_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityEvent_3_t2981_UnityEvent_3_GetDelegate_m10311_ParameterInfos/* parameters */
+	, UnityEvent_3_t2981_UnityEvent_3_GetDelegate_m10312_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 195/* flags */
 	, 0/* iflags */
@@ -23386,7 +23386,7 @@ extern const MethodInfo UnityEvent_3_GetDelegate_m10311_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2013/* token */
+	, 2020/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -23394,23 +23394,23 @@ extern const MethodInfo UnityEvent_3_GetDelegate_m10311_MethodInfo =
 };
 static const MethodInfo* UnityEvent_3_t2981_MethodInfos[] =
 {
-	&UnityEvent_3__ctor_m10309_MethodInfo,
-	&UnityEvent_3_FindMethod_Impl_m10310_MethodInfo,
-	&UnityEvent_3_GetDelegate_m10311_MethodInfo,
+	&UnityEvent_3__ctor_m10310_MethodInfo,
+	&UnityEvent_3_FindMethod_Impl_m10311_MethodInfo,
+	&UnityEvent_3_GetDelegate_m10312_MethodInfo,
 	NULL
 };
-extern const MethodInfo UnityEvent_3_FindMethod_Impl_m10310_MethodInfo;
-extern const MethodInfo UnityEvent_3_GetDelegate_m10311_MethodInfo;
+extern const MethodInfo UnityEvent_3_FindMethod_Impl_m10311_MethodInfo;
+extern const MethodInfo UnityEvent_3_GetDelegate_m10312_MethodInfo;
 static const Il2CppMethodReference UnityEvent_3_t2981_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&UnityEventBase_ToString_m6318_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6319_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6320_MethodInfo,
-	&UnityEvent_3_FindMethod_Impl_m10310_MethodInfo,
-	&UnityEvent_3_GetDelegate_m10311_MethodInfo,
+	&UnityEventBase_ToString_m6316_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6317_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6318_MethodInfo,
+	&UnityEvent_3_FindMethod_Impl_m10311_MethodInfo,
+	&UnityEvent_3_GetDelegate_m10312_MethodInfo,
 };
 static bool UnityEvent_3_t2981_VTableIsGenericMethod[] =
 {
@@ -23431,14 +23431,14 @@ extern const Il2CppType UnityEvent_3_t2981_gp_0_0_0_0;
 extern const Il2CppType UnityEvent_3_t2981_gp_1_0_0_0;
 extern const Il2CppType UnityEvent_3_t2981_gp_2_0_0_0;
 extern const Il2CppType InvokableCall_3_t3073_0_0_0;
-extern const Il2CppGenericMethod InvokableCall_3__ctor_m10400_GenericMethod;
+extern const Il2CppGenericMethod InvokableCall_3__ctor_m10401_GenericMethod;
 static Il2CppRGCTXDefinition UnityEvent_3_t2981_RGCTXData[6] = 
 {
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&UnityEvent_3_t2981_gp_0_0_0_0 }/* Type */,
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&UnityEvent_3_t2981_gp_1_0_0_0 }/* Type */,
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&UnityEvent_3_t2981_gp_2_0_0_0 }/* Type */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_3_t3073_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &InvokableCall_3__ctor_m10400_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &InvokableCall_3__ctor_m10401_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
@@ -23532,7 +23532,7 @@ static const Il2CppGenericParameter* UnityEvent_4_t2982_Il2CppGenericParametersA
 };
 extern const Il2CppGenericContainer UnityEvent_4_t2982_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&UnityEvent_4_t2982_il2cpp_TypeInfo, 4, 0, UnityEvent_4_t2982_Il2CppGenericParametersArray };
 // System.Void UnityEngine.Events.UnityEvent`4::.ctor()
-extern const MethodInfo UnityEvent_4__ctor_m10312_MethodInfo = 
+extern const MethodInfo UnityEvent_4__ctor_m10313_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -23547,7 +23547,7 @@ extern const MethodInfo UnityEvent_4__ctor_m10312_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2014/* token */
+	, 2021/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -23555,20 +23555,20 @@ extern const MethodInfo UnityEvent_4__ctor_m10312_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UnityEvent_4_t2982_UnityEvent_4_FindMethod_Impl_m10313_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_4_t2982_UnityEvent_4_FindMethod_Impl_m10314_ParameterInfos[] = 
 {
-	{"name", 0, 134219943, 0, &String_t_0_0_0},
-	{"targetObj", 1, 134219944, 0, &Object_t_0_0_0},
+	{"name", 0, 134219955, 0, &String_t_0_0_0},
+	{"targetObj", 1, 134219956, 0, &Object_t_0_0_0},
 };
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`4::FindMethod_Impl(System.String,System.Object)
-extern const MethodInfo UnityEvent_4_FindMethod_Impl_m10313_MethodInfo = 
+extern const MethodInfo UnityEvent_4_FindMethod_Impl_m10314_MethodInfo = 
 {
 	"FindMethod_Impl"/* name */
 	, NULL/* method */
 	, &UnityEvent_4_t2982_il2cpp_TypeInfo/* declaring_type */
 	, &MethodInfo_t_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityEvent_4_t2982_UnityEvent_4_FindMethod_Impl_m10313_ParameterInfos/* parameters */
+	, UnityEvent_4_t2982_UnityEvent_4_FindMethod_Impl_m10314_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -23576,7 +23576,7 @@ extern const MethodInfo UnityEvent_4_FindMethod_Impl_m10313_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2015/* token */
+	, 2022/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -23584,20 +23584,20 @@ extern const MethodInfo UnityEvent_4_FindMethod_Impl_m10313_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo UnityEvent_4_t2982_UnityEvent_4_GetDelegate_m10314_ParameterInfos[] = 
+static const ParameterInfo UnityEvent_4_t2982_UnityEvent_4_GetDelegate_m10315_ParameterInfos[] = 
 {
-	{"target", 0, 134219945, 0, &Object_t_0_0_0},
-	{"theFunction", 1, 134219946, 0, &MethodInfo_t_0_0_0},
+	{"target", 0, 134219957, 0, &Object_t_0_0_0},
+	{"theFunction", 1, 134219958, 0, &MethodInfo_t_0_0_0},
 };
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`4::GetDelegate(System.Object,System.Reflection.MethodInfo)
-extern const MethodInfo UnityEvent_4_GetDelegate_m10314_MethodInfo = 
+extern const MethodInfo UnityEvent_4_GetDelegate_m10315_MethodInfo = 
 {
 	"GetDelegate"/* name */
 	, NULL/* method */
 	, &UnityEvent_4_t2982_il2cpp_TypeInfo/* declaring_type */
 	, &BaseInvokableCall_t2883_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityEvent_4_t2982_UnityEvent_4_GetDelegate_m10314_ParameterInfos/* parameters */
+	, UnityEvent_4_t2982_UnityEvent_4_GetDelegate_m10315_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 195/* flags */
 	, 0/* iflags */
@@ -23605,7 +23605,7 @@ extern const MethodInfo UnityEvent_4_GetDelegate_m10314_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2016/* token */
+	, 2023/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -23613,23 +23613,23 @@ extern const MethodInfo UnityEvent_4_GetDelegate_m10314_MethodInfo =
 };
 static const MethodInfo* UnityEvent_4_t2982_MethodInfos[] =
 {
-	&UnityEvent_4__ctor_m10312_MethodInfo,
-	&UnityEvent_4_FindMethod_Impl_m10313_MethodInfo,
-	&UnityEvent_4_GetDelegate_m10314_MethodInfo,
+	&UnityEvent_4__ctor_m10313_MethodInfo,
+	&UnityEvent_4_FindMethod_Impl_m10314_MethodInfo,
+	&UnityEvent_4_GetDelegate_m10315_MethodInfo,
 	NULL
 };
-extern const MethodInfo UnityEvent_4_FindMethod_Impl_m10313_MethodInfo;
-extern const MethodInfo UnityEvent_4_GetDelegate_m10314_MethodInfo;
+extern const MethodInfo UnityEvent_4_FindMethod_Impl_m10314_MethodInfo;
+extern const MethodInfo UnityEvent_4_GetDelegate_m10315_MethodInfo;
 static const Il2CppMethodReference UnityEvent_4_t2982_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&UnityEventBase_ToString_m6318_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6319_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6320_MethodInfo,
-	&UnityEvent_4_FindMethod_Impl_m10313_MethodInfo,
-	&UnityEvent_4_GetDelegate_m10314_MethodInfo,
+	&UnityEventBase_ToString_m6316_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6317_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6318_MethodInfo,
+	&UnityEvent_4_FindMethod_Impl_m10314_MethodInfo,
+	&UnityEvent_4_GetDelegate_m10315_MethodInfo,
 };
 static bool UnityEvent_4_t2982_VTableIsGenericMethod[] =
 {
@@ -23651,7 +23651,7 @@ extern const Il2CppType UnityEvent_4_t2982_gp_1_0_0_0;
 extern const Il2CppType UnityEvent_4_t2982_gp_2_0_0_0;
 extern const Il2CppType UnityEvent_4_t2982_gp_3_0_0_0;
 extern const Il2CppType InvokableCall_4_t3078_0_0_0;
-extern const Il2CppGenericMethod InvokableCall_4__ctor_m10401_GenericMethod;
+extern const Il2CppGenericMethod InvokableCall_4__ctor_m10402_GenericMethod;
 static Il2CppRGCTXDefinition UnityEvent_4_t2982_RGCTXData[7] = 
 {
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&UnityEvent_4_t2982_gp_0_0_0_0 }/* Type */,
@@ -23659,7 +23659,7 @@ static Il2CppRGCTXDefinition UnityEvent_4_t2982_RGCTXData[7] =
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&UnityEvent_4_t2982_gp_2_0_0_0 }/* Type */,
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&UnityEvent_4_t2982_gp_3_0_0_0 }/* Type */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&InvokableCall_4_t3078_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &InvokableCall_4__ctor_m10401_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &InvokableCall_4__ctor_m10402_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;

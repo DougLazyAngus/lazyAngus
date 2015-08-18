@@ -12,5 +12,5 @@ struct Expression_t1520;
 struct ReadOnlyCollection_1_t3318;
 
 // System.Void System.Linq.Expressions.Expression`1<System.Object>::.ctor(System.Linq.Expressions.Expression,System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression>)
-extern "C" void Expression_1__ctor_m34610_gshared (Expression_1_t1523 * __this, Expression_t1520 * ___body, ReadOnlyCollection_1_t3318 * ___parameters, const MethodInfo* method);
-#define Expression_1__ctor_m34610(__this, ___body, ___parameters, method) (( void (*) (Expression_1_t1523 *, Expression_t1520 *, ReadOnlyCollection_1_t3318 *, const MethodInfo*))Expression_1__ctor_m34610_gshared)(__this, ___body, ___parameters, method)
+extern "C" void Expression_1__ctor_m34607_gshared (Expression_1_t1523 * __this, Expression_t1520 * ___body, ReadOnlyCollection_1_t3318 * ___parameters, const MethodInfo* method);
+#define Expression_1__ctor_m34607(__this, ___body, ___parameters, method) (( void (*) (Expression_1_t1523 *, Expression_t1520 *, ReadOnlyCollection_1_t3318 *, const MethodInfo*))Expression_1__ctor_m34607_gshared)(__this, ___body, ___parameters, method)

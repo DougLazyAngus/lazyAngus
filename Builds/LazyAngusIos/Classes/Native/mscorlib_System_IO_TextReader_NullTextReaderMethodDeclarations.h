@@ -10,6 +10,6 @@ struct NullTextReader_t4499;
 struct String_t;
 
 // System.Void System.IO.TextReader/NullTextReader::.ctor()
-extern "C" void NullTextReader__ctor_m17570 (NullTextReader_t4499 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullTextReader__ctor_m17567 (NullTextReader_t4499 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.TextReader/NullTextReader::ReadLine()
-extern "C" String_t* NullTextReader_ReadLine_m17571 (NullTextReader_t4499 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* NullTextReader_ReadLine_m17568 (NullTextReader_t4499 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -12,23 +12,23 @@ struct Object_t;
 struct List_1_t6425;
 
 // System.Void System.Collections.Generic.List`1/Enumerator<System.SByte>::.ctor(System.Collections.Generic.List`1<T>)
-extern "C" void Enumerator__ctor_m36496_gshared (Enumerator_t6426 * __this, List_1_t6425 * ___l, const MethodInfo* method);
-#define Enumerator__ctor_m36496(__this, ___l, method) (( void (*) (Enumerator_t6426 *, List_1_t6425 *, const MethodInfo*))Enumerator__ctor_m36496_gshared)(__this, ___l, method)
+extern "C" void Enumerator__ctor_m36493_gshared (Enumerator_t6426 * __this, List_1_t6425 * ___l, const MethodInfo* method);
+#define Enumerator__ctor_m36493(__this, ___l, method) (( void (*) (Enumerator_t6426 *, List_1_t6425 *, const MethodInfo*))Enumerator__ctor_m36493_gshared)(__this, ___l, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<System.SByte>::System.Collections.IEnumerator.Reset()
-extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m36497_gshared (Enumerator_t6426 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_Reset_m36497(__this, method) (( void (*) (Enumerator_t6426 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m36497_gshared)(__this, method)
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m36494_gshared (Enumerator_t6426 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_Reset_m36494(__this, method) (( void (*) (Enumerator_t6426 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m36494_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1/Enumerator<System.SByte>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m36498_gshared (Enumerator_t6426 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_get_Current_m36498(__this, method) (( Object_t * (*) (Enumerator_t6426 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m36498_gshared)(__this, method)
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m36495_gshared (Enumerator_t6426 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m36495(__this, method) (( Object_t * (*) (Enumerator_t6426 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m36495_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<System.SByte>::Dispose()
-extern "C" void Enumerator_Dispose_m36499_gshared (Enumerator_t6426 * __this, const MethodInfo* method);
-#define Enumerator_Dispose_m36499(__this, method) (( void (*) (Enumerator_t6426 *, const MethodInfo*))Enumerator_Dispose_m36499_gshared)(__this, method)
+extern "C" void Enumerator_Dispose_m36496_gshared (Enumerator_t6426 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m36496(__this, method) (( void (*) (Enumerator_t6426 *, const MethodInfo*))Enumerator_Dispose_m36496_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<System.SByte>::VerifyState()
-extern "C" void Enumerator_VerifyState_m36500_gshared (Enumerator_t6426 * __this, const MethodInfo* method);
-#define Enumerator_VerifyState_m36500(__this, method) (( void (*) (Enumerator_t6426 *, const MethodInfo*))Enumerator_VerifyState_m36500_gshared)(__this, method)
+extern "C" void Enumerator_VerifyState_m36497_gshared (Enumerator_t6426 * __this, const MethodInfo* method);
+#define Enumerator_VerifyState_m36497(__this, method) (( void (*) (Enumerator_t6426 *, const MethodInfo*))Enumerator_VerifyState_m36497_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1/Enumerator<System.SByte>::MoveNext()
-extern "C" bool Enumerator_MoveNext_m36501_gshared (Enumerator_t6426 * __this, const MethodInfo* method);
-#define Enumerator_MoveNext_m36501(__this, method) (( bool (*) (Enumerator_t6426 *, const MethodInfo*))Enumerator_MoveNext_m36501_gshared)(__this, method)
+extern "C" bool Enumerator_MoveNext_m36498_gshared (Enumerator_t6426 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m36498(__this, method) (( bool (*) (Enumerator_t6426 *, const MethodInfo*))Enumerator_MoveNext_m36498_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<System.SByte>::get_Current()
-extern "C" int8_t Enumerator_get_Current_m36502_gshared (Enumerator_t6426 * __this, const MethodInfo* method);
-#define Enumerator_get_Current_m36502(__this, method) (( int8_t (*) (Enumerator_t6426 *, const MethodInfo*))Enumerator_get_Current_m36502_gshared)(__this, method)
+extern "C" int8_t Enumerator_get_Current_m36499_gshared (Enumerator_t6426 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m36499(__this, method) (( int8_t (*) (Enumerator_t6426 *, const MethodInfo*))Enumerator_get_Current_m36499_gshared)(__this, method)

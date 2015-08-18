@@ -14,20 +14,20 @@ struct Dictionary_2_t7133;
 #include "Parse_Unity_Parse_ParseGeoPoint.h"
 
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Parse.ParseGeoPoint>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C" void Enumerator__ctor_m45683_gshared (Enumerator_t7139 * __this, Dictionary_2_t7133 * ___host, const MethodInfo* method);
-#define Enumerator__ctor_m45683(__this, ___host, method) (( void (*) (Enumerator_t7139 *, Dictionary_2_t7133 *, const MethodInfo*))Enumerator__ctor_m45683_gshared)(__this, ___host, method)
+extern "C" void Enumerator__ctor_m45680_gshared (Enumerator_t7139 * __this, Dictionary_2_t7133 * ___host, const MethodInfo* method);
+#define Enumerator__ctor_m45680(__this, ___host, method) (( void (*) (Enumerator_t7139 *, Dictionary_2_t7133 *, const MethodInfo*))Enumerator__ctor_m45680_gshared)(__this, ___host, method)
 // System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Parse.ParseGeoPoint>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m45684_gshared (Enumerator_t7139 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_get_Current_m45684(__this, method) (( Object_t * (*) (Enumerator_t7139 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m45684_gshared)(__this, method)
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m45681_gshared (Enumerator_t7139 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m45681(__this, method) (( Object_t * (*) (Enumerator_t7139 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m45681_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Parse.ParseGeoPoint>::System.Collections.IEnumerator.Reset()
-extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m45685_gshared (Enumerator_t7139 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_Reset_m45685(__this, method) (( void (*) (Enumerator_t7139 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m45685_gshared)(__this, method)
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m45682_gshared (Enumerator_t7139 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_Reset_m45682(__this, method) (( void (*) (Enumerator_t7139 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m45682_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Parse.ParseGeoPoint>::Dispose()
-extern "C" void Enumerator_Dispose_m45686_gshared (Enumerator_t7139 * __this, const MethodInfo* method);
-#define Enumerator_Dispose_m45686(__this, method) (( void (*) (Enumerator_t7139 *, const MethodInfo*))Enumerator_Dispose_m45686_gshared)(__this, method)
+extern "C" void Enumerator_Dispose_m45683_gshared (Enumerator_t7139 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m45683(__this, method) (( void (*) (Enumerator_t7139 *, const MethodInfo*))Enumerator_Dispose_m45683_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Parse.ParseGeoPoint>::MoveNext()
-extern "C" bool Enumerator_MoveNext_m45687_gshared (Enumerator_t7139 * __this, const MethodInfo* method);
-#define Enumerator_MoveNext_m45687(__this, method) (( bool (*) (Enumerator_t7139 *, const MethodInfo*))Enumerator_MoveNext_m45687_gshared)(__this, method)
+extern "C" bool Enumerator_MoveNext_m45684_gshared (Enumerator_t7139 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m45684(__this, method) (( bool (*) (Enumerator_t7139 *, const MethodInfo*))Enumerator_MoveNext_m45684_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Parse.ParseGeoPoint>::get_Current()
-extern "C" ParseGeoPoint_t1247  Enumerator_get_Current_m45688_gshared (Enumerator_t7139 * __this, const MethodInfo* method);
-#define Enumerator_get_Current_m45688(__this, method) (( ParseGeoPoint_t1247  (*) (Enumerator_t7139 *, const MethodInfo*))Enumerator_get_Current_m45688_gshared)(__this, method)
+extern "C" ParseGeoPoint_t1247  Enumerator_get_Current_m45685_gshared (Enumerator_t7139 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m45685(__this, method) (( ParseGeoPoint_t1247  (*) (Enumerator_t7139 *, const MethodInfo*))Enumerator_get_Current_m45685_gshared)(__this, method)

@@ -8,4 +8,4 @@
 struct LockDetails_t3350;
 
 // System.Void System.Threading.ReaderWriterLockSlim/LockDetails::.ctor()
-extern "C" void LockDetails__ctor_m11737 (LockDetails_t3350 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LockDetails__ctor_m11738 (LockDetails_t3350 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,10 +14,10 @@ struct String_t;
 struct AsymmetricAlgorithm_t3900;
 
 // System.Void System.Security.Cryptography.DSASignatureFormatter::.ctor()
-extern "C" void DSASignatureFormatter__ctor_m18639 (DSASignatureFormatter_t4687 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSASignatureFormatter__ctor_m18636 (DSASignatureFormatter_t4687 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.DSASignatureFormatter::CreateSignature(System.Byte[])
-extern "C" ByteU5BU5D_t66* DSASignatureFormatter_CreateSignature_m18640 (DSASignatureFormatter_t4687 * __this, ByteU5BU5D_t66* ___rgbHash, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* DSASignatureFormatter_CreateSignature_m18637 (DSASignatureFormatter_t4687 * __this, ByteU5BU5D_t66* ___rgbHash, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSASignatureFormatter::SetHashAlgorithm(System.String)
-extern "C" void DSASignatureFormatter_SetHashAlgorithm_m18641 (DSASignatureFormatter_t4687 * __this, String_t* ___strName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSASignatureFormatter_SetHashAlgorithm_m18638 (DSASignatureFormatter_t4687 * __this, String_t* ___strName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSASignatureFormatter::SetKey(System.Security.Cryptography.AsymmetricAlgorithm)
-extern "C" void DSASignatureFormatter_SetKey_m18642 (DSASignatureFormatter_t4687 * __this, AsymmetricAlgorithm_t3900 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSASignatureFormatter_SetKey_m18639 (DSASignatureFormatter_t4687 * __this, AsymmetricAlgorithm_t3900 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;

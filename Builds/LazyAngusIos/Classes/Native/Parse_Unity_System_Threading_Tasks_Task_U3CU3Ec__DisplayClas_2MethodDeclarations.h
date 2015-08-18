@@ -8,6 +8,6 @@
 struct U3CU3Ec__DisplayClass1d_t1349;
 
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass1d::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1d__ctor_m7237 (U3CU3Ec__DisplayClass1d_t1349 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass1d__ctor_m7235 (U3CU3Ec__DisplayClass1d_t1349 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Threading.Tasks.Task/<>c__DisplayClass1d::<Run>b__1c()
-extern "C" int32_t U3CU3Ec__DisplayClass1d_U3CRunU3Eb__1c_m7238 (U3CU3Ec__DisplayClass1d_t1349 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t U3CU3Ec__DisplayClass1d_U3CRunU3Eb__1c_m7236 (U3CU3Ec__DisplayClass1d_t1349 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

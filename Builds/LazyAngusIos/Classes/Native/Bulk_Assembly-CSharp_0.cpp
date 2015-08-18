@@ -143,14 +143,14 @@ extern "C" void ConsoleBase__ctor_m527 (ConsoleBase_t109 * __this, const MethodI
 		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___lastResponse_3 = L_0;
 		GUIStyle_t107 * L_1 = (GUIStyle_t107 *)il2cpp_codegen_object_new (GUIStyle_t107_il2cpp_TypeInfo_var);
-		GUIStyle__ctor_m3659(L_1, /*hidden argument*/NULL);
+		GUIStyle__ctor_m3656(L_1, /*hidden argument*/NULL);
 		__this->___textStyle_4 = L_1;
-		Vector2_t110  L_2 = Vector2_get_zero_m3660(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t110  L_2 = Vector2_get_zero_m3657(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___scrollPosition_6 = L_2;
 		__this->___buttonHeight_7 = ((int32_t)60);
-		int32_t L_3 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___mainWindowWidth_8 = ((int32_t)((int32_t)L_3-(int32_t)((int32_t)30)));
-		int32_t L_4 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___mainWindowFullWidth_9 = L_4;
 		MonoBehaviour__ctor_m379(__this, /*hidden argument*/NULL);
 		return;
@@ -169,21 +169,21 @@ extern "C" void ConsoleBase_Awake_m528 (ConsoleBase_t109 * __this, const MethodI
 	{
 		GUIStyle_t107 * L_0 = (__this->___textStyle_4);
 		NullCheck(L_0);
-		GUIStyle_set_alignment_m3662(L_0, 0, /*hidden argument*/NULL);
+		GUIStyle_set_alignment_m3659(L_0, 0, /*hidden argument*/NULL);
 		GUIStyle_t107 * L_1 = (__this->___textStyle_4);
 		NullCheck(L_1);
-		GUIStyle_set_wordWrap_m3663(L_1, 1, /*hidden argument*/NULL);
+		GUIStyle_set_wordWrap_m3660(L_1, 1, /*hidden argument*/NULL);
 		GUIStyle_t107 * L_2 = (__this->___textStyle_4);
 		RectOffset_t700 * L_3 = (RectOffset_t700 *)il2cpp_codegen_object_new (RectOffset_t700_il2cpp_TypeInfo_var);
-		RectOffset__ctor_m3664(L_3, ((int32_t)10), ((int32_t)10), ((int32_t)10), ((int32_t)10), /*hidden argument*/NULL);
+		RectOffset__ctor_m3661(L_3, ((int32_t)10), ((int32_t)10), ((int32_t)10), ((int32_t)10), /*hidden argument*/NULL);
 		NullCheck(L_2);
-		GUIStyle_set_padding_m3665(L_2, L_3, /*hidden argument*/NULL);
+		GUIStyle_set_padding_m3662(L_2, L_3, /*hidden argument*/NULL);
 		GUIStyle_t107 * L_4 = (__this->___textStyle_4);
 		NullCheck(L_4);
-		GUIStyle_set_stretchHeight_m3666(L_4, 1, /*hidden argument*/NULL);
+		GUIStyle_set_stretchHeight_m3663(L_4, 1, /*hidden argument*/NULL);
 		GUIStyle_t107 * L_5 = (__this->___textStyle_4);
 		NullCheck(L_5);
-		GUIStyle_set_stretchWidth_m3667(L_5, 0, /*hidden argument*/NULL);
+		GUIStyle_set_stretchWidth_m3664(L_5, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -201,19 +201,19 @@ extern "C" bool ConsoleBase_Button_m529 (ConsoleBase_t109 * __this, String_t* __
 		String_t* L_0 = ___label;
 		GUILayoutOptionU5BU5D_t701* L_1 = ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 2));
 		int32_t L_2 = (__this->___buttonHeight_7);
-		GUILayoutOption_t702 * L_3 = GUILayout_MinHeight_m3668(NULL /*static, unused*/, (((float)L_2)), /*hidden argument*/NULL);
+		GUILayoutOption_t702 * L_3 = GUILayout_MinHeight_m3665(NULL /*static, unused*/, (((float)L_2)), /*hidden argument*/NULL);
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
 		ArrayElementTypeCheck (L_1, L_3);
 		*((GUILayoutOption_t702 **)(GUILayoutOption_t702 **)SZArrayLdElema(L_1, 0)) = (GUILayoutOption_t702 *)L_3;
 		GUILayoutOptionU5BU5D_t701* L_4 = L_1;
 		int32_t L_5 = (__this->___mainWindowWidth_8);
-		GUILayoutOption_t702 * L_6 = GUILayout_MaxWidth_m3669(NULL /*static, unused*/, (((float)L_5)), /*hidden argument*/NULL);
+		GUILayoutOption_t702 * L_6 = GUILayout_MaxWidth_m3666(NULL /*static, unused*/, (((float)L_5)), /*hidden argument*/NULL);
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 1);
 		ArrayElementTypeCheck (L_4, L_6);
 		*((GUILayoutOption_t702 **)(GUILayoutOption_t702 **)SZArrayLdElema(L_4, 1)) = (GUILayoutOption_t702 *)L_6;
-		bool L_7 = GUILayout_Button_m3670(NULL /*static, unused*/, L_0, L_4, /*hidden argument*/NULL);
+		bool L_7 = GUILayout_Button_m3667(NULL /*static, unused*/, L_0, L_4, /*hidden argument*/NULL);
 		return L_7;
 	}
 }
@@ -228,27 +228,27 @@ extern "C" void ConsoleBase_LabelAndTextField_m530 (ConsoleBase_t109 * __this, S
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		GUILayout_BeginHorizontal_m3671(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		GUILayout_BeginHorizontal_m3668(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
 		String_t* L_0 = ___label;
 		GUILayoutOptionU5BU5D_t701* L_1 = ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 1));
-		GUILayoutOption_t702 * L_2 = GUILayout_MaxWidth_m3669(NULL /*static, unused*/, (150.0f), /*hidden argument*/NULL);
+		GUILayoutOption_t702 * L_2 = GUILayout_MaxWidth_m3666(NULL /*static, unused*/, (150.0f), /*hidden argument*/NULL);
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
 		ArrayElementTypeCheck (L_1, L_2);
 		*((GUILayoutOption_t702 **)(GUILayoutOption_t702 **)SZArrayLdElema(L_1, 0)) = (GUILayoutOption_t702 *)L_2;
-		GUILayout_Label_m3672(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		GUILayout_Label_m3669(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		String_t** L_3 = ___text;
 		String_t** L_4 = ___text;
 		GUILayoutOptionU5BU5D_t701* L_5 = ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 1));
 		int32_t L_6 = (__this->___mainWindowWidth_8);
-		GUILayoutOption_t702 * L_7 = GUILayout_MaxWidth_m3669(NULL /*static, unused*/, (((float)((int32_t)((int32_t)L_6-(int32_t)((int32_t)150))))), /*hidden argument*/NULL);
+		GUILayoutOption_t702 * L_7 = GUILayout_MaxWidth_m3666(NULL /*static, unused*/, (((float)((int32_t)((int32_t)L_6-(int32_t)((int32_t)150))))), /*hidden argument*/NULL);
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 0);
 		ArrayElementTypeCheck (L_5, L_7);
 		*((GUILayoutOption_t702 **)(GUILayoutOption_t702 **)SZArrayLdElema(L_5, 0)) = (GUILayoutOption_t702 *)L_7;
-		String_t* L_8 = GUILayout_TextField_m3673(NULL /*static, unused*/, (*((String_t**)L_4)), L_5, /*hidden argument*/NULL);
+		String_t* L_8 = GUILayout_TextField_m3670(NULL /*static, unused*/, (*((String_t**)L_4)), L_5, /*hidden argument*/NULL);
 		*((Object_t **)(L_3)) = (Object_t *)L_8;
-		GUILayout_EndHorizontal_m3674(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_EndHorizontal_m3671(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -256,7 +256,7 @@ extern "C" void ConsoleBase_LabelAndTextField_m530 (ConsoleBase_t109 * __this, S
 extern "C" bool ConsoleBase_IsHorizontalLayout_m531 (ConsoleBase_t109 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = Screen_get_orientation_m3675(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Screen_get_orientation_m3672(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return ((((int32_t)L_0) == ((int32_t)3))? 1 : 0);
 	}
 }
@@ -272,7 +272,7 @@ extern "C" int32_t ConsoleBase_get_TextWindowHeight_m532 (ConsoleBase_t109 * __t
 		}
 	}
 	{
-		int32_t L_1 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		G_B3_0 = L_1;
 		goto IL_0017;
 	}
@@ -346,7 +346,7 @@ IL_005d:
 		FBResult_t281 * L_12 = ___result;
 		NullCheck(L_12);
 		Texture2D_t108 * L_13 = FBResult_get_Texture_m2293(L_12, /*hidden argument*/NULL);
-		bool L_14 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_13, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_14 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_13, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_14)
 		{
 			goto IL_008a;
@@ -396,7 +396,7 @@ extern "C" void ConsoleBase_AddCommonFooter_m534 (ConsoleBase_t109 * __this, con
 	{
 		int32_t L_0 = ConsoleBase_get_TextWindowHeight_m532(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUILayoutUtility_t704_il2cpp_TypeInfo_var);
-		Rect_t694  L_1 = GUILayoutUtility_GetRect_m3678(NULL /*static, unused*/, (640.0f), (((float)L_0)), /*hidden argument*/NULL);
+		Rect_t694  L_1 = GUILayoutUtility_GetRect_m3675(NULL /*static, unused*/, (640.0f), (((float)L_0)), /*hidden argument*/NULL);
 		V_0 = L_1;
 		Rect_t694  L_2 = V_0;
 		ObjectU5BU5D_t682* L_3 = ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 4));
@@ -427,21 +427,21 @@ extern "C" void ConsoleBase_AddCommonFooter_m534 (ConsoleBase_t109 * __this, con
 		ArrayElementTypeCheck (L_11, L_12);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 3)) = (Object_t *)L_12;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_13 = String_Format_m3679(NULL /*static, unused*/, (String_t*) &_stringLiteral135, L_11, /*hidden argument*/NULL);
+		String_t* L_13 = String_Format_m3676(NULL /*static, unused*/, (String_t*) &_stringLiteral135, L_11, /*hidden argument*/NULL);
 		GUIStyle_t107 * L_14 = (__this->___textStyle_4);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_TextArea_m3680(NULL /*static, unused*/, L_2, L_13, L_14, /*hidden argument*/NULL);
+		GUI_TextArea_m3677(NULL /*static, unused*/, L_2, L_13, L_14, /*hidden argument*/NULL);
 		Texture2D_t108 * L_15 = (__this->___lastResponseTexture_5);
-		bool L_16 = Object_op_Inequality_m3677(NULL /*static, unused*/, L_15, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_16 = Object_op_Inequality_m3674(NULL /*static, unused*/, L_15, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_16)
 		{
 			goto IL_00d5;
 		}
 	}
 	{
-		float L_17 = Rect_get_y_m3681((&V_0), /*hidden argument*/NULL);
+		float L_17 = Rect_get_y_m3678((&V_0), /*hidden argument*/NULL);
 		V_1 = ((float)((float)L_17+(float)(200.0f)));
-		int32_t L_18 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_18 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Texture2D_t108 * L_19 = (__this->___lastResponseTexture_5);
 		NullCheck(L_19);
 		int32_t L_20 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_height() */, L_19);
@@ -452,7 +452,7 @@ extern "C" void ConsoleBase_AddCommonFooter_m534 (ConsoleBase_t109 * __this, con
 		}
 	}
 	{
-		int32_t L_22 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_22 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Texture2D_t108 * L_23 = (__this->___lastResponseTexture_5);
 		NullCheck(L_23);
 		int32_t L_24 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_height() */, L_23);
@@ -461,7 +461,7 @@ extern "C" void ConsoleBase_AddCommonFooter_m534 (ConsoleBase_t109 * __this, con
 
 IL_009f:
 	{
-		float L_25 = Rect_get_x_m3682((&V_0), /*hidden argument*/NULL);
+		float L_25 = Rect_get_x_m3679((&V_0), /*hidden argument*/NULL);
 		float L_26 = V_1;
 		Texture2D_t108 * L_27 = (__this->___lastResponseTexture_5);
 		NullCheck(L_27);
@@ -470,10 +470,10 @@ IL_009f:
 		NullCheck(L_29);
 		int32_t L_30 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_height() */, L_29);
 		Rect_t694  L_31 = {0};
-		Rect__ctor_m3683(&L_31, ((float)((float)L_25+(float)(5.0f))), L_26, (((float)L_28)), (((float)L_30)), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_31, ((float)((float)L_25+(float)(5.0f))), L_26, (((float)L_28)), (((float)L_30)), /*hidden argument*/NULL);
 		Texture2D_t108 * L_32 = (__this->___lastResponseTexture_5);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_Label_m3684(NULL /*static, unused*/, L_31, L_32, /*hidden argument*/NULL);
+		GUI_Label_m3681(NULL /*static, unused*/, L_31, L_32, /*hidden argument*/NULL);
 	}
 
 IL_00d5:
@@ -510,26 +510,26 @@ extern "C" void ConsoleBase_AddCommonHeader_m535 (ConsoleBase_t109 * __this, con
 		}
 	}
 	{
-		GUILayout_BeginHorizontal_m3671(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
-		GUILayout_BeginVertical_m3685(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		GUILayout_BeginHorizontal_m3668(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		GUILayout_BeginVertical_m3682(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
 	}
 
 IL_0021:
 	{
-		GUILayout_Space_m3686(NULL /*static, unused*/, (5.0f), /*hidden argument*/NULL);
+		GUILayout_Space_m3683(NULL /*static, unused*/, (5.0f), /*hidden argument*/NULL);
 		String_t* L_1 = (__this->___status_2);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_2 = String_Concat_m408(NULL /*static, unused*/, (String_t*) &_stringLiteral136, L_1, /*hidden argument*/NULL);
 		GUILayoutOptionU5BU5D_t701* L_3 = ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 1));
 		int32_t L_4 = (__this->___mainWindowWidth_8);
-		GUILayoutOption_t702 * L_5 = GUILayout_MinWidth_m3687(NULL /*static, unused*/, (((float)L_4)), /*hidden argument*/NULL);
+		GUILayoutOption_t702 * L_5 = GUILayout_MinWidth_m3684(NULL /*static, unused*/, (((float)L_4)), /*hidden argument*/NULL);
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 0);
 		ArrayElementTypeCheck (L_3, L_5);
 		*((GUILayoutOption_t702 **)(GUILayoutOption_t702 **)SZArrayLdElema(L_3, 0)) = (GUILayoutOption_t702 *)L_5;
-		GUILayout_Box_m3688(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		GUILayout_Box_m3685(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t707_il2cpp_TypeInfo_var);
-		int32_t L_6 = Input_get_touchCount_m3689(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_6 = Input_get_touchCount_m3686(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_6) <= ((int32_t)0)))
 		{
 			goto IL_009c;
@@ -537,9 +537,9 @@ IL_0021:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t707_il2cpp_TypeInfo_var);
-		Touch_t706  L_7 = Input_GetTouch_m3690(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		Touch_t706  L_7 = Input_GetTouch_m3687(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		V_0 = L_7;
-		int32_t L_8 = Touch_get_phase_m3691((&V_0), /*hidden argument*/NULL);
+		int32_t L_8 = Touch_get_phase_m3688((&V_0), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_8) == ((uint32_t)1))))
 		{
 			goto IL_009c;
@@ -550,9 +550,9 @@ IL_0021:
 		Vector2_t110 * L_10 = L_9;
 		float L_11 = (L_10->___y_2);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t707_il2cpp_TypeInfo_var);
-		Touch_t706  L_12 = Input_GetTouch_m3690(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		Touch_t706  L_12 = Input_GetTouch_m3687(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		V_1 = L_12;
-		Vector2_t110  L_13 = Touch_get_deltaPosition_m3692((&V_1), /*hidden argument*/NULL);
+		Vector2_t110  L_13 = Touch_get_deltaPosition_m3689((&V_1), /*hidden argument*/NULL);
 		V_2 = L_13;
 		float L_14 = ((&V_2)->___y_2);
 		L_10->___y_2 = ((float)((float)L_11+(float)L_14));
@@ -563,18 +563,18 @@ IL_009c:
 		Vector2_t110  L_15 = (__this->___scrollPosition_6);
 		GUILayoutOptionU5BU5D_t701* L_16 = ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 1));
 		int32_t L_17 = (__this->___mainWindowFullWidth_9);
-		GUILayoutOption_t702 * L_18 = GUILayout_MinWidth_m3687(NULL /*static, unused*/, (((float)L_17)), /*hidden argument*/NULL);
+		GUILayoutOption_t702 * L_18 = GUILayout_MinWidth_m3684(NULL /*static, unused*/, (((float)L_17)), /*hidden argument*/NULL);
 		NullCheck(L_16);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, 0);
 		ArrayElementTypeCheck (L_16, L_18);
 		*((GUILayoutOption_t702 **)(GUILayoutOption_t702 **)SZArrayLdElema(L_16, 0)) = (GUILayoutOption_t702 *)L_18;
-		Vector2_t110  L_19 = GUILayout_BeginScrollView_m3693(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
+		Vector2_t110  L_19 = GUILayout_BeginScrollView_m3690(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
 		__this->___scrollPosition_6 = L_19;
-		GUILayout_BeginVertical_m3685(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		GUILayout_BeginVertical_m3682(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		bool L_20 = FB_get_IsInitialized_m2257(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, ((((int32_t)L_20) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, ((((int32_t)L_20) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
 		bool L_21 = ConsoleBase_Button_m529(__this, (String_t*) &_stringLiteral137, /*hidden argument*/NULL);
 		if (!L_21)
 		{
@@ -592,11 +592,11 @@ IL_009c:
 
 IL_0105:
 	{
-		GUILayout_BeginHorizontal_m3671(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		GUILayout_BeginHorizontal_m3668(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		bool L_24 = FB_get_IsInitialized_m2257(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
 		bool L_25 = ConsoleBase_Button_m529(__this, (String_t*) &_stringLiteral139, /*hidden argument*/NULL);
 		if (!L_25)
 		{
@@ -613,7 +613,7 @@ IL_013b:
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		bool L_26 = FB_get_IsLoggedIn_m2256(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
 		bool L_27 = ConsoleBase_Button_m529(__this, (String_t*) &_stringLiteral141, /*hidden argument*/NULL);
 		if (!L_27)
 		{
@@ -643,8 +643,8 @@ IL_0187:
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		bool L_29 = FB_get_IsInitialized_m2257(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, L_29, /*hidden argument*/NULL);
-		GUILayout_EndHorizontal_m3674(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, L_29, /*hidden argument*/NULL);
+		GUILayout_EndHorizontal_m3671(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -669,10 +669,10 @@ extern "C" void ConsoleBase_CallFBInit_m536 (ConsoleBase_t109 * __this, const Me
 	{
 		IntPtr_t L_0 = { (void*)ConsoleBase_OnInitComplete_m537_MethodInfo_var };
 		InitDelegate_t419 * L_1 = (InitDelegate_t419 *)il2cpp_codegen_object_new (InitDelegate_t419_il2cpp_TypeInfo_var);
-		InitDelegate__ctor_m3647(L_1, __this, L_0, /*hidden argument*/NULL);
+		InitDelegate__ctor_m3644(L_1, __this, L_0, /*hidden argument*/NULL);
 		IntPtr_t L_2 = { (void*)ConsoleBase_OnHideUnity_m538_MethodInfo_var };
 		HideUnityDelegate_t420 * L_3 = (HideUnityDelegate_t420 *)il2cpp_codegen_object_new (HideUnityDelegate_t420_il2cpp_TypeInfo_var);
-		HideUnityDelegate__ctor_m3655(L_3, __this, L_2, /*hidden argument*/NULL);
+		HideUnityDelegate__ctor_m3652(L_3, __this, L_2, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		FB_Init_m2258(NULL /*static, unused*/, L_1, L_3, (String_t*)NULL, /*hidden argument*/NULL);
 		return;
@@ -742,7 +742,7 @@ extern "C" void ConsoleBase_CallFBLogin_m539 (ConsoleBase_t109 * __this, const M
 	{
 		IntPtr_t L_0 = { (void*)ConsoleBase_LoginCallback_m541_MethodInfo_var };
 		FacebookDelegate_t433 * L_1 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_1, __this, L_0, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_1, __this, L_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		FB_Login_m2261(NULL /*static, unused*/, (String_t*) &_stringLiteral147, L_1, /*hidden argument*/NULL);
 		return;
@@ -765,7 +765,7 @@ extern "C" void ConsoleBase_CallFBLoginForPublish_m540 (ConsoleBase_t109 * __thi
 	{
 		IntPtr_t L_0 = { (void*)ConsoleBase_LoginCallback_m541_MethodInfo_var };
 		FacebookDelegate_t433 * L_1 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_1, __this, L_0, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_1, __this, L_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		FB_Login_m2261(NULL /*static, unused*/, (String_t*) &_stringLiteral148, L_1, /*hidden argument*/NULL);
 		return;
@@ -1089,7 +1089,7 @@ extern "C" void GameGroupsConsole_CallFbGetAllOwnedGroups_m547 (GameGroupsConsol
 		HttpMethod_t448 * L_2 = HttpMethod_get_GET_m2485(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_3 = { (void*)GameGroupsConsole_GetAllGroupsCB_m546_MethodInfo_var };
 		FacebookDelegate_t433 * L_4 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_4, __this, L_3, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_4, __this, L_3, /*hidden argument*/NULL);
 		FB_API_m2267(NULL /*static, unused*/, L_1, L_2, L_4, (Dictionary_2_t122 *)NULL, /*hidden argument*/NULL);
 		return;
 	}
@@ -1121,7 +1121,7 @@ extern "C" void GameGroupsConsole_CallFbGetUserGroups_m548 (GameGroupsConsole_t1
 		HttpMethod_t448 * L_2 = HttpMethod_get_GET_m2485(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_3 = { (void*)ConsoleBase_Callback_m533_MethodInfo_var };
 		FacebookDelegate_t433 * L_4 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_4, __this, L_3, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_4, __this, L_3, /*hidden argument*/NULL);
 		FB_API_m2267(NULL /*static, unused*/, L_1, L_2, L_4, (Dictionary_2_t122 *)NULL, /*hidden argument*/NULL);
 		return;
 	}
@@ -1146,7 +1146,7 @@ extern "C" void GameGroupsConsole_CallCreateGroupDialog_m549 (GameGroupsConsole_
 		String_t* L_2 = (__this->___GamerGroupPrivacy_12);
 		IntPtr_t L_3 = { (void*)GameGroupsConsole_GroupCreateCB_m544_MethodInfo_var };
 		FacebookDelegate_t433 * L_4 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_4, __this, L_3, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_4, __this, L_3, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		FB_GameGroupCreate_m2272(NULL /*static, unused*/, L_0, L_1, L_2, L_4, /*hidden argument*/NULL);
 		return;
@@ -1170,7 +1170,7 @@ extern "C" void GameGroupsConsole_CallJoinGroupDialog_m550 (GameGroupsConsole_t1
 		String_t* L_0 = (__this->___GamerGroupCurrentGroup_14);
 		IntPtr_t L_1 = { (void*)GameGroupsConsole_GroupCreateCB_m544_MethodInfo_var };
 		FacebookDelegate_t433 * L_2 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_2, __this, L_1, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_2, __this, L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		FB_GameGroupJoin_m2273(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
 		return;
@@ -1182,7 +1182,7 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* HttpMethod_t448_il2cpp_TypeInfo_var;
 extern TypeInfo* FacebookDelegate_t433_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t421_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3695_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3692_MethodInfo_var;
 extern const MethodInfo* ConsoleBase_Callback_m533_MethodInfo_var;
 extern "C" void GameGroupsConsole_CallFbPostToGamerGroup_m551 (GameGroupsConsole_t111 * __this, const MethodInfo* method)
 {
@@ -1194,14 +1194,14 @@ extern "C" void GameGroupsConsole_CallFbPostToGamerGroup_m551 (GameGroupsConsole
 		HttpMethod_t448_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(181);
 		FacebookDelegate_t433_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(177);
 		FB_t421_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(172);
-		Dictionary_2__ctor_m3695_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483707);
+		Dictionary_2__ctor_m3692_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483707);
 		ConsoleBase_Callback_m533_MethodInfo_var = il2cpp_codegen_method_info_from_index(57);
 		s_Il2CppMethodIntialized = true;
 	}
 	Dictionary_2_t122 * V_0 = {0};
 	{
 		Dictionary_2_t122 * L_0 = (Dictionary_2_t122 *)il2cpp_codegen_object_new (Dictionary_2_t122_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3695(L_0, /*hidden argument*/Dictionary_2__ctor_m3695_MethodInfo_var);
+		Dictionary_2__ctor_m3692(L_0, /*hidden argument*/Dictionary_2__ctor_m3692_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t122 * L_1 = V_0;
 		NullCheck(L_1);
@@ -1213,7 +1213,7 @@ extern "C" void GameGroupsConsole_CallFbPostToGamerGroup_m551 (GameGroupsConsole
 		HttpMethod_t448 * L_4 = HttpMethod_get_POST_m2486(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_5 = { (void*)ConsoleBase_Callback_m533_MethodInfo_var };
 		FacebookDelegate_t433 * L_6 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_6, __this, L_5, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_6, __this, L_5, /*hidden argument*/NULL);
 		Dictionary_2_t122 * L_7 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		FB_API_m2267(NULL /*static, unused*/, L_3, L_4, L_6, L_7, /*hidden argument*/NULL);
@@ -1237,7 +1237,7 @@ extern "C" void GameGroupsConsole_OnGUI_m552 (GameGroupsConsole_t111 * __this, c
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		bool L_0 = FB_get_IsLoggedIn_m2256(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		bool L_1 = ConsoleBase_Button_m529(__this, (String_t*) &_stringLiteral161, /*hidden argument*/NULL);
 		if (!L_1)
 		{
@@ -1294,7 +1294,7 @@ IL_0096:
 
 IL_00ac:
 	{
-		GUILayout_Space_m3686(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
+		GUILayout_Space_m3683(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
 		bool L_9 = ConsoleBase_Button_m529(__this, (String_t*) &_stringLiteral169, /*hidden argument*/NULL);
 		if (!L_9)
 		{
@@ -1307,9 +1307,9 @@ IL_00ac:
 
 IL_00cc:
 	{
-		GUILayout_Space_m3686(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
-		GUILayout_EndVertical_m3696(NULL /*static, unused*/, /*hidden argument*/NULL);
-		GUILayout_EndScrollView_m3697(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_Space_m3683(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
+		GUILayout_EndVertical_m3693(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_EndScrollView_m3694(NULL /*static, unused*/, /*hidden argument*/NULL);
 		bool L_10 = ConsoleBase_IsHorizontalLayout_m531(__this, /*hidden argument*/NULL);
 		if (!L_10)
 		{
@@ -1317,13 +1317,13 @@ IL_00cc:
 		}
 	}
 	{
-		GUILayout_EndVertical_m3696(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_EndVertical_m3693(NULL /*static, unused*/, /*hidden argument*/NULL);
 	}
 
 IL_00f0:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 		ConsoleBase_AddCommonFooter_m534(__this, /*hidden argument*/NULL);
 		bool L_11 = ConsoleBase_IsHorizontalLayout_m531(__this, /*hidden argument*/NULL);
 		if (!L_11)
@@ -1332,7 +1332,7 @@ IL_00f0:
 		}
 	}
 	{
-		GUILayout_EndHorizontal_m3674(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_EndHorizontal_m3671(NULL /*static, unused*/, /*hidden argument*/NULL);
 	}
 
 IL_010c:
@@ -1443,7 +1443,7 @@ extern "C" bool U3CTakeScreenshotU3Ec__Iterator0_MoveNext_m556 (U3CTakeScreensho
 IL_0021:
 	{
 		WaitForEndOfFrame_t708 * L_2 = (WaitForEndOfFrame_t708 *)il2cpp_codegen_object_new (WaitForEndOfFrame_t708_il2cpp_TypeInfo_var);
-		WaitForEndOfFrame__ctor_m3698(L_2, /*hidden argument*/NULL);
+		WaitForEndOfFrame__ctor_m3695(L_2, /*hidden argument*/NULL);
 		__this->___U24current_6 = L_2;
 		__this->___U24PC_5 = 1;
 		goto IL_0117;
@@ -1451,45 +1451,45 @@ IL_0021:
 
 IL_0038:
 	{
-		int32_t L_3 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CwidthU3E__0_0 = L_3;
-		int32_t L_4 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___U3CheightU3E__1_1 = L_4;
 		int32_t L_5 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_6 = (__this->___U3CheightU3E__1_1);
 		Texture2D_t108 * L_7 = (Texture2D_t108 *)il2cpp_codegen_object_new (Texture2D_t108_il2cpp_TypeInfo_var);
-		Texture2D__ctor_m3699(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
+		Texture2D__ctor_m3696(L_7, L_5, L_6, 3, 0, /*hidden argument*/NULL);
 		__this->___U3CtexU3E__2_2 = L_7;
 		Texture2D_t108 * L_8 = (__this->___U3CtexU3E__2_2);
 		int32_t L_9 = (__this->___U3CwidthU3E__0_0);
 		int32_t L_10 = (__this->___U3CheightU3E__1_1);
 		Rect_t694  L_11 = {0};
-		Rect__ctor_m3683(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_11, (0.0f), (0.0f), (((float)L_9)), (((float)L_10)), /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Texture2D_ReadPixels_m3700(L_8, L_11, 0, 0, /*hidden argument*/NULL);
+		Texture2D_ReadPixels_m3697(L_8, L_11, 0, 0, /*hidden argument*/NULL);
 		Texture2D_t108 * L_12 = (__this->___U3CtexU3E__2_2);
 		NullCheck(L_12);
-		Texture2D_Apply_m3701(L_12, /*hidden argument*/NULL);
+		Texture2D_Apply_m3698(L_12, /*hidden argument*/NULL);
 		Texture2D_t108 * L_13 = (__this->___U3CtexU3E__2_2);
 		NullCheck(L_13);
-		ByteU5BU5D_t66* L_14 = Texture2D_EncodeToPNG_m3702(L_13, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_14 = Texture2D_EncodeToPNG_m3699(L_13, /*hidden argument*/NULL);
 		__this->___U3CscreenshotU3E__3_3 = L_14;
 		WWWForm_t112 * L_15 = (WWWForm_t112 *)il2cpp_codegen_object_new (WWWForm_t112_il2cpp_TypeInfo_var);
-		WWWForm__ctor_m3703(L_15, /*hidden argument*/NULL);
+		WWWForm__ctor_m3700(L_15, /*hidden argument*/NULL);
 		__this->___U3CwwwFormU3E__4_4 = L_15;
 		WWWForm_t112 * L_16 = (__this->___U3CwwwFormU3E__4_4);
 		ByteU5BU5D_t66* L_17 = (__this->___U3CscreenshotU3E__3_3);
 		NullCheck(L_16);
-		WWWForm_AddBinaryData_m3704(L_16, (String_t*) &_stringLiteral225, L_17, (String_t*) &_stringLiteral226, /*hidden argument*/NULL);
+		WWWForm_AddBinaryData_m3701(L_16, (String_t*) &_stringLiteral225, L_17, (String_t*) &_stringLiteral226, /*hidden argument*/NULL);
 		WWWForm_t112 * L_18 = (__this->___U3CwwwFormU3E__4_4);
 		NullCheck(L_18);
-		WWWForm_AddField_m3705(L_18, (String_t*) &_stringLiteral158, (String_t*) &_stringLiteral227, /*hidden argument*/NULL);
+		WWWForm_AddField_m3702(L_18, (String_t*) &_stringLiteral158, (String_t*) &_stringLiteral227, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(HttpMethod_t448_il2cpp_TypeInfo_var);
 		HttpMethod_t448 * L_19 = HttpMethod_get_POST_m2486(NULL /*static, unused*/, /*hidden argument*/NULL);
 		InteractiveConsole_t113 * L_20 = (__this->___U3CU3Ef__this_7);
 		IntPtr_t L_21 = { (void*)ConsoleBase_Callback_m533_MethodInfo_var };
 		FacebookDelegate_t433 * L_22 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_22, L_20, L_21, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_22, L_20, L_21, /*hidden argument*/NULL);
 		WWWForm_t112 * L_23 = (__this->___U3CwwwFormU3E__4_4);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		FB_API_m2268(NULL /*static, unused*/, (String_t*) &_stringLiteral228, L_19, L_22, L_23, /*hidden argument*/NULL);
@@ -1585,11 +1585,11 @@ struct List_1_t684;
 struct IEnumerable_1_t710;
 // Declaration System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
 // System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
-extern "C" List_1_t684 * Enumerable_ToList_TisObject_t_m3707_gshared (Object_t * __this /* static, unused */, Object_t* p0, const MethodInfo* method);
-#define Enumerable_ToList_TisObject_t_m3707(__this /* static, unused */, p0, method) (( List_1_t684 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToList_TisObject_t_m3707_gshared)(__this /* static, unused */, p0, method)
+extern "C" List_1_t684 * Enumerable_ToList_TisObject_t_m3704_gshared (Object_t * __this /* static, unused */, Object_t* p0, const MethodInfo* method);
+#define Enumerable_ToList_TisObject_t_m3704(__this /* static, unused */, p0, method) (( List_1_t684 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToList_TisObject_t_m3704_gshared)(__this /* static, unused */, p0, method)
 // Declaration System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.String>(System.Collections.Generic.IEnumerable`1<!!0>)
 // System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.String>(System.Collections.Generic.IEnumerable`1<!!0>)
-#define Enumerable_ToList_TisString_t_m3706(__this /* static, unused */, p0, method) (( List_1_t115 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToList_TisObject_t_m3707_gshared)(__this /* static, unused */, p0, method)
+#define Enumerable_ToList_TisString_t_m3703(__this /* static, unused */, p0, method) (( List_1_t115 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToList_TisObject_t_m3704_gshared)(__this /* static, unused */, p0, method)
 
 
 // System.Void InteractiveConsole::.ctor()
@@ -1597,8 +1597,8 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* StringU5BU5D_t75_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t115_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t116_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3708_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3709_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3705_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3706_MethodInfo_var;
 extern "C" void InteractiveConsole__ctor_m559 (InteractiveConsole_t113 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -1608,8 +1608,8 @@ extern "C" void InteractiveConsole__ctor_m559 (InteractiveConsole_t113 * __this,
 		StringU5BU5D_t75_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(50);
 		List_1_t115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(186);
 		Dictionary_2_t116_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(187);
-		List_1__ctor_m3708_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483708);
-		Dictionary_2__ctor_m3709_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483709);
+		List_1__ctor_m3705_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483708);
+		Dictionary_2__ctor_m3706_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483709);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1634,10 +1634,10 @@ extern "C" void InteractiveConsole__ctor_m559 (InteractiveConsole_t113 * __this,
 		*((String_t**)(String_t**)SZArrayLdElema(L_3, 2)) = (String_t*)(String_t*) &_stringLiteral173;
 		__this->___FriendFilterTypes_12 = L_3;
 		List_1_t115 * L_4 = (List_1_t115 *)il2cpp_codegen_object_new (List_1_t115_il2cpp_TypeInfo_var);
-		List_1__ctor_m3708(L_4, /*hidden argument*/List_1__ctor_m3708_MethodInfo_var);
+		List_1__ctor_m3705(L_4, /*hidden argument*/List_1__ctor_m3705_MethodInfo_var);
 		__this->___FriendFilterGroupNames_14 = L_4;
 		List_1_t115 * L_5 = (List_1_t115 *)il2cpp_codegen_object_new (List_1_t115_il2cpp_TypeInfo_var);
-		List_1__ctor_m3708(L_5, /*hidden argument*/List_1__ctor_m3708_MethodInfo_var);
+		List_1__ctor_m3705(L_5, /*hidden argument*/List_1__ctor_m3705_MethodInfo_var);
 		__this->___FriendFilterGroupIDs_15 = L_5;
 		__this->___FriendSelectorData_17 = (String_t*) &_stringLiteral174;
 		String_t* L_6 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
@@ -1670,7 +1670,7 @@ extern "C" void InteractiveConsole__ctor_m559 (InteractiveConsole_t113 * __this,
 		String_t* L_19 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___FeedReference_32 = L_19;
 		Dictionary_2_t116 * L_20 = (Dictionary_2_t116 *)il2cpp_codegen_object_new (Dictionary_2_t116_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3709(L_20, /*hidden argument*/Dictionary_2__ctor_m3709_MethodInfo_var);
+		Dictionary_2__ctor_m3706(L_20, /*hidden argument*/Dictionary_2__ctor_m3706_MethodInfo_var);
 		__this->___FeedProperties_34 = L_20;
 		String_t* L_21 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___PayProduct_35 = L_21;
@@ -1710,9 +1710,9 @@ extern TypeInfo* List_1_t684_il2cpp_TypeInfo_var;
 extern TypeInfo* FBAppRequestsFilterGroup_t424_il2cpp_TypeInfo_var;
 extern TypeInfo* FacebookDelegate_t433_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t421_il2cpp_TypeInfo_var;
-extern const MethodInfo* Nullable_1__ctor_m3711_MethodInfo_var;
-extern const MethodInfo* List_1__ctor_m3713_MethodInfo_var;
-extern const MethodInfo* Enumerable_ToList_TisString_t_m3706_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m3708_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3710_MethodInfo_var;
+extern const MethodInfo* Enumerable_ToList_TisString_t_m3703_MethodInfo_var;
 extern const MethodInfo* ConsoleBase_Callback_m533_MethodInfo_var;
 extern "C" void InteractiveConsole_CallAppRequestAsFriendSelector_m561 (InteractiveConsole_t113 * __this, const MethodInfo* method)
 {
@@ -1727,9 +1727,9 @@ extern "C" void InteractiveConsole_CallAppRequestAsFriendSelector_m561 (Interact
 		FBAppRequestsFilterGroup_t424_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(191);
 		FacebookDelegate_t433_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(177);
 		FB_t421_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(172);
-		Nullable_1__ctor_m3711_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483710);
-		List_1__ctor_m3713_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483711);
-		Enumerable_ToList_TisString_t_m3706_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483712);
+		Nullable_1__ctor_m3708_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483710);
+		List_1__ctor_m3710_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483711);
+		Enumerable_ToList_TisString_t_m3703_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483712);
 		ConsoleBase_Callback_m533_MethodInfo_var = il2cpp_codegen_method_info_from_index(57);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -1771,9 +1771,9 @@ IL_0020:
 	try
 	{ // begin try (depth: 1)
 		String_t* L_4 = (__this->___FriendSelectorMax_19);
-		int32_t L_5 = Int32_Parse_m3710(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = Int32_Parse_m3707(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		Nullable_1_t690  L_6 = {0};
-		Nullable_1__ctor_m3711(&L_6, L_5, /*hidden argument*/Nullable_1__ctor_m3711_MethodInfo_var);
+		Nullable_1__ctor_m3708(&L_6, L_5, /*hidden argument*/Nullable_1__ctor_m3708_MethodInfo_var);
 		V_0 = L_6;
 		goto IL_0048;
 	} // end try (depth: 1)
@@ -1819,7 +1819,7 @@ IL_0063:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_13, 0)) = (uint16_t)((int32_t)44);
 		NullCheck(L_12);
-		StringU5BU5D_t75* L_14 = String_Split_m3712(L_12, L_13, /*hidden argument*/NULL);
+		StringU5BU5D_t75* L_14 = String_Split_m3709(L_12, L_13, /*hidden argument*/NULL);
 		G_B6_0 = L_14;
 	}
 
@@ -1827,7 +1827,7 @@ IL_0079:
 	{
 		V_2 = G_B6_0;
 		List_1_t684 * L_15 = (List_1_t684 *)il2cpp_codegen_object_new (List_1_t684_il2cpp_TypeInfo_var);
-		List_1__ctor_m3713(L_15, /*hidden argument*/List_1__ctor_m3713_MethodInfo_var);
+		List_1__ctor_m3710(L_15, /*hidden argument*/List_1__ctor_m3710_MethodInfo_var);
 		V_3 = L_15;
 		int32_t L_16 = (__this->___FriendFilterSelection_13);
 		if ((((int32_t)L_16) <= ((int32_t)0)))
@@ -1875,8 +1875,8 @@ IL_00b3:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_29, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_29, 0)) = (uint16_t)((int32_t)44);
 		NullCheck(L_28);
-		StringU5BU5D_t75* L_30 = String_Split_m3712(L_28, L_29, /*hidden argument*/NULL);
-		List_1_t115 * L_31 = Enumerable_ToList_TisString_t_m3706(NULL /*static, unused*/, (Object_t*)(Object_t*)L_30, /*hidden argument*/Enumerable_ToList_TisString_t_m3706_MethodInfo_var);
+		StringU5BU5D_t75* L_30 = String_Split_m3709(L_28, L_29, /*hidden argument*/NULL);
+		List_1_t115 * L_31 = Enumerable_ToList_TisString_t_m3703(NULL /*static, unused*/, (Object_t*)(Object_t*)L_30, /*hidden argument*/Enumerable_ToList_TisString_t_m3703_MethodInfo_var);
 		FBAppRequestsFilterGroup_t424 * L_32 = (FBAppRequestsFilterGroup_t424 *)il2cpp_codegen_object_new (FBAppRequestsFilterGroup_t424_il2cpp_TypeInfo_var);
 		FBAppRequestsFilterGroup__ctor_m2276(L_32, L_25, L_31, /*hidden argument*/NULL);
 		NullCheck(L_22);
@@ -1933,7 +1933,7 @@ IL_011a:
 		String_t* L_43 = (__this->___FriendSelectorTitle_10);
 		IntPtr_t L_44 = { (void*)ConsoleBase_Callback_m533_MethodInfo_var };
 		FacebookDelegate_t433 * L_45 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_45, __this, L_44, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_45, __this, L_44, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		FB_AppRequest_m2265(NULL /*static, unused*/, G_B15_2, (StringU5BU5D_t75*)(StringU5BU5D_t75*)G_B15_1, G_B15_0, L_40, L_41, L_42, L_43, L_45, /*hidden argument*/NULL);
 		return;
@@ -1974,7 +1974,7 @@ extern "C" void InteractiveConsole_CallAppRequestAsDirectRequest_m562 (Interacti
 	}
 	{
 		ArgumentException_t711 * L_3 = (ArgumentException_t711 *)il2cpp_codegen_object_new (ArgumentException_t711_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3714(L_3, (String_t*) &_stringLiteral177, (String_t*) &_stringLiteral178, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3711(L_3, (String_t*) &_stringLiteral177, (String_t*) &_stringLiteral178, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -1987,7 +1987,7 @@ IL_0025:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_6, 0)) = (uint16_t)((int32_t)44);
 		NullCheck(L_5);
-		StringU5BU5D_t75* L_7 = String_Split_m3712(L_5, L_6, /*hidden argument*/NULL);
+		StringU5BU5D_t75* L_7 = String_Split_m3709(L_5, L_6, /*hidden argument*/NULL);
 		Initobj (Nullable_1_t690_il2cpp_TypeInfo_var, (&V_0));
 		Nullable_1_t690  L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
@@ -1995,7 +1995,7 @@ IL_0025:
 		String_t* L_10 = (__this->___DirectRequestTitle_20);
 		IntPtr_t L_11 = { (void*)ConsoleBase_Callback_m533_MethodInfo_var };
 		FacebookDelegate_t433 * L_12 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_12, __this, L_11, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_12, __this, L_11, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		FB_AppRequest_m2265(NULL /*static, unused*/, L_4, L_7, (List_1_t684 *)NULL, (StringU5BU5D_t75*)(StringU5BU5D_t75*)NULL, L_8, L_9, L_10, L_12, /*hidden argument*/NULL);
 		return;
@@ -2044,7 +2044,7 @@ IL_0014:
 		Dictionary_2_t116 * L_12 = V_0;
 		IntPtr_t L_13 = { (void*)ConsoleBase_Callback_m533_MethodInfo_var };
 		FacebookDelegate_t433 * L_14 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_14, __this, L_13, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_14, __this, L_13, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		FB_Feed_m2266(NULL /*static, unused*/, L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, L_10, L_11, L_12, L_14, /*hidden argument*/NULL);
 		return;
@@ -2094,7 +2094,7 @@ extern "C" void InteractiveConsole_CallFBAPI_m565 (InteractiveConsole_t113 * __t
 		HttpMethod_t448 * L_1 = HttpMethod_get_GET_m2485(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_2 = { (void*)ConsoleBase_Callback_m533_MethodInfo_var };
 		FacebookDelegate_t433 * L_3 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_3, __this, L_2, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_3, __this, L_2, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		FB_API_m2267(NULL /*static, unused*/, L_0, L_1, L_3, (Dictionary_2_t122 *)NULL, /*hidden argument*/NULL);
 		return;
@@ -2117,7 +2117,7 @@ extern "C" void InteractiveConsole_CallFBGetDeepLink_m566 (InteractiveConsole_t1
 	{
 		IntPtr_t L_0 = { (void*)ConsoleBase_Callback_m533_MethodInfo_var };
 		FacebookDelegate_t433 * L_1 = (FacebookDelegate_t433 *)il2cpp_codegen_object_new (FacebookDelegate_t433_il2cpp_TypeInfo_var);
-		FacebookDelegate__ctor_m3651(L_1, __this, L_0, /*hidden argument*/NULL);
+		FacebookDelegate__ctor_m3648(L_1, __this, L_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		FB_GetDeepLink_m2271(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		return;
@@ -2129,7 +2129,7 @@ extern TypeInfo* Dictionary_2_t312_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t421_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* FBResult_t281_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3715_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3712_MethodInfo_var;
 extern "C" void InteractiveConsole_CallAppEventLogEvent_m567 (InteractiveConsole_t113 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -2140,7 +2140,7 @@ extern "C" void InteractiveConsole_CallAppEventLogEvent_m567 (InteractiveConsole
 		FB_t421_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(172);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		FBResult_t281_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(188);
-		Dictionary_2__ctor_m3715_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		Dictionary_2__ctor_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
 		s_Il2CppMethodIntialized = true;
 	}
 	Nullable_1_t691  V_0 = {0};
@@ -2149,7 +2149,7 @@ extern "C" void InteractiveConsole_CallAppEventLogEvent_m567 (InteractiveConsole
 		Initobj (Nullable_1_t691_il2cpp_TypeInfo_var, (&V_0));
 		Nullable_1_t691  L_0 = V_0;
 		Dictionary_2_t312 * L_1 = (Dictionary_2_t312 *)il2cpp_codegen_object_new (Dictionary_2_t312_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3715(L_1, /*hidden argument*/Dictionary_2__ctor_m3715_MethodInfo_var);
+		Dictionary_2__ctor_m3712(L_1, /*hidden argument*/Dictionary_2__ctor_m3712_MethodInfo_var);
 		V_1 = L_1;
 		Dictionary_2_t312 * L_2 = V_1;
 		NullCheck(L_2);
@@ -2213,17 +2213,17 @@ extern "C" void InteractiveConsole_FriendFilterArea_m569 (InteractiveConsole_t11
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		GUILayout_Label_m3672(NULL /*static, unused*/, (String_t*) &_stringLiteral190, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		GUILayout_Label_m3669(NULL /*static, unused*/, (String_t*) &_stringLiteral190, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
 		int32_t L_0 = (__this->___FriendFilterSelection_13);
 		StringU5BU5D_t75* L_1 = (__this->___FriendFilterTypes_12);
 		GUILayoutOptionU5BU5D_t701* L_2 = ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 1));
 		int32_t L_3 = (((ConsoleBase_t109 *)__this)->___buttonHeight_7);
-		GUILayoutOption_t702 * L_4 = GUILayout_MinHeight_m3668(NULL /*static, unused*/, (((float)L_3)), /*hidden argument*/NULL);
+		GUILayoutOption_t702 * L_4 = GUILayout_MinHeight_m3665(NULL /*static, unused*/, (((float)L_3)), /*hidden argument*/NULL);
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
 		ArrayElementTypeCheck (L_2, L_4);
 		*((GUILayoutOption_t702 **)(GUILayoutOption_t702 **)SZArrayLdElema(L_2, 0)) = (GUILayoutOption_t702 *)L_4;
-		int32_t L_5 = GUILayout_SelectionGrid_m3716(NULL /*static, unused*/, L_0, L_1, 3, L_2, /*hidden argument*/NULL);
+		int32_t L_5 = GUILayout_SelectionGrid_m3713(NULL /*static, unused*/, L_0, L_1, 3, L_2, /*hidden argument*/NULL);
 		__this->___FriendFilterSelection_13 = L_5;
 		return;
 	}
@@ -2271,8 +2271,8 @@ IL_0027:
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t421_il2cpp_TypeInfo_var);
 		bool L_1 = FB_get_IsLoggedIn_m2256(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
-		GUILayout_Space_m3686(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		GUILayout_Space_m3683(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
 		String_t** L_2 = &(__this->___FriendSelectorTitle_10);
 		ConsoleBase_LabelAndTextField_m530(__this, (String_t*) &_stringLiteral193, L_2, /*hidden argument*/NULL);
 		String_t** L_3 = &(__this->___FriendSelectorMessage_11);
@@ -2318,7 +2318,7 @@ CATCH_00bc:
 
 IL_00ce:
 	{
-		GUILayout_Space_m3686(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
+		GUILayout_Space_m3683(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
 		String_t** L_10 = &(__this->___DirectRequestTitle_20);
 		ConsoleBase_LabelAndTextField_m530(__this, (String_t*) &_stringLiteral193, L_10, /*hidden argument*/NULL);
 		String_t** L_11 = &(__this->___DirectRequestMessage_21);
@@ -2359,7 +2359,7 @@ CATCH_0131:
 
 IL_0143:
 	{
-		GUILayout_Space_m3686(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
+		GUILayout_Space_m3683(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
 		String_t** L_16 = &(__this->___FeedToId_23);
 		ConsoleBase_LabelAndTextField_m530(__this, (String_t*) &_stringLiteral203, L_16, /*hidden argument*/NULL);
 		String_t** L_17 = &(__this->___FeedLink_24);
@@ -2380,18 +2380,18 @@ IL_0143:
 		ConsoleBase_LabelAndTextField_m530(__this, (String_t*) &_stringLiteral211, L_24, /*hidden argument*/NULL);
 		String_t** L_25 = &(__this->___FeedReference_32);
 		ConsoleBase_LabelAndTextField_m530(__this, (String_t*) &_stringLiteral212, L_25, /*hidden argument*/NULL);
-		GUILayout_BeginHorizontal_m3671(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		GUILayout_BeginHorizontal_m3668(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
 		GUILayoutOptionU5BU5D_t701* L_26 = ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 1));
-		GUILayoutOption_t702 * L_27 = GUILayout_Width_m3717(NULL /*static, unused*/, (150.0f), /*hidden argument*/NULL);
+		GUILayoutOption_t702 * L_27 = GUILayout_Width_m3714(NULL /*static, unused*/, (150.0f), /*hidden argument*/NULL);
 		NullCheck(L_26);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_26, 0);
 		ArrayElementTypeCheck (L_26, L_27);
 		*((GUILayoutOption_t702 **)(GUILayoutOption_t702 **)SZArrayLdElema(L_26, 0)) = (GUILayoutOption_t702 *)L_27;
-		GUILayout_Label_m3672(NULL /*static, unused*/, (String_t*) &_stringLiteral213, L_26, /*hidden argument*/NULL);
+		GUILayout_Label_m3669(NULL /*static, unused*/, (String_t*) &_stringLiteral213, L_26, /*hidden argument*/NULL);
 		bool L_28 = (__this->___IncludeFeedProperties_33);
-		bool L_29 = GUILayout_Toggle_m3718(NULL /*static, unused*/, L_28, (String_t*) &_stringLiteral214, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
+		bool L_29 = GUILayout_Toggle_m3715(NULL /*static, unused*/, L_28, (String_t*) &_stringLiteral214, ((GUILayoutOptionU5BU5D_t701*)SZArrayNew(GUILayoutOptionU5BU5D_t701_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
 		__this->___IncludeFeedProperties_33 = L_29;
-		GUILayout_EndHorizontal_m3674(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_EndHorizontal_m3671(NULL /*static, unused*/, /*hidden argument*/NULL);
 		bool L_30 = ConsoleBase_Button_m529(__this, (String_t*) &_stringLiteral215, /*hidden argument*/NULL);
 		if (!L_30)
 		{
@@ -2426,7 +2426,7 @@ CATCH_0266:
 
 IL_0278:
 	{
-		GUILayout_Space_m3686(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
+		GUILayout_Space_m3683(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
 		String_t** L_33 = &(__this->___ApiQuery_36);
 		ConsoleBase_LabelAndTextField_m530(__this, (String_t*) &_stringLiteral217, L_33, /*hidden argument*/NULL);
 		bool L_34 = ConsoleBase_Button_m529(__this, (String_t*) &_stringLiteral218, /*hidden argument*/NULL);
@@ -2442,7 +2442,7 @@ IL_0278:
 
 IL_02b4:
 	{
-		GUILayout_Space_m3686(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
+		GUILayout_Space_m3683(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
 		bool L_35 = ConsoleBase_Button_m529(__this, (String_t*) &_stringLiteral220, /*hidden argument*/NULL);
 		if (!L_35)
 		{
@@ -2452,7 +2452,7 @@ IL_02b4:
 	{
 		((ConsoleBase_t109 *)__this)->___status_2 = (String_t*) &_stringLiteral221;
 		Object_t * L_36 = InteractiveConsole_TakeScreenshot_m571(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m3719(__this, L_36, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m3716(__this, L_36, /*hidden argument*/NULL);
 	}
 
 IL_02e6:
@@ -2470,7 +2470,7 @@ IL_02e6:
 IL_02fc:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 		bool L_38 = ConsoleBase_Button_m529(__this, (String_t*) &_stringLiteral223, /*hidden argument*/NULL);
 		if (!L_38)
 		{
@@ -2484,9 +2484,9 @@ IL_02fc:
 
 IL_0323:
 	{
-		GUILayout_Space_m3686(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
-		GUILayout_EndVertical_m3696(NULL /*static, unused*/, /*hidden argument*/NULL);
-		GUILayout_EndScrollView_m3697(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_Space_m3683(NULL /*static, unused*/, (10.0f), /*hidden argument*/NULL);
+		GUILayout_EndVertical_m3693(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_EndScrollView_m3694(NULL /*static, unused*/, /*hidden argument*/NULL);
 		bool L_39 = ConsoleBase_IsHorizontalLayout_m531(__this, /*hidden argument*/NULL);
 		if (!L_39)
 		{
@@ -2494,7 +2494,7 @@ IL_0323:
 		}
 	}
 	{
-		GUILayout_EndVertical_m3696(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_EndVertical_m3693(NULL /*static, unused*/, /*hidden argument*/NULL);
 	}
 
 IL_0347:
@@ -2507,7 +2507,7 @@ IL_0347:
 		}
 	}
 	{
-		GUILayout_EndHorizontal_m3674(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_EndHorizontal_m3671(NULL /*static, unused*/, /*hidden argument*/NULL);
 	}
 
 IL_035d:
@@ -2575,8 +2575,8 @@ extern "C" Object_t * InteractiveConsole_TakeScreenshot_m571 (InteractiveConsole
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t122_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t121_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3695_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3720_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3692_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3717_MethodInfo_var;
 extern "C" void AN_ActivityTemplate__ctor_m572 (AN_ActivityTemplate_t117 * __this, bool ___isLauncher, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -2585,8 +2585,8 @@ extern "C" void AN_ActivityTemplate__ctor_m572 (AN_ActivityTemplate_t117 * __thi
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		Dictionary_2_t122_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(182);
 		Dictionary_2_t121_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(197);
-		Dictionary_2__ctor_m3695_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483707);
-		Dictionary_2__ctor_m3720_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483714);
+		Dictionary_2__ctor_m3692_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483707);
+		Dictionary_2__ctor_m3717_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483714);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -2601,10 +2601,10 @@ extern "C" void AN_ActivityTemplate__ctor_m572 (AN_ActivityTemplate_t117 * __thi
 		int32_t L_3 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, __this);
 		__this->____id_3 = L_3;
 		Dictionary_2_t122 * L_4 = (Dictionary_2_t122 *)il2cpp_codegen_object_new (Dictionary_2_t122_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3695(L_4, /*hidden argument*/Dictionary_2__ctor_m3695_MethodInfo_var);
+		Dictionary_2__ctor_m3692(L_4, /*hidden argument*/Dictionary_2__ctor_m3692_MethodInfo_var);
 		((AN_BaseTemplate_t118 *)__this)->____values_1 = L_4;
 		Dictionary_2_t121 * L_5 = (Dictionary_2_t121 *)il2cpp_codegen_object_new (Dictionary_2_t121_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3720(L_5, /*hidden argument*/Dictionary_2__ctor_m3720_MethodInfo_var);
+		Dictionary_2__ctor_m3717(L_5, /*hidden argument*/Dictionary_2__ctor_m3717_MethodInfo_var);
 		((AN_BaseTemplate_t118 *)__this)->____properties_0 = L_5;
 		String_t* L_6 = ___name;
 		AN_BaseTemplate_SetValue_m600(__this, (String_t*) &_stringLiteral229, L_6, /*hidden argument*/NULL);
@@ -2674,9 +2674,9 @@ extern "C" AN_PropertyTemplate_t126 * AN_ActivityTemplate_GetLauncherPropertyTem
 // System.Boolean AN_ActivityTemplate::IsLauncherProperty(AN_PropertyTemplate)
 extern TypeInfo* Enumerator_t712_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m3721_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3722_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3723_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3718_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3719_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3720_MethodInfo_var;
 extern "C" bool AN_ActivityTemplate_IsLauncherProperty_m576 (AN_ActivityTemplate_t117 * __this, AN_PropertyTemplate_t126 * ___property, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -2684,9 +2684,9 @@ extern "C" bool AN_ActivityTemplate_IsLauncherProperty_m576 (AN_ActivityTemplate
 	{
 		Enumerator_t712_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(198);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1_GetEnumerator_m3721_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
-		Enumerator_get_Current_m3722_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
-		Enumerator_MoveNext_m3723_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
+		List_1_GetEnumerator_m3718_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
+		Enumerator_get_Current_m3719_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
+		Enumerator_MoveNext_m3720_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
 		s_Il2CppMethodIntialized = true;
 	}
 	AN_PropertyTemplate_t126 * V_0 = {0};
@@ -2716,7 +2716,7 @@ extern "C" bool AN_ActivityTemplate_IsLauncherProperty_m576 (AN_ActivityTemplate
 		NullCheck(L_4);
 		List_1_t123 * L_5 = (List_1_t123 *)VirtFuncInvoker1< List_1_t123 *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>::get_Item(!0) */, L_4, (String_t*) &_stringLiteral233);
 		NullCheck(L_5);
-		Enumerator_t712  L_6 = List_1_GetEnumerator_m3721(L_5, /*hidden argument*/List_1_GetEnumerator_m3721_MethodInfo_var);
+		Enumerator_t712  L_6 = List_1_GetEnumerator_m3718(L_5, /*hidden argument*/List_1_GetEnumerator_m3718_MethodInfo_var);
 		V_1 = L_6;
 	}
 
@@ -2729,7 +2729,7 @@ IL_002b:
 
 IL_0030:
 		{
-			AN_PropertyTemplate_t126 * L_7 = Enumerator_get_Current_m3722((&V_1), /*hidden argument*/Enumerator_get_Current_m3722_MethodInfo_var);
+			AN_PropertyTemplate_t126 * L_7 = Enumerator_get_Current_m3719((&V_1), /*hidden argument*/Enumerator_get_Current_m3719_MethodInfo_var);
 			V_0 = L_7;
 			AN_PropertyTemplate_t126 * L_8 = V_0;
 			NullCheck(L_8);
@@ -2765,7 +2765,7 @@ IL_006c:
 
 IL_0073:
 		{
-			bool L_15 = Enumerator_MoveNext_m3723((&V_1), /*hidden argument*/Enumerator_MoveNext_m3723_MethodInfo_var);
+			bool L_15 = Enumerator_MoveNext_m3720((&V_1), /*hidden argument*/Enumerator_MoveNext_m3720_MethodInfo_var);
 			if (L_15)
 			{
 				goto IL_0030;
@@ -2922,20 +2922,20 @@ extern "C" int32_t AN_ActivityTemplate_get_Id_m580 (AN_ActivityTemplate_t117 * _
 
 // System.Void AN_ApplicationTemplate::.ctor()
 extern TypeInfo* Dictionary_2_t119_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3724_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3721_MethodInfo_var;
 extern "C" void AN_ApplicationTemplate__ctor_m581 (AN_ApplicationTemplate_t120 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t119_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(200);
-		Dictionary_2__ctor_m3724_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483718);
+		Dictionary_2__ctor_m3721_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483718);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		AN_BaseTemplate__ctor_m589(__this, /*hidden argument*/NULL);
 		Dictionary_2_t119 * L_0 = (Dictionary_2_t119 *)il2cpp_codegen_object_new (Dictionary_2_t119_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3724(L_0, /*hidden argument*/Dictionary_2__ctor_m3724_MethodInfo_var);
+		Dictionary_2__ctor_m3721(L_0, /*hidden argument*/Dictionary_2__ctor_m3721_MethodInfo_var);
 		__this->____activities_2 = L_0;
 		return;
 	}
@@ -3006,10 +3006,10 @@ IL_001d:
 // AN_ActivityTemplate AN_ApplicationTemplate::GetActivityWithName(System.String)
 extern TypeInfo* Enumerator_t714_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m3725_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3726_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m3727_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3728_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m3722_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3723_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m3724_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3725_MethodInfo_var;
 extern "C" AN_ActivityTemplate_t117 * AN_ApplicationTemplate_GetActivityWithName_m585 (AN_ApplicationTemplate_t120 * __this, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -3017,10 +3017,10 @@ extern "C" AN_ActivityTemplate_t117 * AN_ApplicationTemplate_GetActivityWithName
 	{
 		Enumerator_t714_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(201);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		Dictionary_2_GetEnumerator_m3725_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483719);
-		Enumerator_get_Current_m3726_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483720);
-		KeyValuePair_2_get_Value_m3727_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483721);
-		Enumerator_MoveNext_m3728_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483722);
+		Dictionary_2_GetEnumerator_m3722_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483719);
+		Enumerator_get_Current_m3723_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483720);
+		KeyValuePair_2_get_Value_m3724_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483721);
+		Enumerator_MoveNext_m3725_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483722);
 		s_Il2CppMethodIntialized = true;
 	}
 	KeyValuePair_2_t713  V_0 = {0};
@@ -3035,7 +3035,7 @@ extern "C" AN_ActivityTemplate_t117 * AN_ApplicationTemplate_GetActivityWithName
 	{
 		Dictionary_2_t119 * L_0 = AN_ApplicationTemplate_get_Activities_m588(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Enumerator_t714  L_1 = Dictionary_2_GetEnumerator_m3725(L_0, /*hidden argument*/Dictionary_2_GetEnumerator_m3725_MethodInfo_var);
+		Enumerator_t714  L_1 = Dictionary_2_GetEnumerator_m3722(L_0, /*hidden argument*/Dictionary_2_GetEnumerator_m3722_MethodInfo_var);
 		V_1 = L_1;
 	}
 
@@ -3048,9 +3048,9 @@ IL_000c:
 
 IL_0011:
 		{
-			KeyValuePair_2_t713  L_2 = Enumerator_get_Current_m3726((&V_1), /*hidden argument*/Enumerator_get_Current_m3726_MethodInfo_var);
+			KeyValuePair_2_t713  L_2 = Enumerator_get_Current_m3723((&V_1), /*hidden argument*/Enumerator_get_Current_m3723_MethodInfo_var);
 			V_0 = L_2;
-			AN_ActivityTemplate_t117 * L_3 = KeyValuePair_2_get_Value_m3727((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3727_MethodInfo_var);
+			AN_ActivityTemplate_t117 * L_3 = KeyValuePair_2_get_Value_m3724((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3724_MethodInfo_var);
 			NullCheck(L_3);
 			String_t* L_4 = AN_ActivityTemplate_get_Name_m579(L_3, /*hidden argument*/NULL);
 			String_t* L_5 = ___name;
@@ -3064,14 +3064,14 @@ IL_0011:
 
 IL_0030:
 		{
-			AN_ActivityTemplate_t117 * L_7 = KeyValuePair_2_get_Value_m3727((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3727_MethodInfo_var);
+			AN_ActivityTemplate_t117 * L_7 = KeyValuePair_2_get_Value_m3724((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3724_MethodInfo_var);
 			V_2 = L_7;
 			IL2CPP_LEAVE(0x5C, FINALLY_004e);
 		}
 
 IL_003d:
 		{
-			bool L_8 = Enumerator_MoveNext_m3728((&V_1), /*hidden argument*/Enumerator_MoveNext_m3728_MethodInfo_var);
+			bool L_8 = Enumerator_MoveNext_m3725((&V_1), /*hidden argument*/Enumerator_MoveNext_m3725_MethodInfo_var);
 			if (L_8)
 			{
 				goto IL_0011;
@@ -3119,10 +3119,10 @@ IL_005c:
 // AN_ActivityTemplate AN_ApplicationTemplate::GetLauncherActivity()
 extern TypeInfo* Enumerator_t714_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m3725_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3726_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m3727_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3728_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m3722_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3723_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m3724_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3725_MethodInfo_var;
 extern "C" AN_ActivityTemplate_t117 * AN_ApplicationTemplate_GetLauncherActivity_m586 (AN_ApplicationTemplate_t120 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -3130,10 +3130,10 @@ extern "C" AN_ActivityTemplate_t117 * AN_ApplicationTemplate_GetLauncherActivity
 	{
 		Enumerator_t714_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(201);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		Dictionary_2_GetEnumerator_m3725_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483719);
-		Enumerator_get_Current_m3726_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483720);
-		KeyValuePair_2_get_Value_m3727_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483721);
-		Enumerator_MoveNext_m3728_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483722);
+		Dictionary_2_GetEnumerator_m3722_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483719);
+		Enumerator_get_Current_m3723_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483720);
+		KeyValuePair_2_get_Value_m3724_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483721);
+		Enumerator_MoveNext_m3725_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483722);
 		s_Il2CppMethodIntialized = true;
 	}
 	KeyValuePair_2_t713  V_0 = {0};
@@ -3148,7 +3148,7 @@ extern "C" AN_ActivityTemplate_t117 * AN_ApplicationTemplate_GetLauncherActivity
 	{
 		Dictionary_2_t119 * L_0 = AN_ApplicationTemplate_get_Activities_m588(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Enumerator_t714  L_1 = Dictionary_2_GetEnumerator_m3725(L_0, /*hidden argument*/Dictionary_2_GetEnumerator_m3725_MethodInfo_var);
+		Enumerator_t714  L_1 = Dictionary_2_GetEnumerator_m3722(L_0, /*hidden argument*/Dictionary_2_GetEnumerator_m3722_MethodInfo_var);
 		V_1 = L_1;
 	}
 
@@ -3161,9 +3161,9 @@ IL_000c:
 
 IL_0011:
 		{
-			KeyValuePair_2_t713  L_2 = Enumerator_get_Current_m3726((&V_1), /*hidden argument*/Enumerator_get_Current_m3726_MethodInfo_var);
+			KeyValuePair_2_t713  L_2 = Enumerator_get_Current_m3723((&V_1), /*hidden argument*/Enumerator_get_Current_m3723_MethodInfo_var);
 			V_0 = L_2;
-			AN_ActivityTemplate_t117 * L_3 = KeyValuePair_2_get_Value_m3727((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3727_MethodInfo_var);
+			AN_ActivityTemplate_t117 * L_3 = KeyValuePair_2_get_Value_m3724((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3724_MethodInfo_var);
 			NullCheck(L_3);
 			bool L_4 = AN_ActivityTemplate_get_IsLauncher_m578(L_3, /*hidden argument*/NULL);
 			if (!L_4)
@@ -3174,14 +3174,14 @@ IL_0011:
 
 IL_002a:
 		{
-			AN_ActivityTemplate_t117 * L_5 = KeyValuePair_2_get_Value_m3727((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3727_MethodInfo_var);
+			AN_ActivityTemplate_t117 * L_5 = KeyValuePair_2_get_Value_m3724((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3724_MethodInfo_var);
 			V_2 = L_5;
 			IL2CPP_LEAVE(0x56, FINALLY_0048);
 		}
 
 IL_0037:
 		{
-			bool L_6 = Enumerator_MoveNext_m3728((&V_1), /*hidden argument*/Enumerator_MoveNext_m3728_MethodInfo_var);
+			bool L_6 = Enumerator_MoveNext_m3725((&V_1), /*hidden argument*/Enumerator_MoveNext_m3725_MethodInfo_var);
 			if (L_6)
 			{
 				goto IL_0011;
@@ -3229,10 +3229,10 @@ IL_0056:
 // System.Void AN_ApplicationTemplate::ToXmlElement(System.Xml.XmlDocument,System.Xml.XmlElement)
 extern TypeInfo* Enumerator_t715_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2_get_Keys_m3729_MethodInfo_var;
-extern const MethodInfo* KeyCollection_GetEnumerator_m3730_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3731_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3733_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Keys_m3726_MethodInfo_var;
+extern const MethodInfo* KeyCollection_GetEnumerator_m3727_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3728_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3730_MethodInfo_var;
 extern "C" void AN_ApplicationTemplate_ToXmlElement_m587 (AN_ApplicationTemplate_t120 * __this, XmlDocument_t677 * ___doc, XmlElement_t678 * ___parent, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -3240,10 +3240,10 @@ extern "C" void AN_ApplicationTemplate_ToXmlElement_m587 (AN_ApplicationTemplate
 	{
 		Enumerator_t715_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(202);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		Dictionary_2_get_Keys_m3729_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483723);
-		KeyCollection_GetEnumerator_m3730_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483724);
-		Enumerator_get_Current_m3731_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483725);
-		Enumerator_MoveNext_m3733_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483726);
+		Dictionary_2_get_Keys_m3726_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483723);
+		KeyCollection_GetEnumerator_m3727_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483724);
+		Enumerator_get_Current_m3728_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483725);
+		Enumerator_MoveNext_m3730_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483726);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -3264,9 +3264,9 @@ extern "C" void AN_ApplicationTemplate_ToXmlElement_m587 (AN_ApplicationTemplate
 		AN_BaseTemplate_AddPropertiesToXml_m604(__this, L_2, L_3, __this, /*hidden argument*/NULL);
 		Dictionary_2_t119 * L_4 = (__this->____activities_2);
 		NullCheck(L_4);
-		KeyCollection_t716 * L_5 = Dictionary_2_get_Keys_m3729(L_4, /*hidden argument*/Dictionary_2_get_Keys_m3729_MethodInfo_var);
+		KeyCollection_t716 * L_5 = Dictionary_2_get_Keys_m3726(L_4, /*hidden argument*/Dictionary_2_get_Keys_m3726_MethodInfo_var);
 		NullCheck(L_5);
-		Enumerator_t715  L_6 = KeyCollection_GetEnumerator_m3730(L_5, /*hidden argument*/KeyCollection_GetEnumerator_m3730_MethodInfo_var);
+		Enumerator_t715  L_6 = KeyCollection_GetEnumerator_m3727(L_5, /*hidden argument*/KeyCollection_GetEnumerator_m3727_MethodInfo_var);
 		V_1 = L_6;
 	}
 
@@ -3279,11 +3279,11 @@ IL_0023:
 
 IL_0028:
 		{
-			int32_t L_7 = Enumerator_get_Current_m3731((&V_1), /*hidden argument*/Enumerator_get_Current_m3731_MethodInfo_var);
+			int32_t L_7 = Enumerator_get_Current_m3728((&V_1), /*hidden argument*/Enumerator_get_Current_m3728_MethodInfo_var);
 			V_0 = L_7;
 			XmlDocument_t677 * L_8 = ___doc;
 			NullCheck(L_8);
-			XmlElement_t678 * L_9 = XmlDocument_CreateElement_m3732(L_8, (String_t*) &_stringLiteral235, /*hidden argument*/NULL);
+			XmlElement_t678 * L_9 = XmlDocument_CreateElement_m3729(L_8, (String_t*) &_stringLiteral235, /*hidden argument*/NULL);
 			V_2 = L_9;
 			Dictionary_2_t119 * L_10 = (__this->____activities_2);
 			int32_t L_11 = V_0;
@@ -3301,7 +3301,7 @@ IL_0028:
 
 IL_0057:
 		{
-			bool L_17 = Enumerator_MoveNext_m3733((&V_1), /*hidden argument*/Enumerator_MoveNext_m3733_MethodInfo_var);
+			bool L_17 = Enumerator_MoveNext_m3730((&V_1), /*hidden argument*/Enumerator_MoveNext_m3730_MethodInfo_var);
 			if (L_17)
 			{
 				goto IL_0028;
@@ -3382,8 +3382,8 @@ extern "C" Dictionary_2_t119 * AN_ApplicationTemplate_get_Activities_m588 (AN_Ap
 // System.Void AN_BaseTemplate::.ctor()
 extern TypeInfo* Dictionary_2_t122_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t121_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3695_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3720_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3692_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3717_MethodInfo_var;
 extern "C" void AN_BaseTemplate__ctor_m589 (AN_BaseTemplate_t118 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -3391,17 +3391,17 @@ extern "C" void AN_BaseTemplate__ctor_m589 (AN_BaseTemplate_t118 * __this, const
 	{
 		Dictionary_2_t122_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(182);
 		Dictionary_2_t121_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(197);
-		Dictionary_2__ctor_m3695_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483707);
-		Dictionary_2__ctor_m3720_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483714);
+		Dictionary_2__ctor_m3692_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483707);
+		Dictionary_2__ctor_m3717_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483714);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		Dictionary_2_t122 * L_0 = (Dictionary_2_t122 *)il2cpp_codegen_object_new (Dictionary_2_t122_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3695(L_0, /*hidden argument*/Dictionary_2__ctor_m3695_MethodInfo_var);
+		Dictionary_2__ctor_m3692(L_0, /*hidden argument*/Dictionary_2__ctor_m3692_MethodInfo_var);
 		__this->____values_1 = L_0;
 		Dictionary_2_t121 * L_1 = (Dictionary_2_t121 *)il2cpp_codegen_object_new (Dictionary_2_t121_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3720(L_1, /*hidden argument*/Dictionary_2__ctor_m3720_MethodInfo_var);
+		Dictionary_2__ctor_m3717(L_1, /*hidden argument*/Dictionary_2__ctor_m3717_MethodInfo_var);
 		__this->____properties_0 = L_1;
 		return;
 	}
@@ -3456,9 +3456,9 @@ IL_003e:
 // AN_PropertyTemplate AN_BaseTemplate::GetIntentFilterWithName(System.String)
 extern TypeInfo* Enumerator_t712_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m3721_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3722_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3723_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3718_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3719_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3720_MethodInfo_var;
 extern "C" AN_PropertyTemplate_t126 * AN_BaseTemplate_GetIntentFilterWithName_m591 (AN_BaseTemplate_t118 * __this, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -3466,9 +3466,9 @@ extern "C" AN_PropertyTemplate_t126 * AN_BaseTemplate_GetIntentFilterWithName_m5
 	{
 		Enumerator_t712_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(198);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1_GetEnumerator_m3721_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
-		Enumerator_get_Current_m3722_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
-		Enumerator_MoveNext_m3723_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
+		List_1_GetEnumerator_m3718_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
+		Enumerator_get_Current_m3719_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
+		Enumerator_MoveNext_m3720_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -3490,7 +3490,7 @@ extern "C" AN_PropertyTemplate_t126 * AN_BaseTemplate_GetIntentFilterWithName_m5
 		V_1 = L_1;
 		List_1_t123 * L_2 = V_1;
 		NullCheck(L_2);
-		Enumerator_t712  L_3 = List_1_GetEnumerator_m3721(L_2, /*hidden argument*/List_1_GetEnumerator_m3721_MethodInfo_var);
+		Enumerator_t712  L_3 = List_1_GetEnumerator_m3718(L_2, /*hidden argument*/List_1_GetEnumerator_m3718_MethodInfo_var);
 		V_3 = L_3;
 	}
 
@@ -3503,7 +3503,7 @@ IL_0015:
 
 IL_001a:
 		{
-			AN_PropertyTemplate_t126 * L_4 = Enumerator_get_Current_m3722((&V_3), /*hidden argument*/Enumerator_get_Current_m3722_MethodInfo_var);
+			AN_PropertyTemplate_t126 * L_4 = Enumerator_get_Current_m3719((&V_3), /*hidden argument*/Enumerator_get_Current_m3719_MethodInfo_var);
 			V_2 = L_4;
 			AN_PropertyTemplate_t126 * L_5 = V_2;
 			String_t* L_6 = AN_BaseTemplate_GetIntentFilterName_m592(__this, L_5, /*hidden argument*/NULL);
@@ -3527,7 +3527,7 @@ IL_0038:
 
 IL_0040:
 		{
-			bool L_11 = Enumerator_MoveNext_m3723((&V_3), /*hidden argument*/Enumerator_MoveNext_m3723_MethodInfo_var);
+			bool L_11 = Enumerator_MoveNext_m3720((&V_3), /*hidden argument*/Enumerator_MoveNext_m3720_MethodInfo_var);
 			if (L_11)
 			{
 				goto IL_001a;
@@ -3657,9 +3657,9 @@ IL_0029:
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t712_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m3721_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3722_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3723_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3718_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3719_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3720_MethodInfo_var;
 extern "C" AN_PropertyTemplate_t126 * AN_BaseTemplate_GetPropertyWithName_m594 (AN_BaseTemplate_t118 * __this, String_t* ___tag, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -3668,9 +3668,9 @@ extern "C" AN_PropertyTemplate_t126 * AN_BaseTemplate_GetPropertyWithName_m594 (
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		Enumerator_t712_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(198);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1_GetEnumerator_m3721_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
-		Enumerator_get_Current_m3722_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
-		Enumerator_MoveNext_m3723_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
+		List_1_GetEnumerator_m3718_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
+		Enumerator_get_Current_m3719_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
+		Enumerator_MoveNext_m3720_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t123 * V_0 = {0};
@@ -3689,7 +3689,7 @@ extern "C" AN_PropertyTemplate_t126 * AN_BaseTemplate_GetPropertyWithName_m594 (
 		V_0 = L_1;
 		List_1_t123 * L_2 = V_0;
 		NullCheck(L_2);
-		Enumerator_t712  L_3 = List_1_GetEnumerator_m3721(L_2, /*hidden argument*/List_1_GetEnumerator_m3721_MethodInfo_var);
+		Enumerator_t712  L_3 = List_1_GetEnumerator_m3718(L_2, /*hidden argument*/List_1_GetEnumerator_m3718_MethodInfo_var);
 		V_2 = L_3;
 	}
 
@@ -3702,7 +3702,7 @@ IL_000f:
 
 IL_0014:
 		{
-			AN_PropertyTemplate_t126 * L_4 = Enumerator_get_Current_m3722((&V_2), /*hidden argument*/Enumerator_get_Current_m3722_MethodInfo_var);
+			AN_PropertyTemplate_t126 * L_4 = Enumerator_get_Current_m3719((&V_2), /*hidden argument*/Enumerator_get_Current_m3719_MethodInfo_var);
 			V_1 = L_4;
 			AN_PropertyTemplate_t126 * L_5 = V_1;
 			NullCheck(L_5);
@@ -3740,7 +3740,7 @@ IL_004c:
 
 IL_0053:
 		{
-			bool L_14 = Enumerator_MoveNext_m3723((&V_2), /*hidden argument*/Enumerator_MoveNext_m3723_MethodInfo_var);
+			bool L_14 = Enumerator_MoveNext_m3720((&V_2), /*hidden argument*/Enumerator_MoveNext_m3720_MethodInfo_var);
 			if (L_14)
 			{
 				goto IL_0014;
@@ -3851,14 +3851,14 @@ IL_001c:
 }
 // System.Collections.Generic.List`1<AN_PropertyTemplate> AN_BaseTemplate::GetPropertiesWithTag(System.String)
 extern TypeInfo* List_1_t123_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3734_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3731_MethodInfo_var;
 extern "C" List_1_t123 * AN_BaseTemplate_GetPropertiesWithTag_m597 (AN_BaseTemplate_t118 * __this, String_t* ___tag, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t123_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(195);
-		List_1__ctor_m3734_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483727);
+		List_1__ctor_m3731_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483727);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -3882,7 +3882,7 @@ extern "C" List_1_t123 * AN_BaseTemplate_GetPropertiesWithTag_m597 (AN_BaseTempl
 IL_001e:
 	{
 		List_1_t123 * L_6 = (List_1_t123 *)il2cpp_codegen_object_new (List_1_t123_il2cpp_TypeInfo_var);
-		List_1__ctor_m3734(L_6, /*hidden argument*/List_1__ctor_m3734_MethodInfo_var);
+		List_1__ctor_m3731(L_6, /*hidden argument*/List_1__ctor_m3731_MethodInfo_var);
 		return L_6;
 	}
 }
@@ -3901,14 +3901,14 @@ extern "C" void AN_BaseTemplate_AddProperty_m598 (AN_BaseTemplate_t118 * __this,
 }
 // System.Void AN_BaseTemplate::AddProperty(System.String,AN_PropertyTemplate)
 extern TypeInfo* List_1_t123_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3734_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3731_MethodInfo_var;
 extern "C" void AN_BaseTemplate_AddProperty_m599 (AN_BaseTemplate_t118 * __this, String_t* ___tag, AN_PropertyTemplate_t126 * ___property, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t123_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(195);
-		List_1__ctor_m3734_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483727);
+		List_1__ctor_m3731_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483727);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t123 * V_0 = {0};
@@ -3924,7 +3924,7 @@ extern "C" void AN_BaseTemplate_AddProperty_m599 (AN_BaseTemplate_t118 * __this,
 	}
 	{
 		List_1_t123 * L_3 = (List_1_t123 *)il2cpp_codegen_object_new (List_1_t123_il2cpp_TypeInfo_var);
-		List_1__ctor_m3734(L_3, /*hidden argument*/List_1__ctor_m3734_MethodInfo_var);
+		List_1__ctor_m3731(L_3, /*hidden argument*/List_1__ctor_m3731_MethodInfo_var);
 		V_0 = L_3;
 		Dictionary_2_t121 * L_4 = (__this->____properties_0);
 		String_t* L_5 = ___tag;
@@ -4047,13 +4047,13 @@ extern "C" void AN_BaseTemplate_RemoveValue_m603 (AN_BaseTemplate_t118 * __this,
 extern TypeInfo* Enumerator_t712_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t718_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2_get_Keys_m3735_MethodInfo_var;
-extern const MethodInfo* KeyCollection_GetEnumerator_m3736_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3737_MethodInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m3721_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3722_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3723_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3738_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Keys_m3732_MethodInfo_var;
+extern const MethodInfo* KeyCollection_GetEnumerator_m3733_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3734_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3718_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3719_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3720_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3735_MethodInfo_var;
 extern "C" void AN_BaseTemplate_AddPropertiesToXml_m604 (AN_BaseTemplate_t118 * __this, XmlDocument_t677 * ___doc, XmlElement_t678 * ___parent, AN_BaseTemplate_t118 * ___template, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -4062,13 +4062,13 @@ extern "C" void AN_BaseTemplate_AddPropertiesToXml_m604 (AN_BaseTemplate_t118 * 
 		Enumerator_t712_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(198);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
 		Enumerator_t718_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(203);
-		Dictionary_2_get_Keys_m3735_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483728);
-		KeyCollection_GetEnumerator_m3736_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483729);
-		Enumerator_get_Current_m3737_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483730);
-		List_1_GetEnumerator_m3721_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
-		Enumerator_get_Current_m3722_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
-		Enumerator_MoveNext_m3723_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
-		Enumerator_MoveNext_m3738_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483731);
+		Dictionary_2_get_Keys_m3732_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483728);
+		KeyCollection_GetEnumerator_m3733_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483729);
+		Enumerator_get_Current_m3734_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483730);
+		List_1_GetEnumerator_m3718_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
+		Enumerator_get_Current_m3719_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
+		Enumerator_MoveNext_m3720_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
+		Enumerator_MoveNext_m3735_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483731);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -4087,9 +4087,9 @@ extern "C" void AN_BaseTemplate_AddPropertiesToXml_m604 (AN_BaseTemplate_t118 * 
 		NullCheck(L_0);
 		Dictionary_2_t121 * L_1 = AN_BaseTemplate_get_Properties_m607(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		KeyCollection_t719 * L_2 = Dictionary_2_get_Keys_m3735(L_1, /*hidden argument*/Dictionary_2_get_Keys_m3735_MethodInfo_var);
+		KeyCollection_t719 * L_2 = Dictionary_2_get_Keys_m3732(L_1, /*hidden argument*/Dictionary_2_get_Keys_m3732_MethodInfo_var);
 		NullCheck(L_2);
-		Enumerator_t718  L_3 = KeyCollection_GetEnumerator_m3736(L_2, /*hidden argument*/KeyCollection_GetEnumerator_m3736_MethodInfo_var);
+		Enumerator_t718  L_3 = KeyCollection_GetEnumerator_m3733(L_2, /*hidden argument*/KeyCollection_GetEnumerator_m3733_MethodInfo_var);
 		V_1 = L_3;
 	}
 
@@ -4102,7 +4102,7 @@ IL_0011:
 
 IL_0016:
 		{
-			String_t* L_4 = Enumerator_get_Current_m3737((&V_1), /*hidden argument*/Enumerator_get_Current_m3737_MethodInfo_var);
+			String_t* L_4 = Enumerator_get_Current_m3734((&V_1), /*hidden argument*/Enumerator_get_Current_m3734_MethodInfo_var);
 			V_0 = L_4;
 			AN_BaseTemplate_t118 * L_5 = ___template;
 			NullCheck(L_5);
@@ -4111,7 +4111,7 @@ IL_0016:
 			NullCheck(L_6);
 			List_1_t123 * L_8 = (List_1_t123 *)VirtFuncInvoker1< List_1_t123 *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>::get_Item(!0) */, L_6, L_7);
 			NullCheck(L_8);
-			Enumerator_t712  L_9 = List_1_GetEnumerator_m3721(L_8, /*hidden argument*/List_1_GetEnumerator_m3721_MethodInfo_var);
+			Enumerator_t712  L_9 = List_1_GetEnumerator_m3718(L_8, /*hidden argument*/List_1_GetEnumerator_m3718_MethodInfo_var);
 			V_3 = L_9;
 		}
 
@@ -4124,12 +4124,12 @@ IL_0030:
 
 IL_0035:
 			{
-				AN_PropertyTemplate_t126 * L_10 = Enumerator_get_Current_m3722((&V_3), /*hidden argument*/Enumerator_get_Current_m3722_MethodInfo_var);
+				AN_PropertyTemplate_t126 * L_10 = Enumerator_get_Current_m3719((&V_3), /*hidden argument*/Enumerator_get_Current_m3719_MethodInfo_var);
 				V_2 = L_10;
 				XmlDocument_t677 * L_11 = ___doc;
 				String_t* L_12 = V_0;
 				NullCheck(L_11);
-				XmlElement_t678 * L_13 = XmlDocument_CreateElement_m3732(L_11, L_12, /*hidden argument*/NULL);
+				XmlElement_t678 * L_13 = XmlDocument_CreateElement_m3729(L_11, L_12, /*hidden argument*/NULL);
 				V_4 = L_13;
 				XmlDocument_t677 * L_14 = ___doc;
 				XmlElement_t678 * L_15 = V_4;
@@ -4147,7 +4147,7 @@ IL_0035:
 
 IL_0063:
 			{
-				bool L_22 = Enumerator_MoveNext_m3723((&V_3), /*hidden argument*/Enumerator_MoveNext_m3723_MethodInfo_var);
+				bool L_22 = Enumerator_MoveNext_m3720((&V_3), /*hidden argument*/Enumerator_MoveNext_m3720_MethodInfo_var);
 				if (L_22)
 				{
 					goto IL_0035;
@@ -4182,7 +4182,7 @@ FINALLY_0074:
 
 IL_0080:
 		{
-			bool L_26 = Enumerator_MoveNext_m3738((&V_1), /*hidden argument*/Enumerator_MoveNext_m3738_MethodInfo_var);
+			bool L_26 = Enumerator_MoveNext_m3735((&V_1), /*hidden argument*/Enumerator_MoveNext_m3735_MethodInfo_var);
 			if (L_26)
 			{
 				goto IL_0016;
@@ -4223,10 +4223,10 @@ IL_009d:
 // System.Void AN_BaseTemplate::AddAttributesToXml(System.Xml.XmlDocument,System.Xml.XmlElement,AN_BaseTemplate)
 extern TypeInfo* Enumerator_t720_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2_get_Keys_m3739_MethodInfo_var;
-extern const MethodInfo* KeyCollection_GetEnumerator_m3740_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3741_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3746_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Keys_m3736_MethodInfo_var;
+extern const MethodInfo* KeyCollection_GetEnumerator_m3737_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3738_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3743_MethodInfo_var;
 extern "C" void AN_BaseTemplate_AddAttributesToXml_m605 (AN_BaseTemplate_t118 * __this, XmlDocument_t677 * ___doc, XmlElement_t678 * ___parent, AN_BaseTemplate_t118 * ___template, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -4234,10 +4234,10 @@ extern "C" void AN_BaseTemplate_AddAttributesToXml_m605 (AN_BaseTemplate_t118 * 
 	{
 		Enumerator_t720_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(204);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		Dictionary_2_get_Keys_m3739_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483732);
-		KeyCollection_GetEnumerator_m3740_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483733);
-		Enumerator_get_Current_m3741_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483734);
-		Enumerator_MoveNext_m3746_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483735);
+		Dictionary_2_get_Keys_m3736_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483732);
+		KeyCollection_GetEnumerator_m3737_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483733);
+		Enumerator_get_Current_m3738_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483734);
+		Enumerator_MoveNext_m3743_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483735);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -4255,9 +4255,9 @@ extern "C" void AN_BaseTemplate_AddAttributesToXml_m605 (AN_BaseTemplate_t118 * 
 		NullCheck(L_0);
 		Dictionary_2_t122 * L_1 = AN_BaseTemplate_get_Values_m606(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		KeyCollection_t722 * L_2 = Dictionary_2_get_Keys_m3739(L_1, /*hidden argument*/Dictionary_2_get_Keys_m3739_MethodInfo_var);
+		KeyCollection_t722 * L_2 = Dictionary_2_get_Keys_m3736(L_1, /*hidden argument*/Dictionary_2_get_Keys_m3736_MethodInfo_var);
 		NullCheck(L_2);
-		Enumerator_t720  L_3 = KeyCollection_GetEnumerator_m3740(L_2, /*hidden argument*/KeyCollection_GetEnumerator_m3740_MethodInfo_var);
+		Enumerator_t720  L_3 = KeyCollection_GetEnumerator_m3737(L_2, /*hidden argument*/KeyCollection_GetEnumerator_m3737_MethodInfo_var);
 		V_1 = L_3;
 	}
 
@@ -4270,13 +4270,13 @@ IL_0011:
 
 IL_0016:
 		{
-			String_t* L_4 = Enumerator_get_Current_m3741((&V_1), /*hidden argument*/Enumerator_get_Current_m3741_MethodInfo_var);
+			String_t* L_4 = Enumerator_get_Current_m3738((&V_1), /*hidden argument*/Enumerator_get_Current_m3738_MethodInfo_var);
 			V_0 = L_4;
 			String_t* L_5 = V_0;
 			V_2 = L_5;
 			String_t* L_6 = V_0;
 			NullCheck(L_6);
-			bool L_7 = String_Contains_m3742(L_6, (String_t*) &_stringLiteral236, /*hidden argument*/NULL);
+			bool L_7 = String_Contains_m3739(L_6, (String_t*) &_stringLiteral236, /*hidden argument*/NULL);
 			if (!L_7)
 			{
 				goto IL_0041;
@@ -4287,7 +4287,7 @@ IL_0030:
 		{
 			String_t* L_8 = V_0;
 			NullCheck(L_8);
-			String_t* L_9 = String_Replace_m3743(L_8, (String_t*) &_stringLiteral236, (String_t*) &_stringLiteral237, /*hidden argument*/NULL);
+			String_t* L_9 = String_Replace_m3740(L_8, (String_t*) &_stringLiteral236, (String_t*) &_stringLiteral237, /*hidden argument*/NULL);
 			V_2 = L_9;
 		}
 
@@ -4296,7 +4296,7 @@ IL_0041:
 			XmlDocument_t677 * L_10 = ___doc;
 			String_t* L_11 = V_2;
 			NullCheck(L_10);
-			XmlAttribute_t721 * L_12 = XmlDocument_CreateAttribute_m3744(L_10, L_11, /*hidden argument*/NULL);
+			XmlAttribute_t721 * L_12 = XmlDocument_CreateAttribute_m3741(L_10, L_11, /*hidden argument*/NULL);
 			V_3 = L_12;
 			XmlAttribute_t721 * L_13 = V_3;
 			AN_BaseTemplate_t118 * L_14 = ___template;
@@ -4312,12 +4312,12 @@ IL_0041:
 			XmlAttributeCollection_t723 * L_19 = (XmlAttributeCollection_t723 *)VirtFuncInvoker0< XmlAttributeCollection_t723 * >::Invoke(5 /* System.Xml.XmlAttributeCollection System.Xml.XmlElement::get_Attributes() */, L_18);
 			XmlAttribute_t721 * L_20 = V_3;
 			NullCheck(L_19);
-			XmlAttributeCollection_Append_m3745(L_19, L_20, /*hidden argument*/NULL);
+			XmlAttributeCollection_Append_m3742(L_19, L_20, /*hidden argument*/NULL);
 		}
 
 IL_0068:
 		{
-			bool L_21 = Enumerator_MoveNext_m3746((&V_1), /*hidden argument*/Enumerator_MoveNext_m3746_MethodInfo_var);
+			bool L_21 = Enumerator_MoveNext_m3743((&V_1), /*hidden argument*/Enumerator_MoveNext_m3743_MethodInfo_var);
 			if (L_21)
 			{
 				goto IL_0016;
@@ -4384,7 +4384,7 @@ extern "C" Dictionary_2_t121 * AN_BaseTemplate_get_Properties_m607 (AN_BaseTempl
 // System.Void AN_ManifestTemplate::.ctor()
 extern TypeInfo* AN_ApplicationTemplate_t120_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t123_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3734_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3731_MethodInfo_var;
 extern "C" void AN_ManifestTemplate__ctor_m608 (AN_ManifestTemplate_t124 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -4392,7 +4392,7 @@ extern "C" void AN_ManifestTemplate__ctor_m608 (AN_ManifestTemplate_t124 * __thi
 	{
 		AN_ApplicationTemplate_t120_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
 		List_1_t123_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(195);
-		List_1__ctor_m3734_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483727);
+		List_1__ctor_m3731_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483727);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -4401,7 +4401,7 @@ extern "C" void AN_ManifestTemplate__ctor_m608 (AN_ManifestTemplate_t124 * __thi
 		AN_ApplicationTemplate__ctor_m581(L_0, /*hidden argument*/NULL);
 		__this->____applicationTemplate_2 = L_0;
 		List_1_t123 * L_1 = (List_1_t123 *)il2cpp_codegen_object_new (List_1_t123_il2cpp_TypeInfo_var);
-		List_1__ctor_m3734(L_1, /*hidden argument*/List_1__ctor_m3734_MethodInfo_var);
+		List_1__ctor_m3731(L_1, /*hidden argument*/List_1__ctor_m3731_MethodInfo_var);
 		__this->____permissions_3 = L_1;
 		return;
 	}
@@ -4409,9 +4409,9 @@ extern "C" void AN_ManifestTemplate__ctor_m608 (AN_ManifestTemplate_t124 * __thi
 // System.Boolean AN_ManifestTemplate::HasPermission(System.String)
 extern TypeInfo* Enumerator_t712_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m3721_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3722_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3723_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3718_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3719_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3720_MethodInfo_var;
 extern "C" bool AN_ManifestTemplate_HasPermission_m609 (AN_ManifestTemplate_t124 * __this, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -4419,9 +4419,9 @@ extern "C" bool AN_ManifestTemplate_HasPermission_m609 (AN_ManifestTemplate_t124
 	{
 		Enumerator_t712_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(198);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1_GetEnumerator_m3721_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
-		Enumerator_get_Current_m3722_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
-		Enumerator_MoveNext_m3723_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
+		List_1_GetEnumerator_m3718_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
+		Enumerator_get_Current_m3719_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
+		Enumerator_MoveNext_m3720_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
 		s_Il2CppMethodIntialized = true;
 	}
 	AN_PropertyTemplate_t126 * V_0 = {0};
@@ -4436,7 +4436,7 @@ extern "C" bool AN_ManifestTemplate_HasPermission_m609 (AN_ManifestTemplate_t124
 	{
 		List_1_t123 * L_0 = AN_ManifestTemplate_get_Permissions_m616(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Enumerator_t712  L_1 = List_1_GetEnumerator_m3721(L_0, /*hidden argument*/List_1_GetEnumerator_m3721_MethodInfo_var);
+		Enumerator_t712  L_1 = List_1_GetEnumerator_m3718(L_0, /*hidden argument*/List_1_GetEnumerator_m3718_MethodInfo_var);
 		V_1 = L_1;
 	}
 
@@ -4449,7 +4449,7 @@ IL_000c:
 
 IL_0011:
 		{
-			AN_PropertyTemplate_t126 * L_2 = Enumerator_get_Current_m3722((&V_1), /*hidden argument*/Enumerator_get_Current_m3722_MethodInfo_var);
+			AN_PropertyTemplate_t126 * L_2 = Enumerator_get_Current_m3719((&V_1), /*hidden argument*/Enumerator_get_Current_m3719_MethodInfo_var);
 			V_0 = L_2;
 			AN_PropertyTemplate_t126 * L_3 = V_0;
 			NullCheck(L_3);
@@ -4471,7 +4471,7 @@ IL_002a:
 
 IL_0031:
 		{
-			bool L_7 = Enumerator_MoveNext_m3723((&V_1), /*hidden argument*/Enumerator_MoveNext_m3723_MethodInfo_var);
+			bool L_7 = Enumerator_MoveNext_m3720((&V_1), /*hidden argument*/Enumerator_MoveNext_m3720_MethodInfo_var);
 			if (L_7)
 			{
 				goto IL_0011;
@@ -4519,9 +4519,9 @@ IL_0050:
 // System.Void AN_ManifestTemplate::RemovePermission(System.String)
 extern TypeInfo* Enumerator_t712_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m3721_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3722_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3723_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3718_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3719_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3720_MethodInfo_var;
 extern "C" void AN_ManifestTemplate_RemovePermission_m610 (AN_ManifestTemplate_t124 * __this, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -4529,9 +4529,9 @@ extern "C" void AN_ManifestTemplate_RemovePermission_m610 (AN_ManifestTemplate_t
 	{
 		Enumerator_t712_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(198);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1_GetEnumerator_m3721_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
-		Enumerator_get_Current_m3722_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
-		Enumerator_MoveNext_m3723_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
+		List_1_GetEnumerator_m3718_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
+		Enumerator_get_Current_m3719_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
+		Enumerator_MoveNext_m3720_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
 		s_Il2CppMethodIntialized = true;
 	}
 	AN_PropertyTemplate_t126 * V_0 = {0};
@@ -4550,7 +4550,7 @@ IL_0005:
 	{
 		List_1_t123 * L_0 = AN_ManifestTemplate_get_Permissions_m616(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Enumerator_t712  L_1 = List_1_GetEnumerator_m3721(L_0, /*hidden argument*/List_1_GetEnumerator_m3721_MethodInfo_var);
+		Enumerator_t712  L_1 = List_1_GetEnumerator_m3718(L_0, /*hidden argument*/List_1_GetEnumerator_m3718_MethodInfo_var);
 		V_1 = L_1;
 	}
 
@@ -4563,7 +4563,7 @@ IL_0011:
 
 IL_0016:
 		{
-			AN_PropertyTemplate_t126 * L_2 = Enumerator_get_Current_m3722((&V_1), /*hidden argument*/Enumerator_get_Current_m3722_MethodInfo_var);
+			AN_PropertyTemplate_t126 * L_2 = Enumerator_get_Current_m3719((&V_1), /*hidden argument*/Enumerator_get_Current_m3719_MethodInfo_var);
 			V_0 = L_2;
 			AN_PropertyTemplate_t126 * L_3 = V_0;
 			NullCheck(L_3);
@@ -4586,7 +4586,7 @@ IL_002f:
 
 IL_003b:
 		{
-			bool L_8 = Enumerator_MoveNext_m3723((&V_1), /*hidden argument*/Enumerator_MoveNext_m3723_MethodInfo_var);
+			bool L_8 = Enumerator_MoveNext_m3720((&V_1), /*hidden argument*/Enumerator_MoveNext_m3720_MethodInfo_var);
 			if (L_8)
 			{
 				goto IL_0016;
@@ -4693,9 +4693,9 @@ extern "C" void AN_ManifestTemplate_AddPermission_m613 (AN_ManifestTemplate_t124
 // System.Void AN_ManifestTemplate::ToXmlElement(System.Xml.XmlDocument,System.Xml.XmlElement)
 extern TypeInfo* Enumerator_t712_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m3721_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3722_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3723_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3718_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3719_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3720_MethodInfo_var;
 extern "C" void AN_ManifestTemplate_ToXmlElement_m614 (AN_ManifestTemplate_t124 * __this, XmlDocument_t677 * ___doc, XmlElement_t678 * ___parent, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -4703,9 +4703,9 @@ extern "C" void AN_ManifestTemplate_ToXmlElement_m614 (AN_ManifestTemplate_t124 
 	{
 		Enumerator_t712_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(198);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1_GetEnumerator_m3721_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
-		Enumerator_get_Current_m3722_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
-		Enumerator_MoveNext_m3723_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
+		List_1_GetEnumerator_m3718_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483715);
+		Enumerator_get_Current_m3719_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
+		Enumerator_MoveNext_m3720_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
 		s_Il2CppMethodIntialized = true;
 	}
 	XmlElement_t678 * V_0 = {0};
@@ -4727,7 +4727,7 @@ extern "C" void AN_ManifestTemplate_ToXmlElement_m614 (AN_ManifestTemplate_t124 
 		AN_BaseTemplate_AddPropertiesToXml_m604(__this, L_2, L_3, __this, /*hidden argument*/NULL);
 		XmlDocument_t677 * L_4 = ___doc;
 		NullCheck(L_4);
-		XmlElement_t678 * L_5 = XmlDocument_CreateElement_m3732(L_4, (String_t*) &_stringLiteral239, /*hidden argument*/NULL);
+		XmlElement_t678 * L_5 = XmlDocument_CreateElement_m3729(L_4, (String_t*) &_stringLiteral239, /*hidden argument*/NULL);
 		V_0 = L_5;
 		AN_ApplicationTemplate_t120 * L_6 = (__this->____applicationTemplate_2);
 		XmlDocument_t677 * L_7 = ___doc;
@@ -4740,7 +4740,7 @@ extern "C" void AN_ManifestTemplate_ToXmlElement_m614 (AN_ManifestTemplate_t124 
 		VirtFuncInvoker1< XmlNode_t717 *, XmlNode_t717 * >::Invoke(28 /* System.Xml.XmlNode System.Xml.XmlNode::AppendChild(System.Xml.XmlNode) */, L_9, L_10);
 		List_1_t123 * L_11 = AN_ManifestTemplate_get_Permissions_m616(__this, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		Enumerator_t712  L_12 = List_1_GetEnumerator_m3721(L_11, /*hidden argument*/List_1_GetEnumerator_m3721_MethodInfo_var);
+		Enumerator_t712  L_12 = List_1_GetEnumerator_m3718(L_11, /*hidden argument*/List_1_GetEnumerator_m3718_MethodInfo_var);
 		V_2 = L_12;
 	}
 
@@ -4753,11 +4753,11 @@ IL_003f:
 
 IL_0044:
 		{
-			AN_PropertyTemplate_t126 * L_13 = Enumerator_get_Current_m3722((&V_2), /*hidden argument*/Enumerator_get_Current_m3722_MethodInfo_var);
+			AN_PropertyTemplate_t126 * L_13 = Enumerator_get_Current_m3719((&V_2), /*hidden argument*/Enumerator_get_Current_m3719_MethodInfo_var);
 			V_1 = L_13;
 			XmlDocument_t677 * L_14 = ___doc;
 			NullCheck(L_14);
-			XmlElement_t678 * L_15 = XmlDocument_CreateElement_m3732(L_14, (String_t*) &_stringLiteral238, /*hidden argument*/NULL);
+			XmlElement_t678 * L_15 = XmlDocument_CreateElement_m3729(L_14, (String_t*) &_stringLiteral238, /*hidden argument*/NULL);
 			V_3 = L_15;
 			AN_PropertyTemplate_t126 * L_16 = V_1;
 			XmlDocument_t677 * L_17 = ___doc;
@@ -4772,7 +4772,7 @@ IL_0044:
 
 IL_0068:
 		{
-			bool L_21 = Enumerator_MoveNext_m3723((&V_2), /*hidden argument*/Enumerator_MoveNext_m3723_MethodInfo_var);
+			bool L_21 = Enumerator_MoveNext_m3720((&V_2), /*hidden argument*/Enumerator_MoveNext_m3720_MethodInfo_var);
 			if (L_21)
 			{
 				goto IL_0044;
@@ -4977,8 +4977,8 @@ extern "C" void AN_PropertyTemplate_set_Label_m625 (AN_PropertyTemplate_t126 * _
 // System.Void UnionAssets.FLE.EventDispatcher::.ctor()
 extern TypeInfo* Dictionary_2_t127_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t128_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3747_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3748_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3744_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3745_MethodInfo_var;
 extern "C" void EventDispatcher__ctor_m626 (EventDispatcher_t129 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -4986,16 +4986,16 @@ extern "C" void EventDispatcher__ctor_m626 (EventDispatcher_t129 * __this, const
 	{
 		Dictionary_2_t127_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(210);
 		Dictionary_2_t128_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(211);
-		Dictionary_2__ctor_m3747_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483736);
-		Dictionary_2__ctor_m3748_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483737);
+		Dictionary_2__ctor_m3744_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483736);
+		Dictionary_2__ctor_m3745_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483737);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Dictionary_2_t127 * L_0 = (Dictionary_2_t127 *)il2cpp_codegen_object_new (Dictionary_2_t127_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3747(L_0, /*hidden argument*/Dictionary_2__ctor_m3747_MethodInfo_var);
+		Dictionary_2__ctor_m3744(L_0, /*hidden argument*/Dictionary_2__ctor_m3744_MethodInfo_var);
 		__this->___listners_2 = L_0;
 		Dictionary_2_t128 * L_1 = (Dictionary_2_t128 *)il2cpp_codegen_object_new (Dictionary_2_t128_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3748(L_1, /*hidden argument*/Dictionary_2__ctor_m3748_MethodInfo_var);
+		Dictionary_2__ctor_m3745(L_1, /*hidden argument*/Dictionary_2__ctor_m3745_MethodInfo_var);
 		__this->___dataListners_3 = L_1;
 		MonoBehaviour__ctor_m379(__this, /*hidden argument*/NULL);
 		return;
@@ -5027,14 +5027,14 @@ extern "C" void EventDispatcher_addEventListener_m628 (EventDispatcher_t129 * __
 }
 // System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction,System.String)
 extern TypeInfo* List_1_t679_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3749_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3746_MethodInfo_var;
 extern "C" void EventDispatcher_addEventListener_m629 (EventDispatcher_t129 * __this, int32_t ___eventID, EventHandlerFunction_t675 * ___handler, String_t* ___eventGraphName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t679_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(206);
-		List_1__ctor_m3749_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483738);
+		List_1__ctor_m3746_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483738);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t679 * V_0 = {0};
@@ -5062,7 +5062,7 @@ extern "C" void EventDispatcher_addEventListener_m629 (EventDispatcher_t129 * __
 IL_0028:
 	{
 		List_1_t679 * L_7 = (List_1_t679 *)il2cpp_codegen_object_new (List_1_t679_il2cpp_TypeInfo_var);
-		List_1__ctor_m3749(L_7, /*hidden argument*/List_1__ctor_m3749_MethodInfo_var);
+		List_1__ctor_m3746(L_7, /*hidden argument*/List_1__ctor_m3746_MethodInfo_var);
 		V_0 = L_7;
 		List_1_t679 * L_8 = V_0;
 		EventHandlerFunction_t675 * L_9 = ___handler;
@@ -5106,14 +5106,14 @@ extern "C" void EventDispatcher_addEventListener_m631 (EventDispatcher_t129 * __
 }
 // System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction,System.String)
 extern TypeInfo* List_1_t680_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3750_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3747_MethodInfo_var;
 extern "C" void EventDispatcher_addEventListener_m632 (EventDispatcher_t129 * __this, int32_t ___eventID, DataEventHandlerFunction_t676 * ___handler, String_t* ___eventGraphName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t680_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(208);
-		List_1__ctor_m3750_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483739);
+		List_1__ctor_m3747_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483739);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t680 * V_0 = {0};
@@ -5141,7 +5141,7 @@ extern "C" void EventDispatcher_addEventListener_m632 (EventDispatcher_t129 * __
 IL_0028:
 	{
 		List_1_t680 * L_7 = (List_1_t680 *)il2cpp_codegen_object_new (List_1_t680_il2cpp_TypeInfo_var);
-		List_1__ctor_m3750(L_7, /*hidden argument*/List_1__ctor_m3750_MethodInfo_var);
+		List_1__ctor_m3747(L_7, /*hidden argument*/List_1__ctor_m3747_MethodInfo_var);
 		V_0 = L_7;
 		List_1_t680 * L_8 = V_0;
 		DataEventHandlerFunction_t676 * L_9 = ___handler;
@@ -5475,7 +5475,7 @@ IL_003c:
 		NullCheck(L_14);
 		DataEventHandlerFunction_t676 * L_16 = (DataEventHandlerFunction_t676 *)VirtFuncInvoker1< DataEventHandlerFunction_t676 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::get_Item(System.Int32) */, L_14, L_15);
 		NullCheck(L_16);
-		Object_t * L_17 = Delegate_get_Target_m3751(L_16, /*hidden argument*/NULL);
+		Object_t * L_17 = Delegate_get_Target_m3748(L_16, /*hidden argument*/NULL);
 		NullCheck(L_13);
 		bool L_18 = CEvent_canBeDisptached_m682(L_13, L_17, /*hidden argument*/NULL);
 		if (!L_18)
@@ -5543,7 +5543,7 @@ IL_00a1:
 		NullCheck(L_36);
 		EventHandlerFunction_t675 * L_38 = (EventHandlerFunction_t675 *)VirtFuncInvoker1< EventHandlerFunction_t675 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>::get_Item(System.Int32) */, L_36, L_37);
 		NullCheck(L_38);
-		Object_t * L_39 = Delegate_get_Target_m3751(L_38, /*hidden argument*/NULL);
+		Object_t * L_39 = Delegate_get_Target_m3748(L_38, /*hidden argument*/NULL);
 		NullCheck(L_35);
 		bool L_40 = CEvent_canBeDisptached_m682(L_35, L_39, /*hidden argument*/NULL);
 		if (!L_40)
@@ -5596,14 +5596,14 @@ extern "C" void EventDispatcher_clearEvents_m648 (EventDispatcher_t129 * __this,
 }
 // System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction> UnionAssets.FLE.EventDispatcher::cloenArray(System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>)
 extern TypeInfo* List_1_t679_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3749_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3746_MethodInfo_var;
 extern "C" List_1_t679 * EventDispatcher_cloenArray_m649 (EventDispatcher_t129 * __this, List_1_t679 * ___list, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t679_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(206);
-		List_1__ctor_m3749_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483738);
+		List_1__ctor_m3746_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483738);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t679 * V_0 = {0};
@@ -5611,7 +5611,7 @@ extern "C" List_1_t679 * EventDispatcher_cloenArray_m649 (EventDispatcher_t129 *
 	int32_t V_2 = 0;
 	{
 		List_1_t679 * L_0 = (List_1_t679 *)il2cpp_codegen_object_new (List_1_t679_il2cpp_TypeInfo_var);
-		List_1__ctor_m3749(L_0, /*hidden argument*/List_1__ctor_m3749_MethodInfo_var);
+		List_1__ctor_m3746(L_0, /*hidden argument*/List_1__ctor_m3746_MethodInfo_var);
 		V_0 = L_0;
 		List_1_t679 * L_1 = ___list;
 		NullCheck(L_1);
@@ -5650,14 +5650,14 @@ IL_0025:
 }
 // System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction> UnionAssets.FLE.EventDispatcher::cloenArray(System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>)
 extern TypeInfo* List_1_t680_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3750_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3747_MethodInfo_var;
 extern "C" List_1_t680 * EventDispatcher_cloenArray_m650 (EventDispatcher_t129 * __this, List_1_t680 * ___list, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t680_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(208);
-		List_1__ctor_m3750_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483739);
+		List_1__ctor_m3747_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483739);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t680 * V_0 = {0};
@@ -5665,7 +5665,7 @@ extern "C" List_1_t680 * EventDispatcher_cloenArray_m650 (EventDispatcher_t129 *
 	int32_t V_2 = 0;
 	{
 		List_1_t680 * L_0 = (List_1_t680 *)il2cpp_codegen_object_new (List_1_t680_il2cpp_TypeInfo_var);
-		List_1__ctor_m3750(L_0, /*hidden argument*/List_1__ctor_m3750_MethodInfo_var);
+		List_1__ctor_m3747(L_0, /*hidden argument*/List_1__ctor_m3747_MethodInfo_var);
 		V_0 = L_0;
 		List_1_t680 * L_1 = ___list;
 		NullCheck(L_1);
@@ -5723,8 +5723,8 @@ extern "C" void EventDispatcher_OnDestroy_m651 (EventDispatcher_t129 * __this, c
 // System.Void UnionAssets.FLE.EventDispatcherBase::.ctor()
 extern TypeInfo* Dictionary_2_t127_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t128_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3747_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3748_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3744_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3745_MethodInfo_var;
 extern "C" void EventDispatcherBase__ctor_m652 (EventDispatcherBase_t130 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -5732,16 +5732,16 @@ extern "C" void EventDispatcherBase__ctor_m652 (EventDispatcherBase_t130 * __thi
 	{
 		Dictionary_2_t127_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(210);
 		Dictionary_2_t128_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(211);
-		Dictionary_2__ctor_m3747_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483736);
-		Dictionary_2__ctor_m3748_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483737);
+		Dictionary_2__ctor_m3744_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483736);
+		Dictionary_2__ctor_m3745_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483737);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Dictionary_2_t127 * L_0 = (Dictionary_2_t127 *)il2cpp_codegen_object_new (Dictionary_2_t127_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3747(L_0, /*hidden argument*/Dictionary_2__ctor_m3747_MethodInfo_var);
+		Dictionary_2__ctor_m3744(L_0, /*hidden argument*/Dictionary_2__ctor_m3744_MethodInfo_var);
 		__this->___listners_0 = L_0;
 		Dictionary_2_t128 * L_1 = (Dictionary_2_t128 *)il2cpp_codegen_object_new (Dictionary_2_t128_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3748(L_1, /*hidden argument*/Dictionary_2__ctor_m3748_MethodInfo_var);
+		Dictionary_2__ctor_m3745(L_1, /*hidden argument*/Dictionary_2__ctor_m3745_MethodInfo_var);
 		__this->___dataListners_1 = L_1;
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		return;
@@ -5773,14 +5773,14 @@ extern "C" void EventDispatcherBase_addEventListener_m654 (EventDispatcherBase_t
 }
 // System.Void UnionAssets.FLE.EventDispatcherBase::addEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction,System.String)
 extern TypeInfo* List_1_t679_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3749_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3746_MethodInfo_var;
 extern "C" void EventDispatcherBase_addEventListener_m655 (EventDispatcherBase_t130 * __this, int32_t ___eventID, EventHandlerFunction_t675 * ___handler, String_t* ___eventGraphName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t679_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(206);
-		List_1__ctor_m3749_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483738);
+		List_1__ctor_m3746_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483738);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t679 * V_0 = {0};
@@ -5808,7 +5808,7 @@ extern "C" void EventDispatcherBase_addEventListener_m655 (EventDispatcherBase_t
 IL_0028:
 	{
 		List_1_t679 * L_7 = (List_1_t679 *)il2cpp_codegen_object_new (List_1_t679_il2cpp_TypeInfo_var);
-		List_1__ctor_m3749(L_7, /*hidden argument*/List_1__ctor_m3749_MethodInfo_var);
+		List_1__ctor_m3746(L_7, /*hidden argument*/List_1__ctor_m3746_MethodInfo_var);
 		V_0 = L_7;
 		List_1_t679 * L_8 = V_0;
 		EventHandlerFunction_t675 * L_9 = ___handler;
@@ -5852,14 +5852,14 @@ extern "C" void EventDispatcherBase_addEventListener_m657 (EventDispatcherBase_t
 }
 // System.Void UnionAssets.FLE.EventDispatcherBase::addEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction,System.String)
 extern TypeInfo* List_1_t680_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3750_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3747_MethodInfo_var;
 extern "C" void EventDispatcherBase_addEventListener_m658 (EventDispatcherBase_t130 * __this, int32_t ___eventID, DataEventHandlerFunction_t676 * ___handler, String_t* ___eventGraphName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t680_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(208);
-		List_1__ctor_m3750_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483739);
+		List_1__ctor_m3747_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483739);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t680 * V_0 = {0};
@@ -5887,7 +5887,7 @@ extern "C" void EventDispatcherBase_addEventListener_m658 (EventDispatcherBase_t
 IL_0028:
 	{
 		List_1_t680 * L_7 = (List_1_t680 *)il2cpp_codegen_object_new (List_1_t680_il2cpp_TypeInfo_var);
-		List_1__ctor_m3750(L_7, /*hidden argument*/List_1__ctor_m3750_MethodInfo_var);
+		List_1__ctor_m3747(L_7, /*hidden argument*/List_1__ctor_m3747_MethodInfo_var);
 		V_0 = L_7;
 		List_1_t680 * L_8 = V_0;
 		DataEventHandlerFunction_t676 * L_9 = ___handler;
@@ -6221,7 +6221,7 @@ IL_003c:
 		NullCheck(L_14);
 		DataEventHandlerFunction_t676 * L_16 = (DataEventHandlerFunction_t676 *)VirtFuncInvoker1< DataEventHandlerFunction_t676 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::get_Item(System.Int32) */, L_14, L_15);
 		NullCheck(L_16);
-		Object_t * L_17 = Delegate_get_Target_m3751(L_16, /*hidden argument*/NULL);
+		Object_t * L_17 = Delegate_get_Target_m3748(L_16, /*hidden argument*/NULL);
 		NullCheck(L_13);
 		bool L_18 = CEvent_canBeDisptached_m682(L_13, L_17, /*hidden argument*/NULL);
 		if (!L_18)
@@ -6289,7 +6289,7 @@ IL_00a1:
 		NullCheck(L_36);
 		EventHandlerFunction_t675 * L_38 = (EventHandlerFunction_t675 *)VirtFuncInvoker1< EventHandlerFunction_t675 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>::get_Item(System.Int32) */, L_36, L_37);
 		NullCheck(L_38);
-		Object_t * L_39 = Delegate_get_Target_m3751(L_38, /*hidden argument*/NULL);
+		Object_t * L_39 = Delegate_get_Target_m3748(L_38, /*hidden argument*/NULL);
 		NullCheck(L_35);
 		bool L_40 = CEvent_canBeDisptached_m682(L_35, L_39, /*hidden argument*/NULL);
 		if (!L_40)
@@ -6342,14 +6342,14 @@ extern "C" void EventDispatcherBase_clearEvents_m674 (EventDispatcherBase_t130 *
 }
 // System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction> UnionAssets.FLE.EventDispatcherBase::cloenArray(System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>)
 extern TypeInfo* List_1_t679_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3749_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3746_MethodInfo_var;
 extern "C" List_1_t679 * EventDispatcherBase_cloenArray_m675 (EventDispatcherBase_t130 * __this, List_1_t679 * ___list, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t679_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(206);
-		List_1__ctor_m3749_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483738);
+		List_1__ctor_m3746_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483738);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t679 * V_0 = {0};
@@ -6357,7 +6357,7 @@ extern "C" List_1_t679 * EventDispatcherBase_cloenArray_m675 (EventDispatcherBas
 	int32_t V_2 = 0;
 	{
 		List_1_t679 * L_0 = (List_1_t679 *)il2cpp_codegen_object_new (List_1_t679_il2cpp_TypeInfo_var);
-		List_1__ctor_m3749(L_0, /*hidden argument*/List_1__ctor_m3749_MethodInfo_var);
+		List_1__ctor_m3746(L_0, /*hidden argument*/List_1__ctor_m3746_MethodInfo_var);
 		V_0 = L_0;
 		List_1_t679 * L_1 = ___list;
 		NullCheck(L_1);
@@ -6396,14 +6396,14 @@ IL_0025:
 }
 // System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction> UnionAssets.FLE.EventDispatcherBase::cloenArray(System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>)
 extern TypeInfo* List_1_t680_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3750_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3747_MethodInfo_var;
 extern "C" List_1_t680 * EventDispatcherBase_cloenArray_m676 (EventDispatcherBase_t130 * __this, List_1_t680 * ___list, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t680_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(208);
-		List_1__ctor_m3750_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483739);
+		List_1__ctor_m3747_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483739);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t680 * V_0 = {0};
@@ -6411,7 +6411,7 @@ extern "C" List_1_t680 * EventDispatcherBase_cloenArray_m676 (EventDispatcherBas
 	int32_t V_2 = 0;
 	{
 		List_1_t680 * L_0 = (List_1_t680 *)il2cpp_codegen_object_new (List_1_t680_il2cpp_TypeInfo_var);
-		List_1__ctor_m3750(L_0, /*hidden argument*/List_1__ctor_m3750_MethodInfo_var);
+		List_1__ctor_m3747(L_0, /*hidden argument*/List_1__ctor_m3747_MethodInfo_var);
 		V_0 = L_0;
 		List_1_t680 * L_1 = ___list;
 		NullCheck(L_1);
@@ -6678,16 +6678,16 @@ extern "C" void EventButtonExample_OnGUI_m694 (EventButtonExample_t134 * __this,
 	}
 	Rect_t694  V_0 = {0};
 	{
-		int32_t L_0 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_1 = (__this->___w_5);
-		int32_t L_2 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_3 = (__this->___h_6);
 		float L_4 = (__this->___w_5);
 		float L_5 = (__this->___h_6);
-		Rect__ctor_m3683((&V_0), ((float)((float)((float)((float)(((float)L_0))-(float)L_1))/(float)(2.0f))), ((float)((float)((float)((float)(((float)L_2))-(float)L_3))/(float)(2.0f))), L_4, L_5, /*hidden argument*/NULL);
+		Rect__ctor_m3680((&V_0), ((float)((float)((float)((float)(((float)L_0))-(float)L_1))/(float)(2.0f))), ((float)((float)((float)((float)(((float)L_2))-(float)L_3))/(float)(2.0f))), L_4, L_5, /*hidden argument*/NULL);
 		Rect_t694  L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_7 = GUI_Button_m3752(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral242, /*hidden argument*/NULL);
+		bool L_7 = GUI_Button_m3749(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral242, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_0059;
@@ -6744,13 +6744,13 @@ extern "C" void ExampleListner_Start_m696 (ExampleListner_t135 * __this, const M
 		EventButtonExample_t134 * L_0 = ((EventButtonExample_t134_StaticFields*)EventButtonExample_t134_il2cpp_TypeInfo_var->static_fields)->___instance_4;
 		IntPtr_t L_1 = { (void*)ExampleListner_onButtonClick_m697_MethodInfo_var };
 		EventHandlerFunction_t675 * L_2 = (EventHandlerFunction_t675 *)il2cpp_codegen_object_new (EventHandlerFunction_t675_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m3639(L_2, __this, L_1, /*hidden argument*/NULL);
+		EventHandlerFunction__ctor_m3636(L_2, __this, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		VirtActionInvoker2< String_t*, EventHandlerFunction_t675 * >::Invoke(4 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, L_0, (String_t*) &_stringLiteral243, L_2);
 		EventButtonExample_t134 * L_3 = ((EventButtonExample_t134_StaticFields*)EventButtonExample_t134_il2cpp_TypeInfo_var->static_fields)->___instance_4;
 		IntPtr_t L_4 = { (void*)ExampleListner_onButtonClickData_m698_MethodInfo_var };
 		DataEventHandlerFunction_t676 * L_5 = (DataEventHandlerFunction_t676 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t676_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m3643(L_5, __this, L_4, /*hidden argument*/NULL);
+		DataEventHandlerFunction__ctor_m3640(L_5, __this, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		VirtActionInvoker2< String_t*, DataEventHandlerFunction_t676 * >::Invoke(6 /* System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction) */, L_3, (String_t*) &_stringLiteral243, L_5);
 		return;
@@ -6818,7 +6818,7 @@ extern "C" void ExampleListner_OnGUI_m699 (ExampleListner_t135 * __this, const M
 	}
 	{
 		Rect_t694  L_0 = {0};
-		Rect__ctor_m3683(&L_0, (0.0f), (0.0f), (200.0f), (200.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_0, (0.0f), (0.0f), (200.0f), (200.0f), /*hidden argument*/NULL);
 		String_t* L_1 = (__this->___label_3);
 		int32_t* L_2 = &(__this->___count_4);
 		String_t* L_3 = Int32_ToString_m399(L_2, /*hidden argument*/NULL);
@@ -6826,7 +6826,7 @@ extern "C" void ExampleListner_OnGUI_m699 (ExampleListner_t135 * __this, const M
 		String_t* L_4 = String_Concat_m408(NULL /*static, unused*/, L_1, L_3, /*hidden argument*/NULL);
 		GUIStyle_t107 * L_5 = (__this->___style_2);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_Label_m3753(NULL /*static, unused*/, L_0, L_4, L_5, /*hidden argument*/NULL);
+		GUI_Label_m3750(NULL /*static, unused*/, L_0, L_4, L_5, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -7070,7 +7070,7 @@ IL_004e:
 // System.Collections.Generic.Dictionary`2<System.String,GoogleMobileAdBanner> AdMobBanner::get_registerdBanners()
 extern TypeInfo* AdMobBanner_t137_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t136_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3754_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3751_MethodInfo_var;
 extern "C" Dictionary_2_t136 * AdMobBanner_get_registerdBanners_m707 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -7078,7 +7078,7 @@ extern "C" Dictionary_2_t136 * AdMobBanner_get_registerdBanners_m707 (Object_t *
 	{
 		AdMobBanner_t137_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(215);
 		Dictionary_2_t136_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(217);
-		Dictionary_2__ctor_m3754_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483742);
+		Dictionary_2__ctor_m3751_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483742);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -7091,7 +7091,7 @@ extern "C" Dictionary_2_t136 * AdMobBanner_get_registerdBanners_m707 (Object_t *
 	}
 	{
 		Dictionary_2_t136 * L_1 = (Dictionary_2_t136 *)il2cpp_codegen_object_new (Dictionary_2_t136_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3754(L_1, /*hidden argument*/Dictionary_2__ctor_m3754_MethodInfo_var);
+		Dictionary_2__ctor_m3751(L_1, /*hidden argument*/Dictionary_2__ctor_m3751_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(AdMobBanner_t137_il2cpp_TypeInfo_var);
 		((AdMobBanner_t137_StaticFields*)AdMobBanner_t137_il2cpp_TypeInfo_var->static_fields)->____registerdBanners_4 = L_1;
 	}
@@ -7114,10 +7114,10 @@ extern "C" String_t* AdMobBanner_get_sceneBannerId_m708 (AdMobBanner_t137 * __th
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = Application_get_loadedLevelName_m3755(NULL /*static, unused*/, /*hidden argument*/NULL);
-		GameObject_t352 * L_1 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		String_t* L_0 = Application_get_loadedLevelName_m3752(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GameObject_t352 * L_1 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		String_t* L_2 = Object_get_name_m3757(L_1, /*hidden argument*/NULL);
+		String_t* L_2 = Object_get_name_m3754(L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_3 = String_Concat_m455(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral251, L_2, /*hidden argument*/NULL);
 		return L_3;
@@ -7204,10 +7204,10 @@ extern "C" String_t* AdMobBannerInterstitial_get_sceneBannerId_m713 (AdMobBanner
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = Application_get_loadedLevelName_m3755(NULL /*static, unused*/, /*hidden argument*/NULL);
-		GameObject_t352 * L_1 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		String_t* L_0 = Application_get_loadedLevelName_m3752(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GameObject_t352 * L_1 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		String_t* L_2 = Object_get_name_m3757(L_1, /*hidden argument*/NULL);
+		String_t* L_2 = Object_get_name_m3754(L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_3 = String_Concat_m455(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral251, L_2, /*hidden argument*/NULL);
 		return L_3;
@@ -7259,19 +7259,19 @@ extern "C" void CustomInterstisialExample_Start_m715 (CustomInterstisialExample_
 		Object_t * L_0 = ((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0;
 		IntPtr_t L_1 = { (void*)CustomInterstisialExample_OnInterstisialsLoaded_m716_MethodInfo_var };
 		EventHandlerFunction_t675 * L_2 = (EventHandlerFunction_t675 *)il2cpp_codegen_object_new (EventHandlerFunction_t675_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m3639(L_2, __this, L_1, /*hidden argument*/NULL);
+		EventHandlerFunction__ctor_m3636(L_2, __this, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t675 * >::Invoke(34 /* System.Void GoogleMobileAdInterface::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, GoogleMobileAdInterface_t142_il2cpp_TypeInfo_var, L_0, (String_t*) &_stringLiteral252, L_2);
 		Object_t * L_3 = ((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0;
 		IntPtr_t L_4 = { (void*)CustomInterstisialExample_OnInterstisialsOpen_m717_MethodInfo_var };
 		EventHandlerFunction_t675 * L_5 = (EventHandlerFunction_t675 *)il2cpp_codegen_object_new (EventHandlerFunction_t675_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m3639(L_5, __this, L_4, /*hidden argument*/NULL);
+		EventHandlerFunction__ctor_m3636(L_5, __this, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t675 * >::Invoke(34 /* System.Void GoogleMobileAdInterface::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, GoogleMobileAdInterface_t142_il2cpp_TypeInfo_var, L_3, (String_t*) &_stringLiteral253, L_5);
 		Object_t * L_6 = ((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0;
 		IntPtr_t L_7 = { (void*)CustomInterstisialExample_OnInterstisialsClosed_m718_MethodInfo_var };
 		EventHandlerFunction_t675 * L_8 = (EventHandlerFunction_t675 *)il2cpp_codegen_object_new (EventHandlerFunction_t675_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m3639(L_8, __this, L_7, /*hidden argument*/NULL);
+		EventHandlerFunction__ctor_m3636(L_8, __this, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
 		InterfaceActionInvoker2< String_t*, EventHandlerFunction_t675 * >::Invoke(34 /* System.Void GoogleMobileAdInterface::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction) */, GoogleMobileAdInterface_t142_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral254, L_8);
 		GoogleMobileAd_LoadInterstitialAd_m745(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -7388,21 +7388,21 @@ extern "C" void GoogleAdsExample_Start_m720 (GoogleAdsExample_t141 * __this, con
 		GoogleMobileAd_AddTestDevice_m741(NULL /*static, unused*/, (String_t*) &_stringLiteral256, /*hidden argument*/NULL);
 		IntPtr_t L_0 = { (void*)GoogleAdsExample_OnInterstisialsLoaded_m723_MethodInfo_var };
 		EventHandlerFunction_t675 * L_1 = (EventHandlerFunction_t675 *)il2cpp_codegen_object_new (EventHandlerFunction_t675_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m3639(L_1, __this, L_0, /*hidden argument*/NULL);
+		EventHandlerFunction__ctor_m3636(L_1, __this, L_0, /*hidden argument*/NULL);
 		GoogleMobileAd_addEventListener_m757(NULL /*static, unused*/, (String_t*) &_stringLiteral252, L_1, /*hidden argument*/NULL);
 		IntPtr_t L_2 = { (void*)GoogleAdsExample_OnInterstisialsOpen_m724_MethodInfo_var };
 		EventHandlerFunction_t675 * L_3 = (EventHandlerFunction_t675 *)il2cpp_codegen_object_new (EventHandlerFunction_t675_il2cpp_TypeInfo_var);
-		EventHandlerFunction__ctor_m3639(L_3, __this, L_2, /*hidden argument*/NULL);
+		EventHandlerFunction__ctor_m3636(L_3, __this, L_2, /*hidden argument*/NULL);
 		GoogleMobileAd_addEventListener_m757(NULL /*static, unused*/, (String_t*) &_stringLiteral253, L_3, /*hidden argument*/NULL);
 		Action_t143 * L_4 = ((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___OnInterstitialLoaded_2;
 		IntPtr_t L_5 = { (void*)GoogleAdsExample_OnInterstitialLoaded_m726_MethodInfo_var };
 		Action_t143 * L_6 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_6, __this, L_5, /*hidden argument*/NULL);
-		Delegate_t724 * L_7 = Delegate_Combine_m3759(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_6, __this, L_5, /*hidden argument*/NULL);
+		Delegate_t724 * L_7 = Delegate_Combine_m3756(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
 		((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___OnInterstitialLoaded_2 = ((Action_t143 *)Castclass(L_7, Action_t143_il2cpp_TypeInfo_var));
 		IntPtr_t L_8 = { (void*)GoogleAdsExample_OnInAppRequest_m725_MethodInfo_var };
 		DataEventHandlerFunction_t676 * L_9 = (DataEventHandlerFunction_t676 *)il2cpp_codegen_object_new (DataEventHandlerFunction_t676_il2cpp_TypeInfo_var);
-		DataEventHandlerFunction__ctor_m3643(L_9, __this, L_8, /*hidden argument*/NULL);
+		DataEventHandlerFunction__ctor_m3640(L_9, __this, L_8, /*hidden argument*/NULL);
 		GoogleMobileAd_addEventListener_m758(NULL /*static, unused*/, (String_t*) &_stringLiteral257, L_9, /*hidden argument*/NULL);
 		GoogleAdsExample_InitStyles_m721(__this, /*hidden argument*/NULL);
 		return;
@@ -7420,47 +7420,47 @@ extern "C" void GoogleAdsExample_InitStyles_m721 (GoogleAdsExample_t141 * __this
 	}
 	{
 		GUIStyle_t107 * L_0 = (GUIStyle_t107 *)il2cpp_codegen_object_new (GUIStyle_t107_il2cpp_TypeInfo_var);
-		GUIStyle__ctor_m3659(L_0, /*hidden argument*/NULL);
+		GUIStyle__ctor_m3656(L_0, /*hidden argument*/NULL);
 		__this->___style_2 = L_0;
 		GUIStyle_t107 * L_1 = (__this->___style_2);
 		NullCheck(L_1);
-		GUIStyleState_t725 * L_2 = GUIStyle_get_normal_m3760(L_1, /*hidden argument*/NULL);
-		Color_t325  L_3 = Color_get_white_m3761(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUIStyleState_t725 * L_2 = GUIStyle_get_normal_m3757(L_1, /*hidden argument*/NULL);
+		Color_t325  L_3 = Color_get_white_m3758(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		GUIStyleState_set_textColor_m3762(L_2, L_3, /*hidden argument*/NULL);
+		GUIStyleState_set_textColor_m3759(L_2, L_3, /*hidden argument*/NULL);
 		GUIStyle_t107 * L_4 = (__this->___style_2);
 		NullCheck(L_4);
-		GUIStyle_set_fontSize_m3763(L_4, ((int32_t)16), /*hidden argument*/NULL);
+		GUIStyle_set_fontSize_m3760(L_4, ((int32_t)16), /*hidden argument*/NULL);
 		GUIStyle_t107 * L_5 = (__this->___style_2);
 		NullCheck(L_5);
-		GUIStyle_set_fontStyle_m3764(L_5, 3, /*hidden argument*/NULL);
+		GUIStyle_set_fontStyle_m3761(L_5, 3, /*hidden argument*/NULL);
 		GUIStyle_t107 * L_6 = (__this->___style_2);
 		NullCheck(L_6);
-		GUIStyle_set_alignment_m3662(L_6, 0, /*hidden argument*/NULL);
+		GUIStyle_set_alignment_m3659(L_6, 0, /*hidden argument*/NULL);
 		GUIStyle_t107 * L_7 = (__this->___style_2);
 		NullCheck(L_7);
-		GUIStyle_set_wordWrap_m3663(L_7, 1, /*hidden argument*/NULL);
+		GUIStyle_set_wordWrap_m3660(L_7, 1, /*hidden argument*/NULL);
 		GUIStyle_t107 * L_8 = (GUIStyle_t107 *)il2cpp_codegen_object_new (GUIStyle_t107_il2cpp_TypeInfo_var);
-		GUIStyle__ctor_m3659(L_8, /*hidden argument*/NULL);
+		GUIStyle__ctor_m3656(L_8, /*hidden argument*/NULL);
 		__this->___style2_3 = L_8;
 		GUIStyle_t107 * L_9 = (__this->___style2_3);
 		NullCheck(L_9);
-		GUIStyleState_t725 * L_10 = GUIStyle_get_normal_m3760(L_9, /*hidden argument*/NULL);
-		Color_t325  L_11 = Color_get_white_m3761(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUIStyleState_t725 * L_10 = GUIStyle_get_normal_m3757(L_9, /*hidden argument*/NULL);
+		Color_t325  L_11 = Color_get_white_m3758(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		GUIStyleState_set_textColor_m3762(L_10, L_11, /*hidden argument*/NULL);
+		GUIStyleState_set_textColor_m3759(L_10, L_11, /*hidden argument*/NULL);
 		GUIStyle_t107 * L_12 = (__this->___style2_3);
 		NullCheck(L_12);
-		GUIStyle_set_fontSize_m3763(L_12, ((int32_t)12), /*hidden argument*/NULL);
+		GUIStyle_set_fontSize_m3760(L_12, ((int32_t)12), /*hidden argument*/NULL);
 		GUIStyle_t107 * L_13 = (__this->___style2_3);
 		NullCheck(L_13);
-		GUIStyle_set_fontStyle_m3764(L_13, 2, /*hidden argument*/NULL);
+		GUIStyle_set_fontStyle_m3761(L_13, 2, /*hidden argument*/NULL);
 		GUIStyle_t107 * L_14 = (__this->___style2_3);
 		NullCheck(L_14);
-		GUIStyle_set_alignment_m3662(L_14, 0, /*hidden argument*/NULL);
+		GUIStyle_set_alignment_m3659(L_14, 0, /*hidden argument*/NULL);
 		GUIStyle_t107 * L_15 = (__this->___style2_3);
 		NullCheck(L_15);
-		GUIStyle_set_wordWrap_m3663(L_15, 1, /*hidden argument*/NULL);
+		GUIStyle_set_wordWrap_m3660(L_15, 1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -7470,7 +7470,7 @@ extern TypeInfo* GoogleMobileAd_t145_il2cpp_TypeInfo_var;
 extern TypeInfo* GoogleMobileAdBanner_t140_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t149_il2cpp_TypeInfo_var;
 extern const MethodInfo* GoogleAdsExample_OnBannerLoadedAction_m728_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3766_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3763_MethodInfo_var;
 extern "C" void GoogleAdsExample_OnGUI_m722 (GoogleAdsExample_t141 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -7481,7 +7481,7 @@ extern "C" void GoogleAdsExample_OnGUI_m722 (GoogleAdsExample_t141 * __this, con
 		GoogleMobileAdBanner_t140_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(216);
 		Action_1_t149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(220);
 		GoogleAdsExample_OnBannerLoadedAction_m728_MethodInfo_var = il2cpp_codegen_method_info_from_index(102);
-		Action_1__ctor_m3766_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
+		Action_1__ctor_m3763_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
 		s_Il2CppMethodIntialized = true;
 	}
 	float V_0 = 0.0f;
@@ -7491,19 +7491,19 @@ extern "C" void GoogleAdsExample_OnGUI_m722 (GoogleAdsExample_t141 * __this, con
 		V_1 = (10.0f);
 		float L_0 = V_1;
 		float L_1 = V_0;
-		int32_t L_2 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Rect_t694  L_3 = {0};
-		Rect__ctor_m3683(&L_3, L_0, L_1, (((float)L_2)), (40.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_3, L_0, L_1, (((float)L_2)), (40.0f), /*hidden argument*/NULL);
 		GUIStyle_t107 * L_4 = (__this->___style_2);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_Label_m3753(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral258, L_4, /*hidden argument*/NULL);
+		GUI_Label_m3750(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral258, L_4, /*hidden argument*/NULL);
 		float L_5 = V_0;
 		V_0 = ((float)((float)L_5+(float)(40.0f)));
 		float L_6 = V_1;
 		float L_7 = V_0;
 		Rect_t694  L_8 = {0};
-		Rect__ctor_m3683(&L_8, L_6, L_7, (150.0f), (50.0f), /*hidden argument*/NULL);
-		bool L_9 = GUI_Button_m3752(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral259, /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_8, L_6, L_7, (150.0f), (50.0f), /*hidden argument*/NULL);
+		bool L_9 = GUI_Button_m3749(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral259, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_005b;
@@ -7521,9 +7521,9 @@ IL_005b:
 		float L_11 = V_1;
 		float L_12 = V_0;
 		Rect_t694  L_13 = {0};
-		Rect__ctor_m3683(&L_13, L_11, L_12, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_13, L_11, L_12, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_14 = GUI_Button_m3752(NULL /*static, unused*/, L_13, (String_t*) &_stringLiteral260, /*hidden argument*/NULL);
+		bool L_14 = GUI_Button_m3749(NULL /*static, unused*/, L_13, (String_t*) &_stringLiteral260, /*hidden argument*/NULL);
 		if (!L_14)
 		{
 			goto IL_0088;
@@ -7540,12 +7540,12 @@ IL_0088:
 		V_1 = ((float)((float)L_15+(float)(170.0f)));
 		bool L_16 = (__this->___IsInterstisialsAdReady_6);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 		float L_17 = V_1;
 		float L_18 = V_0;
 		Rect_t694  L_19 = {0};
-		Rect__ctor_m3683(&L_19, L_17, L_18, (150.0f), (50.0f), /*hidden argument*/NULL);
-		bool L_20 = GUI_Button_m3752(NULL /*static, unused*/, L_19, (String_t*) &_stringLiteral261, /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_19, L_17, L_18, (150.0f), (50.0f), /*hidden argument*/NULL);
+		bool L_20 = GUI_Button_m3749(NULL /*static, unused*/, L_19, (String_t*) &_stringLiteral261, /*hidden argument*/NULL);
 		if (!L_20)
 		{
 			goto IL_00c0;
@@ -7559,18 +7559,18 @@ IL_0088:
 IL_00c0:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 		float L_21 = V_0;
 		V_0 = ((float)((float)L_21+(float)(80.0f)));
 		V_1 = (10.0f);
 		float L_22 = V_1;
 		float L_23 = V_0;
-		int32_t L_24 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_24 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Rect_t694  L_25 = {0};
-		Rect__ctor_m3683(&L_25, L_22, L_23, (((float)L_24)), (40.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_25, L_22, L_23, (((float)L_24)), (40.0f), /*hidden argument*/NULL);
 		GUIStyle_t107 * L_26 = (__this->___style_2);
-		GUI_Label_m3753(NULL /*static, unused*/, L_25, (String_t*) &_stringLiteral262, L_26, /*hidden argument*/NULL);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		GUI_Label_m3750(NULL /*static, unused*/, L_25, (String_t*) &_stringLiteral262, L_26, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		Object_t * L_27 = (__this->___banner1_4);
 		if (L_27)
 		{
@@ -7579,7 +7579,7 @@ IL_00c0:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 	}
 
 IL_010d:
@@ -7589,9 +7589,9 @@ IL_010d:
 		float L_29 = V_1;
 		float L_30 = V_0;
 		Rect_t694  L_31 = {0};
-		Rect__ctor_m3683(&L_31, L_29, L_30, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_31, L_29, L_30, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_32 = GUI_Button_m3752(NULL /*static, unused*/, L_31, (String_t*) &_stringLiteral263, /*hidden argument*/NULL);
+		bool L_32 = GUI_Button_m3749(NULL /*static, unused*/, L_31, (String_t*) &_stringLiteral263, /*hidden argument*/NULL);
 		if (!L_32)
 		{
 			goto IL_0148;
@@ -7610,9 +7610,9 @@ IL_0148:
 		float L_35 = V_1;
 		float L_36 = V_0;
 		Rect_t694  L_37 = {0};
-		Rect__ctor_m3683(&L_37, L_35, L_36, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_37, L_35, L_36, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_38 = GUI_Button_m3752(NULL /*static, unused*/, L_37, (String_t*) &_stringLiteral264, /*hidden argument*/NULL);
+		bool L_38 = GUI_Button_m3749(NULL /*static, unused*/, L_37, (String_t*) &_stringLiteral264, /*hidden argument*/NULL);
 		if (!L_38)
 		{
 			goto IL_017d;
@@ -7631,9 +7631,9 @@ IL_017d:
 		float L_41 = V_1;
 		float L_42 = V_0;
 		Rect_t694  L_43 = {0};
-		Rect__ctor_m3683(&L_43, L_41, L_42, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_43, L_41, L_42, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_44 = GUI_Button_m3752(NULL /*static, unused*/, L_43, (String_t*) &_stringLiteral265, /*hidden argument*/NULL);
+		bool L_44 = GUI_Button_m3749(NULL /*static, unused*/, L_43, (String_t*) &_stringLiteral265, /*hidden argument*/NULL);
 		if (!L_44)
 		{
 			goto IL_01b2;
@@ -7652,9 +7652,9 @@ IL_01b2:
 		float L_47 = V_1;
 		float L_48 = V_0;
 		Rect_t694  L_49 = {0};
-		Rect__ctor_m3683(&L_49, L_47, L_48, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_49, L_47, L_48, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_50 = GUI_Button_m3752(NULL /*static, unused*/, L_49, (String_t*) &_stringLiteral266, /*hidden argument*/NULL);
+		bool L_50 = GUI_Button_m3749(NULL /*static, unused*/, L_49, (String_t*) &_stringLiteral266, /*hidden argument*/NULL);
 		if (!L_50)
 		{
 			goto IL_01e7;
@@ -7673,9 +7673,9 @@ IL_01e7:
 		float L_53 = V_1;
 		float L_54 = V_0;
 		Rect_t694  L_55 = {0};
-		Rect__ctor_m3683(&L_55, L_53, L_54, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_55, L_53, L_54, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_56 = GUI_Button_m3752(NULL /*static, unused*/, L_55, (String_t*) &_stringLiteral267, /*hidden argument*/NULL);
+		bool L_56 = GUI_Button_m3749(NULL /*static, unused*/, L_55, (String_t*) &_stringLiteral267, /*hidden argument*/NULL);
 		if (!L_56)
 		{
 			goto IL_021c;
@@ -7694,9 +7694,9 @@ IL_021c:
 		float L_59 = V_1;
 		float L_60 = V_0;
 		Rect_t694  L_61 = {0};
-		Rect__ctor_m3683(&L_61, L_59, L_60, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_61, L_59, L_60, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_62 = GUI_Button_m3752(NULL /*static, unused*/, L_61, (String_t*) &_stringLiteral268, /*hidden argument*/NULL);
+		bool L_62 = GUI_Button_m3749(NULL /*static, unused*/, L_61, (String_t*) &_stringLiteral268, /*hidden argument*/NULL);
 		if (!L_62)
 		{
 			goto IL_0251;
@@ -7715,9 +7715,9 @@ IL_0251:
 		float L_65 = V_1;
 		float L_66 = V_0;
 		Rect_t694  L_67 = {0};
-		Rect__ctor_m3683(&L_67, L_65, L_66, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_67, L_65, L_66, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_68 = GUI_Button_m3752(NULL /*static, unused*/, L_67, (String_t*) &_stringLiteral269, /*hidden argument*/NULL);
+		bool L_68 = GUI_Button_m3749(NULL /*static, unused*/, L_67, (String_t*) &_stringLiteral269, /*hidden argument*/NULL);
 		if (!L_68)
 		{
 			goto IL_0286;
@@ -7732,7 +7732,7 @@ IL_0251:
 IL_0286:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		Object_t * L_70 = (__this->___banner1_4);
 		if (!L_70)
 		{
@@ -7750,7 +7750,7 @@ IL_0286:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 	}
 
 IL_02ad:
@@ -7761,9 +7761,9 @@ IL_02ad:
 		float L_74 = V_1;
 		float L_75 = V_0;
 		Rect_t694  L_76 = {0};
-		Rect__ctor_m3683(&L_76, L_74, L_75, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_76, L_74, L_75, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_77 = GUI_Button_m3752(NULL /*static, unused*/, L_76, (String_t*) &_stringLiteral270, /*hidden argument*/NULL);
+		bool L_77 = GUI_Button_m3749(NULL /*static, unused*/, L_76, (String_t*) &_stringLiteral270, /*hidden argument*/NULL);
 		if (!L_77)
 		{
 			goto IL_02e6;
@@ -7782,9 +7782,9 @@ IL_02e6:
 		float L_80 = V_1;
 		float L_81 = V_0;
 		Rect_t694  L_82 = {0};
-		Rect__ctor_m3683(&L_82, L_80, L_81, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_82, L_80, L_81, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_83 = GUI_Button_m3752(NULL /*static, unused*/, L_82, (String_t*) &_stringLiteral271, /*hidden argument*/NULL);
+		bool L_83 = GUI_Button_m3749(NULL /*static, unused*/, L_82, (String_t*) &_stringLiteral271, /*hidden argument*/NULL);
 		if (!L_83)
 		{
 			goto IL_031a;
@@ -7803,9 +7803,9 @@ IL_031a:
 		float L_86 = V_1;
 		float L_87 = V_0;
 		Rect_t694  L_88 = {0};
-		Rect__ctor_m3683(&L_88, L_86, L_87, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_88, L_86, L_87, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_89 = GUI_Button_m3752(NULL /*static, unused*/, L_88, (String_t*) &_stringLiteral272, /*hidden argument*/NULL);
+		bool L_89 = GUI_Button_m3749(NULL /*static, unused*/, L_88, (String_t*) &_stringLiteral272, /*hidden argument*/NULL);
 		if (!L_89)
 		{
 			goto IL_0363;
@@ -7813,10 +7813,10 @@ IL_031a:
 	}
 	{
 		Object_t * L_90 = (__this->___banner1_4);
-		int32_t L_91 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
-		int32_t L_92 = Random_Range_m3765(NULL /*static, unused*/, 0, L_91, /*hidden argument*/NULL);
-		int32_t L_93 = Screen_get_height_m3676(NULL /*static, unused*/, /*hidden argument*/NULL);
-		int32_t L_94 = Random_Range_m3765(NULL /*static, unused*/, 0, L_93, /*hidden argument*/NULL);
+		int32_t L_91 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_92 = Random_Range_m3762(NULL /*static, unused*/, 0, L_91, /*hidden argument*/NULL);
+		int32_t L_93 = Screen_get_height_m3673(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_94 = Random_Range_m3762(NULL /*static, unused*/, 0, L_93, /*hidden argument*/NULL);
 		NullCheck(L_90);
 		InterfaceActionInvoker2< int32_t, int32_t >::Invoke(3 /* System.Void GoogleMobileAdBanner::SetBannerPosition(System.Int32,System.Int32) */, GoogleMobileAdBanner_t140_il2cpp_TypeInfo_var, L_90, L_92, L_94);
 	}
@@ -7824,7 +7824,7 @@ IL_031a:
 IL_0363:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		Object_t * L_95 = (__this->___banner1_4);
 		if (!L_95)
 		{
@@ -7851,7 +7851,7 @@ IL_0363:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 	}
 
 IL_039a:
@@ -7861,9 +7861,9 @@ IL_039a:
 		float L_101 = V_1;
 		float L_102 = V_0;
 		Rect_t694  L_103 = {0};
-		Rect__ctor_m3683(&L_103, L_101, L_102, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_103, L_101, L_102, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_104 = GUI_Button_m3752(NULL /*static, unused*/, L_103, (String_t*) &_stringLiteral273, /*hidden argument*/NULL);
+		bool L_104 = GUI_Button_m3749(NULL /*static, unused*/, L_103, (String_t*) &_stringLiteral273, /*hidden argument*/NULL);
 		if (!L_104)
 		{
 			goto IL_03cd;
@@ -7878,7 +7878,7 @@ IL_039a:
 IL_03cd:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		Object_t * L_106 = (__this->___banner1_4);
 		if (!L_106)
 		{
@@ -7905,7 +7905,7 @@ IL_03cd:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 	}
 
 IL_0404:
@@ -7915,9 +7915,9 @@ IL_0404:
 		float L_112 = V_1;
 		float L_113 = V_0;
 		Rect_t694  L_114 = {0};
-		Rect__ctor_m3683(&L_114, L_112, L_113, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_114, L_112, L_113, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_115 = GUI_Button_m3752(NULL /*static, unused*/, L_114, (String_t*) &_stringLiteral274, /*hidden argument*/NULL);
+		bool L_115 = GUI_Button_m3749(NULL /*static, unused*/, L_114, (String_t*) &_stringLiteral274, /*hidden argument*/NULL);
 		if (!L_115)
 		{
 			goto IL_0437;
@@ -7932,7 +7932,7 @@ IL_0404:
 IL_0437:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		Object_t * L_117 = (__this->___banner1_4);
 		if (!L_117)
 		{
@@ -7941,7 +7941,7 @@ IL_0437:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 	}
 
 IL_044e:
@@ -7951,9 +7951,9 @@ IL_044e:
 		float L_119 = V_1;
 		float L_120 = V_0;
 		Rect_t694  L_121 = {0};
-		Rect__ctor_m3683(&L_121, L_119, L_120, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_121, L_119, L_120, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_122 = GUI_Button_m3752(NULL /*static, unused*/, L_121, (String_t*) &_stringLiteral275, /*hidden argument*/NULL);
+		bool L_122 = GUI_Button_m3749(NULL /*static, unused*/, L_121, (String_t*) &_stringLiteral275, /*hidden argument*/NULL);
 		if (!L_122)
 		{
 			goto IL_048d;
@@ -7971,18 +7971,18 @@ IL_044e:
 IL_048d:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 		float L_125 = V_0;
 		V_0 = ((float)((float)L_125+(float)(80.0f)));
 		V_1 = (10.0f);
 		float L_126 = V_1;
 		float L_127 = V_0;
-		int32_t L_128 = Screen_get_width_m3661(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_128 = Screen_get_width_m3658(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Rect_t694  L_129 = {0};
-		Rect__ctor_m3683(&L_129, L_126, L_127, (((float)L_128)), (40.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_129, L_126, L_127, (((float)L_128)), (40.0f), /*hidden argument*/NULL);
 		GUIStyle_t107 * L_130 = (__this->___style_2);
-		GUI_Label_m3753(NULL /*static, unused*/, L_129, (String_t*) &_stringLiteral276, L_130, /*hidden argument*/NULL);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		GUI_Label_m3750(NULL /*static, unused*/, L_129, (String_t*) &_stringLiteral276, L_130, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		Object_t * L_131 = (__this->___banner2_5);
 		if (L_131)
 		{
@@ -7991,7 +7991,7 @@ IL_048d:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 	}
 
 IL_04da:
@@ -8001,9 +8001,9 @@ IL_04da:
 		float L_133 = V_1;
 		float L_134 = V_0;
 		Rect_t694  L_135 = {0};
-		Rect__ctor_m3683(&L_135, L_133, L_134, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_135, L_133, L_134, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_136 = GUI_Button_m3752(NULL /*static, unused*/, L_135, (String_t*) &_stringLiteral277, /*hidden argument*/NULL);
+		bool L_136 = GUI_Button_m3749(NULL /*static, unused*/, L_135, (String_t*) &_stringLiteral277, /*hidden argument*/NULL);
 		if (!L_136)
 		{
 			goto IL_0542;
@@ -8019,8 +8019,8 @@ IL_04da:
 		Action_1_t149 * L_140 = (Action_1_t149 *)InterfaceFuncInvoker0< Action_1_t149 * >::Invoke(14 /* System.Action`1<GoogleMobileAdBanner> GoogleMobileAdBanner::get_OnLoadedAction() */, GoogleMobileAdBanner_t140_il2cpp_TypeInfo_var, L_139);
 		IntPtr_t L_141 = { (void*)GoogleAdsExample_OnBannerLoadedAction_m728_MethodInfo_var };
 		Action_1_t149 * L_142 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_142, __this, L_141, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
-		Delegate_t724 * L_143 = Delegate_Combine_m3759(NULL /*static, unused*/, L_140, L_142, /*hidden argument*/NULL);
+		Action_1__ctor_m3763(L_142, __this, L_141, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
+		Delegate_t724 * L_143 = Delegate_Combine_m3756(NULL /*static, unused*/, L_140, L_142, /*hidden argument*/NULL);
 		NullCheck(L_139);
 		InterfaceActionInvoker1< Action_1_t149 * >::Invoke(15 /* System.Void GoogleMobileAdBanner::set_OnLoadedAction(System.Action`1<GoogleMobileAdBanner>) */, GoogleMobileAdBanner_t140_il2cpp_TypeInfo_var, L_139, ((Action_1_t149 *)Castclass(L_143, Action_1_t149_il2cpp_TypeInfo_var)));
 		Object_t * L_144 = (__this->___banner2_5);
@@ -8031,7 +8031,7 @@ IL_04da:
 IL_0542:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		Object_t * L_145 = (__this->___banner2_5);
 		if (!L_145)
 		{
@@ -8049,7 +8049,7 @@ IL_0542:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 	}
 
 IL_0569:
@@ -8059,9 +8059,9 @@ IL_0569:
 		float L_149 = V_1;
 		float L_150 = V_0;
 		Rect_t694  L_151 = {0};
-		Rect__ctor_m3683(&L_151, L_149, L_150, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_151, L_149, L_150, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_152 = GUI_Button_m3752(NULL /*static, unused*/, L_151, (String_t*) &_stringLiteral270, /*hidden argument*/NULL);
+		bool L_152 = GUI_Button_m3749(NULL /*static, unused*/, L_151, (String_t*) &_stringLiteral270, /*hidden argument*/NULL);
 		if (!L_152)
 		{
 			goto IL_059c;
@@ -8076,7 +8076,7 @@ IL_0569:
 IL_059c:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		Object_t * L_154 = (__this->___banner2_5);
 		if (!L_154)
 		{
@@ -8103,7 +8103,7 @@ IL_059c:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 	}
 
 IL_05d3:
@@ -8113,9 +8113,9 @@ IL_05d3:
 		float L_160 = V_1;
 		float L_161 = V_0;
 		Rect_t694  L_162 = {0};
-		Rect__ctor_m3683(&L_162, L_160, L_161, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_162, L_160, L_161, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_163 = GUI_Button_m3752(NULL /*static, unused*/, L_162, (String_t*) &_stringLiteral273, /*hidden argument*/NULL);
+		bool L_163 = GUI_Button_m3749(NULL /*static, unused*/, L_162, (String_t*) &_stringLiteral273, /*hidden argument*/NULL);
 		if (!L_163)
 		{
 			goto IL_0606;
@@ -8130,7 +8130,7 @@ IL_05d3:
 IL_0606:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		Object_t * L_165 = (__this->___banner2_5);
 		if (!L_165)
 		{
@@ -8157,7 +8157,7 @@ IL_0606:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 	}
 
 IL_063d:
@@ -8167,9 +8167,9 @@ IL_063d:
 		float L_171 = V_1;
 		float L_172 = V_0;
 		Rect_t694  L_173 = {0};
-		Rect__ctor_m3683(&L_173, L_171, L_172, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_173, L_171, L_172, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_174 = GUI_Button_m3752(NULL /*static, unused*/, L_173, (String_t*) &_stringLiteral274, /*hidden argument*/NULL);
+		bool L_174 = GUI_Button_m3749(NULL /*static, unused*/, L_173, (String_t*) &_stringLiteral274, /*hidden argument*/NULL);
 		if (!L_174)
 		{
 			goto IL_0670;
@@ -8184,7 +8184,7 @@ IL_063d:
 IL_0670:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		Object_t * L_176 = (__this->___banner2_5);
 		if (!L_176)
 		{
@@ -8193,7 +8193,7 @@ IL_0670:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 	}
 
 IL_0687:
@@ -8203,9 +8203,9 @@ IL_0687:
 		float L_178 = V_1;
 		float L_179 = V_0;
 		Rect_t694  L_180 = {0};
-		Rect__ctor_m3683(&L_180, L_178, L_179, (150.0f), (50.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3680(&L_180, L_178, L_179, (150.0f), (50.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		bool L_181 = GUI_Button_m3752(NULL /*static, unused*/, L_180, (String_t*) &_stringLiteral275, /*hidden argument*/NULL);
+		bool L_181 = GUI_Button_m3749(NULL /*static, unused*/, L_180, (String_t*) &_stringLiteral275, /*hidden argument*/NULL);
 		if (!L_181)
 		{
 			goto IL_06c6;
@@ -8223,7 +8223,7 @@ IL_0687:
 IL_06c6:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t705_il2cpp_TypeInfo_var);
-		GUI_set_enabled_m3694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GUI_set_enabled_m3691(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -8282,7 +8282,7 @@ extern "C" void GoogleAdsExample_OnInterstitialLoaded_m726 (GoogleAdsExample_t14
 extern TypeInfo* GoogleMobileAdBanner_t140_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t149_il2cpp_TypeInfo_var;
 extern const MethodInfo* GoogleAdsExample_OnOpenedAction_m727_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3766_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3763_MethodInfo_var;
 extern "C" void GoogleAdsExample_OnOpenedAction_m727 (GoogleAdsExample_t141 * __this, Object_t * ___banner, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8291,7 +8291,7 @@ extern "C" void GoogleAdsExample_OnOpenedAction_m727 (GoogleAdsExample_t141 * __
 		GoogleMobileAdBanner_t140_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(216);
 		Action_1_t149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(220);
 		GoogleAdsExample_OnOpenedAction_m727_MethodInfo_var = il2cpp_codegen_method_info_from_index(104);
-		Action_1__ctor_m3766_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
+		Action_1__ctor_m3763_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -8301,8 +8301,8 @@ extern "C" void GoogleAdsExample_OnOpenedAction_m727 (GoogleAdsExample_t141 * __
 		Action_1_t149 * L_2 = (Action_1_t149 *)InterfaceFuncInvoker0< Action_1_t149 * >::Invoke(18 /* System.Action`1<GoogleMobileAdBanner> GoogleMobileAdBanner::get_OnOpenedAction() */, GoogleMobileAdBanner_t140_il2cpp_TypeInfo_var, L_1);
 		IntPtr_t L_3 = { (void*)GoogleAdsExample_OnOpenedAction_m727_MethodInfo_var };
 		Action_1_t149 * L_4 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
-		Delegate_t724 * L_5 = Delegate_Remove_m3767(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		Action_1__ctor_m3763(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
+		Delegate_t724 * L_5 = Delegate_Remove_m3764(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		InterfaceActionInvoker1< Action_1_t149 * >::Invoke(19 /* System.Void GoogleMobileAdBanner::set_OnOpenedAction(System.Action`1<GoogleMobileAdBanner>) */, GoogleMobileAdBanner_t140_il2cpp_TypeInfo_var, L_1, ((Action_1_t149 *)Castclass(L_5, Action_1_t149_il2cpp_TypeInfo_var)));
 		Debug_Log_m382(NULL /*static, unused*/, (String_t*) &_stringLiteral281, /*hidden argument*/NULL);
@@ -8313,7 +8313,7 @@ extern "C" void GoogleAdsExample_OnOpenedAction_m727 (GoogleAdsExample_t141 * __
 extern TypeInfo* GoogleMobileAdBanner_t140_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t149_il2cpp_TypeInfo_var;
 extern const MethodInfo* GoogleAdsExample_OnBannerLoadedAction_m728_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3766_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3763_MethodInfo_var;
 extern "C" void GoogleAdsExample_OnBannerLoadedAction_m728 (GoogleAdsExample_t141 * __this, Object_t * ___banner, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8322,7 +8322,7 @@ extern "C" void GoogleAdsExample_OnBannerLoadedAction_m728 (GoogleAdsExample_t14
 		GoogleMobileAdBanner_t140_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(216);
 		Action_1_t149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(220);
 		GoogleAdsExample_OnBannerLoadedAction_m728_MethodInfo_var = il2cpp_codegen_method_info_from_index(102);
-		Action_1__ctor_m3766_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
+		Action_1__ctor_m3763_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -8332,8 +8332,8 @@ extern "C" void GoogleAdsExample_OnBannerLoadedAction_m728 (GoogleAdsExample_t14
 		Action_1_t149 * L_2 = (Action_1_t149 *)InterfaceFuncInvoker0< Action_1_t149 * >::Invoke(14 /* System.Action`1<GoogleMobileAdBanner> GoogleMobileAdBanner::get_OnLoadedAction() */, GoogleMobileAdBanner_t140_il2cpp_TypeInfo_var, L_1);
 		IntPtr_t L_3 = { (void*)GoogleAdsExample_OnBannerLoadedAction_m728_MethodInfo_var };
 		Action_1_t149 * L_4 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
-		Delegate_t724 * L_5 = Delegate_Remove_m3767(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		Action_1__ctor_m3763(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
+		Delegate_t724 * L_5 = Delegate_Remove_m3764(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		InterfaceActionInvoker1< Action_1_t149 * >::Invoke(15 /* System.Void GoogleMobileAdBanner::set_OnLoadedAction(System.Action`1<GoogleMobileAdBanner>) */, GoogleMobileAdBanner_t140_il2cpp_TypeInfo_var, L_1, ((Action_1_t149 *)Castclass(L_5, Action_1_t149_il2cpp_TypeInfo_var)));
 		Object_t * L_6 = ___banner;
@@ -8398,7 +8398,7 @@ extern const MethodInfo* GoogleMobileAd_U3COnInterstitialOpenedU3Em__2_m763_Meth
 extern const MethodInfo* GoogleMobileAd_U3COnInterstitialClosedU3Em__3_m764_MethodInfo_var;
 extern const MethodInfo* GoogleMobileAd_U3COnInterstitialLeftApplicationU3Em__4_m765_MethodInfo_var;
 extern const MethodInfo* GoogleMobileAd_U3COnAdInAppRequestU3Em__5_m766_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3768_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3765_MethodInfo_var;
 extern "C" void GoogleMobileAd__cctor_m730 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8413,7 +8413,7 @@ extern "C" void GoogleMobileAd__cctor_m730 (Object_t * __this /* static, unused 
 		GoogleMobileAd_U3COnInterstitialClosedU3Em__3_m764_MethodInfo_var = il2cpp_codegen_method_info_from_index(108);
 		GoogleMobileAd_U3COnInterstitialLeftApplicationU3Em__4_m765_MethodInfo_var = il2cpp_codegen_method_info_from_index(109);
 		GoogleMobileAd_U3COnAdInAppRequestU3Em__5_m766_MethodInfo_var = il2cpp_codegen_method_info_from_index(110);
-		Action_1__ctor_m3768_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483759);
+		Action_1__ctor_m3765_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483759);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -8427,7 +8427,7 @@ extern "C" void GoogleMobileAd__cctor_m730 (Object_t * __this /* static, unused 
 	{
 		IntPtr_t L_1 = { (void*)GoogleMobileAd_U3COnInterstitialLoadedU3Em__0_m761_MethodInfo_var };
 		Action_t143 * L_2 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_2, NULL, L_1, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_2, NULL, L_1, /*hidden argument*/NULL);
 		((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache8_8 = L_2;
 	}
 
@@ -8444,7 +8444,7 @@ IL_001e:
 	{
 		IntPtr_t L_5 = { (void*)GoogleMobileAd_U3COnInterstitialFailedLoadingU3Em__1_m762_MethodInfo_var };
 		Action_t143 * L_6 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_6, NULL, L_5, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_6, NULL, L_5, /*hidden argument*/NULL);
 		((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache9_9 = L_6;
 	}
 
@@ -8461,7 +8461,7 @@ IL_0040:
 	{
 		IntPtr_t L_9 = { (void*)GoogleMobileAd_U3COnInterstitialOpenedU3Em__2_m763_MethodInfo_var };
 		Action_t143 * L_10 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_10, NULL, L_9, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_10, NULL, L_9, /*hidden argument*/NULL);
 		((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheA_10 = L_10;
 	}
 
@@ -8478,7 +8478,7 @@ IL_0062:
 	{
 		IntPtr_t L_13 = { (void*)GoogleMobileAd_U3COnInterstitialClosedU3Em__3_m764_MethodInfo_var };
 		Action_t143 * L_14 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_14, NULL, L_13, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_14, NULL, L_13, /*hidden argument*/NULL);
 		((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheB_11 = L_14;
 	}
 
@@ -8495,7 +8495,7 @@ IL_0084:
 	{
 		IntPtr_t L_17 = { (void*)GoogleMobileAd_U3COnInterstitialLeftApplicationU3Em__4_m765_MethodInfo_var };
 		Action_t143 * L_18 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_18, NULL, L_17, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_18, NULL, L_17, /*hidden argument*/NULL);
 		((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheC_12 = L_18;
 	}
 
@@ -8512,7 +8512,7 @@ IL_00a6:
 	{
 		IntPtr_t L_21 = { (void*)GoogleMobileAd_U3COnAdInAppRequestU3Em__5_m766_MethodInfo_var };
 		Action_1_t144 * L_22 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_22, NULL, L_21, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_22, NULL, L_21, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheD_13 = L_22;
 	}
 
@@ -8536,21 +8536,21 @@ extern TypeInfo* Action_1_t144_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t115_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t726_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m3770_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m3771_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m3772_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m3767_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m3768_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m3769_MethodInfo_var;
 extern const MethodInfo* GoogleMobileAd_OnInterstitialLoadedListner_m751_MethodInfo_var;
 extern const MethodInfo* GoogleMobileAd_OnInterstitialFailedLoadingListner_m752_MethodInfo_var;
 extern const MethodInfo* GoogleMobileAd_OnInterstitialOpenedListner_m753_MethodInfo_var;
 extern const MethodInfo* GoogleMobileAd_OnInterstitialClosedListner_m754_MethodInfo_var;
 extern const MethodInfo* GoogleMobileAd_OnInterstitialLeftApplicationListner_m755_MethodInfo_var;
 extern const MethodInfo* GoogleMobileAd_OnAdInAppRequestListner_m756_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3768_MethodInfo_var;
-extern const MethodInfo* List_1__ctor_m3708_MethodInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m3773_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3774_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3775_MethodInfo_var;
-extern const MethodInfo* List_1_ToArray_m3776_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3765_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3705_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3770_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3771_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3772_MethodInfo_var;
+extern const MethodInfo* List_1_ToArray_m3773_MethodInfo_var;
 extern "C" void GoogleMobileAd_Init_m731 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -8568,21 +8568,21 @@ extern "C" void GoogleMobileAd_Init_m731 (Object_t * __this /* static, unused */
 		List_1_t115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(186);
 		Enumerator_t726_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(230);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		SA_Singleton_1_get_instance_m3770_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483760);
-		SA_Singleton_1_get_instance_m3771_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483761);
-		SA_Singleton_1_get_instance_m3772_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483762);
+		SA_Singleton_1_get_instance_m3767_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483760);
+		SA_Singleton_1_get_instance_m3768_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483761);
+		SA_Singleton_1_get_instance_m3769_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483762);
 		GoogleMobileAd_OnInterstitialLoadedListner_m751_MethodInfo_var = il2cpp_codegen_method_info_from_index(115);
 		GoogleMobileAd_OnInterstitialFailedLoadingListner_m752_MethodInfo_var = il2cpp_codegen_method_info_from_index(116);
 		GoogleMobileAd_OnInterstitialOpenedListner_m753_MethodInfo_var = il2cpp_codegen_method_info_from_index(117);
 		GoogleMobileAd_OnInterstitialClosedListner_m754_MethodInfo_var = il2cpp_codegen_method_info_from_index(118);
 		GoogleMobileAd_OnInterstitialLeftApplicationListner_m755_MethodInfo_var = il2cpp_codegen_method_info_from_index(119);
 		GoogleMobileAd_OnAdInAppRequestListner_m756_MethodInfo_var = il2cpp_codegen_method_info_from_index(120);
-		Action_1__ctor_m3768_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483759);
-		List_1__ctor_m3708_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483708);
-		List_1_GetEnumerator_m3773_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483769);
-		Enumerator_get_Current_m3774_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483770);
-		Enumerator_MoveNext_m3775_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483771);
-		List_1_ToArray_m3776_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483772);
+		Action_1__ctor_m3765_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483759);
+		List_1__ctor_m3705_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483708);
+		List_1_GetEnumerator_m3770_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483769);
+		Enumerator_get_Current_m3771_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483770);
+		Enumerator_MoveNext_m3772_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483771);
+		List_1_ToArray_m3773_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483772);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t115 * V_0 = {0};
@@ -8596,7 +8596,7 @@ extern "C" void GoogleMobileAd_Init_m731 (Object_t * __this /* static, unused */
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		int32_t L_0 = Application_get_platform_m3769(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m3766(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_3 = L_0;
 		int32_t L_1 = V_3;
 		if (((int32_t)((int32_t)L_1-(int32_t)8)) == 0)
@@ -8623,7 +8623,7 @@ extern "C" void GoogleMobileAd_Init_m731 (Object_t * __this /* static, unused */
 IL_0023:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t153_il2cpp_TypeInfo_var);
-		IOSAdMobController_t152 * L_2 = SA_Singleton_1_get_instance_m3770(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m3770_MethodInfo_var);
+		IOSAdMobController_t152 * L_2 = SA_Singleton_1_get_instance_m3767(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m3767_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(GoogleMobileAd_t145_il2cpp_TypeInfo_var);
 		((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0 = L_2;
 		Object_t * L_3 = ((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0;
@@ -8664,7 +8664,7 @@ IL_006e:
 IL_0073:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t161_il2cpp_TypeInfo_var);
-		AndroidAdMobController_t160 * L_13 = SA_Singleton_1_get_instance_m3771(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m3771_MethodInfo_var);
+		AndroidAdMobController_t160 * L_13 = SA_Singleton_1_get_instance_m3768(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m3768_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(GoogleMobileAd_t145_il2cpp_TypeInfo_var);
 		((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0 = L_13;
 		Object_t * L_14 = ((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0;
@@ -8705,7 +8705,7 @@ IL_00be:
 IL_00c3:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t158_il2cpp_TypeInfo_var);
-		WP8AdMobController_t157 * L_24 = SA_Singleton_1_get_instance_m3772(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m3772_MethodInfo_var);
+		WP8AdMobController_t157 * L_24 = SA_Singleton_1_get_instance_m3769(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m3769_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(GoogleMobileAd_t145_il2cpp_TypeInfo_var);
 		((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0 = L_24;
 		Object_t * L_25 = ((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0;
@@ -8749,37 +8749,37 @@ IL_0113:
 		Object_t * L_35 = ((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0;
 		IntPtr_t L_36 = { (void*)GoogleMobileAd_OnInterstitialLoadedListner_m751_MethodInfo_var };
 		Action_t143 * L_37 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_37, NULL, L_36, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_37, NULL, L_36, /*hidden argument*/NULL);
 		NullCheck(L_35);
 		InterfaceActionInvoker1< Action_t143 * >::Invoke(23 /* System.Void GoogleMobileAdInterface::set_OnInterstitialLoaded(System.Action) */, GoogleMobileAdInterface_t142_il2cpp_TypeInfo_var, L_35, L_37);
 		Object_t * L_38 = ((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0;
 		IntPtr_t L_39 = { (void*)GoogleMobileAd_OnInterstitialFailedLoadingListner_m752_MethodInfo_var };
 		Action_t143 * L_40 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_40, NULL, L_39, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_40, NULL, L_39, /*hidden argument*/NULL);
 		NullCheck(L_38);
 		InterfaceActionInvoker1< Action_t143 * >::Invoke(25 /* System.Void GoogleMobileAdInterface::set_OnInterstitialFailedLoading(System.Action) */, GoogleMobileAdInterface_t142_il2cpp_TypeInfo_var, L_38, L_40);
 		Object_t * L_41 = ((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0;
 		IntPtr_t L_42 = { (void*)GoogleMobileAd_OnInterstitialOpenedListner_m753_MethodInfo_var };
 		Action_t143 * L_43 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_43, NULL, L_42, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_43, NULL, L_42, /*hidden argument*/NULL);
 		NullCheck(L_41);
 		InterfaceActionInvoker1< Action_t143 * >::Invoke(27 /* System.Void GoogleMobileAdInterface::set_OnInterstitialOpened(System.Action) */, GoogleMobileAdInterface_t142_il2cpp_TypeInfo_var, L_41, L_43);
 		Object_t * L_44 = ((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0;
 		IntPtr_t L_45 = { (void*)GoogleMobileAd_OnInterstitialClosedListner_m754_MethodInfo_var };
 		Action_t143 * L_46 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_46, NULL, L_45, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_46, NULL, L_45, /*hidden argument*/NULL);
 		NullCheck(L_44);
 		InterfaceActionInvoker1< Action_t143 * >::Invoke(29 /* System.Void GoogleMobileAdInterface::set_OnInterstitialClosed(System.Action) */, GoogleMobileAdInterface_t142_il2cpp_TypeInfo_var, L_44, L_46);
 		Object_t * L_47 = ((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0;
 		IntPtr_t L_48 = { (void*)GoogleMobileAd_OnInterstitialLeftApplicationListner_m755_MethodInfo_var };
 		Action_t143 * L_49 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_49, NULL, L_48, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_49, NULL, L_48, /*hidden argument*/NULL);
 		NullCheck(L_47);
 		InterfaceActionInvoker1< Action_t143 * >::Invoke(31 /* System.Void GoogleMobileAdInterface::set_OnInterstitialLeftApplication(System.Action) */, GoogleMobileAdInterface_t142_il2cpp_TypeInfo_var, L_47, L_49);
 		Object_t * L_50 = ((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->___controller_0;
 		IntPtr_t L_51 = { (void*)GoogleMobileAd_OnAdInAppRequestListner_m756_MethodInfo_var };
 		Action_1_t144 * L_52 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_52, NULL, L_51, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_52, NULL, L_51, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		NullCheck(L_50);
 		InterfaceActionInvoker1< Action_1_t144 * >::Invoke(33 /* System.Void GoogleMobileAdInterface::set_OnAdInAppRequest(System.Action`1<System.String>) */, GoogleMobileAdInterface_t142_il2cpp_TypeInfo_var, L_50, L_52);
 		((GoogleMobileAd_t145_StaticFields*)GoogleMobileAd_t145_il2cpp_TypeInfo_var->static_fields)->____IsInited_1 = 1;
@@ -8796,14 +8796,14 @@ IL_0113:
 	}
 	{
 		List_1_t115 * L_56 = (List_1_t115 *)il2cpp_codegen_object_new (List_1_t115_il2cpp_TypeInfo_var);
-		List_1__ctor_m3708(L_56, /*hidden argument*/List_1__ctor_m3708_MethodInfo_var);
+		List_1__ctor_m3705(L_56, /*hidden argument*/List_1__ctor_m3705_MethodInfo_var);
 		V_0 = L_56;
 		IL2CPP_RUNTIME_CLASS_INIT(GoogleMobileAdSettings_t147_il2cpp_TypeInfo_var);
 		GoogleMobileAdSettings_t147 * L_57 = GoogleMobileAdSettings_get_Instance_m769(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_57);
 		List_1_t146 * L_58 = (L_57->___testDevices_19);
 		NullCheck(L_58);
-		Enumerator_t726  L_59 = List_1_GetEnumerator_m3773(L_58, /*hidden argument*/List_1_GetEnumerator_m3773_MethodInfo_var);
+		Enumerator_t726  L_59 = List_1_GetEnumerator_m3770(L_58, /*hidden argument*/List_1_GetEnumerator_m3770_MethodInfo_var);
 		V_2 = L_59;
 	}
 
@@ -8816,7 +8816,7 @@ IL_01c8:
 
 IL_01cd:
 		{
-			GADTestDevice_t154 * L_60 = Enumerator_get_Current_m3774((&V_2), /*hidden argument*/Enumerator_get_Current_m3774_MethodInfo_var);
+			GADTestDevice_t154 * L_60 = Enumerator_get_Current_m3771((&V_2), /*hidden argument*/Enumerator_get_Current_m3771_MethodInfo_var);
 			V_1 = L_60;
 			List_1_t115 * L_61 = V_0;
 			GADTestDevice_t154 * L_62 = V_1;
@@ -8828,7 +8828,7 @@ IL_01cd:
 
 IL_01e1:
 		{
-			bool L_64 = Enumerator_MoveNext_m3775((&V_2), /*hidden argument*/Enumerator_MoveNext_m3775_MethodInfo_var);
+			bool L_64 = Enumerator_MoveNext_m3772((&V_2), /*hidden argument*/Enumerator_MoveNext_m3772_MethodInfo_var);
 			if (L_64)
 			{
 				goto IL_01cd;
@@ -8865,7 +8865,7 @@ IL_01fe:
 	{
 		List_1_t115 * L_68 = V_0;
 		NullCheck(L_68);
-		StringU5BU5D_t75* L_69 = List_1_ToArray_m3776(L_68, /*hidden argument*/List_1_ToArray_m3776_MethodInfo_var);
+		StringU5BU5D_t75* L_69 = List_1_ToArray_m3773(L_68, /*hidden argument*/List_1_ToArray_m3773_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(GoogleMobileAd_t145_il2cpp_TypeInfo_var);
 		GoogleMobileAd_AddTestDevices_m742(NULL /*static, unused*/, L_69, /*hidden argument*/NULL);
 	}
@@ -8903,7 +8903,7 @@ extern "C" void GoogleMobileAd_SetBannersUnitID_m732 (Object_t * __this /* stati
 
 IL_0015:
 	{
-		int32_t L_1 = Application_get_platform_m3769(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Application_get_platform_m3766(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if (((int32_t)((int32_t)L_2-(int32_t)8)) == 0)
@@ -8990,7 +8990,7 @@ extern "C" void GoogleMobileAd_SetInterstisialsUnitID_m733 (Object_t * __this /*
 
 IL_0015:
 	{
-		int32_t L_1 = Application_get_platform_m3769(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Application_get_platform_m3766(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if (((int32_t)((int32_t)L_2-(int32_t)8)) == 0)
@@ -9904,17 +9904,17 @@ struct ScriptableObject_t148;
 struct Object_t;
 // Declaration !!0 UnityEngine.ScriptableObject::CreateInstance<System.Object>()
 // !!0 UnityEngine.ScriptableObject::CreateInstance<System.Object>()
-extern "C" Object_t * ScriptableObject_CreateInstance_TisObject_t_m3778_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define ScriptableObject_CreateInstance_TisObject_t_m3778(__this /* static, unused */, method) (( Object_t * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m3778_gshared)(__this /* static, unused */, method)
+extern "C" Object_t * ScriptableObject_CreateInstance_TisObject_t_m3775_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define ScriptableObject_CreateInstance_TisObject_t_m3775(__this /* static, unused */, method) (( Object_t * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m3775_gshared)(__this /* static, unused */, method)
 // Declaration !!0 UnityEngine.ScriptableObject::CreateInstance<GoogleMobileAdSettings>()
 // !!0 UnityEngine.ScriptableObject::CreateInstance<GoogleMobileAdSettings>()
-#define ScriptableObject_CreateInstance_TisGoogleMobileAdSettings_t147_m3777(__this /* static, unused */, method) (( GoogleMobileAdSettings_t147 * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m3778_gshared)(__this /* static, unused */, method)
+#define ScriptableObject_CreateInstance_TisGoogleMobileAdSettings_t147_m3774(__this /* static, unused */, method) (( GoogleMobileAdSettings_t147 * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m3775_gshared)(__this /* static, unused */, method)
 
 
 // System.Void GoogleMobileAdSettings::.ctor()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t146_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3779_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3776_MethodInfo_var;
 extern "C" void GoogleMobileAdSettings__ctor_m767 (GoogleMobileAdSettings_t147 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -9922,7 +9922,7 @@ extern "C" void GoogleMobileAdSettings__ctor_m767 (GoogleMobileAdSettings_t147 *
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		List_1_t146_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(231);
-		List_1__ctor_m3779_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483773);
+		List_1__ctor_m3776_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483773);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -9945,9 +9945,9 @@ extern "C" void GoogleMobileAdSettings__ctor_m767 (GoogleMobileAdSettings_t147 *
 		__this->___IsTestSettinsOpened_16 = 1;
 		__this->___KeepManifestClean_18 = 1;
 		List_1_t146 * L_6 = (List_1_t146 *)il2cpp_codegen_object_new (List_1_t146_il2cpp_TypeInfo_var);
-		List_1__ctor_m3779(L_6, /*hidden argument*/List_1__ctor_m3779_MethodInfo_var);
+		List_1__ctor_m3776(L_6, /*hidden argument*/List_1__ctor_m3776_MethodInfo_var);
 		__this->___testDevices_19 = L_6;
-		ScriptableObject__ctor_m3780(__this, /*hidden argument*/NULL);
+		ScriptableObject__ctor_m3777(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -9960,38 +9960,38 @@ extern "C" void GoogleMobileAdSettings__cctor_m768 (Object_t * __this /* static,
 }
 // GoogleMobileAdSettings GoogleMobileAdSettings::get_Instance()
 extern TypeInfo* GoogleMobileAdSettings_t147_il2cpp_TypeInfo_var;
-extern const MethodInfo* ScriptableObject_CreateInstance_TisGoogleMobileAdSettings_t147_m3777_MethodInfo_var;
+extern const MethodInfo* ScriptableObject_CreateInstance_TisGoogleMobileAdSettings_t147_m3774_MethodInfo_var;
 extern "C" GoogleMobileAdSettings_t147 * GoogleMobileAdSettings_get_Instance_m769 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GoogleMobileAdSettings_t147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(227);
-		ScriptableObject_CreateInstance_TisGoogleMobileAdSettings_t147_m3777_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483774);
+		ScriptableObject_CreateInstance_TisGoogleMobileAdSettings_t147_m3774_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483774);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GoogleMobileAdSettings_t147_il2cpp_TypeInfo_var);
 		GoogleMobileAdSettings_t147 * L_0 = ((GoogleMobileAdSettings_t147_StaticFields*)GoogleMobileAdSettings_t147_il2cpp_TypeInfo_var->static_fields)->___instance_20;
-		bool L_1 = Object_op_Equality_m3781(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3778(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		Object_t703 * L_2 = Resources_Load_m3782(NULL /*static, unused*/, (String_t*) &_stringLiteral296, /*hidden argument*/NULL);
+		Object_t703 * L_2 = Resources_Load_m3779(NULL /*static, unused*/, (String_t*) &_stringLiteral296, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GoogleMobileAdSettings_t147_il2cpp_TypeInfo_var);
 		((GoogleMobileAdSettings_t147_StaticFields*)GoogleMobileAdSettings_t147_il2cpp_TypeInfo_var->static_fields)->___instance_20 = ((GoogleMobileAdSettings_t147 *)IsInst(L_2, GoogleMobileAdSettings_t147_il2cpp_TypeInfo_var));
 		GoogleMobileAdSettings_t147 * L_3 = ((GoogleMobileAdSettings_t147_StaticFields*)GoogleMobileAdSettings_t147_il2cpp_TypeInfo_var->static_fields)->___instance_20;
-		bool L_4 = Object_op_Equality_m3781(NULL /*static, unused*/, L_3, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Equality_m3778(NULL /*static, unused*/, L_3, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		GoogleMobileAdSettings_t147 * L_5 = ScriptableObject_CreateInstance_TisGoogleMobileAdSettings_t147_m3777(NULL /*static, unused*/, /*hidden argument*/ScriptableObject_CreateInstance_TisGoogleMobileAdSettings_t147_m3777_MethodInfo_var);
+		GoogleMobileAdSettings_t147 * L_5 = ScriptableObject_CreateInstance_TisGoogleMobileAdSettings_t147_m3774(NULL /*static, unused*/, /*hidden argument*/ScriptableObject_CreateInstance_TisGoogleMobileAdSettings_t147_m3774_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(GoogleMobileAdSettings_t147_il2cpp_TypeInfo_var);
 		((GoogleMobileAdSettings_t147_StaticFields*)GoogleMobileAdSettings_t147_il2cpp_TypeInfo_var->static_fields)->___instance_20 = L_5;
 	}
@@ -10043,7 +10043,7 @@ extern "C" void GoogleMobileAdSettings_RemoveDevice_m771 (GoogleMobileAdSettings
 extern TypeInfo* IOSADBanner_t150_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t149_il2cpp_TypeInfo_var;
 extern const MethodInfo* IOSADBanner_U3C_OnLoadedActionU3Em__6_m813_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3766_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3763_MethodInfo_var;
 extern const MethodInfo* IOSADBanner_U3C_OnFailedLoadingActionU3Em__7_m814_MethodInfo_var;
 extern const MethodInfo* IOSADBanner_U3C_OnOpenedActionU3Em__8_m815_MethodInfo_var;
 extern const MethodInfo* IOSADBanner_U3C_OnClosedActionU3Em__9_m816_MethodInfo_var;
@@ -10056,7 +10056,7 @@ extern "C" void IOSADBanner__ctor_m772 (IOSADBanner_t150 * __this, int32_t ___an
 		IOSADBanner_t150_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(232);
 		Action_1_t149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(220);
 		IOSADBanner_U3C_OnLoadedActionU3Em__6_m813_MethodInfo_var = il2cpp_codegen_method_info_from_index(127);
-		Action_1__ctor_m3766_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
+		Action_1__ctor_m3763_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
 		IOSADBanner_U3C_OnFailedLoadingActionU3Em__7_m814_MethodInfo_var = il2cpp_codegen_method_info_from_index(128);
 		IOSADBanner_U3C_OnOpenedActionU3Em__8_m815_MethodInfo_var = il2cpp_codegen_method_info_from_index(129);
 		IOSADBanner_U3C_OnClosedActionU3Em__9_m816_MethodInfo_var = il2cpp_codegen_method_info_from_index(130);
@@ -10087,7 +10087,7 @@ extern "C" void IOSADBanner__ctor_m772 (IOSADBanner_t150 * __this, int32_t ___an
 	{
 		IntPtr_t L_1 = { (void*)IOSADBanner_U3C_OnLoadedActionU3Em__6_m813_MethodInfo_var };
 		Action_1_t149 * L_2 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((IOSADBanner_t150_StaticFields*)IOSADBanner_t150_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheF_17 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -10108,7 +10108,7 @@ IL_0027:
 	{
 		IntPtr_t L_5 = { (void*)IOSADBanner_U3C_OnFailedLoadingActionU3Em__7_m814_MethodInfo_var };
 		Action_1_t149 * L_6 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((IOSADBanner_t150_StaticFields*)IOSADBanner_t150_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache10_18 = L_6;
 		G_B4_0 = G_B3_0;
 	}
@@ -10129,7 +10129,7 @@ IL_004a:
 	{
 		IntPtr_t L_9 = { (void*)IOSADBanner_U3C_OnOpenedActionU3Em__8_m815_MethodInfo_var };
 		Action_1_t149 * L_10 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((IOSADBanner_t150_StaticFields*)IOSADBanner_t150_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache11_19 = L_10;
 		G_B6_0 = G_B5_0;
 	}
@@ -10150,7 +10150,7 @@ IL_006d:
 	{
 		IntPtr_t L_13 = { (void*)IOSADBanner_U3C_OnClosedActionU3Em__9_m816_MethodInfo_var };
 		Action_1_t149 * L_14 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((IOSADBanner_t150_StaticFields*)IOSADBanner_t150_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache12_20 = L_14;
 		G_B8_0 = G_B7_0;
 	}
@@ -10171,7 +10171,7 @@ IL_0090:
 	{
 		IntPtr_t L_17 = { (void*)IOSADBanner_U3C_OnLeftApplicationActionU3Em__A_m817_MethodInfo_var };
 		Action_1_t149 * L_18 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((IOSADBanner_t150_StaticFields*)IOSADBanner_t150_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache13_21 = L_18;
 		G_B10_0 = G_B9_0;
 	}
@@ -10199,7 +10199,7 @@ IL_00b3:
 extern TypeInfo* IOSADBanner_t150_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t149_il2cpp_TypeInfo_var;
 extern const MethodInfo* IOSADBanner_U3C_OnLoadedActionU3Em__6_m813_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3766_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3763_MethodInfo_var;
 extern const MethodInfo* IOSADBanner_U3C_OnFailedLoadingActionU3Em__7_m814_MethodInfo_var;
 extern const MethodInfo* IOSADBanner_U3C_OnOpenedActionU3Em__8_m815_MethodInfo_var;
 extern const MethodInfo* IOSADBanner_U3C_OnClosedActionU3Em__9_m816_MethodInfo_var;
@@ -10212,7 +10212,7 @@ extern "C" void IOSADBanner__ctor_m773 (IOSADBanner_t150 * __this, int32_t ___x,
 		IOSADBanner_t150_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(232);
 		Action_1_t149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(220);
 		IOSADBanner_U3C_OnLoadedActionU3Em__6_m813_MethodInfo_var = il2cpp_codegen_method_info_from_index(127);
-		Action_1__ctor_m3766_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
+		Action_1__ctor_m3763_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
 		IOSADBanner_U3C_OnFailedLoadingActionU3Em__7_m814_MethodInfo_var = il2cpp_codegen_method_info_from_index(128);
 		IOSADBanner_U3C_OnOpenedActionU3Em__8_m815_MethodInfo_var = il2cpp_codegen_method_info_from_index(129);
 		IOSADBanner_U3C_OnClosedActionU3Em__9_m816_MethodInfo_var = il2cpp_codegen_method_info_from_index(130);
@@ -10243,7 +10243,7 @@ extern "C" void IOSADBanner__ctor_m773 (IOSADBanner_t150 * __this, int32_t ___x,
 	{
 		IntPtr_t L_1 = { (void*)IOSADBanner_U3C_OnLoadedActionU3Em__6_m813_MethodInfo_var };
 		Action_1_t149 * L_2 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((IOSADBanner_t150_StaticFields*)IOSADBanner_t150_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheF_17 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -10264,7 +10264,7 @@ IL_0027:
 	{
 		IntPtr_t L_5 = { (void*)IOSADBanner_U3C_OnFailedLoadingActionU3Em__7_m814_MethodInfo_var };
 		Action_1_t149 * L_6 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((IOSADBanner_t150_StaticFields*)IOSADBanner_t150_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache10_18 = L_6;
 		G_B4_0 = G_B3_0;
 	}
@@ -10285,7 +10285,7 @@ IL_004a:
 	{
 		IntPtr_t L_9 = { (void*)IOSADBanner_U3C_OnOpenedActionU3Em__8_m815_MethodInfo_var };
 		Action_1_t149 * L_10 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((IOSADBanner_t150_StaticFields*)IOSADBanner_t150_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache11_19 = L_10;
 		G_B6_0 = G_B5_0;
 	}
@@ -10306,7 +10306,7 @@ IL_006d:
 	{
 		IntPtr_t L_13 = { (void*)IOSADBanner_U3C_OnClosedActionU3Em__9_m816_MethodInfo_var };
 		Action_1_t149 * L_14 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((IOSADBanner_t150_StaticFields*)IOSADBanner_t150_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache12_20 = L_14;
 		G_B8_0 = G_B7_0;
 	}
@@ -10327,7 +10327,7 @@ IL_0090:
 	{
 		IntPtr_t L_17 = { (void*)IOSADBanner_U3C_OnLeftApplicationActionU3Em__A_m817_MethodInfo_var };
 		Action_1_t149 * L_18 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((IOSADBanner_t150_StaticFields*)IOSADBanner_t150_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache13_21 = L_18;
 		G_B10_0 = G_B9_0;
 	}
@@ -10683,13 +10683,13 @@ extern "C" void IOSADBanner_SetDimentions_m787 (IOSADBanner_t150 * __this, int32
 	}
 	{
 		int32_t L_0 = ___w;
-		float L_1 = Screen_get_dpi_m3783(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_1 = Screen_get_dpi_m3780(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t727_il2cpp_TypeInfo_var);
-		int32_t L_2 = Mathf_FloorToInt_m3784(NULL /*static, unused*/, ((float)((float)(((float)L_0))*(float)((float)((float)L_1/(float)(160.0f))))), /*hidden argument*/NULL);
+		int32_t L_2 = Mathf_FloorToInt_m3781(NULL /*static, unused*/, ((float)((float)(((float)L_0))*(float)((float)((float)L_1/(float)(160.0f))))), /*hidden argument*/NULL);
 		__this->____width_10 = L_2;
 		int32_t L_3 = ___h;
-		float L_4 = Screen_get_dpi_m3783(NULL /*static, unused*/, /*hidden argument*/NULL);
-		int32_t L_5 = Mathf_FloorToInt_m3784(NULL /*static, unused*/, ((float)((float)(((float)L_3))*(float)((float)((float)L_4/(float)(160.0f))))), /*hidden argument*/NULL);
+		float L_4 = Screen_get_dpi_m3780(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_5 = Mathf_FloorToInt_m3781(NULL /*static, unused*/, ((float)((float)(((float)L_3))*(float)((float)((float)L_4/(float)(160.0f))))), /*hidden argument*/NULL);
 		__this->____height_11 = L_5;
 		return;
 	}
@@ -10953,14 +10953,14 @@ extern "C" void IOSADBanner_set_OnLeftApplicationAction_m807 (IOSADBanner_t150 *
 }
 // System.Void IOSADBanner::OnBannerAdLoaded()
 extern TypeInfo* SA_Singleton_1_t153_il2cpp_TypeInfo_var;
-extern const MethodInfo* SA_Singleton_1_get_instance_m3770_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1_get_instance_m3767_MethodInfo_var;
 extern "C" void IOSADBanner_OnBannerAdLoaded_m808 (IOSADBanner_t150 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SA_Singleton_1_t153_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(226);
-		SA_Singleton_1_get_instance_m3770_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483760);
+		SA_Singleton_1_get_instance_m3767_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483760);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -10972,7 +10972,7 @@ extern "C" void IOSADBanner_OnBannerAdLoaded_m808 (IOSADBanner_t150 * __this, co
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t153_il2cpp_TypeInfo_var);
-		IOSAdMobController_t152 * L_1 = SA_Singleton_1_get_instance_m3770(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m3770_MethodInfo_var);
+		IOSAdMobController_t152 * L_1 = SA_Singleton_1_get_instance_m3767(NULL /*static, unused*/, /*hidden argument*/SA_Singleton_1_get_instance_m3767_MethodInfo_var);
 		int32_t L_2 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(27 /* System.Int32 IOSADBanner::get_id() */, __this);
 		NullCheck(L_1);
 		IOSAdMobController_DirectBannerDestory_m841(L_1, L_2, /*hidden argument*/NULL);
@@ -11125,8 +11125,8 @@ extern const MethodInfo* IOSAdMobController_U3C_OnInterstitialOpenedU3Em__D_m882
 extern const MethodInfo* IOSAdMobController_U3C_OnInterstitialClosedU3Em__E_m883_MethodInfo_var;
 extern const MethodInfo* IOSAdMobController_U3C_OnInterstitialLeftApplicationU3Em__F_m884_MethodInfo_var;
 extern const MethodInfo* IOSAdMobController_U3C_OnAdInAppRequestU3Em__10_m885_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3768_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m3785_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3765_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m3782_MethodInfo_var;
 extern "C" void IOSAdMobController__ctor_m818 (IOSAdMobController_t152 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -11142,8 +11142,8 @@ extern "C" void IOSAdMobController__ctor_m818 (IOSAdMobController_t152 * __this,
 		IOSAdMobController_U3C_OnInterstitialClosedU3Em__E_m883_MethodInfo_var = il2cpp_codegen_method_info_from_index(135);
 		IOSAdMobController_U3C_OnInterstitialLeftApplicationU3Em__F_m884_MethodInfo_var = il2cpp_codegen_method_info_from_index(136);
 		IOSAdMobController_U3C_OnAdInAppRequestU3Em__10_m885_MethodInfo_var = il2cpp_codegen_method_info_from_index(137);
-		Action_1__ctor_m3768_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483759);
-		SA_Singleton_1__ctor_m3785_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483786);
+		Action_1__ctor_m3765_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483759);
+		SA_Singleton_1__ctor_m3782_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483786);
 		s_Il2CppMethodIntialized = true;
 	}
 	IOSAdMobController_t152 * G_B2_0 = {0};
@@ -11170,7 +11170,7 @@ extern "C" void IOSAdMobController__ctor_m818 (IOSAdMobController_t152 * __this,
 	{
 		IntPtr_t L_1 = { (void*)IOSAdMobController_U3C_OnInterstitialLoadedU3Em__B_m880_MethodInfo_var };
 		Action_t143 * L_2 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_2, NULL, L_1, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_2, NULL, L_1, /*hidden argument*/NULL);
 		((IOSAdMobController_t152_StaticFields*)IOSAdMobController_t152_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheA_17 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -11191,7 +11191,7 @@ IL_0019:
 	{
 		IntPtr_t L_5 = { (void*)IOSAdMobController_U3C_OnInterstitialFailedLoadingU3Em__C_m881_MethodInfo_var };
 		Action_t143 * L_6 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_6, NULL, L_5, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_6, NULL, L_5, /*hidden argument*/NULL);
 		((IOSAdMobController_t152_StaticFields*)IOSAdMobController_t152_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheB_18 = L_6;
 		G_B4_0 = G_B3_0;
 	}
@@ -11212,7 +11212,7 @@ IL_003c:
 	{
 		IntPtr_t L_9 = { (void*)IOSAdMobController_U3C_OnInterstitialOpenedU3Em__D_m882_MethodInfo_var };
 		Action_t143 * L_10 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_10, NULL, L_9, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_10, NULL, L_9, /*hidden argument*/NULL);
 		((IOSAdMobController_t152_StaticFields*)IOSAdMobController_t152_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheC_19 = L_10;
 		G_B6_0 = G_B5_0;
 	}
@@ -11233,7 +11233,7 @@ IL_005f:
 	{
 		IntPtr_t L_13 = { (void*)IOSAdMobController_U3C_OnInterstitialClosedU3Em__E_m883_MethodInfo_var };
 		Action_t143 * L_14 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_14, NULL, L_13, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_14, NULL, L_13, /*hidden argument*/NULL);
 		((IOSAdMobController_t152_StaticFields*)IOSAdMobController_t152_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheD_20 = L_14;
 		G_B8_0 = G_B7_0;
 	}
@@ -11254,7 +11254,7 @@ IL_0082:
 	{
 		IntPtr_t L_17 = { (void*)IOSAdMobController_U3C_OnInterstitialLeftApplicationU3Em__F_m884_MethodInfo_var };
 		Action_t143 * L_18 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_18, NULL, L_17, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_18, NULL, L_17, /*hidden argument*/NULL);
 		((IOSAdMobController_t152_StaticFields*)IOSAdMobController_t152_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheE_21 = L_18;
 		G_B10_0 = G_B9_0;
 	}
@@ -11275,7 +11275,7 @@ IL_00a5:
 	{
 		IntPtr_t L_21 = { (void*)IOSAdMobController_U3C_OnAdInAppRequestU3Em__10_m885_MethodInfo_var };
 		Action_1_t144 * L_22 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_22, NULL, L_21, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_22, NULL, L_21, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		((IOSAdMobController_t152_StaticFields*)IOSAdMobController_t152_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheF_22 = L_22;
 		G_B12_0 = G_B11_0;
 	}
@@ -11286,7 +11286,7 @@ IL_00c8:
 		NullCheck(G_B12_0);
 		G_B12_0->____OnAdInAppRequest_16 = L_23;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t153_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m3785(__this, /*hidden argument*/SA_Singleton_1__ctor_m3785_MethodInfo_var);
+		SA_Singleton_1__ctor_m3782(__this, /*hidden argument*/SA_Singleton_1__ctor_m3782_MethodInfo_var);
 		return;
 	}
 }
@@ -11650,21 +11650,21 @@ extern "C" void IOSAdMobController__GADReportPurchaseStatus_m832 (Object_t * __t
 extern "C" void IOSAdMobController_Awake_m833 (IOSAdMobController_t152 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t352 * L_0 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_0 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		Object_DontDestroyOnLoad_m385(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void IOSAdMobController::Init(System.String)
 extern TypeInfo* Dictionary_2_t151_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3786_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3783_MethodInfo_var;
 extern "C" void IOSAdMobController_Init_m834 (IOSAdMobController_t152 * __this, String_t* ___ad_unit_id, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t151_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(234);
-		Dictionary_2__ctor_m3786_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483787);
+		Dictionary_2__ctor_m3783_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483787);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -11687,7 +11687,7 @@ IL_0016:
 		String_t* L_2 = ___ad_unit_id;
 		__this->____InterstisialUnitId_10 = L_2;
 		Dictionary_2_t151 * L_3 = (Dictionary_2_t151 *)il2cpp_codegen_object_new (Dictionary_2_t151_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3786(L_3, /*hidden argument*/Dictionary_2__ctor_m3786_MethodInfo_var);
+		Dictionary_2__ctor_m3783(L_3, /*hidden argument*/Dictionary_2__ctor_m3783_MethodInfo_var);
 		__this->____banners_8 = L_3;
 		String_t* L_4 = ___ad_unit_id;
 		IOSAdMobController__initGoogleAd_m819(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
@@ -11989,10 +11989,10 @@ IL_001f:
 	{
 		StringU5BU5D_t75* L_2 = ___ids;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Join_m3787(NULL /*static, unused*/, (String_t*) &_stringLiteral303, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Join_m3784(NULL /*static, unused*/, (String_t*) &_stringLiteral303, L_2, /*hidden argument*/NULL);
 		Debug_Log_m382(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		StringU5BU5D_t75* L_4 = ___ids;
-		String_t* L_5 = String_Join_m3787(NULL /*static, unused*/, (String_t*) &_stringLiteral303, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = String_Join_m3784(NULL /*static, unused*/, (String_t*) &_stringLiteral303, L_4, /*hidden argument*/NULL);
 		IOSAdMobController__GADAddTestDevices_m824(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		return;
 	}
@@ -12169,11 +12169,11 @@ IL_001e:
 extern TypeInfo* List_1_t681_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t729_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3788_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m3789_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3790_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m3791_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3792_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3785_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m3786_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3787_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m3788_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3789_MethodInfo_var;
 extern "C" List_1_t681 * IOSAdMobController_get_banners_m853 (IOSAdMobController_t152 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -12182,11 +12182,11 @@ extern "C" List_1_t681 * IOSAdMobController_get_banners_m853 (IOSAdMobController
 		List_1_t681_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(236);
 		Enumerator_t729_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(237);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1__ctor_m3788_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483788);
-		Dictionary_2_GetEnumerator_m3789_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483789);
-		Enumerator_get_Current_m3790_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483790);
-		KeyValuePair_2_get_Value_m3791_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483791);
-		Enumerator_MoveNext_m3792_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483792);
+		List_1__ctor_m3785_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483788);
+		Dictionary_2_GetEnumerator_m3786_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483789);
+		Enumerator_get_Current_m3787_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483790);
+		KeyValuePair_2_get_Value_m3788_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483791);
+		Enumerator_MoveNext_m3789_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483792);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t681 * V_0 = {0};
@@ -12200,7 +12200,7 @@ extern "C" List_1_t681 * IOSAdMobController_get_banners_m853 (IOSAdMobController
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		List_1_t681 * L_0 = (List_1_t681 *)il2cpp_codegen_object_new (List_1_t681_il2cpp_TypeInfo_var);
-		List_1__ctor_m3788(L_0, /*hidden argument*/List_1__ctor_m3788_MethodInfo_var);
+		List_1__ctor_m3785(L_0, /*hidden argument*/List_1__ctor_m3785_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t151 * L_1 = (__this->____banners_8);
 		if (L_1)
@@ -12217,7 +12217,7 @@ IL_0013:
 	{
 		Dictionary_2_t151 * L_3 = (__this->____banners_8);
 		NullCheck(L_3);
-		Enumerator_t729  L_4 = Dictionary_2_GetEnumerator_m3789(L_3, /*hidden argument*/Dictionary_2_GetEnumerator_m3789_MethodInfo_var);
+		Enumerator_t729  L_4 = Dictionary_2_GetEnumerator_m3786(L_3, /*hidden argument*/Dictionary_2_GetEnumerator_m3786_MethodInfo_var);
 		V_2 = L_4;
 	}
 
@@ -12230,17 +12230,17 @@ IL_001f:
 
 IL_0024:
 		{
-			KeyValuePair_2_t728  L_5 = Enumerator_get_Current_m3790((&V_2), /*hidden argument*/Enumerator_get_Current_m3790_MethodInfo_var);
+			KeyValuePair_2_t728  L_5 = Enumerator_get_Current_m3787((&V_2), /*hidden argument*/Enumerator_get_Current_m3787_MethodInfo_var);
 			V_1 = L_5;
 			List_1_t681 * L_6 = V_0;
-			IOSADBanner_t150 * L_7 = KeyValuePair_2_get_Value_m3791((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m3791_MethodInfo_var);
+			IOSADBanner_t150 * L_7 = KeyValuePair_2_get_Value_m3788((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m3788_MethodInfo_var);
 			NullCheck(L_6);
 			VirtActionInvoker1< Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<GoogleMobileAdBanner>::Add(!0) */, L_6, L_7);
 		}
 
 IL_0039:
 		{
-			bool L_8 = Enumerator_MoveNext_m3792((&V_2), /*hidden argument*/Enumerator_MoveNext_m3792_MethodInfo_var);
+			bool L_8 = Enumerator_MoveNext_m3789((&V_2), /*hidden argument*/Enumerator_MoveNext_m3789_MethodInfo_var);
 			if (L_8)
 			{
 				goto IL_0024;
@@ -12433,26 +12433,26 @@ extern "C" void IOSAdMobController_OnBannerAdLoaded_m869 (IOSAdMobController_t15
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_1, 0)) = (uint16_t)L_2;
 		NullCheck(L_0);
-		StringU5BU5D_t75* L_3 = String_Split_m3712(L_0, L_1, /*hidden argument*/NULL);
+		StringU5BU5D_t75* L_3 = String_Split_m3709(L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_3;
 		StringU5BU5D_t75* L_4 = V_0;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 0);
 		int32_t L_5 = 0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_6 = Convert_ToInt32_m3793(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_4, L_5)), /*hidden argument*/NULL);
+		int32_t L_6 = Convert_ToInt32_m3790(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_4, L_5)), /*hidden argument*/NULL);
 		V_1 = L_6;
 		StringU5BU5D_t75* L_7 = V_0;
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 1);
 		int32_t L_8 = 1;
-		int32_t L_9 = Convert_ToInt32_m3793(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_7, L_8)), /*hidden argument*/NULL);
+		int32_t L_9 = Convert_ToInt32_m3790(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_7, L_8)), /*hidden argument*/NULL);
 		V_2 = L_9;
 		StringU5BU5D_t75* L_10 = V_0;
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 2);
 		int32_t L_11 = 2;
-		int32_t L_12 = Convert_ToInt32_m3793(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_10, L_11)), /*hidden argument*/NULL);
+		int32_t L_12 = Convert_ToInt32_m3790(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_10, L_11)), /*hidden argument*/NULL);
 		V_3 = L_12;
 		int32_t L_13 = V_1;
 		Object_t * L_14 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner IOSAdMobController::GetBanner(System.Int32) */, __this, L_13);
@@ -12496,7 +12496,7 @@ extern "C" void IOSAdMobController_OnBannerAdFailedToLoad_m870 (IOSAdMobControll
 	{
 		String_t* L_0 = ___bannerID;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner IOSAdMobController::GetBanner(System.Int32) */, __this, L_2);
@@ -12535,7 +12535,7 @@ extern "C" void IOSAdMobController_OnBannerAdOpened_m871 (IOSAdMobController_t15
 	{
 		String_t* L_0 = ___bannerID;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner IOSAdMobController::GetBanner(System.Int32) */, __this, L_2);
@@ -12574,7 +12574,7 @@ extern "C" void IOSAdMobController_OnBannerAdClosed_m872 (IOSAdMobController_t15
 	{
 		String_t* L_0 = ___bannerID;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner IOSAdMobController::GetBanner(System.Int32) */, __this, L_2);
@@ -12613,7 +12613,7 @@ extern "C" void IOSAdMobController_OnBannerAdLeftApplication_m873 (IOSAdMobContr
 	{
 		String_t* L_0 = ___bannerID;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner IOSAdMobController::GetBanner(System.Int32) */, __this, L_2);
@@ -12777,7 +12777,7 @@ extern "C" void GADTestDevice__ctor_m886 (GADTestDevice_t154 * __this, const Met
 extern TypeInfo* WP8ADBanner_t155_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t149_il2cpp_TypeInfo_var;
 extern const MethodInfo* WP8ADBanner_U3C_OnLoadedActionU3Em__11_m921_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3766_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3763_MethodInfo_var;
 extern const MethodInfo* WP8ADBanner_U3C_OnFailedLoadingActionU3Em__12_m922_MethodInfo_var;
 extern const MethodInfo* WP8ADBanner_U3C_OnOpenedActionU3Em__13_m923_MethodInfo_var;
 extern const MethodInfo* WP8ADBanner_U3C_OnClosedActionU3Em__14_m924_MethodInfo_var;
@@ -12790,7 +12790,7 @@ extern "C" void WP8ADBanner__ctor_m887 (WP8ADBanner_t155 * __this, int32_t ___an
 		WP8ADBanner_t155_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(238);
 		Action_1_t149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(220);
 		WP8ADBanner_U3C_OnLoadedActionU3Em__11_m921_MethodInfo_var = il2cpp_codegen_method_info_from_index(145);
-		Action_1__ctor_m3766_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
+		Action_1__ctor_m3763_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
 		WP8ADBanner_U3C_OnFailedLoadingActionU3Em__12_m922_MethodInfo_var = il2cpp_codegen_method_info_from_index(146);
 		WP8ADBanner_U3C_OnOpenedActionU3Em__13_m923_MethodInfo_var = il2cpp_codegen_method_info_from_index(147);
 		WP8ADBanner_U3C_OnClosedActionU3Em__14_m924_MethodInfo_var = il2cpp_codegen_method_info_from_index(148);
@@ -12821,7 +12821,7 @@ extern "C" void WP8ADBanner__ctor_m887 (WP8ADBanner_t155 * __this, int32_t ___an
 	{
 		IntPtr_t L_1 = { (void*)WP8ADBanner_U3C_OnLoadedActionU3Em__11_m921_MethodInfo_var };
 		Action_1_t149 * L_2 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((WP8ADBanner_t155_StaticFields*)WP8ADBanner_t155_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheF_17 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -12842,7 +12842,7 @@ IL_0027:
 	{
 		IntPtr_t L_5 = { (void*)WP8ADBanner_U3C_OnFailedLoadingActionU3Em__12_m922_MethodInfo_var };
 		Action_1_t149 * L_6 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((WP8ADBanner_t155_StaticFields*)WP8ADBanner_t155_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache10_18 = L_6;
 		G_B4_0 = G_B3_0;
 	}
@@ -12863,7 +12863,7 @@ IL_004a:
 	{
 		IntPtr_t L_9 = { (void*)WP8ADBanner_U3C_OnOpenedActionU3Em__13_m923_MethodInfo_var };
 		Action_1_t149 * L_10 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((WP8ADBanner_t155_StaticFields*)WP8ADBanner_t155_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache11_19 = L_10;
 		G_B6_0 = G_B5_0;
 	}
@@ -12884,7 +12884,7 @@ IL_006d:
 	{
 		IntPtr_t L_13 = { (void*)WP8ADBanner_U3C_OnClosedActionU3Em__14_m924_MethodInfo_var };
 		Action_1_t149 * L_14 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((WP8ADBanner_t155_StaticFields*)WP8ADBanner_t155_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache12_20 = L_14;
 		G_B8_0 = G_B7_0;
 	}
@@ -12905,7 +12905,7 @@ IL_0090:
 	{
 		IntPtr_t L_17 = { (void*)WP8ADBanner_U3C_OnLeftApplicationActionU3Em__15_m925_MethodInfo_var };
 		Action_1_t149 * L_18 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((WP8ADBanner_t155_StaticFields*)WP8ADBanner_t155_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache13_21 = L_18;
 		G_B10_0 = G_B9_0;
 	}
@@ -12929,7 +12929,7 @@ IL_00b3:
 extern TypeInfo* WP8ADBanner_t155_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t149_il2cpp_TypeInfo_var;
 extern const MethodInfo* WP8ADBanner_U3C_OnLoadedActionU3Em__11_m921_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3766_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3763_MethodInfo_var;
 extern const MethodInfo* WP8ADBanner_U3C_OnFailedLoadingActionU3Em__12_m922_MethodInfo_var;
 extern const MethodInfo* WP8ADBanner_U3C_OnOpenedActionU3Em__13_m923_MethodInfo_var;
 extern const MethodInfo* WP8ADBanner_U3C_OnClosedActionU3Em__14_m924_MethodInfo_var;
@@ -12942,7 +12942,7 @@ extern "C" void WP8ADBanner__ctor_m888 (WP8ADBanner_t155 * __this, int32_t ___x,
 		WP8ADBanner_t155_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(238);
 		Action_1_t149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(220);
 		WP8ADBanner_U3C_OnLoadedActionU3Em__11_m921_MethodInfo_var = il2cpp_codegen_method_info_from_index(145);
-		Action_1__ctor_m3766_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
+		Action_1__ctor_m3763_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
 		WP8ADBanner_U3C_OnFailedLoadingActionU3Em__12_m922_MethodInfo_var = il2cpp_codegen_method_info_from_index(146);
 		WP8ADBanner_U3C_OnOpenedActionU3Em__13_m923_MethodInfo_var = il2cpp_codegen_method_info_from_index(147);
 		WP8ADBanner_U3C_OnClosedActionU3Em__14_m924_MethodInfo_var = il2cpp_codegen_method_info_from_index(148);
@@ -12973,7 +12973,7 @@ extern "C" void WP8ADBanner__ctor_m888 (WP8ADBanner_t155 * __this, int32_t ___x,
 	{
 		IntPtr_t L_1 = { (void*)WP8ADBanner_U3C_OnLoadedActionU3Em__11_m921_MethodInfo_var };
 		Action_1_t149 * L_2 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((WP8ADBanner_t155_StaticFields*)WP8ADBanner_t155_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheF_17 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -12994,7 +12994,7 @@ IL_0027:
 	{
 		IntPtr_t L_5 = { (void*)WP8ADBanner_U3C_OnFailedLoadingActionU3Em__12_m922_MethodInfo_var };
 		Action_1_t149 * L_6 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((WP8ADBanner_t155_StaticFields*)WP8ADBanner_t155_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache10_18 = L_6;
 		G_B4_0 = G_B3_0;
 	}
@@ -13015,7 +13015,7 @@ IL_004a:
 	{
 		IntPtr_t L_9 = { (void*)WP8ADBanner_U3C_OnOpenedActionU3Em__13_m923_MethodInfo_var };
 		Action_1_t149 * L_10 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((WP8ADBanner_t155_StaticFields*)WP8ADBanner_t155_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache11_19 = L_10;
 		G_B6_0 = G_B5_0;
 	}
@@ -13036,7 +13036,7 @@ IL_006d:
 	{
 		IntPtr_t L_13 = { (void*)WP8ADBanner_U3C_OnClosedActionU3Em__14_m924_MethodInfo_var };
 		Action_1_t149 * L_14 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((WP8ADBanner_t155_StaticFields*)WP8ADBanner_t155_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache12_20 = L_14;
 		G_B8_0 = G_B7_0;
 	}
@@ -13057,7 +13057,7 @@ IL_0090:
 	{
 		IntPtr_t L_17 = { (void*)WP8ADBanner_U3C_OnLeftApplicationActionU3Em__15_m925_MethodInfo_var };
 		Action_1_t149 * L_18 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((WP8ADBanner_t155_StaticFields*)WP8ADBanner_t155_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache13_21 = L_18;
 		G_B10_0 = G_B9_0;
 	}
@@ -13581,8 +13581,8 @@ extern const MethodInfo* WP8AdMobController_U3C_OnInterstitialOpenedU3Em__18_m97
 extern const MethodInfo* WP8AdMobController_U3C_OnInterstitialClosedU3Em__19_m977_MethodInfo_var;
 extern const MethodInfo* WP8AdMobController_U3C_OnInterstitialLeftApplicationU3Em__1A_m978_MethodInfo_var;
 extern const MethodInfo* WP8AdMobController_U3C_OnAdInAppRequestU3Em__1B_m979_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3768_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m3794_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3765_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m3791_MethodInfo_var;
 extern "C" void WP8AdMobController__ctor_m926 (WP8AdMobController_t157 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -13598,8 +13598,8 @@ extern "C" void WP8AdMobController__ctor_m926 (WP8AdMobController_t157 * __this,
 		WP8AdMobController_U3C_OnInterstitialClosedU3Em__19_m977_MethodInfo_var = il2cpp_codegen_method_info_from_index(153);
 		WP8AdMobController_U3C_OnInterstitialLeftApplicationU3Em__1A_m978_MethodInfo_var = il2cpp_codegen_method_info_from_index(154);
 		WP8AdMobController_U3C_OnAdInAppRequestU3Em__1B_m979_MethodInfo_var = il2cpp_codegen_method_info_from_index(155);
-		Action_1__ctor_m3768_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483759);
-		SA_Singleton_1__ctor_m3794_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483804);
+		Action_1__ctor_m3765_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483759);
+		SA_Singleton_1__ctor_m3791_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483804);
 		s_Il2CppMethodIntialized = true;
 	}
 	WP8AdMobController_t157 * G_B2_0 = {0};
@@ -13626,7 +13626,7 @@ extern "C" void WP8AdMobController__ctor_m926 (WP8AdMobController_t157 * __this,
 	{
 		IntPtr_t L_1 = { (void*)WP8AdMobController_U3C_OnInterstitialLoadedU3Em__16_m974_MethodInfo_var };
 		Action_t143 * L_2 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_2, NULL, L_1, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_2, NULL, L_1, /*hidden argument*/NULL);
 		((WP8AdMobController_t157_StaticFields*)WP8AdMobController_t157_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheA_17 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -13647,7 +13647,7 @@ IL_0019:
 	{
 		IntPtr_t L_5 = { (void*)WP8AdMobController_U3C_OnInterstitialFailedLoadingU3Em__17_m975_MethodInfo_var };
 		Action_t143 * L_6 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_6, NULL, L_5, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_6, NULL, L_5, /*hidden argument*/NULL);
 		((WP8AdMobController_t157_StaticFields*)WP8AdMobController_t157_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheB_18 = L_6;
 		G_B4_0 = G_B3_0;
 	}
@@ -13668,7 +13668,7 @@ IL_003c:
 	{
 		IntPtr_t L_9 = { (void*)WP8AdMobController_U3C_OnInterstitialOpenedU3Em__18_m976_MethodInfo_var };
 		Action_t143 * L_10 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_10, NULL, L_9, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_10, NULL, L_9, /*hidden argument*/NULL);
 		((WP8AdMobController_t157_StaticFields*)WP8AdMobController_t157_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheC_19 = L_10;
 		G_B6_0 = G_B5_0;
 	}
@@ -13689,7 +13689,7 @@ IL_005f:
 	{
 		IntPtr_t L_13 = { (void*)WP8AdMobController_U3C_OnInterstitialClosedU3Em__19_m977_MethodInfo_var };
 		Action_t143 * L_14 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_14, NULL, L_13, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_14, NULL, L_13, /*hidden argument*/NULL);
 		((WP8AdMobController_t157_StaticFields*)WP8AdMobController_t157_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheD_20 = L_14;
 		G_B8_0 = G_B7_0;
 	}
@@ -13710,7 +13710,7 @@ IL_0082:
 	{
 		IntPtr_t L_17 = { (void*)WP8AdMobController_U3C_OnInterstitialLeftApplicationU3Em__1A_m978_MethodInfo_var };
 		Action_t143 * L_18 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_18, NULL, L_17, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_18, NULL, L_17, /*hidden argument*/NULL);
 		((WP8AdMobController_t157_StaticFields*)WP8AdMobController_t157_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheE_21 = L_18;
 		G_B10_0 = G_B9_0;
 	}
@@ -13731,7 +13731,7 @@ IL_00a5:
 	{
 		IntPtr_t L_21 = { (void*)WP8AdMobController_U3C_OnAdInAppRequestU3Em__1B_m979_MethodInfo_var };
 		Action_1_t144 * L_22 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_22, NULL, L_21, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_22, NULL, L_21, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		((WP8AdMobController_t157_StaticFields*)WP8AdMobController_t157_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheF_22 = L_22;
 		G_B12_0 = G_B11_0;
 	}
@@ -13742,7 +13742,7 @@ IL_00c8:
 		NullCheck(G_B12_0);
 		G_B12_0->____OnAdInAppRequest_16 = L_23;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t158_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m3794(__this, /*hidden argument*/SA_Singleton_1__ctor_m3794_MethodInfo_var);
+		SA_Singleton_1__ctor_m3791(__this, /*hidden argument*/SA_Singleton_1__ctor_m3791_MethodInfo_var);
 		return;
 	}
 }
@@ -13750,7 +13750,7 @@ IL_00c8:
 extern "C" void WP8AdMobController_Awake_m927 (WP8AdMobController_t157 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t352 * L_0 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_0 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		Object_DontDestroyOnLoad_m385(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
@@ -13758,9 +13758,9 @@ extern "C" void WP8AdMobController_Awake_m927 (WP8AdMobController_t157 * __this,
 // System.Void WP8AdMobController::Init(System.String)
 extern TypeInfo* Dictionary_2_t156_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t144_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3795_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3792_MethodInfo_var;
 extern const MethodInfo* WP8AdMobController_OnInterstitialAdLoaded_m968_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3768_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3765_MethodInfo_var;
 extern const MethodInfo* WP8AdMobController_OnInterstitialAdFailedToLoad_m969_MethodInfo_var;
 extern const MethodInfo* WP8AdMobController_OnInterstitialAdOpened_m970_MethodInfo_var;
 extern const MethodInfo* WP8AdMobController_OnInterstitialAdClosed_m971_MethodInfo_var;
@@ -13777,9 +13777,9 @@ extern "C" void WP8AdMobController_Init_m928 (WP8AdMobController_t157 * __this, 
 	{
 		Dictionary_2_t156_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(239);
 		Action_1_t144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(221);
-		Dictionary_2__ctor_m3795_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483805);
+		Dictionary_2__ctor_m3792_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483805);
 		WP8AdMobController_OnInterstitialAdLoaded_m968_MethodInfo_var = il2cpp_codegen_method_info_from_index(158);
-		Action_1__ctor_m3768_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483759);
+		Action_1__ctor_m3765_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483759);
 		WP8AdMobController_OnInterstitialAdFailedToLoad_m969_MethodInfo_var = il2cpp_codegen_method_info_from_index(159);
 		WP8AdMobController_OnInterstitialAdOpened_m970_MethodInfo_var = il2cpp_codegen_method_info_from_index(160);
 		WP8AdMobController_OnInterstitialAdClosed_m971_MethodInfo_var = il2cpp_codegen_method_info_from_index(161);
@@ -13811,73 +13811,73 @@ IL_0016:
 		String_t* L_2 = ___ad_unit_id;
 		__this->____InterstisialUnitId_10 = L_2;
 		Dictionary_2_t156 * L_3 = (Dictionary_2_t156 *)il2cpp_codegen_object_new (Dictionary_2_t156_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3795(L_3, /*hidden argument*/Dictionary_2__ctor_m3795_MethodInfo_var);
+		Dictionary_2__ctor_m3792(L_3, /*hidden argument*/Dictionary_2__ctor_m3792_MethodInfo_var);
 		__this->____banners_8 = L_3;
-		AdManager_t730 * L_4 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_4 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		String_t* L_5 = ___ad_unit_id;
 		NullCheck(L_4);
-		AdManager_Init_m3797(L_4, L_5, /*hidden argument*/NULL);
-		AdManager_t730 * L_6 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_Init_m3794(L_4, L_5, /*hidden argument*/NULL);
+		AdManager_t730 * L_6 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_7 = { (void*)WP8AdMobController_OnInterstitialAdLoaded_m968_MethodInfo_var };
 		Action_1_t144 * L_8 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_8, __this, L_7, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_8, __this, L_7, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		NullCheck(L_6);
 		L_6->___InterstisialOnLoad_0 = L_8;
-		AdManager_t730 * L_9 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_9 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_10 = { (void*)WP8AdMobController_OnInterstitialAdFailedToLoad_m969_MethodInfo_var };
 		Action_1_t144 * L_11 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_11, __this, L_10, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_11, __this, L_10, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		NullCheck(L_9);
 		L_9->___InterstisialFailedToLoad_1 = L_11;
-		AdManager_t730 * L_12 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_12 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_13 = { (void*)WP8AdMobController_OnInterstitialAdOpened_m970_MethodInfo_var };
 		Action_1_t144 * L_14 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_14, __this, L_13, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_14, __this, L_13, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		NullCheck(L_12);
 		L_12->___InterstisialOnAdOpened_2 = L_14;
-		AdManager_t730 * L_15 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_15 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_16 = { (void*)WP8AdMobController_OnInterstitialAdClosed_m971_MethodInfo_var };
 		Action_1_t144 * L_17 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_17, __this, L_16, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_17, __this, L_16, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		NullCheck(L_15);
 		L_15->___InterstisialOnAdClosed_3 = L_17;
-		AdManager_t730 * L_18 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_18 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_19 = { (void*)WP8AdMobController_OnInterstitialAdLeftApplication_m972_MethodInfo_var };
 		Action_1_t144 * L_20 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_20, __this, L_19, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_20, __this, L_19, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		NullCheck(L_18);
 		L_18->___InterstisialAdLeftApplication_4 = L_20;
-		AdManager_t730 * L_21 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_21 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_22 = { (void*)WP8AdMobController_OnBannerAdLoaded_m963_MethodInfo_var };
 		Action_1_t144 * L_23 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_23, __this, L_22, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_23, __this, L_22, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		NullCheck(L_21);
 		L_21->___BannerOnLoad_5 = L_23;
-		AdManager_t730 * L_24 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_24 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_25 = { (void*)WP8AdMobController_OnBannerAdFailedToLoad_m964_MethodInfo_var };
 		Action_1_t144 * L_26 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_26, __this, L_25, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_26, __this, L_25, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		NullCheck(L_24);
 		L_24->___BannerFailedToLoad_6 = L_26;
-		AdManager_t730 * L_27 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_27 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_28 = { (void*)WP8AdMobController_OnBannerAdOpened_m965_MethodInfo_var };
 		Action_1_t144 * L_29 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_29, __this, L_28, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_29, __this, L_28, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		NullCheck(L_27);
 		L_27->___BannerOnAdOpened_7 = L_29;
-		AdManager_t730 * L_30 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_30 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_31 = { (void*)WP8AdMobController_OnBannerAdClosed_m966_MethodInfo_var };
 		Action_1_t144 * L_32 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_32, __this, L_31, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_32, __this, L_31, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		NullCheck(L_30);
 		L_30->___BannerOnAdClosed_8 = L_32;
-		AdManager_t730 * L_33 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_33 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_34 = { (void*)WP8AdMobController_OnBannerAdLeftApplication_m967_MethodInfo_var };
 		Action_1_t144 * L_35 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_35, __this, L_34, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_35, __this, L_34, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		NullCheck(L_33);
 		L_33->___BannerAdLeftApplication_9 = L_35;
-		int32_t L_36 = Screen_get_orientation_m3675(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_36 = Screen_get_orientation_m3672(NULL /*static, unused*/, /*hidden argument*/NULL);
 		WP8AdMobController_SetOrientation_m929(__this, L_36, /*hidden argument*/NULL);
 		return;
 	}
@@ -13937,10 +13937,10 @@ IL_0027:
 
 IL_0029:
 	{
-		AdManager_t730 * L_5 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_5 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
-		AdManager_SetOrientation_m3798(L_5, L_6, /*hidden argument*/NULL);
+		AdManager_SetOrientation_m3795(L_5, L_6, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -13974,10 +13974,10 @@ extern "C" void WP8AdMobController_SetBannersUnitID_m931 (WP8AdMobController_t15
 	{
 		String_t* L_0 = ___ad_unit_id;
 		__this->____BannersUunitId_9 = L_0;
-		AdManager_t730 * L_1 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_1 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		String_t* L_2 = ___ad_unit_id;
 		NullCheck(L_1);
-		AdManager_ChangeBannersUnitID_m3799(L_1, L_2, /*hidden argument*/NULL);
+		AdManager_ChangeBannersUnitID_m3796(L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -13987,10 +13987,10 @@ extern "C" void WP8AdMobController_SetInterstisialsUnitID_m932 (WP8AdMobControll
 	{
 		String_t* L_0 = ___ad_unit_id;
 		__this->____InterstisialUnitId_10 = L_0;
-		AdManager_t730 * L_1 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_1 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		String_t* L_2 = ___ad_unit_id;
 		NullCheck(L_1);
-		AdManager_ChangeInterstisialsUnitID_m3800(L_1, L_2, /*hidden argument*/NULL);
+		AdManager_ChangeInterstisialsUnitID_m3797(L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -14123,10 +14123,10 @@ extern "C" void WP8AdMobController_DestroyBanner_m935 (WP8AdMobController_t157 *
 		int32_t L_10 = ___id;
 		NullCheck(L_9);
 		VirtFuncInvoker1< bool, int32_t >::Invoke(20 /* System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,WP8ADBanner>::Remove(!0) */, L_9, L_10);
-		AdManager_t730 * L_11 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_11 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_12 = ___id;
 		NullCheck(L_11);
-		AdManager_DestroyBanner_m3801(L_11, L_12, /*hidden argument*/NULL);
+		AdManager_DestroyBanner_m3798(L_11, L_12, /*hidden argument*/NULL);
 		goto IL_0057;
 	}
 
@@ -14166,10 +14166,10 @@ extern "C" void WP8AdMobController_AddKeyword_m937 (WP8AdMobController_t157 * __
 
 IL_0016:
 	{
-		AdManager_t730 * L_1 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_1 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		String_t* L_2 = ___keyword;
 		NullCheck(L_1);
-		AdManager_AddKeyword_m3802(L_1, L_2, /*hidden argument*/NULL);
+		AdManager_AddKeyword_m3799(L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -14190,9 +14190,9 @@ extern "C" void WP8AdMobController_AddTestDevice_m938 (WP8AdMobController_t157 *
 
 IL_0016:
 	{
-		AdManager_t730 * L_1 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_1 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		AdManager_EnableForceTesting_m3803(L_1, /*hidden argument*/NULL);
+		AdManager_EnableForceTesting_m3800(L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -14246,10 +14246,10 @@ extern "C" void WP8AdMobController_SetGender_m940 (WP8AdMobController_t157 * __t
 
 IL_0016:
 	{
-		AdManager_t730 * L_1 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_1 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_2 = ___gender;
 		NullCheck(L_1);
-		AdManager_SetGender_m3804(L_1, L_2, /*hidden argument*/NULL);
+		AdManager_SetGender_m3801(L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -14270,12 +14270,12 @@ extern "C" void WP8AdMobController_SetBirthday_m941 (WP8AdMobController_t157 * _
 
 IL_0016:
 	{
-		AdManager_t730 * L_1 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_1 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_2 = ___year;
 		int32_t L_3 = ___month;
 		int32_t L_4 = ___day;
 		NullCheck(L_1);
-		AdManager_SetBirthday_m3805(L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		AdManager_SetBirthday_m3802(L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -14316,9 +14316,9 @@ extern "C" void WP8AdMobController_StartInterstitialAd_m943 (WP8AdMobController_
 
 IL_0016:
 	{
-		AdManager_t730 * L_1 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_1 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		AdManager_StartInterstitialAd_m3806(L_1, /*hidden argument*/NULL);
+		AdManager_StartInterstitialAd_m3803(L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -14339,9 +14339,9 @@ extern "C" void WP8AdMobController_LoadInterstitialAd_m944 (WP8AdMobController_t
 
 IL_0016:
 	{
-		AdManager_t730 * L_1 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_1 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		AdManager_LoadInterstitialAd_m3807(L_1, /*hidden argument*/NULL);
+		AdManager_LoadInterstitialAd_m3804(L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -14362,9 +14362,9 @@ extern "C" void WP8AdMobController_ShowInterstitialAd_m945 (WP8AdMobController_t
 
 IL_0016:
 	{
-		AdManager_t730 * L_1 = AdManager_get_instance_m3796(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AdManager_t730 * L_1 = AdManager_get_instance_m3793(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		AdManager_ShowInterstitialAd_m3808(L_1, /*hidden argument*/NULL);
+		AdManager_ShowInterstitialAd_m3805(L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -14409,11 +14409,11 @@ IL_001e:
 extern TypeInfo* List_1_t681_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t732_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3788_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m3809_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3810_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m3811_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3812_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3785_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m3806_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3807_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m3808_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3809_MethodInfo_var;
 extern "C" List_1_t681 * WP8AdMobController_get_banners_m947 (WP8AdMobController_t157 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -14422,11 +14422,11 @@ extern "C" List_1_t681 * WP8AdMobController_get_banners_m947 (WP8AdMobController
 		List_1_t681_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(236);
 		Enumerator_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(240);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1__ctor_m3788_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483788);
-		Dictionary_2_GetEnumerator_m3809_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483816);
-		Enumerator_get_Current_m3810_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483817);
-		KeyValuePair_2_get_Value_m3811_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483818);
-		Enumerator_MoveNext_m3812_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483819);
+		List_1__ctor_m3785_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483788);
+		Dictionary_2_GetEnumerator_m3806_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483816);
+		Enumerator_get_Current_m3807_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483817);
+		KeyValuePair_2_get_Value_m3808_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483818);
+		Enumerator_MoveNext_m3809_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483819);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t681 * V_0 = {0};
@@ -14440,7 +14440,7 @@ extern "C" List_1_t681 * WP8AdMobController_get_banners_m947 (WP8AdMobController
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		List_1_t681 * L_0 = (List_1_t681 *)il2cpp_codegen_object_new (List_1_t681_il2cpp_TypeInfo_var);
-		List_1__ctor_m3788(L_0, /*hidden argument*/List_1__ctor_m3788_MethodInfo_var);
+		List_1__ctor_m3785(L_0, /*hidden argument*/List_1__ctor_m3785_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t156 * L_1 = (__this->____banners_8);
 		if (L_1)
@@ -14457,7 +14457,7 @@ IL_0013:
 	{
 		Dictionary_2_t156 * L_3 = (__this->____banners_8);
 		NullCheck(L_3);
-		Enumerator_t732  L_4 = Dictionary_2_GetEnumerator_m3809(L_3, /*hidden argument*/Dictionary_2_GetEnumerator_m3809_MethodInfo_var);
+		Enumerator_t732  L_4 = Dictionary_2_GetEnumerator_m3806(L_3, /*hidden argument*/Dictionary_2_GetEnumerator_m3806_MethodInfo_var);
 		V_2 = L_4;
 	}
 
@@ -14470,17 +14470,17 @@ IL_001f:
 
 IL_0024:
 		{
-			KeyValuePair_2_t731  L_5 = Enumerator_get_Current_m3810((&V_2), /*hidden argument*/Enumerator_get_Current_m3810_MethodInfo_var);
+			KeyValuePair_2_t731  L_5 = Enumerator_get_Current_m3807((&V_2), /*hidden argument*/Enumerator_get_Current_m3807_MethodInfo_var);
 			V_1 = L_5;
 			List_1_t681 * L_6 = V_0;
-			WP8ADBanner_t155 * L_7 = KeyValuePair_2_get_Value_m3811((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m3811_MethodInfo_var);
+			WP8ADBanner_t155 * L_7 = KeyValuePair_2_get_Value_m3808((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m3808_MethodInfo_var);
 			NullCheck(L_6);
 			VirtActionInvoker1< Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<GoogleMobileAdBanner>::Add(!0) */, L_6, L_7);
 		}
 
 IL_0039:
 		{
-			bool L_8 = Enumerator_MoveNext_m3812((&V_2), /*hidden argument*/Enumerator_MoveNext_m3812_MethodInfo_var);
+			bool L_8 = Enumerator_MoveNext_m3809((&V_2), /*hidden argument*/Enumerator_MoveNext_m3809_MethodInfo_var);
 			if (L_8)
 			{
 				goto IL_0024;
@@ -14673,26 +14673,26 @@ extern "C" void WP8AdMobController_OnBannerAdLoaded_m963 (WP8AdMobController_t15
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_1, 0)) = (uint16_t)L_2;
 		NullCheck(L_0);
-		StringU5BU5D_t75* L_3 = String_Split_m3712(L_0, L_1, /*hidden argument*/NULL);
+		StringU5BU5D_t75* L_3 = String_Split_m3709(L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_3;
 		StringU5BU5D_t75* L_4 = V_0;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 0);
 		int32_t L_5 = 0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_6 = Convert_ToInt32_m3793(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_4, L_5)), /*hidden argument*/NULL);
+		int32_t L_6 = Convert_ToInt32_m3790(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_4, L_5)), /*hidden argument*/NULL);
 		V_1 = L_6;
 		StringU5BU5D_t75* L_7 = V_0;
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 1);
 		int32_t L_8 = 1;
-		int32_t L_9 = Convert_ToInt32_m3793(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_7, L_8)), /*hidden argument*/NULL);
+		int32_t L_9 = Convert_ToInt32_m3790(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_7, L_8)), /*hidden argument*/NULL);
 		V_2 = L_9;
 		StringU5BU5D_t75* L_10 = V_0;
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 2);
 		int32_t L_11 = 2;
-		int32_t L_12 = Convert_ToInt32_m3793(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_10, L_11)), /*hidden argument*/NULL);
+		int32_t L_12 = Convert_ToInt32_m3790(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_10, L_11)), /*hidden argument*/NULL);
 		V_3 = L_12;
 		int32_t L_13 = V_1;
 		Object_t * L_14 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner WP8AdMobController::GetBanner(System.Int32) */, __this, L_13);
@@ -14736,7 +14736,7 @@ extern "C" void WP8AdMobController_OnBannerAdFailedToLoad_m964 (WP8AdMobControll
 	{
 		String_t* L_0 = ___bannerID;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner WP8AdMobController::GetBanner(System.Int32) */, __this, L_2);
@@ -14775,7 +14775,7 @@ extern "C" void WP8AdMobController_OnBannerAdOpened_m965 (WP8AdMobController_t15
 	{
 		String_t* L_0 = ___bannerID;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner WP8AdMobController::GetBanner(System.Int32) */, __this, L_2);
@@ -14814,7 +14814,7 @@ extern "C" void WP8AdMobController_OnBannerAdClosed_m966 (WP8AdMobController_t15
 	{
 		String_t* L_0 = ___bannerID;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner WP8AdMobController::GetBanner(System.Int32) */, __this, L_2);
@@ -14853,7 +14853,7 @@ extern "C" void WP8AdMobController_OnBannerAdLeftApplication_m967 (WP8AdMobContr
 	{
 		String_t* L_0 = ___bannerID;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner WP8AdMobController::GetBanner(System.Int32) */, __this, L_2);
@@ -15022,8 +15022,8 @@ extern const MethodInfo* AndroidAdMobController_U3C_OnInterstitialOpenedU3Em__1E
 extern const MethodInfo* AndroidAdMobController_U3C_OnInterstitialClosedU3Em__1F_m1030_MethodInfo_var;
 extern const MethodInfo* AndroidAdMobController_U3C_OnInterstitialLeftApplicationU3Em__20_m1031_MethodInfo_var;
 extern const MethodInfo* AndroidAdMobController_U3C_OnAdInAppRequestU3Em__21_m1032_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3768_MethodInfo_var;
-extern const MethodInfo* SA_Singleton_1__ctor_m3813_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3765_MethodInfo_var;
+extern const MethodInfo* SA_Singleton_1__ctor_m3810_MethodInfo_var;
 extern "C" void AndroidAdMobController__ctor_m980 (AndroidAdMobController_t160 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -15039,8 +15039,8 @@ extern "C" void AndroidAdMobController__ctor_m980 (AndroidAdMobController_t160 *
 		AndroidAdMobController_U3C_OnInterstitialClosedU3Em__1F_m1030_MethodInfo_var = il2cpp_codegen_method_info_from_index(175);
 		AndroidAdMobController_U3C_OnInterstitialLeftApplicationU3Em__20_m1031_MethodInfo_var = il2cpp_codegen_method_info_from_index(176);
 		AndroidAdMobController_U3C_OnAdInAppRequestU3Em__21_m1032_MethodInfo_var = il2cpp_codegen_method_info_from_index(177);
-		Action_1__ctor_m3768_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483759);
-		SA_Singleton_1__ctor_m3813_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483826);
+		Action_1__ctor_m3765_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483759);
+		SA_Singleton_1__ctor_m3810_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483826);
 		s_Il2CppMethodIntialized = true;
 	}
 	AndroidAdMobController_t160 * G_B2_0 = {0};
@@ -15067,7 +15067,7 @@ extern "C" void AndroidAdMobController__ctor_m980 (AndroidAdMobController_t160 *
 	{
 		IntPtr_t L_1 = { (void*)AndroidAdMobController_U3C_OnInterstitialLoadedU3Em__1C_m1027_MethodInfo_var };
 		Action_t143 * L_2 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_2, NULL, L_1, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_2, NULL, L_1, /*hidden argument*/NULL);
 		((AndroidAdMobController_t160_StaticFields*)AndroidAdMobController_t160_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheA_17 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -15088,7 +15088,7 @@ IL_0019:
 	{
 		IntPtr_t L_5 = { (void*)AndroidAdMobController_U3C_OnInterstitialFailedLoadingU3Em__1D_m1028_MethodInfo_var };
 		Action_t143 * L_6 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_6, NULL, L_5, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_6, NULL, L_5, /*hidden argument*/NULL);
 		((AndroidAdMobController_t160_StaticFields*)AndroidAdMobController_t160_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheB_18 = L_6;
 		G_B4_0 = G_B3_0;
 	}
@@ -15109,7 +15109,7 @@ IL_003c:
 	{
 		IntPtr_t L_9 = { (void*)AndroidAdMobController_U3C_OnInterstitialOpenedU3Em__1E_m1029_MethodInfo_var };
 		Action_t143 * L_10 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_10, NULL, L_9, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_10, NULL, L_9, /*hidden argument*/NULL);
 		((AndroidAdMobController_t160_StaticFields*)AndroidAdMobController_t160_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheC_19 = L_10;
 		G_B6_0 = G_B5_0;
 	}
@@ -15130,7 +15130,7 @@ IL_005f:
 	{
 		IntPtr_t L_13 = { (void*)AndroidAdMobController_U3C_OnInterstitialClosedU3Em__1F_m1030_MethodInfo_var };
 		Action_t143 * L_14 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_14, NULL, L_13, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_14, NULL, L_13, /*hidden argument*/NULL);
 		((AndroidAdMobController_t160_StaticFields*)AndroidAdMobController_t160_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheD_20 = L_14;
 		G_B8_0 = G_B7_0;
 	}
@@ -15151,7 +15151,7 @@ IL_0082:
 	{
 		IntPtr_t L_17 = { (void*)AndroidAdMobController_U3C_OnInterstitialLeftApplicationU3Em__20_m1031_MethodInfo_var };
 		Action_t143 * L_18 = (Action_t143 *)il2cpp_codegen_object_new (Action_t143_il2cpp_TypeInfo_var);
-		Action__ctor_m3758(L_18, NULL, L_17, /*hidden argument*/NULL);
+		Action__ctor_m3755(L_18, NULL, L_17, /*hidden argument*/NULL);
 		((AndroidAdMobController_t160_StaticFields*)AndroidAdMobController_t160_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheE_21 = L_18;
 		G_B10_0 = G_B9_0;
 	}
@@ -15172,7 +15172,7 @@ IL_00a5:
 	{
 		IntPtr_t L_21 = { (void*)AndroidAdMobController_U3C_OnAdInAppRequestU3Em__21_m1032_MethodInfo_var };
 		Action_1_t144 * L_22 = (Action_1_t144 *)il2cpp_codegen_object_new (Action_1_t144_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3768(L_22, NULL, L_21, /*hidden argument*/Action_1__ctor_m3768_MethodInfo_var);
+		Action_1__ctor_m3765(L_22, NULL, L_21, /*hidden argument*/Action_1__ctor_m3765_MethodInfo_var);
 		((AndroidAdMobController_t160_StaticFields*)AndroidAdMobController_t160_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheF_22 = L_22;
 		G_B12_0 = G_B11_0;
 	}
@@ -15183,7 +15183,7 @@ IL_00c8:
 		NullCheck(G_B12_0);
 		G_B12_0->____OnAdInAppRequest_16 = L_23;
 		IL2CPP_RUNTIME_CLASS_INIT(SA_Singleton_1_t161_il2cpp_TypeInfo_var);
-		SA_Singleton_1__ctor_m3813(__this, /*hidden argument*/SA_Singleton_1__ctor_m3813_MethodInfo_var);
+		SA_Singleton_1__ctor_m3810(__this, /*hidden argument*/SA_Singleton_1__ctor_m3810_MethodInfo_var);
 		return;
 	}
 }
@@ -15191,21 +15191,21 @@ IL_00c8:
 extern "C" void AndroidAdMobController_Awake_m981 (AndroidAdMobController_t160 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t352 * L_0 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_0 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		Object_DontDestroyOnLoad_m385(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void AndroidAdMobController::Init(System.String)
 extern TypeInfo* Dictionary_2_t159_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3814_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3811_MethodInfo_var;
 extern "C" void AndroidAdMobController_Init_m982 (AndroidAdMobController_t160 * __this, String_t* ___ad_unit_id, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t159_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(242);
-		Dictionary_2__ctor_m3814_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483827);
+		Dictionary_2__ctor_m3811_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483827);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -15228,7 +15228,7 @@ IL_0016:
 		String_t* L_2 = ___ad_unit_id;
 		__this->____InterstisialUnitId_10 = L_2;
 		Dictionary_2_t159 * L_3 = (Dictionary_2_t159 *)il2cpp_codegen_object_new (Dictionary_2_t159_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3814(L_3, /*hidden argument*/Dictionary_2__ctor_m3814_MethodInfo_var);
+		Dictionary_2__ctor_m3811(L_3, /*hidden argument*/Dictionary_2__ctor_m3811_MethodInfo_var);
 		__this->____banners_8 = L_3;
 		String_t* L_4 = ___ad_unit_id;
 		AN_GoogleAdProxy_InitMobileAd_m1035(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
@@ -15410,7 +15410,7 @@ IL_001f:
 	{
 		StringU5BU5D_t75* L_2 = ___ids;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Join_m3787(NULL /*static, unused*/, (String_t*) &_stringLiteral303, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Join_m3784(NULL /*static, unused*/, (String_t*) &_stringLiteral303, L_2, /*hidden argument*/NULL);
 		AN_GoogleAdProxy_AddTestDevices_m1054(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		return;
 	}
@@ -15698,11 +15698,11 @@ IL_001e:
 extern TypeInfo* List_1_t681_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t734_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3788_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m3815_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3816_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m3817_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3818_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3785_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m3812_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3813_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m3814_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3815_MethodInfo_var;
 extern "C" List_1_t681 * AndroidAdMobController_get_banners_m1000 (AndroidAdMobController_t160 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -15711,11 +15711,11 @@ extern "C" List_1_t681 * AndroidAdMobController_get_banners_m1000 (AndroidAdMobC
 		List_1_t681_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(236);
 		Enumerator_t734_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(243);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1__ctor_m3788_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483788);
-		Dictionary_2_GetEnumerator_m3815_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
-		Enumerator_get_Current_m3816_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483829);
-		KeyValuePair_2_get_Value_m3817_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483830);
-		Enumerator_MoveNext_m3818_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483831);
+		List_1__ctor_m3785_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483788);
+		Dictionary_2_GetEnumerator_m3812_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483828);
+		Enumerator_get_Current_m3813_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483829);
+		KeyValuePair_2_get_Value_m3814_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483830);
+		Enumerator_MoveNext_m3815_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483831);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t681 * V_0 = {0};
@@ -15729,7 +15729,7 @@ extern "C" List_1_t681 * AndroidAdMobController_get_banners_m1000 (AndroidAdMobC
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		List_1_t681 * L_0 = (List_1_t681 *)il2cpp_codegen_object_new (List_1_t681_il2cpp_TypeInfo_var);
-		List_1__ctor_m3788(L_0, /*hidden argument*/List_1__ctor_m3788_MethodInfo_var);
+		List_1__ctor_m3785(L_0, /*hidden argument*/List_1__ctor_m3785_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t159 * L_1 = (__this->____banners_8);
 		if (L_1)
@@ -15746,7 +15746,7 @@ IL_0013:
 	{
 		Dictionary_2_t159 * L_3 = (__this->____banners_8);
 		NullCheck(L_3);
-		Enumerator_t734  L_4 = Dictionary_2_GetEnumerator_m3815(L_3, /*hidden argument*/Dictionary_2_GetEnumerator_m3815_MethodInfo_var);
+		Enumerator_t734  L_4 = Dictionary_2_GetEnumerator_m3812(L_3, /*hidden argument*/Dictionary_2_GetEnumerator_m3812_MethodInfo_var);
 		V_2 = L_4;
 	}
 
@@ -15759,17 +15759,17 @@ IL_001f:
 
 IL_0024:
 		{
-			KeyValuePair_2_t733  L_5 = Enumerator_get_Current_m3816((&V_2), /*hidden argument*/Enumerator_get_Current_m3816_MethodInfo_var);
+			KeyValuePair_2_t733  L_5 = Enumerator_get_Current_m3813((&V_2), /*hidden argument*/Enumerator_get_Current_m3813_MethodInfo_var);
 			V_1 = L_5;
 			List_1_t681 * L_6 = V_0;
-			AndroidADBanner_t215 * L_7 = KeyValuePair_2_get_Value_m3817((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m3817_MethodInfo_var);
+			AndroidADBanner_t215 * L_7 = KeyValuePair_2_get_Value_m3814((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m3814_MethodInfo_var);
 			NullCheck(L_6);
 			VirtActionInvoker1< Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<GoogleMobileAdBanner>::Add(!0) */, L_6, L_7);
 		}
 
 IL_0039:
 		{
-			bool L_8 = Enumerator_MoveNext_m3818((&V_2), /*hidden argument*/Enumerator_MoveNext_m3818_MethodInfo_var);
+			bool L_8 = Enumerator_MoveNext_m3815((&V_2), /*hidden argument*/Enumerator_MoveNext_m3815_MethodInfo_var);
 			if (L_8)
 			{
 				goto IL_0024;
@@ -15962,26 +15962,26 @@ extern "C" void AndroidAdMobController_OnBannerAdLoaded_m1016 (AndroidAdMobContr
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_1, 0)) = (uint16_t)L_2;
 		NullCheck(L_0);
-		StringU5BU5D_t75* L_3 = String_Split_m3712(L_0, L_1, /*hidden argument*/NULL);
+		StringU5BU5D_t75* L_3 = String_Split_m3709(L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_3;
 		StringU5BU5D_t75* L_4 = V_0;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 0);
 		int32_t L_5 = 0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_6 = Convert_ToInt32_m3793(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_4, L_5)), /*hidden argument*/NULL);
+		int32_t L_6 = Convert_ToInt32_m3790(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_4, L_5)), /*hidden argument*/NULL);
 		V_1 = L_6;
 		StringU5BU5D_t75* L_7 = V_0;
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 1);
 		int32_t L_8 = 1;
-		int32_t L_9 = Convert_ToInt32_m3793(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_7, L_8)), /*hidden argument*/NULL);
+		int32_t L_9 = Convert_ToInt32_m3790(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_7, L_8)), /*hidden argument*/NULL);
 		V_2 = L_9;
 		StringU5BU5D_t75* L_10 = V_0;
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 2);
 		int32_t L_11 = 2;
-		int32_t L_12 = Convert_ToInt32_m3793(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_10, L_11)), /*hidden argument*/NULL);
+		int32_t L_12 = Convert_ToInt32_m3790(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_10, L_11)), /*hidden argument*/NULL);
 		V_3 = L_12;
 		int32_t L_13 = V_1;
 		Object_t * L_14 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner AndroidAdMobController::GetBanner(System.Int32) */, __this, L_13);
@@ -16025,7 +16025,7 @@ extern "C" void AndroidAdMobController_OnBannerAdFailedToLoad_m1017 (AndroidAdMo
 	{
 		String_t* L_0 = ___bannerID;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner AndroidAdMobController::GetBanner(System.Int32) */, __this, L_2);
@@ -16064,7 +16064,7 @@ extern "C" void AndroidAdMobController_OnBannerAdOpened_m1018 (AndroidAdMobContr
 	{
 		String_t* L_0 = ___bannerID;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner AndroidAdMobController::GetBanner(System.Int32) */, __this, L_2);
@@ -16103,7 +16103,7 @@ extern "C" void AndroidAdMobController_OnBannerAdClosed_m1019 (AndroidAdMobContr
 	{
 		String_t* L_0 = ___bannerID;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner AndroidAdMobController::GetBanner(System.Int32) */, __this, L_2);
@@ -16142,7 +16142,7 @@ extern "C" void AndroidAdMobController_OnBannerAdLeftApplication_m1020 (AndroidA
 	{
 		String_t* L_0 = ___bannerID;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(40 /* GoogleMobileAdBanner AndroidAdMobController::GetBanner(System.Int32) */, __this, L_2);
@@ -17138,7 +17138,7 @@ extern "C" void AN_GMSGeneralProxy_setConnectionParams_m1073 (Object_t * __this 
 	}
 	{
 		ObjectU5BU5D_t682* L_0 = ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 1));
-		String_t* L_1 = Boolean_ToString_m3819((&___showPopup), /*hidden argument*/NULL);
+		String_t* L_1 = Boolean_ToString_m3816((&___showPopup), /*hidden argument*/NULL);
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
 		ArrayElementTypeCheck (L_0, L_1);
@@ -17366,7 +17366,7 @@ extern "C" void AN_GMSGeneralProxy_submitScore_m1085 (Object_t * __this /* stati
 		ArrayElementTypeCheck (L_0, L_1);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0)) = (Object_t *)L_1;
 		ObjectU5BU5D_t682* L_2 = L_0;
-		String_t* L_3 = Int64_ToString_m3820((&___score), /*hidden argument*/NULL);
+		String_t* L_3 = Int64_ToString_m3817((&___score), /*hidden argument*/NULL);
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
 		ArrayElementTypeCheck (L_2, L_3);
@@ -17393,7 +17393,7 @@ extern "C" void AN_GMSGeneralProxy_submitScoreById_m1086 (Object_t * __this /* s
 		ArrayElementTypeCheck (L_0, L_1);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0)) = (Object_t *)L_1;
 		ObjectU5BU5D_t682* L_2 = L_0;
-		String_t* L_3 = Int64_ToString_m3820((&___score), /*hidden argument*/NULL);
+		String_t* L_3 = Int64_ToString_m3817((&___score), /*hidden argument*/NULL);
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
 		ArrayElementTypeCheck (L_2, L_3);
@@ -20596,7 +20596,7 @@ extern "C" void AndroidNative_GetImageFromCamera_m1220 (Object_t * __this /* sta
 	}
 	{
 		ObjectU5BU5D_t682* L_0 = ((ObjectU5BU5D_t682*)SZArrayNew(ObjectU5BU5D_t682_il2cpp_TypeInfo_var, 1));
-		String_t* L_1 = Boolean_ToString_m3819((&___bSaveToGallery), /*hidden argument*/NULL);
+		String_t* L_1 = Boolean_ToString_m3816((&___bSaveToGallery), /*hidden argument*/NULL);
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
 		ArrayElementTypeCheck (L_0, L_1);
@@ -20875,13 +20875,13 @@ struct ScriptableObject_t148;
 struct SocialPlatfromSettings_t179;
 // Declaration !!0 UnityEngine.ScriptableObject::CreateInstance<SocialPlatfromSettings>()
 // !!0 UnityEngine.ScriptableObject::CreateInstance<SocialPlatfromSettings>()
-#define ScriptableObject_CreateInstance_TisSocialPlatfromSettings_t179_m3821(__this /* static, unused */, method) (( SocialPlatfromSettings_t179 * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m3778_gshared)(__this /* static, unused */, method)
+#define ScriptableObject_CreateInstance_TisSocialPlatfromSettings_t179_m3818(__this /* static, unused */, method) (( SocialPlatfromSettings_t179 * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m3775_gshared)(__this /* static, unused */, method)
 
 
 // System.Void SocialPlatfromSettings::.ctor()
 extern TypeInfo* List_1_t115_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3708_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3705_MethodInfo_var;
 extern "C" void SocialPlatfromSettings__ctor_m1237 (SocialPlatfromSettings_t179 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20889,7 +20889,7 @@ extern "C" void SocialPlatfromSettings__ctor_m1237 (SocialPlatfromSettings_t179 
 	{
 		List_1_t115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(186);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
-		List_1__ctor_m3708_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483708);
+		List_1__ctor_m3705_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483708);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -20897,7 +20897,7 @@ extern "C" void SocialPlatfromSettings__ctor_m1237 (SocialPlatfromSettings_t179 
 		__this->___ShowActions_8 = 1;
 		__this->___ShowAPIS_9 = 1;
 		List_1_t115 * L_0 = (List_1_t115 *)il2cpp_codegen_object_new (List_1_t115_il2cpp_TypeInfo_var);
-		List_1__ctor_m3708(L_0, /*hidden argument*/List_1__ctor_m3708_MethodInfo_var);
+		List_1__ctor_m3705(L_0, /*hidden argument*/List_1__ctor_m3705_MethodInfo_var);
 		__this->___fb_scopes_list_10 = L_0;
 		__this->___TWITTER_CONSUMER_KEY_11 = (String_t*) &_stringLiteral490;
 		__this->___TWITTER_CONSUMER_SECRET_12 = (String_t*) &_stringLiteral491;
@@ -20911,7 +20911,7 @@ extern "C" void SocialPlatfromSettings__ctor_m1237 (SocialPlatfromSettings_t179 
 		__this->___InstagramAPI_18 = 1;
 		__this->___EnableImageSharing_19 = 1;
 		__this->___KeepManifestClean_20 = 1;
-		ScriptableObject__ctor_m3780(__this, /*hidden argument*/NULL);
+		ScriptableObject__ctor_m3777(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -20924,38 +20924,38 @@ extern "C" void SocialPlatfromSettings__cctor_m1238 (Object_t * __this /* static
 }
 // SocialPlatfromSettings SocialPlatfromSettings::get_Instance()
 extern TypeInfo* SocialPlatfromSettings_t179_il2cpp_TypeInfo_var;
-extern const MethodInfo* ScriptableObject_CreateInstance_TisSocialPlatfromSettings_t179_m3821_MethodInfo_var;
+extern const MethodInfo* ScriptableObject_CreateInstance_TisSocialPlatfromSettings_t179_m3818_MethodInfo_var;
 extern "C" SocialPlatfromSettings_t179 * SocialPlatfromSettings_get_Instance_m1239 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		SocialPlatfromSettings_t179_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(244);
-		ScriptableObject_CreateInstance_TisSocialPlatfromSettings_t179_m3821_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483832);
+		ScriptableObject_CreateInstance_TisSocialPlatfromSettings_t179_m3818_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483832);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(SocialPlatfromSettings_t179_il2cpp_TypeInfo_var);
 		SocialPlatfromSettings_t179 * L_0 = ((SocialPlatfromSettings_t179_StaticFields*)SocialPlatfromSettings_t179_il2cpp_TypeInfo_var->static_fields)->___instance_21;
-		bool L_1 = Object_op_Equality_m3781(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3778(NULL /*static, unused*/, L_0, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		Object_t703 * L_2 = Resources_Load_m3782(NULL /*static, unused*/, (String_t*) &_stringLiteral489, /*hidden argument*/NULL);
+		Object_t703 * L_2 = Resources_Load_m3779(NULL /*static, unused*/, (String_t*) &_stringLiteral489, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(SocialPlatfromSettings_t179_il2cpp_TypeInfo_var);
 		((SocialPlatfromSettings_t179_StaticFields*)SocialPlatfromSettings_t179_il2cpp_TypeInfo_var->static_fields)->___instance_21 = ((SocialPlatfromSettings_t179 *)IsInst(L_2, SocialPlatfromSettings_t179_il2cpp_TypeInfo_var));
 		SocialPlatfromSettings_t179 * L_3 = ((SocialPlatfromSettings_t179_StaticFields*)SocialPlatfromSettings_t179_il2cpp_TypeInfo_var->static_fields)->___instance_21;
-		bool L_4 = Object_op_Equality_m3781(NULL /*static, unused*/, L_3, (Object_t703 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Equality_m3778(NULL /*static, unused*/, L_3, (Object_t703 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		SocialPlatfromSettings_t179 * L_5 = ScriptableObject_CreateInstance_TisSocialPlatfromSettings_t179_m3821(NULL /*static, unused*/, /*hidden argument*/ScriptableObject_CreateInstance_TisSocialPlatfromSettings_t179_m3821_MethodInfo_var);
+		SocialPlatfromSettings_t179 * L_5 = ScriptableObject_CreateInstance_TisSocialPlatfromSettings_t179_m3818(NULL /*static, unused*/, /*hidden argument*/ScriptableObject_CreateInstance_TisSocialPlatfromSettings_t179_m3818_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(SocialPlatfromSettings_t179_il2cpp_TypeInfo_var);
 		((SocialPlatfromSettings_t179_StaticFields*)SocialPlatfromSettings_t179_il2cpp_TypeInfo_var->static_fields)->___instance_21 = L_5;
 	}
@@ -20971,9 +20971,9 @@ IL_003e:
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Enumerator_t735_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m3822_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3823_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3824_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3819_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3820_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3821_MethodInfo_var;
 extern "C" String_t* SocialPlatfromSettings_get_fb_scopes_m1240 (SocialPlatfromSettings_t179 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -20982,9 +20982,9 @@ extern "C" String_t* SocialPlatfromSettings_get_fb_scopes_m1240 (SocialPlatfromS
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		Enumerator_t735_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(245);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1_GetEnumerator_m3822_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483833);
-		Enumerator_get_Current_m3823_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483834);
-		Enumerator_MoveNext_m3824_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483835);
+		List_1_GetEnumerator_m3819_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483833);
+		Enumerator_get_Current_m3820_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483834);
+		Enumerator_MoveNext_m3821_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483835);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -21002,7 +21002,7 @@ extern "C" String_t* SocialPlatfromSettings_get_fb_scopes_m1240 (SocialPlatfromS
 		V_0 = L_0;
 		List_1_t115 * L_1 = (__this->___fb_scopes_list_10);
 		NullCheck(L_1);
-		Enumerator_t735  L_2 = List_1_GetEnumerator_m3822(L_1, /*hidden argument*/List_1_GetEnumerator_m3822_MethodInfo_var);
+		Enumerator_t735  L_2 = List_1_GetEnumerator_m3819(L_1, /*hidden argument*/List_1_GetEnumerator_m3819_MethodInfo_var);
 		V_2 = L_2;
 	}
 
@@ -21015,7 +21015,7 @@ IL_0012:
 
 IL_0017:
 		{
-			String_t* L_3 = Enumerator_get_Current_m3823((&V_2), /*hidden argument*/Enumerator_get_Current_m3823_MethodInfo_var);
+			String_t* L_3 = Enumerator_get_Current_m3820((&V_2), /*hidden argument*/Enumerator_get_Current_m3820_MethodInfo_var);
 			V_1 = L_3;
 			String_t* L_4 = V_0;
 			String_t* L_5 = V_1;
@@ -21026,7 +21026,7 @@ IL_0017:
 
 IL_002c:
 		{
-			bool L_7 = Enumerator_MoveNext_m3824((&V_2), /*hidden argument*/Enumerator_MoveNext_m3824_MethodInfo_var);
+			bool L_7 = Enumerator_MoveNext_m3821((&V_2), /*hidden argument*/Enumerator_MoveNext_m3821_MethodInfo_var);
 			if (L_7)
 			{
 				goto IL_0017;
@@ -21562,7 +21562,7 @@ extern "C" void TwitterEvents__ctor_m1250 (TwitterEvents_t214 * __this, const Me
 extern TypeInfo* AndroidADBanner_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t149_il2cpp_TypeInfo_var;
 extern const MethodInfo* AndroidADBanner_U3C_OnLoadedActionU3Em__22_m1285_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3766_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3763_MethodInfo_var;
 extern const MethodInfo* AndroidADBanner_U3C_OnFailedLoadingActionU3Em__23_m1286_MethodInfo_var;
 extern const MethodInfo* AndroidADBanner_U3C_OnOpenedActionU3Em__24_m1287_MethodInfo_var;
 extern const MethodInfo* AndroidADBanner_U3C_OnClosedActionU3Em__25_m1288_MethodInfo_var;
@@ -21575,7 +21575,7 @@ extern "C" void AndroidADBanner__ctor_m1251 (AndroidADBanner_t215 * __this, int3
 		AndroidADBanner_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(241);
 		Action_1_t149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(220);
 		AndroidADBanner_U3C_OnLoadedActionU3Em__22_m1285_MethodInfo_var = il2cpp_codegen_method_info_from_index(188);
-		Action_1__ctor_m3766_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
+		Action_1__ctor_m3763_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
 		AndroidADBanner_U3C_OnFailedLoadingActionU3Em__23_m1286_MethodInfo_var = il2cpp_codegen_method_info_from_index(189);
 		AndroidADBanner_U3C_OnOpenedActionU3Em__24_m1287_MethodInfo_var = il2cpp_codegen_method_info_from_index(190);
 		AndroidADBanner_U3C_OnClosedActionU3Em__25_m1288_MethodInfo_var = il2cpp_codegen_method_info_from_index(191);
@@ -21606,7 +21606,7 @@ extern "C" void AndroidADBanner__ctor_m1251 (AndroidADBanner_t215 * __this, int3
 	{
 		IntPtr_t L_1 = { (void*)AndroidADBanner_U3C_OnLoadedActionU3Em__22_m1285_MethodInfo_var };
 		Action_1_t149 * L_2 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((AndroidADBanner_t215_StaticFields*)AndroidADBanner_t215_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheF_17 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -21627,7 +21627,7 @@ IL_0027:
 	{
 		IntPtr_t L_5 = { (void*)AndroidADBanner_U3C_OnFailedLoadingActionU3Em__23_m1286_MethodInfo_var };
 		Action_1_t149 * L_6 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((AndroidADBanner_t215_StaticFields*)AndroidADBanner_t215_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache10_18 = L_6;
 		G_B4_0 = G_B3_0;
 	}
@@ -21648,7 +21648,7 @@ IL_004a:
 	{
 		IntPtr_t L_9 = { (void*)AndroidADBanner_U3C_OnOpenedActionU3Em__24_m1287_MethodInfo_var };
 		Action_1_t149 * L_10 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((AndroidADBanner_t215_StaticFields*)AndroidADBanner_t215_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache11_19 = L_10;
 		G_B6_0 = G_B5_0;
 	}
@@ -21669,7 +21669,7 @@ IL_006d:
 	{
 		IntPtr_t L_13 = { (void*)AndroidADBanner_U3C_OnClosedActionU3Em__25_m1288_MethodInfo_var };
 		Action_1_t149 * L_14 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((AndroidADBanner_t215_StaticFields*)AndroidADBanner_t215_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache12_20 = L_14;
 		G_B8_0 = G_B7_0;
 	}
@@ -21690,7 +21690,7 @@ IL_0090:
 	{
 		IntPtr_t L_17 = { (void*)AndroidADBanner_U3C_OnLeftApplicationActionU3Em__26_m1289_MethodInfo_var };
 		Action_1_t149 * L_18 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((AndroidADBanner_t215_StaticFields*)AndroidADBanner_t215_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache13_21 = L_18;
 		G_B10_0 = G_B9_0;
 	}
@@ -21718,7 +21718,7 @@ IL_00b3:
 extern TypeInfo* AndroidADBanner_t215_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t149_il2cpp_TypeInfo_var;
 extern const MethodInfo* AndroidADBanner_U3C_OnLoadedActionU3Em__22_m1285_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3766_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3763_MethodInfo_var;
 extern const MethodInfo* AndroidADBanner_U3C_OnFailedLoadingActionU3Em__23_m1286_MethodInfo_var;
 extern const MethodInfo* AndroidADBanner_U3C_OnOpenedActionU3Em__24_m1287_MethodInfo_var;
 extern const MethodInfo* AndroidADBanner_U3C_OnClosedActionU3Em__25_m1288_MethodInfo_var;
@@ -21731,7 +21731,7 @@ extern "C" void AndroidADBanner__ctor_m1252 (AndroidADBanner_t215 * __this, int3
 		AndroidADBanner_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(241);
 		Action_1_t149_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(220);
 		AndroidADBanner_U3C_OnLoadedActionU3Em__22_m1285_MethodInfo_var = il2cpp_codegen_method_info_from_index(188);
-		Action_1__ctor_m3766_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
+		Action_1__ctor_m3763_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
 		AndroidADBanner_U3C_OnFailedLoadingActionU3Em__23_m1286_MethodInfo_var = il2cpp_codegen_method_info_from_index(189);
 		AndroidADBanner_U3C_OnOpenedActionU3Em__24_m1287_MethodInfo_var = il2cpp_codegen_method_info_from_index(190);
 		AndroidADBanner_U3C_OnClosedActionU3Em__25_m1288_MethodInfo_var = il2cpp_codegen_method_info_from_index(191);
@@ -21762,7 +21762,7 @@ extern "C" void AndroidADBanner__ctor_m1252 (AndroidADBanner_t215 * __this, int3
 	{
 		IntPtr_t L_1 = { (void*)AndroidADBanner_U3C_OnLoadedActionU3Em__22_m1285_MethodInfo_var };
 		Action_1_t149 * L_2 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((AndroidADBanner_t215_StaticFields*)AndroidADBanner_t215_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheF_17 = L_2;
 		G_B2_0 = G_B1_0;
 	}
@@ -21783,7 +21783,7 @@ IL_0027:
 	{
 		IntPtr_t L_5 = { (void*)AndroidADBanner_U3C_OnFailedLoadingActionU3Em__23_m1286_MethodInfo_var };
 		Action_1_t149 * L_6 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((AndroidADBanner_t215_StaticFields*)AndroidADBanner_t215_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache10_18 = L_6;
 		G_B4_0 = G_B3_0;
 	}
@@ -21804,7 +21804,7 @@ IL_004a:
 	{
 		IntPtr_t L_9 = { (void*)AndroidADBanner_U3C_OnOpenedActionU3Em__24_m1287_MethodInfo_var };
 		Action_1_t149 * L_10 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((AndroidADBanner_t215_StaticFields*)AndroidADBanner_t215_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache11_19 = L_10;
 		G_B6_0 = G_B5_0;
 	}
@@ -21825,7 +21825,7 @@ IL_006d:
 	{
 		IntPtr_t L_13 = { (void*)AndroidADBanner_U3C_OnClosedActionU3Em__25_m1288_MethodInfo_var };
 		Action_1_t149 * L_14 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_14, NULL, L_13, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((AndroidADBanner_t215_StaticFields*)AndroidADBanner_t215_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache12_20 = L_14;
 		G_B8_0 = G_B7_0;
 	}
@@ -21846,7 +21846,7 @@ IL_0090:
 	{
 		IntPtr_t L_17 = { (void*)AndroidADBanner_U3C_OnLeftApplicationActionU3Em__26_m1289_MethodInfo_var };
 		Action_1_t149 * L_18 = (Action_1_t149 *)il2cpp_codegen_object_new (Action_1_t149_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3766(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m3766_MethodInfo_var);
+		Action_1__ctor_m3763(L_18, NULL, L_17, /*hidden argument*/Action_1__ctor_m3763_MethodInfo_var);
 		((AndroidADBanner_t215_StaticFields*)AndroidADBanner_t215_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache13_21 = L_18;
 		G_B10_0 = G_B9_0;
 	}
@@ -22383,10 +22383,10 @@ extern "C" void AndroidActivityResult__ctor_m1290 (AndroidActivityResult_t216 * 
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___rId;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		__this->____requestId_1 = L_1;
 		String_t* L_2 = ___codeString;
-		int32_t L_3 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		int32_t L_3 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		__this->____code_0 = L_3;
 		return;
 	}
@@ -22474,7 +22474,7 @@ extern "C" void AsyncTask__ctor_m1296 (AsyncTask_t218 * __this, const MethodInfo
 extern "C" void AsyncTask_Awake_m1297 (AsyncTask_t218 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t352 * L_0 = Component_get_gameObject_m3756(__this, /*hidden argument*/NULL);
+		GameObject_t352 * L_0 = Component_get_gameObject_m3753(__this, /*hidden argument*/NULL);
 		Object_DontDestroyOnLoad_m385(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
@@ -22552,17 +22552,17 @@ extern "C" void GPAchievement__ctor_m1301 (GPAchievement_t220 * __this, String_t
 		__this->____description_2 = L_2;
 		String_t* L_3 = ___aCurentSteps;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_4 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		__this->____currentSteps_3 = L_4;
 		String_t* L_5 = ___aTotalSteps;
-		int32_t L_6 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		int32_t L_6 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		__this->____totalSteps_4 = L_6;
 		String_t* L_7 = ___aType;
-		int32_t L_8 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		int32_t L_8 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		int32_t L_9 = PlayServiceUtil_GetAchievementTypeById_m1438(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		__this->____type_5 = L_9;
 		String_t* L_10 = ___aState;
-		int32_t L_11 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		int32_t L_11 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		int32_t L_12 = PlayServiceUtil_GetAchievementStateById_m1437(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 		__this->____state_6 = L_12;
 		return;
@@ -22685,7 +22685,7 @@ extern "C" void GPGameRequest__ctor_m1309 (GPGameRequest_t221 * __this, const Me
 // System.Void GPLeaderBoard::.ctor(System.String,System.String)
 extern TypeInfo* GPScoreCollection_t222_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t223_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3825_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3822_MethodInfo_var;
 extern "C" void GPLeaderBoard__ctor_m1310 (GPLeaderBoard_t224 * __this, String_t* ___lId, String_t* ___lName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -22693,7 +22693,7 @@ extern "C" void GPLeaderBoard__ctor_m1310 (GPLeaderBoard_t224 * __this, String_t
 	{
 		GPScoreCollection_t222_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(246);
 		Dictionary_2_t223_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(247);
-		Dictionary_2__ctor_m3825_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483841);
+		Dictionary_2__ctor_m3822_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483841);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -22704,7 +22704,7 @@ extern "C" void GPLeaderBoard__ctor_m1310 (GPLeaderBoard_t224 * __this, String_t
 		GPScoreCollection__ctor_m1320(L_1, /*hidden argument*/NULL);
 		__this->___GlobalCollection_3 = L_1;
 		Dictionary_2_t223 * L_2 = (Dictionary_2_t223 *)il2cpp_codegen_object_new (Dictionary_2_t223_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3825(L_2, /*hidden argument*/Dictionary_2__ctor_m3825_MethodInfo_var);
+		Dictionary_2__ctor_m3822(L_2, /*hidden argument*/Dictionary_2__ctor_m3822_MethodInfo_var);
 		__this->___currentPlayerRank_4 = L_2;
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		String_t* L_3 = ___lId;
@@ -22725,18 +22725,18 @@ extern "C" void GPLeaderBoard_UpdateName_m1311 (GPLeaderBoard_t224 * __this, Str
 }
 // System.Collections.Generic.List`1<GPScore> GPLeaderBoard::GetScoresList(GPBoardTimeSpan,GPCollectionType)
 extern TypeInfo* List_1_t683_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3826_MethodInfo_var;
-extern const MethodInfo* Dictionary_2_get_Values_m3827_MethodInfo_var;
-extern const MethodInfo* List_1_AddRange_m3828_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3823_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Values_m3824_MethodInfo_var;
+extern const MethodInfo* List_1_AddRange_m3825_MethodInfo_var;
 extern "C" List_1_t683 * GPLeaderBoard_GetScoresList_m1312 (GPLeaderBoard_t224 * __this, int32_t ___timeSpan, int32_t ___collection, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		List_1_t683_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(249);
-		List_1__ctor_m3826_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483842);
-		Dictionary_2_get_Values_m3827_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483843);
-		List_1_AddRange_m3828_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483844);
+		List_1__ctor_m3823_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483842);
+		Dictionary_2_get_Values_m3824_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483843);
+		List_1_AddRange_m3825_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483844);
 		s_Il2CppMethodIntialized = true;
 	}
 	GPScoreCollection_t222 * V_0 = {0};
@@ -22836,14 +22836,14 @@ IL_006d:
 IL_0079:
 	{
 		List_1_t683 * L_16 = (List_1_t683 *)il2cpp_codegen_object_new (List_1_t683_il2cpp_TypeInfo_var);
-		List_1__ctor_m3826(L_16, /*hidden argument*/List_1__ctor_m3826_MethodInfo_var);
+		List_1__ctor_m3823(L_16, /*hidden argument*/List_1__ctor_m3823_MethodInfo_var);
 		V_2 = L_16;
 		List_1_t683 * L_17 = V_2;
 		Dictionary_2_t225 * L_18 = V_1;
 		NullCheck(L_18);
-		ValueCollection_t736 * L_19 = Dictionary_2_get_Values_m3827(L_18, /*hidden argument*/Dictionary_2_get_Values_m3827_MethodInfo_var);
+		ValueCollection_t736 * L_19 = Dictionary_2_get_Values_m3824(L_18, /*hidden argument*/Dictionary_2_get_Values_m3824_MethodInfo_var);
 		NullCheck(L_17);
-		List_1_AddRange_m3828(L_17, L_19, /*hidden argument*/List_1_AddRange_m3828_MethodInfo_var);
+		List_1_AddRange_m3825(L_17, L_19, /*hidden argument*/List_1_AddRange_m3825_MethodInfo_var);
 		List_1_t683 * L_20 = V_2;
 		return L_20;
 	}
@@ -22851,9 +22851,9 @@ IL_0079:
 // GPScore GPLeaderBoard::GetScoreByPlayerId(System.String,GPBoardTimeSpan,GPCollectionType)
 extern TypeInfo* Enumerator_t737_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m3829_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3830_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3831_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3826_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3827_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3828_MethodInfo_var;
 extern "C" GPScore_t343 * GPLeaderBoard_GetScoreByPlayerId_m1313 (GPLeaderBoard_t224 * __this, String_t* ___playerId, int32_t ___timeSpan, int32_t ___collection, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -22861,9 +22861,9 @@ extern "C" GPScore_t343 * GPLeaderBoard_GetScoreByPlayerId_m1313 (GPLeaderBoard_
 	{
 		Enumerator_t737_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(250);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1_GetEnumerator_m3829_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483845);
-		Enumerator_get_Current_m3830_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483846);
-		Enumerator_MoveNext_m3831_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483847);
+		List_1_GetEnumerator_m3826_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483845);
+		Enumerator_get_Current_m3827_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483846);
+		Enumerator_MoveNext_m3828_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483847);
 		s_Il2CppMethodIntialized = true;
 	}
 	List_1_t683 * V_0 = {0};
@@ -22883,7 +22883,7 @@ extern "C" GPScore_t343 * GPLeaderBoard_GetScoreByPlayerId_m1313 (GPLeaderBoard_
 		V_0 = L_2;
 		List_1_t683 * L_3 = V_0;
 		NullCheck(L_3);
-		Enumerator_t737  L_4 = List_1_GetEnumerator_m3829(L_3, /*hidden argument*/List_1_GetEnumerator_m3829_MethodInfo_var);
+		Enumerator_t737  L_4 = List_1_GetEnumerator_m3826(L_3, /*hidden argument*/List_1_GetEnumerator_m3826_MethodInfo_var);
 		V_2 = L_4;
 	}
 
@@ -22896,7 +22896,7 @@ IL_0010:
 
 IL_0015:
 		{
-			GPScore_t343 * L_5 = Enumerator_get_Current_m3830((&V_2), /*hidden argument*/Enumerator_get_Current_m3830_MethodInfo_var);
+			GPScore_t343 * L_5 = Enumerator_get_Current_m3827((&V_2), /*hidden argument*/Enumerator_get_Current_m3827_MethodInfo_var);
 			V_1 = L_5;
 			GPScore_t343 * L_6 = V_1;
 			NullCheck(L_6);
@@ -22919,7 +22919,7 @@ IL_002e:
 
 IL_0035:
 		{
-			bool L_11 = Enumerator_MoveNext_m3831((&V_2), /*hidden argument*/Enumerator_MoveNext_m3831_MethodInfo_var);
+			bool L_11 = Enumerator_MoveNext_m3828((&V_2), /*hidden argument*/Enumerator_MoveNext_m3828_MethodInfo_var);
 			if (L_11)
 			{
 				goto IL_0015;
@@ -23366,25 +23366,25 @@ extern "C" String_t* GPLeaderBoard_get_name_m1319 (GPLeaderBoard_t224 * __this, 
 
 // System.Void GPScoreCollection::.ctor()
 extern TypeInfo* Dictionary_2_t225_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3832_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3829_MethodInfo_var;
 extern "C" void GPScoreCollection__ctor_m1320 (GPScoreCollection_t222 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Dictionary_2_t225_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(253);
-		Dictionary_2__ctor_m3832_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483848);
+		Dictionary_2__ctor_m3829_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483848);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Dictionary_2_t225 * L_0 = (Dictionary_2_t225 *)il2cpp_codegen_object_new (Dictionary_2_t225_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3832(L_0, /*hidden argument*/Dictionary_2__ctor_m3832_MethodInfo_var);
+		Dictionary_2__ctor_m3829(L_0, /*hidden argument*/Dictionary_2__ctor_m3829_MethodInfo_var);
 		__this->___AllTimeScores_0 = L_0;
 		Dictionary_2_t225 * L_1 = (Dictionary_2_t225 *)il2cpp_codegen_object_new (Dictionary_2_t225_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3832(L_1, /*hidden argument*/Dictionary_2__ctor_m3832_MethodInfo_var);
+		Dictionary_2__ctor_m3829(L_1, /*hidden argument*/Dictionary_2__ctor_m3829_MethodInfo_var);
 		__this->___WeekScores_1 = L_1;
 		Dictionary_2_t225 * L_2 = (Dictionary_2_t225 *)il2cpp_codegen_object_new (Dictionary_2_t225_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3832(L_2, /*hidden argument*/Dictionary_2__ctor_m3832_MethodInfo_var);
+		Dictionary_2__ctor_m3829(L_2, /*hidden argument*/Dictionary_2__ctor_m3829_MethodInfo_var);
 		__this->___TodayScores_2 = L_2;
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		return;
@@ -23439,7 +23439,7 @@ extern "C" void GP_Participant__ctor_m1322 (GP_Participant_t226 * __this, String
 		__this->____playerid_1 = L_1;
 		String_t* L_2 = ___stat;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_3 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		int32_t L_3 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		__this->____status_6 = L_3;
 		String_t* L_4 = ___hiResImg;
 		__this->____HiResImageUrl_2 = L_4;
@@ -23577,21 +23577,21 @@ extern "C" void GP_ParticipantResult__ctor_m1333 (GP_ParticipantResult_t228 * __
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, ((int32_t)((int32_t)L_4+(int32_t)1)));
 		int32_t L_5 = ((int32_t)((int32_t)L_4+(int32_t)1));
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_6 = Convert_ToInt32_m3793(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_3, L_5)), /*hidden argument*/NULL);
+		int32_t L_6 = Convert_ToInt32_m3790(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_3, L_5)), /*hidden argument*/NULL);
 		__this->____Placing_0 = L_6;
 		StringU5BU5D_t75* L_7 = ___data;
 		int32_t L_8 = ___index;
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, ((int32_t)((int32_t)L_8+(int32_t)2)));
 		int32_t L_9 = ((int32_t)((int32_t)L_8+(int32_t)2));
-		int32_t L_10 = Convert_ToInt32_m3793(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_7, L_9)), /*hidden argument*/NULL);
+		int32_t L_10 = Convert_ToInt32_m3790(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_7, L_9)), /*hidden argument*/NULL);
 		__this->____Result_1 = L_10;
 		StringU5BU5D_t75* L_11 = ___data;
 		int32_t L_12 = ___index;
 		NullCheck(L_11);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, ((int32_t)((int32_t)L_12+(int32_t)3)));
 		int32_t L_13 = ((int32_t)((int32_t)L_12+(int32_t)3));
-		int32_t L_14 = Convert_ToInt32_m3793(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_11, L_13)), /*hidden argument*/NULL);
+		int32_t L_14 = Convert_ToInt32_m3790(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_11, L_13)), /*hidden argument*/NULL);
 		__this->____VersionCode_2 = L_14;
 		return;
 	}
@@ -23716,7 +23716,7 @@ extern "C" void GP_RTM_Result__ctor_m1342 (GP_RTM_Result_t230 * __this, String_t
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___r_status;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		__this->____status_0 = L_1;
 		String_t* L_2 = ___r_roomId;
 		__this->____roomId_1 = L_2;
@@ -23760,7 +23760,7 @@ extern "C" String_t* GP_RTM_Result_get_roomId_m1344 (GP_RTM_Result_t230 * __this
 // System.Void GP_RTM_Room::.ctor()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t231_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3833_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3830_MethodInfo_var;
 extern "C" void GP_RTM_Room__ctor_m1345 (GP_RTM_Room_t232 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -23768,7 +23768,7 @@ extern "C" void GP_RTM_Room__ctor_m1345 (GP_RTM_Room_t232 * __this, const Method
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(14);
 		List_1_t231_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(257);
-		List_1__ctor_m3833_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483849);
+		List_1__ctor_m3830_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483849);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -23779,11 +23779,11 @@ extern "C" void GP_RTM_Room__ctor_m1345 (GP_RTM_Room_t232 * __this, const Method
 		__this->___creatorId_1 = L_1;
 		__this->___status_2 = (-1);
 		List_1_t231 * L_2 = (List_1_t231 *)il2cpp_codegen_object_new (List_1_t231_il2cpp_TypeInfo_var);
-		List_1__ctor_m3833(L_2, /*hidden argument*/List_1__ctor_m3833_MethodInfo_var);
+		List_1__ctor_m3830(L_2, /*hidden argument*/List_1__ctor_m3830_MethodInfo_var);
 		__this->___participants_4 = L_2;
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		List_1_t231 * L_3 = (List_1_t231 *)il2cpp_codegen_object_new (List_1_t231_il2cpp_TypeInfo_var);
-		List_1__ctor_m3833(L_3, /*hidden argument*/List_1__ctor_m3833_MethodInfo_var);
+		List_1__ctor_m3830(L_3, /*hidden argument*/List_1__ctor_m3830_MethodInfo_var);
 		__this->___participants_4 = L_3;
 		return;
 	}
@@ -23802,9 +23802,9 @@ extern "C" void GP_RTM_Room_AddParticipant_m1346 (GP_RTM_Room_t232 * __this, GP_
 // GP_Participant GP_RTM_Room::GetParticipantById(System.String)
 extern TypeInfo* Enumerator_t738_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t58_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_GetEnumerator_m3834_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3835_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m3836_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3831_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3832_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3833_MethodInfo_var;
 extern "C" GP_Participant_t226 * GP_RTM_Room_GetParticipantById_m1347 (GP_RTM_Room_t232 * __this, String_t* ___id, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
@@ -23812,9 +23812,9 @@ extern "C" GP_Participant_t226 * GP_RTM_Room_GetParticipantById_m1347 (GP_RTM_Ro
 	{
 		Enumerator_t738_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(258);
 		IDisposable_t58_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
-		List_1_GetEnumerator_m3834_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483850);
-		Enumerator_get_Current_m3835_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483851);
-		Enumerator_MoveNext_m3836_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483852);
+		List_1_GetEnumerator_m3831_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483850);
+		Enumerator_get_Current_m3832_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483851);
+		Enumerator_MoveNext_m3833_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483852);
 		s_Il2CppMethodIntialized = true;
 	}
 	GP_Participant_t226 * V_0 = {0};
@@ -23829,7 +23829,7 @@ extern "C" GP_Participant_t226 * GP_RTM_Room_GetParticipantById_m1347 (GP_RTM_Ro
 	{
 		List_1_t231 * L_0 = (__this->___participants_4);
 		NullCheck(L_0);
-		Enumerator_t738  L_1 = List_1_GetEnumerator_m3834(L_0, /*hidden argument*/List_1_GetEnumerator_m3834_MethodInfo_var);
+		Enumerator_t738  L_1 = List_1_GetEnumerator_m3831(L_0, /*hidden argument*/List_1_GetEnumerator_m3831_MethodInfo_var);
 		V_1 = L_1;
 	}
 
@@ -23842,7 +23842,7 @@ IL_000c:
 
 IL_0011:
 		{
-			GP_Participant_t226 * L_2 = Enumerator_get_Current_m3835((&V_1), /*hidden argument*/Enumerator_get_Current_m3835_MethodInfo_var);
+			GP_Participant_t226 * L_2 = Enumerator_get_Current_m3832((&V_1), /*hidden argument*/Enumerator_get_Current_m3832_MethodInfo_var);
 			V_0 = L_2;
 			GP_Participant_t226 * L_3 = V_0;
 			NullCheck(L_3);
@@ -23865,7 +23865,7 @@ IL_002a:
 
 IL_0031:
 		{
-			bool L_8 = Enumerator_MoveNext_m3836((&V_1), /*hidden argument*/Enumerator_MoveNext_m3836_MethodInfo_var);
+			bool L_8 = Enumerator_MoveNext_m3833((&V_1), /*hidden argument*/Enumerator_MoveNext_m3833_MethodInfo_var);
 			if (L_8)
 			{
 				goto IL_0011;
@@ -23940,7 +23940,7 @@ extern "C" void GoogleCloudResult__ctor_m1348 (GoogleCloudResult_t233 * __this, 
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___code;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		__this->____response_0 = L_1;
 		int32_t L_2 = (__this->____response_0);
 		int32_t L_3 = L_2;
@@ -23967,7 +23967,7 @@ extern "C" void GoogleCloudResult__ctor_m1349 (GoogleCloudResult_t233 * __this, 
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___code;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		__this->____response_0 = L_1;
 		int32_t L_2 = (__this->____response_0);
 		int32_t L_3 = L_2;
@@ -23976,7 +23976,7 @@ extern "C" void GoogleCloudResult__ctor_m1349 (GoogleCloudResult_t233 * __this, 
 		String_t* L_5 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_4);
 		__this->____message_1 = L_5;
 		String_t* L_6 = ___key;
-		int32_t L_7 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		__this->____stateKey_2 = L_7;
 		return;
 	}
@@ -24017,7 +24017,7 @@ extern "C" String_t* GoogleCloudResult_get_stateDataString_m1351 (GoogleCloudRes
 IL_0011:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t739_il2cpp_TypeInfo_var);
-		Encoding_t739 * L_2 = Encoding_get_UTF8_m3837(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Encoding_t739 * L_2 = Encoding_get_UTF8_m3834(NULL /*static, unused*/, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_3 = (__this->___stateData_3);
 		NullCheck(L_2);
 		String_t* L_4 = (String_t*)VirtFuncInvoker1< String_t*, ByteU5BU5D_t66* >::Invoke(20 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_2, L_3);
@@ -24052,7 +24052,7 @@ extern "C" String_t* GoogleCloudResult_get_serverConflictDataString_m1352 (Googl
 IL_0011:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t739_il2cpp_TypeInfo_var);
-		Encoding_t739 * L_2 = Encoding_get_UTF8_m3837(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Encoding_t739 * L_2 = Encoding_get_UTF8_m3834(NULL /*static, unused*/, /*hidden argument*/NULL);
 		ByteU5BU5D_t66* L_3 = (__this->___stateData_3);
 		NullCheck(L_2);
 		String_t* L_4 = (String_t*)VirtFuncInvoker1< String_t*, ByteU5BU5D_t66* >::Invoke(20 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_2, L_3);
@@ -24152,7 +24152,7 @@ extern "C" void GooglePlayGiftRequestResult__ctor_m1359 (GooglePlayGiftRequestRe
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___r_code;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
-		int32_t L_1 = Convert_ToInt32_m3793(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Convert_ToInt32_m3790(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		__this->____code_0 = L_1;
 		return;
 	}

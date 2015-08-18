@@ -14,8 +14,8 @@ struct AsyncCallback_t386;
 struct Object_t;
 
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass4`3<System.Object,System.Int32,System.Int32>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass4_3__ctor_m30667_gshared (U3CU3Ec__DisplayClass4_3_t5963 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass4_3__ctor_m30667(__this, method) (( void (*) (U3CU3Ec__DisplayClass4_3_t5963 *, const MethodInfo*))U3CU3Ec__DisplayClass4_3__ctor_m30667_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass4_3__ctor_m30664_gshared (U3CU3Ec__DisplayClass4_3_t5963 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass4_3__ctor_m30664(__this, method) (( void (*) (U3CU3Ec__DisplayClass4_3_t5963 *, const MethodInfo*))U3CU3Ec__DisplayClass4_3__ctor_m30664_gshared)(__this, method)
 // System.IAsyncResult System.Threading.Tasks.TaskFactory/<>c__DisplayClass4`3<System.Object,System.Int32,System.Int32>::<FromAsync>b__3(System.AsyncCallback,System.Object)
-extern "C" Object_t * U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m30668_gshared (U3CU3Ec__DisplayClass4_3_t5963 * __this, AsyncCallback_t386 * ___callback, Object_t * ____, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m30668(__this, ___callback, ____, method) (( Object_t * (*) (U3CU3Ec__DisplayClass4_3_t5963 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m30668_gshared)(__this, ___callback, ____, method)
+extern "C" Object_t * U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m30665_gshared (U3CU3Ec__DisplayClass4_3_t5963 * __this, AsyncCallback_t386 * ___callback, Object_t * ____, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m30665(__this, ___callback, ____, method) (( Object_t * (*) (U3CU3Ec__DisplayClass4_3_t5963 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m30665_gshared)(__this, ___callback, ____, method)

@@ -16,10 +16,10 @@ struct Object_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.Remoting.Messaging.LogicalCallContext::.ctor()
-extern "C" void LogicalCallContext__ctor_m18264 (LogicalCallContext_t4613 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LogicalCallContext__ctor_m18261 (LogicalCallContext_t4613 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.LogicalCallContext::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void LogicalCallContext__ctor_m18265 (LogicalCallContext_t4613 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LogicalCallContext__ctor_m18262 (LogicalCallContext_t4613 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.LogicalCallContext::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void LogicalCallContext_GetObjectData_m18266 (LogicalCallContext_t4613 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LogicalCallContext_GetObjectData_m18263 (LogicalCallContext_t4613 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.LogicalCallContext::SetData(System.String,System.Object)
-extern "C" void LogicalCallContext_SetData_m18267 (LogicalCallContext_t4613 * __this, String_t* ___name, Object_t * ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LogicalCallContext_SetData_m18264 (LogicalCallContext_t4613 * __this, String_t* ___name, Object_t * ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;

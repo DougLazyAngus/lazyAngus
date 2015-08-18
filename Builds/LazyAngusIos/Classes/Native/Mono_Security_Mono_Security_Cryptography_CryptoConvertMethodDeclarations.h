@@ -12,4 +12,4 @@ struct String_t;
 struct ByteU5BU5D_t66;
 
 // System.String Mono.Security.Cryptography.CryptoConvert::ToHex(System.Byte[])
-extern "C" String_t* CryptoConvert_ToHex_m12379 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* CryptoConvert_ToHex_m12381 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;

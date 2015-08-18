@@ -14,70 +14,70 @@ struct String_t;
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
-extern "C" void Vector3__ctor_m4034 (Vector3_t536 * __this, float ___x, float ___y, float ___z, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Vector3__ctor_m4031 (Vector3_t536 * __this, float ___x, float ___y, float ___z, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single)
-extern "C" void Vector3__ctor_m5919 (Vector3_t536 * __this, float ___x, float ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Vector3__ctor_m5917 (Vector3_t536 * __this, float ___x, float ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::Lerp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-extern "C" Vector3_t536  Vector3_Lerp_m6094 (Object_t * __this /* static, unused */, Vector3_t536  ___from, Vector3_t536  ___to, float ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_Lerp_m6092 (Object_t * __this /* static, unused */, Vector3_t536  ___from, Vector3_t536  ___to, float ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Vector3::get_Item(System.Int32)
-extern "C" float Vector3_get_Item_m6097 (Vector3_t536 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Vector3_get_Item_m6095 (Vector3_t536 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Vector3::set_Item(System.Int32,System.Single)
-extern "C" void Vector3_set_Item_m6098 (Vector3_t536 * __this, int32_t ___index, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Vector3_set_Item_m6096 (Vector3_t536 * __this, int32_t ___index, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Vector3::GetHashCode()
-extern "C" int32_t Vector3_GetHashCode_m9113 (Vector3_t536 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Vector3_GetHashCode_m9112 (Vector3_t536 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Vector3::Equals(System.Object)
-extern "C" bool Vector3_Equals_m9114 (Vector3_t536 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Vector3_Equals_m9113 (Vector3_t536 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::Normalize(UnityEngine.Vector3)
-extern "C" Vector3_t536  Vector3_Normalize_m9115 (Object_t * __this /* static, unused */, Vector3_t536  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_Normalize_m9114 (Object_t * __this /* static, unused */, Vector3_t536  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::get_normalized()
-extern "C" Vector3_t536  Vector3_get_normalized_m6121 (Vector3_t536 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_get_normalized_m6119 (Vector3_t536 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Vector3::ToString()
-extern "C" String_t* Vector3_ToString_m9116 (Vector3_t536 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Vector3_ToString_m9115 (Vector3_t536 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Vector3::ToString(System.String)
-extern "C" String_t* Vector3_ToString_m9117 (Vector3_t536 * __this, String_t* ___format, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Vector3_ToString_m9116 (Vector3_t536 * __this, String_t* ___format, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Vector3::Dot(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" float Vector3_Dot_m5940 (Object_t * __this /* static, unused */, Vector3_t536  ___lhs, Vector3_t536  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Vector3_Dot_m5938 (Object_t * __this /* static, unused */, Vector3_t536  ___lhs, Vector3_t536  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Vector3::Angle(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" float Vector3_Angle_m4277 (Object_t * __this /* static, unused */, Vector3_t536  ___from, Vector3_t536  ___to, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Vector3_Angle_m4274 (Object_t * __this /* static, unused */, Vector3_t536  ___from, Vector3_t536  ___to, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Vector3::Distance(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" float Vector3_Distance_m4344 (Object_t * __this /* static, unused */, Vector3_t536  ___a, Vector3_t536  ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Vector3_Distance_m4342 (Object_t * __this /* static, unused */, Vector3_t536  ___a, Vector3_t536  ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Vector3::Magnitude(UnityEngine.Vector3)
-extern "C" float Vector3_Magnitude_m9118 (Object_t * __this /* static, unused */, Vector3_t536  ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Vector3_Magnitude_m9117 (Object_t * __this /* static, unused */, Vector3_t536  ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Vector3::get_magnitude()
-extern "C" float Vector3_get_magnitude_m4275 (Vector3_t536 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Vector3_get_magnitude_m4272 (Vector3_t536 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Vector3::SqrMagnitude(UnityEngine.Vector3)
-extern "C" float Vector3_SqrMagnitude_m9119 (Object_t * __this /* static, unused */, Vector3_t536  ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Vector3_SqrMagnitude_m9118 (Object_t * __this /* static, unused */, Vector3_t536  ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Vector3::get_sqrMagnitude()
-extern "C" float Vector3_get_sqrMagnitude_m6124 (Vector3_t536 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Vector3_get_sqrMagnitude_m6122 (Vector3_t536 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::Min(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" Vector3_t536  Vector3_Min_m6107 (Object_t * __this /* static, unused */, Vector3_t536  ___lhs, Vector3_t536  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_Min_m6105 (Object_t * __this /* static, unused */, Vector3_t536  ___lhs, Vector3_t536  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::Max(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" Vector3_t536  Vector3_Max_m6108 (Object_t * __this /* static, unused */, Vector3_t536  ___lhs, Vector3_t536  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_Max_m6106 (Object_t * __this /* static, unused */, Vector3_t536  ___lhs, Vector3_t536  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::get_zero()
-extern "C" Vector3_t536  Vector3_get_zero_m4040 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_get_zero_m4037 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::get_forward()
-extern "C" Vector3_t536  Vector3_get_forward_m4226 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_get_forward_m4223 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::get_back()
-extern "C" Vector3_t536  Vector3_get_back_m9120 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_get_back_m9119 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::get_up()
-extern "C" Vector3_t536  Vector3_get_up_m5806 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_get_up_m5804 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::get_down()
-extern "C" Vector3_t536  Vector3_get_down_m6126 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_get_down_m6124 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::get_left()
-extern "C" Vector3_t536  Vector3_get_left_m4306 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_get_left_m4304 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::get_right()
-extern "C" Vector3_t536  Vector3_get_right_m4276 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_get_right_m4273 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" Vector3_t536  Vector3_op_Addition_m4201 (Object_t * __this /* static, unused */, Vector3_t536  ___a, Vector3_t536  ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_op_Addition_m4198 (Object_t * __this /* static, unused */, Vector3_t536  ___a, Vector3_t536  ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" Vector3_t536  Vector3_op_Subtraction_m4293 (Object_t * __this /* static, unused */, Vector3_t536  ___a, Vector3_t536  ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_op_Subtraction_m4290 (Object_t * __this /* static, unused */, Vector3_t536  ___a, Vector3_t536  ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
-extern "C" Vector3_t536  Vector3_op_Multiply_m4046 (Object_t * __this /* static, unused */, Vector3_t536  ___a, float ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_op_Multiply_m4043 (Object_t * __this /* static, unused */, Vector3_t536  ___a, float ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(System.Single,UnityEngine.Vector3)
-extern "C" Vector3_t536  Vector3_op_Multiply_m4199 (Object_t * __this /* static, unused */, float ___d, Vector3_t536  ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_op_Multiply_m4196 (Object_t * __this /* static, unused */, float ___d, Vector3_t536  ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Division(UnityEngine.Vector3,System.Single)
-extern "C" Vector3_t536  Vector3_op_Division_m4294 (Object_t * __this /* static, unused */, Vector3_t536  ___a, float ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t536  Vector3_op_Division_m4291 (Object_t * __this /* static, unused */, Vector3_t536  ___a, float ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Vector3::op_Equality(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" bool Vector3_op_Equality_m9121 (Object_t * __this /* static, unused */, Vector3_t536  ___lhs, Vector3_t536  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Vector3_op_Equality_m9120 (Object_t * __this /* static, unused */, Vector3_t536  ___lhs, Vector3_t536  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Vector3::op_Inequality(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" bool Vector3_op_Inequality_m6052 (Object_t * __this /* static, unused */, Vector3_t536  ___lhs, Vector3_t536  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Vector3_op_Inequality_m6050 (Object_t * __this /* static, unused */, Vector3_t536  ___lhs, Vector3_t536  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;

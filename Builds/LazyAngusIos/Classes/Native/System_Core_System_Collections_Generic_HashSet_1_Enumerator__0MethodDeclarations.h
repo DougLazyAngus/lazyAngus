@@ -12,23 +12,23 @@ struct Object_t;
 struct HashSet_1_t1467;
 
 // System.Void System.Collections.Generic.HashSet`1/Enumerator<System.Object>::.ctor(System.Collections.Generic.HashSet`1<T>)
-extern "C" void Enumerator__ctor_m30459_gshared (Enumerator_t5941 * __this, HashSet_1_t1467 * ___hashset, const MethodInfo* method);
-#define Enumerator__ctor_m30459(__this, ___hashset, method) (( void (*) (Enumerator_t5941 *, HashSet_1_t1467 *, const MethodInfo*))Enumerator__ctor_m30459_gshared)(__this, ___hashset, method)
+extern "C" void Enumerator__ctor_m30456_gshared (Enumerator_t5941 * __this, HashSet_1_t1467 * ___hashset, const MethodInfo* method);
+#define Enumerator__ctor_m30456(__this, ___hashset, method) (( void (*) (Enumerator_t5941 *, HashSet_1_t1467 *, const MethodInfo*))Enumerator__ctor_m30456_gshared)(__this, ___hashset, method)
 // System.Object System.Collections.Generic.HashSet`1/Enumerator<System.Object>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m30461_gshared (Enumerator_t5941 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_get_Current_m30461(__this, method) (( Object_t * (*) (Enumerator_t5941 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m30461_gshared)(__this, method)
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m30458_gshared (Enumerator_t5941 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m30458(__this, method) (( Object_t * (*) (Enumerator_t5941 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m30458_gshared)(__this, method)
 // System.Void System.Collections.Generic.HashSet`1/Enumerator<System.Object>::System.Collections.IEnumerator.Reset()
-extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m30463_gshared (Enumerator_t5941 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_Reset_m30463(__this, method) (( void (*) (Enumerator_t5941 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m30463_gshared)(__this, method)
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m30460_gshared (Enumerator_t5941 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_Reset_m30460(__this, method) (( void (*) (Enumerator_t5941 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m30460_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.HashSet`1/Enumerator<System.Object>::MoveNext()
-extern "C" bool Enumerator_MoveNext_m30465_gshared (Enumerator_t5941 * __this, const MethodInfo* method);
-#define Enumerator_MoveNext_m30465(__this, method) (( bool (*) (Enumerator_t5941 *, const MethodInfo*))Enumerator_MoveNext_m30465_gshared)(__this, method)
+extern "C" bool Enumerator_MoveNext_m30462_gshared (Enumerator_t5941 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m30462(__this, method) (( bool (*) (Enumerator_t5941 *, const MethodInfo*))Enumerator_MoveNext_m30462_gshared)(__this, method)
 // T System.Collections.Generic.HashSet`1/Enumerator<System.Object>::get_Current()
-extern "C" Object_t * Enumerator_get_Current_m30467_gshared (Enumerator_t5941 * __this, const MethodInfo* method);
-#define Enumerator_get_Current_m30467(__this, method) (( Object_t * (*) (Enumerator_t5941 *, const MethodInfo*))Enumerator_get_Current_m30467_gshared)(__this, method)
+extern "C" Object_t * Enumerator_get_Current_m30464_gshared (Enumerator_t5941 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m30464(__this, method) (( Object_t * (*) (Enumerator_t5941 *, const MethodInfo*))Enumerator_get_Current_m30464_gshared)(__this, method)
 // System.Void System.Collections.Generic.HashSet`1/Enumerator<System.Object>::Dispose()
-extern "C" void Enumerator_Dispose_m30469_gshared (Enumerator_t5941 * __this, const MethodInfo* method);
-#define Enumerator_Dispose_m30469(__this, method) (( void (*) (Enumerator_t5941 *, const MethodInfo*))Enumerator_Dispose_m30469_gshared)(__this, method)
+extern "C" void Enumerator_Dispose_m30466_gshared (Enumerator_t5941 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m30466(__this, method) (( void (*) (Enumerator_t5941 *, const MethodInfo*))Enumerator_Dispose_m30466_gshared)(__this, method)
 // System.Void System.Collections.Generic.HashSet`1/Enumerator<System.Object>::CheckState()
-extern "C" void Enumerator_CheckState_m30471_gshared (Enumerator_t5941 * __this, const MethodInfo* method);
-#define Enumerator_CheckState_m30471(__this, method) (( void (*) (Enumerator_t5941 *, const MethodInfo*))Enumerator_CheckState_m30471_gshared)(__this, method)
+extern "C" void Enumerator_CheckState_m30468_gshared (Enumerator_t5941 * __this, const MethodInfo* method);
+#define Enumerator_CheckState_m30468(__this, method) (( void (*) (Enumerator_t5941 *, const MethodInfo*))Enumerator_CheckState_m30468_gshared)(__this, method)

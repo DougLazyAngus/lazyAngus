@@ -14,20 +14,20 @@ struct Array_t;
 #include "Parse_Unity_Parse_ParseGeoPoint.h"
 
 // System.Void System.Array/InternalEnumerator`1<Parse.ParseGeoPoint>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m32847_gshared (InternalEnumerator_1_t6139 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m32847(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6139 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m32847_gshared)(__this, ___array, method)
+extern "C" void InternalEnumerator_1__ctor_m32844_gshared (InternalEnumerator_1_t6139 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m32844(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6139 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m32844_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<Parse.ParseGeoPoint>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m32848_gshared (InternalEnumerator_1_t6139 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m32848(__this, method) (( void (*) (InternalEnumerator_1_t6139 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m32848_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m32845_gshared (InternalEnumerator_1_t6139 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m32845(__this, method) (( void (*) (InternalEnumerator_1_t6139 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m32845_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<Parse.ParseGeoPoint>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m32849_gshared (InternalEnumerator_1_t6139 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m32849(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6139 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m32849_gshared)(__this, method)
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m32846_gshared (InternalEnumerator_1_t6139 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m32846(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6139 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m32846_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<Parse.ParseGeoPoint>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m32850_gshared (InternalEnumerator_1_t6139 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m32850(__this, method) (( void (*) (InternalEnumerator_1_t6139 *, const MethodInfo*))InternalEnumerator_1_Dispose_m32850_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_Dispose_m32847_gshared (InternalEnumerator_1_t6139 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m32847(__this, method) (( void (*) (InternalEnumerator_1_t6139 *, const MethodInfo*))InternalEnumerator_1_Dispose_m32847_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<Parse.ParseGeoPoint>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m32851_gshared (InternalEnumerator_1_t6139 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m32851(__this, method) (( bool (*) (InternalEnumerator_1_t6139 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m32851_gshared)(__this, method)
+extern "C" bool InternalEnumerator_1_MoveNext_m32848_gshared (InternalEnumerator_1_t6139 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m32848(__this, method) (( bool (*) (InternalEnumerator_1_t6139 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m32848_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<Parse.ParseGeoPoint>::get_Current()
-extern "C" ParseGeoPoint_t1247  InternalEnumerator_1_get_Current_m32852_gshared (InternalEnumerator_1_t6139 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m32852(__this, method) (( ParseGeoPoint_t1247  (*) (InternalEnumerator_1_t6139 *, const MethodInfo*))InternalEnumerator_1_get_Current_m32852_gshared)(__this, method)
+extern "C" ParseGeoPoint_t1247  InternalEnumerator_1_get_Current_m32849_gshared (InternalEnumerator_1_t6139 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m32849(__this, method) (( ParseGeoPoint_t1247  (*) (InternalEnumerator_1_t6139 *, const MethodInfo*))InternalEnumerator_1_get_Current_m32849_gshared)(__this, method)

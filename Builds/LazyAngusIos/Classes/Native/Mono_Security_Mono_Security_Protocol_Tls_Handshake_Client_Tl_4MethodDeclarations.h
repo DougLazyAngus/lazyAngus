@@ -18,20 +18,20 @@ struct X509CertificateCollection_t3808;
 struct String_t;
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern "C" void TlsServerCertificate__ctor_m13073 (TlsServerCertificate_t3893 * __this, Context_t3840 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerCertificate__ctor_m13075 (TlsServerCertificate_t3893 * __this, Context_t3840 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::Update()
-extern "C" void TlsServerCertificate_Update_m13074 (TlsServerCertificate_t3893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerCertificate_Update_m13076 (TlsServerCertificate_t3893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::ProcessAsSsl3()
-extern "C" void TlsServerCertificate_ProcessAsSsl3_m13075 (TlsServerCertificate_t3893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerCertificate_ProcessAsSsl3_m13077 (TlsServerCertificate_t3893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::ProcessAsTls1()
-extern "C" void TlsServerCertificate_ProcessAsTls1_m13076 (TlsServerCertificate_t3893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerCertificate_ProcessAsTls1_m13078 (TlsServerCertificate_t3893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::checkCertificateUsage(Mono.Security.X509.X509Certificate)
-extern "C" bool TlsServerCertificate_checkCertificateUsage_m13077 (TlsServerCertificate_t3893 * __this, X509Certificate_t3813 * ___cert, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TlsServerCertificate_checkCertificateUsage_m13079 (TlsServerCertificate_t3893 * __this, X509Certificate_t3813 * ___cert, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::validateCertificates(Mono.Security.X509.X509CertificateCollection)
-extern "C" void TlsServerCertificate_validateCertificates_m13078 (TlsServerCertificate_t3893 * __this, X509CertificateCollection_t3808 * ___certificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerCertificate_validateCertificates_m13080 (TlsServerCertificate_t3893 * __this, X509CertificateCollection_t3808 * ___certificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::checkServerIdentity(Mono.Security.X509.X509Certificate)
-extern "C" bool TlsServerCertificate_checkServerIdentity_m13079 (TlsServerCertificate_t3893 * __this, X509Certificate_t3813 * ___cert, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TlsServerCertificate_checkServerIdentity_m13081 (TlsServerCertificate_t3893 * __this, X509Certificate_t3813 * ___cert, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::checkDomainName(System.String)
-extern "C" bool TlsServerCertificate_checkDomainName_m13080 (TlsServerCertificate_t3893 * __this, String_t* ___subjectName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TlsServerCertificate_checkDomainName_m13082 (TlsServerCertificate_t3893 * __this, String_t* ___subjectName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::Match(System.String,System.String)
-extern "C" bool TlsServerCertificate_Match_m13081 (Object_t * __this /* static, unused */, String_t* ___hostname, String_t* ___pattern, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TlsServerCertificate_Match_m13083 (Object_t * __this /* static, unused */, String_t* ___hostname, String_t* ___pattern, const MethodInfo* method) IL2CPP_METHOD_ATTR;

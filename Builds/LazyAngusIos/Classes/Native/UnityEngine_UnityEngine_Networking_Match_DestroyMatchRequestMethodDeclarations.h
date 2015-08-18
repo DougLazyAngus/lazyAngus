@@ -12,10 +12,10 @@ struct String_t;
 #include "UnityEngine_UnityEngine_Networking_Types_NetworkID.h"
 
 // System.Void UnityEngine.Networking.Match.DestroyMatchRequest::.ctor()
-extern "C" void DestroyMatchRequest__ctor_m9694 (DestroyMatchRequest_t2801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DestroyMatchRequest__ctor_m9695 (DestroyMatchRequest_t2801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Networking.Types.NetworkID UnityEngine.Networking.Match.DestroyMatchRequest::get_networkId()
-extern "C" uint64_t DestroyMatchRequest_get_networkId_m9695 (DestroyMatchRequest_t2801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t DestroyMatchRequest_get_networkId_m9696 (DestroyMatchRequest_t2801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.DestroyMatchRequest::set_networkId(UnityEngine.Networking.Types.NetworkID)
-extern "C" void DestroyMatchRequest_set_networkId_m9696 (DestroyMatchRequest_t2801 * __this, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DestroyMatchRequest_set_networkId_m9697 (DestroyMatchRequest_t2801 * __this, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Networking.Match.DestroyMatchRequest::ToString()
-extern "C" String_t* DestroyMatchRequest_ToString_m9697 (DestroyMatchRequest_t2801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DestroyMatchRequest_ToString_m9698 (DestroyMatchRequest_t2801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

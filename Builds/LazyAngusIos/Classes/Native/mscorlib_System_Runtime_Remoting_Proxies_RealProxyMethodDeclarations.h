@@ -18,18 +18,18 @@ struct String_t;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Runtime.Remoting.Proxies.RealProxy::.ctor(System.Type)
-extern "C" void RealProxy__ctor_m18359 (RealProxy_t4624 * __this, Type_t * ___classToProxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RealProxy__ctor_m18356 (RealProxy_t4624 * __this, Type_t * ___classToProxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Proxies.RealProxy::.ctor(System.Type,System.Runtime.Remoting.ClientIdentity)
-extern "C" void RealProxy__ctor_m18360 (RealProxy_t4624 * __this, Type_t * ___classToProxy, ClientIdentity_t4633 * ___identity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RealProxy__ctor_m18357 (RealProxy_t4624 * __this, Type_t * ___classToProxy, ClientIdentity_t4633 * ___identity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Proxies.RealProxy::.ctor(System.Type,System.IntPtr,System.Object)
-extern "C" void RealProxy__ctor_m18361 (RealProxy_t4624 * __this, Type_t * ___classToProxy, IntPtr_t ___stub, Object_t * ___stubData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RealProxy__ctor_m18358 (RealProxy_t4624 * __this, Type_t * ___classToProxy, IntPtr_t ___stub, Object_t * ___stubData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Remoting.Proxies.RealProxy::InternalGetProxyType(System.Object)
-extern "C" Type_t * RealProxy_InternalGetProxyType_m18362 (Object_t * __this /* static, unused */, Object_t * ___transparentProxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * RealProxy_InternalGetProxyType_m18359 (Object_t * __this /* static, unused */, Object_t * ___transparentProxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Remoting.Proxies.RealProxy::GetProxiedType()
-extern "C" Type_t * RealProxy_GetProxiedType_m18363 (RealProxy_t4624 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * RealProxy_GetProxiedType_m18360 (RealProxy_t4624 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Proxies.RealProxy::InternalGetTransparentProxy(System.String)
-extern "C" Object_t * RealProxy_InternalGetTransparentProxy_m18364 (RealProxy_t4624 * __this, String_t* ___className, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RealProxy_InternalGetTransparentProxy_m18361 (RealProxy_t4624 * __this, String_t* ___className, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Proxies.RealProxy::GetTransparentProxy()
-extern "C" Object_t * RealProxy_GetTransparentProxy_m18365 (RealProxy_t4624 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RealProxy_GetTransparentProxy_m18362 (RealProxy_t4624 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Proxies.RealProxy::SetTargetDomain(System.Int32)
-extern "C" void RealProxy_SetTargetDomain_m18366 (RealProxy_t4624 * __this, int32_t ___domainId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RealProxy_SetTargetDomain_m18363 (RealProxy_t4624 * __this, int32_t ___domainId, const MethodInfo* method) IL2CPP_METHOD_ATTR;

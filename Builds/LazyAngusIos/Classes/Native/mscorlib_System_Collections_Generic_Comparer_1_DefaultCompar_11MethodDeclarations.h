@@ -8,8 +8,8 @@
 struct DefaultComparer_t6701;
 
 // System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.UInt64>::.ctor()
-extern "C" void DefaultComparer__ctor_m39915_gshared (DefaultComparer_t6701 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m39915(__this, method) (( void (*) (DefaultComparer_t6701 *, const MethodInfo*))DefaultComparer__ctor_m39915_gshared)(__this, method)
+extern "C" void DefaultComparer__ctor_m39912_gshared (DefaultComparer_t6701 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m39912(__this, method) (( void (*) (DefaultComparer_t6701 *, const MethodInfo*))DefaultComparer__ctor_m39912_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.UInt64>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m39916_gshared (DefaultComparer_t6701 * __this, uint64_t ___x, uint64_t ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m39916(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t6701 *, uint64_t, uint64_t, const MethodInfo*))DefaultComparer_Compare_m39916_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t DefaultComparer_Compare_m39913_gshared (DefaultComparer_t6701 * __this, uint64_t ___x, uint64_t ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m39913(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t6701 *, uint64_t, uint64_t, const MethodInfo*))DefaultComparer_Compare_m39913_gshared)(__this, ___x, ___y, method)

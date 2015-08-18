@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.Events.UnityAction`4<System.Object,System.Object,System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void UnityAction_4__ctor_m62618_gshared (UnityAction_4_t8556 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define UnityAction_4__ctor_m62618(__this, ___object, ___method, method) (( void (*) (UnityAction_4_t8556 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_4__ctor_m62618_gshared)(__this, ___object, ___method, method)
+extern "C" void UnityAction_4__ctor_m62615_gshared (UnityAction_4_t8556 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define UnityAction_4__ctor_m62615(__this, ___object, ___method, method) (( void (*) (UnityAction_4_t8556 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_4__ctor_m62615_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Events.UnityAction`4<System.Object,System.Object,System.Object,System.Object>::Invoke(T0,T1,T2,T3)
-extern "C" void UnityAction_4_Invoke_m62619_gshared (UnityAction_4_t8556 * __this, Object_t * ___arg0, Object_t * ___arg1, Object_t * ___arg2, Object_t * ___arg3, const MethodInfo* method);
-#define UnityAction_4_Invoke_m62619(__this, ___arg0, ___arg1, ___arg2, ___arg3, method) (( void (*) (UnityAction_4_t8556 *, Object_t *, Object_t *, Object_t *, Object_t *, const MethodInfo*))UnityAction_4_Invoke_m62619_gshared)(__this, ___arg0, ___arg1, ___arg2, ___arg3, method)
+extern "C" void UnityAction_4_Invoke_m62616_gshared (UnityAction_4_t8556 * __this, Object_t * ___arg0, Object_t * ___arg1, Object_t * ___arg2, Object_t * ___arg3, const MethodInfo* method);
+#define UnityAction_4_Invoke_m62616(__this, ___arg0, ___arg1, ___arg2, ___arg3, method) (( void (*) (UnityAction_4_t8556 *, Object_t *, Object_t *, Object_t *, Object_t *, const MethodInfo*))UnityAction_4_Invoke_m62616_gshared)(__this, ___arg0, ___arg1, ___arg2, ___arg3, method)
 // System.IAsyncResult UnityEngine.Events.UnityAction`4<System.Object,System.Object,System.Object,System.Object>::BeginInvoke(T0,T1,T2,T3,System.AsyncCallback,System.Object)
-extern "C" Object_t * UnityAction_4_BeginInvoke_m62620_gshared (UnityAction_4_t8556 * __this, Object_t * ___arg0, Object_t * ___arg1, Object_t * ___arg2, Object_t * ___arg3, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define UnityAction_4_BeginInvoke_m62620(__this, ___arg0, ___arg1, ___arg2, ___arg3, ___callback, ___object, method) (( Object_t * (*) (UnityAction_4_t8556 *, Object_t *, Object_t *, Object_t *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))UnityAction_4_BeginInvoke_m62620_gshared)(__this, ___arg0, ___arg1, ___arg2, ___arg3, ___callback, ___object, method)
+extern "C" Object_t * UnityAction_4_BeginInvoke_m62617_gshared (UnityAction_4_t8556 * __this, Object_t * ___arg0, Object_t * ___arg1, Object_t * ___arg2, Object_t * ___arg3, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define UnityAction_4_BeginInvoke_m62617(__this, ___arg0, ___arg1, ___arg2, ___arg3, ___callback, ___object, method) (( Object_t * (*) (UnityAction_4_t8556 *, Object_t *, Object_t *, Object_t *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))UnityAction_4_BeginInvoke_m62617_gshared)(__this, ___arg0, ___arg1, ___arg2, ___arg3, ___callback, ___object, method)
 // System.Void UnityEngine.Events.UnityAction`4<System.Object,System.Object,System.Object,System.Object>::EndInvoke(System.IAsyncResult)
-extern "C" void UnityAction_4_EndInvoke_m62621_gshared (UnityAction_4_t8556 * __this, Object_t * ___result, const MethodInfo* method);
-#define UnityAction_4_EndInvoke_m62621(__this, ___result, method) (( void (*) (UnityAction_4_t8556 *, Object_t *, const MethodInfo*))UnityAction_4_EndInvoke_m62621_gshared)(__this, ___result, method)
+extern "C" void UnityAction_4_EndInvoke_m62618_gshared (UnityAction_4_t8556 * __this, Object_t * ___result, const MethodInfo* method);
+#define UnityAction_4_EndInvoke_m62618(__this, ___result, method) (( void (*) (UnityAction_4_t8556 *, Object_t *, const MethodInfo*))UnityAction_4_EndInvoke_m62618_gshared)(__this, ___result, method)

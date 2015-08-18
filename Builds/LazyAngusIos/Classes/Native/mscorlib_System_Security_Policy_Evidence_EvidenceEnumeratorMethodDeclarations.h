@@ -12,10 +12,10 @@ struct Object_t;
 struct IEnumerator_t48;
 
 // System.Void System.Security.Policy.Evidence/EvidenceEnumerator::.ctor(System.Collections.IEnumerator,System.Collections.IEnumerator)
-extern "C" void EvidenceEnumerator__ctor_m18901 (EvidenceEnumerator_t4727 * __this, Object_t * ___hostenum, Object_t * ___assemblyenum, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EvidenceEnumerator__ctor_m18898 (EvidenceEnumerator_t4727 * __this, Object_t * ___hostenum, Object_t * ___assemblyenum, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Policy.Evidence/EvidenceEnumerator::MoveNext()
-extern "C" bool EvidenceEnumerator_MoveNext_m18902 (EvidenceEnumerator_t4727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool EvidenceEnumerator_MoveNext_m18899 (EvidenceEnumerator_t4727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Policy.Evidence/EvidenceEnumerator::Reset()
-extern "C" void EvidenceEnumerator_Reset_m18903 (EvidenceEnumerator_t4727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EvidenceEnumerator_Reset_m18900 (EvidenceEnumerator_t4727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Policy.Evidence/EvidenceEnumerator::get_Current()
-extern "C" Object_t * EvidenceEnumerator_get_Current_m18904 (EvidenceEnumerator_t4727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * EvidenceEnumerator_get_Current_m18901 (EvidenceEnumerator_t4727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

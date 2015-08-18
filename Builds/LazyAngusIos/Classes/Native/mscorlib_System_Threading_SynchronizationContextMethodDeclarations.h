@@ -12,8 +12,8 @@ struct SendOrPostCallback_t2161;
 struct Object_t;
 
 // System.Void System.Threading.SynchronizationContext::.ctor()
-extern "C" void SynchronizationContext__ctor_m7843 (SynchronizationContext_t1368 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizationContext__ctor_m7842 (SynchronizationContext_t1368 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.SynchronizationContext System.Threading.SynchronizationContext::get_Current()
-extern "C" SynchronizationContext_t1368 * SynchronizationContext_get_Current_m7842 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SynchronizationContext_t1368 * SynchronizationContext_get_Current_m7841 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.SynchronizationContext::Post(System.Threading.SendOrPostCallback,System.Object)
-extern "C" void SynchronizationContext_Post_m19262 (SynchronizationContext_t1368 * __this, SendOrPostCallback_t2161 * ___d, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizationContext_Post_m19259 (SynchronizationContext_t1368 * __this, SendOrPostCallback_t2161 * ___d, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;

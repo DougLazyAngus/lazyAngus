@@ -18,12 +18,12 @@ struct ParseRole_t1300;
 // System.Void Parse.ParseRelation`1<Parse.ParseRole>::.ctor(Parse.ParseObject,System.String)
 // Parse.ParseRelation`1<System.Object>
 #include "Parse_Unity_Parse_ParseRelation_1_gen_2MethodDeclarations.h"
-#define ParseRelation_1__ctor_m34720(__this, ___parent, ___key, method) (( void (*) (ParseRelation_1_t1405 *, ParseObject_t1221 *, String_t*, const MethodInfo*))ParseRelation_1__ctor_m33849_gshared)(__this, ___parent, ___key, method)
+#define ParseRelation_1__ctor_m34717(__this, ___parent, ___key, method) (( void (*) (ParseRelation_1_t1405 *, ParseObject_t1221 *, String_t*, const MethodInfo*))ParseRelation_1__ctor_m33846_gshared)(__this, ___parent, ___key, method)
 // System.Void Parse.ParseRelation`1<Parse.ParseRole>::.ctor(Parse.ParseObject,System.String,System.String)
-#define ParseRelation_1__ctor_m34721(__this, ___parent, ___key, ___targetClassName, method) (( void (*) (ParseRelation_1_t1405 *, ParseObject_t1221 *, String_t*, String_t*, const MethodInfo*))ParseRelation_1__ctor_m33850_gshared)(__this, ___parent, ___key, ___targetClassName, method)
+#define ParseRelation_1__ctor_m34718(__this, ___parent, ___key, ___targetClassName, method) (( void (*) (ParseRelation_1_t1405 *, ParseObject_t1221 *, String_t*, String_t*, const MethodInfo*))ParseRelation_1__ctor_m33847_gshared)(__this, ___parent, ___key, ___targetClassName, method)
 // System.Void Parse.ParseRelation`1<Parse.ParseRole>::Add(T)
-#define ParseRelation_1_Add_m34722(__this, ___obj, method) (( void (*) (ParseRelation_1_t1405 *, ParseRole_t1300 *, const MethodInfo*))ParseRelation_1_Add_m33851_gshared)(__this, ___obj, method)
+#define ParseRelation_1_Add_m34719(__this, ___obj, method) (( void (*) (ParseRelation_1_t1405 *, ParseRole_t1300 *, const MethodInfo*))ParseRelation_1_Add_m33848_gshared)(__this, ___obj, method)
 // System.Void Parse.ParseRelation`1<Parse.ParseRole>::Remove(T)
-#define ParseRelation_1_Remove_m34723(__this, ___obj, method) (( void (*) (ParseRelation_1_t1405 *, ParseRole_t1300 *, const MethodInfo*))ParseRelation_1_Remove_m33852_gshared)(__this, ___obj, method)
+#define ParseRelation_1_Remove_m34720(__this, ___obj, method) (( void (*) (ParseRelation_1_t1405 *, ParseRole_t1300 *, const MethodInfo*))ParseRelation_1_Remove_m33849_gshared)(__this, ___obj, method)
 // Parse.ParseQuery`1<T> Parse.ParseRelation`1<Parse.ParseRole>::get_Query()
-#define ParseRelation_1_get_Query_m34724(__this, method) (( ParseQuery_1_t1406 * (*) (ParseRelation_1_t1405 *, const MethodInfo*))ParseRelation_1_get_Query_m33853_gshared)(__this, method)
+#define ParseRelation_1_get_Query_m34721(__this, method) (( ParseQuery_1_t1406 * (*) (ParseRelation_1_t1405 *, const MethodInfo*))ParseRelation_1_get_Query_m33850_gshared)(__this, method)

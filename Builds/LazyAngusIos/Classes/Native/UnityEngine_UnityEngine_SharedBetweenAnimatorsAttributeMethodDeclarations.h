@@ -8,4 +8,4 @@
 struct SharedBetweenAnimatorsAttribute_t2875;
 
 // System.Void UnityEngine.SharedBetweenAnimatorsAttribute::.ctor()
-extern "C" void SharedBetweenAnimatorsAttribute__ctor_m9994 (SharedBetweenAnimatorsAttribute_t2875 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SharedBetweenAnimatorsAttribute__ctor_m9995 (SharedBetweenAnimatorsAttribute_t2875 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

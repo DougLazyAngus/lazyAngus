@@ -8,10 +8,10 @@
 struct Random_t2814;
 
 // System.Void System.Random::.ctor()
-extern "C" void Random__ctor_m15141 (Random_t2814 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Random__ctor_m15143 (Random_t2814 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Random::.ctor(System.Int32)
-extern "C" void Random__ctor_m10130 (Random_t2814 * __this, int32_t ___Seed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Random__ctor_m10131 (Random_t2814 * __this, int32_t ___Seed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Random::Sample()
-extern "C" double Random_Sample_m20014 (Random_t2814 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Random_Sample_m20011 (Random_t2814 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Random::Next(System.Int32,System.Int32)
-extern "C" int32_t Random_Next_m20015 (Random_t2814 * __this, int32_t ___minValue, int32_t ___maxValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Random_Next_m20012 (Random_t2814 * __this, int32_t ___minValue, int32_t ___maxValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;

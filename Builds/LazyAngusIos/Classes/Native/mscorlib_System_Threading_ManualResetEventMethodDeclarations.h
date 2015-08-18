@@ -8,4 +8,4 @@
 struct ManualResetEvent_t3377;
 
 // System.Void System.Threading.ManualResetEvent::.ctor(System.Boolean)
-extern "C" void ManualResetEvent__ctor_m11831 (ManualResetEvent_t3377 * __this, bool ___initialState, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ManualResetEvent__ctor_m11832 (ManualResetEvent_t3377 * __this, bool ___initialState, const MethodInfo* method) IL2CPP_METHOD_ATTR;

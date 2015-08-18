@@ -240,7 +240,7 @@ public class PawController : MonoBehaviour {
 		nextSwipeLocationCat = location;
 
 		if (TweakableParams.swipeCancelsCurrentSwipe || timeStartNextSwipe == 0) {
-			timeStartNextSwipe = Time.time + TweakableParams.swipeInitialPause;
+			timeStartNextSwipe = Time.time + initialPauseLength;
 		}
 	}
 

@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>
 #include "mscorlib_System_Comparison_1_gen_91MethodDeclarations.h"
-#define Comparison_1__ctor_m56057(__this, ___object, ___method, method) (( void (*) (Comparison_1_t8018 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m55954_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m56054(__this, ___object, ___method, method) (( void (*) (Comparison_1_t8018 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m55951_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Invoke(T,T)
-#define Comparison_1_Invoke_m56058(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t8018 *, KeyValuePair_2_t7128 , KeyValuePair_2_t7128 , const MethodInfo*))Comparison_1_Invoke_m55955_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m56055(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t8018 *, KeyValuePair_2_t7128 , KeyValuePair_2_t7128 , const MethodInfo*))Comparison_1_Invoke_m55952_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m56059(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t8018 *, KeyValuePair_2_t7128 , KeyValuePair_2_t7128 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m55956_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m56056(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t8018 *, KeyValuePair_2_t7128 , KeyValuePair_2_t7128 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m55953_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m56060(__this, ___result, method) (( int32_t (*) (Comparison_1_t8018 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m55957_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m56057(__this, ___result, method) (( int32_t (*) (Comparison_1_t8018 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m55954_gshared)(__this, ___result, method)

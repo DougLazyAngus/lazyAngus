@@ -9,13 +9,13 @@ struct IntStack_t4141;
 struct IntStack_t4141_marshaled;
 
 // System.Int32 System.Text.RegularExpressions.Interpreter/IntStack::Pop()
-extern "C" int32_t IntStack_Pop_m14738 (IntStack_t4141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t IntStack_Pop_m14740 (IntStack_t4141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter/IntStack::Push(System.Int32)
-extern "C" void IntStack_Push_m14739 (IntStack_t4141 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntStack_Push_m14741 (IntStack_t4141 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Interpreter/IntStack::get_Count()
-extern "C" int32_t IntStack_get_Count_m14740 (IntStack_t4141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t IntStack_get_Count_m14742 (IntStack_t4141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter/IntStack::set_Count(System.Int32)
-extern "C" void IntStack_set_Count_m14741 (IntStack_t4141 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntStack_set_Count_m14743 (IntStack_t4141 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 void IntStack_t4141_marshal(const IntStack_t4141& unmarshaled, IntStack_t4141_marshaled& marshaled);
 void IntStack_t4141_marshal_back(const IntStack_t4141_marshaled& marshaled, IntStack_t4141& unmarshaled);
 void IntStack_t4141_marshal_cleanup(IntStack_t4141_marshaled& marshaled);

@@ -10,8 +10,8 @@ struct U3CU3Ec__DisplayClass86_1_t6174;
 struct Task_t1210;
 
 // System.Void Parse.ParseObject/<>c__DisplayClass86`1<System.Object>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass86_1__ctor_m33152_gshared (U3CU3Ec__DisplayClass86_1_t6174 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass86_1__ctor_m33152(__this, method) (( void (*) (U3CU3Ec__DisplayClass86_1_t6174 *, const MethodInfo*))U3CU3Ec__DisplayClass86_1__ctor_m33152_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass86_1__ctor_m33149_gshared (U3CU3Ec__DisplayClass86_1_t6174 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass86_1__ctor_m33149(__this, method) (( void (*) (U3CU3Ec__DisplayClass86_1_t6174 *, const MethodInfo*))U3CU3Ec__DisplayClass86_1__ctor_m33149_gshared)(__this, method)
 // System.Void Parse.ParseObject/<>c__DisplayClass86`1<System.Object>::<EnqueueForAll>b__84(System.Threading.Tasks.Task)
-extern "C" void U3CU3Ec__DisplayClass86_1_U3CEnqueueForAllU3Eb__84_m33153_gshared (U3CU3Ec__DisplayClass86_1_t6174 * __this, Task_t1210 * ___task, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass86_1_U3CEnqueueForAllU3Eb__84_m33153(__this, ___task, method) (( void (*) (U3CU3Ec__DisplayClass86_1_t6174 *, Task_t1210 *, const MethodInfo*))U3CU3Ec__DisplayClass86_1_U3CEnqueueForAllU3Eb__84_m33153_gshared)(__this, ___task, method)
+extern "C" void U3CU3Ec__DisplayClass86_1_U3CEnqueueForAllU3Eb__84_m33150_gshared (U3CU3Ec__DisplayClass86_1_t6174 * __this, Task_t1210 * ___task, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass86_1_U3CEnqueueForAllU3Eb__84_m33150(__this, ___task, method) (( void (*) (U3CU3Ec__DisplayClass86_1_t6174 *, Task_t1210 *, const MethodInfo*))U3CU3Ec__DisplayClass86_1_U3CEnqueueForAllU3Eb__84_m33150_gshared)(__this, ___task, method)

@@ -14,8 +14,8 @@ struct SerializationInfo_t2919;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.ArrayTypeMismatchException::.ctor()
-extern "C" void ArrayTypeMismatchException__ctor_m19365 (ArrayTypeMismatchException_t4786 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayTypeMismatchException__ctor_m19362 (ArrayTypeMismatchException_t4786 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArrayTypeMismatchException::.ctor(System.String)
-extern "C" void ArrayTypeMismatchException__ctor_m19366 (ArrayTypeMismatchException_t4786 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayTypeMismatchException__ctor_m19363 (ArrayTypeMismatchException_t4786 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArrayTypeMismatchException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ArrayTypeMismatchException__ctor_m19367 (ArrayTypeMismatchException_t4786 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayTypeMismatchException__ctor_m19364 (ArrayTypeMismatchException_t4786 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

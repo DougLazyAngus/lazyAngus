@@ -14,6 +14,6 @@ struct ByteU5BU5D_t66;
 struct CharU5BU5D_t697;
 
 // System.Void System.Text.Encoding/ForwardingDecoder::.ctor(System.Text.Encoding)
-extern "C" void ForwardingDecoder__ctor_m19069 (ForwardingDecoder_t4756 * __this, Encoding_t739 * ___enc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ForwardingDecoder__ctor_m19066 (ForwardingDecoder_t4756 * __this, Encoding_t739 * ___enc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.Encoding/ForwardingDecoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern "C" int32_t ForwardingDecoder_GetChars_m19070 (ForwardingDecoder_t4756 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t697* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ForwardingDecoder_GetChars_m19067 (ForwardingDecoder_t4756 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t697* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;

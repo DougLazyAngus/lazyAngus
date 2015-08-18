@@ -10,6 +10,6 @@ struct XsdLanguage_t3105;
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
 
 // System.Void Mono.Xml.Schema.XsdLanguage::.ctor()
-extern "C" void XsdLanguage__ctor_m10432 (XsdLanguage_t3105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdLanguage__ctor_m10433 (XsdLanguage_t3105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdLanguage::get_TokenizedType()
-extern "C" int32_t XsdLanguage_get_TokenizedType_m10433 (XsdLanguage_t3105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdLanguage_get_TokenizedType_m10434 (XsdLanguage_t3105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

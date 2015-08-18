@@ -58,17 +58,17 @@ static const char* s_StringTable[11] =
 #endif
 static const Il2CppFieldDefinition s_FieldTable[11] = 
 {
-	{ 0, 5362, offsetof(AdManager_t730, ___InterstisialOnLoad_0), 0 } ,
-	{ 1, 5362, offsetof(AdManager_t730, ___InterstisialFailedToLoad_1), 0 } ,
-	{ 2, 5362, offsetof(AdManager_t730, ___InterstisialOnAdOpened_2), 0 } ,
-	{ 3, 5362, offsetof(AdManager_t730, ___InterstisialOnAdClosed_3), 0 } ,
-	{ 4, 5362, offsetof(AdManager_t730, ___InterstisialAdLeftApplication_4), 0 } ,
-	{ 5, 5362, offsetof(AdManager_t730, ___BannerOnLoad_5), 0 } ,
-	{ 6, 5362, offsetof(AdManager_t730, ___BannerFailedToLoad_6), 0 } ,
-	{ 7, 5362, offsetof(AdManager_t730, ___BannerOnAdOpened_7), 0 } ,
-	{ 8, 5362, offsetof(AdManager_t730, ___BannerOnAdClosed_8), 0 } ,
-	{ 9, 5362, offsetof(AdManager_t730, ___BannerAdLeftApplication_9), 0 } ,
-	{ 10, 5363, offsetof(AdManager_t730_StaticFields, ____instance_10), 0 } ,
+	{ 0, 5363, offsetof(AdManager_t730, ___InterstisialOnLoad_0), 0 } ,
+	{ 1, 5363, offsetof(AdManager_t730, ___InterstisialFailedToLoad_1), 0 } ,
+	{ 2, 5363, offsetof(AdManager_t730, ___InterstisialOnAdOpened_2), 0 } ,
+	{ 3, 5363, offsetof(AdManager_t730, ___InterstisialOnAdClosed_3), 0 } ,
+	{ 4, 5363, offsetof(AdManager_t730, ___InterstisialAdLeftApplication_4), 0 } ,
+	{ 5, 5363, offsetof(AdManager_t730, ___BannerOnLoad_5), 0 } ,
+	{ 6, 5363, offsetof(AdManager_t730, ___BannerFailedToLoad_6), 0 } ,
+	{ 7, 5363, offsetof(AdManager_t730, ___BannerOnAdOpened_7), 0 } ,
+	{ 8, 5363, offsetof(AdManager_t730, ___BannerOnAdClosed_8), 0 } ,
+	{ 9, 5363, offsetof(AdManager_t730, ___BannerAdLeftApplication_9), 0 } ,
+	{ 10, 5364, offsetof(AdManager_t730_StaticFields, ____instance_10), 0 } ,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

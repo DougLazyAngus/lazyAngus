@@ -8,12 +8,12 @@
 struct TrackScore_t665;
 
 // System.Void TrackScore::.ctor()
-extern "C" void TrackScore__ctor_m3584 (TrackScore_t665 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TrackScore__ctor_m3581 (TrackScore_t665 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TrackScore::Start()
-extern "C" void TrackScore_Start_m3585 (TrackScore_t665 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TrackScore_Start_m3582 (TrackScore_t665 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TrackScore::OnDestroy()
-extern "C" void TrackScore_OnDestroy_m3586 (TrackScore_t665 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TrackScore_OnDestroy_m3583 (TrackScore_t665 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TrackScore::SetScoreText()
-extern "C" void TrackScore_SetScoreText_m3587 (TrackScore_t665 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TrackScore_SetScoreText_m3584 (TrackScore_t665 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TrackScore::DynamicUpdateScoreText()
-extern "C" void TrackScore_DynamicUpdateScoreText_m3588 (TrackScore_t665 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TrackScore_DynamicUpdateScoreText_m3585 (TrackScore_t665 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

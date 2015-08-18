@@ -12,10 +12,10 @@ struct Object_t;
 struct NameObjectCollectionBase_t3963;
 
 // System.Void System.Collections.Specialized.NameObjectCollectionBase/_KeysEnumerator::.ctor(System.Collections.Specialized.NameObjectCollectionBase)
-extern "C" void _KeysEnumerator__ctor_m13371 (_KeysEnumerator_t3964 * __this, NameObjectCollectionBase_t3963 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void _KeysEnumerator__ctor_m13373 (_KeysEnumerator_t3964 * __this, NameObjectCollectionBase_t3963 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.Specialized.NameObjectCollectionBase/_KeysEnumerator::get_Current()
-extern "C" Object_t * _KeysEnumerator_get_Current_m13372 (_KeysEnumerator_t3964 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * _KeysEnumerator_get_Current_m13374 (_KeysEnumerator_t3964 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Specialized.NameObjectCollectionBase/_KeysEnumerator::MoveNext()
-extern "C" bool _KeysEnumerator_MoveNext_m13373 (_KeysEnumerator_t3964 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool _KeysEnumerator_MoveNext_m13375 (_KeysEnumerator_t3964 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Specialized.NameObjectCollectionBase/_KeysEnumerator::Reset()
-extern "C" void _KeysEnumerator_Reset_m13374 (_KeysEnumerator_t3964 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void _KeysEnumerator_Reset_m13376 (_KeysEnumerator_t3964 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

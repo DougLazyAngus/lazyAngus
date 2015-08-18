@@ -16,12 +16,12 @@ struct ObjRef_t4632;
 struct Type_t;
 
 // System.Void System.Runtime.Remoting.ClientIdentity::.ctor(System.String,System.Runtime.Remoting.ObjRef)
-extern "C" void ClientIdentity__ctor_m18386 (ClientIdentity_t4633 * __this, String_t* ___objectUri, ObjRef_t4632 * ___objRef, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ClientIdentity__ctor_m18383 (ClientIdentity_t4633 * __this, String_t* ___objectUri, ObjRef_t4632 * ___objRef, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.MarshalByRefObject System.Runtime.Remoting.ClientIdentity::get_ClientProxy()
-extern "C" MarshalByRefObject_t4076 * ClientIdentity_get_ClientProxy_m18387 (ClientIdentity_t4633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MarshalByRefObject_t4076 * ClientIdentity_get_ClientProxy_m18384 (ClientIdentity_t4633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.ClientIdentity::set_ClientProxy(System.MarshalByRefObject)
-extern "C" void ClientIdentity_set_ClientProxy_m18388 (ClientIdentity_t4633 * __this, MarshalByRefObject_t4076 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ClientIdentity_set_ClientProxy_m18385 (ClientIdentity_t4633 * __this, MarshalByRefObject_t4076 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.ObjRef System.Runtime.Remoting.ClientIdentity::CreateObjRef(System.Type)
-extern "C" ObjRef_t4632 * ClientIdentity_CreateObjRef_m18389 (ClientIdentity_t4633 * __this, Type_t * ___requestedType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjRef_t4632 * ClientIdentity_CreateObjRef_m18386 (ClientIdentity_t4633 * __this, Type_t * ___requestedType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.ClientIdentity::get_TargetUri()
-extern "C" String_t* ClientIdentity_get_TargetUri_m18390 (ClientIdentity_t4633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ClientIdentity_get_TargetUri_m18387 (ClientIdentity_t4633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

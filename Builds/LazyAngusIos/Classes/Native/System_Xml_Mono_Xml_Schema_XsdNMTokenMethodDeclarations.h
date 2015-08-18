@@ -10,6 +10,6 @@ struct XsdNMToken_t3106;
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
 
 // System.Void Mono.Xml.Schema.XsdNMToken::.ctor()
-extern "C" void XsdNMToken__ctor_m10434 (XsdNMToken_t3106 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdNMToken__ctor_m10435 (XsdNMToken_t3106 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNMToken::get_TokenizedType()
-extern "C" int32_t XsdNMToken_get_TokenizedType_m10435 (XsdNMToken_t3106 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdNMToken_get_TokenizedType_m10436 (XsdNMToken_t3106 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

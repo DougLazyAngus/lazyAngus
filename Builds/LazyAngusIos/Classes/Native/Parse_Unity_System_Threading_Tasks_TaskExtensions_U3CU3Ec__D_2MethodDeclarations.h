@@ -12,11 +12,11 @@ struct Task_1_t6145;
 struct Task_1_t1370;
 
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass7`1<System.Int32>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass7_1__ctor_m32883_gshared (U3CU3Ec__DisplayClass7_1_t6147 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass7_1__ctor_m32883(__this, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t6147 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1__ctor_m32883_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass7_1__ctor_m32880_gshared (U3CU3Ec__DisplayClass7_1_t6147 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass7_1__ctor_m32880(__this, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t6147 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1__ctor_m32880_gshared)(__this, method)
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass7`1<System.Int32>::<Unwrap>b__5(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<T>>)
-extern "C" void U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m32884_gshared (U3CU3Ec__DisplayClass7_1_t6147 * __this, Task_1_t6145 * ___t, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m32884(__this, ___t, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t6147 *, Task_1_t6145 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m32884_gshared)(__this, ___t, method)
+extern "C" void U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m32881_gshared (U3CU3Ec__DisplayClass7_1_t6147 * __this, Task_1_t6145 * ___t, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m32881(__this, ___t, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t6147 *, Task_1_t6145 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m32881_gshared)(__this, ___t, method)
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass7`1<System.Int32>::<Unwrap>b__6(System.Threading.Tasks.Task`1<T>)
-extern "C" void U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m32885_gshared (U3CU3Ec__DisplayClass7_1_t6147 * __this, Task_1_t1370 * ___inner, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m32885(__this, ___inner, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t6147 *, Task_1_t1370 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m32885_gshared)(__this, ___inner, method)
+extern "C" void U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m32882_gshared (U3CU3Ec__DisplayClass7_1_t6147 * __this, Task_1_t1370 * ___inner, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m32882(__this, ___inner, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t6147 *, Task_1_t1370 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m32882_gshared)(__this, ___inner, method)

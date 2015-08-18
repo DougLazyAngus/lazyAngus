@@ -12,8 +12,8 @@ struct ParseObject_t1221;
 // System.Boolean Parse.Internal.IdentityEqualityComparer`1<Parse.ParseObject>::Equals(T,T)
 // Parse.Internal.IdentityEqualityComparer`1<System.Object>
 #include "Parse_Unity_Parse_Internal_IdentityEqualityComparer_1_genMethodDeclarations.h"
-#define IdentityEqualityComparer_1_Equals_m34022(__this, ___x, ___y, method) (( bool (*) (IdentityEqualityComparer_1_t1505 *, ParseObject_t1221 *, ParseObject_t1221 *, const MethodInfo*))IdentityEqualityComparer_1_Equals_m31720_gshared)(__this, ___x, ___y, method)
+#define IdentityEqualityComparer_1_Equals_m34019(__this, ___x, ___y, method) (( bool (*) (IdentityEqualityComparer_1_t1505 *, ParseObject_t1221 *, ParseObject_t1221 *, const MethodInfo*))IdentityEqualityComparer_1_Equals_m31717_gshared)(__this, ___x, ___y, method)
 // System.Int32 Parse.Internal.IdentityEqualityComparer`1<Parse.ParseObject>::GetHashCode(T)
-#define IdentityEqualityComparer_1_GetHashCode_m34023(__this, ___obj, method) (( int32_t (*) (IdentityEqualityComparer_1_t1505 *, ParseObject_t1221 *, const MethodInfo*))IdentityEqualityComparer_1_GetHashCode_m31721_gshared)(__this, ___obj, method)
+#define IdentityEqualityComparer_1_GetHashCode_m34020(__this, ___obj, method) (( int32_t (*) (IdentityEqualityComparer_1_t1505 *, ParseObject_t1221 *, const MethodInfo*))IdentityEqualityComparer_1_GetHashCode_m31718_gshared)(__this, ___obj, method)
 // System.Void Parse.Internal.IdentityEqualityComparer`1<Parse.ParseObject>::.ctor()
-#define IdentityEqualityComparer_1__ctor_m7607(__this, method) (( void (*) (IdentityEqualityComparer_1_t1505 *, const MethodInfo*))IdentityEqualityComparer_1__ctor_m7480_gshared)(__this, method)
+#define IdentityEqualityComparer_1__ctor_m7605(__this, method) (( void (*) (IdentityEqualityComparer_1_t1505 *, const MethodInfo*))IdentityEqualityComparer_1__ctor_m7478_gshared)(__this, method)

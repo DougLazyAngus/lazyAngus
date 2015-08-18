@@ -10,10 +10,10 @@ struct RateMeController_t629;
 struct IEnumerator_t48;
 
 // System.Void RateMeController::.ctor()
-extern "C" void RateMeController__ctor_m3401 (RateMeController_t629 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RateMeController__ctor_m3397 (RateMeController_t629 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void RateMeController::Start()
-extern "C" void RateMeController_Start_m3402 (RateMeController_t629 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RateMeController_Start_m3398 (RateMeController_t629 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator RateMeController::WaitAndShowDialog()
-extern "C" Object_t * RateMeController_WaitAndShowDialog_m3403 (RateMeController_t629 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RateMeController_WaitAndShowDialog_m3399 (RateMeController_t629 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean RateMeController::MaybeShowRateMeDialog()
-extern "C" bool RateMeController_MaybeShowRateMeDialog_m3404 (RateMeController_t629 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool RateMeController_MaybeShowRateMeDialog_m3400 (RateMeController_t629 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

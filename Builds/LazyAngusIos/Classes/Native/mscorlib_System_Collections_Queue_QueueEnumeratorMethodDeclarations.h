@@ -12,10 +12,10 @@ struct Object_t;
 struct Queue_t4001;
 
 // System.Void System.Collections.Queue/QueueEnumerator::.ctor(System.Collections.Queue)
-extern "C" void QueueEnumerator__ctor_m17020 (QueueEnumerator_t4448 * __this, Queue_t4001 * ___q, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void QueueEnumerator__ctor_m17022 (QueueEnumerator_t4448 * __this, Queue_t4001 * ___q, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.Queue/QueueEnumerator::get_Current()
-extern "C" Object_t * QueueEnumerator_get_Current_m17021 (QueueEnumerator_t4448 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * QueueEnumerator_get_Current_m17023 (QueueEnumerator_t4448 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Queue/QueueEnumerator::MoveNext()
-extern "C" bool QueueEnumerator_MoveNext_m17022 (QueueEnumerator_t4448 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool QueueEnumerator_MoveNext_m17024 (QueueEnumerator_t4448 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Queue/QueueEnumerator::Reset()
-extern "C" void QueueEnumerator_Reset_m17023 (QueueEnumerator_t4448 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void QueueEnumerator_Reset_m17025 (QueueEnumerator_t4448 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,20 +14,20 @@ struct SerializationInfo_t2919;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.IO.DirectoryInfo::.ctor(System.String)
-extern "C" void DirectoryInfo__ctor_m17344 (DirectoryInfo_t64 * __this, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DirectoryInfo__ctor_m17346 (DirectoryInfo_t64 * __this, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.DirectoryInfo::.ctor(System.String,System.Boolean)
-extern "C" void DirectoryInfo__ctor_m17345 (DirectoryInfo_t64 * __this, String_t* ___path, bool ___simpleOriginalPath, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DirectoryInfo__ctor_m17347 (DirectoryInfo_t64 * __this, String_t* ___path, bool ___simpleOriginalPath, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.DirectoryInfo::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void DirectoryInfo__ctor_m17346 (DirectoryInfo_t64 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DirectoryInfo__ctor_m17348 (DirectoryInfo_t64 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.DirectoryInfo::Initialize()
-extern "C" void DirectoryInfo_Initialize_m17347 (DirectoryInfo_t64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DirectoryInfo_Initialize_m17349 (DirectoryInfo_t64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.DirectoryInfo::get_Exists()
-extern "C" bool DirectoryInfo_get_Exists_m17348 (DirectoryInfo_t64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DirectoryInfo_get_Exists_m17350 (DirectoryInfo_t64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.DirectoryInfo::get_Name()
-extern "C" String_t* DirectoryInfo_get_Name_m17349 (DirectoryInfo_t64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DirectoryInfo_get_Name_m17351 (DirectoryInfo_t64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IO.DirectoryInfo System.IO.DirectoryInfo::get_Parent()
-extern "C" DirectoryInfo_t64 * DirectoryInfo_get_Parent_m17350 (DirectoryInfo_t64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DirectoryInfo_t64 * DirectoryInfo_get_Parent_m17352 (DirectoryInfo_t64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.DirectoryInfo::Create()
-extern "C" void DirectoryInfo_Create_m17351 (DirectoryInfo_t64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DirectoryInfo_Create_m17353 (DirectoryInfo_t64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.DirectoryInfo::ToString()
-extern "C" String_t* DirectoryInfo_ToString_m17352 (DirectoryInfo_t64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DirectoryInfo_ToString_m17354 (DirectoryInfo_t64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

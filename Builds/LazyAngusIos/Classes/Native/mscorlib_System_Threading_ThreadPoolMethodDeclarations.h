@@ -12,6 +12,6 @@ struct WaitCallback_t2145;
 struct Object_t;
 
 // System.Boolean System.Threading.ThreadPool::QueueUserWorkItem(System.Threading.WaitCallback)
-extern "C" bool ThreadPool_QueueUserWorkItem_m7786 (Object_t * __this /* static, unused */, WaitCallback_t2145 * ___callBack, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ThreadPool_QueueUserWorkItem_m7785 (Object_t * __this /* static, unused */, WaitCallback_t2145 * ___callBack, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.ThreadPool::QueueUserWorkItem(System.Threading.WaitCallback,System.Object)
-extern "C" bool ThreadPool_QueueUserWorkItem_m15090 (Object_t * __this /* static, unused */, WaitCallback_t2145 * ___callBack, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ThreadPool_QueueUserWorkItem_m15092 (Object_t * __this /* static, unused */, WaitCallback_t2145 * ___callBack, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>
 #include "mscorlib_System_Predicate_1_gen_91MethodDeclarations.h"
-#define Predicate_1__ctor_m56046(__this, ___object, ___method, method) (( void (*) (Predicate_1_t8016 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m55944_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m56043(__this, ___object, ___method, method) (( void (*) (Predicate_1_t8016 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m55941_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Invoke(T)
-#define Predicate_1_Invoke_m56047(__this, ___obj, method) (( bool (*) (Predicate_1_t8016 *, KeyValuePair_2_t7128 , const MethodInfo*))Predicate_1_Invoke_m55945_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m56044(__this, ___obj, method) (( bool (*) (Predicate_1_t8016 *, KeyValuePair_2_t7128 , const MethodInfo*))Predicate_1_Invoke_m55942_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m56048(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t8016 *, KeyValuePair_2_t7128 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m55946_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m56045(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t8016 *, KeyValuePair_2_t7128 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m55943_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m56049(__this, ___result, method) (( bool (*) (Predicate_1_t8016 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m55947_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m56046(__this, ___result, method) (( bool (*) (Predicate_1_t8016 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m55944_gshared)(__this, ___result, method)

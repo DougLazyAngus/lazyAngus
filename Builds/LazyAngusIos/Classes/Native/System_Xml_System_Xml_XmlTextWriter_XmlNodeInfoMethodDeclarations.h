@@ -8,4 +8,4 @@
 struct XmlNodeInfo_t3273;
 
 // System.Void System.Xml.XmlTextWriter/XmlNodeInfo::.ctor()
-extern "C" void XmlNodeInfo__ctor_m11368 (XmlNodeInfo_t3273 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlNodeInfo__ctor_m11369 (XmlNodeInfo_t3273 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

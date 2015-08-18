@@ -22,110 +22,110 @@ struct IList_1_t8614;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_17.h"
 
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::.ctor()
-extern "C" void Collection_1__ctor_m63456_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
-#define Collection_1__ctor_m63456(__this, method) (( void (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1__ctor_m63456_gshared)(__this, method)
+extern "C" void Collection_1__ctor_m63453_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
+#define Collection_1__ctor_m63453(__this, method) (( void (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1__ctor_m63453_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-extern "C" bool Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m63457_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
-#define Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m63457(__this, method) (( bool (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m63457_gshared)(__this, method)
+extern "C" bool Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m63454_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m63454(__this, method) (( bool (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m63454_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C" void Collection_1_System_Collections_ICollection_CopyTo_m63458_gshared (Collection_1_t8616 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
-#define Collection_1_System_Collections_ICollection_CopyTo_m63458(__this, ___array, ___index, method) (( void (*) (Collection_1_t8616 *, Array_t *, int32_t, const MethodInfo*))Collection_1_System_Collections_ICollection_CopyTo_m63458_gshared)(__this, ___array, ___index, method)
+extern "C" void Collection_1_System_Collections_ICollection_CopyTo_m63455_gshared (Collection_1_t8616 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
+#define Collection_1_System_Collections_ICollection_CopyTo_m63455(__this, ___array, ___index, method) (( void (*) (Collection_1_t8616 *, Array_t *, int32_t, const MethodInfo*))Collection_1_System_Collections_ICollection_CopyTo_m63455_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * Collection_1_System_Collections_IEnumerable_GetEnumerator_m63459_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
-#define Collection_1_System_Collections_IEnumerable_GetEnumerator_m63459(__this, method) (( Object_t * (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_System_Collections_IEnumerable_GetEnumerator_m63459_gshared)(__this, method)
+extern "C" Object_t * Collection_1_System_Collections_IEnumerable_GetEnumerator_m63456_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_IEnumerable_GetEnumerator_m63456(__this, method) (( Object_t * (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_System_Collections_IEnumerable_GetEnumerator_m63456_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.Add(System.Object)
-extern "C" int32_t Collection_1_System_Collections_IList_Add_m63460_gshared (Collection_1_t8616 * __this, Object_t * ___value, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_Add_m63460(__this, ___value, method) (( int32_t (*) (Collection_1_t8616 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Add_m63460_gshared)(__this, ___value, method)
+extern "C" int32_t Collection_1_System_Collections_IList_Add_m63457_gshared (Collection_1_t8616 * __this, Object_t * ___value, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_Add_m63457(__this, ___value, method) (( int32_t (*) (Collection_1_t8616 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Add_m63457_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.Contains(System.Object)
-extern "C" bool Collection_1_System_Collections_IList_Contains_m63461_gshared (Collection_1_t8616 * __this, Object_t * ___value, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_Contains_m63461(__this, ___value, method) (( bool (*) (Collection_1_t8616 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Contains_m63461_gshared)(__this, ___value, method)
+extern "C" bool Collection_1_System_Collections_IList_Contains_m63458_gshared (Collection_1_t8616 * __this, Object_t * ___value, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_Contains_m63458(__this, ___value, method) (( bool (*) (Collection_1_t8616 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Contains_m63458_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.IndexOf(System.Object)
-extern "C" int32_t Collection_1_System_Collections_IList_IndexOf_m63462_gshared (Collection_1_t8616 * __this, Object_t * ___value, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_IndexOf_m63462(__this, ___value, method) (( int32_t (*) (Collection_1_t8616 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_IndexOf_m63462_gshared)(__this, ___value, method)
+extern "C" int32_t Collection_1_System_Collections_IList_IndexOf_m63459_gshared (Collection_1_t8616 * __this, Object_t * ___value, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_IndexOf_m63459(__this, ___value, method) (( int32_t (*) (Collection_1_t8616 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_IndexOf_m63459_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.Insert(System.Int32,System.Object)
-extern "C" void Collection_1_System_Collections_IList_Insert_m63463_gshared (Collection_1_t8616 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_Insert_m63463(__this, ___index, ___value, method) (( void (*) (Collection_1_t8616 *, int32_t, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Insert_m63463_gshared)(__this, ___index, ___value, method)
+extern "C" void Collection_1_System_Collections_IList_Insert_m63460_gshared (Collection_1_t8616 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_Insert_m63460(__this, ___index, ___value, method) (( void (*) (Collection_1_t8616 *, int32_t, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Insert_m63460_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.Remove(System.Object)
-extern "C" void Collection_1_System_Collections_IList_Remove_m63464_gshared (Collection_1_t8616 * __this, Object_t * ___value, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_Remove_m63464(__this, ___value, method) (( void (*) (Collection_1_t8616 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Remove_m63464_gshared)(__this, ___value, method)
+extern "C" void Collection_1_System_Collections_IList_Remove_m63461_gshared (Collection_1_t8616 * __this, Object_t * ___value, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_Remove_m63461(__this, ___value, method) (( void (*) (Collection_1_t8616 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Remove_m63461_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.ICollection.get_IsSynchronized()
-extern "C" bool Collection_1_System_Collections_ICollection_get_IsSynchronized_m63465_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
-#define Collection_1_System_Collections_ICollection_get_IsSynchronized_m63465(__this, method) (( bool (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_System_Collections_ICollection_get_IsSynchronized_m63465_gshared)(__this, method)
+extern "C" bool Collection_1_System_Collections_ICollection_get_IsSynchronized_m63462_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_ICollection_get_IsSynchronized_m63462(__this, method) (( bool (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_System_Collections_ICollection_get_IsSynchronized_m63462_gshared)(__this, method)
 // System.Object System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.ICollection.get_SyncRoot()
-extern "C" Object_t * Collection_1_System_Collections_ICollection_get_SyncRoot_m63466_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
-#define Collection_1_System_Collections_ICollection_get_SyncRoot_m63466(__this, method) (( Object_t * (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_System_Collections_ICollection_get_SyncRoot_m63466_gshared)(__this, method)
+extern "C" Object_t * Collection_1_System_Collections_ICollection_get_SyncRoot_m63463_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_ICollection_get_SyncRoot_m63463(__this, method) (( Object_t * (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_System_Collections_ICollection_get_SyncRoot_m63463_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.get_IsFixedSize()
-extern "C" bool Collection_1_System_Collections_IList_get_IsFixedSize_m63467_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_get_IsFixedSize_m63467(__this, method) (( bool (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_System_Collections_IList_get_IsFixedSize_m63467_gshared)(__this, method)
+extern "C" bool Collection_1_System_Collections_IList_get_IsFixedSize_m63464_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_get_IsFixedSize_m63464(__this, method) (( bool (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_System_Collections_IList_get_IsFixedSize_m63464_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.get_IsReadOnly()
-extern "C" bool Collection_1_System_Collections_IList_get_IsReadOnly_m63468_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_get_IsReadOnly_m63468(__this, method) (( bool (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_System_Collections_IList_get_IsReadOnly_m63468_gshared)(__this, method)
+extern "C" bool Collection_1_System_Collections_IList_get_IsReadOnly_m63465_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_get_IsReadOnly_m63465(__this, method) (( bool (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_System_Collections_IList_get_IsReadOnly_m63465_gshared)(__this, method)
 // System.Object System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.get_Item(System.Int32)
-extern "C" Object_t * Collection_1_System_Collections_IList_get_Item_m63469_gshared (Collection_1_t8616 * __this, int32_t ___index, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_get_Item_m63469(__this, ___index, method) (( Object_t * (*) (Collection_1_t8616 *, int32_t, const MethodInfo*))Collection_1_System_Collections_IList_get_Item_m63469_gshared)(__this, ___index, method)
+extern "C" Object_t * Collection_1_System_Collections_IList_get_Item_m63466_gshared (Collection_1_t8616 * __this, int32_t ___index, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_get_Item_m63466(__this, ___index, method) (( Object_t * (*) (Collection_1_t8616 *, int32_t, const MethodInfo*))Collection_1_System_Collections_IList_get_Item_m63466_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.set_Item(System.Int32,System.Object)
-extern "C" void Collection_1_System_Collections_IList_set_Item_m63470_gshared (Collection_1_t8616 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_set_Item_m63470(__this, ___index, ___value, method) (( void (*) (Collection_1_t8616 *, int32_t, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_set_Item_m63470_gshared)(__this, ___index, ___value, method)
+extern "C" void Collection_1_System_Collections_IList_set_Item_m63467_gshared (Collection_1_t8616 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_set_Item_m63467(__this, ___index, ___value, method) (( void (*) (Collection_1_t8616 *, int32_t, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_set_Item_m63467_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Add(T)
-extern "C" void Collection_1_Add_m63471_gshared (Collection_1_t8616 * __this, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
-#define Collection_1_Add_m63471(__this, ___item, method) (( void (*) (Collection_1_t8616 *, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_Add_m63471_gshared)(__this, ___item, method)
+extern "C" void Collection_1_Add_m63468_gshared (Collection_1_t8616 * __this, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
+#define Collection_1_Add_m63468(__this, ___item, method) (( void (*) (Collection_1_t8616 *, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_Add_m63468_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Clear()
-extern "C" void Collection_1_Clear_m63472_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
-#define Collection_1_Clear_m63472(__this, method) (( void (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_Clear_m63472_gshared)(__this, method)
+extern "C" void Collection_1_Clear_m63469_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
+#define Collection_1_Clear_m63469(__this, method) (( void (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_Clear_m63469_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::ClearItems()
-extern "C" void Collection_1_ClearItems_m63473_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
-#define Collection_1_ClearItems_m63473(__this, method) (( void (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_ClearItems_m63473_gshared)(__this, method)
+extern "C" void Collection_1_ClearItems_m63470_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
+#define Collection_1_ClearItems_m63470(__this, method) (( void (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_ClearItems_m63470_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Contains(T)
-extern "C" bool Collection_1_Contains_m63474_gshared (Collection_1_t8616 * __this, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
-#define Collection_1_Contains_m63474(__this, ___item, method) (( bool (*) (Collection_1_t8616 *, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_Contains_m63474_gshared)(__this, ___item, method)
+extern "C" bool Collection_1_Contains_m63471_gshared (Collection_1_t8616 * __this, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
+#define Collection_1_Contains_m63471(__this, ___item, method) (( bool (*) (Collection_1_t8616 *, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_Contains_m63471_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::CopyTo(T[],System.Int32)
-extern "C" void Collection_1_CopyTo_m63475_gshared (Collection_1_t8616 * __this, KeyValuePair_2U5BU5D_t8611* ___array, int32_t ___index, const MethodInfo* method);
-#define Collection_1_CopyTo_m63475(__this, ___array, ___index, method) (( void (*) (Collection_1_t8616 *, KeyValuePair_2U5BU5D_t8611*, int32_t, const MethodInfo*))Collection_1_CopyTo_m63475_gshared)(__this, ___array, ___index, method)
+extern "C" void Collection_1_CopyTo_m63472_gshared (Collection_1_t8616 * __this, KeyValuePair_2U5BU5D_t8611* ___array, int32_t ___index, const MethodInfo* method);
+#define Collection_1_CopyTo_m63472(__this, ___array, ___index, method) (( void (*) (Collection_1_t8616 *, KeyValuePair_2U5BU5D_t8611*, int32_t, const MethodInfo*))Collection_1_CopyTo_m63472_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::GetEnumerator()
-extern "C" Object_t* Collection_1_GetEnumerator_m63476_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
-#define Collection_1_GetEnumerator_m63476(__this, method) (( Object_t* (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_GetEnumerator_m63476_gshared)(__this, method)
+extern "C" Object_t* Collection_1_GetEnumerator_m63473_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
+#define Collection_1_GetEnumerator_m63473(__this, method) (( Object_t* (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_GetEnumerator_m63473_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::IndexOf(T)
-extern "C" int32_t Collection_1_IndexOf_m63477_gshared (Collection_1_t8616 * __this, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
-#define Collection_1_IndexOf_m63477(__this, ___item, method) (( int32_t (*) (Collection_1_t8616 *, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_IndexOf_m63477_gshared)(__this, ___item, method)
+extern "C" int32_t Collection_1_IndexOf_m63474_gshared (Collection_1_t8616 * __this, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
+#define Collection_1_IndexOf_m63474(__this, ___item, method) (( int32_t (*) (Collection_1_t8616 *, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_IndexOf_m63474_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Insert(System.Int32,T)
-extern "C" void Collection_1_Insert_m63478_gshared (Collection_1_t8616 * __this, int32_t ___index, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
-#define Collection_1_Insert_m63478(__this, ___index, ___item, method) (( void (*) (Collection_1_t8616 *, int32_t, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_Insert_m63478_gshared)(__this, ___index, ___item, method)
+extern "C" void Collection_1_Insert_m63475_gshared (Collection_1_t8616 * __this, int32_t ___index, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
+#define Collection_1_Insert_m63475(__this, ___index, ___item, method) (( void (*) (Collection_1_t8616 *, int32_t, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_Insert_m63475_gshared)(__this, ___index, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::InsertItem(System.Int32,T)
-extern "C" void Collection_1_InsertItem_m63479_gshared (Collection_1_t8616 * __this, int32_t ___index, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
-#define Collection_1_InsertItem_m63479(__this, ___index, ___item, method) (( void (*) (Collection_1_t8616 *, int32_t, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_InsertItem_m63479_gshared)(__this, ___index, ___item, method)
+extern "C" void Collection_1_InsertItem_m63476_gshared (Collection_1_t8616 * __this, int32_t ___index, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
+#define Collection_1_InsertItem_m63476(__this, ___index, ___item, method) (( void (*) (Collection_1_t8616 *, int32_t, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_InsertItem_m63476_gshared)(__this, ___index, ___item, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Remove(T)
-extern "C" bool Collection_1_Remove_m63480_gshared (Collection_1_t8616 * __this, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
-#define Collection_1_Remove_m63480(__this, ___item, method) (( bool (*) (Collection_1_t8616 *, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_Remove_m63480_gshared)(__this, ___item, method)
+extern "C" bool Collection_1_Remove_m63477_gshared (Collection_1_t8616 * __this, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
+#define Collection_1_Remove_m63477(__this, ___item, method) (( bool (*) (Collection_1_t8616 *, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_Remove_m63477_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::RemoveAt(System.Int32)
-extern "C" void Collection_1_RemoveAt_m63481_gshared (Collection_1_t8616 * __this, int32_t ___index, const MethodInfo* method);
-#define Collection_1_RemoveAt_m63481(__this, ___index, method) (( void (*) (Collection_1_t8616 *, int32_t, const MethodInfo*))Collection_1_RemoveAt_m63481_gshared)(__this, ___index, method)
+extern "C" void Collection_1_RemoveAt_m63478_gshared (Collection_1_t8616 * __this, int32_t ___index, const MethodInfo* method);
+#define Collection_1_RemoveAt_m63478(__this, ___index, method) (( void (*) (Collection_1_t8616 *, int32_t, const MethodInfo*))Collection_1_RemoveAt_m63478_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::RemoveItem(System.Int32)
-extern "C" void Collection_1_RemoveItem_m63482_gshared (Collection_1_t8616 * __this, int32_t ___index, const MethodInfo* method);
-#define Collection_1_RemoveItem_m63482(__this, ___index, method) (( void (*) (Collection_1_t8616 *, int32_t, const MethodInfo*))Collection_1_RemoveItem_m63482_gshared)(__this, ___index, method)
+extern "C" void Collection_1_RemoveItem_m63479_gshared (Collection_1_t8616 * __this, int32_t ___index, const MethodInfo* method);
+#define Collection_1_RemoveItem_m63479(__this, ___index, method) (( void (*) (Collection_1_t8616 *, int32_t, const MethodInfo*))Collection_1_RemoveItem_m63479_gshared)(__this, ___index, method)
 // System.Int32 System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::get_Count()
-extern "C" int32_t Collection_1_get_Count_m63483_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
-#define Collection_1_get_Count_m63483(__this, method) (( int32_t (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_get_Count_m63483_gshared)(__this, method)
+extern "C" int32_t Collection_1_get_Count_m63480_gshared (Collection_1_t8616 * __this, const MethodInfo* method);
+#define Collection_1_get_Count_m63480(__this, method) (( int32_t (*) (Collection_1_t8616 *, const MethodInfo*))Collection_1_get_Count_m63480_gshared)(__this, method)
 // T System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::get_Item(System.Int32)
-extern "C" KeyValuePair_2_t3379  Collection_1_get_Item_m63484_gshared (Collection_1_t8616 * __this, int32_t ___index, const MethodInfo* method);
-#define Collection_1_get_Item_m63484(__this, ___index, method) (( KeyValuePair_2_t3379  (*) (Collection_1_t8616 *, int32_t, const MethodInfo*))Collection_1_get_Item_m63484_gshared)(__this, ___index, method)
+extern "C" KeyValuePair_2_t3379  Collection_1_get_Item_m63481_gshared (Collection_1_t8616 * __this, int32_t ___index, const MethodInfo* method);
+#define Collection_1_get_Item_m63481(__this, ___index, method) (( KeyValuePair_2_t3379  (*) (Collection_1_t8616 *, int32_t, const MethodInfo*))Collection_1_get_Item_m63481_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::set_Item(System.Int32,T)
-extern "C" void Collection_1_set_Item_m63485_gshared (Collection_1_t8616 * __this, int32_t ___index, KeyValuePair_2_t3379  ___value, const MethodInfo* method);
-#define Collection_1_set_Item_m63485(__this, ___index, ___value, method) (( void (*) (Collection_1_t8616 *, int32_t, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_set_Item_m63485_gshared)(__this, ___index, ___value, method)
+extern "C" void Collection_1_set_Item_m63482_gshared (Collection_1_t8616 * __this, int32_t ___index, KeyValuePair_2_t3379  ___value, const MethodInfo* method);
+#define Collection_1_set_Item_m63482(__this, ___index, ___value, method) (( void (*) (Collection_1_t8616 *, int32_t, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_set_Item_m63482_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::SetItem(System.Int32,T)
-extern "C" void Collection_1_SetItem_m63486_gshared (Collection_1_t8616 * __this, int32_t ___index, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
-#define Collection_1_SetItem_m63486(__this, ___index, ___item, method) (( void (*) (Collection_1_t8616 *, int32_t, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_SetItem_m63486_gshared)(__this, ___index, ___item, method)
+extern "C" void Collection_1_SetItem_m63483_gshared (Collection_1_t8616 * __this, int32_t ___index, KeyValuePair_2_t3379  ___item, const MethodInfo* method);
+#define Collection_1_SetItem_m63483(__this, ___index, ___item, method) (( void (*) (Collection_1_t8616 *, int32_t, KeyValuePair_2_t3379 , const MethodInfo*))Collection_1_SetItem_m63483_gshared)(__this, ___index, ___item, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::IsValidItem(System.Object)
-extern "C" bool Collection_1_IsValidItem_m63487_gshared (Object_t * __this /* static, unused */, Object_t * ___item, const MethodInfo* method);
-#define Collection_1_IsValidItem_m63487(__this /* static, unused */, ___item, method) (( bool (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Collection_1_IsValidItem_m63487_gshared)(__this /* static, unused */, ___item, method)
+extern "C" bool Collection_1_IsValidItem_m63484_gshared (Object_t * __this /* static, unused */, Object_t * ___item, const MethodInfo* method);
+#define Collection_1_IsValidItem_m63484(__this /* static, unused */, ___item, method) (( bool (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Collection_1_IsValidItem_m63484_gshared)(__this /* static, unused */, ___item, method)
 // T System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::ConvertItem(System.Object)
-extern "C" KeyValuePair_2_t3379  Collection_1_ConvertItem_m63488_gshared (Object_t * __this /* static, unused */, Object_t * ___item, const MethodInfo* method);
-#define Collection_1_ConvertItem_m63488(__this /* static, unused */, ___item, method) (( KeyValuePair_2_t3379  (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Collection_1_ConvertItem_m63488_gshared)(__this /* static, unused */, ___item, method)
+extern "C" KeyValuePair_2_t3379  Collection_1_ConvertItem_m63485_gshared (Object_t * __this /* static, unused */, Object_t * ___item, const MethodInfo* method);
+#define Collection_1_ConvertItem_m63485(__this /* static, unused */, ___item, method) (( KeyValuePair_2_t3379  (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Collection_1_ConvertItem_m63485_gshared)(__this /* static, unused */, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::CheckWritable(System.Collections.Generic.IList`1<T>)
-extern "C" void Collection_1_CheckWritable_m63489_gshared (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method);
-#define Collection_1_CheckWritable_m63489(__this /* static, unused */, ___list, method) (( void (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Collection_1_CheckWritable_m63489_gshared)(__this /* static, unused */, ___list, method)
+extern "C" void Collection_1_CheckWritable_m63486_gshared (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method);
+#define Collection_1_CheckWritable_m63486(__this /* static, unused */, ___list, method) (( void (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Collection_1_CheckWritable_m63486_gshared)(__this /* static, unused */, ___list, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::IsSynchronized(System.Collections.Generic.IList`1<T>)
-extern "C" bool Collection_1_IsSynchronized_m63490_gshared (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method);
-#define Collection_1_IsSynchronized_m63490(__this /* static, unused */, ___list, method) (( bool (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Collection_1_IsSynchronized_m63490_gshared)(__this /* static, unused */, ___list, method)
+extern "C" bool Collection_1_IsSynchronized_m63487_gshared (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method);
+#define Collection_1_IsSynchronized_m63487(__this /* static, unused */, ___list, method) (( bool (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Collection_1_IsSynchronized_m63487_gshared)(__this /* static, unused */, ___list, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::IsFixedSize(System.Collections.Generic.IList`1<T>)
-extern "C" bool Collection_1_IsFixedSize_m63491_gshared (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method);
-#define Collection_1_IsFixedSize_m63491(__this /* static, unused */, ___list, method) (( bool (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Collection_1_IsFixedSize_m63491_gshared)(__this /* static, unused */, ___list, method)
+extern "C" bool Collection_1_IsFixedSize_m63488_gshared (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method);
+#define Collection_1_IsFixedSize_m63488(__this /* static, unused */, ___list, method) (( bool (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Collection_1_IsFixedSize_m63488_gshared)(__this /* static, unused */, ___list, method)

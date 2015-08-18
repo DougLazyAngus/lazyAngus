@@ -12,10 +12,10 @@ struct Context_t3840;
 struct ByteU5BU5D_t66;
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern "C" void TlsServerCertificateRequest__ctor_m13082 (TlsServerCertificateRequest_t3894 * __this, Context_t3840 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerCertificateRequest__ctor_m13084 (TlsServerCertificateRequest_t3894 * __this, Context_t3840 * ___context, ByteU5BU5D_t66* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::Update()
-extern "C" void TlsServerCertificateRequest_Update_m13083 (TlsServerCertificateRequest_t3894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerCertificateRequest_Update_m13085 (TlsServerCertificateRequest_t3894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::ProcessAsSsl3()
-extern "C" void TlsServerCertificateRequest_ProcessAsSsl3_m13084 (TlsServerCertificateRequest_t3894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerCertificateRequest_ProcessAsSsl3_m13086 (TlsServerCertificateRequest_t3894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::ProcessAsTls1()
-extern "C" void TlsServerCertificateRequest_ProcessAsTls1_m13085 (TlsServerCertificateRequest_t3894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerCertificateRequest_ProcessAsTls1_m13087 (TlsServerCertificateRequest_t3894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

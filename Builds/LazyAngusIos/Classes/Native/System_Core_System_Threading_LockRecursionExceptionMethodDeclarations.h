@@ -14,8 +14,8 @@ struct SerializationInfo_t2919;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Threading.LockRecursionException::.ctor()
-extern "C" void LockRecursionException__ctor_m11734 (LockRecursionException_t3349 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LockRecursionException__ctor_m11735 (LockRecursionException_t3349 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.LockRecursionException::.ctor(System.String)
-extern "C" void LockRecursionException__ctor_m11735 (LockRecursionException_t3349 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LockRecursionException__ctor_m11736 (LockRecursionException_t3349 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.LockRecursionException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void LockRecursionException__ctor_m11736 (LockRecursionException_t3349 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LockRecursionException__ctor_m11737 (LockRecursionException_t3349 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;

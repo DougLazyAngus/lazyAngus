@@ -12,6 +12,6 @@ struct MonoEvent_t;
 #include "mscorlib_System_Reflection_MonoEventInfo.h"
 
 // System.Void System.Reflection.MonoEventInfo::get_event_info(System.Reflection.MonoEvent,System.Reflection.MonoEventInfo&)
-extern "C" void MonoEventInfo_get_event_info_m17978 (Object_t * __this /* static, unused */, MonoEvent_t * ___ev, MonoEventInfo_t4543 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoEventInfo_get_event_info_m17975 (Object_t * __this /* static, unused */, MonoEvent_t * ___ev, MonoEventInfo_t4543 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MonoEventInfo System.Reflection.MonoEventInfo::GetEventInfo(System.Reflection.MonoEvent)
-extern "C" MonoEventInfo_t4543  MonoEventInfo_GetEventInfo_m17979 (Object_t * __this /* static, unused */, MonoEvent_t * ___ev, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MonoEventInfo_t4543  MonoEventInfo_GetEventInfo_m17976 (Object_t * __this /* static, unused */, MonoEvent_t * ___ev, const MethodInfo* method) IL2CPP_METHOD_ATTR;

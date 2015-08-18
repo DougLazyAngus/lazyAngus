@@ -10,14 +10,14 @@ struct AttrListImpl_t4426;
 struct String_t;
 
 // System.Void Mono.Xml.SmallXmlParser/AttrListImpl::.ctor()
-extern "C" void AttrListImpl__ctor_m16760 (AttrListImpl_t4426 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AttrListImpl__ctor_m16762 (AttrListImpl_t4426 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Xml.SmallXmlParser/AttrListImpl::get_Length()
-extern "C" int32_t AttrListImpl_get_Length_m16761 (AttrListImpl_t4426 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AttrListImpl_get_Length_m16763 (AttrListImpl_t4426 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.SmallXmlParser/AttrListImpl::GetName(System.Int32)
-extern "C" String_t* AttrListImpl_GetName_m16762 (AttrListImpl_t4426 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AttrListImpl_GetName_m16764 (AttrListImpl_t4426 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.SmallXmlParser/AttrListImpl::GetValue(System.Int32)
-extern "C" String_t* AttrListImpl_GetValue_m16763 (AttrListImpl_t4426 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AttrListImpl_GetValue_m16765 (AttrListImpl_t4426 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser/AttrListImpl::Clear()
-extern "C" void AttrListImpl_Clear_m16764 (AttrListImpl_t4426 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AttrListImpl_Clear_m16766 (AttrListImpl_t4426 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SmallXmlParser/AttrListImpl::Add(System.String,System.String)
-extern "C" void AttrListImpl_Add_m16765 (AttrListImpl_t4426 * __this, String_t* ___name, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AttrListImpl_Add_m16767 (AttrListImpl_t4426 * __this, String_t* ___name, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -10,4 +10,4 @@ struct ParameterExpression_t3342;
 struct String_t;
 
 // System.String System.Linq.Expressions.ParameterExpression::get_Name()
-extern "C" String_t* ParameterExpression_get_Name_m11713 (ParameterExpression_t3342 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParameterExpression_get_Name_m11714 (ParameterExpression_t3342 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

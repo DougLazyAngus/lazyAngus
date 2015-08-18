@@ -14,10 +14,10 @@ struct X509Extension_t3820;
 struct String_t;
 
 // System.Void Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension::.ctor(Mono.Security.X509.X509Extension)
-extern "C" void AuthorityKeyIdentifierExtension__ctor_m12584 (AuthorityKeyIdentifierExtension_t3824 * __this, X509Extension_t3820 * ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AuthorityKeyIdentifierExtension__ctor_m12586 (AuthorityKeyIdentifierExtension_t3824 * __this, X509Extension_t3820 * ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension::Decode()
-extern "C" void AuthorityKeyIdentifierExtension_Decode_m12585 (AuthorityKeyIdentifierExtension_t3824 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AuthorityKeyIdentifierExtension_Decode_m12587 (AuthorityKeyIdentifierExtension_t3824 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension::get_Identifier()
-extern "C" ByteU5BU5D_t66* AuthorityKeyIdentifierExtension_get_Identifier_m12586 (AuthorityKeyIdentifierExtension_t3824 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* AuthorityKeyIdentifierExtension_get_Identifier_m12588 (AuthorityKeyIdentifierExtension_t3824 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension::ToString()
-extern "C" String_t* AuthorityKeyIdentifierExtension_ToString_m12587 (AuthorityKeyIdentifierExtension_t3824 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AuthorityKeyIdentifierExtension_ToString_m12589 (AuthorityKeyIdentifierExtension_t3824 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

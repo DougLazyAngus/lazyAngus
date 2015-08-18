@@ -8,4 +8,4 @@
 struct XmlSchemaAnnotated_t3148;
 
 // System.Void System.Xml.Schema.XmlSchemaAnnotated::.ctor()
-extern "C" void XmlSchemaAnnotated__ctor_m10497 (XmlSchemaAnnotated_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaAnnotated__ctor_m10498 (XmlSchemaAnnotated_t3148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

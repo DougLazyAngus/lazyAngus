@@ -20,12 +20,14 @@
 		</type>
 		<type fullname="RateMeDialog">
 			<method name="NoThanks"/>
-			<method name="RemindMeLater"/>
 			<method name="RateThis"/>
+			<method name="RemindMeLater"/>
 		</type>
 		<type fullname="SecretUI">
+			<method name="ResetPreferences"/>
 			<method name="ToggleVisibility"/>
 			<method name="ToggleVisibility"/>
+			<method name="ResetPreferences"/>
 		</type>
 		<type fullname="SoundController">
 			<method name="ToggleSoundsMuted"/>

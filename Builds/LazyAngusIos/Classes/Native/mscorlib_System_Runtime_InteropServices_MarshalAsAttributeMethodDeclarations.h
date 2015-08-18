@@ -10,4 +10,4 @@ struct MarshalAsAttribute_t4346;
 #include "mscorlib_System_Runtime_InteropServices_UnmanagedType.h"
 
 // System.Void System.Runtime.InteropServices.MarshalAsAttribute::.ctor(System.Runtime.InteropServices.UnmanagedType)
-extern "C" void MarshalAsAttribute__ctor_m16276 (MarshalAsAttribute_t4346 * __this, int32_t ___unmanagedType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MarshalAsAttribute__ctor_m16278 (MarshalAsAttribute_t4346 * __this, int32_t ___unmanagedType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -12152,6 +12152,15 @@ void* RuntimeInvoker_Void_t85_Object_t_Double_t90 (const MethodInfo* method, voi
 
 struct Object_t;
 struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Object_t_Single_t87 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Object_t * p1, float p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((float*)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_Object_t_Int32_t82_Int16_t742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef Object_t * (*Func)(void* obj, int32_t p1, int16_t p2, const MethodInfo* method);
@@ -17719,16 +17728,6 @@ void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Object_t_SByte_t88 (const Metho
 {
 	typedef void (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, int8_t p4, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], *((int8_t*)args[3]), method);
-	return NULL;
-}
-
-struct Object_t;
-struct Object_t;
-struct Object_t;
-void* RuntimeInvoker_Void_t85_Object_t_SByte_t88_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, Object_t * p1, int8_t p2, Object_t * p3, int32_t p4, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (Object_t *)args[2], *((int32_t*)args[3]), method);
 	return NULL;
 }
 

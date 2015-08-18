@@ -10,10 +10,10 @@ struct EventWaitHandle_t3351;
 #include "mscorlib_System_Threading_EventResetMode.h"
 
 // System.Void System.Threading.EventWaitHandle::.ctor(System.Boolean,System.Threading.EventResetMode)
-extern "C" void EventWaitHandle__ctor_m19235 (EventWaitHandle_t3351 * __this, bool ___initialState, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventWaitHandle__ctor_m19232 (EventWaitHandle_t3351 * __this, bool ___initialState, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.EventWaitHandle::IsManualReset(System.Threading.EventResetMode)
-extern "C" bool EventWaitHandle_IsManualReset_m19236 (EventWaitHandle_t3351 * __this, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool EventWaitHandle_IsManualReset_m19233 (EventWaitHandle_t3351 * __this, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.EventWaitHandle::Reset()
-extern "C" bool EventWaitHandle_Reset_m11832 (EventWaitHandle_t3351 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool EventWaitHandle_Reset_m11833 (EventWaitHandle_t3351 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.EventWaitHandle::Set()
-extern "C" bool EventWaitHandle_Set_m11829 (EventWaitHandle_t3351 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool EventWaitHandle_Set_m11830 (EventWaitHandle_t3351 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

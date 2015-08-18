@@ -8,4 +8,4 @@
 struct SerializableAttribute_t4337;
 
 // System.Void System.SerializableAttribute::.ctor()
-extern "C" void SerializableAttribute__ctor_m15561 (SerializableAttribute_t4337 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializableAttribute__ctor_m15563 (SerializableAttribute_t4337 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

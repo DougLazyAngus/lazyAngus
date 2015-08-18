@@ -18,10 +18,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Char,System.Single>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.UInt16,System.Single>
 #include "System_Core_System_Func_2_gen_254MethodDeclarations.h"
-#define Func_2__ctor_m41508(__this, ___object, ___method, method) (( void (*) (Func_2_t6823 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m41333_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m41505(__this, ___object, ___method, method) (( void (*) (Func_2_t6823 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m41330_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Char,System.Single>::Invoke(T)
-#define Func_2_Invoke_m41509(__this, ___arg1, method) (( float (*) (Func_2_t6823 *, uint16_t, const MethodInfo*))Func_2_Invoke_m41334_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m41506(__this, ___arg1, method) (( float (*) (Func_2_t6823 *, uint16_t, const MethodInfo*))Func_2_Invoke_m41331_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Char,System.Single>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m41510(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6823 *, uint16_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m41335_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m41507(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6823 *, uint16_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m41332_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Char,System.Single>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m41511(__this, ___result, method) (( float (*) (Func_2_t6823 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m41336_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m41508(__this, ___result, method) (( float (*) (Func_2_t6823 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m41333_gshared)(__this, ___result, method)

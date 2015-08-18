@@ -8,4 +8,4 @@
 struct XmlIgnoreAttribute_t3170;
 
 // System.Void System.Xml.Serialization.XmlIgnoreAttribute::.ctor()
-extern "C" void XmlIgnoreAttribute__ctor_m10531 (XmlIgnoreAttribute_t3170 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlIgnoreAttribute__ctor_m10532 (XmlIgnoreAttribute_t3170 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

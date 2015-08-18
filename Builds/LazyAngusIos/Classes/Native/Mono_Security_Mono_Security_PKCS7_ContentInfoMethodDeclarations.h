@@ -14,16 +14,16 @@ struct String_t;
 struct ByteU5BU5D_t66;
 
 // System.Void Mono.Security.PKCS7/ContentInfo::.ctor()
-extern "C" void ContentInfo__ctor_m12353 (ContentInfo_t3787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ContentInfo__ctor_m12355 (ContentInfo_t3787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.PKCS7/ContentInfo::.ctor(System.String)
-extern "C" void ContentInfo__ctor_m12354 (ContentInfo_t3787 * __this, String_t* ___oid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ContentInfo__ctor_m12356 (ContentInfo_t3787 * __this, String_t* ___oid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.PKCS7/ContentInfo::.ctor(System.Byte[])
-extern "C" void ContentInfo__ctor_m12355 (ContentInfo_t3787 * __this, ByteU5BU5D_t66* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ContentInfo__ctor_m12357 (ContentInfo_t3787 * __this, ByteU5BU5D_t66* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.PKCS7/ContentInfo::.ctor(Mono.Security.ASN1)
-extern "C" void ContentInfo__ctor_m12356 (ContentInfo_t3787 * __this, ASN1_t3784 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ContentInfo__ctor_m12358 (ContentInfo_t3787 * __this, ASN1_t3784 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.ASN1 Mono.Security.PKCS7/ContentInfo::get_Content()
-extern "C" ASN1_t3784 * ContentInfo_get_Content_m12357 (ContentInfo_t3787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ASN1_t3784 * ContentInfo_get_Content_m12359 (ContentInfo_t3787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.PKCS7/ContentInfo::set_Content(Mono.Security.ASN1)
-extern "C" void ContentInfo_set_Content_m12358 (ContentInfo_t3787 * __this, ASN1_t3784 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ContentInfo_set_Content_m12360 (ContentInfo_t3787 * __this, ASN1_t3784 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.PKCS7/ContentInfo::get_ContentType()
-extern "C" String_t* ContentInfo_get_ContentType_m12359 (ContentInfo_t3787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ContentInfo_get_ContentType_m12361 (ContentInfo_t3787 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

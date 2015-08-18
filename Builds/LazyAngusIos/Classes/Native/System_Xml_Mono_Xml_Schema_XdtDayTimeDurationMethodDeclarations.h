@@ -8,4 +8,4 @@
 struct XdtDayTimeDuration_t3138;
 
 // System.Void Mono.Xml.Schema.XdtDayTimeDuration::.ctor()
-extern "C" void XdtDayTimeDuration__ctor_m10483 (XdtDayTimeDuration_t3138 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XdtDayTimeDuration__ctor_m10484 (XdtDayTimeDuration_t3138 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

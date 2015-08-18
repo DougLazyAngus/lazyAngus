@@ -10,4 +10,4 @@ struct SatelliteContractVersionAttribute_t3305;
 struct String_t;
 
 // System.Void System.Resources.SatelliteContractVersionAttribute::.ctor(System.String)
-extern "C" void SatelliteContractVersionAttribute__ctor_m11503 (SatelliteContractVersionAttribute_t3305 * __this, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SatelliteContractVersionAttribute__ctor_m11504 (SatelliteContractVersionAttribute_t3305 * __this, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;

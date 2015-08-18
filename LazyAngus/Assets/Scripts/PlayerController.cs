@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour {
 		DRAGGING,
 	};
 
-	public const float startCatAngle = 45f;
+	public float startCatAngle = 45f;
 
 	public GameObject rightPawGameObject;
 	public GameObject leftPawGameObject;

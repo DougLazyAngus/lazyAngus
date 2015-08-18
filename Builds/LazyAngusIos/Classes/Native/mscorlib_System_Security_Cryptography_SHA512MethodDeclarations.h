@@ -8,4 +8,4 @@
 struct SHA512_t4712;
 
 // System.Void System.Security.Cryptography.SHA512::.ctor()
-extern "C" void SHA512__ctor_m18838 (SHA512_t4712 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA512__ctor_m18835 (SHA512_t4712 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

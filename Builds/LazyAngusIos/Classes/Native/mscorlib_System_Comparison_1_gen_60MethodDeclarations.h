@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Comparison`1<System.UInt64>::.ctor(System.Object,System.IntPtr)
-extern "C" void Comparison_1__ctor_m39917_gshared (Comparison_1_t6702 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Comparison_1__ctor_m39917(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6702 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m39917_gshared)(__this, ___object, ___method, method)
+extern "C" void Comparison_1__ctor_m39914_gshared (Comparison_1_t6702 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Comparison_1__ctor_m39914(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6702 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m39914_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<System.UInt64>::Invoke(T,T)
-extern "C" int32_t Comparison_1_Invoke_m39918_gshared (Comparison_1_t6702 * __this, uint64_t ___x, uint64_t ___y, const MethodInfo* method);
-#define Comparison_1_Invoke_m39918(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6702 *, uint64_t, uint64_t, const MethodInfo*))Comparison_1_Invoke_m39918_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t Comparison_1_Invoke_m39915_gshared (Comparison_1_t6702 * __this, uint64_t ___x, uint64_t ___y, const MethodInfo* method);
+#define Comparison_1_Invoke_m39915(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6702 *, uint64_t, uint64_t, const MethodInfo*))Comparison_1_Invoke_m39915_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<System.UInt64>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Comparison_1_BeginInvoke_m39919_gshared (Comparison_1_t6702 * __this, uint64_t ___x, uint64_t ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Comparison_1_BeginInvoke_m39919(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6702 *, uint64_t, uint64_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m39919_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+extern "C" Object_t * Comparison_1_BeginInvoke_m39916_gshared (Comparison_1_t6702 * __this, uint64_t ___x, uint64_t ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Comparison_1_BeginInvoke_m39916(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6702 *, uint64_t, uint64_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m39916_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<System.UInt64>::EndInvoke(System.IAsyncResult)
-extern "C" int32_t Comparison_1_EndInvoke_m39920_gshared (Comparison_1_t6702 * __this, Object_t * ___result, const MethodInfo* method);
-#define Comparison_1_EndInvoke_m39920(__this, ___result, method) (( int32_t (*) (Comparison_1_t6702 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m39920_gshared)(__this, ___result, method)
+extern "C" int32_t Comparison_1_EndInvoke_m39917_gshared (Comparison_1_t6702 * __this, Object_t * ___result, const MethodInfo* method);
+#define Comparison_1_EndInvoke_m39917(__this, ___result, method) (( int32_t (*) (Comparison_1_t6702 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m39917_gshared)(__this, ___result, method)

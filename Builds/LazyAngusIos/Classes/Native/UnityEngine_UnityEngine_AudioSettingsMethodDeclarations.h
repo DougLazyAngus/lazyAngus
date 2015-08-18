@@ -8,4 +8,4 @@
 struct AudioSettings_t2771;
 
 // System.Void UnityEngine.AudioSettings::InvokeOnAudioConfigurationChanged(System.Boolean)
-extern "C" void AudioSettings_InvokeOnAudioConfigurationChanged_m9498 (AudioSettings_t2771 * __this, bool ___deviceWasChanged, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioSettings_InvokeOnAudioConfigurationChanged_m9499 (AudioSettings_t2771 * __this, bool ___deviceWasChanged, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -9,6 +9,9 @@ public class PersistentStorage : MonoBehaviour {
 
 	void Awake() {
 		instance = this;
+	}
+
+	public void ClearAll() {
 		PlayerPrefs.DeleteAll ();
 	}
 

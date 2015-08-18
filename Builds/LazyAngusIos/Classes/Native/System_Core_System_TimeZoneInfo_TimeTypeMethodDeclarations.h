@@ -11,9 +11,9 @@ struct TimeType_t3356_marshaled;
 struct String_t;
 
 // System.Void System.TimeZoneInfo/TimeType::.ctor(System.Int32,System.Boolean,System.String)
-extern "C" void TimeType__ctor_m11775 (TimeType_t3356 * __this, int32_t ___offset, bool ___is_dst, String_t* ___abbrev, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimeType__ctor_m11776 (TimeType_t3356 * __this, int32_t ___offset, bool ___is_dst, String_t* ___abbrev, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.TimeZoneInfo/TimeType::ToString()
-extern "C" String_t* TimeType_ToString_m11776 (TimeType_t3356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TimeType_ToString_m11777 (TimeType_t3356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 void TimeType_t3356_marshal(const TimeType_t3356& unmarshaled, TimeType_t3356_marshaled& marshaled);
 void TimeType_t3356_marshal_back(const TimeType_t3356_marshaled& marshaled, TimeType_t3356& unmarshaled);
 void TimeType_t3356_marshal_cleanup(TimeType_t3356_marshaled& marshaled);

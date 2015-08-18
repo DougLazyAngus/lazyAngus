@@ -10,4 +10,4 @@ struct DebuggerBrowsableAttribute_t2215;
 #include "mscorlib_System_Diagnostics_DebuggerBrowsableState.h"
 
 // System.Void System.Diagnostics.DebuggerBrowsableAttribute::.ctor(System.Diagnostics.DebuggerBrowsableState)
-extern "C" void DebuggerBrowsableAttribute__ctor_m8223 (DebuggerBrowsableAttribute_t2215 * __this, int32_t ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DebuggerBrowsableAttribute__ctor_m8222 (DebuggerBrowsableAttribute_t2215 * __this, int32_t ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;

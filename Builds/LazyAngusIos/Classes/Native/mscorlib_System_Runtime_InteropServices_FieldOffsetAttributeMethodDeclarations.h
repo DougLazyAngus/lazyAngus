@@ -8,4 +8,4 @@
 struct FieldOffsetAttribute_t4352;
 
 // System.Void System.Runtime.InteropServices.FieldOffsetAttribute::.ctor(System.Int32)
-extern "C" void FieldOffsetAttribute__ctor_m16283 (FieldOffsetAttribute_t4352 * __this, int32_t ___offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FieldOffsetAttribute__ctor_m16285 (FieldOffsetAttribute_t4352 * __this, int32_t ___offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;

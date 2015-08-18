@@ -14,20 +14,20 @@ struct Array_t;
 #include "UnityEngine_UnityEngine_RaycastHit2D.h"
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m28686_gshared (InternalEnumerator_1_t5822 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m28686(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5822 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m28686_gshared)(__this, ___array, method)
+extern "C" void InternalEnumerator_1__ctor_m28683_gshared (InternalEnumerator_1_t5822 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m28683(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5822 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m28683_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m28687_gshared (InternalEnumerator_1_t5822 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m28687(__this, method) (( void (*) (InternalEnumerator_1_t5822 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m28687_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m28684_gshared (InternalEnumerator_1_t5822 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m28684(__this, method) (( void (*) (InternalEnumerator_1_t5822 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m28684_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28688_gshared (InternalEnumerator_1_t5822 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28688(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5822 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28688_gshared)(__this, method)
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28685_gshared (InternalEnumerator_1_t5822 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28685(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5822 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28685_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m28689_gshared (InternalEnumerator_1_t5822 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m28689(__this, method) (( void (*) (InternalEnumerator_1_t5822 *, const MethodInfo*))InternalEnumerator_1_Dispose_m28689_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_Dispose_m28686_gshared (InternalEnumerator_1_t5822 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m28686(__this, method) (( void (*) (InternalEnumerator_1_t5822 *, const MethodInfo*))InternalEnumerator_1_Dispose_m28686_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m28690_gshared (InternalEnumerator_1_t5822 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m28690(__this, method) (( bool (*) (InternalEnumerator_1_t5822 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m28690_gshared)(__this, method)
+extern "C" bool InternalEnumerator_1_MoveNext_m28687_gshared (InternalEnumerator_1_t5822 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m28687(__this, method) (( bool (*) (InternalEnumerator_1_t5822 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m28687_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.RaycastHit2D>::get_Current()
-extern "C" RaycastHit2D_t1057  InternalEnumerator_1_get_Current_m28691_gshared (InternalEnumerator_1_t5822 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m28691(__this, method) (( RaycastHit2D_t1057  (*) (InternalEnumerator_1_t5822 *, const MethodInfo*))InternalEnumerator_1_get_Current_m28691_gshared)(__this, method)
+extern "C" RaycastHit2D_t1057  InternalEnumerator_1_get_Current_m28688_gshared (InternalEnumerator_1_t5822 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m28688(__this, method) (( RaycastHit2D_t1057  (*) (InternalEnumerator_1_t5822 *, const MethodInfo*))InternalEnumerator_1_get_Current_m28688_gshared)(__this, method)

@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt64>>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt64>>
 #include "mscorlib_System_Comparison_1_gen_83MethodDeclarations.h"
-#define Comparison_1__ctor_m52933(__this, ___object, ___method, method) (( void (*) (Comparison_1_t7769 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m52830_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m52930(__this, ___object, ___method, method) (( void (*) (Comparison_1_t7769 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m52827_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt64>>::Invoke(T,T)
-#define Comparison_1_Invoke_m52934(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t7769 *, KeyValuePair_2_t7256 , KeyValuePair_2_t7256 , const MethodInfo*))Comparison_1_Invoke_m52831_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m52931(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t7769 *, KeyValuePair_2_t7256 , KeyValuePair_2_t7256 , const MethodInfo*))Comparison_1_Invoke_m52828_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt64>>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m52935(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t7769 *, KeyValuePair_2_t7256 , KeyValuePair_2_t7256 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m52832_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m52932(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t7769 *, KeyValuePair_2_t7256 , KeyValuePair_2_t7256 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m52829_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt64>>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m52936(__this, ___result, method) (( int32_t (*) (Comparison_1_t7769 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m52833_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m52933(__this, ___result, method) (( int32_t (*) (Comparison_1_t7769 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m52830_gshared)(__this, ___result, method)

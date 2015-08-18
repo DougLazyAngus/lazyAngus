@@ -8,4 +8,4 @@
 struct ExecuteInEditMode_t810;
 
 // System.Void UnityEngine.ExecuteInEditMode::.ctor()
-extern "C" void ExecuteInEditMode__ctor_m4487 (ExecuteInEditMode_t810 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExecuteInEditMode__ctor_m4485 (ExecuteInEditMode_t810 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

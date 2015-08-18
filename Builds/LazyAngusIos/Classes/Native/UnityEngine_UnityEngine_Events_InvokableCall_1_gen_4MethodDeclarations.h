@@ -16,14 +16,14 @@ struct UnityAction_1_t8560;
 struct ObjectU5BU5D_t682;
 
 // System.Void UnityEngine.Events.InvokableCall`1<System.Int32>::.ctor(System.Object,System.Reflection.MethodInfo)
-extern "C" void InvokableCall_1__ctor_m62626_gshared (InvokableCall_1_t8559 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method);
-#define InvokableCall_1__ctor_m62626(__this, ___target, ___theFunction, method) (( void (*) (InvokableCall_1_t8559 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_1__ctor_m62626_gshared)(__this, ___target, ___theFunction, method)
+extern "C" void InvokableCall_1__ctor_m62623_gshared (InvokableCall_1_t8559 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method);
+#define InvokableCall_1__ctor_m62623(__this, ___target, ___theFunction, method) (( void (*) (InvokableCall_1_t8559 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_1__ctor_m62623_gshared)(__this, ___target, ___theFunction, method)
 // System.Void UnityEngine.Events.InvokableCall`1<System.Int32>::.ctor(UnityEngine.Events.UnityAction`1<T1>)
-extern "C" void InvokableCall_1__ctor_m62627_gshared (InvokableCall_1_t8559 * __this, UnityAction_1_t8560 * ___callback, const MethodInfo* method);
-#define InvokableCall_1__ctor_m62627(__this, ___callback, method) (( void (*) (InvokableCall_1_t8559 *, UnityAction_1_t8560 *, const MethodInfo*))InvokableCall_1__ctor_m62627_gshared)(__this, ___callback, method)
+extern "C" void InvokableCall_1__ctor_m62624_gshared (InvokableCall_1_t8559 * __this, UnityAction_1_t8560 * ___callback, const MethodInfo* method);
+#define InvokableCall_1__ctor_m62624(__this, ___callback, method) (( void (*) (InvokableCall_1_t8559 *, UnityAction_1_t8560 *, const MethodInfo*))InvokableCall_1__ctor_m62624_gshared)(__this, ___callback, method)
 // System.Void UnityEngine.Events.InvokableCall`1<System.Int32>::Invoke(System.Object[])
-extern "C" void InvokableCall_1_Invoke_m62628_gshared (InvokableCall_1_t8559 * __this, ObjectU5BU5D_t682* ___args, const MethodInfo* method);
-#define InvokableCall_1_Invoke_m62628(__this, ___args, method) (( void (*) (InvokableCall_1_t8559 *, ObjectU5BU5D_t682*, const MethodInfo*))InvokableCall_1_Invoke_m62628_gshared)(__this, ___args, method)
+extern "C" void InvokableCall_1_Invoke_m62625_gshared (InvokableCall_1_t8559 * __this, ObjectU5BU5D_t682* ___args, const MethodInfo* method);
+#define InvokableCall_1_Invoke_m62625(__this, ___args, method) (( void (*) (InvokableCall_1_t8559 *, ObjectU5BU5D_t682*, const MethodInfo*))InvokableCall_1_Invoke_m62625_gshared)(__this, ___args, method)
 // System.Boolean UnityEngine.Events.InvokableCall`1<System.Int32>::Find(System.Object,System.Reflection.MethodInfo)
-extern "C" bool InvokableCall_1_Find_m62629_gshared (InvokableCall_1_t8559 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method);
-#define InvokableCall_1_Find_m62629(__this, ___targetObj, ___method, method) (( bool (*) (InvokableCall_1_t8559 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_1_Find_m62629_gshared)(__this, ___targetObj, ___method, method)
+extern "C" bool InvokableCall_1_Find_m62626_gshared (InvokableCall_1_t8559 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method);
+#define InvokableCall_1_Find_m62626(__this, ___targetObj, ___method, method) (( bool (*) (InvokableCall_1_t8559 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_1_Find_m62626_gshared)(__this, ___targetObj, ___method, method)

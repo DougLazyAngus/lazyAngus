@@ -14,4 +14,4 @@ struct Context_t4597;
 struct Type_t;
 
 // System.Void System.Runtime.Remoting.SingletonIdentity::.ctor(System.String,System.Runtime.Remoting.Contexts.Context,System.Type)
-extern "C" void SingletonIdentity__ctor_m18439 (SingletonIdentity_t4642 * __this, String_t* ___objectUri, Context_t4597 * ___context, Type_t * ___objectType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SingletonIdentity__ctor_m18436 (SingletonIdentity_t4642 * __this, String_t* ___objectUri, Context_t4597 * ___context, Type_t * ___objectType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

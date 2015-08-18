@@ -16,6 +16,6 @@ struct SerializationInfo_t2919;
 // System.Void System.NotSupportedException::.ctor()
 extern "C" void NotSupportedException__ctor_m397 (NotSupportedException_t56 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NotSupportedException::.ctor(System.String)
-extern "C" void NotSupportedException__ctor_m10417 (NotSupportedException_t56 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NotSupportedException__ctor_m10418 (NotSupportedException_t56 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NotSupportedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void NotSupportedException__ctor_m19899 (NotSupportedException_t56 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NotSupportedException__ctor_m19896 (NotSupportedException_t56 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

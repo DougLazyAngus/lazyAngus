@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::.ctor(System.Object,System.IntPtr)
 // System.Action`1<System.Object>
 #include "mscorlib_System_Action_1_gen_34MethodDeclarations.h"
-#define Action_1__ctor_m32469(__this, ___object, ___method, method) (( void (*) (Action_1_t6114 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m23234_gshared)(__this, ___object, ___method, method)
+#define Action_1__ctor_m32466(__this, ___object, ___method, method) (( void (*) (Action_1_t6114 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m23231_gshared)(__this, ___object, ___method, method)
 // System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::Invoke(T)
-#define Action_1_Invoke_m32470(__this, ___obj, method) (( void (*) (Action_1_t6114 *, Task_1_t2437 *, const MethodInfo*))Action_1_Invoke_m23236_gshared)(__this, ___obj, method)
+#define Action_1_Invoke_m32467(__this, ___obj, method) (( void (*) (Action_1_t6114 *, Task_1_t2437 *, const MethodInfo*))Action_1_Invoke_m23233_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Action`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Action_1_BeginInvoke_m32471(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t6114 *, Task_1_t2437 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m23238_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Action_1_BeginInvoke_m32468(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t6114 *, Task_1_t2437 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m23235_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::EndInvoke(System.IAsyncResult)
-#define Action_1_EndInvoke_m32472(__this, ___result, method) (( void (*) (Action_1_t6114 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m23240_gshared)(__this, ___result, method)
+#define Action_1_EndInvoke_m32469(__this, ___result, method) (( void (*) (Action_1_t6114 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m23237_gshared)(__this, ___result, method)

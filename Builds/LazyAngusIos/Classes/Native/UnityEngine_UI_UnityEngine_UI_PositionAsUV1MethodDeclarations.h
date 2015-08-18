@@ -10,6 +10,6 @@ struct PositionAsUV1_t1020;
 struct List_1_t951;
 
 // System.Void UnityEngine.UI.PositionAsUV1::.ctor()
-extern "C" void PositionAsUV1__ctor_m5755 (PositionAsUV1_t1020 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PositionAsUV1__ctor_m5753 (PositionAsUV1_t1020 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.PositionAsUV1::ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
-extern "C" void PositionAsUV1_ModifyVertices_m5756 (PositionAsUV1_t1020 * __this, List_1_t951 * ___verts, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PositionAsUV1_ModifyVertices_m5754 (PositionAsUV1_t1020 * __this, List_1_t951 * ___verts, const MethodInfo* method) IL2CPP_METHOD_ATTR;

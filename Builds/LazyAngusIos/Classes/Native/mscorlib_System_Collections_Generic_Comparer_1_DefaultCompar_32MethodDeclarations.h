@@ -10,8 +10,8 @@ struct DefaultComparer_t8703;
 #include "mscorlib_System_TimeSpan.h"
 
 // System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.TimeSpan>::.ctor()
-extern "C" void DefaultComparer__ctor_m64264_gshared (DefaultComparer_t8703 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m64264(__this, method) (( void (*) (DefaultComparer_t8703 *, const MethodInfo*))DefaultComparer__ctor_m64264_gshared)(__this, method)
+extern "C" void DefaultComparer__ctor_m64261_gshared (DefaultComparer_t8703 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m64261(__this, method) (( void (*) (DefaultComparer_t8703 *, const MethodInfo*))DefaultComparer__ctor_m64261_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.TimeSpan>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m64265_gshared (DefaultComparer_t8703 * __this, TimeSpan_t334  ___x, TimeSpan_t334  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m64265(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t8703 *, TimeSpan_t334 , TimeSpan_t334 , const MethodInfo*))DefaultComparer_Compare_m64265_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t DefaultComparer_Compare_m64262_gshared (DefaultComparer_t8703 * __this, TimeSpan_t334  ___x, TimeSpan_t334  ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m64262(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t8703 *, TimeSpan_t334 , TimeSpan_t334 , const MethodInfo*))DefaultComparer_Compare_m64262_gshared)(__this, ___x, ___y, method)
