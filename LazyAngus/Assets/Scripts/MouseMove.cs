@@ -390,6 +390,11 @@ public class MouseMove : MonoBehaviour
 		}
 
 		startAngleDeg = (float)originHole * MouseHole.angleBetweenHoles;
+		if (isClockwise) {
+			startAngleDeg += 45;
+		} else {
+			startAngleDeg -= 45;
+		}
 
 		float extraRadiusFraction = (float)track / (float)(TweakableParams.numTracks - 1);
 		float extraRadius = (MouseConfig.instance.maxCirclingRadius -
@@ -401,7 +406,7 @@ public class MouseMove : MonoBehaviour
 		this.wiggleType = MouseConfig.MouseWiggleType.NONE;
 
 		int numSections = (int)MouseHole.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType;
-		float angleDistance = numSections * MouseHole.angleBetweenHoles;
+		float angleDistance = numSections * MouseHole.angleBetweenHoles + 45;
 
 		if (isClockwise) {
 			endAngleDeg = startAngleDeg - angleDistance;
