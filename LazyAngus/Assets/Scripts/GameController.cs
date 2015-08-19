@@ -45,9 +45,11 @@ public class GameController : MonoBehaviour {
 	void Update() {
 		if (checkForPhaseChanges) {
 			checkForPhaseChanges = false;
+
 			if (CheckForGameEnd ()) {
 				return;
 			}
+
 			if (CheckForLevelEnd ()) {
 				return;
 			}
