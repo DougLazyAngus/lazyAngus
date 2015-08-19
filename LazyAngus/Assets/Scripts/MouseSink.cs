@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
-public class MouseHole : MonoBehaviour {
+public class MouseSink : MonoBehaviour {
 	public Vector3 meterOffset;
 
 	public enum MouseHoleLocation {
@@ -13,11 +14,9 @@ public class MouseHole : MonoBehaviour {
 		NUM_TYPES,
 	};
 	
-	public MouseHoleLocation mouseHoleLocation;
+	public MouseHoleLocation mouseSinkLocation;
 
 	public static float angleBetweenHoles = (360.0f / (float)MouseHoleLocation.NUM_TYPES);
-	
-	private int savedMouseCount;
 
 	private ThrobForEffect throbForEffect;
 	
@@ -27,16 +26,18 @@ public class MouseHole : MonoBehaviour {
 	public delegate void CapacityChangedEventHandler();
 	public event CapacityChangedEventHandler CapacityChanged;
 
-	public GameObject holeMeterPrototype;
+	public GameObject trapPrototype;
 
-	public TipConfig mouseHoleTip;
+	public TipConfig mouseSinkTip;
 
-	int capacity;
+	List<MouseTrap> mouseTraps;
+	
 	bool registeredForEvents;
 
 	void Awake() {
-		mouseHoleTip = new TipConfig ("mousehole", 
-		                             "A mouse got away from you!\nDon't let that happen again!");
+		mouseSinkTip = new TipConfig ("mousesink", 
+		                              "A mouse got away from you!\nDon't let that happen again!");
+		mouseTraps = new List<MouseTrap>();
 	}
 
 	// Use this for initialization
@@ -44,7 +45,7 @@ public class MouseHole : MonoBehaviour {
 		RegisterForEvents ();
 
 		throbForEffect = gameObject.GetComponent<ThrobForEffect> ();
-		MakeHoleMeter ();
+		MakeSinkMeter ();
 
 		Reset ();
 	}
@@ -74,27 +75,23 @@ public class MouseHole : MonoBehaviour {
 	}
 
 	void Reset() {
-		savedMouseCount = 0;
-		capacity = TweakableParams.GetInitialMicePerHole();
 		throbForEffect.SetThrobbing (false);
 
-		if (MousePopChanged != null) {
-			MousePopChanged ();
-		}
-
-		if (CapacityChanged != null) {
-			CapacityChanged ();
+		while (mouseTraps.Count != 0) {
+			MouseTrap deadMeat = mouseTraps.ElementAt(0);
+			mouseTraps.RemoveAt(0);
+			Object.Destroy(deadMeat.gameObject);
 		}
 	}
 
-	void MakeHoleMeter() {
-		GameObject holeMeterGameObject = Instantiate (holeMeterPrototype, 
+	void MakeSinkMeter() {
+		GameObject sinkMeterGameObject = Instantiate (sinkMeterPrototype, 
 		                                              new Vector3 (0, 0, 0),
 		                                              Quaternion.identity) as GameObject;
-		HoleMeter holeMeter = holeMeterGameObject.GetComponent<HoleMeter> ();
+		MouseSinkMeter holeMeter = sinkMeterGameObject.GetComponent<MouseSinkMeter> ();
 		holeMeter.TrackHole (this);
 
-		WorldObjectFollower wof = holeMeterGameObject.GetComponent<WorldObjectFollower> ();
+		WorldObjectFollower wof = sinkMeterGameObject.GetComponent<WorldObjectFollower> ();
 		wof.SetObjectToFollow (this.gameObject, 
 		                       meterOffset, 
 		                       false);
@@ -104,7 +101,7 @@ public class MouseHole : MonoBehaviour {
 		throbForEffect.SetThrobbing (true);
 	}
 
-	bool CountSavedMouse(MouseMove mouse) {
+	bool MaybeCountSavedMouse(MouseMove mouse) {
 		// We can never have more than max.
 		if (savedMouseCount < capacity) {
 			savedMouseCount++;

@@ -1,8 +1,8 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class OnMouseEntersHole : MonoBehaviour {
-	public MouseHole mouseHole;
+	public MouseSink mouseHole;
 
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.tag != "MouseCollider") {

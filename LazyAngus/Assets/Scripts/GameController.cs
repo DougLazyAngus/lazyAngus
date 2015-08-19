@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 using System.Collections;
@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour {
 	public float startWait = 1.5f;
 	public float minSpawnWait = 0.25f;
 	public float maxSpawnWait = 1.0f;
-	public MouseHole[] mouseHoles;
+	public MouseSink[] mouseHoles;
 	
 	private MouseSpawnFromData mouseSpawnFromData;
 
@@ -118,7 +118,7 @@ public class GameController : MonoBehaviour {
 
 	void MaybeIncrementMouseHoleCapacity() {
 		LevelDescription ld = LevelConfig.instance.GetLevelDescription (GameLevelState.instance.gameLevel);
-		EnumAccumulator<MouseHole.MouseHoleLocation> ta = ld.mouseHolesAccumulator;
+		EnumAccumulator<MouseSink.MouseHoleLocation> ta = ld.mouseHolesAccumulator;
 		for (int i = 0; i < ta.derivedCount.Length; i++) {
 			mouseHoles [i].SetCapacity (ta.derivedCount[i]);
 		}
@@ -132,7 +132,7 @@ public class GameController : MonoBehaviour {
 		mouseSpawnFromData.AddMice (ld.explicitMouseDescs);
 	}
 
-	MouseHole FindDoomedMouseHole() {
+	MouseSink FindDoomedMouseHole() {
 		for (int i = 0; i < 4; i++) {
 			if (mouseHoles [i].IsFull()) {
 				return mouseHoles[i];
@@ -151,7 +151,7 @@ public class GameController : MonoBehaviour {
 			return false;
 		}
 
-		MouseHole doomedMouseHole = this.FindDoomedMouseHole ();		
+		MouseSink doomedMouseHole = this.FindDoomedMouseHole ();		
 		if (doomedMouseHole != null) {
 			doomedMouseHole.DoDoomedBoxFX ();
 			GamePhaseState.instance.TransitionWithPause (GamePhaseState.GamePhaseType.GAME_OVER);

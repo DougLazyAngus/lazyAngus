@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
@@ -375,7 +375,7 @@ public class MouseMove : MonoBehaviour
 	}
 
 	public void SetupMouse (MouseConfig.MouseType mouseType,
-	                       MouseHole.MouseHoleLocation originHole,
+	                       MouseSink.MouseHoleLocation originHole,
 	                       bool isClockwise, 
 	                       int track)
 	{
@@ -389,7 +389,7 @@ public class MouseMove : MonoBehaviour
 			zeroCenteredAngleAdjustmentWhileRunning = 90f;
 		}
 
-		startAngleDeg = (float)originHole * MouseHole.angleBetweenHoles;
+		startAngleDeg = (float)originHole * MouseSink.angleBetweenHoles;
 		if (isClockwise) {
 			startAngleDeg += 45;
 		} else {
@@ -405,8 +405,8 @@ public class MouseMove : MonoBehaviour
 		this.SetMouseType (mouseType);
 		this.wiggleType = MouseConfig.MouseWiggleType.NONE;
 
-		int numSections = (int)MouseHole.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType;
-		float angleDistance = numSections * MouseHole.angleBetweenHoles + 45;
+		int numSections = (int)MouseSink.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType;
+		float angleDistance = numSections * MouseSink.angleBetweenHoles + 45;
 
 		if (isClockwise) {
 			endAngleDeg = startAngleDeg - angleDistance;
