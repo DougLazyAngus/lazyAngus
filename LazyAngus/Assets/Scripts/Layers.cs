@@ -25,6 +25,7 @@ public class Layers : MonoBehaviour {
 	public const int FloorCollision = 13;
 	public const int TriggerSpotCollision = 14;
 	public const int FartCollision = 15;
+	public const int PawCollision = 15;
 
 	public static int UserInteractionsLayerBitmask() {
 		return ((1 << UserInteractions) | 
@@ -45,6 +46,9 @@ public class Layers : MonoBehaviour {
 		Physics2D.IgnoreLayerCollision (FartCollision, 
 		                                UserInteractions,
 		                                true);	
+		Physics2D.IgnoreLayerCollision (PawCollision, 
+		                                UserInteractions,
+		                                true);	
 
 
 		Physics2D.IgnoreLayerCollision (FloorCollision, 
@@ -53,16 +57,29 @@ public class Layers : MonoBehaviour {
 		Physics2D.IgnoreLayerCollision (FloorCollision, 
 		                                FartCollision,
 		                                true);	
+		Physics2D.IgnoreLayerCollision (FloorCollision, 
+		                                PawCollision,
+		                                true);	
 
 		Physics2D.IgnoreLayerCollision (TriggerSpotCollision, 
 		                                FartCollision,
 		                                true);	
 		Physics2D.IgnoreLayerCollision (TriggerSpotCollision, 
+		                                PawCollision,
+		                                true);	
+		Physics2D.IgnoreLayerCollision (TriggerSpotCollision, 
 		                                TriggerSpotCollision,
 		                                true);	
-
+		
+		Physics2D.IgnoreLayerCollision (PawCollision, 
+		                                FartCollision,
+		                                true);			
 		Physics2D.IgnoreLayerCollision (FartCollision, 
 		                                FartCollision,
 		                                true);	
+		
+		Physics2D.IgnoreLayerCollision (PawCollision, 
+		                                PawCollision,
+		                                true);			
 	}
 }
