@@ -2,7 +2,35 @@ using UnityEngine;
 using System.Collections;
 
 public class MouseExit : MonoBehaviour {
-	public MouseTrapController mouseHole;
+	bool registeredForEvents;
+	public int savedMouseCount { get; private set; }
+	
+	// Use this for initialization
+	void Start () {
+		RegisterForEvents ();
+	}
+	
+	void OnDestroy() {
+		UnregisterForEvents ();		
+	}
+	
+	void RegisterForEvents() {
+		if (registeredForEvents) {
+			return;
+		}
+		registeredForEvents = true;
+		GamePhaseState.instance.GameInstanceChanged += new GamePhaseState.GameInstanceChangedEventHandler (OnGameInstanceChanged);
+	}
+	
+	void UnregisterForEvents() {
+		if (registeredForEvents) {
+			GamePhaseState.instance.GameInstanceChanged -= new GamePhaseState.GameInstanceChangedEventHandler (OnGameInstanceChanged);
+		}
+	}
+
+	void OnGameInstanceChanged() {
+		savedMouseCount = 0;
+	}
 
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.tag != "MouseCollider") {
@@ -18,6 +46,9 @@ public class MouseExit : MonoBehaviour {
 			return;
 		}
 
-		GameController.instance.OnMouseEscaped ();
+		savedMouseCount += 1;
+
+		// FIXME(dbanks)
+		// Do any kind of SFX around this.
 	}
 }

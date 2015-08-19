@@ -14,8 +14,6 @@ public class MouseTrapController : MonoBehaviour {
 		SOUTH,
 		NUM_TYPES,
 	};
-	
-	public MouseHoleLocation mouseSinkLocation;
 
 	public static float angleBetweenHoles = (360.0f / (float)MouseHoleLocation.NUM_TYPES);
 
@@ -59,7 +57,6 @@ public class MouseTrapController : MonoBehaviour {
 	}
 
 	void Reset() {
-
 		while (transform.childCount != 0) {
 			Transform t = transform.GetChild(0);
 			t.SetParent(null);
@@ -74,15 +71,17 @@ public class MouseTrapController : MonoBehaviour {
 			GameObject mouseTrapGameObject = Instantiate (mouseTrapPrototype, 
 			                               new Vector3(0, 0, 0),
 			                               Quaternion.identity) as GameObject;
-			MouseTrap mouseTrap = mouseTrapGameObject.GetComponent<MouseTrap>();
 			mouseTrapGameObject.transform.SetParent (transform);
+			mouseTrapGameObject.transform.localPosition = new Vector3(0, 0, 0);
+			mouseTrapGameObject.transform.localRotation = Quaternion.identity;
 		}
 	}
 
 
 	public void SetTrapCount(int newTrapCount) {
 		if (trapCount != newTrapCount) {
-			newTrapCount = newTrapCount;
+			trapCount = newTrapCount;
 		}
+		Reset ();
 	}
 }
