@@ -2,17 +2,10 @@
 using System.Collections;
 
 public class InputHandler : MonoBehaviour {
-	static int UserInteractionsLayerBit = 				(1<<9);
-	static int UILayerBit = 							(1<<5);
-	
-
 	public Camera worldCamera;
 	public Camera uxCamera;
 
 	public bool isTouchDevice { get; private set; }
-
-	private int UserInteractionsLayerBitmask = (UserInteractionsLayerBit | UILayerBit);
-
 
 	public static InputHandler instance { get; private set; }
 
@@ -60,13 +53,13 @@ public class InputHandler : MonoBehaviour {
 
 
 		Vector3 uxPoint = uxCamera.ScreenToWorldPoint (clickPosition);
-		if (Physics2D.OverlapPoint (uxPoint, UserInteractionsLayerBitmask)) {
+		if (Physics2D.OverlapPoint (uxPoint, Layers.UserInteractionsLayerBitmask())) {
 			// We clicked on ux.
 			return null;
 		}
 
 		worldPoint = worldCamera.ScreenToWorldPoint (clickPosition);
-		Collider2D collider = Physics2D.OverlapPoint (worldPoint, UserInteractionsLayerBitmask);
+		Collider2D collider = Physics2D.OverlapPoint (worldPoint, Layers.UserInteractionsLayerBitmask());
 		if (collider) {
 			return collider;
 		}

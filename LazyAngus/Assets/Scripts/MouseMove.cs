@@ -14,6 +14,8 @@ public class MouseMove : MonoBehaviour
 	public bool isFartedUpon { get; private set; }
 	public float minDistanceToManuallyOrient = 0.01f;
 
+	public Transform artTransform;
+
 	float mouseAngleDeg;
 
 	float startAngleDeg;
@@ -359,10 +361,15 @@ public class MouseMove : MonoBehaviour
 		baseSpeedM = md.speed;
 
 		Vector3 scaleVector = transform.localScale;
-		float orientation = isClockwise ? -1f : 1f;
 		transform.localScale = new Vector3 (scaleVector.x * md.scale, 
-		                                    scaleVector.y * md.scale * orientation, 
-		                                	scaleVector.z);
+		                                    scaleVector.y * md.scale, 
+		                                    scaleVector.z);
+
+		float orientation = isClockwise ? -1f : 1f;
+		scaleVector = artTransform.localScale;
+		artTransform.localScale = new Vector3 (scaleVector.x, 
+		                                       scaleVector.y * orientation, 
+		                                       scaleVector.z);
 
 		Material [] materials = new Material[1];
 		materials [0] = md.mouseMaterial;
