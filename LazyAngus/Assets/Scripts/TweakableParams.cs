@@ -34,7 +34,7 @@ public class TweakableParams : MonoBehaviour {
 	public const int numTracks = 3;
 
 	// Mouse hole params.
-	public const int initialMicePerHole = 2;
+	public const int initialTrapsPerHole = 1;
 
 	// Initial money and boosts.
 	public const int initialMoney = 1;
@@ -42,7 +42,7 @@ public class TweakableParams : MonoBehaviour {
 
 	public const int debugInitialMoney = 100;
 	public const int debugInitialBoosts = 5;
-	public const int debugInitialMicePerHole = 6;
+	public const int debugInitialTrapsPerHole = 6;
 
 	public const float fastPawsBoostTime = 15.0f;
 	public const float goodEyesBoostTime = 15.0f;
@@ -69,12 +69,12 @@ public class TweakableParams : MonoBehaviour {
 		}
 	}
 	
-	public static int GetInitialMicePerHole ()
+	public static int GetInitialTrapsPerHole ()
 	{
 		if (DebugConfig.instance.useDebugValues) {
-			return debugInitialMicePerHole;
+			return debugInitialTrapsPerHole;
 		} else {
-			return initialMicePerHole;
+			return initialTrapsPerHole;
 		}
 	}
 }

@@ -375,7 +375,7 @@ public class MouseMove : MonoBehaviour
 	}
 
 	public void SetupMouse (MouseConfig.MouseType mouseType,
-	                       MouseSink.MouseHoleLocation originHole,
+	                       MouseTrapController.MouseHoleLocation originHole,
 	                       bool isClockwise, 
 	                       int track)
 	{
@@ -389,7 +389,7 @@ public class MouseMove : MonoBehaviour
 			zeroCenteredAngleAdjustmentWhileRunning = 90f;
 		}
 
-		startAngleDeg = (float)originHole * MouseSink.angleBetweenHoles;
+		startAngleDeg = (float)originHole * MouseTrapController.angleBetweenHoles;
 		if (isClockwise) {
 			startAngleDeg += 45;
 		} else {
@@ -405,8 +405,8 @@ public class MouseMove : MonoBehaviour
 		this.SetMouseType (mouseType);
 		this.wiggleType = MouseConfig.MouseWiggleType.NONE;
 
-		int numSections = (int)MouseSink.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType;
-		float angleDistance = numSections * MouseSink.angleBetweenHoles + 45;
+		int numSections = (int)MouseTrapController.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType;
+		float angleDistance = numSections * MouseTrapController.angleBetweenHoles + 45;
 
 		if (isClockwise) {
 			endAngleDeg = startAngleDeg - angleDistance;

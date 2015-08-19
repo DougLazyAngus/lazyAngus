@@ -12,4 +12,9 @@ public class MouseTrap : MonoBehaviour {
 	void Update () {
 	
 	}
+
+	public void OnTrapSprung() {
+		// Just die.
+		Object.Destroy (gameObject);
+	}
 }

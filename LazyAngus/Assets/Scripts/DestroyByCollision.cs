@@ -2,7 +2,10 @@
 using System.Collections;
 
 public class DestroyByCollision : MonoBehaviour {
+	// FIXME(dbanks)
+	// This is fugly.
 	public PawController pawController;
+	public MouseTrap mouseTrap;
 
 	void OnTriggerEnter2D(Collider2D other) {
 		HandleCollision (other);
@@ -29,7 +32,12 @@ public class DestroyByCollision : MonoBehaviour {
 			}
 		} else {
 			DeadMouseRelay.instance.HandleMouseKill(mouseMove);
-			pawController.CountKill();
+			if (pawController) {
+				pawController.CountKill();
+			}
+			if (mouseTrap) {
+				mouseTrap.OnTrapSprung();
+			}
 		}
 	}
 }

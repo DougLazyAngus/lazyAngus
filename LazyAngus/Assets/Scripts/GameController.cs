@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour {
 	public float startWait = 1.5f;
 	public float minSpawnWait = 0.25f;
 	public float maxSpawnWait = 1.0f;
-	public MouseSink[] mouseHoles;
+	public MouseTrapController[] mouseHoles;
 	
 	private MouseSpawnFromData mouseSpawnFromData;
 
@@ -105,7 +105,7 @@ public class GameController : MonoBehaviour {
 			}
 		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
 			EnqueueMiceForLevel ();
-			MaybeIncrementMouseHoleCapacity ();
+			UpdateMouseSinkTrapCount ();
 			break;
 		case GamePhaseState.GamePhaseType.LEVEL_END:
 			{
@@ -116,11 +116,11 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
-	void MaybeIncrementMouseHoleCapacity() {
+	void UpdateMouseSinkTrapCount() {
 		LevelDescription ld = LevelConfig.instance.GetLevelDescription (GameLevelState.instance.gameLevel);
-		EnumAccumulator<MouseSink.MouseHoleLocation> ta = ld.mouseHolesAccumulator;
+		EnumAccumulator<MouseTrapController.MouseHoleLocation> ta = ld.mouseHolesAccumulator;
 		for (int i = 0; i < ta.derivedCount.Length; i++) {
-			mouseHoles [i].SetCapacity (ta.derivedCount[i]);
+			mouseHoles [i].SetTrapCount (ta.derivedCount[i]);
 		}
 	}
 
@@ -132,16 +132,6 @@ public class GameController : MonoBehaviour {
 		mouseSpawnFromData.AddMice (ld.explicitMouseDescs);
 	}
 
-	MouseSink FindDoomedMouseHole() {
-		for (int i = 0; i < 4; i++) {
-			if (mouseHoles [i].IsFull()) {
-				return mouseHoles[i];
-			}
-		}
-		return null;
-	}
-
-
     public void OnMouseExit(MouseMove mouse) {
 		checkForPhaseChanges = true;
 	}	
@@ -151,9 +141,10 @@ public class GameController : MonoBehaviour {
 			return false;
 		}
 
-		MouseSink doomedMouseHole = this.FindDoomedMouseHole ();		
+		// FIXME)danks)
+		// Add new game over logic.
+		MouseTrapController doomedMouseHole = null;		
 		if (doomedMouseHole != null) {
-			doomedMouseHole.DoDoomedBoxFX ();
 			GamePhaseState.instance.TransitionWithPause (GamePhaseState.GamePhaseType.GAME_OVER);
 			return true;
 		} else {

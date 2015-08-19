@@ -1,8 +1,8 @@
 using UnityEngine;
 using System.Collections;
 
-public class OnMouseEntersHole : MonoBehaviour {
-	public MouseSink mouseHole;
+public class MouseExit : MonoBehaviour {
+	public MouseTrapController mouseHole;
 
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.tag != "MouseCollider") {
@@ -18,13 +18,6 @@ public class OnMouseEntersHole : MonoBehaviour {
 			return;
 		}
 
-		if (mouseMove.isPoisoned) {
-			mouseHole.ClearNMice(TweakableParams.miceKilledPerPoison);
-
-			// This mouse is considered dead.
-			DeadMouseRelay.instance.HandleMouseKill(mouseMove);
-		} else {
-			mouseHole.SaveMouse (mouseMove);
-		}
+		GameController.instance.OnMouseEscaped ();
 	}
 }
