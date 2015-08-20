@@ -11,6 +11,7 @@ public class MouseSinkController : MonoBehaviour {
 	const float spreadAngleDeg = 5f;
 	const float spreadX = 0.2f;
 	const float spreadY = 0.3f;
+	public float trapBasicZ = -0.1f;
 
 	public int savedMouseCount { get; private set; }
 	
@@ -146,7 +147,7 @@ public class MouseSinkController : MonoBehaviour {
 		if (spreadClockwise) {
 			y *= -1;
 		}
-		float z = -0.3f + 0.01f * i;
+		float z = trapBasicZ + 0.01f * i;
 		return new Vector3 (x, y, z);
 	}
 
