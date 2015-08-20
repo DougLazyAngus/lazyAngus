@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DestroyByCollision : MonoBehaviour {
+public class PawCollider : MonoBehaviour {
 	// FIXME(dbanks)
 	// This is fugly.
 	public PawController pawController;
-	public MouseTrap mouseTrap;
 
 	void OnTriggerEnter2D(Collider2D other) {
 		HandleCollision (other);
@@ -34,9 +33,6 @@ public class DestroyByCollision : MonoBehaviour {
 			DeadMouseRelay.instance.HandleMouseKill(mouseMove);
 			if (pawController) {
 				pawController.CountKill();
-			}
-			if (mouseTrap) {
-				mouseTrap.OnTrapSprung();
 			}
 		}
 	}

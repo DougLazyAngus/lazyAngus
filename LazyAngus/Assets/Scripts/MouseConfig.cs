@@ -11,6 +11,7 @@ public class MouseConfig : MonoBehaviour
 		RUNNING, 
 		TURNING_BEFORE_LEAVING,
 		LEAVING,
+		CELEBRATING,
 		NUM_TYPES,
 	};
 	

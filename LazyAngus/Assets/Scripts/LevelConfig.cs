@@ -26,7 +26,7 @@ public class LevelDescription
 	public TipConfig tipConfig;
 	public float tipPause;
 
-	public EnumAccumulator<MouseTrapController.MouseHoleLocation> mouseHolesAccumulator;
+	public EnumAccumulator<MouseSinkController.MouseHoleLocation> mouseHolesAccumulator;
 	public EnumAccumulator<BoostConfig.BoostType> boostsAccumulator;
 	public EnumAccumulator<MouseConfig.MouseWiggleType> wigglesAccumulator;
 	public EnumAccumulator<MouseConfig.MouseType> mouseTypesAccumulator;
@@ -44,8 +44,8 @@ public class LevelDescription
 
 		previousLevelClearedAchievementID = null;
 
-		mouseHolesAccumulator = new EnumAccumulator<MouseTrapController.MouseHoleLocation> (
-			(int)MouseTrapController.MouseHoleLocation.NUM_TYPES);
+		mouseHolesAccumulator = new EnumAccumulator<MouseSinkController.MouseHoleLocation> (
+			(int)MouseSinkController.MouseHoleLocation.NUM_TYPES);
 		boostsAccumulator = new EnumAccumulator<BoostConfig.BoostType> (
 			(int)BoostConfig.BoostType.NUM_TYPES);
 		wigglesAccumulator = new EnumAccumulator<MouseConfig.MouseWiggleType> (
@@ -75,7 +75,7 @@ public class LevelConfig : MonoBehaviour
 	public int minSpoutMice = 6;
 	public int maxSpoutMice = 10;
 	public int superSpeedMiceLevel = 7;
-	private QuasiRandomGenerator<MouseTrapController.MouseHoleLocation> mouseHoleGenerator;
+	private QuasiRandomGenerator<MouseSinkController.MouseHoleLocation> mouseHoleGenerator;
 	private QuasiRandomGenerator<int> trackGenerator;
 	private QuasiRandomGenerator<float> distributedPauseGenerator;
 	private Dictionary<int, LevelDescription> levelDescMap;
@@ -141,7 +141,7 @@ public class LevelConfig : MonoBehaviour
 	private void AddExplicitMouseDesc (ref List<ExplicitMouseDesc> retVal, 
 	                                   float delayToNextMouse,
 	                                   bool isClockwise, 
-				                       MouseTrapController.MouseHoleLocation location, 
+				                       MouseSinkController.MouseHoleLocation location, 
 				                       MouseConfig.MouseType mType, 
 				                       int track,
 	                                   MouseConfig.MouseWiggleType wType = MouseConfig.MouseWiggleType.NONE)
@@ -258,13 +258,13 @@ public class LevelConfig : MonoBehaviour
 	void SetupInitialAccumulators (LevelDescription ld)
 	{
 		// N capacity per hole.
-		ld.mouseHolesAccumulator.AddDerived ((int)MouseTrapController.MouseHoleLocation.NORTH, 
+		ld.mouseHolesAccumulator.AddDerived ((int)MouseSinkController.MouseHoleLocation.NORTH, 
 		                                     TweakableParams.GetInitialTrapsPerHole());
-		ld.mouseHolesAccumulator.AddDerived ((int)MouseTrapController.MouseHoleLocation.SOUTH, 
+		ld.mouseHolesAccumulator.AddDerived ((int)MouseSinkController.MouseHoleLocation.SOUTH, 
 		                                     TweakableParams.GetInitialTrapsPerHole());
-		ld.mouseHolesAccumulator.AddDerived ((int)MouseTrapController.MouseHoleLocation.EAST, 
+		ld.mouseHolesAccumulator.AddDerived ((int)MouseSinkController.MouseHoleLocation.EAST, 
 		                                     TweakableParams.GetInitialTrapsPerHole());
-		ld.mouseHolesAccumulator.AddDerived ((int)MouseTrapController.MouseHoleLocation.WEST, 
+		ld.mouseHolesAccumulator.AddDerived ((int)MouseSinkController.MouseHoleLocation.WEST, 
 		                                     TweakableParams.GetInitialTrapsPerHole());
 
 		// only slow mice. 
@@ -293,22 +293,22 @@ public class LevelConfig : MonoBehaviour
 			SetupInitialAccumulators (ld);
 
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f,
-			                      true, MouseTrapController.MouseHoleLocation.NORTH,
+			                      true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, 
-			                      true, MouseTrapController.MouseHoleLocation.SOUTH,
+			                      true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);
 
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f,
-			                      true, MouseTrapController.MouseHoleLocation.NORTH,
+			                      true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, 
-			                      true, MouseTrapController.MouseHoleLocation.SOUTH,
+			                      true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);	
 			return ld;
@@ -321,27 +321,27 @@ public class LevelConfig : MonoBehaviour
 			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.MEDIUM);
 			
 			// Eight mice, two medium.
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.1f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.1f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.1f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.1f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);	
 			return ld;
@@ -351,37 +351,37 @@ public class LevelConfig : MonoBehaviour
 			ld.specialText = "There's more room in one of the mouse holes!";
 			ld.sprite = mouseHoleIntroSprite;
 
-			ld.mouseHolesAccumulator.AddNew ((int)MouseTrapController.MouseHoleLocation.NORTH);
+			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.NORTH);
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, true, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, true, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.3f, false, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.3f, false, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			return ld;
@@ -398,27 +398,27 @@ public class LevelConfig : MonoBehaviour
 			                              "Earn money for cat food by killing two mice at once!");
 			ld.tipPause = 2.0f;
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			return ld;
@@ -428,37 +428,37 @@ public class LevelConfig : MonoBehaviour
 			ld.specialText = "There's more room in one of the mouse holes!";
 			ld.sprite = mouseHoleIntroSprite;
 			
-			ld.mouseHolesAccumulator.AddNew ((int)MouseTrapController.MouseHoleLocation.SOUTH);
+			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.5f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.5f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			return ld;
@@ -471,43 +471,43 @@ public class LevelConfig : MonoBehaviour
 			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.MEDIUM);
 			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.FAST);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.FAST, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.FAST, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			return ld;
@@ -521,35 +521,35 @@ public class LevelConfig : MonoBehaviour
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
 
 			// Eight mice, two medium.
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      0);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			return ld;
@@ -559,45 +559,45 @@ public class LevelConfig : MonoBehaviour
 			ld.specialText = "Some mouse holes are getting bigger!";
 			ld.sprite = mouseHoleIntroSprite;
 
-			ld.mouseHolesAccumulator.AddNew ((int)MouseTrapController.MouseHoleLocation.EAST);
+			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.FAST, 
 			                      0);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.FAST, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.FAST, 
 			                      2);	
 			return ld;
@@ -610,46 +610,46 @@ public class LevelConfig : MonoBehaviour
 			ld.wigglesAccumulator.AddNew ((int)MouseConfig.MouseWiggleType.BACK_FORTH);
 			
 			// Eight mice, two medium.
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.5f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.5f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.5f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.5f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      0);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.FAST, 
 			                      1, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.FAST, 
 			                      2);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      0, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
@@ -671,7 +671,7 @@ public class LevelConfig : MonoBehaviour
 			ld.specialText = "Some mouse holes are getting bigger!";
 			ld.sprite = mouseHoleIntroSprite;
 			
-			ld.mouseHolesAccumulator.AddNew ((int)MouseTrapController.MouseHoleLocation.WEST);
+			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
 			
 			return ld;
 		}
@@ -685,56 +685,56 @@ public class LevelConfig : MonoBehaviour
 			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.FAST);
 			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.SUPERFAST);
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.FAST, 
 			                      0);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);		
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      0, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      0);
 			
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      0, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);	
@@ -754,7 +754,7 @@ public class LevelConfig : MonoBehaviour
 		if (--glCounter == 0) {
 			ld.specialText = "One mouse hole is growing!";
 			ld.sprite = mouseHoleIntroSprite;
-			ld.mouseHolesAccumulator.AddNew ((int)MouseTrapController.MouseHoleLocation.WEST);
+			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
 
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.DISTRIBUTED, 1);
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.PARADE, 1);
@@ -769,78 +769,78 @@ public class LevelConfig : MonoBehaviour
 
 			ld.wigglesAccumulator.AddNew ((int)MouseConfig.MouseWiggleType.SIDE_SIDE);
 				
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.FAST, 
 			                      0);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.FAST, 
 			                      1, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.FAST, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      0, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      0, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);
 			
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);				
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);
 			
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);	
@@ -853,55 +853,55 @@ public class LevelConfig : MonoBehaviour
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.SUPERFAST);
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.2f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.2f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      1);		
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.4f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.4f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      2);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.1f, true, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.1f, true, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.2f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.2f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      0);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.3f, false, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.3f, false, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.1f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.1f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      1);	
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      0);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.2f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.2f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);
 			return ld;
@@ -921,7 +921,7 @@ public class LevelConfig : MonoBehaviour
 		if (--glCounter == 0) {
 			ld.specialText = "Another mouse hole expands!";
 			ld.sprite = mouseHoleIntroSprite;
-			ld.mouseHolesAccumulator.AddNew ((int)MouseTrapController.MouseHoleLocation.EAST);
+			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
 
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.SPOUT);
 
@@ -934,59 +934,59 @@ public class LevelConfig : MonoBehaviour
 					MouseConfig.MouseWiggleType.ROUND);
 			ld.wigglesAccumulator.AddNew ((int)MouseConfig.MouseWiggleType.ROUND);
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.3f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.3f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1,
 			                      MouseConfig.MouseWiggleType.ROUND);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2,
 			                      MouseConfig.MouseWiggleType.ROUND);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2,
 			                      MouseConfig.MouseWiggleType.ROUND);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      0,
 			                      MouseConfig.MouseWiggleType.ROUND);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.1f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.1f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.4f, true, MouseTrapController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.4f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2,
 			                      MouseConfig.MouseWiggleType.ROUND);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseTrapController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      0,
 			                      MouseConfig.MouseWiggleType.ROUND);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.1f, true, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.1f, true, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);		
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.2f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.2f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      1,
 			                      MouseConfig.MouseWiggleType.ROUND);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.FAST, 
 			                      2,
 			                      MouseConfig.MouseWiggleType.ROUND);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.2f, false, MouseTrapController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.2f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      0);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, true, MouseTrapController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.FAST, 
 			                      0,
 			                      MouseConfig.MouseWiggleType.ROUND);
@@ -1000,7 +1000,7 @@ public class LevelConfig : MonoBehaviour
 		if (--glCounter == 0) {
 			ld.specialText = "One hole is a little more roomy!";
 			ld.sprite = mouseHoleIntroSprite;
-			ld.mouseHolesAccumulator.AddNew ((int)MouseTrapController.MouseHoleLocation.SOUTH);
+			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
 			return ld;
 		}
 		
@@ -1019,7 +1019,7 @@ public class LevelConfig : MonoBehaviour
 		if (--glCounter == 0) {
 			ld.specialText = "One hole is a little more roomy!";
 			ld.sprite = mouseHoleIntroSprite;
-			ld.mouseHolesAccumulator.AddNew ((int)MouseTrapController.MouseHoleLocation.NORTH);
+			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.NORTH);
 			return ld;
 		}
 		
@@ -1036,7 +1036,7 @@ public class LevelConfig : MonoBehaviour
 		if (--glCounter == 0) {
 			ld.specialText = "One hole is a little more roomy!";
 			ld.sprite = mouseHoleIntroSprite;
-			ld.mouseHolesAccumulator.AddNew ((int)MouseTrapController.MouseHoleLocation.NORTH);
+			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.NORTH);
 			return ld;
 		}
 		
@@ -1054,7 +1054,7 @@ public class LevelConfig : MonoBehaviour
 		if (--glCounter == 0) {
 			ld.specialText = "One hole is a little more roomy!";
 			ld.sprite = mouseHoleIntroSprite;
-			ld.mouseHolesAccumulator.AddNew ((int)MouseTrapController.MouseHoleLocation.WEST);
+			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
 			return ld;
 		}
 		
@@ -1070,7 +1070,7 @@ public class LevelConfig : MonoBehaviour
 		if (--glCounter == 0) {
 			ld.specialText = "One hole is a little more roomy!";
 			ld.sprite = mouseHoleIntroSprite;
-			ld.mouseHolesAccumulator.AddNew ((int)MouseTrapController.MouseHoleLocation.SOUTH);
+			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
 			return ld;
 		}
 		
@@ -1088,7 +1088,7 @@ public class LevelConfig : MonoBehaviour
 		if (--glCounter == 0) {
 			ld.specialText = "One hole is a little more roomy!";
 			ld.sprite = mouseHoleIntroSprite;
-			ld.mouseHolesAccumulator.AddNew ((int)MouseTrapController.MouseHoleLocation.EAST);
+			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
 			return ld;
 		}
 	
@@ -1199,7 +1199,7 @@ public class LevelConfig : MonoBehaviour
 		for (int i = 0; i < count; i++) {
 			float pause = distributedPauseGenerator.GetNextValue ();
 			bool isClockwise = (Random.Range (0, 2) == 0);
-			MouseTrapController.MouseHoleLocation location = mouseHoleGenerator.GetNextValue ();
+			MouseSinkController.MouseHoleLocation location = mouseHoleGenerator.GetNextValue ();
 			MouseConfig.MouseType mType = 
 				(MouseConfig.MouseType)mouseTypeGenerator.GetNextValue ();
 			int track = trackGenerator.GetNextValue ();
@@ -1233,7 +1233,7 @@ public class LevelConfig : MonoBehaviour
 			MouseConfig.MouseType mType = 
 				(MouseConfig.MouseType)mouseTypeGenerator.GetNextValue ();
 			int track = trackGenerator.GetNextValue ();
-			MouseTrapController.MouseHoleLocation location = mouseHoleGenerator.GetNextValue ();
+			MouseSinkController.MouseHoleLocation location = mouseHoleGenerator.GetNextValue ();
 
 			if (retVal.Count == count - 1) {
 				pause = paradeEndPause;
@@ -1256,7 +1256,7 @@ public class LevelConfig : MonoBehaviour
 		int count = Random.Range (minSpoutMice, 
 		                          maxSpoutMice + 1);
 		
-		MouseTrapController.MouseHoleLocation location = mouseHoleGenerator.GetNextValue ();
+		MouseSinkController.MouseHoleLocation location = mouseHoleGenerator.GetNextValue ();
 		bool isClockwise = (Random.Range (0, 2) == 0);
 
 		for (int i = 0; i < count; i++) {
@@ -1284,13 +1284,13 @@ public class LevelConfig : MonoBehaviour
 
 	void MakeQuasiRandomGenerators ()
 	{
-		List<MouseTrapController.MouseHoleLocation> holeDist = new List<MouseTrapController.MouseHoleLocation> ();
-		holeDist.Add (MouseTrapController.MouseHoleLocation.NORTH);
-		holeDist.Add (MouseTrapController.MouseHoleLocation.EAST);
-		holeDist.Add (MouseTrapController.MouseHoleLocation.SOUTH);
-		holeDist.Add (MouseTrapController.MouseHoleLocation.WEST);
+		List<MouseSinkController.MouseHoleLocation> holeDist = new List<MouseSinkController.MouseHoleLocation> ();
+		holeDist.Add (MouseSinkController.MouseHoleLocation.NORTH);
+		holeDist.Add (MouseSinkController.MouseHoleLocation.EAST);
+		holeDist.Add (MouseSinkController.MouseHoleLocation.SOUTH);
+		holeDist.Add (MouseSinkController.MouseHoleLocation.WEST);
 
-		mouseHoleGenerator = new QuasiRandomGenerator<MouseTrapController.MouseHoleLocation> (holeDist);
+		mouseHoleGenerator = new QuasiRandomGenerator<MouseSinkController.MouseHoleLocation> (holeDist);
 		mouseHoleGenerator.refreshTrigger = 1;
 		
 		List<int> trackDist = new List<int> ();

@@ -15,7 +15,7 @@ public class ExplicitMouseDesc
 	// Type of mouse.
 	public MouseConfig.MouseType mouseType;
 	// Entry point.
-	public MouseTrapController.MouseHoleLocation mouseHoleLocation;
+	public MouseSinkController.MouseHoleLocation mouseHoleLocation;
 	// orientation.
 	public bool isClockwise;
 	// what track it runs on.
@@ -32,7 +32,7 @@ public class ExplicitMouseDesc
 
 	public ExplicitMouseDesc(float delayToNextMouse,
 	                         bool isClockwise, 
-	                         MouseTrapController.MouseHoleLocation location, 
+	                         MouseSinkController.MouseHoleLocation location, 
 	                         MouseConfig.MouseType mType, 
 	                         int track,
 	                         MouseConfig.MouseWiggleType wType = MouseConfig.MouseWiggleType.NONE)

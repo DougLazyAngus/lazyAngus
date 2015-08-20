@@ -16,7 +16,7 @@ public class SFXPlayer : MonoBehaviour {
 		
 		USE_BOOST,
 		
-		SAFE_MOUSE,
+		MOUSE_TRAP,
 
 		NUM_TYPES,
 	};
@@ -56,7 +56,7 @@ public class SFXPlayer : MonoBehaviour {
 		
 		LoadAudioSource (SFXType.USE_BOOST, "Dinner-bell-sound");
 		
-		LoadAudioSource (SFXType.SAFE_MOUSE, "safemouse.01");
+		LoadAudioSource (SFXType.MOUSE_TRAP, "mouse_trap.03");
 	}
 
 

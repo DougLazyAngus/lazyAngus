@@ -10,8 +10,7 @@ public class GameController : MonoBehaviour {
 	public float startWait = 1.5f;
 	public float minSpawnWait = 0.25f;
 	public float maxSpawnWait = 1.0f;
-	public MouseTrapController[] mouseTrapControllers;
-	public MouseExit[] mouseExits;
+	public MouseSinkController[] mouseSinkControllers;
 
 	int escapedMouseCount;
 	private MouseSpawnFromData mouseSpawnFromData;
@@ -122,9 +121,10 @@ public class GameController : MonoBehaviour {
 
 	void UpdateMouseSinkTrapCount() {
 		LevelDescription ld = LevelConfig.instance.GetLevelDescription (GameLevelState.instance.gameLevel);
-		EnumAccumulator<MouseTrapController.MouseHoleLocation> ta = ld.mouseHolesAccumulator;
+		EnumAccumulator<MouseSinkController.MouseHoleLocation> ta = ld.mouseHolesAccumulator;
 		for (int i = 0; i < ta.derivedCount.Length; i++) {
-			mouseTrapControllers [i].SetTrapCount (ta.derivedCount[i]);
+			// ta.derivedCount is how many the thing should 
+			mouseSinkControllers [i].SetTrapCapacity (ta.derivedCount[i]);
 		}
 	}
 
@@ -147,7 +147,7 @@ public class GameController : MonoBehaviour {
 
 		// FIXME)danks)
 		// Add new game over logic.
-		MouseExit doomedExit = FindDoomedExit();		
+		MouseSinkController doomedExit = FindDoomedExit();		
 		if (doomedExit != null) {
 			GamePhaseState.instance.TransitionWithPause (GamePhaseState.GamePhaseType.GAME_OVER);
 			return true;
@@ -156,9 +156,9 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
-	MouseExit FindDoomedExit() {
-		for (int i = 0; i < mouseExits.Length; i++) {
-			MouseExit me = mouseExits [i];
+	MouseSinkController FindDoomedExit() {
+		for (int i = 0; i < mouseSinkControllers.Length; i++) {
+			MouseSinkController me = mouseSinkControllers [i];
 			if (me.savedMouseCount > 0) {
 				return me;
 			}

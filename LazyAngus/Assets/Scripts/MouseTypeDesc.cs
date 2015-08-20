@@ -3,6 +3,7 @@ using System.Collections;
 
 public class MouseTypeDesc {
 	public Sprite deadMouseSprite;
+	public Sprite exitingMouseSprite;
 	public Sprite introScreenSprite;
 	public Material mouseMaterial;
 
@@ -17,7 +18,10 @@ public class MouseTypeDesc {
 		
 		path = "Textures/NewMice/" + newImageName + ".dead";
 		this.deadMouseSprite = Resources.Load<UnityEngine.Sprite>(path);
-
+		
+		path = "Textures/NewMice/" + newImageName + ".exiting";
+		this.exitingMouseSprite = Resources.Load<UnityEngine.Sprite>(path);
+		
 		path = "Textures/NewMice/Materials/" + newImageName;
 		this.mouseMaterial = Resources.Load<UnityEngine.Material>(path);
 

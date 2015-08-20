@@ -187,6 +187,9 @@ public class MouseMove : MonoBehaviour
 				                            0f,
 				                            (Time.time - phaseStartTime) / MouseConfig.instance.timeToTurn);
 				break;
+			case MouseConfig.MovementPhaseType.CELEBRATING:
+				adjustmentDeg = 30f * Mathf.Sin ((Time.time - phaseStartTime) * Mathf.PI * 2);
+				break;
 			}
 
 			orientationAngleDeg += adjustmentDeg;
@@ -350,7 +353,9 @@ public class MouseMove : MonoBehaviour
 
 	public void OnSafeExit ()
 	{
-		Object.Destroy (this.gameObject);
+		SetPhase (MouseConfig.MovementPhaseType.CELEBRATING);
+		DistortForEffect distortForEffect = GetComponent<DistortForEffect> ();
+		distortForEffect.Distort ();
 	}
 
 	void SetMouseType (MouseConfig.MouseType mt)
@@ -382,7 +387,7 @@ public class MouseMove : MonoBehaviour
 	}
 
 	public void SetupMouse (MouseConfig.MouseType mouseType,
-	                       MouseTrapController.MouseHoleLocation originHole,
+	                       MouseSinkController.MouseHoleLocation originHole,
 	                       bool isClockwise, 
 	                       int track)
 	{
@@ -396,7 +401,7 @@ public class MouseMove : MonoBehaviour
 			zeroCenteredAngleAdjustmentWhileRunning = 90f;
 		}
 
-		startAngleDeg = (float)originHole * MouseTrapController.angleBetweenHoles;
+		startAngleDeg = (float)originHole * MouseSinkController.angleBetweenHoles;
 		if (isClockwise) {
 			startAngleDeg += 45;
 		} else {
@@ -412,8 +417,11 @@ public class MouseMove : MonoBehaviour
 		this.SetMouseType (mouseType);
 		this.wiggleType = MouseConfig.MouseWiggleType.NONE;
 
-		int numSections = (int)MouseTrapController.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType;
-		float angleDistance = numSections * MouseTrapController.angleBetweenHoles + 45;
+		int numSections = (int)MouseSinkController.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType;
+		// FIXME(dbanks)
+		numSections = 0;
+
+		float angleDistance = numSections * MouseSinkController.angleBetweenHoles + 45;
 
 		if (isClockwise) {
 			endAngleDeg = startAngleDeg - angleDistance;

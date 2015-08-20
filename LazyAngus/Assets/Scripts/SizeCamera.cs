@@ -8,9 +8,23 @@ public class SizeCamera : MonoBehaviour {
 	public float screenPixelsTopToIgnore = 0f;
 	public float screenPixelsBottomToIgnore = 0f;
 
+	public delegate void CameraSizedHandler();
+	public event CameraSizedHandler CameraSized;
+
+
+	float finalAspectRatio;
+
+	void Awake() {
+		finalAspectRatio = 0;
+	}
+
+	public float GetAspectRatio() {
+		return finalAspectRatio;
+	}
+
 	public void Configure() {
 		float heightInPixels = (float)Screen.height - (screenPixelsTopToIgnore + screenPixelsBottomToIgnore);
-		float finalAspectRatio = (float)Screen.width / heightInPixels;
+		finalAspectRatio = (float)Screen.width / heightInPixels;
 		
 		float worldHalfHeight = targetWorldHalfHeight;
 		float worldHalfWidth = finalAspectRatio * worldHalfHeight;
@@ -39,5 +53,9 @@ public class SizeCamera : MonoBehaviour {
 		rect.y = bottomViewport;
 		
 		camera.rect = rect;
+
+		if (CameraSized != null) {
+			CameraSized ();
+		}
 	}
 }

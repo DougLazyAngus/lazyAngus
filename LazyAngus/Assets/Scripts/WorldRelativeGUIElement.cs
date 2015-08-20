@@ -53,13 +53,17 @@ public class WorldRelativeGUIElement : MonoBehaviour {
 	}
 
 	protected Vector3 ConvertToParentCanvasPosition(Camera otherCamera,
-	                                           Vector3 otherCameraPosition) {
+	                                                Vector3 otherCameraPosition) {
 		// Other Camera -> Screen.
 		Vector3 screenPos = otherCamera.WorldToScreenPoint(otherCameraPosition);
 		  
 		// Screen -> Parent Canvas Viewport
 		Vector3 viewportPos = parentCamera.ScreenToViewportPoint (screenPos);
+		return ConvertViewportPosToParentCanvasPosition(viewportPos);
+	}
 
+
+	protected Vector3 ConvertViewportPosToParentCanvasPosition(Vector3 viewportPos) {
 		// We want to convert that to canvas units, where the rect is 
 		// (-canvasWidth/2, -canvasHeight/2) to 
 		// (canvasWidth/2, canvasHeight/2);

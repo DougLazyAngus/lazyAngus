@@ -4,6 +4,7 @@ using System.Collections;
 
 public class FlyingAnimation : WorldRelativeGUIElement {
 	RectTransform myRectTransform;
+	RectTransform imageRectTransform;
 	Vector3[] points;
 	float startTime;
 	bool running = false;
@@ -12,7 +13,20 @@ public class FlyingAnimation : WorldRelativeGUIElement {
 	public float endScale;
 	public float extraBulgeScale;
 
+	GameObject uxCanvasGameObject;
+	Canvas uxCanvas;
+	Camera uxCamera;
+
 	public Image image;
+
+	void Awake() {
+		uxCanvasGameObject = GameObject.FindWithTag ("ScalingUXCanvas");
+		SetParentCanvasGameObject (uxCanvasGameObject);
+		uxCanvas = uxCanvasGameObject.GetComponent<Canvas> ();
+		uxCamera = uxCanvas.worldCamera;
+		myRectTransform = GetComponent<RectTransform> ();
+		imageRectTransform = image.GetComponent<RectTransform> ();
+	}
 
 	// Use this for initialization
 	void Start () {
@@ -47,19 +61,27 @@ public class FlyingAnimation : WorldRelativeGUIElement {
 			endScale * scaledTime;
 		float scale = linearScale + bulgeScale;
 
-		myRectTransform.localScale = new Vector3 (scale, scale, 0);
+		imageRectTransform.localScale = new Vector3 (scale, scale, 0);
 	}
 
 	public void Configure(Vector3 worldStartPosition, 
 	                      GameObject canvasTarget) {
-		GameObject uxCanvasGameObject = GameObject.FindWithTag ("ScalingUXCanvas");
-		SetParentCanvasGameObject (uxCanvasGameObject);
+		Vector3 otherCanvasPosition =  ConvertToParentCanvasPosition (uxCamera, 
+		                                                              canvasTarget.transform.position);
 
-		CreatePoints (worldStartPosition, canvasTarget);
-
-		myRectTransform = GetComponent<RectTransform> ();
+		CreatePoints (worldStartPosition, otherCanvasPosition);
+		
 		running = false;
 	}
+
+	public void ConfigureWithViewportPos(Vector3 worldStartPosition, 
+	                                     Vector3 viewportPos) {
+		Vector3 finalCanvasPosition = ConvertViewportPosToParentCanvasPosition (viewportPos);
+		CreatePoints (worldStartPosition, finalCanvasPosition);
+		
+		running = false;
+	}
+	
 
 	public void Run() {
 		startTime = Time.time;
@@ -67,17 +89,10 @@ public class FlyingAnimation : WorldRelativeGUIElement {
 	}
 
 	void CreatePoints(Vector3 worldStartPosition, 
-	                  GameObject canvasTarget) {
+	                  Vector3 otherCanvasPosition) {
 		points = new Vector3[3];
 		
 		points [0] = WorldPositionToParentCanvasPosition (worldStartPosition);
-
-		GameObject uxCanvasGameObject = GameObject.FindWithTag ("ScalingUXCanvas");
-		Canvas uxCanvas = uxCanvasGameObject.GetComponent<Canvas> ();
-		Camera uxCamera = uxCanvas.worldCamera;
-
-		Vector3 otherCanvasPosition =  ConvertToParentCanvasPosition (uxCamera, 
-		                                                              canvasTarget.transform.position);
 
 		points [2] = otherCanvasPosition;
 
