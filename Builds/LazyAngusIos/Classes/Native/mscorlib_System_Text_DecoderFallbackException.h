@@ -5,7 +5,7 @@ struct ByteU5BU5D_t66;
 // System.ArgumentException
 #include "mscorlib_System_ArgumentException.h"
 // System.Text.DecoderFallbackException
-struct  DecoderFallbackException_t4746  : public ArgumentException_t711
+struct  DecoderFallbackException_t4744  : public ArgumentException_t709
 {
 	// System.Byte[] System.Text.DecoderFallbackException::bytes_unknown
 	ByteU5BU5D_t66* ___bytes_unknown_13;

@@ -4,150 +4,150 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1<System.Linq.Expressions.Expression>
-struct List_1_t3366;
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
+struct List_1_t3185;
 // System.Object
 struct Object_t;
-// System.Linq.Expressions.Expression
-struct Expression_t1520;
-// System.Collections.Generic.IEnumerable`1<System.Linq.Expressions.Expression>
-struct IEnumerable_1_t3360;
-// System.Linq.Expressions.Expression[]
-struct ExpressionU5BU5D_t1524;
-// System.Collections.Generic.IEnumerator`1<System.Linq.Expressions.Expression>
-struct IEnumerator_1_t9689;
+// System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
+struct IEnumerable_1_t3311;
+// System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>[]
+struct KeyValuePair_2U5BU5D_t8581;
+// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
+struct IEnumerator_1_t9695;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
-// System.Collections.Generic.ICollection`1<System.Linq.Expressions.Expression>
-struct ICollection_1_t3367;
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>
-struct ReadOnlyCollection_1_t3323;
-// System.Predicate`1<System.Linq.Expressions.Expression>
-struct Predicate_1_t9690;
-// System.Collections.Generic.IComparer`1<System.Linq.Expressions.Expression>
-struct IComparer_1_t9691;
-// System.Comparison`1<System.Linq.Expressions.Expression>
-struct Comparison_1_t9692;
-// System.Collections.Generic.List`1/Enumerator<System.Linq.Expressions.Expression>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_112.h"
+// System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
+struct ICollection_1_t3310;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
+struct ReadOnlyCollection_1_t8582;
+// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
+struct Predicate_1_t8583;
+// System.Collections.Generic.IComparer`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
+struct IComparer_1_t9696;
+// System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
+struct Comparison_1_t8584;
+// System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_16.h"
+// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_14.h"
 
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::.ctor()
-// System.Collections.Generic.List`1<System.Object>
-#include "mscorlib_System_Collections_Generic_List_1_gen_0MethodDeclarations.h"
-#define List_1__ctor_m63012(__this, method) (( void (*) (List_1_t3366 *, const MethodInfo*))List_1__ctor_m3710_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1__ctor_m63013(__this, ___collection, method) (( void (*) (List_1_t3366 *, Object_t*, const MethodInfo*))List_1__ctor_m7469_gshared)(__this, ___collection, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::.ctor(System.Int32)
-#define List_1__ctor_m63014(__this, ___capacity, method) (( void (*) (List_1_t3366 *, int32_t, const MethodInfo*))List_1__ctor_m21567_gshared)(__this, ___capacity, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::.ctor(T[],System.Int32)
-#define List_1__ctor_m63015(__this, ___data, ___size, method) (( void (*) (List_1_t3366 *, ExpressionU5BU5D_t1524*, int32_t, const MethodInfo*))List_1__ctor_m21569_gshared)(__this, ___data, ___size, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::.cctor()
-#define List_1__cctor_m63016(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m21571_gshared)(__this /* static, unused */, method)
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m63017(__this, method) (( Object_t* (*) (List_1_t3366 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m10362_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define List_1_System_Collections_ICollection_CopyTo_m63018(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t3366 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m10345_gshared)(__this, ___array, ___arrayIndex, method)
-// System.Collections.IEnumerator System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.IEnumerable.GetEnumerator()
-#define List_1_System_Collections_IEnumerable_GetEnumerator_m63019(__this, method) (( Object_t * (*) (List_1_t3366 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m10341_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.IList.Add(System.Object)
-#define List_1_System_Collections_IList_Add_m63020(__this, ___item, method) (( int32_t (*) (List_1_t3366 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m10350_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.IList.Contains(System.Object)
-#define List_1_System_Collections_IList_Contains_m63021(__this, ___item, method) (( bool (*) (List_1_t3366 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m10352_gshared)(__this, ___item, method)
-// System.Int32 System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.IList.IndexOf(System.Object)
-#define List_1_System_Collections_IList_IndexOf_m63022(__this, ___item, method) (( int32_t (*) (List_1_t3366 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m10353_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.IList.Insert(System.Int32,System.Object)
-#define List_1_System_Collections_IList_Insert_m63023(__this, ___index, ___item, method) (( void (*) (List_1_t3366 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m10354_gshared)(__this, ___index, ___item, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.IList.Remove(System.Object)
-#define List_1_System_Collections_IList_Remove_m63024(__this, ___item, method) (( void (*) (List_1_t3366 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m10355_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m63025(__this, method) (( bool (*) (List_1_t3366 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m10357_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.ICollection.get_IsSynchronized()
-#define List_1_System_Collections_ICollection_get_IsSynchronized_m63026(__this, method) (( bool (*) (List_1_t3366 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m10343_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.ICollection.get_SyncRoot()
-#define List_1_System_Collections_ICollection_get_SyncRoot_m63027(__this, method) (( Object_t * (*) (List_1_t3366 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m10344_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.IList.get_IsFixedSize()
-#define List_1_System_Collections_IList_get_IsFixedSize_m63028(__this, method) (( bool (*) (List_1_t3366 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m10346_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.IList.get_IsReadOnly()
-#define List_1_System_Collections_IList_get_IsReadOnly_m63029(__this, method) (( bool (*) (List_1_t3366 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m10347_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.IList.get_Item(System.Int32)
-#define List_1_System_Collections_IList_get_Item_m63030(__this, ___index, method) (( Object_t * (*) (List_1_t3366 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m10348_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::System.Collections.IList.set_Item(System.Int32,System.Object)
-#define List_1_System_Collections_IList_set_Item_m63031(__this, ___index, ___value, method) (( void (*) (List_1_t3366 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m10349_gshared)(__this, ___index, ___value, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::Add(T)
-#define List_1_Add_m63032(__this, ___item, method) (( void (*) (List_1_t3366 *, Expression_t1520 *, const MethodInfo*))List_1_Add_m10358_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::GrowIfNeeded(System.Int32)
-#define List_1_GrowIfNeeded_m63033(__this, ___newCount, method) (( void (*) (List_1_t3366 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m21589_gshared)(__this, ___newCount, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::CheckRange(System.Int32,System.Int32)
-#define List_1_CheckRange_m63034(__this, ___idx, ___count, method) (( void (*) (List_1_t3366 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m21591_gshared)(__this, ___idx, ___count, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::AddCollection(System.Collections.Generic.ICollection`1<T>)
-#define List_1_AddCollection_m63035(__this, ___collection, method) (( void (*) (List_1_t3366 *, Object_t*, const MethodInfo*))List_1_AddCollection_m21593_gshared)(__this, ___collection, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_AddEnumerable_m63036(__this, ___enumerable, method) (( void (*) (List_1_t3366 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m21595_gshared)(__this, ___enumerable, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_AddRange_m63037(__this, ___collection, method) (( void (*) (List_1_t3366 *, Object_t*, const MethodInfo*))List_1_AddRange_m21597_gshared)(__this, ___collection, method)
-// System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::AsReadOnly()
-#define List_1_AsReadOnly_m63038(__this, method) (( ReadOnlyCollection_1_t3323 * (*) (List_1_t3366 *, const MethodInfo*))List_1_AsReadOnly_m21599_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::Clear()
-#define List_1_Clear_m63039(__this, method) (( void (*) (List_1_t3366 *, const MethodInfo*))List_1_Clear_m10351_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::Contains(T)
-#define List_1_Contains_m63040(__this, ___item, method) (( bool (*) (List_1_t3366 *, Expression_t1520 *, const MethodInfo*))List_1_Contains_m10359_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m63041(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t3366 *, ExpressionU5BU5D_t1524*, int32_t, const MethodInfo*))List_1_CopyTo_m10360_gshared)(__this, ___array, ___arrayIndex, method)
-// T System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::Find(System.Predicate`1<T>)
-#define List_1_Find_m63042(__this, ___match, method) (( Expression_t1520 * (*) (List_1_t3366 *, Predicate_1_t9690 *, const MethodInfo*))List_1_Find_m21604_gshared)(__this, ___match, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m63043(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t9690 *, const MethodInfo*))List_1_CheckMatch_m21606_gshared)(__this /* static, unused */, ___match, method)
-// System.Int32 System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m63044(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t3366 *, int32_t, int32_t, Predicate_1_t9690 *, const MethodInfo*))List_1_GetIndex_m21608_gshared)(__this, ___startIndex, ___count, ___match, method)
-// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::GetEnumerator()
-#define List_1_GetEnumerator_m63045(__this, method) (( Enumerator_t9693  (*) (List_1_t3366 *, const MethodInfo*))List_1_GetEnumerator_m3866_gshared)(__this, method)
-// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::GetRange(System.Int32,System.Int32)
-#define List_1_GetRange_m63046(__this, ___index, ___count, method) (( List_1_t3366 * (*) (List_1_t3366 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21610_gshared)(__this, ___index, ___count, method)
-// System.Int32 System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::IndexOf(T)
-#define List_1_IndexOf_m63047(__this, ___item, method) (( int32_t (*) (List_1_t3366 *, Expression_t1520 *, const MethodInfo*))List_1_IndexOf_m10363_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::Shift(System.Int32,System.Int32)
-#define List_1_Shift_m63048(__this, ___start, ___delta, method) (( void (*) (List_1_t3366 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m21613_gshared)(__this, ___start, ___delta, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::CheckIndex(System.Int32)
-#define List_1_CheckIndex_m63049(__this, ___index, method) (( void (*) (List_1_t3366 *, int32_t, const MethodInfo*))List_1_CheckIndex_m21615_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::Insert(System.Int32,T)
-#define List_1_Insert_m63050(__this, ___index, ___item, method) (( void (*) (List_1_t3366 *, int32_t, Expression_t1520 *, const MethodInfo*))List_1_Insert_m10364_gshared)(__this, ___index, ___item, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_CheckCollection_m63051(__this, ___collection, method) (( void (*) (List_1_t3366 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m21618_gshared)(__this, ___collection, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_InsertRange_m63052(__this, ___index, ___collection, method) (( void (*) (List_1_t3366 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m21620_gshared)(__this, ___index, ___collection, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::InsertCollection(System.Int32,System.Collections.Generic.ICollection`1<T>)
-#define List_1_InsertCollection_m63053(__this, ___index, ___collection, method) (( void (*) (List_1_t3366 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m21622_gshared)(__this, ___index, ___collection, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_InsertEnumeration_m63054(__this, ___index, ___enumerable, method) (( void (*) (List_1_t3366 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m21624_gshared)(__this, ___index, ___enumerable, method)
-// System.Boolean System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::Remove(T)
-#define List_1_Remove_m63055(__this, ___item, method) (( bool (*) (List_1_t3366 *, Expression_t1520 *, const MethodInfo*))List_1_Remove_m10361_gshared)(__this, ___item, method)
-// System.Int32 System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m63056(__this, ___match, method) (( int32_t (*) (List_1_t3366 *, Predicate_1_t9690 *, const MethodInfo*))List_1_RemoveAll_m21627_gshared)(__this, ___match, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::RemoveAt(System.Int32)
-#define List_1_RemoveAt_m63057(__this, ___index, method) (( void (*) (List_1_t3366 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10356_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::RemoveRange(System.Int32,System.Int32)
-#define List_1_RemoveRange_m63058(__this, ___index, ___count, method) (( void (*) (List_1_t3366 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m21630_gshared)(__this, ___index, ___count, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::Reverse()
-#define List_1_Reverse_m63059(__this, method) (( void (*) (List_1_t3366 *, const MethodInfo*))List_1_Reverse_m21632_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::Sort()
-#define List_1_Sort_m63060(__this, method) (( void (*) (List_1_t3366 *, const MethodInfo*))List_1_Sort_m21634_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::Sort(System.Collections.Generic.IComparer`1<T>)
-#define List_1_Sort_m63061(__this, ___comparer, method) (( void (*) (List_1_t3366 *, Object_t*, const MethodInfo*))List_1_Sort_m21636_gshared)(__this, ___comparer, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m63062(__this, ___comparison, method) (( void (*) (List_1_t3366 *, Comparison_1_t9692 *, const MethodInfo*))List_1_Sort_m21638_gshared)(__this, ___comparison, method)
-// T[] System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::ToArray()
-#define List_1_ToArray_m63063(__this, method) (( ExpressionU5BU5D_t1524* (*) (List_1_t3366 *, const MethodInfo*))List_1_ToArray_m21640_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::TrimExcess()
-#define List_1_TrimExcess_m63064(__this, method) (( void (*) (List_1_t3366 *, const MethodInfo*))List_1_TrimExcess_m21642_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::get_Capacity()
-#define List_1_get_Capacity_m63065(__this, method) (( int32_t (*) (List_1_t3366 *, const MethodInfo*))List_1_get_Capacity_m21644_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::set_Capacity(System.Int32)
-#define List_1_set_Capacity_m63066(__this, ___value, method) (( void (*) (List_1_t3366 *, int32_t, const MethodInfo*))List_1_set_Capacity_m21646_gshared)(__this, ___value, method)
-// System.Int32 System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::get_Count()
-#define List_1_get_Count_m63067(__this, method) (( int32_t (*) (List_1_t3366 *, const MethodInfo*))List_1_get_Count_m10342_gshared)(__this, method)
-// T System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::get_Item(System.Int32)
-#define List_1_get_Item_m63068(__this, ___index, method) (( Expression_t1520 * (*) (List_1_t3366 *, int32_t, const MethodInfo*))List_1_get_Item_m10365_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::set_Item(System.Int32,T)
-#define List_1_set_Item_m63069(__this, ___index, ___value, method) (( void (*) (List_1_t3366 *, int32_t, Expression_t1520 *, const MethodInfo*))List_1_set_Item_m10366_gshared)(__this, ___index, ___value, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::.ctor()
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
+#include "mscorlib_System_Collections_Generic_List_1_gen_71MethodDeclarations.h"
+#define List_1__ctor_m11432(__this, method) (( void (*) (List_1_t3185 *, const MethodInfo*))List_1__ctor_m31522_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1__ctor_m62941(__this, ___collection, method) (( void (*) (List_1_t3185 *, Object_t*, const MethodInfo*))List_1__ctor_m31523_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::.ctor(System.Int32)
+#define List_1__ctor_m62942(__this, ___capacity, method) (( void (*) (List_1_t3185 *, int32_t, const MethodInfo*))List_1__ctor_m31524_gshared)(__this, ___capacity, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::.ctor(T[],System.Int32)
+#define List_1__ctor_m62943(__this, ___data, ___size, method) (( void (*) (List_1_t3185 *, KeyValuePair_2U5BU5D_t8581*, int32_t, const MethodInfo*))List_1__ctor_m31525_gshared)(__this, ___data, ___size, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::.cctor()
+#define List_1__cctor_m62944(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m31526_gshared)(__this /* static, unused */, method)
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m11578(__this, method) (( Object_t* (*) (List_1_t3185 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m31527_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define List_1_System_Collections_ICollection_CopyTo_m11562(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t3185 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m31528_gshared)(__this, ___array, ___arrayIndex, method)
+// System.Collections.IEnumerator System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.IEnumerable.GetEnumerator()
+#define List_1_System_Collections_IEnumerable_GetEnumerator_m11558(__this, method) (( Object_t * (*) (List_1_t3185 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m31529_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.IList.Add(System.Object)
+#define List_1_System_Collections_IList_Add_m11567(__this, ___item, method) (( int32_t (*) (List_1_t3185 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m31530_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.IList.Contains(System.Object)
+#define List_1_System_Collections_IList_Contains_m11569(__this, ___item, method) (( bool (*) (List_1_t3185 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m31531_gshared)(__this, ___item, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.IList.IndexOf(System.Object)
+#define List_1_System_Collections_IList_IndexOf_m11570(__this, ___item, method) (( int32_t (*) (List_1_t3185 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m31532_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.IList.Insert(System.Int32,System.Object)
+#define List_1_System_Collections_IList_Insert_m11571(__this, ___index, ___item, method) (( void (*) (List_1_t3185 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m31533_gshared)(__this, ___index, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.IList.Remove(System.Object)
+#define List_1_System_Collections_IList_Remove_m11572(__this, ___item, method) (( void (*) (List_1_t3185 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m31534_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m11574(__this, method) (( bool (*) (List_1_t3185 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m31535_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.ICollection.get_IsSynchronized()
+#define List_1_System_Collections_ICollection_get_IsSynchronized_m11560(__this, method) (( bool (*) (List_1_t3185 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m31536_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.ICollection.get_SyncRoot()
+#define List_1_System_Collections_ICollection_get_SyncRoot_m11561(__this, method) (( Object_t * (*) (List_1_t3185 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m31537_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.IList.get_IsFixedSize()
+#define List_1_System_Collections_IList_get_IsFixedSize_m11563(__this, method) (( bool (*) (List_1_t3185 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m31538_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.IList.get_IsReadOnly()
+#define List_1_System_Collections_IList_get_IsReadOnly_m11564(__this, method) (( bool (*) (List_1_t3185 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m31539_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.IList.get_Item(System.Int32)
+#define List_1_System_Collections_IList_get_Item_m11565(__this, ___index, method) (( Object_t * (*) (List_1_t3185 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m31540_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::System.Collections.IList.set_Item(System.Int32,System.Object)
+#define List_1_System_Collections_IList_set_Item_m11566(__this, ___index, ___value, method) (( void (*) (List_1_t3185 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m31541_gshared)(__this, ___index, ___value, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::Add(T)
+#define List_1_Add_m11434(__this, ___item, method) (( void (*) (List_1_t3185 *, KeyValuePair_2_t3184 , const MethodInfo*))List_1_Add_m31542_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::GrowIfNeeded(System.Int32)
+#define List_1_GrowIfNeeded_m62945(__this, ___newCount, method) (( void (*) (List_1_t3185 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m31543_gshared)(__this, ___newCount, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::CheckRange(System.Int32,System.Int32)
+#define List_1_CheckRange_m62946(__this, ___idx, ___count, method) (( void (*) (List_1_t3185 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m31544_gshared)(__this, ___idx, ___count, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::AddCollection(System.Collections.Generic.ICollection`1<T>)
+#define List_1_AddCollection_m62947(__this, ___collection, method) (( void (*) (List_1_t3185 *, Object_t*, const MethodInfo*))List_1_AddCollection_m31545_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_AddEnumerable_m62948(__this, ___enumerable, method) (( void (*) (List_1_t3185 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m31546_gshared)(__this, ___enumerable, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_AddRange_m62949(__this, ___collection, method) (( void (*) (List_1_t3185 *, Object_t*, const MethodInfo*))List_1_AddRange_m31547_gshared)(__this, ___collection, method)
+// System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::AsReadOnly()
+#define List_1_AsReadOnly_m62950(__this, method) (( ReadOnlyCollection_1_t8582 * (*) (List_1_t3185 *, const MethodInfo*))List_1_AsReadOnly_m31548_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::Clear()
+#define List_1_Clear_m11568(__this, method) (( void (*) (List_1_t3185 *, const MethodInfo*))List_1_Clear_m31549_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::Contains(T)
+#define List_1_Contains_m11575(__this, ___item, method) (( bool (*) (List_1_t3185 *, KeyValuePair_2_t3184 , const MethodInfo*))List_1_Contains_m31550_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::CopyTo(T[],System.Int32)
+#define List_1_CopyTo_m11576(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t3185 *, KeyValuePair_2U5BU5D_t8581*, int32_t, const MethodInfo*))List_1_CopyTo_m31551_gshared)(__this, ___array, ___arrayIndex, method)
+// T System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::Find(System.Predicate`1<T>)
+#define List_1_Find_m62951(__this, ___match, method) (( KeyValuePair_2_t3184  (*) (List_1_t3185 *, Predicate_1_t8583 *, const MethodInfo*))List_1_Find_m31552_gshared)(__this, ___match, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::CheckMatch(System.Predicate`1<T>)
+#define List_1_CheckMatch_m62952(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t8583 *, const MethodInfo*))List_1_CheckMatch_m31553_gshared)(__this /* static, unused */, ___match, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
+#define List_1_GetIndex_m62953(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t3185 *, int32_t, int32_t, Predicate_1_t8583 *, const MethodInfo*))List_1_GetIndex_m31554_gshared)(__this, ___startIndex, ___count, ___match, method)
+// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::GetEnumerator()
+#define List_1_GetEnumerator_m11428(__this, method) (( Enumerator_t3183  (*) (List_1_t3185 *, const MethodInfo*))List_1_GetEnumerator_m31555_gshared)(__this, method)
+// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::GetRange(System.Int32,System.Int32)
+#define List_1_GetRange_m62954(__this, ___index, ___count, method) (( List_1_t3185 * (*) (List_1_t3185 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m31556_gshared)(__this, ___index, ___count, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::IndexOf(T)
+#define List_1_IndexOf_m11579(__this, ___item, method) (( int32_t (*) (List_1_t3185 *, KeyValuePair_2_t3184 , const MethodInfo*))List_1_IndexOf_m31557_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::Shift(System.Int32,System.Int32)
+#define List_1_Shift_m62955(__this, ___start, ___delta, method) (( void (*) (List_1_t3185 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m31558_gshared)(__this, ___start, ___delta, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::CheckIndex(System.Int32)
+#define List_1_CheckIndex_m62956(__this, ___index, method) (( void (*) (List_1_t3185 *, int32_t, const MethodInfo*))List_1_CheckIndex_m31559_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::Insert(System.Int32,T)
+#define List_1_Insert_m11580(__this, ___index, ___item, method) (( void (*) (List_1_t3185 *, int32_t, KeyValuePair_2_t3184 , const MethodInfo*))List_1_Insert_m31560_gshared)(__this, ___index, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_CheckCollection_m62957(__this, ___collection, method) (( void (*) (List_1_t3185 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m31561_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_InsertRange_m62958(__this, ___index, ___collection, method) (( void (*) (List_1_t3185 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m31562_gshared)(__this, ___index, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::InsertCollection(System.Int32,System.Collections.Generic.ICollection`1<T>)
+#define List_1_InsertCollection_m62959(__this, ___index, ___collection, method) (( void (*) (List_1_t3185 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m31563_gshared)(__this, ___index, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_InsertEnumeration_m62960(__this, ___index, ___enumerable, method) (( void (*) (List_1_t3185 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m31564_gshared)(__this, ___index, ___enumerable, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::Remove(T)
+#define List_1_Remove_m11577(__this, ___item, method) (( bool (*) (List_1_t3185 *, KeyValuePair_2_t3184 , const MethodInfo*))List_1_Remove_m31565_gshared)(__this, ___item, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::RemoveAll(System.Predicate`1<T>)
+#define List_1_RemoveAll_m62961(__this, ___match, method) (( int32_t (*) (List_1_t3185 *, Predicate_1_t8583 *, const MethodInfo*))List_1_RemoveAll_m31566_gshared)(__this, ___match, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::RemoveAt(System.Int32)
+#define List_1_RemoveAt_m11573(__this, ___index, method) (( void (*) (List_1_t3185 *, int32_t, const MethodInfo*))List_1_RemoveAt_m31567_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::RemoveRange(System.Int32,System.Int32)
+#define List_1_RemoveRange_m62962(__this, ___index, ___count, method) (( void (*) (List_1_t3185 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m31568_gshared)(__this, ___index, ___count, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::Reverse()
+#define List_1_Reverse_m62963(__this, method) (( void (*) (List_1_t3185 *, const MethodInfo*))List_1_Reverse_m31569_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::Sort()
+#define List_1_Sort_m62964(__this, method) (( void (*) (List_1_t3185 *, const MethodInfo*))List_1_Sort_m31570_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::Sort(System.Collections.Generic.IComparer`1<T>)
+#define List_1_Sort_m62965(__this, ___comparer, method) (( void (*) (List_1_t3185 *, Object_t*, const MethodInfo*))List_1_Sort_m31571_gshared)(__this, ___comparer, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::Sort(System.Comparison`1<T>)
+#define List_1_Sort_m62966(__this, ___comparison, method) (( void (*) (List_1_t3185 *, Comparison_1_t8584 *, const MethodInfo*))List_1_Sort_m31572_gshared)(__this, ___comparison, method)
+// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::ToArray()
+#define List_1_ToArray_m62967(__this, method) (( KeyValuePair_2U5BU5D_t8581* (*) (List_1_t3185 *, const MethodInfo*))List_1_ToArray_m31573_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::TrimExcess()
+#define List_1_TrimExcess_m62968(__this, method) (( void (*) (List_1_t3185 *, const MethodInfo*))List_1_TrimExcess_m31574_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::get_Capacity()
+#define List_1_get_Capacity_m62969(__this, method) (( int32_t (*) (List_1_t3185 *, const MethodInfo*))List_1_get_Capacity_m31575_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::set_Capacity(System.Int32)
+#define List_1_set_Capacity_m62970(__this, ___value, method) (( void (*) (List_1_t3185 *, int32_t, const MethodInfo*))List_1_set_Capacity_m31576_gshared)(__this, ___value, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::get_Count()
+#define List_1_get_Count_m11559(__this, method) (( int32_t (*) (List_1_t3185 *, const MethodInfo*))List_1_get_Count_m31577_gshared)(__this, method)
+// T System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::get_Item(System.Int32)
+#define List_1_get_Item_m11581(__this, ___index, method) (( KeyValuePair_2_t3184  (*) (List_1_t3185 *, int32_t, const MethodInfo*))List_1_get_Item_m31578_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::set_Item(System.Int32,T)
+#define List_1_set_Item_m11582(__this, ___index, ___value, method) (( void (*) (List_1_t3185 *, int32_t, KeyValuePair_2_t3184 , const MethodInfo*))List_1_set_Item_m31579_gshared)(__this, ___index, ___value, method)

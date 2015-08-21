@@ -5,12 +5,12 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Misc
-struct Misc_t953;
+struct Misc_t951;
 // UnityEngine.Object
-struct Object_t703;
-struct Object_t703_marshaled;
+struct Object_t701;
+struct Object_t701_marshaled;
 
 // System.Void UnityEngine.UI.Misc::Destroy(UnityEngine.Object)
-extern "C" void Misc_Destroy_m5225 (Object_t * __this /* static, unused */, Object_t703 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Misc_Destroy_m5215 (Object_t * __this /* static, unused */, Object_t701 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Misc::DestroyImmediate(UnityEngine.Object)
-extern "C" void Misc_DestroyImmediate_m5226 (Object_t * __this /* static, unused */, Object_t703 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Misc_DestroyImmediate_m5216 (Object_t * __this /* static, unused */, Object_t701 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

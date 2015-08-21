@@ -4,28 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
-struct Enumerator_t6097;
+// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
+struct Enumerator_t6057;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
-struct List_1_t1385;
-// System.Collections.Generic.KeyValuePair`2<System.String,System.String>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_1.h"
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
+struct List_1_t6053;
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_10.h"
 
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_51MethodDeclarations.h"
-#define Enumerator__ctor_m32252(__this, ___l, method) (( void (*) (Enumerator_t6097 *, List_1_t1385 *, const MethodInfo*))Enumerator__ctor_m31489_gshared)(__this, ___l, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m32253(__this, method) (( void (*) (Enumerator_t6097 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m31490_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m32254(__this, method) (( Object_t * (*) (Enumerator_t6097 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m31491_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Dispose()
-#define Enumerator_Dispose_m32255(__this, method) (( void (*) (Enumerator_t6097 *, const MethodInfo*))Enumerator_Dispose_m31492_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::VerifyState()
-#define Enumerator_VerifyState_m32256(__this, method) (( void (*) (Enumerator_t6097 *, const MethodInfo*))Enumerator_VerifyState_m31493_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::MoveNext()
-#define Enumerator_MoveNext_m32257(__this, method) (( bool (*) (Enumerator_t6097 *, const MethodInfo*))Enumerator_MoveNext_m31494_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::get_Current()
-#define Enumerator_get_Current_m32258(__this, method) (( KeyValuePair_2_t302  (*) (Enumerator_t6097 *, const MethodInfo*))Enumerator_get_Current_m31495_gshared)(__this, method)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_52MethodDeclarations.h"
+#define Enumerator__ctor_m31767(__this, ___l, method) (( void (*) (Enumerator_t6057 *, List_1_t6053 *, const MethodInfo*))Enumerator__ctor_m31580_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::System.Collections.IEnumerator.Reset()
+#define Enumerator_System_Collections_IEnumerator_Reset_m31768(__this, method) (( void (*) (Enumerator_t6057 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m31581_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m31769(__this, method) (( Object_t * (*) (Enumerator_t6057 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m31582_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::Dispose()
+#define Enumerator_Dispose_m31770(__this, method) (( void (*) (Enumerator_t6057 *, const MethodInfo*))Enumerator_Dispose_m31583_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::VerifyState()
+#define Enumerator_VerifyState_m31771(__this, method) (( void (*) (Enumerator_t6057 *, const MethodInfo*))Enumerator_VerifyState_m31584_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::MoveNext()
+#define Enumerator_MoveNext_m31772(__this, method) (( bool (*) (Enumerator_t6057 *, const MethodInfo*))Enumerator_MoveNext_m31585_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::get_Current()
+#define Enumerator_get_Current_m31773(__this, method) (( KeyValuePair_2_t775  (*) (Enumerator_t6057 *, const MethodInfo*))Enumerator_get_Current_m31586_gshared)(__this, method)

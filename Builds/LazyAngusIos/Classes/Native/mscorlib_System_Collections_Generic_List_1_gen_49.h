@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.GUILayoutEntry[]
-struct GUILayoutEntryU5BU5D_t8399;
+// UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard[]
+struct GcLeaderboardU5BU5D_t8386;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>
-struct  List_1_t2716  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
+struct  List_1_t2695  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>::_items
-	GUILayoutEntryU5BU5D_t8399* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_items
+	GcLeaderboardU5BU5D_t8386* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_version
 	int32_t ____version_3;
 };
-struct List_1_t2716_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>::EmptyArray
-	GUILayoutEntryU5BU5D_t8399* ___EmptyArray_4;
+struct List_1_t2695_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::EmptyArray
+	GcLeaderboardU5BU5D_t8386* ___EmptyArray_4;
 };

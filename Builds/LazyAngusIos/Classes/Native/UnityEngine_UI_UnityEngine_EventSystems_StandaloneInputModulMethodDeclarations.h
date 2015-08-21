@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.StandaloneInputModule/InputMode
-struct InputMode_t893;
+struct InputMode_t891;
 

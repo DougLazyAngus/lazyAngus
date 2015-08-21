@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Action`1<System.Threading.Tasks.Task>
-struct Action_1_t1172;
+struct Action_1_t1170;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.Tasks.Task/<>c__DisplayClass8
-struct  U3CU3Ec__DisplayClass8_t1341  : public Object_t
+struct  U3CU3Ec__DisplayClass8_t1339  : public Object_t
 {
 	// System.Action`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task/<>c__DisplayClass8::continuation
-	Action_1_t1172 * ___continuation_0;
+	Action_1_t1170 * ___continuation_0;
 };

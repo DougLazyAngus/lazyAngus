@@ -4,28 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct Predicate_1_t6045;
+// System.Predicate`1<System.WeakReference>
+struct Predicate_1_t6028;
 // System.Object
 struct Object_t;
+// System.WeakReference
+struct WeakReference_t2222;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0.h"
 
-// System.Void System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::.ctor(System.Object,System.IntPtr)
-extern "C" void Predicate_1__ctor_m31570_gshared (Predicate_1_t6045 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Predicate_1__ctor_m31570(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6045 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m31570_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::Invoke(T)
-extern "C" bool Predicate_1_Invoke_m31571_gshared (Predicate_1_t6045 * __this, KeyValuePair_2_t70  ___obj, const MethodInfo* method);
-#define Predicate_1_Invoke_m31571(__this, ___obj, method) (( bool (*) (Predicate_1_t6045 *, KeyValuePair_2_t70 , const MethodInfo*))Predicate_1_Invoke_m31571_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Predicate_1_BeginInvoke_m31572_gshared (Predicate_1_t6045 * __this, KeyValuePair_2_t70  ___obj, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Predicate_1_BeginInvoke_m31572(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6045 *, KeyValuePair_2_t70 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m31572_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::EndInvoke(System.IAsyncResult)
-extern "C" bool Predicate_1_EndInvoke_m31573_gshared (Predicate_1_t6045 * __this, Object_t * ___result, const MethodInfo* method);
-#define Predicate_1_EndInvoke_m31573(__this, ___result, method) (( bool (*) (Predicate_1_t6045 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m31573_gshared)(__this, ___result, method)
+// System.Void System.Predicate`1<System.WeakReference>::.ctor(System.Object,System.IntPtr)
+// System.Predicate`1<System.Object>
+#include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
+#define Predicate_1__ctor_m31405(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6028 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21709_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<System.WeakReference>::Invoke(T)
+#define Predicate_1_Invoke_m31406(__this, ___obj, method) (( bool (*) (Predicate_1_t6028 *, WeakReference_t2222 *, const MethodInfo*))Predicate_1_Invoke_m21710_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<System.WeakReference>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Predicate_1_BeginInvoke_m31407(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6028 *, WeakReference_t2222 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21711_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<System.WeakReference>::EndInvoke(System.IAsyncResult)
+#define Predicate_1_EndInvoke_m31408(__this, ___result, method) (( bool (*) (Predicate_1_t6028 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21712_gshared)(__this, ___result, method)

@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.SynchronizedEventHandler`1<System.ComponentModel.PropertyChangedEventArgs>
-struct SynchronizedEventHandler_1_t1282;
+struct SynchronizedEventHandler_1_t1280;
 // System.Delegate
-struct Delegate_t724;
+struct Delegate_t722;
 // System.Threading.Tasks.Task
-struct Task_t1210;
+struct Task_t1208;
 // System.Object
 struct Object_t;
 // System.ComponentModel.PropertyChangedEventArgs
-struct PropertyChangedEventArgs_t1507;
+struct PropertyChangedEventArgs_t1505;
 
 // System.Void Parse.Internal.SynchronizedEventHandler`1<System.ComponentModel.PropertyChangedEventArgs>::Add(System.Delegate)
 // Parse.Internal.SynchronizedEventHandler`1<System.Object>
 #include "Parse_Unity_Parse_Internal_SynchronizedEventHandler_1_gen_1MethodDeclarations.h"
-#define SynchronizedEventHandler_1_Add_m7622(__this, ___del, method) (( void (*) (SynchronizedEventHandler_1_t1282 *, Delegate_t724 *, const MethodInfo*))SynchronizedEventHandler_1_Add_m30769_gshared)(__this, ___del, method)
+#define SynchronizedEventHandler_1_Add_m7611(__this, ___del, method) (( void (*) (SynchronizedEventHandler_1_t1280 *, Delegate_t722 *, const MethodInfo*))SynchronizedEventHandler_1_Add_m30860_gshared)(__this, ___del, method)
 // System.Void Parse.Internal.SynchronizedEventHandler`1<System.ComponentModel.PropertyChangedEventArgs>::Remove(System.Delegate)
-#define SynchronizedEventHandler_1_Remove_m7623(__this, ___del, method) (( void (*) (SynchronizedEventHandler_1_t1282 *, Delegate_t724 *, const MethodInfo*))SynchronizedEventHandler_1_Remove_m30770_gshared)(__this, ___del, method)
+#define SynchronizedEventHandler_1_Remove_m7612(__this, ___del, method) (( void (*) (SynchronizedEventHandler_1_t1280 *, Delegate_t722 *, const MethodInfo*))SynchronizedEventHandler_1_Remove_m30861_gshared)(__this, ___del, method)
 // System.Threading.Tasks.Task Parse.Internal.SynchronizedEventHandler`1<System.ComponentModel.PropertyChangedEventArgs>::Invoke(System.Object,T)
-#define SynchronizedEventHandler_1_Invoke_m7621(__this, ___sender, ___args, method) (( Task_t1210 * (*) (SynchronizedEventHandler_1_t1282 *, Object_t *, PropertyChangedEventArgs_t1507 *, const MethodInfo*))SynchronizedEventHandler_1_Invoke_m30771_gshared)(__this, ___sender, ___args, method)
+#define SynchronizedEventHandler_1_Invoke_m7610(__this, ___sender, ___args, method) (( Task_t1208 * (*) (SynchronizedEventHandler_1_t1280 *, Object_t *, PropertyChangedEventArgs_t1505 *, const MethodInfo*))SynchronizedEventHandler_1_Invoke_m30862_gshared)(__this, ___sender, ___args, method)
 // System.Void Parse.Internal.SynchronizedEventHandler`1<System.ComponentModel.PropertyChangedEventArgs>::.ctor()
-#define SynchronizedEventHandler_1__ctor_m7577(__this, method) (( void (*) (SynchronizedEventHandler_1_t1282 *, const MethodInfo*))SynchronizedEventHandler_1__ctor_m30772_gshared)(__this, method)
+#define SynchronizedEventHandler_1__ctor_m7566(__this, method) (( void (*) (SynchronizedEventHandler_1_t1280 *, const MethodInfo*))SynchronizedEventHandler_1__ctor_m30863_gshared)(__this, method)

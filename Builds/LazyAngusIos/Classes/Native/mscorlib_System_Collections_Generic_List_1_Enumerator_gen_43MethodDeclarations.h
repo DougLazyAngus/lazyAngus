@@ -4,28 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Graphic>
-struct Enumerator_t5865;
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>
+struct Enumerator_t5864;
 // System.Object
 struct Object_t;
-// UnityEngine.UI.Graphic
-struct Graphic_t922;
-// System.Collections.Generic.List`1<UnityEngine.UI.Graphic>
-struct List_1_t924;
+// UnityEngine.Canvas
+struct Canvas_t543;
+// System.Collections.Generic.List`1<UnityEngine.Canvas>
+struct List_1_t1047;
 
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Graphic>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m29427(__this, ___l, method) (( void (*) (Enumerator_t5865 *, List_1_t924 *, const MethodInfo*))Enumerator__ctor_m21650_gshared)(__this, ___l, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Graphic>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m29428(__this, method) (( void (*) (Enumerator_t5865 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21651_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Graphic>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m29429(__this, method) (( Object_t * (*) (Enumerator_t5865 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21652_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Graphic>::Dispose()
-#define Enumerator_Dispose_m29430(__this, method) (( void (*) (Enumerator_t5865 *, const MethodInfo*))Enumerator_Dispose_m21653_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Graphic>::VerifyState()
-#define Enumerator_VerifyState_m29431(__this, method) (( void (*) (Enumerator_t5865 *, const MethodInfo*))Enumerator_VerifyState_m21654_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Graphic>::MoveNext()
-#define Enumerator_MoveNext_m29432(__this, method) (( bool (*) (Enumerator_t5865 *, const MethodInfo*))Enumerator_MoveNext_m3868_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Graphic>::get_Current()
-#define Enumerator_get_Current_m29433(__this, method) (( Graphic_t922 * (*) (Enumerator_t5865 *, const MethodInfo*))Enumerator_get_Current_m3867_gshared)(__this, method)
+#define Enumerator__ctor_m29417(__this, ___l, method) (( void (*) (Enumerator_t5864 *, List_1_t1047 *, const MethodInfo*))Enumerator__ctor_m21639_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::System.Collections.IEnumerator.Reset()
+#define Enumerator_System_Collections_IEnumerator_Reset_m29418(__this, method) (( void (*) (Enumerator_t5864 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21640_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m29419(__this, method) (( Object_t * (*) (Enumerator_t5864 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21641_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::Dispose()
+#define Enumerator_Dispose_m29420(__this, method) (( void (*) (Enumerator_t5864 *, const MethodInfo*))Enumerator_Dispose_m21642_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::VerifyState()
+#define Enumerator_VerifyState_m29421(__this, method) (( void (*) (Enumerator_t5864 *, const MethodInfo*))Enumerator_VerifyState_m21643_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::MoveNext()
+#define Enumerator_MoveNext_m29422(__this, method) (( bool (*) (Enumerator_t5864 *, const MethodInfo*))Enumerator_MoveNext_m3856_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::get_Current()
+#define Enumerator_get_Current_m29423(__this, method) (( Canvas_t543 * (*) (Enumerator_t5864 *, const MethodInfo*))Enumerator_get_Current_m3855_gshared)(__this, method)

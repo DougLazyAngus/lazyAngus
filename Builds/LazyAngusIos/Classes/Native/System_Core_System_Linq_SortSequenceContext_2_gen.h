@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Func`2<System.Object,System.Object>
-struct Func_2_t1227;
+struct Func_2_t1225;
 // System.Collections.Generic.IComparer`1<System.Object>
-struct IComparer_1_t5650;
+struct IComparer_1_t5648;
 // System.Object[]
-struct ObjectU5BU5D_t682;
+struct ObjectU5BU5D_t680;
 // System.Linq.SortContext`1<System.Object>
 #include "System_Core_System_Linq_SortContext_1_gen.h"
 // System.Linq.SortSequenceContext`2<System.Object,System.Object>
-struct  SortSequenceContext_2_t6065  : public SortContext_1_t6064
+struct  SortSequenceContext_2_t6069  : public SortContext_1_t6068
 {
 	// System.Func`2<TElement,TKey> System.Linq.SortSequenceContext`2<System.Object,System.Object>::selector
-	Func_2_t1227 * ___selector_2;
+	Func_2_t1225 * ___selector_2;
 	// System.Collections.Generic.IComparer`1<TKey> System.Linq.SortSequenceContext`2<System.Object,System.Object>::comparer
 	Object_t* ___comparer_3;
 	// TKey[] System.Linq.SortSequenceContext`2<System.Object,System.Object>::keys
-	ObjectU5BU5D_t682* ___keys_4;
+	ObjectU5BU5D_t680* ___keys_4;
 };

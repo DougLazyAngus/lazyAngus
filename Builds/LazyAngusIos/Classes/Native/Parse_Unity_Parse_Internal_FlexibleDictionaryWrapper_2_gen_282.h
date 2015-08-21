@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,Parse.ParseACL>>
-struct IDictionary_2_t8222;
+struct IDictionary_2_t8226;
 // System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseACL>,System.Object>
-struct Func_2_t7154;
+struct Func_2_t7158;
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.Dictionary`2<System.String,Parse.ParseACL>>,System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
-struct Func_2_t8223;
+struct Func_2_t8227;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.FlexibleDictionaryWrapper`2<System.Object,System.Collections.Generic.Dictionary`2<System.String,Parse.ParseACL>>
-struct  FlexibleDictionaryWrapper_2_t2133  : public Object_t
+struct  FlexibleDictionaryWrapper_2_t2131  : public Object_t
 {
 	// System.Collections.Generic.IDictionary`2<System.String,TIn> Parse.Internal.FlexibleDictionaryWrapper`2<System.Object,System.Collections.Generic.Dictionary`2<System.String,Parse.ParseACL>>::toWrap
 	Object_t* ___toWrap_0;
 };
-struct FlexibleDictionaryWrapper_2_t2133_StaticFields{
+struct FlexibleDictionaryWrapper_2_t2131_StaticFields{
 	// System.Func`2<TIn,TOut> Parse.Internal.FlexibleDictionaryWrapper`2<System.Object,System.Collections.Generic.Dictionary`2<System.String,Parse.ParseACL>>::CS$<>9__CachedAnonymousMethodDelegate1
-	Func_2_t7154 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
+	Func_2_t7158 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
 	// System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,TIn>,System.Collections.Generic.KeyValuePair`2<System.String,TOut>> Parse.Internal.FlexibleDictionaryWrapper`2<System.Object,System.Collections.Generic.Dictionary`2<System.String,Parse.ParseACL>>::CS$<>9__CachedAnonymousMethodDelegate3
-	Func_2_t8223 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate3_2;
+	Func_2_t8227 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate3_2;
 };

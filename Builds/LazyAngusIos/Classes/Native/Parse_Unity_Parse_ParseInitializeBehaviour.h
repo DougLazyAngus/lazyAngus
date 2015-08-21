@@ -3,20 +3,20 @@
 // System.String
 struct String_t;
 // System.Action`1<System.Byte[]>
-struct Action_1_t1248;
+struct Action_1_t1246;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // Parse.ParseInitializeBehaviour
-struct  ParseInitializeBehaviour_t1249  : public MonoBehaviour_t13
+struct  ParseInitializeBehaviour_t1247  : public MonoBehaviour_t13
 {
 	// System.String Parse.ParseInitializeBehaviour::applicationID
 	String_t* ___applicationID_3;
 	// System.String Parse.ParseInitializeBehaviour::dotnetKey
 	String_t* ___dotnetKey_4;
 };
-struct ParseInitializeBehaviour_t1249_StaticFields{
+struct ParseInitializeBehaviour_t1247_StaticFields{
 	// System.Boolean Parse.ParseInitializeBehaviour::isInitialized
 	bool ___isInitialized_2;
 	// System.Action`1<System.Byte[]> Parse.ParseInitializeBehaviour::CS$<>9__CachedAnonymousMethodDelegate1
-	Action_1_t1248 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_5;
+	Action_1_t1246 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_5;
 };

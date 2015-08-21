@@ -3,18 +3,18 @@
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Type[]
-struct TypeU5BU5D_t1203;
+struct TypeU5BU5D_t1201;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.Formatters.Binary.BinaryCommon
-struct  BinaryCommon_t4646  : public Object_t
+struct  BinaryCommon_t4644  : public Object_t
 {
 };
-struct BinaryCommon_t4646_StaticFields{
+struct BinaryCommon_t4644_StaticFields{
 	// System.Byte[] System.Runtime.Serialization.Formatters.Binary.BinaryCommon::BinaryHeader
 	ByteU5BU5D_t66* ___BinaryHeader_0;
 	// System.Type[] System.Runtime.Serialization.Formatters.Binary.BinaryCommon::_typeCodesToType
-	TypeU5BU5D_t1203* ____typeCodesToType_1;
+	TypeU5BU5D_t1201* ____typeCodesToType_1;
 	// System.Byte[] System.Runtime.Serialization.Formatters.Binary.BinaryCommon::_typeCodeMap
 	ByteU5BU5D_t66* ____typeCodeMap_2;
 	// System.Boolean System.Runtime.Serialization.Formatters.Binary.BinaryCommon::UseReflectionSerialization

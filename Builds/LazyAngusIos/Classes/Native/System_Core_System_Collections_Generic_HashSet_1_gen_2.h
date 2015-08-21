@@ -3,24 +3,24 @@
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Collections.Generic.HashSet`1/Link<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>[]
-struct LinkU5BU5D_t5946;
+struct LinkU5BU5D_t5950;
 // System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>[]
-struct ReferenceU5BU5D_t5931;
+struct ReferenceU5BU5D_t5935;
 // System.Collections.Generic.IEqualityComparer`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>
-struct IEqualityComparer_1_t5932;
+struct IEqualityComparer_1_t5936;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2919;
+struct SerializationInfo_t2917;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>
-struct  HashSet_1_t5939  : public Object_t
+struct  HashSet_1_t5943  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::table
 	Int32U5BU5D_t484* ___table_0;
 	// System.Collections.Generic.HashSet`1/Link<T>[] System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::links
-	LinkU5BU5D_t5946* ___links_1;
+	LinkU5BU5D_t5950* ___links_1;
 	// T[] System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::slots
-	ReferenceU5BU5D_t5931* ___slots_2;
+	ReferenceU5BU5D_t5935* ___slots_2;
 	// System.Int32 System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::touched
 	int32_t ___touched_3;
 	// System.Int32 System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::empty_slot
@@ -32,7 +32,7 @@ struct  HashSet_1_t5939  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<T> System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::comparer
 	Object_t* ___comparer_7;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::si
-	SerializationInfo_t2919 * ___si_8;
+	SerializationInfo_t2917 * ___si_8;
 	// System.Int32 System.Collections.Generic.HashSet`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>::generation
 	int32_t ___generation_9;
 };

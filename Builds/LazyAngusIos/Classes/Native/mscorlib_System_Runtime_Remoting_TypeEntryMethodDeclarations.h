@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.TypeEntry
-struct TypeEntry_t4630;
+struct TypeEntry_t4628;
 // System.String
 struct String_t;
 
 // System.String System.Runtime.Remoting.TypeEntry::get_AssemblyName()
-extern "C" String_t* TypeEntry_get_AssemblyName_m18438 (TypeEntry_t4630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TypeEntry_get_AssemblyName_m18427 (TypeEntry_t4628 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.TypeEntry::get_TypeName()
-extern "C" String_t* TypeEntry_get_TypeName_m18439 (TypeEntry_t4630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TypeEntry_get_TypeName_m18428 (TypeEntry_t4628 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

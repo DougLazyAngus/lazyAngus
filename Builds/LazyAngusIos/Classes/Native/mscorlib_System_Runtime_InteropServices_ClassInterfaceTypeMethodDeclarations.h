@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.ClassInterfaceType
-struct ClassInterfaceType_t4572;
+struct ClassInterfaceType_t4570;
 

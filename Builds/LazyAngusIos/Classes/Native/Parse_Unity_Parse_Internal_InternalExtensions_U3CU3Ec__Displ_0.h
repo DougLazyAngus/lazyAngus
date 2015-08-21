@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Func`1<System.Threading.Tasks.Task>
-struct Func_1_t1174;
+struct Func_1_t1172;
 // System.Func`1<System.Threading.Tasks.Task`1<System.Boolean>>
-struct Func_1_t1175;
+struct Func_1_t1173;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.InternalExtensions/<>c__DisplayClassf
-struct  U3CU3Ec__DisplayClassf_t1176  : public Object_t
+struct  U3CU3Ec__DisplayClassf_t1174  : public Object_t
 {
 	// System.Func`1<System.Threading.Tasks.Task> Parse.Internal.InternalExtensions/<>c__DisplayClassf::iterate
-	Func_1_t1174 * ___iterate_0;
+	Func_1_t1172 * ___iterate_0;
 	// System.Func`1<System.Threading.Tasks.Task`1<System.Boolean>> Parse.Internal.InternalExtensions/<>c__DisplayClassf::predicate
-	Func_1_t1175 * ___predicate_1;
+	Func_1_t1173 * ___predicate_1;
 	// System.Func`1<System.Threading.Tasks.Task> Parse.Internal.InternalExtensions/<>c__DisplayClassf::body
-	Func_1_t1174 * ___body_2;
+	Func_1_t1172 * ___body_2;
 };

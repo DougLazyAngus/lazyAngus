@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>
-struct KeyValuePair_2_t6215;
+struct KeyValuePair_2_t6219;
 // System.String
 struct String_t;
 
 // System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>::.ctor(TKey,TValue)
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Byte>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_45MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m33600(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t6215 *, String_t*, bool, const MethodInfo*))KeyValuePair_2__ctor_m33226_gshared)(__this, ___key, ___value, method)
+#define KeyValuePair_2__ctor_m33691(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t6219 *, String_t*, bool, const MethodInfo*))KeyValuePair_2__ctor_m33317_gshared)(__this, ___key, ___value, method)
 // TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>::get_Key()
-#define KeyValuePair_2_get_Key_m33601(__this, method) (( String_t* (*) (KeyValuePair_2_t6215 *, const MethodInfo*))KeyValuePair_2_get_Key_m33227_gshared)(__this, method)
+#define KeyValuePair_2_get_Key_m33692(__this, method) (( String_t* (*) (KeyValuePair_2_t6219 *, const MethodInfo*))KeyValuePair_2_get_Key_m33318_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m33602(__this, ___value, method) (( void (*) (KeyValuePair_2_t6215 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m33228_gshared)(__this, ___value, method)
+#define KeyValuePair_2_set_Key_m33693(__this, ___value, method) (( void (*) (KeyValuePair_2_t6219 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m33319_gshared)(__this, ___value, method)
 // TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>::get_Value()
-#define KeyValuePair_2_get_Value_m33603(__this, method) (( bool (*) (KeyValuePair_2_t6215 *, const MethodInfo*))KeyValuePair_2_get_Value_m33229_gshared)(__this, method)
+#define KeyValuePair_2_get_Value_m33694(__this, method) (( bool (*) (KeyValuePair_2_t6219 *, const MethodInfo*))KeyValuePair_2_get_Value_m33320_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m33604(__this, ___value, method) (( void (*) (KeyValuePair_2_t6215 *, bool, const MethodInfo*))KeyValuePair_2_set_Value_m33230_gshared)(__this, ___value, method)
+#define KeyValuePair_2_set_Value_m33695(__this, ___value, method) (( void (*) (KeyValuePair_2_t6219 *, bool, const MethodInfo*))KeyValuePair_2_set_Value_m33321_gshared)(__this, ___value, method)
 // System.String System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>::ToString()
-#define KeyValuePair_2_ToString_m33605(__this, method) (( String_t* (*) (KeyValuePair_2_t6215 *, const MethodInfo*))KeyValuePair_2_ToString_m33231_gshared)(__this, method)
+#define KeyValuePair_2_ToString_m33696(__this, method) (( String_t* (*) (KeyValuePair_2_t6219 *, const MethodInfo*))KeyValuePair_2_ToString_m33322_gshared)(__this, method)

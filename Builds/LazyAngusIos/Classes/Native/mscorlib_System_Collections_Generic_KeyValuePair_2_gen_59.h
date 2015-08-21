@@ -7,7 +7,7 @@ struct String_t;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,System.DateTime>
-struct  KeyValuePair_2_t7101 
+struct  KeyValuePair_2_t7105 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.DateTime>::key
 	String_t* ___key_0;

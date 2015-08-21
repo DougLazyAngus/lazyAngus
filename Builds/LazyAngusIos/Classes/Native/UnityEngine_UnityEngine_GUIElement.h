@@ -3,6 +3,6 @@
 // UnityEngine.Behaviour
 #include "UnityEngine_UnityEngine_Behaviour.h"
 // UnityEngine.GUIElement
-struct  GUIElement_t2704  : public Behaviour_t1093
+struct  GUIElement_t2702  : public Behaviour_t1091
 {
 };

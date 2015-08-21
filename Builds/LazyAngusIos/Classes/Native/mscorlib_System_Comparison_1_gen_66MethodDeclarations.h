@@ -4,12 +4,12 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Comparison`1<Parse.ParseACL>
-struct Comparison_1_t6970;
+// System.Comparison`1<Parse.ParseFile>
+struct Comparison_1_t6965;
 // System.Object
 struct Object_t;
-// Parse.ParseACL
-struct ParseACL_t1216;
+// Parse.ParseFile
+struct ParseFile_t1240;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -17,13 +17,13 @@ struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Comparison`1<Parse.ParseACL>::.ctor(System.Object,System.IntPtr)
+// System.Void System.Comparison`1<Parse.ParseFile>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m43503(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6970 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21748_gshared)(__this, ___object, ___method, method)
-// System.Int32 System.Comparison`1<Parse.ParseACL>::Invoke(T,T)
-#define Comparison_1_Invoke_m43504(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6970 *, ParseACL_t1216 *, ParseACL_t1216 *, const MethodInfo*))Comparison_1_Invoke_m21749_gshared)(__this, ___x, ___y, method)
-// System.IAsyncResult System.Comparison`1<Parse.ParseACL>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m43505(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6970 *, ParseACL_t1216 *, ParseACL_t1216 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21750_gshared)(__this, ___x, ___y, ___callback, ___object, method)
-// System.Int32 System.Comparison`1<Parse.ParseACL>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m43506(__this, ___result, method) (( int32_t (*) (Comparison_1_t6970 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21751_gshared)(__this, ___result, method)
+#define Comparison_1__ctor_m43451(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6965 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21737_gshared)(__this, ___object, ___method, method)
+// System.Int32 System.Comparison`1<Parse.ParseFile>::Invoke(T,T)
+#define Comparison_1_Invoke_m43452(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6965 *, ParseFile_t1240 *, ParseFile_t1240 *, const MethodInfo*))Comparison_1_Invoke_m21738_gshared)(__this, ___x, ___y, method)
+// System.IAsyncResult System.Comparison`1<Parse.ParseFile>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+#define Comparison_1_BeginInvoke_m43453(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6965 *, ParseFile_t1240 *, ParseFile_t1240 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21739_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+// System.Int32 System.Comparison`1<Parse.ParseFile>::EndInvoke(System.IAsyncResult)
+#define Comparison_1_EndInvoke_m43454(__this, ___result, method) (( int32_t (*) (Comparison_1_t6965 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21740_gshared)(__this, ___result, method)

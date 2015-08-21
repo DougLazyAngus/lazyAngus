@@ -5,20 +5,20 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaDatatype
-struct XmlSchemaDatatype_t3099;
+struct XmlSchemaDatatype_t3097;
 // System.Xml.XmlQualifiedName
-struct XmlQualifiedName_t3161;
+struct XmlQualifiedName_t3159;
 // System.String
 struct String_t;
 // System.Xml.XmlTokenizedType
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
 
 // System.Void System.Xml.Schema.XmlSchemaDatatype::.ctor()
-extern "C" void XmlSchemaDatatype__ctor_m10499 (XmlSchemaDatatype_t3099 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaDatatype__ctor_m10488 (XmlSchemaDatatype_t3097 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.Schema.XmlSchemaDatatype::.cctor()
-extern "C" void XmlSchemaDatatype__cctor_m10500 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaDatatype__cctor_m10489 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType System.Xml.Schema.XmlSchemaDatatype::get_TokenizedType()
 // System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaDatatype::FromName(System.Xml.XmlQualifiedName)
-extern "C" XmlSchemaDatatype_t3099 * XmlSchemaDatatype_FromName_m10501 (Object_t * __this /* static, unused */, XmlQualifiedName_t3161 * ___qname, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlSchemaDatatype_t3097 * XmlSchemaDatatype_FromName_m10490 (Object_t * __this /* static, unused */, XmlQualifiedName_t3159 * ___qname, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaDatatype::FromName(System.String,System.String)
-extern "C" XmlSchemaDatatype_t3099 * XmlSchemaDatatype_FromName_m10502 (Object_t * __this /* static, unused */, String_t* ___localName, String_t* ___ns, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlSchemaDatatype_t3097 * XmlSchemaDatatype_FromName_m10491 (Object_t * __this /* static, unused */, String_t* ___localName, String_t* ___ns, const MethodInfo* method) IL2CPP_METHOD_ATTR;

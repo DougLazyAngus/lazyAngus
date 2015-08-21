@@ -1,17 +1,17 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IEnumerable`1<System.Byte>
-struct IEnumerable_1_t6310;
+struct IEnumerable_1_t6314;
 // System.Collections.Generic.IEnumerator`1<System.Byte>
-struct IEnumerator_1_t6311;
+struct IEnumerator_1_t6315;
 // System.Func`2<System.Byte,System.Object>
-struct Func_2_t6309;
+struct Func_2_t6313;
 // System.Object
 struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.Object>
-struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6312  : public Object_t
+struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6316  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.Object>::source
 	Object_t* ___source_0;
@@ -20,7 +20,7 @@ struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6312  : public Object_t
 	// TSource System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.Object>::<element>__1
 	uint8_t ___U3CelementU3E__1_2;
 	// System.Func`2<TSource,TResult> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.Object>::selector
-	Func_2_t6309 * ___selector_3;
+	Func_2_t6313 * ___selector_3;
 	// System.Int32 System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.Object>::$PC
 	int32_t ___U24PC_4;
 	// TResult System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.Object>::$current
@@ -28,5 +28,5 @@ struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6312  : public Object_t
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.Object>::<$>source
 	Object_t* ___U3CU24U3Esource_6;
 	// System.Func`2<TSource,TResult> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.Object>::<$>selector
-	Func_2_t6309 * ___U3CU24U3Eselector_7;
+	Func_2_t6313 * ___U3CU24U3Eselector_7;
 };

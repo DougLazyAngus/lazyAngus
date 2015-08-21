@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>
-struct Action_1_t2159;
+struct Action_1_t2157;
 // System.Object
 struct Object_t;
 // System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>
-struct Task_1_t1357;
+struct Task_1_t1355;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>::.ctor(System.Object,System.IntPtr)
 // System.Action`1<System.Object>
 #include "mscorlib_System_Action_1_gen_34MethodDeclarations.h"
-#define Action_1__ctor_m7830(__this, ___object, ___method, method) (( void (*) (Action_1_t2159 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m23231_gshared)(__this, ___object, ___method, method)
+#define Action_1__ctor_m7819(__this, ___object, ___method, method) (( void (*) (Action_1_t2157 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m23220_gshared)(__this, ___object, ___method, method)
 // System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>::Invoke(T)
-#define Action_1_Invoke_m31744(__this, ___obj, method) (( void (*) (Action_1_t2159 *, Task_1_t1357 *, const MethodInfo*))Action_1_Invoke_m23233_gshared)(__this, ___obj, method)
+#define Action_1_Invoke_m31835(__this, ___obj, method) (( void (*) (Action_1_t2157 *, Task_1_t1355 *, const MethodInfo*))Action_1_Invoke_m23222_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Action_1_BeginInvoke_m31745(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t2159 *, Task_1_t1357 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m23235_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Action_1_BeginInvoke_m31836(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t2157 *, Task_1_t1355 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m23224_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>::EndInvoke(System.IAsyncResult)
-#define Action_1_EndInvoke_m31746(__this, ___result, method) (( void (*) (Action_1_t2159 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m23237_gshared)(__this, ___result, method)
+#define Action_1_EndInvoke_m31837(__this, ___result, method) (( void (*) (Action_1_t2157 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m23226_gshared)(__this, ___result, method)

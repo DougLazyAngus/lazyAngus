@@ -5,12 +5,12 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.SerializationBinder
-struct SerializationBinder_t4651;
+struct SerializationBinder_t4649;
 // System.Type
 struct Type_t;
 // System.String
 struct String_t;
 
 // System.Void System.Runtime.Serialization.SerializationBinder::.ctor()
-extern "C" void SerializationBinder__ctor_m18535 (SerializationBinder_t4651 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationBinder__ctor_m18524 (SerializationBinder_t4649 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Serialization.SerializationBinder::BindToType(System.String,System.String)

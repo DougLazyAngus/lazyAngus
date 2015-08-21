@@ -3,6 +3,6 @@
 // UnityEngine.Collider2D
 #include "UnityEngine_UnityEngine_Collider2D.h"
 // UnityEngine.CircleCollider2D
-struct  CircleCollider2D_t619  : public Collider2D_t699
+struct  CircleCollider2D_t616  : public Collider2D_t697
 {
 };

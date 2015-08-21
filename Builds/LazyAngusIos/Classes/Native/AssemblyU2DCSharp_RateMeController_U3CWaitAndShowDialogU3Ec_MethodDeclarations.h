@@ -4,20 +4,20 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// RateMeController/<WaitAndShowDialog>c__Iterator19
-struct U3CWaitAndShowDialogU3Ec__Iterator19_t630;
+// RateMeController/<WaitAndShowDialog>c__Iterator18
+struct U3CWaitAndShowDialogU3Ec__Iterator18_t627;
 // System.Object
 struct Object_t;
 
-// System.Void RateMeController/<WaitAndShowDialog>c__Iterator19::.ctor()
-extern "C" void U3CWaitAndShowDialogU3Ec__Iterator19__ctor_m3391 (U3CWaitAndShowDialogU3Ec__Iterator19_t630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Object RateMeController/<WaitAndShowDialog>c__Iterator19::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C" Object_t * U3CWaitAndShowDialogU3Ec__Iterator19_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3392 (U3CWaitAndShowDialogU3Ec__Iterator19_t630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Object RateMeController/<WaitAndShowDialog>c__Iterator19::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * U3CWaitAndShowDialogU3Ec__Iterator19_System_Collections_IEnumerator_get_Current_m3393 (U3CWaitAndShowDialogU3Ec__Iterator19_t630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean RateMeController/<WaitAndShowDialog>c__Iterator19::MoveNext()
-extern "C" bool U3CWaitAndShowDialogU3Ec__Iterator19_MoveNext_m3394 (U3CWaitAndShowDialogU3Ec__Iterator19_t630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void RateMeController/<WaitAndShowDialog>c__Iterator19::Dispose()
-extern "C" void U3CWaitAndShowDialogU3Ec__Iterator19_Dispose_m3395 (U3CWaitAndShowDialogU3Ec__Iterator19_t630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void RateMeController/<WaitAndShowDialog>c__Iterator19::Reset()
-extern "C" void U3CWaitAndShowDialogU3Ec__Iterator19_Reset_m3396 (U3CWaitAndShowDialogU3Ec__Iterator19_t630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void RateMeController/<WaitAndShowDialog>c__Iterator18::.ctor()
+extern "C" void U3CWaitAndShowDialogU3Ec__Iterator18__ctor_m3369 (U3CWaitAndShowDialogU3Ec__Iterator18_t627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object RateMeController/<WaitAndShowDialog>c__Iterator18::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C" Object_t * U3CWaitAndShowDialogU3Ec__Iterator18_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3370 (U3CWaitAndShowDialogU3Ec__Iterator18_t627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object RateMeController/<WaitAndShowDialog>c__Iterator18::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * U3CWaitAndShowDialogU3Ec__Iterator18_System_Collections_IEnumerator_get_Current_m3371 (U3CWaitAndShowDialogU3Ec__Iterator18_t627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean RateMeController/<WaitAndShowDialog>c__Iterator18::MoveNext()
+extern "C" bool U3CWaitAndShowDialogU3Ec__Iterator18_MoveNext_m3372 (U3CWaitAndShowDialogU3Ec__Iterator18_t627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void RateMeController/<WaitAndShowDialog>c__Iterator18::Dispose()
+extern "C" void U3CWaitAndShowDialogU3Ec__Iterator18_Dispose_m3373 (U3CWaitAndShowDialogU3Ec__Iterator18_t627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void RateMeController/<WaitAndShowDialog>c__Iterator18::Reset()
+extern "C" void U3CWaitAndShowDialogU3Ec__Iterator18_Reset_m3374 (U3CWaitAndShowDialogU3Ec__Iterator18_t627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

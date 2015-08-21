@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.iOS.NotificationType
-struct NotificationType_t2763;
+struct NotificationType_t2761;
 

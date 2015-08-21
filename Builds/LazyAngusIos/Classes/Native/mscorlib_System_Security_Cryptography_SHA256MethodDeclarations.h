@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.SHA256
-struct SHA256_t3924;
+struct SHA256_t3922;
 // System.String
 struct String_t;
 
 // System.Void System.Security.Cryptography.SHA256::.ctor()
-extern "C" void SHA256__ctor_m18814 (SHA256_t3924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA256__ctor_m18803 (SHA256_t3922 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.SHA256 System.Security.Cryptography.SHA256::Create()
-extern "C" SHA256_t3924 * SHA256_Create_m13167 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SHA256_t3922 * SHA256_Create_m13156 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.SHA256 System.Security.Cryptography.SHA256::Create(System.String)
-extern "C" SHA256_t3924 * SHA256_Create_m18815 (Object_t * __this /* static, unused */, String_t* ___hashName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SHA256_t3922 * SHA256_Create_m18804 (Object_t * __this /* static, unused */, String_t* ___hashName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

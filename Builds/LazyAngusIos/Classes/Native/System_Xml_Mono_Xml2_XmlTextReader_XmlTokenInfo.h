@@ -3,18 +3,18 @@
 // System.String
 struct String_t;
 // Mono.Xml2.XmlTextReader
-struct XmlTextReader_t3262;
+struct XmlTextReader_t3260;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlNodeType
 #include "System_Xml_System_Xml_XmlNodeType.h"
 // Mono.Xml2.XmlTextReader/XmlTokenInfo
-struct  XmlTokenInfo_t3263  : public Object_t
+struct  XmlTokenInfo_t3261  : public Object_t
 {
 	// System.String Mono.Xml2.XmlTextReader/XmlTokenInfo::valueCache
 	String_t* ___valueCache_0;
 	// Mono.Xml2.XmlTextReader Mono.Xml2.XmlTextReader/XmlTokenInfo::Reader
-	XmlTextReader_t3262 * ___Reader_1;
+	XmlTextReader_t3260 * ___Reader_1;
 	// System.String Mono.Xml2.XmlTextReader/XmlTokenInfo::Name
 	String_t* ___Name_2;
 	// System.String Mono.Xml2.XmlTextReader/XmlTokenInfo::LocalName

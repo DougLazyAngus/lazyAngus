@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdGMonthDay
-struct XsdGMonthDay_t3144;
+struct XsdGMonthDay_t3142;
 
 // System.Void Mono.Xml.Schema.XsdGMonthDay::.ctor()
-extern "C" void XsdGMonthDay__ctor_m10494 (XsdGMonthDay_t3144 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdGMonthDay__ctor_m10483 (XsdGMonthDay_t3142 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

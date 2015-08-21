@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.CryptoConfig
-struct CryptoConfig_t3915;
+struct CryptoConfig_t3913;
 // System.Object
 struct Object_t;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t682;
+struct ObjectU5BU5D_t680;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 
 // System.Void System.Security.Cryptography.CryptoConfig::.cctor()
-extern "C" void CryptoConfig__cctor_m18583 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CryptoConfig__cctor_m18572 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.CryptoConfig::Initialize()
-extern "C" void CryptoConfig_Initialize_m18584 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CryptoConfig_Initialize_m18573 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Cryptography.CryptoConfig::CreateFromName(System.String)
-extern "C" Object_t * CryptoConfig_CreateFromName_m13141 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CryptoConfig_CreateFromName_m13130 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Cryptography.CryptoConfig::CreateFromName(System.String,System.Object[])
-extern "C" Object_t * CryptoConfig_CreateFromName_m15169 (Object_t * __this /* static, unused */, String_t* ___name, ObjectU5BU5D_t682* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CryptoConfig_CreateFromName_m15158 (Object_t * __this /* static, unused */, String_t* ___name, ObjectU5BU5D_t680* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Cryptography.CryptoConfig::MapNameToOID(System.String)
-extern "C" String_t* CryptoConfig_MapNameToOID_m13143 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* CryptoConfig_MapNameToOID_m13132 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.CryptoConfig::EncodeOID(System.String)
-extern "C" ByteU5BU5D_t66* CryptoConfig_EncodeOID_m13132 (Object_t * __this /* static, unused */, String_t* ___str, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* CryptoConfig_EncodeOID_m13121 (Object_t * __this /* static, unused */, String_t* ___str, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.CryptoConfig::EncodeLongNumber(System.Int64)
-extern "C" ByteU5BU5D_t66* CryptoConfig_EncodeLongNumber_m18585 (Object_t * __this /* static, unused */, int64_t ___x, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* CryptoConfig_EncodeLongNumber_m18574 (Object_t * __this /* static, unused */, int64_t ___x, const MethodInfo* method) IL2CPP_METHOD_ATTR;

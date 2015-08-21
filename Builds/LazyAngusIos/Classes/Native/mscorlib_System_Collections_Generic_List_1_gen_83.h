@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// Parse.ParseGeoPoint[]
-struct ParseGeoPointU5BU5D_t6859;
+// System.DateTime[]
+struct DateTimeU5BU5D_t4893;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<Parse.ParseGeoPoint>
-struct  List_1_t6860  : public Object_t
+// System.Collections.Generic.List`1<System.DateTime>
+struct  List_1_t6843  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<Parse.ParseGeoPoint>::_items
-	ParseGeoPointU5BU5D_t6859* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<Parse.ParseGeoPoint>::_size
+	// T[] System.Collections.Generic.List`1<System.DateTime>::_items
+	DateTimeU5BU5D_t4893* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.DateTime>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<Parse.ParseGeoPoint>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.DateTime>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6860_StaticFields{
-	// T[] System.Collections.Generic.List`1<Parse.ParseGeoPoint>::EmptyArray
-	ParseGeoPointU5BU5D_t6859* ___EmptyArray_4;
+struct List_1_t6843_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.DateTime>::EmptyArray
+	DateTimeU5BU5D_t4893* ___EmptyArray_4;
 };

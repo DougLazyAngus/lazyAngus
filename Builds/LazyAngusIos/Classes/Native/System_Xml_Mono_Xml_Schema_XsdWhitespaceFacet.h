@@ -5,7 +5,7 @@
 // Mono.Xml.Schema.XsdWhitespaceFacet
 #include "System_Xml_Mono_Xml_Schema_XsdWhitespaceFacet.h"
 // Mono.Xml.Schema.XsdWhitespaceFacet
-struct  XsdWhitespaceFacet_t3097 
+struct  XsdWhitespaceFacet_t3095 
 {
 	// System.Int32 Mono.Xml.Schema.XsdWhitespaceFacet::value__
 	int32_t ___value___1;

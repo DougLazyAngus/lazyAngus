@@ -1,26 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Font
-struct Font_t914;
+struct Font_t912;
 // UnityEngine.GUIStyle
 struct GUIStyle_t107;
 // UnityEngine.GUIStyle[]
-struct GUIStyleU5BU5D_t2727;
+struct GUIStyleU5BU5D_t2725;
 // UnityEngine.GUISettings
-struct GUISettings_t2725;
+struct GUISettings_t2723;
 // System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle>
-struct Dictionary_2_t2728;
+struct Dictionary_2_t2726;
 // UnityEngine.GUISkin/SkinChangedDelegate
-struct SkinChangedDelegate_t2726;
+struct SkinChangedDelegate_t2724;
 // UnityEngine.GUISkin
-struct GUISkin_t780;
+struct GUISkin_t778;
 // UnityEngine.ScriptableObject
 #include "UnityEngine_UnityEngine_ScriptableObject.h"
 // UnityEngine.GUISkin
-struct  GUISkin_t780  : public ScriptableObject_t148
+struct  GUISkin_t778  : public ScriptableObject_t148
 {
 	// UnityEngine.Font UnityEngine.GUISkin::m_Font
-	Font_t914 * ___m_Font_2;
+	Font_t912 * ___m_Font_2;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_box
 	GUIStyle_t107 * ___m_box_3;
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_button
@@ -62,17 +62,17 @@ struct  GUISkin_t780  : public ScriptableObject_t148
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::m_ScrollView
 	GUIStyle_t107 * ___m_ScrollView_22;
 	// UnityEngine.GUIStyle[] UnityEngine.GUISkin::m_CustomStyles
-	GUIStyleU5BU5D_t2727* ___m_CustomStyles_23;
+	GUIStyleU5BU5D_t2725* ___m_CustomStyles_23;
 	// UnityEngine.GUISettings UnityEngine.GUISkin::m_Settings
-	GUISettings_t2725 * ___m_Settings_24;
+	GUISettings_t2723 * ___m_Settings_24;
 	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle> UnityEngine.GUISkin::styles
-	Dictionary_2_t2728 * ___styles_26;
+	Dictionary_2_t2726 * ___styles_26;
 };
-struct GUISkin_t780_StaticFields{
+struct GUISkin_t778_StaticFields{
 	// UnityEngine.GUIStyle UnityEngine.GUISkin::ms_Error
 	GUIStyle_t107 * ___ms_Error_25;
 	// UnityEngine.GUISkin/SkinChangedDelegate UnityEngine.GUISkin::m_SkinChanged
-	SkinChangedDelegate_t2726 * ___m_SkinChanged_27;
+	SkinChangedDelegate_t2724 * ___m_SkinChanged_27;
 	// UnityEngine.GUISkin UnityEngine.GUISkin::current
-	GUISkin_t780 * ___current_28;
+	GUISkin_t778 * ___current_28;
 };

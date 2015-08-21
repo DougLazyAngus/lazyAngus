@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.OutOfMemoryException
-struct  OutOfMemoryException_t4831  : public SystemException_t3230
+struct  OutOfMemoryException_t4829  : public SystemException_t3228
 {
 };

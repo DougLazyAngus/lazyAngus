@@ -5,57 +5,57 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2919;
+struct SerializationInfo_t2917;
 // System.Type
 struct Type_t;
 // System.Runtime.Serialization.IFormatterConverter
-struct IFormatterConverter_t4678;
+struct IFormatterConverter_t4676;
 // System.String
 struct String_t;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.SerializationInfoEnumerator
-struct SerializationInfoEnumerator_t4679;
+struct SerializationInfoEnumerator_t4677;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 
 // System.Void System.Runtime.Serialization.SerializationInfo::.ctor(System.Type,System.Runtime.Serialization.IFormatterConverter)
-extern "C" void SerializationInfo__ctor_m18553 (SerializationInfo_t2919 * __this, Type_t * ___type, Object_t * ___converter, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationInfo__ctor_m18542 (SerializationInfo_t2917 * __this, Type_t * ___type, Object_t * ___converter, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Object,System.Type)
-extern "C" void SerializationInfo_AddValue_m15073 (SerializationInfo_t2919 * __this, String_t* ___name, Object_t * ___value, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationInfo_AddValue_m15062 (SerializationInfo_t2917 * __this, String_t* ___name, Object_t * ___value, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Serialization.SerializationInfo::GetValue(System.String,System.Type)
-extern "C" Object_t * SerializationInfo_GetValue_m11463 (SerializationInfo_t2919 * __this, String_t* ___name, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SerializationInfo_GetValue_m11452 (SerializationInfo_t2917 * __this, String_t* ___name, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationInfo::SetType(System.Type)
-extern "C" void SerializationInfo_SetType_m18554 (SerializationInfo_t2919 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationInfo_SetType_m18543 (SerializationInfo_t2917 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Serialization.SerializationInfoEnumerator System.Runtime.Serialization.SerializationInfo::GetEnumerator()
-extern "C" SerializationInfoEnumerator_t4679 * SerializationInfo_GetEnumerator_m18555 (SerializationInfo_t2919 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SerializationInfoEnumerator_t4677 * SerializationInfo_GetEnumerator_m18544 (SerializationInfo_t2917 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Int16)
-extern "C" void SerializationInfo_AddValue_m18556 (SerializationInfo_t2919 * __this, String_t* ___name, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationInfo_AddValue_m18545 (SerializationInfo_t2917 * __this, String_t* ___name, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Int32)
-extern "C" void SerializationInfo_AddValue_m11465 (SerializationInfo_t2919 * __this, String_t* ___name, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationInfo_AddValue_m11454 (SerializationInfo_t2917 * __this, String_t* ___name, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Boolean)
-extern "C" void SerializationInfo_AddValue_m15074 (SerializationInfo_t2919 * __this, String_t* ___name, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationInfo_AddValue_m15063 (SerializationInfo_t2917 * __this, String_t* ___name, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.DateTime)
-extern "C" void SerializationInfo_AddValue_m18557 (SerializationInfo_t2919 * __this, String_t* ___name, DateTime_t287  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationInfo_AddValue_m18546 (SerializationInfo_t2917 * __this, String_t* ___name, DateTime_t287  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Single)
-extern "C" void SerializationInfo_AddValue_m18558 (SerializationInfo_t2919 * __this, String_t* ___name, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationInfo_AddValue_m18547 (SerializationInfo_t2917 * __this, String_t* ___name, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.UInt32)
-extern "C" void SerializationInfo_AddValue_m18559 (SerializationInfo_t2919 * __this, String_t* ___name, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationInfo_AddValue_m18548 (SerializationInfo_t2917 * __this, String_t* ___name, uint32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Int64)
-extern "C" void SerializationInfo_AddValue_m15113 (SerializationInfo_t2919 * __this, String_t* ___name, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationInfo_AddValue_m15102 (SerializationInfo_t2917 * __this, String_t* ___name, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.UInt64)
-extern "C" void SerializationInfo_AddValue_m18560 (SerializationInfo_t2919 * __this, String_t* ___name, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationInfo_AddValue_m18549 (SerializationInfo_t2917 * __this, String_t* ___name, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Object)
-extern "C" void SerializationInfo_AddValue_m11466 (SerializationInfo_t2919 * __this, String_t* ___name, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationInfo_AddValue_m11455 (SerializationInfo_t2917 * __this, String_t* ___name, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.SerializationInfo::GetBoolean(System.String)
-extern "C" bool SerializationInfo_GetBoolean_m15076 (SerializationInfo_t2919 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SerializationInfo_GetBoolean_m15065 (SerializationInfo_t2917 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Runtime.Serialization.SerializationInfo::GetInt16(System.String)
-extern "C" int16_t SerializationInfo_GetInt16_m18561 (SerializationInfo_t2919 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t SerializationInfo_GetInt16_m18550 (SerializationInfo_t2917 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.Serialization.SerializationInfo::GetInt32(System.String)
-extern "C" int32_t SerializationInfo_GetInt32_m11461 (SerializationInfo_t2919 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SerializationInfo_GetInt32_m11450 (SerializationInfo_t2917 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Runtime.Serialization.SerializationInfo::GetInt64(System.String)
-extern "C" int64_t SerializationInfo_GetInt64_m15112 (SerializationInfo_t2919 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t SerializationInfo_GetInt64_m15101 (SerializationInfo_t2917 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Serialization.SerializationInfo::GetString(System.String)
-extern "C" String_t* SerializationInfo_GetString_m11462 (SerializationInfo_t2919 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SerializationInfo_GetString_m11451 (SerializationInfo_t2917 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Runtime.Serialization.SerializationInfo::GetUInt32(System.String)
-extern "C" uint32_t SerializationInfo_GetUInt32_m18562 (SerializationInfo_t2919 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t SerializationInfo_GetUInt32_m18551 (SerializationInfo_t2917 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;

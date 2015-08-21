@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.iOS.RemoteNotification
-struct  RemoteNotification_t2762  : public Object_t
+struct  RemoteNotification_t2760  : public Object_t
 {
 };

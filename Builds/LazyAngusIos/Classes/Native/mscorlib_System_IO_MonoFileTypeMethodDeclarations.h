@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.MonoFileType
-struct MonoFileType_t4491;
+struct MonoFileType_t4489;
 

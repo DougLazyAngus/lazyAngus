@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.InteropServices.OptionalAttribute
-struct  OptionalAttribute_t4350  : public Attribute_t426
+struct  OptionalAttribute_t4348  : public Attribute_t426
 {
 };

@@ -5,7 +5,7 @@ struct Object_t;
 // System.ArgumentException
 #include "mscorlib_System_ArgumentException.h"
 // System.ArgumentOutOfRangeException
-struct  ArgumentOutOfRangeException_t1473  : public ArgumentException_t711
+struct  ArgumentOutOfRangeException_t1471  : public ArgumentException_t709
 {
 	// System.Object System.ArgumentOutOfRangeException::actual_value
 	Object_t * ___actual_value_13;

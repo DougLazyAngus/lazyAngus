@@ -59,9 +59,6 @@ public class ParseAnalyticsController : MonoBehaviour {
 	}
 
 	void OnGamePhaseChanged() {
-		if (DebugConfig.instance.DebugFlagSet (9)) {
-			return;
-		}
 		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.GAME_OVER) {
 			LogGameOverEvent();
 		}		

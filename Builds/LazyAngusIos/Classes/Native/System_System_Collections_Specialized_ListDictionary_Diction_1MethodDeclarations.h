@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Specialized.ListDictionary/DictionaryNodeCollection/DictionaryNodeCollectionEnumerator
-struct DictionaryNodeCollectionEnumerator_t3959;
+struct DictionaryNodeCollectionEnumerator_t3957;
 // System.Object
 struct Object_t;
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t784;
+struct IDictionaryEnumerator_t782;
 
 // System.Void System.Collections.Specialized.ListDictionary/DictionaryNodeCollection/DictionaryNodeCollectionEnumerator::.ctor(System.Collections.IDictionaryEnumerator,System.Boolean)
-extern "C" void DictionaryNodeCollectionEnumerator__ctor_m13345 (DictionaryNodeCollectionEnumerator_t3959 * __this, Object_t * ___inner, bool ___isKeyList, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DictionaryNodeCollectionEnumerator__ctor_m13334 (DictionaryNodeCollectionEnumerator_t3957 * __this, Object_t * ___inner, bool ___isKeyList, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.Specialized.ListDictionary/DictionaryNodeCollection/DictionaryNodeCollectionEnumerator::get_Current()
-extern "C" Object_t * DictionaryNodeCollectionEnumerator_get_Current_m13346 (DictionaryNodeCollectionEnumerator_t3959 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * DictionaryNodeCollectionEnumerator_get_Current_m13335 (DictionaryNodeCollectionEnumerator_t3957 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Specialized.ListDictionary/DictionaryNodeCollection/DictionaryNodeCollectionEnumerator::MoveNext()
-extern "C" bool DictionaryNodeCollectionEnumerator_MoveNext_m13347 (DictionaryNodeCollectionEnumerator_t3959 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DictionaryNodeCollectionEnumerator_MoveNext_m13336 (DictionaryNodeCollectionEnumerator_t3957 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Specialized.ListDictionary/DictionaryNodeCollection/DictionaryNodeCollectionEnumerator::Reset()
-extern "C" void DictionaryNodeCollectionEnumerator_Reset_m13348 (DictionaryNodeCollectionEnumerator_t3959 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DictionaryNodeCollectionEnumerator_Reset_m13337 (DictionaryNodeCollectionEnumerator_t3957 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.IO.Compression.DeflateStream/ReadMethod
-struct  ReadMethod_t3976  : public MulticastDelegate_t388
+struct  ReadMethod_t3974  : public MulticastDelegate_t388
 {
 };

@@ -5,7 +5,7 @@
 // System.Xml.WriteState
 #include "System_Xml_System_Xml_WriteState.h"
 // System.Xml.WriteState
-struct  WriteState_t3210 
+struct  WriteState_t3208 
 {
 	// System.Int32 System.Xml.WriteState::value__
 	int32_t ___value___1;

@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<System.Net.Cookie>
-struct IList_1_t4187;
+// System.Collections.Generic.IList`1<System.TimeZoneInfo/AdjustmentRule>
+struct IList_1_t8627;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>
-struct  ReadOnlyCollection_1_t8638  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.TimeZoneInfo/AdjustmentRule>
+struct  ReadOnlyCollection_1_t8628  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.Cookie>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.TimeZoneInfo/AdjustmentRule>::list
 	Object_t* ___list_0;
 };

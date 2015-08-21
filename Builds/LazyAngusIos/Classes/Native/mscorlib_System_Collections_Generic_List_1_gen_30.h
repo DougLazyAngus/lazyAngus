@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.EventSystems.PointerInputModule/ButtonState[]
-struct ButtonStateU5BU5D_t5816;
+// UnityEngine.GameObject[]
+struct GameObjectU5BU5D_t505;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
-struct  List_1_t889  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.GameObject>
+struct  List_1_t882  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::_items
-	ButtonStateU5BU5D_t5816* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.GameObject>::_items
+	GameObjectU5BU5D_t505* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::_version
 	int32_t ____version_3;
 };
-struct List_1_t889_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::EmptyArray
-	ButtonStateU5BU5D_t5816* ___EmptyArray_4;
+struct List_1_t882_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.GameObject>::EmptyArray
+	GameObjectU5BU5D_t505* ___EmptyArray_4;
 };

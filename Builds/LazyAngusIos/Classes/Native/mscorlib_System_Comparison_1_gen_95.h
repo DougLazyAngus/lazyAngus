@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard
-struct GcLeaderboard_t2699;
+// System.Action`1<System.Threading.Tasks.Task>
+struct Action_1_t1170;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -10,7 +10,7 @@ struct AsyncCallback_t386;
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct  Comparison_1_t8386  : public MulticastDelegate_t388
+// System.Comparison`1<System.Action`1<System.Threading.Tasks.Task>>
+struct  Comparison_1_t8358  : public MulticastDelegate_t388
 {
 };

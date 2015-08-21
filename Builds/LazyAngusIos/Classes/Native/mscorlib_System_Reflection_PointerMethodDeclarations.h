@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Pointer
-struct Pointer_t4552;
+struct Pointer_t4550;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2919;
+struct SerializationInfo_t2917;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Reflection.Pointer::.ctor()
-extern "C" void Pointer__ctor_m18111 (Pointer_t4552 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Pointer__ctor_m18100 (Pointer_t4550 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.Pointer::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void Pointer_System_Runtime_Serialization_ISerializable_GetObjectData_m18112 (Pointer_t4552 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Pointer_System_Runtime_Serialization_ISerializable_GetObjectData_m18101 (Pointer_t4550 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

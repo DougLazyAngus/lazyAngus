@@ -3,6 +3,6 @@
 // Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
 #include "mscorlib_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOn.h"
 // Microsoft.Win32.SafeHandles.SafeWaitHandle
-struct  SafeWaitHandle_t4363  : public SafeHandleZeroOrMinusOneIsInvalid_t4361
+struct  SafeWaitHandle_t4361  : public SafeHandleZeroOrMinusOneIsInvalid_t4359
 {
 };

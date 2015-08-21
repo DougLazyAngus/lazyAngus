@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.MonoCustomAttrs
-struct MonoCustomAttrs_t4824;
+struct MonoCustomAttrs_t4822;
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t682;
+struct ObjectU5BU5D_t680;
 // System.Reflection.ICustomAttributeProvider
-struct ICustomAttributeProvider_t4884;
+struct ICustomAttributeProvider_t4882;
 // System.Type
 struct Type_t;
 // System.Attribute
@@ -19,31 +19,31 @@ struct Attribute_t426;
 // System.Reflection.PropertyInfo
 struct PropertyInfo_t;
 // System.AttributeUsageAttribute
-struct AttributeUsageAttribute_t808;
+struct AttributeUsageAttribute_t806;
 
 // System.Void System.MonoCustomAttrs::.cctor()
-extern "C" void MonoCustomAttrs__cctor_m19825 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoCustomAttrs__cctor_m19814 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.MonoCustomAttrs::IsUserCattrProvider(System.Object)
-extern "C" bool MonoCustomAttrs_IsUserCattrProvider_m19826 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MonoCustomAttrs_IsUserCattrProvider_m19815 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.MonoCustomAttrs::GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t682* MonoCustomAttrs_GetCustomAttributesInternal_m19827 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___attributeType, bool ___pseudoAttrs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t680* MonoCustomAttrs_GetCustomAttributesInternal_m19816 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___attributeType, bool ___pseudoAttrs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.MonoCustomAttrs::GetPseudoCustomAttributes(System.Reflection.ICustomAttributeProvider,System.Type)
-extern "C" ObjectU5BU5D_t682* MonoCustomAttrs_GetPseudoCustomAttributes_m19828 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t680* MonoCustomAttrs_GetPseudoCustomAttributes_m19817 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.MonoCustomAttrs::GetCustomAttributesBase(System.Reflection.ICustomAttributeProvider,System.Type)
-extern "C" ObjectU5BU5D_t682* MonoCustomAttrs_GetCustomAttributesBase_m19829 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t680* MonoCustomAttrs_GetCustomAttributesBase_m19818 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Attribute System.MonoCustomAttrs::GetCustomAttribute(System.Reflection.ICustomAttributeProvider,System.Type,System.Boolean)
-extern "C" Attribute_t426 * MonoCustomAttrs_GetCustomAttribute_m19830 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Attribute_t426 * MonoCustomAttrs_GetCustomAttribute_m19819 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.MonoCustomAttrs::GetCustomAttributes(System.Reflection.ICustomAttributeProvider,System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t682* MonoCustomAttrs_GetCustomAttributes_m19831 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t680* MonoCustomAttrs_GetCustomAttributes_m19820 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.MonoCustomAttrs::GetCustomAttributes(System.Reflection.ICustomAttributeProvider,System.Boolean)
-extern "C" ObjectU5BU5D_t682* MonoCustomAttrs_GetCustomAttributes_m19832 (Object_t * __this /* static, unused */, Object_t * ___obj, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t680* MonoCustomAttrs_GetCustomAttributes_m19821 (Object_t * __this /* static, unused */, Object_t * ___obj, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.MonoCustomAttrs::IsDefined(System.Reflection.ICustomAttributeProvider,System.Type,System.Boolean)
-extern "C" bool MonoCustomAttrs_IsDefined_m19833 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MonoCustomAttrs_IsDefined_m19822 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.MonoCustomAttrs::IsDefinedInternal(System.Reflection.ICustomAttributeProvider,System.Type)
-extern "C" bool MonoCustomAttrs_IsDefinedInternal_m19834 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___AttributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MonoCustomAttrs_IsDefinedInternal_m19823 (Object_t * __this /* static, unused */, Object_t * ___obj, Type_t * ___AttributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.PropertyInfo System.MonoCustomAttrs::GetBasePropertyDefinition(System.Reflection.PropertyInfo)
-extern "C" PropertyInfo_t * MonoCustomAttrs_GetBasePropertyDefinition_m19835 (Object_t * __this /* static, unused */, PropertyInfo_t * ___property, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PropertyInfo_t * MonoCustomAttrs_GetBasePropertyDefinition_m19824 (Object_t * __this /* static, unused */, PropertyInfo_t * ___property, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ICustomAttributeProvider System.MonoCustomAttrs::GetBase(System.Reflection.ICustomAttributeProvider)
-extern "C" Object_t * MonoCustomAttrs_GetBase_m19836 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MonoCustomAttrs_GetBase_m19825 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.AttributeUsageAttribute System.MonoCustomAttrs::RetrieveAttributeUsage(System.Type)
-extern "C" AttributeUsageAttribute_t808 * MonoCustomAttrs_RetrieveAttributeUsage_m19837 (Object_t * __this /* static, unused */, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AttributeUsageAttribute_t806 * MonoCustomAttrs_RetrieveAttributeUsage_m19826 (Object_t * __this /* static, unused */, Type_t * ___attributeType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

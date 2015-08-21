@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Runtime.InteropServices.MarshalDirectiveException
-struct  MarshalDirectiveException_t4578  : public SystemException_t3230
+struct  MarshalDirectiveException_t4576  : public SystemException_t3228
 {
 };

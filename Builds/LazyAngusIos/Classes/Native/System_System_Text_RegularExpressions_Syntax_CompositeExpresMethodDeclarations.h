@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Syntax.CompositeExpression
-struct CompositeExpression_t4155;
+struct CompositeExpression_t4153;
 // System.Text.RegularExpressions.Syntax.ExpressionCollection
-struct ExpressionCollection_t4153;
+struct ExpressionCollection_t4151;
 
 // System.Void System.Text.RegularExpressions.Syntax.CompositeExpression::.ctor()
-extern "C" void CompositeExpression__ctor_m14862 (CompositeExpression_t4155 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompositeExpression__ctor_m14851 (CompositeExpression_t4153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.ExpressionCollection System.Text.RegularExpressions.Syntax.CompositeExpression::get_Expressions()
-extern "C" ExpressionCollection_t4153 * CompositeExpression_get_Expressions_m14863 (CompositeExpression_t4155 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ExpressionCollection_t4151 * CompositeExpression_get_Expressions_m14852 (CompositeExpression_t4153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.CompositeExpression::GetWidth(System.Int32&,System.Int32&,System.Int32)
-extern "C" void CompositeExpression_GetWidth_m14864 (CompositeExpression_t4155 * __this, int32_t* ___min, int32_t* ___max, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompositeExpression_GetWidth_m14853 (CompositeExpression_t4153 * __this, int32_t* ___min, int32_t* ___max, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.CompositeExpression::IsComplex()
-extern "C" bool CompositeExpression_IsComplex_m14865 (CompositeExpression_t4155 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CompositeExpression_IsComplex_m14854 (CompositeExpression_t4153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

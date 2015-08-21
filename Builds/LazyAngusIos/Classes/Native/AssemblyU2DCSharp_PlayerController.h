@@ -7,7 +7,7 @@ struct HeadMovement_t569;
 // TipConfig
 struct TipConfig_t511;
 // PlayerController
-struct PlayerController_t625;
+struct PlayerController_t622;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
@@ -15,8 +15,10 @@ struct PlayerController_t625;
 // PlayerController/BodyMovementType
 #include "AssemblyU2DCSharp_PlayerController_BodyMovementType.h"
 // PlayerController
-struct  PlayerController_t625  : public MonoBehaviour_t13
+struct  PlayerController_t622  : public MonoBehaviour_t13
 {
+	// System.Single PlayerController::startCatAngle
+	float ___startCatAngle_2;
 	// UnityEngine.GameObject PlayerController::rightPawGameObject
 	GameObject_t352 * ___rightPawGameObject_3;
 	// UnityEngine.GameObject PlayerController::leftPawGameObject
@@ -32,7 +34,7 @@ struct  PlayerController_t625  : public MonoBehaviour_t13
 	// System.Single PlayerController::currentTurnAngleDegrees
 	float ___currentTurnAngleDegrees_9;
 	// UnityEngine.Vector3 PlayerController::dragAnchorCat
-	Vector3_t536  ___dragAnchorCat_10;
+	Vector3_t534  ___dragAnchorCat_10;
 	// System.Single PlayerController::dragAnchorAngleCat
 	float ___dragAnchorAngleCat_11;
 	// System.Boolean PlayerController::registeredForEvents
@@ -48,7 +50,7 @@ struct  PlayerController_t625  : public MonoBehaviour_t13
 	// PlayerController/BodyMovementType PlayerController::<bodyMovement>k__BackingField
 	int32_t ___U3CbodyMovementU3Ek__BackingField_17;
 };
-struct PlayerController_t625_StaticFields{
+struct PlayerController_t622_StaticFields{
 	// PlayerController PlayerController::<instance>k__BackingField
-	PlayerController_t625 * ___U3CinstanceU3Ek__BackingField_18;
+	PlayerController_t622 * ___U3CinstanceU3Ek__BackingField_18;
 };

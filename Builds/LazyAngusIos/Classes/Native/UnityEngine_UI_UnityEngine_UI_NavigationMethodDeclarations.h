@@ -5,33 +5,33 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Navigation
-struct Navigation_t955;
+struct Navigation_t953;
 // UnityEngine.UI.Selectable
-struct Selectable_t907;
+struct Selectable_t905;
 // UnityEngine.UI.Navigation/Mode
 #include "UnityEngine_UI_UnityEngine_UI_Navigation_Mode.h"
 // UnityEngine.UI.Navigation
 #include "UnityEngine_UI_UnityEngine_UI_Navigation.h"
 
 // UnityEngine.UI.Navigation/Mode UnityEngine.UI.Navigation::get_mode()
-extern "C" int32_t Navigation_get_mode_m5227 (Navigation_t955 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Navigation_get_mode_m5217 (Navigation_t953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Navigation::set_mode(UnityEngine.UI.Navigation/Mode)
-extern "C" void Navigation_set_mode_m5228 (Navigation_t955 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Navigation_set_mode_m5218 (Navigation_t953 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Navigation::get_selectOnUp()
-extern "C" Selectable_t907 * Navigation_get_selectOnUp_m5229 (Navigation_t955 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t905 * Navigation_get_selectOnUp_m5219 (Navigation_t953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Navigation::set_selectOnUp(UnityEngine.UI.Selectable)
-extern "C" void Navigation_set_selectOnUp_m5230 (Navigation_t955 * __this, Selectable_t907 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Navigation_set_selectOnUp_m5220 (Navigation_t953 * __this, Selectable_t905 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Navigation::get_selectOnDown()
-extern "C" Selectable_t907 * Navigation_get_selectOnDown_m5231 (Navigation_t955 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t905 * Navigation_get_selectOnDown_m5221 (Navigation_t953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Navigation::set_selectOnDown(UnityEngine.UI.Selectable)
-extern "C" void Navigation_set_selectOnDown_m5232 (Navigation_t955 * __this, Selectable_t907 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Navigation_set_selectOnDown_m5222 (Navigation_t953 * __this, Selectable_t905 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Navigation::get_selectOnLeft()
-extern "C" Selectable_t907 * Navigation_get_selectOnLeft_m5233 (Navigation_t955 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t905 * Navigation_get_selectOnLeft_m5223 (Navigation_t953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Navigation::set_selectOnLeft(UnityEngine.UI.Selectable)
-extern "C" void Navigation_set_selectOnLeft_m5234 (Navigation_t955 * __this, Selectable_t907 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Navigation_set_selectOnLeft_m5224 (Navigation_t953 * __this, Selectable_t905 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Navigation::get_selectOnRight()
-extern "C" Selectable_t907 * Navigation_get_selectOnRight_m5235 (Navigation_t955 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t905 * Navigation_get_selectOnRight_m5225 (Navigation_t953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Navigation::set_selectOnRight(UnityEngine.UI.Selectable)
-extern "C" void Navigation_set_selectOnRight_m5236 (Navigation_t955 * __this, Selectable_t907 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Navigation_set_selectOnRight_m5226 (Navigation_t953 * __this, Selectable_t905 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Navigation UnityEngine.UI.Navigation::get_defaultNavigation()
-extern "C" Navigation_t955  Navigation_get_defaultNavigation_m5237 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Navigation_t953  Navigation_get_defaultNavigation_m5227 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

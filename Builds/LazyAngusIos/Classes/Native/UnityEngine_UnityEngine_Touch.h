@@ -7,7 +7,7 @@
 // UnityEngine.TouchPhase
 #include "UnityEngine_UnityEngine_TouchPhase.h"
 // UnityEngine.Touch
-struct  Touch_t706 
+struct  Touch_t704 
 {
 	// System.Int32 UnityEngine.Touch::m_FingerId
 	int32_t ___m_FingerId_0;
@@ -25,7 +25,7 @@ struct  Touch_t706
 	int32_t ___m_Phase_6;
 };
 // Native definition for marshalling of: UnityEngine.Touch
-struct Touch_t706_marshaled
+struct Touch_t704_marshaled
 {
 	int32_t ___m_FingerId_0;
 	Vector2_t110  ___m_Position_1;

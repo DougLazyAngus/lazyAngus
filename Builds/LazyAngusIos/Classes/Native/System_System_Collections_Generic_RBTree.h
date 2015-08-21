@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.RBTree/Node
-struct Node_t3951;
+struct Node_t3949;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>
-struct List_1_t3955;
+struct List_1_t3953;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.RBTree
-struct  RBTree_t3952  : public Object_t
+struct  RBTree_t3950  : public Object_t
 {
 	// System.Collections.Generic.RBTree/Node System.Collections.Generic.RBTree::root
-	Node_t3951 * ___root_0;
+	Node_t3949 * ___root_0;
 	// System.Object System.Collections.Generic.RBTree::hlp
 	Object_t * ___hlp_1;
 	// System.UInt32 System.Collections.Generic.RBTree::version
 	uint32_t ___version_2;
 };
-struct RBTree_t3952_ThreadStaticFields{
+struct RBTree_t3950_ThreadStaticFields{
 	// System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node> System.Collections.Generic.RBTree::cached_path
-	List_1_t3955 * ___cached_path_3;
+	List_1_t3953 * ___cached_path_3;
 };

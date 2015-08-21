@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Runtime
-struct Runtime_t4429;
+struct Runtime_t4427;
 // System.String
 struct String_t;
 
 // System.String Mono.Runtime::GetDisplayName()
-extern "C" String_t* Runtime_GetDisplayName_m16792 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Runtime_GetDisplayName_m16781 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

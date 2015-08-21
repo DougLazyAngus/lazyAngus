@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// MouseHole[]
-struct MouseHoleU5BU5D_t552;
+// MouseSinkController[]
+struct MouseSinkControllerU5BU5D_t552;
 // MouseSpawnFromData
 struct MouseSpawnFromData_t553;
 // GameController
@@ -19,18 +19,20 @@ struct  GameController_t554  : public MonoBehaviour_t13
 	float ___minSpawnWait_3;
 	// System.Single GameController::maxSpawnWait
 	float ___maxSpawnWait_4;
-	// MouseHole[] GameController::mouseHoles
-	MouseHoleU5BU5D_t552* ___mouseHoles_5;
+	// MouseSinkController[] GameController::mouseSinkControllers
+	MouseSinkControllerU5BU5D_t552* ___mouseSinkControllers_5;
+	// System.Int32 GameController::escapedMouseCount
+	int32_t ___escapedMouseCount_6;
 	// MouseSpawnFromData GameController::mouseSpawnFromData
-	MouseSpawnFromData_t553 * ___mouseSpawnFromData_6;
+	MouseSpawnFromData_t553 * ___mouseSpawnFromData_7;
 	// System.Boolean GameController::registeredForEvents
-	bool ___registeredForEvents_7;
+	bool ___registeredForEvents_8;
 	// System.Boolean GameController::checkForPhaseChanges
-	bool ___checkForPhaseChanges_8;
+	bool ___checkForPhaseChanges_9;
 };
 struct GameController_t554_StaticFields{
 	// GameController GameController::<instance>k__BackingField
-	GameController_t554 * ___U3CinstanceU3Ek__BackingField_9;
-	// System.Action`1<System.Boolean> GameController::<>f__am$cache8
-	Action_1_t277 * ___U3CU3Ef__amU24cache8_10;
+	GameController_t554 * ___U3CinstanceU3Ek__BackingField_10;
+	// System.Action`1<System.Boolean> GameController::<>f__am$cache9
+	Action_1_t277 * ___U3CU3Ef__amU24cache9_11;
 };

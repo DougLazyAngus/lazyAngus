@@ -57,9 +57,6 @@ public class TipController : MonoBehaviour {
 	}		
 
 	void OnPhaseChanged() {
-		if (DebugConfig.instance.DebugFlagSet (10)) {
-			return;
-		}
 		if (GamePhaseState.instance.IsPlaying()) {
 			EnqueueTipForLevel ();
 		} else {

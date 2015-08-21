@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // TweakableSlider
-struct TweakableSlider_t605;
+struct TweakableSlider_t597;
 
 // System.Void TweakableSlider::.ctor()
-extern "C" void TweakableSlider__ctor_m3593 (TweakableSlider_t605 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TweakableSlider__ctor_m3580 (TweakableSlider_t597 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

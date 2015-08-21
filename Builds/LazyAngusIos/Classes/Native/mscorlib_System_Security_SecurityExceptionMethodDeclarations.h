@@ -5,39 +5,39 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.SecurityException
-struct SecurityException_t4196;
+struct SecurityException_t4194;
 // System.Object
 struct Object_t;
 // System.Security.IPermission
-struct IPermission_t4736;
+struct IPermission_t4734;
 // System.String
 struct String_t;
 // System.Type
 struct Type_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2919;
+struct SerializationInfo_t2917;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Security.SecurityException::.ctor()
-extern "C" void SecurityException__ctor_m18966 (SecurityException_t4196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityException__ctor_m18955 (SecurityException_t4194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.SecurityException::.ctor(System.String)
-extern "C" void SecurityException__ctor_m15097 (SecurityException_t4196 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityException__ctor_m15086 (SecurityException_t4194 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.SecurityException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void SecurityException__ctor_m18967 (SecurityException_t4196 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityException__ctor_m18956 (SecurityException_t4194 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.SecurityException::get_Demanded()
-extern "C" Object_t * SecurityException_get_Demanded_m18968 (SecurityException_t4196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SecurityException_get_Demanded_m18957 (SecurityException_t4194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.IPermission System.Security.SecurityException::get_FirstPermissionThatFailed()
-extern "C" Object_t * SecurityException_get_FirstPermissionThatFailed_m18969 (SecurityException_t4196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SecurityException_get_FirstPermissionThatFailed_m18958 (SecurityException_t4194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.SecurityException::get_PermissionState()
-extern "C" String_t* SecurityException_get_PermissionState_m18970 (SecurityException_t4196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SecurityException_get_PermissionState_m18959 (SecurityException_t4194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Security.SecurityException::get_PermissionType()
-extern "C" Type_t * SecurityException_get_PermissionType_m18971 (SecurityException_t4196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * SecurityException_get_PermissionType_m18960 (SecurityException_t4194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.SecurityException::get_GrantedSet()
-extern "C" String_t* SecurityException_get_GrantedSet_m18972 (SecurityException_t4196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SecurityException_get_GrantedSet_m18961 (SecurityException_t4194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.SecurityException::get_RefusedSet()
-extern "C" String_t* SecurityException_get_RefusedSet_m18973 (SecurityException_t4196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SecurityException_get_RefusedSet_m18962 (SecurityException_t4194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.SecurityException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void SecurityException_GetObjectData_m18974 (SecurityException_t4196 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityException_GetObjectData_m18963 (SecurityException_t4194 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.SecurityException::ToString()
-extern "C" String_t* SecurityException_ToString_m18975 (SecurityException_t4196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SecurityException_ToString_m18964 (SecurityException_t4194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

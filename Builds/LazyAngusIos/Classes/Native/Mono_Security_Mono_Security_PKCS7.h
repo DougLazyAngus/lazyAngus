@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.PKCS7
-struct  PKCS7_t3789  : public Object_t
+struct  PKCS7_t3787  : public Object_t
 {
 };

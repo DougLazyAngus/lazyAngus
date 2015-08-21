@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Font
-struct Font_t914;
+struct Font_t912;
 // System.Collections.Generic.List`1<UnityEngine.UI.Text>
-struct List_1_t1060;
+struct List_1_t1058;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>,System.Collections.DictionaryEntry>
-struct  Transform_1_t5833  : public MulticastDelegate_t388
+struct  Transform_1_t5837  : public MulticastDelegate_t388
 {
 };

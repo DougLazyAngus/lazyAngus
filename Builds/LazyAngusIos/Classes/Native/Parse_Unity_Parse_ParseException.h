@@ -5,7 +5,7 @@
 // Parse.ParseException/ErrorCode
 #include "Parse_Unity_Parse_ParseException_ErrorCode.h"
 // Parse.ParseException
-struct  ParseException_t1238  : public Exception_t57
+struct  ParseException_t1236  : public Exception_t57
 {
 	// Parse.ParseException/ErrorCode Parse.ParseException::<Code>k__BackingField
 	int32_t ___U3CCodeU3Ek__BackingField_11;

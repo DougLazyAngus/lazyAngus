@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.DecoderFallbackBuffer
-struct  DecoderFallbackBuffer_t4743  : public Object_t
+struct  DecoderFallbackBuffer_t4741  : public Object_t
 {
 };

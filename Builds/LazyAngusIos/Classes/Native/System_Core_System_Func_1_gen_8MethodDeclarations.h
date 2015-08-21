@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`1<Parse.ParseRelation`1<Parse.ParseObject>>
-struct Func_1_t1519;
+struct Func_1_t1517;
 // System.Object
 struct Object_t;
 // Parse.ParseRelation`1<Parse.ParseObject>
-struct ParseRelation_1_t1517;
+struct ParseRelation_1_t1515;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`1<Parse.ParseRelation`1<Parse.ParseObject>>::.ctor(System.Object,System.IntPtr)
 // System.Func`1<System.Object>
 #include "System_Core_System_Func_1_gen_7MethodDeclarations.h"
-#define Func_1__ctor_m34638(__this, ___object, ___method, method) (( void (*) (Func_1_t1519 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m30565_gshared)(__this, ___object, ___method, method)
+#define Func_1__ctor_m34729(__this, ___object, ___method, method) (( void (*) (Func_1_t1517 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m30656_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`1<Parse.ParseRelation`1<Parse.ParseObject>>::Invoke()
-#define Func_1_Invoke_m34639(__this, method) (( ParseRelation_1_t1517 * (*) (Func_1_t1519 *, const MethodInfo*))Func_1_Invoke_m30567_gshared)(__this, method)
+#define Func_1_Invoke_m34730(__this, method) (( ParseRelation_1_t1515 * (*) (Func_1_t1517 *, const MethodInfo*))Func_1_Invoke_m30658_gshared)(__this, method)
 // System.IAsyncResult System.Func`1<Parse.ParseRelation`1<Parse.ParseObject>>::BeginInvoke(System.AsyncCallback,System.Object)
-#define Func_1_BeginInvoke_m34640(__this, ___callback, ___object, method) (( Object_t * (*) (Func_1_t1519 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_1_BeginInvoke_m30569_gshared)(__this, ___callback, ___object, method)
+#define Func_1_BeginInvoke_m34731(__this, ___callback, ___object, method) (( Object_t * (*) (Func_1_t1517 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_1_BeginInvoke_m30660_gshared)(__this, ___callback, ___object, method)
 // TResult System.Func`1<Parse.ParseRelation`1<Parse.ParseObject>>::EndInvoke(System.IAsyncResult)
-#define Func_1_EndInvoke_m34641(__this, ___result, method) (( ParseRelation_1_t1517 * (*) (Func_1_t1519 *, Object_t *, const MethodInfo*))Func_1_EndInvoke_m30571_gshared)(__this, ___result, method)
+#define Func_1_EndInvoke_m34732(__this, ___result, method) (( ParseRelation_1_t1515 * (*) (Func_1_t1517 *, Object_t *, const MethodInfo*))Func_1_EndInvoke_m30662_gshared)(__this, ___result, method)

@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ICancelHandler>
-struct EventFunction_1_t871;
+struct EventFunction_1_t869;
 // System.Object
 struct Object_t;
 // UnityEngine.EventSystems.ICancelHandler
-struct ICancelHandler_t1037;
+struct ICancelHandler_t1035;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t845;
+struct BaseEventData_t843;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -22,10 +22,10 @@ struct AsyncCallback_t386;
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ICancelHandler>::.ctor(System.Object,System.IntPtr)
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<System.Object>
 #include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEvents_EventF_16MethodDeclarations.h"
-#define EventFunction_1__ctor_m5799(__this, ___object, ___method, method) (( void (*) (EventFunction_1_t871 *, Object_t *, IntPtr_t, const MethodInfo*))EventFunction_1__ctor_m27628_gshared)(__this, ___object, ___method, method)
+#define EventFunction_1__ctor_m5789(__this, ___object, ___method, method) (( void (*) (EventFunction_1_t869 *, Object_t *, IntPtr_t, const MethodInfo*))EventFunction_1__ctor_m27719_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ICancelHandler>::Invoke(T1,UnityEngine.EventSystems.BaseEventData)
-#define EventFunction_1_Invoke_m28276(__this, ___handler, ___eventData, method) (( void (*) (EventFunction_1_t871 *, Object_t *, BaseEventData_t845 *, const MethodInfo*))EventFunction_1_Invoke_m27630_gshared)(__this, ___handler, ___eventData, method)
+#define EventFunction_1_Invoke_m28367(__this, ___handler, ___eventData, method) (( void (*) (EventFunction_1_t869 *, Object_t *, BaseEventData_t843 *, const MethodInfo*))EventFunction_1_Invoke_m27721_gshared)(__this, ___handler, ___eventData, method)
 // System.IAsyncResult UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ICancelHandler>::BeginInvoke(T1,UnityEngine.EventSystems.BaseEventData,System.AsyncCallback,System.Object)
-#define EventFunction_1_BeginInvoke_m28277(__this, ___handler, ___eventData, ___callback, ___object, method) (( Object_t * (*) (EventFunction_1_t871 *, Object_t *, BaseEventData_t845 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))EventFunction_1_BeginInvoke_m27632_gshared)(__this, ___handler, ___eventData, ___callback, ___object, method)
+#define EventFunction_1_BeginInvoke_m28368(__this, ___handler, ___eventData, ___callback, ___object, method) (( Object_t * (*) (EventFunction_1_t869 *, Object_t *, BaseEventData_t843 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))EventFunction_1_BeginInvoke_m27723_gshared)(__this, ___handler, ___eventData, ___callback, ___object, method)
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ICancelHandler>::EndInvoke(System.IAsyncResult)
-#define EventFunction_1_EndInvoke_m28278(__this, ___result, method) (( void (*) (EventFunction_1_t871 *, Object_t *, const MethodInfo*))EventFunction_1_EndInvoke_m27634_gshared)(__this, ___result, method)
+#define EventFunction_1_EndInvoke_m28369(__this, ___result, method) (( void (*) (EventFunction_1_t869 *, Object_t *, const MethodInfo*))EventFunction_1_EndInvoke_m27725_gshared)(__this, ___result, method)

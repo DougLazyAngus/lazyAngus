@@ -1,0 +1,153 @@
+﻿#pragma once
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+#include "codegen/il2cpp-codegen.h"
+
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>
+struct List_1_t8017;
+// System.Object
+struct Object_t;
+// System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>
+struct IEnumerable_1_t9421;
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>[]
+struct KeyValuePair_2U5BU5D_t8016;
+// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>
+struct IEnumerator_1_t7999;
+// System.Array
+struct Array_t;
+// System.Collections.IEnumerator
+struct IEnumerator_t48;
+// System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>
+struct ICollection_1_t9422;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>
+struct ReadOnlyCollection_1_t8019;
+// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>
+struct Predicate_1_t8020;
+// System.Collections.Generic.IComparer`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>
+struct IComparer_1_t9423;
+// System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>
+struct Comparison_1_t8022;
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_61.h"
+// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_96.h"
+
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::.ctor()
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>
+#include "mscorlib_System_Collections_Generic_List_1_gen_112MethodDeclarations.h"
+#define List_1__ctor_m56046(__this, method) (( void (*) (List_1_t8017 *, const MethodInfo*))List_1__ctor_m55893_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1__ctor_m56047(__this, ___collection, method) (( void (*) (List_1_t8017 *, Object_t*, const MethodInfo*))List_1__ctor_m55894_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::.ctor(System.Int32)
+#define List_1__ctor_m56048(__this, ___capacity, method) (( void (*) (List_1_t8017 *, int32_t, const MethodInfo*))List_1__ctor_m55895_gshared)(__this, ___capacity, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::.ctor(T[],System.Int32)
+#define List_1__ctor_m56049(__this, ___data, ___size, method) (( void (*) (List_1_t8017 *, KeyValuePair_2U5BU5D_t8016*, int32_t, const MethodInfo*))List_1__ctor_m55896_gshared)(__this, ___data, ___size, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::.cctor()
+#define List_1__cctor_m56050(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m55897_gshared)(__this /* static, unused */, method)
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m56051(__this, method) (( Object_t* (*) (List_1_t8017 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m55898_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define List_1_System_Collections_ICollection_CopyTo_m56052(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t8017 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m55899_gshared)(__this, ___array, ___arrayIndex, method)
+// System.Collections.IEnumerator System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.IEnumerable.GetEnumerator()
+#define List_1_System_Collections_IEnumerable_GetEnumerator_m56053(__this, method) (( Object_t * (*) (List_1_t8017 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m55900_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.IList.Add(System.Object)
+#define List_1_System_Collections_IList_Add_m56054(__this, ___item, method) (( int32_t (*) (List_1_t8017 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m55901_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.IList.Contains(System.Object)
+#define List_1_System_Collections_IList_Contains_m56055(__this, ___item, method) (( bool (*) (List_1_t8017 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m55902_gshared)(__this, ___item, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.IList.IndexOf(System.Object)
+#define List_1_System_Collections_IList_IndexOf_m56056(__this, ___item, method) (( int32_t (*) (List_1_t8017 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m55903_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.IList.Insert(System.Int32,System.Object)
+#define List_1_System_Collections_IList_Insert_m56057(__this, ___index, ___item, method) (( void (*) (List_1_t8017 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m55904_gshared)(__this, ___index, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.IList.Remove(System.Object)
+#define List_1_System_Collections_IList_Remove_m56058(__this, ___item, method) (( void (*) (List_1_t8017 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m55905_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m56059(__this, method) (( bool (*) (List_1_t8017 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m55906_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.ICollection.get_IsSynchronized()
+#define List_1_System_Collections_ICollection_get_IsSynchronized_m56060(__this, method) (( bool (*) (List_1_t8017 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m55907_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.ICollection.get_SyncRoot()
+#define List_1_System_Collections_ICollection_get_SyncRoot_m56061(__this, method) (( Object_t * (*) (List_1_t8017 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m55908_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.IList.get_IsFixedSize()
+#define List_1_System_Collections_IList_get_IsFixedSize_m56062(__this, method) (( bool (*) (List_1_t8017 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m55909_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.IList.get_IsReadOnly()
+#define List_1_System_Collections_IList_get_IsReadOnly_m56063(__this, method) (( bool (*) (List_1_t8017 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m55910_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.IList.get_Item(System.Int32)
+#define List_1_System_Collections_IList_get_Item_m56064(__this, ___index, method) (( Object_t * (*) (List_1_t8017 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m55911_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::System.Collections.IList.set_Item(System.Int32,System.Object)
+#define List_1_System_Collections_IList_set_Item_m56065(__this, ___index, ___value, method) (( void (*) (List_1_t8017 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m55912_gshared)(__this, ___index, ___value, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Add(T)
+#define List_1_Add_m56066(__this, ___item, method) (( void (*) (List_1_t8017 *, KeyValuePair_2_t7132 , const MethodInfo*))List_1_Add_m55913_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::GrowIfNeeded(System.Int32)
+#define List_1_GrowIfNeeded_m56067(__this, ___newCount, method) (( void (*) (List_1_t8017 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m55914_gshared)(__this, ___newCount, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::CheckRange(System.Int32,System.Int32)
+#define List_1_CheckRange_m56068(__this, ___idx, ___count, method) (( void (*) (List_1_t8017 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m55915_gshared)(__this, ___idx, ___count, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::AddCollection(System.Collections.Generic.ICollection`1<T>)
+#define List_1_AddCollection_m56069(__this, ___collection, method) (( void (*) (List_1_t8017 *, Object_t*, const MethodInfo*))List_1_AddCollection_m55916_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_AddEnumerable_m56070(__this, ___enumerable, method) (( void (*) (List_1_t8017 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m55917_gshared)(__this, ___enumerable, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_AddRange_m56071(__this, ___collection, method) (( void (*) (List_1_t8017 *, Object_t*, const MethodInfo*))List_1_AddRange_m55918_gshared)(__this, ___collection, method)
+// System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::AsReadOnly()
+#define List_1_AsReadOnly_m56072(__this, method) (( ReadOnlyCollection_1_t8019 * (*) (List_1_t8017 *, const MethodInfo*))List_1_AsReadOnly_m55919_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Clear()
+#define List_1_Clear_m56073(__this, method) (( void (*) (List_1_t8017 *, const MethodInfo*))List_1_Clear_m55920_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Contains(T)
+#define List_1_Contains_m56074(__this, ___item, method) (( bool (*) (List_1_t8017 *, KeyValuePair_2_t7132 , const MethodInfo*))List_1_Contains_m55921_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::CopyTo(T[],System.Int32)
+#define List_1_CopyTo_m56075(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t8017 *, KeyValuePair_2U5BU5D_t8016*, int32_t, const MethodInfo*))List_1_CopyTo_m55922_gshared)(__this, ___array, ___arrayIndex, method)
+// T System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Find(System.Predicate`1<T>)
+#define List_1_Find_m56076(__this, ___match, method) (( KeyValuePair_2_t7132  (*) (List_1_t8017 *, Predicate_1_t8020 *, const MethodInfo*))List_1_Find_m55923_gshared)(__this, ___match, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::CheckMatch(System.Predicate`1<T>)
+#define List_1_CheckMatch_m56077(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t8020 *, const MethodInfo*))List_1_CheckMatch_m55924_gshared)(__this /* static, unused */, ___match, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
+#define List_1_GetIndex_m56078(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t8017 *, int32_t, int32_t, Predicate_1_t8020 *, const MethodInfo*))List_1_GetIndex_m55925_gshared)(__this, ___startIndex, ___count, ___match, method)
+// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::GetEnumerator()
+#define List_1_GetEnumerator_m56079(__this, method) (( Enumerator_t8021  (*) (List_1_t8017 *, const MethodInfo*))List_1_GetEnumerator_m55926_gshared)(__this, method)
+// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::GetRange(System.Int32,System.Int32)
+#define List_1_GetRange_m56080(__this, ___index, ___count, method) (( List_1_t8017 * (*) (List_1_t8017 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m55927_gshared)(__this, ___index, ___count, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::IndexOf(T)
+#define List_1_IndexOf_m56081(__this, ___item, method) (( int32_t (*) (List_1_t8017 *, KeyValuePair_2_t7132 , const MethodInfo*))List_1_IndexOf_m55928_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Shift(System.Int32,System.Int32)
+#define List_1_Shift_m56082(__this, ___start, ___delta, method) (( void (*) (List_1_t8017 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m55929_gshared)(__this, ___start, ___delta, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::CheckIndex(System.Int32)
+#define List_1_CheckIndex_m56083(__this, ___index, method) (( void (*) (List_1_t8017 *, int32_t, const MethodInfo*))List_1_CheckIndex_m55930_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Insert(System.Int32,T)
+#define List_1_Insert_m56084(__this, ___index, ___item, method) (( void (*) (List_1_t8017 *, int32_t, KeyValuePair_2_t7132 , const MethodInfo*))List_1_Insert_m55931_gshared)(__this, ___index, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_CheckCollection_m56085(__this, ___collection, method) (( void (*) (List_1_t8017 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m55932_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_InsertRange_m56086(__this, ___index, ___collection, method) (( void (*) (List_1_t8017 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m55933_gshared)(__this, ___index, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::InsertCollection(System.Int32,System.Collections.Generic.ICollection`1<T>)
+#define List_1_InsertCollection_m56087(__this, ___index, ___collection, method) (( void (*) (List_1_t8017 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m55934_gshared)(__this, ___index, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_InsertEnumeration_m56088(__this, ___index, ___enumerable, method) (( void (*) (List_1_t8017 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m55935_gshared)(__this, ___index, ___enumerable, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Remove(T)
+#define List_1_Remove_m56089(__this, ___item, method) (( bool (*) (List_1_t8017 *, KeyValuePair_2_t7132 , const MethodInfo*))List_1_Remove_m55936_gshared)(__this, ___item, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::RemoveAll(System.Predicate`1<T>)
+#define List_1_RemoveAll_m56090(__this, ___match, method) (( int32_t (*) (List_1_t8017 *, Predicate_1_t8020 *, const MethodInfo*))List_1_RemoveAll_m55937_gshared)(__this, ___match, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::RemoveAt(System.Int32)
+#define List_1_RemoveAt_m56091(__this, ___index, method) (( void (*) (List_1_t8017 *, int32_t, const MethodInfo*))List_1_RemoveAt_m55938_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::RemoveRange(System.Int32,System.Int32)
+#define List_1_RemoveRange_m56092(__this, ___index, ___count, method) (( void (*) (List_1_t8017 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m55939_gshared)(__this, ___index, ___count, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Reverse()
+#define List_1_Reverse_m56093(__this, method) (( void (*) (List_1_t8017 *, const MethodInfo*))List_1_Reverse_m55940_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Sort()
+#define List_1_Sort_m56094(__this, method) (( void (*) (List_1_t8017 *, const MethodInfo*))List_1_Sort_m55941_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Sort(System.Collections.Generic.IComparer`1<T>)
+#define List_1_Sort_m56095(__this, ___comparer, method) (( void (*) (List_1_t8017 *, Object_t*, const MethodInfo*))List_1_Sort_m55942_gshared)(__this, ___comparer, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::Sort(System.Comparison`1<T>)
+#define List_1_Sort_m56096(__this, ___comparison, method) (( void (*) (List_1_t8017 *, Comparison_1_t8022 *, const MethodInfo*))List_1_Sort_m55943_gshared)(__this, ___comparison, method)
+// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::ToArray()
+#define List_1_ToArray_m56097(__this, method) (( KeyValuePair_2U5BU5D_t8016* (*) (List_1_t8017 *, const MethodInfo*))List_1_ToArray_m55944_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::TrimExcess()
+#define List_1_TrimExcess_m56098(__this, method) (( void (*) (List_1_t8017 *, const MethodInfo*))List_1_TrimExcess_m55945_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::get_Capacity()
+#define List_1_get_Capacity_m56099(__this, method) (( int32_t (*) (List_1_t8017 *, const MethodInfo*))List_1_get_Capacity_m55946_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::set_Capacity(System.Int32)
+#define List_1_set_Capacity_m56100(__this, ___value, method) (( void (*) (List_1_t8017 *, int32_t, const MethodInfo*))List_1_set_Capacity_m55947_gshared)(__this, ___value, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::get_Count()
+#define List_1_get_Count_m56101(__this, method) (( int32_t (*) (List_1_t8017 *, const MethodInfo*))List_1_get_Count_m55948_gshared)(__this, method)
+// T System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::get_Item(System.Int32)
+#define List_1_get_Item_m56102(__this, ___index, method) (( KeyValuePair_2_t7132  (*) (List_1_t8017 *, int32_t, const MethodInfo*))List_1_get_Item_m55949_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::set_Item(System.Int32,T)
+#define List_1_set_Item_m56103(__this, ___index, ___value, method) (( void (*) (List_1_t8017 *, int32_t, KeyValuePair_2_t7132 , const MethodInfo*))List_1_set_Item_m55950_gshared)(__this, ___index, ___value, method)

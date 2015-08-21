@@ -3,6 +3,6 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.TextAsset
-struct  TextAsset_t779  : public Object_t703
+struct  TextAsset_t777  : public Object_t701
 {
 };

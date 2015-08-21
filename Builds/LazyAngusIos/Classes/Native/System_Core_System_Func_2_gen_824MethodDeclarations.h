@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.IAsyncResult,System.Object>
-struct Func_2_t8363;
+struct Func_2_t8367;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -18,10 +18,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.IAsyncResult,System.Object>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Object>
 #include "System_Core_System_Func_2_gen_18MethodDeclarations.h"
-#define Func_2__ctor_m59931(__this, ___object, ___method, method) (( void (*) (Func_2_t8363 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7468_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m60022(__this, ___object, ___method, method) (( void (*) (Func_2_t8367 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7457_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.IAsyncResult,System.Object>::Invoke(T)
-#define Func_2_Invoke_m59932(__this, ___arg1, method) (( Object_t * (*) (Func_2_t8363 *, Object_t *, const MethodInfo*))Func_2_Invoke_m30731_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m60023(__this, ___arg1, method) (( Object_t * (*) (Func_2_t8367 *, Object_t *, const MethodInfo*))Func_2_Invoke_m30822_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.IAsyncResult,System.Object>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m59933(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t8363 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30733_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m60024(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t8367 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30824_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.IAsyncResult,System.Object>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m59934(__this, ___result, method) (( Object_t * (*) (Func_2_t8363 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30735_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m60025(__this, ___result, method) (( Object_t * (*) (Func_2_t8367 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30826_gshared)(__this, ___result, method)

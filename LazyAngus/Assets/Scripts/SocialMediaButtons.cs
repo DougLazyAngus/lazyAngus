@@ -12,8 +12,10 @@ public class SocialMediaButtons : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		fbButton.onClick.AddListener(() => { 
+			int personalBest = PlayerStats.instance.GetHighScore ();
 			int finalScore = PlayerStats.instance.gameScore;
-			FacebookSharing.instance.ShareScore(finalScore);
+			FacebookSharing.instance.ShareScore(finalScore, 
+			                                    finalScore == personalBest);
 		});
 
 		twitterButton.onClick.AddListener(() => { 

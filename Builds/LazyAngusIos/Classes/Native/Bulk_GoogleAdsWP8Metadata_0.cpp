@@ -5,18 +5,18 @@
 // <Module>
 #include "GoogleAdsWP8_U3CModuleU3E.h"
 // Metadata Definition <Module>
-extern TypeInfo U3CModuleU3E_t3094_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t3092_il2cpp_TypeInfo;
 // <Module>
 #include "GoogleAdsWP8_U3CModuleU3EMethodDeclarations.h"
-static const MethodInfo* U3CModuleU3E_t3094_MethodInfos[] =
+static const MethodInfo* U3CModuleU3E_t3092_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_GoogleAdsWP8_dll_Image;
-extern const Il2CppType U3CModuleU3E_t3094_0_0_0;
-extern const Il2CppType U3CModuleU3E_t3094_1_0_0;
-struct U3CModuleU3E_t3094;
-const Il2CppTypeDefinitionMetadata U3CModuleU3E_t3094_DefinitionMetadata = 
+extern const Il2CppType U3CModuleU3E_t3092_0_0_0;
+extern const Il2CppType U3CModuleU3E_t3092_1_0_0;
+struct U3CModuleU3E_t3092;
+const Il2CppTypeDefinitionMetadata U3CModuleU3E_t3092_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -29,21 +29,21 @@ const Il2CppTypeDefinitionMetadata U3CModuleU3E_t3094_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo U3CModuleU3E_t3094_il2cpp_TypeInfo = 
+TypeInfo U3CModuleU3E_t3092_il2cpp_TypeInfo = 
 {
 	&g_GoogleAdsWP8_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "<Module>"/* name */
 	, ""/* namespaze */
-	, U3CModuleU3E_t3094_MethodInfos/* methods */
+	, U3CModuleU3E_t3092_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CModuleU3E_t3094_il2cpp_TypeInfo/* element_class */
+	, &U3CModuleU3E_t3092_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &U3CModuleU3E_t3094_0_0_0/* byval_arg */
-	, &U3CModuleU3E_t3094_1_0_0/* this_arg */
-	, &U3CModuleU3E_t3094_DefinitionMetadata/* definitionMetadata */
+	, &U3CModuleU3E_t3092_0_0_0/* byval_arg */
+	, &U3CModuleU3E_t3092_1_0_0/* this_arg */
+	, &U3CModuleU3E_t3092_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -53,8 +53,8 @@ TypeInfo U3CModuleU3E_t3094_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CModuleU3E_t3094)/* instance_size */
-	, sizeof (U3CModuleU3E_t3094)/* actualSize */
+	, sizeof (U3CModuleU3E_t3092)/* instance_size */
+	, sizeof (U3CModuleU3E_t3092)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -86,26 +86,26 @@ TypeInfo U3CModuleU3E_t3094_il2cpp_TypeInfo =
 // GoogleAdsWP8.AdManager
 #include "GoogleAdsWP8_GoogleAdsWP8_AdManager.h"
 // Metadata Definition GoogleAdsWP8.AdManager
-extern TypeInfo AdManager_t730_il2cpp_TypeInfo;
+extern TypeInfo AdManager_t728_il2cpp_TypeInfo;
 // GoogleAdsWP8.AdManager
 #include "GoogleAdsWP8_GoogleAdsWP8_AdManagerMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo AdManager_t730_AdManager_Init_m3794_ParameterInfos[] = 
+static const ParameterInfo AdManager_t728_AdManager_Init_m3782_ParameterInfos[] = 
 {
 	{"ad_unit_id", 0, 134217729, 0, &String_t_0_0_0},
 };
 extern const Il2CppType Void_t85_0_0_0;
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::Init(System.String)
-extern const MethodInfo AdManager_Init_m3794_MethodInfo = 
+extern const MethodInfo AdManager_Init_m3782_MethodInfo = 
 {
 	"Init"/* name */
-	, (methodPointerType)&AdManager_Init_m3794/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AdManager_Init_m3782/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, AdManager_t730_AdManager_Init_m3794_ParameterInfos/* parameters */
+	, AdManager_t728_AdManager_Init_m3782_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -119,15 +119,15 @@ extern const MethodInfo AdManager_Init_m3794_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType AdManager_t730_0_0_0;
+extern const Il2CppType AdManager_t728_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // GoogleAdsWP8.AdManager GoogleAdsWP8.AdManager::get_instance()
-extern const MethodInfo AdManager_get_instance_m3793_MethodInfo = 
+extern const MethodInfo AdManager_get_instance_m3781_MethodInfo = 
 {
 	"get_instance"/* name */
-	, (methodPointerType)&AdManager_get_instance_m3793/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
-	, &AdManager_t730_0_0_0/* return_type */
+	, (methodPointerType)&AdManager_get_instance_m3781/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
+	, &AdManager_t728_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -145,11 +145,11 @@ extern const MethodInfo AdManager_get_instance_m3793_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::EnableForceTesting()
-extern const MethodInfo AdManager_EnableForceTesting_m3800_MethodInfo = 
+extern const MethodInfo AdManager_EnableForceTesting_m3788_MethodInfo = 
 {
 	"EnableForceTesting"/* name */
-	, (methodPointerType)&AdManager_EnableForceTesting_m3800/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AdManager_EnableForceTesting_m3788/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -167,20 +167,20 @@ extern const MethodInfo AdManager_EnableForceTesting_m3800_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo AdManager_t730_AdManager_ChangeBannersUnitID_m3796_ParameterInfos[] = 
+static const ParameterInfo AdManager_t728_AdManager_ChangeBannersUnitID_m3784_ParameterInfos[] = 
 {
 	{"ad_unit_id", 0, 134217730, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::ChangeBannersUnitID(System.String)
-extern const MethodInfo AdManager_ChangeBannersUnitID_m3796_MethodInfo = 
+extern const MethodInfo AdManager_ChangeBannersUnitID_m3784_MethodInfo = 
 {
 	"ChangeBannersUnitID"/* name */
-	, (methodPointerType)&AdManager_ChangeBannersUnitID_m3796/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AdManager_ChangeBannersUnitID_m3784/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, AdManager_t730_AdManager_ChangeBannersUnitID_m3796_ParameterInfos/* parameters */
+	, AdManager_t728_AdManager_ChangeBannersUnitID_m3784_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -195,20 +195,20 @@ extern const MethodInfo AdManager_ChangeBannersUnitID_m3796_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo AdManager_t730_AdManager_ChangeInterstisialsUnitID_m3797_ParameterInfos[] = 
+static const ParameterInfo AdManager_t728_AdManager_ChangeInterstisialsUnitID_m3785_ParameterInfos[] = 
 {
 	{"ad_unit_id", 0, 134217731, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::ChangeInterstisialsUnitID(System.String)
-extern const MethodInfo AdManager_ChangeInterstisialsUnitID_m3797_MethodInfo = 
+extern const MethodInfo AdManager_ChangeInterstisialsUnitID_m3785_MethodInfo = 
 {
 	"ChangeInterstisialsUnitID"/* name */
-	, (methodPointerType)&AdManager_ChangeInterstisialsUnitID_m3797/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AdManager_ChangeInterstisialsUnitID_m3785/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, AdManager_t730_AdManager_ChangeInterstisialsUnitID_m3797_ParameterInfos/* parameters */
+	, AdManager_t728_AdManager_ChangeInterstisialsUnitID_m3785_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -224,20 +224,20 @@ extern const MethodInfo AdManager_ChangeInterstisialsUnitID_m3797_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo AdManager_t730_AdManager_DestroyBanner_m3798_ParameterInfos[] = 
+static const ParameterInfo AdManager_t728_AdManager_DestroyBanner_m3786_ParameterInfos[] = 
 {
 	{"bannerId", 0, 134217732, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::DestroyBanner(System.Int32)
-extern const MethodInfo AdManager_DestroyBanner_m3798_MethodInfo = 
+extern const MethodInfo AdManager_DestroyBanner_m3786_MethodInfo = 
 {
 	"DestroyBanner"/* name */
-	, (methodPointerType)&AdManager_DestroyBanner_m3798/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AdManager_DestroyBanner_m3786/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, AdManager_t730_AdManager_DestroyBanner_m3798_ParameterInfos/* parameters */
+	, AdManager_t728_AdManager_DestroyBanner_m3786_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -252,20 +252,20 @@ extern const MethodInfo AdManager_DestroyBanner_m3798_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo AdManager_t730_AdManager_AddKeyword_m3799_ParameterInfos[] = 
+static const ParameterInfo AdManager_t728_AdManager_AddKeyword_m3787_ParameterInfos[] = 
 {
 	{"keyword", 0, 134217733, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::AddKeyword(System.String)
-extern const MethodInfo AdManager_AddKeyword_m3799_MethodInfo = 
+extern const MethodInfo AdManager_AddKeyword_m3787_MethodInfo = 
 {
 	"AddKeyword"/* name */
-	, (methodPointerType)&AdManager_AddKeyword_m3799/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AdManager_AddKeyword_m3787/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, AdManager_t730_AdManager_AddKeyword_m3799_ParameterInfos/* parameters */
+	, AdManager_t728_AdManager_AddKeyword_m3787_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -280,20 +280,20 @@ extern const MethodInfo AdManager_AddKeyword_m3799_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo AdManager_t730_AdManager_SetGender_m3801_ParameterInfos[] = 
+static const ParameterInfo AdManager_t728_AdManager_SetGender_m3789_ParameterInfos[] = 
 {
 	{"gender", 0, 134217734, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::SetGender(System.Int32)
-extern const MethodInfo AdManager_SetGender_m3801_MethodInfo = 
+extern const MethodInfo AdManager_SetGender_m3789_MethodInfo = 
 {
 	"SetGender"/* name */
-	, (methodPointerType)&AdManager_SetGender_m3801/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AdManager_SetGender_m3789/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, AdManager_t730_AdManager_SetGender_m3801_ParameterInfos/* parameters */
+	, AdManager_t728_AdManager_SetGender_m3789_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -310,7 +310,7 @@ extern const MethodInfo AdManager_SetGender_m3801_MethodInfo =
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo AdManager_t730_AdManager_SetBirthday_m3802_ParameterInfos[] = 
+static const ParameterInfo AdManager_t728_AdManager_SetBirthday_m3790_ParameterInfos[] = 
 {
 	{"year", 0, 134217735, 0, &Int32_t82_0_0_0},
 	{"month", 1, 134217736, 0, &Int32_t82_0_0_0},
@@ -318,14 +318,14 @@ static const ParameterInfo AdManager_t730_AdManager_SetBirthday_m3802_ParameterI
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::SetBirthday(System.Int32,System.Int32,System.Int32)
-extern const MethodInfo AdManager_SetBirthday_m3802_MethodInfo = 
+extern const MethodInfo AdManager_SetBirthday_m3790_MethodInfo = 
 {
 	"SetBirthday"/* name */
-	, (methodPointerType)&AdManager_SetBirthday_m3802/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AdManager_SetBirthday_m3790/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82_Int32_t82/* invoker_method */
-	, AdManager_t730_AdManager_SetBirthday_m3802_ParameterInfos/* parameters */
+	, AdManager_t728_AdManager_SetBirthday_m3790_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -341,11 +341,11 @@ extern const MethodInfo AdManager_SetBirthday_m3802_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::StartInterstitialAd()
-extern const MethodInfo AdManager_StartInterstitialAd_m3803_MethodInfo = 
+extern const MethodInfo AdManager_StartInterstitialAd_m3791_MethodInfo = 
 {
 	"StartInterstitialAd"/* name */
-	, (methodPointerType)&AdManager_StartInterstitialAd_m3803/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AdManager_StartInterstitialAd_m3791/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -364,11 +364,11 @@ extern const MethodInfo AdManager_StartInterstitialAd_m3803_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::LoadInterstitialAd()
-extern const MethodInfo AdManager_LoadInterstitialAd_m3804_MethodInfo = 
+extern const MethodInfo AdManager_LoadInterstitialAd_m3792_MethodInfo = 
 {
 	"LoadInterstitialAd"/* name */
-	, (methodPointerType)&AdManager_LoadInterstitialAd_m3804/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AdManager_LoadInterstitialAd_m3792/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -387,11 +387,11 @@ extern const MethodInfo AdManager_LoadInterstitialAd_m3804_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::ShowInterstitialAd()
-extern const MethodInfo AdManager_ShowInterstitialAd_m3805_MethodInfo = 
+extern const MethodInfo AdManager_ShowInterstitialAd_m3793_MethodInfo = 
 {
 	"ShowInterstitialAd"/* name */
-	, (methodPointerType)&AdManager_ShowInterstitialAd_m3805/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AdManager_ShowInterstitialAd_m3793/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -409,20 +409,20 @@ extern const MethodInfo AdManager_ShowInterstitialAd_m3805_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo AdManager_t730_AdManager_SetOrientation_m3795_ParameterInfos[] = 
+static const ParameterInfo AdManager_t728_AdManager_SetOrientation_m3783_ParameterInfos[] = 
 {
 	{"orientation", 0, 134217738, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::SetOrientation(System.Int32)
-extern const MethodInfo AdManager_SetOrientation_m3795_MethodInfo = 
+extern const MethodInfo AdManager_SetOrientation_m3783_MethodInfo = 
 {
 	"SetOrientation"/* name */
-	, (methodPointerType)&AdManager_SetOrientation_m3795/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AdManager_SetOrientation_m3783/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, AdManager_t730_AdManager_SetOrientation_m3795_ParameterInfos/* parameters */
+	, AdManager_t728_AdManager_SetOrientation_m3783_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -438,11 +438,11 @@ extern const MethodInfo AdManager_SetOrientation_m3795_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleAdsWP8.AdManager::.ctor()
-extern const MethodInfo AdManager__ctor_m10419_MethodInfo = 
+extern const MethodInfo AdManager__ctor_m10408_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AdManager__ctor_m10419/* method */
-	, &AdManager_t730_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AdManager__ctor_m10408/* method */
+	, &AdManager_t728_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -459,52 +459,52 @@ extern const MethodInfo AdManager__ctor_m10419_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* AdManager_t730_MethodInfos[] =
+static const MethodInfo* AdManager_t728_MethodInfos[] =
 {
-	&AdManager_Init_m3794_MethodInfo,
-	&AdManager_get_instance_m3793_MethodInfo,
-	&AdManager_EnableForceTesting_m3800_MethodInfo,
-	&AdManager_ChangeBannersUnitID_m3796_MethodInfo,
-	&AdManager_ChangeInterstisialsUnitID_m3797_MethodInfo,
-	&AdManager_DestroyBanner_m3798_MethodInfo,
-	&AdManager_AddKeyword_m3799_MethodInfo,
-	&AdManager_SetGender_m3801_MethodInfo,
-	&AdManager_SetBirthday_m3802_MethodInfo,
-	&AdManager_StartInterstitialAd_m3803_MethodInfo,
-	&AdManager_LoadInterstitialAd_m3804_MethodInfo,
-	&AdManager_ShowInterstitialAd_m3805_MethodInfo,
-	&AdManager_SetOrientation_m3795_MethodInfo,
-	&AdManager__ctor_m10419_MethodInfo,
+	&AdManager_Init_m3782_MethodInfo,
+	&AdManager_get_instance_m3781_MethodInfo,
+	&AdManager_EnableForceTesting_m3788_MethodInfo,
+	&AdManager_ChangeBannersUnitID_m3784_MethodInfo,
+	&AdManager_ChangeInterstisialsUnitID_m3785_MethodInfo,
+	&AdManager_DestroyBanner_m3786_MethodInfo,
+	&AdManager_AddKeyword_m3787_MethodInfo,
+	&AdManager_SetGender_m3789_MethodInfo,
+	&AdManager_SetBirthday_m3790_MethodInfo,
+	&AdManager_StartInterstitialAd_m3791_MethodInfo,
+	&AdManager_LoadInterstitialAd_m3792_MethodInfo,
+	&AdManager_ShowInterstitialAd_m3793_MethodInfo,
+	&AdManager_SetOrientation_m3783_MethodInfo,
+	&AdManager__ctor_m10408_MethodInfo,
 	NULL
 };
-extern const MethodInfo AdManager_get_instance_m3793_MethodInfo;
-static const PropertyInfo AdManager_t730____instance_PropertyInfo = 
+extern const MethodInfo AdManager_get_instance_m3781_MethodInfo;
+static const PropertyInfo AdManager_t728____instance_PropertyInfo = 
 {
-	&AdManager_t730_il2cpp_TypeInfo/* parent */
+	&AdManager_t728_il2cpp_TypeInfo/* parent */
 	, "instance"/* name */
-	, &AdManager_get_instance_m3793_MethodInfo/* get */
+	, &AdManager_get_instance_m3781_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* AdManager_t730_PropertyInfos[] =
+static const PropertyInfo* AdManager_t728_PropertyInfos[] =
 {
-	&AdManager_t730____instance_PropertyInfo,
+	&AdManager_t728____instance_PropertyInfo,
 	NULL
 };
 extern const MethodInfo Object_Equals_m493_MethodInfo;
 extern const MethodInfo Object_Finalize_m490_MethodInfo;
 extern const MethodInfo Object_GetHashCode_m406_MethodInfo;
 extern const MethodInfo Object_ToString_m492_MethodInfo;
-static const Il2CppMethodReference AdManager_t730_VTable[] =
+static const Il2CppMethodReference AdManager_t728_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool AdManager_t730_VTableIsGenericMethod[] =
+static bool AdManager_t728_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -512,37 +512,37 @@ static bool AdManager_t730_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_GoogleAdsWP8_dll_Image;
-extern const Il2CppType AdManager_t730_1_0_0;
+extern const Il2CppType AdManager_t728_1_0_0;
 extern const Il2CppType Object_t_0_0_0;
-struct AdManager_t730;
-const Il2CppTypeDefinitionMetadata AdManager_t730_DefinitionMetadata = 
+struct AdManager_t728;
+const Il2CppTypeDefinitionMetadata AdManager_t728_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, AdManager_t730_VTable/* vtableMethods */
-	, AdManager_t730_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, AdManager_t728_VTable/* vtableMethods */
+	, AdManager_t728_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 0/* fieldStart */
 
 };
-TypeInfo AdManager_t730_il2cpp_TypeInfo = 
+TypeInfo AdManager_t728_il2cpp_TypeInfo = 
 {
 	&g_GoogleAdsWP8_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "AdManager"/* name */
 	, "GoogleAdsWP8"/* namespaze */
-	, AdManager_t730_MethodInfos/* methods */
-	, AdManager_t730_PropertyInfos/* properties */
+	, AdManager_t728_MethodInfos/* methods */
+	, AdManager_t728_PropertyInfos/* properties */
 	, NULL/* events */
-	, &AdManager_t730_il2cpp_TypeInfo/* element_class */
+	, &AdManager_t728_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &AdManager_t730_0_0_0/* byval_arg */
-	, &AdManager_t730_1_0_0/* this_arg */
-	, &AdManager_t730_DefinitionMetadata/* definitionMetadata */
+	, &AdManager_t728_0_0_0/* byval_arg */
+	, &AdManager_t728_1_0_0/* this_arg */
+	, &AdManager_t728_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -552,11 +552,11 @@ TypeInfo AdManager_t730_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (AdManager_t730)/* instance_size */
-	, sizeof (AdManager_t730)/* actualSize */
+	, sizeof (AdManager_t728)/* instance_size */
+	, sizeof (AdManager_t728)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(AdManager_t730_StaticFields)/* static_fields_size */
+	, sizeof(AdManager_t728_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048577/* flags */

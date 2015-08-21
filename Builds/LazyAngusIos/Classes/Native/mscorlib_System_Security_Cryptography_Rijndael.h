@@ -3,6 +3,6 @@
 // System.Security.Cryptography.SymmetricAlgorithm
 #include "mscorlib_System_Security_Cryptography_SymmetricAlgorithm.h"
 // System.Security.Cryptography.Rijndael
-struct  Rijndael_t3933  : public SymmetricAlgorithm_t3802
+struct  Rijndael_t3931  : public SymmetricAlgorithm_t3800
 {
 };

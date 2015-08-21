@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.FieldAccessException
-struct FieldAccessException_t4812;
+struct FieldAccessException_t4810;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2919;
+struct SerializationInfo_t2917;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.FieldAccessException::.ctor()
-extern "C" void FieldAccessException__ctor_m19748 (FieldAccessException_t4812 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FieldAccessException__ctor_m19737 (FieldAccessException_t4810 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.FieldAccessException::.ctor(System.String)
-extern "C" void FieldAccessException__ctor_m19749 (FieldAccessException_t4812 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FieldAccessException__ctor_m19738 (FieldAccessException_t4810 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.FieldAccessException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void FieldAccessException__ctor_m19750 (FieldAccessException_t4812 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FieldAccessException__ctor_m19739 (FieldAccessException_t4810 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

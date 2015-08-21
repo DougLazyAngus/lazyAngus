@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.UInt32[]
-struct UInt32U5BU5D_t3217;
+// System.UInt16[]
+struct UInt16U5BU5D_t4058;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.UInt32>
-struct  List_1_t6600  : public Object_t
+// System.Collections.Generic.List`1<System.UInt16>
+struct  List_1_t6523  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.UInt32>::_items
-	UInt32U5BU5D_t3217* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.UInt32>::_size
+	// T[] System.Collections.Generic.List`1<System.UInt16>::_items
+	UInt16U5BU5D_t4058* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.UInt16>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.UInt32>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.UInt16>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6600_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.UInt32>::EmptyArray
-	UInt32U5BU5D_t3217* ___EmptyArray_4;
+struct List_1_t6523_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.UInt16>::EmptyArray
+	UInt16U5BU5D_t4058* ___EmptyArray_4;
 };

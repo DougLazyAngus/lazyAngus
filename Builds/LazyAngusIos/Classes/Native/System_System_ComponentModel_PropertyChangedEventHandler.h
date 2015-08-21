@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // System.ComponentModel.PropertyChangedEventArgs
-struct PropertyChangedEventArgs_t1507;
+struct PropertyChangedEventArgs_t1505;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.ComponentModel.PropertyChangedEventHandler
-struct  PropertyChangedEventHandler_t1401  : public MulticastDelegate_t388
+struct  PropertyChangedEventHandler_t1399  : public MulticastDelegate_t388
 {
 };

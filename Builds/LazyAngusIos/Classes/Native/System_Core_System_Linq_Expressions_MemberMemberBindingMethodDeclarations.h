@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Expressions.MemberMemberBinding
-struct MemberMemberBinding_t3339;
+struct MemberMemberBinding_t3337;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.MemberBinding>
-struct ReadOnlyCollection_1_t3336;
+struct ReadOnlyCollection_1_t3334;
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.MemberBinding> System.Linq.Expressions.MemberMemberBinding::get_Bindings()
-extern "C" ReadOnlyCollection_1_t3336 * MemberMemberBinding_get_Bindings_m11707 (MemberMemberBinding_t3339 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ReadOnlyCollection_1_t3334 * MemberMemberBinding_get_Bindings_m11696 (MemberMemberBinding_t3337 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

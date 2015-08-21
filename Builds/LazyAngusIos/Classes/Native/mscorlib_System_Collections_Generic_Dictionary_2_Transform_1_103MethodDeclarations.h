@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.UInt64,System.Object,System.Object>
-struct Transform_1_t8486;
+struct Transform_1_t8490;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.UInt64,System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void Transform_1__ctor_m61638_gshared (Transform_1_t8486 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Transform_1__ctor_m61638(__this, ___object, ___method, method) (( void (*) (Transform_1_t8486 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m61638_gshared)(__this, ___object, ___method, method)
+extern "C" void Transform_1__ctor_m61729_gshared (Transform_1_t8490 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Transform_1__ctor_m61729(__this, ___object, ___method, method) (( void (*) (Transform_1_t8490 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m61729_gshared)(__this, ___object, ___method, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.UInt64,System.Object,System.Object>::Invoke(TKey,TValue)
-extern "C" Object_t * Transform_1_Invoke_m61639_gshared (Transform_1_t8486 * __this, uint64_t ___key, Object_t * ___value, const MethodInfo* method);
-#define Transform_1_Invoke_m61639(__this, ___key, ___value, method) (( Object_t * (*) (Transform_1_t8486 *, uint64_t, Object_t *, const MethodInfo*))Transform_1_Invoke_m61639_gshared)(__this, ___key, ___value, method)
+extern "C" Object_t * Transform_1_Invoke_m61730_gshared (Transform_1_t8490 * __this, uint64_t ___key, Object_t * ___value, const MethodInfo* method);
+#define Transform_1_Invoke_m61730(__this, ___key, ___value, method) (( Object_t * (*) (Transform_1_t8490 *, uint64_t, Object_t *, const MethodInfo*))Transform_1_Invoke_m61730_gshared)(__this, ___key, ___value, method)
 // System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.UInt64,System.Object,System.Object>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-extern "C" Object_t * Transform_1_BeginInvoke_m61640_gshared (Transform_1_t8486 * __this, uint64_t ___key, Object_t * ___value, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Transform_1_BeginInvoke_m61640(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t8486 *, uint64_t, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m61640_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+extern "C" Object_t * Transform_1_BeginInvoke_m61731_gshared (Transform_1_t8490 * __this, uint64_t ___key, Object_t * ___value, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Transform_1_BeginInvoke_m61731(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t8490 *, uint64_t, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m61731_gshared)(__this, ___key, ___value, ___callback, ___object, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.UInt64,System.Object,System.Object>::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * Transform_1_EndInvoke_m61641_gshared (Transform_1_t8486 * __this, Object_t * ___result, const MethodInfo* method);
-#define Transform_1_EndInvoke_m61641(__this, ___result, method) (( Object_t * (*) (Transform_1_t8486 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m61641_gshared)(__this, ___result, method)
+extern "C" Object_t * Transform_1_EndInvoke_m61732_gshared (Transform_1_t8490 * __this, Object_t * ___result, const MethodInfo* method);
+#define Transform_1_EndInvoke_m61732(__this, ___result, method) (( Object_t * (*) (Transform_1_t8490 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m61732_gshared)(__this, ___result, method)

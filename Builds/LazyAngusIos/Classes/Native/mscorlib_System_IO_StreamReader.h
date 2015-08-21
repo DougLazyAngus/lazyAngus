@@ -3,26 +3,26 @@
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Char[]
-struct CharU5BU5D_t697;
+struct CharU5BU5D_t695;
 // System.Text.Encoding
-struct Encoding_t739;
+struct Encoding_t737;
 // System.Text.Decoder
-struct Decoder_t3234;
+struct Decoder_t3232;
 // System.IO.Stream
 struct Stream_t51;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // System.IO.StreamReader
-struct StreamReader_t1161;
+struct StreamReader_t1159;
 // System.IO.TextReader
 #include "mscorlib_System_IO_TextReader.h"
 // System.IO.StreamReader
-struct  StreamReader_t1161  : public TextReader_t3235
+struct  StreamReader_t1159  : public TextReader_t3233
 {
 	// System.Byte[] System.IO.StreamReader::input_buffer
 	ByteU5BU5D_t66* ___input_buffer_1;
 	// System.Char[] System.IO.StreamReader::decoded_buffer
-	CharU5BU5D_t697* ___decoded_buffer_2;
+	CharU5BU5D_t695* ___decoded_buffer_2;
 	// System.Int32 System.IO.StreamReader::decoded_count
 	int32_t ___decoded_count_3;
 	// System.Int32 System.IO.StreamReader::pos
@@ -32,9 +32,9 @@ struct  StreamReader_t1161  : public TextReader_t3235
 	// System.Int32 System.IO.StreamReader::do_checks
 	int32_t ___do_checks_6;
 	// System.Text.Encoding System.IO.StreamReader::encoding
-	Encoding_t739 * ___encoding_7;
+	Encoding_t737 * ___encoding_7;
 	// System.Text.Decoder System.IO.StreamReader::decoder
-	Decoder_t3234 * ___decoder_8;
+	Decoder_t3232 * ___decoder_8;
 	// System.IO.Stream System.IO.StreamReader::base_stream
 	Stream_t51 * ___base_stream_9;
 	// System.Boolean System.IO.StreamReader::mayBlock
@@ -44,7 +44,7 @@ struct  StreamReader_t1161  : public TextReader_t3235
 	// System.Boolean System.IO.StreamReader::foundCR
 	bool ___foundCR_13;
 };
-struct StreamReader_t1161_StaticFields{
+struct StreamReader_t1159_StaticFields{
 	// System.IO.StreamReader System.IO.StreamReader::Null
-	StreamReader_t1161 * ___Null_12;
+	StreamReader_t1159 * ___Null_12;
 };

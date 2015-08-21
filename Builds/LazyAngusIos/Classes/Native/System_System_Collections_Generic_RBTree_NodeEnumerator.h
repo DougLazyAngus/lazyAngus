@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.RBTree
-struct RBTree_t3952;
+struct RBTree_t3950;
 // System.Collections.Generic.Stack`1<System.Collections.Generic.RBTree/Node>
-struct Stack_1_t3953;
+struct Stack_1_t3951;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.RBTree/NodeEnumerator
-struct  NodeEnumerator_t3954 
+struct  NodeEnumerator_t3952 
 {
 	// System.Collections.Generic.RBTree System.Collections.Generic.RBTree/NodeEnumerator::tree
-	RBTree_t3952 * ___tree_0;
+	RBTree_t3950 * ___tree_0;
 	// System.UInt32 System.Collections.Generic.RBTree/NodeEnumerator::version
 	uint32_t ___version_1;
 	// System.Collections.Generic.Stack`1<System.Collections.Generic.RBTree/Node> System.Collections.Generic.RBTree/NodeEnumerator::pennants
-	Stack_1_t3953 * ___pennants_2;
+	Stack_1_t3951 * ___pennants_2;
 };

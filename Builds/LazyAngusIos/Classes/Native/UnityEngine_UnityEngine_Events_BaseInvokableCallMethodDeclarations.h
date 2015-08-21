@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.BaseInvokableCall
-struct BaseInvokableCall_t2883;
+struct BaseInvokableCall_t2881;
 // System.Object
 struct Object_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Object[]
-struct ObjectU5BU5D_t682;
+struct ObjectU5BU5D_t680;
 // System.Delegate
-struct Delegate_t724;
+struct Delegate_t722;
 
 // System.Void UnityEngine.Events.BaseInvokableCall::.ctor()
-extern "C" void BaseInvokableCall__ctor_m10032 (BaseInvokableCall_t2883 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseInvokableCall__ctor_m10021 (BaseInvokableCall_t2881 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.BaseInvokableCall::.ctor(System.Object,System.Reflection.MethodInfo)
-extern "C" void BaseInvokableCall__ctor_m10033 (BaseInvokableCall_t2883 * __this, Object_t * ___target, MethodInfo_t * ___function, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseInvokableCall__ctor_m10022 (BaseInvokableCall_t2881 * __this, Object_t * ___target, MethodInfo_t * ___function, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.BaseInvokableCall::Invoke(System.Object[])
 // System.Boolean UnityEngine.Events.BaseInvokableCall::AllowInvoke(System.Delegate)
-extern "C" bool BaseInvokableCall_AllowInvoke_m10034 (Object_t * __this /* static, unused */, Delegate_t724 * ___delegate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool BaseInvokableCall_AllowInvoke_m10023 (Object_t * __this /* static, unused */, Delegate_t722 * ___delegate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Events.BaseInvokableCall::Find(System.Object,System.Reflection.MethodInfo)

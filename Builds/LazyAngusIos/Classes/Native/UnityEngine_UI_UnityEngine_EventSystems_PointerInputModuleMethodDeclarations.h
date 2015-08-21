@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.PointerInputModule
-struct PointerInputModule_t892;
+struct PointerInputModule_t890;
 // UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t885;
+struct PointerEventData_t883;
 // UnityEngine.EventSystems.PointerInputModule/MouseState
-struct MouseState_t890;
+struct MouseState_t888;
 // System.String
 struct String_t;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t845;
+struct BaseEventData_t843;
 // UnityEngine.Touch
 #include "UnityEngine_UnityEngine_Touch.h"
 // UnityEngine.EventSystems.PointerEventData/FramePressState
@@ -24,32 +24,32 @@ struct BaseEventData_t845;
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // System.Void UnityEngine.EventSystems.PointerInputModule::.ctor()
-extern "C" void PointerInputModule__ctor_m4786 (PointerInputModule_t892 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PointerInputModule__ctor_m4775 (PointerInputModule_t890 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.EventSystems.PointerInputModule::GetPointerData(System.Int32,UnityEngine.EventSystems.PointerEventData&,System.Boolean)
-extern "C" bool PointerInputModule_GetPointerData_m4787 (PointerInputModule_t892 * __this, int32_t ___id, PointerEventData_t885 ** ___data, bool ___create, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PointerInputModule_GetPointerData_m4776 (PointerInputModule_t890 * __this, int32_t ___id, PointerEventData_t883 ** ___data, bool ___create, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.PointerInputModule::RemovePointerData(UnityEngine.EventSystems.PointerEventData)
-extern "C" void PointerInputModule_RemovePointerData_m4788 (PointerInputModule_t892 * __this, PointerEventData_t885 * ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PointerInputModule_RemovePointerData_m4777 (PointerInputModule_t890 * __this, PointerEventData_t883 * ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.EventSystems.PointerEventData UnityEngine.EventSystems.PointerInputModule::GetTouchPointerEventData(UnityEngine.Touch,System.Boolean&,System.Boolean&)
-extern "C" PointerEventData_t885 * PointerInputModule_GetTouchPointerEventData_m4789 (PointerInputModule_t892 * __this, Touch_t706  ___input, bool* ___pressed, bool* ___released, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PointerEventData_t883 * PointerInputModule_GetTouchPointerEventData_m4778 (PointerInputModule_t890 * __this, Touch_t704  ___input, bool* ___pressed, bool* ___released, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.PointerInputModule::CopyFromTo(UnityEngine.EventSystems.PointerEventData,UnityEngine.EventSystems.PointerEventData)
-extern "C" void PointerInputModule_CopyFromTo_m4790 (PointerInputModule_t892 * __this, PointerEventData_t885 * ___from, PointerEventData_t885 * ___to, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PointerInputModule_CopyFromTo_m4779 (PointerInputModule_t890 * __this, PointerEventData_t883 * ___from, PointerEventData_t883 * ___to, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.EventSystems.PointerEventData/FramePressState UnityEngine.EventSystems.PointerInputModule::StateForMouseButton(System.Int32)
-extern "C" int32_t PointerInputModule_StateForMouseButton_m4791 (Object_t * __this /* static, unused */, int32_t ___buttonId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PointerInputModule_StateForMouseButton_m4780 (Object_t * __this /* static, unused */, int32_t ___buttonId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.EventSystems.PointerInputModule/MouseState UnityEngine.EventSystems.PointerInputModule::GetMousePointerEventData()
-extern "C" MouseState_t890 * PointerInputModule_GetMousePointerEventData_m4792 (PointerInputModule_t892 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MouseState_t888 * PointerInputModule_GetMousePointerEventData_m4781 (PointerInputModule_t890 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.EventSystems.PointerEventData UnityEngine.EventSystems.PointerInputModule::GetLastPointerEventData(System.Int32)
-extern "C" PointerEventData_t885 * PointerInputModule_GetLastPointerEventData_m4793 (PointerInputModule_t892 * __this, int32_t ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PointerEventData_t883 * PointerInputModule_GetLastPointerEventData_m4782 (PointerInputModule_t890 * __this, int32_t ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.EventSystems.PointerInputModule::ShouldStartDrag(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Boolean)
-extern "C" bool PointerInputModule_ShouldStartDrag_m4794 (Object_t * __this /* static, unused */, Vector2_t110  ___pressPos, Vector2_t110  ___currentPos, float ___threshold, bool ___useDragThreshold, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PointerInputModule_ShouldStartDrag_m4783 (Object_t * __this /* static, unused */, Vector2_t110  ___pressPos, Vector2_t110  ___currentPos, float ___threshold, bool ___useDragThreshold, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.PointerInputModule::ProcessMove(UnityEngine.EventSystems.PointerEventData)
-extern "C" void PointerInputModule_ProcessMove_m4795 (PointerInputModule_t892 * __this, PointerEventData_t885 * ___pointerEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PointerInputModule_ProcessMove_m4784 (PointerInputModule_t890 * __this, PointerEventData_t883 * ___pointerEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.PointerInputModule::ProcessDrag(UnityEngine.EventSystems.PointerEventData)
-extern "C" void PointerInputModule_ProcessDrag_m4796 (PointerInputModule_t892 * __this, PointerEventData_t885 * ___pointerEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PointerInputModule_ProcessDrag_m4785 (PointerInputModule_t890 * __this, PointerEventData_t883 * ___pointerEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.EventSystems.PointerInputModule::IsPointerOverGameObject(System.Int32)
-extern "C" bool PointerInputModule_IsPointerOverGameObject_m4797 (PointerInputModule_t892 * __this, int32_t ___pointerId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PointerInputModule_IsPointerOverGameObject_m4786 (PointerInputModule_t890 * __this, int32_t ___pointerId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.PointerInputModule::ClearSelection()
-extern "C" void PointerInputModule_ClearSelection_m4798 (PointerInputModule_t892 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PointerInputModule_ClearSelection_m4787 (PointerInputModule_t890 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.EventSystems.PointerInputModule::ToString()
-extern "C" String_t* PointerInputModule_ToString_m4799 (PointerInputModule_t892 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* PointerInputModule_ToString_m4788 (PointerInputModule_t890 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.PointerInputModule::DeselectIfSelectionChanged(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData)
-extern "C" void PointerInputModule_DeselectIfSelectionChanged_m4800 (PointerInputModule_t892 * __this, GameObject_t352 * ___currentOverGo, BaseEventData_t845 * ___pointerEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PointerInputModule_DeselectIfSelectionChanged_m4789 (PointerInputModule_t890 * __this, GameObject_t352 * ___currentOverGo, BaseEventData_t843 * ___pointerEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;

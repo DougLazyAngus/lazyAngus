@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Transform[]
-struct TransformU5BU5D_t5803;
+// UnityEngine.EventSystems.IEventSystemHandler[]
+struct IEventSystemHandlerU5BU5D_t5770;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.Transform>
-struct  List_1_t873  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>
+struct  List_1_t1037  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.Transform>::_items
-	TransformU5BU5D_t5803* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Transform>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>::_items
+	IEventSystemHandlerU5BU5D_t5770* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Transform>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>::_version
 	int32_t ____version_3;
 };
-struct List_1_t873_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.Transform>::EmptyArray
-	TransformU5BU5D_t5803* ___EmptyArray_4;
+struct List_1_t1037_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>::EmptyArray
+	IEventSystemHandlerU5BU5D_t5770* ___EmptyArray_4;
 };

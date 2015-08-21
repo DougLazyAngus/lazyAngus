@@ -5,41 +5,41 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.DSACryptoServiceProvider
-struct DSACryptoServiceProvider_t3921;
+struct DSACryptoServiceProvider_t3919;
 // System.Security.Cryptography.CspParameters
-struct CspParameters_t3917;
+struct CspParameters_t3915;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Object
 struct Object_t;
 // System.EventArgs
-struct EventArgs_t1297;
+struct EventArgs_t1295;
 // System.Security.Cryptography.DSAParameters
 #include "mscorlib_System_Security_Cryptography_DSAParameters.h"
 
 // System.Void System.Security.Cryptography.DSACryptoServiceProvider::.ctor()
-extern "C" void DSACryptoServiceProvider__ctor_m18621 (DSACryptoServiceProvider_t3921 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSACryptoServiceProvider__ctor_m18610 (DSACryptoServiceProvider_t3919 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSACryptoServiceProvider::.ctor(System.Int32)
-extern "C" void DSACryptoServiceProvider__ctor_m13164 (DSACryptoServiceProvider_t3921 * __this, int32_t ___dwKeySize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSACryptoServiceProvider__ctor_m13153 (DSACryptoServiceProvider_t3919 * __this, int32_t ___dwKeySize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSACryptoServiceProvider::.ctor(System.Int32,System.Security.Cryptography.CspParameters)
-extern "C" void DSACryptoServiceProvider__ctor_m18622 (DSACryptoServiceProvider_t3921 * __this, int32_t ___dwKeySize, CspParameters_t3917 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSACryptoServiceProvider__ctor_m18611 (DSACryptoServiceProvider_t3919 * __this, int32_t ___dwKeySize, CspParameters_t3915 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSACryptoServiceProvider::.cctor()
-extern "C" void DSACryptoServiceProvider__cctor_m18623 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSACryptoServiceProvider__cctor_m18612 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSACryptoServiceProvider::Finalize()
-extern "C" void DSACryptoServiceProvider_Finalize_m18624 (DSACryptoServiceProvider_t3921 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSACryptoServiceProvider_Finalize_m18613 (DSACryptoServiceProvider_t3919 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.DSACryptoServiceProvider::get_KeySize()
-extern "C" int32_t DSACryptoServiceProvider_get_KeySize_m18625 (DSACryptoServiceProvider_t3921 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DSACryptoServiceProvider_get_KeySize_m18614 (DSACryptoServiceProvider_t3919 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.DSACryptoServiceProvider::get_PublicOnly()
-extern "C" bool DSACryptoServiceProvider_get_PublicOnly_m15152 (DSACryptoServiceProvider_t3921 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DSACryptoServiceProvider_get_PublicOnly_m15141 (DSACryptoServiceProvider_t3919 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.DSAParameters System.Security.Cryptography.DSACryptoServiceProvider::ExportParameters(System.Boolean)
-extern "C" DSAParameters_t3912  DSACryptoServiceProvider_ExportParameters_m18626 (DSACryptoServiceProvider_t3921 * __this, bool ___includePrivateParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DSAParameters_t3910  DSACryptoServiceProvider_ExportParameters_m18615 (DSACryptoServiceProvider_t3919 * __this, bool ___includePrivateParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSACryptoServiceProvider::ImportParameters(System.Security.Cryptography.DSAParameters)
-extern "C" void DSACryptoServiceProvider_ImportParameters_m18627 (DSACryptoServiceProvider_t3921 * __this, DSAParameters_t3912  ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSACryptoServiceProvider_ImportParameters_m18616 (DSACryptoServiceProvider_t3919 * __this, DSAParameters_t3910  ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.DSACryptoServiceProvider::CreateSignature(System.Byte[])
-extern "C" ByteU5BU5D_t66* DSACryptoServiceProvider_CreateSignature_m18628 (DSACryptoServiceProvider_t3921 * __this, ByteU5BU5D_t66* ___rgbHash, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* DSACryptoServiceProvider_CreateSignature_m18617 (DSACryptoServiceProvider_t3919 * __this, ByteU5BU5D_t66* ___rgbHash, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.DSACryptoServiceProvider::VerifySignature(System.Byte[],System.Byte[])
-extern "C" bool DSACryptoServiceProvider_VerifySignature_m18629 (DSACryptoServiceProvider_t3921 * __this, ByteU5BU5D_t66* ___rgbHash, ByteU5BU5D_t66* ___rgbSignature, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DSACryptoServiceProvider_VerifySignature_m18618 (DSACryptoServiceProvider_t3919 * __this, ByteU5BU5D_t66* ___rgbHash, ByteU5BU5D_t66* ___rgbSignature, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSACryptoServiceProvider::Dispose(System.Boolean)
-extern "C" void DSACryptoServiceProvider_Dispose_m18630 (DSACryptoServiceProvider_t3921 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSACryptoServiceProvider_Dispose_m18619 (DSACryptoServiceProvider_t3919 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSACryptoServiceProvider::OnKeyGenerated(System.Object,System.EventArgs)
-extern "C" void DSACryptoServiceProvider_OnKeyGenerated_m18631 (DSACryptoServiceProvider_t3921 * __this, Object_t * ___sender, EventArgs_t1297 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSACryptoServiceProvider_OnKeyGenerated_m18620 (DSACryptoServiceProvider_t3919 * __this, Object_t * ___sender, EventArgs_t1295 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;

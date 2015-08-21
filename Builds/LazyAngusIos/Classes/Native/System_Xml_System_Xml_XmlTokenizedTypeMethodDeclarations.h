@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlTokenizedType
-struct XmlTokenizedType_t3282;
+struct XmlTokenizedType_t3280;
 

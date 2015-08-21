@@ -1,30 +1,30 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlNode/EmptyNodeList
-struct EmptyNodeList_t3241;
+struct EmptyNodeList_t3239;
 // System.Xml.XmlDocument
-struct XmlDocument_t677;
+struct XmlDocument_t675;
 // System.Xml.XmlNode
-struct XmlNode_t717;
+struct XmlNode_t715;
 // System.Xml.XmlNodeListChildren
-struct XmlNodeListChildren_t3243;
+struct XmlNodeListChildren_t3241;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlNode
-struct  XmlNode_t717  : public Object_t
+struct  XmlNode_t715  : public Object_t
 {
 	// System.Xml.XmlDocument System.Xml.XmlNode::ownerDocument
-	XmlDocument_t677 * ___ownerDocument_1;
+	XmlDocument_t675 * ___ownerDocument_1;
 	// System.Xml.XmlNode System.Xml.XmlNode::parentNode
-	XmlNode_t717 * ___parentNode_2;
+	XmlNode_t715 * ___parentNode_2;
 	// System.Xml.XmlNodeListChildren System.Xml.XmlNode::childNodes
-	XmlNodeListChildren_t3243 * ___childNodes_3;
+	XmlNodeListChildren_t3241 * ___childNodes_3;
 };
-struct XmlNode_t717_StaticFields{
+struct XmlNode_t715_StaticFields{
 	// System.Xml.XmlNode/EmptyNodeList System.Xml.XmlNode::emptyList
-	EmptyNodeList_t3241 * ___emptyList_0;
+	EmptyNodeList_t3239 * ___emptyList_0;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlNode::<>f__switch$map44
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map44_4;
 };

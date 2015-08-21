@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Object,Parse.ParseGeoPoint>
-struct Func_2_t6857;
+struct Func_2_t6861;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "Parse_Unity_Parse_ParseGeoPoint.h"
 
 // System.Void System.Func`2<System.Object,Parse.ParseGeoPoint>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_2__ctor_m41930_gshared (Func_2_t6857 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_2__ctor_m41930(__this, ___object, ___method, method) (( void (*) (Func_2_t6857 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m41930_gshared)(__this, ___object, ___method, method)
+extern "C" void Func_2__ctor_m42021_gshared (Func_2_t6861 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Func_2__ctor_m42021(__this, ___object, ___method, method) (( void (*) (Func_2_t6861 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m42021_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Object,Parse.ParseGeoPoint>::Invoke(T)
-extern "C" ParseGeoPoint_t1247  Func_2_Invoke_m41931_gshared (Func_2_t6857 * __this, Object_t * ___arg1, const MethodInfo* method);
-#define Func_2_Invoke_m41931(__this, ___arg1, method) (( ParseGeoPoint_t1247  (*) (Func_2_t6857 *, Object_t *, const MethodInfo*))Func_2_Invoke_m41931_gshared)(__this, ___arg1, method)
+extern "C" ParseGeoPoint_t1245  Func_2_Invoke_m42022_gshared (Func_2_t6861 * __this, Object_t * ___arg1, const MethodInfo* method);
+#define Func_2_Invoke_m42022(__this, ___arg1, method) (( ParseGeoPoint_t1245  (*) (Func_2_t6861 *, Object_t *, const MethodInfo*))Func_2_Invoke_m42022_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Object,Parse.ParseGeoPoint>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Func_2_BeginInvoke_m41932_gshared (Func_2_t6857 * __this, Object_t * ___arg1, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Func_2_BeginInvoke_m41932(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6857 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m41932_gshared)(__this, ___arg1, ___callback, ___object, method)
+extern "C" Object_t * Func_2_BeginInvoke_m42023_gshared (Func_2_t6861 * __this, Object_t * ___arg1, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Func_2_BeginInvoke_m42023(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6861 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m42023_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Object,Parse.ParseGeoPoint>::EndInvoke(System.IAsyncResult)
-extern "C" ParseGeoPoint_t1247  Func_2_EndInvoke_m41933_gshared (Func_2_t6857 * __this, Object_t * ___result, const MethodInfo* method);
-#define Func_2_EndInvoke_m41933(__this, ___result, method) (( ParseGeoPoint_t1247  (*) (Func_2_t6857 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m41933_gshared)(__this, ___result, method)
+extern "C" ParseGeoPoint_t1245  Func_2_EndInvoke_m42024_gshared (Func_2_t6861 * __this, Object_t * ___result, const MethodInfo* method);
+#define Func_2_EndInvoke_m42024(__this, ___result, method) (( ParseGeoPoint_t1245  (*) (Func_2_t6861 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m42024_gshared)(__this, ___result, method)

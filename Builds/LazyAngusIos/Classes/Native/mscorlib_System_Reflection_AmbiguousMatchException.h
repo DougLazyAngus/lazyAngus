@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Reflection.AmbiguousMatchException
-struct  AmbiguousMatchException_t4525  : public SystemException_t3230
+struct  AmbiguousMatchException_t4523  : public SystemException_t3228
 {
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Canvas[]
-struct CanvasU5BU5D_t5856;
+// UnityEngine.UIVertex[]
+struct UIVertexU5BU5D_t946;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.Canvas>
-struct  List_1_t1049  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UIVertex>
+struct  List_1_t949  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.Canvas>::_items
-	CanvasU5BU5D_t5856* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Canvas>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UIVertex>::_items
+	UIVertexU5BU5D_t946* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UIVertex>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Canvas>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UIVertex>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1049_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.Canvas>::EmptyArray
-	CanvasU5BU5D_t5856* ___EmptyArray_4;
+struct List_1_t949_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UIVertex>::EmptyArray
+	UIVertexU5BU5D_t946* ___EmptyArray_4;
 };

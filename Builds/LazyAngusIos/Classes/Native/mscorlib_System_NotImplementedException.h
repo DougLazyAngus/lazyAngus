@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.NotImplementedException
-struct  NotImplementedException_t1440  : public SystemException_t3230
+struct  NotImplementedException_t1438  : public SystemException_t3228
 {
 };

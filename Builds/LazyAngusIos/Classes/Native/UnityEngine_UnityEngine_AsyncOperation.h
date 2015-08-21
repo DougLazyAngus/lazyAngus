@@ -5,13 +5,13 @@
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.AsyncOperation
-struct  AsyncOperation_t2682  : public YieldInstruction_t2688
+struct  AsyncOperation_t2680  : public YieldInstruction_t2686
 {
 	// System.IntPtr UnityEngine.AsyncOperation::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 };
 // Native definition for marshalling of: UnityEngine.AsyncOperation
-struct AsyncOperation_t2682_marshaled
+struct AsyncOperation_t2680_marshaled
 {
 	IntPtr_t ___m_Ptr_0;
 };

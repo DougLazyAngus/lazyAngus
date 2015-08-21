@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // <PrivateImplementationDetails>/$ArrayType$48
-struct U24ArrayTypeU2448_t4858;
-struct U24ArrayTypeU2448_t4858_marshaled;
+struct U24ArrayTypeU2448_t4856;
+struct U24ArrayTypeU2448_t4856_marshaled;
 
-void U24ArrayTypeU2448_t4858_marshal(const U24ArrayTypeU2448_t4858& unmarshaled, U24ArrayTypeU2448_t4858_marshaled& marshaled);
-void U24ArrayTypeU2448_t4858_marshal_back(const U24ArrayTypeU2448_t4858_marshaled& marshaled, U24ArrayTypeU2448_t4858& unmarshaled);
-void U24ArrayTypeU2448_t4858_marshal_cleanup(U24ArrayTypeU2448_t4858_marshaled& marshaled);
+void U24ArrayTypeU2448_t4856_marshal(const U24ArrayTypeU2448_t4856& unmarshaled, U24ArrayTypeU2448_t4856_marshaled& marshaled);
+void U24ArrayTypeU2448_t4856_marshal_back(const U24ArrayTypeU2448_t4856_marshaled& marshaled, U24ArrayTypeU2448_t4856& unmarshaled);
+void U24ArrayTypeU2448_t4856_marshal_cleanup(U24ArrayTypeU2448_t4856_marshaled& marshaled);

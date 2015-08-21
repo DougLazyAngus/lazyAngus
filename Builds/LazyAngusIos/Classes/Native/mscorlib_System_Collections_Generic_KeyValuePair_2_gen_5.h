@@ -5,7 +5,7 @@ struct AndroidADBanner_t215;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int32,AndroidADBanner>
-struct  KeyValuePair_2_t733 
+struct  KeyValuePair_2_t731 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,AndroidADBanner>::key
 	int32_t ___key_0;

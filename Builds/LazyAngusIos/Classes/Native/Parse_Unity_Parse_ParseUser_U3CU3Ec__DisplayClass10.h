@@ -5,8 +5,8 @@
 // System.Threading.CancellationToken
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 // Parse.ParseUser/<>c__DisplayClass10
-struct  U3CU3Ec__DisplayClass10_t1309  : public Object_t
+struct  U3CU3Ec__DisplayClass10_t1307  : public Object_t
 {
 	// System.Threading.CancellationToken Parse.ParseUser/<>c__DisplayClass10::cancellationToken
-	CancellationToken_t1164  ___cancellationToken_0;
+	CancellationToken_t1162  ___cancellationToken_0;
 };

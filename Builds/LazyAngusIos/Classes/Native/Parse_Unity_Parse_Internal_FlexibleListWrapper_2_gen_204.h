@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<Parse.ParseACL>>
-struct IList_1_t6913;
+struct IList_1_t6917;
 // System.Func`2<System.Collections.Generic.IList`1<Parse.ParseACL>,System.Object>
-struct Func_2_t6914;
+struct Func_2_t6918;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.IList`1<Parse.ParseACL>>
-struct  FlexibleListWrapper_2_t1766  : public Object_t
+struct  FlexibleListWrapper_2_t1764  : public Object_t
 {
 	// System.Collections.Generic.IList`1<TIn> Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.IList`1<Parse.ParseACL>>::toWrap
 	Object_t* ___toWrap_0;
 };
-struct FlexibleListWrapper_2_t1766_StaticFields{
+struct FlexibleListWrapper_2_t1764_StaticFields{
 	// System.Func`2<TIn,TOut> Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.IList`1<Parse.ParseACL>>::CS$<>9__CachedAnonymousMethodDelegate1
-	Func_2_t6914 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
+	Func_2_t6918 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
 };

@@ -96,9 +96,6 @@ public class GameController : MonoBehaviour {
 	}
 
 	void OnGamePhaseChanged() {
-		if (DebugConfig.instance.DebugFlagSet (3)) {
-			return;
-		}
 		switch (GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.WELCOME:
 			{

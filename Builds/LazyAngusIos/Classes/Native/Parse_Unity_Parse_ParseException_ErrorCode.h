@@ -5,7 +5,7 @@
 // Parse.ParseException/ErrorCode
 #include "Parse_Unity_Parse_ParseException_ErrorCode.h"
 // Parse.ParseException/ErrorCode
-struct  ErrorCode_t1237 
+struct  ErrorCode_t1235 
 {
 	// System.Int32 Parse.ParseException/ErrorCode::value__
 	int32_t ___value___1;

@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ResolveEventHandler
-struct ResolveEventHandler_t4782;
+struct ResolveEventHandler_t4780;
 // System.Object
 struct Object_t;
 // System.Reflection.Assembly
-struct Assembly_t769;
+struct Assembly_t767;
 // System.ResolveEventArgs
-struct ResolveEventArgs_t4835;
+struct ResolveEventArgs_t4833;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,11 +20,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.ResolveEventHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void ResolveEventHandler__ctor_m20159 (ResolveEventHandler_t4782 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResolveEventHandler__ctor_m20148 (ResolveEventHandler_t4780 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Assembly System.ResolveEventHandler::Invoke(System.Object,System.ResolveEventArgs)
-extern "C" Assembly_t769 * ResolveEventHandler_Invoke_m20160 (ResolveEventHandler_t4782 * __this, Object_t * ___sender, ResolveEventArgs_t4835 * ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" Assembly_t769 * pinvoke_delegate_wrapper_ResolveEventHandler_t4782(Il2CppObject* delegate, Object_t * ___sender, ResolveEventArgs_t4835 * ___args);
+extern "C" Assembly_t767 * ResolveEventHandler_Invoke_m20149 (ResolveEventHandler_t4780 * __this, Object_t * ___sender, ResolveEventArgs_t4833 * ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Assembly_t767 * pinvoke_delegate_wrapper_ResolveEventHandler_t4780(Il2CppObject* delegate, Object_t * ___sender, ResolveEventArgs_t4833 * ___args);
 // System.IAsyncResult System.ResolveEventHandler::BeginInvoke(System.Object,System.ResolveEventArgs,System.AsyncCallback,System.Object)
-extern "C" Object_t * ResolveEventHandler_BeginInvoke_m20161 (ResolveEventHandler_t4782 * __this, Object_t * ___sender, ResolveEventArgs_t4835 * ___args, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ResolveEventHandler_BeginInvoke_m20150 (ResolveEventHandler_t4780 * __this, Object_t * ___sender, ResolveEventArgs_t4833 * ___args, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Assembly System.ResolveEventHandler::EndInvoke(System.IAsyncResult)
-extern "C" Assembly_t769 * ResolveEventHandler_EndInvoke_m20162 (ResolveEventHandler_t4782 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Assembly_t767 * ResolveEventHandler_EndInvoke_m20151 (ResolveEventHandler_t4780 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

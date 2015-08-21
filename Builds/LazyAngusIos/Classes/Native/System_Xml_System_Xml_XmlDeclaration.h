@@ -7,7 +7,7 @@ struct Dictionary_2_t223;
 // System.Xml.XmlLinkedNode
 #include "System_Xml_System_Xml_XmlLinkedNode.h"
 // System.Xml.XmlDeclaration
-struct  XmlDeclaration_t3221  : public XmlLinkedNode_t3212
+struct  XmlDeclaration_t3219  : public XmlLinkedNode_t3210
 {
 	// System.String System.Xml.XmlDeclaration::encoding
 	String_t* ___encoding_6;
@@ -16,7 +16,7 @@ struct  XmlDeclaration_t3221  : public XmlLinkedNode_t3212
 	// System.String System.Xml.XmlDeclaration::version
 	String_t* ___version_8;
 };
-struct XmlDeclaration_t3221_StaticFields{
+struct XmlDeclaration_t3219_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlDeclaration::<>f__switch$map4A
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map4A_9;
 };

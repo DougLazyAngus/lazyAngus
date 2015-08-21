@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<FacebookProfileImageSize,UnityEngine.Texture2D,System.Collections.DictionaryEntry>
-struct  Transform_1_t5608  : public MulticastDelegate_t388
+struct  Transform_1_t5606  : public MulticastDelegate_t388
 {
 };

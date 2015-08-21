@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // <Module>
-struct U3CModuleU3E_t3089;
+struct U3CModuleU3E_t3087;
 

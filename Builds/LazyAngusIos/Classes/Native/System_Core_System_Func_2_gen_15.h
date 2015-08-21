@@ -3,7 +3,7 @@
 // System.Type
 struct Type_t;
 // System.Reflection.ParameterInfo
-struct ParameterInfo_t1383;
+struct ParameterInfo_t1381;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Reflection.ParameterInfo,System.Type>
-struct  Func_2_t1208  : public MulticastDelegate_t388
+struct  Func_2_t1206  : public MulticastDelegate_t388
 {
 };

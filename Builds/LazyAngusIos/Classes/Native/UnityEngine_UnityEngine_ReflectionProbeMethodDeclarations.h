@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.ReflectionProbe
-struct ReflectionProbe_t2703;
+struct ReflectionProbe_t2701;
 

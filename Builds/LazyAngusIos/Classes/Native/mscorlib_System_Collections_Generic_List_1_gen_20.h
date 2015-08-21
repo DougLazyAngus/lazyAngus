@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // ExplicitMouseDesc[]
-struct ExplicitMouseDescU5BU5D_t5717;
+struct ExplicitMouseDescU5BU5D_t5715;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<ExplicitMouseDesc>
-struct  List_1_t579  : public Object_t
+struct  List_1_t575  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<ExplicitMouseDesc>::_items
-	ExplicitMouseDescU5BU5D_t5717* ____items_1;
+	ExplicitMouseDescU5BU5D_t5715* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<ExplicitMouseDesc>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<ExplicitMouseDesc>::_version
 	int32_t ____version_3;
 };
-struct List_1_t579_StaticFields{
+struct List_1_t575_StaticFields{
 	// T[] System.Collections.Generic.List`1<ExplicitMouseDesc>::EmptyArray
-	ExplicitMouseDescU5BU5D_t5717* ___EmptyArray_4;
+	ExplicitMouseDescU5BU5D_t5715* ___EmptyArray_4;
 };

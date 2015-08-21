@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Bounds
-struct Bounds_t765;
+struct Bounds_t763;
 // System.Object
 struct Object_t;
 // System.String
@@ -18,74 +18,74 @@ struct String_t;
 #include "UnityEngine_UnityEngine_Ray.h"
 
 // System.Void UnityEngine.Bounds::.ctor(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" void Bounds__ctor_m6098 (Bounds_t765 * __this, Vector3_t536  ___center, Vector3_t536  ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Bounds__ctor_m6087 (Bounds_t763 * __this, Vector3_t534  ___center, Vector3_t534  ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Bounds::GetHashCode()
-extern "C" int32_t Bounds_GetHashCode_m9177 (Bounds_t765 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Bounds_GetHashCode_m9166 (Bounds_t763 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Bounds::Equals(System.Object)
-extern "C" bool Bounds_Equals_m9178 (Bounds_t765 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Bounds_Equals_m9167 (Bounds_t763 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Bounds::get_center()
-extern "C" Vector3_t536  Bounds_get_center_m6099 (Bounds_t765 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t534  Bounds_get_center_m6088 (Bounds_t763 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Bounds::set_center(UnityEngine.Vector3)
-extern "C" void Bounds_set_center_m6101 (Bounds_t765 * __this, Vector3_t536  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Bounds_set_center_m6090 (Bounds_t763 * __this, Vector3_t534  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Bounds::get_size()
-extern "C" Vector3_t536  Bounds_get_size_m6090 (Bounds_t765 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t534  Bounds_get_size_m6079 (Bounds_t763 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Bounds::set_size(UnityEngine.Vector3)
-extern "C" void Bounds_set_size_m6100 (Bounds_t765 * __this, Vector3_t536  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Bounds_set_size_m6089 (Bounds_t763 * __this, Vector3_t534  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Bounds::get_extents()
-extern "C" Vector3_t536  Bounds_get_extents_m9179 (Bounds_t765 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t534  Bounds_get_extents_m9168 (Bounds_t763 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Bounds::set_extents(UnityEngine.Vector3)
-extern "C" void Bounds_set_extents_m9180 (Bounds_t765 * __this, Vector3_t536  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Bounds_set_extents_m9169 (Bounds_t763 * __this, Vector3_t534  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Bounds::get_min()
-extern "C" Vector3_t536  Bounds_get_min_m4029 (Bounds_t765 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t534  Bounds_get_min_m4017 (Bounds_t763 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Bounds::set_min(UnityEngine.Vector3)
-extern "C" void Bounds_set_min_m9181 (Bounds_t765 * __this, Vector3_t536  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Bounds_set_min_m9170 (Bounds_t763 * __this, Vector3_t534  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Bounds::get_max()
-extern "C" Vector3_t536  Bounds_get_max_m4030 (Bounds_t765 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t534  Bounds_get_max_m4018 (Bounds_t763 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Bounds::set_max(UnityEngine.Vector3)
-extern "C" void Bounds_set_max_m9182 (Bounds_t765 * __this, Vector3_t536  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Bounds_set_max_m9171 (Bounds_t763 * __this, Vector3_t534  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Bounds::SetMinMax(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" void Bounds_SetMinMax_m9183 (Bounds_t765 * __this, Vector3_t536  ___min, Vector3_t536  ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Bounds_SetMinMax_m9172 (Bounds_t763 * __this, Vector3_t534  ___min, Vector3_t534  ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Bounds::Encapsulate(UnityEngine.Vector3)
-extern "C" void Bounds_Encapsulate_m6107 (Bounds_t765 * __this, Vector3_t536  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Bounds_Encapsulate_m6096 (Bounds_t763 * __this, Vector3_t534  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Bounds::Encapsulate(UnityEngine.Bounds)
-extern "C" void Bounds_Encapsulate_m9184 (Bounds_t765 * __this, Bounds_t765  ___bounds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Bounds_Encapsulate_m9173 (Bounds_t763 * __this, Bounds_t763  ___bounds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Bounds::Expand(System.Single)
-extern "C" void Bounds_Expand_m9185 (Bounds_t765 * __this, float ___amount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Bounds_Expand_m9174 (Bounds_t763 * __this, float ___amount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Bounds::Expand(UnityEngine.Vector3)
-extern "C" void Bounds_Expand_m9186 (Bounds_t765 * __this, Vector3_t536  ___amount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Bounds_Expand_m9175 (Bounds_t763 * __this, Vector3_t534  ___amount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Bounds::Intersects(UnityEngine.Bounds)
-extern "C" bool Bounds_Intersects_m9187 (Bounds_t765 * __this, Bounds_t765  ___bounds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Bounds_Intersects_m9176 (Bounds_t763 * __this, Bounds_t763  ___bounds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Bounds::Internal_Contains(UnityEngine.Bounds,UnityEngine.Vector3)
-extern "C" bool Bounds_Internal_Contains_m9188 (Object_t * __this /* static, unused */, Bounds_t765  ___m, Vector3_t536  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Bounds_Internal_Contains_m9177 (Object_t * __this /* static, unused */, Bounds_t763  ___m, Vector3_t534  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Bounds::INTERNAL_CALL_Internal_Contains(UnityEngine.Bounds&,UnityEngine.Vector3&)
-extern "C" bool Bounds_INTERNAL_CALL_Internal_Contains_m9189 (Object_t * __this /* static, unused */, Bounds_t765 * ___m, Vector3_t536 * ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Bounds_INTERNAL_CALL_Internal_Contains_m9178 (Object_t * __this /* static, unused */, Bounds_t763 * ___m, Vector3_t534 * ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Bounds::Contains(UnityEngine.Vector3)
-extern "C" bool Bounds_Contains_m9190 (Bounds_t765 * __this, Vector3_t536  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Bounds_Contains_m9179 (Bounds_t763 * __this, Vector3_t534  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Bounds::Internal_SqrDistance(UnityEngine.Bounds,UnityEngine.Vector3)
-extern "C" float Bounds_Internal_SqrDistance_m9191 (Object_t * __this /* static, unused */, Bounds_t765  ___m, Vector3_t536  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Bounds_Internal_SqrDistance_m9180 (Object_t * __this /* static, unused */, Bounds_t763  ___m, Vector3_t534  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Bounds::INTERNAL_CALL_Internal_SqrDistance(UnityEngine.Bounds&,UnityEngine.Vector3&)
-extern "C" float Bounds_INTERNAL_CALL_Internal_SqrDistance_m9192 (Object_t * __this /* static, unused */, Bounds_t765 * ___m, Vector3_t536 * ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Bounds_INTERNAL_CALL_Internal_SqrDistance_m9181 (Object_t * __this /* static, unused */, Bounds_t763 * ___m, Vector3_t534 * ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Bounds::SqrDistance(UnityEngine.Vector3)
-extern "C" float Bounds_SqrDistance_m9193 (Bounds_t765 * __this, Vector3_t536  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Bounds_SqrDistance_m9182 (Bounds_t763 * __this, Vector3_t534  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Bounds::Internal_IntersectRay(UnityEngine.Ray&,UnityEngine.Bounds&,System.Single&)
-extern "C" bool Bounds_Internal_IntersectRay_m9194 (Object_t * __this /* static, unused */, Ray_t762 * ___ray, Bounds_t765 * ___bounds, float* ___distance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Bounds_Internal_IntersectRay_m9183 (Object_t * __this /* static, unused */, Ray_t760 * ___ray, Bounds_t763 * ___bounds, float* ___distance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Bounds::INTERNAL_CALL_Internal_IntersectRay(UnityEngine.Ray&,UnityEngine.Bounds&,System.Single&)
-extern "C" bool Bounds_INTERNAL_CALL_Internal_IntersectRay_m9195 (Object_t * __this /* static, unused */, Ray_t762 * ___ray, Bounds_t765 * ___bounds, float* ___distance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Bounds_INTERNAL_CALL_Internal_IntersectRay_m9184 (Object_t * __this /* static, unused */, Ray_t760 * ___ray, Bounds_t763 * ___bounds, float* ___distance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Bounds::IntersectRay(UnityEngine.Ray)
-extern "C" bool Bounds_IntersectRay_m9196 (Bounds_t765 * __this, Ray_t762  ___ray, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Bounds_IntersectRay_m9185 (Bounds_t763 * __this, Ray_t760  ___ray, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Bounds::IntersectRay(UnityEngine.Ray,System.Single&)
-extern "C" bool Bounds_IntersectRay_m9197 (Bounds_t765 * __this, Ray_t762  ___ray, float* ___distance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Bounds_IntersectRay_m9186 (Bounds_t763 * __this, Ray_t760  ___ray, float* ___distance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Bounds::Internal_GetClosestPoint(UnityEngine.Bounds&,UnityEngine.Vector3&)
-extern "C" Vector3_t536  Bounds_Internal_GetClosestPoint_m9198 (Object_t * __this /* static, unused */, Bounds_t765 * ___bounds, Vector3_t536 * ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t534  Bounds_Internal_GetClosestPoint_m9187 (Object_t * __this /* static, unused */, Bounds_t763 * ___bounds, Vector3_t534 * ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Bounds::INTERNAL_CALL_Internal_GetClosestPoint(UnityEngine.Bounds&,UnityEngine.Vector3&)
-extern "C" Vector3_t536  Bounds_INTERNAL_CALL_Internal_GetClosestPoint_m9199 (Object_t * __this /* static, unused */, Bounds_t765 * ___bounds, Vector3_t536 * ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t534  Bounds_INTERNAL_CALL_Internal_GetClosestPoint_m9188 (Object_t * __this /* static, unused */, Bounds_t763 * ___bounds, Vector3_t534 * ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Bounds::ClosestPoint(UnityEngine.Vector3)
-extern "C" Vector3_t536  Bounds_ClosestPoint_m9200 (Bounds_t765 * __this, Vector3_t536  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t534  Bounds_ClosestPoint_m9189 (Bounds_t763 * __this, Vector3_t534  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Bounds::ToString()
-extern "C" String_t* Bounds_ToString_m9201 (Bounds_t765 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Bounds_ToString_m9190 (Bounds_t763 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Bounds::ToString(System.String)
-extern "C" String_t* Bounds_ToString_m9202 (Bounds_t765 * __this, String_t* ___format, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Bounds_ToString_m9191 (Bounds_t763 * __this, String_t* ___format, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Bounds::op_Equality(UnityEngine.Bounds,UnityEngine.Bounds)
-extern "C" bool Bounds_op_Equality_m9203 (Object_t * __this /* static, unused */, Bounds_t765  ___lhs, Bounds_t765  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Bounds_op_Equality_m9192 (Object_t * __this /* static, unused */, Bounds_t763  ___lhs, Bounds_t763  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Bounds::op_Inequality(UnityEngine.Bounds,UnityEngine.Bounds)
-extern "C" bool Bounds_op_Inequality_m6093 (Object_t * __this /* static, unused */, Bounds_t765  ___lhs, Bounds_t765  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Bounds_op_Inequality_m6082 (Object_t * __this /* static, unused */, Bounds_t763  ___lhs, Bounds_t763  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;

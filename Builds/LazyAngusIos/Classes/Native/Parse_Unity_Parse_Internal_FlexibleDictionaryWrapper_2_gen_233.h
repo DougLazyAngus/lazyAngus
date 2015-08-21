@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t822;
+struct IDictionary_2_t820;
 // System.Func`2<System.Object,System.Collections.Generic.List`1<Parse.ParseUser>>
-struct Func_2_t6980;
+struct Func_2_t6984;
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.List`1<Parse.ParseUser>>>
-struct Func_2_t8127;
+struct Func_2_t8131;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.FlexibleDictionaryWrapper`2<System.Collections.Generic.List`1<Parse.ParseUser>,System.Object>
-struct  FlexibleDictionaryWrapper_2_t2084  : public Object_t
+struct  FlexibleDictionaryWrapper_2_t2082  : public Object_t
 {
 	// System.Collections.Generic.IDictionary`2<System.String,TIn> Parse.Internal.FlexibleDictionaryWrapper`2<System.Collections.Generic.List`1<Parse.ParseUser>,System.Object>::toWrap
 	Object_t* ___toWrap_0;
 };
-struct FlexibleDictionaryWrapper_2_t2084_StaticFields{
+struct FlexibleDictionaryWrapper_2_t2082_StaticFields{
 	// System.Func`2<TIn,TOut> Parse.Internal.FlexibleDictionaryWrapper`2<System.Collections.Generic.List`1<Parse.ParseUser>,System.Object>::CS$<>9__CachedAnonymousMethodDelegate1
-	Func_2_t6980 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
+	Func_2_t6984 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
 	// System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,TIn>,System.Collections.Generic.KeyValuePair`2<System.String,TOut>> Parse.Internal.FlexibleDictionaryWrapper`2<System.Collections.Generic.List`1<Parse.ParseUser>,System.Object>::CS$<>9__CachedAnonymousMethodDelegate3
-	Func_2_t8127 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate3_2;
+	Func_2_t8131 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate3_2;
 };

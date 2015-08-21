@@ -5,149 +5,149 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct List_1_t680;
+struct List_1_t678;
 // System.Object
 struct Object_t;
 // UnionAssets.FLE.DataEventHandlerFunction
-struct DataEventHandlerFunction_t676;
+struct DataEventHandlerFunction_t674;
 // System.Collections.Generic.IEnumerable`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct IEnumerable_1_t8762;
+struct IEnumerable_1_t8766;
 // UnionAssets.FLE.DataEventHandlerFunction[]
-struct DataEventHandlerFunctionU5BU5D_t5490;
+struct DataEventHandlerFunctionU5BU5D_t5488;
 // System.Collections.Generic.IEnumerator`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct IEnumerator_1_t8761;
+struct IEnumerator_1_t8765;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.ICollection`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct ICollection_1_t8763;
+struct ICollection_1_t8767;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct ReadOnlyCollection_1_t5492;
+struct ReadOnlyCollection_1_t5490;
 // System.Predicate`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct Predicate_1_t5493;
+struct Predicate_1_t5491;
 // System.Collections.Generic.IComparer`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct IComparer_1_t8764;
+struct IComparer_1_t8768;
 // System.Comparison`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct Comparison_1_t5495;
+struct Comparison_1_t5493;
 // System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.DataEventHandlerFunction>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_17.h"
 
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::.ctor()
 // System.Collections.Generic.List`1<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_gen_0MethodDeclarations.h"
-#define List_1__ctor_m3747(__this, method) (( void (*) (List_1_t680 *, const MethodInfo*))List_1__ctor_m3710_gshared)(__this, method)
+#define List_1__ctor_m3735(__this, method) (( void (*) (List_1_t678 *, const MethodInfo*))List_1__ctor_m3698_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1__ctor_m23016(__this, ___collection, method) (( void (*) (List_1_t680 *, Object_t*, const MethodInfo*))List_1__ctor_m7469_gshared)(__this, ___collection, method)
+#define List_1__ctor_m23005(__this, ___collection, method) (( void (*) (List_1_t678 *, Object_t*, const MethodInfo*))List_1__ctor_m7458_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::.ctor(System.Int32)
-#define List_1__ctor_m23017(__this, ___capacity, method) (( void (*) (List_1_t680 *, int32_t, const MethodInfo*))List_1__ctor_m21567_gshared)(__this, ___capacity, method)
+#define List_1__ctor_m23006(__this, ___capacity, method) (( void (*) (List_1_t678 *, int32_t, const MethodInfo*))List_1__ctor_m21556_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::.ctor(T[],System.Int32)
-#define List_1__ctor_m23018(__this, ___data, ___size, method) (( void (*) (List_1_t680 *, DataEventHandlerFunctionU5BU5D_t5490*, int32_t, const MethodInfo*))List_1__ctor_m21569_gshared)(__this, ___data, ___size, method)
+#define List_1__ctor_m23007(__this, ___data, ___size, method) (( void (*) (List_1_t678 *, DataEventHandlerFunctionU5BU5D_t5488*, int32_t, const MethodInfo*))List_1__ctor_m21558_gshared)(__this, ___data, ___size, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::.cctor()
-#define List_1__cctor_m23019(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m21571_gshared)(__this /* static, unused */, method)
+#define List_1__cctor_m23008(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m21560_gshared)(__this /* static, unused */, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m23020(__this, method) (( Object_t* (*) (List_1_t680 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m10362_gshared)(__this, method)
+#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m23009(__this, method) (( Object_t* (*) (List_1_t678 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m10351_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define List_1_System_Collections_ICollection_CopyTo_m23021(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t680 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m10345_gshared)(__this, ___array, ___arrayIndex, method)
+#define List_1_System_Collections_ICollection_CopyTo_m23010(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t678 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m10334_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Collections.IEnumerator System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.IEnumerable.GetEnumerator()
-#define List_1_System_Collections_IEnumerable_GetEnumerator_m23022(__this, method) (( Object_t * (*) (List_1_t680 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m10341_gshared)(__this, method)
+#define List_1_System_Collections_IEnumerable_GetEnumerator_m23011(__this, method) (( Object_t * (*) (List_1_t678 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m10330_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.IList.Add(System.Object)
-#define List_1_System_Collections_IList_Add_m23023(__this, ___item, method) (( int32_t (*) (List_1_t680 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m10350_gshared)(__this, ___item, method)
+#define List_1_System_Collections_IList_Add_m23012(__this, ___item, method) (( int32_t (*) (List_1_t678 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m10339_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.IList.Contains(System.Object)
-#define List_1_System_Collections_IList_Contains_m23024(__this, ___item, method) (( bool (*) (List_1_t680 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m10352_gshared)(__this, ___item, method)
+#define List_1_System_Collections_IList_Contains_m23013(__this, ___item, method) (( bool (*) (List_1_t678 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m10341_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.IList.IndexOf(System.Object)
-#define List_1_System_Collections_IList_IndexOf_m23025(__this, ___item, method) (( int32_t (*) (List_1_t680 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m10353_gshared)(__this, ___item, method)
+#define List_1_System_Collections_IList_IndexOf_m23014(__this, ___item, method) (( int32_t (*) (List_1_t678 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m10342_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.IList.Insert(System.Int32,System.Object)
-#define List_1_System_Collections_IList_Insert_m23026(__this, ___index, ___item, method) (( void (*) (List_1_t680 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m10354_gshared)(__this, ___index, ___item, method)
+#define List_1_System_Collections_IList_Insert_m23015(__this, ___index, ___item, method) (( void (*) (List_1_t678 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m10343_gshared)(__this, ___index, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.IList.Remove(System.Object)
-#define List_1_System_Collections_IList_Remove_m23027(__this, ___item, method) (( void (*) (List_1_t680 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m10355_gshared)(__this, ___item, method)
+#define List_1_System_Collections_IList_Remove_m23016(__this, ___item, method) (( void (*) (List_1_t678 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m10344_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m23028(__this, method) (( bool (*) (List_1_t680 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m10357_gshared)(__this, method)
+#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m23017(__this, method) (( bool (*) (List_1_t678 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m10346_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.ICollection.get_IsSynchronized()
-#define List_1_System_Collections_ICollection_get_IsSynchronized_m23029(__this, method) (( bool (*) (List_1_t680 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m10343_gshared)(__this, method)
+#define List_1_System_Collections_ICollection_get_IsSynchronized_m23018(__this, method) (( bool (*) (List_1_t678 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m10332_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.ICollection.get_SyncRoot()
-#define List_1_System_Collections_ICollection_get_SyncRoot_m23030(__this, method) (( Object_t * (*) (List_1_t680 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m10344_gshared)(__this, method)
+#define List_1_System_Collections_ICollection_get_SyncRoot_m23019(__this, method) (( Object_t * (*) (List_1_t678 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m10333_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.IList.get_IsFixedSize()
-#define List_1_System_Collections_IList_get_IsFixedSize_m23031(__this, method) (( bool (*) (List_1_t680 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m10346_gshared)(__this, method)
+#define List_1_System_Collections_IList_get_IsFixedSize_m23020(__this, method) (( bool (*) (List_1_t678 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m10335_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.IList.get_IsReadOnly()
-#define List_1_System_Collections_IList_get_IsReadOnly_m23032(__this, method) (( bool (*) (List_1_t680 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m10347_gshared)(__this, method)
+#define List_1_System_Collections_IList_get_IsReadOnly_m23021(__this, method) (( bool (*) (List_1_t678 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m10336_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.IList.get_Item(System.Int32)
-#define List_1_System_Collections_IList_get_Item_m23033(__this, ___index, method) (( Object_t * (*) (List_1_t680 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m10348_gshared)(__this, ___index, method)
+#define List_1_System_Collections_IList_get_Item_m23022(__this, ___index, method) (( Object_t * (*) (List_1_t678 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m10337_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::System.Collections.IList.set_Item(System.Int32,System.Object)
-#define List_1_System_Collections_IList_set_Item_m23034(__this, ___index, ___value, method) (( void (*) (List_1_t680 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m10349_gshared)(__this, ___index, ___value, method)
+#define List_1_System_Collections_IList_set_Item_m23023(__this, ___index, ___value, method) (( void (*) (List_1_t678 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m10338_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::Add(T)
-#define List_1_Add_m23035(__this, ___item, method) (( void (*) (List_1_t680 *, DataEventHandlerFunction_t676 *, const MethodInfo*))List_1_Add_m10358_gshared)(__this, ___item, method)
+#define List_1_Add_m23024(__this, ___item, method) (( void (*) (List_1_t678 *, DataEventHandlerFunction_t674 *, const MethodInfo*))List_1_Add_m10347_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::GrowIfNeeded(System.Int32)
-#define List_1_GrowIfNeeded_m23036(__this, ___newCount, method) (( void (*) (List_1_t680 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m21589_gshared)(__this, ___newCount, method)
+#define List_1_GrowIfNeeded_m23025(__this, ___newCount, method) (( void (*) (List_1_t678 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m21578_gshared)(__this, ___newCount, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::CheckRange(System.Int32,System.Int32)
-#define List_1_CheckRange_m23037(__this, ___idx, ___count, method) (( void (*) (List_1_t680 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m21591_gshared)(__this, ___idx, ___count, method)
+#define List_1_CheckRange_m23026(__this, ___idx, ___count, method) (( void (*) (List_1_t678 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m21580_gshared)(__this, ___idx, ___count, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::AddCollection(System.Collections.Generic.ICollection`1<T>)
-#define List_1_AddCollection_m23038(__this, ___collection, method) (( void (*) (List_1_t680 *, Object_t*, const MethodInfo*))List_1_AddCollection_m21593_gshared)(__this, ___collection, method)
+#define List_1_AddCollection_m23027(__this, ___collection, method) (( void (*) (List_1_t678 *, Object_t*, const MethodInfo*))List_1_AddCollection_m21582_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_AddEnumerable_m23039(__this, ___enumerable, method) (( void (*) (List_1_t680 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m21595_gshared)(__this, ___enumerable, method)
+#define List_1_AddEnumerable_m23028(__this, ___enumerable, method) (( void (*) (List_1_t678 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m21584_gshared)(__this, ___enumerable, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_AddRange_m23040(__this, ___collection, method) (( void (*) (List_1_t680 *, Object_t*, const MethodInfo*))List_1_AddRange_m21597_gshared)(__this, ___collection, method)
+#define List_1_AddRange_m23029(__this, ___collection, method) (( void (*) (List_1_t678 *, Object_t*, const MethodInfo*))List_1_AddRange_m21586_gshared)(__this, ___collection, method)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::AsReadOnly()
-#define List_1_AsReadOnly_m23041(__this, method) (( ReadOnlyCollection_1_t5492 * (*) (List_1_t680 *, const MethodInfo*))List_1_AsReadOnly_m21599_gshared)(__this, method)
+#define List_1_AsReadOnly_m23030(__this, method) (( ReadOnlyCollection_1_t5490 * (*) (List_1_t678 *, const MethodInfo*))List_1_AsReadOnly_m21588_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::Clear()
-#define List_1_Clear_m23042(__this, method) (( void (*) (List_1_t680 *, const MethodInfo*))List_1_Clear_m10351_gshared)(__this, method)
+#define List_1_Clear_m23031(__this, method) (( void (*) (List_1_t678 *, const MethodInfo*))List_1_Clear_m10340_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::Contains(T)
-#define List_1_Contains_m23043(__this, ___item, method) (( bool (*) (List_1_t680 *, DataEventHandlerFunction_t676 *, const MethodInfo*))List_1_Contains_m10359_gshared)(__this, ___item, method)
+#define List_1_Contains_m23032(__this, ___item, method) (( bool (*) (List_1_t678 *, DataEventHandlerFunction_t674 *, const MethodInfo*))List_1_Contains_m10348_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m23044(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t680 *, DataEventHandlerFunctionU5BU5D_t5490*, int32_t, const MethodInfo*))List_1_CopyTo_m10360_gshared)(__this, ___array, ___arrayIndex, method)
+#define List_1_CopyTo_m23033(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t678 *, DataEventHandlerFunctionU5BU5D_t5488*, int32_t, const MethodInfo*))List_1_CopyTo_m10349_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::Find(System.Predicate`1<T>)
-#define List_1_Find_m23045(__this, ___match, method) (( DataEventHandlerFunction_t676 * (*) (List_1_t680 *, Predicate_1_t5493 *, const MethodInfo*))List_1_Find_m21604_gshared)(__this, ___match, method)
+#define List_1_Find_m23034(__this, ___match, method) (( DataEventHandlerFunction_t674 * (*) (List_1_t678 *, Predicate_1_t5491 *, const MethodInfo*))List_1_Find_m21593_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m23046(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5493 *, const MethodInfo*))List_1_CheckMatch_m21606_gshared)(__this /* static, unused */, ___match, method)
+#define List_1_CheckMatch_m23035(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t5491 *, const MethodInfo*))List_1_CheckMatch_m21595_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m23047(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t680 *, int32_t, int32_t, Predicate_1_t5493 *, const MethodInfo*))List_1_GetIndex_m21608_gshared)(__this, ___startIndex, ___count, ___match, method)
+#define List_1_GetIndex_m23036(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t678 *, int32_t, int32_t, Predicate_1_t5491 *, const MethodInfo*))List_1_GetIndex_m21597_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::GetEnumerator()
-#define List_1_GetEnumerator_m23048(__this, method) (( Enumerator_t5494  (*) (List_1_t680 *, const MethodInfo*))List_1_GetEnumerator_m3866_gshared)(__this, method)
+#define List_1_GetEnumerator_m23037(__this, method) (( Enumerator_t5492  (*) (List_1_t678 *, const MethodInfo*))List_1_GetEnumerator_m3854_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::GetRange(System.Int32,System.Int32)
-#define List_1_GetRange_m23049(__this, ___index, ___count, method) (( List_1_t680 * (*) (List_1_t680 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21610_gshared)(__this, ___index, ___count, method)
+#define List_1_GetRange_m23038(__this, ___index, ___count, method) (( List_1_t678 * (*) (List_1_t678 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21599_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::IndexOf(T)
-#define List_1_IndexOf_m23050(__this, ___item, method) (( int32_t (*) (List_1_t680 *, DataEventHandlerFunction_t676 *, const MethodInfo*))List_1_IndexOf_m10363_gshared)(__this, ___item, method)
+#define List_1_IndexOf_m23039(__this, ___item, method) (( int32_t (*) (List_1_t678 *, DataEventHandlerFunction_t674 *, const MethodInfo*))List_1_IndexOf_m10352_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::Shift(System.Int32,System.Int32)
-#define List_1_Shift_m23051(__this, ___start, ___delta, method) (( void (*) (List_1_t680 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m21613_gshared)(__this, ___start, ___delta, method)
+#define List_1_Shift_m23040(__this, ___start, ___delta, method) (( void (*) (List_1_t678 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m21602_gshared)(__this, ___start, ___delta, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::CheckIndex(System.Int32)
-#define List_1_CheckIndex_m23052(__this, ___index, method) (( void (*) (List_1_t680 *, int32_t, const MethodInfo*))List_1_CheckIndex_m21615_gshared)(__this, ___index, method)
+#define List_1_CheckIndex_m23041(__this, ___index, method) (( void (*) (List_1_t678 *, int32_t, const MethodInfo*))List_1_CheckIndex_m21604_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::Insert(System.Int32,T)
-#define List_1_Insert_m23053(__this, ___index, ___item, method) (( void (*) (List_1_t680 *, int32_t, DataEventHandlerFunction_t676 *, const MethodInfo*))List_1_Insert_m10364_gshared)(__this, ___index, ___item, method)
+#define List_1_Insert_m23042(__this, ___index, ___item, method) (( void (*) (List_1_t678 *, int32_t, DataEventHandlerFunction_t674 *, const MethodInfo*))List_1_Insert_m10353_gshared)(__this, ___index, ___item, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_CheckCollection_m23054(__this, ___collection, method) (( void (*) (List_1_t680 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m21618_gshared)(__this, ___collection, method)
+#define List_1_CheckCollection_m23043(__this, ___collection, method) (( void (*) (List_1_t678 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m21607_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_InsertRange_m23055(__this, ___index, ___collection, method) (( void (*) (List_1_t680 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m21620_gshared)(__this, ___index, ___collection, method)
+#define List_1_InsertRange_m23044(__this, ___index, ___collection, method) (( void (*) (List_1_t678 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m21609_gshared)(__this, ___index, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::InsertCollection(System.Int32,System.Collections.Generic.ICollection`1<T>)
-#define List_1_InsertCollection_m23056(__this, ___index, ___collection, method) (( void (*) (List_1_t680 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m21622_gshared)(__this, ___index, ___collection, method)
+#define List_1_InsertCollection_m23045(__this, ___index, ___collection, method) (( void (*) (List_1_t678 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m21611_gshared)(__this, ___index, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_InsertEnumeration_m23057(__this, ___index, ___enumerable, method) (( void (*) (List_1_t680 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m21624_gshared)(__this, ___index, ___enumerable, method)
+#define List_1_InsertEnumeration_m23046(__this, ___index, ___enumerable, method) (( void (*) (List_1_t678 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m21613_gshared)(__this, ___index, ___enumerable, method)
 // System.Boolean System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::Remove(T)
-#define List_1_Remove_m23058(__this, ___item, method) (( bool (*) (List_1_t680 *, DataEventHandlerFunction_t676 *, const MethodInfo*))List_1_Remove_m10361_gshared)(__this, ___item, method)
+#define List_1_Remove_m23047(__this, ___item, method) (( bool (*) (List_1_t678 *, DataEventHandlerFunction_t674 *, const MethodInfo*))List_1_Remove_m10350_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m23059(__this, ___match, method) (( int32_t (*) (List_1_t680 *, Predicate_1_t5493 *, const MethodInfo*))List_1_RemoveAll_m21627_gshared)(__this, ___match, method)
+#define List_1_RemoveAll_m23048(__this, ___match, method) (( int32_t (*) (List_1_t678 *, Predicate_1_t5491 *, const MethodInfo*))List_1_RemoveAll_m21616_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::RemoveAt(System.Int32)
-#define List_1_RemoveAt_m23060(__this, ___index, method) (( void (*) (List_1_t680 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10356_gshared)(__this, ___index, method)
+#define List_1_RemoveAt_m23049(__this, ___index, method) (( void (*) (List_1_t678 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10345_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::RemoveRange(System.Int32,System.Int32)
-#define List_1_RemoveRange_m23061(__this, ___index, ___count, method) (( void (*) (List_1_t680 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m21630_gshared)(__this, ___index, ___count, method)
+#define List_1_RemoveRange_m23050(__this, ___index, ___count, method) (( void (*) (List_1_t678 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m21619_gshared)(__this, ___index, ___count, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::Reverse()
-#define List_1_Reverse_m23062(__this, method) (( void (*) (List_1_t680 *, const MethodInfo*))List_1_Reverse_m21632_gshared)(__this, method)
+#define List_1_Reverse_m23051(__this, method) (( void (*) (List_1_t678 *, const MethodInfo*))List_1_Reverse_m21621_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::Sort()
-#define List_1_Sort_m23063(__this, method) (( void (*) (List_1_t680 *, const MethodInfo*))List_1_Sort_m21634_gshared)(__this, method)
+#define List_1_Sort_m23052(__this, method) (( void (*) (List_1_t678 *, const MethodInfo*))List_1_Sort_m21623_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::Sort(System.Collections.Generic.IComparer`1<T>)
-#define List_1_Sort_m23064(__this, ___comparer, method) (( void (*) (List_1_t680 *, Object_t*, const MethodInfo*))List_1_Sort_m21636_gshared)(__this, ___comparer, method)
+#define List_1_Sort_m23053(__this, ___comparer, method) (( void (*) (List_1_t678 *, Object_t*, const MethodInfo*))List_1_Sort_m21625_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m23065(__this, ___comparison, method) (( void (*) (List_1_t680 *, Comparison_1_t5495 *, const MethodInfo*))List_1_Sort_m21638_gshared)(__this, ___comparison, method)
+#define List_1_Sort_m23054(__this, ___comparison, method) (( void (*) (List_1_t678 *, Comparison_1_t5493 *, const MethodInfo*))List_1_Sort_m21627_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::ToArray()
-#define List_1_ToArray_m23066(__this, method) (( DataEventHandlerFunctionU5BU5D_t5490* (*) (List_1_t680 *, const MethodInfo*))List_1_ToArray_m21640_gshared)(__this, method)
+#define List_1_ToArray_m23055(__this, method) (( DataEventHandlerFunctionU5BU5D_t5488* (*) (List_1_t678 *, const MethodInfo*))List_1_ToArray_m21629_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::TrimExcess()
-#define List_1_TrimExcess_m23067(__this, method) (( void (*) (List_1_t680 *, const MethodInfo*))List_1_TrimExcess_m21642_gshared)(__this, method)
+#define List_1_TrimExcess_m23056(__this, method) (( void (*) (List_1_t678 *, const MethodInfo*))List_1_TrimExcess_m21631_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::get_Capacity()
-#define List_1_get_Capacity_m23068(__this, method) (( int32_t (*) (List_1_t680 *, const MethodInfo*))List_1_get_Capacity_m21644_gshared)(__this, method)
+#define List_1_get_Capacity_m23057(__this, method) (( int32_t (*) (List_1_t678 *, const MethodInfo*))List_1_get_Capacity_m21633_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::set_Capacity(System.Int32)
-#define List_1_set_Capacity_m23069(__this, ___value, method) (( void (*) (List_1_t680 *, int32_t, const MethodInfo*))List_1_set_Capacity_m21646_gshared)(__this, ___value, method)
+#define List_1_set_Capacity_m23058(__this, ___value, method) (( void (*) (List_1_t678 *, int32_t, const MethodInfo*))List_1_set_Capacity_m21635_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::get_Count()
-#define List_1_get_Count_m23070(__this, method) (( int32_t (*) (List_1_t680 *, const MethodInfo*))List_1_get_Count_m10342_gshared)(__this, method)
+#define List_1_get_Count_m23059(__this, method) (( int32_t (*) (List_1_t678 *, const MethodInfo*))List_1_get_Count_m10331_gshared)(__this, method)
 // T System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::get_Item(System.Int32)
-#define List_1_get_Item_m23071(__this, ___index, method) (( DataEventHandlerFunction_t676 * (*) (List_1_t680 *, int32_t, const MethodInfo*))List_1_get_Item_m10365_gshared)(__this, ___index, method)
+#define List_1_get_Item_m23060(__this, ___index, method) (( DataEventHandlerFunction_t674 * (*) (List_1_t678 *, int32_t, const MethodInfo*))List_1_get_Item_m10354_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::set_Item(System.Int32,T)
-#define List_1_set_Item_m23072(__this, ___index, ___value, method) (( void (*) (List_1_t680 *, int32_t, DataEventHandlerFunction_t676 *, const MethodInfo*))List_1_set_Item_m10366_gshared)(__this, ___index, ___value, method)
+#define List_1_set_Item_m23061(__this, ___index, ___value, method) (( void (*) (List_1_t678 *, int32_t, DataEventHandlerFunction_t674 *, const MethodInfo*))List_1_set_Item_m10355_gshared)(__this, ___index, ___value, method)

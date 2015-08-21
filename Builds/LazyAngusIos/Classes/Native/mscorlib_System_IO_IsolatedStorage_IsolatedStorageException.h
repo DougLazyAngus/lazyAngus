@@ -3,6 +3,6 @@
 // System.Exception
 #include "mscorlib_System_Exception.h"
 // System.IO.IsolatedStorage.IsolatedStorageException
-struct  IsolatedStorageException_t4477  : public Exception_t57
+struct  IsolatedStorageException_t4475  : public Exception_t57
 {
 };

@@ -4,12 +4,12 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Comparison`1<System.Threading.Tasks.Task>
-struct Comparison_1_t5989;
+// System.Comparison`1<UnityEngine.RectTransform>
+struct Comparison_1_t5926;
 // System.Object
 struct Object_t;
-// System.Threading.Tasks.Task
-struct Task_t1210;
+// UnityEngine.RectTransform
+struct RectTransform_t541;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -17,13 +17,13 @@ struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Comparison`1<System.Threading.Tasks.Task>::.ctor(System.Object,System.IntPtr)
+// System.Void System.Comparison`1<UnityEngine.RectTransform>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m30966(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5989 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21748_gshared)(__this, ___object, ___method, method)
-// System.Int32 System.Comparison`1<System.Threading.Tasks.Task>::Invoke(T,T)
-#define Comparison_1_Invoke_m30967(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5989 *, Task_t1210 *, Task_t1210 *, const MethodInfo*))Comparison_1_Invoke_m21749_gshared)(__this, ___x, ___y, method)
-// System.IAsyncResult System.Comparison`1<System.Threading.Tasks.Task>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m30968(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5989 *, Task_t1210 *, Task_t1210 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21750_gshared)(__this, ___x, ___y, ___callback, ___object, method)
-// System.Int32 System.Comparison`1<System.Threading.Tasks.Task>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m30969(__this, ___result, method) (( int32_t (*) (Comparison_1_t5989 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21751_gshared)(__this, ___result, method)
+#define Comparison_1__ctor_m30382(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5926 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21737_gshared)(__this, ___object, ___method, method)
+// System.Int32 System.Comparison`1<UnityEngine.RectTransform>::Invoke(T,T)
+#define Comparison_1_Invoke_m30383(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5926 *, RectTransform_t541 *, RectTransform_t541 *, const MethodInfo*))Comparison_1_Invoke_m21738_gshared)(__this, ___x, ___y, method)
+// System.IAsyncResult System.Comparison`1<UnityEngine.RectTransform>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+#define Comparison_1_BeginInvoke_m30384(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5926 *, RectTransform_t541 *, RectTransform_t541 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21739_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+// System.Int32 System.Comparison`1<UnityEngine.RectTransform>::EndInvoke(System.IAsyncResult)
+#define Comparison_1_EndInvoke_m30385(__this, ___result, method) (( int32_t (*) (Comparison_1_t5926 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21740_gshared)(__this, ___result, method)

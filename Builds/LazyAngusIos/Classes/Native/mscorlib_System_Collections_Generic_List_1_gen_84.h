@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Boolean[]
-struct BooleanU5BU5D_t487;
+// Parse.ParseGeoPoint[]
+struct ParseGeoPointU5BU5D_t6863;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Boolean>
-struct  List_1_t6924  : public Object_t
+// System.Collections.Generic.List`1<Parse.ParseGeoPoint>
+struct  List_1_t6864  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Boolean>::_items
-	BooleanU5BU5D_t487* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Boolean>::_size
+	// T[] System.Collections.Generic.List`1<Parse.ParseGeoPoint>::_items
+	ParseGeoPointU5BU5D_t6863* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<Parse.ParseGeoPoint>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Boolean>::_version
+	// System.Int32 System.Collections.Generic.List`1<Parse.ParseGeoPoint>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6924_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Boolean>::EmptyArray
-	BooleanU5BU5D_t487* ___EmptyArray_4;
+struct List_1_t6864_StaticFields{
+	// T[] System.Collections.Generic.List`1<Parse.ParseGeoPoint>::EmptyArray
+	ParseGeoPointU5BU5D_t6863* ___EmptyArray_4;
 };

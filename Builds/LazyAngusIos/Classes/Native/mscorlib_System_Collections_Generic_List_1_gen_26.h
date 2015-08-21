@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.EventSystems.EventTrigger/Entry[]
-struct EntryU5BU5D_t5796;
+// UnityEngine.EventSystems.BaseRaycaster[]
+struct BaseRaycasterU5BU5D_t5794;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct  List_1_t852  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>
+struct  List_1_t875  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::_items
-	EntryU5BU5D_t5796* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::_items
+	BaseRaycasterU5BU5D_t5794* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::_version
 	int32_t ____version_3;
 };
-struct List_1_t852_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::EmptyArray
-	EntryU5BU5D_t5796* ___EmptyArray_4;
+struct List_1_t875_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::EmptyArray
+	BaseRaycasterU5BU5D_t5794* ___EmptyArray_4;
 };

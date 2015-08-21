@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.TypeLoadException
-struct TypeLoadException_t4801;
+struct TypeLoadException_t4799;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2919;
+struct SerializationInfo_t2917;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.TypeLoadException::.ctor()
-extern "C" void TypeLoadException__ctor_m20079 (TypeLoadException_t4801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeLoadException__ctor_m20068 (TypeLoadException_t4799 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.TypeLoadException::.ctor(System.String)
-extern "C" void TypeLoadException__ctor_m20080 (TypeLoadException_t4801 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeLoadException__ctor_m20069 (TypeLoadException_t4799 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.TypeLoadException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void TypeLoadException__ctor_m20081 (TypeLoadException_t4801 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeLoadException__ctor_m20070 (TypeLoadException_t4799 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.TypeLoadException::get_Message()
-extern "C" String_t* TypeLoadException_get_Message_m20082 (TypeLoadException_t4801 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TypeLoadException_get_Message_m20071 (TypeLoadException_t4799 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.TypeLoadException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void TypeLoadException_GetObjectData_m20083 (TypeLoadException_t4801 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeLoadException_GetObjectData_m20072 (TypeLoadException_t4799 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

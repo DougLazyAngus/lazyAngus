@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<UnityEngine.UI.Text>
-struct IList_1_t5835;
+// System.Collections.Generic.IList`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
+struct IList_1_t5821;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.Text>
-struct  ReadOnlyCollection_1_t5836  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
+struct  ReadOnlyCollection_1_t5822  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.Text>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::list
 	Object_t* ___list_0;
 };

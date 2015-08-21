@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.RijndaelTransform
-struct RijndaelTransform_t4703;
+struct RijndaelTransform_t4701;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.RijndaelManagedTransform
-struct  RijndaelManagedTransform_t4704  : public Object_t
+struct  RijndaelManagedTransform_t4702  : public Object_t
 {
 	// System.Security.Cryptography.RijndaelTransform System.Security.Cryptography.RijndaelManagedTransform::_st
-	RijndaelTransform_t4703 * ____st_0;
+	RijndaelTransform_t4701 * ____st_0;
 	// System.Int32 System.Security.Cryptography.RijndaelManagedTransform::_bs
 	int32_t ____bs_1;
 };

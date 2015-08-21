@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseACL/AccessKind
-struct AccessKind_t1212;
+struct AccessKind_t1210;
 

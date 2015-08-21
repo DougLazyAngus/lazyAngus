@@ -5,7 +5,7 @@ struct Int32U5BU5D_t484;
 // System.Object
 #include "mscorlib_System_Object.h"
 // EnumAccumulator`1<MouseConfig/MouseType>
-struct  EnumAccumulator_1_t583  : public Object_t
+struct  EnumAccumulator_1_t579  : public Object_t
 {
 	// System.Int32[] EnumAccumulator`1<MouseConfig/MouseType>::newCount
 	Int32U5BU5D_t484* ___newCount_0;

@@ -3,6 +3,6 @@
 // System.Security.Cryptography.TripleDES
 #include "mscorlib_System_Security_Cryptography_TripleDES.h"
 // System.Security.Cryptography.TripleDESCryptoServiceProvider
-struct  TripleDESCryptoServiceProvider_t4719  : public TripleDES_t3932
+struct  TripleDESCryptoServiceProvider_t4717  : public TripleDES_t3930
 {
 };

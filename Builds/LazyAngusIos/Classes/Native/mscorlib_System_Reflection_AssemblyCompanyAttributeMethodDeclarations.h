@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.AssemblyCompanyAttribute
-struct AssemblyCompanyAttribute_t1098;
+struct AssemblyCompanyAttribute_t1096;
 // System.String
 struct String_t;
 
 // System.Void System.Reflection.AssemblyCompanyAttribute::.ctor(System.String)
-extern "C" void AssemblyCompanyAttribute__ctor_m6202 (AssemblyCompanyAttribute_t1098 * __this, String_t* ___company, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyCompanyAttribute__ctor_m6191 (AssemblyCompanyAttribute_t1096 * __this, String_t* ___company, const MethodInfo* method) IL2CPP_METHOD_ATTR;

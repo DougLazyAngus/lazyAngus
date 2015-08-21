@@ -174,9 +174,11 @@ public class PlayerController : MonoBehaviour {
 			rightPawGameObject.GetComponent<PawController> ().CancelSwipe();
 			leftPawGameObject.GetComponent<PawController> ().CancelSwipe();
 
-
-			TipController.instance.EnqueueTip(turningTip, 
-			                                  turningTipPause);
+			// First level is all for explaining basic game.
+			if (GameLevelState.instance.gameLevel > 1) {
+				TipController.instance.EnqueueTip(turningTip, 
+				                                  turningTipPause);
+			}
 		}
 
 		headMovement.LookTowards (swipeLocationCat);

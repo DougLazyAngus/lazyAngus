@@ -5,20 +5,20 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlResolver
-struct XmlResolver_t3180;
+struct XmlResolver_t3178;
 // System.Object
 struct Object_t;
 // System.Uri
-struct Uri_t757;
+struct Uri_t755;
 // System.String
 struct String_t;
 // System.Type
 struct Type_t;
 
 // System.Void System.Xml.XmlResolver::.ctor()
-extern "C" void XmlResolver__ctor_m11173 (XmlResolver_t3180 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlResolver__ctor_m11162 (XmlResolver_t3178 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type)
 // System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String)
-extern "C" Uri_t757 * XmlResolver_ResolveUri_m11174 (XmlResolver_t3180 * __this, Uri_t757 * ___baseUri, String_t* ___relativeUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Uri_t755 * XmlResolver_ResolveUri_m11163 (XmlResolver_t3178 * __this, Uri_t755 * ___baseUri, String_t* ___relativeUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlResolver::EscapeRelativeUriBody(System.String)
-extern "C" String_t* XmlResolver_EscapeRelativeUriBody_m11175 (XmlResolver_t3180 * __this, String_t* ___src, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlResolver_EscapeRelativeUriBody_m11164 (XmlResolver_t3178 * __this, String_t* ___src, const MethodInfo* method) IL2CPP_METHOD_ATTR;

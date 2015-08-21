@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.DESTransform
-struct DESTransform_t4685;
+struct DESTransform_t4683;
 // Mono.Security.Cryptography.SymmetricTransform
 #include "mscorlib_Mono_Security_Cryptography_SymmetricTransform.h"
 // System.Security.Cryptography.TripleDESTransform
-struct  TripleDESTransform_t4720  : public SymmetricTransform_t4406
+struct  TripleDESTransform_t4718  : public SymmetricTransform_t4404
 {
 	// System.Security.Cryptography.DESTransform System.Security.Cryptography.TripleDESTransform::E1
-	DESTransform_t4685 * ___E1_12;
+	DESTransform_t4683 * ___E1_12;
 	// System.Security.Cryptography.DESTransform System.Security.Cryptography.TripleDESTransform::D2
-	DESTransform_t4685 * ___D2_13;
+	DESTransform_t4683 * ___D2_13;
 	// System.Security.Cryptography.DESTransform System.Security.Cryptography.TripleDESTransform::E3
-	DESTransform_t4685 * ___E3_14;
+	DESTransform_t4683 * ___E3_14;
 	// System.Security.Cryptography.DESTransform System.Security.Cryptography.TripleDESTransform::D1
-	DESTransform_t4685 * ___D1_15;
+	DESTransform_t4683 * ___D1_15;
 	// System.Security.Cryptography.DESTransform System.Security.Cryptography.TripleDESTransform::E2
-	DESTransform_t4685 * ___E2_16;
+	DESTransform_t4683 * ___E2_16;
 	// System.Security.Cryptography.DESTransform System.Security.Cryptography.TripleDESTransform::D3
-	DESTransform_t4685 * ___D3_17;
+	DESTransform_t4683 * ___D3_17;
 };

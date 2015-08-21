@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Font
-struct Font_t914;
+struct Font_t912;
 // System.Collections.Generic.List`1<UnityEngine.UI.Text>
-struct List_1_t1060;
+struct List_1_t1058;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
-struct  KeyValuePair_2_t5840 
+struct  KeyValuePair_2_t5844 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::key
-	Font_t914 * ___key_0;
+	Font_t912 * ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::value
-	List_1_t1060 * ___value_1;
+	List_1_t1058 * ___value_1;
 };

@@ -7,7 +7,7 @@ struct String_t;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.EventSystems.StandaloneInputModule
-struct  StandaloneInputModule_t894  : public PointerInputModule_t892
+struct  StandaloneInputModule_t892  : public PointerInputModule_t890
 {
 	// System.Single UnityEngine.EventSystems.StandaloneInputModule::m_PrevActionTime
 	float ___m_PrevActionTime_12;

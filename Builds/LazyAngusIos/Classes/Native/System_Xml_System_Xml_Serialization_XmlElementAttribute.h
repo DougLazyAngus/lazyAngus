@@ -7,7 +7,7 @@ struct Type_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Xml.Serialization.XmlElementAttribute
-struct  XmlElementAttribute_t3168  : public Attribute_t426
+struct  XmlElementAttribute_t3166  : public Attribute_t426
 {
 	// System.String System.Xml.Serialization.XmlElementAttribute::elementName
 	String_t* ___elementName_0;

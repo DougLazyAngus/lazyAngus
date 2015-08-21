@@ -4,28 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>
-struct Enumerator_t5811;
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>
+struct Enumerator_t5810;
 // System.Object
 struct Object_t;
-// UnityEngine.GameObject
-struct GameObject_t352;
-// System.Collections.Generic.List`1<UnityEngine.GameObject>
-struct List_1_t884;
+// UnityEngine.Transform
+struct Transform_t406;
+// System.Collections.Generic.List`1<UnityEngine.Transform>
+struct List_1_t871;
 
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m28472(__this, ___l, method) (( void (*) (Enumerator_t5811 *, List_1_t884 *, const MethodInfo*))Enumerator__ctor_m21650_gshared)(__this, ___l, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m28473(__this, method) (( void (*) (Enumerator_t5811 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21651_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m28474(__this, method) (( Object_t * (*) (Enumerator_t5811 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21652_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::Dispose()
-#define Enumerator_Dispose_m28475(__this, method) (( void (*) (Enumerator_t5811 *, const MethodInfo*))Enumerator_Dispose_m21653_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::VerifyState()
-#define Enumerator_VerifyState_m28476(__this, method) (( void (*) (Enumerator_t5811 *, const MethodInfo*))Enumerator_VerifyState_m21654_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::MoveNext()
-#define Enumerator_MoveNext_m28477(__this, method) (( bool (*) (Enumerator_t5811 *, const MethodInfo*))Enumerator_MoveNext_m3868_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::get_Current()
-#define Enumerator_get_Current_m28478(__this, method) (( GameObject_t352 * (*) (Enumerator_t5811 *, const MethodInfo*))Enumerator_get_Current_m3867_gshared)(__this, method)
+#define Enumerator__ctor_m28461(__this, ___l, method) (( void (*) (Enumerator_t5810 *, List_1_t871 *, const MethodInfo*))Enumerator__ctor_m21639_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::System.Collections.IEnumerator.Reset()
+#define Enumerator_System_Collections_IEnumerator_Reset_m28462(__this, method) (( void (*) (Enumerator_t5810 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21640_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m28463(__this, method) (( Object_t * (*) (Enumerator_t5810 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21641_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::Dispose()
+#define Enumerator_Dispose_m28464(__this, method) (( void (*) (Enumerator_t5810 *, const MethodInfo*))Enumerator_Dispose_m21642_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::VerifyState()
+#define Enumerator_VerifyState_m28465(__this, method) (( void (*) (Enumerator_t5810 *, const MethodInfo*))Enumerator_VerifyState_m21643_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::MoveNext()
+#define Enumerator_MoveNext_m28466(__this, method) (( bool (*) (Enumerator_t5810 *, const MethodInfo*))Enumerator_MoveNext_m3856_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::get_Current()
+#define Enumerator_get_Current_m28467(__this, method) (( Transform_t406 * (*) (Enumerator_t5810 *, const MethodInfo*))Enumerator_get_Current_m3855_gshared)(__this, method)

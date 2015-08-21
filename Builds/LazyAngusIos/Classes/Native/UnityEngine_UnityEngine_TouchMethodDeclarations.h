@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Touch
-struct Touch_t706;
-struct Touch_t706_marshaled;
+struct Touch_t704;
+struct Touch_t704_marshaled;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.TouchPhase
 #include "UnityEngine_UnityEngine_TouchPhase.h"
 
 // System.Int32 UnityEngine.Touch::get_fingerId()
-extern "C" int32_t Touch_get_fingerId_m5821 (Touch_t706 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Touch_get_fingerId_m5811 (Touch_t704 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Touch::get_position()
-extern "C" Vector2_t110  Touch_get_position_m4222 (Touch_t706 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t110  Touch_get_position_m4205 (Touch_t704 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Touch::get_deltaPosition()
-extern "C" Vector2_t110  Touch_get_deltaPosition_m3689 (Touch_t706 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t110  Touch_get_deltaPosition_m3677 (Touch_t704 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TouchPhase UnityEngine.Touch::get_phase()
-extern "C" int32_t Touch_get_phase_m3688 (Touch_t706 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-void Touch_t706_marshal(const Touch_t706& unmarshaled, Touch_t706_marshaled& marshaled);
-void Touch_t706_marshal_back(const Touch_t706_marshaled& marshaled, Touch_t706& unmarshaled);
-void Touch_t706_marshal_cleanup(Touch_t706_marshaled& marshaled);
+extern "C" int32_t Touch_get_phase_m3676 (Touch_t704 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+void Touch_t704_marshal(const Touch_t704& unmarshaled, Touch_t704_marshaled& marshaled);
+void Touch_t704_marshal_back(const Touch_t704_marshaled& marshaled, Touch_t704& unmarshaled);
+void Touch_t704_marshal_cleanup(Touch_t704_marshaled& marshaled);

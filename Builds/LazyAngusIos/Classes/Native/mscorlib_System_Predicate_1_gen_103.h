@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Type
-struct Type_t;
+// UnityEngine.Networking.Match.MatchDesc
+struct MatchDesc_t2804;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -10,7 +10,7 @@ struct AsyncCallback_t386;
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<System.Type>
-struct  Predicate_1_t8539  : public MulticastDelegate_t388
+// System.Predicate`1<UnityEngine.Networking.Match.MatchDesc>
+struct  Predicate_1_t8472  : public MulticastDelegate_t388
 {
 };

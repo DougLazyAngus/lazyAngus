@@ -4,28 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>
-struct Enumerator_t8423;
+// System.Collections.Generic.List`1/Enumerator<System.Byte[]>
+struct Enumerator_t8416;
 // System.Object
 struct Object_t;
-// UnityEngine.Rigidbody2D
-struct Rigidbody2D_t2769;
-// System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>
-struct List_1_t2768;
+// System.Byte[]
+struct ByteU5BU5D_t66;
+// System.Collections.Generic.List`1<System.Byte[]>
+struct List_1_t2742;
 
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Byte[]>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m60715(__this, ___l, method) (( void (*) (Enumerator_t8423 *, List_1_t2768 *, const MethodInfo*))Enumerator__ctor_m21650_gshared)(__this, ___l, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m60716(__this, method) (( void (*) (Enumerator_t8423 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21651_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m60717(__this, method) (( Object_t * (*) (Enumerator_t8423 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21652_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::Dispose()
-#define Enumerator_Dispose_m60718(__this, method) (( void (*) (Enumerator_t8423 *, const MethodInfo*))Enumerator_Dispose_m21653_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::VerifyState()
-#define Enumerator_VerifyState_m60719(__this, method) (( void (*) (Enumerator_t8423 *, const MethodInfo*))Enumerator_VerifyState_m21654_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::MoveNext()
-#define Enumerator_MoveNext_m60720(__this, method) (( bool (*) (Enumerator_t8423 *, const MethodInfo*))Enumerator_MoveNext_m3868_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::get_Current()
-#define Enumerator_get_Current_m60721(__this, method) (( Rigidbody2D_t2769 * (*) (Enumerator_t8423 *, const MethodInfo*))Enumerator_get_Current_m3867_gshared)(__this, method)
+#define Enumerator__ctor_m60674(__this, ___l, method) (( void (*) (Enumerator_t8416 *, List_1_t2742 *, const MethodInfo*))Enumerator__ctor_m21639_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Byte[]>::System.Collections.IEnumerator.Reset()
+#define Enumerator_System_Collections_IEnumerator_Reset_m60675(__this, method) (( void (*) (Enumerator_t8416 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21640_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<System.Byte[]>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m60676(__this, method) (( Object_t * (*) (Enumerator_t8416 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21641_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Byte[]>::Dispose()
+#define Enumerator_Dispose_m60677(__this, method) (( void (*) (Enumerator_t8416 *, const MethodInfo*))Enumerator_Dispose_m21642_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Byte[]>::VerifyState()
+#define Enumerator_VerifyState_m60678(__this, method) (( void (*) (Enumerator_t8416 *, const MethodInfo*))Enumerator_VerifyState_m21643_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Byte[]>::MoveNext()
+#define Enumerator_MoveNext_m60679(__this, method) (( bool (*) (Enumerator_t8416 *, const MethodInfo*))Enumerator_MoveNext_m3856_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<System.Byte[]>::get_Current()
+#define Enumerator_get_Current_m60680(__this, method) (( ByteU5BU5D_t66* (*) (Enumerator_t8416 *, const MethodInfo*))Enumerator_get_Current_m3855_gshared)(__this, method)

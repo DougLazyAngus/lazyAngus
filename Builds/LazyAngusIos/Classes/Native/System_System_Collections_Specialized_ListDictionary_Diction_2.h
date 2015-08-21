@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Specialized.ListDictionary
-struct ListDictionary_t3171;
+struct ListDictionary_t3169;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Specialized.ListDictionary/DictionaryNodeCollection
-struct  DictionaryNodeCollection_t3960  : public Object_t
+struct  DictionaryNodeCollection_t3958  : public Object_t
 {
 	// System.Collections.Specialized.ListDictionary System.Collections.Specialized.ListDictionary/DictionaryNodeCollection::dict
-	ListDictionary_t3171 * ___dict_0;
+	ListDictionary_t3169 * ___dict_0;
 	// System.Boolean System.Collections.Specialized.ListDictionary/DictionaryNodeCollection::isKeyList
 	bool ___isKeyList_1;
 };

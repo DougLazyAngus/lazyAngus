@@ -1,0 +1,47 @@
+grep: .: Is a directory
+grep: ./Assets: Is a directory
+grep: ./Assets/AssetStoreFiles: Is a directory
+grep: ./Assets/Editor: Is a directory
+grep: ./Assets/Examples: Is a directory
+grep: ./Assets/Examples/Scripts: Is a directory
+grep: ./Assets/Examples/Textures: Is a directory
+grep: ./Assets/Extensions: Is a directory
+grep: ./Assets/Extensions/AllDocumentation: Is a directory
+grep: ./Assets/Extensions/AndroidManifestManager: Is a directory
+grep: ./Assets/Extensions/AndroidManifestManager/Models: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Documentation: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Events: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Events/Core: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Events/Core/Events: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Events/Data: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Events/interfaces: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Events/Templates: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Example: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Example/Scripts: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Addons: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Addons/Visual: No such file or directory
+grep: Studio: No such file or directory
+grep: Project.zip: No such file or directory
+grep: ./Assets/Extensions/GoogleMobileAd/Addons/Visual: No such file or directory
+grep: Studio: No such file or directory
+grep: Project.zip.meta: No such file or directory
+grep: ./Assets/Extensions/GoogleMobileAd/Documentation: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Example: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Example/Art: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Example/Scenes: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Example/Scenes/Playmaker: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Example/Scripts: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Resources: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Scripts: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Scripts/Core: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Scripts/Editor: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Scripts/IOS: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Scripts/Templates: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Scripts/WP8: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Ad: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Core: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Core/APIBridge: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Eclipse: Is a directory

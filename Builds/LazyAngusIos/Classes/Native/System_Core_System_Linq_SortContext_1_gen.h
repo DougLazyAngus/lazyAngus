@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Linq.SortContext`1<System.Object>
-struct SortContext_1_t6064;
+struct SortContext_1_t6068;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.SortDirection
 #include "System_Core_System_Linq_SortDirection.h"
 // System.Linq.SortContext`1<System.Object>
-struct  SortContext_1_t6064  : public Object_t
+struct  SortContext_1_t6068  : public Object_t
 {
 	// System.Linq.SortDirection System.Linq.SortContext`1<System.Object>::direction
 	int32_t ___direction_0;
 	// System.Linq.SortContext`1<TElement> System.Linq.SortContext`1<System.Object>::child_context
-	SortContext_1_t6064 * ___child_context_1;
+	SortContext_1_t6068 * ___child_context_1;
 };

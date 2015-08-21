@@ -36,12 +36,16 @@ public class SecretUI : MonoBehaviour {
 		inputs.SetActive (false);
 	}
 
-
+	
 	void ApplyDebugFlags() {
-		int debugFlags = Utilities.ParseIntWithDefault (debugFlagsInputField.text, 0);
-		if (debugFlags > 0) {
+		int debugFlags = Utilities.ParseIntWithDefault (debugFlagsInputField.text, -1);
+		if (debugFlags >= 0) {
 			DebugConfig.instance.debugFlags = debugFlags;
 		}
 		inputs.SetActive (false);
+	}
+	
+	public void DebugShowSharing() {
+		FacebookSharing.instance.ShareScore (100, true);
 	}
 }

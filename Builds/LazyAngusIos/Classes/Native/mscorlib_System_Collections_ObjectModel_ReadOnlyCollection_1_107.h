@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<UnityEngine.Events.PersistentCall>
-struct IList_1_t8565;
+// System.Collections.Generic.IList`1<System.Type>
+struct IList_1_t8541;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Events.PersistentCall>
-struct  ReadOnlyCollection_1_t8566  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Type>
+struct  ReadOnlyCollection_1_t8542  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Events.PersistentCall>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Type>::list
 	Object_t* ___list_0;
 };

@@ -4,16 +4,16 @@
 #include "mscorlib_System_Object.h"
 // MouseConfig/MouseType
 #include "AssemblyU2DCSharp_MouseConfig_MouseType.h"
-// MouseHole/MouseHoleLocation
-#include "AssemblyU2DCSharp_MouseHole_MouseHoleLocation.h"
+// MouseSinkController/MouseHoleLocation
+#include "AssemblyU2DCSharp_MouseSinkController_MouseHoleLocation.h"
 // MouseConfig/MouseWiggleType
 #include "AssemblyU2DCSharp_MouseConfig_MouseWiggleType.h"
 // ExplicitMouseDesc
-struct  ExplicitMouseDesc_t537  : public Object_t
+struct  ExplicitMouseDesc_t535  : public Object_t
 {
 	// MouseConfig/MouseType ExplicitMouseDesc::mouseType
 	int32_t ___mouseType_0;
-	// MouseHole/MouseHoleLocation ExplicitMouseDesc::mouseHoleLocation
+	// MouseSinkController/MouseHoleLocation ExplicitMouseDesc::mouseHoleLocation
 	int32_t ___mouseHoleLocation_1;
 	// System.Boolean ExplicitMouseDesc::isClockwise
 	bool ___isClockwise_2;

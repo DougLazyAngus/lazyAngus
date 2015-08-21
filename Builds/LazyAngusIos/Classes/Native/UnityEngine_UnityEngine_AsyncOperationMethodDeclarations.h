@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AsyncOperation
-struct AsyncOperation_t2682;
-struct AsyncOperation_t2682_marshaled;
+struct AsyncOperation_t2680;
+struct AsyncOperation_t2680_marshaled;
 
 // System.Void UnityEngine.AsyncOperation::.ctor()
-extern "C" void AsyncOperation__ctor_m9307 (AsyncOperation_t2682 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsyncOperation__ctor_m9296 (AsyncOperation_t2680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AsyncOperation::InternalDestroy()
-extern "C" void AsyncOperation_InternalDestroy_m9308 (AsyncOperation_t2682 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsyncOperation_InternalDestroy_m9297 (AsyncOperation_t2680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AsyncOperation::Finalize()
-extern "C" void AsyncOperation_Finalize_m9309 (AsyncOperation_t2682 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-void AsyncOperation_t2682_marshal(const AsyncOperation_t2682& unmarshaled, AsyncOperation_t2682_marshaled& marshaled);
-void AsyncOperation_t2682_marshal_back(const AsyncOperation_t2682_marshaled& marshaled, AsyncOperation_t2682& unmarshaled);
-void AsyncOperation_t2682_marshal_cleanup(AsyncOperation_t2682_marshaled& marshaled);
+extern "C" void AsyncOperation_Finalize_m9298 (AsyncOperation_t2680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+void AsyncOperation_t2680_marshal(const AsyncOperation_t2680& unmarshaled, AsyncOperation_t2680_marshaled& marshaled);
+void AsyncOperation_t2680_marshal_back(const AsyncOperation_t2680_marshaled& marshaled, AsyncOperation_t2680& unmarshaled);
+void AsyncOperation_t2680_marshal_cleanup(AsyncOperation_t2680_marshaled& marshaled);

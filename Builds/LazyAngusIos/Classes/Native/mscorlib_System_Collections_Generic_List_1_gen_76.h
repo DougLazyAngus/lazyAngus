@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Int16[]
-struct Int16U5BU5D_t4886;
+// System.SByte[]
+struct SByteU5BU5D_t4759;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Int16>
-struct  List_1_t6472  : public Object_t
+// System.Collections.Generic.List`1<System.SByte>
+struct  List_1_t6429  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Int16>::_items
-	Int16U5BU5D_t4886* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Int16>::_size
+	// T[] System.Collections.Generic.List`1<System.SByte>::_items
+	SByteU5BU5D_t4759* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.SByte>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Int16>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.SByte>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6472_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Int16>::EmptyArray
-	Int16U5BU5D_t4886* ___EmptyArray_4;
+struct List_1_t6429_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.SByte>::EmptyArray
+	SByteU5BU5D_t4759* ___EmptyArray_4;
 };

@@ -3,7 +3,7 @@
 // System.Text.Encoding
 #include "mscorlib_System_Text_Encoding.h"
 // System.Text.UTF32Encoding
-struct  UTF32Encoding_t4759  : public Encoding_t739
+struct  UTF32Encoding_t4757  : public Encoding_t737
 {
 	// System.Boolean System.Text.UTF32Encoding::bigEndian
 	bool ___bigEndian_28;

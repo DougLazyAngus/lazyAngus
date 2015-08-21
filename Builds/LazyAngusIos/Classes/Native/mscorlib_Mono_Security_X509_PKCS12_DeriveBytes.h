@@ -7,7 +7,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.X509.PKCS12/DeriveBytes
-struct  DeriveBytes_t4409  : public Object_t
+struct  DeriveBytes_t4407  : public Object_t
 {
 	// System.String Mono.Security.X509.PKCS12/DeriveBytes::_hashName
 	String_t* ____hashName_3;
@@ -18,7 +18,7 @@ struct  DeriveBytes_t4409  : public Object_t
 	// System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::_salt
 	ByteU5BU5D_t66* ____salt_6;
 };
-struct DeriveBytes_t4409_StaticFields{
+struct DeriveBytes_t4407_StaticFields{
 	// System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::keyDiversifier
 	ByteU5BU5D_t66* ___keyDiversifier_0;
 	// System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::ivDiversifier

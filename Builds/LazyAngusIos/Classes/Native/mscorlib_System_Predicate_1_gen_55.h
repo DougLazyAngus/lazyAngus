@@ -6,11 +6,11 @@ struct IAsyncResult_t385;
 struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
-// System.SByte
-#include "mscorlib_System_SByte.h"
+// System.Byte
+#include "mscorlib_System_Byte.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<System.SByte>
-struct  Predicate_1_t6432  : public MulticastDelegate_t388
+// System.Predicate`1<System.Byte>
+struct  Predicate_1_t6377  : public MulticastDelegate_t388
 {
 };

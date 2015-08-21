@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// MouseHole/MouseHoleLocation[]
-struct MouseHoleLocationU5BU5D_t5724;
-// System.Collections.Generic.List`1<MouseHole/MouseHoleLocation>
-struct List_1_t798;
+// MouseSinkController/MouseHoleLocation[]
+struct MouseHoleLocationU5BU5D_t5722;
+// System.Collections.Generic.List`1<MouseSinkController/MouseHoleLocation>
+struct List_1_t796;
 // System.Object
 #include "mscorlib_System_Object.h"
-// QuasiRandomGenerator`1<MouseHole/MouseHoleLocation>
-struct  QuasiRandomGenerator_1_t587  : public Object_t
+// QuasiRandomGenerator`1<MouseSinkController/MouseHoleLocation>
+struct  QuasiRandomGenerator_1_t583  : public Object_t
 {
-	// T[] QuasiRandomGenerator`1<MouseHole/MouseHoleLocation>::distribution
-	MouseHoleLocationU5BU5D_t5724* ___distribution_0;
-	// System.Collections.Generic.List`1<T> QuasiRandomGenerator`1<MouseHole/MouseHoleLocation>::values
-	List_1_t798 * ___values_1;
-	// System.Int32 QuasiRandomGenerator`1<MouseHole/MouseHoleLocation>::refreshTrigger
+	// T[] QuasiRandomGenerator`1<MouseSinkController/MouseHoleLocation>::distribution
+	MouseHoleLocationU5BU5D_t5722* ___distribution_0;
+	// System.Collections.Generic.List`1<T> QuasiRandomGenerator`1<MouseSinkController/MouseHoleLocation>::values
+	List_1_t796 * ___values_1;
+	// System.Int32 QuasiRandomGenerator`1<MouseSinkController/MouseHoleLocation>::refreshTrigger
 	int32_t ___refreshTrigger_2;
 };

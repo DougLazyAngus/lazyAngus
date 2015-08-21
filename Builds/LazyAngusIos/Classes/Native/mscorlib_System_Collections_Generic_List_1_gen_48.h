@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard[]
-struct GcLeaderboardU5BU5D_t8382;
+// System.Action`1<System.Threading.Tasks.Task>[]
+struct Action_1U5BU5D_t8354;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct  List_1_t2697  : public Object_t
+// System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>
+struct  List_1_t2153  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_items
-	GcLeaderboardU5BU5D_t8382* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_size
+	// T[] System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>::_items
+	Action_1U5BU5D_t8354* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>::_version
 	int32_t ____version_3;
 };
-struct List_1_t2697_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::EmptyArray
-	GcLeaderboardU5BU5D_t8382* ___EmptyArray_4;
+struct List_1_t2153_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>::EmptyArray
+	Action_1U5BU5D_t8354* ___EmptyArray_4;
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.SecurityProtocolType
-struct SecurityProtocolType_t3871;
+struct SecurityProtocolType_t3869;
 

@@ -5,16 +5,16 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Resources
-struct Resources_t790;
+struct Resources_t788;
 // UnityEngine.Object
-struct Object_t703;
-struct Object_t703_marshaled;
+struct Object_t701;
+struct Object_t701_marshaled;
 // System.String
 struct String_t;
 // System.Type
 struct Type_t;
 
 // UnityEngine.Object UnityEngine.Resources::Load(System.String)
-extern "C" Object_t703 * Resources_Load_m3779 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t701 * Resources_Load_m3767 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.Resources::Load(System.String,System.Type)
-extern "C" Object_t703 * Resources_Load_m4140 (Object_t * __this /* static, unused */, String_t* ___path, Type_t * ___systemTypeInstance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t701 * Resources_Load_m4128 (Object_t * __this /* static, unused */, String_t* ___path, Type_t * ___systemTypeInstance, const MethodInfo* method) IL2CPP_METHOD_ATTR;

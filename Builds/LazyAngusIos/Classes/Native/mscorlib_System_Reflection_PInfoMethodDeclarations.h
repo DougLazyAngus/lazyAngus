@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.PInfo
-struct PInfo_t4548;
+struct PInfo_t4546;
 

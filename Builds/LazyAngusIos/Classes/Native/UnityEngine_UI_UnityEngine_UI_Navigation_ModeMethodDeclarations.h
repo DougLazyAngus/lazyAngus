@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Navigation/Mode
-struct Mode_t954;
+struct Mode_t952;
 

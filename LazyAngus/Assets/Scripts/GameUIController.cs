@@ -80,10 +80,6 @@ public class GameUIController : MonoBehaviour {
 			return;
 		}
 
-		if (DebugConfig.instance.DebugFlagSet (4)) {
-			return;
-		}
-
 		switch (GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.WELCOME: {
 			if (DebugConfig.instance.skipWelcome) {

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>[]
-struct KeyValuePair_2U5BU5D_t8611;
+// System.Linq.Expressions.Expression[]
+struct ExpressionU5BU5D_t1522;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
-struct  List_1_t3365  : public Object_t
+// System.Collections.Generic.List`1<System.Linq.Expressions.Expression>
+struct  List_1_t3364  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::_items
-	KeyValuePair_2U5BU5D_t8611* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::_size
+	// T[] System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::_items
+	ExpressionU5BU5D_t1522* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::_version
 	int32_t ____version_3;
 };
-struct List_1_t3365_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::EmptyArray
-	KeyValuePair_2U5BU5D_t8611* ___EmptyArray_4;
+struct List_1_t3364_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::EmptyArray
+	ExpressionU5BU5D_t1522* ___EmptyArray_4;
 };

@@ -5,7 +5,7 @@
 // System.Xml.XmlReaderBinarySupport/CommandState
 #include "System_Xml_System_Xml_XmlReaderBinarySupport_CommandState.h"
 // System.Xml.XmlReaderBinarySupport/CommandState
-struct  CommandState_t3257 
+struct  CommandState_t3255 
 {
 	// System.Int32 System.Xml.XmlReaderBinarySupport/CommandState::value__
 	int32_t ___value___1;

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.WebHeaderCollection
-struct WebHeaderCollection_t4016;
+struct WebHeaderCollection_t4014;
 // System.Collections.Specialized.NameObjectCollectionBase/KeysCollection
-struct KeysCollection_t3965;
+struct KeysCollection_t3963;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2919;
+struct SerializationInfo_t2917;
 // System.String
 struct String_t;
 // System.String[]
@@ -22,58 +22,58 @@ struct IEnumerator_t48;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Net.WebHeaderCollection::.ctor()
-extern "C" void WebHeaderCollection__ctor_m14270 (WebHeaderCollection_t4016 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection__ctor_m14259 (WebHeaderCollection_t4014 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void WebHeaderCollection__ctor_m14271 (WebHeaderCollection_t4016 * __this, SerializationInfo_t2919 * ___serializationInfo, StreamingContext_t2920  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection__ctor_m14260 (WebHeaderCollection_t4014 * __this, SerializationInfo_t2917 * ___serializationInfo, StreamingContext_t2918  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::.ctor(System.Boolean)
-extern "C" void WebHeaderCollection__ctor_m14272 (WebHeaderCollection_t4016 * __this, bool ___internallyCreated, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection__ctor_m14261 (WebHeaderCollection_t4014 * __this, bool ___internallyCreated, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::.cctor()
-extern "C" void WebHeaderCollection__cctor_m14273 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection__cctor_m14262 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void WebHeaderCollection_System_Runtime_Serialization_ISerializable_GetObjectData_m14274 (WebHeaderCollection_t4016 * __this, SerializationInfo_t2919 * ___serializationInfo, StreamingContext_t2920  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection_System_Runtime_Serialization_ISerializable_GetObjectData_m14263 (WebHeaderCollection_t4014 * __this, SerializationInfo_t2917 * ___serializationInfo, StreamingContext_t2918  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::Add(System.String)
-extern "C" void WebHeaderCollection_Add_m14275 (WebHeaderCollection_t4016 * __this, String_t* ___header, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection_Add_m14264 (WebHeaderCollection_t4014 * __this, String_t* ___header, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::Add(System.String,System.String)
-extern "C" void WebHeaderCollection_Add_m14276 (WebHeaderCollection_t4016 * __this, String_t* ___name, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection_Add_m14265 (WebHeaderCollection_t4014 * __this, String_t* ___name, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::AddWithoutValidate(System.String,System.String)
-extern "C" void WebHeaderCollection_AddWithoutValidate_m14277 (WebHeaderCollection_t4016 * __this, String_t* ___headerName, String_t* ___headerValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection_AddWithoutValidate_m14266 (WebHeaderCollection_t4014 * __this, String_t* ___headerName, String_t* ___headerValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.Net.WebHeaderCollection::GetValues(System.String)
-extern "C" StringU5BU5D_t75* WebHeaderCollection_GetValues_m14278 (WebHeaderCollection_t4016 * __this, String_t* ___header, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* WebHeaderCollection_GetValues_m14267 (WebHeaderCollection_t4014 * __this, String_t* ___header, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.WebHeaderCollection::IsRestricted(System.String)
-extern "C" bool WebHeaderCollection_IsRestricted_m14279 (Object_t * __this /* static, unused */, String_t* ___headerName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool WebHeaderCollection_IsRestricted_m14268 (Object_t * __this /* static, unused */, String_t* ___headerName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::OnDeserialization(System.Object)
-extern "C" void WebHeaderCollection_OnDeserialization_m14280 (WebHeaderCollection_t4016 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection_OnDeserialization_m14269 (WebHeaderCollection_t4014 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::Remove(System.String)
-extern "C" void WebHeaderCollection_Remove_m14281 (WebHeaderCollection_t4016 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection_Remove_m14270 (WebHeaderCollection_t4014 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::Set(System.String,System.String)
-extern "C" void WebHeaderCollection_Set_m14282 (WebHeaderCollection_t4016 * __this, String_t* ___name, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection_Set_m14271 (WebHeaderCollection_t4014 * __this, String_t* ___name, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.WebHeaderCollection::ToString()
-extern "C" String_t* WebHeaderCollection_ToString_m14283 (WebHeaderCollection_t4016 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* WebHeaderCollection_ToString_m14272 (WebHeaderCollection_t4014 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void WebHeaderCollection_GetObjectData_m14284 (WebHeaderCollection_t4016 * __this, SerializationInfo_t2919 * ___serializationInfo, StreamingContext_t2920  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection_GetObjectData_m14273 (WebHeaderCollection_t4014 * __this, SerializationInfo_t2917 * ___serializationInfo, StreamingContext_t2918  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.WebHeaderCollection::get_Count()
-extern "C" int32_t WebHeaderCollection_get_Count_m14285 (WebHeaderCollection_t4016 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t WebHeaderCollection_get_Count_m14274 (WebHeaderCollection_t4014 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Specialized.NameObjectCollectionBase/KeysCollection System.Net.WebHeaderCollection::get_Keys()
-extern "C" KeysCollection_t3965 * WebHeaderCollection_get_Keys_m14286 (WebHeaderCollection_t4016 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" KeysCollection_t3963 * WebHeaderCollection_get_Keys_m14275 (WebHeaderCollection_t4014 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.WebHeaderCollection::Get(System.Int32)
-extern "C" String_t* WebHeaderCollection_Get_m14287 (WebHeaderCollection_t4016 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* WebHeaderCollection_Get_m14276 (WebHeaderCollection_t4014 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.WebHeaderCollection::Get(System.String)
-extern "C" String_t* WebHeaderCollection_Get_m14288 (WebHeaderCollection_t4016 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* WebHeaderCollection_Get_m14277 (WebHeaderCollection_t4014 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.WebHeaderCollection::GetKey(System.Int32)
-extern "C" String_t* WebHeaderCollection_GetKey_m14289 (WebHeaderCollection_t4016 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* WebHeaderCollection_GetKey_m14278 (WebHeaderCollection_t4014 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Net.WebHeaderCollection::GetEnumerator()
-extern "C" Object_t * WebHeaderCollection_GetEnumerator_m14290 (WebHeaderCollection_t4016 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WebHeaderCollection_GetEnumerator_m14279 (WebHeaderCollection_t4014 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::SetInternal(System.String)
-extern "C" void WebHeaderCollection_SetInternal_m14291 (WebHeaderCollection_t4016 * __this, String_t* ___header, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection_SetInternal_m14280 (WebHeaderCollection_t4014 * __this, String_t* ___header, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::SetInternal(System.String,System.String)
-extern "C" void WebHeaderCollection_SetInternal_m14292 (WebHeaderCollection_t4016 * __this, String_t* ___name, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection_SetInternal_m14281 (WebHeaderCollection_t4014 * __this, String_t* ___name, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::RemoveAndAdd(System.String,System.String)
-extern "C" void WebHeaderCollection_RemoveAndAdd_m14293 (WebHeaderCollection_t4016 * __this, String_t* ___name, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection_RemoveAndAdd_m14282 (WebHeaderCollection_t4014 * __this, String_t* ___name, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebHeaderCollection::RemoveInternal(System.String)
-extern "C" void WebHeaderCollection_RemoveInternal_m14294 (WebHeaderCollection_t4016 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebHeaderCollection_RemoveInternal_m14283 (WebHeaderCollection_t4014 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.WebHeaderCollection::IsMultiValue(System.String)
-extern "C" bool WebHeaderCollection_IsMultiValue_m14295 (Object_t * __this /* static, unused */, String_t* ___headerName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool WebHeaderCollection_IsMultiValue_m14284 (Object_t * __this /* static, unused */, String_t* ___headerName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.WebHeaderCollection::IsHeaderValue(System.String)
-extern "C" bool WebHeaderCollection_IsHeaderValue_m14296 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool WebHeaderCollection_IsHeaderValue_m14285 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.WebHeaderCollection::IsHeaderName(System.String)
-extern "C" bool WebHeaderCollection_IsHeaderName_m14297 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool WebHeaderCollection_IsHeaderName_m14286 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;

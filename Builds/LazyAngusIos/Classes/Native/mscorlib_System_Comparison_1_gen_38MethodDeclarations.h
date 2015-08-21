@@ -4,28 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Comparison`1<UnityEngine.UIVertex>
-struct Comparison_1_t5848;
+// System.Comparison`1<UnityEngine.UI.Text>
+struct Comparison_1_t5843;
 // System.Object
 struct Object_t;
+// UnityEngine.UI.Text
+struct Text_t500;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
-// UnityEngine.UIVertex
-#include "UnityEngine_UnityEngine_UIVertex.h"
 
-// System.Void System.Comparison`1<UnityEngine.UIVertex>::.ctor(System.Object,System.IntPtr)
-extern "C" void Comparison_1__ctor_m29158_gshared (Comparison_1_t5848 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Comparison_1__ctor_m29158(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5848 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m29158_gshared)(__this, ___object, ___method, method)
-// System.Int32 System.Comparison`1<UnityEngine.UIVertex>::Invoke(T,T)
-extern "C" int32_t Comparison_1_Invoke_m29159_gshared (Comparison_1_t5848 * __this, UIVertex_t949  ___x, UIVertex_t949  ___y, const MethodInfo* method);
-#define Comparison_1_Invoke_m29159(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5848 *, UIVertex_t949 , UIVertex_t949 , const MethodInfo*))Comparison_1_Invoke_m29159_gshared)(__this, ___x, ___y, method)
-// System.IAsyncResult System.Comparison`1<UnityEngine.UIVertex>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Comparison_1_BeginInvoke_m29160_gshared (Comparison_1_t5848 * __this, UIVertex_t949  ___x, UIVertex_t949  ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Comparison_1_BeginInvoke_m29160(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5848 *, UIVertex_t949 , UIVertex_t949 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m29160_gshared)(__this, ___x, ___y, ___callback, ___object, method)
-// System.Int32 System.Comparison`1<UnityEngine.UIVertex>::EndInvoke(System.IAsyncResult)
-extern "C" int32_t Comparison_1_EndInvoke_m29161_gshared (Comparison_1_t5848 * __this, Object_t * ___result, const MethodInfo* method);
-#define Comparison_1_EndInvoke_m29161(__this, ___result, method) (( int32_t (*) (Comparison_1_t5848 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m29161_gshared)(__this, ___result, method)
+// System.Void System.Comparison`1<UnityEngine.UI.Text>::.ctor(System.Object,System.IntPtr)
+// System.Comparison`1<System.Object>
+#include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
+#define Comparison_1__ctor_m29092(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5843 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21737_gshared)(__this, ___object, ___method, method)
+// System.Int32 System.Comparison`1<UnityEngine.UI.Text>::Invoke(T,T)
+#define Comparison_1_Invoke_m29093(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5843 *, Text_t500 *, Text_t500 *, const MethodInfo*))Comparison_1_Invoke_m21738_gshared)(__this, ___x, ___y, method)
+// System.IAsyncResult System.Comparison`1<UnityEngine.UI.Text>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+#define Comparison_1_BeginInvoke_m29094(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5843 *, Text_t500 *, Text_t500 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21739_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+// System.Int32 System.Comparison`1<UnityEngine.UI.Text>::EndInvoke(System.IAsyncResult)
+#define Comparison_1_EndInvoke_m29095(__this, ___result, method) (( int32_t (*) (Comparison_1_t5843 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21740_gshared)(__this, ___result, method)

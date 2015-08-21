@@ -14,744 +14,744 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t3948_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t3946_il2cpp_TypeInfo;
 // <Module>
 #include "System_U3CModuleU3E.h"
-extern TypeInfo Locale_t3949_il2cpp_TypeInfo;
+extern TypeInfo Locale_t3947_il2cpp_TypeInfo;
 // Locale
 #include "System_Locale.h"
-extern TypeInfo MonoTODOAttribute_t3950_il2cpp_TypeInfo;
+extern TypeInfo MonoTODOAttribute_t3948_il2cpp_TypeInfo;
 // System.MonoTODOAttribute
 #include "System_System_MonoTODOAttribute.h"
-extern TypeInfo GeneratedCodeAttribute_t2969_il2cpp_TypeInfo;
+extern TypeInfo GeneratedCodeAttribute_t2967_il2cpp_TypeInfo;
 // System.CodeDom.Compiler.GeneratedCodeAttribute
 #include "System_System_CodeDom_Compiler_GeneratedCodeAttribute.h"
-extern TypeInfo Enumerator_t4204_il2cpp_TypeInfo;
-extern TypeInfo LinkedList_1_t4203_il2cpp_TypeInfo;
-extern TypeInfo LinkedListNode_1_t4205_il2cpp_TypeInfo;
-extern TypeInfo Enumerator_t4207_il2cpp_TypeInfo;
-extern TypeInfo Queue_1_t4206_il2cpp_TypeInfo;
-extern TypeInfo INodeHelper_1_t4208_il2cpp_TypeInfo;
-extern TypeInfo Node_t3951_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t4202_il2cpp_TypeInfo;
+extern TypeInfo LinkedList_1_t4201_il2cpp_TypeInfo;
+extern TypeInfo LinkedListNode_1_t4203_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t4205_il2cpp_TypeInfo;
+extern TypeInfo Queue_1_t4204_il2cpp_TypeInfo;
+extern TypeInfo INodeHelper_1_t4206_il2cpp_TypeInfo;
+extern TypeInfo Node_t3949_il2cpp_TypeInfo;
 // System.Collections.Generic.RBTree/Node
 #include "System_System_Collections_Generic_RBTree_Node.h"
-extern TypeInfo NodeEnumerator_t3954_il2cpp_TypeInfo;
+extern TypeInfo NodeEnumerator_t3952_il2cpp_TypeInfo;
 // System.Collections.Generic.RBTree/NodeEnumerator
 #include "System_System_Collections_Generic_RBTree_NodeEnumerator.h"
-extern TypeInfo RBTree_t3952_il2cpp_TypeInfo;
+extern TypeInfo RBTree_t3950_il2cpp_TypeInfo;
 // System.Collections.Generic.RBTree
 #include "System_System_Collections_Generic_RBTree.h"
-extern TypeInfo Node_t4210_il2cpp_TypeInfo;
-extern TypeInfo NodeHelper_t4211_il2cpp_TypeInfo;
+extern TypeInfo Node_t4208_il2cpp_TypeInfo;
+extern TypeInfo NodeHelper_t4209_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t4211_il2cpp_TypeInfo;
+extern TypeInfo ValueCollection_t4210_il2cpp_TypeInfo;
 extern TypeInfo Enumerator_t4213_il2cpp_TypeInfo;
-extern TypeInfo ValueCollection_t4212_il2cpp_TypeInfo;
-extern TypeInfo Enumerator_t4215_il2cpp_TypeInfo;
-extern TypeInfo KeyCollection_t4214_il2cpp_TypeInfo;
+extern TypeInfo KeyCollection_t4212_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t4214_il2cpp_TypeInfo;
+extern TypeInfo SortedDictionary_2_t4207_il2cpp_TypeInfo;
 extern TypeInfo Enumerator_t4216_il2cpp_TypeInfo;
-extern TypeInfo SortedDictionary_2_t4209_il2cpp_TypeInfo;
-extern TypeInfo Enumerator_t4218_il2cpp_TypeInfo;
-extern TypeInfo Stack_1_t4217_il2cpp_TypeInfo;
-extern TypeInfo HybridDictionary_t3956_il2cpp_TypeInfo;
+extern TypeInfo Stack_1_t4215_il2cpp_TypeInfo;
+extern TypeInfo HybridDictionary_t3954_il2cpp_TypeInfo;
 // System.Collections.Specialized.HybridDictionary
 #include "System_System_Collections_Specialized_HybridDictionary.h"
-extern TypeInfo DictionaryNode_t3957_il2cpp_TypeInfo;
+extern TypeInfo DictionaryNode_t3955_il2cpp_TypeInfo;
 // System.Collections.Specialized.ListDictionary/DictionaryNode
 #include "System_System_Collections_Specialized_ListDictionary_Diction.h"
-extern TypeInfo DictionaryNodeEnumerator_t3958_il2cpp_TypeInfo;
+extern TypeInfo DictionaryNodeEnumerator_t3956_il2cpp_TypeInfo;
 // System.Collections.Specialized.ListDictionary/DictionaryNodeEnumerator
 #include "System_System_Collections_Specialized_ListDictionary_Diction_0.h"
-extern TypeInfo DictionaryNodeCollectionEnumerator_t3959_il2cpp_TypeInfo;
+extern TypeInfo DictionaryNodeCollectionEnumerator_t3957_il2cpp_TypeInfo;
 // System.Collections.Specialized.ListDictionary/DictionaryNodeCollection/DictionaryNodeCollectionEnumerator
 #include "System_System_Collections_Specialized_ListDictionary_Diction_1.h"
-extern TypeInfo DictionaryNodeCollection_t3960_il2cpp_TypeInfo;
+extern TypeInfo DictionaryNodeCollection_t3958_il2cpp_TypeInfo;
 // System.Collections.Specialized.ListDictionary/DictionaryNodeCollection
 #include "System_System_Collections_Specialized_ListDictionary_Diction_2.h"
-extern TypeInfo ListDictionary_t3171_il2cpp_TypeInfo;
+extern TypeInfo ListDictionary_t3169_il2cpp_TypeInfo;
 // System.Collections.Specialized.ListDictionary
 #include "System_System_Collections_Specialized_ListDictionary.h"
-extern TypeInfo _Item_t3962_il2cpp_TypeInfo;
+extern TypeInfo _Item_t3960_il2cpp_TypeInfo;
 // System.Collections.Specialized.NameObjectCollectionBase/_Item
 #include "System_System_Collections_Specialized_NameObjectCollectionBa.h"
-extern TypeInfo _KeysEnumerator_t3964_il2cpp_TypeInfo;
+extern TypeInfo _KeysEnumerator_t3962_il2cpp_TypeInfo;
 // System.Collections.Specialized.NameObjectCollectionBase/_KeysEnumerator
 #include "System_System_Collections_Specialized_NameObjectCollectionBa_0.h"
-extern TypeInfo KeysCollection_t3965_il2cpp_TypeInfo;
+extern TypeInfo KeysCollection_t3963_il2cpp_TypeInfo;
 // System.Collections.Specialized.NameObjectCollectionBase/KeysCollection
 #include "System_System_Collections_Specialized_NameObjectCollectionBa_1.h"
-extern TypeInfo NameObjectCollectionBase_t3963_il2cpp_TypeInfo;
+extern TypeInfo NameObjectCollectionBase_t3961_il2cpp_TypeInfo;
 // System.Collections.Specialized.NameObjectCollectionBase
 #include "System_System_Collections_Specialized_NameObjectCollectionBa_2.h"
-extern TypeInfo NameValueCollection_t3968_il2cpp_TypeInfo;
+extern TypeInfo NameValueCollection_t3966_il2cpp_TypeInfo;
 // System.Collections.Specialized.NameValueCollection
 #include "System_System_Collections_Specialized_NameValueCollection.h"
-extern TypeInfo DefaultValueAttribute_t2966_il2cpp_TypeInfo;
+extern TypeInfo DefaultValueAttribute_t2964_il2cpp_TypeInfo;
 // System.ComponentModel.DefaultValueAttribute
 #include "System_System_ComponentModel_DefaultValueAttribute.h"
-extern TypeInfo EditorBrowsableAttribute_t2195_il2cpp_TypeInfo;
+extern TypeInfo EditorBrowsableAttribute_t2193_il2cpp_TypeInfo;
 // System.ComponentModel.EditorBrowsableAttribute
 #include "System_System_ComponentModel_EditorBrowsableAttribute.h"
-extern TypeInfo EditorBrowsableState_t3969_il2cpp_TypeInfo;
+extern TypeInfo EditorBrowsableState_t3967_il2cpp_TypeInfo;
 // System.ComponentModel.EditorBrowsableState
 #include "System_System_ComponentModel_EditorBrowsableState.h"
-extern TypeInfo INotifyPropertyChanged_t2498_il2cpp_TypeInfo;
-extern TypeInfo PropertyChangedEventArgs_t1507_il2cpp_TypeInfo;
+extern TypeInfo INotifyPropertyChanged_t2496_il2cpp_TypeInfo;
+extern TypeInfo PropertyChangedEventArgs_t1505_il2cpp_TypeInfo;
 // System.ComponentModel.PropertyChangedEventArgs
 #include "System_System_ComponentModel_PropertyChangedEventArgs.h"
-extern TypeInfo TypeConverter_t3970_il2cpp_TypeInfo;
+extern TypeInfo TypeConverter_t3968_il2cpp_TypeInfo;
 // System.ComponentModel.TypeConverter
 #include "System_System_ComponentModel_TypeConverter.h"
-extern TypeInfo TypeConverterAttribute_t3971_il2cpp_TypeInfo;
+extern TypeInfo TypeConverterAttribute_t3969_il2cpp_TypeInfo;
 // System.ComponentModel.TypeConverterAttribute
 #include "System_System_ComponentModel_TypeConverterAttribute.h"
-extern TypeInfo Win32Exception_t3972_il2cpp_TypeInfo;
+extern TypeInfo Win32Exception_t3970_il2cpp_TypeInfo;
 // System.ComponentModel.Win32Exception
 #include "System_System_ComponentModel_Win32Exception.h"
-extern TypeInfo CompressionMode_t3974_il2cpp_TypeInfo;
+extern TypeInfo CompressionMode_t3972_il2cpp_TypeInfo;
 // System.IO.Compression.CompressionMode
 #include "System_System_IO_Compression_CompressionMode.h"
-extern TypeInfo UnmanagedReadOrWrite_t3975_il2cpp_TypeInfo;
+extern TypeInfo UnmanagedReadOrWrite_t3973_il2cpp_TypeInfo;
 // System.IO.Compression.DeflateStream/UnmanagedReadOrWrite
 #include "System_System_IO_Compression_DeflateStream_UnmanagedReadOrWr.h"
-extern TypeInfo ReadMethod_t3976_il2cpp_TypeInfo;
+extern TypeInfo ReadMethod_t3974_il2cpp_TypeInfo;
 // System.IO.Compression.DeflateStream/ReadMethod
 #include "System_System_IO_Compression_DeflateStream_ReadMethod.h"
-extern TypeInfo WriteMethod_t3977_il2cpp_TypeInfo;
+extern TypeInfo WriteMethod_t3975_il2cpp_TypeInfo;
 // System.IO.Compression.DeflateStream/WriteMethod
 #include "System_System_IO_Compression_DeflateStream_WriteMethod.h"
-extern TypeInfo DeflateStream_t3978_il2cpp_TypeInfo;
+extern TypeInfo DeflateStream_t3976_il2cpp_TypeInfo;
 // System.IO.Compression.DeflateStream
 #include "System_System_IO_Compression_DeflateStream.h"
-extern TypeInfo GZipStream_t3980_il2cpp_TypeInfo;
+extern TypeInfo GZipStream_t3978_il2cpp_TypeInfo;
 // System.IO.Compression.GZipStream
 #include "System_System_IO_Compression_GZipStream.h"
-extern TypeInfo AuthenticatedStream_t3981_il2cpp_TypeInfo;
+extern TypeInfo AuthenticatedStream_t3979_il2cpp_TypeInfo;
 // System.Net.Security.AuthenticatedStream
 #include "System_System_Net_Security_AuthenticatedStream.h"
-extern TypeInfo AuthenticationLevel_t3982_il2cpp_TypeInfo;
+extern TypeInfo AuthenticationLevel_t3980_il2cpp_TypeInfo;
 // System.Net.Security.AuthenticationLevel
 #include "System_System_Net_Security_AuthenticationLevel.h"
-extern TypeInfo SslPolicyErrors_t3983_il2cpp_TypeInfo;
+extern TypeInfo SslPolicyErrors_t3981_il2cpp_TypeInfo;
 // System.Net.Security.SslPolicyErrors
 #include "System_System_Net_Security_SslPolicyErrors.h"
-extern TypeInfo U3CBeginAuthenticateAsClientU3Ec__AnonStorey7_t3985_il2cpp_TypeInfo;
+extern TypeInfo U3CBeginAuthenticateAsClientU3Ec__AnonStorey7_t3983_il2cpp_TypeInfo;
 // System.Net.Security.SslStream/<BeginAuthenticateAsClient>c__AnonStorey7
 #include "System_System_Net_Security_SslStream_U3CBeginAuthenticateAsC.h"
-extern TypeInfo SslStream_t3984_il2cpp_TypeInfo;
+extern TypeInfo SslStream_t3982_il2cpp_TypeInfo;
 // System.Net.Security.SslStream
 #include "System_System_Net_Security_SslStream.h"
-extern TypeInfo AddressFamily_t3987_il2cpp_TypeInfo;
+extern TypeInfo AddressFamily_t3985_il2cpp_TypeInfo;
 // System.Net.Sockets.AddressFamily
 #include "System_System_Net_Sockets_AddressFamily.h"
-extern TypeInfo LingerOption_t3988_il2cpp_TypeInfo;
+extern TypeInfo LingerOption_t3986_il2cpp_TypeInfo;
 // System.Net.Sockets.LingerOption
 #include "System_System_Net_Sockets_LingerOption.h"
-extern TypeInfo MulticastOption_t3989_il2cpp_TypeInfo;
+extern TypeInfo MulticastOption_t3987_il2cpp_TypeInfo;
 // System.Net.Sockets.MulticastOption
 #include "System_System_Net_Sockets_MulticastOption.h"
-extern TypeInfo NetworkStream_t3991_il2cpp_TypeInfo;
+extern TypeInfo NetworkStream_t3989_il2cpp_TypeInfo;
 // System.Net.Sockets.NetworkStream
 #include "System_System_Net_Sockets_NetworkStream.h"
-extern TypeInfo ProtocolType_t3992_il2cpp_TypeInfo;
+extern TypeInfo ProtocolType_t3990_il2cpp_TypeInfo;
 // System.Net.Sockets.ProtocolType
 #include "System_System_Net_Sockets_ProtocolType.h"
-extern TypeInfo SelectMode_t3993_il2cpp_TypeInfo;
+extern TypeInfo SelectMode_t3991_il2cpp_TypeInfo;
 // System.Net.Sockets.SelectMode
 #include "System_System_Net_Sockets_SelectMode.h"
-extern TypeInfo SocketOperation_t3994_il2cpp_TypeInfo;
+extern TypeInfo SocketOperation_t3992_il2cpp_TypeInfo;
 // System.Net.Sockets.Socket/SocketOperation
 #include "System_System_Net_Sockets_Socket_SocketOperation.h"
-extern TypeInfo SocketAsyncResult_t3998_il2cpp_TypeInfo;
+extern TypeInfo SocketAsyncResult_t3996_il2cpp_TypeInfo;
 // System.Net.Sockets.Socket/SocketAsyncResult
 #include "System_System_Net_Sockets_Socket_SocketAsyncResult.h"
-extern TypeInfo Worker_t3999_il2cpp_TypeInfo;
+extern TypeInfo Worker_t3997_il2cpp_TypeInfo;
 // System.Net.Sockets.Socket/Worker
 #include "System_System_Net_Sockets_Socket_Worker.h"
-extern TypeInfo SocketAsyncCall_t4000_il2cpp_TypeInfo;
+extern TypeInfo SocketAsyncCall_t3998_il2cpp_TypeInfo;
 // System.Net.Sockets.Socket/SocketAsyncCall
 #include "System_System_Net_Sockets_Socket_SocketAsyncCall.h"
-extern TypeInfo Socket_t3990_il2cpp_TypeInfo;
+extern TypeInfo Socket_t3988_il2cpp_TypeInfo;
 // System.Net.Sockets.Socket
 #include "System_System_Net_Sockets_Socket.h"
-extern TypeInfo SocketError_t4002_il2cpp_TypeInfo;
+extern TypeInfo SocketError_t4000_il2cpp_TypeInfo;
 // System.Net.Sockets.SocketError
 #include "System_System_Net_Sockets_SocketError.h"
-extern TypeInfo SocketException_t4003_il2cpp_TypeInfo;
+extern TypeInfo SocketException_t4001_il2cpp_TypeInfo;
 // System.Net.Sockets.SocketException
 #include "System_System_Net_Sockets_SocketException.h"
-extern TypeInfo SocketFlags_t4004_il2cpp_TypeInfo;
+extern TypeInfo SocketFlags_t4002_il2cpp_TypeInfo;
 // System.Net.Sockets.SocketFlags
 #include "System_System_Net_Sockets_SocketFlags.h"
-extern TypeInfo SocketOptionLevel_t4005_il2cpp_TypeInfo;
+extern TypeInfo SocketOptionLevel_t4003_il2cpp_TypeInfo;
 // System.Net.Sockets.SocketOptionLevel
 #include "System_System_Net_Sockets_SocketOptionLevel.h"
-extern TypeInfo SocketOptionName_t4006_il2cpp_TypeInfo;
+extern TypeInfo SocketOptionName_t4004_il2cpp_TypeInfo;
 // System.Net.Sockets.SocketOptionName
 #include "System_System_Net_Sockets_SocketOptionName.h"
-extern TypeInfo SocketShutdown_t4007_il2cpp_TypeInfo;
+extern TypeInfo SocketShutdown_t4005_il2cpp_TypeInfo;
 // System.Net.Sockets.SocketShutdown
 #include "System_System_Net_Sockets_SocketShutdown.h"
-extern TypeInfo SocketType_t4008_il2cpp_TypeInfo;
+extern TypeInfo SocketType_t4006_il2cpp_TypeInfo;
 // System.Net.Sockets.SocketType
 #include "System_System_Net_Sockets_SocketType.h"
-extern TypeInfo AuthenticationManager_t4010_il2cpp_TypeInfo;
+extern TypeInfo AuthenticationManager_t4008_il2cpp_TypeInfo;
 // System.Net.AuthenticationManager
 #include "System_System_Net_AuthenticationManager.h"
-extern TypeInfo Authorization_t4012_il2cpp_TypeInfo;
+extern TypeInfo Authorization_t4010_il2cpp_TypeInfo;
 // System.Net.Authorization
 #include "System_System_Net_Authorization.h"
-extern TypeInfo BasicClient_t4013_il2cpp_TypeInfo;
+extern TypeInfo BasicClient_t4011_il2cpp_TypeInfo;
 // System.Net.BasicClient
 #include "System_System_Net_BasicClient.h"
-extern TypeInfo State_t4014_il2cpp_TypeInfo;
+extern TypeInfo State_t4012_il2cpp_TypeInfo;
 // System.Net.ChunkStream/State
 #include "System_System_Net_ChunkStream_State.h"
-extern TypeInfo Chunk_t4015_il2cpp_TypeInfo;
+extern TypeInfo Chunk_t4013_il2cpp_TypeInfo;
 // System.Net.ChunkStream/Chunk
 #include "System_System_Net_ChunkStream_Chunk.h"
-extern TypeInfo ChunkStream_t4017_il2cpp_TypeInfo;
+extern TypeInfo ChunkStream_t4015_il2cpp_TypeInfo;
 // System.Net.ChunkStream
 #include "System_System_Net_ChunkStream.h"
-extern TypeInfo Cookie_t4018_il2cpp_TypeInfo;
+extern TypeInfo Cookie_t4016_il2cpp_TypeInfo;
 // System.Net.Cookie
 #include "System_System_Net_Cookie.h"
-extern TypeInfo CookieCollectionComparer_t4019_il2cpp_TypeInfo;
+extern TypeInfo CookieCollectionComparer_t4017_il2cpp_TypeInfo;
 // System.Net.CookieCollection/CookieCollectionComparer
 #include "System_System_Net_CookieCollection_CookieCollectionComparer.h"
-extern TypeInfo CookieCollection_t4021_il2cpp_TypeInfo;
+extern TypeInfo CookieCollection_t4019_il2cpp_TypeInfo;
 // System.Net.CookieCollection
 #include "System_System_Net_CookieCollection.h"
-extern TypeInfo CookieContainer_t4022_il2cpp_TypeInfo;
+extern TypeInfo CookieContainer_t4020_il2cpp_TypeInfo;
 // System.Net.CookieContainer
 #include "System_System_Net_CookieContainer.h"
-extern TypeInfo CookieException_t4023_il2cpp_TypeInfo;
+extern TypeInfo CookieException_t4021_il2cpp_TypeInfo;
 // System.Net.CookieException
 #include "System_System_Net_CookieException.h"
-extern TypeInfo DecompressionMethods_t4024_il2cpp_TypeInfo;
+extern TypeInfo DecompressionMethods_t4022_il2cpp_TypeInfo;
 // System.Net.DecompressionMethods
 #include "System_System_Net_DecompressionMethods.h"
-extern TypeInfo DefaultCertificatePolicy_t4025_il2cpp_TypeInfo;
+extern TypeInfo DefaultCertificatePolicy_t4023_il2cpp_TypeInfo;
 // System.Net.DefaultCertificatePolicy
 #include "System_System_Net_DefaultCertificatePolicy.h"
-extern TypeInfo DigestHeaderParser_t4026_il2cpp_TypeInfo;
+extern TypeInfo DigestHeaderParser_t4024_il2cpp_TypeInfo;
 // System.Net.DigestHeaderParser
 #include "System_System_Net_DigestHeaderParser.h"
-extern TypeInfo DigestSession_t4027_il2cpp_TypeInfo;
+extern TypeInfo DigestSession_t4025_il2cpp_TypeInfo;
 // System.Net.DigestSession
 #include "System_System_Net_DigestSession.h"
-extern TypeInfo DigestClient_t4028_il2cpp_TypeInfo;
+extern TypeInfo DigestClient_t4026_il2cpp_TypeInfo;
 // System.Net.DigestClient
 #include "System_System_Net_DigestClient.h"
-extern TypeInfo Dns_t4029_il2cpp_TypeInfo;
+extern TypeInfo Dns_t4027_il2cpp_TypeInfo;
 // System.Net.Dns
 #include "System_System_Net_Dns.h"
-extern TypeInfo EndPoint_t3995_il2cpp_TypeInfo;
+extern TypeInfo EndPoint_t3993_il2cpp_TypeInfo;
 // System.Net.EndPoint
 #include "System_System_Net_EndPoint.h"
-extern TypeInfo FileWebStream_t4031_il2cpp_TypeInfo;
+extern TypeInfo FileWebStream_t4029_il2cpp_TypeInfo;
 // System.Net.FileWebRequest/FileWebStream
 #include "System_System_Net_FileWebRequest_FileWebStream.h"
-extern TypeInfo GetResponseCallback_t4032_il2cpp_TypeInfo;
+extern TypeInfo GetResponseCallback_t4030_il2cpp_TypeInfo;
 // System.Net.FileWebRequest/GetResponseCallback
 #include "System_System_Net_FileWebRequest_GetResponseCallback.h"
-extern TypeInfo FileWebRequest_t4030_il2cpp_TypeInfo;
+extern TypeInfo FileWebRequest_t4028_il2cpp_TypeInfo;
 // System.Net.FileWebRequest
 #include "System_System_Net_FileWebRequest.h"
-extern TypeInfo FileWebRequestCreator_t4035_il2cpp_TypeInfo;
+extern TypeInfo FileWebRequestCreator_t4033_il2cpp_TypeInfo;
 // System.Net.FileWebRequestCreator
 #include "System_System_Net_FileWebRequestCreator.h"
-extern TypeInfo FileWebResponse_t4034_il2cpp_TypeInfo;
+extern TypeInfo FileWebResponse_t4032_il2cpp_TypeInfo;
 // System.Net.FileWebResponse
 #include "System_System_Net_FileWebResponse.h"
-extern TypeInfo FtpAsyncResult_t4037_il2cpp_TypeInfo;
+extern TypeInfo FtpAsyncResult_t4035_il2cpp_TypeInfo;
 // System.Net.FtpAsyncResult
 #include "System_System_Net_FtpAsyncResult.h"
-extern TypeInfo WriteDelegate_t4038_il2cpp_TypeInfo;
+extern TypeInfo WriteDelegate_t4036_il2cpp_TypeInfo;
 // System.Net.FtpDataStream/WriteDelegate
 #include "System_System_Net_FtpDataStream_WriteDelegate.h"
-extern TypeInfo ReadDelegate_t4039_il2cpp_TypeInfo;
+extern TypeInfo ReadDelegate_t4037_il2cpp_TypeInfo;
 // System.Net.FtpDataStream/ReadDelegate
 #include "System_System_Net_FtpDataStream_ReadDelegate.h"
-extern TypeInfo FtpDataStream_t4041_il2cpp_TypeInfo;
+extern TypeInfo FtpDataStream_t4039_il2cpp_TypeInfo;
 // System.Net.FtpDataStream
 #include "System_System_Net_FtpDataStream.h"
-extern TypeInfo FtpRequestCreator_t4042_il2cpp_TypeInfo;
+extern TypeInfo FtpRequestCreator_t4040_il2cpp_TypeInfo;
 // System.Net.FtpRequestCreator
 #include "System_System_Net_FtpRequestCreator.h"
-extern TypeInfo FtpStatus_t4043_il2cpp_TypeInfo;
+extern TypeInfo FtpStatus_t4041_il2cpp_TypeInfo;
 // System.Net.FtpStatus
 #include "System_System_Net_FtpStatus.h"
-extern TypeInfo FtpStatusCode_t4044_il2cpp_TypeInfo;
+extern TypeInfo FtpStatusCode_t4042_il2cpp_TypeInfo;
 // System.Net.FtpStatusCode
 #include "System_System_Net_FtpStatusCode.h"
-extern TypeInfo RequestState_t4045_il2cpp_TypeInfo;
+extern TypeInfo RequestState_t4043_il2cpp_TypeInfo;
 // System.Net.FtpWebRequest/RequestState
 #include "System_System_Net_FtpWebRequest_RequestState.h"
-extern TypeInfo FtpWebRequest_t4040_il2cpp_TypeInfo;
+extern TypeInfo FtpWebRequest_t4038_il2cpp_TypeInfo;
 // System.Net.FtpWebRequest
 #include "System_System_Net_FtpWebRequest.h"
-extern TypeInfo FtpWebResponse_t4036_il2cpp_TypeInfo;
+extern TypeInfo FtpWebResponse_t4034_il2cpp_TypeInfo;
 // System.Net.FtpWebResponse
 #include "System_System_Net_FtpWebResponse.h"
-extern TypeInfo GlobalProxySelection_t4049_il2cpp_TypeInfo;
+extern TypeInfo GlobalProxySelection_t4047_il2cpp_TypeInfo;
 // System.Net.GlobalProxySelection
 #include "System_System_Net_GlobalProxySelection.h"
-extern TypeInfo HttpRequestCreator_t4050_il2cpp_TypeInfo;
+extern TypeInfo HttpRequestCreator_t4048_il2cpp_TypeInfo;
 // System.Net.HttpRequestCreator
 #include "System_System_Net_HttpRequestCreator.h"
-extern TypeInfo HttpStatusCode_t4051_il2cpp_TypeInfo;
+extern TypeInfo HttpStatusCode_t4049_il2cpp_TypeInfo;
 // System.Net.HttpStatusCode
 #include "System_System_Net_HttpStatusCode.h"
-extern TypeInfo HttpVersion_t4052_il2cpp_TypeInfo;
+extern TypeInfo HttpVersion_t4050_il2cpp_TypeInfo;
 // System.Net.HttpVersion
 #include "System_System_Net_HttpVersion.h"
-extern TypeInfo HttpWebRequest_t3859_il2cpp_TypeInfo;
+extern TypeInfo HttpWebRequest_t3857_il2cpp_TypeInfo;
 // System.Net.HttpWebRequest
 #include "System_System_Net_HttpWebRequest.h"
-extern TypeInfo HttpWebResponse_t4055_il2cpp_TypeInfo;
+extern TypeInfo HttpWebResponse_t4053_il2cpp_TypeInfo;
 // System.Net.HttpWebResponse
 #include "System_System_Net_HttpWebResponse.h"
-extern TypeInfo CookieParser_t4059_il2cpp_TypeInfo;
+extern TypeInfo CookieParser_t4057_il2cpp_TypeInfo;
 // System.Net.CookieParser
 #include "System_System_Net_CookieParser.h"
-extern TypeInfo IAuthenticationModule_t4011_il2cpp_TypeInfo;
-extern TypeInfo ICertificatePolicy_t3938_il2cpp_TypeInfo;
-extern TypeInfo ICredentials_t3283_il2cpp_TypeInfo;
-extern TypeInfo ICredentialPolicy_t4009_il2cpp_TypeInfo;
-extern TypeInfo IPAddress_t4061_il2cpp_TypeInfo;
+extern TypeInfo IAuthenticationModule_t4009_il2cpp_TypeInfo;
+extern TypeInfo ICertificatePolicy_t3936_il2cpp_TypeInfo;
+extern TypeInfo ICredentials_t3281_il2cpp_TypeInfo;
+extern TypeInfo ICredentialPolicy_t4007_il2cpp_TypeInfo;
+extern TypeInfo IPAddress_t4059_il2cpp_TypeInfo;
 // System.Net.IPAddress
 #include "System_System_Net_IPAddress.h"
-extern TypeInfo IPEndPoint_t4048_il2cpp_TypeInfo;
+extern TypeInfo IPEndPoint_t4046_il2cpp_TypeInfo;
 // System.Net.IPEndPoint
 #include "System_System_Net_IPEndPoint.h"
-extern TypeInfo IPHostEntry_t4047_il2cpp_TypeInfo;
+extern TypeInfo IPHostEntry_t4045_il2cpp_TypeInfo;
 // System.Net.IPHostEntry
 #include "System_System_Net_IPHostEntry.h"
-extern TypeInfo IPv6Address_t4062_il2cpp_TypeInfo;
+extern TypeInfo IPv6Address_t4060_il2cpp_TypeInfo;
 // System.Net.IPv6Address
 #include "System_System_Net_IPv6Address.h"
-extern TypeInfo IWebProxy_t4033_il2cpp_TypeInfo;
-extern TypeInfo IWebRequestCreate_t4188_il2cpp_TypeInfo;
-extern TypeInfo NetworkCredential_t4046_il2cpp_TypeInfo;
+extern TypeInfo IWebProxy_t4031_il2cpp_TypeInfo;
+extern TypeInfo IWebRequestCreate_t4186_il2cpp_TypeInfo;
+extern TypeInfo NetworkCredential_t4044_il2cpp_TypeInfo;
 // System.Net.NetworkCredential
 #include "System_System_Net_NetworkCredential.h"
-extern TypeInfo ProtocolViolationException_t4063_il2cpp_TypeInfo;
+extern TypeInfo ProtocolViolationException_t4061_il2cpp_TypeInfo;
 // System.Net.ProtocolViolationException
 #include "System_System_Net_ProtocolViolationException.h"
-extern TypeInfo SecurityProtocolType_t4064_il2cpp_TypeInfo;
+extern TypeInfo SecurityProtocolType_t4062_il2cpp_TypeInfo;
 // System.Net.SecurityProtocolType
 #include "System_System_Net_SecurityProtocolType.h"
-extern TypeInfo ServicePoint_t3934_il2cpp_TypeInfo;
+extern TypeInfo ServicePoint_t3932_il2cpp_TypeInfo;
 // System.Net.ServicePoint
 #include "System_System_Net_ServicePoint.h"
-extern TypeInfo SPKey_t4066_il2cpp_TypeInfo;
+extern TypeInfo SPKey_t4064_il2cpp_TypeInfo;
 // System.Net.ServicePointManager/SPKey
 #include "System_System_Net_ServicePointManager_SPKey.h"
-extern TypeInfo ChainValidationHelper_t4067_il2cpp_TypeInfo;
+extern TypeInfo ChainValidationHelper_t4065_il2cpp_TypeInfo;
 // System.Net.ServicePointManager/ChainValidationHelper
 #include "System_System_Net_ServicePointManager_ChainValidationHelper.h"
-extern TypeInfo ServicePointManager_t3927_il2cpp_TypeInfo;
+extern TypeInfo ServicePointManager_t3925_il2cpp_TypeInfo;
 // System.Net.ServicePointManager
 #include "System_System_Net_ServicePointManager.h"
-extern TypeInfo SocketAddress_t4068_il2cpp_TypeInfo;
+extern TypeInfo SocketAddress_t4066_il2cpp_TypeInfo;
 // System.Net.SocketAddress
 #include "System_System_Net_SocketAddress.h"
-extern TypeInfo WebAsyncResult_t4056_il2cpp_TypeInfo;
+extern TypeInfo WebAsyncResult_t4054_il2cpp_TypeInfo;
 // System.Net.WebAsyncResult
 #include "System_System_Net_WebAsyncResult.h"
-extern TypeInfo ReadState_t4069_il2cpp_TypeInfo;
+extern TypeInfo ReadState_t4067_il2cpp_TypeInfo;
 // System.Net.ReadState
 #include "System_System_Net_ReadState.h"
-extern TypeInfo AbortHelper_t4070_il2cpp_TypeInfo;
+extern TypeInfo AbortHelper_t4068_il2cpp_TypeInfo;
 // System.Net.WebConnection/AbortHelper
 #include "System_System_Net_WebConnection_AbortHelper.h"
-extern TypeInfo WebConnection_t4058_il2cpp_TypeInfo;
+extern TypeInfo WebConnection_t4056_il2cpp_TypeInfo;
 // System.Net.WebConnection
 #include "System_System_Net_WebConnection.h"
-extern TypeInfo WebConnectionData_t4071_il2cpp_TypeInfo;
+extern TypeInfo WebConnectionData_t4069_il2cpp_TypeInfo;
 // System.Net.WebConnectionData
 #include "System_System_Net_WebConnectionData.h"
-extern TypeInfo WebConnectionGroup_t4072_il2cpp_TypeInfo;
+extern TypeInfo WebConnectionGroup_t4070_il2cpp_TypeInfo;
 // System.Net.WebConnectionGroup
 #include "System_System_Net_WebConnectionGroup.h"
-extern TypeInfo WebConnectionStream_t4054_il2cpp_TypeInfo;
+extern TypeInfo WebConnectionStream_t4052_il2cpp_TypeInfo;
 // System.Net.WebConnectionStream
 #include "System_System_Net_WebConnectionStream.h"
-extern TypeInfo WebException_t4073_il2cpp_TypeInfo;
+extern TypeInfo WebException_t4071_il2cpp_TypeInfo;
 // System.Net.WebException
 #include "System_System_Net_WebException.h"
-extern TypeInfo WebExceptionStatus_t4074_il2cpp_TypeInfo;
+extern TypeInfo WebExceptionStatus_t4072_il2cpp_TypeInfo;
 // System.Net.WebExceptionStatus
 #include "System_System_Net_WebExceptionStatus.h"
-extern TypeInfo WebHeaderCollection_t4016_il2cpp_TypeInfo;
+extern TypeInfo WebHeaderCollection_t4014_il2cpp_TypeInfo;
 // System.Net.WebHeaderCollection
 #include "System_System_Net_WebHeaderCollection.h"
-extern TypeInfo WebProxy_t4075_il2cpp_TypeInfo;
+extern TypeInfo WebProxy_t4073_il2cpp_TypeInfo;
 // System.Net.WebProxy
 #include "System_System_Net_WebProxy.h"
-extern TypeInfo WebRequest_t3301_il2cpp_TypeInfo;
+extern TypeInfo WebRequest_t3299_il2cpp_TypeInfo;
 // System.Net.WebRequest
 #include "System_System_Net_WebRequest.h"
-extern TypeInfo WebResponse_t3302_il2cpp_TypeInfo;
+extern TypeInfo WebResponse_t3300_il2cpp_TypeInfo;
 // System.Net.WebResponse
 #include "System_System_Net_WebResponse.h"
-extern TypeInfo SslProtocols_t4077_il2cpp_TypeInfo;
+extern TypeInfo SslProtocols_t4075_il2cpp_TypeInfo;
 // System.Security.Authentication.SslProtocols
 #include "System_System_Security_Authentication_SslProtocols.h"
-extern TypeInfo SecTrustResult_t4078_il2cpp_TypeInfo;
+extern TypeInfo SecTrustResult_t4076_il2cpp_TypeInfo;
 // Mono.Security.X509.OSX509Certificates/SecTrustResult
 #include "System_Mono_Security_X509_OSX509Certificates_SecTrustResult.h"
-extern TypeInfo OSX509Certificates_t4079_il2cpp_TypeInfo;
+extern TypeInfo OSX509Certificates_t4077_il2cpp_TypeInfo;
 // Mono.Security.X509.OSX509Certificates
 #include "System_Mono_Security_X509_OSX509Certificates.h"
-extern TypeInfo OpenFlags_t4080_il2cpp_TypeInfo;
+extern TypeInfo OpenFlags_t4078_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.OpenFlags
 #include "System_System_Security_Cryptography_X509Certificates_OpenFla.h"
-extern TypeInfo PublicKey_t4083_il2cpp_TypeInfo;
+extern TypeInfo PublicKey_t4081_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.PublicKey
 #include "System_System_Security_Cryptography_X509Certificates_PublicK.h"
-extern TypeInfo StoreLocation_t4084_il2cpp_TypeInfo;
+extern TypeInfo StoreLocation_t4082_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.StoreLocation
 #include "System_System_Security_Cryptography_X509Certificates_StoreLo.h"
-extern TypeInfo StoreName_t4085_il2cpp_TypeInfo;
+extern TypeInfo StoreName_t4083_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.StoreName
 #include "System_System_Security_Cryptography_X509Certificates_StoreNa.h"
-extern TypeInfo X500DistinguishedName_t4086_il2cpp_TypeInfo;
+extern TypeInfo X500DistinguishedName_t4084_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X500DistinguishedName
 #include "System_System_Security_Cryptography_X509Certificates_X500Dis.h"
-extern TypeInfo X500DistinguishedNameFlags_t4087_il2cpp_TypeInfo;
+extern TypeInfo X500DistinguishedNameFlags_t4085_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags
 #include "System_System_Security_Cryptography_X509Certificates_X500Dis_0.h"
-extern TypeInfo X509BasicConstraintsExtension_t4088_il2cpp_TypeInfo;
+extern TypeInfo X509BasicConstraintsExtension_t4086_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
 #include "System_System_Security_Cryptography_X509Certificates_X509Bas.h"
-extern TypeInfo X509Certificate2_t3936_il2cpp_TypeInfo;
+extern TypeInfo X509Certificate2_t3934_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509Certificate2
 #include "System_System_Security_Cryptography_X509Certificates_X509Cer_0.h"
-extern TypeInfo X509Certificate2Collection_t4091_il2cpp_TypeInfo;
+extern TypeInfo X509Certificate2Collection_t4089_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509Certificate2Collection
 #include "System_System_Security_Cryptography_X509Certificates_X509Cer_2.h"
-extern TypeInfo X509Certificate2Enumerator_t4092_il2cpp_TypeInfo;
+extern TypeInfo X509Certificate2Enumerator_t4090_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator
 #include "System_System_Security_Cryptography_X509Certificates_X509Cer_3.h"
-extern TypeInfo X509CertificateEnumerator_t3941_il2cpp_TypeInfo;
+extern TypeInfo X509CertificateEnumerator_t3939_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection/X509CertificateEnumerator
 #include "System_System_Security_Cryptography_X509Certificates_X509Cer_1.h"
-extern TypeInfo X509CertificateCollection_t3881_il2cpp_TypeInfo;
+extern TypeInfo X509CertificateCollection_t3879_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection
 #include "System_System_Security_Cryptography_X509Certificates_X509Cer.h"
-extern TypeInfo X509Chain_t3937_il2cpp_TypeInfo;
+extern TypeInfo X509Chain_t3935_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509Chain
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha.h"
-extern TypeInfo X509ChainElement_t4097_il2cpp_TypeInfo;
+extern TypeInfo X509ChainElement_t4095_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509ChainElement
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha_0.h"
-extern TypeInfo X509ChainElementCollection_t4093_il2cpp_TypeInfo;
+extern TypeInfo X509ChainElementCollection_t4091_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509ChainElementCollection
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha_2.h"
-extern TypeInfo X509ChainElementEnumerator_t4099_il2cpp_TypeInfo;
+extern TypeInfo X509ChainElementEnumerator_t4097_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha_3.h"
-extern TypeInfo X509ChainPolicy_t4094_il2cpp_TypeInfo;
+extern TypeInfo X509ChainPolicy_t4092_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509ChainPolicy
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha_4.h"
-extern TypeInfo X509ChainStatus_t4096_il2cpp_TypeInfo;
+extern TypeInfo X509ChainStatus_t4094_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509ChainStatus
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha_5.h"
-extern TypeInfo X509ChainStatusFlags_t4101_il2cpp_TypeInfo;
+extern TypeInfo X509ChainStatusFlags_t4099_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha_1.h"
-extern TypeInfo X509EnhancedKeyUsageExtension_t4102_il2cpp_TypeInfo;
+extern TypeInfo X509EnhancedKeyUsageExtension_t4100_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension
 #include "System_System_Security_Cryptography_X509Certificates_X509Enh.h"
-extern TypeInfo X509Extension_t4089_il2cpp_TypeInfo;
+extern TypeInfo X509Extension_t4087_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509Extension
 #include "System_System_Security_Cryptography_X509Certificates_X509Ext.h"
-extern TypeInfo X509ExtensionCollection_t4090_il2cpp_TypeInfo;
+extern TypeInfo X509ExtensionCollection_t4088_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509ExtensionCollection
 #include "System_System_Security_Cryptography_X509Certificates_X509Ext_0.h"
-extern TypeInfo X509ExtensionEnumerator_t4103_il2cpp_TypeInfo;
+extern TypeInfo X509ExtensionEnumerator_t4101_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator
 #include "System_System_Security_Cryptography_X509Certificates_X509Ext_1.h"
-extern TypeInfo X509FindType_t4104_il2cpp_TypeInfo;
+extern TypeInfo X509FindType_t4102_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509FindType
 #include "System_System_Security_Cryptography_X509Certificates_X509Fin.h"
-extern TypeInfo X509KeyUsageExtension_t4105_il2cpp_TypeInfo;
+extern TypeInfo X509KeyUsageExtension_t4103_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509KeyUsageExtension
 #include "System_System_Security_Cryptography_X509Certificates_X509Key_0.h"
-extern TypeInfo X509KeyUsageFlags_t4106_il2cpp_TypeInfo;
+extern TypeInfo X509KeyUsageFlags_t4104_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509KeyUsageFlags
 #include "System_System_Security_Cryptography_X509Certificates_X509Key.h"
-extern TypeInfo X509NameType_t4107_il2cpp_TypeInfo;
+extern TypeInfo X509NameType_t4105_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509NameType
 #include "System_System_Security_Cryptography_X509Certificates_X509Nam.h"
-extern TypeInfo X509RevocationFlag_t4108_il2cpp_TypeInfo;
+extern TypeInfo X509RevocationFlag_t4106_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509RevocationFlag
 #include "System_System_Security_Cryptography_X509Certificates_X509Rev.h"
-extern TypeInfo X509RevocationMode_t4109_il2cpp_TypeInfo;
+extern TypeInfo X509RevocationMode_t4107_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509RevocationMode
 #include "System_System_Security_Cryptography_X509Certificates_X509Rev_0.h"
-extern TypeInfo X509Store_t4098_il2cpp_TypeInfo;
+extern TypeInfo X509Store_t4096_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509Store
 #include "System_System_Security_Cryptography_X509Certificates_X509Sto.h"
-extern TypeInfo X509SubjectKeyIdentifierExtension_t4110_il2cpp_TypeInfo;
+extern TypeInfo X509SubjectKeyIdentifierExtension_t4108_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension
 #include "System_System_Security_Cryptography_X509Certificates_X509Sub.h"
-extern TypeInfo X509SubjectKeyIdentifierHashAlgorithm_t4111_il2cpp_TypeInfo;
+extern TypeInfo X509SubjectKeyIdentifierHashAlgorithm_t4109_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm
 #include "System_System_Security_Cryptography_X509Certificates_X509Sub_0.h"
-extern TypeInfo X509VerificationFlags_t4112_il2cpp_TypeInfo;
+extern TypeInfo X509VerificationFlags_t4110_il2cpp_TypeInfo;
 // System.Security.Cryptography.X509Certificates.X509VerificationFlags
 #include "System_System_Security_Cryptography_X509Certificates_X509Ver.h"
-extern TypeInfo AsnDecodeStatus_t4113_il2cpp_TypeInfo;
+extern TypeInfo AsnDecodeStatus_t4111_il2cpp_TypeInfo;
 // System.Security.Cryptography.AsnDecodeStatus
 #include "System_System_Security_Cryptography_AsnDecodeStatus.h"
-extern TypeInfo AsnEncodedData_t4081_il2cpp_TypeInfo;
+extern TypeInfo AsnEncodedData_t4079_il2cpp_TypeInfo;
 // System.Security.Cryptography.AsnEncodedData
 #include "System_System_Security_Cryptography_AsnEncodedData.h"
-extern TypeInfo Oid_t4082_il2cpp_TypeInfo;
+extern TypeInfo Oid_t4080_il2cpp_TypeInfo;
 // System.Security.Cryptography.Oid
 #include "System_System_Security_Cryptography_Oid.h"
-extern TypeInfo OidCollection_t4100_il2cpp_TypeInfo;
+extern TypeInfo OidCollection_t4098_il2cpp_TypeInfo;
 // System.Security.Cryptography.OidCollection
 #include "System_System_Security_Cryptography_OidCollection.h"
-extern TypeInfo OidEnumerator_t4114_il2cpp_TypeInfo;
+extern TypeInfo OidEnumerator_t4112_il2cpp_TypeInfo;
 // System.Security.Cryptography.OidEnumerator
 #include "System_System_Security_Cryptography_OidEnumerator.h"
-extern TypeInfo MatchAppendEvaluator_t4115_il2cpp_TypeInfo;
+extern TypeInfo MatchAppendEvaluator_t4113_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.BaseMachine/MatchAppendEvaluator
 #include "System_System_Text_RegularExpressions_BaseMachine_MatchAppen.h"
-extern TypeInfo BaseMachine_t4116_il2cpp_TypeInfo;
+extern TypeInfo BaseMachine_t4114_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.BaseMachine
 #include "System_System_Text_RegularExpressions_BaseMachine.h"
-extern TypeInfo Capture_t1436_il2cpp_TypeInfo;
+extern TypeInfo Capture_t1434_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Capture
 #include "System_System_Text_RegularExpressions_Capture.h"
-extern TypeInfo CaptureCollection_t1438_il2cpp_TypeInfo;
+extern TypeInfo CaptureCollection_t1436_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.CaptureCollection
 #include "System_System_Text_RegularExpressions_CaptureCollection.h"
-extern TypeInfo Group_t1435_il2cpp_TypeInfo;
+extern TypeInfo Group_t1433_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Group
 #include "System_System_Text_RegularExpressions_Group.h"
-extern TypeInfo GroupCollection_t1437_il2cpp_TypeInfo;
+extern TypeInfo GroupCollection_t1435_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.GroupCollection
 #include "System_System_Text_RegularExpressions_GroupCollection.h"
-extern TypeInfo Match_t1374_il2cpp_TypeInfo;
+extern TypeInfo Match_t1372_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Match
 #include "System_System_Text_RegularExpressions_Match.h"
-extern TypeInfo Enumerator_t4120_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t4118_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.MatchCollection/Enumerator
 #include "System_System_Text_RegularExpressions_MatchCollection_Enumer.h"
-extern TypeInfo MatchCollection_t3943_il2cpp_TypeInfo;
+extern TypeInfo MatchCollection_t3941_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.MatchCollection
 #include "System_System_Text_RegularExpressions_MatchCollection.h"
-extern TypeInfo Adapter_t4121_il2cpp_TypeInfo;
+extern TypeInfo Adapter_t4119_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Regex/Adapter
 #include "System_System_Text_RegularExpressions_Regex_Adapter.h"
-extern TypeInfo Regex_t787_il2cpp_TypeInfo;
+extern TypeInfo Regex_t785_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Regex
 #include "System_System_Text_RegularExpressions_Regex.h"
-extern TypeInfo RegexOptions_t4125_il2cpp_TypeInfo;
+extern TypeInfo RegexOptions_t4123_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.RegexOptions
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
-extern TypeInfo OpCode_t4126_il2cpp_TypeInfo;
+extern TypeInfo OpCode_t4124_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.OpCode
 #include "System_System_Text_RegularExpressions_OpCode.h"
-extern TypeInfo OpFlags_t4127_il2cpp_TypeInfo;
+extern TypeInfo OpFlags_t4125_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.OpFlags
 #include "System_System_Text_RegularExpressions_OpFlags.h"
-extern TypeInfo Position_t4128_il2cpp_TypeInfo;
+extern TypeInfo Position_t4126_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Position
 #include "System_System_Text_RegularExpressions_Position.h"
-extern TypeInfo IMachine_t4119_il2cpp_TypeInfo;
-extern TypeInfo IMachineFactory_t4123_il2cpp_TypeInfo;
-extern TypeInfo Key_t4129_il2cpp_TypeInfo;
+extern TypeInfo IMachine_t4117_il2cpp_TypeInfo;
+extern TypeInfo IMachineFactory_t4121_il2cpp_TypeInfo;
+extern TypeInfo Key_t4127_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.FactoryCache/Key
 #include "System_System_Text_RegularExpressions_FactoryCache_Key.h"
-extern TypeInfo FactoryCache_t4122_il2cpp_TypeInfo;
+extern TypeInfo FactoryCache_t4120_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.FactoryCache
 #include "System_System_Text_RegularExpressions_FactoryCache.h"
-extern TypeInfo Node_t4131_il2cpp_TypeInfo;
+extern TypeInfo Node_t4129_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.MRUList/Node
 #include "System_System_Text_RegularExpressions_MRUList_Node.h"
-extern TypeInfo MRUList_t4130_il2cpp_TypeInfo;
+extern TypeInfo MRUList_t4128_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.MRUList
 #include "System_System_Text_RegularExpressions_MRUList.h"
-extern TypeInfo Category_t4132_il2cpp_TypeInfo;
+extern TypeInfo Category_t4130_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Category
 #include "System_System_Text_RegularExpressions_Category.h"
-extern TypeInfo CategoryUtils_t4133_il2cpp_TypeInfo;
+extern TypeInfo CategoryUtils_t4131_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.CategoryUtils
 #include "System_System_Text_RegularExpressions_CategoryUtils.h"
-extern TypeInfo LinkRef_t4134_il2cpp_TypeInfo;
+extern TypeInfo LinkRef_t4132_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.LinkRef
 #include "System_System_Text_RegularExpressions_LinkRef.h"
-extern TypeInfo ICompiler_t4189_il2cpp_TypeInfo;
-extern TypeInfo InterpreterFactory_t4135_il2cpp_TypeInfo;
+extern TypeInfo ICompiler_t4187_il2cpp_TypeInfo;
+extern TypeInfo InterpreterFactory_t4133_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.InterpreterFactory
 #include "System_System_Text_RegularExpressions_InterpreterFactory.h"
-extern TypeInfo Link_t4136_il2cpp_TypeInfo;
+extern TypeInfo Link_t4134_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.PatternCompiler/PatternLinkStack/Link
 #include "System_System_Text_RegularExpressions_PatternCompiler_Patter.h"
-extern TypeInfo PatternLinkStack_t4137_il2cpp_TypeInfo;
+extern TypeInfo PatternLinkStack_t4135_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.PatternCompiler/PatternLinkStack
 #include "System_System_Text_RegularExpressions_PatternCompiler_Patter_0.h"
-extern TypeInfo PatternCompiler_t4139_il2cpp_TypeInfo;
+extern TypeInfo PatternCompiler_t4137_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.PatternCompiler
 #include "System_System_Text_RegularExpressions_PatternCompiler.h"
-extern TypeInfo LinkStack_t4138_il2cpp_TypeInfo;
+extern TypeInfo LinkStack_t4136_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.LinkStack
 #include "System_System_Text_RegularExpressions_LinkStack.h"
-extern TypeInfo Mark_t4140_il2cpp_TypeInfo;
+extern TypeInfo Mark_t4138_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Mark
 #include "System_System_Text_RegularExpressions_Mark.h"
-extern TypeInfo IntStack_t4141_il2cpp_TypeInfo;
+extern TypeInfo IntStack_t4139_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Interpreter/IntStack
 #include "System_System_Text_RegularExpressions_Interpreter_IntStack.h"
-extern TypeInfo RepeatContext_t4142_il2cpp_TypeInfo;
+extern TypeInfo RepeatContext_t4140_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Interpreter/RepeatContext
 #include "System_System_Text_RegularExpressions_Interpreter_RepeatCont.h"
-extern TypeInfo Mode_t4143_il2cpp_TypeInfo;
+extern TypeInfo Mode_t4141_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Interpreter/Mode
 #include "System_System_Text_RegularExpressions_Interpreter_Mode.h"
-extern TypeInfo Interpreter_t4146_il2cpp_TypeInfo;
+extern TypeInfo Interpreter_t4144_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Interpreter
 #include "System_System_Text_RegularExpressions_Interpreter.h"
-extern TypeInfo Interval_t4147_il2cpp_TypeInfo;
+extern TypeInfo Interval_t4145_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Interval
 #include "System_System_Text_RegularExpressions_Interval.h"
-extern TypeInfo Enumerator_t4148_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t4146_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.IntervalCollection/Enumerator
 #include "System_System_Text_RegularExpressions_IntervalCollection_Enu.h"
-extern TypeInfo CostDelegate_t4149_il2cpp_TypeInfo;
+extern TypeInfo CostDelegate_t4147_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.IntervalCollection/CostDelegate
 #include "System_System_Text_RegularExpressions_IntervalCollection_Cos.h"
-extern TypeInfo IntervalCollection_t4150_il2cpp_TypeInfo;
+extern TypeInfo IntervalCollection_t4148_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.IntervalCollection
 #include "System_System_Text_RegularExpressions_IntervalCollection.h"
-extern TypeInfo Parser_t4151_il2cpp_TypeInfo;
+extern TypeInfo Parser_t4149_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.Parser
 #include "System_System_Text_RegularExpressions_Syntax_Parser.h"
-extern TypeInfo QuickSearch_t4144_il2cpp_TypeInfo;
+extern TypeInfo QuickSearch_t4142_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.QuickSearch
 #include "System_System_Text_RegularExpressions_QuickSearch.h"
-extern TypeInfo ReplacementEvaluator_t4152_il2cpp_TypeInfo;
+extern TypeInfo ReplacementEvaluator_t4150_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.ReplacementEvaluator
 #include "System_System_Text_RegularExpressions_ReplacementEvaluator.h"
-extern TypeInfo ExpressionCollection_t4153_il2cpp_TypeInfo;
+extern TypeInfo ExpressionCollection_t4151_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.ExpressionCollection
 #include "System_System_Text_RegularExpressions_Syntax_ExpressionColle.h"
-extern TypeInfo Expression_t4154_il2cpp_TypeInfo;
+extern TypeInfo Expression_t4152_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.Expression
 #include "System_System_Text_RegularExpressions_Syntax_Expression.h"
-extern TypeInfo CompositeExpression_t4155_il2cpp_TypeInfo;
+extern TypeInfo CompositeExpression_t4153_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.CompositeExpression
 #include "System_System_Text_RegularExpressions_Syntax_CompositeExpres.h"
-extern TypeInfo Group_t4156_il2cpp_TypeInfo;
+extern TypeInfo Group_t4154_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.Group
 #include "System_System_Text_RegularExpressions_Syntax_Group.h"
-extern TypeInfo RegularExpression_t4157_il2cpp_TypeInfo;
+extern TypeInfo RegularExpression_t4155_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.RegularExpression
 #include "System_System_Text_RegularExpressions_Syntax_RegularExpressi.h"
-extern TypeInfo CapturingGroup_t4158_il2cpp_TypeInfo;
+extern TypeInfo CapturingGroup_t4156_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.CapturingGroup
 #include "System_System_Text_RegularExpressions_Syntax_CapturingGroup.h"
-extern TypeInfo BalancingGroup_t4159_il2cpp_TypeInfo;
+extern TypeInfo BalancingGroup_t4157_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.BalancingGroup
 #include "System_System_Text_RegularExpressions_Syntax_BalancingGroup.h"
-extern TypeInfo NonBacktrackingGroup_t4160_il2cpp_TypeInfo;
+extern TypeInfo NonBacktrackingGroup_t4158_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.NonBacktrackingGroup
 #include "System_System_Text_RegularExpressions_Syntax_NonBacktracking.h"
-extern TypeInfo Repetition_t4161_il2cpp_TypeInfo;
+extern TypeInfo Repetition_t4159_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.Repetition
 #include "System_System_Text_RegularExpressions_Syntax_Repetition.h"
-extern TypeInfo Assertion_t4162_il2cpp_TypeInfo;
+extern TypeInfo Assertion_t4160_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.Assertion
 #include "System_System_Text_RegularExpressions_Syntax_Assertion.h"
-extern TypeInfo CaptureAssertion_t4165_il2cpp_TypeInfo;
+extern TypeInfo CaptureAssertion_t4163_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.CaptureAssertion
 #include "System_System_Text_RegularExpressions_Syntax_CaptureAssertio.h"
-extern TypeInfo ExpressionAssertion_t4163_il2cpp_TypeInfo;
+extern TypeInfo ExpressionAssertion_t4161_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.ExpressionAssertion
 #include "System_System_Text_RegularExpressions_Syntax_ExpressionAsser.h"
-extern TypeInfo Alternation_t4166_il2cpp_TypeInfo;
+extern TypeInfo Alternation_t4164_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.Alternation
 #include "System_System_Text_RegularExpressions_Syntax_Alternation.h"
-extern TypeInfo Literal_t4164_il2cpp_TypeInfo;
+extern TypeInfo Literal_t4162_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.Literal
 #include "System_System_Text_RegularExpressions_Syntax_Literal.h"
-extern TypeInfo PositionAssertion_t4167_il2cpp_TypeInfo;
+extern TypeInfo PositionAssertion_t4165_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.PositionAssertion
 #include "System_System_Text_RegularExpressions_Syntax_PositionAsserti.h"
-extern TypeInfo Reference_t4168_il2cpp_TypeInfo;
+extern TypeInfo Reference_t4166_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.Reference
 #include "System_System_Text_RegularExpressions_Syntax_Reference.h"
-extern TypeInfo BackslashNumber_t4169_il2cpp_TypeInfo;
+extern TypeInfo BackslashNumber_t4167_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.BackslashNumber
 #include "System_System_Text_RegularExpressions_Syntax_BackslashNumber.h"
-extern TypeInfo CharacterClass_t4171_il2cpp_TypeInfo;
+extern TypeInfo CharacterClass_t4169_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.CharacterClass
 #include "System_System_Text_RegularExpressions_Syntax_CharacterClass.h"
-extern TypeInfo AnchorInfo_t4172_il2cpp_TypeInfo;
+extern TypeInfo AnchorInfo_t4170_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.Syntax.AnchorInfo
 #include "System_System_Text_RegularExpressions_Syntax_AnchorInfo.h"
-extern TypeInfo DefaultUriParser_t4173_il2cpp_TypeInfo;
+extern TypeInfo DefaultUriParser_t4171_il2cpp_TypeInfo;
 // System.DefaultUriParser
 #include "System_System_DefaultUriParser.h"
-extern TypeInfo GenericUriParser_t4175_il2cpp_TypeInfo;
+extern TypeInfo GenericUriParser_t4173_il2cpp_TypeInfo;
 // System.GenericUriParser
 #include "System_System_GenericUriParser.h"
-extern TypeInfo UriScheme_t4176_il2cpp_TypeInfo;
+extern TypeInfo UriScheme_t4174_il2cpp_TypeInfo;
 // System.Uri/UriScheme
 #include "System_System_Uri_UriScheme.h"
-extern TypeInfo Uri_t757_il2cpp_TypeInfo;
+extern TypeInfo Uri_t755_il2cpp_TypeInfo;
 // System.Uri
 #include "System_System_Uri.h"
-extern TypeInfo UriFormatException_t3294_il2cpp_TypeInfo;
+extern TypeInfo UriFormatException_t3292_il2cpp_TypeInfo;
 // System.UriFormatException
 #include "System_System_UriFormatException.h"
-extern TypeInfo UriHostNameType_t4178_il2cpp_TypeInfo;
+extern TypeInfo UriHostNameType_t4176_il2cpp_TypeInfo;
 // System.UriHostNameType
 #include "System_System_UriHostNameType.h"
-extern TypeInfo UriKind_t4179_il2cpp_TypeInfo;
+extern TypeInfo UriKind_t4177_il2cpp_TypeInfo;
 // System.UriKind
 #include "System_System_UriKind.h"
-extern TypeInfo UriParser_t4174_il2cpp_TypeInfo;
+extern TypeInfo UriParser_t4172_il2cpp_TypeInfo;
 // System.UriParser
 #include "System_System_UriParser.h"
-extern TypeInfo UriPartial_t4180_il2cpp_TypeInfo;
+extern TypeInfo UriPartial_t4178_il2cpp_TypeInfo;
 // System.UriPartial
 #include "System_System_UriPartial.h"
-extern TypeInfo UriTypeConverter_t4181_il2cpp_TypeInfo;
+extern TypeInfo UriTypeConverter_t4179_il2cpp_TypeInfo;
 // System.UriTypeConverter
 #include "System_System_UriTypeConverter.h"
-extern TypeInfo PropertyChangedEventHandler_t1401_il2cpp_TypeInfo;
+extern TypeInfo PropertyChangedEventHandler_t1399_il2cpp_TypeInfo;
 // System.ComponentModel.PropertyChangedEventHandler
 #include "System_System_ComponentModel_PropertyChangedEventHandler.h"
-extern TypeInfo LocalCertificateSelectionCallback_t3986_il2cpp_TypeInfo;
+extern TypeInfo LocalCertificateSelectionCallback_t3984_il2cpp_TypeInfo;
 // System.Net.Security.LocalCertificateSelectionCallback
 #include "System_System_Net_Security_LocalCertificateSelectionCallback.h"
-extern TypeInfo RemoteCertificateValidationCallback_t3935_il2cpp_TypeInfo;
+extern TypeInfo RemoteCertificateValidationCallback_t3933_il2cpp_TypeInfo;
 // System.Net.Security.RemoteCertificateValidationCallback
 #include "System_System_Net_Security_RemoteCertificateValidationCallba.h"
-extern TypeInfo BindIPEndPoint_t4065_il2cpp_TypeInfo;
+extern TypeInfo BindIPEndPoint_t4063_il2cpp_TypeInfo;
 // System.Net.BindIPEndPoint
 #include "System_System_Net_BindIPEndPoint.h"
-extern TypeInfo HttpContinueDelegate_t4053_il2cpp_TypeInfo;
+extern TypeInfo HttpContinueDelegate_t4051_il2cpp_TypeInfo;
 // System.Net.HttpContinueDelegate
 #include "System_System_Net_HttpContinueDelegate.h"
-extern TypeInfo MatchEvaluator_t1179_il2cpp_TypeInfo;
+extern TypeInfo MatchEvaluator_t1177_il2cpp_TypeInfo;
 // System.Text.RegularExpressions.MatchEvaluator
 #include "System_System_Text_RegularExpressions_MatchEvaluator.h"
-extern TypeInfo U24ArrayTypeU2416_t4182_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2416_t4180_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$16
 #include "System_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU2416.h"
-extern TypeInfo U24ArrayTypeU24128_t4183_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU24128_t4181_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$128
 #include "System_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU24128.h"
-extern TypeInfo U24ArrayTypeU2412_t4184_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2412_t4182_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$12
 #include "System_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU2412.h"
-extern TypeInfo U3CPrivateImplementationDetailsU3E_t4185_il2cpp_TypeInfo;
+extern TypeInfo U3CPrivateImplementationDetailsU3E_t4183_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>
 #include "System_U3CPrivateImplementationDetailsU3E.h"
 #include <map>
@@ -759,270 +759,270 @@ struct TypeInfo;
 struct MethodInfo;
 TypeInfo* g_System_Assembly_Types[265] = 
 {
-	&U3CModuleU3E_t3948_il2cpp_TypeInfo,
-	&Locale_t3949_il2cpp_TypeInfo,
-	&MonoTODOAttribute_t3950_il2cpp_TypeInfo,
-	&GeneratedCodeAttribute_t2969_il2cpp_TypeInfo,
-	&Enumerator_t4204_il2cpp_TypeInfo,
-	&LinkedList_1_t4203_il2cpp_TypeInfo,
-	&LinkedListNode_1_t4205_il2cpp_TypeInfo,
-	&Enumerator_t4207_il2cpp_TypeInfo,
-	&Queue_1_t4206_il2cpp_TypeInfo,
-	&INodeHelper_1_t4208_il2cpp_TypeInfo,
-	&Node_t3951_il2cpp_TypeInfo,
-	&NodeEnumerator_t3954_il2cpp_TypeInfo,
-	&RBTree_t3952_il2cpp_TypeInfo,
-	&Node_t4210_il2cpp_TypeInfo,
-	&NodeHelper_t4211_il2cpp_TypeInfo,
+	&U3CModuleU3E_t3946_il2cpp_TypeInfo,
+	&Locale_t3947_il2cpp_TypeInfo,
+	&MonoTODOAttribute_t3948_il2cpp_TypeInfo,
+	&GeneratedCodeAttribute_t2967_il2cpp_TypeInfo,
+	&Enumerator_t4202_il2cpp_TypeInfo,
+	&LinkedList_1_t4201_il2cpp_TypeInfo,
+	&LinkedListNode_1_t4203_il2cpp_TypeInfo,
+	&Enumerator_t4205_il2cpp_TypeInfo,
+	&Queue_1_t4204_il2cpp_TypeInfo,
+	&INodeHelper_1_t4206_il2cpp_TypeInfo,
+	&Node_t3949_il2cpp_TypeInfo,
+	&NodeEnumerator_t3952_il2cpp_TypeInfo,
+	&RBTree_t3950_il2cpp_TypeInfo,
+	&Node_t4208_il2cpp_TypeInfo,
+	&NodeHelper_t4209_il2cpp_TypeInfo,
+	&Enumerator_t4211_il2cpp_TypeInfo,
+	&ValueCollection_t4210_il2cpp_TypeInfo,
 	&Enumerator_t4213_il2cpp_TypeInfo,
-	&ValueCollection_t4212_il2cpp_TypeInfo,
-	&Enumerator_t4215_il2cpp_TypeInfo,
-	&KeyCollection_t4214_il2cpp_TypeInfo,
+	&KeyCollection_t4212_il2cpp_TypeInfo,
+	&Enumerator_t4214_il2cpp_TypeInfo,
+	&SortedDictionary_2_t4207_il2cpp_TypeInfo,
 	&Enumerator_t4216_il2cpp_TypeInfo,
-	&SortedDictionary_2_t4209_il2cpp_TypeInfo,
-	&Enumerator_t4218_il2cpp_TypeInfo,
-	&Stack_1_t4217_il2cpp_TypeInfo,
-	&HybridDictionary_t3956_il2cpp_TypeInfo,
-	&DictionaryNode_t3957_il2cpp_TypeInfo,
-	&DictionaryNodeEnumerator_t3958_il2cpp_TypeInfo,
-	&DictionaryNodeCollectionEnumerator_t3959_il2cpp_TypeInfo,
-	&DictionaryNodeCollection_t3960_il2cpp_TypeInfo,
-	&ListDictionary_t3171_il2cpp_TypeInfo,
-	&_Item_t3962_il2cpp_TypeInfo,
-	&_KeysEnumerator_t3964_il2cpp_TypeInfo,
-	&KeysCollection_t3965_il2cpp_TypeInfo,
-	&NameObjectCollectionBase_t3963_il2cpp_TypeInfo,
-	&NameValueCollection_t3968_il2cpp_TypeInfo,
-	&DefaultValueAttribute_t2966_il2cpp_TypeInfo,
-	&EditorBrowsableAttribute_t2195_il2cpp_TypeInfo,
-	&EditorBrowsableState_t3969_il2cpp_TypeInfo,
-	&INotifyPropertyChanged_t2498_il2cpp_TypeInfo,
-	&PropertyChangedEventArgs_t1507_il2cpp_TypeInfo,
-	&TypeConverter_t3970_il2cpp_TypeInfo,
-	&TypeConverterAttribute_t3971_il2cpp_TypeInfo,
-	&Win32Exception_t3972_il2cpp_TypeInfo,
-	&CompressionMode_t3974_il2cpp_TypeInfo,
-	&UnmanagedReadOrWrite_t3975_il2cpp_TypeInfo,
-	&ReadMethod_t3976_il2cpp_TypeInfo,
-	&WriteMethod_t3977_il2cpp_TypeInfo,
-	&DeflateStream_t3978_il2cpp_TypeInfo,
-	&GZipStream_t3980_il2cpp_TypeInfo,
-	&AuthenticatedStream_t3981_il2cpp_TypeInfo,
-	&AuthenticationLevel_t3982_il2cpp_TypeInfo,
-	&SslPolicyErrors_t3983_il2cpp_TypeInfo,
-	&U3CBeginAuthenticateAsClientU3Ec__AnonStorey7_t3985_il2cpp_TypeInfo,
-	&SslStream_t3984_il2cpp_TypeInfo,
-	&AddressFamily_t3987_il2cpp_TypeInfo,
-	&LingerOption_t3988_il2cpp_TypeInfo,
-	&MulticastOption_t3989_il2cpp_TypeInfo,
-	&NetworkStream_t3991_il2cpp_TypeInfo,
-	&ProtocolType_t3992_il2cpp_TypeInfo,
-	&SelectMode_t3993_il2cpp_TypeInfo,
-	&SocketOperation_t3994_il2cpp_TypeInfo,
-	&SocketAsyncResult_t3998_il2cpp_TypeInfo,
-	&Worker_t3999_il2cpp_TypeInfo,
-	&SocketAsyncCall_t4000_il2cpp_TypeInfo,
-	&Socket_t3990_il2cpp_TypeInfo,
-	&SocketError_t4002_il2cpp_TypeInfo,
-	&SocketException_t4003_il2cpp_TypeInfo,
-	&SocketFlags_t4004_il2cpp_TypeInfo,
-	&SocketOptionLevel_t4005_il2cpp_TypeInfo,
-	&SocketOptionName_t4006_il2cpp_TypeInfo,
-	&SocketShutdown_t4007_il2cpp_TypeInfo,
-	&SocketType_t4008_il2cpp_TypeInfo,
-	&AuthenticationManager_t4010_il2cpp_TypeInfo,
-	&Authorization_t4012_il2cpp_TypeInfo,
-	&BasicClient_t4013_il2cpp_TypeInfo,
-	&State_t4014_il2cpp_TypeInfo,
-	&Chunk_t4015_il2cpp_TypeInfo,
-	&ChunkStream_t4017_il2cpp_TypeInfo,
-	&Cookie_t4018_il2cpp_TypeInfo,
-	&CookieCollectionComparer_t4019_il2cpp_TypeInfo,
-	&CookieCollection_t4021_il2cpp_TypeInfo,
-	&CookieContainer_t4022_il2cpp_TypeInfo,
-	&CookieException_t4023_il2cpp_TypeInfo,
-	&DecompressionMethods_t4024_il2cpp_TypeInfo,
-	&DefaultCertificatePolicy_t4025_il2cpp_TypeInfo,
-	&DigestHeaderParser_t4026_il2cpp_TypeInfo,
-	&DigestSession_t4027_il2cpp_TypeInfo,
-	&DigestClient_t4028_il2cpp_TypeInfo,
-	&Dns_t4029_il2cpp_TypeInfo,
-	&EndPoint_t3995_il2cpp_TypeInfo,
-	&FileWebStream_t4031_il2cpp_TypeInfo,
-	&GetResponseCallback_t4032_il2cpp_TypeInfo,
-	&FileWebRequest_t4030_il2cpp_TypeInfo,
-	&FileWebRequestCreator_t4035_il2cpp_TypeInfo,
-	&FileWebResponse_t4034_il2cpp_TypeInfo,
-	&FtpAsyncResult_t4037_il2cpp_TypeInfo,
-	&WriteDelegate_t4038_il2cpp_TypeInfo,
-	&ReadDelegate_t4039_il2cpp_TypeInfo,
-	&FtpDataStream_t4041_il2cpp_TypeInfo,
-	&FtpRequestCreator_t4042_il2cpp_TypeInfo,
-	&FtpStatus_t4043_il2cpp_TypeInfo,
-	&FtpStatusCode_t4044_il2cpp_TypeInfo,
-	&RequestState_t4045_il2cpp_TypeInfo,
-	&FtpWebRequest_t4040_il2cpp_TypeInfo,
-	&FtpWebResponse_t4036_il2cpp_TypeInfo,
-	&GlobalProxySelection_t4049_il2cpp_TypeInfo,
-	&HttpRequestCreator_t4050_il2cpp_TypeInfo,
-	&HttpStatusCode_t4051_il2cpp_TypeInfo,
-	&HttpVersion_t4052_il2cpp_TypeInfo,
-	&HttpWebRequest_t3859_il2cpp_TypeInfo,
-	&HttpWebResponse_t4055_il2cpp_TypeInfo,
-	&CookieParser_t4059_il2cpp_TypeInfo,
-	&IAuthenticationModule_t4011_il2cpp_TypeInfo,
-	&ICertificatePolicy_t3938_il2cpp_TypeInfo,
-	&ICredentials_t3283_il2cpp_TypeInfo,
-	&ICredentialPolicy_t4009_il2cpp_TypeInfo,
-	&IPAddress_t4061_il2cpp_TypeInfo,
-	&IPEndPoint_t4048_il2cpp_TypeInfo,
-	&IPHostEntry_t4047_il2cpp_TypeInfo,
-	&IPv6Address_t4062_il2cpp_TypeInfo,
-	&IWebProxy_t4033_il2cpp_TypeInfo,
-	&IWebRequestCreate_t4188_il2cpp_TypeInfo,
-	&NetworkCredential_t4046_il2cpp_TypeInfo,
-	&ProtocolViolationException_t4063_il2cpp_TypeInfo,
-	&SecurityProtocolType_t4064_il2cpp_TypeInfo,
-	&ServicePoint_t3934_il2cpp_TypeInfo,
-	&SPKey_t4066_il2cpp_TypeInfo,
-	&ChainValidationHelper_t4067_il2cpp_TypeInfo,
-	&ServicePointManager_t3927_il2cpp_TypeInfo,
-	&SocketAddress_t4068_il2cpp_TypeInfo,
-	&WebAsyncResult_t4056_il2cpp_TypeInfo,
-	&ReadState_t4069_il2cpp_TypeInfo,
-	&AbortHelper_t4070_il2cpp_TypeInfo,
-	&WebConnection_t4058_il2cpp_TypeInfo,
-	&WebConnectionData_t4071_il2cpp_TypeInfo,
-	&WebConnectionGroup_t4072_il2cpp_TypeInfo,
-	&WebConnectionStream_t4054_il2cpp_TypeInfo,
-	&WebException_t4073_il2cpp_TypeInfo,
-	&WebExceptionStatus_t4074_il2cpp_TypeInfo,
-	&WebHeaderCollection_t4016_il2cpp_TypeInfo,
-	&WebProxy_t4075_il2cpp_TypeInfo,
-	&WebRequest_t3301_il2cpp_TypeInfo,
-	&WebResponse_t3302_il2cpp_TypeInfo,
-	&SslProtocols_t4077_il2cpp_TypeInfo,
-	&SecTrustResult_t4078_il2cpp_TypeInfo,
-	&OSX509Certificates_t4079_il2cpp_TypeInfo,
-	&OpenFlags_t4080_il2cpp_TypeInfo,
-	&PublicKey_t4083_il2cpp_TypeInfo,
-	&StoreLocation_t4084_il2cpp_TypeInfo,
-	&StoreName_t4085_il2cpp_TypeInfo,
-	&X500DistinguishedName_t4086_il2cpp_TypeInfo,
-	&X500DistinguishedNameFlags_t4087_il2cpp_TypeInfo,
-	&X509BasicConstraintsExtension_t4088_il2cpp_TypeInfo,
-	&X509Certificate2_t3936_il2cpp_TypeInfo,
-	&X509Certificate2Collection_t4091_il2cpp_TypeInfo,
-	&X509Certificate2Enumerator_t4092_il2cpp_TypeInfo,
-	&X509CertificateEnumerator_t3941_il2cpp_TypeInfo,
-	&X509CertificateCollection_t3881_il2cpp_TypeInfo,
-	&X509Chain_t3937_il2cpp_TypeInfo,
-	&X509ChainElement_t4097_il2cpp_TypeInfo,
-	&X509ChainElementCollection_t4093_il2cpp_TypeInfo,
-	&X509ChainElementEnumerator_t4099_il2cpp_TypeInfo,
-	&X509ChainPolicy_t4094_il2cpp_TypeInfo,
-	&X509ChainStatus_t4096_il2cpp_TypeInfo,
-	&X509ChainStatusFlags_t4101_il2cpp_TypeInfo,
-	&X509EnhancedKeyUsageExtension_t4102_il2cpp_TypeInfo,
-	&X509Extension_t4089_il2cpp_TypeInfo,
-	&X509ExtensionCollection_t4090_il2cpp_TypeInfo,
-	&X509ExtensionEnumerator_t4103_il2cpp_TypeInfo,
-	&X509FindType_t4104_il2cpp_TypeInfo,
-	&X509KeyUsageExtension_t4105_il2cpp_TypeInfo,
-	&X509KeyUsageFlags_t4106_il2cpp_TypeInfo,
-	&X509NameType_t4107_il2cpp_TypeInfo,
-	&X509RevocationFlag_t4108_il2cpp_TypeInfo,
-	&X509RevocationMode_t4109_il2cpp_TypeInfo,
-	&X509Store_t4098_il2cpp_TypeInfo,
-	&X509SubjectKeyIdentifierExtension_t4110_il2cpp_TypeInfo,
-	&X509SubjectKeyIdentifierHashAlgorithm_t4111_il2cpp_TypeInfo,
-	&X509VerificationFlags_t4112_il2cpp_TypeInfo,
-	&AsnDecodeStatus_t4113_il2cpp_TypeInfo,
-	&AsnEncodedData_t4081_il2cpp_TypeInfo,
-	&Oid_t4082_il2cpp_TypeInfo,
-	&OidCollection_t4100_il2cpp_TypeInfo,
-	&OidEnumerator_t4114_il2cpp_TypeInfo,
-	&MatchAppendEvaluator_t4115_il2cpp_TypeInfo,
-	&BaseMachine_t4116_il2cpp_TypeInfo,
-	&Capture_t1436_il2cpp_TypeInfo,
-	&CaptureCollection_t1438_il2cpp_TypeInfo,
-	&Group_t1435_il2cpp_TypeInfo,
-	&GroupCollection_t1437_il2cpp_TypeInfo,
-	&Match_t1374_il2cpp_TypeInfo,
-	&Enumerator_t4120_il2cpp_TypeInfo,
-	&MatchCollection_t3943_il2cpp_TypeInfo,
-	&Adapter_t4121_il2cpp_TypeInfo,
-	&Regex_t787_il2cpp_TypeInfo,
-	&RegexOptions_t4125_il2cpp_TypeInfo,
-	&OpCode_t4126_il2cpp_TypeInfo,
-	&OpFlags_t4127_il2cpp_TypeInfo,
-	&Position_t4128_il2cpp_TypeInfo,
-	&IMachine_t4119_il2cpp_TypeInfo,
-	&IMachineFactory_t4123_il2cpp_TypeInfo,
-	&Key_t4129_il2cpp_TypeInfo,
-	&FactoryCache_t4122_il2cpp_TypeInfo,
-	&Node_t4131_il2cpp_TypeInfo,
-	&MRUList_t4130_il2cpp_TypeInfo,
-	&Category_t4132_il2cpp_TypeInfo,
-	&CategoryUtils_t4133_il2cpp_TypeInfo,
-	&LinkRef_t4134_il2cpp_TypeInfo,
-	&ICompiler_t4189_il2cpp_TypeInfo,
-	&InterpreterFactory_t4135_il2cpp_TypeInfo,
-	&Link_t4136_il2cpp_TypeInfo,
-	&PatternLinkStack_t4137_il2cpp_TypeInfo,
-	&PatternCompiler_t4139_il2cpp_TypeInfo,
-	&LinkStack_t4138_il2cpp_TypeInfo,
-	&Mark_t4140_il2cpp_TypeInfo,
-	&IntStack_t4141_il2cpp_TypeInfo,
-	&RepeatContext_t4142_il2cpp_TypeInfo,
-	&Mode_t4143_il2cpp_TypeInfo,
-	&Interpreter_t4146_il2cpp_TypeInfo,
-	&Interval_t4147_il2cpp_TypeInfo,
-	&Enumerator_t4148_il2cpp_TypeInfo,
-	&CostDelegate_t4149_il2cpp_TypeInfo,
-	&IntervalCollection_t4150_il2cpp_TypeInfo,
-	&Parser_t4151_il2cpp_TypeInfo,
-	&QuickSearch_t4144_il2cpp_TypeInfo,
-	&ReplacementEvaluator_t4152_il2cpp_TypeInfo,
-	&ExpressionCollection_t4153_il2cpp_TypeInfo,
-	&Expression_t4154_il2cpp_TypeInfo,
-	&CompositeExpression_t4155_il2cpp_TypeInfo,
-	&Group_t4156_il2cpp_TypeInfo,
-	&RegularExpression_t4157_il2cpp_TypeInfo,
-	&CapturingGroup_t4158_il2cpp_TypeInfo,
-	&BalancingGroup_t4159_il2cpp_TypeInfo,
-	&NonBacktrackingGroup_t4160_il2cpp_TypeInfo,
-	&Repetition_t4161_il2cpp_TypeInfo,
-	&Assertion_t4162_il2cpp_TypeInfo,
-	&CaptureAssertion_t4165_il2cpp_TypeInfo,
-	&ExpressionAssertion_t4163_il2cpp_TypeInfo,
-	&Alternation_t4166_il2cpp_TypeInfo,
-	&Literal_t4164_il2cpp_TypeInfo,
-	&PositionAssertion_t4167_il2cpp_TypeInfo,
-	&Reference_t4168_il2cpp_TypeInfo,
-	&BackslashNumber_t4169_il2cpp_TypeInfo,
-	&CharacterClass_t4171_il2cpp_TypeInfo,
-	&AnchorInfo_t4172_il2cpp_TypeInfo,
-	&DefaultUriParser_t4173_il2cpp_TypeInfo,
-	&GenericUriParser_t4175_il2cpp_TypeInfo,
-	&UriScheme_t4176_il2cpp_TypeInfo,
-	&Uri_t757_il2cpp_TypeInfo,
-	&UriFormatException_t3294_il2cpp_TypeInfo,
-	&UriHostNameType_t4178_il2cpp_TypeInfo,
-	&UriKind_t4179_il2cpp_TypeInfo,
-	&UriParser_t4174_il2cpp_TypeInfo,
-	&UriPartial_t4180_il2cpp_TypeInfo,
-	&UriTypeConverter_t4181_il2cpp_TypeInfo,
-	&PropertyChangedEventHandler_t1401_il2cpp_TypeInfo,
-	&LocalCertificateSelectionCallback_t3986_il2cpp_TypeInfo,
-	&RemoteCertificateValidationCallback_t3935_il2cpp_TypeInfo,
-	&BindIPEndPoint_t4065_il2cpp_TypeInfo,
-	&HttpContinueDelegate_t4053_il2cpp_TypeInfo,
-	&MatchEvaluator_t1179_il2cpp_TypeInfo,
-	&U24ArrayTypeU2416_t4182_il2cpp_TypeInfo,
-	&U24ArrayTypeU24128_t4183_il2cpp_TypeInfo,
-	&U24ArrayTypeU2412_t4184_il2cpp_TypeInfo,
-	&U3CPrivateImplementationDetailsU3E_t4185_il2cpp_TypeInfo,
+	&Stack_1_t4215_il2cpp_TypeInfo,
+	&HybridDictionary_t3954_il2cpp_TypeInfo,
+	&DictionaryNode_t3955_il2cpp_TypeInfo,
+	&DictionaryNodeEnumerator_t3956_il2cpp_TypeInfo,
+	&DictionaryNodeCollectionEnumerator_t3957_il2cpp_TypeInfo,
+	&DictionaryNodeCollection_t3958_il2cpp_TypeInfo,
+	&ListDictionary_t3169_il2cpp_TypeInfo,
+	&_Item_t3960_il2cpp_TypeInfo,
+	&_KeysEnumerator_t3962_il2cpp_TypeInfo,
+	&KeysCollection_t3963_il2cpp_TypeInfo,
+	&NameObjectCollectionBase_t3961_il2cpp_TypeInfo,
+	&NameValueCollection_t3966_il2cpp_TypeInfo,
+	&DefaultValueAttribute_t2964_il2cpp_TypeInfo,
+	&EditorBrowsableAttribute_t2193_il2cpp_TypeInfo,
+	&EditorBrowsableState_t3967_il2cpp_TypeInfo,
+	&INotifyPropertyChanged_t2496_il2cpp_TypeInfo,
+	&PropertyChangedEventArgs_t1505_il2cpp_TypeInfo,
+	&TypeConverter_t3968_il2cpp_TypeInfo,
+	&TypeConverterAttribute_t3969_il2cpp_TypeInfo,
+	&Win32Exception_t3970_il2cpp_TypeInfo,
+	&CompressionMode_t3972_il2cpp_TypeInfo,
+	&UnmanagedReadOrWrite_t3973_il2cpp_TypeInfo,
+	&ReadMethod_t3974_il2cpp_TypeInfo,
+	&WriteMethod_t3975_il2cpp_TypeInfo,
+	&DeflateStream_t3976_il2cpp_TypeInfo,
+	&GZipStream_t3978_il2cpp_TypeInfo,
+	&AuthenticatedStream_t3979_il2cpp_TypeInfo,
+	&AuthenticationLevel_t3980_il2cpp_TypeInfo,
+	&SslPolicyErrors_t3981_il2cpp_TypeInfo,
+	&U3CBeginAuthenticateAsClientU3Ec__AnonStorey7_t3983_il2cpp_TypeInfo,
+	&SslStream_t3982_il2cpp_TypeInfo,
+	&AddressFamily_t3985_il2cpp_TypeInfo,
+	&LingerOption_t3986_il2cpp_TypeInfo,
+	&MulticastOption_t3987_il2cpp_TypeInfo,
+	&NetworkStream_t3989_il2cpp_TypeInfo,
+	&ProtocolType_t3990_il2cpp_TypeInfo,
+	&SelectMode_t3991_il2cpp_TypeInfo,
+	&SocketOperation_t3992_il2cpp_TypeInfo,
+	&SocketAsyncResult_t3996_il2cpp_TypeInfo,
+	&Worker_t3997_il2cpp_TypeInfo,
+	&SocketAsyncCall_t3998_il2cpp_TypeInfo,
+	&Socket_t3988_il2cpp_TypeInfo,
+	&SocketError_t4000_il2cpp_TypeInfo,
+	&SocketException_t4001_il2cpp_TypeInfo,
+	&SocketFlags_t4002_il2cpp_TypeInfo,
+	&SocketOptionLevel_t4003_il2cpp_TypeInfo,
+	&SocketOptionName_t4004_il2cpp_TypeInfo,
+	&SocketShutdown_t4005_il2cpp_TypeInfo,
+	&SocketType_t4006_il2cpp_TypeInfo,
+	&AuthenticationManager_t4008_il2cpp_TypeInfo,
+	&Authorization_t4010_il2cpp_TypeInfo,
+	&BasicClient_t4011_il2cpp_TypeInfo,
+	&State_t4012_il2cpp_TypeInfo,
+	&Chunk_t4013_il2cpp_TypeInfo,
+	&ChunkStream_t4015_il2cpp_TypeInfo,
+	&Cookie_t4016_il2cpp_TypeInfo,
+	&CookieCollectionComparer_t4017_il2cpp_TypeInfo,
+	&CookieCollection_t4019_il2cpp_TypeInfo,
+	&CookieContainer_t4020_il2cpp_TypeInfo,
+	&CookieException_t4021_il2cpp_TypeInfo,
+	&DecompressionMethods_t4022_il2cpp_TypeInfo,
+	&DefaultCertificatePolicy_t4023_il2cpp_TypeInfo,
+	&DigestHeaderParser_t4024_il2cpp_TypeInfo,
+	&DigestSession_t4025_il2cpp_TypeInfo,
+	&DigestClient_t4026_il2cpp_TypeInfo,
+	&Dns_t4027_il2cpp_TypeInfo,
+	&EndPoint_t3993_il2cpp_TypeInfo,
+	&FileWebStream_t4029_il2cpp_TypeInfo,
+	&GetResponseCallback_t4030_il2cpp_TypeInfo,
+	&FileWebRequest_t4028_il2cpp_TypeInfo,
+	&FileWebRequestCreator_t4033_il2cpp_TypeInfo,
+	&FileWebResponse_t4032_il2cpp_TypeInfo,
+	&FtpAsyncResult_t4035_il2cpp_TypeInfo,
+	&WriteDelegate_t4036_il2cpp_TypeInfo,
+	&ReadDelegate_t4037_il2cpp_TypeInfo,
+	&FtpDataStream_t4039_il2cpp_TypeInfo,
+	&FtpRequestCreator_t4040_il2cpp_TypeInfo,
+	&FtpStatus_t4041_il2cpp_TypeInfo,
+	&FtpStatusCode_t4042_il2cpp_TypeInfo,
+	&RequestState_t4043_il2cpp_TypeInfo,
+	&FtpWebRequest_t4038_il2cpp_TypeInfo,
+	&FtpWebResponse_t4034_il2cpp_TypeInfo,
+	&GlobalProxySelection_t4047_il2cpp_TypeInfo,
+	&HttpRequestCreator_t4048_il2cpp_TypeInfo,
+	&HttpStatusCode_t4049_il2cpp_TypeInfo,
+	&HttpVersion_t4050_il2cpp_TypeInfo,
+	&HttpWebRequest_t3857_il2cpp_TypeInfo,
+	&HttpWebResponse_t4053_il2cpp_TypeInfo,
+	&CookieParser_t4057_il2cpp_TypeInfo,
+	&IAuthenticationModule_t4009_il2cpp_TypeInfo,
+	&ICertificatePolicy_t3936_il2cpp_TypeInfo,
+	&ICredentials_t3281_il2cpp_TypeInfo,
+	&ICredentialPolicy_t4007_il2cpp_TypeInfo,
+	&IPAddress_t4059_il2cpp_TypeInfo,
+	&IPEndPoint_t4046_il2cpp_TypeInfo,
+	&IPHostEntry_t4045_il2cpp_TypeInfo,
+	&IPv6Address_t4060_il2cpp_TypeInfo,
+	&IWebProxy_t4031_il2cpp_TypeInfo,
+	&IWebRequestCreate_t4186_il2cpp_TypeInfo,
+	&NetworkCredential_t4044_il2cpp_TypeInfo,
+	&ProtocolViolationException_t4061_il2cpp_TypeInfo,
+	&SecurityProtocolType_t4062_il2cpp_TypeInfo,
+	&ServicePoint_t3932_il2cpp_TypeInfo,
+	&SPKey_t4064_il2cpp_TypeInfo,
+	&ChainValidationHelper_t4065_il2cpp_TypeInfo,
+	&ServicePointManager_t3925_il2cpp_TypeInfo,
+	&SocketAddress_t4066_il2cpp_TypeInfo,
+	&WebAsyncResult_t4054_il2cpp_TypeInfo,
+	&ReadState_t4067_il2cpp_TypeInfo,
+	&AbortHelper_t4068_il2cpp_TypeInfo,
+	&WebConnection_t4056_il2cpp_TypeInfo,
+	&WebConnectionData_t4069_il2cpp_TypeInfo,
+	&WebConnectionGroup_t4070_il2cpp_TypeInfo,
+	&WebConnectionStream_t4052_il2cpp_TypeInfo,
+	&WebException_t4071_il2cpp_TypeInfo,
+	&WebExceptionStatus_t4072_il2cpp_TypeInfo,
+	&WebHeaderCollection_t4014_il2cpp_TypeInfo,
+	&WebProxy_t4073_il2cpp_TypeInfo,
+	&WebRequest_t3299_il2cpp_TypeInfo,
+	&WebResponse_t3300_il2cpp_TypeInfo,
+	&SslProtocols_t4075_il2cpp_TypeInfo,
+	&SecTrustResult_t4076_il2cpp_TypeInfo,
+	&OSX509Certificates_t4077_il2cpp_TypeInfo,
+	&OpenFlags_t4078_il2cpp_TypeInfo,
+	&PublicKey_t4081_il2cpp_TypeInfo,
+	&StoreLocation_t4082_il2cpp_TypeInfo,
+	&StoreName_t4083_il2cpp_TypeInfo,
+	&X500DistinguishedName_t4084_il2cpp_TypeInfo,
+	&X500DistinguishedNameFlags_t4085_il2cpp_TypeInfo,
+	&X509BasicConstraintsExtension_t4086_il2cpp_TypeInfo,
+	&X509Certificate2_t3934_il2cpp_TypeInfo,
+	&X509Certificate2Collection_t4089_il2cpp_TypeInfo,
+	&X509Certificate2Enumerator_t4090_il2cpp_TypeInfo,
+	&X509CertificateEnumerator_t3939_il2cpp_TypeInfo,
+	&X509CertificateCollection_t3879_il2cpp_TypeInfo,
+	&X509Chain_t3935_il2cpp_TypeInfo,
+	&X509ChainElement_t4095_il2cpp_TypeInfo,
+	&X509ChainElementCollection_t4091_il2cpp_TypeInfo,
+	&X509ChainElementEnumerator_t4097_il2cpp_TypeInfo,
+	&X509ChainPolicy_t4092_il2cpp_TypeInfo,
+	&X509ChainStatus_t4094_il2cpp_TypeInfo,
+	&X509ChainStatusFlags_t4099_il2cpp_TypeInfo,
+	&X509EnhancedKeyUsageExtension_t4100_il2cpp_TypeInfo,
+	&X509Extension_t4087_il2cpp_TypeInfo,
+	&X509ExtensionCollection_t4088_il2cpp_TypeInfo,
+	&X509ExtensionEnumerator_t4101_il2cpp_TypeInfo,
+	&X509FindType_t4102_il2cpp_TypeInfo,
+	&X509KeyUsageExtension_t4103_il2cpp_TypeInfo,
+	&X509KeyUsageFlags_t4104_il2cpp_TypeInfo,
+	&X509NameType_t4105_il2cpp_TypeInfo,
+	&X509RevocationFlag_t4106_il2cpp_TypeInfo,
+	&X509RevocationMode_t4107_il2cpp_TypeInfo,
+	&X509Store_t4096_il2cpp_TypeInfo,
+	&X509SubjectKeyIdentifierExtension_t4108_il2cpp_TypeInfo,
+	&X509SubjectKeyIdentifierHashAlgorithm_t4109_il2cpp_TypeInfo,
+	&X509VerificationFlags_t4110_il2cpp_TypeInfo,
+	&AsnDecodeStatus_t4111_il2cpp_TypeInfo,
+	&AsnEncodedData_t4079_il2cpp_TypeInfo,
+	&Oid_t4080_il2cpp_TypeInfo,
+	&OidCollection_t4098_il2cpp_TypeInfo,
+	&OidEnumerator_t4112_il2cpp_TypeInfo,
+	&MatchAppendEvaluator_t4113_il2cpp_TypeInfo,
+	&BaseMachine_t4114_il2cpp_TypeInfo,
+	&Capture_t1434_il2cpp_TypeInfo,
+	&CaptureCollection_t1436_il2cpp_TypeInfo,
+	&Group_t1433_il2cpp_TypeInfo,
+	&GroupCollection_t1435_il2cpp_TypeInfo,
+	&Match_t1372_il2cpp_TypeInfo,
+	&Enumerator_t4118_il2cpp_TypeInfo,
+	&MatchCollection_t3941_il2cpp_TypeInfo,
+	&Adapter_t4119_il2cpp_TypeInfo,
+	&Regex_t785_il2cpp_TypeInfo,
+	&RegexOptions_t4123_il2cpp_TypeInfo,
+	&OpCode_t4124_il2cpp_TypeInfo,
+	&OpFlags_t4125_il2cpp_TypeInfo,
+	&Position_t4126_il2cpp_TypeInfo,
+	&IMachine_t4117_il2cpp_TypeInfo,
+	&IMachineFactory_t4121_il2cpp_TypeInfo,
+	&Key_t4127_il2cpp_TypeInfo,
+	&FactoryCache_t4120_il2cpp_TypeInfo,
+	&Node_t4129_il2cpp_TypeInfo,
+	&MRUList_t4128_il2cpp_TypeInfo,
+	&Category_t4130_il2cpp_TypeInfo,
+	&CategoryUtils_t4131_il2cpp_TypeInfo,
+	&LinkRef_t4132_il2cpp_TypeInfo,
+	&ICompiler_t4187_il2cpp_TypeInfo,
+	&InterpreterFactory_t4133_il2cpp_TypeInfo,
+	&Link_t4134_il2cpp_TypeInfo,
+	&PatternLinkStack_t4135_il2cpp_TypeInfo,
+	&PatternCompiler_t4137_il2cpp_TypeInfo,
+	&LinkStack_t4136_il2cpp_TypeInfo,
+	&Mark_t4138_il2cpp_TypeInfo,
+	&IntStack_t4139_il2cpp_TypeInfo,
+	&RepeatContext_t4140_il2cpp_TypeInfo,
+	&Mode_t4141_il2cpp_TypeInfo,
+	&Interpreter_t4144_il2cpp_TypeInfo,
+	&Interval_t4145_il2cpp_TypeInfo,
+	&Enumerator_t4146_il2cpp_TypeInfo,
+	&CostDelegate_t4147_il2cpp_TypeInfo,
+	&IntervalCollection_t4148_il2cpp_TypeInfo,
+	&Parser_t4149_il2cpp_TypeInfo,
+	&QuickSearch_t4142_il2cpp_TypeInfo,
+	&ReplacementEvaluator_t4150_il2cpp_TypeInfo,
+	&ExpressionCollection_t4151_il2cpp_TypeInfo,
+	&Expression_t4152_il2cpp_TypeInfo,
+	&CompositeExpression_t4153_il2cpp_TypeInfo,
+	&Group_t4154_il2cpp_TypeInfo,
+	&RegularExpression_t4155_il2cpp_TypeInfo,
+	&CapturingGroup_t4156_il2cpp_TypeInfo,
+	&BalancingGroup_t4157_il2cpp_TypeInfo,
+	&NonBacktrackingGroup_t4158_il2cpp_TypeInfo,
+	&Repetition_t4159_il2cpp_TypeInfo,
+	&Assertion_t4160_il2cpp_TypeInfo,
+	&CaptureAssertion_t4163_il2cpp_TypeInfo,
+	&ExpressionAssertion_t4161_il2cpp_TypeInfo,
+	&Alternation_t4164_il2cpp_TypeInfo,
+	&Literal_t4162_il2cpp_TypeInfo,
+	&PositionAssertion_t4165_il2cpp_TypeInfo,
+	&Reference_t4166_il2cpp_TypeInfo,
+	&BackslashNumber_t4167_il2cpp_TypeInfo,
+	&CharacterClass_t4169_il2cpp_TypeInfo,
+	&AnchorInfo_t4170_il2cpp_TypeInfo,
+	&DefaultUriParser_t4171_il2cpp_TypeInfo,
+	&GenericUriParser_t4173_il2cpp_TypeInfo,
+	&UriScheme_t4174_il2cpp_TypeInfo,
+	&Uri_t755_il2cpp_TypeInfo,
+	&UriFormatException_t3292_il2cpp_TypeInfo,
+	&UriHostNameType_t4176_il2cpp_TypeInfo,
+	&UriKind_t4177_il2cpp_TypeInfo,
+	&UriParser_t4172_il2cpp_TypeInfo,
+	&UriPartial_t4178_il2cpp_TypeInfo,
+	&UriTypeConverter_t4179_il2cpp_TypeInfo,
+	&PropertyChangedEventHandler_t1399_il2cpp_TypeInfo,
+	&LocalCertificateSelectionCallback_t3984_il2cpp_TypeInfo,
+	&RemoteCertificateValidationCallback_t3933_il2cpp_TypeInfo,
+	&BindIPEndPoint_t4063_il2cpp_TypeInfo,
+	&HttpContinueDelegate_t4051_il2cpp_TypeInfo,
+	&MatchEvaluator_t1177_il2cpp_TypeInfo,
+	&U24ArrayTypeU2416_t4180_il2cpp_TypeInfo,
+	&U24ArrayTypeU24128_t4181_il2cpp_TypeInfo,
+	&U24ArrayTypeU2412_t4182_il2cpp_TypeInfo,
+	&U3CPrivateImplementationDetailsU3E_t4183_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_System_dll_Image;
@@ -2257,1523 +2257,1523 @@ static const char* s_StringTable[1214] =
 #endif
 static const Il2CppFieldDefinition s_FieldTable[1517] = 
 {
-	{ 0, 99, offsetof(MonoTODOAttribute_t3950, ___comment_0), 0 } ,
-	{ 1, 99, offsetof(GeneratedCodeAttribute_t2969, ___tool_0), 0 } ,
-	{ 2, 99, offsetof(GeneratedCodeAttribute_t2969, ___version_1), 0 } ,
-	{ 3, 7205, 0, 0 } ,
-	{ 4, 7206, 0, 0 } ,
+	{ 0, 99, offsetof(MonoTODOAttribute_t3948, ___comment_0), 0 } ,
+	{ 1, 99, offsetof(GeneratedCodeAttribute_t2967, ___tool_0), 0 } ,
+	{ 2, 99, offsetof(GeneratedCodeAttribute_t2967, ___version_1), 0 } ,
+	{ 3, 7196, 0, 0 } ,
+	{ 4, 7197, 0, 0 } ,
 	{ 5, 110, 0, 0 } ,
-	{ 2, 5027, 0, 0 } ,
-	{ 6, 5027, 0, 0 } ,
-	{ 2, 5027, 0, 0 } ,
-	{ 7, 645, 0, 0 } ,
-	{ 8, 7216, 0, 0 } ,
-	{ 9, 7217, 0, 0 } ,
-	{ 10, 7224, 0, 0 } ,
-	{ 11, 7225, 0, 0 } ,
-	{ 12, 7226, 0, 0 } ,
-	{ 13, 7226, 0, 0 } ,
-	{ 14, 7231, 0, 0 } ,
+	{ 2, 5018, 0, 0 } ,
+	{ 6, 5018, 0, 0 } ,
+	{ 2, 5018, 0, 0 } ,
+	{ 7, 644, 0, 0 } ,
+	{ 8, 7207, 0, 0 } ,
+	{ 9, 7208, 0, 0 } ,
+	{ 10, 7215, 0, 0 } ,
+	{ 11, 7216, 0, 0 } ,
+	{ 12, 7217, 0, 0 } ,
+	{ 13, 7217, 0, 0 } ,
+	{ 14, 7222, 0, 0 } ,
 	{ 15, 110, 0, 0 } ,
 	{ 16, 110, 0, 0 } ,
-	{ 17, 7240, 0, 0 } ,
+	{ 17, 7231, 0, 0 } ,
 	{ 18, 110, 0, 0 } ,
 	{ 19, 110, 0, 0 } ,
 	{ 20, 110, 0, 0 } ,
 	{ 21, 110, 0, 0 } ,
-	{ 22, 7246, 0, 0 } ,
-	{ 23, 865, 0, 0 } ,
-	{ 24, 7247, offsetof(Node_t3951, ___left_2), 0 } ,
-	{ 25, 7247, offsetof(Node_t3951, ___right_3), 0 } ,
-	{ 26, 5027, offsetof(Node_t3951, ___size_black_4), 0 } ,
-	{ 27, 7249, offsetof(NodeEnumerator_t3954, ___tree_0) + sizeof(Object_t), 0 } ,
-	{ 2, 5027, offsetof(NodeEnumerator_t3954, ___version_1) + sizeof(Object_t), 0 } ,
-	{ 28, 7250, offsetof(NodeEnumerator_t3954, ___pennants_2) + sizeof(Object_t), 0 } ,
-	{ 29, 7260, offsetof(RBTree_t3952, ___root_0), 0 } ,
-	{ 30, 645, offsetof(RBTree_t3952, ___hlp_1), 0 } ,
-	{ 2, 5027, offsetof(RBTree_t3952, ___version_2), 0 } ,
-	{ 31, 7261, THREAD_STATIC_FIELD_OFFSET, 9 } ,
-	{ 32, 7267, 0, 0 } ,
-	{ 33, 7268, 0, 0 } ,
-	{ 34, 7277, 0, 0 } ,
-	{ 35, 7278, 0, 0 } ,
-	{ 36, 7286, 0, 0 } ,
-	{ 4, 7287, 0, 0 } ,
-	{ 37, 7299, 0, 0 } ,
-	{ 36, 7286, 0, 0 } ,
-	{ 4, 7307, 0, 0 } ,
-	{ 37, 7319, 0, 0 } ,
-	{ 36, 7286, 0, 0 } ,
-	{ 4, 7329, 0, 0 } ,
-	{ 27, 7249, 0, 0 } ,
-	{ 30, 7343, 0, 0 } ,
-	{ 38, 7354, 0, 0 } ,
+	{ 22, 7237, 0, 0 } ,
+	{ 23, 864, 0, 0 } ,
+	{ 24, 7238, offsetof(Node_t3949, ___left_2), 0 } ,
+	{ 25, 7238, offsetof(Node_t3949, ___right_3), 0 } ,
+	{ 26, 5018, offsetof(Node_t3949, ___size_black_4), 0 } ,
+	{ 27, 7240, offsetof(NodeEnumerator_t3952, ___tree_0) + sizeof(Object_t), 0 } ,
+	{ 2, 5018, offsetof(NodeEnumerator_t3952, ___version_1) + sizeof(Object_t), 0 } ,
+	{ 28, 7241, offsetof(NodeEnumerator_t3952, ___pennants_2) + sizeof(Object_t), 0 } ,
+	{ 29, 7251, offsetof(RBTree_t3950, ___root_0), 0 } ,
+	{ 30, 644, offsetof(RBTree_t3950, ___hlp_1), 0 } ,
+	{ 2, 5018, offsetof(RBTree_t3950, ___version_2), 0 } ,
+	{ 31, 7252, THREAD_STATIC_FIELD_OFFSET, 9 } ,
+	{ 32, 7258, 0, 0 } ,
+	{ 33, 7259, 0, 0 } ,
+	{ 34, 7268, 0, 0 } ,
+	{ 35, 7269, 0, 0 } ,
+	{ 36, 7277, 0, 0 } ,
+	{ 4, 7278, 0, 0 } ,
+	{ 37, 7290, 0, 0 } ,
+	{ 36, 7277, 0, 0 } ,
+	{ 4, 7298, 0, 0 } ,
+	{ 37, 7310, 0, 0 } ,
+	{ 36, 7277, 0, 0 } ,
+	{ 4, 7320, 0, 0 } ,
+	{ 27, 7240, 0, 0 } ,
+	{ 30, 7334, 0, 0 } ,
+	{ 38, 7345, 0, 0 } ,
 	{ 15, 110, 0, 0 } ,
 	{ 21, 110, 0, 0 } ,
-	{ 39, 865, 0, 0 } ,
-	{ 17, 7362, 0, 0 } ,
+	{ 39, 864, 0, 0 } ,
+	{ 17, 7353, 0, 0 } ,
 	{ 20, 110, 0, 0 } ,
 	{ 21, 110, 0, 0 } ,
-	{ 40, 100, offsetof(HybridDictionary_t3956, ___caseInsensitive_0), 0 } ,
-	{ 41, 5712, offsetof(HybridDictionary_t3956, ___hashtable_1), 0 } ,
-	{ 3, 5704, offsetof(HybridDictionary_t3956, ___list_2), 0 } ,
-	{ 32, 647, offsetof(DictionaryNode_t3957, ___key_0), 0 } ,
-	{ 33, 647, offsetof(DictionaryNode_t3957, ___value_1), 0 } ,
-	{ 42, 7366, offsetof(DictionaryNode_t3957, ___next_2), 0 } ,
-	{ 43, 5704, offsetof(DictionaryNodeEnumerator_t3958, ___dict_0), 0 } ,
-	{ 44, 100, offsetof(DictionaryNodeEnumerator_t3958, ___isAtStart_1), 0 } ,
-	{ 4, 7368, offsetof(DictionaryNodeEnumerator_t3958, ___current_2), 0 } ,
-	{ 2, 110, offsetof(DictionaryNodeEnumerator_t3958, ___version_3), 0 } ,
-	{ 45, 7370, offsetof(DictionaryNodeCollectionEnumerator_t3959, ___inner_0), 0 } ,
-	{ 46, 100, offsetof(DictionaryNodeCollectionEnumerator_t3959, ___isKeyList_1), 0 } ,
-	{ 43, 5704, offsetof(DictionaryNodeCollection_t3960, ___dict_0), 0 } ,
-	{ 46, 100, offsetof(DictionaryNodeCollection_t3960, ___isKeyList_1), 0 } ,
-	{ 6, 110, offsetof(ListDictionary_t3171, ___count_0), 0 } ,
-	{ 2, 110, offsetof(ListDictionary_t3171, ___version_1), 0 } ,
-	{ 47, 7368, offsetof(ListDictionary_t3171, ___head_2), 0 } ,
-	{ 48, 7374, offsetof(ListDictionary_t3171, ___comparer_3), 0 } ,
-	{ 32, 101, offsetof(_Item_t3962, ___key_0), 0 } ,
-	{ 33, 647, offsetof(_Item_t3962, ___value_1), 0 } ,
-	{ 49, 7378, offsetof(_KeysEnumerator_t3964, ___m_collection_0), 0 } ,
-	{ 50, 110, offsetof(_KeysEnumerator_t3964, ___m_position_1), 0 } ,
-	{ 49, 7378, offsetof(KeysCollection_t3965, ___m_collection_0), 0 } ,
-	{ 51, 5712, offsetof(NameObjectCollectionBase_t3963, ___m_ItemsContainer_0), 0 } ,
-	{ 52, 7381, offsetof(NameObjectCollectionBase_t3963, ___m_NullKeyItem_1), 0 } ,
-	{ 53, 5722, offsetof(NameObjectCollectionBase_t3963, ___m_ItemsArray_2), 0 } ,
-	{ 54, 7382, offsetof(NameObjectCollectionBase_t3963, ___m_hashprovider_3), 0 } ,
-	{ 55, 7374, offsetof(NameObjectCollectionBase_t3963, ___m_comparer_4), 0 } ,
-	{ 56, 110, offsetof(NameObjectCollectionBase_t3963, ___m_defCapacity_5), 0 } ,
-	{ 57, 100, offsetof(NameObjectCollectionBase_t3963, ___m_readonly_6), 0 } ,
-	{ 58, 6061, offsetof(NameObjectCollectionBase_t3963, ___infoCopy_7), 0 } ,
-	{ 59, 7383, offsetof(NameObjectCollectionBase_t3963, ___keyscoll_8), 0 } ,
-	{ 60, 7384, offsetof(NameObjectCollectionBase_t3963, ___equality_comparer_9), 0 } ,
-	{ 61, 615, offsetof(NameValueCollection_t3968, ___cachedAllKeys_10), 0 } ,
-	{ 62, 615, offsetof(NameValueCollection_t3968, ___cachedAll_11), 0 } ,
-	{ 63, 645, offsetof(DefaultValueAttribute_t2966, ___DefaultValue_0), 0 } ,
-	{ 64, 7389, offsetof(EditorBrowsableAttribute_t2195, ___state_0), 0 } ,
-	{ 65, 90, offsetof(EditorBrowsableState_t3969, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 66, 7391, 0, 0 } ,
-	{ 67, 7391, 0, 0 } ,
-	{ 68, 7391, 0, 0 } ,
-	{ 69, 99, offsetof(PropertyChangedEventArgs_t1507, ___propertyName_1), 0 } ,
-	{ 35, 7397, offsetof(TypeConverterAttribute_t3971_StaticFields, ___Default_0), 0 } ,
-	{ 70, 99, offsetof(TypeConverterAttribute_t3971, ___converter_type_1), 0 } ,
-	{ 71, 110, offsetof(Win32Exception_t3972, ___native_error_code_11), 0 } ,
-	{ 65, 90, offsetof(CompressionMode_t3974, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 72, 7402, 0, 0 } ,
-	{ 73, 7402, 0, 0 } ,
-	{ 74, 3847, offsetof(DeflateStream_t3978, ___base_stream_1), 0 } ,
-	{ 75, 7408, offsetof(DeflateStream_t3978, ___mode_2), 0 } ,
-	{ 76, 100, offsetof(DeflateStream_t3978, ___leaveOpen_3), 0 } ,
-	{ 77, 100, offsetof(DeflateStream_t3978, ___disposed_4), 0 } ,
-	{ 78, 7409, offsetof(DeflateStream_t3978, ___feeder_5), 0 } ,
-	{ 79, 4657, offsetof(DeflateStream_t3978, ___z_stream_6), 0 } ,
-	{ 80, 866, offsetof(DeflateStream_t3978, ___io_buffer_7), 0 } ,
-	{ 81, 7410, offsetof(DeflateStream_t3978, ___data_8), 0 } ,
-	{ 82, 7412, offsetof(GZipStream_t3980, ___deflateStream_1), 0 } ,
-	{ 83, 3847, offsetof(AuthenticatedStream_t3981, ___innerStream_1), 0 } ,
-	{ 84, 100, offsetof(AuthenticatedStream_t3981, ___leaveStreamOpen_2), 0 } ,
-	{ 65, 90, offsetof(AuthenticationLevel_t3982, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 85, 7416, 0, 0 } ,
-	{ 86, 7416, 0, 0 } ,
-	{ 87, 7416, 0, 0 } ,
-	{ 65, 90, offsetof(SslPolicyErrors_t3983, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 85, 7419, 0, 0 } ,
-	{ 88, 7419, 0, 0 } ,
-	{ 89, 7419, 0, 0 } ,
-	{ 90, 7419, 0, 0 } ,
-	{ 91, 7421, offsetof(U3CBeginAuthenticateAsClientU3Ec__AnonStorey7_t3985, ___clientCertificates_0), 0 } ,
-	{ 92, 7422, offsetof(U3CBeginAuthenticateAsClientU3Ec__AnonStorey7_t3985, ___U3CU3Ef__this_1), 0 } ,
-	{ 93, 7426, offsetof(SslStream_t3984, ___ssl_stream_3), 0 } ,
-	{ 94, 7427, offsetof(SslStream_t3984, ___validation_callback_4), 0 } ,
-	{ 95, 7428, offsetof(SslStream_t3984, ___selection_callback_5), 0 } ,
-	{ 65, 90, offsetof(AddressFamily_t3987, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 96, 7430, 0, 0 } ,
-	{ 97, 7430, 0, 0 } ,
-	{ 98, 7430, 0, 0 } ,
-	{ 99, 7430, 0, 0 } ,
-	{ 100, 7430, 0, 0 } ,
-	{ 101, 7430, 0, 0 } ,
-	{ 102, 7430, 0, 0 } ,
-	{ 103, 7430, 0, 0 } ,
-	{ 104, 7430, 0, 0 } ,
-	{ 105, 7430, 0, 0 } ,
-	{ 106, 7430, 0, 0 } ,
-	{ 107, 7430, 0, 0 } ,
-	{ 108, 7430, 0, 0 } ,
-	{ 109, 7430, 0, 0 } ,
-	{ 110, 7430, 0, 0 } ,
-	{ 111, 7430, 0, 0 } ,
-	{ 112, 7430, 0, 0 } ,
-	{ 113, 7430, 0, 0 } ,
-	{ 114, 7430, 0, 0 } ,
-	{ 115, 7430, 0, 0 } ,
-	{ 116, 7430, 0, 0 } ,
-	{ 117, 7430, 0, 0 } ,
-	{ 118, 7430, 0, 0 } ,
-	{ 119, 7430, 0, 0 } ,
-	{ 120, 7430, 0, 0 } ,
-	{ 121, 7430, 0, 0 } ,
-	{ 122, 7430, 0, 0 } ,
-	{ 123, 7430, 0, 0 } ,
-	{ 124, 7430, 0, 0 } ,
-	{ 125, 7430, 0, 0 } ,
-	{ 126, 7430, 0, 0 } ,
-	{ 127, 100, offsetof(LingerOption_t3988, ___enabled_0), 0 } ,
-	{ 128, 110, offsetof(LingerOption_t3988, ___seconds_1), 0 } ,
-	{ 129, 7434, offsetof(NetworkStream_t3991, ___access_1), 0 } ,
-	{ 130, 7435, offsetof(NetworkStream_t3991, ___socket_2), 0 } ,
-	{ 131, 100, offsetof(NetworkStream_t3991, ___owns_socket_3), 0 } ,
-	{ 132, 100, offsetof(NetworkStream_t3991, ___readable_4), 0 } ,
-	{ 133, 100, offsetof(NetworkStream_t3991, ___writeable_5), 0 } ,
-	{ 77, 100, offsetof(NetworkStream_t3991, ___disposed_6), 0 } ,
-	{ 65, 90, offsetof(ProtocolType_t3992, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 134, 7437, 0, 0 } ,
-	{ 135, 7437, 0, 0 } ,
-	{ 136, 7437, 0, 0 } ,
-	{ 137, 7437, 0, 0 } ,
-	{ 138, 7437, 0, 0 } ,
-	{ 101, 7437, 0, 0 } ,
-	{ 139, 7437, 0, 0 } ,
-	{ 140, 7437, 0, 0 } ,
-	{ 141, 7437, 0, 0 } ,
-	{ 142, 7437, 0, 0 } ,
-	{ 143, 7437, 0, 0 } ,
-	{ 97, 7437, 0, 0 } ,
-	{ 104, 7437, 0, 0 } ,
-	{ 144, 7437, 0, 0 } ,
-	{ 145, 7437, 0, 0 } ,
-	{ 96, 7437, 0, 0 } ,
-	{ 146, 7437, 0, 0 } ,
-	{ 147, 7437, 0, 0 } ,
-	{ 148, 7437, 0, 0 } ,
-	{ 149, 7437, 0, 0 } ,
-	{ 150, 7437, 0, 0 } ,
-	{ 151, 7437, 0, 0 } ,
-	{ 152, 7437, 0, 0 } ,
-	{ 153, 7437, 0, 0 } ,
-	{ 154, 7437, 0, 0 } ,
-	{ 65, 90, offsetof(SelectMode_t3993, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 155, 7440, 0, 0 } ,
-	{ 156, 7440, 0, 0 } ,
-	{ 157, 7440, 0, 0 } ,
-	{ 65, 90, offsetof(SocketOperation_t3994, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 158, 7443, 0, 0 } ,
-	{ 159, 7443, 0, 0 } ,
-	{ 160, 7443, 0, 0 } ,
-	{ 161, 7443, 0, 0 } ,
-	{ 162, 7443, 0, 0 } ,
-	{ 163, 7443, 0, 0 } ,
-	{ 164, 7443, 0, 0 } ,
-	{ 165, 7443, 0, 0 } ,
-	{ 166, 7443, 0, 0 } ,
-	{ 167, 7443, 0, 0 } ,
-	{ 168, 7443, 0, 0 } ,
-	{ 169, 7443, 0, 0 } ,
-	{ 170, 7443, 0, 0 } ,
-	{ 171, 7443, 0, 0 } ,
-	{ 172, 7447, offsetof(SocketAsyncResult_t3998, ___Sock_0), 0 } ,
-	{ 173, 4745, offsetof(SocketAsyncResult_t3998, ___handle_1), 0 } ,
-	{ 64, 645, offsetof(SocketAsyncResult_t3998, ___state_2), 0 } ,
-	{ 174, 6902, offsetof(SocketAsyncResult_t3998, ___callback_3), 0 } ,
-	{ 175, 7448, offsetof(SocketAsyncResult_t3998, ___waithandle_4), 0 } ,
-	{ 176, 3438, offsetof(SocketAsyncResult_t3998, ___delayedException_5), 0 } ,
-	{ 177, 7449, offsetof(SocketAsyncResult_t3998, ___EndPoint_6), 0 } ,
-	{ 178, 877, offsetof(SocketAsyncResult_t3998, ___Buffer_7), 0 } ,
-	{ 179, 102, offsetof(SocketAsyncResult_t3998, ___Offset_8), 0 } ,
-	{ 180, 102, offsetof(SocketAsyncResult_t3998, ___Size_9), 0 } ,
-	{ 181, 7450, offsetof(SocketAsyncResult_t3998, ___SockFlags_10), 0 } ,
-	{ 182, 7447, offsetof(SocketAsyncResult_t3998, ___AcceptSocket_11), 0 } ,
-	{ 183, 7451, offsetof(SocketAsyncResult_t3998, ___Addresses_12), 0 } ,
-	{ 184, 102, offsetof(SocketAsyncResult_t3998, ___Port_13), 0 } ,
-	{ 185, 7452, offsetof(SocketAsyncResult_t3998, ___Buffers_14), 0 } ,
-	{ 186, 104, offsetof(SocketAsyncResult_t3998, ___ReuseSocket_15), 0 } ,
-	{ 187, 7435, offsetof(SocketAsyncResult_t3998, ___acc_socket_16), 0 } ,
-	{ 188, 110, offsetof(SocketAsyncResult_t3998, ___total_17), 0 } ,
-	{ 189, 100, offsetof(SocketAsyncResult_t3998, ___completed_sync_18), 0 } ,
-	{ 190, 100, offsetof(SocketAsyncResult_t3998, ___completed_19), 0 } ,
-	{ 191, 104, offsetof(SocketAsyncResult_t3998, ___blocking_20), 0 } ,
-	{ 192, 137, offsetof(SocketAsyncResult_t3998, ___error_21), 0 } ,
-	{ 193, 7454, offsetof(SocketAsyncResult_t3998, ___operation_22), 0 } ,
-	{ 194, 647, offsetof(SocketAsyncResult_t3998, ___ares_23), 0 } ,
-	{ 195, 102, offsetof(SocketAsyncResult_t3998, ___EndCalled_24), 0 } ,
-	{ 196, 7456, offsetof(Worker_t3999, ___result_0), 0 } ,
-	{ 197, 100, offsetof(Worker_t3999, ___requireSocketSecurity_1), 0 } ,
-	{ 198, 110, offsetof(Worker_t3999, ___send_so_far_2), 0 } ,
-	{ 199, 7468, offsetof(Socket_t3990, ___readQ_0), 0 } ,
-	{ 200, 7468, offsetof(Socket_t3990, ___writeQ_1), 0 } ,
-	{ 201, 100, offsetof(Socket_t3990, ___islistening_2), 0 } ,
-	{ 202, 2392, offsetof(Socket_t3990, ___MinListenPort_3), 0 } ,
-	{ 203, 2392, offsetof(Socket_t3990, ___MaxListenPort_4), 0 } ,
-	{ 204, 840, offsetof(Socket_t3990_StaticFields, ___ipv4Supported_5), 0 } ,
-	{ 205, 840, offsetof(Socket_t3990_StaticFields, ___ipv6Supported_6), 0 } ,
-	{ 206, 110, offsetof(Socket_t3990, ___linger_timeout_7), 0 } ,
-	{ 130, 4657, offsetof(Socket_t3990, ___socket_8), 0 } ,
-	{ 207, 7469, offsetof(Socket_t3990, ___address_family_9), 0 } ,
-	{ 208, 7470, offsetof(Socket_t3990, ___socket_type_10), 0 } ,
-	{ 209, 7471, offsetof(Socket_t3990, ___protocol_type_11), 0 } ,
-	{ 191, 2214, offsetof(Socket_t3990, ___blocking_12), 0 } ,
-	{ 210, 6566, offsetof(Socket_t3990, ___blocking_thread_13), 0 } ,
-	{ 211, 100, offsetof(Socket_t3990, ___isbound_14), 0 } ,
-	{ 212, 840, offsetof(Socket_t3990_StaticFields, ___current_bind_count_15), 0 } ,
-	{ 213, 2392, offsetof(Socket_t3990, ___max_bind_count_16), 0 } ,
-	{ 214, 100, offsetof(Socket_t3990, ___connected_17), 0 } ,
-	{ 215, 100, offsetof(Socket_t3990, ___closed_18), 0 } ,
-	{ 77, 2214, offsetof(Socket_t3990, ___disposed_19), 0 } ,
-	{ 216, 7472, offsetof(Socket_t3990, ___seed_endpoint_20), 0 } ,
-	{ 217, 7473, offsetof(Socket_t3990_StaticFields, ___check_socket_policy_21), 0 } ,
-	{ 65, 90, offsetof(SocketError_t4002, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 218, 7475, 0, 0 } ,
-	{ 219, 7475, 0, 0 } ,
-	{ 220, 7475, 0, 0 } ,
-	{ 221, 7475, 0, 0 } ,
-	{ 222, 7475, 0, 0 } ,
-	{ 223, 7475, 0, 0 } ,
-	{ 224, 7475, 0, 0 } ,
-	{ 225, 7475, 0, 0 } ,
-	{ 226, 7475, 0, 0 } ,
-	{ 227, 7475, 0, 0 } ,
-	{ 228, 7475, 0, 0 } ,
-	{ 229, 7475, 0, 0 } ,
-	{ 230, 7475, 0, 0 } ,
-	{ 231, 7475, 0, 0 } ,
-	{ 232, 7475, 0, 0 } ,
-	{ 233, 7475, 0, 0 } ,
-	{ 234, 7475, 0, 0 } ,
-	{ 235, 7475, 0, 0 } ,
-	{ 236, 7475, 0, 0 } ,
-	{ 237, 7475, 0, 0 } ,
-	{ 238, 7475, 0, 0 } ,
-	{ 239, 7475, 0, 0 } ,
-	{ 240, 7475, 0, 0 } ,
-	{ 241, 7475, 0, 0 } ,
-	{ 242, 7475, 0, 0 } ,
-	{ 243, 7475, 0, 0 } ,
-	{ 244, 7475, 0, 0 } ,
-	{ 245, 7475, 0, 0 } ,
-	{ 246, 7475, 0, 0 } ,
-	{ 247, 7475, 0, 0 } ,
-	{ 248, 7475, 0, 0 } ,
-	{ 249, 7475, 0, 0 } ,
-	{ 250, 7475, 0, 0 } ,
-	{ 251, 7475, 0, 0 } ,
-	{ 252, 7475, 0, 0 } ,
-	{ 253, 7475, 0, 0 } ,
-	{ 254, 7475, 0, 0 } ,
-	{ 255, 7475, 0, 0 } ,
-	{ 256, 7475, 0, 0 } ,
-	{ 257, 7475, 0, 0 } ,
-	{ 258, 7475, 0, 0 } ,
-	{ 259, 7475, 0, 0 } ,
-	{ 260, 7475, 0, 0 } ,
-	{ 261, 7475, 0, 0 } ,
-	{ 262, 7475, 0, 0 } ,
-	{ 263, 7475, 0, 0 } ,
-	{ 264, 7475, 0, 0 } ,
-	{ 65, 90, offsetof(SocketFlags_t4004, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 85, 7478, 0, 0 } ,
-	{ 265, 7478, 0, 0 } ,
-	{ 266, 7478, 0, 0 } ,
-	{ 267, 7478, 0, 0 } ,
-	{ 268, 7478, 0, 0 } ,
-	{ 269, 7478, 0, 0 } ,
-	{ 270, 7478, 0, 0 } ,
-	{ 271, 7478, 0, 0 } ,
-	{ 272, 7478, 0, 0 } ,
-	{ 273, 7478, 0, 0 } ,
-	{ 65, 90, offsetof(SocketOptionLevel_t4005, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 274, 7480, 0, 0 } ,
-	{ 134, 7480, 0, 0 } ,
-	{ 141, 7480, 0, 0 } ,
-	{ 138, 7480, 0, 0 } ,
-	{ 139, 7480, 0, 0 } ,
-	{ 65, 90, offsetof(SocketOptionName_t4006, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 275, 7482, 0, 0 } ,
-	{ 276, 7482, 0, 0 } ,
-	{ 277, 7482, 0, 0 } ,
-	{ 278, 7482, 0, 0 } ,
-	{ 267, 7482, 0, 0 } ,
-	{ 271, 7482, 0, 0 } ,
-	{ 279, 7482, 0, 0 } ,
-	{ 280, 7482, 0, 0 } ,
-	{ 281, 7482, 0, 0 } ,
-	{ 282, 7482, 0, 0 } ,
-	{ 283, 7482, 0, 0 } ,
-	{ 284, 7482, 0, 0 } ,
-	{ 285, 7482, 0, 0 } ,
-	{ 286, 7482, 0, 0 } ,
-	{ 287, 7482, 0, 0 } ,
-	{ 288, 7482, 0, 0 } ,
-	{ 289, 7482, 0, 0 } ,
-	{ 290, 7482, 0, 0 } ,
-	{ 291, 7482, 0, 0 } ,
-	{ 292, 7482, 0, 0 } ,
-	{ 293, 7482, 0, 0 } ,
-	{ 294, 7482, 0, 0 } ,
-	{ 295, 7482, 0, 0 } ,
-	{ 296, 7482, 0, 0 } ,
-	{ 297, 7482, 0, 0 } ,
-	{ 298, 7482, 0, 0 } ,
-	{ 299, 7482, 0, 0 } ,
-	{ 300, 7482, 0, 0 } ,
-	{ 301, 7482, 0, 0 } ,
-	{ 302, 7482, 0, 0 } ,
-	{ 303, 7482, 0, 0 } ,
-	{ 304, 7482, 0, 0 } ,
-	{ 305, 7482, 0, 0 } ,
-	{ 306, 7482, 0, 0 } ,
-	{ 307, 7482, 0, 0 } ,
-	{ 308, 7482, 0, 0 } ,
-	{ 309, 7482, 0, 0 } ,
-	{ 310, 7482, 0, 0 } ,
-	{ 311, 7482, 0, 0 } ,
-	{ 312, 7482, 0, 0 } ,
-	{ 313, 7482, 0, 0 } ,
-	{ 314, 7482, 0, 0 } ,
-	{ 315, 7482, 0, 0 } ,
-	{ 65, 90, offsetof(SocketShutdown_t4007, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 160, 7484, 0, 0 } ,
-	{ 162, 7484, 0, 0 } ,
-	{ 316, 7484, 0, 0 } ,
-	{ 65, 90, offsetof(SocketType_t4008, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 317, 7486, 0, 0 } ,
-	{ 318, 7486, 0, 0 } ,
-	{ 143, 7486, 0, 0 } ,
-	{ 319, 7486, 0, 0 } ,
-	{ 320, 7486, 0, 0 } ,
-	{ 96, 7486, 0, 0 } ,
-	{ 321, 7488, offsetof(AuthenticationManager_t4010_StaticFields, ___modules_0), 0 } ,
-	{ 322, 3766, offsetof(AuthenticationManager_t4010_StaticFields, ___locker_1), 0 } ,
-	{ 323, 7489, offsetof(AuthenticationManager_t4010_StaticFields, ___credential_policy_2), 0 } ,
-	{ 324, 99, offsetof(Authorization_t4012, ___token_0), 0 } ,
-	{ 325, 100, offsetof(Authorization_t4012, ___complete_1), 0 } ,
-	{ 326, 99, offsetof(Authorization_t4012, ___connectionGroupId_2), 0 } ,
-	{ 327, 7491, offsetof(Authorization_t4012, ___module_3), 0 } ,
-	{ 65, 90, offsetof(State_t4014, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 85, 7494, 0, 0 } ,
-	{ 328, 7494, 0, 0 } ,
-	{ 329, 7494, 0, 0 } ,
-	{ 330, 7494, 0, 0 } ,
-	{ 331, 877, offsetof(Chunk_t4015, ___Bytes_0), 0 } ,
-	{ 179, 102, offsetof(Chunk_t4015, ___Offset_1), 0 } ,
-	{ 332, 7498, offsetof(ChunkStream_t4017, ___headers_0), 0 } ,
-	{ 333, 110, offsetof(ChunkStream_t4017, ___chunkSize_1), 0 } ,
-	{ 334, 110, offsetof(ChunkStream_t4017, ___chunkRead_2), 0 } ,
-	{ 64, 7499, offsetof(ChunkStream_t4017, ___state_3), 0 } ,
-	{ 335, 946, offsetof(ChunkStream_t4017, ___saved_4), 0 } ,
-	{ 336, 100, offsetof(ChunkStream_t4017, ___sawCR_5), 0 } ,
-	{ 337, 100, offsetof(ChunkStream_t4017, ___gotit_6), 0 } ,
-	{ 338, 110, offsetof(ChunkStream_t4017, ___trailerState_7), 0 } ,
-	{ 339, 5722, offsetof(ChunkStream_t4017, ___chunks_8), 0 } ,
-	{ 0, 99, offsetof(Cookie_t4018, ___comment_0), 0 } ,
-	{ 340, 3538, offsetof(Cookie_t4018, ___commentUri_1), 0 } ,
-	{ 341, 100, offsetof(Cookie_t4018, ___discard_2), 0 } ,
-	{ 342, 99, offsetof(Cookie_t4018, ___domain_3), 0 } ,
-	{ 343, 1234, offsetof(Cookie_t4018, ___expires_4), 0 } ,
-	{ 344, 100, offsetof(Cookie_t4018, ___httpOnly_5), 0 } ,
-	{ 345, 99, offsetof(Cookie_t4018, ___name_6), 0 } ,
-	{ 346, 99, offsetof(Cookie_t4018, ___path_7), 0 } ,
-	{ 347, 99, offsetof(Cookie_t4018, ___port_8), 0 } ,
-	{ 348, 1556, offsetof(Cookie_t4018, ___ports_9), 0 } ,
-	{ 349, 100, offsetof(Cookie_t4018, ___secure_10), 0 } ,
-	{ 350, 1234, offsetof(Cookie_t4018, ___timestamp_11), 0 } ,
-	{ 351, 99, offsetof(Cookie_t4018, ___val_12), 0 } ,
-	{ 2, 110, offsetof(Cookie_t4018, ___version_13), 0 } ,
-	{ 352, 5606, offsetof(Cookie_t4018_StaticFields, ___reservedCharsName_14), 0 } ,
-	{ 353, 5606, offsetof(Cookie_t4018_StaticFields, ___portSeparators_15), 0 } ,
-	{ 354, 1097, offsetof(Cookie_t4018_StaticFields, ___tspecials_16), 0 } ,
-	{ 355, 100, offsetof(Cookie_t4018, ___exact_domain_17), 0 } ,
-	{ 3, 7504, offsetof(CookieCollection_t4021, ___list_0), 0 } ,
-	{ 356, 7505, offsetof(CookieCollection_t4021_StaticFields, ___Comparer_1), 0 } ,
-	{ 357, 110, offsetof(CookieContainer_t4022, ___capacity_0), 0 } ,
-	{ 358, 110, offsetof(CookieContainer_t4022, ___perDomainCapacity_1), 0 } ,
-	{ 359, 110, offsetof(CookieContainer_t4022, ___maxCookieSize_2), 0 } ,
-	{ 360, 7507, offsetof(CookieContainer_t4022, ___cookies_3), 0 } ,
-	{ 65, 90, offsetof(DecompressionMethods_t4024, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 85, 7511, 0, 0 } ,
-	{ 361, 7511, 0, 0 } ,
-	{ 362, 7511, 0, 0 } ,
-	{ 363, 99, offsetof(DigestHeaderParser_t4026, ___header_0), 0 } ,
-	{ 364, 110, offsetof(DigestHeaderParser_t4026, ___length_1), 0 } ,
-	{ 365, 110, offsetof(DigestHeaderParser_t4026, ___pos_2), 0 } ,
-	{ 366, 3768, offsetof(DigestHeaderParser_t4026_StaticFields, ___keywords_3), 0 } ,
-	{ 367, 615, offsetof(DigestHeaderParser_t4026, ___values_4), 0 } ,
-	{ 368, 6744, offsetof(DigestSession_t4027_StaticFields, ___rng_0), 0 } ,
-	{ 369, 1234, offsetof(DigestSession_t4027, ___lastUse_1), 0 } ,
-	{ 370, 110, offsetof(DigestSession_t4027, ____nc_2), 0 } ,
-	{ 371, 6829, offsetof(DigestSession_t4027, ___hash_3), 0 } ,
-	{ 372, 7516, offsetof(DigestSession_t4027, ___parser_4), 0 } ,
-	{ 373, 99, offsetof(DigestSession_t4027, ____cnonce_5), 0 } ,
-	{ 374, 7518, offsetof(DigestClient_t4028_StaticFields, ___cache_0), 0 } ,
-	{ 375, 7524, offsetof(FileWebStream_t4031, ___webRequest_15), 0 } ,
-	{ 376, 3538, offsetof(FileWebRequest_t4030, ___uri_6), 0 } ,
-	{ 377, 7528, offsetof(FileWebRequest_t4030, ___webHeaders_7), 0 } ,
-	{ 378, 5949, offsetof(FileWebRequest_t4030, ___credentials_8), 0 } ,
-	{ 379, 99, offsetof(FileWebRequest_t4030, ___connectionGroup_9), 0 } ,
-	{ 380, 116, offsetof(FileWebRequest_t4030, ___contentLength_10), 0 } ,
-	{ 381, 7434, offsetof(FileWebRequest_t4030, ___fileAccess_11), 0 } ,
-	{ 382, 99, offsetof(FileWebRequest_t4030, ___method_12), 0 } ,
-	{ 383, 7529, offsetof(FileWebRequest_t4030, ___proxy_13), 0 } ,
-	{ 384, 100, offsetof(FileWebRequest_t4030, ___preAuthenticate_14), 0 } ,
-	{ 385, 110, offsetof(FileWebRequest_t4030, ___timeout_15), 0 } ,
-	{ 386, 7530, offsetof(FileWebRequest_t4030, ___webResponse_16), 0 } ,
-	{ 387, 7531, offsetof(FileWebRequest_t4030, ___requestEndEvent_17), 0 } ,
-	{ 388, 100, offsetof(FileWebRequest_t4030, ___requesting_18), 0 } ,
-	{ 389, 100, offsetof(FileWebRequest_t4030, ___asyncResponding_19), 0 } ,
-	{ 390, 3538, offsetof(FileWebResponse_t4034, ___responseUri_1), 0 } ,
-	{ 391, 7535, offsetof(FileWebResponse_t4034, ___fileStream_2), 0 } ,
-	{ 380, 116, offsetof(FileWebResponse_t4034, ___contentLength_3), 0 } ,
-	{ 377, 7528, offsetof(FileWebResponse_t4034, ___webHeaders_4), 0 } ,
-	{ 77, 100, offsetof(FileWebResponse_t4034, ___disposed_5), 0 } ,
-	{ 392, 7537, offsetof(FtpAsyncResult_t4037, ___response_0), 0 } ,
-	{ 393, 6903, offsetof(FtpAsyncResult_t4037, ___waitHandle_1), 0 } ,
-	{ 394, 3438, offsetof(FtpAsyncResult_t4037, ___exception_2), 0 } ,
-	{ 174, 6902, offsetof(FtpAsyncResult_t4037, ___callback_3), 0 } ,
-	{ 395, 3847, offsetof(FtpAsyncResult_t4037, ___stream_4), 0 } ,
-	{ 64, 645, offsetof(FtpAsyncResult_t4037, ___state_5), 0 } ,
-	{ 190, 100, offsetof(FtpAsyncResult_t4037, ___completed_6), 0 } ,
-	{ 396, 100, offsetof(FtpAsyncResult_t4037, ___synch_7), 0 } ,
-	{ 322, 645, offsetof(FtpAsyncResult_t4037, ___locker_8), 0 } ,
-	{ 397, 7541, offsetof(FtpDataStream_t4041, ___request_1), 0 } ,
-	{ 398, 3847, offsetof(FtpDataStream_t4041, ___networkStream_2), 0 } ,
-	{ 77, 100, offsetof(FtpDataStream_t4041, ___disposed_3), 0 } ,
-	{ 399, 100, offsetof(FtpDataStream_t4041, ___isRead_4), 0 } ,
-	{ 400, 110, offsetof(FtpDataStream_t4041, ___totalRead_5), 0 } ,
-	{ 401, 7546, offsetof(FtpStatus_t4043, ___statusCode_0), 0 } ,
-	{ 402, 71, offsetof(FtpStatus_t4043, ___statusDescription_1), 0 } ,
-	{ 65, 90, offsetof(FtpStatusCode_t4044, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 403, 7548, 0, 0 } ,
-	{ 404, 7548, 0, 0 } ,
-	{ 405, 7548, 0, 0 } ,
-	{ 406, 7548, 0, 0 } ,
-	{ 407, 7548, 0, 0 } ,
-	{ 408, 7548, 0, 0 } ,
-	{ 409, 7548, 0, 0 } ,
-	{ 410, 7548, 0, 0 } ,
-	{ 411, 7548, 0, 0 } ,
-	{ 412, 7548, 0, 0 } ,
-	{ 413, 7548, 0, 0 } ,
-	{ 414, 7548, 0, 0 } ,
-	{ 415, 7548, 0, 0 } ,
-	{ 416, 7548, 0, 0 } ,
-	{ 417, 7548, 0, 0 } ,
-	{ 418, 7548, 0, 0 } ,
-	{ 419, 7548, 0, 0 } ,
-	{ 420, 7548, 0, 0 } ,
-	{ 421, 7548, 0, 0 } ,
-	{ 422, 7548, 0, 0 } ,
-	{ 423, 7548, 0, 0 } ,
-	{ 424, 7548, 0, 0 } ,
-	{ 425, 7548, 0, 0 } ,
-	{ 426, 7548, 0, 0 } ,
-	{ 427, 7548, 0, 0 } ,
-	{ 428, 7548, 0, 0 } ,
-	{ 429, 7548, 0, 0 } ,
-	{ 430, 7548, 0, 0 } ,
-	{ 431, 7548, 0, 0 } ,
-	{ 432, 7548, 0, 0 } ,
-	{ 433, 7548, 0, 0 } ,
-	{ 434, 7548, 0, 0 } ,
-	{ 435, 7548, 0, 0 } ,
-	{ 436, 7548, 0, 0 } ,
-	{ 437, 7548, 0, 0 } ,
-	{ 438, 7548, 0, 0 } ,
-	{ 439, 7548, 0, 0 } ,
-	{ 65, 90, offsetof(RequestState_t4045, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 440, 7550, 0, 0 } ,
-	{ 441, 7550, 0, 0 } ,
-	{ 442, 7550, 0, 0 } ,
-	{ 443, 7550, 0, 0 } ,
-	{ 407, 7550, 0, 0 } ,
-	{ 444, 7550, 0, 0 } ,
-	{ 445, 7550, 0, 0 } ,
-	{ 446, 7550, 0, 0 } ,
-	{ 290, 7550, 0, 0 } ,
-	{ 447, 3538, offsetof(FtpWebRequest_t4040, ___requestUri_6), 0 } ,
-	{ 448, 99, offsetof(FtpWebRequest_t4040, ___file_name_7), 0 } ,
-	{ 449, 7554, offsetof(FtpWebRequest_t4040, ___servicePoint_8), 0 } ,
-	{ 450, 3847, offsetof(FtpWebRequest_t4040, ___origDataStream_9), 0 } ,
-	{ 451, 3847, offsetof(FtpWebRequest_t4040, ___dataStream_10), 0 } ,
-	{ 452, 3847, offsetof(FtpWebRequest_t4040, ___controlStream_11), 0 } ,
-	{ 453, 7555, offsetof(FtpWebRequest_t4040, ___controlReader_12), 0 } ,
-	{ 378, 7556, offsetof(FtpWebRequest_t4040, ___credentials_13), 0 } ,
-	{ 454, 7557, offsetof(FtpWebRequest_t4040, ___hostEntry_14), 0 } ,
-	{ 455, 7558, offsetof(FtpWebRequest_t4040, ___localEndPoint_15), 0 } ,
-	{ 383, 7529, offsetof(FtpWebRequest_t4040, ___proxy_16), 0 } ,
-	{ 385, 110, offsetof(FtpWebRequest_t4040, ___timeout_17), 0 } ,
-	{ 456, 110, offsetof(FtpWebRequest_t4040, ___rwTimeout_18), 0 } ,
-	{ 457, 116, offsetof(FtpWebRequest_t4040, ___offset_19), 0 } ,
-	{ 458, 100, offsetof(FtpWebRequest_t4040, ___binary_20), 0 } ,
-	{ 459, 100, offsetof(FtpWebRequest_t4040, ___enableSsl_21), 0 } ,
-	{ 460, 100, offsetof(FtpWebRequest_t4040, ___usePassive_22), 0 } ,
-	{ 461, 100, offsetof(FtpWebRequest_t4040, ___keepAlive_23), 0 } ,
-	{ 382, 99, offsetof(FtpWebRequest_t4040, ___method_24), 0 } ,
-	{ 462, 99, offsetof(FtpWebRequest_t4040, ___renameTo_25), 0 } ,
-	{ 322, 645, offsetof(FtpWebRequest_t4040, ___locker_26), 0 } ,
-	{ 463, 7559, offsetof(FtpWebRequest_t4040, ___requestState_27), 0 } ,
-	{ 464, 7560, offsetof(FtpWebRequest_t4040, ___asyncResult_28), 0 } ,
-	{ 465, 7537, offsetof(FtpWebRequest_t4040, ___ftpResponse_29), 0 } ,
-	{ 466, 3847, offsetof(FtpWebRequest_t4040, ___requestStream_30), 0 } ,
-	{ 467, 99, offsetof(FtpWebRequest_t4040, ___initial_path_31), 0 } ,
-	{ 468, 5089, offsetof(FtpWebRequest_t4040_StaticFields, ___supportedCommands_32), 0 } ,
-	{ 174, 7427, offsetof(FtpWebRequest_t4040, ___callback_33), 0 } ,
-	{ 469, 7561, offsetof(FtpWebRequest_t4040_StaticFields, ___U3CU3Ef__amU24cache1C_34), 35 } ,
-	{ 470, 943, offsetof(FtpWebRequest_t4040_StaticFields, ___U3CU3Ef__switchU24map5_35), 36 } ,
-	{ 471, 943, offsetof(FtpWebRequest_t4040_StaticFields, ___U3CU3Ef__switchU24map6_36), 37 } ,
-	{ 395, 3847, offsetof(FtpWebResponse_t4036, ___stream_1), 0 } ,
-	{ 376, 3538, offsetof(FtpWebResponse_t4036, ___uri_2), 0 } ,
-	{ 401, 7563, offsetof(FtpWebResponse_t4036, ___statusCode_3), 0 } ,
-	{ 472, 1234, offsetof(FtpWebResponse_t4036, ___lastModified_4), 0 } ,
-	{ 473, 99, offsetof(FtpWebResponse_t4036, ___bannerMessage_5), 0 } ,
-	{ 474, 99, offsetof(FtpWebResponse_t4036, ___welcomeMessage_6), 0 } ,
-	{ 475, 99, offsetof(FtpWebResponse_t4036, ___exitMessage_7), 0 } ,
-	{ 402, 99, offsetof(FtpWebResponse_t4036, ___statusDescription_8), 0 } ,
-	{ 382, 99, offsetof(FtpWebResponse_t4036, ___method_9), 0 } ,
-	{ 77, 100, offsetof(FtpWebResponse_t4036, ___disposed_10), 0 } ,
-	{ 397, 7541, offsetof(FtpWebResponse_t4036, ___request_11), 0 } ,
-	{ 380, 7564, offsetof(FtpWebResponse_t4036, ___contentLength_12), 0 } ,
-	{ 65, 90, offsetof(HttpStatusCode_t4051, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 476, 7570, 0, 0 } ,
-	{ 477, 7570, 0, 0 } ,
-	{ 478, 7570, 0, 0 } ,
-	{ 479, 7570, 0, 0 } ,
-	{ 480, 7570, 0, 0 } ,
-	{ 481, 7570, 0, 0 } ,
-	{ 482, 7570, 0, 0 } ,
-	{ 483, 7570, 0, 0 } ,
-	{ 484, 7570, 0, 0 } ,
-	{ 485, 7570, 0, 0 } ,
-	{ 486, 7570, 0, 0 } ,
-	{ 487, 7570, 0, 0 } ,
-	{ 488, 7570, 0, 0 } ,
-	{ 489, 7570, 0, 0 } ,
-	{ 490, 7570, 0, 0 } ,
-	{ 491, 7570, 0, 0 } ,
-	{ 492, 7570, 0, 0 } ,
-	{ 493, 7570, 0, 0 } ,
-	{ 494, 7570, 0, 0 } ,
-	{ 495, 7570, 0, 0 } ,
-	{ 496, 7570, 0, 0 } ,
-	{ 497, 7570, 0, 0 } ,
-	{ 498, 7570, 0, 0 } ,
-	{ 499, 7570, 0, 0 } ,
-	{ 500, 7570, 0, 0 } ,
-	{ 501, 7570, 0, 0 } ,
-	{ 502, 7570, 0, 0 } ,
-	{ 503, 7570, 0, 0 } ,
-	{ 504, 7570, 0, 0 } ,
-	{ 505, 7570, 0, 0 } ,
-	{ 506, 7570, 0, 0 } ,
-	{ 507, 7570, 0, 0 } ,
-	{ 508, 7570, 0, 0 } ,
-	{ 509, 7570, 0, 0 } ,
-	{ 510, 7570, 0, 0 } ,
-	{ 511, 7570, 0, 0 } ,
-	{ 512, 7570, 0, 0 } ,
-	{ 513, 7570, 0, 0 } ,
-	{ 514, 7570, 0, 0 } ,
-	{ 515, 7570, 0, 0 } ,
-	{ 516, 7570, 0, 0 } ,
-	{ 517, 7570, 0, 0 } ,
-	{ 518, 7570, 0, 0 } ,
-	{ 519, 7570, 0, 0 } ,
-	{ 520, 7570, 0, 0 } ,
-	{ 521, 7570, 0, 0 } ,
-	{ 522, 7572, offsetof(HttpVersion_t4052_StaticFields, ___Version10_0), 0 } ,
-	{ 523, 7572, offsetof(HttpVersion_t4052_StaticFields, ___Version11_1), 0 } ,
-	{ 447, 3538, offsetof(HttpWebRequest_t3859, ___requestUri_6), 0 } ,
-	{ 524, 3538, offsetof(HttpWebRequest_t3859, ___actualUri_7), 0 } ,
-	{ 525, 100, offsetof(HttpWebRequest_t3859, ___hostChanged_8), 0 } ,
-	{ 526, 100, offsetof(HttpWebRequest_t3859, ___allowAutoRedirect_9), 0 } ,
-	{ 527, 100, offsetof(HttpWebRequest_t3859, ___allowBuffering_10), 0 } ,
-	{ 528, 6939, offsetof(HttpWebRequest_t3859, ___certificates_11), 0 } ,
-	{ 379, 99, offsetof(HttpWebRequest_t3859, ___connectionGroup_12), 0 } ,
-	{ 380, 116, offsetof(HttpWebRequest_t3859, ___contentLength_13), 0 } ,
-	{ 529, 7574, offsetof(HttpWebRequest_t3859, ___continueDelegate_14), 0 } ,
-	{ 530, 7575, offsetof(HttpWebRequest_t3859, ___cookieContainer_15), 0 } ,
-	{ 378, 5949, offsetof(HttpWebRequest_t3859, ___credentials_16), 0 } ,
-	{ 531, 100, offsetof(HttpWebRequest_t3859, ___haveResponse_17), 0 } ,
-	{ 532, 100, offsetof(HttpWebRequest_t3859, ___haveRequest_18), 0 } ,
-	{ 533, 100, offsetof(HttpWebRequest_t3859, ___requestSent_19), 0 } ,
-	{ 377, 7528, offsetof(HttpWebRequest_t3859, ___webHeaders_20), 0 } ,
-	{ 461, 100, offsetof(HttpWebRequest_t3859, ___keepAlive_21), 0 } ,
-	{ 534, 110, offsetof(HttpWebRequest_t3859, ___maxAutoRedirect_22), 0 } ,
-	{ 535, 99, offsetof(HttpWebRequest_t3859, ___mediaType_23), 0 } ,
-	{ 382, 99, offsetof(HttpWebRequest_t3859, ___method_24), 0 } ,
-	{ 536, 99, offsetof(HttpWebRequest_t3859, ___initialMethod_25), 0 } ,
-	{ 537, 100, offsetof(HttpWebRequest_t3859, ___pipelined_26), 0 } ,
-	{ 384, 100, offsetof(HttpWebRequest_t3859, ___preAuthenticate_27), 0 } ,
-	{ 538, 100, offsetof(HttpWebRequest_t3859, ___usedPreAuth_28), 0 } ,
-	{ 2, 7576, offsetof(HttpWebRequest_t3859, ___version_29), 0 } ,
-	{ 539, 7576, offsetof(HttpWebRequest_t3859, ___actualVersion_30), 0 } ,
-	{ 383, 7529, offsetof(HttpWebRequest_t3859, ___proxy_31), 0 } ,
-	{ 540, 100, offsetof(HttpWebRequest_t3859, ___sendChunked_32), 0 } ,
-	{ 449, 7554, offsetof(HttpWebRequest_t3859, ___servicePoint_33), 0 } ,
-	{ 385, 110, offsetof(HttpWebRequest_t3859, ___timeout_34), 0 } ,
-	{ 541, 7577, offsetof(HttpWebRequest_t3859, ___writeStream_35), 0 } ,
-	{ 386, 7578, offsetof(HttpWebRequest_t3859, ___webResponse_36), 0 } ,
-	{ 542, 7579, offsetof(HttpWebRequest_t3859, ___asyncWrite_37), 0 } ,
-	{ 543, 7579, offsetof(HttpWebRequest_t3859, ___asyncRead_38), 0 } ,
-	{ 544, 7580, offsetof(HttpWebRequest_t3859, ___abortHandler_39), 0 } ,
-	{ 545, 110, offsetof(HttpWebRequest_t3859, ___aborted_40), 0 } ,
-	{ 546, 110, offsetof(HttpWebRequest_t3859, ___redirects_41), 0 } ,
-	{ 547, 100, offsetof(HttpWebRequest_t3859, ___expectContinue_42), 0 } ,
-	{ 548, 100, offsetof(HttpWebRequest_t3859, ___authCompleted_43), 0 } ,
-	{ 549, 866, offsetof(HttpWebRequest_t3859, ___bodyBuffer_44), 0 } ,
-	{ 550, 110, offsetof(HttpWebRequest_t3859, ___bodyBufferLength_45), 0 } ,
-	{ 551, 100, offsetof(HttpWebRequest_t3859, ___getResponseCalled_46), 0 } ,
-	{ 552, 3438, offsetof(HttpWebRequest_t3859, ___saved_exc_47), 0 } ,
-	{ 322, 645, offsetof(HttpWebRequest_t3859, ___locker_48), 0 } ,
-	{ 553, 100, offsetof(HttpWebRequest_t3859, ___is_ntlm_auth_49), 0 } ,
-	{ 554, 100, offsetof(HttpWebRequest_t3859, ___finished_reading_50), 0 } ,
-	{ 555, 7581, offsetof(HttpWebRequest_t3859, ___WebConnection_51), 0 } ,
-	{ 556, 7582, offsetof(HttpWebRequest_t3859, ___auto_decomp_52), 0 } ,
-	{ 557, 840, offsetof(HttpWebRequest_t3859_StaticFields, ___defaultMaxResponseHeadersLength_53), 0 } ,
-	{ 558, 110, offsetof(HttpWebRequest_t3859, ___readWriteTimeout_54), 0 } ,
-	{ 559, 100, offsetof(HttpWebRequest_t3859, ___unsafe_auth_blah_55), 0 } ,
-	{ 376, 3538, offsetof(HttpWebResponse_t4055, ___uri_1), 0 } ,
-	{ 377, 7528, offsetof(HttpWebResponse_t4055, ___webHeaders_2), 0 } ,
-	{ 560, 7507, offsetof(HttpWebResponse_t4055, ___cookieCollection_3), 0 } ,
-	{ 382, 99, offsetof(HttpWebResponse_t4055, ___method_4), 0 } ,
-	{ 2, 7576, offsetof(HttpWebResponse_t4055, ___version_5), 0 } ,
-	{ 401, 7584, offsetof(HttpWebResponse_t4055, ___statusCode_6), 0 } ,
-	{ 402, 99, offsetof(HttpWebResponse_t4055, ___statusDescription_7), 0 } ,
-	{ 380, 116, offsetof(HttpWebResponse_t4055, ___contentLength_8), 0 } ,
-	{ 561, 99, offsetof(HttpWebResponse_t4055, ___contentType_9), 0 } ,
-	{ 562, 7575, offsetof(HttpWebResponse_t4055, ___cookie_container_10), 0 } ,
-	{ 77, 100, offsetof(HttpWebResponse_t4055, ___disposed_11), 0 } ,
-	{ 395, 3847, offsetof(HttpWebResponse_t4055, ___stream_12), 0 } ,
-	{ 563, 615, offsetof(HttpWebResponse_t4055, ___cookieExpiresFormats_13), 0 } ,
-	{ 564, 943, offsetof(HttpWebResponse_t4055_StaticFields, ___U3CU3Ef__switchU24map8_14), 44 } ,
-	{ 363, 99, offsetof(CookieParser_t4059, ___header_0), 0 } ,
-	{ 365, 110, offsetof(CookieParser_t4059, ___pos_1), 0 } ,
-	{ 364, 110, offsetof(CookieParser_t4059, ___length_2), 0 } ,
-	{ 565, 116, offsetof(IPAddress_t4061, ___m_Address_0), 0 } ,
-	{ 566, 7469, offsetof(IPAddress_t4061, ___m_Family_1), 0 } ,
-	{ 567, 7593, offsetof(IPAddress_t4061, ___m_Numbers_2), 0 } ,
-	{ 568, 116, offsetof(IPAddress_t4061, ___m_ScopeId_3), 0 } ,
-	{ 569, 7594, offsetof(IPAddress_t4061_StaticFields, ___Any_4), 0 } ,
-	{ 271, 7594, offsetof(IPAddress_t4061_StaticFields, ___Broadcast_5), 0 } ,
-	{ 570, 7594, offsetof(IPAddress_t4061_StaticFields, ___Loopback_6), 0 } ,
-	{ 85, 7594, offsetof(IPAddress_t4061_StaticFields, ___None_7), 0 } ,
-	{ 571, 7594, offsetof(IPAddress_t4061_StaticFields, ___IPv6Any_8), 0 } ,
-	{ 572, 7594, offsetof(IPAddress_t4061_StaticFields, ___IPv6Loopback_9), 0 } ,
-	{ 573, 7594, offsetof(IPAddress_t4061_StaticFields, ___IPv6None_10), 0 } ,
-	{ 574, 7596, offsetof(IPEndPoint_t4048, ___address_0), 0 } ,
-	{ 347, 110, offsetof(IPEndPoint_t4048, ___port_1), 0 } ,
-	{ 575, 7598, offsetof(IPHostEntry_t4047, ___addressList_0), 0 } ,
-	{ 576, 615, offsetof(IPHostEntry_t4047, ___aliases_1), 0 } ,
-	{ 577, 99, offsetof(IPHostEntry_t4047, ___hostName_2), 0 } ,
-	{ 574, 7593, offsetof(IPv6Address_t4062, ___address_0), 0 } ,
-	{ 578, 110, offsetof(IPv6Address_t4062, ___prefixLength_1), 0 } ,
-	{ 579, 116, offsetof(IPv6Address_t4062, ___scopeId_2), 0 } ,
-	{ 570, 7601, offsetof(IPv6Address_t4062_StaticFields, ___Loopback_3), 0 } ,
-	{ 97, 7601, offsetof(IPv6Address_t4062_StaticFields, ___Unspecified_4), 0 } ,
-	{ 580, 99, offsetof(NetworkCredential_t4046, ___userName_0), 0 } ,
-	{ 581, 99, offsetof(NetworkCredential_t4046, ___password_1), 0 } ,
-	{ 342, 99, offsetof(NetworkCredential_t4046, ___domain_2), 0 } ,
-	{ 65, 90, offsetof(SecurityProtocolType_t4064, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 582, 7607, 0, 0 } ,
-	{ 583, 7607, 0, 0 } ,
-	{ 376, 3538, offsetof(ServicePoint_t3934, ___uri_0), 0 } ,
-	{ 584, 110, offsetof(ServicePoint_t3934, ___connectionLimit_1), 0 } ,
-	{ 585, 110, offsetof(ServicePoint_t3934, ___maxIdleTime_2), 0 } ,
-	{ 586, 110, offsetof(ServicePoint_t3934, ___currentConnections_3), 0 } ,
-	{ 587, 1234, offsetof(ServicePoint_t3934, ___idleSince_4), 0 } ,
-	{ 588, 7576, offsetof(ServicePoint_t3934, ___protocolVersion_5), 0 } ,
-	{ 589, 6940, offsetof(ServicePoint_t3934, ___certificate_6), 0 } ,
-	{ 590, 6940, offsetof(ServicePoint_t3934, ___clientCertificate_7), 0 } ,
-	{ 36, 7557, offsetof(ServicePoint_t3934, ___host_8), 0 } ,
-	{ 591, 100, offsetof(ServicePoint_t3934, ___usesProxy_9), 0 } ,
-	{ 592, 5712, offsetof(ServicePoint_t3934, ___groups_10), 0 } ,
-	{ 593, 100, offsetof(ServicePoint_t3934, ___sendContinue_11), 0 } ,
-	{ 594, 100, offsetof(ServicePoint_t3934, ___useConnect_12), 0 } ,
-	{ 322, 645, offsetof(ServicePoint_t3934, ___locker_13), 0 } ,
-	{ 595, 645, offsetof(ServicePoint_t3934, ___hostE_14), 0 } ,
-	{ 596, 100, offsetof(ServicePoint_t3934, ___useNagle_15), 0 } ,
-	{ 597, 7610, offsetof(ServicePoint_t3934, ___endPointCallback_16), 0 } ,
-	{ 376, 3538, offsetof(SPKey_t4066, ___uri_0), 0 } ,
-	{ 598, 100, offsetof(SPKey_t4066, ___use_connect_1), 0 } ,
-	{ 599, 645, offsetof(ChainValidationHelper_t4067, ___sender_0), 0 } ,
-	{ 36, 99, offsetof(ChainValidationHelper_t4067, ___host_1), 0 } ,
-	{ 600, 673, offsetof(ChainValidationHelper_t4067_StaticFields, ___is_macosx_2), 0 } ,
-	{ 601, 7613, offsetof(ChainValidationHelper_t4067_StaticFields, ___s_flags_3), 0 } ,
-	{ 602, 7615, offsetof(ServicePointManager_t3927_StaticFields, ___servicePoints_0), 0 } ,
-	{ 603, 7616, offsetof(ServicePointManager_t3927_StaticFields, ___policy_1), 0 } ,
-	{ 604, 840, offsetof(ServicePointManager_t3927_StaticFields, ___defaultConnectionLimit_2), 0 } ,
-	{ 605, 840, offsetof(ServicePointManager_t3927_StaticFields, ___maxServicePointIdleTime_3), 0 } ,
-	{ 606, 840, offsetof(ServicePointManager_t3927_StaticFields, ___maxServicePoints_4), 0 } ,
-	{ 607, 673, offsetof(ServicePointManager_t3927_StaticFields, ____checkCRL_5), 0 } ,
-	{ 608, 7617, offsetof(ServicePointManager_t3927_StaticFields, ____securityProtocol_6), 0 } ,
-	{ 547, 673, offsetof(ServicePointManager_t3927_StaticFields, ___expectContinue_7), 0 } ,
-	{ 596, 673, offsetof(ServicePointManager_t3927_StaticFields, ___useNagle_8), 0 } ,
-	{ 609, 7561, offsetof(ServicePointManager_t3927_StaticFields, ___server_cert_cb_9), 0 } ,
-	{ 81, 866, offsetof(SocketAddress_t4068, ___data_0), 0 } ,
-	{ 173, 6903, offsetof(WebAsyncResult_t4056, ___handle_0), 0 } ,
-	{ 396, 100, offsetof(WebAsyncResult_t4056, ___synch_1), 0 } ,
-	{ 610, 100, offsetof(WebAsyncResult_t4056, ___isCompleted_2), 0 } ,
-	{ 611, 6902, offsetof(WebAsyncResult_t4056, ___cb_3), 0 } ,
-	{ 64, 645, offsetof(WebAsyncResult_t4056, ___state_4), 0 } ,
-	{ 612, 110, offsetof(WebAsyncResult_t4056, ___nbytes_5), 0 } ,
-	{ 613, 7619, offsetof(WebAsyncResult_t4056, ___innerAsyncResult_6), 0 } ,
-	{ 614, 100, offsetof(WebAsyncResult_t4056, ___callbackDone_7), 0 } ,
-	{ 615, 3438, offsetof(WebAsyncResult_t4056, ___exc_8), 0 } ,
-	{ 392, 7578, offsetof(WebAsyncResult_t4056, ___response_9), 0 } ,
-	{ 541, 3847, offsetof(WebAsyncResult_t4056, ___writeStream_10), 0 } ,
-	{ 616, 866, offsetof(WebAsyncResult_t4056, ___buffer_11), 0 } ,
-	{ 457, 110, offsetof(WebAsyncResult_t4056, ___offset_12), 0 } ,
-	{ 617, 110, offsetof(WebAsyncResult_t4056, ___size_13), 0 } ,
-	{ 322, 645, offsetof(WebAsyncResult_t4056, ___locker_14), 0 } ,
-	{ 195, 104, offsetof(WebAsyncResult_t4056, ___EndCalled_15), 0 } ,
-	{ 618, 104, offsetof(WebAsyncResult_t4056, ___AsyncWriteAll_16), 0 } ,
-	{ 65, 90, offsetof(ReadState_t4069, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 85, 7621, 0, 0 } ,
-	{ 619, 7621, 0, 0 } ,
-	{ 620, 7621, 0, 0 } ,
-	{ 621, 7621, 0, 0 } ,
-	{ 622, 7624, offsetof(AbortHelper_t4070, ___Connection_0), 0 } ,
-	{ 623, 7554, offsetof(WebConnection_t4058, ___sPoint_0), 0 } ,
-	{ 624, 3847, offsetof(WebConnection_t4058, ___nstream_1), 0 } ,
-	{ 130, 7435, offsetof(WebConnection_t4058, ___socket_2), 0 } ,
-	{ 625, 645, offsetof(WebConnection_t4058, ___socketLock_3), 0 } ,
-	{ 626, 7626, offsetof(WebConnection_t4058, ___status_4), 0 } ,
-	{ 627, 7627, offsetof(WebConnection_t4058, ___initConn_5), 0 } ,
-	{ 461, 100, offsetof(WebConnection_t4058, ___keepAlive_6), 0 } ,
-	{ 616, 866, offsetof(WebConnection_t4058, ___buffer_7), 0 } ,
-	{ 628, 7628, offsetof(WebConnection_t4058_StaticFields, ___readDoneDelegate_8), 0 } ,
-	{ 544, 7580, offsetof(WebConnection_t4058, ___abortHandler_9), 0 } ,
-	{ 629, 7629, offsetof(WebConnection_t4058, ___abortHelper_10), 0 } ,
-	{ 630, 7630, offsetof(WebConnection_t4058, ___readState_11), 0 } ,
-	{ 631, 7631, offsetof(WebConnection_t4058, ___Data_12), 0 } ,
-	{ 632, 100, offsetof(WebConnection_t4058, ___chunkedRead_13), 0 } ,
-	{ 633, 7632, offsetof(WebConnection_t4058, ___chunkStream_14), 0 } ,
-	{ 634, 7468, offsetof(WebConnection_t4058, ___queue_15), 0 } ,
-	{ 635, 100, offsetof(WebConnection_t4058, ___reused_16), 0 } ,
-	{ 636, 110, offsetof(WebConnection_t4058, ___position_17), 0 } ,
-	{ 637, 100, offsetof(WebConnection_t4058, ___busy_18), 0 } ,
-	{ 638, 6897, offsetof(WebConnection_t4058, ___priority_request_19), 0 } ,
-	{ 639, 7556, offsetof(WebConnection_t4058, ___ntlm_credentials_20), 0 } ,
-	{ 640, 100, offsetof(WebConnection_t4058, ___ntlm_authenticated_21), 0 } ,
-	{ 641, 100, offsetof(WebConnection_t4058, ___unsafe_sharing_22), 0 } ,
-	{ 642, 100, offsetof(WebConnection_t4058, ___ssl_23), 0 } ,
-	{ 643, 100, offsetof(WebConnection_t4058, ___certsAvailable_24), 0 } ,
-	{ 644, 3438, offsetof(WebConnection_t4058, ___connect_exception_25), 0 } ,
-	{ 645, 3766, offsetof(WebConnection_t4058_StaticFields, ___classLock_26), 0 } ,
-	{ 646, 7633, offsetof(WebConnection_t4058_StaticFields, ___sslStream_27), 0 } ,
-	{ 647, 7634, offsetof(WebConnection_t4058_StaticFields, ___piClient_28), 0 } ,
-	{ 648, 7634, offsetof(WebConnection_t4058_StaticFields, ___piServer_29), 0 } ,
-	{ 649, 7634, offsetof(WebConnection_t4058_StaticFields, ___piTrustFailure_30), 0 } ,
-	{ 650, 7473, offsetof(WebConnection_t4058_StaticFields, ___method_GetSecurityPolicyFromNonMainThread_31), 0 } ,
-	{ 397, 7636, offsetof(WebConnectionData_t4071, ___request_0), 0 } ,
-	{ 651, 102, offsetof(WebConnectionData_t4071, ___StatusCode_1), 0 } ,
-	{ 652, 101, offsetof(WebConnectionData_t4071, ___StatusDescription_2), 0 } ,
-	{ 620, 7637, offsetof(WebConnectionData_t4071, ___Headers_3), 0 } ,
-	{ 653, 7638, offsetof(WebConnectionData_t4071, ___Version_4), 0 } ,
-	{ 395, 3454, offsetof(WebConnectionData_t4071, ___stream_5), 0 } ,
-	{ 654, 101, offsetof(WebConnectionData_t4071, ___Challenge_6), 0 } ,
-	{ 623, 7554, offsetof(WebConnectionGroup_t4072, ___sPoint_0), 0 } ,
-	{ 345, 99, offsetof(WebConnectionGroup_t4072, ___name_1), 0 } ,
-	{ 655, 5722, offsetof(WebConnectionGroup_t4072, ___connections_2), 0 } ,
-	{ 656, 7640, offsetof(WebConnectionGroup_t4072, ___rnd_3), 0 } ,
-	{ 634, 7468, offsetof(WebConnectionGroup_t4072, ___queue_4), 0 } ,
-	{ 657, 4819, offsetof(WebConnectionStream_t4054_StaticFields, ___crlf_1), 0 } ,
-	{ 399, 100, offsetof(WebConnectionStream_t4054, ___isRead_2), 0 } ,
-	{ 658, 7642, offsetof(WebConnectionStream_t4054, ___cnc_3), 0 } ,
-	{ 397, 6897, offsetof(WebConnectionStream_t4054, ___request_4), 0 } ,
-	{ 659, 866, offsetof(WebConnectionStream_t4054, ___readBuffer_5), 0 } ,
-	{ 660, 110, offsetof(WebConnectionStream_t4054, ___readBufferOffset_6), 0 } ,
-	{ 661, 110, offsetof(WebConnectionStream_t4054, ___readBufferSize_7), 0 } ,
-	{ 380, 110, offsetof(WebConnectionStream_t4054, ___contentLength_8), 0 } ,
-	{ 400, 110, offsetof(WebConnectionStream_t4054, ___totalRead_9), 0 } ,
-	{ 662, 116, offsetof(WebConnectionStream_t4054, ___totalWritten_10), 0 } ,
-	{ 663, 100, offsetof(WebConnectionStream_t4054, ___nextReadCalled_11), 0 } ,
-	{ 664, 110, offsetof(WebConnectionStream_t4054, ___pendingReads_12), 0 } ,
-	{ 665, 110, offsetof(WebConnectionStream_t4054, ___pendingWrites_13), 0 } ,
-	{ 666, 6903, offsetof(WebConnectionStream_t4054, ___pending_14), 0 } ,
-	{ 527, 100, offsetof(WebConnectionStream_t4054, ___allowBuffering_15), 0 } ,
-	{ 540, 100, offsetof(WebConnectionStream_t4054, ___sendChunked_16), 0 } ,
-	{ 667, 6936, offsetof(WebConnectionStream_t4054, ___writeBuffer_17), 0 } ,
-	{ 668, 100, offsetof(WebConnectionStream_t4054, ___requestWritten_18), 0 } ,
-	{ 332, 866, offsetof(WebConnectionStream_t4054, ___headers_19), 0 } ,
-	{ 77, 100, offsetof(WebConnectionStream_t4054, ___disposed_20), 0 } ,
-	{ 669, 100, offsetof(WebConnectionStream_t4054, ___headersSent_21), 0 } ,
-	{ 322, 645, offsetof(WebConnectionStream_t4054, ___locker_22), 0 } ,
-	{ 670, 100, offsetof(WebConnectionStream_t4054, ___initRead_23), 0 } ,
-	{ 671, 100, offsetof(WebConnectionStream_t4054, ___read_eof_24), 0 } ,
-	{ 672, 100, offsetof(WebConnectionStream_t4054, ___complete_request_written_25), 0 } ,
-	{ 673, 110, offsetof(WebConnectionStream_t4054, ___read_timeout_26), 0 } ,
-	{ 674, 110, offsetof(WebConnectionStream_t4054, ___write_timeout_27), 0 } ,
-	{ 392, 7644, offsetof(WebException_t4073, ___response_12), 0 } ,
-	{ 626, 7626, offsetof(WebException_t4073, ___status_13), 0 } ,
-	{ 65, 90, offsetof(WebExceptionStatus_t4074, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 257, 7646, 0, 0 } ,
-	{ 675, 7646, 0, 0 } ,
-	{ 676, 7646, 0, 0 } ,
-	{ 677, 7646, 0, 0 } ,
-	{ 678, 7646, 0, 0 } ,
-	{ 679, 7646, 0, 0 } ,
-	{ 680, 7646, 0, 0 } ,
-	{ 681, 7646, 0, 0 } ,
-	{ 426, 7646, 0, 0 } ,
-	{ 682, 7646, 0, 0 } ,
-	{ 683, 7646, 0, 0 } ,
-	{ 684, 7646, 0, 0 } ,
-	{ 685, 7646, 0, 0 } ,
-	{ 686, 7646, 0, 0 } ,
-	{ 687, 7646, 0, 0 } ,
-	{ 688, 7646, 0, 0 } ,
-	{ 689, 7646, 0, 0 } ,
-	{ 690, 7646, 0, 0 } ,
-	{ 691, 7646, 0, 0 } ,
-	{ 692, 7646, 0, 0 } ,
-	{ 693, 7646, 0, 0 } ,
-	{ 694, 7518, offsetof(WebHeaderCollection_t4016_StaticFields, ___restricted_12), 0 } ,
-	{ 695, 7518, offsetof(WebHeaderCollection_t4016_StaticFields, ___multiValue_13), 0 } ,
-	{ 696, 7648, offsetof(WebHeaderCollection_t4016_StaticFields, ___restricted_response_14), 0 } ,
-	{ 697, 100, offsetof(WebHeaderCollection_t4016, ___internallyCreated_15), 0 } ,
-	{ 698, 7649, offsetof(WebHeaderCollection_t4016_StaticFields, ___allowed_chars_16), 0 } ,
-	{ 574, 3538, offsetof(WebProxy_t4075, ___address_0), 0 } ,
-	{ 699, 100, offsetof(WebProxy_t4075, ___bypassOnLocal_1), 0 } ,
-	{ 700, 5722, offsetof(WebProxy_t4075, ___bypassList_2), 0 } ,
-	{ 378, 5949, offsetof(WebProxy_t4075, ___credentials_3), 0 } ,
-	{ 701, 100, offsetof(WebProxy_t4075, ___useDefaultCredentials_4), 0 } ,
-	{ 702, 7615, offsetof(WebRequest_t3301_StaticFields, ___prefixes_1), 0 } ,
-	{ 703, 673, offsetof(WebRequest_t3301_StaticFields, ___isDefaultWebProxySet_2), 0 } ,
-	{ 704, 7653, offsetof(WebRequest_t3301_StaticFields, ___defaultWebProxy_3), 0 } ,
-	{ 705, 7654, offsetof(WebRequest_t3301, ___authentication_level_4), 0 } ,
-	{ 706, 3790, offsetof(WebRequest_t3301_StaticFields, ___lockobj_5), 0 } ,
-	{ 65, 90, offsetof(SslProtocols_t4077, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 85, 7658, 0, 0 } ,
-	{ 707, 7658, 0, 0 } ,
-	{ 582, 7658, 0, 0 } ,
-	{ 583, 7658, 0, 0 } ,
-	{ 35, 7658, 0, 0 } ,
-	{ 65, 90, offsetof(SecTrustResult_t4078, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 708, 7660, 0, 0 } ,
-	{ 709, 7660, 0, 0 } ,
-	{ 710, 7660, 0, 0 } ,
-	{ 711, 7660, 0, 0 } ,
-	{ 97, 7660, 0, 0 } ,
-	{ 712, 7660, 0, 0 } ,
-	{ 713, 7660, 0, 0 } ,
-	{ 714, 7660, 0, 0 } ,
-	{ 715, 7665, offsetof(OSX509Certificates_t4079_StaticFields, ___sslsecpolicy_0), 0 } ,
-	{ 65, 90, offsetof(OpenFlags_t4080, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 716, 7667, 0, 0 } ,
-	{ 717, 7667, 0, 0 } ,
-	{ 718, 7667, 0, 0 } ,
-	{ 719, 7667, 0, 0 } ,
-	{ 720, 7667, 0, 0 } ,
-	{ 721, 7670, offsetof(PublicKey_t4083, ____key_0), 0 } ,
-	{ 722, 7671, offsetof(PublicKey_t4083, ____keyValue_1), 0 } ,
-	{ 723, 7671, offsetof(PublicKey_t4083, ____params_2), 0 } ,
-	{ 724, 7672, offsetof(PublicKey_t4083, ____oid_3), 0 } ,
-	{ 725, 943, offsetof(PublicKey_t4083_StaticFields, ___U3CU3Ef__switchU24map9_4), 57 } ,
-	{ 65, 90, offsetof(StoreLocation_t4084, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 726, 7674, 0, 0 } ,
-	{ 727, 7674, 0, 0 } ,
-	{ 65, 90, offsetof(StoreName_t4085, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 728, 7677, 0, 0 } ,
-	{ 729, 7677, 0, 0 } ,
-	{ 730, 7677, 0, 0 } ,
-	{ 731, 7677, 0, 0 } ,
-	{ 732, 7677, 0, 0 } ,
-	{ 733, 7677, 0, 0 } ,
-	{ 734, 7677, 0, 0 } ,
-	{ 735, 7677, 0, 0 } ,
-	{ 345, 99, offsetof(X500DistinguishedName_t4086, ___name_3), 0 } ,
-	{ 65, 90, offsetof(X500DistinguishedNameFlags_t4087, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 85, 7681, 0, 0 } ,
-	{ 736, 7681, 0, 0 } ,
-	{ 737, 7681, 0, 0 } ,
-	{ 738, 7681, 0, 0 } ,
-	{ 739, 7681, 0, 0 } ,
-	{ 740, 7681, 0, 0 } ,
-	{ 741, 7681, 0, 0 } ,
-	{ 742, 7681, 0, 0 } ,
-	{ 743, 7681, 0, 0 } ,
-	{ 744, 7681, 0, 0 } ,
-	{ 745, 1206, 0, 0 } ,
-	{ 746, 1206, 0, 0 } ,
-	{ 747, 100, offsetof(X509BasicConstraintsExtension_t4088, ____certificateAuthority_6), 0 } ,
-	{ 748, 100, offsetof(X509BasicConstraintsExtension_t4088, ____hasPathLengthConstraint_7), 0 } ,
-	{ 749, 110, offsetof(X509BasicConstraintsExtension_t4088, ____pathLengthConstraint_8), 0 } ,
-	{ 750, 7684, offsetof(X509BasicConstraintsExtension_t4088, ____status_9), 0 } ,
-	{ 751, 100, offsetof(X509Certificate2_t3936, ____archived_5), 0 } ,
-	{ 752, 7688, offsetof(X509Certificate2_t3936, ____extensions_6), 0 } ,
-	{ 753, 99, offsetof(X509Certificate2_t3936, ____name_7), 0 } ,
-	{ 754, 99, offsetof(X509Certificate2_t3936, ____serial_8), 0 } ,
-	{ 755, 7689, offsetof(X509Certificate2_t3936, ____publicKey_9), 0 } ,
-	{ 756, 7690, offsetof(X509Certificate2_t3936, ___issuer_name_10), 0 } ,
-	{ 757, 7690, offsetof(X509Certificate2_t3936, ___subject_name_11), 0 } ,
-	{ 758, 7672, offsetof(X509Certificate2_t3936, ___signature_algorithm_12), 0 } ,
-	{ 759, 6801, offsetof(X509Certificate2_t3936, ____cert_13), 0 } ,
-	{ 760, 1097, offsetof(X509Certificate2_t3936_StaticFields, ___empty_error_14), 0 } ,
-	{ 761, 4819, offsetof(X509Certificate2_t3936_StaticFields, ___commonName_15), 0 } ,
-	{ 762, 4819, offsetof(X509Certificate2_t3936_StaticFields, ___email_16), 0 } ,
-	{ 763, 4819, offsetof(X509Certificate2_t3936_StaticFields, ___signedData_17), 0 } ,
-	{ 764, 1308, offsetof(X509Certificate2Enumerator_t4092, ___enumerator_0), 0 } ,
-	{ 764, 1308, offsetof(X509CertificateEnumerator_t3941, ___enumerator_0), 0 } ,
-	{ 765, 7696, offsetof(X509Chain_t3937, ___location_0), 0 } ,
-	{ 766, 7697, offsetof(X509Chain_t3937, ___elements_1), 0 } ,
-	{ 603, 7698, offsetof(X509Chain_t3937, ___policy_2), 0 } ,
-	{ 626, 7699, offsetof(X509Chain_t3937, ___status_3), 0 } ,
-	{ 767, 7700, offsetof(X509Chain_t3937_StaticFields, ___Empty_4), 0 } ,
-	{ 768, 110, offsetof(X509Chain_t3937, ___max_path_length_5), 0 } ,
-	{ 769, 7690, offsetof(X509Chain_t3937, ___working_issuer_name_6), 0 } ,
-	{ 770, 7670, offsetof(X509Chain_t3937, ___working_public_key_7), 0 } ,
-	{ 771, 7701, offsetof(X509Chain_t3937, ___bce_restriction_8), 0 } ,
-	{ 772, 7702, offsetof(X509Chain_t3937, ___roots_9), 0 } ,
-	{ 773, 7702, offsetof(X509Chain_t3937, ___cas_10), 0 } ,
-	{ 774, 7703, offsetof(X509Chain_t3937, ___collection_11), 0 } ,
-	{ 775, 943, offsetof(X509Chain_t3937_StaticFields, ___U3CU3Ef__switchU24mapB_12), 67 } ,
-	{ 776, 943, offsetof(X509Chain_t3937_StaticFields, ___U3CU3Ef__switchU24mapC_13), 68 } ,
-	{ 777, 943, offsetof(X509Chain_t3937_StaticFields, ___U3CU3Ef__switchU24mapD_14), 69 } ,
-	{ 589, 7705, offsetof(X509ChainElement_t4097, ___certificate_0), 0 } ,
-	{ 626, 7699, offsetof(X509ChainElement_t4097, ___status_1), 0 } ,
-	{ 778, 99, offsetof(X509ChainElement_t4097, ___info_2), 0 } ,
-	{ 779, 7706, offsetof(X509ChainElement_t4097, ___compressed_status_flags_3), 0 } ,
-	{ 780, 5722, offsetof(X509ChainElementCollection_t4093, ____list_0), 0 } ,
-	{ 764, 1308, offsetof(X509ChainElementEnumerator_t4099, ___enumerator_0), 0 } ,
-	{ 781, 7713, offsetof(X509ChainPolicy_t4094, ___apps_0), 0 } ,
-	{ 782, 7713, offsetof(X509ChainPolicy_t4094, ___cert_1), 0 } ,
-	{ 783, 7703, offsetof(X509ChainPolicy_t4094, ___store_2), 0 } ,
-	{ 784, 7714, offsetof(X509ChainPolicy_t4094, ___rflag_3), 0 } ,
-	{ 75, 7715, offsetof(X509ChainPolicy_t4094, ___mode_4), 0 } ,
-	{ 385, 6571, offsetof(X509ChainPolicy_t4094, ___timeout_5), 0 } ,
-	{ 785, 7716, offsetof(X509ChainPolicy_t4094, ___vflags_6), 0 } ,
-	{ 786, 1234, offsetof(X509ChainPolicy_t4094, ___vtime_7), 0 } ,
-	{ 626, 7706, offsetof(X509ChainStatus_t4096, ___status_0) + sizeof(Object_t), 0 } ,
-	{ 778, 99, offsetof(X509ChainStatus_t4096, ___info_1) + sizeof(Object_t), 0 } ,
-	{ 65, 90, offsetof(X509ChainStatusFlags_t4101, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 787, 7719, 0, 0 } ,
-	{ 788, 7719, 0, 0 } ,
-	{ 789, 7719, 0, 0 } ,
-	{ 790, 7719, 0, 0 } ,
-	{ 791, 7719, 0, 0 } ,
-	{ 792, 7719, 0, 0 } ,
-	{ 793, 7719, 0, 0 } ,
-	{ 794, 7719, 0, 0 } ,
-	{ 795, 7719, 0, 0 } ,
-	{ 796, 7719, 0, 0 } ,
-	{ 797, 7719, 0, 0 } ,
-	{ 798, 7719, 0, 0 } ,
-	{ 799, 7719, 0, 0 } ,
-	{ 800, 7719, 0, 0 } ,
-	{ 801, 7719, 0, 0 } ,
-	{ 802, 7719, 0, 0 } ,
-	{ 803, 7719, 0, 0 } ,
-	{ 804, 7719, 0, 0 } ,
-	{ 805, 7719, 0, 0 } ,
-	{ 806, 7719, 0, 0 } ,
-	{ 807, 7719, 0, 0 } ,
-	{ 808, 7719, 0, 0 } ,
-	{ 809, 7719, 0, 0 } ,
-	{ 810, 7713, offsetof(X509EnhancedKeyUsageExtension_t4102, ____enhKeyUsage_4), 0 } ,
-	{ 750, 7684, offsetof(X509EnhancedKeyUsageExtension_t4102, ____status_5), 0 } ,
-	{ 811, 943, offsetof(X509EnhancedKeyUsageExtension_t4102_StaticFields, ___U3CU3Ef__switchU24mapE_6), 73 } ,
-	{ 812, 100, offsetof(X509Extension_t4089, ____critical_3), 0 } ,
-	{ 780, 5722, offsetof(X509ExtensionCollection_t4090, ____list_0), 0 } ,
-	{ 764, 1308, offsetof(X509ExtensionEnumerator_t4103, ___enumerator_0), 0 } ,
-	{ 65, 90, offsetof(X509FindType_t4104, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 813, 7725, 0, 0 } ,
-	{ 814, 7725, 0, 0 } ,
-	{ 815, 7725, 0, 0 } ,
-	{ 816, 7725, 0, 0 } ,
-	{ 817, 7725, 0, 0 } ,
-	{ 818, 7725, 0, 0 } ,
-	{ 819, 7725, 0, 0 } ,
-	{ 820, 7725, 0, 0 } ,
-	{ 821, 7725, 0, 0 } ,
-	{ 822, 7725, 0, 0 } ,
-	{ 823, 7725, 0, 0 } ,
-	{ 824, 7725, 0, 0 } ,
-	{ 825, 7725, 0, 0 } ,
-	{ 826, 7725, 0, 0 } ,
-	{ 827, 7725, 0, 0 } ,
-	{ 745, 1206, 0, 0 } ,
-	{ 746, 1206, 0, 0 } ,
-	{ 828, 7728, 0, 0 } ,
-	{ 829, 7729, offsetof(X509KeyUsageExtension_t4105, ____keyUsages_7), 0 } ,
-	{ 750, 7684, offsetof(X509KeyUsageExtension_t4105, ____status_8), 0 } ,
-	{ 65, 90, offsetof(X509KeyUsageFlags_t4106, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 85, 7731, 0, 0 } ,
-	{ 830, 7731, 0, 0 } ,
-	{ 831, 7731, 0, 0 } ,
-	{ 832, 7731, 0, 0 } ,
-	{ 833, 7731, 0, 0 } ,
-	{ 834, 7731, 0, 0 } ,
-	{ 835, 7731, 0, 0 } ,
-	{ 836, 7731, 0, 0 } ,
-	{ 837, 7731, 0, 0 } ,
-	{ 838, 7731, 0, 0 } ,
-	{ 65, 90, offsetof(X509NameType_t4107, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 839, 7733, 0, 0 } ,
-	{ 840, 7733, 0, 0 } ,
-	{ 841, 7733, 0, 0 } ,
-	{ 842, 7733, 0, 0 } ,
-	{ 843, 7733, 0, 0 } ,
-	{ 844, 7733, 0, 0 } ,
-	{ 65, 90, offsetof(X509RevocationFlag_t4108, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 845, 7735, 0, 0 } ,
-	{ 846, 7735, 0, 0 } ,
-	{ 847, 7735, 0, 0 } ,
-	{ 65, 90, offsetof(X509RevocationMode_t4109, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 848, 7737, 0, 0 } ,
-	{ 849, 7737, 0, 0 } ,
-	{ 850, 7737, 0, 0 } ,
-	{ 753, 99, offsetof(X509Store_t4098, ____name_0), 0 } ,
-	{ 851, 7696, offsetof(X509Store_t4098, ____location_1), 0 } ,
-	{ 3, 7703, offsetof(X509Store_t4098, ___list_2), 0 } ,
-	{ 852, 7739, offsetof(X509Store_t4098, ____flags_3), 0 } ,
-	{ 783, 6814, offsetof(X509Store_t4098, ___store_4), 0 } ,
-	{ 853, 943, offsetof(X509Store_t4098_StaticFields, ___U3CU3Ef__switchU24mapF_5), 76 } ,
-	{ 745, 1206, 0, 0 } ,
-	{ 746, 1206, 0, 0 } ,
-	{ 854, 866, offsetof(X509SubjectKeyIdentifierExtension_t4110, ____subjectKeyIdentifier_6), 0 } ,
-	{ 855, 99, offsetof(X509SubjectKeyIdentifierExtension_t4110, ____ski_7), 0 } ,
-	{ 750, 7684, offsetof(X509SubjectKeyIdentifierExtension_t4110, ____status_8), 0 } ,
-	{ 65, 90, offsetof(X509SubjectKeyIdentifierHashAlgorithm_t4111, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 856, 7743, 0, 0 } ,
-	{ 857, 7743, 0, 0 } ,
-	{ 858, 7743, 0, 0 } ,
-	{ 65, 90, offsetof(X509VerificationFlags_t4112, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 859, 7745, 0, 0 } ,
-	{ 860, 7745, 0, 0 } ,
-	{ 861, 7745, 0, 0 } ,
-	{ 862, 7745, 0, 0 } ,
-	{ 863, 7745, 0, 0 } ,
-	{ 864, 7745, 0, 0 } ,
-	{ 865, 7745, 0, 0 } ,
-	{ 866, 7745, 0, 0 } ,
-	{ 867, 7745, 0, 0 } ,
-	{ 868, 7745, 0, 0 } ,
-	{ 869, 7745, 0, 0 } ,
-	{ 870, 7745, 0, 0 } ,
-	{ 871, 7745, 0, 0 } ,
-	{ 872, 7745, 0, 0 } ,
-	{ 65, 90, offsetof(AsnDecodeStatus_t4113, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 873, 7747, 0, 0 } ,
-	{ 874, 7747, 0, 0 } ,
-	{ 875, 7747, 0, 0 } ,
-	{ 876, 7747, 0, 0 } ,
-	{ 877, 7747, 0, 0 } ,
-	{ 878, 7747, 0, 0 } ,
-	{ 724, 7749, offsetof(AsnEncodedData_t4081, ____oid_0), 0 } ,
-	{ 879, 610, offsetof(AsnEncodedData_t4081, ____raw_1), 0 } ,
-	{ 880, 943, offsetof(AsnEncodedData_t4081_StaticFields, ___U3CU3Ef__switchU24mapA_2), 78 } ,
-	{ 881, 99, offsetof(Oid_t4082, ____value_0), 0 } ,
-	{ 753, 99, offsetof(Oid_t4082, ____name_1), 0 } ,
-	{ 882, 943, offsetof(Oid_t4082_StaticFields, ___U3CU3Ef__switchU24map10_2), 79 } ,
-	{ 780, 5722, offsetof(OidCollection_t4100, ____list_0), 0 } ,
-	{ 883, 100, offsetof(OidCollection_t4100, ____readOnly_1), 0 } ,
-	{ 884, 7713, offsetof(OidEnumerator_t4114, ____collection_0), 0 } ,
-	{ 885, 110, offsetof(OidEnumerator_t4114, ____position_1), 0 } ,
-	{ 886, 1207, offsetof(BaseMachine_t4116, ___needs_groups_or_captures_0), 0 } ,
-	{ 5, 137, offsetof(Capture_t1436, ___index_0), 0 } ,
-	{ 364, 137, offsetof(Capture_t1436, ___length_1), 0 } ,
-	{ 887, 1036, offsetof(Capture_t1436, ___text_2), 0 } ,
-	{ 3, 7757, offsetof(CaptureCollection_t1438, ___list_0), 0 } ,
-	{ 888, 7759, offsetof(Group_t1435_StaticFields, ___Fail_3), 0 } ,
-	{ 889, 100, offsetof(Group_t1435, ___success_4), 0 } ,
-	{ 890, 7760, offsetof(Group_t1435, ___captures_5), 0 } ,
-	{ 3, 7762, offsetof(GroupCollection_t1437, ___list_0), 0 } ,
-	{ 891, 110, offsetof(GroupCollection_t1437, ___gap_1), 0 } ,
-	{ 892, 7764, offsetof(Match_t1374, ___regex_6), 0 } ,
-	{ 893, 7765, offsetof(Match_t1374, ___machine_7), 0 } ,
-	{ 894, 110, offsetof(Match_t1374, ___text_length_8), 0 } ,
-	{ 592, 7766, offsetof(Match_t1374, ___groups_9), 0 } ,
-	{ 895, 7767, offsetof(Match_t1374_StaticFields, ___empty_10), 0 } ,
-	{ 5, 110, offsetof(Enumerator_t4120, ___index_0), 0 } ,
-	{ 896, 7769, offsetof(Enumerator_t4120, ___coll_1), 0 } ,
-	{ 4, 7771, offsetof(MatchCollection_t3943, ___current_0), 0 } ,
-	{ 3, 5722, offsetof(MatchCollection_t3943, ___list_1), 0 } ,
-	{ 897, 7773, offsetof(Adapter_t4121, ___ev_0), 0 } ,
-	{ 374, 7775, offsetof(Regex_t787_StaticFields, ___cache_0), 0 } ,
-	{ 898, 7776, offsetof(Regex_t787, ___machineFactory_1), 0 } ,
-	{ 899, 7777, offsetof(Regex_t787, ___mapping_2), 0 } ,
-	{ 900, 110, offsetof(Regex_t787, ___group_count_3), 0 } ,
-	{ 891, 110, offsetof(Regex_t787, ___gap_4), 0 } ,
-	{ 901, 100, offsetof(Regex_t787, ___refsInitialized_5), 0 } ,
-	{ 902, 615, offsetof(Regex_t787, ___group_names_6), 0 } ,
-	{ 903, 1556, offsetof(Regex_t787, ___group_numbers_7), 0 } ,
-	{ 904, 7778, offsetof(Regex_t787, ___pattern_8), 0 } ,
-	{ 905, 7779, offsetof(Regex_t787, ___roptions_9), 0 } ,
-	{ 906, 7780, offsetof(Regex_t787, ___capnames_10), 84 } ,
-	{ 907, 7781, offsetof(Regex_t787, ___caps_11), 85 } ,
-	{ 908, 7782, offsetof(Regex_t787, ___capsize_12), 86 } ,
-	{ 909, 7783, offsetof(Regex_t787, ___capslist_13), 87 } ,
-	{ 65, 90, offsetof(RegexOptions_t4125, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 85, 7785, 0, 0 } ,
-	{ 910, 7785, 0, 0 } ,
-	{ 911, 7785, 0, 0 } ,
-	{ 912, 7785, 0, 0 } ,
-	{ 913, 7785, 0, 0 } ,
-	{ 914, 7785, 0, 0 } ,
-	{ 915, 7785, 0, 0 } ,
-	{ 916, 7785, 0, 0 } ,
-	{ 917, 7785, 0, 0 } ,
-	{ 65, 5052, offsetof(OpCode_t4126, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 918, 7787, 0, 0 } ,
-	{ 919, 7787, 0, 0 } ,
-	{ 920, 7787, 0, 0 } ,
-	{ 921, 7787, 0, 0 } ,
-	{ 922, 7787, 0, 0 } ,
-	{ 923, 7787, 0, 0 } ,
-	{ 924, 7787, 0, 0 } ,
-	{ 925, 7787, 0, 0 } ,
-	{ 926, 7787, 0, 0 } ,
-	{ 927, 7787, 0, 0 } ,
-	{ 928, 7787, 0, 0 } ,
-	{ 929, 7787, 0, 0 } ,
-	{ 930, 7787, 0, 0 } ,
-	{ 931, 7787, 0, 0 } ,
-	{ 932, 7787, 0, 0 } ,
-	{ 933, 7787, 0, 0 } ,
-	{ 934, 7787, 0, 0 } ,
-	{ 935, 7787, 0, 0 } ,
-	{ 936, 7787, 0, 0 } ,
-	{ 937, 7787, 0, 0 } ,
-	{ 938, 7787, 0, 0 } ,
-	{ 939, 7787, 0, 0 } ,
-	{ 940, 7787, 0, 0 } ,
-	{ 941, 7787, 0, 0 } ,
-	{ 942, 7787, 0, 0 } ,
-	{ 65, 5052, offsetof(OpFlags_t4127, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 85, 7790, 0, 0 } ,
-	{ 943, 7790, 0, 0 } ,
-	{ 910, 7790, 0, 0 } ,
-	{ 915, 7790, 0, 0 } ,
-	{ 944, 7790, 0, 0 } ,
-	{ 65, 5052, offsetof(Position_t4128, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 569, 7793, 0, 0 } ,
-	{ 945, 7793, 0, 0 } ,
-	{ 946, 7793, 0, 0 } ,
-	{ 947, 7793, 0, 0 } ,
-	{ 948, 7793, 0, 0 } ,
-	{ 949, 7793, 0, 0 } ,
-	{ 950, 7793, 0, 0 } ,
-	{ 951, 7793, 0, 0 } ,
-	{ 952, 7793, 0, 0 } ,
-	{ 953, 7793, 0, 0 } ,
-	{ 904, 101, offsetof(Key_t4129, ___pattern_0), 0 } ,
-	{ 954, 7798, offsetof(Key_t4129, ___options_1), 0 } ,
-	{ 357, 110, offsetof(FactoryCache_t4122, ___capacity_0), 0 } ,
-	{ 955, 5712, offsetof(FactoryCache_t4122, ___factories_1), 0 } ,
-	{ 956, 7800, offsetof(FactoryCache_t4122, ___mru_list_2), 0 } ,
-	{ 33, 647, offsetof(Node_t4131, ___value_0), 0 } ,
-	{ 957, 7802, offsetof(Node_t4131, ___previous_1), 0 } ,
-	{ 42, 7802, offsetof(Node_t4131, ___next_2), 0 } ,
-	{ 47, 7804, offsetof(MRUList_t4130, ___head_0), 0 } ,
-	{ 958, 7804, offsetof(MRUList_t4130, ___tail_1), 0 } ,
-	{ 65, 5052, offsetof(Category_t4132, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 85, 7806, 0, 0 } ,
-	{ 569, 7806, 0, 0 } ,
-	{ 959, 7806, 0, 0 } ,
-	{ 960, 7806, 0, 0 } ,
-	{ 961, 7806, 0, 0 } ,
-	{ 962, 7806, 0, 0 } ,
-	{ 963, 7806, 0, 0 } ,
-	{ 964, 7806, 0, 0 } ,
-	{ 965, 7806, 0, 0 } ,
-	{ 966, 7806, 0, 0 } ,
-	{ 967, 7806, 0, 0 } ,
-	{ 968, 7806, 0, 0 } ,
-	{ 969, 7806, 0, 0 } ,
-	{ 970, 7806, 0, 0 } ,
-	{ 971, 7806, 0, 0 } ,
-	{ 972, 7806, 0, 0 } ,
-	{ 973, 7806, 0, 0 } ,
-	{ 974, 7806, 0, 0 } ,
-	{ 975, 7806, 0, 0 } ,
-	{ 976, 7806, 0, 0 } ,
-	{ 977, 7806, 0, 0 } ,
-	{ 978, 7806, 0, 0 } ,
-	{ 979, 7806, 0, 0 } ,
-	{ 980, 7806, 0, 0 } ,
-	{ 981, 7806, 0, 0 } ,
-	{ 982, 7806, 0, 0 } ,
-	{ 983, 7806, 0, 0 } ,
-	{ 984, 7806, 0, 0 } ,
-	{ 985, 7806, 0, 0 } ,
-	{ 986, 7806, 0, 0 } ,
-	{ 987, 7806, 0, 0 } ,
-	{ 988, 7806, 0, 0 } ,
-	{ 989, 7806, 0, 0 } ,
-	{ 990, 7806, 0, 0 } ,
-	{ 991, 7806, 0, 0 } ,
-	{ 992, 7806, 0, 0 } ,
-	{ 993, 7806, 0, 0 } ,
-	{ 994, 7806, 0, 0 } ,
-	{ 995, 7806, 0, 0 } ,
-	{ 996, 7806, 0, 0 } ,
-	{ 997, 7806, 0, 0 } ,
-	{ 998, 7806, 0, 0 } ,
-	{ 999, 7806, 0, 0 } ,
-	{ 1000, 7806, 0, 0 } ,
-	{ 1001, 7806, 0, 0 } ,
-	{ 1002, 7806, 0, 0 } ,
-	{ 1003, 7806, 0, 0 } ,
-	{ 1004, 7806, 0, 0 } ,
-	{ 1005, 7806, 0, 0 } ,
-	{ 1006, 7806, 0, 0 } ,
-	{ 1007, 7806, 0, 0 } ,
-	{ 1008, 7806, 0, 0 } ,
-	{ 1009, 7806, 0, 0 } ,
-	{ 1010, 7806, 0, 0 } ,
-	{ 1011, 7806, 0, 0 } ,
-	{ 1012, 7806, 0, 0 } ,
-	{ 1013, 7806, 0, 0 } ,
-	{ 1014, 7806, 0, 0 } ,
-	{ 1015, 7806, 0, 0 } ,
-	{ 1016, 7806, 0, 0 } ,
-	{ 1017, 7806, 0, 0 } ,
-	{ 1018, 7806, 0, 0 } ,
-	{ 1019, 7806, 0, 0 } ,
-	{ 1020, 7806, 0, 0 } ,
-	{ 1021, 7806, 0, 0 } ,
-	{ 1022, 7806, 0, 0 } ,
-	{ 1023, 7806, 0, 0 } ,
-	{ 1024, 7806, 0, 0 } ,
-	{ 1025, 7806, 0, 0 } ,
-	{ 1026, 7806, 0, 0 } ,
-	{ 1027, 7806, 0, 0 } ,
-	{ 1028, 7806, 0, 0 } ,
-	{ 1029, 7806, 0, 0 } ,
-	{ 1030, 7806, 0, 0 } ,
-	{ 1031, 7806, 0, 0 } ,
-	{ 1032, 7806, 0, 0 } ,
-	{ 1033, 7806, 0, 0 } ,
-	{ 1034, 7806, 0, 0 } ,
-	{ 1035, 7806, 0, 0 } ,
-	{ 1036, 7806, 0, 0 } ,
-	{ 1037, 7806, 0, 0 } ,
-	{ 1038, 7806, 0, 0 } ,
-	{ 1039, 7806, 0, 0 } ,
-	{ 1040, 7806, 0, 0 } ,
-	{ 1041, 7806, 0, 0 } ,
-	{ 1042, 7806, 0, 0 } ,
-	{ 1043, 7806, 0, 0 } ,
-	{ 1044, 7806, 0, 0 } ,
-	{ 1045, 7806, 0, 0 } ,
-	{ 1046, 7806, 0, 0 } ,
-	{ 1047, 7806, 0, 0 } ,
-	{ 1048, 7806, 0, 0 } ,
-	{ 1049, 7806, 0, 0 } ,
-	{ 1050, 7806, 0, 0 } ,
-	{ 1051, 7806, 0, 0 } ,
-	{ 1052, 7806, 0, 0 } ,
-	{ 1053, 7806, 0, 0 } ,
-	{ 1054, 7806, 0, 0 } ,
-	{ 1055, 7806, 0, 0 } ,
-	{ 1056, 7806, 0, 0 } ,
-	{ 1057, 7806, 0, 0 } ,
-	{ 1058, 7806, 0, 0 } ,
-	{ 1059, 7806, 0, 0 } ,
-	{ 1060, 7806, 0, 0 } ,
-	{ 1061, 7806, 0, 0 } ,
-	{ 1062, 7806, 0, 0 } ,
-	{ 1063, 7806, 0, 0 } ,
-	{ 1064, 7806, 0, 0 } ,
-	{ 1065, 7806, 0, 0 } ,
-	{ 1066, 7806, 0, 0 } ,
-	{ 1067, 7806, 0, 0 } ,
-	{ 1068, 7806, 0, 0 } ,
-	{ 1069, 7806, 0, 0 } ,
-	{ 1070, 7806, 0, 0 } ,
-	{ 1071, 7806, 0, 0 } ,
-	{ 1072, 7806, 0, 0 } ,
-	{ 1073, 7806, 0, 0 } ,
-	{ 1074, 7806, 0, 0 } ,
-	{ 1075, 7806, 0, 0 } ,
-	{ 1076, 7806, 0, 0 } ,
-	{ 1077, 7806, 0, 0 } ,
-	{ 1078, 7806, 0, 0 } ,
-	{ 1079, 7806, 0, 0 } ,
-	{ 1080, 7806, 0, 0 } ,
-	{ 1081, 7806, 0, 0 } ,
-	{ 1082, 7806, 0, 0 } ,
-	{ 1083, 7806, 0, 0 } ,
-	{ 1084, 7806, 0, 0 } ,
-	{ 1085, 7806, 0, 0 } ,
-	{ 1086, 7806, 0, 0 } ,
-	{ 1087, 7806, 0, 0 } ,
-	{ 1088, 7806, 0, 0 } ,
-	{ 1089, 7806, 0, 0 } ,
-	{ 1090, 7806, 0, 0 } ,
-	{ 1091, 7806, 0, 0 } ,
-	{ 1092, 7806, 0, 0 } ,
-	{ 1093, 7806, 0, 0 } ,
-	{ 1094, 7806, 0, 0 } ,
-	{ 1095, 7806, 0, 0 } ,
-	{ 1096, 7806, 0, 0 } ,
-	{ 1097, 7806, 0, 0 } ,
-	{ 1098, 7806, 0, 0 } ,
-	{ 1099, 7806, 0, 0 } ,
-	{ 1100, 7806, 0, 0 } ,
-	{ 1101, 7806, 0, 0 } ,
-	{ 899, 7777, offsetof(InterpreterFactory_t4135, ___mapping_0), 0 } ,
-	{ 904, 7593, offsetof(InterpreterFactory_t4135, ___pattern_1), 0 } ,
-	{ 1102, 615, offsetof(InterpreterFactory_t4135, ___namesMapping_2), 0 } ,
-	{ 891, 110, offsetof(InterpreterFactory_t4135, ___gap_3), 0 } ,
-	{ 1103, 102, offsetof(Link_t4136, ___base_addr_0) + sizeof(Object_t), 0 } ,
-	{ 1104, 102, offsetof(Link_t4136, ___offset_addr_1) + sizeof(Object_t), 0 } ,
-	{ 1105, 7816, offsetof(PatternLinkStack_t4137, ___link_1), 0 } ,
-	{ 1106, 5722, offsetof(PatternCompiler_t4139, ___pgm_0), 0 } ,
-	{ 1107, 5766, offsetof(LinkStack_t4138, ___stack_0), 0 } ,
-	{ 945, 102, offsetof(Mark_t4140, ___Start_0) + sizeof(Object_t), 0 } ,
-	{ 949, 102, offsetof(Mark_t4140, ___End_1) + sizeof(Object_t), 0 } ,
-	{ 1108, 102, offsetof(Mark_t4140, ___Previous_2) + sizeof(Object_t), 0 } ,
-	{ 367, 1556, offsetof(IntStack_t4141, ___values_0) + sizeof(Object_t), 0 } ,
-	{ 6, 110, offsetof(IntStack_t4141, ___count_1) + sizeof(Object_t), 0 } ,
-	{ 1109, 110, offsetof(RepeatContext_t4142, ___start_0), 0 } ,
-	{ 1110, 110, offsetof(RepeatContext_t4142, ___min_1), 0 } ,
-	{ 1111, 110, offsetof(RepeatContext_t4142, ___max_2), 0 } ,
-	{ 1112, 100, offsetof(RepeatContext_t4142, ___lazy_3), 0 } ,
-	{ 1113, 110, offsetof(RepeatContext_t4142, ___expr_pc_4), 0 } ,
-	{ 957, 7823, offsetof(RepeatContext_t4142, ___previous_5), 0 } ,
-	{ 6, 110, offsetof(RepeatContext_t4142, ___count_6), 0 } ,
-	{ 65, 90, offsetof(Mode_t4143, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1114, 7825, 0, 0 } ,
-	{ 1115, 7825, 0, 0 } ,
-	{ 1116, 7825, 0, 0 } ,
-	{ 1117, 7593, offsetof(Interpreter_t4146, ___program_1), 0 } ,
-	{ 1118, 110, offsetof(Interpreter_t4146, ___program_start_2), 0 } ,
-	{ 887, 99, offsetof(Interpreter_t4146, ___text_3), 0 } ,
-	{ 1119, 110, offsetof(Interpreter_t4146, ___text_end_4), 0 } ,
-	{ 900, 110, offsetof(Interpreter_t4146, ___group_count_5), 0 } ,
-	{ 1120, 110, offsetof(Interpreter_t4146, ___match_min_6), 0 } ,
-	{ 1121, 7828, offsetof(Interpreter_t4146, ___qs_7), 0 } ,
-	{ 1122, 110, offsetof(Interpreter_t4146, ___scan_ptr_8), 0 } ,
-	{ 1123, 7823, offsetof(Interpreter_t4146, ___repeat_9), 0 } ,
-	{ 1124, 7823, offsetof(Interpreter_t4146, ___fast_10), 0 } ,
-	{ 1107, 7829, offsetof(Interpreter_t4146, ___stack_11), 0 } ,
-	{ 1125, 7823, offsetof(Interpreter_t4146, ___deep_12), 0 } ,
-	{ 1126, 7830, offsetof(Interpreter_t4146, ___marks_13), 0 } ,
-	{ 1127, 110, offsetof(Interpreter_t4146, ___mark_start_14), 0 } ,
-	{ 1128, 110, offsetof(Interpreter_t4146, ___mark_end_15), 0 } ,
-	{ 592, 1556, offsetof(Interpreter_t4146, ___groups_16), 0 } ,
-	{ 1129, 102, offsetof(Interval_t4147, ___low_0) + sizeof(Object_t), 0 } ,
-	{ 1130, 102, offsetof(Interval_t4147, ___high_1) + sizeof(Object_t), 0 } ,
-	{ 1131, 104, offsetof(Interval_t4147, ___contiguous_2) + sizeof(Object_t), 0 } ,
-	{ 3, 7833, offsetof(Enumerator_t4148, ___list_0), 0 } ,
-	{ 1132, 110, offsetof(Enumerator_t4148, ___ptr_1), 0 } ,
-	{ 1133, 5722, offsetof(IntervalCollection_t4150, ___intervals_0), 0 } ,
-	{ 904, 99, offsetof(Parser_t4151, ___pattern_0), 0 } ,
-	{ 1132, 110, offsetof(Parser_t4151, ___ptr_1), 0 } ,
-	{ 907, 5722, offsetof(Parser_t4151, ___caps_2), 0 } ,
-	{ 1134, 5712, offsetof(Parser_t4151, ___refs_3), 0 } ,
-	{ 1135, 110, offsetof(Parser_t4151, ___num_groups_4), 0 } ,
-	{ 891, 110, offsetof(Parser_t4151, ___gap_5), 0 } ,
-	{ 1136, 99, offsetof(QuickSearch_t4144, ___str_0), 0 } ,
-	{ 1137, 110, offsetof(QuickSearch_t4144, ___len_1), 0 } ,
-	{ 1138, 100, offsetof(QuickSearch_t4144, ___ignore_2), 0 } ,
-	{ 1139, 100, offsetof(QuickSearch_t4144, ___reverse_3), 0 } ,
-	{ 1140, 866, offsetof(QuickSearch_t4144, ___shift_4), 0 } ,
-	{ 1141, 5712, offsetof(QuickSearch_t4144, ___shiftExtended_5), 0 } ,
-	{ 1142, 6870, offsetof(QuickSearch_t4144_StaticFields, ___THRESHOLD_6), 0 } ,
-	{ 892, 7764, offsetof(ReplacementEvaluator_t4152, ___regex_0), 0 } ,
-	{ 1143, 110, offsetof(ReplacementEvaluator_t4152, ___n_pieces_1), 0 } ,
-	{ 1144, 1556, offsetof(ReplacementEvaluator_t4152, ___pieces_2), 0 } ,
-	{ 1145, 99, offsetof(ReplacementEvaluator_t4152, ___replacement_3), 0 } ,
-	{ 1146, 7843, offsetof(CompositeExpression_t4155, ___expressions_0), 0 } ,
-	{ 900, 110, offsetof(RegularExpression_t4157, ___group_count_1), 0 } ,
-	{ 1147, 110, offsetof(CapturingGroup_t4158, ___gid_1), 0 } ,
-	{ 345, 99, offsetof(CapturingGroup_t4158, ___name_2), 0 } ,
-	{ 1148, 7849, offsetof(BalancingGroup_t4159, ___balance_3), 0 } ,
-	{ 1110, 110, offsetof(Repetition_t4161, ___min_1), 0 } ,
-	{ 1111, 110, offsetof(Repetition_t4161, ___max_2), 0 } ,
-	{ 1112, 100, offsetof(Repetition_t4161, ___lazy_3), 0 } ,
-	{ 1149, 7854, offsetof(CaptureAssertion_t4165, ___alternate_1), 0 } ,
-	{ 1150, 7849, offsetof(CaptureAssertion_t4165, ___group_2), 0 } ,
-	{ 1151, 7855, offsetof(CaptureAssertion_t4165, ___literal_3), 0 } ,
-	{ 1139, 100, offsetof(ExpressionAssertion_t4163, ___reverse_1), 0 } ,
-	{ 1152, 100, offsetof(ExpressionAssertion_t4163, ___negate_2), 0 } ,
-	{ 1136, 99, offsetof(Literal_t4164, ___str_0), 0 } ,
-	{ 1138, 100, offsetof(Literal_t4164, ___ignore_1), 0 } ,
-	{ 365, 7860, offsetof(PositionAssertion_t4167, ___pos_0), 0 } ,
-	{ 1150, 7849, offsetof(Reference_t4168, ___group_0), 0 } ,
-	{ 1138, 100, offsetof(Reference_t4168, ___ignore_1), 0 } ,
-	{ 1151, 99, offsetof(BackslashNumber_t4169, ___literal_2), 0 } ,
-	{ 1153, 100, offsetof(BackslashNumber_t4169, ___ecma_3), 0 } ,
-	{ 1154, 7864, offsetof(CharacterClass_t4171_StaticFields, ___upper_case_characters_0), 0 } ,
-	{ 1152, 100, offsetof(CharacterClass_t4171, ___negate_1), 0 } ,
-	{ 1138, 100, offsetof(CharacterClass_t4171, ___ignore_2), 0 } ,
-	{ 1155, 7865, offsetof(CharacterClass_t4171, ___pos_cats_3), 0 } ,
-	{ 1156, 7865, offsetof(CharacterClass_t4171, ___neg_cats_4), 0 } ,
-	{ 1133, 7866, offsetof(CharacterClass_t4171, ___intervals_5), 0 } ,
-	{ 1157, 7868, offsetof(AnchorInfo_t4172, ___expr_0), 0 } ,
-	{ 365, 7860, offsetof(AnchorInfo_t4172, ___pos_1), 0 } ,
-	{ 457, 110, offsetof(AnchorInfo_t4172, ___offset_2), 0 } ,
-	{ 1136, 99, offsetof(AnchorInfo_t4172, ___str_3), 0 } ,
-	{ 1158, 110, offsetof(AnchorInfo_t4172, ___width_4), 0 } ,
-	{ 1138, 100, offsetof(AnchorInfo_t4172, ___ignore_5), 0 } ,
-	{ 1159, 101, offsetof(UriScheme_t4176, ___scheme_0) + sizeof(Object_t), 0 } ,
-	{ 1160, 101, offsetof(UriScheme_t4176, ___delimiter_1) + sizeof(Object_t), 0 } ,
-	{ 1161, 102, offsetof(UriScheme_t4176, ___defaultPort_2) + sizeof(Object_t), 0 } ,
-	{ 1162, 865, 0, 0 } ,
-	{ 1163, 100, offsetof(Uri_t757, ___isUnixFilePath_1), 0 } ,
-	{ 1164, 99, offsetof(Uri_t757, ___source_2), 0 } ,
-	{ 1159, 99, offsetof(Uri_t757, ___scheme_3), 0 } ,
-	{ 36, 99, offsetof(Uri_t757, ___host_4), 0 } ,
-	{ 347, 110, offsetof(Uri_t757, ___port_5), 0 } ,
-	{ 346, 99, offsetof(Uri_t757, ___path_6), 0 } ,
-	{ 1165, 99, offsetof(Uri_t757, ___query_7), 0 } ,
-	{ 1166, 99, offsetof(Uri_t757, ___fragment_8), 0 } ,
-	{ 1167, 99, offsetof(Uri_t757, ___userinfo_9), 0 } ,
-	{ 1168, 100, offsetof(Uri_t757, ___isUnc_10), 0 } ,
-	{ 1169, 100, offsetof(Uri_t757, ___isOpaquePart_11), 0 } ,
-	{ 1170, 100, offsetof(Uri_t757, ___isAbsoluteUri_12), 0 } ,
-	{ 1171, 615, offsetof(Uri_t757, ___segments_13), 0 } ,
-	{ 1172, 100, offsetof(Uri_t757, ___userEscaped_14), 0 } ,
-	{ 1173, 99, offsetof(Uri_t757, ___cachedAbsoluteUri_15), 0 } ,
-	{ 1174, 99, offsetof(Uri_t757, ___cachedToString_16), 0 } ,
-	{ 1175, 99, offsetof(Uri_t757, ___cachedLocalPath_17), 0 } ,
-	{ 1176, 110, offsetof(Uri_t757, ___cachedHashCode_18), 0 } ,
-	{ 1177, 3673, offsetof(Uri_t757_StaticFields, ___hexUpperChars_19), 0 } ,
-	{ 1178, 106, offsetof(Uri_t757_StaticFields, ___SchemeDelimiter_20), 0 } ,
-	{ 1179, 106, offsetof(Uri_t757_StaticFields, ___UriSchemeFile_21), 0 } ,
-	{ 1180, 106, offsetof(Uri_t757_StaticFields, ___UriSchemeFtp_22), 0 } ,
-	{ 1181, 106, offsetof(Uri_t757_StaticFields, ___UriSchemeGopher_23), 0 } ,
-	{ 1182, 106, offsetof(Uri_t757_StaticFields, ___UriSchemeHttp_24), 0 } ,
-	{ 1183, 106, offsetof(Uri_t757_StaticFields, ___UriSchemeHttps_25), 0 } ,
-	{ 1184, 106, offsetof(Uri_t757_StaticFields, ___UriSchemeMailto_26), 0 } ,
-	{ 1185, 106, offsetof(Uri_t757_StaticFields, ___UriSchemeNews_27), 0 } ,
-	{ 1186, 106, offsetof(Uri_t757_StaticFields, ___UriSchemeNntp_28), 0 } ,
-	{ 1187, 106, offsetof(Uri_t757_StaticFields, ___UriSchemeNetPipe_29), 0 } ,
-	{ 1188, 106, offsetof(Uri_t757_StaticFields, ___UriSchemeNetTcp_30), 0 } ,
-	{ 1189, 7876, offsetof(Uri_t757_StaticFields, ___schemes_31), 0 } ,
-	{ 372, 7877, offsetof(Uri_t757, ___parser_32), 0 } ,
-	{ 1190, 943, offsetof(Uri_t757_StaticFields, ___U3CU3Ef__switchU24map12_33), 93 } ,
-	{ 1191, 943, offsetof(Uri_t757_StaticFields, ___U3CU3Ef__switchU24map13_34), 94 } ,
-	{ 1192, 943, offsetof(Uri_t757_StaticFields, ___U3CU3Ef__switchU24map14_35), 95 } ,
-	{ 1193, 943, offsetof(Uri_t757_StaticFields, ___U3CU3Ef__switchU24map15_36), 96 } ,
-	{ 1194, 943, offsetof(Uri_t757_StaticFields, ___U3CU3Ef__switchU24map16_37), 97 } ,
-	{ 65, 90, offsetof(UriHostNameType_t4178, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 96, 7880, 0, 0 } ,
-	{ 1195, 7880, 0, 0 } ,
-	{ 1196, 7880, 0, 0 } ,
-	{ 146, 7880, 0, 0 } ,
-	{ 141, 7880, 0, 0 } ,
-	{ 65, 90, offsetof(UriKind_t4179, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1197, 7882, 0, 0 } ,
-	{ 1198, 7882, 0, 0 } ,
-	{ 1199, 7882, 0, 0 } ,
-	{ 1200, 3766, offsetof(UriParser_t4174_StaticFields, ___lock_object_0), 0 } ,
-	{ 1201, 6872, offsetof(UriParser_t4174_StaticFields, ___table_1), 0 } ,
-	{ 1202, 1036, offsetof(UriParser_t4174, ___scheme_name_2), 0 } ,
-	{ 1203, 110, offsetof(UriParser_t4174, ___default_port_3), 0 } ,
-	{ 1204, 3675, offsetof(UriParser_t4174_StaticFields, ___uri_regex_4), 0 } ,
-	{ 1205, 3675, offsetof(UriParser_t4174_StaticFields, ___auth_regex_5), 0 } ,
-	{ 65, 90, offsetof(UriPartial_t4180, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1206, 7886, 0, 0 } ,
-	{ 1207, 7886, 0, 0 } ,
-	{ 1208, 7886, 0, 0 } ,
-	{ 1209, 7886, 0, 0 } ,
-	{ 1210, 7903, offsetof(U3CPrivateImplementationDetailsU3E_t4185_StaticFields, ___U24U24fieldU2D1_0), 0 } ,
-	{ 1211, 7904, offsetof(U3CPrivateImplementationDetailsU3E_t4185_StaticFields, ___U24U24fieldU2D2_1), 0 } ,
-	{ 1212, 7905, offsetof(U3CPrivateImplementationDetailsU3E_t4185_StaticFields, ___U24U24fieldU2D3_2), 0 } ,
-	{ 1213, 7905, offsetof(U3CPrivateImplementationDetailsU3E_t4185_StaticFields, ___U24U24fieldU2D4_3), 0 } ,
+	{ 40, 100, offsetof(HybridDictionary_t3954, ___caseInsensitive_0), 0 } ,
+	{ 41, 5703, offsetof(HybridDictionary_t3954, ___hashtable_1), 0 } ,
+	{ 3, 5695, offsetof(HybridDictionary_t3954, ___list_2), 0 } ,
+	{ 32, 646, offsetof(DictionaryNode_t3955, ___key_0), 0 } ,
+	{ 33, 646, offsetof(DictionaryNode_t3955, ___value_1), 0 } ,
+	{ 42, 7357, offsetof(DictionaryNode_t3955, ___next_2), 0 } ,
+	{ 43, 5695, offsetof(DictionaryNodeEnumerator_t3956, ___dict_0), 0 } ,
+	{ 44, 100, offsetof(DictionaryNodeEnumerator_t3956, ___isAtStart_1), 0 } ,
+	{ 4, 7359, offsetof(DictionaryNodeEnumerator_t3956, ___current_2), 0 } ,
+	{ 2, 110, offsetof(DictionaryNodeEnumerator_t3956, ___version_3), 0 } ,
+	{ 45, 7361, offsetof(DictionaryNodeCollectionEnumerator_t3957, ___inner_0), 0 } ,
+	{ 46, 100, offsetof(DictionaryNodeCollectionEnumerator_t3957, ___isKeyList_1), 0 } ,
+	{ 43, 5695, offsetof(DictionaryNodeCollection_t3958, ___dict_0), 0 } ,
+	{ 46, 100, offsetof(DictionaryNodeCollection_t3958, ___isKeyList_1), 0 } ,
+	{ 6, 110, offsetof(ListDictionary_t3169, ___count_0), 0 } ,
+	{ 2, 110, offsetof(ListDictionary_t3169, ___version_1), 0 } ,
+	{ 47, 7359, offsetof(ListDictionary_t3169, ___head_2), 0 } ,
+	{ 48, 7365, offsetof(ListDictionary_t3169, ___comparer_3), 0 } ,
+	{ 32, 101, offsetof(_Item_t3960, ___key_0), 0 } ,
+	{ 33, 646, offsetof(_Item_t3960, ___value_1), 0 } ,
+	{ 49, 7369, offsetof(_KeysEnumerator_t3962, ___m_collection_0), 0 } ,
+	{ 50, 110, offsetof(_KeysEnumerator_t3962, ___m_position_1), 0 } ,
+	{ 49, 7369, offsetof(KeysCollection_t3963, ___m_collection_0), 0 } ,
+	{ 51, 5703, offsetof(NameObjectCollectionBase_t3961, ___m_ItemsContainer_0), 0 } ,
+	{ 52, 7372, offsetof(NameObjectCollectionBase_t3961, ___m_NullKeyItem_1), 0 } ,
+	{ 53, 5713, offsetof(NameObjectCollectionBase_t3961, ___m_ItemsArray_2), 0 } ,
+	{ 54, 7373, offsetof(NameObjectCollectionBase_t3961, ___m_hashprovider_3), 0 } ,
+	{ 55, 7365, offsetof(NameObjectCollectionBase_t3961, ___m_comparer_4), 0 } ,
+	{ 56, 110, offsetof(NameObjectCollectionBase_t3961, ___m_defCapacity_5), 0 } ,
+	{ 57, 100, offsetof(NameObjectCollectionBase_t3961, ___m_readonly_6), 0 } ,
+	{ 58, 6052, offsetof(NameObjectCollectionBase_t3961, ___infoCopy_7), 0 } ,
+	{ 59, 7374, offsetof(NameObjectCollectionBase_t3961, ___keyscoll_8), 0 } ,
+	{ 60, 7375, offsetof(NameObjectCollectionBase_t3961, ___equality_comparer_9), 0 } ,
+	{ 61, 614, offsetof(NameValueCollection_t3966, ___cachedAllKeys_10), 0 } ,
+	{ 62, 614, offsetof(NameValueCollection_t3966, ___cachedAll_11), 0 } ,
+	{ 63, 644, offsetof(DefaultValueAttribute_t2964, ___DefaultValue_0), 0 } ,
+	{ 64, 7380, offsetof(EditorBrowsableAttribute_t2193, ___state_0), 0 } ,
+	{ 65, 90, offsetof(EditorBrowsableState_t3967, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 66, 7382, 0, 0 } ,
+	{ 67, 7382, 0, 0 } ,
+	{ 68, 7382, 0, 0 } ,
+	{ 69, 99, offsetof(PropertyChangedEventArgs_t1505, ___propertyName_1), 0 } ,
+	{ 35, 7388, offsetof(TypeConverterAttribute_t3969_StaticFields, ___Default_0), 0 } ,
+	{ 70, 99, offsetof(TypeConverterAttribute_t3969, ___converter_type_1), 0 } ,
+	{ 71, 110, offsetof(Win32Exception_t3970, ___native_error_code_11), 0 } ,
+	{ 65, 90, offsetof(CompressionMode_t3972, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 72, 7393, 0, 0 } ,
+	{ 73, 7393, 0, 0 } ,
+	{ 74, 3838, offsetof(DeflateStream_t3976, ___base_stream_1), 0 } ,
+	{ 75, 7399, offsetof(DeflateStream_t3976, ___mode_2), 0 } ,
+	{ 76, 100, offsetof(DeflateStream_t3976, ___leaveOpen_3), 0 } ,
+	{ 77, 100, offsetof(DeflateStream_t3976, ___disposed_4), 0 } ,
+	{ 78, 7400, offsetof(DeflateStream_t3976, ___feeder_5), 0 } ,
+	{ 79, 4648, offsetof(DeflateStream_t3976, ___z_stream_6), 0 } ,
+	{ 80, 865, offsetof(DeflateStream_t3976, ___io_buffer_7), 0 } ,
+	{ 81, 7401, offsetof(DeflateStream_t3976, ___data_8), 0 } ,
+	{ 82, 7403, offsetof(GZipStream_t3978, ___deflateStream_1), 0 } ,
+	{ 83, 3838, offsetof(AuthenticatedStream_t3979, ___innerStream_1), 0 } ,
+	{ 84, 100, offsetof(AuthenticatedStream_t3979, ___leaveStreamOpen_2), 0 } ,
+	{ 65, 90, offsetof(AuthenticationLevel_t3980, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 85, 7407, 0, 0 } ,
+	{ 86, 7407, 0, 0 } ,
+	{ 87, 7407, 0, 0 } ,
+	{ 65, 90, offsetof(SslPolicyErrors_t3981, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 85, 7410, 0, 0 } ,
+	{ 88, 7410, 0, 0 } ,
+	{ 89, 7410, 0, 0 } ,
+	{ 90, 7410, 0, 0 } ,
+	{ 91, 7412, offsetof(U3CBeginAuthenticateAsClientU3Ec__AnonStorey7_t3983, ___clientCertificates_0), 0 } ,
+	{ 92, 7413, offsetof(U3CBeginAuthenticateAsClientU3Ec__AnonStorey7_t3983, ___U3CU3Ef__this_1), 0 } ,
+	{ 93, 7417, offsetof(SslStream_t3982, ___ssl_stream_3), 0 } ,
+	{ 94, 7418, offsetof(SslStream_t3982, ___validation_callback_4), 0 } ,
+	{ 95, 7419, offsetof(SslStream_t3982, ___selection_callback_5), 0 } ,
+	{ 65, 90, offsetof(AddressFamily_t3985, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 96, 7421, 0, 0 } ,
+	{ 97, 7421, 0, 0 } ,
+	{ 98, 7421, 0, 0 } ,
+	{ 99, 7421, 0, 0 } ,
+	{ 100, 7421, 0, 0 } ,
+	{ 101, 7421, 0, 0 } ,
+	{ 102, 7421, 0, 0 } ,
+	{ 103, 7421, 0, 0 } ,
+	{ 104, 7421, 0, 0 } ,
+	{ 105, 7421, 0, 0 } ,
+	{ 106, 7421, 0, 0 } ,
+	{ 107, 7421, 0, 0 } ,
+	{ 108, 7421, 0, 0 } ,
+	{ 109, 7421, 0, 0 } ,
+	{ 110, 7421, 0, 0 } ,
+	{ 111, 7421, 0, 0 } ,
+	{ 112, 7421, 0, 0 } ,
+	{ 113, 7421, 0, 0 } ,
+	{ 114, 7421, 0, 0 } ,
+	{ 115, 7421, 0, 0 } ,
+	{ 116, 7421, 0, 0 } ,
+	{ 117, 7421, 0, 0 } ,
+	{ 118, 7421, 0, 0 } ,
+	{ 119, 7421, 0, 0 } ,
+	{ 120, 7421, 0, 0 } ,
+	{ 121, 7421, 0, 0 } ,
+	{ 122, 7421, 0, 0 } ,
+	{ 123, 7421, 0, 0 } ,
+	{ 124, 7421, 0, 0 } ,
+	{ 125, 7421, 0, 0 } ,
+	{ 126, 7421, 0, 0 } ,
+	{ 127, 100, offsetof(LingerOption_t3986, ___enabled_0), 0 } ,
+	{ 128, 110, offsetof(LingerOption_t3986, ___seconds_1), 0 } ,
+	{ 129, 7425, offsetof(NetworkStream_t3989, ___access_1), 0 } ,
+	{ 130, 7426, offsetof(NetworkStream_t3989, ___socket_2), 0 } ,
+	{ 131, 100, offsetof(NetworkStream_t3989, ___owns_socket_3), 0 } ,
+	{ 132, 100, offsetof(NetworkStream_t3989, ___readable_4), 0 } ,
+	{ 133, 100, offsetof(NetworkStream_t3989, ___writeable_5), 0 } ,
+	{ 77, 100, offsetof(NetworkStream_t3989, ___disposed_6), 0 } ,
+	{ 65, 90, offsetof(ProtocolType_t3990, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 134, 7428, 0, 0 } ,
+	{ 135, 7428, 0, 0 } ,
+	{ 136, 7428, 0, 0 } ,
+	{ 137, 7428, 0, 0 } ,
+	{ 138, 7428, 0, 0 } ,
+	{ 101, 7428, 0, 0 } ,
+	{ 139, 7428, 0, 0 } ,
+	{ 140, 7428, 0, 0 } ,
+	{ 141, 7428, 0, 0 } ,
+	{ 142, 7428, 0, 0 } ,
+	{ 143, 7428, 0, 0 } ,
+	{ 97, 7428, 0, 0 } ,
+	{ 104, 7428, 0, 0 } ,
+	{ 144, 7428, 0, 0 } ,
+	{ 145, 7428, 0, 0 } ,
+	{ 96, 7428, 0, 0 } ,
+	{ 146, 7428, 0, 0 } ,
+	{ 147, 7428, 0, 0 } ,
+	{ 148, 7428, 0, 0 } ,
+	{ 149, 7428, 0, 0 } ,
+	{ 150, 7428, 0, 0 } ,
+	{ 151, 7428, 0, 0 } ,
+	{ 152, 7428, 0, 0 } ,
+	{ 153, 7428, 0, 0 } ,
+	{ 154, 7428, 0, 0 } ,
+	{ 65, 90, offsetof(SelectMode_t3991, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 155, 7431, 0, 0 } ,
+	{ 156, 7431, 0, 0 } ,
+	{ 157, 7431, 0, 0 } ,
+	{ 65, 90, offsetof(SocketOperation_t3992, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 158, 7434, 0, 0 } ,
+	{ 159, 7434, 0, 0 } ,
+	{ 160, 7434, 0, 0 } ,
+	{ 161, 7434, 0, 0 } ,
+	{ 162, 7434, 0, 0 } ,
+	{ 163, 7434, 0, 0 } ,
+	{ 164, 7434, 0, 0 } ,
+	{ 165, 7434, 0, 0 } ,
+	{ 166, 7434, 0, 0 } ,
+	{ 167, 7434, 0, 0 } ,
+	{ 168, 7434, 0, 0 } ,
+	{ 169, 7434, 0, 0 } ,
+	{ 170, 7434, 0, 0 } ,
+	{ 171, 7434, 0, 0 } ,
+	{ 172, 7438, offsetof(SocketAsyncResult_t3996, ___Sock_0), 0 } ,
+	{ 173, 4736, offsetof(SocketAsyncResult_t3996, ___handle_1), 0 } ,
+	{ 64, 644, offsetof(SocketAsyncResult_t3996, ___state_2), 0 } ,
+	{ 174, 6893, offsetof(SocketAsyncResult_t3996, ___callback_3), 0 } ,
+	{ 175, 7439, offsetof(SocketAsyncResult_t3996, ___waithandle_4), 0 } ,
+	{ 176, 3429, offsetof(SocketAsyncResult_t3996, ___delayedException_5), 0 } ,
+	{ 177, 7440, offsetof(SocketAsyncResult_t3996, ___EndPoint_6), 0 } ,
+	{ 178, 876, offsetof(SocketAsyncResult_t3996, ___Buffer_7), 0 } ,
+	{ 179, 102, offsetof(SocketAsyncResult_t3996, ___Offset_8), 0 } ,
+	{ 180, 102, offsetof(SocketAsyncResult_t3996, ___Size_9), 0 } ,
+	{ 181, 7441, offsetof(SocketAsyncResult_t3996, ___SockFlags_10), 0 } ,
+	{ 182, 7438, offsetof(SocketAsyncResult_t3996, ___AcceptSocket_11), 0 } ,
+	{ 183, 7442, offsetof(SocketAsyncResult_t3996, ___Addresses_12), 0 } ,
+	{ 184, 102, offsetof(SocketAsyncResult_t3996, ___Port_13), 0 } ,
+	{ 185, 7443, offsetof(SocketAsyncResult_t3996, ___Buffers_14), 0 } ,
+	{ 186, 104, offsetof(SocketAsyncResult_t3996, ___ReuseSocket_15), 0 } ,
+	{ 187, 7426, offsetof(SocketAsyncResult_t3996, ___acc_socket_16), 0 } ,
+	{ 188, 110, offsetof(SocketAsyncResult_t3996, ___total_17), 0 } ,
+	{ 189, 100, offsetof(SocketAsyncResult_t3996, ___completed_sync_18), 0 } ,
+	{ 190, 100, offsetof(SocketAsyncResult_t3996, ___completed_19), 0 } ,
+	{ 191, 104, offsetof(SocketAsyncResult_t3996, ___blocking_20), 0 } ,
+	{ 192, 137, offsetof(SocketAsyncResult_t3996, ___error_21), 0 } ,
+	{ 193, 7445, offsetof(SocketAsyncResult_t3996, ___operation_22), 0 } ,
+	{ 194, 646, offsetof(SocketAsyncResult_t3996, ___ares_23), 0 } ,
+	{ 195, 102, offsetof(SocketAsyncResult_t3996, ___EndCalled_24), 0 } ,
+	{ 196, 7447, offsetof(Worker_t3997, ___result_0), 0 } ,
+	{ 197, 100, offsetof(Worker_t3997, ___requireSocketSecurity_1), 0 } ,
+	{ 198, 110, offsetof(Worker_t3997, ___send_so_far_2), 0 } ,
+	{ 199, 7459, offsetof(Socket_t3988, ___readQ_0), 0 } ,
+	{ 200, 7459, offsetof(Socket_t3988, ___writeQ_1), 0 } ,
+	{ 201, 100, offsetof(Socket_t3988, ___islistening_2), 0 } ,
+	{ 202, 2383, offsetof(Socket_t3988, ___MinListenPort_3), 0 } ,
+	{ 203, 2383, offsetof(Socket_t3988, ___MaxListenPort_4), 0 } ,
+	{ 204, 839, offsetof(Socket_t3988_StaticFields, ___ipv4Supported_5), 0 } ,
+	{ 205, 839, offsetof(Socket_t3988_StaticFields, ___ipv6Supported_6), 0 } ,
+	{ 206, 110, offsetof(Socket_t3988, ___linger_timeout_7), 0 } ,
+	{ 130, 4648, offsetof(Socket_t3988, ___socket_8), 0 } ,
+	{ 207, 7460, offsetof(Socket_t3988, ___address_family_9), 0 } ,
+	{ 208, 7461, offsetof(Socket_t3988, ___socket_type_10), 0 } ,
+	{ 209, 7462, offsetof(Socket_t3988, ___protocol_type_11), 0 } ,
+	{ 191, 2205, offsetof(Socket_t3988, ___blocking_12), 0 } ,
+	{ 210, 6557, offsetof(Socket_t3988, ___blocking_thread_13), 0 } ,
+	{ 211, 100, offsetof(Socket_t3988, ___isbound_14), 0 } ,
+	{ 212, 839, offsetof(Socket_t3988_StaticFields, ___current_bind_count_15), 0 } ,
+	{ 213, 2383, offsetof(Socket_t3988, ___max_bind_count_16), 0 } ,
+	{ 214, 100, offsetof(Socket_t3988, ___connected_17), 0 } ,
+	{ 215, 100, offsetof(Socket_t3988, ___closed_18), 0 } ,
+	{ 77, 2205, offsetof(Socket_t3988, ___disposed_19), 0 } ,
+	{ 216, 7463, offsetof(Socket_t3988, ___seed_endpoint_20), 0 } ,
+	{ 217, 7464, offsetof(Socket_t3988_StaticFields, ___check_socket_policy_21), 0 } ,
+	{ 65, 90, offsetof(SocketError_t4000, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 218, 7466, 0, 0 } ,
+	{ 219, 7466, 0, 0 } ,
+	{ 220, 7466, 0, 0 } ,
+	{ 221, 7466, 0, 0 } ,
+	{ 222, 7466, 0, 0 } ,
+	{ 223, 7466, 0, 0 } ,
+	{ 224, 7466, 0, 0 } ,
+	{ 225, 7466, 0, 0 } ,
+	{ 226, 7466, 0, 0 } ,
+	{ 227, 7466, 0, 0 } ,
+	{ 228, 7466, 0, 0 } ,
+	{ 229, 7466, 0, 0 } ,
+	{ 230, 7466, 0, 0 } ,
+	{ 231, 7466, 0, 0 } ,
+	{ 232, 7466, 0, 0 } ,
+	{ 233, 7466, 0, 0 } ,
+	{ 234, 7466, 0, 0 } ,
+	{ 235, 7466, 0, 0 } ,
+	{ 236, 7466, 0, 0 } ,
+	{ 237, 7466, 0, 0 } ,
+	{ 238, 7466, 0, 0 } ,
+	{ 239, 7466, 0, 0 } ,
+	{ 240, 7466, 0, 0 } ,
+	{ 241, 7466, 0, 0 } ,
+	{ 242, 7466, 0, 0 } ,
+	{ 243, 7466, 0, 0 } ,
+	{ 244, 7466, 0, 0 } ,
+	{ 245, 7466, 0, 0 } ,
+	{ 246, 7466, 0, 0 } ,
+	{ 247, 7466, 0, 0 } ,
+	{ 248, 7466, 0, 0 } ,
+	{ 249, 7466, 0, 0 } ,
+	{ 250, 7466, 0, 0 } ,
+	{ 251, 7466, 0, 0 } ,
+	{ 252, 7466, 0, 0 } ,
+	{ 253, 7466, 0, 0 } ,
+	{ 254, 7466, 0, 0 } ,
+	{ 255, 7466, 0, 0 } ,
+	{ 256, 7466, 0, 0 } ,
+	{ 257, 7466, 0, 0 } ,
+	{ 258, 7466, 0, 0 } ,
+	{ 259, 7466, 0, 0 } ,
+	{ 260, 7466, 0, 0 } ,
+	{ 261, 7466, 0, 0 } ,
+	{ 262, 7466, 0, 0 } ,
+	{ 263, 7466, 0, 0 } ,
+	{ 264, 7466, 0, 0 } ,
+	{ 65, 90, offsetof(SocketFlags_t4002, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 85, 7469, 0, 0 } ,
+	{ 265, 7469, 0, 0 } ,
+	{ 266, 7469, 0, 0 } ,
+	{ 267, 7469, 0, 0 } ,
+	{ 268, 7469, 0, 0 } ,
+	{ 269, 7469, 0, 0 } ,
+	{ 270, 7469, 0, 0 } ,
+	{ 271, 7469, 0, 0 } ,
+	{ 272, 7469, 0, 0 } ,
+	{ 273, 7469, 0, 0 } ,
+	{ 65, 90, offsetof(SocketOptionLevel_t4003, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 274, 7471, 0, 0 } ,
+	{ 134, 7471, 0, 0 } ,
+	{ 141, 7471, 0, 0 } ,
+	{ 138, 7471, 0, 0 } ,
+	{ 139, 7471, 0, 0 } ,
+	{ 65, 90, offsetof(SocketOptionName_t4004, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 275, 7473, 0, 0 } ,
+	{ 276, 7473, 0, 0 } ,
+	{ 277, 7473, 0, 0 } ,
+	{ 278, 7473, 0, 0 } ,
+	{ 267, 7473, 0, 0 } ,
+	{ 271, 7473, 0, 0 } ,
+	{ 279, 7473, 0, 0 } ,
+	{ 280, 7473, 0, 0 } ,
+	{ 281, 7473, 0, 0 } ,
+	{ 282, 7473, 0, 0 } ,
+	{ 283, 7473, 0, 0 } ,
+	{ 284, 7473, 0, 0 } ,
+	{ 285, 7473, 0, 0 } ,
+	{ 286, 7473, 0, 0 } ,
+	{ 287, 7473, 0, 0 } ,
+	{ 288, 7473, 0, 0 } ,
+	{ 289, 7473, 0, 0 } ,
+	{ 290, 7473, 0, 0 } ,
+	{ 291, 7473, 0, 0 } ,
+	{ 292, 7473, 0, 0 } ,
+	{ 293, 7473, 0, 0 } ,
+	{ 294, 7473, 0, 0 } ,
+	{ 295, 7473, 0, 0 } ,
+	{ 296, 7473, 0, 0 } ,
+	{ 297, 7473, 0, 0 } ,
+	{ 298, 7473, 0, 0 } ,
+	{ 299, 7473, 0, 0 } ,
+	{ 300, 7473, 0, 0 } ,
+	{ 301, 7473, 0, 0 } ,
+	{ 302, 7473, 0, 0 } ,
+	{ 303, 7473, 0, 0 } ,
+	{ 304, 7473, 0, 0 } ,
+	{ 305, 7473, 0, 0 } ,
+	{ 306, 7473, 0, 0 } ,
+	{ 307, 7473, 0, 0 } ,
+	{ 308, 7473, 0, 0 } ,
+	{ 309, 7473, 0, 0 } ,
+	{ 310, 7473, 0, 0 } ,
+	{ 311, 7473, 0, 0 } ,
+	{ 312, 7473, 0, 0 } ,
+	{ 313, 7473, 0, 0 } ,
+	{ 314, 7473, 0, 0 } ,
+	{ 315, 7473, 0, 0 } ,
+	{ 65, 90, offsetof(SocketShutdown_t4005, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 160, 7475, 0, 0 } ,
+	{ 162, 7475, 0, 0 } ,
+	{ 316, 7475, 0, 0 } ,
+	{ 65, 90, offsetof(SocketType_t4006, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 317, 7477, 0, 0 } ,
+	{ 318, 7477, 0, 0 } ,
+	{ 143, 7477, 0, 0 } ,
+	{ 319, 7477, 0, 0 } ,
+	{ 320, 7477, 0, 0 } ,
+	{ 96, 7477, 0, 0 } ,
+	{ 321, 7479, offsetof(AuthenticationManager_t4008_StaticFields, ___modules_0), 0 } ,
+	{ 322, 3757, offsetof(AuthenticationManager_t4008_StaticFields, ___locker_1), 0 } ,
+	{ 323, 7480, offsetof(AuthenticationManager_t4008_StaticFields, ___credential_policy_2), 0 } ,
+	{ 324, 99, offsetof(Authorization_t4010, ___token_0), 0 } ,
+	{ 325, 100, offsetof(Authorization_t4010, ___complete_1), 0 } ,
+	{ 326, 99, offsetof(Authorization_t4010, ___connectionGroupId_2), 0 } ,
+	{ 327, 7482, offsetof(Authorization_t4010, ___module_3), 0 } ,
+	{ 65, 90, offsetof(State_t4012, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 85, 7485, 0, 0 } ,
+	{ 328, 7485, 0, 0 } ,
+	{ 329, 7485, 0, 0 } ,
+	{ 330, 7485, 0, 0 } ,
+	{ 331, 876, offsetof(Chunk_t4013, ___Bytes_0), 0 } ,
+	{ 179, 102, offsetof(Chunk_t4013, ___Offset_1), 0 } ,
+	{ 332, 7489, offsetof(ChunkStream_t4015, ___headers_0), 0 } ,
+	{ 333, 110, offsetof(ChunkStream_t4015, ___chunkSize_1), 0 } ,
+	{ 334, 110, offsetof(ChunkStream_t4015, ___chunkRead_2), 0 } ,
+	{ 64, 7490, offsetof(ChunkStream_t4015, ___state_3), 0 } ,
+	{ 335, 945, offsetof(ChunkStream_t4015, ___saved_4), 0 } ,
+	{ 336, 100, offsetof(ChunkStream_t4015, ___sawCR_5), 0 } ,
+	{ 337, 100, offsetof(ChunkStream_t4015, ___gotit_6), 0 } ,
+	{ 338, 110, offsetof(ChunkStream_t4015, ___trailerState_7), 0 } ,
+	{ 339, 5713, offsetof(ChunkStream_t4015, ___chunks_8), 0 } ,
+	{ 0, 99, offsetof(Cookie_t4016, ___comment_0), 0 } ,
+	{ 340, 3529, offsetof(Cookie_t4016, ___commentUri_1), 0 } ,
+	{ 341, 100, offsetof(Cookie_t4016, ___discard_2), 0 } ,
+	{ 342, 99, offsetof(Cookie_t4016, ___domain_3), 0 } ,
+	{ 343, 1233, offsetof(Cookie_t4016, ___expires_4), 0 } ,
+	{ 344, 100, offsetof(Cookie_t4016, ___httpOnly_5), 0 } ,
+	{ 345, 99, offsetof(Cookie_t4016, ___name_6), 0 } ,
+	{ 346, 99, offsetof(Cookie_t4016, ___path_7), 0 } ,
+	{ 347, 99, offsetof(Cookie_t4016, ___port_8), 0 } ,
+	{ 348, 1548, offsetof(Cookie_t4016, ___ports_9), 0 } ,
+	{ 349, 100, offsetof(Cookie_t4016, ___secure_10), 0 } ,
+	{ 350, 1233, offsetof(Cookie_t4016, ___timestamp_11), 0 } ,
+	{ 351, 99, offsetof(Cookie_t4016, ___val_12), 0 } ,
+	{ 2, 110, offsetof(Cookie_t4016, ___version_13), 0 } ,
+	{ 352, 5597, offsetof(Cookie_t4016_StaticFields, ___reservedCharsName_14), 0 } ,
+	{ 353, 5597, offsetof(Cookie_t4016_StaticFields, ___portSeparators_15), 0 } ,
+	{ 354, 1096, offsetof(Cookie_t4016_StaticFields, ___tspecials_16), 0 } ,
+	{ 355, 100, offsetof(Cookie_t4016, ___exact_domain_17), 0 } ,
+	{ 3, 7495, offsetof(CookieCollection_t4019, ___list_0), 0 } ,
+	{ 356, 7496, offsetof(CookieCollection_t4019_StaticFields, ___Comparer_1), 0 } ,
+	{ 357, 110, offsetof(CookieContainer_t4020, ___capacity_0), 0 } ,
+	{ 358, 110, offsetof(CookieContainer_t4020, ___perDomainCapacity_1), 0 } ,
+	{ 359, 110, offsetof(CookieContainer_t4020, ___maxCookieSize_2), 0 } ,
+	{ 360, 7498, offsetof(CookieContainer_t4020, ___cookies_3), 0 } ,
+	{ 65, 90, offsetof(DecompressionMethods_t4022, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 85, 7502, 0, 0 } ,
+	{ 361, 7502, 0, 0 } ,
+	{ 362, 7502, 0, 0 } ,
+	{ 363, 99, offsetof(DigestHeaderParser_t4024, ___header_0), 0 } ,
+	{ 364, 110, offsetof(DigestHeaderParser_t4024, ___length_1), 0 } ,
+	{ 365, 110, offsetof(DigestHeaderParser_t4024, ___pos_2), 0 } ,
+	{ 366, 3759, offsetof(DigestHeaderParser_t4024_StaticFields, ___keywords_3), 0 } ,
+	{ 367, 614, offsetof(DigestHeaderParser_t4024, ___values_4), 0 } ,
+	{ 368, 6735, offsetof(DigestSession_t4025_StaticFields, ___rng_0), 0 } ,
+	{ 369, 1233, offsetof(DigestSession_t4025, ___lastUse_1), 0 } ,
+	{ 370, 110, offsetof(DigestSession_t4025, ____nc_2), 0 } ,
+	{ 371, 6820, offsetof(DigestSession_t4025, ___hash_3), 0 } ,
+	{ 372, 7507, offsetof(DigestSession_t4025, ___parser_4), 0 } ,
+	{ 373, 99, offsetof(DigestSession_t4025, ____cnonce_5), 0 } ,
+	{ 374, 7509, offsetof(DigestClient_t4026_StaticFields, ___cache_0), 0 } ,
+	{ 375, 7515, offsetof(FileWebStream_t4029, ___webRequest_15), 0 } ,
+	{ 376, 3529, offsetof(FileWebRequest_t4028, ___uri_6), 0 } ,
+	{ 377, 7519, offsetof(FileWebRequest_t4028, ___webHeaders_7), 0 } ,
+	{ 378, 5940, offsetof(FileWebRequest_t4028, ___credentials_8), 0 } ,
+	{ 379, 99, offsetof(FileWebRequest_t4028, ___connectionGroup_9), 0 } ,
+	{ 380, 116, offsetof(FileWebRequest_t4028, ___contentLength_10), 0 } ,
+	{ 381, 7425, offsetof(FileWebRequest_t4028, ___fileAccess_11), 0 } ,
+	{ 382, 99, offsetof(FileWebRequest_t4028, ___method_12), 0 } ,
+	{ 383, 7520, offsetof(FileWebRequest_t4028, ___proxy_13), 0 } ,
+	{ 384, 100, offsetof(FileWebRequest_t4028, ___preAuthenticate_14), 0 } ,
+	{ 385, 110, offsetof(FileWebRequest_t4028, ___timeout_15), 0 } ,
+	{ 386, 7521, offsetof(FileWebRequest_t4028, ___webResponse_16), 0 } ,
+	{ 387, 7522, offsetof(FileWebRequest_t4028, ___requestEndEvent_17), 0 } ,
+	{ 388, 100, offsetof(FileWebRequest_t4028, ___requesting_18), 0 } ,
+	{ 389, 100, offsetof(FileWebRequest_t4028, ___asyncResponding_19), 0 } ,
+	{ 390, 3529, offsetof(FileWebResponse_t4032, ___responseUri_1), 0 } ,
+	{ 391, 7526, offsetof(FileWebResponse_t4032, ___fileStream_2), 0 } ,
+	{ 380, 116, offsetof(FileWebResponse_t4032, ___contentLength_3), 0 } ,
+	{ 377, 7519, offsetof(FileWebResponse_t4032, ___webHeaders_4), 0 } ,
+	{ 77, 100, offsetof(FileWebResponse_t4032, ___disposed_5), 0 } ,
+	{ 392, 7528, offsetof(FtpAsyncResult_t4035, ___response_0), 0 } ,
+	{ 393, 6894, offsetof(FtpAsyncResult_t4035, ___waitHandle_1), 0 } ,
+	{ 394, 3429, offsetof(FtpAsyncResult_t4035, ___exception_2), 0 } ,
+	{ 174, 6893, offsetof(FtpAsyncResult_t4035, ___callback_3), 0 } ,
+	{ 395, 3838, offsetof(FtpAsyncResult_t4035, ___stream_4), 0 } ,
+	{ 64, 644, offsetof(FtpAsyncResult_t4035, ___state_5), 0 } ,
+	{ 190, 100, offsetof(FtpAsyncResult_t4035, ___completed_6), 0 } ,
+	{ 396, 100, offsetof(FtpAsyncResult_t4035, ___synch_7), 0 } ,
+	{ 322, 644, offsetof(FtpAsyncResult_t4035, ___locker_8), 0 } ,
+	{ 397, 7532, offsetof(FtpDataStream_t4039, ___request_1), 0 } ,
+	{ 398, 3838, offsetof(FtpDataStream_t4039, ___networkStream_2), 0 } ,
+	{ 77, 100, offsetof(FtpDataStream_t4039, ___disposed_3), 0 } ,
+	{ 399, 100, offsetof(FtpDataStream_t4039, ___isRead_4), 0 } ,
+	{ 400, 110, offsetof(FtpDataStream_t4039, ___totalRead_5), 0 } ,
+	{ 401, 7537, offsetof(FtpStatus_t4041, ___statusCode_0), 0 } ,
+	{ 402, 71, offsetof(FtpStatus_t4041, ___statusDescription_1), 0 } ,
+	{ 65, 90, offsetof(FtpStatusCode_t4042, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 403, 7539, 0, 0 } ,
+	{ 404, 7539, 0, 0 } ,
+	{ 405, 7539, 0, 0 } ,
+	{ 406, 7539, 0, 0 } ,
+	{ 407, 7539, 0, 0 } ,
+	{ 408, 7539, 0, 0 } ,
+	{ 409, 7539, 0, 0 } ,
+	{ 410, 7539, 0, 0 } ,
+	{ 411, 7539, 0, 0 } ,
+	{ 412, 7539, 0, 0 } ,
+	{ 413, 7539, 0, 0 } ,
+	{ 414, 7539, 0, 0 } ,
+	{ 415, 7539, 0, 0 } ,
+	{ 416, 7539, 0, 0 } ,
+	{ 417, 7539, 0, 0 } ,
+	{ 418, 7539, 0, 0 } ,
+	{ 419, 7539, 0, 0 } ,
+	{ 420, 7539, 0, 0 } ,
+	{ 421, 7539, 0, 0 } ,
+	{ 422, 7539, 0, 0 } ,
+	{ 423, 7539, 0, 0 } ,
+	{ 424, 7539, 0, 0 } ,
+	{ 425, 7539, 0, 0 } ,
+	{ 426, 7539, 0, 0 } ,
+	{ 427, 7539, 0, 0 } ,
+	{ 428, 7539, 0, 0 } ,
+	{ 429, 7539, 0, 0 } ,
+	{ 430, 7539, 0, 0 } ,
+	{ 431, 7539, 0, 0 } ,
+	{ 432, 7539, 0, 0 } ,
+	{ 433, 7539, 0, 0 } ,
+	{ 434, 7539, 0, 0 } ,
+	{ 435, 7539, 0, 0 } ,
+	{ 436, 7539, 0, 0 } ,
+	{ 437, 7539, 0, 0 } ,
+	{ 438, 7539, 0, 0 } ,
+	{ 439, 7539, 0, 0 } ,
+	{ 65, 90, offsetof(RequestState_t4043, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 440, 7541, 0, 0 } ,
+	{ 441, 7541, 0, 0 } ,
+	{ 442, 7541, 0, 0 } ,
+	{ 443, 7541, 0, 0 } ,
+	{ 407, 7541, 0, 0 } ,
+	{ 444, 7541, 0, 0 } ,
+	{ 445, 7541, 0, 0 } ,
+	{ 446, 7541, 0, 0 } ,
+	{ 290, 7541, 0, 0 } ,
+	{ 447, 3529, offsetof(FtpWebRequest_t4038, ___requestUri_6), 0 } ,
+	{ 448, 99, offsetof(FtpWebRequest_t4038, ___file_name_7), 0 } ,
+	{ 449, 7545, offsetof(FtpWebRequest_t4038, ___servicePoint_8), 0 } ,
+	{ 450, 3838, offsetof(FtpWebRequest_t4038, ___origDataStream_9), 0 } ,
+	{ 451, 3838, offsetof(FtpWebRequest_t4038, ___dataStream_10), 0 } ,
+	{ 452, 3838, offsetof(FtpWebRequest_t4038, ___controlStream_11), 0 } ,
+	{ 453, 7546, offsetof(FtpWebRequest_t4038, ___controlReader_12), 0 } ,
+	{ 378, 7547, offsetof(FtpWebRequest_t4038, ___credentials_13), 0 } ,
+	{ 454, 7548, offsetof(FtpWebRequest_t4038, ___hostEntry_14), 0 } ,
+	{ 455, 7549, offsetof(FtpWebRequest_t4038, ___localEndPoint_15), 0 } ,
+	{ 383, 7520, offsetof(FtpWebRequest_t4038, ___proxy_16), 0 } ,
+	{ 385, 110, offsetof(FtpWebRequest_t4038, ___timeout_17), 0 } ,
+	{ 456, 110, offsetof(FtpWebRequest_t4038, ___rwTimeout_18), 0 } ,
+	{ 457, 116, offsetof(FtpWebRequest_t4038, ___offset_19), 0 } ,
+	{ 458, 100, offsetof(FtpWebRequest_t4038, ___binary_20), 0 } ,
+	{ 459, 100, offsetof(FtpWebRequest_t4038, ___enableSsl_21), 0 } ,
+	{ 460, 100, offsetof(FtpWebRequest_t4038, ___usePassive_22), 0 } ,
+	{ 461, 100, offsetof(FtpWebRequest_t4038, ___keepAlive_23), 0 } ,
+	{ 382, 99, offsetof(FtpWebRequest_t4038, ___method_24), 0 } ,
+	{ 462, 99, offsetof(FtpWebRequest_t4038, ___renameTo_25), 0 } ,
+	{ 322, 644, offsetof(FtpWebRequest_t4038, ___locker_26), 0 } ,
+	{ 463, 7550, offsetof(FtpWebRequest_t4038, ___requestState_27), 0 } ,
+	{ 464, 7551, offsetof(FtpWebRequest_t4038, ___asyncResult_28), 0 } ,
+	{ 465, 7528, offsetof(FtpWebRequest_t4038, ___ftpResponse_29), 0 } ,
+	{ 466, 3838, offsetof(FtpWebRequest_t4038, ___requestStream_30), 0 } ,
+	{ 467, 99, offsetof(FtpWebRequest_t4038, ___initial_path_31), 0 } ,
+	{ 468, 5080, offsetof(FtpWebRequest_t4038_StaticFields, ___supportedCommands_32), 0 } ,
+	{ 174, 7418, offsetof(FtpWebRequest_t4038, ___callback_33), 0 } ,
+	{ 469, 7552, offsetof(FtpWebRequest_t4038_StaticFields, ___U3CU3Ef__amU24cache1C_34), 35 } ,
+	{ 470, 942, offsetof(FtpWebRequest_t4038_StaticFields, ___U3CU3Ef__switchU24map5_35), 36 } ,
+	{ 471, 942, offsetof(FtpWebRequest_t4038_StaticFields, ___U3CU3Ef__switchU24map6_36), 37 } ,
+	{ 395, 3838, offsetof(FtpWebResponse_t4034, ___stream_1), 0 } ,
+	{ 376, 3529, offsetof(FtpWebResponse_t4034, ___uri_2), 0 } ,
+	{ 401, 7554, offsetof(FtpWebResponse_t4034, ___statusCode_3), 0 } ,
+	{ 472, 1233, offsetof(FtpWebResponse_t4034, ___lastModified_4), 0 } ,
+	{ 473, 99, offsetof(FtpWebResponse_t4034, ___bannerMessage_5), 0 } ,
+	{ 474, 99, offsetof(FtpWebResponse_t4034, ___welcomeMessage_6), 0 } ,
+	{ 475, 99, offsetof(FtpWebResponse_t4034, ___exitMessage_7), 0 } ,
+	{ 402, 99, offsetof(FtpWebResponse_t4034, ___statusDescription_8), 0 } ,
+	{ 382, 99, offsetof(FtpWebResponse_t4034, ___method_9), 0 } ,
+	{ 77, 100, offsetof(FtpWebResponse_t4034, ___disposed_10), 0 } ,
+	{ 397, 7532, offsetof(FtpWebResponse_t4034, ___request_11), 0 } ,
+	{ 380, 7555, offsetof(FtpWebResponse_t4034, ___contentLength_12), 0 } ,
+	{ 65, 90, offsetof(HttpStatusCode_t4049, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 476, 7561, 0, 0 } ,
+	{ 477, 7561, 0, 0 } ,
+	{ 478, 7561, 0, 0 } ,
+	{ 479, 7561, 0, 0 } ,
+	{ 480, 7561, 0, 0 } ,
+	{ 481, 7561, 0, 0 } ,
+	{ 482, 7561, 0, 0 } ,
+	{ 483, 7561, 0, 0 } ,
+	{ 484, 7561, 0, 0 } ,
+	{ 485, 7561, 0, 0 } ,
+	{ 486, 7561, 0, 0 } ,
+	{ 487, 7561, 0, 0 } ,
+	{ 488, 7561, 0, 0 } ,
+	{ 489, 7561, 0, 0 } ,
+	{ 490, 7561, 0, 0 } ,
+	{ 491, 7561, 0, 0 } ,
+	{ 492, 7561, 0, 0 } ,
+	{ 493, 7561, 0, 0 } ,
+	{ 494, 7561, 0, 0 } ,
+	{ 495, 7561, 0, 0 } ,
+	{ 496, 7561, 0, 0 } ,
+	{ 497, 7561, 0, 0 } ,
+	{ 498, 7561, 0, 0 } ,
+	{ 499, 7561, 0, 0 } ,
+	{ 500, 7561, 0, 0 } ,
+	{ 501, 7561, 0, 0 } ,
+	{ 502, 7561, 0, 0 } ,
+	{ 503, 7561, 0, 0 } ,
+	{ 504, 7561, 0, 0 } ,
+	{ 505, 7561, 0, 0 } ,
+	{ 506, 7561, 0, 0 } ,
+	{ 507, 7561, 0, 0 } ,
+	{ 508, 7561, 0, 0 } ,
+	{ 509, 7561, 0, 0 } ,
+	{ 510, 7561, 0, 0 } ,
+	{ 511, 7561, 0, 0 } ,
+	{ 512, 7561, 0, 0 } ,
+	{ 513, 7561, 0, 0 } ,
+	{ 514, 7561, 0, 0 } ,
+	{ 515, 7561, 0, 0 } ,
+	{ 516, 7561, 0, 0 } ,
+	{ 517, 7561, 0, 0 } ,
+	{ 518, 7561, 0, 0 } ,
+	{ 519, 7561, 0, 0 } ,
+	{ 520, 7561, 0, 0 } ,
+	{ 521, 7561, 0, 0 } ,
+	{ 522, 7563, offsetof(HttpVersion_t4050_StaticFields, ___Version10_0), 0 } ,
+	{ 523, 7563, offsetof(HttpVersion_t4050_StaticFields, ___Version11_1), 0 } ,
+	{ 447, 3529, offsetof(HttpWebRequest_t3857, ___requestUri_6), 0 } ,
+	{ 524, 3529, offsetof(HttpWebRequest_t3857, ___actualUri_7), 0 } ,
+	{ 525, 100, offsetof(HttpWebRequest_t3857, ___hostChanged_8), 0 } ,
+	{ 526, 100, offsetof(HttpWebRequest_t3857, ___allowAutoRedirect_9), 0 } ,
+	{ 527, 100, offsetof(HttpWebRequest_t3857, ___allowBuffering_10), 0 } ,
+	{ 528, 6930, offsetof(HttpWebRequest_t3857, ___certificates_11), 0 } ,
+	{ 379, 99, offsetof(HttpWebRequest_t3857, ___connectionGroup_12), 0 } ,
+	{ 380, 116, offsetof(HttpWebRequest_t3857, ___contentLength_13), 0 } ,
+	{ 529, 7565, offsetof(HttpWebRequest_t3857, ___continueDelegate_14), 0 } ,
+	{ 530, 7566, offsetof(HttpWebRequest_t3857, ___cookieContainer_15), 0 } ,
+	{ 378, 5940, offsetof(HttpWebRequest_t3857, ___credentials_16), 0 } ,
+	{ 531, 100, offsetof(HttpWebRequest_t3857, ___haveResponse_17), 0 } ,
+	{ 532, 100, offsetof(HttpWebRequest_t3857, ___haveRequest_18), 0 } ,
+	{ 533, 100, offsetof(HttpWebRequest_t3857, ___requestSent_19), 0 } ,
+	{ 377, 7519, offsetof(HttpWebRequest_t3857, ___webHeaders_20), 0 } ,
+	{ 461, 100, offsetof(HttpWebRequest_t3857, ___keepAlive_21), 0 } ,
+	{ 534, 110, offsetof(HttpWebRequest_t3857, ___maxAutoRedirect_22), 0 } ,
+	{ 535, 99, offsetof(HttpWebRequest_t3857, ___mediaType_23), 0 } ,
+	{ 382, 99, offsetof(HttpWebRequest_t3857, ___method_24), 0 } ,
+	{ 536, 99, offsetof(HttpWebRequest_t3857, ___initialMethod_25), 0 } ,
+	{ 537, 100, offsetof(HttpWebRequest_t3857, ___pipelined_26), 0 } ,
+	{ 384, 100, offsetof(HttpWebRequest_t3857, ___preAuthenticate_27), 0 } ,
+	{ 538, 100, offsetof(HttpWebRequest_t3857, ___usedPreAuth_28), 0 } ,
+	{ 2, 7567, offsetof(HttpWebRequest_t3857, ___version_29), 0 } ,
+	{ 539, 7567, offsetof(HttpWebRequest_t3857, ___actualVersion_30), 0 } ,
+	{ 383, 7520, offsetof(HttpWebRequest_t3857, ___proxy_31), 0 } ,
+	{ 540, 100, offsetof(HttpWebRequest_t3857, ___sendChunked_32), 0 } ,
+	{ 449, 7545, offsetof(HttpWebRequest_t3857, ___servicePoint_33), 0 } ,
+	{ 385, 110, offsetof(HttpWebRequest_t3857, ___timeout_34), 0 } ,
+	{ 541, 7568, offsetof(HttpWebRequest_t3857, ___writeStream_35), 0 } ,
+	{ 386, 7569, offsetof(HttpWebRequest_t3857, ___webResponse_36), 0 } ,
+	{ 542, 7570, offsetof(HttpWebRequest_t3857, ___asyncWrite_37), 0 } ,
+	{ 543, 7570, offsetof(HttpWebRequest_t3857, ___asyncRead_38), 0 } ,
+	{ 544, 7571, offsetof(HttpWebRequest_t3857, ___abortHandler_39), 0 } ,
+	{ 545, 110, offsetof(HttpWebRequest_t3857, ___aborted_40), 0 } ,
+	{ 546, 110, offsetof(HttpWebRequest_t3857, ___redirects_41), 0 } ,
+	{ 547, 100, offsetof(HttpWebRequest_t3857, ___expectContinue_42), 0 } ,
+	{ 548, 100, offsetof(HttpWebRequest_t3857, ___authCompleted_43), 0 } ,
+	{ 549, 865, offsetof(HttpWebRequest_t3857, ___bodyBuffer_44), 0 } ,
+	{ 550, 110, offsetof(HttpWebRequest_t3857, ___bodyBufferLength_45), 0 } ,
+	{ 551, 100, offsetof(HttpWebRequest_t3857, ___getResponseCalled_46), 0 } ,
+	{ 552, 3429, offsetof(HttpWebRequest_t3857, ___saved_exc_47), 0 } ,
+	{ 322, 644, offsetof(HttpWebRequest_t3857, ___locker_48), 0 } ,
+	{ 553, 100, offsetof(HttpWebRequest_t3857, ___is_ntlm_auth_49), 0 } ,
+	{ 554, 100, offsetof(HttpWebRequest_t3857, ___finished_reading_50), 0 } ,
+	{ 555, 7572, offsetof(HttpWebRequest_t3857, ___WebConnection_51), 0 } ,
+	{ 556, 7573, offsetof(HttpWebRequest_t3857, ___auto_decomp_52), 0 } ,
+	{ 557, 839, offsetof(HttpWebRequest_t3857_StaticFields, ___defaultMaxResponseHeadersLength_53), 0 } ,
+	{ 558, 110, offsetof(HttpWebRequest_t3857, ___readWriteTimeout_54), 0 } ,
+	{ 559, 100, offsetof(HttpWebRequest_t3857, ___unsafe_auth_blah_55), 0 } ,
+	{ 376, 3529, offsetof(HttpWebResponse_t4053, ___uri_1), 0 } ,
+	{ 377, 7519, offsetof(HttpWebResponse_t4053, ___webHeaders_2), 0 } ,
+	{ 560, 7498, offsetof(HttpWebResponse_t4053, ___cookieCollection_3), 0 } ,
+	{ 382, 99, offsetof(HttpWebResponse_t4053, ___method_4), 0 } ,
+	{ 2, 7567, offsetof(HttpWebResponse_t4053, ___version_5), 0 } ,
+	{ 401, 7575, offsetof(HttpWebResponse_t4053, ___statusCode_6), 0 } ,
+	{ 402, 99, offsetof(HttpWebResponse_t4053, ___statusDescription_7), 0 } ,
+	{ 380, 116, offsetof(HttpWebResponse_t4053, ___contentLength_8), 0 } ,
+	{ 561, 99, offsetof(HttpWebResponse_t4053, ___contentType_9), 0 } ,
+	{ 562, 7566, offsetof(HttpWebResponse_t4053, ___cookie_container_10), 0 } ,
+	{ 77, 100, offsetof(HttpWebResponse_t4053, ___disposed_11), 0 } ,
+	{ 395, 3838, offsetof(HttpWebResponse_t4053, ___stream_12), 0 } ,
+	{ 563, 614, offsetof(HttpWebResponse_t4053, ___cookieExpiresFormats_13), 0 } ,
+	{ 564, 942, offsetof(HttpWebResponse_t4053_StaticFields, ___U3CU3Ef__switchU24map8_14), 44 } ,
+	{ 363, 99, offsetof(CookieParser_t4057, ___header_0), 0 } ,
+	{ 365, 110, offsetof(CookieParser_t4057, ___pos_1), 0 } ,
+	{ 364, 110, offsetof(CookieParser_t4057, ___length_2), 0 } ,
+	{ 565, 116, offsetof(IPAddress_t4059, ___m_Address_0), 0 } ,
+	{ 566, 7460, offsetof(IPAddress_t4059, ___m_Family_1), 0 } ,
+	{ 567, 7584, offsetof(IPAddress_t4059, ___m_Numbers_2), 0 } ,
+	{ 568, 116, offsetof(IPAddress_t4059, ___m_ScopeId_3), 0 } ,
+	{ 569, 7585, offsetof(IPAddress_t4059_StaticFields, ___Any_4), 0 } ,
+	{ 271, 7585, offsetof(IPAddress_t4059_StaticFields, ___Broadcast_5), 0 } ,
+	{ 570, 7585, offsetof(IPAddress_t4059_StaticFields, ___Loopback_6), 0 } ,
+	{ 85, 7585, offsetof(IPAddress_t4059_StaticFields, ___None_7), 0 } ,
+	{ 571, 7585, offsetof(IPAddress_t4059_StaticFields, ___IPv6Any_8), 0 } ,
+	{ 572, 7585, offsetof(IPAddress_t4059_StaticFields, ___IPv6Loopback_9), 0 } ,
+	{ 573, 7585, offsetof(IPAddress_t4059_StaticFields, ___IPv6None_10), 0 } ,
+	{ 574, 7587, offsetof(IPEndPoint_t4046, ___address_0), 0 } ,
+	{ 347, 110, offsetof(IPEndPoint_t4046, ___port_1), 0 } ,
+	{ 575, 7589, offsetof(IPHostEntry_t4045, ___addressList_0), 0 } ,
+	{ 576, 614, offsetof(IPHostEntry_t4045, ___aliases_1), 0 } ,
+	{ 577, 99, offsetof(IPHostEntry_t4045, ___hostName_2), 0 } ,
+	{ 574, 7584, offsetof(IPv6Address_t4060, ___address_0), 0 } ,
+	{ 578, 110, offsetof(IPv6Address_t4060, ___prefixLength_1), 0 } ,
+	{ 579, 116, offsetof(IPv6Address_t4060, ___scopeId_2), 0 } ,
+	{ 570, 7592, offsetof(IPv6Address_t4060_StaticFields, ___Loopback_3), 0 } ,
+	{ 97, 7592, offsetof(IPv6Address_t4060_StaticFields, ___Unspecified_4), 0 } ,
+	{ 580, 99, offsetof(NetworkCredential_t4044, ___userName_0), 0 } ,
+	{ 581, 99, offsetof(NetworkCredential_t4044, ___password_1), 0 } ,
+	{ 342, 99, offsetof(NetworkCredential_t4044, ___domain_2), 0 } ,
+	{ 65, 90, offsetof(SecurityProtocolType_t4062, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 582, 7598, 0, 0 } ,
+	{ 583, 7598, 0, 0 } ,
+	{ 376, 3529, offsetof(ServicePoint_t3932, ___uri_0), 0 } ,
+	{ 584, 110, offsetof(ServicePoint_t3932, ___connectionLimit_1), 0 } ,
+	{ 585, 110, offsetof(ServicePoint_t3932, ___maxIdleTime_2), 0 } ,
+	{ 586, 110, offsetof(ServicePoint_t3932, ___currentConnections_3), 0 } ,
+	{ 587, 1233, offsetof(ServicePoint_t3932, ___idleSince_4), 0 } ,
+	{ 588, 7567, offsetof(ServicePoint_t3932, ___protocolVersion_5), 0 } ,
+	{ 589, 6931, offsetof(ServicePoint_t3932, ___certificate_6), 0 } ,
+	{ 590, 6931, offsetof(ServicePoint_t3932, ___clientCertificate_7), 0 } ,
+	{ 36, 7548, offsetof(ServicePoint_t3932, ___host_8), 0 } ,
+	{ 591, 100, offsetof(ServicePoint_t3932, ___usesProxy_9), 0 } ,
+	{ 592, 5703, offsetof(ServicePoint_t3932, ___groups_10), 0 } ,
+	{ 593, 100, offsetof(ServicePoint_t3932, ___sendContinue_11), 0 } ,
+	{ 594, 100, offsetof(ServicePoint_t3932, ___useConnect_12), 0 } ,
+	{ 322, 644, offsetof(ServicePoint_t3932, ___locker_13), 0 } ,
+	{ 595, 644, offsetof(ServicePoint_t3932, ___hostE_14), 0 } ,
+	{ 596, 100, offsetof(ServicePoint_t3932, ___useNagle_15), 0 } ,
+	{ 597, 7601, offsetof(ServicePoint_t3932, ___endPointCallback_16), 0 } ,
+	{ 376, 3529, offsetof(SPKey_t4064, ___uri_0), 0 } ,
+	{ 598, 100, offsetof(SPKey_t4064, ___use_connect_1), 0 } ,
+	{ 599, 644, offsetof(ChainValidationHelper_t4065, ___sender_0), 0 } ,
+	{ 36, 99, offsetof(ChainValidationHelper_t4065, ___host_1), 0 } ,
+	{ 600, 672, offsetof(ChainValidationHelper_t4065_StaticFields, ___is_macosx_2), 0 } ,
+	{ 601, 7604, offsetof(ChainValidationHelper_t4065_StaticFields, ___s_flags_3), 0 } ,
+	{ 602, 7606, offsetof(ServicePointManager_t3925_StaticFields, ___servicePoints_0), 0 } ,
+	{ 603, 7607, offsetof(ServicePointManager_t3925_StaticFields, ___policy_1), 0 } ,
+	{ 604, 839, offsetof(ServicePointManager_t3925_StaticFields, ___defaultConnectionLimit_2), 0 } ,
+	{ 605, 839, offsetof(ServicePointManager_t3925_StaticFields, ___maxServicePointIdleTime_3), 0 } ,
+	{ 606, 839, offsetof(ServicePointManager_t3925_StaticFields, ___maxServicePoints_4), 0 } ,
+	{ 607, 672, offsetof(ServicePointManager_t3925_StaticFields, ____checkCRL_5), 0 } ,
+	{ 608, 7608, offsetof(ServicePointManager_t3925_StaticFields, ____securityProtocol_6), 0 } ,
+	{ 547, 672, offsetof(ServicePointManager_t3925_StaticFields, ___expectContinue_7), 0 } ,
+	{ 596, 672, offsetof(ServicePointManager_t3925_StaticFields, ___useNagle_8), 0 } ,
+	{ 609, 7552, offsetof(ServicePointManager_t3925_StaticFields, ___server_cert_cb_9), 0 } ,
+	{ 81, 865, offsetof(SocketAddress_t4066, ___data_0), 0 } ,
+	{ 173, 6894, offsetof(WebAsyncResult_t4054, ___handle_0), 0 } ,
+	{ 396, 100, offsetof(WebAsyncResult_t4054, ___synch_1), 0 } ,
+	{ 610, 100, offsetof(WebAsyncResult_t4054, ___isCompleted_2), 0 } ,
+	{ 611, 6893, offsetof(WebAsyncResult_t4054, ___cb_3), 0 } ,
+	{ 64, 644, offsetof(WebAsyncResult_t4054, ___state_4), 0 } ,
+	{ 612, 110, offsetof(WebAsyncResult_t4054, ___nbytes_5), 0 } ,
+	{ 613, 7610, offsetof(WebAsyncResult_t4054, ___innerAsyncResult_6), 0 } ,
+	{ 614, 100, offsetof(WebAsyncResult_t4054, ___callbackDone_7), 0 } ,
+	{ 615, 3429, offsetof(WebAsyncResult_t4054, ___exc_8), 0 } ,
+	{ 392, 7569, offsetof(WebAsyncResult_t4054, ___response_9), 0 } ,
+	{ 541, 3838, offsetof(WebAsyncResult_t4054, ___writeStream_10), 0 } ,
+	{ 616, 865, offsetof(WebAsyncResult_t4054, ___buffer_11), 0 } ,
+	{ 457, 110, offsetof(WebAsyncResult_t4054, ___offset_12), 0 } ,
+	{ 617, 110, offsetof(WebAsyncResult_t4054, ___size_13), 0 } ,
+	{ 322, 644, offsetof(WebAsyncResult_t4054, ___locker_14), 0 } ,
+	{ 195, 104, offsetof(WebAsyncResult_t4054, ___EndCalled_15), 0 } ,
+	{ 618, 104, offsetof(WebAsyncResult_t4054, ___AsyncWriteAll_16), 0 } ,
+	{ 65, 90, offsetof(ReadState_t4067, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 85, 7612, 0, 0 } ,
+	{ 619, 7612, 0, 0 } ,
+	{ 620, 7612, 0, 0 } ,
+	{ 621, 7612, 0, 0 } ,
+	{ 622, 7615, offsetof(AbortHelper_t4068, ___Connection_0), 0 } ,
+	{ 623, 7545, offsetof(WebConnection_t4056, ___sPoint_0), 0 } ,
+	{ 624, 3838, offsetof(WebConnection_t4056, ___nstream_1), 0 } ,
+	{ 130, 7426, offsetof(WebConnection_t4056, ___socket_2), 0 } ,
+	{ 625, 644, offsetof(WebConnection_t4056, ___socketLock_3), 0 } ,
+	{ 626, 7617, offsetof(WebConnection_t4056, ___status_4), 0 } ,
+	{ 627, 7618, offsetof(WebConnection_t4056, ___initConn_5), 0 } ,
+	{ 461, 100, offsetof(WebConnection_t4056, ___keepAlive_6), 0 } ,
+	{ 616, 865, offsetof(WebConnection_t4056, ___buffer_7), 0 } ,
+	{ 628, 7619, offsetof(WebConnection_t4056_StaticFields, ___readDoneDelegate_8), 0 } ,
+	{ 544, 7571, offsetof(WebConnection_t4056, ___abortHandler_9), 0 } ,
+	{ 629, 7620, offsetof(WebConnection_t4056, ___abortHelper_10), 0 } ,
+	{ 630, 7621, offsetof(WebConnection_t4056, ___readState_11), 0 } ,
+	{ 631, 7622, offsetof(WebConnection_t4056, ___Data_12), 0 } ,
+	{ 632, 100, offsetof(WebConnection_t4056, ___chunkedRead_13), 0 } ,
+	{ 633, 7623, offsetof(WebConnection_t4056, ___chunkStream_14), 0 } ,
+	{ 634, 7459, offsetof(WebConnection_t4056, ___queue_15), 0 } ,
+	{ 635, 100, offsetof(WebConnection_t4056, ___reused_16), 0 } ,
+	{ 636, 110, offsetof(WebConnection_t4056, ___position_17), 0 } ,
+	{ 637, 100, offsetof(WebConnection_t4056, ___busy_18), 0 } ,
+	{ 638, 6888, offsetof(WebConnection_t4056, ___priority_request_19), 0 } ,
+	{ 639, 7547, offsetof(WebConnection_t4056, ___ntlm_credentials_20), 0 } ,
+	{ 640, 100, offsetof(WebConnection_t4056, ___ntlm_authenticated_21), 0 } ,
+	{ 641, 100, offsetof(WebConnection_t4056, ___unsafe_sharing_22), 0 } ,
+	{ 642, 100, offsetof(WebConnection_t4056, ___ssl_23), 0 } ,
+	{ 643, 100, offsetof(WebConnection_t4056, ___certsAvailable_24), 0 } ,
+	{ 644, 3429, offsetof(WebConnection_t4056, ___connect_exception_25), 0 } ,
+	{ 645, 3757, offsetof(WebConnection_t4056_StaticFields, ___classLock_26), 0 } ,
+	{ 646, 7624, offsetof(WebConnection_t4056_StaticFields, ___sslStream_27), 0 } ,
+	{ 647, 7625, offsetof(WebConnection_t4056_StaticFields, ___piClient_28), 0 } ,
+	{ 648, 7625, offsetof(WebConnection_t4056_StaticFields, ___piServer_29), 0 } ,
+	{ 649, 7625, offsetof(WebConnection_t4056_StaticFields, ___piTrustFailure_30), 0 } ,
+	{ 650, 7464, offsetof(WebConnection_t4056_StaticFields, ___method_GetSecurityPolicyFromNonMainThread_31), 0 } ,
+	{ 397, 7627, offsetof(WebConnectionData_t4069, ___request_0), 0 } ,
+	{ 651, 102, offsetof(WebConnectionData_t4069, ___StatusCode_1), 0 } ,
+	{ 652, 101, offsetof(WebConnectionData_t4069, ___StatusDescription_2), 0 } ,
+	{ 620, 7628, offsetof(WebConnectionData_t4069, ___Headers_3), 0 } ,
+	{ 653, 7629, offsetof(WebConnectionData_t4069, ___Version_4), 0 } ,
+	{ 395, 3445, offsetof(WebConnectionData_t4069, ___stream_5), 0 } ,
+	{ 654, 101, offsetof(WebConnectionData_t4069, ___Challenge_6), 0 } ,
+	{ 623, 7545, offsetof(WebConnectionGroup_t4070, ___sPoint_0), 0 } ,
+	{ 345, 99, offsetof(WebConnectionGroup_t4070, ___name_1), 0 } ,
+	{ 655, 5713, offsetof(WebConnectionGroup_t4070, ___connections_2), 0 } ,
+	{ 656, 7631, offsetof(WebConnectionGroup_t4070, ___rnd_3), 0 } ,
+	{ 634, 7459, offsetof(WebConnectionGroup_t4070, ___queue_4), 0 } ,
+	{ 657, 4810, offsetof(WebConnectionStream_t4052_StaticFields, ___crlf_1), 0 } ,
+	{ 399, 100, offsetof(WebConnectionStream_t4052, ___isRead_2), 0 } ,
+	{ 658, 7633, offsetof(WebConnectionStream_t4052, ___cnc_3), 0 } ,
+	{ 397, 6888, offsetof(WebConnectionStream_t4052, ___request_4), 0 } ,
+	{ 659, 865, offsetof(WebConnectionStream_t4052, ___readBuffer_5), 0 } ,
+	{ 660, 110, offsetof(WebConnectionStream_t4052, ___readBufferOffset_6), 0 } ,
+	{ 661, 110, offsetof(WebConnectionStream_t4052, ___readBufferSize_7), 0 } ,
+	{ 380, 110, offsetof(WebConnectionStream_t4052, ___contentLength_8), 0 } ,
+	{ 400, 110, offsetof(WebConnectionStream_t4052, ___totalRead_9), 0 } ,
+	{ 662, 116, offsetof(WebConnectionStream_t4052, ___totalWritten_10), 0 } ,
+	{ 663, 100, offsetof(WebConnectionStream_t4052, ___nextReadCalled_11), 0 } ,
+	{ 664, 110, offsetof(WebConnectionStream_t4052, ___pendingReads_12), 0 } ,
+	{ 665, 110, offsetof(WebConnectionStream_t4052, ___pendingWrites_13), 0 } ,
+	{ 666, 6894, offsetof(WebConnectionStream_t4052, ___pending_14), 0 } ,
+	{ 527, 100, offsetof(WebConnectionStream_t4052, ___allowBuffering_15), 0 } ,
+	{ 540, 100, offsetof(WebConnectionStream_t4052, ___sendChunked_16), 0 } ,
+	{ 667, 6927, offsetof(WebConnectionStream_t4052, ___writeBuffer_17), 0 } ,
+	{ 668, 100, offsetof(WebConnectionStream_t4052, ___requestWritten_18), 0 } ,
+	{ 332, 865, offsetof(WebConnectionStream_t4052, ___headers_19), 0 } ,
+	{ 77, 100, offsetof(WebConnectionStream_t4052, ___disposed_20), 0 } ,
+	{ 669, 100, offsetof(WebConnectionStream_t4052, ___headersSent_21), 0 } ,
+	{ 322, 644, offsetof(WebConnectionStream_t4052, ___locker_22), 0 } ,
+	{ 670, 100, offsetof(WebConnectionStream_t4052, ___initRead_23), 0 } ,
+	{ 671, 100, offsetof(WebConnectionStream_t4052, ___read_eof_24), 0 } ,
+	{ 672, 100, offsetof(WebConnectionStream_t4052, ___complete_request_written_25), 0 } ,
+	{ 673, 110, offsetof(WebConnectionStream_t4052, ___read_timeout_26), 0 } ,
+	{ 674, 110, offsetof(WebConnectionStream_t4052, ___write_timeout_27), 0 } ,
+	{ 392, 7635, offsetof(WebException_t4071, ___response_12), 0 } ,
+	{ 626, 7617, offsetof(WebException_t4071, ___status_13), 0 } ,
+	{ 65, 90, offsetof(WebExceptionStatus_t4072, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 257, 7637, 0, 0 } ,
+	{ 675, 7637, 0, 0 } ,
+	{ 676, 7637, 0, 0 } ,
+	{ 677, 7637, 0, 0 } ,
+	{ 678, 7637, 0, 0 } ,
+	{ 679, 7637, 0, 0 } ,
+	{ 680, 7637, 0, 0 } ,
+	{ 681, 7637, 0, 0 } ,
+	{ 426, 7637, 0, 0 } ,
+	{ 682, 7637, 0, 0 } ,
+	{ 683, 7637, 0, 0 } ,
+	{ 684, 7637, 0, 0 } ,
+	{ 685, 7637, 0, 0 } ,
+	{ 686, 7637, 0, 0 } ,
+	{ 687, 7637, 0, 0 } ,
+	{ 688, 7637, 0, 0 } ,
+	{ 689, 7637, 0, 0 } ,
+	{ 690, 7637, 0, 0 } ,
+	{ 691, 7637, 0, 0 } ,
+	{ 692, 7637, 0, 0 } ,
+	{ 693, 7637, 0, 0 } ,
+	{ 694, 7509, offsetof(WebHeaderCollection_t4014_StaticFields, ___restricted_12), 0 } ,
+	{ 695, 7509, offsetof(WebHeaderCollection_t4014_StaticFields, ___multiValue_13), 0 } ,
+	{ 696, 7639, offsetof(WebHeaderCollection_t4014_StaticFields, ___restricted_response_14), 0 } ,
+	{ 697, 100, offsetof(WebHeaderCollection_t4014, ___internallyCreated_15), 0 } ,
+	{ 698, 7640, offsetof(WebHeaderCollection_t4014_StaticFields, ___allowed_chars_16), 0 } ,
+	{ 574, 3529, offsetof(WebProxy_t4073, ___address_0), 0 } ,
+	{ 699, 100, offsetof(WebProxy_t4073, ___bypassOnLocal_1), 0 } ,
+	{ 700, 5713, offsetof(WebProxy_t4073, ___bypassList_2), 0 } ,
+	{ 378, 5940, offsetof(WebProxy_t4073, ___credentials_3), 0 } ,
+	{ 701, 100, offsetof(WebProxy_t4073, ___useDefaultCredentials_4), 0 } ,
+	{ 702, 7606, offsetof(WebRequest_t3299_StaticFields, ___prefixes_1), 0 } ,
+	{ 703, 672, offsetof(WebRequest_t3299_StaticFields, ___isDefaultWebProxySet_2), 0 } ,
+	{ 704, 7644, offsetof(WebRequest_t3299_StaticFields, ___defaultWebProxy_3), 0 } ,
+	{ 705, 7645, offsetof(WebRequest_t3299, ___authentication_level_4), 0 } ,
+	{ 706, 3781, offsetof(WebRequest_t3299_StaticFields, ___lockobj_5), 0 } ,
+	{ 65, 90, offsetof(SslProtocols_t4075, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 85, 7649, 0, 0 } ,
+	{ 707, 7649, 0, 0 } ,
+	{ 582, 7649, 0, 0 } ,
+	{ 583, 7649, 0, 0 } ,
+	{ 35, 7649, 0, 0 } ,
+	{ 65, 90, offsetof(SecTrustResult_t4076, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 708, 7651, 0, 0 } ,
+	{ 709, 7651, 0, 0 } ,
+	{ 710, 7651, 0, 0 } ,
+	{ 711, 7651, 0, 0 } ,
+	{ 97, 7651, 0, 0 } ,
+	{ 712, 7651, 0, 0 } ,
+	{ 713, 7651, 0, 0 } ,
+	{ 714, 7651, 0, 0 } ,
+	{ 715, 7656, offsetof(OSX509Certificates_t4077_StaticFields, ___sslsecpolicy_0), 0 } ,
+	{ 65, 90, offsetof(OpenFlags_t4078, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 716, 7658, 0, 0 } ,
+	{ 717, 7658, 0, 0 } ,
+	{ 718, 7658, 0, 0 } ,
+	{ 719, 7658, 0, 0 } ,
+	{ 720, 7658, 0, 0 } ,
+	{ 721, 7661, offsetof(PublicKey_t4081, ____key_0), 0 } ,
+	{ 722, 7662, offsetof(PublicKey_t4081, ____keyValue_1), 0 } ,
+	{ 723, 7662, offsetof(PublicKey_t4081, ____params_2), 0 } ,
+	{ 724, 7663, offsetof(PublicKey_t4081, ____oid_3), 0 } ,
+	{ 725, 942, offsetof(PublicKey_t4081_StaticFields, ___U3CU3Ef__switchU24map9_4), 57 } ,
+	{ 65, 90, offsetof(StoreLocation_t4082, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 726, 7665, 0, 0 } ,
+	{ 727, 7665, 0, 0 } ,
+	{ 65, 90, offsetof(StoreName_t4083, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 728, 7668, 0, 0 } ,
+	{ 729, 7668, 0, 0 } ,
+	{ 730, 7668, 0, 0 } ,
+	{ 731, 7668, 0, 0 } ,
+	{ 732, 7668, 0, 0 } ,
+	{ 733, 7668, 0, 0 } ,
+	{ 734, 7668, 0, 0 } ,
+	{ 735, 7668, 0, 0 } ,
+	{ 345, 99, offsetof(X500DistinguishedName_t4084, ___name_3), 0 } ,
+	{ 65, 90, offsetof(X500DistinguishedNameFlags_t4085, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 85, 7672, 0, 0 } ,
+	{ 736, 7672, 0, 0 } ,
+	{ 737, 7672, 0, 0 } ,
+	{ 738, 7672, 0, 0 } ,
+	{ 739, 7672, 0, 0 } ,
+	{ 740, 7672, 0, 0 } ,
+	{ 741, 7672, 0, 0 } ,
+	{ 742, 7672, 0, 0 } ,
+	{ 743, 7672, 0, 0 } ,
+	{ 744, 7672, 0, 0 } ,
+	{ 745, 1205, 0, 0 } ,
+	{ 746, 1205, 0, 0 } ,
+	{ 747, 100, offsetof(X509BasicConstraintsExtension_t4086, ____certificateAuthority_6), 0 } ,
+	{ 748, 100, offsetof(X509BasicConstraintsExtension_t4086, ____hasPathLengthConstraint_7), 0 } ,
+	{ 749, 110, offsetof(X509BasicConstraintsExtension_t4086, ____pathLengthConstraint_8), 0 } ,
+	{ 750, 7675, offsetof(X509BasicConstraintsExtension_t4086, ____status_9), 0 } ,
+	{ 751, 100, offsetof(X509Certificate2_t3934, ____archived_5), 0 } ,
+	{ 752, 7679, offsetof(X509Certificate2_t3934, ____extensions_6), 0 } ,
+	{ 753, 99, offsetof(X509Certificate2_t3934, ____name_7), 0 } ,
+	{ 754, 99, offsetof(X509Certificate2_t3934, ____serial_8), 0 } ,
+	{ 755, 7680, offsetof(X509Certificate2_t3934, ____publicKey_9), 0 } ,
+	{ 756, 7681, offsetof(X509Certificate2_t3934, ___issuer_name_10), 0 } ,
+	{ 757, 7681, offsetof(X509Certificate2_t3934, ___subject_name_11), 0 } ,
+	{ 758, 7663, offsetof(X509Certificate2_t3934, ___signature_algorithm_12), 0 } ,
+	{ 759, 6792, offsetof(X509Certificate2_t3934, ____cert_13), 0 } ,
+	{ 760, 1096, offsetof(X509Certificate2_t3934_StaticFields, ___empty_error_14), 0 } ,
+	{ 761, 4810, offsetof(X509Certificate2_t3934_StaticFields, ___commonName_15), 0 } ,
+	{ 762, 4810, offsetof(X509Certificate2_t3934_StaticFields, ___email_16), 0 } ,
+	{ 763, 4810, offsetof(X509Certificate2_t3934_StaticFields, ___signedData_17), 0 } ,
+	{ 764, 1307, offsetof(X509Certificate2Enumerator_t4090, ___enumerator_0), 0 } ,
+	{ 764, 1307, offsetof(X509CertificateEnumerator_t3939, ___enumerator_0), 0 } ,
+	{ 765, 7687, offsetof(X509Chain_t3935, ___location_0), 0 } ,
+	{ 766, 7688, offsetof(X509Chain_t3935, ___elements_1), 0 } ,
+	{ 603, 7689, offsetof(X509Chain_t3935, ___policy_2), 0 } ,
+	{ 626, 7690, offsetof(X509Chain_t3935, ___status_3), 0 } ,
+	{ 767, 7691, offsetof(X509Chain_t3935_StaticFields, ___Empty_4), 0 } ,
+	{ 768, 110, offsetof(X509Chain_t3935, ___max_path_length_5), 0 } ,
+	{ 769, 7681, offsetof(X509Chain_t3935, ___working_issuer_name_6), 0 } ,
+	{ 770, 7661, offsetof(X509Chain_t3935, ___working_public_key_7), 0 } ,
+	{ 771, 7692, offsetof(X509Chain_t3935, ___bce_restriction_8), 0 } ,
+	{ 772, 7693, offsetof(X509Chain_t3935, ___roots_9), 0 } ,
+	{ 773, 7693, offsetof(X509Chain_t3935, ___cas_10), 0 } ,
+	{ 774, 7694, offsetof(X509Chain_t3935, ___collection_11), 0 } ,
+	{ 775, 942, offsetof(X509Chain_t3935_StaticFields, ___U3CU3Ef__switchU24mapB_12), 67 } ,
+	{ 776, 942, offsetof(X509Chain_t3935_StaticFields, ___U3CU3Ef__switchU24mapC_13), 68 } ,
+	{ 777, 942, offsetof(X509Chain_t3935_StaticFields, ___U3CU3Ef__switchU24mapD_14), 69 } ,
+	{ 589, 7696, offsetof(X509ChainElement_t4095, ___certificate_0), 0 } ,
+	{ 626, 7690, offsetof(X509ChainElement_t4095, ___status_1), 0 } ,
+	{ 778, 99, offsetof(X509ChainElement_t4095, ___info_2), 0 } ,
+	{ 779, 7697, offsetof(X509ChainElement_t4095, ___compressed_status_flags_3), 0 } ,
+	{ 780, 5713, offsetof(X509ChainElementCollection_t4091, ____list_0), 0 } ,
+	{ 764, 1307, offsetof(X509ChainElementEnumerator_t4097, ___enumerator_0), 0 } ,
+	{ 781, 7704, offsetof(X509ChainPolicy_t4092, ___apps_0), 0 } ,
+	{ 782, 7704, offsetof(X509ChainPolicy_t4092, ___cert_1), 0 } ,
+	{ 783, 7694, offsetof(X509ChainPolicy_t4092, ___store_2), 0 } ,
+	{ 784, 7705, offsetof(X509ChainPolicy_t4092, ___rflag_3), 0 } ,
+	{ 75, 7706, offsetof(X509ChainPolicy_t4092, ___mode_4), 0 } ,
+	{ 385, 6562, offsetof(X509ChainPolicy_t4092, ___timeout_5), 0 } ,
+	{ 785, 7707, offsetof(X509ChainPolicy_t4092, ___vflags_6), 0 } ,
+	{ 786, 1233, offsetof(X509ChainPolicy_t4092, ___vtime_7), 0 } ,
+	{ 626, 7697, offsetof(X509ChainStatus_t4094, ___status_0) + sizeof(Object_t), 0 } ,
+	{ 778, 99, offsetof(X509ChainStatus_t4094, ___info_1) + sizeof(Object_t), 0 } ,
+	{ 65, 90, offsetof(X509ChainStatusFlags_t4099, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 787, 7710, 0, 0 } ,
+	{ 788, 7710, 0, 0 } ,
+	{ 789, 7710, 0, 0 } ,
+	{ 790, 7710, 0, 0 } ,
+	{ 791, 7710, 0, 0 } ,
+	{ 792, 7710, 0, 0 } ,
+	{ 793, 7710, 0, 0 } ,
+	{ 794, 7710, 0, 0 } ,
+	{ 795, 7710, 0, 0 } ,
+	{ 796, 7710, 0, 0 } ,
+	{ 797, 7710, 0, 0 } ,
+	{ 798, 7710, 0, 0 } ,
+	{ 799, 7710, 0, 0 } ,
+	{ 800, 7710, 0, 0 } ,
+	{ 801, 7710, 0, 0 } ,
+	{ 802, 7710, 0, 0 } ,
+	{ 803, 7710, 0, 0 } ,
+	{ 804, 7710, 0, 0 } ,
+	{ 805, 7710, 0, 0 } ,
+	{ 806, 7710, 0, 0 } ,
+	{ 807, 7710, 0, 0 } ,
+	{ 808, 7710, 0, 0 } ,
+	{ 809, 7710, 0, 0 } ,
+	{ 810, 7704, offsetof(X509EnhancedKeyUsageExtension_t4100, ____enhKeyUsage_4), 0 } ,
+	{ 750, 7675, offsetof(X509EnhancedKeyUsageExtension_t4100, ____status_5), 0 } ,
+	{ 811, 942, offsetof(X509EnhancedKeyUsageExtension_t4100_StaticFields, ___U3CU3Ef__switchU24mapE_6), 73 } ,
+	{ 812, 100, offsetof(X509Extension_t4087, ____critical_3), 0 } ,
+	{ 780, 5713, offsetof(X509ExtensionCollection_t4088, ____list_0), 0 } ,
+	{ 764, 1307, offsetof(X509ExtensionEnumerator_t4101, ___enumerator_0), 0 } ,
+	{ 65, 90, offsetof(X509FindType_t4102, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 813, 7716, 0, 0 } ,
+	{ 814, 7716, 0, 0 } ,
+	{ 815, 7716, 0, 0 } ,
+	{ 816, 7716, 0, 0 } ,
+	{ 817, 7716, 0, 0 } ,
+	{ 818, 7716, 0, 0 } ,
+	{ 819, 7716, 0, 0 } ,
+	{ 820, 7716, 0, 0 } ,
+	{ 821, 7716, 0, 0 } ,
+	{ 822, 7716, 0, 0 } ,
+	{ 823, 7716, 0, 0 } ,
+	{ 824, 7716, 0, 0 } ,
+	{ 825, 7716, 0, 0 } ,
+	{ 826, 7716, 0, 0 } ,
+	{ 827, 7716, 0, 0 } ,
+	{ 745, 1205, 0, 0 } ,
+	{ 746, 1205, 0, 0 } ,
+	{ 828, 7719, 0, 0 } ,
+	{ 829, 7720, offsetof(X509KeyUsageExtension_t4103, ____keyUsages_7), 0 } ,
+	{ 750, 7675, offsetof(X509KeyUsageExtension_t4103, ____status_8), 0 } ,
+	{ 65, 90, offsetof(X509KeyUsageFlags_t4104, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 85, 7722, 0, 0 } ,
+	{ 830, 7722, 0, 0 } ,
+	{ 831, 7722, 0, 0 } ,
+	{ 832, 7722, 0, 0 } ,
+	{ 833, 7722, 0, 0 } ,
+	{ 834, 7722, 0, 0 } ,
+	{ 835, 7722, 0, 0 } ,
+	{ 836, 7722, 0, 0 } ,
+	{ 837, 7722, 0, 0 } ,
+	{ 838, 7722, 0, 0 } ,
+	{ 65, 90, offsetof(X509NameType_t4105, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 839, 7724, 0, 0 } ,
+	{ 840, 7724, 0, 0 } ,
+	{ 841, 7724, 0, 0 } ,
+	{ 842, 7724, 0, 0 } ,
+	{ 843, 7724, 0, 0 } ,
+	{ 844, 7724, 0, 0 } ,
+	{ 65, 90, offsetof(X509RevocationFlag_t4106, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 845, 7726, 0, 0 } ,
+	{ 846, 7726, 0, 0 } ,
+	{ 847, 7726, 0, 0 } ,
+	{ 65, 90, offsetof(X509RevocationMode_t4107, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 848, 7728, 0, 0 } ,
+	{ 849, 7728, 0, 0 } ,
+	{ 850, 7728, 0, 0 } ,
+	{ 753, 99, offsetof(X509Store_t4096, ____name_0), 0 } ,
+	{ 851, 7687, offsetof(X509Store_t4096, ____location_1), 0 } ,
+	{ 3, 7694, offsetof(X509Store_t4096, ___list_2), 0 } ,
+	{ 852, 7730, offsetof(X509Store_t4096, ____flags_3), 0 } ,
+	{ 783, 6805, offsetof(X509Store_t4096, ___store_4), 0 } ,
+	{ 853, 942, offsetof(X509Store_t4096_StaticFields, ___U3CU3Ef__switchU24mapF_5), 76 } ,
+	{ 745, 1205, 0, 0 } ,
+	{ 746, 1205, 0, 0 } ,
+	{ 854, 865, offsetof(X509SubjectKeyIdentifierExtension_t4108, ____subjectKeyIdentifier_6), 0 } ,
+	{ 855, 99, offsetof(X509SubjectKeyIdentifierExtension_t4108, ____ski_7), 0 } ,
+	{ 750, 7675, offsetof(X509SubjectKeyIdentifierExtension_t4108, ____status_8), 0 } ,
+	{ 65, 90, offsetof(X509SubjectKeyIdentifierHashAlgorithm_t4109, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 856, 7734, 0, 0 } ,
+	{ 857, 7734, 0, 0 } ,
+	{ 858, 7734, 0, 0 } ,
+	{ 65, 90, offsetof(X509VerificationFlags_t4110, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 859, 7736, 0, 0 } ,
+	{ 860, 7736, 0, 0 } ,
+	{ 861, 7736, 0, 0 } ,
+	{ 862, 7736, 0, 0 } ,
+	{ 863, 7736, 0, 0 } ,
+	{ 864, 7736, 0, 0 } ,
+	{ 865, 7736, 0, 0 } ,
+	{ 866, 7736, 0, 0 } ,
+	{ 867, 7736, 0, 0 } ,
+	{ 868, 7736, 0, 0 } ,
+	{ 869, 7736, 0, 0 } ,
+	{ 870, 7736, 0, 0 } ,
+	{ 871, 7736, 0, 0 } ,
+	{ 872, 7736, 0, 0 } ,
+	{ 65, 90, offsetof(AsnDecodeStatus_t4111, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 873, 7738, 0, 0 } ,
+	{ 874, 7738, 0, 0 } ,
+	{ 875, 7738, 0, 0 } ,
+	{ 876, 7738, 0, 0 } ,
+	{ 877, 7738, 0, 0 } ,
+	{ 878, 7738, 0, 0 } ,
+	{ 724, 7740, offsetof(AsnEncodedData_t4079, ____oid_0), 0 } ,
+	{ 879, 609, offsetof(AsnEncodedData_t4079, ____raw_1), 0 } ,
+	{ 880, 942, offsetof(AsnEncodedData_t4079_StaticFields, ___U3CU3Ef__switchU24mapA_2), 78 } ,
+	{ 881, 99, offsetof(Oid_t4080, ____value_0), 0 } ,
+	{ 753, 99, offsetof(Oid_t4080, ____name_1), 0 } ,
+	{ 882, 942, offsetof(Oid_t4080_StaticFields, ___U3CU3Ef__switchU24map10_2), 79 } ,
+	{ 780, 5713, offsetof(OidCollection_t4098, ____list_0), 0 } ,
+	{ 883, 100, offsetof(OidCollection_t4098, ____readOnly_1), 0 } ,
+	{ 884, 7704, offsetof(OidEnumerator_t4112, ____collection_0), 0 } ,
+	{ 885, 110, offsetof(OidEnumerator_t4112, ____position_1), 0 } ,
+	{ 886, 1206, offsetof(BaseMachine_t4114, ___needs_groups_or_captures_0), 0 } ,
+	{ 5, 137, offsetof(Capture_t1434, ___index_0), 0 } ,
+	{ 364, 137, offsetof(Capture_t1434, ___length_1), 0 } ,
+	{ 887, 1035, offsetof(Capture_t1434, ___text_2), 0 } ,
+	{ 3, 7748, offsetof(CaptureCollection_t1436, ___list_0), 0 } ,
+	{ 888, 7750, offsetof(Group_t1433_StaticFields, ___Fail_3), 0 } ,
+	{ 889, 100, offsetof(Group_t1433, ___success_4), 0 } ,
+	{ 890, 7751, offsetof(Group_t1433, ___captures_5), 0 } ,
+	{ 3, 7753, offsetof(GroupCollection_t1435, ___list_0), 0 } ,
+	{ 891, 110, offsetof(GroupCollection_t1435, ___gap_1), 0 } ,
+	{ 892, 7755, offsetof(Match_t1372, ___regex_6), 0 } ,
+	{ 893, 7756, offsetof(Match_t1372, ___machine_7), 0 } ,
+	{ 894, 110, offsetof(Match_t1372, ___text_length_8), 0 } ,
+	{ 592, 7757, offsetof(Match_t1372, ___groups_9), 0 } ,
+	{ 895, 7758, offsetof(Match_t1372_StaticFields, ___empty_10), 0 } ,
+	{ 5, 110, offsetof(Enumerator_t4118, ___index_0), 0 } ,
+	{ 896, 7760, offsetof(Enumerator_t4118, ___coll_1), 0 } ,
+	{ 4, 7762, offsetof(MatchCollection_t3941, ___current_0), 0 } ,
+	{ 3, 5713, offsetof(MatchCollection_t3941, ___list_1), 0 } ,
+	{ 897, 7764, offsetof(Adapter_t4119, ___ev_0), 0 } ,
+	{ 374, 7766, offsetof(Regex_t785_StaticFields, ___cache_0), 0 } ,
+	{ 898, 7767, offsetof(Regex_t785, ___machineFactory_1), 0 } ,
+	{ 899, 7768, offsetof(Regex_t785, ___mapping_2), 0 } ,
+	{ 900, 110, offsetof(Regex_t785, ___group_count_3), 0 } ,
+	{ 891, 110, offsetof(Regex_t785, ___gap_4), 0 } ,
+	{ 901, 100, offsetof(Regex_t785, ___refsInitialized_5), 0 } ,
+	{ 902, 614, offsetof(Regex_t785, ___group_names_6), 0 } ,
+	{ 903, 1548, offsetof(Regex_t785, ___group_numbers_7), 0 } ,
+	{ 904, 7769, offsetof(Regex_t785, ___pattern_8), 0 } ,
+	{ 905, 7770, offsetof(Regex_t785, ___roptions_9), 0 } ,
+	{ 906, 7771, offsetof(Regex_t785, ___capnames_10), 84 } ,
+	{ 907, 7772, offsetof(Regex_t785, ___caps_11), 85 } ,
+	{ 908, 7773, offsetof(Regex_t785, ___capsize_12), 86 } ,
+	{ 909, 7774, offsetof(Regex_t785, ___capslist_13), 87 } ,
+	{ 65, 90, offsetof(RegexOptions_t4123, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 85, 7776, 0, 0 } ,
+	{ 910, 7776, 0, 0 } ,
+	{ 911, 7776, 0, 0 } ,
+	{ 912, 7776, 0, 0 } ,
+	{ 913, 7776, 0, 0 } ,
+	{ 914, 7776, 0, 0 } ,
+	{ 915, 7776, 0, 0 } ,
+	{ 916, 7776, 0, 0 } ,
+	{ 917, 7776, 0, 0 } ,
+	{ 65, 5043, offsetof(OpCode_t4124, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 918, 7778, 0, 0 } ,
+	{ 919, 7778, 0, 0 } ,
+	{ 920, 7778, 0, 0 } ,
+	{ 921, 7778, 0, 0 } ,
+	{ 922, 7778, 0, 0 } ,
+	{ 923, 7778, 0, 0 } ,
+	{ 924, 7778, 0, 0 } ,
+	{ 925, 7778, 0, 0 } ,
+	{ 926, 7778, 0, 0 } ,
+	{ 927, 7778, 0, 0 } ,
+	{ 928, 7778, 0, 0 } ,
+	{ 929, 7778, 0, 0 } ,
+	{ 930, 7778, 0, 0 } ,
+	{ 931, 7778, 0, 0 } ,
+	{ 932, 7778, 0, 0 } ,
+	{ 933, 7778, 0, 0 } ,
+	{ 934, 7778, 0, 0 } ,
+	{ 935, 7778, 0, 0 } ,
+	{ 936, 7778, 0, 0 } ,
+	{ 937, 7778, 0, 0 } ,
+	{ 938, 7778, 0, 0 } ,
+	{ 939, 7778, 0, 0 } ,
+	{ 940, 7778, 0, 0 } ,
+	{ 941, 7778, 0, 0 } ,
+	{ 942, 7778, 0, 0 } ,
+	{ 65, 5043, offsetof(OpFlags_t4125, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 85, 7781, 0, 0 } ,
+	{ 943, 7781, 0, 0 } ,
+	{ 910, 7781, 0, 0 } ,
+	{ 915, 7781, 0, 0 } ,
+	{ 944, 7781, 0, 0 } ,
+	{ 65, 5043, offsetof(Position_t4126, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 569, 7784, 0, 0 } ,
+	{ 945, 7784, 0, 0 } ,
+	{ 946, 7784, 0, 0 } ,
+	{ 947, 7784, 0, 0 } ,
+	{ 948, 7784, 0, 0 } ,
+	{ 949, 7784, 0, 0 } ,
+	{ 950, 7784, 0, 0 } ,
+	{ 951, 7784, 0, 0 } ,
+	{ 952, 7784, 0, 0 } ,
+	{ 953, 7784, 0, 0 } ,
+	{ 904, 101, offsetof(Key_t4127, ___pattern_0), 0 } ,
+	{ 954, 7789, offsetof(Key_t4127, ___options_1), 0 } ,
+	{ 357, 110, offsetof(FactoryCache_t4120, ___capacity_0), 0 } ,
+	{ 955, 5703, offsetof(FactoryCache_t4120, ___factories_1), 0 } ,
+	{ 956, 7791, offsetof(FactoryCache_t4120, ___mru_list_2), 0 } ,
+	{ 33, 646, offsetof(Node_t4129, ___value_0), 0 } ,
+	{ 957, 7793, offsetof(Node_t4129, ___previous_1), 0 } ,
+	{ 42, 7793, offsetof(Node_t4129, ___next_2), 0 } ,
+	{ 47, 7795, offsetof(MRUList_t4128, ___head_0), 0 } ,
+	{ 958, 7795, offsetof(MRUList_t4128, ___tail_1), 0 } ,
+	{ 65, 5043, offsetof(Category_t4130, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 85, 7797, 0, 0 } ,
+	{ 569, 7797, 0, 0 } ,
+	{ 959, 7797, 0, 0 } ,
+	{ 960, 7797, 0, 0 } ,
+	{ 961, 7797, 0, 0 } ,
+	{ 962, 7797, 0, 0 } ,
+	{ 963, 7797, 0, 0 } ,
+	{ 964, 7797, 0, 0 } ,
+	{ 965, 7797, 0, 0 } ,
+	{ 966, 7797, 0, 0 } ,
+	{ 967, 7797, 0, 0 } ,
+	{ 968, 7797, 0, 0 } ,
+	{ 969, 7797, 0, 0 } ,
+	{ 970, 7797, 0, 0 } ,
+	{ 971, 7797, 0, 0 } ,
+	{ 972, 7797, 0, 0 } ,
+	{ 973, 7797, 0, 0 } ,
+	{ 974, 7797, 0, 0 } ,
+	{ 975, 7797, 0, 0 } ,
+	{ 976, 7797, 0, 0 } ,
+	{ 977, 7797, 0, 0 } ,
+	{ 978, 7797, 0, 0 } ,
+	{ 979, 7797, 0, 0 } ,
+	{ 980, 7797, 0, 0 } ,
+	{ 981, 7797, 0, 0 } ,
+	{ 982, 7797, 0, 0 } ,
+	{ 983, 7797, 0, 0 } ,
+	{ 984, 7797, 0, 0 } ,
+	{ 985, 7797, 0, 0 } ,
+	{ 986, 7797, 0, 0 } ,
+	{ 987, 7797, 0, 0 } ,
+	{ 988, 7797, 0, 0 } ,
+	{ 989, 7797, 0, 0 } ,
+	{ 990, 7797, 0, 0 } ,
+	{ 991, 7797, 0, 0 } ,
+	{ 992, 7797, 0, 0 } ,
+	{ 993, 7797, 0, 0 } ,
+	{ 994, 7797, 0, 0 } ,
+	{ 995, 7797, 0, 0 } ,
+	{ 996, 7797, 0, 0 } ,
+	{ 997, 7797, 0, 0 } ,
+	{ 998, 7797, 0, 0 } ,
+	{ 999, 7797, 0, 0 } ,
+	{ 1000, 7797, 0, 0 } ,
+	{ 1001, 7797, 0, 0 } ,
+	{ 1002, 7797, 0, 0 } ,
+	{ 1003, 7797, 0, 0 } ,
+	{ 1004, 7797, 0, 0 } ,
+	{ 1005, 7797, 0, 0 } ,
+	{ 1006, 7797, 0, 0 } ,
+	{ 1007, 7797, 0, 0 } ,
+	{ 1008, 7797, 0, 0 } ,
+	{ 1009, 7797, 0, 0 } ,
+	{ 1010, 7797, 0, 0 } ,
+	{ 1011, 7797, 0, 0 } ,
+	{ 1012, 7797, 0, 0 } ,
+	{ 1013, 7797, 0, 0 } ,
+	{ 1014, 7797, 0, 0 } ,
+	{ 1015, 7797, 0, 0 } ,
+	{ 1016, 7797, 0, 0 } ,
+	{ 1017, 7797, 0, 0 } ,
+	{ 1018, 7797, 0, 0 } ,
+	{ 1019, 7797, 0, 0 } ,
+	{ 1020, 7797, 0, 0 } ,
+	{ 1021, 7797, 0, 0 } ,
+	{ 1022, 7797, 0, 0 } ,
+	{ 1023, 7797, 0, 0 } ,
+	{ 1024, 7797, 0, 0 } ,
+	{ 1025, 7797, 0, 0 } ,
+	{ 1026, 7797, 0, 0 } ,
+	{ 1027, 7797, 0, 0 } ,
+	{ 1028, 7797, 0, 0 } ,
+	{ 1029, 7797, 0, 0 } ,
+	{ 1030, 7797, 0, 0 } ,
+	{ 1031, 7797, 0, 0 } ,
+	{ 1032, 7797, 0, 0 } ,
+	{ 1033, 7797, 0, 0 } ,
+	{ 1034, 7797, 0, 0 } ,
+	{ 1035, 7797, 0, 0 } ,
+	{ 1036, 7797, 0, 0 } ,
+	{ 1037, 7797, 0, 0 } ,
+	{ 1038, 7797, 0, 0 } ,
+	{ 1039, 7797, 0, 0 } ,
+	{ 1040, 7797, 0, 0 } ,
+	{ 1041, 7797, 0, 0 } ,
+	{ 1042, 7797, 0, 0 } ,
+	{ 1043, 7797, 0, 0 } ,
+	{ 1044, 7797, 0, 0 } ,
+	{ 1045, 7797, 0, 0 } ,
+	{ 1046, 7797, 0, 0 } ,
+	{ 1047, 7797, 0, 0 } ,
+	{ 1048, 7797, 0, 0 } ,
+	{ 1049, 7797, 0, 0 } ,
+	{ 1050, 7797, 0, 0 } ,
+	{ 1051, 7797, 0, 0 } ,
+	{ 1052, 7797, 0, 0 } ,
+	{ 1053, 7797, 0, 0 } ,
+	{ 1054, 7797, 0, 0 } ,
+	{ 1055, 7797, 0, 0 } ,
+	{ 1056, 7797, 0, 0 } ,
+	{ 1057, 7797, 0, 0 } ,
+	{ 1058, 7797, 0, 0 } ,
+	{ 1059, 7797, 0, 0 } ,
+	{ 1060, 7797, 0, 0 } ,
+	{ 1061, 7797, 0, 0 } ,
+	{ 1062, 7797, 0, 0 } ,
+	{ 1063, 7797, 0, 0 } ,
+	{ 1064, 7797, 0, 0 } ,
+	{ 1065, 7797, 0, 0 } ,
+	{ 1066, 7797, 0, 0 } ,
+	{ 1067, 7797, 0, 0 } ,
+	{ 1068, 7797, 0, 0 } ,
+	{ 1069, 7797, 0, 0 } ,
+	{ 1070, 7797, 0, 0 } ,
+	{ 1071, 7797, 0, 0 } ,
+	{ 1072, 7797, 0, 0 } ,
+	{ 1073, 7797, 0, 0 } ,
+	{ 1074, 7797, 0, 0 } ,
+	{ 1075, 7797, 0, 0 } ,
+	{ 1076, 7797, 0, 0 } ,
+	{ 1077, 7797, 0, 0 } ,
+	{ 1078, 7797, 0, 0 } ,
+	{ 1079, 7797, 0, 0 } ,
+	{ 1080, 7797, 0, 0 } ,
+	{ 1081, 7797, 0, 0 } ,
+	{ 1082, 7797, 0, 0 } ,
+	{ 1083, 7797, 0, 0 } ,
+	{ 1084, 7797, 0, 0 } ,
+	{ 1085, 7797, 0, 0 } ,
+	{ 1086, 7797, 0, 0 } ,
+	{ 1087, 7797, 0, 0 } ,
+	{ 1088, 7797, 0, 0 } ,
+	{ 1089, 7797, 0, 0 } ,
+	{ 1090, 7797, 0, 0 } ,
+	{ 1091, 7797, 0, 0 } ,
+	{ 1092, 7797, 0, 0 } ,
+	{ 1093, 7797, 0, 0 } ,
+	{ 1094, 7797, 0, 0 } ,
+	{ 1095, 7797, 0, 0 } ,
+	{ 1096, 7797, 0, 0 } ,
+	{ 1097, 7797, 0, 0 } ,
+	{ 1098, 7797, 0, 0 } ,
+	{ 1099, 7797, 0, 0 } ,
+	{ 1100, 7797, 0, 0 } ,
+	{ 1101, 7797, 0, 0 } ,
+	{ 899, 7768, offsetof(InterpreterFactory_t4133, ___mapping_0), 0 } ,
+	{ 904, 7584, offsetof(InterpreterFactory_t4133, ___pattern_1), 0 } ,
+	{ 1102, 614, offsetof(InterpreterFactory_t4133, ___namesMapping_2), 0 } ,
+	{ 891, 110, offsetof(InterpreterFactory_t4133, ___gap_3), 0 } ,
+	{ 1103, 102, offsetof(Link_t4134, ___base_addr_0) + sizeof(Object_t), 0 } ,
+	{ 1104, 102, offsetof(Link_t4134, ___offset_addr_1) + sizeof(Object_t), 0 } ,
+	{ 1105, 7807, offsetof(PatternLinkStack_t4135, ___link_1), 0 } ,
+	{ 1106, 5713, offsetof(PatternCompiler_t4137, ___pgm_0), 0 } ,
+	{ 1107, 5757, offsetof(LinkStack_t4136, ___stack_0), 0 } ,
+	{ 945, 102, offsetof(Mark_t4138, ___Start_0) + sizeof(Object_t), 0 } ,
+	{ 949, 102, offsetof(Mark_t4138, ___End_1) + sizeof(Object_t), 0 } ,
+	{ 1108, 102, offsetof(Mark_t4138, ___Previous_2) + sizeof(Object_t), 0 } ,
+	{ 367, 1548, offsetof(IntStack_t4139, ___values_0) + sizeof(Object_t), 0 } ,
+	{ 6, 110, offsetof(IntStack_t4139, ___count_1) + sizeof(Object_t), 0 } ,
+	{ 1109, 110, offsetof(RepeatContext_t4140, ___start_0), 0 } ,
+	{ 1110, 110, offsetof(RepeatContext_t4140, ___min_1), 0 } ,
+	{ 1111, 110, offsetof(RepeatContext_t4140, ___max_2), 0 } ,
+	{ 1112, 100, offsetof(RepeatContext_t4140, ___lazy_3), 0 } ,
+	{ 1113, 110, offsetof(RepeatContext_t4140, ___expr_pc_4), 0 } ,
+	{ 957, 7814, offsetof(RepeatContext_t4140, ___previous_5), 0 } ,
+	{ 6, 110, offsetof(RepeatContext_t4140, ___count_6), 0 } ,
+	{ 65, 90, offsetof(Mode_t4141, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1114, 7816, 0, 0 } ,
+	{ 1115, 7816, 0, 0 } ,
+	{ 1116, 7816, 0, 0 } ,
+	{ 1117, 7584, offsetof(Interpreter_t4144, ___program_1), 0 } ,
+	{ 1118, 110, offsetof(Interpreter_t4144, ___program_start_2), 0 } ,
+	{ 887, 99, offsetof(Interpreter_t4144, ___text_3), 0 } ,
+	{ 1119, 110, offsetof(Interpreter_t4144, ___text_end_4), 0 } ,
+	{ 900, 110, offsetof(Interpreter_t4144, ___group_count_5), 0 } ,
+	{ 1120, 110, offsetof(Interpreter_t4144, ___match_min_6), 0 } ,
+	{ 1121, 7819, offsetof(Interpreter_t4144, ___qs_7), 0 } ,
+	{ 1122, 110, offsetof(Interpreter_t4144, ___scan_ptr_8), 0 } ,
+	{ 1123, 7814, offsetof(Interpreter_t4144, ___repeat_9), 0 } ,
+	{ 1124, 7814, offsetof(Interpreter_t4144, ___fast_10), 0 } ,
+	{ 1107, 7820, offsetof(Interpreter_t4144, ___stack_11), 0 } ,
+	{ 1125, 7814, offsetof(Interpreter_t4144, ___deep_12), 0 } ,
+	{ 1126, 7821, offsetof(Interpreter_t4144, ___marks_13), 0 } ,
+	{ 1127, 110, offsetof(Interpreter_t4144, ___mark_start_14), 0 } ,
+	{ 1128, 110, offsetof(Interpreter_t4144, ___mark_end_15), 0 } ,
+	{ 592, 1548, offsetof(Interpreter_t4144, ___groups_16), 0 } ,
+	{ 1129, 102, offsetof(Interval_t4145, ___low_0) + sizeof(Object_t), 0 } ,
+	{ 1130, 102, offsetof(Interval_t4145, ___high_1) + sizeof(Object_t), 0 } ,
+	{ 1131, 104, offsetof(Interval_t4145, ___contiguous_2) + sizeof(Object_t), 0 } ,
+	{ 3, 7824, offsetof(Enumerator_t4146, ___list_0), 0 } ,
+	{ 1132, 110, offsetof(Enumerator_t4146, ___ptr_1), 0 } ,
+	{ 1133, 5713, offsetof(IntervalCollection_t4148, ___intervals_0), 0 } ,
+	{ 904, 99, offsetof(Parser_t4149, ___pattern_0), 0 } ,
+	{ 1132, 110, offsetof(Parser_t4149, ___ptr_1), 0 } ,
+	{ 907, 5713, offsetof(Parser_t4149, ___caps_2), 0 } ,
+	{ 1134, 5703, offsetof(Parser_t4149, ___refs_3), 0 } ,
+	{ 1135, 110, offsetof(Parser_t4149, ___num_groups_4), 0 } ,
+	{ 891, 110, offsetof(Parser_t4149, ___gap_5), 0 } ,
+	{ 1136, 99, offsetof(QuickSearch_t4142, ___str_0), 0 } ,
+	{ 1137, 110, offsetof(QuickSearch_t4142, ___len_1), 0 } ,
+	{ 1138, 100, offsetof(QuickSearch_t4142, ___ignore_2), 0 } ,
+	{ 1139, 100, offsetof(QuickSearch_t4142, ___reverse_3), 0 } ,
+	{ 1140, 865, offsetof(QuickSearch_t4142, ___shift_4), 0 } ,
+	{ 1141, 5703, offsetof(QuickSearch_t4142, ___shiftExtended_5), 0 } ,
+	{ 1142, 6861, offsetof(QuickSearch_t4142_StaticFields, ___THRESHOLD_6), 0 } ,
+	{ 892, 7755, offsetof(ReplacementEvaluator_t4150, ___regex_0), 0 } ,
+	{ 1143, 110, offsetof(ReplacementEvaluator_t4150, ___n_pieces_1), 0 } ,
+	{ 1144, 1548, offsetof(ReplacementEvaluator_t4150, ___pieces_2), 0 } ,
+	{ 1145, 99, offsetof(ReplacementEvaluator_t4150, ___replacement_3), 0 } ,
+	{ 1146, 7834, offsetof(CompositeExpression_t4153, ___expressions_0), 0 } ,
+	{ 900, 110, offsetof(RegularExpression_t4155, ___group_count_1), 0 } ,
+	{ 1147, 110, offsetof(CapturingGroup_t4156, ___gid_1), 0 } ,
+	{ 345, 99, offsetof(CapturingGroup_t4156, ___name_2), 0 } ,
+	{ 1148, 7840, offsetof(BalancingGroup_t4157, ___balance_3), 0 } ,
+	{ 1110, 110, offsetof(Repetition_t4159, ___min_1), 0 } ,
+	{ 1111, 110, offsetof(Repetition_t4159, ___max_2), 0 } ,
+	{ 1112, 100, offsetof(Repetition_t4159, ___lazy_3), 0 } ,
+	{ 1149, 7845, offsetof(CaptureAssertion_t4163, ___alternate_1), 0 } ,
+	{ 1150, 7840, offsetof(CaptureAssertion_t4163, ___group_2), 0 } ,
+	{ 1151, 7846, offsetof(CaptureAssertion_t4163, ___literal_3), 0 } ,
+	{ 1139, 100, offsetof(ExpressionAssertion_t4161, ___reverse_1), 0 } ,
+	{ 1152, 100, offsetof(ExpressionAssertion_t4161, ___negate_2), 0 } ,
+	{ 1136, 99, offsetof(Literal_t4162, ___str_0), 0 } ,
+	{ 1138, 100, offsetof(Literal_t4162, ___ignore_1), 0 } ,
+	{ 365, 7851, offsetof(PositionAssertion_t4165, ___pos_0), 0 } ,
+	{ 1150, 7840, offsetof(Reference_t4166, ___group_0), 0 } ,
+	{ 1138, 100, offsetof(Reference_t4166, ___ignore_1), 0 } ,
+	{ 1151, 99, offsetof(BackslashNumber_t4167, ___literal_2), 0 } ,
+	{ 1153, 100, offsetof(BackslashNumber_t4167, ___ecma_3), 0 } ,
+	{ 1154, 7855, offsetof(CharacterClass_t4169_StaticFields, ___upper_case_characters_0), 0 } ,
+	{ 1152, 100, offsetof(CharacterClass_t4169, ___negate_1), 0 } ,
+	{ 1138, 100, offsetof(CharacterClass_t4169, ___ignore_2), 0 } ,
+	{ 1155, 7856, offsetof(CharacterClass_t4169, ___pos_cats_3), 0 } ,
+	{ 1156, 7856, offsetof(CharacterClass_t4169, ___neg_cats_4), 0 } ,
+	{ 1133, 7857, offsetof(CharacterClass_t4169, ___intervals_5), 0 } ,
+	{ 1157, 7859, offsetof(AnchorInfo_t4170, ___expr_0), 0 } ,
+	{ 365, 7851, offsetof(AnchorInfo_t4170, ___pos_1), 0 } ,
+	{ 457, 110, offsetof(AnchorInfo_t4170, ___offset_2), 0 } ,
+	{ 1136, 99, offsetof(AnchorInfo_t4170, ___str_3), 0 } ,
+	{ 1158, 110, offsetof(AnchorInfo_t4170, ___width_4), 0 } ,
+	{ 1138, 100, offsetof(AnchorInfo_t4170, ___ignore_5), 0 } ,
+	{ 1159, 101, offsetof(UriScheme_t4174, ___scheme_0) + sizeof(Object_t), 0 } ,
+	{ 1160, 101, offsetof(UriScheme_t4174, ___delimiter_1) + sizeof(Object_t), 0 } ,
+	{ 1161, 102, offsetof(UriScheme_t4174, ___defaultPort_2) + sizeof(Object_t), 0 } ,
+	{ 1162, 864, 0, 0 } ,
+	{ 1163, 100, offsetof(Uri_t755, ___isUnixFilePath_1), 0 } ,
+	{ 1164, 99, offsetof(Uri_t755, ___source_2), 0 } ,
+	{ 1159, 99, offsetof(Uri_t755, ___scheme_3), 0 } ,
+	{ 36, 99, offsetof(Uri_t755, ___host_4), 0 } ,
+	{ 347, 110, offsetof(Uri_t755, ___port_5), 0 } ,
+	{ 346, 99, offsetof(Uri_t755, ___path_6), 0 } ,
+	{ 1165, 99, offsetof(Uri_t755, ___query_7), 0 } ,
+	{ 1166, 99, offsetof(Uri_t755, ___fragment_8), 0 } ,
+	{ 1167, 99, offsetof(Uri_t755, ___userinfo_9), 0 } ,
+	{ 1168, 100, offsetof(Uri_t755, ___isUnc_10), 0 } ,
+	{ 1169, 100, offsetof(Uri_t755, ___isOpaquePart_11), 0 } ,
+	{ 1170, 100, offsetof(Uri_t755, ___isAbsoluteUri_12), 0 } ,
+	{ 1171, 614, offsetof(Uri_t755, ___segments_13), 0 } ,
+	{ 1172, 100, offsetof(Uri_t755, ___userEscaped_14), 0 } ,
+	{ 1173, 99, offsetof(Uri_t755, ___cachedAbsoluteUri_15), 0 } ,
+	{ 1174, 99, offsetof(Uri_t755, ___cachedToString_16), 0 } ,
+	{ 1175, 99, offsetof(Uri_t755, ___cachedLocalPath_17), 0 } ,
+	{ 1176, 110, offsetof(Uri_t755, ___cachedHashCode_18), 0 } ,
+	{ 1177, 3664, offsetof(Uri_t755_StaticFields, ___hexUpperChars_19), 0 } ,
+	{ 1178, 106, offsetof(Uri_t755_StaticFields, ___SchemeDelimiter_20), 0 } ,
+	{ 1179, 106, offsetof(Uri_t755_StaticFields, ___UriSchemeFile_21), 0 } ,
+	{ 1180, 106, offsetof(Uri_t755_StaticFields, ___UriSchemeFtp_22), 0 } ,
+	{ 1181, 106, offsetof(Uri_t755_StaticFields, ___UriSchemeGopher_23), 0 } ,
+	{ 1182, 106, offsetof(Uri_t755_StaticFields, ___UriSchemeHttp_24), 0 } ,
+	{ 1183, 106, offsetof(Uri_t755_StaticFields, ___UriSchemeHttps_25), 0 } ,
+	{ 1184, 106, offsetof(Uri_t755_StaticFields, ___UriSchemeMailto_26), 0 } ,
+	{ 1185, 106, offsetof(Uri_t755_StaticFields, ___UriSchemeNews_27), 0 } ,
+	{ 1186, 106, offsetof(Uri_t755_StaticFields, ___UriSchemeNntp_28), 0 } ,
+	{ 1187, 106, offsetof(Uri_t755_StaticFields, ___UriSchemeNetPipe_29), 0 } ,
+	{ 1188, 106, offsetof(Uri_t755_StaticFields, ___UriSchemeNetTcp_30), 0 } ,
+	{ 1189, 7867, offsetof(Uri_t755_StaticFields, ___schemes_31), 0 } ,
+	{ 372, 7868, offsetof(Uri_t755, ___parser_32), 0 } ,
+	{ 1190, 942, offsetof(Uri_t755_StaticFields, ___U3CU3Ef__switchU24map12_33), 93 } ,
+	{ 1191, 942, offsetof(Uri_t755_StaticFields, ___U3CU3Ef__switchU24map13_34), 94 } ,
+	{ 1192, 942, offsetof(Uri_t755_StaticFields, ___U3CU3Ef__switchU24map14_35), 95 } ,
+	{ 1193, 942, offsetof(Uri_t755_StaticFields, ___U3CU3Ef__switchU24map15_36), 96 } ,
+	{ 1194, 942, offsetof(Uri_t755_StaticFields, ___U3CU3Ef__switchU24map16_37), 97 } ,
+	{ 65, 90, offsetof(UriHostNameType_t4176, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 96, 7871, 0, 0 } ,
+	{ 1195, 7871, 0, 0 } ,
+	{ 1196, 7871, 0, 0 } ,
+	{ 146, 7871, 0, 0 } ,
+	{ 141, 7871, 0, 0 } ,
+	{ 65, 90, offsetof(UriKind_t4177, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1197, 7873, 0, 0 } ,
+	{ 1198, 7873, 0, 0 } ,
+	{ 1199, 7873, 0, 0 } ,
+	{ 1200, 3757, offsetof(UriParser_t4172_StaticFields, ___lock_object_0), 0 } ,
+	{ 1201, 6863, offsetof(UriParser_t4172_StaticFields, ___table_1), 0 } ,
+	{ 1202, 1035, offsetof(UriParser_t4172, ___scheme_name_2), 0 } ,
+	{ 1203, 110, offsetof(UriParser_t4172, ___default_port_3), 0 } ,
+	{ 1204, 3666, offsetof(UriParser_t4172_StaticFields, ___uri_regex_4), 0 } ,
+	{ 1205, 3666, offsetof(UriParser_t4172_StaticFields, ___auth_regex_5), 0 } ,
+	{ 65, 90, offsetof(UriPartial_t4178, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1206, 7877, 0, 0 } ,
+	{ 1207, 7877, 0, 0 } ,
+	{ 1208, 7877, 0, 0 } ,
+	{ 1209, 7877, 0, 0 } ,
+	{ 1210, 7894, offsetof(U3CPrivateImplementationDetailsU3E_t4183_StaticFields, ___U24U24fieldU2D1_0), 0 } ,
+	{ 1211, 7895, offsetof(U3CPrivateImplementationDetailsU3E_t4183_StaticFields, ___U24U24fieldU2D2_1), 0 } ,
+	{ 1212, 7896, offsetof(U3CPrivateImplementationDetailsU3E_t4183_StaticFields, ___U24U24fieldU2D3_2), 0 } ,
+	{ 1213, 7896, offsetof(U3CPrivateImplementationDetailsU3E_t4183_StaticFields, ___U24U24fieldU2D4_3), 0 } ,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -4446,10 +4446,10 @@ static const Il2CppFieldDefaultValue s_DefaultValues[670] =
 	{ 1510, 75, 2357 },
 	{ 1511, 75, 2361 },
 	{ 1512, 75, 2365 },
-	{ 1513, 7897, 2369 },
-	{ 1514, 7899, 2385 },
-	{ 1515, 7901, 2513 },
-	{ 1516, 7901, 2525 },
+	{ 1513, 7888, 2369 },
+	{ 1514, 7890, 2385 },
+	{ 1515, 7892, 2513 },
+	{ 1516, 7892, 2525 },
 };
 static const uint8_t s_DefaultValueDataTable[2537] = 
 {

@@ -6,6 +6,7 @@ public class DebugLogPropagate : MonoBehaviour {
 	
 	[System.Runtime.InteropServices.DllImport("__Internal")]
 	extern static public void LogInIOS(string testArg);
+
 	public int foo;
 	
 	void OnEnable () {

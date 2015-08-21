@@ -33,8 +33,8 @@
 #include "Unity/GlesHelper.h"
 #include "PluginBase/AppDelegateListener.h"
 
-
 extern "C" {
+  UIViewController *UnityGetGLViewController();
   
   BOOL CanLaunchURL(char* urlChars) {
     NSString* urlString = [NSString stringWithUTF8String:urlChars];
@@ -109,5 +109,35 @@ extern "C" {
   void LogInIOS(char* debugChars) {
     NSString* debugString = [NSString stringWithUTF8String:debugChars];
     NSLog(@"\n\nUnity Debug:\n%@\n\n", debugString);
-  }  
+  }
+  
+  void LaunchShareWidget(int score, BOOL isHighScore) {
+    NSString* message;
+    
+    if (isHighScore) {
+      message = [NSString stringWithFormat:@"New high score of %d in  #LazyAngus!", score];
+    } else {
+      message = [NSString stringWithFormat:@"Scored %d in  #LazyAngus!", score];
+    }
+    
+    NSURL* nsURL = [[NSURL alloc] initWithString:@"www.lazyangus.com"];
+    
+    NSString *thePath = [[NSBundle mainBundle] pathForResource:@"cat_face.100" ofType:@"png"];
+    UIImage *prodImg = [[UIImage alloc] initWithContentsOfFile:thePath];
+
+    UIActivityViewController *activityViewController =
+    [[UIActivityViewController alloc]
+     initWithActivityItems:@[message, nsURL, prodImg]
+     applicationActivities:nil];
+    
+    UIViewController* rootViewController = UnityGetGLViewController();
+    if ( [activityViewController respondsToSelector:@selector(popoverPresentationController)] ) {
+      // iOS8
+      activityViewController.popoverPresentationController.sourceView = rootViewController.view;
+    }
+    
+    [rootViewController presentViewController:activityViewController
+                                       animated:TRUE
+                                     completion:nil];
+  }
 }

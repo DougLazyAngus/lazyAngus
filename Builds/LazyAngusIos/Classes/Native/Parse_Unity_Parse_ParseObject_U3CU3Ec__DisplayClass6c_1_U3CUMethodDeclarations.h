@@ -5,45 +5,45 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>
-struct U3CU3Ec__DisplayClass74_t6120;
+struct U3CU3Ec__DisplayClass74_t6124;
 // System.Object
 struct Object_t;
 // <>f__AnonymousType5`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>
-struct U3CU3Ef__AnonymousType5_2_t2424;
+struct U3CU3Ef__AnonymousType5_2_t2422;
 // System.Linq.IGrouping`2<System.String,System.String>
-struct IGrouping_2_t2423;
+struct IGrouping_2_t2421;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t710;
+struct IEnumerable_1_t708;
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>[]>
-struct Task_1_t2425;
+struct Task_1_t2423;
 // System.Collections.Generic.IEnumerable`1<Parse.ParseObject>
-struct IEnumerable_1_t1267;
+struct IEnumerable_1_t1265;
 // <>f__AnonymousType6`2<System.Object,Parse.ParseObject>
-struct U3CU3Ef__AnonymousType6_2_t6127;
+struct U3CU3Ef__AnonymousType6_2_t6131;
 // Parse.ParseObject
-struct ParseObject_t1221;
+struct ParseObject_t1219;
 
 // System.Void Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass74__ctor_m32481_gshared (U3CU3Ec__DisplayClass74_t6120 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass74__ctor_m32481(__this, method) (( void (*) (U3CU3Ec__DisplayClass74_t6120 *, const MethodInfo*))U3CU3Ec__DisplayClass74__ctor_m32481_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass74__ctor_m32572_gshared (U3CU3Ec__DisplayClass74_t6124 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass74__ctor_m32572(__this, method) (( void (*) (U3CU3Ec__DisplayClass74_t6124 *, const MethodInfo*))U3CU3Ec__DisplayClass74__ctor_m32572_gshared)(__this, method)
 // System.Boolean Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::<FetchAllInternalAsync>b__60(T)
-extern "C" bool U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__60_m32482_gshared (U3CU3Ec__DisplayClass74_t6120 * __this, Object_t * ___obj, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__60_m32482(__this, ___obj, method) (( bool (*) (U3CU3Ec__DisplayClass74_t6120 *, Object_t *, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__60_m32482_gshared)(__this, ___obj, method)
+extern "C" bool U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__60_m32573_gshared (U3CU3Ec__DisplayClass74_t6124 * __this, Object_t * ___obj, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__60_m32573(__this, ___obj, method) (( bool (*) (U3CU3Ec__DisplayClass74_t6124 *, Object_t *, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__60_m32573_gshared)(__this, ___obj, method)
 // <>f__AnonymousType5`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::<FetchAllInternalAsync>b__64(System.Linq.IGrouping`2<System.String,System.String>)
-extern "C" U3CU3Ef__AnonymousType5_2_t2424 * U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__64_m32483_gshared (U3CU3Ec__DisplayClass74_t6120 * __this, Object_t* ___classGroup, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__64_m32483(__this, ___classGroup, method) (( U3CU3Ef__AnonymousType5_2_t2424 * (*) (U3CU3Ec__DisplayClass74_t6120 *, Object_t*, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__64_m32483_gshared)(__this, ___classGroup, method)
+extern "C" U3CU3Ef__AnonymousType5_2_t2422 * U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__64_m32574_gshared (U3CU3Ec__DisplayClass74_t6124 * __this, Object_t* ___classGroup, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__64_m32574(__this, ___classGroup, method) (( U3CU3Ef__AnonymousType5_2_t2422 * (*) (U3CU3Ec__DisplayClass74_t6124 *, Object_t*, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__64_m32574_gshared)(__this, ___classGroup, method)
 // System.Collections.Generic.IEnumerable`1<T> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::<FetchAllInternalAsync>b__67(System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>[]>)
-extern "C" Object_t* U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__67_m32484_gshared (U3CU3Ec__DisplayClass74_t6120 * __this, Task_1_t2425 * _____, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__67_m32484(__this, _____, method) (( Object_t* (*) (U3CU3Ec__DisplayClass74_t6120 *, Task_1_t2425 *, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__67_m32484_gshared)(__this, _____, method)
+extern "C" Object_t* U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__67_m32575_gshared (U3CU3Ec__DisplayClass74_t6124 * __this, Task_1_t2423 * _____, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__67_m32575(__this, _____, method) (( Object_t* (*) (U3CU3Ec__DisplayClass74_t6124 *, Task_1_t2423 *, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__67_m32575_gshared)(__this, _____, method)
 // System.Collections.Generic.IEnumerable`1<Parse.ParseObject> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::<FetchAllInternalAsync>b__68(T)
-extern "C" Object_t* U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__68_m32485_gshared (U3CU3Ec__DisplayClass74_t6120 * __this, Object_t * ___obj, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__68_m32485(__this, ___obj, method) (( Object_t* (*) (U3CU3Ec__DisplayClass74_t6120 *, Object_t *, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__68_m32485_gshared)(__this, ___obj, method)
+extern "C" Object_t* U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__68_m32576_gshared (U3CU3Ec__DisplayClass74_t6124 * __this, Object_t * ___obj, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__68_m32576(__this, ___obj, method) (( Object_t* (*) (U3CU3Ec__DisplayClass74_t6124 *, Object_t *, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__68_m32576_gshared)(__this, ___obj, method)
 // <>f__AnonymousType6`2<T,Parse.ParseObject> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::<FetchAllInternalAsync>b__69(T,Parse.ParseObject)
-extern "C" U3CU3Ef__AnonymousType6_2_t6127 * U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__69_m32486_gshared (Object_t * __this /* static, unused */, Object_t * ___obj, ParseObject_t1221 * ___result, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__69_m32486(__this /* static, unused */, ___obj, ___result, method) (( U3CU3Ef__AnonymousType6_2_t6127 * (*) (Object_t * /* static, unused */, Object_t *, ParseObject_t1221 *, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__69_m32486_gshared)(__this /* static, unused */, ___obj, ___result, method)
+extern "C" U3CU3Ef__AnonymousType6_2_t6131 * U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__69_m32577_gshared (Object_t * __this /* static, unused */, Object_t * ___obj, ParseObject_t1219 * ___result, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__69_m32577(__this /* static, unused */, ___obj, ___result, method) (( U3CU3Ef__AnonymousType6_2_t6131 * (*) (Object_t * /* static, unused */, Object_t *, ParseObject_t1219 *, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__69_m32577_gshared)(__this /* static, unused */, ___obj, ___result, method)
 // System.Boolean Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::<FetchAllInternalAsync>b__6a(<>f__AnonymousType6`2<T,Parse.ParseObject>)
-extern "C" bool U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__6a_m32487_gshared (Object_t * __this /* static, unused */, U3CU3Ef__AnonymousType6_2_t6127 * ___U3CU3Eh__TransparentIdentifier53, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__6a_m32487(__this /* static, unused */, ___U3CU3Eh__TransparentIdentifier53, method) (( bool (*) (Object_t * /* static, unused */, U3CU3Ef__AnonymousType6_2_t6127 *, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__6a_m32487_gshared)(__this /* static, unused */, ___U3CU3Eh__TransparentIdentifier53, method)
+extern "C" bool U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__6a_m32578_gshared (Object_t * __this /* static, unused */, U3CU3Ef__AnonymousType6_2_t6131 * ___U3CU3Eh__TransparentIdentifier53, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__6a_m32578(__this /* static, unused */, ___U3CU3Eh__TransparentIdentifier53, method) (( bool (*) (Object_t * /* static, unused */, U3CU3Ef__AnonymousType6_2_t6131 *, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__6a_m32578_gshared)(__this /* static, unused */, ___U3CU3Eh__TransparentIdentifier53, method)
 // <>f__AnonymousType6`2<T,Parse.ParseObject> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::<FetchAllInternalAsync>b__6b(<>f__AnonymousType6`2<T,Parse.ParseObject>)
-extern "C" U3CU3Ef__AnonymousType6_2_t6127 * U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__6b_m32488_gshared (Object_t * __this /* static, unused */, U3CU3Ef__AnonymousType6_2_t6127 * ___U3CU3Eh__TransparentIdentifier53, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__6b_m32488(__this /* static, unused */, ___U3CU3Eh__TransparentIdentifier53, method) (( U3CU3Ef__AnonymousType6_2_t6127 * (*) (Object_t * /* static, unused */, U3CU3Ef__AnonymousType6_2_t6127 *, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__6b_m32488_gshared)(__this /* static, unused */, ___U3CU3Eh__TransparentIdentifier53, method)
+extern "C" U3CU3Ef__AnonymousType6_2_t6131 * U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__6b_m32579_gshared (Object_t * __this /* static, unused */, U3CU3Ef__AnonymousType6_2_t6131 * ___U3CU3Eh__TransparentIdentifier53, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__6b_m32579(__this /* static, unused */, ___U3CU3Eh__TransparentIdentifier53, method) (( U3CU3Ef__AnonymousType6_2_t6131 * (*) (Object_t * /* static, unused */, U3CU3Ef__AnonymousType6_2_t6131 *, const MethodInfo*))U3CU3Ec__DisplayClass74_U3CFetchAllInternalAsyncU3Eb__6b_m32579_gshared)(__this /* static, unused */, ___U3CU3Eh__TransparentIdentifier53, method)

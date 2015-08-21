@@ -1,30 +1,30 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t757;
+struct Uri_t755;
 // System.Net.WebHeaderCollection
-struct WebHeaderCollection_t4016;
+struct WebHeaderCollection_t4014;
 // System.Net.ICredentials
-struct ICredentials_t3283;
+struct ICredentials_t3281;
 // System.String
 struct String_t;
 // System.Net.IWebProxy
-struct IWebProxy_t4033;
+struct IWebProxy_t4031;
 // System.Net.FileWebResponse
-struct FileWebResponse_t4034;
+struct FileWebResponse_t4032;
 // System.Threading.AutoResetEvent
-struct AutoResetEvent_t3376;
+struct AutoResetEvent_t3374;
 // System.Net.WebRequest
 #include "System_System_Net_WebRequest.h"
 // System.IO.FileAccess
 #include "mscorlib_System_IO_FileAccess.h"
 // System.Net.FileWebRequest
-struct  FileWebRequest_t4030  : public WebRequest_t3301
+struct  FileWebRequest_t4028  : public WebRequest_t3299
 {
 	// System.Uri System.Net.FileWebRequest::uri
-	Uri_t757 * ___uri_6;
+	Uri_t755 * ___uri_6;
 	// System.Net.WebHeaderCollection System.Net.FileWebRequest::webHeaders
-	WebHeaderCollection_t4016 * ___webHeaders_7;
+	WebHeaderCollection_t4014 * ___webHeaders_7;
 	// System.Net.ICredentials System.Net.FileWebRequest::credentials
 	Object_t * ___credentials_8;
 	// System.String System.Net.FileWebRequest::connectionGroup
@@ -42,9 +42,9 @@ struct  FileWebRequest_t4030  : public WebRequest_t3301
 	// System.Int32 System.Net.FileWebRequest::timeout
 	int32_t ___timeout_15;
 	// System.Net.FileWebResponse System.Net.FileWebRequest::webResponse
-	FileWebResponse_t4034 * ___webResponse_16;
+	FileWebResponse_t4032 * ___webResponse_16;
 	// System.Threading.AutoResetEvent System.Net.FileWebRequest::requestEndEvent
-	AutoResetEvent_t3376 * ___requestEndEvent_17;
+	AutoResetEvent_t3374 * ___requestEndEvent_17;
 	// System.Boolean System.Net.FileWebRequest::requesting
 	bool ___requesting_18;
 	// System.Boolean System.Net.FileWebRequest::asyncResponding

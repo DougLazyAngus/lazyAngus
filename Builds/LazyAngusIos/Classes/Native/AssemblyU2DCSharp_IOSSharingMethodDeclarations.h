@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // IOSSharing
-struct IOSSharing_t573;
+struct IOSSharing_t570;
 
 // System.Void IOSSharing::.ctor()
-extern "C" void IOSSharing__ctor_m3079 (IOSSharing_t573 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOSSharing__ctor_m3061 (IOSSharing_t570 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void IOSSharing::Start()
-extern "C" void IOSSharing_Start_m3080 (IOSSharing_t573 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOSSharing_Start_m3062 (IOSSharing_t570 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void IOSSharing::Update()
-extern "C" void IOSSharing_Update_m3081 (IOSSharing_t573 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOSSharing_Update_m3063 (IOSSharing_t570 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Sockets.SocketOptionName
-struct SocketOptionName_t4006;
+struct SocketOptionName_t4004;
 

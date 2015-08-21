@@ -7,7 +7,7 @@ struct Image_t501;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MusicButton
-struct  MusicButton_t610  : public MonoBehaviour_t13
+struct  MusicButton_t606  : public MonoBehaviour_t13
 {
 	// System.Boolean MusicButton::registeredForEvents
 	bool ___registeredForEvents_2;

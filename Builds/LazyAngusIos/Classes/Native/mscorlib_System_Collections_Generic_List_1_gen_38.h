@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.StencilMaterial/MatEntry[]
-struct MatEntryU5BU5D_t5901;
+// UnityEngine.CanvasGroup[]
+struct CanvasGroupU5BU5D_t5899;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  List_1_t978  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
+struct  List_1_t969  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_items
-	MatEntryU5BU5D_t5901* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::_items
+	CanvasGroupU5BU5D_t5899* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::_version
 	int32_t ____version_3;
 };
-struct List_1_t978_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::EmptyArray
-	MatEntryU5BU5D_t5901* ___EmptyArray_4;
+struct List_1_t969_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::EmptyArray
+	CanvasGroupU5BU5D_t5899* ___EmptyArray_4;
 };

@@ -4,28 +4,33 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDirectConnectInfo>
-struct Enumerator_t8463;
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>
+struct Enumerator_t8439;
 // System.Object
 struct Object_t;
-// UnityEngine.Networking.Match.MatchDirectConnectInfo
-struct MatchDirectConnectInfo_t2804;
-// System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>
-struct List_1_t2805;
+// System.Collections.Generic.List`1<UnityEngine.UILineInfo>
+struct List_1_t2788;
+// UnityEngine.UILineInfo
+#include "UnityEngine_UnityEngine_UILineInfo.h"
 
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDirectConnectInfo>::.ctor(System.Collections.Generic.List`1<T>)
-// System.Collections.Generic.List`1/Enumerator<System.Object>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m61353(__this, ___l, method) (( void (*) (Enumerator_t8463 *, List_1_t2805 *, const MethodInfo*))Enumerator__ctor_m21650_gshared)(__this, ___l, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDirectConnectInfo>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m61354(__this, method) (( void (*) (Enumerator_t8463 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21651_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDirectConnectInfo>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m61355(__this, method) (( Object_t * (*) (Enumerator_t8463 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21652_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDirectConnectInfo>::Dispose()
-#define Enumerator_Dispose_m61356(__this, method) (( void (*) (Enumerator_t8463 *, const MethodInfo*))Enumerator_Dispose_m21653_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDirectConnectInfo>::VerifyState()
-#define Enumerator_VerifyState_m61357(__this, method) (( void (*) (Enumerator_t8463 *, const MethodInfo*))Enumerator_VerifyState_m21654_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDirectConnectInfo>::MoveNext()
-#define Enumerator_MoveNext_m61358(__this, method) (( bool (*) (Enumerator_t8463 *, const MethodInfo*))Enumerator_MoveNext_m3868_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDirectConnectInfo>::get_Current()
-#define Enumerator_get_Current_m61359(__this, method) (( MatchDirectConnectInfo_t2804 * (*) (Enumerator_t8463 *, const MethodInfo*))Enumerator_get_Current_m3867_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::.ctor(System.Collections.Generic.List`1<T>)
+extern "C" void Enumerator__ctor_m61032_gshared (Enumerator_t8439 * __this, List_1_t2788 * ___l, const MethodInfo* method);
+#define Enumerator__ctor_m61032(__this, ___l, method) (( void (*) (Enumerator_t8439 *, List_1_t2788 *, const MethodInfo*))Enumerator__ctor_m61032_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::System.Collections.IEnumerator.Reset()
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m61033_gshared (Enumerator_t8439 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_Reset_m61033(__this, method) (( void (*) (Enumerator_t8439 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m61033_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m61034_gshared (Enumerator_t8439 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m61034(__this, method) (( Object_t * (*) (Enumerator_t8439 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m61034_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::Dispose()
+extern "C" void Enumerator_Dispose_m61035_gshared (Enumerator_t8439 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m61035(__this, method) (( void (*) (Enumerator_t8439 *, const MethodInfo*))Enumerator_Dispose_m61035_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::VerifyState()
+extern "C" void Enumerator_VerifyState_m61036_gshared (Enumerator_t8439 * __this, const MethodInfo* method);
+#define Enumerator_VerifyState_m61036(__this, method) (( void (*) (Enumerator_t8439 *, const MethodInfo*))Enumerator_VerifyState_m61036_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::MoveNext()
+extern "C" bool Enumerator_MoveNext_m61037_gshared (Enumerator_t8439 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m61037(__this, method) (( bool (*) (Enumerator_t8439 *, const MethodInfo*))Enumerator_MoveNext_m61037_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::get_Current()
+extern "C" UILineInfo_t1074  Enumerator_get_Current_m61038_gshared (Enumerator_t8439 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m61038(__this, method) (( UILineInfo_t1074  (*) (Enumerator_t8439 *, const MethodInfo*))Enumerator_get_Current_m61038_gshared)(__this, method)

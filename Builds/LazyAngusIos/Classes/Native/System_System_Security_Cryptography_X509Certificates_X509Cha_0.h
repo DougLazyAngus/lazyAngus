@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.X509Certificates.X509Certificate2
-struct X509Certificate2_t3936;
+struct X509Certificate2_t3934;
 // System.Security.Cryptography.X509Certificates.X509ChainStatus[]
-struct X509ChainStatusU5BU5D_t4095;
+struct X509ChainStatusU5BU5D_t4093;
 // System.String
 struct String_t;
 // System.Object
@@ -11,12 +11,12 @@ struct String_t;
 // System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha_1.h"
 // System.Security.Cryptography.X509Certificates.X509ChainElement
-struct  X509ChainElement_t4097  : public Object_t
+struct  X509ChainElement_t4095  : public Object_t
 {
 	// System.Security.Cryptography.X509Certificates.X509Certificate2 System.Security.Cryptography.X509Certificates.X509ChainElement::certificate
-	X509Certificate2_t3936 * ___certificate_0;
+	X509Certificate2_t3934 * ___certificate_0;
 	// System.Security.Cryptography.X509Certificates.X509ChainStatus[] System.Security.Cryptography.X509Certificates.X509ChainElement::status
-	X509ChainStatusU5BU5D_t4095* ___status_1;
+	X509ChainStatusU5BU5D_t4093* ___status_1;
 	// System.String System.Security.Cryptography.X509Certificates.X509ChainElement::info
 	String_t* ___info_2;
 	// System.Security.Cryptography.X509Certificates.X509ChainStatusFlags System.Security.Cryptography.X509Certificates.X509ChainElement::compressed_status_flags

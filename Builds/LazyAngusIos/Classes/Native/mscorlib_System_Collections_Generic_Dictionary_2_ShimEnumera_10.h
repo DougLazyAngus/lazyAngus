@@ -5,8 +5,8 @@
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Int64>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__65.h"
 // System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,System.Int64>
-struct  ShimEnumerator_t8455  : public Object_t
+struct  ShimEnumerator_t8459  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,System.Int64>::host_enumerator
-	Enumerator_t8449  ___host_enumerator_0;
+	Enumerator_t8453  ___host_enumerator_0;
 };

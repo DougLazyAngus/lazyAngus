@@ -6,11 +6,11 @@ struct IAsyncResult_t385;
 struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
-// System.Boolean
-#include "mscorlib_System_Boolean.h"
+// Parse.ParseGeoPoint
+#include "Parse_Unity_Parse_ParseGeoPoint.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<System.Boolean>
-struct  Predicate_1_t6926  : public MulticastDelegate_t388
+// System.Predicate`1<Parse.ParseGeoPoint>
+struct  Predicate_1_t6870  : public MulticastDelegate_t388
 {
 };

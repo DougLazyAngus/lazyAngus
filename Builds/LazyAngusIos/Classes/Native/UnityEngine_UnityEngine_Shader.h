@@ -3,6 +3,6 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.Shader
-struct  Shader_t2741  : public Object_t703
+struct  Shader_t2739  : public Object_t701
 {
 };

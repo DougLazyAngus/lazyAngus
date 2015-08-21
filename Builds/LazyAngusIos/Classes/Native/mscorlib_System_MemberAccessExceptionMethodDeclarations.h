@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.MemberAccessException
-struct MemberAccessException_t4813;
+struct MemberAccessException_t4811;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2919;
+struct SerializationInfo_t2917;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.MemberAccessException::.ctor()
-extern "C" void MemberAccessException__ctor_m19801 (MemberAccessException_t4813 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberAccessException__ctor_m19790 (MemberAccessException_t4811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MemberAccessException::.ctor(System.String)
-extern "C" void MemberAccessException__ctor_m19802 (MemberAccessException_t4813 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberAccessException__ctor_m19791 (MemberAccessException_t4811 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MemberAccessException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MemberAccessException__ctor_m19803 (MemberAccessException_t4813 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberAccessException__ctor_m19792 (MemberAccessException_t4811 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

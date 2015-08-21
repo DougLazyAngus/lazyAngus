@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.TrackedReference
-struct TrackedReference_t2782;
-struct TrackedReference_t2782_marshaled;
+struct TrackedReference_t2780;
+struct TrackedReference_t2780_marshaled;
 // System.Object
 struct Object_t;
 
 // System.Boolean UnityEngine.TrackedReference::Equals(System.Object)
-extern "C" bool TrackedReference_Equals_m10019 (TrackedReference_t2782 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TrackedReference_Equals_m10008 (TrackedReference_t2780 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.TrackedReference::GetHashCode()
-extern "C" int32_t TrackedReference_GetHashCode_m10020 (TrackedReference_t2782 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TrackedReference_GetHashCode_m10009 (TrackedReference_t2780 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.TrackedReference::op_Equality(UnityEngine.TrackedReference,UnityEngine.TrackedReference)
-extern "C" bool TrackedReference_op_Equality_m10021 (Object_t * __this /* static, unused */, TrackedReference_t2782 * ___x, TrackedReference_t2782 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-void TrackedReference_t2782_marshal(const TrackedReference_t2782& unmarshaled, TrackedReference_t2782_marshaled& marshaled);
-void TrackedReference_t2782_marshal_back(const TrackedReference_t2782_marshaled& marshaled, TrackedReference_t2782& unmarshaled);
-void TrackedReference_t2782_marshal_cleanup(TrackedReference_t2782_marshaled& marshaled);
+extern "C" bool TrackedReference_op_Equality_m10010 (Object_t * __this /* static, unused */, TrackedReference_t2780 * ___x, TrackedReference_t2780 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+void TrackedReference_t2780_marshal(const TrackedReference_t2780& unmarshaled, TrackedReference_t2780_marshaled& marshaled);
+void TrackedReference_t2780_marshal_back(const TrackedReference_t2780_marshaled& marshaled, TrackedReference_t2780& unmarshaled);
+void TrackedReference_t2780_marshal_cleanup(TrackedReference_t2780_marshaled& marshaled);

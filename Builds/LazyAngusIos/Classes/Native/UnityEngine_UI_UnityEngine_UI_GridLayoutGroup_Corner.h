@@ -5,7 +5,7 @@
 // UnityEngine.UI.GridLayoutGroup/Corner
 #include "UnityEngine_UI_UnityEngine_UI_GridLayoutGroup_Corner.h"
 // UnityEngine.UI.GridLayoutGroup/Corner
-struct  Corner_t995 
+struct  Corner_t993 
 {
 	// System.Int32 UnityEngine.UI.GridLayoutGroup/Corner::value__
 	int32_t ___value___1;

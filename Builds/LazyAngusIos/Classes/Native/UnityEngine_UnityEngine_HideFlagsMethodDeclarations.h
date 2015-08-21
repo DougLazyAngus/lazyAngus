@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.HideFlags
-struct HideFlags_t2755;
+struct HideFlags_t2753;
 

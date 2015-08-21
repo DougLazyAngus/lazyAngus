@@ -108,10 +108,6 @@ public class BoostButton : MonoBehaviour {
 	}
 	
 	void OnGamePhaseChanged() {
-		if (DebugConfig.instance.DebugFlagSet (0)) {
-			return;
-		}
-
 		buttonDirty = true;
 		CheckForLevelUnlockEffects ();
 	}

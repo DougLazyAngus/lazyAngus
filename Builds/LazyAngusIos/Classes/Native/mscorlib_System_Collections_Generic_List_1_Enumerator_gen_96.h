@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Exception>
-struct List_1_t2147;
-// System.Exception
-struct Exception_t57;
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>
+struct List_1_t8017;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Exception>
-struct  Enumerator_t8334 
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_61.h"
+// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>
+struct  Enumerator_t8021 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Exception>::l
-	List_1_t2147 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Exception>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::l
+	List_1_t8017 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Exception>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Exception>::current
-	Exception_t57 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>>::current
+	KeyValuePair_2_t7132  ___current_3;
 };

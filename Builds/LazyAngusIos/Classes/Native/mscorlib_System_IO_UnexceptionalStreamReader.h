@@ -5,10 +5,10 @@ struct BooleanU5BU5D_t487;
 // System.IO.StreamReader
 #include "mscorlib_System_IO_StreamReader.h"
 // System.IO.UnexceptionalStreamReader
-struct  UnexceptionalStreamReader_t4504  : public StreamReader_t1161
+struct  UnexceptionalStreamReader_t4502  : public StreamReader_t1159
 {
 };
-struct UnexceptionalStreamReader_t4504_StaticFields{
+struct UnexceptionalStreamReader_t4502_StaticFields{
 	// System.Boolean[] System.IO.UnexceptionalStreamReader::newline
 	BooleanU5BU5D_t487* ___newline_14;
 	// System.Char System.IO.UnexceptionalStreamReader::newlineChar

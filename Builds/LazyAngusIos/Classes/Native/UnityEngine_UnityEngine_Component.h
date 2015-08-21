@@ -3,6 +3,6 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.Component
-struct  Component_t761  : public Object_t703
+struct  Component_t759  : public Object_t701
 {
 };

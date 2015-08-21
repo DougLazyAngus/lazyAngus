@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.CanvasScaler/Unit
-struct Unit_t992;
+struct Unit_t990;
 

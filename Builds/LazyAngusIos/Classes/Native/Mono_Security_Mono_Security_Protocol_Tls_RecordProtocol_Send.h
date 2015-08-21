@@ -7,13 +7,13 @@ struct AsyncCallback_t386;
 // System.Exception
 struct Exception_t57;
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t3377;
+struct ManualResetEvent_t3375;
 // Mono.Security.Protocol.Tls.Handshake.HandshakeMessage
-struct HandshakeMessage_t3864;
+struct HandshakeMessage_t3862;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Protocol.Tls.RecordProtocol/SendRecordAsyncResult
-struct  SendRecordAsyncResult_t3865  : public Object_t
+struct  SendRecordAsyncResult_t3863  : public Object_t
 {
 	// System.Object Mono.Security.Protocol.Tls.RecordProtocol/SendRecordAsyncResult::locker
 	Object_t * ___locker_0;
@@ -24,9 +24,9 @@ struct  SendRecordAsyncResult_t3865  : public Object_t
 	// System.Exception Mono.Security.Protocol.Tls.RecordProtocol/SendRecordAsyncResult::_asyncException
 	Exception_t57 * ____asyncException_3;
 	// System.Threading.ManualResetEvent Mono.Security.Protocol.Tls.RecordProtocol/SendRecordAsyncResult::handle
-	ManualResetEvent_t3377 * ___handle_4;
+	ManualResetEvent_t3375 * ___handle_4;
 	// Mono.Security.Protocol.Tls.Handshake.HandshakeMessage Mono.Security.Protocol.Tls.RecordProtocol/SendRecordAsyncResult::_message
-	HandshakeMessage_t3864 * ____message_5;
+	HandshakeMessage_t3862 * ____message_5;
 	// System.Boolean Mono.Security.Protocol.Tls.RecordProtocol/SendRecordAsyncResult::completed
 	bool ___completed_6;
 };

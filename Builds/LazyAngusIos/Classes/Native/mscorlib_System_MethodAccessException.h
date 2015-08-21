@@ -3,6 +3,6 @@
 // System.MemberAccessException
 #include "mscorlib_System_MemberAccessException.h"
 // System.MethodAccessException
-struct  MethodAccessException_t4818  : public MemberAccessException_t4813
+struct  MethodAccessException_t4816  : public MemberAccessException_t4811
 {
 };

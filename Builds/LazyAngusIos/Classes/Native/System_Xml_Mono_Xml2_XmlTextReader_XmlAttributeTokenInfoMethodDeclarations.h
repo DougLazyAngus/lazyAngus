@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo
-struct XmlAttributeTokenInfo_t3264;
+struct XmlAttributeTokenInfo_t3262;
 // System.String
 struct String_t;
 // Mono.Xml2.XmlTextReader
-struct XmlTextReader_t3262;
+struct XmlTextReader_t3260;
 
 // System.Void Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo::.ctor(Mono.Xml2.XmlTextReader)
-extern "C" void XmlAttributeTokenInfo__ctor_m11196 (XmlAttributeTokenInfo_t3264 * __this, XmlTextReader_t3262 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttributeTokenInfo__ctor_m11185 (XmlAttributeTokenInfo_t3262 * __this, XmlTextReader_t3260 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo::get_Value()
-extern "C" String_t* XmlAttributeTokenInfo_get_Value_m11197 (XmlAttributeTokenInfo_t3264 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlAttributeTokenInfo_get_Value_m11186 (XmlAttributeTokenInfo_t3262 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo::set_Value(System.String)
-extern "C" void XmlAttributeTokenInfo_set_Value_m11198 (XmlAttributeTokenInfo_t3264 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttributeTokenInfo_set_Value_m11187 (XmlAttributeTokenInfo_t3262 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo::Clear()
-extern "C" void XmlAttributeTokenInfo_Clear_m11199 (XmlAttributeTokenInfo_t3264 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttributeTokenInfo_Clear_m11188 (XmlAttributeTokenInfo_t3262 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo::FillXmlns()
-extern "C" void XmlAttributeTokenInfo_FillXmlns_m11200 (XmlAttributeTokenInfo_t3264 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttributeTokenInfo_FillXmlns_m11189 (XmlAttributeTokenInfo_t3262 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo::FillNamespace()
-extern "C" void XmlAttributeTokenInfo_FillNamespace_m11201 (XmlAttributeTokenInfo_t3264 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttributeTokenInfo_FillNamespace_m11190 (XmlAttributeTokenInfo_t3262 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

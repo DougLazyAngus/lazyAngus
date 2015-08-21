@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.TlsException
-struct TlsException_t3883;
+struct TlsException_t3881;
 // Mono.Security.Protocol.Tls.Alert
-struct Alert_t3838;
+struct Alert_t3836;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2919;
+struct SerializationInfo_t2917;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 // Mono.Security.Protocol.Tls.AlertLevel
@@ -20,16 +20,16 @@ struct SerializationInfo_t2919;
 #include "Mono_Security_Mono_Security_Protocol_Tls_AlertDescription.h"
 
 // System.Void Mono.Security.Protocol.Tls.TlsException::.ctor(System.String)
-extern "C" void TlsException__ctor_m12991 (TlsException_t3883 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsException__ctor_m12980 (TlsException_t3881 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void TlsException__ctor_m12992 (TlsException_t3883 * __this, SerializationInfo_t2919 * ___info, StreamingContext_t2920  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsException__ctor_m12981 (TlsException_t3881 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsException::.ctor(Mono.Security.Protocol.Tls.AlertLevel,Mono.Security.Protocol.Tls.AlertDescription)
-extern "C" void TlsException__ctor_m12993 (TlsException_t3883 * __this, uint8_t ___level, uint8_t ___description, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsException__ctor_m12982 (TlsException_t3881 * __this, uint8_t ___level, uint8_t ___description, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsException::.ctor(Mono.Security.Protocol.Tls.AlertLevel,Mono.Security.Protocol.Tls.AlertDescription,System.String)
-extern "C" void TlsException__ctor_m12994 (TlsException_t3883 * __this, uint8_t ___level, uint8_t ___description, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsException__ctor_m12983 (TlsException_t3881 * __this, uint8_t ___level, uint8_t ___description, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsException::.ctor(Mono.Security.Protocol.Tls.AlertDescription)
-extern "C" void TlsException__ctor_m12995 (TlsException_t3883 * __this, uint8_t ___description, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsException__ctor_m12984 (TlsException_t3881 * __this, uint8_t ___description, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.TlsException::.ctor(Mono.Security.Protocol.Tls.AlertDescription,System.String)
-extern "C" void TlsException__ctor_m12996 (TlsException_t3883 * __this, uint8_t ___description, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsException__ctor_m12985 (TlsException_t3881 * __this, uint8_t ___description, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.Alert Mono.Security.Protocol.Tls.TlsException::get_Alert()
-extern "C" Alert_t3838 * TlsException_get_Alert_m12997 (TlsException_t3883 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Alert_t3836 * TlsException_get_Alert_m12986 (TlsException_t3881 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

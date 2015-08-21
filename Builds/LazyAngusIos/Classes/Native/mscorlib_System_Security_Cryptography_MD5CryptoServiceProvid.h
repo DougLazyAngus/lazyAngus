@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.UInt32[]
-struct UInt32U5BU5D_t3217;
+struct UInt32U5BU5D_t3215;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Security.Cryptography.MD5
 #include "mscorlib_System_Security_Cryptography_MD5.h"
 // System.Security.Cryptography.MD5CryptoServiceProvider
-struct  MD5CryptoServiceProvider_t4694  : public MD5_t3922
+struct  MD5CryptoServiceProvider_t4692  : public MD5_t3920
 {
 	// System.UInt32[] System.Security.Cryptography.MD5CryptoServiceProvider::_H
-	UInt32U5BU5D_t3217* ____H_4;
+	UInt32U5BU5D_t3215* ____H_4;
 	// System.UInt32[] System.Security.Cryptography.MD5CryptoServiceProvider::buff
-	UInt32U5BU5D_t3217* ___buff_5;
+	UInt32U5BU5D_t3215* ___buff_5;
 	// System.UInt64 System.Security.Cryptography.MD5CryptoServiceProvider::count
 	uint64_t ___count_6;
 	// System.Byte[] System.Security.Cryptography.MD5CryptoServiceProvider::_ProcessingBuffer
@@ -20,7 +20,7 @@ struct  MD5CryptoServiceProvider_t4694  : public MD5_t3922
 	// System.Int32 System.Security.Cryptography.MD5CryptoServiceProvider::_ProcessingBufferCount
 	int32_t ____ProcessingBufferCount_8;
 };
-struct MD5CryptoServiceProvider_t4694_StaticFields{
+struct MD5CryptoServiceProvider_t4692_StaticFields{
 	// System.UInt32[] System.Security.Cryptography.MD5CryptoServiceProvider::K
-	UInt32U5BU5D_t3217* ___K_9;
+	UInt32U5BU5D_t3215* ___K_9;
 };

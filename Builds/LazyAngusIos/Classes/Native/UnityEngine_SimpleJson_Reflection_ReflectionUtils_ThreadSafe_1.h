@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-struct IDictionary_2_t2915;
+struct IDictionary_2_t2913;
 // System.Type
 struct Type_t;
 // System.IAsyncResult
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>
-struct  ThreadSafeDictionaryValueFactory_2_t2936  : public MulticastDelegate_t388
+struct  ThreadSafeDictionaryValueFactory_2_t2934  : public MulticastDelegate_t388
 {
 };

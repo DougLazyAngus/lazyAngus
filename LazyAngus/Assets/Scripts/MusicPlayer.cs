@@ -44,9 +44,6 @@ public class MusicPlayer : MonoBehaviour {
 	}
 
 	void OnGamePhaseChanged() {
-		if (DebugConfig.instance.DebugFlagSet (8)) {
-			return;
-		}
 		UpdateAllMusic ();
 	}
 

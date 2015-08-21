@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdAnySimpleType
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleType.h"
 // Mono.Xml.Schema.XsdBoolean
-struct  XsdBoolean_t3135  : public XsdAnySimpleType_t3098
+struct  XsdBoolean_t3133  : public XsdAnySimpleType_t3096
 {
 };

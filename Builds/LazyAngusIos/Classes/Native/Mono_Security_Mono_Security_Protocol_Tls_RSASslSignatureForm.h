@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.RSA
-struct RSA_t3805;
+struct RSA_t3803;
 // System.Security.Cryptography.HashAlgorithm
-struct HashAlgorithm_t3795;
+struct HashAlgorithm_t3793;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Security.Cryptography.AsymmetricSignatureFormatter
 #include "mscorlib_System_Security_Cryptography_AsymmetricSignatureFor.h"
 // Mono.Security.Protocol.Tls.RSASslSignatureFormatter
-struct  RSASslSignatureFormatter_t3868  : public AsymmetricSignatureFormatter_t3869
+struct  RSASslSignatureFormatter_t3866  : public AsymmetricSignatureFormatter_t3867
 {
 	// System.Security.Cryptography.RSA Mono.Security.Protocol.Tls.RSASslSignatureFormatter::key
-	RSA_t3805 * ___key_0;
+	RSA_t3803 * ___key_0;
 	// System.Security.Cryptography.HashAlgorithm Mono.Security.Protocol.Tls.RSASslSignatureFormatter::hash
-	HashAlgorithm_t3795 * ___hash_1;
+	HashAlgorithm_t3793 * ___hash_1;
 };
-struct RSASslSignatureFormatter_t3868_StaticFields{
+struct RSASslSignatureFormatter_t3866_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Security.Protocol.Tls.RSASslSignatureFormatter::<>f__switch$map16
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map16_2;
 };

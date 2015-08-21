@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.ThreadPool
-struct ThreadPool_t4771;
+struct ThreadPool_t4769;
 // System.Threading.WaitCallback
-struct WaitCallback_t2145;
+struct WaitCallback_t2143;
 // System.Object
 struct Object_t;
 
 // System.Boolean System.Threading.ThreadPool::QueueUserWorkItem(System.Threading.WaitCallback)
-extern "C" bool ThreadPool_QueueUserWorkItem_m7785 (Object_t * __this /* static, unused */, WaitCallback_t2145 * ___callBack, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ThreadPool_QueueUserWorkItem_m7774 (Object_t * __this /* static, unused */, WaitCallback_t2143 * ___callBack, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.ThreadPool::QueueUserWorkItem(System.Threading.WaitCallback,System.Object)
-extern "C" bool ThreadPool_QueueUserWorkItem_m15092 (Object_t * __this /* static, unused */, WaitCallback_t2145 * ___callBack, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ThreadPool_QueueUserWorkItem_m15081 (Object_t * __this /* static, unused */, WaitCallback_t2143 * ___callBack, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;

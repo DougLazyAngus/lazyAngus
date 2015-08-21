@@ -5,9 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Layers
-struct Layers_t577;
+struct Layers_t573;
 
 // System.Void Layers::.ctor()
-extern "C" void Layers__ctor_m3099 (Layers_t577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Layers__ctor_m3080 (Layers_t573 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Layers::UserInteractionsLayerBitmask()
+extern "C" int32_t Layers_UserInteractionsLayerBitmask_m3081 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Layers::Awake()
-extern "C" void Layers_Awake_m3100 (Layers_t577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Layers_Awake_m3082 (Layers_t573 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

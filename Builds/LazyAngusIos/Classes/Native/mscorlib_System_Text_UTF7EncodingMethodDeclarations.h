@@ -5,57 +5,57 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.UTF7Encoding
-struct UTF7Encoding_t4762;
+struct UTF7Encoding_t4760;
 // System.Object
 struct Object_t;
 // System.Char[]
-struct CharU5BU5D_t697;
+struct CharU5BU5D_t695;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Text.Decoder
-struct Decoder_t3234;
+struct Decoder_t3232;
 // System.String
 struct String_t;
 
 // System.Void System.Text.UTF7Encoding::.ctor()
-extern "C" void UTF7Encoding__ctor_m19153 (UTF7Encoding_t4762 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UTF7Encoding__ctor_m19142 (UTF7Encoding_t4760 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.UTF7Encoding::.ctor(System.Boolean)
-extern "C" void UTF7Encoding__ctor_m19154 (UTF7Encoding_t4762 * __this, bool ___allowOptionals, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UTF7Encoding__ctor_m19143 (UTF7Encoding_t4760 * __this, bool ___allowOptionals, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.UTF7Encoding::.cctor()
-extern "C" void UTF7Encoding__cctor_m19155 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UTF7Encoding__cctor_m19144 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::GetHashCode()
-extern "C" int32_t UTF7Encoding_GetHashCode_m19156 (UTF7Encoding_t4762 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_GetHashCode_m19145 (UTF7Encoding_t4760 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.UTF7Encoding::Equals(System.Object)
-extern "C" bool UTF7Encoding_Equals_m19157 (UTF7Encoding_t4762 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UTF7Encoding_Equals_m19146 (UTF7Encoding_t4760 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::InternalGetByteCount(System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Boolean)
-extern "C" int32_t UTF7Encoding_InternalGetByteCount_m19158 (Object_t * __this /* static, unused */, CharU5BU5D_t697* ___chars, int32_t ___index, int32_t ___count, bool ___flush, int32_t ___leftOver, bool ___isInShifted, bool ___allowOptionals, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_InternalGetByteCount_m19147 (Object_t * __this /* static, unused */, CharU5BU5D_t695* ___chars, int32_t ___index, int32_t ___count, bool ___flush, int32_t ___leftOver, bool ___isInShifted, bool ___allowOptionals, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::GetByteCount(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t UTF7Encoding_GetByteCount_m19159 (UTF7Encoding_t4762 * __this, CharU5BU5D_t697* ___chars, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_GetByteCount_m19148 (UTF7Encoding_t4760 * __this, CharU5BU5D_t695* ___chars, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::InternalGetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Boolean,System.Int32&,System.Boolean&,System.Boolean)
-extern "C" int32_t UTF7Encoding_InternalGetBytes_m19160 (Object_t * __this /* static, unused */, CharU5BU5D_t697* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, bool ___flush, int32_t* ___leftOver, bool* ___isInShifted, bool ___allowOptionals, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_InternalGetBytes_m19149 (Object_t * __this /* static, unused */, CharU5BU5D_t695* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, bool ___flush, int32_t* ___leftOver, bool* ___isInShifted, bool ___allowOptionals, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern "C" int32_t UTF7Encoding_GetBytes_m19161 (UTF7Encoding_t4762 * __this, CharU5BU5D_t697* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_GetBytes_m19150 (UTF7Encoding_t4760 * __this, CharU5BU5D_t695* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::InternalGetCharCount(System.Byte[],System.Int32,System.Int32,System.Int32)
-extern "C" int32_t UTF7Encoding_InternalGetCharCount_m19162 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, int32_t ___leftOver, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_InternalGetCharCount_m19151 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, int32_t ___leftOver, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
-extern "C" int32_t UTF7Encoding_GetCharCount_m19163 (UTF7Encoding_t4762 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_GetCharCount_m19152 (UTF7Encoding_t4760 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::InternalGetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32&)
-extern "C" int32_t UTF7Encoding_InternalGetChars_m19164 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t697* ___chars, int32_t ___charIndex, int32_t* ___leftOver, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_InternalGetChars_m19153 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t695* ___chars, int32_t ___charIndex, int32_t* ___leftOver, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern "C" int32_t UTF7Encoding_GetChars_m19165 (UTF7Encoding_t4762 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t697* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_GetChars_m19154 (UTF7Encoding_t4760 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t695* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::GetMaxByteCount(System.Int32)
-extern "C" int32_t UTF7Encoding_GetMaxByteCount_m19166 (UTF7Encoding_t4762 * __this, int32_t ___charCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_GetMaxByteCount_m19155 (UTF7Encoding_t4760 * __this, int32_t ___charCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::GetMaxCharCount(System.Int32)
-extern "C" int32_t UTF7Encoding_GetMaxCharCount_m19167 (UTF7Encoding_t4762 * __this, int32_t ___byteCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_GetMaxCharCount_m19156 (UTF7Encoding_t4760 * __this, int32_t ___byteCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.Decoder System.Text.UTF7Encoding::GetDecoder()
-extern "C" Decoder_t3234 * UTF7Encoding_GetDecoder_m19168 (UTF7Encoding_t4762 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decoder_t3232 * UTF7Encoding_GetDecoder_m19157 (UTF7Encoding_t4760 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::GetByteCount(System.Char*,System.Int32)
-extern "C" int32_t UTF7Encoding_GetByteCount_m19169 (UTF7Encoding_t4762 * __this, uint16_t* ___chars, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_GetByteCount_m19158 (UTF7Encoding_t4760 * __this, uint16_t* ___chars, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::GetByteCount(System.String)
-extern "C" int32_t UTF7Encoding_GetByteCount_m19170 (UTF7Encoding_t4762 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_GetByteCount_m19159 (UTF7Encoding_t4760 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
-extern "C" int32_t UTF7Encoding_GetBytes_m19171 (UTF7Encoding_t4762 * __this, uint16_t* ___chars, int32_t ___charCount, uint8_t* ___bytes, int32_t ___byteCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_GetBytes_m19160 (UTF7Encoding_t4760 * __this, uint16_t* ___chars, int32_t ___charCount, uint8_t* ___bytes, int32_t ___byteCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
-extern "C" int32_t UTF7Encoding_GetBytes_m19172 (UTF7Encoding_t4762 * __this, String_t* ___s, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF7Encoding_GetBytes_m19161 (UTF7Encoding_t4760 * __this, String_t* ___s, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.UTF7Encoding::GetString(System.Byte[],System.Int32,System.Int32)
-extern "C" String_t* UTF7Encoding_GetString_m19173 (UTF7Encoding_t4762 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UTF7Encoding_GetString_m19162 (UTF7Encoding_t4760 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;

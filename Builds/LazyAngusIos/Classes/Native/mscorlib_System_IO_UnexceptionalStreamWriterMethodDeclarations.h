@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.UnexceptionalStreamWriter
-struct UnexceptionalStreamWriter_t4505;
+struct UnexceptionalStreamWriter_t4503;
 // System.IO.Stream
 struct Stream_t51;
 // System.Text.Encoding
-struct Encoding_t739;
+struct Encoding_t737;
 // System.Char[]
-struct CharU5BU5D_t697;
+struct CharU5BU5D_t695;
 // System.String
 struct String_t;
 
 // System.Void System.IO.UnexceptionalStreamWriter::.ctor(System.IO.Stream,System.Text.Encoding)
-extern "C" void UnexceptionalStreamWriter__ctor_m17626 (UnexceptionalStreamWriter_t4505 * __this, Stream_t51 * ___stream, Encoding_t739 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnexceptionalStreamWriter__ctor_m17615 (UnexceptionalStreamWriter_t4503 * __this, Stream_t51 * ___stream, Encoding_t737 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.UnexceptionalStreamWriter::Flush()
-extern "C" void UnexceptionalStreamWriter_Flush_m17627 (UnexceptionalStreamWriter_t4505 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnexceptionalStreamWriter_Flush_m17616 (UnexceptionalStreamWriter_t4503 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.UnexceptionalStreamWriter::Write(System.Char[],System.Int32,System.Int32)
-extern "C" void UnexceptionalStreamWriter_Write_m17628 (UnexceptionalStreamWriter_t4505 * __this, CharU5BU5D_t697* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnexceptionalStreamWriter_Write_m17617 (UnexceptionalStreamWriter_t4503 * __this, CharU5BU5D_t695* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.UnexceptionalStreamWriter::Write(System.Char)
-extern "C" void UnexceptionalStreamWriter_Write_m17629 (UnexceptionalStreamWriter_t4505 * __this, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnexceptionalStreamWriter_Write_m17618 (UnexceptionalStreamWriter_t4503 * __this, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.UnexceptionalStreamWriter::Write(System.Char[])
-extern "C" void UnexceptionalStreamWriter_Write_m17630 (UnexceptionalStreamWriter_t4505 * __this, CharU5BU5D_t697* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnexceptionalStreamWriter_Write_m17619 (UnexceptionalStreamWriter_t4503 * __this, CharU5BU5D_t695* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.UnexceptionalStreamWriter::Write(System.String)
-extern "C" void UnexceptionalStreamWriter_Write_m17631 (UnexceptionalStreamWriter_t4505 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnexceptionalStreamWriter_Write_m17620 (UnexceptionalStreamWriter_t4503 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

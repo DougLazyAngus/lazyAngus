@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Input
-struct  Input_t707  : public Object_t
+struct  Input_t705  : public Object_t
 {
 };

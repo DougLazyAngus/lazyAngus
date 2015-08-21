@@ -1,0 +1,654 @@
+grep: .: Is a directory
+grep: ./Assets: Is a directory
+grep: ./Assets/AssetStoreFiles: Is a directory
+grep: ./Assets/Editor: Is a directory
+grep: ./Assets/Examples: Is a directory
+grep: ./Assets/Examples/Scripts: Is a directory
+grep: ./Assets/Examples/Textures: Is a directory
+grep: ./Assets/Extensions: Is a directory
+grep: ./Assets/Extensions/AllDocumentation: Is a directory
+grep: ./Assets/Extensions/AndroidManifestManager: Is a directory
+grep: ./Assets/Extensions/AndroidManifestManager/Models: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Documentation: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Events: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Events/Core: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Events/Core/Events: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Events/Data: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Events/interfaces: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Events/Templates: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Example: Is a directory
+grep: ./Assets/Extensions/FlashLikeEvents/Example/Scripts: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Addons: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Addons/Visual: No such file or directory
+grep: Studio: No such file or directory
+grep: Project.zip: No such file or directory
+grep: ./Assets/Extensions/GoogleMobileAd/Addons/Visual: No such file or directory
+grep: Studio: No such file or directory
+grep: Project.zip.meta: No such file or directory
+grep: ./Assets/Extensions/GoogleMobileAd/Documentation: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Example: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Example/Art: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Example/Scenes: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Example/Scenes/Playmaker: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Example/Scripts: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Resources: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Scripts: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Scripts/Core: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Scripts/Editor: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Scripts/IOS: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Scripts/Templates: Is a directory
+grep: ./Assets/Extensions/GoogleMobileAd/Scripts/WP8: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Ad: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Core: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Core/APIBridge: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Eclipse: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Editor: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Enum: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Enum/AndroidBase: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Enum/GoogleBase: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Enum/GoogleMobileAd: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Enum/PlayService: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Enum/PlayService/Quests: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Enum/PlayService/TBM: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Events: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Interfaces: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Models: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Models/Quests: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Models/Results: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Models/Results/Invitations: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Models/Results/SavedGames: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Models/Results/TBM: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Models/SavedGames: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Models/TBM: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/PUtil: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Resources: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Social: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Social/Facebook: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Social/Facebook/Enum: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Social/Facebook/Manage: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Social/Facebook/Models: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Social/Facebook/Tasks: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Social/Instagram: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Social/Instagram/Enum: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Social/Instagram/Manage: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Social/Twitter: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Social/Twitter/Manage: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Social/Twitter/Models: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Social/Twitter/Tasks: Is a directory
+grep: ./Assets/Extensions/GooglePlayCommon/Templates: Is a directory
+grep: ./Assets/Extensions/IOSDeploy: Is a directory
+grep: ./Assets/Extensions/IOSDeploy/Documentation: Is a directory
+grep: ./Assets/Extensions/IOSDeploy/Resources: Is a directory
+grep: ./Assets/Extensions/IOSDeploy/Scripts: Is a directory
+grep: ./Assets/Extensions/IOSDeploy/Scripts/Core: Is a directory
+grep: ./Assets/Extensions/IOSDeploy/Scripts/Editor: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Addons: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Documentation: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Example: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Example/Scenes: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Example/Scenes/PlayMaker: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Example/Scripts: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Example/Textures: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Example/Textures/Mobile: No such file or directory
+grep: Social_icon.png: No such file or directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Example/Textures/Mobile: No such file or directory
+grep: Social_icon.png.meta: No such file or directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Scripts: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Scripts/Android: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Scripts/Android/NativeSharing: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Scripts/Core: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Scripts/Editor: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Scripts/IOS: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Scripts/IOS/Instagram: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Scripts/IOS/NativeSharing: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Scripts/IOS/Twitter: Is a directory
+grep: ./Assets/Extensions/MobileSocialPlugin/Scripts/Tasks: Is a directory
+grep: ./Assets/Extensions/StansAssetsCommon: Is a directory
+grep: ./Assets/Extensions/StansAssetsCommon/Editor: Is a directory
+grep: ./Assets/Extensions/StansAssetsCommon/OneSignal: Is a directory
+grep: ./Assets/Extensions/StansAssetsCommon/OneSignal/Example: Is a directory
+grep: ./Assets/Extensions/StansAssetsPreviewUI: Is a directory
+grep: ./Assets/Extensions/StansAssetsPreviewUI/Art: Is a directory
+grep: ./Assets/Extensions/StansAssetsPreviewUI/Art/Fonts: Is a directory
+grep: ./Assets/Extensions/StansAssetsPreviewUI/Art/Iocns: Is a directory
+grep: ./Assets/Extensions/StansAssetsPreviewUI/Art/Iocns/Materials: Is a directory
+grep: ./Assets/Extensions/StansAssetsPreviewUI/Art/Iocns/Textures: Is a directory
+grep: ./Assets/Extensions/StansAssetsPreviewUI/Art/Materials: Is a directory
+grep: ./Assets/Extensions/StansAssetsPreviewUI/Art/Sound: Is a directory
+grep: ./Assets/Extensions/StansAssetsPreviewUI/Art/Textures: Is a directory
+grep: ./Assets/Extensions/StansAssetsPreviewUI/Prefabs: Is a directory
+grep: ./Assets/Extensions/StansAssetsPreviewUI/Scripts: Is a directory
+grep: ./Assets/Extensions/StansAssetsPreviewUI/Scripts/SA_UI_Scripts: Is a directory
+grep: ./Assets/Extensions/StansAssetsPreviewUI/Scripts/ScreenPlacementExtension: Is a directory
+grep: ./Assets/Facebook: Is a directory
+grep: ./Assets/Facebook/Editor: Is a directory
+grep: ./Assets/Facebook/Editor/android: Is a directory
+grep: ./Assets/Facebook/Editor/android/android-libs: Is a directory
+grep: ./Assets/Facebook/Editor/iOS: Is a directory
+grep: ./Assets/Facebook/Editor/iOS/FacebookSDK: Is a directory
+grep: ./Assets/Facebook/Editor/iOS/third_party: Is a directory
+grep: ./Assets/Facebook/Editor/iOS/third_party/XCodeEditor-for-Unity: Is a directory
+grep: ./Assets/Facebook/Resources: Is a directory
+grep: ./Assets/Facebook/Scripts: Is a directory
+grep: ./Assets/Facebook/Scripts/PlatformAndroid: Is a directory
+grep: ./Assets/Facebook/Scripts/PlatformCanvas: Is a directory
+grep: ./Assets/Facebook/Scripts/PlatformCanvas/Resources: Is a directory
+grep: ./Assets/Facebook/Scripts/PlatformEditor: Is a directory
+grep: ./Assets/Facebook/Scripts/PlatformIOS: Is a directory
+grep: ./Assets/Facebook/Scripts/Utils: Is a directory
+grep: ./Assets/Fonts: Is a directory
+grep: ./Assets/GameAnalytics: Is a directory
+grep: ./Assets/GameAnalytics/Editor: Is a directory
+grep: ./Assets/GameAnalytics/Plugins: Is a directory
+grep: ./Assets/GameAnalytics/Plugins/Playmaker: Is a directory
+grep: ./Assets/GameAnalytics/Plugins/Playmaker/Editor: Is a directory
+grep: ./Assets/GameAnalytics/Plugins/Playmaker/Examples: Is a directory
+grep: ./Assets/GameAnalytics/Plugins/Prefabs: Is a directory
+grep: ./Assets/GameAnalytics/Plugins/Scripts: Is a directory
+grep: ./Assets/Gizmos: Is a directory
+grep: ./Assets/Gizmos/GameAnalytics: Is a directory
+grep: ./Assets/Gizmos/GameAnalytics/Images: Is a directory
+grep: ./Assets/icons: Is a directory
+grep: ./Assets/Materials: Is a directory
+grep: ./Assets/Materials/Materials: Is a directory
+grep: ./Assets/Parse: Is a directory
+grep: ./Assets/plugins: Is a directory
+grep: ./Assets/plugins/Android: Is a directory
+grep: ./Assets/plugins/Android/AndroidManifest: No such file or directory
+grep: 1.xml: No such file or directory
+grep: ./Assets/plugins/Android/AndroidManifest: No such file or directory
+grep: 1.xml.meta: No such file or directory
+grep: ./Assets/plugins/Android/AndroidManifest: No such file or directory
+grep: 2.xml: No such file or directory
+grep: ./Assets/plugins/Android/AndroidManifest: No such file or directory
+grep: 2.xml.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook: Is a directory
+grep: ./Assets/plugins/Android/facebook/AndroidManifest: No such file or directory
+grep: 1.xml: No such file or directory
+grep: ./Assets/plugins/Android/facebook/AndroidManifest: No such file or directory
+grep: 1.xml.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/ant: No such file or directory
+grep: 1.properties: No such file or directory
+grep: ./Assets/plugins/Android/facebook/ant: No such file or directory
+grep: 1.properties.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/build: No such file or directory
+grep: 1.xml: No such file or directory
+grep: ./Assets/plugins/Android/facebook/build: No such file or directory
+grep: 1.xml.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc: Is a directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com: Is a directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook: Is a directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity: Is a directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FB: No such file or directory
+grep: 1.java: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FB: No such file or directory
+grep: 1.java.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBDialogUtils: No such file or directory
+grep: 1.java: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBDialogUtils: No such file or directory
+grep: 1.java.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBLogin: No such file or directory
+grep: 1.java: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBLogin: No such file or directory
+grep: 1.java.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBUnityDeepLinkingActivity: No such file or directory
+grep: 1.java: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBUnityDeepLinkingActivity: No such file or directory
+grep: 1.java.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBUnityDialogsActivity: No such file or directory
+grep: 1.java: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBUnityDialogsActivity: No such file or directory
+grep: 1.java.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBUnityLoginActivity: No such file or directory
+grep: 1.java: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBUnityLoginActivity: No such file or directory
+grep: 1.java.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBUnityPlayerActivity: No such file or directory
+grep: 1.java: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBUnityPlayerActivity: No such file or directory
+grep: 1.java.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBUnityPlayerNativeActivity: No such file or directory
+grep: 1.java: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/FBUnityPlayerNativeActivity: No such file or directory
+grep: 1.java.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/UnityCallable: No such file or directory
+grep: 1.java: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/UnityCallable: No such file or directory
+grep: 1.java.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/UnityMessage: No such file or directory
+grep: 1.java: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/UnityMessage: No such file or directory
+grep: 1.java.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/UnityParams: No such file or directory
+grep: 1.java: No such file or directory
+grep: ./Assets/plugins/Android/facebook/fbsrc/com/facebook/unity/UnityParams: No such file or directory
+grep: 1.java.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/libs: Is a directory
+grep: ./Assets/plugins/Android/facebook/proguard-project: No such file or directory
+grep: 1.txt: No such file or directory
+grep: ./Assets/plugins/Android/facebook/proguard-project: No such file or directory
+grep: 1.txt.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/project: No such file or directory
+grep: 1.properties: No such file or directory
+grep: ./Assets/plugins/Android/facebook/project: No such file or directory
+grep: 1.properties.meta: No such file or directory
+grep: ./Assets/plugins/Android/facebook/res: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/drawable: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/drawable-hdpi: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/drawable-ldpi: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/drawable-mdpi: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/drawable-xhdpi: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/drawable-xxhdpi: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/layout: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/values: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/values-es: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/values-hdpi: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/values-he: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/values-iw: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/values-ldpi: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/values-mdpi: Is a directory
+grep: ./Assets/plugins/Android/facebook/res/values-xhdpi: Is a directory
+grep: ./Assets/plugins/Android/libs: Is a directory
+grep: ./Assets/plugins/Android/libs/armeabi-v7a: Is a directory
+grep: ./Assets/plugins/Android/libs/x86: Is a directory
+grep: ./Assets/plugins/Android/res: Is a directory
+grep: ./Assets/plugins/Android/res/values: Is a directory
+grep: ./Assets/plugins/Android/res/xml: Is a directory
+grep: ./Assets/plugins/Editor: Is a directory
+grep: ./Assets/plugins/GoogleAnalyticsV4: Is a directory
+grep: ./Assets/plugins/GoogleAnalyticsV4/Attributes: Is a directory
+grep: ./Assets/plugins/GoogleAnalyticsV4/HitBuilders: Is a directory
+grep: ./Assets/plugins/iOS: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Headers: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Headers/Loading: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Headers/Loading/Formats: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Headers/Loading/Options: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Headers/Mediation: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Headers/Search: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Modules: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/A: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/A/Headers: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/A/Headers/Loading: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/A/Headers/Loading/Formats: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/A/Headers/Loading/Options: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/A/Headers/Mediation: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/A/Headers/Search: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/Current: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/Current/Headers: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/Current/Headers/Loading: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/Current/Headers/Loading/Formats: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/Current/Headers/Loading/Options: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/Current/Headers/Mediation: Is a directory
+grep: ./Assets/plugins/iOS/GoogleMobileAds.framework/Versions/Current/Headers/Search: Is a directory
+grep: ./Assets/plugins/StansAssets: Is a directory
+grep: ./Assets/plugins/StansAssets/Android: Is a directory
+grep: ./Assets/plugins/StansAssets/Android/app_licensing: Is a directory
+grep: ./Assets/plugins/StansAssets/Android/google_play: Is a directory
+grep: ./Assets/plugins/StansAssets/Android/libs: Is a directory
+grep: ./Assets/plugins/StansAssets/Android/res: Is a directory
+grep: ./Assets/plugins/StansAssets/Android/res/values: Is a directory
+grep: ./Assets/plugins/StansAssets/Android/res/xml: Is a directory
+grep: ./Assets/plugins/StansAssets/Android/social: Is a directory
+grep: ./Assets/plugins/StansAssets/IOS: Is a directory
+grep: ./Assets/plugins/StansAssets/Versions: Is a directory
+grep: ./Assets/plugins/WP8: Is a directory
+grep: ./Assets/Prefabs: Is a directory
+grep: ./Assets/Prefabs/Boosts: Is a directory
+grep: ./Assets/Prefabs/GUIElements: Is a directory
+grep: ./Assets/Prefabs/GUIElements/UX: No such file or directory
+grep: Background.prefab: No such file or directory
+grep: ./Assets/Prefabs/GUIElements/UX: No such file or directory
+grep: Background.prefab.meta: No such file or directory
+grep: ./Assets/Prefabs/GUIElements/Welcome: No such file or directory
+grep: Text.prefab: No such file or directory
+grep: ./Assets/Prefabs/GUIElements/Welcome: No such file or directory
+grep: Text.prefab.meta: No such file or directory
+grep: ./Assets/Prefabs/TextTypes: Is a directory
+grep: ./Assets/Resources: Is a directory
+grep: ./Assets/Resources/GameAnalytics: Is a directory
+grep: ./Assets/Resources/Materials: Is a directory
+grep: ./Assets/Resources/Music: Is a directory
+grep: ./Assets/Resources/Music/Fatty: No such file or directory
+grep: Cat!.mp3: No such file or directory
+grep: ./Assets/Resources/Music/Fatty: No such file or directory
+grep: Cat!.mp3.meta: No such file or directory
+grep: ./Assets/Resources/Music/Retro: No such file or directory
+grep: Action1.wav: No such file or directory
+grep: ./Assets/Resources/Music/Retro: No such file or directory
+grep: Action1.wav.meta: No such file or directory
+grep: ./Assets/Resources/Music/Tbone: No such file or directory
+grep: and: No such file or directory
+grep: friends.wav: No such file or directory
+grep: ./Assets/Resources/Music/Tbone: No such file or directory
+grep: and: No such file or directory
+grep: friends.wav.meta: No such file or directory
+grep: ./Assets/Resources/Sounds: Is a directory
+grep: ./Assets/Resources/Textures: Is a directory
+grep: ./Assets/Resources/Textures/BoostIntros: Is a directory
+grep: ./Assets/Resources/Textures/Boosts: Is a directory
+grep: ./Assets/Resources/Textures/Buttons: Is a directory
+grep: ./Assets/Resources/Textures/CatParts: Is a directory
+grep: ./Assets/Resources/Textures/CatParts/Materials: Is a directory
+grep: ./Assets/Resources/Textures/Dialogs: Is a directory
+grep: ./Assets/Resources/Textures/Dialogs/FBLogos: Is a directory
+grep: ./Assets/Resources/Textures/FlyingAnimations: Is a directory
+grep: ./Assets/Resources/Textures/Mice: Is a directory
+grep: ./Assets/Resources/Textures/Mice/Materials: Is a directory
+grep: ./Assets/Resources/Textures/MiceIntros: Is a directory
+grep: ./Assets/Resources/Textures/MiceWiggleIntros: Is a directory
+grep: ./Assets/Resources/Textures/Misc: Is a directory
+grep: ./Assets/Resources/Textures/MouseHole: Is a directory
+grep: ./Assets/Resources/Textures/MouseHole/Materials: Is a directory
+grep: ./Assets/Resources/Textures/NewCatParts: Is a directory
+grep: ./Assets/Resources/Textures/NewCatParts/Materials: Is a directory
+grep: ./Assets/Resources/Textures/NewCatParts/Tail: Is a directory
+grep: ./Assets/Resources/Textures/NewCatParts/Tail/Materials: Is a directory
+grep: ./Assets/Resources/Textures/NewMice: Is a directory
+grep: ./Assets/Resources/Textures/NewMice/Materials: Is a directory
+grep: ./Assets/Resources/Textures/NewMiceIntros: Is a directory
+grep: ./Assets/Resources/Textures/Timer: Is a directory
+grep: ./Assets/Resources/Textures/TwitterLogos: Is a directory
+grep: ./Assets/Scripts: Is a directory
+grep: ./lazyangus: Is a directory
+grep: ./lazyangusweb: Is a directory
+grep: ./Library: Is a directory
+grep: ./Library/metadata: Is a directory
+grep: ./Library/metadata/00: Is a directory
+grep: ./Library/metadata/01: Is a directory
+grep: ./Library/metadata/02: Is a directory
+grep: ./Library/metadata/03: Is a directory
+grep: ./Library/metadata/04: Is a directory
+grep: ./Library/metadata/05: Is a directory
+grep: ./Library/metadata/06: Is a directory
+grep: ./Library/metadata/07: Is a directory
+grep: ./Library/metadata/08: Is a directory
+grep: ./Library/metadata/09: Is a directory
+grep: ./Library/metadata/0a: Is a directory
+grep: ./Library/metadata/0b: Is a directory
+grep: ./Library/metadata/0c: Is a directory
+grep: ./Library/metadata/0d: Is a directory
+grep: ./Library/metadata/0e: Is a directory
+grep: ./Library/metadata/0f: Is a directory
+grep: ./Library/metadata/10: Is a directory
+grep: ./Library/metadata/11: Is a directory
+grep: ./Library/metadata/12: Is a directory
+grep: ./Library/metadata/13: Is a directory
+grep: ./Library/metadata/14: Is a directory
+grep: ./Library/metadata/15: Is a directory
+grep: ./Library/metadata/16: Is a directory
+grep: ./Library/metadata/17: Is a directory
+grep: ./Library/metadata/18: Is a directory
+grep: ./Library/metadata/19: Is a directory
+grep: ./Library/metadata/1a: Is a directory
+grep: ./Library/metadata/1b: Is a directory
+grep: ./Library/metadata/1c: Is a directory
+grep: ./Library/metadata/1d: Is a directory
+grep: ./Library/metadata/1e: Is a directory
+grep: ./Library/metadata/1f: Is a directory
+grep: ./Library/metadata/20: Is a directory
+grep: ./Library/metadata/21: Is a directory
+grep: ./Library/metadata/22: Is a directory
+grep: ./Library/metadata/23: Is a directory
+grep: ./Library/metadata/24: Is a directory
+grep: ./Library/metadata/25: Is a directory
+grep: ./Library/metadata/26: Is a directory
+grep: ./Library/metadata/27: Is a directory
+grep: ./Library/metadata/28: Is a directory
+grep: ./Library/metadata/29: Is a directory
+grep: ./Library/metadata/2a: Is a directory
+grep: ./Library/metadata/2b: Is a directory
+grep: ./Library/metadata/2c: Is a directory
+grep: ./Library/metadata/2d: Is a directory
+grep: ./Library/metadata/2e: Is a directory
+grep: ./Library/metadata/2f: Is a directory
+grep: ./Library/metadata/30: Is a directory
+grep: ./Library/metadata/31: Is a directory
+grep: ./Library/metadata/32: Is a directory
+grep: ./Library/metadata/33: Is a directory
+grep: ./Library/metadata/34: Is a directory
+grep: ./Library/metadata/35: Is a directory
+grep: ./Library/metadata/36: Is a directory
+grep: ./Library/metadata/37: Is a directory
+grep: ./Library/metadata/38: Is a directory
+grep: ./Library/metadata/39: Is a directory
+grep: ./Library/metadata/3a: Is a directory
+grep: ./Library/metadata/3b: Is a directory
+grep: ./Library/metadata/3c: Is a directory
+grep: ./Library/metadata/3d: Is a directory
+grep: ./Library/metadata/3e: Is a directory
+grep: ./Library/metadata/3f: Is a directory
+grep: ./Library/metadata/40: Is a directory
+grep: ./Library/metadata/41: Is a directory
+grep: ./Library/metadata/42: Is a directory
+grep: ./Library/metadata/43: Is a directory
+grep: ./Library/metadata/44: Is a directory
+grep: ./Library/metadata/45: Is a directory
+grep: ./Library/metadata/46: Is a directory
+grep: ./Library/metadata/47: Is a directory
+grep: ./Library/metadata/48: Is a directory
+grep: ./Library/metadata/49: Is a directory
+grep: ./Library/metadata/4a: Is a directory
+grep: ./Library/metadata/4b: Is a directory
+grep: ./Library/metadata/4c: Is a directory
+grep: ./Library/metadata/4d: Is a directory
+grep: ./Library/metadata/4e: Is a directory
+grep: ./Library/metadata/4f: Is a directory
+grep: ./Library/metadata/50: Is a directory
+grep: ./Library/metadata/51: Is a directory
+grep: ./Library/metadata/52: Is a directory
+grep: ./Library/metadata/53: Is a directory
+grep: ./Library/metadata/54: Is a directory
+grep: ./Library/metadata/55: Is a directory
+grep: ./Library/metadata/56: Is a directory
+grep: ./Library/metadata/57: Is a directory
+grep: ./Library/metadata/58: Is a directory
+grep: ./Library/metadata/59: Is a directory
+grep: ./Library/metadata/5a: Is a directory
+grep: ./Library/metadata/5b: Is a directory
+grep: ./Library/metadata/5c: Is a directory
+grep: ./Library/metadata/5d: Is a directory
+grep: ./Library/metadata/5e: Is a directory
+grep: ./Library/metadata/5f: Is a directory
+grep: ./Library/metadata/60: Is a directory
+grep: ./Library/metadata/61: Is a directory
+grep: ./Library/metadata/62: Is a directory
+grep: ./Library/metadata/63: Is a directory
+grep: ./Library/metadata/64: Is a directory
+grep: ./Library/metadata/65: Is a directory
+grep: ./Library/metadata/66: Is a directory
+grep: ./Library/metadata/67: Is a directory
+grep: ./Library/metadata/68: Is a directory
+grep: ./Library/metadata/69: Is a directory
+grep: ./Library/metadata/6a: Is a directory
+grep: ./Library/metadata/6b: Is a directory
+grep: ./Library/metadata/6c: Is a directory
+grep: ./Library/metadata/6d: Is a directory
+grep: ./Library/metadata/6e: Is a directory
+grep: ./Library/metadata/6f: Is a directory
+grep: ./Library/metadata/70: Is a directory
+grep: ./Library/metadata/71: Is a directory
+grep: ./Library/metadata/72: Is a directory
+grep: ./Library/metadata/73: Is a directory
+grep: ./Library/metadata/74: Is a directory
+grep: ./Library/metadata/75: Is a directory
+grep: ./Library/metadata/76: Is a directory
+grep: ./Library/metadata/77: Is a directory
+grep: ./Library/metadata/78: Is a directory
+grep: ./Library/metadata/79: Is a directory
+grep: ./Library/metadata/7a: Is a directory
+grep: ./Library/metadata/7b: Is a directory
+grep: ./Library/metadata/7c: Is a directory
+grep: ./Library/metadata/7d: Is a directory
+grep: ./Library/metadata/7e: Is a directory
+grep: ./Library/metadata/7f: Is a directory
+grep: ./Library/metadata/80: Is a directory
+grep: ./Library/metadata/81: Is a directory
+grep: ./Library/metadata/82: Is a directory
+grep: ./Library/metadata/83: Is a directory
+grep: ./Library/metadata/84: Is a directory
+grep: ./Library/metadata/85: Is a directory
+grep: ./Library/metadata/86: Is a directory
+grep: ./Library/metadata/87: Is a directory
+grep: ./Library/metadata/88: Is a directory
+grep: ./Library/metadata/89: Is a directory
+grep: ./Library/metadata/8a: Is a directory
+grep: ./Library/metadata/8b: Is a directory
+grep: ./Library/metadata/8c: Is a directory
+grep: ./Library/metadata/8d: Is a directory
+grep: ./Library/metadata/8e: Is a directory
+grep: ./Library/metadata/8f: Is a directory
+grep: ./Library/metadata/90: Is a directory
+grep: ./Library/metadata/91: Is a directory
+grep: ./Library/metadata/92: Is a directory
+grep: ./Library/metadata/93: Is a directory
+grep: ./Library/metadata/94: Is a directory
+grep: ./Library/metadata/95: Is a directory
+grep: ./Library/metadata/96: Is a directory
+grep: ./Library/metadata/97: Is a directory
+grep: ./Library/metadata/98: Is a directory
+grep: ./Library/metadata/99: Is a directory
+grep: ./Library/metadata/9a: Is a directory
+grep: ./Library/metadata/9b: Is a directory
+grep: ./Library/metadata/9c: Is a directory
+grep: ./Library/metadata/9d: Is a directory
+grep: ./Library/metadata/9e: Is a directory
+grep: ./Library/metadata/9f: Is a directory
+grep: ./Library/metadata/a0: Is a directory
+grep: ./Library/metadata/a1: Is a directory
+grep: ./Library/metadata/a2: Is a directory
+grep: ./Library/metadata/a3: Is a directory
+grep: ./Library/metadata/a4: Is a directory
+grep: ./Library/metadata/a5: Is a directory
+grep: ./Library/metadata/a6: Is a directory
+grep: ./Library/metadata/a7: Is a directory
+grep: ./Library/metadata/a8: Is a directory
+grep: ./Library/metadata/a9: Is a directory
+grep: ./Library/metadata/aa: Is a directory
+grep: ./Library/metadata/ab: Is a directory
+grep: ./Library/metadata/ac: Is a directory
+grep: ./Library/metadata/ad: Is a directory
+grep: ./Library/metadata/ae: Is a directory
+grep: ./Library/metadata/af: Is a directory
+grep: ./Library/metadata/b0: Is a directory
+grep: ./Library/metadata/b1: Is a directory
+grep: ./Library/metadata/b2: Is a directory
+grep: ./Library/metadata/b3: Is a directory
+grep: ./Library/metadata/b4: Is a directory
+grep: ./Library/metadata/b5: Is a directory
+grep: ./Library/metadata/b6: Is a directory
+grep: ./Library/metadata/b7: Is a directory
+grep: ./Library/metadata/b8: Is a directory
+grep: ./Library/metadata/b9: Is a directory
+grep: ./Library/metadata/ba: Is a directory
+grep: ./Library/metadata/bb: Is a directory
+grep: ./Library/metadata/bc: Is a directory
+grep: ./Library/metadata/bd: Is a directory
+grep: ./Library/metadata/be: Is a directory
+grep: ./Library/metadata/bf: Is a directory
+grep: ./Library/metadata/c0: Is a directory
+grep: ./Library/metadata/c1: Is a directory
+grep: ./Library/metadata/c2: Is a directory
+grep: ./Library/metadata/c3: Is a directory
+grep: ./Library/metadata/c4: Is a directory
+grep: ./Library/metadata/c5: Is a directory
+grep: ./Library/metadata/c6: Is a directory
+grep: ./Library/metadata/c7: Is a directory
+grep: ./Library/metadata/c8: Is a directory
+grep: ./Library/metadata/c9: Is a directory
+grep: ./Library/metadata/ca: Is a directory
+grep: ./Library/metadata/cb: Is a directory
+grep: ./Library/metadata/cc: Is a directory
+grep: ./Library/metadata/cd: Is a directory
+grep: ./Library/metadata/ce: Is a directory
+grep: ./Library/metadata/cf: Is a directory
+grep: ./Library/metadata/d0: Is a directory
+grep: ./Library/metadata/d1: Is a directory
+grep: ./Library/metadata/d2: Is a directory
+grep: ./Library/metadata/d3: Is a directory
+grep: ./Library/metadata/d4: Is a directory
+grep: ./Library/metadata/d5: Is a directory
+grep: ./Library/metadata/d6: Is a directory
+grep: ./Library/metadata/d7: Is a directory
+grep: ./Library/metadata/d8: Is a directory
+grep: ./Library/metadata/d9: Is a directory
+grep: ./Library/metadata/da: Is a directory
+grep: ./Library/metadata/db: Is a directory
+grep: ./Library/metadata/dc: Is a directory
+grep: ./Library/metadata/dd: Is a directory
+grep: ./Library/metadata/de: Is a directory
+grep: ./Library/metadata/df: Is a directory
+grep: ./Library/metadata/e0: Is a directory
+grep: ./Library/metadata/e1: Is a directory
+grep: ./Library/metadata/e2: Is a directory
+grep: ./Library/metadata/e3: Is a directory
+grep: ./Library/metadata/e4: Is a directory
+grep: ./Library/metadata/e5: Is a directory
+grep: ./Library/metadata/e6: Is a directory
+grep: ./Library/metadata/e7: Is a directory
+grep: ./Library/metadata/e8: Is a directory
+grep: ./Library/metadata/e9: Is a directory
+grep: ./Library/metadata/ea: Is a directory
+grep: ./Library/metadata/eb: Is a directory
+grep: ./Library/metadata/ec: Is a directory
+grep: ./Library/metadata/ed: Is a directory
+grep: ./Library/metadata/ee: Is a directory
+grep: ./Library/metadata/ef: Is a directory
+grep: ./Library/metadata/f0: Is a directory
+grep: ./Library/metadata/f1: Is a directory
+grep: ./Library/metadata/f2: Is a directory
+grep: ./Library/metadata/f3: Is a directory
+grep: ./Library/metadata/f4: Is a directory
+grep: ./Library/metadata/f5: Is a directory
+grep: ./Library/metadata/f6: Is a directory
+grep: ./Library/metadata/f7: Is a directory
+grep: ./Library/metadata/f8: Is a directory
+grep: ./Library/metadata/f9: Is a directory
+grep: ./Library/metadata/fa: Is a directory
+grep: ./Library/metadata/fb: Is a directory
+grep: ./Library/metadata/fc: Is a directory
+grep: ./Library/metadata/fd: Is a directory
+grep: ./Library/metadata/fe: Is a directory
+grep: ./Library/metadata/ff: Is a directory
+grep: ./Library/ScriptAssemblies: Is a directory
+grep: ./Library/ShaderCache: Is a directory
+grep: ./Library/ShaderCache/0: Is a directory
+grep: ./Library/ShaderCache/1: Is a directory
+grep: ./Library/ShaderCache/2: Is a directory
+grep: ./Library/ShaderCache/3: Is a directory
+grep: ./Library/ShaderCache/4: Is a directory
+grep: ./Library/ShaderCache/5: Is a directory
+grep: ./Library/ShaderCache/6: Is a directory
+grep: ./Library/ShaderCache/7: Is a directory
+grep: ./Library/ShaderCache/8: Is a directory
+grep: ./Library/ShaderCache/9: Is a directory
+grep: ./Library/ShaderCache/a: Is a directory
+grep: ./Library/ShaderCache/b: Is a directory
+grep: ./Library/ShaderCache/c: Is a directory
+grep: ./Library/ShaderCache/d: Is a directory
+grep: ./Library/ShaderCache/e: Is a directory
+grep: ./Library/ShaderCache/f: Is a directory
+grep: ./ProjectSettings: Is a directory
+grep: ./Temp: Is a directory
+grep: ./Temp/__BuildPlayer: No such file or directory
+grep: Backupscene: No such file or directory
+grep: ./Temp/il2cppOutput: Is a directory
+grep: ./Temp/il2cppOutput/il2cppOutput: Is a directory
+grep: ./Temp/il2cppOutput/il2cppOutput/Resources: Is a directory
+grep: ./Temp/ProcessJobs: Is a directory
+grep: ./Temp/StagingArea: Is a directory
+grep: ./Temp/StagingArea/Data: Is a directory
+grep: ./Temp/StagingArea/Data/Managed: Is a directory
+grep: ./Temp/StagingArea/Data/Managed/mono: Is a directory
+grep: ./Temp/StagingArea/Data/Managed/mono/2.0: Is a directory
+grep: ./Temp/StagingArea/Data/Managed/not-stripped: Is a directory
+grep: ./Temp/StagingArea/Data/Managed/Resources: Is a directory
+grep: ./Temp/StagingArea/Data/Resources: Is a directory
+grep: ./Temp/StagingArea/Data/unity: No such file or directory
+grep: default: No such file or directory
+grep: resources: No such file or directory

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Sockets.MulticastOption
-struct MulticastOption_t3989;
+struct MulticastOption_t3987;
 

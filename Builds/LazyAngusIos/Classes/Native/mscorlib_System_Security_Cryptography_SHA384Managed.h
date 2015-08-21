@@ -3,11 +3,11 @@
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.UInt64[]
-struct UInt64U5BU5D_t4710;
+struct UInt64U5BU5D_t4708;
 // System.Security.Cryptography.SHA384
 #include "mscorlib_System_Security_Cryptography_SHA384.h"
 // System.Security.Cryptography.SHA384Managed
-struct  SHA384Managed_t4711  : public SHA384_t4709
+struct  SHA384Managed_t4709  : public SHA384_t4707
 {
 	// System.Byte[] System.Security.Cryptography.SHA384Managed::xBuf
 	ByteU5BU5D_t66* ___xBuf_4;
@@ -34,7 +34,7 @@ struct  SHA384Managed_t4711  : public SHA384_t4709
 	// System.UInt64 System.Security.Cryptography.SHA384Managed::H8
 	uint64_t ___H8_15;
 	// System.UInt64[] System.Security.Cryptography.SHA384Managed::W
-	UInt64U5BU5D_t4710* ___W_16;
+	UInt64U5BU5D_t4708* ___W_16;
 	// System.Int32 System.Security.Cryptography.SHA384Managed::wOff
 	int32_t ___wOff_17;
 };

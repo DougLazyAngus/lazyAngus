@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<System.Linq.Expressions.Expression>
-struct InternalEnumerator_1_t6277;
+struct InternalEnumerator_1_t6281;
 // System.Object
 struct Object_t;
 // System.Linq.Expressions.Expression
-struct Expression_t1520;
+struct Expression_t1518;
 // System.Array
 struct Array_t;
 
 // System.Void System.Array/InternalEnumerator`1<System.Linq.Expressions.Expression>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m34647(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6277 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m21197_gshared)(__this, ___array, method)
+#define InternalEnumerator_1__ctor_m34738(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6281 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m21186_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<System.Linq.Expressions.Expression>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m34648(__this, method) (( void (*) (InternalEnumerator_1_t6277 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m21198_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m34739(__this, method) (( void (*) (InternalEnumerator_1_t6281 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m21187_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<System.Linq.Expressions.Expression>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m34649(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6277 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m21199_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m34740(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6281 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m21188_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<System.Linq.Expressions.Expression>::Dispose()
-#define InternalEnumerator_1_Dispose_m34650(__this, method) (( void (*) (InternalEnumerator_1_t6277 *, const MethodInfo*))InternalEnumerator_1_Dispose_m21200_gshared)(__this, method)
+#define InternalEnumerator_1_Dispose_m34741(__this, method) (( void (*) (InternalEnumerator_1_t6281 *, const MethodInfo*))InternalEnumerator_1_Dispose_m21189_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<System.Linq.Expressions.Expression>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m34651(__this, method) (( bool (*) (InternalEnumerator_1_t6277 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m21201_gshared)(__this, method)
+#define InternalEnumerator_1_MoveNext_m34742(__this, method) (( bool (*) (InternalEnumerator_1_t6281 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m21190_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.Linq.Expressions.Expression>::get_Current()
-#define InternalEnumerator_1_get_Current_m34652(__this, method) (( Expression_t1520 * (*) (InternalEnumerator_1_t6277 *, const MethodInfo*))InternalEnumerator_1_get_Current_m21202_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m34743(__this, method) (( Expression_t1518 * (*) (InternalEnumerator_1_t6281 *, const MethodInfo*))InternalEnumerator_1_get_Current_m21191_gshared)(__this, method)

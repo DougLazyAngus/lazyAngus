@@ -97,9 +97,6 @@ public class MouseMove : MonoBehaviour
 
 	void OnGamePhaseChanged ()
 	{
-		if (DebugConfig.instance.DebugFlagSet (6)) {
-			return;
-		}
 		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_PLAY && 
 		    GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.PENDING) {
 			Object.Destroy (gameObject);
@@ -418,8 +415,10 @@ public class MouseMove : MonoBehaviour
 		this.wiggleType = MouseConfig.MouseWiggleType.NONE;
 
 		int numSections = (int)MouseSinkController.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType;
-		// FIXME(dbanks)
-		numSections = 0;
+
+		if (DebugConfig.instance.DebugFlagSet (0)) {
+			numSections = 0;
+		}
 
 		float angleDistance = numSections * MouseSinkController.angleBetweenHoles + 45;
 
