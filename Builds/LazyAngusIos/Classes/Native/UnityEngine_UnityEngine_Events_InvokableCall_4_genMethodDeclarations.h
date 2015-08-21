@@ -14,11 +14,11 @@ struct MethodInfo_t;
 struct ObjectU5BU5D_t680;
 
 // System.Void UnityEngine.Events.InvokableCall`4<System.Object,System.Object,System.Object,System.Object>::.ctor(System.Object,System.Reflection.MethodInfo)
-extern "C" void InvokableCall_4__ctor_m62703_gshared (InvokableCall_4_t8561 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method);
-#define InvokableCall_4__ctor_m62703(__this, ___target, ___theFunction, method) (( void (*) (InvokableCall_4_t8561 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_4__ctor_m62703_gshared)(__this, ___target, ___theFunction, method)
+extern "C" void InvokableCall_4__ctor_m62704_gshared (InvokableCall_4_t8561 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method);
+#define InvokableCall_4__ctor_m62704(__this, ___target, ___theFunction, method) (( void (*) (InvokableCall_4_t8561 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_4__ctor_m62704_gshared)(__this, ___target, ___theFunction, method)
 // System.Void UnityEngine.Events.InvokableCall`4<System.Object,System.Object,System.Object,System.Object>::Invoke(System.Object[])
-extern "C" void InvokableCall_4_Invoke_m62704_gshared (InvokableCall_4_t8561 * __this, ObjectU5BU5D_t680* ___args, const MethodInfo* method);
-#define InvokableCall_4_Invoke_m62704(__this, ___args, method) (( void (*) (InvokableCall_4_t8561 *, ObjectU5BU5D_t680*, const MethodInfo*))InvokableCall_4_Invoke_m62704_gshared)(__this, ___args, method)
+extern "C" void InvokableCall_4_Invoke_m62705_gshared (InvokableCall_4_t8561 * __this, ObjectU5BU5D_t680* ___args, const MethodInfo* method);
+#define InvokableCall_4_Invoke_m62705(__this, ___args, method) (( void (*) (InvokableCall_4_t8561 *, ObjectU5BU5D_t680*, const MethodInfo*))InvokableCall_4_Invoke_m62705_gshared)(__this, ___args, method)
 // System.Boolean UnityEngine.Events.InvokableCall`4<System.Object,System.Object,System.Object,System.Object>::Find(System.Object,System.Reflection.MethodInfo)
-extern "C" bool InvokableCall_4_Find_m62705_gshared (InvokableCall_4_t8561 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method);
-#define InvokableCall_4_Find_m62705(__this, ___targetObj, ___method, method) (( bool (*) (InvokableCall_4_t8561 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_4_Find_m62705_gshared)(__this, ___targetObj, ___method, method)
+extern "C" bool InvokableCall_4_Find_m62706_gshared (InvokableCall_4_t8561 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method);
+#define InvokableCall_4_Find_m62706(__this, ___targetObj, ___method, method) (( bool (*) (InvokableCall_4_t8561 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_4_Find_m62706_gshared)(__this, ___targetObj, ___method, method)

@@ -5881,7 +5881,7 @@ static const Il2CppGenericParameter* SA_Singleton_1_t804_Il2CppGenericParameters
 };
 extern const Il2CppGenericContainer SA_Singleton_1_t804_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&SA_Singleton_1_t804_il2cpp_TypeInfo, 1, 0, SA_Singleton_1_t804_Il2CppGenericParametersArray };
 // System.Void SA_Singleton`1::.ctor()
-extern const MethodInfo SA_Singleton_1__ctor_m4432_MethodInfo = 
+extern const MethodInfo SA_Singleton_1__ctor_m4433_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -5903,7 +5903,7 @@ extern const MethodInfo SA_Singleton_1__ctor_m4432_MethodInfo =
 
 };
 // System.Void SA_Singleton`1::.cctor()
-extern const MethodInfo SA_Singleton_1__cctor_m4433_MethodInfo = 
+extern const MethodInfo SA_Singleton_1__cctor_m4434_MethodInfo = 
 {
 	".cctor"/* name */
 	, NULL/* method */
@@ -5926,7 +5926,7 @@ extern const MethodInfo SA_Singleton_1__cctor_m4433_MethodInfo =
 };
 extern const Il2CppType SA_Singleton_1_t804_gp_0_0_0_0;
 // T SA_Singleton`1::get_instance()
-extern const MethodInfo SA_Singleton_1_get_instance_m4434_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_get_instance_m4435_MethodInfo = 
 {
 	"get_instance"/* name */
 	, NULL/* method */
@@ -5948,7 +5948,7 @@ extern const MethodInfo SA_Singleton_1_get_instance_m4434_MethodInfo =
 
 };
 // System.Boolean SA_Singleton`1::get_HasInstance()
-extern const MethodInfo SA_Singleton_1_get_HasInstance_m4435_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_get_HasInstance_m4436_MethodInfo = 
 {
 	"get_HasInstance"/* name */
 	, NULL/* method */
@@ -5970,7 +5970,7 @@ extern const MethodInfo SA_Singleton_1_get_HasInstance_m4435_MethodInfo =
 
 };
 // System.Boolean SA_Singleton`1::get_IsDestroyed()
-extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m4436_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m4437_MethodInfo = 
 {
 	"get_IsDestroyed"/* name */
 	, NULL/* method */
@@ -5992,7 +5992,7 @@ extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m4436_MethodInfo =
 
 };
 // System.Void SA_Singleton`1::OnDestroy()
-extern const MethodInfo SA_Singleton_1_OnDestroy_m4437_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_OnDestroy_m4438_MethodInfo = 
 {
 	"OnDestroy"/* name */
 	, NULL/* method */
@@ -6014,7 +6014,7 @@ extern const MethodInfo SA_Singleton_1_OnDestroy_m4437_MethodInfo =
 
 };
 // System.Void SA_Singleton`1::OnApplicationQuit()
-extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m4438_MethodInfo = 
+extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m4439_MethodInfo = 
 {
 	"OnApplicationQuit"/* name */
 	, NULL/* method */
@@ -6037,43 +6037,43 @@ extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m4438_MethodInfo =
 };
 static const MethodInfo* SA_Singleton_1_t804_MethodInfos[] =
 {
-	&SA_Singleton_1__ctor_m4432_MethodInfo,
-	&SA_Singleton_1__cctor_m4433_MethodInfo,
-	&SA_Singleton_1_get_instance_m4434_MethodInfo,
-	&SA_Singleton_1_get_HasInstance_m4435_MethodInfo,
-	&SA_Singleton_1_get_IsDestroyed_m4436_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4437_MethodInfo,
-	&SA_Singleton_1_OnApplicationQuit_m4438_MethodInfo,
+	&SA_Singleton_1__ctor_m4433_MethodInfo,
+	&SA_Singleton_1__cctor_m4434_MethodInfo,
+	&SA_Singleton_1_get_instance_m4435_MethodInfo,
+	&SA_Singleton_1_get_HasInstance_m4436_MethodInfo,
+	&SA_Singleton_1_get_IsDestroyed_m4437_MethodInfo,
+	&SA_Singleton_1_OnDestroy_m4438_MethodInfo,
+	&SA_Singleton_1_OnApplicationQuit_m4439_MethodInfo,
 	NULL
 };
-extern const MethodInfo SA_Singleton_1_get_instance_m4434_MethodInfo;
+extern const MethodInfo SA_Singleton_1_get_instance_m4435_MethodInfo;
 static const PropertyInfo SA_Singleton_1_t804____instance_PropertyInfo = 
 {
 	&SA_Singleton_1_t804_il2cpp_TypeInfo/* parent */
 	, "instance"/* name */
-	, &SA_Singleton_1_get_instance_m4434_MethodInfo/* get */
+	, &SA_Singleton_1_get_instance_m4435_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SA_Singleton_1_get_HasInstance_m4435_MethodInfo;
+extern const MethodInfo SA_Singleton_1_get_HasInstance_m4436_MethodInfo;
 static const PropertyInfo SA_Singleton_1_t804____HasInstance_PropertyInfo = 
 {
 	&SA_Singleton_1_t804_il2cpp_TypeInfo/* parent */
 	, "HasInstance"/* name */
-	, &SA_Singleton_1_get_HasInstance_m4435_MethodInfo/* get */
+	, &SA_Singleton_1_get_HasInstance_m4436_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m4436_MethodInfo;
+extern const MethodInfo SA_Singleton_1_get_IsDestroyed_m4437_MethodInfo;
 static const PropertyInfo SA_Singleton_1_t804____IsDestroyed_PropertyInfo = 
 {
 	&SA_Singleton_1_t804_il2cpp_TypeInfo/* parent */
 	, "IsDestroyed"/* name */
-	, &SA_Singleton_1_get_IsDestroyed_m4436_MethodInfo/* get */
+	, &SA_Singleton_1_get_IsDestroyed_m4437_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -6103,8 +6103,8 @@ extern const MethodInfo EventDispatcher_dispatch_m646_MethodInfo;
 extern const MethodInfo EventDispatcher_dispatch_m643_MethodInfo;
 extern const MethodInfo EventDispatcher_dispatch_m644_MethodInfo;
 extern const MethodInfo EventDispatcher_clearEvents_m648_MethodInfo;
-extern const MethodInfo SA_Singleton_1_OnDestroy_m4437_MethodInfo;
-extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m4438_MethodInfo;
+extern const MethodInfo SA_Singleton_1_OnDestroy_m4438_MethodInfo;
+extern const MethodInfo SA_Singleton_1_OnApplicationQuit_m4439_MethodInfo;
 static const Il2CppMethodReference SA_Singleton_1_t804_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
@@ -6128,8 +6128,8 @@ static const Il2CppMethodReference SA_Singleton_1_t804_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4437_MethodInfo,
-	&SA_Singleton_1_OnApplicationQuit_m4438_MethodInfo,
+	&SA_Singleton_1_OnDestroy_m4438_MethodInfo,
+	&SA_Singleton_1_OnApplicationQuit_m4439_MethodInfo,
 };
 static bool SA_Singleton_1_t804_VTableIsGenericMethod[] =
 {
@@ -6163,15 +6163,15 @@ static Il2CppInterfaceOffsetPair SA_Singleton_1_t804_InterfacesOffsets[] =
 	{ &IDispatcher_t132_0_0_0, 4},
 };
 extern const Il2CppType SA_Singleton_1_t815_0_0_0;
-extern const Il2CppGenericMethod GameObject_AddComponent_TisT_t814_m4496_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_get_IsDestroyed_m4497_GenericMethod;
+extern const Il2CppGenericMethod GameObject_AddComponent_TisT_t814_m4497_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_get_IsDestroyed_m4498_GenericMethod;
 static Il2CppRGCTXDefinition SA_Singleton_1_t804_RGCTXData[6] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&SA_Singleton_1_t815_0_0_0 }/* Static */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&SA_Singleton_1_t804_gp_0_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&SA_Singleton_1_t804_gp_0_0_0_0 }/* Type */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_AddComponent_TisT_t814_m4496_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &SA_Singleton_1_get_IsDestroyed_m4497_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_AddComponent_TisT_t814_m4497_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &SA_Singleton_1_get_IsDestroyed_m4498_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
@@ -9723,8 +9723,8 @@ static const PropertyInfo* SPFacebook_t282_PropertyInfos[] =
 	&SPFacebook_t282____AppRequests_PropertyInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4498_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4499_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4499_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4500_GenericMethod;
 static const Il2CppMethodReference SPFacebook_t282_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
@@ -9748,8 +9748,8 @@ static const Il2CppMethodReference SPFacebook_t282_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4498_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4499_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4499_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4500_GenericMethod,
 };
 static bool SPFacebook_t282_VTableIsGenericMethod[] =
 {
@@ -14696,8 +14696,8 @@ static const MethodInfo* AndroidInstagramManager_t306_MethodInfos[] =
 	&AndroidInstagramManager_U3COnPostingCompleteActionU3Em__39_m1636_MethodInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4500_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4501_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4501_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4502_GenericMethod;
 static const Il2CppMethodReference AndroidInstagramManager_t306_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
@@ -14721,8 +14721,8 @@ static const Il2CppMethodReference AndroidInstagramManager_t306_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4500_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4501_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4501_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4502_GenericMethod,
 };
 static bool AndroidInstagramManager_t306_VTableIsGenericMethod[] =
 {
@@ -15641,8 +15641,8 @@ static const PropertyInfo* AndroidTwitterManager_t310_PropertyInfos[] =
 	&AndroidTwitterManager_t310____AccessTokenSecret_PropertyInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4502_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4503_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4503_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4504_GenericMethod;
 extern const MethodInfo AndroidTwitterManager_Init_m1639_MethodInfo;
 extern const MethodInfo AndroidTwitterManager_Init_m1640_MethodInfo;
 extern const MethodInfo AndroidTwitterManager_AuthenticateUser_m1641_MethodInfo;
@@ -15675,8 +15675,8 @@ static const Il2CppMethodReference AndroidTwitterManager_t310_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4502_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4503_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4503_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4504_GenericMethod,
 	&AndroidTwitterManager_Init_m1639_MethodInfo,
 	&AndroidTwitterManager_Init_m1640_MethodInfo,
 	&AndroidTwitterManager_AuthenticateUser_m1641_MethodInfo,
@@ -16254,8 +16254,8 @@ static const Il2CppType* TwitterApplicationOnlyToken_t313_il2cpp_TypeInfo__neste
 {
 	&U3CLoadU3Ec__Iterator3_t314_0_0_0,
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4504_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4505_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4505_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4506_GenericMethod;
 static const Il2CppMethodReference TwitterApplicationOnlyToken_t313_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
@@ -16279,8 +16279,8 @@ static const Il2CppMethodReference TwitterApplicationOnlyToken_t313_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4504_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4505_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4505_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4506_GenericMethod,
 };
 static bool TwitterApplicationOnlyToken_t313_VTableIsGenericMethod[] =
 {
@@ -19004,20 +19004,20 @@ extern const MethodInfo TW_APIRequest_Request_m1731_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TW_APIRequest_t327_TW_APIRequest_OnResult_m4439_ParameterInfos[] = 
+static const ParameterInfo TW_APIRequest_t327_TW_APIRequest_OnResult_m4440_ParameterInfos[] = 
 {
 	{"data", 0, 134218802, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void TW_APIRequest::OnResult(System.String)
-extern const MethodInfo TW_APIRequest_OnResult_m4439_MethodInfo = 
+extern const MethodInfo TW_APIRequest_OnResult_m4440_MethodInfo = 
 {
 	"OnResult"/* name */
 	, NULL/* method */
 	, &TW_APIRequest_t327_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, TW_APIRequest_t327_TW_APIRequest_OnResult_m4439_ParameterInfos/* parameters */
+	, TW_APIRequest_t327_TW_APIRequest_OnResult_m4440_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1476/* flags */
 	, 0/* iflags */
@@ -19062,7 +19062,7 @@ static const MethodInfo* TW_APIRequest_t327_MethodInfos[] =
 	&TW_APIRequest_AddParam_m1729_MethodInfo,
 	&TW_APIRequest_SetUrl_m1730_MethodInfo,
 	&TW_APIRequest_Request_m1731_MethodInfo,
-	&TW_APIRequest_OnResult_m4439_MethodInfo,
+	&TW_APIRequest_OnResult_m4440_MethodInfo,
 	&TW_APIRequest_OnTokenLoaded_m1732_MethodInfo,
 	NULL
 };
@@ -26930,8 +26930,8 @@ static const MethodInfo* SPInstagram_t361_MethodInfos[] =
 	&SPInstagram_U3COnPostingCompleteActionU3Em__3F_m1934_MethodInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4506_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4507_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4507_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4508_GenericMethod;
 static const Il2CppMethodReference SPInstagram_t361_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
@@ -26955,8 +26955,8 @@ static const Il2CppMethodReference SPInstagram_t361_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4506_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4507_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4507_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4508_GenericMethod,
 };
 static bool SPInstagram_t361_VTableIsGenericMethod[] =
 {
@@ -29035,8 +29035,8 @@ static const MethodInfo* IOSInstagramManager_t365_MethodInfos[] =
 	&IOSInstagramManager_OnPostFailed_m1991_MethodInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4508_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4509_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4509_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4510_GenericMethod;
 static const Il2CppMethodReference IOSInstagramManager_t365_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
@@ -29060,8 +29060,8 @@ static const Il2CppMethodReference IOSInstagramManager_t365_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4508_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4509_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4509_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4510_GenericMethod,
 };
 static bool IOSInstagramManager_t365_VTableIsGenericMethod[] =
 {
@@ -30790,8 +30790,8 @@ static const PropertyInfo* IOSTwitterManager_t368_PropertyInfos[] =
 	&IOSTwitterManager_t368____userInfo_PropertyInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4510_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4511_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4511_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4512_GenericMethod;
 extern const MethodInfo IOSTwitterManager_Init_m2022_MethodInfo;
 extern const MethodInfo IOSTwitterManager_Init_m2021_MethodInfo;
 extern const MethodInfo IOSTwitterManager_AuthenticateUser_m2023_MethodInfo;
@@ -30824,8 +30824,8 @@ static const Il2CppMethodReference IOSTwitterManager_t368_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4510_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4511_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4511_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4512_GenericMethod,
 	&IOSTwitterManager_Init_m2022_MethodInfo,
 	&IOSTwitterManager_Init_m2021_MethodInfo,
 	&IOSTwitterManager_AuthenticateUser_m2023_MethodInfo,

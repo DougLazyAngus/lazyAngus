@@ -22,44 +22,44 @@ struct ObjectU5BU5D_t680;
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_82.h"
 
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C" void ValueCollection__ctor_m61709_gshared (ValueCollection_t8488 * __this, Dictionary_2_t8481 * ___dictionary, const MethodInfo* method);
-#define ValueCollection__ctor_m61709(__this, ___dictionary, method) (( void (*) (ValueCollection_t8488 *, Dictionary_2_t8481 *, const MethodInfo*))ValueCollection__ctor_m61709_gshared)(__this, ___dictionary, method)
+extern "C" void ValueCollection__ctor_m61710_gshared (ValueCollection_t8488 * __this, Dictionary_2_t8481 * ___dictionary, const MethodInfo* method);
+#define ValueCollection__ctor_m61710(__this, ___dictionary, method) (( void (*) (ValueCollection_t8488 *, Dictionary_2_t8481 *, const MethodInfo*))ValueCollection__ctor_m61710_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
-extern "C" void ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m61710_gshared (ValueCollection_t8488 * __this, Object_t * ___item, const MethodInfo* method);
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m61710(__this, ___item, method) (( void (*) (ValueCollection_t8488 *, Object_t *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m61710_gshared)(__this, ___item, method)
+extern "C" void ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m61711_gshared (ValueCollection_t8488 * __this, Object_t * ___item, const MethodInfo* method);
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m61711(__this, ___item, method) (( void (*) (ValueCollection_t8488 *, Object_t *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m61711_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::System.Collections.Generic.ICollection<TValue>.Clear()
-extern "C" void ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m61711_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m61711(__this, method) (( void (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m61711_gshared)(__this, method)
+extern "C" void ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m61712_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m61712(__this, method) (( void (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m61712_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
-extern "C" bool ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m61712_gshared (ValueCollection_t8488 * __this, Object_t * ___item, const MethodInfo* method);
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m61712(__this, ___item, method) (( bool (*) (ValueCollection_t8488 *, Object_t *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m61712_gshared)(__this, ___item, method)
+extern "C" bool ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m61713_gshared (ValueCollection_t8488 * __this, Object_t * ___item, const MethodInfo* method);
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m61713(__this, ___item, method) (( bool (*) (ValueCollection_t8488 *, Object_t *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m61713_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
-extern "C" bool ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m61713_gshared (ValueCollection_t8488 * __this, Object_t * ___item, const MethodInfo* method);
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m61713(__this, ___item, method) (( bool (*) (ValueCollection_t8488 *, Object_t *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m61713_gshared)(__this, ___item, method)
+extern "C" bool ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m61714_gshared (ValueCollection_t8488 * __this, Object_t * ___item, const MethodInfo* method);
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m61714(__this, ___item, method) (( bool (*) (ValueCollection_t8488 *, Object_t *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m61714_gshared)(__this, ___item, method)
 // System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
-extern "C" Object_t* ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m61714_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
-#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m61714(__this, method) (( Object_t* (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m61714_gshared)(__this, method)
+extern "C" Object_t* ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m61715_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
+#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m61715(__this, method) (( Object_t* (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m61715_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C" void ValueCollection_System_Collections_ICollection_CopyTo_m61715_gshared (ValueCollection_t8488 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
-#define ValueCollection_System_Collections_ICollection_CopyTo_m61715(__this, ___array, ___index, method) (( void (*) (ValueCollection_t8488 *, Array_t *, int32_t, const MethodInfo*))ValueCollection_System_Collections_ICollection_CopyTo_m61715_gshared)(__this, ___array, ___index, method)
+extern "C" void ValueCollection_System_Collections_ICollection_CopyTo_m61716_gshared (ValueCollection_t8488 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
+#define ValueCollection_System_Collections_ICollection_CopyTo_m61716(__this, ___array, ___index, method) (( void (*) (ValueCollection_t8488 *, Array_t *, int32_t, const MethodInfo*))ValueCollection_System_Collections_ICollection_CopyTo_m61716_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * ValueCollection_System_Collections_IEnumerable_GetEnumerator_m61716_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
-#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m61716(__this, method) (( Object_t * (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m61716_gshared)(__this, method)
+extern "C" Object_t * ValueCollection_System_Collections_IEnumerable_GetEnumerator_m61717_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
+#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m61717(__this, method) (( Object_t * (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m61717_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::System.Collections.Generic.ICollection<TValue>.get_IsReadOnly()
-extern "C" bool ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m61717_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m61717(__this, method) (( bool (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m61717_gshared)(__this, method)
+extern "C" bool ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m61718_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m61718(__this, method) (( bool (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m61718_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::System.Collections.ICollection.get_IsSynchronized()
-extern "C" bool ValueCollection_System_Collections_ICollection_get_IsSynchronized_m61718_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
-#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m61718(__this, method) (( bool (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_IsSynchronized_m61718_gshared)(__this, method)
+extern "C" bool ValueCollection_System_Collections_ICollection_get_IsSynchronized_m61719_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
+#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m61719(__this, method) (( bool (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_IsSynchronized_m61719_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::System.Collections.ICollection.get_SyncRoot()
-extern "C" Object_t * ValueCollection_System_Collections_ICollection_get_SyncRoot_m61719_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
-#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m61719(__this, method) (( Object_t * (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m61719_gshared)(__this, method)
+extern "C" Object_t * ValueCollection_System_Collections_ICollection_get_SyncRoot_m61720_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
+#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m61720(__this, method) (( Object_t * (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m61720_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::CopyTo(TValue[],System.Int32)
-extern "C" void ValueCollection_CopyTo_m61720_gshared (ValueCollection_t8488 * __this, ObjectU5BU5D_t680* ___array, int32_t ___index, const MethodInfo* method);
-#define ValueCollection_CopyTo_m61720(__this, ___array, ___index, method) (( void (*) (ValueCollection_t8488 *, ObjectU5BU5D_t680*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m61720_gshared)(__this, ___array, ___index, method)
+extern "C" void ValueCollection_CopyTo_m61721_gshared (ValueCollection_t8488 * __this, ObjectU5BU5D_t680* ___array, int32_t ___index, const MethodInfo* method);
+#define ValueCollection_CopyTo_m61721(__this, ___array, ___index, method) (( void (*) (ValueCollection_t8488 *, ObjectU5BU5D_t680*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m61721_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::GetEnumerator()
-extern "C" Enumerator_t8489  ValueCollection_GetEnumerator_m61721_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
-#define ValueCollection_GetEnumerator_m61721(__this, method) (( Enumerator_t8489  (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_GetEnumerator_m61721_gshared)(__this, method)
+extern "C" Enumerator_t8489  ValueCollection_GetEnumerator_m61722_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
+#define ValueCollection_GetEnumerator_m61722(__this, method) (( Enumerator_t8489  (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_GetEnumerator_m61722_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>::get_Count()
-extern "C" int32_t ValueCollection_get_Count_m61722_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
-#define ValueCollection_get_Count_m61722(__this, method) (( int32_t (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_get_Count_m61722_gshared)(__this, method)
+extern "C" int32_t ValueCollection_get_Count_m61723_gshared (ValueCollection_t8488 * __this, const MethodInfo* method);
+#define ValueCollection_get_Count_m61723(__this, method) (( int32_t (*) (ValueCollection_t8488 *, const MethodInfo*))ValueCollection_get_Count_m61723_gshared)(__this, method)

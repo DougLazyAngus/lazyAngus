@@ -8,4 +8,4 @@
 struct TailoringInfo_t4365;
 
 // System.Void Mono.Globalization.Unicode.TailoringInfo::.ctor(System.Int32,System.Int32,System.Int32,System.Boolean)
-extern "C" void TailoringInfo__ctor_m16297 (TailoringInfo_t4365 * __this, int32_t ___lcid, int32_t ___tailoringIndex, int32_t ___tailoringCount, bool ___frenchSort, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TailoringInfo__ctor_m16298 (TailoringInfo_t4365 * __this, int32_t ___lcid, int32_t ___tailoringIndex, int32_t ___tailoringCount, bool ___frenchSort, const MethodInfo* method) IL2CPP_METHOD_ATTR;

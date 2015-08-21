@@ -10,6 +10,6 @@ struct DllImportAttribute_t4343;
 struct String_t;
 
 // System.Void System.Runtime.InteropServices.DllImportAttribute::.ctor(System.String)
-extern "C" void DllImportAttribute__ctor_m16265 (DllImportAttribute_t4343 * __this, String_t* ___dllName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DllImportAttribute__ctor_m16266 (DllImportAttribute_t4343 * __this, String_t* ___dllName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.InteropServices.DllImportAttribute::get_Value()
-extern "C" String_t* DllImportAttribute_get_Value_m16266 (DllImportAttribute_t4343 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DllImportAttribute_get_Value_m16267 (DllImportAttribute_t4343 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

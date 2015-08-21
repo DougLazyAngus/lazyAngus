@@ -8,4 +8,4 @@
 struct ScrollViewState_t2707;
 
 // System.Void UnityEngine.GUI/ScrollViewState::.ctor()
-extern "C" void ScrollViewState__ctor_m8805 (ScrollViewState_t2707 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ScrollViewState__ctor_m8806 (ScrollViewState_t2707 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

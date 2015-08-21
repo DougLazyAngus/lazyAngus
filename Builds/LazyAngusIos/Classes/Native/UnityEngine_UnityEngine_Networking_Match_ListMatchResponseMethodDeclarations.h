@@ -14,12 +14,12 @@ struct String_t;
 struct Object_t;
 
 // System.Void UnityEngine.Networking.Match.ListMatchResponse::.ctor()
-extern "C" void ListMatchResponse__ctor_m9731 (ListMatchResponse_t2806 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ListMatchResponse__ctor_m9732 (ListMatchResponse_t2806 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc> UnityEngine.Networking.Match.ListMatchResponse::get_matches()
-extern "C" List_1_t2805 * ListMatchResponse_get_matches_m9732 (ListMatchResponse_t2806 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t2805 * ListMatchResponse_get_matches_m9733 (ListMatchResponse_t2806 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.ListMatchResponse::set_matches(System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>)
-extern "C" void ListMatchResponse_set_matches_m9733 (ListMatchResponse_t2806 * __this, List_1_t2805 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ListMatchResponse_set_matches_m9734 (ListMatchResponse_t2806 * __this, List_1_t2805 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Networking.Match.ListMatchResponse::ToString()
-extern "C" String_t* ListMatchResponse_ToString_m9734 (ListMatchResponse_t2806 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ListMatchResponse_ToString_m9735 (ListMatchResponse_t2806 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.ListMatchResponse::Parse(System.Object)
-extern "C" void ListMatchResponse_Parse_m9735 (ListMatchResponse_t2806 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ListMatchResponse_Parse_m9736 (ListMatchResponse_t2806 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

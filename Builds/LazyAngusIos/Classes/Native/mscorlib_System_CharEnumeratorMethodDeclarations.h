@@ -12,14 +12,14 @@ struct Object_t;
 struct String_t;
 
 // System.Void System.CharEnumerator::.ctor(System.String)
-extern "C" void CharEnumerator__ctor_m19370 (CharEnumerator_t4788 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharEnumerator__ctor_m19371 (CharEnumerator_t4788 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.CharEnumerator::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * CharEnumerator_System_Collections_IEnumerator_get_Current_m19371 (CharEnumerator_t4788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CharEnumerator_System_Collections_IEnumerator_get_Current_m19372 (CharEnumerator_t4788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.CharEnumerator::System.IDisposable.Dispose()
-extern "C" void CharEnumerator_System_IDisposable_Dispose_m19372 (CharEnumerator_t4788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharEnumerator_System_IDisposable_Dispose_m19373 (CharEnumerator_t4788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.CharEnumerator::get_Current()
-extern "C" uint16_t CharEnumerator_get_Current_m19373 (CharEnumerator_t4788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t CharEnumerator_get_Current_m19374 (CharEnumerator_t4788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.CharEnumerator::MoveNext()
-extern "C" bool CharEnumerator_MoveNext_m19374 (CharEnumerator_t4788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CharEnumerator_MoveNext_m19375 (CharEnumerator_t4788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.CharEnumerator::Reset()
-extern "C" void CharEnumerator_Reset_m19375 (CharEnumerator_t4788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharEnumerator_Reset_m19376 (CharEnumerator_t4788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

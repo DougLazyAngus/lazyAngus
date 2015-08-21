@@ -8,4 +8,4 @@
 struct WebConnectionData_t4069;
 
 // System.Void System.Net.WebConnectionData::.ctor()
-extern "C" void WebConnectionData__ctor_m14198 (WebConnectionData_t4069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebConnectionData__ctor_m14199 (WebConnectionData_t4069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -10,4 +10,4 @@ struct MouseTypeDesc_t604;
 struct String_t;
 
 // System.Void MouseTypeDesc::.ctor(System.String,System.String,System.Single,System.Single)
-extern "C" void MouseTypeDesc__ctor_m3223 (MouseTypeDesc_t604 * __this, String_t* ___oldImageName, String_t* ___newImageName, float ___speed, float ___scale, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseTypeDesc__ctor_m3222 (MouseTypeDesc_t604 * __this, String_t* ___oldImageName, String_t* ___newImageName, float ___speed, float ___scale, const MethodInfo* method) IL2CPP_METHOD_ATTR;

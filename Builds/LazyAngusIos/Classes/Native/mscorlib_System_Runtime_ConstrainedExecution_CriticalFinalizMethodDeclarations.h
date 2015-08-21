@@ -8,6 +8,6 @@
 struct CriticalFinalizerObject_t4564;
 
 // System.Void System.Runtime.ConstrainedExecution.CriticalFinalizerObject::.ctor()
-extern "C" void CriticalFinalizerObject__ctor_m18121 (CriticalFinalizerObject_t4564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CriticalFinalizerObject__ctor_m18122 (CriticalFinalizerObject_t4564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.ConstrainedExecution.CriticalFinalizerObject::Finalize()
-extern "C" void CriticalFinalizerObject_Finalize_m18122 (CriticalFinalizerObject_t4564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CriticalFinalizerObject_Finalize_m18123 (CriticalFinalizerObject_t4564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

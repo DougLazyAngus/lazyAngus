@@ -8,8 +8,8 @@
 struct GenericComparer_1_t6704;
 
 // System.Void System.Collections.Generic.GenericComparer`1<System.UInt64>::.ctor()
-extern "C" void GenericComparer_1__ctor_m40001_gshared (GenericComparer_1_t6704 * __this, const MethodInfo* method);
-#define GenericComparer_1__ctor_m40001(__this, method) (( void (*) (GenericComparer_1_t6704 *, const MethodInfo*))GenericComparer_1__ctor_m40001_gshared)(__this, method)
+extern "C" void GenericComparer_1__ctor_m40002_gshared (GenericComparer_1_t6704 * __this, const MethodInfo* method);
+#define GenericComparer_1__ctor_m40002(__this, method) (( void (*) (GenericComparer_1_t6704 *, const MethodInfo*))GenericComparer_1__ctor_m40002_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.GenericComparer`1<System.UInt64>::Compare(T,T)
-extern "C" int32_t GenericComparer_1_Compare_m40002_gshared (GenericComparer_1_t6704 * __this, uint64_t ___x, uint64_t ___y, const MethodInfo* method);
-#define GenericComparer_1_Compare_m40002(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t6704 *, uint64_t, uint64_t, const MethodInfo*))GenericComparer_1_Compare_m40002_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t GenericComparer_1_Compare_m40003_gshared (GenericComparer_1_t6704 * __this, uint64_t ___x, uint64_t ___y, const MethodInfo* method);
+#define GenericComparer_1_Compare_m40003(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t6704 *, uint64_t, uint64_t, const MethodInfo*))GenericComparer_1_Compare_m40003_gshared)(__this, ___x, ___y, method)

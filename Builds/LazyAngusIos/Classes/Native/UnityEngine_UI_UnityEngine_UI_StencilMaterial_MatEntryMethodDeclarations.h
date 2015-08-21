@@ -8,4 +8,4 @@
 struct MatEntry_t975;
 
 // System.Void UnityEngine.UI.StencilMaterial/MatEntry::.ctor()
-extern "C" void MatEntry__ctor_m5448 (MatEntry_t975 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MatEntry__ctor_m5449 (MatEntry_t975 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

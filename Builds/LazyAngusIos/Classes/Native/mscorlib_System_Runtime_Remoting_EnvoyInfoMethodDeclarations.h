@@ -10,6 +10,6 @@ struct EnvoyInfo_t4629;
 struct IMessageSink_t3091;
 
 // System.Void System.Runtime.Remoting.EnvoyInfo::.ctor(System.Runtime.Remoting.Messaging.IMessageSink)
-extern "C" void EnvoyInfo__ctor_m18364 (EnvoyInfo_t4629 * __this, Object_t * ___sinks, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EnvoyInfo__ctor_m18365 (EnvoyInfo_t4629 * __this, Object_t * ___sinks, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.EnvoyInfo::get_EnvoySinks()
-extern "C" Object_t * EnvoyInfo_get_EnvoySinks_m18365 (EnvoyInfo_t4629 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * EnvoyInfo_get_EnvoySinks_m18366 (EnvoyInfo_t4629 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

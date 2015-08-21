@@ -10,8 +10,8 @@ struct NonBacktrackingGroup_t4158;
 struct ICompiler_t4187;
 
 // System.Void System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::.ctor()
-extern "C" void NonBacktrackingGroup__ctor_m14875 (NonBacktrackingGroup_t4158 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NonBacktrackingGroup__ctor_m14876 (NonBacktrackingGroup_t4158 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void NonBacktrackingGroup_Compile_m14876 (NonBacktrackingGroup_t4158 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NonBacktrackingGroup_Compile_m14877 (NonBacktrackingGroup_t4158 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::IsComplex()
-extern "C" bool NonBacktrackingGroup_IsComplex_m14877 (NonBacktrackingGroup_t4158 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool NonBacktrackingGroup_IsComplex_m14878 (NonBacktrackingGroup_t4158 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

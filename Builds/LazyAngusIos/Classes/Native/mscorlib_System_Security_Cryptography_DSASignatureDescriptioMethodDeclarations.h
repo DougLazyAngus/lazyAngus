@@ -8,4 +8,4 @@
 struct DSASignatureDescription_t4714;
 
 // System.Void System.Security.Cryptography.DSASignatureDescription::.ctor()
-extern "C" void DSASignatureDescription__ctor_m18849 (DSASignatureDescription_t4714 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSASignatureDescription__ctor_m18850 (DSASignatureDescription_t4714 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

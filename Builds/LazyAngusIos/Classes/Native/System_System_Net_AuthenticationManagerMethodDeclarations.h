@@ -16,12 +16,12 @@ struct WebRequest_t3299;
 struct ICredentials_t3281;
 
 // System.Void System.Net.AuthenticationManager::.cctor()
-extern "C" void AuthenticationManager__cctor_m13640 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AuthenticationManager__cctor_m13641 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.AuthenticationManager::EnsureModules()
-extern "C" void AuthenticationManager_EnsureModules_m13641 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AuthenticationManager_EnsureModules_m13642 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Authorization System.Net.AuthenticationManager::Authenticate(System.String,System.Net.WebRequest,System.Net.ICredentials)
-extern "C" Authorization_t4010 * AuthenticationManager_Authenticate_m13642 (Object_t * __this /* static, unused */, String_t* ___challenge, WebRequest_t3299 * ___request, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Authorization_t4010 * AuthenticationManager_Authenticate_m13643 (Object_t * __this /* static, unused */, String_t* ___challenge, WebRequest_t3299 * ___request, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Authorization System.Net.AuthenticationManager::DoAuthenticate(System.String,System.Net.WebRequest,System.Net.ICredentials)
-extern "C" Authorization_t4010 * AuthenticationManager_DoAuthenticate_m13643 (Object_t * __this /* static, unused */, String_t* ___challenge, WebRequest_t3299 * ___request, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Authorization_t4010 * AuthenticationManager_DoAuthenticate_m13644 (Object_t * __this /* static, unused */, String_t* ___challenge, WebRequest_t3299 * ___request, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Authorization System.Net.AuthenticationManager::PreAuthenticate(System.Net.WebRequest,System.Net.ICredentials)
-extern "C" Authorization_t4010 * AuthenticationManager_PreAuthenticate_m13644 (Object_t * __this /* static, unused */, WebRequest_t3299 * ___request, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Authorization_t4010 * AuthenticationManager_PreAuthenticate_m13645 (Object_t * __this /* static, unused */, WebRequest_t3299 * ___request, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;

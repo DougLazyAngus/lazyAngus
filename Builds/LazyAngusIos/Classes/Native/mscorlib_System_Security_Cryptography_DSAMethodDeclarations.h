@@ -14,18 +14,18 @@ struct ByteU5BU5D_t66;
 #include "mscorlib_System_Security_Cryptography_DSAParameters.h"
 
 // System.Void System.Security.Cryptography.DSA::.ctor()
-extern "C" void DSA__ctor_m18605 (DSA_t3809 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSA__ctor_m18606 (DSA_t3809 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.DSA System.Security.Cryptography.DSA::Create()
-extern "C" DSA_t3809 * DSA_Create_m13137 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DSA_t3809 * DSA_Create_m13138 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.DSA System.Security.Cryptography.DSA::Create(System.String)
-extern "C" DSA_t3809 * DSA_Create_m18606 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DSA_t3809 * DSA_Create_m18607 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.DSA::CreateSignature(System.Byte[])
 // System.Security.Cryptography.DSAParameters System.Security.Cryptography.DSA::ExportParameters(System.Boolean)
 // System.Void System.Security.Cryptography.DSA::ZeroizePrivateKey(System.Security.Cryptography.DSAParameters)
-extern "C" void DSA_ZeroizePrivateKey_m18607 (DSA_t3809 * __this, DSAParameters_t3910  ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSA_ZeroizePrivateKey_m18608 (DSA_t3809 * __this, DSAParameters_t3910  ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSA::FromXmlString(System.String)
-extern "C" void DSA_FromXmlString_m18608 (DSA_t3809 * __this, String_t* ___xmlString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSA_FromXmlString_m18609 (DSA_t3809 * __this, String_t* ___xmlString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSA::ImportParameters(System.Security.Cryptography.DSAParameters)
 // System.String System.Security.Cryptography.DSA::ToXmlString(System.Boolean)
-extern "C" String_t* DSA_ToXmlString_m18609 (DSA_t3809 * __this, bool ___includePrivateParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DSA_ToXmlString_m18610 (DSA_t3809 * __this, bool ___includePrivateParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.DSA::VerifySignature(System.Byte[],System.Byte[])

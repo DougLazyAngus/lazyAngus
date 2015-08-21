@@ -8,4 +8,4 @@
 struct TriggerEvent_t847;
 
 // System.Void UnityEngine.EventSystems.EventTrigger/TriggerEvent::.ctor()
-extern "C" void TriggerEvent__ctor_m4604 (TriggerEvent_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TriggerEvent__ctor_m4605 (TriggerEvent_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

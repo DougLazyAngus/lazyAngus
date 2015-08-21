@@ -10,8 +10,8 @@ struct Rijndael_t3931;
 struct String_t;
 
 // System.Void System.Security.Cryptography.Rijndael::.ctor()
-extern "C" void Rijndael__ctor_m18759 (Rijndael_t3931 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rijndael__ctor_m18760 (Rijndael_t3931 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.Rijndael System.Security.Cryptography.Rijndael::Create()
-extern "C" Rijndael_t3931 * Rijndael_Create_m13175 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rijndael_t3931 * Rijndael_Create_m13176 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.Rijndael System.Security.Cryptography.Rijndael::Create(System.String)
-extern "C" Rijndael_t3931 * Rijndael_Create_m18760 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rijndael_t3931 * Rijndael_Create_m18761 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

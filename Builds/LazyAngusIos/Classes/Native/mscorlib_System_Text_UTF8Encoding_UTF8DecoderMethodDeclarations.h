@@ -14,6 +14,6 @@ struct ByteU5BU5D_t66;
 struct CharU5BU5D_t695;
 
 // System.Void System.Text.UTF8Encoding/UTF8Decoder::.ctor(System.Text.DecoderFallback)
-extern "C" void UTF8Decoder__ctor_m19163 (UTF8Decoder_t4761 * __this, DecoderFallback_t4740 * ___fallback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UTF8Decoder__ctor_m19164 (UTF8Decoder_t4761 * __this, DecoderFallback_t4740 * ___fallback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF8Encoding/UTF8Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern "C" int32_t UTF8Decoder_GetChars_m19164 (UTF8Decoder_t4761 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t695* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF8Decoder_GetChars_m19165 (UTF8Decoder_t4761 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t695* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;

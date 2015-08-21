@@ -18,16 +18,16 @@ struct DateTimeFormatInfo_t4466;
 #include "mscorlib_System_Nullable_1_gen_3.h"
 
 // System.Int32 System.DateTimeUtils::CountRepeat(System.String,System.Int32,System.Char)
-extern "C" int32_t DateTimeUtils_CountRepeat_m19689 (Object_t * __this /* static, unused */, String_t* ___fmt, int32_t ___p, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DateTimeUtils_CountRepeat_m19690 (Object_t * __this /* static, unused */, String_t* ___fmt, int32_t ___p, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTimeUtils::ZeroPad(System.Text.StringBuilder,System.Int32,System.Int32)
-extern "C" void DateTimeUtils_ZeroPad_m19690 (Object_t * __this /* static, unused */, StringBuilder_t261 * ___output, int32_t ___digits, int32_t ___len, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DateTimeUtils_ZeroPad_m19691 (Object_t * __this /* static, unused */, StringBuilder_t261 * ___output, int32_t ___digits, int32_t ___len, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.DateTimeUtils::ParseQuotedString(System.String,System.Int32,System.Text.StringBuilder)
-extern "C" int32_t DateTimeUtils_ParseQuotedString_m19691 (Object_t * __this /* static, unused */, String_t* ___fmt, int32_t ___pos, StringBuilder_t261 * ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DateTimeUtils_ParseQuotedString_m19692 (Object_t * __this /* static, unused */, String_t* ___fmt, int32_t ___pos, StringBuilder_t261 * ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeUtils::GetStandardPattern(System.Char,System.Globalization.DateTimeFormatInfo,System.Boolean&,System.Boolean&)
-extern "C" String_t* DateTimeUtils_GetStandardPattern_m19692 (Object_t * __this /* static, unused */, uint16_t ___format, DateTimeFormatInfo_t4466 * ___dfi, bool* ___useutc, bool* ___use_invariant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeUtils_GetStandardPattern_m19693 (Object_t * __this /* static, unused */, uint16_t ___format, DateTimeFormatInfo_t4466 * ___dfi, bool* ___useutc, bool* ___use_invariant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeUtils::GetStandardPattern(System.Char,System.Globalization.DateTimeFormatInfo,System.Boolean&,System.Boolean&,System.Boolean)
-extern "C" String_t* DateTimeUtils_GetStandardPattern_m19693 (Object_t * __this /* static, unused */, uint16_t ___format, DateTimeFormatInfo_t4466 * ___dfi, bool* ___useutc, bool* ___use_invariant, bool ___date_time_offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeUtils_GetStandardPattern_m19694 (Object_t * __this /* static, unused */, uint16_t ___format, DateTimeFormatInfo_t4466 * ___dfi, bool* ___useutc, bool* ___use_invariant, bool ___date_time_offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeUtils::ToString(System.DateTime,System.String,System.Globalization.DateTimeFormatInfo)
-extern "C" String_t* DateTimeUtils_ToString_m19694 (Object_t * __this /* static, unused */, DateTime_t287  ___dt, String_t* ___format, DateTimeFormatInfo_t4466 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeUtils_ToString_m19695 (Object_t * __this /* static, unused */, DateTime_t287  ___dt, String_t* ___format, DateTimeFormatInfo_t4466 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeUtils::ToString(System.DateTime,System.Nullable`1<System.TimeSpan>,System.String,System.Globalization.DateTimeFormatInfo)
-extern "C" String_t* DateTimeUtils_ToString_m19695 (Object_t * __this /* static, unused */, DateTime_t287  ___dt, Nullable_1_t1293  ___utc_offset, String_t* ___format, DateTimeFormatInfo_t4466 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeUtils_ToString_m19696 (Object_t * __this /* static, unused */, DateTime_t287  ___dt, Nullable_1_t1293  ___utc_offset, String_t* ___format, DateTimeFormatInfo_t4466 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;

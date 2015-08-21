@@ -14,21 +14,21 @@ struct TypeU5BU5D_t1201;
 #include "mscorlib_System_Reflection_MemberTypes.h"
 
 // System.Void System.Reflection.MethodInfo::.ctor()
-extern "C" void MethodInfo__ctor_m17941 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodInfo__ctor_m17942 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Reflection.MethodInfo::GetBaseDefinition()
 // System.Reflection.MemberTypes System.Reflection.MethodInfo::get_MemberType()
-extern "C" int32_t MethodInfo_get_MemberType_m17942 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MethodInfo_get_MemberType_m17943 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.MethodInfo::get_ReturnType()
-extern "C" Type_t * MethodInfo_get_ReturnType_m17943 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * MethodInfo_get_ReturnType_m17944 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Reflection.MethodInfo::GetGenericMethodDefinition()
-extern "C" MethodInfo_t * MethodInfo_GetGenericMethodDefinition_m17944 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * MethodInfo_GetGenericMethodDefinition_m17945 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Reflection.MethodInfo::MakeGenericMethod(System.Type[])
-extern "C" MethodInfo_t * MethodInfo_MakeGenericMethod_m17945 (MethodInfo_t * __this, TypeU5BU5D_t1201* ___typeArguments, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * MethodInfo_MakeGenericMethod_m17946 (MethodInfo_t * __this, TypeU5BU5D_t1201* ___typeArguments, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type[] System.Reflection.MethodInfo::GetGenericArguments()
-extern "C" TypeU5BU5D_t1201* MethodInfo_GetGenericArguments_m17946 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TypeU5BU5D_t1201* MethodInfo_GetGenericArguments_m17947 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MethodInfo::get_IsGenericMethod()
-extern "C" bool MethodInfo_get_IsGenericMethod_m17947 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodInfo_get_IsGenericMethod_m17948 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MethodInfo::get_IsGenericMethodDefinition()
-extern "C" bool MethodInfo_get_IsGenericMethodDefinition_m17948 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodInfo_get_IsGenericMethodDefinition_m17949 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MethodInfo::get_ContainsGenericParameters()
-extern "C" bool MethodInfo_get_ContainsGenericParameters_m17949 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodInfo_get_ContainsGenericParameters_m17950 (MethodInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

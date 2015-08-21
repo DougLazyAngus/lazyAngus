@@ -8,4 +8,4 @@
 struct TableRange_t4362;
 
 // System.Void Mono.Globalization.Unicode.CodePointIndexer/TableRange::.ctor(System.Int32,System.Int32,System.Int32)
-extern "C" void TableRange__ctor_m16294 (TableRange_t4362 * __this, int32_t ___start, int32_t ___end, int32_t ___indexStart, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TableRange__ctor_m16295 (TableRange_t4362 * __this, int32_t ___start, int32_t ___end, int32_t ___indexStart, const MethodInfo* method) IL2CPP_METHOD_ATTR;

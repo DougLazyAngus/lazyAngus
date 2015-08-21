@@ -16,14 +16,14 @@ struct StringBuilder_t261;
 struct String_t;
 
 // System.Void Mono.Security.X509.X509Extension::.ctor(Mono.Security.ASN1)
-extern "C" void X509Extension__ctor_m16683 (X509Extension_t4414 * __this, ASN1_t4405 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Extension__ctor_m16684 (X509Extension_t4414 * __this, ASN1_t4405 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.X509Extension::Decode()
-extern "C" void X509Extension_Decode_m16684 (X509Extension_t4414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Extension_Decode_m16685 (X509Extension_t4414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.X509.X509Extension::Equals(System.Object)
-extern "C" bool X509Extension_Equals_m16685 (X509Extension_t4414 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Extension_Equals_m16686 (X509Extension_t4414 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.X509.X509Extension::GetHashCode()
-extern "C" int32_t X509Extension_GetHashCode_m16686 (X509Extension_t4414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509Extension_GetHashCode_m16687 (X509Extension_t4414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.X509Extension::WriteLine(System.Text.StringBuilder,System.Int32,System.Int32)
-extern "C" void X509Extension_WriteLine_m16687 (X509Extension_t4414 * __this, StringBuilder_t261 * ___sb, int32_t ___n, int32_t ___pos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Extension_WriteLine_m16688 (X509Extension_t4414 * __this, StringBuilder_t261 * ___sb, int32_t ___n, int32_t ___pos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.X509Extension::ToString()
-extern "C" String_t* X509Extension_ToString_m16688 (X509Extension_t4414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X509Extension_ToString_m16689 (X509Extension_t4414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

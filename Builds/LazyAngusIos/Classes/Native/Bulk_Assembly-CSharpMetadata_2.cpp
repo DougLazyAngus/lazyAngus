@@ -1459,30 +1459,30 @@ static const MethodInfo* NotificationReceived_t387_MethodInfos[] =
 	&NotificationReceived_EndInvoke_m2109_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m4512_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m4513_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m4514_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4515_MethodInfo;
-extern const MethodInfo Delegate_Clone_m4516_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m4517_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m4518_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m4519_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m4513_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m4514_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m4515_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m4516_MethodInfo;
+extern const MethodInfo Delegate_Clone_m4517_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m4518_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m4519_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m4520_MethodInfo;
 extern const MethodInfo NotificationReceived_Invoke_m2107_MethodInfo;
 extern const MethodInfo NotificationReceived_BeginInvoke_m2108_MethodInfo;
 extern const MethodInfo NotificationReceived_EndInvoke_m2109_MethodInfo;
 static const Il2CppMethodReference NotificationReceived_t387_VTable[] =
 {
-	&MulticastDelegate_Equals_m4512_MethodInfo,
+	&MulticastDelegate_Equals_m4513_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4513_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4514_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4514_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4515_MethodInfo,
-	&Delegate_Clone_m4516_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4514_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4517_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4518_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4519_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4515_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4516_MethodInfo,
+	&Delegate_Clone_m4517_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4515_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4518_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4519_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4520_MethodInfo,
 	&NotificationReceived_Invoke_m2107_MethodInfo,
 	&NotificationReceived_BeginInvoke_m2108_MethodInfo,
 	&NotificationReceived_EndInvoke_m2109_MethodInfo,
@@ -1724,17 +1724,17 @@ extern const MethodInfo IdsAvailable_BeginInvoke_m2112_MethodInfo;
 extern const MethodInfo IdsAvailable_EndInvoke_m2113_MethodInfo;
 static const Il2CppMethodReference IdsAvailable_t376_VTable[] =
 {
-	&MulticastDelegate_Equals_m4512_MethodInfo,
+	&MulticastDelegate_Equals_m4513_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4513_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4514_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4514_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4515_MethodInfo,
-	&Delegate_Clone_m4516_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4514_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4517_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4518_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4519_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4515_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4516_MethodInfo,
+	&Delegate_Clone_m4517_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4515_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4518_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4519_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4520_MethodInfo,
 	&IdsAvailable_Invoke_m2111_MethodInfo,
 	&IdsAvailable_BeginInvoke_m2112_MethodInfo,
 	&IdsAvailable_EndInvoke_m2113_MethodInfo,
@@ -1969,17 +1969,17 @@ extern const MethodInfo TagsReceived_BeginInvoke_m2116_MethodInfo;
 extern const MethodInfo TagsReceived_EndInvoke_m2117_MethodInfo;
 static const Il2CppMethodReference TagsReceived_t389_VTable[] =
 {
-	&MulticastDelegate_Equals_m4512_MethodInfo,
+	&MulticastDelegate_Equals_m4513_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&MulticastDelegate_GetHashCode_m4513_MethodInfo,
+	&MulticastDelegate_GetHashCode_m4514_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4514_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m4515_MethodInfo,
-	&Delegate_Clone_m4516_MethodInfo,
-	&MulticastDelegate_GetObjectData_m4514_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m4517_MethodInfo,
-	&MulticastDelegate_CombineImpl_m4518_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m4519_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4515_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m4516_MethodInfo,
+	&Delegate_Clone_m4517_MethodInfo,
+	&MulticastDelegate_GetObjectData_m4515_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m4518_MethodInfo,
+	&MulticastDelegate_CombineImpl_m4519_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m4520_MethodInfo,
 	&TagsReceived_Invoke_m2115_MethodInfo,
 	&TagsReceived_BeginInvoke_m2116_MethodInfo,
 	&TagsReceived_EndInvoke_m2117_MethodInfo,
@@ -2846,21 +2846,21 @@ TypeInfo OneSignal_t379_il2cpp_TypeInfo =
 extern TypeInfo OneSignalPlatform_t390_il2cpp_TypeInfo;
 extern const Il2CppType LOG_LEVEL_t384_0_0_0;
 extern const Il2CppType LOG_LEVEL_t384_0_0_0;
-static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_SetLogLevel_m4441_ParameterInfos[] = 
+static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_SetLogLevel_m4442_ParameterInfos[] = 
 {
 	{"logLevel", 0, 134219047, 0, &LOG_LEVEL_t384_0_0_0},
 	{"visualLevel", 1, 134219048, 0, &LOG_LEVEL_t384_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void OneSignalPlatform::SetLogLevel(OneSignal/LOG_LEVEL,OneSignal/LOG_LEVEL)
-extern const MethodInfo OneSignalPlatform_SetLogLevel_m4441_MethodInfo = 
+extern const MethodInfo OneSignalPlatform_SetLogLevel_m4442_MethodInfo = 
 {
 	"SetLogLevel"/* name */
 	, NULL/* method */
 	, &OneSignalPlatform_t390_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_Int32_t82/* invoker_method */
-	, OneSignalPlatform_t390_OneSignalPlatform_SetLogLevel_m4441_ParameterInfos/* parameters */
+	, OneSignalPlatform_t390_OneSignalPlatform_SetLogLevel_m4442_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -2876,7 +2876,7 @@ extern const MethodInfo OneSignalPlatform_SetLogLevel_m4441_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void OneSignalPlatform::RegisterForPushNotifications()
-extern const MethodInfo OneSignalPlatform_RegisterForPushNotifications_m4442_MethodInfo = 
+extern const MethodInfo OneSignalPlatform_RegisterForPushNotifications_m4443_MethodInfo = 
 {
 	"RegisterForPushNotifications"/* name */
 	, NULL/* method */
@@ -2899,21 +2899,21 @@ extern const MethodInfo OneSignalPlatform_RegisterForPushNotifications_m4442_Met
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_SendTag_m4443_ParameterInfos[] = 
+static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_SendTag_m4444_ParameterInfos[] = 
 {
 	{"tagName", 0, 134219049, 0, &String_t_0_0_0},
 	{"tagValue", 1, 134219050, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void OneSignalPlatform::SendTag(System.String,System.String)
-extern const MethodInfo OneSignalPlatform_SendTag_m4443_MethodInfo = 
+extern const MethodInfo OneSignalPlatform_SendTag_m4444_MethodInfo = 
 {
 	"SendTag"/* name */
 	, NULL/* method */
 	, &OneSignalPlatform_t390_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, OneSignalPlatform_t390_OneSignalPlatform_SendTag_m4443_ParameterInfos/* parameters */
+	, OneSignalPlatform_t390_OneSignalPlatform_SendTag_m4444_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -2928,20 +2928,20 @@ extern const MethodInfo OneSignalPlatform_SendTag_m4443_MethodInfo =
 
 };
 extern const Il2CppType IDictionary_2_t690_0_0_0;
-static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_SendTags_m4444_ParameterInfos[] = 
+static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_SendTags_m4445_ParameterInfos[] = 
 {
 	{"tags", 0, 134219051, 0, &IDictionary_2_t690_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void OneSignalPlatform::SendTags(System.Collections.Generic.IDictionary`2<System.String,System.String>)
-extern const MethodInfo OneSignalPlatform_SendTags_m4444_MethodInfo = 
+extern const MethodInfo OneSignalPlatform_SendTags_m4445_MethodInfo = 
 {
 	"SendTags"/* name */
 	, NULL/* method */
 	, &OneSignalPlatform_t390_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, OneSignalPlatform_t390_OneSignalPlatform_SendTags_m4444_ParameterInfos/* parameters */
+	, OneSignalPlatform_t390_OneSignalPlatform_SendTags_m4445_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -2957,7 +2957,7 @@ extern const MethodInfo OneSignalPlatform_SendTags_m4444_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void OneSignalPlatform::GetTags()
-extern const MethodInfo OneSignalPlatform_GetTags_m4445_MethodInfo = 
+extern const MethodInfo OneSignalPlatform_GetTags_m4446_MethodInfo = 
 {
 	"GetTags"/* name */
 	, NULL/* method */
@@ -2979,20 +2979,20 @@ extern const MethodInfo OneSignalPlatform_GetTags_m4445_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_DeleteTag_m4446_ParameterInfos[] = 
+static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_DeleteTag_m4447_ParameterInfos[] = 
 {
 	{"key", 0, 134219052, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void OneSignalPlatform::DeleteTag(System.String)
-extern const MethodInfo OneSignalPlatform_DeleteTag_m4446_MethodInfo = 
+extern const MethodInfo OneSignalPlatform_DeleteTag_m4447_MethodInfo = 
 {
 	"DeleteTag"/* name */
 	, NULL/* method */
 	, &OneSignalPlatform_t390_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, OneSignalPlatform_t390_OneSignalPlatform_DeleteTag_m4446_ParameterInfos/* parameters */
+	, OneSignalPlatform_t390_OneSignalPlatform_DeleteTag_m4447_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -3007,20 +3007,20 @@ extern const MethodInfo OneSignalPlatform_DeleteTag_m4446_MethodInfo =
 
 };
 extern const Il2CppType IList_1_t691_0_0_0;
-static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_DeleteTags_m4447_ParameterInfos[] = 
+static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_DeleteTags_m4448_ParameterInfos[] = 
 {
 	{"keys", 0, 134219053, 0, &IList_1_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void OneSignalPlatform::DeleteTags(System.Collections.Generic.IList`1<System.String>)
-extern const MethodInfo OneSignalPlatform_DeleteTags_m4447_MethodInfo = 
+extern const MethodInfo OneSignalPlatform_DeleteTags_m4448_MethodInfo = 
 {
 	"DeleteTags"/* name */
 	, NULL/* method */
 	, &OneSignalPlatform_t390_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, OneSignalPlatform_t390_OneSignalPlatform_DeleteTags_m4447_ParameterInfos/* parameters */
+	, OneSignalPlatform_t390_OneSignalPlatform_DeleteTags_m4448_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -3035,20 +3035,20 @@ extern const MethodInfo OneSignalPlatform_DeleteTags_m4447_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_OnApplicationPause_m4448_ParameterInfos[] = 
+static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_OnApplicationPause_m4449_ParameterInfos[] = 
 {
 	{"paused", 0, 134219054, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void OneSignalPlatform::OnApplicationPause(System.Boolean)
-extern const MethodInfo OneSignalPlatform_OnApplicationPause_m4448_MethodInfo = 
+extern const MethodInfo OneSignalPlatform_OnApplicationPause_m4449_MethodInfo = 
 {
 	"OnApplicationPause"/* name */
 	, NULL/* method */
 	, &OneSignalPlatform_t390_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, OneSignalPlatform_t390_OneSignalPlatform_OnApplicationPause_m4448_ParameterInfos/* parameters */
+	, OneSignalPlatform_t390_OneSignalPlatform_OnApplicationPause_m4449_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -3064,7 +3064,7 @@ extern const MethodInfo OneSignalPlatform_OnApplicationPause_m4448_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void OneSignalPlatform::IdsAvailable()
-extern const MethodInfo OneSignalPlatform_IdsAvailable_m4449_MethodInfo = 
+extern const MethodInfo OneSignalPlatform_IdsAvailable_m4450_MethodInfo = 
 {
 	"IdsAvailable"/* name */
 	, NULL/* method */
@@ -3087,21 +3087,21 @@ extern const MethodInfo OneSignalPlatform_IdsAvailable_m4449_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType NotificationReceived_t387_0_0_0;
-static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_FireNotificationReceivedEvent_m4450_ParameterInfos[] = 
+static const ParameterInfo OneSignalPlatform_t390_OneSignalPlatform_FireNotificationReceivedEvent_m4451_ParameterInfos[] = 
 {
 	{"jsonString", 0, 134219055, 0, &String_t_0_0_0},
 	{"notificationReceived", 1, 134219056, 0, &NotificationReceived_t387_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void OneSignalPlatform::FireNotificationReceivedEvent(System.String,OneSignal/NotificationReceived)
-extern const MethodInfo OneSignalPlatform_FireNotificationReceivedEvent_m4450_MethodInfo = 
+extern const MethodInfo OneSignalPlatform_FireNotificationReceivedEvent_m4451_MethodInfo = 
 {
 	"FireNotificationReceivedEvent"/* name */
 	, NULL/* method */
 	, &OneSignalPlatform_t390_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, OneSignalPlatform_t390_OneSignalPlatform_FireNotificationReceivedEvent_m4450_ParameterInfos/* parameters */
+	, OneSignalPlatform_t390_OneSignalPlatform_FireNotificationReceivedEvent_m4451_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -3117,16 +3117,16 @@ extern const MethodInfo OneSignalPlatform_FireNotificationReceivedEvent_m4450_Me
 };
 static const MethodInfo* OneSignalPlatform_t390_MethodInfos[] =
 {
-	&OneSignalPlatform_SetLogLevel_m4441_MethodInfo,
-	&OneSignalPlatform_RegisterForPushNotifications_m4442_MethodInfo,
-	&OneSignalPlatform_SendTag_m4443_MethodInfo,
-	&OneSignalPlatform_SendTags_m4444_MethodInfo,
-	&OneSignalPlatform_GetTags_m4445_MethodInfo,
-	&OneSignalPlatform_DeleteTag_m4446_MethodInfo,
-	&OneSignalPlatform_DeleteTags_m4447_MethodInfo,
-	&OneSignalPlatform_OnApplicationPause_m4448_MethodInfo,
-	&OneSignalPlatform_IdsAvailable_m4449_MethodInfo,
-	&OneSignalPlatform_FireNotificationReceivedEvent_m4450_MethodInfo,
+	&OneSignalPlatform_SetLogLevel_m4442_MethodInfo,
+	&OneSignalPlatform_RegisterForPushNotifications_m4443_MethodInfo,
+	&OneSignalPlatform_SendTag_m4444_MethodInfo,
+	&OneSignalPlatform_SendTags_m4445_MethodInfo,
+	&OneSignalPlatform_GetTags_m4446_MethodInfo,
+	&OneSignalPlatform_DeleteTag_m4447_MethodInfo,
+	&OneSignalPlatform_DeleteTags_m4448_MethodInfo,
+	&OneSignalPlatform_OnApplicationPause_m4449_MethodInfo,
+	&OneSignalPlatform_IdsAvailable_m4450_MethodInfo,
+	&OneSignalPlatform_FireNotificationReceivedEvent_m4451_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
@@ -3598,8 +3598,8 @@ extern const MethodInfo EventDispatcher_dispatch_m646_MethodInfo;
 extern const MethodInfo EventDispatcher_dispatch_m643_MethodInfo;
 extern const MethodInfo EventDispatcher_dispatch_m644_MethodInfo;
 extern const MethodInfo EventDispatcher_clearEvents_m648_MethodInfo;
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4520_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4521_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4521_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4522_GenericMethod;
 static const Il2CppMethodReference SA_ScreenShotMaker_t391_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
@@ -3623,8 +3623,8 @@ static const Il2CppMethodReference SA_ScreenShotMaker_t391_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4520_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4521_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4521_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4522_GenericMethod,
 };
 static bool SA_ScreenShotMaker_t391_VTableIsGenericMethod[] =
 {
@@ -4265,8 +4265,8 @@ static const MethodInfo* SALevelLoader_t396_MethodInfos[] =
 	&SALevelLoader_Restart_m2164_MethodInfo,
 	NULL
 };
-extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4522_GenericMethod;
-extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4523_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnDestroy_m4523_GenericMethod;
+extern const Il2CppGenericMethod SA_Singleton_1_OnApplicationQuit_m4524_GenericMethod;
 static const Il2CppMethodReference SALevelLoader_t396_VTable[] =
 {
 	&Object_Equals_m523_MethodInfo,
@@ -4290,8 +4290,8 @@ static const Il2CppMethodReference SALevelLoader_t396_VTable[] =
 	&EventDispatcher_dispatch_m643_MethodInfo,
 	&EventDispatcher_dispatch_m644_MethodInfo,
 	&EventDispatcher_clearEvents_m648_MethodInfo,
-	&SA_Singleton_1_OnDestroy_m4522_GenericMethod,
-	&SA_Singleton_1_OnApplicationQuit_m4523_GenericMethod,
+	&SA_Singleton_1_OnDestroy_m4523_GenericMethod,
+	&SA_Singleton_1_OnApplicationQuit_m4524_GenericMethod,
 };
 static bool SALevelLoader_t396_VTableIsGenericMethod[] =
 {
@@ -4596,7 +4596,7 @@ extern const MethodInfo SAOnClickAction_Awake_m2168_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void SAOnClickAction::OnClick()
-extern const MethodInfo SAOnClickAction_OnClick_m4451_MethodInfo = 
+extern const MethodInfo SAOnClickAction_OnClick_m4452_MethodInfo = 
 {
 	"OnClick"/* name */
 	, NULL/* method */
@@ -4621,7 +4621,7 @@ static const MethodInfo* SAOnClickAction_t399_MethodInfos[] =
 {
 	&SAOnClickAction__ctor_m2167_MethodInfo,
 	&SAOnClickAction_Awake_m2168_MethodInfo,
-	&SAOnClickAction_OnClick_m4451_MethodInfo,
+	&SAOnClickAction_OnClick_m4452_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference SAOnClickAction_t399_VTable[] =
@@ -7430,7 +7430,7 @@ extern const MethodInfo AbstractFacebook_Awake_m2220_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::OnAwake()
-extern const MethodInfo AbstractFacebook_OnAwake_m4452_MethodInfo = 
+extern const MethodInfo AbstractFacebook_OnAwake_m4453_MethodInfo = 
 {
 	"OnAwake"/* name */
 	, NULL/* method */
@@ -7625,7 +7625,7 @@ extern const MethodInfo AbstractFacebook_get_AccessTokenExpiresAt_m2227_MethodIn
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Facebook.AbstractFacebook::get_LimitEventUsage()
-extern const MethodInfo AbstractFacebook_get_LimitEventUsage_m4453_MethodInfo = 
+extern const MethodInfo AbstractFacebook_get_LimitEventUsage_m4454_MethodInfo = 
 {
 	"get_LimitEventUsage"/* name */
 	, NULL/* method */
@@ -7647,20 +7647,20 @@ extern const MethodInfo AbstractFacebook_get_LimitEventUsage_m4453_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_set_LimitEventUsage_m4454_ParameterInfos[] = 
+static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_set_LimitEventUsage_m4455_ParameterInfos[] = 
 {
 	{"value", 0, 134219097, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::set_LimitEventUsage(System.Boolean)
-extern const MethodInfo AbstractFacebook_set_LimitEventUsage_m4454_MethodInfo = 
+extern const MethodInfo AbstractFacebook_set_LimitEventUsage_m4455_MethodInfo = 
 {
 	"set_LimitEventUsage"/* name */
 	, NULL/* method */
 	, &AbstractFacebook_t414_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, AbstractFacebook_t414_AbstractFacebook_set_LimitEventUsage_m4454_ParameterInfos/* parameters */
+	, AbstractFacebook_t414_AbstractFacebook_set_LimitEventUsage_m4455_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 3526/* flags */
 	, 0/* iflags */
@@ -7686,7 +7686,7 @@ extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType Boolean_t59_0_0_4112;
 extern const Il2CppType HideUnityDelegate_t420_0_0_4112;
 extern const Il2CppType HideUnityDelegate_t420_0_0_0;
-static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_Init_m4455_ParameterInfos[] = 
+static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_Init_m4456_ParameterInfos[] = 
 {
 	{"onInitComplete", 0, 134219098, 0, &InitDelegate_t419_0_0_0},
 	{"appId", 1, 134219099, 0, &String_t_0_0_0},
@@ -7701,14 +7701,14 @@ static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_Init_m4455_Par
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Object_t_Object_t_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::Init(Facebook.InitDelegate,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.Boolean,Facebook.HideUnityDelegate)
-extern const MethodInfo AbstractFacebook_Init_m4455_MethodInfo = 
+extern const MethodInfo AbstractFacebook_Init_m4456_MethodInfo = 
 {
 	"Init"/* name */
 	, NULL/* method */
 	, &AbstractFacebook_t414_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88_SByte_t88_SByte_t88_SByte_t88_Object_t_Object_t_SByte_t88_Object_t/* invoker_method */
-	, AbstractFacebook_t414_AbstractFacebook_Init_m4455_ParameterInfos/* parameters */
+	, AbstractFacebook_t414_AbstractFacebook_Init_m4456_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -7725,21 +7725,21 @@ extern const MethodInfo AbstractFacebook_Init_m4455_MethodInfo =
 extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType FacebookDelegate_t433_0_0_4112;
 extern const Il2CppType FacebookDelegate_t433_0_0_0;
-static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_Login_m4456_ParameterInfos[] = 
+static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_Login_m4457_ParameterInfos[] = 
 {
 	{"scope", 0, 134219108, 0, &String_t_0_0_4112},
 	{"callback", 1, 134219109, 0, &FacebookDelegate_t433_0_0_4112},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::Login(System.String,Facebook.FacebookDelegate)
-extern const MethodInfo AbstractFacebook_Login_m4456_MethodInfo = 
+extern const MethodInfo AbstractFacebook_Login_m4457_MethodInfo = 
 {
 	"Login"/* name */
 	, NULL/* method */
 	, &AbstractFacebook_t414_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, AbstractFacebook_t414_AbstractFacebook_Login_m4456_ParameterInfos/* parameters */
+	, AbstractFacebook_t414_AbstractFacebook_Login_m4457_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -7755,7 +7755,7 @@ extern const MethodInfo AbstractFacebook_Login_m4456_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::Logout()
-extern const MethodInfo AbstractFacebook_Logout_m4457_MethodInfo = 
+extern const MethodInfo AbstractFacebook_Logout_m4458_MethodInfo = 
 {
 	"Logout"/* name */
 	, NULL/* method */
@@ -7859,7 +7859,7 @@ extern const Il2CppType Nullable_1_t688_0_0_4112;
 extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType FacebookDelegate_t433_0_0_4112;
-static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_AppRequest_m4459_ParameterInfos[] = 
+static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_AppRequest_m4460_ParameterInfos[] = 
 {
 	{"message", 0, 134219119, 0, &String_t_0_0_0},
 	{"actionType", 1, 134219120, 0, &OGActionType_t432_0_0_0},
@@ -7874,14 +7874,14 @@ static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_AppRequest_m44
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Nullable_1_t688_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::AppRequest(System.String,Facebook.OGActionType,System.String,System.String[],System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String,Facebook.FacebookDelegate)
-extern const MethodInfo AbstractFacebook_AppRequest_m4459_MethodInfo = 
+extern const MethodInfo AbstractFacebook_AppRequest_m4460_MethodInfo = 
 {
 	"AppRequest"/* name */
 	, NULL/* method */
 	, &AbstractFacebook_t414_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Nullable_1_t688_Object_t_Object_t_Object_t/* invoker_method */
-	, AbstractFacebook_t414_AbstractFacebook_AppRequest_m4459_ParameterInfos/* parameters */
+	, AbstractFacebook_t414_AbstractFacebook_AppRequest_m4460_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -7908,7 +7908,7 @@ extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType Dictionary_2_t116_0_0_4112;
 extern const Il2CppType Dictionary_2_t116_0_0_0;
 extern const Il2CppType FacebookDelegate_t433_0_0_4112;
-static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_FeedRequest_m4460_ParameterInfos[] = 
+static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_FeedRequest_m4461_ParameterInfos[] = 
 {
 	{"toId", 0, 134219129, 0, &String_t_0_0_4112},
 	{"link", 1, 134219130, 0, &String_t_0_0_4112},
@@ -7925,14 +7925,14 @@ static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_FeedRequest_m4
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::FeedRequest(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String[]>,Facebook.FacebookDelegate)
-extern const MethodInfo AbstractFacebook_FeedRequest_m4460_MethodInfo = 
+extern const MethodInfo AbstractFacebook_FeedRequest_m4461_MethodInfo = 
 {
 	"FeedRequest"/* name */
 	, NULL/* method */
 	, &AbstractFacebook_t414_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, AbstractFacebook_t414_AbstractFacebook_FeedRequest_m4460_ParameterInfos/* parameters */
+	, AbstractFacebook_t414_AbstractFacebook_FeedRequest_m4461_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -7956,7 +7956,7 @@ extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType FacebookDelegate_t433_0_0_4112;
-static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_Pay_m4461_ParameterInfos[] = 
+static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_Pay_m4462_ParameterInfos[] = 
 {
 	{"product", 0, 134219141, 0, &String_t_0_0_0},
 	{"action", 1, 134219142, 0, &String_t_0_0_4112},
@@ -7970,14 +7970,14 @@ static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_Pay_m4461_Para
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Nullable_1_t688_Nullable_1_t688_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::Pay(System.String,System.String,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.String,System.String,Facebook.FacebookDelegate)
-extern const MethodInfo AbstractFacebook_Pay_m4461_MethodInfo = 
+extern const MethodInfo AbstractFacebook_Pay_m4462_MethodInfo = 
 {
 	"Pay"/* name */
 	, NULL/* method */
 	, &AbstractFacebook_t414_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Nullable_1_t688_Nullable_1_t688_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, AbstractFacebook_t414_AbstractFacebook_Pay_m4461_ParameterInfos/* parameters */
+	, AbstractFacebook_t414_AbstractFacebook_Pay_m4462_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -7995,7 +7995,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType FacebookDelegate_t433_0_0_4112;
-static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_GameGroupCreate_m4462_ParameterInfos[] = 
+static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_GameGroupCreate_m4463_ParameterInfos[] = 
 {
 	{"name", 0, 134219150, 0, &String_t_0_0_0},
 	{"description", 1, 134219151, 0, &String_t_0_0_0},
@@ -8004,14 +8004,14 @@ static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_GameGroupCreat
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::GameGroupCreate(System.String,System.String,System.String,Facebook.FacebookDelegate)
-extern const MethodInfo AbstractFacebook_GameGroupCreate_m4462_MethodInfo = 
+extern const MethodInfo AbstractFacebook_GameGroupCreate_m4463_MethodInfo = 
 {
 	"GameGroupCreate"/* name */
 	, NULL/* method */
 	, &AbstractFacebook_t414_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, AbstractFacebook_t414_AbstractFacebook_GameGroupCreate_m4462_ParameterInfos/* parameters */
+	, AbstractFacebook_t414_AbstractFacebook_GameGroupCreate_m4463_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -8027,21 +8027,21 @@ extern const MethodInfo AbstractFacebook_GameGroupCreate_m4462_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType FacebookDelegate_t433_0_0_4112;
-static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_GameGroupJoin_m4463_ParameterInfos[] = 
+static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_GameGroupJoin_m4464_ParameterInfos[] = 
 {
 	{"id", 0, 134219154, 0, &String_t_0_0_0},
 	{"callback", 1, 134219155, 0, &FacebookDelegate_t433_0_0_4112},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::GameGroupJoin(System.String,Facebook.FacebookDelegate)
-extern const MethodInfo AbstractFacebook_GameGroupJoin_m4463_MethodInfo = 
+extern const MethodInfo AbstractFacebook_GameGroupJoin_m4464_MethodInfo = 
 {
 	"GameGroupJoin"/* name */
 	, NULL/* method */
 	, &AbstractFacebook_t414_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, AbstractFacebook_t414_AbstractFacebook_GameGroupJoin_m4463_ParameterInfos/* parameters */
+	, AbstractFacebook_t414_AbstractFacebook_GameGroupJoin_m4464_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -8128,21 +8128,21 @@ extern const MethodInfo AbstractFacebook_API_m2231_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType FacebookDelegate_t433_0_0_4112;
-static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_PublishInstall_m4464_ParameterInfos[] = 
+static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_PublishInstall_m4465_ParameterInfos[] = 
 {
 	{"appId", 0, 134219164, 0, &String_t_0_0_0},
 	{"callback", 1, 134219165, 0, &FacebookDelegate_t433_0_0_4112},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::PublishInstall(System.String,Facebook.FacebookDelegate)
-extern const MethodInfo AbstractFacebook_PublishInstall_m4464_MethodInfo = 
+extern const MethodInfo AbstractFacebook_PublishInstall_m4465_MethodInfo = 
 {
 	"PublishInstall"/* name */
 	, NULL/* method */
 	, &AbstractFacebook_t414_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, AbstractFacebook_t414_AbstractFacebook_PublishInstall_m4464_ParameterInfos/* parameters */
+	, AbstractFacebook_t414_AbstractFacebook_PublishInstall_m4465_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -8157,20 +8157,20 @@ extern const MethodInfo AbstractFacebook_PublishInstall_m4464_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_4112;
-static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_ActivateApp_m4465_ParameterInfos[] = 
+static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_ActivateApp_m4466_ParameterInfos[] = 
 {
 	{"appId", 0, 134219166, 0, &String_t_0_0_4112},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::ActivateApp(System.String)
-extern const MethodInfo AbstractFacebook_ActivateApp_m4465_MethodInfo = 
+extern const MethodInfo AbstractFacebook_ActivateApp_m4466_MethodInfo = 
 {
 	"ActivateApp"/* name */
 	, NULL/* method */
 	, &AbstractFacebook_t414_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, AbstractFacebook_t414_AbstractFacebook_ActivateApp_m4465_ParameterInfos/* parameters */
+	, AbstractFacebook_t414_AbstractFacebook_ActivateApp_m4466_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -8185,20 +8185,20 @@ extern const MethodInfo AbstractFacebook_ActivateApp_m4465_MethodInfo =
 
 };
 extern const Il2CppType FacebookDelegate_t433_0_0_0;
-static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_GetDeepLink_m4466_ParameterInfos[] = 
+static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_GetDeepLink_m4467_ParameterInfos[] = 
 {
 	{"callback", 0, 134219167, 0, &FacebookDelegate_t433_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::GetDeepLink(Facebook.FacebookDelegate)
-extern const MethodInfo AbstractFacebook_GetDeepLink_m4466_MethodInfo = 
+extern const MethodInfo AbstractFacebook_GetDeepLink_m4467_MethodInfo = 
 {
 	"GetDeepLink"/* name */
 	, NULL/* method */
 	, &AbstractFacebook_t414_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, AbstractFacebook_t414_AbstractFacebook_GetDeepLink_m4466_ParameterInfos/* parameters */
+	, AbstractFacebook_t414_AbstractFacebook_GetDeepLink_m4467_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -8216,7 +8216,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Nullable_1_t689_0_0_4112;
 extern const Il2CppType Nullable_1_t689_0_0_0;
 extern const Il2CppType Dictionary_2_t312_0_0_4112;
-static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_AppEventsLogEvent_m4467_ParameterInfos[] = 
+static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_AppEventsLogEvent_m4468_ParameterInfos[] = 
 {
 	{"logEvent", 0, 134219168, 0, &String_t_0_0_0},
 	{"valueToSum", 1, 134219169, 0, &Nullable_1_t689_0_0_4112},
@@ -8224,14 +8224,14 @@ static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_AppEventsLogEv
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Nullable_1_t689_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::AppEventsLogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-extern const MethodInfo AbstractFacebook_AppEventsLogEvent_m4467_MethodInfo = 
+extern const MethodInfo AbstractFacebook_AppEventsLogEvent_m4468_MethodInfo = 
 {
 	"AppEventsLogEvent"/* name */
 	, NULL/* method */
 	, &AbstractFacebook_t414_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Nullable_1_t689_Object_t/* invoker_method */
-	, AbstractFacebook_t414_AbstractFacebook_AppEventsLogEvent_m4467_ParameterInfos/* parameters */
+	, AbstractFacebook_t414_AbstractFacebook_AppEventsLogEvent_m4468_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -8249,7 +8249,7 @@ extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType String_t_0_0_4112;
 extern const Il2CppType Dictionary_2_t312_0_0_4112;
-static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_AppEventsLogPurchase_m4468_ParameterInfos[] = 
+static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_AppEventsLogPurchase_m4469_ParameterInfos[] = 
 {
 	{"logPurchase", 0, 134219171, 0, &Single_t87_0_0_0},
 	{"currency", 1, 134219172, 0, &String_t_0_0_4112},
@@ -8257,14 +8257,14 @@ static const ParameterInfo AbstractFacebook_t414_AbstractFacebook_AppEventsLogPu
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Facebook.AbstractFacebook::AppEventsLogPurchase(System.Single,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-extern const MethodInfo AbstractFacebook_AppEventsLogPurchase_m4468_MethodInfo = 
+extern const MethodInfo AbstractFacebook_AppEventsLogPurchase_m4469_MethodInfo = 
 {
 	"AppEventsLogPurchase"/* name */
 	, NULL/* method */
 	, &AbstractFacebook_t414_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87_Object_t_Object_t/* invoker_method */
-	, AbstractFacebook_t414_AbstractFacebook_AppEventsLogPurchase_m4468_ParameterInfos/* parameters */
+	, AbstractFacebook_t414_AbstractFacebook_AppEventsLogPurchase_m4469_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -8453,7 +8453,7 @@ static const MethodInfo* AbstractFacebook_t414_MethodInfos[] =
 {
 	&AbstractFacebook__ctor_m2219_MethodInfo,
 	&AbstractFacebook_Awake_m2220_MethodInfo,
-	&AbstractFacebook_OnAwake_m4452_MethodInfo,
+	&AbstractFacebook_OnAwake_m4453_MethodInfo,
 	&AbstractFacebook_get_IsInitialized_m2221_MethodInfo,
 	&AbstractFacebook_get_IsLoggedIn_m2222_MethodInfo,
 	&AbstractFacebook_get_UserId_m2223_MethodInfo,
@@ -8461,25 +8461,25 @@ static const MethodInfo* AbstractFacebook_t414_MethodInfos[] =
 	&AbstractFacebook_get_AccessToken_m2225_MethodInfo,
 	&AbstractFacebook_set_AccessToken_m2226_MethodInfo,
 	&AbstractFacebook_get_AccessTokenExpiresAt_m2227_MethodInfo,
-	&AbstractFacebook_get_LimitEventUsage_m4453_MethodInfo,
-	&AbstractFacebook_set_LimitEventUsage_m4454_MethodInfo,
-	&AbstractFacebook_Init_m4455_MethodInfo,
-	&AbstractFacebook_Login_m4456_MethodInfo,
-	&AbstractFacebook_Logout_m4457_MethodInfo,
+	&AbstractFacebook_get_LimitEventUsage_m4454_MethodInfo,
+	&AbstractFacebook_set_LimitEventUsage_m4455_MethodInfo,
+	&AbstractFacebook_Init_m4456_MethodInfo,
+	&AbstractFacebook_Login_m4457_MethodInfo,
+	&AbstractFacebook_Logout_m4458_MethodInfo,
 	&AbstractFacebook_GetAuthResponse_m2228_MethodInfo,
 	&AbstractFacebook_AppRequest_m2229_MethodInfo,
-	&AbstractFacebook_AppRequest_m4459_MethodInfo,
-	&AbstractFacebook_FeedRequest_m4460_MethodInfo,
-	&AbstractFacebook_Pay_m4461_MethodInfo,
-	&AbstractFacebook_GameGroupCreate_m4462_MethodInfo,
-	&AbstractFacebook_GameGroupJoin_m4463_MethodInfo,
+	&AbstractFacebook_AppRequest_m4460_MethodInfo,
+	&AbstractFacebook_FeedRequest_m4461_MethodInfo,
+	&AbstractFacebook_Pay_m4462_MethodInfo,
+	&AbstractFacebook_GameGroupCreate_m4463_MethodInfo,
+	&AbstractFacebook_GameGroupJoin_m4464_MethodInfo,
 	&AbstractFacebook_API_m2230_MethodInfo,
 	&AbstractFacebook_API_m2231_MethodInfo,
-	&AbstractFacebook_PublishInstall_m4464_MethodInfo,
-	&AbstractFacebook_ActivateApp_m4465_MethodInfo,
-	&AbstractFacebook_GetDeepLink_m4466_MethodInfo,
-	&AbstractFacebook_AppEventsLogEvent_m4467_MethodInfo,
-	&AbstractFacebook_AppEventsLogPurchase_m4468_MethodInfo,
+	&AbstractFacebook_PublishInstall_m4465_MethodInfo,
+	&AbstractFacebook_ActivateApp_m4466_MethodInfo,
+	&AbstractFacebook_GetDeepLink_m4467_MethodInfo,
+	&AbstractFacebook_AppEventsLogEvent_m4468_MethodInfo,
+	&AbstractFacebook_AppEventsLogPurchase_m4469_MethodInfo,
 	&AbstractFacebook_AddAuthDelegate_m2232_MethodInfo,
 	&AbstractFacebook_OnAuthResponse_m2233_MethodInfo,
 	&AbstractFacebook_AddFacebookDelegate_m2234_MethodInfo,
@@ -8545,14 +8545,14 @@ static const PropertyInfo AbstractFacebook_t414____AccessTokenExpiresAt_Property
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AbstractFacebook_get_LimitEventUsage_m4453_MethodInfo;
-extern const MethodInfo AbstractFacebook_set_LimitEventUsage_m4454_MethodInfo;
+extern const MethodInfo AbstractFacebook_get_LimitEventUsage_m4454_MethodInfo;
+extern const MethodInfo AbstractFacebook_set_LimitEventUsage_m4455_MethodInfo;
 static const PropertyInfo AbstractFacebook_t414____LimitEventUsage_PropertyInfo = 
 {
 	&AbstractFacebook_t414_il2cpp_TypeInfo/* parent */
 	, "LimitEventUsage"/* name */
-	, &AbstractFacebook_get_LimitEventUsage_m4453_MethodInfo/* get */
-	, &AbstractFacebook_set_LimitEventUsage_m4454_MethodInfo/* set */
+	, &AbstractFacebook_get_LimitEventUsage_m4454_MethodInfo/* get */
+	, &AbstractFacebook_set_LimitEventUsage_m4455_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -9313,7 +9313,7 @@ extern const MethodInfo CompiledFacebookLoader__ctor_m2247_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Facebook.AbstractFacebook FB/CompiledFacebookLoader::get_fb()
-extern const MethodInfo CompiledFacebookLoader_get_fb_m4469_MethodInfo = 
+extern const MethodInfo CompiledFacebookLoader_get_fb_m4470_MethodInfo = 
 {
 	"get_fb"/* name */
 	, NULL/* method */
@@ -9360,16 +9360,16 @@ extern const MethodInfo CompiledFacebookLoader_Start_m2248_MethodInfo =
 static const MethodInfo* CompiledFacebookLoader_t418_MethodInfos[] =
 {
 	&CompiledFacebookLoader__ctor_m2247_MethodInfo,
-	&CompiledFacebookLoader_get_fb_m4469_MethodInfo,
+	&CompiledFacebookLoader_get_fb_m4470_MethodInfo,
 	&CompiledFacebookLoader_Start_m2248_MethodInfo,
 	NULL
 };
-extern const MethodInfo CompiledFacebookLoader_get_fb_m4469_MethodInfo;
+extern const MethodInfo CompiledFacebookLoader_get_fb_m4470_MethodInfo;
 static const PropertyInfo CompiledFacebookLoader_t418____fb_PropertyInfo = 
 {
 	&CompiledFacebookLoader_t418_il2cpp_TypeInfo/* parent */
 	, "fb"/* name */
-	, &CompiledFacebookLoader_get_fb_m4469_MethodInfo/* get */
+	, &CompiledFacebookLoader_get_fb_m4470_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -10707,73 +10707,73 @@ static const MethodInfo* FBAppRequestsFilterGroup_t424_MethodInfos[] =
 	&FBAppRequestsFilterGroup__ctor_m2276_MethodInfo,
 	NULL
 };
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m4524_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_GetObjectData_m4525_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_get_Count_m4526_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m4527_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_ICollection_get_SyncRoot_m4528_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_ICollection_CopyTo_m4529_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m4530_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m4531_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_Clear_m4532_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m4533_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m4534_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m4535_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m4536_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_Add_m4537_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_ContainsKey_m4538_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_Remove_m4539_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_TryGetValue_m4540_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_get_Item_m4541_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_set_Item_m4542_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m4543_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m4544_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_get_Item_m4545_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_set_Item_m4546_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_get_Keys_m4547_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_Add_m4548_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_Contains_m4549_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_GetEnumerator_m4550_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_Remove_m4551_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_OnDeserialization_m4552_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m4525_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_GetObjectData_m4526_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_get_Count_m4527_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m4528_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_ICollection_get_SyncRoot_m4529_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_ICollection_CopyTo_m4530_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m4531_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m4532_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_Clear_m4533_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m4534_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m4535_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m4536_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m4537_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_Add_m4538_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_ContainsKey_m4539_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_Remove_m4540_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_TryGetValue_m4541_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_get_Item_m4542_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_set_Item_m4543_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m4544_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m4545_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_get_Item_m4546_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_set_Item_m4547_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_get_Keys_m4548_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_Add_m4549_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_Contains_m4550_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_GetEnumerator_m4551_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_System_Collections_IDictionary_Remove_m4552_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_OnDeserialization_m4553_GenericMethod;
 static const Il2CppMethodReference FBAppRequestsFilterGroup_t424_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m4524_GenericMethod,
-	&Dictionary_2_GetObjectData_m4525_GenericMethod,
-	&Dictionary_2_get_Count_m4526_GenericMethod,
-	&Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m4527_GenericMethod,
-	&Dictionary_2_System_Collections_ICollection_get_SyncRoot_m4528_GenericMethod,
-	&Dictionary_2_System_Collections_ICollection_CopyTo_m4529_GenericMethod,
-	&Dictionary_2_get_Count_m4526_GenericMethod,
-	&Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m4530_GenericMethod,
-	&Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m4531_GenericMethod,
-	&Dictionary_2_Clear_m4532_GenericMethod,
-	&Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m4533_GenericMethod,
-	&Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m4534_GenericMethod,
-	&Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m4535_GenericMethod,
-	&Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m4536_GenericMethod,
-	&Dictionary_2_Add_m4537_GenericMethod,
-	&Dictionary_2_ContainsKey_m4538_GenericMethod,
-	&Dictionary_2_Remove_m4539_GenericMethod,
-	&Dictionary_2_TryGetValue_m4540_GenericMethod,
-	&Dictionary_2_get_Item_m4541_GenericMethod,
-	&Dictionary_2_set_Item_m4542_GenericMethod,
-	&Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m4543_GenericMethod,
-	&Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m4544_GenericMethod,
-	&Dictionary_2_System_Collections_IDictionary_get_Item_m4545_GenericMethod,
-	&Dictionary_2_System_Collections_IDictionary_set_Item_m4546_GenericMethod,
-	&Dictionary_2_System_Collections_IDictionary_get_Keys_m4547_GenericMethod,
-	&Dictionary_2_System_Collections_IDictionary_Add_m4548_GenericMethod,
-	&Dictionary_2_System_Collections_IDictionary_Contains_m4549_GenericMethod,
-	&Dictionary_2_System_Collections_IDictionary_GetEnumerator_m4550_GenericMethod,
-	&Dictionary_2_System_Collections_IDictionary_Remove_m4551_GenericMethod,
-	&Dictionary_2_OnDeserialization_m4552_GenericMethod,
-	&Dictionary_2_GetObjectData_m4525_GenericMethod,
-	&Dictionary_2_OnDeserialization_m4552_GenericMethod,
+	&Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m4525_GenericMethod,
+	&Dictionary_2_GetObjectData_m4526_GenericMethod,
+	&Dictionary_2_get_Count_m4527_GenericMethod,
+	&Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m4528_GenericMethod,
+	&Dictionary_2_System_Collections_ICollection_get_SyncRoot_m4529_GenericMethod,
+	&Dictionary_2_System_Collections_ICollection_CopyTo_m4530_GenericMethod,
+	&Dictionary_2_get_Count_m4527_GenericMethod,
+	&Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m4531_GenericMethod,
+	&Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m4532_GenericMethod,
+	&Dictionary_2_Clear_m4533_GenericMethod,
+	&Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m4534_GenericMethod,
+	&Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m4535_GenericMethod,
+	&Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m4536_GenericMethod,
+	&Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m4537_GenericMethod,
+	&Dictionary_2_Add_m4538_GenericMethod,
+	&Dictionary_2_ContainsKey_m4539_GenericMethod,
+	&Dictionary_2_Remove_m4540_GenericMethod,
+	&Dictionary_2_TryGetValue_m4541_GenericMethod,
+	&Dictionary_2_get_Item_m4542_GenericMethod,
+	&Dictionary_2_set_Item_m4543_GenericMethod,
+	&Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m4544_GenericMethod,
+	&Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m4545_GenericMethod,
+	&Dictionary_2_System_Collections_IDictionary_get_Item_m4546_GenericMethod,
+	&Dictionary_2_System_Collections_IDictionary_set_Item_m4547_GenericMethod,
+	&Dictionary_2_System_Collections_IDictionary_get_Keys_m4548_GenericMethod,
+	&Dictionary_2_System_Collections_IDictionary_Add_m4549_GenericMethod,
+	&Dictionary_2_System_Collections_IDictionary_Contains_m4550_GenericMethod,
+	&Dictionary_2_System_Collections_IDictionary_GetEnumerator_m4551_GenericMethod,
+	&Dictionary_2_System_Collections_IDictionary_Remove_m4552_GenericMethod,
+	&Dictionary_2_OnDeserialization_m4553_GenericMethod,
+	&Dictionary_2_GetObjectData_m4526_GenericMethod,
+	&Dictionary_2_OnDeserialization_m4553_GenericMethod,
 };
 static bool FBAppRequestsFilterGroup_t424_VTableIsGenericMethod[] =
 {
@@ -11460,41 +11460,41 @@ extern const MethodInfo FBComponentFactory_get_FacebookGameObject_m2286_MethodIn
 
 };
 extern const Il2CppType IfNotExist_t427_0_0_4112;
-static const ParameterInfo FBComponentFactory_t428_FBComponentFactory_GetComponent_m4471_ParameterInfos[] = 
+static const ParameterInfo FBComponentFactory_t428_FBComponentFactory_GetComponent_m4472_ParameterInfos[] = 
 {
 	{"ifNotExist", 0, 134219269, 0, &IfNotExist_t427_0_0_4112},
 };
-extern const Il2CppType FBComponentFactory_GetComponent_m4471_gp_0_0_0_0;
-extern const Il2CppGenericContainer FBComponentFactory_GetComponent_m4471_Il2CppGenericContainer;
-extern TypeInfo FBComponentFactory_GetComponent_m4471_gp_T_0_il2cpp_TypeInfo;
-static const Il2CppType* FBComponentFactory_GetComponent_m4471_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
+extern const Il2CppType FBComponentFactory_GetComponent_m4472_gp_0_0_0_0;
+extern const Il2CppGenericContainer FBComponentFactory_GetComponent_m4472_Il2CppGenericContainer;
+extern TypeInfo FBComponentFactory_GetComponent_m4472_gp_T_0_il2cpp_TypeInfo;
+static const Il2CppType* FBComponentFactory_GetComponent_m4472_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
 &MonoBehaviour_t13_0_0_0 /* UnityEngine.MonoBehaviour */, 
  NULL };
-extern const Il2CppGenericParameter FBComponentFactory_GetComponent_m4471_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &FBComponentFactory_GetComponent_m4471_Il2CppGenericContainer, FBComponentFactory_GetComponent_m4471_gp_T_0_il2cpp_TypeInfo_constraints, "T", 0, 0 };
-static const Il2CppGenericParameter* FBComponentFactory_GetComponent_m4471_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericParameter FBComponentFactory_GetComponent_m4472_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &FBComponentFactory_GetComponent_m4472_Il2CppGenericContainer, FBComponentFactory_GetComponent_m4472_gp_T_0_il2cpp_TypeInfo_constraints, "T", 0, 0 };
+static const Il2CppGenericParameter* FBComponentFactory_GetComponent_m4472_Il2CppGenericParametersArray[1] = 
 {
-	&FBComponentFactory_GetComponent_m4471_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&FBComponentFactory_GetComponent_m4472_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo FBComponentFactory_GetComponent_m4471_MethodInfo;
-extern const Il2CppGenericContainer FBComponentFactory_GetComponent_m4471_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&FBComponentFactory_GetComponent_m4471_MethodInfo, 1, 1, FBComponentFactory_GetComponent_m4471_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod GameObject_GetComponent_TisT_t822_m4553_GenericMethod;
-extern const Il2CppGenericMethod GameObject_AddComponent_TisT_t822_m4554_GenericMethod;
-static Il2CppRGCTXDefinition FBComponentFactory_GetComponent_m4471_RGCTXData[4] = 
+extern const MethodInfo FBComponentFactory_GetComponent_m4472_MethodInfo;
+extern const Il2CppGenericContainer FBComponentFactory_GetComponent_m4472_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&FBComponentFactory_GetComponent_m4472_MethodInfo, 1, 1, FBComponentFactory_GetComponent_m4472_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod GameObject_GetComponent_TisT_t822_m4554_GenericMethod;
+extern const Il2CppGenericMethod GameObject_AddComponent_TisT_t822_m4555_GenericMethod;
+static Il2CppRGCTXDefinition FBComponentFactory_GetComponent_m4472_RGCTXData[4] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_GetComponent_TisT_t822_m4553_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&FBComponentFactory_GetComponent_m4471_gp_0_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_AddComponent_TisT_t822_m4554_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_GetComponent_TisT_t822_m4554_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&FBComponentFactory_GetComponent_m4472_gp_0_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_AddComponent_TisT_t822_m4555_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // T Facebook.FBComponentFactory::GetComponent(Facebook.IfNotExist)
-extern const MethodInfo FBComponentFactory_GetComponent_m4471_MethodInfo = 
+extern const MethodInfo FBComponentFactory_GetComponent_m4472_MethodInfo = 
 {
 	"GetComponent"/* name */
 	, NULL/* method */
 	, &FBComponentFactory_t428_il2cpp_TypeInfo/* declaring_type */
-	, &FBComponentFactory_GetComponent_m4471_gp_0_0_0_0/* return_type */
+	, &FBComponentFactory_GetComponent_m4472_gp_0_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, FBComponentFactory_t428_FBComponentFactory_GetComponent_m4471_ParameterInfos/* parameters */
+	, FBComponentFactory_t428_FBComponentFactory_GetComponent_m4472_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -11503,37 +11503,37 @@ extern const MethodInfo FBComponentFactory_GetComponent_m4471_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 1893/* token */
-	, FBComponentFactory_GetComponent_m4471_RGCTXData/* rgctx_data */
+	, FBComponentFactory_GetComponent_m4472_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &FBComponentFactory_GetComponent_m4471_Il2CppGenericContainer/* genericContainer */
+	, &FBComponentFactory_GetComponent_m4472_Il2CppGenericContainer/* genericContainer */
 
 };
-extern const Il2CppType FBComponentFactory_AddComponent_m4472_gp_0_0_0_0;
-extern const Il2CppGenericContainer FBComponentFactory_AddComponent_m4472_Il2CppGenericContainer;
-extern TypeInfo FBComponentFactory_AddComponent_m4472_gp_T_0_il2cpp_TypeInfo;
-static const Il2CppType* FBComponentFactory_AddComponent_m4472_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
+extern const Il2CppType FBComponentFactory_AddComponent_m4473_gp_0_0_0_0;
+extern const Il2CppGenericContainer FBComponentFactory_AddComponent_m4473_Il2CppGenericContainer;
+extern TypeInfo FBComponentFactory_AddComponent_m4473_gp_T_0_il2cpp_TypeInfo;
+static const Il2CppType* FBComponentFactory_AddComponent_m4473_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
 &MonoBehaviour_t13_0_0_0 /* UnityEngine.MonoBehaviour */, 
  NULL };
-extern const Il2CppGenericParameter FBComponentFactory_AddComponent_m4472_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &FBComponentFactory_AddComponent_m4472_Il2CppGenericContainer, FBComponentFactory_AddComponent_m4472_gp_T_0_il2cpp_TypeInfo_constraints, "T", 0, 0 };
-static const Il2CppGenericParameter* FBComponentFactory_AddComponent_m4472_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericParameter FBComponentFactory_AddComponent_m4473_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &FBComponentFactory_AddComponent_m4473_Il2CppGenericContainer, FBComponentFactory_AddComponent_m4473_gp_T_0_il2cpp_TypeInfo_constraints, "T", 0, 0 };
+static const Il2CppGenericParameter* FBComponentFactory_AddComponent_m4473_Il2CppGenericParametersArray[1] = 
 {
-	&FBComponentFactory_AddComponent_m4472_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&FBComponentFactory_AddComponent_m4473_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo FBComponentFactory_AddComponent_m4472_MethodInfo;
-extern const Il2CppGenericContainer FBComponentFactory_AddComponent_m4472_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&FBComponentFactory_AddComponent_m4472_MethodInfo, 1, 1, FBComponentFactory_AddComponent_m4472_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod GameObject_AddComponent_TisT_t823_m4555_GenericMethod;
-static Il2CppRGCTXDefinition FBComponentFactory_AddComponent_m4472_RGCTXData[2] = 
+extern const MethodInfo FBComponentFactory_AddComponent_m4473_MethodInfo;
+extern const Il2CppGenericContainer FBComponentFactory_AddComponent_m4473_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&FBComponentFactory_AddComponent_m4473_MethodInfo, 1, 1, FBComponentFactory_AddComponent_m4473_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod GameObject_AddComponent_TisT_t823_m4556_GenericMethod;
+static Il2CppRGCTXDefinition FBComponentFactory_AddComponent_m4473_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_AddComponent_TisT_t823_m4555_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_AddComponent_TisT_t823_m4556_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // T Facebook.FBComponentFactory::AddComponent()
-extern const MethodInfo FBComponentFactory_AddComponent_m4472_MethodInfo = 
+extern const MethodInfo FBComponentFactory_AddComponent_m4473_MethodInfo = 
 {
 	"AddComponent"/* name */
 	, NULL/* method */
 	, &FBComponentFactory_t428_il2cpp_TypeInfo/* declaring_type */
-	, &FBComponentFactory_AddComponent_m4472_gp_0_0_0_0/* return_type */
+	, &FBComponentFactory_AddComponent_m4473_gp_0_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11544,17 +11544,17 @@ extern const MethodInfo FBComponentFactory_AddComponent_m4472_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 1894/* token */
-	, FBComponentFactory_AddComponent_m4472_RGCTXData/* rgctx_data */
+	, FBComponentFactory_AddComponent_m4473_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &FBComponentFactory_AddComponent_m4472_Il2CppGenericContainer/* genericContainer */
+	, &FBComponentFactory_AddComponent_m4473_Il2CppGenericContainer/* genericContainer */
 
 };
 static const MethodInfo* FBComponentFactory_t428_MethodInfos[] =
 {
 	&FBComponentFactory__ctor_m2285_MethodInfo,
 	&FBComponentFactory_get_FacebookGameObject_m2286_MethodInfo,
-	&FBComponentFactory_GetComponent_m4471_MethodInfo,
-	&FBComponentFactory_AddComponent_m4472_MethodInfo,
+	&FBComponentFactory_GetComponent_m4472_MethodInfo,
+	&FBComponentFactory_AddComponent_m4473_MethodInfo,
 	NULL
 };
 extern const MethodInfo FBComponentFactory_get_FacebookGameObject_m2286_MethodInfo;
@@ -29270,15 +29270,15 @@ static const MethodInfo* HelpInfo_t482_MethodInfos[] =
 {
 	NULL
 };
-extern const MethodInfo ValueType_Equals_m4556_MethodInfo;
-extern const MethodInfo ValueType_GetHashCode_m4557_MethodInfo;
-extern const MethodInfo ValueType_ToString_m4558_MethodInfo;
+extern const MethodInfo ValueType_Equals_m4557_MethodInfo;
+extern const MethodInfo ValueType_GetHashCode_m4558_MethodInfo;
+extern const MethodInfo ValueType_ToString_m4559_MethodInfo;
 static const Il2CppMethodReference HelpInfo_t482_VTable[] =
 {
-	&ValueType_Equals_m4556_MethodInfo,
+	&ValueType_Equals_m4557_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4557_MethodInfo,
-	&ValueType_ToString_m4558_MethodInfo,
+	&ValueType_GetHashCode_m4558_MethodInfo,
+	&ValueType_ToString_m4559_MethodInfo,
 };
 static bool HelpInfo_t482_VTableIsGenericMethod[] =
 {

@@ -12,5 +12,5 @@ struct Type_t;
 struct String_t;
 
 // System.Void System.Runtime.Serialization.SerializationBinder::.ctor()
-extern "C" void SerializationBinder__ctor_m18524 (SerializationBinder_t4649 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationBinder__ctor_m18525 (SerializationBinder_t4649 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Serialization.SerializationBinder::BindToType(System.String,System.String)

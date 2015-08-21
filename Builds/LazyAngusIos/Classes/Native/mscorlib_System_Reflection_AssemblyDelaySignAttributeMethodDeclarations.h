@@ -8,4 +8,4 @@
 struct AssemblyDelaySignAttribute_t3306;
 
 // System.Void System.Reflection.AssemblyDelaySignAttribute::.ctor(System.Boolean)
-extern "C" void AssemblyDelaySignAttribute__ctor_m11497 (AssemblyDelaySignAttribute_t3306 * __this, bool ___delaySign, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyDelaySignAttribute__ctor_m11498 (AssemblyDelaySignAttribute_t3306 * __this, bool ___delaySign, const MethodInfo* method) IL2CPP_METHOD_ATTR;

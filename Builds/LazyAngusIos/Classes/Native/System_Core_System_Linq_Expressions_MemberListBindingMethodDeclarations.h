@@ -10,4 +10,4 @@ struct MemberListBinding_t3336;
 struct ReadOnlyCollection_1_t3329;
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit> System.Linq.Expressions.MemberListBinding::get_Initializers()
-extern "C" ReadOnlyCollection_1_t3329 * MemberListBinding_get_Initializers_m11695 (MemberListBinding_t3336 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ReadOnlyCollection_1_t3329 * MemberListBinding_get_Initializers_m11696 (MemberListBinding_t3336 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

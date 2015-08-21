@@ -22,110 +22,110 @@ struct IList_1_t7498;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_71.h"
 
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::.ctor()
-extern "C" void Collection_1__ctor_m49756_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
-#define Collection_1__ctor_m49756(__this, method) (( void (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1__ctor_m49756_gshared)(__this, method)
+extern "C" void Collection_1__ctor_m49757_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
+#define Collection_1__ctor_m49757(__this, method) (( void (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1__ctor_m49757_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-extern "C" bool Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m49757_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
-#define Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m49757(__this, method) (( bool (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m49757_gshared)(__this, method)
+extern "C" bool Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m49758_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m49758(__this, method) (( bool (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m49758_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C" void Collection_1_System_Collections_ICollection_CopyTo_m49758_gshared (Collection_1_t7500 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
-#define Collection_1_System_Collections_ICollection_CopyTo_m49758(__this, ___array, ___index, method) (( void (*) (Collection_1_t7500 *, Array_t *, int32_t, const MethodInfo*))Collection_1_System_Collections_ICollection_CopyTo_m49758_gshared)(__this, ___array, ___index, method)
+extern "C" void Collection_1_System_Collections_ICollection_CopyTo_m49759_gshared (Collection_1_t7500 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
+#define Collection_1_System_Collections_ICollection_CopyTo_m49759(__this, ___array, ___index, method) (( void (*) (Collection_1_t7500 *, Array_t *, int32_t, const MethodInfo*))Collection_1_System_Collections_ICollection_CopyTo_m49759_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * Collection_1_System_Collections_IEnumerable_GetEnumerator_m49759_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
-#define Collection_1_System_Collections_IEnumerable_GetEnumerator_m49759(__this, method) (( Object_t * (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_System_Collections_IEnumerable_GetEnumerator_m49759_gshared)(__this, method)
+extern "C" Object_t * Collection_1_System_Collections_IEnumerable_GetEnumerator_m49760_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_IEnumerable_GetEnumerator_m49760(__this, method) (( Object_t * (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_System_Collections_IEnumerable_GetEnumerator_m49760_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.IList.Add(System.Object)
-extern "C" int32_t Collection_1_System_Collections_IList_Add_m49760_gshared (Collection_1_t7500 * __this, Object_t * ___value, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_Add_m49760(__this, ___value, method) (( int32_t (*) (Collection_1_t7500 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Add_m49760_gshared)(__this, ___value, method)
+extern "C" int32_t Collection_1_System_Collections_IList_Add_m49761_gshared (Collection_1_t7500 * __this, Object_t * ___value, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_Add_m49761(__this, ___value, method) (( int32_t (*) (Collection_1_t7500 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Add_m49761_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.IList.Contains(System.Object)
-extern "C" bool Collection_1_System_Collections_IList_Contains_m49761_gshared (Collection_1_t7500 * __this, Object_t * ___value, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_Contains_m49761(__this, ___value, method) (( bool (*) (Collection_1_t7500 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Contains_m49761_gshared)(__this, ___value, method)
+extern "C" bool Collection_1_System_Collections_IList_Contains_m49762_gshared (Collection_1_t7500 * __this, Object_t * ___value, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_Contains_m49762(__this, ___value, method) (( bool (*) (Collection_1_t7500 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Contains_m49762_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.IList.IndexOf(System.Object)
-extern "C" int32_t Collection_1_System_Collections_IList_IndexOf_m49762_gshared (Collection_1_t7500 * __this, Object_t * ___value, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_IndexOf_m49762(__this, ___value, method) (( int32_t (*) (Collection_1_t7500 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_IndexOf_m49762_gshared)(__this, ___value, method)
+extern "C" int32_t Collection_1_System_Collections_IList_IndexOf_m49763_gshared (Collection_1_t7500 * __this, Object_t * ___value, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_IndexOf_m49763(__this, ___value, method) (( int32_t (*) (Collection_1_t7500 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_IndexOf_m49763_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.IList.Insert(System.Int32,System.Object)
-extern "C" void Collection_1_System_Collections_IList_Insert_m49763_gshared (Collection_1_t7500 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_Insert_m49763(__this, ___index, ___value, method) (( void (*) (Collection_1_t7500 *, int32_t, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Insert_m49763_gshared)(__this, ___index, ___value, method)
+extern "C" void Collection_1_System_Collections_IList_Insert_m49764_gshared (Collection_1_t7500 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_Insert_m49764(__this, ___index, ___value, method) (( void (*) (Collection_1_t7500 *, int32_t, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Insert_m49764_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.IList.Remove(System.Object)
-extern "C" void Collection_1_System_Collections_IList_Remove_m49764_gshared (Collection_1_t7500 * __this, Object_t * ___value, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_Remove_m49764(__this, ___value, method) (( void (*) (Collection_1_t7500 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Remove_m49764_gshared)(__this, ___value, method)
+extern "C" void Collection_1_System_Collections_IList_Remove_m49765_gshared (Collection_1_t7500 * __this, Object_t * ___value, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_Remove_m49765(__this, ___value, method) (( void (*) (Collection_1_t7500 *, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_Remove_m49765_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.ICollection.get_IsSynchronized()
-extern "C" bool Collection_1_System_Collections_ICollection_get_IsSynchronized_m49765_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
-#define Collection_1_System_Collections_ICollection_get_IsSynchronized_m49765(__this, method) (( bool (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_System_Collections_ICollection_get_IsSynchronized_m49765_gshared)(__this, method)
+extern "C" bool Collection_1_System_Collections_ICollection_get_IsSynchronized_m49766_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_ICollection_get_IsSynchronized_m49766(__this, method) (( bool (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_System_Collections_ICollection_get_IsSynchronized_m49766_gshared)(__this, method)
 // System.Object System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.ICollection.get_SyncRoot()
-extern "C" Object_t * Collection_1_System_Collections_ICollection_get_SyncRoot_m49766_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
-#define Collection_1_System_Collections_ICollection_get_SyncRoot_m49766(__this, method) (( Object_t * (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_System_Collections_ICollection_get_SyncRoot_m49766_gshared)(__this, method)
+extern "C" Object_t * Collection_1_System_Collections_ICollection_get_SyncRoot_m49767_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_ICollection_get_SyncRoot_m49767(__this, method) (( Object_t * (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_System_Collections_ICollection_get_SyncRoot_m49767_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.IList.get_IsFixedSize()
-extern "C" bool Collection_1_System_Collections_IList_get_IsFixedSize_m49767_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_get_IsFixedSize_m49767(__this, method) (( bool (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_System_Collections_IList_get_IsFixedSize_m49767_gshared)(__this, method)
+extern "C" bool Collection_1_System_Collections_IList_get_IsFixedSize_m49768_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_get_IsFixedSize_m49768(__this, method) (( bool (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_System_Collections_IList_get_IsFixedSize_m49768_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.IList.get_IsReadOnly()
-extern "C" bool Collection_1_System_Collections_IList_get_IsReadOnly_m49768_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_get_IsReadOnly_m49768(__this, method) (( bool (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_System_Collections_IList_get_IsReadOnly_m49768_gshared)(__this, method)
+extern "C" bool Collection_1_System_Collections_IList_get_IsReadOnly_m49769_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_get_IsReadOnly_m49769(__this, method) (( bool (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_System_Collections_IList_get_IsReadOnly_m49769_gshared)(__this, method)
 // System.Object System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.IList.get_Item(System.Int32)
-extern "C" Object_t * Collection_1_System_Collections_IList_get_Item_m49769_gshared (Collection_1_t7500 * __this, int32_t ___index, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_get_Item_m49769(__this, ___index, method) (( Object_t * (*) (Collection_1_t7500 *, int32_t, const MethodInfo*))Collection_1_System_Collections_IList_get_Item_m49769_gshared)(__this, ___index, method)
+extern "C" Object_t * Collection_1_System_Collections_IList_get_Item_m49770_gshared (Collection_1_t7500 * __this, int32_t ___index, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_get_Item_m49770(__this, ___index, method) (( Object_t * (*) (Collection_1_t7500 *, int32_t, const MethodInfo*))Collection_1_System_Collections_IList_get_Item_m49770_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::System.Collections.IList.set_Item(System.Int32,System.Object)
-extern "C" void Collection_1_System_Collections_IList_set_Item_m49770_gshared (Collection_1_t7500 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
-#define Collection_1_System_Collections_IList_set_Item_m49770(__this, ___index, ___value, method) (( void (*) (Collection_1_t7500 *, int32_t, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_set_Item_m49770_gshared)(__this, ___index, ___value, method)
+extern "C" void Collection_1_System_Collections_IList_set_Item_m49771_gshared (Collection_1_t7500 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_set_Item_m49771(__this, ___index, ___value, method) (( void (*) (Collection_1_t7500 *, int32_t, Object_t *, const MethodInfo*))Collection_1_System_Collections_IList_set_Item_m49771_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::Add(T)
-extern "C" void Collection_1_Add_m49771_gshared (Collection_1_t7500 * __this, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
-#define Collection_1_Add_m49771(__this, ___item, method) (( void (*) (Collection_1_t7500 *, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_Add_m49771_gshared)(__this, ___item, method)
+extern "C" void Collection_1_Add_m49772_gshared (Collection_1_t7500 * __this, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
+#define Collection_1_Add_m49772(__this, ___item, method) (( void (*) (Collection_1_t7500 *, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_Add_m49772_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::Clear()
-extern "C" void Collection_1_Clear_m49772_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
-#define Collection_1_Clear_m49772(__this, method) (( void (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_Clear_m49772_gshared)(__this, method)
+extern "C" void Collection_1_Clear_m49773_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
+#define Collection_1_Clear_m49773(__this, method) (( void (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_Clear_m49773_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::ClearItems()
-extern "C" void Collection_1_ClearItems_m49773_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
-#define Collection_1_ClearItems_m49773(__this, method) (( void (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_ClearItems_m49773_gshared)(__this, method)
+extern "C" void Collection_1_ClearItems_m49774_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
+#define Collection_1_ClearItems_m49774(__this, method) (( void (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_ClearItems_m49774_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::Contains(T)
-extern "C" bool Collection_1_Contains_m49774_gshared (Collection_1_t7500 * __this, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
-#define Collection_1_Contains_m49774(__this, ___item, method) (( bool (*) (Collection_1_t7500 *, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_Contains_m49774_gshared)(__this, ___item, method)
+extern "C" bool Collection_1_Contains_m49775_gshared (Collection_1_t7500 * __this, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
+#define Collection_1_Contains_m49775(__this, ___item, method) (( bool (*) (Collection_1_t7500 *, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_Contains_m49775_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::CopyTo(T[],System.Int32)
-extern "C" void Collection_1_CopyTo_m49775_gshared (Collection_1_t7500 * __this, KeyValuePair_2U5BU5D_t7495* ___array, int32_t ___index, const MethodInfo* method);
-#define Collection_1_CopyTo_m49775(__this, ___array, ___index, method) (( void (*) (Collection_1_t7500 *, KeyValuePair_2U5BU5D_t7495*, int32_t, const MethodInfo*))Collection_1_CopyTo_m49775_gshared)(__this, ___array, ___index, method)
+extern "C" void Collection_1_CopyTo_m49776_gshared (Collection_1_t7500 * __this, KeyValuePair_2U5BU5D_t7495* ___array, int32_t ___index, const MethodInfo* method);
+#define Collection_1_CopyTo_m49776(__this, ___array, ___index, method) (( void (*) (Collection_1_t7500 *, KeyValuePair_2U5BU5D_t7495*, int32_t, const MethodInfo*))Collection_1_CopyTo_m49776_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::GetEnumerator()
-extern "C" Object_t* Collection_1_GetEnumerator_m49776_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
-#define Collection_1_GetEnumerator_m49776(__this, method) (( Object_t* (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_GetEnumerator_m49776_gshared)(__this, method)
+extern "C" Object_t* Collection_1_GetEnumerator_m49777_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
+#define Collection_1_GetEnumerator_m49777(__this, method) (( Object_t* (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_GetEnumerator_m49777_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::IndexOf(T)
-extern "C" int32_t Collection_1_IndexOf_m49777_gshared (Collection_1_t7500 * __this, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
-#define Collection_1_IndexOf_m49777(__this, ___item, method) (( int32_t (*) (Collection_1_t7500 *, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_IndexOf_m49777_gshared)(__this, ___item, method)
+extern "C" int32_t Collection_1_IndexOf_m49778_gshared (Collection_1_t7500 * __this, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
+#define Collection_1_IndexOf_m49778(__this, ___item, method) (( int32_t (*) (Collection_1_t7500 *, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_IndexOf_m49778_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::Insert(System.Int32,T)
-extern "C" void Collection_1_Insert_m49778_gshared (Collection_1_t7500 * __this, int32_t ___index, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
-#define Collection_1_Insert_m49778(__this, ___index, ___item, method) (( void (*) (Collection_1_t7500 *, int32_t, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_Insert_m49778_gshared)(__this, ___index, ___item, method)
+extern "C" void Collection_1_Insert_m49779_gshared (Collection_1_t7500 * __this, int32_t ___index, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
+#define Collection_1_Insert_m49779(__this, ___index, ___item, method) (( void (*) (Collection_1_t7500 *, int32_t, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_Insert_m49779_gshared)(__this, ___index, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::InsertItem(System.Int32,T)
-extern "C" void Collection_1_InsertItem_m49779_gshared (Collection_1_t7500 * __this, int32_t ___index, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
-#define Collection_1_InsertItem_m49779(__this, ___index, ___item, method) (( void (*) (Collection_1_t7500 *, int32_t, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_InsertItem_m49779_gshared)(__this, ___index, ___item, method)
+extern "C" void Collection_1_InsertItem_m49780_gshared (Collection_1_t7500 * __this, int32_t ___index, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
+#define Collection_1_InsertItem_m49780(__this, ___index, ___item, method) (( void (*) (Collection_1_t7500 *, int32_t, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_InsertItem_m49780_gshared)(__this, ___index, ___item, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::Remove(T)
-extern "C" bool Collection_1_Remove_m49780_gshared (Collection_1_t7500 * __this, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
-#define Collection_1_Remove_m49780(__this, ___item, method) (( bool (*) (Collection_1_t7500 *, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_Remove_m49780_gshared)(__this, ___item, method)
+extern "C" bool Collection_1_Remove_m49781_gshared (Collection_1_t7500 * __this, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
+#define Collection_1_Remove_m49781(__this, ___item, method) (( bool (*) (Collection_1_t7500 *, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_Remove_m49781_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::RemoveAt(System.Int32)
-extern "C" void Collection_1_RemoveAt_m49781_gshared (Collection_1_t7500 * __this, int32_t ___index, const MethodInfo* method);
-#define Collection_1_RemoveAt_m49781(__this, ___index, method) (( void (*) (Collection_1_t7500 *, int32_t, const MethodInfo*))Collection_1_RemoveAt_m49781_gshared)(__this, ___index, method)
+extern "C" void Collection_1_RemoveAt_m49782_gshared (Collection_1_t7500 * __this, int32_t ___index, const MethodInfo* method);
+#define Collection_1_RemoveAt_m49782(__this, ___index, method) (( void (*) (Collection_1_t7500 *, int32_t, const MethodInfo*))Collection_1_RemoveAt_m49782_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::RemoveItem(System.Int32)
-extern "C" void Collection_1_RemoveItem_m49782_gshared (Collection_1_t7500 * __this, int32_t ___index, const MethodInfo* method);
-#define Collection_1_RemoveItem_m49782(__this, ___index, method) (( void (*) (Collection_1_t7500 *, int32_t, const MethodInfo*))Collection_1_RemoveItem_m49782_gshared)(__this, ___index, method)
+extern "C" void Collection_1_RemoveItem_m49783_gshared (Collection_1_t7500 * __this, int32_t ___index, const MethodInfo* method);
+#define Collection_1_RemoveItem_m49783(__this, ___index, method) (( void (*) (Collection_1_t7500 *, int32_t, const MethodInfo*))Collection_1_RemoveItem_m49783_gshared)(__this, ___index, method)
 // System.Int32 System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::get_Count()
-extern "C" int32_t Collection_1_get_Count_m49783_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
-#define Collection_1_get_Count_m49783(__this, method) (( int32_t (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_get_Count_m49783_gshared)(__this, method)
+extern "C" int32_t Collection_1_get_Count_m49784_gshared (Collection_1_t7500 * __this, const MethodInfo* method);
+#define Collection_1_get_Count_m49784(__this, method) (( int32_t (*) (Collection_1_t7500 *, const MethodInfo*))Collection_1_get_Count_m49784_gshared)(__this, method)
 // T System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::get_Item(System.Int32)
-extern "C" KeyValuePair_2_t7218  Collection_1_get_Item_m49784_gshared (Collection_1_t7500 * __this, int32_t ___index, const MethodInfo* method);
-#define Collection_1_get_Item_m49784(__this, ___index, method) (( KeyValuePair_2_t7218  (*) (Collection_1_t7500 *, int32_t, const MethodInfo*))Collection_1_get_Item_m49784_gshared)(__this, ___index, method)
+extern "C" KeyValuePair_2_t7218  Collection_1_get_Item_m49785_gshared (Collection_1_t7500 * __this, int32_t ___index, const MethodInfo* method);
+#define Collection_1_get_Item_m49785(__this, ___index, method) (( KeyValuePair_2_t7218  (*) (Collection_1_t7500 *, int32_t, const MethodInfo*))Collection_1_get_Item_m49785_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::set_Item(System.Int32,T)
-extern "C" void Collection_1_set_Item_m49785_gshared (Collection_1_t7500 * __this, int32_t ___index, KeyValuePair_2_t7218  ___value, const MethodInfo* method);
-#define Collection_1_set_Item_m49785(__this, ___index, ___value, method) (( void (*) (Collection_1_t7500 *, int32_t, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_set_Item_m49785_gshared)(__this, ___index, ___value, method)
+extern "C" void Collection_1_set_Item_m49786_gshared (Collection_1_t7500 * __this, int32_t ___index, KeyValuePair_2_t7218  ___value, const MethodInfo* method);
+#define Collection_1_set_Item_m49786(__this, ___index, ___value, method) (( void (*) (Collection_1_t7500 *, int32_t, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_set_Item_m49786_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::SetItem(System.Int32,T)
-extern "C" void Collection_1_SetItem_m49786_gshared (Collection_1_t7500 * __this, int32_t ___index, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
-#define Collection_1_SetItem_m49786(__this, ___index, ___item, method) (( void (*) (Collection_1_t7500 *, int32_t, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_SetItem_m49786_gshared)(__this, ___index, ___item, method)
+extern "C" void Collection_1_SetItem_m49787_gshared (Collection_1_t7500 * __this, int32_t ___index, KeyValuePair_2_t7218  ___item, const MethodInfo* method);
+#define Collection_1_SetItem_m49787(__this, ___index, ___item, method) (( void (*) (Collection_1_t7500 *, int32_t, KeyValuePair_2_t7218 , const MethodInfo*))Collection_1_SetItem_m49787_gshared)(__this, ___index, ___item, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::IsValidItem(System.Object)
-extern "C" bool Collection_1_IsValidItem_m49787_gshared (Object_t * __this /* static, unused */, Object_t * ___item, const MethodInfo* method);
-#define Collection_1_IsValidItem_m49787(__this /* static, unused */, ___item, method) (( bool (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Collection_1_IsValidItem_m49787_gshared)(__this /* static, unused */, ___item, method)
+extern "C" bool Collection_1_IsValidItem_m49788_gshared (Object_t * __this /* static, unused */, Object_t * ___item, const MethodInfo* method);
+#define Collection_1_IsValidItem_m49788(__this /* static, unused */, ___item, method) (( bool (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Collection_1_IsValidItem_m49788_gshared)(__this /* static, unused */, ___item, method)
 // T System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::ConvertItem(System.Object)
-extern "C" KeyValuePair_2_t7218  Collection_1_ConvertItem_m49788_gshared (Object_t * __this /* static, unused */, Object_t * ___item, const MethodInfo* method);
-#define Collection_1_ConvertItem_m49788(__this /* static, unused */, ___item, method) (( KeyValuePair_2_t7218  (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Collection_1_ConvertItem_m49788_gshared)(__this /* static, unused */, ___item, method)
+extern "C" KeyValuePair_2_t7218  Collection_1_ConvertItem_m49789_gshared (Object_t * __this /* static, unused */, Object_t * ___item, const MethodInfo* method);
+#define Collection_1_ConvertItem_m49789(__this /* static, unused */, ___item, method) (( KeyValuePair_2_t7218  (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Collection_1_ConvertItem_m49789_gshared)(__this /* static, unused */, ___item, method)
 // System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::CheckWritable(System.Collections.Generic.IList`1<T>)
-extern "C" void Collection_1_CheckWritable_m49789_gshared (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method);
-#define Collection_1_CheckWritable_m49789(__this /* static, unused */, ___list, method) (( void (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Collection_1_CheckWritable_m49789_gshared)(__this /* static, unused */, ___list, method)
+extern "C" void Collection_1_CheckWritable_m49790_gshared (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method);
+#define Collection_1_CheckWritable_m49790(__this /* static, unused */, ___list, method) (( void (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Collection_1_CheckWritable_m49790_gshared)(__this /* static, unused */, ___list, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::IsSynchronized(System.Collections.Generic.IList`1<T>)
-extern "C" bool Collection_1_IsSynchronized_m49790_gshared (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method);
-#define Collection_1_IsSynchronized_m49790(__this /* static, unused */, ___list, method) (( bool (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Collection_1_IsSynchronized_m49790_gshared)(__this /* static, unused */, ___list, method)
+extern "C" bool Collection_1_IsSynchronized_m49791_gshared (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method);
+#define Collection_1_IsSynchronized_m49791(__this /* static, unused */, ___list, method) (( bool (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Collection_1_IsSynchronized_m49791_gshared)(__this /* static, unused */, ___list, method)
 // System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>::IsFixedSize(System.Collections.Generic.IList`1<T>)
-extern "C" bool Collection_1_IsFixedSize_m49791_gshared (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method);
-#define Collection_1_IsFixedSize_m49791(__this /* static, unused */, ___list, method) (( bool (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Collection_1_IsFixedSize_m49791_gshared)(__this /* static, unused */, ___list, method)
+extern "C" bool Collection_1_IsFixedSize_m49792_gshared (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method);
+#define Collection_1_IsFixedSize_m49792(__this /* static, unused */, ___list, method) (( bool (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Collection_1_IsFixedSize_m49792_gshared)(__this /* static, unused */, ___list, method)

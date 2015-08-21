@@ -8,4 +8,4 @@
 struct XsdUnsignedByte_t3124;
 
 // System.Void Mono.Xml.Schema.XsdUnsignedByte::.ctor()
-extern "C" void XsdUnsignedByte__ctor_m10455 (XsdUnsignedByte_t3124 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdUnsignedByte__ctor_m10456 (XsdUnsignedByte_t3124 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

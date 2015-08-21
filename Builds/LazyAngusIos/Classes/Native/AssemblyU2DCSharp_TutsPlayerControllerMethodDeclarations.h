@@ -8,8 +8,8 @@
 struct TutsPlayerController_t666;
 
 // System.Void TutsPlayerController::.ctor()
-extern "C" void TutsPlayerController__ctor_m3573 (TutsPlayerController_t666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TutsPlayerController__ctor_m3574 (TutsPlayerController_t666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TutsPlayerController::Start()
-extern "C" void TutsPlayerController_Start_m3574 (TutsPlayerController_t666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TutsPlayerController_Start_m3575 (TutsPlayerController_t666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TutsPlayerController::Update()
-extern "C" void TutsPlayerController_Update_m3575 (TutsPlayerController_t666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TutsPlayerController_Update_m3576 (TutsPlayerController_t666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

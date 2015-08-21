@@ -12,24 +12,24 @@ struct String_t;
 struct DTDObjectModel_t3171;
 
 // System.Void Mono.Xml.DTDNotationDeclaration::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDNotationDeclaration__ctor_m10645 (DTDNotationDeclaration_t3194 * __this, DTDObjectModel_t3171 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDNotationDeclaration__ctor_m10646 (DTDNotationDeclaration_t3194 * __this, DTDObjectModel_t3171 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDNotationDeclaration::get_Name()
-extern "C" String_t* DTDNotationDeclaration_get_Name_m10646 (DTDNotationDeclaration_t3194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDNotationDeclaration_get_Name_m10647 (DTDNotationDeclaration_t3194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDNotationDeclaration::set_Name(System.String)
-extern "C" void DTDNotationDeclaration_set_Name_m10647 (DTDNotationDeclaration_t3194 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDNotationDeclaration_set_Name_m10648 (DTDNotationDeclaration_t3194 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDNotationDeclaration::get_PublicId()
-extern "C" String_t* DTDNotationDeclaration_get_PublicId_m10648 (DTDNotationDeclaration_t3194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDNotationDeclaration_get_PublicId_m10649 (DTDNotationDeclaration_t3194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDNotationDeclaration::set_PublicId(System.String)
-extern "C" void DTDNotationDeclaration_set_PublicId_m10649 (DTDNotationDeclaration_t3194 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDNotationDeclaration_set_PublicId_m10650 (DTDNotationDeclaration_t3194 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDNotationDeclaration::get_SystemId()
-extern "C" String_t* DTDNotationDeclaration_get_SystemId_m10650 (DTDNotationDeclaration_t3194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDNotationDeclaration_get_SystemId_m10651 (DTDNotationDeclaration_t3194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDNotationDeclaration::set_SystemId(System.String)
-extern "C" void DTDNotationDeclaration_set_SystemId_m10651 (DTDNotationDeclaration_t3194 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDNotationDeclaration_set_SystemId_m10652 (DTDNotationDeclaration_t3194 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDNotationDeclaration::get_LocalName()
-extern "C" String_t* DTDNotationDeclaration_get_LocalName_m10652 (DTDNotationDeclaration_t3194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDNotationDeclaration_get_LocalName_m10653 (DTDNotationDeclaration_t3194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDNotationDeclaration::set_LocalName(System.String)
-extern "C" void DTDNotationDeclaration_set_LocalName_m10653 (DTDNotationDeclaration_t3194 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDNotationDeclaration_set_LocalName_m10654 (DTDNotationDeclaration_t3194 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Xml.DTDNotationDeclaration::get_Prefix()
-extern "C" String_t* DTDNotationDeclaration_get_Prefix_m10654 (DTDNotationDeclaration_t3194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DTDNotationDeclaration_get_Prefix_m10655 (DTDNotationDeclaration_t3194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDNotationDeclaration::set_Prefix(System.String)
-extern "C" void DTDNotationDeclaration_set_Prefix_m10655 (DTDNotationDeclaration_t3194 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDNotationDeclaration_set_Prefix_m10656 (DTDNotationDeclaration_t3194 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

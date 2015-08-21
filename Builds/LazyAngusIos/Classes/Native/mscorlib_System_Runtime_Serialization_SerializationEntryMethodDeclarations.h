@@ -14,8 +14,8 @@ struct Object_t;
 struct Type_t;
 
 // System.Void System.Runtime.Serialization.SerializationEntry::.ctor(System.String,System.Type,System.Object)
-extern "C" void SerializationEntry__ctor_m18537 (SerializationEntry_t4675 * __this, String_t* ___name, Type_t * ___type, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationEntry__ctor_m18538 (SerializationEntry_t4675 * __this, String_t* ___name, Type_t * ___type, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Serialization.SerializationEntry::get_Name()
-extern "C" String_t* SerializationEntry_get_Name_m18538 (SerializationEntry_t4675 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SerializationEntry_get_Name_m18539 (SerializationEntry_t4675 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Serialization.SerializationEntry::get_Value()
-extern "C" Object_t * SerializationEntry_get_Value_m18539 (SerializationEntry_t4675 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SerializationEntry_get_Value_m18540 (SerializationEntry_t4675 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

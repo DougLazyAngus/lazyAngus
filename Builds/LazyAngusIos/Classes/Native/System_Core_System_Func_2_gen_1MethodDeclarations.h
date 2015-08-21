@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Single>
 #include "System_Core_System_Func_2_gen_58MethodDeclarations.h"
-#define Func_2__ctor_m6175(__this, ___object, ___method, method) (( void (*) (Func_2_t1005 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m30389_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m6176(__this, ___object, ___method, method) (( void (*) (Func_2_t1005 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m30390_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>::Invoke(T)
-#define Func_2_Invoke_m30390(__this, ___arg1, method) (( float (*) (Func_2_t1005 *, Object_t *, const MethodInfo*))Func_2_Invoke_m30391_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m30391(__this, ___arg1, method) (( float (*) (Func_2_t1005 *, Object_t *, const MethodInfo*))Func_2_Invoke_m30392_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m30392(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1005 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30393_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m30393(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1005 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30394_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m30394(__this, ___result, method) (( float (*) (Func_2_t1005 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30395_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m30395(__this, ___result, method) (( float (*) (Func_2_t1005 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30396_gshared)(__this, ___result, method)

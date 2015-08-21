@@ -10,4 +10,4 @@ struct PlayerPrefsException_t2757;
 struct String_t;
 
 // System.Void UnityEngine.PlayerPrefsException::.ctor(System.String)
-extern "C" void PlayerPrefsException__ctor_m9424 (PlayerPrefsException_t2757 * __this, String_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PlayerPrefsException__ctor_m9425 (PlayerPrefsException_t2757 * __this, String_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;

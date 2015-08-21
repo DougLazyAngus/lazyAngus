@@ -8,4 +8,4 @@
 struct MonoAsyncCall_t4820;
 
 // System.Void System.MonoAsyncCall::.ctor()
-extern "C" void MonoAsyncCall__ctor_m19810 (MonoAsyncCall_t4820 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoAsyncCall__ctor_m19811 (MonoAsyncCall_t4820 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

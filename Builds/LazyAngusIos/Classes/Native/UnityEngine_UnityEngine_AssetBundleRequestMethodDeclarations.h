@@ -13,8 +13,8 @@ struct Object_t701_marshaled;
 struct ObjectU5BU5D_t2896;
 
 // System.Void UnityEngine.AssetBundleRequest::.ctor()
-extern "C" void AssetBundleRequest__ctor_m8673 (AssetBundleRequest_t2682 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssetBundleRequest__ctor_m8674 (AssetBundleRequest_t2682 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.AssetBundleRequest::get_asset()
-extern "C" Object_t701 * AssetBundleRequest_get_asset_m8674 (AssetBundleRequest_t2682 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t701 * AssetBundleRequest_get_asset_m8675 (AssetBundleRequest_t2682 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object[] UnityEngine.AssetBundleRequest::get_allAssets()
-extern "C" ObjectU5BU5D_t2896* AssetBundleRequest_get_allAssets_m8675 (AssetBundleRequest_t2682 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t2896* AssetBundleRequest_get_allAssets_m8676 (AssetBundleRequest_t2682 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -10,4 +10,4 @@ struct AssemblyCopyrightAttribute_t1098;
 struct String_t;
 
 // System.Void System.Reflection.AssemblyCopyrightAttribute::.ctor(System.String)
-extern "C" void AssemblyCopyrightAttribute__ctor_m6193 (AssemblyCopyrightAttribute_t1098 * __this, String_t* ___copyright, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyCopyrightAttribute__ctor_m6194 (AssemblyCopyrightAttribute_t1098 * __this, String_t* ___copyright, const MethodInfo* method) IL2CPP_METHOD_ATTR;

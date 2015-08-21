@@ -18,11 +18,11 @@ struct ObjectU5BU5D_t680;
 #include "System_Core_System_Linq_SortDirection.h"
 
 // System.Void System.Linq.SortSequenceContext`2<System.Object,System.Object>::.ctor(System.Func`2<TElement,TKey>,System.Collections.Generic.IComparer`1<TKey>,System.Linq.SortDirection,System.Linq.SortContext`1<TElement>)
-extern "C" void SortSequenceContext_2__ctor_m31865_gshared (SortSequenceContext_2_t6069 * __this, Func_2_t1225 * ___selector, Object_t* ___comparer, int32_t ___direction, SortContext_1_t6068 * ___child_context, const MethodInfo* method);
-#define SortSequenceContext_2__ctor_m31865(__this, ___selector, ___comparer, ___direction, ___child_context, method) (( void (*) (SortSequenceContext_2_t6069 *, Func_2_t1225 *, Object_t*, int32_t, SortContext_1_t6068 *, const MethodInfo*))SortSequenceContext_2__ctor_m31865_gshared)(__this, ___selector, ___comparer, ___direction, ___child_context, method)
+extern "C" void SortSequenceContext_2__ctor_m31866_gshared (SortSequenceContext_2_t6069 * __this, Func_2_t1225 * ___selector, Object_t* ___comparer, int32_t ___direction, SortContext_1_t6068 * ___child_context, const MethodInfo* method);
+#define SortSequenceContext_2__ctor_m31866(__this, ___selector, ___comparer, ___direction, ___child_context, method) (( void (*) (SortSequenceContext_2_t6069 *, Func_2_t1225 *, Object_t*, int32_t, SortContext_1_t6068 *, const MethodInfo*))SortSequenceContext_2__ctor_m31866_gshared)(__this, ___selector, ___comparer, ___direction, ___child_context, method)
 // System.Void System.Linq.SortSequenceContext`2<System.Object,System.Object>::Initialize(TElement[])
-extern "C" void SortSequenceContext_2_Initialize_m31866_gshared (SortSequenceContext_2_t6069 * __this, ObjectU5BU5D_t680* ___elements, const MethodInfo* method);
-#define SortSequenceContext_2_Initialize_m31866(__this, ___elements, method) (( void (*) (SortSequenceContext_2_t6069 *, ObjectU5BU5D_t680*, const MethodInfo*))SortSequenceContext_2_Initialize_m31866_gshared)(__this, ___elements, method)
+extern "C" void SortSequenceContext_2_Initialize_m31867_gshared (SortSequenceContext_2_t6069 * __this, ObjectU5BU5D_t680* ___elements, const MethodInfo* method);
+#define SortSequenceContext_2_Initialize_m31867(__this, ___elements, method) (( void (*) (SortSequenceContext_2_t6069 *, ObjectU5BU5D_t680*, const MethodInfo*))SortSequenceContext_2_Initialize_m31867_gshared)(__this, ___elements, method)
 // System.Int32 System.Linq.SortSequenceContext`2<System.Object,System.Object>::Compare(System.Int32,System.Int32)
-extern "C" int32_t SortSequenceContext_2_Compare_m31867_gshared (SortSequenceContext_2_t6069 * __this, int32_t ___first_index, int32_t ___second_index, const MethodInfo* method);
-#define SortSequenceContext_2_Compare_m31867(__this, ___first_index, ___second_index, method) (( int32_t (*) (SortSequenceContext_2_t6069 *, int32_t, int32_t, const MethodInfo*))SortSequenceContext_2_Compare_m31867_gshared)(__this, ___first_index, ___second_index, method)
+extern "C" int32_t SortSequenceContext_2_Compare_m31868_gshared (SortSequenceContext_2_t6069 * __this, int32_t ___first_index, int32_t ___second_index, const MethodInfo* method);
+#define SortSequenceContext_2_Compare_m31868(__this, ___first_index, ___second_index, method) (( int32_t (*) (SortSequenceContext_2_t6069 *, int32_t, int32_t, const MethodInfo*))SortSequenceContext_2_Compare_m31868_gshared)(__this, ___first_index, ___second_index, method)

@@ -12,8 +12,8 @@ struct Object_t;
 struct Task_t1208;
 
 // System.Void Parse.Internal.InternalExtensions/<>c__DisplayClass1`2<System.Object,System.Object>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1_2__ctor_m31465_gshared (U3CU3Ec__DisplayClass1_2_t6034 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass1_2__ctor_m31465(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_2_t6034 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2__ctor_m31465_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass1_2__ctor_m31466_gshared (U3CU3Ec__DisplayClass1_2_t6034 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1_2__ctor_m31466(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_2_t6034 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2__ctor_m31466_gshared)(__this, method)
 // TResult Parse.Internal.InternalExtensions/<>c__DisplayClass1`2<System.Object,System.Object>::<OnSuccess>b__0(System.Threading.Tasks.Task)
-extern "C" Object_t * U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m31466_gshared (U3CU3Ec__DisplayClass1_2_t6034 * __this, Task_t1208 * ___t, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m31466(__this, ___t, method) (( Object_t * (*) (U3CU3Ec__DisplayClass1_2_t6034 *, Task_t1208 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m31466_gshared)(__this, ___t, method)
+extern "C" Object_t * U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m31467_gshared (U3CU3Ec__DisplayClass1_2_t6034 * __this, Task_t1208 * ___t, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m31467(__this, ___t, method) (( Object_t * (*) (U3CU3Ec__DisplayClass1_2_t6034 *, Task_t1208 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m31467_gshared)(__this, ___t, method)

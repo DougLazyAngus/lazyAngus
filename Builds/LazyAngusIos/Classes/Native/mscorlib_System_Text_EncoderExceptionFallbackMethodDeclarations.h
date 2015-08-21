@@ -12,10 +12,10 @@ struct EncoderFallbackBuffer_t4750;
 struct Object_t;
 
 // System.Void System.Text.EncoderExceptionFallback::.ctor()
-extern "C" void EncoderExceptionFallback__ctor_m19024 (EncoderExceptionFallback_t4747 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncoderExceptionFallback__ctor_m19025 (EncoderExceptionFallback_t4747 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.EncoderFallbackBuffer System.Text.EncoderExceptionFallback::CreateFallbackBuffer()
-extern "C" EncoderFallbackBuffer_t4750 * EncoderExceptionFallback_CreateFallbackBuffer_m19025 (EncoderExceptionFallback_t4747 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" EncoderFallbackBuffer_t4750 * EncoderExceptionFallback_CreateFallbackBuffer_m19026 (EncoderExceptionFallback_t4747 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.EncoderExceptionFallback::Equals(System.Object)
-extern "C" bool EncoderExceptionFallback_Equals_m19026 (EncoderExceptionFallback_t4747 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool EncoderExceptionFallback_Equals_m19027 (EncoderExceptionFallback_t4747 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.EncoderExceptionFallback::GetHashCode()
-extern "C" int32_t EncoderExceptionFallback_GetHashCode_m19027 (EncoderExceptionFallback_t4747 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t EncoderExceptionFallback_GetHashCode_m19028 (EncoderExceptionFallback_t4747 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

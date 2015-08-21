@@ -12,6 +12,6 @@ struct SerializationInfo_t2917;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Threading.ThreadStateException::.ctor()
-extern "C" void ThreadStateException__ctor_m19285 (ThreadStateException_t4771 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadStateException__ctor_m19286 (ThreadStateException_t4771 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ThreadStateException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ThreadStateException__ctor_m19286 (ThreadStateException_t4771 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadStateException__ctor_m19287 (ThreadStateException_t4771 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

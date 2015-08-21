@@ -16,24 +16,24 @@ struct Uri_t755;
 struct CookieCollection_t4019;
 
 // System.Void System.Net.CookieContainer::.ctor()
-extern "C" void CookieContainer__ctor_m13728 (CookieContainer_t4020 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CookieContainer__ctor_m13729 (CookieContainer_t4020 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.CookieContainer::AddCookie(System.Net.Cookie)
-extern "C" void CookieContainer_AddCookie_m13729 (CookieContainer_t4020 * __this, Cookie_t4016 * ___cookie, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CookieContainer_AddCookie_m13730 (CookieContainer_t4020 * __this, Cookie_t4016 * ___cookie, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.CookieContainer::CountDomain(System.String)
-extern "C" int32_t CookieContainer_CountDomain_m13730 (CookieContainer_t4020 * __this, String_t* ___domain, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CookieContainer_CountDomain_m13731 (CookieContainer_t4020 * __this, String_t* ___domain, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.CookieContainer::RemoveOldest(System.String)
-extern "C" void CookieContainer_RemoveOldest_m13731 (CookieContainer_t4020 * __this, String_t* ___domain, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CookieContainer_RemoveOldest_m13732 (CookieContainer_t4020 * __this, String_t* ___domain, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.CookieContainer::CheckExpiration()
-extern "C" void CookieContainer_CheckExpiration_m13732 (CookieContainer_t4020 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CookieContainer_CheckExpiration_m13733 (CookieContainer_t4020 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.CookieContainer::Cook(System.Uri,System.Net.Cookie)
-extern "C" void CookieContainer_Cook_m13733 (CookieContainer_t4020 * __this, Uri_t755 * ___uri, Cookie_t4016 * ___cookie, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CookieContainer_Cook_m13734 (CookieContainer_t4020 * __this, Uri_t755 * ___uri, Cookie_t4016 * ___cookie, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.CookieContainer::Add(System.Uri,System.Net.Cookie)
-extern "C" void CookieContainer_Add_m13734 (CookieContainer_t4020 * __this, Uri_t755 * ___uri, Cookie_t4016 * ___cookie, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CookieContainer_Add_m13735 (CookieContainer_t4020 * __this, Uri_t755 * ___uri, Cookie_t4016 * ___cookie, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.CookieContainer::GetCookieHeader(System.Uri)
-extern "C" String_t* CookieContainer_GetCookieHeader_m13735 (CookieContainer_t4020 * __this, Uri_t755 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* CookieContainer_GetCookieHeader_m13736 (CookieContainer_t4020 * __this, Uri_t755 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.CookieContainer::CheckDomain(System.String,System.String,System.Boolean)
-extern "C" bool CookieContainer_CheckDomain_m13736 (Object_t * __this /* static, unused */, String_t* ___domain, String_t* ___host, bool ___exact, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CookieContainer_CheckDomain_m13737 (Object_t * __this /* static, unused */, String_t* ___domain, String_t* ___host, bool ___exact, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.CookieCollection System.Net.CookieContainer::GetCookies(System.Uri)
-extern "C" CookieCollection_t4019 * CookieContainer_GetCookies_m13737 (CookieContainer_t4020 * __this, Uri_t755 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CookieCollection_t4019 * CookieContainer_GetCookies_m13738 (CookieContainer_t4020 * __this, Uri_t755 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.CookieContainer::IsNullOrEmpty(System.String)
-extern "C" bool CookieContainer_IsNullOrEmpty_m13738 (Object_t * __this /* static, unused */, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CookieContainer_IsNullOrEmpty_m13739 (Object_t * __this /* static, unused */, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;

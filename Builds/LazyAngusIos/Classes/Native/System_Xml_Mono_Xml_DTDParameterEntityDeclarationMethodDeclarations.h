@@ -10,4 +10,4 @@ struct DTDParameterEntityDeclaration_t3195;
 struct DTDObjectModel_t3171;
 
 // System.Void Mono.Xml.DTDParameterEntityDeclaration::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDParameterEntityDeclaration__ctor_m10659 (DTDParameterEntityDeclaration_t3195 * __this, DTDObjectModel_t3171 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDParameterEntityDeclaration__ctor_m10660 (DTDParameterEntityDeclaration_t3195 * __this, DTDObjectModel_t3171 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;

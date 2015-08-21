@@ -8,12 +8,12 @@
 struct HorizontalLayoutGroup_t998;
 
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::.ctor()
-extern "C" void HorizontalLayoutGroup__ctor_m5605 (HorizontalLayoutGroup_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HorizontalLayoutGroup__ctor_m5606 (HorizontalLayoutGroup_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::CalculateLayoutInputHorizontal()
-extern "C" void HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5606 (HorizontalLayoutGroup_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5607 (HorizontalLayoutGroup_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::CalculateLayoutInputVertical()
-extern "C" void HorizontalLayoutGroup_CalculateLayoutInputVertical_m5607 (HorizontalLayoutGroup_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HorizontalLayoutGroup_CalculateLayoutInputVertical_m5608 (HorizontalLayoutGroup_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::SetLayoutHorizontal()
-extern "C" void HorizontalLayoutGroup_SetLayoutHorizontal_m5608 (HorizontalLayoutGroup_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HorizontalLayoutGroup_SetLayoutHorizontal_m5609 (HorizontalLayoutGroup_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::SetLayoutVertical()
-extern "C" void HorizontalLayoutGroup_SetLayoutVertical_m5609 (HorizontalLayoutGroup_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HorizontalLayoutGroup_SetLayoutVertical_m5610 (HorizontalLayoutGroup_t998 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

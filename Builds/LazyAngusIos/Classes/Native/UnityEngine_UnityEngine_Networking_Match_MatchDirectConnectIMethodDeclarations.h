@@ -14,20 +14,20 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_Networking_Types_NodeID.h"
 
 // System.Void UnityEngine.Networking.Match.MatchDirectConnectInfo::.ctor()
-extern "C" void MatchDirectConnectInfo__ctor_m9704 (MatchDirectConnectInfo_t2802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MatchDirectConnectInfo__ctor_m9705 (MatchDirectConnectInfo_t2802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Networking.Types.NodeID UnityEngine.Networking.Match.MatchDirectConnectInfo::get_nodeId()
-extern "C" uint16_t MatchDirectConnectInfo_get_nodeId_m9705 (MatchDirectConnectInfo_t2802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t MatchDirectConnectInfo_get_nodeId_m9706 (MatchDirectConnectInfo_t2802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.MatchDirectConnectInfo::set_nodeId(UnityEngine.Networking.Types.NodeID)
-extern "C" void MatchDirectConnectInfo_set_nodeId_m9706 (MatchDirectConnectInfo_t2802 * __this, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MatchDirectConnectInfo_set_nodeId_m9707 (MatchDirectConnectInfo_t2802 * __this, uint16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Networking.Match.MatchDirectConnectInfo::get_publicAddress()
-extern "C" String_t* MatchDirectConnectInfo_get_publicAddress_m9707 (MatchDirectConnectInfo_t2802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MatchDirectConnectInfo_get_publicAddress_m9708 (MatchDirectConnectInfo_t2802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.MatchDirectConnectInfo::set_publicAddress(System.String)
-extern "C" void MatchDirectConnectInfo_set_publicAddress_m9708 (MatchDirectConnectInfo_t2802 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MatchDirectConnectInfo_set_publicAddress_m9709 (MatchDirectConnectInfo_t2802 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Networking.Match.MatchDirectConnectInfo::get_privateAddress()
-extern "C" String_t* MatchDirectConnectInfo_get_privateAddress_m9709 (MatchDirectConnectInfo_t2802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MatchDirectConnectInfo_get_privateAddress_m9710 (MatchDirectConnectInfo_t2802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.MatchDirectConnectInfo::set_privateAddress(System.String)
-extern "C" void MatchDirectConnectInfo_set_privateAddress_m9710 (MatchDirectConnectInfo_t2802 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MatchDirectConnectInfo_set_privateAddress_m9711 (MatchDirectConnectInfo_t2802 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Networking.Match.MatchDirectConnectInfo::ToString()
-extern "C" String_t* MatchDirectConnectInfo_ToString_m9711 (MatchDirectConnectInfo_t2802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MatchDirectConnectInfo_ToString_m9712 (MatchDirectConnectInfo_t2802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.MatchDirectConnectInfo::Parse(System.Object)
-extern "C" void MatchDirectConnectInfo_Parse_m9712 (MatchDirectConnectInfo_t2802 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MatchDirectConnectInfo_Parse_m9713 (MatchDirectConnectInfo_t2802 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

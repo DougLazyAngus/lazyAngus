@@ -14,12 +14,12 @@ struct SerializationInfo_t2917;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.ObjectDisposedException::.ctor(System.String)
-extern "C" void ObjectDisposedException__ctor_m11814 (ObjectDisposedException_t3294 * __this, String_t* ___objectName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectDisposedException__ctor_m11815 (ObjectDisposedException_t3294 * __this, String_t* ___objectName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ObjectDisposedException::.ctor(System.String,System.String)
-extern "C" void ObjectDisposedException__ctor_m11458 (ObjectDisposedException_t3294 * __this, String_t* ___objectName, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectDisposedException__ctor_m11459 (ObjectDisposedException_t3294 * __this, String_t* ___objectName, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ObjectDisposedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ObjectDisposedException__ctor_m19985 (ObjectDisposedException_t3294 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectDisposedException__ctor_m19986 (ObjectDisposedException_t3294 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.ObjectDisposedException::get_Message()
-extern "C" String_t* ObjectDisposedException_get_Message_m19986 (ObjectDisposedException_t3294 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ObjectDisposedException_get_Message_m19987 (ObjectDisposedException_t3294 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ObjectDisposedException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ObjectDisposedException_GetObjectData_m19987 (ObjectDisposedException_t3294 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectDisposedException_GetObjectData_m19988 (ObjectDisposedException_t3294 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

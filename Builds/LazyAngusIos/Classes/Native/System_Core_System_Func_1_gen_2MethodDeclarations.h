@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`1<System.Threading.Tasks.Task>::.ctor(System.Object,System.IntPtr)
 // System.Func`1<System.Object>
 #include "System_Core_System_Func_1_gen_7MethodDeclarations.h"
-#define Func_1__ctor_m7283(__this, ___object, ___method, method) (( void (*) (Func_1_t1172 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m30656_gshared)(__this, ___object, ___method, method)
+#define Func_1__ctor_m7284(__this, ___object, ___method, method) (( void (*) (Func_1_t1172 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m30657_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`1<System.Threading.Tasks.Task>::Invoke()
-#define Func_1_Invoke_m30704(__this, method) (( Task_t1208 * (*) (Func_1_t1172 *, const MethodInfo*))Func_1_Invoke_m30658_gshared)(__this, method)
+#define Func_1_Invoke_m30705(__this, method) (( Task_t1208 * (*) (Func_1_t1172 *, const MethodInfo*))Func_1_Invoke_m30659_gshared)(__this, method)
 // System.IAsyncResult System.Func`1<System.Threading.Tasks.Task>::BeginInvoke(System.AsyncCallback,System.Object)
-#define Func_1_BeginInvoke_m30705(__this, ___callback, ___object, method) (( Object_t * (*) (Func_1_t1172 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_1_BeginInvoke_m30660_gshared)(__this, ___callback, ___object, method)
+#define Func_1_BeginInvoke_m30706(__this, ___callback, ___object, method) (( Object_t * (*) (Func_1_t1172 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_1_BeginInvoke_m30661_gshared)(__this, ___callback, ___object, method)
 // TResult System.Func`1<System.Threading.Tasks.Task>::EndInvoke(System.IAsyncResult)
-#define Func_1_EndInvoke_m30706(__this, ___result, method) (( Task_t1208 * (*) (Func_1_t1172 *, Object_t *, const MethodInfo*))Func_1_EndInvoke_m30662_gshared)(__this, ___result, method)
+#define Func_1_EndInvoke_m30707(__this, ___result, method) (( Task_t1208 * (*) (Func_1_t1172 *, Object_t *, const MethodInfo*))Func_1_EndInvoke_m30663_gshared)(__this, ___result, method)

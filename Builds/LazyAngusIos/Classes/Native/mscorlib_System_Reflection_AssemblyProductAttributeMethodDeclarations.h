@@ -10,4 +10,4 @@ struct AssemblyProductAttribute_t1097;
 struct String_t;
 
 // System.Void System.Reflection.AssemblyProductAttribute::.ctor(System.String)
-extern "C" void AssemblyProductAttribute__ctor_m6192 (AssemblyProductAttribute_t1097 * __this, String_t* ___product, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyProductAttribute__ctor_m6193 (AssemblyProductAttribute_t1097 * __this, String_t* ___product, const MethodInfo* method) IL2CPP_METHOD_ATTR;

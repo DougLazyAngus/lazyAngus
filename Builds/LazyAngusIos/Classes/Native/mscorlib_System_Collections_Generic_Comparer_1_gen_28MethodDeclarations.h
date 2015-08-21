@@ -12,15 +12,15 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_UILineInfo.h"
 
 // System.Void System.Collections.Generic.Comparer`1<UnityEngine.UILineInfo>::.ctor()
-extern "C" void Comparer_1__ctor_m61117_gshared (Comparer_1_t8445 * __this, const MethodInfo* method);
-#define Comparer_1__ctor_m61117(__this, method) (( void (*) (Comparer_1_t8445 *, const MethodInfo*))Comparer_1__ctor_m61117_gshared)(__this, method)
+extern "C" void Comparer_1__ctor_m61118_gshared (Comparer_1_t8445 * __this, const MethodInfo* method);
+#define Comparer_1__ctor_m61118(__this, method) (( void (*) (Comparer_1_t8445 *, const MethodInfo*))Comparer_1__ctor_m61118_gshared)(__this, method)
 // System.Void System.Collections.Generic.Comparer`1<UnityEngine.UILineInfo>::.cctor()
-extern "C" void Comparer_1__cctor_m61118_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define Comparer_1__cctor_m61118(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1__cctor_m61118_gshared)(__this /* static, unused */, method)
+extern "C" void Comparer_1__cctor_m61119_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define Comparer_1__cctor_m61119(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1__cctor_m61119_gshared)(__this /* static, unused */, method)
 // System.Int32 System.Collections.Generic.Comparer`1<UnityEngine.UILineInfo>::System.Collections.IComparer.Compare(System.Object,System.Object)
-extern "C" int32_t Comparer_1_System_Collections_IComparer_Compare_m61119_gshared (Comparer_1_t8445 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define Comparer_1_System_Collections_IComparer_Compare_m61119(__this, ___x, ___y, method) (( int32_t (*) (Comparer_1_t8445 *, Object_t *, Object_t *, const MethodInfo*))Comparer_1_System_Collections_IComparer_Compare_m61119_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t Comparer_1_System_Collections_IComparer_Compare_m61120_gshared (Comparer_1_t8445 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define Comparer_1_System_Collections_IComparer_Compare_m61120(__this, ___x, ___y, method) (( int32_t (*) (Comparer_1_t8445 *, Object_t *, Object_t *, const MethodInfo*))Comparer_1_System_Collections_IComparer_Compare_m61120_gshared)(__this, ___x, ___y, method)
 // System.Int32 System.Collections.Generic.Comparer`1<UnityEngine.UILineInfo>::Compare(T,T)
 // System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1<UnityEngine.UILineInfo>::get_Default()
-extern "C" Comparer_1_t8445 * Comparer_1_get_Default_m61120_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define Comparer_1_get_Default_m61120(__this /* static, unused */, method) (( Comparer_1_t8445 * (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1_get_Default_m61120_gshared)(__this /* static, unused */, method)
+extern "C" Comparer_1_t8445 * Comparer_1_get_Default_m61121_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define Comparer_1_get_Default_m61121(__this /* static, unused */, method) (( Comparer_1_t8445 * (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1_get_Default_m61121_gshared)(__this /* static, unused */, method)

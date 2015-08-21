@@ -14,12 +14,12 @@ struct String_t;
 struct ByteU5BU5D_t66;
 
 // System.Void System.Security.Cryptography.RSAPKCS1SignatureDeformatter::.ctor()
-extern "C" void RSAPKCS1SignatureDeformatter__ctor_m18749 (RSAPKCS1SignatureDeformatter_t3924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RSAPKCS1SignatureDeformatter__ctor_m18750 (RSAPKCS1SignatureDeformatter_t3924 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RSAPKCS1SignatureDeformatter::.ctor(System.Security.Cryptography.AsymmetricAlgorithm)
-extern "C" void RSAPKCS1SignatureDeformatter__ctor_m13160 (RSAPKCS1SignatureDeformatter_t3924 * __this, AsymmetricAlgorithm_t3898 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RSAPKCS1SignatureDeformatter__ctor_m13161 (RSAPKCS1SignatureDeformatter_t3924 * __this, AsymmetricAlgorithm_t3898 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RSAPKCS1SignatureDeformatter::SetHashAlgorithm(System.String)
-extern "C" void RSAPKCS1SignatureDeformatter_SetHashAlgorithm_m18750 (RSAPKCS1SignatureDeformatter_t3924 * __this, String_t* ___strName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RSAPKCS1SignatureDeformatter_SetHashAlgorithm_m18751 (RSAPKCS1SignatureDeformatter_t3924 * __this, String_t* ___strName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RSAPKCS1SignatureDeformatter::SetKey(System.Security.Cryptography.AsymmetricAlgorithm)
-extern "C" void RSAPKCS1SignatureDeformatter_SetKey_m18751 (RSAPKCS1SignatureDeformatter_t3924 * __this, AsymmetricAlgorithm_t3898 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RSAPKCS1SignatureDeformatter_SetKey_m18752 (RSAPKCS1SignatureDeformatter_t3924 * __this, AsymmetricAlgorithm_t3898 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.RSAPKCS1SignatureDeformatter::VerifySignature(System.Byte[],System.Byte[])
-extern "C" bool RSAPKCS1SignatureDeformatter_VerifySignature_m18752 (RSAPKCS1SignatureDeformatter_t3924 * __this, ByteU5BU5D_t66* ___rgbHash, ByteU5BU5D_t66* ___rgbSignature, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool RSAPKCS1SignatureDeformatter_VerifySignature_m18753 (RSAPKCS1SignatureDeformatter_t3924 * __this, ByteU5BU5D_t66* ___rgbHash, ByteU5BU5D_t66* ___rgbSignature, const MethodInfo* method) IL2CPP_METHOD_ATTR;

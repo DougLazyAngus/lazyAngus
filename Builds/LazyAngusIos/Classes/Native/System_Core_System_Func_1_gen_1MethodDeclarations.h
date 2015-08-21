@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`1<System.Threading.Tasks.Task`1<System.Boolean>>::.ctor(System.Object,System.IntPtr)
 // System.Func`1<System.Object>
 #include "System_Core_System_Func_1_gen_7MethodDeclarations.h"
-#define Func_1__ctor_m7282(__this, ___object, ___method, method) (( void (*) (Func_1_t1173 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m30656_gshared)(__this, ___object, ___method, method)
+#define Func_1__ctor_m7283(__this, ___object, ___method, method) (( void (*) (Func_1_t1173 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m30657_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`1<System.Threading.Tasks.Task`1<System.Boolean>>::Invoke()
-#define Func_1_Invoke_m30701(__this, method) (( Task_1_t1367 * (*) (Func_1_t1173 *, const MethodInfo*))Func_1_Invoke_m30658_gshared)(__this, method)
+#define Func_1_Invoke_m30702(__this, method) (( Task_1_t1367 * (*) (Func_1_t1173 *, const MethodInfo*))Func_1_Invoke_m30659_gshared)(__this, method)
 // System.IAsyncResult System.Func`1<System.Threading.Tasks.Task`1<System.Boolean>>::BeginInvoke(System.AsyncCallback,System.Object)
-#define Func_1_BeginInvoke_m30702(__this, ___callback, ___object, method) (( Object_t * (*) (Func_1_t1173 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_1_BeginInvoke_m30660_gshared)(__this, ___callback, ___object, method)
+#define Func_1_BeginInvoke_m30703(__this, ___callback, ___object, method) (( Object_t * (*) (Func_1_t1173 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_1_BeginInvoke_m30661_gshared)(__this, ___callback, ___object, method)
 // TResult System.Func`1<System.Threading.Tasks.Task`1<System.Boolean>>::EndInvoke(System.IAsyncResult)
-#define Func_1_EndInvoke_m30703(__this, ___result, method) (( Task_1_t1367 * (*) (Func_1_t1173 *, Object_t *, const MethodInfo*))Func_1_EndInvoke_m30662_gshared)(__this, ___result, method)
+#define Func_1_EndInvoke_m30704(__this, ___result, method) (( Task_1_t1367 * (*) (Func_1_t1173 *, Object_t *, const MethodInfo*))Func_1_EndInvoke_m30663_gshared)(__this, ___result, method)

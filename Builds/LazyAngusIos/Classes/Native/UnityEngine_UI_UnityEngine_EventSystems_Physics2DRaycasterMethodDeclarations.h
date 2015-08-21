@@ -12,6 +12,6 @@ struct PointerEventData_t883;
 struct List_1_t884;
 
 // System.Void UnityEngine.EventSystems.Physics2DRaycaster::.ctor()
-extern "C" void Physics2DRaycaster__ctor_m4837 (Physics2DRaycaster_t894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Physics2DRaycaster__ctor_m4838 (Physics2DRaycaster_t894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.Physics2DRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>)
-extern "C" void Physics2DRaycaster_Raycast_m4838 (Physics2DRaycaster_t894 * __this, PointerEventData_t883 * ___eventData, List_1_t884 * ___resultAppendList, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Physics2DRaycaster_Raycast_m4839 (Physics2DRaycaster_t894 * __this, PointerEventData_t883 * ___eventData, List_1_t884 * ___resultAppendList, const MethodInfo* method) IL2CPP_METHOD_ATTR;

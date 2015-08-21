@@ -8,4 +8,4 @@
 struct WaitForEndOfFrame_t706;
 
 // System.Void UnityEngine.WaitForEndOfFrame::.ctor()
-extern "C" void WaitForEndOfFrame__ctor_m3683 (WaitForEndOfFrame_t706 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitForEndOfFrame__ctor_m3684 (WaitForEndOfFrame_t706 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

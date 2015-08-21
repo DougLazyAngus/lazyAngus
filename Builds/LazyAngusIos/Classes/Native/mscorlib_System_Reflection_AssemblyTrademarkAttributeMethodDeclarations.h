@@ -10,4 +10,4 @@ struct AssemblyTrademarkAttribute_t1102;
 struct String_t;
 
 // System.Void System.Reflection.AssemblyTrademarkAttribute::.ctor(System.String)
-extern "C" void AssemblyTrademarkAttribute__ctor_m6197 (AssemblyTrademarkAttribute_t1102 * __this, String_t* ___trademark, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyTrademarkAttribute__ctor_m6198 (AssemblyTrademarkAttribute_t1102 * __this, String_t* ___trademark, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -10,4 +10,4 @@ struct ConditionalAttribute_t4346;
 struct String_t;
 
 // System.Void System.Diagnostics.ConditionalAttribute::.ctor(System.String)
-extern "C" void ConditionalAttribute__ctor_m16269 (ConditionalAttribute_t4346 * __this, String_t* ___conditionString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConditionalAttribute__ctor_m16270 (ConditionalAttribute_t4346 * __this, String_t* ___conditionString, const MethodInfo* method) IL2CPP_METHOD_ATTR;

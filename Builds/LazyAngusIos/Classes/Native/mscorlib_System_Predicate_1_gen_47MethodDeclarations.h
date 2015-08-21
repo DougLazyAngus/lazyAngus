@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Predicate`1<System.WeakReference>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m31405(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6028 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21709_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m31406(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6028 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21710_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<System.WeakReference>::Invoke(T)
-#define Predicate_1_Invoke_m31406(__this, ___obj, method) (( bool (*) (Predicate_1_t6028 *, WeakReference_t2222 *, const MethodInfo*))Predicate_1_Invoke_m21710_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m31407(__this, ___obj, method) (( bool (*) (Predicate_1_t6028 *, WeakReference_t2222 *, const MethodInfo*))Predicate_1_Invoke_m21711_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<System.WeakReference>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m31407(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6028 *, WeakReference_t2222 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21711_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m31408(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6028 *, WeakReference_t2222 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21712_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<System.WeakReference>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m31408(__this, ___result, method) (( bool (*) (Predicate_1_t6028 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21712_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m31409(__this, ___result, method) (( bool (*) (Predicate_1_t6028 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21713_gshared)(__this, ___result, method)

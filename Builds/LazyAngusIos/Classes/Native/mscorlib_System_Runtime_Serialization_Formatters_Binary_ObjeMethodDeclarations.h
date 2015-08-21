@@ -8,4 +8,4 @@
 struct TypeMetadata_t4652;
 
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeMetadata::.ctor()
-extern "C" void TypeMetadata__ctor_m18448 (TypeMetadata_t4652 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeMetadata__ctor_m18449 (TypeMetadata_t4652 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

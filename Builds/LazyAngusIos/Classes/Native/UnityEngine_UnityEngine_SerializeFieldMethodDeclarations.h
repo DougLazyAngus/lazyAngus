@@ -8,4 +8,4 @@
 struct SerializeField_t803;
 
 // System.Void UnityEngine.SerializeField::.ctor()
-extern "C" void SerializeField__ctor_m4353 (SerializeField_t803 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializeField__ctor_m4354 (SerializeField_t803 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

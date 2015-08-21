@@ -15,6 +15,6 @@ struct RectTransform_t541;
 #include "UnityEngine_UnityEngine_DrivenTransformProperties.h"
 
 // System.Void UnityEngine.DrivenRectTransformTracker::Add(UnityEngine.Object,UnityEngine.RectTransform,UnityEngine.DrivenTransformProperties)
-extern "C" void DrivenRectTransformTracker_Add_m6070 (DrivenRectTransformTracker_t961 * __this, Object_t701 * ___driver, RectTransform_t541 * ___rectTransform, int32_t ___drivenProperties, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DrivenRectTransformTracker_Add_m6071 (DrivenRectTransformTracker_t961 * __this, Object_t701 * ___driver, RectTransform_t541 * ___rectTransform, int32_t ___drivenProperties, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.DrivenRectTransformTracker::Clear()
-extern "C" void DrivenRectTransformTracker_Clear_m6068 (DrivenRectTransformTracker_t961 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DrivenRectTransformTracker_Clear_m6069 (DrivenRectTransformTracker_t961 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

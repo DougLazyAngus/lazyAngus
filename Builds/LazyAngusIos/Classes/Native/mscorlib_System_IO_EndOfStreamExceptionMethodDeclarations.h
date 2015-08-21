@@ -12,6 +12,6 @@ struct SerializationInfo_t2917;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.IO.EndOfStreamException::.ctor()
-extern "C" void EndOfStreamException__ctor_m17347 (EndOfStreamException_t4479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EndOfStreamException__ctor_m17348 (EndOfStreamException_t4479 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.EndOfStreamException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void EndOfStreamException__ctor_m17348 (EndOfStreamException_t4479 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EndOfStreamException__ctor_m17349 (EndOfStreamException_t4479 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

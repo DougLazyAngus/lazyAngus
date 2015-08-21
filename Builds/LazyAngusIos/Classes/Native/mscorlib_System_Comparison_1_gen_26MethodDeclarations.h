@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Comparison`1<ExplicitMouseDesc>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m27052(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5720 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21737_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m27053(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5720 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21738_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<ExplicitMouseDesc>::Invoke(T,T)
-#define Comparison_1_Invoke_m27053(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5720 *, ExplicitMouseDesc_t535 *, ExplicitMouseDesc_t535 *, const MethodInfo*))Comparison_1_Invoke_m21738_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m27054(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5720 *, ExplicitMouseDesc_t535 *, ExplicitMouseDesc_t535 *, const MethodInfo*))Comparison_1_Invoke_m21739_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<ExplicitMouseDesc>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m27054(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5720 *, ExplicitMouseDesc_t535 *, ExplicitMouseDesc_t535 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21739_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m27055(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5720 *, ExplicitMouseDesc_t535 *, ExplicitMouseDesc_t535 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21740_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<ExplicitMouseDesc>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m27055(__this, ___result, method) (( int32_t (*) (Comparison_1_t5720 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21740_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m27056(__this, ___result, method) (( int32_t (*) (Comparison_1_t5720 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21741_gshared)(__this, ___result, method)

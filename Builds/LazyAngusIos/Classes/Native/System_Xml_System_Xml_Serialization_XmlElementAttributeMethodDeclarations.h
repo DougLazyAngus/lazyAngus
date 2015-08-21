@@ -12,8 +12,8 @@ struct Type_t;
 struct String_t;
 
 // System.Void System.Xml.Serialization.XmlElementAttribute::.ctor(System.String)
-extern "C" void XmlElementAttribute__ctor_m10517 (XmlElementAttribute_t3166 * __this, String_t* ___elementName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlElementAttribute__ctor_m10518 (XmlElementAttribute_t3166 * __this, String_t* ___elementName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.Serialization.XmlElementAttribute::.ctor(System.String,System.Type)
-extern "C" void XmlElementAttribute__ctor_m10518 (XmlElementAttribute_t3166 * __this, String_t* ___elementName, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlElementAttribute__ctor_m10519 (XmlElementAttribute_t3166 * __this, String_t* ___elementName, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.Serialization.XmlElementAttribute::set_Type(System.Type)
-extern "C" void XmlElementAttribute_set_Type_m10519 (XmlElementAttribute_t3166 * __this, Type_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlElementAttribute_set_Type_m10520 (XmlElementAttribute_t3166 * __this, Type_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

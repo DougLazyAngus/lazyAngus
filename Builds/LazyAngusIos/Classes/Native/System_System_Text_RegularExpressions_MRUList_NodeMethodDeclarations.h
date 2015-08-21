@@ -10,4 +10,4 @@ struct Node_t4129;
 struct Object_t;
 
 // System.Void System.Text.RegularExpressions.MRUList/Node::.ctor(System.Object)
-extern "C" void Node__ctor_m14659 (Node_t4129 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Node__ctor_m14660 (Node_t4129 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -8,4 +8,4 @@
 struct XsdShort_t3118;
 
 // System.Void Mono.Xml.Schema.XsdShort::.ctor()
-extern "C" void XsdShort__ctor_m10449 (XsdShort_t3118 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdShort__ctor_m10450 (XsdShort_t3118 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

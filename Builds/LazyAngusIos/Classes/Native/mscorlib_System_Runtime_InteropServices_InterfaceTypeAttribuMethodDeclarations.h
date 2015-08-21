@@ -10,4 +10,4 @@ struct InterfaceTypeAttribute_t4575;
 #include "mscorlib_System_Runtime_InteropServices_ComInterfaceType.h"
 
 // System.Void System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(System.Runtime.InteropServices.ComInterfaceType)
-extern "C" void InterfaceTypeAttribute__ctor_m18140 (InterfaceTypeAttribute_t4575 * __this, int32_t ___interfaceType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InterfaceTypeAttribute__ctor_m18141 (InterfaceTypeAttribute_t4575 * __this, int32_t ___interfaceType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

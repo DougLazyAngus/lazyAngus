@@ -8,8 +8,8 @@
 struct Mark_t4138;
 
 // System.Boolean System.Text.RegularExpressions.Mark::get_IsDefined()
-extern "C" bool Mark_get_IsDefined_m14726 (Mark_t4138 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Mark_get_IsDefined_m14727 (Mark_t4138 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Mark::get_Index()
-extern "C" int32_t Mark_get_Index_m14727 (Mark_t4138 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Mark_get_Index_m14728 (Mark_t4138 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Mark::get_Length()
-extern "C" int32_t Mark_get_Length_m14728 (Mark_t4138 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Mark_get_Length_m14729 (Mark_t4138 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

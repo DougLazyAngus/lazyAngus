@@ -14,14 +14,14 @@ struct SerializationInfo_t2917;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.MissingMemberException::.ctor()
-extern "C" void MissingMemberException__ctor_m19799 (MissingMemberException_t4818 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMemberException__ctor_m19800 (MissingMemberException_t4818 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MissingMemberException::.ctor(System.String)
-extern "C" void MissingMemberException__ctor_m19800 (MissingMemberException_t4818 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMemberException__ctor_m19801 (MissingMemberException_t4818 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MissingMemberException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MissingMemberException__ctor_m19801 (MissingMemberException_t4818 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMemberException__ctor_m19802 (MissingMemberException_t4818 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MissingMemberException::.ctor(System.String,System.String)
-extern "C" void MissingMemberException__ctor_m19802 (MissingMemberException_t4818 * __this, String_t* ___className, String_t* ___memberName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMemberException__ctor_m19803 (MissingMemberException_t4818 * __this, String_t* ___className, String_t* ___memberName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MissingMemberException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MissingMemberException_GetObjectData_m19803 (MissingMemberException_t4818 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMemberException_GetObjectData_m19804 (MissingMemberException_t4818 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.MissingMemberException::get_Message()
-extern "C" String_t* MissingMemberException_get_Message_m19804 (MissingMemberException_t4818 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MissingMemberException_get_Message_m19805 (MissingMemberException_t4818 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

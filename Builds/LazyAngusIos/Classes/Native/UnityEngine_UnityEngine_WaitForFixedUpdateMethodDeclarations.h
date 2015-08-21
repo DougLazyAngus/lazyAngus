@@ -8,4 +8,4 @@
 struct WaitForFixedUpdate_t2687;
 
 // System.Void UnityEngine.WaitForFixedUpdate::.ctor()
-extern "C" void WaitForFixedUpdate__ctor_m8685 (WaitForFixedUpdate_t2687 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitForFixedUpdate__ctor_m8686 (WaitForFixedUpdate_t2687 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

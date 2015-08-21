@@ -12,8 +12,8 @@ struct String_t;
 #include "UnityEngine_UnityEngineInternal_TypeInferenceRules.h"
 
 // System.Void UnityEngineInternal.TypeInferenceRuleAttribute::.ctor(UnityEngineInternal.TypeInferenceRules)
-extern "C" void TypeInferenceRuleAttribute__ctor_m10063 (TypeInferenceRuleAttribute_t2894 * __this, int32_t ___rule, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeInferenceRuleAttribute__ctor_m10064 (TypeInferenceRuleAttribute_t2894 * __this, int32_t ___rule, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngineInternal.TypeInferenceRuleAttribute::.ctor(System.String)
-extern "C" void TypeInferenceRuleAttribute__ctor_m10064 (TypeInferenceRuleAttribute_t2894 * __this, String_t* ___rule, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeInferenceRuleAttribute__ctor_m10065 (TypeInferenceRuleAttribute_t2894 * __this, String_t* ___rule, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngineInternal.TypeInferenceRuleAttribute::ToString()
-extern "C" String_t* TypeInferenceRuleAttribute_ToString_m10065 (TypeInferenceRuleAttribute_t2894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TypeInferenceRuleAttribute_ToString_m10066 (TypeInferenceRuleAttribute_t2894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

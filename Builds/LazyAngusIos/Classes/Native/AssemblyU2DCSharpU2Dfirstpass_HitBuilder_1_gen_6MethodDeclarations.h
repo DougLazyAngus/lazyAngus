@@ -14,67 +14,67 @@ struct String_t;
 struct Dictionary_2_t103;
 
 // System.Void HitBuilder`1<System.Object>::.ctor()
-extern "C" void HitBuilder_1__ctor_m21059_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
-#define HitBuilder_1__ctor_m21059(__this, method) (( void (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1__ctor_m21059_gshared)(__this, method)
+extern "C" void HitBuilder_1__ctor_m21060_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
+#define HitBuilder_1__ctor_m21060(__this, method) (( void (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1__ctor_m21060_gshared)(__this, method)
 // T HitBuilder`1<System.Object>::GetThis()
 // T HitBuilder`1<System.Object>::Validate()
 // T HitBuilder`1<System.Object>::SetCustomDimension(System.Int32,System.String)
-extern "C" Object_t * HitBuilder_1_SetCustomDimension_m21060_gshared (HitBuilder_1_t53 * __this, int32_t ___dimensionNumber, String_t* ___value, const MethodInfo* method);
-#define HitBuilder_1_SetCustomDimension_m21060(__this, ___dimensionNumber, ___value, method) (( Object_t * (*) (HitBuilder_1_t53 *, int32_t, String_t*, const MethodInfo*))HitBuilder_1_SetCustomDimension_m21060_gshared)(__this, ___dimensionNumber, ___value, method)
+extern "C" Object_t * HitBuilder_1_SetCustomDimension_m21061_gshared (HitBuilder_1_t53 * __this, int32_t ___dimensionNumber, String_t* ___value, const MethodInfo* method);
+#define HitBuilder_1_SetCustomDimension_m21061(__this, ___dimensionNumber, ___value, method) (( Object_t * (*) (HitBuilder_1_t53 *, int32_t, String_t*, const MethodInfo*))HitBuilder_1_SetCustomDimension_m21061_gshared)(__this, ___dimensionNumber, ___value, method)
 // System.Collections.Generic.Dictionary`2<System.Int32,System.String> HitBuilder`1<System.Object>::GetCustomDimensions()
-extern "C" Dictionary_2_t103 * HitBuilder_1_GetCustomDimensions_m21061_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
-#define HitBuilder_1_GetCustomDimensions_m21061(__this, method) (( Dictionary_2_t103 * (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCustomDimensions_m21061_gshared)(__this, method)
+extern "C" Dictionary_2_t103 * HitBuilder_1_GetCustomDimensions_m21062_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
+#define HitBuilder_1_GetCustomDimensions_m21062(__this, method) (( Dictionary_2_t103 * (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCustomDimensions_m21062_gshared)(__this, method)
 // T HitBuilder`1<System.Object>::SetCustomMetric(System.Int32,System.String)
-extern "C" Object_t * HitBuilder_1_SetCustomMetric_m21062_gshared (HitBuilder_1_t53 * __this, int32_t ___metricNumber, String_t* ___value, const MethodInfo* method);
-#define HitBuilder_1_SetCustomMetric_m21062(__this, ___metricNumber, ___value, method) (( Object_t * (*) (HitBuilder_1_t53 *, int32_t, String_t*, const MethodInfo*))HitBuilder_1_SetCustomMetric_m21062_gshared)(__this, ___metricNumber, ___value, method)
+extern "C" Object_t * HitBuilder_1_SetCustomMetric_m21063_gshared (HitBuilder_1_t53 * __this, int32_t ___metricNumber, String_t* ___value, const MethodInfo* method);
+#define HitBuilder_1_SetCustomMetric_m21063(__this, ___metricNumber, ___value, method) (( Object_t * (*) (HitBuilder_1_t53 *, int32_t, String_t*, const MethodInfo*))HitBuilder_1_SetCustomMetric_m21063_gshared)(__this, ___metricNumber, ___value, method)
 // System.Collections.Generic.Dictionary`2<System.Int32,System.String> HitBuilder`1<System.Object>::GetCustomMetrics()
-extern "C" Dictionary_2_t103 * HitBuilder_1_GetCustomMetrics_m21063_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
-#define HitBuilder_1_GetCustomMetrics_m21063(__this, method) (( Dictionary_2_t103 * (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCustomMetrics_m21063_gshared)(__this, method)
+extern "C" Dictionary_2_t103 * HitBuilder_1_GetCustomMetrics_m21064_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
+#define HitBuilder_1_GetCustomMetrics_m21064(__this, method) (( Dictionary_2_t103 * (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCustomMetrics_m21064_gshared)(__this, method)
 // System.String HitBuilder`1<System.Object>::GetCampaignName()
-extern "C" String_t* HitBuilder_1_GetCampaignName_m21064_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
-#define HitBuilder_1_GetCampaignName_m21064(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCampaignName_m21064_gshared)(__this, method)
+extern "C" String_t* HitBuilder_1_GetCampaignName_m21065_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
+#define HitBuilder_1_GetCampaignName_m21065(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCampaignName_m21065_gshared)(__this, method)
 // T HitBuilder`1<System.Object>::SetCampaignName(System.String)
-extern "C" Object_t * HitBuilder_1_SetCampaignName_m21065_gshared (HitBuilder_1_t53 * __this, String_t* ___campaignName, const MethodInfo* method);
-#define HitBuilder_1_SetCampaignName_m21065(__this, ___campaignName, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetCampaignName_m21065_gshared)(__this, ___campaignName, method)
+extern "C" Object_t * HitBuilder_1_SetCampaignName_m21066_gshared (HitBuilder_1_t53 * __this, String_t* ___campaignName, const MethodInfo* method);
+#define HitBuilder_1_SetCampaignName_m21066(__this, ___campaignName, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetCampaignName_m21066_gshared)(__this, ___campaignName, method)
 // System.String HitBuilder`1<System.Object>::GetCampaignSource()
-extern "C" String_t* HitBuilder_1_GetCampaignSource_m21066_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
-#define HitBuilder_1_GetCampaignSource_m21066(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCampaignSource_m21066_gshared)(__this, method)
+extern "C" String_t* HitBuilder_1_GetCampaignSource_m21067_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
+#define HitBuilder_1_GetCampaignSource_m21067(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCampaignSource_m21067_gshared)(__this, method)
 // T HitBuilder`1<System.Object>::SetCampaignSource(System.String)
-extern "C" Object_t * HitBuilder_1_SetCampaignSource_m21067_gshared (HitBuilder_1_t53 * __this, String_t* ___campaignSource, const MethodInfo* method);
-#define HitBuilder_1_SetCampaignSource_m21067(__this, ___campaignSource, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetCampaignSource_m21067_gshared)(__this, ___campaignSource, method)
+extern "C" Object_t * HitBuilder_1_SetCampaignSource_m21068_gshared (HitBuilder_1_t53 * __this, String_t* ___campaignSource, const MethodInfo* method);
+#define HitBuilder_1_SetCampaignSource_m21068(__this, ___campaignSource, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetCampaignSource_m21068_gshared)(__this, ___campaignSource, method)
 // System.String HitBuilder`1<System.Object>::GetCampaignMedium()
-extern "C" String_t* HitBuilder_1_GetCampaignMedium_m21068_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
-#define HitBuilder_1_GetCampaignMedium_m21068(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCampaignMedium_m21068_gshared)(__this, method)
+extern "C" String_t* HitBuilder_1_GetCampaignMedium_m21069_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
+#define HitBuilder_1_GetCampaignMedium_m21069(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCampaignMedium_m21069_gshared)(__this, method)
 // T HitBuilder`1<System.Object>::SetCampaignMedium(System.String)
-extern "C" Object_t * HitBuilder_1_SetCampaignMedium_m21069_gshared (HitBuilder_1_t53 * __this, String_t* ___campaignMedium, const MethodInfo* method);
-#define HitBuilder_1_SetCampaignMedium_m21069(__this, ___campaignMedium, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetCampaignMedium_m21069_gshared)(__this, ___campaignMedium, method)
+extern "C" Object_t * HitBuilder_1_SetCampaignMedium_m21070_gshared (HitBuilder_1_t53 * __this, String_t* ___campaignMedium, const MethodInfo* method);
+#define HitBuilder_1_SetCampaignMedium_m21070(__this, ___campaignMedium, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetCampaignMedium_m21070_gshared)(__this, ___campaignMedium, method)
 // System.String HitBuilder`1<System.Object>::GetCampaignKeyword()
-extern "C" String_t* HitBuilder_1_GetCampaignKeyword_m21070_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
-#define HitBuilder_1_GetCampaignKeyword_m21070(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCampaignKeyword_m21070_gshared)(__this, method)
+extern "C" String_t* HitBuilder_1_GetCampaignKeyword_m21071_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
+#define HitBuilder_1_GetCampaignKeyword_m21071(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCampaignKeyword_m21071_gshared)(__this, method)
 // T HitBuilder`1<System.Object>::SetCampaignKeyword(System.String)
-extern "C" Object_t * HitBuilder_1_SetCampaignKeyword_m21071_gshared (HitBuilder_1_t53 * __this, String_t* ___campaignKeyword, const MethodInfo* method);
-#define HitBuilder_1_SetCampaignKeyword_m21071(__this, ___campaignKeyword, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetCampaignKeyword_m21071_gshared)(__this, ___campaignKeyword, method)
+extern "C" Object_t * HitBuilder_1_SetCampaignKeyword_m21072_gshared (HitBuilder_1_t53 * __this, String_t* ___campaignKeyword, const MethodInfo* method);
+#define HitBuilder_1_SetCampaignKeyword_m21072(__this, ___campaignKeyword, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetCampaignKeyword_m21072_gshared)(__this, ___campaignKeyword, method)
 // System.String HitBuilder`1<System.Object>::GetCampaignContent()
-extern "C" String_t* HitBuilder_1_GetCampaignContent_m21072_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
-#define HitBuilder_1_GetCampaignContent_m21072(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCampaignContent_m21072_gshared)(__this, method)
+extern "C" String_t* HitBuilder_1_GetCampaignContent_m21073_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
+#define HitBuilder_1_GetCampaignContent_m21073(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCampaignContent_m21073_gshared)(__this, method)
 // T HitBuilder`1<System.Object>::SetCampaignContent(System.String)
-extern "C" Object_t * HitBuilder_1_SetCampaignContent_m21073_gshared (HitBuilder_1_t53 * __this, String_t* ___campaignContent, const MethodInfo* method);
-#define HitBuilder_1_SetCampaignContent_m21073(__this, ___campaignContent, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetCampaignContent_m21073_gshared)(__this, ___campaignContent, method)
+extern "C" Object_t * HitBuilder_1_SetCampaignContent_m21074_gshared (HitBuilder_1_t53 * __this, String_t* ___campaignContent, const MethodInfo* method);
+#define HitBuilder_1_SetCampaignContent_m21074(__this, ___campaignContent, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetCampaignContent_m21074_gshared)(__this, ___campaignContent, method)
 // System.String HitBuilder`1<System.Object>::GetCampaignID()
-extern "C" String_t* HitBuilder_1_GetCampaignID_m21074_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
-#define HitBuilder_1_GetCampaignID_m21074(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCampaignID_m21074_gshared)(__this, method)
+extern "C" String_t* HitBuilder_1_GetCampaignID_m21075_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
+#define HitBuilder_1_GetCampaignID_m21075(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetCampaignID_m21075_gshared)(__this, method)
 // T HitBuilder`1<System.Object>::SetCampaignID(System.String)
-extern "C" Object_t * HitBuilder_1_SetCampaignID_m21075_gshared (HitBuilder_1_t53 * __this, String_t* ___campaignID, const MethodInfo* method);
-#define HitBuilder_1_SetCampaignID_m21075(__this, ___campaignID, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetCampaignID_m21075_gshared)(__this, ___campaignID, method)
+extern "C" Object_t * HitBuilder_1_SetCampaignID_m21076_gshared (HitBuilder_1_t53 * __this, String_t* ___campaignID, const MethodInfo* method);
+#define HitBuilder_1_SetCampaignID_m21076(__this, ___campaignID, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetCampaignID_m21076_gshared)(__this, ___campaignID, method)
 // System.String HitBuilder`1<System.Object>::GetGclid()
-extern "C" String_t* HitBuilder_1_GetGclid_m21076_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
-#define HitBuilder_1_GetGclid_m21076(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetGclid_m21076_gshared)(__this, method)
+extern "C" String_t* HitBuilder_1_GetGclid_m21077_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
+#define HitBuilder_1_GetGclid_m21077(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetGclid_m21077_gshared)(__this, method)
 // T HitBuilder`1<System.Object>::SetGclid(System.String)
-extern "C" Object_t * HitBuilder_1_SetGclid_m21077_gshared (HitBuilder_1_t53 * __this, String_t* ___gclid, const MethodInfo* method);
-#define HitBuilder_1_SetGclid_m21077(__this, ___gclid, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetGclid_m21077_gshared)(__this, ___gclid, method)
+extern "C" Object_t * HitBuilder_1_SetGclid_m21078_gshared (HitBuilder_1_t53 * __this, String_t* ___gclid, const MethodInfo* method);
+#define HitBuilder_1_SetGclid_m21078(__this, ___gclid, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetGclid_m21078_gshared)(__this, ___gclid, method)
 // System.String HitBuilder`1<System.Object>::GetDclid()
-extern "C" String_t* HitBuilder_1_GetDclid_m21078_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
-#define HitBuilder_1_GetDclid_m21078(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetDclid_m21078_gshared)(__this, method)
+extern "C" String_t* HitBuilder_1_GetDclid_m21079_gshared (HitBuilder_1_t53 * __this, const MethodInfo* method);
+#define HitBuilder_1_GetDclid_m21079(__this, method) (( String_t* (*) (HitBuilder_1_t53 *, const MethodInfo*))HitBuilder_1_GetDclid_m21079_gshared)(__this, method)
 // T HitBuilder`1<System.Object>::SetDclid(System.String)
-extern "C" Object_t * HitBuilder_1_SetDclid_m21079_gshared (HitBuilder_1_t53 * __this, String_t* ___dclid, const MethodInfo* method);
-#define HitBuilder_1_SetDclid_m21079(__this, ___dclid, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetDclid_m21079_gshared)(__this, ___dclid, method)
+extern "C" Object_t * HitBuilder_1_SetDclid_m21080_gshared (HitBuilder_1_t53 * __this, String_t* ___dclid, const MethodInfo* method);
+#define HitBuilder_1_SetDclid_m21080(__this, ___dclid, method) (( Object_t * (*) (HitBuilder_1_t53 *, String_t*, const MethodInfo*))HitBuilder_1_SetDclid_m21080_gshared)(__this, ___dclid, method)

@@ -16,14 +16,14 @@ struct IEnumerator_t48;
 struct IEnumerator_1_t105;
 
 // System.Void System.Linq.Grouping`2<System.Object,System.Object>::.ctor(K,System.Collections.Generic.IEnumerable`1<T>)
-extern "C" void Grouping_2__ctor_m33131_gshared (Grouping_2_t6166 * __this, Object_t * ___key, Object_t* ___group, const MethodInfo* method);
-#define Grouping_2__ctor_m33131(__this, ___key, ___group, method) (( void (*) (Grouping_2_t6166 *, Object_t *, Object_t*, const MethodInfo*))Grouping_2__ctor_m33131_gshared)(__this, ___key, ___group, method)
+extern "C" void Grouping_2__ctor_m33132_gshared (Grouping_2_t6166 * __this, Object_t * ___key, Object_t* ___group, const MethodInfo* method);
+#define Grouping_2__ctor_m33132(__this, ___key, ___group, method) (( void (*) (Grouping_2_t6166 *, Object_t *, Object_t*, const MethodInfo*))Grouping_2__ctor_m33132_gshared)(__this, ___key, ___group, method)
 // System.Collections.IEnumerator System.Linq.Grouping`2<System.Object,System.Object>::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * Grouping_2_System_Collections_IEnumerable_GetEnumerator_m33132_gshared (Grouping_2_t6166 * __this, const MethodInfo* method);
-#define Grouping_2_System_Collections_IEnumerable_GetEnumerator_m33132(__this, method) (( Object_t * (*) (Grouping_2_t6166 *, const MethodInfo*))Grouping_2_System_Collections_IEnumerable_GetEnumerator_m33132_gshared)(__this, method)
+extern "C" Object_t * Grouping_2_System_Collections_IEnumerable_GetEnumerator_m33133_gshared (Grouping_2_t6166 * __this, const MethodInfo* method);
+#define Grouping_2_System_Collections_IEnumerable_GetEnumerator_m33133(__this, method) (( Object_t * (*) (Grouping_2_t6166 *, const MethodInfo*))Grouping_2_System_Collections_IEnumerable_GetEnumerator_m33133_gshared)(__this, method)
 // K System.Linq.Grouping`2<System.Object,System.Object>::get_Key()
-extern "C" Object_t * Grouping_2_get_Key_m33133_gshared (Grouping_2_t6166 * __this, const MethodInfo* method);
-#define Grouping_2_get_Key_m33133(__this, method) (( Object_t * (*) (Grouping_2_t6166 *, const MethodInfo*))Grouping_2_get_Key_m33133_gshared)(__this, method)
+extern "C" Object_t * Grouping_2_get_Key_m33134_gshared (Grouping_2_t6166 * __this, const MethodInfo* method);
+#define Grouping_2_get_Key_m33134(__this, method) (( Object_t * (*) (Grouping_2_t6166 *, const MethodInfo*))Grouping_2_get_Key_m33134_gshared)(__this, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Linq.Grouping`2<System.Object,System.Object>::GetEnumerator()
-extern "C" Object_t* Grouping_2_GetEnumerator_m33134_gshared (Grouping_2_t6166 * __this, const MethodInfo* method);
-#define Grouping_2_GetEnumerator_m33134(__this, method) (( Object_t* (*) (Grouping_2_t6166 *, const MethodInfo*))Grouping_2_GetEnumerator_m33134_gshared)(__this, method)
+extern "C" Object_t* Grouping_2_GetEnumerator_m33135_gshared (Grouping_2_t6166 * __this, const MethodInfo* method);
+#define Grouping_2_GetEnumerator_m33135(__this, method) (( Object_t* (*) (Grouping_2_t6166 *, const MethodInfo*))Grouping_2_GetEnumerator_m33135_gshared)(__this, method)

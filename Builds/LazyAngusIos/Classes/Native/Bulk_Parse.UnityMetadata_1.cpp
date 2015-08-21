@@ -11,10 +11,10 @@ extern TypeInfo U3CU3Ec__DisplayClass93_t1287_il2cpp_TypeInfo;
 extern const Il2CppType Void_t85_0_0_0;
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation/<>c__DisplayClass93::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass93__ctor_m6894_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass93__ctor_m6895_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass93__ctor_m6894/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass93__ctor_m6895/* method */
 	, &U3CU3Ec__DisplayClass93_t1287_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -34,20 +34,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass93__ctor_m6894_MethodInfo =
 };
 extern const Il2CppType Task_t1208_0_0_0;
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass93_t1287_U3CU3Ec__DisplayClass93_U3CSaveAsyncU3Eb__90_m6895_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass93_t1287_U3CU3Ec__DisplayClass93_U3CSaveAsyncU3Eb__90_m6896_ParameterInfos[] = 
 {
 	{"_", 0, 134218550, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseInstallation/<>c__DisplayClass93::<SaveAsync>b__90(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass93_U3CSaveAsyncU3Eb__90_m6895_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass93_U3CSaveAsyncU3Eb__90_m6896_MethodInfo = 
 {
 	"<SaveAsync>b__90"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass93_U3CSaveAsyncU3Eb__90_m6895/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass93_U3CSaveAsyncU3Eb__90_m6896/* method */
 	, &U3CU3Ec__DisplayClass93_t1287_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass93_t1287_U3CU3Ec__DisplayClass93_U3CSaveAsyncU3Eb__90_m6895_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass93_t1287_U3CU3Ec__DisplayClass93_U3CSaveAsyncU3Eb__90_m6896_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -63,8 +63,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass93_U3CSaveAsyncU3Eb__90_m6895_Metho
 };
 static const MethodInfo* U3CU3Ec__DisplayClass93_t1287_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass93__ctor_m6894_MethodInfo,
-	&U3CU3Ec__DisplayClass93_U3CSaveAsyncU3Eb__90_m6895_MethodInfo,
+	&U3CU3Ec__DisplayClass93__ctor_m6895_MethodInfo,
+	&U3CU3Ec__DisplayClass93_U3CSaveAsyncU3Eb__90_m6896_MethodInfo,
 	NULL
 };
 extern const MethodInfo Object_Equals_m493_MethodInfo;
@@ -166,10 +166,10 @@ TypeInfo U3CU3Ec__DisplayClass93_t1287_il2cpp_TypeInfo =
 #include "Parse_Unity_Parse_ParseInstallationMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::.ctor()
-extern const MethodInfo ParseInstallation__ctor_m6896_MethodInfo = 
+extern const MethodInfo ParseInstallation__ctor_m6897_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ParseInstallation__ctor_m6896/* method */
+	, (methodPointerType)&ParseInstallation__ctor_m6897/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -189,10 +189,10 @@ extern const MethodInfo ParseInstallation__ctor_m6896_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseInstallation Parse.ParseInstallation::get_CurrentInstallation()
-extern const MethodInfo ParseInstallation_get_CurrentInstallation_m6897_MethodInfo = 
+extern const MethodInfo ParseInstallation_get_CurrentInstallation_m6898_MethodInfo = 
 {
 	"get_CurrentInstallation"/* name */
-	, (methodPointerType)&ParseInstallation_get_CurrentInstallation_m6897/* method */
+	, (methodPointerType)&ParseInstallation_get_CurrentInstallation_m6898/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &ParseInstallation_t1286_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -212,10 +212,10 @@ extern const MethodInfo ParseInstallation_get_CurrentInstallation_m6897_MethodIn
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::SaveCurrentInstallation()
-extern const MethodInfo ParseInstallation_SaveCurrentInstallation_m6898_MethodInfo = 
+extern const MethodInfo ParseInstallation_SaveCurrentInstallation_m6899_MethodInfo = 
 {
 	"SaveCurrentInstallation"/* name */
-	, (methodPointerType)&ParseInstallation_SaveCurrentInstallation_m6898/* method */
+	, (methodPointerType)&ParseInstallation_SaveCurrentInstallation_m6899/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -235,10 +235,10 @@ extern const MethodInfo ParseInstallation_SaveCurrentInstallation_m6898_MethodIn
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::ClearInMemoryInstallation()
-extern const MethodInfo ParseInstallation_ClearInMemoryInstallation_m6899_MethodInfo = 
+extern const MethodInfo ParseInstallation_ClearInMemoryInstallation_m6900_MethodInfo = 
 {
 	"ClearInMemoryInstallation"/* name */
-	, (methodPointerType)&ParseInstallation_ClearInMemoryInstallation_m6899/* method */
+	, (methodPointerType)&ParseInstallation_ClearInMemoryInstallation_m6900/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -259,10 +259,10 @@ extern const MethodInfo ParseInstallation_ClearInMemoryInstallation_m6899_Method
 extern const Il2CppType ParseQuery_1_t1290_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseQuery`1<Parse.ParseInstallation> Parse.ParseInstallation::get_Query()
-extern const MethodInfo ParseInstallation_get_Query_m6900_MethodInfo = 
+extern const MethodInfo ParseInstallation_get_Query_m6901_MethodInfo = 
 {
 	"get_Query"/* name */
-	, (methodPointerType)&ParseInstallation_get_Query_m6900/* method */
+	, (methodPointerType)&ParseInstallation_get_Query_m6901/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t1290_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -283,10 +283,10 @@ extern const MethodInfo ParseInstallation_get_Query_m6900_MethodInfo =
 extern const Il2CppType Guid_t74_0_0_0;
 extern void* RuntimeInvoker_Guid_t74 (const MethodInfo* method, void* obj, void** args);
 // System.Guid Parse.ParseInstallation::get_InstallationId()
-extern const MethodInfo ParseInstallation_get_InstallationId_m6901_MethodInfo = 
+extern const MethodInfo ParseInstallation_get_InstallationId_m6902_MethodInfo = 
 {
 	"get_InstallationId"/* name */
-	, (methodPointerType)&ParseInstallation_get_InstallationId_m6901/* method */
+	, (methodPointerType)&ParseInstallation_get_InstallationId_m6902/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Guid_t74_0_0_0/* return_type */
 	, RuntimeInvoker_Guid_t74/* invoker_method */
@@ -305,20 +305,20 @@ extern const MethodInfo ParseInstallation_get_InstallationId_m6901_MethodInfo =
 
 };
 extern const Il2CppType Guid_t74_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_InstallationId_m6902_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_InstallationId_m6903_ParameterInfos[] = 
 {
 	{"value", 0, 134218530, 0, &Guid_t74_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Guid_t74 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::set_InstallationId(System.Guid)
-extern const MethodInfo ParseInstallation_set_InstallationId_m6902_MethodInfo = 
+extern const MethodInfo ParseInstallation_set_InstallationId_m6903_MethodInfo = 
 {
 	"set_InstallationId"/* name */
-	, (methodPointerType)&ParseInstallation_set_InstallationId_m6902/* method */
+	, (methodPointerType)&ParseInstallation_set_InstallationId_m6903/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Guid_t74/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_set_InstallationId_m6902_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_set_InstallationId_m6903_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2177/* flags */
 	, 0/* iflags */
@@ -334,10 +334,10 @@ extern const MethodInfo ParseInstallation_set_InstallationId_m6902_MethodInfo =
 };
 extern void* RuntimeInvoker_Guid_t74 (const MethodInfo* method, void* obj, void** args);
 // System.Guid Parse.ParseInstallation::getInstallationId()
-extern const MethodInfo ParseInstallation_getInstallationId_m6903_MethodInfo = 
+extern const MethodInfo ParseInstallation_getInstallationId_m6904_MethodInfo = 
 {
 	"getInstallationId"/* name */
-	, (methodPointerType)&ParseInstallation_getInstallationId_m6903/* method */
+	, (methodPointerType)&ParseInstallation_getInstallationId_m6904/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Guid_t74_0_0_0/* return_type */
 	, RuntimeInvoker_Guid_t74/* invoker_method */
@@ -358,10 +358,10 @@ extern const MethodInfo ParseInstallation_getInstallationId_m6903_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseInstallation::get_DeviceType()
-extern const MethodInfo ParseInstallation_get_DeviceType_m6904_MethodInfo = 
+extern const MethodInfo ParseInstallation_get_DeviceType_m6905_MethodInfo = 
 {
 	"get_DeviceType"/* name */
-	, (methodPointerType)&ParseInstallation_get_DeviceType_m6904/* method */
+	, (methodPointerType)&ParseInstallation_get_DeviceType_m6905/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -380,20 +380,20 @@ extern const MethodInfo ParseInstallation_get_DeviceType_m6904_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_DeviceType_m6905_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_DeviceType_m6906_ParameterInfos[] = 
 {
 	{"value", 0, 134218531, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::set_DeviceType(System.String)
-extern const MethodInfo ParseInstallation_set_DeviceType_m6905_MethodInfo = 
+extern const MethodInfo ParseInstallation_set_DeviceType_m6906_MethodInfo = 
 {
 	"set_DeviceType"/* name */
-	, (methodPointerType)&ParseInstallation_set_DeviceType_m6905/* method */
+	, (methodPointerType)&ParseInstallation_set_DeviceType_m6906/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_set_DeviceType_m6905_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_set_DeviceType_m6906_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -409,10 +409,10 @@ extern const MethodInfo ParseInstallation_set_DeviceType_m6905_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseInstallation::get_AppName()
-extern const MethodInfo ParseInstallation_get_AppName_m6906_MethodInfo = 
+extern const MethodInfo ParseInstallation_get_AppName_m6907_MethodInfo = 
 {
 	"get_AppName"/* name */
-	, (methodPointerType)&ParseInstallation_get_AppName_m6906/* method */
+	, (methodPointerType)&ParseInstallation_get_AppName_m6907/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -431,20 +431,20 @@ extern const MethodInfo ParseInstallation_get_AppName_m6906_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_AppName_m6907_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_AppName_m6908_ParameterInfos[] = 
 {
 	{"value", 0, 134218532, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::set_AppName(System.String)
-extern const MethodInfo ParseInstallation_set_AppName_m6907_MethodInfo = 
+extern const MethodInfo ParseInstallation_set_AppName_m6908_MethodInfo = 
 {
 	"set_AppName"/* name */
-	, (methodPointerType)&ParseInstallation_set_AppName_m6907/* method */
+	, (methodPointerType)&ParseInstallation_set_AppName_m6908/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_set_AppName_m6907_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_set_AppName_m6908_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -460,10 +460,10 @@ extern const MethodInfo ParseInstallation_set_AppName_m6907_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseInstallation::get_AppVersion()
-extern const MethodInfo ParseInstallation_get_AppVersion_m6908_MethodInfo = 
+extern const MethodInfo ParseInstallation_get_AppVersion_m6909_MethodInfo = 
 {
 	"get_AppVersion"/* name */
-	, (methodPointerType)&ParseInstallation_get_AppVersion_m6908/* method */
+	, (methodPointerType)&ParseInstallation_get_AppVersion_m6909/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -482,20 +482,20 @@ extern const MethodInfo ParseInstallation_get_AppVersion_m6908_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_AppVersion_m6909_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_AppVersion_m6910_ParameterInfos[] = 
 {
 	{"value", 0, 134218533, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::set_AppVersion(System.String)
-extern const MethodInfo ParseInstallation_set_AppVersion_m6909_MethodInfo = 
+extern const MethodInfo ParseInstallation_set_AppVersion_m6910_MethodInfo = 
 {
 	"set_AppVersion"/* name */
-	, (methodPointerType)&ParseInstallation_set_AppVersion_m6909/* method */
+	, (methodPointerType)&ParseInstallation_set_AppVersion_m6910/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_set_AppVersion_m6909_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_set_AppVersion_m6910_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -511,10 +511,10 @@ extern const MethodInfo ParseInstallation_set_AppVersion_m6909_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseInstallation::get_AppIdentifier()
-extern const MethodInfo ParseInstallation_get_AppIdentifier_m6910_MethodInfo = 
+extern const MethodInfo ParseInstallation_get_AppIdentifier_m6911_MethodInfo = 
 {
 	"get_AppIdentifier"/* name */
-	, (methodPointerType)&ParseInstallation_get_AppIdentifier_m6910/* method */
+	, (methodPointerType)&ParseInstallation_get_AppIdentifier_m6911/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -533,20 +533,20 @@ extern const MethodInfo ParseInstallation_get_AppIdentifier_m6910_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_AppIdentifier_m6911_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_AppIdentifier_m6912_ParameterInfos[] = 
 {
 	{"value", 0, 134218534, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::set_AppIdentifier(System.String)
-extern const MethodInfo ParseInstallation_set_AppIdentifier_m6911_MethodInfo = 
+extern const MethodInfo ParseInstallation_set_AppIdentifier_m6912_MethodInfo = 
 {
 	"set_AppIdentifier"/* name */
-	, (methodPointerType)&ParseInstallation_set_AppIdentifier_m6911/* method */
+	, (methodPointerType)&ParseInstallation_set_AppIdentifier_m6912/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_set_AppIdentifier_m6911_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_set_AppIdentifier_m6912_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -562,10 +562,10 @@ extern const MethodInfo ParseInstallation_set_AppIdentifier_m6911_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseInstallation::get_TimeZone()
-extern const MethodInfo ParseInstallation_get_TimeZone_m6912_MethodInfo = 
+extern const MethodInfo ParseInstallation_get_TimeZone_m6913_MethodInfo = 
 {
 	"get_TimeZone"/* name */
-	, (methodPointerType)&ParseInstallation_get_TimeZone_m6912/* method */
+	, (methodPointerType)&ParseInstallation_get_TimeZone_m6913/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -584,20 +584,20 @@ extern const MethodInfo ParseInstallation_get_TimeZone_m6912_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_TimeZone_m6913_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_TimeZone_m6914_ParameterInfos[] = 
 {
 	{"value", 0, 134218535, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::set_TimeZone(System.String)
-extern const MethodInfo ParseInstallation_set_TimeZone_m6913_MethodInfo = 
+extern const MethodInfo ParseInstallation_set_TimeZone_m6914_MethodInfo = 
 {
 	"set_TimeZone"/* name */
-	, (methodPointerType)&ParseInstallation_set_TimeZone_m6913/* method */
+	, (methodPointerType)&ParseInstallation_set_TimeZone_m6914/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_set_TimeZone_m6913_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_set_TimeZone_m6914_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2177/* flags */
 	, 0/* iflags */
@@ -614,10 +614,10 @@ extern const MethodInfo ParseInstallation_set_TimeZone_m6913_MethodInfo =
 extern const Il2CppType Version_t1382_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Version Parse.ParseInstallation::get_ParseVersion()
-extern const MethodInfo ParseInstallation_get_ParseVersion_m6914_MethodInfo = 
+extern const MethodInfo ParseInstallation_get_ParseVersion_m6915_MethodInfo = 
 {
 	"get_ParseVersion"/* name */
-	, (methodPointerType)&ParseInstallation_get_ParseVersion_m6914/* method */
+	, (methodPointerType)&ParseInstallation_get_ParseVersion_m6915/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Version_t1382_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -636,20 +636,20 @@ extern const MethodInfo ParseInstallation_get_ParseVersion_m6914_MethodInfo =
 
 };
 extern const Il2CppType Version_t1382_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_ParseVersion_m6915_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_ParseVersion_m6916_ParameterInfos[] = 
 {
 	{"value", 0, 134218536, 0, &Version_t1382_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::set_ParseVersion(System.Version)
-extern const MethodInfo ParseInstallation_set_ParseVersion_m6915_MethodInfo = 
+extern const MethodInfo ParseInstallation_set_ParseVersion_m6916_MethodInfo = 
 {
 	"set_ParseVersion"/* name */
-	, (methodPointerType)&ParseInstallation_set_ParseVersion_m6915/* method */
+	, (methodPointerType)&ParseInstallation_set_ParseVersion_m6916/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_set_ParseVersion_m6915_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_set_ParseVersion_m6916_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2177/* flags */
 	, 0/* iflags */
@@ -665,10 +665,10 @@ extern const MethodInfo ParseInstallation_set_ParseVersion_m6915_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Version Parse.ParseInstallation::getParseVersion()
-extern const MethodInfo ParseInstallation_getParseVersion_m6916_MethodInfo = 
+extern const MethodInfo ParseInstallation_getParseVersion_m6917_MethodInfo = 
 {
 	"getParseVersion"/* name */
-	, (methodPointerType)&ParseInstallation_getParseVersion_m6916/* method */
+	, (methodPointerType)&ParseInstallation_getParseVersion_m6917/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Version_t1382_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -689,10 +689,10 @@ extern const MethodInfo ParseInstallation_getParseVersion_m6916_MethodInfo =
 extern const Il2CppType IList_1_t691_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IList`1<System.String> Parse.ParseInstallation::get_Channels()
-extern const MethodInfo ParseInstallation_get_Channels_m6917_MethodInfo = 
+extern const MethodInfo ParseInstallation_get_Channels_m6918_MethodInfo = 
 {
 	"get_Channels"/* name */
-	, (methodPointerType)&ParseInstallation_get_Channels_m6917/* method */
+	, (methodPointerType)&ParseInstallation_get_Channels_m6918/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &IList_1_t691_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -711,20 +711,20 @@ extern const MethodInfo ParseInstallation_get_Channels_m6917_MethodInfo =
 
 };
 extern const Il2CppType IList_1_t691_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_Channels_m6918_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_Channels_m6919_ParameterInfos[] = 
 {
 	{"value", 0, 134218537, 0, &IList_1_t691_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::set_Channels(System.Collections.Generic.IList`1<System.String>)
-extern const MethodInfo ParseInstallation_set_Channels_m6918_MethodInfo = 
+extern const MethodInfo ParseInstallation_set_Channels_m6919_MethodInfo = 
 {
 	"set_Channels"/* name */
-	, (methodPointerType)&ParseInstallation_set_Channels_m6918/* method */
+	, (methodPointerType)&ParseInstallation_set_Channels_m6919/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_set_Channels_m6918_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_set_Channels_m6919_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -739,21 +739,21 @@ extern const MethodInfo ParseInstallation_set_Channels_m6918_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_IsKeyMutable_m6919_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_IsKeyMutable_m6920_ParameterInfos[] = 
 {
 	{"key", 0, 134218538, 0, &String_t_0_0_0},
 };
 extern const Il2CppType Boolean_t59_0_0_0;
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.ParseInstallation::IsKeyMutable(System.String)
-extern const MethodInfo ParseInstallation_IsKeyMutable_m6919_MethodInfo = 
+extern const MethodInfo ParseInstallation_IsKeyMutable_m6920_MethodInfo = 
 {
 	"IsKeyMutable"/* name */
-	, (methodPointerType)&ParseInstallation_IsKeyMutable_m6919/* method */
+	, (methodPointerType)&ParseInstallation_IsKeyMutable_m6920/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_IsKeyMutable_m6919_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_IsKeyMutable_m6920_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 707/* flags */
 	, 0/* iflags */
@@ -768,38 +768,38 @@ extern const MethodInfo ParseInstallation_IsKeyMutable_m6919_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ParseInstallation_SetIfDifferent_m8062_gp_0_0_0_0;
-extern const Il2CppType ParseInstallation_SetIfDifferent_m8062_gp_0_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_SetIfDifferent_m8062_ParameterInfos[] = 
+extern const Il2CppType ParseInstallation_SetIfDifferent_m8063_gp_0_0_0_0;
+extern const Il2CppType ParseInstallation_SetIfDifferent_m8063_gp_0_0_0_0;
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_SetIfDifferent_m8063_ParameterInfos[] = 
 {
 	{"key", 0, 134218539, 0, &String_t_0_0_0},
-	{"value", 1, 134218540, 0, &ParseInstallation_SetIfDifferent_m8062_gp_0_0_0_0},
+	{"value", 1, 134218540, 0, &ParseInstallation_SetIfDifferent_m8063_gp_0_0_0_0},
 };
-extern const Il2CppGenericContainer ParseInstallation_SetIfDifferent_m8062_Il2CppGenericContainer;
-extern TypeInfo ParseInstallation_SetIfDifferent_m8062_gp_T_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter ParseInstallation_SetIfDifferent_m8062_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &ParseInstallation_SetIfDifferent_m8062_Il2CppGenericContainer, NULL, "T", 0, 0 };
-static const Il2CppGenericParameter* ParseInstallation_SetIfDifferent_m8062_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer ParseInstallation_SetIfDifferent_m8063_Il2CppGenericContainer;
+extern TypeInfo ParseInstallation_SetIfDifferent_m8063_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseInstallation_SetIfDifferent_m8063_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &ParseInstallation_SetIfDifferent_m8063_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* ParseInstallation_SetIfDifferent_m8063_Il2CppGenericParametersArray[1] = 
 {
-	&ParseInstallation_SetIfDifferent_m8062_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseInstallation_SetIfDifferent_m8063_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo ParseInstallation_SetIfDifferent_m8062_MethodInfo;
-extern const Il2CppGenericContainer ParseInstallation_SetIfDifferent_m8062_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseInstallation_SetIfDifferent_m8062_MethodInfo, 1, 1, ParseInstallation_SetIfDifferent_m8062_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod ParseObject_TryGetValue_TisT_t2497_m8469_GenericMethod;
-static Il2CppRGCTXDefinition ParseInstallation_SetIfDifferent_m8062_RGCTXData[3] = 
+extern const MethodInfo ParseInstallation_SetIfDifferent_m8063_MethodInfo;
+extern const Il2CppGenericContainer ParseInstallation_SetIfDifferent_m8063_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseInstallation_SetIfDifferent_m8063_MethodInfo, 1, 1, ParseInstallation_SetIfDifferent_m8063_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseObject_TryGetValue_TisT_t2497_m8470_GenericMethod;
+static Il2CppRGCTXDefinition ParseInstallation_SetIfDifferent_m8063_RGCTXData[3] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseObject_TryGetValue_TisT_t2497_m8469_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&ParseInstallation_SetIfDifferent_m8062_gp_0_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseObject_TryGetValue_TisT_t2497_m8470_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&ParseInstallation_SetIfDifferent_m8063_gp_0_0_0_0 }/* Class */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Void Parse.ParseInstallation::SetIfDifferent(System.String,T)
-extern const MethodInfo ParseInstallation_SetIfDifferent_m8062_MethodInfo = 
+extern const MethodInfo ParseInstallation_SetIfDifferent_m8063_MethodInfo = 
 {
 	"SetIfDifferent"/* name */
 	, NULL/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_SetIfDifferent_m8062_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_SetIfDifferent_m8063_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -808,17 +808,17 @@ extern const MethodInfo ParseInstallation_SetIfDifferent_m8062_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 785/* token */
-	, ParseInstallation_SetIfDifferent_m8062_RGCTXData/* rgctx_data */
+	, ParseInstallation_SetIfDifferent_m8063_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &ParseInstallation_SetIfDifferent_m8062_Il2CppGenericContainer/* genericContainer */
+	, &ParseInstallation_SetIfDifferent_m8063_Il2CppGenericContainer/* genericContainer */
 
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseInstallation::SetAutomaticValues()
-extern const MethodInfo ParseInstallation_SetAutomaticValues_m6920_MethodInfo = 
+extern const MethodInfo ParseInstallation_SetAutomaticValues_m6921_MethodInfo = 
 {
 	"SetAutomaticValues"/* name */
-	, (methodPointerType)&ParseInstallation_SetAutomaticValues_m6920/* method */
+	, (methodPointerType)&ParseInstallation_SetAutomaticValues_m6921/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -839,21 +839,21 @@ extern const MethodInfo ParseInstallation_SetAutomaticValues_m6920_MethodInfo =
 extern const Il2CppType Task_t1208_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_SaveAsync_m6921_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_SaveAsync_m6922_ParameterInfos[] = 
 {
 	{"toAwait", 0, 134218541, 0, &Task_t1208_0_0_0},
 	{"cancellationToken", 1, 134218542, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseInstallation::SaveAsync(System.Threading.Tasks.Task,System.Threading.CancellationToken)
-extern const MethodInfo ParseInstallation_SaveAsync_m6921_MethodInfo = 
+extern const MethodInfo ParseInstallation_SaveAsync_m6922_MethodInfo = 
 {
 	"SaveAsync"/* name */
-	, (methodPointerType)&ParseInstallation_SaveAsync_m6921/* method */
+	, (methodPointerType)&ParseInstallation_SaveAsync_m6922/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_SaveAsync_m6921_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_SaveAsync_m6922_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 707/* flags */
 	, 0/* iflags */
@@ -869,10 +869,10 @@ extern const MethodInfo ParseInstallation_SaveAsync_m6921_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseInstallation::getDeviceType()
-extern const MethodInfo ParseInstallation_getDeviceType_m6922_MethodInfo = 
+extern const MethodInfo ParseInstallation_getDeviceType_m6923_MethodInfo = 
 {
 	"getDeviceType"/* name */
-	, (methodPointerType)&ParseInstallation_getDeviceType_m6922/* method */
+	, (methodPointerType)&ParseInstallation_getDeviceType_m6923/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -893,10 +893,10 @@ extern const MethodInfo ParseInstallation_getDeviceType_m6922_MethodInfo =
 extern const Il2CppType Task_1_t1369_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<System.String> Parse.ParseInstallation::getAppNameAsync()
-extern const MethodInfo ParseInstallation_getAppNameAsync_m6923_MethodInfo = 
+extern const MethodInfo ParseInstallation_getAppNameAsync_m6924_MethodInfo = 
 {
 	"getAppNameAsync"/* name */
-	, (methodPointerType)&ParseInstallation_getAppNameAsync_m6923/* method */
+	, (methodPointerType)&ParseInstallation_getAppNameAsync_m6924/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1369_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -916,10 +916,10 @@ extern const MethodInfo ParseInstallation_getAppNameAsync_m6923_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseInstallation::getAppIdentifier()
-extern const MethodInfo ParseInstallation_getAppIdentifier_m6924_MethodInfo = 
+extern const MethodInfo ParseInstallation_getAppIdentifier_m6925_MethodInfo = 
 {
 	"getAppIdentifier"/* name */
-	, (methodPointerType)&ParseInstallation_getAppIdentifier_m6924/* method */
+	, (methodPointerType)&ParseInstallation_getAppIdentifier_m6925/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -939,10 +939,10 @@ extern const MethodInfo ParseInstallation_getAppIdentifier_m6924_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseInstallation::getAppVersion()
-extern const MethodInfo ParseInstallation_getAppVersion_m6925_MethodInfo = 
+extern const MethodInfo ParseInstallation_getAppVersion_m6926_MethodInfo = 
 {
 	"getAppVersion"/* name */
-	, (methodPointerType)&ParseInstallation_getAppVersion_m6925/* method */
+	, (methodPointerType)&ParseInstallation_getAppVersion_m6926/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -962,10 +962,10 @@ extern const MethodInfo ParseInstallation_getAppVersion_m6925_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseInstallation::getTimeZone()
-extern const MethodInfo ParseInstallation_getTimeZone_m6926_MethodInfo = 
+extern const MethodInfo ParseInstallation_getTimeZone_m6927_MethodInfo = 
 {
 	"getTimeZone"/* name */
-	, (methodPointerType)&ParseInstallation_getTimeZone_m6926/* method */
+	, (methodPointerType)&ParseInstallation_getTimeZone_m6927/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -985,10 +985,10 @@ extern const MethodInfo ParseInstallation_getTimeZone_m6926_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseInstallation::get_DeviceToken()
-extern const MethodInfo ParseInstallation_get_DeviceToken_m6927_MethodInfo = 
+extern const MethodInfo ParseInstallation_get_DeviceToken_m6928_MethodInfo = 
 {
 	"get_DeviceToken"/* name */
-	, (methodPointerType)&ParseInstallation_get_DeviceToken_m6927/* method */
+	, (methodPointerType)&ParseInstallation_get_DeviceToken_m6928/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1007,20 +1007,20 @@ extern const MethodInfo ParseInstallation_get_DeviceToken_m6927_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_DeviceToken_m6928_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_DeviceToken_m6929_ParameterInfos[] = 
 {
 	{"value", 0, 134218543, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::set_DeviceToken(System.String)
-extern const MethodInfo ParseInstallation_set_DeviceToken_m6928_MethodInfo = 
+extern const MethodInfo ParseInstallation_set_DeviceToken_m6929_MethodInfo = 
 {
 	"set_DeviceToken"/* name */
-	, (methodPointerType)&ParseInstallation_set_DeviceToken_m6928/* method */
+	, (methodPointerType)&ParseInstallation_set_DeviceToken_m6929/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_set_DeviceToken_m6928_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_set_DeviceToken_m6929_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -1036,20 +1036,20 @@ extern const MethodInfo ParseInstallation_set_DeviceToken_m6928_MethodInfo =
 };
 extern const Il2CppType ByteU5BU5D_t66_0_0_0;
 extern const Il2CppType ByteU5BU5D_t66_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_SetDeviceTokenFromData_m6929_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_SetDeviceTokenFromData_m6930_ParameterInfos[] = 
 {
 	{"deviceToken", 0, 134218544, 0, &ByteU5BU5D_t66_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::SetDeviceTokenFromData(System.Byte[])
-extern const MethodInfo ParseInstallation_SetDeviceTokenFromData_m6929_MethodInfo = 
+extern const MethodInfo ParseInstallation_SetDeviceTokenFromData_m6930_MethodInfo = 
 {
 	"SetDeviceTokenFromData"/* name */
-	, (methodPointerType)&ParseInstallation_SetDeviceTokenFromData_m6929/* method */
+	, (methodPointerType)&ParseInstallation_SetDeviceTokenFromData_m6930/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_SetDeviceTokenFromData_m6929_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_SetDeviceTokenFromData_m6930_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -1066,10 +1066,10 @@ extern const MethodInfo ParseInstallation_SetDeviceTokenFromData_m6929_MethodInf
 extern const Il2CppType Int32_t82_0_0_0;
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 Parse.ParseInstallation::get_Badge()
-extern const MethodInfo ParseInstallation_get_Badge_m6930_MethodInfo = 
+extern const MethodInfo ParseInstallation_get_Badge_m6931_MethodInfo = 
 {
 	"get_Badge"/* name */
-	, (methodPointerType)&ParseInstallation_get_Badge_m6930/* method */
+	, (methodPointerType)&ParseInstallation_get_Badge_m6931/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -1088,20 +1088,20 @@ extern const MethodInfo ParseInstallation_get_Badge_m6930_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_Badge_m6931_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_set_Badge_m6932_ParameterInfos[] = 
 {
 	{"value", 0, 134218545, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::set_Badge(System.Int32)
-extern const MethodInfo ParseInstallation_set_Badge_m6931_MethodInfo = 
+extern const MethodInfo ParseInstallation_set_Badge_m6932_MethodInfo = 
 {
 	"set_Badge"/* name */
-	, (methodPointerType)&ParseInstallation_set_Badge_m6931/* method */
+	, (methodPointerType)&ParseInstallation_set_Badge_m6932/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_set_Badge_m6931_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_set_Badge_m6932_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -1117,10 +1117,10 @@ extern const MethodInfo ParseInstallation_set_Badge_m6931_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::SetPlatformAutomaticValue()
-extern const MethodInfo ParseInstallation_SetPlatformAutomaticValue_m6932_MethodInfo = 
+extern const MethodInfo ParseInstallation_SetPlatformAutomaticValue_m6933_MethodInfo = 
 {
 	"SetPlatformAutomaticValue"/* name */
-	, (methodPointerType)&ParseInstallation_SetPlatformAutomaticValue_m6932/* method */
+	, (methodPointerType)&ParseInstallation_SetPlatformAutomaticValue_m6933/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -1139,20 +1139,20 @@ extern const MethodInfo ParseInstallation_SetPlatformAutomaticValue_m6932_Method
 
 };
 extern const Il2CppType Task_1_t1369_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_U3CSetAutomaticValuesU3Eb__8d_m6933_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_U3CSetAutomaticValuesU3Eb__8d_m6934_ParameterInfos[] = 
 {
 	{"t", 0, 134218546, 0, &Task_1_t1369_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::<SetAutomaticValues>b__8d(System.Threading.Tasks.Task`1<System.String>)
-extern const MethodInfo ParseInstallation_U3CSetAutomaticValuesU3Eb__8d_m6933_MethodInfo = 
+extern const MethodInfo ParseInstallation_U3CSetAutomaticValuesU3Eb__8d_m6934_MethodInfo = 
 {
 	"<SetAutomaticValues>b__8d"/* name */
-	, (methodPointerType)&ParseInstallation_U3CSetAutomaticValuesU3Eb__8d_m6933/* method */
+	, (methodPointerType)&ParseInstallation_U3CSetAutomaticValuesU3Eb__8d_m6934/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_U3CSetAutomaticValuesU3Eb__8d_m6933_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_U3CSetAutomaticValuesU3Eb__8d_m6934_ParameterInfos/* parameters */
 	, 392/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -1168,21 +1168,21 @@ extern const MethodInfo ParseInstallation_U3CSetAutomaticValuesU3Eb__8d_m6933_Me
 };
 extern const Il2CppType Task_t1208_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_U3CU3En__FabricatedMethod96_m6934_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_U3CU3En__FabricatedMethod96_m6935_ParameterInfos[] = 
 {
 	{"", 0, 134217728, 0, &Task_t1208_0_0_0},
 	{"", 1, 134217728, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseInstallation::<>n__FabricatedMethod96(System.Threading.Tasks.Task,System.Threading.CancellationToken)
-extern const MethodInfo ParseInstallation_U3CU3En__FabricatedMethod96_m6934_MethodInfo = 
+extern const MethodInfo ParseInstallation_U3CU3En__FabricatedMethod96_m6935_MethodInfo = 
 {
 	"<>n__FabricatedMethod96"/* name */
-	, (methodPointerType)&ParseInstallation_U3CU3En__FabricatedMethod96_m6934/* method */
+	, (methodPointerType)&ParseInstallation_U3CU3En__FabricatedMethod96_m6935/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_U3CU3En__FabricatedMethod96_m6934_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_U3CU3En__FabricatedMethod96_m6935_ParameterInfos/* parameters */
 	, 393/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -1197,20 +1197,20 @@ extern const MethodInfo ParseInstallation_U3CU3En__FabricatedMethod96_m6934_Meth
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_U3CSaveAsyncU3Eb__8e_m6935_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_U3CSaveAsyncU3Eb__8e_m6936_ParameterInfos[] = 
 {
 	{"_", 0, 134218547, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseInstallation::<SaveAsync>b__8e(System.Threading.Tasks.Task)
-extern const MethodInfo ParseInstallation_U3CSaveAsyncU3Eb__8e_m6935_MethodInfo = 
+extern const MethodInfo ParseInstallation_U3CSaveAsyncU3Eb__8e_m6936_MethodInfo = 
 {
 	"<SaveAsync>b__8e"/* name */
-	, (methodPointerType)&ParseInstallation_U3CSaveAsyncU3Eb__8e_m6935/* method */
+	, (methodPointerType)&ParseInstallation_U3CSaveAsyncU3Eb__8e_m6936/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_U3CSaveAsyncU3Eb__8e_m6935_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_U3CSaveAsyncU3Eb__8e_m6936_ParameterInfos/* parameters */
 	, 394/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -1225,20 +1225,20 @@ extern const MethodInfo ParseInstallation_U3CSaveAsyncU3Eb__8e_m6935_MethodInfo 
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_U3CSaveAsyncU3Eb__91_m6936_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_U3CSaveAsyncU3Eb__91_m6937_ParameterInfos[] = 
 {
 	{"_", 0, 134218548, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::<SaveAsync>b__91(System.Threading.Tasks.Task)
-extern const MethodInfo ParseInstallation_U3CSaveAsyncU3Eb__91_m6936_MethodInfo = 
+extern const MethodInfo ParseInstallation_U3CSaveAsyncU3Eb__91_m6937_MethodInfo = 
 {
 	"<SaveAsync>b__91"/* name */
-	, (methodPointerType)&ParseInstallation_U3CSaveAsyncU3Eb__91_m6936/* method */
+	, (methodPointerType)&ParseInstallation_U3CSaveAsyncU3Eb__91_m6937/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_U3CSaveAsyncU3Eb__91_m6936_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_U3CSaveAsyncU3Eb__91_m6937_ParameterInfos/* parameters */
 	, 395/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -1254,20 +1254,20 @@ extern const MethodInfo ParseInstallation_U3CSaveAsyncU3Eb__91_m6936_MethodInfo 
 };
 extern const Il2CppType Task_t1208_1_0_0;
 extern const Il2CppType Task_t1208_1_0_0;
-static const ParameterInfo ParseInstallation_t1286_ParseInstallation_U3CSaveAsyncU3Eb__8f_m6937_ParameterInfos[] = 
+static const ParameterInfo ParseInstallation_t1286_ParseInstallation_U3CSaveAsyncU3Eb__8f_m6938_ParameterInfos[] = 
 {
 	{"t", 0, 134218549, 0, &Task_t1208_1_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_TaskU26_t2498 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::<SaveAsync>b__8f(System.Threading.Tasks.Task&)
-extern const MethodInfo ParseInstallation_U3CSaveAsyncU3Eb__8f_m6937_MethodInfo = 
+extern const MethodInfo ParseInstallation_U3CSaveAsyncU3Eb__8f_m6938_MethodInfo = 
 {
 	"<SaveAsync>b__8f"/* name */
-	, (methodPointerType)&ParseInstallation_U3CSaveAsyncU3Eb__8f_m6937/* method */
+	, (methodPointerType)&ParseInstallation_U3CSaveAsyncU3Eb__8f_m6938/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_TaskU26_t2498/* invoker_method */
-	, ParseInstallation_t1286_ParseInstallation_U3CSaveAsyncU3Eb__8f_m6937_ParameterInfos/* parameters */
+	, ParseInstallation_t1286_ParseInstallation_U3CSaveAsyncU3Eb__8f_m6938_ParameterInfos/* parameters */
 	, 396/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -1283,10 +1283,10 @@ extern const MethodInfo ParseInstallation_U3CSaveAsyncU3Eb__8f_m6937_MethodInfo 
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseInstallation::.cctor()
-extern const MethodInfo ParseInstallation__cctor_m6938_MethodInfo = 
+extern const MethodInfo ParseInstallation__cctor_m6939_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&ParseInstallation__cctor_m6938/* method */
+	, (methodPointerType)&ParseInstallation__cctor_m6939/* method */
 	, &ParseInstallation_t1286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -1306,190 +1306,190 @@ extern const MethodInfo ParseInstallation__cctor_m6938_MethodInfo =
 };
 static const MethodInfo* ParseInstallation_t1286_MethodInfos[] =
 {
-	&ParseInstallation__ctor_m6896_MethodInfo,
-	&ParseInstallation_get_CurrentInstallation_m6897_MethodInfo,
-	&ParseInstallation_SaveCurrentInstallation_m6898_MethodInfo,
-	&ParseInstallation_ClearInMemoryInstallation_m6899_MethodInfo,
-	&ParseInstallation_get_Query_m6900_MethodInfo,
-	&ParseInstallation_get_InstallationId_m6901_MethodInfo,
-	&ParseInstallation_set_InstallationId_m6902_MethodInfo,
-	&ParseInstallation_getInstallationId_m6903_MethodInfo,
-	&ParseInstallation_get_DeviceType_m6904_MethodInfo,
-	&ParseInstallation_set_DeviceType_m6905_MethodInfo,
-	&ParseInstallation_get_AppName_m6906_MethodInfo,
-	&ParseInstallation_set_AppName_m6907_MethodInfo,
-	&ParseInstallation_get_AppVersion_m6908_MethodInfo,
-	&ParseInstallation_set_AppVersion_m6909_MethodInfo,
-	&ParseInstallation_get_AppIdentifier_m6910_MethodInfo,
-	&ParseInstallation_set_AppIdentifier_m6911_MethodInfo,
-	&ParseInstallation_get_TimeZone_m6912_MethodInfo,
-	&ParseInstallation_set_TimeZone_m6913_MethodInfo,
-	&ParseInstallation_get_ParseVersion_m6914_MethodInfo,
-	&ParseInstallation_set_ParseVersion_m6915_MethodInfo,
-	&ParseInstallation_getParseVersion_m6916_MethodInfo,
-	&ParseInstallation_get_Channels_m6917_MethodInfo,
-	&ParseInstallation_set_Channels_m6918_MethodInfo,
-	&ParseInstallation_IsKeyMutable_m6919_MethodInfo,
-	&ParseInstallation_SetIfDifferent_m8062_MethodInfo,
-	&ParseInstallation_SetAutomaticValues_m6920_MethodInfo,
-	&ParseInstallation_SaveAsync_m6921_MethodInfo,
-	&ParseInstallation_getDeviceType_m6922_MethodInfo,
-	&ParseInstallation_getAppNameAsync_m6923_MethodInfo,
-	&ParseInstallation_getAppIdentifier_m6924_MethodInfo,
-	&ParseInstallation_getAppVersion_m6925_MethodInfo,
-	&ParseInstallation_getTimeZone_m6926_MethodInfo,
-	&ParseInstallation_get_DeviceToken_m6927_MethodInfo,
-	&ParseInstallation_set_DeviceToken_m6928_MethodInfo,
-	&ParseInstallation_SetDeviceTokenFromData_m6929_MethodInfo,
-	&ParseInstallation_get_Badge_m6930_MethodInfo,
-	&ParseInstallation_set_Badge_m6931_MethodInfo,
-	&ParseInstallation_SetPlatformAutomaticValue_m6932_MethodInfo,
-	&ParseInstallation_U3CSetAutomaticValuesU3Eb__8d_m6933_MethodInfo,
-	&ParseInstallation_U3CU3En__FabricatedMethod96_m6934_MethodInfo,
-	&ParseInstallation_U3CSaveAsyncU3Eb__8e_m6935_MethodInfo,
-	&ParseInstallation_U3CSaveAsyncU3Eb__91_m6936_MethodInfo,
-	&ParseInstallation_U3CSaveAsyncU3Eb__8f_m6937_MethodInfo,
-	&ParseInstallation__cctor_m6938_MethodInfo,
+	&ParseInstallation__ctor_m6897_MethodInfo,
+	&ParseInstallation_get_CurrentInstallation_m6898_MethodInfo,
+	&ParseInstallation_SaveCurrentInstallation_m6899_MethodInfo,
+	&ParseInstallation_ClearInMemoryInstallation_m6900_MethodInfo,
+	&ParseInstallation_get_Query_m6901_MethodInfo,
+	&ParseInstallation_get_InstallationId_m6902_MethodInfo,
+	&ParseInstallation_set_InstallationId_m6903_MethodInfo,
+	&ParseInstallation_getInstallationId_m6904_MethodInfo,
+	&ParseInstallation_get_DeviceType_m6905_MethodInfo,
+	&ParseInstallation_set_DeviceType_m6906_MethodInfo,
+	&ParseInstallation_get_AppName_m6907_MethodInfo,
+	&ParseInstallation_set_AppName_m6908_MethodInfo,
+	&ParseInstallation_get_AppVersion_m6909_MethodInfo,
+	&ParseInstallation_set_AppVersion_m6910_MethodInfo,
+	&ParseInstallation_get_AppIdentifier_m6911_MethodInfo,
+	&ParseInstallation_set_AppIdentifier_m6912_MethodInfo,
+	&ParseInstallation_get_TimeZone_m6913_MethodInfo,
+	&ParseInstallation_set_TimeZone_m6914_MethodInfo,
+	&ParseInstallation_get_ParseVersion_m6915_MethodInfo,
+	&ParseInstallation_set_ParseVersion_m6916_MethodInfo,
+	&ParseInstallation_getParseVersion_m6917_MethodInfo,
+	&ParseInstallation_get_Channels_m6918_MethodInfo,
+	&ParseInstallation_set_Channels_m6919_MethodInfo,
+	&ParseInstallation_IsKeyMutable_m6920_MethodInfo,
+	&ParseInstallation_SetIfDifferent_m8063_MethodInfo,
+	&ParseInstallation_SetAutomaticValues_m6921_MethodInfo,
+	&ParseInstallation_SaveAsync_m6922_MethodInfo,
+	&ParseInstallation_getDeviceType_m6923_MethodInfo,
+	&ParseInstallation_getAppNameAsync_m6924_MethodInfo,
+	&ParseInstallation_getAppIdentifier_m6925_MethodInfo,
+	&ParseInstallation_getAppVersion_m6926_MethodInfo,
+	&ParseInstallation_getTimeZone_m6927_MethodInfo,
+	&ParseInstallation_get_DeviceToken_m6928_MethodInfo,
+	&ParseInstallation_set_DeviceToken_m6929_MethodInfo,
+	&ParseInstallation_SetDeviceTokenFromData_m6930_MethodInfo,
+	&ParseInstallation_get_Badge_m6931_MethodInfo,
+	&ParseInstallation_set_Badge_m6932_MethodInfo,
+	&ParseInstallation_SetPlatformAutomaticValue_m6933_MethodInfo,
+	&ParseInstallation_U3CSetAutomaticValuesU3Eb__8d_m6934_MethodInfo,
+	&ParseInstallation_U3CU3En__FabricatedMethod96_m6935_MethodInfo,
+	&ParseInstallation_U3CSaveAsyncU3Eb__8e_m6936_MethodInfo,
+	&ParseInstallation_U3CSaveAsyncU3Eb__91_m6937_MethodInfo,
+	&ParseInstallation_U3CSaveAsyncU3Eb__8f_m6938_MethodInfo,
+	&ParseInstallation__cctor_m6939_MethodInfo,
 	NULL
 };
-extern const MethodInfo ParseInstallation_get_CurrentInstallation_m6897_MethodInfo;
+extern const MethodInfo ParseInstallation_get_CurrentInstallation_m6898_MethodInfo;
 static const PropertyInfo ParseInstallation_t1286____CurrentInstallation_PropertyInfo = 
 {
 	&ParseInstallation_t1286_il2cpp_TypeInfo/* parent */
 	, "CurrentInstallation"/* name */
-	, &ParseInstallation_get_CurrentInstallation_m6897_MethodInfo/* get */
+	, &ParseInstallation_get_CurrentInstallation_m6898_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseInstallation_get_Query_m6900_MethodInfo;
+extern const MethodInfo ParseInstallation_get_Query_m6901_MethodInfo;
 static const PropertyInfo ParseInstallation_t1286____Query_PropertyInfo = 
 {
 	&ParseInstallation_t1286_il2cpp_TypeInfo/* parent */
 	, "Query"/* name */
-	, &ParseInstallation_get_Query_m6900_MethodInfo/* get */
+	, &ParseInstallation_get_Query_m6901_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseInstallation_get_InstallationId_m6901_MethodInfo;
-extern const MethodInfo ParseInstallation_set_InstallationId_m6902_MethodInfo;
+extern const MethodInfo ParseInstallation_get_InstallationId_m6902_MethodInfo;
+extern const MethodInfo ParseInstallation_set_InstallationId_m6903_MethodInfo;
 static const PropertyInfo ParseInstallation_t1286____InstallationId_PropertyInfo = 
 {
 	&ParseInstallation_t1286_il2cpp_TypeInfo/* parent */
 	, "InstallationId"/* name */
-	, &ParseInstallation_get_InstallationId_m6901_MethodInfo/* get */
-	, &ParseInstallation_set_InstallationId_m6902_MethodInfo/* set */
+	, &ParseInstallation_get_InstallationId_m6902_MethodInfo/* get */
+	, &ParseInstallation_set_InstallationId_m6903_MethodInfo/* set */
 	, 0/* attrs */
 	, 397/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseInstallation_get_DeviceType_m6904_MethodInfo;
-extern const MethodInfo ParseInstallation_set_DeviceType_m6905_MethodInfo;
+extern const MethodInfo ParseInstallation_get_DeviceType_m6905_MethodInfo;
+extern const MethodInfo ParseInstallation_set_DeviceType_m6906_MethodInfo;
 static const PropertyInfo ParseInstallation_t1286____DeviceType_PropertyInfo = 
 {
 	&ParseInstallation_t1286_il2cpp_TypeInfo/* parent */
 	, "DeviceType"/* name */
-	, &ParseInstallation_get_DeviceType_m6904_MethodInfo/* get */
-	, &ParseInstallation_set_DeviceType_m6905_MethodInfo/* set */
+	, &ParseInstallation_get_DeviceType_m6905_MethodInfo/* get */
+	, &ParseInstallation_set_DeviceType_m6906_MethodInfo/* set */
 	, 0/* attrs */
 	, 398/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseInstallation_get_AppName_m6906_MethodInfo;
-extern const MethodInfo ParseInstallation_set_AppName_m6907_MethodInfo;
+extern const MethodInfo ParseInstallation_get_AppName_m6907_MethodInfo;
+extern const MethodInfo ParseInstallation_set_AppName_m6908_MethodInfo;
 static const PropertyInfo ParseInstallation_t1286____AppName_PropertyInfo = 
 {
 	&ParseInstallation_t1286_il2cpp_TypeInfo/* parent */
 	, "AppName"/* name */
-	, &ParseInstallation_get_AppName_m6906_MethodInfo/* get */
-	, &ParseInstallation_set_AppName_m6907_MethodInfo/* set */
+	, &ParseInstallation_get_AppName_m6907_MethodInfo/* get */
+	, &ParseInstallation_set_AppName_m6908_MethodInfo/* set */
 	, 0/* attrs */
 	, 399/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseInstallation_get_AppVersion_m6908_MethodInfo;
-extern const MethodInfo ParseInstallation_set_AppVersion_m6909_MethodInfo;
+extern const MethodInfo ParseInstallation_get_AppVersion_m6909_MethodInfo;
+extern const MethodInfo ParseInstallation_set_AppVersion_m6910_MethodInfo;
 static const PropertyInfo ParseInstallation_t1286____AppVersion_PropertyInfo = 
 {
 	&ParseInstallation_t1286_il2cpp_TypeInfo/* parent */
 	, "AppVersion"/* name */
-	, &ParseInstallation_get_AppVersion_m6908_MethodInfo/* get */
-	, &ParseInstallation_set_AppVersion_m6909_MethodInfo/* set */
+	, &ParseInstallation_get_AppVersion_m6909_MethodInfo/* get */
+	, &ParseInstallation_set_AppVersion_m6910_MethodInfo/* set */
 	, 0/* attrs */
 	, 400/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseInstallation_get_AppIdentifier_m6910_MethodInfo;
-extern const MethodInfo ParseInstallation_set_AppIdentifier_m6911_MethodInfo;
+extern const MethodInfo ParseInstallation_get_AppIdentifier_m6911_MethodInfo;
+extern const MethodInfo ParseInstallation_set_AppIdentifier_m6912_MethodInfo;
 static const PropertyInfo ParseInstallation_t1286____AppIdentifier_PropertyInfo = 
 {
 	&ParseInstallation_t1286_il2cpp_TypeInfo/* parent */
 	, "AppIdentifier"/* name */
-	, &ParseInstallation_get_AppIdentifier_m6910_MethodInfo/* get */
-	, &ParseInstallation_set_AppIdentifier_m6911_MethodInfo/* set */
+	, &ParseInstallation_get_AppIdentifier_m6911_MethodInfo/* get */
+	, &ParseInstallation_set_AppIdentifier_m6912_MethodInfo/* set */
 	, 0/* attrs */
 	, 401/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseInstallation_get_TimeZone_m6912_MethodInfo;
-extern const MethodInfo ParseInstallation_set_TimeZone_m6913_MethodInfo;
+extern const MethodInfo ParseInstallation_get_TimeZone_m6913_MethodInfo;
+extern const MethodInfo ParseInstallation_set_TimeZone_m6914_MethodInfo;
 static const PropertyInfo ParseInstallation_t1286____TimeZone_PropertyInfo = 
 {
 	&ParseInstallation_t1286_il2cpp_TypeInfo/* parent */
 	, "TimeZone"/* name */
-	, &ParseInstallation_get_TimeZone_m6912_MethodInfo/* get */
-	, &ParseInstallation_set_TimeZone_m6913_MethodInfo/* set */
+	, &ParseInstallation_get_TimeZone_m6913_MethodInfo/* get */
+	, &ParseInstallation_set_TimeZone_m6914_MethodInfo/* set */
 	, 0/* attrs */
 	, 402/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseInstallation_get_ParseVersion_m6914_MethodInfo;
-extern const MethodInfo ParseInstallation_set_ParseVersion_m6915_MethodInfo;
+extern const MethodInfo ParseInstallation_get_ParseVersion_m6915_MethodInfo;
+extern const MethodInfo ParseInstallation_set_ParseVersion_m6916_MethodInfo;
 static const PropertyInfo ParseInstallation_t1286____ParseVersion_PropertyInfo = 
 {
 	&ParseInstallation_t1286_il2cpp_TypeInfo/* parent */
 	, "ParseVersion"/* name */
-	, &ParseInstallation_get_ParseVersion_m6914_MethodInfo/* get */
-	, &ParseInstallation_set_ParseVersion_m6915_MethodInfo/* set */
+	, &ParseInstallation_get_ParseVersion_m6915_MethodInfo/* get */
+	, &ParseInstallation_set_ParseVersion_m6916_MethodInfo/* set */
 	, 0/* attrs */
 	, 403/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseInstallation_get_Channels_m6917_MethodInfo;
-extern const MethodInfo ParseInstallation_set_Channels_m6918_MethodInfo;
+extern const MethodInfo ParseInstallation_get_Channels_m6918_MethodInfo;
+extern const MethodInfo ParseInstallation_set_Channels_m6919_MethodInfo;
 static const PropertyInfo ParseInstallation_t1286____Channels_PropertyInfo = 
 {
 	&ParseInstallation_t1286_il2cpp_TypeInfo/* parent */
 	, "Channels"/* name */
-	, &ParseInstallation_get_Channels_m6917_MethodInfo/* get */
-	, &ParseInstallation_set_Channels_m6918_MethodInfo/* set */
+	, &ParseInstallation_get_Channels_m6918_MethodInfo/* get */
+	, &ParseInstallation_set_Channels_m6919_MethodInfo/* set */
 	, 0/* attrs */
 	, 404/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseInstallation_get_DeviceToken_m6927_MethodInfo;
-extern const MethodInfo ParseInstallation_set_DeviceToken_m6928_MethodInfo;
+extern const MethodInfo ParseInstallation_get_DeviceToken_m6928_MethodInfo;
+extern const MethodInfo ParseInstallation_set_DeviceToken_m6929_MethodInfo;
 static const PropertyInfo ParseInstallation_t1286____DeviceToken_PropertyInfo = 
 {
 	&ParseInstallation_t1286_il2cpp_TypeInfo/* parent */
 	, "DeviceToken"/* name */
-	, &ParseInstallation_get_DeviceToken_m6927_MethodInfo/* get */
-	, &ParseInstallation_set_DeviceToken_m6928_MethodInfo/* set */
+	, &ParseInstallation_get_DeviceToken_m6928_MethodInfo/* get */
+	, &ParseInstallation_set_DeviceToken_m6929_MethodInfo/* set */
 	, 0/* attrs */
 	, 405/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseInstallation_get_Badge_m6930_MethodInfo;
-extern const MethodInfo ParseInstallation_set_Badge_m6931_MethodInfo;
+extern const MethodInfo ParseInstallation_get_Badge_m6931_MethodInfo;
+extern const MethodInfo ParseInstallation_set_Badge_m6932_MethodInfo;
 static const PropertyInfo ParseInstallation_t1286____Badge_PropertyInfo = 
 {
 	&ParseInstallation_t1286_il2cpp_TypeInfo/* parent */
 	, "Badge"/* name */
-	, &ParseInstallation_get_Badge_m6930_MethodInfo/* get */
-	, &ParseInstallation_set_Badge_m6931_MethodInfo/* set */
+	, &ParseInstallation_get_Badge_m6931_MethodInfo/* get */
+	, &ParseInstallation_set_Badge_m6932_MethodInfo/* set */
 	, 0/* attrs */
 	, 406/* custom_attributes_cache */
 
@@ -1514,42 +1514,42 @@ static const Il2CppType* ParseInstallation_t1286_il2cpp_TypeInfo__nestedTypes[1]
 {
 	&U3CU3Ec__DisplayClass93_t1287_0_0_0,
 };
-extern const MethodInfo ParseObject_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_ObjectU3EU3E_GetEnumerator_m6874_MethodInfo;
-extern const MethodInfo ParseObject_System_Collections_IEnumerable_GetEnumerator_m6875_MethodInfo;
-extern const MethodInfo ParseObject_SetDefaultValues_m6797_MethodInfo;
-extern const MethodInfo ParseObject_MergeAfterFetch_m6803_MethodInfo;
-extern const MethodInfo ParseObject_MergeAfterSave_m6805_MethodInfo;
-extern const MethodInfo ParseObject_MergeMagicFields_m6806_MethodInfo;
-extern const MethodInfo ParseInstallation_SaveAsync_m6921_MethodInfo;
-extern const MethodInfo ParseObject_FetchAsyncInternal_m6821_MethodInfo;
-extern const MethodInfo ParseObject_Remove_m6833_MethodInfo;
-extern const MethodInfo ParseObject_OnSettingValue_m6837_MethodInfo;
-extern const MethodInfo ParseObject_get_Item_m6838_MethodInfo;
-extern const MethodInfo ParseObject_set_Item_m6839_MethodInfo;
-extern const MethodInfo ParseInstallation_IsKeyMutable_m6919_MethodInfo;
-extern const MethodInfo ParseObject_add_PropertyChanged_m6880_MethodInfo;
-extern const MethodInfo ParseObject_remove_PropertyChanged_m6881_MethodInfo;
+extern const MethodInfo ParseObject_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_ObjectU3EU3E_GetEnumerator_m6875_MethodInfo;
+extern const MethodInfo ParseObject_System_Collections_IEnumerable_GetEnumerator_m6876_MethodInfo;
+extern const MethodInfo ParseObject_SetDefaultValues_m6798_MethodInfo;
+extern const MethodInfo ParseObject_MergeAfterFetch_m6804_MethodInfo;
+extern const MethodInfo ParseObject_MergeAfterSave_m6806_MethodInfo;
+extern const MethodInfo ParseObject_MergeMagicFields_m6807_MethodInfo;
+extern const MethodInfo ParseInstallation_SaveAsync_m6922_MethodInfo;
+extern const MethodInfo ParseObject_FetchAsyncInternal_m6822_MethodInfo;
+extern const MethodInfo ParseObject_Remove_m6834_MethodInfo;
+extern const MethodInfo ParseObject_OnSettingValue_m6838_MethodInfo;
+extern const MethodInfo ParseObject_get_Item_m6839_MethodInfo;
+extern const MethodInfo ParseObject_set_Item_m6840_MethodInfo;
+extern const MethodInfo ParseInstallation_IsKeyMutable_m6920_MethodInfo;
+extern const MethodInfo ParseObject_add_PropertyChanged_m6881_MethodInfo;
+extern const MethodInfo ParseObject_remove_PropertyChanged_m6882_MethodInfo;
 static const Il2CppMethodReference ParseInstallation_t1286_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ParseObject_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_ObjectU3EU3E_GetEnumerator_m6874_MethodInfo,
-	&ParseObject_System_Collections_IEnumerable_GetEnumerator_m6875_MethodInfo,
-	&ParseObject_SetDefaultValues_m6797_MethodInfo,
-	&ParseObject_MergeAfterFetch_m6803_MethodInfo,
-	&ParseObject_MergeAfterSave_m6805_MethodInfo,
-	&ParseObject_MergeMagicFields_m6806_MethodInfo,
-	&ParseInstallation_SaveAsync_m6921_MethodInfo,
-	&ParseObject_FetchAsyncInternal_m6821_MethodInfo,
-	&ParseObject_Remove_m6833_MethodInfo,
-	&ParseObject_OnSettingValue_m6837_MethodInfo,
-	&ParseObject_get_Item_m6838_MethodInfo,
-	&ParseObject_set_Item_m6839_MethodInfo,
-	&ParseInstallation_IsKeyMutable_m6919_MethodInfo,
-	&ParseObject_add_PropertyChanged_m6880_MethodInfo,
-	&ParseObject_remove_PropertyChanged_m6881_MethodInfo,
+	&ParseObject_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_ObjectU3EU3E_GetEnumerator_m6875_MethodInfo,
+	&ParseObject_System_Collections_IEnumerable_GetEnumerator_m6876_MethodInfo,
+	&ParseObject_SetDefaultValues_m6798_MethodInfo,
+	&ParseObject_MergeAfterFetch_m6804_MethodInfo,
+	&ParseObject_MergeAfterSave_m6806_MethodInfo,
+	&ParseObject_MergeMagicFields_m6807_MethodInfo,
+	&ParseInstallation_SaveAsync_m6922_MethodInfo,
+	&ParseObject_FetchAsyncInternal_m6822_MethodInfo,
+	&ParseObject_Remove_m6834_MethodInfo,
+	&ParseObject_OnSettingValue_m6838_MethodInfo,
+	&ParseObject_get_Item_m6839_MethodInfo,
+	&ParseObject_set_Item_m6840_MethodInfo,
+	&ParseInstallation_IsKeyMutable_m6920_MethodInfo,
+	&ParseObject_add_PropertyChanged_m6881_MethodInfo,
+	&ParseObject_remove_PropertyChanged_m6882_MethodInfo,
 };
 static bool ParseInstallation_t1286_VTableIsGenericMethod[] =
 {
@@ -1661,10 +1661,10 @@ extern TypeInfo ParsePush_t1292_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParsePushMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePush::.ctor()
-extern const MethodInfo ParsePush__ctor_m6939_MethodInfo = 
+extern const MethodInfo ParsePush__ctor_m6940_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ParsePush__ctor_m6939/* method */
+	, (methodPointerType)&ParsePush__ctor_m6940/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -1684,10 +1684,10 @@ extern const MethodInfo ParsePush__ctor_m6939_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseQuery`1<Parse.ParseInstallation> Parse.ParsePush::get_Query()
-extern const MethodInfo ParsePush_get_Query_m6940_MethodInfo = 
+extern const MethodInfo ParsePush_get_Query_m6941_MethodInfo = 
 {
 	"get_Query"/* name */
-	, (methodPointerType)&ParsePush_get_Query_m6940/* method */
+	, (methodPointerType)&ParsePush_get_Query_m6941/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t1290_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1706,20 +1706,20 @@ extern const MethodInfo ParsePush_get_Query_m6940_MethodInfo =
 
 };
 extern const Il2CppType ParseQuery_1_t1290_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_set_Query_m6941_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_set_Query_m6942_ParameterInfos[] = 
 {
 	{"value", 0, 134218551, 0, &ParseQuery_1_t1290_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePush::set_Query(Parse.ParseQuery`1<Parse.ParseInstallation>)
-extern const MethodInfo ParsePush_set_Query_m6941_MethodInfo = 
+extern const MethodInfo ParsePush_set_Query_m6942_MethodInfo = 
 {
 	"set_Query"/* name */
-	, (methodPointerType)&ParsePush_set_Query_m6941/* method */
+	, (methodPointerType)&ParsePush_set_Query_m6942/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_set_Query_m6941_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_set_Query_m6942_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -1736,10 +1736,10 @@ extern const MethodInfo ParsePush_set_Query_m6941_MethodInfo =
 extern const Il2CppType IEnumerable_1_t707_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IEnumerable`1<System.String> Parse.ParsePush::get_Channels()
-extern const MethodInfo ParsePush_get_Channels_m6942_MethodInfo = 
+extern const MethodInfo ParsePush_get_Channels_m6943_MethodInfo = 
 {
 	"get_Channels"/* name */
-	, (methodPointerType)&ParsePush_get_Channels_m6942/* method */
+	, (methodPointerType)&ParsePush_get_Channels_m6943/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerable_1_t707_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1758,20 +1758,20 @@ extern const MethodInfo ParsePush_get_Channels_m6942_MethodInfo =
 
 };
 extern const Il2CppType IEnumerable_1_t707_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_set_Channels_m6943_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_set_Channels_m6944_ParameterInfos[] = 
 {
 	{"value", 0, 134218552, 0, &IEnumerable_1_t707_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePush::set_Channels(System.Collections.Generic.IEnumerable`1<System.String>)
-extern const MethodInfo ParsePush_set_Channels_m6943_MethodInfo = 
+extern const MethodInfo ParsePush_set_Channels_m6944_MethodInfo = 
 {
 	"set_Channels"/* name */
-	, (methodPointerType)&ParsePush_set_Channels_m6943/* method */
+	, (methodPointerType)&ParsePush_set_Channels_m6944/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_set_Channels_m6943_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_set_Channels_m6944_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -1788,10 +1788,10 @@ extern const MethodInfo ParsePush_set_Channels_m6943_MethodInfo =
 extern const Il2CppType Nullable_1_t1285_0_0_0;
 extern void* RuntimeInvoker_Nullable_1_t1285 (const MethodInfo* method, void* obj, void** args);
 // System.Nullable`1<System.DateTime> Parse.ParsePush::get_Expiration()
-extern const MethodInfo ParsePush_get_Expiration_m6944_MethodInfo = 
+extern const MethodInfo ParsePush_get_Expiration_m6945_MethodInfo = 
 {
 	"get_Expiration"/* name */
-	, (methodPointerType)&ParsePush_get_Expiration_m6944/* method */
+	, (methodPointerType)&ParsePush_get_Expiration_m6945/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Nullable_1_t1285_0_0_0/* return_type */
 	, RuntimeInvoker_Nullable_1_t1285/* invoker_method */
@@ -1810,20 +1810,20 @@ extern const MethodInfo ParsePush_get_Expiration_m6944_MethodInfo =
 
 };
 extern const Il2CppType Nullable_1_t1285_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_set_Expiration_m6945_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_set_Expiration_m6946_ParameterInfos[] = 
 {
 	{"value", 0, 134218553, 0, &Nullable_1_t1285_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Nullable_1_t1285 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePush::set_Expiration(System.Nullable`1<System.DateTime>)
-extern const MethodInfo ParsePush_set_Expiration_m6945_MethodInfo = 
+extern const MethodInfo ParsePush_set_Expiration_m6946_MethodInfo = 
 {
 	"set_Expiration"/* name */
-	, (methodPointerType)&ParsePush_set_Expiration_m6945/* method */
+	, (methodPointerType)&ParsePush_set_Expiration_m6946/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Nullable_1_t1285/* invoker_method */
-	, ParsePush_t1292_ParsePush_set_Expiration_m6945_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_set_Expiration_m6946_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -1840,10 +1840,10 @@ extern const MethodInfo ParsePush_set_Expiration_m6945_MethodInfo =
 extern const Il2CppType Nullable_1_t1293_0_0_0;
 extern void* RuntimeInvoker_Nullable_1_t1293 (const MethodInfo* method, void* obj, void** args);
 // System.Nullable`1<System.TimeSpan> Parse.ParsePush::get_ExpirationInterval()
-extern const MethodInfo ParsePush_get_ExpirationInterval_m6946_MethodInfo = 
+extern const MethodInfo ParsePush_get_ExpirationInterval_m6947_MethodInfo = 
 {
 	"get_ExpirationInterval"/* name */
-	, (methodPointerType)&ParsePush_get_ExpirationInterval_m6946/* method */
+	, (methodPointerType)&ParsePush_get_ExpirationInterval_m6947/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Nullable_1_t1293_0_0_0/* return_type */
 	, RuntimeInvoker_Nullable_1_t1293/* invoker_method */
@@ -1862,20 +1862,20 @@ extern const MethodInfo ParsePush_get_ExpirationInterval_m6946_MethodInfo =
 
 };
 extern const Il2CppType Nullable_1_t1293_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_set_ExpirationInterval_m6947_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_set_ExpirationInterval_m6948_ParameterInfos[] = 
 {
 	{"value", 0, 134218554, 0, &Nullable_1_t1293_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Nullable_1_t1293 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePush::set_ExpirationInterval(System.Nullable`1<System.TimeSpan>)
-extern const MethodInfo ParsePush_set_ExpirationInterval_m6947_MethodInfo = 
+extern const MethodInfo ParsePush_set_ExpirationInterval_m6948_MethodInfo = 
 {
 	"set_ExpirationInterval"/* name */
-	, (methodPointerType)&ParsePush_set_ExpirationInterval_m6947/* method */
+	, (methodPointerType)&ParsePush_set_ExpirationInterval_m6948/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Nullable_1_t1293/* invoker_method */
-	, ParsePush_t1292_ParsePush_set_ExpirationInterval_m6947_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_set_ExpirationInterval_m6948_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -1892,10 +1892,10 @@ extern const MethodInfo ParsePush_set_ExpirationInterval_m6947_MethodInfo =
 extern const Il2CppType IDictionary_2_t820_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParsePush::get_Data()
-extern const MethodInfo ParsePush_get_Data_m6948_MethodInfo = 
+extern const MethodInfo ParsePush_get_Data_m6949_MethodInfo = 
 {
 	"get_Data"/* name */
-	, (methodPointerType)&ParsePush_get_Data_m6948/* method */
+	, (methodPointerType)&ParsePush_get_Data_m6949/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &IDictionary_2_t820_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1914,20 +1914,20 @@ extern const MethodInfo ParsePush_get_Data_m6948_MethodInfo =
 
 };
 extern const Il2CppType IDictionary_2_t820_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_set_Data_m6949_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_set_Data_m6950_ParameterInfos[] = 
 {
 	{"value", 0, 134218555, 0, &IDictionary_2_t820_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePush::set_Data(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern const MethodInfo ParsePush_set_Data_m6949_MethodInfo = 
+extern const MethodInfo ParsePush_set_Data_m6950_MethodInfo = 
 {
 	"set_Data"/* name */
-	, (methodPointerType)&ParsePush_set_Data_m6949/* method */
+	, (methodPointerType)&ParsePush_set_Data_m6950/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_set_Data_m6949_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_set_Data_m6950_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -1943,10 +1943,10 @@ extern const MethodInfo ParsePush_set_Data_m6949_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParsePush::get_Alert()
-extern const MethodInfo ParsePush_get_Alert_m6950_MethodInfo = 
+extern const MethodInfo ParsePush_get_Alert_m6951_MethodInfo = 
 {
 	"get_Alert"/* name */
-	, (methodPointerType)&ParsePush_get_Alert_m6950/* method */
+	, (methodPointerType)&ParsePush_get_Alert_m6951/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1965,20 +1965,20 @@ extern const MethodInfo ParsePush_get_Alert_m6950_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_set_Alert_m6951_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_set_Alert_m6952_ParameterInfos[] = 
 {
 	{"value", 0, 134218556, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePush::set_Alert(System.String)
-extern const MethodInfo ParsePush_set_Alert_m6951_MethodInfo = 
+extern const MethodInfo ParsePush_set_Alert_m6952_MethodInfo = 
 {
 	"set_Alert"/* name */
-	, (methodPointerType)&ParsePush_set_Alert_m6951/* method */
+	, (methodPointerType)&ParsePush_set_Alert_m6952/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_set_Alert_m6951_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_set_Alert_m6952_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -1994,10 +1994,10 @@ extern const MethodInfo ParsePush_set_Alert_m6951_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParsePush::Encode()
-extern const MethodInfo ParsePush_Encode_m6952_MethodInfo = 
+extern const MethodInfo ParsePush_Encode_m6953_MethodInfo = 
 {
 	"Encode"/* name */
-	, (methodPointerType)&ParsePush_Encode_m6952/* method */
+	, (methodPointerType)&ParsePush_Encode_m6953/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &IDictionary_2_t820_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2017,10 +2017,10 @@ extern const MethodInfo ParsePush_Encode_m6952_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SendAsync()
-extern const MethodInfo ParsePush_SendAsync_m6953_MethodInfo = 
+extern const MethodInfo ParsePush_SendAsync_m6954_MethodInfo = 
 {
 	"SendAsync"/* name */
-	, (methodPointerType)&ParsePush_SendAsync_m6953/* method */
+	, (methodPointerType)&ParsePush_SendAsync_m6954/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2039,20 +2039,20 @@ extern const MethodInfo ParsePush_SendAsync_m6953_MethodInfo =
 
 };
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_SendAsync_m6954_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_SendAsync_m6955_ParameterInfos[] = 
 {
 	{"cancellationToken", 0, 134218557, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SendAsync(System.Threading.CancellationToken)
-extern const MethodInfo ParsePush_SendAsync_m6954_MethodInfo = 
+extern const MethodInfo ParsePush_SendAsync_m6955_MethodInfo = 
 {
 	"SendAsync"/* name */
-	, (methodPointerType)&ParsePush_SendAsync_m6954/* method */
+	, (methodPointerType)&ParsePush_SendAsync_m6955/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParsePush_t1292_ParsePush_SendAsync_m6954_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_SendAsync_m6955_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -2067,20 +2067,20 @@ extern const MethodInfo ParsePush_SendAsync_m6954_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_SendAlertAsync_m6955_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_SendAlertAsync_m6956_ParameterInfos[] = 
 {
 	{"alert", 0, 134218558, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SendAlertAsync(System.String)
-extern const MethodInfo ParsePush_SendAlertAsync_m6955_MethodInfo = 
+extern const MethodInfo ParsePush_SendAlertAsync_m6956_MethodInfo = 
 {
 	"SendAlertAsync"/* name */
-	, (methodPointerType)&ParsePush_SendAlertAsync_m6955/* method */
+	, (methodPointerType)&ParsePush_SendAlertAsync_m6956/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_SendAlertAsync_m6955_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_SendAlertAsync_m6956_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -2096,43 +2096,13 @@ extern const MethodInfo ParsePush_SendAlertAsync_m6955_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_SendAlertAsync_m6956_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_SendAlertAsync_m6957_ParameterInfos[] = 
 {
 	{"alert", 0, 134218559, 0, &String_t_0_0_0},
 	{"channel", 1, 134218560, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SendAlertAsync(System.String,System.String)
-extern const MethodInfo ParsePush_SendAlertAsync_m6956_MethodInfo = 
-{
-	"SendAlertAsync"/* name */
-	, (methodPointerType)&ParsePush_SendAlertAsync_m6956/* method */
-	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
-	, &Task_t1208_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_SendAlertAsync_m6956_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 150/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 824/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType IEnumerable_1_t707_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_SendAlertAsync_m6957_ParameterInfos[] = 
-{
-	{"alert", 0, 134218561, 0, &String_t_0_0_0},
-	{"channels", 1, 134218562, 0, &IEnumerable_1_t707_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Threading.Tasks.Task Parse.ParsePush::SendAlertAsync(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
 extern const MethodInfo ParsePush_SendAlertAsync_m6957_MethodInfo = 
 {
 	"SendAlertAsync"/* name */
@@ -2148,21 +2118,21 @@ extern const MethodInfo ParsePush_SendAlertAsync_m6957_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 825/* token */
+	, 824/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ParseQuery_1_t1290_0_0_0;
+extern const Il2CppType IEnumerable_1_t707_0_0_0;
 static const ParameterInfo ParsePush_t1292_ParsePush_SendAlertAsync_m6958_ParameterInfos[] = 
 {
-	{"alert", 0, 134218563, 0, &String_t_0_0_0},
-	{"query", 1, 134218564, 0, &ParseQuery_1_t1290_0_0_0},
+	{"alert", 0, 134218561, 0, &String_t_0_0_0},
+	{"channels", 1, 134218562, 0, &IEnumerable_1_t707_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Threading.Tasks.Task Parse.ParsePush::SendAlertAsync(System.String,Parse.ParseQuery`1<Parse.ParseInstallation>)
+// System.Threading.Tasks.Task Parse.ParsePush::SendAlertAsync(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
 extern const MethodInfo ParsePush_SendAlertAsync_m6958_MethodInfo = 
 {
 	"SendAlertAsync"/* name */
@@ -2178,6 +2148,36 @@ extern const MethodInfo ParsePush_SendAlertAsync_m6958_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
+	, 825/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType String_t_0_0_0;
+extern const Il2CppType ParseQuery_1_t1290_0_0_0;
+static const ParameterInfo ParsePush_t1292_ParsePush_SendAlertAsync_m6959_ParameterInfos[] = 
+{
+	{"alert", 0, 134218563, 0, &String_t_0_0_0},
+	{"query", 1, 134218564, 0, &ParseQuery_1_t1290_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Tasks.Task Parse.ParsePush::SendAlertAsync(System.String,Parse.ParseQuery`1<Parse.ParseInstallation>)
+extern const MethodInfo ParsePush_SendAlertAsync_m6959_MethodInfo = 
+{
+	"SendAlertAsync"/* name */
+	, (methodPointerType)&ParsePush_SendAlertAsync_m6959/* method */
+	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t1208_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, ParsePush_t1292_ParsePush_SendAlertAsync_m6959_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
 	, 826/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
@@ -2185,20 +2185,20 @@ extern const MethodInfo ParsePush_SendAlertAsync_m6958_MethodInfo =
 
 };
 extern const Il2CppType IDictionary_2_t820_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_SendDataAsync_m6959_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_SendDataAsync_m6960_ParameterInfos[] = 
 {
 	{"data", 0, 134218565, 0, &IDictionary_2_t820_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SendDataAsync(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern const MethodInfo ParsePush_SendDataAsync_m6959_MethodInfo = 
+extern const MethodInfo ParsePush_SendDataAsync_m6960_MethodInfo = 
 {
 	"SendDataAsync"/* name */
-	, (methodPointerType)&ParsePush_SendDataAsync_m6959/* method */
+	, (methodPointerType)&ParsePush_SendDataAsync_m6960/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_SendDataAsync_m6959_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_SendDataAsync_m6960_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -2214,43 +2214,13 @@ extern const MethodInfo ParsePush_SendDataAsync_m6959_MethodInfo =
 };
 extern const Il2CppType IDictionary_2_t820_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_SendDataAsync_m6960_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_SendDataAsync_m6961_ParameterInfos[] = 
 {
 	{"data", 0, 134218566, 0, &IDictionary_2_t820_0_0_0},
 	{"channel", 1, 134218567, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SendDataAsync(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String)
-extern const MethodInfo ParsePush_SendDataAsync_m6960_MethodInfo = 
-{
-	"SendDataAsync"/* name */
-	, (methodPointerType)&ParsePush_SendDataAsync_m6960/* method */
-	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
-	, &Task_t1208_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_SendDataAsync_m6960_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 150/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 828/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType IDictionary_2_t820_0_0_0;
-extern const Il2CppType IEnumerable_1_t707_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_SendDataAsync_m6961_ParameterInfos[] = 
-{
-	{"data", 0, 134218568, 0, &IDictionary_2_t820_0_0_0},
-	{"channels", 1, 134218569, 0, &IEnumerable_1_t707_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Threading.Tasks.Task Parse.ParsePush::SendDataAsync(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Collections.Generic.IEnumerable`1<System.String>)
 extern const MethodInfo ParsePush_SendDataAsync_m6961_MethodInfo = 
 {
 	"SendDataAsync"/* name */
@@ -2266,21 +2236,21 @@ extern const MethodInfo ParsePush_SendDataAsync_m6961_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 829/* token */
+	, 828/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType IDictionary_2_t820_0_0_0;
-extern const Il2CppType ParseQuery_1_t1290_0_0_0;
+extern const Il2CppType IEnumerable_1_t707_0_0_0;
 static const ParameterInfo ParsePush_t1292_ParsePush_SendDataAsync_m6962_ParameterInfos[] = 
 {
-	{"data", 0, 134218570, 0, &IDictionary_2_t820_0_0_0},
-	{"query", 1, 134218571, 0, &ParseQuery_1_t1290_0_0_0},
+	{"data", 0, 134218568, 0, &IDictionary_2_t820_0_0_0},
+	{"channels", 1, 134218569, 0, &IEnumerable_1_t707_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Threading.Tasks.Task Parse.ParsePush::SendDataAsync(System.Collections.Generic.IDictionary`2<System.String,System.Object>,Parse.ParseQuery`1<Parse.ParseInstallation>)
+// System.Threading.Tasks.Task Parse.ParsePush::SendDataAsync(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Collections.Generic.IEnumerable`1<System.String>)
 extern const MethodInfo ParsePush_SendDataAsync_m6962_MethodInfo = 
 {
 	"SendDataAsync"/* name */
@@ -2296,6 +2266,36 @@ extern const MethodInfo ParsePush_SendDataAsync_m6962_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
+	, 829/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType IDictionary_2_t820_0_0_0;
+extern const Il2CppType ParseQuery_1_t1290_0_0_0;
+static const ParameterInfo ParsePush_t1292_ParsePush_SendDataAsync_m6963_ParameterInfos[] = 
+{
+	{"data", 0, 134218570, 0, &IDictionary_2_t820_0_0_0},
+	{"query", 1, 134218571, 0, &ParseQuery_1_t1290_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Tasks.Task Parse.ParsePush::SendDataAsync(System.Collections.Generic.IDictionary`2<System.String,System.Object>,Parse.ParseQuery`1<Parse.ParseInstallation>)
+extern const MethodInfo ParsePush_SendDataAsync_m6963_MethodInfo = 
+{
+	"SendDataAsync"/* name */
+	, (methodPointerType)&ParsePush_SendDataAsync_m6963/* method */
+	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t1208_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, ParsePush_t1292_ParsePush_SendDataAsync_m6963_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
 	, 830/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
@@ -2304,20 +2304,20 @@ extern const MethodInfo ParsePush_SendDataAsync_m6962_MethodInfo =
 };
 extern const Il2CppType EventHandler_1_t1401_0_0_0;
 extern const Il2CppType EventHandler_1_t1401_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_add_ParsePushNotificationReceived_m6963_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_add_ParsePushNotificationReceived_m6964_ParameterInfos[] = 
 {
 	{"value", 0, 134218572, 0, &EventHandler_1_t1401_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePush::add_ParsePushNotificationReceived(System.EventHandler`1<Parse.ParsePushNotificationEventArgs>)
-extern const MethodInfo ParsePush_add_ParsePushNotificationReceived_m6963_MethodInfo = 
+extern const MethodInfo ParsePush_add_ParsePushNotificationReceived_m6964_MethodInfo = 
 {
 	"add_ParsePushNotificationReceived"/* name */
-	, (methodPointerType)&ParsePush_add_ParsePushNotificationReceived_m6963/* method */
+	, (methodPointerType)&ParsePush_add_ParsePushNotificationReceived_m6964/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_add_ParsePushNotificationReceived_m6963_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_add_ParsePushNotificationReceived_m6964_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -2332,20 +2332,20 @@ extern const MethodInfo ParsePush_add_ParsePushNotificationReceived_m6963_Method
 
 };
 extern const Il2CppType EventHandler_1_t1401_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_remove_ParsePushNotificationReceived_m6964_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_remove_ParsePushNotificationReceived_m6965_ParameterInfos[] = 
 {
 	{"value", 0, 134218573, 0, &EventHandler_1_t1401_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePush::remove_ParsePushNotificationReceived(System.EventHandler`1<Parse.ParsePushNotificationEventArgs>)
-extern const MethodInfo ParsePush_remove_ParsePushNotificationReceived_m6964_MethodInfo = 
+extern const MethodInfo ParsePush_remove_ParsePushNotificationReceived_m6965_MethodInfo = 
 {
 	"remove_ParsePushNotificationReceived"/* name */
-	, (methodPointerType)&ParsePush_remove_ParsePushNotificationReceived_m6964/* method */
+	, (methodPointerType)&ParsePush_remove_ParsePushNotificationReceived_m6965/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_remove_ParsePushNotificationReceived_m6964_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_remove_ParsePushNotificationReceived_m6965_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
 	, 0/* iflags */
@@ -2360,20 +2360,20 @@ extern const MethodInfo ParsePush_remove_ParsePushNotificationReceived_m6964_Met
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_SubscribeAsync_m6965_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_SubscribeAsync_m6966_ParameterInfos[] = 
 {
 	{"channel", 0, 134218574, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SubscribeAsync(System.String)
-extern const MethodInfo ParsePush_SubscribeAsync_m6965_MethodInfo = 
+extern const MethodInfo ParsePush_SubscribeAsync_m6966_MethodInfo = 
 {
 	"SubscribeAsync"/* name */
-	, (methodPointerType)&ParsePush_SubscribeAsync_m6965/* method */
+	, (methodPointerType)&ParsePush_SubscribeAsync_m6966/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_SubscribeAsync_m6965_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_SubscribeAsync_m6966_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -2389,21 +2389,21 @@ extern const MethodInfo ParsePush_SubscribeAsync_m6965_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_SubscribeAsync_m6966_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_SubscribeAsync_m6967_ParameterInfos[] = 
 {
 	{"channel", 0, 134218575, 0, &String_t_0_0_0},
 	{"cancellationToken", 1, 134218576, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SubscribeAsync(System.String,System.Threading.CancellationToken)
-extern const MethodInfo ParsePush_SubscribeAsync_m6966_MethodInfo = 
+extern const MethodInfo ParsePush_SubscribeAsync_m6967_MethodInfo = 
 {
 	"SubscribeAsync"/* name */
-	, (methodPointerType)&ParsePush_SubscribeAsync_m6966/* method */
+	, (methodPointerType)&ParsePush_SubscribeAsync_m6967/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParsePush_t1292_ParsePush_SubscribeAsync_m6966_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_SubscribeAsync_m6967_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -2418,20 +2418,20 @@ extern const MethodInfo ParsePush_SubscribeAsync_m6966_MethodInfo =
 
 };
 extern const Il2CppType IEnumerable_1_t707_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_SubscribeAsync_m6967_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_SubscribeAsync_m6968_ParameterInfos[] = 
 {
 	{"channels", 0, 134218577, 0, &IEnumerable_1_t707_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SubscribeAsync(System.Collections.Generic.IEnumerable`1<System.String>)
-extern const MethodInfo ParsePush_SubscribeAsync_m6967_MethodInfo = 
+extern const MethodInfo ParsePush_SubscribeAsync_m6968_MethodInfo = 
 {
 	"SubscribeAsync"/* name */
-	, (methodPointerType)&ParsePush_SubscribeAsync_m6967/* method */
+	, (methodPointerType)&ParsePush_SubscribeAsync_m6968/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_SubscribeAsync_m6967_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_SubscribeAsync_m6968_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -2447,21 +2447,21 @@ extern const MethodInfo ParsePush_SubscribeAsync_m6967_MethodInfo =
 };
 extern const Il2CppType IEnumerable_1_t707_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_SubscribeAsync_m6968_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_SubscribeAsync_m6969_ParameterInfos[] = 
 {
 	{"channels", 0, 134218578, 0, &IEnumerable_1_t707_0_0_0},
 	{"cancellationToken", 1, 134218579, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::SubscribeAsync(System.Collections.Generic.IEnumerable`1<System.String>,System.Threading.CancellationToken)
-extern const MethodInfo ParsePush_SubscribeAsync_m6968_MethodInfo = 
+extern const MethodInfo ParsePush_SubscribeAsync_m6969_MethodInfo = 
 {
 	"SubscribeAsync"/* name */
-	, (methodPointerType)&ParsePush_SubscribeAsync_m6968/* method */
+	, (methodPointerType)&ParsePush_SubscribeAsync_m6969/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParsePush_t1292_ParsePush_SubscribeAsync_m6968_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_SubscribeAsync_m6969_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -2476,20 +2476,20 @@ extern const MethodInfo ParsePush_SubscribeAsync_m6968_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_UnsubscribeAsync_m6969_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_UnsubscribeAsync_m6970_ParameterInfos[] = 
 {
 	{"channel", 0, 134218580, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::UnsubscribeAsync(System.String)
-extern const MethodInfo ParsePush_UnsubscribeAsync_m6969_MethodInfo = 
+extern const MethodInfo ParsePush_UnsubscribeAsync_m6970_MethodInfo = 
 {
 	"UnsubscribeAsync"/* name */
-	, (methodPointerType)&ParsePush_UnsubscribeAsync_m6969/* method */
+	, (methodPointerType)&ParsePush_UnsubscribeAsync_m6970/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_UnsubscribeAsync_m6969_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_UnsubscribeAsync_m6970_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -2505,21 +2505,21 @@ extern const MethodInfo ParsePush_UnsubscribeAsync_m6969_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_UnsubscribeAsync_m6970_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_UnsubscribeAsync_m6971_ParameterInfos[] = 
 {
 	{"channel", 0, 134218581, 0, &String_t_0_0_0},
 	{"cancellationToken", 1, 134218582, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::UnsubscribeAsync(System.String,System.Threading.CancellationToken)
-extern const MethodInfo ParsePush_UnsubscribeAsync_m6970_MethodInfo = 
+extern const MethodInfo ParsePush_UnsubscribeAsync_m6971_MethodInfo = 
 {
 	"UnsubscribeAsync"/* name */
-	, (methodPointerType)&ParsePush_UnsubscribeAsync_m6970/* method */
+	, (methodPointerType)&ParsePush_UnsubscribeAsync_m6971/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParsePush_t1292_ParsePush_UnsubscribeAsync_m6970_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_UnsubscribeAsync_m6971_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -2534,20 +2534,20 @@ extern const MethodInfo ParsePush_UnsubscribeAsync_m6970_MethodInfo =
 
 };
 extern const Il2CppType IEnumerable_1_t707_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_UnsubscribeAsync_m6971_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_UnsubscribeAsync_m6972_ParameterInfos[] = 
 {
 	{"channels", 0, 134218583, 0, &IEnumerable_1_t707_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::UnsubscribeAsync(System.Collections.Generic.IEnumerable`1<System.String>)
-extern const MethodInfo ParsePush_UnsubscribeAsync_m6971_MethodInfo = 
+extern const MethodInfo ParsePush_UnsubscribeAsync_m6972_MethodInfo = 
 {
 	"UnsubscribeAsync"/* name */
-	, (methodPointerType)&ParsePush_UnsubscribeAsync_m6971/* method */
+	, (methodPointerType)&ParsePush_UnsubscribeAsync_m6972/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParsePush_t1292_ParsePush_UnsubscribeAsync_m6971_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_UnsubscribeAsync_m6972_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -2563,21 +2563,21 @@ extern const MethodInfo ParsePush_UnsubscribeAsync_m6971_MethodInfo =
 };
 extern const Il2CppType IEnumerable_1_t707_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParsePush_t1292_ParsePush_UnsubscribeAsync_m6972_ParameterInfos[] = 
+static const ParameterInfo ParsePush_t1292_ParsePush_UnsubscribeAsync_m6973_ParameterInfos[] = 
 {
 	{"channels", 0, 134218584, 0, &IEnumerable_1_t707_0_0_0},
 	{"cancellationToken", 1, 134218585, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParsePush::UnsubscribeAsync(System.Collections.Generic.IEnumerable`1<System.String>,System.Threading.CancellationToken)
-extern const MethodInfo ParsePush_UnsubscribeAsync_m6972_MethodInfo = 
+extern const MethodInfo ParsePush_UnsubscribeAsync_m6973_MethodInfo = 
 {
 	"UnsubscribeAsync"/* name */
-	, (methodPointerType)&ParsePush_UnsubscribeAsync_m6972/* method */
+	, (methodPointerType)&ParsePush_UnsubscribeAsync_m6973/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParsePush_t1292_ParsePush_UnsubscribeAsync_m6972_ParameterInfos/* parameters */
+	, ParsePush_t1292_ParsePush_UnsubscribeAsync_m6973_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -2593,10 +2593,10 @@ extern const MethodInfo ParsePush_UnsubscribeAsync_m6972_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePush::.cctor()
-extern const MethodInfo ParsePush__cctor_m6973_MethodInfo = 
+extern const MethodInfo ParsePush__cctor_m6974_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&ParsePush__cctor_m6973/* method */
+	, (methodPointerType)&ParsePush__cctor_m6974/* method */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -2616,111 +2616,111 @@ extern const MethodInfo ParsePush__cctor_m6973_MethodInfo =
 };
 static const MethodInfo* ParsePush_t1292_MethodInfos[] =
 {
-	&ParsePush__ctor_m6939_MethodInfo,
-	&ParsePush_get_Query_m6940_MethodInfo,
-	&ParsePush_set_Query_m6941_MethodInfo,
-	&ParsePush_get_Channels_m6942_MethodInfo,
-	&ParsePush_set_Channels_m6943_MethodInfo,
-	&ParsePush_get_Expiration_m6944_MethodInfo,
-	&ParsePush_set_Expiration_m6945_MethodInfo,
-	&ParsePush_get_ExpirationInterval_m6946_MethodInfo,
-	&ParsePush_set_ExpirationInterval_m6947_MethodInfo,
-	&ParsePush_get_Data_m6948_MethodInfo,
-	&ParsePush_set_Data_m6949_MethodInfo,
-	&ParsePush_get_Alert_m6950_MethodInfo,
-	&ParsePush_set_Alert_m6951_MethodInfo,
-	&ParsePush_Encode_m6952_MethodInfo,
-	&ParsePush_SendAsync_m6953_MethodInfo,
+	&ParsePush__ctor_m6940_MethodInfo,
+	&ParsePush_get_Query_m6941_MethodInfo,
+	&ParsePush_set_Query_m6942_MethodInfo,
+	&ParsePush_get_Channels_m6943_MethodInfo,
+	&ParsePush_set_Channels_m6944_MethodInfo,
+	&ParsePush_get_Expiration_m6945_MethodInfo,
+	&ParsePush_set_Expiration_m6946_MethodInfo,
+	&ParsePush_get_ExpirationInterval_m6947_MethodInfo,
+	&ParsePush_set_ExpirationInterval_m6948_MethodInfo,
+	&ParsePush_get_Data_m6949_MethodInfo,
+	&ParsePush_set_Data_m6950_MethodInfo,
+	&ParsePush_get_Alert_m6951_MethodInfo,
+	&ParsePush_set_Alert_m6952_MethodInfo,
+	&ParsePush_Encode_m6953_MethodInfo,
 	&ParsePush_SendAsync_m6954_MethodInfo,
-	&ParsePush_SendAlertAsync_m6955_MethodInfo,
+	&ParsePush_SendAsync_m6955_MethodInfo,
 	&ParsePush_SendAlertAsync_m6956_MethodInfo,
 	&ParsePush_SendAlertAsync_m6957_MethodInfo,
 	&ParsePush_SendAlertAsync_m6958_MethodInfo,
-	&ParsePush_SendDataAsync_m6959_MethodInfo,
+	&ParsePush_SendAlertAsync_m6959_MethodInfo,
 	&ParsePush_SendDataAsync_m6960_MethodInfo,
 	&ParsePush_SendDataAsync_m6961_MethodInfo,
 	&ParsePush_SendDataAsync_m6962_MethodInfo,
-	&ParsePush_add_ParsePushNotificationReceived_m6963_MethodInfo,
-	&ParsePush_remove_ParsePushNotificationReceived_m6964_MethodInfo,
-	&ParsePush_SubscribeAsync_m6965_MethodInfo,
+	&ParsePush_SendDataAsync_m6963_MethodInfo,
+	&ParsePush_add_ParsePushNotificationReceived_m6964_MethodInfo,
+	&ParsePush_remove_ParsePushNotificationReceived_m6965_MethodInfo,
 	&ParsePush_SubscribeAsync_m6966_MethodInfo,
 	&ParsePush_SubscribeAsync_m6967_MethodInfo,
 	&ParsePush_SubscribeAsync_m6968_MethodInfo,
-	&ParsePush_UnsubscribeAsync_m6969_MethodInfo,
+	&ParsePush_SubscribeAsync_m6969_MethodInfo,
 	&ParsePush_UnsubscribeAsync_m6970_MethodInfo,
 	&ParsePush_UnsubscribeAsync_m6971_MethodInfo,
 	&ParsePush_UnsubscribeAsync_m6972_MethodInfo,
-	&ParsePush__cctor_m6973_MethodInfo,
+	&ParsePush_UnsubscribeAsync_m6973_MethodInfo,
+	&ParsePush__cctor_m6974_MethodInfo,
 	NULL
 };
-extern const MethodInfo ParsePush_get_Query_m6940_MethodInfo;
-extern const MethodInfo ParsePush_set_Query_m6941_MethodInfo;
+extern const MethodInfo ParsePush_get_Query_m6941_MethodInfo;
+extern const MethodInfo ParsePush_set_Query_m6942_MethodInfo;
 static const PropertyInfo ParsePush_t1292____Query_PropertyInfo = 
 {
 	&ParsePush_t1292_il2cpp_TypeInfo/* parent */
 	, "Query"/* name */
-	, &ParsePush_get_Query_m6940_MethodInfo/* get */
-	, &ParsePush_set_Query_m6941_MethodInfo/* set */
+	, &ParsePush_get_Query_m6941_MethodInfo/* get */
+	, &ParsePush_set_Query_m6942_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParsePush_get_Channels_m6942_MethodInfo;
-extern const MethodInfo ParsePush_set_Channels_m6943_MethodInfo;
+extern const MethodInfo ParsePush_get_Channels_m6943_MethodInfo;
+extern const MethodInfo ParsePush_set_Channels_m6944_MethodInfo;
 static const PropertyInfo ParsePush_t1292____Channels_PropertyInfo = 
 {
 	&ParsePush_t1292_il2cpp_TypeInfo/* parent */
 	, "Channels"/* name */
-	, &ParsePush_get_Channels_m6942_MethodInfo/* get */
-	, &ParsePush_set_Channels_m6943_MethodInfo/* set */
+	, &ParsePush_get_Channels_m6943_MethodInfo/* get */
+	, &ParsePush_set_Channels_m6944_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParsePush_get_Expiration_m6944_MethodInfo;
-extern const MethodInfo ParsePush_set_Expiration_m6945_MethodInfo;
+extern const MethodInfo ParsePush_get_Expiration_m6945_MethodInfo;
+extern const MethodInfo ParsePush_set_Expiration_m6946_MethodInfo;
 static const PropertyInfo ParsePush_t1292____Expiration_PropertyInfo = 
 {
 	&ParsePush_t1292_il2cpp_TypeInfo/* parent */
 	, "Expiration"/* name */
-	, &ParsePush_get_Expiration_m6944_MethodInfo/* get */
-	, &ParsePush_set_Expiration_m6945_MethodInfo/* set */
+	, &ParsePush_get_Expiration_m6945_MethodInfo/* get */
+	, &ParsePush_set_Expiration_m6946_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParsePush_get_ExpirationInterval_m6946_MethodInfo;
-extern const MethodInfo ParsePush_set_ExpirationInterval_m6947_MethodInfo;
+extern const MethodInfo ParsePush_get_ExpirationInterval_m6947_MethodInfo;
+extern const MethodInfo ParsePush_set_ExpirationInterval_m6948_MethodInfo;
 static const PropertyInfo ParsePush_t1292____ExpirationInterval_PropertyInfo = 
 {
 	&ParsePush_t1292_il2cpp_TypeInfo/* parent */
 	, "ExpirationInterval"/* name */
-	, &ParsePush_get_ExpirationInterval_m6946_MethodInfo/* get */
-	, &ParsePush_set_ExpirationInterval_m6947_MethodInfo/* set */
+	, &ParsePush_get_ExpirationInterval_m6947_MethodInfo/* get */
+	, &ParsePush_set_ExpirationInterval_m6948_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParsePush_get_Data_m6948_MethodInfo;
-extern const MethodInfo ParsePush_set_Data_m6949_MethodInfo;
+extern const MethodInfo ParsePush_get_Data_m6949_MethodInfo;
+extern const MethodInfo ParsePush_set_Data_m6950_MethodInfo;
 static const PropertyInfo ParsePush_t1292____Data_PropertyInfo = 
 {
 	&ParsePush_t1292_il2cpp_TypeInfo/* parent */
 	, "Data"/* name */
-	, &ParsePush_get_Data_m6948_MethodInfo/* get */
-	, &ParsePush_set_Data_m6949_MethodInfo/* set */
+	, &ParsePush_get_Data_m6949_MethodInfo/* get */
+	, &ParsePush_set_Data_m6950_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParsePush_get_Alert_m6950_MethodInfo;
-extern const MethodInfo ParsePush_set_Alert_m6951_MethodInfo;
+extern const MethodInfo ParsePush_get_Alert_m6951_MethodInfo;
+extern const MethodInfo ParsePush_set_Alert_m6952_MethodInfo;
 static const PropertyInfo ParsePush_t1292____Alert_PropertyInfo = 
 {
 	&ParsePush_t1292_il2cpp_TypeInfo/* parent */
 	, "Alert"/* name */
-	, &ParsePush_get_Alert_m6950_MethodInfo/* get */
-	, &ParsePush_set_Alert_m6951_MethodInfo/* set */
+	, &ParsePush_get_Alert_m6951_MethodInfo/* get */
+	, &ParsePush_set_Alert_m6952_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -2736,15 +2736,15 @@ static const PropertyInfo* ParsePush_t1292_PropertyInfos[] =
 	NULL
 };
 extern const Il2CppType EventHandler_1_t1401_0_0_0;
-extern const MethodInfo ParsePush_add_ParsePushNotificationReceived_m6963_MethodInfo;
-extern const MethodInfo ParsePush_remove_ParsePushNotificationReceived_m6964_MethodInfo;
+extern const MethodInfo ParsePush_add_ParsePushNotificationReceived_m6964_MethodInfo;
+extern const MethodInfo ParsePush_remove_ParsePushNotificationReceived_m6965_MethodInfo;
 static const EventInfo ParsePush_t1292____ParsePushNotificationReceived_EventInfo = 
 {
 	"ParsePushNotificationReceived"/* name */
 	, &EventHandler_1_t1401_0_0_0/* type */
 	, &ParsePush_t1292_il2cpp_TypeInfo/* parent */
-	, &ParsePush_add_ParsePushNotificationReceived_m6963_MethodInfo/* add */
-	, &ParsePush_remove_ParsePushNotificationReceived_m6964_MethodInfo/* remove */
+	, &ParsePush_add_ParsePushNotificationReceived_m6964_MethodInfo/* add */
+	, &ParsePush_remove_ParsePushNotificationReceived_m6965_MethodInfo/* remove */
 	, NULL/* raise */
 	, 0/* custom_attributes_cache */
 
@@ -2846,40 +2846,12 @@ extern TypeInfo ParsePushNotificationEventArgs_t1294_il2cpp_TypeInfo;
 // Parse.ParsePushNotificationEventArgs
 #include "Parse_Unity_Parse_ParsePushNotificationEventArgsMethodDeclarations.h"
 extern const Il2CppType IDictionary_2_t820_0_0_0;
-static const ParameterInfo ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs__ctor_m6974_ParameterInfos[] = 
+static const ParameterInfo ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs__ctor_m6975_ParameterInfos[] = 
 {
 	{"payload", 0, 134218586, 0, &IDictionary_2_t820_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePushNotificationEventArgs::.ctor(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern const MethodInfo ParsePushNotificationEventArgs__ctor_m6974_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&ParsePushNotificationEventArgs__ctor_m6974/* method */
-	, &ParsePushNotificationEventArgs_t1294_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs__ctor_m6974_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6275/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 842/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs__ctor_m6975_ParameterInfos[] = 
-{
-	{"stringPayload", 0, 134218587, 0, &String_t_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void Parse.ParsePushNotificationEventArgs::.ctor(System.String)
 extern const MethodInfo ParsePushNotificationEventArgs__ctor_m6975_MethodInfo = 
 {
 	".ctor"/* name */
@@ -2895,6 +2867,34 @@ extern const MethodInfo ParsePushNotificationEventArgs__ctor_m6975_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
+	, 842/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType String_t_0_0_0;
+static const ParameterInfo ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs__ctor_m6976_ParameterInfos[] = 
+{
+	{"stringPayload", 0, 134218587, 0, &String_t_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void Parse.ParsePushNotificationEventArgs::.ctor(System.String)
+extern const MethodInfo ParsePushNotificationEventArgs__ctor_m6976_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&ParsePushNotificationEventArgs__ctor_m6976/* method */
+	, &ParsePushNotificationEventArgs_t1294_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
+	, ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs__ctor_m6976_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6275/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
 	, 843/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
@@ -2903,10 +2903,10 @@ extern const MethodInfo ParsePushNotificationEventArgs__ctor_m6975_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParsePushNotificationEventArgs::get_Payload()
-extern const MethodInfo ParsePushNotificationEventArgs_get_Payload_m6976_MethodInfo = 
+extern const MethodInfo ParsePushNotificationEventArgs_get_Payload_m6977_MethodInfo = 
 {
 	"get_Payload"/* name */
-	, (methodPointerType)&ParsePushNotificationEventArgs_get_Payload_m6976/* method */
+	, (methodPointerType)&ParsePushNotificationEventArgs_get_Payload_m6977/* method */
 	, &ParsePushNotificationEventArgs_t1294_il2cpp_TypeInfo/* declaring_type */
 	, &IDictionary_2_t820_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2925,20 +2925,20 @@ extern const MethodInfo ParsePushNotificationEventArgs_get_Payload_m6976_MethodI
 
 };
 extern const Il2CppType IDictionary_2_t820_0_0_0;
-static const ParameterInfo ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs_set_Payload_m6977_ParameterInfos[] = 
+static const ParameterInfo ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs_set_Payload_m6978_ParameterInfos[] = 
 {
 	{"value", 0, 134218588, 0, &IDictionary_2_t820_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePushNotificationEventArgs::set_Payload(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern const MethodInfo ParsePushNotificationEventArgs_set_Payload_m6977_MethodInfo = 
+extern const MethodInfo ParsePushNotificationEventArgs_set_Payload_m6978_MethodInfo = 
 {
 	"set_Payload"/* name */
-	, (methodPointerType)&ParsePushNotificationEventArgs_set_Payload_m6977/* method */
+	, (methodPointerType)&ParsePushNotificationEventArgs_set_Payload_m6978/* method */
 	, &ParsePushNotificationEventArgs_t1294_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs_set_Payload_m6977_ParameterInfos/* parameters */
+	, ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs_set_Payload_m6978_ParameterInfos/* parameters */
 	, 411/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -2954,10 +2954,10 @@ extern const MethodInfo ParsePushNotificationEventArgs_set_Payload_m6977_MethodI
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParsePushNotificationEventArgs::get_StringPayload()
-extern const MethodInfo ParsePushNotificationEventArgs_get_StringPayload_m6978_MethodInfo = 
+extern const MethodInfo ParsePushNotificationEventArgs_get_StringPayload_m6979_MethodInfo = 
 {
 	"get_StringPayload"/* name */
-	, (methodPointerType)&ParsePushNotificationEventArgs_get_StringPayload_m6978/* method */
+	, (methodPointerType)&ParsePushNotificationEventArgs_get_StringPayload_m6979/* method */
 	, &ParsePushNotificationEventArgs_t1294_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2976,20 +2976,20 @@ extern const MethodInfo ParsePushNotificationEventArgs_get_StringPayload_m6978_M
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs_set_StringPayload_m6979_ParameterInfos[] = 
+static const ParameterInfo ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs_set_StringPayload_m6980_ParameterInfos[] = 
 {
 	{"value", 0, 134218589, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParsePushNotificationEventArgs::set_StringPayload(System.String)
-extern const MethodInfo ParsePushNotificationEventArgs_set_StringPayload_m6979_MethodInfo = 
+extern const MethodInfo ParsePushNotificationEventArgs_set_StringPayload_m6980_MethodInfo = 
 {
 	"set_StringPayload"/* name */
-	, (methodPointerType)&ParsePushNotificationEventArgs_set_StringPayload_m6979/* method */
+	, (methodPointerType)&ParsePushNotificationEventArgs_set_StringPayload_m6980/* method */
 	, &ParsePushNotificationEventArgs_t1294_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs_set_StringPayload_m6979_ParameterInfos/* parameters */
+	, ParsePushNotificationEventArgs_t1294_ParsePushNotificationEventArgs_set_StringPayload_m6980_ParameterInfos/* parameters */
 	, 413/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -3005,34 +3005,34 @@ extern const MethodInfo ParsePushNotificationEventArgs_set_StringPayload_m6979_M
 };
 static const MethodInfo* ParsePushNotificationEventArgs_t1294_MethodInfos[] =
 {
-	&ParsePushNotificationEventArgs__ctor_m6974_MethodInfo,
 	&ParsePushNotificationEventArgs__ctor_m6975_MethodInfo,
-	&ParsePushNotificationEventArgs_get_Payload_m6976_MethodInfo,
-	&ParsePushNotificationEventArgs_set_Payload_m6977_MethodInfo,
-	&ParsePushNotificationEventArgs_get_StringPayload_m6978_MethodInfo,
-	&ParsePushNotificationEventArgs_set_StringPayload_m6979_MethodInfo,
+	&ParsePushNotificationEventArgs__ctor_m6976_MethodInfo,
+	&ParsePushNotificationEventArgs_get_Payload_m6977_MethodInfo,
+	&ParsePushNotificationEventArgs_set_Payload_m6978_MethodInfo,
+	&ParsePushNotificationEventArgs_get_StringPayload_m6979_MethodInfo,
+	&ParsePushNotificationEventArgs_set_StringPayload_m6980_MethodInfo,
 	NULL
 };
-extern const MethodInfo ParsePushNotificationEventArgs_get_Payload_m6976_MethodInfo;
-extern const MethodInfo ParsePushNotificationEventArgs_set_Payload_m6977_MethodInfo;
+extern const MethodInfo ParsePushNotificationEventArgs_get_Payload_m6977_MethodInfo;
+extern const MethodInfo ParsePushNotificationEventArgs_set_Payload_m6978_MethodInfo;
 static const PropertyInfo ParsePushNotificationEventArgs_t1294____Payload_PropertyInfo = 
 {
 	&ParsePushNotificationEventArgs_t1294_il2cpp_TypeInfo/* parent */
 	, "Payload"/* name */
-	, &ParsePushNotificationEventArgs_get_Payload_m6976_MethodInfo/* get */
-	, &ParsePushNotificationEventArgs_set_Payload_m6977_MethodInfo/* set */
+	, &ParsePushNotificationEventArgs_get_Payload_m6977_MethodInfo/* get */
+	, &ParsePushNotificationEventArgs_set_Payload_m6978_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParsePushNotificationEventArgs_get_StringPayload_m6978_MethodInfo;
-extern const MethodInfo ParsePushNotificationEventArgs_set_StringPayload_m6979_MethodInfo;
+extern const MethodInfo ParsePushNotificationEventArgs_get_StringPayload_m6979_MethodInfo;
+extern const MethodInfo ParsePushNotificationEventArgs_set_StringPayload_m6980_MethodInfo;
 static const PropertyInfo ParsePushNotificationEventArgs_t1294____StringPayload_PropertyInfo = 
 {
 	&ParsePushNotificationEventArgs_t1294_il2cpp_TypeInfo/* parent */
 	, "StringPayload"/* name */
-	, &ParsePushNotificationEventArgs_get_StringPayload_m6978_MethodInfo/* get */
-	, &ParsePushNotificationEventArgs_set_StringPayload_m6979_MethodInfo/* set */
+	, &ParsePushNotificationEventArgs_get_StringPayload_m6979_MethodInfo/* get */
+	, &ParsePushNotificationEventArgs_set_StringPayload_m6980_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -3152,7 +3152,7 @@ extern const Il2CppType Nullable_1_t688_0_0_0;
 extern const Il2CppType Nullable_1_t688_0_0_4112;
 extern const Il2CppType IEnumerable_1_t707_0_0_4112;
 extern const Il2CppType IEnumerable_1_t707_0_0_4112;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1__ctor_m8063_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1__ctor_m8064_ParameterInfos[] = 
 {
 	{"source", 0, 134218590, 0, &ParseQuery_1_t2500_0_0_0},
 	{"where", 1, 134218591, 0, &IDictionary_2_t820_0_0_4112},
@@ -3164,14 +3164,14 @@ static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1__ctor_m8063_Parameter
 	{"selectedKeys", 7, 134218597, 0, &IEnumerable_1_t707_0_0_4112},
 };
 // System.Void Parse.ParseQuery`1::.ctor(Parse.ParseQuery`1<T>,System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>)
-extern const MethodInfo ParseQuery_1__ctor_m8063_MethodInfo = 
+extern const MethodInfo ParseQuery_1__ctor_m8064_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1__ctor_m8063_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1__ctor_m8064_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6273/* flags */
 	, 0/* iflags */
@@ -3186,20 +3186,20 @@ extern const MethodInfo ParseQuery_1__ctor_m8063_MethodInfo =
 
 };
 extern const Il2CppType IEnumerable_1_t707_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_MergeIncludes_m8064_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_MergeIncludes_m8065_ParameterInfos[] = 
 {
 	{"includes", 0, 134218598, 0, &IEnumerable_1_t707_0_0_0},
 };
 extern const Il2CppType HashSet_1_t1288_0_0_0;
 // System.Collections.Generic.HashSet`1<System.String> Parse.ParseQuery`1::MergeIncludes(System.Collections.Generic.IEnumerable`1<System.String>)
-extern const MethodInfo ParseQuery_1_MergeIncludes_m8064_MethodInfo = 
+extern const MethodInfo ParseQuery_1_MergeIncludes_m8065_MethodInfo = 
 {
 	"MergeIncludes"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &HashSet_1_t1288_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_MergeIncludes_m8064_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_MergeIncludes_m8065_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -3214,19 +3214,19 @@ extern const MethodInfo ParseQuery_1_MergeIncludes_m8064_MethodInfo =
 
 };
 extern const Il2CppType IEnumerable_1_t707_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_MergeSelectedKeys_m8065_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_MergeSelectedKeys_m8066_ParameterInfos[] = 
 {
 	{"selectedKeys", 0, 134218599, 0, &IEnumerable_1_t707_0_0_0},
 };
 // System.Collections.Generic.HashSet`1<System.String> Parse.ParseQuery`1::MergeSelectedKeys(System.Collections.Generic.IEnumerable`1<System.String>)
-extern const MethodInfo ParseQuery_1_MergeSelectedKeys_m8065_MethodInfo = 
+extern const MethodInfo ParseQuery_1_MergeSelectedKeys_m8066_MethodInfo = 
 {
 	"MergeSelectedKeys"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &HashSet_1_t1288_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_MergeSelectedKeys_m8065_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_MergeSelectedKeys_m8066_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -3241,19 +3241,19 @@ extern const MethodInfo ParseQuery_1_MergeSelectedKeys_m8065_MethodInfo =
 
 };
 extern const Il2CppType IDictionary_2_t820_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_MergeWhereClauses_m8066_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_MergeWhereClauses_m8067_ParameterInfos[] = 
 {
 	{"where", 0, 134218600, 0, &IDictionary_2_t820_0_0_0},
 };
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseQuery`1::MergeWhereClauses(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern const MethodInfo ParseQuery_1_MergeWhereClauses_m8066_MethodInfo = 
+extern const MethodInfo ParseQuery_1_MergeWhereClauses_m8067_MethodInfo = 
 {
 	"MergeWhereClauses"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &IDictionary_2_t820_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_MergeWhereClauses_m8066_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_MergeWhereClauses_m8067_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -3268,7 +3268,7 @@ extern const MethodInfo ParseQuery_1_MergeWhereClauses_m8066_MethodInfo =
 
 };
 // System.Void Parse.ParseQuery`1::.ctor()
-extern const MethodInfo ParseQuery_1__ctor_m8067_MethodInfo = 
+extern const MethodInfo ParseQuery_1__ctor_m8068_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -3290,19 +3290,19 @@ extern const MethodInfo ParseQuery_1__ctor_m8067_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1__ctor_m8068_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1__ctor_m8069_ParameterInfos[] = 
 {
 	{"className", 0, 134218601, 0, &String_t_0_0_0},
 };
 // System.Void Parse.ParseQuery`1::.ctor(System.String)
-extern const MethodInfo ParseQuery_1__ctor_m8068_MethodInfo = 
+extern const MethodInfo ParseQuery_1__ctor_m8069_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1__ctor_m8068_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1__ctor_m8069_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -3318,19 +3318,19 @@ extern const MethodInfo ParseQuery_1__ctor_m8068_MethodInfo =
 };
 extern const Il2CppType IEnumerable_1_t2501_0_0_0;
 extern const Il2CppType IEnumerable_1_t2501_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_Or_m8069_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_Or_m8070_ParameterInfos[] = 
 {
 	{"queries", 0, 134218602, 0, &IEnumerable_1_t2501_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::Or(System.Collections.Generic.IEnumerable`1<Parse.ParseQuery`1<T>>)
-extern const MethodInfo ParseQuery_1_Or_m8069_MethodInfo = 
+extern const MethodInfo ParseQuery_1_Or_m8070_MethodInfo = 
 {
 	"Or"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_Or_m8069_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_Or_m8070_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -3345,19 +3345,19 @@ extern const MethodInfo ParseQuery_1_Or_m8069_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_OrderBy_m8070_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_OrderBy_m8071_ParameterInfos[] = 
 {
 	{"key", 0, 134218603, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::OrderBy(System.String)
-extern const MethodInfo ParseQuery_1_OrderBy_m8070_MethodInfo = 
+extern const MethodInfo ParseQuery_1_OrderBy_m8071_MethodInfo = 
 {
 	"OrderBy"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_OrderBy_m8070_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_OrderBy_m8071_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3372,19 +3372,19 @@ extern const MethodInfo ParseQuery_1_OrderBy_m8070_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_OrderByDescending_m8071_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_OrderByDescending_m8072_ParameterInfos[] = 
 {
 	{"key", 0, 134218604, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::OrderByDescending(System.String)
-extern const MethodInfo ParseQuery_1_OrderByDescending_m8071_MethodInfo = 
+extern const MethodInfo ParseQuery_1_OrderByDescending_m8072_MethodInfo = 
 {
 	"OrderByDescending"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_OrderByDescending_m8071_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_OrderByDescending_m8072_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3399,19 +3399,19 @@ extern const MethodInfo ParseQuery_1_OrderByDescending_m8071_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_ThenBy_m8072_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_ThenBy_m8073_ParameterInfos[] = 
 {
 	{"key", 0, 134218605, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::ThenBy(System.String)
-extern const MethodInfo ParseQuery_1_ThenBy_m8072_MethodInfo = 
+extern const MethodInfo ParseQuery_1_ThenBy_m8073_MethodInfo = 
 {
 	"ThenBy"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_ThenBy_m8072_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_ThenBy_m8073_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3426,19 +3426,19 @@ extern const MethodInfo ParseQuery_1_ThenBy_m8072_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_ThenByDescending_m8073_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_ThenByDescending_m8074_ParameterInfos[] = 
 {
 	{"key", 0, 134218606, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::ThenByDescending(System.String)
-extern const MethodInfo ParseQuery_1_ThenByDescending_m8073_MethodInfo = 
+extern const MethodInfo ParseQuery_1_ThenByDescending_m8074_MethodInfo = 
 {
 	"ThenByDescending"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_ThenByDescending_m8073_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_ThenByDescending_m8074_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3453,19 +3453,19 @@ extern const MethodInfo ParseQuery_1_ThenByDescending_m8073_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_Include_m8074_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_Include_m8075_ParameterInfos[] = 
 {
 	{"key", 0, 134218607, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::Include(System.String)
-extern const MethodInfo ParseQuery_1_Include_m8074_MethodInfo = 
+extern const MethodInfo ParseQuery_1_Include_m8075_MethodInfo = 
 {
 	"Include"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_Include_m8074_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_Include_m8075_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3480,19 +3480,19 @@ extern const MethodInfo ParseQuery_1_Include_m8074_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_Select_m8075_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_Select_m8076_ParameterInfos[] = 
 {
 	{"key", 0, 134218608, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::Select(System.String)
-extern const MethodInfo ParseQuery_1_Select_m8075_MethodInfo = 
+extern const MethodInfo ParseQuery_1_Select_m8076_MethodInfo = 
 {
 	"Select"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_Select_m8075_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_Select_m8076_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3507,19 +3507,19 @@ extern const MethodInfo ParseQuery_1_Select_m8075_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_Skip_m8076_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_Skip_m8077_ParameterInfos[] = 
 {
 	{"count", 0, 134218609, 0, &Int32_t82_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::Skip(System.Int32)
-extern const MethodInfo ParseQuery_1_Skip_m8076_MethodInfo = 
+extern const MethodInfo ParseQuery_1_Skip_m8077_MethodInfo = 
 {
 	"Skip"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_Skip_m8076_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_Skip_m8077_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3534,19 +3534,19 @@ extern const MethodInfo ParseQuery_1_Skip_m8076_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_Limit_m8077_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_Limit_m8078_ParameterInfos[] = 
 {
 	{"count", 0, 134218610, 0, &Int32_t82_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::Limit(System.Int32)
-extern const MethodInfo ParseQuery_1_Limit_m8077_MethodInfo = 
+extern const MethodInfo ParseQuery_1_Limit_m8078_MethodInfo = 
 {
 	"Limit"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_Limit_m8077_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_Limit_m8078_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3563,35 +3563,35 @@ extern const MethodInfo ParseQuery_1_Limit_m8077_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IEnumerable_1_t2502_0_0_0;
 extern const Il2CppType IEnumerable_1_t2502_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereContainedIn_m8078_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereContainedIn_m8079_ParameterInfos[] = 
 {
 	{"key", 0, 134218611, 0, &String_t_0_0_0},
 	{"values", 1, 134218612, 0, &IEnumerable_1_t2502_0_0_0},
 };
-extern const Il2CppGenericContainer ParseQuery_1_WhereContainedIn_m8078_Il2CppGenericContainer;
-extern TypeInfo ParseQuery_1_WhereContainedIn_m8078_gp_TIn_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter ParseQuery_1_WhereContainedIn_m8078_gp_TIn_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereContainedIn_m8078_Il2CppGenericContainer, NULL, "TIn", 0, 0 };
-static const Il2CppGenericParameter* ParseQuery_1_WhereContainedIn_m8078_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer ParseQuery_1_WhereContainedIn_m8079_Il2CppGenericContainer;
+extern TypeInfo ParseQuery_1_WhereContainedIn_m8079_gp_TIn_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseQuery_1_WhereContainedIn_m8079_gp_TIn_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereContainedIn_m8079_Il2CppGenericContainer, NULL, "TIn", 0, 0 };
+static const Il2CppGenericParameter* ParseQuery_1_WhereContainedIn_m8079_Il2CppGenericParametersArray[1] = 
 {
-	&ParseQuery_1_WhereContainedIn_m8078_gp_TIn_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseQuery_1_WhereContainedIn_m8079_gp_TIn_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo ParseQuery_1_WhereContainedIn_m8078_MethodInfo;
-extern const Il2CppGenericContainer ParseQuery_1_WhereContainedIn_m8078_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereContainedIn_m8078_MethodInfo, 1, 1, ParseQuery_1_WhereContainedIn_m8078_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod Enumerable_ToList_TisTIn_t2503_m8470_GenericMethod;
-static Il2CppRGCTXDefinition ParseQuery_1_WhereContainedIn_m8078_RGCTXData[2] = 
+extern const MethodInfo ParseQuery_1_WhereContainedIn_m8079_MethodInfo;
+extern const Il2CppGenericContainer ParseQuery_1_WhereContainedIn_m8079_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereContainedIn_m8079_MethodInfo, 1, 1, ParseQuery_1_WhereContainedIn_m8079_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod Enumerable_ToList_TisTIn_t2503_m8471_GenericMethod;
+static Il2CppRGCTXDefinition ParseQuery_1_WhereContainedIn_m8079_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_ToList_TisTIn_t2503_m8470_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_ToList_TisTIn_t2503_m8471_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereContainedIn(System.String,System.Collections.Generic.IEnumerable`1<TIn>)
-extern const MethodInfo ParseQuery_1_WhereContainedIn_m8078_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereContainedIn_m8079_MethodInfo = 
 {
 	"WhereContainedIn"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereContainedIn_m8078_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereContainedIn_m8079_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3600,43 +3600,43 @@ extern const MethodInfo ParseQuery_1_WhereContainedIn_m8078_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 863/* token */
-	, ParseQuery_1_WhereContainedIn_m8078_RGCTXData/* rgctx_data */
+	, ParseQuery_1_WhereContainedIn_m8079_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &ParseQuery_1_WhereContainedIn_m8078_Il2CppGenericContainer/* genericContainer */
+	, &ParseQuery_1_WhereContainedIn_m8079_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IEnumerable_1_t2504_0_0_0;
 extern const Il2CppType IEnumerable_1_t2504_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereContainsAll_m8079_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereContainsAll_m8080_ParameterInfos[] = 
 {
 	{"key", 0, 134218613, 0, &String_t_0_0_0},
 	{"values", 1, 134218614, 0, &IEnumerable_1_t2504_0_0_0},
 };
-extern const Il2CppGenericContainer ParseQuery_1_WhereContainsAll_m8079_Il2CppGenericContainer;
-extern TypeInfo ParseQuery_1_WhereContainsAll_m8079_gp_TIn_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter ParseQuery_1_WhereContainsAll_m8079_gp_TIn_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereContainsAll_m8079_Il2CppGenericContainer, NULL, "TIn", 0, 0 };
-static const Il2CppGenericParameter* ParseQuery_1_WhereContainsAll_m8079_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer ParseQuery_1_WhereContainsAll_m8080_Il2CppGenericContainer;
+extern TypeInfo ParseQuery_1_WhereContainsAll_m8080_gp_TIn_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseQuery_1_WhereContainsAll_m8080_gp_TIn_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereContainsAll_m8080_Il2CppGenericContainer, NULL, "TIn", 0, 0 };
+static const Il2CppGenericParameter* ParseQuery_1_WhereContainsAll_m8080_Il2CppGenericParametersArray[1] = 
 {
-	&ParseQuery_1_WhereContainsAll_m8079_gp_TIn_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseQuery_1_WhereContainsAll_m8080_gp_TIn_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo ParseQuery_1_WhereContainsAll_m8079_MethodInfo;
-extern const Il2CppGenericContainer ParseQuery_1_WhereContainsAll_m8079_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereContainsAll_m8079_MethodInfo, 1, 1, ParseQuery_1_WhereContainsAll_m8079_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod Enumerable_ToList_TisTIn_t2505_m8471_GenericMethod;
-static Il2CppRGCTXDefinition ParseQuery_1_WhereContainsAll_m8079_RGCTXData[2] = 
+extern const MethodInfo ParseQuery_1_WhereContainsAll_m8080_MethodInfo;
+extern const Il2CppGenericContainer ParseQuery_1_WhereContainsAll_m8080_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereContainsAll_m8080_MethodInfo, 1, 1, ParseQuery_1_WhereContainsAll_m8080_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod Enumerable_ToList_TisTIn_t2505_m8472_GenericMethod;
+static Il2CppRGCTXDefinition ParseQuery_1_WhereContainsAll_m8080_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_ToList_TisTIn_t2505_m8471_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_ToList_TisTIn_t2505_m8472_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereContainsAll(System.String,System.Collections.Generic.IEnumerable`1<TIn>)
-extern const MethodInfo ParseQuery_1_WhereContainsAll_m8079_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereContainsAll_m8080_MethodInfo = 
 {
 	"WhereContainsAll"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereContainsAll_m8079_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereContainsAll_m8080_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3645,27 +3645,27 @@ extern const MethodInfo ParseQuery_1_WhereContainsAll_m8079_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 864/* token */
-	, ParseQuery_1_WhereContainsAll_m8079_RGCTXData/* rgctx_data */
+	, ParseQuery_1_WhereContainsAll_m8080_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &ParseQuery_1_WhereContainsAll_m8079_Il2CppGenericContainer/* genericContainer */
+	, &ParseQuery_1_WhereContainsAll_m8080_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereContains_m8080_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereContains_m8081_ParameterInfos[] = 
 {
 	{"key", 0, 134218615, 0, &String_t_0_0_0},
 	{"substring", 1, 134218616, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereContains(System.String,System.String)
-extern const MethodInfo ParseQuery_1_WhereContains_m8080_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereContains_m8081_MethodInfo = 
 {
 	"WhereContains"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereContains_m8080_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereContains_m8081_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3680,19 +3680,19 @@ extern const MethodInfo ParseQuery_1_WhereContains_m8080_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereDoesNotExist_m8081_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereDoesNotExist_m8082_ParameterInfos[] = 
 {
 	{"key", 0, 134218617, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereDoesNotExist(System.String)
-extern const MethodInfo ParseQuery_1_WhereDoesNotExist_m8081_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereDoesNotExist_m8082_MethodInfo = 
 {
 	"WhereDoesNotExist"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereDoesNotExist_m8081_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereDoesNotExist_m8082_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3709,38 +3709,38 @@ extern const MethodInfo ParseQuery_1_WhereDoesNotExist_m8081_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ParseQuery_1_t2506_0_0_0;
 extern const Il2CppType ParseQuery_1_t2506_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereDoesNotMatchQuery_m8082_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereDoesNotMatchQuery_m8083_ParameterInfos[] = 
 {
 	{"key", 0, 134218618, 0, &String_t_0_0_0},
 	{"query", 1, 134218619, 0, &ParseQuery_1_t2506_0_0_0},
 };
-extern const Il2CppGenericContainer ParseQuery_1_WhereDoesNotMatchQuery_m8082_Il2CppGenericContainer;
-extern TypeInfo ParseQuery_1_WhereDoesNotMatchQuery_m8082_gp_TOther_0_il2cpp_TypeInfo;
-static const Il2CppType* ParseQuery_1_WhereDoesNotMatchQuery_m8082_gp_TOther_0_il2cpp_TypeInfo_constraints[] = { 
+extern const Il2CppGenericContainer ParseQuery_1_WhereDoesNotMatchQuery_m8083_Il2CppGenericContainer;
+extern TypeInfo ParseQuery_1_WhereDoesNotMatchQuery_m8083_gp_TOther_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseQuery_1_WhereDoesNotMatchQuery_m8083_gp_TOther_0_il2cpp_TypeInfo_constraints[] = { 
 &ParseObject_t1219_0_0_0 /* Parse.ParseObject */, 
  NULL };
-extern const Il2CppGenericParameter ParseQuery_1_WhereDoesNotMatchQuery_m8082_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereDoesNotMatchQuery_m8082_Il2CppGenericContainer, ParseQuery_1_WhereDoesNotMatchQuery_m8082_gp_TOther_0_il2cpp_TypeInfo_constraints, "TOther", 0, 0 };
-static const Il2CppGenericParameter* ParseQuery_1_WhereDoesNotMatchQuery_m8082_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericParameter ParseQuery_1_WhereDoesNotMatchQuery_m8083_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereDoesNotMatchQuery_m8083_Il2CppGenericContainer, ParseQuery_1_WhereDoesNotMatchQuery_m8083_gp_TOther_0_il2cpp_TypeInfo_constraints, "TOther", 0, 0 };
+static const Il2CppGenericParameter* ParseQuery_1_WhereDoesNotMatchQuery_m8083_Il2CppGenericParametersArray[1] = 
 {
-	&ParseQuery_1_WhereDoesNotMatchQuery_m8082_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseQuery_1_WhereDoesNotMatchQuery_m8083_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo ParseQuery_1_WhereDoesNotMatchQuery_m8082_MethodInfo;
-extern const Il2CppGenericContainer ParseQuery_1_WhereDoesNotMatchQuery_m8082_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereDoesNotMatchQuery_m8082_MethodInfo, 1, 1, ParseQuery_1_WhereDoesNotMatchQuery_m8082_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod ParseQuery_1_BuildParameters_m8472_GenericMethod;
-static Il2CppRGCTXDefinition ParseQuery_1_WhereDoesNotMatchQuery_m8082_RGCTXData[2] = 
+extern const MethodInfo ParseQuery_1_WhereDoesNotMatchQuery_m8083_MethodInfo;
+extern const Il2CppGenericContainer ParseQuery_1_WhereDoesNotMatchQuery_m8083_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereDoesNotMatchQuery_m8083_MethodInfo, 1, 1, ParseQuery_1_WhereDoesNotMatchQuery_m8083_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseQuery_1_BuildParameters_m8473_GenericMethod;
+static Il2CppRGCTXDefinition ParseQuery_1_WhereDoesNotMatchQuery_m8083_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_BuildParameters_m8472_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_BuildParameters_m8473_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereDoesNotMatchQuery(System.String,Parse.ParseQuery`1<TOther>)
-extern const MethodInfo ParseQuery_1_WhereDoesNotMatchQuery_m8082_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereDoesNotMatchQuery_m8083_MethodInfo = 
 {
 	"WhereDoesNotMatchQuery"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereDoesNotMatchQuery_m8082_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereDoesNotMatchQuery_m8083_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3749,27 +3749,27 @@ extern const MethodInfo ParseQuery_1_WhereDoesNotMatchQuery_m8082_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 867/* token */
-	, ParseQuery_1_WhereDoesNotMatchQuery_m8082_RGCTXData/* rgctx_data */
+	, ParseQuery_1_WhereDoesNotMatchQuery_m8083_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &ParseQuery_1_WhereDoesNotMatchQuery_m8082_Il2CppGenericContainer/* genericContainer */
+	, &ParseQuery_1_WhereDoesNotMatchQuery_m8083_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereEndsWith_m8083_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereEndsWith_m8084_ParameterInfos[] = 
 {
 	{"key", 0, 134218620, 0, &String_t_0_0_0},
 	{"suffix", 1, 134218621, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereEndsWith(System.String,System.String)
-extern const MethodInfo ParseQuery_1_WhereEndsWith_m8083_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereEndsWith_m8084_MethodInfo = 
 {
 	"WhereEndsWith"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereEndsWith_m8083_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereEndsWith_m8084_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3785,20 +3785,20 @@ extern const MethodInfo ParseQuery_1_WhereEndsWith_m8083_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereEqualTo_m8084_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereEqualTo_m8085_ParameterInfos[] = 
 {
 	{"key", 0, 134218622, 0, &String_t_0_0_0},
 	{"value", 1, 134218623, 0, &Object_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereEqualTo(System.String,System.Object)
-extern const MethodInfo ParseQuery_1_WhereEqualTo_m8084_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereEqualTo_m8085_MethodInfo = 
 {
 	"WhereEqualTo"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereEqualTo_m8084_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereEqualTo_m8085_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3813,19 +3813,19 @@ extern const MethodInfo ParseQuery_1_WhereEqualTo_m8084_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereExists_m8085_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereExists_m8086_ParameterInfos[] = 
 {
 	{"key", 0, 134218624, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereExists(System.String)
-extern const MethodInfo ParseQuery_1_WhereExists_m8085_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereExists_m8086_MethodInfo = 
 {
 	"WhereExists"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereExists_m8085_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereExists_m8086_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3841,20 +3841,20 @@ extern const MethodInfo ParseQuery_1_WhereExists_m8085_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereGreaterThan_m8086_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereGreaterThan_m8087_ParameterInfos[] = 
 {
 	{"key", 0, 134218625, 0, &String_t_0_0_0},
 	{"value", 1, 134218626, 0, &Object_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereGreaterThan(System.String,System.Object)
-extern const MethodInfo ParseQuery_1_WhereGreaterThan_m8086_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereGreaterThan_m8087_MethodInfo = 
 {
 	"WhereGreaterThan"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereGreaterThan_m8086_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereGreaterThan_m8087_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3870,20 +3870,20 @@ extern const MethodInfo ParseQuery_1_WhereGreaterThan_m8086_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereGreaterThanOrEqualTo_m8087_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereGreaterThanOrEqualTo_m8088_ParameterInfos[] = 
 {
 	{"key", 0, 134218627, 0, &String_t_0_0_0},
 	{"value", 1, 134218628, 0, &Object_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereGreaterThanOrEqualTo(System.String,System.Object)
-extern const MethodInfo ParseQuery_1_WhereGreaterThanOrEqualTo_m8087_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereGreaterThanOrEqualTo_m8088_MethodInfo = 
 {
 	"WhereGreaterThanOrEqualTo"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereGreaterThanOrEqualTo_m8087_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereGreaterThanOrEqualTo_m8088_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3899,20 +3899,20 @@ extern const MethodInfo ParseQuery_1_WhereGreaterThanOrEqualTo_m8087_MethodInfo 
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereLessThan_m8088_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereLessThan_m8089_ParameterInfos[] = 
 {
 	{"key", 0, 134218629, 0, &String_t_0_0_0},
 	{"value", 1, 134218630, 0, &Object_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereLessThan(System.String,System.Object)
-extern const MethodInfo ParseQuery_1_WhereLessThan_m8088_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereLessThan_m8089_MethodInfo = 
 {
 	"WhereLessThan"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereLessThan_m8088_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereLessThan_m8089_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3928,20 +3928,20 @@ extern const MethodInfo ParseQuery_1_WhereLessThan_m8088_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereLessThanOrEqualTo_m8089_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereLessThanOrEqualTo_m8090_ParameterInfos[] = 
 {
 	{"key", 0, 134218631, 0, &String_t_0_0_0},
 	{"value", 1, 134218632, 0, &Object_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereLessThanOrEqualTo(System.String,System.Object)
-extern const MethodInfo ParseQuery_1_WhereLessThanOrEqualTo_m8089_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereLessThanOrEqualTo_m8090_MethodInfo = 
 {
 	"WhereLessThanOrEqualTo"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereLessThanOrEqualTo_m8089_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereLessThanOrEqualTo_m8090_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3959,21 +3959,21 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Regex_t785_0_0_0;
 extern const Il2CppType Regex_t785_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8090_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8091_ParameterInfos[] = 
 {
 	{"key", 0, 134218633, 0, &String_t_0_0_0},
 	{"regex", 1, 134218634, 0, &Regex_t785_0_0_0},
 	{"modifiers", 2, 134218635, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereMatches(System.String,System.Text.RegularExpressions.Regex,System.String)
-extern const MethodInfo ParseQuery_1_WhereMatches_m8090_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereMatches_m8091_MethodInfo = 
 {
 	"WhereMatches"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8090_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8091_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3989,20 +3989,20 @@ extern const MethodInfo ParseQuery_1_WhereMatches_m8090_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Regex_t785_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8091_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8092_ParameterInfos[] = 
 {
 	{"key", 0, 134218636, 0, &String_t_0_0_0},
 	{"regex", 1, 134218637, 0, &Regex_t785_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereMatches(System.String,System.Text.RegularExpressions.Regex)
-extern const MethodInfo ParseQuery_1_WhereMatches_m8091_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereMatches_m8092_MethodInfo = 
 {
 	"WhereMatches"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8091_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8092_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4019,21 +4019,21 @@ extern const MethodInfo ParseQuery_1_WhereMatches_m8091_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_4112;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8092_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8093_ParameterInfos[] = 
 {
 	{"key", 0, 134218638, 0, &String_t_0_0_0},
 	{"pattern", 1, 134218639, 0, &String_t_0_0_0},
 	{"modifiers", 2, 134218640, 0, &String_t_0_0_4112},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereMatches(System.String,System.String,System.String)
-extern const MethodInfo ParseQuery_1_WhereMatches_m8092_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereMatches_m8093_MethodInfo = 
 {
 	"WhereMatches"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8092_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8093_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4049,20 +4049,20 @@ extern const MethodInfo ParseQuery_1_WhereMatches_m8092_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8093_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8094_ParameterInfos[] = 
 {
 	{"key", 0, 134218641, 0, &String_t_0_0_0},
 	{"pattern", 1, 134218642, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereMatches(System.String,System.String)
-extern const MethodInfo ParseQuery_1_WhereMatches_m8093_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereMatches_m8094_MethodInfo = 
 {
 	"WhereMatches"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8093_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereMatches_m8094_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4080,39 +4080,39 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ParseQuery_1_t2508_0_0_0;
 extern const Il2CppType ParseQuery_1_t2508_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereMatchesKeyInQuery_m8094_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereMatchesKeyInQuery_m8095_ParameterInfos[] = 
 {
 	{"key", 0, 134218643, 0, &String_t_0_0_0},
 	{"keyInQuery", 1, 134218644, 0, &String_t_0_0_0},
 	{"query", 2, 134218645, 0, &ParseQuery_1_t2508_0_0_0},
 };
-extern const Il2CppGenericContainer ParseQuery_1_WhereMatchesKeyInQuery_m8094_Il2CppGenericContainer;
-extern TypeInfo ParseQuery_1_WhereMatchesKeyInQuery_m8094_gp_TOther_0_il2cpp_TypeInfo;
-static const Il2CppType* ParseQuery_1_WhereMatchesKeyInQuery_m8094_gp_TOther_0_il2cpp_TypeInfo_constraints[] = { 
+extern const Il2CppGenericContainer ParseQuery_1_WhereMatchesKeyInQuery_m8095_Il2CppGenericContainer;
+extern TypeInfo ParseQuery_1_WhereMatchesKeyInQuery_m8095_gp_TOther_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseQuery_1_WhereMatchesKeyInQuery_m8095_gp_TOther_0_il2cpp_TypeInfo_constraints[] = { 
 &ParseObject_t1219_0_0_0 /* Parse.ParseObject */, 
  NULL };
-extern const Il2CppGenericParameter ParseQuery_1_WhereMatchesKeyInQuery_m8094_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereMatchesKeyInQuery_m8094_Il2CppGenericContainer, ParseQuery_1_WhereMatchesKeyInQuery_m8094_gp_TOther_0_il2cpp_TypeInfo_constraints, "TOther", 0, 0 };
-static const Il2CppGenericParameter* ParseQuery_1_WhereMatchesKeyInQuery_m8094_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericParameter ParseQuery_1_WhereMatchesKeyInQuery_m8095_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereMatchesKeyInQuery_m8095_Il2CppGenericContainer, ParseQuery_1_WhereMatchesKeyInQuery_m8095_gp_TOther_0_il2cpp_TypeInfo_constraints, "TOther", 0, 0 };
+static const Il2CppGenericParameter* ParseQuery_1_WhereMatchesKeyInQuery_m8095_Il2CppGenericParametersArray[1] = 
 {
-	&ParseQuery_1_WhereMatchesKeyInQuery_m8094_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseQuery_1_WhereMatchesKeyInQuery_m8095_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo ParseQuery_1_WhereMatchesKeyInQuery_m8094_MethodInfo;
-extern const Il2CppGenericContainer ParseQuery_1_WhereMatchesKeyInQuery_m8094_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereMatchesKeyInQuery_m8094_MethodInfo, 1, 1, ParseQuery_1_WhereMatchesKeyInQuery_m8094_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod ParseQuery_1_BuildParameters_m8473_GenericMethod;
-static Il2CppRGCTXDefinition ParseQuery_1_WhereMatchesKeyInQuery_m8094_RGCTXData[2] = 
+extern const MethodInfo ParseQuery_1_WhereMatchesKeyInQuery_m8095_MethodInfo;
+extern const Il2CppGenericContainer ParseQuery_1_WhereMatchesKeyInQuery_m8095_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereMatchesKeyInQuery_m8095_MethodInfo, 1, 1, ParseQuery_1_WhereMatchesKeyInQuery_m8095_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseQuery_1_BuildParameters_m8474_GenericMethod;
+static Il2CppRGCTXDefinition ParseQuery_1_WhereMatchesKeyInQuery_m8095_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_BuildParameters_m8473_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_BuildParameters_m8474_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereMatchesKeyInQuery(System.String,System.String,Parse.ParseQuery`1<TOther>)
-extern const MethodInfo ParseQuery_1_WhereMatchesKeyInQuery_m8094_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereMatchesKeyInQuery_m8095_MethodInfo = 
 {
 	"WhereMatchesKeyInQuery"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereMatchesKeyInQuery_m8094_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereMatchesKeyInQuery_m8095_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4121,48 +4121,48 @@ extern const MethodInfo ParseQuery_1_WhereMatchesKeyInQuery_m8094_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 879/* token */
-	, ParseQuery_1_WhereMatchesKeyInQuery_m8094_RGCTXData/* rgctx_data */
+	, ParseQuery_1_WhereMatchesKeyInQuery_m8095_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &ParseQuery_1_WhereMatchesKeyInQuery_m8094_Il2CppGenericContainer/* genericContainer */
+	, &ParseQuery_1_WhereMatchesKeyInQuery_m8095_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ParseQuery_1_t2510_0_0_0;
 extern const Il2CppType ParseQuery_1_t2510_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_ParameterInfos[] = 
 {
 	{"key", 0, 134218646, 0, &String_t_0_0_0},
 	{"keyInQuery", 1, 134218647, 0, &String_t_0_0_0},
 	{"query", 2, 134218648, 0, &ParseQuery_1_t2510_0_0_0},
 };
-extern const Il2CppGenericContainer ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_Il2CppGenericContainer;
-extern TypeInfo ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_gp_TOther_0_il2cpp_TypeInfo;
-static const Il2CppType* ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_gp_TOther_0_il2cpp_TypeInfo_constraints[] = { 
+extern const Il2CppGenericContainer ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_Il2CppGenericContainer;
+extern TypeInfo ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_gp_TOther_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_gp_TOther_0_il2cpp_TypeInfo_constraints[] = { 
 &ParseObject_t1219_0_0_0 /* Parse.ParseObject */, 
  NULL };
-extern const Il2CppGenericParameter ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_Il2CppGenericContainer, ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_gp_TOther_0_il2cpp_TypeInfo_constraints, "TOther", 0, 0 };
-static const Il2CppGenericParameter* ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericParameter ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_Il2CppGenericContainer, ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_gp_TOther_0_il2cpp_TypeInfo_constraints, "TOther", 0, 0 };
+static const Il2CppGenericParameter* ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_Il2CppGenericParametersArray[1] = 
 {
-	&ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_MethodInfo;
-extern const Il2CppGenericContainer ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_MethodInfo, 1, 1, ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod ParseQuery_1_BuildParameters_m8474_GenericMethod;
-static Il2CppRGCTXDefinition ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_RGCTXData[2] = 
+extern const MethodInfo ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_MethodInfo;
+extern const Il2CppGenericContainer ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_MethodInfo, 1, 1, ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseQuery_1_BuildParameters_m8475_GenericMethod;
+static Il2CppRGCTXDefinition ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_BuildParameters_m8474_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_BuildParameters_m8475_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereDoesNotMatchesKeyInQuery(System.String,System.String,Parse.ParseQuery`1<TOther>)
-extern const MethodInfo ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_MethodInfo = 
 {
 	"WhereDoesNotMatchesKeyInQuery"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4171,46 +4171,46 @@ extern const MethodInfo ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_MethodI
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 880/* token */
-	, ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_RGCTXData/* rgctx_data */
+	, ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_Il2CppGenericContainer/* genericContainer */
+	, &ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ParseQuery_1_t2512_0_0_0;
 extern const Il2CppType ParseQuery_1_t2512_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereMatchesQuery_m8096_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereMatchesQuery_m8097_ParameterInfos[] = 
 {
 	{"key", 0, 134218649, 0, &String_t_0_0_0},
 	{"query", 1, 134218650, 0, &ParseQuery_1_t2512_0_0_0},
 };
-extern const Il2CppGenericContainer ParseQuery_1_WhereMatchesQuery_m8096_Il2CppGenericContainer;
-extern TypeInfo ParseQuery_1_WhereMatchesQuery_m8096_gp_TOther_0_il2cpp_TypeInfo;
-static const Il2CppType* ParseQuery_1_WhereMatchesQuery_m8096_gp_TOther_0_il2cpp_TypeInfo_constraints[] = { 
+extern const Il2CppGenericContainer ParseQuery_1_WhereMatchesQuery_m8097_Il2CppGenericContainer;
+extern TypeInfo ParseQuery_1_WhereMatchesQuery_m8097_gp_TOther_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseQuery_1_WhereMatchesQuery_m8097_gp_TOther_0_il2cpp_TypeInfo_constraints[] = { 
 &ParseObject_t1219_0_0_0 /* Parse.ParseObject */, 
  NULL };
-extern const Il2CppGenericParameter ParseQuery_1_WhereMatchesQuery_m8096_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereMatchesQuery_m8096_Il2CppGenericContainer, ParseQuery_1_WhereMatchesQuery_m8096_gp_TOther_0_il2cpp_TypeInfo_constraints, "TOther", 0, 0 };
-static const Il2CppGenericParameter* ParseQuery_1_WhereMatchesQuery_m8096_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericParameter ParseQuery_1_WhereMatchesQuery_m8097_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereMatchesQuery_m8097_Il2CppGenericContainer, ParseQuery_1_WhereMatchesQuery_m8097_gp_TOther_0_il2cpp_TypeInfo_constraints, "TOther", 0, 0 };
+static const Il2CppGenericParameter* ParseQuery_1_WhereMatchesQuery_m8097_Il2CppGenericParametersArray[1] = 
 {
-	&ParseQuery_1_WhereMatchesQuery_m8096_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseQuery_1_WhereMatchesQuery_m8097_gp_TOther_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo ParseQuery_1_WhereMatchesQuery_m8096_MethodInfo;
-extern const Il2CppGenericContainer ParseQuery_1_WhereMatchesQuery_m8096_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereMatchesQuery_m8096_MethodInfo, 1, 1, ParseQuery_1_WhereMatchesQuery_m8096_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod ParseQuery_1_BuildParameters_m8475_GenericMethod;
-static Il2CppRGCTXDefinition ParseQuery_1_WhereMatchesQuery_m8096_RGCTXData[2] = 
+extern const MethodInfo ParseQuery_1_WhereMatchesQuery_m8097_MethodInfo;
+extern const Il2CppGenericContainer ParseQuery_1_WhereMatchesQuery_m8097_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereMatchesQuery_m8097_MethodInfo, 1, 1, ParseQuery_1_WhereMatchesQuery_m8097_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseQuery_1_BuildParameters_m8476_GenericMethod;
+static Il2CppRGCTXDefinition ParseQuery_1_WhereMatchesQuery_m8097_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_BuildParameters_m8475_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_BuildParameters_m8476_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereMatchesQuery(System.String,Parse.ParseQuery`1<TOther>)
-extern const MethodInfo ParseQuery_1_WhereMatchesQuery_m8096_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereMatchesQuery_m8097_MethodInfo = 
 {
 	"WhereMatchesQuery"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereMatchesQuery_m8096_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereMatchesQuery_m8097_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4219,28 +4219,28 @@ extern const MethodInfo ParseQuery_1_WhereMatchesQuery_m8096_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 881/* token */
-	, ParseQuery_1_WhereMatchesQuery_m8096_RGCTXData/* rgctx_data */
+	, ParseQuery_1_WhereMatchesQuery_m8097_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &ParseQuery_1_WhereMatchesQuery_m8096_Il2CppGenericContainer/* genericContainer */
+	, &ParseQuery_1_WhereMatchesQuery_m8097_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ParseGeoPoint_t1245_0_0_0;
 extern const Il2CppType ParseGeoPoint_t1245_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereNear_m8097_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereNear_m8098_ParameterInfos[] = 
 {
 	{"key", 0, 134218651, 0, &String_t_0_0_0},
 	{"point", 1, 134218652, 0, &ParseGeoPoint_t1245_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereNear(System.String,Parse.ParseGeoPoint)
-extern const MethodInfo ParseQuery_1_WhereNear_m8097_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereNear_m8098_MethodInfo = 
 {
 	"WhereNear"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereNear_m8097_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereNear_m8098_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4257,35 +4257,35 @@ extern const MethodInfo ParseQuery_1_WhereNear_m8097_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IEnumerable_1_t2514_0_0_0;
 extern const Il2CppType IEnumerable_1_t2514_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereNotContainedIn_m8098_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereNotContainedIn_m8099_ParameterInfos[] = 
 {
 	{"key", 0, 134218653, 0, &String_t_0_0_0},
 	{"values", 1, 134218654, 0, &IEnumerable_1_t2514_0_0_0},
 };
-extern const Il2CppGenericContainer ParseQuery_1_WhereNotContainedIn_m8098_Il2CppGenericContainer;
-extern TypeInfo ParseQuery_1_WhereNotContainedIn_m8098_gp_TIn_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter ParseQuery_1_WhereNotContainedIn_m8098_gp_TIn_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereNotContainedIn_m8098_Il2CppGenericContainer, NULL, "TIn", 0, 0 };
-static const Il2CppGenericParameter* ParseQuery_1_WhereNotContainedIn_m8098_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer ParseQuery_1_WhereNotContainedIn_m8099_Il2CppGenericContainer;
+extern TypeInfo ParseQuery_1_WhereNotContainedIn_m8099_gp_TIn_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseQuery_1_WhereNotContainedIn_m8099_gp_TIn_0_il2cpp_TypeInfo_GenericParamFull = { &ParseQuery_1_WhereNotContainedIn_m8099_Il2CppGenericContainer, NULL, "TIn", 0, 0 };
+static const Il2CppGenericParameter* ParseQuery_1_WhereNotContainedIn_m8099_Il2CppGenericParametersArray[1] = 
 {
-	&ParseQuery_1_WhereNotContainedIn_m8098_gp_TIn_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseQuery_1_WhereNotContainedIn_m8099_gp_TIn_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo ParseQuery_1_WhereNotContainedIn_m8098_MethodInfo;
-extern const Il2CppGenericContainer ParseQuery_1_WhereNotContainedIn_m8098_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereNotContainedIn_m8098_MethodInfo, 1, 1, ParseQuery_1_WhereNotContainedIn_m8098_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod Enumerable_ToList_TisTIn_t2515_m8476_GenericMethod;
-static Il2CppRGCTXDefinition ParseQuery_1_WhereNotContainedIn_m8098_RGCTXData[2] = 
+extern const MethodInfo ParseQuery_1_WhereNotContainedIn_m8099_MethodInfo;
+extern const Il2CppGenericContainer ParseQuery_1_WhereNotContainedIn_m8099_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseQuery_1_WhereNotContainedIn_m8099_MethodInfo, 1, 1, ParseQuery_1_WhereNotContainedIn_m8099_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod Enumerable_ToList_TisTIn_t2515_m8477_GenericMethod;
+static Il2CppRGCTXDefinition ParseQuery_1_WhereNotContainedIn_m8099_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_ToList_TisTIn_t2515_m8476_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_ToList_TisTIn_t2515_m8477_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereNotContainedIn(System.String,System.Collections.Generic.IEnumerable`1<TIn>)
-extern const MethodInfo ParseQuery_1_WhereNotContainedIn_m8098_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereNotContainedIn_m8099_MethodInfo = 
 {
 	"WhereNotContainedIn"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereNotContainedIn_m8098_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereNotContainedIn_m8099_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4294,27 +4294,27 @@ extern const MethodInfo ParseQuery_1_WhereNotContainedIn_m8098_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 883/* token */
-	, ParseQuery_1_WhereNotContainedIn_m8098_RGCTXData/* rgctx_data */
+	, ParseQuery_1_WhereNotContainedIn_m8099_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &ParseQuery_1_WhereNotContainedIn_m8098_Il2CppGenericContainer/* genericContainer */
+	, &ParseQuery_1_WhereNotContainedIn_m8099_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereNotEqualTo_m8099_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereNotEqualTo_m8100_ParameterInfos[] = 
 {
 	{"key", 0, 134218655, 0, &String_t_0_0_0},
 	{"value", 1, 134218656, 0, &Object_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereNotEqualTo(System.String,System.Object)
-extern const MethodInfo ParseQuery_1_WhereNotEqualTo_m8099_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereNotEqualTo_m8100_MethodInfo = 
 {
 	"WhereNotEqualTo"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereNotEqualTo_m8099_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereNotEqualTo_m8100_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4330,20 +4330,20 @@ extern const MethodInfo ParseQuery_1_WhereNotEqualTo_m8099_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereStartsWith_m8100_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereStartsWith_m8101_ParameterInfos[] = 
 {
 	{"key", 0, 134218657, 0, &String_t_0_0_0},
 	{"suffix", 1, 134218658, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereStartsWith(System.String,System.String)
-extern const MethodInfo ParseQuery_1_WhereStartsWith_m8100_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereStartsWith_m8101_MethodInfo = 
 {
 	"WhereStartsWith"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereStartsWith_m8100_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereStartsWith_m8101_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4360,21 +4360,21 @@ extern const MethodInfo ParseQuery_1_WhereStartsWith_m8100_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ParseGeoPoint_t1245_0_0_0;
 extern const Il2CppType ParseGeoPoint_t1245_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereWithinGeoBox_m8101_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereWithinGeoBox_m8102_ParameterInfos[] = 
 {
 	{"key", 0, 134218659, 0, &String_t_0_0_0},
 	{"southwest", 1, 134218660, 0, &ParseGeoPoint_t1245_0_0_0},
 	{"northeast", 2, 134218661, 0, &ParseGeoPoint_t1245_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereWithinGeoBox(System.String,Parse.ParseGeoPoint,Parse.ParseGeoPoint)
-extern const MethodInfo ParseQuery_1_WhereWithinGeoBox_m8101_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereWithinGeoBox_m8102_MethodInfo = 
 {
 	"WhereWithinGeoBox"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereWithinGeoBox_m8101_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereWithinGeoBox_m8102_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4392,21 +4392,21 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ParseGeoPoint_t1245_0_0_0;
 extern const Il2CppType ParseGeoDistance_t1244_0_0_0;
 extern const Il2CppType ParseGeoDistance_t1244_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereWithinDistance_m8102_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereWithinDistance_m8103_ParameterInfos[] = 
 {
 	{"key", 0, 134218662, 0, &String_t_0_0_0},
 	{"point", 1, 134218663, 0, &ParseGeoPoint_t1245_0_0_0},
 	{"maxDistance", 2, 134218664, 0, &ParseGeoDistance_t1244_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereWithinDistance(System.String,Parse.ParseGeoPoint,Parse.ParseGeoDistance)
-extern const MethodInfo ParseQuery_1_WhereWithinDistance_m8102_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereWithinDistance_m8103_MethodInfo = 
 {
 	"WhereWithinDistance"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereWithinDistance_m8102_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereWithinDistance_m8103_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4422,7 +4422,7 @@ extern const MethodInfo ParseQuery_1_WhereWithinDistance_m8102_MethodInfo =
 };
 extern const Il2CppType Task_1_t2516_0_0_0;
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<T>> Parse.ParseQuery`1::FindAsync()
-extern const MethodInfo ParseQuery_1_FindAsync_m8103_MethodInfo = 
+extern const MethodInfo ParseQuery_1_FindAsync_m8104_MethodInfo = 
 {
 	"FindAsync"/* name */
 	, NULL/* method */
@@ -4444,19 +4444,19 @@ extern const MethodInfo ParseQuery_1_FindAsync_m8103_MethodInfo =
 
 };
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_FindAsync_m8104_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_FindAsync_m8105_ParameterInfos[] = 
 {
 	{"cancellationToken", 0, 134218665, 0, &CancellationToken_t1162_0_0_0},
 };
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<T>> Parse.ParseQuery`1::FindAsync(System.Threading.CancellationToken)
-extern const MethodInfo ParseQuery_1_FindAsync_m8104_MethodInfo = 
+extern const MethodInfo ParseQuery_1_FindAsync_m8105_MethodInfo = 
 {
 	"FindAsync"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t2516_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_FindAsync_m8104_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_FindAsync_m8105_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4472,7 +4472,7 @@ extern const MethodInfo ParseQuery_1_FindAsync_m8104_MethodInfo =
 };
 extern const Il2CppType Task_1_t2517_0_0_0;
 // System.Threading.Tasks.Task`1<T> Parse.ParseQuery`1::FirstOrDefaultAsync()
-extern const MethodInfo ParseQuery_1_FirstOrDefaultAsync_m8105_MethodInfo = 
+extern const MethodInfo ParseQuery_1_FirstOrDefaultAsync_m8106_MethodInfo = 
 {
 	"FirstOrDefaultAsync"/* name */
 	, NULL/* method */
@@ -4494,19 +4494,19 @@ extern const MethodInfo ParseQuery_1_FirstOrDefaultAsync_m8105_MethodInfo =
 
 };
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_FirstOrDefaultAsync_m8106_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_FirstOrDefaultAsync_m8107_ParameterInfos[] = 
 {
 	{"cancellationToken", 0, 134218666, 0, &CancellationToken_t1162_0_0_0},
 };
 // System.Threading.Tasks.Task`1<T> Parse.ParseQuery`1::FirstOrDefaultAsync(System.Threading.CancellationToken)
-extern const MethodInfo ParseQuery_1_FirstOrDefaultAsync_m8106_MethodInfo = 
+extern const MethodInfo ParseQuery_1_FirstOrDefaultAsync_m8107_MethodInfo = 
 {
 	"FirstOrDefaultAsync"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t2517_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_FirstOrDefaultAsync_m8106_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_FirstOrDefaultAsync_m8107_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4521,7 +4521,7 @@ extern const MethodInfo ParseQuery_1_FirstOrDefaultAsync_m8106_MethodInfo =
 
 };
 // System.Threading.Tasks.Task`1<T> Parse.ParseQuery`1::FirstAsync()
-extern const MethodInfo ParseQuery_1_FirstAsync_m8107_MethodInfo = 
+extern const MethodInfo ParseQuery_1_FirstAsync_m8108_MethodInfo = 
 {
 	"FirstAsync"/* name */
 	, NULL/* method */
@@ -4543,19 +4543,19 @@ extern const MethodInfo ParseQuery_1_FirstAsync_m8107_MethodInfo =
 
 };
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_FirstAsync_m8108_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_FirstAsync_m8109_ParameterInfos[] = 
 {
 	{"cancellationToken", 0, 134218667, 0, &CancellationToken_t1162_0_0_0},
 };
 // System.Threading.Tasks.Task`1<T> Parse.ParseQuery`1::FirstAsync(System.Threading.CancellationToken)
-extern const MethodInfo ParseQuery_1_FirstAsync_m8108_MethodInfo = 
+extern const MethodInfo ParseQuery_1_FirstAsync_m8109_MethodInfo = 
 {
 	"FirstAsync"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t2517_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_FirstAsync_m8108_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_FirstAsync_m8109_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4571,7 +4571,7 @@ extern const MethodInfo ParseQuery_1_FirstAsync_m8108_MethodInfo =
 };
 extern const Il2CppType Task_1_t1368_0_0_0;
 // System.Threading.Tasks.Task`1<System.Int32> Parse.ParseQuery`1::CountAsync()
-extern const MethodInfo ParseQuery_1_CountAsync_m8109_MethodInfo = 
+extern const MethodInfo ParseQuery_1_CountAsync_m8110_MethodInfo = 
 {
 	"CountAsync"/* name */
 	, NULL/* method */
@@ -4593,19 +4593,19 @@ extern const MethodInfo ParseQuery_1_CountAsync_m8109_MethodInfo =
 
 };
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_CountAsync_m8110_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_CountAsync_m8111_ParameterInfos[] = 
 {
 	{"cancellationToken", 0, 134218668, 0, &CancellationToken_t1162_0_0_0},
 };
 // System.Threading.Tasks.Task`1<System.Int32> Parse.ParseQuery`1::CountAsync(System.Threading.CancellationToken)
-extern const MethodInfo ParseQuery_1_CountAsync_m8110_MethodInfo = 
+extern const MethodInfo ParseQuery_1_CountAsync_m8111_MethodInfo = 
 {
 	"CountAsync"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1368_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_CountAsync_m8110_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_CountAsync_m8111_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4620,19 +4620,19 @@ extern const MethodInfo ParseQuery_1_CountAsync_m8110_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_GetAsync_m8111_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_GetAsync_m8112_ParameterInfos[] = 
 {
 	{"objectId", 0, 134218669, 0, &String_t_0_0_0},
 };
 // System.Threading.Tasks.Task`1<T> Parse.ParseQuery`1::GetAsync(System.String)
-extern const MethodInfo ParseQuery_1_GetAsync_m8111_MethodInfo = 
+extern const MethodInfo ParseQuery_1_GetAsync_m8112_MethodInfo = 
 {
 	"GetAsync"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t2517_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_GetAsync_m8111_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_GetAsync_m8112_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4648,20 +4648,20 @@ extern const MethodInfo ParseQuery_1_GetAsync_m8111_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_GetAsync_m8112_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_GetAsync_m8113_ParameterInfos[] = 
 {
 	{"objectId", 0, 134218670, 0, &String_t_0_0_0},
 	{"cancellationToken", 1, 134218671, 0, &CancellationToken_t1162_0_0_0},
 };
 // System.Threading.Tasks.Task`1<T> Parse.ParseQuery`1::GetAsync(System.String,System.Threading.CancellationToken)
-extern const MethodInfo ParseQuery_1_GetAsync_m8112_MethodInfo = 
+extern const MethodInfo ParseQuery_1_GetAsync_m8113_MethodInfo = 
 {
 	"GetAsync"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t2517_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_GetAsync_m8112_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_GetAsync_m8113_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -4676,20 +4676,20 @@ extern const MethodInfo ParseQuery_1_GetAsync_m8112_MethodInfo =
 
 };
 extern const Il2CppType IDictionary_2_t820_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_CreateParseObjectFromQueryResult_m8113_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_CreateParseObjectFromQueryResult_m8114_ParameterInfos[] = 
 {
 	{"data", 0, 134218672, 0, &IDictionary_2_t820_0_0_0},
 };
 extern const Il2CppType ParseQuery_1_t2192_gp_0_0_0_0;
 // T Parse.ParseQuery`1::CreateParseObjectFromQueryResult(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern const MethodInfo ParseQuery_1_CreateParseObjectFromQueryResult_m8113_MethodInfo = 
+extern const MethodInfo ParseQuery_1_CreateParseObjectFromQueryResult_m8114_MethodInfo = 
 {
 	"CreateParseObjectFromQueryResult"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2192_gp_0_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_CreateParseObjectFromQueryResult_m8113_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_CreateParseObjectFromQueryResult_m8114_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4705,20 +4705,20 @@ extern const MethodInfo ParseQuery_1_CreateParseObjectFromQueryResult_m8113_Meth
 };
 extern const Il2CppType IList_1_t1373_0_0_0;
 extern const Il2CppType IList_1_t1373_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_PrepareObjectsFromResults_m8114_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_PrepareObjectsFromResults_m8115_ParameterInfos[] = 
 {
 	{"results", 0, 134218673, 0, &IList_1_t1373_0_0_0},
 };
 extern const Il2CppType IEnumerable_1_t2518_0_0_0;
 // System.Collections.Generic.IEnumerable`1<T> Parse.ParseQuery`1::PrepareObjectsFromResults(System.Collections.Generic.IList`1<System.Object>)
-extern const MethodInfo ParseQuery_1_PrepareObjectsFromResults_m8114_MethodInfo = 
+extern const MethodInfo ParseQuery_1_PrepareObjectsFromResults_m8115_MethodInfo = 
 {
 	"PrepareObjectsFromResults"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerable_1_t2518_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_PrepareObjectsFromResults_m8114_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_PrepareObjectsFromResults_m8115_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4733,19 +4733,19 @@ extern const MethodInfo ParseQuery_1_PrepareObjectsFromResults_m8114_MethodInfo 
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_GetConstraint_m8115_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_GetConstraint_m8116_ParameterInfos[] = 
 {
 	{"key", 0, 134218674, 0, &String_t_0_0_0},
 };
 // System.Object Parse.ParseQuery`1::GetConstraint(System.String)
-extern const MethodInfo ParseQuery_1_GetConstraint_m8115_MethodInfo = 
+extern const MethodInfo ParseQuery_1_GetConstraint_m8116_MethodInfo = 
 {
 	"GetConstraint"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_GetConstraint_m8115_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_GetConstraint_m8116_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -4760,19 +4760,19 @@ extern const MethodInfo ParseQuery_1_GetConstraint_m8115_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_4112;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_BuildParameters_m8116_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_BuildParameters_m8117_ParameterInfos[] = 
 {
 	{"includeClassName", 0, 134218675, 0, &Boolean_t59_0_0_4112},
 };
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseQuery`1::BuildParameters(System.Boolean)
-extern const MethodInfo ParseQuery_1_BuildParameters_m8116_MethodInfo = 
+extern const MethodInfo ParseQuery_1_BuildParameters_m8117_MethodInfo = 
 {
 	"BuildParameters"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &IDictionary_2_t820_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_BuildParameters_m8116_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_BuildParameters_m8117_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -4787,19 +4787,19 @@ extern const MethodInfo ParseQuery_1_BuildParameters_m8116_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_RegexQuote_m8117_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_RegexQuote_m8118_ParameterInfos[] = 
 {
 	{"input", 0, 134218676, 0, &String_t_0_0_0},
 };
 // System.String Parse.ParseQuery`1::RegexQuote(System.String)
-extern const MethodInfo ParseQuery_1_RegexQuote_m8117_MethodInfo = 
+extern const MethodInfo ParseQuery_1_RegexQuote_m8118_MethodInfo = 
 {
 	"RegexQuote"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_RegexQuote_m8117_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_RegexQuote_m8118_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4815,20 +4815,20 @@ extern const MethodInfo ParseQuery_1_RegexQuote_m8117_MethodInfo =
 };
 extern const Il2CppType Regex_t785_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_GetRegexOptions_m8118_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_GetRegexOptions_m8119_ParameterInfos[] = 
 {
 	{"regex", 0, 134218677, 0, &Regex_t785_0_0_0},
 	{"modifiers", 1, 134218678, 0, &String_t_0_0_0},
 };
 // System.String Parse.ParseQuery`1::GetRegexOptions(System.Text.RegularExpressions.Regex,System.String)
-extern const MethodInfo ParseQuery_1_GetRegexOptions_m8118_MethodInfo = 
+extern const MethodInfo ParseQuery_1_GetRegexOptions_m8119_MethodInfo = 
 {
 	"GetRegexOptions"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_GetRegexOptions_m8118_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_GetRegexOptions_m8119_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4844,20 +4844,20 @@ extern const MethodInfo ParseQuery_1_GetRegexOptions_m8118_MethodInfo =
 };
 extern const Il2CppType Regex_t785_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_EncodeRegex_m8119_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_EncodeRegex_m8120_ParameterInfos[] = 
 {
 	{"regex", 0, 134218679, 0, &Regex_t785_0_0_0},
 	{"modifiers", 1, 134218680, 0, &String_t_0_0_0},
 };
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseQuery`1::EncodeRegex(System.Text.RegularExpressions.Regex,System.String)
-extern const MethodInfo ParseQuery_1_EncodeRegex_m8119_MethodInfo = 
+extern const MethodInfo ParseQuery_1_EncodeRegex_m8120_MethodInfo = 
 {
 	"EncodeRegex"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &IDictionary_2_t820_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_EncodeRegex_m8119_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_EncodeRegex_m8120_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4873,20 +4873,20 @@ extern const MethodInfo ParseQuery_1_EncodeRegex_m8119_MethodInfo =
 };
 extern const Il2CppType ParseObject_t1219_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereRelatedTo_m8120_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_WhereRelatedTo_m8121_ParameterInfos[] = 
 {
 	{"parent", 0, 134218681, 0, &ParseObject_t1219_0_0_0},
 	{"key", 1, 134218682, 0, &String_t_0_0_0},
 };
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1::WhereRelatedTo(Parse.ParseObject,System.String)
-extern const MethodInfo ParseQuery_1_WhereRelatedTo_m8120_MethodInfo = 
+extern const MethodInfo ParseQuery_1_WhereRelatedTo_m8121_MethodInfo = 
 {
 	"WhereRelatedTo"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2500_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_WhereRelatedTo_m8120_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_WhereRelatedTo_m8121_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -4901,7 +4901,7 @@ extern const MethodInfo ParseQuery_1_WhereRelatedTo_m8120_MethodInfo =
 
 };
 // System.String Parse.ParseQuery`1::get_JsonString()
-extern const MethodInfo ParseQuery_1_get_JsonString_m8121_MethodInfo = 
+extern const MethodInfo ParseQuery_1_get_JsonString_m8122_MethodInfo = 
 {
 	"get_JsonString"/* name */
 	, NULL/* method */
@@ -4923,7 +4923,7 @@ extern const MethodInfo ParseQuery_1_get_JsonString_m8121_MethodInfo =
 
 };
 // System.Void Parse.ParseQuery`1::EnsureNotInstallationQuery()
-extern const MethodInfo ParseQuery_1_EnsureNotInstallationQuery_m8122_MethodInfo = 
+extern const MethodInfo ParseQuery_1_EnsureNotInstallationQuery_m8123_MethodInfo = 
 {
 	"EnsureNotInstallationQuery"/* name */
 	, NULL/* method */
@@ -4946,19 +4946,19 @@ extern const MethodInfo ParseQuery_1_EnsureNotInstallationQuery_m8122_MethodInfo
 };
 extern const Il2CppType Task_1_t1385_0_0_0;
 extern const Il2CppType Task_1_t1385_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_U3CFindAsyncU3Eb__34_m8123_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_U3CFindAsyncU3Eb__34_m8124_ParameterInfos[] = 
 {
 	{"t", 0, 134218683, 0, &Task_1_t1385_0_0_0},
 };
 // System.Collections.Generic.IEnumerable`1<T> Parse.ParseQuery`1::<FindAsync>b__34(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-extern const MethodInfo ParseQuery_1_U3CFindAsyncU3Eb__34_m8123_MethodInfo = 
+extern const MethodInfo ParseQuery_1_U3CFindAsyncU3Eb__34_m8124_MethodInfo = 
 {
 	"<FindAsync>b__34"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerable_1_t2518_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_U3CFindAsyncU3Eb__34_m8123_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_U3CFindAsyncU3Eb__34_m8124_ParameterInfos/* parameters */
 	, 417/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4973,19 +4973,19 @@ extern const MethodInfo ParseQuery_1_U3CFindAsyncU3Eb__34_m8123_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t1385_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m8124_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m8125_ParameterInfos[] = 
 {
 	{"t", 0, 134218684, 0, &Task_1_t1385_0_0_0},
 };
 // T Parse.ParseQuery`1::<FirstOrDefaultAsync>b__35(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-extern const MethodInfo ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m8124_MethodInfo = 
+extern const MethodInfo ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m8125_MethodInfo = 
 {
 	"<FirstOrDefaultAsync>b__35"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2192_gp_0_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m8124_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m8125_ParameterInfos/* parameters */
 	, 418/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -5000,19 +5000,19 @@ extern const MethodInfo ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m8124_Method
 
 };
 extern const Il2CppType Task_1_t2517_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_U3CFirstAsyncU3Eb__36_m8125_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_U3CFirstAsyncU3Eb__36_m8126_ParameterInfos[] = 
 {
 	{"t", 0, 134218685, 0, &Task_1_t2517_0_0_0},
 };
 // T Parse.ParseQuery`1::<FirstAsync>b__36(System.Threading.Tasks.Task`1<T>)
-extern const MethodInfo ParseQuery_1_U3CFirstAsyncU3Eb__36_m8125_MethodInfo = 
+extern const MethodInfo ParseQuery_1_U3CFirstAsyncU3Eb__36_m8126_MethodInfo = 
 {
 	"<FirstAsync>b__36"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2192_gp_0_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_U3CFirstAsyncU3Eb__36_m8125_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_U3CFirstAsyncU3Eb__36_m8126_ParameterInfos/* parameters */
 	, 419/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -5027,19 +5027,19 @@ extern const MethodInfo ParseQuery_1_U3CFirstAsyncU3Eb__36_m8125_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t1385_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_U3CCountAsyncU3Eb__38_m8126_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_U3CCountAsyncU3Eb__38_m8127_ParameterInfos[] = 
 {
 	{"t", 0, 134218686, 0, &Task_1_t1385_0_0_0},
 };
 // System.Int32 Parse.ParseQuery`1::<CountAsync>b__38(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-extern const MethodInfo ParseQuery_1_U3CCountAsyncU3Eb__38_m8126_MethodInfo = 
+extern const MethodInfo ParseQuery_1_U3CCountAsyncU3Eb__38_m8127_MethodInfo = 
 {
 	"<CountAsync>b__38"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_U3CCountAsyncU3Eb__38_m8126_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_U3CCountAsyncU3Eb__38_m8127_ParameterInfos/* parameters */
 	, 420/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -5054,19 +5054,19 @@ extern const MethodInfo ParseQuery_1_U3CCountAsyncU3Eb__38_m8126_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t2516_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_U3CGetAsyncU3Eb__3a_m8127_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_U3CGetAsyncU3Eb__3a_m8128_ParameterInfos[] = 
 {
 	{"t", 0, 134218687, 0, &Task_1_t2516_0_0_0},
 };
 // T Parse.ParseQuery`1::<GetAsync>b__3a(System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<T>>)
-extern const MethodInfo ParseQuery_1_U3CGetAsyncU3Eb__3a_m8127_MethodInfo = 
+extern const MethodInfo ParseQuery_1_U3CGetAsyncU3Eb__3a_m8128_MethodInfo = 
 {
 	"<GetAsync>b__3a"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2192_gp_0_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_U3CGetAsyncU3Eb__3a_m8127_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_U3CGetAsyncU3Eb__3a_m8128_ParameterInfos/* parameters */
 	, 421/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -5081,19 +5081,19 @@ extern const MethodInfo ParseQuery_1_U3CGetAsyncU3Eb__3a_m8127_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m8128_ParameterInfos[] = 
+static const ParameterInfo ParseQuery_1_t2192_ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m8129_ParameterInfos[] = 
 {
 	{"item", 0, 134218688, 0, &Object_t_0_0_0},
 };
 // T Parse.ParseQuery`1::<PrepareObjectsFromResults>b__3c(System.Object)
-extern const MethodInfo ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m8128_MethodInfo = 
+extern const MethodInfo ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m8129_MethodInfo = 
 {
 	"<PrepareObjectsFromResults>b__3c"/* name */
 	, NULL/* method */
 	, &ParseQuery_1_t2192_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t2192_gp_0_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseQuery_1_t2192_ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m8128_ParameterInfos/* parameters */
+	, ParseQuery_1_t2192_ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m8129_ParameterInfos/* parameters */
 	, 422/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -5109,80 +5109,80 @@ extern const MethodInfo ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m8128_
 };
 static const MethodInfo* ParseQuery_1_t2192_MethodInfos[] =
 {
-	&ParseQuery_1__ctor_m8063_MethodInfo,
-	&ParseQuery_1_MergeIncludes_m8064_MethodInfo,
-	&ParseQuery_1_MergeSelectedKeys_m8065_MethodInfo,
-	&ParseQuery_1_MergeWhereClauses_m8066_MethodInfo,
-	&ParseQuery_1__ctor_m8067_MethodInfo,
+	&ParseQuery_1__ctor_m8064_MethodInfo,
+	&ParseQuery_1_MergeIncludes_m8065_MethodInfo,
+	&ParseQuery_1_MergeSelectedKeys_m8066_MethodInfo,
+	&ParseQuery_1_MergeWhereClauses_m8067_MethodInfo,
 	&ParseQuery_1__ctor_m8068_MethodInfo,
-	&ParseQuery_1_Or_m8069_MethodInfo,
-	&ParseQuery_1_OrderBy_m8070_MethodInfo,
-	&ParseQuery_1_OrderByDescending_m8071_MethodInfo,
-	&ParseQuery_1_ThenBy_m8072_MethodInfo,
-	&ParseQuery_1_ThenByDescending_m8073_MethodInfo,
-	&ParseQuery_1_Include_m8074_MethodInfo,
-	&ParseQuery_1_Select_m8075_MethodInfo,
-	&ParseQuery_1_Skip_m8076_MethodInfo,
-	&ParseQuery_1_Limit_m8077_MethodInfo,
-	&ParseQuery_1_WhereContainedIn_m8078_MethodInfo,
-	&ParseQuery_1_WhereContainsAll_m8079_MethodInfo,
-	&ParseQuery_1_WhereContains_m8080_MethodInfo,
-	&ParseQuery_1_WhereDoesNotExist_m8081_MethodInfo,
-	&ParseQuery_1_WhereDoesNotMatchQuery_m8082_MethodInfo,
-	&ParseQuery_1_WhereEndsWith_m8083_MethodInfo,
-	&ParseQuery_1_WhereEqualTo_m8084_MethodInfo,
-	&ParseQuery_1_WhereExists_m8085_MethodInfo,
-	&ParseQuery_1_WhereGreaterThan_m8086_MethodInfo,
-	&ParseQuery_1_WhereGreaterThanOrEqualTo_m8087_MethodInfo,
-	&ParseQuery_1_WhereLessThan_m8088_MethodInfo,
-	&ParseQuery_1_WhereLessThanOrEqualTo_m8089_MethodInfo,
-	&ParseQuery_1_WhereMatches_m8090_MethodInfo,
+	&ParseQuery_1__ctor_m8069_MethodInfo,
+	&ParseQuery_1_Or_m8070_MethodInfo,
+	&ParseQuery_1_OrderBy_m8071_MethodInfo,
+	&ParseQuery_1_OrderByDescending_m8072_MethodInfo,
+	&ParseQuery_1_ThenBy_m8073_MethodInfo,
+	&ParseQuery_1_ThenByDescending_m8074_MethodInfo,
+	&ParseQuery_1_Include_m8075_MethodInfo,
+	&ParseQuery_1_Select_m8076_MethodInfo,
+	&ParseQuery_1_Skip_m8077_MethodInfo,
+	&ParseQuery_1_Limit_m8078_MethodInfo,
+	&ParseQuery_1_WhereContainedIn_m8079_MethodInfo,
+	&ParseQuery_1_WhereContainsAll_m8080_MethodInfo,
+	&ParseQuery_1_WhereContains_m8081_MethodInfo,
+	&ParseQuery_1_WhereDoesNotExist_m8082_MethodInfo,
+	&ParseQuery_1_WhereDoesNotMatchQuery_m8083_MethodInfo,
+	&ParseQuery_1_WhereEndsWith_m8084_MethodInfo,
+	&ParseQuery_1_WhereEqualTo_m8085_MethodInfo,
+	&ParseQuery_1_WhereExists_m8086_MethodInfo,
+	&ParseQuery_1_WhereGreaterThan_m8087_MethodInfo,
+	&ParseQuery_1_WhereGreaterThanOrEqualTo_m8088_MethodInfo,
+	&ParseQuery_1_WhereLessThan_m8089_MethodInfo,
+	&ParseQuery_1_WhereLessThanOrEqualTo_m8090_MethodInfo,
 	&ParseQuery_1_WhereMatches_m8091_MethodInfo,
 	&ParseQuery_1_WhereMatches_m8092_MethodInfo,
 	&ParseQuery_1_WhereMatches_m8093_MethodInfo,
-	&ParseQuery_1_WhereMatchesKeyInQuery_m8094_MethodInfo,
-	&ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8095_MethodInfo,
-	&ParseQuery_1_WhereMatchesQuery_m8096_MethodInfo,
-	&ParseQuery_1_WhereNear_m8097_MethodInfo,
-	&ParseQuery_1_WhereNotContainedIn_m8098_MethodInfo,
-	&ParseQuery_1_WhereNotEqualTo_m8099_MethodInfo,
-	&ParseQuery_1_WhereStartsWith_m8100_MethodInfo,
-	&ParseQuery_1_WhereWithinGeoBox_m8101_MethodInfo,
-	&ParseQuery_1_WhereWithinDistance_m8102_MethodInfo,
-	&ParseQuery_1_FindAsync_m8103_MethodInfo,
+	&ParseQuery_1_WhereMatches_m8094_MethodInfo,
+	&ParseQuery_1_WhereMatchesKeyInQuery_m8095_MethodInfo,
+	&ParseQuery_1_WhereDoesNotMatchesKeyInQuery_m8096_MethodInfo,
+	&ParseQuery_1_WhereMatchesQuery_m8097_MethodInfo,
+	&ParseQuery_1_WhereNear_m8098_MethodInfo,
+	&ParseQuery_1_WhereNotContainedIn_m8099_MethodInfo,
+	&ParseQuery_1_WhereNotEqualTo_m8100_MethodInfo,
+	&ParseQuery_1_WhereStartsWith_m8101_MethodInfo,
+	&ParseQuery_1_WhereWithinGeoBox_m8102_MethodInfo,
+	&ParseQuery_1_WhereWithinDistance_m8103_MethodInfo,
 	&ParseQuery_1_FindAsync_m8104_MethodInfo,
-	&ParseQuery_1_FirstOrDefaultAsync_m8105_MethodInfo,
+	&ParseQuery_1_FindAsync_m8105_MethodInfo,
 	&ParseQuery_1_FirstOrDefaultAsync_m8106_MethodInfo,
-	&ParseQuery_1_FirstAsync_m8107_MethodInfo,
+	&ParseQuery_1_FirstOrDefaultAsync_m8107_MethodInfo,
 	&ParseQuery_1_FirstAsync_m8108_MethodInfo,
-	&ParseQuery_1_CountAsync_m8109_MethodInfo,
+	&ParseQuery_1_FirstAsync_m8109_MethodInfo,
 	&ParseQuery_1_CountAsync_m8110_MethodInfo,
-	&ParseQuery_1_GetAsync_m8111_MethodInfo,
+	&ParseQuery_1_CountAsync_m8111_MethodInfo,
 	&ParseQuery_1_GetAsync_m8112_MethodInfo,
-	&ParseQuery_1_CreateParseObjectFromQueryResult_m8113_MethodInfo,
-	&ParseQuery_1_PrepareObjectsFromResults_m8114_MethodInfo,
-	&ParseQuery_1_GetConstraint_m8115_MethodInfo,
-	&ParseQuery_1_BuildParameters_m8116_MethodInfo,
-	&ParseQuery_1_RegexQuote_m8117_MethodInfo,
-	&ParseQuery_1_GetRegexOptions_m8118_MethodInfo,
-	&ParseQuery_1_EncodeRegex_m8119_MethodInfo,
-	&ParseQuery_1_WhereRelatedTo_m8120_MethodInfo,
-	&ParseQuery_1_get_JsonString_m8121_MethodInfo,
-	&ParseQuery_1_EnsureNotInstallationQuery_m8122_MethodInfo,
-	&ParseQuery_1_U3CFindAsyncU3Eb__34_m8123_MethodInfo,
-	&ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m8124_MethodInfo,
-	&ParseQuery_1_U3CFirstAsyncU3Eb__36_m8125_MethodInfo,
-	&ParseQuery_1_U3CCountAsyncU3Eb__38_m8126_MethodInfo,
-	&ParseQuery_1_U3CGetAsyncU3Eb__3a_m8127_MethodInfo,
-	&ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m8128_MethodInfo,
+	&ParseQuery_1_GetAsync_m8113_MethodInfo,
+	&ParseQuery_1_CreateParseObjectFromQueryResult_m8114_MethodInfo,
+	&ParseQuery_1_PrepareObjectsFromResults_m8115_MethodInfo,
+	&ParseQuery_1_GetConstraint_m8116_MethodInfo,
+	&ParseQuery_1_BuildParameters_m8117_MethodInfo,
+	&ParseQuery_1_RegexQuote_m8118_MethodInfo,
+	&ParseQuery_1_GetRegexOptions_m8119_MethodInfo,
+	&ParseQuery_1_EncodeRegex_m8120_MethodInfo,
+	&ParseQuery_1_WhereRelatedTo_m8121_MethodInfo,
+	&ParseQuery_1_get_JsonString_m8122_MethodInfo,
+	&ParseQuery_1_EnsureNotInstallationQuery_m8123_MethodInfo,
+	&ParseQuery_1_U3CFindAsyncU3Eb__34_m8124_MethodInfo,
+	&ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m8125_MethodInfo,
+	&ParseQuery_1_U3CFirstAsyncU3Eb__36_m8126_MethodInfo,
+	&ParseQuery_1_U3CCountAsyncU3Eb__38_m8127_MethodInfo,
+	&ParseQuery_1_U3CGetAsyncU3Eb__3a_m8128_MethodInfo,
+	&ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m8129_MethodInfo,
 	NULL
 };
-extern const MethodInfo ParseQuery_1_get_JsonString_m8121_MethodInfo;
+extern const MethodInfo ParseQuery_1_get_JsonString_m8122_MethodInfo;
 static const PropertyInfo ParseQuery_1_t2192____JsonString_PropertyInfo = 
 {
 	&ParseQuery_1_t2192_il2cpp_TypeInfo/* parent */
 	, "JsonString"/* name */
-	, &ParseQuery_1_get_JsonString_m8121_MethodInfo/* get */
+	, &ParseQuery_1_get_JsonString_m8122_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -5207,108 +5207,108 @@ static bool ParseQuery_1_t2192_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod ParseQuery_1_MergeWhereClauses_m8477_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_MergeIncludes_m8478_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_MergeSelectedKeys_m8479_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1__ctor_m8480_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_BuildParameters_m8481_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1__ctor_m8482_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_RegexQuote_m8483_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_EncodeRegex_m8484_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_WhereMatches_m8485_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_MergeWhereClauses_m8478_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_MergeIncludes_m8479_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_MergeSelectedKeys_m8480_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1__ctor_m8481_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_BuildParameters_m8482_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1__ctor_m8483_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_RegexQuote_m8484_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_EncodeRegex_m8485_GenericMethod;
 extern const Il2CppGenericMethod ParseQuery_1_WhereMatches_m8486_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_WhereNear_m8487_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_FindAsync_m8488_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_EnsureNotInstallationQuery_m8489_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_U3CFindAsyncU3Eb__34_m8490_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereMatches_m8487_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereNear_m8488_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_FindAsync_m8489_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_EnsureNotInstallationQuery_m8490_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_U3CFindAsyncU3Eb__34_m8491_GenericMethod;
 extern const Il2CppType Func_2_t2519_0_0_0;
-extern const Il2CppGenericMethod Func_2__ctor_m8491_GenericMethod;
-extern const Il2CppGenericMethod InternalExtensions_OnSuccess_TisTuple_2_t1249_TisIEnumerable_1_t2518_m8492_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_FirstOrDefaultAsync_m8493_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m8494_GenericMethod;
+extern const Il2CppGenericMethod Func_2__ctor_m8492_GenericMethod;
+extern const Il2CppGenericMethod InternalExtensions_OnSuccess_TisTuple_2_t1249_TisIEnumerable_1_t2518_m8493_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_FirstOrDefaultAsync_m8494_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m8495_GenericMethod;
 extern const Il2CppType Func_2_t2520_0_0_0;
-extern const Il2CppGenericMethod Func_2__ctor_m8495_GenericMethod;
-extern const Il2CppGenericMethod InternalExtensions_OnSuccess_TisTuple_2_t1249_TisT_t2499_m8496_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_FirstAsync_m8497_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_U3CFirstAsyncU3Eb__36_m8498_GenericMethod;
+extern const Il2CppGenericMethod Func_2__ctor_m8496_GenericMethod;
+extern const Il2CppGenericMethod InternalExtensions_OnSuccess_TisTuple_2_t1249_TisT_t2499_m8497_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_FirstAsync_m8498_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_U3CFirstAsyncU3Eb__36_m8499_GenericMethod;
 extern const Il2CppType Func_2_t2521_0_0_0;
-extern const Il2CppGenericMethod Func_2__ctor_m8499_GenericMethod;
-extern const Il2CppGenericMethod InternalExtensions_OnSuccess_TisT_t2499_TisT_t2499_m8500_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_CountAsync_m8501_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_U3CCountAsyncU3Eb__38_m8502_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_GetAsync_m8503_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_WhereEqualTo_m8504_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_U3CGetAsyncU3Eb__3a_m8505_GenericMethod;
+extern const Il2CppGenericMethod Func_2__ctor_m8500_GenericMethod;
+extern const Il2CppGenericMethod InternalExtensions_OnSuccess_TisT_t2499_TisT_t2499_m8501_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_CountAsync_m8502_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_U3CCountAsyncU3Eb__38_m8503_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_GetAsync_m8504_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereEqualTo_m8505_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_U3CGetAsyncU3Eb__3a_m8506_GenericMethod;
 extern const Il2CppType Func_2_t2522_0_0_0;
-extern const Il2CppGenericMethod Func_2__ctor_m8506_GenericMethod;
-extern const Il2CppGenericMethod InternalExtensions_OnSuccess_TisIEnumerable_1_t2518_TisT_t2499_m8507_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m8508_GenericMethod;
+extern const Il2CppGenericMethod Func_2__ctor_m8507_GenericMethod;
+extern const Il2CppGenericMethod InternalExtensions_OnSuccess_TisIEnumerable_1_t2518_TisT_t2499_m8508_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m8509_GenericMethod;
 extern const Il2CppType Func_2_t2523_0_0_0;
-extern const Il2CppGenericMethod Func_2__ctor_m8509_GenericMethod;
-extern const Il2CppGenericMethod Enumerable_Select_TisObject_t_TisT_t2499_m8510_GenericMethod;
-extern const Il2CppGenericMethod Enumerable_ToList_TisT_t2499_m8511_GenericMethod;
+extern const Il2CppGenericMethod Func_2__ctor_m8510_GenericMethod;
+extern const Il2CppGenericMethod Enumerable_Select_TisObject_t_TisT_t2499_m8511_GenericMethod;
+extern const Il2CppGenericMethod Enumerable_ToList_TisT_t2499_m8512_GenericMethod;
 extern const Il2CppType ReadOnlyCollection_1_t2524_0_0_0;
-extern const Il2CppGenericMethod ReadOnlyCollection_1__ctor_m8512_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_GetRegexOptions_m8513_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_PrepareObjectsFromResults_m8514_GenericMethod;
-extern const Il2CppGenericMethod Enumerable_FirstOrDefault_TisT_t2499_m8515_GenericMethod;
-extern const Il2CppGenericMethod Task_1_get_Result_m8516_GenericMethod;
+extern const Il2CppGenericMethod ReadOnlyCollection_1__ctor_m8513_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_GetRegexOptions_m8514_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_PrepareObjectsFromResults_m8515_GenericMethod;
+extern const Il2CppGenericMethod Enumerable_FirstOrDefault_TisT_t2499_m8516_GenericMethod;
 extern const Il2CppGenericMethod Task_1_get_Result_m8517_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_CreateParseObjectFromQueryResult_m8518_GenericMethod;
+extern const Il2CppGenericMethod Task_1_get_Result_m8518_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_CreateParseObjectFromQueryResult_m8519_GenericMethod;
 static Il2CppRGCTXDefinition ParseQuery_1_t2192_RGCTXData[53] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_MergeWhereClauses_m8477_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_MergeIncludes_m8478_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_MergeSelectedKeys_m8479_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_MergeWhereClauses_m8478_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_MergeIncludes_m8479_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_MergeSelectedKeys_m8480_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_TYPE, (void*)&ParseQuery_1_t2192_gp_0_0_0_0 }/* Type */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1__ctor_m8480_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1__ctor_m8481_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&ParseQuery_1_t2500_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_BuildParameters_m8481_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1__ctor_m8482_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_RegexQuote_m8483_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_EncodeRegex_m8484_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereMatches_m8485_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_BuildParameters_m8482_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1__ctor_m8483_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_RegexQuote_m8484_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_EncodeRegex_m8485_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereMatches_m8486_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereNear_m8487_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_FindAsync_m8488_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_EnsureNotInstallationQuery_m8489_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_U3CFindAsyncU3Eb__34_m8490_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereMatches_m8487_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereNear_m8488_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_FindAsync_m8489_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_EnsureNotInstallationQuery_m8490_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_U3CFindAsyncU3Eb__34_m8491_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Func_2_t2519_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8491_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &InternalExtensions_OnSuccess_TisTuple_2_t1249_TisIEnumerable_1_t2518_m8492_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_FirstOrDefaultAsync_m8493_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m8494_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8492_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &InternalExtensions_OnSuccess_TisTuple_2_t1249_TisIEnumerable_1_t2518_m8493_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_FirstOrDefaultAsync_m8494_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m8495_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Func_2_t2520_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8495_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &InternalExtensions_OnSuccess_TisTuple_2_t1249_TisT_t2499_m8496_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_FirstAsync_m8497_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8496_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &InternalExtensions_OnSuccess_TisTuple_2_t1249_TisT_t2499_m8497_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_FirstAsync_m8498_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&ParseQuery_1_t2500_0_0_0 }/* Static */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_U3CFirstAsyncU3Eb__36_m8498_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_U3CFirstAsyncU3Eb__36_m8499_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Func_2_t2521_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8499_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &InternalExtensions_OnSuccess_TisT_t2499_TisT_t2499_m8500_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_CountAsync_m8501_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_U3CCountAsyncU3Eb__38_m8502_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_GetAsync_m8503_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereEqualTo_m8504_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_U3CGetAsyncU3Eb__3a_m8505_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8500_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &InternalExtensions_OnSuccess_TisT_t2499_TisT_t2499_m8501_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_CountAsync_m8502_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_U3CCountAsyncU3Eb__38_m8503_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_GetAsync_m8504_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereEqualTo_m8505_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_U3CGetAsyncU3Eb__3a_m8506_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Func_2_t2522_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8506_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &InternalExtensions_OnSuccess_TisIEnumerable_1_t2518_TisT_t2499_m8507_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8507_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &InternalExtensions_OnSuccess_TisIEnumerable_1_t2518_TisT_t2499_m8508_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&ParseQuery_1_t2192_gp_0_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m8508_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m8509_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Func_2_t2523_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8509_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_Select_TisObject_t_TisT_t2499_m8510_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_ToList_TisT_t2499_m8511_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8510_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_Select_TisObject_t_TisT_t2499_m8511_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_ToList_TisT_t2499_m8512_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&ReadOnlyCollection_1_t2524_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ReadOnlyCollection_1__ctor_m8512_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_GetRegexOptions_m8513_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_PrepareObjectsFromResults_m8514_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_FirstOrDefault_TisT_t2499_m8515_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m8516_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ReadOnlyCollection_1__ctor_m8513_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_GetRegexOptions_m8514_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_PrepareObjectsFromResults_m8515_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_FirstOrDefault_TisT_t2499_m8516_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m8517_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_CreateParseObjectFromQueryResult_m8518_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m8518_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_CreateParseObjectFromQueryResult_m8519_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -5390,10 +5390,10 @@ extern TypeInfo U3CU3Ec__DisplayClass1_t1296_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseRelationBase_U3CU3Ec__DisplayClass1MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseRelationBase/<>c__DisplayClass1::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass1__ctor_m6980_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1__ctor_m6981_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass1__ctor_m6980/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass1__ctor_m6981/* method */
 	, &U3CU3Ec__DisplayClass1_t1296_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -5413,7 +5413,7 @@ extern const MethodInfo U3CU3Ec__DisplayClass1__ctor_m6980_MethodInfo =
 };
 static const MethodInfo* U3CU3Ec__DisplayClass1_t1296_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass1__ctor_m6980_MethodInfo,
+	&U3CU3Ec__DisplayClass1__ctor_m6981_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass1_t1296_VTable[] =
@@ -5510,21 +5510,21 @@ TypeInfo U3CU3Ec__DisplayClass1_t1296_il2cpp_TypeInfo =
 #include "Parse_Unity_Parse_ParseRelationBaseMethodDeclarations.h"
 extern const Il2CppType ParseObject_t1219_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase__ctor_m6981_ParameterInfos[] = 
+static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase__ctor_m6982_ParameterInfos[] = 
 {
 	{"parent", 0, 134218689, 0, &ParseObject_t1219_0_0_0},
 	{"key", 1, 134218690, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseRelationBase::.ctor(Parse.ParseObject,System.String)
-extern const MethodInfo ParseRelationBase__ctor_m6981_MethodInfo = 
+extern const MethodInfo ParseRelationBase__ctor_m6982_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ParseRelationBase__ctor_m6981/* method */
+	, (methodPointerType)&ParseRelationBase__ctor_m6982/* method */
 	, &ParseRelationBase_t1297_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ParseRelationBase_t1297_ParseRelationBase__ctor_m6981_ParameterInfos/* parameters */
+	, ParseRelationBase_t1297_ParseRelationBase__ctor_m6982_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -5541,7 +5541,7 @@ extern const MethodInfo ParseRelationBase__ctor_m6981_MethodInfo =
 extern const Il2CppType ParseObject_t1219_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase__ctor_m6982_ParameterInfos[] = 
+static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase__ctor_m6983_ParameterInfos[] = 
 {
 	{"parent", 0, 134218691, 0, &ParseObject_t1219_0_0_0},
 	{"key", 1, 134218692, 0, &String_t_0_0_0},
@@ -5549,14 +5549,14 @@ static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase__ctor_m6982
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseRelationBase::.ctor(Parse.ParseObject,System.String,System.String)
-extern const MethodInfo ParseRelationBase__ctor_m6982_MethodInfo = 
+extern const MethodInfo ParseRelationBase__ctor_m6983_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ParseRelationBase__ctor_m6982/* method */
+	, (methodPointerType)&ParseRelationBase__ctor_m6983/* method */
 	, &ParseRelationBase_t1297_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t/* invoker_method */
-	, ParseRelationBase_t1297_ParseRelationBase__ctor_m6982_ParameterInfos/* parameters */
+	, ParseRelationBase_t1297_ParseRelationBase__ctor_m6983_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -5572,21 +5572,21 @@ extern const MethodInfo ParseRelationBase__ctor_m6982_MethodInfo =
 };
 extern const Il2CppType ParseObject_t1219_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase_EnsureParentAndKey_m6983_ParameterInfos[] = 
+static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase_EnsureParentAndKey_m6984_ParameterInfos[] = 
 {
 	{"parent", 0, 134218694, 0, &ParseObject_t1219_0_0_0},
 	{"key", 1, 134218695, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseRelationBase::EnsureParentAndKey(Parse.ParseObject,System.String)
-extern const MethodInfo ParseRelationBase_EnsureParentAndKey_m6983_MethodInfo = 
+extern const MethodInfo ParseRelationBase_EnsureParentAndKey_m6984_MethodInfo = 
 {
 	"EnsureParentAndKey"/* name */
-	, (methodPointerType)&ParseRelationBase_EnsureParentAndKey_m6983/* method */
+	, (methodPointerType)&ParseRelationBase_EnsureParentAndKey_m6984/* method */
 	, &ParseRelationBase_t1297_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ParseRelationBase_t1297_ParseRelationBase_EnsureParentAndKey_m6983_ParameterInfos/* parameters */
+	, ParseRelationBase_t1297_ParseRelationBase_EnsureParentAndKey_m6984_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -5601,20 +5601,20 @@ extern const MethodInfo ParseRelationBase_EnsureParentAndKey_m6983_MethodInfo =
 
 };
 extern const Il2CppType ParseObject_t1219_0_0_0;
-static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase_Add_m6984_ParameterInfos[] = 
+static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase_Add_m6985_ParameterInfos[] = 
 {
 	{"obj", 0, 134218696, 0, &ParseObject_t1219_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseRelationBase::Add(Parse.ParseObject)
-extern const MethodInfo ParseRelationBase_Add_m6984_MethodInfo = 
+extern const MethodInfo ParseRelationBase_Add_m6985_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&ParseRelationBase_Add_m6984/* method */
+	, (methodPointerType)&ParseRelationBase_Add_m6985/* method */
 	, &ParseRelationBase_t1297_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseRelationBase_t1297_ParseRelationBase_Add_m6984_ParameterInfos/* parameters */
+	, ParseRelationBase_t1297_ParseRelationBase_Add_m6985_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -5629,20 +5629,20 @@ extern const MethodInfo ParseRelationBase_Add_m6984_MethodInfo =
 
 };
 extern const Il2CppType ParseObject_t1219_0_0_0;
-static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase_Remove_m6985_ParameterInfos[] = 
+static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase_Remove_m6986_ParameterInfos[] = 
 {
 	{"obj", 0, 134218697, 0, &ParseObject_t1219_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseRelationBase::Remove(Parse.ParseObject)
-extern const MethodInfo ParseRelationBase_Remove_m6985_MethodInfo = 
+extern const MethodInfo ParseRelationBase_Remove_m6986_MethodInfo = 
 {
 	"Remove"/* name */
-	, (methodPointerType)&ParseRelationBase_Remove_m6985/* method */
+	, (methodPointerType)&ParseRelationBase_Remove_m6986/* method */
 	, &ParseRelationBase_t1297_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseRelationBase_t1297_ParseRelationBase_Remove_m6985_ParameterInfos/* parameters */
+	, ParseRelationBase_t1297_ParseRelationBase_Remove_m6986_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -5658,10 +5658,10 @@ extern const MethodInfo ParseRelationBase_Remove_m6985_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseRelationBase::ToJSON()
-extern const MethodInfo ParseRelationBase_ToJSON_m6986_MethodInfo = 
+extern const MethodInfo ParseRelationBase_ToJSON_m6987_MethodInfo = 
 {
 	"ToJSON"/* name */
-	, (methodPointerType)&ParseRelationBase_ToJSON_m6986/* method */
+	, (methodPointerType)&ParseRelationBase_ToJSON_m6987/* method */
 	, &ParseRelationBase_t1297_il2cpp_TypeInfo/* declaring_type */
 	, &IDictionary_2_t820_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -5680,29 +5680,29 @@ extern const MethodInfo ParseRelationBase_ToJSON_m6986_MethodInfo =
 
 };
 extern const Il2CppType ParseQuery_1_t2525_0_0_0;
-extern const Il2CppGenericContainer ParseRelationBase_GetQuery_m8130_Il2CppGenericContainer;
-extern TypeInfo ParseRelationBase_GetQuery_m8130_gp_T_0_il2cpp_TypeInfo;
-static const Il2CppType* ParseRelationBase_GetQuery_m8130_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
+extern const Il2CppGenericContainer ParseRelationBase_GetQuery_m8131_Il2CppGenericContainer;
+extern TypeInfo ParseRelationBase_GetQuery_m8131_gp_T_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseRelationBase_GetQuery_m8131_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
 &ParseObject_t1219_0_0_0 /* Parse.ParseObject */, 
  NULL };
-extern const Il2CppGenericParameter ParseRelationBase_GetQuery_m8130_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &ParseRelationBase_GetQuery_m8130_Il2CppGenericContainer, ParseRelationBase_GetQuery_m8130_gp_T_0_il2cpp_TypeInfo_constraints, "T", 0, 0 };
-static const Il2CppGenericParameter* ParseRelationBase_GetQuery_m8130_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericParameter ParseRelationBase_GetQuery_m8131_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &ParseRelationBase_GetQuery_m8131_Il2CppGenericContainer, ParseRelationBase_GetQuery_m8131_gp_T_0_il2cpp_TypeInfo_constraints, "T", 0, 0 };
+static const Il2CppGenericParameter* ParseRelationBase_GetQuery_m8131_Il2CppGenericParametersArray[1] = 
 {
-	&ParseRelationBase_GetQuery_m8130_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseRelationBase_GetQuery_m8131_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo ParseRelationBase_GetQuery_m8130_MethodInfo;
-extern const Il2CppGenericContainer ParseRelationBase_GetQuery_m8130_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseRelationBase_GetQuery_m8130_MethodInfo, 1, 1, ParseRelationBase_GetQuery_m8130_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod ParseQuery_1__ctor_m8519_GenericMethod;
-extern const Il2CppGenericMethod ParseQuery_1_WhereRelatedTo_m8520_GenericMethod;
-static Il2CppRGCTXDefinition ParseRelationBase_GetQuery_m8130_RGCTXData[4] = 
+extern const MethodInfo ParseRelationBase_GetQuery_m8131_MethodInfo;
+extern const Il2CppGenericContainer ParseRelationBase_GetQuery_m8131_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseRelationBase_GetQuery_m8131_MethodInfo, 1, 1, ParseRelationBase_GetQuery_m8131_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseQuery_1__ctor_m8520_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereRelatedTo_m8521_GenericMethod;
+static Il2CppRGCTXDefinition ParseRelationBase_GetQuery_m8131_RGCTXData[4] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&ParseQuery_1_t2525_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1__ctor_m8519_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereRelatedTo_m8520_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1__ctor_m8520_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereRelatedTo_m8521_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // Parse.ParseQuery`1<T> Parse.ParseRelationBase::GetQuery()
-extern const MethodInfo ParseRelationBase_GetQuery_m8130_MethodInfo = 
+extern const MethodInfo ParseRelationBase_GetQuery_m8131_MethodInfo = 
 {
 	"GetQuery"/* name */
 	, NULL/* method */
@@ -5718,17 +5718,17 @@ extern const MethodInfo ParseRelationBase_GetQuery_m8130_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 920/* token */
-	, ParseRelationBase_GetQuery_m8130_RGCTXData/* rgctx_data */
+	, ParseRelationBase_GetQuery_m8131_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &ParseRelationBase_GetQuery_m8130_Il2CppGenericContainer/* genericContainer */
+	, &ParseRelationBase_GetQuery_m8131_Il2CppGenericContainer/* genericContainer */
 
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseRelationBase::get_TargetClassName()
-extern const MethodInfo ParseRelationBase_get_TargetClassName_m6987_MethodInfo = 
+extern const MethodInfo ParseRelationBase_get_TargetClassName_m6988_MethodInfo = 
 {
 	"get_TargetClassName"/* name */
-	, (methodPointerType)&ParseRelationBase_get_TargetClassName_m6987/* method */
+	, (methodPointerType)&ParseRelationBase_get_TargetClassName_m6988/* method */
 	, &ParseRelationBase_t1297_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -5747,20 +5747,20 @@ extern const MethodInfo ParseRelationBase_get_TargetClassName_m6987_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase_set_TargetClassName_m6988_ParameterInfos[] = 
+static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase_set_TargetClassName_m6989_ParameterInfos[] = 
 {
 	{"value", 0, 134218698, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseRelationBase::set_TargetClassName(System.String)
-extern const MethodInfo ParseRelationBase_set_TargetClassName_m6988_MethodInfo = 
+extern const MethodInfo ParseRelationBase_set_TargetClassName_m6989_MethodInfo = 
 {
 	"set_TargetClassName"/* name */
-	, (methodPointerType)&ParseRelationBase_set_TargetClassName_m6988/* method */
+	, (methodPointerType)&ParseRelationBase_set_TargetClassName_m6989/* method */
 	, &ParseRelationBase_t1297_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseRelationBase_t1297_ParseRelationBase_set_TargetClassName_m6988_ParameterInfos/* parameters */
+	, ParseRelationBase_t1297_ParseRelationBase_set_TargetClassName_m6989_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -5777,7 +5777,7 @@ extern const MethodInfo ParseRelationBase_set_TargetClassName_m6988_MethodInfo =
 extern const Il2CppType ParseObject_t1219_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase_CreateRelation_m6989_ParameterInfos[] = 
+static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase_CreateRelation_m6990_ParameterInfos[] = 
 {
 	{"parent", 0, 134218699, 0, &ParseObject_t1219_0_0_0},
 	{"key", 1, 134218700, 0, &String_t_0_0_0},
@@ -5785,14 +5785,14 @@ static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase_CreateRelat
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseRelationBase Parse.ParseRelationBase::CreateRelation(Parse.ParseObject,System.String,System.String)
-extern const MethodInfo ParseRelationBase_CreateRelation_m6989_MethodInfo = 
+extern const MethodInfo ParseRelationBase_CreateRelation_m6990_MethodInfo = 
 {
 	"CreateRelation"/* name */
-	, (methodPointerType)&ParseRelationBase_CreateRelation_m6989/* method */
+	, (methodPointerType)&ParseRelationBase_CreateRelation_m6990/* method */
 	, &ParseRelationBase_t1297_il2cpp_TypeInfo/* declaring_type */
 	, &ParseRelationBase_t1297_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, ParseRelationBase_t1297_ParseRelationBase_CreateRelation_m6989_ParameterInfos/* parameters */
+	, ParseRelationBase_t1297_ParseRelationBase_CreateRelation_m6990_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -5809,41 +5809,41 @@ extern const MethodInfo ParseRelationBase_CreateRelation_m6989_MethodInfo =
 extern const Il2CppType ParseObject_t1219_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase_CreateRelation_m8131_ParameterInfos[] = 
+static const ParameterInfo ParseRelationBase_t1297_ParseRelationBase_CreateRelation_m8132_ParameterInfos[] = 
 {
 	{"parent", 0, 134218702, 0, &ParseObject_t1219_0_0_0},
 	{"key", 1, 134218703, 0, &String_t_0_0_0},
 	{"targetClassName", 2, 134218704, 0, &String_t_0_0_0},
 };
 extern const Il2CppType ParseRelation_1_t2527_0_0_0;
-extern const Il2CppGenericContainer ParseRelationBase_CreateRelation_m8131_Il2CppGenericContainer;
-extern TypeInfo ParseRelationBase_CreateRelation_m8131_gp_T_0_il2cpp_TypeInfo;
-static const Il2CppType* ParseRelationBase_CreateRelation_m8131_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
+extern const Il2CppGenericContainer ParseRelationBase_CreateRelation_m8132_Il2CppGenericContainer;
+extern TypeInfo ParseRelationBase_CreateRelation_m8132_gp_T_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseRelationBase_CreateRelation_m8132_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
 &ParseObject_t1219_0_0_0 /* Parse.ParseObject */, 
  NULL };
-extern const Il2CppGenericParameter ParseRelationBase_CreateRelation_m8131_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &ParseRelationBase_CreateRelation_m8131_Il2CppGenericContainer, ParseRelationBase_CreateRelation_m8131_gp_T_0_il2cpp_TypeInfo_constraints, "T", 0, 0 };
-static const Il2CppGenericParameter* ParseRelationBase_CreateRelation_m8131_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericParameter ParseRelationBase_CreateRelation_m8132_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &ParseRelationBase_CreateRelation_m8132_Il2CppGenericContainer, ParseRelationBase_CreateRelation_m8132_gp_T_0_il2cpp_TypeInfo_constraints, "T", 0, 0 };
+static const Il2CppGenericParameter* ParseRelationBase_CreateRelation_m8132_Il2CppGenericParametersArray[1] = 
 {
-	&ParseRelationBase_CreateRelation_m8131_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseRelationBase_CreateRelation_m8132_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo ParseRelationBase_CreateRelation_m8131_MethodInfo;
-extern const Il2CppGenericContainer ParseRelationBase_CreateRelation_m8131_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseRelationBase_CreateRelation_m8131_MethodInfo, 1, 1, ParseRelationBase_CreateRelation_m8131_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod ParseRelation_1__ctor_m8521_GenericMethod;
-static Il2CppRGCTXDefinition ParseRelationBase_CreateRelation_m8131_RGCTXData[3] = 
+extern const MethodInfo ParseRelationBase_CreateRelation_m8132_MethodInfo;
+extern const Il2CppGenericContainer ParseRelationBase_CreateRelation_m8132_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseRelationBase_CreateRelation_m8132_MethodInfo, 1, 1, ParseRelationBase_CreateRelation_m8132_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseRelation_1__ctor_m8522_GenericMethod;
+static Il2CppRGCTXDefinition ParseRelationBase_CreateRelation_m8132_RGCTXData[3] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&ParseRelation_1_t2527_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseRelation_1__ctor_m8521_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseRelation_1__ctor_m8522_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // Parse.ParseRelation`1<T> Parse.ParseRelationBase::CreateRelation(Parse.ParseObject,System.String,System.String)
-extern const MethodInfo ParseRelationBase_CreateRelation_m8131_MethodInfo = 
+extern const MethodInfo ParseRelationBase_CreateRelation_m8132_MethodInfo = 
 {
 	"CreateRelation"/* name */
 	, NULL/* method */
 	, &ParseRelationBase_t1297_il2cpp_TypeInfo/* declaring_type */
 	, &ParseRelation_1_t2527_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseRelationBase_t1297_ParseRelationBase_CreateRelation_m8131_ParameterInfos/* parameters */
+	, ParseRelationBase_t1297_ParseRelationBase_CreateRelation_m8132_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -5852,34 +5852,34 @@ extern const MethodInfo ParseRelationBase_CreateRelation_m8131_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 924/* token */
-	, ParseRelationBase_CreateRelation_m8131_RGCTXData/* rgctx_data */
+	, ParseRelationBase_CreateRelation_m8132_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &ParseRelationBase_CreateRelation_m8131_Il2CppGenericContainer/* genericContainer */
+	, &ParseRelationBase_CreateRelation_m8132_Il2CppGenericContainer/* genericContainer */
 
 };
 static const MethodInfo* ParseRelationBase_t1297_MethodInfos[] =
 {
-	&ParseRelationBase__ctor_m6981_MethodInfo,
 	&ParseRelationBase__ctor_m6982_MethodInfo,
-	&ParseRelationBase_EnsureParentAndKey_m6983_MethodInfo,
-	&ParseRelationBase_Add_m6984_MethodInfo,
-	&ParseRelationBase_Remove_m6985_MethodInfo,
-	&ParseRelationBase_ToJSON_m6986_MethodInfo,
-	&ParseRelationBase_GetQuery_m8130_MethodInfo,
-	&ParseRelationBase_get_TargetClassName_m6987_MethodInfo,
-	&ParseRelationBase_set_TargetClassName_m6988_MethodInfo,
-	&ParseRelationBase_CreateRelation_m6989_MethodInfo,
-	&ParseRelationBase_CreateRelation_m8131_MethodInfo,
+	&ParseRelationBase__ctor_m6983_MethodInfo,
+	&ParseRelationBase_EnsureParentAndKey_m6984_MethodInfo,
+	&ParseRelationBase_Add_m6985_MethodInfo,
+	&ParseRelationBase_Remove_m6986_MethodInfo,
+	&ParseRelationBase_ToJSON_m6987_MethodInfo,
+	&ParseRelationBase_GetQuery_m8131_MethodInfo,
+	&ParseRelationBase_get_TargetClassName_m6988_MethodInfo,
+	&ParseRelationBase_set_TargetClassName_m6989_MethodInfo,
+	&ParseRelationBase_CreateRelation_m6990_MethodInfo,
+	&ParseRelationBase_CreateRelation_m8132_MethodInfo,
 	NULL
 };
-extern const MethodInfo ParseRelationBase_get_TargetClassName_m6987_MethodInfo;
-extern const MethodInfo ParseRelationBase_set_TargetClassName_m6988_MethodInfo;
+extern const MethodInfo ParseRelationBase_get_TargetClassName_m6988_MethodInfo;
+extern const MethodInfo ParseRelationBase_set_TargetClassName_m6989_MethodInfo;
 static const PropertyInfo ParseRelationBase_t1297____TargetClassName_PropertyInfo = 
 {
 	&ParseRelationBase_t1297_il2cpp_TypeInfo/* parent */
 	, "TargetClassName"/* name */
-	, &ParseRelationBase_get_TargetClassName_m6987_MethodInfo/* get */
-	, &ParseRelationBase_set_TargetClassName_m6988_MethodInfo/* set */
+	, &ParseRelationBase_get_TargetClassName_m6988_MethodInfo/* get */
+	, &ParseRelationBase_set_TargetClassName_m6989_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -5992,20 +5992,20 @@ static const Il2CppGenericParameter* ParseRelation_1_t2194_Il2CppGenericParamete
 extern const Il2CppGenericContainer ParseRelation_1_t2194_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseRelation_1_t2194_il2cpp_TypeInfo, 1, 0, ParseRelation_1_t2194_Il2CppGenericParametersArray };
 extern const Il2CppType ParseObject_t1219_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseRelation_1_t2194_ParseRelation_1__ctor_m8132_ParameterInfos[] = 
+static const ParameterInfo ParseRelation_1_t2194_ParseRelation_1__ctor_m8133_ParameterInfos[] = 
 {
 	{"parent", 0, 134218705, 0, &ParseObject_t1219_0_0_0},
 	{"key", 1, 134218706, 0, &String_t_0_0_0},
 };
 // System.Void Parse.ParseRelation`1::.ctor(Parse.ParseObject,System.String)
-extern const MethodInfo ParseRelation_1__ctor_m8132_MethodInfo = 
+extern const MethodInfo ParseRelation_1__ctor_m8133_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &ParseRelation_1_t2194_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseRelation_1_t2194_ParseRelation_1__ctor_m8132_ParameterInfos/* parameters */
+	, ParseRelation_1_t2194_ParseRelation_1__ctor_m8133_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -6022,21 +6022,21 @@ extern const MethodInfo ParseRelation_1__ctor_m8132_MethodInfo =
 extern const Il2CppType ParseObject_t1219_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseRelation_1_t2194_ParseRelation_1__ctor_m8133_ParameterInfos[] = 
+static const ParameterInfo ParseRelation_1_t2194_ParseRelation_1__ctor_m8134_ParameterInfos[] = 
 {
 	{"parent", 0, 134218707, 0, &ParseObject_t1219_0_0_0},
 	{"key", 1, 134218708, 0, &String_t_0_0_0},
 	{"targetClassName", 2, 134218709, 0, &String_t_0_0_0},
 };
 // System.Void Parse.ParseRelation`1::.ctor(Parse.ParseObject,System.String,System.String)
-extern const MethodInfo ParseRelation_1__ctor_m8133_MethodInfo = 
+extern const MethodInfo ParseRelation_1__ctor_m8134_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &ParseRelation_1_t2194_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseRelation_1_t2194_ParseRelation_1__ctor_m8133_ParameterInfos/* parameters */
+	, ParseRelation_1_t2194_ParseRelation_1__ctor_m8134_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -6052,19 +6052,19 @@ extern const MethodInfo ParseRelation_1__ctor_m8133_MethodInfo =
 };
 extern const Il2CppType ParseRelation_1_t2194_gp_0_0_0_0;
 extern const Il2CppType ParseRelation_1_t2194_gp_0_0_0_0;
-static const ParameterInfo ParseRelation_1_t2194_ParseRelation_1_Add_m8134_ParameterInfos[] = 
+static const ParameterInfo ParseRelation_1_t2194_ParseRelation_1_Add_m8135_ParameterInfos[] = 
 {
 	{"obj", 0, 134218710, 0, &ParseRelation_1_t2194_gp_0_0_0_0},
 };
 // System.Void Parse.ParseRelation`1::Add(T)
-extern const MethodInfo ParseRelation_1_Add_m8134_MethodInfo = 
+extern const MethodInfo ParseRelation_1_Add_m8135_MethodInfo = 
 {
 	"Add"/* name */
 	, NULL/* method */
 	, &ParseRelation_1_t2194_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseRelation_1_t2194_ParseRelation_1_Add_m8134_ParameterInfos/* parameters */
+	, ParseRelation_1_t2194_ParseRelation_1_Add_m8135_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6079,19 +6079,19 @@ extern const MethodInfo ParseRelation_1_Add_m8134_MethodInfo =
 
 };
 extern const Il2CppType ParseRelation_1_t2194_gp_0_0_0_0;
-static const ParameterInfo ParseRelation_1_t2194_ParseRelation_1_Remove_m8135_ParameterInfos[] = 
+static const ParameterInfo ParseRelation_1_t2194_ParseRelation_1_Remove_m8136_ParameterInfos[] = 
 {
 	{"obj", 0, 134218711, 0, &ParseRelation_1_t2194_gp_0_0_0_0},
 };
 // System.Void Parse.ParseRelation`1::Remove(T)
-extern const MethodInfo ParseRelation_1_Remove_m8135_MethodInfo = 
+extern const MethodInfo ParseRelation_1_Remove_m8136_MethodInfo = 
 {
 	"Remove"/* name */
 	, NULL/* method */
 	, &ParseRelation_1_t2194_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ParseRelation_1_t2194_ParseRelation_1_Remove_m8135_ParameterInfos/* parameters */
+	, ParseRelation_1_t2194_ParseRelation_1_Remove_m8136_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6107,7 +6107,7 @@ extern const MethodInfo ParseRelation_1_Remove_m8135_MethodInfo =
 };
 extern const Il2CppType ParseQuery_1_t2530_0_0_0;
 // Parse.ParseQuery`1<T> Parse.ParseRelation`1::get_Query()
-extern const MethodInfo ParseRelation_1_get_Query_m8136_MethodInfo = 
+extern const MethodInfo ParseRelation_1_get_Query_m8137_MethodInfo = 
 {
 	"get_Query"/* name */
 	, NULL/* method */
@@ -6130,19 +6130,19 @@ extern const MethodInfo ParseRelation_1_get_Query_m8136_MethodInfo =
 };
 static const MethodInfo* ParseRelation_1_t2194_MethodInfos[] =
 {
-	&ParseRelation_1__ctor_m8132_MethodInfo,
 	&ParseRelation_1__ctor_m8133_MethodInfo,
-	&ParseRelation_1_Add_m8134_MethodInfo,
-	&ParseRelation_1_Remove_m8135_MethodInfo,
-	&ParseRelation_1_get_Query_m8136_MethodInfo,
+	&ParseRelation_1__ctor_m8134_MethodInfo,
+	&ParseRelation_1_Add_m8135_MethodInfo,
+	&ParseRelation_1_Remove_m8136_MethodInfo,
+	&ParseRelation_1_get_Query_m8137_MethodInfo,
 	NULL
 };
-extern const MethodInfo ParseRelation_1_get_Query_m8136_MethodInfo;
+extern const MethodInfo ParseRelation_1_get_Query_m8137_MethodInfo;
 static const PropertyInfo ParseRelation_1_t2194____Query_PropertyInfo = 
 {
 	&ParseRelation_1_t2194_il2cpp_TypeInfo/* parent */
 	, "Query"/* name */
-	, &ParseRelation_1_get_Query_m8136_MethodInfo/* get */
+	, &ParseRelation_1_get_Query_m8137_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -6167,11 +6167,11 @@ static bool ParseRelation_1_t2194_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod ParseRelationBase_GetQuery_TisT_t2529_m8522_GenericMethod;
+extern const Il2CppGenericMethod ParseRelationBase_GetQuery_TisT_t2529_m8523_GenericMethod;
 static Il2CppRGCTXDefinition ParseRelation_1_t2194_RGCTXData[3] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&ParseRelation_1_t2194_gp_0_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ParseRelationBase_GetQuery_TisT_t2529_m8522_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseRelationBase_GetQuery_TisT_t2529_m8523_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -6253,10 +6253,10 @@ extern TypeInfo ParseRole_t1298_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseRoleMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseRole::.ctor()
-extern const MethodInfo ParseRole__ctor_m6990_MethodInfo = 
+extern const MethodInfo ParseRole__ctor_m6991_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ParseRole__ctor_m6990/* method */
+	, (methodPointerType)&ParseRole__ctor_m6991/* method */
 	, &ParseRole_t1298_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -6277,21 +6277,21 @@ extern const MethodInfo ParseRole__ctor_m6990_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ParseACL_t1214_0_0_0;
 extern const Il2CppType ParseACL_t1214_0_0_0;
-static const ParameterInfo ParseRole_t1298_ParseRole__ctor_m6991_ParameterInfos[] = 
+static const ParameterInfo ParseRole_t1298_ParseRole__ctor_m6992_ParameterInfos[] = 
 {
 	{"name", 0, 134218712, 0, &String_t_0_0_0},
 	{"acl", 1, 134218713, 0, &ParseACL_t1214_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseRole::.ctor(System.String,Parse.ParseACL)
-extern const MethodInfo ParseRole__ctor_m6991_MethodInfo = 
+extern const MethodInfo ParseRole__ctor_m6992_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ParseRole__ctor_m6991/* method */
+	, (methodPointerType)&ParseRole__ctor_m6992/* method */
 	, &ParseRole_t1298_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ParseRole_t1298_ParseRole__ctor_m6991_ParameterInfos/* parameters */
+	, ParseRole_t1298_ParseRole__ctor_m6992_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -6307,10 +6307,10 @@ extern const MethodInfo ParseRole__ctor_m6991_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseRole::get_Name()
-extern const MethodInfo ParseRole_get_Name_m6992_MethodInfo = 
+extern const MethodInfo ParseRole_get_Name_m6993_MethodInfo = 
 {
 	"get_Name"/* name */
-	, (methodPointerType)&ParseRole_get_Name_m6992/* method */
+	, (methodPointerType)&ParseRole_get_Name_m6993/* method */
 	, &ParseRole_t1298_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6329,20 +6329,20 @@ extern const MethodInfo ParseRole_get_Name_m6992_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseRole_t1298_ParseRole_set_Name_m6993_ParameterInfos[] = 
+static const ParameterInfo ParseRole_t1298_ParseRole_set_Name_m6994_ParameterInfos[] = 
 {
 	{"value", 0, 134218714, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseRole::set_Name(System.String)
-extern const MethodInfo ParseRole_set_Name_m6993_MethodInfo = 
+extern const MethodInfo ParseRole_set_Name_m6994_MethodInfo = 
 {
 	"set_Name"/* name */
-	, (methodPointerType)&ParseRole_set_Name_m6993/* method */
+	, (methodPointerType)&ParseRole_set_Name_m6994/* method */
 	, &ParseRole_t1298_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseRole_t1298_ParseRole_set_Name_m6993_ParameterInfos/* parameters */
+	, ParseRole_t1298_ParseRole_set_Name_m6994_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -6359,10 +6359,10 @@ extern const MethodInfo ParseRole_set_Name_m6993_MethodInfo =
 extern const Il2CppType ParseRelation_1_t1402_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseRelation`1<Parse.ParseUser> Parse.ParseRole::get_Users()
-extern const MethodInfo ParseRole_get_Users_m6994_MethodInfo = 
+extern const MethodInfo ParseRole_get_Users_m6995_MethodInfo = 
 {
 	"get_Users"/* name */
-	, (methodPointerType)&ParseRole_get_Users_m6994/* method */
+	, (methodPointerType)&ParseRole_get_Users_m6995/* method */
 	, &ParseRole_t1298_il2cpp_TypeInfo/* declaring_type */
 	, &ParseRelation_1_t1402_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6383,10 +6383,10 @@ extern const MethodInfo ParseRole_get_Users_m6994_MethodInfo =
 extern const Il2CppType ParseRelation_1_t1403_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseRelation`1<Parse.ParseRole> Parse.ParseRole::get_Roles()
-extern const MethodInfo ParseRole_get_Roles_m6995_MethodInfo = 
+extern const MethodInfo ParseRole_get_Roles_m6996_MethodInfo = 
 {
 	"get_Roles"/* name */
-	, (methodPointerType)&ParseRole_get_Roles_m6995/* method */
+	, (methodPointerType)&ParseRole_get_Roles_m6996/* method */
 	, &ParseRole_t1298_il2cpp_TypeInfo/* declaring_type */
 	, &ParseRelation_1_t1403_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6408,21 +6408,21 @@ extern const Il2CppType String_t_1_0_0;
 extern const Il2CppType String_t_1_0_0;
 extern const Il2CppType Object_t_1_0_0;
 extern const Il2CppType Object_t_1_0_0;
-static const ParameterInfo ParseRole_t1298_ParseRole_OnSettingValue_m6996_ParameterInfos[] = 
+static const ParameterInfo ParseRole_t1298_ParseRole_OnSettingValue_m6997_ParameterInfos[] = 
 {
 	{"key", 0, 134218715, 0, &String_t_1_0_0},
 	{"value", 1, 134218716, 0, &Object_t_1_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_StringU26_t811_ObjectU26_t2360 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseRole::OnSettingValue(System.String&,System.Object&)
-extern const MethodInfo ParseRole_OnSettingValue_m6996_MethodInfo = 
+extern const MethodInfo ParseRole_OnSettingValue_m6997_MethodInfo = 
 {
 	"OnSettingValue"/* name */
-	, (methodPointerType)&ParseRole_OnSettingValue_m6996/* method */
+	, (methodPointerType)&ParseRole_OnSettingValue_m6997/* method */
 	, &ParseRole_t1298_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_StringU26_t811_ObjectU26_t2360/* invoker_method */
-	, ParseRole_t1298_ParseRole_OnSettingValue_m6996_ParameterInfos/* parameters */
+	, ParseRole_t1298_ParseRole_OnSettingValue_m6997_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 707/* flags */
 	, 0/* iflags */
@@ -6439,10 +6439,10 @@ extern const MethodInfo ParseRole_OnSettingValue_m6996_MethodInfo =
 extern const Il2CppType ParseQuery_1_t1404_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseQuery`1<Parse.ParseRole> Parse.ParseRole::get_Query()
-extern const MethodInfo ParseRole_get_Query_m6997_MethodInfo = 
+extern const MethodInfo ParseRole_get_Query_m6998_MethodInfo = 
 {
 	"get_Query"/* name */
-	, (methodPointerType)&ParseRole_get_Query_m6997/* method */
+	, (methodPointerType)&ParseRole_get_Query_m6998/* method */
 	, &ParseRole_t1298_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t1404_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6462,10 +6462,10 @@ extern const MethodInfo ParseRole_get_Query_m6997_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseRole::.cctor()
-extern const MethodInfo ParseRole__cctor_m6998_MethodInfo = 
+extern const MethodInfo ParseRole__cctor_m6999_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&ParseRole__cctor_m6998/* method */
+	, (methodPointerType)&ParseRole__cctor_m6999/* method */
 	, &ParseRole_t1298_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -6485,57 +6485,57 @@ extern const MethodInfo ParseRole__cctor_m6998_MethodInfo =
 };
 static const MethodInfo* ParseRole_t1298_MethodInfos[] =
 {
-	&ParseRole__ctor_m6990_MethodInfo,
 	&ParseRole__ctor_m6991_MethodInfo,
-	&ParseRole_get_Name_m6992_MethodInfo,
-	&ParseRole_set_Name_m6993_MethodInfo,
-	&ParseRole_get_Users_m6994_MethodInfo,
-	&ParseRole_get_Roles_m6995_MethodInfo,
-	&ParseRole_OnSettingValue_m6996_MethodInfo,
-	&ParseRole_get_Query_m6997_MethodInfo,
-	&ParseRole__cctor_m6998_MethodInfo,
+	&ParseRole__ctor_m6992_MethodInfo,
+	&ParseRole_get_Name_m6993_MethodInfo,
+	&ParseRole_set_Name_m6994_MethodInfo,
+	&ParseRole_get_Users_m6995_MethodInfo,
+	&ParseRole_get_Roles_m6996_MethodInfo,
+	&ParseRole_OnSettingValue_m6997_MethodInfo,
+	&ParseRole_get_Query_m6998_MethodInfo,
+	&ParseRole__cctor_m6999_MethodInfo,
 	NULL
 };
-extern const MethodInfo ParseRole_get_Name_m6992_MethodInfo;
-extern const MethodInfo ParseRole_set_Name_m6993_MethodInfo;
+extern const MethodInfo ParseRole_get_Name_m6993_MethodInfo;
+extern const MethodInfo ParseRole_set_Name_m6994_MethodInfo;
 static const PropertyInfo ParseRole_t1298____Name_PropertyInfo = 
 {
 	&ParseRole_t1298_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
-	, &ParseRole_get_Name_m6992_MethodInfo/* get */
-	, &ParseRole_set_Name_m6993_MethodInfo/* set */
+	, &ParseRole_get_Name_m6993_MethodInfo/* get */
+	, &ParseRole_set_Name_m6994_MethodInfo/* set */
 	, 0/* attrs */
 	, 426/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseRole_get_Users_m6994_MethodInfo;
+extern const MethodInfo ParseRole_get_Users_m6995_MethodInfo;
 static const PropertyInfo ParseRole_t1298____Users_PropertyInfo = 
 {
 	&ParseRole_t1298_il2cpp_TypeInfo/* parent */
 	, "Users"/* name */
-	, &ParseRole_get_Users_m6994_MethodInfo/* get */
+	, &ParseRole_get_Users_m6995_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 427/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseRole_get_Roles_m6995_MethodInfo;
+extern const MethodInfo ParseRole_get_Roles_m6996_MethodInfo;
 static const PropertyInfo ParseRole_t1298____Roles_PropertyInfo = 
 {
 	&ParseRole_t1298_il2cpp_TypeInfo/* parent */
 	, "Roles"/* name */
-	, &ParseRole_get_Roles_m6995_MethodInfo/* get */
+	, &ParseRole_get_Roles_m6996_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 428/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseRole_get_Query_m6997_MethodInfo;
+extern const MethodInfo ParseRole_get_Query_m6998_MethodInfo;
 static const PropertyInfo ParseRole_t1298____Query_PropertyInfo = 
 {
 	&ParseRole_t1298_il2cpp_TypeInfo/* parent */
 	, "Query"/* name */
-	, &ParseRole_get_Query_m6997_MethodInfo/* get */
+	, &ParseRole_get_Query_m6998_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -6549,30 +6549,30 @@ static const PropertyInfo* ParseRole_t1298_PropertyInfos[] =
 	&ParseRole_t1298____Query_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ParseObject_SaveAsync_m6818_MethodInfo;
-extern const MethodInfo ParseRole_OnSettingValue_m6996_MethodInfo;
-extern const MethodInfo ParseObject_IsKeyMutable_m6851_MethodInfo;
+extern const MethodInfo ParseObject_SaveAsync_m6819_MethodInfo;
+extern const MethodInfo ParseRole_OnSettingValue_m6997_MethodInfo;
+extern const MethodInfo ParseObject_IsKeyMutable_m6852_MethodInfo;
 static const Il2CppMethodReference ParseRole_t1298_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ParseObject_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_ObjectU3EU3E_GetEnumerator_m6874_MethodInfo,
-	&ParseObject_System_Collections_IEnumerable_GetEnumerator_m6875_MethodInfo,
-	&ParseObject_SetDefaultValues_m6797_MethodInfo,
-	&ParseObject_MergeAfterFetch_m6803_MethodInfo,
-	&ParseObject_MergeAfterSave_m6805_MethodInfo,
-	&ParseObject_MergeMagicFields_m6806_MethodInfo,
-	&ParseObject_SaveAsync_m6818_MethodInfo,
-	&ParseObject_FetchAsyncInternal_m6821_MethodInfo,
-	&ParseObject_Remove_m6833_MethodInfo,
-	&ParseRole_OnSettingValue_m6996_MethodInfo,
-	&ParseObject_get_Item_m6838_MethodInfo,
-	&ParseObject_set_Item_m6839_MethodInfo,
-	&ParseObject_IsKeyMutable_m6851_MethodInfo,
-	&ParseObject_add_PropertyChanged_m6880_MethodInfo,
-	&ParseObject_remove_PropertyChanged_m6881_MethodInfo,
+	&ParseObject_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_ObjectU3EU3E_GetEnumerator_m6875_MethodInfo,
+	&ParseObject_System_Collections_IEnumerable_GetEnumerator_m6876_MethodInfo,
+	&ParseObject_SetDefaultValues_m6798_MethodInfo,
+	&ParseObject_MergeAfterFetch_m6804_MethodInfo,
+	&ParseObject_MergeAfterSave_m6806_MethodInfo,
+	&ParseObject_MergeMagicFields_m6807_MethodInfo,
+	&ParseObject_SaveAsync_m6819_MethodInfo,
+	&ParseObject_FetchAsyncInternal_m6822_MethodInfo,
+	&ParseObject_Remove_m6834_MethodInfo,
+	&ParseRole_OnSettingValue_m6997_MethodInfo,
+	&ParseObject_get_Item_m6839_MethodInfo,
+	&ParseObject_set_Item_m6840_MethodInfo,
+	&ParseObject_IsKeyMutable_m6852_MethodInfo,
+	&ParseObject_add_PropertyChanged_m6881_MethodInfo,
+	&ParseObject_remove_PropertyChanged_m6882_MethodInfo,
 };
 static bool ParseRole_t1298_VTableIsGenericMethod[] =
 {
@@ -6681,10 +6681,10 @@ extern TypeInfo U3CU3Ec__DisplayClass2_t1300_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseSession_U3CU3Ec__DisplayClass2MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseSession/<>c__DisplayClass2::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass2__ctor_m6999_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass2__ctor_m7000_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass2__ctor_m6999/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass2__ctor_m7000/* method */
 	, &U3CU3Ec__DisplayClass2_t1300_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -6704,21 +6704,21 @@ extern const MethodInfo U3CU3Ec__DisplayClass2__ctor_m6999_MethodInfo =
 };
 extern const Il2CppType Task_1_t1388_0_0_0;
 extern const Il2CppType Task_1_t1388_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass2_t1300_U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__0_m7000_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass2_t1300_U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__0_m7001_ParameterInfos[] = 
 {
 	{"t1", 0, 134218719, 0, &Task_1_t1388_0_0_0},
 };
 extern const Il2CppType Task_1_t1405_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<Parse.ParseSession> Parse.ParseSession/<>c__DisplayClass2::<GetCurrentSessionAsync>b__0(System.Threading.Tasks.Task`1<Parse.ParseUser>)
-extern const MethodInfo U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__0_m7000_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__0_m7001_MethodInfo = 
 {
 	"<GetCurrentSessionAsync>b__0"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__0_m7000/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__0_m7001/* method */
 	, &U3CU3Ec__DisplayClass2_t1300_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1405_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass2_t1300_U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__0_m7000_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass2_t1300_U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__0_m7001_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6733,21 +6733,21 @@ extern const MethodInfo U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__0_
 
 };
 extern const Il2CppType Task_1_t1385_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass2_t1300_U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__1_m7001_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass2_t1300_U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__1_m7002_ParameterInfos[] = 
 {
 	{"t2", 0, 134218720, 0, &Task_1_t1385_0_0_0},
 };
 extern const Il2CppType ParseSession_t1301_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseSession Parse.ParseSession/<>c__DisplayClass2::<GetCurrentSessionAsync>b__1(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-extern const MethodInfo U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__1_m7001_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__1_m7002_MethodInfo = 
 {
 	"<GetCurrentSessionAsync>b__1"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__1_m7001/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__1_m7002/* method */
 	, &U3CU3Ec__DisplayClass2_t1300_il2cpp_TypeInfo/* declaring_type */
 	, &ParseSession_t1301_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass2_t1300_U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__1_m7001_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass2_t1300_U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__1_m7002_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -6763,9 +6763,9 @@ extern const MethodInfo U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__1_
 };
 static const MethodInfo* U3CU3Ec__DisplayClass2_t1300_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass2__ctor_m6999_MethodInfo,
-	&U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__0_m7000_MethodInfo,
-	&U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__1_m7001_MethodInfo,
+	&U3CU3Ec__DisplayClass2__ctor_m7000_MethodInfo,
+	&U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__0_m7001_MethodInfo,
+	&U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__1_m7002_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass2_t1300_VTable[] =
@@ -6860,20 +6860,20 @@ TypeInfo U3CU3Ec__DisplayClass2_t1300_il2cpp_TypeInfo =
 // Parse.ParseSession
 #include "Parse_Unity_Parse_ParseSessionMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseSession_t1301_ParseSession_IsKeyMutable_m7002_ParameterInfos[] = 
+static const ParameterInfo ParseSession_t1301_ParseSession_IsKeyMutable_m7003_ParameterInfos[] = 
 {
 	{"key", 0, 134218717, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.ParseSession::IsKeyMutable(System.String)
-extern const MethodInfo ParseSession_IsKeyMutable_m7002_MethodInfo = 
+extern const MethodInfo ParseSession_IsKeyMutable_m7003_MethodInfo = 
 {
 	"IsKeyMutable"/* name */
-	, (methodPointerType)&ParseSession_IsKeyMutable_m7002/* method */
+	, (methodPointerType)&ParseSession_IsKeyMutable_m7003/* method */
 	, &ParseSession_t1301_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ParseSession_t1301_ParseSession_IsKeyMutable_m7002_ParameterInfos/* parameters */
+	, ParseSession_t1301_ParseSession_IsKeyMutable_m7003_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 707/* flags */
 	, 0/* iflags */
@@ -6889,10 +6889,10 @@ extern const MethodInfo ParseSession_IsKeyMutable_m7002_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseSession::get_SessionToken()
-extern const MethodInfo ParseSession_get_SessionToken_m7003_MethodInfo = 
+extern const MethodInfo ParseSession_get_SessionToken_m7004_MethodInfo = 
 {
 	"get_SessionToken"/* name */
-	, (methodPointerType)&ParseSession_get_SessionToken_m7003/* method */
+	, (methodPointerType)&ParseSession_get_SessionToken_m7004/* method */
 	, &ParseSession_t1301_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6913,10 +6913,10 @@ extern const MethodInfo ParseSession_get_SessionToken_m7003_MethodInfo =
 extern const Il2CppType ParseQuery_1_t1406_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseQuery`1<Parse.ParseSession> Parse.ParseSession::get_Query()
-extern const MethodInfo ParseSession_get_Query_m7004_MethodInfo = 
+extern const MethodInfo ParseSession_get_Query_m7005_MethodInfo = 
 {
 	"get_Query"/* name */
-	, (methodPointerType)&ParseSession_get_Query_m7004/* method */
+	, (methodPointerType)&ParseSession_get_Query_m7005/* method */
 	, &ParseSession_t1301_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t1406_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6936,10 +6936,10 @@ extern const MethodInfo ParseSession_get_Query_m7004_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<Parse.ParseSession> Parse.ParseSession::GetCurrentSessionAsync()
-extern const MethodInfo ParseSession_GetCurrentSessionAsync_m7005_MethodInfo = 
+extern const MethodInfo ParseSession_GetCurrentSessionAsync_m7006_MethodInfo = 
 {
 	"GetCurrentSessionAsync"/* name */
-	, (methodPointerType)&ParseSession_GetCurrentSessionAsync_m7005/* method */
+	, (methodPointerType)&ParseSession_GetCurrentSessionAsync_m7006/* method */
 	, &ParseSession_t1301_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1405_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6958,20 +6958,20 @@ extern const MethodInfo ParseSession_GetCurrentSessionAsync_m7005_MethodInfo =
 
 };
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseSession_t1301_ParseSession_GetCurrentSessionAsync_m7006_ParameterInfos[] = 
+static const ParameterInfo ParseSession_t1301_ParseSession_GetCurrentSessionAsync_m7007_ParameterInfos[] = 
 {
 	{"cancellationToken", 0, 134218718, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<Parse.ParseSession> Parse.ParseSession::GetCurrentSessionAsync(System.Threading.CancellationToken)
-extern const MethodInfo ParseSession_GetCurrentSessionAsync_m7006_MethodInfo = 
+extern const MethodInfo ParseSession_GetCurrentSessionAsync_m7007_MethodInfo = 
 {
 	"GetCurrentSessionAsync"/* name */
-	, (methodPointerType)&ParseSession_GetCurrentSessionAsync_m7006/* method */
+	, (methodPointerType)&ParseSession_GetCurrentSessionAsync_m7007/* method */
 	, &ParseSession_t1301_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1405_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseSession_t1301_ParseSession_GetCurrentSessionAsync_m7006_ParameterInfos/* parameters */
+	, ParseSession_t1301_ParseSession_GetCurrentSessionAsync_m7007_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -6987,10 +6987,10 @@ extern const MethodInfo ParseSession_GetCurrentSessionAsync_m7006_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseSession::.ctor()
-extern const MethodInfo ParseSession__ctor_m7007_MethodInfo = 
+extern const MethodInfo ParseSession__ctor_m7008_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ParseSession__ctor_m7007/* method */
+	, (methodPointerType)&ParseSession__ctor_m7008/* method */
 	, &ParseSession_t1301_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7010,10 +7010,10 @@ extern const MethodInfo ParseSession__ctor_m7007_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseSession::.cctor()
-extern const MethodInfo ParseSession__cctor_m7008_MethodInfo = 
+extern const MethodInfo ParseSession__cctor_m7009_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&ParseSession__cctor_m7008/* method */
+	, (methodPointerType)&ParseSession__cctor_m7009/* method */
 	, &ParseSession_t1301_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7033,32 +7033,32 @@ extern const MethodInfo ParseSession__cctor_m7008_MethodInfo =
 };
 static const MethodInfo* ParseSession_t1301_MethodInfos[] =
 {
-	&ParseSession_IsKeyMutable_m7002_MethodInfo,
-	&ParseSession_get_SessionToken_m7003_MethodInfo,
-	&ParseSession_get_Query_m7004_MethodInfo,
-	&ParseSession_GetCurrentSessionAsync_m7005_MethodInfo,
+	&ParseSession_IsKeyMutable_m7003_MethodInfo,
+	&ParseSession_get_SessionToken_m7004_MethodInfo,
+	&ParseSession_get_Query_m7005_MethodInfo,
 	&ParseSession_GetCurrentSessionAsync_m7006_MethodInfo,
-	&ParseSession__ctor_m7007_MethodInfo,
-	&ParseSession__cctor_m7008_MethodInfo,
+	&ParseSession_GetCurrentSessionAsync_m7007_MethodInfo,
+	&ParseSession__ctor_m7008_MethodInfo,
+	&ParseSession__cctor_m7009_MethodInfo,
 	NULL
 };
-extern const MethodInfo ParseSession_get_SessionToken_m7003_MethodInfo;
+extern const MethodInfo ParseSession_get_SessionToken_m7004_MethodInfo;
 static const PropertyInfo ParseSession_t1301____SessionToken_PropertyInfo = 
 {
 	&ParseSession_t1301_il2cpp_TypeInfo/* parent */
 	, "SessionToken"/* name */
-	, &ParseSession_get_SessionToken_m7003_MethodInfo/* get */
+	, &ParseSession_get_SessionToken_m7004_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 430/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseSession_get_Query_m7004_MethodInfo;
+extern const MethodInfo ParseSession_get_Query_m7005_MethodInfo;
 static const PropertyInfo ParseSession_t1301____Query_PropertyInfo = 
 {
 	&ParseSession_t1301_il2cpp_TypeInfo/* parent */
 	, "Query"/* name */
-	, &ParseSession_get_Query_m7004_MethodInfo/* get */
+	, &ParseSession_get_Query_m7005_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -7074,28 +7074,28 @@ static const Il2CppType* ParseSession_t1301_il2cpp_TypeInfo__nestedTypes[1] =
 {
 	&U3CU3Ec__DisplayClass2_t1300_0_0_0,
 };
-extern const MethodInfo ParseSession_IsKeyMutable_m7002_MethodInfo;
+extern const MethodInfo ParseSession_IsKeyMutable_m7003_MethodInfo;
 static const Il2CppMethodReference ParseSession_t1301_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ParseObject_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_ObjectU3EU3E_GetEnumerator_m6874_MethodInfo,
-	&ParseObject_System_Collections_IEnumerable_GetEnumerator_m6875_MethodInfo,
-	&ParseObject_SetDefaultValues_m6797_MethodInfo,
-	&ParseObject_MergeAfterFetch_m6803_MethodInfo,
-	&ParseObject_MergeAfterSave_m6805_MethodInfo,
-	&ParseObject_MergeMagicFields_m6806_MethodInfo,
-	&ParseObject_SaveAsync_m6818_MethodInfo,
-	&ParseObject_FetchAsyncInternal_m6821_MethodInfo,
-	&ParseObject_Remove_m6833_MethodInfo,
-	&ParseObject_OnSettingValue_m6837_MethodInfo,
-	&ParseObject_get_Item_m6838_MethodInfo,
-	&ParseObject_set_Item_m6839_MethodInfo,
-	&ParseSession_IsKeyMutable_m7002_MethodInfo,
-	&ParseObject_add_PropertyChanged_m6880_MethodInfo,
-	&ParseObject_remove_PropertyChanged_m6881_MethodInfo,
+	&ParseObject_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_ObjectU3EU3E_GetEnumerator_m6875_MethodInfo,
+	&ParseObject_System_Collections_IEnumerable_GetEnumerator_m6876_MethodInfo,
+	&ParseObject_SetDefaultValues_m6798_MethodInfo,
+	&ParseObject_MergeAfterFetch_m6804_MethodInfo,
+	&ParseObject_MergeAfterSave_m6806_MethodInfo,
+	&ParseObject_MergeMagicFields_m6807_MethodInfo,
+	&ParseObject_SaveAsync_m6819_MethodInfo,
+	&ParseObject_FetchAsyncInternal_m6822_MethodInfo,
+	&ParseObject_Remove_m6834_MethodInfo,
+	&ParseObject_OnSettingValue_m6838_MethodInfo,
+	&ParseObject_get_Item_m6839_MethodInfo,
+	&ParseObject_set_Item_m6840_MethodInfo,
+	&ParseSession_IsKeyMutable_m7003_MethodInfo,
+	&ParseObject_add_PropertyChanged_m6881_MethodInfo,
+	&ParseObject_remove_PropertyChanged_m6882_MethodInfo,
 };
 static bool ParseSession_t1301_VTableIsGenericMethod[] =
 {
@@ -7203,10 +7203,10 @@ extern TypeInfo ParseUploadProgressEventArgs_t1302_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseUploadProgressEventArgsMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUploadProgressEventArgs::.ctor()
-extern const MethodInfo ParseUploadProgressEventArgs__ctor_m7009_MethodInfo = 
+extern const MethodInfo ParseUploadProgressEventArgs__ctor_m7010_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ParseUploadProgressEventArgs__ctor_m7009/* method */
+	, (methodPointerType)&ParseUploadProgressEventArgs__ctor_m7010/* method */
 	, &ParseUploadProgressEventArgs_t1302_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7227,10 +7227,10 @@ extern const MethodInfo ParseUploadProgressEventArgs__ctor_m7009_MethodInfo =
 extern const Il2CppType Double_t90_0_0_0;
 extern void* RuntimeInvoker_Double_t90 (const MethodInfo* method, void* obj, void** args);
 // System.Double Parse.ParseUploadProgressEventArgs::get_Progress()
-extern const MethodInfo ParseUploadProgressEventArgs_get_Progress_m7010_MethodInfo = 
+extern const MethodInfo ParseUploadProgressEventArgs_get_Progress_m7011_MethodInfo = 
 {
 	"get_Progress"/* name */
-	, (methodPointerType)&ParseUploadProgressEventArgs_get_Progress_m7010/* method */
+	, (methodPointerType)&ParseUploadProgressEventArgs_get_Progress_m7011/* method */
 	, &ParseUploadProgressEventArgs_t1302_il2cpp_TypeInfo/* declaring_type */
 	, &Double_t90_0_0_0/* return_type */
 	, RuntimeInvoker_Double_t90/* invoker_method */
@@ -7249,20 +7249,20 @@ extern const MethodInfo ParseUploadProgressEventArgs_get_Progress_m7010_MethodIn
 
 };
 extern const Il2CppType Double_t90_0_0_0;
-static const ParameterInfo ParseUploadProgressEventArgs_t1302_ParseUploadProgressEventArgs_set_Progress_m7011_ParameterInfos[] = 
+static const ParameterInfo ParseUploadProgressEventArgs_t1302_ParseUploadProgressEventArgs_set_Progress_m7012_ParameterInfos[] = 
 {
 	{"value", 0, 134218721, 0, &Double_t90_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Double_t90 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUploadProgressEventArgs::set_Progress(System.Double)
-extern const MethodInfo ParseUploadProgressEventArgs_set_Progress_m7011_MethodInfo = 
+extern const MethodInfo ParseUploadProgressEventArgs_set_Progress_m7012_MethodInfo = 
 {
 	"set_Progress"/* name */
-	, (methodPointerType)&ParseUploadProgressEventArgs_set_Progress_m7011/* method */
+	, (methodPointerType)&ParseUploadProgressEventArgs_set_Progress_m7012/* method */
 	, &ParseUploadProgressEventArgs_t1302_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Double_t90/* invoker_method */
-	, ParseUploadProgressEventArgs_t1302_ParseUploadProgressEventArgs_set_Progress_m7011_ParameterInfos/* parameters */
+	, ParseUploadProgressEventArgs_t1302_ParseUploadProgressEventArgs_set_Progress_m7012_ParameterInfos/* parameters */
 	, 434/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -7278,19 +7278,19 @@ extern const MethodInfo ParseUploadProgressEventArgs_set_Progress_m7011_MethodIn
 };
 static const MethodInfo* ParseUploadProgressEventArgs_t1302_MethodInfos[] =
 {
-	&ParseUploadProgressEventArgs__ctor_m7009_MethodInfo,
-	&ParseUploadProgressEventArgs_get_Progress_m7010_MethodInfo,
-	&ParseUploadProgressEventArgs_set_Progress_m7011_MethodInfo,
+	&ParseUploadProgressEventArgs__ctor_m7010_MethodInfo,
+	&ParseUploadProgressEventArgs_get_Progress_m7011_MethodInfo,
+	&ParseUploadProgressEventArgs_set_Progress_m7012_MethodInfo,
 	NULL
 };
-extern const MethodInfo ParseUploadProgressEventArgs_get_Progress_m7010_MethodInfo;
-extern const MethodInfo ParseUploadProgressEventArgs_set_Progress_m7011_MethodInfo;
+extern const MethodInfo ParseUploadProgressEventArgs_get_Progress_m7011_MethodInfo;
+extern const MethodInfo ParseUploadProgressEventArgs_set_Progress_m7012_MethodInfo;
 static const PropertyInfo ParseUploadProgressEventArgs_t1302____Progress_PropertyInfo = 
 {
 	&ParseUploadProgressEventArgs_t1302_il2cpp_TypeInfo/* parent */
 	, "Progress"/* name */
-	, &ParseUploadProgressEventArgs_get_Progress_m7010_MethodInfo/* get */
-	, &ParseUploadProgressEventArgs_set_Progress_m7011_MethodInfo/* set */
+	, &ParseUploadProgressEventArgs_get_Progress_m7011_MethodInfo/* get */
+	, &ParseUploadProgressEventArgs_set_Progress_m7012_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -7393,10 +7393,10 @@ extern TypeInfo U3CU3Ec__DisplayClass3_t1304_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseUser_U3CU3Ec__DisplayClass3MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser/<>c__DisplayClass3::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass3__ctor_m7012_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass3__ctor_m7013_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass3__ctor_m7012/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass3__ctor_m7013/* method */
 	, &U3CU3Ec__DisplayClass3_t1304_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7415,20 +7415,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass3__ctor_m7012_MethodInfo =
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass3_t1304_U3CU3Ec__DisplayClass3_U3CSignUpAsyncU3Eb__2_m7013_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass3_t1304_U3CU3Ec__DisplayClass3_U3CSignUpAsyncU3Eb__2_m7014_ParameterInfos[] = 
 {
 	{"toAwait", 0, 134218783, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser/<>c__DisplayClass3::<SignUpAsync>b__2(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass3_U3CSignUpAsyncU3Eb__2_m7013_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass3_U3CSignUpAsyncU3Eb__2_m7014_MethodInfo = 
 {
 	"<SignUpAsync>b__2"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass3_U3CSignUpAsyncU3Eb__2_m7013/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass3_U3CSignUpAsyncU3Eb__2_m7014/* method */
 	, &U3CU3Ec__DisplayClass3_t1304_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass3_t1304_U3CU3Ec__DisplayClass3_U3CSignUpAsyncU3Eb__2_m7013_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass3_t1304_U3CU3Ec__DisplayClass3_U3CSignUpAsyncU3Eb__2_m7014_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -7444,8 +7444,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass3_U3CSignUpAsyncU3Eb__2_m7013_Metho
 };
 static const MethodInfo* U3CU3Ec__DisplayClass3_t1304_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass3__ctor_m7012_MethodInfo,
-	&U3CU3Ec__DisplayClass3_U3CSignUpAsyncU3Eb__2_m7013_MethodInfo,
+	&U3CU3Ec__DisplayClass3__ctor_m7013_MethodInfo,
+	&U3CU3Ec__DisplayClass3_U3CSignUpAsyncU3Eb__2_m7014_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass3_t1304_VTable[] =
@@ -7543,10 +7543,10 @@ extern TypeInfo U3CU3Ec__DisplayClass7_t1305_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseUser_U3CU3Ec__DisplayClass7MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser/<>c__DisplayClass7::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass7__ctor_m7014_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass7__ctor_m7015_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass7__ctor_m7014/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass7__ctor_m7015/* method */
 	, &U3CU3Ec__DisplayClass7_t1305_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7565,20 +7565,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass7__ctor_m7014_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t1385_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass7_t1305_U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m7015_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass7_t1305_U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m7016_ParameterInfos[] = 
 {
 	{"t", 0, 134218784, 0, &Task_1_t1385_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseUser Parse.ParseUser/<>c__DisplayClass7::<LogInAsync>b__6(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-extern const MethodInfo U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m7015_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m7016_MethodInfo = 
 {
 	"<LogInAsync>b__6"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m7015/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m7016/* method */
 	, &U3CU3Ec__DisplayClass7_t1305_il2cpp_TypeInfo/* declaring_type */
 	, &ParseUser_t1303_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass7_t1305_U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m7015_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass7_t1305_U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m7016_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -7594,8 +7594,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m7015_Method
 };
 static const MethodInfo* U3CU3Ec__DisplayClass7_t1305_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass7__ctor_m7014_MethodInfo,
-	&U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m7015_MethodInfo,
+	&U3CU3Ec__DisplayClass7__ctor_m7015_MethodInfo,
+	&U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m7016_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass7_t1305_VTable[] =
@@ -7691,10 +7691,10 @@ extern TypeInfo U3CU3Ec__DisplayClassa_t1306_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseUser_U3CU3Ec__DisplayClassaMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser/<>c__DisplayClassa::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClassa__ctor_m7016_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClassa__ctor_m7017_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClassa__ctor_m7016/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClassa__ctor_m7017/* method */
 	, &U3CU3Ec__DisplayClassa_t1306_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7713,20 +7713,20 @@ extern const MethodInfo U3CU3Ec__DisplayClassa__ctor_m7016_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t1385_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClassa_t1306_U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m7017_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClassa_t1306_U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m7018_ParameterInfos[] = 
 {
 	{"t", 0, 134218785, 0, &Task_1_t1385_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseUser Parse.ParseUser/<>c__DisplayClassa::<BecomeAsync>b__9(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-extern const MethodInfo U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m7017_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m7018_MethodInfo = 
 {
 	"<BecomeAsync>b__9"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m7017/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m7018/* method */
 	, &U3CU3Ec__DisplayClassa_t1306_il2cpp_TypeInfo/* declaring_type */
 	, &ParseUser_t1303_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClassa_t1306_U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m7017_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClassa_t1306_U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m7018_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -7742,8 +7742,8 @@ extern const MethodInfo U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m7017_Metho
 };
 static const MethodInfo* U3CU3Ec__DisplayClassa_t1306_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClassa__ctor_m7016_MethodInfo,
-	&U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m7017_MethodInfo,
+	&U3CU3Ec__DisplayClassa__ctor_m7017_MethodInfo,
+	&U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m7018_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClassa_t1306_VTable[] =
@@ -7839,10 +7839,10 @@ extern TypeInfo U3CU3Ec__DisplayClass10_t1307_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseUser_U3CU3Ec__DisplayClass10MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser/<>c__DisplayClass10::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass10__ctor_m7018_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass10__ctor_m7019_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass10__ctor_m7018/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass10__ctor_m7019/* method */
 	, &U3CU3Ec__DisplayClass10_t1307_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7861,20 +7861,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass10__ctor_m7018_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t1388_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass10_t1307_U3CU3Ec__DisplayClass10_U3CLogOutAsyncU3Eb__f_m7019_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass10_t1307_U3CU3Ec__DisplayClass10_U3CLogOutAsyncU3Eb__f_m7020_ParameterInfos[] = 
 {
 	{"t", 0, 134218786, 0, &Task_1_t1388_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser/<>c__DisplayClass10::<LogOutAsync>b__f(System.Threading.Tasks.Task`1<Parse.ParseUser>)
-extern const MethodInfo U3CU3Ec__DisplayClass10_U3CLogOutAsyncU3Eb__f_m7019_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass10_U3CLogOutAsyncU3Eb__f_m7020_MethodInfo = 
 {
 	"<LogOutAsync>b__f"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass10_U3CLogOutAsyncU3Eb__f_m7019/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass10_U3CLogOutAsyncU3Eb__f_m7020/* method */
 	, &U3CU3Ec__DisplayClass10_t1307_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass10_t1307_U3CU3Ec__DisplayClass10_U3CLogOutAsyncU3Eb__f_m7019_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass10_t1307_U3CU3Ec__DisplayClass10_U3CLogOutAsyncU3Eb__f_m7020_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -7890,8 +7890,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass10_U3CLogOutAsyncU3Eb__f_m7019_Meth
 };
 static const MethodInfo* U3CU3Ec__DisplayClass10_t1307_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass10__ctor_m7018_MethodInfo,
-	&U3CU3Ec__DisplayClass10_U3CLogOutAsyncU3Eb__f_m7019_MethodInfo,
+	&U3CU3Ec__DisplayClass10__ctor_m7019_MethodInfo,
+	&U3CU3Ec__DisplayClass10_U3CLogOutAsyncU3Eb__f_m7020_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass10_t1307_VTable[] =
@@ -7987,10 +7987,10 @@ extern TypeInfo U3CU3Ec__DisplayClass15_t1308_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseUser_U3CU3Ec__DisplayClass15MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser/<>c__DisplayClass15::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass15__ctor_m7020_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass15__ctor_m7021_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass15__ctor_m7020/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass15__ctor_m7021/* method */
 	, &U3CU3Ec__DisplayClass15_t1308_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8010,10 +8010,10 @@ extern const MethodInfo U3CU3Ec__DisplayClass15__ctor_m7020_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser/<>c__DisplayClass15::<SaveCurrentUserAsync>b__14()
-extern const MethodInfo U3CU3Ec__DisplayClass15_U3CSaveCurrentUserAsyncU3Eb__14_m7021_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass15_U3CSaveCurrentUserAsyncU3Eb__14_m7022_MethodInfo = 
 {
 	"<SaveCurrentUserAsync>b__14"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass15_U3CSaveCurrentUserAsyncU3Eb__14_m7021/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass15_U3CSaveCurrentUserAsyncU3Eb__14_m7022/* method */
 	, &U3CU3Ec__DisplayClass15_t1308_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8033,8 +8033,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass15_U3CSaveCurrentUserAsyncU3Eb__14_
 };
 static const MethodInfo* U3CU3Ec__DisplayClass15_t1308_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass15__ctor_m7020_MethodInfo,
-	&U3CU3Ec__DisplayClass15_U3CSaveCurrentUserAsyncU3Eb__14_m7021_MethodInfo,
+	&U3CU3Ec__DisplayClass15__ctor_m7021_MethodInfo,
+	&U3CU3Ec__DisplayClass15_U3CSaveCurrentUserAsyncU3Eb__14_m7022_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass15_t1308_VTable[] =
@@ -8130,10 +8130,10 @@ extern TypeInfo U3CU3Ec__DisplayClass18_t1309_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseUser_U3CU3Ec__DisplayClass18MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser/<>c__DisplayClass18::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass18__ctor_m7022_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass18__ctor_m7023_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass18__ctor_m7022/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass18__ctor_m7023/* method */
 	, &U3CU3Ec__DisplayClass18_t1309_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8152,20 +8152,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass18__ctor_m7022_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t1388_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass18_t1309_U3CU3Ec__DisplayClass18_U3CEnableRevocableSessionAsyncU3Eb__17_m7023_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass18_t1309_U3CU3Ec__DisplayClass18_U3CEnableRevocableSessionAsyncU3Eb__17_m7024_ParameterInfos[] = 
 {
 	{"t", 0, 134218787, 0, &Task_1_t1388_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser/<>c__DisplayClass18::<EnableRevocableSessionAsync>b__17(System.Threading.Tasks.Task`1<Parse.ParseUser>)
-extern const MethodInfo U3CU3Ec__DisplayClass18_U3CEnableRevocableSessionAsyncU3Eb__17_m7023_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass18_U3CEnableRevocableSessionAsyncU3Eb__17_m7024_MethodInfo = 
 {
 	"<EnableRevocableSessionAsync>b__17"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass18_U3CEnableRevocableSessionAsyncU3Eb__17_m7023/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass18_U3CEnableRevocableSessionAsyncU3Eb__17_m7024/* method */
 	, &U3CU3Ec__DisplayClass18_t1309_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass18_t1309_U3CU3Ec__DisplayClass18_U3CEnableRevocableSessionAsyncU3Eb__17_m7023_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass18_t1309_U3CU3Ec__DisplayClass18_U3CEnableRevocableSessionAsyncU3Eb__17_m7024_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8181,8 +8181,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass18_U3CEnableRevocableSessionAsyncU3
 };
 static const MethodInfo* U3CU3Ec__DisplayClass18_t1309_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass18__ctor_m7022_MethodInfo,
-	&U3CU3Ec__DisplayClass18_U3CEnableRevocableSessionAsyncU3Eb__17_m7023_MethodInfo,
+	&U3CU3Ec__DisplayClass18__ctor_m7023_MethodInfo,
+	&U3CU3Ec__DisplayClass18_U3CEnableRevocableSessionAsyncU3Eb__17_m7024_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass18_t1309_VTable[] =
@@ -8278,10 +8278,10 @@ extern TypeInfo U3CU3Ec__DisplayClass1b_t1310_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseUser_U3CU3Ec__DisplayClass1bMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser/<>c__DisplayClass1b::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass1b__ctor_m7024_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1b__ctor_m7025_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass1b__ctor_m7024/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass1b__ctor_m7025/* method */
 	, &U3CU3Ec__DisplayClass1b_t1310_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8300,20 +8300,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass1b__ctor_m7024_MethodInfo =
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass1b_t1310_U3CU3Ec__DisplayClass1b_U3CUpgradeToRevocableSessionAsyncU3Eb__1a_m7025_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass1b_t1310_U3CU3Ec__DisplayClass1b_U3CUpgradeToRevocableSessionAsyncU3Eb__1a_m7026_ParameterInfos[] = 
 {
 	{"toAwait", 0, 134218788, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser/<>c__DisplayClass1b::<UpgradeToRevocableSessionAsync>b__1a(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass1b_U3CUpgradeToRevocableSessionAsyncU3Eb__1a_m7025_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1b_U3CUpgradeToRevocableSessionAsyncU3Eb__1a_m7026_MethodInfo = 
 {
 	"<UpgradeToRevocableSessionAsync>b__1a"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass1b_U3CUpgradeToRevocableSessionAsyncU3Eb__1a_m7025/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass1b_U3CUpgradeToRevocableSessionAsyncU3Eb__1a_m7026/* method */
 	, &U3CU3Ec__DisplayClass1b_t1310_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass1b_t1310_U3CU3Ec__DisplayClass1b_U3CUpgradeToRevocableSessionAsyncU3Eb__1a_m7025_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass1b_t1310_U3CU3Ec__DisplayClass1b_U3CUpgradeToRevocableSessionAsyncU3Eb__1a_m7026_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8329,8 +8329,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass1b_U3CUpgradeToRevocableSessionAsyn
 };
 static const MethodInfo* U3CU3Ec__DisplayClass1b_t1310_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass1b__ctor_m7024_MethodInfo,
-	&U3CU3Ec__DisplayClass1b_U3CUpgradeToRevocableSessionAsyncU3Eb__1a_m7025_MethodInfo,
+	&U3CU3Ec__DisplayClass1b__ctor_m7025_MethodInfo,
+	&U3CU3Ec__DisplayClass1b_U3CUpgradeToRevocableSessionAsyncU3Eb__1a_m7026_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass1b_t1310_VTable[] =
@@ -8426,10 +8426,10 @@ extern TypeInfo U3CU3Ec__DisplayClass1f_t1311_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseUser_U3CU3Ec__DisplayClass1fMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser/<>c__DisplayClass1f::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass1f__ctor_m7026_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1f__ctor_m7027_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass1f__ctor_m7026/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass1f__ctor_m7027/* method */
 	, &U3CU3Ec__DisplayClass1f_t1311_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8448,20 +8448,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass1f__ctor_m7026_MethodInfo =
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass1f_t1311_U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAsyncU3Eb__1d_m7027_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass1f_t1311_U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAsyncU3Eb__1d_m7028_ParameterInfos[] = 
 {
 	{"_", 0, 134218789, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>> Parse.ParseUser/<>c__DisplayClass1f::<UpgradeToRevocableSessionAsync>b__1d(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAsyncU3Eb__1d_m7027_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAsyncU3Eb__1d_m7028_MethodInfo = 
 {
 	"<UpgradeToRevocableSessionAsync>b__1d"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAsyncU3Eb__1d_m7027/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAsyncU3Eb__1d_m7028/* method */
 	, &U3CU3Ec__DisplayClass1f_t1311_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass1f_t1311_U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAsyncU3Eb__1d_m7027_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass1f_t1311_U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAsyncU3Eb__1d_m7028_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8477,8 +8477,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAsyn
 };
 static const MethodInfo* U3CU3Ec__DisplayClass1f_t1311_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass1f__ctor_m7026_MethodInfo,
-	&U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAsyncU3Eb__1d_m7027_MethodInfo,
+	&U3CU3Ec__DisplayClass1f__ctor_m7027_MethodInfo,
+	&U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAsyncU3Eb__1d_m7028_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass1f_t1311_VTable[] =
@@ -8574,10 +8574,10 @@ extern TypeInfo U3CU3Ec__DisplayClass23_t1312_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseUser_U3CU3Ec__DisplayClass23MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser/<>c__DisplayClass23::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass23__ctor_m7028_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass23__ctor_m7029_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass23__ctor_m7028/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass23__ctor_m7029/* method */
 	, &U3CU3Ec__DisplayClass23_t1312_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8597,20 +8597,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass23__ctor_m7028_MethodInfo =
 };
 extern const Il2CppType Task_1_t1371_0_0_0;
 extern const Il2CppType Task_1_t1371_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass23_t1312_U3CU3Ec__DisplayClass23_U3CLinkWithAsyncU3Eb__22_m7029_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass23_t1312_U3CU3Ec__DisplayClass23_U3CLinkWithAsyncU3Eb__22_m7030_ParameterInfos[] = 
 {
 	{"t", 0, 134218790, 0, &Task_1_t1371_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser/<>c__DisplayClass23::<LinkWithAsync>b__22(System.Threading.Tasks.Task`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>)
-extern const MethodInfo U3CU3Ec__DisplayClass23_U3CLinkWithAsyncU3Eb__22_m7029_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass23_U3CLinkWithAsyncU3Eb__22_m7030_MethodInfo = 
 {
 	"<LinkWithAsync>b__22"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass23_U3CLinkWithAsyncU3Eb__22_m7029/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass23_U3CLinkWithAsyncU3Eb__22_m7030/* method */
 	, &U3CU3Ec__DisplayClass23_t1312_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass23_t1312_U3CU3Ec__DisplayClass23_U3CLinkWithAsyncU3Eb__22_m7029_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass23_t1312_U3CU3Ec__DisplayClass23_U3CLinkWithAsyncU3Eb__22_m7030_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8626,8 +8626,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass23_U3CLinkWithAsyncU3Eb__22_m7029_M
 };
 static const MethodInfo* U3CU3Ec__DisplayClass23_t1312_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass23__ctor_m7028_MethodInfo,
-	&U3CU3Ec__DisplayClass23_U3CLinkWithAsyncU3Eb__22_m7029_MethodInfo,
+	&U3CU3Ec__DisplayClass23__ctor_m7029_MethodInfo,
+	&U3CU3Ec__DisplayClass23_U3CLinkWithAsyncU3Eb__22_m7030_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass23_t1312_VTable[] =
@@ -8723,10 +8723,10 @@ extern TypeInfo U3CU3Ec__DisplayClass28_t1313_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseUser_U3CU3Ec__DisplayClass28MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser/<>c__DisplayClass28::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass28__ctor_m7030_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass28__ctor_m7031_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass28__ctor_m7030/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass28__ctor_m7031/* method */
 	, &U3CU3Ec__DisplayClass28_t1313_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8745,20 +8745,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass28__ctor_m7030_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t1385_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass28_t1313_U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__26_m7031_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass28_t1313_U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__26_m7032_ParameterInfos[] = 
 {
 	{"t", 0, 134218791, 0, &Task_1_t1385_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser/<>c__DisplayClass28::<LogInWithAsync>b__26(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-extern const MethodInfo U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__26_m7031_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__26_m7032_MethodInfo = 
 {
 	"<LogInWithAsync>b__26"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__26_m7031/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__26_m7032/* method */
 	, &U3CU3Ec__DisplayClass28_t1313_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass28_t1313_U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__26_m7031_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass28_t1313_U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__26_m7032_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8773,20 +8773,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__26_m7031_
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass28_t1313_U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__27_m7032_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass28_t1313_U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__27_m7033_ParameterInfos[] = 
 {
 	{"t", 0, 134218792, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseUser Parse.ParseUser/<>c__DisplayClass28::<LogInWithAsync>b__27(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__27_m7032_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__27_m7033_MethodInfo = 
 {
 	"<LogInWithAsync>b__27"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__27_m7032/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__27_m7033/* method */
 	, &U3CU3Ec__DisplayClass28_t1313_il2cpp_TypeInfo/* declaring_type */
 	, &ParseUser_t1303_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass28_t1313_U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__27_m7032_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass28_t1313_U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__27_m7033_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8802,9 +8802,9 @@ extern const MethodInfo U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__27_m7032_
 };
 static const MethodInfo* U3CU3Ec__DisplayClass28_t1313_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass28__ctor_m7030_MethodInfo,
-	&U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__26_m7031_MethodInfo,
-	&U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__27_m7032_MethodInfo,
+	&U3CU3Ec__DisplayClass28__ctor_m7031_MethodInfo,
+	&U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__26_m7032_MethodInfo,
+	&U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__27_m7033_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass28_t1313_VTable[] =
@@ -8900,10 +8900,10 @@ extern TypeInfo U3CU3Ec__DisplayClass2b_t1314_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_ParseUser_U3CU3Ec__DisplayClass2bMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser/<>c__DisplayClass2b::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass2b__ctor_m7033_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass2b__ctor_m7034_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass2b__ctor_m7033/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass2b__ctor_m7034/* method */
 	, &U3CU3Ec__DisplayClass2b_t1314_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8922,20 +8922,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass2b__ctor_m7033_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t1371_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass2b_t1314_U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7034_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass2b_t1314_U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7035_ParameterInfos[] = 
 {
 	{"authData", 0, 134218793, 0, &Task_1_t1371_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<Parse.ParseUser> Parse.ParseUser/<>c__DisplayClass2b::<LogInWithAsync>b__2a(System.Threading.Tasks.Task`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>)
-extern const MethodInfo U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7034_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7035_MethodInfo = 
 {
 	"<LogInWithAsync>b__2a"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7034/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7035/* method */
 	, &U3CU3Ec__DisplayClass2b_t1314_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1388_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass2b_t1314_U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7034_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass2b_t1314_U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7035_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8951,8 +8951,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7034_
 };
 static const MethodInfo* U3CU3Ec__DisplayClass2b_t1314_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass2b__ctor_m7033_MethodInfo,
-	&U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7034_MethodInfo,
+	&U3CU3Ec__DisplayClass2b__ctor_m7034_MethodInfo,
+	&U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7035_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass2b_t1314_VTable[] =
@@ -9047,10 +9047,10 @@ TypeInfo U3CU3Ec__DisplayClass2b_t1314_il2cpp_TypeInfo =
 #include "Parse_Unity_Parse_ParseUserMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::.ctor()
-extern const MethodInfo ParseUser__ctor_m7035_MethodInfo = 
+extern const MethodInfo ParseUser__ctor_m7036_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ParseUser__ctor_m7035/* method */
+	, (methodPointerType)&ParseUser__ctor_m7036/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9070,10 +9070,10 @@ extern const MethodInfo ParseUser__ctor_m7035_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.ParseUser::get_IsAuthenticated()
-extern const MethodInfo ParseUser_get_IsAuthenticated_m7036_MethodInfo = 
+extern const MethodInfo ParseUser_get_IsAuthenticated_m7037_MethodInfo = 
 {
 	"get_IsAuthenticated"/* name */
-	, (methodPointerType)&ParseUser_get_IsAuthenticated_m7036/* method */
+	, (methodPointerType)&ParseUser_get_IsAuthenticated_m7037/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -9092,20 +9092,20 @@ extern const MethodInfo ParseUser_get_IsAuthenticated_m7036_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_Remove_m7037_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_Remove_m7038_ParameterInfos[] = 
 {
 	{"key", 0, 134218722, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::Remove(System.String)
-extern const MethodInfo ParseUser_Remove_m7037_MethodInfo = 
+extern const MethodInfo ParseUser_Remove_m7038_MethodInfo = 
 {
 	"Remove"/* name */
-	, (methodPointerType)&ParseUser_Remove_m7037/* method */
+	, (methodPointerType)&ParseUser_Remove_m7038/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_Remove_m7037_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_Remove_m7038_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -9120,20 +9120,20 @@ extern const MethodInfo ParseUser_Remove_m7037_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_IsKeyMutable_m7038_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_IsKeyMutable_m7039_ParameterInfos[] = 
 {
 	{"key", 0, 134218723, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.ParseUser::IsKeyMutable(System.String)
-extern const MethodInfo ParseUser_IsKeyMutable_m7038_MethodInfo = 
+extern const MethodInfo ParseUser_IsKeyMutable_m7039_MethodInfo = 
 {
 	"IsKeyMutable"/* name */
-	, (methodPointerType)&ParseUser_IsKeyMutable_m7038/* method */
+	, (methodPointerType)&ParseUser_IsKeyMutable_m7039/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_IsKeyMutable_m7038_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_IsKeyMutable_m7039_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 707/* flags */
 	, 0/* iflags */
@@ -9148,20 +9148,20 @@ extern const MethodInfo ParseUser_IsKeyMutable_m7038_MethodInfo =
 
 };
 extern const Il2CppType IDictionary_2_t820_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_MergeMagicFields_m7039_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_MergeMagicFields_m7040_ParameterInfos[] = 
 {
 	{"data", 0, 134218724, 0, &IDictionary_2_t820_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::MergeMagicFields(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern const MethodInfo ParseUser_MergeMagicFields_m7039_MethodInfo = 
+extern const MethodInfo ParseUser_MergeMagicFields_m7040_MethodInfo = 
 {
 	"MergeMagicFields"/* name */
-	, (methodPointerType)&ParseUser_MergeMagicFields_m7039/* method */
+	, (methodPointerType)&ParseUser_MergeMagicFields_m7040/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_MergeMagicFields_m7039_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_MergeMagicFields_m7040_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 707/* flags */
 	, 0/* iflags */
@@ -9176,20 +9176,20 @@ extern const MethodInfo ParseUser_MergeMagicFields_m7039_MethodInfo =
 
 };
 extern const Il2CppType IDictionary_2_t820_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_MergeAfterSave_m7040_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_MergeAfterSave_m7041_ParameterInfos[] = 
 {
 	{"result", 0, 134218725, 0, &IDictionary_2_t820_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::MergeAfterSave(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern const MethodInfo ParseUser_MergeAfterSave_m7040_MethodInfo = 
+extern const MethodInfo ParseUser_MergeAfterSave_m7041_MethodInfo = 
 {
 	"MergeAfterSave"/* name */
-	, (methodPointerType)&ParseUser_MergeAfterSave_m7040/* method */
+	, (methodPointerType)&ParseUser_MergeAfterSave_m7041/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_MergeAfterSave_m7040_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_MergeAfterSave_m7041_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 707/* flags */
 	, 0/* iflags */
@@ -9204,20 +9204,20 @@ extern const MethodInfo ParseUser_MergeAfterSave_m7040_MethodInfo =
 
 };
 extern const Il2CppType IDictionary_2_t820_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_MergeAfterFetch_m7041_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_MergeAfterFetch_m7042_ParameterInfos[] = 
 {
 	{"result", 0, 134218726, 0, &IDictionary_2_t820_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::MergeAfterFetch(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern const MethodInfo ParseUser_MergeAfterFetch_m7041_MethodInfo = 
+extern const MethodInfo ParseUser_MergeAfterFetch_m7042_MethodInfo = 
 {
 	"MergeAfterFetch"/* name */
-	, (methodPointerType)&ParseUser_MergeAfterFetch_m7041/* method */
+	, (methodPointerType)&ParseUser_MergeAfterFetch_m7042/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_MergeAfterFetch_m7041_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_MergeAfterFetch_m7042_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 707/* flags */
 	, 0/* iflags */
@@ -9233,10 +9233,10 @@ extern const MethodInfo ParseUser_MergeAfterFetch_m7041_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseUser::get_SessionToken()
-extern const MethodInfo ParseUser_get_SessionToken_m7042_MethodInfo = 
+extern const MethodInfo ParseUser_get_SessionToken_m7043_MethodInfo = 
 {
 	"get_SessionToken"/* name */
-	, (methodPointerType)&ParseUser_get_SessionToken_m7042/* method */
+	, (methodPointerType)&ParseUser_get_SessionToken_m7043/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9255,20 +9255,20 @@ extern const MethodInfo ParseUser_get_SessionToken_m7042_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_SetSessionTokenAsync_m7043_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_SetSessionTokenAsync_m7044_ParameterInfos[] = 
 {
 	{"newSessionToken", 0, 134218727, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::SetSessionTokenAsync(System.String)
-extern const MethodInfo ParseUser_SetSessionTokenAsync_m7043_MethodInfo = 
+extern const MethodInfo ParseUser_SetSessionTokenAsync_m7044_MethodInfo = 
 {
 	"SetSessionTokenAsync"/* name */
-	, (methodPointerType)&ParseUser_SetSessionTokenAsync_m7043/* method */
+	, (methodPointerType)&ParseUser_SetSessionTokenAsync_m7044/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_SetSessionTokenAsync_m7043_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_SetSessionTokenAsync_m7044_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -9284,21 +9284,21 @@ extern const MethodInfo ParseUser_SetSessionTokenAsync_m7043_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_SetSessionTokenAsync_m7044_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_SetSessionTokenAsync_m7045_ParameterInfos[] = 
 {
 	{"newSessionToken", 0, 134218728, 0, &String_t_0_0_0},
 	{"cancellationToken", 1, 134218729, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::SetSessionTokenAsync(System.String,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_SetSessionTokenAsync_m7044_MethodInfo = 
+extern const MethodInfo ParseUser_SetSessionTokenAsync_m7045_MethodInfo = 
 {
 	"SetSessionTokenAsync"/* name */
-	, (methodPointerType)&ParseUser_SetSessionTokenAsync_m7044/* method */
+	, (methodPointerType)&ParseUser_SetSessionTokenAsync_m7045/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_SetSessionTokenAsync_m7044_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_SetSessionTokenAsync_m7045_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -9314,10 +9314,10 @@ extern const MethodInfo ParseUser_SetSessionTokenAsync_m7044_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseUser::get_Username()
-extern const MethodInfo ParseUser_get_Username_m7045_MethodInfo = 
+extern const MethodInfo ParseUser_get_Username_m7046_MethodInfo = 
 {
 	"get_Username"/* name */
-	, (methodPointerType)&ParseUser_get_Username_m7045/* method */
+	, (methodPointerType)&ParseUser_get_Username_m7046/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9336,20 +9336,20 @@ extern const MethodInfo ParseUser_get_Username_m7045_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_set_Username_m7046_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_set_Username_m7047_ParameterInfos[] = 
 {
 	{"value", 0, 134218730, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::set_Username(System.String)
-extern const MethodInfo ParseUser_set_Username_m7046_MethodInfo = 
+extern const MethodInfo ParseUser_set_Username_m7047_MethodInfo = 
 {
 	"set_Username"/* name */
-	, (methodPointerType)&ParseUser_set_Username_m7046/* method */
+	, (methodPointerType)&ParseUser_set_Username_m7047/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_set_Username_m7046_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_set_Username_m7047_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -9365,10 +9365,10 @@ extern const MethodInfo ParseUser_set_Username_m7046_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseUser::get_Password()
-extern const MethodInfo ParseUser_get_Password_m7047_MethodInfo = 
+extern const MethodInfo ParseUser_get_Password_m7048_MethodInfo = 
 {
 	"get_Password"/* name */
-	, (methodPointerType)&ParseUser_get_Password_m7047/* method */
+	, (methodPointerType)&ParseUser_get_Password_m7048/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9387,20 +9387,20 @@ extern const MethodInfo ParseUser_get_Password_m7047_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_set_Password_m7048_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_set_Password_m7049_ParameterInfos[] = 
 {
 	{"value", 0, 134218731, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::set_Password(System.String)
-extern const MethodInfo ParseUser_set_Password_m7048_MethodInfo = 
+extern const MethodInfo ParseUser_set_Password_m7049_MethodInfo = 
 {
 	"set_Password"/* name */
-	, (methodPointerType)&ParseUser_set_Password_m7048/* method */
+	, (methodPointerType)&ParseUser_set_Password_m7049/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_set_Password_m7048_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_set_Password_m7049_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -9416,10 +9416,10 @@ extern const MethodInfo ParseUser_set_Password_m7048_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseUser::get_Email()
-extern const MethodInfo ParseUser_get_Email_m7049_MethodInfo = 
+extern const MethodInfo ParseUser_get_Email_m7050_MethodInfo = 
 {
 	"get_Email"/* name */
-	, (methodPointerType)&ParseUser_get_Email_m7049/* method */
+	, (methodPointerType)&ParseUser_get_Email_m7050/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9438,20 +9438,20 @@ extern const MethodInfo ParseUser_get_Email_m7049_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_set_Email_m7050_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_set_Email_m7051_ParameterInfos[] = 
 {
 	{"value", 0, 134218732, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::set_Email(System.String)
-extern const MethodInfo ParseUser_set_Email_m7050_MethodInfo = 
+extern const MethodInfo ParseUser_set_Email_m7051_MethodInfo = 
 {
 	"set_Email"/* name */
-	, (methodPointerType)&ParseUser_set_Email_m7050/* method */
+	, (methodPointerType)&ParseUser_set_Email_m7051/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_set_Email_m7050_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_set_Email_m7051_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -9467,21 +9467,21 @@ extern const MethodInfo ParseUser_set_Email_m7050_MethodInfo =
 };
 extern const Il2CppType Task_t1208_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_SignUpAsync_m7051_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_SignUpAsync_m7052_ParameterInfos[] = 
 {
 	{"toAwait", 0, 134218733, 0, &Task_t1208_0_0_0},
 	{"cancellationToken", 1, 134218734, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::SignUpAsync(System.Threading.Tasks.Task,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_SignUpAsync_m7051_MethodInfo = 
+extern const MethodInfo ParseUser_SignUpAsync_m7052_MethodInfo = 
 {
 	"SignUpAsync"/* name */
-	, (methodPointerType)&ParseUser_SignUpAsync_m7051/* method */
+	, (methodPointerType)&ParseUser_SignUpAsync_m7052/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_SignUpAsync_m7051_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_SignUpAsync_m7052_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -9497,10 +9497,10 @@ extern const MethodInfo ParseUser_SignUpAsync_m7051_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::SignUpAsync()
-extern const MethodInfo ParseUser_SignUpAsync_m7052_MethodInfo = 
+extern const MethodInfo ParseUser_SignUpAsync_m7053_MethodInfo = 
 {
 	"SignUpAsync"/* name */
-	, (methodPointerType)&ParseUser_SignUpAsync_m7052/* method */
+	, (methodPointerType)&ParseUser_SignUpAsync_m7053/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9519,20 +9519,20 @@ extern const MethodInfo ParseUser_SignUpAsync_m7052_MethodInfo =
 
 };
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_SignUpAsync_m7053_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_SignUpAsync_m7054_ParameterInfos[] = 
 {
 	{"cancellationToken", 0, 134218735, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::SignUpAsync(System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_SignUpAsync_m7053_MethodInfo = 
+extern const MethodInfo ParseUser_SignUpAsync_m7054_MethodInfo = 
 {
 	"SignUpAsync"/* name */
-	, (methodPointerType)&ParseUser_SignUpAsync_m7053/* method */
+	, (methodPointerType)&ParseUser_SignUpAsync_m7054/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_SignUpAsync_m7053_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_SignUpAsync_m7054_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -9548,21 +9548,21 @@ extern const MethodInfo ParseUser_SignUpAsync_m7053_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_LogInAsync_m7054_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_LogInAsync_m7055_ParameterInfos[] = 
 {
 	{"username", 0, 134218736, 0, &String_t_0_0_0},
 	{"password", 1, 134218737, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<Parse.ParseUser> Parse.ParseUser::LogInAsync(System.String,System.String)
-extern const MethodInfo ParseUser_LogInAsync_m7054_MethodInfo = 
+extern const MethodInfo ParseUser_LogInAsync_m7055_MethodInfo = 
 {
 	"LogInAsync"/* name */
-	, (methodPointerType)&ParseUser_LogInAsync_m7054/* method */
+	, (methodPointerType)&ParseUser_LogInAsync_m7055/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1388_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_LogInAsync_m7054_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_LogInAsync_m7055_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -9579,7 +9579,7 @@ extern const MethodInfo ParseUser_LogInAsync_m7054_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_LogInAsync_m7055_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_LogInAsync_m7056_ParameterInfos[] = 
 {
 	{"username", 0, 134218738, 0, &String_t_0_0_0},
 	{"password", 1, 134218739, 0, &String_t_0_0_0},
@@ -9587,14 +9587,14 @@ static const ParameterInfo ParseUser_t1303_ParseUser_LogInAsync_m7055_ParameterI
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<Parse.ParseUser> Parse.ParseUser::LogInAsync(System.String,System.String,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_LogInAsync_m7055_MethodInfo = 
+extern const MethodInfo ParseUser_LogInAsync_m7056_MethodInfo = 
 {
 	"LogInAsync"/* name */
-	, (methodPointerType)&ParseUser_LogInAsync_m7055/* method */
+	, (methodPointerType)&ParseUser_LogInAsync_m7056/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1388_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_LogInAsync_m7055_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_LogInAsync_m7056_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -9609,20 +9609,20 @@ extern const MethodInfo ParseUser_LogInAsync_m7055_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_BecomeAsync_m7056_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_BecomeAsync_m7057_ParameterInfos[] = 
 {
 	{"sessionToken", 0, 134218741, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<Parse.ParseUser> Parse.ParseUser::BecomeAsync(System.String)
-extern const MethodInfo ParseUser_BecomeAsync_m7056_MethodInfo = 
+extern const MethodInfo ParseUser_BecomeAsync_m7057_MethodInfo = 
 {
 	"BecomeAsync"/* name */
-	, (methodPointerType)&ParseUser_BecomeAsync_m7056/* method */
+	, (methodPointerType)&ParseUser_BecomeAsync_m7057/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1388_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_BecomeAsync_m7056_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_BecomeAsync_m7057_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -9638,21 +9638,21 @@ extern const MethodInfo ParseUser_BecomeAsync_m7056_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_BecomeAsync_m7057_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_BecomeAsync_m7058_ParameterInfos[] = 
 {
 	{"sessionToken", 0, 134218742, 0, &String_t_0_0_0},
 	{"cancellationToken", 1, 134218743, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<Parse.ParseUser> Parse.ParseUser::BecomeAsync(System.String,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_BecomeAsync_m7057_MethodInfo = 
+extern const MethodInfo ParseUser_BecomeAsync_m7058_MethodInfo = 
 {
 	"BecomeAsync"/* name */
-	, (methodPointerType)&ParseUser_BecomeAsync_m7057/* method */
+	, (methodPointerType)&ParseUser_BecomeAsync_m7058/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1388_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_BecomeAsync_m7057_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_BecomeAsync_m7058_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -9668,21 +9668,21 @@ extern const MethodInfo ParseUser_BecomeAsync_m7057_MethodInfo =
 };
 extern const Il2CppType Task_t1208_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_SaveAsync_m7058_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_SaveAsync_m7059_ParameterInfos[] = 
 {
 	{"toAwait", 0, 134218744, 0, &Task_t1208_0_0_0},
 	{"cancellationToken", 1, 134218745, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::SaveAsync(System.Threading.Tasks.Task,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_SaveAsync_m7058_MethodInfo = 
+extern const MethodInfo ParseUser_SaveAsync_m7059_MethodInfo = 
 {
 	"SaveAsync"/* name */
-	, (methodPointerType)&ParseUser_SaveAsync_m7058/* method */
+	, (methodPointerType)&ParseUser_SaveAsync_m7059/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_SaveAsync_m7058_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_SaveAsync_m7059_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 707/* flags */
 	, 0/* iflags */
@@ -9698,7 +9698,7 @@ extern const MethodInfo ParseUser_SaveAsync_m7058_MethodInfo =
 };
 extern const Il2CppType Task_t1208_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_FetchAsyncInternal_m7059_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_FetchAsyncInternal_m7060_ParameterInfos[] = 
 {
 	{"toAwait", 0, 134218746, 0, &Task_t1208_0_0_0},
 	{"cancellationToken", 1, 134218747, 0, &CancellationToken_t1162_0_0_0},
@@ -9706,14 +9706,14 @@ static const ParameterInfo ParseUser_t1303_ParseUser_FetchAsyncInternal_m7059_Pa
 extern const Il2CppType Task_1_t1392_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<Parse.ParseObject> Parse.ParseUser::FetchAsyncInternal(System.Threading.Tasks.Task,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_FetchAsyncInternal_m7059_MethodInfo = 
+extern const MethodInfo ParseUser_FetchAsyncInternal_m7060_MethodInfo = 
 {
 	"FetchAsyncInternal"/* name */
-	, (methodPointerType)&ParseUser_FetchAsyncInternal_m7059/* method */
+	, (methodPointerType)&ParseUser_FetchAsyncInternal_m7060/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1392_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_FetchAsyncInternal_m7059_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_FetchAsyncInternal_m7060_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 707/* flags */
 	, 0/* iflags */
@@ -9729,10 +9729,10 @@ extern const MethodInfo ParseUser_FetchAsyncInternal_m7059_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::LogOut()
-extern const MethodInfo ParseUser_LogOut_m7060_MethodInfo = 
+extern const MethodInfo ParseUser_LogOut_m7061_MethodInfo = 
 {
 	"LogOut"/* name */
-	, (methodPointerType)&ParseUser_LogOut_m7060/* method */
+	, (methodPointerType)&ParseUser_LogOut_m7061/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9752,10 +9752,10 @@ extern const MethodInfo ParseUser_LogOut_m7060_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::LogOutAsync()
-extern const MethodInfo ParseUser_LogOutAsync_m7061_MethodInfo = 
+extern const MethodInfo ParseUser_LogOutAsync_m7062_MethodInfo = 
 {
 	"LogOutAsync"/* name */
-	, (methodPointerType)&ParseUser_LogOutAsync_m7061/* method */
+	, (methodPointerType)&ParseUser_LogOutAsync_m7062/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9774,20 +9774,20 @@ extern const MethodInfo ParseUser_LogOutAsync_m7061_MethodInfo =
 
 };
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_LogOutAsync_m7062_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_LogOutAsync_m7063_ParameterInfos[] = 
 {
 	{"cancellationToken", 0, 134218748, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::LogOutAsync(System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_LogOutAsync_m7062_MethodInfo = 
+extern const MethodInfo ParseUser_LogOutAsync_m7063_MethodInfo = 
 {
 	"LogOutAsync"/* name */
-	, (methodPointerType)&ParseUser_LogOutAsync_m7062/* method */
+	, (methodPointerType)&ParseUser_LogOutAsync_m7063/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_LogOutAsync_m7062_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_LogOutAsync_m7063_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -9803,10 +9803,10 @@ extern const MethodInfo ParseUser_LogOutAsync_m7062_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.ParseUser::get_CurrentSessionToken()
-extern const MethodInfo ParseUser_get_CurrentSessionToken_m7063_MethodInfo = 
+extern const MethodInfo ParseUser_get_CurrentSessionToken_m7064_MethodInfo = 
 {
 	"get_CurrentSessionToken"/* name */
-	, (methodPointerType)&ParseUser_get_CurrentSessionToken_m7063/* method */
+	, (methodPointerType)&ParseUser_get_CurrentSessionToken_m7064/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9826,10 +9826,10 @@ extern const MethodInfo ParseUser_get_CurrentSessionToken_m7063_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseUser Parse.ParseUser::get_CurrentUser()
-extern const MethodInfo ParseUser_get_CurrentUser_m7064_MethodInfo = 
+extern const MethodInfo ParseUser_get_CurrentUser_m7065_MethodInfo = 
 {
 	"get_CurrentUser"/* name */
-	, (methodPointerType)&ParseUser_get_CurrentUser_m7064/* method */
+	, (methodPointerType)&ParseUser_get_CurrentUser_m7065/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &ParseUser_t1303_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9849,10 +9849,10 @@ extern const MethodInfo ParseUser_get_CurrentUser_m7064_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<Parse.ParseUser> Parse.ParseUser::GetCurrentUserAsync()
-extern const MethodInfo ParseUser_GetCurrentUserAsync_m7065_MethodInfo = 
+extern const MethodInfo ParseUser_GetCurrentUserAsync_m7066_MethodInfo = 
 {
 	"GetCurrentUserAsync"/* name */
-	, (methodPointerType)&ParseUser_GetCurrentUserAsync_m7065/* method */
+	, (methodPointerType)&ParseUser_GetCurrentUserAsync_m7066/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1388_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9871,20 +9871,20 @@ extern const MethodInfo ParseUser_GetCurrentUserAsync_m7065_MethodInfo =
 
 };
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_GetCurrentUserAsync_m7066_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_GetCurrentUserAsync_m7067_ParameterInfos[] = 
 {
 	{"cancellationToken", 0, 134218749, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<Parse.ParseUser> Parse.ParseUser::GetCurrentUserAsync(System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_GetCurrentUserAsync_m7066_MethodInfo = 
+extern const MethodInfo ParseUser_GetCurrentUserAsync_m7067_MethodInfo = 
 {
 	"GetCurrentUserAsync"/* name */
-	, (methodPointerType)&ParseUser_GetCurrentUserAsync_m7066/* method */
+	, (methodPointerType)&ParseUser_GetCurrentUserAsync_m7067/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1388_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_GetCurrentUserAsync_m7066_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_GetCurrentUserAsync_m7067_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -9899,20 +9899,20 @@ extern const MethodInfo ParseUser_GetCurrentUserAsync_m7066_MethodInfo =
 
 };
 extern const Il2CppType ParseUser_t1303_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_SaveCurrentUser_m7067_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_SaveCurrentUser_m7068_ParameterInfos[] = 
 {
 	{"user", 0, 134218750, 0, &ParseUser_t1303_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::SaveCurrentUser(Parse.ParseUser)
-extern const MethodInfo ParseUser_SaveCurrentUser_m7067_MethodInfo = 
+extern const MethodInfo ParseUser_SaveCurrentUser_m7068_MethodInfo = 
 {
 	"SaveCurrentUser"/* name */
-	, (methodPointerType)&ParseUser_SaveCurrentUser_m7067/* method */
+	, (methodPointerType)&ParseUser_SaveCurrentUser_m7068/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_SaveCurrentUser_m7067_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_SaveCurrentUser_m7068_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -9927,20 +9927,20 @@ extern const MethodInfo ParseUser_SaveCurrentUser_m7067_MethodInfo =
 
 };
 extern const Il2CppType ParseUser_t1303_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_SaveCurrentUserAsync_m7068_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_SaveCurrentUserAsync_m7069_ParameterInfos[] = 
 {
 	{"user", 0, 134218751, 0, &ParseUser_t1303_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::SaveCurrentUserAsync(Parse.ParseUser)
-extern const MethodInfo ParseUser_SaveCurrentUserAsync_m7068_MethodInfo = 
+extern const MethodInfo ParseUser_SaveCurrentUserAsync_m7069_MethodInfo = 
 {
 	"SaveCurrentUserAsync"/* name */
-	, (methodPointerType)&ParseUser_SaveCurrentUserAsync_m7068/* method */
+	, (methodPointerType)&ParseUser_SaveCurrentUserAsync_m7069/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_SaveCurrentUserAsync_m7068_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_SaveCurrentUserAsync_m7069_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -9956,21 +9956,21 @@ extern const MethodInfo ParseUser_SaveCurrentUserAsync_m7068_MethodInfo =
 };
 extern const Il2CppType ParseUser_t1303_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_SaveCurrentUserAsync_m7069_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_SaveCurrentUserAsync_m7070_ParameterInfos[] = 
 {
 	{"user", 0, 134218752, 0, &ParseUser_t1303_0_0_0},
 	{"cancellationToken", 1, 134218753, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::SaveCurrentUserAsync(Parse.ParseUser,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_SaveCurrentUserAsync_m7069_MethodInfo = 
+extern const MethodInfo ParseUser_SaveCurrentUserAsync_m7070_MethodInfo = 
 {
 	"SaveCurrentUserAsync"/* name */
-	, (methodPointerType)&ParseUser_SaveCurrentUserAsync_m7069/* method */
+	, (methodPointerType)&ParseUser_SaveCurrentUserAsync_m7070/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_SaveCurrentUserAsync_m7069_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_SaveCurrentUserAsync_m7070_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -9986,10 +9986,10 @@ extern const MethodInfo ParseUser_SaveCurrentUserAsync_m7069_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::ClearInMemoryUser()
-extern const MethodInfo ParseUser_ClearInMemoryUser_m7070_MethodInfo = 
+extern const MethodInfo ParseUser_ClearInMemoryUser_m7071_MethodInfo = 
 {
 	"ClearInMemoryUser"/* name */
-	, (methodPointerType)&ParseUser_ClearInMemoryUser_m7070/* method */
+	, (methodPointerType)&ParseUser_ClearInMemoryUser_m7071/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10009,10 +10009,10 @@ extern const MethodInfo ParseUser_ClearInMemoryUser_m7070_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.ParseUser::get_IsCurrentUser()
-extern const MethodInfo ParseUser_get_IsCurrentUser_m7071_MethodInfo = 
+extern const MethodInfo ParseUser_get_IsCurrentUser_m7072_MethodInfo = 
 {
 	"get_IsCurrentUser"/* name */
-	, (methodPointerType)&ParseUser_get_IsCurrentUser_m7071/* method */
+	, (methodPointerType)&ParseUser_get_IsCurrentUser_m7072/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -10033,10 +10033,10 @@ extern const MethodInfo ParseUser_get_IsCurrentUser_m7071_MethodInfo =
 extern const Il2CppType ParseQuery_1_t1407_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseQuery`1<Parse.ParseUser> Parse.ParseUser::get_Query()
-extern const MethodInfo ParseUser_get_Query_m7072_MethodInfo = 
+extern const MethodInfo ParseUser_get_Query_m7073_MethodInfo = 
 {
 	"get_Query"/* name */
-	, (methodPointerType)&ParseUser_get_Query_m7072/* method */
+	, (methodPointerType)&ParseUser_get_Query_m7073/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &ParseQuery_1_t1407_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10056,10 +10056,10 @@ extern const MethodInfo ParseUser_get_Query_m7072_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::EnableRevocableSessionAsync()
-extern const MethodInfo ParseUser_EnableRevocableSessionAsync_m7073_MethodInfo = 
+extern const MethodInfo ParseUser_EnableRevocableSessionAsync_m7074_MethodInfo = 
 {
 	"EnableRevocableSessionAsync"/* name */
-	, (methodPointerType)&ParseUser_EnableRevocableSessionAsync_m7073/* method */
+	, (methodPointerType)&ParseUser_EnableRevocableSessionAsync_m7074/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10078,20 +10078,20 @@ extern const MethodInfo ParseUser_EnableRevocableSessionAsync_m7073_MethodInfo =
 
 };
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_EnableRevocableSessionAsync_m7074_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_EnableRevocableSessionAsync_m7075_ParameterInfos[] = 
 {
 	{"cancellationToken", 0, 134218754, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::EnableRevocableSessionAsync(System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_EnableRevocableSessionAsync_m7074_MethodInfo = 
+extern const MethodInfo ParseUser_EnableRevocableSessionAsync_m7075_MethodInfo = 
 {
 	"EnableRevocableSessionAsync"/* name */
-	, (methodPointerType)&ParseUser_EnableRevocableSessionAsync_m7074/* method */
+	, (methodPointerType)&ParseUser_EnableRevocableSessionAsync_m7075/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_EnableRevocableSessionAsync_m7074_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_EnableRevocableSessionAsync_m7075_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -10107,10 +10107,10 @@ extern const MethodInfo ParseUser_EnableRevocableSessionAsync_m7074_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::DisableRevocableSession()
-extern const MethodInfo ParseUser_DisableRevocableSession_m7075_MethodInfo = 
+extern const MethodInfo ParseUser_DisableRevocableSession_m7076_MethodInfo = 
 {
 	"DisableRevocableSession"/* name */
-	, (methodPointerType)&ParseUser_DisableRevocableSession_m7075/* method */
+	, (methodPointerType)&ParseUser_DisableRevocableSession_m7076/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10130,10 +10130,10 @@ extern const MethodInfo ParseUser_DisableRevocableSession_m7075_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.ParseUser::get_IsRevocableSessionEnabled()
-extern const MethodInfo ParseUser_get_IsRevocableSessionEnabled_m7076_MethodInfo = 
+extern const MethodInfo ParseUser_get_IsRevocableSessionEnabled_m7077_MethodInfo = 
 {
 	"get_IsRevocableSessionEnabled"/* name */
-	, (methodPointerType)&ParseUser_get_IsRevocableSessionEnabled_m7076/* method */
+	, (methodPointerType)&ParseUser_get_IsRevocableSessionEnabled_m7077/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -10152,20 +10152,20 @@ extern const MethodInfo ParseUser_get_IsRevocableSessionEnabled_m7076_MethodInfo
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_IsRevocableSessionToken_m7077_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_IsRevocableSessionToken_m7078_ParameterInfos[] = 
 {
 	{"sessionToken", 0, 134218755, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.ParseUser::IsRevocableSessionToken(System.String)
-extern const MethodInfo ParseUser_IsRevocableSessionToken_m7077_MethodInfo = 
+extern const MethodInfo ParseUser_IsRevocableSessionToken_m7078_MethodInfo = 
 {
 	"IsRevocableSessionToken"/* name */
-	, (methodPointerType)&ParseUser_IsRevocableSessionToken_m7077/* method */
+	, (methodPointerType)&ParseUser_IsRevocableSessionToken_m7078/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_IsRevocableSessionToken_m7077_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_IsRevocableSessionToken_m7078_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -10181,10 +10181,10 @@ extern const MethodInfo ParseUser_IsRevocableSessionToken_m7077_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::UpgradeToRevocableSessionAsync()
-extern const MethodInfo ParseUser_UpgradeToRevocableSessionAsync_m7078_MethodInfo = 
+extern const MethodInfo ParseUser_UpgradeToRevocableSessionAsync_m7079_MethodInfo = 
 {
 	"UpgradeToRevocableSessionAsync"/* name */
-	, (methodPointerType)&ParseUser_UpgradeToRevocableSessionAsync_m7078/* method */
+	, (methodPointerType)&ParseUser_UpgradeToRevocableSessionAsync_m7079/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10203,20 +10203,20 @@ extern const MethodInfo ParseUser_UpgradeToRevocableSessionAsync_m7078_MethodInf
 
 };
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_UpgradeToRevocableSessionAsync_m7079_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_UpgradeToRevocableSessionAsync_m7080_ParameterInfos[] = 
 {
 	{"cancellationToken", 0, 134218756, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::UpgradeToRevocableSessionAsync(System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_UpgradeToRevocableSessionAsync_m7079_MethodInfo = 
+extern const MethodInfo ParseUser_UpgradeToRevocableSessionAsync_m7080_MethodInfo = 
 {
 	"UpgradeToRevocableSessionAsync"/* name */
-	, (methodPointerType)&ParseUser_UpgradeToRevocableSessionAsync_m7079/* method */
+	, (methodPointerType)&ParseUser_UpgradeToRevocableSessionAsync_m7080/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_UpgradeToRevocableSessionAsync_m7079_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_UpgradeToRevocableSessionAsync_m7080_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -10232,21 +10232,21 @@ extern const MethodInfo ParseUser_UpgradeToRevocableSessionAsync_m7079_MethodInf
 };
 extern const Il2CppType Task_t1208_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_UpgradeToRevocableSessionAsync_m7080_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_UpgradeToRevocableSessionAsync_m7081_ParameterInfos[] = 
 {
 	{"toAwait", 0, 134218757, 0, &Task_t1208_0_0_0},
 	{"cancellationToken", 1, 134218758, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::UpgradeToRevocableSessionAsync(System.Threading.Tasks.Task,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_UpgradeToRevocableSessionAsync_m7080_MethodInfo = 
+extern const MethodInfo ParseUser_UpgradeToRevocableSessionAsync_m7081_MethodInfo = 
 {
 	"UpgradeToRevocableSessionAsync"/* name */
-	, (methodPointerType)&ParseUser_UpgradeToRevocableSessionAsync_m7080/* method */
+	, (methodPointerType)&ParseUser_UpgradeToRevocableSessionAsync_m7081/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_UpgradeToRevocableSessionAsync_m7080_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_UpgradeToRevocableSessionAsync_m7081_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -10261,20 +10261,20 @@ extern const MethodInfo ParseUser_UpgradeToRevocableSessionAsync_m7080_MethodInf
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_RequestPasswordResetAsync_m7081_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_RequestPasswordResetAsync_m7082_ParameterInfos[] = 
 {
 	{"email", 0, 134218759, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::RequestPasswordResetAsync(System.String)
-extern const MethodInfo ParseUser_RequestPasswordResetAsync_m7081_MethodInfo = 
+extern const MethodInfo ParseUser_RequestPasswordResetAsync_m7082_MethodInfo = 
 {
 	"RequestPasswordResetAsync"/* name */
-	, (methodPointerType)&ParseUser_RequestPasswordResetAsync_m7081/* method */
+	, (methodPointerType)&ParseUser_RequestPasswordResetAsync_m7082/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_RequestPasswordResetAsync_m7081_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_RequestPasswordResetAsync_m7082_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -10290,21 +10290,21 @@ extern const MethodInfo ParseUser_RequestPasswordResetAsync_m7081_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_RequestPasswordResetAsync_m7082_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_RequestPasswordResetAsync_m7083_ParameterInfos[] = 
 {
 	{"email", 0, 134218760, 0, &String_t_0_0_0},
 	{"cancellationToken", 1, 134218761, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::RequestPasswordResetAsync(System.String,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_RequestPasswordResetAsync_m7082_MethodInfo = 
+extern const MethodInfo ParseUser_RequestPasswordResetAsync_m7083_MethodInfo = 
 {
 	"RequestPasswordResetAsync"/* name */
-	, (methodPointerType)&ParseUser_RequestPasswordResetAsync_m7082/* method */
+	, (methodPointerType)&ParseUser_RequestPasswordResetAsync_m7083/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_RequestPasswordResetAsync_m7082_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_RequestPasswordResetAsync_m7083_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -10321,10 +10321,10 @@ extern const MethodInfo ParseUser_RequestPasswordResetAsync_m7082_MethodInfo =
 extern const Il2CppType IDictionary_2_t1408_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>> Parse.ParseUser::get_AuthData()
-extern const MethodInfo ParseUser_get_AuthData_m7083_MethodInfo = 
+extern const MethodInfo ParseUser_get_AuthData_m7084_MethodInfo = 
 {
 	"get_AuthData"/* name */
-	, (methodPointerType)&ParseUser_get_AuthData_m7083/* method */
+	, (methodPointerType)&ParseUser_get_AuthData_m7084/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &IDictionary_2_t1408_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10343,20 +10343,20 @@ extern const MethodInfo ParseUser_get_AuthData_m7083_MethodInfo =
 
 };
 extern const Il2CppType IDictionary_2_t1408_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_set_AuthData_m7084_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_set_AuthData_m7085_ParameterInfos[] = 
 {
 	{"value", 0, 134218762, 0, &IDictionary_2_t1408_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::set_AuthData(System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>>)
-extern const MethodInfo ParseUser_set_AuthData_m7084_MethodInfo = 
+extern const MethodInfo ParseUser_set_AuthData_m7085_MethodInfo = 
 {
 	"set_AuthData"/* name */
-	, (methodPointerType)&ParseUser_set_AuthData_m7084/* method */
+	, (methodPointerType)&ParseUser_set_AuthData_m7085/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_set_AuthData_m7084_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_set_AuthData_m7085_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2177/* flags */
 	, 0/* iflags */
@@ -10371,21 +10371,21 @@ extern const MethodInfo ParseUser_set_AuthData_m7084_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_GetProvider_m7085_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_GetProvider_m7086_ParameterInfos[] = 
 {
 	{"providerName", 0, 134218763, 0, &String_t_0_0_0},
 };
 extern const Il2CppType IParseAuthenticationProvider_t1409_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.Internal.IParseAuthenticationProvider Parse.ParseUser::GetProvider(System.String)
-extern const MethodInfo ParseUser_GetProvider_m7085_MethodInfo = 
+extern const MethodInfo ParseUser_GetProvider_m7086_MethodInfo = 
 {
 	"GetProvider"/* name */
-	, (methodPointerType)&ParseUser_GetProvider_m7085/* method */
+	, (methodPointerType)&ParseUser_GetProvider_m7086/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &IParseAuthenticationProvider_t1409_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_GetProvider_m7085_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_GetProvider_m7086_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -10401,10 +10401,10 @@ extern const MethodInfo ParseUser_GetProvider_m7085_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::CleanupAuthData()
-extern const MethodInfo ParseUser_CleanupAuthData_m7086_MethodInfo = 
+extern const MethodInfo ParseUser_CleanupAuthData_m7087_MethodInfo = 
 {
 	"CleanupAuthData"/* name */
-	, (methodPointerType)&ParseUser_CleanupAuthData_m7086/* method */
+	, (methodPointerType)&ParseUser_CleanupAuthData_m7087/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10424,10 +10424,10 @@ extern const MethodInfo ParseUser_CleanupAuthData_m7086_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::SynchronizeAllAuthData()
-extern const MethodInfo ParseUser_SynchronizeAllAuthData_m7087_MethodInfo = 
+extern const MethodInfo ParseUser_SynchronizeAllAuthData_m7088_MethodInfo = 
 {
 	"SynchronizeAllAuthData"/* name */
-	, (methodPointerType)&ParseUser_SynchronizeAllAuthData_m7087/* method */
+	, (methodPointerType)&ParseUser_SynchronizeAllAuthData_m7088/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10446,20 +10446,20 @@ extern const MethodInfo ParseUser_SynchronizeAllAuthData_m7087_MethodInfo =
 
 };
 extern const Il2CppType IParseAuthenticationProvider_t1409_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_SynchronizeAuthData_m7088_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_SynchronizeAuthData_m7089_ParameterInfos[] = 
 {
 	{"provider", 0, 134218764, 0, &IParseAuthenticationProvider_t1409_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::SynchronizeAuthData(Parse.Internal.IParseAuthenticationProvider)
-extern const MethodInfo ParseUser_SynchronizeAuthData_m7088_MethodInfo = 
+extern const MethodInfo ParseUser_SynchronizeAuthData_m7089_MethodInfo = 
 {
 	"SynchronizeAuthData"/* name */
-	, (methodPointerType)&ParseUser_SynchronizeAuthData_m7088/* method */
+	, (methodPointerType)&ParseUser_SynchronizeAuthData_m7089/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_SynchronizeAuthData_m7088_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_SynchronizeAuthData_m7089_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -10476,7 +10476,7 @@ extern const MethodInfo ParseUser_SynchronizeAuthData_m7088_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IDictionary_2_t820_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_LinkWithAsync_m7089_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_LinkWithAsync_m7090_ParameterInfos[] = 
 {
 	{"authType", 0, 134218765, 0, &String_t_0_0_0},
 	{"data", 1, 134218766, 0, &IDictionary_2_t820_0_0_0},
@@ -10484,14 +10484,14 @@ static const ParameterInfo ParseUser_t1303_ParseUser_LinkWithAsync_m7089_Paramet
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::LinkWithAsync(System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_LinkWithAsync_m7089_MethodInfo = 
+extern const MethodInfo ParseUser_LinkWithAsync_m7090_MethodInfo = 
 {
 	"LinkWithAsync"/* name */
-	, (methodPointerType)&ParseUser_LinkWithAsync_m7089/* method */
+	, (methodPointerType)&ParseUser_LinkWithAsync_m7090/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_LinkWithAsync_m7089_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_LinkWithAsync_m7090_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -10507,21 +10507,21 @@ extern const MethodInfo ParseUser_LinkWithAsync_m7089_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_LinkWithAsync_m7090_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_LinkWithAsync_m7091_ParameterInfos[] = 
 {
 	{"authType", 0, 134218768, 0, &String_t_0_0_0},
 	{"cancellationToken", 1, 134218769, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::LinkWithAsync(System.String,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_LinkWithAsync_m7090_MethodInfo = 
+extern const MethodInfo ParseUser_LinkWithAsync_m7091_MethodInfo = 
 {
 	"LinkWithAsync"/* name */
-	, (methodPointerType)&ParseUser_LinkWithAsync_m7090/* method */
+	, (methodPointerType)&ParseUser_LinkWithAsync_m7091/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_LinkWithAsync_m7090_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_LinkWithAsync_m7091_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -10537,21 +10537,21 @@ extern const MethodInfo ParseUser_LinkWithAsync_m7090_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_UnlinkFromAsync_m7091_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_UnlinkFromAsync_m7092_ParameterInfos[] = 
 {
 	{"authType", 0, 134218770, 0, &String_t_0_0_0},
 	{"cancellationToken", 1, 134218771, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::UnlinkFromAsync(System.String,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_UnlinkFromAsync_m7091_MethodInfo = 
+extern const MethodInfo ParseUser_UnlinkFromAsync_m7092_MethodInfo = 
 {
 	"UnlinkFromAsync"/* name */
-	, (methodPointerType)&ParseUser_UnlinkFromAsync_m7091/* method */
+	, (methodPointerType)&ParseUser_UnlinkFromAsync_m7092/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_UnlinkFromAsync_m7091_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_UnlinkFromAsync_m7092_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -10566,20 +10566,20 @@ extern const MethodInfo ParseUser_UnlinkFromAsync_m7091_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_IsLinked_m7092_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_IsLinked_m7093_ParameterInfos[] = 
 {
 	{"authType", 0, 134218772, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.ParseUser::IsLinked(System.String)
-extern const MethodInfo ParseUser_IsLinked_m7092_MethodInfo = 
+extern const MethodInfo ParseUser_IsLinked_m7093_MethodInfo = 
 {
 	"IsLinked"/* name */
-	, (methodPointerType)&ParseUser_IsLinked_m7092/* method */
+	, (methodPointerType)&ParseUser_IsLinked_m7093/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_IsLinked_m7092_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_IsLinked_m7093_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -10595,10 +10595,10 @@ extern const MethodInfo ParseUser_IsLinked_m7092_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::LogOutWithProviders()
-extern const MethodInfo ParseUser_LogOutWithProviders_m7093_MethodInfo = 
+extern const MethodInfo ParseUser_LogOutWithProviders_m7094_MethodInfo = 
 {
 	"LogOutWithProviders"/* name */
-	, (methodPointerType)&ParseUser_LogOutWithProviders_m7093/* method */
+	, (methodPointerType)&ParseUser_LogOutWithProviders_m7094/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10619,7 +10619,7 @@ extern const MethodInfo ParseUser_LogOutWithProviders_m7093_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IDictionary_2_t820_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_LogInWithAsync_m7094_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_LogInWithAsync_m7095_ParameterInfos[] = 
 {
 	{"authType", 0, 134218773, 0, &String_t_0_0_0},
 	{"data", 1, 134218774, 0, &IDictionary_2_t820_0_0_0},
@@ -10627,14 +10627,14 @@ static const ParameterInfo ParseUser_t1303_ParseUser_LogInWithAsync_m7094_Parame
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<Parse.ParseUser> Parse.ParseUser::LogInWithAsync(System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_LogInWithAsync_m7094_MethodInfo = 
+extern const MethodInfo ParseUser_LogInWithAsync_m7095_MethodInfo = 
 {
 	"LogInWithAsync"/* name */
-	, (methodPointerType)&ParseUser_LogInWithAsync_m7094/* method */
+	, (methodPointerType)&ParseUser_LogInWithAsync_m7095/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1388_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_LogInWithAsync_m7094_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_LogInWithAsync_m7095_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -10650,21 +10650,21 @@ extern const MethodInfo ParseUser_LogInWithAsync_m7094_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_LogInWithAsync_m7095_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_LogInWithAsync_m7096_ParameterInfos[] = 
 {
 	{"authType", 0, 134218776, 0, &String_t_0_0_0},
 	{"cancellationToken", 1, 134218777, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<Parse.ParseUser> Parse.ParseUser::LogInWithAsync(System.String,System.Threading.CancellationToken)
-extern const MethodInfo ParseUser_LogInWithAsync_m7095_MethodInfo = 
+extern const MethodInfo ParseUser_LogInWithAsync_m7096_MethodInfo = 
 {
 	"LogInWithAsync"/* name */
-	, (methodPointerType)&ParseUser_LogInWithAsync_m7095/* method */
+	, (methodPointerType)&ParseUser_LogInWithAsync_m7096/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1388_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, ParseUser_t1303_ParseUser_LogInWithAsync_m7095_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_LogInWithAsync_m7096_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -10679,20 +10679,20 @@ extern const MethodInfo ParseUser_LogInWithAsync_m7095_MethodInfo =
 
 };
 extern const Il2CppType IParseAuthenticationProvider_t1409_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_RegisterProvider_m7096_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_RegisterProvider_m7097_ParameterInfos[] = 
 {
 	{"provider", 0, 134218778, 0, &IParseAuthenticationProvider_t1409_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::RegisterProvider(Parse.Internal.IParseAuthenticationProvider)
-extern const MethodInfo ParseUser_RegisterProvider_m7096_MethodInfo = 
+extern const MethodInfo ParseUser_RegisterProvider_m7097_MethodInfo = 
 {
 	"RegisterProvider"/* name */
-	, (methodPointerType)&ParseUser_RegisterProvider_m7096/* method */
+	, (methodPointerType)&ParseUser_RegisterProvider_m7097/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_RegisterProvider_m7096_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_RegisterProvider_m7097_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -10707,20 +10707,20 @@ extern const MethodInfo ParseUser_RegisterProvider_m7096_MethodInfo =
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_U3CSignUpAsyncU3Eb__0_m7097_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_U3CSignUpAsyncU3Eb__0_m7098_ParameterInfos[] = 
 {
 	{"_", 0, 134218779, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::<SignUpAsync>b__0(System.Threading.Tasks.Task)
-extern const MethodInfo ParseUser_U3CSignUpAsyncU3Eb__0_m7097_MethodInfo = 
+extern const MethodInfo ParseUser_U3CSignUpAsyncU3Eb__0_m7098_MethodInfo = 
 {
 	"<SignUpAsync>b__0"/* name */
-	, (methodPointerType)&ParseUser_U3CSignUpAsyncU3Eb__0_m7097/* method */
+	, (methodPointerType)&ParseUser_U3CSignUpAsyncU3Eb__0_m7098/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_U3CSignUpAsyncU3Eb__0_m7097_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_U3CSignUpAsyncU3Eb__0_m7098_ParameterInfos/* parameters */
 	, 437/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -10735,20 +10735,20 @@ extern const MethodInfo ParseUser_U3CSignUpAsyncU3Eb__0_m7097_MethodInfo =
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_U3CSaveAsyncU3Eb__c_m7098_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_U3CSaveAsyncU3Eb__c_m7099_ParameterInfos[] = 
 {
 	{"_", 0, 134218780, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::<SaveAsync>b__c(System.Threading.Tasks.Task)
-extern const MethodInfo ParseUser_U3CSaveAsyncU3Eb__c_m7098_MethodInfo = 
+extern const MethodInfo ParseUser_U3CSaveAsyncU3Eb__c_m7099_MethodInfo = 
 {
 	"<SaveAsync>b__c"/* name */
-	, (methodPointerType)&ParseUser_U3CSaveAsyncU3Eb__c_m7098/* method */
+	, (methodPointerType)&ParseUser_U3CSaveAsyncU3Eb__c_m7099/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_U3CSaveAsyncU3Eb__c_m7098_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_U3CSaveAsyncU3Eb__c_m7099_ParameterInfos/* parameters */
 	, 438/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -10763,20 +10763,20 @@ extern const MethodInfo ParseUser_U3CSaveAsyncU3Eb__c_m7098_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t1392_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_U3CFetchAsyncInternalU3Eb__e_m7099_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_U3CFetchAsyncInternalU3Eb__e_m7100_ParameterInfos[] = 
 {
 	{"t", 0, 134218781, 0, &Task_1_t1392_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseObject Parse.ParseUser::<FetchAsyncInternal>b__e(System.Threading.Tasks.Task`1<Parse.ParseObject>)
-extern const MethodInfo ParseUser_U3CFetchAsyncInternalU3Eb__e_m7099_MethodInfo = 
+extern const MethodInfo ParseUser_U3CFetchAsyncInternalU3Eb__e_m7100_MethodInfo = 
 {
 	"<FetchAsyncInternal>b__e"/* name */
-	, (methodPointerType)&ParseUser_U3CFetchAsyncInternalU3Eb__e_m7099/* method */
+	, (methodPointerType)&ParseUser_U3CFetchAsyncInternalU3Eb__e_m7100/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &ParseObject_t1219_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_U3CFetchAsyncInternalU3Eb__e_m7099_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_U3CFetchAsyncInternalU3Eb__e_m7100_ParameterInfos/* parameters */
 	, 439/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -10792,10 +10792,10 @@ extern const MethodInfo ParseUser_U3CFetchAsyncInternalU3Eb__e_m7099_MethodInfo 
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.ParseUser Parse.ParseUser::<GetCurrentUserAsync>b__12()
-extern const MethodInfo ParseUser_U3CGetCurrentUserAsyncU3Eb__12_m7100_MethodInfo = 
+extern const MethodInfo ParseUser_U3CGetCurrentUserAsyncU3Eb__12_m7101_MethodInfo = 
 {
 	"<GetCurrentUserAsync>b__12"/* name */
-	, (methodPointerType)&ParseUser_U3CGetCurrentUserAsyncU3Eb__12_m7100/* method */
+	, (methodPointerType)&ParseUser_U3CGetCurrentUserAsyncU3Eb__12_m7101/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &ParseUser_t1303_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10814,20 +10814,20 @@ extern const MethodInfo ParseUser_U3CGetCurrentUserAsyncU3Eb__12_m7100_MethodInf
 
 };
 extern const Il2CppType Task_1_t1385_0_0_0;
-static const ParameterInfo ParseUser_t1303_ParseUser_U3CUpgradeToRevocableSessionAsyncU3Eb__1e_m7101_ParameterInfos[] = 
+static const ParameterInfo ParseUser_t1303_ParseUser_U3CUpgradeToRevocableSessionAsyncU3Eb__1e_m7102_ParameterInfos[] = 
 {
 	{"t", 0, 134218782, 0, &Task_1_t1385_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.ParseUser::<UpgradeToRevocableSessionAsync>b__1e(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-extern const MethodInfo ParseUser_U3CUpgradeToRevocableSessionAsyncU3Eb__1e_m7101_MethodInfo = 
+extern const MethodInfo ParseUser_U3CUpgradeToRevocableSessionAsyncU3Eb__1e_m7102_MethodInfo = 
 {
 	"<UpgradeToRevocableSessionAsync>b__1e"/* name */
-	, (methodPointerType)&ParseUser_U3CUpgradeToRevocableSessionAsyncU3Eb__1e_m7101/* method */
+	, (methodPointerType)&ParseUser_U3CUpgradeToRevocableSessionAsyncU3Eb__1e_m7102/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ParseUser_t1303_ParseUser_U3CUpgradeToRevocableSessionAsyncU3Eb__1e_m7101_ParameterInfos/* parameters */
+	, ParseUser_t1303_ParseUser_U3CUpgradeToRevocableSessionAsyncU3Eb__1e_m7102_ParameterInfos/* parameters */
 	, 441/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -10843,10 +10843,10 @@ extern const MethodInfo ParseUser_U3CUpgradeToRevocableSessionAsyncU3Eb__1e_m710
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.ParseUser::.cctor()
-extern const MethodInfo ParseUser__cctor_m7102_MethodInfo = 
+extern const MethodInfo ParseUser__cctor_m7103_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&ParseUser__cctor_m7102/* method */
+	, (methodPointerType)&ParseUser__cctor_m7103/* method */
 	, &ParseUser_t1303_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10866,197 +10866,197 @@ extern const MethodInfo ParseUser__cctor_m7102_MethodInfo =
 };
 static const MethodInfo* ParseUser_t1303_MethodInfos[] =
 {
-	&ParseUser__ctor_m7035_MethodInfo,
-	&ParseUser_get_IsAuthenticated_m7036_MethodInfo,
-	&ParseUser_Remove_m7037_MethodInfo,
-	&ParseUser_IsKeyMutable_m7038_MethodInfo,
-	&ParseUser_MergeMagicFields_m7039_MethodInfo,
-	&ParseUser_MergeAfterSave_m7040_MethodInfo,
-	&ParseUser_MergeAfterFetch_m7041_MethodInfo,
-	&ParseUser_get_SessionToken_m7042_MethodInfo,
-	&ParseUser_SetSessionTokenAsync_m7043_MethodInfo,
+	&ParseUser__ctor_m7036_MethodInfo,
+	&ParseUser_get_IsAuthenticated_m7037_MethodInfo,
+	&ParseUser_Remove_m7038_MethodInfo,
+	&ParseUser_IsKeyMutable_m7039_MethodInfo,
+	&ParseUser_MergeMagicFields_m7040_MethodInfo,
+	&ParseUser_MergeAfterSave_m7041_MethodInfo,
+	&ParseUser_MergeAfterFetch_m7042_MethodInfo,
+	&ParseUser_get_SessionToken_m7043_MethodInfo,
 	&ParseUser_SetSessionTokenAsync_m7044_MethodInfo,
-	&ParseUser_get_Username_m7045_MethodInfo,
-	&ParseUser_set_Username_m7046_MethodInfo,
-	&ParseUser_get_Password_m7047_MethodInfo,
-	&ParseUser_set_Password_m7048_MethodInfo,
-	&ParseUser_get_Email_m7049_MethodInfo,
-	&ParseUser_set_Email_m7050_MethodInfo,
-	&ParseUser_SignUpAsync_m7051_MethodInfo,
+	&ParseUser_SetSessionTokenAsync_m7045_MethodInfo,
+	&ParseUser_get_Username_m7046_MethodInfo,
+	&ParseUser_set_Username_m7047_MethodInfo,
+	&ParseUser_get_Password_m7048_MethodInfo,
+	&ParseUser_set_Password_m7049_MethodInfo,
+	&ParseUser_get_Email_m7050_MethodInfo,
+	&ParseUser_set_Email_m7051_MethodInfo,
 	&ParseUser_SignUpAsync_m7052_MethodInfo,
 	&ParseUser_SignUpAsync_m7053_MethodInfo,
-	&ParseUser_LogInAsync_m7054_MethodInfo,
+	&ParseUser_SignUpAsync_m7054_MethodInfo,
 	&ParseUser_LogInAsync_m7055_MethodInfo,
-	&ParseUser_BecomeAsync_m7056_MethodInfo,
+	&ParseUser_LogInAsync_m7056_MethodInfo,
 	&ParseUser_BecomeAsync_m7057_MethodInfo,
-	&ParseUser_SaveAsync_m7058_MethodInfo,
-	&ParseUser_FetchAsyncInternal_m7059_MethodInfo,
-	&ParseUser_LogOut_m7060_MethodInfo,
-	&ParseUser_LogOutAsync_m7061_MethodInfo,
+	&ParseUser_BecomeAsync_m7058_MethodInfo,
+	&ParseUser_SaveAsync_m7059_MethodInfo,
+	&ParseUser_FetchAsyncInternal_m7060_MethodInfo,
+	&ParseUser_LogOut_m7061_MethodInfo,
 	&ParseUser_LogOutAsync_m7062_MethodInfo,
-	&ParseUser_get_CurrentSessionToken_m7063_MethodInfo,
-	&ParseUser_get_CurrentUser_m7064_MethodInfo,
-	&ParseUser_GetCurrentUserAsync_m7065_MethodInfo,
+	&ParseUser_LogOutAsync_m7063_MethodInfo,
+	&ParseUser_get_CurrentSessionToken_m7064_MethodInfo,
+	&ParseUser_get_CurrentUser_m7065_MethodInfo,
 	&ParseUser_GetCurrentUserAsync_m7066_MethodInfo,
-	&ParseUser_SaveCurrentUser_m7067_MethodInfo,
-	&ParseUser_SaveCurrentUserAsync_m7068_MethodInfo,
+	&ParseUser_GetCurrentUserAsync_m7067_MethodInfo,
+	&ParseUser_SaveCurrentUser_m7068_MethodInfo,
 	&ParseUser_SaveCurrentUserAsync_m7069_MethodInfo,
-	&ParseUser_ClearInMemoryUser_m7070_MethodInfo,
-	&ParseUser_get_IsCurrentUser_m7071_MethodInfo,
-	&ParseUser_get_Query_m7072_MethodInfo,
-	&ParseUser_EnableRevocableSessionAsync_m7073_MethodInfo,
+	&ParseUser_SaveCurrentUserAsync_m7070_MethodInfo,
+	&ParseUser_ClearInMemoryUser_m7071_MethodInfo,
+	&ParseUser_get_IsCurrentUser_m7072_MethodInfo,
+	&ParseUser_get_Query_m7073_MethodInfo,
 	&ParseUser_EnableRevocableSessionAsync_m7074_MethodInfo,
-	&ParseUser_DisableRevocableSession_m7075_MethodInfo,
-	&ParseUser_get_IsRevocableSessionEnabled_m7076_MethodInfo,
-	&ParseUser_IsRevocableSessionToken_m7077_MethodInfo,
-	&ParseUser_UpgradeToRevocableSessionAsync_m7078_MethodInfo,
+	&ParseUser_EnableRevocableSessionAsync_m7075_MethodInfo,
+	&ParseUser_DisableRevocableSession_m7076_MethodInfo,
+	&ParseUser_get_IsRevocableSessionEnabled_m7077_MethodInfo,
+	&ParseUser_IsRevocableSessionToken_m7078_MethodInfo,
 	&ParseUser_UpgradeToRevocableSessionAsync_m7079_MethodInfo,
 	&ParseUser_UpgradeToRevocableSessionAsync_m7080_MethodInfo,
-	&ParseUser_RequestPasswordResetAsync_m7081_MethodInfo,
+	&ParseUser_UpgradeToRevocableSessionAsync_m7081_MethodInfo,
 	&ParseUser_RequestPasswordResetAsync_m7082_MethodInfo,
-	&ParseUser_get_AuthData_m7083_MethodInfo,
-	&ParseUser_set_AuthData_m7084_MethodInfo,
-	&ParseUser_GetProvider_m7085_MethodInfo,
-	&ParseUser_CleanupAuthData_m7086_MethodInfo,
-	&ParseUser_SynchronizeAllAuthData_m7087_MethodInfo,
-	&ParseUser_SynchronizeAuthData_m7088_MethodInfo,
-	&ParseUser_LinkWithAsync_m7089_MethodInfo,
+	&ParseUser_RequestPasswordResetAsync_m7083_MethodInfo,
+	&ParseUser_get_AuthData_m7084_MethodInfo,
+	&ParseUser_set_AuthData_m7085_MethodInfo,
+	&ParseUser_GetProvider_m7086_MethodInfo,
+	&ParseUser_CleanupAuthData_m7087_MethodInfo,
+	&ParseUser_SynchronizeAllAuthData_m7088_MethodInfo,
+	&ParseUser_SynchronizeAuthData_m7089_MethodInfo,
 	&ParseUser_LinkWithAsync_m7090_MethodInfo,
-	&ParseUser_UnlinkFromAsync_m7091_MethodInfo,
-	&ParseUser_IsLinked_m7092_MethodInfo,
-	&ParseUser_LogOutWithProviders_m7093_MethodInfo,
-	&ParseUser_LogInWithAsync_m7094_MethodInfo,
+	&ParseUser_LinkWithAsync_m7091_MethodInfo,
+	&ParseUser_UnlinkFromAsync_m7092_MethodInfo,
+	&ParseUser_IsLinked_m7093_MethodInfo,
+	&ParseUser_LogOutWithProviders_m7094_MethodInfo,
 	&ParseUser_LogInWithAsync_m7095_MethodInfo,
-	&ParseUser_RegisterProvider_m7096_MethodInfo,
-	&ParseUser_U3CSignUpAsyncU3Eb__0_m7097_MethodInfo,
-	&ParseUser_U3CSaveAsyncU3Eb__c_m7098_MethodInfo,
-	&ParseUser_U3CFetchAsyncInternalU3Eb__e_m7099_MethodInfo,
-	&ParseUser_U3CGetCurrentUserAsyncU3Eb__12_m7100_MethodInfo,
-	&ParseUser_U3CUpgradeToRevocableSessionAsyncU3Eb__1e_m7101_MethodInfo,
-	&ParseUser__cctor_m7102_MethodInfo,
+	&ParseUser_LogInWithAsync_m7096_MethodInfo,
+	&ParseUser_RegisterProvider_m7097_MethodInfo,
+	&ParseUser_U3CSignUpAsyncU3Eb__0_m7098_MethodInfo,
+	&ParseUser_U3CSaveAsyncU3Eb__c_m7099_MethodInfo,
+	&ParseUser_U3CFetchAsyncInternalU3Eb__e_m7100_MethodInfo,
+	&ParseUser_U3CGetCurrentUserAsyncU3Eb__12_m7101_MethodInfo,
+	&ParseUser_U3CUpgradeToRevocableSessionAsyncU3Eb__1e_m7102_MethodInfo,
+	&ParseUser__cctor_m7103_MethodInfo,
 	NULL
 };
-extern const MethodInfo ParseUser_get_IsAuthenticated_m7036_MethodInfo;
+extern const MethodInfo ParseUser_get_IsAuthenticated_m7037_MethodInfo;
 static const PropertyInfo ParseUser_t1303____IsAuthenticated_PropertyInfo = 
 {
 	&ParseUser_t1303_il2cpp_TypeInfo/* parent */
 	, "IsAuthenticated"/* name */
-	, &ParseUser_get_IsAuthenticated_m7036_MethodInfo/* get */
+	, &ParseUser_get_IsAuthenticated_m7037_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseUser_get_SessionToken_m7042_MethodInfo;
+extern const MethodInfo ParseUser_get_SessionToken_m7043_MethodInfo;
 static const PropertyInfo ParseUser_t1303____SessionToken_PropertyInfo = 
 {
 	&ParseUser_t1303_il2cpp_TypeInfo/* parent */
 	, "SessionToken"/* name */
-	, &ParseUser_get_SessionToken_m7042_MethodInfo/* get */
+	, &ParseUser_get_SessionToken_m7043_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseUser_get_Username_m7045_MethodInfo;
-extern const MethodInfo ParseUser_set_Username_m7046_MethodInfo;
+extern const MethodInfo ParseUser_get_Username_m7046_MethodInfo;
+extern const MethodInfo ParseUser_set_Username_m7047_MethodInfo;
 static const PropertyInfo ParseUser_t1303____Username_PropertyInfo = 
 {
 	&ParseUser_t1303_il2cpp_TypeInfo/* parent */
 	, "Username"/* name */
-	, &ParseUser_get_Username_m7045_MethodInfo/* get */
-	, &ParseUser_set_Username_m7046_MethodInfo/* set */
+	, &ParseUser_get_Username_m7046_MethodInfo/* get */
+	, &ParseUser_set_Username_m7047_MethodInfo/* set */
 	, 0/* attrs */
 	, 442/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseUser_get_Password_m7047_MethodInfo;
-extern const MethodInfo ParseUser_set_Password_m7048_MethodInfo;
+extern const MethodInfo ParseUser_get_Password_m7048_MethodInfo;
+extern const MethodInfo ParseUser_set_Password_m7049_MethodInfo;
 static const PropertyInfo ParseUser_t1303____Password_PropertyInfo = 
 {
 	&ParseUser_t1303_il2cpp_TypeInfo/* parent */
 	, "Password"/* name */
-	, &ParseUser_get_Password_m7047_MethodInfo/* get */
-	, &ParseUser_set_Password_m7048_MethodInfo/* set */
+	, &ParseUser_get_Password_m7048_MethodInfo/* get */
+	, &ParseUser_set_Password_m7049_MethodInfo/* set */
 	, 0/* attrs */
 	, 443/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseUser_get_Email_m7049_MethodInfo;
-extern const MethodInfo ParseUser_set_Email_m7050_MethodInfo;
+extern const MethodInfo ParseUser_get_Email_m7050_MethodInfo;
+extern const MethodInfo ParseUser_set_Email_m7051_MethodInfo;
 static const PropertyInfo ParseUser_t1303____Email_PropertyInfo = 
 {
 	&ParseUser_t1303_il2cpp_TypeInfo/* parent */
 	, "Email"/* name */
-	, &ParseUser_get_Email_m7049_MethodInfo/* get */
-	, &ParseUser_set_Email_m7050_MethodInfo/* set */
+	, &ParseUser_get_Email_m7050_MethodInfo/* get */
+	, &ParseUser_set_Email_m7051_MethodInfo/* set */
 	, 0/* attrs */
 	, 444/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseUser_get_CurrentSessionToken_m7063_MethodInfo;
+extern const MethodInfo ParseUser_get_CurrentSessionToken_m7064_MethodInfo;
 static const PropertyInfo ParseUser_t1303____CurrentSessionToken_PropertyInfo = 
 {
 	&ParseUser_t1303_il2cpp_TypeInfo/* parent */
 	, "CurrentSessionToken"/* name */
-	, &ParseUser_get_CurrentSessionToken_m7063_MethodInfo/* get */
+	, &ParseUser_get_CurrentSessionToken_m7064_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseUser_get_CurrentUser_m7064_MethodInfo;
+extern const MethodInfo ParseUser_get_CurrentUser_m7065_MethodInfo;
 static const PropertyInfo ParseUser_t1303____CurrentUser_PropertyInfo = 
 {
 	&ParseUser_t1303_il2cpp_TypeInfo/* parent */
 	, "CurrentUser"/* name */
-	, &ParseUser_get_CurrentUser_m7064_MethodInfo/* get */
+	, &ParseUser_get_CurrentUser_m7065_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseUser_get_IsCurrentUser_m7071_MethodInfo;
+extern const MethodInfo ParseUser_get_IsCurrentUser_m7072_MethodInfo;
 static const PropertyInfo ParseUser_t1303____IsCurrentUser_PropertyInfo = 
 {
 	&ParseUser_t1303_il2cpp_TypeInfo/* parent */
 	, "IsCurrentUser"/* name */
-	, &ParseUser_get_IsCurrentUser_m7071_MethodInfo/* get */
+	, &ParseUser_get_IsCurrentUser_m7072_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseUser_get_Query_m7072_MethodInfo;
+extern const MethodInfo ParseUser_get_Query_m7073_MethodInfo;
 static const PropertyInfo ParseUser_t1303____Query_PropertyInfo = 
 {
 	&ParseUser_t1303_il2cpp_TypeInfo/* parent */
 	, "Query"/* name */
-	, &ParseUser_get_Query_m7072_MethodInfo/* get */
+	, &ParseUser_get_Query_m7073_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseUser_get_IsRevocableSessionEnabled_m7076_MethodInfo;
+extern const MethodInfo ParseUser_get_IsRevocableSessionEnabled_m7077_MethodInfo;
 static const PropertyInfo ParseUser_t1303____IsRevocableSessionEnabled_PropertyInfo = 
 {
 	&ParseUser_t1303_il2cpp_TypeInfo/* parent */
 	, "IsRevocableSessionEnabled"/* name */
-	, &ParseUser_get_IsRevocableSessionEnabled_m7076_MethodInfo/* get */
+	, &ParseUser_get_IsRevocableSessionEnabled_m7077_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ParseUser_get_AuthData_m7083_MethodInfo;
-extern const MethodInfo ParseUser_set_AuthData_m7084_MethodInfo;
+extern const MethodInfo ParseUser_get_AuthData_m7084_MethodInfo;
+extern const MethodInfo ParseUser_set_AuthData_m7085_MethodInfo;
 static const PropertyInfo ParseUser_t1303____AuthData_PropertyInfo = 
 {
 	&ParseUser_t1303_il2cpp_TypeInfo/* parent */
 	, "AuthData"/* name */
-	, &ParseUser_get_AuthData_m7083_MethodInfo/* get */
-	, &ParseUser_set_AuthData_m7084_MethodInfo/* set */
+	, &ParseUser_get_AuthData_m7084_MethodInfo/* get */
+	, &ParseUser_set_AuthData_m7085_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -11090,34 +11090,34 @@ static const Il2CppType* ParseUser_t1303_il2cpp_TypeInfo__nestedTypes[11] =
 	&U3CU3Ec__DisplayClass28_t1313_0_0_0,
 	&U3CU3Ec__DisplayClass2b_t1314_0_0_0,
 };
-extern const MethodInfo ParseUser_MergeAfterFetch_m7041_MethodInfo;
-extern const MethodInfo ParseUser_MergeAfterSave_m7040_MethodInfo;
-extern const MethodInfo ParseUser_MergeMagicFields_m7039_MethodInfo;
-extern const MethodInfo ParseUser_SaveAsync_m7058_MethodInfo;
-extern const MethodInfo ParseUser_FetchAsyncInternal_m7059_MethodInfo;
-extern const MethodInfo ParseUser_Remove_m7037_MethodInfo;
-extern const MethodInfo ParseUser_IsKeyMutable_m7038_MethodInfo;
+extern const MethodInfo ParseUser_MergeAfterFetch_m7042_MethodInfo;
+extern const MethodInfo ParseUser_MergeAfterSave_m7041_MethodInfo;
+extern const MethodInfo ParseUser_MergeMagicFields_m7040_MethodInfo;
+extern const MethodInfo ParseUser_SaveAsync_m7059_MethodInfo;
+extern const MethodInfo ParseUser_FetchAsyncInternal_m7060_MethodInfo;
+extern const MethodInfo ParseUser_Remove_m7038_MethodInfo;
+extern const MethodInfo ParseUser_IsKeyMutable_m7039_MethodInfo;
 static const Il2CppMethodReference ParseUser_t1303_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ParseObject_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_ObjectU3EU3E_GetEnumerator_m6874_MethodInfo,
-	&ParseObject_System_Collections_IEnumerable_GetEnumerator_m6875_MethodInfo,
-	&ParseObject_SetDefaultValues_m6797_MethodInfo,
-	&ParseUser_MergeAfterFetch_m7041_MethodInfo,
-	&ParseUser_MergeAfterSave_m7040_MethodInfo,
-	&ParseUser_MergeMagicFields_m7039_MethodInfo,
-	&ParseUser_SaveAsync_m7058_MethodInfo,
-	&ParseUser_FetchAsyncInternal_m7059_MethodInfo,
-	&ParseUser_Remove_m7037_MethodInfo,
-	&ParseObject_OnSettingValue_m6837_MethodInfo,
-	&ParseObject_get_Item_m6838_MethodInfo,
-	&ParseObject_set_Item_m6839_MethodInfo,
-	&ParseUser_IsKeyMutable_m7038_MethodInfo,
-	&ParseObject_add_PropertyChanged_m6880_MethodInfo,
-	&ParseObject_remove_PropertyChanged_m6881_MethodInfo,
+	&ParseObject_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_ObjectU3EU3E_GetEnumerator_m6875_MethodInfo,
+	&ParseObject_System_Collections_IEnumerable_GetEnumerator_m6876_MethodInfo,
+	&ParseObject_SetDefaultValues_m6798_MethodInfo,
+	&ParseUser_MergeAfterFetch_m7042_MethodInfo,
+	&ParseUser_MergeAfterSave_m7041_MethodInfo,
+	&ParseUser_MergeMagicFields_m7040_MethodInfo,
+	&ParseUser_SaveAsync_m7059_MethodInfo,
+	&ParseUser_FetchAsyncInternal_m7060_MethodInfo,
+	&ParseUser_Remove_m7038_MethodInfo,
+	&ParseObject_OnSettingValue_m6838_MethodInfo,
+	&ParseObject_get_Item_m6839_MethodInfo,
+	&ParseObject_set_Item_m6840_MethodInfo,
+	&ParseUser_IsKeyMutable_m7039_MethodInfo,
+	&ParseObject_add_PropertyChanged_m6881_MethodInfo,
+	&ParseObject_remove_PropertyChanged_m6882_MethodInfo,
 };
 static bool ParseUser_t1303_VTableIsGenericMethod[] =
 {
@@ -11226,10 +11226,10 @@ extern TypeInfo SettingsWrapper_t1317_il2cpp_TypeInfo;
 extern const Il2CppType SettingsWrapper_t1317_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Parse.PlatformHooks/SettingsWrapper Parse.PlatformHooks/SettingsWrapper::get_Wrapper()
-extern const MethodInfo SettingsWrapper_get_Wrapper_m7103_MethodInfo = 
+extern const MethodInfo SettingsWrapper_get_Wrapper_m7104_MethodInfo = 
 {
 	"get_Wrapper"/* name */
-	, (methodPointerType)&SettingsWrapper_get_Wrapper_m7103/* method */
+	, (methodPointerType)&SettingsWrapper_get_Wrapper_m7104/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &SettingsWrapper_t1317_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11249,10 +11249,10 @@ extern const MethodInfo SettingsWrapper_get_Wrapper_m7103_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/SettingsWrapper::.ctor()
-extern const MethodInfo SettingsWrapper__ctor_m7104_MethodInfo = 
+extern const MethodInfo SettingsWrapper__ctor_m7105_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SettingsWrapper__ctor_m7104/* method */
+	, (methodPointerType)&SettingsWrapper__ctor_m7105/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -11272,10 +11272,10 @@ extern const MethodInfo SettingsWrapper__ctor_m7104_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.PlatformHooks/SettingsWrapper::Load()
-extern const MethodInfo SettingsWrapper_Load_m7105_MethodInfo = 
+extern const MethodInfo SettingsWrapper_Load_m7106_MethodInfo = 
 {
 	"Load"/* name */
-	, (methodPointerType)&SettingsWrapper_Load_m7105/* method */
+	, (methodPointerType)&SettingsWrapper_Load_m7106/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11295,10 +11295,10 @@ extern const MethodInfo SettingsWrapper_Load_m7105_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/SettingsWrapper::Save()
-extern const MethodInfo SettingsWrapper_Save_m7106_MethodInfo = 
+extern const MethodInfo SettingsWrapper_Save_m7107_MethodInfo = 
 {
 	"Save"/* name */
-	, (methodPointerType)&SettingsWrapper_Save_m7106/* method */
+	, (methodPointerType)&SettingsWrapper_Save_m7107/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -11318,21 +11318,21 @@ extern const MethodInfo SettingsWrapper_Save_m7106_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_Add_m7107_ParameterInfos[] = 
+static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_Add_m7108_ParameterInfos[] = 
 {
 	{"key", 0, 134218825, 0, &String_t_0_0_0},
 	{"value", 1, 134218826, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/SettingsWrapper::Add(System.String,System.Object)
-extern const MethodInfo SettingsWrapper_Add_m7107_MethodInfo = 
+extern const MethodInfo SettingsWrapper_Add_m7108_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&SettingsWrapper_Add_m7107/* method */
+	, (methodPointerType)&SettingsWrapper_Add_m7108/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, SettingsWrapper_t1317_SettingsWrapper_Add_m7107_ParameterInfos/* parameters */
+	, SettingsWrapper_t1317_SettingsWrapper_Add_m7108_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11347,20 +11347,20 @@ extern const MethodInfo SettingsWrapper_Add_m7107_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_ContainsKey_m7108_ParameterInfos[] = 
+static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_ContainsKey_m7109_ParameterInfos[] = 
 {
 	{"key", 0, 134218827, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks/SettingsWrapper::ContainsKey(System.String)
-extern const MethodInfo SettingsWrapper_ContainsKey_m7108_MethodInfo = 
+extern const MethodInfo SettingsWrapper_ContainsKey_m7109_MethodInfo = 
 {
 	"ContainsKey"/* name */
-	, (methodPointerType)&SettingsWrapper_ContainsKey_m7108/* method */
+	, (methodPointerType)&SettingsWrapper_ContainsKey_m7109/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, SettingsWrapper_t1317_SettingsWrapper_ContainsKey_m7108_ParameterInfos/* parameters */
+	, SettingsWrapper_t1317_SettingsWrapper_ContainsKey_m7109_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11377,10 +11377,10 @@ extern const MethodInfo SettingsWrapper_ContainsKey_m7108_MethodInfo =
 extern const Il2CppType ICollection_1_t1211_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.ICollection`1<System.String> Parse.PlatformHooks/SettingsWrapper::get_Keys()
-extern const MethodInfo SettingsWrapper_get_Keys_m7109_MethodInfo = 
+extern const MethodInfo SettingsWrapper_get_Keys_m7110_MethodInfo = 
 {
 	"get_Keys"/* name */
-	, (methodPointerType)&SettingsWrapper_get_Keys_m7109/* method */
+	, (methodPointerType)&SettingsWrapper_get_Keys_m7110/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &ICollection_1_t1211_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11399,20 +11399,20 @@ extern const MethodInfo SettingsWrapper_get_Keys_m7109_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_Remove_m7110_ParameterInfos[] = 
+static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_Remove_m7111_ParameterInfos[] = 
 {
 	{"key", 0, 134218828, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks/SettingsWrapper::Remove(System.String)
-extern const MethodInfo SettingsWrapper_Remove_m7110_MethodInfo = 
+extern const MethodInfo SettingsWrapper_Remove_m7111_MethodInfo = 
 {
 	"Remove"/* name */
-	, (methodPointerType)&SettingsWrapper_Remove_m7110/* method */
+	, (methodPointerType)&SettingsWrapper_Remove_m7111/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, SettingsWrapper_t1317_SettingsWrapper_Remove_m7110_ParameterInfos/* parameters */
+	, SettingsWrapper_t1317_SettingsWrapper_Remove_m7111_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11428,21 +11428,21 @@ extern const MethodInfo SettingsWrapper_Remove_m7110_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_1_0_2;
-static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_TryGetValue_m7111_ParameterInfos[] = 
+static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_TryGetValue_m7112_ParameterInfos[] = 
 {
 	{"key", 0, 134218829, 0, &String_t_0_0_0},
 	{"value", 1, 134218830, 0, &Object_t_1_0_2},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2360 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks/SettingsWrapper::TryGetValue(System.String,System.Object&)
-extern const MethodInfo SettingsWrapper_TryGetValue_m7111_MethodInfo = 
+extern const MethodInfo SettingsWrapper_TryGetValue_m7112_MethodInfo = 
 {
 	"TryGetValue"/* name */
-	, (methodPointerType)&SettingsWrapper_TryGetValue_m7111/* method */
+	, (methodPointerType)&SettingsWrapper_TryGetValue_m7112/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_ObjectU26_t2360/* invoker_method */
-	, SettingsWrapper_t1317_SettingsWrapper_TryGetValue_m7111_ParameterInfos/* parameters */
+	, SettingsWrapper_t1317_SettingsWrapper_TryGetValue_m7112_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11459,10 +11459,10 @@ extern const MethodInfo SettingsWrapper_TryGetValue_m7111_MethodInfo =
 extern const Il2CppType ICollection_1_t1221_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.ICollection`1<System.Object> Parse.PlatformHooks/SettingsWrapper::get_Values()
-extern const MethodInfo SettingsWrapper_get_Values_m7112_MethodInfo = 
+extern const MethodInfo SettingsWrapper_get_Values_m7113_MethodInfo = 
 {
 	"get_Values"/* name */
-	, (methodPointerType)&SettingsWrapper_get_Values_m7112/* method */
+	, (methodPointerType)&SettingsWrapper_get_Values_m7113/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &ICollection_1_t1221_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11481,20 +11481,20 @@ extern const MethodInfo SettingsWrapper_get_Values_m7112_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_get_Item_m7113_ParameterInfos[] = 
+static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_get_Item_m7114_ParameterInfos[] = 
 {
 	{"key", 0, 134218831, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object Parse.PlatformHooks/SettingsWrapper::get_Item(System.String)
-extern const MethodInfo SettingsWrapper_get_Item_m7113_MethodInfo = 
+extern const MethodInfo SettingsWrapper_get_Item_m7114_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&SettingsWrapper_get_Item_m7113/* method */
+	, (methodPointerType)&SettingsWrapper_get_Item_m7114/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, SettingsWrapper_t1317_SettingsWrapper_get_Item_m7113_ParameterInfos/* parameters */
+	, SettingsWrapper_t1317_SettingsWrapper_get_Item_m7114_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -11510,21 +11510,21 @@ extern const MethodInfo SettingsWrapper_get_Item_m7113_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_set_Item_m7114_ParameterInfos[] = 
+static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_set_Item_m7115_ParameterInfos[] = 
 {
 	{"key", 0, 134218832, 0, &String_t_0_0_0},
 	{"value", 1, 134218833, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/SettingsWrapper::set_Item(System.String,System.Object)
-extern const MethodInfo SettingsWrapper_set_Item_m7114_MethodInfo = 
+extern const MethodInfo SettingsWrapper_set_Item_m7115_MethodInfo = 
 {
 	"set_Item"/* name */
-	, (methodPointerType)&SettingsWrapper_set_Item_m7114/* method */
+	, (methodPointerType)&SettingsWrapper_set_Item_m7115/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, SettingsWrapper_t1317_SettingsWrapper_set_Item_m7114_ParameterInfos/* parameters */
+	, SettingsWrapper_t1317_SettingsWrapper_set_Item_m7115_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -11540,20 +11540,20 @@ extern const MethodInfo SettingsWrapper_set_Item_m7114_MethodInfo =
 };
 extern const Il2CppType KeyValuePair_2_t775_0_0_0;
 extern const Il2CppType KeyValuePair_2_t775_0_0_0;
-static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_Add_m7115_ParameterInfos[] = 
+static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_Add_m7116_ParameterInfos[] = 
 {
 	{"item", 0, 134218834, 0, &KeyValuePair_2_t775_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_KeyValuePair_2_t775 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/SettingsWrapper::Add(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern const MethodInfo SettingsWrapper_Add_m7115_MethodInfo = 
+extern const MethodInfo SettingsWrapper_Add_m7116_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&SettingsWrapper_Add_m7115/* method */
+	, (methodPointerType)&SettingsWrapper_Add_m7116/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_KeyValuePair_2_t775/* invoker_method */
-	, SettingsWrapper_t1317_SettingsWrapper_Add_m7115_ParameterInfos/* parameters */
+	, SettingsWrapper_t1317_SettingsWrapper_Add_m7116_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11569,10 +11569,10 @@ extern const MethodInfo SettingsWrapper_Add_m7115_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/SettingsWrapper::Clear()
-extern const MethodInfo SettingsWrapper_Clear_m7116_MethodInfo = 
+extern const MethodInfo SettingsWrapper_Clear_m7117_MethodInfo = 
 {
 	"Clear"/* name */
-	, (methodPointerType)&SettingsWrapper_Clear_m7116/* method */
+	, (methodPointerType)&SettingsWrapper_Clear_m7117/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -11591,20 +11591,20 @@ extern const MethodInfo SettingsWrapper_Clear_m7116_MethodInfo =
 
 };
 extern const Il2CppType KeyValuePair_2_t775_0_0_0;
-static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_Contains_m7117_ParameterInfos[] = 
+static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_Contains_m7118_ParameterInfos[] = 
 {
 	{"item", 0, 134218835, 0, &KeyValuePair_2_t775_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t775 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks/SettingsWrapper::Contains(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern const MethodInfo SettingsWrapper_Contains_m7117_MethodInfo = 
+extern const MethodInfo SettingsWrapper_Contains_m7118_MethodInfo = 
 {
 	"Contains"/* name */
-	, (methodPointerType)&SettingsWrapper_Contains_m7117/* method */
+	, (methodPointerType)&SettingsWrapper_Contains_m7118/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_KeyValuePair_2_t775/* invoker_method */
-	, SettingsWrapper_t1317_SettingsWrapper_Contains_m7117_ParameterInfos/* parameters */
+	, SettingsWrapper_t1317_SettingsWrapper_Contains_m7118_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11621,21 +11621,21 @@ extern const MethodInfo SettingsWrapper_Contains_m7117_MethodInfo =
 extern const Il2CppType KeyValuePair_2U5BU5D_t1410_0_0_0;
 extern const Il2CppType KeyValuePair_2U5BU5D_t1410_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_CopyTo_m7118_ParameterInfos[] = 
+static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_CopyTo_m7119_ParameterInfos[] = 
 {
 	{"array", 0, 134218836, 0, &KeyValuePair_2U5BU5D_t1410_0_0_0},
 	{"arrayIndex", 1, 134218837, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/SettingsWrapper::CopyTo(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>[],System.Int32)
-extern const MethodInfo SettingsWrapper_CopyTo_m7118_MethodInfo = 
+extern const MethodInfo SettingsWrapper_CopyTo_m7119_MethodInfo = 
 {
 	"CopyTo"/* name */
-	, (methodPointerType)&SettingsWrapper_CopyTo_m7118/* method */
+	, (methodPointerType)&SettingsWrapper_CopyTo_m7119/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, SettingsWrapper_t1317_SettingsWrapper_CopyTo_m7118_ParameterInfos/* parameters */
+	, SettingsWrapper_t1317_SettingsWrapper_CopyTo_m7119_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11651,10 +11651,10 @@ extern const MethodInfo SettingsWrapper_CopyTo_m7118_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 Parse.PlatformHooks/SettingsWrapper::get_Count()
-extern const MethodInfo SettingsWrapper_get_Count_m7119_MethodInfo = 
+extern const MethodInfo SettingsWrapper_get_Count_m7120_MethodInfo = 
 {
 	"get_Count"/* name */
-	, (methodPointerType)&SettingsWrapper_get_Count_m7119/* method */
+	, (methodPointerType)&SettingsWrapper_get_Count_m7120/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -11674,10 +11674,10 @@ extern const MethodInfo SettingsWrapper_get_Count_m7119_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks/SettingsWrapper::get_IsReadOnly()
-extern const MethodInfo SettingsWrapper_get_IsReadOnly_m7120_MethodInfo = 
+extern const MethodInfo SettingsWrapper_get_IsReadOnly_m7121_MethodInfo = 
 {
 	"get_IsReadOnly"/* name */
-	, (methodPointerType)&SettingsWrapper_get_IsReadOnly_m7120/* method */
+	, (methodPointerType)&SettingsWrapper_get_IsReadOnly_m7121/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -11696,20 +11696,20 @@ extern const MethodInfo SettingsWrapper_get_IsReadOnly_m7120_MethodInfo =
 
 };
 extern const Il2CppType KeyValuePair_2_t775_0_0_0;
-static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_Remove_m7121_ParameterInfos[] = 
+static const ParameterInfo SettingsWrapper_t1317_SettingsWrapper_Remove_m7122_ParameterInfos[] = 
 {
 	{"item", 0, 134218838, 0, &KeyValuePair_2_t775_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t775 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks/SettingsWrapper::Remove(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>)
-extern const MethodInfo SettingsWrapper_Remove_m7121_MethodInfo = 
+extern const MethodInfo SettingsWrapper_Remove_m7122_MethodInfo = 
 {
 	"Remove"/* name */
-	, (methodPointerType)&SettingsWrapper_Remove_m7121/* method */
+	, (methodPointerType)&SettingsWrapper_Remove_m7122/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_KeyValuePair_2_t775/* invoker_method */
-	, SettingsWrapper_t1317_SettingsWrapper_Remove_m7121_ParameterInfos/* parameters */
+	, SettingsWrapper_t1317_SettingsWrapper_Remove_m7122_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11726,10 +11726,10 @@ extern const MethodInfo SettingsWrapper_Remove_m7121_MethodInfo =
 extern const Il2CppType IEnumerator_1_t1397_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>> Parse.PlatformHooks/SettingsWrapper::GetEnumerator()
-extern const MethodInfo SettingsWrapper_GetEnumerator_m7122_MethodInfo = 
+extern const MethodInfo SettingsWrapper_GetEnumerator_m7123_MethodInfo = 
 {
 	"GetEnumerator"/* name */
-	, (methodPointerType)&SettingsWrapper_GetEnumerator_m7122/* method */
+	, (methodPointerType)&SettingsWrapper_GetEnumerator_m7123/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_1_t1397_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11750,10 +11750,10 @@ extern const MethodInfo SettingsWrapper_GetEnumerator_m7122_MethodInfo =
 extern const Il2CppType IEnumerator_t48_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IEnumerator Parse.PlatformHooks/SettingsWrapper::System.Collections.IEnumerable.GetEnumerator()
-extern const MethodInfo SettingsWrapper_System_Collections_IEnumerable_GetEnumerator_m7123_MethodInfo = 
+extern const MethodInfo SettingsWrapper_System_Collections_IEnumerable_GetEnumerator_m7124_MethodInfo = 
 {
 	"System.Collections.IEnumerable.GetEnumerator"/* name */
-	, (methodPointerType)&SettingsWrapper_System_Collections_IEnumerable_GetEnumerator_m7123/* method */
+	, (methodPointerType)&SettingsWrapper_System_Collections_IEnumerable_GetEnumerator_m7124/* method */
 	, &SettingsWrapper_t1317_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -11773,91 +11773,91 @@ extern const MethodInfo SettingsWrapper_System_Collections_IEnumerable_GetEnumer
 };
 static const MethodInfo* SettingsWrapper_t1317_MethodInfos[] =
 {
-	&SettingsWrapper_get_Wrapper_m7103_MethodInfo,
-	&SettingsWrapper__ctor_m7104_MethodInfo,
-	&SettingsWrapper_Load_m7105_MethodInfo,
-	&SettingsWrapper_Save_m7106_MethodInfo,
-	&SettingsWrapper_Add_m7107_MethodInfo,
-	&SettingsWrapper_ContainsKey_m7108_MethodInfo,
-	&SettingsWrapper_get_Keys_m7109_MethodInfo,
-	&SettingsWrapper_Remove_m7110_MethodInfo,
-	&SettingsWrapper_TryGetValue_m7111_MethodInfo,
-	&SettingsWrapper_get_Values_m7112_MethodInfo,
-	&SettingsWrapper_get_Item_m7113_MethodInfo,
-	&SettingsWrapper_set_Item_m7114_MethodInfo,
-	&SettingsWrapper_Add_m7115_MethodInfo,
-	&SettingsWrapper_Clear_m7116_MethodInfo,
-	&SettingsWrapper_Contains_m7117_MethodInfo,
-	&SettingsWrapper_CopyTo_m7118_MethodInfo,
-	&SettingsWrapper_get_Count_m7119_MethodInfo,
-	&SettingsWrapper_get_IsReadOnly_m7120_MethodInfo,
-	&SettingsWrapper_Remove_m7121_MethodInfo,
-	&SettingsWrapper_GetEnumerator_m7122_MethodInfo,
-	&SettingsWrapper_System_Collections_IEnumerable_GetEnumerator_m7123_MethodInfo,
+	&SettingsWrapper_get_Wrapper_m7104_MethodInfo,
+	&SettingsWrapper__ctor_m7105_MethodInfo,
+	&SettingsWrapper_Load_m7106_MethodInfo,
+	&SettingsWrapper_Save_m7107_MethodInfo,
+	&SettingsWrapper_Add_m7108_MethodInfo,
+	&SettingsWrapper_ContainsKey_m7109_MethodInfo,
+	&SettingsWrapper_get_Keys_m7110_MethodInfo,
+	&SettingsWrapper_Remove_m7111_MethodInfo,
+	&SettingsWrapper_TryGetValue_m7112_MethodInfo,
+	&SettingsWrapper_get_Values_m7113_MethodInfo,
+	&SettingsWrapper_get_Item_m7114_MethodInfo,
+	&SettingsWrapper_set_Item_m7115_MethodInfo,
+	&SettingsWrapper_Add_m7116_MethodInfo,
+	&SettingsWrapper_Clear_m7117_MethodInfo,
+	&SettingsWrapper_Contains_m7118_MethodInfo,
+	&SettingsWrapper_CopyTo_m7119_MethodInfo,
+	&SettingsWrapper_get_Count_m7120_MethodInfo,
+	&SettingsWrapper_get_IsReadOnly_m7121_MethodInfo,
+	&SettingsWrapper_Remove_m7122_MethodInfo,
+	&SettingsWrapper_GetEnumerator_m7123_MethodInfo,
+	&SettingsWrapper_System_Collections_IEnumerable_GetEnumerator_m7124_MethodInfo,
 	NULL
 };
-extern const MethodInfo SettingsWrapper_get_Wrapper_m7103_MethodInfo;
+extern const MethodInfo SettingsWrapper_get_Wrapper_m7104_MethodInfo;
 static const PropertyInfo SettingsWrapper_t1317____Wrapper_PropertyInfo = 
 {
 	&SettingsWrapper_t1317_il2cpp_TypeInfo/* parent */
 	, "Wrapper"/* name */
-	, &SettingsWrapper_get_Wrapper_m7103_MethodInfo/* get */
+	, &SettingsWrapper_get_Wrapper_m7104_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SettingsWrapper_get_Keys_m7109_MethodInfo;
+extern const MethodInfo SettingsWrapper_get_Keys_m7110_MethodInfo;
 static const PropertyInfo SettingsWrapper_t1317____Keys_PropertyInfo = 
 {
 	&SettingsWrapper_t1317_il2cpp_TypeInfo/* parent */
 	, "Keys"/* name */
-	, &SettingsWrapper_get_Keys_m7109_MethodInfo/* get */
+	, &SettingsWrapper_get_Keys_m7110_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SettingsWrapper_get_Values_m7112_MethodInfo;
+extern const MethodInfo SettingsWrapper_get_Values_m7113_MethodInfo;
 static const PropertyInfo SettingsWrapper_t1317____Values_PropertyInfo = 
 {
 	&SettingsWrapper_t1317_il2cpp_TypeInfo/* parent */
 	, "Values"/* name */
-	, &SettingsWrapper_get_Values_m7112_MethodInfo/* get */
+	, &SettingsWrapper_get_Values_m7113_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SettingsWrapper_get_Item_m7113_MethodInfo;
-extern const MethodInfo SettingsWrapper_set_Item_m7114_MethodInfo;
+extern const MethodInfo SettingsWrapper_get_Item_m7114_MethodInfo;
+extern const MethodInfo SettingsWrapper_set_Item_m7115_MethodInfo;
 static const PropertyInfo SettingsWrapper_t1317____Item_PropertyInfo = 
 {
 	&SettingsWrapper_t1317_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &SettingsWrapper_get_Item_m7113_MethodInfo/* get */
-	, &SettingsWrapper_set_Item_m7114_MethodInfo/* set */
+	, &SettingsWrapper_get_Item_m7114_MethodInfo/* get */
+	, &SettingsWrapper_set_Item_m7115_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SettingsWrapper_get_Count_m7119_MethodInfo;
+extern const MethodInfo SettingsWrapper_get_Count_m7120_MethodInfo;
 static const PropertyInfo SettingsWrapper_t1317____Count_PropertyInfo = 
 {
 	&SettingsWrapper_t1317_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
-	, &SettingsWrapper_get_Count_m7119_MethodInfo/* get */
+	, &SettingsWrapper_get_Count_m7120_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SettingsWrapper_get_IsReadOnly_m7120_MethodInfo;
+extern const MethodInfo SettingsWrapper_get_IsReadOnly_m7121_MethodInfo;
 static const PropertyInfo SettingsWrapper_t1317____IsReadOnly_PropertyInfo = 
 {
 	&SettingsWrapper_t1317_il2cpp_TypeInfo/* parent */
 	, "IsReadOnly"/* name */
-	, &SettingsWrapper_get_IsReadOnly_m7120_MethodInfo/* get */
+	, &SettingsWrapper_get_IsReadOnly_m7121_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -11873,40 +11873,40 @@ static const PropertyInfo* SettingsWrapper_t1317_PropertyInfos[] =
 	&SettingsWrapper_t1317____IsReadOnly_PropertyInfo,
 	NULL
 };
-extern const MethodInfo SettingsWrapper_Add_m7107_MethodInfo;
-extern const MethodInfo SettingsWrapper_ContainsKey_m7108_MethodInfo;
-extern const MethodInfo SettingsWrapper_Remove_m7110_MethodInfo;
-extern const MethodInfo SettingsWrapper_TryGetValue_m7111_MethodInfo;
-extern const MethodInfo SettingsWrapper_Add_m7115_MethodInfo;
-extern const MethodInfo SettingsWrapper_Clear_m7116_MethodInfo;
-extern const MethodInfo SettingsWrapper_Contains_m7117_MethodInfo;
-extern const MethodInfo SettingsWrapper_CopyTo_m7118_MethodInfo;
-extern const MethodInfo SettingsWrapper_Remove_m7121_MethodInfo;
-extern const MethodInfo SettingsWrapper_GetEnumerator_m7122_MethodInfo;
-extern const MethodInfo SettingsWrapper_System_Collections_IEnumerable_GetEnumerator_m7123_MethodInfo;
+extern const MethodInfo SettingsWrapper_Add_m7108_MethodInfo;
+extern const MethodInfo SettingsWrapper_ContainsKey_m7109_MethodInfo;
+extern const MethodInfo SettingsWrapper_Remove_m7111_MethodInfo;
+extern const MethodInfo SettingsWrapper_TryGetValue_m7112_MethodInfo;
+extern const MethodInfo SettingsWrapper_Add_m7116_MethodInfo;
+extern const MethodInfo SettingsWrapper_Clear_m7117_MethodInfo;
+extern const MethodInfo SettingsWrapper_Contains_m7118_MethodInfo;
+extern const MethodInfo SettingsWrapper_CopyTo_m7119_MethodInfo;
+extern const MethodInfo SettingsWrapper_Remove_m7122_MethodInfo;
+extern const MethodInfo SettingsWrapper_GetEnumerator_m7123_MethodInfo;
+extern const MethodInfo SettingsWrapper_System_Collections_IEnumerable_GetEnumerator_m7124_MethodInfo;
 static const Il2CppMethodReference SettingsWrapper_t1317_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&SettingsWrapper_Add_m7107_MethodInfo,
-	&SettingsWrapper_ContainsKey_m7108_MethodInfo,
-	&SettingsWrapper_Remove_m7110_MethodInfo,
-	&SettingsWrapper_TryGetValue_m7111_MethodInfo,
-	&SettingsWrapper_get_Item_m7113_MethodInfo,
-	&SettingsWrapper_set_Item_m7114_MethodInfo,
-	&SettingsWrapper_get_Keys_m7109_MethodInfo,
-	&SettingsWrapper_get_Values_m7112_MethodInfo,
-	&SettingsWrapper_get_Count_m7119_MethodInfo,
-	&SettingsWrapper_get_IsReadOnly_m7120_MethodInfo,
-	&SettingsWrapper_Add_m7115_MethodInfo,
-	&SettingsWrapper_Clear_m7116_MethodInfo,
-	&SettingsWrapper_Contains_m7117_MethodInfo,
-	&SettingsWrapper_CopyTo_m7118_MethodInfo,
-	&SettingsWrapper_Remove_m7121_MethodInfo,
-	&SettingsWrapper_GetEnumerator_m7122_MethodInfo,
-	&SettingsWrapper_System_Collections_IEnumerable_GetEnumerator_m7123_MethodInfo,
+	&SettingsWrapper_Add_m7108_MethodInfo,
+	&SettingsWrapper_ContainsKey_m7109_MethodInfo,
+	&SettingsWrapper_Remove_m7111_MethodInfo,
+	&SettingsWrapper_TryGetValue_m7112_MethodInfo,
+	&SettingsWrapper_get_Item_m7114_MethodInfo,
+	&SettingsWrapper_set_Item_m7115_MethodInfo,
+	&SettingsWrapper_get_Keys_m7110_MethodInfo,
+	&SettingsWrapper_get_Values_m7113_MethodInfo,
+	&SettingsWrapper_get_Count_m7120_MethodInfo,
+	&SettingsWrapper_get_IsReadOnly_m7121_MethodInfo,
+	&SettingsWrapper_Add_m7116_MethodInfo,
+	&SettingsWrapper_Clear_m7117_MethodInfo,
+	&SettingsWrapper_Contains_m7118_MethodInfo,
+	&SettingsWrapper_CopyTo_m7119_MethodInfo,
+	&SettingsWrapper_Remove_m7122_MethodInfo,
+	&SettingsWrapper_GetEnumerator_m7123_MethodInfo,
+	&SettingsWrapper_System_Collections_IEnumerable_GetEnumerator_m7124_MethodInfo,
 };
 static bool SettingsWrapper_t1317_VTableIsGenericMethod[] =
 {
@@ -12027,10 +12027,10 @@ extern TypeInfo U3CU3Ec__DisplayClass20_t1319_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_PlatformHooks_U3CU3Ec__DisplayClass20MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass20::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass20__ctor_m7124_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass20__ctor_m7125_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass20__ctor_m7124/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass20__ctor_m7125/* method */
 	, &U3CU3Ec__DisplayClass20_t1319_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12050,10 +12050,10 @@ extern const MethodInfo U3CU3Ec__DisplayClass20__ctor_m7124_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass20::<RegisterNetworkRequest>b__1f()
-extern const MethodInfo U3CU3Ec__DisplayClass20_U3CRegisterNetworkRequestU3Eb__1f_m7125_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass20_U3CRegisterNetworkRequestU3Eb__1f_m7126_MethodInfo = 
 {
 	"<RegisterNetworkRequest>b__1f"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass20_U3CRegisterNetworkRequestU3Eb__1f_m7125/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass20_U3CRegisterNetworkRequestU3Eb__1f_m7126/* method */
 	, &U3CU3Ec__DisplayClass20_t1319_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12073,8 +12073,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass20_U3CRegisterNetworkRequestU3Eb__1
 };
 static const MethodInfo* U3CU3Ec__DisplayClass20_t1319_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass20__ctor_m7124_MethodInfo,
-	&U3CU3Ec__DisplayClass20_U3CRegisterNetworkRequestU3Eb__1f_m7125_MethodInfo,
+	&U3CU3Ec__DisplayClass20__ctor_m7125_MethodInfo,
+	&U3CU3Ec__DisplayClass20_U3CRegisterNetworkRequestU3Eb__1f_m7126_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass20_t1319_VTable[] =
@@ -12170,10 +12170,10 @@ extern TypeInfo U3CU3Ec__DisplayClass24_t1321_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_PlatformHooks_U3CU3Ec__DisplayClass24MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass24::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass24__ctor_m7126_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass24__ctor_m7127_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass24__ctor_m7126/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass24__ctor_m7127/* method */
 	, &U3CU3Ec__DisplayClass24_t1321_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12193,10 +12193,10 @@ extern const MethodInfo U3CU3Ec__DisplayClass24__ctor_m7126_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass24::<RegisterDeviceTokenRequest>b__22()
-extern const MethodInfo U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__22_m7127_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__22_m7128_MethodInfo = 
 {
 	"<RegisterDeviceTokenRequest>b__22"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__22_m7127/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__22_m7128/* method */
 	, &U3CU3Ec__DisplayClass24_t1321_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12215,20 +12215,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3E
 
 };
 extern const Il2CppType IDictionary_2_t820_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass24_t1321_U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__23_m7128_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass24_t1321_U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__23_m7129_ParameterInfos[] = 
 {
 	{"payload", 0, 134218839, 0, &IDictionary_2_t820_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass24::<RegisterDeviceTokenRequest>b__23(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern const MethodInfo U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__23_m7128_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__23_m7129_MethodInfo = 
 {
 	"<RegisterDeviceTokenRequest>b__23"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__23_m7128/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__23_m7129/* method */
 	, &U3CU3Ec__DisplayClass24_t1321_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass24_t1321_U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__23_m7128_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass24_t1321_U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__23_m7129_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -12244,9 +12244,9 @@ extern const MethodInfo U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3E
 };
 static const MethodInfo* U3CU3Ec__DisplayClass24_t1321_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass24__ctor_m7126_MethodInfo,
-	&U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__22_m7127_MethodInfo,
-	&U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__23_m7128_MethodInfo,
+	&U3CU3Ec__DisplayClass24__ctor_m7127_MethodInfo,
+	&U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__22_m7128_MethodInfo,
+	&U3CU3Ec__DisplayClass24_U3CRegisterDeviceTokenRequestU3Eb__23_m7129_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass24_t1321_VTable[] =
@@ -12342,10 +12342,10 @@ extern TypeInfo U3CU3Ec__DisplayClass28_t1322_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_PlatformHooks_U3CU3Ec__DisplayClass28MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass28::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass28__ctor_m7129_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass28__ctor_m7130_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass28__ctor_m7129/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass28__ctor_m7130/* method */
 	, &U3CU3Ec__DisplayClass28_t1322_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12365,10 +12365,10 @@ extern const MethodInfo U3CU3Ec__DisplayClass28__ctor_m7129_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass28::<RegisteriOSPushNotificationListener>b__27()
-extern const MethodInfo U3CU3Ec__DisplayClass28_U3CRegisteriOSPushNotificationListenerU3Eb__27_m7130_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass28_U3CRegisteriOSPushNotificationListenerU3Eb__27_m7131_MethodInfo = 
 {
 	"<RegisteriOSPushNotificationListener>b__27"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass28_U3CRegisteriOSPushNotificationListenerU3Eb__27_m7130/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass28_U3CRegisteriOSPushNotificationListenerU3Eb__27_m7131/* method */
 	, &U3CU3Ec__DisplayClass28_t1322_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12388,8 +12388,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass28_U3CRegisteriOSPushNotificationLi
 };
 static const MethodInfo* U3CU3Ec__DisplayClass28_t1322_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass28__ctor_m7129_MethodInfo,
-	&U3CU3Ec__DisplayClass28_U3CRegisteriOSPushNotificationListenerU3Eb__27_m7130_MethodInfo,
+	&U3CU3Ec__DisplayClass28__ctor_m7130_MethodInfo,
+	&U3CU3Ec__DisplayClass28_U3CRegisteriOSPushNotificationListenerU3Eb__27_m7131_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass28_t1322_VTable[] =
@@ -12485,10 +12485,10 @@ extern TypeInfo U3CU3Ec__DisplayClass3e_t1324_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_PlatformHooks_U3CU3Ec__DisplayClass38_U3CUMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass38/<>c__DisplayClass3e::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass3e__ctor_m7131_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass3e__ctor_m7132_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass3e__ctor_m7131/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass3e__ctor_m7132/* method */
 	, &U3CU3Ec__DisplayClass3e_t1324_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12508,10 +12508,10 @@ extern const MethodInfo U3CU3Ec__DisplayClass3e__ctor_m7131_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass38/<>c__DisplayClass3e::<RequestAsync>b__31()
-extern const MethodInfo U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__31_m7132_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__31_m7133_MethodInfo = 
 {
 	"<RequestAsync>b__31"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__31_m7132/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__31_m7133/* method */
 	, &U3CU3Ec__DisplayClass3e_t1324_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12531,20 +12531,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__31_m7132_Me
 };
 extern const Il2CppType WWW_t265_0_0_0;
 extern const Il2CppType WWW_t265_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass3e_t1324_U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__32_m7133_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass3e_t1324_U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__32_m7134_ParameterInfos[] = 
 {
 	{"www", 0, 134218843, 0, &WWW_t265_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass38/<>c__DisplayClass3e::<RequestAsync>b__32(UnityEngine.WWW)
-extern const MethodInfo U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__32_m7133_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__32_m7134_MethodInfo = 
 {
 	"<RequestAsync>b__32"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__32_m7133/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__32_m7134/* method */
 	, &U3CU3Ec__DisplayClass3e_t1324_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass3e_t1324_U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__32_m7133_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass3e_t1324_U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__32_m7134_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12560,9 +12560,9 @@ extern const MethodInfo U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__32_m7133_Me
 };
 static const MethodInfo* U3CU3Ec__DisplayClass3e_t1324_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass3e__ctor_m7131_MethodInfo,
-	&U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__31_m7132_MethodInfo,
-	&U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__32_m7133_MethodInfo,
+	&U3CU3Ec__DisplayClass3e__ctor_m7132_MethodInfo,
+	&U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__31_m7133_MethodInfo,
+	&U3CU3Ec__DisplayClass3e_U3CRequestAsyncU3Eb__32_m7134_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass3e_t1324_VTable[] =
@@ -12659,10 +12659,10 @@ TypeInfo U3CU3Ec__DisplayClass3e_t1324_il2cpp_TypeInfo =
 #include "Parse_Unity_Parse_PlatformHooks_U3CU3Ec__DisplayClass38MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass38::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass38__ctor_m7134_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass38__ctor_m7135_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass38__ctor_m7134/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass38__ctor_m7135/* method */
 	, &U3CU3Ec__DisplayClass38_t1323_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12682,10 +12682,10 @@ extern const MethodInfo U3CU3Ec__DisplayClass38__ctor_m7134_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass38::<RequestAsync>b__2c()
-extern const MethodInfo U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2c_m7135_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2c_m7136_MethodInfo = 
 {
 	"<RequestAsync>b__2c"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2c_m7135/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2c_m7136/* method */
 	, &U3CU3Ec__DisplayClass38_t1323_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12704,20 +12704,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2c_m7135_Me
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass38_t1323_U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2f_m7136_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass38_t1323_U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2f_m7137_ParameterInfos[] = 
 {
 	{"t", 0, 134218840, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task Parse.PlatformHooks/<>c__DisplayClass38::<RequestAsync>b__2f(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2f_m7136_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2f_m7137_MethodInfo = 
 {
 	"<RequestAsync>b__2f"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2f_m7136/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2f_m7137/* method */
 	, &U3CU3Ec__DisplayClass38_t1323_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass38_t1323_U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2f_m7136_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass38_t1323_U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2f_m7137_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12732,20 +12732,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2f_m7136_Me
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass38_t1323_U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__30_m7137_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass38_t1323_U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__30_m7138_ParameterInfos[] = 
 {
 	{"_", 0, 134218841, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass38::<RequestAsync>b__30(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__30_m7137_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__30_m7138_MethodInfo = 
 {
 	"<RequestAsync>b__30"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__30_m7137/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__30_m7138/* method */
 	, &U3CU3Ec__DisplayClass38_t1323_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass38_t1323_U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__30_m7137_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass38_t1323_U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__30_m7138_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12761,21 +12761,21 @@ extern const MethodInfo U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__30_m7137_Me
 };
 extern const Il2CppType Task_1_t1391_0_0_0;
 extern const Il2CppType Task_1_t1391_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass38_t1323_U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__33_m7138_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass38_t1323_U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__33_m7139_ParameterInfos[] = 
 {
 	{"_", 0, 134218842, 0, &Task_1_t1391_0_0_0},
 };
 extern const Il2CppType Task_1_t1370_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>> Parse.PlatformHooks/<>c__DisplayClass38::<RequestAsync>b__33(System.Threading.Tasks.Task`1<System.Object>)
-extern const MethodInfo U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__33_m7138_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__33_m7139_MethodInfo = 
 {
 	"<RequestAsync>b__33"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__33_m7138/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__33_m7139/* method */
 	, &U3CU3Ec__DisplayClass38_t1323_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1370_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass38_t1323_U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__33_m7138_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass38_t1323_U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__33_m7139_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12791,11 +12791,11 @@ extern const MethodInfo U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__33_m7138_Me
 };
 static const MethodInfo* U3CU3Ec__DisplayClass38_t1323_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass38__ctor_m7134_MethodInfo,
-	&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2c_m7135_MethodInfo,
-	&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2f_m7136_MethodInfo,
-	&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__30_m7137_MethodInfo,
-	&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__33_m7138_MethodInfo,
+	&U3CU3Ec__DisplayClass38__ctor_m7135_MethodInfo,
+	&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2c_m7136_MethodInfo,
+	&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2f_m7137_MethodInfo,
+	&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__30_m7138_MethodInfo,
+	&U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__33_m7139_MethodInfo,
 	NULL
 };
 static const Il2CppType* U3CU3Ec__DisplayClass38_t1323_il2cpp_TypeInfo__nestedTypes[1] =
@@ -12894,10 +12894,10 @@ extern TypeInfo U3CU3Ec__DisplayClass3a_t1326_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_PlatformHooks_U3CU3Ec__DisplayClass3aMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass3a::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass3a__ctor_m7139_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass3a__ctor_m7140_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass3a__ctor_m7139/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass3a__ctor_m7140/* method */
 	, &U3CU3Ec__DisplayClass3a_t1326_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12916,20 +12916,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass3a__ctor_m7139_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t1369_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass3a_t1326_U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m7140_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass3a_t1326_U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m7141_ParameterInfos[] = 
 {
 	{"t", 0, 134218844, 0, &Task_1_t1369_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass3a::<RequestAsync>b__2d(System.Threading.Tasks.Task`1<System.String>)
-extern const MethodInfo U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m7140_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m7141_MethodInfo = 
 {
 	"<RequestAsync>b__2d"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m7140/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m7141/* method */
 	, &U3CU3Ec__DisplayClass3a_t1326_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass3a_t1326_U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m7140_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass3a_t1326_U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m7141_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12945,8 +12945,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m7140_Me
 };
 static const MethodInfo* U3CU3Ec__DisplayClass3a_t1326_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass3a__ctor_m7139_MethodInfo,
-	&U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m7140_MethodInfo,
+	&U3CU3Ec__DisplayClass3a__ctor_m7140_MethodInfo,
+	&U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m7141_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass3a_t1326_VTable[] =
@@ -13042,10 +13042,10 @@ extern TypeInfo U3CU3Ec__DisplayClass3c_t1327_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_PlatformHooks_U3CU3Ec__DisplayClass3cMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass3c::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass3c__ctor_m7141_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass3c__ctor_m7142_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass3c__ctor_m7141/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass3c__ctor_m7142/* method */
 	, &U3CU3Ec__DisplayClass3c_t1327_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -13064,20 +13064,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass3c__ctor_m7141_MethodInfo =
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass3c_t1327_U3CU3Ec__DisplayClass3c_U3CRequestAsyncU3Eb__2e_m7142_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass3c_t1327_U3CU3Ec__DisplayClass3c_U3CRequestAsyncU3Eb__2e_m7143_ParameterInfos[] = 
 {
 	{"_", 0, 134218845, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass3c::<RequestAsync>b__2e(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass3c_U3CRequestAsyncU3Eb__2e_m7142_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass3c_U3CRequestAsyncU3Eb__2e_m7143_MethodInfo = 
 {
 	"<RequestAsync>b__2e"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass3c_U3CRequestAsyncU3Eb__2e_m7142/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass3c_U3CRequestAsyncU3Eb__2e_m7143/* method */
 	, &U3CU3Ec__DisplayClass3c_t1327_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass3c_t1327_U3CU3Ec__DisplayClass3c_U3CRequestAsyncU3Eb__2e_m7142_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass3c_t1327_U3CU3Ec__DisplayClass3c_U3CRequestAsyncU3Eb__2e_m7143_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -13093,8 +13093,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass3c_U3CRequestAsyncU3Eb__2e_m7142_Me
 };
 static const MethodInfo* U3CU3Ec__DisplayClass3c_t1327_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass3c__ctor_m7141_MethodInfo,
-	&U3CU3Ec__DisplayClass3c_U3CRequestAsyncU3Eb__2e_m7142_MethodInfo,
+	&U3CU3Ec__DisplayClass3c__ctor_m7142_MethodInfo,
+	&U3CU3Ec__DisplayClass3c_U3CRequestAsyncU3Eb__2e_m7143_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass3c_t1327_VTable[] =
@@ -13190,10 +13190,10 @@ extern TypeInfo U3CU3Ec__DisplayClass42_t1329_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_PlatformHooks_U3CU3Ec__DisplayClass42MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass42::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass42__ctor_m7143_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass42__ctor_m7144_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass42__ctor_m7143/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass42__ctor_m7144/* method */
 	, &U3CU3Ec__DisplayClass42_t1329_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -13212,20 +13212,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass42__ctor_m7143_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass42_t1329_U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__35_m7144_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass42_t1329_U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__35_m7145_ParameterInfos[] = 
 {
 	{"_", 0, 134218846, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass42::<RequestAsync>b__35(System.Object)
-extern const MethodInfo U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__35_m7144_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__35_m7145_MethodInfo = 
 {
 	"<RequestAsync>b__35"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__35_m7144/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__35_m7145/* method */
 	, &U3CU3Ec__DisplayClass42_t1329_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass42_t1329_U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__35_m7144_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass42_t1329_U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__35_m7145_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -13240,20 +13240,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__35_m7144_Me
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass42_t1329_U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__36_m7145_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass42_t1329_U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__36_m7146_ParameterInfos[] = 
 {
 	{"_", 0, 134218847, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<>c__DisplayClass42::<RequestAsync>b__36(System.Object)
-extern const MethodInfo U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__36_m7145_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__36_m7146_MethodInfo = 
 {
 	"<RequestAsync>b__36"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__36_m7145/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__36_m7146/* method */
 	, &U3CU3Ec__DisplayClass42_t1329_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass42_t1329_U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__36_m7145_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass42_t1329_U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__36_m7146_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -13269,9 +13269,9 @@ extern const MethodInfo U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__36_m7145_Me
 };
 static const MethodInfo* U3CU3Ec__DisplayClass42_t1329_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass42__ctor_m7143_MethodInfo,
-	&U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__35_m7144_MethodInfo,
-	&U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__36_m7145_MethodInfo,
+	&U3CU3Ec__DisplayClass42__ctor_m7144_MethodInfo,
+	&U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__35_m7145_MethodInfo,
+	&U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__36_m7146_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass42_t1329_VTable[] =
@@ -13367,10 +13367,10 @@ extern TypeInfo U3CRunDispatcherU3Ed__44_t1330_il2cpp_TypeInfo;
 #include "Parse_Unity_Parse_PlatformHooks_U3CRunDispatcherU3Ed__44MethodDeclarations.h"
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks/<RunDispatcher>d__44::MoveNext()
-extern const MethodInfo U3CRunDispatcherU3Ed__44_MoveNext_m7146_MethodInfo = 
+extern const MethodInfo U3CRunDispatcherU3Ed__44_MoveNext_m7147_MethodInfo = 
 {
 	"MoveNext"/* name */
-	, (methodPointerType)&U3CRunDispatcherU3Ed__44_MoveNext_m7146/* method */
+	, (methodPointerType)&U3CRunDispatcherU3Ed__44_MoveNext_m7147/* method */
 	, &U3CRunDispatcherU3Ed__44_t1330_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -13390,10 +13390,10 @@ extern const MethodInfo U3CRunDispatcherU3Ed__44_MoveNext_m7146_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object Parse.PlatformHooks/<RunDispatcher>d__44::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7147_MethodInfo = 
+extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7148_MethodInfo = 
 {
 	"System.Collections.Generic.IEnumerator<System.Object>.get_Current"/* name */
-	, (methodPointerType)&U3CRunDispatcherU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7147/* method */
+	, (methodPointerType)&U3CRunDispatcherU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7148/* method */
 	, &U3CRunDispatcherU3Ed__44_t1330_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13413,10 +13413,10 @@ extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_Generic_IEnu
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<RunDispatcher>d__44::System.Collections.IEnumerator.Reset()
-extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_Reset_m7148_MethodInfo = 
+extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_Reset_m7149_MethodInfo = 
 {
 	"System.Collections.IEnumerator.Reset"/* name */
-	, (methodPointerType)&U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_Reset_m7148/* method */
+	, (methodPointerType)&U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_Reset_m7149/* method */
 	, &U3CRunDispatcherU3Ed__44_t1330_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -13436,10 +13436,10 @@ extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<RunDispatcher>d__44::System.IDisposable.Dispose()
-extern const MethodInfo U3CRunDispatcherU3Ed__44_System_IDisposable_Dispose_m7149_MethodInfo = 
+extern const MethodInfo U3CRunDispatcherU3Ed__44_System_IDisposable_Dispose_m7150_MethodInfo = 
 {
 	"System.IDisposable.Dispose"/* name */
-	, (methodPointerType)&U3CRunDispatcherU3Ed__44_System_IDisposable_Dispose_m7149/* method */
+	, (methodPointerType)&U3CRunDispatcherU3Ed__44_System_IDisposable_Dispose_m7150/* method */
 	, &U3CRunDispatcherU3Ed__44_t1330_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -13459,10 +13459,10 @@ extern const MethodInfo U3CRunDispatcherU3Ed__44_System_IDisposable_Dispose_m714
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object Parse.PlatformHooks/<RunDispatcher>d__44::System.Collections.IEnumerator.get_Current()
-extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_get_Current_m7150_MethodInfo = 
+extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_get_Current_m7151_MethodInfo = 
 {
 	"System.Collections.IEnumerator.get_Current"/* name */
-	, (methodPointerType)&U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_get_Current_m7150/* method */
+	, (methodPointerType)&U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_get_Current_m7151/* method */
 	, &U3CRunDispatcherU3Ed__44_t1330_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13481,20 +13481,20 @@ extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo U3CRunDispatcherU3Ed__44_t1330_U3CRunDispatcherU3Ed__44__ctor_m7151_ParameterInfos[] = 
+static const ParameterInfo U3CRunDispatcherU3Ed__44_t1330_U3CRunDispatcherU3Ed__44__ctor_m7152_ParameterInfos[] = 
 {
 	{"<>1__state", 0, 134218848, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks/<RunDispatcher>d__44::.ctor(System.Int32)
-extern const MethodInfo U3CRunDispatcherU3Ed__44__ctor_m7151_MethodInfo = 
+extern const MethodInfo U3CRunDispatcherU3Ed__44__ctor_m7152_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CRunDispatcherU3Ed__44__ctor_m7151/* method */
+	, (methodPointerType)&U3CRunDispatcherU3Ed__44__ctor_m7152/* method */
 	, &U3CRunDispatcherU3Ed__44_t1330_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, U3CRunDispatcherU3Ed__44_t1330_U3CRunDispatcherU3Ed__44__ctor_m7151_ParameterInfos/* parameters */
+	, U3CRunDispatcherU3Ed__44_t1330_U3CRunDispatcherU3Ed__44__ctor_m7152_ParameterInfos/* parameters */
 	, 504/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -13510,31 +13510,31 @@ extern const MethodInfo U3CRunDispatcherU3Ed__44__ctor_m7151_MethodInfo =
 };
 static const MethodInfo* U3CRunDispatcherU3Ed__44_t1330_MethodInfos[] =
 {
-	&U3CRunDispatcherU3Ed__44_MoveNext_m7146_MethodInfo,
-	&U3CRunDispatcherU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7147_MethodInfo,
-	&U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_Reset_m7148_MethodInfo,
-	&U3CRunDispatcherU3Ed__44_System_IDisposable_Dispose_m7149_MethodInfo,
-	&U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_get_Current_m7150_MethodInfo,
-	&U3CRunDispatcherU3Ed__44__ctor_m7151_MethodInfo,
+	&U3CRunDispatcherU3Ed__44_MoveNext_m7147_MethodInfo,
+	&U3CRunDispatcherU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7148_MethodInfo,
+	&U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_Reset_m7149_MethodInfo,
+	&U3CRunDispatcherU3Ed__44_System_IDisposable_Dispose_m7150_MethodInfo,
+	&U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_get_Current_m7151_MethodInfo,
+	&U3CRunDispatcherU3Ed__44__ctor_m7152_MethodInfo,
 	NULL
 };
-extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7147_MethodInfo;
+extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7148_MethodInfo;
 static const PropertyInfo U3CRunDispatcherU3Ed__44_t1330____System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_Current_PropertyInfo = 
 {
 	&U3CRunDispatcherU3Ed__44_t1330_il2cpp_TypeInfo/* parent */
 	, "System.Collections.Generic.IEnumerator<System.Object>.Current"/* name */
-	, &U3CRunDispatcherU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7147_MethodInfo/* get */
+	, &U3CRunDispatcherU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7148_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_get_Current_m7150_MethodInfo;
+extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_get_Current_m7151_MethodInfo;
 static const PropertyInfo U3CRunDispatcherU3Ed__44_t1330____System_Collections_IEnumerator_Current_PropertyInfo = 
 {
 	&U3CRunDispatcherU3Ed__44_t1330_il2cpp_TypeInfo/* parent */
 	, "System.Collections.IEnumerator.Current"/* name */
-	, &U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_get_Current_m7150_MethodInfo/* get */
+	, &U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_get_Current_m7151_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -13546,20 +13546,20 @@ static const PropertyInfo* U3CRunDispatcherU3Ed__44_t1330_PropertyInfos[] =
 	&U3CRunDispatcherU3Ed__44_t1330____System_Collections_IEnumerator_Current_PropertyInfo,
 	NULL
 };
-extern const MethodInfo U3CRunDispatcherU3Ed__44_MoveNext_m7146_MethodInfo;
-extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_Reset_m7148_MethodInfo;
-extern const MethodInfo U3CRunDispatcherU3Ed__44_System_IDisposable_Dispose_m7149_MethodInfo;
+extern const MethodInfo U3CRunDispatcherU3Ed__44_MoveNext_m7147_MethodInfo;
+extern const MethodInfo U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_Reset_m7149_MethodInfo;
+extern const MethodInfo U3CRunDispatcherU3Ed__44_System_IDisposable_Dispose_m7150_MethodInfo;
 static const Il2CppMethodReference U3CRunDispatcherU3Ed__44_t1330_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&U3CRunDispatcherU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7147_MethodInfo,
-	&U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_get_Current_m7150_MethodInfo,
-	&U3CRunDispatcherU3Ed__44_MoveNext_m7146_MethodInfo,
-	&U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_Reset_m7148_MethodInfo,
-	&U3CRunDispatcherU3Ed__44_System_IDisposable_Dispose_m7149_MethodInfo,
+	&U3CRunDispatcherU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7148_MethodInfo,
+	&U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_get_Current_m7151_MethodInfo,
+	&U3CRunDispatcherU3Ed__44_MoveNext_m7147_MethodInfo,
+	&U3CRunDispatcherU3Ed__44_System_Collections_IEnumerator_Reset_m7149_MethodInfo,
+	&U3CRunDispatcherU3Ed__44_System_IDisposable_Dispose_m7150_MethodInfo,
 };
 static bool U3CRunDispatcherU3Ed__44_t1330_VTableIsGenericMethod[] =
 {
@@ -13665,10 +13665,10 @@ TypeInfo U3CRunDispatcherU3Ed__44_t1330_il2cpp_TypeInfo =
 #include "Parse_Unity_Parse_PlatformHooksMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.PlatformHooks::get_SDKName()
-extern const MethodInfo PlatformHooks_get_SDKName_m7152_MethodInfo = 
+extern const MethodInfo PlatformHooks_get_SDKName_m7153_MethodInfo = 
 {
 	"get_SDKName"/* name */
-	, (methodPointerType)&PlatformHooks_get_SDKName_m7152/* method */
+	, (methodPointerType)&PlatformHooks_get_SDKName_m7153/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13688,10 +13688,10 @@ extern const MethodInfo PlatformHooks_get_SDKName_m7152_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.PlatformHooks::get_AppBuildVersion()
-extern const MethodInfo PlatformHooks_get_AppBuildVersion_m7153_MethodInfo = 
+extern const MethodInfo PlatformHooks_get_AppBuildVersion_m7154_MethodInfo = 
 {
 	"get_AppBuildVersion"/* name */
-	, (methodPointerType)&PlatformHooks_get_AppBuildVersion_m7153/* method */
+	, (methodPointerType)&PlatformHooks_get_AppBuildVersion_m7154/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13711,10 +13711,10 @@ extern const MethodInfo PlatformHooks_get_AppBuildVersion_m7153_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.PlatformHooks::get_AppDisplayVersion()
-extern const MethodInfo PlatformHooks_get_AppDisplayVersion_m7154_MethodInfo = 
+extern const MethodInfo PlatformHooks_get_AppDisplayVersion_m7155_MethodInfo = 
 {
 	"get_AppDisplayVersion"/* name */
-	, (methodPointerType)&PlatformHooks_get_AppDisplayVersion_m7154/* method */
+	, (methodPointerType)&PlatformHooks_get_AppDisplayVersion_m7155/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13734,10 +13734,10 @@ extern const MethodInfo PlatformHooks_get_AppDisplayVersion_m7154_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Parse.PlatformHooks::get_OSVersion()
-extern const MethodInfo PlatformHooks_get_OSVersion_m7155_MethodInfo = 
+extern const MethodInfo PlatformHooks_get_OSVersion_m7156_MethodInfo = 
 {
 	"get_OSVersion"/* name */
-	, (methodPointerType)&PlatformHooks_get_OSVersion_m7155/* method */
+	, (methodPointerType)&PlatformHooks_get_OSVersion_m7156/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13757,10 +13757,10 @@ extern const MethodInfo PlatformHooks_get_OSVersion_m7155_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks::get_IsCompiledByIL2CPP()
-extern const MethodInfo PlatformHooks_get_IsCompiledByIL2CPP_m7156_MethodInfo = 
+extern const MethodInfo PlatformHooks_get_IsCompiledByIL2CPP_m7157_MethodInfo = 
 {
 	"get_IsCompiledByIL2CPP"/* name */
-	, (methodPointerType)&PlatformHooks_get_IsCompiledByIL2CPP_m7156/* method */
+	, (methodPointerType)&PlatformHooks_get_IsCompiledByIL2CPP_m7157/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -13780,10 +13780,10 @@ extern const MethodInfo PlatformHooks_get_IsCompiledByIL2CPP_m7156_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks::get_IsWebPlayer()
-extern const MethodInfo PlatformHooks_get_IsWebPlayer_m7157_MethodInfo = 
+extern const MethodInfo PlatformHooks_get_IsWebPlayer_m7158_MethodInfo = 
 {
 	"get_IsWebPlayer"/* name */
-	, (methodPointerType)&PlatformHooks_get_IsWebPlayer_m7157/* method */
+	, (methodPointerType)&PlatformHooks_get_IsWebPlayer_m7158/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -13802,20 +13802,20 @@ extern const MethodInfo PlatformHooks_get_IsWebPlayer_m7157_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo PlatformHooks_t1334_PlatformHooks_set_IsWebPlayer_m7158_ParameterInfos[] = 
+static const ParameterInfo PlatformHooks_t1334_PlatformHooks_set_IsWebPlayer_m7159_ParameterInfos[] = 
 {
 	{"value", 0, 134218794, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::set_IsWebPlayer(System.Boolean)
-extern const MethodInfo PlatformHooks_set_IsWebPlayer_m7158_MethodInfo = 
+extern const MethodInfo PlatformHooks_set_IsWebPlayer_m7159_MethodInfo = 
 {
 	"set_IsWebPlayer"/* name */
-	, (methodPointerType)&PlatformHooks_set_IsWebPlayer_m7158/* method */
+	, (methodPointerType)&PlatformHooks_set_IsWebPlayer_m7159/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, PlatformHooks_t1334_PlatformHooks_set_IsWebPlayer_m7158_ParameterInfos/* parameters */
+	, PlatformHooks_t1334_PlatformHooks_set_IsWebPlayer_m7159_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2193/* flags */
 	, 0/* iflags */
@@ -13831,10 +13831,10 @@ extern const MethodInfo PlatformHooks_set_IsWebPlayer_m7158_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks::get_IsAndroid()
-extern const MethodInfo PlatformHooks_get_IsAndroid_m7159_MethodInfo = 
+extern const MethodInfo PlatformHooks_get_IsAndroid_m7160_MethodInfo = 
 {
 	"get_IsAndroid"/* name */
-	, (methodPointerType)&PlatformHooks_get_IsAndroid_m7159/* method */
+	, (methodPointerType)&PlatformHooks_get_IsAndroid_m7160/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -13854,10 +13854,10 @@ extern const MethodInfo PlatformHooks_get_IsAndroid_m7159_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks::get_IsIOS()
-extern const MethodInfo PlatformHooks_get_IsIOS_m7160_MethodInfo = 
+extern const MethodInfo PlatformHooks_get_IsIOS_m7161_MethodInfo = 
 {
 	"get_IsIOS"/* name */
-	, (methodPointerType)&PlatformHooks_get_IsIOS_m7160/* method */
+	, (methodPointerType)&PlatformHooks_get_IsIOS_m7161/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -13877,10 +13877,10 @@ extern const MethodInfo PlatformHooks_get_IsIOS_m7160_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks::get_IsWindowsPhone8()
-extern const MethodInfo PlatformHooks_get_IsWindowsPhone8_m7161_MethodInfo = 
+extern const MethodInfo PlatformHooks_get_IsWindowsPhone8_m7162_MethodInfo = 
 {
 	"get_IsWindowsPhone8"/* name */
-	, (methodPointerType)&PlatformHooks_get_IsWindowsPhone8_m7161/* method */
+	, (methodPointerType)&PlatformHooks_get_IsWindowsPhone8_m7162/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -13899,21 +13899,21 @@ extern const MethodInfo PlatformHooks_get_IsWindowsPhone8_m7161_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo PlatformHooks_t1334_PlatformHooks_GetTypeFromUnityEngine_m7162_ParameterInfos[] = 
+static const ParameterInfo PlatformHooks_t1334_PlatformHooks_GetTypeFromUnityEngine_m7163_ParameterInfos[] = 
 {
 	{"typeName", 0, 134218795, 0, &String_t_0_0_0},
 };
 extern const Il2CppType Type_t_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type Parse.PlatformHooks::GetTypeFromUnityEngine(System.String)
-extern const MethodInfo PlatformHooks_GetTypeFromUnityEngine_m7162_MethodInfo = 
+extern const MethodInfo PlatformHooks_GetTypeFromUnityEngine_m7163_MethodInfo = 
 {
 	"GetTypeFromUnityEngine"/* name */
-	, (methodPointerType)&PlatformHooks_GetTypeFromUnityEngine_m7162/* method */
+	, (methodPointerType)&PlatformHooks_GetTypeFromUnityEngine_m7163/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, PlatformHooks_t1334_PlatformHooks_GetTypeFromUnityEngine_m7162_ParameterInfos/* parameters */
+	, PlatformHooks_t1334_PlatformHooks_GetTypeFromUnityEngine_m7163_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -13929,10 +13929,10 @@ extern const MethodInfo PlatformHooks_GetTypeFromUnityEngine_m7162_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.PlatformHooks::get_ApplicationSettings()
-extern const MethodInfo PlatformHooks_get_ApplicationSettings_m7163_MethodInfo = 
+extern const MethodInfo PlatformHooks_get_ApplicationSettings_m7164_MethodInfo = 
 {
 	"get_ApplicationSettings"/* name */
-	, (methodPointerType)&PlatformHooks_get_ApplicationSettings_m7163/* method */
+	, (methodPointerType)&PlatformHooks_get_ApplicationSettings_m7164/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &IDictionary_2_t820_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13953,10 +13953,10 @@ extern const MethodInfo PlatformHooks_get_ApplicationSettings_m7163_MethodInfo =
 extern const Il2CppType List_1_t682_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<System.Object> Parse.PlatformHooks::CreateWrapperTypes()
-extern const MethodInfo PlatformHooks_CreateWrapperTypes_m7164_MethodInfo = 
+extern const MethodInfo PlatformHooks_CreateWrapperTypes_m7165_MethodInfo = 
 {
 	"CreateWrapperTypes"/* name */
-	, (methodPointerType)&PlatformHooks_CreateWrapperTypes_m7164/* method */
+	, (methodPointerType)&PlatformHooks_CreateWrapperTypes_m7165/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &List_1_t682_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -13978,7 +13978,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType ByteU5BU5D_t66_0_0_0;
 extern const Il2CppType Hashtable_t694_0_0_0;
 extern const Il2CppType Hashtable_t694_0_0_0;
-static const ParameterInfo PlatformHooks_t1334_PlatformHooks_GenerateWWWInstance_m7165_ParameterInfos[] = 
+static const ParameterInfo PlatformHooks_t1334_PlatformHooks_GenerateWWWInstance_m7166_ParameterInfos[] = 
 {
 	{"uri", 0, 134218796, 0, &String_t_0_0_0},
 	{"bytes", 1, 134218797, 0, &ByteU5BU5D_t66_0_0_0},
@@ -13986,14 +13986,14 @@ static const ParameterInfo PlatformHooks_t1334_PlatformHooks_GenerateWWWInstance
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.WWW Parse.PlatformHooks::GenerateWWWInstance(System.String,System.Byte[],System.Collections.Hashtable)
-extern const MethodInfo PlatformHooks_GenerateWWWInstance_m7165_MethodInfo = 
+extern const MethodInfo PlatformHooks_GenerateWWWInstance_m7166_MethodInfo = 
 {
 	"GenerateWWWInstance"/* name */
-	, (methodPointerType)&PlatformHooks_GenerateWWWInstance_m7165/* method */
+	, (methodPointerType)&PlatformHooks_GenerateWWWInstance_m7166/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &WWW_t265_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, PlatformHooks_t1334_PlatformHooks_GenerateWWWInstance_m7165_ParameterInfos/* parameters */
+	, PlatformHooks_t1334_PlatformHooks_GenerateWWWInstance_m7166_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -14010,21 +14010,21 @@ extern const MethodInfo PlatformHooks_GenerateWWWInstance_m7165_MethodInfo =
 extern const Il2CppType WWW_t265_0_0_0;
 extern const Il2CppType Action_1_t1318_0_0_0;
 extern const Il2CppType Action_1_t1318_0_0_0;
-static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RegisterNetworkRequest_m7166_ParameterInfos[] = 
+static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RegisterNetworkRequest_m7167_ParameterInfos[] = 
 {
 	{"www", 0, 134218799, 0, &WWW_t265_0_0_0},
 	{"action", 1, 134218800, 0, &Action_1_t1318_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::RegisterNetworkRequest(UnityEngine.WWW,System.Action`1<UnityEngine.WWW>)
-extern const MethodInfo PlatformHooks_RegisterNetworkRequest_m7166_MethodInfo = 
+extern const MethodInfo PlatformHooks_RegisterNetworkRequest_m7167_MethodInfo = 
 {
 	"RegisterNetworkRequest"/* name */
-	, (methodPointerType)&PlatformHooks_RegisterNetworkRequest_m7166/* method */
+	, (methodPointerType)&PlatformHooks_RegisterNetworkRequest_m7167/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, PlatformHooks_t1334_PlatformHooks_RegisterNetworkRequest_m7166_ParameterInfos/* parameters */
+	, PlatformHooks_t1334_PlatformHooks_RegisterNetworkRequest_m7167_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -14040,20 +14040,20 @@ extern const MethodInfo PlatformHooks_RegisterNetworkRequest_m7166_MethodInfo =
 };
 extern const Il2CppType Action_1_t1246_0_0_0;
 extern const Il2CppType Action_1_t1246_0_0_0;
-static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RegisterDeviceTokenRequest_m7167_ParameterInfos[] = 
+static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RegisterDeviceTokenRequest_m7168_ParameterInfos[] = 
 {
 	{"action", 0, 134218801, 0, &Action_1_t1246_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::RegisterDeviceTokenRequest(System.Action`1<System.Byte[]>)
-extern const MethodInfo PlatformHooks_RegisterDeviceTokenRequest_m7167_MethodInfo = 
+extern const MethodInfo PlatformHooks_RegisterDeviceTokenRequest_m7168_MethodInfo = 
 {
 	"RegisterDeviceTokenRequest"/* name */
-	, (methodPointerType)&PlatformHooks_RegisterDeviceTokenRequest_m7167/* method */
+	, (methodPointerType)&PlatformHooks_RegisterDeviceTokenRequest_m7168/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PlatformHooks_t1334_PlatformHooks_RegisterDeviceTokenRequest_m7167_ParameterInfos/* parameters */
+	, PlatformHooks_t1334_PlatformHooks_RegisterDeviceTokenRequest_m7168_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -14069,20 +14069,20 @@ extern const MethodInfo PlatformHooks_RegisterDeviceTokenRequest_m7167_MethodInf
 };
 extern const Il2CppType Action_1_t1320_0_0_0;
 extern const Il2CppType Action_1_t1320_0_0_0;
-static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RegisteriOSPushNotificationListener_m7168_ParameterInfos[] = 
+static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RegisteriOSPushNotificationListener_m7169_ParameterInfos[] = 
 {
 	{"action", 0, 134218802, 0, &Action_1_t1320_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::RegisteriOSPushNotificationListener(System.Action`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>)
-extern const MethodInfo PlatformHooks_RegisteriOSPushNotificationListener_m7168_MethodInfo = 
+extern const MethodInfo PlatformHooks_RegisteriOSPushNotificationListener_m7169_MethodInfo = 
 {
 	"RegisteriOSPushNotificationListener"/* name */
-	, (methodPointerType)&PlatformHooks_RegisteriOSPushNotificationListener_m7168/* method */
+	, (methodPointerType)&PlatformHooks_RegisteriOSPushNotificationListener_m7169/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PlatformHooks_t1334_PlatformHooks_RegisteriOSPushNotificationListener_m7168_ParameterInfos/* parameters */
+	, PlatformHooks_t1334_PlatformHooks_RegisteriOSPushNotificationListener_m7169_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -14105,7 +14105,7 @@ extern const Il2CppType Stream_t51_0_0_0;
 extern const Il2CppType Stream_t51_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RequestAsync_m7169_ParameterInfos[] = 
+static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RequestAsync_m7170_ParameterInfos[] = 
 {
 	{"uri", 0, 134218803, 0, &Uri_t755_0_0_0},
 	{"method", 1, 134218804, 0, &String_t_0_0_0},
@@ -14116,14 +14116,14 @@ static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RequestAsync_m7169_
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>> Parse.PlatformHooks::RequestAsync(System.Uri,System.String,System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>,System.IO.Stream,System.String,System.Threading.CancellationToken)
-extern const MethodInfo PlatformHooks_RequestAsync_m7169_MethodInfo = 
+extern const MethodInfo PlatformHooks_RequestAsync_m7170_MethodInfo = 
 {
 	"RequestAsync"/* name */
-	, (methodPointerType)&PlatformHooks_RequestAsync_m7169/* method */
+	, (methodPointerType)&PlatformHooks_RequestAsync_m7170/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1370_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, PlatformHooks_t1334_PlatformHooks_RequestAsync_m7169_ParameterInfos/* parameters */
+	, PlatformHooks_t1334_PlatformHooks_RequestAsync_m7170_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -14143,7 +14143,7 @@ extern const Il2CppType Stream_t51_0_0_0;
 extern const Il2CppType IProgress_1_t1241_0_0_0;
 extern const Il2CppType IProgress_1_t1241_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo PlatformHooks_t1334_PlatformHooks_UploadAsync_m7170_ParameterInfos[] = 
+static const ParameterInfo PlatformHooks_t1334_PlatformHooks_UploadAsync_m7171_ParameterInfos[] = 
 {
 	{"uri", 0, 134218809, 0, &Uri_t755_0_0_0},
 	{"headers", 1, 134218810, 0, &IList_1_t1384_0_0_0},
@@ -14153,14 +14153,14 @@ static const ParameterInfo PlatformHooks_t1334_PlatformHooks_UploadAsync_m7170_P
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>> Parse.PlatformHooks::UploadAsync(System.Uri,System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>,System.IO.Stream,System.IProgress`1<Parse.ParseUploadProgressEventArgs>,System.Threading.CancellationToken)
-extern const MethodInfo PlatformHooks_UploadAsync_m7170_MethodInfo = 
+extern const MethodInfo PlatformHooks_UploadAsync_m7171_MethodInfo = 
 {
 	"UploadAsync"/* name */
-	, (methodPointerType)&PlatformHooks_UploadAsync_m7170/* method */
+	, (methodPointerType)&PlatformHooks_UploadAsync_m7171/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1370_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, PlatformHooks_t1334_PlatformHooks_UploadAsync_m7170_ParameterInfos/* parameters */
+	, PlatformHooks_t1334_PlatformHooks_UploadAsync_m7171_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -14181,7 +14181,7 @@ extern const Il2CppType Stream_t51_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType IProgress_1_t1241_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RequestAsync_m7171_ParameterInfos[] = 
+static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RequestAsync_m7172_ParameterInfos[] = 
 {
 	{"uri", 0, 134218814, 0, &Uri_t755_0_0_0},
 	{"method", 1, 134218815, 0, &String_t_0_0_0},
@@ -14193,14 +14193,14 @@ static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RequestAsync_m7171_
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>> Parse.PlatformHooks::RequestAsync(System.Uri,System.String,System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>,System.IO.Stream,System.String,System.IProgress`1<Parse.ParseUploadProgressEventArgs>,System.Threading.CancellationToken)
-extern const MethodInfo PlatformHooks_RequestAsync_m7171_MethodInfo = 
+extern const MethodInfo PlatformHooks_RequestAsync_m7172_MethodInfo = 
 {
 	"RequestAsync"/* name */
-	, (methodPointerType)&PlatformHooks_RequestAsync_m7171/* method */
+	, (methodPointerType)&PlatformHooks_RequestAsync_m7172/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1370_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, PlatformHooks_t1334_PlatformHooks_RequestAsync_m7171_ParameterInfos/* parameters */
+	, PlatformHooks_t1334_PlatformHooks_RequestAsync_m7172_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -14216,20 +14216,20 @@ extern const MethodInfo PlatformHooks_RequestAsync_m7171_MethodInfo =
 };
 extern const Il2CppType Action_t143_0_0_0;
 extern const Il2CppType Action_t143_0_0_0;
-static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RunOnMainThread_m7172_ParameterInfos[] = 
+static const ParameterInfo PlatformHooks_t1334_PlatformHooks_RunOnMainThread_m7173_ParameterInfos[] = 
 {
 	{"action", 0, 134218821, 0, &Action_t143_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::RunOnMainThread(System.Action)
-extern const MethodInfo PlatformHooks_RunOnMainThread_m7172_MethodInfo = 
+extern const MethodInfo PlatformHooks_RunOnMainThread_m7173_MethodInfo = 
 {
 	"RunOnMainThread"/* name */
-	, (methodPointerType)&PlatformHooks_RunOnMainThread_m7172/* method */
+	, (methodPointerType)&PlatformHooks_RunOnMainThread_m7173/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PlatformHooks_t1334_PlatformHooks_RunOnMainThread_m7172_ParameterInfos/* parameters */
+	, PlatformHooks_t1334_PlatformHooks_RunOnMainThread_m7173_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -14245,10 +14245,10 @@ extern const MethodInfo PlatformHooks_RunOnMainThread_m7172_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IEnumerator Parse.PlatformHooks::RunDispatcher()
-extern const MethodInfo PlatformHooks_RunDispatcher_m7173_MethodInfo = 
+extern const MethodInfo PlatformHooks_RunDispatcher_m7174_MethodInfo = 
 {
 	"RunDispatcher"/* name */
-	, (methodPointerType)&PlatformHooks_RunDispatcher_m7173/* method */
+	, (methodPointerType)&PlatformHooks_RunDispatcher_m7174/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -14268,10 +14268,10 @@ extern const MethodInfo PlatformHooks_RunDispatcher_m7173_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::Initialize()
-extern const MethodInfo PlatformHooks_Initialize_m7174_MethodInfo = 
+extern const MethodInfo PlatformHooks_Initialize_m7175_MethodInfo = 
 {
 	"Initialize"/* name */
-	, (methodPointerType)&PlatformHooks_Initialize_m7174/* method */
+	, (methodPointerType)&PlatformHooks_Initialize_m7175/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14291,10 +14291,10 @@ extern const MethodInfo PlatformHooks_Initialize_m7174_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::ClearInMemoryInstallation()
-extern const MethodInfo PlatformHooks_ClearInMemoryInstallation_m7175_MethodInfo = 
+extern const MethodInfo PlatformHooks_ClearInMemoryInstallation_m7176_MethodInfo = 
 {
 	"ClearInMemoryInstallation"/* name */
-	, (methodPointerType)&PlatformHooks_ClearInMemoryInstallation_m7175/* method */
+	, (methodPointerType)&PlatformHooks_ClearInMemoryInstallation_m7176/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14314,10 +14314,10 @@ extern const MethodInfo PlatformHooks_ClearInMemoryInstallation_m7175_MethodInfo
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::.ctor()
-extern const MethodInfo PlatformHooks__ctor_m7176_MethodInfo = 
+extern const MethodInfo PlatformHooks__ctor_m7177_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PlatformHooks__ctor_m7176/* method */
+	, (methodPointerType)&PlatformHooks__ctor_m7177/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14337,10 +14337,10 @@ extern const MethodInfo PlatformHooks__ctor_m7176_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__1()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__1_m7177_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__1_m7178_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__1"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__1_m7177/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__1_m7178/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14360,10 +14360,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__1_m7177_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__2()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__2_m7178_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__2_m7179_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__2"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__2_m7178/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__2_m7179/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14383,10 +14383,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__2_m7178_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__3()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__3_m7179_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__3_m7180_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__3"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__3_m7179/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__3_m7180/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14406,10 +14406,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__3_m7179_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__4()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__4_m7180_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__4_m7181_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__4"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__4_m7180/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__4_m7181/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14429,10 +14429,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__4_m7180_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__5()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__5_m7181_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__5_m7182_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__5"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__5_m7181/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__5_m7182/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14452,10 +14452,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__5_m7181_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__6()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__6_m7182_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__6_m7183_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__6"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__6_m7182/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__6_m7183/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14475,10 +14475,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__6_m7182_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__7()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__7_m7183_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__7_m7184_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__7"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__7_m7183/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__7_m7184/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14498,10 +14498,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__7_m7183_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__8()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__8_m7184_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__8_m7185_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__8"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__8_m7184/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__8_m7185/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14521,10 +14521,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__8_m7184_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__9()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__9_m7185_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__9_m7186_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__9"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__9_m7185/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__9_m7186/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14544,10 +14544,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__9_m7185_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__a()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__a_m7186_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__a_m7187_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__a"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__a_m7186/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__a_m7187/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14567,10 +14567,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__a_m7186_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__b()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__b_m7187_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__b_m7188_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__b"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__b_m7187/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__b_m7188/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14590,10 +14590,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__b_m7187_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__c()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__c_m7188_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__c_m7189_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__c"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__c_m7188/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__c_m7189/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14613,10 +14613,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__c_m7188_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__d()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__d_m7189_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__d_m7190_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__d"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__d_m7189/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__d_m7190/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14636,10 +14636,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__d_m7189_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__e()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__e_m7190_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__e_m7191_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__e"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__e_m7190/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__e_m7191/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14659,10 +14659,10 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__e_m7190_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::<CreateWrapperTypes>b__f()
-extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__f_m7191_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__f_m7192_MethodInfo = 
 {
 	"<CreateWrapperTypes>b__f"/* name */
-	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__f_m7191/* method */
+	, (methodPointerType)&PlatformHooks_U3CCreateWrapperTypesU3Eb__f_m7192/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14681,20 +14681,20 @@ extern const MethodInfo PlatformHooks_U3CCreateWrapperTypesU3Eb__f_m7191_MethodI
 
 };
 extern const Il2CppType Task_1_t1370_0_0_0;
-static const ParameterInfo PlatformHooks_t1334_PlatformHooks_U3CRequestAsyncU3Eb__34_m7192_ParameterInfos[] = 
+static const ParameterInfo PlatformHooks_t1334_PlatformHooks_U3CRequestAsyncU3Eb__34_m7193_ParameterInfos[] = 
 {
 	{"t", 0, 134218822, 0, &Task_1_t1370_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<System.Object> Parse.PlatformHooks::<RequestAsync>b__34(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>)
-extern const MethodInfo PlatformHooks_U3CRequestAsyncU3Eb__34_m7192_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CRequestAsyncU3Eb__34_m7193_MethodInfo = 
 {
 	"<RequestAsync>b__34"/* name */
-	, (methodPointerType)&PlatformHooks_U3CRequestAsyncU3Eb__34_m7192/* method */
+	, (methodPointerType)&PlatformHooks_U3CRequestAsyncU3Eb__34_m7193/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t1391_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, PlatformHooks_t1334_PlatformHooks_U3CRequestAsyncU3Eb__34_m7192_ParameterInfos/* parameters */
+	, PlatformHooks_t1334_PlatformHooks_U3CRequestAsyncU3Eb__34_m7193_ParameterInfos/* parameters */
 	, 489/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -14710,20 +14710,20 @@ extern const MethodInfo PlatformHooks_U3CRequestAsyncU3Eb__34_m7192_MethodInfo =
 };
 extern const Il2CppType MethodInfo_t_0_0_0;
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo PlatformHooks_t1334_PlatformHooks_U3CInitializeU3Eb__46_m7193_ParameterInfos[] = 
+static const ParameterInfo PlatformHooks_t1334_PlatformHooks_U3CInitializeU3Eb__46_m7194_ParameterInfos[] = 
 {
 	{"x", 0, 134218823, 0, &MethodInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks::<Initialize>b__46(System.Reflection.MethodInfo)
-extern const MethodInfo PlatformHooks_U3CInitializeU3Eb__46_m7193_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CInitializeU3Eb__46_m7194_MethodInfo = 
 {
 	"<Initialize>b__46"/* name */
-	, (methodPointerType)&PlatformHooks_U3CInitializeU3Eb__46_m7193/* method */
+	, (methodPointerType)&PlatformHooks_U3CInitializeU3Eb__46_m7194/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, PlatformHooks_t1334_PlatformHooks_U3CInitializeU3Eb__46_m7193_ParameterInfos/* parameters */
+	, PlatformHooks_t1334_PlatformHooks_U3CInitializeU3Eb__46_m7194_ParameterInfos/* parameters */
 	, 490/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -14738,20 +14738,20 @@ extern const MethodInfo PlatformHooks_U3CInitializeU3Eb__46_m7193_MethodInfo =
 
 };
 extern const Il2CppType MethodInfo_t_0_0_0;
-static const ParameterInfo PlatformHooks_t1334_PlatformHooks_U3CInitializeU3Eb__47_m7194_ParameterInfos[] = 
+static const ParameterInfo PlatformHooks_t1334_PlatformHooks_U3CInitializeU3Eb__47_m7195_ParameterInfos[] = 
 {
 	{"x", 0, 134218824, 0, &MethodInfo_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Parse.PlatformHooks::<Initialize>b__47(System.Reflection.MethodInfo)
-extern const MethodInfo PlatformHooks_U3CInitializeU3Eb__47_m7194_MethodInfo = 
+extern const MethodInfo PlatformHooks_U3CInitializeU3Eb__47_m7195_MethodInfo = 
 {
 	"<Initialize>b__47"/* name */
-	, (methodPointerType)&PlatformHooks_U3CInitializeU3Eb__47_m7194/* method */
+	, (methodPointerType)&PlatformHooks_U3CInitializeU3Eb__47_m7195/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, PlatformHooks_t1334_PlatformHooks_U3CInitializeU3Eb__47_m7194_ParameterInfos/* parameters */
+	, PlatformHooks_t1334_PlatformHooks_U3CInitializeU3Eb__47_m7195_ParameterInfos/* parameters */
 	, 491/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -14767,10 +14767,10 @@ extern const MethodInfo PlatformHooks_U3CInitializeU3Eb__47_m7194_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void Parse.PlatformHooks::.cctor()
-extern const MethodInfo PlatformHooks__cctor_m7195_MethodInfo = 
+extern const MethodInfo PlatformHooks__cctor_m7196_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&PlatformHooks__cctor_m7195/* method */
+	, (methodPointerType)&PlatformHooks__cctor_m7196/* method */
 	, &PlatformHooks_t1334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14790,158 +14790,158 @@ extern const MethodInfo PlatformHooks__cctor_m7195_MethodInfo =
 };
 static const MethodInfo* PlatformHooks_t1334_MethodInfos[] =
 {
-	&PlatformHooks_get_SDKName_m7152_MethodInfo,
-	&PlatformHooks_get_AppBuildVersion_m7153_MethodInfo,
-	&PlatformHooks_get_AppDisplayVersion_m7154_MethodInfo,
-	&PlatformHooks_get_OSVersion_m7155_MethodInfo,
-	&PlatformHooks_get_IsCompiledByIL2CPP_m7156_MethodInfo,
-	&PlatformHooks_get_IsWebPlayer_m7157_MethodInfo,
-	&PlatformHooks_set_IsWebPlayer_m7158_MethodInfo,
-	&PlatformHooks_get_IsAndroid_m7159_MethodInfo,
-	&PlatformHooks_get_IsIOS_m7160_MethodInfo,
-	&PlatformHooks_get_IsWindowsPhone8_m7161_MethodInfo,
-	&PlatformHooks_GetTypeFromUnityEngine_m7162_MethodInfo,
-	&PlatformHooks_get_ApplicationSettings_m7163_MethodInfo,
-	&PlatformHooks_CreateWrapperTypes_m7164_MethodInfo,
-	&PlatformHooks_GenerateWWWInstance_m7165_MethodInfo,
-	&PlatformHooks_RegisterNetworkRequest_m7166_MethodInfo,
-	&PlatformHooks_RegisterDeviceTokenRequest_m7167_MethodInfo,
-	&PlatformHooks_RegisteriOSPushNotificationListener_m7168_MethodInfo,
-	&PlatformHooks_RequestAsync_m7169_MethodInfo,
-	&PlatformHooks_UploadAsync_m7170_MethodInfo,
-	&PlatformHooks_RequestAsync_m7171_MethodInfo,
-	&PlatformHooks_RunOnMainThread_m7172_MethodInfo,
-	&PlatformHooks_RunDispatcher_m7173_MethodInfo,
-	&PlatformHooks_Initialize_m7174_MethodInfo,
-	&PlatformHooks_ClearInMemoryInstallation_m7175_MethodInfo,
-	&PlatformHooks__ctor_m7176_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__1_m7177_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__2_m7178_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__3_m7179_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__4_m7180_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__5_m7181_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__6_m7182_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__7_m7183_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__8_m7184_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__9_m7185_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__a_m7186_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__b_m7187_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__c_m7188_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__d_m7189_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__e_m7190_MethodInfo,
-	&PlatformHooks_U3CCreateWrapperTypesU3Eb__f_m7191_MethodInfo,
-	&PlatformHooks_U3CRequestAsyncU3Eb__34_m7192_MethodInfo,
-	&PlatformHooks_U3CInitializeU3Eb__46_m7193_MethodInfo,
-	&PlatformHooks_U3CInitializeU3Eb__47_m7194_MethodInfo,
-	&PlatformHooks__cctor_m7195_MethodInfo,
+	&PlatformHooks_get_SDKName_m7153_MethodInfo,
+	&PlatformHooks_get_AppBuildVersion_m7154_MethodInfo,
+	&PlatformHooks_get_AppDisplayVersion_m7155_MethodInfo,
+	&PlatformHooks_get_OSVersion_m7156_MethodInfo,
+	&PlatformHooks_get_IsCompiledByIL2CPP_m7157_MethodInfo,
+	&PlatformHooks_get_IsWebPlayer_m7158_MethodInfo,
+	&PlatformHooks_set_IsWebPlayer_m7159_MethodInfo,
+	&PlatformHooks_get_IsAndroid_m7160_MethodInfo,
+	&PlatformHooks_get_IsIOS_m7161_MethodInfo,
+	&PlatformHooks_get_IsWindowsPhone8_m7162_MethodInfo,
+	&PlatformHooks_GetTypeFromUnityEngine_m7163_MethodInfo,
+	&PlatformHooks_get_ApplicationSettings_m7164_MethodInfo,
+	&PlatformHooks_CreateWrapperTypes_m7165_MethodInfo,
+	&PlatformHooks_GenerateWWWInstance_m7166_MethodInfo,
+	&PlatformHooks_RegisterNetworkRequest_m7167_MethodInfo,
+	&PlatformHooks_RegisterDeviceTokenRequest_m7168_MethodInfo,
+	&PlatformHooks_RegisteriOSPushNotificationListener_m7169_MethodInfo,
+	&PlatformHooks_RequestAsync_m7170_MethodInfo,
+	&PlatformHooks_UploadAsync_m7171_MethodInfo,
+	&PlatformHooks_RequestAsync_m7172_MethodInfo,
+	&PlatformHooks_RunOnMainThread_m7173_MethodInfo,
+	&PlatformHooks_RunDispatcher_m7174_MethodInfo,
+	&PlatformHooks_Initialize_m7175_MethodInfo,
+	&PlatformHooks_ClearInMemoryInstallation_m7176_MethodInfo,
+	&PlatformHooks__ctor_m7177_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__1_m7178_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__2_m7179_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__3_m7180_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__4_m7181_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__5_m7182_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__6_m7183_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__7_m7184_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__8_m7185_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__9_m7186_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__a_m7187_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__b_m7188_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__c_m7189_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__d_m7190_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__e_m7191_MethodInfo,
+	&PlatformHooks_U3CCreateWrapperTypesU3Eb__f_m7192_MethodInfo,
+	&PlatformHooks_U3CRequestAsyncU3Eb__34_m7193_MethodInfo,
+	&PlatformHooks_U3CInitializeU3Eb__46_m7194_MethodInfo,
+	&PlatformHooks_U3CInitializeU3Eb__47_m7195_MethodInfo,
+	&PlatformHooks__cctor_m7196_MethodInfo,
 	NULL
 };
-extern const MethodInfo PlatformHooks_get_SDKName_m7152_MethodInfo;
+extern const MethodInfo PlatformHooks_get_SDKName_m7153_MethodInfo;
 static const PropertyInfo PlatformHooks_t1334____SDKName_PropertyInfo = 
 {
 	&PlatformHooks_t1334_il2cpp_TypeInfo/* parent */
 	, "SDKName"/* name */
-	, &PlatformHooks_get_SDKName_m7152_MethodInfo/* get */
+	, &PlatformHooks_get_SDKName_m7153_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo PlatformHooks_get_AppBuildVersion_m7153_MethodInfo;
+extern const MethodInfo PlatformHooks_get_AppBuildVersion_m7154_MethodInfo;
 static const PropertyInfo PlatformHooks_t1334____AppBuildVersion_PropertyInfo = 
 {
 	&PlatformHooks_t1334_il2cpp_TypeInfo/* parent */
 	, "AppBuildVersion"/* name */
-	, &PlatformHooks_get_AppBuildVersion_m7153_MethodInfo/* get */
+	, &PlatformHooks_get_AppBuildVersion_m7154_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo PlatformHooks_get_AppDisplayVersion_m7154_MethodInfo;
+extern const MethodInfo PlatformHooks_get_AppDisplayVersion_m7155_MethodInfo;
 static const PropertyInfo PlatformHooks_t1334____AppDisplayVersion_PropertyInfo = 
 {
 	&PlatformHooks_t1334_il2cpp_TypeInfo/* parent */
 	, "AppDisplayVersion"/* name */
-	, &PlatformHooks_get_AppDisplayVersion_m7154_MethodInfo/* get */
+	, &PlatformHooks_get_AppDisplayVersion_m7155_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo PlatformHooks_get_OSVersion_m7155_MethodInfo;
+extern const MethodInfo PlatformHooks_get_OSVersion_m7156_MethodInfo;
 static const PropertyInfo PlatformHooks_t1334____OSVersion_PropertyInfo = 
 {
 	&PlatformHooks_t1334_il2cpp_TypeInfo/* parent */
 	, "OSVersion"/* name */
-	, &PlatformHooks_get_OSVersion_m7155_MethodInfo/* get */
+	, &PlatformHooks_get_OSVersion_m7156_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo PlatformHooks_get_IsCompiledByIL2CPP_m7156_MethodInfo;
+extern const MethodInfo PlatformHooks_get_IsCompiledByIL2CPP_m7157_MethodInfo;
 static const PropertyInfo PlatformHooks_t1334____IsCompiledByIL2CPP_PropertyInfo = 
 {
 	&PlatformHooks_t1334_il2cpp_TypeInfo/* parent */
 	, "IsCompiledByIL2CPP"/* name */
-	, &PlatformHooks_get_IsCompiledByIL2CPP_m7156_MethodInfo/* get */
+	, &PlatformHooks_get_IsCompiledByIL2CPP_m7157_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo PlatformHooks_get_IsWebPlayer_m7157_MethodInfo;
-extern const MethodInfo PlatformHooks_set_IsWebPlayer_m7158_MethodInfo;
+extern const MethodInfo PlatformHooks_get_IsWebPlayer_m7158_MethodInfo;
+extern const MethodInfo PlatformHooks_set_IsWebPlayer_m7159_MethodInfo;
 static const PropertyInfo PlatformHooks_t1334____IsWebPlayer_PropertyInfo = 
 {
 	&PlatformHooks_t1334_il2cpp_TypeInfo/* parent */
 	, "IsWebPlayer"/* name */
-	, &PlatformHooks_get_IsWebPlayer_m7157_MethodInfo/* get */
-	, &PlatformHooks_set_IsWebPlayer_m7158_MethodInfo/* set */
+	, &PlatformHooks_get_IsWebPlayer_m7158_MethodInfo/* get */
+	, &PlatformHooks_set_IsWebPlayer_m7159_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo PlatformHooks_get_IsAndroid_m7159_MethodInfo;
+extern const MethodInfo PlatformHooks_get_IsAndroid_m7160_MethodInfo;
 static const PropertyInfo PlatformHooks_t1334____IsAndroid_PropertyInfo = 
 {
 	&PlatformHooks_t1334_il2cpp_TypeInfo/* parent */
 	, "IsAndroid"/* name */
-	, &PlatformHooks_get_IsAndroid_m7159_MethodInfo/* get */
+	, &PlatformHooks_get_IsAndroid_m7160_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo PlatformHooks_get_IsIOS_m7160_MethodInfo;
+extern const MethodInfo PlatformHooks_get_IsIOS_m7161_MethodInfo;
 static const PropertyInfo PlatformHooks_t1334____IsIOS_PropertyInfo = 
 {
 	&PlatformHooks_t1334_il2cpp_TypeInfo/* parent */
 	, "IsIOS"/* name */
-	, &PlatformHooks_get_IsIOS_m7160_MethodInfo/* get */
+	, &PlatformHooks_get_IsIOS_m7161_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo PlatformHooks_get_IsWindowsPhone8_m7161_MethodInfo;
+extern const MethodInfo PlatformHooks_get_IsWindowsPhone8_m7162_MethodInfo;
 static const PropertyInfo PlatformHooks_t1334____IsWindowsPhone8_PropertyInfo = 
 {
 	&PlatformHooks_t1334_il2cpp_TypeInfo/* parent */
 	, "IsWindowsPhone8"/* name */
-	, &PlatformHooks_get_IsWindowsPhone8_m7161_MethodInfo/* get */
+	, &PlatformHooks_get_IsWindowsPhone8_m7162_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo PlatformHooks_get_ApplicationSettings_m7163_MethodInfo;
+extern const MethodInfo PlatformHooks_get_ApplicationSettings_m7164_MethodInfo;
 static const PropertyInfo PlatformHooks_t1334____ApplicationSettings_PropertyInfo = 
 {
 	&PlatformHooks_t1334_il2cpp_TypeInfo/* parent */
 	, "ApplicationSettings"/* name */
-	, &PlatformHooks_get_ApplicationSettings_m7163_MethodInfo/* get */
+	, &PlatformHooks_get_ApplicationSettings_m7164_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -14973,25 +14973,25 @@ static const Il2CppType* PlatformHooks_t1334_il2cpp_TypeInfo__nestedTypes[9] =
 	&U3CU3Ec__DisplayClass42_t1329_0_0_0,
 	&U3CRunDispatcherU3Ed__44_t1330_0_0_0,
 };
-extern const MethodInfo PlatformHooks_UploadAsync_m7170_MethodInfo;
-extern const MethodInfo PlatformHooks_RequestAsync_m7169_MethodInfo;
-extern const MethodInfo PlatformHooks_Initialize_m7174_MethodInfo;
-extern const MethodInfo PlatformHooks_ClearInMemoryInstallation_m7175_MethodInfo;
+extern const MethodInfo PlatformHooks_UploadAsync_m7171_MethodInfo;
+extern const MethodInfo PlatformHooks_RequestAsync_m7170_MethodInfo;
+extern const MethodInfo PlatformHooks_Initialize_m7175_MethodInfo;
+extern const MethodInfo PlatformHooks_ClearInMemoryInstallation_m7176_MethodInfo;
 static const Il2CppMethodReference PlatformHooks_t1334_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&PlatformHooks_get_ApplicationSettings_m7163_MethodInfo,
-	&PlatformHooks_UploadAsync_m7170_MethodInfo,
-	&PlatformHooks_RequestAsync_m7169_MethodInfo,
-	&PlatformHooks_Initialize_m7174_MethodInfo,
-	&PlatformHooks_ClearInMemoryInstallation_m7175_MethodInfo,
-	&PlatformHooks_get_SDKName_m7152_MethodInfo,
-	&PlatformHooks_get_AppBuildVersion_m7153_MethodInfo,
-	&PlatformHooks_get_AppDisplayVersion_m7154_MethodInfo,
-	&PlatformHooks_get_OSVersion_m7155_MethodInfo,
+	&PlatformHooks_get_ApplicationSettings_m7164_MethodInfo,
+	&PlatformHooks_UploadAsync_m7171_MethodInfo,
+	&PlatformHooks_RequestAsync_m7170_MethodInfo,
+	&PlatformHooks_Initialize_m7175_MethodInfo,
+	&PlatformHooks_ClearInMemoryInstallation_m7176_MethodInfo,
+	&PlatformHooks_get_SDKName_m7153_MethodInfo,
+	&PlatformHooks_get_AppBuildVersion_m7154_MethodInfo,
+	&PlatformHooks_get_AppDisplayVersion_m7155_MethodInfo,
+	&PlatformHooks_get_OSVersion_m7156_MethodInfo,
 };
 static bool PlatformHooks_t1334_VTableIsGenericMethod[] =
 {
@@ -15096,20 +15096,20 @@ extern TypeInfo AggregateException_t1336_il2cpp_TypeInfo;
 #include "Parse_Unity_System_AggregateExceptionMethodDeclarations.h"
 extern const Il2CppType IEnumerable_1_t1411_0_0_0;
 extern const Il2CppType IEnumerable_1_t1411_0_0_0;
-static const ParameterInfo AggregateException_t1336_AggregateException__ctor_m7196_ParameterInfos[] = 
+static const ParameterInfo AggregateException_t1336_AggregateException__ctor_m7197_ParameterInfos[] = 
 {
 	{"innerExceptions", 0, 134218849, 0, &IEnumerable_1_t1411_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.AggregateException::.ctor(System.Collections.Generic.IEnumerable`1<System.Exception>)
-extern const MethodInfo AggregateException__ctor_m7196_MethodInfo = 
+extern const MethodInfo AggregateException__ctor_m7197_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AggregateException__ctor_m7196/* method */
+	, (methodPointerType)&AggregateException__ctor_m7197/* method */
 	, &AggregateException_t1336_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, AggregateException_t1336_AggregateException__ctor_m7196_ParameterInfos/* parameters */
+	, AggregateException_t1336_AggregateException__ctor_m7197_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15126,10 +15126,10 @@ extern const MethodInfo AggregateException__ctor_m7196_MethodInfo =
 extern const Il2CppType ReadOnlyCollection_1_t1335_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception> System.AggregateException::get_InnerExceptions()
-extern const MethodInfo AggregateException_get_InnerExceptions_m7197_MethodInfo = 
+extern const MethodInfo AggregateException_get_InnerExceptions_m7198_MethodInfo = 
 {
 	"get_InnerExceptions"/* name */
-	, (methodPointerType)&AggregateException_get_InnerExceptions_m7197/* method */
+	, (methodPointerType)&AggregateException_get_InnerExceptions_m7198/* method */
 	, &AggregateException_t1336_il2cpp_TypeInfo/* declaring_type */
 	, &ReadOnlyCollection_1_t1335_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15148,20 +15148,20 @@ extern const MethodInfo AggregateException_get_InnerExceptions_m7197_MethodInfo 
 
 };
 extern const Il2CppType ReadOnlyCollection_1_t1335_0_0_0;
-static const ParameterInfo AggregateException_t1336_AggregateException_set_InnerExceptions_m7198_ParameterInfos[] = 
+static const ParameterInfo AggregateException_t1336_AggregateException_set_InnerExceptions_m7199_ParameterInfos[] = 
 {
 	{"value", 0, 134218850, 0, &ReadOnlyCollection_1_t1335_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.AggregateException::set_InnerExceptions(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception>)
-extern const MethodInfo AggregateException_set_InnerExceptions_m7198_MethodInfo = 
+extern const MethodInfo AggregateException_set_InnerExceptions_m7199_MethodInfo = 
 {
 	"set_InnerExceptions"/* name */
-	, (methodPointerType)&AggregateException_set_InnerExceptions_m7198/* method */
+	, (methodPointerType)&AggregateException_set_InnerExceptions_m7199/* method */
 	, &AggregateException_t1336_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, AggregateException_t1336_AggregateException_set_InnerExceptions_m7198_ParameterInfos/* parameters */
+	, AggregateException_t1336_AggregateException_set_InnerExceptions_m7199_ParameterInfos/* parameters */
 	, 507/* custom_attributes_cache */
 	, 2177/* flags */
 	, 0/* iflags */
@@ -15178,10 +15178,10 @@ extern const MethodInfo AggregateException_set_InnerExceptions_m7198_MethodInfo 
 extern const Il2CppType AggregateException_t1336_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.AggregateException System.AggregateException::Flatten()
-extern const MethodInfo AggregateException_Flatten_m7199_MethodInfo = 
+extern const MethodInfo AggregateException_Flatten_m7200_MethodInfo = 
 {
 	"Flatten"/* name */
-	, (methodPointerType)&AggregateException_Flatten_m7199/* method */
+	, (methodPointerType)&AggregateException_Flatten_m7200/* method */
 	, &AggregateException_t1336_il2cpp_TypeInfo/* declaring_type */
 	, &AggregateException_t1336_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15201,10 +15201,10 @@ extern const MethodInfo AggregateException_Flatten_m7199_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.AggregateException::ToString()
-extern const MethodInfo AggregateException_ToString_m7200_MethodInfo = 
+extern const MethodInfo AggregateException_ToString_m7201_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&AggregateException_ToString_m7200/* method */
+	, (methodPointerType)&AggregateException_ToString_m7201/* method */
 	, &AggregateException_t1336_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -15224,21 +15224,21 @@ extern const MethodInfo AggregateException_ToString_m7200_MethodInfo =
 };
 static const MethodInfo* AggregateException_t1336_MethodInfos[] =
 {
-	&AggregateException__ctor_m7196_MethodInfo,
-	&AggregateException_get_InnerExceptions_m7197_MethodInfo,
-	&AggregateException_set_InnerExceptions_m7198_MethodInfo,
-	&AggregateException_Flatten_m7199_MethodInfo,
-	&AggregateException_ToString_m7200_MethodInfo,
+	&AggregateException__ctor_m7197_MethodInfo,
+	&AggregateException_get_InnerExceptions_m7198_MethodInfo,
+	&AggregateException_set_InnerExceptions_m7199_MethodInfo,
+	&AggregateException_Flatten_m7200_MethodInfo,
+	&AggregateException_ToString_m7201_MethodInfo,
 	NULL
 };
-extern const MethodInfo AggregateException_get_InnerExceptions_m7197_MethodInfo;
-extern const MethodInfo AggregateException_set_InnerExceptions_m7198_MethodInfo;
+extern const MethodInfo AggregateException_get_InnerExceptions_m7198_MethodInfo;
+extern const MethodInfo AggregateException_set_InnerExceptions_m7199_MethodInfo;
 static const PropertyInfo AggregateException_t1336____InnerExceptions_PropertyInfo = 
 {
 	&AggregateException_t1336_il2cpp_TypeInfo/* parent */
 	, "InnerExceptions"/* name */
-	, &AggregateException_get_InnerExceptions_m7197_MethodInfo/* get */
-	, &AggregateException_set_InnerExceptions_m7198_MethodInfo/* set */
+	, &AggregateException_get_InnerExceptions_m7198_MethodInfo/* get */
+	, &AggregateException_set_InnerExceptions_m7199_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -15248,26 +15248,26 @@ static const PropertyInfo* AggregateException_t1336_PropertyInfos[] =
 	&AggregateException_t1336____InnerExceptions_PropertyInfo,
 	NULL
 };
-extern const MethodInfo AggregateException_ToString_m7200_MethodInfo;
-extern const MethodInfo Exception_GetObjectData_m8373_MethodInfo;
-extern const MethodInfo Exception_get_InnerException_m8374_MethodInfo;
-extern const MethodInfo Exception_get_Message_m8375_MethodInfo;
-extern const MethodInfo Exception_get_Source_m8376_MethodInfo;
-extern const MethodInfo Exception_get_StackTrace_m8377_MethodInfo;
-extern const MethodInfo Exception_GetType_m8378_MethodInfo;
+extern const MethodInfo AggregateException_ToString_m7201_MethodInfo;
+extern const MethodInfo Exception_GetObjectData_m8374_MethodInfo;
+extern const MethodInfo Exception_get_InnerException_m8375_MethodInfo;
+extern const MethodInfo Exception_get_Message_m8376_MethodInfo;
+extern const MethodInfo Exception_get_Source_m8377_MethodInfo;
+extern const MethodInfo Exception_get_StackTrace_m8378_MethodInfo;
+extern const MethodInfo Exception_GetType_m8379_MethodInfo;
 static const Il2CppMethodReference AggregateException_t1336_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&AggregateException_ToString_m7200_MethodInfo,
-	&Exception_GetObjectData_m8373_MethodInfo,
-	&Exception_get_InnerException_m8374_MethodInfo,
-	&Exception_get_Message_m8375_MethodInfo,
-	&Exception_get_Source_m8376_MethodInfo,
-	&Exception_get_StackTrace_m8377_MethodInfo,
-	&Exception_GetObjectData_m8373_MethodInfo,
-	&Exception_GetType_m8378_MethodInfo,
+	&AggregateException_ToString_m7201_MethodInfo,
+	&Exception_GetObjectData_m8374_MethodInfo,
+	&Exception_get_InnerException_m8375_MethodInfo,
+	&Exception_get_Message_m8376_MethodInfo,
+	&Exception_get_Source_m8377_MethodInfo,
+	&Exception_get_StackTrace_m8378_MethodInfo,
+	&Exception_GetObjectData_m8374_MethodInfo,
+	&Exception_GetType_m8379_MethodInfo,
 };
 static bool AggregateException_t1336_VTableIsGenericMethod[] =
 {
@@ -15369,20 +15369,20 @@ extern TypeInfo CancellationToken_t1162_il2cpp_TypeInfo;
 #include "Parse_Unity_System_Threading_CancellationTokenMethodDeclarations.h"
 extern const Il2CppType CancellationTokenSource_t1337_0_0_0;
 extern const Il2CppType CancellationTokenSource_t1337_0_0_0;
-static const ParameterInfo CancellationToken_t1162_CancellationToken__ctor_m7201_ParameterInfos[] = 
+static const ParameterInfo CancellationToken_t1162_CancellationToken__ctor_m7202_ParameterInfos[] = 
 {
 	{"source", 0, 134218851, 0, &CancellationTokenSource_t1337_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.CancellationToken::.ctor(System.Threading.CancellationTokenSource)
-extern const MethodInfo CancellationToken__ctor_m7201_MethodInfo = 
+extern const MethodInfo CancellationToken__ctor_m7202_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CancellationToken__ctor_m7201/* method */
+	, (methodPointerType)&CancellationToken__ctor_m7202/* method */
 	, &CancellationToken_t1162_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, CancellationToken_t1162_CancellationToken__ctor_m7201_ParameterInfos/* parameters */
+	, CancellationToken_t1162_CancellationToken__ctor_m7202_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -15398,10 +15398,10 @@ extern const MethodInfo CancellationToken__ctor_m7201_MethodInfo =
 };
 extern void* RuntimeInvoker_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.CancellationToken System.Threading.CancellationToken::get_None()
-extern const MethodInfo CancellationToken_get_None_m7202_MethodInfo = 
+extern const MethodInfo CancellationToken_get_None_m7203_MethodInfo = 
 {
 	"get_None"/* name */
-	, (methodPointerType)&CancellationToken_get_None_m7202/* method */
+	, (methodPointerType)&CancellationToken_get_None_m7203/* method */
 	, &CancellationToken_t1162_il2cpp_TypeInfo/* declaring_type */
 	, &CancellationToken_t1162_0_0_0/* return_type */
 	, RuntimeInvoker_CancellationToken_t1162/* invoker_method */
@@ -15421,10 +15421,10 @@ extern const MethodInfo CancellationToken_get_None_m7202_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.CancellationToken::get_IsCancellationRequested()
-extern const MethodInfo CancellationToken_get_IsCancellationRequested_m7203_MethodInfo = 
+extern const MethodInfo CancellationToken_get_IsCancellationRequested_m7204_MethodInfo = 
 {
 	"get_IsCancellationRequested"/* name */
-	, (methodPointerType)&CancellationToken_get_IsCancellationRequested_m7203/* method */
+	, (methodPointerType)&CancellationToken_get_IsCancellationRequested_m7204/* method */
 	, &CancellationToken_t1162_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -15443,21 +15443,21 @@ extern const MethodInfo CancellationToken_get_IsCancellationRequested_m7203_Meth
 
 };
 extern const Il2CppType Action_t143_0_0_0;
-static const ParameterInfo CancellationToken_t1162_CancellationToken_Register_m7204_ParameterInfos[] = 
+static const ParameterInfo CancellationToken_t1162_CancellationToken_Register_m7205_ParameterInfos[] = 
 {
 	{"callback", 0, 134218852, 0, &Action_t143_0_0_0},
 };
 extern const Il2CppType CancellationTokenRegistration_t1338_0_0_0;
 extern void* RuntimeInvoker_CancellationTokenRegistration_t1338_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.CancellationTokenRegistration System.Threading.CancellationToken::Register(System.Action)
-extern const MethodInfo CancellationToken_Register_m7204_MethodInfo = 
+extern const MethodInfo CancellationToken_Register_m7205_MethodInfo = 
 {
 	"Register"/* name */
-	, (methodPointerType)&CancellationToken_Register_m7204/* method */
+	, (methodPointerType)&CancellationToken_Register_m7205/* method */
 	, &CancellationToken_t1162_il2cpp_TypeInfo/* declaring_type */
 	, &CancellationTokenRegistration_t1338_0_0_0/* return_type */
 	, RuntimeInvoker_CancellationTokenRegistration_t1338_Object_t/* invoker_method */
-	, CancellationToken_t1162_CancellationToken_Register_m7204_ParameterInfos/* parameters */
+	, CancellationToken_t1162_CancellationToken_Register_m7205_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -15473,10 +15473,10 @@ extern const MethodInfo CancellationToken_Register_m7204_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.CancellationToken::ThrowIfCancellationRequested()
-extern const MethodInfo CancellationToken_ThrowIfCancellationRequested_m7205_MethodInfo = 
+extern const MethodInfo CancellationToken_ThrowIfCancellationRequested_m7206_MethodInfo = 
 {
 	"ThrowIfCancellationRequested"/* name */
-	, (methodPointerType)&CancellationToken_ThrowIfCancellationRequested_m7205/* method */
+	, (methodPointerType)&CancellationToken_ThrowIfCancellationRequested_m7206/* method */
 	, &CancellationToken_t1162_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -15496,30 +15496,30 @@ extern const MethodInfo CancellationToken_ThrowIfCancellationRequested_m7205_Met
 };
 static const MethodInfo* CancellationToken_t1162_MethodInfos[] =
 {
-	&CancellationToken__ctor_m7201_MethodInfo,
-	&CancellationToken_get_None_m7202_MethodInfo,
-	&CancellationToken_get_IsCancellationRequested_m7203_MethodInfo,
-	&CancellationToken_Register_m7204_MethodInfo,
-	&CancellationToken_ThrowIfCancellationRequested_m7205_MethodInfo,
+	&CancellationToken__ctor_m7202_MethodInfo,
+	&CancellationToken_get_None_m7203_MethodInfo,
+	&CancellationToken_get_IsCancellationRequested_m7204_MethodInfo,
+	&CancellationToken_Register_m7205_MethodInfo,
+	&CancellationToken_ThrowIfCancellationRequested_m7206_MethodInfo,
 	NULL
 };
-extern const MethodInfo CancellationToken_get_None_m7202_MethodInfo;
+extern const MethodInfo CancellationToken_get_None_m7203_MethodInfo;
 static const PropertyInfo CancellationToken_t1162____None_PropertyInfo = 
 {
 	&CancellationToken_t1162_il2cpp_TypeInfo/* parent */
 	, "None"/* name */
-	, &CancellationToken_get_None_m7202_MethodInfo/* get */
+	, &CancellationToken_get_None_m7203_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CancellationToken_get_IsCancellationRequested_m7203_MethodInfo;
+extern const MethodInfo CancellationToken_get_IsCancellationRequested_m7204_MethodInfo;
 static const PropertyInfo CancellationToken_t1162____IsCancellationRequested_PropertyInfo = 
 {
 	&CancellationToken_t1162_il2cpp_TypeInfo/* parent */
 	, "IsCancellationRequested"/* name */
-	, &CancellationToken_get_IsCancellationRequested_m7203_MethodInfo/* get */
+	, &CancellationToken_get_IsCancellationRequested_m7204_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -15531,15 +15531,15 @@ static const PropertyInfo* CancellationToken_t1162_PropertyInfos[] =
 	&CancellationToken_t1162____IsCancellationRequested_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ValueType_Equals_m4556_MethodInfo;
-extern const MethodInfo ValueType_GetHashCode_m4557_MethodInfo;
-extern const MethodInfo ValueType_ToString_m4558_MethodInfo;
+extern const MethodInfo ValueType_Equals_m4557_MethodInfo;
+extern const MethodInfo ValueType_GetHashCode_m4558_MethodInfo;
+extern const MethodInfo ValueType_ToString_m4559_MethodInfo;
 static const Il2CppMethodReference CancellationToken_t1162_VTable[] =
 {
-	&ValueType_Equals_m4556_MethodInfo,
+	&ValueType_Equals_m4557_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4557_MethodInfo,
-	&ValueType_ToString_m4558_MethodInfo,
+	&ValueType_GetHashCode_m4558_MethodInfo,
+	&ValueType_ToString_m4559_MethodInfo,
 };
 static bool CancellationToken_t1162_VTableIsGenericMethod[] =
 {
@@ -15626,21 +15626,21 @@ extern TypeInfo CancellationTokenRegistration_t1338_il2cpp_TypeInfo;
 #include "Parse_Unity_System_Threading_CancellationTokenRegistrationMethodDeclarations.h"
 extern const Il2CppType CancellationTokenSource_t1337_0_0_0;
 extern const Il2CppType Action_t143_0_0_0;
-static const ParameterInfo CancellationTokenRegistration_t1338_CancellationTokenRegistration__ctor_m7206_ParameterInfos[] = 
+static const ParameterInfo CancellationTokenRegistration_t1338_CancellationTokenRegistration__ctor_m7207_ParameterInfos[] = 
 {
 	{"source", 0, 134218853, 0, &CancellationTokenSource_t1337_0_0_0},
 	{"action", 1, 134218854, 0, &Action_t143_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.CancellationTokenRegistration::.ctor(System.Threading.CancellationTokenSource,System.Action)
-extern const MethodInfo CancellationTokenRegistration__ctor_m7206_MethodInfo = 
+extern const MethodInfo CancellationTokenRegistration__ctor_m7207_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CancellationTokenRegistration__ctor_m7206/* method */
+	, (methodPointerType)&CancellationTokenRegistration__ctor_m7207/* method */
 	, &CancellationTokenRegistration_t1338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, CancellationTokenRegistration_t1338_CancellationTokenRegistration__ctor_m7206_ParameterInfos/* parameters */
+	, CancellationTokenRegistration_t1338_CancellationTokenRegistration__ctor_m7207_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -15656,10 +15656,10 @@ extern const MethodInfo CancellationTokenRegistration__ctor_m7206_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.CancellationTokenRegistration::Dispose()
-extern const MethodInfo CancellationTokenRegistration_Dispose_m7207_MethodInfo = 
+extern const MethodInfo CancellationTokenRegistration_Dispose_m7208_MethodInfo = 
 {
 	"Dispose"/* name */
-	, (methodPointerType)&CancellationTokenRegistration_Dispose_m7207/* method */
+	, (methodPointerType)&CancellationTokenRegistration_Dispose_m7208/* method */
 	, &CancellationTokenRegistration_t1338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -15679,18 +15679,18 @@ extern const MethodInfo CancellationTokenRegistration_Dispose_m7207_MethodInfo =
 };
 static const MethodInfo* CancellationTokenRegistration_t1338_MethodInfos[] =
 {
-	&CancellationTokenRegistration__ctor_m7206_MethodInfo,
-	&CancellationTokenRegistration_Dispose_m7207_MethodInfo,
+	&CancellationTokenRegistration__ctor_m7207_MethodInfo,
+	&CancellationTokenRegistration_Dispose_m7208_MethodInfo,
 	NULL
 };
-extern const MethodInfo CancellationTokenRegistration_Dispose_m7207_MethodInfo;
+extern const MethodInfo CancellationTokenRegistration_Dispose_m7208_MethodInfo;
 static const Il2CppMethodReference CancellationTokenRegistration_t1338_VTable[] =
 {
-	&ValueType_Equals_m4556_MethodInfo,
+	&ValueType_Equals_m4557_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4557_MethodInfo,
-	&ValueType_ToString_m4558_MethodInfo,
-	&CancellationTokenRegistration_Dispose_m7207_MethodInfo,
+	&ValueType_GetHashCode_m4558_MethodInfo,
+	&ValueType_ToString_m4559_MethodInfo,
+	&CancellationTokenRegistration_Dispose_m7208_MethodInfo,
 };
 static bool CancellationTokenRegistration_t1338_VTableIsGenericMethod[] =
 {
@@ -15784,20 +15784,20 @@ extern TypeInfo CancellationTokenSource_t1337_il2cpp_TypeInfo;
 // System.Threading.CancellationTokenSource
 #include "Parse_Unity_System_Threading_CancellationTokenSourceMethodDeclarations.h"
 extern const Il2CppType Action_t143_0_0_0;
-static const ParameterInfo CancellationTokenSource_t1337_CancellationTokenSource_Register_m7208_ParameterInfos[] = 
+static const ParameterInfo CancellationTokenSource_t1337_CancellationTokenSource_Register_m7209_ParameterInfos[] = 
 {
 	{"action", 0, 134218855, 0, &Action_t143_0_0_0},
 };
 extern void* RuntimeInvoker_CancellationTokenRegistration_t1338_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.CancellationTokenRegistration System.Threading.CancellationTokenSource::Register(System.Action)
-extern const MethodInfo CancellationTokenSource_Register_m7208_MethodInfo = 
+extern const MethodInfo CancellationTokenSource_Register_m7209_MethodInfo = 
 {
 	"Register"/* name */
-	, (methodPointerType)&CancellationTokenSource_Register_m7208/* method */
+	, (methodPointerType)&CancellationTokenSource_Register_m7209/* method */
 	, &CancellationTokenSource_t1337_il2cpp_TypeInfo/* declaring_type */
 	, &CancellationTokenRegistration_t1338_0_0_0/* return_type */
 	, RuntimeInvoker_CancellationTokenRegistration_t1338_Object_t/* invoker_method */
-	, CancellationTokenSource_t1337_CancellationTokenSource_Register_m7208_ParameterInfos/* parameters */
+	, CancellationTokenSource_t1337_CancellationTokenSource_Register_m7209_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -15812,20 +15812,20 @@ extern const MethodInfo CancellationTokenSource_Register_m7208_MethodInfo =
 
 };
 extern const Il2CppType Action_t143_0_0_0;
-static const ParameterInfo CancellationTokenSource_t1337_CancellationTokenSource_Unregister_m7209_ParameterInfos[] = 
+static const ParameterInfo CancellationTokenSource_t1337_CancellationTokenSource_Unregister_m7210_ParameterInfos[] = 
 {
 	{"action", 0, 134218856, 0, &Action_t143_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.CancellationTokenSource::Unregister(System.Action)
-extern const MethodInfo CancellationTokenSource_Unregister_m7209_MethodInfo = 
+extern const MethodInfo CancellationTokenSource_Unregister_m7210_MethodInfo = 
 {
 	"Unregister"/* name */
-	, (methodPointerType)&CancellationTokenSource_Unregister_m7209/* method */
+	, (methodPointerType)&CancellationTokenSource_Unregister_m7210/* method */
 	, &CancellationTokenSource_t1337_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, CancellationTokenSource_t1337_CancellationTokenSource_Unregister_m7209_ParameterInfos/* parameters */
+	, CancellationTokenSource_t1337_CancellationTokenSource_Unregister_m7210_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -15841,10 +15841,10 @@ extern const MethodInfo CancellationTokenSource_Unregister_m7209_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.CancellationTokenSource::get_IsCancellationRequested()
-extern const MethodInfo CancellationTokenSource_get_IsCancellationRequested_m7210_MethodInfo = 
+extern const MethodInfo CancellationTokenSource_get_IsCancellationRequested_m7211_MethodInfo = 
 {
 	"get_IsCancellationRequested"/* name */
-	, (methodPointerType)&CancellationTokenSource_get_IsCancellationRequested_m7210/* method */
+	, (methodPointerType)&CancellationTokenSource_get_IsCancellationRequested_m7211/* method */
 	, &CancellationTokenSource_t1337_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -15864,10 +15864,10 @@ extern const MethodInfo CancellationTokenSource_get_IsCancellationRequested_m721
 };
 extern void* RuntimeInvoker_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.CancellationToken System.Threading.CancellationTokenSource::get_Token()
-extern const MethodInfo CancellationTokenSource_get_Token_m7211_MethodInfo = 
+extern const MethodInfo CancellationTokenSource_get_Token_m7212_MethodInfo = 
 {
 	"get_Token"/* name */
-	, (methodPointerType)&CancellationTokenSource_get_Token_m7211/* method */
+	, (methodPointerType)&CancellationTokenSource_get_Token_m7212/* method */
 	, &CancellationTokenSource_t1337_il2cpp_TypeInfo/* declaring_type */
 	, &CancellationToken_t1162_0_0_0/* return_type */
 	, RuntimeInvoker_CancellationToken_t1162/* invoker_method */
@@ -15887,10 +15887,10 @@ extern const MethodInfo CancellationTokenSource_get_Token_m7211_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.CancellationTokenSource::Cancel()
-extern const MethodInfo CancellationTokenSource_Cancel_m7212_MethodInfo = 
+extern const MethodInfo CancellationTokenSource_Cancel_m7213_MethodInfo = 
 {
 	"Cancel"/* name */
-	, (methodPointerType)&CancellationTokenSource_Cancel_m7212/* method */
+	, (methodPointerType)&CancellationTokenSource_Cancel_m7213/* method */
 	, &CancellationTokenSource_t1337_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -15909,20 +15909,20 @@ extern const MethodInfo CancellationTokenSource_Cancel_m7212_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo CancellationTokenSource_t1337_CancellationTokenSource_Cancel_m7213_ParameterInfos[] = 
+static const ParameterInfo CancellationTokenSource_t1337_CancellationTokenSource_Cancel_m7214_ParameterInfos[] = 
 {
 	{"throwOnFirstException", 0, 134218857, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.CancellationTokenSource::Cancel(System.Boolean)
-extern const MethodInfo CancellationTokenSource_Cancel_m7213_MethodInfo = 
+extern const MethodInfo CancellationTokenSource_Cancel_m7214_MethodInfo = 
 {
 	"Cancel"/* name */
-	, (methodPointerType)&CancellationTokenSource_Cancel_m7213/* method */
+	, (methodPointerType)&CancellationTokenSource_Cancel_m7214/* method */
 	, &CancellationTokenSource_t1337_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, CancellationTokenSource_t1337_CancellationTokenSource_Cancel_m7213_ParameterInfos/* parameters */
+	, CancellationTokenSource_t1337_CancellationTokenSource_Cancel_m7214_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -15938,10 +15938,10 @@ extern const MethodInfo CancellationTokenSource_Cancel_m7213_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.CancellationTokenSource::.ctor()
-extern const MethodInfo CancellationTokenSource__ctor_m7214_MethodInfo = 
+extern const MethodInfo CancellationTokenSource__ctor_m7215_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CancellationTokenSource__ctor_m7214/* method */
+	, (methodPointerType)&CancellationTokenSource__ctor_m7215/* method */
 	, &CancellationTokenSource_t1337_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -15961,32 +15961,32 @@ extern const MethodInfo CancellationTokenSource__ctor_m7214_MethodInfo =
 };
 static const MethodInfo* CancellationTokenSource_t1337_MethodInfos[] =
 {
-	&CancellationTokenSource_Register_m7208_MethodInfo,
-	&CancellationTokenSource_Unregister_m7209_MethodInfo,
-	&CancellationTokenSource_get_IsCancellationRequested_m7210_MethodInfo,
-	&CancellationTokenSource_get_Token_m7211_MethodInfo,
-	&CancellationTokenSource_Cancel_m7212_MethodInfo,
+	&CancellationTokenSource_Register_m7209_MethodInfo,
+	&CancellationTokenSource_Unregister_m7210_MethodInfo,
+	&CancellationTokenSource_get_IsCancellationRequested_m7211_MethodInfo,
+	&CancellationTokenSource_get_Token_m7212_MethodInfo,
 	&CancellationTokenSource_Cancel_m7213_MethodInfo,
-	&CancellationTokenSource__ctor_m7214_MethodInfo,
+	&CancellationTokenSource_Cancel_m7214_MethodInfo,
+	&CancellationTokenSource__ctor_m7215_MethodInfo,
 	NULL
 };
-extern const MethodInfo CancellationTokenSource_get_IsCancellationRequested_m7210_MethodInfo;
+extern const MethodInfo CancellationTokenSource_get_IsCancellationRequested_m7211_MethodInfo;
 static const PropertyInfo CancellationTokenSource_t1337____IsCancellationRequested_PropertyInfo = 
 {
 	&CancellationTokenSource_t1337_il2cpp_TypeInfo/* parent */
 	, "IsCancellationRequested"/* name */
-	, &CancellationTokenSource_get_IsCancellationRequested_m7210_MethodInfo/* get */
+	, &CancellationTokenSource_get_IsCancellationRequested_m7211_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CancellationTokenSource_get_Token_m7211_MethodInfo;
+extern const MethodInfo CancellationTokenSource_get_Token_m7212_MethodInfo;
 static const PropertyInfo CancellationTokenSource_t1337____Token_PropertyInfo = 
 {
 	&CancellationTokenSource_t1337_il2cpp_TypeInfo/* parent */
 	, "Token"/* name */
-	, &CancellationTokenSource_get_Token_m7211_MethodInfo/* get */
+	, &CancellationTokenSource_get_Token_m7212_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -16093,7 +16093,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClass5_t2196_Il2CppGenericP
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClass5_t2196_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClass5_t2196_il2cpp_TypeInfo, 1, 0, U3CU3Ec__DisplayClass5_t2196_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass3`1/<>c__DisplayClass5::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass5__ctor_m8145_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass5__ctor_m8146_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -16115,7 +16115,7 @@ extern const MethodInfo U3CU3Ec__DisplayClass5__ctor_m8145_MethodInfo =
 
 };
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass3`1/<>c__DisplayClass5::<ContinueWith>b__2()
-extern const MethodInfo U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m8146_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m8147_MethodInfo = 
 {
 	"<ContinueWith>b__2"/* name */
 	, NULL/* method */
@@ -16138,8 +16138,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m8146_Meth
 };
 static const MethodInfo* U3CU3Ec__DisplayClass5_t2196_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass5__ctor_m8145_MethodInfo,
-	&U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m8146_MethodInfo,
+	&U3CU3Ec__DisplayClass5__ctor_m8146_MethodInfo,
+	&U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m8147_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass5_t2196_VTable[] =
@@ -16156,14 +16156,14 @@ static bool U3CU3Ec__DisplayClass5_t2196_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod Func_2_Invoke_m8523_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetResult_m8524_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m8525_GenericMethod;
+extern const Il2CppGenericMethod Func_2_Invoke_m8524_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetResult_m8525_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m8526_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClass5_t2196_RGCTXData[4] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2_Invoke_m8523_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetResult_m8524_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m8525_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2_Invoke_m8524_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetResult_m8525_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m8526_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -16249,7 +16249,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClass3_1_t2195_Il2CppGeneri
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClass3_1_t2195_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClass3_1_t2195_il2cpp_TypeInfo, 1, 0, U3CU3Ec__DisplayClass3_1_t2195_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass3`1::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass3_1__ctor_m8142_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass3_1__ctor_m8143_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -16271,7 +16271,7 @@ extern const MethodInfo U3CU3Ec__DisplayClass3_1__ctor_m8142_MethodInfo =
 
 };
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass3`1::<ContinueWith>b__0()
-extern const MethodInfo U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__0_m8143_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__0_m8144_MethodInfo = 
 {
 	"<ContinueWith>b__0"/* name */
 	, NULL/* method */
@@ -16293,19 +16293,19 @@ extern const MethodInfo U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__0_m8143_Me
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass3_1_t2195_U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__1_m8144_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass3_1_t2195_U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__1_m8145_ParameterInfos[] = 
 {
 	{"t", 0, 134218874, 0, &Task_t1208_0_0_0},
 };
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass3`1::<ContinueWith>b__1(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__1_m8144_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__1_m8145_MethodInfo = 
 {
 	"<ContinueWith>b__1"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClass3_1_t2195_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClass3_1_t2195_U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__1_m8144_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass3_1_t2195_U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__1_m8145_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16321,9 +16321,9 @@ extern const MethodInfo U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__1_m8144_Me
 };
 static const MethodInfo* U3CU3Ec__DisplayClass3_1_t2195_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass3_1__ctor_m8142_MethodInfo,
-	&U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__0_m8143_MethodInfo,
-	&U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__1_m8144_MethodInfo,
+	&U3CU3Ec__DisplayClass3_1__ctor_m8143_MethodInfo,
+	&U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__0_m8144_MethodInfo,
+	&U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__1_m8145_MethodInfo,
 	NULL
 };
 static const Il2CppType* U3CU3Ec__DisplayClass3_1_t2195_il2cpp_TypeInfo__nestedTypes[1] =
@@ -16344,16 +16344,16 @@ static bool U3CU3Ec__DisplayClass3_1_t2195_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m8526_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m8527_GenericMethod;
 extern const Il2CppType U3CU3Ec__DisplayClass5_t2533_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass5__ctor_m8527_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m8528_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass5__ctor_m8528_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m8529_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClass3_1_t2195_RGCTXData[5] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m8526_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m8527_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass5_t2533_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass5__ctor_m8527_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m8528_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass5__ctor_m8528_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m8529_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -16435,10 +16435,10 @@ extern TypeInfo U3CU3Ec__DisplayClass8_t1339_il2cpp_TypeInfo;
 #include "Parse_Unity_System_Threading_Tasks_Task_U3CU3Ec__DisplayClasMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass8::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass8__ctor_m7215_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass8__ctor_m7216_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass8__ctor_m7215/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass8__ctor_m7216/* method */
 	, &U3CU3Ec__DisplayClass8_t1339_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16457,20 +16457,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass8__ctor_m7215_MethodInfo =
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass8_t1339_U3CU3Ec__DisplayClass8_U3CContinueWithU3Eb__7_m7216_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass8_t1339_U3CU3Ec__DisplayClass8_U3CContinueWithU3Eb__7_m7217_ParameterInfos[] = 
 {
 	{"t", 0, 134218875, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Threading.Tasks.Task/<>c__DisplayClass8::<ContinueWith>b__7(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass8_U3CContinueWithU3Eb__7_m7216_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass8_U3CContinueWithU3Eb__7_m7217_MethodInfo = 
 {
 	"<ContinueWith>b__7"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass8_U3CContinueWithU3Eb__7_m7216/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass8_U3CContinueWithU3Eb__7_m7217/* method */
 	, &U3CU3Ec__DisplayClass8_t1339_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass8_t1339_U3CU3Ec__DisplayClass8_U3CContinueWithU3Eb__7_m7216_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass8_t1339_U3CU3Ec__DisplayClass8_U3CContinueWithU3Eb__7_m7217_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16486,8 +16486,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass8_U3CContinueWithU3Eb__7_m7216_Meth
 };
 static const MethodInfo* U3CU3Ec__DisplayClass8_t1339_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass8__ctor_m7215_MethodInfo,
-	&U3CU3Ec__DisplayClass8_U3CContinueWithU3Eb__7_m7216_MethodInfo,
+	&U3CU3Ec__DisplayClass8__ctor_m7216_MethodInfo,
+	&U3CU3Ec__DisplayClass8_U3CContinueWithU3Eb__7_m7217_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass8_t1339_VTable[] =
@@ -16583,10 +16583,10 @@ extern TypeInfo U3CU3Ec__DisplayClasse_t1344_il2cpp_TypeInfo;
 #include "Parse_Unity_System_Threading_Tasks_Task_U3CU3Ec__DisplayClas_0MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClasse::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClasse__ctor_m7217_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClasse__ctor_m7218_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClasse__ctor_m7217/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClasse__ctor_m7218/* method */
 	, &U3CU3Ec__DisplayClasse_t1344_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16606,20 +16606,20 @@ extern const MethodInfo U3CU3Ec__DisplayClasse__ctor_m7217_MethodInfo =
 };
 extern const Il2CppType TaskU5BU5D_t1340_0_0_0;
 extern const Il2CppType TaskU5BU5D_t1340_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__a_m7218_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__a_m7219_ParameterInfos[] = 
 {
 	{"_", 0, 134218876, 0, &TaskU5BU5D_t1340_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClasse::<WhenAll>b__a(System.Threading.Tasks.Task[])
-extern const MethodInfo U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__a_m7218_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__a_m7219_MethodInfo = 
 {
 	"<WhenAll>b__a"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__a_m7218/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__a_m7219/* method */
 	, &U3CU3Ec__DisplayClasse_t1344_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__a_m7218_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__a_m7219_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16634,20 +16634,20 @@ extern const MethodInfo U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__a_m7218_MethodInf
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__b_m7219_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__b_m7220_ParameterInfos[] = 
 {
 	{"t", 0, 134218877, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.Tasks.Task/<>c__DisplayClasse::<WhenAll>b__b(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__b_m7219_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__b_m7220_MethodInfo = 
 {
 	"<WhenAll>b__b"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__b_m7219/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__b_m7220/* method */
 	, &U3CU3Ec__DisplayClasse_t1344_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__b_m7219_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__b_m7220_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -16662,20 +16662,20 @@ extern const MethodInfo U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__b_m7219_MethodInf
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__c_m7220_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__c_m7221_ParameterInfos[] = 
 {
 	{"t", 0, 134218878, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.AggregateException System.Threading.Tasks.Task/<>c__DisplayClasse::<WhenAll>b__c(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__c_m7220_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__c_m7221_MethodInfo = 
 {
 	"<WhenAll>b__c"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__c_m7220/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__c_m7221/* method */
 	, &U3CU3Ec__DisplayClasse_t1344_il2cpp_TypeInfo/* declaring_type */
 	, &AggregateException_t1336_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__c_m7220_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__c_m7221_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -16690,20 +16690,20 @@ extern const MethodInfo U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__c_m7220_MethodInf
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__d_m7221_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__d_m7222_ParameterInfos[] = 
 {
 	{"t", 0, 134218879, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.Tasks.Task/<>c__DisplayClasse::<WhenAll>b__d(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__d_m7221_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__d_m7222_MethodInfo = 
 {
 	"<WhenAll>b__d"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__d_m7221/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__d_m7222/* method */
 	, &U3CU3Ec__DisplayClasse_t1344_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__d_m7221_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClasse_t1344_U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__d_m7222_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -16719,11 +16719,11 @@ extern const MethodInfo U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__d_m7221_MethodInf
 };
 static const MethodInfo* U3CU3Ec__DisplayClasse_t1344_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClasse__ctor_m7217_MethodInfo,
-	&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__a_m7218_MethodInfo,
-	&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__b_m7219_MethodInfo,
-	&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__c_m7220_MethodInfo,
-	&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__d_m7221_MethodInfo,
+	&U3CU3Ec__DisplayClasse__ctor_m7218_MethodInfo,
+	&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__a_m7219_MethodInfo,
+	&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__b_m7220_MethodInfo,
+	&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__c_m7221_MethodInfo,
+	&U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__d_m7222_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClasse_t1344_VTable[] =
@@ -16819,10 +16819,10 @@ extern TypeInfo U3CU3Ec__DisplayClass15_t1346_il2cpp_TypeInfo;
 #include "Parse_Unity_System_Threading_Tasks_Task_U3CU3Ec__DisplayClas_1MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass15::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass15__ctor_m7222_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass15__ctor_m7223_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass15__ctor_m7222/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass15__ctor_m7223/* method */
 	, &U3CU3Ec__DisplayClass15_t1346_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16841,20 +16841,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass15__ctor_m7222_MethodInfo =
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass15_t1346_U3CU3Ec__DisplayClass15_U3CWhenAnyU3Eb__13_m7223_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass15_t1346_U3CU3Ec__DisplayClass15_U3CWhenAnyU3Eb__13_m7224_ParameterInfos[] = 
 {
 	{"t", 0, 134218880, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.Tasks.Task/<>c__DisplayClass15::<WhenAny>b__13(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass15_U3CWhenAnyU3Eb__13_m7223_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass15_U3CWhenAnyU3Eb__13_m7224_MethodInfo = 
 {
 	"<WhenAny>b__13"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass15_U3CWhenAnyU3Eb__13_m7223/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass15_U3CWhenAnyU3Eb__13_m7224/* method */
 	, &U3CU3Ec__DisplayClass15_t1346_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass15_t1346_U3CU3Ec__DisplayClass15_U3CWhenAnyU3Eb__13_m7223_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass15_t1346_U3CU3Ec__DisplayClass15_U3CWhenAnyU3Eb__13_m7224_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -16870,8 +16870,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass15_U3CWhenAnyU3Eb__13_m7223_MethodI
 };
 static const MethodInfo* U3CU3Ec__DisplayClass15_t1346_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass15__ctor_m7222_MethodInfo,
-	&U3CU3Ec__DisplayClass15_U3CWhenAnyU3Eb__13_m7223_MethodInfo,
+	&U3CU3Ec__DisplayClass15__ctor_m7223_MethodInfo,
+	&U3CU3Ec__DisplayClass15_U3CWhenAnyU3Eb__13_m7224_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass15_t1346_VTable[] =
@@ -16970,7 +16970,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClass19_1_t2197_Il2CppGener
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClass19_1_t2197_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClass19_1_t2197_il2cpp_TypeInfo, 1, 0, U3CU3Ec__DisplayClass19_1_t2197_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass19`1::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass19_1__ctor_m8147_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass19_1__ctor_m8148_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -16992,20 +16992,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass19_1__ctor_m8147_MethodInfo =
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass19_1_t2197_U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m8148_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass19_1_t2197_U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m8149_ParameterInfos[] = 
 {
 	{"_", 0, 134218881, 0, &Task_t1208_0_0_0},
 };
 extern const Il2CppType TU5BU5D_t2535_0_0_0;
 // T[] System.Threading.Tasks.Task/<>c__DisplayClass19`1::<WhenAll>b__17(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m8148_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m8149_MethodInfo = 
 {
 	"<WhenAll>b__17"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClass19_1_t2197_il2cpp_TypeInfo/* declaring_type */
 	, &TU5BU5D_t2535_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClass19_1_t2197_U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m8148_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass19_1_t2197_U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m8149_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -17021,20 +17021,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m8148_Metho
 };
 extern const Il2CppType Task_1_t2536_0_0_0;
 extern const Il2CppType Task_1_t2536_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass19_1_t2197_U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m8149_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass19_1_t2197_U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m8150_ParameterInfos[] = 
 {
 	{"t", 0, 134218882, 0, &Task_1_t2536_0_0_0},
 };
 extern const Il2CppType U3CU3Ec__DisplayClass19_1_t2197_gp_0_0_0_0;
 // T System.Threading.Tasks.Task/<>c__DisplayClass19`1::<WhenAll>b__18(System.Threading.Tasks.Task`1<T>)
-extern const MethodInfo U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m8149_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m8150_MethodInfo = 
 {
 	"<WhenAll>b__18"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClass19_1_t2197_il2cpp_TypeInfo/* declaring_type */
 	, &U3CU3Ec__DisplayClass19_1_t2197_gp_0_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClass19_1_t2197_U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m8149_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass19_1_t2197_U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m8150_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17050,9 +17050,9 @@ extern const MethodInfo U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m8149_Metho
 };
 static const MethodInfo* U3CU3Ec__DisplayClass19_1_t2197_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass19_1__ctor_m8147_MethodInfo,
-	&U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m8148_MethodInfo,
-	&U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m8149_MethodInfo,
+	&U3CU3Ec__DisplayClass19_1__ctor_m8148_MethodInfo,
+	&U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m8149_MethodInfo,
+	&U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m8150_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass19_1_t2197_VTable[] =
@@ -17070,21 +17070,21 @@ static bool U3CU3Ec__DisplayClass19_1_t2197_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType U3CU3Ec__DisplayClass19_1_t2537_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m8529_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m8530_GenericMethod;
 extern const Il2CppType Func_2_t2538_0_0_0;
-extern const Il2CppGenericMethod Func_2__ctor_m8530_GenericMethod;
-extern const Il2CppGenericMethod Enumerable_Select_TisTask_1_t2536_TisT_t2534_m8531_GenericMethod;
-extern const Il2CppGenericMethod Enumerable_ToArray_TisT_t2534_m8532_GenericMethod;
-extern const Il2CppGenericMethod Task_1_get_Result_m8533_GenericMethod;
+extern const Il2CppGenericMethod Func_2__ctor_m8531_GenericMethod;
+extern const Il2CppGenericMethod Enumerable_Select_TisTask_1_t2536_TisT_t2534_m8532_GenericMethod;
+extern const Il2CppGenericMethod Enumerable_ToArray_TisT_t2534_m8533_GenericMethod;
+extern const Il2CppGenericMethod Task_1_get_Result_m8534_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClass19_1_t2197_RGCTXData[8] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass19_1_t2537_0_0_0 }/* Static */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m8529_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m8530_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Func_2_t2538_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8530_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_Select_TisTask_1_t2536_TisT_t2534_m8531_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_ToArray_TisT_t2534_m8532_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m8533_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8531_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_Select_TisTask_1_t2536_TisT_t2534_m8532_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Enumerable_ToArray_TisT_t2534_m8533_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m8534_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -17166,10 +17166,10 @@ extern TypeInfo U3CU3Ec__DisplayClass1d_t1347_il2cpp_TypeInfo;
 #include "Parse_Unity_System_Threading_Tasks_Task_U3CU3Ec__DisplayClas_2MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass1d::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass1d__ctor_m7224_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1d__ctor_m7225_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass1d__ctor_m7224/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass1d__ctor_m7225/* method */
 	, &U3CU3Ec__DisplayClass1d_t1347_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17189,10 +17189,10 @@ extern const MethodInfo U3CU3Ec__DisplayClass1d__ctor_m7224_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Threading.Tasks.Task/<>c__DisplayClass1d::<Run>b__1c()
-extern const MethodInfo U3CU3Ec__DisplayClass1d_U3CRunU3Eb__1c_m7225_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1d_U3CRunU3Eb__1c_m7226_MethodInfo = 
 {
 	"<Run>b__1c"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass1d_U3CRunU3Eb__1c_m7225/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass1d_U3CRunU3Eb__1c_m7226/* method */
 	, &U3CU3Ec__DisplayClass1d_t1347_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -17212,8 +17212,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass1d_U3CRunU3Eb__1c_m7225_MethodInfo 
 };
 static const MethodInfo* U3CU3Ec__DisplayClass1d_t1347_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass1d__ctor_m7224_MethodInfo,
-	&U3CU3Ec__DisplayClass1d_U3CRunU3Eb__1c_m7225_MethodInfo,
+	&U3CU3Ec__DisplayClass1d__ctor_m7225_MethodInfo,
+	&U3CU3Ec__DisplayClass1d_U3CRunU3Eb__1c_m7226_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass1d_t1347_VTable[] =
@@ -17309,10 +17309,10 @@ extern TypeInfo U3CU3Ec__DisplayClass20_t1348_il2cpp_TypeInfo;
 #include "Parse_Unity_System_Threading_Tasks_Task_U3CU3Ec__DisplayClas_3MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass20::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass20__ctor_m7226_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass20__ctor_m7227_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass20__ctor_m7226/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass20__ctor_m7227/* method */
 	, &U3CU3Ec__DisplayClass20_t1348_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17331,20 +17331,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass20__ctor_m7226_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass20_t1348_U3CU3Ec__DisplayClass20_U3CDelayU3Eb__1f_m7227_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass20_t1348_U3CU3Ec__DisplayClass20_U3CDelayU3Eb__1f_m7228_ParameterInfos[] = 
 {
 	{"_", 0, 134218883, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass20::<Delay>b__1f(System.Object)
-extern const MethodInfo U3CU3Ec__DisplayClass20_U3CDelayU3Eb__1f_m7227_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass20_U3CDelayU3Eb__1f_m7228_MethodInfo = 
 {
 	"<Delay>b__1f"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass20_U3CDelayU3Eb__1f_m7227/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass20_U3CDelayU3Eb__1f_m7228/* method */
 	, &U3CU3Ec__DisplayClass20_t1348_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass20_t1348_U3CU3Ec__DisplayClass20_U3CDelayU3Eb__1f_m7227_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass20_t1348_U3CU3Ec__DisplayClass20_U3CDelayU3Eb__1f_m7228_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -17360,8 +17360,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass20_U3CDelayU3Eb__1f_m7227_MethodInf
 };
 static const MethodInfo* U3CU3Ec__DisplayClass20_t1348_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass20__ctor_m7226_MethodInfo,
-	&U3CU3Ec__DisplayClass20_U3CDelayU3Eb__1f_m7227_MethodInfo,
+	&U3CU3Ec__DisplayClass20__ctor_m7227_MethodInfo,
+	&U3CU3Ec__DisplayClass20_U3CDelayU3Eb__1f_m7228_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass20_t1348_VTable[] =
@@ -17456,10 +17456,10 @@ TypeInfo U3CU3Ec__DisplayClass20_t1348_il2cpp_TypeInfo =
 #include "Parse_Unity_System_Threading_Tasks_TaskMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.Task::.ctor()
-extern const MethodInfo Task__ctor_m7228_MethodInfo = 
+extern const MethodInfo Task__ctor_m7229_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Task__ctor_m7228/* method */
+	, (methodPointerType)&Task__ctor_m7229/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17480,10 +17480,10 @@ extern const MethodInfo Task__ctor_m7228_MethodInfo =
 extern const Il2CppType TaskFactory_t1364_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::get_Factory()
-extern const MethodInfo Task_get_Factory_m7229_MethodInfo = 
+extern const MethodInfo Task_get_Factory_m7230_MethodInfo = 
 {
 	"get_Factory"/* name */
-	, (methodPointerType)&Task_get_Factory_m7229/* method */
+	, (methodPointerType)&Task_get_Factory_m7230/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &TaskFactory_t1364_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17503,10 +17503,10 @@ extern const MethodInfo Task_get_Factory_m7229_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.AggregateException System.Threading.Tasks.Task::get_Exception()
-extern const MethodInfo Task_get_Exception_m7230_MethodInfo = 
+extern const MethodInfo Task_get_Exception_m7231_MethodInfo = 
 {
 	"get_Exception"/* name */
-	, (methodPointerType)&Task_get_Exception_m7230/* method */
+	, (methodPointerType)&Task_get_Exception_m7231/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &AggregateException_t1336_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17526,10 +17526,10 @@ extern const MethodInfo Task_get_Exception_m7230_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.Tasks.Task::get_IsCanceled()
-extern const MethodInfo Task_get_IsCanceled_m7231_MethodInfo = 
+extern const MethodInfo Task_get_IsCanceled_m7232_MethodInfo = 
 {
 	"get_IsCanceled"/* name */
-	, (methodPointerType)&Task_get_IsCanceled_m7231/* method */
+	, (methodPointerType)&Task_get_IsCanceled_m7232/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -17549,10 +17549,10 @@ extern const MethodInfo Task_get_IsCanceled_m7231_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.Tasks.Task::get_IsCompleted()
-extern const MethodInfo Task_get_IsCompleted_m7232_MethodInfo = 
+extern const MethodInfo Task_get_IsCompleted_m7233_MethodInfo = 
 {
 	"get_IsCompleted"/* name */
-	, (methodPointerType)&Task_get_IsCompleted_m7232/* method */
+	, (methodPointerType)&Task_get_IsCompleted_m7233/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -17572,10 +17572,10 @@ extern const MethodInfo Task_get_IsCompleted_m7232_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Threading.Tasks.Task::get_IsFaulted()
-extern const MethodInfo Task_get_IsFaulted_m7233_MethodInfo = 
+extern const MethodInfo Task_get_IsFaulted_m7234_MethodInfo = 
 {
 	"get_IsFaulted"/* name */
-	, (methodPointerType)&Task_get_IsFaulted_m7233/* method */
+	, (methodPointerType)&Task_get_IsFaulted_m7234/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -17595,10 +17595,10 @@ extern const MethodInfo Task_get_IsFaulted_m7233_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.Task::Wait()
-extern const MethodInfo Task_Wait_m7234_MethodInfo = 
+extern const MethodInfo Task_Wait_m7235_MethodInfo = 
 {
 	"Wait"/* name */
-	, (methodPointerType)&Task_Wait_m7234/* method */
+	, (methodPointerType)&Task_Wait_m7235/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17618,57 +17618,11 @@ extern const MethodInfo Task_Wait_m7234_MethodInfo =
 };
 extern const Il2CppType Func_2_t2539_0_0_0;
 extern const Il2CppType Func_2_t2539_0_0_0;
-static const ParameterInfo Task_t1208_Task_ContinueWith_m8137_ParameterInfos[] = 
+static const ParameterInfo Task_t1208_Task_ContinueWith_m8138_ParameterInfos[] = 
 {
 	{"continuation", 0, 134218858, 0, &Func_2_t2539_0_0_0},
 };
 extern const Il2CppType Task_1_t2540_0_0_0;
-extern const Il2CppGenericContainer Task_ContinueWith_m8137_Il2CppGenericContainer;
-extern TypeInfo Task_ContinueWith_m8137_gp_T_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter Task_ContinueWith_m8137_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &Task_ContinueWith_m8137_Il2CppGenericContainer, NULL, "T", 0, 0 };
-static const Il2CppGenericParameter* Task_ContinueWith_m8137_Il2CppGenericParametersArray[1] = 
-{
-	&Task_ContinueWith_m8137_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
-};
-extern const MethodInfo Task_ContinueWith_m8137_MethodInfo;
-extern const Il2CppGenericContainer Task_ContinueWith_m8137_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Task_ContinueWith_m8137_MethodInfo, 1, 1, Task_ContinueWith_m8137_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod Task_ContinueWith_TisT_t2541_m8534_GenericMethod;
-static Il2CppRGCTXDefinition Task_ContinueWith_m8137_RGCTXData[2] = 
-{
-	{ IL2CPP_RGCTX_DATA_METHOD, &Task_ContinueWith_TisT_t2541_m8534_GenericMethod }/* Method */,
-	{IL2CPP_RGCTX_DATA_INVALID, NULL},
-};
-// System.Threading.Tasks.Task`1<T> System.Threading.Tasks.Task::ContinueWith(System.Func`2<System.Threading.Tasks.Task,T>)
-extern const MethodInfo Task_ContinueWith_m8137_MethodInfo = 
-{
-	"ContinueWith"/* name */
-	, NULL/* method */
-	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
-	, &Task_1_t2540_0_0_0/* return_type */
-	, NULL/* invoker_method */
-	, Task_t1208_Task_ContinueWith_m8137_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, true/* is_generic */
-	, false/* is_inflated */
-	, 1163/* token */
-	, Task_ContinueWith_m8137_RGCTXData/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &Task_ContinueWith_m8137_Il2CppGenericContainer/* genericContainer */
-
-};
-extern const Il2CppType Func_2_t2542_0_0_0;
-extern const Il2CppType Func_2_t2542_0_0_0;
-extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo Task_t1208_Task_ContinueWith_m8138_ParameterInfos[] = 
-{
-	{"continuation", 0, 134218859, 0, &Func_2_t2542_0_0_0},
-	{"cancellationToken", 1, 134218860, 0, &CancellationToken_t1162_0_0_0},
-};
-extern const Il2CppType Task_1_t2543_0_0_0;
 extern const Il2CppGenericContainer Task_ContinueWith_m8138_Il2CppGenericContainer;
 extern TypeInfo Task_ContinueWith_m8138_gp_T_0_il2cpp_TypeInfo;
 extern const Il2CppGenericParameter Task_ContinueWith_m8138_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &Task_ContinueWith_m8138_Il2CppGenericContainer, NULL, "T", 0, 0 };
@@ -17678,33 +17632,79 @@ static const Il2CppGenericParameter* Task_ContinueWith_m8138_Il2CppGenericParame
 };
 extern const MethodInfo Task_ContinueWith_m8138_MethodInfo;
 extern const Il2CppGenericContainer Task_ContinueWith_m8138_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Task_ContinueWith_m8138_MethodInfo, 1, 1, Task_ContinueWith_m8138_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod Task_ContinueWith_TisT_t2541_m8535_GenericMethod;
+static Il2CppRGCTXDefinition Task_ContinueWith_m8138_RGCTXData[2] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_ContinueWith_TisT_t2541_m8535_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Threading.Tasks.Task`1<T> System.Threading.Tasks.Task::ContinueWith(System.Func`2<System.Threading.Tasks.Task,T>)
+extern const MethodInfo Task_ContinueWith_m8138_MethodInfo = 
+{
+	"ContinueWith"/* name */
+	, NULL/* method */
+	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
+	, &Task_1_t2540_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, Task_t1208_Task_ContinueWith_m8138_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1163/* token */
+	, Task_ContinueWith_m8138_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &Task_ContinueWith_m8138_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Func_2_t2542_0_0_0;
+extern const Il2CppType Func_2_t2542_0_0_0;
+extern const Il2CppType CancellationToken_t1162_0_0_0;
+static const ParameterInfo Task_t1208_Task_ContinueWith_m8139_ParameterInfos[] = 
+{
+	{"continuation", 0, 134218859, 0, &Func_2_t2542_0_0_0},
+	{"cancellationToken", 1, 134218860, 0, &CancellationToken_t1162_0_0_0},
+};
+extern const Il2CppType Task_1_t2543_0_0_0;
+extern const Il2CppGenericContainer Task_ContinueWith_m8139_Il2CppGenericContainer;
+extern TypeInfo Task_ContinueWith_m8139_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter Task_ContinueWith_m8139_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &Task_ContinueWith_m8139_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* Task_ContinueWith_m8139_Il2CppGenericParametersArray[1] = 
+{
+	&Task_ContinueWith_m8139_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo Task_ContinueWith_m8139_MethodInfo;
+extern const Il2CppGenericContainer Task_ContinueWith_m8139_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Task_ContinueWith_m8139_MethodInfo, 1, 1, Task_ContinueWith_m8139_Il2CppGenericParametersArray };
 extern const Il2CppType U3CU3Ec__DisplayClass3_1_t2545_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass3_1__ctor_m8535_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass3_1__ctor_m8536_GenericMethod;
 extern const Il2CppType TaskCompletionSource_1_t2546_0_0_0;
-extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m8536_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__0_m8537_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__1_m8538_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m8539_GenericMethod;
-static Il2CppRGCTXDefinition Task_ContinueWith_m8138_RGCTXData[8] = 
+extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m8537_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__0_m8538_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__1_m8539_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m8540_GenericMethod;
+static Il2CppRGCTXDefinition Task_ContinueWith_m8139_RGCTXData[8] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass3_1_t2545_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass3_1__ctor_m8535_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass3_1__ctor_m8536_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&TaskCompletionSource_1_t2546_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m8536_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__0_m8537_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__1_m8538_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m8539_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m8537_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__0_m8538_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass3_1_U3CContinueWithU3Eb__1_m8539_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m8540_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Threading.Tasks.Task`1<T> System.Threading.Tasks.Task::ContinueWith(System.Func`2<System.Threading.Tasks.Task,T>,System.Threading.CancellationToken)
-extern const MethodInfo Task_ContinueWith_m8138_MethodInfo = 
+extern const MethodInfo Task_ContinueWith_m8139_MethodInfo = 
 {
 	"ContinueWith"/* name */
 	, NULL/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t2543_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, Task_t1208_Task_ContinueWith_m8138_ParameterInfos/* parameters */
+	, Task_t1208_Task_ContinueWith_m8139_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -17713,27 +17713,27 @@ extern const MethodInfo Task_ContinueWith_m8138_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 1164/* token */
-	, Task_ContinueWith_m8138_RGCTXData/* rgctx_data */
+	, Task_ContinueWith_m8139_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &Task_ContinueWith_m8138_Il2CppGenericContainer/* genericContainer */
+	, &Task_ContinueWith_m8139_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType Action_1_t1170_0_0_0;
 extern const Il2CppType Action_1_t1170_0_0_0;
-static const ParameterInfo Task_t1208_Task_ContinueWith_m7235_ParameterInfos[] = 
+static const ParameterInfo Task_t1208_Task_ContinueWith_m7236_ParameterInfos[] = 
 {
 	{"continuation", 0, 134218861, 0, &Action_1_t1170_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task System.Threading.Tasks.Task::ContinueWith(System.Action`1<System.Threading.Tasks.Task>)
-extern const MethodInfo Task_ContinueWith_m7235_MethodInfo = 
+extern const MethodInfo Task_ContinueWith_m7236_MethodInfo = 
 {
 	"ContinueWith"/* name */
-	, (methodPointerType)&Task_ContinueWith_m7235/* method */
+	, (methodPointerType)&Task_ContinueWith_m7236/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Task_t1208_Task_ContinueWith_m7235_ParameterInfos/* parameters */
+	, Task_t1208_Task_ContinueWith_m7236_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -17749,21 +17749,21 @@ extern const MethodInfo Task_ContinueWith_m7235_MethodInfo =
 };
 extern const Il2CppType Action_1_t1170_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo Task_t1208_Task_ContinueWith_m7236_ParameterInfos[] = 
+static const ParameterInfo Task_t1208_Task_ContinueWith_m7237_ParameterInfos[] = 
 {
 	{"continuation", 0, 134218862, 0, &Action_1_t1170_0_0_0},
 	{"cancellationToken", 1, 134218863, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task System.Threading.Tasks.Task::ContinueWith(System.Action`1<System.Threading.Tasks.Task>,System.Threading.CancellationToken)
-extern const MethodInfo Task_ContinueWith_m7236_MethodInfo = 
+extern const MethodInfo Task_ContinueWith_m7237_MethodInfo = 
 {
 	"ContinueWith"/* name */
-	, (methodPointerType)&Task_ContinueWith_m7236/* method */
+	, (methodPointerType)&Task_ContinueWith_m7237/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_CancellationToken_t1162/* invoker_method */
-	, Task_t1208_Task_ContinueWith_m7236_ParameterInfos/* parameters */
+	, Task_t1208_Task_ContinueWith_m7237_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -17778,41 +17778,12 @@ extern const MethodInfo Task_ContinueWith_m7236_MethodInfo =
 
 };
 extern const Il2CppType TaskU5BU5D_t1340_0_0_0;
-static const ParameterInfo Task_t1208_Task_WhenAll_m7237_ParameterInfos[] = 
+static const ParameterInfo Task_t1208_Task_WhenAll_m7238_ParameterInfos[] = 
 {
 	{"tasks", 0, 134218864, 510, &TaskU5BU5D_t1340_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task System.Threading.Tasks.Task::WhenAll(System.Threading.Tasks.Task[])
-extern const MethodInfo Task_WhenAll_m7237_MethodInfo = 
-{
-	"WhenAll"/* name */
-	, (methodPointerType)&Task_WhenAll_m7237/* method */
-	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
-	, &Task_t1208_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Task_t1208_Task_WhenAll_m7237_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 150/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1167/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType IEnumerable_1_t1412_0_0_0;
-extern const Il2CppType IEnumerable_1_t1412_0_0_0;
-static const ParameterInfo Task_t1208_Task_WhenAll_m7238_ParameterInfos[] = 
-{
-	{"tasks", 0, 134218865, 0, &IEnumerable_1_t1412_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Threading.Tasks.Task System.Threading.Tasks.Task::WhenAll(System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task>)
 extern const MethodInfo Task_WhenAll_m7238_MethodInfo = 
 {
 	"WhenAll"/* name */
@@ -17828,6 +17799,35 @@ extern const MethodInfo Task_WhenAll_m7238_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
+	, 1167/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType IEnumerable_1_t1412_0_0_0;
+extern const Il2CppType IEnumerable_1_t1412_0_0_0;
+static const ParameterInfo Task_t1208_Task_WhenAll_m7239_ParameterInfos[] = 
+{
+	{"tasks", 0, 134218865, 0, &IEnumerable_1_t1412_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Tasks.Task System.Threading.Tasks.Task::WhenAll(System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task>)
+extern const MethodInfo Task_WhenAll_m7239_MethodInfo = 
+{
+	"WhenAll"/* name */
+	, (methodPointerType)&Task_WhenAll_m7239/* method */
+	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t1208_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, Task_t1208_Task_WhenAll_m7239_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
 	, 1168/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
@@ -17835,41 +17835,13 @@ extern const MethodInfo Task_WhenAll_m7238_MethodInfo =
 
 };
 extern const Il2CppType TaskU5BU5D_t1340_0_0_0;
-static const ParameterInfo Task_t1208_Task_WhenAny_m7239_ParameterInfos[] = 
+static const ParameterInfo Task_t1208_Task_WhenAny_m7240_ParameterInfos[] = 
 {
 	{"tasks", 0, 134218866, 511, &TaskU5BU5D_t1340_0_0_0},
 };
 extern const Il2CppType Task_1_t1355_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::WhenAny(System.Threading.Tasks.Task[])
-extern const MethodInfo Task_WhenAny_m7239_MethodInfo = 
-{
-	"WhenAny"/* name */
-	, (methodPointerType)&Task_WhenAny_m7239/* method */
-	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
-	, &Task_1_t1355_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Task_t1208_Task_WhenAny_m7239_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 147/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1169/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType IEnumerable_1_t1412_0_0_0;
-static const ParameterInfo Task_t1208_Task_WhenAny_m7240_ParameterInfos[] = 
-{
-	{"tasks", 0, 134218867, 0, &IEnumerable_1_t1412_0_0_0},
-};
-extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::WhenAny(System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task>)
 extern const MethodInfo Task_WhenAny_m7240_MethodInfo = 
 {
 	"WhenAny"/* name */
@@ -17885,6 +17857,34 @@ extern const MethodInfo Task_WhenAny_m7240_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
+	, 1169/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType IEnumerable_1_t1412_0_0_0;
+static const ParameterInfo Task_t1208_Task_WhenAny_m7241_ParameterInfos[] = 
+{
+	{"tasks", 0, 134218867, 0, &IEnumerable_1_t1412_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::WhenAny(System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task>)
+extern const MethodInfo Task_WhenAny_m7241_MethodInfo = 
+{
+	"WhenAny"/* name */
+	, (methodPointerType)&Task_WhenAny_m7241/* method */
+	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
+	, &Task_1_t1355_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, Task_t1208_Task_WhenAny_m7241_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 147/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
 	, 1170/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
@@ -17893,45 +17893,45 @@ extern const MethodInfo Task_WhenAny_m7240_MethodInfo =
 };
 extern const Il2CppType IEnumerable_1_t2547_0_0_0;
 extern const Il2CppType IEnumerable_1_t2547_0_0_0;
-static const ParameterInfo Task_t1208_Task_WhenAll_m8139_ParameterInfos[] = 
+static const ParameterInfo Task_t1208_Task_WhenAll_m8140_ParameterInfos[] = 
 {
 	{"tasks", 0, 134218868, 0, &IEnumerable_1_t2547_0_0_0},
 };
 extern const Il2CppType Task_1_t2548_0_0_0;
-extern const Il2CppGenericContainer Task_WhenAll_m8139_Il2CppGenericContainer;
-extern TypeInfo Task_WhenAll_m8139_gp_T_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter Task_WhenAll_m8139_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &Task_WhenAll_m8139_Il2CppGenericContainer, NULL, "T", 0, 0 };
-static const Il2CppGenericParameter* Task_WhenAll_m8139_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer Task_WhenAll_m8140_Il2CppGenericContainer;
+extern TypeInfo Task_WhenAll_m8140_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter Task_WhenAll_m8140_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &Task_WhenAll_m8140_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* Task_WhenAll_m8140_Il2CppGenericParametersArray[1] = 
 {
-	&Task_WhenAll_m8139_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&Task_WhenAll_m8140_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo Task_WhenAll_m8139_MethodInfo;
-extern const Il2CppGenericContainer Task_WhenAll_m8139_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Task_WhenAll_m8139_MethodInfo, 1, 1, Task_WhenAll_m8139_Il2CppGenericParametersArray };
+extern const MethodInfo Task_WhenAll_m8140_MethodInfo;
+extern const Il2CppGenericContainer Task_WhenAll_m8140_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Task_WhenAll_m8140_MethodInfo, 1, 1, Task_WhenAll_m8140_Il2CppGenericParametersArray };
 extern const Il2CppType U3CU3Ec__DisplayClass19_1_t2550_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass19_1__ctor_m8540_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m8541_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass19_1__ctor_m8541_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m8542_GenericMethod;
 extern const Il2CppType Func_2_t2551_0_0_0;
-extern const Il2CppGenericMethod Func_2__ctor_m8542_GenericMethod;
-extern const Il2CppGenericMethod InternalExtensions_OnSuccess_TisTU5BU5D_t2552_m8543_GenericMethod;
-static Il2CppRGCTXDefinition Task_WhenAll_m8139_RGCTXData[7] = 
+extern const Il2CppGenericMethod Func_2__ctor_m8543_GenericMethod;
+extern const Il2CppGenericMethod InternalExtensions_OnSuccess_TisTU5BU5D_t2552_m8544_GenericMethod;
+static Il2CppRGCTXDefinition Task_WhenAll_m8140_RGCTXData[7] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass19_1_t2550_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass19_1__ctor_m8540_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m8541_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass19_1__ctor_m8541_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m8542_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Func_2_t2551_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8542_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &InternalExtensions_OnSuccess_TisTU5BU5D_t2552_m8543_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8543_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &InternalExtensions_OnSuccess_TisTU5BU5D_t2552_m8544_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Threading.Tasks.Task`1<T[]> System.Threading.Tasks.Task::WhenAll(System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task`1<T>>)
-extern const MethodInfo Task_WhenAll_m8139_MethodInfo = 
+extern const MethodInfo Task_WhenAll_m8140_MethodInfo = 
 {
 	"WhenAll"/* name */
 	, NULL/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t2548_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, Task_t1208_Task_WhenAll_m8139_ParameterInfos/* parameters */
+	, Task_t1208_Task_WhenAll_m8140_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -17940,48 +17940,48 @@ extern const MethodInfo Task_WhenAll_m8139_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 1171/* token */
-	, Task_WhenAll_m8139_RGCTXData/* rgctx_data */
+	, Task_WhenAll_m8140_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &Task_WhenAll_m8139_Il2CppGenericContainer/* genericContainer */
+	, &Task_WhenAll_m8140_Il2CppGenericContainer/* genericContainer */
 
 };
-extern const Il2CppType Task_FromResult_m8140_gp_0_0_0_0;
-extern const Il2CppType Task_FromResult_m8140_gp_0_0_0_0;
-static const ParameterInfo Task_t1208_Task_FromResult_m8140_ParameterInfos[] = 
+extern const Il2CppType Task_FromResult_m8141_gp_0_0_0_0;
+extern const Il2CppType Task_FromResult_m8141_gp_0_0_0_0;
+static const ParameterInfo Task_t1208_Task_FromResult_m8141_ParameterInfos[] = 
 {
-	{"result", 0, 134218869, 0, &Task_FromResult_m8140_gp_0_0_0_0},
+	{"result", 0, 134218869, 0, &Task_FromResult_m8141_gp_0_0_0_0},
 };
 extern const Il2CppType Task_1_t2554_0_0_0;
-extern const Il2CppGenericContainer Task_FromResult_m8140_Il2CppGenericContainer;
-extern TypeInfo Task_FromResult_m8140_gp_T_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter Task_FromResult_m8140_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &Task_FromResult_m8140_Il2CppGenericContainer, NULL, "T", 0, 0 };
-static const Il2CppGenericParameter* Task_FromResult_m8140_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer Task_FromResult_m8141_Il2CppGenericContainer;
+extern TypeInfo Task_FromResult_m8141_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter Task_FromResult_m8141_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &Task_FromResult_m8141_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* Task_FromResult_m8141_Il2CppGenericParametersArray[1] = 
 {
-	&Task_FromResult_m8140_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&Task_FromResult_m8141_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo Task_FromResult_m8140_MethodInfo;
-extern const Il2CppGenericContainer Task_FromResult_m8140_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Task_FromResult_m8140_MethodInfo, 1, 1, Task_FromResult_m8140_Il2CppGenericParametersArray };
+extern const MethodInfo Task_FromResult_m8141_MethodInfo;
+extern const Il2CppGenericContainer Task_FromResult_m8141_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Task_FromResult_m8141_MethodInfo, 1, 1, Task_FromResult_m8141_Il2CppGenericParametersArray };
 extern const Il2CppType TaskCompletionSource_1_t2555_0_0_0;
-extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m8544_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_SetResult_m8545_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m8546_GenericMethod;
-static Il2CppRGCTXDefinition Task_FromResult_m8140_RGCTXData[5] = 
+extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m8545_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_SetResult_m8546_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m8547_GenericMethod;
+static Il2CppRGCTXDefinition Task_FromResult_m8141_RGCTXData[5] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&TaskCompletionSource_1_t2555_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m8544_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_SetResult_m8545_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m8546_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m8545_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_SetResult_m8546_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m8547_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Threading.Tasks.Task`1<T> System.Threading.Tasks.Task::FromResult(T)
-extern const MethodInfo Task_FromResult_m8140_MethodInfo = 
+extern const MethodInfo Task_FromResult_m8141_MethodInfo = 
 {
 	"FromResult"/* name */
 	, NULL/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t2554_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, Task_t1208_Task_FromResult_m8140_ParameterInfos/* parameters */
+	, Task_t1208_Task_FromResult_m8141_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -17990,42 +17990,42 @@ extern const MethodInfo Task_FromResult_m8140_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 1172/* token */
-	, Task_FromResult_m8140_RGCTXData/* rgctx_data */
+	, Task_FromResult_m8141_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &Task_FromResult_m8140_Il2CppGenericContainer/* genericContainer */
+	, &Task_FromResult_m8141_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType Func_1_t2556_0_0_0;
 extern const Il2CppType Func_1_t2556_0_0_0;
-static const ParameterInfo Task_t1208_Task_Run_m8141_ParameterInfos[] = 
+static const ParameterInfo Task_t1208_Task_Run_m8142_ParameterInfos[] = 
 {
 	{"toRun", 0, 134218870, 0, &Func_1_t2556_0_0_0},
 };
 extern const Il2CppType Task_1_t2557_0_0_0;
-extern const Il2CppGenericContainer Task_Run_m8141_Il2CppGenericContainer;
-extern TypeInfo Task_Run_m8141_gp_T_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter Task_Run_m8141_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &Task_Run_m8141_Il2CppGenericContainer, NULL, "T", 0, 0 };
-static const Il2CppGenericParameter* Task_Run_m8141_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer Task_Run_m8142_Il2CppGenericContainer;
+extern TypeInfo Task_Run_m8142_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter Task_Run_m8142_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &Task_Run_m8142_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* Task_Run_m8142_Il2CppGenericParametersArray[1] = 
 {
-	&Task_Run_m8141_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&Task_Run_m8142_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo Task_Run_m8141_MethodInfo;
-extern const Il2CppGenericContainer Task_Run_m8141_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Task_Run_m8141_MethodInfo, 1, 1, Task_Run_m8141_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod TaskFactory_StartNew_TisT_t2558_m8547_GenericMethod;
-static Il2CppRGCTXDefinition Task_Run_m8141_RGCTXData[2] = 
+extern const MethodInfo Task_Run_m8142_MethodInfo;
+extern const Il2CppGenericContainer Task_Run_m8142_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Task_Run_m8142_MethodInfo, 1, 1, Task_Run_m8142_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod TaskFactory_StartNew_TisT_t2558_m8548_GenericMethod;
+static Il2CppRGCTXDefinition Task_Run_m8142_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_StartNew_TisT_t2558_m8547_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_StartNew_TisT_t2558_m8548_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Threading.Tasks.Task`1<T> System.Threading.Tasks.Task::Run(System.Func`1<T>)
-extern const MethodInfo Task_Run_m8141_MethodInfo = 
+extern const MethodInfo Task_Run_m8142_MethodInfo = 
 {
 	"Run"/* name */
 	, NULL/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t2557_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, Task_t1208_Task_Run_m8141_ParameterInfos/* parameters */
+	, Task_t1208_Task_Run_m8142_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18034,26 +18034,26 @@ extern const MethodInfo Task_Run_m8141_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 1173/* token */
-	, Task_Run_m8141_RGCTXData/* rgctx_data */
+	, Task_Run_m8142_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &Task_Run_m8141_Il2CppGenericContainer/* genericContainer */
+	, &Task_Run_m8142_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType Action_t143_0_0_0;
-static const ParameterInfo Task_t1208_Task_Run_m7241_ParameterInfos[] = 
+static const ParameterInfo Task_t1208_Task_Run_m7242_ParameterInfos[] = 
 {
 	{"toRun", 0, 134218871, 0, &Action_t143_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task System.Threading.Tasks.Task::Run(System.Action)
-extern const MethodInfo Task_Run_m7241_MethodInfo = 
+extern const MethodInfo Task_Run_m7242_MethodInfo = 
 {
 	"Run"/* name */
-	, (methodPointerType)&Task_Run_m7241/* method */
+	, (methodPointerType)&Task_Run_m7242/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Task_t1208_Task_Run_m7241_ParameterInfos/* parameters */
+	, Task_t1208_Task_Run_m7242_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18069,20 +18069,20 @@ extern const MethodInfo Task_Run_m7241_MethodInfo =
 };
 extern const Il2CppType TimeSpan_t334_0_0_0;
 extern const Il2CppType TimeSpan_t334_0_0_0;
-static const ParameterInfo Task_t1208_Task_Delay_m7242_ParameterInfos[] = 
+static const ParameterInfo Task_t1208_Task_Delay_m7243_ParameterInfos[] = 
 {
 	{"timespan", 0, 134218872, 0, &TimeSpan_t334_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_TimeSpan_t334 (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task System.Threading.Tasks.Task::Delay(System.TimeSpan)
-extern const MethodInfo Task_Delay_m7242_MethodInfo = 
+extern const MethodInfo Task_Delay_m7243_MethodInfo = 
 {
 	"Delay"/* name */
-	, (methodPointerType)&Task_Delay_m7242/* method */
+	, (methodPointerType)&Task_Delay_m7243/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_TimeSpan_t334/* invoker_method */
-	, Task_t1208_Task_Delay_m7242_ParameterInfos/* parameters */
+	, Task_t1208_Task_Delay_m7243_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18098,10 +18098,10 @@ extern const MethodInfo Task_Delay_m7242_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.Task::.cctor()
-extern const MethodInfo Task__cctor_m7243_MethodInfo = 
+extern const MethodInfo Task__cctor_m7244_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&Task__cctor_m7243/* method */
+	, (methodPointerType)&Task__cctor_m7244/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -18121,10 +18121,10 @@ extern const MethodInfo Task__cctor_m7243_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Threading.Tasks.Task::<.cctor>b__22()
-extern const MethodInfo Task_U3C_cctorU3Eb__22_m7244_MethodInfo = 
+extern const MethodInfo Task_U3C_cctorU3Eb__22_m7245_MethodInfo = 
 {
 	"<.cctor>b__22"/* name */
-	, (methodPointerType)&Task_U3C_cctorU3Eb__22_m7244/* method */
+	, (methodPointerType)&Task_U3C_cctorU3Eb__22_m7245/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -18143,20 +18143,20 @@ extern const MethodInfo Task_U3C_cctorU3Eb__22_m7244_MethodInfo =
 
 };
 extern const Il2CppType Action_t143_0_0_0;
-static const ParameterInfo Task_t1208_Task_U3C_cctorU3Eb__23_m7245_ParameterInfos[] = 
+static const ParameterInfo Task_t1208_Task_U3C_cctorU3Eb__23_m7246_ParameterInfos[] = 
 {
 	{"a", 0, 134218873, 0, &Action_t143_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.Task::<.cctor>b__23(System.Action)
-extern const MethodInfo Task_U3C_cctorU3Eb__23_m7245_MethodInfo = 
+extern const MethodInfo Task_U3C_cctorU3Eb__23_m7246_MethodInfo = 
 {
 	"<.cctor>b__23"/* name */
-	, (methodPointerType)&Task_U3C_cctorU3Eb__23_m7245/* method */
+	, (methodPointerType)&Task_U3C_cctorU3Eb__23_m7246/* method */
 	, &Task_t1208_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Task_t1208_Task_U3C_cctorU3Eb__23_m7245_ParameterInfos/* parameters */
+	, Task_t1208_Task_U3C_cctorU3Eb__23_m7246_ParameterInfos/* parameters */
 	, 513/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18172,81 +18172,81 @@ extern const MethodInfo Task_U3C_cctorU3Eb__23_m7245_MethodInfo =
 };
 static const MethodInfo* Task_t1208_MethodInfos[] =
 {
-	&Task__ctor_m7228_MethodInfo,
-	&Task_get_Factory_m7229_MethodInfo,
-	&Task_get_Exception_m7230_MethodInfo,
-	&Task_get_IsCanceled_m7231_MethodInfo,
-	&Task_get_IsCompleted_m7232_MethodInfo,
-	&Task_get_IsFaulted_m7233_MethodInfo,
-	&Task_Wait_m7234_MethodInfo,
-	&Task_ContinueWith_m8137_MethodInfo,
+	&Task__ctor_m7229_MethodInfo,
+	&Task_get_Factory_m7230_MethodInfo,
+	&Task_get_Exception_m7231_MethodInfo,
+	&Task_get_IsCanceled_m7232_MethodInfo,
+	&Task_get_IsCompleted_m7233_MethodInfo,
+	&Task_get_IsFaulted_m7234_MethodInfo,
+	&Task_Wait_m7235_MethodInfo,
 	&Task_ContinueWith_m8138_MethodInfo,
-	&Task_ContinueWith_m7235_MethodInfo,
+	&Task_ContinueWith_m8139_MethodInfo,
 	&Task_ContinueWith_m7236_MethodInfo,
-	&Task_WhenAll_m7237_MethodInfo,
+	&Task_ContinueWith_m7237_MethodInfo,
 	&Task_WhenAll_m7238_MethodInfo,
-	&Task_WhenAny_m7239_MethodInfo,
+	&Task_WhenAll_m7239_MethodInfo,
 	&Task_WhenAny_m7240_MethodInfo,
-	&Task_WhenAll_m8139_MethodInfo,
-	&Task_FromResult_m8140_MethodInfo,
-	&Task_Run_m8141_MethodInfo,
-	&Task_Run_m7241_MethodInfo,
-	&Task_Delay_m7242_MethodInfo,
-	&Task__cctor_m7243_MethodInfo,
-	&Task_U3C_cctorU3Eb__22_m7244_MethodInfo,
-	&Task_U3C_cctorU3Eb__23_m7245_MethodInfo,
+	&Task_WhenAny_m7241_MethodInfo,
+	&Task_WhenAll_m8140_MethodInfo,
+	&Task_FromResult_m8141_MethodInfo,
+	&Task_Run_m8142_MethodInfo,
+	&Task_Run_m7242_MethodInfo,
+	&Task_Delay_m7243_MethodInfo,
+	&Task__cctor_m7244_MethodInfo,
+	&Task_U3C_cctorU3Eb__22_m7245_MethodInfo,
+	&Task_U3C_cctorU3Eb__23_m7246_MethodInfo,
 	NULL
 };
-extern const MethodInfo Task_get_Factory_m7229_MethodInfo;
+extern const MethodInfo Task_get_Factory_m7230_MethodInfo;
 static const PropertyInfo Task_t1208____Factory_PropertyInfo = 
 {
 	&Task_t1208_il2cpp_TypeInfo/* parent */
 	, "Factory"/* name */
-	, &Task_get_Factory_m7229_MethodInfo/* get */
+	, &Task_get_Factory_m7230_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Task_get_Exception_m7230_MethodInfo;
+extern const MethodInfo Task_get_Exception_m7231_MethodInfo;
 static const PropertyInfo Task_t1208____Exception_PropertyInfo = 
 {
 	&Task_t1208_il2cpp_TypeInfo/* parent */
 	, "Exception"/* name */
-	, &Task_get_Exception_m7230_MethodInfo/* get */
+	, &Task_get_Exception_m7231_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Task_get_IsCanceled_m7231_MethodInfo;
+extern const MethodInfo Task_get_IsCanceled_m7232_MethodInfo;
 static const PropertyInfo Task_t1208____IsCanceled_PropertyInfo = 
 {
 	&Task_t1208_il2cpp_TypeInfo/* parent */
 	, "IsCanceled"/* name */
-	, &Task_get_IsCanceled_m7231_MethodInfo/* get */
+	, &Task_get_IsCanceled_m7232_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Task_get_IsCompleted_m7232_MethodInfo;
+extern const MethodInfo Task_get_IsCompleted_m7233_MethodInfo;
 static const PropertyInfo Task_t1208____IsCompleted_PropertyInfo = 
 {
 	&Task_t1208_il2cpp_TypeInfo/* parent */
 	, "IsCompleted"/* name */
-	, &Task_get_IsCompleted_m7232_MethodInfo/* get */
+	, &Task_get_IsCompleted_m7233_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Task_get_IsFaulted_m7233_MethodInfo;
+extern const MethodInfo Task_get_IsFaulted_m7234_MethodInfo;
 static const PropertyInfo Task_t1208____IsFaulted_PropertyInfo = 
 {
 	&Task_t1208_il2cpp_TypeInfo/* parent */
 	, "IsFaulted"/* name */
-	, &Task_get_IsFaulted_m7233_MethodInfo/* get */
+	, &Task_get_IsFaulted_m7234_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -18365,7 +18365,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClass1_t2199_Il2CppGenericP
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClass1_t2199_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClass1_t2199_il2cpp_TypeInfo, 1, 0, U3CU3Ec__DisplayClass1_t2199_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.Task`1/<>c__DisplayClass1::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass1__ctor_m8158_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1__ctor_m8159_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -18387,19 +18387,19 @@ extern const MethodInfo U3CU3Ec__DisplayClass1__ctor_m8158_MethodInfo =
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass1_t2199_U3CU3Ec__DisplayClass1_U3CContinueWithU3Eb__0_m8159_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass1_t2199_U3CU3Ec__DisplayClass1_U3CContinueWithU3Eb__0_m8160_ParameterInfos[] = 
 {
 	{"t", 0, 134218888, 0, &Task_t1208_0_0_0},
 };
 // System.Void System.Threading.Tasks.Task`1/<>c__DisplayClass1::<ContinueWith>b__0(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass1_U3CContinueWithU3Eb__0_m8159_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1_U3CContinueWithU3Eb__0_m8160_MethodInfo = 
 {
 	"<ContinueWith>b__0"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClass1_t2199_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClass1_t2199_U3CU3Ec__DisplayClass1_U3CContinueWithU3Eb__0_m8159_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass1_t2199_U3CU3Ec__DisplayClass1_U3CContinueWithU3Eb__0_m8160_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -18415,8 +18415,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass1_U3CContinueWithU3Eb__0_m8159_Meth
 };
 static const MethodInfo* U3CU3Ec__DisplayClass1_t2199_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass1__ctor_m8158_MethodInfo,
-	&U3CU3Ec__DisplayClass1_U3CContinueWithU3Eb__0_m8159_MethodInfo,
+	&U3CU3Ec__DisplayClass1__ctor_m8159_MethodInfo,
+	&U3CU3Ec__DisplayClass1_U3CContinueWithU3Eb__0_m8160_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass1_t2199_VTable[] =
@@ -18434,11 +18434,11 @@ static bool U3CU3Ec__DisplayClass1_t2199_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType Task_1_t2560_0_0_0;
-extern const Il2CppGenericMethod Action_1_Invoke_m8548_GenericMethod;
+extern const Il2CppGenericMethod Action_1_Invoke_m8549_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClass1_t2199_RGCTXData[3] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Task_1_t2560_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1_Invoke_m8548_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1_Invoke_m8549_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -18528,7 +18528,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClass4_1_t2200_Il2CppGeneri
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClass4_1_t2200_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClass4_1_t2200_il2cpp_TypeInfo, 2, 0, U3CU3Ec__DisplayClass4_1_t2200_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.Task`1/<>c__DisplayClass4`1::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass4_1__ctor_m8160_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass4_1__ctor_m8161_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -18550,20 +18550,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass4_1__ctor_m8160_MethodInfo =
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass4_1_t2200_U3CU3Ec__DisplayClass4_1_U3CContinueWithU3Eb__3_m8161_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass4_1_t2200_U3CU3Ec__DisplayClass4_1_U3CContinueWithU3Eb__3_m8162_ParameterInfos[] = 
 {
 	{"t", 0, 134218889, 0, &Task_t1208_0_0_0},
 };
 extern const Il2CppType U3CU3Ec__DisplayClass4_1_t2200_gp_1_0_0_0;
 // TResult System.Threading.Tasks.Task`1/<>c__DisplayClass4`1::<ContinueWith>b__3(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass4_1_U3CContinueWithU3Eb__3_m8161_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass4_1_U3CContinueWithU3Eb__3_m8162_MethodInfo = 
 {
 	"<ContinueWith>b__3"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClass4_1_t2200_il2cpp_TypeInfo/* declaring_type */
 	, &U3CU3Ec__DisplayClass4_1_t2200_gp_1_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClass4_1_t2200_U3CU3Ec__DisplayClass4_1_U3CContinueWithU3Eb__3_m8161_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass4_1_t2200_U3CU3Ec__DisplayClass4_1_U3CContinueWithU3Eb__3_m8162_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -18579,8 +18579,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass4_1_U3CContinueWithU3Eb__3_m8161_Me
 };
 static const MethodInfo* U3CU3Ec__DisplayClass4_1_t2200_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass4_1__ctor_m8160_MethodInfo,
-	&U3CU3Ec__DisplayClass4_1_U3CContinueWithU3Eb__3_m8161_MethodInfo,
+	&U3CU3Ec__DisplayClass4_1__ctor_m8161_MethodInfo,
+	&U3CU3Ec__DisplayClass4_1_U3CContinueWithU3Eb__3_m8162_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass4_1_t2200_VTable[] =
@@ -18598,11 +18598,11 @@ static bool U3CU3Ec__DisplayClass4_1_t2200_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType Task_1_t2563_0_0_0;
-extern const Il2CppGenericMethod Func_2_Invoke_m8549_GenericMethod;
+extern const Il2CppGenericMethod Func_2_Invoke_m8550_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClass4_1_t2200_RGCTXData[3] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Task_1_t2563_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2_Invoke_m8549_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2_Invoke_m8550_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -18686,7 +18686,7 @@ static const Il2CppGenericParameter* Task_1_t2198_Il2CppGenericParametersArray[1
 };
 extern const Il2CppGenericContainer Task_1_t2198_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Task_1_t2198_il2cpp_TypeInfo, 1, 0, Task_1_t2198_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.Task`1::.ctor()
-extern const MethodInfo Task_1__ctor_m8150_MethodInfo = 
+extern const MethodInfo Task_1__ctor_m8151_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -18709,7 +18709,7 @@ extern const MethodInfo Task_1__ctor_m8150_MethodInfo =
 };
 extern const Il2CppType Task_1_t2198_gp_0_0_0_0;
 // T System.Threading.Tasks.Task`1::get_Result()
-extern const MethodInfo Task_1_get_Result_m8151_MethodInfo = 
+extern const MethodInfo Task_1_get_Result_m8152_MethodInfo = 
 {
 	"get_Result"/* name */
 	, NULL/* method */
@@ -18732,19 +18732,19 @@ extern const MethodInfo Task_1_get_Result_m8151_MethodInfo =
 };
 extern const Il2CppType Action_1_t2565_0_0_0;
 extern const Il2CppType Action_1_t2565_0_0_0;
-static const ParameterInfo Task_1_t2198_Task_1_ContinueWith_m8152_ParameterInfos[] = 
+static const ParameterInfo Task_1_t2198_Task_1_ContinueWith_m8153_ParameterInfos[] = 
 {
 	{"continuation", 0, 134218884, 0, &Action_1_t2565_0_0_0},
 };
 // System.Threading.Tasks.Task System.Threading.Tasks.Task`1::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<T>>)
-extern const MethodInfo Task_1_ContinueWith_m8152_MethodInfo = 
+extern const MethodInfo Task_1_ContinueWith_m8153_MethodInfo = 
 {
 	"ContinueWith"/* name */
 	, NULL/* method */
 	, &Task_1_t2198_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, Task_1_t2198_Task_1_ContinueWith_m8152_ParameterInfos/* parameters */
+	, Task_1_t2198_Task_1_ContinueWith_m8153_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -18760,45 +18760,45 @@ extern const MethodInfo Task_1_ContinueWith_m8152_MethodInfo =
 };
 extern const Il2CppType Func_2_t2566_0_0_0;
 extern const Il2CppType Func_2_t2566_0_0_0;
-static const ParameterInfo Task_1_t2198_Task_1_ContinueWith_m8153_ParameterInfos[] = 
+static const ParameterInfo Task_1_t2198_Task_1_ContinueWith_m8154_ParameterInfos[] = 
 {
 	{"continuation", 0, 134218885, 0, &Func_2_t2566_0_0_0},
 };
 extern const Il2CppType Task_1_t2567_0_0_0;
-extern const Il2CppGenericContainer Task_1_ContinueWith_m8153_Il2CppGenericContainer;
-extern TypeInfo Task_1_ContinueWith_m8153_gp_TResult_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter Task_1_ContinueWith_m8153_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &Task_1_ContinueWith_m8153_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
-static const Il2CppGenericParameter* Task_1_ContinueWith_m8153_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer Task_1_ContinueWith_m8154_Il2CppGenericContainer;
+extern TypeInfo Task_1_ContinueWith_m8154_gp_TResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter Task_1_ContinueWith_m8154_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &Task_1_ContinueWith_m8154_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
+static const Il2CppGenericParameter* Task_1_ContinueWith_m8154_Il2CppGenericParametersArray[1] = 
 {
-	&Task_1_ContinueWith_m8153_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
+	&Task_1_ContinueWith_m8154_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo Task_1_ContinueWith_m8153_MethodInfo;
-extern const Il2CppGenericContainer Task_1_ContinueWith_m8153_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Task_1_ContinueWith_m8153_MethodInfo, 1, 1, Task_1_ContinueWith_m8153_Il2CppGenericParametersArray };
+extern const MethodInfo Task_1_ContinueWith_m8154_MethodInfo;
+extern const Il2CppGenericContainer Task_1_ContinueWith_m8154_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&Task_1_ContinueWith_m8154_MethodInfo, 1, 1, Task_1_ContinueWith_m8154_Il2CppGenericParametersArray };
 extern const Il2CppType U3CU3Ec__DisplayClass4_1_t2569_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass4_1__ctor_m8550_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass4_1_U3CContinueWithU3Eb__3_m8551_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass4_1__ctor_m8551_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass4_1_U3CContinueWithU3Eb__3_m8552_GenericMethod;
 extern const Il2CppType Func_2_t2570_0_0_0;
-extern const Il2CppGenericMethod Func_2__ctor_m8552_GenericMethod;
-extern const Il2CppGenericMethod Task_ContinueWith_TisTResult_t2568_m8553_GenericMethod;
-static Il2CppRGCTXDefinition Task_1_ContinueWith_m8153_RGCTXData[7] = 
+extern const Il2CppGenericMethod Func_2__ctor_m8553_GenericMethod;
+extern const Il2CppGenericMethod Task_ContinueWith_TisTResult_t2568_m8554_GenericMethod;
+static Il2CppRGCTXDefinition Task_1_ContinueWith_m8154_RGCTXData[7] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass4_1_t2569_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass4_1__ctor_m8550_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass4_1_U3CContinueWithU3Eb__3_m8551_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass4_1__ctor_m8551_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass4_1_U3CContinueWithU3Eb__3_m8552_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Func_2_t2570_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8552_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Task_ContinueWith_TisTResult_t2568_m8553_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2__ctor_m8553_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_ContinueWith_TisTResult_t2568_m8554_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.Task`1::ContinueWith(System.Func`2<System.Threading.Tasks.Task`1<T>,TResult>)
-extern const MethodInfo Task_1_ContinueWith_m8153_MethodInfo = 
+extern const MethodInfo Task_1_ContinueWith_m8154_MethodInfo = 
 {
 	"ContinueWith"/* name */
 	, NULL/* method */
 	, &Task_1_t2198_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t2567_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, Task_1_t2198_Task_1_ContinueWith_m8153_ParameterInfos/* parameters */
+	, Task_1_t2198_Task_1_ContinueWith_m8154_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -18807,13 +18807,13 @@ extern const MethodInfo Task_1_ContinueWith_m8153_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 1203/* token */
-	, Task_1_ContinueWith_m8153_RGCTXData/* rgctx_data */
+	, Task_1_ContinueWith_m8154_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &Task_1_ContinueWith_m8153_Il2CppGenericContainer/* genericContainer */
+	, &Task_1_ContinueWith_m8154_Il2CppGenericContainer/* genericContainer */
 
 };
 // System.Void System.Threading.Tasks.Task`1::RunContinuations()
-extern const MethodInfo Task_1_RunContinuations_m8154_MethodInfo = 
+extern const MethodInfo Task_1_RunContinuations_m8155_MethodInfo = 
 {
 	"RunContinuations"/* name */
 	, NULL/* method */
@@ -18835,19 +18835,19 @@ extern const MethodInfo Task_1_RunContinuations_m8154_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t2198_gp_0_0_0_0;
-static const ParameterInfo Task_1_t2198_Task_1_TrySetResult_m8155_ParameterInfos[] = 
+static const ParameterInfo Task_1_t2198_Task_1_TrySetResult_m8156_ParameterInfos[] = 
 {
 	{"result", 0, 134218886, 0, &Task_1_t2198_gp_0_0_0_0},
 };
 // System.Boolean System.Threading.Tasks.Task`1::TrySetResult(T)
-extern const MethodInfo Task_1_TrySetResult_m8155_MethodInfo = 
+extern const MethodInfo Task_1_TrySetResult_m8156_MethodInfo = 
 {
 	"TrySetResult"/* name */
 	, NULL/* method */
 	, &Task_1_t2198_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, Task_1_t2198_Task_1_TrySetResult_m8155_ParameterInfos/* parameters */
+	, Task_1_t2198_Task_1_TrySetResult_m8156_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -18862,7 +18862,7 @@ extern const MethodInfo Task_1_TrySetResult_m8155_MethodInfo =
 
 };
 // System.Boolean System.Threading.Tasks.Task`1::TrySetCanceled()
-extern const MethodInfo Task_1_TrySetCanceled_m8156_MethodInfo = 
+extern const MethodInfo Task_1_TrySetCanceled_m8157_MethodInfo = 
 {
 	"TrySetCanceled"/* name */
 	, NULL/* method */
@@ -18884,19 +18884,19 @@ extern const MethodInfo Task_1_TrySetCanceled_m8156_MethodInfo =
 
 };
 extern const Il2CppType AggregateException_t1336_0_0_0;
-static const ParameterInfo Task_1_t2198_Task_1_TrySetException_m8157_ParameterInfos[] = 
+static const ParameterInfo Task_1_t2198_Task_1_TrySetException_m8158_ParameterInfos[] = 
 {
 	{"exception", 0, 134218887, 0, &AggregateException_t1336_0_0_0},
 };
 // System.Boolean System.Threading.Tasks.Task`1::TrySetException(System.AggregateException)
-extern const MethodInfo Task_1_TrySetException_m8157_MethodInfo = 
+extern const MethodInfo Task_1_TrySetException_m8158_MethodInfo = 
 {
 	"TrySetException"/* name */
 	, NULL/* method */
 	, &Task_1_t2198_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, Task_1_t2198_Task_1_TrySetException_m8157_ParameterInfos/* parameters */
+	, Task_1_t2198_Task_1_TrySetException_m8158_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -18912,22 +18912,22 @@ extern const MethodInfo Task_1_TrySetException_m8157_MethodInfo =
 };
 static const MethodInfo* Task_1_t2198_MethodInfos[] =
 {
-	&Task_1__ctor_m8150_MethodInfo,
-	&Task_1_get_Result_m8151_MethodInfo,
-	&Task_1_ContinueWith_m8152_MethodInfo,
+	&Task_1__ctor_m8151_MethodInfo,
+	&Task_1_get_Result_m8152_MethodInfo,
 	&Task_1_ContinueWith_m8153_MethodInfo,
-	&Task_1_RunContinuations_m8154_MethodInfo,
-	&Task_1_TrySetResult_m8155_MethodInfo,
-	&Task_1_TrySetCanceled_m8156_MethodInfo,
-	&Task_1_TrySetException_m8157_MethodInfo,
+	&Task_1_ContinueWith_m8154_MethodInfo,
+	&Task_1_RunContinuations_m8155_MethodInfo,
+	&Task_1_TrySetResult_m8156_MethodInfo,
+	&Task_1_TrySetCanceled_m8157_MethodInfo,
+	&Task_1_TrySetException_m8158_MethodInfo,
 	NULL
 };
-extern const MethodInfo Task_1_get_Result_m8151_MethodInfo;
+extern const MethodInfo Task_1_get_Result_m8152_MethodInfo;
 static const PropertyInfo Task_1_t2198____Result_PropertyInfo = 
 {
 	&Task_1_t2198_il2cpp_TypeInfo/* parent */
 	, "Result"/* name */
-	, &Task_1_get_Result_m8151_MethodInfo/* get */
+	, &Task_1_get_Result_m8152_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -18958,15 +18958,15 @@ static bool Task_1_t2198_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType U3CU3Ec__DisplayClass1_t2571_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1__ctor_m8554_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1_U3CContinueWithU3Eb__0_m8555_GenericMethod;
-extern const Il2CppGenericMethod Task_1_RunContinuations_m8556_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1__ctor_m8555_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1_U3CContinueWithU3Eb__0_m8556_GenericMethod;
+extern const Il2CppGenericMethod Task_1_RunContinuations_m8557_GenericMethod;
 static Il2CppRGCTXDefinition Task_1_t2198_RGCTXData[5] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass1_t2571_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1__ctor_m8554_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1_U3CContinueWithU3Eb__0_m8555_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_RunContinuations_m8556_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1__ctor_m8555_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1_U3CContinueWithU3Eb__0_m8556_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_RunContinuations_m8557_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -19050,7 +19050,7 @@ static const Il2CppGenericParameter* TaskCompletionSource_1_t2201_Il2CppGenericP
 };
 extern const Il2CppGenericContainer TaskCompletionSource_1_t2201_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskCompletionSource_1_t2201_il2cpp_TypeInfo, 1, 0, TaskCompletionSource_1_t2201_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.TaskCompletionSource`1::.ctor()
-extern const MethodInfo TaskCompletionSource_1__ctor_m8162_MethodInfo = 
+extern const MethodInfo TaskCompletionSource_1__ctor_m8163_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -19073,7 +19073,7 @@ extern const MethodInfo TaskCompletionSource_1__ctor_m8162_MethodInfo =
 };
 extern const Il2CppType Task_1_t2573_0_0_0;
 // System.Threading.Tasks.Task`1<T> System.Threading.Tasks.TaskCompletionSource`1::get_Task()
-extern const MethodInfo TaskCompletionSource_1_get_Task_m8163_MethodInfo = 
+extern const MethodInfo TaskCompletionSource_1_get_Task_m8164_MethodInfo = 
 {
 	"get_Task"/* name */
 	, NULL/* method */
@@ -19095,19 +19095,19 @@ extern const MethodInfo TaskCompletionSource_1_get_Task_m8163_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t2573_0_0_0;
-static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_set_Task_m8164_ParameterInfos[] = 
+static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_set_Task_m8165_ParameterInfos[] = 
 {
 	{"value", 0, 134218890, 0, &Task_1_t2573_0_0_0},
 };
 // System.Void System.Threading.Tasks.TaskCompletionSource`1::set_Task(System.Threading.Tasks.Task`1<T>)
-extern const MethodInfo TaskCompletionSource_1_set_Task_m8164_MethodInfo = 
+extern const MethodInfo TaskCompletionSource_1_set_Task_m8165_MethodInfo = 
 {
 	"set_Task"/* name */
 	, NULL/* method */
 	, &TaskCompletionSource_1_t2201_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, TaskCompletionSource_1_t2201_TaskCompletionSource_1_set_Task_m8164_ParameterInfos/* parameters */
+	, TaskCompletionSource_1_t2201_TaskCompletionSource_1_set_Task_m8165_ParameterInfos/* parameters */
 	, 525/* custom_attributes_cache */
 	, 2177/* flags */
 	, 0/* iflags */
@@ -19123,19 +19123,19 @@ extern const MethodInfo TaskCompletionSource_1_set_Task_m8164_MethodInfo =
 };
 extern const Il2CppType TaskCompletionSource_1_t2201_gp_0_0_0_0;
 extern const Il2CppType TaskCompletionSource_1_t2201_gp_0_0_0_0;
-static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_TrySetResult_m8165_ParameterInfos[] = 
+static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_TrySetResult_m8166_ParameterInfos[] = 
 {
 	{"result", 0, 134218891, 0, &TaskCompletionSource_1_t2201_gp_0_0_0_0},
 };
 // System.Boolean System.Threading.Tasks.TaskCompletionSource`1::TrySetResult(T)
-extern const MethodInfo TaskCompletionSource_1_TrySetResult_m8165_MethodInfo = 
+extern const MethodInfo TaskCompletionSource_1_TrySetResult_m8166_MethodInfo = 
 {
 	"TrySetResult"/* name */
 	, NULL/* method */
 	, &TaskCompletionSource_1_t2201_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, TaskCompletionSource_1_t2201_TaskCompletionSource_1_TrySetResult_m8165_ParameterInfos/* parameters */
+	, TaskCompletionSource_1_t2201_TaskCompletionSource_1_TrySetResult_m8166_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -19150,38 +19150,11 @@ extern const MethodInfo TaskCompletionSource_1_TrySetResult_m8165_MethodInfo =
 
 };
 extern const Il2CppType AggregateException_t1336_0_0_0;
-static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_TrySetException_m8166_ParameterInfos[] = 
+static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_TrySetException_m8167_ParameterInfos[] = 
 {
 	{"exception", 0, 134218892, 0, &AggregateException_t1336_0_0_0},
 };
 // System.Boolean System.Threading.Tasks.TaskCompletionSource`1::TrySetException(System.AggregateException)
-extern const MethodInfo TaskCompletionSource_1_TrySetException_m8166_MethodInfo = 
-{
-	"TrySetException"/* name */
-	, NULL/* method */
-	, &TaskCompletionSource_1_t2201_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t59_0_0_0/* return_type */
-	, NULL/* invoker_method */
-	, TaskCompletionSource_1_t2201_TaskCompletionSource_1_TrySetException_m8166_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1216/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Exception_t57_0_0_0;
-static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_TrySetException_m8167_ParameterInfos[] = 
-{
-	{"exception", 0, 134218893, 0, &Exception_t57_0_0_0},
-};
-// System.Boolean System.Threading.Tasks.TaskCompletionSource`1::TrySetException(System.Exception)
 extern const MethodInfo TaskCompletionSource_1_TrySetException_m8167_MethodInfo = 
 {
 	"TrySetException"/* name */
@@ -19197,6 +19170,33 @@ extern const MethodInfo TaskCompletionSource_1_TrySetException_m8167_MethodInfo 
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
+	, 1216/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Exception_t57_0_0_0;
+static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_TrySetException_m8168_ParameterInfos[] = 
+{
+	{"exception", 0, 134218893, 0, &Exception_t57_0_0_0},
+};
+// System.Boolean System.Threading.Tasks.TaskCompletionSource`1::TrySetException(System.Exception)
+extern const MethodInfo TaskCompletionSource_1_TrySetException_m8168_MethodInfo = 
+{
+	"TrySetException"/* name */
+	, NULL/* method */
+	, &TaskCompletionSource_1_t2201_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t59_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskCompletionSource_1_t2201_TaskCompletionSource_1_TrySetException_m8168_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
 	, 1217/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
@@ -19204,7 +19204,7 @@ extern const MethodInfo TaskCompletionSource_1_TrySetException_m8167_MethodInfo 
 
 };
 // System.Boolean System.Threading.Tasks.TaskCompletionSource`1::TrySetCanceled()
-extern const MethodInfo TaskCompletionSource_1_TrySetCanceled_m8168_MethodInfo = 
+extern const MethodInfo TaskCompletionSource_1_TrySetCanceled_m8169_MethodInfo = 
 {
 	"TrySetCanceled"/* name */
 	, NULL/* method */
@@ -19226,19 +19226,19 @@ extern const MethodInfo TaskCompletionSource_1_TrySetCanceled_m8168_MethodInfo =
 
 };
 extern const Il2CppType TaskCompletionSource_1_t2201_gp_0_0_0_0;
-static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_SetResult_m8169_ParameterInfos[] = 
+static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_SetResult_m8170_ParameterInfos[] = 
 {
 	{"result", 0, 134218894, 0, &TaskCompletionSource_1_t2201_gp_0_0_0_0},
 };
 // System.Void System.Threading.Tasks.TaskCompletionSource`1::SetResult(T)
-extern const MethodInfo TaskCompletionSource_1_SetResult_m8169_MethodInfo = 
+extern const MethodInfo TaskCompletionSource_1_SetResult_m8170_MethodInfo = 
 {
 	"SetResult"/* name */
 	, NULL/* method */
 	, &TaskCompletionSource_1_t2201_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, TaskCompletionSource_1_t2201_TaskCompletionSource_1_SetResult_m8169_ParameterInfos/* parameters */
+	, TaskCompletionSource_1_t2201_TaskCompletionSource_1_SetResult_m8170_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -19253,38 +19253,11 @@ extern const MethodInfo TaskCompletionSource_1_SetResult_m8169_MethodInfo =
 
 };
 extern const Il2CppType AggregateException_t1336_0_0_0;
-static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_SetException_m8170_ParameterInfos[] = 
+static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_SetException_m8171_ParameterInfos[] = 
 {
 	{"exception", 0, 134218895, 0, &AggregateException_t1336_0_0_0},
 };
 // System.Void System.Threading.Tasks.TaskCompletionSource`1::SetException(System.AggregateException)
-extern const MethodInfo TaskCompletionSource_1_SetException_m8170_MethodInfo = 
-{
-	"SetException"/* name */
-	, NULL/* method */
-	, &TaskCompletionSource_1_t2201_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, NULL/* invoker_method */
-	, TaskCompletionSource_1_t2201_TaskCompletionSource_1_SetException_m8170_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1220/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Exception_t57_0_0_0;
-static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_SetException_m8171_ParameterInfos[] = 
-{
-	{"exception", 0, 134218896, 0, &Exception_t57_0_0_0},
-};
-// System.Void System.Threading.Tasks.TaskCompletionSource`1::SetException(System.Exception)
 extern const MethodInfo TaskCompletionSource_1_SetException_m8171_MethodInfo = 
 {
 	"SetException"/* name */
@@ -19300,6 +19273,33 @@ extern const MethodInfo TaskCompletionSource_1_SetException_m8171_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
+	, 1220/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Exception_t57_0_0_0;
+static const ParameterInfo TaskCompletionSource_1_t2201_TaskCompletionSource_1_SetException_m8172_ParameterInfos[] = 
+{
+	{"exception", 0, 134218896, 0, &Exception_t57_0_0_0},
+};
+// System.Void System.Threading.Tasks.TaskCompletionSource`1::SetException(System.Exception)
+extern const MethodInfo TaskCompletionSource_1_SetException_m8172_MethodInfo = 
+{
+	"SetException"/* name */
+	, NULL/* method */
+	, &TaskCompletionSource_1_t2201_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskCompletionSource_1_t2201_TaskCompletionSource_1_SetException_m8172_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
 	, 1221/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
@@ -19307,7 +19307,7 @@ extern const MethodInfo TaskCompletionSource_1_SetException_m8171_MethodInfo =
 
 };
 // System.Void System.Threading.Tasks.TaskCompletionSource`1::SetCanceled()
-extern const MethodInfo TaskCompletionSource_1_SetCanceled_m8172_MethodInfo = 
+extern const MethodInfo TaskCompletionSource_1_SetCanceled_m8173_MethodInfo = 
 {
 	"SetCanceled"/* name */
 	, NULL/* method */
@@ -19330,27 +19330,27 @@ extern const MethodInfo TaskCompletionSource_1_SetCanceled_m8172_MethodInfo =
 };
 static const MethodInfo* TaskCompletionSource_1_t2201_MethodInfos[] =
 {
-	&TaskCompletionSource_1__ctor_m8162_MethodInfo,
-	&TaskCompletionSource_1_get_Task_m8163_MethodInfo,
-	&TaskCompletionSource_1_set_Task_m8164_MethodInfo,
-	&TaskCompletionSource_1_TrySetResult_m8165_MethodInfo,
-	&TaskCompletionSource_1_TrySetException_m8166_MethodInfo,
+	&TaskCompletionSource_1__ctor_m8163_MethodInfo,
+	&TaskCompletionSource_1_get_Task_m8164_MethodInfo,
+	&TaskCompletionSource_1_set_Task_m8165_MethodInfo,
+	&TaskCompletionSource_1_TrySetResult_m8166_MethodInfo,
 	&TaskCompletionSource_1_TrySetException_m8167_MethodInfo,
-	&TaskCompletionSource_1_TrySetCanceled_m8168_MethodInfo,
-	&TaskCompletionSource_1_SetResult_m8169_MethodInfo,
-	&TaskCompletionSource_1_SetException_m8170_MethodInfo,
+	&TaskCompletionSource_1_TrySetException_m8168_MethodInfo,
+	&TaskCompletionSource_1_TrySetCanceled_m8169_MethodInfo,
+	&TaskCompletionSource_1_SetResult_m8170_MethodInfo,
 	&TaskCompletionSource_1_SetException_m8171_MethodInfo,
-	&TaskCompletionSource_1_SetCanceled_m8172_MethodInfo,
+	&TaskCompletionSource_1_SetException_m8172_MethodInfo,
+	&TaskCompletionSource_1_SetCanceled_m8173_MethodInfo,
 	NULL
 };
-extern const MethodInfo TaskCompletionSource_1_get_Task_m8163_MethodInfo;
-extern const MethodInfo TaskCompletionSource_1_set_Task_m8164_MethodInfo;
+extern const MethodInfo TaskCompletionSource_1_get_Task_m8164_MethodInfo;
+extern const MethodInfo TaskCompletionSource_1_set_Task_m8165_MethodInfo;
 static const PropertyInfo TaskCompletionSource_1_t2201____Task_PropertyInfo = 
 {
 	&TaskCompletionSource_1_t2201_il2cpp_TypeInfo/* parent */
 	, "Task"/* name */
-	, &TaskCompletionSource_1_get_Task_m8163_MethodInfo/* get */
-	, &TaskCompletionSource_1_set_Task_m8164_MethodInfo/* set */
+	, &TaskCompletionSource_1_get_Task_m8164_MethodInfo/* get */
+	, &TaskCompletionSource_1_set_Task_m8165_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -19374,29 +19374,29 @@ static bool TaskCompletionSource_1_t2201_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod Task_1__ctor_m8557_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_set_Task_m8558_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m8559_GenericMethod;
-extern const Il2CppGenericMethod Task_1_TrySetResult_m8560_GenericMethod;
-extern const Il2CppGenericMethod Task_1_TrySetException_m8561_GenericMethod;
-extern const Il2CppGenericMethod Task_1_TrySetCanceled_m8562_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetResult_m8563_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m8564_GenericMethod;
+extern const Il2CppGenericMethod Task_1__ctor_m8558_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_set_Task_m8559_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m8560_GenericMethod;
+extern const Il2CppGenericMethod Task_1_TrySetResult_m8561_GenericMethod;
+extern const Il2CppGenericMethod Task_1_TrySetException_m8562_GenericMethod;
+extern const Il2CppGenericMethod Task_1_TrySetCanceled_m8563_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetResult_m8564_GenericMethod;
 extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m8565_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m8566_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m8566_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m8567_GenericMethod;
 static Il2CppRGCTXDefinition TaskCompletionSource_1_t2201_RGCTXData[12] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Task_1_t2573_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1__ctor_m8557_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_set_Task_m8558_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m8559_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_TrySetResult_m8560_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_TrySetException_m8561_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_TrySetCanceled_m8562_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetResult_m8563_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m8564_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1__ctor_m8558_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_set_Task_m8559_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m8560_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_TrySetResult_m8561_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_TrySetException_m8562_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_TrySetCanceled_m8563_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetResult_m8564_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m8565_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m8566_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m8566_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m8567_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -19783,10 +19783,10 @@ extern TypeInfo U3CU3Ec__DisplayClass2_t1356_il2cpp_TypeInfo;
 #include "Parse_Unity_System_Threading_Tasks_TaskExtensions_U3CU3Ec__DMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass2::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass2__ctor_m7246_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass2__ctor_m7247_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass2__ctor_m7246/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass2__ctor_m7247/* method */
 	, &U3CU3Ec__DisplayClass2_t1356_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19805,20 +19805,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass2__ctor_m7246_MethodInfo =
 
 };
 extern const Il2CppType Task_1_t1355_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass2_t1356_U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__0_m7247_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass2_t1356_U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__0_m7248_ParameterInfos[] = 
 {
 	{"t", 0, 134218899, 0, &Task_1_t1355_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass2::<Unwrap>b__0(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>)
-extern const MethodInfo U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__0_m7247_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__0_m7248_MethodInfo = 
 {
 	"<Unwrap>b__0"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__0_m7247/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__0_m7248/* method */
 	, &U3CU3Ec__DisplayClass2_t1356_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass2_t1356_U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__0_m7247_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass2_t1356_U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__0_m7248_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -19833,20 +19833,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__0_m7247_MethodInfo
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass2_t1356_U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__1_m7248_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass2_t1356_U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__1_m7249_ParameterInfos[] = 
 {
 	{"inner", 0, 134218900, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass2::<Unwrap>b__1(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__1_m7248_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__1_m7249_MethodInfo = 
 {
 	"<Unwrap>b__1"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__1_m7248/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__1_m7249/* method */
 	, &U3CU3Ec__DisplayClass2_t1356_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass2_t1356_U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__1_m7248_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass2_t1356_U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__1_m7249_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -19862,9 +19862,9 @@ extern const MethodInfo U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__1_m7248_MethodInfo
 };
 static const MethodInfo* U3CU3Ec__DisplayClass2_t1356_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass2__ctor_m7246_MethodInfo,
-	&U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__0_m7247_MethodInfo,
-	&U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__1_m7248_MethodInfo,
+	&U3CU3Ec__DisplayClass2__ctor_m7247_MethodInfo,
+	&U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__0_m7248_MethodInfo,
+	&U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__1_m7249_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass2_t1356_VTable[] =
@@ -19965,7 +19965,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClass7_1_t2202_Il2CppGeneri
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClass7_1_t2202_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClass7_1_t2202_il2cpp_TypeInfo, 1, 0, U3CU3Ec__DisplayClass7_1_t2202_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass7`1::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass7_1__ctor_m8174_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass7_1__ctor_m8175_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -19988,19 +19988,19 @@ extern const MethodInfo U3CU3Ec__DisplayClass7_1__ctor_m8174_MethodInfo =
 };
 extern const Il2CppType Task_1_t2575_0_0_0;
 extern const Il2CppType Task_1_t2575_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass7_1_t2202_U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m8175_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass7_1_t2202_U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m8176_ParameterInfos[] = 
 {
 	{"t", 0, 134218901, 0, &Task_1_t2575_0_0_0},
 };
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass7`1::<Unwrap>b__5(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<T>>)
-extern const MethodInfo U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m8175_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m8176_MethodInfo = 
 {
 	"<Unwrap>b__5"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClass7_1_t2202_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClass7_1_t2202_U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m8175_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass7_1_t2202_U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m8176_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -20016,19 +20016,19 @@ extern const MethodInfo U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m8175_MethodIn
 };
 extern const Il2CppType Task_1_t2576_0_0_0;
 extern const Il2CppType Task_1_t2576_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass7_1_t2202_U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m8176_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass7_1_t2202_U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m8177_ParameterInfos[] = 
 {
 	{"inner", 0, 134218902, 0, &Task_1_t2576_0_0_0},
 };
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass7`1::<Unwrap>b__6(System.Threading.Tasks.Task`1<T>)
-extern const MethodInfo U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m8176_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m8177_MethodInfo = 
 {
 	"<Unwrap>b__6"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClass7_1_t2202_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClass7_1_t2202_U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m8176_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass7_1_t2202_U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m8177_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -20044,9 +20044,9 @@ extern const MethodInfo U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m8176_MethodIn
 };
 static const MethodInfo* U3CU3Ec__DisplayClass7_1_t2202_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass7_1__ctor_m8174_MethodInfo,
-	&U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m8175_MethodInfo,
-	&U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m8176_MethodInfo,
+	&U3CU3Ec__DisplayClass7_1__ctor_m8175_MethodInfo,
+	&U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m8176_MethodInfo,
+	&U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m8177_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass7_1_t2202_VTable[] =
@@ -20063,26 +20063,26 @@ static bool U3CU3Ec__DisplayClass7_1_t2202_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m8567_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m8568_GenericMethod;
-extern const Il2CppGenericMethod Task_1_get_Result_m8569_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m8570_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m8568_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m8569_GenericMethod;
+extern const Il2CppGenericMethod Task_1_get_Result_m8570_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m8571_GenericMethod;
 extern const Il2CppType Action_1_t2577_0_0_0;
-extern const Il2CppGenericMethod Action_1__ctor_m8571_GenericMethod;
-extern const Il2CppGenericMethod Task_1_ContinueWith_m8572_GenericMethod;
-extern const Il2CppGenericMethod Task_1_get_Result_m8573_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetResult_m8574_GenericMethod;
+extern const Il2CppGenericMethod Action_1__ctor_m8572_GenericMethod;
+extern const Il2CppGenericMethod Task_1_ContinueWith_m8573_GenericMethod;
+extern const Il2CppGenericMethod Task_1_get_Result_m8574_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetResult_m8575_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClass7_1_t2202_RGCTXData[10] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m8567_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m8568_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m8569_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m8570_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m8568_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m8569_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m8570_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m8571_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Action_1_t2577_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1__ctor_m8571_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_ContinueWith_m8572_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m8573_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetResult_m8574_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1__ctor_m8572_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_ContinueWith_m8573_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m8574_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetResult_m8575_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -20162,20 +20162,20 @@ TypeInfo U3CU3Ec__DisplayClass7_1_t2202_il2cpp_TypeInfo =
 // System.Threading.Tasks.TaskExtensions
 #include "Parse_Unity_System_Threading_Tasks_TaskExtensionsMethodDeclarations.h"
 extern const Il2CppType Task_1_t1355_0_0_0;
-static const ParameterInfo TaskExtensions_t1357_TaskExtensions_Unwrap_m7249_ParameterInfos[] = 
+static const ParameterInfo TaskExtensions_t1357_TaskExtensions_Unwrap_m7250_ParameterInfos[] = 
 {
 	{"task", 0, 134218897, 0, &Task_1_t1355_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task System.Threading.Tasks.TaskExtensions::Unwrap(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>)
-extern const MethodInfo TaskExtensions_Unwrap_m7249_MethodInfo = 
+extern const MethodInfo TaskExtensions_Unwrap_m7250_MethodInfo = 
 {
 	"Unwrap"/* name */
-	, (methodPointerType)&TaskExtensions_Unwrap_m7249/* method */
+	, (methodPointerType)&TaskExtensions_Unwrap_m7250/* method */
 	, &TaskExtensions_t1357_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, TaskExtensions_t1357_TaskExtensions_Unwrap_m7249_ParameterInfos/* parameters */
+	, TaskExtensions_t1357_TaskExtensions_Unwrap_m7250_ParameterInfos/* parameters */
 	, 527/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -20191,51 +20191,51 @@ extern const MethodInfo TaskExtensions_Unwrap_m7249_MethodInfo =
 };
 extern const Il2CppType Task_1_t2578_0_0_0;
 extern const Il2CppType Task_1_t2578_0_0_0;
-static const ParameterInfo TaskExtensions_t1357_TaskExtensions_Unwrap_m8173_ParameterInfos[] = 
+static const ParameterInfo TaskExtensions_t1357_TaskExtensions_Unwrap_m8174_ParameterInfos[] = 
 {
 	{"task", 0, 134218898, 0, &Task_1_t2578_0_0_0},
 };
 extern const Il2CppType Task_1_t2579_0_0_0;
-extern const Il2CppGenericContainer TaskExtensions_Unwrap_m8173_Il2CppGenericContainer;
-extern TypeInfo TaskExtensions_Unwrap_m8173_gp_T_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter TaskExtensions_Unwrap_m8173_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &TaskExtensions_Unwrap_m8173_Il2CppGenericContainer, NULL, "T", 0, 0 };
-static const Il2CppGenericParameter* TaskExtensions_Unwrap_m8173_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer TaskExtensions_Unwrap_m8174_Il2CppGenericContainer;
+extern TypeInfo TaskExtensions_Unwrap_m8174_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskExtensions_Unwrap_m8174_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &TaskExtensions_Unwrap_m8174_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* TaskExtensions_Unwrap_m8174_Il2CppGenericParametersArray[1] = 
 {
-	&TaskExtensions_Unwrap_m8173_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&TaskExtensions_Unwrap_m8174_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo TaskExtensions_Unwrap_m8173_MethodInfo;
-extern const Il2CppGenericContainer TaskExtensions_Unwrap_m8173_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskExtensions_Unwrap_m8173_MethodInfo, 1, 1, TaskExtensions_Unwrap_m8173_Il2CppGenericParametersArray };
+extern const MethodInfo TaskExtensions_Unwrap_m8174_MethodInfo;
+extern const Il2CppGenericContainer TaskExtensions_Unwrap_m8174_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskExtensions_Unwrap_m8174_MethodInfo, 1, 1, TaskExtensions_Unwrap_m8174_Il2CppGenericParametersArray };
 extern const Il2CppType U3CU3Ec__DisplayClass7_1_t2581_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass7_1__ctor_m8575_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass7_1__ctor_m8576_GenericMethod;
 extern const Il2CppType TaskCompletionSource_1_t2582_0_0_0;
-extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m8576_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m8577_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m8577_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m8578_GenericMethod;
 extern const Il2CppType Action_1_t2583_0_0_0;
-extern const Il2CppGenericMethod Action_1__ctor_m8578_GenericMethod;
-extern const Il2CppGenericMethod Task_1_ContinueWith_m8579_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m8580_GenericMethod;
-static Il2CppRGCTXDefinition TaskExtensions_Unwrap_m8173_RGCTXData[10] = 
+extern const Il2CppGenericMethod Action_1__ctor_m8579_GenericMethod;
+extern const Il2CppGenericMethod Task_1_ContinueWith_m8580_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m8581_GenericMethod;
+static Il2CppRGCTXDefinition TaskExtensions_Unwrap_m8174_RGCTXData[10] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass7_1_t2581_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass7_1__ctor_m8575_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass7_1__ctor_m8576_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&TaskCompletionSource_1_t2582_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m8576_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m8577_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m8577_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m8578_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Action_1_t2583_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1__ctor_m8578_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_ContinueWith_m8579_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m8580_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1__ctor_m8579_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_ContinueWith_m8580_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m8581_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Threading.Tasks.Task`1<T> System.Threading.Tasks.TaskExtensions::Unwrap(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<T>>)
-extern const MethodInfo TaskExtensions_Unwrap_m8173_MethodInfo = 
+extern const MethodInfo TaskExtensions_Unwrap_m8174_MethodInfo = 
 {
 	"Unwrap"/* name */
 	, NULL/* method */
 	, &TaskExtensions_t1357_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t2579_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, TaskExtensions_t1357_TaskExtensions_Unwrap_m8173_ParameterInfos/* parameters */
+	, TaskExtensions_t1357_TaskExtensions_Unwrap_m8174_ParameterInfos/* parameters */
 	, 528/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -20244,15 +20244,15 @@ extern const MethodInfo TaskExtensions_Unwrap_m8173_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 1224/* token */
-	, TaskExtensions_Unwrap_m8173_RGCTXData/* rgctx_data */
+	, TaskExtensions_Unwrap_m8174_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &TaskExtensions_Unwrap_m8173_Il2CppGenericContainer/* genericContainer */
+	, &TaskExtensions_Unwrap_m8174_Il2CppGenericContainer/* genericContainer */
 
 };
 static const MethodInfo* TaskExtensions_t1357_MethodInfos[] =
 {
-	&TaskExtensions_Unwrap_m7249_MethodInfo,
-	&TaskExtensions_Unwrap_m8173_MethodInfo,
+	&TaskExtensions_Unwrap_m7250_MethodInfo,
+	&TaskExtensions_Unwrap_m8174_MethodInfo,
 	NULL
 };
 static const Il2CppType* TaskExtensions_t1357_il2cpp_TypeInfo__nestedTypes[2] =
@@ -20355,7 +20355,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClass1_1_t2203_Il2CppGeneri
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClass1_1_t2203_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClass1_1_t2203_il2cpp_TypeInfo, 1, 0, U3CU3Ec__DisplayClass1_1_t2203_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass1`1::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass1_1__ctor_m8185_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1_1__ctor_m8186_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -20377,7 +20377,7 @@ extern const MethodInfo U3CU3Ec__DisplayClass1_1__ctor_m8185_MethodInfo =
 
 };
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass1`1::<StartNew>b__0()
-extern const MethodInfo U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m8186_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m8187_MethodInfo = 
 {
 	"<StartNew>b__0"/* name */
 	, NULL/* method */
@@ -20400,8 +20400,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m8186_Method
 };
 static const MethodInfo* U3CU3Ec__DisplayClass1_1_t2203_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass1_1__ctor_m8185_MethodInfo,
-	&U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m8186_MethodInfo,
+	&U3CU3Ec__DisplayClass1_1__ctor_m8186_MethodInfo,
+	&U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m8187_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass1_1_t2203_VTable[] =
@@ -20418,14 +20418,14 @@ static bool U3CU3Ec__DisplayClass1_1_t2203_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod Func_1_Invoke_m8581_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_SetResult_m8582_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_SetException_m8583_GenericMethod;
+extern const Il2CppGenericMethod Func_1_Invoke_m8582_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_SetResult_m8583_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_SetException_m8584_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClass1_1_t2203_RGCTXData[4] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_1_Invoke_m8581_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_SetResult_m8582_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_SetException_m8583_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_1_Invoke_m8582_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_SetResult_m8583_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_SetException_m8584_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -20517,7 +20517,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClass4_3_t2204_Il2CppGeneri
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClass4_3_t2204_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClass4_3_t2204_il2cpp_TypeInfo, 3, 0, U3CU3Ec__DisplayClass4_3_t2204_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass4`3::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass4_3__ctor_m8187_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass4_3__ctor_m8188_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -20541,21 +20541,21 @@ extern const MethodInfo U3CU3Ec__DisplayClass4_3__ctor_m8187_MethodInfo =
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass4_3_t2204_U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m8188_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass4_3_t2204_U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m8189_ParameterInfos[] = 
 {
 	{"callback", 0, 134218950, 0, &AsyncCallback_t386_0_0_0},
 	{"_", 1, 134218951, 0, &Object_t_0_0_0},
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
 // System.IAsyncResult System.Threading.Tasks.TaskFactory/<>c__DisplayClass4`3::<FromAsync>b__3(System.AsyncCallback,System.Object)
-extern const MethodInfo U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m8188_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m8189_MethodInfo = 
 {
 	"<FromAsync>b__3"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClass4_3_t2204_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClass4_3_t2204_U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m8188_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass4_3_t2204_U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m8189_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -20571,8 +20571,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m8188_Metho
 };
 static const MethodInfo* U3CU3Ec__DisplayClass4_3_t2204_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass4_3__ctor_m8187_MethodInfo,
-	&U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m8188_MethodInfo,
+	&U3CU3Ec__DisplayClass4_3__ctor_m8188_MethodInfo,
+	&U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m8189_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass4_3_t2204_VTable[] =
@@ -20589,10 +20589,10 @@ static bool U3CU3Ec__DisplayClass4_3_t2204_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod Func_6_Invoke_m8584_GenericMethod;
+extern const Il2CppGenericMethod Func_6_Invoke_m8585_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClass4_3_t2204_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_6_Invoke_m8584_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_6_Invoke_m8585_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -20686,7 +20686,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClass7_4_t2205_Il2CppGeneri
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClass7_4_t2205_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClass7_4_t2205_il2cpp_TypeInfo, 4, 0, U3CU3Ec__DisplayClass7_4_t2205_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass7`4::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass7_4__ctor_m8189_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass7_4__ctor_m8190_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -20709,20 +20709,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass7_4__ctor_m8189_MethodInfo =
 };
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass7_4_t2205_U3CU3Ec__DisplayClass7_4_U3CFromAsyncU3Eb__6_m8190_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass7_4_t2205_U3CU3Ec__DisplayClass7_4_U3CFromAsyncU3Eb__6_m8191_ParameterInfos[] = 
 {
 	{"callback", 0, 134218952, 0, &AsyncCallback_t386_0_0_0},
 	{"_", 1, 134218953, 0, &Object_t_0_0_0},
 };
 // System.IAsyncResult System.Threading.Tasks.TaskFactory/<>c__DisplayClass7`4::<FromAsync>b__6(System.AsyncCallback,System.Object)
-extern const MethodInfo U3CU3Ec__DisplayClass7_4_U3CFromAsyncU3Eb__6_m8190_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass7_4_U3CFromAsyncU3Eb__6_m8191_MethodInfo = 
 {
 	"<FromAsync>b__6"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClass7_4_t2205_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClass7_4_t2205_U3CU3Ec__DisplayClass7_4_U3CFromAsyncU3Eb__6_m8190_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass7_4_t2205_U3CU3Ec__DisplayClass7_4_U3CFromAsyncU3Eb__6_m8191_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -20738,8 +20738,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass7_4_U3CFromAsyncU3Eb__6_m8190_Metho
 };
 static const MethodInfo* U3CU3Ec__DisplayClass7_4_t2205_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass7_4__ctor_m8189_MethodInfo,
-	&U3CU3Ec__DisplayClass7_4_U3CFromAsyncU3Eb__6_m8190_MethodInfo,
+	&U3CU3Ec__DisplayClass7_4__ctor_m8190_MethodInfo,
+	&U3CU3Ec__DisplayClass7_4_U3CFromAsyncU3Eb__6_m8191_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass7_4_t2205_VTable[] =
@@ -20756,10 +20756,10 @@ static bool U3CU3Ec__DisplayClass7_4_t2205_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod Func_6_Invoke_m8585_GenericMethod;
+extern const Il2CppGenericMethod Func_6_Invoke_m8586_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClass7_4_t2205_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_6_Invoke_m8585_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_6_Invoke_m8586_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -20847,7 +20847,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClassa_2_t2206_Il2CppGeneri
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClassa_2_t2206_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClassa_2_t2206_il2cpp_TypeInfo, 2, 0, U3CU3Ec__DisplayClassa_2_t2206_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClassa`2::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClassa_2__ctor_m8191_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClassa_2__ctor_m8192_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -20870,20 +20870,20 @@ extern const MethodInfo U3CU3Ec__DisplayClassa_2__ctor_m8191_MethodInfo =
 };
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClassa_2_t2206_U3CU3Ec__DisplayClassa_2_U3CFromAsyncU3Eb__9_m8192_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClassa_2_t2206_U3CU3Ec__DisplayClassa_2_U3CFromAsyncU3Eb__9_m8193_ParameterInfos[] = 
 {
 	{"callback", 0, 134218954, 0, &AsyncCallback_t386_0_0_0},
 	{"_", 1, 134218955, 0, &Object_t_0_0_0},
 };
 // System.IAsyncResult System.Threading.Tasks.TaskFactory/<>c__DisplayClassa`2::<FromAsync>b__9(System.AsyncCallback,System.Object)
-extern const MethodInfo U3CU3Ec__DisplayClassa_2_U3CFromAsyncU3Eb__9_m8192_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClassa_2_U3CFromAsyncU3Eb__9_m8193_MethodInfo = 
 {
 	"<FromAsync>b__9"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClassa_2_t2206_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClassa_2_t2206_U3CU3Ec__DisplayClassa_2_U3CFromAsyncU3Eb__9_m8192_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClassa_2_t2206_U3CU3Ec__DisplayClassa_2_U3CFromAsyncU3Eb__9_m8193_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -20899,8 +20899,8 @@ extern const MethodInfo U3CU3Ec__DisplayClassa_2_U3CFromAsyncU3Eb__9_m8192_Metho
 };
 static const MethodInfo* U3CU3Ec__DisplayClassa_2_t2206_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClassa_2__ctor_m8191_MethodInfo,
-	&U3CU3Ec__DisplayClassa_2_U3CFromAsyncU3Eb__9_m8192_MethodInfo,
+	&U3CU3Ec__DisplayClassa_2__ctor_m8192_MethodInfo,
+	&U3CU3Ec__DisplayClassa_2_U3CFromAsyncU3Eb__9_m8193_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClassa_2_t2206_VTable[] =
@@ -20917,10 +20917,10 @@ static bool U3CU3Ec__DisplayClassa_2_t2206_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod Func_5_Invoke_m8586_GenericMethod;
+extern const Il2CppGenericMethod Func_5_Invoke_m8587_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClassa_2_t2206_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_5_Invoke_m8586_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_5_Invoke_m8587_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -21011,7 +21011,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClassd_3_t2207_Il2CppGeneri
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClassd_3_t2207_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClassd_3_t2207_il2cpp_TypeInfo, 3, 0, U3CU3Ec__DisplayClassd_3_t2207_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClassd`3::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClassd_3__ctor_m8193_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClassd_3__ctor_m8194_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -21034,20 +21034,20 @@ extern const MethodInfo U3CU3Ec__DisplayClassd_3__ctor_m8193_MethodInfo =
 };
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClassd_3_t2207_U3CU3Ec__DisplayClassd_3_U3CFromAsyncU3Eb__c_m8194_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClassd_3_t2207_U3CU3Ec__DisplayClassd_3_U3CFromAsyncU3Eb__c_m8195_ParameterInfos[] = 
 {
 	{"callback", 0, 134218956, 0, &AsyncCallback_t386_0_0_0},
 	{"_", 1, 134218957, 0, &Object_t_0_0_0},
 };
 // System.IAsyncResult System.Threading.Tasks.TaskFactory/<>c__DisplayClassd`3::<FromAsync>b__c(System.AsyncCallback,System.Object)
-extern const MethodInfo U3CU3Ec__DisplayClassd_3_U3CFromAsyncU3Eb__c_m8194_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClassd_3_U3CFromAsyncU3Eb__c_m8195_MethodInfo = 
 {
 	"<FromAsync>b__c"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClassd_3_t2207_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClassd_3_t2207_U3CU3Ec__DisplayClassd_3_U3CFromAsyncU3Eb__c_m8194_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClassd_3_t2207_U3CU3Ec__DisplayClassd_3_U3CFromAsyncU3Eb__c_m8195_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21063,8 +21063,8 @@ extern const MethodInfo U3CU3Ec__DisplayClassd_3_U3CFromAsyncU3Eb__c_m8194_Metho
 };
 static const MethodInfo* U3CU3Ec__DisplayClassd_3_t2207_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClassd_3__ctor_m8193_MethodInfo,
-	&U3CU3Ec__DisplayClassd_3_U3CFromAsyncU3Eb__c_m8194_MethodInfo,
+	&U3CU3Ec__DisplayClassd_3__ctor_m8194_MethodInfo,
+	&U3CU3Ec__DisplayClassd_3_U3CFromAsyncU3Eb__c_m8195_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClassd_3_t2207_VTable[] =
@@ -21081,10 +21081,10 @@ static bool U3CU3Ec__DisplayClassd_3_t2207_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod Func_5_Invoke_m8587_GenericMethod;
+extern const Il2CppGenericMethod Func_5_Invoke_m8588_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClassd_3_t2207_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_5_Invoke_m8587_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_5_Invoke_m8588_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -21169,7 +21169,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClass10_1_t2208_Il2CppGener
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClass10_1_t2208_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClass10_1_t2208_il2cpp_TypeInfo, 1, 0, U3CU3Ec__DisplayClass10_1_t2208_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass10`1::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass10_1__ctor_m8195_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass10_1__ctor_m8196_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -21192,20 +21192,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass10_1__ctor_m8195_MethodInfo =
 };
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass10_1_t2208_U3CU3Ec__DisplayClass10_1_U3CFromAsyncU3Eb__f_m8196_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass10_1_t2208_U3CU3Ec__DisplayClass10_1_U3CFromAsyncU3Eb__f_m8197_ParameterInfos[] = 
 {
 	{"callback", 0, 134218958, 0, &AsyncCallback_t386_0_0_0},
 	{"_", 1, 134218959, 0, &Object_t_0_0_0},
 };
 // System.IAsyncResult System.Threading.Tasks.TaskFactory/<>c__DisplayClass10`1::<FromAsync>b__f(System.AsyncCallback,System.Object)
-extern const MethodInfo U3CU3Ec__DisplayClass10_1_U3CFromAsyncU3Eb__f_m8196_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass10_1_U3CFromAsyncU3Eb__f_m8197_MethodInfo = 
 {
 	"<FromAsync>b__f"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClass10_1_t2208_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClass10_1_t2208_U3CU3Ec__DisplayClass10_1_U3CFromAsyncU3Eb__f_m8196_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass10_1_t2208_U3CU3Ec__DisplayClass10_1_U3CFromAsyncU3Eb__f_m8197_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21221,8 +21221,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass10_1_U3CFromAsyncU3Eb__f_m8196_Meth
 };
 static const MethodInfo* U3CU3Ec__DisplayClass10_1_t2208_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass10_1__ctor_m8195_MethodInfo,
-	&U3CU3Ec__DisplayClass10_1_U3CFromAsyncU3Eb__f_m8196_MethodInfo,
+	&U3CU3Ec__DisplayClass10_1__ctor_m8196_MethodInfo,
+	&U3CU3Ec__DisplayClass10_1_U3CFromAsyncU3Eb__f_m8197_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass10_1_t2208_VTable[] =
@@ -21239,10 +21239,10 @@ static bool U3CU3Ec__DisplayClass10_1_t2208_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod Func_4_Invoke_m8588_GenericMethod;
+extern const Il2CppGenericMethod Func_4_Invoke_m8589_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClass10_1_t2208_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_4_Invoke_m8588_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_4_Invoke_m8589_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -21330,7 +21330,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClass13_2_t2209_Il2CppGener
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClass13_2_t2209_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClass13_2_t2209_il2cpp_TypeInfo, 2, 0, U3CU3Ec__DisplayClass13_2_t2209_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass13`2::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass13_2__ctor_m8197_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass13_2__ctor_m8198_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -21353,20 +21353,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass13_2__ctor_m8197_MethodInfo =
 };
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass13_2_t2209_U3CU3Ec__DisplayClass13_2_U3CFromAsyncU3Eb__12_m8198_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass13_2_t2209_U3CU3Ec__DisplayClass13_2_U3CFromAsyncU3Eb__12_m8199_ParameterInfos[] = 
 {
 	{"callback", 0, 134218960, 0, &AsyncCallback_t386_0_0_0},
 	{"_", 1, 134218961, 0, &Object_t_0_0_0},
 };
 // System.IAsyncResult System.Threading.Tasks.TaskFactory/<>c__DisplayClass13`2::<FromAsync>b__12(System.AsyncCallback,System.Object)
-extern const MethodInfo U3CU3Ec__DisplayClass13_2_U3CFromAsyncU3Eb__12_m8198_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass13_2_U3CFromAsyncU3Eb__12_m8199_MethodInfo = 
 {
 	"<FromAsync>b__12"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClass13_2_t2209_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClass13_2_t2209_U3CU3Ec__DisplayClass13_2_U3CFromAsyncU3Eb__12_m8198_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass13_2_t2209_U3CU3Ec__DisplayClass13_2_U3CFromAsyncU3Eb__12_m8199_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21382,8 +21382,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass13_2_U3CFromAsyncU3Eb__12_m8198_Met
 };
 static const MethodInfo* U3CU3Ec__DisplayClass13_2_t2209_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass13_2__ctor_m8197_MethodInfo,
-	&U3CU3Ec__DisplayClass13_2_U3CFromAsyncU3Eb__12_m8198_MethodInfo,
+	&U3CU3Ec__DisplayClass13_2__ctor_m8198_MethodInfo,
+	&U3CU3Ec__DisplayClass13_2_U3CFromAsyncU3Eb__12_m8199_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass13_2_t2209_VTable[] =
@@ -21400,10 +21400,10 @@ static bool U3CU3Ec__DisplayClass13_2_t2209_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod Func_4_Invoke_m8589_GenericMethod;
+extern const Il2CppGenericMethod Func_4_Invoke_m8590_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClass13_2_t2209_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_4_Invoke_m8589_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_4_Invoke_m8590_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -21485,10 +21485,10 @@ extern TypeInfo U3CU3Ec__DisplayClass16_t1359_il2cpp_TypeInfo;
 #include "Parse_Unity_System_Threading_Tasks_TaskFactory_U3CU3Ec__DispMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass16::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass16__ctor_m7250_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass16__ctor_m7251_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass16__ctor_m7250/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass16__ctor_m7251/* method */
 	, &U3CU3Ec__DisplayClass16_t1359_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -21507,20 +21507,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass16__ctor_m7250_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass16_t1359_U3CU3Ec__DisplayClass16_U3CFromAsyncU3Eb__15_m7251_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass16_t1359_U3CU3Ec__DisplayClass16_U3CFromAsyncU3Eb__15_m7252_ParameterInfos[] = 
 {
 	{"result", 0, 134218962, 0, &IAsyncResult_t385_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Threading.Tasks.TaskFactory/<>c__DisplayClass16::<FromAsync>b__15(System.IAsyncResult)
-extern const MethodInfo U3CU3Ec__DisplayClass16_U3CFromAsyncU3Eb__15_m7251_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass16_U3CFromAsyncU3Eb__15_m7252_MethodInfo = 
 {
 	"<FromAsync>b__15"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass16_U3CFromAsyncU3Eb__15_m7251/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass16_U3CFromAsyncU3Eb__15_m7252/* method */
 	, &U3CU3Ec__DisplayClass16_t1359_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass16_t1359_U3CU3Ec__DisplayClass16_U3CFromAsyncU3Eb__15_m7251_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass16_t1359_U3CU3Ec__DisplayClass16_U3CFromAsyncU3Eb__15_m7252_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21536,8 +21536,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass16_U3CFromAsyncU3Eb__15_m7251_Metho
 };
 static const MethodInfo* U3CU3Ec__DisplayClass16_t1359_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass16__ctor_m7250_MethodInfo,
-	&U3CU3Ec__DisplayClass16_U3CFromAsyncU3Eb__15_m7251_MethodInfo,
+	&U3CU3Ec__DisplayClass16__ctor_m7251_MethodInfo,
+	&U3CU3Ec__DisplayClass16_U3CFromAsyncU3Eb__15_m7252_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass16_t1359_VTable[] =
@@ -21636,7 +21636,7 @@ static const Il2CppGenericParameter* U3CU3Ec__DisplayClass1b_1_t2210_Il2CppGener
 };
 extern const Il2CppGenericContainer U3CU3Ec__DisplayClass1b_1_t2210_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CU3Ec__DisplayClass1b_1_t2210_il2cpp_TypeInfo, 1, 0, U3CU3Ec__DisplayClass1b_1_t2210_Il2CppGenericParametersArray };
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass1b`1::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass1b_1__ctor_m8199_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1b_1__ctor_m8200_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -21658,7 +21658,7 @@ extern const MethodInfo U3CU3Ec__DisplayClass1b_1__ctor_m8199_MethodInfo =
 
 };
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass1b`1::<FromAsync>b__18()
-extern const MethodInfo U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m8200_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m8201_MethodInfo = 
 {
 	"<FromAsync>b__18"/* name */
 	, NULL/* method */
@@ -21680,19 +21680,19 @@ extern const MethodInfo U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m8200_Met
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass1b_1_t2210_U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m8201_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass1b_1_t2210_U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m8202_ParameterInfos[] = 
 {
 	{"result", 0, 134218963, 0, &IAsyncResult_t385_0_0_0},
 };
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass1b`1::<FromAsync>b__19(System.IAsyncResult)
-extern const MethodInfo U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m8201_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m8202_MethodInfo = 
 {
 	"<FromAsync>b__19"/* name */
 	, NULL/* method */
 	, &U3CU3Ec__DisplayClass1b_1_t2210_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ec__DisplayClass1b_1_t2210_U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m8201_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass1b_1_t2210_U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m8202_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21708,9 +21708,9 @@ extern const MethodInfo U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m8201_Met
 };
 static const MethodInfo* U3CU3Ec__DisplayClass1b_1_t2210_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass1b_1__ctor_m8199_MethodInfo,
-	&U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m8200_MethodInfo,
-	&U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m8201_MethodInfo,
+	&U3CU3Ec__DisplayClass1b_1__ctor_m8200_MethodInfo,
+	&U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m8201_MethodInfo,
+	&U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m8202_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass1b_1_t2210_VTable[] =
@@ -21727,16 +21727,16 @@ static bool U3CU3Ec__DisplayClass1b_1_t2210_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m8590_GenericMethod;
-extern const Il2CppGenericMethod Func_2_Invoke_m8591_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetResult_m8592_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m8593_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m8591_GenericMethod;
+extern const Il2CppGenericMethod Func_2_Invoke_m8592_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetResult_m8593_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m8594_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ec__DisplayClass1b_1_t2210_RGCTXData[5] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m8590_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2_Invoke_m8591_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetResult_m8592_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m8593_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m8591_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2_Invoke_m8592_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetResult_m8593_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m8594_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -21818,10 +21818,10 @@ extern TypeInfo U3CU3Ec__DisplayClass20_t1362_il2cpp_TypeInfo;
 #include "Parse_Unity_System_Threading_Tasks_TaskFactory_U3CU3Ec__Disp_0MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass20::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass20__ctor_m7252_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass20__ctor_m7253_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass20__ctor_m7252/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass20__ctor_m7253/* method */
 	, &U3CU3Ec__DisplayClass20_t1362_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -21840,20 +21840,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass20__ctor_m7252_MethodInfo =
 
 };
 extern const Il2CppType Task_t1208_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass20_t1362_U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1d_m7253_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass20_t1362_U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1d_m7254_ParameterInfos[] = 
 {
 	{"_", 0, 134218964, 0, &Task_t1208_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass20::<ContinueWhenAll>b__1d(System.Threading.Tasks.Task)
-extern const MethodInfo U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1d_m7253_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1d_m7254_MethodInfo = 
 {
 	"<ContinueWhenAll>b__1d"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1d_m7253/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1d_m7254/* method */
 	, &U3CU3Ec__DisplayClass20_t1362_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass20_t1362_U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1d_m7253_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass20_t1362_U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1d_m7254_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21869,20 +21869,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1d_m7253
 };
 extern const Il2CppType Task_1_t1413_0_0_0;
 extern const Il2CppType Task_1_t1413_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass20_t1362_U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1e_m7254_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass20_t1362_U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1e_m7255_ParameterInfos[] = 
 {
 	{"t", 0, 134218965, 0, &Task_1_t1413_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass20::<ContinueWhenAll>b__1e(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task[]>)
-extern const MethodInfo U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1e_m7254_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1e_m7255_MethodInfo = 
 {
 	"<ContinueWhenAll>b__1e"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1e_m7254/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1e_m7255/* method */
 	, &U3CU3Ec__DisplayClass20_t1362_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass20_t1362_U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1e_m7254_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass20_t1362_U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1e_m7255_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21898,9 +21898,9 @@ extern const MethodInfo U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1e_m7254
 };
 static const MethodInfo* U3CU3Ec__DisplayClass20_t1362_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass20__ctor_m7252_MethodInfo,
-	&U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1d_m7253_MethodInfo,
-	&U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1e_m7254_MethodInfo,
+	&U3CU3Ec__DisplayClass20__ctor_m7253_MethodInfo,
+	&U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1d_m7254_MethodInfo,
+	&U3CU3Ec__DisplayClass20_U3CContinueWhenAllU3Eb__1e_m7255_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass20_t1362_VTable[] =
@@ -21996,21 +21996,21 @@ TypeInfo U3CU3Ec__DisplayClass20_t1362_il2cpp_TypeInfo =
 extern const Il2CppType TaskScheduler_t1363_0_0_0;
 extern const Il2CppType TaskScheduler_t1363_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo TaskFactory_t1364_TaskFactory__ctor_m7255_ParameterInfos[] = 
+static const ParameterInfo TaskFactory_t1364_TaskFactory__ctor_m7256_ParameterInfos[] = 
 {
 	{"scheduler", 0, 134218903, 0, &TaskScheduler_t1363_0_0_0},
 	{"cancellationToken", 1, 134218904, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskFactory::.ctor(System.Threading.Tasks.TaskScheduler,System.Threading.CancellationToken)
-extern const MethodInfo TaskFactory__ctor_m7255_MethodInfo = 
+extern const MethodInfo TaskFactory__ctor_m7256_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TaskFactory__ctor_m7255/* method */
+	, (methodPointerType)&TaskFactory__ctor_m7256/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_CancellationToken_t1162/* invoker_method */
-	, TaskFactory_t1364_TaskFactory__ctor_m7255_ParameterInfos/* parameters */
+	, TaskFactory_t1364_TaskFactory__ctor_m7256_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -22025,20 +22025,20 @@ extern const MethodInfo TaskFactory__ctor_m7255_MethodInfo =
 
 };
 extern const Il2CppType TaskScheduler_t1363_0_0_0;
-static const ParameterInfo TaskFactory_t1364_TaskFactory__ctor_m7256_ParameterInfos[] = 
+static const ParameterInfo TaskFactory_t1364_TaskFactory__ctor_m7257_ParameterInfos[] = 
 {
 	{"scheduler", 0, 134218905, 0, &TaskScheduler_t1363_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskFactory::.ctor(System.Threading.Tasks.TaskScheduler)
-extern const MethodInfo TaskFactory__ctor_m7256_MethodInfo = 
+extern const MethodInfo TaskFactory__ctor_m7257_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TaskFactory__ctor_m7256/* method */
+	, (methodPointerType)&TaskFactory__ctor_m7257/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, TaskFactory_t1364_TaskFactory__ctor_m7256_ParameterInfos/* parameters */
+	, TaskFactory_t1364_TaskFactory__ctor_m7257_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -22053,20 +22053,20 @@ extern const MethodInfo TaskFactory__ctor_m7256_MethodInfo =
 
 };
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo TaskFactory_t1364_TaskFactory__ctor_m7257_ParameterInfos[] = 
+static const ParameterInfo TaskFactory_t1364_TaskFactory__ctor_m7258_ParameterInfos[] = 
 {
 	{"cancellationToken", 0, 134218906, 0, &CancellationToken_t1162_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_CancellationToken_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskFactory::.ctor(System.Threading.CancellationToken)
-extern const MethodInfo TaskFactory__ctor_m7257_MethodInfo = 
+extern const MethodInfo TaskFactory__ctor_m7258_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TaskFactory__ctor_m7257/* method */
+	, (methodPointerType)&TaskFactory__ctor_m7258/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_CancellationToken_t1162/* invoker_method */
-	, TaskFactory_t1364_TaskFactory__ctor_m7257_ParameterInfos/* parameters */
+	, TaskFactory_t1364_TaskFactory__ctor_m7258_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -22082,10 +22082,10 @@ extern const MethodInfo TaskFactory__ctor_m7257_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskFactory::.ctor()
-extern const MethodInfo TaskFactory__ctor_m7258_MethodInfo = 
+extern const MethodInfo TaskFactory__ctor_m7259_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TaskFactory__ctor_m7258/* method */
+	, (methodPointerType)&TaskFactory__ctor_m7259/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -22107,7 +22107,7 @@ extern const Il2CppType CancellationToken_t1162_0_0_0;
 extern const Il2CppType TaskCreationOptions_t1354_0_0_0;
 extern const Il2CppType TaskContinuationOptions_t1353_0_0_0;
 extern const Il2CppType TaskScheduler_t1363_0_0_0;
-static const ParameterInfo TaskFactory_t1364_TaskFactory__ctor_m7259_ParameterInfos[] = 
+static const ParameterInfo TaskFactory_t1364_TaskFactory__ctor_m7260_ParameterInfos[] = 
 {
 	{"cancellationToken", 0, 134218907, 0, &CancellationToken_t1162_0_0_0},
 	{"creationOptions", 1, 134218908, 0, &TaskCreationOptions_t1354_0_0_0},
@@ -22116,14 +22116,14 @@ static const ParameterInfo TaskFactory_t1364_TaskFactory__ctor_m7259_ParameterIn
 };
 extern void* RuntimeInvoker_Void_t85_CancellationToken_t1162_Int32_t82_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskFactory::.ctor(System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler)
-extern const MethodInfo TaskFactory__ctor_m7259_MethodInfo = 
+extern const MethodInfo TaskFactory__ctor_m7260_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TaskFactory__ctor_m7259/* method */
+	, (methodPointerType)&TaskFactory__ctor_m7260/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_CancellationToken_t1162_Int32_t82_Int32_t82_Object_t/* invoker_method */
-	, TaskFactory_t1364_TaskFactory__ctor_m7259_ParameterInfos/* parameters */
+	, TaskFactory_t1364_TaskFactory__ctor_m7260_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -22139,10 +22139,10 @@ extern const MethodInfo TaskFactory__ctor_m7259_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.TaskScheduler System.Threading.Tasks.TaskFactory::get_Scheduler()
-extern const MethodInfo TaskFactory_get_Scheduler_m7260_MethodInfo = 
+extern const MethodInfo TaskFactory_get_Scheduler_m7261_MethodInfo = 
 {
 	"get_Scheduler"/* name */
-	, (methodPointerType)&TaskFactory_get_Scheduler_m7260/* method */
+	, (methodPointerType)&TaskFactory_get_Scheduler_m7261/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
 	, &TaskScheduler_t1363_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -22162,45 +22162,45 @@ extern const MethodInfo TaskFactory_get_Scheduler_m7260_MethodInfo =
 };
 extern const Il2CppType Func_1_t2601_0_0_0;
 extern const Il2CppType Func_1_t2601_0_0_0;
-static const ParameterInfo TaskFactory_t1364_TaskFactory_StartNew_m8177_ParameterInfos[] = 
+static const ParameterInfo TaskFactory_t1364_TaskFactory_StartNew_m8178_ParameterInfos[] = 
 {
 	{"func", 0, 134218911, 0, &Func_1_t2601_0_0_0},
 };
 extern const Il2CppType Task_1_t2602_0_0_0;
-extern const Il2CppGenericContainer TaskFactory_StartNew_m8177_Il2CppGenericContainer;
-extern TypeInfo TaskFactory_StartNew_m8177_gp_T_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter TaskFactory_StartNew_m8177_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_StartNew_m8177_Il2CppGenericContainer, NULL, "T", 0, 0 };
-static const Il2CppGenericParameter* TaskFactory_StartNew_m8177_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer TaskFactory_StartNew_m8178_Il2CppGenericContainer;
+extern TypeInfo TaskFactory_StartNew_m8178_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskFactory_StartNew_m8178_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_StartNew_m8178_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* TaskFactory_StartNew_m8178_Il2CppGenericParametersArray[1] = 
 {
-	&TaskFactory_StartNew_m8177_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&TaskFactory_StartNew_m8178_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo TaskFactory_StartNew_m8177_MethodInfo;
-extern const Il2CppGenericContainer TaskFactory_StartNew_m8177_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_StartNew_m8177_MethodInfo, 1, 1, TaskFactory_StartNew_m8177_Il2CppGenericParametersArray };
+extern const MethodInfo TaskFactory_StartNew_m8178_MethodInfo;
+extern const Il2CppGenericContainer TaskFactory_StartNew_m8178_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_StartNew_m8178_MethodInfo, 1, 1, TaskFactory_StartNew_m8178_Il2CppGenericParametersArray };
 extern const Il2CppType U3CU3Ec__DisplayClass1_1_t2604_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1_1__ctor_m8594_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1_1__ctor_m8595_GenericMethod;
 extern const Il2CppType TaskCompletionSource_1_t2605_0_0_0;
-extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m8595_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m8596_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m8597_GenericMethod;
-static Il2CppRGCTXDefinition TaskFactory_StartNew_m8177_RGCTXData[7] = 
+extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m8596_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m8597_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m8598_GenericMethod;
+static Il2CppRGCTXDefinition TaskFactory_StartNew_m8178_RGCTXData[7] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass1_1_t2604_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1_1__ctor_m8594_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1_1__ctor_m8595_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&TaskCompletionSource_1_t2605_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m8595_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m8596_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m8597_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m8596_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m8597_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m8598_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Threading.Tasks.Task`1<T> System.Threading.Tasks.TaskFactory::StartNew(System.Func`1<T>)
-extern const MethodInfo TaskFactory_StartNew_m8177_MethodInfo = 
+extern const MethodInfo TaskFactory_StartNew_m8178_MethodInfo = 
 {
 	"StartNew"/* name */
 	, NULL/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t2602_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, TaskFactory_t1364_TaskFactory_StartNew_m8177_ParameterInfos/* parameters */
+	, TaskFactory_t1364_TaskFactory_StartNew_m8178_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -22209,82 +22209,15 @@ extern const MethodInfo TaskFactory_StartNew_m8177_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 1237/* token */
-	, TaskFactory_StartNew_m8177_RGCTXData/* rgctx_data */
+	, TaskFactory_StartNew_m8178_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &TaskFactory_StartNew_m8177_Il2CppGenericContainer/* genericContainer */
+	, &TaskFactory_StartNew_m8178_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType Func_6_t2606_0_0_0;
 extern const Il2CppType Func_6_t2606_0_0_0;
 extern const Il2CppType Action_1_t1358_0_0_0;
 extern const Il2CppType Action_1_t1358_0_0_0;
-extern const Il2CppType TaskFactory_FromAsync_m8178_gp_0_0_0_0;
-extern const Il2CppType TaskFactory_FromAsync_m8178_gp_0_0_0_0;
-extern const Il2CppType TaskFactory_FromAsync_m8178_gp_1_0_0_0;
-extern const Il2CppType TaskFactory_FromAsync_m8178_gp_1_0_0_0;
-extern const Il2CppType TaskFactory_FromAsync_m8178_gp_2_0_0_0;
-extern const Il2CppType TaskFactory_FromAsync_m8178_gp_2_0_0_0;
-extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo TaskFactory_t1364_TaskFactory_FromAsync_m8178_ParameterInfos[] = 
-{
-	{"beginMethod", 0, 134218912, 0, &Func_6_t2606_0_0_0},
-	{"endMethod", 1, 134218913, 0, &Action_1_t1358_0_0_0},
-	{"arg1", 2, 134218914, 0, &TaskFactory_FromAsync_m8178_gp_0_0_0_0},
-	{"arg2", 3, 134218915, 0, &TaskFactory_FromAsync_m8178_gp_1_0_0_0},
-	{"arg3", 4, 134218916, 0, &TaskFactory_FromAsync_m8178_gp_2_0_0_0},
-	{"state", 5, 134218917, 0, &Object_t_0_0_0},
-};
-extern const Il2CppGenericContainer TaskFactory_FromAsync_m8178_Il2CppGenericContainer;
-extern TypeInfo TaskFactory_FromAsync_m8178_gp_TArg1_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter TaskFactory_FromAsync_m8178_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8178_Il2CppGenericContainer, NULL, "TArg1", 0, 0 };
-extern TypeInfo TaskFactory_FromAsync_m8178_gp_TArg2_1_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter TaskFactory_FromAsync_m8178_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8178_Il2CppGenericContainer, NULL, "TArg2", 1, 0 };
-extern TypeInfo TaskFactory_FromAsync_m8178_gp_TArg3_2_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter TaskFactory_FromAsync_m8178_gp_TArg3_2_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8178_Il2CppGenericContainer, NULL, "TArg3", 2, 0 };
-static const Il2CppGenericParameter* TaskFactory_FromAsync_m8178_Il2CppGenericParametersArray[3] = 
-{
-	&TaskFactory_FromAsync_m8178_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull,
-	&TaskFactory_FromAsync_m8178_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull,
-	&TaskFactory_FromAsync_m8178_gp_TArg3_2_il2cpp_TypeInfo_GenericParamFull,
-};
-extern const MethodInfo TaskFactory_FromAsync_m8178_MethodInfo;
-extern const Il2CppGenericContainer TaskFactory_FromAsync_m8178_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8178_MethodInfo, 3, 1, TaskFactory_FromAsync_m8178_Il2CppGenericParametersArray };
-extern const Il2CppType U3CU3Ec__DisplayClass4_3_t2610_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass4_3__ctor_m8598_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m8599_GenericMethod;
-static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8178_RGCTXData[4] = 
-{
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass4_3_t2610_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass4_3__ctor_m8598_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m8599_GenericMethod }/* Method */,
-	{IL2CPP_RGCTX_DATA_INVALID, NULL},
-};
-// System.Threading.Tasks.Task System.Threading.Tasks.TaskFactory::FromAsync(System.Func`6<TArg1,TArg2,TArg3,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Action`1<System.IAsyncResult>,TArg1,TArg2,TArg3,System.Object)
-extern const MethodInfo TaskFactory_FromAsync_m8178_MethodInfo = 
-{
-	"FromAsync"/* name */
-	, NULL/* method */
-	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
-	, &Task_t1208_0_0_0/* return_type */
-	, NULL/* invoker_method */
-	, TaskFactory_t1364_TaskFactory_FromAsync_m8178_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 6/* parameters_count */
-	, true/* is_generic */
-	, false/* is_inflated */
-	, 1238/* token */
-	, TaskFactory_FromAsync_m8178_RGCTXData/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &TaskFactory_FromAsync_m8178_Il2CppGenericContainer/* genericContainer */
-
-};
-extern const Il2CppType Func_6_t2611_0_0_0;
-extern const Il2CppType Func_6_t2611_0_0_0;
-extern const Il2CppType Func_2_t2612_0_0_0;
-extern const Il2CppType Func_2_t2612_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8179_gp_0_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8179_gp_0_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8179_gp_1_0_0_0;
@@ -22294,14 +22227,13 @@ extern const Il2CppType TaskFactory_FromAsync_m8179_gp_2_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo TaskFactory_t1364_TaskFactory_FromAsync_m8179_ParameterInfos[] = 
 {
-	{"beginMethod", 0, 134218918, 0, &Func_6_t2611_0_0_0},
-	{"endMethod", 1, 134218919, 0, &Func_2_t2612_0_0_0},
-	{"arg1", 2, 134218920, 0, &TaskFactory_FromAsync_m8179_gp_0_0_0_0},
-	{"arg2", 3, 134218921, 0, &TaskFactory_FromAsync_m8179_gp_1_0_0_0},
-	{"arg3", 4, 134218922, 0, &TaskFactory_FromAsync_m8179_gp_2_0_0_0},
-	{"state", 5, 134218923, 0, &Object_t_0_0_0},
+	{"beginMethod", 0, 134218912, 0, &Func_6_t2606_0_0_0},
+	{"endMethod", 1, 134218913, 0, &Action_1_t1358_0_0_0},
+	{"arg1", 2, 134218914, 0, &TaskFactory_FromAsync_m8179_gp_0_0_0_0},
+	{"arg2", 3, 134218915, 0, &TaskFactory_FromAsync_m8179_gp_1_0_0_0},
+	{"arg3", 4, 134218916, 0, &TaskFactory_FromAsync_m8179_gp_2_0_0_0},
+	{"state", 5, 134218917, 0, &Object_t_0_0_0},
 };
-extern const Il2CppType Task_1_t2616_0_0_0;
 extern const Il2CppGenericContainer TaskFactory_FromAsync_m8179_Il2CppGenericContainer;
 extern TypeInfo TaskFactory_FromAsync_m8179_gp_TArg1_0_il2cpp_TypeInfo;
 extern const Il2CppGenericParameter TaskFactory_FromAsync_m8179_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8179_Il2CppGenericContainer, NULL, "TArg1", 0, 0 };
@@ -22309,36 +22241,31 @@ extern TypeInfo TaskFactory_FromAsync_m8179_gp_TArg2_1_il2cpp_TypeInfo;
 extern const Il2CppGenericParameter TaskFactory_FromAsync_m8179_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8179_Il2CppGenericContainer, NULL, "TArg2", 1, 0 };
 extern TypeInfo TaskFactory_FromAsync_m8179_gp_TArg3_2_il2cpp_TypeInfo;
 extern const Il2CppGenericParameter TaskFactory_FromAsync_m8179_gp_TArg3_2_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8179_Il2CppGenericContainer, NULL, "TArg3", 2, 0 };
-extern TypeInfo TaskFactory_FromAsync_m8179_gp_TResult_3_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter TaskFactory_FromAsync_m8179_gp_TResult_3_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8179_Il2CppGenericContainer, NULL, "TResult", 3, 0 };
-static const Il2CppGenericParameter* TaskFactory_FromAsync_m8179_Il2CppGenericParametersArray[4] = 
+static const Il2CppGenericParameter* TaskFactory_FromAsync_m8179_Il2CppGenericParametersArray[3] = 
 {
 	&TaskFactory_FromAsync_m8179_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull,
 	&TaskFactory_FromAsync_m8179_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull,
 	&TaskFactory_FromAsync_m8179_gp_TArg3_2_il2cpp_TypeInfo_GenericParamFull,
-	&TaskFactory_FromAsync_m8179_gp_TResult_3_il2cpp_TypeInfo_GenericParamFull,
 };
 extern const MethodInfo TaskFactory_FromAsync_m8179_MethodInfo;
-extern const Il2CppGenericContainer TaskFactory_FromAsync_m8179_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8179_MethodInfo, 4, 1, TaskFactory_FromAsync_m8179_Il2CppGenericParametersArray };
-extern const Il2CppType U3CU3Ec__DisplayClass7_4_t2618_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass7_4__ctor_m8600_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass7_4_U3CFromAsyncU3Eb__6_m8601_GenericMethod;
-extern const Il2CppGenericMethod TaskFactory_FromAsync_TisTResult_t2617_m8602_GenericMethod;
-static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8179_RGCTXData[5] = 
+extern const Il2CppGenericContainer TaskFactory_FromAsync_m8179_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8179_MethodInfo, 3, 1, TaskFactory_FromAsync_m8179_Il2CppGenericParametersArray };
+extern const Il2CppType U3CU3Ec__DisplayClass4_3_t2610_0_0_0;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass4_3__ctor_m8599_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m8600_GenericMethod;
+static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8179_RGCTXData[4] = 
 {
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass7_4_t2618_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass7_4__ctor_m8600_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass7_4_U3CFromAsyncU3Eb__6_m8601_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisTResult_t2617_m8602_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass4_3_t2610_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass4_3__ctor_m8599_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass4_3_U3CFromAsyncU3Eb__3_m8600_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
-// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskFactory::FromAsync(System.Func`6<TArg1,TArg2,TArg3,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,TResult>,TArg1,TArg2,TArg3,System.Object)
+// System.Threading.Tasks.Task System.Threading.Tasks.TaskFactory::FromAsync(System.Func`6<TArg1,TArg2,TArg3,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Action`1<System.IAsyncResult>,TArg1,TArg2,TArg3,System.Object)
 extern const MethodInfo TaskFactory_FromAsync_m8179_MethodInfo = 
 {
 	"FromAsync"/* name */
 	, NULL/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
-	, &Task_1_t2616_0_0_0/* return_type */
+	, &Task_t1208_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, TaskFactory_t1364_TaskFactory_FromAsync_m8179_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -22348,76 +22275,88 @@ extern const MethodInfo TaskFactory_FromAsync_m8179_MethodInfo =
 	, 6/* parameters_count */
 	, true/* is_generic */
 	, false/* is_inflated */
-	, 1239/* token */
+	, 1238/* token */
 	, TaskFactory_FromAsync_m8179_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, &TaskFactory_FromAsync_m8179_Il2CppGenericContainer/* genericContainer */
 
 };
-extern const Il2CppType Func_5_t2619_0_0_0;
-extern const Il2CppType Func_5_t2619_0_0_0;
-extern const Il2CppType Action_1_t1358_0_0_0;
+extern const Il2CppType Func_6_t2611_0_0_0;
+extern const Il2CppType Func_6_t2611_0_0_0;
+extern const Il2CppType Func_2_t2612_0_0_0;
+extern const Il2CppType Func_2_t2612_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8180_gp_0_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8180_gp_0_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8180_gp_1_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8180_gp_1_0_0_0;
+extern const Il2CppType TaskFactory_FromAsync_m8180_gp_2_0_0_0;
+extern const Il2CppType TaskFactory_FromAsync_m8180_gp_2_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo TaskFactory_t1364_TaskFactory_FromAsync_m8180_ParameterInfos[] = 
 {
-	{"beginMethod", 0, 134218924, 0, &Func_5_t2619_0_0_0},
-	{"endMethod", 1, 134218925, 0, &Action_1_t1358_0_0_0},
-	{"arg1", 2, 134218926, 0, &TaskFactory_FromAsync_m8180_gp_0_0_0_0},
-	{"arg2", 3, 134218927, 0, &TaskFactory_FromAsync_m8180_gp_1_0_0_0},
-	{"state", 4, 134218928, 0, &Object_t_0_0_0},
+	{"beginMethod", 0, 134218918, 0, &Func_6_t2611_0_0_0},
+	{"endMethod", 1, 134218919, 0, &Func_2_t2612_0_0_0},
+	{"arg1", 2, 134218920, 0, &TaskFactory_FromAsync_m8180_gp_0_0_0_0},
+	{"arg2", 3, 134218921, 0, &TaskFactory_FromAsync_m8180_gp_1_0_0_0},
+	{"arg3", 4, 134218922, 0, &TaskFactory_FromAsync_m8180_gp_2_0_0_0},
+	{"state", 5, 134218923, 0, &Object_t_0_0_0},
 };
+extern const Il2CppType Task_1_t2616_0_0_0;
 extern const Il2CppGenericContainer TaskFactory_FromAsync_m8180_Il2CppGenericContainer;
 extern TypeInfo TaskFactory_FromAsync_m8180_gp_TArg1_0_il2cpp_TypeInfo;
 extern const Il2CppGenericParameter TaskFactory_FromAsync_m8180_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8180_Il2CppGenericContainer, NULL, "TArg1", 0, 0 };
 extern TypeInfo TaskFactory_FromAsync_m8180_gp_TArg2_1_il2cpp_TypeInfo;
 extern const Il2CppGenericParameter TaskFactory_FromAsync_m8180_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8180_Il2CppGenericContainer, NULL, "TArg2", 1, 0 };
-static const Il2CppGenericParameter* TaskFactory_FromAsync_m8180_Il2CppGenericParametersArray[2] = 
+extern TypeInfo TaskFactory_FromAsync_m8180_gp_TArg3_2_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskFactory_FromAsync_m8180_gp_TArg3_2_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8180_Il2CppGenericContainer, NULL, "TArg3", 2, 0 };
+extern TypeInfo TaskFactory_FromAsync_m8180_gp_TResult_3_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskFactory_FromAsync_m8180_gp_TResult_3_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8180_Il2CppGenericContainer, NULL, "TResult", 3, 0 };
+static const Il2CppGenericParameter* TaskFactory_FromAsync_m8180_Il2CppGenericParametersArray[4] = 
 {
 	&TaskFactory_FromAsync_m8180_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull,
 	&TaskFactory_FromAsync_m8180_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull,
+	&TaskFactory_FromAsync_m8180_gp_TArg3_2_il2cpp_TypeInfo_GenericParamFull,
+	&TaskFactory_FromAsync_m8180_gp_TResult_3_il2cpp_TypeInfo_GenericParamFull,
 };
 extern const MethodInfo TaskFactory_FromAsync_m8180_MethodInfo;
-extern const Il2CppGenericContainer TaskFactory_FromAsync_m8180_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8180_MethodInfo, 2, 1, TaskFactory_FromAsync_m8180_Il2CppGenericParametersArray };
-extern const Il2CppType U3CU3Ec__DisplayClassa_2_t2622_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClassa_2__ctor_m8603_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClassa_2_U3CFromAsyncU3Eb__9_m8604_GenericMethod;
-static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8180_RGCTXData[4] = 
+extern const Il2CppGenericContainer TaskFactory_FromAsync_m8180_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8180_MethodInfo, 4, 1, TaskFactory_FromAsync_m8180_Il2CppGenericParametersArray };
+extern const Il2CppType U3CU3Ec__DisplayClass7_4_t2618_0_0_0;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass7_4__ctor_m8601_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass7_4_U3CFromAsyncU3Eb__6_m8602_GenericMethod;
+extern const Il2CppGenericMethod TaskFactory_FromAsync_TisTResult_t2617_m8603_GenericMethod;
+static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8180_RGCTXData[5] = 
 {
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClassa_2_t2622_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClassa_2__ctor_m8603_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClassa_2_U3CFromAsyncU3Eb__9_m8604_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass7_4_t2618_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass7_4__ctor_m8601_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass7_4_U3CFromAsyncU3Eb__6_m8602_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisTResult_t2617_m8603_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
-// System.Threading.Tasks.Task System.Threading.Tasks.TaskFactory::FromAsync(System.Func`5<TArg1,TArg2,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Action`1<System.IAsyncResult>,TArg1,TArg2,System.Object)
+// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskFactory::FromAsync(System.Func`6<TArg1,TArg2,TArg3,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,TResult>,TArg1,TArg2,TArg3,System.Object)
 extern const MethodInfo TaskFactory_FromAsync_m8180_MethodInfo = 
 {
 	"FromAsync"/* name */
 	, NULL/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
-	, &Task_t1208_0_0_0/* return_type */
+	, &Task_1_t2616_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, TaskFactory_t1364_TaskFactory_FromAsync_m8180_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 5/* parameters_count */
+	, 6/* parameters_count */
 	, true/* is_generic */
 	, false/* is_inflated */
-	, 1240/* token */
+	, 1239/* token */
 	, TaskFactory_FromAsync_m8180_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, &TaskFactory_FromAsync_m8180_Il2CppGenericContainer/* genericContainer */
 
 };
-extern const Il2CppType Func_5_t2623_0_0_0;
-extern const Il2CppType Func_5_t2623_0_0_0;
-extern const Il2CppType Func_2_t2624_0_0_0;
-extern const Il2CppType Func_2_t2624_0_0_0;
+extern const Il2CppType Func_5_t2619_0_0_0;
+extern const Il2CppType Func_5_t2619_0_0_0;
+extern const Il2CppType Action_1_t1358_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8181_gp_0_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8181_gp_0_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8181_gp_1_0_0_0;
@@ -22425,47 +22364,41 @@ extern const Il2CppType TaskFactory_FromAsync_m8181_gp_1_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo TaskFactory_t1364_TaskFactory_FromAsync_m8181_ParameterInfos[] = 
 {
-	{"beginMethod", 0, 134218929, 0, &Func_5_t2623_0_0_0},
-	{"endMethod", 1, 134218930, 0, &Func_2_t2624_0_0_0},
-	{"arg1", 2, 134218931, 0, &TaskFactory_FromAsync_m8181_gp_0_0_0_0},
-	{"arg2", 3, 134218932, 0, &TaskFactory_FromAsync_m8181_gp_1_0_0_0},
-	{"state", 4, 134218933, 0, &Object_t_0_0_0},
+	{"beginMethod", 0, 134218924, 0, &Func_5_t2619_0_0_0},
+	{"endMethod", 1, 134218925, 0, &Action_1_t1358_0_0_0},
+	{"arg1", 2, 134218926, 0, &TaskFactory_FromAsync_m8181_gp_0_0_0_0},
+	{"arg2", 3, 134218927, 0, &TaskFactory_FromAsync_m8181_gp_1_0_0_0},
+	{"state", 4, 134218928, 0, &Object_t_0_0_0},
 };
-extern const Il2CppType Task_1_t2627_0_0_0;
 extern const Il2CppGenericContainer TaskFactory_FromAsync_m8181_Il2CppGenericContainer;
 extern TypeInfo TaskFactory_FromAsync_m8181_gp_TArg1_0_il2cpp_TypeInfo;
 extern const Il2CppGenericParameter TaskFactory_FromAsync_m8181_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8181_Il2CppGenericContainer, NULL, "TArg1", 0, 0 };
 extern TypeInfo TaskFactory_FromAsync_m8181_gp_TArg2_1_il2cpp_TypeInfo;
 extern const Il2CppGenericParameter TaskFactory_FromAsync_m8181_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8181_Il2CppGenericContainer, NULL, "TArg2", 1, 0 };
-extern TypeInfo TaskFactory_FromAsync_m8181_gp_TResult_2_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter TaskFactory_FromAsync_m8181_gp_TResult_2_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8181_Il2CppGenericContainer, NULL, "TResult", 2, 0 };
-static const Il2CppGenericParameter* TaskFactory_FromAsync_m8181_Il2CppGenericParametersArray[3] = 
+static const Il2CppGenericParameter* TaskFactory_FromAsync_m8181_Il2CppGenericParametersArray[2] = 
 {
 	&TaskFactory_FromAsync_m8181_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull,
 	&TaskFactory_FromAsync_m8181_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull,
-	&TaskFactory_FromAsync_m8181_gp_TResult_2_il2cpp_TypeInfo_GenericParamFull,
 };
 extern const MethodInfo TaskFactory_FromAsync_m8181_MethodInfo;
-extern const Il2CppGenericContainer TaskFactory_FromAsync_m8181_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8181_MethodInfo, 3, 1, TaskFactory_FromAsync_m8181_Il2CppGenericParametersArray };
-extern const Il2CppType U3CU3Ec__DisplayClassd_3_t2629_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClassd_3__ctor_m8605_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClassd_3_U3CFromAsyncU3Eb__c_m8606_GenericMethod;
-extern const Il2CppGenericMethod TaskFactory_FromAsync_TisTResult_t2628_m8607_GenericMethod;
-static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8181_RGCTXData[5] = 
+extern const Il2CppGenericContainer TaskFactory_FromAsync_m8181_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8181_MethodInfo, 2, 1, TaskFactory_FromAsync_m8181_Il2CppGenericParametersArray };
+extern const Il2CppType U3CU3Ec__DisplayClassa_2_t2622_0_0_0;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClassa_2__ctor_m8604_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClassa_2_U3CFromAsyncU3Eb__9_m8605_GenericMethod;
+static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8181_RGCTXData[4] = 
 {
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClassd_3_t2629_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClassd_3__ctor_m8605_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClassd_3_U3CFromAsyncU3Eb__c_m8606_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisTResult_t2628_m8607_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClassa_2_t2622_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClassa_2__ctor_m8604_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClassa_2_U3CFromAsyncU3Eb__9_m8605_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
-// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskFactory::FromAsync(System.Func`5<TArg1,TArg2,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,TResult>,TArg1,TArg2,System.Object)
+// System.Threading.Tasks.Task System.Threading.Tasks.TaskFactory::FromAsync(System.Func`5<TArg1,TArg2,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Action`1<System.IAsyncResult>,TArg1,TArg2,System.Object)
 extern const MethodInfo TaskFactory_FromAsync_m8181_MethodInfo = 
 {
 	"FromAsync"/* name */
 	, NULL/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
-	, &Task_1_t2627_0_0_0/* return_type */
+	, &Task_t1208_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, TaskFactory_t1364_TaskFactory_FromAsync_m8181_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -22475,112 +22408,118 @@ extern const MethodInfo TaskFactory_FromAsync_m8181_MethodInfo =
 	, 5/* parameters_count */
 	, true/* is_generic */
 	, false/* is_inflated */
-	, 1241/* token */
+	, 1240/* token */
 	, TaskFactory_FromAsync_m8181_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, &TaskFactory_FromAsync_m8181_Il2CppGenericContainer/* genericContainer */
 
 };
-extern const Il2CppType Func_4_t2630_0_0_0;
-extern const Il2CppType Func_4_t2630_0_0_0;
-extern const Il2CppType Action_1_t1358_0_0_0;
+extern const Il2CppType Func_5_t2623_0_0_0;
+extern const Il2CppType Func_5_t2623_0_0_0;
+extern const Il2CppType Func_2_t2624_0_0_0;
+extern const Il2CppType Func_2_t2624_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8182_gp_0_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8182_gp_0_0_0_0;
+extern const Il2CppType TaskFactory_FromAsync_m8182_gp_1_0_0_0;
+extern const Il2CppType TaskFactory_FromAsync_m8182_gp_1_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo TaskFactory_t1364_TaskFactory_FromAsync_m8182_ParameterInfos[] = 
 {
-	{"beginMethod", 0, 134218934, 0, &Func_4_t2630_0_0_0},
-	{"endMethod", 1, 134218935, 0, &Action_1_t1358_0_0_0},
-	{"arg1", 2, 134218936, 0, &TaskFactory_FromAsync_m8182_gp_0_0_0_0},
-	{"state", 3, 134218937, 0, &Object_t_0_0_0},
+	{"beginMethod", 0, 134218929, 0, &Func_5_t2623_0_0_0},
+	{"endMethod", 1, 134218930, 0, &Func_2_t2624_0_0_0},
+	{"arg1", 2, 134218931, 0, &TaskFactory_FromAsync_m8182_gp_0_0_0_0},
+	{"arg2", 3, 134218932, 0, &TaskFactory_FromAsync_m8182_gp_1_0_0_0},
+	{"state", 4, 134218933, 0, &Object_t_0_0_0},
 };
+extern const Il2CppType Task_1_t2627_0_0_0;
 extern const Il2CppGenericContainer TaskFactory_FromAsync_m8182_Il2CppGenericContainer;
 extern TypeInfo TaskFactory_FromAsync_m8182_gp_TArg1_0_il2cpp_TypeInfo;
 extern const Il2CppGenericParameter TaskFactory_FromAsync_m8182_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8182_Il2CppGenericContainer, NULL, "TArg1", 0, 0 };
-static const Il2CppGenericParameter* TaskFactory_FromAsync_m8182_Il2CppGenericParametersArray[1] = 
+extern TypeInfo TaskFactory_FromAsync_m8182_gp_TArg2_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskFactory_FromAsync_m8182_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8182_Il2CppGenericContainer, NULL, "TArg2", 1, 0 };
+extern TypeInfo TaskFactory_FromAsync_m8182_gp_TResult_2_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskFactory_FromAsync_m8182_gp_TResult_2_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8182_Il2CppGenericContainer, NULL, "TResult", 2, 0 };
+static const Il2CppGenericParameter* TaskFactory_FromAsync_m8182_Il2CppGenericParametersArray[3] = 
 {
 	&TaskFactory_FromAsync_m8182_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull,
+	&TaskFactory_FromAsync_m8182_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull,
+	&TaskFactory_FromAsync_m8182_gp_TResult_2_il2cpp_TypeInfo_GenericParamFull,
 };
 extern const MethodInfo TaskFactory_FromAsync_m8182_MethodInfo;
-extern const Il2CppGenericContainer TaskFactory_FromAsync_m8182_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8182_MethodInfo, 1, 1, TaskFactory_FromAsync_m8182_Il2CppGenericParametersArray };
-extern const Il2CppType U3CU3Ec__DisplayClass10_1_t2632_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass10_1__ctor_m8608_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass10_1_U3CFromAsyncU3Eb__f_m8609_GenericMethod;
-static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8182_RGCTXData[4] = 
+extern const Il2CppGenericContainer TaskFactory_FromAsync_m8182_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8182_MethodInfo, 3, 1, TaskFactory_FromAsync_m8182_Il2CppGenericParametersArray };
+extern const Il2CppType U3CU3Ec__DisplayClassd_3_t2629_0_0_0;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClassd_3__ctor_m8606_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClassd_3_U3CFromAsyncU3Eb__c_m8607_GenericMethod;
+extern const Il2CppGenericMethod TaskFactory_FromAsync_TisTResult_t2628_m8608_GenericMethod;
+static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8182_RGCTXData[5] = 
 {
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass10_1_t2632_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass10_1__ctor_m8608_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass10_1_U3CFromAsyncU3Eb__f_m8609_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClassd_3_t2629_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClassd_3__ctor_m8606_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClassd_3_U3CFromAsyncU3Eb__c_m8607_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisTResult_t2628_m8608_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
-// System.Threading.Tasks.Task System.Threading.Tasks.TaskFactory::FromAsync(System.Func`4<TArg1,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Action`1<System.IAsyncResult>,TArg1,System.Object)
+// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskFactory::FromAsync(System.Func`5<TArg1,TArg2,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,TResult>,TArg1,TArg2,System.Object)
 extern const MethodInfo TaskFactory_FromAsync_m8182_MethodInfo = 
 {
 	"FromAsync"/* name */
 	, NULL/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
-	, &Task_t1208_0_0_0/* return_type */
+	, &Task_1_t2627_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, TaskFactory_t1364_TaskFactory_FromAsync_m8182_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 4/* parameters_count */
+	, 5/* parameters_count */
 	, true/* is_generic */
 	, false/* is_inflated */
-	, 1242/* token */
+	, 1241/* token */
 	, TaskFactory_FromAsync_m8182_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, &TaskFactory_FromAsync_m8182_Il2CppGenericContainer/* genericContainer */
 
 };
-extern const Il2CppType Func_4_t2633_0_0_0;
-extern const Il2CppType Func_4_t2633_0_0_0;
-extern const Il2CppType Func_2_t2634_0_0_0;
-extern const Il2CppType Func_2_t2634_0_0_0;
+extern const Il2CppType Func_4_t2630_0_0_0;
+extern const Il2CppType Func_4_t2630_0_0_0;
+extern const Il2CppType Action_1_t1358_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8183_gp_0_0_0_0;
 extern const Il2CppType TaskFactory_FromAsync_m8183_gp_0_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo TaskFactory_t1364_TaskFactory_FromAsync_m8183_ParameterInfos[] = 
 {
-	{"beginMethod", 0, 134218938, 0, &Func_4_t2633_0_0_0},
-	{"endMethod", 1, 134218939, 0, &Func_2_t2634_0_0_0},
-	{"arg1", 2, 134218940, 0, &TaskFactory_FromAsync_m8183_gp_0_0_0_0},
-	{"state", 3, 134218941, 0, &Object_t_0_0_0},
+	{"beginMethod", 0, 134218934, 0, &Func_4_t2630_0_0_0},
+	{"endMethod", 1, 134218935, 0, &Action_1_t1358_0_0_0},
+	{"arg1", 2, 134218936, 0, &TaskFactory_FromAsync_m8183_gp_0_0_0_0},
+	{"state", 3, 134218937, 0, &Object_t_0_0_0},
 };
-extern const Il2CppType Task_1_t2636_0_0_0;
 extern const Il2CppGenericContainer TaskFactory_FromAsync_m8183_Il2CppGenericContainer;
 extern TypeInfo TaskFactory_FromAsync_m8183_gp_TArg1_0_il2cpp_TypeInfo;
 extern const Il2CppGenericParameter TaskFactory_FromAsync_m8183_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8183_Il2CppGenericContainer, NULL, "TArg1", 0, 0 };
-extern TypeInfo TaskFactory_FromAsync_m8183_gp_TResult_1_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter TaskFactory_FromAsync_m8183_gp_TResult_1_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8183_Il2CppGenericContainer, NULL, "TResult", 1, 0 };
-static const Il2CppGenericParameter* TaskFactory_FromAsync_m8183_Il2CppGenericParametersArray[2] = 
+static const Il2CppGenericParameter* TaskFactory_FromAsync_m8183_Il2CppGenericParametersArray[1] = 
 {
 	&TaskFactory_FromAsync_m8183_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull,
-	&TaskFactory_FromAsync_m8183_gp_TResult_1_il2cpp_TypeInfo_GenericParamFull,
 };
 extern const MethodInfo TaskFactory_FromAsync_m8183_MethodInfo;
-extern const Il2CppGenericContainer TaskFactory_FromAsync_m8183_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8183_MethodInfo, 2, 1, TaskFactory_FromAsync_m8183_Il2CppGenericParametersArray };
-extern const Il2CppType U3CU3Ec__DisplayClass13_2_t2638_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass13_2__ctor_m8610_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass13_2_U3CFromAsyncU3Eb__12_m8611_GenericMethod;
-extern const Il2CppGenericMethod TaskFactory_FromAsync_TisTResult_t2637_m8612_GenericMethod;
-static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8183_RGCTXData[5] = 
+extern const Il2CppGenericContainer TaskFactory_FromAsync_m8183_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8183_MethodInfo, 1, 1, TaskFactory_FromAsync_m8183_Il2CppGenericParametersArray };
+extern const Il2CppType U3CU3Ec__DisplayClass10_1_t2632_0_0_0;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass10_1__ctor_m8609_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass10_1_U3CFromAsyncU3Eb__f_m8610_GenericMethod;
+static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8183_RGCTXData[4] = 
 {
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass13_2_t2638_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass13_2__ctor_m8610_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass13_2_U3CFromAsyncU3Eb__12_m8611_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisTResult_t2637_m8612_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass10_1_t2632_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass10_1__ctor_m8609_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass10_1_U3CFromAsyncU3Eb__f_m8610_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
-// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskFactory::FromAsync(System.Func`4<TArg1,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,TResult>,TArg1,System.Object)
+// System.Threading.Tasks.Task System.Threading.Tasks.TaskFactory::FromAsync(System.Func`4<TArg1,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Action`1<System.IAsyncResult>,TArg1,System.Object)
 extern const MethodInfo TaskFactory_FromAsync_m8183_MethodInfo = 
 {
 	"FromAsync"/* name */
 	, NULL/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
-	, &Task_1_t2636_0_0_0/* return_type */
+	, &Task_t1208_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, TaskFactory_t1364_TaskFactory_FromAsync_m8183_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -22590,17 +22529,78 @@ extern const MethodInfo TaskFactory_FromAsync_m8183_MethodInfo =
 	, 4/* parameters_count */
 	, true/* is_generic */
 	, false/* is_inflated */
-	, 1243/* token */
+	, 1242/* token */
 	, TaskFactory_FromAsync_m8183_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, &TaskFactory_FromAsync_m8183_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Func_4_t2633_0_0_0;
+extern const Il2CppType Func_4_t2633_0_0_0;
+extern const Il2CppType Func_2_t2634_0_0_0;
+extern const Il2CppType Func_2_t2634_0_0_0;
+extern const Il2CppType TaskFactory_FromAsync_m8184_gp_0_0_0_0;
+extern const Il2CppType TaskFactory_FromAsync_m8184_gp_0_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo TaskFactory_t1364_TaskFactory_FromAsync_m8184_ParameterInfos[] = 
+{
+	{"beginMethod", 0, 134218938, 0, &Func_4_t2633_0_0_0},
+	{"endMethod", 1, 134218939, 0, &Func_2_t2634_0_0_0},
+	{"arg1", 2, 134218940, 0, &TaskFactory_FromAsync_m8184_gp_0_0_0_0},
+	{"state", 3, 134218941, 0, &Object_t_0_0_0},
+};
+extern const Il2CppType Task_1_t2636_0_0_0;
+extern const Il2CppGenericContainer TaskFactory_FromAsync_m8184_Il2CppGenericContainer;
+extern TypeInfo TaskFactory_FromAsync_m8184_gp_TArg1_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskFactory_FromAsync_m8184_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8184_Il2CppGenericContainer, NULL, "TArg1", 0, 0 };
+extern TypeInfo TaskFactory_FromAsync_m8184_gp_TResult_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskFactory_FromAsync_m8184_gp_TResult_1_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8184_Il2CppGenericContainer, NULL, "TResult", 1, 0 };
+static const Il2CppGenericParameter* TaskFactory_FromAsync_m8184_Il2CppGenericParametersArray[2] = 
+{
+	&TaskFactory_FromAsync_m8184_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull,
+	&TaskFactory_FromAsync_m8184_gp_TResult_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo TaskFactory_FromAsync_m8184_MethodInfo;
+extern const Il2CppGenericContainer TaskFactory_FromAsync_m8184_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8184_MethodInfo, 2, 1, TaskFactory_FromAsync_m8184_Il2CppGenericParametersArray };
+extern const Il2CppType U3CU3Ec__DisplayClass13_2_t2638_0_0_0;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass13_2__ctor_m8611_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass13_2_U3CFromAsyncU3Eb__12_m8612_GenericMethod;
+extern const Il2CppGenericMethod TaskFactory_FromAsync_TisTResult_t2637_m8613_GenericMethod;
+static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8184_RGCTXData[5] = 
+{
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass13_2_t2638_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass13_2__ctor_m8611_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass13_2_U3CFromAsyncU3Eb__12_m8612_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisTResult_t2637_m8613_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskFactory::FromAsync(System.Func`4<TArg1,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,TResult>,TArg1,System.Object)
+extern const MethodInfo TaskFactory_FromAsync_m8184_MethodInfo = 
+{
+	"FromAsync"/* name */
+	, NULL/* method */
+	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
+	, &Task_1_t2636_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskFactory_t1364_TaskFactory_FromAsync_m8184_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 4/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1243/* token */
+	, TaskFactory_FromAsync_m8184_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &TaskFactory_FromAsync_m8184_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType Func_3_t1414_0_0_0;
 extern const Il2CppType Func_3_t1414_0_0_0;
 extern const Il2CppType Action_1_t1358_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo TaskFactory_t1364_TaskFactory_FromAsync_m7261_ParameterInfos[] = 
+static const ParameterInfo TaskFactory_t1364_TaskFactory_FromAsync_m7262_ParameterInfos[] = 
 {
 	{"beginMethod", 0, 134218942, 0, &Func_3_t1414_0_0_0},
 	{"endMethod", 1, 134218943, 0, &Action_1_t1358_0_0_0},
@@ -22608,14 +22608,14 @@ static const ParameterInfo TaskFactory_t1364_TaskFactory_FromAsync_m7261_Paramet
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task System.Threading.Tasks.TaskFactory::FromAsync(System.Func`3<System.AsyncCallback,System.Object,System.IAsyncResult>,System.Action`1<System.IAsyncResult>,System.Object)
-extern const MethodInfo TaskFactory_FromAsync_m7261_MethodInfo = 
+extern const MethodInfo TaskFactory_FromAsync_m7262_MethodInfo = 
 {
 	"FromAsync"/* name */
-	, (methodPointerType)&TaskFactory_FromAsync_m7261/* method */
+	, (methodPointerType)&TaskFactory_FromAsync_m7262/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, TaskFactory_t1364_TaskFactory_FromAsync_m7261_ParameterInfos/* parameters */
+	, TaskFactory_t1364_TaskFactory_FromAsync_m7262_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -22633,53 +22633,53 @@ extern const Il2CppType Func_3_t1414_0_0_0;
 extern const Il2CppType Func_2_t2639_0_0_0;
 extern const Il2CppType Func_2_t2639_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo TaskFactory_t1364_TaskFactory_FromAsync_m8184_ParameterInfos[] = 
+static const ParameterInfo TaskFactory_t1364_TaskFactory_FromAsync_m8185_ParameterInfos[] = 
 {
 	{"beginMethod", 0, 134218945, 0, &Func_3_t1414_0_0_0},
 	{"endMethod", 1, 134218946, 0, &Func_2_t2639_0_0_0},
 	{"state", 2, 134218947, 0, &Object_t_0_0_0},
 };
 extern const Il2CppType Task_1_t2640_0_0_0;
-extern const Il2CppGenericContainer TaskFactory_FromAsync_m8184_Il2CppGenericContainer;
-extern TypeInfo TaskFactory_FromAsync_m8184_gp_TResult_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter TaskFactory_FromAsync_m8184_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8184_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
-static const Il2CppGenericParameter* TaskFactory_FromAsync_m8184_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer TaskFactory_FromAsync_m8185_Il2CppGenericContainer;
+extern TypeInfo TaskFactory_FromAsync_m8185_gp_TResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskFactory_FromAsync_m8185_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_FromAsync_m8185_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
+static const Il2CppGenericParameter* TaskFactory_FromAsync_m8185_Il2CppGenericParametersArray[1] = 
 {
-	&TaskFactory_FromAsync_m8184_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
+	&TaskFactory_FromAsync_m8185_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo TaskFactory_FromAsync_m8184_MethodInfo;
-extern const Il2CppGenericContainer TaskFactory_FromAsync_m8184_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8184_MethodInfo, 1, 1, TaskFactory_FromAsync_m8184_Il2CppGenericParametersArray };
+extern const MethodInfo TaskFactory_FromAsync_m8185_MethodInfo;
+extern const Il2CppGenericContainer TaskFactory_FromAsync_m8185_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_FromAsync_m8185_MethodInfo, 1, 1, TaskFactory_FromAsync_m8185_Il2CppGenericParametersArray };
 extern const Il2CppType U3CU3Ec__DisplayClass1b_1_t2642_0_0_0;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1b_1__ctor_m8613_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1b_1__ctor_m8614_GenericMethod;
 extern const Il2CppType TaskCompletionSource_1_t2643_0_0_0;
-extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m8614_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m8615_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m8616_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m8617_GenericMethod;
-extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m8618_GenericMethod;
-extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m8619_GenericMethod;
-static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8184_RGCTXData[10] = 
+extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m8615_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m8616_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m8617_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m8618_GenericMethod;
+extern const Il2CppGenericMethod U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m8619_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m8620_GenericMethod;
+static Il2CppRGCTXDefinition TaskFactory_FromAsync_m8185_RGCTXData[10] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ec__DisplayClass1b_1_t2642_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1b_1__ctor_m8613_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1b_1__ctor_m8614_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&TaskCompletionSource_1_t2643_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m8614_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m8615_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m8616_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m8617_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m8618_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m8619_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m8615_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__18_m8616_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m8617_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m8618_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CU3Ec__DisplayClass1b_1_U3CFromAsyncU3Eb__19_m8619_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m8620_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskFactory::FromAsync(System.Func`3<System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,TResult>,System.Object)
-extern const MethodInfo TaskFactory_FromAsync_m8184_MethodInfo = 
+extern const MethodInfo TaskFactory_FromAsync_m8185_MethodInfo = 
 {
 	"FromAsync"/* name */
 	, NULL/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
 	, &Task_1_t2640_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, TaskFactory_t1364_TaskFactory_FromAsync_m8184_ParameterInfos/* parameters */
+	, TaskFactory_t1364_TaskFactory_FromAsync_m8185_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -22688,29 +22688,29 @@ extern const MethodInfo TaskFactory_FromAsync_m8184_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 1245/* token */
-	, TaskFactory_FromAsync_m8184_RGCTXData/* rgctx_data */
+	, TaskFactory_FromAsync_m8185_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &TaskFactory_FromAsync_m8184_Il2CppGenericContainer/* genericContainer */
+	, &TaskFactory_FromAsync_m8185_Il2CppGenericContainer/* genericContainer */
 
 };
 extern const Il2CppType TaskU5BU5D_t1340_0_0_0;
 extern const Il2CppType Action_1_t1361_0_0_0;
 extern const Il2CppType Action_1_t1361_0_0_0;
-static const ParameterInfo TaskFactory_t1364_TaskFactory_ContinueWhenAll_m7262_ParameterInfos[] = 
+static const ParameterInfo TaskFactory_t1364_TaskFactory_ContinueWhenAll_m7263_ParameterInfos[] = 
 {
 	{"tasks", 0, 134218948, 0, &TaskU5BU5D_t1340_0_0_0},
 	{"continuationAction", 1, 134218949, 0, &Action_1_t1361_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.Task System.Threading.Tasks.TaskFactory::ContinueWhenAll(System.Threading.Tasks.Task[],System.Action`1<System.Threading.Tasks.Task[]>)
-extern const MethodInfo TaskFactory_ContinueWhenAll_m7262_MethodInfo = 
+extern const MethodInfo TaskFactory_ContinueWhenAll_m7263_MethodInfo = 
 {
 	"ContinueWhenAll"/* name */
-	, (methodPointerType)&TaskFactory_ContinueWhenAll_m7262/* method */
+	, (methodPointerType)&TaskFactory_ContinueWhenAll_m7263/* method */
 	, &TaskFactory_t1364_il2cpp_TypeInfo/* declaring_type */
 	, &Task_t1208_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, TaskFactory_t1364_TaskFactory_ContinueWhenAll_m7262_ParameterInfos/* parameters */
+	, TaskFactory_t1364_TaskFactory_ContinueWhenAll_m7263_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -22726,30 +22726,30 @@ extern const MethodInfo TaskFactory_ContinueWhenAll_m7262_MethodInfo =
 };
 static const MethodInfo* TaskFactory_t1364_MethodInfos[] =
 {
-	&TaskFactory__ctor_m7255_MethodInfo,
 	&TaskFactory__ctor_m7256_MethodInfo,
 	&TaskFactory__ctor_m7257_MethodInfo,
 	&TaskFactory__ctor_m7258_MethodInfo,
 	&TaskFactory__ctor_m7259_MethodInfo,
-	&TaskFactory_get_Scheduler_m7260_MethodInfo,
-	&TaskFactory_StartNew_m8177_MethodInfo,
-	&TaskFactory_FromAsync_m8178_MethodInfo,
+	&TaskFactory__ctor_m7260_MethodInfo,
+	&TaskFactory_get_Scheduler_m7261_MethodInfo,
+	&TaskFactory_StartNew_m8178_MethodInfo,
 	&TaskFactory_FromAsync_m8179_MethodInfo,
 	&TaskFactory_FromAsync_m8180_MethodInfo,
 	&TaskFactory_FromAsync_m8181_MethodInfo,
 	&TaskFactory_FromAsync_m8182_MethodInfo,
 	&TaskFactory_FromAsync_m8183_MethodInfo,
-	&TaskFactory_FromAsync_m7261_MethodInfo,
 	&TaskFactory_FromAsync_m8184_MethodInfo,
-	&TaskFactory_ContinueWhenAll_m7262_MethodInfo,
+	&TaskFactory_FromAsync_m7262_MethodInfo,
+	&TaskFactory_FromAsync_m8185_MethodInfo,
+	&TaskFactory_ContinueWhenAll_m7263_MethodInfo,
 	NULL
 };
-extern const MethodInfo TaskFactory_get_Scheduler_m7260_MethodInfo;
+extern const MethodInfo TaskFactory_get_Scheduler_m7261_MethodInfo;
 static const PropertyInfo TaskFactory_t1364____Scheduler_PropertyInfo = 
 {
 	&TaskFactory_t1364_il2cpp_TypeInfo/* parent */
 	, "Scheduler"/* name */
-	, &TaskFactory_get_Scheduler_m7260_MethodInfo/* get */
+	, &TaskFactory_get_Scheduler_m7261_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -22869,20 +22869,20 @@ static const Il2CppGenericParameter* TaskFactory_1_t2211_Il2CppGenericParameters
 extern const Il2CppGenericContainer TaskFactory_1_t2211_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_1_t2211_il2cpp_TypeInfo, 1, 0, TaskFactory_1_t2211_Il2CppGenericParametersArray };
 extern const Il2CppType TaskScheduler_t1363_0_0_0;
 extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo TaskFactory_1_t2211_TaskFactory_1__ctor_m8202_ParameterInfos[] = 
+static const ParameterInfo TaskFactory_1_t2211_TaskFactory_1__ctor_m8203_ParameterInfos[] = 
 {
 	{"scheduler", 0, 134218966, 0, &TaskScheduler_t1363_0_0_0},
 	{"cancellationToken", 1, 134218967, 0, &CancellationToken_t1162_0_0_0},
 };
 // System.Void System.Threading.Tasks.TaskFactory`1::.ctor(System.Threading.Tasks.TaskScheduler,System.Threading.CancellationToken)
-extern const MethodInfo TaskFactory_1__ctor_m8202_MethodInfo = 
+extern const MethodInfo TaskFactory_1__ctor_m8203_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &TaskFactory_1_t2211_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, TaskFactory_1_t2211_TaskFactory_1__ctor_m8202_ParameterInfos/* parameters */
+	, TaskFactory_1_t2211_TaskFactory_1__ctor_m8203_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -22897,38 +22897,11 @@ extern const MethodInfo TaskFactory_1__ctor_m8202_MethodInfo =
 
 };
 extern const Il2CppType TaskScheduler_t1363_0_0_0;
-static const ParameterInfo TaskFactory_1_t2211_TaskFactory_1__ctor_m8203_ParameterInfos[] = 
+static const ParameterInfo TaskFactory_1_t2211_TaskFactory_1__ctor_m8204_ParameterInfos[] = 
 {
 	{"scheduler", 0, 134218968, 0, &TaskScheduler_t1363_0_0_0},
 };
 // System.Void System.Threading.Tasks.TaskFactory`1::.ctor(System.Threading.Tasks.TaskScheduler)
-extern const MethodInfo TaskFactory_1__ctor_m8203_MethodInfo = 
-{
-	".ctor"/* name */
-	, NULL/* method */
-	, &TaskFactory_1_t2211_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t85_0_0_0/* return_type */
-	, NULL/* invoker_method */
-	, TaskFactory_1_t2211_TaskFactory_1__ctor_m8203_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1270/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType CancellationToken_t1162_0_0_0;
-static const ParameterInfo TaskFactory_1_t2211_TaskFactory_1__ctor_m8204_ParameterInfos[] = 
-{
-	{"cancellationToken", 0, 134218969, 0, &CancellationToken_t1162_0_0_0},
-};
-// System.Void System.Threading.Tasks.TaskFactory`1::.ctor(System.Threading.CancellationToken)
 extern const MethodInfo TaskFactory_1__ctor_m8204_MethodInfo = 
 {
 	".ctor"/* name */
@@ -22944,6 +22917,33 @@ extern const MethodInfo TaskFactory_1__ctor_m8204_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
+	, 1270/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType CancellationToken_t1162_0_0_0;
+static const ParameterInfo TaskFactory_1_t2211_TaskFactory_1__ctor_m8205_ParameterInfos[] = 
+{
+	{"cancellationToken", 0, 134218969, 0, &CancellationToken_t1162_0_0_0},
+};
+// System.Void System.Threading.Tasks.TaskFactory`1::.ctor(System.Threading.CancellationToken)
+extern const MethodInfo TaskFactory_1__ctor_m8205_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &TaskFactory_1_t2211_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t85_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskFactory_1_t2211_TaskFactory_1__ctor_m8205_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
 	, 1271/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
@@ -22951,7 +22951,7 @@ extern const MethodInfo TaskFactory_1__ctor_m8204_MethodInfo =
 
 };
 // System.Void System.Threading.Tasks.TaskFactory`1::.ctor()
-extern const MethodInfo TaskFactory_1__ctor_m8205_MethodInfo = 
+extern const MethodInfo TaskFactory_1__ctor_m8206_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -22973,7 +22973,7 @@ extern const MethodInfo TaskFactory_1__ctor_m8205_MethodInfo =
 
 };
 // System.Threading.Tasks.TaskScheduler System.Threading.Tasks.TaskFactory`1::get_Scheduler()
-extern const MethodInfo TaskFactory_1_get_Scheduler_m8206_MethodInfo = 
+extern const MethodInfo TaskFactory_1_get_Scheduler_m8207_MethodInfo = 
 {
 	"get_Scheduler"/* name */
 	, NULL/* method */
@@ -22998,101 +22998,45 @@ extern const Il2CppType Func_6_t2645_0_0_0;
 extern const Il2CppType Func_6_t2645_0_0_0;
 extern const Il2CppType Func_2_t2646_0_0_0;
 extern const Il2CppType Func_2_t2646_0_0_0;
-extern const Il2CppType TaskFactory_1_FromAsync_m8207_gp_0_0_0_0;
-extern const Il2CppType TaskFactory_1_FromAsync_m8207_gp_0_0_0_0;
-extern const Il2CppType TaskFactory_1_FromAsync_m8207_gp_1_0_0_0;
-extern const Il2CppType TaskFactory_1_FromAsync_m8207_gp_1_0_0_0;
-extern const Il2CppType TaskFactory_1_FromAsync_m8207_gp_2_0_0_0;
-extern const Il2CppType TaskFactory_1_FromAsync_m8207_gp_2_0_0_0;
-extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo TaskFactory_1_t2211_TaskFactory_1_FromAsync_m8207_ParameterInfos[] = 
-{
-	{"beginMethod", 0, 134218970, 0, &Func_6_t2645_0_0_0},
-	{"endMethod", 1, 134218971, 0, &Func_2_t2646_0_0_0},
-	{"arg1", 2, 134218972, 0, &TaskFactory_1_FromAsync_m8207_gp_0_0_0_0},
-	{"arg2", 3, 134218973, 0, &TaskFactory_1_FromAsync_m8207_gp_1_0_0_0},
-	{"arg3", 4, 134218974, 0, &TaskFactory_1_FromAsync_m8207_gp_2_0_0_0},
-	{"state", 5, 134218975, 0, &Object_t_0_0_0},
-};
-extern const Il2CppType Task_1_t2650_0_0_0;
-extern const Il2CppGenericContainer TaskFactory_1_FromAsync_m8207_Il2CppGenericContainer;
-extern TypeInfo TaskFactory_1_FromAsync_m8207_gp_TArg1_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter TaskFactory_1_FromAsync_m8207_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_1_FromAsync_m8207_Il2CppGenericContainer, NULL, "TArg1", 0, 0 };
-extern TypeInfo TaskFactory_1_FromAsync_m8207_gp_TArg2_1_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter TaskFactory_1_FromAsync_m8207_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_1_FromAsync_m8207_Il2CppGenericContainer, NULL, "TArg2", 1, 0 };
-extern TypeInfo TaskFactory_1_FromAsync_m8207_gp_TArg3_2_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter TaskFactory_1_FromAsync_m8207_gp_TArg3_2_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_1_FromAsync_m8207_Il2CppGenericContainer, NULL, "TArg3", 2, 0 };
-static const Il2CppGenericParameter* TaskFactory_1_FromAsync_m8207_Il2CppGenericParametersArray[3] = 
-{
-	&TaskFactory_1_FromAsync_m8207_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull,
-	&TaskFactory_1_FromAsync_m8207_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull,
-	&TaskFactory_1_FromAsync_m8207_gp_TArg3_2_il2cpp_TypeInfo_GenericParamFull,
-};
-extern const MethodInfo TaskFactory_1_FromAsync_m8207_MethodInfo;
-extern const Il2CppGenericContainer TaskFactory_1_FromAsync_m8207_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_1_FromAsync_m8207_MethodInfo, 3, 1, TaskFactory_1_FromAsync_m8207_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod TaskFactory_FromAsync_TisTArg1_t2647_TisTArg2_t2648_TisTArg3_t2649_TisT_t2644_m8620_GenericMethod;
-static Il2CppRGCTXDefinition TaskFactory_1_FromAsync_m8207_RGCTXData[2] = 
-{
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisTArg1_t2647_TisTArg2_t2648_TisTArg3_t2649_TisT_t2644_m8620_GenericMethod }/* Method */,
-	{IL2CPP_RGCTX_DATA_INVALID, NULL},
-};
-// System.Threading.Tasks.Task`1<T> System.Threading.Tasks.TaskFactory`1::FromAsync(System.Func`6<TArg1,TArg2,TArg3,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,T>,TArg1,TArg2,TArg3,System.Object)
-extern const MethodInfo TaskFactory_1_FromAsync_m8207_MethodInfo = 
-{
-	"FromAsync"/* name */
-	, NULL/* method */
-	, &TaskFactory_1_t2211_il2cpp_TypeInfo/* declaring_type */
-	, &Task_1_t2650_0_0_0/* return_type */
-	, NULL/* invoker_method */
-	, TaskFactory_1_t2211_TaskFactory_1_FromAsync_m8207_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 6/* parameters_count */
-	, true/* is_generic */
-	, false/* is_inflated */
-	, 1274/* token */
-	, TaskFactory_1_FromAsync_m8207_RGCTXData/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &TaskFactory_1_FromAsync_m8207_Il2CppGenericContainer/* genericContainer */
-
-};
-extern const Il2CppType Func_5_t2651_0_0_0;
-extern const Il2CppType Func_5_t2651_0_0_0;
-extern const Il2CppType Func_2_t2646_0_0_0;
 extern const Il2CppType TaskFactory_1_FromAsync_m8208_gp_0_0_0_0;
 extern const Il2CppType TaskFactory_1_FromAsync_m8208_gp_0_0_0_0;
 extern const Il2CppType TaskFactory_1_FromAsync_m8208_gp_1_0_0_0;
 extern const Il2CppType TaskFactory_1_FromAsync_m8208_gp_1_0_0_0;
+extern const Il2CppType TaskFactory_1_FromAsync_m8208_gp_2_0_0_0;
+extern const Il2CppType TaskFactory_1_FromAsync_m8208_gp_2_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo TaskFactory_1_t2211_TaskFactory_1_FromAsync_m8208_ParameterInfos[] = 
 {
-	{"beginMethod", 0, 134218976, 0, &Func_5_t2651_0_0_0},
-	{"endMethod", 1, 134218977, 0, &Func_2_t2646_0_0_0},
-	{"arg1", 2, 134218978, 0, &TaskFactory_1_FromAsync_m8208_gp_0_0_0_0},
-	{"arg2", 3, 134218979, 0, &TaskFactory_1_FromAsync_m8208_gp_1_0_0_0},
-	{"state", 4, 134218980, 0, &Object_t_0_0_0},
+	{"beginMethod", 0, 134218970, 0, &Func_6_t2645_0_0_0},
+	{"endMethod", 1, 134218971, 0, &Func_2_t2646_0_0_0},
+	{"arg1", 2, 134218972, 0, &TaskFactory_1_FromAsync_m8208_gp_0_0_0_0},
+	{"arg2", 3, 134218973, 0, &TaskFactory_1_FromAsync_m8208_gp_1_0_0_0},
+	{"arg3", 4, 134218974, 0, &TaskFactory_1_FromAsync_m8208_gp_2_0_0_0},
+	{"state", 5, 134218975, 0, &Object_t_0_0_0},
 };
+extern const Il2CppType Task_1_t2650_0_0_0;
 extern const Il2CppGenericContainer TaskFactory_1_FromAsync_m8208_Il2CppGenericContainer;
 extern TypeInfo TaskFactory_1_FromAsync_m8208_gp_TArg1_0_il2cpp_TypeInfo;
 extern const Il2CppGenericParameter TaskFactory_1_FromAsync_m8208_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_1_FromAsync_m8208_Il2CppGenericContainer, NULL, "TArg1", 0, 0 };
 extern TypeInfo TaskFactory_1_FromAsync_m8208_gp_TArg2_1_il2cpp_TypeInfo;
 extern const Il2CppGenericParameter TaskFactory_1_FromAsync_m8208_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_1_FromAsync_m8208_Il2CppGenericContainer, NULL, "TArg2", 1, 0 };
-static const Il2CppGenericParameter* TaskFactory_1_FromAsync_m8208_Il2CppGenericParametersArray[2] = 
+extern TypeInfo TaskFactory_1_FromAsync_m8208_gp_TArg3_2_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskFactory_1_FromAsync_m8208_gp_TArg3_2_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_1_FromAsync_m8208_Il2CppGenericContainer, NULL, "TArg3", 2, 0 };
+static const Il2CppGenericParameter* TaskFactory_1_FromAsync_m8208_Il2CppGenericParametersArray[3] = 
 {
 	&TaskFactory_1_FromAsync_m8208_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull,
 	&TaskFactory_1_FromAsync_m8208_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull,
+	&TaskFactory_1_FromAsync_m8208_gp_TArg3_2_il2cpp_TypeInfo_GenericParamFull,
 };
 extern const MethodInfo TaskFactory_1_FromAsync_m8208_MethodInfo;
-extern const Il2CppGenericContainer TaskFactory_1_FromAsync_m8208_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_1_FromAsync_m8208_MethodInfo, 2, 1, TaskFactory_1_FromAsync_m8208_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod TaskFactory_FromAsync_TisTArg1_t2652_TisTArg2_t2653_TisT_t2644_m8621_GenericMethod;
+extern const Il2CppGenericContainer TaskFactory_1_FromAsync_m8208_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_1_FromAsync_m8208_MethodInfo, 3, 1, TaskFactory_1_FromAsync_m8208_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod TaskFactory_FromAsync_TisTArg1_t2647_TisTArg2_t2648_TisTArg3_t2649_TisT_t2644_m8621_GenericMethod;
 static Il2CppRGCTXDefinition TaskFactory_1_FromAsync_m8208_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisTArg1_t2652_TisTArg2_t2653_TisT_t2644_m8621_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisTArg1_t2647_TisTArg2_t2648_TisTArg3_t2649_TisT_t2644_m8621_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
-// System.Threading.Tasks.Task`1<T> System.Threading.Tasks.TaskFactory`1::FromAsync(System.Func`5<TArg1,TArg2,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,T>,TArg1,TArg2,System.Object)
+// System.Threading.Tasks.Task`1<T> System.Threading.Tasks.TaskFactory`1::FromAsync(System.Func`6<TArg1,TArg2,TArg3,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,T>,TArg1,TArg2,TArg3,System.Object)
 extern const MethodInfo TaskFactory_1_FromAsync_m8208_MethodInfo = 
 {
 	"FromAsync"/* name */
@@ -23105,44 +23049,50 @@ extern const MethodInfo TaskFactory_1_FromAsync_m8208_MethodInfo =
 	, 134/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 5/* parameters_count */
+	, 6/* parameters_count */
 	, true/* is_generic */
 	, false/* is_inflated */
-	, 1275/* token */
+	, 1274/* token */
 	, TaskFactory_1_FromAsync_m8208_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, &TaskFactory_1_FromAsync_m8208_Il2CppGenericContainer/* genericContainer */
 
 };
-extern const Il2CppType Func_4_t2654_0_0_0;
-extern const Il2CppType Func_4_t2654_0_0_0;
+extern const Il2CppType Func_5_t2651_0_0_0;
+extern const Il2CppType Func_5_t2651_0_0_0;
 extern const Il2CppType Func_2_t2646_0_0_0;
 extern const Il2CppType TaskFactory_1_FromAsync_m8209_gp_0_0_0_0;
 extern const Il2CppType TaskFactory_1_FromAsync_m8209_gp_0_0_0_0;
+extern const Il2CppType TaskFactory_1_FromAsync_m8209_gp_1_0_0_0;
+extern const Il2CppType TaskFactory_1_FromAsync_m8209_gp_1_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo TaskFactory_1_t2211_TaskFactory_1_FromAsync_m8209_ParameterInfos[] = 
 {
-	{"beginMethod", 0, 134218981, 0, &Func_4_t2654_0_0_0},
-	{"endMethod", 1, 134218982, 0, &Func_2_t2646_0_0_0},
-	{"arg1", 2, 134218983, 0, &TaskFactory_1_FromAsync_m8209_gp_0_0_0_0},
-	{"state", 3, 134218984, 0, &Object_t_0_0_0},
+	{"beginMethod", 0, 134218976, 0, &Func_5_t2651_0_0_0},
+	{"endMethod", 1, 134218977, 0, &Func_2_t2646_0_0_0},
+	{"arg1", 2, 134218978, 0, &TaskFactory_1_FromAsync_m8209_gp_0_0_0_0},
+	{"arg2", 3, 134218979, 0, &TaskFactory_1_FromAsync_m8209_gp_1_0_0_0},
+	{"state", 4, 134218980, 0, &Object_t_0_0_0},
 };
 extern const Il2CppGenericContainer TaskFactory_1_FromAsync_m8209_Il2CppGenericContainer;
 extern TypeInfo TaskFactory_1_FromAsync_m8209_gp_TArg1_0_il2cpp_TypeInfo;
 extern const Il2CppGenericParameter TaskFactory_1_FromAsync_m8209_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_1_FromAsync_m8209_Il2CppGenericContainer, NULL, "TArg1", 0, 0 };
-static const Il2CppGenericParameter* TaskFactory_1_FromAsync_m8209_Il2CppGenericParametersArray[1] = 
+extern TypeInfo TaskFactory_1_FromAsync_m8209_gp_TArg2_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskFactory_1_FromAsync_m8209_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_1_FromAsync_m8209_Il2CppGenericContainer, NULL, "TArg2", 1, 0 };
+static const Il2CppGenericParameter* TaskFactory_1_FromAsync_m8209_Il2CppGenericParametersArray[2] = 
 {
 	&TaskFactory_1_FromAsync_m8209_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull,
+	&TaskFactory_1_FromAsync_m8209_gp_TArg2_1_il2cpp_TypeInfo_GenericParamFull,
 };
 extern const MethodInfo TaskFactory_1_FromAsync_m8209_MethodInfo;
-extern const Il2CppGenericContainer TaskFactory_1_FromAsync_m8209_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_1_FromAsync_m8209_MethodInfo, 1, 1, TaskFactory_1_FromAsync_m8209_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod TaskFactory_FromAsync_TisTArg1_t2655_TisT_t2644_m8622_GenericMethod;
+extern const Il2CppGenericContainer TaskFactory_1_FromAsync_m8209_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_1_FromAsync_m8209_MethodInfo, 2, 1, TaskFactory_1_FromAsync_m8209_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod TaskFactory_FromAsync_TisTArg1_t2652_TisTArg2_t2653_TisT_t2644_m8622_GenericMethod;
 static Il2CppRGCTXDefinition TaskFactory_1_FromAsync_m8209_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisTArg1_t2655_TisT_t2644_m8622_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisTArg1_t2652_TisTArg2_t2653_TisT_t2644_m8622_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
-// System.Threading.Tasks.Task`1<T> System.Threading.Tasks.TaskFactory`1::FromAsync(System.Func`4<TArg1,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,T>,TArg1,System.Object)
+// System.Threading.Tasks.Task`1<T> System.Threading.Tasks.TaskFactory`1::FromAsync(System.Func`5<TArg1,TArg2,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,T>,TArg1,TArg2,System.Object)
 extern const MethodInfo TaskFactory_1_FromAsync_m8209_MethodInfo = 
 {
 	"FromAsync"/* name */
@@ -23155,25 +23105,44 @@ extern const MethodInfo TaskFactory_1_FromAsync_m8209_MethodInfo =
 	, 134/* flags */
 	, 0/* iflags */
 	, 255/* slot */
-	, 4/* parameters_count */
+	, 5/* parameters_count */
 	, true/* is_generic */
 	, false/* is_inflated */
-	, 1276/* token */
+	, 1275/* token */
 	, TaskFactory_1_FromAsync_m8209_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, &TaskFactory_1_FromAsync_m8209_Il2CppGenericContainer/* genericContainer */
 
 };
-extern const Il2CppType Func_3_t1414_0_0_0;
+extern const Il2CppType Func_4_t2654_0_0_0;
+extern const Il2CppType Func_4_t2654_0_0_0;
 extern const Il2CppType Func_2_t2646_0_0_0;
+extern const Il2CppType TaskFactory_1_FromAsync_m8210_gp_0_0_0_0;
+extern const Il2CppType TaskFactory_1_FromAsync_m8210_gp_0_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo TaskFactory_1_t2211_TaskFactory_1_FromAsync_m8210_ParameterInfos[] = 
 {
-	{"beginMethod", 0, 134218985, 0, &Func_3_t1414_0_0_0},
-	{"endMethod", 1, 134218986, 0, &Func_2_t2646_0_0_0},
-	{"state", 2, 134218987, 0, &Object_t_0_0_0},
+	{"beginMethod", 0, 134218981, 0, &Func_4_t2654_0_0_0},
+	{"endMethod", 1, 134218982, 0, &Func_2_t2646_0_0_0},
+	{"arg1", 2, 134218983, 0, &TaskFactory_1_FromAsync_m8210_gp_0_0_0_0},
+	{"state", 3, 134218984, 0, &Object_t_0_0_0},
 };
-// System.Threading.Tasks.Task`1<T> System.Threading.Tasks.TaskFactory`1::FromAsync(System.Func`3<System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,T>,System.Object)
+extern const Il2CppGenericContainer TaskFactory_1_FromAsync_m8210_Il2CppGenericContainer;
+extern TypeInfo TaskFactory_1_FromAsync_m8210_gp_TArg1_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskFactory_1_FromAsync_m8210_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull = { &TaskFactory_1_FromAsync_m8210_Il2CppGenericContainer, NULL, "TArg1", 0, 0 };
+static const Il2CppGenericParameter* TaskFactory_1_FromAsync_m8210_Il2CppGenericParametersArray[1] = 
+{
+	&TaskFactory_1_FromAsync_m8210_gp_TArg1_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo TaskFactory_1_FromAsync_m8210_MethodInfo;
+extern const Il2CppGenericContainer TaskFactory_1_FromAsync_m8210_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskFactory_1_FromAsync_m8210_MethodInfo, 1, 1, TaskFactory_1_FromAsync_m8210_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod TaskFactory_FromAsync_TisTArg1_t2655_TisT_t2644_m8623_GenericMethod;
+static Il2CppRGCTXDefinition TaskFactory_1_FromAsync_m8210_RGCTXData[2] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisTArg1_t2655_TisT_t2644_m8623_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Threading.Tasks.Task`1<T> System.Threading.Tasks.TaskFactory`1::FromAsync(System.Func`4<TArg1,System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,T>,TArg1,System.Object)
 extern const MethodInfo TaskFactory_1_FromAsync_m8210_MethodInfo = 
 {
 	"FromAsync"/* name */
@@ -23182,6 +23151,37 @@ extern const MethodInfo TaskFactory_1_FromAsync_m8210_MethodInfo =
 	, &Task_1_t2650_0_0_0/* return_type */
 	, NULL/* invoker_method */
 	, TaskFactory_1_t2211_TaskFactory_1_FromAsync_m8210_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 4/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1276/* token */
+	, TaskFactory_1_FromAsync_m8210_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &TaskFactory_1_FromAsync_m8210_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Func_3_t1414_0_0_0;
+extern const Il2CppType Func_2_t2646_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo TaskFactory_1_t2211_TaskFactory_1_FromAsync_m8211_ParameterInfos[] = 
+{
+	{"beginMethod", 0, 134218985, 0, &Func_3_t1414_0_0_0},
+	{"endMethod", 1, 134218986, 0, &Func_2_t2646_0_0_0},
+	{"state", 2, 134218987, 0, &Object_t_0_0_0},
+};
+// System.Threading.Tasks.Task`1<T> System.Threading.Tasks.TaskFactory`1::FromAsync(System.Func`3<System.AsyncCallback,System.Object,System.IAsyncResult>,System.Func`2<System.IAsyncResult,T>,System.Object)
+extern const MethodInfo TaskFactory_1_FromAsync_m8211_MethodInfo = 
+{
+	"FromAsync"/* name */
+	, NULL/* method */
+	, &TaskFactory_1_t2211_il2cpp_TypeInfo/* declaring_type */
+	, &Task_1_t2650_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskFactory_1_t2211_TaskFactory_1_FromAsync_m8211_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -23197,23 +23197,23 @@ extern const MethodInfo TaskFactory_1_FromAsync_m8210_MethodInfo =
 };
 static const MethodInfo* TaskFactory_1_t2211_MethodInfos[] =
 {
-	&TaskFactory_1__ctor_m8202_MethodInfo,
 	&TaskFactory_1__ctor_m8203_MethodInfo,
 	&TaskFactory_1__ctor_m8204_MethodInfo,
 	&TaskFactory_1__ctor_m8205_MethodInfo,
-	&TaskFactory_1_get_Scheduler_m8206_MethodInfo,
-	&TaskFactory_1_FromAsync_m8207_MethodInfo,
+	&TaskFactory_1__ctor_m8206_MethodInfo,
+	&TaskFactory_1_get_Scheduler_m8207_MethodInfo,
 	&TaskFactory_1_FromAsync_m8208_MethodInfo,
 	&TaskFactory_1_FromAsync_m8209_MethodInfo,
 	&TaskFactory_1_FromAsync_m8210_MethodInfo,
+	&TaskFactory_1_FromAsync_m8211_MethodInfo,
 	NULL
 };
-extern const MethodInfo TaskFactory_1_get_Scheduler_m8206_MethodInfo;
+extern const MethodInfo TaskFactory_1_get_Scheduler_m8207_MethodInfo;
 static const PropertyInfo TaskFactory_1_t2211____Scheduler_PropertyInfo = 
 {
 	&TaskFactory_1_t2211_il2cpp_TypeInfo/* parent */
 	, "Scheduler"/* name */
-	, &TaskFactory_1_get_Scheduler_m8206_MethodInfo/* get */
+	, &TaskFactory_1_get_Scheduler_m8207_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -23238,12 +23238,12 @@ static bool TaskFactory_1_t2211_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod TaskFactory_1__ctor_m8623_GenericMethod;
-extern const Il2CppGenericMethod TaskFactory_FromAsync_TisT_t2644_m8624_GenericMethod;
+extern const Il2CppGenericMethod TaskFactory_1__ctor_m8624_GenericMethod;
+extern const Il2CppGenericMethod TaskFactory_FromAsync_TisT_t2644_m8625_GenericMethod;
 static Il2CppRGCTXDefinition TaskFactory_1_t2211_RGCTXData[3] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_1__ctor_m8623_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisT_t2644_m8624_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_1__ctor_m8624_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskFactory_FromAsync_TisT_t2644_m8625_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -23325,10 +23325,10 @@ extern TypeInfo U3CU3Ec__DisplayClass1_t1365_il2cpp_TypeInfo;
 #include "Parse_Unity_System_Threading_Tasks_TaskScheduler_U3CU3Ec__DiMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskScheduler/<>c__DisplayClass1::.ctor()
-extern const MethodInfo U3CU3Ec__DisplayClass1__ctor_m7263_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1__ctor_m7264_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass1__ctor_m7263/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass1__ctor_m7264/* method */
 	, &U3CU3Ec__DisplayClass1_t1365_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -23347,20 +23347,20 @@ extern const MethodInfo U3CU3Ec__DisplayClass1__ctor_m7263_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ec__DisplayClass1_t1365_U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7264_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ec__DisplayClass1_t1365_U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7265_ParameterInfos[] = 
 {
 	{"o", 0, 134218990, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskScheduler/<>c__DisplayClass1::<Post>b__0(System.Object)
-extern const MethodInfo U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7264_MethodInfo = 
+extern const MethodInfo U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7265_MethodInfo = 
 {
 	"<Post>b__0"/* name */
-	, (methodPointerType)&U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7264/* method */
+	, (methodPointerType)&U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7265/* method */
 	, &U3CU3Ec__DisplayClass1_t1365_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, U3CU3Ec__DisplayClass1_t1365_U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7264_ParameterInfos/* parameters */
+	, U3CU3Ec__DisplayClass1_t1365_U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7265_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -23376,8 +23376,8 @@ extern const MethodInfo U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7264_MethodInfo =
 };
 static const MethodInfo* U3CU3Ec__DisplayClass1_t1365_MethodInfos[] =
 {
-	&U3CU3Ec__DisplayClass1__ctor_m7263_MethodInfo,
-	&U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7264_MethodInfo,
+	&U3CU3Ec__DisplayClass1__ctor_m7264_MethodInfo,
+	&U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7265_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference U3CU3Ec__DisplayClass1_t1365_VTable[] =
@@ -23473,20 +23473,20 @@ TypeInfo U3CU3Ec__DisplayClass1_t1365_il2cpp_TypeInfo =
 #include "Parse_Unity_System_Threading_Tasks_TaskSchedulerMethodDeclarations.h"
 extern const Il2CppType SynchronizationContext_t1366_0_0_0;
 extern const Il2CppType SynchronizationContext_t1366_0_0_0;
-static const ParameterInfo TaskScheduler_t1363_TaskScheduler__ctor_m7265_ParameterInfos[] = 
+static const ParameterInfo TaskScheduler_t1363_TaskScheduler__ctor_m7266_ParameterInfos[] = 
 {
 	{"context", 0, 134218988, 0, &SynchronizationContext_t1366_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskScheduler::.ctor(System.Threading.SynchronizationContext)
-extern const MethodInfo TaskScheduler__ctor_m7265_MethodInfo = 
+extern const MethodInfo TaskScheduler__ctor_m7266_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TaskScheduler__ctor_m7265/* method */
+	, (methodPointerType)&TaskScheduler__ctor_m7266/* method */
 	, &TaskScheduler_t1363_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, TaskScheduler_t1363_TaskScheduler__ctor_m7265_ParameterInfos/* parameters */
+	, TaskScheduler_t1363_TaskScheduler__ctor_m7266_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -23501,20 +23501,20 @@ extern const MethodInfo TaskScheduler__ctor_m7265_MethodInfo =
 
 };
 extern const Il2CppType Action_t143_0_0_0;
-static const ParameterInfo TaskScheduler_t1363_TaskScheduler_Post_m7266_ParameterInfos[] = 
+static const ParameterInfo TaskScheduler_t1363_TaskScheduler_Post_m7267_ParameterInfos[] = 
 {
 	{"action", 0, 134218989, 0, &Action_t143_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskScheduler::Post(System.Action)
-extern const MethodInfo TaskScheduler_Post_m7266_MethodInfo = 
+extern const MethodInfo TaskScheduler_Post_m7267_MethodInfo = 
 {
 	"Post"/* name */
-	, (methodPointerType)&TaskScheduler_Post_m7266/* method */
+	, (methodPointerType)&TaskScheduler_Post_m7267/* method */
 	, &TaskScheduler_t1363_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, TaskScheduler_t1363_TaskScheduler_Post_m7266_ParameterInfos/* parameters */
+	, TaskScheduler_t1363_TaskScheduler_Post_m7267_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -23530,10 +23530,10 @@ extern const MethodInfo TaskScheduler_Post_m7266_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.Tasks.TaskScheduler System.Threading.Tasks.TaskScheduler::FromCurrentSynchronizationContext()
-extern const MethodInfo TaskScheduler_FromCurrentSynchronizationContext_m7267_MethodInfo = 
+extern const MethodInfo TaskScheduler_FromCurrentSynchronizationContext_m7268_MethodInfo = 
 {
 	"FromCurrentSynchronizationContext"/* name */
-	, (methodPointerType)&TaskScheduler_FromCurrentSynchronizationContext_m7267/* method */
+	, (methodPointerType)&TaskScheduler_FromCurrentSynchronizationContext_m7268/* method */
 	, &TaskScheduler_t1363_il2cpp_TypeInfo/* declaring_type */
 	, &TaskScheduler_t1363_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -23553,10 +23553,10 @@ extern const MethodInfo TaskScheduler_FromCurrentSynchronizationContext_m7267_Me
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Threading.Tasks.TaskScheduler::.cctor()
-extern const MethodInfo TaskScheduler__cctor_m7268_MethodInfo = 
+extern const MethodInfo TaskScheduler__cctor_m7269_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&TaskScheduler__cctor_m7268/* method */
+	, (methodPointerType)&TaskScheduler__cctor_m7269/* method */
 	, &TaskScheduler_t1363_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -23576,10 +23576,10 @@ extern const MethodInfo TaskScheduler__cctor_m7268_MethodInfo =
 };
 static const MethodInfo* TaskScheduler_t1363_MethodInfos[] =
 {
-	&TaskScheduler__ctor_m7265_MethodInfo,
-	&TaskScheduler_Post_m7266_MethodInfo,
-	&TaskScheduler_FromCurrentSynchronizationContext_m7267_MethodInfo,
-	&TaskScheduler__cctor_m7268_MethodInfo,
+	&TaskScheduler__ctor_m7266_MethodInfo,
+	&TaskScheduler_Post_m7267_MethodInfo,
+	&TaskScheduler_FromCurrentSynchronizationContext_m7268_MethodInfo,
+	&TaskScheduler__cctor_m7269_MethodInfo,
 	NULL
 };
 static const Il2CppType* TaskScheduler_t1363_il2cpp_TypeInfo__nestedTypes[1] =
@@ -23687,20 +23687,20 @@ extern const Il2CppType U3CU3Ef__AnonymousType0_2_t2212_gp_0_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType0_2_t2212_gp_0_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType0_2_t2212_gp_1_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType0_2_t2212_gp_1_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType0_2_t2212_U3CU3Ef__AnonymousType0_2__ctor_m8212_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType0_2_t2212_U3CU3Ef__AnonymousType0_2__ctor_m8213_ParameterInfos[] = 
 {
 	{"constructor", 0, 134218991, 0, &U3CU3Ef__AnonymousType0_2_t2212_gp_0_0_0_0},
 	{"parameters", 1, 134218992, 0, &U3CU3Ef__AnonymousType0_2_t2212_gp_1_0_0_0},
 };
 // System.Void <>f__AnonymousType0`2::.ctor(<constructor>j__TPar,<parameters>j__TPar)
-extern const MethodInfo U3CU3Ef__AnonymousType0_2__ctor_m8212_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType0_2__ctor_m8213_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType0_2_t2212_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType0_2_t2212_U3CU3Ef__AnonymousType0_2__ctor_m8212_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType0_2_t2212_U3CU3Ef__AnonymousType0_2__ctor_m8213_ParameterInfos/* parameters */
 	, 545/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -23715,7 +23715,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType0_2__ctor_m8212_MethodInfo =
 
 };
 // <constructor>j__TPar <>f__AnonymousType0`2::get_constructor()
-extern const MethodInfo U3CU3Ef__AnonymousType0_2_get_constructor_m8213_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType0_2_get_constructor_m8214_MethodInfo = 
 {
 	"get_constructor"/* name */
 	, NULL/* method */
@@ -23737,7 +23737,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType0_2_get_constructor_m8213_MethodIn
 
 };
 // <parameters>j__TPar <>f__AnonymousType0`2::get_parameters()
-extern const MethodInfo U3CU3Ef__AnonymousType0_2_get_parameters_m8214_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType0_2_get_parameters_m8215_MethodInfo = 
 {
 	"get_parameters"/* name */
 	, NULL/* method */
@@ -23759,7 +23759,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType0_2_get_parameters_m8214_MethodInf
 
 };
 // System.String <>f__AnonymousType0`2::ToString()
-extern const MethodInfo U3CU3Ef__AnonymousType0_2_ToString_m8215_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType0_2_ToString_m8216_MethodInfo = 
 {
 	"ToString"/* name */
 	, NULL/* method */
@@ -23781,19 +23781,19 @@ extern const MethodInfo U3CU3Ef__AnonymousType0_2_ToString_m8215_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType0_2_t2212_U3CU3Ef__AnonymousType0_2_Equals_m8216_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType0_2_t2212_U3CU3Ef__AnonymousType0_2_Equals_m8217_ParameterInfos[] = 
 {
 	{"value", 0, 134218993, 0, &Object_t_0_0_0},
 };
 // System.Boolean <>f__AnonymousType0`2::Equals(System.Object)
-extern const MethodInfo U3CU3Ef__AnonymousType0_2_Equals_m8216_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType0_2_Equals_m8217_MethodInfo = 
 {
 	"Equals"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType0_2_t2212_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType0_2_t2212_U3CU3Ef__AnonymousType0_2_Equals_m8216_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType0_2_t2212_U3CU3Ef__AnonymousType0_2_Equals_m8217_ParameterInfos/* parameters */
 	, 547/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -23808,7 +23808,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType0_2_Equals_m8216_MethodInfo =
 
 };
 // System.Int32 <>f__AnonymousType0`2::GetHashCode()
-extern const MethodInfo U3CU3Ef__AnonymousType0_2_GetHashCode_m8217_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType0_2_GetHashCode_m8218_MethodInfo = 
 {
 	"GetHashCode"/* name */
 	, NULL/* method */
@@ -23831,31 +23831,31 @@ extern const MethodInfo U3CU3Ef__AnonymousType0_2_GetHashCode_m8217_MethodInfo =
 };
 static const MethodInfo* U3CU3Ef__AnonymousType0_2_t2212_MethodInfos[] =
 {
-	&U3CU3Ef__AnonymousType0_2__ctor_m8212_MethodInfo,
-	&U3CU3Ef__AnonymousType0_2_get_constructor_m8213_MethodInfo,
-	&U3CU3Ef__AnonymousType0_2_get_parameters_m8214_MethodInfo,
-	&U3CU3Ef__AnonymousType0_2_ToString_m8215_MethodInfo,
-	&U3CU3Ef__AnonymousType0_2_Equals_m8216_MethodInfo,
-	&U3CU3Ef__AnonymousType0_2_GetHashCode_m8217_MethodInfo,
+	&U3CU3Ef__AnonymousType0_2__ctor_m8213_MethodInfo,
+	&U3CU3Ef__AnonymousType0_2_get_constructor_m8214_MethodInfo,
+	&U3CU3Ef__AnonymousType0_2_get_parameters_m8215_MethodInfo,
+	&U3CU3Ef__AnonymousType0_2_ToString_m8216_MethodInfo,
+	&U3CU3Ef__AnonymousType0_2_Equals_m8217_MethodInfo,
+	&U3CU3Ef__AnonymousType0_2_GetHashCode_m8218_MethodInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType0_2_get_constructor_m8213_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType0_2_get_constructor_m8214_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType0_2_t2212____constructor_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType0_2_t2212_il2cpp_TypeInfo/* parent */
 	, "constructor"/* name */
-	, &U3CU3Ef__AnonymousType0_2_get_constructor_m8213_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType0_2_get_constructor_m8214_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo U3CU3Ef__AnonymousType0_2_get_parameters_m8214_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType0_2_get_parameters_m8215_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType0_2_t2212____parameters_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType0_2_t2212_il2cpp_TypeInfo/* parent */
 	, "parameters"/* name */
-	, &U3CU3Ef__AnonymousType0_2_get_parameters_m8214_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType0_2_get_parameters_m8215_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -23867,15 +23867,15 @@ static const PropertyInfo* U3CU3Ef__AnonymousType0_2_t2212_PropertyInfos[] =
 	&U3CU3Ef__AnonymousType0_2_t2212____parameters_PropertyInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType0_2_Equals_m8216_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType0_2_GetHashCode_m8217_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType0_2_ToString_m8215_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType0_2_Equals_m8217_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType0_2_GetHashCode_m8218_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType0_2_ToString_m8216_MethodInfo;
 static const Il2CppMethodReference U3CU3Ef__AnonymousType0_2_t2212_VTable[] =
 {
-	&U3CU3Ef__AnonymousType0_2_Equals_m8216_MethodInfo,
+	&U3CU3Ef__AnonymousType0_2_Equals_m8217_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&U3CU3Ef__AnonymousType0_2_GetHashCode_m8217_MethodInfo,
-	&U3CU3Ef__AnonymousType0_2_ToString_m8215_MethodInfo,
+	&U3CU3Ef__AnonymousType0_2_GetHashCode_m8218_MethodInfo,
+	&U3CU3Ef__AnonymousType0_2_ToString_m8216_MethodInfo,
 };
 static bool U3CU3Ef__AnonymousType0_2_t2212_VTableIsGenericMethod[] =
 {
@@ -23885,23 +23885,23 @@ static bool U3CU3Ef__AnonymousType0_2_t2212_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType U3CU3Ef__AnonymousType0_2_t2658_0_0_0;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8625_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8626_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8627_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8628_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8629_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8626_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8627_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8628_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8629_GenericMethod;
 extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8630_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8631_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ef__AnonymousType0_2_t2212_RGCTXData[10] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType0_2_t2212_gp_0_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType0_2_t2212_gp_1_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType0_2_t2658_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8625_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8626_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8627_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8628_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8629_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8626_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8627_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8628_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8629_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8630_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8631_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -23992,20 +23992,20 @@ extern const Il2CppType U3CU3Ef__AnonymousType1_2_t2214_gp_0_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType1_2_t2214_gp_0_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType1_2_t2214_gp_1_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType1_2_t2214_gp_1_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType1_2_t2214_U3CU3Ef__AnonymousType1_2__ctor_m8218_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType1_2_t2214_U3CU3Ef__AnonymousType1_2__ctor_m8219_ParameterInfos[] = 
 {
 	{"<>h__TransparentIdentifier0", 0, 134218994, 0, &U3CU3Ef__AnonymousType1_2_t2214_gp_0_0_0_0},
 	{"types", 1, 134218995, 0, &U3CU3Ef__AnonymousType1_2_t2214_gp_1_0_0_0},
 };
 // System.Void <>f__AnonymousType1`2::.ctor(<<>h__TransparentIdentifier0>j__TPar,<types>j__TPar)
-extern const MethodInfo U3CU3Ef__AnonymousType1_2__ctor_m8218_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType1_2__ctor_m8219_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType1_2_t2214_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType1_2_t2214_U3CU3Ef__AnonymousType1_2__ctor_m8218_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType1_2_t2214_U3CU3Ef__AnonymousType1_2__ctor_m8219_ParameterInfos/* parameters */
 	, 552/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -24020,7 +24020,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType1_2__ctor_m8218_MethodInfo =
 
 };
 // <<>h__TransparentIdentifier0>j__TPar <>f__AnonymousType1`2::get_<>h__TransparentIdentifier0()
-extern const MethodInfo U3CU3Ef__AnonymousType1_2_get_U3CU3Eh__TransparentIdentifier0_m8219_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType1_2_get_U3CU3Eh__TransparentIdentifier0_m8220_MethodInfo = 
 {
 	"get_<>h__TransparentIdentifier0"/* name */
 	, NULL/* method */
@@ -24042,7 +24042,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType1_2_get_U3CU3Eh__TransparentIdenti
 
 };
 // <types>j__TPar <>f__AnonymousType1`2::get_types()
-extern const MethodInfo U3CU3Ef__AnonymousType1_2_get_types_m8220_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType1_2_get_types_m8221_MethodInfo = 
 {
 	"get_types"/* name */
 	, NULL/* method */
@@ -24064,7 +24064,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType1_2_get_types_m8220_MethodInfo =
 
 };
 // System.String <>f__AnonymousType1`2::ToString()
-extern const MethodInfo U3CU3Ef__AnonymousType1_2_ToString_m8221_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType1_2_ToString_m8222_MethodInfo = 
 {
 	"ToString"/* name */
 	, NULL/* method */
@@ -24086,19 +24086,19 @@ extern const MethodInfo U3CU3Ef__AnonymousType1_2_ToString_m8221_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType1_2_t2214_U3CU3Ef__AnonymousType1_2_Equals_m8222_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType1_2_t2214_U3CU3Ef__AnonymousType1_2_Equals_m8223_ParameterInfos[] = 
 {
 	{"value", 0, 134218996, 0, &Object_t_0_0_0},
 };
 // System.Boolean <>f__AnonymousType1`2::Equals(System.Object)
-extern const MethodInfo U3CU3Ef__AnonymousType1_2_Equals_m8222_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType1_2_Equals_m8223_MethodInfo = 
 {
 	"Equals"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType1_2_t2214_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType1_2_t2214_U3CU3Ef__AnonymousType1_2_Equals_m8222_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType1_2_t2214_U3CU3Ef__AnonymousType1_2_Equals_m8223_ParameterInfos/* parameters */
 	, 554/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -24113,7 +24113,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType1_2_Equals_m8222_MethodInfo =
 
 };
 // System.Int32 <>f__AnonymousType1`2::GetHashCode()
-extern const MethodInfo U3CU3Ef__AnonymousType1_2_GetHashCode_m8223_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType1_2_GetHashCode_m8224_MethodInfo = 
 {
 	"GetHashCode"/* name */
 	, NULL/* method */
@@ -24136,31 +24136,31 @@ extern const MethodInfo U3CU3Ef__AnonymousType1_2_GetHashCode_m8223_MethodInfo =
 };
 static const MethodInfo* U3CU3Ef__AnonymousType1_2_t2214_MethodInfos[] =
 {
-	&U3CU3Ef__AnonymousType1_2__ctor_m8218_MethodInfo,
-	&U3CU3Ef__AnonymousType1_2_get_U3CU3Eh__TransparentIdentifier0_m8219_MethodInfo,
-	&U3CU3Ef__AnonymousType1_2_get_types_m8220_MethodInfo,
-	&U3CU3Ef__AnonymousType1_2_ToString_m8221_MethodInfo,
-	&U3CU3Ef__AnonymousType1_2_Equals_m8222_MethodInfo,
-	&U3CU3Ef__AnonymousType1_2_GetHashCode_m8223_MethodInfo,
+	&U3CU3Ef__AnonymousType1_2__ctor_m8219_MethodInfo,
+	&U3CU3Ef__AnonymousType1_2_get_U3CU3Eh__TransparentIdentifier0_m8220_MethodInfo,
+	&U3CU3Ef__AnonymousType1_2_get_types_m8221_MethodInfo,
+	&U3CU3Ef__AnonymousType1_2_ToString_m8222_MethodInfo,
+	&U3CU3Ef__AnonymousType1_2_Equals_m8223_MethodInfo,
+	&U3CU3Ef__AnonymousType1_2_GetHashCode_m8224_MethodInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType1_2_get_U3CU3Eh__TransparentIdentifier0_m8219_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType1_2_get_U3CU3Eh__TransparentIdentifier0_m8220_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType1_2_t2214____U3CU3Eh__TransparentIdentifier0_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType1_2_t2214_il2cpp_TypeInfo/* parent */
 	, "<>h__TransparentIdentifier0"/* name */
-	, &U3CU3Ef__AnonymousType1_2_get_U3CU3Eh__TransparentIdentifier0_m8219_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType1_2_get_U3CU3Eh__TransparentIdentifier0_m8220_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo U3CU3Ef__AnonymousType1_2_get_types_m8220_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType1_2_get_types_m8221_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType1_2_t2214____types_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType1_2_t2214_il2cpp_TypeInfo/* parent */
 	, "types"/* name */
-	, &U3CU3Ef__AnonymousType1_2_get_types_m8220_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType1_2_get_types_m8221_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -24172,15 +24172,15 @@ static const PropertyInfo* U3CU3Ef__AnonymousType1_2_t2214_PropertyInfos[] =
 	&U3CU3Ef__AnonymousType1_2_t2214____types_PropertyInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType1_2_Equals_m8222_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType1_2_GetHashCode_m8223_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType1_2_ToString_m8221_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType1_2_Equals_m8223_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType1_2_GetHashCode_m8224_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType1_2_ToString_m8222_MethodInfo;
 static const Il2CppMethodReference U3CU3Ef__AnonymousType1_2_t2214_VTable[] =
 {
-	&U3CU3Ef__AnonymousType1_2_Equals_m8222_MethodInfo,
+	&U3CU3Ef__AnonymousType1_2_Equals_m8223_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&U3CU3Ef__AnonymousType1_2_GetHashCode_m8223_MethodInfo,
-	&U3CU3Ef__AnonymousType1_2_ToString_m8221_MethodInfo,
+	&U3CU3Ef__AnonymousType1_2_GetHashCode_m8224_MethodInfo,
+	&U3CU3Ef__AnonymousType1_2_ToString_m8222_MethodInfo,
 };
 static bool U3CU3Ef__AnonymousType1_2_t2214_VTableIsGenericMethod[] =
 {
@@ -24190,23 +24190,23 @@ static bool U3CU3Ef__AnonymousType1_2_t2214_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType U3CU3Ef__AnonymousType1_2_t2661_0_0_0;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8631_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8632_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8633_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8634_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8635_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8632_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8633_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8634_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8635_GenericMethod;
 extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8636_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8637_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ef__AnonymousType1_2_t2214_RGCTXData[10] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType1_2_t2214_gp_0_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType1_2_t2214_gp_1_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType1_2_t2661_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8631_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8632_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8633_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8634_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8635_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8632_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8633_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8634_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8635_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8636_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8637_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -24297,20 +24297,20 @@ extern const Il2CppType U3CU3Ef__AnonymousType2_2_t2215_gp_0_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType2_2_t2215_gp_0_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType2_2_t2215_gp_1_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType2_2_t2215_gp_1_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType2_2_t2215_U3CU3Ef__AnonymousType2_2__ctor_m8224_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType2_2_t2215_U3CU3Ef__AnonymousType2_2__ctor_m8225_ParameterInfos[] = 
 {
 	{"pair", 0, 134218997, 0, &U3CU3Ef__AnonymousType2_2_t2215_gp_0_0_0_0},
 	{"valueString", 1, 134218998, 0, &U3CU3Ef__AnonymousType2_2_t2215_gp_1_0_0_0},
 };
 // System.Void <>f__AnonymousType2`2::.ctor(<pair>j__TPar,<valueString>j__TPar)
-extern const MethodInfo U3CU3Ef__AnonymousType2_2__ctor_m8224_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType2_2__ctor_m8225_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType2_2_t2215_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType2_2_t2215_U3CU3Ef__AnonymousType2_2__ctor_m8224_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType2_2_t2215_U3CU3Ef__AnonymousType2_2__ctor_m8225_ParameterInfos/* parameters */
 	, 559/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -24325,7 +24325,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType2_2__ctor_m8224_MethodInfo =
 
 };
 // <pair>j__TPar <>f__AnonymousType2`2::get_pair()
-extern const MethodInfo U3CU3Ef__AnonymousType2_2_get_pair_m8225_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType2_2_get_pair_m8226_MethodInfo = 
 {
 	"get_pair"/* name */
 	, NULL/* method */
@@ -24347,7 +24347,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType2_2_get_pair_m8225_MethodInfo =
 
 };
 // <valueString>j__TPar <>f__AnonymousType2`2::get_valueString()
-extern const MethodInfo U3CU3Ef__AnonymousType2_2_get_valueString_m8226_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType2_2_get_valueString_m8227_MethodInfo = 
 {
 	"get_valueString"/* name */
 	, NULL/* method */
@@ -24369,7 +24369,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType2_2_get_valueString_m8226_MethodIn
 
 };
 // System.String <>f__AnonymousType2`2::ToString()
-extern const MethodInfo U3CU3Ef__AnonymousType2_2_ToString_m8227_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType2_2_ToString_m8228_MethodInfo = 
 {
 	"ToString"/* name */
 	, NULL/* method */
@@ -24391,19 +24391,19 @@ extern const MethodInfo U3CU3Ef__AnonymousType2_2_ToString_m8227_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType2_2_t2215_U3CU3Ef__AnonymousType2_2_Equals_m8228_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType2_2_t2215_U3CU3Ef__AnonymousType2_2_Equals_m8229_ParameterInfos[] = 
 {
 	{"value", 0, 134218999, 0, &Object_t_0_0_0},
 };
 // System.Boolean <>f__AnonymousType2`2::Equals(System.Object)
-extern const MethodInfo U3CU3Ef__AnonymousType2_2_Equals_m8228_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType2_2_Equals_m8229_MethodInfo = 
 {
 	"Equals"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType2_2_t2215_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType2_2_t2215_U3CU3Ef__AnonymousType2_2_Equals_m8228_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType2_2_t2215_U3CU3Ef__AnonymousType2_2_Equals_m8229_ParameterInfos/* parameters */
 	, 561/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -24418,7 +24418,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType2_2_Equals_m8228_MethodInfo =
 
 };
 // System.Int32 <>f__AnonymousType2`2::GetHashCode()
-extern const MethodInfo U3CU3Ef__AnonymousType2_2_GetHashCode_m8229_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType2_2_GetHashCode_m8230_MethodInfo = 
 {
 	"GetHashCode"/* name */
 	, NULL/* method */
@@ -24441,31 +24441,31 @@ extern const MethodInfo U3CU3Ef__AnonymousType2_2_GetHashCode_m8229_MethodInfo =
 };
 static const MethodInfo* U3CU3Ef__AnonymousType2_2_t2215_MethodInfos[] =
 {
-	&U3CU3Ef__AnonymousType2_2__ctor_m8224_MethodInfo,
-	&U3CU3Ef__AnonymousType2_2_get_pair_m8225_MethodInfo,
-	&U3CU3Ef__AnonymousType2_2_get_valueString_m8226_MethodInfo,
-	&U3CU3Ef__AnonymousType2_2_ToString_m8227_MethodInfo,
-	&U3CU3Ef__AnonymousType2_2_Equals_m8228_MethodInfo,
-	&U3CU3Ef__AnonymousType2_2_GetHashCode_m8229_MethodInfo,
+	&U3CU3Ef__AnonymousType2_2__ctor_m8225_MethodInfo,
+	&U3CU3Ef__AnonymousType2_2_get_pair_m8226_MethodInfo,
+	&U3CU3Ef__AnonymousType2_2_get_valueString_m8227_MethodInfo,
+	&U3CU3Ef__AnonymousType2_2_ToString_m8228_MethodInfo,
+	&U3CU3Ef__AnonymousType2_2_Equals_m8229_MethodInfo,
+	&U3CU3Ef__AnonymousType2_2_GetHashCode_m8230_MethodInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType2_2_get_pair_m8225_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType2_2_get_pair_m8226_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType2_2_t2215____pair_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType2_2_t2215_il2cpp_TypeInfo/* parent */
 	, "pair"/* name */
-	, &U3CU3Ef__AnonymousType2_2_get_pair_m8225_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType2_2_get_pair_m8226_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo U3CU3Ef__AnonymousType2_2_get_valueString_m8226_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType2_2_get_valueString_m8227_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType2_2_t2215____valueString_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType2_2_t2215_il2cpp_TypeInfo/* parent */
 	, "valueString"/* name */
-	, &U3CU3Ef__AnonymousType2_2_get_valueString_m8226_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType2_2_get_valueString_m8227_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -24477,15 +24477,15 @@ static const PropertyInfo* U3CU3Ef__AnonymousType2_2_t2215_PropertyInfos[] =
 	&U3CU3Ef__AnonymousType2_2_t2215____valueString_PropertyInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType2_2_Equals_m8228_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType2_2_GetHashCode_m8229_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType2_2_ToString_m8227_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType2_2_Equals_m8229_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType2_2_GetHashCode_m8230_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType2_2_ToString_m8228_MethodInfo;
 static const Il2CppMethodReference U3CU3Ef__AnonymousType2_2_t2215_VTable[] =
 {
-	&U3CU3Ef__AnonymousType2_2_Equals_m8228_MethodInfo,
+	&U3CU3Ef__AnonymousType2_2_Equals_m8229_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&U3CU3Ef__AnonymousType2_2_GetHashCode_m8229_MethodInfo,
-	&U3CU3Ef__AnonymousType2_2_ToString_m8227_MethodInfo,
+	&U3CU3Ef__AnonymousType2_2_GetHashCode_m8230_MethodInfo,
+	&U3CU3Ef__AnonymousType2_2_ToString_m8228_MethodInfo,
 };
 static bool U3CU3Ef__AnonymousType2_2_t2215_VTableIsGenericMethod[] =
 {
@@ -24495,23 +24495,23 @@ static bool U3CU3Ef__AnonymousType2_2_t2215_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType U3CU3Ef__AnonymousType2_2_t2664_0_0_0;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8637_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8638_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8639_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8640_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8641_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8638_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8639_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8640_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8641_GenericMethod;
 extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8642_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8643_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ef__AnonymousType2_2_t2215_RGCTXData[10] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType2_2_t2215_gp_0_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType2_2_t2215_gp_1_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType2_2_t2664_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8637_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8638_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8639_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8640_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8641_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8638_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8639_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8640_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8641_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8642_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8643_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -24602,20 +24602,20 @@ extern const Il2CppType U3CU3Ef__AnonymousType3_2_t2216_gp_0_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType3_2_t2216_gp_0_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType3_2_t2216_gp_1_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType3_2_t2216_gp_1_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType3_2_t2216_U3CU3Ef__AnonymousType3_2__ctor_m8230_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType3_2_t2216_U3CU3Ef__AnonymousType3_2__ctor_m8231_ParameterInfos[] = 
 {
 	{"item", 0, 134219000, 0, &U3CU3Ef__AnonymousType3_2_t2216_gp_0_0_0_0},
 	{"ops", 1, 134219001, 0, &U3CU3Ef__AnonymousType3_2_t2216_gp_1_0_0_0},
 };
 // System.Void <>f__AnonymousType3`2::.ctor(<item>j__TPar,<ops>j__TPar)
-extern const MethodInfo U3CU3Ef__AnonymousType3_2__ctor_m8230_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType3_2__ctor_m8231_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType3_2_t2216_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType3_2_t2216_U3CU3Ef__AnonymousType3_2__ctor_m8230_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType3_2_t2216_U3CU3Ef__AnonymousType3_2__ctor_m8231_ParameterInfos/* parameters */
 	, 566/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -24630,7 +24630,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType3_2__ctor_m8230_MethodInfo =
 
 };
 // <item>j__TPar <>f__AnonymousType3`2::get_item()
-extern const MethodInfo U3CU3Ef__AnonymousType3_2_get_item_m8231_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType3_2_get_item_m8232_MethodInfo = 
 {
 	"get_item"/* name */
 	, NULL/* method */
@@ -24652,7 +24652,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType3_2_get_item_m8231_MethodInfo =
 
 };
 // <ops>j__TPar <>f__AnonymousType3`2::get_ops()
-extern const MethodInfo U3CU3Ef__AnonymousType3_2_get_ops_m8232_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType3_2_get_ops_m8233_MethodInfo = 
 {
 	"get_ops"/* name */
 	, NULL/* method */
@@ -24674,7 +24674,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType3_2_get_ops_m8232_MethodInfo =
 
 };
 // System.String <>f__AnonymousType3`2::ToString()
-extern const MethodInfo U3CU3Ef__AnonymousType3_2_ToString_m8233_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType3_2_ToString_m8234_MethodInfo = 
 {
 	"ToString"/* name */
 	, NULL/* method */
@@ -24696,19 +24696,19 @@ extern const MethodInfo U3CU3Ef__AnonymousType3_2_ToString_m8233_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType3_2_t2216_U3CU3Ef__AnonymousType3_2_Equals_m8234_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType3_2_t2216_U3CU3Ef__AnonymousType3_2_Equals_m8235_ParameterInfos[] = 
 {
 	{"value", 0, 134219002, 0, &Object_t_0_0_0},
 };
 // System.Boolean <>f__AnonymousType3`2::Equals(System.Object)
-extern const MethodInfo U3CU3Ef__AnonymousType3_2_Equals_m8234_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType3_2_Equals_m8235_MethodInfo = 
 {
 	"Equals"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType3_2_t2216_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType3_2_t2216_U3CU3Ef__AnonymousType3_2_Equals_m8234_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType3_2_t2216_U3CU3Ef__AnonymousType3_2_Equals_m8235_ParameterInfos/* parameters */
 	, 568/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -24723,7 +24723,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType3_2_Equals_m8234_MethodInfo =
 
 };
 // System.Int32 <>f__AnonymousType3`2::GetHashCode()
-extern const MethodInfo U3CU3Ef__AnonymousType3_2_GetHashCode_m8235_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType3_2_GetHashCode_m8236_MethodInfo = 
 {
 	"GetHashCode"/* name */
 	, NULL/* method */
@@ -24746,31 +24746,31 @@ extern const MethodInfo U3CU3Ef__AnonymousType3_2_GetHashCode_m8235_MethodInfo =
 };
 static const MethodInfo* U3CU3Ef__AnonymousType3_2_t2216_MethodInfos[] =
 {
-	&U3CU3Ef__AnonymousType3_2__ctor_m8230_MethodInfo,
-	&U3CU3Ef__AnonymousType3_2_get_item_m8231_MethodInfo,
-	&U3CU3Ef__AnonymousType3_2_get_ops_m8232_MethodInfo,
-	&U3CU3Ef__AnonymousType3_2_ToString_m8233_MethodInfo,
-	&U3CU3Ef__AnonymousType3_2_Equals_m8234_MethodInfo,
-	&U3CU3Ef__AnonymousType3_2_GetHashCode_m8235_MethodInfo,
+	&U3CU3Ef__AnonymousType3_2__ctor_m8231_MethodInfo,
+	&U3CU3Ef__AnonymousType3_2_get_item_m8232_MethodInfo,
+	&U3CU3Ef__AnonymousType3_2_get_ops_m8233_MethodInfo,
+	&U3CU3Ef__AnonymousType3_2_ToString_m8234_MethodInfo,
+	&U3CU3Ef__AnonymousType3_2_Equals_m8235_MethodInfo,
+	&U3CU3Ef__AnonymousType3_2_GetHashCode_m8236_MethodInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType3_2_get_item_m8231_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType3_2_get_item_m8232_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType3_2_t2216____item_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType3_2_t2216_il2cpp_TypeInfo/* parent */
 	, "item"/* name */
-	, &U3CU3Ef__AnonymousType3_2_get_item_m8231_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType3_2_get_item_m8232_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo U3CU3Ef__AnonymousType3_2_get_ops_m8232_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType3_2_get_ops_m8233_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType3_2_t2216____ops_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType3_2_t2216_il2cpp_TypeInfo/* parent */
 	, "ops"/* name */
-	, &U3CU3Ef__AnonymousType3_2_get_ops_m8232_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType3_2_get_ops_m8233_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -24782,15 +24782,15 @@ static const PropertyInfo* U3CU3Ef__AnonymousType3_2_t2216_PropertyInfos[] =
 	&U3CU3Ef__AnonymousType3_2_t2216____ops_PropertyInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType3_2_Equals_m8234_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType3_2_GetHashCode_m8235_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType3_2_ToString_m8233_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType3_2_Equals_m8235_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType3_2_GetHashCode_m8236_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType3_2_ToString_m8234_MethodInfo;
 static const Il2CppMethodReference U3CU3Ef__AnonymousType3_2_t2216_VTable[] =
 {
-	&U3CU3Ef__AnonymousType3_2_Equals_m8234_MethodInfo,
+	&U3CU3Ef__AnonymousType3_2_Equals_m8235_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&U3CU3Ef__AnonymousType3_2_GetHashCode_m8235_MethodInfo,
-	&U3CU3Ef__AnonymousType3_2_ToString_m8233_MethodInfo,
+	&U3CU3Ef__AnonymousType3_2_GetHashCode_m8236_MethodInfo,
+	&U3CU3Ef__AnonymousType3_2_ToString_m8234_MethodInfo,
 };
 static bool U3CU3Ef__AnonymousType3_2_t2216_VTableIsGenericMethod[] =
 {
@@ -24800,23 +24800,23 @@ static bool U3CU3Ef__AnonymousType3_2_t2216_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType U3CU3Ef__AnonymousType3_2_t2667_0_0_0;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8643_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8644_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8645_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8646_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8647_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8644_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8645_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8646_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8647_GenericMethod;
 extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8648_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8649_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ef__AnonymousType3_2_t2216_RGCTXData[10] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType3_2_t2216_gp_0_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType3_2_t2216_gp_1_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType3_2_t2667_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8643_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8644_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8645_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8646_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8647_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8644_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8645_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8646_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8647_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8648_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8649_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -24912,21 +24912,21 @@ extern const Il2CppType U3CU3Ef__AnonymousType4_3_t2217_gp_1_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType4_3_t2217_gp_1_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType4_3_t2217_gp_2_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType4_3_t2217_gp_2_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType4_3_t2217_U3CU3Ef__AnonymousType4_3__ctor_m8236_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType4_3_t2217_U3CU3Ef__AnonymousType4_3__ctor_m8237_ParameterInfos[] = 
 {
 	{"Obj", 0, 134219003, 0, &U3CU3Ef__AnonymousType4_3_t2217_gp_0_0_0_0},
 	{"Result", 1, 134219004, 0, &U3CU3Ef__AnonymousType4_3_t2217_gp_1_0_0_0},
 	{"Operation", 2, 134219005, 0, &U3CU3Ef__AnonymousType4_3_t2217_gp_2_0_0_0},
 };
 // System.Void <>f__AnonymousType4`3::.ctor(<Obj>j__TPar,<Result>j__TPar,<Operation>j__TPar)
-extern const MethodInfo U3CU3Ef__AnonymousType4_3__ctor_m8236_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType4_3__ctor_m8237_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType4_3_t2217_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType4_3_t2217_U3CU3Ef__AnonymousType4_3__ctor_m8236_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType4_3_t2217_U3CU3Ef__AnonymousType4_3__ctor_m8237_ParameterInfos/* parameters */
 	, 574/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -24941,7 +24941,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType4_3__ctor_m8236_MethodInfo =
 
 };
 // <Obj>j__TPar <>f__AnonymousType4`3::get_Obj()
-extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Obj_m8237_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Obj_m8238_MethodInfo = 
 {
 	"get_Obj"/* name */
 	, NULL/* method */
@@ -24963,7 +24963,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Obj_m8237_MethodInfo =
 
 };
 // <Result>j__TPar <>f__AnonymousType4`3::get_Result()
-extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Result_m8238_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Result_m8239_MethodInfo = 
 {
 	"get_Result"/* name */
 	, NULL/* method */
@@ -24985,7 +24985,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Result_m8238_MethodInfo =
 
 };
 // <Operation>j__TPar <>f__AnonymousType4`3::get_Operation()
-extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Operation_m8239_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Operation_m8240_MethodInfo = 
 {
 	"get_Operation"/* name */
 	, NULL/* method */
@@ -25007,7 +25007,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Operation_m8239_MethodInfo
 
 };
 // System.String <>f__AnonymousType4`3::ToString()
-extern const MethodInfo U3CU3Ef__AnonymousType4_3_ToString_m8240_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType4_3_ToString_m8241_MethodInfo = 
 {
 	"ToString"/* name */
 	, NULL/* method */
@@ -25029,19 +25029,19 @@ extern const MethodInfo U3CU3Ef__AnonymousType4_3_ToString_m8240_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType4_3_t2217_U3CU3Ef__AnonymousType4_3_Equals_m8241_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType4_3_t2217_U3CU3Ef__AnonymousType4_3_Equals_m8242_ParameterInfos[] = 
 {
 	{"value", 0, 134219006, 0, &Object_t_0_0_0},
 };
 // System.Boolean <>f__AnonymousType4`3::Equals(System.Object)
-extern const MethodInfo U3CU3Ef__AnonymousType4_3_Equals_m8241_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType4_3_Equals_m8242_MethodInfo = 
 {
 	"Equals"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType4_3_t2217_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType4_3_t2217_U3CU3Ef__AnonymousType4_3_Equals_m8241_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType4_3_t2217_U3CU3Ef__AnonymousType4_3_Equals_m8242_ParameterInfos/* parameters */
 	, 576/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -25056,7 +25056,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType4_3_Equals_m8241_MethodInfo =
 
 };
 // System.Int32 <>f__AnonymousType4`3::GetHashCode()
-extern const MethodInfo U3CU3Ef__AnonymousType4_3_GetHashCode_m8242_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType4_3_GetHashCode_m8243_MethodInfo = 
 {
 	"GetHashCode"/* name */
 	, NULL/* method */
@@ -25079,43 +25079,43 @@ extern const MethodInfo U3CU3Ef__AnonymousType4_3_GetHashCode_m8242_MethodInfo =
 };
 static const MethodInfo* U3CU3Ef__AnonymousType4_3_t2217_MethodInfos[] =
 {
-	&U3CU3Ef__AnonymousType4_3__ctor_m8236_MethodInfo,
-	&U3CU3Ef__AnonymousType4_3_get_Obj_m8237_MethodInfo,
-	&U3CU3Ef__AnonymousType4_3_get_Result_m8238_MethodInfo,
-	&U3CU3Ef__AnonymousType4_3_get_Operation_m8239_MethodInfo,
-	&U3CU3Ef__AnonymousType4_3_ToString_m8240_MethodInfo,
-	&U3CU3Ef__AnonymousType4_3_Equals_m8241_MethodInfo,
-	&U3CU3Ef__AnonymousType4_3_GetHashCode_m8242_MethodInfo,
+	&U3CU3Ef__AnonymousType4_3__ctor_m8237_MethodInfo,
+	&U3CU3Ef__AnonymousType4_3_get_Obj_m8238_MethodInfo,
+	&U3CU3Ef__AnonymousType4_3_get_Result_m8239_MethodInfo,
+	&U3CU3Ef__AnonymousType4_3_get_Operation_m8240_MethodInfo,
+	&U3CU3Ef__AnonymousType4_3_ToString_m8241_MethodInfo,
+	&U3CU3Ef__AnonymousType4_3_Equals_m8242_MethodInfo,
+	&U3CU3Ef__AnonymousType4_3_GetHashCode_m8243_MethodInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Obj_m8237_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Obj_m8238_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType4_3_t2217____Obj_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType4_3_t2217_il2cpp_TypeInfo/* parent */
 	, "Obj"/* name */
-	, &U3CU3Ef__AnonymousType4_3_get_Obj_m8237_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType4_3_get_Obj_m8238_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Result_m8238_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Result_m8239_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType4_3_t2217____Result_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType4_3_t2217_il2cpp_TypeInfo/* parent */
 	, "Result"/* name */
-	, &U3CU3Ef__AnonymousType4_3_get_Result_m8238_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType4_3_get_Result_m8239_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Operation_m8239_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType4_3_get_Operation_m8240_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType4_3_t2217____Operation_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType4_3_t2217_il2cpp_TypeInfo/* parent */
 	, "Operation"/* name */
-	, &U3CU3Ef__AnonymousType4_3_get_Operation_m8239_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType4_3_get_Operation_m8240_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -25128,15 +25128,15 @@ static const PropertyInfo* U3CU3Ef__AnonymousType4_3_t2217_PropertyInfos[] =
 	&U3CU3Ef__AnonymousType4_3_t2217____Operation_PropertyInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType4_3_Equals_m8241_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType4_3_GetHashCode_m8242_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType4_3_ToString_m8240_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType4_3_Equals_m8242_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType4_3_GetHashCode_m8243_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType4_3_ToString_m8241_MethodInfo;
 static const Il2CppMethodReference U3CU3Ef__AnonymousType4_3_t2217_VTable[] =
 {
-	&U3CU3Ef__AnonymousType4_3_Equals_m8241_MethodInfo,
+	&U3CU3Ef__AnonymousType4_3_Equals_m8242_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&U3CU3Ef__AnonymousType4_3_GetHashCode_m8242_MethodInfo,
-	&U3CU3Ef__AnonymousType4_3_ToString_m8240_MethodInfo,
+	&U3CU3Ef__AnonymousType4_3_GetHashCode_m8243_MethodInfo,
+	&U3CU3Ef__AnonymousType4_3_ToString_m8241_MethodInfo,
 };
 static bool U3CU3Ef__AnonymousType4_3_t2217_VTableIsGenericMethod[] =
 {
@@ -25146,30 +25146,30 @@ static bool U3CU3Ef__AnonymousType4_3_t2217_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType U3CU3Ef__AnonymousType4_3_t2671_0_0_0;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8649_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8650_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8651_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8652_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8653_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8654_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8655_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8650_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8651_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8652_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8653_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8654_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8655_GenericMethod;
 extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8656_GenericMethod;
 extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8657_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8658_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ef__AnonymousType4_3_t2217_RGCTXData[14] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType4_3_t2217_gp_0_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType4_3_t2217_gp_1_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType4_3_t2217_gp_2_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType4_3_t2671_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8649_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8650_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8651_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8652_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8653_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8654_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8655_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8650_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8651_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8652_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8653_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8654_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8655_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8656_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8657_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8658_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -25260,20 +25260,20 @@ extern const Il2CppType U3CU3Ef__AnonymousType5_2_t2218_gp_0_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType5_2_t2218_gp_0_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType5_2_t2218_gp_1_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType5_2_t2218_gp_1_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType5_2_t2218_U3CU3Ef__AnonymousType5_2__ctor_m8243_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType5_2_t2218_U3CU3Ef__AnonymousType5_2__ctor_m8244_ParameterInfos[] = 
 {
 	{"ClassName", 0, 134219007, 0, &U3CU3Ef__AnonymousType5_2_t2218_gp_0_0_0_0},
 	{"FindTask", 1, 134219008, 0, &U3CU3Ef__AnonymousType5_2_t2218_gp_1_0_0_0},
 };
 // System.Void <>f__AnonymousType5`2::.ctor(<ClassName>j__TPar,<FindTask>j__TPar)
-extern const MethodInfo U3CU3Ef__AnonymousType5_2__ctor_m8243_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType5_2__ctor_m8244_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType5_2_t2218_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType5_2_t2218_U3CU3Ef__AnonymousType5_2__ctor_m8243_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType5_2_t2218_U3CU3Ef__AnonymousType5_2__ctor_m8244_ParameterInfos/* parameters */
 	, 581/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -25288,7 +25288,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType5_2__ctor_m8243_MethodInfo =
 
 };
 // <ClassName>j__TPar <>f__AnonymousType5`2::get_ClassName()
-extern const MethodInfo U3CU3Ef__AnonymousType5_2_get_ClassName_m8244_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType5_2_get_ClassName_m8245_MethodInfo = 
 {
 	"get_ClassName"/* name */
 	, NULL/* method */
@@ -25310,7 +25310,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType5_2_get_ClassName_m8244_MethodInfo
 
 };
 // <FindTask>j__TPar <>f__AnonymousType5`2::get_FindTask()
-extern const MethodInfo U3CU3Ef__AnonymousType5_2_get_FindTask_m8245_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType5_2_get_FindTask_m8246_MethodInfo = 
 {
 	"get_FindTask"/* name */
 	, NULL/* method */
@@ -25332,7 +25332,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType5_2_get_FindTask_m8245_MethodInfo 
 
 };
 // System.String <>f__AnonymousType5`2::ToString()
-extern const MethodInfo U3CU3Ef__AnonymousType5_2_ToString_m8246_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType5_2_ToString_m8247_MethodInfo = 
 {
 	"ToString"/* name */
 	, NULL/* method */
@@ -25354,19 +25354,19 @@ extern const MethodInfo U3CU3Ef__AnonymousType5_2_ToString_m8246_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType5_2_t2218_U3CU3Ef__AnonymousType5_2_Equals_m8247_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType5_2_t2218_U3CU3Ef__AnonymousType5_2_Equals_m8248_ParameterInfos[] = 
 {
 	{"value", 0, 134219009, 0, &Object_t_0_0_0},
 };
 // System.Boolean <>f__AnonymousType5`2::Equals(System.Object)
-extern const MethodInfo U3CU3Ef__AnonymousType5_2_Equals_m8247_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType5_2_Equals_m8248_MethodInfo = 
 {
 	"Equals"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType5_2_t2218_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType5_2_t2218_U3CU3Ef__AnonymousType5_2_Equals_m8247_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType5_2_t2218_U3CU3Ef__AnonymousType5_2_Equals_m8248_ParameterInfos/* parameters */
 	, 583/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -25381,7 +25381,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType5_2_Equals_m8247_MethodInfo =
 
 };
 // System.Int32 <>f__AnonymousType5`2::GetHashCode()
-extern const MethodInfo U3CU3Ef__AnonymousType5_2_GetHashCode_m8248_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType5_2_GetHashCode_m8249_MethodInfo = 
 {
 	"GetHashCode"/* name */
 	, NULL/* method */
@@ -25404,31 +25404,31 @@ extern const MethodInfo U3CU3Ef__AnonymousType5_2_GetHashCode_m8248_MethodInfo =
 };
 static const MethodInfo* U3CU3Ef__AnonymousType5_2_t2218_MethodInfos[] =
 {
-	&U3CU3Ef__AnonymousType5_2__ctor_m8243_MethodInfo,
-	&U3CU3Ef__AnonymousType5_2_get_ClassName_m8244_MethodInfo,
-	&U3CU3Ef__AnonymousType5_2_get_FindTask_m8245_MethodInfo,
-	&U3CU3Ef__AnonymousType5_2_ToString_m8246_MethodInfo,
-	&U3CU3Ef__AnonymousType5_2_Equals_m8247_MethodInfo,
-	&U3CU3Ef__AnonymousType5_2_GetHashCode_m8248_MethodInfo,
+	&U3CU3Ef__AnonymousType5_2__ctor_m8244_MethodInfo,
+	&U3CU3Ef__AnonymousType5_2_get_ClassName_m8245_MethodInfo,
+	&U3CU3Ef__AnonymousType5_2_get_FindTask_m8246_MethodInfo,
+	&U3CU3Ef__AnonymousType5_2_ToString_m8247_MethodInfo,
+	&U3CU3Ef__AnonymousType5_2_Equals_m8248_MethodInfo,
+	&U3CU3Ef__AnonymousType5_2_GetHashCode_m8249_MethodInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType5_2_get_ClassName_m8244_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType5_2_get_ClassName_m8245_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType5_2_t2218____ClassName_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType5_2_t2218_il2cpp_TypeInfo/* parent */
 	, "ClassName"/* name */
-	, &U3CU3Ef__AnonymousType5_2_get_ClassName_m8244_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType5_2_get_ClassName_m8245_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo U3CU3Ef__AnonymousType5_2_get_FindTask_m8245_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType5_2_get_FindTask_m8246_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType5_2_t2218____FindTask_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType5_2_t2218_il2cpp_TypeInfo/* parent */
 	, "FindTask"/* name */
-	, &U3CU3Ef__AnonymousType5_2_get_FindTask_m8245_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType5_2_get_FindTask_m8246_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -25440,15 +25440,15 @@ static const PropertyInfo* U3CU3Ef__AnonymousType5_2_t2218_PropertyInfos[] =
 	&U3CU3Ef__AnonymousType5_2_t2218____FindTask_PropertyInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType5_2_Equals_m8247_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType5_2_GetHashCode_m8248_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType5_2_ToString_m8246_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType5_2_Equals_m8248_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType5_2_GetHashCode_m8249_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType5_2_ToString_m8247_MethodInfo;
 static const Il2CppMethodReference U3CU3Ef__AnonymousType5_2_t2218_VTable[] =
 {
-	&U3CU3Ef__AnonymousType5_2_Equals_m8247_MethodInfo,
+	&U3CU3Ef__AnonymousType5_2_Equals_m8248_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&U3CU3Ef__AnonymousType5_2_GetHashCode_m8248_MethodInfo,
-	&U3CU3Ef__AnonymousType5_2_ToString_m8246_MethodInfo,
+	&U3CU3Ef__AnonymousType5_2_GetHashCode_m8249_MethodInfo,
+	&U3CU3Ef__AnonymousType5_2_ToString_m8247_MethodInfo,
 };
 static bool U3CU3Ef__AnonymousType5_2_t2218_VTableIsGenericMethod[] =
 {
@@ -25458,23 +25458,23 @@ static bool U3CU3Ef__AnonymousType5_2_t2218_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType U3CU3Ef__AnonymousType5_2_t2674_0_0_0;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8658_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8659_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8660_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8661_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8662_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8659_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8660_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8661_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8662_GenericMethod;
 extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8663_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8664_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ef__AnonymousType5_2_t2218_RGCTXData[10] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType5_2_t2218_gp_0_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType5_2_t2218_gp_1_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType5_2_t2674_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8658_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8659_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8660_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8661_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8662_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8659_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8660_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8661_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8662_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8663_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8664_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;
@@ -25565,20 +25565,20 @@ extern const Il2CppType U3CU3Ef__AnonymousType6_2_t2219_gp_0_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType6_2_t2219_gp_0_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType6_2_t2219_gp_1_0_0_0;
 extern const Il2CppType U3CU3Ef__AnonymousType6_2_t2219_gp_1_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType6_2_t2219_U3CU3Ef__AnonymousType6_2__ctor_m8249_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType6_2_t2219_U3CU3Ef__AnonymousType6_2__ctor_m8250_ParameterInfos[] = 
 {
 	{"obj", 0, 134219010, 0, &U3CU3Ef__AnonymousType6_2_t2219_gp_0_0_0_0},
 	{"result", 1, 134219011, 0, &U3CU3Ef__AnonymousType6_2_t2219_gp_1_0_0_0},
 };
 // System.Void <>f__AnonymousType6`2::.ctor(<obj>j__TPar,<result>j__TPar)
-extern const MethodInfo U3CU3Ef__AnonymousType6_2__ctor_m8249_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType6_2__ctor_m8250_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType6_2_t2219_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType6_2_t2219_U3CU3Ef__AnonymousType6_2__ctor_m8249_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType6_2_t2219_U3CU3Ef__AnonymousType6_2__ctor_m8250_ParameterInfos/* parameters */
 	, 588/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -25593,7 +25593,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType6_2__ctor_m8249_MethodInfo =
 
 };
 // <obj>j__TPar <>f__AnonymousType6`2::get_obj()
-extern const MethodInfo U3CU3Ef__AnonymousType6_2_get_obj_m8250_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType6_2_get_obj_m8251_MethodInfo = 
 {
 	"get_obj"/* name */
 	, NULL/* method */
@@ -25615,7 +25615,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType6_2_get_obj_m8250_MethodInfo =
 
 };
 // <result>j__TPar <>f__AnonymousType6`2::get_result()
-extern const MethodInfo U3CU3Ef__AnonymousType6_2_get_result_m8251_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType6_2_get_result_m8252_MethodInfo = 
 {
 	"get_result"/* name */
 	, NULL/* method */
@@ -25637,7 +25637,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType6_2_get_result_m8251_MethodInfo =
 
 };
 // System.String <>f__AnonymousType6`2::ToString()
-extern const MethodInfo U3CU3Ef__AnonymousType6_2_ToString_m8252_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType6_2_ToString_m8253_MethodInfo = 
 {
 	"ToString"/* name */
 	, NULL/* method */
@@ -25659,19 +25659,19 @@ extern const MethodInfo U3CU3Ef__AnonymousType6_2_ToString_m8252_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo U3CU3Ef__AnonymousType6_2_t2219_U3CU3Ef__AnonymousType6_2_Equals_m8253_ParameterInfos[] = 
+static const ParameterInfo U3CU3Ef__AnonymousType6_2_t2219_U3CU3Ef__AnonymousType6_2_Equals_m8254_ParameterInfos[] = 
 {
 	{"value", 0, 134219012, 0, &Object_t_0_0_0},
 };
 // System.Boolean <>f__AnonymousType6`2::Equals(System.Object)
-extern const MethodInfo U3CU3Ef__AnonymousType6_2_Equals_m8253_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType6_2_Equals_m8254_MethodInfo = 
 {
 	"Equals"/* name */
 	, NULL/* method */
 	, &U3CU3Ef__AnonymousType6_2_t2219_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, U3CU3Ef__AnonymousType6_2_t2219_U3CU3Ef__AnonymousType6_2_Equals_m8253_ParameterInfos/* parameters */
+	, U3CU3Ef__AnonymousType6_2_t2219_U3CU3Ef__AnonymousType6_2_Equals_m8254_ParameterInfos/* parameters */
 	, 590/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -25686,7 +25686,7 @@ extern const MethodInfo U3CU3Ef__AnonymousType6_2_Equals_m8253_MethodInfo =
 
 };
 // System.Int32 <>f__AnonymousType6`2::GetHashCode()
-extern const MethodInfo U3CU3Ef__AnonymousType6_2_GetHashCode_m8254_MethodInfo = 
+extern const MethodInfo U3CU3Ef__AnonymousType6_2_GetHashCode_m8255_MethodInfo = 
 {
 	"GetHashCode"/* name */
 	, NULL/* method */
@@ -25709,31 +25709,31 @@ extern const MethodInfo U3CU3Ef__AnonymousType6_2_GetHashCode_m8254_MethodInfo =
 };
 static const MethodInfo* U3CU3Ef__AnonymousType6_2_t2219_MethodInfos[] =
 {
-	&U3CU3Ef__AnonymousType6_2__ctor_m8249_MethodInfo,
-	&U3CU3Ef__AnonymousType6_2_get_obj_m8250_MethodInfo,
-	&U3CU3Ef__AnonymousType6_2_get_result_m8251_MethodInfo,
-	&U3CU3Ef__AnonymousType6_2_ToString_m8252_MethodInfo,
-	&U3CU3Ef__AnonymousType6_2_Equals_m8253_MethodInfo,
-	&U3CU3Ef__AnonymousType6_2_GetHashCode_m8254_MethodInfo,
+	&U3CU3Ef__AnonymousType6_2__ctor_m8250_MethodInfo,
+	&U3CU3Ef__AnonymousType6_2_get_obj_m8251_MethodInfo,
+	&U3CU3Ef__AnonymousType6_2_get_result_m8252_MethodInfo,
+	&U3CU3Ef__AnonymousType6_2_ToString_m8253_MethodInfo,
+	&U3CU3Ef__AnonymousType6_2_Equals_m8254_MethodInfo,
+	&U3CU3Ef__AnonymousType6_2_GetHashCode_m8255_MethodInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType6_2_get_obj_m8250_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType6_2_get_obj_m8251_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType6_2_t2219____obj_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType6_2_t2219_il2cpp_TypeInfo/* parent */
 	, "obj"/* name */
-	, &U3CU3Ef__AnonymousType6_2_get_obj_m8250_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType6_2_get_obj_m8251_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo U3CU3Ef__AnonymousType6_2_get_result_m8251_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType6_2_get_result_m8252_MethodInfo;
 static const PropertyInfo U3CU3Ef__AnonymousType6_2_t2219____result_PropertyInfo = 
 {
 	&U3CU3Ef__AnonymousType6_2_t2219_il2cpp_TypeInfo/* parent */
 	, "result"/* name */
-	, &U3CU3Ef__AnonymousType6_2_get_result_m8251_MethodInfo/* get */
+	, &U3CU3Ef__AnonymousType6_2_get_result_m8252_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -25745,15 +25745,15 @@ static const PropertyInfo* U3CU3Ef__AnonymousType6_2_t2219_PropertyInfos[] =
 	&U3CU3Ef__AnonymousType6_2_t2219____result_PropertyInfo,
 	NULL
 };
-extern const MethodInfo U3CU3Ef__AnonymousType6_2_Equals_m8253_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType6_2_GetHashCode_m8254_MethodInfo;
-extern const MethodInfo U3CU3Ef__AnonymousType6_2_ToString_m8252_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType6_2_Equals_m8254_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType6_2_GetHashCode_m8255_MethodInfo;
+extern const MethodInfo U3CU3Ef__AnonymousType6_2_ToString_m8253_MethodInfo;
 static const Il2CppMethodReference U3CU3Ef__AnonymousType6_2_t2219_VTable[] =
 {
-	&U3CU3Ef__AnonymousType6_2_Equals_m8253_MethodInfo,
+	&U3CU3Ef__AnonymousType6_2_Equals_m8254_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&U3CU3Ef__AnonymousType6_2_GetHashCode_m8254_MethodInfo,
-	&U3CU3Ef__AnonymousType6_2_ToString_m8252_MethodInfo,
+	&U3CU3Ef__AnonymousType6_2_GetHashCode_m8255_MethodInfo,
+	&U3CU3Ef__AnonymousType6_2_ToString_m8253_MethodInfo,
 };
 static bool U3CU3Ef__AnonymousType6_2_t2219_VTableIsGenericMethod[] =
 {
@@ -25763,23 +25763,23 @@ static bool U3CU3Ef__AnonymousType6_2_t2219_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType U3CU3Ef__AnonymousType6_2_t2677_0_0_0;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8664_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8665_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8666_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8667_GenericMethod;
-extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8668_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8665_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8666_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_get_Default_m8667_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_Equals_m8668_GenericMethod;
 extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8669_GenericMethod;
+extern const Il2CppGenericMethod EqualityComparer_1_GetHashCode_m8670_GenericMethod;
 static Il2CppRGCTXDefinition U3CU3Ef__AnonymousType6_2_t2219_RGCTXData[10] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType6_2_t2219_gp_0_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType6_2_t2219_gp_1_0_0_0 }/* Class */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CU3Ef__AnonymousType6_2_t2677_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8664_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8665_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8666_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8667_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8668_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8665_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8666_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_get_Default_m8667_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_Equals_m8668_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8669_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &EqualityComparer_1_GetHashCode_m8670_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_Parse_Unity_dll_Image;

@@ -17,8 +17,8 @@ struct Object_t;
 struct ObjectU5BU5D_t680;
 
 // System.Void UnityEngine.Events.CachedInvokableCall`1<System.Object>::.ctor(UnityEngine.Object,System.Reflection.MethodInfo,T)
-extern "C" void CachedInvokableCall_1__ctor_m62710_gshared (CachedInvokableCall_1_t8562 * __this, Object_t701 * ___target, MethodInfo_t * ___theFunction, Object_t * ___argument, const MethodInfo* method);
-#define CachedInvokableCall_1__ctor_m62710(__this, ___target, ___theFunction, ___argument, method) (( void (*) (CachedInvokableCall_1_t8562 *, Object_t701 *, MethodInfo_t *, Object_t *, const MethodInfo*))CachedInvokableCall_1__ctor_m62710_gshared)(__this, ___target, ___theFunction, ___argument, method)
+extern "C" void CachedInvokableCall_1__ctor_m62711_gshared (CachedInvokableCall_1_t8562 * __this, Object_t701 * ___target, MethodInfo_t * ___theFunction, Object_t * ___argument, const MethodInfo* method);
+#define CachedInvokableCall_1__ctor_m62711(__this, ___target, ___theFunction, ___argument, method) (( void (*) (CachedInvokableCall_1_t8562 *, Object_t701 *, MethodInfo_t *, Object_t *, const MethodInfo*))CachedInvokableCall_1__ctor_m62711_gshared)(__this, ___target, ___theFunction, ___argument, method)
 // System.Void UnityEngine.Events.CachedInvokableCall`1<System.Object>::Invoke(System.Object[])
-extern "C" void CachedInvokableCall_1_Invoke_m62711_gshared (CachedInvokableCall_1_t8562 * __this, ObjectU5BU5D_t680* ___args, const MethodInfo* method);
-#define CachedInvokableCall_1_Invoke_m62711(__this, ___args, method) (( void (*) (CachedInvokableCall_1_t8562 *, ObjectU5BU5D_t680*, const MethodInfo*))CachedInvokableCall_1_Invoke_m62711_gshared)(__this, ___args, method)
+extern "C" void CachedInvokableCall_1_Invoke_m62712_gshared (CachedInvokableCall_1_t8562 * __this, ObjectU5BU5D_t680* ___args, const MethodInfo* method);
+#define CachedInvokableCall_1_Invoke_m62712(__this, ___args, method) (( void (*) (CachedInvokableCall_1_t8562 *, ObjectU5BU5D_t680*, const MethodInfo*))CachedInvokableCall_1_Invoke_m62712_gshared)(__this, ___args, method)

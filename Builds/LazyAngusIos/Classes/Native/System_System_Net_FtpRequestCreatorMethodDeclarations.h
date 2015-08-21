@@ -12,6 +12,6 @@ struct WebRequest_t3299;
 struct Uri_t755;
 
 // System.Void System.Net.FtpRequestCreator::.ctor()
-extern "C" void FtpRequestCreator__ctor_m13870 (FtpRequestCreator_t4040 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpRequestCreator__ctor_m13871 (FtpRequestCreator_t4040 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebRequest System.Net.FtpRequestCreator::Create(System.Uri)
-extern "C" WebRequest_t3299 * FtpRequestCreator_Create_m13871 (FtpRequestCreator_t4040 * __this, Uri_t755 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebRequest_t3299 * FtpRequestCreator_Create_m13872 (FtpRequestCreator_t4040 * __this, Uri_t755 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;

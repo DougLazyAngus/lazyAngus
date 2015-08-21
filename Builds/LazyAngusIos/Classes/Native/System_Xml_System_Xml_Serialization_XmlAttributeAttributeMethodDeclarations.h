@@ -10,4 +10,4 @@ struct XmlAttributeAttribute_t3165;
 struct String_t;
 
 // System.Void System.Xml.Serialization.XmlAttributeAttribute::.ctor(System.String)
-extern "C" void XmlAttributeAttribute__ctor_m10516 (XmlAttributeAttribute_t3165 * __this, String_t* ___attributeName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttributeAttribute__ctor_m10517 (XmlAttributeAttribute_t3165 * __this, String_t* ___attributeName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

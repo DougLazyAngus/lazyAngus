@@ -18,28 +18,28 @@ struct XmlNode_t715;
 struct Array_t;
 
 // System.Void System.Xml.XmlAttributeCollection::.ctor(System.Xml.XmlNode)
-extern "C" void XmlAttributeCollection__ctor_m10744 (XmlAttributeCollection_t721 * __this, XmlNode_t715 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttributeCollection__ctor_m10745 (XmlAttributeCollection_t721 * __this, XmlNode_t715 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlAttributeCollection::System.Collections.ICollection.get_IsSynchronized()
-extern "C" bool XmlAttributeCollection_System_Collections_ICollection_get_IsSynchronized_m10745 (XmlAttributeCollection_t721 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlAttributeCollection_System_Collections_ICollection_get_IsSynchronized_m10746 (XmlAttributeCollection_t721 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Xml.XmlAttributeCollection::System.Collections.ICollection.get_SyncRoot()
-extern "C" Object_t * XmlAttributeCollection_System_Collections_ICollection_get_SyncRoot_m10746 (XmlAttributeCollection_t721 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * XmlAttributeCollection_System_Collections_ICollection_get_SyncRoot_m10747 (XmlAttributeCollection_t721 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlAttributeCollection::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C" void XmlAttributeCollection_System_Collections_ICollection_CopyTo_m10747 (XmlAttributeCollection_t721 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttributeCollection_System_Collections_ICollection_CopyTo_m10748 (XmlAttributeCollection_t721 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlAttributeCollection::get_IsReadOnly()
-extern "C" bool XmlAttributeCollection_get_IsReadOnly_m10748 (XmlAttributeCollection_t721 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlAttributeCollection_get_IsReadOnly_m10749 (XmlAttributeCollection_t721 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlAttribute System.Xml.XmlAttributeCollection::get_ItemOf(System.String)
-extern "C" XmlAttribute_t719 * XmlAttributeCollection_get_ItemOf_m10749 (XmlAttributeCollection_t721 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlAttribute_t719 * XmlAttributeCollection_get_ItemOf_m10750 (XmlAttributeCollection_t721 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlAttribute System.Xml.XmlAttributeCollection::get_ItemOf(System.Int32)
-extern "C" XmlAttribute_t719 * XmlAttributeCollection_get_ItemOf_m10750 (XmlAttributeCollection_t721 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlAttribute_t719 * XmlAttributeCollection_get_ItemOf_m10751 (XmlAttributeCollection_t721 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlAttribute System.Xml.XmlAttributeCollection::Append(System.Xml.XmlAttribute)
-extern "C" XmlAttribute_t719 * XmlAttributeCollection_Append_m3730 (XmlAttributeCollection_t721 * __this, XmlAttribute_t719 * ___node, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlAttribute_t719 * XmlAttributeCollection_Append_m3731 (XmlAttributeCollection_t721 * __this, XmlAttribute_t719 * ___node, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlAttribute System.Xml.XmlAttributeCollection::Remove(System.Xml.XmlAttribute)
-extern "C" XmlAttribute_t719 * XmlAttributeCollection_Remove_m10751 (XmlAttributeCollection_t721 * __this, XmlAttribute_t719 * ___node, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlAttribute_t719 * XmlAttributeCollection_Remove_m10752 (XmlAttributeCollection_t721 * __this, XmlAttribute_t719 * ___node, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlAttributeCollection::RemoveAll()
-extern "C" void XmlAttributeCollection_RemoveAll_m10752 (XmlAttributeCollection_t721 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttributeCollection_RemoveAll_m10753 (XmlAttributeCollection_t721 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlAttributeCollection::SetNamedItem(System.Xml.XmlNode)
-extern "C" XmlNode_t715 * XmlAttributeCollection_SetNamedItem_m10753 (XmlAttributeCollection_t721 * __this, XmlNode_t715 * ___node, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t715 * XmlAttributeCollection_SetNamedItem_m10754 (XmlAttributeCollection_t721 * __this, XmlNode_t715 * ___node, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlAttributeCollection::AdjustIdenticalAttributes(System.Xml.XmlAttribute,System.Xml.XmlNode)
-extern "C" void XmlAttributeCollection_AdjustIdenticalAttributes_m10754 (XmlAttributeCollection_t721 * __this, XmlAttribute_t719 * ___node, XmlNode_t715 * ___existing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttributeCollection_AdjustIdenticalAttributes_m10755 (XmlAttributeCollection_t721 * __this, XmlAttribute_t719 * ___node, XmlNode_t715 * ___existing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlAttributeCollection::RemoveIdenticalAttribute(System.Xml.XmlNode)
-extern "C" XmlNode_t715 * XmlAttributeCollection_RemoveIdenticalAttribute_m10755 (XmlAttributeCollection_t721 * __this, XmlNode_t715 * ___existing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t715 * XmlAttributeCollection_RemoveIdenticalAttribute_m10756 (XmlAttributeCollection_t721 * __this, XmlNode_t715 * ___existing, const MethodInfo* method) IL2CPP_METHOD_ATTR;

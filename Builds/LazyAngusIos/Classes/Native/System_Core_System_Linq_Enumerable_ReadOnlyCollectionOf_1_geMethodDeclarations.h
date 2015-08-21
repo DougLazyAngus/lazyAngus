@@ -8,5 +8,5 @@
 struct ReadOnlyCollectionOf_1_t6282;
 
 // System.Void System.Linq.Enumerable/ReadOnlyCollectionOf`1<System.Object>::.cctor()
-extern "C" void ReadOnlyCollectionOf_1__cctor_m34744_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define ReadOnlyCollectionOf_1__cctor_m34744(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))ReadOnlyCollectionOf_1__cctor_m34744_gshared)(__this /* static, unused */, method)
+extern "C" void ReadOnlyCollectionOf_1__cctor_m34745_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define ReadOnlyCollectionOf_1__cctor_m34745(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))ReadOnlyCollectionOf_1__cctor_m34745_gshared)(__this /* static, unused */, method)

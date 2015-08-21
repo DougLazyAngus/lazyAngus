@@ -8,4 +8,4 @@
 struct OptionalAttribute_t4348;
 
 // System.Void System.Runtime.InteropServices.OptionalAttribute::.ctor()
-extern "C" void OptionalAttribute__ctor_m16271 (OptionalAttribute_t4348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OptionalAttribute__ctor_m16272 (OptionalAttribute_t4348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

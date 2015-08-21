@@ -12,12 +12,12 @@ struct IEnumerator_t48;
 struct XmlNode_t715;
 
 // System.Void System.Xml.XmlNode/EmptyNodeList::.ctor()
-extern "C" void EmptyNodeList__ctor_m11021 (EmptyNodeList_t3239 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EmptyNodeList__ctor_m11022 (EmptyNodeList_t3239 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlNode/EmptyNodeList::.cctor()
-extern "C" void EmptyNodeList__cctor_m11022 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EmptyNodeList__cctor_m11023 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlNode/EmptyNodeList::get_Count()
-extern "C" int32_t EmptyNodeList_get_Count_m11023 (EmptyNodeList_t3239 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t EmptyNodeList_get_Count_m11024 (EmptyNodeList_t3239 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Xml.XmlNode/EmptyNodeList::GetEnumerator()
-extern "C" Object_t * EmptyNodeList_GetEnumerator_m11024 (EmptyNodeList_t3239 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * EmptyNodeList_GetEnumerator_m11025 (EmptyNodeList_t3239 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlNode/EmptyNodeList::Item(System.Int32)
-extern "C" XmlNode_t715 * EmptyNodeList_Item_m11025 (EmptyNodeList_t3239 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t715 * EmptyNodeList_Item_m11026 (EmptyNodeList_t3239 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;

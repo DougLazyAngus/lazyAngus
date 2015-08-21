@@ -8,6 +8,6 @@
 struct EventArgs_t1295;
 
 // System.Void System.EventArgs::.ctor()
-extern "C" void EventArgs__ctor_m7661 (EventArgs_t1295 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventArgs__ctor_m7662 (EventArgs_t1295 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.EventArgs::.cctor()
-extern "C" void EventArgs__cctor_m19734 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventArgs__cctor_m19735 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

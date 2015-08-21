@@ -10,6 +10,6 @@ struct U3CU3Ec__DisplayClass1_t1365;
 struct Object_t;
 
 // System.Void System.Threading.Tasks.TaskScheduler/<>c__DisplayClass1::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1__ctor_m7263 (U3CU3Ec__DisplayClass1_t1365 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass1__ctor_m7264 (U3CU3Ec__DisplayClass1_t1365 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Tasks.TaskScheduler/<>c__DisplayClass1::<Post>b__0(System.Object)
-extern "C" void U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7264 (U3CU3Ec__DisplayClass1_t1365 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass1_U3CPostU3Eb__0_m7265 (U3CU3Ec__DisplayClass1_t1365 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -10,22 +10,22 @@ struct MD5CryptoServiceProvider_t4692;
 struct ByteU5BU5D_t66;
 
 // System.Void System.Security.Cryptography.MD5CryptoServiceProvider::.ctor()
-extern "C" void MD5CryptoServiceProvider__ctor_m18674 (MD5CryptoServiceProvider_t4692 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MD5CryptoServiceProvider__ctor_m18675 (MD5CryptoServiceProvider_t4692 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.MD5CryptoServiceProvider::.cctor()
-extern "C" void MD5CryptoServiceProvider__cctor_m18675 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MD5CryptoServiceProvider__cctor_m18676 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.MD5CryptoServiceProvider::Finalize()
-extern "C" void MD5CryptoServiceProvider_Finalize_m18676 (MD5CryptoServiceProvider_t4692 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MD5CryptoServiceProvider_Finalize_m18677 (MD5CryptoServiceProvider_t4692 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.MD5CryptoServiceProvider::Dispose(System.Boolean)
-extern "C" void MD5CryptoServiceProvider_Dispose_m18677 (MD5CryptoServiceProvider_t4692 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MD5CryptoServiceProvider_Dispose_m18678 (MD5CryptoServiceProvider_t4692 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.MD5CryptoServiceProvider::HashCore(System.Byte[],System.Int32,System.Int32)
-extern "C" void MD5CryptoServiceProvider_HashCore_m18678 (MD5CryptoServiceProvider_t4692 * __this, ByteU5BU5D_t66* ___rgb, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MD5CryptoServiceProvider_HashCore_m18679 (MD5CryptoServiceProvider_t4692 * __this, ByteU5BU5D_t66* ___rgb, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.MD5CryptoServiceProvider::HashFinal()
-extern "C" ByteU5BU5D_t66* MD5CryptoServiceProvider_HashFinal_m18679 (MD5CryptoServiceProvider_t4692 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* MD5CryptoServiceProvider_HashFinal_m18680 (MD5CryptoServiceProvider_t4692 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.MD5CryptoServiceProvider::Initialize()
-extern "C" void MD5CryptoServiceProvider_Initialize_m18680 (MD5CryptoServiceProvider_t4692 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MD5CryptoServiceProvider_Initialize_m18681 (MD5CryptoServiceProvider_t4692 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.MD5CryptoServiceProvider::ProcessBlock(System.Byte[],System.Int32)
-extern "C" void MD5CryptoServiceProvider_ProcessBlock_m18681 (MD5CryptoServiceProvider_t4692 * __this, ByteU5BU5D_t66* ___inputBuffer, int32_t ___inputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MD5CryptoServiceProvider_ProcessBlock_m18682 (MD5CryptoServiceProvider_t4692 * __this, ByteU5BU5D_t66* ___inputBuffer, int32_t ___inputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.MD5CryptoServiceProvider::ProcessFinalBlock(System.Byte[],System.Int32,System.Int32)
-extern "C" void MD5CryptoServiceProvider_ProcessFinalBlock_m18682 (MD5CryptoServiceProvider_t4692 * __this, ByteU5BU5D_t66* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MD5CryptoServiceProvider_ProcessFinalBlock_m18683 (MD5CryptoServiceProvider_t4692 * __this, ByteU5BU5D_t66* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.MD5CryptoServiceProvider::AddLength(System.UInt64,System.Byte[],System.Int32)
-extern "C" void MD5CryptoServiceProvider_AddLength_m18683 (MD5CryptoServiceProvider_t4692 * __this, uint64_t ___length, ByteU5BU5D_t66* ___buffer, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MD5CryptoServiceProvider_AddLength_m18684 (MD5CryptoServiceProvider_t4692 * __this, uint64_t ___length, ByteU5BU5D_t66* ___buffer, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;

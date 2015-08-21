@@ -8,4 +8,4 @@
 struct UnverifiableCodeAttribute_t4739;
 
 // System.Void System.Security.UnverifiableCodeAttribute::.ctor()
-extern "C" void UnverifiableCodeAttribute__ctor_m18976 (UnverifiableCodeAttribute_t4739 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnverifiableCodeAttribute__ctor_m18977 (UnverifiableCodeAttribute_t4739 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

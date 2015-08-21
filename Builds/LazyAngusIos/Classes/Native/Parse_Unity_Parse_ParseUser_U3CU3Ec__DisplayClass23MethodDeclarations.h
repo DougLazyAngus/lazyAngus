@@ -12,6 +12,6 @@ struct Task_t1208;
 struct Task_1_t1371;
 
 // System.Void Parse.ParseUser/<>c__DisplayClass23::.ctor()
-extern "C" void U3CU3Ec__DisplayClass23__ctor_m7028 (U3CU3Ec__DisplayClass23_t1312 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass23__ctor_m7029 (U3CU3Ec__DisplayClass23_t1312 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseUser/<>c__DisplayClass23::<LinkWithAsync>b__22(System.Threading.Tasks.Task`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>)
-extern "C" Task_t1208 * U3CU3Ec__DisplayClass23_U3CLinkWithAsyncU3Eb__22_m7029 (U3CU3Ec__DisplayClass23_t1312 * __this, Task_1_t1371 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1208 * U3CU3Ec__DisplayClass23_U3CLinkWithAsyncU3Eb__22_m7030 (U3CU3Ec__DisplayClass23_t1312 * __this, Task_1_t1371 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

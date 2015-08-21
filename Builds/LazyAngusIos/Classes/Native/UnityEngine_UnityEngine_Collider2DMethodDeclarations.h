@@ -10,6 +10,6 @@ struct Collider2D_t697;
 struct Rigidbody2D_t2767;
 
 // System.Void UnityEngine.Collider2D::set_isTrigger(System.Boolean)
-extern "C" void Collider2D_set_isTrigger_m4279 (Collider2D_t697 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Collider2D_set_isTrigger_m4280 (Collider2D_t697 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rigidbody2D UnityEngine.Collider2D::get_attachedRigidbody()
-extern "C" Rigidbody2D_t2767 * Collider2D_get_attachedRigidbody_m9483 (Collider2D_t697 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rigidbody2D_t2767 * Collider2D_get_attachedRigidbody_m9484 (Collider2D_t697 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

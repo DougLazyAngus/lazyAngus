@@ -10,6 +10,6 @@ struct U3CU3Ec__DisplayClass1b_t1310;
 struct Task_t1208;
 
 // System.Void Parse.ParseUser/<>c__DisplayClass1b::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1b__ctor_m7024 (U3CU3Ec__DisplayClass1b_t1310 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass1b__ctor_m7025 (U3CU3Ec__DisplayClass1b_t1310 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseUser/<>c__DisplayClass1b::<UpgradeToRevocableSessionAsync>b__1a(System.Threading.Tasks.Task)
-extern "C" Task_t1208 * U3CU3Ec__DisplayClass1b_U3CUpgradeToRevocableSessionAsyncU3Eb__1a_m7025 (U3CU3Ec__DisplayClass1b_t1310 * __this, Task_t1208 * ___toAwait, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1208 * U3CU3Ec__DisplayClass1b_U3CUpgradeToRevocableSessionAsyncU3Eb__1a_m7026 (U3CU3Ec__DisplayClass1b_t1310 * __this, Task_t1208 * ___toAwait, const MethodInfo* method) IL2CPP_METHOD_ATTR;

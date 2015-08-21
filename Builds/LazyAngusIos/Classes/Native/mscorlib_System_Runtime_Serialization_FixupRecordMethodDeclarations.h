@@ -14,6 +14,6 @@ struct MemberInfo_t;
 struct ObjectManager_t4654;
 
 // System.Void System.Runtime.Serialization.FixupRecord::.ctor(System.Runtime.Serialization.ObjectRecord,System.Reflection.MemberInfo,System.Runtime.Serialization.ObjectRecord)
-extern "C" void FixupRecord__ctor_m18507 (FixupRecord_t4665 * __this, ObjectRecord_t4661 * ___objectToBeFixed, MemberInfo_t * ___member, ObjectRecord_t4661 * ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FixupRecord__ctor_m18508 (FixupRecord_t4665 * __this, ObjectRecord_t4661 * ___objectToBeFixed, MemberInfo_t * ___member, ObjectRecord_t4661 * ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.FixupRecord::FixupImpl(System.Runtime.Serialization.ObjectManager)
-extern "C" void FixupRecord_FixupImpl_m18508 (FixupRecord_t4665 * __this, ObjectManager_t4654 * ___manager, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FixupRecord_FixupImpl_m18509 (FixupRecord_t4665 * __this, ObjectManager_t4654 * ___manager, const MethodInfo* method) IL2CPP_METHOD_ATTR;

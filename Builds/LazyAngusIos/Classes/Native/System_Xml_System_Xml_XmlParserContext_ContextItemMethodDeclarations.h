@@ -8,4 +8,4 @@
 struct ContextItem_t3248;
 
 // System.Void System.Xml.XmlParserContext/ContextItem::.ctor()
-extern "C" void ContextItem__ctor_m11081 (ContextItem_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ContextItem__ctor_m11082 (ContextItem_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

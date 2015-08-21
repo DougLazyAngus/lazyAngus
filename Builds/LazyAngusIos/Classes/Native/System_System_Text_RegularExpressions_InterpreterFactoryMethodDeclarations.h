@@ -16,20 +16,20 @@ struct UInt16U5BU5D_t4058;
 struct IMachine_t4117;
 
 // System.Void System.Text.RegularExpressions.InterpreterFactory::.ctor(System.UInt16[])
-extern "C" void InterpreterFactory__ctor_m14667 (InterpreterFactory_t4133 * __this, UInt16U5BU5D_t4058* ___pattern, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InterpreterFactory__ctor_m14668 (InterpreterFactory_t4133 * __this, UInt16U5BU5D_t4058* ___pattern, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.IMachine System.Text.RegularExpressions.InterpreterFactory::NewInstance()
-extern "C" Object_t * InterpreterFactory_NewInstance_m14668 (InterpreterFactory_t4133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * InterpreterFactory_NewInstance_m14669 (InterpreterFactory_t4133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.InterpreterFactory::get_GroupCount()
-extern "C" int32_t InterpreterFactory_get_GroupCount_m14669 (InterpreterFactory_t4133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InterpreterFactory_get_GroupCount_m14670 (InterpreterFactory_t4133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.InterpreterFactory::get_Gap()
-extern "C" int32_t InterpreterFactory_get_Gap_m14670 (InterpreterFactory_t4133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t InterpreterFactory_get_Gap_m14671 (InterpreterFactory_t4133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.InterpreterFactory::set_Gap(System.Int32)
-extern "C" void InterpreterFactory_set_Gap_m14671 (InterpreterFactory_t4133 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InterpreterFactory_set_Gap_m14672 (InterpreterFactory_t4133 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IDictionary System.Text.RegularExpressions.InterpreterFactory::get_Mapping()
-extern "C" Object_t * InterpreterFactory_get_Mapping_m14672 (InterpreterFactory_t4133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * InterpreterFactory_get_Mapping_m14673 (InterpreterFactory_t4133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.InterpreterFactory::set_Mapping(System.Collections.IDictionary)
-extern "C" void InterpreterFactory_set_Mapping_m14673 (InterpreterFactory_t4133 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InterpreterFactory_set_Mapping_m14674 (InterpreterFactory_t4133 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.Text.RegularExpressions.InterpreterFactory::get_NamesMapping()
-extern "C" StringU5BU5D_t75* InterpreterFactory_get_NamesMapping_m14674 (InterpreterFactory_t4133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* InterpreterFactory_get_NamesMapping_m14675 (InterpreterFactory_t4133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.InterpreterFactory::set_NamesMapping(System.String[])
-extern "C" void InterpreterFactory_set_NamesMapping_m14675 (InterpreterFactory_t4133 * __this, StringU5BU5D_t75* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InterpreterFactory_set_NamesMapping_m14676 (InterpreterFactory_t4133 * __this, StringU5BU5D_t75* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -8,6 +8,6 @@
 struct CircleCollider2D_t616;
 
 // System.Single UnityEngine.CircleCollider2D::get_radius()
-extern "C" float CircleCollider2D_get_radius_m4278 (CircleCollider2D_t616 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float CircleCollider2D_get_radius_m4279 (CircleCollider2D_t616 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.CircleCollider2D::set_radius(System.Single)
-extern "C" void CircleCollider2D_set_radius_m4277 (CircleCollider2D_t616 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CircleCollider2D_set_radius_m4278 (CircleCollider2D_t616 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

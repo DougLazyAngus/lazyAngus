@@ -16,11 +16,11 @@ struct Object_t;
 struct BaseInvokableCall_t2881;
 
 // System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>::.ctor()
-extern "C" void UnityEvent_3__ctor_m62935_gshared (UnityEvent_3_t8579 * __this, const MethodInfo* method);
-#define UnityEvent_3__ctor_m62935(__this, method) (( void (*) (UnityEvent_3_t8579 *, const MethodInfo*))UnityEvent_3__ctor_m62935_gshared)(__this, method)
+extern "C" void UnityEvent_3__ctor_m62936_gshared (UnityEvent_3_t8579 * __this, const MethodInfo* method);
+#define UnityEvent_3__ctor_m62936(__this, method) (( void (*) (UnityEvent_3_t8579 *, const MethodInfo*))UnityEvent_3__ctor_m62936_gshared)(__this, method)
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>::FindMethod_Impl(System.String,System.Object)
-extern "C" MethodInfo_t * UnityEvent_3_FindMethod_Impl_m62936_gshared (UnityEvent_3_t8579 * __this, String_t* ___name, Object_t * ___targetObj, const MethodInfo* method);
-#define UnityEvent_3_FindMethod_Impl_m62936(__this, ___name, ___targetObj, method) (( MethodInfo_t * (*) (UnityEvent_3_t8579 *, String_t*, Object_t *, const MethodInfo*))UnityEvent_3_FindMethod_Impl_m62936_gshared)(__this, ___name, ___targetObj, method)
+extern "C" MethodInfo_t * UnityEvent_3_FindMethod_Impl_m62937_gshared (UnityEvent_3_t8579 * __this, String_t* ___name, Object_t * ___targetObj, const MethodInfo* method);
+#define UnityEvent_3_FindMethod_Impl_m62937(__this, ___name, ___targetObj, method) (( MethodInfo_t * (*) (UnityEvent_3_t8579 *, String_t*, Object_t *, const MethodInfo*))UnityEvent_3_FindMethod_Impl_m62937_gshared)(__this, ___name, ___targetObj, method)
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>::GetDelegate(System.Object,System.Reflection.MethodInfo)
-extern "C" BaseInvokableCall_t2881 * UnityEvent_3_GetDelegate_m62937_gshared (UnityEvent_3_t8579 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method);
-#define UnityEvent_3_GetDelegate_m62937(__this, ___target, ___theFunction, method) (( BaseInvokableCall_t2881 * (*) (UnityEvent_3_t8579 *, Object_t *, MethodInfo_t *, const MethodInfo*))UnityEvent_3_GetDelegate_m62937_gshared)(__this, ___target, ___theFunction, method)
+extern "C" BaseInvokableCall_t2881 * UnityEvent_3_GetDelegate_m62938_gshared (UnityEvent_3_t8579 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method);
+#define UnityEvent_3_GetDelegate_m62938(__this, ___target, ___theFunction, method) (( BaseInvokableCall_t2881 * (*) (UnityEvent_3_t8579 *, Object_t *, MethodInfo_t *, const MethodInfo*))UnityEvent_3_GetDelegate_m62938_gshared)(__this, ___target, ___theFunction, method)

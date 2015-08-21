@@ -5,10 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 
 public class FacebookSharing : MonoBehaviour {
-	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public void LaunchShareWidget(int score, bool isHighScore);
-
-
 	public static FacebookSharing instance;
 	private int scoreToShare;
 
@@ -34,11 +30,7 @@ public class FacebookSharing : MonoBehaviour {
 	}
 
 	public void ShareScore(int score, bool isHighScore) {
-		if (Application.platform == RuntimePlatform.IPhonePlayer) {
-			LaunchShareWidget(score, isHighScore);
-		} else {
-			ShareScoreThroughLibraries (score);
-		}
+		ShareScoreThroughLibraries (score);
 	}
 
 	public void ShareScoreThroughLibraries(int score) {

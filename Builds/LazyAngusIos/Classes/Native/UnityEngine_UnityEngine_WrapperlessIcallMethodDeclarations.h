@@ -8,4 +8,4 @@
 struct WrapperlessIcall_t2833;
 
 // System.Void UnityEngine.WrapperlessIcall::.ctor()
-extern "C" void WrapperlessIcall__ctor_m9849 (WrapperlessIcall_t2833 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WrapperlessIcall__ctor_m9850 (WrapperlessIcall_t2833 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

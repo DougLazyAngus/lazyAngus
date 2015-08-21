@@ -8,4 +8,4 @@
 struct SearchPattern_t4493;
 
 // System.Void System.IO.SearchPattern::.cctor()
-extern "C" void SearchPattern__cctor_m17471 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SearchPattern__cctor_m17472 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

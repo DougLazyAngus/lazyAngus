@@ -20,14 +20,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_71.h"
 
 // System.Void System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>,System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_2__ctor_m48544_gshared (Func_2_t7399 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_2__ctor_m48544(__this, ___object, ___method, method) (( void (*) (Func_2_t7399 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m48544_gshared)(__this, ___object, ___method, method)
+extern "C" void Func_2__ctor_m48545_gshared (Func_2_t7399 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Func_2__ctor_m48545(__this, ___object, ___method, method) (( void (*) (Func_2_t7399 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m48545_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>,System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::Invoke(T)
-extern "C" KeyValuePair_2_t7196  Func_2_Invoke_m48546_gshared (Func_2_t7399 * __this, KeyValuePair_2_t7218  ___arg1, const MethodInfo* method);
-#define Func_2_Invoke_m48546(__this, ___arg1, method) (( KeyValuePair_2_t7196  (*) (Func_2_t7399 *, KeyValuePair_2_t7218 , const MethodInfo*))Func_2_Invoke_m48546_gshared)(__this, ___arg1, method)
+extern "C" KeyValuePair_2_t7196  Func_2_Invoke_m48547_gshared (Func_2_t7399 * __this, KeyValuePair_2_t7218  ___arg1, const MethodInfo* method);
+#define Func_2_Invoke_m48547(__this, ___arg1, method) (( KeyValuePair_2_t7196  (*) (Func_2_t7399 *, KeyValuePair_2_t7218 , const MethodInfo*))Func_2_Invoke_m48547_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>,System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Func_2_BeginInvoke_m48548_gshared (Func_2_t7399 * __this, KeyValuePair_2_t7218  ___arg1, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Func_2_BeginInvoke_m48548(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7399 *, KeyValuePair_2_t7218 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m48548_gshared)(__this, ___arg1, ___callback, ___object, method)
+extern "C" Object_t * Func_2_BeginInvoke_m48549_gshared (Func_2_t7399 * __this, KeyValuePair_2_t7218  ___arg1, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Func_2_BeginInvoke_m48549(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7399 *, KeyValuePair_2_t7218 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m48549_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>,System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::EndInvoke(System.IAsyncResult)
-extern "C" KeyValuePair_2_t7196  Func_2_EndInvoke_m48550_gshared (Func_2_t7399 * __this, Object_t * ___result, const MethodInfo* method);
-#define Func_2_EndInvoke_m48550(__this, ___result, method) (( KeyValuePair_2_t7196  (*) (Func_2_t7399 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m48550_gshared)(__this, ___result, method)
+extern "C" KeyValuePair_2_t7196  Func_2_EndInvoke_m48551_gshared (Func_2_t7399 * __this, Object_t * ___result, const MethodInfo* method);
+#define Func_2_EndInvoke_m48551(__this, ___result, method) (( KeyValuePair_2_t7196  (*) (Func_2_t7399 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m48551_gshared)(__this, ___result, method)

@@ -10,11 +10,11 @@ struct DefaultComparer_t8709;
 #include "mscorlib_System_TimeSpan.h"
 
 // System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.TimeSpan>::.ctor()
-extern "C" void DefaultComparer__ctor_m64361_gshared (DefaultComparer_t8709 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m64361(__this, method) (( void (*) (DefaultComparer_t8709 *, const MethodInfo*))DefaultComparer__ctor_m64361_gshared)(__this, method)
+extern "C" void DefaultComparer__ctor_m64362_gshared (DefaultComparer_t8709 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m64362(__this, method) (( void (*) (DefaultComparer_t8709 *, const MethodInfo*))DefaultComparer__ctor_m64362_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.TimeSpan>::GetHashCode(T)
-extern "C" int32_t DefaultComparer_GetHashCode_m64362_gshared (DefaultComparer_t8709 * __this, TimeSpan_t334  ___obj, const MethodInfo* method);
-#define DefaultComparer_GetHashCode_m64362(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t8709 *, TimeSpan_t334 , const MethodInfo*))DefaultComparer_GetHashCode_m64362_gshared)(__this, ___obj, method)
+extern "C" int32_t DefaultComparer_GetHashCode_m64363_gshared (DefaultComparer_t8709 * __this, TimeSpan_t334  ___obj, const MethodInfo* method);
+#define DefaultComparer_GetHashCode_m64363(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t8709 *, TimeSpan_t334 , const MethodInfo*))DefaultComparer_GetHashCode_m64363_gshared)(__this, ___obj, method)
 // System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.TimeSpan>::Equals(T,T)
-extern "C" bool DefaultComparer_Equals_m64363_gshared (DefaultComparer_t8709 * __this, TimeSpan_t334  ___x, TimeSpan_t334  ___y, const MethodInfo* method);
-#define DefaultComparer_Equals_m64363(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t8709 *, TimeSpan_t334 , TimeSpan_t334 , const MethodInfo*))DefaultComparer_Equals_m64363_gshared)(__this, ___x, ___y, method)
+extern "C" bool DefaultComparer_Equals_m64364_gshared (DefaultComparer_t8709 * __this, TimeSpan_t334  ___x, TimeSpan_t334  ___y, const MethodInfo* method);
+#define DefaultComparer_Equals_m64364(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t8709 *, TimeSpan_t334 , TimeSpan_t334 , const MethodInfo*))DefaultComparer_Equals_m64364_gshared)(__this, ___x, ___y, method)

@@ -8,4 +8,4 @@
 struct WritableAttribute_t2840;
 
 // System.Void UnityEngine.WritableAttribute::.ctor()
-extern "C" void WritableAttribute__ctor_m9858 (WritableAttribute_t2840 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WritableAttribute__ctor_m9859 (WritableAttribute_t2840 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

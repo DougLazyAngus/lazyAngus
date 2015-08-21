@@ -8,4 +8,4 @@
 struct XsdNonPositiveInteger_t3126;
 
 // System.Void Mono.Xml.Schema.XsdNonPositiveInteger::.ctor()
-extern "C" void XsdNonPositiveInteger__ctor_m10457 (XsdNonPositiveInteger_t3126 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdNonPositiveInteger__ctor_m10458 (XsdNonPositiveInteger_t3126 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

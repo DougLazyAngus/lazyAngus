@@ -8,4 +8,4 @@
 struct XsdInt_t3117;
 
 // System.Void Mono.Xml.Schema.XsdInt::.ctor()
-extern "C" void XsdInt__ctor_m10448 (XsdInt_t3117 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdInt__ctor_m10449 (XsdInt_t3117 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

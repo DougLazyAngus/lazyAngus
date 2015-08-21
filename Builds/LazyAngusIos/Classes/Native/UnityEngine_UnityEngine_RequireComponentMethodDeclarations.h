@@ -10,4 +10,4 @@ struct RequireComponent_t808;
 struct Type_t;
 
 // System.Void UnityEngine.RequireComponent::.ctor(System.Type)
-extern "C" void RequireComponent__ctor_m4474 (RequireComponent_t808 * __this, Type_t * ___requiredComponent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RequireComponent__ctor_m4475 (RequireComponent_t808 * __this, Type_t * ___requiredComponent, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -16,12 +16,12 @@ struct String_t;
 struct Action_1_t277;
 
 // UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.Social::get_Active()
-extern "C" Object_t * Social_get_Active_m9940 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Social_get_Active_m9941 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.SocialPlatforms.ILocalUser UnityEngine.Social::get_localUser()
-extern "C" Object_t * Social_get_localUser_m4196 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Social_get_localUser_m4197 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Social::ReportProgress(System.String,System.Double,System.Action`1<System.Boolean>)
-extern "C" void Social_ReportProgress_m4304 (Object_t * __this /* static, unused */, String_t* ___achievementID, double ___progress, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Social_ReportProgress_m4305 (Object_t * __this /* static, unused */, String_t* ___achievementID, double ___progress, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Social::ReportScore(System.Int64,System.String,System.Action`1<System.Boolean>)
-extern "C" void Social_ReportScore_m4303 (Object_t * __this /* static, unused */, int64_t ___score, String_t* ___board, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Social_ReportScore_m4304 (Object_t * __this /* static, unused */, int64_t ___score, String_t* ___board, Action_1_t277 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Social::ShowAchievementsUI()
-extern "C" void Social_ShowAchievementsUI_m4306 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Social_ShowAchievementsUI_m4307 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

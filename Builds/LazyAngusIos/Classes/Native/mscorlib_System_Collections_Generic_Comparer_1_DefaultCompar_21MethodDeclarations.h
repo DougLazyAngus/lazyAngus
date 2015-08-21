@@ -10,8 +10,8 @@ struct DefaultComparer_t7700;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_75.h"
 
 // System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>>::.ctor()
-extern "C" void DefaultComparer__ctor_m52139_gshared (DefaultComparer_t7700 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m52139(__this, method) (( void (*) (DefaultComparer_t7700 *, const MethodInfo*))DefaultComparer__ctor_m52139_gshared)(__this, method)
+extern "C" void DefaultComparer__ctor_m52140_gshared (DefaultComparer_t7700 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m52140(__this, method) (( void (*) (DefaultComparer_t7700 *, const MethodInfo*))DefaultComparer__ctor_m52140_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m52140_gshared (DefaultComparer_t7700 * __this, KeyValuePair_2_t7247  ___x, KeyValuePair_2_t7247  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m52140(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t7700 *, KeyValuePair_2_t7247 , KeyValuePair_2_t7247 , const MethodInfo*))DefaultComparer_Compare_m52140_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t DefaultComparer_Compare_m52141_gshared (DefaultComparer_t7700 * __this, KeyValuePair_2_t7247  ___x, KeyValuePair_2_t7247  ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m52141(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t7700 *, KeyValuePair_2_t7247 , KeyValuePair_2_t7247 , const MethodInfo*))DefaultComparer_Compare_m52141_gshared)(__this, ___x, ___y, method)

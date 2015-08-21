@@ -12,14 +12,14 @@ struct IDictionary_2_t820;
 struct String_t;
 
 // System.Void Parse.ParsePushNotificationEventArgs::.ctor(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C" void ParsePushNotificationEventArgs__ctor_m6974 (ParsePushNotificationEventArgs_t1294 * __this, Object_t* ___payload, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePushNotificationEventArgs__ctor_m6975 (ParsePushNotificationEventArgs_t1294 * __this, Object_t* ___payload, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParsePushNotificationEventArgs::.ctor(System.String)
-extern "C" void ParsePushNotificationEventArgs__ctor_m6975 (ParsePushNotificationEventArgs_t1294 * __this, String_t* ___stringPayload, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePushNotificationEventArgs__ctor_m6976 (ParsePushNotificationEventArgs_t1294 * __this, String_t* ___stringPayload, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParsePushNotificationEventArgs::get_Payload()
-extern "C" Object_t* ParsePushNotificationEventArgs_get_Payload_m6976 (ParsePushNotificationEventArgs_t1294 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* ParsePushNotificationEventArgs_get_Payload_m6977 (ParsePushNotificationEventArgs_t1294 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParsePushNotificationEventArgs::set_Payload(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C" void ParsePushNotificationEventArgs_set_Payload_m6977 (ParsePushNotificationEventArgs_t1294 * __this, Object_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePushNotificationEventArgs_set_Payload_m6978 (ParsePushNotificationEventArgs_t1294 * __this, Object_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.ParsePushNotificationEventArgs::get_StringPayload()
-extern "C" String_t* ParsePushNotificationEventArgs_get_StringPayload_m6978 (ParsePushNotificationEventArgs_t1294 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParsePushNotificationEventArgs_get_StringPayload_m6979 (ParsePushNotificationEventArgs_t1294 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParsePushNotificationEventArgs::set_StringPayload(System.String)
-extern "C" void ParsePushNotificationEventArgs_set_StringPayload_m6979 (ParsePushNotificationEventArgs_t1294 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePushNotificationEventArgs_set_StringPayload_m6980 (ParsePushNotificationEventArgs_t1294 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

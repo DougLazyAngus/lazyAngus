@@ -10,6 +10,6 @@ struct SystemClock_t2875;
 #include "mscorlib_System_DateTime.h"
 
 // System.Void UnityEngine.SystemClock::.cctor()
-extern "C" void SystemClock__cctor_m9993 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SystemClock__cctor_m9994 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime UnityEngine.SystemClock::get_now()
-extern "C" DateTime_t287  SystemClock_get_now_m9994 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t287  SystemClock_get_now_m9995 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

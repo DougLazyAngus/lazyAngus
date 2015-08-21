@@ -20,16 +20,16 @@ struct MatchAppendEvaluator_t4113;
 struct MatchEvaluator_t1177;
 
 // System.Void System.Text.RegularExpressions.BaseMachine::.ctor()
-extern "C" void BaseMachine__ctor_m14571 (BaseMachine_t4114 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseMachine__ctor_m14572 (BaseMachine_t4114 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.BaseMachine::Replace(System.Text.RegularExpressions.Regex,System.String,System.String,System.Int32,System.Int32)
-extern "C" String_t* BaseMachine_Replace_m14572 (BaseMachine_t4114 * __this, Regex_t785 * ___regex, String_t* ___input, String_t* ___replacement, int32_t ___count, int32_t ___startat, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* BaseMachine_Replace_m14573 (BaseMachine_t4114 * __this, Regex_t785 * ___regex, String_t* ___input, String_t* ___replacement, int32_t ___count, int32_t ___startat, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.Text.RegularExpressions.BaseMachine::Split(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32)
-extern "C" StringU5BU5D_t75* BaseMachine_Split_m14573 (BaseMachine_t4114 * __this, Regex_t785 * ___regex, String_t* ___input, int32_t ___count, int32_t ___startat, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* BaseMachine_Split_m14574 (BaseMachine_t4114 * __this, Regex_t785 * ___regex, String_t* ___input, int32_t ___count, int32_t ___startat, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.BaseMachine::Scan(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32)
-extern "C" Match_t1372 * BaseMachine_Scan_m14574 (BaseMachine_t4114 * __this, Regex_t785 * ___regex, String_t* ___text, int32_t ___start, int32_t ___end, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Match_t1372 * BaseMachine_Scan_m14575 (BaseMachine_t4114 * __this, Regex_t785 * ___regex, String_t* ___text, int32_t ___start, int32_t ___end, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.BaseMachine::LTRReplace(System.Text.RegularExpressions.Regex,System.String,System.Text.RegularExpressions.BaseMachine/MatchAppendEvaluator,System.Int32,System.Int32)
-extern "C" String_t* BaseMachine_LTRReplace_m14575 (BaseMachine_t4114 * __this, Regex_t785 * ___regex, String_t* ___input, MatchAppendEvaluator_t4113 * ___evaluator, int32_t ___count, int32_t ___startat, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* BaseMachine_LTRReplace_m14576 (BaseMachine_t4114 * __this, Regex_t785 * ___regex, String_t* ___input, MatchAppendEvaluator_t4113 * ___evaluator, int32_t ___count, int32_t ___startat, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.BaseMachine::LTRReplace(System.Text.RegularExpressions.Regex,System.String,System.Text.RegularExpressions.BaseMachine/MatchAppendEvaluator,System.Int32,System.Int32,System.Boolean)
-extern "C" String_t* BaseMachine_LTRReplace_m14576 (BaseMachine_t4114 * __this, Regex_t785 * ___regex, String_t* ___input, MatchAppendEvaluator_t4113 * ___evaluator, int32_t ___count, int32_t ___startat, bool ___needs_groups_or_captures, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* BaseMachine_LTRReplace_m14577 (BaseMachine_t4114 * __this, Regex_t785 * ___regex, String_t* ___input, MatchAppendEvaluator_t4113 * ___evaluator, int32_t ___count, int32_t ___startat, bool ___needs_groups_or_captures, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.BaseMachine::RTLReplace(System.Text.RegularExpressions.Regex,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32,System.Int32)
-extern "C" String_t* BaseMachine_RTLReplace_m14577 (BaseMachine_t4114 * __this, Regex_t785 * ___regex, String_t* ___input, MatchEvaluator_t1177 * ___evaluator, int32_t ___count, int32_t ___startat, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* BaseMachine_RTLReplace_m14578 (BaseMachine_t4114 * __this, Regex_t785 * ___regex, String_t* ___input, MatchEvaluator_t1177 * ___evaluator, int32_t ___count, int32_t ___startat, const MethodInfo* method) IL2CPP_METHOD_ATTR;

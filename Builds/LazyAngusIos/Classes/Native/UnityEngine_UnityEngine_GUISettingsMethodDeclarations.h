@@ -8,4 +8,4 @@
 struct GUISettings_t2723;
 
 // System.Void UnityEngine.GUISettings::.ctor()
-extern "C" void GUISettings__ctor_m8949 (GUISettings_t2723 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUISettings__ctor_m8950 (GUISettings_t2723 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

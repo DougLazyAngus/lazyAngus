@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.IO.FileStream/WriteDelegate::.ctor(System.Object,System.IntPtr)
-extern "C" void WriteDelegate__ctor_m17374 (WriteDelegate_t4486 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WriteDelegate__ctor_m17375 (WriteDelegate_t4486 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileStream/WriteDelegate::Invoke(System.Byte[],System.Int32,System.Int32)
-extern "C" void WriteDelegate_Invoke_m17375 (WriteDelegate_t4486 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WriteDelegate_Invoke_m17376 (WriteDelegate_t4486 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 #include "mscorlib_ArrayTypes.h"
 // System.Byte
 #include "mscorlib_System_Byte.h"
 extern "C" void pinvoke_delegate_wrapper_WriteDelegate_t4486(Il2CppObject* delegate, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count);
 // System.IAsyncResult System.IO.FileStream/WriteDelegate::BeginInvoke(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-extern "C" Object_t * WriteDelegate_BeginInvoke_m17376 (WriteDelegate_t4486 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WriteDelegate_BeginInvoke_m17377 (WriteDelegate_t4486 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileStream/WriteDelegate::EndInvoke(System.IAsyncResult)
-extern "C" void WriteDelegate_EndInvoke_m17377 (WriteDelegate_t4486 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WriteDelegate_EndInvoke_m17378 (WriteDelegate_t4486 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

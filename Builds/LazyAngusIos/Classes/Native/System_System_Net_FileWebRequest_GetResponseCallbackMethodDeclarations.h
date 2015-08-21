@@ -18,11 +18,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Net.FileWebRequest/GetResponseCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void GetResponseCallback__ctor_m13791 (GetResponseCallback_t4030 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GetResponseCallback__ctor_m13792 (GetResponseCallback_t4030 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebResponse System.Net.FileWebRequest/GetResponseCallback::Invoke()
-extern "C" WebResponse_t3300 * GetResponseCallback_Invoke_m13792 (GetResponseCallback_t4030 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebResponse_t3300 * GetResponseCallback_Invoke_m13793 (GetResponseCallback_t4030 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" WebResponse_t3300 * pinvoke_delegate_wrapper_GetResponseCallback_t4030(Il2CppObject* delegate);
 // System.IAsyncResult System.Net.FileWebRequest/GetResponseCallback::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * GetResponseCallback_BeginInvoke_m13793 (GetResponseCallback_t4030 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GetResponseCallback_BeginInvoke_m13794 (GetResponseCallback_t4030 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebResponse System.Net.FileWebRequest/GetResponseCallback::EndInvoke(System.IAsyncResult)
-extern "C" WebResponse_t3300 * GetResponseCallback_EndInvoke_m13794 (GetResponseCallback_t4030 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebResponse_t3300 * GetResponseCallback_EndInvoke_m13795 (GetResponseCallback_t4030 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
