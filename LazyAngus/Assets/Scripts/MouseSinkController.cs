@@ -13,6 +13,8 @@ public class MouseSinkController : MonoBehaviour {
 	const float spreadY = 0.3f;
 	public float trapBasicZ = -0.1f;
 
+	public float distortDelay = 0.9f;
+
 	public int savedMouseCount { get; private set; }
 	
 	public enum MouseHoleLocation {
@@ -57,16 +59,16 @@ public class MouseSinkController : MonoBehaviour {
 		registeredForEvents = true;
 		GamePhaseState.instance.GameInstanceChanged +=
 			new GamePhaseState.GameInstanceChangedEventHandler (OnInstanceChanged);
-		sizeCameraWorld.CameraSized += 
-			new SizeCamera.CameraSizedHandler (OnCameraChanged);
+		sizeCameraWorld.CameraConfigured += 
+			new SizeCamera.CameraConfiguredHandler (OnCameraChanged);
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
 			GamePhaseState.instance.GameInstanceChanged -=
 				new GamePhaseState.GameInstanceChangedEventHandler (OnInstanceChanged);
-			sizeCameraWorld.CameraSized -= 
-				new SizeCamera.CameraSizedHandler (OnCameraChanged);
+			sizeCameraWorld.CameraConfigured -= 
+				new SizeCamera.CameraConfiguredHandler (OnCameraChanged);
 		}
 	}
 
@@ -192,7 +194,7 @@ public class MouseSinkController : MonoBehaviour {
 		if (somethingChanged && GameLevelState.instance.gameLevel != 1) {
 			DistortForEffect d4e = GetComponent<DistortForEffect>();
 			if (d4e) {
-				d4e.Distort();
+				d4e.DistortWithDelay(distortDelay);
 			}
 		}
 	}

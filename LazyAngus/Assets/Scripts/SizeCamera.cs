@@ -8,14 +8,30 @@ public class SizeCamera : MonoBehaviour {
 	public float screenPixelsTopToIgnore = 0f;
 	public float screenPixelsBottomToIgnore = 0f;
 
-	public delegate void CameraSizedHandler();
-	public event CameraSizedHandler CameraSized;
+	public delegate void CameraConfiguredHandler();
+	public event CameraConfiguredHandler CameraConfigured;
 
+	public float finalWorldHalfHeight;	
+	float phaseStartTime;
+	Camera myCamera;
+	ZoomCamera myZoomCamera;
+
+	bool registeredForEvents;
 
 	float finalAspectRatio;
 
 	void Awake() {
 		finalAspectRatio = 0;
+		myCamera = GetComponent<Camera>();
+		myZoomCamera = GetComponent<ZoomCamera>();
+	}
+
+	void UpdateCameraSize() {
+		if (myZoomCamera) {
+			myZoomCamera.UpdateCameraSize();
+		} else {
+			myCamera.orthographicSize = finalWorldHalfHeight;
+		}
 	}
 
 	public float GetAspectRatio() {
@@ -36,12 +52,10 @@ public class SizeCamera : MonoBehaviour {
 			worldHalfHeight = worldHalfWidth / finalAspectRatio;
 		}
 		
-		// obtain camera component so we can modify its viewport
-		Camera camera = GetComponent<Camera>();
-		
-		camera.orthographicSize = worldHalfHeight;
-		
-		Rect rect = camera.rect;  
+		finalWorldHalfHeight = worldHalfHeight;
+		UpdateCameraSize ();
+
+		Rect rect = myCamera.rect;  
 		
 		// Camera always goes all the way across....
 		float bottomViewport = screenPixelsBottomToIgnore / (float)Screen.height;
@@ -52,10 +66,10 @@ public class SizeCamera : MonoBehaviour {
 		rect.x = 0;
 		rect.y = bottomViewport;
 		
-		camera.rect = rect;
+		myCamera.rect = rect;
 
-		if (CameraSized != null) {
-			CameraSized ();
+		if (CameraConfigured != null) {
+			CameraConfigured ();
 		}
 	}
 }

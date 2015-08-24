@@ -14,8 +14,10 @@ public class GamePhaseState : MonoBehaviour {
 	};
 
 	public GamePhaseType gamePhase  { get; private set; }
+	public GamePhaseType previousGamePhase  { get; private set; }
 
 	private GamePhaseType pendingPhase;
+
 	private float pendingPhaseTimeout;
 	public float pendingPause = 1f;	
 	private bool shouldCheckForPhaseTransition = false;
@@ -38,6 +40,7 @@ public class GamePhaseState : MonoBehaviour {
 	void Awake() {
 		instance = this;
 		gamePhase = GamePhaseType.NULL;
+		previousGamePhase = GamePhaseType.NULL;
 	}
 	
 	void Start() {
@@ -58,6 +61,7 @@ public class GamePhaseState : MonoBehaviour {
 	
 	public void RestartGame() {
 		gamePhase = GamePhaseType.NULL;
+		previousGamePhase = GamePhaseType.NULL;
 
 		if (GameInstanceChanged != null) {
 			GameInstanceChanged ();
@@ -125,8 +129,8 @@ public class GamePhaseState : MonoBehaviour {
 			// Throw an error.
 			return;
 		}
-		
 
+		previousGamePhase = gamePhase;
 		gamePhase = newPhase;
 
 		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.GAME_OVER) {
