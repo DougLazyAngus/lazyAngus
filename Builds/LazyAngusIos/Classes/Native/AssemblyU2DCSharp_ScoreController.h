@@ -5,14 +5,16 @@ struct GameObject_t352;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // ScoreController
-struct  ScoreController_t637  : public MonoBehaviour_t13
+struct  ScoreController_t639  : public MonoBehaviour_t13
 {
 	// System.Boolean ScoreController::registeredForEvents
 	bool ___registeredForEvents_2;
+	// UnityEngine.GameObject ScoreController::deadMousePrototype
+	GameObject_t352 * ___deadMousePrototype_3;
 	// UnityEngine.GameObject ScoreController::scoreEffectPrototype
-	GameObject_t352 * ___scoreEffectPrototype_3;
+	GameObject_t352 * ___scoreEffectPrototype_4;
 	// UnityEngine.GameObject ScoreController::scoreDisplay
-	GameObject_t352 * ___scoreDisplay_4;
+	GameObject_t352 * ___scoreDisplay_5;
 	// System.Boolean ScoreController::scoreEffectClockwise
-	bool ___scoreEffectClockwise_5;
+	bool ___scoreEffectClockwise_6;
 };

@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.CancellationTokenSource
-struct CancellationTokenSource_t1337;
+struct CancellationTokenSource_t1340;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Threading.CancellationToken
-struct  CancellationToken_t1162 
+struct  CancellationToken_t1165 
 {
 	// System.Threading.CancellationTokenSource System.Threading.CancellationToken::source
-	CancellationTokenSource_t1337 * ___source_0;
+	CancellationTokenSource_t1340 * ___source_0;
 };

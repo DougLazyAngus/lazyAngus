@@ -3,16 +3,16 @@
 #include "codegen/il2cpp-codegen.h"
 #include "stringLiterals.h"
 // Metadata Definition System.Runtime.InteropServices._ConstructorInfo
-extern TypeInfo _ConstructorInfo_t4955_il2cpp_TypeInfo;
-static const MethodInfo* _ConstructorInfo_t4955_MethodInfos[] =
+extern TypeInfo _ConstructorInfo_t4958_il2cpp_TypeInfo;
+static const MethodInfo* _ConstructorInfo_t4958_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _ConstructorInfo_t4955_0_0_0;
-extern const Il2CppType _ConstructorInfo_t4955_1_0_0;
-struct _ConstructorInfo_t4955;
-const Il2CppTypeDefinitionMetadata _ConstructorInfo_t4955_DefinitionMetadata = 
+extern const Il2CppType _ConstructorInfo_t4958_0_0_0;
+extern const Il2CppType _ConstructorInfo_t4958_1_0_0;
+struct _ConstructorInfo_t4958;
+const Il2CppTypeDefinitionMetadata _ConstructorInfo_t4958_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -25,21 +25,21 @@ const Il2CppTypeDefinitionMetadata _ConstructorInfo_t4955_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _ConstructorInfo_t4955_il2cpp_TypeInfo = 
+TypeInfo _ConstructorInfo_t4958_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_ConstructorInfo"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _ConstructorInfo_t4955_MethodInfos/* methods */
+	, _ConstructorInfo_t4958_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_ConstructorInfo_t4955_il2cpp_TypeInfo/* element_class */
+	, &_ConstructorInfo_t4958_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 504/* custom_attributes_cache */
-	, &_ConstructorInfo_t4955_0_0_0/* byval_arg */
-	, &_ConstructorInfo_t4955_1_0_0/* this_arg */
-	, &_ConstructorInfo_t4955_DefinitionMetadata/* definitionMetadata */
+	, &_ConstructorInfo_t4958_0_0_0/* byval_arg */
+	, &_ConstructorInfo_t4958_1_0_0/* this_arg */
+	, &_ConstructorInfo_t4958_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -80,16 +80,16 @@ TypeInfo _ConstructorInfo_t4955_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._EnumBuilder
-extern TypeInfo _EnumBuilder_t4946_il2cpp_TypeInfo;
-static const MethodInfo* _EnumBuilder_t4946_MethodInfos[] =
+extern TypeInfo _EnumBuilder_t4949_il2cpp_TypeInfo;
+static const MethodInfo* _EnumBuilder_t4949_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _EnumBuilder_t4946_0_0_0;
-extern const Il2CppType _EnumBuilder_t4946_1_0_0;
-struct _EnumBuilder_t4946;
-const Il2CppTypeDefinitionMetadata _EnumBuilder_t4946_DefinitionMetadata = 
+extern const Il2CppType _EnumBuilder_t4949_0_0_0;
+extern const Il2CppType _EnumBuilder_t4949_1_0_0;
+struct _EnumBuilder_t4949;
+const Il2CppTypeDefinitionMetadata _EnumBuilder_t4949_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -102,21 +102,21 @@ const Il2CppTypeDefinitionMetadata _EnumBuilder_t4946_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _EnumBuilder_t4946_il2cpp_TypeInfo = 
+TypeInfo _EnumBuilder_t4949_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_EnumBuilder"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _EnumBuilder_t4946_MethodInfos/* methods */
+	, _EnumBuilder_t4949_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_EnumBuilder_t4946_il2cpp_TypeInfo/* element_class */
+	, &_EnumBuilder_t4949_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 505/* custom_attributes_cache */
-	, &_EnumBuilder_t4946_0_0_0/* byval_arg */
-	, &_EnumBuilder_t4946_1_0_0/* this_arg */
-	, &_EnumBuilder_t4946_DefinitionMetadata/* definitionMetadata */
+	, &_EnumBuilder_t4949_0_0_0/* byval_arg */
+	, &_EnumBuilder_t4949_1_0_0/* this_arg */
+	, &_EnumBuilder_t4949_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -157,16 +157,16 @@ TypeInfo _EnumBuilder_t4946_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._EventInfo
-extern TypeInfo _EventInfo_t4956_il2cpp_TypeInfo;
-static const MethodInfo* _EventInfo_t4956_MethodInfos[] =
+extern TypeInfo _EventInfo_t4959_il2cpp_TypeInfo;
+static const MethodInfo* _EventInfo_t4959_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _EventInfo_t4956_0_0_0;
-extern const Il2CppType _EventInfo_t4956_1_0_0;
-struct _EventInfo_t4956;
-const Il2CppTypeDefinitionMetadata _EventInfo_t4956_DefinitionMetadata = 
+extern const Il2CppType _EventInfo_t4959_0_0_0;
+extern const Il2CppType _EventInfo_t4959_1_0_0;
+struct _EventInfo_t4959;
+const Il2CppTypeDefinitionMetadata _EventInfo_t4959_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -179,21 +179,21 @@ const Il2CppTypeDefinitionMetadata _EventInfo_t4956_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _EventInfo_t4956_il2cpp_TypeInfo = 
+TypeInfo _EventInfo_t4959_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_EventInfo"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _EventInfo_t4956_MethodInfos/* methods */
+	, _EventInfo_t4959_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_EventInfo_t4956_il2cpp_TypeInfo/* element_class */
+	, &_EventInfo_t4959_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 506/* custom_attributes_cache */
-	, &_EventInfo_t4956_0_0_0/* byval_arg */
-	, &_EventInfo_t4956_1_0_0/* this_arg */
-	, &_EventInfo_t4956_DefinitionMetadata/* definitionMetadata */
+	, &_EventInfo_t4959_0_0_0/* byval_arg */
+	, &_EventInfo_t4959_1_0_0/* this_arg */
+	, &_EventInfo_t4959_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -234,16 +234,16 @@ TypeInfo _EventInfo_t4956_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._FieldBuilder
-extern TypeInfo _FieldBuilder_t4947_il2cpp_TypeInfo;
-static const MethodInfo* _FieldBuilder_t4947_MethodInfos[] =
+extern TypeInfo _FieldBuilder_t4950_il2cpp_TypeInfo;
+static const MethodInfo* _FieldBuilder_t4950_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _FieldBuilder_t4947_0_0_0;
-extern const Il2CppType _FieldBuilder_t4947_1_0_0;
-struct _FieldBuilder_t4947;
-const Il2CppTypeDefinitionMetadata _FieldBuilder_t4947_DefinitionMetadata = 
+extern const Il2CppType _FieldBuilder_t4950_0_0_0;
+extern const Il2CppType _FieldBuilder_t4950_1_0_0;
+struct _FieldBuilder_t4950;
+const Il2CppTypeDefinitionMetadata _FieldBuilder_t4950_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -256,21 +256,21 @@ const Il2CppTypeDefinitionMetadata _FieldBuilder_t4947_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _FieldBuilder_t4947_il2cpp_TypeInfo = 
+TypeInfo _FieldBuilder_t4950_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_FieldBuilder"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _FieldBuilder_t4947_MethodInfos/* methods */
+	, _FieldBuilder_t4950_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_FieldBuilder_t4947_il2cpp_TypeInfo/* element_class */
+	, &_FieldBuilder_t4950_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 507/* custom_attributes_cache */
-	, &_FieldBuilder_t4947_0_0_0/* byval_arg */
-	, &_FieldBuilder_t4947_1_0_0/* this_arg */
-	, &_FieldBuilder_t4947_DefinitionMetadata/* definitionMetadata */
+	, &_FieldBuilder_t4950_0_0_0/* byval_arg */
+	, &_FieldBuilder_t4950_1_0_0/* this_arg */
+	, &_FieldBuilder_t4950_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -311,16 +311,16 @@ TypeInfo _FieldBuilder_t4947_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._FieldInfo
-extern TypeInfo _FieldInfo_t4957_il2cpp_TypeInfo;
-static const MethodInfo* _FieldInfo_t4957_MethodInfos[] =
+extern TypeInfo _FieldInfo_t4960_il2cpp_TypeInfo;
+static const MethodInfo* _FieldInfo_t4960_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _FieldInfo_t4957_0_0_0;
-extern const Il2CppType _FieldInfo_t4957_1_0_0;
-struct _FieldInfo_t4957;
-const Il2CppTypeDefinitionMetadata _FieldInfo_t4957_DefinitionMetadata = 
+extern const Il2CppType _FieldInfo_t4960_0_0_0;
+extern const Il2CppType _FieldInfo_t4960_1_0_0;
+struct _FieldInfo_t4960;
+const Il2CppTypeDefinitionMetadata _FieldInfo_t4960_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -333,21 +333,21 @@ const Il2CppTypeDefinitionMetadata _FieldInfo_t4957_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _FieldInfo_t4957_il2cpp_TypeInfo = 
+TypeInfo _FieldInfo_t4960_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_FieldInfo"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _FieldInfo_t4957_MethodInfos/* methods */
+	, _FieldInfo_t4960_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_FieldInfo_t4957_il2cpp_TypeInfo/* element_class */
+	, &_FieldInfo_t4960_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 508/* custom_attributes_cache */
-	, &_FieldInfo_t4957_0_0_0/* byval_arg */
-	, &_FieldInfo_t4957_1_0_0/* this_arg */
-	, &_FieldInfo_t4957_DefinitionMetadata/* definitionMetadata */
+	, &_FieldInfo_t4960_0_0_0/* byval_arg */
+	, &_FieldInfo_t4960_1_0_0/* this_arg */
+	, &_FieldInfo_t4960_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -388,16 +388,16 @@ TypeInfo _FieldInfo_t4957_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._MethodBase
-extern TypeInfo _MethodBase_t4958_il2cpp_TypeInfo;
-static const MethodInfo* _MethodBase_t4958_MethodInfos[] =
+extern TypeInfo _MethodBase_t4961_il2cpp_TypeInfo;
+static const MethodInfo* _MethodBase_t4961_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _MethodBase_t4958_0_0_0;
-extern const Il2CppType _MethodBase_t4958_1_0_0;
-struct _MethodBase_t4958;
-const Il2CppTypeDefinitionMetadata _MethodBase_t4958_DefinitionMetadata = 
+extern const Il2CppType _MethodBase_t4961_0_0_0;
+extern const Il2CppType _MethodBase_t4961_1_0_0;
+struct _MethodBase_t4961;
+const Il2CppTypeDefinitionMetadata _MethodBase_t4961_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -410,21 +410,21 @@ const Il2CppTypeDefinitionMetadata _MethodBase_t4958_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _MethodBase_t4958_il2cpp_TypeInfo = 
+TypeInfo _MethodBase_t4961_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_MethodBase"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _MethodBase_t4958_MethodInfos/* methods */
+	, _MethodBase_t4961_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_MethodBase_t4958_il2cpp_TypeInfo/* element_class */
+	, &_MethodBase_t4961_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 509/* custom_attributes_cache */
-	, &_MethodBase_t4958_0_0_0/* byval_arg */
-	, &_MethodBase_t4958_1_0_0/* this_arg */
-	, &_MethodBase_t4958_DefinitionMetadata/* definitionMetadata */
+	, &_MethodBase_t4961_0_0_0/* byval_arg */
+	, &_MethodBase_t4961_1_0_0/* this_arg */
+	, &_MethodBase_t4961_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -465,16 +465,16 @@ TypeInfo _MethodBase_t4958_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._MethodBuilder
-extern TypeInfo _MethodBuilder_t4948_il2cpp_TypeInfo;
-static const MethodInfo* _MethodBuilder_t4948_MethodInfos[] =
+extern TypeInfo _MethodBuilder_t4951_il2cpp_TypeInfo;
+static const MethodInfo* _MethodBuilder_t4951_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _MethodBuilder_t4948_0_0_0;
-extern const Il2CppType _MethodBuilder_t4948_1_0_0;
-struct _MethodBuilder_t4948;
-const Il2CppTypeDefinitionMetadata _MethodBuilder_t4948_DefinitionMetadata = 
+extern const Il2CppType _MethodBuilder_t4951_0_0_0;
+extern const Il2CppType _MethodBuilder_t4951_1_0_0;
+struct _MethodBuilder_t4951;
+const Il2CppTypeDefinitionMetadata _MethodBuilder_t4951_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -487,21 +487,21 @@ const Il2CppTypeDefinitionMetadata _MethodBuilder_t4948_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _MethodBuilder_t4948_il2cpp_TypeInfo = 
+TypeInfo _MethodBuilder_t4951_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_MethodBuilder"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _MethodBuilder_t4948_MethodInfos/* methods */
+	, _MethodBuilder_t4951_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_MethodBuilder_t4948_il2cpp_TypeInfo/* element_class */
+	, &_MethodBuilder_t4951_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 510/* custom_attributes_cache */
-	, &_MethodBuilder_t4948_0_0_0/* byval_arg */
-	, &_MethodBuilder_t4948_1_0_0/* this_arg */
-	, &_MethodBuilder_t4948_DefinitionMetadata/* definitionMetadata */
+	, &_MethodBuilder_t4951_0_0_0/* byval_arg */
+	, &_MethodBuilder_t4951_1_0_0/* this_arg */
+	, &_MethodBuilder_t4951_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -542,16 +542,16 @@ TypeInfo _MethodBuilder_t4948_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._MethodInfo
-extern TypeInfo _MethodInfo_t4959_il2cpp_TypeInfo;
-static const MethodInfo* _MethodInfo_t4959_MethodInfos[] =
+extern TypeInfo _MethodInfo_t4962_il2cpp_TypeInfo;
+static const MethodInfo* _MethodInfo_t4962_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _MethodInfo_t4959_0_0_0;
-extern const Il2CppType _MethodInfo_t4959_1_0_0;
-struct _MethodInfo_t4959;
-const Il2CppTypeDefinitionMetadata _MethodInfo_t4959_DefinitionMetadata = 
+extern const Il2CppType _MethodInfo_t4962_0_0_0;
+extern const Il2CppType _MethodInfo_t4962_1_0_0;
+struct _MethodInfo_t4962;
+const Il2CppTypeDefinitionMetadata _MethodInfo_t4962_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -564,21 +564,21 @@ const Il2CppTypeDefinitionMetadata _MethodInfo_t4959_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _MethodInfo_t4959_il2cpp_TypeInfo = 
+TypeInfo _MethodInfo_t4962_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_MethodInfo"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _MethodInfo_t4959_MethodInfos/* methods */
+	, _MethodInfo_t4962_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_MethodInfo_t4959_il2cpp_TypeInfo/* element_class */
+	, &_MethodInfo_t4962_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 511/* custom_attributes_cache */
-	, &_MethodInfo_t4959_0_0_0/* byval_arg */
-	, &_MethodInfo_t4959_1_0_0/* this_arg */
-	, &_MethodInfo_t4959_DefinitionMetadata/* definitionMetadata */
+	, &_MethodInfo_t4962_0_0_0/* byval_arg */
+	, &_MethodInfo_t4962_1_0_0/* this_arg */
+	, &_MethodInfo_t4962_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -619,16 +619,16 @@ TypeInfo _MethodInfo_t4959_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._Module
-extern TypeInfo _Module_t4960_il2cpp_TypeInfo;
-static const MethodInfo* _Module_t4960_MethodInfos[] =
+extern TypeInfo _Module_t4963_il2cpp_TypeInfo;
+static const MethodInfo* _Module_t4963_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _Module_t4960_0_0_0;
-extern const Il2CppType _Module_t4960_1_0_0;
-struct _Module_t4960;
-const Il2CppTypeDefinitionMetadata _Module_t4960_DefinitionMetadata = 
+extern const Il2CppType _Module_t4963_0_0_0;
+extern const Il2CppType _Module_t4963_1_0_0;
+struct _Module_t4963;
+const Il2CppTypeDefinitionMetadata _Module_t4963_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -641,21 +641,21 @@ const Il2CppTypeDefinitionMetadata _Module_t4960_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _Module_t4960_il2cpp_TypeInfo = 
+TypeInfo _Module_t4963_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_Module"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _Module_t4960_MethodInfos/* methods */
+	, _Module_t4963_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_Module_t4960_il2cpp_TypeInfo/* element_class */
+	, &_Module_t4963_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 512/* custom_attributes_cache */
-	, &_Module_t4960_0_0_0/* byval_arg */
-	, &_Module_t4960_1_0_0/* this_arg */
-	, &_Module_t4960_DefinitionMetadata/* definitionMetadata */
+	, &_Module_t4963_0_0_0/* byval_arg */
+	, &_Module_t4963_1_0_0/* this_arg */
+	, &_Module_t4963_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -696,16 +696,16 @@ TypeInfo _Module_t4960_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._ModuleBuilder
-extern TypeInfo _ModuleBuilder_t4949_il2cpp_TypeInfo;
-static const MethodInfo* _ModuleBuilder_t4949_MethodInfos[] =
+extern TypeInfo _ModuleBuilder_t4952_il2cpp_TypeInfo;
+static const MethodInfo* _ModuleBuilder_t4952_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _ModuleBuilder_t4949_0_0_0;
-extern const Il2CppType _ModuleBuilder_t4949_1_0_0;
-struct _ModuleBuilder_t4949;
-const Il2CppTypeDefinitionMetadata _ModuleBuilder_t4949_DefinitionMetadata = 
+extern const Il2CppType _ModuleBuilder_t4952_0_0_0;
+extern const Il2CppType _ModuleBuilder_t4952_1_0_0;
+struct _ModuleBuilder_t4952;
+const Il2CppTypeDefinitionMetadata _ModuleBuilder_t4952_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -718,21 +718,21 @@ const Il2CppTypeDefinitionMetadata _ModuleBuilder_t4949_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _ModuleBuilder_t4949_il2cpp_TypeInfo = 
+TypeInfo _ModuleBuilder_t4952_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_ModuleBuilder"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _ModuleBuilder_t4949_MethodInfos/* methods */
+	, _ModuleBuilder_t4952_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_ModuleBuilder_t4949_il2cpp_TypeInfo/* element_class */
+	, &_ModuleBuilder_t4952_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 513/* custom_attributes_cache */
-	, &_ModuleBuilder_t4949_0_0_0/* byval_arg */
-	, &_ModuleBuilder_t4949_1_0_0/* this_arg */
-	, &_ModuleBuilder_t4949_DefinitionMetadata/* definitionMetadata */
+	, &_ModuleBuilder_t4952_0_0_0/* byval_arg */
+	, &_ModuleBuilder_t4952_1_0_0/* this_arg */
+	, &_ModuleBuilder_t4952_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -773,16 +773,16 @@ TypeInfo _ModuleBuilder_t4949_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._ParameterBuilder
-extern TypeInfo _ParameterBuilder_t4950_il2cpp_TypeInfo;
-static const MethodInfo* _ParameterBuilder_t4950_MethodInfos[] =
+extern TypeInfo _ParameterBuilder_t4953_il2cpp_TypeInfo;
+static const MethodInfo* _ParameterBuilder_t4953_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _ParameterBuilder_t4950_0_0_0;
-extern const Il2CppType _ParameterBuilder_t4950_1_0_0;
-struct _ParameterBuilder_t4950;
-const Il2CppTypeDefinitionMetadata _ParameterBuilder_t4950_DefinitionMetadata = 
+extern const Il2CppType _ParameterBuilder_t4953_0_0_0;
+extern const Il2CppType _ParameterBuilder_t4953_1_0_0;
+struct _ParameterBuilder_t4953;
+const Il2CppTypeDefinitionMetadata _ParameterBuilder_t4953_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -795,21 +795,21 @@ const Il2CppTypeDefinitionMetadata _ParameterBuilder_t4950_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _ParameterBuilder_t4950_il2cpp_TypeInfo = 
+TypeInfo _ParameterBuilder_t4953_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_ParameterBuilder"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _ParameterBuilder_t4950_MethodInfos/* methods */
+	, _ParameterBuilder_t4953_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_ParameterBuilder_t4950_il2cpp_TypeInfo/* element_class */
+	, &_ParameterBuilder_t4953_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 514/* custom_attributes_cache */
-	, &_ParameterBuilder_t4950_0_0_0/* byval_arg */
-	, &_ParameterBuilder_t4950_1_0_0/* this_arg */
-	, &_ParameterBuilder_t4950_DefinitionMetadata/* definitionMetadata */
+	, &_ParameterBuilder_t4953_0_0_0/* byval_arg */
+	, &_ParameterBuilder_t4953_1_0_0/* this_arg */
+	, &_ParameterBuilder_t4953_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -850,16 +850,16 @@ TypeInfo _ParameterBuilder_t4950_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._ParameterInfo
-extern TypeInfo _ParameterInfo_t4961_il2cpp_TypeInfo;
-static const MethodInfo* _ParameterInfo_t4961_MethodInfos[] =
+extern TypeInfo _ParameterInfo_t4964_il2cpp_TypeInfo;
+static const MethodInfo* _ParameterInfo_t4964_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _ParameterInfo_t4961_0_0_0;
-extern const Il2CppType _ParameterInfo_t4961_1_0_0;
-struct _ParameterInfo_t4961;
-const Il2CppTypeDefinitionMetadata _ParameterInfo_t4961_DefinitionMetadata = 
+extern const Il2CppType _ParameterInfo_t4964_0_0_0;
+extern const Il2CppType _ParameterInfo_t4964_1_0_0;
+struct _ParameterInfo_t4964;
+const Il2CppTypeDefinitionMetadata _ParameterInfo_t4964_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -872,21 +872,21 @@ const Il2CppTypeDefinitionMetadata _ParameterInfo_t4961_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _ParameterInfo_t4961_il2cpp_TypeInfo = 
+TypeInfo _ParameterInfo_t4964_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_ParameterInfo"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _ParameterInfo_t4961_MethodInfos/* methods */
+	, _ParameterInfo_t4964_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_ParameterInfo_t4961_il2cpp_TypeInfo/* element_class */
+	, &_ParameterInfo_t4964_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 515/* custom_attributes_cache */
-	, &_ParameterInfo_t4961_0_0_0/* byval_arg */
-	, &_ParameterInfo_t4961_1_0_0/* this_arg */
-	, &_ParameterInfo_t4961_DefinitionMetadata/* definitionMetadata */
+	, &_ParameterInfo_t4964_0_0_0/* byval_arg */
+	, &_ParameterInfo_t4964_1_0_0/* this_arg */
+	, &_ParameterInfo_t4964_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -927,16 +927,16 @@ TypeInfo _ParameterInfo_t4961_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._PropertyBuilder
-extern TypeInfo _PropertyBuilder_t4951_il2cpp_TypeInfo;
-static const MethodInfo* _PropertyBuilder_t4951_MethodInfos[] =
+extern TypeInfo _PropertyBuilder_t4954_il2cpp_TypeInfo;
+static const MethodInfo* _PropertyBuilder_t4954_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _PropertyBuilder_t4951_0_0_0;
-extern const Il2CppType _PropertyBuilder_t4951_1_0_0;
-struct _PropertyBuilder_t4951;
-const Il2CppTypeDefinitionMetadata _PropertyBuilder_t4951_DefinitionMetadata = 
+extern const Il2CppType _PropertyBuilder_t4954_0_0_0;
+extern const Il2CppType _PropertyBuilder_t4954_1_0_0;
+struct _PropertyBuilder_t4954;
+const Il2CppTypeDefinitionMetadata _PropertyBuilder_t4954_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -949,21 +949,21 @@ const Il2CppTypeDefinitionMetadata _PropertyBuilder_t4951_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _PropertyBuilder_t4951_il2cpp_TypeInfo = 
+TypeInfo _PropertyBuilder_t4954_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_PropertyBuilder"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _PropertyBuilder_t4951_MethodInfos/* methods */
+	, _PropertyBuilder_t4954_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_PropertyBuilder_t4951_il2cpp_TypeInfo/* element_class */
+	, &_PropertyBuilder_t4954_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 516/* custom_attributes_cache */
-	, &_PropertyBuilder_t4951_0_0_0/* byval_arg */
-	, &_PropertyBuilder_t4951_1_0_0/* this_arg */
-	, &_PropertyBuilder_t4951_DefinitionMetadata/* definitionMetadata */
+	, &_PropertyBuilder_t4954_0_0_0/* byval_arg */
+	, &_PropertyBuilder_t4954_1_0_0/* this_arg */
+	, &_PropertyBuilder_t4954_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1004,16 +1004,16 @@ TypeInfo _PropertyBuilder_t4951_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._PropertyInfo
-extern TypeInfo _PropertyInfo_t4962_il2cpp_TypeInfo;
-static const MethodInfo* _PropertyInfo_t4962_MethodInfos[] =
+extern TypeInfo _PropertyInfo_t4965_il2cpp_TypeInfo;
+static const MethodInfo* _PropertyInfo_t4965_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _PropertyInfo_t4962_0_0_0;
-extern const Il2CppType _PropertyInfo_t4962_1_0_0;
-struct _PropertyInfo_t4962;
-const Il2CppTypeDefinitionMetadata _PropertyInfo_t4962_DefinitionMetadata = 
+extern const Il2CppType _PropertyInfo_t4965_0_0_0;
+extern const Il2CppType _PropertyInfo_t4965_1_0_0;
+struct _PropertyInfo_t4965;
+const Il2CppTypeDefinitionMetadata _PropertyInfo_t4965_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -1026,21 +1026,21 @@ const Il2CppTypeDefinitionMetadata _PropertyInfo_t4962_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _PropertyInfo_t4962_il2cpp_TypeInfo = 
+TypeInfo _PropertyInfo_t4965_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_PropertyInfo"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _PropertyInfo_t4962_MethodInfos/* methods */
+	, _PropertyInfo_t4965_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_PropertyInfo_t4962_il2cpp_TypeInfo/* element_class */
+	, &_PropertyInfo_t4965_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 517/* custom_attributes_cache */
-	, &_PropertyInfo_t4962_0_0_0/* byval_arg */
-	, &_PropertyInfo_t4962_1_0_0/* this_arg */
-	, &_PropertyInfo_t4962_DefinitionMetadata/* definitionMetadata */
+	, &_PropertyInfo_t4965_0_0_0/* byval_arg */
+	, &_PropertyInfo_t4965_1_0_0/* this_arg */
+	, &_PropertyInfo_t4965_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1081,16 +1081,16 @@ TypeInfo _PropertyInfo_t4962_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._Thread
-extern TypeInfo _Thread_t4964_il2cpp_TypeInfo;
-static const MethodInfo* _Thread_t4964_MethodInfos[] =
+extern TypeInfo _Thread_t4967_il2cpp_TypeInfo;
+static const MethodInfo* _Thread_t4967_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _Thread_t4964_0_0_0;
-extern const Il2CppType _Thread_t4964_1_0_0;
-struct _Thread_t4964;
-const Il2CppTypeDefinitionMetadata _Thread_t4964_DefinitionMetadata = 
+extern const Il2CppType _Thread_t4967_0_0_0;
+extern const Il2CppType _Thread_t4967_1_0_0;
+struct _Thread_t4967;
+const Il2CppTypeDefinitionMetadata _Thread_t4967_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -1103,21 +1103,21 @@ const Il2CppTypeDefinitionMetadata _Thread_t4964_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _Thread_t4964_il2cpp_TypeInfo = 
+TypeInfo _Thread_t4967_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_Thread"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _Thread_t4964_MethodInfos/* methods */
+	, _Thread_t4967_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_Thread_t4964_il2cpp_TypeInfo/* element_class */
+	, &_Thread_t4967_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 518/* custom_attributes_cache */
-	, &_Thread_t4964_0_0_0/* byval_arg */
-	, &_Thread_t4964_1_0_0/* this_arg */
-	, &_Thread_t4964_DefinitionMetadata/* definitionMetadata */
+	, &_Thread_t4967_0_0_0/* byval_arg */
+	, &_Thread_t4967_1_0_0/* this_arg */
+	, &_Thread_t4967_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1158,16 +1158,16 @@ TypeInfo _Thread_t4964_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.InteropServices._TypeBuilder
-extern TypeInfo _TypeBuilder_t4952_il2cpp_TypeInfo;
-static const MethodInfo* _TypeBuilder_t4952_MethodInfos[] =
+extern TypeInfo _TypeBuilder_t4955_il2cpp_TypeInfo;
+static const MethodInfo* _TypeBuilder_t4955_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType _TypeBuilder_t4952_0_0_0;
-extern const Il2CppType _TypeBuilder_t4952_1_0_0;
-struct _TypeBuilder_t4952;
-const Il2CppTypeDefinitionMetadata _TypeBuilder_t4952_DefinitionMetadata = 
+extern const Il2CppType _TypeBuilder_t4955_0_0_0;
+extern const Il2CppType _TypeBuilder_t4955_1_0_0;
+struct _TypeBuilder_t4955;
+const Il2CppTypeDefinitionMetadata _TypeBuilder_t4955_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -1180,21 +1180,21 @@ const Il2CppTypeDefinitionMetadata _TypeBuilder_t4952_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo _TypeBuilder_t4952_il2cpp_TypeInfo = 
+TypeInfo _TypeBuilder_t4955_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "_TypeBuilder"/* name */
 	, "System.Runtime.InteropServices"/* namespaze */
-	, _TypeBuilder_t4952_MethodInfos/* methods */
+	, _TypeBuilder_t4955_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &_TypeBuilder_t4952_il2cpp_TypeInfo/* element_class */
+	, &_TypeBuilder_t4955_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 519/* custom_attributes_cache */
-	, &_TypeBuilder_t4952_0_0_0/* byval_arg */
-	, &_TypeBuilder_t4952_1_0_0/* this_arg */
-	, &_TypeBuilder_t4952_DefinitionMetadata/* definitionMetadata */
+	, &_TypeBuilder_t4955_0_0_0/* byval_arg */
+	, &_TypeBuilder_t4955_1_0_0/* this_arg */
+	, &_TypeBuilder_t4955_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1237,18 +1237,18 @@ TypeInfo _TypeBuilder_t4952_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Activation.ActivationServices
 #include "mscorlib_System_Runtime_Remoting_Activation_ActivationServic.h"
 // Metadata Definition System.Runtime.Remoting.Activation.ActivationServices
-extern TypeInfo ActivationServices_t4582_il2cpp_TypeInfo;
+extern TypeInfo ActivationServices_t4585_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Activation.ActivationServices
 #include "mscorlib_System_Runtime_Remoting_Activation_ActivationServicMethodDeclarations.h"
-extern const Il2CppType IActivator_t4581_0_0_0;
+extern const Il2CppType IActivator_t4584_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Activation.IActivator System.Runtime.Remoting.Activation.ActivationServices::get_ConstructionActivator()
-extern const MethodInfo ActivationServices_get_ConstructionActivator_m18160_MethodInfo = 
+extern const MethodInfo ActivationServices_get_ConstructionActivator_m18192_MethodInfo = 
 {
 	"get_ConstructionActivator"/* name */
-	, (methodPointerType)&ActivationServices_get_ConstructionActivator_m18160/* method */
-	, &ActivationServices_t4582_il2cpp_TypeInfo/* declaring_type */
-	, &IActivator_t4581_0_0_0/* return_type */
+	, (methodPointerType)&ActivationServices_get_ConstructionActivator_m18192/* method */
+	, &ActivationServices_t4585_il2cpp_TypeInfo/* declaring_type */
+	, &IActivator_t4584_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -1266,24 +1266,24 @@ extern const MethodInfo ActivationServices_get_ConstructionActivator_m18160_Meth
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t680_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t680_0_0_0;
-static const ParameterInfo ActivationServices_t4582_ActivationServices_CreateProxyFromAttributes_m18161_ParameterInfos[] = 
+extern const Il2CppType ObjectU5BU5D_t683_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t683_0_0_0;
+static const ParameterInfo ActivationServices_t4585_ActivationServices_CreateProxyFromAttributes_m18193_ParameterInfos[] = 
 {
 	{"type", 0, 134222076, 0, &Type_t_0_0_0},
-	{"activationAttributes", 1, 134222077, 0, &ObjectU5BU5D_t680_0_0_0},
+	{"activationAttributes", 1, 134222077, 0, &ObjectU5BU5D_t683_0_0_0},
 };
 extern const Il2CppType Object_t_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Activation.ActivationServices::CreateProxyFromAttributes(System.Type,System.Object[])
-extern const MethodInfo ActivationServices_CreateProxyFromAttributes_m18161_MethodInfo = 
+extern const MethodInfo ActivationServices_CreateProxyFromAttributes_m18193_MethodInfo = 
 {
 	"CreateProxyFromAttributes"/* name */
-	, (methodPointerType)&ActivationServices_CreateProxyFromAttributes_m18161/* method */
-	, &ActivationServices_t4582_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ActivationServices_CreateProxyFromAttributes_m18193/* method */
+	, &ActivationServices_t4585_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, ActivationServices_t4582_ActivationServices_CreateProxyFromAttributes_m18161_ParameterInfos/* parameters */
+	, ActivationServices_t4585_ActivationServices_CreateProxyFromAttributes_m18193_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -1300,24 +1300,24 @@ extern const MethodInfo ActivationServices_CreateProxyFromAttributes_m18161_Meth
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t680_0_0_0;
-static const ParameterInfo ActivationServices_t4582_ActivationServices_CreateConstructionCall_m18162_ParameterInfos[] = 
+extern const Il2CppType ObjectU5BU5D_t683_0_0_0;
+static const ParameterInfo ActivationServices_t4585_ActivationServices_CreateConstructionCall_m18194_ParameterInfos[] = 
 {
 	{"type", 0, 134222078, 0, &Type_t_0_0_0},
 	{"activationUrl", 1, 134222079, 0, &String_t_0_0_0},
-	{"activationAttributes", 2, 134222080, 0, &ObjectU5BU5D_t680_0_0_0},
+	{"activationAttributes", 2, 134222080, 0, &ObjectU5BU5D_t683_0_0_0},
 };
-extern const Il2CppType ConstructionCall_t4604_0_0_0;
+extern const Il2CppType ConstructionCall_t4607_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.ConstructionCall System.Runtime.Remoting.Activation.ActivationServices::CreateConstructionCall(System.Type,System.String,System.Object[])
-extern const MethodInfo ActivationServices_CreateConstructionCall_m18162_MethodInfo = 
+extern const MethodInfo ActivationServices_CreateConstructionCall_m18194_MethodInfo = 
 {
 	"CreateConstructionCall"/* name */
-	, (methodPointerType)&ActivationServices_CreateConstructionCall_m18162/* method */
-	, &ActivationServices_t4582_il2cpp_TypeInfo/* declaring_type */
-	, &ConstructionCall_t4604_0_0_0/* return_type */
+	, (methodPointerType)&ActivationServices_CreateConstructionCall_m18194/* method */
+	, &ActivationServices_t4585_il2cpp_TypeInfo/* declaring_type */
+	, &ConstructionCall_t4607_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, ActivationServices_t4582_ActivationServices_CreateConstructionCall_m18162_ParameterInfos/* parameters */
+	, ActivationServices_t4585_ActivationServices_CreateConstructionCall_m18194_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -1332,20 +1332,20 @@ extern const MethodInfo ActivationServices_CreateConstructionCall_m18162_MethodI
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ActivationServices_t4582_ActivationServices_AllocateUninitializedClassInstance_m18163_ParameterInfos[] = 
+static const ParameterInfo ActivationServices_t4585_ActivationServices_AllocateUninitializedClassInstance_m18195_ParameterInfos[] = 
 {
 	{"type", 0, 134222081, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Activation.ActivationServices::AllocateUninitializedClassInstance(System.Type)
-extern const MethodInfo ActivationServices_AllocateUninitializedClassInstance_m18163_MethodInfo = 
+extern const MethodInfo ActivationServices_AllocateUninitializedClassInstance_m18195_MethodInfo = 
 {
 	"AllocateUninitializedClassInstance"/* name */
-	, (methodPointerType)&ActivationServices_AllocateUninitializedClassInstance_m18163/* method */
-	, &ActivationServices_t4582_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ActivationServices_AllocateUninitializedClassInstance_m18195/* method */
+	, &ActivationServices_t4585_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ActivationServices_t4582_ActivationServices_AllocateUninitializedClassInstance_m18163_ParameterInfos/* parameters */
+	, ActivationServices_t4585_ActivationServices_AllocateUninitializedClassInstance_m18195_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 4096/* iflags */
@@ -1359,42 +1359,42 @@ extern const MethodInfo ActivationServices_AllocateUninitializedClassInstance_m1
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ActivationServices_t4582_MethodInfos[] =
+static const MethodInfo* ActivationServices_t4585_MethodInfos[] =
 {
-	&ActivationServices_get_ConstructionActivator_m18160_MethodInfo,
-	&ActivationServices_CreateProxyFromAttributes_m18161_MethodInfo,
-	&ActivationServices_CreateConstructionCall_m18162_MethodInfo,
-	&ActivationServices_AllocateUninitializedClassInstance_m18163_MethodInfo,
+	&ActivationServices_get_ConstructionActivator_m18192_MethodInfo,
+	&ActivationServices_CreateProxyFromAttributes_m18193_MethodInfo,
+	&ActivationServices_CreateConstructionCall_m18194_MethodInfo,
+	&ActivationServices_AllocateUninitializedClassInstance_m18195_MethodInfo,
 	NULL
 };
-extern const MethodInfo ActivationServices_get_ConstructionActivator_m18160_MethodInfo;
-static const PropertyInfo ActivationServices_t4582____ConstructionActivator_PropertyInfo = 
+extern const MethodInfo ActivationServices_get_ConstructionActivator_m18192_MethodInfo;
+static const PropertyInfo ActivationServices_t4585____ConstructionActivator_PropertyInfo = 
 {
-	&ActivationServices_t4582_il2cpp_TypeInfo/* parent */
+	&ActivationServices_t4585_il2cpp_TypeInfo/* parent */
 	, "ConstructionActivator"/* name */
-	, &ActivationServices_get_ConstructionActivator_m18160_MethodInfo/* get */
+	, &ActivationServices_get_ConstructionActivator_m18192_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ActivationServices_t4582_PropertyInfos[] =
+static const PropertyInfo* ActivationServices_t4585_PropertyInfos[] =
 {
-	&ActivationServices_t4582____ConstructionActivator_PropertyInfo,
+	&ActivationServices_t4585____ConstructionActivator_PropertyInfo,
 	NULL
 };
 extern const MethodInfo Object_Equals_m493_MethodInfo;
 extern const MethodInfo Object_Finalize_m490_MethodInfo;
 extern const MethodInfo Object_GetHashCode_m406_MethodInfo;
 extern const MethodInfo Object_ToString_m492_MethodInfo;
-static const Il2CppMethodReference ActivationServices_t4582_VTable[] =
+static const Il2CppMethodReference ActivationServices_t4585_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ActivationServices_t4582_VTableIsGenericMethod[] =
+static bool ActivationServices_t4585_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1402,37 +1402,37 @@ static bool ActivationServices_t4582_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ActivationServices_t4582_0_0_0;
-extern const Il2CppType ActivationServices_t4582_1_0_0;
-struct ActivationServices_t4582;
-const Il2CppTypeDefinitionMetadata ActivationServices_t4582_DefinitionMetadata = 
+extern const Il2CppType ActivationServices_t4585_0_0_0;
+extern const Il2CppType ActivationServices_t4585_1_0_0;
+struct ActivationServices_t4585;
+const Il2CppTypeDefinitionMetadata ActivationServices_t4585_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ActivationServices_t4582_VTable/* vtableMethods */
-	, ActivationServices_t4582_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ActivationServices_t4585_VTable/* vtableMethods */
+	, ActivationServices_t4585_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1522/* fieldStart */
 
 };
-TypeInfo ActivationServices_t4582_il2cpp_TypeInfo = 
+TypeInfo ActivationServices_t4585_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ActivationServices"/* name */
 	, "System.Runtime.Remoting.Activation"/* namespaze */
-	, ActivationServices_t4582_MethodInfos/* methods */
-	, ActivationServices_t4582_PropertyInfos/* properties */
+	, ActivationServices_t4585_MethodInfos/* methods */
+	, ActivationServices_t4585_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ActivationServices_t4582_il2cpp_TypeInfo/* element_class */
+	, &ActivationServices_t4585_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ActivationServices_t4582_0_0_0/* byval_arg */
-	, &ActivationServices_t4582_1_0_0/* this_arg */
-	, &ActivationServices_t4582_DefinitionMetadata/* definitionMetadata */
+	, &ActivationServices_t4585_0_0_0/* byval_arg */
+	, &ActivationServices_t4585_1_0_0/* this_arg */
+	, &ActivationServices_t4585_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1442,11 +1442,11 @@ TypeInfo ActivationServices_t4582_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ActivationServices_t4582)/* instance_size */
-	, sizeof (ActivationServices_t4582)/* actualSize */
+	, sizeof (ActivationServices_t4585)/* instance_size */
+	, sizeof (ActivationServices_t4585)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ActivationServices_t4582_StaticFields)/* static_fields_size */
+	, sizeof(ActivationServices_t4585_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -1475,27 +1475,27 @@ TypeInfo ActivationServices_t4582_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Activation.AppDomainLevelActivator
 #include "mscorlib_System_Runtime_Remoting_Activation_AppDomainLevelAc.h"
 // Metadata Definition System.Runtime.Remoting.Activation.AppDomainLevelActivator
-extern TypeInfo AppDomainLevelActivator_t4583_il2cpp_TypeInfo;
+extern TypeInfo AppDomainLevelActivator_t4586_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Activation.AppDomainLevelActivator
 #include "mscorlib_System_Runtime_Remoting_Activation_AppDomainLevelAcMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType IActivator_t4581_0_0_0;
-static const ParameterInfo AppDomainLevelActivator_t4583_AppDomainLevelActivator__ctor_m18164_ParameterInfos[] = 
+extern const Il2CppType IActivator_t4584_0_0_0;
+static const ParameterInfo AppDomainLevelActivator_t4586_AppDomainLevelActivator__ctor_m18196_ParameterInfos[] = 
 {
 	{"activationUrl", 0, 134222082, 0, &String_t_0_0_0},
-	{"next", 1, 134222083, 0, &IActivator_t4581_0_0_0},
+	{"next", 1, 134222083, 0, &IActivator_t4584_0_0_0},
 };
 extern const Il2CppType Void_t85_0_0_0;
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Activation.AppDomainLevelActivator::.ctor(System.String,System.Runtime.Remoting.Activation.IActivator)
-extern const MethodInfo AppDomainLevelActivator__ctor_m18164_MethodInfo = 
+extern const MethodInfo AppDomainLevelActivator__ctor_m18196_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AppDomainLevelActivator__ctor_m18164/* method */
-	, &AppDomainLevelActivator_t4583_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AppDomainLevelActivator__ctor_m18196/* method */
+	, &AppDomainLevelActivator_t4586_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, AppDomainLevelActivator_t4583_AppDomainLevelActivator__ctor_m18164_ParameterInfos/* parameters */
+	, AppDomainLevelActivator_t4586_AppDomainLevelActivator__ctor_m18196_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -1509,65 +1509,65 @@ extern const MethodInfo AppDomainLevelActivator__ctor_m18164_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* AppDomainLevelActivator_t4583_MethodInfos[] =
+static const MethodInfo* AppDomainLevelActivator_t4586_MethodInfos[] =
 {
-	&AppDomainLevelActivator__ctor_m18164_MethodInfo,
+	&AppDomainLevelActivator__ctor_m18196_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference AppDomainLevelActivator_t4583_VTable[] =
+static const Il2CppMethodReference AppDomainLevelActivator_t4586_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool AppDomainLevelActivator_t4583_VTableIsGenericMethod[] =
+static bool AppDomainLevelActivator_t4586_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static const Il2CppType* AppDomainLevelActivator_t4583_InterfacesTypeInfos[] = 
+static const Il2CppType* AppDomainLevelActivator_t4586_InterfacesTypeInfos[] = 
 {
-	&IActivator_t4581_0_0_0,
+	&IActivator_t4584_0_0_0,
 };
-static Il2CppInterfaceOffsetPair AppDomainLevelActivator_t4583_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair AppDomainLevelActivator_t4586_InterfacesOffsets[] = 
 {
-	{ &IActivator_t4581_0_0_0, 4},
+	{ &IActivator_t4584_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType AppDomainLevelActivator_t4583_0_0_0;
-extern const Il2CppType AppDomainLevelActivator_t4583_1_0_0;
-struct AppDomainLevelActivator_t4583;
-const Il2CppTypeDefinitionMetadata AppDomainLevelActivator_t4583_DefinitionMetadata = 
+extern const Il2CppType AppDomainLevelActivator_t4586_0_0_0;
+extern const Il2CppType AppDomainLevelActivator_t4586_1_0_0;
+struct AppDomainLevelActivator_t4586;
+const Il2CppTypeDefinitionMetadata AppDomainLevelActivator_t4586_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, AppDomainLevelActivator_t4583_InterfacesTypeInfos/* implementedInterfaces */
-	, AppDomainLevelActivator_t4583_InterfacesOffsets/* interfaceOffsets */
+	, AppDomainLevelActivator_t4586_InterfacesTypeInfos/* implementedInterfaces */
+	, AppDomainLevelActivator_t4586_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, AppDomainLevelActivator_t4583_VTable/* vtableMethods */
-	, AppDomainLevelActivator_t4583_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, AppDomainLevelActivator_t4586_VTable/* vtableMethods */
+	, AppDomainLevelActivator_t4586_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1523/* fieldStart */
 
 };
-TypeInfo AppDomainLevelActivator_t4583_il2cpp_TypeInfo = 
+TypeInfo AppDomainLevelActivator_t4586_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "AppDomainLevelActivator"/* name */
 	, "System.Runtime.Remoting.Activation"/* namespaze */
-	, AppDomainLevelActivator_t4583_MethodInfos/* methods */
+	, AppDomainLevelActivator_t4586_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &AppDomainLevelActivator_t4583_il2cpp_TypeInfo/* element_class */
+	, &AppDomainLevelActivator_t4586_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &AppDomainLevelActivator_t4583_0_0_0/* byval_arg */
-	, &AppDomainLevelActivator_t4583_1_0_0/* this_arg */
-	, &AppDomainLevelActivator_t4583_DefinitionMetadata/* definitionMetadata */
+	, &AppDomainLevelActivator_t4586_0_0_0/* byval_arg */
+	, &AppDomainLevelActivator_t4586_1_0_0/* this_arg */
+	, &AppDomainLevelActivator_t4586_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1577,8 +1577,8 @@ TypeInfo AppDomainLevelActivator_t4583_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (AppDomainLevelActivator_t4583)/* instance_size */
-	, sizeof (AppDomainLevelActivator_t4583)/* actualSize */
+	, sizeof (AppDomainLevelActivator_t4586)/* instance_size */
+	, sizeof (AppDomainLevelActivator_t4586)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1610,16 +1610,16 @@ TypeInfo AppDomainLevelActivator_t4583_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Activation.ConstructionLevelActivator
 #include "mscorlib_System_Runtime_Remoting_Activation_ConstructionLeve.h"
 // Metadata Definition System.Runtime.Remoting.Activation.ConstructionLevelActivator
-extern TypeInfo ConstructionLevelActivator_t4584_il2cpp_TypeInfo;
+extern TypeInfo ConstructionLevelActivator_t4587_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Activation.ConstructionLevelActivator
 #include "mscorlib_System_Runtime_Remoting_Activation_ConstructionLeveMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Activation.ConstructionLevelActivator::.ctor()
-extern const MethodInfo ConstructionLevelActivator__ctor_m18165_MethodInfo = 
+extern const MethodInfo ConstructionLevelActivator__ctor_m18197_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ConstructionLevelActivator__ctor_m18165/* method */
-	, &ConstructionLevelActivator_t4584_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionLevelActivator__ctor_m18197/* method */
+	, &ConstructionLevelActivator_t4587_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -1636,65 +1636,65 @@ extern const MethodInfo ConstructionLevelActivator__ctor_m18165_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConstructionLevelActivator_t4584_MethodInfos[] =
+static const MethodInfo* ConstructionLevelActivator_t4587_MethodInfos[] =
 {
-	&ConstructionLevelActivator__ctor_m18165_MethodInfo,
+	&ConstructionLevelActivator__ctor_m18197_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference ConstructionLevelActivator_t4584_VTable[] =
+static const Il2CppMethodReference ConstructionLevelActivator_t4587_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ConstructionLevelActivator_t4584_VTableIsGenericMethod[] =
+static bool ConstructionLevelActivator_t4587_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static const Il2CppType* ConstructionLevelActivator_t4584_InterfacesTypeInfos[] = 
+static const Il2CppType* ConstructionLevelActivator_t4587_InterfacesTypeInfos[] = 
 {
-	&IActivator_t4581_0_0_0,
+	&IActivator_t4584_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ConstructionLevelActivator_t4584_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConstructionLevelActivator_t4587_InterfacesOffsets[] = 
 {
-	{ &IActivator_t4581_0_0_0, 4},
+	{ &IActivator_t4584_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ConstructionLevelActivator_t4584_0_0_0;
-extern const Il2CppType ConstructionLevelActivator_t4584_1_0_0;
-struct ConstructionLevelActivator_t4584;
-const Il2CppTypeDefinitionMetadata ConstructionLevelActivator_t4584_DefinitionMetadata = 
+extern const Il2CppType ConstructionLevelActivator_t4587_0_0_0;
+extern const Il2CppType ConstructionLevelActivator_t4587_1_0_0;
+struct ConstructionLevelActivator_t4587;
+const Il2CppTypeDefinitionMetadata ConstructionLevelActivator_t4587_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ConstructionLevelActivator_t4584_InterfacesTypeInfos/* implementedInterfaces */
-	, ConstructionLevelActivator_t4584_InterfacesOffsets/* interfaceOffsets */
+	, ConstructionLevelActivator_t4587_InterfacesTypeInfos/* implementedInterfaces */
+	, ConstructionLevelActivator_t4587_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ConstructionLevelActivator_t4584_VTable/* vtableMethods */
-	, ConstructionLevelActivator_t4584_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConstructionLevelActivator_t4587_VTable/* vtableMethods */
+	, ConstructionLevelActivator_t4587_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo ConstructionLevelActivator_t4584_il2cpp_TypeInfo = 
+TypeInfo ConstructionLevelActivator_t4587_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConstructionLevelActivator"/* name */
 	, "System.Runtime.Remoting.Activation"/* namespaze */
-	, ConstructionLevelActivator_t4584_MethodInfos/* methods */
+	, ConstructionLevelActivator_t4587_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ConstructionLevelActivator_t4584_il2cpp_TypeInfo/* element_class */
+	, &ConstructionLevelActivator_t4587_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConstructionLevelActivator_t4584_0_0_0/* byval_arg */
-	, &ConstructionLevelActivator_t4584_1_0_0/* this_arg */
-	, &ConstructionLevelActivator_t4584_DefinitionMetadata/* definitionMetadata */
+	, &ConstructionLevelActivator_t4587_0_0_0/* byval_arg */
+	, &ConstructionLevelActivator_t4587_1_0_0/* this_arg */
+	, &ConstructionLevelActivator_t4587_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1704,8 +1704,8 @@ TypeInfo ConstructionLevelActivator_t4584_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConstructionLevelActivator_t4584)/* instance_size */
-	, sizeof (ConstructionLevelActivator_t4584)/* actualSize */
+	, sizeof (ConstructionLevelActivator_t4587)/* instance_size */
+	, sizeof (ConstructionLevelActivator_t4587)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1737,24 +1737,24 @@ TypeInfo ConstructionLevelActivator_t4584_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Activation.ContextLevelActivator
 #include "mscorlib_System_Runtime_Remoting_Activation_ContextLevelActi.h"
 // Metadata Definition System.Runtime.Remoting.Activation.ContextLevelActivator
-extern TypeInfo ContextLevelActivator_t4585_il2cpp_TypeInfo;
+extern TypeInfo ContextLevelActivator_t4588_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Activation.ContextLevelActivator
 #include "mscorlib_System_Runtime_Remoting_Activation_ContextLevelActiMethodDeclarations.h"
-extern const Il2CppType IActivator_t4581_0_0_0;
-static const ParameterInfo ContextLevelActivator_t4585_ContextLevelActivator__ctor_m18166_ParameterInfos[] = 
+extern const Il2CppType IActivator_t4584_0_0_0;
+static const ParameterInfo ContextLevelActivator_t4588_ContextLevelActivator__ctor_m18198_ParameterInfos[] = 
 {
-	{"next", 0, 134222084, 0, &IActivator_t4581_0_0_0},
+	{"next", 0, 134222084, 0, &IActivator_t4584_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Activation.ContextLevelActivator::.ctor(System.Runtime.Remoting.Activation.IActivator)
-extern const MethodInfo ContextLevelActivator__ctor_m18166_MethodInfo = 
+extern const MethodInfo ContextLevelActivator__ctor_m18198_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ContextLevelActivator__ctor_m18166/* method */
-	, &ContextLevelActivator_t4585_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ContextLevelActivator__ctor_m18198/* method */
+	, &ContextLevelActivator_t4588_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ContextLevelActivator_t4585_ContextLevelActivator__ctor_m18166_ParameterInfos/* parameters */
+	, ContextLevelActivator_t4588_ContextLevelActivator__ctor_m18198_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -1768,65 +1768,65 @@ extern const MethodInfo ContextLevelActivator__ctor_m18166_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ContextLevelActivator_t4585_MethodInfos[] =
+static const MethodInfo* ContextLevelActivator_t4588_MethodInfos[] =
 {
-	&ContextLevelActivator__ctor_m18166_MethodInfo,
+	&ContextLevelActivator__ctor_m18198_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference ContextLevelActivator_t4585_VTable[] =
+static const Il2CppMethodReference ContextLevelActivator_t4588_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ContextLevelActivator_t4585_VTableIsGenericMethod[] =
+static bool ContextLevelActivator_t4588_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static const Il2CppType* ContextLevelActivator_t4585_InterfacesTypeInfos[] = 
+static const Il2CppType* ContextLevelActivator_t4588_InterfacesTypeInfos[] = 
 {
-	&IActivator_t4581_0_0_0,
+	&IActivator_t4584_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ContextLevelActivator_t4585_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ContextLevelActivator_t4588_InterfacesOffsets[] = 
 {
-	{ &IActivator_t4581_0_0_0, 4},
+	{ &IActivator_t4584_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ContextLevelActivator_t4585_0_0_0;
-extern const Il2CppType ContextLevelActivator_t4585_1_0_0;
-struct ContextLevelActivator_t4585;
-const Il2CppTypeDefinitionMetadata ContextLevelActivator_t4585_DefinitionMetadata = 
+extern const Il2CppType ContextLevelActivator_t4588_0_0_0;
+extern const Il2CppType ContextLevelActivator_t4588_1_0_0;
+struct ContextLevelActivator_t4588;
+const Il2CppTypeDefinitionMetadata ContextLevelActivator_t4588_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ContextLevelActivator_t4585_InterfacesTypeInfos/* implementedInterfaces */
-	, ContextLevelActivator_t4585_InterfacesOffsets/* interfaceOffsets */
+	, ContextLevelActivator_t4588_InterfacesTypeInfos/* implementedInterfaces */
+	, ContextLevelActivator_t4588_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ContextLevelActivator_t4585_VTable/* vtableMethods */
-	, ContextLevelActivator_t4585_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ContextLevelActivator_t4588_VTable/* vtableMethods */
+	, ContextLevelActivator_t4588_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1525/* fieldStart */
 
 };
-TypeInfo ContextLevelActivator_t4585_il2cpp_TypeInfo = 
+TypeInfo ContextLevelActivator_t4588_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ContextLevelActivator"/* name */
 	, "System.Runtime.Remoting.Activation"/* namespaze */
-	, ContextLevelActivator_t4585_MethodInfos/* methods */
+	, ContextLevelActivator_t4588_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ContextLevelActivator_t4585_il2cpp_TypeInfo/* element_class */
+	, &ContextLevelActivator_t4588_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ContextLevelActivator_t4585_0_0_0/* byval_arg */
-	, &ContextLevelActivator_t4585_1_0_0/* this_arg */
-	, &ContextLevelActivator_t4585_DefinitionMetadata/* definitionMetadata */
+	, &ContextLevelActivator_t4588_0_0_0/* byval_arg */
+	, &ContextLevelActivator_t4588_1_0_0/* this_arg */
+	, &ContextLevelActivator_t4588_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1836,8 +1836,8 @@ TypeInfo ContextLevelActivator_t4585_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ContextLevelActivator_t4585)/* instance_size */
-	, sizeof (ContextLevelActivator_t4585)/* actualSize */
+	, sizeof (ContextLevelActivator_t4588)/* instance_size */
+	, sizeof (ContextLevelActivator_t4588)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1867,15 +1867,15 @@ TypeInfo ContextLevelActivator_t4585_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Activation.IActivator
-extern TypeInfo IActivator_t4581_il2cpp_TypeInfo;
-static const MethodInfo* IActivator_t4581_MethodInfos[] =
+extern TypeInfo IActivator_t4584_il2cpp_TypeInfo;
+static const MethodInfo* IActivator_t4584_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IActivator_t4581_1_0_0;
-struct IActivator_t4581;
-const Il2CppTypeDefinitionMetadata IActivator_t4581_DefinitionMetadata = 
+extern const Il2CppType IActivator_t4584_1_0_0;
+struct IActivator_t4584;
+const Il2CppTypeDefinitionMetadata IActivator_t4584_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -1888,21 +1888,21 @@ const Il2CppTypeDefinitionMetadata IActivator_t4581_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IActivator_t4581_il2cpp_TypeInfo = 
+TypeInfo IActivator_t4584_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IActivator"/* name */
 	, "System.Runtime.Remoting.Activation"/* namespaze */
-	, IActivator_t4581_MethodInfos/* methods */
+	, IActivator_t4584_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IActivator_t4581_il2cpp_TypeInfo/* element_class */
+	, &IActivator_t4584_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 520/* custom_attributes_cache */
-	, &IActivator_t4581_0_0_0/* byval_arg */
-	, &IActivator_t4581_1_0_0/* this_arg */
-	, &IActivator_t4581_DefinitionMetadata/* definitionMetadata */
+	, &IActivator_t4584_0_0_0/* byval_arg */
+	, &IActivator_t4584_1_0_0/* this_arg */
+	, &IActivator_t4584_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1943,14 +1943,14 @@ TypeInfo IActivator_t4581_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Activation.IConstructionCallMessage
-extern TypeInfo IConstructionCallMessage_t4876_il2cpp_TypeInfo;
+extern TypeInfo IConstructionCallMessage_t4879_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Runtime.Remoting.Activation.IConstructionCallMessage::get_ActivationType()
-extern const MethodInfo IConstructionCallMessage_get_ActivationType_m20725_MethodInfo = 
+extern const MethodInfo IConstructionCallMessage_get_ActivationType_m20757_MethodInfo = 
 {
 	"get_ActivationType"/* name */
 	, NULL/* method */
-	, &IConstructionCallMessage_t4876_il2cpp_TypeInfo/* declaring_type */
+	, &IConstructionCallMessage_t4879_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -1969,11 +1969,11 @@ extern const MethodInfo IConstructionCallMessage_get_ActivationType_m20725_Metho
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Activation.IConstructionCallMessage::get_ActivationTypeName()
-extern const MethodInfo IConstructionCallMessage_get_ActivationTypeName_m20726_MethodInfo = 
+extern const MethodInfo IConstructionCallMessage_get_ActivationTypeName_m20758_MethodInfo = 
 {
 	"get_ActivationTypeName"/* name */
 	, NULL/* method */
-	, &IConstructionCallMessage_t4876_il2cpp_TypeInfo/* declaring_type */
+	, &IConstructionCallMessage_t4879_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -1992,12 +1992,12 @@ extern const MethodInfo IConstructionCallMessage_get_ActivationTypeName_m20726_M
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Activation.IActivator System.Runtime.Remoting.Activation.IConstructionCallMessage::get_Activator()
-extern const MethodInfo IConstructionCallMessage_get_Activator_m20727_MethodInfo = 
+extern const MethodInfo IConstructionCallMessage_get_Activator_m20759_MethodInfo = 
 {
 	"get_Activator"/* name */
 	, NULL/* method */
-	, &IConstructionCallMessage_t4876_il2cpp_TypeInfo/* declaring_type */
-	, &IActivator_t4581_0_0_0/* return_type */
+	, &IConstructionCallMessage_t4879_il2cpp_TypeInfo/* declaring_type */
+	, &IActivator_t4584_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -2013,21 +2013,21 @@ extern const MethodInfo IConstructionCallMessage_get_Activator_m20727_MethodInfo
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IActivator_t4581_0_0_0;
-static const ParameterInfo IConstructionCallMessage_t4876_IConstructionCallMessage_set_Activator_m20728_ParameterInfos[] = 
+extern const Il2CppType IActivator_t4584_0_0_0;
+static const ParameterInfo IConstructionCallMessage_t4879_IConstructionCallMessage_set_Activator_m20760_ParameterInfos[] = 
 {
-	{"value", 0, 134222085, 0, &IActivator_t4581_0_0_0},
+	{"value", 0, 134222085, 0, &IActivator_t4584_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Activation.IConstructionCallMessage::set_Activator(System.Runtime.Remoting.Activation.IActivator)
-extern const MethodInfo IConstructionCallMessage_set_Activator_m20728_MethodInfo = 
+extern const MethodInfo IConstructionCallMessage_set_Activator_m20760_MethodInfo = 
 {
 	"set_Activator"/* name */
 	, NULL/* method */
-	, &IConstructionCallMessage_t4876_il2cpp_TypeInfo/* declaring_type */
+	, &IConstructionCallMessage_t4879_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, IConstructionCallMessage_t4876_IConstructionCallMessage_set_Activator_m20728_ParameterInfos/* parameters */
+	, IConstructionCallMessage_t4879_IConstructionCallMessage_set_Activator_m20760_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 3526/* flags */
 	, 0/* iflags */
@@ -2043,12 +2043,12 @@ extern const MethodInfo IConstructionCallMessage_set_Activator_m20728_MethodInfo
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Runtime.Remoting.Activation.IConstructionCallMessage::get_CallSiteActivationAttributes()
-extern const MethodInfo IConstructionCallMessage_get_CallSiteActivationAttributes_m20729_MethodInfo = 
+extern const MethodInfo IConstructionCallMessage_get_CallSiteActivationAttributes_m20761_MethodInfo = 
 {
 	"get_CallSiteActivationAttributes"/* name */
 	, NULL/* method */
-	, &IConstructionCallMessage_t4876_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t680_0_0_0/* return_type */
+	, &IConstructionCallMessage_t4879_il2cpp_TypeInfo/* declaring_type */
+	, &ObjectU5BU5D_t683_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -2064,15 +2064,15 @@ extern const MethodInfo IConstructionCallMessage_get_CallSiteActivationAttribute
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IList_t684_0_0_0;
+extern const Il2CppType IList_t687_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IList System.Runtime.Remoting.Activation.IConstructionCallMessage::get_ContextProperties()
-extern const MethodInfo IConstructionCallMessage_get_ContextProperties_m20730_MethodInfo = 
+extern const MethodInfo IConstructionCallMessage_get_ContextProperties_m20762_MethodInfo = 
 {
 	"get_ContextProperties"/* name */
 	, NULL/* method */
-	, &IConstructionCallMessage_t4876_il2cpp_TypeInfo/* declaring_type */
-	, &IList_t684_0_0_0/* return_type */
+	, &IConstructionCallMessage_t4879_il2cpp_TypeInfo/* declaring_type */
+	, &IList_t687_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -2088,99 +2088,99 @@ extern const MethodInfo IConstructionCallMessage_get_ContextProperties_m20730_Me
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IConstructionCallMessage_t4876_MethodInfos[] =
+static const MethodInfo* IConstructionCallMessage_t4879_MethodInfos[] =
 {
-	&IConstructionCallMessage_get_ActivationType_m20725_MethodInfo,
-	&IConstructionCallMessage_get_ActivationTypeName_m20726_MethodInfo,
-	&IConstructionCallMessage_get_Activator_m20727_MethodInfo,
-	&IConstructionCallMessage_set_Activator_m20728_MethodInfo,
-	&IConstructionCallMessage_get_CallSiteActivationAttributes_m20729_MethodInfo,
-	&IConstructionCallMessage_get_ContextProperties_m20730_MethodInfo,
+	&IConstructionCallMessage_get_ActivationType_m20757_MethodInfo,
+	&IConstructionCallMessage_get_ActivationTypeName_m20758_MethodInfo,
+	&IConstructionCallMessage_get_Activator_m20759_MethodInfo,
+	&IConstructionCallMessage_set_Activator_m20760_MethodInfo,
+	&IConstructionCallMessage_get_CallSiteActivationAttributes_m20761_MethodInfo,
+	&IConstructionCallMessage_get_ContextProperties_m20762_MethodInfo,
 	NULL
 };
-extern const MethodInfo IConstructionCallMessage_get_ActivationType_m20725_MethodInfo;
-static const PropertyInfo IConstructionCallMessage_t4876____ActivationType_PropertyInfo = 
+extern const MethodInfo IConstructionCallMessage_get_ActivationType_m20757_MethodInfo;
+static const PropertyInfo IConstructionCallMessage_t4879____ActivationType_PropertyInfo = 
 {
-	&IConstructionCallMessage_t4876_il2cpp_TypeInfo/* parent */
+	&IConstructionCallMessage_t4879_il2cpp_TypeInfo/* parent */
 	, "ActivationType"/* name */
-	, &IConstructionCallMessage_get_ActivationType_m20725_MethodInfo/* get */
+	, &IConstructionCallMessage_get_ActivationType_m20757_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IConstructionCallMessage_get_ActivationTypeName_m20726_MethodInfo;
-static const PropertyInfo IConstructionCallMessage_t4876____ActivationTypeName_PropertyInfo = 
+extern const MethodInfo IConstructionCallMessage_get_ActivationTypeName_m20758_MethodInfo;
+static const PropertyInfo IConstructionCallMessage_t4879____ActivationTypeName_PropertyInfo = 
 {
-	&IConstructionCallMessage_t4876_il2cpp_TypeInfo/* parent */
+	&IConstructionCallMessage_t4879_il2cpp_TypeInfo/* parent */
 	, "ActivationTypeName"/* name */
-	, &IConstructionCallMessage_get_ActivationTypeName_m20726_MethodInfo/* get */
+	, &IConstructionCallMessage_get_ActivationTypeName_m20758_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IConstructionCallMessage_get_Activator_m20727_MethodInfo;
-extern const MethodInfo IConstructionCallMessage_set_Activator_m20728_MethodInfo;
-static const PropertyInfo IConstructionCallMessage_t4876____Activator_PropertyInfo = 
+extern const MethodInfo IConstructionCallMessage_get_Activator_m20759_MethodInfo;
+extern const MethodInfo IConstructionCallMessage_set_Activator_m20760_MethodInfo;
+static const PropertyInfo IConstructionCallMessage_t4879____Activator_PropertyInfo = 
 {
-	&IConstructionCallMessage_t4876_il2cpp_TypeInfo/* parent */
+	&IConstructionCallMessage_t4879_il2cpp_TypeInfo/* parent */
 	, "Activator"/* name */
-	, &IConstructionCallMessage_get_Activator_m20727_MethodInfo/* get */
-	, &IConstructionCallMessage_set_Activator_m20728_MethodInfo/* set */
+	, &IConstructionCallMessage_get_Activator_m20759_MethodInfo/* get */
+	, &IConstructionCallMessage_set_Activator_m20760_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IConstructionCallMessage_get_CallSiteActivationAttributes_m20729_MethodInfo;
-static const PropertyInfo IConstructionCallMessage_t4876____CallSiteActivationAttributes_PropertyInfo = 
+extern const MethodInfo IConstructionCallMessage_get_CallSiteActivationAttributes_m20761_MethodInfo;
+static const PropertyInfo IConstructionCallMessage_t4879____CallSiteActivationAttributes_PropertyInfo = 
 {
-	&IConstructionCallMessage_t4876_il2cpp_TypeInfo/* parent */
+	&IConstructionCallMessage_t4879_il2cpp_TypeInfo/* parent */
 	, "CallSiteActivationAttributes"/* name */
-	, &IConstructionCallMessage_get_CallSiteActivationAttributes_m20729_MethodInfo/* get */
+	, &IConstructionCallMessage_get_CallSiteActivationAttributes_m20761_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IConstructionCallMessage_get_ContextProperties_m20730_MethodInfo;
-static const PropertyInfo IConstructionCallMessage_t4876____ContextProperties_PropertyInfo = 
+extern const MethodInfo IConstructionCallMessage_get_ContextProperties_m20762_MethodInfo;
+static const PropertyInfo IConstructionCallMessage_t4879____ContextProperties_PropertyInfo = 
 {
-	&IConstructionCallMessage_t4876_il2cpp_TypeInfo/* parent */
+	&IConstructionCallMessage_t4879_il2cpp_TypeInfo/* parent */
 	, "ContextProperties"/* name */
-	, &IConstructionCallMessage_get_ContextProperties_m20730_MethodInfo/* get */
+	, &IConstructionCallMessage_get_ContextProperties_m20762_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IConstructionCallMessage_t4876_PropertyInfos[] =
+static const PropertyInfo* IConstructionCallMessage_t4879_PropertyInfos[] =
 {
-	&IConstructionCallMessage_t4876____ActivationType_PropertyInfo,
-	&IConstructionCallMessage_t4876____ActivationTypeName_PropertyInfo,
-	&IConstructionCallMessage_t4876____Activator_PropertyInfo,
-	&IConstructionCallMessage_t4876____CallSiteActivationAttributes_PropertyInfo,
-	&IConstructionCallMessage_t4876____ContextProperties_PropertyInfo,
+	&IConstructionCallMessage_t4879____ActivationType_PropertyInfo,
+	&IConstructionCallMessage_t4879____ActivationTypeName_PropertyInfo,
+	&IConstructionCallMessage_t4879____Activator_PropertyInfo,
+	&IConstructionCallMessage_t4879____CallSiteActivationAttributes_PropertyInfo,
+	&IConstructionCallMessage_t4879____ContextProperties_PropertyInfo,
 	NULL
 };
-extern const Il2CppType IMessage_t4603_0_0_0;
-extern const Il2CppType IMethodCallMessage_t4880_0_0_0;
-extern const Il2CppType IMethodMessage_t4614_0_0_0;
-static const Il2CppType* IConstructionCallMessage_t4876_InterfacesTypeInfos[] = 
+extern const Il2CppType IMessage_t4606_0_0_0;
+extern const Il2CppType IMethodCallMessage_t4883_0_0_0;
+extern const Il2CppType IMethodMessage_t4617_0_0_0;
+static const Il2CppType* IConstructionCallMessage_t4879_InterfacesTypeInfos[] = 
 {
-	&IMessage_t4603_0_0_0,
-	&IMethodCallMessage_t4880_0_0_0,
-	&IMethodMessage_t4614_0_0_0,
+	&IMessage_t4606_0_0_0,
+	&IMethodCallMessage_t4883_0_0_0,
+	&IMethodMessage_t4617_0_0_0,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IConstructionCallMessage_t4876_0_0_0;
-extern const Il2CppType IConstructionCallMessage_t4876_1_0_0;
-struct IConstructionCallMessage_t4876;
-const Il2CppTypeDefinitionMetadata IConstructionCallMessage_t4876_DefinitionMetadata = 
+extern const Il2CppType IConstructionCallMessage_t4879_0_0_0;
+extern const Il2CppType IConstructionCallMessage_t4879_1_0_0;
+struct IConstructionCallMessage_t4879;
+const Il2CppTypeDefinitionMetadata IConstructionCallMessage_t4879_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, IConstructionCallMessage_t4876_InterfacesTypeInfos/* implementedInterfaces */
+	, IConstructionCallMessage_t4879_InterfacesTypeInfos/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, NULL/* parent */
 	, NULL/* vtableMethods */
@@ -2189,21 +2189,21 @@ const Il2CppTypeDefinitionMetadata IConstructionCallMessage_t4876_DefinitionMeta
 	, -1/* fieldStart */
 
 };
-TypeInfo IConstructionCallMessage_t4876_il2cpp_TypeInfo = 
+TypeInfo IConstructionCallMessage_t4879_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IConstructionCallMessage"/* name */
 	, "System.Runtime.Remoting.Activation"/* namespaze */
-	, IConstructionCallMessage_t4876_MethodInfos/* methods */
-	, IConstructionCallMessage_t4876_PropertyInfos/* properties */
+	, IConstructionCallMessage_t4879_MethodInfos/* methods */
+	, IConstructionCallMessage_t4879_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IConstructionCallMessage_t4876_il2cpp_TypeInfo/* element_class */
+	, &IConstructionCallMessage_t4879_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 521/* custom_attributes_cache */
-	, &IConstructionCallMessage_t4876_0_0_0/* byval_arg */
-	, &IConstructionCallMessage_t4876_1_0_0/* this_arg */
-	, &IConstructionCallMessage_t4876_DefinitionMetadata/* definitionMetadata */
+	, &IConstructionCallMessage_t4879_0_0_0/* byval_arg */
+	, &IConstructionCallMessage_t4879_1_0_0/* this_arg */
+	, &IConstructionCallMessage_t4879_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -2246,68 +2246,68 @@ TypeInfo IConstructionCallMessage_t4876_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Activation.RemoteActivator
 #include "mscorlib_System_Runtime_Remoting_Activation_RemoteActivator.h"
 // Metadata Definition System.Runtime.Remoting.Activation.RemoteActivator
-extern TypeInfo RemoteActivator_t4586_il2cpp_TypeInfo;
+extern TypeInfo RemoteActivator_t4589_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Activation.RemoteActivator
 #include "mscorlib_System_Runtime_Remoting_Activation_RemoteActivatorMethodDeclarations.h"
-static const MethodInfo* RemoteActivator_t4586_MethodInfos[] =
+static const MethodInfo* RemoteActivator_t4589_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference RemoteActivator_t4586_VTable[] =
+static const Il2CppMethodReference RemoteActivator_t4589_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool RemoteActivator_t4586_VTableIsGenericMethod[] =
+static bool RemoteActivator_t4589_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static const Il2CppType* RemoteActivator_t4586_InterfacesTypeInfos[] = 
+static const Il2CppType* RemoteActivator_t4589_InterfacesTypeInfos[] = 
 {
-	&IActivator_t4581_0_0_0,
+	&IActivator_t4584_0_0_0,
 };
-static Il2CppInterfaceOffsetPair RemoteActivator_t4586_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair RemoteActivator_t4589_InterfacesOffsets[] = 
 {
-	{ &IActivator_t4581_0_0_0, 4},
+	{ &IActivator_t4584_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType RemoteActivator_t4586_0_0_0;
-extern const Il2CppType RemoteActivator_t4586_1_0_0;
-extern const Il2CppType MarshalByRefObject_t4074_0_0_0;
-struct RemoteActivator_t4586;
-const Il2CppTypeDefinitionMetadata RemoteActivator_t4586_DefinitionMetadata = 
+extern const Il2CppType RemoteActivator_t4589_0_0_0;
+extern const Il2CppType RemoteActivator_t4589_1_0_0;
+extern const Il2CppType MarshalByRefObject_t4077_0_0_0;
+struct RemoteActivator_t4589;
+const Il2CppTypeDefinitionMetadata RemoteActivator_t4589_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, RemoteActivator_t4586_InterfacesTypeInfos/* implementedInterfaces */
-	, RemoteActivator_t4586_InterfacesOffsets/* interfaceOffsets */
-	, &MarshalByRefObject_t4074_0_0_0/* parent */
-	, RemoteActivator_t4586_VTable/* vtableMethods */
-	, RemoteActivator_t4586_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, RemoteActivator_t4589_InterfacesTypeInfos/* implementedInterfaces */
+	, RemoteActivator_t4589_InterfacesOffsets/* interfaceOffsets */
+	, &MarshalByRefObject_t4077_0_0_0/* parent */
+	, RemoteActivator_t4589_VTable/* vtableMethods */
+	, RemoteActivator_t4589_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo RemoteActivator_t4586_il2cpp_TypeInfo = 
+TypeInfo RemoteActivator_t4589_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "RemoteActivator"/* name */
 	, "System.Runtime.Remoting.Activation"/* namespaze */
-	, RemoteActivator_t4586_MethodInfos/* methods */
+	, RemoteActivator_t4589_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &RemoteActivator_t4586_il2cpp_TypeInfo/* element_class */
+	, &RemoteActivator_t4589_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &RemoteActivator_t4586_0_0_0/* byval_arg */
-	, &RemoteActivator_t4586_1_0_0/* this_arg */
-	, &RemoteActivator_t4586_DefinitionMetadata/* definitionMetadata */
+	, &RemoteActivator_t4589_0_0_0/* byval_arg */
+	, &RemoteActivator_t4589_1_0_0/* this_arg */
+	, &RemoteActivator_t4589_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -2317,8 +2317,8 @@ TypeInfo RemoteActivator_t4586_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (RemoteActivator_t4586)/* instance_size */
-	, sizeof (RemoteActivator_t4586)/* actualSize */
+	, sizeof (RemoteActivator_t4589)/* instance_size */
+	, sizeof (RemoteActivator_t4589)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2350,16 +2350,16 @@ TypeInfo RemoteActivator_t4586_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Activation.UrlAttribute
 #include "mscorlib_System_Runtime_Remoting_Activation_UrlAttribute.h"
 // Metadata Definition System.Runtime.Remoting.Activation.UrlAttribute
-extern TypeInfo UrlAttribute_t4587_il2cpp_TypeInfo;
+extern TypeInfo UrlAttribute_t4590_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Activation.UrlAttribute
 #include "mscorlib_System_Runtime_Remoting_Activation_UrlAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Activation.UrlAttribute::get_UrlValue()
-extern const MethodInfo UrlAttribute_get_UrlValue_m18167_MethodInfo = 
+extern const MethodInfo UrlAttribute_get_UrlValue_m18199_MethodInfo = 
 {
 	"get_UrlValue"/* name */
-	, (methodPointerType)&UrlAttribute_get_UrlValue_m18167/* method */
-	, &UrlAttribute_t4587_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&UrlAttribute_get_UrlValue_m18199/* method */
+	, &UrlAttribute_t4590_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -2377,21 +2377,21 @@ extern const MethodInfo UrlAttribute_get_UrlValue_m18167_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UrlAttribute_t4587_UrlAttribute_Equals_m18168_ParameterInfos[] = 
+static const ParameterInfo UrlAttribute_t4590_UrlAttribute_Equals_m18200_ParameterInfos[] = 
 {
 	{"o", 0, 134222086, 0, &Object_t_0_0_0},
 };
 extern const Il2CppType Boolean_t59_0_0_0;
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Activation.UrlAttribute::Equals(System.Object)
-extern const MethodInfo UrlAttribute_Equals_m18168_MethodInfo = 
+extern const MethodInfo UrlAttribute_Equals_m18200_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&UrlAttribute_Equals_m18168/* method */
-	, &UrlAttribute_t4587_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&UrlAttribute_Equals_m18200/* method */
+	, &UrlAttribute_t4590_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, UrlAttribute_t4587_UrlAttribute_Equals_m18168_ParameterInfos/* parameters */
+	, UrlAttribute_t4590_UrlAttribute_Equals_m18200_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -2408,11 +2408,11 @@ extern const MethodInfo UrlAttribute_Equals_m18168_MethodInfo =
 extern const Il2CppType Int32_t82_0_0_0;
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Runtime.Remoting.Activation.UrlAttribute::GetHashCode()
-extern const MethodInfo UrlAttribute_GetHashCode_m18169_MethodInfo = 
+extern const MethodInfo UrlAttribute_GetHashCode_m18201_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&UrlAttribute_GetHashCode_m18169/* method */
-	, &UrlAttribute_t4587_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&UrlAttribute_GetHashCode_m18201/* method */
+	, &UrlAttribute_t4590_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -2429,21 +2429,21 @@ extern const MethodInfo UrlAttribute_GetHashCode_m18169_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IConstructionCallMessage_t4876_0_0_0;
-static const ParameterInfo UrlAttribute_t4587_UrlAttribute_GetPropertiesForNewContext_m18170_ParameterInfos[] = 
+extern const Il2CppType IConstructionCallMessage_t4879_0_0_0;
+static const ParameterInfo UrlAttribute_t4590_UrlAttribute_GetPropertiesForNewContext_m18202_ParameterInfos[] = 
 {
-	{"ctorMsg", 0, 134222087, 0, &IConstructionCallMessage_t4876_0_0_0},
+	{"ctorMsg", 0, 134222087, 0, &IConstructionCallMessage_t4879_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Activation.UrlAttribute::GetPropertiesForNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern const MethodInfo UrlAttribute_GetPropertiesForNewContext_m18170_MethodInfo = 
+extern const MethodInfo UrlAttribute_GetPropertiesForNewContext_m18202_MethodInfo = 
 {
 	"GetPropertiesForNewContext"/* name */
-	, (methodPointerType)&UrlAttribute_GetPropertiesForNewContext_m18170/* method */
-	, &UrlAttribute_t4587_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&UrlAttribute_GetPropertiesForNewContext_m18202/* method */
+	, &UrlAttribute_t4590_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, UrlAttribute_t4587_UrlAttribute_GetPropertiesForNewContext_m18170_ParameterInfos/* parameters */
+	, UrlAttribute_t4590_UrlAttribute_GetPropertiesForNewContext_m18202_ParameterInfos/* parameters */
 	, 523/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -2457,24 +2457,24 @@ extern const MethodInfo UrlAttribute_GetPropertiesForNewContext_m18170_MethodInf
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Context_t4595_0_0_0;
-extern const Il2CppType Context_t4595_0_0_0;
-extern const Il2CppType IConstructionCallMessage_t4876_0_0_0;
-static const ParameterInfo UrlAttribute_t4587_UrlAttribute_IsContextOK_m18171_ParameterInfos[] = 
+extern const Il2CppType Context_t4598_0_0_0;
+extern const Il2CppType Context_t4598_0_0_0;
+extern const Il2CppType IConstructionCallMessage_t4879_0_0_0;
+static const ParameterInfo UrlAttribute_t4590_UrlAttribute_IsContextOK_m18203_ParameterInfos[] = 
 {
-	{"ctx", 0, 134222088, 0, &Context_t4595_0_0_0},
-	{"msg", 1, 134222089, 0, &IConstructionCallMessage_t4876_0_0_0},
+	{"ctx", 0, 134222088, 0, &Context_t4598_0_0_0},
+	{"msg", 1, 134222089, 0, &IConstructionCallMessage_t4879_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Activation.UrlAttribute::IsContextOK(System.Runtime.Remoting.Contexts.Context,System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern const MethodInfo UrlAttribute_IsContextOK_m18171_MethodInfo = 
+extern const MethodInfo UrlAttribute_IsContextOK_m18203_MethodInfo = 
 {
 	"IsContextOK"/* name */
-	, (methodPointerType)&UrlAttribute_IsContextOK_m18171/* method */
-	, &UrlAttribute_t4587_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&UrlAttribute_IsContextOK_m18203/* method */
+	, &UrlAttribute_t4590_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, UrlAttribute_t4587_UrlAttribute_IsContextOK_m18171_ParameterInfos/* parameters */
+	, UrlAttribute_t4590_UrlAttribute_IsContextOK_m18203_ParameterInfos/* parameters */
 	, 524/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -2488,50 +2488,50 @@ extern const MethodInfo UrlAttribute_IsContextOK_m18171_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* UrlAttribute_t4587_MethodInfos[] =
+static const MethodInfo* UrlAttribute_t4590_MethodInfos[] =
 {
-	&UrlAttribute_get_UrlValue_m18167_MethodInfo,
-	&UrlAttribute_Equals_m18168_MethodInfo,
-	&UrlAttribute_GetHashCode_m18169_MethodInfo,
-	&UrlAttribute_GetPropertiesForNewContext_m18170_MethodInfo,
-	&UrlAttribute_IsContextOK_m18171_MethodInfo,
+	&UrlAttribute_get_UrlValue_m18199_MethodInfo,
+	&UrlAttribute_Equals_m18200_MethodInfo,
+	&UrlAttribute_GetHashCode_m18201_MethodInfo,
+	&UrlAttribute_GetPropertiesForNewContext_m18202_MethodInfo,
+	&UrlAttribute_IsContextOK_m18203_MethodInfo,
 	NULL
 };
-extern const MethodInfo UrlAttribute_get_UrlValue_m18167_MethodInfo;
-static const PropertyInfo UrlAttribute_t4587____UrlValue_PropertyInfo = 
+extern const MethodInfo UrlAttribute_get_UrlValue_m18199_MethodInfo;
+static const PropertyInfo UrlAttribute_t4590____UrlValue_PropertyInfo = 
 {
-	&UrlAttribute_t4587_il2cpp_TypeInfo/* parent */
+	&UrlAttribute_t4590_il2cpp_TypeInfo/* parent */
 	, "UrlValue"/* name */
-	, &UrlAttribute_get_UrlValue_m18167_MethodInfo/* get */
+	, &UrlAttribute_get_UrlValue_m18199_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* UrlAttribute_t4587_PropertyInfos[] =
+static const PropertyInfo* UrlAttribute_t4590_PropertyInfos[] =
 {
-	&UrlAttribute_t4587____UrlValue_PropertyInfo,
+	&UrlAttribute_t4590____UrlValue_PropertyInfo,
 	NULL
 };
-extern const MethodInfo UrlAttribute_Equals_m18168_MethodInfo;
-extern const MethodInfo UrlAttribute_GetHashCode_m18169_MethodInfo;
-extern const MethodInfo UrlAttribute_GetPropertiesForNewContext_m18170_MethodInfo;
-extern const MethodInfo UrlAttribute_IsContextOK_m18171_MethodInfo;
-extern const MethodInfo ContextAttribute_get_Name_m18195_MethodInfo;
-static const Il2CppMethodReference UrlAttribute_t4587_VTable[] =
+extern const MethodInfo UrlAttribute_Equals_m18200_MethodInfo;
+extern const MethodInfo UrlAttribute_GetHashCode_m18201_MethodInfo;
+extern const MethodInfo UrlAttribute_GetPropertiesForNewContext_m18202_MethodInfo;
+extern const MethodInfo UrlAttribute_IsContextOK_m18203_MethodInfo;
+extern const MethodInfo ContextAttribute_get_Name_m18227_MethodInfo;
+static const Il2CppMethodReference UrlAttribute_t4590_VTable[] =
 {
-	&UrlAttribute_Equals_m18168_MethodInfo,
+	&UrlAttribute_Equals_m18200_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&UrlAttribute_GetHashCode_m18169_MethodInfo,
+	&UrlAttribute_GetHashCode_m18201_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&UrlAttribute_GetPropertiesForNewContext_m18170_MethodInfo,
-	&UrlAttribute_IsContextOK_m18171_MethodInfo,
-	&ContextAttribute_get_Name_m18195_MethodInfo,
-	&ContextAttribute_get_Name_m18195_MethodInfo,
-	&UrlAttribute_GetPropertiesForNewContext_m18170_MethodInfo,
-	&UrlAttribute_IsContextOK_m18171_MethodInfo,
+	&UrlAttribute_GetPropertiesForNewContext_m18202_MethodInfo,
+	&UrlAttribute_IsContextOK_m18203_MethodInfo,
+	&ContextAttribute_get_Name_m18227_MethodInfo,
+	&ContextAttribute_get_Name_m18227_MethodInfo,
+	&UrlAttribute_GetPropertiesForNewContext_m18202_MethodInfo,
+	&UrlAttribute_IsContextOK_m18203_MethodInfo,
 };
-static bool UrlAttribute_t4587_VTableIsGenericMethod[] =
+static bool UrlAttribute_t4590_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -2544,48 +2544,48 @@ static bool UrlAttribute_t4587_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IContextAttribute_t4887_0_0_0;
-extern const Il2CppType IContextProperty_t4878_0_0_0;
+extern const Il2CppType IContextAttribute_t4890_0_0_0;
+extern const Il2CppType IContextProperty_t4881_0_0_0;
 extern const Il2CppType _Attribute_t86_0_0_0;
-static Il2CppInterfaceOffsetPair UrlAttribute_t4587_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair UrlAttribute_t4590_InterfacesOffsets[] = 
 {
-	{ &IContextAttribute_t4887_0_0_0, 4},
-	{ &IContextProperty_t4878_0_0_0, 6},
+	{ &IContextAttribute_t4890_0_0_0, 4},
+	{ &IContextProperty_t4881_0_0_0, 6},
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType UrlAttribute_t4587_0_0_0;
-extern const Il2CppType UrlAttribute_t4587_1_0_0;
-extern const Il2CppType ContextAttribute_t4588_0_0_0;
-struct UrlAttribute_t4587;
-const Il2CppTypeDefinitionMetadata UrlAttribute_t4587_DefinitionMetadata = 
+extern const Il2CppType UrlAttribute_t4590_0_0_0;
+extern const Il2CppType UrlAttribute_t4590_1_0_0;
+extern const Il2CppType ContextAttribute_t4591_0_0_0;
+struct UrlAttribute_t4590;
+const Il2CppTypeDefinitionMetadata UrlAttribute_t4590_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, UrlAttribute_t4587_InterfacesOffsets/* interfaceOffsets */
-	, &ContextAttribute_t4588_0_0_0/* parent */
-	, UrlAttribute_t4587_VTable/* vtableMethods */
-	, UrlAttribute_t4587_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, UrlAttribute_t4590_InterfacesOffsets/* interfaceOffsets */
+	, &ContextAttribute_t4591_0_0_0/* parent */
+	, UrlAttribute_t4590_VTable/* vtableMethods */
+	, UrlAttribute_t4590_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1526/* fieldStart */
 
 };
-TypeInfo UrlAttribute_t4587_il2cpp_TypeInfo = 
+TypeInfo UrlAttribute_t4590_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "UrlAttribute"/* name */
 	, "System.Runtime.Remoting.Activation"/* namespaze */
-	, UrlAttribute_t4587_MethodInfos/* methods */
-	, UrlAttribute_t4587_PropertyInfos/* properties */
+	, UrlAttribute_t4590_MethodInfos/* methods */
+	, UrlAttribute_t4590_PropertyInfos/* properties */
 	, NULL/* events */
-	, &UrlAttribute_t4587_il2cpp_TypeInfo/* element_class */
+	, &UrlAttribute_t4590_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 522/* custom_attributes_cache */
-	, &UrlAttribute_t4587_0_0_0/* byval_arg */
-	, &UrlAttribute_t4587_1_0_0/* this_arg */
-	, &UrlAttribute_t4587_DefinitionMetadata/* definitionMetadata */
+	, &UrlAttribute_t4590_0_0_0/* byval_arg */
+	, &UrlAttribute_t4590_1_0_0/* this_arg */
+	, &UrlAttribute_t4590_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -2595,8 +2595,8 @@ TypeInfo UrlAttribute_t4587_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (UrlAttribute_t4587)/* instance_size */
-	, sizeof (UrlAttribute_t4587)/* actualSize */
+	, sizeof (UrlAttribute_t4590)/* instance_size */
+	, sizeof (UrlAttribute_t4590)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2628,16 +2628,16 @@ TypeInfo UrlAttribute_t4587_il2cpp_TypeInfo =
 // System.Runtime.Remoting.ChannelInfo
 #include "mscorlib_System_Runtime_Remoting_ChannelInfo.h"
 // Metadata Definition System.Runtime.Remoting.ChannelInfo
-extern TypeInfo ChannelInfo_t4589_il2cpp_TypeInfo;
+extern TypeInfo ChannelInfo_t4592_il2cpp_TypeInfo;
 // System.Runtime.Remoting.ChannelInfo
 #include "mscorlib_System_Runtime_Remoting_ChannelInfoMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.ChannelInfo::.ctor()
-extern const MethodInfo ChannelInfo__ctor_m18172_MethodInfo = 
+extern const MethodInfo ChannelInfo__ctor_m18204_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ChannelInfo__ctor_m18172/* method */
-	, &ChannelInfo_t4589_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ChannelInfo__ctor_m18204/* method */
+	, &ChannelInfo_t4592_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -2656,12 +2656,12 @@ extern const MethodInfo ChannelInfo__ctor_m18172_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Runtime.Remoting.ChannelInfo::get_ChannelData()
-extern const MethodInfo ChannelInfo_get_ChannelData_m18173_MethodInfo = 
+extern const MethodInfo ChannelInfo_get_ChannelData_m18205_MethodInfo = 
 {
 	"get_ChannelData"/* name */
-	, (methodPointerType)&ChannelInfo_get_ChannelData_m18173/* method */
-	, &ChannelInfo_t4589_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t680_0_0_0/* return_type */
+	, (methodPointerType)&ChannelInfo_get_ChannelData_m18205/* method */
+	, &ChannelInfo_t4592_il2cpp_TypeInfo/* declaring_type */
+	, &ObjectU5BU5D_t683_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -2677,37 +2677,37 @@ extern const MethodInfo ChannelInfo_get_ChannelData_m18173_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ChannelInfo_t4589_MethodInfos[] =
+static const MethodInfo* ChannelInfo_t4592_MethodInfos[] =
 {
-	&ChannelInfo__ctor_m18172_MethodInfo,
-	&ChannelInfo_get_ChannelData_m18173_MethodInfo,
+	&ChannelInfo__ctor_m18204_MethodInfo,
+	&ChannelInfo_get_ChannelData_m18205_MethodInfo,
 	NULL
 };
-extern const MethodInfo ChannelInfo_get_ChannelData_m18173_MethodInfo;
-static const PropertyInfo ChannelInfo_t4589____ChannelData_PropertyInfo = 
+extern const MethodInfo ChannelInfo_get_ChannelData_m18205_MethodInfo;
+static const PropertyInfo ChannelInfo_t4592____ChannelData_PropertyInfo = 
 {
-	&ChannelInfo_t4589_il2cpp_TypeInfo/* parent */
+	&ChannelInfo_t4592_il2cpp_TypeInfo/* parent */
 	, "ChannelData"/* name */
-	, &ChannelInfo_get_ChannelData_m18173_MethodInfo/* get */
+	, &ChannelInfo_get_ChannelData_m18205_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ChannelInfo_t4589_PropertyInfos[] =
+static const PropertyInfo* ChannelInfo_t4592_PropertyInfos[] =
 {
-	&ChannelInfo_t4589____ChannelData_PropertyInfo,
+	&ChannelInfo_t4592____ChannelData_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ChannelInfo_t4589_VTable[] =
+static const Il2CppMethodReference ChannelInfo_t4592_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ChannelInfo_get_ChannelData_m18173_MethodInfo,
+	&ChannelInfo_get_ChannelData_m18205_MethodInfo,
 };
-static bool ChannelInfo_t4589_VTableIsGenericMethod[] =
+static bool ChannelInfo_t4592_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -2715,47 +2715,47 @@ static bool ChannelInfo_t4589_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IChannelInfo_t4632_0_0_0;
-static const Il2CppType* ChannelInfo_t4589_InterfacesTypeInfos[] = 
+extern const Il2CppType IChannelInfo_t4635_0_0_0;
+static const Il2CppType* ChannelInfo_t4592_InterfacesTypeInfos[] = 
 {
-	&IChannelInfo_t4632_0_0_0,
+	&IChannelInfo_t4635_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ChannelInfo_t4589_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ChannelInfo_t4592_InterfacesOffsets[] = 
 {
-	{ &IChannelInfo_t4632_0_0_0, 4},
+	{ &IChannelInfo_t4635_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ChannelInfo_t4589_0_0_0;
-extern const Il2CppType ChannelInfo_t4589_1_0_0;
-struct ChannelInfo_t4589;
-const Il2CppTypeDefinitionMetadata ChannelInfo_t4589_DefinitionMetadata = 
+extern const Il2CppType ChannelInfo_t4592_0_0_0;
+extern const Il2CppType ChannelInfo_t4592_1_0_0;
+struct ChannelInfo_t4592;
+const Il2CppTypeDefinitionMetadata ChannelInfo_t4592_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ChannelInfo_t4589_InterfacesTypeInfos/* implementedInterfaces */
-	, ChannelInfo_t4589_InterfacesOffsets/* interfaceOffsets */
+	, ChannelInfo_t4592_InterfacesTypeInfos/* implementedInterfaces */
+	, ChannelInfo_t4592_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ChannelInfo_t4589_VTable/* vtableMethods */
-	, ChannelInfo_t4589_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ChannelInfo_t4592_VTable/* vtableMethods */
+	, ChannelInfo_t4592_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1527/* fieldStart */
 
 };
-TypeInfo ChannelInfo_t4589_il2cpp_TypeInfo = 
+TypeInfo ChannelInfo_t4592_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ChannelInfo"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, ChannelInfo_t4589_MethodInfos/* methods */
-	, ChannelInfo_t4589_PropertyInfos/* properties */
+	, ChannelInfo_t4592_MethodInfos/* methods */
+	, ChannelInfo_t4592_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ChannelInfo_t4589_il2cpp_TypeInfo/* element_class */
+	, &ChannelInfo_t4592_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ChannelInfo_t4589_0_0_0/* byval_arg */
-	, &ChannelInfo_t4589_1_0_0/* this_arg */
-	, &ChannelInfo_t4589_DefinitionMetadata/* definitionMetadata */
+	, &ChannelInfo_t4592_0_0_0/* byval_arg */
+	, &ChannelInfo_t4592_1_0_0/* this_arg */
+	, &ChannelInfo_t4592_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -2765,8 +2765,8 @@ TypeInfo ChannelInfo_t4589_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ChannelInfo_t4589)/* instance_size */
-	, sizeof (ChannelInfo_t4589)/* actualSize */
+	, sizeof (ChannelInfo_t4592)/* instance_size */
+	, sizeof (ChannelInfo_t4592)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2798,16 +2798,16 @@ TypeInfo ChannelInfo_t4589_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Channels.ChannelServices
 #include "mscorlib_System_Runtime_Remoting_Channels_ChannelServices.h"
 // Metadata Definition System.Runtime.Remoting.Channels.ChannelServices
-extern TypeInfo ChannelServices_t4591_il2cpp_TypeInfo;
+extern TypeInfo ChannelServices_t4594_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Channels.ChannelServices
 #include "mscorlib_System_Runtime_Remoting_Channels_ChannelServicesMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Channels.ChannelServices::.cctor()
-extern const MethodInfo ChannelServices__cctor_m18174_MethodInfo = 
+extern const MethodInfo ChannelServices__cctor_m18206_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&ChannelServices__cctor_m18174/* method */
-	, &ChannelServices_t4591_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ChannelServices__cctor_m18206/* method */
+	, &ChannelServices_t4594_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -2824,22 +2824,22 @@ extern const MethodInfo ChannelServices__cctor_m18174_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IChannel_t4877_0_0_0;
-extern const Il2CppType IChannel_t4877_0_0_0;
-static const ParameterInfo ChannelServices_t4591_ChannelServices_RegisterChannel_m18175_ParameterInfos[] = 
+extern const Il2CppType IChannel_t4880_0_0_0;
+extern const Il2CppType IChannel_t4880_0_0_0;
+static const ParameterInfo ChannelServices_t4594_ChannelServices_RegisterChannel_m18207_ParameterInfos[] = 
 {
-	{"chnl", 0, 134222090, 0, &IChannel_t4877_0_0_0},
+	{"chnl", 0, 134222090, 0, &IChannel_t4880_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Channels.ChannelServices::RegisterChannel(System.Runtime.Remoting.Channels.IChannel)
-extern const MethodInfo ChannelServices_RegisterChannel_m18175_MethodInfo = 
+extern const MethodInfo ChannelServices_RegisterChannel_m18207_MethodInfo = 
 {
 	"RegisterChannel"/* name */
-	, (methodPointerType)&ChannelServices_RegisterChannel_m18175/* method */
-	, &ChannelServices_t4591_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ChannelServices_RegisterChannel_m18207/* method */
+	, &ChannelServices_t4594_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ChannelServices_t4591_ChannelServices_RegisterChannel_m18175_ParameterInfos/* parameters */
+	, ChannelServices_t4594_ChannelServices_RegisterChannel_m18207_ParameterInfos/* parameters */
 	, 526/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -2853,23 +2853,23 @@ extern const MethodInfo ChannelServices_RegisterChannel_m18175_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IChannel_t4877_0_0_0;
+extern const Il2CppType IChannel_t4880_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ChannelServices_t4591_ChannelServices_RegisterChannel_m18176_ParameterInfos[] = 
+static const ParameterInfo ChannelServices_t4594_ChannelServices_RegisterChannel_m18208_ParameterInfos[] = 
 {
-	{"chnl", 0, 134222091, 0, &IChannel_t4877_0_0_0},
+	{"chnl", 0, 134222091, 0, &IChannel_t4880_0_0_0},
 	{"ensureSecurity", 1, 134222092, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Channels.ChannelServices::RegisterChannel(System.Runtime.Remoting.Channels.IChannel,System.Boolean)
-extern const MethodInfo ChannelServices_RegisterChannel_m18176_MethodInfo = 
+extern const MethodInfo ChannelServices_RegisterChannel_m18208_MethodInfo = 
 {
 	"RegisterChannel"/* name */
-	, (methodPointerType)&ChannelServices_RegisterChannel_m18176/* method */
-	, &ChannelServices_t4591_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ChannelServices_RegisterChannel_m18208/* method */
+	, &ChannelServices_t4594_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, ChannelServices_t4591_ChannelServices_RegisterChannel_m18176_ParameterInfos/* parameters */
+	, ChannelServices_t4594_ChannelServices_RegisterChannel_m18208_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -2885,12 +2885,12 @@ extern const MethodInfo ChannelServices_RegisterChannel_m18176_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Runtime.Remoting.Channels.ChannelServices::GetCurrentChannelInfo()
-extern const MethodInfo ChannelServices_GetCurrentChannelInfo_m18177_MethodInfo = 
+extern const MethodInfo ChannelServices_GetCurrentChannelInfo_m18209_MethodInfo = 
 {
 	"GetCurrentChannelInfo"/* name */
-	, (methodPointerType)&ChannelServices_GetCurrentChannelInfo_m18177/* method */
-	, &ChannelServices_t4591_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t680_0_0_0/* return_type */
+	, (methodPointerType)&ChannelServices_GetCurrentChannelInfo_m18209/* method */
+	, &ChannelServices_t4594_il2cpp_TypeInfo/* declaring_type */
+	, &ObjectU5BU5D_t683_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -2906,22 +2906,22 @@ extern const MethodInfo ChannelServices_GetCurrentChannelInfo_m18177_MethodInfo 
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ChannelServices_t4591_MethodInfos[] =
+static const MethodInfo* ChannelServices_t4594_MethodInfos[] =
 {
-	&ChannelServices__cctor_m18174_MethodInfo,
-	&ChannelServices_RegisterChannel_m18175_MethodInfo,
-	&ChannelServices_RegisterChannel_m18176_MethodInfo,
-	&ChannelServices_GetCurrentChannelInfo_m18177_MethodInfo,
+	&ChannelServices__cctor_m18206_MethodInfo,
+	&ChannelServices_RegisterChannel_m18207_MethodInfo,
+	&ChannelServices_RegisterChannel_m18208_MethodInfo,
+	&ChannelServices_GetCurrentChannelInfo_m18209_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference ChannelServices_t4591_VTable[] =
+static const Il2CppMethodReference ChannelServices_t4594_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ChannelServices_t4591_VTableIsGenericMethod[] =
+static bool ChannelServices_t4594_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -2929,37 +2929,37 @@ static bool ChannelServices_t4591_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ChannelServices_t4591_0_0_0;
-extern const Il2CppType ChannelServices_t4591_1_0_0;
-struct ChannelServices_t4591;
-const Il2CppTypeDefinitionMetadata ChannelServices_t4591_DefinitionMetadata = 
+extern const Il2CppType ChannelServices_t4594_0_0_0;
+extern const Il2CppType ChannelServices_t4594_1_0_0;
+struct ChannelServices_t4594;
+const Il2CppTypeDefinitionMetadata ChannelServices_t4594_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ChannelServices_t4591_VTable/* vtableMethods */
-	, ChannelServices_t4591_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ChannelServices_t4594_VTable/* vtableMethods */
+	, ChannelServices_t4594_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1528/* fieldStart */
 
 };
-TypeInfo ChannelServices_t4591_il2cpp_TypeInfo = 
+TypeInfo ChannelServices_t4594_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ChannelServices"/* name */
 	, "System.Runtime.Remoting.Channels"/* namespaze */
-	, ChannelServices_t4591_MethodInfos/* methods */
+	, ChannelServices_t4594_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ChannelServices_t4591_il2cpp_TypeInfo/* element_class */
+	, &ChannelServices_t4594_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 525/* custom_attributes_cache */
-	, &ChannelServices_t4591_0_0_0/* byval_arg */
-	, &ChannelServices_t4591_1_0_0/* this_arg */
-	, &ChannelServices_t4591_DefinitionMetadata/* definitionMetadata */
+	, &ChannelServices_t4594_0_0_0/* byval_arg */
+	, &ChannelServices_t4594_1_0_0/* this_arg */
+	, &ChannelServices_t4594_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -2969,11 +2969,11 @@ TypeInfo ChannelServices_t4591_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ChannelServices_t4591)/* instance_size */
-	, sizeof (ChannelServices_t4591)/* actualSize */
+	, sizeof (ChannelServices_t4594)/* instance_size */
+	, sizeof (ChannelServices_t4594)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ChannelServices_t4591_StaticFields)/* static_fields_size */
+	, sizeof(ChannelServices_t4594_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048833/* flags */
@@ -3002,24 +3002,24 @@ TypeInfo ChannelServices_t4591_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Channels.CrossAppDomainData
 #include "mscorlib_System_Runtime_Remoting_Channels_CrossAppDomainData.h"
 // Metadata Definition System.Runtime.Remoting.Channels.CrossAppDomainData
-extern TypeInfo CrossAppDomainData_t4592_il2cpp_TypeInfo;
+extern TypeInfo CrossAppDomainData_t4595_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Channels.CrossAppDomainData
 #include "mscorlib_System_Runtime_Remoting_Channels_CrossAppDomainDataMethodDeclarations.h"
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo CrossAppDomainData_t4592_CrossAppDomainData__ctor_m18178_ParameterInfos[] = 
+static const ParameterInfo CrossAppDomainData_t4595_CrossAppDomainData__ctor_m18210_ParameterInfos[] = 
 {
 	{"domainId", 0, 134222093, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainData::.ctor(System.Int32)
-extern const MethodInfo CrossAppDomainData__ctor_m18178_MethodInfo = 
+extern const MethodInfo CrossAppDomainData__ctor_m18210_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CrossAppDomainData__ctor_m18178/* method */
-	, &CrossAppDomainData_t4592_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CrossAppDomainData__ctor_m18210/* method */
+	, &CrossAppDomainData_t4595_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, CrossAppDomainData_t4592_CrossAppDomainData__ctor_m18178_ParameterInfos/* parameters */
+	, CrossAppDomainData_t4595_CrossAppDomainData__ctor_m18210_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -3033,19 +3033,19 @@ extern const MethodInfo CrossAppDomainData__ctor_m18178_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* CrossAppDomainData_t4592_MethodInfos[] =
+static const MethodInfo* CrossAppDomainData_t4595_MethodInfos[] =
 {
-	&CrossAppDomainData__ctor_m18178_MethodInfo,
+	&CrossAppDomainData__ctor_m18210_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference CrossAppDomainData_t4592_VTable[] =
+static const Il2CppMethodReference CrossAppDomainData_t4595_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool CrossAppDomainData_t4592_VTableIsGenericMethod[] =
+static bool CrossAppDomainData_t4595_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -3053,37 +3053,37 @@ static bool CrossAppDomainData_t4592_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType CrossAppDomainData_t4592_0_0_0;
-extern const Il2CppType CrossAppDomainData_t4592_1_0_0;
-struct CrossAppDomainData_t4592;
-const Il2CppTypeDefinitionMetadata CrossAppDomainData_t4592_DefinitionMetadata = 
+extern const Il2CppType CrossAppDomainData_t4595_0_0_0;
+extern const Il2CppType CrossAppDomainData_t4595_1_0_0;
+struct CrossAppDomainData_t4595;
+const Il2CppTypeDefinitionMetadata CrossAppDomainData_t4595_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, CrossAppDomainData_t4592_VTable/* vtableMethods */
-	, CrossAppDomainData_t4592_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, CrossAppDomainData_t4595_VTable/* vtableMethods */
+	, CrossAppDomainData_t4595_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1533/* fieldStart */
 
 };
-TypeInfo CrossAppDomainData_t4592_il2cpp_TypeInfo = 
+TypeInfo CrossAppDomainData_t4595_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "CrossAppDomainData"/* name */
 	, "System.Runtime.Remoting.Channels"/* namespaze */
-	, CrossAppDomainData_t4592_MethodInfos/* methods */
+	, CrossAppDomainData_t4595_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &CrossAppDomainData_t4592_il2cpp_TypeInfo/* element_class */
+	, &CrossAppDomainData_t4595_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &CrossAppDomainData_t4592_0_0_0/* byval_arg */
-	, &CrossAppDomainData_t4592_1_0_0/* this_arg */
-	, &CrossAppDomainData_t4592_DefinitionMetadata/* definitionMetadata */
+	, &CrossAppDomainData_t4595_0_0_0/* byval_arg */
+	, &CrossAppDomainData_t4595_1_0_0/* this_arg */
+	, &CrossAppDomainData_t4595_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3093,8 +3093,8 @@ TypeInfo CrossAppDomainData_t4592_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (CrossAppDomainData_t4592)/* instance_size */
-	, sizeof (CrossAppDomainData_t4592)/* actualSize */
+	, sizeof (CrossAppDomainData_t4595)/* instance_size */
+	, sizeof (CrossAppDomainData_t4595)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3126,16 +3126,16 @@ TypeInfo CrossAppDomainData_t4592_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Channels.CrossAppDomainChannel
 #include "mscorlib_System_Runtime_Remoting_Channels_CrossAppDomainChan.h"
 // Metadata Definition System.Runtime.Remoting.Channels.CrossAppDomainChannel
-extern TypeInfo CrossAppDomainChannel_t4593_il2cpp_TypeInfo;
+extern TypeInfo CrossAppDomainChannel_t4596_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Channels.CrossAppDomainChannel
 #include "mscorlib_System_Runtime_Remoting_Channels_CrossAppDomainChanMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainChannel::.ctor()
-extern const MethodInfo CrossAppDomainChannel__ctor_m18179_MethodInfo = 
+extern const MethodInfo CrossAppDomainChannel__ctor_m18211_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CrossAppDomainChannel__ctor_m18179/* method */
-	, &CrossAppDomainChannel_t4593_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CrossAppDomainChannel__ctor_m18211/* method */
+	, &CrossAppDomainChannel_t4596_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -3154,11 +3154,11 @@ extern const MethodInfo CrossAppDomainChannel__ctor_m18179_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainChannel::.cctor()
-extern const MethodInfo CrossAppDomainChannel__cctor_m18180_MethodInfo = 
+extern const MethodInfo CrossAppDomainChannel__cctor_m18212_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&CrossAppDomainChannel__cctor_m18180/* method */
-	, &CrossAppDomainChannel_t4593_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CrossAppDomainChannel__cctor_m18212/* method */
+	, &CrossAppDomainChannel_t4596_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -3177,11 +3177,11 @@ extern const MethodInfo CrossAppDomainChannel__cctor_m18180_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainChannel::RegisterCrossAppDomainChannel()
-extern const MethodInfo CrossAppDomainChannel_RegisterCrossAppDomainChannel_m18181_MethodInfo = 
+extern const MethodInfo CrossAppDomainChannel_RegisterCrossAppDomainChannel_m18213_MethodInfo = 
 {
 	"RegisterCrossAppDomainChannel"/* name */
-	, (methodPointerType)&CrossAppDomainChannel_RegisterCrossAppDomainChannel_m18181/* method */
-	, &CrossAppDomainChannel_t4593_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CrossAppDomainChannel_RegisterCrossAppDomainChannel_m18213/* method */
+	, &CrossAppDomainChannel_t4596_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -3200,11 +3200,11 @@ extern const MethodInfo CrossAppDomainChannel_RegisterCrossAppDomainChannel_m181
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Channels.CrossAppDomainChannel::get_ChannelName()
-extern const MethodInfo CrossAppDomainChannel_get_ChannelName_m18182_MethodInfo = 
+extern const MethodInfo CrossAppDomainChannel_get_ChannelName_m18214_MethodInfo = 
 {
 	"get_ChannelName"/* name */
-	, (methodPointerType)&CrossAppDomainChannel_get_ChannelName_m18182/* method */
-	, &CrossAppDomainChannel_t4593_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CrossAppDomainChannel_get_ChannelName_m18214/* method */
+	, &CrossAppDomainChannel_t4596_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3223,11 +3223,11 @@ extern const MethodInfo CrossAppDomainChannel_get_ChannelName_m18182_MethodInfo 
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Runtime.Remoting.Channels.CrossAppDomainChannel::get_ChannelPriority()
-extern const MethodInfo CrossAppDomainChannel_get_ChannelPriority_m18183_MethodInfo = 
+extern const MethodInfo CrossAppDomainChannel_get_ChannelPriority_m18215_MethodInfo = 
 {
 	"get_ChannelPriority"/* name */
-	, (methodPointerType)&CrossAppDomainChannel_get_ChannelPriority_m18183/* method */
-	, &CrossAppDomainChannel_t4593_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CrossAppDomainChannel_get_ChannelPriority_m18215/* method */
+	, &CrossAppDomainChannel_t4596_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -3246,11 +3246,11 @@ extern const MethodInfo CrossAppDomainChannel_get_ChannelPriority_m18183_MethodI
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Channels.CrossAppDomainChannel::get_ChannelData()
-extern const MethodInfo CrossAppDomainChannel_get_ChannelData_m18184_MethodInfo = 
+extern const MethodInfo CrossAppDomainChannel_get_ChannelData_m18216_MethodInfo = 
 {
 	"get_ChannelData"/* name */
-	, (methodPointerType)&CrossAppDomainChannel_get_ChannelData_m18184/* method */
-	, &CrossAppDomainChannel_t4593_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CrossAppDomainChannel_get_ChannelData_m18216/* method */
+	, &CrossAppDomainChannel_t4596_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3268,20 +3268,20 @@ extern const MethodInfo CrossAppDomainChannel_get_ChannelData_m18184_MethodInfo 
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo CrossAppDomainChannel_t4593_CrossAppDomainChannel_StartListening_m18185_ParameterInfos[] = 
+static const ParameterInfo CrossAppDomainChannel_t4596_CrossAppDomainChannel_StartListening_m18217_ParameterInfos[] = 
 {
 	{"data", 0, 134222094, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainChannel::StartListening(System.Object)
-extern const MethodInfo CrossAppDomainChannel_StartListening_m18185_MethodInfo = 
+extern const MethodInfo CrossAppDomainChannel_StartListening_m18217_MethodInfo = 
 {
 	"StartListening"/* name */
-	, (methodPointerType)&CrossAppDomainChannel_StartListening_m18185/* method */
-	, &CrossAppDomainChannel_t4593_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CrossAppDomainChannel_StartListening_m18217/* method */
+	, &CrossAppDomainChannel_t4596_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, CrossAppDomainChannel_t4593_CrossAppDomainChannel_StartListening_m18185_ParameterInfos/* parameters */
+	, CrossAppDomainChannel_t4596_CrossAppDomainChannel_StartListening_m18217_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -3295,74 +3295,74 @@ extern const MethodInfo CrossAppDomainChannel_StartListening_m18185_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* CrossAppDomainChannel_t4593_MethodInfos[] =
+static const MethodInfo* CrossAppDomainChannel_t4596_MethodInfos[] =
 {
-	&CrossAppDomainChannel__ctor_m18179_MethodInfo,
-	&CrossAppDomainChannel__cctor_m18180_MethodInfo,
-	&CrossAppDomainChannel_RegisterCrossAppDomainChannel_m18181_MethodInfo,
-	&CrossAppDomainChannel_get_ChannelName_m18182_MethodInfo,
-	&CrossAppDomainChannel_get_ChannelPriority_m18183_MethodInfo,
-	&CrossAppDomainChannel_get_ChannelData_m18184_MethodInfo,
-	&CrossAppDomainChannel_StartListening_m18185_MethodInfo,
+	&CrossAppDomainChannel__ctor_m18211_MethodInfo,
+	&CrossAppDomainChannel__cctor_m18212_MethodInfo,
+	&CrossAppDomainChannel_RegisterCrossAppDomainChannel_m18213_MethodInfo,
+	&CrossAppDomainChannel_get_ChannelName_m18214_MethodInfo,
+	&CrossAppDomainChannel_get_ChannelPriority_m18215_MethodInfo,
+	&CrossAppDomainChannel_get_ChannelData_m18216_MethodInfo,
+	&CrossAppDomainChannel_StartListening_m18217_MethodInfo,
 	NULL
 };
-extern const MethodInfo CrossAppDomainChannel_get_ChannelName_m18182_MethodInfo;
-static const PropertyInfo CrossAppDomainChannel_t4593____ChannelName_PropertyInfo = 
+extern const MethodInfo CrossAppDomainChannel_get_ChannelName_m18214_MethodInfo;
+static const PropertyInfo CrossAppDomainChannel_t4596____ChannelName_PropertyInfo = 
 {
-	&CrossAppDomainChannel_t4593_il2cpp_TypeInfo/* parent */
+	&CrossAppDomainChannel_t4596_il2cpp_TypeInfo/* parent */
 	, "ChannelName"/* name */
-	, &CrossAppDomainChannel_get_ChannelName_m18182_MethodInfo/* get */
+	, &CrossAppDomainChannel_get_ChannelName_m18214_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CrossAppDomainChannel_get_ChannelPriority_m18183_MethodInfo;
-static const PropertyInfo CrossAppDomainChannel_t4593____ChannelPriority_PropertyInfo = 
+extern const MethodInfo CrossAppDomainChannel_get_ChannelPriority_m18215_MethodInfo;
+static const PropertyInfo CrossAppDomainChannel_t4596____ChannelPriority_PropertyInfo = 
 {
-	&CrossAppDomainChannel_t4593_il2cpp_TypeInfo/* parent */
+	&CrossAppDomainChannel_t4596_il2cpp_TypeInfo/* parent */
 	, "ChannelPriority"/* name */
-	, &CrossAppDomainChannel_get_ChannelPriority_m18183_MethodInfo/* get */
+	, &CrossAppDomainChannel_get_ChannelPriority_m18215_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CrossAppDomainChannel_get_ChannelData_m18184_MethodInfo;
-static const PropertyInfo CrossAppDomainChannel_t4593____ChannelData_PropertyInfo = 
+extern const MethodInfo CrossAppDomainChannel_get_ChannelData_m18216_MethodInfo;
+static const PropertyInfo CrossAppDomainChannel_t4596____ChannelData_PropertyInfo = 
 {
-	&CrossAppDomainChannel_t4593_il2cpp_TypeInfo/* parent */
+	&CrossAppDomainChannel_t4596_il2cpp_TypeInfo/* parent */
 	, "ChannelData"/* name */
-	, &CrossAppDomainChannel_get_ChannelData_m18184_MethodInfo/* get */
+	, &CrossAppDomainChannel_get_ChannelData_m18216_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* CrossAppDomainChannel_t4593_PropertyInfos[] =
+static const PropertyInfo* CrossAppDomainChannel_t4596_PropertyInfos[] =
 {
-	&CrossAppDomainChannel_t4593____ChannelName_PropertyInfo,
-	&CrossAppDomainChannel_t4593____ChannelPriority_PropertyInfo,
-	&CrossAppDomainChannel_t4593____ChannelData_PropertyInfo,
+	&CrossAppDomainChannel_t4596____ChannelName_PropertyInfo,
+	&CrossAppDomainChannel_t4596____ChannelPriority_PropertyInfo,
+	&CrossAppDomainChannel_t4596____ChannelData_PropertyInfo,
 	NULL
 };
-extern const MethodInfo CrossAppDomainChannel_StartListening_m18185_MethodInfo;
-static const Il2CppMethodReference CrossAppDomainChannel_t4593_VTable[] =
+extern const MethodInfo CrossAppDomainChannel_StartListening_m18217_MethodInfo;
+static const Il2CppMethodReference CrossAppDomainChannel_t4596_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&CrossAppDomainChannel_get_ChannelName_m18182_MethodInfo,
-	&CrossAppDomainChannel_get_ChannelPriority_m18183_MethodInfo,
-	&CrossAppDomainChannel_get_ChannelData_m18184_MethodInfo,
-	&CrossAppDomainChannel_StartListening_m18185_MethodInfo,
-	&CrossAppDomainChannel_get_ChannelName_m18182_MethodInfo,
-	&CrossAppDomainChannel_get_ChannelPriority_m18183_MethodInfo,
-	&CrossAppDomainChannel_get_ChannelData_m18184_MethodInfo,
-	&CrossAppDomainChannel_StartListening_m18185_MethodInfo,
+	&CrossAppDomainChannel_get_ChannelName_m18214_MethodInfo,
+	&CrossAppDomainChannel_get_ChannelPriority_m18215_MethodInfo,
+	&CrossAppDomainChannel_get_ChannelData_m18216_MethodInfo,
+	&CrossAppDomainChannel_StartListening_m18217_MethodInfo,
+	&CrossAppDomainChannel_get_ChannelName_m18214_MethodInfo,
+	&CrossAppDomainChannel_get_ChannelPriority_m18215_MethodInfo,
+	&CrossAppDomainChannel_get_ChannelData_m18216_MethodInfo,
+	&CrossAppDomainChannel_StartListening_m18217_MethodInfo,
 };
-static bool CrossAppDomainChannel_t4593_VTableIsGenericMethod[] =
+static bool CrossAppDomainChannel_t4596_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -3377,52 +3377,52 @@ static bool CrossAppDomainChannel_t4593_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IChannelReceiver_t4889_0_0_0;
-extern const Il2CppType IChannelSender_t4965_0_0_0;
-static const Il2CppType* CrossAppDomainChannel_t4593_InterfacesTypeInfos[] = 
+extern const Il2CppType IChannelReceiver_t4892_0_0_0;
+extern const Il2CppType IChannelSender_t4968_0_0_0;
+static const Il2CppType* CrossAppDomainChannel_t4596_InterfacesTypeInfos[] = 
 {
-	&IChannel_t4877_0_0_0,
-	&IChannelReceiver_t4889_0_0_0,
-	&IChannelSender_t4965_0_0_0,
+	&IChannel_t4880_0_0_0,
+	&IChannelReceiver_t4892_0_0_0,
+	&IChannelSender_t4968_0_0_0,
 };
-static Il2CppInterfaceOffsetPair CrossAppDomainChannel_t4593_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair CrossAppDomainChannel_t4596_InterfacesOffsets[] = 
 {
-	{ &IChannel_t4877_0_0_0, 4},
-	{ &IChannelReceiver_t4889_0_0_0, 6},
-	{ &IChannelSender_t4965_0_0_0, 8},
+	{ &IChannel_t4880_0_0_0, 4},
+	{ &IChannelReceiver_t4892_0_0_0, 6},
+	{ &IChannelSender_t4968_0_0_0, 8},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType CrossAppDomainChannel_t4593_0_0_0;
-extern const Il2CppType CrossAppDomainChannel_t4593_1_0_0;
-struct CrossAppDomainChannel_t4593;
-const Il2CppTypeDefinitionMetadata CrossAppDomainChannel_t4593_DefinitionMetadata = 
+extern const Il2CppType CrossAppDomainChannel_t4596_0_0_0;
+extern const Il2CppType CrossAppDomainChannel_t4596_1_0_0;
+struct CrossAppDomainChannel_t4596;
+const Il2CppTypeDefinitionMetadata CrossAppDomainChannel_t4596_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, CrossAppDomainChannel_t4593_InterfacesTypeInfos/* implementedInterfaces */
-	, CrossAppDomainChannel_t4593_InterfacesOffsets/* interfaceOffsets */
+	, CrossAppDomainChannel_t4596_InterfacesTypeInfos/* implementedInterfaces */
+	, CrossAppDomainChannel_t4596_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, CrossAppDomainChannel_t4593_VTable/* vtableMethods */
-	, CrossAppDomainChannel_t4593_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, CrossAppDomainChannel_t4596_VTable/* vtableMethods */
+	, CrossAppDomainChannel_t4596_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1536/* fieldStart */
 
 };
-TypeInfo CrossAppDomainChannel_t4593_il2cpp_TypeInfo = 
+TypeInfo CrossAppDomainChannel_t4596_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "CrossAppDomainChannel"/* name */
 	, "System.Runtime.Remoting.Channels"/* namespaze */
-	, CrossAppDomainChannel_t4593_MethodInfos/* methods */
-	, CrossAppDomainChannel_t4593_PropertyInfos/* properties */
+	, CrossAppDomainChannel_t4596_MethodInfos/* methods */
+	, CrossAppDomainChannel_t4596_PropertyInfos/* properties */
 	, NULL/* events */
-	, &CrossAppDomainChannel_t4593_il2cpp_TypeInfo/* element_class */
+	, &CrossAppDomainChannel_t4596_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &CrossAppDomainChannel_t4593_0_0_0/* byval_arg */
-	, &CrossAppDomainChannel_t4593_1_0_0/* this_arg */
-	, &CrossAppDomainChannel_t4593_DefinitionMetadata/* definitionMetadata */
+	, &CrossAppDomainChannel_t4596_0_0_0/* byval_arg */
+	, &CrossAppDomainChannel_t4596_1_0_0/* this_arg */
+	, &CrossAppDomainChannel_t4596_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3432,11 +3432,11 @@ TypeInfo CrossAppDomainChannel_t4593_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (CrossAppDomainChannel_t4593)/* instance_size */
-	, sizeof (CrossAppDomainChannel_t4593)/* actualSize */
+	, sizeof (CrossAppDomainChannel_t4596)/* instance_size */
+	, sizeof (CrossAppDomainChannel_t4596)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(CrossAppDomainChannel_t4593_StaticFields)/* static_fields_size */
+	, sizeof(CrossAppDomainChannel_t4596_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1056768/* flags */
@@ -3465,16 +3465,16 @@ TypeInfo CrossAppDomainChannel_t4593_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Channels.CrossAppDomainSink
 #include "mscorlib_System_Runtime_Remoting_Channels_CrossAppDomainSink.h"
 // Metadata Definition System.Runtime.Remoting.Channels.CrossAppDomainSink
-extern TypeInfo CrossAppDomainSink_t4594_il2cpp_TypeInfo;
+extern TypeInfo CrossAppDomainSink_t4597_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Channels.CrossAppDomainSink
 #include "mscorlib_System_Runtime_Remoting_Channels_CrossAppDomainSinkMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainSink::.cctor()
-extern const MethodInfo CrossAppDomainSink__cctor_m18186_MethodInfo = 
+extern const MethodInfo CrossAppDomainSink__cctor_m18218_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&CrossAppDomainSink__cctor_m18186/* method */
-	, &CrossAppDomainSink_t4594_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CrossAppDomainSink__cctor_m18218/* method */
+	, &CrossAppDomainSink_t4597_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -3493,11 +3493,11 @@ extern const MethodInfo CrossAppDomainSink__cctor_m18186_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Runtime.Remoting.Channels.CrossAppDomainSink::get_TargetDomainId()
-extern const MethodInfo CrossAppDomainSink_get_TargetDomainId_m18187_MethodInfo = 
+extern const MethodInfo CrossAppDomainSink_get_TargetDomainId_m18219_MethodInfo = 
 {
 	"get_TargetDomainId"/* name */
-	, (methodPointerType)&CrossAppDomainSink_get_TargetDomainId_m18187/* method */
-	, &CrossAppDomainSink_t4594_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CrossAppDomainSink_get_TargetDomainId_m18219/* method */
+	, &CrossAppDomainSink_t4597_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -3514,83 +3514,83 @@ extern const MethodInfo CrossAppDomainSink_get_TargetDomainId_m18187_MethodInfo 
 	, NULL/* dummy */
 
 };
-static const MethodInfo* CrossAppDomainSink_t4594_MethodInfos[] =
+static const MethodInfo* CrossAppDomainSink_t4597_MethodInfos[] =
 {
-	&CrossAppDomainSink__cctor_m18186_MethodInfo,
-	&CrossAppDomainSink_get_TargetDomainId_m18187_MethodInfo,
+	&CrossAppDomainSink__cctor_m18218_MethodInfo,
+	&CrossAppDomainSink_get_TargetDomainId_m18219_MethodInfo,
 	NULL
 };
-extern const MethodInfo CrossAppDomainSink_get_TargetDomainId_m18187_MethodInfo;
-static const PropertyInfo CrossAppDomainSink_t4594____TargetDomainId_PropertyInfo = 
+extern const MethodInfo CrossAppDomainSink_get_TargetDomainId_m18219_MethodInfo;
+static const PropertyInfo CrossAppDomainSink_t4597____TargetDomainId_PropertyInfo = 
 {
-	&CrossAppDomainSink_t4594_il2cpp_TypeInfo/* parent */
+	&CrossAppDomainSink_t4597_il2cpp_TypeInfo/* parent */
 	, "TargetDomainId"/* name */
-	, &CrossAppDomainSink_get_TargetDomainId_m18187_MethodInfo/* get */
+	, &CrossAppDomainSink_get_TargetDomainId_m18219_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* CrossAppDomainSink_t4594_PropertyInfos[] =
+static const PropertyInfo* CrossAppDomainSink_t4597_PropertyInfos[] =
 {
-	&CrossAppDomainSink_t4594____TargetDomainId_PropertyInfo,
+	&CrossAppDomainSink_t4597____TargetDomainId_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference CrossAppDomainSink_t4594_VTable[] =
+static const Il2CppMethodReference CrossAppDomainSink_t4597_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool CrossAppDomainSink_t4594_VTableIsGenericMethod[] =
+static bool CrossAppDomainSink_t4597_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-extern const Il2CppType IMessageSink_t3091_0_0_0;
-static const Il2CppType* CrossAppDomainSink_t4594_InterfacesTypeInfos[] = 
+extern const Il2CppType IMessageSink_t3094_0_0_0;
+static const Il2CppType* CrossAppDomainSink_t4597_InterfacesTypeInfos[] = 
 {
-	&IMessageSink_t3091_0_0_0,
+	&IMessageSink_t3094_0_0_0,
 };
-static Il2CppInterfaceOffsetPair CrossAppDomainSink_t4594_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair CrossAppDomainSink_t4597_InterfacesOffsets[] = 
 {
-	{ &IMessageSink_t3091_0_0_0, 4},
+	{ &IMessageSink_t3094_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType CrossAppDomainSink_t4594_0_0_0;
-extern const Il2CppType CrossAppDomainSink_t4594_1_0_0;
-struct CrossAppDomainSink_t4594;
-const Il2CppTypeDefinitionMetadata CrossAppDomainSink_t4594_DefinitionMetadata = 
+extern const Il2CppType CrossAppDomainSink_t4597_0_0_0;
+extern const Il2CppType CrossAppDomainSink_t4597_1_0_0;
+struct CrossAppDomainSink_t4597;
+const Il2CppTypeDefinitionMetadata CrossAppDomainSink_t4597_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, CrossAppDomainSink_t4594_InterfacesTypeInfos/* implementedInterfaces */
-	, CrossAppDomainSink_t4594_InterfacesOffsets/* interfaceOffsets */
+	, CrossAppDomainSink_t4597_InterfacesTypeInfos/* implementedInterfaces */
+	, CrossAppDomainSink_t4597_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, CrossAppDomainSink_t4594_VTable/* vtableMethods */
-	, CrossAppDomainSink_t4594_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, CrossAppDomainSink_t4597_VTable/* vtableMethods */
+	, CrossAppDomainSink_t4597_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1537/* fieldStart */
 
 };
-TypeInfo CrossAppDomainSink_t4594_il2cpp_TypeInfo = 
+TypeInfo CrossAppDomainSink_t4597_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "CrossAppDomainSink"/* name */
 	, "System.Runtime.Remoting.Channels"/* namespaze */
-	, CrossAppDomainSink_t4594_MethodInfos/* methods */
-	, CrossAppDomainSink_t4594_PropertyInfos/* properties */
+	, CrossAppDomainSink_t4597_MethodInfos/* methods */
+	, CrossAppDomainSink_t4597_PropertyInfos/* properties */
 	, NULL/* events */
-	, &CrossAppDomainSink_t4594_il2cpp_TypeInfo/* element_class */
+	, &CrossAppDomainSink_t4597_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 527/* custom_attributes_cache */
-	, &CrossAppDomainSink_t4594_0_0_0/* byval_arg */
-	, &CrossAppDomainSink_t4594_1_0_0/* this_arg */
-	, &CrossAppDomainSink_t4594_DefinitionMetadata/* definitionMetadata */
+	, &CrossAppDomainSink_t4597_0_0_0/* byval_arg */
+	, &CrossAppDomainSink_t4597_1_0_0/* this_arg */
+	, &CrossAppDomainSink_t4597_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3600,11 +3600,11 @@ TypeInfo CrossAppDomainSink_t4594_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (CrossAppDomainSink_t4594)/* instance_size */
-	, sizeof (CrossAppDomainSink_t4594)/* actualSize */
+	, sizeof (CrossAppDomainSink_t4597)/* instance_size */
+	, sizeof (CrossAppDomainSink_t4597)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(CrossAppDomainSink_t4594_StaticFields)/* static_fields_size */
+	, sizeof(CrossAppDomainSink_t4597_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -3631,14 +3631,14 @@ TypeInfo CrossAppDomainSink_t4594_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Channels.IChannel
-extern TypeInfo IChannel_t4877_il2cpp_TypeInfo;
+extern TypeInfo IChannel_t4880_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Channels.IChannel::get_ChannelName()
-extern const MethodInfo IChannel_get_ChannelName_m20731_MethodInfo = 
+extern const MethodInfo IChannel_get_ChannelName_m20763_MethodInfo = 
 {
 	"get_ChannelName"/* name */
 	, NULL/* method */
-	, &IChannel_t4877_il2cpp_TypeInfo/* declaring_type */
+	, &IChannel_t4880_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3657,11 +3657,11 @@ extern const MethodInfo IChannel_get_ChannelName_m20731_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Runtime.Remoting.Channels.IChannel::get_ChannelPriority()
-extern const MethodInfo IChannel_get_ChannelPriority_m20732_MethodInfo = 
+extern const MethodInfo IChannel_get_ChannelPriority_m20764_MethodInfo = 
 {
 	"get_ChannelPriority"/* name */
 	, NULL/* method */
-	, &IChannel_t4877_il2cpp_TypeInfo/* declaring_type */
+	, &IChannel_t4880_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -3678,44 +3678,44 @@ extern const MethodInfo IChannel_get_ChannelPriority_m20732_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IChannel_t4877_MethodInfos[] =
+static const MethodInfo* IChannel_t4880_MethodInfos[] =
 {
-	&IChannel_get_ChannelName_m20731_MethodInfo,
-	&IChannel_get_ChannelPriority_m20732_MethodInfo,
+	&IChannel_get_ChannelName_m20763_MethodInfo,
+	&IChannel_get_ChannelPriority_m20764_MethodInfo,
 	NULL
 };
-extern const MethodInfo IChannel_get_ChannelName_m20731_MethodInfo;
-static const PropertyInfo IChannel_t4877____ChannelName_PropertyInfo = 
+extern const MethodInfo IChannel_get_ChannelName_m20763_MethodInfo;
+static const PropertyInfo IChannel_t4880____ChannelName_PropertyInfo = 
 {
-	&IChannel_t4877_il2cpp_TypeInfo/* parent */
+	&IChannel_t4880_il2cpp_TypeInfo/* parent */
 	, "ChannelName"/* name */
-	, &IChannel_get_ChannelName_m20731_MethodInfo/* get */
+	, &IChannel_get_ChannelName_m20763_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IChannel_get_ChannelPriority_m20732_MethodInfo;
-static const PropertyInfo IChannel_t4877____ChannelPriority_PropertyInfo = 
+extern const MethodInfo IChannel_get_ChannelPriority_m20764_MethodInfo;
+static const PropertyInfo IChannel_t4880____ChannelPriority_PropertyInfo = 
 {
-	&IChannel_t4877_il2cpp_TypeInfo/* parent */
+	&IChannel_t4880_il2cpp_TypeInfo/* parent */
 	, "ChannelPriority"/* name */
-	, &IChannel_get_ChannelPriority_m20732_MethodInfo/* get */
+	, &IChannel_get_ChannelPriority_m20764_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IChannel_t4877_PropertyInfos[] =
+static const PropertyInfo* IChannel_t4880_PropertyInfos[] =
 {
-	&IChannel_t4877____ChannelName_PropertyInfo,
-	&IChannel_t4877____ChannelPriority_PropertyInfo,
+	&IChannel_t4880____ChannelName_PropertyInfo,
+	&IChannel_t4880____ChannelPriority_PropertyInfo,
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IChannel_t4877_1_0_0;
-struct IChannel_t4877;
-const Il2CppTypeDefinitionMetadata IChannel_t4877_DefinitionMetadata = 
+extern const Il2CppType IChannel_t4880_1_0_0;
+struct IChannel_t4880;
+const Il2CppTypeDefinitionMetadata IChannel_t4880_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -3728,21 +3728,21 @@ const Il2CppTypeDefinitionMetadata IChannel_t4877_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IChannel_t4877_il2cpp_TypeInfo = 
+TypeInfo IChannel_t4880_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IChannel"/* name */
 	, "System.Runtime.Remoting.Channels"/* namespaze */
-	, IChannel_t4877_MethodInfos/* methods */
-	, IChannel_t4877_PropertyInfos/* properties */
+	, IChannel_t4880_MethodInfos/* methods */
+	, IChannel_t4880_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IChannel_t4877_il2cpp_TypeInfo/* element_class */
+	, &IChannel_t4880_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 528/* custom_attributes_cache */
-	, &IChannel_t4877_0_0_0/* byval_arg */
-	, &IChannel_t4877_1_0_0/* this_arg */
-	, &IChannel_t4877_DefinitionMetadata/* definitionMetadata */
+	, &IChannel_t4880_0_0_0/* byval_arg */
+	, &IChannel_t4880_1_0_0/* this_arg */
+	, &IChannel_t4880_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3783,14 +3783,14 @@ TypeInfo IChannel_t4877_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Channels.IChannelReceiver
-extern TypeInfo IChannelReceiver_t4889_il2cpp_TypeInfo;
+extern TypeInfo IChannelReceiver_t4892_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Channels.IChannelReceiver::get_ChannelData()
-extern const MethodInfo IChannelReceiver_get_ChannelData_m20733_MethodInfo = 
+extern const MethodInfo IChannelReceiver_get_ChannelData_m20765_MethodInfo = 
 {
 	"get_ChannelData"/* name */
 	, NULL/* method */
-	, &IChannelReceiver_t4889_il2cpp_TypeInfo/* declaring_type */
+	, &IChannelReceiver_t4892_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3808,20 +3808,20 @@ extern const MethodInfo IChannelReceiver_get_ChannelData_m20733_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo IChannelReceiver_t4889_IChannelReceiver_StartListening_m20734_ParameterInfos[] = 
+static const ParameterInfo IChannelReceiver_t4892_IChannelReceiver_StartListening_m20766_ParameterInfos[] = 
 {
 	{"data", 0, 134222095, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Channels.IChannelReceiver::StartListening(System.Object)
-extern const MethodInfo IChannelReceiver_StartListening_m20734_MethodInfo = 
+extern const MethodInfo IChannelReceiver_StartListening_m20766_MethodInfo = 
 {
 	"StartListening"/* name */
 	, NULL/* method */
-	, &IChannelReceiver_t4889_il2cpp_TypeInfo/* declaring_type */
+	, &IChannelReceiver_t4892_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, IChannelReceiver_t4889_IChannelReceiver_StartListening_m20734_ParameterInfos/* parameters */
+	, IChannelReceiver_t4892_IChannelReceiver_StartListening_m20766_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -3835,40 +3835,40 @@ extern const MethodInfo IChannelReceiver_StartListening_m20734_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IChannelReceiver_t4889_MethodInfos[] =
+static const MethodInfo* IChannelReceiver_t4892_MethodInfos[] =
 {
-	&IChannelReceiver_get_ChannelData_m20733_MethodInfo,
-	&IChannelReceiver_StartListening_m20734_MethodInfo,
+	&IChannelReceiver_get_ChannelData_m20765_MethodInfo,
+	&IChannelReceiver_StartListening_m20766_MethodInfo,
 	NULL
 };
-extern const MethodInfo IChannelReceiver_get_ChannelData_m20733_MethodInfo;
-static const PropertyInfo IChannelReceiver_t4889____ChannelData_PropertyInfo = 
+extern const MethodInfo IChannelReceiver_get_ChannelData_m20765_MethodInfo;
+static const PropertyInfo IChannelReceiver_t4892____ChannelData_PropertyInfo = 
 {
-	&IChannelReceiver_t4889_il2cpp_TypeInfo/* parent */
+	&IChannelReceiver_t4892_il2cpp_TypeInfo/* parent */
 	, "ChannelData"/* name */
-	, &IChannelReceiver_get_ChannelData_m20733_MethodInfo/* get */
+	, &IChannelReceiver_get_ChannelData_m20765_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IChannelReceiver_t4889_PropertyInfos[] =
+static const PropertyInfo* IChannelReceiver_t4892_PropertyInfos[] =
 {
-	&IChannelReceiver_t4889____ChannelData_PropertyInfo,
+	&IChannelReceiver_t4892____ChannelData_PropertyInfo,
 	NULL
 };
-static const Il2CppType* IChannelReceiver_t4889_InterfacesTypeInfos[] = 
+static const Il2CppType* IChannelReceiver_t4892_InterfacesTypeInfos[] = 
 {
-	&IChannel_t4877_0_0_0,
+	&IChannel_t4880_0_0_0,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IChannelReceiver_t4889_1_0_0;
-struct IChannelReceiver_t4889;
-const Il2CppTypeDefinitionMetadata IChannelReceiver_t4889_DefinitionMetadata = 
+extern const Il2CppType IChannelReceiver_t4892_1_0_0;
+struct IChannelReceiver_t4892;
+const Il2CppTypeDefinitionMetadata IChannelReceiver_t4892_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, IChannelReceiver_t4889_InterfacesTypeInfos/* implementedInterfaces */
+	, IChannelReceiver_t4892_InterfacesTypeInfos/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, NULL/* parent */
 	, NULL/* vtableMethods */
@@ -3877,21 +3877,21 @@ const Il2CppTypeDefinitionMetadata IChannelReceiver_t4889_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IChannelReceiver_t4889_il2cpp_TypeInfo = 
+TypeInfo IChannelReceiver_t4892_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IChannelReceiver"/* name */
 	, "System.Runtime.Remoting.Channels"/* namespaze */
-	, IChannelReceiver_t4889_MethodInfos/* methods */
-	, IChannelReceiver_t4889_PropertyInfos/* properties */
+	, IChannelReceiver_t4892_MethodInfos/* methods */
+	, IChannelReceiver_t4892_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IChannelReceiver_t4889_il2cpp_TypeInfo/* element_class */
+	, &IChannelReceiver_t4892_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 529/* custom_attributes_cache */
-	, &IChannelReceiver_t4889_0_0_0/* byval_arg */
-	, &IChannelReceiver_t4889_1_0_0/* this_arg */
-	, &IChannelReceiver_t4889_DefinitionMetadata/* definitionMetadata */
+	, &IChannelReceiver_t4892_0_0_0/* byval_arg */
+	, &IChannelReceiver_t4892_1_0_0/* this_arg */
+	, &IChannelReceiver_t4892_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3932,23 +3932,23 @@ TypeInfo IChannelReceiver_t4889_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Channels.IChannelSender
-extern TypeInfo IChannelSender_t4965_il2cpp_TypeInfo;
-static const MethodInfo* IChannelSender_t4965_MethodInfos[] =
+extern TypeInfo IChannelSender_t4968_il2cpp_TypeInfo;
+static const MethodInfo* IChannelSender_t4968_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppType* IChannelSender_t4965_InterfacesTypeInfos[] = 
+static const Il2CppType* IChannelSender_t4968_InterfacesTypeInfos[] = 
 {
-	&IChannel_t4877_0_0_0,
+	&IChannel_t4880_0_0_0,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IChannelSender_t4965_1_0_0;
-struct IChannelSender_t4965;
-const Il2CppTypeDefinitionMetadata IChannelSender_t4965_DefinitionMetadata = 
+extern const Il2CppType IChannelSender_t4968_1_0_0;
+struct IChannelSender_t4968;
+const Il2CppTypeDefinitionMetadata IChannelSender_t4968_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, IChannelSender_t4965_InterfacesTypeInfos/* implementedInterfaces */
+	, IChannelSender_t4968_InterfacesTypeInfos/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, NULL/* parent */
 	, NULL/* vtableMethods */
@@ -3957,21 +3957,21 @@ const Il2CppTypeDefinitionMetadata IChannelSender_t4965_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IChannelSender_t4965_il2cpp_TypeInfo = 
+TypeInfo IChannelSender_t4968_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IChannelSender"/* name */
 	, "System.Runtime.Remoting.Channels"/* namespaze */
-	, IChannelSender_t4965_MethodInfos/* methods */
+	, IChannelSender_t4968_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IChannelSender_t4965_il2cpp_TypeInfo/* element_class */
+	, &IChannelSender_t4968_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 530/* custom_attributes_cache */
-	, &IChannelSender_t4965_0_0_0/* byval_arg */
-	, &IChannelSender_t4965_1_0_0/* this_arg */
-	, &IChannelSender_t4965_DefinitionMetadata/* definitionMetadata */
+	, &IChannelSender_t4968_0_0_0/* byval_arg */
+	, &IChannelSender_t4968_1_0_0/* this_arg */
+	, &IChannelSender_t4968_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4012,22 +4012,22 @@ TypeInfo IChannelSender_t4965_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Channels.ISecurableChannel
-extern TypeInfo ISecurableChannel_t4888_il2cpp_TypeInfo;
+extern TypeInfo ISecurableChannel_t4891_il2cpp_TypeInfo;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ISecurableChannel_t4888_ISecurableChannel_set_IsSecured_m20735_ParameterInfos[] = 
+static const ParameterInfo ISecurableChannel_t4891_ISecurableChannel_set_IsSecured_m20767_ParameterInfos[] = 
 {
 	{"value", 0, 134222096, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Channels.ISecurableChannel::set_IsSecured(System.Boolean)
-extern const MethodInfo ISecurableChannel_set_IsSecured_m20735_MethodInfo = 
+extern const MethodInfo ISecurableChannel_set_IsSecured_m20767_MethodInfo = 
 {
 	"set_IsSecured"/* name */
 	, NULL/* method */
-	, &ISecurableChannel_t4888_il2cpp_TypeInfo/* declaring_type */
+	, &ISecurableChannel_t4891_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, ISecurableChannel_t4888_ISecurableChannel_set_IsSecured_m20735_ParameterInfos/* parameters */
+	, ISecurableChannel_t4891_ISecurableChannel_set_IsSecured_m20767_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 3526/* flags */
 	, 0/* iflags */
@@ -4041,32 +4041,32 @@ extern const MethodInfo ISecurableChannel_set_IsSecured_m20735_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ISecurableChannel_t4888_MethodInfos[] =
+static const MethodInfo* ISecurableChannel_t4891_MethodInfos[] =
 {
-	&ISecurableChannel_set_IsSecured_m20735_MethodInfo,
+	&ISecurableChannel_set_IsSecured_m20767_MethodInfo,
 	NULL
 };
-extern const MethodInfo ISecurableChannel_set_IsSecured_m20735_MethodInfo;
-static const PropertyInfo ISecurableChannel_t4888____IsSecured_PropertyInfo = 
+extern const MethodInfo ISecurableChannel_set_IsSecured_m20767_MethodInfo;
+static const PropertyInfo ISecurableChannel_t4891____IsSecured_PropertyInfo = 
 {
-	&ISecurableChannel_t4888_il2cpp_TypeInfo/* parent */
+	&ISecurableChannel_t4891_il2cpp_TypeInfo/* parent */
 	, "IsSecured"/* name */
 	, NULL/* get */
-	, &ISecurableChannel_set_IsSecured_m20735_MethodInfo/* set */
+	, &ISecurableChannel_set_IsSecured_m20767_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ISecurableChannel_t4888_PropertyInfos[] =
+static const PropertyInfo* ISecurableChannel_t4891_PropertyInfos[] =
 {
-	&ISecurableChannel_t4888____IsSecured_PropertyInfo,
+	&ISecurableChannel_t4891____IsSecured_PropertyInfo,
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ISecurableChannel_t4888_0_0_0;
-extern const Il2CppType ISecurableChannel_t4888_1_0_0;
-struct ISecurableChannel_t4888;
-const Il2CppTypeDefinitionMetadata ISecurableChannel_t4888_DefinitionMetadata = 
+extern const Il2CppType ISecurableChannel_t4891_0_0_0;
+extern const Il2CppType ISecurableChannel_t4891_1_0_0;
+struct ISecurableChannel_t4891;
+const Il2CppTypeDefinitionMetadata ISecurableChannel_t4891_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -4079,21 +4079,21 @@ const Il2CppTypeDefinitionMetadata ISecurableChannel_t4888_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo ISecurableChannel_t4888_il2cpp_TypeInfo = 
+TypeInfo ISecurableChannel_t4891_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ISecurableChannel"/* name */
 	, "System.Runtime.Remoting.Channels"/* namespaze */
-	, ISecurableChannel_t4888_MethodInfos/* methods */
-	, ISecurableChannel_t4888_PropertyInfos/* properties */
+	, ISecurableChannel_t4891_MethodInfos/* methods */
+	, ISecurableChannel_t4891_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ISecurableChannel_t4888_il2cpp_TypeInfo/* element_class */
+	, &ISecurableChannel_t4891_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ISecurableChannel_t4888_0_0_0/* byval_arg */
-	, &ISecurableChannel_t4888_1_0_0/* this_arg */
-	, &ISecurableChannel_t4888_DefinitionMetadata/* definitionMetadata */
+	, &ISecurableChannel_t4891_0_0_0/* byval_arg */
+	, &ISecurableChannel_t4891_1_0_0/* this_arg */
+	, &ISecurableChannel_t4891_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4136,16 +4136,16 @@ TypeInfo ISecurableChannel_t4888_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Contexts.Context
 #include "mscorlib_System_Runtime_Remoting_Contexts_Context.h"
 // Metadata Definition System.Runtime.Remoting.Contexts.Context
-extern TypeInfo Context_t4595_il2cpp_TypeInfo;
+extern TypeInfo Context_t4598_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Contexts.Context
 #include "mscorlib_System_Runtime_Remoting_Contexts_ContextMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Contexts.Context::.cctor()
-extern const MethodInfo Context__cctor_m18188_MethodInfo = 
+extern const MethodInfo Context__cctor_m18220_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&Context__cctor_m18188/* method */
-	, &Context_t4595_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&Context__cctor_m18220/* method */
+	, &Context_t4598_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -4164,11 +4164,11 @@ extern const MethodInfo Context__cctor_m18188_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Contexts.Context::Finalize()
-extern const MethodInfo Context_Finalize_m18189_MethodInfo = 
+extern const MethodInfo Context_Finalize_m18221_MethodInfo = 
 {
 	"Finalize"/* name */
-	, (methodPointerType)&Context_Finalize_m18189/* method */
-	, &Context_t4595_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&Context_Finalize_m18221/* method */
+	, &Context_t4598_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -4187,12 +4187,12 @@ extern const MethodInfo Context_Finalize_m18189_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Contexts.Context System.Runtime.Remoting.Contexts.Context::get_DefaultContext()
-extern const MethodInfo Context_get_DefaultContext_m18190_MethodInfo = 
+extern const MethodInfo Context_get_DefaultContext_m18222_MethodInfo = 
 {
 	"get_DefaultContext"/* name */
-	, (methodPointerType)&Context_get_DefaultContext_m18190/* method */
-	, &Context_t4595_il2cpp_TypeInfo/* declaring_type */
-	, &Context_t4595_0_0_0/* return_type */
+	, (methodPointerType)&Context_get_DefaultContext_m18222/* method */
+	, &Context_t4598_il2cpp_TypeInfo/* declaring_type */
+	, &Context_t4598_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -4210,11 +4210,11 @@ extern const MethodInfo Context_get_DefaultContext_m18190_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Contexts.Context::get_IsDefaultContext()
-extern const MethodInfo Context_get_IsDefaultContext_m18191_MethodInfo = 
+extern const MethodInfo Context_get_IsDefaultContext_m18223_MethodInfo = 
 {
 	"get_IsDefaultContext"/* name */
-	, (methodPointerType)&Context_get_IsDefaultContext_m18191/* method */
-	, &Context_t4595_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&Context_get_IsDefaultContext_m18223/* method */
+	, &Context_t4598_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -4232,20 +4232,20 @@ extern const MethodInfo Context_get_IsDefaultContext_m18191_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Context_t4595_Context_GetProperty_m18192_ParameterInfos[] = 
+static const ParameterInfo Context_t4598_Context_GetProperty_m18224_ParameterInfos[] = 
 {
 	{"name", 0, 134222097, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Contexts.IContextProperty System.Runtime.Remoting.Contexts.Context::GetProperty(System.String)
-extern const MethodInfo Context_GetProperty_m18192_MethodInfo = 
+extern const MethodInfo Context_GetProperty_m18224_MethodInfo = 
 {
 	"GetProperty"/* name */
-	, (methodPointerType)&Context_GetProperty_m18192/* method */
-	, &Context_t4595_il2cpp_TypeInfo/* declaring_type */
-	, &IContextProperty_t4878_0_0_0/* return_type */
+	, (methodPointerType)&Context_GetProperty_m18224/* method */
+	, &Context_t4598_il2cpp_TypeInfo/* declaring_type */
+	, &IContextProperty_t4881_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Context_t4595_Context_GetProperty_m18192_ParameterInfos/* parameters */
+	, Context_t4598_Context_GetProperty_m18224_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -4261,11 +4261,11 @@ extern const MethodInfo Context_GetProperty_m18192_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Contexts.Context::ToString()
-extern const MethodInfo Context_ToString_m18193_MethodInfo = 
+extern const MethodInfo Context_ToString_m18225_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&Context_ToString_m18193/* method */
-	, &Context_t4595_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&Context_ToString_m18225/* method */
+	, &Context_t4598_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -4282,56 +4282,56 @@ extern const MethodInfo Context_ToString_m18193_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* Context_t4595_MethodInfos[] =
+static const MethodInfo* Context_t4598_MethodInfos[] =
 {
-	&Context__cctor_m18188_MethodInfo,
-	&Context_Finalize_m18189_MethodInfo,
-	&Context_get_DefaultContext_m18190_MethodInfo,
-	&Context_get_IsDefaultContext_m18191_MethodInfo,
-	&Context_GetProperty_m18192_MethodInfo,
-	&Context_ToString_m18193_MethodInfo,
+	&Context__cctor_m18220_MethodInfo,
+	&Context_Finalize_m18221_MethodInfo,
+	&Context_get_DefaultContext_m18222_MethodInfo,
+	&Context_get_IsDefaultContext_m18223_MethodInfo,
+	&Context_GetProperty_m18224_MethodInfo,
+	&Context_ToString_m18225_MethodInfo,
 	NULL
 };
-extern const MethodInfo Context_get_DefaultContext_m18190_MethodInfo;
-static const PropertyInfo Context_t4595____DefaultContext_PropertyInfo = 
+extern const MethodInfo Context_get_DefaultContext_m18222_MethodInfo;
+static const PropertyInfo Context_t4598____DefaultContext_PropertyInfo = 
 {
-	&Context_t4595_il2cpp_TypeInfo/* parent */
+	&Context_t4598_il2cpp_TypeInfo/* parent */
 	, "DefaultContext"/* name */
-	, &Context_get_DefaultContext_m18190_MethodInfo/* get */
+	, &Context_get_DefaultContext_m18222_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Context_get_IsDefaultContext_m18191_MethodInfo;
-static const PropertyInfo Context_t4595____IsDefaultContext_PropertyInfo = 
+extern const MethodInfo Context_get_IsDefaultContext_m18223_MethodInfo;
+static const PropertyInfo Context_t4598____IsDefaultContext_PropertyInfo = 
 {
-	&Context_t4595_il2cpp_TypeInfo/* parent */
+	&Context_t4598_il2cpp_TypeInfo/* parent */
 	, "IsDefaultContext"/* name */
-	, &Context_get_IsDefaultContext_m18191_MethodInfo/* get */
+	, &Context_get_IsDefaultContext_m18223_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* Context_t4595_PropertyInfos[] =
+static const PropertyInfo* Context_t4598_PropertyInfos[] =
 {
-	&Context_t4595____DefaultContext_PropertyInfo,
-	&Context_t4595____IsDefaultContext_PropertyInfo,
+	&Context_t4598____DefaultContext_PropertyInfo,
+	&Context_t4598____IsDefaultContext_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Context_Finalize_m18189_MethodInfo;
-extern const MethodInfo Context_ToString_m18193_MethodInfo;
-extern const MethodInfo Context_GetProperty_m18192_MethodInfo;
-static const Il2CppMethodReference Context_t4595_VTable[] =
+extern const MethodInfo Context_Finalize_m18221_MethodInfo;
+extern const MethodInfo Context_ToString_m18225_MethodInfo;
+extern const MethodInfo Context_GetProperty_m18224_MethodInfo;
+static const Il2CppMethodReference Context_t4598_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
-	&Context_Finalize_m18189_MethodInfo,
+	&Context_Finalize_m18221_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&Context_ToString_m18193_MethodInfo,
-	&Context_GetProperty_m18192_MethodInfo,
+	&Context_ToString_m18225_MethodInfo,
+	&Context_GetProperty_m18224_MethodInfo,
 };
-static bool Context_t4595_VTableIsGenericMethod[] =
+static bool Context_t4598_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -4340,36 +4340,36 @@ static bool Context_t4595_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Context_t4595_1_0_0;
-struct Context_t4595;
-const Il2CppTypeDefinitionMetadata Context_t4595_DefinitionMetadata = 
+extern const Il2CppType Context_t4598_1_0_0;
+struct Context_t4598;
+const Il2CppTypeDefinitionMetadata Context_t4598_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, Context_t4595_VTable/* vtableMethods */
-	, Context_t4595_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, Context_t4598_VTable/* vtableMethods */
+	, Context_t4598_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1540/* fieldStart */
 
 };
-TypeInfo Context_t4595_il2cpp_TypeInfo = 
+TypeInfo Context_t4598_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Context"/* name */
 	, "System.Runtime.Remoting.Contexts"/* namespaze */
-	, Context_t4595_MethodInfos/* methods */
-	, Context_t4595_PropertyInfos/* properties */
+	, Context_t4598_MethodInfos/* methods */
+	, Context_t4598_PropertyInfos/* properties */
 	, NULL/* events */
-	, &Context_t4595_il2cpp_TypeInfo/* element_class */
+	, &Context_t4598_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 531/* custom_attributes_cache */
-	, &Context_t4595_0_0_0/* byval_arg */
-	, &Context_t4595_1_0_0/* this_arg */
-	, &Context_t4595_DefinitionMetadata/* definitionMetadata */
+	, &Context_t4598_0_0_0/* byval_arg */
+	, &Context_t4598_1_0_0/* this_arg */
+	, &Context_t4598_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4379,11 +4379,11 @@ TypeInfo Context_t4595_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Context_t4595)/* instance_size */
-	, sizeof (Context_t4595)/* actualSize */
+	, sizeof (Context_t4598)/* instance_size */
+	, sizeof (Context_t4598)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(Context_t4595_StaticFields)/* static_fields_size */
+	, sizeof(Context_t4598_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048577/* flags */
@@ -4412,24 +4412,24 @@ TypeInfo Context_t4595_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Contexts.ContextAttribute
 #include "mscorlib_System_Runtime_Remoting_Contexts_ContextAttribute.h"
 // Metadata Definition System.Runtime.Remoting.Contexts.ContextAttribute
-extern TypeInfo ContextAttribute_t4588_il2cpp_TypeInfo;
+extern TypeInfo ContextAttribute_t4591_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Contexts.ContextAttribute
 #include "mscorlib_System_Runtime_Remoting_Contexts_ContextAttributeMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ContextAttribute_t4588_ContextAttribute__ctor_m18194_ParameterInfos[] = 
+static const ParameterInfo ContextAttribute_t4591_ContextAttribute__ctor_m18226_ParameterInfos[] = 
 {
 	{"name", 0, 134222098, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Contexts.ContextAttribute::.ctor(System.String)
-extern const MethodInfo ContextAttribute__ctor_m18194_MethodInfo = 
+extern const MethodInfo ContextAttribute__ctor_m18226_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ContextAttribute__ctor_m18194/* method */
-	, &ContextAttribute_t4588_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ContextAttribute__ctor_m18226/* method */
+	, &ContextAttribute_t4591_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ContextAttribute_t4588_ContextAttribute__ctor_m18194_ParameterInfos/* parameters */
+	, ContextAttribute_t4591_ContextAttribute__ctor_m18226_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -4445,11 +4445,11 @@ extern const MethodInfo ContextAttribute__ctor_m18194_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Contexts.ContextAttribute::get_Name()
-extern const MethodInfo ContextAttribute_get_Name_m18195_MethodInfo = 
+extern const MethodInfo ContextAttribute_get_Name_m18227_MethodInfo = 
 {
 	"get_Name"/* name */
-	, (methodPointerType)&ContextAttribute_get_Name_m18195/* method */
-	, &ContextAttribute_t4588_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ContextAttribute_get_Name_m18227/* method */
+	, &ContextAttribute_t4591_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -4467,20 +4467,20 @@ extern const MethodInfo ContextAttribute_get_Name_m18195_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ContextAttribute_t4588_ContextAttribute_Equals_m18196_ParameterInfos[] = 
+static const ParameterInfo ContextAttribute_t4591_ContextAttribute_Equals_m18228_ParameterInfos[] = 
 {
 	{"o", 0, 134222099, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Contexts.ContextAttribute::Equals(System.Object)
-extern const MethodInfo ContextAttribute_Equals_m18196_MethodInfo = 
+extern const MethodInfo ContextAttribute_Equals_m18228_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&ContextAttribute_Equals_m18196/* method */
-	, &ContextAttribute_t4588_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ContextAttribute_Equals_m18228/* method */
+	, &ContextAttribute_t4591_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ContextAttribute_t4588_ContextAttribute_Equals_m18196_ParameterInfos/* parameters */
+	, ContextAttribute_t4591_ContextAttribute_Equals_m18228_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -4496,11 +4496,11 @@ extern const MethodInfo ContextAttribute_Equals_m18196_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Runtime.Remoting.Contexts.ContextAttribute::GetHashCode()
-extern const MethodInfo ContextAttribute_GetHashCode_m18197_MethodInfo = 
+extern const MethodInfo ContextAttribute_GetHashCode_m18229_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&ContextAttribute_GetHashCode_m18197/* method */
-	, &ContextAttribute_t4588_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ContextAttribute_GetHashCode_m18229/* method */
+	, &ContextAttribute_t4591_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -4517,21 +4517,21 @@ extern const MethodInfo ContextAttribute_GetHashCode_m18197_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IConstructionCallMessage_t4876_0_0_0;
-static const ParameterInfo ContextAttribute_t4588_ContextAttribute_GetPropertiesForNewContext_m18198_ParameterInfos[] = 
+extern const Il2CppType IConstructionCallMessage_t4879_0_0_0;
+static const ParameterInfo ContextAttribute_t4591_ContextAttribute_GetPropertiesForNewContext_m18230_ParameterInfos[] = 
 {
-	{"ctorMsg", 0, 134222100, 0, &IConstructionCallMessage_t4876_0_0_0},
+	{"ctorMsg", 0, 134222100, 0, &IConstructionCallMessage_t4879_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Contexts.ContextAttribute::GetPropertiesForNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern const MethodInfo ContextAttribute_GetPropertiesForNewContext_m18198_MethodInfo = 
+extern const MethodInfo ContextAttribute_GetPropertiesForNewContext_m18230_MethodInfo = 
 {
 	"GetPropertiesForNewContext"/* name */
-	, (methodPointerType)&ContextAttribute_GetPropertiesForNewContext_m18198/* method */
-	, &ContextAttribute_t4588_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ContextAttribute_GetPropertiesForNewContext_m18230/* method */
+	, &ContextAttribute_t4591_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ContextAttribute_t4588_ContextAttribute_GetPropertiesForNewContext_m18198_ParameterInfos/* parameters */
+	, ContextAttribute_t4591_ContextAttribute_GetPropertiesForNewContext_m18230_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -4545,23 +4545,23 @@ extern const MethodInfo ContextAttribute_GetPropertiesForNewContext_m18198_Metho
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Context_t4595_0_0_0;
-extern const Il2CppType IConstructionCallMessage_t4876_0_0_0;
-static const ParameterInfo ContextAttribute_t4588_ContextAttribute_IsContextOK_m18199_ParameterInfos[] = 
+extern const Il2CppType Context_t4598_0_0_0;
+extern const Il2CppType IConstructionCallMessage_t4879_0_0_0;
+static const ParameterInfo ContextAttribute_t4591_ContextAttribute_IsContextOK_m18231_ParameterInfos[] = 
 {
-	{"ctx", 0, 134222101, 0, &Context_t4595_0_0_0},
-	{"ctorMsg", 1, 134222102, 0, &IConstructionCallMessage_t4876_0_0_0},
+	{"ctx", 0, 134222101, 0, &Context_t4598_0_0_0},
+	{"ctorMsg", 1, 134222102, 0, &IConstructionCallMessage_t4879_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Contexts.ContextAttribute::IsContextOK(System.Runtime.Remoting.Contexts.Context,System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern const MethodInfo ContextAttribute_IsContextOK_m18199_MethodInfo = 
+extern const MethodInfo ContextAttribute_IsContextOK_m18231_MethodInfo = 
 {
 	"IsContextOK"/* name */
-	, (methodPointerType)&ContextAttribute_IsContextOK_m18199/* method */
-	, &ContextAttribute_t4588_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ContextAttribute_IsContextOK_m18231/* method */
+	, &ContextAttribute_t4591_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, ContextAttribute_t4588_ContextAttribute_IsContextOK_m18199_ParameterInfos/* parameters */
+	, ContextAttribute_t4591_ContextAttribute_IsContextOK_m18231_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -4575,49 +4575,49 @@ extern const MethodInfo ContextAttribute_IsContextOK_m18199_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ContextAttribute_t4588_MethodInfos[] =
+static const MethodInfo* ContextAttribute_t4591_MethodInfos[] =
 {
-	&ContextAttribute__ctor_m18194_MethodInfo,
-	&ContextAttribute_get_Name_m18195_MethodInfo,
-	&ContextAttribute_Equals_m18196_MethodInfo,
-	&ContextAttribute_GetHashCode_m18197_MethodInfo,
-	&ContextAttribute_GetPropertiesForNewContext_m18198_MethodInfo,
-	&ContextAttribute_IsContextOK_m18199_MethodInfo,
+	&ContextAttribute__ctor_m18226_MethodInfo,
+	&ContextAttribute_get_Name_m18227_MethodInfo,
+	&ContextAttribute_Equals_m18228_MethodInfo,
+	&ContextAttribute_GetHashCode_m18229_MethodInfo,
+	&ContextAttribute_GetPropertiesForNewContext_m18230_MethodInfo,
+	&ContextAttribute_IsContextOK_m18231_MethodInfo,
 	NULL
 };
-static const PropertyInfo ContextAttribute_t4588____Name_PropertyInfo = 
+static const PropertyInfo ContextAttribute_t4591____Name_PropertyInfo = 
 {
-	&ContextAttribute_t4588_il2cpp_TypeInfo/* parent */
+	&ContextAttribute_t4591_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
-	, &ContextAttribute_get_Name_m18195_MethodInfo/* get */
+	, &ContextAttribute_get_Name_m18227_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ContextAttribute_t4588_PropertyInfos[] =
+static const PropertyInfo* ContextAttribute_t4591_PropertyInfos[] =
 {
-	&ContextAttribute_t4588____Name_PropertyInfo,
+	&ContextAttribute_t4591____Name_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ContextAttribute_Equals_m18196_MethodInfo;
-extern const MethodInfo ContextAttribute_GetHashCode_m18197_MethodInfo;
-extern const MethodInfo ContextAttribute_GetPropertiesForNewContext_m18198_MethodInfo;
-extern const MethodInfo ContextAttribute_IsContextOK_m18199_MethodInfo;
-static const Il2CppMethodReference ContextAttribute_t4588_VTable[] =
+extern const MethodInfo ContextAttribute_Equals_m18228_MethodInfo;
+extern const MethodInfo ContextAttribute_GetHashCode_m18229_MethodInfo;
+extern const MethodInfo ContextAttribute_GetPropertiesForNewContext_m18230_MethodInfo;
+extern const MethodInfo ContextAttribute_IsContextOK_m18231_MethodInfo;
+static const Il2CppMethodReference ContextAttribute_t4591_VTable[] =
 {
-	&ContextAttribute_Equals_m18196_MethodInfo,
+	&ContextAttribute_Equals_m18228_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ContextAttribute_GetHashCode_m18197_MethodInfo,
+	&ContextAttribute_GetHashCode_m18229_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ContextAttribute_GetPropertiesForNewContext_m18198_MethodInfo,
-	&ContextAttribute_IsContextOK_m18199_MethodInfo,
-	&ContextAttribute_get_Name_m18195_MethodInfo,
-	&ContextAttribute_get_Name_m18195_MethodInfo,
-	&ContextAttribute_GetPropertiesForNewContext_m18198_MethodInfo,
-	&ContextAttribute_IsContextOK_m18199_MethodInfo,
+	&ContextAttribute_GetPropertiesForNewContext_m18230_MethodInfo,
+	&ContextAttribute_IsContextOK_m18231_MethodInfo,
+	&ContextAttribute_get_Name_m18227_MethodInfo,
+	&ContextAttribute_get_Name_m18227_MethodInfo,
+	&ContextAttribute_GetPropertiesForNewContext_m18230_MethodInfo,
+	&ContextAttribute_IsContextOK_m18231_MethodInfo,
 };
-static bool ContextAttribute_t4588_VTableIsGenericMethod[] =
+static bool ContextAttribute_t4591_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -4630,49 +4630,49 @@ static bool ContextAttribute_t4588_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* ContextAttribute_t4588_InterfacesTypeInfos[] = 
+static const Il2CppType* ContextAttribute_t4591_InterfacesTypeInfos[] = 
 {
-	&IContextAttribute_t4887_0_0_0,
-	&IContextProperty_t4878_0_0_0,
+	&IContextAttribute_t4890_0_0_0,
+	&IContextProperty_t4881_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ContextAttribute_t4588_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ContextAttribute_t4591_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
-	{ &IContextAttribute_t4887_0_0_0, 4},
-	{ &IContextProperty_t4878_0_0_0, 6},
+	{ &IContextAttribute_t4890_0_0_0, 4},
+	{ &IContextProperty_t4881_0_0_0, 6},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ContextAttribute_t4588_1_0_0;
+extern const Il2CppType ContextAttribute_t4591_1_0_0;
 extern const Il2CppType Attribute_t426_0_0_0;
-struct ContextAttribute_t4588;
-const Il2CppTypeDefinitionMetadata ContextAttribute_t4588_DefinitionMetadata = 
+struct ContextAttribute_t4591;
+const Il2CppTypeDefinitionMetadata ContextAttribute_t4591_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ContextAttribute_t4588_InterfacesTypeInfos/* implementedInterfaces */
-	, ContextAttribute_t4588_InterfacesOffsets/* interfaceOffsets */
+	, ContextAttribute_t4591_InterfacesTypeInfos/* implementedInterfaces */
+	, ContextAttribute_t4591_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, ContextAttribute_t4588_VTable/* vtableMethods */
-	, ContextAttribute_t4588_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ContextAttribute_t4591_VTable/* vtableMethods */
+	, ContextAttribute_t4591_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1543/* fieldStart */
 
 };
-TypeInfo ContextAttribute_t4588_il2cpp_TypeInfo = 
+TypeInfo ContextAttribute_t4591_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ContextAttribute"/* name */
 	, "System.Runtime.Remoting.Contexts"/* namespaze */
-	, ContextAttribute_t4588_MethodInfos/* methods */
-	, ContextAttribute_t4588_PropertyInfos/* properties */
+	, ContextAttribute_t4591_MethodInfos/* methods */
+	, ContextAttribute_t4591_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ContextAttribute_t4588_il2cpp_TypeInfo/* element_class */
+	, &ContextAttribute_t4591_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 532/* custom_attributes_cache */
-	, &ContextAttribute_t4588_0_0_0/* byval_arg */
-	, &ContextAttribute_t4588_1_0_0/* this_arg */
-	, &ContextAttribute_t4588_DefinitionMetadata/* definitionMetadata */
+	, &ContextAttribute_t4591_0_0_0/* byval_arg */
+	, &ContextAttribute_t4591_1_0_0/* this_arg */
+	, &ContextAttribute_t4591_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4682,8 +4682,8 @@ TypeInfo ContextAttribute_t4588_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ContextAttribute_t4588)/* instance_size */
-	, sizeof (ContextAttribute_t4588)/* actualSize */
+	, sizeof (ContextAttribute_t4591)/* instance_size */
+	, sizeof (ContextAttribute_t4591)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4715,16 +4715,16 @@ TypeInfo ContextAttribute_t4588_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Contexts.CrossContextChannel
 #include "mscorlib_System_Runtime_Remoting_Contexts_CrossContextChanne.h"
 // Metadata Definition System.Runtime.Remoting.Contexts.CrossContextChannel
-extern TypeInfo CrossContextChannel_t4590_il2cpp_TypeInfo;
+extern TypeInfo CrossContextChannel_t4593_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Contexts.CrossContextChannel
 #include "mscorlib_System_Runtime_Remoting_Contexts_CrossContextChanneMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Contexts.CrossContextChannel::.ctor()
-extern const MethodInfo CrossContextChannel__ctor_m18200_MethodInfo = 
+extern const MethodInfo CrossContextChannel__ctor_m18232_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CrossContextChannel__ctor_m18200/* method */
-	, &CrossContextChannel_t4590_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CrossContextChannel__ctor_m18232/* method */
+	, &CrossContextChannel_t4593_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -4741,65 +4741,65 @@ extern const MethodInfo CrossContextChannel__ctor_m18200_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* CrossContextChannel_t4590_MethodInfos[] =
+static const MethodInfo* CrossContextChannel_t4593_MethodInfos[] =
 {
-	&CrossContextChannel__ctor_m18200_MethodInfo,
+	&CrossContextChannel__ctor_m18232_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference CrossContextChannel_t4590_VTable[] =
+static const Il2CppMethodReference CrossContextChannel_t4593_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool CrossContextChannel_t4590_VTableIsGenericMethod[] =
+static bool CrossContextChannel_t4593_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static const Il2CppType* CrossContextChannel_t4590_InterfacesTypeInfos[] = 
+static const Il2CppType* CrossContextChannel_t4593_InterfacesTypeInfos[] = 
 {
-	&IMessageSink_t3091_0_0_0,
+	&IMessageSink_t3094_0_0_0,
 };
-static Il2CppInterfaceOffsetPair CrossContextChannel_t4590_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair CrossContextChannel_t4593_InterfacesOffsets[] = 
 {
-	{ &IMessageSink_t3091_0_0_0, 4},
+	{ &IMessageSink_t3094_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType CrossContextChannel_t4590_0_0_0;
-extern const Il2CppType CrossContextChannel_t4590_1_0_0;
-struct CrossContextChannel_t4590;
-const Il2CppTypeDefinitionMetadata CrossContextChannel_t4590_DefinitionMetadata = 
+extern const Il2CppType CrossContextChannel_t4593_0_0_0;
+extern const Il2CppType CrossContextChannel_t4593_1_0_0;
+struct CrossContextChannel_t4593;
+const Il2CppTypeDefinitionMetadata CrossContextChannel_t4593_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, CrossContextChannel_t4590_InterfacesTypeInfos/* implementedInterfaces */
-	, CrossContextChannel_t4590_InterfacesOffsets/* interfaceOffsets */
+	, CrossContextChannel_t4593_InterfacesTypeInfos/* implementedInterfaces */
+	, CrossContextChannel_t4593_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, CrossContextChannel_t4590_VTable/* vtableMethods */
-	, CrossContextChannel_t4590_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, CrossContextChannel_t4593_VTable/* vtableMethods */
+	, CrossContextChannel_t4593_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo CrossContextChannel_t4590_il2cpp_TypeInfo = 
+TypeInfo CrossContextChannel_t4593_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "CrossContextChannel"/* name */
 	, "System.Runtime.Remoting.Contexts"/* namespaze */
-	, CrossContextChannel_t4590_MethodInfos/* methods */
+	, CrossContextChannel_t4593_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &CrossContextChannel_t4590_il2cpp_TypeInfo/* element_class */
+	, &CrossContextChannel_t4593_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &CrossContextChannel_t4590_0_0_0/* byval_arg */
-	, &CrossContextChannel_t4590_1_0_0/* this_arg */
-	, &CrossContextChannel_t4590_DefinitionMetadata/* definitionMetadata */
+	, &CrossContextChannel_t4593_0_0_0/* byval_arg */
+	, &CrossContextChannel_t4593_1_0_0/* this_arg */
+	, &CrossContextChannel_t4593_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4809,8 +4809,8 @@ TypeInfo CrossContextChannel_t4590_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (CrossContextChannel_t4590)/* instance_size */
-	, sizeof (CrossContextChannel_t4590)/* actualSize */
+	, sizeof (CrossContextChannel_t4593)/* instance_size */
+	, sizeof (CrossContextChannel_t4593)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4840,22 +4840,22 @@ TypeInfo CrossContextChannel_t4590_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Contexts.IContextAttribute
-extern TypeInfo IContextAttribute_t4887_il2cpp_TypeInfo;
-extern const Il2CppType IConstructionCallMessage_t4876_0_0_0;
-static const ParameterInfo IContextAttribute_t4887_IContextAttribute_GetPropertiesForNewContext_m20736_ParameterInfos[] = 
+extern TypeInfo IContextAttribute_t4890_il2cpp_TypeInfo;
+extern const Il2CppType IConstructionCallMessage_t4879_0_0_0;
+static const ParameterInfo IContextAttribute_t4890_IContextAttribute_GetPropertiesForNewContext_m20768_ParameterInfos[] = 
 {
-	{"msg", 0, 134222103, 0, &IConstructionCallMessage_t4876_0_0_0},
+	{"msg", 0, 134222103, 0, &IConstructionCallMessage_t4879_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Contexts.IContextAttribute::GetPropertiesForNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern const MethodInfo IContextAttribute_GetPropertiesForNewContext_m20736_MethodInfo = 
+extern const MethodInfo IContextAttribute_GetPropertiesForNewContext_m20768_MethodInfo = 
 {
 	"GetPropertiesForNewContext"/* name */
 	, NULL/* method */
-	, &IContextAttribute_t4887_il2cpp_TypeInfo/* declaring_type */
+	, &IContextAttribute_t4890_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, IContextAttribute_t4887_IContextAttribute_GetPropertiesForNewContext_m20736_ParameterInfos/* parameters */
+	, IContextAttribute_t4890_IContextAttribute_GetPropertiesForNewContext_m20768_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -4869,23 +4869,23 @@ extern const MethodInfo IContextAttribute_GetPropertiesForNewContext_m20736_Meth
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Context_t4595_0_0_0;
-extern const Il2CppType IConstructionCallMessage_t4876_0_0_0;
-static const ParameterInfo IContextAttribute_t4887_IContextAttribute_IsContextOK_m20737_ParameterInfos[] = 
+extern const Il2CppType Context_t4598_0_0_0;
+extern const Il2CppType IConstructionCallMessage_t4879_0_0_0;
+static const ParameterInfo IContextAttribute_t4890_IContextAttribute_IsContextOK_m20769_ParameterInfos[] = 
 {
-	{"ctx", 0, 134222104, 0, &Context_t4595_0_0_0},
-	{"msg", 1, 134222105, 0, &IConstructionCallMessage_t4876_0_0_0},
+	{"ctx", 0, 134222104, 0, &Context_t4598_0_0_0},
+	{"msg", 1, 134222105, 0, &IConstructionCallMessage_t4879_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Contexts.IContextAttribute::IsContextOK(System.Runtime.Remoting.Contexts.Context,System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern const MethodInfo IContextAttribute_IsContextOK_m20737_MethodInfo = 
+extern const MethodInfo IContextAttribute_IsContextOK_m20769_MethodInfo = 
 {
 	"IsContextOK"/* name */
 	, NULL/* method */
-	, &IContextAttribute_t4887_il2cpp_TypeInfo/* declaring_type */
+	, &IContextAttribute_t4890_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, IContextAttribute_t4887_IContextAttribute_IsContextOK_m20737_ParameterInfos/* parameters */
+	, IContextAttribute_t4890_IContextAttribute_IsContextOK_m20769_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -4899,16 +4899,16 @@ extern const MethodInfo IContextAttribute_IsContextOK_m20737_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IContextAttribute_t4887_MethodInfos[] =
+static const MethodInfo* IContextAttribute_t4890_MethodInfos[] =
 {
-	&IContextAttribute_GetPropertiesForNewContext_m20736_MethodInfo,
-	&IContextAttribute_IsContextOK_m20737_MethodInfo,
+	&IContextAttribute_GetPropertiesForNewContext_m20768_MethodInfo,
+	&IContextAttribute_IsContextOK_m20769_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IContextAttribute_t4887_1_0_0;
-struct IContextAttribute_t4887;
-const Il2CppTypeDefinitionMetadata IContextAttribute_t4887_DefinitionMetadata = 
+extern const Il2CppType IContextAttribute_t4890_1_0_0;
+struct IContextAttribute_t4890;
+const Il2CppTypeDefinitionMetadata IContextAttribute_t4890_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -4921,21 +4921,21 @@ const Il2CppTypeDefinitionMetadata IContextAttribute_t4887_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IContextAttribute_t4887_il2cpp_TypeInfo = 
+TypeInfo IContextAttribute_t4890_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IContextAttribute"/* name */
 	, "System.Runtime.Remoting.Contexts"/* namespaze */
-	, IContextAttribute_t4887_MethodInfos/* methods */
+	, IContextAttribute_t4890_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IContextAttribute_t4887_il2cpp_TypeInfo/* element_class */
+	, &IContextAttribute_t4890_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 533/* custom_attributes_cache */
-	, &IContextAttribute_t4887_0_0_0/* byval_arg */
-	, &IContextAttribute_t4887_1_0_0/* this_arg */
-	, &IContextAttribute_t4887_DefinitionMetadata/* definitionMetadata */
+	, &IContextAttribute_t4890_0_0_0/* byval_arg */
+	, &IContextAttribute_t4890_1_0_0/* this_arg */
+	, &IContextAttribute_t4890_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4976,14 +4976,14 @@ TypeInfo IContextAttribute_t4887_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Contexts.IContextProperty
-extern TypeInfo IContextProperty_t4878_il2cpp_TypeInfo;
+extern TypeInfo IContextProperty_t4881_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Contexts.IContextProperty::get_Name()
-extern const MethodInfo IContextProperty_get_Name_m20738_MethodInfo = 
+extern const MethodInfo IContextProperty_get_Name_m20770_MethodInfo = 
 {
 	"get_Name"/* name */
 	, NULL/* method */
-	, &IContextProperty_t4878_il2cpp_TypeInfo/* declaring_type */
+	, &IContextProperty_t4881_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -5000,31 +5000,31 @@ extern const MethodInfo IContextProperty_get_Name_m20738_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IContextProperty_t4878_MethodInfos[] =
+static const MethodInfo* IContextProperty_t4881_MethodInfos[] =
 {
-	&IContextProperty_get_Name_m20738_MethodInfo,
+	&IContextProperty_get_Name_m20770_MethodInfo,
 	NULL
 };
-extern const MethodInfo IContextProperty_get_Name_m20738_MethodInfo;
-static const PropertyInfo IContextProperty_t4878____Name_PropertyInfo = 
+extern const MethodInfo IContextProperty_get_Name_m20770_MethodInfo;
+static const PropertyInfo IContextProperty_t4881____Name_PropertyInfo = 
 {
-	&IContextProperty_t4878_il2cpp_TypeInfo/* parent */
+	&IContextProperty_t4881_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
-	, &IContextProperty_get_Name_m20738_MethodInfo/* get */
+	, &IContextProperty_get_Name_m20770_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IContextProperty_t4878_PropertyInfos[] =
+static const PropertyInfo* IContextProperty_t4881_PropertyInfos[] =
 {
-	&IContextProperty_t4878____Name_PropertyInfo,
+	&IContextProperty_t4881____Name_PropertyInfo,
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IContextProperty_t4878_1_0_0;
-struct IContextProperty_t4878;
-const Il2CppTypeDefinitionMetadata IContextProperty_t4878_DefinitionMetadata = 
+extern const Il2CppType IContextProperty_t4881_1_0_0;
+struct IContextProperty_t4881;
+const Il2CppTypeDefinitionMetadata IContextProperty_t4881_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -5037,21 +5037,21 @@ const Il2CppTypeDefinitionMetadata IContextProperty_t4878_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IContextProperty_t4878_il2cpp_TypeInfo = 
+TypeInfo IContextProperty_t4881_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IContextProperty"/* name */
 	, "System.Runtime.Remoting.Contexts"/* namespaze */
-	, IContextProperty_t4878_MethodInfos/* methods */
-	, IContextProperty_t4878_PropertyInfos/* properties */
+	, IContextProperty_t4881_MethodInfos/* methods */
+	, IContextProperty_t4881_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IContextProperty_t4878_il2cpp_TypeInfo/* element_class */
+	, &IContextProperty_t4881_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 534/* custom_attributes_cache */
-	, &IContextProperty_t4878_0_0_0/* byval_arg */
-	, &IContextProperty_t4878_1_0_0/* this_arg */
-	, &IContextProperty_t4878_DefinitionMetadata/* definitionMetadata */
+	, &IContextProperty_t4881_0_0_0/* byval_arg */
+	, &IContextProperty_t4881_1_0_0/* this_arg */
+	, &IContextProperty_t4881_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5092,16 +5092,16 @@ TypeInfo IContextProperty_t4878_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Contexts.IContributeClientContextSink
-extern TypeInfo IContributeClientContextSink_t4966_il2cpp_TypeInfo;
-static const MethodInfo* IContributeClientContextSink_t4966_MethodInfos[] =
+extern TypeInfo IContributeClientContextSink_t4969_il2cpp_TypeInfo;
+static const MethodInfo* IContributeClientContextSink_t4969_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IContributeClientContextSink_t4966_0_0_0;
-extern const Il2CppType IContributeClientContextSink_t4966_1_0_0;
-struct IContributeClientContextSink_t4966;
-const Il2CppTypeDefinitionMetadata IContributeClientContextSink_t4966_DefinitionMetadata = 
+extern const Il2CppType IContributeClientContextSink_t4969_0_0_0;
+extern const Il2CppType IContributeClientContextSink_t4969_1_0_0;
+struct IContributeClientContextSink_t4969;
+const Il2CppTypeDefinitionMetadata IContributeClientContextSink_t4969_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -5114,21 +5114,21 @@ const Il2CppTypeDefinitionMetadata IContributeClientContextSink_t4966_Definition
 	, -1/* fieldStart */
 
 };
-TypeInfo IContributeClientContextSink_t4966_il2cpp_TypeInfo = 
+TypeInfo IContributeClientContextSink_t4969_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IContributeClientContextSink"/* name */
 	, "System.Runtime.Remoting.Contexts"/* namespaze */
-	, IContributeClientContextSink_t4966_MethodInfos/* methods */
+	, IContributeClientContextSink_t4969_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IContributeClientContextSink_t4966_il2cpp_TypeInfo/* element_class */
+	, &IContributeClientContextSink_t4969_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 535/* custom_attributes_cache */
-	, &IContributeClientContextSink_t4966_0_0_0/* byval_arg */
-	, &IContributeClientContextSink_t4966_1_0_0/* this_arg */
-	, &IContributeClientContextSink_t4966_DefinitionMetadata/* definitionMetadata */
+	, &IContributeClientContextSink_t4969_0_0_0/* byval_arg */
+	, &IContributeClientContextSink_t4969_1_0_0/* this_arg */
+	, &IContributeClientContextSink_t4969_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5169,16 +5169,16 @@ TypeInfo IContributeClientContextSink_t4966_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Contexts.IContributeServerContextSink
-extern TypeInfo IContributeServerContextSink_t4967_il2cpp_TypeInfo;
-static const MethodInfo* IContributeServerContextSink_t4967_MethodInfos[] =
+extern TypeInfo IContributeServerContextSink_t4970_il2cpp_TypeInfo;
+static const MethodInfo* IContributeServerContextSink_t4970_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IContributeServerContextSink_t4967_0_0_0;
-extern const Il2CppType IContributeServerContextSink_t4967_1_0_0;
-struct IContributeServerContextSink_t4967;
-const Il2CppTypeDefinitionMetadata IContributeServerContextSink_t4967_DefinitionMetadata = 
+extern const Il2CppType IContributeServerContextSink_t4970_0_0_0;
+extern const Il2CppType IContributeServerContextSink_t4970_1_0_0;
+struct IContributeServerContextSink_t4970;
+const Il2CppTypeDefinitionMetadata IContributeServerContextSink_t4970_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -5191,21 +5191,21 @@ const Il2CppTypeDefinitionMetadata IContributeServerContextSink_t4967_Definition
 	, -1/* fieldStart */
 
 };
-TypeInfo IContributeServerContextSink_t4967_il2cpp_TypeInfo = 
+TypeInfo IContributeServerContextSink_t4970_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IContributeServerContextSink"/* name */
 	, "System.Runtime.Remoting.Contexts"/* namespaze */
-	, IContributeServerContextSink_t4967_MethodInfos/* methods */
+	, IContributeServerContextSink_t4970_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IContributeServerContextSink_t4967_il2cpp_TypeInfo/* element_class */
+	, &IContributeServerContextSink_t4970_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 536/* custom_attributes_cache */
-	, &IContributeServerContextSink_t4967_0_0_0/* byval_arg */
-	, &IContributeServerContextSink_t4967_1_0_0/* this_arg */
-	, &IContributeServerContextSink_t4967_DefinitionMetadata/* definitionMetadata */
+	, &IContributeServerContextSink_t4970_0_0_0/* byval_arg */
+	, &IContributeServerContextSink_t4970_1_0_0/* this_arg */
+	, &IContributeServerContextSink_t4970_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5248,16 +5248,16 @@ TypeInfo IContributeServerContextSink_t4967_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Contexts.SynchronizationAttribute
 #include "mscorlib_System_Runtime_Remoting_Contexts_SynchronizationAtt.h"
 // Metadata Definition System.Runtime.Remoting.Contexts.SynchronizationAttribute
-extern TypeInfo SynchronizationAttribute_t4597_il2cpp_TypeInfo;
+extern TypeInfo SynchronizationAttribute_t4600_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Contexts.SynchronizationAttribute
 #include "mscorlib_System_Runtime_Remoting_Contexts_SynchronizationAttMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Contexts.SynchronizationAttribute::.ctor()
-extern const MethodInfo SynchronizationAttribute__ctor_m18201_MethodInfo = 
+extern const MethodInfo SynchronizationAttribute__ctor_m18233_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SynchronizationAttribute__ctor_m18201/* method */
-	, &SynchronizationAttribute_t4597_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SynchronizationAttribute__ctor_m18233/* method */
+	, &SynchronizationAttribute_t4600_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -5276,21 +5276,21 @@ extern const MethodInfo SynchronizationAttribute__ctor_m18201_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo SynchronizationAttribute_t4597_SynchronizationAttribute__ctor_m18202_ParameterInfos[] = 
+static const ParameterInfo SynchronizationAttribute_t4600_SynchronizationAttribute__ctor_m18234_ParameterInfos[] = 
 {
 	{"flag", 0, 134222106, 0, &Int32_t82_0_0_0},
 	{"reEntrant", 1, 134222107, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Contexts.SynchronizationAttribute::.ctor(System.Int32,System.Boolean)
-extern const MethodInfo SynchronizationAttribute__ctor_m18202_MethodInfo = 
+extern const MethodInfo SynchronizationAttribute__ctor_m18234_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SynchronizationAttribute__ctor_m18202/* method */
-	, &SynchronizationAttribute_t4597_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SynchronizationAttribute__ctor_m18234/* method */
+	, &SynchronizationAttribute_t4600_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_SByte_t88/* invoker_method */
-	, SynchronizationAttribute_t4597_SynchronizationAttribute__ctor_m18202_ParameterInfos/* parameters */
+	, SynchronizationAttribute_t4600_SynchronizationAttribute__ctor_m18234_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -5305,20 +5305,20 @@ extern const MethodInfo SynchronizationAttribute__ctor_m18202_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo SynchronizationAttribute_t4597_SynchronizationAttribute_set_Locked_m18203_ParameterInfos[] = 
+static const ParameterInfo SynchronizationAttribute_t4600_SynchronizationAttribute_set_Locked_m18235_ParameterInfos[] = 
 {
 	{"value", 0, 134222108, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Contexts.SynchronizationAttribute::set_Locked(System.Boolean)
-extern const MethodInfo SynchronizationAttribute_set_Locked_m18203_MethodInfo = 
+extern const MethodInfo SynchronizationAttribute_set_Locked_m18235_MethodInfo = 
 {
 	"set_Locked"/* name */
-	, (methodPointerType)&SynchronizationAttribute_set_Locked_m18203/* method */
-	, &SynchronizationAttribute_t4597_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SynchronizationAttribute_set_Locked_m18235/* method */
+	, &SynchronizationAttribute_t4600_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, SynchronizationAttribute_t4597_SynchronizationAttribute_set_Locked_m18203_ParameterInfos/* parameters */
+	, SynchronizationAttribute_t4600_SynchronizationAttribute_set_Locked_m18235_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -5334,11 +5334,11 @@ extern const MethodInfo SynchronizationAttribute_set_Locked_m18203_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Contexts.SynchronizationAttribute::ReleaseLock()
-extern const MethodInfo SynchronizationAttribute_ReleaseLock_m18204_MethodInfo = 
+extern const MethodInfo SynchronizationAttribute_ReleaseLock_m18236_MethodInfo = 
 {
 	"ReleaseLock"/* name */
-	, (methodPointerType)&SynchronizationAttribute_ReleaseLock_m18204/* method */
-	, &SynchronizationAttribute_t4597_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SynchronizationAttribute_ReleaseLock_m18236/* method */
+	, &SynchronizationAttribute_t4600_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -5355,21 +5355,21 @@ extern const MethodInfo SynchronizationAttribute_ReleaseLock_m18204_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IConstructionCallMessage_t4876_0_0_0;
-static const ParameterInfo SynchronizationAttribute_t4597_SynchronizationAttribute_GetPropertiesForNewContext_m18205_ParameterInfos[] = 
+extern const Il2CppType IConstructionCallMessage_t4879_0_0_0;
+static const ParameterInfo SynchronizationAttribute_t4600_SynchronizationAttribute_GetPropertiesForNewContext_m18237_ParameterInfos[] = 
 {
-	{"ctorMsg", 0, 134222109, 0, &IConstructionCallMessage_t4876_0_0_0},
+	{"ctorMsg", 0, 134222109, 0, &IConstructionCallMessage_t4879_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Contexts.SynchronizationAttribute::GetPropertiesForNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern const MethodInfo SynchronizationAttribute_GetPropertiesForNewContext_m18205_MethodInfo = 
+extern const MethodInfo SynchronizationAttribute_GetPropertiesForNewContext_m18237_MethodInfo = 
 {
 	"GetPropertiesForNewContext"/* name */
-	, (methodPointerType)&SynchronizationAttribute_GetPropertiesForNewContext_m18205/* method */
-	, &SynchronizationAttribute_t4597_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SynchronizationAttribute_GetPropertiesForNewContext_m18237/* method */
+	, &SynchronizationAttribute_t4600_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SynchronizationAttribute_t4597_SynchronizationAttribute_GetPropertiesForNewContext_m18205_ParameterInfos/* parameters */
+	, SynchronizationAttribute_t4600_SynchronizationAttribute_GetPropertiesForNewContext_m18237_ParameterInfos/* parameters */
 	, 538/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -5383,23 +5383,23 @@ extern const MethodInfo SynchronizationAttribute_GetPropertiesForNewContext_m182
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Context_t4595_0_0_0;
-extern const Il2CppType IConstructionCallMessage_t4876_0_0_0;
-static const ParameterInfo SynchronizationAttribute_t4597_SynchronizationAttribute_IsContextOK_m18206_ParameterInfos[] = 
+extern const Il2CppType Context_t4598_0_0_0;
+extern const Il2CppType IConstructionCallMessage_t4879_0_0_0;
+static const ParameterInfo SynchronizationAttribute_t4600_SynchronizationAttribute_IsContextOK_m18238_ParameterInfos[] = 
 {
-	{"ctx", 0, 134222110, 0, &Context_t4595_0_0_0},
-	{"msg", 1, 134222111, 0, &IConstructionCallMessage_t4876_0_0_0},
+	{"ctx", 0, 134222110, 0, &Context_t4598_0_0_0},
+	{"msg", 1, 134222111, 0, &IConstructionCallMessage_t4879_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Contexts.SynchronizationAttribute::IsContextOK(System.Runtime.Remoting.Contexts.Context,System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern const MethodInfo SynchronizationAttribute_IsContextOK_m18206_MethodInfo = 
+extern const MethodInfo SynchronizationAttribute_IsContextOK_m18238_MethodInfo = 
 {
 	"IsContextOK"/* name */
-	, (methodPointerType)&SynchronizationAttribute_IsContextOK_m18206/* method */
-	, &SynchronizationAttribute_t4597_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SynchronizationAttribute_IsContextOK_m18238/* method */
+	, &SynchronizationAttribute_t4600_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, SynchronizationAttribute_t4597_SynchronizationAttribute_IsContextOK_m18206_ParameterInfos/* parameters */
+	, SynchronizationAttribute_t4600_SynchronizationAttribute_IsContextOK_m18238_ParameterInfos/* parameters */
 	, 539/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -5415,11 +5415,11 @@ extern const MethodInfo SynchronizationAttribute_IsContextOK_m18206_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Contexts.SynchronizationAttribute::ExitContext()
-extern const MethodInfo SynchronizationAttribute_ExitContext_m18207_MethodInfo = 
+extern const MethodInfo SynchronizationAttribute_ExitContext_m18239_MethodInfo = 
 {
 	"ExitContext"/* name */
-	, (methodPointerType)&SynchronizationAttribute_ExitContext_m18207/* method */
-	, &SynchronizationAttribute_t4597_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SynchronizationAttribute_ExitContext_m18239/* method */
+	, &SynchronizationAttribute_t4600_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -5438,11 +5438,11 @@ extern const MethodInfo SynchronizationAttribute_ExitContext_m18207_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Contexts.SynchronizationAttribute::EnterContext()
-extern const MethodInfo SynchronizationAttribute_EnterContext_m18208_MethodInfo = 
+extern const MethodInfo SynchronizationAttribute_EnterContext_m18240_MethodInfo = 
 {
 	"EnterContext"/* name */
-	, (methodPointerType)&SynchronizationAttribute_EnterContext_m18208/* method */
-	, &SynchronizationAttribute_t4597_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SynchronizationAttribute_EnterContext_m18240/* method */
+	, &SynchronizationAttribute_t4600_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -5459,51 +5459,51 @@ extern const MethodInfo SynchronizationAttribute_EnterContext_m18208_MethodInfo 
 	, NULL/* dummy */
 
 };
-static const MethodInfo* SynchronizationAttribute_t4597_MethodInfos[] =
+static const MethodInfo* SynchronizationAttribute_t4600_MethodInfos[] =
 {
-	&SynchronizationAttribute__ctor_m18201_MethodInfo,
-	&SynchronizationAttribute__ctor_m18202_MethodInfo,
-	&SynchronizationAttribute_set_Locked_m18203_MethodInfo,
-	&SynchronizationAttribute_ReleaseLock_m18204_MethodInfo,
-	&SynchronizationAttribute_GetPropertiesForNewContext_m18205_MethodInfo,
-	&SynchronizationAttribute_IsContextOK_m18206_MethodInfo,
-	&SynchronizationAttribute_ExitContext_m18207_MethodInfo,
-	&SynchronizationAttribute_EnterContext_m18208_MethodInfo,
+	&SynchronizationAttribute__ctor_m18233_MethodInfo,
+	&SynchronizationAttribute__ctor_m18234_MethodInfo,
+	&SynchronizationAttribute_set_Locked_m18235_MethodInfo,
+	&SynchronizationAttribute_ReleaseLock_m18236_MethodInfo,
+	&SynchronizationAttribute_GetPropertiesForNewContext_m18237_MethodInfo,
+	&SynchronizationAttribute_IsContextOK_m18238_MethodInfo,
+	&SynchronizationAttribute_ExitContext_m18239_MethodInfo,
+	&SynchronizationAttribute_EnterContext_m18240_MethodInfo,
 	NULL
 };
-extern const MethodInfo SynchronizationAttribute_set_Locked_m18203_MethodInfo;
-static const PropertyInfo SynchronizationAttribute_t4597____Locked_PropertyInfo = 
+extern const MethodInfo SynchronizationAttribute_set_Locked_m18235_MethodInfo;
+static const PropertyInfo SynchronizationAttribute_t4600____Locked_PropertyInfo = 
 {
-	&SynchronizationAttribute_t4597_il2cpp_TypeInfo/* parent */
+	&SynchronizationAttribute_t4600_il2cpp_TypeInfo/* parent */
 	, "Locked"/* name */
 	, NULL/* get */
-	, &SynchronizationAttribute_set_Locked_m18203_MethodInfo/* set */
+	, &SynchronizationAttribute_set_Locked_m18235_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* SynchronizationAttribute_t4597_PropertyInfos[] =
+static const PropertyInfo* SynchronizationAttribute_t4600_PropertyInfos[] =
 {
-	&SynchronizationAttribute_t4597____Locked_PropertyInfo,
+	&SynchronizationAttribute_t4600____Locked_PropertyInfo,
 	NULL
 };
-extern const MethodInfo SynchronizationAttribute_GetPropertiesForNewContext_m18205_MethodInfo;
-extern const MethodInfo SynchronizationAttribute_IsContextOK_m18206_MethodInfo;
-static const Il2CppMethodReference SynchronizationAttribute_t4597_VTable[] =
+extern const MethodInfo SynchronizationAttribute_GetPropertiesForNewContext_m18237_MethodInfo;
+extern const MethodInfo SynchronizationAttribute_IsContextOK_m18238_MethodInfo;
+static const Il2CppMethodReference SynchronizationAttribute_t4600_VTable[] =
 {
-	&ContextAttribute_Equals_m18196_MethodInfo,
+	&ContextAttribute_Equals_m18228_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ContextAttribute_GetHashCode_m18197_MethodInfo,
+	&ContextAttribute_GetHashCode_m18229_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&SynchronizationAttribute_GetPropertiesForNewContext_m18205_MethodInfo,
-	&SynchronizationAttribute_IsContextOK_m18206_MethodInfo,
-	&ContextAttribute_get_Name_m18195_MethodInfo,
-	&ContextAttribute_get_Name_m18195_MethodInfo,
-	&SynchronizationAttribute_GetPropertiesForNewContext_m18205_MethodInfo,
-	&SynchronizationAttribute_IsContextOK_m18206_MethodInfo,
-	&SynchronizationAttribute_set_Locked_m18203_MethodInfo,
+	&SynchronizationAttribute_GetPropertiesForNewContext_m18237_MethodInfo,
+	&SynchronizationAttribute_IsContextOK_m18238_MethodInfo,
+	&ContextAttribute_get_Name_m18227_MethodInfo,
+	&ContextAttribute_get_Name_m18227_MethodInfo,
+	&SynchronizationAttribute_GetPropertiesForNewContext_m18237_MethodInfo,
+	&SynchronizationAttribute_IsContextOK_m18238_MethodInfo,
+	&SynchronizationAttribute_set_Locked_m18235_MethodInfo,
 };
-static bool SynchronizationAttribute_t4597_VTableIsGenericMethod[] =
+static bool SynchronizationAttribute_t4600_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -5517,51 +5517,51 @@ static bool SynchronizationAttribute_t4597_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* SynchronizationAttribute_t4597_InterfacesTypeInfos[] = 
+static const Il2CppType* SynchronizationAttribute_t4600_InterfacesTypeInfos[] = 
 {
-	&IContributeClientContextSink_t4966_0_0_0,
-	&IContributeServerContextSink_t4967_0_0_0,
+	&IContributeClientContextSink_t4969_0_0_0,
+	&IContributeServerContextSink_t4970_0_0_0,
 };
-static Il2CppInterfaceOffsetPair SynchronizationAttribute_t4597_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair SynchronizationAttribute_t4600_InterfacesOffsets[] = 
 {
-	{ &IContextAttribute_t4887_0_0_0, 4},
-	{ &IContextProperty_t4878_0_0_0, 6},
+	{ &IContextAttribute_t4890_0_0_0, 4},
+	{ &IContextProperty_t4881_0_0_0, 6},
 	{ &_Attribute_t86_0_0_0, 4},
-	{ &IContributeClientContextSink_t4966_0_0_0, 10},
-	{ &IContributeServerContextSink_t4967_0_0_0, 10},
+	{ &IContributeClientContextSink_t4969_0_0_0, 10},
+	{ &IContributeServerContextSink_t4970_0_0_0, 10},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType SynchronizationAttribute_t4597_0_0_0;
-extern const Il2CppType SynchronizationAttribute_t4597_1_0_0;
-struct SynchronizationAttribute_t4597;
-const Il2CppTypeDefinitionMetadata SynchronizationAttribute_t4597_DefinitionMetadata = 
+extern const Il2CppType SynchronizationAttribute_t4600_0_0_0;
+extern const Il2CppType SynchronizationAttribute_t4600_1_0_0;
+struct SynchronizationAttribute_t4600;
+const Il2CppTypeDefinitionMetadata SynchronizationAttribute_t4600_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, SynchronizationAttribute_t4597_InterfacesTypeInfos/* implementedInterfaces */
-	, SynchronizationAttribute_t4597_InterfacesOffsets/* interfaceOffsets */
-	, &ContextAttribute_t4588_0_0_0/* parent */
-	, SynchronizationAttribute_t4597_VTable/* vtableMethods */
-	, SynchronizationAttribute_t4597_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, SynchronizationAttribute_t4600_InterfacesTypeInfos/* implementedInterfaces */
+	, SynchronizationAttribute_t4600_InterfacesOffsets/* interfaceOffsets */
+	, &ContextAttribute_t4591_0_0_0/* parent */
+	, SynchronizationAttribute_t4600_VTable/* vtableMethods */
+	, SynchronizationAttribute_t4600_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1544/* fieldStart */
 
 };
-TypeInfo SynchronizationAttribute_t4597_il2cpp_TypeInfo = 
+TypeInfo SynchronizationAttribute_t4600_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "SynchronizationAttribute"/* name */
 	, "System.Runtime.Remoting.Contexts"/* namespaze */
-	, SynchronizationAttribute_t4597_MethodInfos/* methods */
-	, SynchronizationAttribute_t4597_PropertyInfos/* properties */
+	, SynchronizationAttribute_t4600_MethodInfos/* methods */
+	, SynchronizationAttribute_t4600_PropertyInfos/* properties */
 	, NULL/* events */
-	, &SynchronizationAttribute_t4597_il2cpp_TypeInfo/* element_class */
+	, &SynchronizationAttribute_t4600_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 537/* custom_attributes_cache */
-	, &SynchronizationAttribute_t4597_0_0_0/* byval_arg */
-	, &SynchronizationAttribute_t4597_1_0_0/* this_arg */
-	, &SynchronizationAttribute_t4597_DefinitionMetadata/* definitionMetadata */
+	, &SynchronizationAttribute_t4600_0_0_0/* byval_arg */
+	, &SynchronizationAttribute_t4600_1_0_0/* this_arg */
+	, &SynchronizationAttribute_t4600_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5571,8 +5571,8 @@ TypeInfo SynchronizationAttribute_t4597_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (SynchronizationAttribute_t4597)/* instance_size */
-	, sizeof (SynchronizationAttribute_t4597)/* actualSize */
+	, sizeof (SynchronizationAttribute_t4600)/* instance_size */
+	, sizeof (SynchronizationAttribute_t4600)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5604,10 +5604,10 @@ TypeInfo SynchronizationAttribute_t4597_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.ArgInfoType
 #include "mscorlib_System_Runtime_Remoting_Messaging_ArgInfoType.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.ArgInfoType
-extern TypeInfo ArgInfoType_t4598_il2cpp_TypeInfo;
+extern TypeInfo ArgInfoType_t4601_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.ArgInfoType
 #include "mscorlib_System_Runtime_Remoting_Messaging_ArgInfoTypeMethodDeclarations.h"
-static const MethodInfo* ArgInfoType_t4598_MethodInfos[] =
+static const MethodInfo* ArgInfoType_t4601_MethodInfos[] =
 {
 	NULL
 };
@@ -5633,7 +5633,7 @@ extern const MethodInfo Enum_System_IConvertible_ToUInt32_m519_MethodInfo;
 extern const MethodInfo Enum_System_IConvertible_ToUInt64_m520_MethodInfo;
 extern const MethodInfo Enum_CompareTo_m521_MethodInfo;
 extern const MethodInfo Enum_GetTypeCode_m522_MethodInfo;
-static const Il2CppMethodReference ArgInfoType_t4598_VTable[] =
+static const Il2CppMethodReference ArgInfoType_t4601_VTable[] =
 {
 	&Enum_Equals_m501_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -5659,7 +5659,7 @@ static const Il2CppMethodReference ArgInfoType_t4598_VTable[] =
 	&Enum_CompareTo_m521_MethodInfo,
 	&Enum_GetTypeCode_m522_MethodInfo,
 };
-static bool ArgInfoType_t4598_VTableIsGenericMethod[] =
+static bool ArgInfoType_t4601_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -5688,47 +5688,47 @@ static bool ArgInfoType_t4598_VTableIsGenericMethod[] =
 extern const Il2CppType IFormattable_t97_0_0_0;
 extern const Il2CppType IConvertible_t98_0_0_0;
 extern const Il2CppType IComparable_t99_0_0_0;
-static Il2CppInterfaceOffsetPair ArgInfoType_t4598_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ArgInfoType_t4601_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ArgInfoType_t4598_0_0_0;
-extern const Il2CppType ArgInfoType_t4598_1_0_0;
+extern const Il2CppType ArgInfoType_t4601_0_0_0;
+extern const Il2CppType ArgInfoType_t4601_1_0_0;
 extern const Il2CppType Enum_t100_0_0_0;
 // System.Byte
 #include "mscorlib_System_Byte.h"
-extern TypeInfo Byte_t739_il2cpp_TypeInfo;
-const Il2CppTypeDefinitionMetadata ArgInfoType_t4598_DefinitionMetadata = 
+extern TypeInfo Byte_t742_il2cpp_TypeInfo;
+const Il2CppTypeDefinitionMetadata ArgInfoType_t4601_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ArgInfoType_t4598_InterfacesOffsets/* interfaceOffsets */
+	, ArgInfoType_t4601_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, ArgInfoType_t4598_VTable/* vtableMethods */
-	, ArgInfoType_t4598_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ArgInfoType_t4601_VTable/* vtableMethods */
+	, ArgInfoType_t4601_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1549/* fieldStart */
 
 };
-TypeInfo ArgInfoType_t4598_il2cpp_TypeInfo = 
+TypeInfo ArgInfoType_t4601_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ArgInfoType"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, ArgInfoType_t4598_MethodInfos/* methods */
+	, ArgInfoType_t4601_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &Byte_t739_il2cpp_TypeInfo/* element_class */
+	, &Byte_t742_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ArgInfoType_t4598_0_0_0/* byval_arg */
-	, &ArgInfoType_t4598_1_0_0/* this_arg */
-	, &ArgInfoType_t4598_DefinitionMetadata/* definitionMetadata */
+	, &ArgInfoType_t4601_0_0_0/* byval_arg */
+	, &ArgInfoType_t4601_1_0_0/* this_arg */
+	, &ArgInfoType_t4601_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5738,8 +5738,8 @@ TypeInfo ArgInfoType_t4598_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ArgInfoType_t4598)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (ArgInfoType_t4598)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (ArgInfoType_t4601)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (ArgInfoType_t4601)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(uint8_t)/* native_size */
 	, 0/* static_fields_size */
@@ -5771,27 +5771,27 @@ TypeInfo ArgInfoType_t4598_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.ArgInfo
 #include "mscorlib_System_Runtime_Remoting_Messaging_ArgInfo.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.ArgInfo
-extern TypeInfo ArgInfo_t4599_il2cpp_TypeInfo;
+extern TypeInfo ArgInfo_t4602_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.ArgInfo
 #include "mscorlib_System_Runtime_Remoting_Messaging_ArgInfoMethodDeclarations.h"
-extern const Il2CppType MethodBase_t1523_0_0_0;
-extern const Il2CppType MethodBase_t1523_0_0_0;
-extern const Il2CppType ArgInfoType_t4598_0_0_0;
-static const ParameterInfo ArgInfo_t4599_ArgInfo__ctor_m18209_ParameterInfos[] = 
+extern const Il2CppType MethodBase_t1526_0_0_0;
+extern const Il2CppType MethodBase_t1526_0_0_0;
+extern const Il2CppType ArgInfoType_t4601_0_0_0;
+static const ParameterInfo ArgInfo_t4602_ArgInfo__ctor_m18241_ParameterInfos[] = 
 {
-	{"method", 0, 134222112, 0, &MethodBase_t1523_0_0_0},
-	{"type", 1, 134222113, 0, &ArgInfoType_t4598_0_0_0},
+	{"method", 0, 134222112, 0, &MethodBase_t1526_0_0_0},
+	{"type", 1, 134222113, 0, &ArgInfoType_t4601_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_Byte_t739 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_Byte_t742 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ArgInfo::.ctor(System.Reflection.MethodBase,System.Runtime.Remoting.Messaging.ArgInfoType)
-extern const MethodInfo ArgInfo__ctor_m18209_MethodInfo = 
+extern const MethodInfo ArgInfo__ctor_m18241_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ArgInfo__ctor_m18209/* method */
-	, &ArgInfo_t4599_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ArgInfo__ctor_m18241/* method */
+	, &ArgInfo_t4602_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_Byte_t739/* invoker_method */
-	, ArgInfo_t4599_ArgInfo__ctor_m18209_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_Byte_t742/* invoker_method */
+	, ArgInfo_t4602_ArgInfo__ctor_m18241_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -5805,21 +5805,21 @@ extern const MethodInfo ArgInfo__ctor_m18209_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjectU5BU5D_t680_0_0_0;
-static const ParameterInfo ArgInfo_t4599_ArgInfo_GetInOutArgs_m18210_ParameterInfos[] = 
+extern const Il2CppType ObjectU5BU5D_t683_0_0_0;
+static const ParameterInfo ArgInfo_t4602_ArgInfo_GetInOutArgs_m18242_ParameterInfos[] = 
 {
-	{"args", 0, 134222114, 0, &ObjectU5BU5D_t680_0_0_0},
+	{"args", 0, 134222114, 0, &ObjectU5BU5D_t683_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Runtime.Remoting.Messaging.ArgInfo::GetInOutArgs(System.Object[])
-extern const MethodInfo ArgInfo_GetInOutArgs_m18210_MethodInfo = 
+extern const MethodInfo ArgInfo_GetInOutArgs_m18242_MethodInfo = 
 {
 	"GetInOutArgs"/* name */
-	, (methodPointerType)&ArgInfo_GetInOutArgs_m18210/* method */
-	, &ArgInfo_t4599_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t680_0_0_0/* return_type */
+	, (methodPointerType)&ArgInfo_GetInOutArgs_m18242/* method */
+	, &ArgInfo_t4602_il2cpp_TypeInfo/* declaring_type */
+	, &ObjectU5BU5D_t683_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ArgInfo_t4599_ArgInfo_GetInOutArgs_m18210_ParameterInfos/* parameters */
+	, ArgInfo_t4602_ArgInfo_GetInOutArgs_m18242_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -5833,20 +5833,20 @@ extern const MethodInfo ArgInfo_GetInOutArgs_m18210_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ArgInfo_t4599_MethodInfos[] =
+static const MethodInfo* ArgInfo_t4602_MethodInfos[] =
 {
-	&ArgInfo__ctor_m18209_MethodInfo,
-	&ArgInfo_GetInOutArgs_m18210_MethodInfo,
+	&ArgInfo__ctor_m18241_MethodInfo,
+	&ArgInfo_GetInOutArgs_m18242_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference ArgInfo_t4599_VTable[] =
+static const Il2CppMethodReference ArgInfo_t4602_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ArgInfo_t4599_VTableIsGenericMethod[] =
+static bool ArgInfo_t4602_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -5854,37 +5854,37 @@ static bool ArgInfo_t4599_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ArgInfo_t4599_0_0_0;
-extern const Il2CppType ArgInfo_t4599_1_0_0;
-struct ArgInfo_t4599;
-const Il2CppTypeDefinitionMetadata ArgInfo_t4599_DefinitionMetadata = 
+extern const Il2CppType ArgInfo_t4602_0_0_0;
+extern const Il2CppType ArgInfo_t4602_1_0_0;
+struct ArgInfo_t4602;
+const Il2CppTypeDefinitionMetadata ArgInfo_t4602_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ArgInfo_t4599_VTable/* vtableMethods */
-	, ArgInfo_t4599_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ArgInfo_t4602_VTable/* vtableMethods */
+	, ArgInfo_t4602_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1552/* fieldStart */
 
 };
-TypeInfo ArgInfo_t4599_il2cpp_TypeInfo = 
+TypeInfo ArgInfo_t4602_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ArgInfo"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, ArgInfo_t4599_MethodInfos/* methods */
+	, ArgInfo_t4602_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ArgInfo_t4599_il2cpp_TypeInfo/* element_class */
+	, &ArgInfo_t4602_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ArgInfo_t4599_0_0_0/* byval_arg */
-	, &ArgInfo_t4599_1_0_0/* this_arg */
-	, &ArgInfo_t4599_DefinitionMetadata/* definitionMetadata */
+	, &ArgInfo_t4602_0_0_0/* byval_arg */
+	, &ArgInfo_t4602_1_0_0/* this_arg */
+	, &ArgInfo_t4602_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5894,8 +5894,8 @@ TypeInfo ArgInfo_t4599_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ArgInfo_t4599)/* instance_size */
-	, sizeof (ArgInfo_t4599)/* actualSize */
+	, sizeof (ArgInfo_t4602)/* instance_size */
+	, sizeof (ArgInfo_t4602)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5927,16 +5927,16 @@ TypeInfo ArgInfo_t4599_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.AsyncResult
 #include "mscorlib_System_Runtime_Remoting_Messaging_AsyncResult.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.AsyncResult
-extern TypeInfo AsyncResult_t4192_il2cpp_TypeInfo;
+extern TypeInfo AsyncResult_t4195_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.AsyncResult
 #include "mscorlib_System_Runtime_Remoting_Messaging_AsyncResultMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.AsyncResult::.ctor()
-extern const MethodInfo AsyncResult__ctor_m18211_MethodInfo = 
+extern const MethodInfo AsyncResult__ctor_m18243_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AsyncResult__ctor_m18211/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AsyncResult__ctor_m18243/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -5955,11 +5955,11 @@ extern const MethodInfo AsyncResult__ctor_m18211_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.AsyncResult::get_AsyncState()
-extern const MethodInfo AsyncResult_get_AsyncState_m18212_MethodInfo = 
+extern const MethodInfo AsyncResult_get_AsyncState_m18244_MethodInfo = 
 {
 	"get_AsyncState"/* name */
-	, (methodPointerType)&AsyncResult_get_AsyncState_m18212/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AsyncResult_get_AsyncState_m18244/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -5976,15 +5976,15 @@ extern const MethodInfo AsyncResult_get_AsyncState_m18212_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType WaitHandle_t3911_0_0_0;
+extern const Il2CppType WaitHandle_t3914_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Threading.WaitHandle System.Runtime.Remoting.Messaging.AsyncResult::get_AsyncWaitHandle()
-extern const MethodInfo AsyncResult_get_AsyncWaitHandle_m18213_MethodInfo = 
+extern const MethodInfo AsyncResult_get_AsyncWaitHandle_m18245_MethodInfo = 
 {
 	"get_AsyncWaitHandle"/* name */
-	, (methodPointerType)&AsyncResult_get_AsyncWaitHandle_m18213/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
-	, &WaitHandle_t3911_0_0_0/* return_type */
+	, (methodPointerType)&AsyncResult_get_AsyncWaitHandle_m18245/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
+	, &WaitHandle_t3914_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6002,11 +6002,11 @@ extern const MethodInfo AsyncResult_get_AsyncWaitHandle_m18213_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Messaging.AsyncResult::get_CompletedSynchronously()
-extern const MethodInfo AsyncResult_get_CompletedSynchronously_m18214_MethodInfo = 
+extern const MethodInfo AsyncResult_get_CompletedSynchronously_m18246_MethodInfo = 
 {
 	"get_CompletedSynchronously"/* name */
-	, (methodPointerType)&AsyncResult_get_CompletedSynchronously_m18214/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AsyncResult_get_CompletedSynchronously_m18246/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -6025,11 +6025,11 @@ extern const MethodInfo AsyncResult_get_CompletedSynchronously_m18214_MethodInfo
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Messaging.AsyncResult::get_IsCompleted()
-extern const MethodInfo AsyncResult_get_IsCompleted_m18215_MethodInfo = 
+extern const MethodInfo AsyncResult_get_IsCompleted_m18247_MethodInfo = 
 {
 	"get_IsCompleted"/* name */
-	, (methodPointerType)&AsyncResult_get_IsCompleted_m18215/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AsyncResult_get_IsCompleted_m18247/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -6048,11 +6048,11 @@ extern const MethodInfo AsyncResult_get_IsCompleted_m18215_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Messaging.AsyncResult::get_EndInvokeCalled()
-extern const MethodInfo AsyncResult_get_EndInvokeCalled_m18216_MethodInfo = 
+extern const MethodInfo AsyncResult_get_EndInvokeCalled_m18248_MethodInfo = 
 {
 	"get_EndInvokeCalled"/* name */
-	, (methodPointerType)&AsyncResult_get_EndInvokeCalled_m18216/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AsyncResult_get_EndInvokeCalled_m18248/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -6070,20 +6070,20 @@ extern const MethodInfo AsyncResult_get_EndInvokeCalled_m18216_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo AsyncResult_t4192_AsyncResult_set_EndInvokeCalled_m18217_ParameterInfos[] = 
+static const ParameterInfo AsyncResult_t4195_AsyncResult_set_EndInvokeCalled_m18249_ParameterInfos[] = 
 {
 	{"value", 0, 134222115, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.AsyncResult::set_EndInvokeCalled(System.Boolean)
-extern const MethodInfo AsyncResult_set_EndInvokeCalled_m18217_MethodInfo = 
+extern const MethodInfo AsyncResult_set_EndInvokeCalled_m18249_MethodInfo = 
 {
 	"set_EndInvokeCalled"/* name */
-	, (methodPointerType)&AsyncResult_set_EndInvokeCalled_m18217/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AsyncResult_set_EndInvokeCalled_m18249/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, AsyncResult_t4192_AsyncResult_set_EndInvokeCalled_m18217_ParameterInfos/* parameters */
+	, AsyncResult_t4195_AsyncResult_set_EndInvokeCalled_m18249_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -6099,11 +6099,11 @@ extern const MethodInfo AsyncResult_set_EndInvokeCalled_m18217_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.AsyncResult::get_AsyncDelegate()
-extern const MethodInfo AsyncResult_get_AsyncDelegate_m18218_MethodInfo = 
+extern const MethodInfo AsyncResult_get_AsyncDelegate_m18250_MethodInfo = 
 {
 	"get_AsyncDelegate"/* name */
-	, (methodPointerType)&AsyncResult_get_AsyncDelegate_m18218/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AsyncResult_get_AsyncDelegate_m18250/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -6122,12 +6122,12 @@ extern const MethodInfo AsyncResult_get_AsyncDelegate_m18218_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.Messaging.AsyncResult::get_NextSink()
-extern const MethodInfo AsyncResult_get_NextSink_m18219_MethodInfo = 
+extern const MethodInfo AsyncResult_get_NextSink_m18251_MethodInfo = 
 {
 	"get_NextSink"/* name */
-	, (methodPointerType)&AsyncResult_get_NextSink_m18219/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
-	, &IMessageSink_t3091_0_0_0/* return_type */
+	, (methodPointerType)&AsyncResult_get_NextSink_m18251/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
+	, &IMessageSink_t3094_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6143,24 +6143,24 @@ extern const MethodInfo AsyncResult_get_NextSink_m18219_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IMessage_t4603_0_0_0;
-extern const Il2CppType IMessageSink_t3091_0_0_0;
-static const ParameterInfo AsyncResult_t4192_AsyncResult_AsyncProcessMessage_m18220_ParameterInfos[] = 
+extern const Il2CppType IMessage_t4606_0_0_0;
+extern const Il2CppType IMessageSink_t3094_0_0_0;
+static const ParameterInfo AsyncResult_t4195_AsyncResult_AsyncProcessMessage_m18252_ParameterInfos[] = 
 {
-	{"msg", 0, 134222116, 0, &IMessage_t4603_0_0_0},
-	{"replySink", 1, 134222117, 0, &IMessageSink_t3091_0_0_0},
+	{"msg", 0, 134222116, 0, &IMessage_t4606_0_0_0},
+	{"replySink", 1, 134222117, 0, &IMessageSink_t3094_0_0_0},
 };
-extern const Il2CppType IMessageCtrl_t4602_0_0_0;
+extern const Il2CppType IMessageCtrl_t4605_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.IMessageCtrl System.Runtime.Remoting.Messaging.AsyncResult::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Messaging.IMessageSink)
-extern const MethodInfo AsyncResult_AsyncProcessMessage_m18220_MethodInfo = 
+extern const MethodInfo AsyncResult_AsyncProcessMessage_m18252_MethodInfo = 
 {
 	"AsyncProcessMessage"/* name */
-	, (methodPointerType)&AsyncResult_AsyncProcessMessage_m18220/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
-	, &IMessageCtrl_t4602_0_0_0/* return_type */
+	, (methodPointerType)&AsyncResult_AsyncProcessMessage_m18252/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
+	, &IMessageCtrl_t4605_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, AsyncResult_t4192_AsyncResult_AsyncProcessMessage_m18220_ParameterInfos/* parameters */
+	, AsyncResult_t4195_AsyncResult_AsyncProcessMessage_m18252_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -6176,12 +6176,12 @@ extern const MethodInfo AsyncResult_AsyncProcessMessage_m18220_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.IMessage System.Runtime.Remoting.Messaging.AsyncResult::GetReplyMessage()
-extern const MethodInfo AsyncResult_GetReplyMessage_m18221_MethodInfo = 
+extern const MethodInfo AsyncResult_GetReplyMessage_m18253_MethodInfo = 
 {
 	"GetReplyMessage"/* name */
-	, (methodPointerType)&AsyncResult_GetReplyMessage_m18221/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
-	, &IMessage_t4603_0_0_0/* return_type */
+	, (methodPointerType)&AsyncResult_GetReplyMessage_m18253/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
+	, &IMessage_t4606_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6197,21 +6197,21 @@ extern const MethodInfo AsyncResult_GetReplyMessage_m18221_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IMessageCtrl_t4602_0_0_0;
-static const ParameterInfo AsyncResult_t4192_AsyncResult_SetMessageCtrl_m18222_ParameterInfos[] = 
+extern const Il2CppType IMessageCtrl_t4605_0_0_0;
+static const ParameterInfo AsyncResult_t4195_AsyncResult_SetMessageCtrl_m18254_ParameterInfos[] = 
 {
-	{"mc", 0, 134222118, 0, &IMessageCtrl_t4602_0_0_0},
+	{"mc", 0, 134222118, 0, &IMessageCtrl_t4605_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.AsyncResult::SetMessageCtrl(System.Runtime.Remoting.Messaging.IMessageCtrl)
-extern const MethodInfo AsyncResult_SetMessageCtrl_m18222_MethodInfo = 
+extern const MethodInfo AsyncResult_SetMessageCtrl_m18254_MethodInfo = 
 {
 	"SetMessageCtrl"/* name */
-	, (methodPointerType)&AsyncResult_SetMessageCtrl_m18222/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AsyncResult_SetMessageCtrl_m18254/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, AsyncResult_t4192_AsyncResult_SetMessageCtrl_m18222_ParameterInfos/* parameters */
+	, AsyncResult_t4195_AsyncResult_SetMessageCtrl_m18254_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -6226,20 +6226,20 @@ extern const MethodInfo AsyncResult_SetMessageCtrl_m18222_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo AsyncResult_t4192_AsyncResult_SetCompletedSynchronously_m18223_ParameterInfos[] = 
+static const ParameterInfo AsyncResult_t4195_AsyncResult_SetCompletedSynchronously_m18255_ParameterInfos[] = 
 {
 	{"completed", 0, 134222119, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.AsyncResult::SetCompletedSynchronously(System.Boolean)
-extern const MethodInfo AsyncResult_SetCompletedSynchronously_m18223_MethodInfo = 
+extern const MethodInfo AsyncResult_SetCompletedSynchronously_m18255_MethodInfo = 
 {
 	"SetCompletedSynchronously"/* name */
-	, (methodPointerType)&AsyncResult_SetCompletedSynchronously_m18223/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AsyncResult_SetCompletedSynchronously_m18255/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, AsyncResult_t4192_AsyncResult_SetCompletedSynchronously_m18223_ParameterInfos/* parameters */
+	, AsyncResult_t4195_AsyncResult_SetCompletedSynchronously_m18255_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -6255,12 +6255,12 @@ extern const MethodInfo AsyncResult_SetCompletedSynchronously_m18223_MethodInfo 
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.IMessage System.Runtime.Remoting.Messaging.AsyncResult::EndInvoke()
-extern const MethodInfo AsyncResult_EndInvoke_m18224_MethodInfo = 
+extern const MethodInfo AsyncResult_EndInvoke_m18256_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&AsyncResult_EndInvoke_m18224/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
-	, &IMessage_t4603_0_0_0/* return_type */
+	, (methodPointerType)&AsyncResult_EndInvoke_m18256/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
+	, &IMessage_t4606_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6276,21 +6276,21 @@ extern const MethodInfo AsyncResult_EndInvoke_m18224_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IMessage_t4603_0_0_0;
-static const ParameterInfo AsyncResult_t4192_AsyncResult_SyncProcessMessage_m18225_ParameterInfos[] = 
+extern const Il2CppType IMessage_t4606_0_0_0;
+static const ParameterInfo AsyncResult_t4195_AsyncResult_SyncProcessMessage_m18257_ParameterInfos[] = 
 {
-	{"msg", 0, 134222120, 0, &IMessage_t4603_0_0_0},
+	{"msg", 0, 134222120, 0, &IMessage_t4606_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.IMessage System.Runtime.Remoting.Messaging.AsyncResult::SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage)
-extern const MethodInfo AsyncResult_SyncProcessMessage_m18225_MethodInfo = 
+extern const MethodInfo AsyncResult_SyncProcessMessage_m18257_MethodInfo = 
 {
 	"SyncProcessMessage"/* name */
-	, (methodPointerType)&AsyncResult_SyncProcessMessage_m18225/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
-	, &IMessage_t4603_0_0_0/* return_type */
+	, (methodPointerType)&AsyncResult_SyncProcessMessage_m18257/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
+	, &IMessage_t4606_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, AsyncResult_t4192_AsyncResult_SyncProcessMessage_m18225_ParameterInfos/* parameters */
+	, AsyncResult_t4195_AsyncResult_SyncProcessMessage_m18257_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -6304,15 +6304,15 @@ extern const MethodInfo AsyncResult_SyncProcessMessage_m18225_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MonoMethodMessage_t4601_0_0_0;
+extern const Il2CppType MonoMethodMessage_t4604_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.MonoMethodMessage System.Runtime.Remoting.Messaging.AsyncResult::get_CallMessage()
-extern const MethodInfo AsyncResult_get_CallMessage_m18226_MethodInfo = 
+extern const MethodInfo AsyncResult_get_CallMessage_m18258_MethodInfo = 
 {
 	"get_CallMessage"/* name */
-	, (methodPointerType)&AsyncResult_get_CallMessage_m18226/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
-	, &MonoMethodMessage_t4601_0_0_0/* return_type */
+	, (methodPointerType)&AsyncResult_get_CallMessage_m18258/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
+	, &MonoMethodMessage_t4604_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6328,21 +6328,21 @@ extern const MethodInfo AsyncResult_get_CallMessage_m18226_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MonoMethodMessage_t4601_0_0_0;
-static const ParameterInfo AsyncResult_t4192_AsyncResult_set_CallMessage_m18227_ParameterInfos[] = 
+extern const Il2CppType MonoMethodMessage_t4604_0_0_0;
+static const ParameterInfo AsyncResult_t4195_AsyncResult_set_CallMessage_m18259_ParameterInfos[] = 
 {
-	{"value", 0, 134222121, 0, &MonoMethodMessage_t4601_0_0_0},
+	{"value", 0, 134222121, 0, &MonoMethodMessage_t4604_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.AsyncResult::set_CallMessage(System.Runtime.Remoting.Messaging.MonoMethodMessage)
-extern const MethodInfo AsyncResult_set_CallMessage_m18227_MethodInfo = 
+extern const MethodInfo AsyncResult_set_CallMessage_m18259_MethodInfo = 
 {
 	"set_CallMessage"/* name */
-	, (methodPointerType)&AsyncResult_set_CallMessage_m18227/* method */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&AsyncResult_set_CallMessage_m18259/* method */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, AsyncResult_t4192_AsyncResult_set_CallMessage_m18227_ParameterInfos/* parameters */
+	, AsyncResult_t4195_AsyncResult_set_CallMessage_m18259_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -6356,154 +6356,154 @@ extern const MethodInfo AsyncResult_set_CallMessage_m18227_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* AsyncResult_t4192_MethodInfos[] =
+static const MethodInfo* AsyncResult_t4195_MethodInfos[] =
 {
-	&AsyncResult__ctor_m18211_MethodInfo,
-	&AsyncResult_get_AsyncState_m18212_MethodInfo,
-	&AsyncResult_get_AsyncWaitHandle_m18213_MethodInfo,
-	&AsyncResult_get_CompletedSynchronously_m18214_MethodInfo,
-	&AsyncResult_get_IsCompleted_m18215_MethodInfo,
-	&AsyncResult_get_EndInvokeCalled_m18216_MethodInfo,
-	&AsyncResult_set_EndInvokeCalled_m18217_MethodInfo,
-	&AsyncResult_get_AsyncDelegate_m18218_MethodInfo,
-	&AsyncResult_get_NextSink_m18219_MethodInfo,
-	&AsyncResult_AsyncProcessMessage_m18220_MethodInfo,
-	&AsyncResult_GetReplyMessage_m18221_MethodInfo,
-	&AsyncResult_SetMessageCtrl_m18222_MethodInfo,
-	&AsyncResult_SetCompletedSynchronously_m18223_MethodInfo,
-	&AsyncResult_EndInvoke_m18224_MethodInfo,
-	&AsyncResult_SyncProcessMessage_m18225_MethodInfo,
-	&AsyncResult_get_CallMessage_m18226_MethodInfo,
-	&AsyncResult_set_CallMessage_m18227_MethodInfo,
+	&AsyncResult__ctor_m18243_MethodInfo,
+	&AsyncResult_get_AsyncState_m18244_MethodInfo,
+	&AsyncResult_get_AsyncWaitHandle_m18245_MethodInfo,
+	&AsyncResult_get_CompletedSynchronously_m18246_MethodInfo,
+	&AsyncResult_get_IsCompleted_m18247_MethodInfo,
+	&AsyncResult_get_EndInvokeCalled_m18248_MethodInfo,
+	&AsyncResult_set_EndInvokeCalled_m18249_MethodInfo,
+	&AsyncResult_get_AsyncDelegate_m18250_MethodInfo,
+	&AsyncResult_get_NextSink_m18251_MethodInfo,
+	&AsyncResult_AsyncProcessMessage_m18252_MethodInfo,
+	&AsyncResult_GetReplyMessage_m18253_MethodInfo,
+	&AsyncResult_SetMessageCtrl_m18254_MethodInfo,
+	&AsyncResult_SetCompletedSynchronously_m18255_MethodInfo,
+	&AsyncResult_EndInvoke_m18256_MethodInfo,
+	&AsyncResult_SyncProcessMessage_m18257_MethodInfo,
+	&AsyncResult_get_CallMessage_m18258_MethodInfo,
+	&AsyncResult_set_CallMessage_m18259_MethodInfo,
 	NULL
 };
-extern const MethodInfo AsyncResult_get_AsyncState_m18212_MethodInfo;
-static const PropertyInfo AsyncResult_t4192____AsyncState_PropertyInfo = 
+extern const MethodInfo AsyncResult_get_AsyncState_m18244_MethodInfo;
+static const PropertyInfo AsyncResult_t4195____AsyncState_PropertyInfo = 
 {
-	&AsyncResult_t4192_il2cpp_TypeInfo/* parent */
+	&AsyncResult_t4195_il2cpp_TypeInfo/* parent */
 	, "AsyncState"/* name */
-	, &AsyncResult_get_AsyncState_m18212_MethodInfo/* get */
+	, &AsyncResult_get_AsyncState_m18244_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AsyncResult_get_AsyncWaitHandle_m18213_MethodInfo;
-static const PropertyInfo AsyncResult_t4192____AsyncWaitHandle_PropertyInfo = 
+extern const MethodInfo AsyncResult_get_AsyncWaitHandle_m18245_MethodInfo;
+static const PropertyInfo AsyncResult_t4195____AsyncWaitHandle_PropertyInfo = 
 {
-	&AsyncResult_t4192_il2cpp_TypeInfo/* parent */
+	&AsyncResult_t4195_il2cpp_TypeInfo/* parent */
 	, "AsyncWaitHandle"/* name */
-	, &AsyncResult_get_AsyncWaitHandle_m18213_MethodInfo/* get */
+	, &AsyncResult_get_AsyncWaitHandle_m18245_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AsyncResult_get_CompletedSynchronously_m18214_MethodInfo;
-static const PropertyInfo AsyncResult_t4192____CompletedSynchronously_PropertyInfo = 
+extern const MethodInfo AsyncResult_get_CompletedSynchronously_m18246_MethodInfo;
+static const PropertyInfo AsyncResult_t4195____CompletedSynchronously_PropertyInfo = 
 {
-	&AsyncResult_t4192_il2cpp_TypeInfo/* parent */
+	&AsyncResult_t4195_il2cpp_TypeInfo/* parent */
 	, "CompletedSynchronously"/* name */
-	, &AsyncResult_get_CompletedSynchronously_m18214_MethodInfo/* get */
+	, &AsyncResult_get_CompletedSynchronously_m18246_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AsyncResult_get_IsCompleted_m18215_MethodInfo;
-static const PropertyInfo AsyncResult_t4192____IsCompleted_PropertyInfo = 
+extern const MethodInfo AsyncResult_get_IsCompleted_m18247_MethodInfo;
+static const PropertyInfo AsyncResult_t4195____IsCompleted_PropertyInfo = 
 {
-	&AsyncResult_t4192_il2cpp_TypeInfo/* parent */
+	&AsyncResult_t4195_il2cpp_TypeInfo/* parent */
 	, "IsCompleted"/* name */
-	, &AsyncResult_get_IsCompleted_m18215_MethodInfo/* get */
+	, &AsyncResult_get_IsCompleted_m18247_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AsyncResult_get_EndInvokeCalled_m18216_MethodInfo;
-extern const MethodInfo AsyncResult_set_EndInvokeCalled_m18217_MethodInfo;
-static const PropertyInfo AsyncResult_t4192____EndInvokeCalled_PropertyInfo = 
+extern const MethodInfo AsyncResult_get_EndInvokeCalled_m18248_MethodInfo;
+extern const MethodInfo AsyncResult_set_EndInvokeCalled_m18249_MethodInfo;
+static const PropertyInfo AsyncResult_t4195____EndInvokeCalled_PropertyInfo = 
 {
-	&AsyncResult_t4192_il2cpp_TypeInfo/* parent */
+	&AsyncResult_t4195_il2cpp_TypeInfo/* parent */
 	, "EndInvokeCalled"/* name */
-	, &AsyncResult_get_EndInvokeCalled_m18216_MethodInfo/* get */
-	, &AsyncResult_set_EndInvokeCalled_m18217_MethodInfo/* set */
+	, &AsyncResult_get_EndInvokeCalled_m18248_MethodInfo/* get */
+	, &AsyncResult_set_EndInvokeCalled_m18249_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AsyncResult_get_AsyncDelegate_m18218_MethodInfo;
-static const PropertyInfo AsyncResult_t4192____AsyncDelegate_PropertyInfo = 
+extern const MethodInfo AsyncResult_get_AsyncDelegate_m18250_MethodInfo;
+static const PropertyInfo AsyncResult_t4195____AsyncDelegate_PropertyInfo = 
 {
-	&AsyncResult_t4192_il2cpp_TypeInfo/* parent */
+	&AsyncResult_t4195_il2cpp_TypeInfo/* parent */
 	, "AsyncDelegate"/* name */
-	, &AsyncResult_get_AsyncDelegate_m18218_MethodInfo/* get */
+	, &AsyncResult_get_AsyncDelegate_m18250_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AsyncResult_get_NextSink_m18219_MethodInfo;
-static const PropertyInfo AsyncResult_t4192____NextSink_PropertyInfo = 
+extern const MethodInfo AsyncResult_get_NextSink_m18251_MethodInfo;
+static const PropertyInfo AsyncResult_t4195____NextSink_PropertyInfo = 
 {
-	&AsyncResult_t4192_il2cpp_TypeInfo/* parent */
+	&AsyncResult_t4195_il2cpp_TypeInfo/* parent */
 	, "NextSink"/* name */
-	, &AsyncResult_get_NextSink_m18219_MethodInfo/* get */
+	, &AsyncResult_get_NextSink_m18251_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AsyncResult_get_CallMessage_m18226_MethodInfo;
-extern const MethodInfo AsyncResult_set_CallMessage_m18227_MethodInfo;
-static const PropertyInfo AsyncResult_t4192____CallMessage_PropertyInfo = 
+extern const MethodInfo AsyncResult_get_CallMessage_m18258_MethodInfo;
+extern const MethodInfo AsyncResult_set_CallMessage_m18259_MethodInfo;
+static const PropertyInfo AsyncResult_t4195____CallMessage_PropertyInfo = 
 {
-	&AsyncResult_t4192_il2cpp_TypeInfo/* parent */
+	&AsyncResult_t4195_il2cpp_TypeInfo/* parent */
 	, "CallMessage"/* name */
-	, &AsyncResult_get_CallMessage_m18226_MethodInfo/* get */
-	, &AsyncResult_set_CallMessage_m18227_MethodInfo/* set */
+	, &AsyncResult_get_CallMessage_m18258_MethodInfo/* get */
+	, &AsyncResult_set_CallMessage_m18259_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* AsyncResult_t4192_PropertyInfos[] =
+static const PropertyInfo* AsyncResult_t4195_PropertyInfos[] =
 {
-	&AsyncResult_t4192____AsyncState_PropertyInfo,
-	&AsyncResult_t4192____AsyncWaitHandle_PropertyInfo,
-	&AsyncResult_t4192____CompletedSynchronously_PropertyInfo,
-	&AsyncResult_t4192____IsCompleted_PropertyInfo,
-	&AsyncResult_t4192____EndInvokeCalled_PropertyInfo,
-	&AsyncResult_t4192____AsyncDelegate_PropertyInfo,
-	&AsyncResult_t4192____NextSink_PropertyInfo,
-	&AsyncResult_t4192____CallMessage_PropertyInfo,
+	&AsyncResult_t4195____AsyncState_PropertyInfo,
+	&AsyncResult_t4195____AsyncWaitHandle_PropertyInfo,
+	&AsyncResult_t4195____CompletedSynchronously_PropertyInfo,
+	&AsyncResult_t4195____IsCompleted_PropertyInfo,
+	&AsyncResult_t4195____EndInvokeCalled_PropertyInfo,
+	&AsyncResult_t4195____AsyncDelegate_PropertyInfo,
+	&AsyncResult_t4195____NextSink_PropertyInfo,
+	&AsyncResult_t4195____CallMessage_PropertyInfo,
 	NULL
 };
-extern const MethodInfo AsyncResult_AsyncProcessMessage_m18220_MethodInfo;
-extern const MethodInfo AsyncResult_GetReplyMessage_m18221_MethodInfo;
-extern const MethodInfo AsyncResult_SetMessageCtrl_m18222_MethodInfo;
-extern const MethodInfo AsyncResult_SyncProcessMessage_m18225_MethodInfo;
-static const Il2CppMethodReference AsyncResult_t4192_VTable[] =
+extern const MethodInfo AsyncResult_AsyncProcessMessage_m18252_MethodInfo;
+extern const MethodInfo AsyncResult_GetReplyMessage_m18253_MethodInfo;
+extern const MethodInfo AsyncResult_SetMessageCtrl_m18254_MethodInfo;
+extern const MethodInfo AsyncResult_SyncProcessMessage_m18257_MethodInfo;
+static const Il2CppMethodReference AsyncResult_t4195_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&AsyncResult_get_AsyncState_m18212_MethodInfo,
-	&AsyncResult_get_AsyncWaitHandle_m18213_MethodInfo,
-	&AsyncResult_get_IsCompleted_m18215_MethodInfo,
-	&AsyncResult_get_AsyncState_m18212_MethodInfo,
-	&AsyncResult_get_AsyncWaitHandle_m18213_MethodInfo,
-	&AsyncResult_get_CompletedSynchronously_m18214_MethodInfo,
-	&AsyncResult_get_IsCompleted_m18215_MethodInfo,
-	&AsyncResult_get_AsyncDelegate_m18218_MethodInfo,
-	&AsyncResult_get_NextSink_m18219_MethodInfo,
-	&AsyncResult_AsyncProcessMessage_m18220_MethodInfo,
-	&AsyncResult_GetReplyMessage_m18221_MethodInfo,
-	&AsyncResult_SetMessageCtrl_m18222_MethodInfo,
-	&AsyncResult_SyncProcessMessage_m18225_MethodInfo,
+	&AsyncResult_get_AsyncState_m18244_MethodInfo,
+	&AsyncResult_get_AsyncWaitHandle_m18245_MethodInfo,
+	&AsyncResult_get_IsCompleted_m18247_MethodInfo,
+	&AsyncResult_get_AsyncState_m18244_MethodInfo,
+	&AsyncResult_get_AsyncWaitHandle_m18245_MethodInfo,
+	&AsyncResult_get_CompletedSynchronously_m18246_MethodInfo,
+	&AsyncResult_get_IsCompleted_m18247_MethodInfo,
+	&AsyncResult_get_AsyncDelegate_m18250_MethodInfo,
+	&AsyncResult_get_NextSink_m18251_MethodInfo,
+	&AsyncResult_AsyncProcessMessage_m18252_MethodInfo,
+	&AsyncResult_GetReplyMessage_m18253_MethodInfo,
+	&AsyncResult_SetMessageCtrl_m18254_MethodInfo,
+	&AsyncResult_SyncProcessMessage_m18257_MethodInfo,
 };
-static bool AsyncResult_t4192_VTableIsGenericMethod[] =
+static bool AsyncResult_t4195_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -6524,48 +6524,48 @@ static bool AsyncResult_t4192_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const Il2CppType* AsyncResult_t4192_InterfacesTypeInfos[] = 
+static const Il2CppType* AsyncResult_t4195_InterfacesTypeInfos[] = 
 {
 	&IAsyncResult_t385_0_0_0,
-	&IMessageSink_t3091_0_0_0,
+	&IMessageSink_t3094_0_0_0,
 };
-static Il2CppInterfaceOffsetPair AsyncResult_t4192_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair AsyncResult_t4195_InterfacesOffsets[] = 
 {
 	{ &IAsyncResult_t385_0_0_0, 4},
-	{ &IMessageSink_t3091_0_0_0, 7},
+	{ &IMessageSink_t3094_0_0_0, 7},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType AsyncResult_t4192_0_0_0;
-extern const Il2CppType AsyncResult_t4192_1_0_0;
-struct AsyncResult_t4192;
-const Il2CppTypeDefinitionMetadata AsyncResult_t4192_DefinitionMetadata = 
+extern const Il2CppType AsyncResult_t4195_0_0_0;
+extern const Il2CppType AsyncResult_t4195_1_0_0;
+struct AsyncResult_t4195;
+const Il2CppTypeDefinitionMetadata AsyncResult_t4195_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, AsyncResult_t4192_InterfacesTypeInfos/* implementedInterfaces */
-	, AsyncResult_t4192_InterfacesOffsets/* interfaceOffsets */
+	, AsyncResult_t4195_InterfacesTypeInfos/* implementedInterfaces */
+	, AsyncResult_t4195_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, AsyncResult_t4192_VTable/* vtableMethods */
-	, AsyncResult_t4192_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, AsyncResult_t4195_VTable/* vtableMethods */
+	, AsyncResult_t4195_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1555/* fieldStart */
 
 };
-TypeInfo AsyncResult_t4192_il2cpp_TypeInfo = 
+TypeInfo AsyncResult_t4195_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "AsyncResult"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, AsyncResult_t4192_MethodInfos/* methods */
-	, AsyncResult_t4192_PropertyInfos/* properties */
+	, AsyncResult_t4195_MethodInfos/* methods */
+	, AsyncResult_t4195_PropertyInfos/* properties */
 	, NULL/* events */
-	, &AsyncResult_t4192_il2cpp_TypeInfo/* element_class */
+	, &AsyncResult_t4195_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 540/* custom_attributes_cache */
-	, &AsyncResult_t4192_0_0_0/* byval_arg */
-	, &AsyncResult_t4192_1_0_0/* this_arg */
-	, &AsyncResult_t4192_DefinitionMetadata/* definitionMetadata */
+	, &AsyncResult_t4195_0_0_0/* byval_arg */
+	, &AsyncResult_t4195_1_0_0/* this_arg */
+	, &AsyncResult_t4195_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -6575,8 +6575,8 @@ TypeInfo AsyncResult_t4192_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (AsyncResult_t4192)/* instance_size */
-	, sizeof (AsyncResult_t4192)/* actualSize */
+	, sizeof (AsyncResult_t4195)/* instance_size */
+	, sizeof (AsyncResult_t4195)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6608,24 +6608,24 @@ TypeInfo AsyncResult_t4192_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.ConstructionCall
 #include "mscorlib_System_Runtime_Remoting_Messaging_ConstructionCall.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.ConstructionCall
-extern TypeInfo ConstructionCall_t4604_il2cpp_TypeInfo;
+extern TypeInfo ConstructionCall_t4607_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.ConstructionCall
 #include "mscorlib_System_Runtime_Remoting_Messaging_ConstructionCallMethodDeclarations.h"
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ConstructionCall_t4604_ConstructionCall__ctor_m18228_ParameterInfos[] = 
+static const ParameterInfo ConstructionCall_t4607_ConstructionCall__ctor_m18260_ParameterInfos[] = 
 {
 	{"type", 0, 134222122, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::.ctor(System.Type)
-extern const MethodInfo ConstructionCall__ctor_m18228_MethodInfo = 
+extern const MethodInfo ConstructionCall__ctor_m18260_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ConstructionCall__ctor_m18228/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCall__ctor_m18260/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConstructionCall_t4604_ConstructionCall__ctor_m18228_ParameterInfos/* parameters */
+	, ConstructionCall_t4607_ConstructionCall__ctor_m18260_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -6639,25 +6639,25 @@ extern const MethodInfo ConstructionCall__ctor_m18228_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2917_0_0_0;
-extern const Il2CppType SerializationInfo_t2917_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-static const ParameterInfo ConstructionCall_t4604_ConstructionCall__ctor_m18229_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2920_0_0_0;
+extern const Il2CppType SerializationInfo_t2920_0_0_0;
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+static const ParameterInfo ConstructionCall_t4607_ConstructionCall__ctor_m18261_ParameterInfos[] = 
 {
-	{"info", 0, 134222123, 0, &SerializationInfo_t2917_0_0_0},
-	{"context", 1, 134222124, 0, &StreamingContext_t2918_0_0_0},
+	{"info", 0, 134222123, 0, &SerializationInfo_t2920_0_0_0},
+	{"context", 1, 134222124, 0, &StreamingContext_t2921_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ConstructionCall__ctor_m18229_MethodInfo = 
+extern const MethodInfo ConstructionCall__ctor_m18261_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ConstructionCall__ctor_m18229/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCall__ctor_m18261/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918/* invoker_method */
-	, ConstructionCall_t4604_ConstructionCall__ctor_m18229_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921/* invoker_method */
+	, ConstructionCall_t4607_ConstructionCall__ctor_m18261_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -6673,11 +6673,11 @@ extern const MethodInfo ConstructionCall__ctor_m18229_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::InitDictionary()
-extern const MethodInfo ConstructionCall_InitDictionary_m18230_MethodInfo = 
+extern const MethodInfo ConstructionCall_InitDictionary_m18262_MethodInfo = 
 {
 	"InitDictionary"/* name */
-	, (methodPointerType)&ConstructionCall_InitDictionary_m18230/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCall_InitDictionary_m18262/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -6695,20 +6695,20 @@ extern const MethodInfo ConstructionCall_InitDictionary_m18230_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ConstructionCall_t4604_ConstructionCall_set_IsContextOk_m18231_ParameterInfos[] = 
+static const ParameterInfo ConstructionCall_t4607_ConstructionCall_set_IsContextOk_m18263_ParameterInfos[] = 
 {
 	{"value", 0, 134222125, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::set_IsContextOk(System.Boolean)
-extern const MethodInfo ConstructionCall_set_IsContextOk_m18231_MethodInfo = 
+extern const MethodInfo ConstructionCall_set_IsContextOk_m18263_MethodInfo = 
 {
 	"set_IsContextOk"/* name */
-	, (methodPointerType)&ConstructionCall_set_IsContextOk_m18231/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCall_set_IsContextOk_m18263/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, ConstructionCall_t4604_ConstructionCall_set_IsContextOk_m18231_ParameterInfos/* parameters */
+	, ConstructionCall_t4607_ConstructionCall_set_IsContextOk_m18263_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -6724,11 +6724,11 @@ extern const MethodInfo ConstructionCall_set_IsContextOk_m18231_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Runtime.Remoting.Messaging.ConstructionCall::get_ActivationType()
-extern const MethodInfo ConstructionCall_get_ActivationType_m18232_MethodInfo = 
+extern const MethodInfo ConstructionCall_get_ActivationType_m18264_MethodInfo = 
 {
 	"get_ActivationType"/* name */
-	, (methodPointerType)&ConstructionCall_get_ActivationType_m18232/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCall_get_ActivationType_m18264/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -6747,11 +6747,11 @@ extern const MethodInfo ConstructionCall_get_ActivationType_m18232_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.ConstructionCall::get_ActivationTypeName()
-extern const MethodInfo ConstructionCall_get_ActivationTypeName_m18233_MethodInfo = 
+extern const MethodInfo ConstructionCall_get_ActivationTypeName_m18265_MethodInfo = 
 {
 	"get_ActivationTypeName"/* name */
-	, (methodPointerType)&ConstructionCall_get_ActivationTypeName_m18233/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCall_get_ActivationTypeName_m18265/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -6770,12 +6770,12 @@ extern const MethodInfo ConstructionCall_get_ActivationTypeName_m18233_MethodInf
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Activation.IActivator System.Runtime.Remoting.Messaging.ConstructionCall::get_Activator()
-extern const MethodInfo ConstructionCall_get_Activator_m18234_MethodInfo = 
+extern const MethodInfo ConstructionCall_get_Activator_m18266_MethodInfo = 
 {
 	"get_Activator"/* name */
-	, (methodPointerType)&ConstructionCall_get_Activator_m18234/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
-	, &IActivator_t4581_0_0_0/* return_type */
+	, (methodPointerType)&ConstructionCall_get_Activator_m18266/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
+	, &IActivator_t4584_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6791,21 +6791,21 @@ extern const MethodInfo ConstructionCall_get_Activator_m18234_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IActivator_t4581_0_0_0;
-static const ParameterInfo ConstructionCall_t4604_ConstructionCall_set_Activator_m18235_ParameterInfos[] = 
+extern const Il2CppType IActivator_t4584_0_0_0;
+static const ParameterInfo ConstructionCall_t4607_ConstructionCall_set_Activator_m18267_ParameterInfos[] = 
 {
-	{"value", 0, 134222126, 0, &IActivator_t4581_0_0_0},
+	{"value", 0, 134222126, 0, &IActivator_t4584_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::set_Activator(System.Runtime.Remoting.Activation.IActivator)
-extern const MethodInfo ConstructionCall_set_Activator_m18235_MethodInfo = 
+extern const MethodInfo ConstructionCall_set_Activator_m18267_MethodInfo = 
 {
 	"set_Activator"/* name */
-	, (methodPointerType)&ConstructionCall_set_Activator_m18235/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCall_set_Activator_m18267/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConstructionCall_t4604_ConstructionCall_set_Activator_m18235_ParameterInfos/* parameters */
+	, ConstructionCall_t4607_ConstructionCall_set_Activator_m18267_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -6821,12 +6821,12 @@ extern const MethodInfo ConstructionCall_set_Activator_m18235_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Runtime.Remoting.Messaging.ConstructionCall::get_CallSiteActivationAttributes()
-extern const MethodInfo ConstructionCall_get_CallSiteActivationAttributes_m18236_MethodInfo = 
+extern const MethodInfo ConstructionCall_get_CallSiteActivationAttributes_m18268_MethodInfo = 
 {
 	"get_CallSiteActivationAttributes"/* name */
-	, (methodPointerType)&ConstructionCall_get_CallSiteActivationAttributes_m18236/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t680_0_0_0/* return_type */
+	, (methodPointerType)&ConstructionCall_get_CallSiteActivationAttributes_m18268/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
+	, &ObjectU5BU5D_t683_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6842,21 +6842,21 @@ extern const MethodInfo ConstructionCall_get_CallSiteActivationAttributes_m18236
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjectU5BU5D_t680_0_0_0;
-static const ParameterInfo ConstructionCall_t4604_ConstructionCall_SetActivationAttributes_m18237_ParameterInfos[] = 
+extern const Il2CppType ObjectU5BU5D_t683_0_0_0;
+static const ParameterInfo ConstructionCall_t4607_ConstructionCall_SetActivationAttributes_m18269_ParameterInfos[] = 
 {
-	{"attributes", 0, 134222127, 0, &ObjectU5BU5D_t680_0_0_0},
+	{"attributes", 0, 134222127, 0, &ObjectU5BU5D_t683_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::SetActivationAttributes(System.Object[])
-extern const MethodInfo ConstructionCall_SetActivationAttributes_m18237_MethodInfo = 
+extern const MethodInfo ConstructionCall_SetActivationAttributes_m18269_MethodInfo = 
 {
 	"SetActivationAttributes"/* name */
-	, (methodPointerType)&ConstructionCall_SetActivationAttributes_m18237/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCall_SetActivationAttributes_m18269/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConstructionCall_t4604_ConstructionCall_SetActivationAttributes_m18237_ParameterInfos/* parameters */
+	, ConstructionCall_t4607_ConstructionCall_SetActivationAttributes_m18269_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -6872,12 +6872,12 @@ extern const MethodInfo ConstructionCall_SetActivationAttributes_m18237_MethodIn
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IList System.Runtime.Remoting.Messaging.ConstructionCall::get_ContextProperties()
-extern const MethodInfo ConstructionCall_get_ContextProperties_m18238_MethodInfo = 
+extern const MethodInfo ConstructionCall_get_ContextProperties_m18270_MethodInfo = 
 {
 	"get_ContextProperties"/* name */
-	, (methodPointerType)&ConstructionCall_get_ContextProperties_m18238/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
-	, &IList_t684_0_0_0/* return_type */
+	, (methodPointerType)&ConstructionCall_get_ContextProperties_m18270/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
+	, &IList_t687_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6895,21 +6895,21 @@ extern const MethodInfo ConstructionCall_get_ContextProperties_m18238_MethodInfo
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConstructionCall_t4604_ConstructionCall_InitMethodProperty_m18239_ParameterInfos[] = 
+static const ParameterInfo ConstructionCall_t4607_ConstructionCall_InitMethodProperty_m18271_ParameterInfos[] = 
 {
 	{"key", 0, 134222128, 0, &String_t_0_0_0},
 	{"value", 1, 134222129, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::InitMethodProperty(System.String,System.Object)
-extern const MethodInfo ConstructionCall_InitMethodProperty_m18239_MethodInfo = 
+extern const MethodInfo ConstructionCall_InitMethodProperty_m18271_MethodInfo = 
 {
 	"InitMethodProperty"/* name */
-	, (methodPointerType)&ConstructionCall_InitMethodProperty_m18239/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCall_InitMethodProperty_m18271/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConstructionCall_t4604_ConstructionCall_InitMethodProperty_m18239_ParameterInfos/* parameters */
+	, ConstructionCall_t4607_ConstructionCall_InitMethodProperty_m18271_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 195/* flags */
 	, 0/* iflags */
@@ -6923,23 +6923,23 @@ extern const MethodInfo ConstructionCall_InitMethodProperty_m18239_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2917_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-static const ParameterInfo ConstructionCall_t4604_ConstructionCall_GetObjectData_m18240_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2920_0_0_0;
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+static const ParameterInfo ConstructionCall_t4607_ConstructionCall_GetObjectData_m18272_ParameterInfos[] = 
 {
-	{"info", 0, 134222130, 0, &SerializationInfo_t2917_0_0_0},
-	{"context", 1, 134222131, 0, &StreamingContext_t2918_0_0_0},
+	{"info", 0, 134222130, 0, &SerializationInfo_t2920_0_0_0},
+	{"context", 1, 134222131, 0, &StreamingContext_t2921_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCall::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ConstructionCall_GetObjectData_m18240_MethodInfo = 
+extern const MethodInfo ConstructionCall_GetObjectData_m18272_MethodInfo = 
 {
 	"GetObjectData"/* name */
-	, (methodPointerType)&ConstructionCall_GetObjectData_m18240/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCall_GetObjectData_m18272/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918/* invoker_method */
-	, ConstructionCall_t4604_ConstructionCall_GetObjectData_m18240_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921/* invoker_method */
+	, ConstructionCall_t4607_ConstructionCall_GetObjectData_m18272_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -6953,15 +6953,15 @@ extern const MethodInfo ConstructionCall_GetObjectData_m18240_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_t683_0_0_0;
+extern const Il2CppType IDictionary_t686_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IDictionary System.Runtime.Remoting.Messaging.ConstructionCall::get_Properties()
-extern const MethodInfo ConstructionCall_get_Properties_m18241_MethodInfo = 
+extern const MethodInfo ConstructionCall_get_Properties_m18273_MethodInfo = 
 {
 	"get_Properties"/* name */
-	, (methodPointerType)&ConstructionCall_get_Properties_m18241/* method */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_t683_0_0_0/* return_type */
+	, (methodPointerType)&ConstructionCall_get_Properties_m18273/* method */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* declaring_type */
+	, &IDictionary_t686_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6977,155 +6977,155 @@ extern const MethodInfo ConstructionCall_get_Properties_m18241_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConstructionCall_t4604_MethodInfos[] =
+static const MethodInfo* ConstructionCall_t4607_MethodInfos[] =
 {
-	&ConstructionCall__ctor_m18228_MethodInfo,
-	&ConstructionCall__ctor_m18229_MethodInfo,
-	&ConstructionCall_InitDictionary_m18230_MethodInfo,
-	&ConstructionCall_set_IsContextOk_m18231_MethodInfo,
-	&ConstructionCall_get_ActivationType_m18232_MethodInfo,
-	&ConstructionCall_get_ActivationTypeName_m18233_MethodInfo,
-	&ConstructionCall_get_Activator_m18234_MethodInfo,
-	&ConstructionCall_set_Activator_m18235_MethodInfo,
-	&ConstructionCall_get_CallSiteActivationAttributes_m18236_MethodInfo,
-	&ConstructionCall_SetActivationAttributes_m18237_MethodInfo,
-	&ConstructionCall_get_ContextProperties_m18238_MethodInfo,
-	&ConstructionCall_InitMethodProperty_m18239_MethodInfo,
-	&ConstructionCall_GetObjectData_m18240_MethodInfo,
-	&ConstructionCall_get_Properties_m18241_MethodInfo,
+	&ConstructionCall__ctor_m18260_MethodInfo,
+	&ConstructionCall__ctor_m18261_MethodInfo,
+	&ConstructionCall_InitDictionary_m18262_MethodInfo,
+	&ConstructionCall_set_IsContextOk_m18263_MethodInfo,
+	&ConstructionCall_get_ActivationType_m18264_MethodInfo,
+	&ConstructionCall_get_ActivationTypeName_m18265_MethodInfo,
+	&ConstructionCall_get_Activator_m18266_MethodInfo,
+	&ConstructionCall_set_Activator_m18267_MethodInfo,
+	&ConstructionCall_get_CallSiteActivationAttributes_m18268_MethodInfo,
+	&ConstructionCall_SetActivationAttributes_m18269_MethodInfo,
+	&ConstructionCall_get_ContextProperties_m18270_MethodInfo,
+	&ConstructionCall_InitMethodProperty_m18271_MethodInfo,
+	&ConstructionCall_GetObjectData_m18272_MethodInfo,
+	&ConstructionCall_get_Properties_m18273_MethodInfo,
 	NULL
 };
-extern const MethodInfo ConstructionCall_set_IsContextOk_m18231_MethodInfo;
-static const PropertyInfo ConstructionCall_t4604____IsContextOk_PropertyInfo = 
+extern const MethodInfo ConstructionCall_set_IsContextOk_m18263_MethodInfo;
+static const PropertyInfo ConstructionCall_t4607____IsContextOk_PropertyInfo = 
 {
-	&ConstructionCall_t4604_il2cpp_TypeInfo/* parent */
+	&ConstructionCall_t4607_il2cpp_TypeInfo/* parent */
 	, "IsContextOk"/* name */
 	, NULL/* get */
-	, &ConstructionCall_set_IsContextOk_m18231_MethodInfo/* set */
+	, &ConstructionCall_set_IsContextOk_m18263_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ConstructionCall_get_ActivationType_m18232_MethodInfo;
-static const PropertyInfo ConstructionCall_t4604____ActivationType_PropertyInfo = 
+extern const MethodInfo ConstructionCall_get_ActivationType_m18264_MethodInfo;
+static const PropertyInfo ConstructionCall_t4607____ActivationType_PropertyInfo = 
 {
-	&ConstructionCall_t4604_il2cpp_TypeInfo/* parent */
+	&ConstructionCall_t4607_il2cpp_TypeInfo/* parent */
 	, "ActivationType"/* name */
-	, &ConstructionCall_get_ActivationType_m18232_MethodInfo/* get */
+	, &ConstructionCall_get_ActivationType_m18264_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ConstructionCall_get_ActivationTypeName_m18233_MethodInfo;
-static const PropertyInfo ConstructionCall_t4604____ActivationTypeName_PropertyInfo = 
+extern const MethodInfo ConstructionCall_get_ActivationTypeName_m18265_MethodInfo;
+static const PropertyInfo ConstructionCall_t4607____ActivationTypeName_PropertyInfo = 
 {
-	&ConstructionCall_t4604_il2cpp_TypeInfo/* parent */
+	&ConstructionCall_t4607_il2cpp_TypeInfo/* parent */
 	, "ActivationTypeName"/* name */
-	, &ConstructionCall_get_ActivationTypeName_m18233_MethodInfo/* get */
+	, &ConstructionCall_get_ActivationTypeName_m18265_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ConstructionCall_get_Activator_m18234_MethodInfo;
-extern const MethodInfo ConstructionCall_set_Activator_m18235_MethodInfo;
-static const PropertyInfo ConstructionCall_t4604____Activator_PropertyInfo = 
+extern const MethodInfo ConstructionCall_get_Activator_m18266_MethodInfo;
+extern const MethodInfo ConstructionCall_set_Activator_m18267_MethodInfo;
+static const PropertyInfo ConstructionCall_t4607____Activator_PropertyInfo = 
 {
-	&ConstructionCall_t4604_il2cpp_TypeInfo/* parent */
+	&ConstructionCall_t4607_il2cpp_TypeInfo/* parent */
 	, "Activator"/* name */
-	, &ConstructionCall_get_Activator_m18234_MethodInfo/* get */
-	, &ConstructionCall_set_Activator_m18235_MethodInfo/* set */
+	, &ConstructionCall_get_Activator_m18266_MethodInfo/* get */
+	, &ConstructionCall_set_Activator_m18267_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ConstructionCall_get_CallSiteActivationAttributes_m18236_MethodInfo;
-static const PropertyInfo ConstructionCall_t4604____CallSiteActivationAttributes_PropertyInfo = 
+extern const MethodInfo ConstructionCall_get_CallSiteActivationAttributes_m18268_MethodInfo;
+static const PropertyInfo ConstructionCall_t4607____CallSiteActivationAttributes_PropertyInfo = 
 {
-	&ConstructionCall_t4604_il2cpp_TypeInfo/* parent */
+	&ConstructionCall_t4607_il2cpp_TypeInfo/* parent */
 	, "CallSiteActivationAttributes"/* name */
-	, &ConstructionCall_get_CallSiteActivationAttributes_m18236_MethodInfo/* get */
+	, &ConstructionCall_get_CallSiteActivationAttributes_m18268_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ConstructionCall_get_ContextProperties_m18238_MethodInfo;
-static const PropertyInfo ConstructionCall_t4604____ContextProperties_PropertyInfo = 
+extern const MethodInfo ConstructionCall_get_ContextProperties_m18270_MethodInfo;
+static const PropertyInfo ConstructionCall_t4607____ContextProperties_PropertyInfo = 
 {
-	&ConstructionCall_t4604_il2cpp_TypeInfo/* parent */
+	&ConstructionCall_t4607_il2cpp_TypeInfo/* parent */
 	, "ContextProperties"/* name */
-	, &ConstructionCall_get_ContextProperties_m18238_MethodInfo/* get */
+	, &ConstructionCall_get_ContextProperties_m18270_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ConstructionCall_get_Properties_m18241_MethodInfo;
-static const PropertyInfo ConstructionCall_t4604____Properties_PropertyInfo = 
+extern const MethodInfo ConstructionCall_get_Properties_m18273_MethodInfo;
+static const PropertyInfo ConstructionCall_t4607____Properties_PropertyInfo = 
 {
-	&ConstructionCall_t4604_il2cpp_TypeInfo/* parent */
+	&ConstructionCall_t4607_il2cpp_TypeInfo/* parent */
 	, "Properties"/* name */
-	, &ConstructionCall_get_Properties_m18241_MethodInfo/* get */
+	, &ConstructionCall_get_Properties_m18273_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConstructionCall_t4604_PropertyInfos[] =
+static const PropertyInfo* ConstructionCall_t4607_PropertyInfos[] =
 {
-	&ConstructionCall_t4604____IsContextOk_PropertyInfo,
-	&ConstructionCall_t4604____ActivationType_PropertyInfo,
-	&ConstructionCall_t4604____ActivationTypeName_PropertyInfo,
-	&ConstructionCall_t4604____Activator_PropertyInfo,
-	&ConstructionCall_t4604____CallSiteActivationAttributes_PropertyInfo,
-	&ConstructionCall_t4604____ContextProperties_PropertyInfo,
-	&ConstructionCall_t4604____Properties_PropertyInfo,
+	&ConstructionCall_t4607____IsContextOk_PropertyInfo,
+	&ConstructionCall_t4607____ActivationType_PropertyInfo,
+	&ConstructionCall_t4607____ActivationTypeName_PropertyInfo,
+	&ConstructionCall_t4607____Activator_PropertyInfo,
+	&ConstructionCall_t4607____CallSiteActivationAttributes_PropertyInfo,
+	&ConstructionCall_t4607____ContextProperties_PropertyInfo,
+	&ConstructionCall_t4607____Properties_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ConstructionCall_GetObjectData_m18240_MethodInfo;
-extern const MethodInfo MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18259_MethodInfo;
-extern const MethodInfo MethodCall_get_Args_m18262_MethodInfo;
-extern const MethodInfo MethodCall_get_LogicalCallContext_m18263_MethodInfo;
-extern const MethodInfo MethodCall_get_MethodBase_m18264_MethodInfo;
-extern const MethodInfo MethodCall_get_MethodName_m18265_MethodInfo;
-extern const MethodInfo MethodCall_get_MethodSignature_m18266_MethodInfo;
-extern const MethodInfo MethodCall_get_TypeName_m18269_MethodInfo;
-extern const MethodInfo MethodCall_get_Uri_m18270_MethodInfo;
-extern const MethodInfo ConstructionCall_InitMethodProperty_m18239_MethodInfo;
-extern const MethodInfo ConstructionCall_InitDictionary_m18230_MethodInfo;
-extern const MethodInfo MethodCall_set_Uri_m18271_MethodInfo;
-extern const MethodInfo MethodCall_Init_m18272_MethodInfo;
-static const Il2CppMethodReference ConstructionCall_t4604_VTable[] =
+extern const MethodInfo ConstructionCall_GetObjectData_m18272_MethodInfo;
+extern const MethodInfo MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18291_MethodInfo;
+extern const MethodInfo MethodCall_get_Args_m18294_MethodInfo;
+extern const MethodInfo MethodCall_get_LogicalCallContext_m18295_MethodInfo;
+extern const MethodInfo MethodCall_get_MethodBase_m18296_MethodInfo;
+extern const MethodInfo MethodCall_get_MethodName_m18297_MethodInfo;
+extern const MethodInfo MethodCall_get_MethodSignature_m18298_MethodInfo;
+extern const MethodInfo MethodCall_get_TypeName_m18301_MethodInfo;
+extern const MethodInfo MethodCall_get_Uri_m18302_MethodInfo;
+extern const MethodInfo ConstructionCall_InitMethodProperty_m18271_MethodInfo;
+extern const MethodInfo ConstructionCall_InitDictionary_m18262_MethodInfo;
+extern const MethodInfo MethodCall_set_Uri_m18303_MethodInfo;
+extern const MethodInfo MethodCall_Init_m18304_MethodInfo;
+static const Il2CppMethodReference ConstructionCall_t4607_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ConstructionCall_GetObjectData_m18240_MethodInfo,
-	&MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18259_MethodInfo,
-	&MethodCall_get_Args_m18262_MethodInfo,
-	&MethodCall_get_LogicalCallContext_m18263_MethodInfo,
-	&MethodCall_get_MethodBase_m18264_MethodInfo,
-	&MethodCall_get_MethodName_m18265_MethodInfo,
-	&MethodCall_get_MethodSignature_m18266_MethodInfo,
-	&MethodCall_get_TypeName_m18269_MethodInfo,
-	&MethodCall_get_Uri_m18270_MethodInfo,
-	&ConstructionCall_InitMethodProperty_m18239_MethodInfo,
-	&ConstructionCall_GetObjectData_m18240_MethodInfo,
-	&ConstructionCall_get_Properties_m18241_MethodInfo,
-	&ConstructionCall_InitDictionary_m18230_MethodInfo,
-	&MethodCall_set_Uri_m18271_MethodInfo,
-	&MethodCall_Init_m18272_MethodInfo,
-	&ConstructionCall_get_ActivationType_m18232_MethodInfo,
-	&ConstructionCall_get_ActivationTypeName_m18233_MethodInfo,
-	&ConstructionCall_get_Activator_m18234_MethodInfo,
-	&ConstructionCall_set_Activator_m18235_MethodInfo,
-	&ConstructionCall_get_CallSiteActivationAttributes_m18236_MethodInfo,
-	&ConstructionCall_get_ContextProperties_m18238_MethodInfo,
+	&ConstructionCall_GetObjectData_m18272_MethodInfo,
+	&MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18291_MethodInfo,
+	&MethodCall_get_Args_m18294_MethodInfo,
+	&MethodCall_get_LogicalCallContext_m18295_MethodInfo,
+	&MethodCall_get_MethodBase_m18296_MethodInfo,
+	&MethodCall_get_MethodName_m18297_MethodInfo,
+	&MethodCall_get_MethodSignature_m18298_MethodInfo,
+	&MethodCall_get_TypeName_m18301_MethodInfo,
+	&MethodCall_get_Uri_m18302_MethodInfo,
+	&ConstructionCall_InitMethodProperty_m18271_MethodInfo,
+	&ConstructionCall_GetObjectData_m18272_MethodInfo,
+	&ConstructionCall_get_Properties_m18273_MethodInfo,
+	&ConstructionCall_InitDictionary_m18262_MethodInfo,
+	&MethodCall_set_Uri_m18303_MethodInfo,
+	&MethodCall_Init_m18304_MethodInfo,
+	&ConstructionCall_get_ActivationType_m18264_MethodInfo,
+	&ConstructionCall_get_ActivationTypeName_m18265_MethodInfo,
+	&ConstructionCall_get_Activator_m18266_MethodInfo,
+	&ConstructionCall_set_Activator_m18267_MethodInfo,
+	&ConstructionCall_get_CallSiteActivationAttributes_m18268_MethodInfo,
+	&ConstructionCall_get_ContextProperties_m18270_MethodInfo,
 };
-static bool ConstructionCall_t4604_VTableIsGenericMethod[] =
+static bool ConstructionCall_t4607_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7153,58 +7153,58 @@ static bool ConstructionCall_t4604_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* ConstructionCall_t4604_InterfacesTypeInfos[] = 
+static const Il2CppType* ConstructionCall_t4607_InterfacesTypeInfos[] = 
 {
-	&IConstructionCallMessage_t4876_0_0_0,
-	&IMessage_t4603_0_0_0,
-	&IMethodCallMessage_t4880_0_0_0,
-	&IMethodMessage_t4614_0_0_0,
+	&IConstructionCallMessage_t4879_0_0_0,
+	&IMessage_t4606_0_0_0,
+	&IMethodCallMessage_t4883_0_0_0,
+	&IMethodMessage_t4617_0_0_0,
 };
-extern const Il2CppType ISerializable_t817_0_0_0;
-extern const Il2CppType IInternalMessage_t4890_0_0_0;
-extern const Il2CppType ISerializationRootObject_t4969_0_0_0;
-static Il2CppInterfaceOffsetPair ConstructionCall_t4604_InterfacesOffsets[] = 
+extern const Il2CppType ISerializable_t820_0_0_0;
+extern const Il2CppType IInternalMessage_t4893_0_0_0;
+extern const Il2CppType ISerializationRootObject_t4972_0_0_0;
+static Il2CppInterfaceOffsetPair ConstructionCall_t4607_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t817_0_0_0, 4},
-	{ &IInternalMessage_t4890_0_0_0, 5},
-	{ &IMessage_t4603_0_0_0, 6},
-	{ &IMethodCallMessage_t4880_0_0_0, 6},
-	{ &IMethodMessage_t4614_0_0_0, 6},
-	{ &ISerializationRootObject_t4969_0_0_0, 13},
-	{ &IConstructionCallMessage_t4876_0_0_0, 19},
+	{ &ISerializable_t820_0_0_0, 4},
+	{ &IInternalMessage_t4893_0_0_0, 5},
+	{ &IMessage_t4606_0_0_0, 6},
+	{ &IMethodCallMessage_t4883_0_0_0, 6},
+	{ &IMethodMessage_t4617_0_0_0, 6},
+	{ &ISerializationRootObject_t4972_0_0_0, 13},
+	{ &IConstructionCallMessage_t4879_0_0_0, 19},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ConstructionCall_t4604_1_0_0;
-extern const Il2CppType MethodCall_t4605_0_0_0;
-struct ConstructionCall_t4604;
-const Il2CppTypeDefinitionMetadata ConstructionCall_t4604_DefinitionMetadata = 
+extern const Il2CppType ConstructionCall_t4607_1_0_0;
+extern const Il2CppType MethodCall_t4608_0_0_0;
+struct ConstructionCall_t4607;
+const Il2CppTypeDefinitionMetadata ConstructionCall_t4607_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ConstructionCall_t4604_InterfacesTypeInfos/* implementedInterfaces */
-	, ConstructionCall_t4604_InterfacesOffsets/* interfaceOffsets */
-	, &MethodCall_t4605_0_0_0/* parent */
-	, ConstructionCall_t4604_VTable/* vtableMethods */
-	, ConstructionCall_t4604_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConstructionCall_t4607_InterfacesTypeInfos/* implementedInterfaces */
+	, ConstructionCall_t4607_InterfacesOffsets/* interfaceOffsets */
+	, &MethodCall_t4608_0_0_0/* parent */
+	, ConstructionCall_t4607_VTable/* vtableMethods */
+	, ConstructionCall_t4607_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1570/* fieldStart */
 
 };
-TypeInfo ConstructionCall_t4604_il2cpp_TypeInfo = 
+TypeInfo ConstructionCall_t4607_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConstructionCall"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, ConstructionCall_t4604_MethodInfos/* methods */
-	, ConstructionCall_t4604_PropertyInfos/* properties */
+	, ConstructionCall_t4607_MethodInfos/* methods */
+	, ConstructionCall_t4607_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConstructionCall_t4604_il2cpp_TypeInfo/* element_class */
+	, &ConstructionCall_t4607_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 541/* custom_attributes_cache */
-	, &ConstructionCall_t4604_0_0_0/* byval_arg */
-	, &ConstructionCall_t4604_1_0_0/* this_arg */
-	, &ConstructionCall_t4604_DefinitionMetadata/* definitionMetadata */
+	, &ConstructionCall_t4607_0_0_0/* byval_arg */
+	, &ConstructionCall_t4607_1_0_0/* this_arg */
+	, &ConstructionCall_t4607_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7214,11 +7214,11 @@ TypeInfo ConstructionCall_t4604_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConstructionCall_t4604)/* instance_size */
-	, sizeof (ConstructionCall_t4604)/* actualSize */
+	, sizeof (ConstructionCall_t4607)/* instance_size */
+	, sizeof (ConstructionCall_t4607)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ConstructionCall_t4604_StaticFields)/* static_fields_size */
+	, sizeof(ConstructionCall_t4607_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1056769/* flags */
@@ -7247,24 +7247,24 @@ TypeInfo ConstructionCall_t4604_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.ConstructionCallDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_ConstructionCallD.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.ConstructionCallDictionary
-extern TypeInfo ConstructionCallDictionary_t4606_il2cpp_TypeInfo;
+extern TypeInfo ConstructionCallDictionary_t4609_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.ConstructionCallDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_ConstructionCallDMethodDeclarations.h"
-extern const Il2CppType IConstructionCallMessage_t4876_0_0_0;
-static const ParameterInfo ConstructionCallDictionary_t4606_ConstructionCallDictionary__ctor_m18242_ParameterInfos[] = 
+extern const Il2CppType IConstructionCallMessage_t4879_0_0_0;
+static const ParameterInfo ConstructionCallDictionary_t4609_ConstructionCallDictionary__ctor_m18274_ParameterInfos[] = 
 {
-	{"message", 0, 134222132, 0, &IConstructionCallMessage_t4876_0_0_0},
+	{"message", 0, 134222132, 0, &IConstructionCallMessage_t4879_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCallDictionary::.ctor(System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern const MethodInfo ConstructionCallDictionary__ctor_m18242_MethodInfo = 
+extern const MethodInfo ConstructionCallDictionary__ctor_m18274_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ConstructionCallDictionary__ctor_m18242/* method */
-	, &ConstructionCallDictionary_t4606_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCallDictionary__ctor_m18274/* method */
+	, &ConstructionCallDictionary_t4609_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConstructionCallDictionary_t4606_ConstructionCallDictionary__ctor_m18242_ParameterInfos/* parameters */
+	, ConstructionCallDictionary_t4609_ConstructionCallDictionary__ctor_m18274_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -7280,11 +7280,11 @@ extern const MethodInfo ConstructionCallDictionary__ctor_m18242_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCallDictionary::.cctor()
-extern const MethodInfo ConstructionCallDictionary__cctor_m18243_MethodInfo = 
+extern const MethodInfo ConstructionCallDictionary__cctor_m18275_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&ConstructionCallDictionary__cctor_m18243/* method */
-	, &ConstructionCallDictionary_t4606_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCallDictionary__cctor_m18275/* method */
+	, &ConstructionCallDictionary_t4609_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -7302,20 +7302,20 @@ extern const MethodInfo ConstructionCallDictionary__cctor_m18243_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConstructionCallDictionary_t4606_ConstructionCallDictionary_GetMethodProperty_m18244_ParameterInfos[] = 
+static const ParameterInfo ConstructionCallDictionary_t4609_ConstructionCallDictionary_GetMethodProperty_m18276_ParameterInfos[] = 
 {
 	{"key", 0, 134222133, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.ConstructionCallDictionary::GetMethodProperty(System.String)
-extern const MethodInfo ConstructionCallDictionary_GetMethodProperty_m18244_MethodInfo = 
+extern const MethodInfo ConstructionCallDictionary_GetMethodProperty_m18276_MethodInfo = 
 {
 	"GetMethodProperty"/* name */
-	, (methodPointerType)&ConstructionCallDictionary_GetMethodProperty_m18244/* method */
-	, &ConstructionCallDictionary_t4606_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCallDictionary_GetMethodProperty_m18276/* method */
+	, &ConstructionCallDictionary_t4609_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConstructionCallDictionary_t4606_ConstructionCallDictionary_GetMethodProperty_m18244_ParameterInfos/* parameters */
+	, ConstructionCallDictionary_t4609_ConstructionCallDictionary_GetMethodProperty_m18276_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -7331,21 +7331,21 @@ extern const MethodInfo ConstructionCallDictionary_GetMethodProperty_m18244_Meth
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConstructionCallDictionary_t4606_ConstructionCallDictionary_SetMethodProperty_m18245_ParameterInfos[] = 
+static const ParameterInfo ConstructionCallDictionary_t4609_ConstructionCallDictionary_SetMethodProperty_m18277_ParameterInfos[] = 
 {
 	{"key", 0, 134222134, 0, &String_t_0_0_0},
 	{"value", 1, 134222135, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ConstructionCallDictionary::SetMethodProperty(System.String,System.Object)
-extern const MethodInfo ConstructionCallDictionary_SetMethodProperty_m18245_MethodInfo = 
+extern const MethodInfo ConstructionCallDictionary_SetMethodProperty_m18277_MethodInfo = 
 {
 	"SetMethodProperty"/* name */
-	, (methodPointerType)&ConstructionCallDictionary_SetMethodProperty_m18245/* method */
-	, &ConstructionCallDictionary_t4606_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ConstructionCallDictionary_SetMethodProperty_m18277/* method */
+	, &ConstructionCallDictionary_t4609_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConstructionCallDictionary_t4606_ConstructionCallDictionary_SetMethodProperty_m18245_ParameterInfos/* parameters */
+	, ConstructionCallDictionary_t4609_ConstructionCallDictionary_SetMethodProperty_m18277_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -7359,54 +7359,54 @@ extern const MethodInfo ConstructionCallDictionary_SetMethodProperty_m18245_Meth
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConstructionCallDictionary_t4606_MethodInfos[] =
+static const MethodInfo* ConstructionCallDictionary_t4609_MethodInfos[] =
 {
-	&ConstructionCallDictionary__ctor_m18242_MethodInfo,
-	&ConstructionCallDictionary__cctor_m18243_MethodInfo,
-	&ConstructionCallDictionary_GetMethodProperty_m18244_MethodInfo,
-	&ConstructionCallDictionary_SetMethodProperty_m18245_MethodInfo,
+	&ConstructionCallDictionary__ctor_m18274_MethodInfo,
+	&ConstructionCallDictionary__cctor_m18275_MethodInfo,
+	&ConstructionCallDictionary_GetMethodProperty_m18276_MethodInfo,
+	&ConstructionCallDictionary_SetMethodProperty_m18277_MethodInfo,
 	NULL
 };
-extern const MethodInfo MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18287_MethodInfo;
-extern const MethodInfo MethodDictionary_get_Count_m18301_MethodInfo;
-extern const MethodInfo MethodDictionary_get_IsSynchronized_m18302_MethodInfo;
-extern const MethodInfo MethodDictionary_get_SyncRoot_m18303_MethodInfo;
-extern const MethodInfo MethodDictionary_CopyTo_m18304_MethodInfo;
-extern const MethodInfo MethodDictionary_get_Item_m18292_MethodInfo;
-extern const MethodInfo MethodDictionary_set_Item_m18293_MethodInfo;
-extern const MethodInfo MethodDictionary_get_Keys_m18296_MethodInfo;
-extern const MethodInfo MethodDictionary_Add_m18298_MethodInfo;
-extern const MethodInfo MethodDictionary_Contains_m18299_MethodInfo;
-extern const MethodInfo MethodDictionary_GetEnumerator_m18305_MethodInfo;
-extern const MethodInfo MethodDictionary_Remove_m18300_MethodInfo;
-extern const MethodInfo MethodDictionary_AllocInternalProperties_m18289_MethodInfo;
-extern const MethodInfo ConstructionCallDictionary_GetMethodProperty_m18244_MethodInfo;
-extern const MethodInfo ConstructionCallDictionary_SetMethodProperty_m18245_MethodInfo;
-extern const MethodInfo MethodDictionary_get_Values_m18297_MethodInfo;
-static const Il2CppMethodReference ConstructionCallDictionary_t4606_VTable[] =
+extern const MethodInfo MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18319_MethodInfo;
+extern const MethodInfo MethodDictionary_get_Count_m18333_MethodInfo;
+extern const MethodInfo MethodDictionary_get_IsSynchronized_m18334_MethodInfo;
+extern const MethodInfo MethodDictionary_get_SyncRoot_m18335_MethodInfo;
+extern const MethodInfo MethodDictionary_CopyTo_m18336_MethodInfo;
+extern const MethodInfo MethodDictionary_get_Item_m18324_MethodInfo;
+extern const MethodInfo MethodDictionary_set_Item_m18325_MethodInfo;
+extern const MethodInfo MethodDictionary_get_Keys_m18328_MethodInfo;
+extern const MethodInfo MethodDictionary_Add_m18330_MethodInfo;
+extern const MethodInfo MethodDictionary_Contains_m18331_MethodInfo;
+extern const MethodInfo MethodDictionary_GetEnumerator_m18337_MethodInfo;
+extern const MethodInfo MethodDictionary_Remove_m18332_MethodInfo;
+extern const MethodInfo MethodDictionary_AllocInternalProperties_m18321_MethodInfo;
+extern const MethodInfo ConstructionCallDictionary_GetMethodProperty_m18276_MethodInfo;
+extern const MethodInfo ConstructionCallDictionary_SetMethodProperty_m18277_MethodInfo;
+extern const MethodInfo MethodDictionary_get_Values_m18329_MethodInfo;
+static const Il2CppMethodReference ConstructionCallDictionary_t4609_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18287_MethodInfo,
-	&MethodDictionary_get_Count_m18301_MethodInfo,
-	&MethodDictionary_get_IsSynchronized_m18302_MethodInfo,
-	&MethodDictionary_get_SyncRoot_m18303_MethodInfo,
-	&MethodDictionary_CopyTo_m18304_MethodInfo,
-	&MethodDictionary_get_Item_m18292_MethodInfo,
-	&MethodDictionary_set_Item_m18293_MethodInfo,
-	&MethodDictionary_get_Keys_m18296_MethodInfo,
-	&MethodDictionary_Add_m18298_MethodInfo,
-	&MethodDictionary_Contains_m18299_MethodInfo,
-	&MethodDictionary_GetEnumerator_m18305_MethodInfo,
-	&MethodDictionary_Remove_m18300_MethodInfo,
-	&MethodDictionary_AllocInternalProperties_m18289_MethodInfo,
-	&ConstructionCallDictionary_GetMethodProperty_m18244_MethodInfo,
-	&ConstructionCallDictionary_SetMethodProperty_m18245_MethodInfo,
-	&MethodDictionary_get_Values_m18297_MethodInfo,
+	&MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18319_MethodInfo,
+	&MethodDictionary_get_Count_m18333_MethodInfo,
+	&MethodDictionary_get_IsSynchronized_m18334_MethodInfo,
+	&MethodDictionary_get_SyncRoot_m18335_MethodInfo,
+	&MethodDictionary_CopyTo_m18336_MethodInfo,
+	&MethodDictionary_get_Item_m18324_MethodInfo,
+	&MethodDictionary_set_Item_m18325_MethodInfo,
+	&MethodDictionary_get_Keys_m18328_MethodInfo,
+	&MethodDictionary_Add_m18330_MethodInfo,
+	&MethodDictionary_Contains_m18331_MethodInfo,
+	&MethodDictionary_GetEnumerator_m18337_MethodInfo,
+	&MethodDictionary_Remove_m18332_MethodInfo,
+	&MethodDictionary_AllocInternalProperties_m18321_MethodInfo,
+	&ConstructionCallDictionary_GetMethodProperty_m18276_MethodInfo,
+	&ConstructionCallDictionary_SetMethodProperty_m18277_MethodInfo,
+	&MethodDictionary_get_Values_m18329_MethodInfo,
 };
-static bool ConstructionCallDictionary_t4606_VTableIsGenericMethod[] =
+static bool ConstructionCallDictionary_t4609_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7430,46 +7430,46 @@ static bool ConstructionCallDictionary_t4606_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType IEnumerable_t104_0_0_0;
-extern const Il2CppType ICollection_t752_0_0_0;
-static Il2CppInterfaceOffsetPair ConstructionCallDictionary_t4606_InterfacesOffsets[] = 
+extern const Il2CppType ICollection_t755_0_0_0;
+static Il2CppInterfaceOffsetPair ConstructionCallDictionary_t4609_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t752_0_0_0, 5},
-	{ &IDictionary_t683_0_0_0, 9},
+	{ &ICollection_t755_0_0_0, 5},
+	{ &IDictionary_t686_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ConstructionCallDictionary_t4606_0_0_0;
-extern const Il2CppType ConstructionCallDictionary_t4606_1_0_0;
-extern const Il2CppType MethodDictionary_t4607_0_0_0;
-struct ConstructionCallDictionary_t4606;
-const Il2CppTypeDefinitionMetadata ConstructionCallDictionary_t4606_DefinitionMetadata = 
+extern const Il2CppType ConstructionCallDictionary_t4609_0_0_0;
+extern const Il2CppType ConstructionCallDictionary_t4609_1_0_0;
+extern const Il2CppType MethodDictionary_t4610_0_0_0;
+struct ConstructionCallDictionary_t4609;
+const Il2CppTypeDefinitionMetadata ConstructionCallDictionary_t4609_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConstructionCallDictionary_t4606_InterfacesOffsets/* interfaceOffsets */
-	, &MethodDictionary_t4607_0_0_0/* parent */
-	, ConstructionCallDictionary_t4606_VTable/* vtableMethods */
-	, ConstructionCallDictionary_t4606_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConstructionCallDictionary_t4609_InterfacesOffsets/* interfaceOffsets */
+	, &MethodDictionary_t4610_0_0_0/* parent */
+	, ConstructionCallDictionary_t4609_VTable/* vtableMethods */
+	, ConstructionCallDictionary_t4609_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1577/* fieldStart */
 
 };
-TypeInfo ConstructionCallDictionary_t4606_il2cpp_TypeInfo = 
+TypeInfo ConstructionCallDictionary_t4609_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConstructionCallDictionary"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, ConstructionCallDictionary_t4606_MethodInfos/* methods */
+	, ConstructionCallDictionary_t4609_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ConstructionCallDictionary_t4606_il2cpp_TypeInfo/* element_class */
+	, &ConstructionCallDictionary_t4609_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConstructionCallDictionary_t4606_0_0_0/* byval_arg */
-	, &ConstructionCallDictionary_t4606_1_0_0/* this_arg */
-	, &ConstructionCallDictionary_t4606_DefinitionMetadata/* definitionMetadata */
+	, &ConstructionCallDictionary_t4609_0_0_0/* byval_arg */
+	, &ConstructionCallDictionary_t4609_1_0_0/* this_arg */
+	, &ConstructionCallDictionary_t4609_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7479,11 +7479,11 @@ TypeInfo ConstructionCallDictionary_t4606_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConstructionCallDictionary_t4606)/* instance_size */
-	, sizeof (ConstructionCallDictionary_t4606)/* actualSize */
+	, sizeof (ConstructionCallDictionary_t4609)/* instance_size */
+	, sizeof (ConstructionCallDictionary_t4609)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ConstructionCallDictionary_t4606_StaticFields)/* static_fields_size */
+	, sizeof(ConstructionCallDictionary_t4609_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -7512,16 +7512,16 @@ TypeInfo ConstructionCallDictionary_t4606_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.EnvoyTerminatorSink
 #include "mscorlib_System_Runtime_Remoting_Messaging_EnvoyTerminatorSi.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.EnvoyTerminatorSink
-extern TypeInfo EnvoyTerminatorSink_t4608_il2cpp_TypeInfo;
+extern TypeInfo EnvoyTerminatorSink_t4611_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.EnvoyTerminatorSink
 #include "mscorlib_System_Runtime_Remoting_Messaging_EnvoyTerminatorSiMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.EnvoyTerminatorSink::.ctor()
-extern const MethodInfo EnvoyTerminatorSink__ctor_m18246_MethodInfo = 
+extern const MethodInfo EnvoyTerminatorSink__ctor_m18278_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EnvoyTerminatorSink__ctor_m18246/* method */
-	, &EnvoyTerminatorSink_t4608_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&EnvoyTerminatorSink__ctor_m18278/* method */
+	, &EnvoyTerminatorSink_t4611_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -7540,11 +7540,11 @@ extern const MethodInfo EnvoyTerminatorSink__ctor_m18246_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.EnvoyTerminatorSink::.cctor()
-extern const MethodInfo EnvoyTerminatorSink__cctor_m18247_MethodInfo = 
+extern const MethodInfo EnvoyTerminatorSink__cctor_m18279_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&EnvoyTerminatorSink__cctor_m18247/* method */
-	, &EnvoyTerminatorSink_t4608_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&EnvoyTerminatorSink__cctor_m18279/* method */
+	, &EnvoyTerminatorSink_t4611_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -7561,66 +7561,66 @@ extern const MethodInfo EnvoyTerminatorSink__cctor_m18247_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* EnvoyTerminatorSink_t4608_MethodInfos[] =
+static const MethodInfo* EnvoyTerminatorSink_t4611_MethodInfos[] =
 {
-	&EnvoyTerminatorSink__ctor_m18246_MethodInfo,
-	&EnvoyTerminatorSink__cctor_m18247_MethodInfo,
+	&EnvoyTerminatorSink__ctor_m18278_MethodInfo,
+	&EnvoyTerminatorSink__cctor_m18279_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference EnvoyTerminatorSink_t4608_VTable[] =
+static const Il2CppMethodReference EnvoyTerminatorSink_t4611_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool EnvoyTerminatorSink_t4608_VTableIsGenericMethod[] =
+static bool EnvoyTerminatorSink_t4611_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static const Il2CppType* EnvoyTerminatorSink_t4608_InterfacesTypeInfos[] = 
+static const Il2CppType* EnvoyTerminatorSink_t4611_InterfacesTypeInfos[] = 
 {
-	&IMessageSink_t3091_0_0_0,
+	&IMessageSink_t3094_0_0_0,
 };
-static Il2CppInterfaceOffsetPair EnvoyTerminatorSink_t4608_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair EnvoyTerminatorSink_t4611_InterfacesOffsets[] = 
 {
-	{ &IMessageSink_t3091_0_0_0, 4},
+	{ &IMessageSink_t3094_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType EnvoyTerminatorSink_t4608_0_0_0;
-extern const Il2CppType EnvoyTerminatorSink_t4608_1_0_0;
-struct EnvoyTerminatorSink_t4608;
-const Il2CppTypeDefinitionMetadata EnvoyTerminatorSink_t4608_DefinitionMetadata = 
+extern const Il2CppType EnvoyTerminatorSink_t4611_0_0_0;
+extern const Il2CppType EnvoyTerminatorSink_t4611_1_0_0;
+struct EnvoyTerminatorSink_t4611;
+const Il2CppTypeDefinitionMetadata EnvoyTerminatorSink_t4611_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, EnvoyTerminatorSink_t4608_InterfacesTypeInfos/* implementedInterfaces */
-	, EnvoyTerminatorSink_t4608_InterfacesOffsets/* interfaceOffsets */
+	, EnvoyTerminatorSink_t4611_InterfacesTypeInfos/* implementedInterfaces */
+	, EnvoyTerminatorSink_t4611_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, EnvoyTerminatorSink_t4608_VTable/* vtableMethods */
-	, EnvoyTerminatorSink_t4608_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, EnvoyTerminatorSink_t4611_VTable/* vtableMethods */
+	, EnvoyTerminatorSink_t4611_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1580/* fieldStart */
 
 };
-TypeInfo EnvoyTerminatorSink_t4608_il2cpp_TypeInfo = 
+TypeInfo EnvoyTerminatorSink_t4611_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "EnvoyTerminatorSink"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, EnvoyTerminatorSink_t4608_MethodInfos/* methods */
+	, EnvoyTerminatorSink_t4611_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &EnvoyTerminatorSink_t4608_il2cpp_TypeInfo/* element_class */
+	, &EnvoyTerminatorSink_t4611_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &EnvoyTerminatorSink_t4608_0_0_0/* byval_arg */
-	, &EnvoyTerminatorSink_t4608_1_0_0/* this_arg */
-	, &EnvoyTerminatorSink_t4608_DefinitionMetadata/* definitionMetadata */
+	, &EnvoyTerminatorSink_t4611_0_0_0/* byval_arg */
+	, &EnvoyTerminatorSink_t4611_1_0_0/* this_arg */
+	, &EnvoyTerminatorSink_t4611_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7630,11 +7630,11 @@ TypeInfo EnvoyTerminatorSink_t4608_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (EnvoyTerminatorSink_t4608)/* instance_size */
-	, sizeof (EnvoyTerminatorSink_t4608)/* actualSize */
+	, sizeof (EnvoyTerminatorSink_t4611)/* instance_size */
+	, sizeof (EnvoyTerminatorSink_t4611)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(EnvoyTerminatorSink_t4608_StaticFields)/* static_fields_size */
+	, sizeof(EnvoyTerminatorSink_t4611_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1056768/* flags */
@@ -7663,26 +7663,26 @@ TypeInfo EnvoyTerminatorSink_t4608_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.Header
 #include "mscorlib_System_Runtime_Remoting_Messaging_Header.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.Header
-extern TypeInfo Header_t4609_il2cpp_TypeInfo;
+extern TypeInfo Header_t4612_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.Header
 #include "mscorlib_System_Runtime_Remoting_Messaging_HeaderMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo Header_t4609_Header__ctor_m18248_ParameterInfos[] = 
+static const ParameterInfo Header_t4612_Header__ctor_m18280_ParameterInfos[] = 
 {
 	{"_Name", 0, 134222136, 0, &String_t_0_0_0},
 	{"_Value", 1, 134222137, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.Header::.ctor(System.String,System.Object)
-extern const MethodInfo Header__ctor_m18248_MethodInfo = 
+extern const MethodInfo Header__ctor_m18280_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Header__ctor_m18248/* method */
-	, &Header_t4609_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&Header__ctor_m18280/* method */
+	, &Header_t4612_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, Header_t4609_Header__ctor_m18248_ParameterInfos/* parameters */
+	, Header_t4612_Header__ctor_m18280_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -7699,7 +7699,7 @@ extern const MethodInfo Header__ctor_m18248_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Header_t4609_Header__ctor_m18249_ParameterInfos[] = 
+static const ParameterInfo Header_t4612_Header__ctor_m18281_ParameterInfos[] = 
 {
 	{"_Name", 0, 134222138, 0, &String_t_0_0_0},
 	{"_Value", 1, 134222139, 0, &Object_t_0_0_0},
@@ -7707,14 +7707,14 @@ static const ParameterInfo Header_t4609_Header__ctor_m18249_ParameterInfos[] =
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.Header::.ctor(System.String,System.Object,System.Boolean)
-extern const MethodInfo Header__ctor_m18249_MethodInfo = 
+extern const MethodInfo Header__ctor_m18281_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Header__ctor_m18249/* method */
-	, &Header_t4609_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&Header__ctor_m18281/* method */
+	, &Header_t4612_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88/* invoker_method */
-	, Header_t4609_Header__ctor_m18249_ParameterInfos/* parameters */
+	, Header_t4612_Header__ctor_m18281_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -7732,7 +7732,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Header_t4609_Header__ctor_m18250_ParameterInfos[] = 
+static const ParameterInfo Header_t4612_Header__ctor_m18282_ParameterInfos[] = 
 {
 	{"_Name", 0, 134222141, 0, &String_t_0_0_0},
 	{"_Value", 1, 134222142, 0, &Object_t_0_0_0},
@@ -7741,14 +7741,14 @@ static const ParameterInfo Header_t4609_Header__ctor_m18250_ParameterInfos[] =
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.Header::.ctor(System.String,System.Object,System.Boolean,System.String)
-extern const MethodInfo Header__ctor_m18250_MethodInfo = 
+extern const MethodInfo Header__ctor_m18282_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Header__ctor_m18250/* method */
-	, &Header_t4609_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&Header__ctor_m18282/* method */
+	, &Header_t4612_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88_Object_t/* invoker_method */
-	, Header_t4609_Header__ctor_m18250_ParameterInfos/* parameters */
+	, Header_t4612_Header__ctor_m18282_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -7762,21 +7762,21 @@ extern const MethodInfo Header__ctor_m18250_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* Header_t4609_MethodInfos[] =
+static const MethodInfo* Header_t4612_MethodInfos[] =
 {
-	&Header__ctor_m18248_MethodInfo,
-	&Header__ctor_m18249_MethodInfo,
-	&Header__ctor_m18250_MethodInfo,
+	&Header__ctor_m18280_MethodInfo,
+	&Header__ctor_m18281_MethodInfo,
+	&Header__ctor_m18282_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference Header_t4609_VTable[] =
+static const Il2CppMethodReference Header_t4612_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool Header_t4609_VTableIsGenericMethod[] =
+static bool Header_t4612_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7784,37 +7784,37 @@ static bool Header_t4609_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Header_t4609_0_0_0;
-extern const Il2CppType Header_t4609_1_0_0;
-struct Header_t4609;
-const Il2CppTypeDefinitionMetadata Header_t4609_DefinitionMetadata = 
+extern const Il2CppType Header_t4612_0_0_0;
+extern const Il2CppType Header_t4612_1_0_0;
+struct Header_t4612;
+const Il2CppTypeDefinitionMetadata Header_t4612_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, Header_t4609_VTable/* vtableMethods */
-	, Header_t4609_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, Header_t4612_VTable/* vtableMethods */
+	, Header_t4612_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1581/* fieldStart */
 
 };
-TypeInfo Header_t4609_il2cpp_TypeInfo = 
+TypeInfo Header_t4612_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Header"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, Header_t4609_MethodInfos/* methods */
+	, Header_t4612_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &Header_t4609_il2cpp_TypeInfo/* element_class */
+	, &Header_t4612_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 545/* custom_attributes_cache */
-	, &Header_t4609_0_0_0/* byval_arg */
-	, &Header_t4609_1_0_0/* this_arg */
-	, &Header_t4609_DefinitionMetadata/* definitionMetadata */
+	, &Header_t4612_0_0_0/* byval_arg */
+	, &Header_t4612_1_0_0/* this_arg */
+	, &Header_t4612_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7824,8 +7824,8 @@ TypeInfo Header_t4609_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Header_t4609)/* instance_size */
-	, sizeof (Header_t4609)/* actualSize */
+	, sizeof (Header_t4612)/* instance_size */
+	, sizeof (Header_t4612)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7855,22 +7855,22 @@ TypeInfo Header_t4609_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Messaging.IInternalMessage
-extern TypeInfo IInternalMessage_t4890_il2cpp_TypeInfo;
+extern TypeInfo IInternalMessage_t4893_il2cpp_TypeInfo;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo IInternalMessage_t4890_IInternalMessage_set_Uri_m20739_ParameterInfos[] = 
+static const ParameterInfo IInternalMessage_t4893_IInternalMessage_set_Uri_m20771_ParameterInfos[] = 
 {
 	{"value", 0, 134222145, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.IInternalMessage::set_Uri(System.String)
-extern const MethodInfo IInternalMessage_set_Uri_m20739_MethodInfo = 
+extern const MethodInfo IInternalMessage_set_Uri_m20771_MethodInfo = 
 {
 	"set_Uri"/* name */
 	, NULL/* method */
-	, &IInternalMessage_t4890_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalMessage_t4893_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, IInternalMessage_t4890_IInternalMessage_set_Uri_m20739_ParameterInfos/* parameters */
+	, IInternalMessage_t4893_IInternalMessage_set_Uri_m20771_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 3526/* flags */
 	, 0/* iflags */
@@ -7884,31 +7884,31 @@ extern const MethodInfo IInternalMessage_set_Uri_m20739_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IInternalMessage_t4890_MethodInfos[] =
+static const MethodInfo* IInternalMessage_t4893_MethodInfos[] =
 {
-	&IInternalMessage_set_Uri_m20739_MethodInfo,
+	&IInternalMessage_set_Uri_m20771_MethodInfo,
 	NULL
 };
-extern const MethodInfo IInternalMessage_set_Uri_m20739_MethodInfo;
-static const PropertyInfo IInternalMessage_t4890____Uri_PropertyInfo = 
+extern const MethodInfo IInternalMessage_set_Uri_m20771_MethodInfo;
+static const PropertyInfo IInternalMessage_t4893____Uri_PropertyInfo = 
 {
-	&IInternalMessage_t4890_il2cpp_TypeInfo/* parent */
+	&IInternalMessage_t4893_il2cpp_TypeInfo/* parent */
 	, "Uri"/* name */
 	, NULL/* get */
-	, &IInternalMessage_set_Uri_m20739_MethodInfo/* set */
+	, &IInternalMessage_set_Uri_m20771_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IInternalMessage_t4890_PropertyInfos[] =
+static const PropertyInfo* IInternalMessage_t4893_PropertyInfos[] =
 {
-	&IInternalMessage_t4890____Uri_PropertyInfo,
+	&IInternalMessage_t4893____Uri_PropertyInfo,
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IInternalMessage_t4890_1_0_0;
-struct IInternalMessage_t4890;
-const Il2CppTypeDefinitionMetadata IInternalMessage_t4890_DefinitionMetadata = 
+extern const Il2CppType IInternalMessage_t4893_1_0_0;
+struct IInternalMessage_t4893;
+const Il2CppTypeDefinitionMetadata IInternalMessage_t4893_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -7921,21 +7921,21 @@ const Il2CppTypeDefinitionMetadata IInternalMessage_t4890_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IInternalMessage_t4890_il2cpp_TypeInfo = 
+TypeInfo IInternalMessage_t4893_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IInternalMessage"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, IInternalMessage_t4890_MethodInfos/* methods */
-	, IInternalMessage_t4890_PropertyInfos/* properties */
+	, IInternalMessage_t4893_MethodInfos/* methods */
+	, IInternalMessage_t4893_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IInternalMessage_t4890_il2cpp_TypeInfo/* element_class */
+	, &IInternalMessage_t4893_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &IInternalMessage_t4890_0_0_0/* byval_arg */
-	, &IInternalMessage_t4890_1_0_0/* this_arg */
-	, &IInternalMessage_t4890_DefinitionMetadata/* definitionMetadata */
+	, &IInternalMessage_t4893_0_0_0/* byval_arg */
+	, &IInternalMessage_t4893_1_0_0/* this_arg */
+	, &IInternalMessage_t4893_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7976,15 +7976,15 @@ TypeInfo IInternalMessage_t4890_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Messaging.IMessage
-extern TypeInfo IMessage_t4603_il2cpp_TypeInfo;
-static const MethodInfo* IMessage_t4603_MethodInfos[] =
+extern TypeInfo IMessage_t4606_il2cpp_TypeInfo;
+static const MethodInfo* IMessage_t4606_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IMessage_t4603_1_0_0;
-struct IMessage_t4603;
-const Il2CppTypeDefinitionMetadata IMessage_t4603_DefinitionMetadata = 
+extern const Il2CppType IMessage_t4606_1_0_0;
+struct IMessage_t4606;
+const Il2CppTypeDefinitionMetadata IMessage_t4606_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -7997,21 +7997,21 @@ const Il2CppTypeDefinitionMetadata IMessage_t4603_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IMessage_t4603_il2cpp_TypeInfo = 
+TypeInfo IMessage_t4606_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IMessage"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, IMessage_t4603_MethodInfos/* methods */
+	, IMessage_t4606_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IMessage_t4603_il2cpp_TypeInfo/* element_class */
+	, &IMessage_t4606_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 546/* custom_attributes_cache */
-	, &IMessage_t4603_0_0_0/* byval_arg */
-	, &IMessage_t4603_1_0_0/* this_arg */
-	, &IMessage_t4603_DefinitionMetadata/* definitionMetadata */
+	, &IMessage_t4606_0_0_0/* byval_arg */
+	, &IMessage_t4606_1_0_0/* this_arg */
+	, &IMessage_t4606_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8052,15 +8052,15 @@ TypeInfo IMessage_t4603_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Messaging.IMessageCtrl
-extern TypeInfo IMessageCtrl_t4602_il2cpp_TypeInfo;
-static const MethodInfo* IMessageCtrl_t4602_MethodInfos[] =
+extern TypeInfo IMessageCtrl_t4605_il2cpp_TypeInfo;
+static const MethodInfo* IMessageCtrl_t4605_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IMessageCtrl_t4602_1_0_0;
-struct IMessageCtrl_t4602;
-const Il2CppTypeDefinitionMetadata IMessageCtrl_t4602_DefinitionMetadata = 
+extern const Il2CppType IMessageCtrl_t4605_1_0_0;
+struct IMessageCtrl_t4605;
+const Il2CppTypeDefinitionMetadata IMessageCtrl_t4605_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -8073,21 +8073,21 @@ const Il2CppTypeDefinitionMetadata IMessageCtrl_t4602_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IMessageCtrl_t4602_il2cpp_TypeInfo = 
+TypeInfo IMessageCtrl_t4605_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IMessageCtrl"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, IMessageCtrl_t4602_MethodInfos/* methods */
+	, IMessageCtrl_t4605_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IMessageCtrl_t4602_il2cpp_TypeInfo/* element_class */
+	, &IMessageCtrl_t4605_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 547/* custom_attributes_cache */
-	, &IMessageCtrl_t4602_0_0_0/* byval_arg */
-	, &IMessageCtrl_t4602_1_0_0/* this_arg */
-	, &IMessageCtrl_t4602_DefinitionMetadata/* definitionMetadata */
+	, &IMessageCtrl_t4605_0_0_0/* byval_arg */
+	, &IMessageCtrl_t4605_1_0_0/* this_arg */
+	, &IMessageCtrl_t4605_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8128,15 +8128,15 @@ TypeInfo IMessageCtrl_t4602_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Messaging.IMessageSink
-extern TypeInfo IMessageSink_t3091_il2cpp_TypeInfo;
-static const MethodInfo* IMessageSink_t3091_MethodInfos[] =
+extern TypeInfo IMessageSink_t3094_il2cpp_TypeInfo;
+static const MethodInfo* IMessageSink_t3094_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IMessageSink_t3091_1_0_0;
-struct IMessageSink_t3091;
-const Il2CppTypeDefinitionMetadata IMessageSink_t3091_DefinitionMetadata = 
+extern const Il2CppType IMessageSink_t3094_1_0_0;
+struct IMessageSink_t3094;
+const Il2CppTypeDefinitionMetadata IMessageSink_t3094_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -8149,21 +8149,21 @@ const Il2CppTypeDefinitionMetadata IMessageSink_t3091_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IMessageSink_t3091_il2cpp_TypeInfo = 
+TypeInfo IMessageSink_t3094_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IMessageSink"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, IMessageSink_t3091_MethodInfos/* methods */
+	, IMessageSink_t3094_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IMessageSink_t3091_il2cpp_TypeInfo/* element_class */
+	, &IMessageSink_t3094_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 548/* custom_attributes_cache */
-	, &IMessageSink_t3091_0_0_0/* byval_arg */
-	, &IMessageSink_t3091_1_0_0/* this_arg */
-	, &IMessageSink_t3091_DefinitionMetadata/* definitionMetadata */
+	, &IMessageSink_t3094_0_0_0/* byval_arg */
+	, &IMessageSink_t3094_1_0_0/* this_arg */
+	, &IMessageSink_t3094_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8204,24 +8204,24 @@ TypeInfo IMessageSink_t3091_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Messaging.IMethodCallMessage
-extern TypeInfo IMethodCallMessage_t4880_il2cpp_TypeInfo;
-static const MethodInfo* IMethodCallMessage_t4880_MethodInfos[] =
+extern TypeInfo IMethodCallMessage_t4883_il2cpp_TypeInfo;
+static const MethodInfo* IMethodCallMessage_t4883_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppType* IMethodCallMessage_t4880_InterfacesTypeInfos[] = 
+static const Il2CppType* IMethodCallMessage_t4883_InterfacesTypeInfos[] = 
 {
-	&IMessage_t4603_0_0_0,
-	&IMethodMessage_t4614_0_0_0,
+	&IMessage_t4606_0_0_0,
+	&IMethodMessage_t4617_0_0_0,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IMethodCallMessage_t4880_1_0_0;
-struct IMethodCallMessage_t4880;
-const Il2CppTypeDefinitionMetadata IMethodCallMessage_t4880_DefinitionMetadata = 
+extern const Il2CppType IMethodCallMessage_t4883_1_0_0;
+struct IMethodCallMessage_t4883;
+const Il2CppTypeDefinitionMetadata IMethodCallMessage_t4883_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, IMethodCallMessage_t4880_InterfacesTypeInfos/* implementedInterfaces */
+	, IMethodCallMessage_t4883_InterfacesTypeInfos/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, NULL/* parent */
 	, NULL/* vtableMethods */
@@ -8230,21 +8230,21 @@ const Il2CppTypeDefinitionMetadata IMethodCallMessage_t4880_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IMethodCallMessage_t4880_il2cpp_TypeInfo = 
+TypeInfo IMethodCallMessage_t4883_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IMethodCallMessage"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, IMethodCallMessage_t4880_MethodInfos/* methods */
+	, IMethodCallMessage_t4883_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IMethodCallMessage_t4880_il2cpp_TypeInfo/* element_class */
+	, &IMethodCallMessage_t4883_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 549/* custom_attributes_cache */
-	, &IMethodCallMessage_t4880_0_0_0/* byval_arg */
-	, &IMethodCallMessage_t4880_1_0_0/* this_arg */
-	, &IMethodCallMessage_t4880_DefinitionMetadata/* definitionMetadata */
+	, &IMethodCallMessage_t4883_0_0_0/* byval_arg */
+	, &IMethodCallMessage_t4883_1_0_0/* this_arg */
+	, &IMethodCallMessage_t4883_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8285,15 +8285,15 @@ TypeInfo IMethodCallMessage_t4880_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Messaging.IMethodMessage
-extern TypeInfo IMethodMessage_t4614_il2cpp_TypeInfo;
+extern TypeInfo IMethodMessage_t4617_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Runtime.Remoting.Messaging.IMethodMessage::get_Args()
-extern const MethodInfo IMethodMessage_get_Args_m20740_MethodInfo = 
+extern const MethodInfo IMethodMessage_get_Args_m20772_MethodInfo = 
 {
 	"get_Args"/* name */
 	, NULL/* method */
-	, &IMethodMessage_t4614_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t680_0_0_0/* return_type */
+	, &IMethodMessage_t4617_il2cpp_TypeInfo/* declaring_type */
+	, &ObjectU5BU5D_t683_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -8309,15 +8309,15 @@ extern const MethodInfo IMethodMessage_get_Args_m20740_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType LogicalCallContext_t4611_0_0_0;
+extern const Il2CppType LogicalCallContext_t4614_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.LogicalCallContext System.Runtime.Remoting.Messaging.IMethodMessage::get_LogicalCallContext()
-extern const MethodInfo IMethodMessage_get_LogicalCallContext_m20741_MethodInfo = 
+extern const MethodInfo IMethodMessage_get_LogicalCallContext_m20773_MethodInfo = 
 {
 	"get_LogicalCallContext"/* name */
 	, NULL/* method */
-	, &IMethodMessage_t4614_il2cpp_TypeInfo/* declaring_type */
-	, &LogicalCallContext_t4611_0_0_0/* return_type */
+	, &IMethodMessage_t4617_il2cpp_TypeInfo/* declaring_type */
+	, &LogicalCallContext_t4614_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -8335,12 +8335,12 @@ extern const MethodInfo IMethodMessage_get_LogicalCallContext_m20741_MethodInfo 
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.MethodBase System.Runtime.Remoting.Messaging.IMethodMessage::get_MethodBase()
-extern const MethodInfo IMethodMessage_get_MethodBase_m20742_MethodInfo = 
+extern const MethodInfo IMethodMessage_get_MethodBase_m20774_MethodInfo = 
 {
 	"get_MethodBase"/* name */
 	, NULL/* method */
-	, &IMethodMessage_t4614_il2cpp_TypeInfo/* declaring_type */
-	, &MethodBase_t1523_0_0_0/* return_type */
+	, &IMethodMessage_t4617_il2cpp_TypeInfo/* declaring_type */
+	, &MethodBase_t1526_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -8358,11 +8358,11 @@ extern const MethodInfo IMethodMessage_get_MethodBase_m20742_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.IMethodMessage::get_MethodName()
-extern const MethodInfo IMethodMessage_get_MethodName_m20743_MethodInfo = 
+extern const MethodInfo IMethodMessage_get_MethodName_m20775_MethodInfo = 
 {
 	"get_MethodName"/* name */
 	, NULL/* method */
-	, &IMethodMessage_t4614_il2cpp_TypeInfo/* declaring_type */
+	, &IMethodMessage_t4617_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -8381,11 +8381,11 @@ extern const MethodInfo IMethodMessage_get_MethodName_m20743_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.IMethodMessage::get_MethodSignature()
-extern const MethodInfo IMethodMessage_get_MethodSignature_m20744_MethodInfo = 
+extern const MethodInfo IMethodMessage_get_MethodSignature_m20776_MethodInfo = 
 {
 	"get_MethodSignature"/* name */
 	, NULL/* method */
-	, &IMethodMessage_t4614_il2cpp_TypeInfo/* declaring_type */
+	, &IMethodMessage_t4617_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -8404,11 +8404,11 @@ extern const MethodInfo IMethodMessage_get_MethodSignature_m20744_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.IMethodMessage::get_TypeName()
-extern const MethodInfo IMethodMessage_get_TypeName_m20745_MethodInfo = 
+extern const MethodInfo IMethodMessage_get_TypeName_m20777_MethodInfo = 
 {
 	"get_TypeName"/* name */
 	, NULL/* method */
-	, &IMethodMessage_t4614_il2cpp_TypeInfo/* declaring_type */
+	, &IMethodMessage_t4617_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -8427,11 +8427,11 @@ extern const MethodInfo IMethodMessage_get_TypeName_m20745_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.IMethodMessage::get_Uri()
-extern const MethodInfo IMethodMessage_get_Uri_m20746_MethodInfo = 
+extern const MethodInfo IMethodMessage_get_Uri_m20778_MethodInfo = 
 {
 	"get_Uri"/* name */
 	, NULL/* method */
-	, &IMethodMessage_t4614_il2cpp_TypeInfo/* declaring_type */
+	, &IMethodMessage_t4617_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -8448,117 +8448,117 @@ extern const MethodInfo IMethodMessage_get_Uri_m20746_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IMethodMessage_t4614_MethodInfos[] =
+static const MethodInfo* IMethodMessage_t4617_MethodInfos[] =
 {
-	&IMethodMessage_get_Args_m20740_MethodInfo,
-	&IMethodMessage_get_LogicalCallContext_m20741_MethodInfo,
-	&IMethodMessage_get_MethodBase_m20742_MethodInfo,
-	&IMethodMessage_get_MethodName_m20743_MethodInfo,
-	&IMethodMessage_get_MethodSignature_m20744_MethodInfo,
-	&IMethodMessage_get_TypeName_m20745_MethodInfo,
-	&IMethodMessage_get_Uri_m20746_MethodInfo,
+	&IMethodMessage_get_Args_m20772_MethodInfo,
+	&IMethodMessage_get_LogicalCallContext_m20773_MethodInfo,
+	&IMethodMessage_get_MethodBase_m20774_MethodInfo,
+	&IMethodMessage_get_MethodName_m20775_MethodInfo,
+	&IMethodMessage_get_MethodSignature_m20776_MethodInfo,
+	&IMethodMessage_get_TypeName_m20777_MethodInfo,
+	&IMethodMessage_get_Uri_m20778_MethodInfo,
 	NULL
 };
-extern const MethodInfo IMethodMessage_get_Args_m20740_MethodInfo;
-static const PropertyInfo IMethodMessage_t4614____Args_PropertyInfo = 
+extern const MethodInfo IMethodMessage_get_Args_m20772_MethodInfo;
+static const PropertyInfo IMethodMessage_t4617____Args_PropertyInfo = 
 {
-	&IMethodMessage_t4614_il2cpp_TypeInfo/* parent */
+	&IMethodMessage_t4617_il2cpp_TypeInfo/* parent */
 	, "Args"/* name */
-	, &IMethodMessage_get_Args_m20740_MethodInfo/* get */
+	, &IMethodMessage_get_Args_m20772_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IMethodMessage_get_LogicalCallContext_m20741_MethodInfo;
-static const PropertyInfo IMethodMessage_t4614____LogicalCallContext_PropertyInfo = 
+extern const MethodInfo IMethodMessage_get_LogicalCallContext_m20773_MethodInfo;
+static const PropertyInfo IMethodMessage_t4617____LogicalCallContext_PropertyInfo = 
 {
-	&IMethodMessage_t4614_il2cpp_TypeInfo/* parent */
+	&IMethodMessage_t4617_il2cpp_TypeInfo/* parent */
 	, "LogicalCallContext"/* name */
-	, &IMethodMessage_get_LogicalCallContext_m20741_MethodInfo/* get */
+	, &IMethodMessage_get_LogicalCallContext_m20773_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IMethodMessage_get_MethodBase_m20742_MethodInfo;
-static const PropertyInfo IMethodMessage_t4614____MethodBase_PropertyInfo = 
+extern const MethodInfo IMethodMessage_get_MethodBase_m20774_MethodInfo;
+static const PropertyInfo IMethodMessage_t4617____MethodBase_PropertyInfo = 
 {
-	&IMethodMessage_t4614_il2cpp_TypeInfo/* parent */
+	&IMethodMessage_t4617_il2cpp_TypeInfo/* parent */
 	, "MethodBase"/* name */
-	, &IMethodMessage_get_MethodBase_m20742_MethodInfo/* get */
+	, &IMethodMessage_get_MethodBase_m20774_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IMethodMessage_get_MethodName_m20743_MethodInfo;
-static const PropertyInfo IMethodMessage_t4614____MethodName_PropertyInfo = 
+extern const MethodInfo IMethodMessage_get_MethodName_m20775_MethodInfo;
+static const PropertyInfo IMethodMessage_t4617____MethodName_PropertyInfo = 
 {
-	&IMethodMessage_t4614_il2cpp_TypeInfo/* parent */
+	&IMethodMessage_t4617_il2cpp_TypeInfo/* parent */
 	, "MethodName"/* name */
-	, &IMethodMessage_get_MethodName_m20743_MethodInfo/* get */
+	, &IMethodMessage_get_MethodName_m20775_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IMethodMessage_get_MethodSignature_m20744_MethodInfo;
-static const PropertyInfo IMethodMessage_t4614____MethodSignature_PropertyInfo = 
+extern const MethodInfo IMethodMessage_get_MethodSignature_m20776_MethodInfo;
+static const PropertyInfo IMethodMessage_t4617____MethodSignature_PropertyInfo = 
 {
-	&IMethodMessage_t4614_il2cpp_TypeInfo/* parent */
+	&IMethodMessage_t4617_il2cpp_TypeInfo/* parent */
 	, "MethodSignature"/* name */
-	, &IMethodMessage_get_MethodSignature_m20744_MethodInfo/* get */
+	, &IMethodMessage_get_MethodSignature_m20776_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IMethodMessage_get_TypeName_m20745_MethodInfo;
-static const PropertyInfo IMethodMessage_t4614____TypeName_PropertyInfo = 
+extern const MethodInfo IMethodMessage_get_TypeName_m20777_MethodInfo;
+static const PropertyInfo IMethodMessage_t4617____TypeName_PropertyInfo = 
 {
-	&IMethodMessage_t4614_il2cpp_TypeInfo/* parent */
+	&IMethodMessage_t4617_il2cpp_TypeInfo/* parent */
 	, "TypeName"/* name */
-	, &IMethodMessage_get_TypeName_m20745_MethodInfo/* get */
+	, &IMethodMessage_get_TypeName_m20777_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IMethodMessage_get_Uri_m20746_MethodInfo;
-static const PropertyInfo IMethodMessage_t4614____Uri_PropertyInfo = 
+extern const MethodInfo IMethodMessage_get_Uri_m20778_MethodInfo;
+static const PropertyInfo IMethodMessage_t4617____Uri_PropertyInfo = 
 {
-	&IMethodMessage_t4614_il2cpp_TypeInfo/* parent */
+	&IMethodMessage_t4617_il2cpp_TypeInfo/* parent */
 	, "Uri"/* name */
-	, &IMethodMessage_get_Uri_m20746_MethodInfo/* get */
+	, &IMethodMessage_get_Uri_m20778_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IMethodMessage_t4614_PropertyInfos[] =
+static const PropertyInfo* IMethodMessage_t4617_PropertyInfos[] =
 {
-	&IMethodMessage_t4614____Args_PropertyInfo,
-	&IMethodMessage_t4614____LogicalCallContext_PropertyInfo,
-	&IMethodMessage_t4614____MethodBase_PropertyInfo,
-	&IMethodMessage_t4614____MethodName_PropertyInfo,
-	&IMethodMessage_t4614____MethodSignature_PropertyInfo,
-	&IMethodMessage_t4614____TypeName_PropertyInfo,
-	&IMethodMessage_t4614____Uri_PropertyInfo,
+	&IMethodMessage_t4617____Args_PropertyInfo,
+	&IMethodMessage_t4617____LogicalCallContext_PropertyInfo,
+	&IMethodMessage_t4617____MethodBase_PropertyInfo,
+	&IMethodMessage_t4617____MethodName_PropertyInfo,
+	&IMethodMessage_t4617____MethodSignature_PropertyInfo,
+	&IMethodMessage_t4617____TypeName_PropertyInfo,
+	&IMethodMessage_t4617____Uri_PropertyInfo,
 	NULL
 };
-static const Il2CppType* IMethodMessage_t4614_InterfacesTypeInfos[] = 
+static const Il2CppType* IMethodMessage_t4617_InterfacesTypeInfos[] = 
 {
-	&IMessage_t4603_0_0_0,
+	&IMessage_t4606_0_0_0,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IMethodMessage_t4614_1_0_0;
-struct IMethodMessage_t4614;
-const Il2CppTypeDefinitionMetadata IMethodMessage_t4614_DefinitionMetadata = 
+extern const Il2CppType IMethodMessage_t4617_1_0_0;
+struct IMethodMessage_t4617;
+const Il2CppTypeDefinitionMetadata IMethodMessage_t4617_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, IMethodMessage_t4614_InterfacesTypeInfos/* implementedInterfaces */
+	, IMethodMessage_t4617_InterfacesTypeInfos/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, NULL/* parent */
 	, NULL/* vtableMethods */
@@ -8567,21 +8567,21 @@ const Il2CppTypeDefinitionMetadata IMethodMessage_t4614_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IMethodMessage_t4614_il2cpp_TypeInfo = 
+TypeInfo IMethodMessage_t4617_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IMethodMessage"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, IMethodMessage_t4614_MethodInfos/* methods */
-	, IMethodMessage_t4614_PropertyInfos/* properties */
+	, IMethodMessage_t4617_MethodInfos/* methods */
+	, IMethodMessage_t4617_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IMethodMessage_t4614_il2cpp_TypeInfo/* element_class */
+	, &IMethodMessage_t4617_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 550/* custom_attributes_cache */
-	, &IMethodMessage_t4614_0_0_0/* byval_arg */
-	, &IMethodMessage_t4614_1_0_0/* this_arg */
-	, &IMethodMessage_t4614_DefinitionMetadata/* definitionMetadata */
+	, &IMethodMessage_t4617_0_0_0/* byval_arg */
+	, &IMethodMessage_t4617_1_0_0/* this_arg */
+	, &IMethodMessage_t4617_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8622,15 +8622,15 @@ TypeInfo IMethodMessage_t4614_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Messaging.IMethodReturnMessage
-extern TypeInfo IMethodReturnMessage_t4879_il2cpp_TypeInfo;
+extern TypeInfo IMethodReturnMessage_t4882_il2cpp_TypeInfo;
 extern const Il2CppType Exception_t57_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Exception System.Runtime.Remoting.Messaging.IMethodReturnMessage::get_Exception()
-extern const MethodInfo IMethodReturnMessage_get_Exception_m20747_MethodInfo = 
+extern const MethodInfo IMethodReturnMessage_get_Exception_m20779_MethodInfo = 
 {
 	"get_Exception"/* name */
 	, NULL/* method */
-	, &IMethodReturnMessage_t4879_il2cpp_TypeInfo/* declaring_type */
+	, &IMethodReturnMessage_t4882_il2cpp_TypeInfo/* declaring_type */
 	, &Exception_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -8649,12 +8649,12 @@ extern const MethodInfo IMethodReturnMessage_get_Exception_m20747_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Runtime.Remoting.Messaging.IMethodReturnMessage::get_OutArgs()
-extern const MethodInfo IMethodReturnMessage_get_OutArgs_m20748_MethodInfo = 
+extern const MethodInfo IMethodReturnMessage_get_OutArgs_m20780_MethodInfo = 
 {
 	"get_OutArgs"/* name */
 	, NULL/* method */
-	, &IMethodReturnMessage_t4879_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t680_0_0_0/* return_type */
+	, &IMethodReturnMessage_t4882_il2cpp_TypeInfo/* declaring_type */
+	, &ObjectU5BU5D_t683_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -8672,11 +8672,11 @@ extern const MethodInfo IMethodReturnMessage_get_OutArgs_m20748_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.IMethodReturnMessage::get_ReturnValue()
-extern const MethodInfo IMethodReturnMessage_get_ReturnValue_m20749_MethodInfo = 
+extern const MethodInfo IMethodReturnMessage_get_ReturnValue_m20781_MethodInfo = 
 {
 	"get_ReturnValue"/* name */
 	, NULL/* method */
-	, &IMethodReturnMessage_t4879_il2cpp_TypeInfo/* declaring_type */
+	, &IMethodReturnMessage_t4882_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -8693,67 +8693,67 @@ extern const MethodInfo IMethodReturnMessage_get_ReturnValue_m20749_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IMethodReturnMessage_t4879_MethodInfos[] =
+static const MethodInfo* IMethodReturnMessage_t4882_MethodInfos[] =
 {
-	&IMethodReturnMessage_get_Exception_m20747_MethodInfo,
-	&IMethodReturnMessage_get_OutArgs_m20748_MethodInfo,
-	&IMethodReturnMessage_get_ReturnValue_m20749_MethodInfo,
+	&IMethodReturnMessage_get_Exception_m20779_MethodInfo,
+	&IMethodReturnMessage_get_OutArgs_m20780_MethodInfo,
+	&IMethodReturnMessage_get_ReturnValue_m20781_MethodInfo,
 	NULL
 };
-extern const MethodInfo IMethodReturnMessage_get_Exception_m20747_MethodInfo;
-static const PropertyInfo IMethodReturnMessage_t4879____Exception_PropertyInfo = 
+extern const MethodInfo IMethodReturnMessage_get_Exception_m20779_MethodInfo;
+static const PropertyInfo IMethodReturnMessage_t4882____Exception_PropertyInfo = 
 {
-	&IMethodReturnMessage_t4879_il2cpp_TypeInfo/* parent */
+	&IMethodReturnMessage_t4882_il2cpp_TypeInfo/* parent */
 	, "Exception"/* name */
-	, &IMethodReturnMessage_get_Exception_m20747_MethodInfo/* get */
+	, &IMethodReturnMessage_get_Exception_m20779_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IMethodReturnMessage_get_OutArgs_m20748_MethodInfo;
-static const PropertyInfo IMethodReturnMessage_t4879____OutArgs_PropertyInfo = 
+extern const MethodInfo IMethodReturnMessage_get_OutArgs_m20780_MethodInfo;
+static const PropertyInfo IMethodReturnMessage_t4882____OutArgs_PropertyInfo = 
 {
-	&IMethodReturnMessage_t4879_il2cpp_TypeInfo/* parent */
+	&IMethodReturnMessage_t4882_il2cpp_TypeInfo/* parent */
 	, "OutArgs"/* name */
-	, &IMethodReturnMessage_get_OutArgs_m20748_MethodInfo/* get */
+	, &IMethodReturnMessage_get_OutArgs_m20780_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IMethodReturnMessage_get_ReturnValue_m20749_MethodInfo;
-static const PropertyInfo IMethodReturnMessage_t4879____ReturnValue_PropertyInfo = 
+extern const MethodInfo IMethodReturnMessage_get_ReturnValue_m20781_MethodInfo;
+static const PropertyInfo IMethodReturnMessage_t4882____ReturnValue_PropertyInfo = 
 {
-	&IMethodReturnMessage_t4879_il2cpp_TypeInfo/* parent */
+	&IMethodReturnMessage_t4882_il2cpp_TypeInfo/* parent */
 	, "ReturnValue"/* name */
-	, &IMethodReturnMessage_get_ReturnValue_m20749_MethodInfo/* get */
+	, &IMethodReturnMessage_get_ReturnValue_m20781_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IMethodReturnMessage_t4879_PropertyInfos[] =
+static const PropertyInfo* IMethodReturnMessage_t4882_PropertyInfos[] =
 {
-	&IMethodReturnMessage_t4879____Exception_PropertyInfo,
-	&IMethodReturnMessage_t4879____OutArgs_PropertyInfo,
-	&IMethodReturnMessage_t4879____ReturnValue_PropertyInfo,
+	&IMethodReturnMessage_t4882____Exception_PropertyInfo,
+	&IMethodReturnMessage_t4882____OutArgs_PropertyInfo,
+	&IMethodReturnMessage_t4882____ReturnValue_PropertyInfo,
 	NULL
 };
-static const Il2CppType* IMethodReturnMessage_t4879_InterfacesTypeInfos[] = 
+static const Il2CppType* IMethodReturnMessage_t4882_InterfacesTypeInfos[] = 
 {
-	&IMessage_t4603_0_0_0,
-	&IMethodMessage_t4614_0_0_0,
+	&IMessage_t4606_0_0_0,
+	&IMethodMessage_t4617_0_0_0,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IMethodReturnMessage_t4879_0_0_0;
-extern const Il2CppType IMethodReturnMessage_t4879_1_0_0;
-struct IMethodReturnMessage_t4879;
-const Il2CppTypeDefinitionMetadata IMethodReturnMessage_t4879_DefinitionMetadata = 
+extern const Il2CppType IMethodReturnMessage_t4882_0_0_0;
+extern const Il2CppType IMethodReturnMessage_t4882_1_0_0;
+struct IMethodReturnMessage_t4882;
+const Il2CppTypeDefinitionMetadata IMethodReturnMessage_t4882_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, IMethodReturnMessage_t4879_InterfacesTypeInfos/* implementedInterfaces */
+	, IMethodReturnMessage_t4882_InterfacesTypeInfos/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, NULL/* parent */
 	, NULL/* vtableMethods */
@@ -8762,21 +8762,21 @@ const Il2CppTypeDefinitionMetadata IMethodReturnMessage_t4879_DefinitionMetadata
 	, -1/* fieldStart */
 
 };
-TypeInfo IMethodReturnMessage_t4879_il2cpp_TypeInfo = 
+TypeInfo IMethodReturnMessage_t4882_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IMethodReturnMessage"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, IMethodReturnMessage_t4879_MethodInfos/* methods */
-	, IMethodReturnMessage_t4879_PropertyInfos/* properties */
+	, IMethodReturnMessage_t4882_MethodInfos/* methods */
+	, IMethodReturnMessage_t4882_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IMethodReturnMessage_t4879_il2cpp_TypeInfo/* element_class */
+	, &IMethodReturnMessage_t4882_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 551/* custom_attributes_cache */
-	, &IMethodReturnMessage_t4879_0_0_0/* byval_arg */
-	, &IMethodReturnMessage_t4879_1_0_0/* this_arg */
-	, &IMethodReturnMessage_t4879_DefinitionMetadata/* definitionMetadata */
+	, &IMethodReturnMessage_t4882_0_0_0/* byval_arg */
+	, &IMethodReturnMessage_t4882_1_0_0/* this_arg */
+	, &IMethodReturnMessage_t4882_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8817,25 +8817,25 @@ TypeInfo IMethodReturnMessage_t4879_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Messaging.IRemotingFormatter
-extern TypeInfo IRemotingFormatter_t4968_il2cpp_TypeInfo;
-static const MethodInfo* IRemotingFormatter_t4968_MethodInfos[] =
+extern TypeInfo IRemotingFormatter_t4971_il2cpp_TypeInfo;
+static const MethodInfo* IRemotingFormatter_t4971_MethodInfos[] =
 {
 	NULL
 };
-extern const Il2CppType IFormatter_t4970_0_0_0;
-static const Il2CppType* IRemotingFormatter_t4968_InterfacesTypeInfos[] = 
+extern const Il2CppType IFormatter_t4973_0_0_0;
+static const Il2CppType* IRemotingFormatter_t4971_InterfacesTypeInfos[] = 
 {
-	&IFormatter_t4970_0_0_0,
+	&IFormatter_t4973_0_0_0,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IRemotingFormatter_t4968_0_0_0;
-extern const Il2CppType IRemotingFormatter_t4968_1_0_0;
-struct IRemotingFormatter_t4968;
-const Il2CppTypeDefinitionMetadata IRemotingFormatter_t4968_DefinitionMetadata = 
+extern const Il2CppType IRemotingFormatter_t4971_0_0_0;
+extern const Il2CppType IRemotingFormatter_t4971_1_0_0;
+struct IRemotingFormatter_t4971;
+const Il2CppTypeDefinitionMetadata IRemotingFormatter_t4971_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, IRemotingFormatter_t4968_InterfacesTypeInfos/* implementedInterfaces */
+	, IRemotingFormatter_t4971_InterfacesTypeInfos/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, NULL/* parent */
 	, NULL/* vtableMethods */
@@ -8844,21 +8844,21 @@ const Il2CppTypeDefinitionMetadata IRemotingFormatter_t4968_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IRemotingFormatter_t4968_il2cpp_TypeInfo = 
+TypeInfo IRemotingFormatter_t4971_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IRemotingFormatter"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, IRemotingFormatter_t4968_MethodInfos/* methods */
+	, IRemotingFormatter_t4971_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IRemotingFormatter_t4968_il2cpp_TypeInfo/* element_class */
+	, &IRemotingFormatter_t4971_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 552/* custom_attributes_cache */
-	, &IRemotingFormatter_t4968_0_0_0/* byval_arg */
-	, &IRemotingFormatter_t4968_1_0_0/* this_arg */
-	, &IRemotingFormatter_t4968_DefinitionMetadata/* definitionMetadata */
+	, &IRemotingFormatter_t4971_0_0_0/* byval_arg */
+	, &IRemotingFormatter_t4971_1_0_0/* this_arg */
+	, &IRemotingFormatter_t4971_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8899,15 +8899,15 @@ TypeInfo IRemotingFormatter_t4968_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Messaging.ISerializationRootObject
-extern TypeInfo ISerializationRootObject_t4969_il2cpp_TypeInfo;
-static const MethodInfo* ISerializationRootObject_t4969_MethodInfos[] =
+extern TypeInfo ISerializationRootObject_t4972_il2cpp_TypeInfo;
+static const MethodInfo* ISerializationRootObject_t4972_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ISerializationRootObject_t4969_1_0_0;
-struct ISerializationRootObject_t4969;
-const Il2CppTypeDefinitionMetadata ISerializationRootObject_t4969_DefinitionMetadata = 
+extern const Il2CppType ISerializationRootObject_t4972_1_0_0;
+struct ISerializationRootObject_t4972;
+const Il2CppTypeDefinitionMetadata ISerializationRootObject_t4972_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -8920,21 +8920,21 @@ const Il2CppTypeDefinitionMetadata ISerializationRootObject_t4969_DefinitionMeta
 	, -1/* fieldStart */
 
 };
-TypeInfo ISerializationRootObject_t4969_il2cpp_TypeInfo = 
+TypeInfo ISerializationRootObject_t4972_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ISerializationRootObject"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, ISerializationRootObject_t4969_MethodInfos/* methods */
+	, ISerializationRootObject_t4972_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ISerializationRootObject_t4969_il2cpp_TypeInfo/* element_class */
+	, &ISerializationRootObject_t4972_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ISerializationRootObject_t4969_0_0_0/* byval_arg */
-	, &ISerializationRootObject_t4969_1_0_0/* this_arg */
-	, &ISerializationRootObject_t4969_DefinitionMetadata/* definitionMetadata */
+	, &ISerializationRootObject_t4972_0_0_0/* byval_arg */
+	, &ISerializationRootObject_t4972_1_0_0/* this_arg */
+	, &ISerializationRootObject_t4972_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8977,16 +8977,16 @@ TypeInfo ISerializationRootObject_t4969_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.LogicalCallContext
 #include "mscorlib_System_Runtime_Remoting_Messaging_LogicalCallContex.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.LogicalCallContext
-extern TypeInfo LogicalCallContext_t4611_il2cpp_TypeInfo;
+extern TypeInfo LogicalCallContext_t4614_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.LogicalCallContext
 #include "mscorlib_System_Runtime_Remoting_Messaging_LogicalCallContexMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.LogicalCallContext::.ctor()
-extern const MethodInfo LogicalCallContext__ctor_m18251_MethodInfo = 
+extern const MethodInfo LogicalCallContext__ctor_m18283_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&LogicalCallContext__ctor_m18251/* method */
-	, &LogicalCallContext_t4611_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&LogicalCallContext__ctor_m18283/* method */
+	, &LogicalCallContext_t4614_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -9003,23 +9003,23 @@ extern const MethodInfo LogicalCallContext__ctor_m18251_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2917_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-static const ParameterInfo LogicalCallContext_t4611_LogicalCallContext__ctor_m18252_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2920_0_0_0;
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+static const ParameterInfo LogicalCallContext_t4614_LogicalCallContext__ctor_m18284_ParameterInfos[] = 
 {
-	{"info", 0, 134222146, 0, &SerializationInfo_t2917_0_0_0},
-	{"context", 1, 134222147, 0, &StreamingContext_t2918_0_0_0},
+	{"info", 0, 134222146, 0, &SerializationInfo_t2920_0_0_0},
+	{"context", 1, 134222147, 0, &StreamingContext_t2921_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.LogicalCallContext::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo LogicalCallContext__ctor_m18252_MethodInfo = 
+extern const MethodInfo LogicalCallContext__ctor_m18284_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&LogicalCallContext__ctor_m18252/* method */
-	, &LogicalCallContext_t4611_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&LogicalCallContext__ctor_m18284/* method */
+	, &LogicalCallContext_t4614_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918/* invoker_method */
-	, LogicalCallContext_t4611_LogicalCallContext__ctor_m18252_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921/* invoker_method */
+	, LogicalCallContext_t4614_LogicalCallContext__ctor_m18284_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -9033,23 +9033,23 @@ extern const MethodInfo LogicalCallContext__ctor_m18252_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2917_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-static const ParameterInfo LogicalCallContext_t4611_LogicalCallContext_GetObjectData_m18253_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2920_0_0_0;
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+static const ParameterInfo LogicalCallContext_t4614_LogicalCallContext_GetObjectData_m18285_ParameterInfos[] = 
 {
-	{"info", 0, 134222148, 0, &SerializationInfo_t2917_0_0_0},
-	{"context", 1, 134222149, 0, &StreamingContext_t2918_0_0_0},
+	{"info", 0, 134222148, 0, &SerializationInfo_t2920_0_0_0},
+	{"context", 1, 134222149, 0, &StreamingContext_t2921_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.LogicalCallContext::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo LogicalCallContext_GetObjectData_m18253_MethodInfo = 
+extern const MethodInfo LogicalCallContext_GetObjectData_m18285_MethodInfo = 
 {
 	"GetObjectData"/* name */
-	, (methodPointerType)&LogicalCallContext_GetObjectData_m18253/* method */
-	, &LogicalCallContext_t4611_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&LogicalCallContext_GetObjectData_m18285/* method */
+	, &LogicalCallContext_t4614_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918/* invoker_method */
-	, LogicalCallContext_t4611_LogicalCallContext_GetObjectData_m18253_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921/* invoker_method */
+	, LogicalCallContext_t4614_LogicalCallContext_GetObjectData_m18285_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -9065,21 +9065,21 @@ extern const MethodInfo LogicalCallContext_GetObjectData_m18253_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo LogicalCallContext_t4611_LogicalCallContext_SetData_m18254_ParameterInfos[] = 
+static const ParameterInfo LogicalCallContext_t4614_LogicalCallContext_SetData_m18286_ParameterInfos[] = 
 {
 	{"name", 0, 134222150, 0, &String_t_0_0_0},
 	{"data", 1, 134222151, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.LogicalCallContext::SetData(System.String,System.Object)
-extern const MethodInfo LogicalCallContext_SetData_m18254_MethodInfo = 
+extern const MethodInfo LogicalCallContext_SetData_m18286_MethodInfo = 
 {
 	"SetData"/* name */
-	, (methodPointerType)&LogicalCallContext_SetData_m18254/* method */
-	, &LogicalCallContext_t4611_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&LogicalCallContext_SetData_m18286/* method */
+	, &LogicalCallContext_t4614_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, LogicalCallContext_t4611_LogicalCallContext_SetData_m18254_ParameterInfos/* parameters */
+	, LogicalCallContext_t4614_LogicalCallContext_SetData_m18286_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -9093,24 +9093,24 @@ extern const MethodInfo LogicalCallContext_SetData_m18254_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* LogicalCallContext_t4611_MethodInfos[] =
+static const MethodInfo* LogicalCallContext_t4614_MethodInfos[] =
 {
-	&LogicalCallContext__ctor_m18251_MethodInfo,
-	&LogicalCallContext__ctor_m18252_MethodInfo,
-	&LogicalCallContext_GetObjectData_m18253_MethodInfo,
-	&LogicalCallContext_SetData_m18254_MethodInfo,
+	&LogicalCallContext__ctor_m18283_MethodInfo,
+	&LogicalCallContext__ctor_m18284_MethodInfo,
+	&LogicalCallContext_GetObjectData_m18285_MethodInfo,
+	&LogicalCallContext_SetData_m18286_MethodInfo,
 	NULL
 };
-extern const MethodInfo LogicalCallContext_GetObjectData_m18253_MethodInfo;
-static const Il2CppMethodReference LogicalCallContext_t4611_VTable[] =
+extern const MethodInfo LogicalCallContext_GetObjectData_m18285_MethodInfo;
+static const Il2CppMethodReference LogicalCallContext_t4614_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&LogicalCallContext_GetObjectData_m18253_MethodInfo,
+	&LogicalCallContext_GetObjectData_m18285_MethodInfo,
 };
-static bool LogicalCallContext_t4611_VTableIsGenericMethod[] =
+static bool LogicalCallContext_t4614_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -9118,48 +9118,48 @@ static bool LogicalCallContext_t4611_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICloneable_t816_0_0_0;
-static const Il2CppType* LogicalCallContext_t4611_InterfacesTypeInfos[] = 
+extern const Il2CppType ICloneable_t819_0_0_0;
+static const Il2CppType* LogicalCallContext_t4614_InterfacesTypeInfos[] = 
 {
-	&ICloneable_t816_0_0_0,
-	&ISerializable_t817_0_0_0,
+	&ICloneable_t819_0_0_0,
+	&ISerializable_t820_0_0_0,
 };
-static Il2CppInterfaceOffsetPair LogicalCallContext_t4611_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair LogicalCallContext_t4614_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t816_0_0_0, 4},
-	{ &ISerializable_t817_0_0_0, 4},
+	{ &ICloneable_t819_0_0_0, 4},
+	{ &ISerializable_t820_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType LogicalCallContext_t4611_1_0_0;
-struct LogicalCallContext_t4611;
-const Il2CppTypeDefinitionMetadata LogicalCallContext_t4611_DefinitionMetadata = 
+extern const Il2CppType LogicalCallContext_t4614_1_0_0;
+struct LogicalCallContext_t4614;
+const Il2CppTypeDefinitionMetadata LogicalCallContext_t4614_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, LogicalCallContext_t4611_InterfacesTypeInfos/* implementedInterfaces */
-	, LogicalCallContext_t4611_InterfacesOffsets/* interfaceOffsets */
+	, LogicalCallContext_t4614_InterfacesTypeInfos/* implementedInterfaces */
+	, LogicalCallContext_t4614_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, LogicalCallContext_t4611_VTable/* vtableMethods */
-	, LogicalCallContext_t4611_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, LogicalCallContext_t4614_VTable/* vtableMethods */
+	, LogicalCallContext_t4614_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1585/* fieldStart */
 
 };
-TypeInfo LogicalCallContext_t4611_il2cpp_TypeInfo = 
+TypeInfo LogicalCallContext_t4614_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "LogicalCallContext"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, LogicalCallContext_t4611_MethodInfos/* methods */
+	, LogicalCallContext_t4614_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &LogicalCallContext_t4611_il2cpp_TypeInfo/* element_class */
+	, &LogicalCallContext_t4614_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 553/* custom_attributes_cache */
-	, &LogicalCallContext_t4611_0_0_0/* byval_arg */
-	, &LogicalCallContext_t4611_1_0_0/* this_arg */
-	, &LogicalCallContext_t4611_DefinitionMetadata/* definitionMetadata */
+	, &LogicalCallContext_t4614_0_0_0/* byval_arg */
+	, &LogicalCallContext_t4614_1_0_0/* this_arg */
+	, &LogicalCallContext_t4614_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9169,8 +9169,8 @@ TypeInfo LogicalCallContext_t4611_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (LogicalCallContext_t4611)/* instance_size */
-	, sizeof (LogicalCallContext_t4611)/* actualSize */
+	, sizeof (LogicalCallContext_t4614)/* instance_size */
+	, sizeof (LogicalCallContext_t4614)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9202,16 +9202,16 @@ TypeInfo LogicalCallContext_t4611_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.CallContextRemotingData
 #include "mscorlib_System_Runtime_Remoting_Messaging_CallContextRemoti.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.CallContextRemotingData
-extern TypeInfo CallContextRemotingData_t4610_il2cpp_TypeInfo;
+extern TypeInfo CallContextRemotingData_t4613_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.CallContextRemotingData
 #include "mscorlib_System_Runtime_Remoting_Messaging_CallContextRemotiMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.CallContextRemotingData::.ctor()
-extern const MethodInfo CallContextRemotingData__ctor_m18255_MethodInfo = 
+extern const MethodInfo CallContextRemotingData__ctor_m18287_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CallContextRemotingData__ctor_m18255/* method */
-	, &CallContextRemotingData_t4610_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CallContextRemotingData__ctor_m18287/* method */
+	, &CallContextRemotingData_t4613_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -9228,65 +9228,65 @@ extern const MethodInfo CallContextRemotingData__ctor_m18255_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* CallContextRemotingData_t4610_MethodInfos[] =
+static const MethodInfo* CallContextRemotingData_t4613_MethodInfos[] =
 {
-	&CallContextRemotingData__ctor_m18255_MethodInfo,
+	&CallContextRemotingData__ctor_m18287_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference CallContextRemotingData_t4610_VTable[] =
+static const Il2CppMethodReference CallContextRemotingData_t4613_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool CallContextRemotingData_t4610_VTableIsGenericMethod[] =
+static bool CallContextRemotingData_t4613_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static const Il2CppType* CallContextRemotingData_t4610_InterfacesTypeInfos[] = 
+static const Il2CppType* CallContextRemotingData_t4613_InterfacesTypeInfos[] = 
 {
-	&ICloneable_t816_0_0_0,
+	&ICloneable_t819_0_0_0,
 };
-static Il2CppInterfaceOffsetPair CallContextRemotingData_t4610_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair CallContextRemotingData_t4613_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t816_0_0_0, 4},
+	{ &ICloneable_t819_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType CallContextRemotingData_t4610_0_0_0;
-extern const Il2CppType CallContextRemotingData_t4610_1_0_0;
-struct CallContextRemotingData_t4610;
-const Il2CppTypeDefinitionMetadata CallContextRemotingData_t4610_DefinitionMetadata = 
+extern const Il2CppType CallContextRemotingData_t4613_0_0_0;
+extern const Il2CppType CallContextRemotingData_t4613_1_0_0;
+struct CallContextRemotingData_t4613;
+const Il2CppTypeDefinitionMetadata CallContextRemotingData_t4613_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, CallContextRemotingData_t4610_InterfacesTypeInfos/* implementedInterfaces */
-	, CallContextRemotingData_t4610_InterfacesOffsets/* interfaceOffsets */
+	, CallContextRemotingData_t4613_InterfacesTypeInfos/* implementedInterfaces */
+	, CallContextRemotingData_t4613_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, CallContextRemotingData_t4610_VTable/* vtableMethods */
-	, CallContextRemotingData_t4610_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, CallContextRemotingData_t4613_VTable/* vtableMethods */
+	, CallContextRemotingData_t4613_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo CallContextRemotingData_t4610_il2cpp_TypeInfo = 
+TypeInfo CallContextRemotingData_t4613_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "CallContextRemotingData"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, CallContextRemotingData_t4610_MethodInfos/* methods */
+	, CallContextRemotingData_t4613_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &CallContextRemotingData_t4610_il2cpp_TypeInfo/* element_class */
+	, &CallContextRemotingData_t4613_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &CallContextRemotingData_t4610_0_0_0/* byval_arg */
-	, &CallContextRemotingData_t4610_1_0_0/* this_arg */
-	, &CallContextRemotingData_t4610_DefinitionMetadata/* definitionMetadata */
+	, &CallContextRemotingData_t4613_0_0_0/* byval_arg */
+	, &CallContextRemotingData_t4613_1_0_0/* this_arg */
+	, &CallContextRemotingData_t4613_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9296,8 +9296,8 @@ TypeInfo CallContextRemotingData_t4610_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (CallContextRemotingData_t4610)/* instance_size */
-	, sizeof (CallContextRemotingData_t4610)/* actualSize */
+	, sizeof (CallContextRemotingData_t4613)/* instance_size */
+	, sizeof (CallContextRemotingData_t4613)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9329,25 +9329,25 @@ TypeInfo CallContextRemotingData_t4610_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.MethodCall
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodCall.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.MethodCall
-extern TypeInfo MethodCall_t4605_il2cpp_TypeInfo;
+extern TypeInfo MethodCall_t4608_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.MethodCall
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodCallMethodDeclarations.h"
-extern const Il2CppType HeaderU5BU5D_t4847_0_0_0;
-extern const Il2CppType HeaderU5BU5D_t4847_0_0_0;
-static const ParameterInfo MethodCall_t4605_MethodCall__ctor_m18256_ParameterInfos[] = 
+extern const Il2CppType HeaderU5BU5D_t4850_0_0_0;
+extern const Il2CppType HeaderU5BU5D_t4850_0_0_0;
+static const ParameterInfo MethodCall_t4608_MethodCall__ctor_m18288_ParameterInfos[] = 
 {
-	{"h1", 0, 134222152, 0, &HeaderU5BU5D_t4847_0_0_0},
+	{"h1", 0, 134222152, 0, &HeaderU5BU5D_t4850_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodCall::.ctor(System.Runtime.Remoting.Messaging.Header[])
-extern const MethodInfo MethodCall__ctor_m18256_MethodInfo = 
+extern const MethodInfo MethodCall__ctor_m18288_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&MethodCall__ctor_m18256/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall__ctor_m18288/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, MethodCall_t4605_MethodCall__ctor_m18256_ParameterInfos/* parameters */
+	, MethodCall_t4608_MethodCall__ctor_m18288_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -9361,23 +9361,23 @@ extern const MethodInfo MethodCall__ctor_m18256_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2917_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-static const ParameterInfo MethodCall_t4605_MethodCall__ctor_m18257_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2920_0_0_0;
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+static const ParameterInfo MethodCall_t4608_MethodCall__ctor_m18289_ParameterInfos[] = 
 {
-	{"info", 0, 134222153, 0, &SerializationInfo_t2917_0_0_0},
-	{"context", 1, 134222154, 0, &StreamingContext_t2918_0_0_0},
+	{"info", 0, 134222153, 0, &SerializationInfo_t2920_0_0_0},
+	{"context", 1, 134222154, 0, &StreamingContext_t2921_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodCall::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo MethodCall__ctor_m18257_MethodInfo = 
+extern const MethodInfo MethodCall__ctor_m18289_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&MethodCall__ctor_m18257/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall__ctor_m18289/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918/* invoker_method */
-	, MethodCall_t4605_MethodCall__ctor_m18257_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921/* invoker_method */
+	, MethodCall_t4608_MethodCall__ctor_m18289_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -9393,11 +9393,11 @@ extern const MethodInfo MethodCall__ctor_m18257_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodCall::.ctor()
-extern const MethodInfo MethodCall__ctor_m18258_MethodInfo = 
+extern const MethodInfo MethodCall__ctor_m18290_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&MethodCall__ctor_m18258/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall__ctor_m18290/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -9415,20 +9415,20 @@ extern const MethodInfo MethodCall__ctor_m18258_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo MethodCall_t4605_MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18259_ParameterInfos[] = 
+static const ParameterInfo MethodCall_t4608_MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18291_ParameterInfos[] = 
 {
 	{"value", 0, 134222155, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodCall::System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri(System.String)
-extern const MethodInfo MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18259_MethodInfo = 
+extern const MethodInfo MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18291_MethodInfo = 
 {
 	"System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri"/* name */
-	, (methodPointerType)&MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18259/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18291/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, MethodCall_t4605_MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18259_ParameterInfos/* parameters */
+	, MethodCall_t4608_MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18291_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
@@ -9444,21 +9444,21 @@ extern const MethodInfo MethodCall_System_Runtime_Remoting_Messaging_IInternalMe
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo MethodCall_t4605_MethodCall_InitMethodProperty_m18260_ParameterInfos[] = 
+static const ParameterInfo MethodCall_t4608_MethodCall_InitMethodProperty_m18292_ParameterInfos[] = 
 {
 	{"key", 0, 134222156, 0, &String_t_0_0_0},
 	{"value", 1, 134222157, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodCall::InitMethodProperty(System.String,System.Object)
-extern const MethodInfo MethodCall_InitMethodProperty_m18260_MethodInfo = 
+extern const MethodInfo MethodCall_InitMethodProperty_m18292_MethodInfo = 
 {
 	"InitMethodProperty"/* name */
-	, (methodPointerType)&MethodCall_InitMethodProperty_m18260/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall_InitMethodProperty_m18292/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, MethodCall_t4605_MethodCall_InitMethodProperty_m18260_ParameterInfos/* parameters */
+	, MethodCall_t4608_MethodCall_InitMethodProperty_m18292_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 451/* flags */
 	, 0/* iflags */
@@ -9472,23 +9472,23 @@ extern const MethodInfo MethodCall_InitMethodProperty_m18260_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2917_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-static const ParameterInfo MethodCall_t4605_MethodCall_GetObjectData_m18261_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2920_0_0_0;
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+static const ParameterInfo MethodCall_t4608_MethodCall_GetObjectData_m18293_ParameterInfos[] = 
 {
-	{"info", 0, 134222158, 0, &SerializationInfo_t2917_0_0_0},
-	{"context", 1, 134222159, 0, &StreamingContext_t2918_0_0_0},
+	{"info", 0, 134222158, 0, &SerializationInfo_t2920_0_0_0},
+	{"context", 1, 134222159, 0, &StreamingContext_t2921_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodCall::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo MethodCall_GetObjectData_m18261_MethodInfo = 
+extern const MethodInfo MethodCall_GetObjectData_m18293_MethodInfo = 
 {
 	"GetObjectData"/* name */
-	, (methodPointerType)&MethodCall_GetObjectData_m18261/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall_GetObjectData_m18293/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918/* invoker_method */
-	, MethodCall_t4605_MethodCall_GetObjectData_m18261_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921/* invoker_method */
+	, MethodCall_t4608_MethodCall_GetObjectData_m18293_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -9504,12 +9504,12 @@ extern const MethodInfo MethodCall_GetObjectData_m18261_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Runtime.Remoting.Messaging.MethodCall::get_Args()
-extern const MethodInfo MethodCall_get_Args_m18262_MethodInfo = 
+extern const MethodInfo MethodCall_get_Args_m18294_MethodInfo = 
 {
 	"get_Args"/* name */
-	, (methodPointerType)&MethodCall_get_Args_m18262/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t680_0_0_0/* return_type */
+	, (methodPointerType)&MethodCall_get_Args_m18294/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
+	, &ObjectU5BU5D_t683_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9527,12 +9527,12 @@ extern const MethodInfo MethodCall_get_Args_m18262_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.LogicalCallContext System.Runtime.Remoting.Messaging.MethodCall::get_LogicalCallContext()
-extern const MethodInfo MethodCall_get_LogicalCallContext_m18263_MethodInfo = 
+extern const MethodInfo MethodCall_get_LogicalCallContext_m18295_MethodInfo = 
 {
 	"get_LogicalCallContext"/* name */
-	, (methodPointerType)&MethodCall_get_LogicalCallContext_m18263/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
-	, &LogicalCallContext_t4611_0_0_0/* return_type */
+	, (methodPointerType)&MethodCall_get_LogicalCallContext_m18295/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
+	, &LogicalCallContext_t4614_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9550,12 +9550,12 @@ extern const MethodInfo MethodCall_get_LogicalCallContext_m18263_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.MethodBase System.Runtime.Remoting.Messaging.MethodCall::get_MethodBase()
-extern const MethodInfo MethodCall_get_MethodBase_m18264_MethodInfo = 
+extern const MethodInfo MethodCall_get_MethodBase_m18296_MethodInfo = 
 {
 	"get_MethodBase"/* name */
-	, (methodPointerType)&MethodCall_get_MethodBase_m18264/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
-	, &MethodBase_t1523_0_0_0/* return_type */
+	, (methodPointerType)&MethodCall_get_MethodBase_m18296/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
+	, &MethodBase_t1526_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9573,11 +9573,11 @@ extern const MethodInfo MethodCall_get_MethodBase_m18264_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.MethodCall::get_MethodName()
-extern const MethodInfo MethodCall_get_MethodName_m18265_MethodInfo = 
+extern const MethodInfo MethodCall_get_MethodName_m18297_MethodInfo = 
 {
 	"get_MethodName"/* name */
-	, (methodPointerType)&MethodCall_get_MethodName_m18265/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall_get_MethodName_m18297/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -9596,11 +9596,11 @@ extern const MethodInfo MethodCall_get_MethodName_m18265_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.MethodCall::get_MethodSignature()
-extern const MethodInfo MethodCall_get_MethodSignature_m18266_MethodInfo = 
+extern const MethodInfo MethodCall_get_MethodSignature_m18298_MethodInfo = 
 {
 	"get_MethodSignature"/* name */
-	, (methodPointerType)&MethodCall_get_MethodSignature_m18266/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall_get_MethodSignature_m18298/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -9619,12 +9619,12 @@ extern const MethodInfo MethodCall_get_MethodSignature_m18266_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IDictionary System.Runtime.Remoting.Messaging.MethodCall::get_Properties()
-extern const MethodInfo MethodCall_get_Properties_m18267_MethodInfo = 
+extern const MethodInfo MethodCall_get_Properties_m18299_MethodInfo = 
 {
 	"get_Properties"/* name */
-	, (methodPointerType)&MethodCall_get_Properties_m18267/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_t683_0_0_0/* return_type */
+	, (methodPointerType)&MethodCall_get_Properties_m18299/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
+	, &IDictionary_t686_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9642,11 +9642,11 @@ extern const MethodInfo MethodCall_get_Properties_m18267_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodCall::InitDictionary()
-extern const MethodInfo MethodCall_InitDictionary_m18268_MethodInfo = 
+extern const MethodInfo MethodCall_InitDictionary_m18300_MethodInfo = 
 {
 	"InitDictionary"/* name */
-	, (methodPointerType)&MethodCall_InitDictionary_m18268/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall_InitDictionary_m18300/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -9665,11 +9665,11 @@ extern const MethodInfo MethodCall_InitDictionary_m18268_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.MethodCall::get_TypeName()
-extern const MethodInfo MethodCall_get_TypeName_m18269_MethodInfo = 
+extern const MethodInfo MethodCall_get_TypeName_m18301_MethodInfo = 
 {
 	"get_TypeName"/* name */
-	, (methodPointerType)&MethodCall_get_TypeName_m18269/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall_get_TypeName_m18301/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -9688,11 +9688,11 @@ extern const MethodInfo MethodCall_get_TypeName_m18269_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.MethodCall::get_Uri()
-extern const MethodInfo MethodCall_get_Uri_m18270_MethodInfo = 
+extern const MethodInfo MethodCall_get_Uri_m18302_MethodInfo = 
 {
 	"get_Uri"/* name */
-	, (methodPointerType)&MethodCall_get_Uri_m18270/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall_get_Uri_m18302/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -9710,20 +9710,20 @@ extern const MethodInfo MethodCall_get_Uri_m18270_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo MethodCall_t4605_MethodCall_set_Uri_m18271_ParameterInfos[] = 
+static const ParameterInfo MethodCall_t4608_MethodCall_set_Uri_m18303_ParameterInfos[] = 
 {
 	{"value", 0, 134222160, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodCall::set_Uri(System.String)
-extern const MethodInfo MethodCall_set_Uri_m18271_MethodInfo = 
+extern const MethodInfo MethodCall_set_Uri_m18303_MethodInfo = 
 {
 	"set_Uri"/* name */
-	, (methodPointerType)&MethodCall_set_Uri_m18271/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall_set_Uri_m18303/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, MethodCall_t4605_MethodCall_set_Uri_m18271_ParameterInfos/* parameters */
+	, MethodCall_t4608_MethodCall_set_Uri_m18303_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -9739,11 +9739,11 @@ extern const MethodInfo MethodCall_set_Uri_m18271_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodCall::Init()
-extern const MethodInfo MethodCall_Init_m18272_MethodInfo = 
+extern const MethodInfo MethodCall_Init_m18304_MethodInfo = 
 {
 	"Init"/* name */
-	, (methodPointerType)&MethodCall_Init_m18272/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall_Init_m18304/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -9762,11 +9762,11 @@ extern const MethodInfo MethodCall_Init_m18272_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodCall::ResolveMethod()
-extern const MethodInfo MethodCall_ResolveMethod_m18273_MethodInfo = 
+extern const MethodInfo MethodCall_ResolveMethod_m18305_MethodInfo = 
 {
 	"ResolveMethod"/* name */
-	, (methodPointerType)&MethodCall_ResolveMethod_m18273/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall_ResolveMethod_m18305/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -9785,21 +9785,21 @@ extern const MethodInfo MethodCall_ResolveMethod_m18273_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo MethodCall_t4605_MethodCall_CastTo_m18274_ParameterInfos[] = 
+static const ParameterInfo MethodCall_t4608_MethodCall_CastTo_m18306_ParameterInfos[] = 
 {
 	{"clientType", 0, 134222161, 0, &String_t_0_0_0},
 	{"serverType", 1, 134222162, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Runtime.Remoting.Messaging.MethodCall::CastTo(System.String,System.Type)
-extern const MethodInfo MethodCall_CastTo_m18274_MethodInfo = 
+extern const MethodInfo MethodCall_CastTo_m18306_MethodInfo = 
 {
 	"CastTo"/* name */
-	, (methodPointerType)&MethodCall_CastTo_m18274/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall_CastTo_m18306/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, MethodCall_t4605_MethodCall_CastTo_m18274_ParameterInfos/* parameters */
+	, MethodCall_t4608_MethodCall_CastTo_m18306_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9814,20 +9814,20 @@ extern const MethodInfo MethodCall_CastTo_m18274_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo MethodCall_t4605_MethodCall_GetTypeNameFromAssemblyQualifiedName_m18275_ParameterInfos[] = 
+static const ParameterInfo MethodCall_t4608_MethodCall_GetTypeNameFromAssemblyQualifiedName_m18307_ParameterInfos[] = 
 {
 	{"aqname", 0, 134222163, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.MethodCall::GetTypeNameFromAssemblyQualifiedName(System.String)
-extern const MethodInfo MethodCall_GetTypeNameFromAssemblyQualifiedName_m18275_MethodInfo = 
+extern const MethodInfo MethodCall_GetTypeNameFromAssemblyQualifiedName_m18307_MethodInfo = 
 {
 	"GetTypeNameFromAssemblyQualifiedName"/* name */
-	, (methodPointerType)&MethodCall_GetTypeNameFromAssemblyQualifiedName_m18275/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCall_GetTypeNameFromAssemblyQualifiedName_m18307/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, MethodCall_t4605_MethodCall_GetTypeNameFromAssemblyQualifiedName_m18275_ParameterInfos/* parameters */
+	, MethodCall_t4608_MethodCall_GetTypeNameFromAssemblyQualifiedName_m18307_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -9841,15 +9841,15 @@ extern const MethodInfo MethodCall_GetTypeNameFromAssemblyQualifiedName_m18275_M
 	, NULL/* dummy */
 
 };
-extern const Il2CppType TypeU5BU5D_t1201_0_0_0;
+extern const Il2CppType TypeU5BU5D_t1204_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type[] System.Runtime.Remoting.Messaging.MethodCall::get_GenericArguments()
-extern const MethodInfo MethodCall_get_GenericArguments_m18276_MethodInfo = 
+extern const MethodInfo MethodCall_get_GenericArguments_m18308_MethodInfo = 
 {
 	"get_GenericArguments"/* name */
-	, (methodPointerType)&MethodCall_get_GenericArguments_m18276/* method */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* declaring_type */
-	, &TypeU5BU5D_t1201_0_0_0/* return_type */
+	, (methodPointerType)&MethodCall_get_GenericArguments_m18308/* method */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* declaring_type */
+	, &TypeU5BU5D_t1204_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9865,173 +9865,173 @@ extern const MethodInfo MethodCall_get_GenericArguments_m18276_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* MethodCall_t4605_MethodInfos[] =
+static const MethodInfo* MethodCall_t4608_MethodInfos[] =
 {
-	&MethodCall__ctor_m18256_MethodInfo,
-	&MethodCall__ctor_m18257_MethodInfo,
-	&MethodCall__ctor_m18258_MethodInfo,
-	&MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18259_MethodInfo,
-	&MethodCall_InitMethodProperty_m18260_MethodInfo,
-	&MethodCall_GetObjectData_m18261_MethodInfo,
-	&MethodCall_get_Args_m18262_MethodInfo,
-	&MethodCall_get_LogicalCallContext_m18263_MethodInfo,
-	&MethodCall_get_MethodBase_m18264_MethodInfo,
-	&MethodCall_get_MethodName_m18265_MethodInfo,
-	&MethodCall_get_MethodSignature_m18266_MethodInfo,
-	&MethodCall_get_Properties_m18267_MethodInfo,
-	&MethodCall_InitDictionary_m18268_MethodInfo,
-	&MethodCall_get_TypeName_m18269_MethodInfo,
-	&MethodCall_get_Uri_m18270_MethodInfo,
-	&MethodCall_set_Uri_m18271_MethodInfo,
-	&MethodCall_Init_m18272_MethodInfo,
-	&MethodCall_ResolveMethod_m18273_MethodInfo,
-	&MethodCall_CastTo_m18274_MethodInfo,
-	&MethodCall_GetTypeNameFromAssemblyQualifiedName_m18275_MethodInfo,
-	&MethodCall_get_GenericArguments_m18276_MethodInfo,
+	&MethodCall__ctor_m18288_MethodInfo,
+	&MethodCall__ctor_m18289_MethodInfo,
+	&MethodCall__ctor_m18290_MethodInfo,
+	&MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18291_MethodInfo,
+	&MethodCall_InitMethodProperty_m18292_MethodInfo,
+	&MethodCall_GetObjectData_m18293_MethodInfo,
+	&MethodCall_get_Args_m18294_MethodInfo,
+	&MethodCall_get_LogicalCallContext_m18295_MethodInfo,
+	&MethodCall_get_MethodBase_m18296_MethodInfo,
+	&MethodCall_get_MethodName_m18297_MethodInfo,
+	&MethodCall_get_MethodSignature_m18298_MethodInfo,
+	&MethodCall_get_Properties_m18299_MethodInfo,
+	&MethodCall_InitDictionary_m18300_MethodInfo,
+	&MethodCall_get_TypeName_m18301_MethodInfo,
+	&MethodCall_get_Uri_m18302_MethodInfo,
+	&MethodCall_set_Uri_m18303_MethodInfo,
+	&MethodCall_Init_m18304_MethodInfo,
+	&MethodCall_ResolveMethod_m18305_MethodInfo,
+	&MethodCall_CastTo_m18306_MethodInfo,
+	&MethodCall_GetTypeNameFromAssemblyQualifiedName_m18307_MethodInfo,
+	&MethodCall_get_GenericArguments_m18308_MethodInfo,
 	NULL
 };
-static const PropertyInfo MethodCall_t4605____System_Runtime_Remoting_Messaging_IInternalMessage_Uri_PropertyInfo = 
+static const PropertyInfo MethodCall_t4608____System_Runtime_Remoting_Messaging_IInternalMessage_Uri_PropertyInfo = 
 {
-	&MethodCall_t4605_il2cpp_TypeInfo/* parent */
+	&MethodCall_t4608_il2cpp_TypeInfo/* parent */
 	, "System.Runtime.Remoting.Messaging.IInternalMessage.Uri"/* name */
 	, NULL/* get */
-	, &MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18259_MethodInfo/* set */
+	, &MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18291_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo MethodCall_t4605____Args_PropertyInfo = 
+static const PropertyInfo MethodCall_t4608____Args_PropertyInfo = 
 {
-	&MethodCall_t4605_il2cpp_TypeInfo/* parent */
+	&MethodCall_t4608_il2cpp_TypeInfo/* parent */
 	, "Args"/* name */
-	, &MethodCall_get_Args_m18262_MethodInfo/* get */
+	, &MethodCall_get_Args_m18294_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo MethodCall_t4605____LogicalCallContext_PropertyInfo = 
+static const PropertyInfo MethodCall_t4608____LogicalCallContext_PropertyInfo = 
 {
-	&MethodCall_t4605_il2cpp_TypeInfo/* parent */
+	&MethodCall_t4608_il2cpp_TypeInfo/* parent */
 	, "LogicalCallContext"/* name */
-	, &MethodCall_get_LogicalCallContext_m18263_MethodInfo/* get */
+	, &MethodCall_get_LogicalCallContext_m18295_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo MethodCall_t4605____MethodBase_PropertyInfo = 
+static const PropertyInfo MethodCall_t4608____MethodBase_PropertyInfo = 
 {
-	&MethodCall_t4605_il2cpp_TypeInfo/* parent */
+	&MethodCall_t4608_il2cpp_TypeInfo/* parent */
 	, "MethodBase"/* name */
-	, &MethodCall_get_MethodBase_m18264_MethodInfo/* get */
+	, &MethodCall_get_MethodBase_m18296_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo MethodCall_t4605____MethodName_PropertyInfo = 
+static const PropertyInfo MethodCall_t4608____MethodName_PropertyInfo = 
 {
-	&MethodCall_t4605_il2cpp_TypeInfo/* parent */
+	&MethodCall_t4608_il2cpp_TypeInfo/* parent */
 	, "MethodName"/* name */
-	, &MethodCall_get_MethodName_m18265_MethodInfo/* get */
+	, &MethodCall_get_MethodName_m18297_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo MethodCall_t4605____MethodSignature_PropertyInfo = 
+static const PropertyInfo MethodCall_t4608____MethodSignature_PropertyInfo = 
 {
-	&MethodCall_t4605_il2cpp_TypeInfo/* parent */
+	&MethodCall_t4608_il2cpp_TypeInfo/* parent */
 	, "MethodSignature"/* name */
-	, &MethodCall_get_MethodSignature_m18266_MethodInfo/* get */
+	, &MethodCall_get_MethodSignature_m18298_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo MethodCall_get_Properties_m18267_MethodInfo;
-static const PropertyInfo MethodCall_t4605____Properties_PropertyInfo = 
+extern const MethodInfo MethodCall_get_Properties_m18299_MethodInfo;
+static const PropertyInfo MethodCall_t4608____Properties_PropertyInfo = 
 {
-	&MethodCall_t4605_il2cpp_TypeInfo/* parent */
+	&MethodCall_t4608_il2cpp_TypeInfo/* parent */
 	, "Properties"/* name */
-	, &MethodCall_get_Properties_m18267_MethodInfo/* get */
+	, &MethodCall_get_Properties_m18299_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo MethodCall_t4605____TypeName_PropertyInfo = 
+static const PropertyInfo MethodCall_t4608____TypeName_PropertyInfo = 
 {
-	&MethodCall_t4605_il2cpp_TypeInfo/* parent */
+	&MethodCall_t4608_il2cpp_TypeInfo/* parent */
 	, "TypeName"/* name */
-	, &MethodCall_get_TypeName_m18269_MethodInfo/* get */
+	, &MethodCall_get_TypeName_m18301_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo MethodCall_t4605____Uri_PropertyInfo = 
+static const PropertyInfo MethodCall_t4608____Uri_PropertyInfo = 
 {
-	&MethodCall_t4605_il2cpp_TypeInfo/* parent */
+	&MethodCall_t4608_il2cpp_TypeInfo/* parent */
 	, "Uri"/* name */
-	, &MethodCall_get_Uri_m18270_MethodInfo/* get */
-	, &MethodCall_set_Uri_m18271_MethodInfo/* set */
+	, &MethodCall_get_Uri_m18302_MethodInfo/* get */
+	, &MethodCall_set_Uri_m18303_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo MethodCall_get_GenericArguments_m18276_MethodInfo;
-static const PropertyInfo MethodCall_t4605____GenericArguments_PropertyInfo = 
+extern const MethodInfo MethodCall_get_GenericArguments_m18308_MethodInfo;
+static const PropertyInfo MethodCall_t4608____GenericArguments_PropertyInfo = 
 {
-	&MethodCall_t4605_il2cpp_TypeInfo/* parent */
+	&MethodCall_t4608_il2cpp_TypeInfo/* parent */
 	, "GenericArguments"/* name */
-	, &MethodCall_get_GenericArguments_m18276_MethodInfo/* get */
+	, &MethodCall_get_GenericArguments_m18308_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* MethodCall_t4605_PropertyInfos[] =
+static const PropertyInfo* MethodCall_t4608_PropertyInfos[] =
 {
-	&MethodCall_t4605____System_Runtime_Remoting_Messaging_IInternalMessage_Uri_PropertyInfo,
-	&MethodCall_t4605____Args_PropertyInfo,
-	&MethodCall_t4605____LogicalCallContext_PropertyInfo,
-	&MethodCall_t4605____MethodBase_PropertyInfo,
-	&MethodCall_t4605____MethodName_PropertyInfo,
-	&MethodCall_t4605____MethodSignature_PropertyInfo,
-	&MethodCall_t4605____Properties_PropertyInfo,
-	&MethodCall_t4605____TypeName_PropertyInfo,
-	&MethodCall_t4605____Uri_PropertyInfo,
-	&MethodCall_t4605____GenericArguments_PropertyInfo,
+	&MethodCall_t4608____System_Runtime_Remoting_Messaging_IInternalMessage_Uri_PropertyInfo,
+	&MethodCall_t4608____Args_PropertyInfo,
+	&MethodCall_t4608____LogicalCallContext_PropertyInfo,
+	&MethodCall_t4608____MethodBase_PropertyInfo,
+	&MethodCall_t4608____MethodName_PropertyInfo,
+	&MethodCall_t4608____MethodSignature_PropertyInfo,
+	&MethodCall_t4608____Properties_PropertyInfo,
+	&MethodCall_t4608____TypeName_PropertyInfo,
+	&MethodCall_t4608____Uri_PropertyInfo,
+	&MethodCall_t4608____GenericArguments_PropertyInfo,
 	NULL
 };
-extern const MethodInfo MethodCall_GetObjectData_m18261_MethodInfo;
-extern const MethodInfo MethodCall_InitMethodProperty_m18260_MethodInfo;
-extern const MethodInfo MethodCall_InitDictionary_m18268_MethodInfo;
-static const Il2CppMethodReference MethodCall_t4605_VTable[] =
+extern const MethodInfo MethodCall_GetObjectData_m18293_MethodInfo;
+extern const MethodInfo MethodCall_InitMethodProperty_m18292_MethodInfo;
+extern const MethodInfo MethodCall_InitDictionary_m18300_MethodInfo;
+static const Il2CppMethodReference MethodCall_t4608_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MethodCall_GetObjectData_m18261_MethodInfo,
-	&MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18259_MethodInfo,
-	&MethodCall_get_Args_m18262_MethodInfo,
-	&MethodCall_get_LogicalCallContext_m18263_MethodInfo,
-	&MethodCall_get_MethodBase_m18264_MethodInfo,
-	&MethodCall_get_MethodName_m18265_MethodInfo,
-	&MethodCall_get_MethodSignature_m18266_MethodInfo,
-	&MethodCall_get_TypeName_m18269_MethodInfo,
-	&MethodCall_get_Uri_m18270_MethodInfo,
-	&MethodCall_InitMethodProperty_m18260_MethodInfo,
-	&MethodCall_GetObjectData_m18261_MethodInfo,
-	&MethodCall_get_Properties_m18267_MethodInfo,
-	&MethodCall_InitDictionary_m18268_MethodInfo,
-	&MethodCall_set_Uri_m18271_MethodInfo,
-	&MethodCall_Init_m18272_MethodInfo,
+	&MethodCall_GetObjectData_m18293_MethodInfo,
+	&MethodCall_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18291_MethodInfo,
+	&MethodCall_get_Args_m18294_MethodInfo,
+	&MethodCall_get_LogicalCallContext_m18295_MethodInfo,
+	&MethodCall_get_MethodBase_m18296_MethodInfo,
+	&MethodCall_get_MethodName_m18297_MethodInfo,
+	&MethodCall_get_MethodSignature_m18298_MethodInfo,
+	&MethodCall_get_TypeName_m18301_MethodInfo,
+	&MethodCall_get_Uri_m18302_MethodInfo,
+	&MethodCall_InitMethodProperty_m18292_MethodInfo,
+	&MethodCall_GetObjectData_m18293_MethodInfo,
+	&MethodCall_get_Properties_m18299_MethodInfo,
+	&MethodCall_InitDictionary_m18300_MethodInfo,
+	&MethodCall_set_Uri_m18303_MethodInfo,
+	&MethodCall_Init_m18304_MethodInfo,
 };
-static bool MethodCall_t4605_VTableIsGenericMethod[] =
+static bool MethodCall_t4608_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10053,55 +10053,55 @@ static bool MethodCall_t4605_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* MethodCall_t4605_InterfacesTypeInfos[] = 
+static const Il2CppType* MethodCall_t4608_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t817_0_0_0,
-	&IInternalMessage_t4890_0_0_0,
-	&IMessage_t4603_0_0_0,
-	&IMethodCallMessage_t4880_0_0_0,
-	&IMethodMessage_t4614_0_0_0,
-	&ISerializationRootObject_t4969_0_0_0,
+	&ISerializable_t820_0_0_0,
+	&IInternalMessage_t4893_0_0_0,
+	&IMessage_t4606_0_0_0,
+	&IMethodCallMessage_t4883_0_0_0,
+	&IMethodMessage_t4617_0_0_0,
+	&ISerializationRootObject_t4972_0_0_0,
 };
-static Il2CppInterfaceOffsetPair MethodCall_t4605_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MethodCall_t4608_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t817_0_0_0, 4},
-	{ &IInternalMessage_t4890_0_0_0, 5},
-	{ &IMessage_t4603_0_0_0, 6},
-	{ &IMethodCallMessage_t4880_0_0_0, 6},
-	{ &IMethodMessage_t4614_0_0_0, 6},
-	{ &ISerializationRootObject_t4969_0_0_0, 13},
+	{ &ISerializable_t820_0_0_0, 4},
+	{ &IInternalMessage_t4893_0_0_0, 5},
+	{ &IMessage_t4606_0_0_0, 6},
+	{ &IMethodCallMessage_t4883_0_0_0, 6},
+	{ &IMethodMessage_t4617_0_0_0, 6},
+	{ &ISerializationRootObject_t4972_0_0_0, 13},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MethodCall_t4605_1_0_0;
-struct MethodCall_t4605;
-const Il2CppTypeDefinitionMetadata MethodCall_t4605_DefinitionMetadata = 
+extern const Il2CppType MethodCall_t4608_1_0_0;
+struct MethodCall_t4608;
+const Il2CppTypeDefinitionMetadata MethodCall_t4608_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, MethodCall_t4605_InterfacesTypeInfos/* implementedInterfaces */
-	, MethodCall_t4605_InterfacesOffsets/* interfaceOffsets */
+	, MethodCall_t4608_InterfacesTypeInfos/* implementedInterfaces */
+	, MethodCall_t4608_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, MethodCall_t4605_VTable/* vtableMethods */
-	, MethodCall_t4605_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, MethodCall_t4608_VTable/* vtableMethods */
+	, MethodCall_t4608_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1587/* fieldStart */
 
 };
-TypeInfo MethodCall_t4605_il2cpp_TypeInfo = 
+TypeInfo MethodCall_t4608_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MethodCall"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, MethodCall_t4605_MethodInfos/* methods */
-	, MethodCall_t4605_PropertyInfos/* properties */
+	, MethodCall_t4608_MethodInfos/* methods */
+	, MethodCall_t4608_PropertyInfos/* properties */
 	, NULL/* events */
-	, &MethodCall_t4605_il2cpp_TypeInfo/* element_class */
+	, &MethodCall_t4608_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 554/* custom_attributes_cache */
-	, &MethodCall_t4605_0_0_0/* byval_arg */
-	, &MethodCall_t4605_1_0_0/* this_arg */
-	, &MethodCall_t4605_DefinitionMetadata/* definitionMetadata */
+	, &MethodCall_t4608_0_0_0/* byval_arg */
+	, &MethodCall_t4608_1_0_0/* this_arg */
+	, &MethodCall_t4608_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10111,11 +10111,11 @@ TypeInfo MethodCall_t4605_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MethodCall_t4605)/* instance_size */
-	, sizeof (MethodCall_t4605)/* actualSize */
+	, sizeof (MethodCall_t4608)/* instance_size */
+	, sizeof (MethodCall_t4608)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(MethodCall_t4605_StaticFields)/* static_fields_size */
+	, sizeof(MethodCall_t4608_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1056769/* flags */
@@ -10144,24 +10144,24 @@ TypeInfo MethodCall_t4605_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.MethodCallDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodCallDiction.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.MethodCallDictionary
-extern TypeInfo MethodCallDictionary_t4612_il2cpp_TypeInfo;
+extern TypeInfo MethodCallDictionary_t4615_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.MethodCallDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodCallDictionMethodDeclarations.h"
-extern const Il2CppType IMethodMessage_t4614_0_0_0;
-static const ParameterInfo MethodCallDictionary_t4612_MethodCallDictionary__ctor_m18277_ParameterInfos[] = 
+extern const Il2CppType IMethodMessage_t4617_0_0_0;
+static const ParameterInfo MethodCallDictionary_t4615_MethodCallDictionary__ctor_m18309_ParameterInfos[] = 
 {
-	{"message", 0, 134222164, 0, &IMethodMessage_t4614_0_0_0},
+	{"message", 0, 134222164, 0, &IMethodMessage_t4617_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodCallDictionary::.ctor(System.Runtime.Remoting.Messaging.IMethodMessage)
-extern const MethodInfo MethodCallDictionary__ctor_m18277_MethodInfo = 
+extern const MethodInfo MethodCallDictionary__ctor_m18309_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&MethodCallDictionary__ctor_m18277/* method */
-	, &MethodCallDictionary_t4612_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCallDictionary__ctor_m18309/* method */
+	, &MethodCallDictionary_t4615_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, MethodCallDictionary_t4612_MethodCallDictionary__ctor_m18277_ParameterInfos/* parameters */
+	, MethodCallDictionary_t4615_MethodCallDictionary__ctor_m18309_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -10177,11 +10177,11 @@ extern const MethodInfo MethodCallDictionary__ctor_m18277_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodCallDictionary::.cctor()
-extern const MethodInfo MethodCallDictionary__cctor_m18278_MethodInfo = 
+extern const MethodInfo MethodCallDictionary__cctor_m18310_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&MethodCallDictionary__cctor_m18278/* method */
-	, &MethodCallDictionary_t4612_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodCallDictionary__cctor_m18310/* method */
+	, &MethodCallDictionary_t4615_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -10198,38 +10198,38 @@ extern const MethodInfo MethodCallDictionary__cctor_m18278_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* MethodCallDictionary_t4612_MethodInfos[] =
+static const MethodInfo* MethodCallDictionary_t4615_MethodInfos[] =
 {
-	&MethodCallDictionary__ctor_m18277_MethodInfo,
-	&MethodCallDictionary__cctor_m18278_MethodInfo,
+	&MethodCallDictionary__ctor_m18309_MethodInfo,
+	&MethodCallDictionary__cctor_m18310_MethodInfo,
 	NULL
 };
-extern const MethodInfo MethodDictionary_GetMethodProperty_m18294_MethodInfo;
-extern const MethodInfo MethodDictionary_SetMethodProperty_m18295_MethodInfo;
-static const Il2CppMethodReference MethodCallDictionary_t4612_VTable[] =
+extern const MethodInfo MethodDictionary_GetMethodProperty_m18326_MethodInfo;
+extern const MethodInfo MethodDictionary_SetMethodProperty_m18327_MethodInfo;
+static const Il2CppMethodReference MethodCallDictionary_t4615_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18287_MethodInfo,
-	&MethodDictionary_get_Count_m18301_MethodInfo,
-	&MethodDictionary_get_IsSynchronized_m18302_MethodInfo,
-	&MethodDictionary_get_SyncRoot_m18303_MethodInfo,
-	&MethodDictionary_CopyTo_m18304_MethodInfo,
-	&MethodDictionary_get_Item_m18292_MethodInfo,
-	&MethodDictionary_set_Item_m18293_MethodInfo,
-	&MethodDictionary_get_Keys_m18296_MethodInfo,
-	&MethodDictionary_Add_m18298_MethodInfo,
-	&MethodDictionary_Contains_m18299_MethodInfo,
-	&MethodDictionary_GetEnumerator_m18305_MethodInfo,
-	&MethodDictionary_Remove_m18300_MethodInfo,
-	&MethodDictionary_AllocInternalProperties_m18289_MethodInfo,
-	&MethodDictionary_GetMethodProperty_m18294_MethodInfo,
-	&MethodDictionary_SetMethodProperty_m18295_MethodInfo,
-	&MethodDictionary_get_Values_m18297_MethodInfo,
+	&MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18319_MethodInfo,
+	&MethodDictionary_get_Count_m18333_MethodInfo,
+	&MethodDictionary_get_IsSynchronized_m18334_MethodInfo,
+	&MethodDictionary_get_SyncRoot_m18335_MethodInfo,
+	&MethodDictionary_CopyTo_m18336_MethodInfo,
+	&MethodDictionary_get_Item_m18324_MethodInfo,
+	&MethodDictionary_set_Item_m18325_MethodInfo,
+	&MethodDictionary_get_Keys_m18328_MethodInfo,
+	&MethodDictionary_Add_m18330_MethodInfo,
+	&MethodDictionary_Contains_m18331_MethodInfo,
+	&MethodDictionary_GetEnumerator_m18337_MethodInfo,
+	&MethodDictionary_Remove_m18332_MethodInfo,
+	&MethodDictionary_AllocInternalProperties_m18321_MethodInfo,
+	&MethodDictionary_GetMethodProperty_m18326_MethodInfo,
+	&MethodDictionary_SetMethodProperty_m18327_MethodInfo,
+	&MethodDictionary_get_Values_m18329_MethodInfo,
 };
-static bool MethodCallDictionary_t4612_VTableIsGenericMethod[] =
+static bool MethodCallDictionary_t4615_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10252,44 +10252,44 @@ static bool MethodCallDictionary_t4612_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair MethodCallDictionary_t4612_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MethodCallDictionary_t4615_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t752_0_0_0, 5},
-	{ &IDictionary_t683_0_0_0, 9},
+	{ &ICollection_t755_0_0_0, 5},
+	{ &IDictionary_t686_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MethodCallDictionary_t4612_0_0_0;
-extern const Il2CppType MethodCallDictionary_t4612_1_0_0;
-struct MethodCallDictionary_t4612;
-const Il2CppTypeDefinitionMetadata MethodCallDictionary_t4612_DefinitionMetadata = 
+extern const Il2CppType MethodCallDictionary_t4615_0_0_0;
+extern const Il2CppType MethodCallDictionary_t4615_1_0_0;
+struct MethodCallDictionary_t4615;
+const Il2CppTypeDefinitionMetadata MethodCallDictionary_t4615_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, MethodCallDictionary_t4612_InterfacesOffsets/* interfaceOffsets */
-	, &MethodDictionary_t4607_0_0_0/* parent */
-	, MethodCallDictionary_t4612_VTable/* vtableMethods */
-	, MethodCallDictionary_t4612_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, MethodCallDictionary_t4615_InterfacesOffsets/* interfaceOffsets */
+	, &MethodDictionary_t4610_0_0_0/* parent */
+	, MethodCallDictionary_t4615_VTable/* vtableMethods */
+	, MethodCallDictionary_t4615_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1598/* fieldStart */
 
 };
-TypeInfo MethodCallDictionary_t4612_il2cpp_TypeInfo = 
+TypeInfo MethodCallDictionary_t4615_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MethodCallDictionary"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, MethodCallDictionary_t4612_MethodInfos/* methods */
+	, MethodCallDictionary_t4615_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &MethodCallDictionary_t4612_il2cpp_TypeInfo/* element_class */
+	, &MethodCallDictionary_t4615_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &MethodCallDictionary_t4612_0_0_0/* byval_arg */
-	, &MethodCallDictionary_t4612_1_0_0/* this_arg */
-	, &MethodCallDictionary_t4612_DefinitionMetadata/* definitionMetadata */
+	, &MethodCallDictionary_t4615_0_0_0/* byval_arg */
+	, &MethodCallDictionary_t4615_1_0_0/* this_arg */
+	, &MethodCallDictionary_t4615_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10299,11 +10299,11 @@ TypeInfo MethodCallDictionary_t4612_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MethodCallDictionary_t4612)/* instance_size */
-	, sizeof (MethodCallDictionary_t4612)/* actualSize */
+	, sizeof (MethodCallDictionary_t4615)/* instance_size */
+	, sizeof (MethodCallDictionary_t4615)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(MethodCallDictionary_t4612_StaticFields)/* static_fields_size */
+	, sizeof(MethodCallDictionary_t4615_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -10332,24 +10332,24 @@ TypeInfo MethodCallDictionary_t4612_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodDictionary_.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator
-extern TypeInfo DictionaryEnumerator_t4613_il2cpp_TypeInfo;
+extern TypeInfo DictionaryEnumerator_t4616_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodDictionary_MethodDeclarations.h"
-extern const Il2CppType MethodDictionary_t4607_0_0_0;
-static const ParameterInfo DictionaryEnumerator_t4613_DictionaryEnumerator__ctor_m18279_ParameterInfos[] = 
+extern const Il2CppType MethodDictionary_t4610_0_0_0;
+static const ParameterInfo DictionaryEnumerator_t4616_DictionaryEnumerator__ctor_m18311_ParameterInfos[] = 
 {
-	{"methodDictionary", 0, 134222180, 0, &MethodDictionary_t4607_0_0_0},
+	{"methodDictionary", 0, 134222180, 0, &MethodDictionary_t4610_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::.ctor(System.Runtime.Remoting.Messaging.MethodDictionary)
-extern const MethodInfo DictionaryEnumerator__ctor_m18279_MethodInfo = 
+extern const MethodInfo DictionaryEnumerator__ctor_m18311_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DictionaryEnumerator__ctor_m18279/* method */
-	, &DictionaryEnumerator_t4613_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DictionaryEnumerator__ctor_m18311/* method */
+	, &DictionaryEnumerator_t4616_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, DictionaryEnumerator_t4613_DictionaryEnumerator__ctor_m18279_ParameterInfos/* parameters */
+	, DictionaryEnumerator_t4616_DictionaryEnumerator__ctor_m18311_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -10365,11 +10365,11 @@ extern const MethodInfo DictionaryEnumerator__ctor_m18279_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::get_Current()
-extern const MethodInfo DictionaryEnumerator_get_Current_m18280_MethodInfo = 
+extern const MethodInfo DictionaryEnumerator_get_Current_m18312_MethodInfo = 
 {
 	"get_Current"/* name */
-	, (methodPointerType)&DictionaryEnumerator_get_Current_m18280/* method */
-	, &DictionaryEnumerator_t4613_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DictionaryEnumerator_get_Current_m18312/* method */
+	, &DictionaryEnumerator_t4616_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10388,11 +10388,11 @@ extern const MethodInfo DictionaryEnumerator_get_Current_m18280_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::MoveNext()
-extern const MethodInfo DictionaryEnumerator_MoveNext_m18281_MethodInfo = 
+extern const MethodInfo DictionaryEnumerator_MoveNext_m18313_MethodInfo = 
 {
 	"MoveNext"/* name */
-	, (methodPointerType)&DictionaryEnumerator_MoveNext_m18281/* method */
-	, &DictionaryEnumerator_t4613_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DictionaryEnumerator_MoveNext_m18313/* method */
+	, &DictionaryEnumerator_t4616_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -10411,11 +10411,11 @@ extern const MethodInfo DictionaryEnumerator_MoveNext_m18281_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::Reset()
-extern const MethodInfo DictionaryEnumerator_Reset_m18282_MethodInfo = 
+extern const MethodInfo DictionaryEnumerator_Reset_m18314_MethodInfo = 
 {
 	"Reset"/* name */
-	, (methodPointerType)&DictionaryEnumerator_Reset_m18282/* method */
-	, &DictionaryEnumerator_t4613_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DictionaryEnumerator_Reset_m18314/* method */
+	, &DictionaryEnumerator_t4616_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -10432,16 +10432,16 @@ extern const MethodInfo DictionaryEnumerator_Reset_m18282_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType DictionaryEntry_t2137_0_0_0;
-extern void* RuntimeInvoker_DictionaryEntry_t2137 (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType DictionaryEntry_t2140_0_0_0;
+extern void* RuntimeInvoker_DictionaryEntry_t2140 (const MethodInfo* method, void* obj, void** args);
 // System.Collections.DictionaryEntry System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::get_Entry()
-extern const MethodInfo DictionaryEnumerator_get_Entry_m18283_MethodInfo = 
+extern const MethodInfo DictionaryEnumerator_get_Entry_m18315_MethodInfo = 
 {
 	"get_Entry"/* name */
-	, (methodPointerType)&DictionaryEnumerator_get_Entry_m18283/* method */
-	, &DictionaryEnumerator_t4613_il2cpp_TypeInfo/* declaring_type */
-	, &DictionaryEntry_t2137_0_0_0/* return_type */
-	, RuntimeInvoker_DictionaryEntry_t2137/* invoker_method */
+	, (methodPointerType)&DictionaryEnumerator_get_Entry_m18315/* method */
+	, &DictionaryEnumerator_t4616_il2cpp_TypeInfo/* declaring_type */
+	, &DictionaryEntry_t2140_0_0_0/* return_type */
+	, RuntimeInvoker_DictionaryEntry_t2140/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
@@ -10458,11 +10458,11 @@ extern const MethodInfo DictionaryEnumerator_get_Entry_m18283_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::get_Key()
-extern const MethodInfo DictionaryEnumerator_get_Key_m18284_MethodInfo = 
+extern const MethodInfo DictionaryEnumerator_get_Key_m18316_MethodInfo = 
 {
 	"get_Key"/* name */
-	, (methodPointerType)&DictionaryEnumerator_get_Key_m18284/* method */
-	, &DictionaryEnumerator_t4613_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DictionaryEnumerator_get_Key_m18316/* method */
+	, &DictionaryEnumerator_t4616_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10481,11 +10481,11 @@ extern const MethodInfo DictionaryEnumerator_get_Key_m18284_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::get_Value()
-extern const MethodInfo DictionaryEnumerator_get_Value_m18285_MethodInfo = 
+extern const MethodInfo DictionaryEnumerator_get_Value_m18317_MethodInfo = 
 {
 	"get_Value"/* name */
-	, (methodPointerType)&DictionaryEnumerator_get_Value_m18285/* method */
-	, &DictionaryEnumerator_t4613_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DictionaryEnumerator_get_Value_m18317/* method */
+	, &DictionaryEnumerator_t4616_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10502,85 +10502,85 @@ extern const MethodInfo DictionaryEnumerator_get_Value_m18285_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* DictionaryEnumerator_t4613_MethodInfos[] =
+static const MethodInfo* DictionaryEnumerator_t4616_MethodInfos[] =
 {
-	&DictionaryEnumerator__ctor_m18279_MethodInfo,
-	&DictionaryEnumerator_get_Current_m18280_MethodInfo,
-	&DictionaryEnumerator_MoveNext_m18281_MethodInfo,
-	&DictionaryEnumerator_Reset_m18282_MethodInfo,
-	&DictionaryEnumerator_get_Entry_m18283_MethodInfo,
-	&DictionaryEnumerator_get_Key_m18284_MethodInfo,
-	&DictionaryEnumerator_get_Value_m18285_MethodInfo,
+	&DictionaryEnumerator__ctor_m18311_MethodInfo,
+	&DictionaryEnumerator_get_Current_m18312_MethodInfo,
+	&DictionaryEnumerator_MoveNext_m18313_MethodInfo,
+	&DictionaryEnumerator_Reset_m18314_MethodInfo,
+	&DictionaryEnumerator_get_Entry_m18315_MethodInfo,
+	&DictionaryEnumerator_get_Key_m18316_MethodInfo,
+	&DictionaryEnumerator_get_Value_m18317_MethodInfo,
 	NULL
 };
-extern const MethodInfo DictionaryEnumerator_get_Current_m18280_MethodInfo;
-static const PropertyInfo DictionaryEnumerator_t4613____Current_PropertyInfo = 
+extern const MethodInfo DictionaryEnumerator_get_Current_m18312_MethodInfo;
+static const PropertyInfo DictionaryEnumerator_t4616____Current_PropertyInfo = 
 {
-	&DictionaryEnumerator_t4613_il2cpp_TypeInfo/* parent */
+	&DictionaryEnumerator_t4616_il2cpp_TypeInfo/* parent */
 	, "Current"/* name */
-	, &DictionaryEnumerator_get_Current_m18280_MethodInfo/* get */
+	, &DictionaryEnumerator_get_Current_m18312_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DictionaryEnumerator_get_Entry_m18283_MethodInfo;
-static const PropertyInfo DictionaryEnumerator_t4613____Entry_PropertyInfo = 
+extern const MethodInfo DictionaryEnumerator_get_Entry_m18315_MethodInfo;
+static const PropertyInfo DictionaryEnumerator_t4616____Entry_PropertyInfo = 
 {
-	&DictionaryEnumerator_t4613_il2cpp_TypeInfo/* parent */
+	&DictionaryEnumerator_t4616_il2cpp_TypeInfo/* parent */
 	, "Entry"/* name */
-	, &DictionaryEnumerator_get_Entry_m18283_MethodInfo/* get */
+	, &DictionaryEnumerator_get_Entry_m18315_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DictionaryEnumerator_get_Key_m18284_MethodInfo;
-static const PropertyInfo DictionaryEnumerator_t4613____Key_PropertyInfo = 
+extern const MethodInfo DictionaryEnumerator_get_Key_m18316_MethodInfo;
+static const PropertyInfo DictionaryEnumerator_t4616____Key_PropertyInfo = 
 {
-	&DictionaryEnumerator_t4613_il2cpp_TypeInfo/* parent */
+	&DictionaryEnumerator_t4616_il2cpp_TypeInfo/* parent */
 	, "Key"/* name */
-	, &DictionaryEnumerator_get_Key_m18284_MethodInfo/* get */
+	, &DictionaryEnumerator_get_Key_m18316_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo DictionaryEnumerator_get_Value_m18285_MethodInfo;
-static const PropertyInfo DictionaryEnumerator_t4613____Value_PropertyInfo = 
+extern const MethodInfo DictionaryEnumerator_get_Value_m18317_MethodInfo;
+static const PropertyInfo DictionaryEnumerator_t4616____Value_PropertyInfo = 
 {
-	&DictionaryEnumerator_t4613_il2cpp_TypeInfo/* parent */
+	&DictionaryEnumerator_t4616_il2cpp_TypeInfo/* parent */
 	, "Value"/* name */
-	, &DictionaryEnumerator_get_Value_m18285_MethodInfo/* get */
+	, &DictionaryEnumerator_get_Value_m18317_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* DictionaryEnumerator_t4613_PropertyInfos[] =
+static const PropertyInfo* DictionaryEnumerator_t4616_PropertyInfos[] =
 {
-	&DictionaryEnumerator_t4613____Current_PropertyInfo,
-	&DictionaryEnumerator_t4613____Entry_PropertyInfo,
-	&DictionaryEnumerator_t4613____Key_PropertyInfo,
-	&DictionaryEnumerator_t4613____Value_PropertyInfo,
+	&DictionaryEnumerator_t4616____Current_PropertyInfo,
+	&DictionaryEnumerator_t4616____Entry_PropertyInfo,
+	&DictionaryEnumerator_t4616____Key_PropertyInfo,
+	&DictionaryEnumerator_t4616____Value_PropertyInfo,
 	NULL
 };
-extern const MethodInfo DictionaryEnumerator_MoveNext_m18281_MethodInfo;
-extern const MethodInfo DictionaryEnumerator_Reset_m18282_MethodInfo;
-static const Il2CppMethodReference DictionaryEnumerator_t4613_VTable[] =
+extern const MethodInfo DictionaryEnumerator_MoveNext_m18313_MethodInfo;
+extern const MethodInfo DictionaryEnumerator_Reset_m18314_MethodInfo;
+static const Il2CppMethodReference DictionaryEnumerator_t4616_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&DictionaryEnumerator_get_Current_m18280_MethodInfo,
-	&DictionaryEnumerator_MoveNext_m18281_MethodInfo,
-	&DictionaryEnumerator_Reset_m18282_MethodInfo,
-	&DictionaryEnumerator_get_Entry_m18283_MethodInfo,
-	&DictionaryEnumerator_get_Key_m18284_MethodInfo,
-	&DictionaryEnumerator_get_Value_m18285_MethodInfo,
+	&DictionaryEnumerator_get_Current_m18312_MethodInfo,
+	&DictionaryEnumerator_MoveNext_m18313_MethodInfo,
+	&DictionaryEnumerator_Reset_m18314_MethodInfo,
+	&DictionaryEnumerator_get_Entry_m18315_MethodInfo,
+	&DictionaryEnumerator_get_Key_m18316_MethodInfo,
+	&DictionaryEnumerator_get_Value_m18317_MethodInfo,
 };
-static bool DictionaryEnumerator_t4613_VTableIsGenericMethod[] =
+static bool DictionaryEnumerator_t4616_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10594,50 +10594,50 @@ static bool DictionaryEnumerator_t4613_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType IEnumerator_t48_0_0_0;
-extern const Il2CppType IDictionaryEnumerator_t782_0_0_0;
-static const Il2CppType* DictionaryEnumerator_t4613_InterfacesTypeInfos[] = 
+extern const Il2CppType IDictionaryEnumerator_t785_0_0_0;
+static const Il2CppType* DictionaryEnumerator_t4616_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t48_0_0_0,
-	&IDictionaryEnumerator_t782_0_0_0,
+	&IDictionaryEnumerator_t785_0_0_0,
 };
-static Il2CppInterfaceOffsetPair DictionaryEnumerator_t4613_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DictionaryEnumerator_t4616_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t48_0_0_0, 4},
-	{ &IDictionaryEnumerator_t782_0_0_0, 7},
+	{ &IDictionaryEnumerator_t785_0_0_0, 7},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType DictionaryEnumerator_t4613_0_0_0;
-extern const Il2CppType DictionaryEnumerator_t4613_1_0_0;
-extern TypeInfo MethodDictionary_t4607_il2cpp_TypeInfo;
-struct DictionaryEnumerator_t4613;
-const Il2CppTypeDefinitionMetadata DictionaryEnumerator_t4613_DefinitionMetadata = 
+extern const Il2CppType DictionaryEnumerator_t4616_0_0_0;
+extern const Il2CppType DictionaryEnumerator_t4616_1_0_0;
+extern TypeInfo MethodDictionary_t4610_il2cpp_TypeInfo;
+struct DictionaryEnumerator_t4616;
+const Il2CppTypeDefinitionMetadata DictionaryEnumerator_t4616_DefinitionMetadata = 
 {
-	&MethodDictionary_t4607_0_0_0/* declaringType */
+	&MethodDictionary_t4610_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
-	, DictionaryEnumerator_t4613_InterfacesTypeInfos/* implementedInterfaces */
-	, DictionaryEnumerator_t4613_InterfacesOffsets/* interfaceOffsets */
+	, DictionaryEnumerator_t4616_InterfacesTypeInfos/* implementedInterfaces */
+	, DictionaryEnumerator_t4616_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, DictionaryEnumerator_t4613_VTable/* vtableMethods */
-	, DictionaryEnumerator_t4613_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, DictionaryEnumerator_t4616_VTable/* vtableMethods */
+	, DictionaryEnumerator_t4616_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1599/* fieldStart */
 
 };
-TypeInfo DictionaryEnumerator_t4613_il2cpp_TypeInfo = 
+TypeInfo DictionaryEnumerator_t4616_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DictionaryEnumerator"/* name */
 	, ""/* namespaze */
-	, DictionaryEnumerator_t4613_MethodInfos/* methods */
-	, DictionaryEnumerator_t4613_PropertyInfos/* properties */
+	, DictionaryEnumerator_t4616_MethodInfos/* methods */
+	, DictionaryEnumerator_t4616_PropertyInfos/* properties */
 	, NULL/* events */
-	, &DictionaryEnumerator_t4613_il2cpp_TypeInfo/* element_class */
+	, &DictionaryEnumerator_t4616_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &DictionaryEnumerator_t4613_0_0_0/* byval_arg */
-	, &DictionaryEnumerator_t4613_1_0_0/* this_arg */
-	, &DictionaryEnumerator_t4613_DefinitionMetadata/* definitionMetadata */
+	, &DictionaryEnumerator_t4616_0_0_0/* byval_arg */
+	, &DictionaryEnumerator_t4616_1_0_0/* this_arg */
+	, &DictionaryEnumerator_t4616_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10647,8 +10647,8 @@ TypeInfo DictionaryEnumerator_t4613_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DictionaryEnumerator_t4613)/* instance_size */
-	, sizeof (DictionaryEnumerator_t4613)/* actualSize */
+	, sizeof (DictionaryEnumerator_t4616)/* instance_size */
+	, sizeof (DictionaryEnumerator_t4616)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -10682,21 +10682,21 @@ TypeInfo DictionaryEnumerator_t4613_il2cpp_TypeInfo =
 // Metadata Definition System.Runtime.Remoting.Messaging.MethodDictionary
 // System.Runtime.Remoting.Messaging.MethodDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodDictionaryMethodDeclarations.h"
-extern const Il2CppType IMethodMessage_t4614_0_0_0;
-static const ParameterInfo MethodDictionary_t4607_MethodDictionary__ctor_m18286_ParameterInfos[] = 
+extern const Il2CppType IMethodMessage_t4617_0_0_0;
+static const ParameterInfo MethodDictionary_t4610_MethodDictionary__ctor_m18318_ParameterInfos[] = 
 {
-	{"message", 0, 134222165, 0, &IMethodMessage_t4614_0_0_0},
+	{"message", 0, 134222165, 0, &IMethodMessage_t4617_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::.ctor(System.Runtime.Remoting.Messaging.IMethodMessage)
-extern const MethodInfo MethodDictionary__ctor_m18286_MethodInfo = 
+extern const MethodInfo MethodDictionary__ctor_m18318_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&MethodDictionary__ctor_m18286/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary__ctor_m18318/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, MethodDictionary_t4607_MethodDictionary__ctor_m18286_ParameterInfos/* parameters */
+	, MethodDictionary_t4610_MethodDictionary__ctor_m18318_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -10712,11 +10712,11 @@ extern const MethodInfo MethodDictionary__ctor_m18286_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IEnumerator System.Runtime.Remoting.Messaging.MethodDictionary::System.Collections.IEnumerable.GetEnumerator()
-extern const MethodInfo MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18287_MethodInfo = 
+extern const MethodInfo MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18319_MethodInfo = 
 {
 	"System.Collections.IEnumerable.GetEnumerator"/* name */
-	, (methodPointerType)&MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18287/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18319/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10735,20 +10735,20 @@ extern const MethodInfo MethodDictionary_System_Collections_IEnumerable_GetEnume
 };
 extern const Il2CppType StringU5BU5D_t75_0_0_0;
 extern const Il2CppType StringU5BU5D_t75_0_0_0;
-static const ParameterInfo MethodDictionary_t4607_MethodDictionary_set_MethodKeys_m18288_ParameterInfos[] = 
+static const ParameterInfo MethodDictionary_t4610_MethodDictionary_set_MethodKeys_m18320_ParameterInfos[] = 
 {
 	{"value", 0, 134222166, 0, &StringU5BU5D_t75_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::set_MethodKeys(System.String[])
-extern const MethodInfo MethodDictionary_set_MethodKeys_m18288_MethodInfo = 
+extern const MethodInfo MethodDictionary_set_MethodKeys_m18320_MethodInfo = 
 {
 	"set_MethodKeys"/* name */
-	, (methodPointerType)&MethodDictionary_set_MethodKeys_m18288/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_set_MethodKeys_m18320/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, MethodDictionary_t4607_MethodDictionary_set_MethodKeys_m18288_ParameterInfos/* parameters */
+	, MethodDictionary_t4610_MethodDictionary_set_MethodKeys_m18320_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -10764,12 +10764,12 @@ extern const MethodInfo MethodDictionary_set_MethodKeys_m18288_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IDictionary System.Runtime.Remoting.Messaging.MethodDictionary::AllocInternalProperties()
-extern const MethodInfo MethodDictionary_AllocInternalProperties_m18289_MethodInfo = 
+extern const MethodInfo MethodDictionary_AllocInternalProperties_m18321_MethodInfo = 
 {
 	"AllocInternalProperties"/* name */
-	, (methodPointerType)&MethodDictionary_AllocInternalProperties_m18289/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_t683_0_0_0/* return_type */
+	, (methodPointerType)&MethodDictionary_AllocInternalProperties_m18321/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
+	, &IDictionary_t686_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -10787,12 +10787,12 @@ extern const MethodInfo MethodDictionary_AllocInternalProperties_m18289_MethodIn
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IDictionary System.Runtime.Remoting.Messaging.MethodDictionary::GetInternalProperties()
-extern const MethodInfo MethodDictionary_GetInternalProperties_m18290_MethodInfo = 
+extern const MethodInfo MethodDictionary_GetInternalProperties_m18322_MethodInfo = 
 {
 	"GetInternalProperties"/* name */
-	, (methodPointerType)&MethodDictionary_GetInternalProperties_m18290/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_t683_0_0_0/* return_type */
+	, (methodPointerType)&MethodDictionary_GetInternalProperties_m18322/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
+	, &IDictionary_t686_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -10809,20 +10809,20 @@ extern const MethodInfo MethodDictionary_GetInternalProperties_m18290_MethodInfo
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo MethodDictionary_t4607_MethodDictionary_IsOverridenKey_m18291_ParameterInfos[] = 
+static const ParameterInfo MethodDictionary_t4610_MethodDictionary_IsOverridenKey_m18323_ParameterInfos[] = 
 {
 	{"key", 0, 134222167, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Messaging.MethodDictionary::IsOverridenKey(System.String)
-extern const MethodInfo MethodDictionary_IsOverridenKey_m18291_MethodInfo = 
+extern const MethodInfo MethodDictionary_IsOverridenKey_m18323_MethodInfo = 
 {
 	"IsOverridenKey"/* name */
-	, (methodPointerType)&MethodDictionary_IsOverridenKey_m18291/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_IsOverridenKey_m18323/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, MethodDictionary_t4607_MethodDictionary_IsOverridenKey_m18291_ParameterInfos/* parameters */
+	, MethodDictionary_t4610_MethodDictionary_IsOverridenKey_m18323_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -10837,20 +10837,20 @@ extern const MethodInfo MethodDictionary_IsOverridenKey_m18291_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo MethodDictionary_t4607_MethodDictionary_get_Item_m18292_ParameterInfos[] = 
+static const ParameterInfo MethodDictionary_t4610_MethodDictionary_get_Item_m18324_ParameterInfos[] = 
 {
 	{"key", 0, 134222168, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.MethodDictionary::get_Item(System.Object)
-extern const MethodInfo MethodDictionary_get_Item_m18292_MethodInfo = 
+extern const MethodInfo MethodDictionary_get_Item_m18324_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&MethodDictionary_get_Item_m18292/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_get_Item_m18324/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, MethodDictionary_t4607_MethodDictionary_get_Item_m18292_ParameterInfos/* parameters */
+	, MethodDictionary_t4610_MethodDictionary_get_Item_m18324_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -10866,21 +10866,21 @@ extern const MethodInfo MethodDictionary_get_Item_m18292_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo MethodDictionary_t4607_MethodDictionary_set_Item_m18293_ParameterInfos[] = 
+static const ParameterInfo MethodDictionary_t4610_MethodDictionary_set_Item_m18325_ParameterInfos[] = 
 {
 	{"key", 0, 134222169, 0, &Object_t_0_0_0},
 	{"value", 1, 134222170, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::set_Item(System.Object,System.Object)
-extern const MethodInfo MethodDictionary_set_Item_m18293_MethodInfo = 
+extern const MethodInfo MethodDictionary_set_Item_m18325_MethodInfo = 
 {
 	"set_Item"/* name */
-	, (methodPointerType)&MethodDictionary_set_Item_m18293/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_set_Item_m18325/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, MethodDictionary_t4607_MethodDictionary_set_Item_m18293_ParameterInfos/* parameters */
+	, MethodDictionary_t4610_MethodDictionary_set_Item_m18325_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -10895,20 +10895,20 @@ extern const MethodInfo MethodDictionary_set_Item_m18293_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo MethodDictionary_t4607_MethodDictionary_GetMethodProperty_m18294_ParameterInfos[] = 
+static const ParameterInfo MethodDictionary_t4610_MethodDictionary_GetMethodProperty_m18326_ParameterInfos[] = 
 {
 	{"key", 0, 134222171, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.MethodDictionary::GetMethodProperty(System.String)
-extern const MethodInfo MethodDictionary_GetMethodProperty_m18294_MethodInfo = 
+extern const MethodInfo MethodDictionary_GetMethodProperty_m18326_MethodInfo = 
 {
 	"GetMethodProperty"/* name */
-	, (methodPointerType)&MethodDictionary_GetMethodProperty_m18294/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_GetMethodProperty_m18326/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, MethodDictionary_t4607_MethodDictionary_GetMethodProperty_m18294_ParameterInfos/* parameters */
+	, MethodDictionary_t4610_MethodDictionary_GetMethodProperty_m18326_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -10924,21 +10924,21 @@ extern const MethodInfo MethodDictionary_GetMethodProperty_m18294_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo MethodDictionary_t4607_MethodDictionary_SetMethodProperty_m18295_ParameterInfos[] = 
+static const ParameterInfo MethodDictionary_t4610_MethodDictionary_SetMethodProperty_m18327_ParameterInfos[] = 
 {
 	{"key", 0, 134222172, 0, &String_t_0_0_0},
 	{"value", 1, 134222173, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::SetMethodProperty(System.String,System.Object)
-extern const MethodInfo MethodDictionary_SetMethodProperty_m18295_MethodInfo = 
+extern const MethodInfo MethodDictionary_SetMethodProperty_m18327_MethodInfo = 
 {
 	"SetMethodProperty"/* name */
-	, (methodPointerType)&MethodDictionary_SetMethodProperty_m18295/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_SetMethodProperty_m18327/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, MethodDictionary_t4607_MethodDictionary_SetMethodProperty_m18295_ParameterInfos/* parameters */
+	, MethodDictionary_t4610_MethodDictionary_SetMethodProperty_m18327_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -10954,12 +10954,12 @@ extern const MethodInfo MethodDictionary_SetMethodProperty_m18295_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.ICollection System.Runtime.Remoting.Messaging.MethodDictionary::get_Keys()
-extern const MethodInfo MethodDictionary_get_Keys_m18296_MethodInfo = 
+extern const MethodInfo MethodDictionary_get_Keys_m18328_MethodInfo = 
 {
 	"get_Keys"/* name */
-	, (methodPointerType)&MethodDictionary_get_Keys_m18296/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
-	, &ICollection_t752_0_0_0/* return_type */
+	, (methodPointerType)&MethodDictionary_get_Keys_m18328/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
+	, &ICollection_t755_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -10977,12 +10977,12 @@ extern const MethodInfo MethodDictionary_get_Keys_m18296_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.ICollection System.Runtime.Remoting.Messaging.MethodDictionary::get_Values()
-extern const MethodInfo MethodDictionary_get_Values_m18297_MethodInfo = 
+extern const MethodInfo MethodDictionary_get_Values_m18329_MethodInfo = 
 {
 	"get_Values"/* name */
-	, (methodPointerType)&MethodDictionary_get_Values_m18297/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
-	, &ICollection_t752_0_0_0/* return_type */
+	, (methodPointerType)&MethodDictionary_get_Values_m18329/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
+	, &ICollection_t755_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11000,21 +11000,21 @@ extern const MethodInfo MethodDictionary_get_Values_m18297_MethodInfo =
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo MethodDictionary_t4607_MethodDictionary_Add_m18298_ParameterInfos[] = 
+static const ParameterInfo MethodDictionary_t4610_MethodDictionary_Add_m18330_ParameterInfos[] = 
 {
 	{"key", 0, 134222174, 0, &Object_t_0_0_0},
 	{"value", 1, 134222175, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::Add(System.Object,System.Object)
-extern const MethodInfo MethodDictionary_Add_m18298_MethodInfo = 
+extern const MethodInfo MethodDictionary_Add_m18330_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&MethodDictionary_Add_m18298/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_Add_m18330/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, MethodDictionary_t4607_MethodDictionary_Add_m18298_ParameterInfos/* parameters */
+	, MethodDictionary_t4610_MethodDictionary_Add_m18330_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11029,20 +11029,20 @@ extern const MethodInfo MethodDictionary_Add_m18298_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo MethodDictionary_t4607_MethodDictionary_Contains_m18299_ParameterInfos[] = 
+static const ParameterInfo MethodDictionary_t4610_MethodDictionary_Contains_m18331_ParameterInfos[] = 
 {
 	{"key", 0, 134222176, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Messaging.MethodDictionary::Contains(System.Object)
-extern const MethodInfo MethodDictionary_Contains_m18299_MethodInfo = 
+extern const MethodInfo MethodDictionary_Contains_m18331_MethodInfo = 
 {
 	"Contains"/* name */
-	, (methodPointerType)&MethodDictionary_Contains_m18299/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_Contains_m18331/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, MethodDictionary_t4607_MethodDictionary_Contains_m18299_ParameterInfos/* parameters */
+	, MethodDictionary_t4610_MethodDictionary_Contains_m18331_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11057,20 +11057,20 @@ extern const MethodInfo MethodDictionary_Contains_m18299_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo MethodDictionary_t4607_MethodDictionary_Remove_m18300_ParameterInfos[] = 
+static const ParameterInfo MethodDictionary_t4610_MethodDictionary_Remove_m18332_ParameterInfos[] = 
 {
 	{"key", 0, 134222177, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::Remove(System.Object)
-extern const MethodInfo MethodDictionary_Remove_m18300_MethodInfo = 
+extern const MethodInfo MethodDictionary_Remove_m18332_MethodInfo = 
 {
 	"Remove"/* name */
-	, (methodPointerType)&MethodDictionary_Remove_m18300/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_Remove_m18332/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, MethodDictionary_t4607_MethodDictionary_Remove_m18300_ParameterInfos/* parameters */
+	, MethodDictionary_t4610_MethodDictionary_Remove_m18332_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11086,11 +11086,11 @@ extern const MethodInfo MethodDictionary_Remove_m18300_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Runtime.Remoting.Messaging.MethodDictionary::get_Count()
-extern const MethodInfo MethodDictionary_get_Count_m18301_MethodInfo = 
+extern const MethodInfo MethodDictionary_get_Count_m18333_MethodInfo = 
 {
 	"get_Count"/* name */
-	, (methodPointerType)&MethodDictionary_get_Count_m18301/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_get_Count_m18333/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -11109,11 +11109,11 @@ extern const MethodInfo MethodDictionary_get_Count_m18301_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Messaging.MethodDictionary::get_IsSynchronized()
-extern const MethodInfo MethodDictionary_get_IsSynchronized_m18302_MethodInfo = 
+extern const MethodInfo MethodDictionary_get_IsSynchronized_m18334_MethodInfo = 
 {
 	"get_IsSynchronized"/* name */
-	, (methodPointerType)&MethodDictionary_get_IsSynchronized_m18302/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_get_IsSynchronized_m18334/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -11132,11 +11132,11 @@ extern const MethodInfo MethodDictionary_get_IsSynchronized_m18302_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.MethodDictionary::get_SyncRoot()
-extern const MethodInfo MethodDictionary_get_SyncRoot_m18303_MethodInfo = 
+extern const MethodInfo MethodDictionary_get_SyncRoot_m18335_MethodInfo = 
 {
 	"get_SyncRoot"/* name */
-	, (methodPointerType)&MethodDictionary_get_SyncRoot_m18303/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_get_SyncRoot_m18335/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -11156,21 +11156,21 @@ extern const MethodInfo MethodDictionary_get_SyncRoot_m18303_MethodInfo =
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo MethodDictionary_t4607_MethodDictionary_CopyTo_m18304_ParameterInfos[] = 
+static const ParameterInfo MethodDictionary_t4610_MethodDictionary_CopyTo_m18336_ParameterInfos[] = 
 {
 	{"array", 0, 134222178, 0, &Array_t_0_0_0},
 	{"index", 1, 134222179, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::CopyTo(System.Array,System.Int32)
-extern const MethodInfo MethodDictionary_CopyTo_m18304_MethodInfo = 
+extern const MethodInfo MethodDictionary_CopyTo_m18336_MethodInfo = 
 {
 	"CopyTo"/* name */
-	, (methodPointerType)&MethodDictionary_CopyTo_m18304/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodDictionary_CopyTo_m18336/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, MethodDictionary_t4607_MethodDictionary_CopyTo_m18304_ParameterInfos/* parameters */
+	, MethodDictionary_t4610_MethodDictionary_CopyTo_m18336_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -11186,12 +11186,12 @@ extern const MethodInfo MethodDictionary_CopyTo_m18304_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IDictionaryEnumerator System.Runtime.Remoting.Messaging.MethodDictionary::GetEnumerator()
-extern const MethodInfo MethodDictionary_GetEnumerator_m18305_MethodInfo = 
+extern const MethodInfo MethodDictionary_GetEnumerator_m18337_MethodInfo = 
 {
 	"GetEnumerator"/* name */
-	, (methodPointerType)&MethodDictionary_GetEnumerator_m18305/* method */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionaryEnumerator_t782_0_0_0/* return_type */
+	, (methodPointerType)&MethodDictionary_GetEnumerator_m18337/* method */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* declaring_type */
+	, &IDictionaryEnumerator_t785_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11207,140 +11207,140 @@ extern const MethodInfo MethodDictionary_GetEnumerator_m18305_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* MethodDictionary_t4607_MethodInfos[] =
+static const MethodInfo* MethodDictionary_t4610_MethodInfos[] =
 {
-	&MethodDictionary__ctor_m18286_MethodInfo,
-	&MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18287_MethodInfo,
-	&MethodDictionary_set_MethodKeys_m18288_MethodInfo,
-	&MethodDictionary_AllocInternalProperties_m18289_MethodInfo,
-	&MethodDictionary_GetInternalProperties_m18290_MethodInfo,
-	&MethodDictionary_IsOverridenKey_m18291_MethodInfo,
-	&MethodDictionary_get_Item_m18292_MethodInfo,
-	&MethodDictionary_set_Item_m18293_MethodInfo,
-	&MethodDictionary_GetMethodProperty_m18294_MethodInfo,
-	&MethodDictionary_SetMethodProperty_m18295_MethodInfo,
-	&MethodDictionary_get_Keys_m18296_MethodInfo,
-	&MethodDictionary_get_Values_m18297_MethodInfo,
-	&MethodDictionary_Add_m18298_MethodInfo,
-	&MethodDictionary_Contains_m18299_MethodInfo,
-	&MethodDictionary_Remove_m18300_MethodInfo,
-	&MethodDictionary_get_Count_m18301_MethodInfo,
-	&MethodDictionary_get_IsSynchronized_m18302_MethodInfo,
-	&MethodDictionary_get_SyncRoot_m18303_MethodInfo,
-	&MethodDictionary_CopyTo_m18304_MethodInfo,
-	&MethodDictionary_GetEnumerator_m18305_MethodInfo,
+	&MethodDictionary__ctor_m18318_MethodInfo,
+	&MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18319_MethodInfo,
+	&MethodDictionary_set_MethodKeys_m18320_MethodInfo,
+	&MethodDictionary_AllocInternalProperties_m18321_MethodInfo,
+	&MethodDictionary_GetInternalProperties_m18322_MethodInfo,
+	&MethodDictionary_IsOverridenKey_m18323_MethodInfo,
+	&MethodDictionary_get_Item_m18324_MethodInfo,
+	&MethodDictionary_set_Item_m18325_MethodInfo,
+	&MethodDictionary_GetMethodProperty_m18326_MethodInfo,
+	&MethodDictionary_SetMethodProperty_m18327_MethodInfo,
+	&MethodDictionary_get_Keys_m18328_MethodInfo,
+	&MethodDictionary_get_Values_m18329_MethodInfo,
+	&MethodDictionary_Add_m18330_MethodInfo,
+	&MethodDictionary_Contains_m18331_MethodInfo,
+	&MethodDictionary_Remove_m18332_MethodInfo,
+	&MethodDictionary_get_Count_m18333_MethodInfo,
+	&MethodDictionary_get_IsSynchronized_m18334_MethodInfo,
+	&MethodDictionary_get_SyncRoot_m18335_MethodInfo,
+	&MethodDictionary_CopyTo_m18336_MethodInfo,
+	&MethodDictionary_GetEnumerator_m18337_MethodInfo,
 	NULL
 };
-extern const MethodInfo MethodDictionary_set_MethodKeys_m18288_MethodInfo;
-static const PropertyInfo MethodDictionary_t4607____MethodKeys_PropertyInfo = 
+extern const MethodInfo MethodDictionary_set_MethodKeys_m18320_MethodInfo;
+static const PropertyInfo MethodDictionary_t4610____MethodKeys_PropertyInfo = 
 {
-	&MethodDictionary_t4607_il2cpp_TypeInfo/* parent */
+	&MethodDictionary_t4610_il2cpp_TypeInfo/* parent */
 	, "MethodKeys"/* name */
 	, NULL/* get */
-	, &MethodDictionary_set_MethodKeys_m18288_MethodInfo/* set */
+	, &MethodDictionary_set_MethodKeys_m18320_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo MethodDictionary_t4607____Item_PropertyInfo = 
+static const PropertyInfo MethodDictionary_t4610____Item_PropertyInfo = 
 {
-	&MethodDictionary_t4607_il2cpp_TypeInfo/* parent */
+	&MethodDictionary_t4610_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &MethodDictionary_get_Item_m18292_MethodInfo/* get */
-	, &MethodDictionary_set_Item_m18293_MethodInfo/* set */
+	, &MethodDictionary_get_Item_m18324_MethodInfo/* get */
+	, &MethodDictionary_set_Item_m18325_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo MethodDictionary_t4607____Keys_PropertyInfo = 
+static const PropertyInfo MethodDictionary_t4610____Keys_PropertyInfo = 
 {
-	&MethodDictionary_t4607_il2cpp_TypeInfo/* parent */
+	&MethodDictionary_t4610_il2cpp_TypeInfo/* parent */
 	, "Keys"/* name */
-	, &MethodDictionary_get_Keys_m18296_MethodInfo/* get */
+	, &MethodDictionary_get_Keys_m18328_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo MethodDictionary_t4607____Values_PropertyInfo = 
+static const PropertyInfo MethodDictionary_t4610____Values_PropertyInfo = 
 {
-	&MethodDictionary_t4607_il2cpp_TypeInfo/* parent */
+	&MethodDictionary_t4610_il2cpp_TypeInfo/* parent */
 	, "Values"/* name */
-	, &MethodDictionary_get_Values_m18297_MethodInfo/* get */
+	, &MethodDictionary_get_Values_m18329_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo MethodDictionary_t4607____Count_PropertyInfo = 
+static const PropertyInfo MethodDictionary_t4610____Count_PropertyInfo = 
 {
-	&MethodDictionary_t4607_il2cpp_TypeInfo/* parent */
+	&MethodDictionary_t4610_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
-	, &MethodDictionary_get_Count_m18301_MethodInfo/* get */
+	, &MethodDictionary_get_Count_m18333_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo MethodDictionary_t4607____IsSynchronized_PropertyInfo = 
+static const PropertyInfo MethodDictionary_t4610____IsSynchronized_PropertyInfo = 
 {
-	&MethodDictionary_t4607_il2cpp_TypeInfo/* parent */
+	&MethodDictionary_t4610_il2cpp_TypeInfo/* parent */
 	, "IsSynchronized"/* name */
-	, &MethodDictionary_get_IsSynchronized_m18302_MethodInfo/* get */
+	, &MethodDictionary_get_IsSynchronized_m18334_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo MethodDictionary_t4607____SyncRoot_PropertyInfo = 
+static const PropertyInfo MethodDictionary_t4610____SyncRoot_PropertyInfo = 
 {
-	&MethodDictionary_t4607_il2cpp_TypeInfo/* parent */
+	&MethodDictionary_t4610_il2cpp_TypeInfo/* parent */
 	, "SyncRoot"/* name */
-	, &MethodDictionary_get_SyncRoot_m18303_MethodInfo/* get */
+	, &MethodDictionary_get_SyncRoot_m18335_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* MethodDictionary_t4607_PropertyInfos[] =
+static const PropertyInfo* MethodDictionary_t4610_PropertyInfos[] =
 {
-	&MethodDictionary_t4607____MethodKeys_PropertyInfo,
-	&MethodDictionary_t4607____Item_PropertyInfo,
-	&MethodDictionary_t4607____Keys_PropertyInfo,
-	&MethodDictionary_t4607____Values_PropertyInfo,
-	&MethodDictionary_t4607____Count_PropertyInfo,
-	&MethodDictionary_t4607____IsSynchronized_PropertyInfo,
-	&MethodDictionary_t4607____SyncRoot_PropertyInfo,
+	&MethodDictionary_t4610____MethodKeys_PropertyInfo,
+	&MethodDictionary_t4610____Item_PropertyInfo,
+	&MethodDictionary_t4610____Keys_PropertyInfo,
+	&MethodDictionary_t4610____Values_PropertyInfo,
+	&MethodDictionary_t4610____Count_PropertyInfo,
+	&MethodDictionary_t4610____IsSynchronized_PropertyInfo,
+	&MethodDictionary_t4610____SyncRoot_PropertyInfo,
 	NULL
 };
-static const Il2CppType* MethodDictionary_t4607_il2cpp_TypeInfo__nestedTypes[1] =
+static const Il2CppType* MethodDictionary_t4610_il2cpp_TypeInfo__nestedTypes[1] =
 {
-	&DictionaryEnumerator_t4613_0_0_0,
+	&DictionaryEnumerator_t4616_0_0_0,
 };
-static const Il2CppMethodReference MethodDictionary_t4607_VTable[] =
+static const Il2CppMethodReference MethodDictionary_t4610_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18287_MethodInfo,
-	&MethodDictionary_get_Count_m18301_MethodInfo,
-	&MethodDictionary_get_IsSynchronized_m18302_MethodInfo,
-	&MethodDictionary_get_SyncRoot_m18303_MethodInfo,
-	&MethodDictionary_CopyTo_m18304_MethodInfo,
-	&MethodDictionary_get_Item_m18292_MethodInfo,
-	&MethodDictionary_set_Item_m18293_MethodInfo,
-	&MethodDictionary_get_Keys_m18296_MethodInfo,
-	&MethodDictionary_Add_m18298_MethodInfo,
-	&MethodDictionary_Contains_m18299_MethodInfo,
-	&MethodDictionary_GetEnumerator_m18305_MethodInfo,
-	&MethodDictionary_Remove_m18300_MethodInfo,
-	&MethodDictionary_AllocInternalProperties_m18289_MethodInfo,
-	&MethodDictionary_GetMethodProperty_m18294_MethodInfo,
-	&MethodDictionary_SetMethodProperty_m18295_MethodInfo,
-	&MethodDictionary_get_Values_m18297_MethodInfo,
+	&MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18319_MethodInfo,
+	&MethodDictionary_get_Count_m18333_MethodInfo,
+	&MethodDictionary_get_IsSynchronized_m18334_MethodInfo,
+	&MethodDictionary_get_SyncRoot_m18335_MethodInfo,
+	&MethodDictionary_CopyTo_m18336_MethodInfo,
+	&MethodDictionary_get_Item_m18324_MethodInfo,
+	&MethodDictionary_set_Item_m18325_MethodInfo,
+	&MethodDictionary_get_Keys_m18328_MethodInfo,
+	&MethodDictionary_Add_m18330_MethodInfo,
+	&MethodDictionary_Contains_m18331_MethodInfo,
+	&MethodDictionary_GetEnumerator_m18337_MethodInfo,
+	&MethodDictionary_Remove_m18332_MethodInfo,
+	&MethodDictionary_AllocInternalProperties_m18321_MethodInfo,
+	&MethodDictionary_GetMethodProperty_m18326_MethodInfo,
+	&MethodDictionary_SetMethodProperty_m18327_MethodInfo,
+	&MethodDictionary_get_Values_m18329_MethodInfo,
 };
-static bool MethodDictionary_t4607_VTableIsGenericMethod[] =
+static bool MethodDictionary_t4610_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -11363,49 +11363,49 @@ static bool MethodDictionary_t4607_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* MethodDictionary_t4607_InterfacesTypeInfos[] = 
+static const Il2CppType* MethodDictionary_t4610_InterfacesTypeInfos[] = 
 {
 	&IEnumerable_t104_0_0_0,
-	&ICollection_t752_0_0_0,
-	&IDictionary_t683_0_0_0,
+	&ICollection_t755_0_0_0,
+	&IDictionary_t686_0_0_0,
 };
-static Il2CppInterfaceOffsetPair MethodDictionary_t4607_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MethodDictionary_t4610_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t752_0_0_0, 5},
-	{ &IDictionary_t683_0_0_0, 9},
+	{ &ICollection_t755_0_0_0, 5},
+	{ &IDictionary_t686_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MethodDictionary_t4607_1_0_0;
-struct MethodDictionary_t4607;
-const Il2CppTypeDefinitionMetadata MethodDictionary_t4607_DefinitionMetadata = 
+extern const Il2CppType MethodDictionary_t4610_1_0_0;
+struct MethodDictionary_t4610;
+const Il2CppTypeDefinitionMetadata MethodDictionary_t4610_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, MethodDictionary_t4607_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
-	, MethodDictionary_t4607_InterfacesTypeInfos/* implementedInterfaces */
-	, MethodDictionary_t4607_InterfacesOffsets/* interfaceOffsets */
+	, MethodDictionary_t4610_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, MethodDictionary_t4610_InterfacesTypeInfos/* implementedInterfaces */
+	, MethodDictionary_t4610_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, MethodDictionary_t4607_VTable/* vtableMethods */
-	, MethodDictionary_t4607_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, MethodDictionary_t4610_VTable/* vtableMethods */
+	, MethodDictionary_t4610_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1602/* fieldStart */
 
 };
-TypeInfo MethodDictionary_t4607_il2cpp_TypeInfo = 
+TypeInfo MethodDictionary_t4610_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MethodDictionary"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, MethodDictionary_t4607_MethodInfos/* methods */
-	, MethodDictionary_t4607_PropertyInfos/* properties */
+	, MethodDictionary_t4610_MethodInfos/* methods */
+	, MethodDictionary_t4610_PropertyInfos/* properties */
 	, NULL/* events */
-	, &MethodDictionary_t4607_il2cpp_TypeInfo/* element_class */
+	, &MethodDictionary_t4610_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 556/* custom_attributes_cache */
-	, &MethodDictionary_t4607_0_0_0/* byval_arg */
-	, &MethodDictionary_t4607_1_0_0/* this_arg */
-	, &MethodDictionary_t4607_DefinitionMetadata/* definitionMetadata */
+	, &MethodDictionary_t4610_0_0_0/* byval_arg */
+	, &MethodDictionary_t4610_1_0_0/* this_arg */
+	, &MethodDictionary_t4610_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -11415,11 +11415,11 @@ TypeInfo MethodDictionary_t4607_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MethodDictionary_t4607)/* instance_size */
-	, sizeof (MethodDictionary_t4607)/* actualSize */
+	, sizeof (MethodDictionary_t4610)/* instance_size */
+	, sizeof (MethodDictionary_t4610)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(MethodDictionary_t4607_StaticFields)/* static_fields_size */
+	, sizeof(MethodDictionary_t4610_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1056768/* flags */
@@ -11448,24 +11448,24 @@ TypeInfo MethodDictionary_t4607_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.MethodReturnDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodReturnDicti.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.MethodReturnDictionary
-extern TypeInfo MethodReturnDictionary_t4615_il2cpp_TypeInfo;
+extern TypeInfo MethodReturnDictionary_t4618_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.MethodReturnDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodReturnDictiMethodDeclarations.h"
-extern const Il2CppType IMethodReturnMessage_t4879_0_0_0;
-static const ParameterInfo MethodReturnDictionary_t4615_MethodReturnDictionary__ctor_m18306_ParameterInfos[] = 
+extern const Il2CppType IMethodReturnMessage_t4882_0_0_0;
+static const ParameterInfo MethodReturnDictionary_t4618_MethodReturnDictionary__ctor_m18338_ParameterInfos[] = 
 {
-	{"message", 0, 134222181, 0, &IMethodReturnMessage_t4879_0_0_0},
+	{"message", 0, 134222181, 0, &IMethodReturnMessage_t4882_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodReturnDictionary::.ctor(System.Runtime.Remoting.Messaging.IMethodReturnMessage)
-extern const MethodInfo MethodReturnDictionary__ctor_m18306_MethodInfo = 
+extern const MethodInfo MethodReturnDictionary__ctor_m18338_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&MethodReturnDictionary__ctor_m18306/* method */
-	, &MethodReturnDictionary_t4615_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodReturnDictionary__ctor_m18338/* method */
+	, &MethodReturnDictionary_t4618_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, MethodReturnDictionary_t4615_MethodReturnDictionary__ctor_m18306_ParameterInfos/* parameters */
+	, MethodReturnDictionary_t4618_MethodReturnDictionary__ctor_m18338_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -11481,11 +11481,11 @@ extern const MethodInfo MethodReturnDictionary__ctor_m18306_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MethodReturnDictionary::.cctor()
-extern const MethodInfo MethodReturnDictionary__cctor_m18307_MethodInfo = 
+extern const MethodInfo MethodReturnDictionary__cctor_m18339_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&MethodReturnDictionary__cctor_m18307/* method */
-	, &MethodReturnDictionary_t4615_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MethodReturnDictionary__cctor_m18339/* method */
+	, &MethodReturnDictionary_t4618_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -11502,36 +11502,36 @@ extern const MethodInfo MethodReturnDictionary__cctor_m18307_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* MethodReturnDictionary_t4615_MethodInfos[] =
+static const MethodInfo* MethodReturnDictionary_t4618_MethodInfos[] =
 {
-	&MethodReturnDictionary__ctor_m18306_MethodInfo,
-	&MethodReturnDictionary__cctor_m18307_MethodInfo,
+	&MethodReturnDictionary__ctor_m18338_MethodInfo,
+	&MethodReturnDictionary__cctor_m18339_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference MethodReturnDictionary_t4615_VTable[] =
+static const Il2CppMethodReference MethodReturnDictionary_t4618_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18287_MethodInfo,
-	&MethodDictionary_get_Count_m18301_MethodInfo,
-	&MethodDictionary_get_IsSynchronized_m18302_MethodInfo,
-	&MethodDictionary_get_SyncRoot_m18303_MethodInfo,
-	&MethodDictionary_CopyTo_m18304_MethodInfo,
-	&MethodDictionary_get_Item_m18292_MethodInfo,
-	&MethodDictionary_set_Item_m18293_MethodInfo,
-	&MethodDictionary_get_Keys_m18296_MethodInfo,
-	&MethodDictionary_Add_m18298_MethodInfo,
-	&MethodDictionary_Contains_m18299_MethodInfo,
-	&MethodDictionary_GetEnumerator_m18305_MethodInfo,
-	&MethodDictionary_Remove_m18300_MethodInfo,
-	&MethodDictionary_AllocInternalProperties_m18289_MethodInfo,
-	&MethodDictionary_GetMethodProperty_m18294_MethodInfo,
-	&MethodDictionary_SetMethodProperty_m18295_MethodInfo,
-	&MethodDictionary_get_Values_m18297_MethodInfo,
+	&MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m18319_MethodInfo,
+	&MethodDictionary_get_Count_m18333_MethodInfo,
+	&MethodDictionary_get_IsSynchronized_m18334_MethodInfo,
+	&MethodDictionary_get_SyncRoot_m18335_MethodInfo,
+	&MethodDictionary_CopyTo_m18336_MethodInfo,
+	&MethodDictionary_get_Item_m18324_MethodInfo,
+	&MethodDictionary_set_Item_m18325_MethodInfo,
+	&MethodDictionary_get_Keys_m18328_MethodInfo,
+	&MethodDictionary_Add_m18330_MethodInfo,
+	&MethodDictionary_Contains_m18331_MethodInfo,
+	&MethodDictionary_GetEnumerator_m18337_MethodInfo,
+	&MethodDictionary_Remove_m18332_MethodInfo,
+	&MethodDictionary_AllocInternalProperties_m18321_MethodInfo,
+	&MethodDictionary_GetMethodProperty_m18326_MethodInfo,
+	&MethodDictionary_SetMethodProperty_m18327_MethodInfo,
+	&MethodDictionary_get_Values_m18329_MethodInfo,
 };
-static bool MethodReturnDictionary_t4615_VTableIsGenericMethod[] =
+static bool MethodReturnDictionary_t4618_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -11554,44 +11554,44 @@ static bool MethodReturnDictionary_t4615_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair MethodReturnDictionary_t4615_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MethodReturnDictionary_t4618_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t752_0_0_0, 5},
-	{ &IDictionary_t683_0_0_0, 9},
+	{ &ICollection_t755_0_0_0, 5},
+	{ &IDictionary_t686_0_0_0, 9},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MethodReturnDictionary_t4615_0_0_0;
-extern const Il2CppType MethodReturnDictionary_t4615_1_0_0;
-struct MethodReturnDictionary_t4615;
-const Il2CppTypeDefinitionMetadata MethodReturnDictionary_t4615_DefinitionMetadata = 
+extern const Il2CppType MethodReturnDictionary_t4618_0_0_0;
+extern const Il2CppType MethodReturnDictionary_t4618_1_0_0;
+struct MethodReturnDictionary_t4618;
+const Il2CppTypeDefinitionMetadata MethodReturnDictionary_t4618_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, MethodReturnDictionary_t4615_InterfacesOffsets/* interfaceOffsets */
-	, &MethodDictionary_t4607_0_0_0/* parent */
-	, MethodReturnDictionary_t4615_VTable/* vtableMethods */
-	, MethodReturnDictionary_t4615_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, MethodReturnDictionary_t4618_InterfacesOffsets/* interfaceOffsets */
+	, &MethodDictionary_t4610_0_0_0/* parent */
+	, MethodReturnDictionary_t4618_VTable/* vtableMethods */
+	, MethodReturnDictionary_t4618_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1608/* fieldStart */
 
 };
-TypeInfo MethodReturnDictionary_t4615_il2cpp_TypeInfo = 
+TypeInfo MethodReturnDictionary_t4618_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MethodReturnDictionary"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, MethodReturnDictionary_t4615_MethodInfos/* methods */
+	, MethodReturnDictionary_t4618_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &MethodReturnDictionary_t4615_il2cpp_TypeInfo/* element_class */
+	, &MethodReturnDictionary_t4618_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &MethodReturnDictionary_t4615_0_0_0/* byval_arg */
-	, &MethodReturnDictionary_t4615_1_0_0/* this_arg */
-	, &MethodReturnDictionary_t4615_DefinitionMetadata/* definitionMetadata */
+	, &MethodReturnDictionary_t4618_0_0_0/* byval_arg */
+	, &MethodReturnDictionary_t4618_1_0_0/* this_arg */
+	, &MethodReturnDictionary_t4618_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -11601,11 +11601,11 @@ TypeInfo MethodReturnDictionary_t4615_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MethodReturnDictionary_t4615)/* instance_size */
-	, sizeof (MethodReturnDictionary_t4615)/* actualSize */
+	, sizeof (MethodReturnDictionary_t4618)/* instance_size */
+	, sizeof (MethodReturnDictionary_t4618)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(MethodReturnDictionary_t4615_StaticFields)/* static_fields_size */
+	, sizeof(MethodReturnDictionary_t4618_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -11634,17 +11634,17 @@ TypeInfo MethodReturnDictionary_t4615_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.MonoMethodMessage
 #include "mscorlib_System_Runtime_Remoting_Messaging_MonoMethodMessage.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.MonoMethodMessage
-extern TypeInfo MonoMethodMessage_t4601_il2cpp_TypeInfo;
+extern TypeInfo MonoMethodMessage_t4604_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.MonoMethodMessage
 #include "mscorlib_System_Runtime_Remoting_Messaging_MonoMethodMessageMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Runtime.Remoting.Messaging.MonoMethodMessage::get_Args()
-extern const MethodInfo MonoMethodMessage_get_Args_m18308_MethodInfo = 
+extern const MethodInfo MonoMethodMessage_get_Args_m18340_MethodInfo = 
 {
 	"get_Args"/* name */
-	, (methodPointerType)&MonoMethodMessage_get_Args_m18308/* method */
-	, &MonoMethodMessage_t4601_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t680_0_0_0/* return_type */
+	, (methodPointerType)&MonoMethodMessage_get_Args_m18340/* method */
+	, &MonoMethodMessage_t4604_il2cpp_TypeInfo/* declaring_type */
+	, &ObjectU5BU5D_t683_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11662,12 +11662,12 @@ extern const MethodInfo MonoMethodMessage_get_Args_m18308_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.LogicalCallContext System.Runtime.Remoting.Messaging.MonoMethodMessage::get_LogicalCallContext()
-extern const MethodInfo MonoMethodMessage_get_LogicalCallContext_m18309_MethodInfo = 
+extern const MethodInfo MonoMethodMessage_get_LogicalCallContext_m18341_MethodInfo = 
 {
 	"get_LogicalCallContext"/* name */
-	, (methodPointerType)&MonoMethodMessage_get_LogicalCallContext_m18309/* method */
-	, &MonoMethodMessage_t4601_il2cpp_TypeInfo/* declaring_type */
-	, &LogicalCallContext_t4611_0_0_0/* return_type */
+	, (methodPointerType)&MonoMethodMessage_get_LogicalCallContext_m18341/* method */
+	, &MonoMethodMessage_t4604_il2cpp_TypeInfo/* declaring_type */
+	, &LogicalCallContext_t4614_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11685,12 +11685,12 @@ extern const MethodInfo MonoMethodMessage_get_LogicalCallContext_m18309_MethodIn
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.MethodBase System.Runtime.Remoting.Messaging.MonoMethodMessage::get_MethodBase()
-extern const MethodInfo MonoMethodMessage_get_MethodBase_m18310_MethodInfo = 
+extern const MethodInfo MonoMethodMessage_get_MethodBase_m18342_MethodInfo = 
 {
 	"get_MethodBase"/* name */
-	, (methodPointerType)&MonoMethodMessage_get_MethodBase_m18310/* method */
-	, &MonoMethodMessage_t4601_il2cpp_TypeInfo/* declaring_type */
-	, &MethodBase_t1523_0_0_0/* return_type */
+	, (methodPointerType)&MonoMethodMessage_get_MethodBase_m18342/* method */
+	, &MonoMethodMessage_t4604_il2cpp_TypeInfo/* declaring_type */
+	, &MethodBase_t1526_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11708,11 +11708,11 @@ extern const MethodInfo MonoMethodMessage_get_MethodBase_m18310_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.MonoMethodMessage::get_MethodName()
-extern const MethodInfo MonoMethodMessage_get_MethodName_m18311_MethodInfo = 
+extern const MethodInfo MonoMethodMessage_get_MethodName_m18343_MethodInfo = 
 {
 	"get_MethodName"/* name */
-	, (methodPointerType)&MonoMethodMessage_get_MethodName_m18311/* method */
-	, &MonoMethodMessage_t4601_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MonoMethodMessage_get_MethodName_m18343/* method */
+	, &MonoMethodMessage_t4604_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -11731,11 +11731,11 @@ extern const MethodInfo MonoMethodMessage_get_MethodName_m18311_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.MonoMethodMessage::get_MethodSignature()
-extern const MethodInfo MonoMethodMessage_get_MethodSignature_m18312_MethodInfo = 
+extern const MethodInfo MonoMethodMessage_get_MethodSignature_m18344_MethodInfo = 
 {
 	"get_MethodSignature"/* name */
-	, (methodPointerType)&MonoMethodMessage_get_MethodSignature_m18312/* method */
-	, &MonoMethodMessage_t4601_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MonoMethodMessage_get_MethodSignature_m18344/* method */
+	, &MonoMethodMessage_t4604_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -11754,11 +11754,11 @@ extern const MethodInfo MonoMethodMessage_get_MethodSignature_m18312_MethodInfo 
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.MonoMethodMessage::get_TypeName()
-extern const MethodInfo MonoMethodMessage_get_TypeName_m18313_MethodInfo = 
+extern const MethodInfo MonoMethodMessage_get_TypeName_m18345_MethodInfo = 
 {
 	"get_TypeName"/* name */
-	, (methodPointerType)&MonoMethodMessage_get_TypeName_m18313/* method */
-	, &MonoMethodMessage_t4601_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MonoMethodMessage_get_TypeName_m18345/* method */
+	, &MonoMethodMessage_t4604_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -11777,11 +11777,11 @@ extern const MethodInfo MonoMethodMessage_get_TypeName_m18313_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.MonoMethodMessage::get_Uri()
-extern const MethodInfo MonoMethodMessage_get_Uri_m18314_MethodInfo = 
+extern const MethodInfo MonoMethodMessage_get_Uri_m18346_MethodInfo = 
 {
 	"get_Uri"/* name */
-	, (methodPointerType)&MonoMethodMessage_get_Uri_m18314/* method */
-	, &MonoMethodMessage_t4601_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MonoMethodMessage_get_Uri_m18346/* method */
+	, &MonoMethodMessage_t4604_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -11799,20 +11799,20 @@ extern const MethodInfo MonoMethodMessage_get_Uri_m18314_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo MonoMethodMessage_t4601_MonoMethodMessage_set_Uri_m18315_ParameterInfos[] = 
+static const ParameterInfo MonoMethodMessage_t4604_MonoMethodMessage_set_Uri_m18347_ParameterInfos[] = 
 {
 	{"value", 0, 134222182, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.MonoMethodMessage::set_Uri(System.String)
-extern const MethodInfo MonoMethodMessage_set_Uri_m18315_MethodInfo = 
+extern const MethodInfo MonoMethodMessage_set_Uri_m18347_MethodInfo = 
 {
 	"set_Uri"/* name */
-	, (methodPointerType)&MonoMethodMessage_set_Uri_m18315/* method */
-	, &MonoMethodMessage_t4601_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MonoMethodMessage_set_Uri_m18347/* method */
+	, &MonoMethodMessage_t4604_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, MonoMethodMessage_t4601_MonoMethodMessage_set_Uri_m18315_ParameterInfos/* parameters */
+	, MonoMethodMessage_t4604_MonoMethodMessage_set_Uri_m18347_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -11828,11 +11828,11 @@ extern const MethodInfo MonoMethodMessage_set_Uri_m18315_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Exception System.Runtime.Remoting.Messaging.MonoMethodMessage::get_Exception()
-extern const MethodInfo MonoMethodMessage_get_Exception_m18316_MethodInfo = 
+extern const MethodInfo MonoMethodMessage_get_Exception_m18348_MethodInfo = 
 {
 	"get_Exception"/* name */
-	, (methodPointerType)&MonoMethodMessage_get_Exception_m18316/* method */
-	, &MonoMethodMessage_t4601_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MonoMethodMessage_get_Exception_m18348/* method */
+	, &MonoMethodMessage_t4604_il2cpp_TypeInfo/* declaring_type */
 	, &Exception_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -11851,11 +11851,11 @@ extern const MethodInfo MonoMethodMessage_get_Exception_m18316_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Runtime.Remoting.Messaging.MonoMethodMessage::get_OutArgCount()
-extern const MethodInfo MonoMethodMessage_get_OutArgCount_m18317_MethodInfo = 
+extern const MethodInfo MonoMethodMessage_get_OutArgCount_m18349_MethodInfo = 
 {
 	"get_OutArgCount"/* name */
-	, (methodPointerType)&MonoMethodMessage_get_OutArgCount_m18317/* method */
-	, &MonoMethodMessage_t4601_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MonoMethodMessage_get_OutArgCount_m18349/* method */
+	, &MonoMethodMessage_t4604_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -11874,12 +11874,12 @@ extern const MethodInfo MonoMethodMessage_get_OutArgCount_m18317_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Runtime.Remoting.Messaging.MonoMethodMessage::get_OutArgs()
-extern const MethodInfo MonoMethodMessage_get_OutArgs_m18318_MethodInfo = 
+extern const MethodInfo MonoMethodMessage_get_OutArgs_m18350_MethodInfo = 
 {
 	"get_OutArgs"/* name */
-	, (methodPointerType)&MonoMethodMessage_get_OutArgs_m18318/* method */
-	, &MonoMethodMessage_t4601_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t680_0_0_0/* return_type */
+	, (methodPointerType)&MonoMethodMessage_get_OutArgs_m18350/* method */
+	, &MonoMethodMessage_t4604_il2cpp_TypeInfo/* declaring_type */
+	, &ObjectU5BU5D_t683_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11897,11 +11897,11 @@ extern const MethodInfo MonoMethodMessage_get_OutArgs_m18318_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.MonoMethodMessage::get_ReturnValue()
-extern const MethodInfo MonoMethodMessage_get_ReturnValue_m18319_MethodInfo = 
+extern const MethodInfo MonoMethodMessage_get_ReturnValue_m18351_MethodInfo = 
 {
 	"get_ReturnValue"/* name */
-	, (methodPointerType)&MonoMethodMessage_get_ReturnValue_m18319/* method */
-	, &MonoMethodMessage_t4601_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MonoMethodMessage_get_ReturnValue_m18351/* method */
+	, &MonoMethodMessage_t4604_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -11918,179 +11918,179 @@ extern const MethodInfo MonoMethodMessage_get_ReturnValue_m18319_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* MonoMethodMessage_t4601_MethodInfos[] =
+static const MethodInfo* MonoMethodMessage_t4604_MethodInfos[] =
 {
-	&MonoMethodMessage_get_Args_m18308_MethodInfo,
-	&MonoMethodMessage_get_LogicalCallContext_m18309_MethodInfo,
-	&MonoMethodMessage_get_MethodBase_m18310_MethodInfo,
-	&MonoMethodMessage_get_MethodName_m18311_MethodInfo,
-	&MonoMethodMessage_get_MethodSignature_m18312_MethodInfo,
-	&MonoMethodMessage_get_TypeName_m18313_MethodInfo,
-	&MonoMethodMessage_get_Uri_m18314_MethodInfo,
-	&MonoMethodMessage_set_Uri_m18315_MethodInfo,
-	&MonoMethodMessage_get_Exception_m18316_MethodInfo,
-	&MonoMethodMessage_get_OutArgCount_m18317_MethodInfo,
-	&MonoMethodMessage_get_OutArgs_m18318_MethodInfo,
-	&MonoMethodMessage_get_ReturnValue_m18319_MethodInfo,
+	&MonoMethodMessage_get_Args_m18340_MethodInfo,
+	&MonoMethodMessage_get_LogicalCallContext_m18341_MethodInfo,
+	&MonoMethodMessage_get_MethodBase_m18342_MethodInfo,
+	&MonoMethodMessage_get_MethodName_m18343_MethodInfo,
+	&MonoMethodMessage_get_MethodSignature_m18344_MethodInfo,
+	&MonoMethodMessage_get_TypeName_m18345_MethodInfo,
+	&MonoMethodMessage_get_Uri_m18346_MethodInfo,
+	&MonoMethodMessage_set_Uri_m18347_MethodInfo,
+	&MonoMethodMessage_get_Exception_m18348_MethodInfo,
+	&MonoMethodMessage_get_OutArgCount_m18349_MethodInfo,
+	&MonoMethodMessage_get_OutArgs_m18350_MethodInfo,
+	&MonoMethodMessage_get_ReturnValue_m18351_MethodInfo,
 	NULL
 };
-extern const MethodInfo MonoMethodMessage_get_Args_m18308_MethodInfo;
-static const PropertyInfo MonoMethodMessage_t4601____Args_PropertyInfo = 
+extern const MethodInfo MonoMethodMessage_get_Args_m18340_MethodInfo;
+static const PropertyInfo MonoMethodMessage_t4604____Args_PropertyInfo = 
 {
-	&MonoMethodMessage_t4601_il2cpp_TypeInfo/* parent */
+	&MonoMethodMessage_t4604_il2cpp_TypeInfo/* parent */
 	, "Args"/* name */
-	, &MonoMethodMessage_get_Args_m18308_MethodInfo/* get */
+	, &MonoMethodMessage_get_Args_m18340_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo MonoMethodMessage_get_LogicalCallContext_m18309_MethodInfo;
-static const PropertyInfo MonoMethodMessage_t4601____LogicalCallContext_PropertyInfo = 
+extern const MethodInfo MonoMethodMessage_get_LogicalCallContext_m18341_MethodInfo;
+static const PropertyInfo MonoMethodMessage_t4604____LogicalCallContext_PropertyInfo = 
 {
-	&MonoMethodMessage_t4601_il2cpp_TypeInfo/* parent */
+	&MonoMethodMessage_t4604_il2cpp_TypeInfo/* parent */
 	, "LogicalCallContext"/* name */
-	, &MonoMethodMessage_get_LogicalCallContext_m18309_MethodInfo/* get */
+	, &MonoMethodMessage_get_LogicalCallContext_m18341_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo MonoMethodMessage_get_MethodBase_m18310_MethodInfo;
-static const PropertyInfo MonoMethodMessage_t4601____MethodBase_PropertyInfo = 
+extern const MethodInfo MonoMethodMessage_get_MethodBase_m18342_MethodInfo;
+static const PropertyInfo MonoMethodMessage_t4604____MethodBase_PropertyInfo = 
 {
-	&MonoMethodMessage_t4601_il2cpp_TypeInfo/* parent */
+	&MonoMethodMessage_t4604_il2cpp_TypeInfo/* parent */
 	, "MethodBase"/* name */
-	, &MonoMethodMessage_get_MethodBase_m18310_MethodInfo/* get */
+	, &MonoMethodMessage_get_MethodBase_m18342_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo MonoMethodMessage_get_MethodName_m18311_MethodInfo;
-static const PropertyInfo MonoMethodMessage_t4601____MethodName_PropertyInfo = 
+extern const MethodInfo MonoMethodMessage_get_MethodName_m18343_MethodInfo;
+static const PropertyInfo MonoMethodMessage_t4604____MethodName_PropertyInfo = 
 {
-	&MonoMethodMessage_t4601_il2cpp_TypeInfo/* parent */
+	&MonoMethodMessage_t4604_il2cpp_TypeInfo/* parent */
 	, "MethodName"/* name */
-	, &MonoMethodMessage_get_MethodName_m18311_MethodInfo/* get */
+	, &MonoMethodMessage_get_MethodName_m18343_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo MonoMethodMessage_get_MethodSignature_m18312_MethodInfo;
-static const PropertyInfo MonoMethodMessage_t4601____MethodSignature_PropertyInfo = 
+extern const MethodInfo MonoMethodMessage_get_MethodSignature_m18344_MethodInfo;
+static const PropertyInfo MonoMethodMessage_t4604____MethodSignature_PropertyInfo = 
 {
-	&MonoMethodMessage_t4601_il2cpp_TypeInfo/* parent */
+	&MonoMethodMessage_t4604_il2cpp_TypeInfo/* parent */
 	, "MethodSignature"/* name */
-	, &MonoMethodMessage_get_MethodSignature_m18312_MethodInfo/* get */
+	, &MonoMethodMessage_get_MethodSignature_m18344_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo MonoMethodMessage_get_TypeName_m18313_MethodInfo;
-static const PropertyInfo MonoMethodMessage_t4601____TypeName_PropertyInfo = 
+extern const MethodInfo MonoMethodMessage_get_TypeName_m18345_MethodInfo;
+static const PropertyInfo MonoMethodMessage_t4604____TypeName_PropertyInfo = 
 {
-	&MonoMethodMessage_t4601_il2cpp_TypeInfo/* parent */
+	&MonoMethodMessage_t4604_il2cpp_TypeInfo/* parent */
 	, "TypeName"/* name */
-	, &MonoMethodMessage_get_TypeName_m18313_MethodInfo/* get */
+	, &MonoMethodMessage_get_TypeName_m18345_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo MonoMethodMessage_get_Uri_m18314_MethodInfo;
-extern const MethodInfo MonoMethodMessage_set_Uri_m18315_MethodInfo;
-static const PropertyInfo MonoMethodMessage_t4601____Uri_PropertyInfo = 
+extern const MethodInfo MonoMethodMessage_get_Uri_m18346_MethodInfo;
+extern const MethodInfo MonoMethodMessage_set_Uri_m18347_MethodInfo;
+static const PropertyInfo MonoMethodMessage_t4604____Uri_PropertyInfo = 
 {
-	&MonoMethodMessage_t4601_il2cpp_TypeInfo/* parent */
+	&MonoMethodMessage_t4604_il2cpp_TypeInfo/* parent */
 	, "Uri"/* name */
-	, &MonoMethodMessage_get_Uri_m18314_MethodInfo/* get */
-	, &MonoMethodMessage_set_Uri_m18315_MethodInfo/* set */
+	, &MonoMethodMessage_get_Uri_m18346_MethodInfo/* get */
+	, &MonoMethodMessage_set_Uri_m18347_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo MonoMethodMessage_get_Exception_m18316_MethodInfo;
-static const PropertyInfo MonoMethodMessage_t4601____Exception_PropertyInfo = 
+extern const MethodInfo MonoMethodMessage_get_Exception_m18348_MethodInfo;
+static const PropertyInfo MonoMethodMessage_t4604____Exception_PropertyInfo = 
 {
-	&MonoMethodMessage_t4601_il2cpp_TypeInfo/* parent */
+	&MonoMethodMessage_t4604_il2cpp_TypeInfo/* parent */
 	, "Exception"/* name */
-	, &MonoMethodMessage_get_Exception_m18316_MethodInfo/* get */
+	, &MonoMethodMessage_get_Exception_m18348_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo MonoMethodMessage_get_OutArgCount_m18317_MethodInfo;
-static const PropertyInfo MonoMethodMessage_t4601____OutArgCount_PropertyInfo = 
+extern const MethodInfo MonoMethodMessage_get_OutArgCount_m18349_MethodInfo;
+static const PropertyInfo MonoMethodMessage_t4604____OutArgCount_PropertyInfo = 
 {
-	&MonoMethodMessage_t4601_il2cpp_TypeInfo/* parent */
+	&MonoMethodMessage_t4604_il2cpp_TypeInfo/* parent */
 	, "OutArgCount"/* name */
-	, &MonoMethodMessage_get_OutArgCount_m18317_MethodInfo/* get */
+	, &MonoMethodMessage_get_OutArgCount_m18349_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo MonoMethodMessage_get_OutArgs_m18318_MethodInfo;
-static const PropertyInfo MonoMethodMessage_t4601____OutArgs_PropertyInfo = 
+extern const MethodInfo MonoMethodMessage_get_OutArgs_m18350_MethodInfo;
+static const PropertyInfo MonoMethodMessage_t4604____OutArgs_PropertyInfo = 
 {
-	&MonoMethodMessage_t4601_il2cpp_TypeInfo/* parent */
+	&MonoMethodMessage_t4604_il2cpp_TypeInfo/* parent */
 	, "OutArgs"/* name */
-	, &MonoMethodMessage_get_OutArgs_m18318_MethodInfo/* get */
+	, &MonoMethodMessage_get_OutArgs_m18350_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo MonoMethodMessage_get_ReturnValue_m18319_MethodInfo;
-static const PropertyInfo MonoMethodMessage_t4601____ReturnValue_PropertyInfo = 
+extern const MethodInfo MonoMethodMessage_get_ReturnValue_m18351_MethodInfo;
+static const PropertyInfo MonoMethodMessage_t4604____ReturnValue_PropertyInfo = 
 {
-	&MonoMethodMessage_t4601_il2cpp_TypeInfo/* parent */
+	&MonoMethodMessage_t4604_il2cpp_TypeInfo/* parent */
 	, "ReturnValue"/* name */
-	, &MonoMethodMessage_get_ReturnValue_m18319_MethodInfo/* get */
+	, &MonoMethodMessage_get_ReturnValue_m18351_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* MonoMethodMessage_t4601_PropertyInfos[] =
+static const PropertyInfo* MonoMethodMessage_t4604_PropertyInfos[] =
 {
-	&MonoMethodMessage_t4601____Args_PropertyInfo,
-	&MonoMethodMessage_t4601____LogicalCallContext_PropertyInfo,
-	&MonoMethodMessage_t4601____MethodBase_PropertyInfo,
-	&MonoMethodMessage_t4601____MethodName_PropertyInfo,
-	&MonoMethodMessage_t4601____MethodSignature_PropertyInfo,
-	&MonoMethodMessage_t4601____TypeName_PropertyInfo,
-	&MonoMethodMessage_t4601____Uri_PropertyInfo,
-	&MonoMethodMessage_t4601____Exception_PropertyInfo,
-	&MonoMethodMessage_t4601____OutArgCount_PropertyInfo,
-	&MonoMethodMessage_t4601____OutArgs_PropertyInfo,
-	&MonoMethodMessage_t4601____ReturnValue_PropertyInfo,
+	&MonoMethodMessage_t4604____Args_PropertyInfo,
+	&MonoMethodMessage_t4604____LogicalCallContext_PropertyInfo,
+	&MonoMethodMessage_t4604____MethodBase_PropertyInfo,
+	&MonoMethodMessage_t4604____MethodName_PropertyInfo,
+	&MonoMethodMessage_t4604____MethodSignature_PropertyInfo,
+	&MonoMethodMessage_t4604____TypeName_PropertyInfo,
+	&MonoMethodMessage_t4604____Uri_PropertyInfo,
+	&MonoMethodMessage_t4604____Exception_PropertyInfo,
+	&MonoMethodMessage_t4604____OutArgCount_PropertyInfo,
+	&MonoMethodMessage_t4604____OutArgs_PropertyInfo,
+	&MonoMethodMessage_t4604____ReturnValue_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference MonoMethodMessage_t4601_VTable[] =
+static const Il2CppMethodReference MonoMethodMessage_t4604_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&MonoMethodMessage_set_Uri_m18315_MethodInfo,
-	&MonoMethodMessage_get_Args_m18308_MethodInfo,
-	&MonoMethodMessage_get_LogicalCallContext_m18309_MethodInfo,
-	&MonoMethodMessage_get_MethodBase_m18310_MethodInfo,
-	&MonoMethodMessage_get_MethodName_m18311_MethodInfo,
-	&MonoMethodMessage_get_MethodSignature_m18312_MethodInfo,
-	&MonoMethodMessage_get_TypeName_m18313_MethodInfo,
-	&MonoMethodMessage_get_Uri_m18314_MethodInfo,
-	&MonoMethodMessage_get_Exception_m18316_MethodInfo,
-	&MonoMethodMessage_get_OutArgs_m18318_MethodInfo,
-	&MonoMethodMessage_get_ReturnValue_m18319_MethodInfo,
-	&MonoMethodMessage_get_OutArgCount_m18317_MethodInfo,
+	&MonoMethodMessage_set_Uri_m18347_MethodInfo,
+	&MonoMethodMessage_get_Args_m18340_MethodInfo,
+	&MonoMethodMessage_get_LogicalCallContext_m18341_MethodInfo,
+	&MonoMethodMessage_get_MethodBase_m18342_MethodInfo,
+	&MonoMethodMessage_get_MethodName_m18343_MethodInfo,
+	&MonoMethodMessage_get_MethodSignature_m18344_MethodInfo,
+	&MonoMethodMessage_get_TypeName_m18345_MethodInfo,
+	&MonoMethodMessage_get_Uri_m18346_MethodInfo,
+	&MonoMethodMessage_get_Exception_m18348_MethodInfo,
+	&MonoMethodMessage_get_OutArgs_m18350_MethodInfo,
+	&MonoMethodMessage_get_ReturnValue_m18351_MethodInfo,
+	&MonoMethodMessage_get_OutArgCount_m18349_MethodInfo,
 };
-static bool MonoMethodMessage_t4601_VTableIsGenericMethod[] =
+static bool MonoMethodMessage_t4604_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -12109,53 +12109,53 @@ static bool MonoMethodMessage_t4601_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* MonoMethodMessage_t4601_InterfacesTypeInfos[] = 
+static const Il2CppType* MonoMethodMessage_t4604_InterfacesTypeInfos[] = 
 {
-	&IInternalMessage_t4890_0_0_0,
-	&IMessage_t4603_0_0_0,
-	&IMethodCallMessage_t4880_0_0_0,
-	&IMethodMessage_t4614_0_0_0,
-	&IMethodReturnMessage_t4879_0_0_0,
+	&IInternalMessage_t4893_0_0_0,
+	&IMessage_t4606_0_0_0,
+	&IMethodCallMessage_t4883_0_0_0,
+	&IMethodMessage_t4617_0_0_0,
+	&IMethodReturnMessage_t4882_0_0_0,
 };
-static Il2CppInterfaceOffsetPair MonoMethodMessage_t4601_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MonoMethodMessage_t4604_InterfacesOffsets[] = 
 {
-	{ &IInternalMessage_t4890_0_0_0, 4},
-	{ &IMessage_t4603_0_0_0, 5},
-	{ &IMethodCallMessage_t4880_0_0_0, 5},
-	{ &IMethodMessage_t4614_0_0_0, 5},
-	{ &IMethodReturnMessage_t4879_0_0_0, 12},
+	{ &IInternalMessage_t4893_0_0_0, 4},
+	{ &IMessage_t4606_0_0_0, 5},
+	{ &IMethodCallMessage_t4883_0_0_0, 5},
+	{ &IMethodMessage_t4617_0_0_0, 5},
+	{ &IMethodReturnMessage_t4882_0_0_0, 12},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MonoMethodMessage_t4601_1_0_0;
-struct MonoMethodMessage_t4601;
-const Il2CppTypeDefinitionMetadata MonoMethodMessage_t4601_DefinitionMetadata = 
+extern const Il2CppType MonoMethodMessage_t4604_1_0_0;
+struct MonoMethodMessage_t4604;
+const Il2CppTypeDefinitionMetadata MonoMethodMessage_t4604_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, MonoMethodMessage_t4601_InterfacesTypeInfos/* implementedInterfaces */
-	, MonoMethodMessage_t4601_InterfacesOffsets/* interfaceOffsets */
+	, MonoMethodMessage_t4604_InterfacesTypeInfos/* implementedInterfaces */
+	, MonoMethodMessage_t4604_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, MonoMethodMessage_t4601_VTable/* vtableMethods */
-	, MonoMethodMessage_t4601_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, MonoMethodMessage_t4604_VTable/* vtableMethods */
+	, MonoMethodMessage_t4604_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1610/* fieldStart */
 
 };
-TypeInfo MonoMethodMessage_t4601_il2cpp_TypeInfo = 
+TypeInfo MonoMethodMessage_t4604_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MonoMethodMessage"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, MonoMethodMessage_t4601_MethodInfos/* methods */
-	, MonoMethodMessage_t4601_PropertyInfos/* properties */
+	, MonoMethodMessage_t4604_MethodInfos/* methods */
+	, MonoMethodMessage_t4604_PropertyInfos/* properties */
 	, NULL/* events */
-	, &MonoMethodMessage_t4601_il2cpp_TypeInfo/* element_class */
+	, &MonoMethodMessage_t4604_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &MonoMethodMessage_t4601_0_0_0/* byval_arg */
-	, &MonoMethodMessage_t4601_1_0_0/* this_arg */
-	, &MonoMethodMessage_t4601_DefinitionMetadata/* definitionMetadata */
+	, &MonoMethodMessage_t4604_0_0_0/* byval_arg */
+	, &MonoMethodMessage_t4604_1_0_0/* this_arg */
+	, &MonoMethodMessage_t4604_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -12165,8 +12165,8 @@ TypeInfo MonoMethodMessage_t4601_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MonoMethodMessage_t4601)/* instance_size */
-	, sizeof (MonoMethodMessage_t4601)/* actualSize */
+	, sizeof (MonoMethodMessage_t4604)/* instance_size */
+	, sizeof (MonoMethodMessage_t4604)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -12198,16 +12198,16 @@ TypeInfo MonoMethodMessage_t4601_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.RemotingSurrogate
 #include "mscorlib_System_Runtime_Remoting_Messaging_RemotingSurrogate.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.RemotingSurrogate
-extern TypeInfo RemotingSurrogate_t4616_il2cpp_TypeInfo;
+extern TypeInfo RemotingSurrogate_t4619_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.RemotingSurrogate
 #include "mscorlib_System_Runtime_Remoting_Messaging_RemotingSurrogateMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.RemotingSurrogate::.ctor()
-extern const MethodInfo RemotingSurrogate__ctor_m18320_MethodInfo = 
+extern const MethodInfo RemotingSurrogate__ctor_m18352_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RemotingSurrogate__ctor_m18320/* method */
-	, &RemotingSurrogate_t4616_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingSurrogate__ctor_m18352/* method */
+	, &RemotingSurrogate_t4619_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -12225,27 +12225,27 @@ extern const MethodInfo RemotingSurrogate__ctor_m18320_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType SerializationInfo_t2917_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-extern const Il2CppType ISurrogateSelector_t4618_0_0_0;
-extern const Il2CppType ISurrogateSelector_t4618_0_0_0;
-static const ParameterInfo RemotingSurrogate_t4616_RemotingSurrogate_SetObjectData_m18321_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2920_0_0_0;
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+extern const Il2CppType ISurrogateSelector_t4621_0_0_0;
+extern const Il2CppType ISurrogateSelector_t4621_0_0_0;
+static const ParameterInfo RemotingSurrogate_t4619_RemotingSurrogate_SetObjectData_m18353_ParameterInfos[] = 
 {
 	{"obj", 0, 134222183, 0, &Object_t_0_0_0},
-	{"si", 1, 134222184, 0, &SerializationInfo_t2917_0_0_0},
-	{"sc", 2, 134222185, 0, &StreamingContext_t2918_0_0_0},
-	{"selector", 3, 134222186, 0, &ISurrogateSelector_t4618_0_0_0},
+	{"si", 1, 134222184, 0, &SerializationInfo_t2920_0_0_0},
+	{"sc", 2, 134222185, 0, &StreamingContext_t2921_0_0_0},
+	{"selector", 3, 134222186, 0, &ISurrogateSelector_t4621_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t_StreamingContext_t2918_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_StreamingContext_t2921_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.RemotingSurrogate::SetObjectData(System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector)
-extern const MethodInfo RemotingSurrogate_SetObjectData_m18321_MethodInfo = 
+extern const MethodInfo RemotingSurrogate_SetObjectData_m18353_MethodInfo = 
 {
 	"SetObjectData"/* name */
-	, (methodPointerType)&RemotingSurrogate_SetObjectData_m18321/* method */
-	, &RemotingSurrogate_t4616_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingSurrogate_SetObjectData_m18353/* method */
+	, &RemotingSurrogate_t4619_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t_StreamingContext_t2918_Object_t/* invoker_method */
-	, RemotingSurrogate_t4616_RemotingSurrogate_SetObjectData_m18321_ParameterInfos/* parameters */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_StreamingContext_t2921_Object_t/* invoker_method */
+	, RemotingSurrogate_t4619_RemotingSurrogate_SetObjectData_m18353_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -12259,23 +12259,23 @@ extern const MethodInfo RemotingSurrogate_SetObjectData_m18321_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* RemotingSurrogate_t4616_MethodInfos[] =
+static const MethodInfo* RemotingSurrogate_t4619_MethodInfos[] =
 {
-	&RemotingSurrogate__ctor_m18320_MethodInfo,
-	&RemotingSurrogate_SetObjectData_m18321_MethodInfo,
+	&RemotingSurrogate__ctor_m18352_MethodInfo,
+	&RemotingSurrogate_SetObjectData_m18353_MethodInfo,
 	NULL
 };
-extern const MethodInfo RemotingSurrogate_SetObjectData_m18321_MethodInfo;
-static const Il2CppMethodReference RemotingSurrogate_t4616_VTable[] =
+extern const MethodInfo RemotingSurrogate_SetObjectData_m18353_MethodInfo;
+static const Il2CppMethodReference RemotingSurrogate_t4619_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&RemotingSurrogate_SetObjectData_m18321_MethodInfo,
-	&RemotingSurrogate_SetObjectData_m18321_MethodInfo,
+	&RemotingSurrogate_SetObjectData_m18353_MethodInfo,
+	&RemotingSurrogate_SetObjectData_m18353_MethodInfo,
 };
-static bool RemotingSurrogate_t4616_VTableIsGenericMethod[] =
+static bool RemotingSurrogate_t4619_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -12284,47 +12284,47 @@ static bool RemotingSurrogate_t4616_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ISerializationSurrogate_t4668_0_0_0;
-static const Il2CppType* RemotingSurrogate_t4616_InterfacesTypeInfos[] = 
+extern const Il2CppType ISerializationSurrogate_t4671_0_0_0;
+static const Il2CppType* RemotingSurrogate_t4619_InterfacesTypeInfos[] = 
 {
-	&ISerializationSurrogate_t4668_0_0_0,
+	&ISerializationSurrogate_t4671_0_0_0,
 };
-static Il2CppInterfaceOffsetPair RemotingSurrogate_t4616_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair RemotingSurrogate_t4619_InterfacesOffsets[] = 
 {
-	{ &ISerializationSurrogate_t4668_0_0_0, 4},
+	{ &ISerializationSurrogate_t4671_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType RemotingSurrogate_t4616_0_0_0;
-extern const Il2CppType RemotingSurrogate_t4616_1_0_0;
-struct RemotingSurrogate_t4616;
-const Il2CppTypeDefinitionMetadata RemotingSurrogate_t4616_DefinitionMetadata = 
+extern const Il2CppType RemotingSurrogate_t4619_0_0_0;
+extern const Il2CppType RemotingSurrogate_t4619_1_0_0;
+struct RemotingSurrogate_t4619;
+const Il2CppTypeDefinitionMetadata RemotingSurrogate_t4619_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, RemotingSurrogate_t4616_InterfacesTypeInfos/* implementedInterfaces */
-	, RemotingSurrogate_t4616_InterfacesOffsets/* interfaceOffsets */
+	, RemotingSurrogate_t4619_InterfacesTypeInfos/* implementedInterfaces */
+	, RemotingSurrogate_t4619_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, RemotingSurrogate_t4616_VTable/* vtableMethods */
-	, RemotingSurrogate_t4616_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, RemotingSurrogate_t4619_VTable/* vtableMethods */
+	, RemotingSurrogate_t4619_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo RemotingSurrogate_t4616_il2cpp_TypeInfo = 
+TypeInfo RemotingSurrogate_t4619_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "RemotingSurrogate"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, RemotingSurrogate_t4616_MethodInfos/* methods */
+	, RemotingSurrogate_t4619_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &RemotingSurrogate_t4616_il2cpp_TypeInfo/* element_class */
+	, &RemotingSurrogate_t4619_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &RemotingSurrogate_t4616_0_0_0/* byval_arg */
-	, &RemotingSurrogate_t4616_1_0_0/* this_arg */
-	, &RemotingSurrogate_t4616_DefinitionMetadata/* definitionMetadata */
+	, &RemotingSurrogate_t4619_0_0_0/* byval_arg */
+	, &RemotingSurrogate_t4619_1_0_0/* this_arg */
+	, &RemotingSurrogate_t4619_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -12334,8 +12334,8 @@ TypeInfo RemotingSurrogate_t4616_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (RemotingSurrogate_t4616)/* instance_size */
-	, sizeof (RemotingSurrogate_t4616)/* actualSize */
+	, sizeof (RemotingSurrogate_t4619)/* instance_size */
+	, sizeof (RemotingSurrogate_t4619)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -12367,16 +12367,16 @@ TypeInfo RemotingSurrogate_t4616_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.ObjRefSurrogate
 #include "mscorlib_System_Runtime_Remoting_Messaging_ObjRefSurrogate.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.ObjRefSurrogate
-extern TypeInfo ObjRefSurrogate_t4617_il2cpp_TypeInfo;
+extern TypeInfo ObjRefSurrogate_t4620_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.ObjRefSurrogate
 #include "mscorlib_System_Runtime_Remoting_Messaging_ObjRefSurrogateMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ObjRefSurrogate::.ctor()
-extern const MethodInfo ObjRefSurrogate__ctor_m18322_MethodInfo = 
+extern const MethodInfo ObjRefSurrogate__ctor_m18354_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ObjRefSurrogate__ctor_m18322/* method */
-	, &ObjRefSurrogate_t4617_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRefSurrogate__ctor_m18354/* method */
+	, &ObjRefSurrogate_t4620_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -12394,26 +12394,26 @@ extern const MethodInfo ObjRefSurrogate__ctor_m18322_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType SerializationInfo_t2917_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-extern const Il2CppType ISurrogateSelector_t4618_0_0_0;
-static const ParameterInfo ObjRefSurrogate_t4617_ObjRefSurrogate_SetObjectData_m18323_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2920_0_0_0;
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+extern const Il2CppType ISurrogateSelector_t4621_0_0_0;
+static const ParameterInfo ObjRefSurrogate_t4620_ObjRefSurrogate_SetObjectData_m18355_ParameterInfos[] = 
 {
 	{"obj", 0, 134222187, 0, &Object_t_0_0_0},
-	{"si", 1, 134222188, 0, &SerializationInfo_t2917_0_0_0},
-	{"sc", 2, 134222189, 0, &StreamingContext_t2918_0_0_0},
-	{"selector", 3, 134222190, 0, &ISurrogateSelector_t4618_0_0_0},
+	{"si", 1, 134222188, 0, &SerializationInfo_t2920_0_0_0},
+	{"sc", 2, 134222189, 0, &StreamingContext_t2921_0_0_0},
+	{"selector", 3, 134222190, 0, &ISurrogateSelector_t4621_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t_StreamingContext_t2918_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_StreamingContext_t2921_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.ObjRefSurrogate::SetObjectData(System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector)
-extern const MethodInfo ObjRefSurrogate_SetObjectData_m18323_MethodInfo = 
+extern const MethodInfo ObjRefSurrogate_SetObjectData_m18355_MethodInfo = 
 {
 	"SetObjectData"/* name */
-	, (methodPointerType)&ObjRefSurrogate_SetObjectData_m18323/* method */
-	, &ObjRefSurrogate_t4617_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRefSurrogate_SetObjectData_m18355/* method */
+	, &ObjRefSurrogate_t4620_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t_StreamingContext_t2918_Object_t/* invoker_method */
-	, ObjRefSurrogate_t4617_ObjRefSurrogate_SetObjectData_m18323_ParameterInfos/* parameters */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_StreamingContext_t2921_Object_t/* invoker_method */
+	, ObjRefSurrogate_t4620_ObjRefSurrogate_SetObjectData_m18355_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -12427,23 +12427,23 @@ extern const MethodInfo ObjRefSurrogate_SetObjectData_m18323_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ObjRefSurrogate_t4617_MethodInfos[] =
+static const MethodInfo* ObjRefSurrogate_t4620_MethodInfos[] =
 {
-	&ObjRefSurrogate__ctor_m18322_MethodInfo,
-	&ObjRefSurrogate_SetObjectData_m18323_MethodInfo,
+	&ObjRefSurrogate__ctor_m18354_MethodInfo,
+	&ObjRefSurrogate_SetObjectData_m18355_MethodInfo,
 	NULL
 };
-extern const MethodInfo ObjRefSurrogate_SetObjectData_m18323_MethodInfo;
-static const Il2CppMethodReference ObjRefSurrogate_t4617_VTable[] =
+extern const MethodInfo ObjRefSurrogate_SetObjectData_m18355_MethodInfo;
+static const Il2CppMethodReference ObjRefSurrogate_t4620_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ObjRefSurrogate_SetObjectData_m18323_MethodInfo,
-	&ObjRefSurrogate_SetObjectData_m18323_MethodInfo,
+	&ObjRefSurrogate_SetObjectData_m18355_MethodInfo,
+	&ObjRefSurrogate_SetObjectData_m18355_MethodInfo,
 };
-static bool ObjRefSurrogate_t4617_VTableIsGenericMethod[] =
+static bool ObjRefSurrogate_t4620_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -12452,46 +12452,46 @@ static bool ObjRefSurrogate_t4617_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* ObjRefSurrogate_t4617_InterfacesTypeInfos[] = 
+static const Il2CppType* ObjRefSurrogate_t4620_InterfacesTypeInfos[] = 
 {
-	&ISerializationSurrogate_t4668_0_0_0,
+	&ISerializationSurrogate_t4671_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ObjRefSurrogate_t4617_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ObjRefSurrogate_t4620_InterfacesOffsets[] = 
 {
-	{ &ISerializationSurrogate_t4668_0_0_0, 4},
+	{ &ISerializationSurrogate_t4671_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ObjRefSurrogate_t4617_0_0_0;
-extern const Il2CppType ObjRefSurrogate_t4617_1_0_0;
-struct ObjRefSurrogate_t4617;
-const Il2CppTypeDefinitionMetadata ObjRefSurrogate_t4617_DefinitionMetadata = 
+extern const Il2CppType ObjRefSurrogate_t4620_0_0_0;
+extern const Il2CppType ObjRefSurrogate_t4620_1_0_0;
+struct ObjRefSurrogate_t4620;
+const Il2CppTypeDefinitionMetadata ObjRefSurrogate_t4620_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ObjRefSurrogate_t4617_InterfacesTypeInfos/* implementedInterfaces */
-	, ObjRefSurrogate_t4617_InterfacesOffsets/* interfaceOffsets */
+	, ObjRefSurrogate_t4620_InterfacesTypeInfos/* implementedInterfaces */
+	, ObjRefSurrogate_t4620_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ObjRefSurrogate_t4617_VTable/* vtableMethods */
-	, ObjRefSurrogate_t4617_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ObjRefSurrogate_t4620_VTable/* vtableMethods */
+	, ObjRefSurrogate_t4620_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo ObjRefSurrogate_t4617_il2cpp_TypeInfo = 
+TypeInfo ObjRefSurrogate_t4620_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ObjRefSurrogate"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, ObjRefSurrogate_t4617_MethodInfos/* methods */
+	, ObjRefSurrogate_t4620_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ObjRefSurrogate_t4617_il2cpp_TypeInfo/* element_class */
+	, &ObjRefSurrogate_t4620_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ObjRefSurrogate_t4617_0_0_0/* byval_arg */
-	, &ObjRefSurrogate_t4617_1_0_0/* this_arg */
-	, &ObjRefSurrogate_t4617_DefinitionMetadata/* definitionMetadata */
+	, &ObjRefSurrogate_t4620_0_0_0/* byval_arg */
+	, &ObjRefSurrogate_t4620_1_0_0/* this_arg */
+	, &ObjRefSurrogate_t4620_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -12501,8 +12501,8 @@ TypeInfo ObjRefSurrogate_t4617_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ObjRefSurrogate_t4617)/* instance_size */
-	, sizeof (ObjRefSurrogate_t4617)/* actualSize */
+	, sizeof (ObjRefSurrogate_t4620)/* instance_size */
+	, sizeof (ObjRefSurrogate_t4620)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -12534,16 +12534,16 @@ TypeInfo ObjRefSurrogate_t4617_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
 #include "mscorlib_System_Runtime_Remoting_Messaging_RemotingSurrogate_0.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
-extern TypeInfo RemotingSurrogateSelector_t4619_il2cpp_TypeInfo;
+extern TypeInfo RemotingSurrogateSelector_t4622_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
 #include "mscorlib_System_Runtime_Remoting_Messaging_RemotingSurrogate_0MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.RemotingSurrogateSelector::.ctor()
-extern const MethodInfo RemotingSurrogateSelector__ctor_m18324_MethodInfo = 
+extern const MethodInfo RemotingSurrogateSelector__ctor_m18356_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RemotingSurrogateSelector__ctor_m18324/* method */
-	, &RemotingSurrogateSelector_t4619_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingSurrogateSelector__ctor_m18356/* method */
+	, &RemotingSurrogateSelector_t4622_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -12562,11 +12562,11 @@ extern const MethodInfo RemotingSurrogateSelector__ctor_m18324_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.RemotingSurrogateSelector::.cctor()
-extern const MethodInfo RemotingSurrogateSelector__cctor_m18325_MethodInfo = 
+extern const MethodInfo RemotingSurrogateSelector__cctor_m18357_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&RemotingSurrogateSelector__cctor_m18325/* method */
-	, &RemotingSurrogateSelector_t4619_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingSurrogateSelector__cctor_m18357/* method */
+	, &RemotingSurrogateSelector_t4622_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -12584,25 +12584,25 @@ extern const MethodInfo RemotingSurrogateSelector__cctor_m18325_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-extern const Il2CppType ISurrogateSelector_t4618_1_0_2;
-extern const Il2CppType ISurrogateSelector_t4618_1_0_0;
-static const ParameterInfo RemotingSurrogateSelector_t4619_RemotingSurrogateSelector_GetSurrogate_m18326_ParameterInfos[] = 
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+extern const Il2CppType ISurrogateSelector_t4621_1_0_2;
+extern const Il2CppType ISurrogateSelector_t4621_1_0_0;
+static const ParameterInfo RemotingSurrogateSelector_t4622_RemotingSurrogateSelector_GetSurrogate_m18358_ParameterInfos[] = 
 {
 	{"type", 0, 134222191, 0, &Type_t_0_0_0},
-	{"context", 1, 134222192, 0, &StreamingContext_t2918_0_0_0},
-	{"ssout", 2, 134222193, 0, &ISurrogateSelector_t4618_1_0_2},
+	{"context", 1, 134222192, 0, &StreamingContext_t2921_0_0_0},
+	{"ssout", 2, 134222193, 0, &ISurrogateSelector_t4621_1_0_2},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_StreamingContext_t2918_ISurrogateSelectorU26_t5345 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_StreamingContext_t2921_ISurrogateSelectorU26_t5348 (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Serialization.ISerializationSurrogate System.Runtime.Remoting.Messaging.RemotingSurrogateSelector::GetSurrogate(System.Type,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector&)
-extern const MethodInfo RemotingSurrogateSelector_GetSurrogate_m18326_MethodInfo = 
+extern const MethodInfo RemotingSurrogateSelector_GetSurrogate_m18358_MethodInfo = 
 {
 	"GetSurrogate"/* name */
-	, (methodPointerType)&RemotingSurrogateSelector_GetSurrogate_m18326/* method */
-	, &RemotingSurrogateSelector_t4619_il2cpp_TypeInfo/* declaring_type */
-	, &ISerializationSurrogate_t4668_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_StreamingContext_t2918_ISurrogateSelectorU26_t5345/* invoker_method */
-	, RemotingSurrogateSelector_t4619_RemotingSurrogateSelector_GetSurrogate_m18326_ParameterInfos/* parameters */
+	, (methodPointerType)&RemotingSurrogateSelector_GetSurrogate_m18358/* method */
+	, &RemotingSurrogateSelector_t4622_il2cpp_TypeInfo/* declaring_type */
+	, &ISerializationSurrogate_t4671_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_StreamingContext_t2921_ISurrogateSelectorU26_t5348/* invoker_method */
+	, RemotingSurrogateSelector_t4622_RemotingSurrogateSelector_GetSurrogate_m18358_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -12616,24 +12616,24 @@ extern const MethodInfo RemotingSurrogateSelector_GetSurrogate_m18326_MethodInfo
 	, NULL/* dummy */
 
 };
-static const MethodInfo* RemotingSurrogateSelector_t4619_MethodInfos[] =
+static const MethodInfo* RemotingSurrogateSelector_t4622_MethodInfos[] =
 {
-	&RemotingSurrogateSelector__ctor_m18324_MethodInfo,
-	&RemotingSurrogateSelector__cctor_m18325_MethodInfo,
-	&RemotingSurrogateSelector_GetSurrogate_m18326_MethodInfo,
+	&RemotingSurrogateSelector__ctor_m18356_MethodInfo,
+	&RemotingSurrogateSelector__cctor_m18357_MethodInfo,
+	&RemotingSurrogateSelector_GetSurrogate_m18358_MethodInfo,
 	NULL
 };
-extern const MethodInfo RemotingSurrogateSelector_GetSurrogate_m18326_MethodInfo;
-static const Il2CppMethodReference RemotingSurrogateSelector_t4619_VTable[] =
+extern const MethodInfo RemotingSurrogateSelector_GetSurrogate_m18358_MethodInfo;
+static const Il2CppMethodReference RemotingSurrogateSelector_t4622_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&RemotingSurrogateSelector_GetSurrogate_m18326_MethodInfo,
-	&RemotingSurrogateSelector_GetSurrogate_m18326_MethodInfo,
+	&RemotingSurrogateSelector_GetSurrogate_m18358_MethodInfo,
+	&RemotingSurrogateSelector_GetSurrogate_m18358_MethodInfo,
 };
-static bool RemotingSurrogateSelector_t4619_VTableIsGenericMethod[] =
+static bool RemotingSurrogateSelector_t4622_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -12642,46 +12642,46 @@ static bool RemotingSurrogateSelector_t4619_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* RemotingSurrogateSelector_t4619_InterfacesTypeInfos[] = 
+static const Il2CppType* RemotingSurrogateSelector_t4622_InterfacesTypeInfos[] = 
 {
-	&ISurrogateSelector_t4618_0_0_0,
+	&ISurrogateSelector_t4621_0_0_0,
 };
-static Il2CppInterfaceOffsetPair RemotingSurrogateSelector_t4619_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair RemotingSurrogateSelector_t4622_InterfacesOffsets[] = 
 {
-	{ &ISurrogateSelector_t4618_0_0_0, 4},
+	{ &ISurrogateSelector_t4621_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType RemotingSurrogateSelector_t4619_0_0_0;
-extern const Il2CppType RemotingSurrogateSelector_t4619_1_0_0;
-struct RemotingSurrogateSelector_t4619;
-const Il2CppTypeDefinitionMetadata RemotingSurrogateSelector_t4619_DefinitionMetadata = 
+extern const Il2CppType RemotingSurrogateSelector_t4622_0_0_0;
+extern const Il2CppType RemotingSurrogateSelector_t4622_1_0_0;
+struct RemotingSurrogateSelector_t4622;
+const Il2CppTypeDefinitionMetadata RemotingSurrogateSelector_t4622_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, RemotingSurrogateSelector_t4619_InterfacesTypeInfos/* implementedInterfaces */
-	, RemotingSurrogateSelector_t4619_InterfacesOffsets/* interfaceOffsets */
+	, RemotingSurrogateSelector_t4622_InterfacesTypeInfos/* implementedInterfaces */
+	, RemotingSurrogateSelector_t4622_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, RemotingSurrogateSelector_t4619_VTable/* vtableMethods */
-	, RemotingSurrogateSelector_t4619_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, RemotingSurrogateSelector_t4622_VTable/* vtableMethods */
+	, RemotingSurrogateSelector_t4622_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1618/* fieldStart */
 
 };
-TypeInfo RemotingSurrogateSelector_t4619_il2cpp_TypeInfo = 
+TypeInfo RemotingSurrogateSelector_t4622_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "RemotingSurrogateSelector"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, RemotingSurrogateSelector_t4619_MethodInfos/* methods */
+	, RemotingSurrogateSelector_t4622_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &RemotingSurrogateSelector_t4619_il2cpp_TypeInfo/* element_class */
+	, &RemotingSurrogateSelector_t4622_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 559/* custom_attributes_cache */
-	, &RemotingSurrogateSelector_t4619_0_0_0/* byval_arg */
-	, &RemotingSurrogateSelector_t4619_1_0_0/* this_arg */
-	, &RemotingSurrogateSelector_t4619_DefinitionMetadata/* definitionMetadata */
+	, &RemotingSurrogateSelector_t4622_0_0_0/* byval_arg */
+	, &RemotingSurrogateSelector_t4622_1_0_0/* this_arg */
+	, &RemotingSurrogateSelector_t4622_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -12691,11 +12691,11 @@ TypeInfo RemotingSurrogateSelector_t4619_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (RemotingSurrogateSelector_t4619)/* instance_size */
-	, sizeof (RemotingSurrogateSelector_t4619)/* actualSize */
+	, sizeof (RemotingSurrogateSelector_t4622)/* instance_size */
+	, sizeof (RemotingSurrogateSelector_t4622)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(RemotingSurrogateSelector_t4619_StaticFields)/* static_fields_size */
+	, sizeof(RemotingSurrogateSelector_t4622_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048577/* flags */
@@ -12724,32 +12724,32 @@ TypeInfo RemotingSurrogateSelector_t4619_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Messaging.ReturnMessage
 #include "mscorlib_System_Runtime_Remoting_Messaging_ReturnMessage.h"
 // Metadata Definition System.Runtime.Remoting.Messaging.ReturnMessage
-extern TypeInfo ReturnMessage_t4620_il2cpp_TypeInfo;
+extern TypeInfo ReturnMessage_t4623_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Messaging.ReturnMessage
 #include "mscorlib_System_Runtime_Remoting_Messaging_ReturnMessageMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t680_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t683_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType LogicalCallContext_t4611_0_0_0;
-extern const Il2CppType IMethodCallMessage_t4880_0_0_0;
-static const ParameterInfo ReturnMessage_t4620_ReturnMessage__ctor_m18327_ParameterInfos[] = 
+extern const Il2CppType LogicalCallContext_t4614_0_0_0;
+extern const Il2CppType IMethodCallMessage_t4883_0_0_0;
+static const ParameterInfo ReturnMessage_t4623_ReturnMessage__ctor_m18359_ParameterInfos[] = 
 {
 	{"ret", 0, 134222194, 0, &Object_t_0_0_0},
-	{"outArgs", 1, 134222195, 0, &ObjectU5BU5D_t680_0_0_0},
+	{"outArgs", 1, 134222195, 0, &ObjectU5BU5D_t683_0_0_0},
 	{"outArgsCount", 2, 134222196, 0, &Int32_t82_0_0_0},
-	{"callCtx", 3, 134222197, 0, &LogicalCallContext_t4611_0_0_0},
-	{"mcm", 4, 134222198, 0, &IMethodCallMessage_t4880_0_0_0},
+	{"callCtx", 3, 134222197, 0, &LogicalCallContext_t4614_0_0_0},
+	{"mcm", 4, 134222198, 0, &IMethodCallMessage_t4883_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ReturnMessage::.ctor(System.Object,System.Object[],System.Int32,System.Runtime.Remoting.Messaging.LogicalCallContext,System.Runtime.Remoting.Messaging.IMethodCallMessage)
-extern const MethodInfo ReturnMessage__ctor_m18327_MethodInfo = 
+extern const MethodInfo ReturnMessage__ctor_m18359_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ReturnMessage__ctor_m18327/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReturnMessage__ctor_m18359/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Object_t_Object_t/* invoker_method */
-	, ReturnMessage_t4620_ReturnMessage__ctor_m18327_ParameterInfos/* parameters */
+	, ReturnMessage_t4623_ReturnMessage__ctor_m18359_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -12764,22 +12764,22 @@ extern const MethodInfo ReturnMessage__ctor_m18327_MethodInfo =
 
 };
 extern const Il2CppType Exception_t57_0_0_0;
-extern const Il2CppType IMethodCallMessage_t4880_0_0_0;
-static const ParameterInfo ReturnMessage_t4620_ReturnMessage__ctor_m18328_ParameterInfos[] = 
+extern const Il2CppType IMethodCallMessage_t4883_0_0_0;
+static const ParameterInfo ReturnMessage_t4623_ReturnMessage__ctor_m18360_ParameterInfos[] = 
 {
 	{"e", 0, 134222199, 0, &Exception_t57_0_0_0},
-	{"mcm", 1, 134222200, 0, &IMethodCallMessage_t4880_0_0_0},
+	{"mcm", 1, 134222200, 0, &IMethodCallMessage_t4883_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ReturnMessage::.ctor(System.Exception,System.Runtime.Remoting.Messaging.IMethodCallMessage)
-extern const MethodInfo ReturnMessage__ctor_m18328_MethodInfo = 
+extern const MethodInfo ReturnMessage__ctor_m18360_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ReturnMessage__ctor_m18328/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReturnMessage__ctor_m18360/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ReturnMessage_t4620_ReturnMessage__ctor_m18328_ParameterInfos/* parameters */
+	, ReturnMessage_t4623_ReturnMessage__ctor_m18360_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -12794,20 +12794,20 @@ extern const MethodInfo ReturnMessage__ctor_m18328_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ReturnMessage_t4620_ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18329_ParameterInfos[] = 
+static const ParameterInfo ReturnMessage_t4623_ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18361_ParameterInfos[] = 
 {
 	{"value", 0, 134222201, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ReturnMessage::System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri(System.String)
-extern const MethodInfo ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18329_MethodInfo = 
+extern const MethodInfo ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18361_MethodInfo = 
 {
 	"System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri"/* name */
-	, (methodPointerType)&ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18329/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18361/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ReturnMessage_t4620_ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18329_ParameterInfos/* parameters */
+	, ReturnMessage_t4623_ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18361_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
@@ -12823,12 +12823,12 @@ extern const MethodInfo ReturnMessage_System_Runtime_Remoting_Messaging_IInterna
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Runtime.Remoting.Messaging.ReturnMessage::get_Args()
-extern const MethodInfo ReturnMessage_get_Args_m18330_MethodInfo = 
+extern const MethodInfo ReturnMessage_get_Args_m18362_MethodInfo = 
 {
 	"get_Args"/* name */
-	, (methodPointerType)&ReturnMessage_get_Args_m18330/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t680_0_0_0/* return_type */
+	, (methodPointerType)&ReturnMessage_get_Args_m18362/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
+	, &ObjectU5BU5D_t683_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -12846,12 +12846,12 @@ extern const MethodInfo ReturnMessage_get_Args_m18330_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.LogicalCallContext System.Runtime.Remoting.Messaging.ReturnMessage::get_LogicalCallContext()
-extern const MethodInfo ReturnMessage_get_LogicalCallContext_m18331_MethodInfo = 
+extern const MethodInfo ReturnMessage_get_LogicalCallContext_m18363_MethodInfo = 
 {
 	"get_LogicalCallContext"/* name */
-	, (methodPointerType)&ReturnMessage_get_LogicalCallContext_m18331/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
-	, &LogicalCallContext_t4611_0_0_0/* return_type */
+	, (methodPointerType)&ReturnMessage_get_LogicalCallContext_m18363/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
+	, &LogicalCallContext_t4614_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -12869,12 +12869,12 @@ extern const MethodInfo ReturnMessage_get_LogicalCallContext_m18331_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.MethodBase System.Runtime.Remoting.Messaging.ReturnMessage::get_MethodBase()
-extern const MethodInfo ReturnMessage_get_MethodBase_m18332_MethodInfo = 
+extern const MethodInfo ReturnMessage_get_MethodBase_m18364_MethodInfo = 
 {
 	"get_MethodBase"/* name */
-	, (methodPointerType)&ReturnMessage_get_MethodBase_m18332/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
-	, &MethodBase_t1523_0_0_0/* return_type */
+	, (methodPointerType)&ReturnMessage_get_MethodBase_m18364/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
+	, &MethodBase_t1526_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -12892,11 +12892,11 @@ extern const MethodInfo ReturnMessage_get_MethodBase_m18332_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.ReturnMessage::get_MethodName()
-extern const MethodInfo ReturnMessage_get_MethodName_m18333_MethodInfo = 
+extern const MethodInfo ReturnMessage_get_MethodName_m18365_MethodInfo = 
 {
 	"get_MethodName"/* name */
-	, (methodPointerType)&ReturnMessage_get_MethodName_m18333/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReturnMessage_get_MethodName_m18365/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -12915,11 +12915,11 @@ extern const MethodInfo ReturnMessage_get_MethodName_m18333_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.ReturnMessage::get_MethodSignature()
-extern const MethodInfo ReturnMessage_get_MethodSignature_m18334_MethodInfo = 
+extern const MethodInfo ReturnMessage_get_MethodSignature_m18366_MethodInfo = 
 {
 	"get_MethodSignature"/* name */
-	, (methodPointerType)&ReturnMessage_get_MethodSignature_m18334/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReturnMessage_get_MethodSignature_m18366/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -12938,12 +12938,12 @@ extern const MethodInfo ReturnMessage_get_MethodSignature_m18334_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IDictionary System.Runtime.Remoting.Messaging.ReturnMessage::get_Properties()
-extern const MethodInfo ReturnMessage_get_Properties_m18335_MethodInfo = 
+extern const MethodInfo ReturnMessage_get_Properties_m18367_MethodInfo = 
 {
 	"get_Properties"/* name */
-	, (methodPointerType)&ReturnMessage_get_Properties_m18335/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
-	, &IDictionary_t683_0_0_0/* return_type */
+	, (methodPointerType)&ReturnMessage_get_Properties_m18367/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
+	, &IDictionary_t686_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -12961,11 +12961,11 @@ extern const MethodInfo ReturnMessage_get_Properties_m18335_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.ReturnMessage::get_TypeName()
-extern const MethodInfo ReturnMessage_get_TypeName_m18336_MethodInfo = 
+extern const MethodInfo ReturnMessage_get_TypeName_m18368_MethodInfo = 
 {
 	"get_TypeName"/* name */
-	, (methodPointerType)&ReturnMessage_get_TypeName_m18336/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReturnMessage_get_TypeName_m18368/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -12984,11 +12984,11 @@ extern const MethodInfo ReturnMessage_get_TypeName_m18336_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Messaging.ReturnMessage::get_Uri()
-extern const MethodInfo ReturnMessage_get_Uri_m18337_MethodInfo = 
+extern const MethodInfo ReturnMessage_get_Uri_m18369_MethodInfo = 
 {
 	"get_Uri"/* name */
-	, (methodPointerType)&ReturnMessage_get_Uri_m18337/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReturnMessage_get_Uri_m18369/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -13006,20 +13006,20 @@ extern const MethodInfo ReturnMessage_get_Uri_m18337_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ReturnMessage_t4620_ReturnMessage_set_Uri_m18338_ParameterInfos[] = 
+static const ParameterInfo ReturnMessage_t4623_ReturnMessage_set_Uri_m18370_ParameterInfos[] = 
 {
 	{"value", 0, 134222202, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Messaging.ReturnMessage::set_Uri(System.String)
-extern const MethodInfo ReturnMessage_set_Uri_m18338_MethodInfo = 
+extern const MethodInfo ReturnMessage_set_Uri_m18370_MethodInfo = 
 {
 	"set_Uri"/* name */
-	, (methodPointerType)&ReturnMessage_set_Uri_m18338/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReturnMessage_set_Uri_m18370/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ReturnMessage_t4620_ReturnMessage_set_Uri_m18338_ParameterInfos/* parameters */
+	, ReturnMessage_t4623_ReturnMessage_set_Uri_m18370_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -13035,11 +13035,11 @@ extern const MethodInfo ReturnMessage_set_Uri_m18338_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Exception System.Runtime.Remoting.Messaging.ReturnMessage::get_Exception()
-extern const MethodInfo ReturnMessage_get_Exception_m18339_MethodInfo = 
+extern const MethodInfo ReturnMessage_get_Exception_m18371_MethodInfo = 
 {
 	"get_Exception"/* name */
-	, (methodPointerType)&ReturnMessage_get_Exception_m18339/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReturnMessage_get_Exception_m18371/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
 	, &Exception_t57_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -13058,12 +13058,12 @@ extern const MethodInfo ReturnMessage_get_Exception_m18339_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Runtime.Remoting.Messaging.ReturnMessage::get_OutArgs()
-extern const MethodInfo ReturnMessage_get_OutArgs_m18340_MethodInfo = 
+extern const MethodInfo ReturnMessage_get_OutArgs_m18372_MethodInfo = 
 {
 	"get_OutArgs"/* name */
-	, (methodPointerType)&ReturnMessage_get_OutArgs_m18340/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t680_0_0_0/* return_type */
+	, (methodPointerType)&ReturnMessage_get_OutArgs_m18372/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
+	, &ObjectU5BU5D_t683_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -13081,11 +13081,11 @@ extern const MethodInfo ReturnMessage_get_OutArgs_m18340_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Messaging.ReturnMessage::get_ReturnValue()
-extern const MethodInfo ReturnMessage_get_ReturnValue_m18341_MethodInfo = 
+extern const MethodInfo ReturnMessage_get_ReturnValue_m18373_MethodInfo = 
 {
 	"get_ReturnValue"/* name */
-	, (methodPointerType)&ReturnMessage_get_ReturnValue_m18341/* method */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReturnMessage_get_ReturnValue_m18373/* method */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -13102,196 +13102,196 @@ extern const MethodInfo ReturnMessage_get_ReturnValue_m18341_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ReturnMessage_t4620_MethodInfos[] =
+static const MethodInfo* ReturnMessage_t4623_MethodInfos[] =
 {
-	&ReturnMessage__ctor_m18327_MethodInfo,
-	&ReturnMessage__ctor_m18328_MethodInfo,
-	&ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18329_MethodInfo,
-	&ReturnMessage_get_Args_m18330_MethodInfo,
-	&ReturnMessage_get_LogicalCallContext_m18331_MethodInfo,
-	&ReturnMessage_get_MethodBase_m18332_MethodInfo,
-	&ReturnMessage_get_MethodName_m18333_MethodInfo,
-	&ReturnMessage_get_MethodSignature_m18334_MethodInfo,
-	&ReturnMessage_get_Properties_m18335_MethodInfo,
-	&ReturnMessage_get_TypeName_m18336_MethodInfo,
-	&ReturnMessage_get_Uri_m18337_MethodInfo,
-	&ReturnMessage_set_Uri_m18338_MethodInfo,
-	&ReturnMessage_get_Exception_m18339_MethodInfo,
-	&ReturnMessage_get_OutArgs_m18340_MethodInfo,
-	&ReturnMessage_get_ReturnValue_m18341_MethodInfo,
+	&ReturnMessage__ctor_m18359_MethodInfo,
+	&ReturnMessage__ctor_m18360_MethodInfo,
+	&ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18361_MethodInfo,
+	&ReturnMessage_get_Args_m18362_MethodInfo,
+	&ReturnMessage_get_LogicalCallContext_m18363_MethodInfo,
+	&ReturnMessage_get_MethodBase_m18364_MethodInfo,
+	&ReturnMessage_get_MethodName_m18365_MethodInfo,
+	&ReturnMessage_get_MethodSignature_m18366_MethodInfo,
+	&ReturnMessage_get_Properties_m18367_MethodInfo,
+	&ReturnMessage_get_TypeName_m18368_MethodInfo,
+	&ReturnMessage_get_Uri_m18369_MethodInfo,
+	&ReturnMessage_set_Uri_m18370_MethodInfo,
+	&ReturnMessage_get_Exception_m18371_MethodInfo,
+	&ReturnMessage_get_OutArgs_m18372_MethodInfo,
+	&ReturnMessage_get_ReturnValue_m18373_MethodInfo,
 	NULL
 };
-extern const MethodInfo ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18329_MethodInfo;
-static const PropertyInfo ReturnMessage_t4620____System_Runtime_Remoting_Messaging_IInternalMessage_Uri_PropertyInfo = 
+extern const MethodInfo ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18361_MethodInfo;
+static const PropertyInfo ReturnMessage_t4623____System_Runtime_Remoting_Messaging_IInternalMessage_Uri_PropertyInfo = 
 {
-	&ReturnMessage_t4620_il2cpp_TypeInfo/* parent */
+	&ReturnMessage_t4623_il2cpp_TypeInfo/* parent */
 	, "System.Runtime.Remoting.Messaging.IInternalMessage.Uri"/* name */
 	, NULL/* get */
-	, &ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18329_MethodInfo/* set */
+	, &ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18361_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ReturnMessage_get_Args_m18330_MethodInfo;
-static const PropertyInfo ReturnMessage_t4620____Args_PropertyInfo = 
+extern const MethodInfo ReturnMessage_get_Args_m18362_MethodInfo;
+static const PropertyInfo ReturnMessage_t4623____Args_PropertyInfo = 
 {
-	&ReturnMessage_t4620_il2cpp_TypeInfo/* parent */
+	&ReturnMessage_t4623_il2cpp_TypeInfo/* parent */
 	, "Args"/* name */
-	, &ReturnMessage_get_Args_m18330_MethodInfo/* get */
+	, &ReturnMessage_get_Args_m18362_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ReturnMessage_get_LogicalCallContext_m18331_MethodInfo;
-static const PropertyInfo ReturnMessage_t4620____LogicalCallContext_PropertyInfo = 
+extern const MethodInfo ReturnMessage_get_LogicalCallContext_m18363_MethodInfo;
+static const PropertyInfo ReturnMessage_t4623____LogicalCallContext_PropertyInfo = 
 {
-	&ReturnMessage_t4620_il2cpp_TypeInfo/* parent */
+	&ReturnMessage_t4623_il2cpp_TypeInfo/* parent */
 	, "LogicalCallContext"/* name */
-	, &ReturnMessage_get_LogicalCallContext_m18331_MethodInfo/* get */
+	, &ReturnMessage_get_LogicalCallContext_m18363_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ReturnMessage_get_MethodBase_m18332_MethodInfo;
-static const PropertyInfo ReturnMessage_t4620____MethodBase_PropertyInfo = 
+extern const MethodInfo ReturnMessage_get_MethodBase_m18364_MethodInfo;
+static const PropertyInfo ReturnMessage_t4623____MethodBase_PropertyInfo = 
 {
-	&ReturnMessage_t4620_il2cpp_TypeInfo/* parent */
+	&ReturnMessage_t4623_il2cpp_TypeInfo/* parent */
 	, "MethodBase"/* name */
-	, &ReturnMessage_get_MethodBase_m18332_MethodInfo/* get */
+	, &ReturnMessage_get_MethodBase_m18364_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ReturnMessage_get_MethodName_m18333_MethodInfo;
-static const PropertyInfo ReturnMessage_t4620____MethodName_PropertyInfo = 
+extern const MethodInfo ReturnMessage_get_MethodName_m18365_MethodInfo;
+static const PropertyInfo ReturnMessage_t4623____MethodName_PropertyInfo = 
 {
-	&ReturnMessage_t4620_il2cpp_TypeInfo/* parent */
+	&ReturnMessage_t4623_il2cpp_TypeInfo/* parent */
 	, "MethodName"/* name */
-	, &ReturnMessage_get_MethodName_m18333_MethodInfo/* get */
+	, &ReturnMessage_get_MethodName_m18365_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ReturnMessage_get_MethodSignature_m18334_MethodInfo;
-static const PropertyInfo ReturnMessage_t4620____MethodSignature_PropertyInfo = 
+extern const MethodInfo ReturnMessage_get_MethodSignature_m18366_MethodInfo;
+static const PropertyInfo ReturnMessage_t4623____MethodSignature_PropertyInfo = 
 {
-	&ReturnMessage_t4620_il2cpp_TypeInfo/* parent */
+	&ReturnMessage_t4623_il2cpp_TypeInfo/* parent */
 	, "MethodSignature"/* name */
-	, &ReturnMessage_get_MethodSignature_m18334_MethodInfo/* get */
+	, &ReturnMessage_get_MethodSignature_m18366_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ReturnMessage_get_Properties_m18335_MethodInfo;
-static const PropertyInfo ReturnMessage_t4620____Properties_PropertyInfo = 
+extern const MethodInfo ReturnMessage_get_Properties_m18367_MethodInfo;
+static const PropertyInfo ReturnMessage_t4623____Properties_PropertyInfo = 
 {
-	&ReturnMessage_t4620_il2cpp_TypeInfo/* parent */
+	&ReturnMessage_t4623_il2cpp_TypeInfo/* parent */
 	, "Properties"/* name */
-	, &ReturnMessage_get_Properties_m18335_MethodInfo/* get */
+	, &ReturnMessage_get_Properties_m18367_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ReturnMessage_get_TypeName_m18336_MethodInfo;
-static const PropertyInfo ReturnMessage_t4620____TypeName_PropertyInfo = 
+extern const MethodInfo ReturnMessage_get_TypeName_m18368_MethodInfo;
+static const PropertyInfo ReturnMessage_t4623____TypeName_PropertyInfo = 
 {
-	&ReturnMessage_t4620_il2cpp_TypeInfo/* parent */
+	&ReturnMessage_t4623_il2cpp_TypeInfo/* parent */
 	, "TypeName"/* name */
-	, &ReturnMessage_get_TypeName_m18336_MethodInfo/* get */
+	, &ReturnMessage_get_TypeName_m18368_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ReturnMessage_get_Uri_m18337_MethodInfo;
-extern const MethodInfo ReturnMessage_set_Uri_m18338_MethodInfo;
-static const PropertyInfo ReturnMessage_t4620____Uri_PropertyInfo = 
+extern const MethodInfo ReturnMessage_get_Uri_m18369_MethodInfo;
+extern const MethodInfo ReturnMessage_set_Uri_m18370_MethodInfo;
+static const PropertyInfo ReturnMessage_t4623____Uri_PropertyInfo = 
 {
-	&ReturnMessage_t4620_il2cpp_TypeInfo/* parent */
+	&ReturnMessage_t4623_il2cpp_TypeInfo/* parent */
 	, "Uri"/* name */
-	, &ReturnMessage_get_Uri_m18337_MethodInfo/* get */
-	, &ReturnMessage_set_Uri_m18338_MethodInfo/* set */
+	, &ReturnMessage_get_Uri_m18369_MethodInfo/* get */
+	, &ReturnMessage_set_Uri_m18370_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ReturnMessage_get_Exception_m18339_MethodInfo;
-static const PropertyInfo ReturnMessage_t4620____Exception_PropertyInfo = 
+extern const MethodInfo ReturnMessage_get_Exception_m18371_MethodInfo;
+static const PropertyInfo ReturnMessage_t4623____Exception_PropertyInfo = 
 {
-	&ReturnMessage_t4620_il2cpp_TypeInfo/* parent */
+	&ReturnMessage_t4623_il2cpp_TypeInfo/* parent */
 	, "Exception"/* name */
-	, &ReturnMessage_get_Exception_m18339_MethodInfo/* get */
+	, &ReturnMessage_get_Exception_m18371_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ReturnMessage_get_OutArgs_m18340_MethodInfo;
-static const PropertyInfo ReturnMessage_t4620____OutArgs_PropertyInfo = 
+extern const MethodInfo ReturnMessage_get_OutArgs_m18372_MethodInfo;
+static const PropertyInfo ReturnMessage_t4623____OutArgs_PropertyInfo = 
 {
-	&ReturnMessage_t4620_il2cpp_TypeInfo/* parent */
+	&ReturnMessage_t4623_il2cpp_TypeInfo/* parent */
 	, "OutArgs"/* name */
-	, &ReturnMessage_get_OutArgs_m18340_MethodInfo/* get */
+	, &ReturnMessage_get_OutArgs_m18372_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ReturnMessage_get_ReturnValue_m18341_MethodInfo;
-static const PropertyInfo ReturnMessage_t4620____ReturnValue_PropertyInfo = 
+extern const MethodInfo ReturnMessage_get_ReturnValue_m18373_MethodInfo;
+static const PropertyInfo ReturnMessage_t4623____ReturnValue_PropertyInfo = 
 {
-	&ReturnMessage_t4620_il2cpp_TypeInfo/* parent */
+	&ReturnMessage_t4623_il2cpp_TypeInfo/* parent */
 	, "ReturnValue"/* name */
-	, &ReturnMessage_get_ReturnValue_m18341_MethodInfo/* get */
+	, &ReturnMessage_get_ReturnValue_m18373_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ReturnMessage_t4620_PropertyInfos[] =
+static const PropertyInfo* ReturnMessage_t4623_PropertyInfos[] =
 {
-	&ReturnMessage_t4620____System_Runtime_Remoting_Messaging_IInternalMessage_Uri_PropertyInfo,
-	&ReturnMessage_t4620____Args_PropertyInfo,
-	&ReturnMessage_t4620____LogicalCallContext_PropertyInfo,
-	&ReturnMessage_t4620____MethodBase_PropertyInfo,
-	&ReturnMessage_t4620____MethodName_PropertyInfo,
-	&ReturnMessage_t4620____MethodSignature_PropertyInfo,
-	&ReturnMessage_t4620____Properties_PropertyInfo,
-	&ReturnMessage_t4620____TypeName_PropertyInfo,
-	&ReturnMessage_t4620____Uri_PropertyInfo,
-	&ReturnMessage_t4620____Exception_PropertyInfo,
-	&ReturnMessage_t4620____OutArgs_PropertyInfo,
-	&ReturnMessage_t4620____ReturnValue_PropertyInfo,
+	&ReturnMessage_t4623____System_Runtime_Remoting_Messaging_IInternalMessage_Uri_PropertyInfo,
+	&ReturnMessage_t4623____Args_PropertyInfo,
+	&ReturnMessage_t4623____LogicalCallContext_PropertyInfo,
+	&ReturnMessage_t4623____MethodBase_PropertyInfo,
+	&ReturnMessage_t4623____MethodName_PropertyInfo,
+	&ReturnMessage_t4623____MethodSignature_PropertyInfo,
+	&ReturnMessage_t4623____Properties_PropertyInfo,
+	&ReturnMessage_t4623____TypeName_PropertyInfo,
+	&ReturnMessage_t4623____Uri_PropertyInfo,
+	&ReturnMessage_t4623____Exception_PropertyInfo,
+	&ReturnMessage_t4623____OutArgs_PropertyInfo,
+	&ReturnMessage_t4623____ReturnValue_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ReturnMessage_t4620_VTable[] =
+static const Il2CppMethodReference ReturnMessage_t4623_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18329_MethodInfo,
-	&ReturnMessage_get_Args_m18330_MethodInfo,
-	&ReturnMessage_get_LogicalCallContext_m18331_MethodInfo,
-	&ReturnMessage_get_MethodBase_m18332_MethodInfo,
-	&ReturnMessage_get_MethodName_m18333_MethodInfo,
-	&ReturnMessage_get_MethodSignature_m18334_MethodInfo,
-	&ReturnMessage_get_TypeName_m18336_MethodInfo,
-	&ReturnMessage_get_Uri_m18337_MethodInfo,
-	&ReturnMessage_get_Exception_m18339_MethodInfo,
-	&ReturnMessage_get_OutArgs_m18340_MethodInfo,
-	&ReturnMessage_get_ReturnValue_m18341_MethodInfo,
-	&ReturnMessage_get_Properties_m18335_MethodInfo,
-	&ReturnMessage_set_Uri_m18338_MethodInfo,
-	&ReturnMessage_get_ReturnValue_m18341_MethodInfo,
+	&ReturnMessage_System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri_m18361_MethodInfo,
+	&ReturnMessage_get_Args_m18362_MethodInfo,
+	&ReturnMessage_get_LogicalCallContext_m18363_MethodInfo,
+	&ReturnMessage_get_MethodBase_m18364_MethodInfo,
+	&ReturnMessage_get_MethodName_m18365_MethodInfo,
+	&ReturnMessage_get_MethodSignature_m18366_MethodInfo,
+	&ReturnMessage_get_TypeName_m18368_MethodInfo,
+	&ReturnMessage_get_Uri_m18369_MethodInfo,
+	&ReturnMessage_get_Exception_m18371_MethodInfo,
+	&ReturnMessage_get_OutArgs_m18372_MethodInfo,
+	&ReturnMessage_get_ReturnValue_m18373_MethodInfo,
+	&ReturnMessage_get_Properties_m18367_MethodInfo,
+	&ReturnMessage_set_Uri_m18370_MethodInfo,
+	&ReturnMessage_get_ReturnValue_m18373_MethodInfo,
 };
-static bool ReturnMessage_t4620_VTableIsGenericMethod[] =
+static bool ReturnMessage_t4623_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -13312,52 +13312,52 @@ static bool ReturnMessage_t4620_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* ReturnMessage_t4620_InterfacesTypeInfos[] = 
+static const Il2CppType* ReturnMessage_t4623_InterfacesTypeInfos[] = 
 {
-	&IInternalMessage_t4890_0_0_0,
-	&IMessage_t4603_0_0_0,
-	&IMethodMessage_t4614_0_0_0,
-	&IMethodReturnMessage_t4879_0_0_0,
+	&IInternalMessage_t4893_0_0_0,
+	&IMessage_t4606_0_0_0,
+	&IMethodMessage_t4617_0_0_0,
+	&IMethodReturnMessage_t4882_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ReturnMessage_t4620_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ReturnMessage_t4623_InterfacesOffsets[] = 
 {
-	{ &IInternalMessage_t4890_0_0_0, 4},
-	{ &IMessage_t4603_0_0_0, 5},
-	{ &IMethodMessage_t4614_0_0_0, 5},
-	{ &IMethodReturnMessage_t4879_0_0_0, 12},
+	{ &IInternalMessage_t4893_0_0_0, 4},
+	{ &IMessage_t4606_0_0_0, 5},
+	{ &IMethodMessage_t4617_0_0_0, 5},
+	{ &IMethodReturnMessage_t4882_0_0_0, 12},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ReturnMessage_t4620_0_0_0;
-extern const Il2CppType ReturnMessage_t4620_1_0_0;
-struct ReturnMessage_t4620;
-const Il2CppTypeDefinitionMetadata ReturnMessage_t4620_DefinitionMetadata = 
+extern const Il2CppType ReturnMessage_t4623_0_0_0;
+extern const Il2CppType ReturnMessage_t4623_1_0_0;
+struct ReturnMessage_t4623;
+const Il2CppTypeDefinitionMetadata ReturnMessage_t4623_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ReturnMessage_t4620_InterfacesTypeInfos/* implementedInterfaces */
-	, ReturnMessage_t4620_InterfacesOffsets/* interfaceOffsets */
+	, ReturnMessage_t4623_InterfacesTypeInfos/* implementedInterfaces */
+	, ReturnMessage_t4623_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ReturnMessage_t4620_VTable/* vtableMethods */
-	, ReturnMessage_t4620_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ReturnMessage_t4623_VTable/* vtableMethods */
+	, ReturnMessage_t4623_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1622/* fieldStart */
 
 };
-TypeInfo ReturnMessage_t4620_il2cpp_TypeInfo = 
+TypeInfo ReturnMessage_t4623_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ReturnMessage"/* name */
 	, "System.Runtime.Remoting.Messaging"/* namespaze */
-	, ReturnMessage_t4620_MethodInfos/* methods */
-	, ReturnMessage_t4620_PropertyInfos/* properties */
+	, ReturnMessage_t4623_MethodInfos/* methods */
+	, ReturnMessage_t4623_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ReturnMessage_t4620_il2cpp_TypeInfo/* element_class */
+	, &ReturnMessage_t4623_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 560/* custom_attributes_cache */
-	, &ReturnMessage_t4620_0_0_0/* byval_arg */
-	, &ReturnMessage_t4620_1_0_0/* this_arg */
-	, &ReturnMessage_t4620_DefinitionMetadata/* definitionMetadata */
+	, &ReturnMessage_t4623_0_0_0/* byval_arg */
+	, &ReturnMessage_t4623_1_0_0/* this_arg */
+	, &ReturnMessage_t4623_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -13367,8 +13367,8 @@ TypeInfo ReturnMessage_t4620_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ReturnMessage_t4620)/* instance_size */
-	, sizeof (ReturnMessage_t4620)/* actualSize */
+	, sizeof (ReturnMessage_t4623)/* instance_size */
+	, sizeof (ReturnMessage_t4623)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -13400,24 +13400,24 @@ TypeInfo ReturnMessage_t4620_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Proxies.ProxyAttribute
 #include "mscorlib_System_Runtime_Remoting_Proxies_ProxyAttribute.h"
 // Metadata Definition System.Runtime.Remoting.Proxies.ProxyAttribute
-extern TypeInfo ProxyAttribute_t4621_il2cpp_TypeInfo;
+extern TypeInfo ProxyAttribute_t4624_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Proxies.ProxyAttribute
 #include "mscorlib_System_Runtime_Remoting_Proxies_ProxyAttributeMethodDeclarations.h"
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ProxyAttribute_t4621_ProxyAttribute_CreateInstance_m18342_ParameterInfos[] = 
+static const ParameterInfo ProxyAttribute_t4624_ProxyAttribute_CreateInstance_m18374_ParameterInfos[] = 
 {
 	{"serverType", 0, 134222203, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.MarshalByRefObject System.Runtime.Remoting.Proxies.ProxyAttribute::CreateInstance(System.Type)
-extern const MethodInfo ProxyAttribute_CreateInstance_m18342_MethodInfo = 
+extern const MethodInfo ProxyAttribute_CreateInstance_m18374_MethodInfo = 
 {
 	"CreateInstance"/* name */
-	, (methodPointerType)&ProxyAttribute_CreateInstance_m18342/* method */
-	, &ProxyAttribute_t4621_il2cpp_TypeInfo/* declaring_type */
-	, &MarshalByRefObject_t4074_0_0_0/* return_type */
+	, (methodPointerType)&ProxyAttribute_CreateInstance_m18374/* method */
+	, &ProxyAttribute_t4624_il2cpp_TypeInfo/* declaring_type */
+	, &MarshalByRefObject_t4077_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ProxyAttribute_t4621_ProxyAttribute_CreateInstance_m18342_ParameterInfos/* parameters */
+	, ProxyAttribute_t4624_ProxyAttribute_CreateInstance_m18374_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -13431,29 +13431,29 @@ extern const MethodInfo ProxyAttribute_CreateInstance_m18342_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjRef_t4630_0_0_0;
-extern const Il2CppType ObjRef_t4630_0_0_0;
+extern const Il2CppType ObjRef_t4633_0_0_0;
+extern const Il2CppType ObjRef_t4633_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType Context_t4595_0_0_0;
-static const ParameterInfo ProxyAttribute_t4621_ProxyAttribute_CreateProxy_m18343_ParameterInfos[] = 
+extern const Il2CppType Context_t4598_0_0_0;
+static const ParameterInfo ProxyAttribute_t4624_ProxyAttribute_CreateProxy_m18375_ParameterInfos[] = 
 {
-	{"objRef", 0, 134222204, 0, &ObjRef_t4630_0_0_0},
+	{"objRef", 0, 134222204, 0, &ObjRef_t4633_0_0_0},
 	{"serverType", 1, 134222205, 0, &Type_t_0_0_0},
 	{"serverObject", 2, 134222206, 0, &Object_t_0_0_0},
-	{"serverContext", 3, 134222207, 0, &Context_t4595_0_0_0},
+	{"serverContext", 3, 134222207, 0, &Context_t4598_0_0_0},
 };
-extern const Il2CppType RealProxy_t4622_0_0_0;
+extern const Il2CppType RealProxy_t4625_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Proxies.RealProxy System.Runtime.Remoting.Proxies.ProxyAttribute::CreateProxy(System.Runtime.Remoting.ObjRef,System.Type,System.Object,System.Runtime.Remoting.Contexts.Context)
-extern const MethodInfo ProxyAttribute_CreateProxy_m18343_MethodInfo = 
+extern const MethodInfo ProxyAttribute_CreateProxy_m18375_MethodInfo = 
 {
 	"CreateProxy"/* name */
-	, (methodPointerType)&ProxyAttribute_CreateProxy_m18343/* method */
-	, &ProxyAttribute_t4621_il2cpp_TypeInfo/* declaring_type */
-	, &RealProxy_t4622_0_0_0/* return_type */
+	, (methodPointerType)&ProxyAttribute_CreateProxy_m18375/* method */
+	, &ProxyAttribute_t4624_il2cpp_TypeInfo/* declaring_type */
+	, &RealProxy_t4625_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, ProxyAttribute_t4621_ProxyAttribute_CreateProxy_m18343_ParameterInfos/* parameters */
+	, ProxyAttribute_t4624_ProxyAttribute_CreateProxy_m18375_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -13467,21 +13467,21 @@ extern const MethodInfo ProxyAttribute_CreateProxy_m18343_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IConstructionCallMessage_t4876_0_0_0;
-static const ParameterInfo ProxyAttribute_t4621_ProxyAttribute_GetPropertiesForNewContext_m18344_ParameterInfos[] = 
+extern const Il2CppType IConstructionCallMessage_t4879_0_0_0;
+static const ParameterInfo ProxyAttribute_t4624_ProxyAttribute_GetPropertiesForNewContext_m18376_ParameterInfos[] = 
 {
-	{"msg", 0, 134222208, 0, &IConstructionCallMessage_t4876_0_0_0},
+	{"msg", 0, 134222208, 0, &IConstructionCallMessage_t4879_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Proxies.ProxyAttribute::GetPropertiesForNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern const MethodInfo ProxyAttribute_GetPropertiesForNewContext_m18344_MethodInfo = 
+extern const MethodInfo ProxyAttribute_GetPropertiesForNewContext_m18376_MethodInfo = 
 {
 	"GetPropertiesForNewContext"/* name */
-	, (methodPointerType)&ProxyAttribute_GetPropertiesForNewContext_m18344/* method */
-	, &ProxyAttribute_t4621_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ProxyAttribute_GetPropertiesForNewContext_m18376/* method */
+	, &ProxyAttribute_t4624_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ProxyAttribute_t4621_ProxyAttribute_GetPropertiesForNewContext_m18344_ParameterInfos/* parameters */
+	, ProxyAttribute_t4624_ProxyAttribute_GetPropertiesForNewContext_m18376_ParameterInfos/* parameters */
 	, 562/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -13495,23 +13495,23 @@ extern const MethodInfo ProxyAttribute_GetPropertiesForNewContext_m18344_MethodI
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Context_t4595_0_0_0;
-extern const Il2CppType IConstructionCallMessage_t4876_0_0_0;
-static const ParameterInfo ProxyAttribute_t4621_ProxyAttribute_IsContextOK_m18345_ParameterInfos[] = 
+extern const Il2CppType Context_t4598_0_0_0;
+extern const Il2CppType IConstructionCallMessage_t4879_0_0_0;
+static const ParameterInfo ProxyAttribute_t4624_ProxyAttribute_IsContextOK_m18377_ParameterInfos[] = 
 {
-	{"ctx", 0, 134222209, 0, &Context_t4595_0_0_0},
-	{"msg", 1, 134222210, 0, &IConstructionCallMessage_t4876_0_0_0},
+	{"ctx", 0, 134222209, 0, &Context_t4598_0_0_0},
+	{"msg", 1, 134222210, 0, &IConstructionCallMessage_t4879_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Proxies.ProxyAttribute::IsContextOK(System.Runtime.Remoting.Contexts.Context,System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern const MethodInfo ProxyAttribute_IsContextOK_m18345_MethodInfo = 
+extern const MethodInfo ProxyAttribute_IsContextOK_m18377_MethodInfo = 
 {
 	"IsContextOK"/* name */
-	, (methodPointerType)&ProxyAttribute_IsContextOK_m18345/* method */
-	, &ProxyAttribute_t4621_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ProxyAttribute_IsContextOK_m18377/* method */
+	, &ProxyAttribute_t4624_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, ProxyAttribute_t4621_ProxyAttribute_IsContextOK_m18345_ParameterInfos/* parameters */
+	, ProxyAttribute_t4624_ProxyAttribute_IsContextOK_m18377_ParameterInfos/* parameters */
 	, 563/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -13525,32 +13525,32 @@ extern const MethodInfo ProxyAttribute_IsContextOK_m18345_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ProxyAttribute_t4621_MethodInfos[] =
+static const MethodInfo* ProxyAttribute_t4624_MethodInfos[] =
 {
-	&ProxyAttribute_CreateInstance_m18342_MethodInfo,
-	&ProxyAttribute_CreateProxy_m18343_MethodInfo,
-	&ProxyAttribute_GetPropertiesForNewContext_m18344_MethodInfo,
-	&ProxyAttribute_IsContextOK_m18345_MethodInfo,
+	&ProxyAttribute_CreateInstance_m18374_MethodInfo,
+	&ProxyAttribute_CreateProxy_m18375_MethodInfo,
+	&ProxyAttribute_GetPropertiesForNewContext_m18376_MethodInfo,
+	&ProxyAttribute_IsContextOK_m18377_MethodInfo,
 	NULL
 };
 extern const MethodInfo Attribute_Equals_m489_MethodInfo;
 extern const MethodInfo Attribute_GetHashCode_m491_MethodInfo;
-extern const MethodInfo ProxyAttribute_GetPropertiesForNewContext_m18344_MethodInfo;
-extern const MethodInfo ProxyAttribute_IsContextOK_m18345_MethodInfo;
-extern const MethodInfo ProxyAttribute_CreateInstance_m18342_MethodInfo;
-extern const MethodInfo ProxyAttribute_CreateProxy_m18343_MethodInfo;
-static const Il2CppMethodReference ProxyAttribute_t4621_VTable[] =
+extern const MethodInfo ProxyAttribute_GetPropertiesForNewContext_m18376_MethodInfo;
+extern const MethodInfo ProxyAttribute_IsContextOK_m18377_MethodInfo;
+extern const MethodInfo ProxyAttribute_CreateInstance_m18374_MethodInfo;
+extern const MethodInfo ProxyAttribute_CreateProxy_m18375_MethodInfo;
+static const Il2CppMethodReference ProxyAttribute_t4624_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Attribute_GetHashCode_m491_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ProxyAttribute_GetPropertiesForNewContext_m18344_MethodInfo,
-	&ProxyAttribute_IsContextOK_m18345_MethodInfo,
-	&ProxyAttribute_CreateInstance_m18342_MethodInfo,
-	&ProxyAttribute_CreateProxy_m18343_MethodInfo,
+	&ProxyAttribute_GetPropertiesForNewContext_m18376_MethodInfo,
+	&ProxyAttribute_IsContextOK_m18377_MethodInfo,
+	&ProxyAttribute_CreateInstance_m18374_MethodInfo,
+	&ProxyAttribute_CreateProxy_m18375_MethodInfo,
 };
-static bool ProxyAttribute_t4621_VTableIsGenericMethod[] =
+static bool ProxyAttribute_t4624_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -13561,47 +13561,47 @@ static bool ProxyAttribute_t4621_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* ProxyAttribute_t4621_InterfacesTypeInfos[] = 
+static const Il2CppType* ProxyAttribute_t4624_InterfacesTypeInfos[] = 
 {
-	&IContextAttribute_t4887_0_0_0,
+	&IContextAttribute_t4890_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ProxyAttribute_t4621_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ProxyAttribute_t4624_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
-	{ &IContextAttribute_t4887_0_0_0, 4},
+	{ &IContextAttribute_t4890_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ProxyAttribute_t4621_0_0_0;
-extern const Il2CppType ProxyAttribute_t4621_1_0_0;
-struct ProxyAttribute_t4621;
-const Il2CppTypeDefinitionMetadata ProxyAttribute_t4621_DefinitionMetadata = 
+extern const Il2CppType ProxyAttribute_t4624_0_0_0;
+extern const Il2CppType ProxyAttribute_t4624_1_0_0;
+struct ProxyAttribute_t4624;
+const Il2CppTypeDefinitionMetadata ProxyAttribute_t4624_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ProxyAttribute_t4621_InterfacesTypeInfos/* implementedInterfaces */
-	, ProxyAttribute_t4621_InterfacesOffsets/* interfaceOffsets */
+	, ProxyAttribute_t4624_InterfacesTypeInfos/* implementedInterfaces */
+	, ProxyAttribute_t4624_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, ProxyAttribute_t4621_VTable/* vtableMethods */
-	, ProxyAttribute_t4621_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ProxyAttribute_t4624_VTable/* vtableMethods */
+	, ProxyAttribute_t4624_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo ProxyAttribute_t4621_il2cpp_TypeInfo = 
+TypeInfo ProxyAttribute_t4624_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ProxyAttribute"/* name */
 	, "System.Runtime.Remoting.Proxies"/* namespaze */
-	, ProxyAttribute_t4621_MethodInfos/* methods */
+	, ProxyAttribute_t4624_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ProxyAttribute_t4621_il2cpp_TypeInfo/* element_class */
+	, &ProxyAttribute_t4624_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 561/* custom_attributes_cache */
-	, &ProxyAttribute_t4621_0_0_0/* byval_arg */
-	, &ProxyAttribute_t4621_1_0_0/* this_arg */
-	, &ProxyAttribute_t4621_DefinitionMetadata/* definitionMetadata */
+	, &ProxyAttribute_t4624_0_0_0/* byval_arg */
+	, &ProxyAttribute_t4624_1_0_0/* this_arg */
+	, &ProxyAttribute_t4624_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -13611,8 +13611,8 @@ TypeInfo ProxyAttribute_t4621_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ProxyAttribute_t4621)/* instance_size */
-	, sizeof (ProxyAttribute_t4621)/* actualSize */
+	, sizeof (ProxyAttribute_t4624)/* instance_size */
+	, sizeof (ProxyAttribute_t4624)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -13644,21 +13644,21 @@ TypeInfo ProxyAttribute_t4621_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Proxies.TransparentProxy
 #include "mscorlib_System_Runtime_Remoting_Proxies_TransparentProxy.h"
 // Metadata Definition System.Runtime.Remoting.Proxies.TransparentProxy
-extern TypeInfo TransparentProxy_t4623_il2cpp_TypeInfo;
+extern TypeInfo TransparentProxy_t4626_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Proxies.TransparentProxy
 #include "mscorlib_System_Runtime_Remoting_Proxies_TransparentProxyMethodDeclarations.h"
-static const MethodInfo* TransparentProxy_t4623_MethodInfos[] =
+static const MethodInfo* TransparentProxy_t4626_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference TransparentProxy_t4623_VTable[] =
+static const Il2CppMethodReference TransparentProxy_t4626_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool TransparentProxy_t4623_VTableIsGenericMethod[] =
+static bool TransparentProxy_t4626_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -13666,37 +13666,37 @@ static bool TransparentProxy_t4623_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType TransparentProxy_t4623_0_0_0;
-extern const Il2CppType TransparentProxy_t4623_1_0_0;
-struct TransparentProxy_t4623;
-const Il2CppTypeDefinitionMetadata TransparentProxy_t4623_DefinitionMetadata = 
+extern const Il2CppType TransparentProxy_t4626_0_0_0;
+extern const Il2CppType TransparentProxy_t4626_1_0_0;
+struct TransparentProxy_t4626;
+const Il2CppTypeDefinitionMetadata TransparentProxy_t4626_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, TransparentProxy_t4623_VTable/* vtableMethods */
-	, TransparentProxy_t4623_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, TransparentProxy_t4626_VTable/* vtableMethods */
+	, TransparentProxy_t4626_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1635/* fieldStart */
 
 };
-TypeInfo TransparentProxy_t4623_il2cpp_TypeInfo = 
+TypeInfo TransparentProxy_t4626_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "TransparentProxy"/* name */
 	, "System.Runtime.Remoting.Proxies"/* namespaze */
-	, TransparentProxy_t4623_MethodInfos/* methods */
+	, TransparentProxy_t4626_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &TransparentProxy_t4623_il2cpp_TypeInfo/* element_class */
+	, &TransparentProxy_t4626_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &TransparentProxy_t4623_0_0_0/* byval_arg */
-	, &TransparentProxy_t4623_1_0_0/* this_arg */
-	, &TransparentProxy_t4623_DefinitionMetadata/* definitionMetadata */
+	, &TransparentProxy_t4626_0_0_0/* byval_arg */
+	, &TransparentProxy_t4626_1_0_0/* this_arg */
+	, &TransparentProxy_t4626_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -13706,8 +13706,8 @@ TypeInfo TransparentProxy_t4623_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (TransparentProxy_t4623)/* instance_size */
-	, sizeof (TransparentProxy_t4623)/* actualSize */
+	, sizeof (TransparentProxy_t4626)/* instance_size */
+	, sizeof (TransparentProxy_t4626)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -13739,24 +13739,24 @@ TypeInfo TransparentProxy_t4623_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Proxies.RealProxy
 #include "mscorlib_System_Runtime_Remoting_Proxies_RealProxy.h"
 // Metadata Definition System.Runtime.Remoting.Proxies.RealProxy
-extern TypeInfo RealProxy_t4622_il2cpp_TypeInfo;
+extern TypeInfo RealProxy_t4625_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Proxies.RealProxy
 #include "mscorlib_System_Runtime_Remoting_Proxies_RealProxyMethodDeclarations.h"
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo RealProxy_t4622_RealProxy__ctor_m18346_ParameterInfos[] = 
+static const ParameterInfo RealProxy_t4625_RealProxy__ctor_m18378_ParameterInfos[] = 
 {
 	{"classToProxy", 0, 134222211, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Proxies.RealProxy::.ctor(System.Type)
-extern const MethodInfo RealProxy__ctor_m18346_MethodInfo = 
+extern const MethodInfo RealProxy__ctor_m18378_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RealProxy__ctor_m18346/* method */
-	, &RealProxy_t4622_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RealProxy__ctor_m18378/* method */
+	, &RealProxy_t4625_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, RealProxy_t4622_RealProxy__ctor_m18346_ParameterInfos/* parameters */
+	, RealProxy_t4625_RealProxy__ctor_m18378_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -13771,23 +13771,23 @@ extern const MethodInfo RealProxy__ctor_m18346_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType ClientIdentity_t4631_0_0_0;
-extern const Il2CppType ClientIdentity_t4631_0_0_0;
-static const ParameterInfo RealProxy_t4622_RealProxy__ctor_m18347_ParameterInfos[] = 
+extern const Il2CppType ClientIdentity_t4634_0_0_0;
+extern const Il2CppType ClientIdentity_t4634_0_0_0;
+static const ParameterInfo RealProxy_t4625_RealProxy__ctor_m18379_ParameterInfos[] = 
 {
 	{"classToProxy", 0, 134222212, 0, &Type_t_0_0_0},
-	{"identity", 1, 134222213, 0, &ClientIdentity_t4631_0_0_0},
+	{"identity", 1, 134222213, 0, &ClientIdentity_t4634_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Proxies.RealProxy::.ctor(System.Type,System.Runtime.Remoting.ClientIdentity)
-extern const MethodInfo RealProxy__ctor_m18347_MethodInfo = 
+extern const MethodInfo RealProxy__ctor_m18379_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RealProxy__ctor_m18347/* method */
-	, &RealProxy_t4622_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RealProxy__ctor_m18379/* method */
+	, &RealProxy_t4625_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, RealProxy_t4622_RealProxy__ctor_m18347_ParameterInfos/* parameters */
+	, RealProxy_t4625_RealProxy__ctor_m18379_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -13805,7 +13805,7 @@ extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo RealProxy_t4622_RealProxy__ctor_m18348_ParameterInfos[] = 
+static const ParameterInfo RealProxy_t4625_RealProxy__ctor_m18380_ParameterInfos[] = 
 {
 	{"classToProxy", 0, 134222214, 0, &Type_t_0_0_0},
 	{"stub", 1, 134222215, 0, &IntPtr_t_0_0_0},
@@ -13813,14 +13813,14 @@ static const ParameterInfo RealProxy_t4622_RealProxy__ctor_m18348_ParameterInfos
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_IntPtr_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Proxies.RealProxy::.ctor(System.Type,System.IntPtr,System.Object)
-extern const MethodInfo RealProxy__ctor_m18348_MethodInfo = 
+extern const MethodInfo RealProxy__ctor_m18380_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RealProxy__ctor_m18348/* method */
-	, &RealProxy_t4622_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RealProxy__ctor_m18380/* method */
+	, &RealProxy_t4625_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t_Object_t/* invoker_method */
-	, RealProxy_t4622_RealProxy__ctor_m18348_ParameterInfos/* parameters */
+	, RealProxy_t4625_RealProxy__ctor_m18380_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -13835,20 +13835,20 @@ extern const MethodInfo RealProxy__ctor_m18348_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo RealProxy_t4622_RealProxy_InternalGetProxyType_m18349_ParameterInfos[] = 
+static const ParameterInfo RealProxy_t4625_RealProxy_InternalGetProxyType_m18381_ParameterInfos[] = 
 {
 	{"transparentProxy", 0, 134222217, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Runtime.Remoting.Proxies.RealProxy::InternalGetProxyType(System.Object)
-extern const MethodInfo RealProxy_InternalGetProxyType_m18349_MethodInfo = 
+extern const MethodInfo RealProxy_InternalGetProxyType_m18381_MethodInfo = 
 {
 	"InternalGetProxyType"/* name */
-	, (methodPointerType)&RealProxy_InternalGetProxyType_m18349/* method */
-	, &RealProxy_t4622_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RealProxy_InternalGetProxyType_m18381/* method */
+	, &RealProxy_t4625_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, RealProxy_t4622_RealProxy_InternalGetProxyType_m18349_ParameterInfos/* parameters */
+	, RealProxy_t4625_RealProxy_InternalGetProxyType_m18381_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 4096/* iflags */
@@ -13864,11 +13864,11 @@ extern const MethodInfo RealProxy_InternalGetProxyType_m18349_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Runtime.Remoting.Proxies.RealProxy::GetProxiedType()
-extern const MethodInfo RealProxy_GetProxiedType_m18350_MethodInfo = 
+extern const MethodInfo RealProxy_GetProxiedType_m18382_MethodInfo = 
 {
 	"GetProxiedType"/* name */
-	, (methodPointerType)&RealProxy_GetProxiedType_m18350/* method */
-	, &RealProxy_t4622_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RealProxy_GetProxiedType_m18382/* method */
+	, &RealProxy_t4625_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -13886,20 +13886,20 @@ extern const MethodInfo RealProxy_GetProxiedType_m18350_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo RealProxy_t4622_RealProxy_InternalGetTransparentProxy_m18351_ParameterInfos[] = 
+static const ParameterInfo RealProxy_t4625_RealProxy_InternalGetTransparentProxy_m18383_ParameterInfos[] = 
 {
 	{"className", 0, 134222218, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Proxies.RealProxy::InternalGetTransparentProxy(System.String)
-extern const MethodInfo RealProxy_InternalGetTransparentProxy_m18351_MethodInfo = 
+extern const MethodInfo RealProxy_InternalGetTransparentProxy_m18383_MethodInfo = 
 {
 	"InternalGetTransparentProxy"/* name */
-	, (methodPointerType)&RealProxy_InternalGetTransparentProxy_m18351/* method */
-	, &RealProxy_t4622_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RealProxy_InternalGetTransparentProxy_m18383/* method */
+	, &RealProxy_t4625_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, RealProxy_t4622_RealProxy_InternalGetTransparentProxy_m18351_ParameterInfos/* parameters */
+	, RealProxy_t4625_RealProxy_InternalGetTransparentProxy_m18383_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 451/* flags */
 	, 4096/* iflags */
@@ -13915,11 +13915,11 @@ extern const MethodInfo RealProxy_InternalGetTransparentProxy_m18351_MethodInfo 
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.Proxies.RealProxy::GetTransparentProxy()
-extern const MethodInfo RealProxy_GetTransparentProxy_m18352_MethodInfo = 
+extern const MethodInfo RealProxy_GetTransparentProxy_m18384_MethodInfo = 
 {
 	"GetTransparentProxy"/* name */
-	, (methodPointerType)&RealProxy_GetTransparentProxy_m18352/* method */
-	, &RealProxy_t4622_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RealProxy_GetTransparentProxy_m18384/* method */
+	, &RealProxy_t4625_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -13937,20 +13937,20 @@ extern const MethodInfo RealProxy_GetTransparentProxy_m18352_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo RealProxy_t4622_RealProxy_SetTargetDomain_m18353_ParameterInfos[] = 
+static const ParameterInfo RealProxy_t4625_RealProxy_SetTargetDomain_m18385_ParameterInfos[] = 
 {
 	{"domainId", 0, 134222219, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Proxies.RealProxy::SetTargetDomain(System.Int32)
-extern const MethodInfo RealProxy_SetTargetDomain_m18353_MethodInfo = 
+extern const MethodInfo RealProxy_SetTargetDomain_m18385_MethodInfo = 
 {
 	"SetTargetDomain"/* name */
-	, (methodPointerType)&RealProxy_SetTargetDomain_m18353/* method */
-	, &RealProxy_t4622_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RealProxy_SetTargetDomain_m18385/* method */
+	, &RealProxy_t4625_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, RealProxy_t4622_RealProxy_SetTargetDomain_m18353_ParameterInfos/* parameters */
+	, RealProxy_t4625_RealProxy_SetTargetDomain_m18385_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -13964,30 +13964,30 @@ extern const MethodInfo RealProxy_SetTargetDomain_m18353_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* RealProxy_t4622_MethodInfos[] =
+static const MethodInfo* RealProxy_t4625_MethodInfos[] =
 {
-	&RealProxy__ctor_m18346_MethodInfo,
-	&RealProxy__ctor_m18347_MethodInfo,
-	&RealProxy__ctor_m18348_MethodInfo,
-	&RealProxy_InternalGetProxyType_m18349_MethodInfo,
-	&RealProxy_GetProxiedType_m18350_MethodInfo,
-	&RealProxy_InternalGetTransparentProxy_m18351_MethodInfo,
-	&RealProxy_GetTransparentProxy_m18352_MethodInfo,
-	&RealProxy_SetTargetDomain_m18353_MethodInfo,
+	&RealProxy__ctor_m18378_MethodInfo,
+	&RealProxy__ctor_m18379_MethodInfo,
+	&RealProxy__ctor_m18380_MethodInfo,
+	&RealProxy_InternalGetProxyType_m18381_MethodInfo,
+	&RealProxy_GetProxiedType_m18382_MethodInfo,
+	&RealProxy_InternalGetTransparentProxy_m18383_MethodInfo,
+	&RealProxy_GetTransparentProxy_m18384_MethodInfo,
+	&RealProxy_SetTargetDomain_m18385_MethodInfo,
 	NULL
 };
-extern const MethodInfo RealProxy_InternalGetTransparentProxy_m18351_MethodInfo;
-extern const MethodInfo RealProxy_GetTransparentProxy_m18352_MethodInfo;
-static const Il2CppMethodReference RealProxy_t4622_VTable[] =
+extern const MethodInfo RealProxy_InternalGetTransparentProxy_m18383_MethodInfo;
+extern const MethodInfo RealProxy_GetTransparentProxy_m18384_MethodInfo;
+static const Il2CppMethodReference RealProxy_t4625_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&RealProxy_InternalGetTransparentProxy_m18351_MethodInfo,
-	&RealProxy_GetTransparentProxy_m18352_MethodInfo,
+	&RealProxy_InternalGetTransparentProxy_m18383_MethodInfo,
+	&RealProxy_GetTransparentProxy_m18384_MethodInfo,
 };
-static bool RealProxy_t4622_VTableIsGenericMethod[] =
+static bool RealProxy_t4625_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -13997,36 +13997,36 @@ static bool RealProxy_t4622_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType RealProxy_t4622_1_0_0;
-struct RealProxy_t4622;
-const Il2CppTypeDefinitionMetadata RealProxy_t4622_DefinitionMetadata = 
+extern const Il2CppType RealProxy_t4625_1_0_0;
+struct RealProxy_t4625;
+const Il2CppTypeDefinitionMetadata RealProxy_t4625_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, RealProxy_t4622_VTable/* vtableMethods */
-	, RealProxy_t4622_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, RealProxy_t4625_VTable/* vtableMethods */
+	, RealProxy_t4625_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1636/* fieldStart */
 
 };
-TypeInfo RealProxy_t4622_il2cpp_TypeInfo = 
+TypeInfo RealProxy_t4625_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "RealProxy"/* name */
 	, "System.Runtime.Remoting.Proxies"/* namespaze */
-	, RealProxy_t4622_MethodInfos/* methods */
+	, RealProxy_t4625_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &RealProxy_t4622_il2cpp_TypeInfo/* element_class */
+	, &RealProxy_t4625_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 564/* custom_attributes_cache */
-	, &RealProxy_t4622_0_0_0/* byval_arg */
-	, &RealProxy_t4622_1_0_0/* this_arg */
-	, &RealProxy_t4622_DefinitionMetadata/* definitionMetadata */
+	, &RealProxy_t4625_0_0_0/* byval_arg */
+	, &RealProxy_t4625_1_0_0/* this_arg */
+	, &RealProxy_t4625_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14036,8 +14036,8 @@ TypeInfo RealProxy_t4622_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (RealProxy_t4622)/* instance_size */
-	, sizeof (RealProxy_t4622)/* actualSize */
+	, sizeof (RealProxy_t4625)/* instance_size */
+	, sizeof (RealProxy_t4625)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -14069,26 +14069,26 @@ TypeInfo RealProxy_t4622_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Proxies.RemotingProxy
 #include "mscorlib_System_Runtime_Remoting_Proxies_RemotingProxy.h"
 // Metadata Definition System.Runtime.Remoting.Proxies.RemotingProxy
-extern TypeInfo RemotingProxy_t4625_il2cpp_TypeInfo;
+extern TypeInfo RemotingProxy_t4628_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Proxies.RemotingProxy
 #include "mscorlib_System_Runtime_Remoting_Proxies_RemotingProxyMethodDeclarations.h"
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType ClientIdentity_t4631_0_0_0;
-static const ParameterInfo RemotingProxy_t4625_RemotingProxy__ctor_m18354_ParameterInfos[] = 
+extern const Il2CppType ClientIdentity_t4634_0_0_0;
+static const ParameterInfo RemotingProxy_t4628_RemotingProxy__ctor_m18386_ParameterInfos[] = 
 {
 	{"type", 0, 134222220, 0, &Type_t_0_0_0},
-	{"identity", 1, 134222221, 0, &ClientIdentity_t4631_0_0_0},
+	{"identity", 1, 134222221, 0, &ClientIdentity_t4634_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Proxies.RemotingProxy::.ctor(System.Type,System.Runtime.Remoting.ClientIdentity)
-extern const MethodInfo RemotingProxy__ctor_m18354_MethodInfo = 
+extern const MethodInfo RemotingProxy__ctor_m18386_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RemotingProxy__ctor_m18354/* method */
-	, &RemotingProxy_t4625_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingProxy__ctor_m18386/* method */
+	, &RemotingProxy_t4628_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, RemotingProxy_t4625_RemotingProxy__ctor_m18354_ParameterInfos/* parameters */
+	, RemotingProxy_t4628_RemotingProxy__ctor_m18386_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -14104,23 +14104,23 @@ extern const MethodInfo RemotingProxy__ctor_m18354_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t680_0_0_0;
-static const ParameterInfo RemotingProxy_t4625_RemotingProxy__ctor_m18355_ParameterInfos[] = 
+extern const Il2CppType ObjectU5BU5D_t683_0_0_0;
+static const ParameterInfo RemotingProxy_t4628_RemotingProxy__ctor_m18387_ParameterInfos[] = 
 {
 	{"type", 0, 134222222, 0, &Type_t_0_0_0},
 	{"activationUrl", 1, 134222223, 0, &String_t_0_0_0},
-	{"activationAttributes", 2, 134222224, 0, &ObjectU5BU5D_t680_0_0_0},
+	{"activationAttributes", 2, 134222224, 0, &ObjectU5BU5D_t683_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Proxies.RemotingProxy::.ctor(System.Type,System.String,System.Object[])
-extern const MethodInfo RemotingProxy__ctor_m18355_MethodInfo = 
+extern const MethodInfo RemotingProxy__ctor_m18387_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RemotingProxy__ctor_m18355/* method */
-	, &RemotingProxy_t4625_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingProxy__ctor_m18387/* method */
+	, &RemotingProxy_t4628_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t/* invoker_method */
-	, RemotingProxy_t4625_RemotingProxy__ctor_m18355_ParameterInfos/* parameters */
+	, RemotingProxy_t4628_RemotingProxy__ctor_m18387_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -14136,11 +14136,11 @@ extern const MethodInfo RemotingProxy__ctor_m18355_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Proxies.RemotingProxy::.cctor()
-extern const MethodInfo RemotingProxy__cctor_m18356_MethodInfo = 
+extern const MethodInfo RemotingProxy__cctor_m18388_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&RemotingProxy__cctor_m18356/* method */
-	, &RemotingProxy_t4625_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingProxy__cctor_m18388/* method */
+	, &RemotingProxy_t4628_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -14159,11 +14159,11 @@ extern const MethodInfo RemotingProxy__cctor_m18356_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Proxies.RemotingProxy::get_TypeName()
-extern const MethodInfo RemotingProxy_get_TypeName_m18357_MethodInfo = 
+extern const MethodInfo RemotingProxy_get_TypeName_m18389_MethodInfo = 
 {
 	"get_TypeName"/* name */
-	, (methodPointerType)&RemotingProxy_get_TypeName_m18357/* method */
-	, &RemotingProxy_t4625_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingProxy_get_TypeName_m18389/* method */
+	, &RemotingProxy_t4628_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -14182,11 +14182,11 @@ extern const MethodInfo RemotingProxy_get_TypeName_m18357_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Proxies.RemotingProxy::Finalize()
-extern const MethodInfo RemotingProxy_Finalize_m18358_MethodInfo = 
+extern const MethodInfo RemotingProxy_Finalize_m18390_MethodInfo = 
 {
 	"Finalize"/* name */
-	, (methodPointerType)&RemotingProxy_Finalize_m18358/* method */
-	, &RemotingProxy_t4625_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingProxy_Finalize_m18390/* method */
+	, &RemotingProxy_t4628_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -14203,43 +14203,43 @@ extern const MethodInfo RemotingProxy_Finalize_m18358_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* RemotingProxy_t4625_MethodInfos[] =
+static const MethodInfo* RemotingProxy_t4628_MethodInfos[] =
 {
-	&RemotingProxy__ctor_m18354_MethodInfo,
-	&RemotingProxy__ctor_m18355_MethodInfo,
-	&RemotingProxy__cctor_m18356_MethodInfo,
-	&RemotingProxy_get_TypeName_m18357_MethodInfo,
-	&RemotingProxy_Finalize_m18358_MethodInfo,
+	&RemotingProxy__ctor_m18386_MethodInfo,
+	&RemotingProxy__ctor_m18387_MethodInfo,
+	&RemotingProxy__cctor_m18388_MethodInfo,
+	&RemotingProxy_get_TypeName_m18389_MethodInfo,
+	&RemotingProxy_Finalize_m18390_MethodInfo,
 	NULL
 };
-extern const MethodInfo RemotingProxy_get_TypeName_m18357_MethodInfo;
-static const PropertyInfo RemotingProxy_t4625____TypeName_PropertyInfo = 
+extern const MethodInfo RemotingProxy_get_TypeName_m18389_MethodInfo;
+static const PropertyInfo RemotingProxy_t4628____TypeName_PropertyInfo = 
 {
-	&RemotingProxy_t4625_il2cpp_TypeInfo/* parent */
+	&RemotingProxy_t4628_il2cpp_TypeInfo/* parent */
 	, "TypeName"/* name */
-	, &RemotingProxy_get_TypeName_m18357_MethodInfo/* get */
+	, &RemotingProxy_get_TypeName_m18389_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* RemotingProxy_t4625_PropertyInfos[] =
+static const PropertyInfo* RemotingProxy_t4628_PropertyInfos[] =
 {
-	&RemotingProxy_t4625____TypeName_PropertyInfo,
+	&RemotingProxy_t4628____TypeName_PropertyInfo,
 	NULL
 };
-extern const MethodInfo RemotingProxy_Finalize_m18358_MethodInfo;
-static const Il2CppMethodReference RemotingProxy_t4625_VTable[] =
+extern const MethodInfo RemotingProxy_Finalize_m18390_MethodInfo;
+static const Il2CppMethodReference RemotingProxy_t4628_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
-	&RemotingProxy_Finalize_m18358_MethodInfo,
+	&RemotingProxy_Finalize_m18390_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&RealProxy_InternalGetTransparentProxy_m18351_MethodInfo,
-	&RealProxy_GetTransparentProxy_m18352_MethodInfo,
-	&RemotingProxy_get_TypeName_m18357_MethodInfo,
+	&RealProxy_InternalGetTransparentProxy_m18383_MethodInfo,
+	&RealProxy_GetTransparentProxy_m18384_MethodInfo,
+	&RemotingProxy_get_TypeName_m18389_MethodInfo,
 };
-static bool RemotingProxy_t4625_VTableIsGenericMethod[] =
+static bool RemotingProxy_t4628_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -14249,47 +14249,47 @@ static bool RemotingProxy_t4625_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IRemotingTypeInfo_t4633_0_0_0;
-static const Il2CppType* RemotingProxy_t4625_InterfacesTypeInfos[] = 
+extern const Il2CppType IRemotingTypeInfo_t4636_0_0_0;
+static const Il2CppType* RemotingProxy_t4628_InterfacesTypeInfos[] = 
 {
-	&IRemotingTypeInfo_t4633_0_0_0,
+	&IRemotingTypeInfo_t4636_0_0_0,
 };
-static Il2CppInterfaceOffsetPair RemotingProxy_t4625_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair RemotingProxy_t4628_InterfacesOffsets[] = 
 {
-	{ &IRemotingTypeInfo_t4633_0_0_0, 6},
+	{ &IRemotingTypeInfo_t4636_0_0_0, 6},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType RemotingProxy_t4625_0_0_0;
-extern const Il2CppType RemotingProxy_t4625_1_0_0;
-struct RemotingProxy_t4625;
-const Il2CppTypeDefinitionMetadata RemotingProxy_t4625_DefinitionMetadata = 
+extern const Il2CppType RemotingProxy_t4628_0_0_0;
+extern const Il2CppType RemotingProxy_t4628_1_0_0;
+struct RemotingProxy_t4628;
+const Il2CppTypeDefinitionMetadata RemotingProxy_t4628_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, RemotingProxy_t4625_InterfacesTypeInfos/* implementedInterfaces */
-	, RemotingProxy_t4625_InterfacesOffsets/* interfaceOffsets */
-	, &RealProxy_t4622_0_0_0/* parent */
-	, RemotingProxy_t4625_VTable/* vtableMethods */
-	, RemotingProxy_t4625_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, RemotingProxy_t4628_InterfacesTypeInfos/* implementedInterfaces */
+	, RemotingProxy_t4628_InterfacesOffsets/* interfaceOffsets */
+	, &RealProxy_t4625_0_0_0/* parent */
+	, RemotingProxy_t4628_VTable/* vtableMethods */
+	, RemotingProxy_t4628_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1641/* fieldStart */
 
 };
-TypeInfo RemotingProxy_t4625_il2cpp_TypeInfo = 
+TypeInfo RemotingProxy_t4628_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "RemotingProxy"/* name */
 	, "System.Runtime.Remoting.Proxies"/* namespaze */
-	, RemotingProxy_t4625_MethodInfos/* methods */
-	, RemotingProxy_t4625_PropertyInfos/* properties */
+	, RemotingProxy_t4628_MethodInfos/* methods */
+	, RemotingProxy_t4628_PropertyInfos/* properties */
 	, NULL/* events */
-	, &RemotingProxy_t4625_il2cpp_TypeInfo/* element_class */
+	, &RemotingProxy_t4628_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &RemotingProxy_t4625_0_0_0/* byval_arg */
-	, &RemotingProxy_t4625_1_0_0/* this_arg */
-	, &RemotingProxy_t4625_DefinitionMetadata/* definitionMetadata */
+	, &RemotingProxy_t4628_0_0_0/* byval_arg */
+	, &RemotingProxy_t4628_1_0_0/* this_arg */
+	, &RemotingProxy_t4628_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14299,11 +14299,11 @@ TypeInfo RemotingProxy_t4625_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (RemotingProxy_t4625)/* instance_size */
-	, sizeof (RemotingProxy_t4625)/* actualSize */
+	, sizeof (RemotingProxy_t4628)/* instance_size */
+	, sizeof (RemotingProxy_t4628)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(RemotingProxy_t4625_StaticFields)/* static_fields_size */
+	, sizeof(RemotingProxy_t4628_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -14330,24 +14330,24 @@ TypeInfo RemotingProxy_t4625_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.Services.ITrackingHandler
-extern TypeInfo ITrackingHandler_t4892_il2cpp_TypeInfo;
+extern TypeInfo ITrackingHandler_t4895_il2cpp_TypeInfo;
 extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType ObjRef_t4630_0_0_0;
-static const ParameterInfo ITrackingHandler_t4892_ITrackingHandler_UnmarshaledObject_m20750_ParameterInfos[] = 
+extern const Il2CppType ObjRef_t4633_0_0_0;
+static const ParameterInfo ITrackingHandler_t4895_ITrackingHandler_UnmarshaledObject_m20782_ParameterInfos[] = 
 {
 	{"obj", 0, 134222225, 0, &Object_t_0_0_0},
-	{"or", 1, 134222226, 0, &ObjRef_t4630_0_0_0},
+	{"or", 1, 134222226, 0, &ObjRef_t4633_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Services.ITrackingHandler::UnmarshaledObject(System.Object,System.Runtime.Remoting.ObjRef)
-extern const MethodInfo ITrackingHandler_UnmarshaledObject_m20750_MethodInfo = 
+extern const MethodInfo ITrackingHandler_UnmarshaledObject_m20782_MethodInfo = 
 {
 	"UnmarshaledObject"/* name */
 	, NULL/* method */
-	, &ITrackingHandler_t4892_il2cpp_TypeInfo/* declaring_type */
+	, &ITrackingHandler_t4895_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ITrackingHandler_t4892_ITrackingHandler_UnmarshaledObject_m20750_ParameterInfos/* parameters */
+	, ITrackingHandler_t4895_ITrackingHandler_UnmarshaledObject_m20782_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -14361,16 +14361,16 @@ extern const MethodInfo ITrackingHandler_UnmarshaledObject_m20750_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ITrackingHandler_t4892_MethodInfos[] =
+static const MethodInfo* ITrackingHandler_t4895_MethodInfos[] =
 {
-	&ITrackingHandler_UnmarshaledObject_m20750_MethodInfo,
+	&ITrackingHandler_UnmarshaledObject_m20782_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ITrackingHandler_t4892_0_0_0;
-extern const Il2CppType ITrackingHandler_t4892_1_0_0;
-struct ITrackingHandler_t4892;
-const Il2CppTypeDefinitionMetadata ITrackingHandler_t4892_DefinitionMetadata = 
+extern const Il2CppType ITrackingHandler_t4895_0_0_0;
+extern const Il2CppType ITrackingHandler_t4895_1_0_0;
+struct ITrackingHandler_t4895;
+const Il2CppTypeDefinitionMetadata ITrackingHandler_t4895_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -14383,21 +14383,21 @@ const Il2CppTypeDefinitionMetadata ITrackingHandler_t4892_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo ITrackingHandler_t4892_il2cpp_TypeInfo = 
+TypeInfo ITrackingHandler_t4895_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ITrackingHandler"/* name */
 	, "System.Runtime.Remoting.Services"/* namespaze */
-	, ITrackingHandler_t4892_MethodInfos/* methods */
+	, ITrackingHandler_t4895_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ITrackingHandler_t4892_il2cpp_TypeInfo/* element_class */
+	, &ITrackingHandler_t4895_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 565/* custom_attributes_cache */
-	, &ITrackingHandler_t4892_0_0_0/* byval_arg */
-	, &ITrackingHandler_t4892_1_0_0/* this_arg */
-	, &ITrackingHandler_t4892_DefinitionMetadata/* definitionMetadata */
+	, &ITrackingHandler_t4895_0_0_0/* byval_arg */
+	, &ITrackingHandler_t4895_1_0_0/* this_arg */
+	, &ITrackingHandler_t4895_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14440,16 +14440,16 @@ TypeInfo ITrackingHandler_t4892_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Services.TrackingServices
 #include "mscorlib_System_Runtime_Remoting_Services_TrackingServices.h"
 // Metadata Definition System.Runtime.Remoting.Services.TrackingServices
-extern TypeInfo TrackingServices_t4626_il2cpp_TypeInfo;
+extern TypeInfo TrackingServices_t4629_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Services.TrackingServices
 #include "mscorlib_System_Runtime_Remoting_Services_TrackingServicesMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Services.TrackingServices::.cctor()
-extern const MethodInfo TrackingServices__cctor_m18359_MethodInfo = 
+extern const MethodInfo TrackingServices__cctor_m18391_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&TrackingServices__cctor_m18359/* method */
-	, &TrackingServices_t4626_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TrackingServices__cctor_m18391/* method */
+	, &TrackingServices_t4629_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -14467,22 +14467,22 @@ extern const MethodInfo TrackingServices__cctor_m18359_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType ObjRef_t4630_0_0_0;
-static const ParameterInfo TrackingServices_t4626_TrackingServices_NotifyUnmarshaledObject_m18360_ParameterInfos[] = 
+extern const Il2CppType ObjRef_t4633_0_0_0;
+static const ParameterInfo TrackingServices_t4629_TrackingServices_NotifyUnmarshaledObject_m18392_ParameterInfos[] = 
 {
 	{"obj", 0, 134222227, 0, &Object_t_0_0_0},
-	{"or", 1, 134222228, 0, &ObjRef_t4630_0_0_0},
+	{"or", 1, 134222228, 0, &ObjRef_t4633_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Services.TrackingServices::NotifyUnmarshaledObject(System.Object,System.Runtime.Remoting.ObjRef)
-extern const MethodInfo TrackingServices_NotifyUnmarshaledObject_m18360_MethodInfo = 
+extern const MethodInfo TrackingServices_NotifyUnmarshaledObject_m18392_MethodInfo = 
 {
 	"NotifyUnmarshaledObject"/* name */
-	, (methodPointerType)&TrackingServices_NotifyUnmarshaledObject_m18360/* method */
-	, &TrackingServices_t4626_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TrackingServices_NotifyUnmarshaledObject_m18392/* method */
+	, &TrackingServices_t4629_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, TrackingServices_t4626_TrackingServices_NotifyUnmarshaledObject_m18360_ParameterInfos/* parameters */
+	, TrackingServices_t4629_TrackingServices_NotifyUnmarshaledObject_m18392_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -14496,20 +14496,20 @@ extern const MethodInfo TrackingServices_NotifyUnmarshaledObject_m18360_MethodIn
 	, NULL/* dummy */
 
 };
-static const MethodInfo* TrackingServices_t4626_MethodInfos[] =
+static const MethodInfo* TrackingServices_t4629_MethodInfos[] =
 {
-	&TrackingServices__cctor_m18359_MethodInfo,
-	&TrackingServices_NotifyUnmarshaledObject_m18360_MethodInfo,
+	&TrackingServices__cctor_m18391_MethodInfo,
+	&TrackingServices_NotifyUnmarshaledObject_m18392_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference TrackingServices_t4626_VTable[] =
+static const Il2CppMethodReference TrackingServices_t4629_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool TrackingServices_t4626_VTableIsGenericMethod[] =
+static bool TrackingServices_t4629_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -14517,37 +14517,37 @@ static bool TrackingServices_t4626_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType TrackingServices_t4626_0_0_0;
-extern const Il2CppType TrackingServices_t4626_1_0_0;
-struct TrackingServices_t4626;
-const Il2CppTypeDefinitionMetadata TrackingServices_t4626_DefinitionMetadata = 
+extern const Il2CppType TrackingServices_t4629_0_0_0;
+extern const Il2CppType TrackingServices_t4629_1_0_0;
+struct TrackingServices_t4629;
+const Il2CppTypeDefinitionMetadata TrackingServices_t4629_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, TrackingServices_t4626_VTable/* vtableMethods */
-	, TrackingServices_t4626_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, TrackingServices_t4629_VTable/* vtableMethods */
+	, TrackingServices_t4629_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1646/* fieldStart */
 
 };
-TypeInfo TrackingServices_t4626_il2cpp_TypeInfo = 
+TypeInfo TrackingServices_t4629_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "TrackingServices"/* name */
 	, "System.Runtime.Remoting.Services"/* namespaze */
-	, TrackingServices_t4626_MethodInfos/* methods */
+	, TrackingServices_t4629_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &TrackingServices_t4626_il2cpp_TypeInfo/* element_class */
+	, &TrackingServices_t4629_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 566/* custom_attributes_cache */
-	, &TrackingServices_t4626_0_0_0/* byval_arg */
-	, &TrackingServices_t4626_1_0_0/* this_arg */
-	, &TrackingServices_t4626_DefinitionMetadata/* definitionMetadata */
+	, &TrackingServices_t4629_0_0_0/* byval_arg */
+	, &TrackingServices_t4629_1_0_0/* this_arg */
+	, &TrackingServices_t4629_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14557,11 +14557,11 @@ TypeInfo TrackingServices_t4626_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (TrackingServices_t4626)/* instance_size */
-	, sizeof (TrackingServices_t4626)/* actualSize */
+	, sizeof (TrackingServices_t4629)/* instance_size */
+	, sizeof (TrackingServices_t4629)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(TrackingServices_t4626_StaticFields)/* static_fields_size */
+	, sizeof(TrackingServices_t4629_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048577/* flags */
@@ -14590,16 +14590,16 @@ TypeInfo TrackingServices_t4626_il2cpp_TypeInfo =
 // System.Runtime.Remoting.ActivatedClientTypeEntry
 #include "mscorlib_System_Runtime_Remoting_ActivatedClientTypeEntry.h"
 // Metadata Definition System.Runtime.Remoting.ActivatedClientTypeEntry
-extern TypeInfo ActivatedClientTypeEntry_t4627_il2cpp_TypeInfo;
+extern TypeInfo ActivatedClientTypeEntry_t4630_il2cpp_TypeInfo;
 // System.Runtime.Remoting.ActivatedClientTypeEntry
 #include "mscorlib_System_Runtime_Remoting_ActivatedClientTypeEntryMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.ActivatedClientTypeEntry::get_ApplicationUrl()
-extern const MethodInfo ActivatedClientTypeEntry_get_ApplicationUrl_m18361_MethodInfo = 
+extern const MethodInfo ActivatedClientTypeEntry_get_ApplicationUrl_m18393_MethodInfo = 
 {
 	"get_ApplicationUrl"/* name */
-	, (methodPointerType)&ActivatedClientTypeEntry_get_ApplicationUrl_m18361/* method */
-	, &ActivatedClientTypeEntry_t4627_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ActivatedClientTypeEntry_get_ApplicationUrl_m18393/* method */
+	, &ActivatedClientTypeEntry_t4630_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -14616,15 +14616,15 @@ extern const MethodInfo ActivatedClientTypeEntry_get_ApplicationUrl_m18361_Metho
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IContextAttributeU5BU5D_t4881_0_0_0;
+extern const Il2CppType IContextAttributeU5BU5D_t4884_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Contexts.IContextAttribute[] System.Runtime.Remoting.ActivatedClientTypeEntry::get_ContextAttributes()
-extern const MethodInfo ActivatedClientTypeEntry_get_ContextAttributes_m18362_MethodInfo = 
+extern const MethodInfo ActivatedClientTypeEntry_get_ContextAttributes_m18394_MethodInfo = 
 {
 	"get_ContextAttributes"/* name */
-	, (methodPointerType)&ActivatedClientTypeEntry_get_ContextAttributes_m18362/* method */
-	, &ActivatedClientTypeEntry_t4627_il2cpp_TypeInfo/* declaring_type */
-	, &IContextAttributeU5BU5D_t4881_0_0_0/* return_type */
+	, (methodPointerType)&ActivatedClientTypeEntry_get_ContextAttributes_m18394/* method */
+	, &ActivatedClientTypeEntry_t4630_il2cpp_TypeInfo/* declaring_type */
+	, &IContextAttributeU5BU5D_t4884_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -14642,11 +14642,11 @@ extern const MethodInfo ActivatedClientTypeEntry_get_ContextAttributes_m18362_Me
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Runtime.Remoting.ActivatedClientTypeEntry::get_ObjectType()
-extern const MethodInfo ActivatedClientTypeEntry_get_ObjectType_m18363_MethodInfo = 
+extern const MethodInfo ActivatedClientTypeEntry_get_ObjectType_m18395_MethodInfo = 
 {
 	"get_ObjectType"/* name */
-	, (methodPointerType)&ActivatedClientTypeEntry_get_ObjectType_m18363/* method */
-	, &ActivatedClientTypeEntry_t4627_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ActivatedClientTypeEntry_get_ObjectType_m18395/* method */
+	, &ActivatedClientTypeEntry_t4630_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -14665,11 +14665,11 @@ extern const MethodInfo ActivatedClientTypeEntry_get_ObjectType_m18363_MethodInf
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.ActivatedClientTypeEntry::ToString()
-extern const MethodInfo ActivatedClientTypeEntry_ToString_m18364_MethodInfo = 
+extern const MethodInfo ActivatedClientTypeEntry_ToString_m18396_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&ActivatedClientTypeEntry_ToString_m18364/* method */
-	, &ActivatedClientTypeEntry_t4627_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ActivatedClientTypeEntry_ToString_m18396/* method */
+	, &ActivatedClientTypeEntry_t4630_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -14686,63 +14686,63 @@ extern const MethodInfo ActivatedClientTypeEntry_ToString_m18364_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ActivatedClientTypeEntry_t4627_MethodInfos[] =
+static const MethodInfo* ActivatedClientTypeEntry_t4630_MethodInfos[] =
 {
-	&ActivatedClientTypeEntry_get_ApplicationUrl_m18361_MethodInfo,
-	&ActivatedClientTypeEntry_get_ContextAttributes_m18362_MethodInfo,
-	&ActivatedClientTypeEntry_get_ObjectType_m18363_MethodInfo,
-	&ActivatedClientTypeEntry_ToString_m18364_MethodInfo,
+	&ActivatedClientTypeEntry_get_ApplicationUrl_m18393_MethodInfo,
+	&ActivatedClientTypeEntry_get_ContextAttributes_m18394_MethodInfo,
+	&ActivatedClientTypeEntry_get_ObjectType_m18395_MethodInfo,
+	&ActivatedClientTypeEntry_ToString_m18396_MethodInfo,
 	NULL
 };
-extern const MethodInfo ActivatedClientTypeEntry_get_ApplicationUrl_m18361_MethodInfo;
-static const PropertyInfo ActivatedClientTypeEntry_t4627____ApplicationUrl_PropertyInfo = 
+extern const MethodInfo ActivatedClientTypeEntry_get_ApplicationUrl_m18393_MethodInfo;
+static const PropertyInfo ActivatedClientTypeEntry_t4630____ApplicationUrl_PropertyInfo = 
 {
-	&ActivatedClientTypeEntry_t4627_il2cpp_TypeInfo/* parent */
+	&ActivatedClientTypeEntry_t4630_il2cpp_TypeInfo/* parent */
 	, "ApplicationUrl"/* name */
-	, &ActivatedClientTypeEntry_get_ApplicationUrl_m18361_MethodInfo/* get */
+	, &ActivatedClientTypeEntry_get_ApplicationUrl_m18393_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ActivatedClientTypeEntry_get_ContextAttributes_m18362_MethodInfo;
-static const PropertyInfo ActivatedClientTypeEntry_t4627____ContextAttributes_PropertyInfo = 
+extern const MethodInfo ActivatedClientTypeEntry_get_ContextAttributes_m18394_MethodInfo;
+static const PropertyInfo ActivatedClientTypeEntry_t4630____ContextAttributes_PropertyInfo = 
 {
-	&ActivatedClientTypeEntry_t4627_il2cpp_TypeInfo/* parent */
+	&ActivatedClientTypeEntry_t4630_il2cpp_TypeInfo/* parent */
 	, "ContextAttributes"/* name */
-	, &ActivatedClientTypeEntry_get_ContextAttributes_m18362_MethodInfo/* get */
+	, &ActivatedClientTypeEntry_get_ContextAttributes_m18394_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ActivatedClientTypeEntry_get_ObjectType_m18363_MethodInfo;
-static const PropertyInfo ActivatedClientTypeEntry_t4627____ObjectType_PropertyInfo = 
+extern const MethodInfo ActivatedClientTypeEntry_get_ObjectType_m18395_MethodInfo;
+static const PropertyInfo ActivatedClientTypeEntry_t4630____ObjectType_PropertyInfo = 
 {
-	&ActivatedClientTypeEntry_t4627_il2cpp_TypeInfo/* parent */
+	&ActivatedClientTypeEntry_t4630_il2cpp_TypeInfo/* parent */
 	, "ObjectType"/* name */
-	, &ActivatedClientTypeEntry_get_ObjectType_m18363_MethodInfo/* get */
+	, &ActivatedClientTypeEntry_get_ObjectType_m18395_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ActivatedClientTypeEntry_t4627_PropertyInfos[] =
+static const PropertyInfo* ActivatedClientTypeEntry_t4630_PropertyInfos[] =
 {
-	&ActivatedClientTypeEntry_t4627____ApplicationUrl_PropertyInfo,
-	&ActivatedClientTypeEntry_t4627____ContextAttributes_PropertyInfo,
-	&ActivatedClientTypeEntry_t4627____ObjectType_PropertyInfo,
+	&ActivatedClientTypeEntry_t4630____ApplicationUrl_PropertyInfo,
+	&ActivatedClientTypeEntry_t4630____ContextAttributes_PropertyInfo,
+	&ActivatedClientTypeEntry_t4630____ObjectType_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ActivatedClientTypeEntry_ToString_m18364_MethodInfo;
-static const Il2CppMethodReference ActivatedClientTypeEntry_t4627_VTable[] =
+extern const MethodInfo ActivatedClientTypeEntry_ToString_m18396_MethodInfo;
+static const Il2CppMethodReference ActivatedClientTypeEntry_t4630_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&ActivatedClientTypeEntry_ToString_m18364_MethodInfo,
+	&ActivatedClientTypeEntry_ToString_m18396_MethodInfo,
 };
-static bool ActivatedClientTypeEntry_t4627_VTableIsGenericMethod[] =
+static bool ActivatedClientTypeEntry_t4630_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -14750,38 +14750,38 @@ static bool ActivatedClientTypeEntry_t4627_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ActivatedClientTypeEntry_t4627_0_0_0;
-extern const Il2CppType ActivatedClientTypeEntry_t4627_1_0_0;
-extern const Il2CppType TypeEntry_t4628_0_0_0;
-struct ActivatedClientTypeEntry_t4627;
-const Il2CppTypeDefinitionMetadata ActivatedClientTypeEntry_t4627_DefinitionMetadata = 
+extern const Il2CppType ActivatedClientTypeEntry_t4630_0_0_0;
+extern const Il2CppType ActivatedClientTypeEntry_t4630_1_0_0;
+extern const Il2CppType TypeEntry_t4631_0_0_0;
+struct ActivatedClientTypeEntry_t4630;
+const Il2CppTypeDefinitionMetadata ActivatedClientTypeEntry_t4630_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &TypeEntry_t4628_0_0_0/* parent */
-	, ActivatedClientTypeEntry_t4627_VTable/* vtableMethods */
-	, ActivatedClientTypeEntry_t4627_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &TypeEntry_t4631_0_0_0/* parent */
+	, ActivatedClientTypeEntry_t4630_VTable/* vtableMethods */
+	, ActivatedClientTypeEntry_t4630_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1647/* fieldStart */
 
 };
-TypeInfo ActivatedClientTypeEntry_t4627_il2cpp_TypeInfo = 
+TypeInfo ActivatedClientTypeEntry_t4630_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ActivatedClientTypeEntry"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, ActivatedClientTypeEntry_t4627_MethodInfos/* methods */
-	, ActivatedClientTypeEntry_t4627_PropertyInfos/* properties */
+	, ActivatedClientTypeEntry_t4630_MethodInfos/* methods */
+	, ActivatedClientTypeEntry_t4630_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ActivatedClientTypeEntry_t4627_il2cpp_TypeInfo/* element_class */
+	, &ActivatedClientTypeEntry_t4630_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 567/* custom_attributes_cache */
-	, &ActivatedClientTypeEntry_t4627_0_0_0/* byval_arg */
-	, &ActivatedClientTypeEntry_t4627_1_0_0/* this_arg */
-	, &ActivatedClientTypeEntry_t4627_DefinitionMetadata/* definitionMetadata */
+	, &ActivatedClientTypeEntry_t4630_0_0_0/* byval_arg */
+	, &ActivatedClientTypeEntry_t4630_1_0_0/* this_arg */
+	, &ActivatedClientTypeEntry_t4630_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14791,8 +14791,8 @@ TypeInfo ActivatedClientTypeEntry_t4627_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ActivatedClientTypeEntry_t4627)/* instance_size */
-	, sizeof (ActivatedClientTypeEntry_t4627)/* actualSize */
+	, sizeof (ActivatedClientTypeEntry_t4630)/* instance_size */
+	, sizeof (ActivatedClientTypeEntry_t4630)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -14824,24 +14824,24 @@ TypeInfo ActivatedClientTypeEntry_t4627_il2cpp_TypeInfo =
 // System.Runtime.Remoting.EnvoyInfo
 #include "mscorlib_System_Runtime_Remoting_EnvoyInfo.h"
 // Metadata Definition System.Runtime.Remoting.EnvoyInfo
-extern TypeInfo EnvoyInfo_t4629_il2cpp_TypeInfo;
+extern TypeInfo EnvoyInfo_t4632_il2cpp_TypeInfo;
 // System.Runtime.Remoting.EnvoyInfo
 #include "mscorlib_System_Runtime_Remoting_EnvoyInfoMethodDeclarations.h"
-extern const Il2CppType IMessageSink_t3091_0_0_0;
-static const ParameterInfo EnvoyInfo_t4629_EnvoyInfo__ctor_m18365_ParameterInfos[] = 
+extern const Il2CppType IMessageSink_t3094_0_0_0;
+static const ParameterInfo EnvoyInfo_t4632_EnvoyInfo__ctor_m18397_ParameterInfos[] = 
 {
-	{"sinks", 0, 134222229, 0, &IMessageSink_t3091_0_0_0},
+	{"sinks", 0, 134222229, 0, &IMessageSink_t3094_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.EnvoyInfo::.ctor(System.Runtime.Remoting.Messaging.IMessageSink)
-extern const MethodInfo EnvoyInfo__ctor_m18365_MethodInfo = 
+extern const MethodInfo EnvoyInfo__ctor_m18397_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&EnvoyInfo__ctor_m18365/* method */
-	, &EnvoyInfo_t4629_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&EnvoyInfo__ctor_m18397/* method */
+	, &EnvoyInfo_t4632_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, EnvoyInfo_t4629_EnvoyInfo__ctor_m18365_ParameterInfos/* parameters */
+	, EnvoyInfo_t4632_EnvoyInfo__ctor_m18397_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -14857,12 +14857,12 @@ extern const MethodInfo EnvoyInfo__ctor_m18365_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.EnvoyInfo::get_EnvoySinks()
-extern const MethodInfo EnvoyInfo_get_EnvoySinks_m18366_MethodInfo = 
+extern const MethodInfo EnvoyInfo_get_EnvoySinks_m18398_MethodInfo = 
 {
 	"get_EnvoySinks"/* name */
-	, (methodPointerType)&EnvoyInfo_get_EnvoySinks_m18366/* method */
-	, &EnvoyInfo_t4629_il2cpp_TypeInfo/* declaring_type */
-	, &IMessageSink_t3091_0_0_0/* return_type */
+	, (methodPointerType)&EnvoyInfo_get_EnvoySinks_m18398/* method */
+	, &EnvoyInfo_t4632_il2cpp_TypeInfo/* declaring_type */
+	, &IMessageSink_t3094_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -14878,37 +14878,37 @@ extern const MethodInfo EnvoyInfo_get_EnvoySinks_m18366_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* EnvoyInfo_t4629_MethodInfos[] =
+static const MethodInfo* EnvoyInfo_t4632_MethodInfos[] =
 {
-	&EnvoyInfo__ctor_m18365_MethodInfo,
-	&EnvoyInfo_get_EnvoySinks_m18366_MethodInfo,
+	&EnvoyInfo__ctor_m18397_MethodInfo,
+	&EnvoyInfo_get_EnvoySinks_m18398_MethodInfo,
 	NULL
 };
-extern const MethodInfo EnvoyInfo_get_EnvoySinks_m18366_MethodInfo;
-static const PropertyInfo EnvoyInfo_t4629____EnvoySinks_PropertyInfo = 
+extern const MethodInfo EnvoyInfo_get_EnvoySinks_m18398_MethodInfo;
+static const PropertyInfo EnvoyInfo_t4632____EnvoySinks_PropertyInfo = 
 {
-	&EnvoyInfo_t4629_il2cpp_TypeInfo/* parent */
+	&EnvoyInfo_t4632_il2cpp_TypeInfo/* parent */
 	, "EnvoySinks"/* name */
-	, &EnvoyInfo_get_EnvoySinks_m18366_MethodInfo/* get */
+	, &EnvoyInfo_get_EnvoySinks_m18398_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* EnvoyInfo_t4629_PropertyInfos[] =
+static const PropertyInfo* EnvoyInfo_t4632_PropertyInfos[] =
 {
-	&EnvoyInfo_t4629____EnvoySinks_PropertyInfo,
+	&EnvoyInfo_t4632____EnvoySinks_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference EnvoyInfo_t4629_VTable[] =
+static const Il2CppMethodReference EnvoyInfo_t4632_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&EnvoyInfo_get_EnvoySinks_m18366_MethodInfo,
+	&EnvoyInfo_get_EnvoySinks_m18398_MethodInfo,
 };
-static bool EnvoyInfo_t4629_VTableIsGenericMethod[] =
+static bool EnvoyInfo_t4632_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -14916,47 +14916,47 @@ static bool EnvoyInfo_t4629_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IEnvoyInfo_t4634_0_0_0;
-static const Il2CppType* EnvoyInfo_t4629_InterfacesTypeInfos[] = 
+extern const Il2CppType IEnvoyInfo_t4637_0_0_0;
+static const Il2CppType* EnvoyInfo_t4632_InterfacesTypeInfos[] = 
 {
-	&IEnvoyInfo_t4634_0_0_0,
+	&IEnvoyInfo_t4637_0_0_0,
 };
-static Il2CppInterfaceOffsetPair EnvoyInfo_t4629_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair EnvoyInfo_t4632_InterfacesOffsets[] = 
 {
-	{ &IEnvoyInfo_t4634_0_0_0, 4},
+	{ &IEnvoyInfo_t4637_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType EnvoyInfo_t4629_0_0_0;
-extern const Il2CppType EnvoyInfo_t4629_1_0_0;
-struct EnvoyInfo_t4629;
-const Il2CppTypeDefinitionMetadata EnvoyInfo_t4629_DefinitionMetadata = 
+extern const Il2CppType EnvoyInfo_t4632_0_0_0;
+extern const Il2CppType EnvoyInfo_t4632_1_0_0;
+struct EnvoyInfo_t4632;
+const Il2CppTypeDefinitionMetadata EnvoyInfo_t4632_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, EnvoyInfo_t4629_InterfacesTypeInfos/* implementedInterfaces */
-	, EnvoyInfo_t4629_InterfacesOffsets/* interfaceOffsets */
+	, EnvoyInfo_t4632_InterfacesTypeInfos/* implementedInterfaces */
+	, EnvoyInfo_t4632_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, EnvoyInfo_t4629_VTable/* vtableMethods */
-	, EnvoyInfo_t4629_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, EnvoyInfo_t4632_VTable/* vtableMethods */
+	, EnvoyInfo_t4632_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1649/* fieldStart */
 
 };
-TypeInfo EnvoyInfo_t4629_il2cpp_TypeInfo = 
+TypeInfo EnvoyInfo_t4632_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "EnvoyInfo"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, EnvoyInfo_t4629_MethodInfos/* methods */
-	, EnvoyInfo_t4629_PropertyInfos/* properties */
+	, EnvoyInfo_t4632_MethodInfos/* methods */
+	, EnvoyInfo_t4632_PropertyInfos/* properties */
 	, NULL/* events */
-	, &EnvoyInfo_t4629_il2cpp_TypeInfo/* element_class */
+	, &EnvoyInfo_t4632_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &EnvoyInfo_t4629_0_0_0/* byval_arg */
-	, &EnvoyInfo_t4629_1_0_0/* this_arg */
-	, &EnvoyInfo_t4629_DefinitionMetadata/* definitionMetadata */
+	, &EnvoyInfo_t4632_0_0_0/* byval_arg */
+	, &EnvoyInfo_t4632_1_0_0/* this_arg */
+	, &EnvoyInfo_t4632_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14966,8 +14966,8 @@ TypeInfo EnvoyInfo_t4629_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (EnvoyInfo_t4629)/* instance_size */
-	, sizeof (EnvoyInfo_t4629)/* actualSize */
+	, sizeof (EnvoyInfo_t4632)/* instance_size */
+	, sizeof (EnvoyInfo_t4632)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -14997,15 +14997,15 @@ TypeInfo EnvoyInfo_t4629_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.IChannelInfo
-extern TypeInfo IChannelInfo_t4632_il2cpp_TypeInfo;
+extern TypeInfo IChannelInfo_t4635_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object[] System.Runtime.Remoting.IChannelInfo::get_ChannelData()
-extern const MethodInfo IChannelInfo_get_ChannelData_m20751_MethodInfo = 
+extern const MethodInfo IChannelInfo_get_ChannelData_m20783_MethodInfo = 
 {
 	"get_ChannelData"/* name */
 	, NULL/* method */
-	, &IChannelInfo_t4632_il2cpp_TypeInfo/* declaring_type */
-	, &ObjectU5BU5D_t680_0_0_0/* return_type */
+	, &IChannelInfo_t4635_il2cpp_TypeInfo/* declaring_type */
+	, &ObjectU5BU5D_t683_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -15021,31 +15021,31 @@ extern const MethodInfo IChannelInfo_get_ChannelData_m20751_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IChannelInfo_t4632_MethodInfos[] =
+static const MethodInfo* IChannelInfo_t4635_MethodInfos[] =
 {
-	&IChannelInfo_get_ChannelData_m20751_MethodInfo,
+	&IChannelInfo_get_ChannelData_m20783_MethodInfo,
 	NULL
 };
-extern const MethodInfo IChannelInfo_get_ChannelData_m20751_MethodInfo;
-static const PropertyInfo IChannelInfo_t4632____ChannelData_PropertyInfo = 
+extern const MethodInfo IChannelInfo_get_ChannelData_m20783_MethodInfo;
+static const PropertyInfo IChannelInfo_t4635____ChannelData_PropertyInfo = 
 {
-	&IChannelInfo_t4632_il2cpp_TypeInfo/* parent */
+	&IChannelInfo_t4635_il2cpp_TypeInfo/* parent */
 	, "ChannelData"/* name */
-	, &IChannelInfo_get_ChannelData_m20751_MethodInfo/* get */
+	, &IChannelInfo_get_ChannelData_m20783_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IChannelInfo_t4632_PropertyInfos[] =
+static const PropertyInfo* IChannelInfo_t4635_PropertyInfos[] =
 {
-	&IChannelInfo_t4632____ChannelData_PropertyInfo,
+	&IChannelInfo_t4635____ChannelData_PropertyInfo,
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IChannelInfo_t4632_1_0_0;
-struct IChannelInfo_t4632;
-const Il2CppTypeDefinitionMetadata IChannelInfo_t4632_DefinitionMetadata = 
+extern const Il2CppType IChannelInfo_t4635_1_0_0;
+struct IChannelInfo_t4635;
+const Il2CppTypeDefinitionMetadata IChannelInfo_t4635_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -15058,21 +15058,21 @@ const Il2CppTypeDefinitionMetadata IChannelInfo_t4632_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IChannelInfo_t4632_il2cpp_TypeInfo = 
+TypeInfo IChannelInfo_t4635_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IChannelInfo"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, IChannelInfo_t4632_MethodInfos/* methods */
-	, IChannelInfo_t4632_PropertyInfos/* properties */
+	, IChannelInfo_t4635_MethodInfos/* methods */
+	, IChannelInfo_t4635_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IChannelInfo_t4632_il2cpp_TypeInfo/* element_class */
+	, &IChannelInfo_t4635_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 568/* custom_attributes_cache */
-	, &IChannelInfo_t4632_0_0_0/* byval_arg */
-	, &IChannelInfo_t4632_1_0_0/* this_arg */
-	, &IChannelInfo_t4632_DefinitionMetadata/* definitionMetadata */
+	, &IChannelInfo_t4635_0_0_0/* byval_arg */
+	, &IChannelInfo_t4635_1_0_0/* this_arg */
+	, &IChannelInfo_t4635_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -15113,15 +15113,15 @@ TypeInfo IChannelInfo_t4632_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.IEnvoyInfo
-extern TypeInfo IEnvoyInfo_t4634_il2cpp_TypeInfo;
+extern TypeInfo IEnvoyInfo_t4637_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.IEnvoyInfo::get_EnvoySinks()
-extern const MethodInfo IEnvoyInfo_get_EnvoySinks_m20752_MethodInfo = 
+extern const MethodInfo IEnvoyInfo_get_EnvoySinks_m20784_MethodInfo = 
 {
 	"get_EnvoySinks"/* name */
 	, NULL/* method */
-	, &IEnvoyInfo_t4634_il2cpp_TypeInfo/* declaring_type */
-	, &IMessageSink_t3091_0_0_0/* return_type */
+	, &IEnvoyInfo_t4637_il2cpp_TypeInfo/* declaring_type */
+	, &IMessageSink_t3094_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -15137,31 +15137,31 @@ extern const MethodInfo IEnvoyInfo_get_EnvoySinks_m20752_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IEnvoyInfo_t4634_MethodInfos[] =
+static const MethodInfo* IEnvoyInfo_t4637_MethodInfos[] =
 {
-	&IEnvoyInfo_get_EnvoySinks_m20752_MethodInfo,
+	&IEnvoyInfo_get_EnvoySinks_m20784_MethodInfo,
 	NULL
 };
-extern const MethodInfo IEnvoyInfo_get_EnvoySinks_m20752_MethodInfo;
-static const PropertyInfo IEnvoyInfo_t4634____EnvoySinks_PropertyInfo = 
+extern const MethodInfo IEnvoyInfo_get_EnvoySinks_m20784_MethodInfo;
+static const PropertyInfo IEnvoyInfo_t4637____EnvoySinks_PropertyInfo = 
 {
-	&IEnvoyInfo_t4634_il2cpp_TypeInfo/* parent */
+	&IEnvoyInfo_t4637_il2cpp_TypeInfo/* parent */
 	, "EnvoySinks"/* name */
-	, &IEnvoyInfo_get_EnvoySinks_m20752_MethodInfo/* get */
+	, &IEnvoyInfo_get_EnvoySinks_m20784_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IEnvoyInfo_t4634_PropertyInfos[] =
+static const PropertyInfo* IEnvoyInfo_t4637_PropertyInfos[] =
 {
-	&IEnvoyInfo_t4634____EnvoySinks_PropertyInfo,
+	&IEnvoyInfo_t4637____EnvoySinks_PropertyInfo,
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IEnvoyInfo_t4634_1_0_0;
-struct IEnvoyInfo_t4634;
-const Il2CppTypeDefinitionMetadata IEnvoyInfo_t4634_DefinitionMetadata = 
+extern const Il2CppType IEnvoyInfo_t4637_1_0_0;
+struct IEnvoyInfo_t4637;
+const Il2CppTypeDefinitionMetadata IEnvoyInfo_t4637_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -15174,21 +15174,21 @@ const Il2CppTypeDefinitionMetadata IEnvoyInfo_t4634_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IEnvoyInfo_t4634_il2cpp_TypeInfo = 
+TypeInfo IEnvoyInfo_t4637_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IEnvoyInfo"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, IEnvoyInfo_t4634_MethodInfos/* methods */
-	, IEnvoyInfo_t4634_PropertyInfos/* properties */
+	, IEnvoyInfo_t4637_MethodInfos/* methods */
+	, IEnvoyInfo_t4637_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IEnvoyInfo_t4634_il2cpp_TypeInfo/* element_class */
+	, &IEnvoyInfo_t4637_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 569/* custom_attributes_cache */
-	, &IEnvoyInfo_t4634_0_0_0/* byval_arg */
-	, &IEnvoyInfo_t4634_1_0_0/* this_arg */
-	, &IEnvoyInfo_t4634_DefinitionMetadata/* definitionMetadata */
+	, &IEnvoyInfo_t4637_0_0_0/* byval_arg */
+	, &IEnvoyInfo_t4637_1_0_0/* this_arg */
+	, &IEnvoyInfo_t4637_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -15229,14 +15229,14 @@ TypeInfo IEnvoyInfo_t4634_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Runtime.Remoting.IRemotingTypeInfo
-extern TypeInfo IRemotingTypeInfo_t4633_il2cpp_TypeInfo;
+extern TypeInfo IRemotingTypeInfo_t4636_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.IRemotingTypeInfo::get_TypeName()
-extern const MethodInfo IRemotingTypeInfo_get_TypeName_m20753_MethodInfo = 
+extern const MethodInfo IRemotingTypeInfo_get_TypeName_m20785_MethodInfo = 
 {
 	"get_TypeName"/* name */
 	, NULL/* method */
-	, &IRemotingTypeInfo_t4633_il2cpp_TypeInfo/* declaring_type */
+	, &IRemotingTypeInfo_t4636_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -15253,31 +15253,31 @@ extern const MethodInfo IRemotingTypeInfo_get_TypeName_m20753_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IRemotingTypeInfo_t4633_MethodInfos[] =
+static const MethodInfo* IRemotingTypeInfo_t4636_MethodInfos[] =
 {
-	&IRemotingTypeInfo_get_TypeName_m20753_MethodInfo,
+	&IRemotingTypeInfo_get_TypeName_m20785_MethodInfo,
 	NULL
 };
-extern const MethodInfo IRemotingTypeInfo_get_TypeName_m20753_MethodInfo;
-static const PropertyInfo IRemotingTypeInfo_t4633____TypeName_PropertyInfo = 
+extern const MethodInfo IRemotingTypeInfo_get_TypeName_m20785_MethodInfo;
+static const PropertyInfo IRemotingTypeInfo_t4636____TypeName_PropertyInfo = 
 {
-	&IRemotingTypeInfo_t4633_il2cpp_TypeInfo/* parent */
+	&IRemotingTypeInfo_t4636_il2cpp_TypeInfo/* parent */
 	, "TypeName"/* name */
-	, &IRemotingTypeInfo_get_TypeName_m20753_MethodInfo/* get */
+	, &IRemotingTypeInfo_get_TypeName_m20785_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IRemotingTypeInfo_t4633_PropertyInfos[] =
+static const PropertyInfo* IRemotingTypeInfo_t4636_PropertyInfos[] =
 {
-	&IRemotingTypeInfo_t4633____TypeName_PropertyInfo,
+	&IRemotingTypeInfo_t4636____TypeName_PropertyInfo,
 	NULL
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType IRemotingTypeInfo_t4633_1_0_0;
-struct IRemotingTypeInfo_t4633;
-const Il2CppTypeDefinitionMetadata IRemotingTypeInfo_t4633_DefinitionMetadata = 
+extern const Il2CppType IRemotingTypeInfo_t4636_1_0_0;
+struct IRemotingTypeInfo_t4636;
+const Il2CppTypeDefinitionMetadata IRemotingTypeInfo_t4636_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -15290,21 +15290,21 @@ const Il2CppTypeDefinitionMetadata IRemotingTypeInfo_t4633_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IRemotingTypeInfo_t4633_il2cpp_TypeInfo = 
+TypeInfo IRemotingTypeInfo_t4636_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IRemotingTypeInfo"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, IRemotingTypeInfo_t4633_MethodInfos/* methods */
-	, IRemotingTypeInfo_t4633_PropertyInfos/* properties */
+	, IRemotingTypeInfo_t4636_MethodInfos/* methods */
+	, IRemotingTypeInfo_t4636_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IRemotingTypeInfo_t4633_il2cpp_TypeInfo/* element_class */
+	, &IRemotingTypeInfo_t4636_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 570/* custom_attributes_cache */
-	, &IRemotingTypeInfo_t4633_0_0_0/* byval_arg */
-	, &IRemotingTypeInfo_t4633_1_0_0/* this_arg */
-	, &IRemotingTypeInfo_t4633_DefinitionMetadata/* definitionMetadata */
+	, &IRemotingTypeInfo_t4636_0_0_0/* byval_arg */
+	, &IRemotingTypeInfo_t4636_1_0_0/* this_arg */
+	, &IRemotingTypeInfo_t4636_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -15347,24 +15347,24 @@ TypeInfo IRemotingTypeInfo_t4633_il2cpp_TypeInfo =
 // System.Runtime.Remoting.Identity
 #include "mscorlib_System_Runtime_Remoting_Identity.h"
 // Metadata Definition System.Runtime.Remoting.Identity
-extern TypeInfo Identity_t4624_il2cpp_TypeInfo;
+extern TypeInfo Identity_t4627_il2cpp_TypeInfo;
 // System.Runtime.Remoting.Identity
 #include "mscorlib_System_Runtime_Remoting_IdentityMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Identity_t4624_Identity__ctor_m18367_ParameterInfos[] = 
+static const ParameterInfo Identity_t4627_Identity__ctor_m18399_ParameterInfos[] = 
 {
 	{"objectUri", 0, 134222230, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Identity::.ctor(System.String)
-extern const MethodInfo Identity__ctor_m18367_MethodInfo = 
+extern const MethodInfo Identity__ctor_m18399_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Identity__ctor_m18367/* method */
-	, &Identity_t4624_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&Identity__ctor_m18399/* method */
+	, &Identity_t4627_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Identity_t4624_Identity__ctor_m18367_ParameterInfos/* parameters */
+	, Identity_t4627_Identity__ctor_m18399_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15379,20 +15379,20 @@ extern const MethodInfo Identity__ctor_m18367_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo Identity_t4624_Identity_CreateObjRef_m20754_ParameterInfos[] = 
+static const ParameterInfo Identity_t4627_Identity_CreateObjRef_m20786_ParameterInfos[] = 
 {
 	{"requestedType", 0, 134222231, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.ObjRef System.Runtime.Remoting.Identity::CreateObjRef(System.Type)
-extern const MethodInfo Identity_CreateObjRef_m20754_MethodInfo = 
+extern const MethodInfo Identity_CreateObjRef_m20786_MethodInfo = 
 {
 	"CreateObjRef"/* name */
 	, NULL/* method */
-	, &Identity_t4624_il2cpp_TypeInfo/* declaring_type */
-	, &ObjRef_t4630_0_0_0/* return_type */
+	, &Identity_t4627_il2cpp_TypeInfo/* declaring_type */
+	, &ObjRef_t4633_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Identity_t4624_Identity_CreateObjRef_m20754_ParameterInfos/* parameters */
+	, Identity_t4627_Identity_CreateObjRef_m20786_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -15408,12 +15408,12 @@ extern const MethodInfo Identity_CreateObjRef_m20754_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.Identity::get_ChannelSink()
-extern const MethodInfo Identity_get_ChannelSink_m18368_MethodInfo = 
+extern const MethodInfo Identity_get_ChannelSink_m18400_MethodInfo = 
 {
 	"get_ChannelSink"/* name */
-	, (methodPointerType)&Identity_get_ChannelSink_m18368/* method */
-	, &Identity_t4624_il2cpp_TypeInfo/* declaring_type */
-	, &IMessageSink_t3091_0_0_0/* return_type */
+	, (methodPointerType)&Identity_get_ChannelSink_m18400/* method */
+	, &Identity_t4627_il2cpp_TypeInfo/* declaring_type */
+	, &IMessageSink_t3094_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -15429,21 +15429,21 @@ extern const MethodInfo Identity_get_ChannelSink_m18368_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IMessageSink_t3091_0_0_0;
-static const ParameterInfo Identity_t4624_Identity_set_ChannelSink_m18369_ParameterInfos[] = 
+extern const Il2CppType IMessageSink_t3094_0_0_0;
+static const ParameterInfo Identity_t4627_Identity_set_ChannelSink_m18401_ParameterInfos[] = 
 {
-	{"value", 0, 134222232, 0, &IMessageSink_t3091_0_0_0},
+	{"value", 0, 134222232, 0, &IMessageSink_t3094_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Identity::set_ChannelSink(System.Runtime.Remoting.Messaging.IMessageSink)
-extern const MethodInfo Identity_set_ChannelSink_m18369_MethodInfo = 
+extern const MethodInfo Identity_set_ChannelSink_m18401_MethodInfo = 
 {
 	"set_ChannelSink"/* name */
-	, (methodPointerType)&Identity_set_ChannelSink_m18369/* method */
-	, &Identity_t4624_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&Identity_set_ChannelSink_m18401/* method */
+	, &Identity_t4627_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Identity_t4624_Identity_set_ChannelSink_m18369_ParameterInfos/* parameters */
+	, Identity_t4627_Identity_set_ChannelSink_m18401_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -15459,11 +15459,11 @@ extern const MethodInfo Identity_set_ChannelSink_m18369_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.Identity::get_ObjectUri()
-extern const MethodInfo Identity_get_ObjectUri_m18370_MethodInfo = 
+extern const MethodInfo Identity_get_ObjectUri_m18402_MethodInfo = 
 {
 	"get_ObjectUri"/* name */
-	, (methodPointerType)&Identity_get_ObjectUri_m18370/* method */
-	, &Identity_t4624_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&Identity_get_ObjectUri_m18402/* method */
+	, &Identity_t4627_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -15482,11 +15482,11 @@ extern const MethodInfo Identity_get_ObjectUri_m18370_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.Identity::get_Disposed()
-extern const MethodInfo Identity_get_Disposed_m18371_MethodInfo = 
+extern const MethodInfo Identity_get_Disposed_m18403_MethodInfo = 
 {
 	"get_Disposed"/* name */
-	, (methodPointerType)&Identity_get_Disposed_m18371/* method */
-	, &Identity_t4624_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&Identity_get_Disposed_m18403/* method */
+	, &Identity_t4627_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -15504,20 +15504,20 @@ extern const MethodInfo Identity_get_Disposed_m18371_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Identity_t4624_Identity_set_Disposed_m18372_ParameterInfos[] = 
+static const ParameterInfo Identity_t4627_Identity_set_Disposed_m18404_ParameterInfos[] = 
 {
 	{"value", 0, 134222233, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.Identity::set_Disposed(System.Boolean)
-extern const MethodInfo Identity_set_Disposed_m18372_MethodInfo = 
+extern const MethodInfo Identity_set_Disposed_m18404_MethodInfo = 
 {
 	"set_Disposed"/* name */
-	, (methodPointerType)&Identity_set_Disposed_m18372/* method */
-	, &Identity_t4624_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&Identity_set_Disposed_m18404/* method */
+	, &Identity_t4627_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Identity_t4624_Identity_set_Disposed_m18372_ParameterInfos/* parameters */
+	, Identity_t4627_Identity_set_Disposed_m18404_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -15531,60 +15531,60 @@ extern const MethodInfo Identity_set_Disposed_m18372_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* Identity_t4624_MethodInfos[] =
+static const MethodInfo* Identity_t4627_MethodInfos[] =
 {
-	&Identity__ctor_m18367_MethodInfo,
-	&Identity_CreateObjRef_m20754_MethodInfo,
-	&Identity_get_ChannelSink_m18368_MethodInfo,
-	&Identity_set_ChannelSink_m18369_MethodInfo,
-	&Identity_get_ObjectUri_m18370_MethodInfo,
-	&Identity_get_Disposed_m18371_MethodInfo,
-	&Identity_set_Disposed_m18372_MethodInfo,
+	&Identity__ctor_m18399_MethodInfo,
+	&Identity_CreateObjRef_m20786_MethodInfo,
+	&Identity_get_ChannelSink_m18400_MethodInfo,
+	&Identity_set_ChannelSink_m18401_MethodInfo,
+	&Identity_get_ObjectUri_m18402_MethodInfo,
+	&Identity_get_Disposed_m18403_MethodInfo,
+	&Identity_set_Disposed_m18404_MethodInfo,
 	NULL
 };
-extern const MethodInfo Identity_get_ChannelSink_m18368_MethodInfo;
-extern const MethodInfo Identity_set_ChannelSink_m18369_MethodInfo;
-static const PropertyInfo Identity_t4624____ChannelSink_PropertyInfo = 
+extern const MethodInfo Identity_get_ChannelSink_m18400_MethodInfo;
+extern const MethodInfo Identity_set_ChannelSink_m18401_MethodInfo;
+static const PropertyInfo Identity_t4627____ChannelSink_PropertyInfo = 
 {
-	&Identity_t4624_il2cpp_TypeInfo/* parent */
+	&Identity_t4627_il2cpp_TypeInfo/* parent */
 	, "ChannelSink"/* name */
-	, &Identity_get_ChannelSink_m18368_MethodInfo/* get */
-	, &Identity_set_ChannelSink_m18369_MethodInfo/* set */
+	, &Identity_get_ChannelSink_m18400_MethodInfo/* get */
+	, &Identity_set_ChannelSink_m18401_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Identity_get_ObjectUri_m18370_MethodInfo;
-static const PropertyInfo Identity_t4624____ObjectUri_PropertyInfo = 
+extern const MethodInfo Identity_get_ObjectUri_m18402_MethodInfo;
+static const PropertyInfo Identity_t4627____ObjectUri_PropertyInfo = 
 {
-	&Identity_t4624_il2cpp_TypeInfo/* parent */
+	&Identity_t4627_il2cpp_TypeInfo/* parent */
 	, "ObjectUri"/* name */
-	, &Identity_get_ObjectUri_m18370_MethodInfo/* get */
+	, &Identity_get_ObjectUri_m18402_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Identity_get_Disposed_m18371_MethodInfo;
-extern const MethodInfo Identity_set_Disposed_m18372_MethodInfo;
-static const PropertyInfo Identity_t4624____Disposed_PropertyInfo = 
+extern const MethodInfo Identity_get_Disposed_m18403_MethodInfo;
+extern const MethodInfo Identity_set_Disposed_m18404_MethodInfo;
+static const PropertyInfo Identity_t4627____Disposed_PropertyInfo = 
 {
-	&Identity_t4624_il2cpp_TypeInfo/* parent */
+	&Identity_t4627_il2cpp_TypeInfo/* parent */
 	, "Disposed"/* name */
-	, &Identity_get_Disposed_m18371_MethodInfo/* get */
-	, &Identity_set_Disposed_m18372_MethodInfo/* set */
+	, &Identity_get_Disposed_m18403_MethodInfo/* get */
+	, &Identity_set_Disposed_m18404_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* Identity_t4624_PropertyInfos[] =
+static const PropertyInfo* Identity_t4627_PropertyInfos[] =
 {
-	&Identity_t4624____ChannelSink_PropertyInfo,
-	&Identity_t4624____ObjectUri_PropertyInfo,
-	&Identity_t4624____Disposed_PropertyInfo,
+	&Identity_t4627____ChannelSink_PropertyInfo,
+	&Identity_t4627____ObjectUri_PropertyInfo,
+	&Identity_t4627____Disposed_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference Identity_t4624_VTable[] =
+static const Il2CppMethodReference Identity_t4627_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -15592,7 +15592,7 @@ static const Il2CppMethodReference Identity_t4624_VTable[] =
 	&Object_ToString_m492_MethodInfo,
 	NULL,
 };
-static bool Identity_t4624_VTableIsGenericMethod[] =
+static bool Identity_t4627_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -15601,37 +15601,37 @@ static bool Identity_t4624_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType Identity_t4624_0_0_0;
-extern const Il2CppType Identity_t4624_1_0_0;
-struct Identity_t4624;
-const Il2CppTypeDefinitionMetadata Identity_t4624_DefinitionMetadata = 
+extern const Il2CppType Identity_t4627_0_0_0;
+extern const Il2CppType Identity_t4627_1_0_0;
+struct Identity_t4627;
+const Il2CppTypeDefinitionMetadata Identity_t4627_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, Identity_t4624_VTable/* vtableMethods */
-	, Identity_t4624_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, Identity_t4627_VTable/* vtableMethods */
+	, Identity_t4627_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1650/* fieldStart */
 
 };
-TypeInfo Identity_t4624_il2cpp_TypeInfo = 
+TypeInfo Identity_t4627_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Identity"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, Identity_t4624_MethodInfos/* methods */
-	, Identity_t4624_PropertyInfos/* properties */
+	, Identity_t4627_MethodInfos/* methods */
+	, Identity_t4627_PropertyInfos/* properties */
 	, NULL/* events */
-	, &Identity_t4624_il2cpp_TypeInfo/* element_class */
+	, &Identity_t4627_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &Identity_t4624_0_0_0/* byval_arg */
-	, &Identity_t4624_1_0_0/* this_arg */
-	, &Identity_t4624_DefinitionMetadata/* definitionMetadata */
+	, &Identity_t4627_0_0_0/* byval_arg */
+	, &Identity_t4627_1_0_0/* this_arg */
+	, &Identity_t4627_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -15641,8 +15641,8 @@ TypeInfo Identity_t4624_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Identity_t4624)/* instance_size */
-	, sizeof (Identity_t4624)/* actualSize */
+	, sizeof (Identity_t4627)/* instance_size */
+	, sizeof (Identity_t4627)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -15674,26 +15674,26 @@ TypeInfo Identity_t4624_il2cpp_TypeInfo =
 // System.Runtime.Remoting.ClientIdentity
 #include "mscorlib_System_Runtime_Remoting_ClientIdentity.h"
 // Metadata Definition System.Runtime.Remoting.ClientIdentity
-extern TypeInfo ClientIdentity_t4631_il2cpp_TypeInfo;
+extern TypeInfo ClientIdentity_t4634_il2cpp_TypeInfo;
 // System.Runtime.Remoting.ClientIdentity
 #include "mscorlib_System_Runtime_Remoting_ClientIdentityMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjRef_t4630_0_0_0;
-static const ParameterInfo ClientIdentity_t4631_ClientIdentity__ctor_m18373_ParameterInfos[] = 
+extern const Il2CppType ObjRef_t4633_0_0_0;
+static const ParameterInfo ClientIdentity_t4634_ClientIdentity__ctor_m18405_ParameterInfos[] = 
 {
 	{"objectUri", 0, 134222234, 0, &String_t_0_0_0},
-	{"objRef", 1, 134222235, 0, &ObjRef_t4630_0_0_0},
+	{"objRef", 1, 134222235, 0, &ObjRef_t4633_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.ClientIdentity::.ctor(System.String,System.Runtime.Remoting.ObjRef)
-extern const MethodInfo ClientIdentity__ctor_m18373_MethodInfo = 
+extern const MethodInfo ClientIdentity__ctor_m18405_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ClientIdentity__ctor_m18373/* method */
-	, &ClientIdentity_t4631_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ClientIdentity__ctor_m18405/* method */
+	, &ClientIdentity_t4634_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ClientIdentity_t4631_ClientIdentity__ctor_m18373_ParameterInfos/* parameters */
+	, ClientIdentity_t4634_ClientIdentity__ctor_m18405_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15709,12 +15709,12 @@ extern const MethodInfo ClientIdentity__ctor_m18373_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.MarshalByRefObject System.Runtime.Remoting.ClientIdentity::get_ClientProxy()
-extern const MethodInfo ClientIdentity_get_ClientProxy_m18374_MethodInfo = 
+extern const MethodInfo ClientIdentity_get_ClientProxy_m18406_MethodInfo = 
 {
 	"get_ClientProxy"/* name */
-	, (methodPointerType)&ClientIdentity_get_ClientProxy_m18374/* method */
-	, &ClientIdentity_t4631_il2cpp_TypeInfo/* declaring_type */
-	, &MarshalByRefObject_t4074_0_0_0/* return_type */
+	, (methodPointerType)&ClientIdentity_get_ClientProxy_m18406/* method */
+	, &ClientIdentity_t4634_il2cpp_TypeInfo/* declaring_type */
+	, &MarshalByRefObject_t4077_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -15730,21 +15730,21 @@ extern const MethodInfo ClientIdentity_get_ClientProxy_m18374_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MarshalByRefObject_t4074_0_0_0;
-static const ParameterInfo ClientIdentity_t4631_ClientIdentity_set_ClientProxy_m18375_ParameterInfos[] = 
+extern const Il2CppType MarshalByRefObject_t4077_0_0_0;
+static const ParameterInfo ClientIdentity_t4634_ClientIdentity_set_ClientProxy_m18407_ParameterInfos[] = 
 {
-	{"value", 0, 134222236, 0, &MarshalByRefObject_t4074_0_0_0},
+	{"value", 0, 134222236, 0, &MarshalByRefObject_t4077_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.ClientIdentity::set_ClientProxy(System.MarshalByRefObject)
-extern const MethodInfo ClientIdentity_set_ClientProxy_m18375_MethodInfo = 
+extern const MethodInfo ClientIdentity_set_ClientProxy_m18407_MethodInfo = 
 {
 	"set_ClientProxy"/* name */
-	, (methodPointerType)&ClientIdentity_set_ClientProxy_m18375/* method */
-	, &ClientIdentity_t4631_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ClientIdentity_set_ClientProxy_m18407/* method */
+	, &ClientIdentity_t4634_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ClientIdentity_t4631_ClientIdentity_set_ClientProxy_m18375_ParameterInfos/* parameters */
+	, ClientIdentity_t4634_ClientIdentity_set_ClientProxy_m18407_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -15759,20 +15759,20 @@ extern const MethodInfo ClientIdentity_set_ClientProxy_m18375_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ClientIdentity_t4631_ClientIdentity_CreateObjRef_m18376_ParameterInfos[] = 
+static const ParameterInfo ClientIdentity_t4634_ClientIdentity_CreateObjRef_m18408_ParameterInfos[] = 
 {
 	{"requestedType", 0, 134222237, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.ObjRef System.Runtime.Remoting.ClientIdentity::CreateObjRef(System.Type)
-extern const MethodInfo ClientIdentity_CreateObjRef_m18376_MethodInfo = 
+extern const MethodInfo ClientIdentity_CreateObjRef_m18408_MethodInfo = 
 {
 	"CreateObjRef"/* name */
-	, (methodPointerType)&ClientIdentity_CreateObjRef_m18376/* method */
-	, &ClientIdentity_t4631_il2cpp_TypeInfo/* declaring_type */
-	, &ObjRef_t4630_0_0_0/* return_type */
+	, (methodPointerType)&ClientIdentity_CreateObjRef_m18408/* method */
+	, &ClientIdentity_t4634_il2cpp_TypeInfo/* declaring_type */
+	, &ObjRef_t4633_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ClientIdentity_t4631_ClientIdentity_CreateObjRef_m18376_ParameterInfos/* parameters */
+	, ClientIdentity_t4634_ClientIdentity_CreateObjRef_m18408_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -15788,11 +15788,11 @@ extern const MethodInfo ClientIdentity_CreateObjRef_m18376_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.ClientIdentity::get_TargetUri()
-extern const MethodInfo ClientIdentity_get_TargetUri_m18377_MethodInfo = 
+extern const MethodInfo ClientIdentity_get_TargetUri_m18409_MethodInfo = 
 {
 	"get_TargetUri"/* name */
-	, (methodPointerType)&ClientIdentity_get_TargetUri_m18377/* method */
-	, &ClientIdentity_t4631_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ClientIdentity_get_TargetUri_m18409/* method */
+	, &ClientIdentity_t4634_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -15809,54 +15809,54 @@ extern const MethodInfo ClientIdentity_get_TargetUri_m18377_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ClientIdentity_t4631_MethodInfos[] =
+static const MethodInfo* ClientIdentity_t4634_MethodInfos[] =
 {
-	&ClientIdentity__ctor_m18373_MethodInfo,
-	&ClientIdentity_get_ClientProxy_m18374_MethodInfo,
-	&ClientIdentity_set_ClientProxy_m18375_MethodInfo,
-	&ClientIdentity_CreateObjRef_m18376_MethodInfo,
-	&ClientIdentity_get_TargetUri_m18377_MethodInfo,
+	&ClientIdentity__ctor_m18405_MethodInfo,
+	&ClientIdentity_get_ClientProxy_m18406_MethodInfo,
+	&ClientIdentity_set_ClientProxy_m18407_MethodInfo,
+	&ClientIdentity_CreateObjRef_m18408_MethodInfo,
+	&ClientIdentity_get_TargetUri_m18409_MethodInfo,
 	NULL
 };
-extern const MethodInfo ClientIdentity_get_ClientProxy_m18374_MethodInfo;
-extern const MethodInfo ClientIdentity_set_ClientProxy_m18375_MethodInfo;
-static const PropertyInfo ClientIdentity_t4631____ClientProxy_PropertyInfo = 
+extern const MethodInfo ClientIdentity_get_ClientProxy_m18406_MethodInfo;
+extern const MethodInfo ClientIdentity_set_ClientProxy_m18407_MethodInfo;
+static const PropertyInfo ClientIdentity_t4634____ClientProxy_PropertyInfo = 
 {
-	&ClientIdentity_t4631_il2cpp_TypeInfo/* parent */
+	&ClientIdentity_t4634_il2cpp_TypeInfo/* parent */
 	, "ClientProxy"/* name */
-	, &ClientIdentity_get_ClientProxy_m18374_MethodInfo/* get */
-	, &ClientIdentity_set_ClientProxy_m18375_MethodInfo/* set */
+	, &ClientIdentity_get_ClientProxy_m18406_MethodInfo/* get */
+	, &ClientIdentity_set_ClientProxy_m18407_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ClientIdentity_get_TargetUri_m18377_MethodInfo;
-static const PropertyInfo ClientIdentity_t4631____TargetUri_PropertyInfo = 
+extern const MethodInfo ClientIdentity_get_TargetUri_m18409_MethodInfo;
+static const PropertyInfo ClientIdentity_t4634____TargetUri_PropertyInfo = 
 {
-	&ClientIdentity_t4631_il2cpp_TypeInfo/* parent */
+	&ClientIdentity_t4634_il2cpp_TypeInfo/* parent */
 	, "TargetUri"/* name */
-	, &ClientIdentity_get_TargetUri_m18377_MethodInfo/* get */
+	, &ClientIdentity_get_TargetUri_m18409_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ClientIdentity_t4631_PropertyInfos[] =
+static const PropertyInfo* ClientIdentity_t4634_PropertyInfos[] =
 {
-	&ClientIdentity_t4631____ClientProxy_PropertyInfo,
-	&ClientIdentity_t4631____TargetUri_PropertyInfo,
+	&ClientIdentity_t4634____ClientProxy_PropertyInfo,
+	&ClientIdentity_t4634____TargetUri_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ClientIdentity_CreateObjRef_m18376_MethodInfo;
-static const Il2CppMethodReference ClientIdentity_t4631_VTable[] =
+extern const MethodInfo ClientIdentity_CreateObjRef_m18408_MethodInfo;
+static const Il2CppMethodReference ClientIdentity_t4634_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ClientIdentity_CreateObjRef_m18376_MethodInfo,
+	&ClientIdentity_CreateObjRef_m18408_MethodInfo,
 };
-static bool ClientIdentity_t4631_VTableIsGenericMethod[] =
+static bool ClientIdentity_t4634_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -15865,36 +15865,36 @@ static bool ClientIdentity_t4631_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ClientIdentity_t4631_1_0_0;
-struct ClientIdentity_t4631;
-const Il2CppTypeDefinitionMetadata ClientIdentity_t4631_DefinitionMetadata = 
+extern const Il2CppType ClientIdentity_t4634_1_0_0;
+struct ClientIdentity_t4634;
+const Il2CppTypeDefinitionMetadata ClientIdentity_t4634_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &Identity_t4624_0_0_0/* parent */
-	, ClientIdentity_t4631_VTable/* vtableMethods */
-	, ClientIdentity_t4631_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &Identity_t4627_0_0_0/* parent */
+	, ClientIdentity_t4634_VTable/* vtableMethods */
+	, ClientIdentity_t4634_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1655/* fieldStart */
 
 };
-TypeInfo ClientIdentity_t4631_il2cpp_TypeInfo = 
+TypeInfo ClientIdentity_t4634_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ClientIdentity"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, ClientIdentity_t4631_MethodInfos/* methods */
-	, ClientIdentity_t4631_PropertyInfos/* properties */
+	, ClientIdentity_t4634_MethodInfos/* methods */
+	, ClientIdentity_t4634_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ClientIdentity_t4631_il2cpp_TypeInfo/* element_class */
+	, &ClientIdentity_t4634_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ClientIdentity_t4631_0_0_0/* byval_arg */
-	, &ClientIdentity_t4631_1_0_0/* this_arg */
-	, &ClientIdentity_t4631_DefinitionMetadata/* definitionMetadata */
+	, &ClientIdentity_t4634_0_0_0/* byval_arg */
+	, &ClientIdentity_t4634_1_0_0/* this_arg */
+	, &ClientIdentity_t4634_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -15904,8 +15904,8 @@ TypeInfo ClientIdentity_t4631_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ClientIdentity_t4631)/* instance_size */
-	, sizeof (ClientIdentity_t4631)/* actualSize */
+	, sizeof (ClientIdentity_t4634)/* instance_size */
+	, sizeof (ClientIdentity_t4634)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -15937,16 +15937,16 @@ TypeInfo ClientIdentity_t4631_il2cpp_TypeInfo =
 // System.Runtime.Remoting.ObjRef
 #include "mscorlib_System_Runtime_Remoting_ObjRef.h"
 // Metadata Definition System.Runtime.Remoting.ObjRef
-extern TypeInfo ObjRef_t4630_il2cpp_TypeInfo;
+extern TypeInfo ObjRef_t4633_il2cpp_TypeInfo;
 // System.Runtime.Remoting.ObjRef
 #include "mscorlib_System_Runtime_Remoting_ObjRefMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.ObjRef::.ctor()
-extern const MethodInfo ObjRef__ctor_m18378_MethodInfo = 
+extern const MethodInfo ObjRef__ctor_m18410_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ObjRef__ctor_m18378/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRef__ctor_m18410/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -15963,23 +15963,23 @@ extern const MethodInfo ObjRef__ctor_m18378_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2917_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-static const ParameterInfo ObjRef_t4630_ObjRef__ctor_m18379_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2920_0_0_0;
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+static const ParameterInfo ObjRef_t4633_ObjRef__ctor_m18411_ParameterInfos[] = 
 {
-	{"info", 0, 134222238, 0, &SerializationInfo_t2917_0_0_0},
-	{"context", 1, 134222239, 0, &StreamingContext_t2918_0_0_0},
+	{"info", 0, 134222238, 0, &SerializationInfo_t2920_0_0_0},
+	{"context", 1, 134222239, 0, &StreamingContext_t2921_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.ObjRef::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ObjRef__ctor_m18379_MethodInfo = 
+extern const MethodInfo ObjRef__ctor_m18411_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ObjRef__ctor_m18379/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRef__ctor_m18411/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918/* invoker_method */
-	, ObjRef_t4630_ObjRef__ctor_m18379_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921/* invoker_method */
+	, ObjRef_t4633_ObjRef__ctor_m18411_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -15995,11 +15995,11 @@ extern const MethodInfo ObjRef__ctor_m18379_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.ObjRef::.cctor()
-extern const MethodInfo ObjRef__cctor_m18380_MethodInfo = 
+extern const MethodInfo ObjRef__cctor_m18412_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&ObjRef__cctor_m18380/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRef__cctor_m18412/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -16018,11 +16018,11 @@ extern const MethodInfo ObjRef__cctor_m18380_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.ObjRef::get_IsReferenceToWellKnow()
-extern const MethodInfo ObjRef_get_IsReferenceToWellKnow_m18381_MethodInfo = 
+extern const MethodInfo ObjRef_get_IsReferenceToWellKnow_m18413_MethodInfo = 
 {
 	"get_IsReferenceToWellKnow"/* name */
-	, (methodPointerType)&ObjRef_get_IsReferenceToWellKnow_m18381/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRef_get_IsReferenceToWellKnow_m18413/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -16041,12 +16041,12 @@ extern const MethodInfo ObjRef_get_IsReferenceToWellKnow_m18381_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.IChannelInfo System.Runtime.Remoting.ObjRef::get_ChannelInfo()
-extern const MethodInfo ObjRef_get_ChannelInfo_m18382_MethodInfo = 
+extern const MethodInfo ObjRef_get_ChannelInfo_m18414_MethodInfo = 
 {
 	"get_ChannelInfo"/* name */
-	, (methodPointerType)&ObjRef_get_ChannelInfo_m18382/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
-	, &IChannelInfo_t4632_0_0_0/* return_type */
+	, (methodPointerType)&ObjRef_get_ChannelInfo_m18414/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
+	, &IChannelInfo_t4635_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 573/* custom_attributes_cache */
@@ -16064,12 +16064,12 @@ extern const MethodInfo ObjRef_get_ChannelInfo_m18382_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.IEnvoyInfo System.Runtime.Remoting.ObjRef::get_EnvoyInfo()
-extern const MethodInfo ObjRef_get_EnvoyInfo_m18383_MethodInfo = 
+extern const MethodInfo ObjRef_get_EnvoyInfo_m18415_MethodInfo = 
 {
 	"get_EnvoyInfo"/* name */
-	, (methodPointerType)&ObjRef_get_EnvoyInfo_m18383/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
-	, &IEnvoyInfo_t4634_0_0_0/* return_type */
+	, (methodPointerType)&ObjRef_get_EnvoyInfo_m18415/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
+	, &IEnvoyInfo_t4637_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -16085,21 +16085,21 @@ extern const MethodInfo ObjRef_get_EnvoyInfo_m18383_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IEnvoyInfo_t4634_0_0_0;
-static const ParameterInfo ObjRef_t4630_ObjRef_set_EnvoyInfo_m18384_ParameterInfos[] = 
+extern const Il2CppType IEnvoyInfo_t4637_0_0_0;
+static const ParameterInfo ObjRef_t4633_ObjRef_set_EnvoyInfo_m18416_ParameterInfos[] = 
 {
-	{"value", 0, 134222240, 0, &IEnvoyInfo_t4634_0_0_0},
+	{"value", 0, 134222240, 0, &IEnvoyInfo_t4637_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.ObjRef::set_EnvoyInfo(System.Runtime.Remoting.IEnvoyInfo)
-extern const MethodInfo ObjRef_set_EnvoyInfo_m18384_MethodInfo = 
+extern const MethodInfo ObjRef_set_EnvoyInfo_m18416_MethodInfo = 
 {
 	"set_EnvoyInfo"/* name */
-	, (methodPointerType)&ObjRef_set_EnvoyInfo_m18384/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRef_set_EnvoyInfo_m18416/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ObjRef_t4630_ObjRef_set_EnvoyInfo_m18384_ParameterInfos/* parameters */
+	, ObjRef_t4633_ObjRef_set_EnvoyInfo_m18416_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -16115,12 +16115,12 @@ extern const MethodInfo ObjRef_set_EnvoyInfo_m18384_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.IRemotingTypeInfo System.Runtime.Remoting.ObjRef::get_TypeInfo()
-extern const MethodInfo ObjRef_get_TypeInfo_m18385_MethodInfo = 
+extern const MethodInfo ObjRef_get_TypeInfo_m18417_MethodInfo = 
 {
 	"get_TypeInfo"/* name */
-	, (methodPointerType)&ObjRef_get_TypeInfo_m18385/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
-	, &IRemotingTypeInfo_t4633_0_0_0/* return_type */
+	, (methodPointerType)&ObjRef_get_TypeInfo_m18417/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
+	, &IRemotingTypeInfo_t4636_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -16136,21 +16136,21 @@ extern const MethodInfo ObjRef_get_TypeInfo_m18385_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IRemotingTypeInfo_t4633_0_0_0;
-static const ParameterInfo ObjRef_t4630_ObjRef_set_TypeInfo_m18386_ParameterInfos[] = 
+extern const Il2CppType IRemotingTypeInfo_t4636_0_0_0;
+static const ParameterInfo ObjRef_t4633_ObjRef_set_TypeInfo_m18418_ParameterInfos[] = 
 {
-	{"value", 0, 134222241, 0, &IRemotingTypeInfo_t4633_0_0_0},
+	{"value", 0, 134222241, 0, &IRemotingTypeInfo_t4636_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.ObjRef::set_TypeInfo(System.Runtime.Remoting.IRemotingTypeInfo)
-extern const MethodInfo ObjRef_set_TypeInfo_m18386_MethodInfo = 
+extern const MethodInfo ObjRef_set_TypeInfo_m18418_MethodInfo = 
 {
 	"set_TypeInfo"/* name */
-	, (methodPointerType)&ObjRef_set_TypeInfo_m18386/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRef_set_TypeInfo_m18418/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ObjRef_t4630_ObjRef_set_TypeInfo_m18386_ParameterInfos/* parameters */
+	, ObjRef_t4633_ObjRef_set_TypeInfo_m18418_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -16166,11 +16166,11 @@ extern const MethodInfo ObjRef_set_TypeInfo_m18386_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.ObjRef::get_URI()
-extern const MethodInfo ObjRef_get_URI_m18387_MethodInfo = 
+extern const MethodInfo ObjRef_get_URI_m18419_MethodInfo = 
 {
 	"get_URI"/* name */
-	, (methodPointerType)&ObjRef_get_URI_m18387/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRef_get_URI_m18419/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -16188,20 +16188,20 @@ extern const MethodInfo ObjRef_get_URI_m18387_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ObjRef_t4630_ObjRef_set_URI_m18388_ParameterInfos[] = 
+static const ParameterInfo ObjRef_t4633_ObjRef_set_URI_m18420_ParameterInfos[] = 
 {
 	{"value", 0, 134222242, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.ObjRef::set_URI(System.String)
-extern const MethodInfo ObjRef_set_URI_m18388_MethodInfo = 
+extern const MethodInfo ObjRef_set_URI_m18420_MethodInfo = 
 {
 	"set_URI"/* name */
-	, (methodPointerType)&ObjRef_set_URI_m18388/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRef_set_URI_m18420/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ObjRef_t4630_ObjRef_set_URI_m18388_ParameterInfos/* parameters */
+	, ObjRef_t4633_ObjRef_set_URI_m18420_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -16215,23 +16215,23 @@ extern const MethodInfo ObjRef_set_URI_m18388_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2917_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-static const ParameterInfo ObjRef_t4630_ObjRef_GetObjectData_m18389_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2920_0_0_0;
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+static const ParameterInfo ObjRef_t4633_ObjRef_GetObjectData_m18421_ParameterInfos[] = 
 {
-	{"info", 0, 134222243, 0, &SerializationInfo_t2917_0_0_0},
-	{"context", 1, 134222244, 0, &StreamingContext_t2918_0_0_0},
+	{"info", 0, 134222243, 0, &SerializationInfo_t2920_0_0_0},
+	{"context", 1, 134222244, 0, &StreamingContext_t2921_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.ObjRef::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ObjRef_GetObjectData_m18389_MethodInfo = 
+extern const MethodInfo ObjRef_GetObjectData_m18421_MethodInfo = 
 {
 	"GetObjectData"/* name */
-	, (methodPointerType)&ObjRef_GetObjectData_m18389/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRef_GetObjectData_m18421/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918/* invoker_method */
-	, ObjRef_t4630_ObjRef_GetObjectData_m18389_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921/* invoker_method */
+	, ObjRef_t4633_ObjRef_GetObjectData_m18421_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -16245,21 +16245,21 @@ extern const MethodInfo ObjRef_GetObjectData_m18389_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-static const ParameterInfo ObjRef_t4630_ObjRef_GetRealObject_m18390_ParameterInfos[] = 
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+static const ParameterInfo ObjRef_t4633_ObjRef_GetRealObject_m18422_ParameterInfos[] = 
 {
-	{"context", 0, 134222245, 0, &StreamingContext_t2918_0_0_0},
+	{"context", 0, 134222245, 0, &StreamingContext_t2921_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_StreamingContext_t2918 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_StreamingContext_t2921 (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.ObjRef::GetRealObject(System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo ObjRef_GetRealObject_m18390_MethodInfo = 
+extern const MethodInfo ObjRef_GetRealObject_m18422_MethodInfo = 
 {
 	"GetRealObject"/* name */
-	, (methodPointerType)&ObjRef_GetRealObject_m18390/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRef_GetRealObject_m18422/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_StreamingContext_t2918/* invoker_method */
-	, ObjRef_t4630_ObjRef_GetRealObject_m18390_ParameterInfos/* parameters */
+	, RuntimeInvoker_Object_t_StreamingContext_t2921/* invoker_method */
+	, ObjRef_t4633_ObjRef_GetRealObject_m18422_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -16275,11 +16275,11 @@ extern const MethodInfo ObjRef_GetRealObject_m18390_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.ObjRef::UpdateChannelInfo()
-extern const MethodInfo ObjRef_UpdateChannelInfo_m18391_MethodInfo = 
+extern const MethodInfo ObjRef_UpdateChannelInfo_m18423_MethodInfo = 
 {
 	"UpdateChannelInfo"/* name */
-	, (methodPointerType)&ObjRef_UpdateChannelInfo_m18391/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRef_UpdateChannelInfo_m18423/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -16298,11 +16298,11 @@ extern const MethodInfo ObjRef_UpdateChannelInfo_m18391_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Runtime.Remoting.ObjRef::get_ServerType()
-extern const MethodInfo ObjRef_get_ServerType_m18392_MethodInfo = 
+extern const MethodInfo ObjRef_get_ServerType_m18424_MethodInfo = 
 {
 	"get_ServerType"/* name */
-	, (methodPointerType)&ObjRef_get_ServerType_m18392/* method */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ObjRef_get_ServerType_m18424/* method */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -16319,125 +16319,125 @@ extern const MethodInfo ObjRef_get_ServerType_m18392_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ObjRef_t4630_MethodInfos[] =
+static const MethodInfo* ObjRef_t4633_MethodInfos[] =
 {
-	&ObjRef__ctor_m18378_MethodInfo,
-	&ObjRef__ctor_m18379_MethodInfo,
-	&ObjRef__cctor_m18380_MethodInfo,
-	&ObjRef_get_IsReferenceToWellKnow_m18381_MethodInfo,
-	&ObjRef_get_ChannelInfo_m18382_MethodInfo,
-	&ObjRef_get_EnvoyInfo_m18383_MethodInfo,
-	&ObjRef_set_EnvoyInfo_m18384_MethodInfo,
-	&ObjRef_get_TypeInfo_m18385_MethodInfo,
-	&ObjRef_set_TypeInfo_m18386_MethodInfo,
-	&ObjRef_get_URI_m18387_MethodInfo,
-	&ObjRef_set_URI_m18388_MethodInfo,
-	&ObjRef_GetObjectData_m18389_MethodInfo,
-	&ObjRef_GetRealObject_m18390_MethodInfo,
-	&ObjRef_UpdateChannelInfo_m18391_MethodInfo,
-	&ObjRef_get_ServerType_m18392_MethodInfo,
+	&ObjRef__ctor_m18410_MethodInfo,
+	&ObjRef__ctor_m18411_MethodInfo,
+	&ObjRef__cctor_m18412_MethodInfo,
+	&ObjRef_get_IsReferenceToWellKnow_m18413_MethodInfo,
+	&ObjRef_get_ChannelInfo_m18414_MethodInfo,
+	&ObjRef_get_EnvoyInfo_m18415_MethodInfo,
+	&ObjRef_set_EnvoyInfo_m18416_MethodInfo,
+	&ObjRef_get_TypeInfo_m18417_MethodInfo,
+	&ObjRef_set_TypeInfo_m18418_MethodInfo,
+	&ObjRef_get_URI_m18419_MethodInfo,
+	&ObjRef_set_URI_m18420_MethodInfo,
+	&ObjRef_GetObjectData_m18421_MethodInfo,
+	&ObjRef_GetRealObject_m18422_MethodInfo,
+	&ObjRef_UpdateChannelInfo_m18423_MethodInfo,
+	&ObjRef_get_ServerType_m18424_MethodInfo,
 	NULL
 };
-extern const MethodInfo ObjRef_get_IsReferenceToWellKnow_m18381_MethodInfo;
-static const PropertyInfo ObjRef_t4630____IsReferenceToWellKnow_PropertyInfo = 
+extern const MethodInfo ObjRef_get_IsReferenceToWellKnow_m18413_MethodInfo;
+static const PropertyInfo ObjRef_t4633____IsReferenceToWellKnow_PropertyInfo = 
 {
-	&ObjRef_t4630_il2cpp_TypeInfo/* parent */
+	&ObjRef_t4633_il2cpp_TypeInfo/* parent */
 	, "IsReferenceToWellKnow"/* name */
-	, &ObjRef_get_IsReferenceToWellKnow_m18381_MethodInfo/* get */
+	, &ObjRef_get_IsReferenceToWellKnow_m18413_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ObjRef_get_ChannelInfo_m18382_MethodInfo;
-static const PropertyInfo ObjRef_t4630____ChannelInfo_PropertyInfo = 
+extern const MethodInfo ObjRef_get_ChannelInfo_m18414_MethodInfo;
+static const PropertyInfo ObjRef_t4633____ChannelInfo_PropertyInfo = 
 {
-	&ObjRef_t4630_il2cpp_TypeInfo/* parent */
+	&ObjRef_t4633_il2cpp_TypeInfo/* parent */
 	, "ChannelInfo"/* name */
-	, &ObjRef_get_ChannelInfo_m18382_MethodInfo/* get */
+	, &ObjRef_get_ChannelInfo_m18414_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ObjRef_get_EnvoyInfo_m18383_MethodInfo;
-extern const MethodInfo ObjRef_set_EnvoyInfo_m18384_MethodInfo;
-static const PropertyInfo ObjRef_t4630____EnvoyInfo_PropertyInfo = 
+extern const MethodInfo ObjRef_get_EnvoyInfo_m18415_MethodInfo;
+extern const MethodInfo ObjRef_set_EnvoyInfo_m18416_MethodInfo;
+static const PropertyInfo ObjRef_t4633____EnvoyInfo_PropertyInfo = 
 {
-	&ObjRef_t4630_il2cpp_TypeInfo/* parent */
+	&ObjRef_t4633_il2cpp_TypeInfo/* parent */
 	, "EnvoyInfo"/* name */
-	, &ObjRef_get_EnvoyInfo_m18383_MethodInfo/* get */
-	, &ObjRef_set_EnvoyInfo_m18384_MethodInfo/* set */
+	, &ObjRef_get_EnvoyInfo_m18415_MethodInfo/* get */
+	, &ObjRef_set_EnvoyInfo_m18416_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ObjRef_get_TypeInfo_m18385_MethodInfo;
-extern const MethodInfo ObjRef_set_TypeInfo_m18386_MethodInfo;
-static const PropertyInfo ObjRef_t4630____TypeInfo_PropertyInfo = 
+extern const MethodInfo ObjRef_get_TypeInfo_m18417_MethodInfo;
+extern const MethodInfo ObjRef_set_TypeInfo_m18418_MethodInfo;
+static const PropertyInfo ObjRef_t4633____TypeInfo_PropertyInfo = 
 {
-	&ObjRef_t4630_il2cpp_TypeInfo/* parent */
+	&ObjRef_t4633_il2cpp_TypeInfo/* parent */
 	, "TypeInfo"/* name */
-	, &ObjRef_get_TypeInfo_m18385_MethodInfo/* get */
-	, &ObjRef_set_TypeInfo_m18386_MethodInfo/* set */
+	, &ObjRef_get_TypeInfo_m18417_MethodInfo/* get */
+	, &ObjRef_set_TypeInfo_m18418_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ObjRef_get_URI_m18387_MethodInfo;
-extern const MethodInfo ObjRef_set_URI_m18388_MethodInfo;
-static const PropertyInfo ObjRef_t4630____URI_PropertyInfo = 
+extern const MethodInfo ObjRef_get_URI_m18419_MethodInfo;
+extern const MethodInfo ObjRef_set_URI_m18420_MethodInfo;
+static const PropertyInfo ObjRef_t4633____URI_PropertyInfo = 
 {
-	&ObjRef_t4630_il2cpp_TypeInfo/* parent */
+	&ObjRef_t4633_il2cpp_TypeInfo/* parent */
 	, "URI"/* name */
-	, &ObjRef_get_URI_m18387_MethodInfo/* get */
-	, &ObjRef_set_URI_m18388_MethodInfo/* set */
+	, &ObjRef_get_URI_m18419_MethodInfo/* get */
+	, &ObjRef_set_URI_m18420_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ObjRef_get_ServerType_m18392_MethodInfo;
-static const PropertyInfo ObjRef_t4630____ServerType_PropertyInfo = 
+extern const MethodInfo ObjRef_get_ServerType_m18424_MethodInfo;
+static const PropertyInfo ObjRef_t4633____ServerType_PropertyInfo = 
 {
-	&ObjRef_t4630_il2cpp_TypeInfo/* parent */
+	&ObjRef_t4633_il2cpp_TypeInfo/* parent */
 	, "ServerType"/* name */
-	, &ObjRef_get_ServerType_m18392_MethodInfo/* get */
+	, &ObjRef_get_ServerType_m18424_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ObjRef_t4630_PropertyInfos[] =
+static const PropertyInfo* ObjRef_t4633_PropertyInfos[] =
 {
-	&ObjRef_t4630____IsReferenceToWellKnow_PropertyInfo,
-	&ObjRef_t4630____ChannelInfo_PropertyInfo,
-	&ObjRef_t4630____EnvoyInfo_PropertyInfo,
-	&ObjRef_t4630____TypeInfo_PropertyInfo,
-	&ObjRef_t4630____URI_PropertyInfo,
-	&ObjRef_t4630____ServerType_PropertyInfo,
+	&ObjRef_t4633____IsReferenceToWellKnow_PropertyInfo,
+	&ObjRef_t4633____ChannelInfo_PropertyInfo,
+	&ObjRef_t4633____EnvoyInfo_PropertyInfo,
+	&ObjRef_t4633____TypeInfo_PropertyInfo,
+	&ObjRef_t4633____URI_PropertyInfo,
+	&ObjRef_t4633____ServerType_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ObjRef_GetObjectData_m18389_MethodInfo;
-extern const MethodInfo ObjRef_GetRealObject_m18390_MethodInfo;
-static const Il2CppMethodReference ObjRef_t4630_VTable[] =
+extern const MethodInfo ObjRef_GetObjectData_m18421_MethodInfo;
+extern const MethodInfo ObjRef_GetRealObject_m18422_MethodInfo;
+static const Il2CppMethodReference ObjRef_t4633_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ObjRef_GetObjectData_m18389_MethodInfo,
-	&ObjRef_GetRealObject_m18390_MethodInfo,
-	&ObjRef_get_ChannelInfo_m18382_MethodInfo,
-	&ObjRef_get_EnvoyInfo_m18383_MethodInfo,
-	&ObjRef_set_EnvoyInfo_m18384_MethodInfo,
-	&ObjRef_get_TypeInfo_m18385_MethodInfo,
-	&ObjRef_set_TypeInfo_m18386_MethodInfo,
-	&ObjRef_get_URI_m18387_MethodInfo,
-	&ObjRef_set_URI_m18388_MethodInfo,
-	&ObjRef_GetObjectData_m18389_MethodInfo,
-	&ObjRef_GetRealObject_m18390_MethodInfo,
+	&ObjRef_GetObjectData_m18421_MethodInfo,
+	&ObjRef_GetRealObject_m18422_MethodInfo,
+	&ObjRef_get_ChannelInfo_m18414_MethodInfo,
+	&ObjRef_get_EnvoyInfo_m18415_MethodInfo,
+	&ObjRef_set_EnvoyInfo_m18416_MethodInfo,
+	&ObjRef_get_TypeInfo_m18417_MethodInfo,
+	&ObjRef_set_TypeInfo_m18418_MethodInfo,
+	&ObjRef_get_URI_m18419_MethodInfo,
+	&ObjRef_set_URI_m18420_MethodInfo,
+	&ObjRef_GetObjectData_m18421_MethodInfo,
+	&ObjRef_GetRealObject_m18422_MethodInfo,
 };
-static bool ObjRef_t4630_VTableIsGenericMethod[] =
+static bool ObjRef_t4633_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -16455,48 +16455,48 @@ static bool ObjRef_t4630_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IObjectReference_t4897_0_0_0;
-static const Il2CppType* ObjRef_t4630_InterfacesTypeInfos[] = 
+extern const Il2CppType IObjectReference_t4900_0_0_0;
+static const Il2CppType* ObjRef_t4633_InterfacesTypeInfos[] = 
 {
-	&ISerializable_t817_0_0_0,
-	&IObjectReference_t4897_0_0_0,
+	&ISerializable_t820_0_0_0,
+	&IObjectReference_t4900_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ObjRef_t4630_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ObjRef_t4633_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t817_0_0_0, 4},
-	{ &IObjectReference_t4897_0_0_0, 5},
+	{ &ISerializable_t820_0_0_0, 4},
+	{ &IObjectReference_t4900_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ObjRef_t4630_1_0_0;
-struct ObjRef_t4630;
-const Il2CppTypeDefinitionMetadata ObjRef_t4630_DefinitionMetadata = 
+extern const Il2CppType ObjRef_t4633_1_0_0;
+struct ObjRef_t4633;
+const Il2CppTypeDefinitionMetadata ObjRef_t4633_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ObjRef_t4630_InterfacesTypeInfos/* implementedInterfaces */
-	, ObjRef_t4630_InterfacesOffsets/* interfaceOffsets */
+	, ObjRef_t4633_InterfacesTypeInfos/* implementedInterfaces */
+	, ObjRef_t4633_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ObjRef_t4630_VTable/* vtableMethods */
-	, ObjRef_t4630_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ObjRef_t4633_VTable/* vtableMethods */
+	, ObjRef_t4633_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1656/* fieldStart */
 
 };
-TypeInfo ObjRef_t4630_il2cpp_TypeInfo = 
+TypeInfo ObjRef_t4633_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ObjRef"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, ObjRef_t4630_MethodInfos/* methods */
-	, ObjRef_t4630_PropertyInfos/* properties */
+	, ObjRef_t4633_MethodInfos/* methods */
+	, ObjRef_t4633_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ObjRef_t4630_il2cpp_TypeInfo/* element_class */
+	, &ObjRef_t4633_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 571/* custom_attributes_cache */
-	, &ObjRef_t4630_0_0_0/* byval_arg */
-	, &ObjRef_t4630_1_0_0/* this_arg */
-	, &ObjRef_t4630_DefinitionMetadata/* definitionMetadata */
+	, &ObjRef_t4633_0_0_0/* byval_arg */
+	, &ObjRef_t4633_1_0_0/* this_arg */
+	, &ObjRef_t4633_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -16506,11 +16506,11 @@ TypeInfo ObjRef_t4630_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ObjRef_t4630)/* instance_size */
-	, sizeof (ObjRef_t4630)/* actualSize */
+	, sizeof (ObjRef_t4633)/* instance_size */
+	, sizeof (ObjRef_t4633)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ObjRef_t4630_StaticFields)/* static_fields_size */
+	, sizeof(ObjRef_t4633_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1056769/* flags */
@@ -16539,16 +16539,16 @@ TypeInfo ObjRef_t4630_il2cpp_TypeInfo =
 // System.Runtime.Remoting.RemotingConfiguration
 #include "mscorlib_System_Runtime_Remoting_RemotingConfiguration.h"
 // Metadata Definition System.Runtime.Remoting.RemotingConfiguration
-extern TypeInfo RemotingConfiguration_t4635_il2cpp_TypeInfo;
+extern TypeInfo RemotingConfiguration_t4638_il2cpp_TypeInfo;
 // System.Runtime.Remoting.RemotingConfiguration
 #include "mscorlib_System_Runtime_Remoting_RemotingConfigurationMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.RemotingConfiguration::.cctor()
-extern const MethodInfo RemotingConfiguration__cctor_m18393_MethodInfo = 
+extern const MethodInfo RemotingConfiguration__cctor_m18425_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&RemotingConfiguration__cctor_m18393/* method */
-	, &RemotingConfiguration_t4635_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingConfiguration__cctor_m18425/* method */
+	, &RemotingConfiguration_t4638_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -16567,11 +16567,11 @@ extern const MethodInfo RemotingConfiguration__cctor_m18393_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.RemotingConfiguration::get_ApplicationName()
-extern const MethodInfo RemotingConfiguration_get_ApplicationName_m18394_MethodInfo = 
+extern const MethodInfo RemotingConfiguration_get_ApplicationName_m18426_MethodInfo = 
 {
 	"get_ApplicationName"/* name */
-	, (methodPointerType)&RemotingConfiguration_get_ApplicationName_m18394/* method */
-	, &RemotingConfiguration_t4635_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingConfiguration_get_ApplicationName_m18426/* method */
+	, &RemotingConfiguration_t4638_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -16590,11 +16590,11 @@ extern const MethodInfo RemotingConfiguration_get_ApplicationName_m18394_MethodI
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.RemotingConfiguration::get_ProcessId()
-extern const MethodInfo RemotingConfiguration_get_ProcessId_m18395_MethodInfo = 
+extern const MethodInfo RemotingConfiguration_get_ProcessId_m18427_MethodInfo = 
 {
 	"get_ProcessId"/* name */
-	, (methodPointerType)&RemotingConfiguration_get_ProcessId_m18395/* method */
-	, &RemotingConfiguration_t4635_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingConfiguration_get_ProcessId_m18427/* method */
+	, &RemotingConfiguration_t4638_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -16612,20 +16612,20 @@ extern const MethodInfo RemotingConfiguration_get_ProcessId_m18395_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo RemotingConfiguration_t4635_RemotingConfiguration_IsRemotelyActivatedClientType_m18396_ParameterInfos[] = 
+static const ParameterInfo RemotingConfiguration_t4638_RemotingConfiguration_IsRemotelyActivatedClientType_m18428_ParameterInfos[] = 
 {
 	{"svrType", 0, 134222246, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.ActivatedClientTypeEntry System.Runtime.Remoting.RemotingConfiguration::IsRemotelyActivatedClientType(System.Type)
-extern const MethodInfo RemotingConfiguration_IsRemotelyActivatedClientType_m18396_MethodInfo = 
+extern const MethodInfo RemotingConfiguration_IsRemotelyActivatedClientType_m18428_MethodInfo = 
 {
 	"IsRemotelyActivatedClientType"/* name */
-	, (methodPointerType)&RemotingConfiguration_IsRemotelyActivatedClientType_m18396/* method */
-	, &RemotingConfiguration_t4635_il2cpp_TypeInfo/* declaring_type */
-	, &ActivatedClientTypeEntry_t4627_0_0_0/* return_type */
+	, (methodPointerType)&RemotingConfiguration_IsRemotelyActivatedClientType_m18428/* method */
+	, &RemotingConfiguration_t4638_il2cpp_TypeInfo/* declaring_type */
+	, &ActivatedClientTypeEntry_t4630_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, RemotingConfiguration_t4635_RemotingConfiguration_IsRemotelyActivatedClientType_m18396_ParameterInfos/* parameters */
+	, RemotingConfiguration_t4638_RemotingConfiguration_IsRemotelyActivatedClientType_m18428_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -16639,50 +16639,50 @@ extern const MethodInfo RemotingConfiguration_IsRemotelyActivatedClientType_m183
 	, NULL/* dummy */
 
 };
-static const MethodInfo* RemotingConfiguration_t4635_MethodInfos[] =
+static const MethodInfo* RemotingConfiguration_t4638_MethodInfos[] =
 {
-	&RemotingConfiguration__cctor_m18393_MethodInfo,
-	&RemotingConfiguration_get_ApplicationName_m18394_MethodInfo,
-	&RemotingConfiguration_get_ProcessId_m18395_MethodInfo,
-	&RemotingConfiguration_IsRemotelyActivatedClientType_m18396_MethodInfo,
+	&RemotingConfiguration__cctor_m18425_MethodInfo,
+	&RemotingConfiguration_get_ApplicationName_m18426_MethodInfo,
+	&RemotingConfiguration_get_ProcessId_m18427_MethodInfo,
+	&RemotingConfiguration_IsRemotelyActivatedClientType_m18428_MethodInfo,
 	NULL
 };
-extern const MethodInfo RemotingConfiguration_get_ApplicationName_m18394_MethodInfo;
-static const PropertyInfo RemotingConfiguration_t4635____ApplicationName_PropertyInfo = 
+extern const MethodInfo RemotingConfiguration_get_ApplicationName_m18426_MethodInfo;
+static const PropertyInfo RemotingConfiguration_t4638____ApplicationName_PropertyInfo = 
 {
-	&RemotingConfiguration_t4635_il2cpp_TypeInfo/* parent */
+	&RemotingConfiguration_t4638_il2cpp_TypeInfo/* parent */
 	, "ApplicationName"/* name */
-	, &RemotingConfiguration_get_ApplicationName_m18394_MethodInfo/* get */
+	, &RemotingConfiguration_get_ApplicationName_m18426_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo RemotingConfiguration_get_ProcessId_m18395_MethodInfo;
-static const PropertyInfo RemotingConfiguration_t4635____ProcessId_PropertyInfo = 
+extern const MethodInfo RemotingConfiguration_get_ProcessId_m18427_MethodInfo;
+static const PropertyInfo RemotingConfiguration_t4638____ProcessId_PropertyInfo = 
 {
-	&RemotingConfiguration_t4635_il2cpp_TypeInfo/* parent */
+	&RemotingConfiguration_t4638_il2cpp_TypeInfo/* parent */
 	, "ProcessId"/* name */
-	, &RemotingConfiguration_get_ProcessId_m18395_MethodInfo/* get */
+	, &RemotingConfiguration_get_ProcessId_m18427_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* RemotingConfiguration_t4635_PropertyInfos[] =
+static const PropertyInfo* RemotingConfiguration_t4638_PropertyInfos[] =
 {
-	&RemotingConfiguration_t4635____ApplicationName_PropertyInfo,
-	&RemotingConfiguration_t4635____ProcessId_PropertyInfo,
+	&RemotingConfiguration_t4638____ApplicationName_PropertyInfo,
+	&RemotingConfiguration_t4638____ProcessId_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference RemotingConfiguration_t4635_VTable[] =
+static const Il2CppMethodReference RemotingConfiguration_t4638_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool RemotingConfiguration_t4635_VTableIsGenericMethod[] =
+static bool RemotingConfiguration_t4638_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -16690,37 +16690,37 @@ static bool RemotingConfiguration_t4635_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType RemotingConfiguration_t4635_0_0_0;
-extern const Il2CppType RemotingConfiguration_t4635_1_0_0;
-struct RemotingConfiguration_t4635;
-const Il2CppTypeDefinitionMetadata RemotingConfiguration_t4635_DefinitionMetadata = 
+extern const Il2CppType RemotingConfiguration_t4638_0_0_0;
+extern const Il2CppType RemotingConfiguration_t4638_1_0_0;
+struct RemotingConfiguration_t4638;
+const Il2CppTypeDefinitionMetadata RemotingConfiguration_t4638_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, RemotingConfiguration_t4635_VTable/* vtableMethods */
-	, RemotingConfiguration_t4635_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, RemotingConfiguration_t4638_VTable/* vtableMethods */
+	, RemotingConfiguration_t4638_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1665/* fieldStart */
 
 };
-TypeInfo RemotingConfiguration_t4635_il2cpp_TypeInfo = 
+TypeInfo RemotingConfiguration_t4638_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "RemotingConfiguration"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, RemotingConfiguration_t4635_MethodInfos/* methods */
-	, RemotingConfiguration_t4635_PropertyInfos/* properties */
+	, RemotingConfiguration_t4638_MethodInfos/* methods */
+	, RemotingConfiguration_t4638_PropertyInfos/* properties */
 	, NULL/* events */
-	, &RemotingConfiguration_t4635_il2cpp_TypeInfo/* element_class */
+	, &RemotingConfiguration_t4638_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 574/* custom_attributes_cache */
-	, &RemotingConfiguration_t4635_0_0_0/* byval_arg */
-	, &RemotingConfiguration_t4635_1_0_0/* this_arg */
-	, &RemotingConfiguration_t4635_DefinitionMetadata/* definitionMetadata */
+	, &RemotingConfiguration_t4638_0_0_0/* byval_arg */
+	, &RemotingConfiguration_t4638_1_0_0/* this_arg */
+	, &RemotingConfiguration_t4638_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -16730,11 +16730,11 @@ TypeInfo RemotingConfiguration_t4635_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (RemotingConfiguration_t4635)/* instance_size */
-	, sizeof (RemotingConfiguration_t4635)/* actualSize */
+	, sizeof (RemotingConfiguration_t4638)/* instance_size */
+	, sizeof (RemotingConfiguration_t4638)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(RemotingConfiguration_t4635_StaticFields)/* static_fields_size */
+	, sizeof(RemotingConfiguration_t4638_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048961/* flags */
@@ -16763,16 +16763,16 @@ TypeInfo RemotingConfiguration_t4635_il2cpp_TypeInfo =
 // System.Runtime.Remoting.RemotingException
 #include "mscorlib_System_Runtime_Remoting_RemotingException.h"
 // Metadata Definition System.Runtime.Remoting.RemotingException
-extern TypeInfo RemotingException_t4636_il2cpp_TypeInfo;
+extern TypeInfo RemotingException_t4639_il2cpp_TypeInfo;
 // System.Runtime.Remoting.RemotingException
 #include "mscorlib_System_Runtime_Remoting_RemotingExceptionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.RemotingException::.ctor()
-extern const MethodInfo RemotingException__ctor_m18397_MethodInfo = 
+extern const MethodInfo RemotingException__ctor_m18429_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RemotingException__ctor_m18397/* method */
-	, &RemotingException_t4636_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingException__ctor_m18429/* method */
+	, &RemotingException_t4639_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -16790,20 +16790,20 @@ extern const MethodInfo RemotingException__ctor_m18397_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo RemotingException_t4636_RemotingException__ctor_m18398_ParameterInfos[] = 
+static const ParameterInfo RemotingException_t4639_RemotingException__ctor_m18430_ParameterInfos[] = 
 {
 	{"message", 0, 134222247, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.RemotingException::.ctor(System.String)
-extern const MethodInfo RemotingException__ctor_m18398_MethodInfo = 
+extern const MethodInfo RemotingException__ctor_m18430_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RemotingException__ctor_m18398/* method */
-	, &RemotingException_t4636_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingException__ctor_m18430/* method */
+	, &RemotingException_t4639_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, RemotingException_t4636_RemotingException__ctor_m18398_ParameterInfos/* parameters */
+	, RemotingException_t4639_RemotingException__ctor_m18430_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -16817,23 +16817,23 @@ extern const MethodInfo RemotingException__ctor_m18398_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2917_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-static const ParameterInfo RemotingException_t4636_RemotingException__ctor_m18399_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2920_0_0_0;
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+static const ParameterInfo RemotingException_t4639_RemotingException__ctor_m18431_ParameterInfos[] = 
 {
-	{"info", 0, 134222248, 0, &SerializationInfo_t2917_0_0_0},
-	{"context", 1, 134222249, 0, &StreamingContext_t2918_0_0_0},
+	{"info", 0, 134222248, 0, &SerializationInfo_t2920_0_0_0},
+	{"context", 1, 134222249, 0, &StreamingContext_t2921_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.RemotingException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo RemotingException__ctor_m18399_MethodInfo = 
+extern const MethodInfo RemotingException__ctor_m18431_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RemotingException__ctor_m18399/* method */
-	, &RemotingException_t4636_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingException__ctor_m18431/* method */
+	, &RemotingException_t4639_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918/* invoker_method */
-	, RemotingException_t4636_RemotingException__ctor_m18399_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921/* invoker_method */
+	, RemotingException_t4639_RemotingException__ctor_m18431_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -16847,35 +16847,35 @@ extern const MethodInfo RemotingException__ctor_m18399_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* RemotingException_t4636_MethodInfos[] =
+static const MethodInfo* RemotingException_t4639_MethodInfos[] =
 {
-	&RemotingException__ctor_m18397_MethodInfo,
-	&RemotingException__ctor_m18398_MethodInfo,
-	&RemotingException__ctor_m18399_MethodInfo,
+	&RemotingException__ctor_m18429_MethodInfo,
+	&RemotingException__ctor_m18430_MethodInfo,
+	&RemotingException__ctor_m18431_MethodInfo,
 	NULL
 };
-extern const MethodInfo Exception_ToString_m7784_MethodInfo;
-extern const MethodInfo Exception_GetObjectData_m8374_MethodInfo;
-extern const MethodInfo Exception_get_InnerException_m8375_MethodInfo;
-extern const MethodInfo Exception_get_Message_m8376_MethodInfo;
-extern const MethodInfo Exception_get_Source_m8377_MethodInfo;
-extern const MethodInfo Exception_get_StackTrace_m8378_MethodInfo;
-extern const MethodInfo Exception_GetType_m8379_MethodInfo;
-static const Il2CppMethodReference RemotingException_t4636_VTable[] =
+extern const MethodInfo Exception_ToString_m7816_MethodInfo;
+extern const MethodInfo Exception_GetObjectData_m8406_MethodInfo;
+extern const MethodInfo Exception_get_InnerException_m8407_MethodInfo;
+extern const MethodInfo Exception_get_Message_m8408_MethodInfo;
+extern const MethodInfo Exception_get_Source_m8409_MethodInfo;
+extern const MethodInfo Exception_get_StackTrace_m8410_MethodInfo;
+extern const MethodInfo Exception_GetType_m8411_MethodInfo;
+static const Il2CppMethodReference RemotingException_t4639_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&Exception_ToString_m7784_MethodInfo,
-	&Exception_GetObjectData_m8374_MethodInfo,
-	&Exception_get_InnerException_m8375_MethodInfo,
-	&Exception_get_Message_m8376_MethodInfo,
-	&Exception_get_Source_m8377_MethodInfo,
-	&Exception_get_StackTrace_m8378_MethodInfo,
-	&Exception_GetObjectData_m8374_MethodInfo,
-	&Exception_GetType_m8379_MethodInfo,
+	&Exception_ToString_m7816_MethodInfo,
+	&Exception_GetObjectData_m8406_MethodInfo,
+	&Exception_get_InnerException_m8407_MethodInfo,
+	&Exception_get_Message_m8408_MethodInfo,
+	&Exception_get_Source_m8409_MethodInfo,
+	&Exception_get_StackTrace_m8410_MethodInfo,
+	&Exception_GetObjectData_m8406_MethodInfo,
+	&Exception_GetType_m8411_MethodInfo,
 };
-static bool RemotingException_t4636_VTableIsGenericMethod[] =
+static bool RemotingException_t4639_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -16889,45 +16889,45 @@ static bool RemotingException_t4636_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType _Exception_t2380_0_0_0;
-static Il2CppInterfaceOffsetPair RemotingException_t4636_InterfacesOffsets[] = 
+extern const Il2CppType _Exception_t2383_0_0_0;
+static Il2CppInterfaceOffsetPair RemotingException_t4639_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t817_0_0_0, 4},
-	{ &_Exception_t2380_0_0_0, 5},
+	{ &ISerializable_t820_0_0_0, 4},
+	{ &_Exception_t2383_0_0_0, 5},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType RemotingException_t4636_0_0_0;
-extern const Il2CppType RemotingException_t4636_1_0_0;
-extern const Il2CppType SystemException_t3228_0_0_0;
-struct RemotingException_t4636;
-const Il2CppTypeDefinitionMetadata RemotingException_t4636_DefinitionMetadata = 
+extern const Il2CppType RemotingException_t4639_0_0_0;
+extern const Il2CppType RemotingException_t4639_1_0_0;
+extern const Il2CppType SystemException_t3231_0_0_0;
+struct RemotingException_t4639;
+const Il2CppTypeDefinitionMetadata RemotingException_t4639_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, RemotingException_t4636_InterfacesOffsets/* interfaceOffsets */
-	, &SystemException_t3228_0_0_0/* parent */
-	, RemotingException_t4636_VTable/* vtableMethods */
-	, RemotingException_t4636_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, RemotingException_t4639_InterfacesOffsets/* interfaceOffsets */
+	, &SystemException_t3231_0_0_0/* parent */
+	, RemotingException_t4639_VTable/* vtableMethods */
+	, RemotingException_t4639_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo RemotingException_t4636_il2cpp_TypeInfo = 
+TypeInfo RemotingException_t4639_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "RemotingException"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, RemotingException_t4636_MethodInfos/* methods */
+	, RemotingException_t4639_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &RemotingException_t4636_il2cpp_TypeInfo/* element_class */
+	, &RemotingException_t4639_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 575/* custom_attributes_cache */
-	, &RemotingException_t4636_0_0_0/* byval_arg */
-	, &RemotingException_t4636_1_0_0/* this_arg */
-	, &RemotingException_t4636_DefinitionMetadata/* definitionMetadata */
+	, &RemotingException_t4639_0_0_0/* byval_arg */
+	, &RemotingException_t4639_1_0_0/* this_arg */
+	, &RemotingException_t4639_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -16937,8 +16937,8 @@ TypeInfo RemotingException_t4636_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (RemotingException_t4636)/* instance_size */
-	, sizeof (RemotingException_t4636)/* actualSize */
+	, sizeof (RemotingException_t4639)/* instance_size */
+	, sizeof (RemotingException_t4639)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -16970,16 +16970,16 @@ TypeInfo RemotingException_t4636_il2cpp_TypeInfo =
 // System.Runtime.Remoting.RemotingServices
 #include "mscorlib_System_Runtime_Remoting_RemotingServices.h"
 // Metadata Definition System.Runtime.Remoting.RemotingServices
-extern TypeInfo RemotingServices_t4638_il2cpp_TypeInfo;
+extern TypeInfo RemotingServices_t4641_il2cpp_TypeInfo;
 // System.Runtime.Remoting.RemotingServices
 #include "mscorlib_System_Runtime_Remoting_RemotingServicesMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.RemotingServices::.cctor()
-extern const MethodInfo RemotingServices__cctor_m18400_MethodInfo = 
+extern const MethodInfo RemotingServices__cctor_m18432_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&RemotingServices__cctor_m18400/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices__cctor_m18432/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -16997,22 +16997,22 @@ extern const MethodInfo RemotingServices__cctor_m18400_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType MethodBase_t1523_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_GetVirtualMethod_m18401_ParameterInfos[] = 
+extern const Il2CppType MethodBase_t1526_0_0_0;
+static const ParameterInfo RemotingServices_t4641_RemotingServices_GetVirtualMethod_m18433_ParameterInfos[] = 
 {
 	{"type", 0, 134222250, 0, &Type_t_0_0_0},
-	{"method", 1, 134222251, 0, &MethodBase_t1523_0_0_0},
+	{"method", 1, 134222251, 0, &MethodBase_t1526_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.MethodBase System.Runtime.Remoting.RemotingServices::GetVirtualMethod(System.Type,System.Reflection.MethodBase)
-extern const MethodInfo RemotingServices_GetVirtualMethod_m18401_MethodInfo = 
+extern const MethodInfo RemotingServices_GetVirtualMethod_m18433_MethodInfo = 
 {
 	"GetVirtualMethod"/* name */
-	, (methodPointerType)&RemotingServices_GetVirtualMethod_m18401/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
-	, &MethodBase_t1523_0_0_0/* return_type */
+	, (methodPointerType)&RemotingServices_GetVirtualMethod_m18433/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
+	, &MethodBase_t1526_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_GetVirtualMethod_m18401_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_GetVirtualMethod_m18433_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 4096/* iflags */
@@ -17027,20 +17027,20 @@ extern const MethodInfo RemotingServices_GetVirtualMethod_m18401_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_IsTransparentProxy_m18402_ParameterInfos[] = 
+static const ParameterInfo RemotingServices_t4641_RemotingServices_IsTransparentProxy_m18434_ParameterInfos[] = 
 {
 	{"proxy", 0, 134222252, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Remoting.RemotingServices::IsTransparentProxy(System.Object)
-extern const MethodInfo RemotingServices_IsTransparentProxy_m18402_MethodInfo = 
+extern const MethodInfo RemotingServices_IsTransparentProxy_m18434_MethodInfo = 
 {
 	"IsTransparentProxy"/* name */
-	, (methodPointerType)&RemotingServices_IsTransparentProxy_m18402/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_IsTransparentProxy_m18434/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_IsTransparentProxy_m18402_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_IsTransparentProxy_m18434_ParameterInfos/* parameters */
 	, 577/* custom_attributes_cache */
 	, 150/* flags */
 	, 4096/* iflags */
@@ -17055,20 +17055,20 @@ extern const MethodInfo RemotingServices_IsTransparentProxy_m18402_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_GetServerTypeForUri_m18403_ParameterInfos[] = 
+static const ParameterInfo RemotingServices_t4641_RemotingServices_GetServerTypeForUri_m18435_ParameterInfos[] = 
 {
 	{"URI", 0, 134222253, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Runtime.Remoting.RemotingServices::GetServerTypeForUri(System.String)
-extern const MethodInfo RemotingServices_GetServerTypeForUri_m18403_MethodInfo = 
+extern const MethodInfo RemotingServices_GetServerTypeForUri_m18435_MethodInfo = 
 {
 	"GetServerTypeForUri"/* name */
-	, (methodPointerType)&RemotingServices_GetServerTypeForUri_m18403/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_GetServerTypeForUri_m18435/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_GetServerTypeForUri_m18403_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_GetServerTypeForUri_m18435_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -17082,21 +17082,21 @@ extern const MethodInfo RemotingServices_GetServerTypeForUri_m18403_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjRef_t4630_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_Unmarshal_m18404_ParameterInfos[] = 
+extern const Il2CppType ObjRef_t4633_0_0_0;
+static const ParameterInfo RemotingServices_t4641_RemotingServices_Unmarshal_m18436_ParameterInfos[] = 
 {
-	{"objectRef", 0, 134222254, 0, &ObjRef_t4630_0_0_0},
+	{"objectRef", 0, 134222254, 0, &ObjRef_t4633_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.RemotingServices::Unmarshal(System.Runtime.Remoting.ObjRef)
-extern const MethodInfo RemotingServices_Unmarshal_m18404_MethodInfo = 
+extern const MethodInfo RemotingServices_Unmarshal_m18436_MethodInfo = 
 {
 	"Unmarshal"/* name */
-	, (methodPointerType)&RemotingServices_Unmarshal_m18404/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_Unmarshal_m18436/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_Unmarshal_m18404_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_Unmarshal_m18436_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -17110,23 +17110,23 @@ extern const MethodInfo RemotingServices_Unmarshal_m18404_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjRef_t4630_0_0_0;
+extern const Il2CppType ObjRef_t4633_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_Unmarshal_m18405_ParameterInfos[] = 
+static const ParameterInfo RemotingServices_t4641_RemotingServices_Unmarshal_m18437_ParameterInfos[] = 
 {
-	{"objectRef", 0, 134222255, 0, &ObjRef_t4630_0_0_0},
+	{"objectRef", 0, 134222255, 0, &ObjRef_t4633_0_0_0},
 	{"fRefine", 1, 134222256, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.RemotingServices::Unmarshal(System.Runtime.Remoting.ObjRef,System.Boolean)
-extern const MethodInfo RemotingServices_Unmarshal_m18405_MethodInfo = 
+extern const MethodInfo RemotingServices_Unmarshal_m18437_MethodInfo = 
 {
 	"Unmarshal"/* name */
-	, (methodPointerType)&RemotingServices_Unmarshal_m18405/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_Unmarshal_m18437/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_Unmarshal_m18405_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_Unmarshal_m18437_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -17141,20 +17141,20 @@ extern const MethodInfo RemotingServices_Unmarshal_m18405_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_GetRealProxy_m18406_ParameterInfos[] = 
+static const ParameterInfo RemotingServices_t4641_RemotingServices_GetRealProxy_m18438_ParameterInfos[] = 
 {
 	{"proxy", 0, 134222257, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Proxies.RealProxy System.Runtime.Remoting.RemotingServices::GetRealProxy(System.Object)
-extern const MethodInfo RemotingServices_GetRealProxy_m18406_MethodInfo = 
+extern const MethodInfo RemotingServices_GetRealProxy_m18438_MethodInfo = 
 {
 	"GetRealProxy"/* name */
-	, (methodPointerType)&RemotingServices_GetRealProxy_m18406/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
-	, &RealProxy_t4622_0_0_0/* return_type */
+	, (methodPointerType)&RemotingServices_GetRealProxy_m18438/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
+	, &RealProxy_t4625_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_GetRealProxy_m18406_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_GetRealProxy_m18438_ParameterInfos/* parameters */
 	, 578/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -17168,21 +17168,21 @@ extern const MethodInfo RemotingServices_GetRealProxy_m18406_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IMethodMessage_t4614_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_GetMethodBaseFromMethodMessage_m18407_ParameterInfos[] = 
+extern const Il2CppType IMethodMessage_t4617_0_0_0;
+static const ParameterInfo RemotingServices_t4641_RemotingServices_GetMethodBaseFromMethodMessage_m18439_ParameterInfos[] = 
 {
-	{"msg", 0, 134222258, 0, &IMethodMessage_t4614_0_0_0},
+	{"msg", 0, 134222258, 0, &IMethodMessage_t4617_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.MethodBase System.Runtime.Remoting.RemotingServices::GetMethodBaseFromMethodMessage(System.Runtime.Remoting.Messaging.IMethodMessage)
-extern const MethodInfo RemotingServices_GetMethodBaseFromMethodMessage_m18407_MethodInfo = 
+extern const MethodInfo RemotingServices_GetMethodBaseFromMethodMessage_m18439_MethodInfo = 
 {
 	"GetMethodBaseFromMethodMessage"/* name */
-	, (methodPointerType)&RemotingServices_GetMethodBaseFromMethodMessage_m18407/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
-	, &MethodBase_t1523_0_0_0/* return_type */
+	, (methodPointerType)&RemotingServices_GetMethodBaseFromMethodMessage_m18439/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
+	, &MethodBase_t1526_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_GetMethodBaseFromMethodMessage_m18407_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_GetMethodBaseFromMethodMessage_m18439_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -17198,23 +17198,23 @@ extern const MethodInfo RemotingServices_GetMethodBaseFromMethodMessage_m18407_M
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType TypeU5BU5D_t1201_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_GetMethodBaseFromName_m18408_ParameterInfos[] = 
+extern const Il2CppType TypeU5BU5D_t1204_0_0_0;
+static const ParameterInfo RemotingServices_t4641_RemotingServices_GetMethodBaseFromName_m18440_ParameterInfos[] = 
 {
 	{"type", 0, 134222259, 0, &Type_t_0_0_0},
 	{"methodName", 1, 134222260, 0, &String_t_0_0_0},
-	{"signature", 2, 134222261, 0, &TypeU5BU5D_t1201_0_0_0},
+	{"signature", 2, 134222261, 0, &TypeU5BU5D_t1204_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.MethodBase System.Runtime.Remoting.RemotingServices::GetMethodBaseFromName(System.Type,System.String,System.Type[])
-extern const MethodInfo RemotingServices_GetMethodBaseFromName_m18408_MethodInfo = 
+extern const MethodInfo RemotingServices_GetMethodBaseFromName_m18440_MethodInfo = 
 {
 	"GetMethodBaseFromName"/* name */
-	, (methodPointerType)&RemotingServices_GetMethodBaseFromName_m18408/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
-	, &MethodBase_t1523_0_0_0/* return_type */
+	, (methodPointerType)&RemotingServices_GetMethodBaseFromName_m18440/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
+	, &MethodBase_t1526_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_GetMethodBaseFromName_m18408_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_GetMethodBaseFromName_m18440_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -17230,23 +17230,23 @@ extern const MethodInfo RemotingServices_GetMethodBaseFromName_m18408_MethodInfo
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType TypeU5BU5D_t1201_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_FindInterfaceMethod_m18409_ParameterInfos[] = 
+extern const Il2CppType TypeU5BU5D_t1204_0_0_0;
+static const ParameterInfo RemotingServices_t4641_RemotingServices_FindInterfaceMethod_m18441_ParameterInfos[] = 
 {
 	{"type", 0, 134222262, 0, &Type_t_0_0_0},
 	{"methodName", 1, 134222263, 0, &String_t_0_0_0},
-	{"signature", 2, 134222264, 0, &TypeU5BU5D_t1201_0_0_0},
+	{"signature", 2, 134222264, 0, &TypeU5BU5D_t1204_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.MethodBase System.Runtime.Remoting.RemotingServices::FindInterfaceMethod(System.Type,System.String,System.Type[])
-extern const MethodInfo RemotingServices_FindInterfaceMethod_m18409_MethodInfo = 
+extern const MethodInfo RemotingServices_FindInterfaceMethod_m18441_MethodInfo = 
 {
 	"FindInterfaceMethod"/* name */
-	, (methodPointerType)&RemotingServices_FindInterfaceMethod_m18409/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
-	, &MethodBase_t1523_0_0_0/* return_type */
+	, (methodPointerType)&RemotingServices_FindInterfaceMethod_m18441/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
+	, &MethodBase_t1526_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_FindInterfaceMethod_m18409_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_FindInterfaceMethod_m18441_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17260,23 +17260,23 @@ extern const MethodInfo RemotingServices_FindInterfaceMethod_m18409_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ActivatedClientTypeEntry_t4627_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t680_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_CreateClientProxy_m18410_ParameterInfos[] = 
+extern const Il2CppType ActivatedClientTypeEntry_t4630_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t683_0_0_0;
+static const ParameterInfo RemotingServices_t4641_RemotingServices_CreateClientProxy_m18442_ParameterInfos[] = 
 {
-	{"entry", 0, 134222265, 0, &ActivatedClientTypeEntry_t4627_0_0_0},
-	{"activationAttributes", 1, 134222266, 0, &ObjectU5BU5D_t680_0_0_0},
+	{"entry", 0, 134222265, 0, &ActivatedClientTypeEntry_t4630_0_0_0},
+	{"activationAttributes", 1, 134222266, 0, &ObjectU5BU5D_t683_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.RemotingServices::CreateClientProxy(System.Runtime.Remoting.ActivatedClientTypeEntry,System.Object[])
-extern const MethodInfo RemotingServices_CreateClientProxy_m18410_MethodInfo = 
+extern const MethodInfo RemotingServices_CreateClientProxy_m18442_MethodInfo = 
 {
 	"CreateClientProxy"/* name */
-	, (methodPointerType)&RemotingServices_CreateClientProxy_m18410/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_CreateClientProxy_m18442/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_CreateClientProxy_m18410_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_CreateClientProxy_m18442_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -17291,22 +17291,22 @@ extern const MethodInfo RemotingServices_CreateClientProxy_m18410_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t680_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_CreateClientProxyForContextBound_m18411_ParameterInfos[] = 
+extern const Il2CppType ObjectU5BU5D_t683_0_0_0;
+static const ParameterInfo RemotingServices_t4641_RemotingServices_CreateClientProxyForContextBound_m18443_ParameterInfos[] = 
 {
 	{"type", 0, 134222267, 0, &Type_t_0_0_0},
-	{"activationAttributes", 1, 134222268, 0, &ObjectU5BU5D_t680_0_0_0},
+	{"activationAttributes", 1, 134222268, 0, &ObjectU5BU5D_t683_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.RemotingServices::CreateClientProxyForContextBound(System.Type,System.Object[])
-extern const MethodInfo RemotingServices_CreateClientProxyForContextBound_m18411_MethodInfo = 
+extern const MethodInfo RemotingServices_CreateClientProxyForContextBound_m18443_MethodInfo = 
 {
 	"CreateClientProxyForContextBound"/* name */
-	, (methodPointerType)&RemotingServices_CreateClientProxyForContextBound_m18411/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_CreateClientProxyForContextBound_m18443/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_CreateClientProxyForContextBound_m18411_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_CreateClientProxyForContextBound_m18443_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -17321,20 +17321,20 @@ extern const MethodInfo RemotingServices_CreateClientProxyForContextBound_m18411
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_GetIdentityForUri_m18412_ParameterInfos[] = 
+static const ParameterInfo RemotingServices_t4641_RemotingServices_GetIdentityForUri_m18444_ParameterInfos[] = 
 {
 	{"uri", 0, 134222269, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.Identity System.Runtime.Remoting.RemotingServices::GetIdentityForUri(System.String)
-extern const MethodInfo RemotingServices_GetIdentityForUri_m18412_MethodInfo = 
+extern const MethodInfo RemotingServices_GetIdentityForUri_m18444_MethodInfo = 
 {
 	"GetIdentityForUri"/* name */
-	, (methodPointerType)&RemotingServices_GetIdentityForUri_m18412/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
-	, &Identity_t4624_0_0_0/* return_type */
+	, (methodPointerType)&RemotingServices_GetIdentityForUri_m18444/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
+	, &Identity_t4627_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_GetIdentityForUri_m18412_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_GetIdentityForUri_m18444_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -17349,20 +17349,20 @@ extern const MethodInfo RemotingServices_GetIdentityForUri_m18412_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_RemoveAppNameFromUri_m18413_ParameterInfos[] = 
+static const ParameterInfo RemotingServices_t4641_RemotingServices_RemoveAppNameFromUri_m18445_ParameterInfos[] = 
 {
 	{"uri", 0, 134222270, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.RemotingServices::RemoveAppNameFromUri(System.String)
-extern const MethodInfo RemotingServices_RemoveAppNameFromUri_m18413_MethodInfo = 
+extern const MethodInfo RemotingServices_RemoveAppNameFromUri_m18445_MethodInfo = 
 {
 	"RemoveAppNameFromUri"/* name */
-	, (methodPointerType)&RemotingServices_RemoveAppNameFromUri_m18413/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_RemoveAppNameFromUri_m18445/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_RemoveAppNameFromUri_m18413_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_RemoveAppNameFromUri_m18445_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17376,26 +17376,26 @@ extern const MethodInfo RemotingServices_RemoveAppNameFromUri_m18413_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjRef_t4630_0_0_0;
+extern const Il2CppType ObjRef_t4633_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Object_t_1_0_2;
 extern const Il2CppType Object_t_1_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_GetOrCreateClientIdentity_m18414_ParameterInfos[] = 
+static const ParameterInfo RemotingServices_t4641_RemotingServices_GetOrCreateClientIdentity_m18446_ParameterInfos[] = 
 {
-	{"objRef", 0, 134222271, 0, &ObjRef_t4630_0_0_0},
+	{"objRef", 0, 134222271, 0, &ObjRef_t4633_0_0_0},
 	{"proxyType", 1, 134222272, 0, &Type_t_0_0_0},
 	{"clientProxy", 2, 134222273, 0, &Object_t_1_0_2},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t_ObjectU26_t2360 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_ObjectU26_t2363 (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.ClientIdentity System.Runtime.Remoting.RemotingServices::GetOrCreateClientIdentity(System.Runtime.Remoting.ObjRef,System.Type,System.Object&)
-extern const MethodInfo RemotingServices_GetOrCreateClientIdentity_m18414_MethodInfo = 
+extern const MethodInfo RemotingServices_GetOrCreateClientIdentity_m18446_MethodInfo = 
 {
 	"GetOrCreateClientIdentity"/* name */
-	, (methodPointerType)&RemotingServices_GetOrCreateClientIdentity_m18414/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
-	, &ClientIdentity_t4631_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t_ObjectU26_t2360/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_GetOrCreateClientIdentity_m18414_ParameterInfos/* parameters */
+	, (methodPointerType)&RemotingServices_GetOrCreateClientIdentity_m18446/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
+	, &ClientIdentity_t4634_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_ObjectU26_t2363/* invoker_method */
+	, RemotingServices_t4641_RemotingServices_GetOrCreateClientIdentity_m18446_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -17411,25 +17411,25 @@ extern const MethodInfo RemotingServices_GetOrCreateClientIdentity_m18414_Method
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType WellKnownObjectMode_t4643_0_0_0;
-extern const Il2CppType WellKnownObjectMode_t4643_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_CreateWellKnownServerIdentity_m18415_ParameterInfos[] = 
+extern const Il2CppType WellKnownObjectMode_t4646_0_0_0;
+extern const Il2CppType WellKnownObjectMode_t4646_0_0_0;
+static const ParameterInfo RemotingServices_t4641_RemotingServices_CreateWellKnownServerIdentity_m18447_ParameterInfos[] = 
 {
 	{"objectType", 0, 134222274, 0, &Type_t_0_0_0},
 	{"objectUri", 1, 134222275, 0, &String_t_0_0_0},
-	{"mode", 2, 134222276, 0, &WellKnownObjectMode_t4643_0_0_0},
+	{"mode", 2, 134222276, 0, &WellKnownObjectMode_t4646_0_0_0},
 };
-extern const Il2CppType ServerIdentity_t4354_0_0_0;
+extern const Il2CppType ServerIdentity_t4357_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.ServerIdentity System.Runtime.Remoting.RemotingServices::CreateWellKnownServerIdentity(System.Type,System.String,System.Runtime.Remoting.WellKnownObjectMode)
-extern const MethodInfo RemotingServices_CreateWellKnownServerIdentity_m18415_MethodInfo = 
+extern const MethodInfo RemotingServices_CreateWellKnownServerIdentity_m18447_MethodInfo = 
 {
 	"CreateWellKnownServerIdentity"/* name */
-	, (methodPointerType)&RemotingServices_CreateWellKnownServerIdentity_m18415/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
-	, &ServerIdentity_t4354_0_0_0/* return_type */
+	, (methodPointerType)&RemotingServices_CreateWellKnownServerIdentity_m18447/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
+	, &ServerIdentity_t4357_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_CreateWellKnownServerIdentity_m18415_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_CreateWellKnownServerIdentity_m18447_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -17443,21 +17443,21 @@ extern const MethodInfo RemotingServices_CreateWellKnownServerIdentity_m18415_Me
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ServerIdentity_t4354_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_RegisterServerIdentity_m18416_ParameterInfos[] = 
+extern const Il2CppType ServerIdentity_t4357_0_0_0;
+static const ParameterInfo RemotingServices_t4641_RemotingServices_RegisterServerIdentity_m18448_ParameterInfos[] = 
 {
-	{"identity", 0, 134222277, 0, &ServerIdentity_t4354_0_0_0},
+	{"identity", 0, 134222277, 0, &ServerIdentity_t4357_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.RemotingServices::RegisterServerIdentity(System.Runtime.Remoting.ServerIdentity)
-extern const MethodInfo RemotingServices_RegisterServerIdentity_m18416_MethodInfo = 
+extern const MethodInfo RemotingServices_RegisterServerIdentity_m18448_MethodInfo = 
 {
 	"RegisterServerIdentity"/* name */
-	, (methodPointerType)&RemotingServices_RegisterServerIdentity_m18416/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_RegisterServerIdentity_m18448/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_RegisterServerIdentity_m18416_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_RegisterServerIdentity_m18448_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17471,23 +17471,23 @@ extern const MethodInfo RemotingServices_RegisterServerIdentity_m18416_MethodInf
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjRef_t4630_0_0_0;
+extern const Il2CppType ObjRef_t4633_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_GetProxyForRemoteObject_m18417_ParameterInfos[] = 
+static const ParameterInfo RemotingServices_t4641_RemotingServices_GetProxyForRemoteObject_m18449_ParameterInfos[] = 
 {
-	{"objref", 0, 134222278, 0, &ObjRef_t4630_0_0_0},
+	{"objref", 0, 134222278, 0, &ObjRef_t4633_0_0_0},
 	{"classToProxy", 1, 134222279, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.RemotingServices::GetProxyForRemoteObject(System.Runtime.Remoting.ObjRef,System.Type)
-extern const MethodInfo RemotingServices_GetProxyForRemoteObject_m18417_MethodInfo = 
+extern const MethodInfo RemotingServices_GetProxyForRemoteObject_m18449_MethodInfo = 
 {
 	"GetProxyForRemoteObject"/* name */
-	, (methodPointerType)&RemotingServices_GetProxyForRemoteObject_m18417/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_GetProxyForRemoteObject_m18449/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_GetProxyForRemoteObject_m18417_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_GetProxyForRemoteObject_m18449_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -17501,23 +17501,23 @@ extern const MethodInfo RemotingServices_GetProxyForRemoteObject_m18417_MethodIn
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ObjRef_t4630_0_0_0;
+extern const Il2CppType ObjRef_t4633_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_GetRemoteObject_m18418_ParameterInfos[] = 
+static const ParameterInfo RemotingServices_t4641_RemotingServices_GetRemoteObject_m18450_ParameterInfos[] = 
 {
-	{"objRef", 0, 134222280, 0, &ObjRef_t4630_0_0_0},
+	{"objRef", 0, 134222280, 0, &ObjRef_t4633_0_0_0},
 	{"proxyType", 1, 134222281, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Remoting.RemotingServices::GetRemoteObject(System.Runtime.Remoting.ObjRef,System.Type)
-extern const MethodInfo RemotingServices_GetRemoteObject_m18418_MethodInfo = 
+extern const MethodInfo RemotingServices_GetRemoteObject_m18450_MethodInfo = 
 {
 	"GetRemoteObject"/* name */
-	, (methodPointerType)&RemotingServices_GetRemoteObject_m18418/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_GetRemoteObject_m18450/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_GetRemoteObject_m18418_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_GetRemoteObject_m18450_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -17533,11 +17533,11 @@ extern const MethodInfo RemotingServices_GetRemoteObject_m18418_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.RemotingServices::RegisterInternalChannels()
-extern const MethodInfo RemotingServices_RegisterInternalChannels_m18419_MethodInfo = 
+extern const MethodInfo RemotingServices_RegisterInternalChannels_m18451_MethodInfo = 
 {
 	"RegisterInternalChannels"/* name */
-	, (methodPointerType)&RemotingServices_RegisterInternalChannels_m18419/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_RegisterInternalChannels_m18451/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -17554,21 +17554,21 @@ extern const MethodInfo RemotingServices_RegisterInternalChannels_m18419_MethodI
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Identity_t4624_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_DisposeIdentity_m18420_ParameterInfos[] = 
+extern const Il2CppType Identity_t4627_0_0_0;
+static const ParameterInfo RemotingServices_t4641_RemotingServices_DisposeIdentity_m18452_ParameterInfos[] = 
 {
-	{"ident", 0, 134222282, 0, &Identity_t4624_0_0_0},
+	{"ident", 0, 134222282, 0, &Identity_t4627_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.RemotingServices::DisposeIdentity(System.Runtime.Remoting.Identity)
-extern const MethodInfo RemotingServices_DisposeIdentity_m18420_MethodInfo = 
+extern const MethodInfo RemotingServices_DisposeIdentity_m18452_MethodInfo = 
 {
 	"DisposeIdentity"/* name */
-	, (methodPointerType)&RemotingServices_DisposeIdentity_m18420/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_DisposeIdentity_m18452/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_DisposeIdentity_m18420_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_DisposeIdentity_m18452_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -17583,20 +17583,20 @@ extern const MethodInfo RemotingServices_DisposeIdentity_m18420_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo RemotingServices_t4638_RemotingServices_GetNormalizedUri_m18421_ParameterInfos[] = 
+static const ParameterInfo RemotingServices_t4641_RemotingServices_GetNormalizedUri_m18453_ParameterInfos[] = 
 {
 	{"uri", 0, 134222283, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.RemotingServices::GetNormalizedUri(System.String)
-extern const MethodInfo RemotingServices_GetNormalizedUri_m18421_MethodInfo = 
+extern const MethodInfo RemotingServices_GetNormalizedUri_m18453_MethodInfo = 
 {
 	"GetNormalizedUri"/* name */
-	, (methodPointerType)&RemotingServices_GetNormalizedUri_m18421/* method */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RemotingServices_GetNormalizedUri_m18453/* method */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, RemotingServices_t4638_RemotingServices_GetNormalizedUri_m18421_ParameterInfos/* parameters */
+	, RemotingServices_t4641_RemotingServices_GetNormalizedUri_m18453_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -17610,40 +17610,40 @@ extern const MethodInfo RemotingServices_GetNormalizedUri_m18421_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* RemotingServices_t4638_MethodInfos[] =
+static const MethodInfo* RemotingServices_t4641_MethodInfos[] =
 {
-	&RemotingServices__cctor_m18400_MethodInfo,
-	&RemotingServices_GetVirtualMethod_m18401_MethodInfo,
-	&RemotingServices_IsTransparentProxy_m18402_MethodInfo,
-	&RemotingServices_GetServerTypeForUri_m18403_MethodInfo,
-	&RemotingServices_Unmarshal_m18404_MethodInfo,
-	&RemotingServices_Unmarshal_m18405_MethodInfo,
-	&RemotingServices_GetRealProxy_m18406_MethodInfo,
-	&RemotingServices_GetMethodBaseFromMethodMessage_m18407_MethodInfo,
-	&RemotingServices_GetMethodBaseFromName_m18408_MethodInfo,
-	&RemotingServices_FindInterfaceMethod_m18409_MethodInfo,
-	&RemotingServices_CreateClientProxy_m18410_MethodInfo,
-	&RemotingServices_CreateClientProxyForContextBound_m18411_MethodInfo,
-	&RemotingServices_GetIdentityForUri_m18412_MethodInfo,
-	&RemotingServices_RemoveAppNameFromUri_m18413_MethodInfo,
-	&RemotingServices_GetOrCreateClientIdentity_m18414_MethodInfo,
-	&RemotingServices_CreateWellKnownServerIdentity_m18415_MethodInfo,
-	&RemotingServices_RegisterServerIdentity_m18416_MethodInfo,
-	&RemotingServices_GetProxyForRemoteObject_m18417_MethodInfo,
-	&RemotingServices_GetRemoteObject_m18418_MethodInfo,
-	&RemotingServices_RegisterInternalChannels_m18419_MethodInfo,
-	&RemotingServices_DisposeIdentity_m18420_MethodInfo,
-	&RemotingServices_GetNormalizedUri_m18421_MethodInfo,
+	&RemotingServices__cctor_m18432_MethodInfo,
+	&RemotingServices_GetVirtualMethod_m18433_MethodInfo,
+	&RemotingServices_IsTransparentProxy_m18434_MethodInfo,
+	&RemotingServices_GetServerTypeForUri_m18435_MethodInfo,
+	&RemotingServices_Unmarshal_m18436_MethodInfo,
+	&RemotingServices_Unmarshal_m18437_MethodInfo,
+	&RemotingServices_GetRealProxy_m18438_MethodInfo,
+	&RemotingServices_GetMethodBaseFromMethodMessage_m18439_MethodInfo,
+	&RemotingServices_GetMethodBaseFromName_m18440_MethodInfo,
+	&RemotingServices_FindInterfaceMethod_m18441_MethodInfo,
+	&RemotingServices_CreateClientProxy_m18442_MethodInfo,
+	&RemotingServices_CreateClientProxyForContextBound_m18443_MethodInfo,
+	&RemotingServices_GetIdentityForUri_m18444_MethodInfo,
+	&RemotingServices_RemoveAppNameFromUri_m18445_MethodInfo,
+	&RemotingServices_GetOrCreateClientIdentity_m18446_MethodInfo,
+	&RemotingServices_CreateWellKnownServerIdentity_m18447_MethodInfo,
+	&RemotingServices_RegisterServerIdentity_m18448_MethodInfo,
+	&RemotingServices_GetProxyForRemoteObject_m18449_MethodInfo,
+	&RemotingServices_GetRemoteObject_m18450_MethodInfo,
+	&RemotingServices_RegisterInternalChannels_m18451_MethodInfo,
+	&RemotingServices_DisposeIdentity_m18452_MethodInfo,
+	&RemotingServices_GetNormalizedUri_m18453_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference RemotingServices_t4638_VTable[] =
+static const Il2CppMethodReference RemotingServices_t4641_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool RemotingServices_t4638_VTableIsGenericMethod[] =
+static bool RemotingServices_t4641_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -17651,37 +17651,37 @@ static bool RemotingServices_t4638_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType RemotingServices_t4638_0_0_0;
-extern const Il2CppType RemotingServices_t4638_1_0_0;
-struct RemotingServices_t4638;
-const Il2CppTypeDefinitionMetadata RemotingServices_t4638_DefinitionMetadata = 
+extern const Il2CppType RemotingServices_t4641_0_0_0;
+extern const Il2CppType RemotingServices_t4641_1_0_0;
+struct RemotingServices_t4641;
+const Il2CppTypeDefinitionMetadata RemotingServices_t4641_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, RemotingServices_t4638_VTable/* vtableMethods */
-	, RemotingServices_t4638_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, RemotingServices_t4641_VTable/* vtableMethods */
+	, RemotingServices_t4641_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1677/* fieldStart */
 
 };
-TypeInfo RemotingServices_t4638_il2cpp_TypeInfo = 
+TypeInfo RemotingServices_t4641_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "RemotingServices"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, RemotingServices_t4638_MethodInfos/* methods */
+	, RemotingServices_t4641_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &RemotingServices_t4638_il2cpp_TypeInfo/* element_class */
+	, &RemotingServices_t4641_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 576/* custom_attributes_cache */
-	, &RemotingServices_t4638_0_0_0/* byval_arg */
-	, &RemotingServices_t4638_1_0_0/* this_arg */
-	, &RemotingServices_t4638_DefinitionMetadata/* definitionMetadata */
+	, &RemotingServices_t4641_0_0_0/* byval_arg */
+	, &RemotingServices_t4641_1_0_0/* this_arg */
+	, &RemotingServices_t4641_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -17691,11 +17691,11 @@ TypeInfo RemotingServices_t4638_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (RemotingServices_t4638)/* instance_size */
-	, sizeof (RemotingServices_t4638)/* actualSize */
+	, sizeof (RemotingServices_t4641)/* instance_size */
+	, sizeof (RemotingServices_t4641)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(RemotingServices_t4638_StaticFields)/* static_fields_size */
+	, sizeof(RemotingServices_t4641_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 257/* flags */
@@ -17724,28 +17724,28 @@ TypeInfo RemotingServices_t4638_il2cpp_TypeInfo =
 // System.Runtime.Remoting.ServerIdentity
 #include "mscorlib_System_Runtime_Remoting_ServerIdentity.h"
 // Metadata Definition System.Runtime.Remoting.ServerIdentity
-extern TypeInfo ServerIdentity_t4354_il2cpp_TypeInfo;
+extern TypeInfo ServerIdentity_t4357_il2cpp_TypeInfo;
 // System.Runtime.Remoting.ServerIdentity
 #include "mscorlib_System_Runtime_Remoting_ServerIdentityMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Context_t4595_0_0_0;
+extern const Il2CppType Context_t4598_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ServerIdentity_t4354_ServerIdentity__ctor_m18422_ParameterInfos[] = 
+static const ParameterInfo ServerIdentity_t4357_ServerIdentity__ctor_m18454_ParameterInfos[] = 
 {
 	{"objectUri", 0, 134222284, 0, &String_t_0_0_0},
-	{"context", 1, 134222285, 0, &Context_t4595_0_0_0},
+	{"context", 1, 134222285, 0, &Context_t4598_0_0_0},
 	{"objectType", 2, 134222286, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.ServerIdentity::.ctor(System.String,System.Runtime.Remoting.Contexts.Context,System.Type)
-extern const MethodInfo ServerIdentity__ctor_m18422_MethodInfo = 
+extern const MethodInfo ServerIdentity__ctor_m18454_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ServerIdentity__ctor_m18422/* method */
-	, &ServerIdentity_t4354_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ServerIdentity__ctor_m18454/* method */
+	, &ServerIdentity_t4357_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t/* invoker_method */
-	, ServerIdentity_t4354_ServerIdentity__ctor_m18422_ParameterInfos/* parameters */
+	, ServerIdentity_t4357_ServerIdentity__ctor_m18454_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -17761,11 +17761,11 @@ extern const MethodInfo ServerIdentity__ctor_m18422_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Runtime.Remoting.ServerIdentity::get_ObjectType()
-extern const MethodInfo ServerIdentity_get_ObjectType_m18423_MethodInfo = 
+extern const MethodInfo ServerIdentity_get_ObjectType_m18455_MethodInfo = 
 {
 	"get_ObjectType"/* name */
-	, (methodPointerType)&ServerIdentity_get_ObjectType_m18423/* method */
-	, &ServerIdentity_t4354_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ServerIdentity_get_ObjectType_m18455/* method */
+	, &ServerIdentity_t4357_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17783,20 +17783,20 @@ extern const MethodInfo ServerIdentity_get_ObjectType_m18423_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ServerIdentity_t4354_ServerIdentity_CreateObjRef_m18424_ParameterInfos[] = 
+static const ParameterInfo ServerIdentity_t4357_ServerIdentity_CreateObjRef_m18456_ParameterInfos[] = 
 {
 	{"requestedType", 0, 134222287, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Remoting.ObjRef System.Runtime.Remoting.ServerIdentity::CreateObjRef(System.Type)
-extern const MethodInfo ServerIdentity_CreateObjRef_m18424_MethodInfo = 
+extern const MethodInfo ServerIdentity_CreateObjRef_m18456_MethodInfo = 
 {
 	"CreateObjRef"/* name */
-	, (methodPointerType)&ServerIdentity_CreateObjRef_m18424/* method */
-	, &ServerIdentity_t4354_il2cpp_TypeInfo/* declaring_type */
-	, &ObjRef_t4630_0_0_0/* return_type */
+	, (methodPointerType)&ServerIdentity_CreateObjRef_m18456/* method */
+	, &ServerIdentity_t4357_il2cpp_TypeInfo/* declaring_type */
+	, &ObjRef_t4633_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ServerIdentity_t4354_ServerIdentity_CreateObjRef_m18424_ParameterInfos/* parameters */
+	, ServerIdentity_t4357_ServerIdentity_CreateObjRef_m18456_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17810,39 +17810,39 @@ extern const MethodInfo ServerIdentity_CreateObjRef_m18424_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ServerIdentity_t4354_MethodInfos[] =
+static const MethodInfo* ServerIdentity_t4357_MethodInfos[] =
 {
-	&ServerIdentity__ctor_m18422_MethodInfo,
-	&ServerIdentity_get_ObjectType_m18423_MethodInfo,
-	&ServerIdentity_CreateObjRef_m18424_MethodInfo,
+	&ServerIdentity__ctor_m18454_MethodInfo,
+	&ServerIdentity_get_ObjectType_m18455_MethodInfo,
+	&ServerIdentity_CreateObjRef_m18456_MethodInfo,
 	NULL
 };
-extern const MethodInfo ServerIdentity_get_ObjectType_m18423_MethodInfo;
-static const PropertyInfo ServerIdentity_t4354____ObjectType_PropertyInfo = 
+extern const MethodInfo ServerIdentity_get_ObjectType_m18455_MethodInfo;
+static const PropertyInfo ServerIdentity_t4357____ObjectType_PropertyInfo = 
 {
-	&ServerIdentity_t4354_il2cpp_TypeInfo/* parent */
+	&ServerIdentity_t4357_il2cpp_TypeInfo/* parent */
 	, "ObjectType"/* name */
-	, &ServerIdentity_get_ObjectType_m18423_MethodInfo/* get */
+	, &ServerIdentity_get_ObjectType_m18455_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ServerIdentity_t4354_PropertyInfos[] =
+static const PropertyInfo* ServerIdentity_t4357_PropertyInfos[] =
 {
-	&ServerIdentity_t4354____ObjectType_PropertyInfo,
+	&ServerIdentity_t4357____ObjectType_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ServerIdentity_CreateObjRef_m18424_MethodInfo;
-static const Il2CppMethodReference ServerIdentity_t4354_VTable[] =
+extern const MethodInfo ServerIdentity_CreateObjRef_m18456_MethodInfo;
+static const Il2CppMethodReference ServerIdentity_t4357_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ServerIdentity_CreateObjRef_m18424_MethodInfo,
+	&ServerIdentity_CreateObjRef_m18456_MethodInfo,
 };
-static bool ServerIdentity_t4354_VTableIsGenericMethod[] =
+static bool ServerIdentity_t4357_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -17851,36 +17851,36 @@ static bool ServerIdentity_t4354_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ServerIdentity_t4354_1_0_0;
-struct ServerIdentity_t4354;
-const Il2CppTypeDefinitionMetadata ServerIdentity_t4354_DefinitionMetadata = 
+extern const Il2CppType ServerIdentity_t4357_1_0_0;
+struct ServerIdentity_t4357;
+const Il2CppTypeDefinitionMetadata ServerIdentity_t4357_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &Identity_t4624_0_0_0/* parent */
-	, ServerIdentity_t4354_VTable/* vtableMethods */
-	, ServerIdentity_t4354_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &Identity_t4627_0_0_0/* parent */
+	, ServerIdentity_t4357_VTable/* vtableMethods */
+	, ServerIdentity_t4357_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1685/* fieldStart */
 
 };
-TypeInfo ServerIdentity_t4354_il2cpp_TypeInfo = 
+TypeInfo ServerIdentity_t4357_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ServerIdentity"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, ServerIdentity_t4354_MethodInfos/* methods */
-	, ServerIdentity_t4354_PropertyInfos/* properties */
+	, ServerIdentity_t4357_MethodInfos/* methods */
+	, ServerIdentity_t4357_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ServerIdentity_t4354_il2cpp_TypeInfo/* element_class */
+	, &ServerIdentity_t4357_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ServerIdentity_t4354_0_0_0/* byval_arg */
-	, &ServerIdentity_t4354_1_0_0/* this_arg */
-	, &ServerIdentity_t4354_DefinitionMetadata/* definitionMetadata */
+	, &ServerIdentity_t4357_0_0_0/* byval_arg */
+	, &ServerIdentity_t4357_1_0_0/* this_arg */
+	, &ServerIdentity_t4357_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -17890,8 +17890,8 @@ TypeInfo ServerIdentity_t4354_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ServerIdentity_t4354)/* instance_size */
-	, sizeof (ServerIdentity_t4354)/* actualSize */
+	, sizeof (ServerIdentity_t4357)/* instance_size */
+	, sizeof (ServerIdentity_t4357)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -17923,17 +17923,17 @@ TypeInfo ServerIdentity_t4354_il2cpp_TypeInfo =
 // System.Runtime.Remoting.ClientActivatedIdentity
 #include "mscorlib_System_Runtime_Remoting_ClientActivatedIdentity.h"
 // Metadata Definition System.Runtime.Remoting.ClientActivatedIdentity
-extern TypeInfo ClientActivatedIdentity_t4639_il2cpp_TypeInfo;
+extern TypeInfo ClientActivatedIdentity_t4642_il2cpp_TypeInfo;
 // System.Runtime.Remoting.ClientActivatedIdentity
 #include "mscorlib_System_Runtime_Remoting_ClientActivatedIdentityMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.MarshalByRefObject System.Runtime.Remoting.ClientActivatedIdentity::GetServerObject()
-extern const MethodInfo ClientActivatedIdentity_GetServerObject_m18425_MethodInfo = 
+extern const MethodInfo ClientActivatedIdentity_GetServerObject_m18457_MethodInfo = 
 {
 	"GetServerObject"/* name */
-	, (methodPointerType)&ClientActivatedIdentity_GetServerObject_m18425/* method */
-	, &ClientActivatedIdentity_t4639_il2cpp_TypeInfo/* declaring_type */
-	, &MarshalByRefObject_t4074_0_0_0/* return_type */
+	, (methodPointerType)&ClientActivatedIdentity_GetServerObject_m18457/* method */
+	, &ClientActivatedIdentity_t4642_il2cpp_TypeInfo/* declaring_type */
+	, &MarshalByRefObject_t4077_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17949,20 +17949,20 @@ extern const MethodInfo ClientActivatedIdentity_GetServerObject_m18425_MethodInf
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ClientActivatedIdentity_t4639_MethodInfos[] =
+static const MethodInfo* ClientActivatedIdentity_t4642_MethodInfos[] =
 {
-	&ClientActivatedIdentity_GetServerObject_m18425_MethodInfo,
+	&ClientActivatedIdentity_GetServerObject_m18457_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference ClientActivatedIdentity_t4639_VTable[] =
+static const Il2CppMethodReference ClientActivatedIdentity_t4642_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ServerIdentity_CreateObjRef_m18424_MethodInfo,
+	&ServerIdentity_CreateObjRef_m18456_MethodInfo,
 };
-static bool ClientActivatedIdentity_t4639_VTableIsGenericMethod[] =
+static bool ClientActivatedIdentity_t4642_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -17971,37 +17971,37 @@ static bool ClientActivatedIdentity_t4639_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ClientActivatedIdentity_t4639_0_0_0;
-extern const Il2CppType ClientActivatedIdentity_t4639_1_0_0;
-struct ClientActivatedIdentity_t4639;
-const Il2CppTypeDefinitionMetadata ClientActivatedIdentity_t4639_DefinitionMetadata = 
+extern const Il2CppType ClientActivatedIdentity_t4642_0_0_0;
+extern const Il2CppType ClientActivatedIdentity_t4642_1_0_0;
+struct ClientActivatedIdentity_t4642;
+const Il2CppTypeDefinitionMetadata ClientActivatedIdentity_t4642_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ServerIdentity_t4354_0_0_0/* parent */
-	, ClientActivatedIdentity_t4639_VTable/* vtableMethods */
-	, ClientActivatedIdentity_t4639_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ServerIdentity_t4357_0_0_0/* parent */
+	, ClientActivatedIdentity_t4642_VTable/* vtableMethods */
+	, ClientActivatedIdentity_t4642_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo ClientActivatedIdentity_t4639_il2cpp_TypeInfo = 
+TypeInfo ClientActivatedIdentity_t4642_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ClientActivatedIdentity"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, ClientActivatedIdentity_t4639_MethodInfos/* methods */
+	, ClientActivatedIdentity_t4642_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ClientActivatedIdentity_t4639_il2cpp_TypeInfo/* element_class */
+	, &ClientActivatedIdentity_t4642_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ClientActivatedIdentity_t4639_0_0_0/* byval_arg */
-	, &ClientActivatedIdentity_t4639_1_0_0/* this_arg */
-	, &ClientActivatedIdentity_t4639_DefinitionMetadata/* definitionMetadata */
+	, &ClientActivatedIdentity_t4642_0_0_0/* byval_arg */
+	, &ClientActivatedIdentity_t4642_1_0_0/* this_arg */
+	, &ClientActivatedIdentity_t4642_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -18011,8 +18011,8 @@ TypeInfo ClientActivatedIdentity_t4639_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ClientActivatedIdentity_t4639)/* instance_size */
-	, sizeof (ClientActivatedIdentity_t4639)/* actualSize */
+	, sizeof (ClientActivatedIdentity_t4642)/* instance_size */
+	, sizeof (ClientActivatedIdentity_t4642)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -18044,28 +18044,28 @@ TypeInfo ClientActivatedIdentity_t4639_il2cpp_TypeInfo =
 // System.Runtime.Remoting.SingletonIdentity
 #include "mscorlib_System_Runtime_Remoting_SingletonIdentity.h"
 // Metadata Definition System.Runtime.Remoting.SingletonIdentity
-extern TypeInfo SingletonIdentity_t4640_il2cpp_TypeInfo;
+extern TypeInfo SingletonIdentity_t4643_il2cpp_TypeInfo;
 // System.Runtime.Remoting.SingletonIdentity
 #include "mscorlib_System_Runtime_Remoting_SingletonIdentityMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Context_t4595_0_0_0;
+extern const Il2CppType Context_t4598_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo SingletonIdentity_t4640_SingletonIdentity__ctor_m18426_ParameterInfos[] = 
+static const ParameterInfo SingletonIdentity_t4643_SingletonIdentity__ctor_m18458_ParameterInfos[] = 
 {
 	{"objectUri", 0, 134222288, 0, &String_t_0_0_0},
-	{"context", 1, 134222289, 0, &Context_t4595_0_0_0},
+	{"context", 1, 134222289, 0, &Context_t4598_0_0_0},
 	{"objectType", 2, 134222290, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.SingletonIdentity::.ctor(System.String,System.Runtime.Remoting.Contexts.Context,System.Type)
-extern const MethodInfo SingletonIdentity__ctor_m18426_MethodInfo = 
+extern const MethodInfo SingletonIdentity__ctor_m18458_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SingletonIdentity__ctor_m18426/* method */
-	, &SingletonIdentity_t4640_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SingletonIdentity__ctor_m18458/* method */
+	, &SingletonIdentity_t4643_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t/* invoker_method */
-	, SingletonIdentity_t4640_SingletonIdentity__ctor_m18426_ParameterInfos/* parameters */
+	, SingletonIdentity_t4643_SingletonIdentity__ctor_m18458_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -18079,20 +18079,20 @@ extern const MethodInfo SingletonIdentity__ctor_m18426_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* SingletonIdentity_t4640_MethodInfos[] =
+static const MethodInfo* SingletonIdentity_t4643_MethodInfos[] =
 {
-	&SingletonIdentity__ctor_m18426_MethodInfo,
+	&SingletonIdentity__ctor_m18458_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference SingletonIdentity_t4640_VTable[] =
+static const Il2CppMethodReference SingletonIdentity_t4643_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ServerIdentity_CreateObjRef_m18424_MethodInfo,
+	&ServerIdentity_CreateObjRef_m18456_MethodInfo,
 };
-static bool SingletonIdentity_t4640_VTableIsGenericMethod[] =
+static bool SingletonIdentity_t4643_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -18101,37 +18101,37 @@ static bool SingletonIdentity_t4640_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType SingletonIdentity_t4640_0_0_0;
-extern const Il2CppType SingletonIdentity_t4640_1_0_0;
-struct SingletonIdentity_t4640;
-const Il2CppTypeDefinitionMetadata SingletonIdentity_t4640_DefinitionMetadata = 
+extern const Il2CppType SingletonIdentity_t4643_0_0_0;
+extern const Il2CppType SingletonIdentity_t4643_1_0_0;
+struct SingletonIdentity_t4643;
+const Il2CppTypeDefinitionMetadata SingletonIdentity_t4643_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ServerIdentity_t4354_0_0_0/* parent */
-	, SingletonIdentity_t4640_VTable/* vtableMethods */
-	, SingletonIdentity_t4640_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ServerIdentity_t4357_0_0_0/* parent */
+	, SingletonIdentity_t4643_VTable/* vtableMethods */
+	, SingletonIdentity_t4643_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo SingletonIdentity_t4640_il2cpp_TypeInfo = 
+TypeInfo SingletonIdentity_t4643_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "SingletonIdentity"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, SingletonIdentity_t4640_MethodInfos/* methods */
+	, SingletonIdentity_t4643_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &SingletonIdentity_t4640_il2cpp_TypeInfo/* element_class */
+	, &SingletonIdentity_t4643_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &SingletonIdentity_t4640_0_0_0/* byval_arg */
-	, &SingletonIdentity_t4640_1_0_0/* this_arg */
-	, &SingletonIdentity_t4640_DefinitionMetadata/* definitionMetadata */
+	, &SingletonIdentity_t4643_0_0_0/* byval_arg */
+	, &SingletonIdentity_t4643_1_0_0/* this_arg */
+	, &SingletonIdentity_t4643_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -18141,8 +18141,8 @@ TypeInfo SingletonIdentity_t4640_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (SingletonIdentity_t4640)/* instance_size */
-	, sizeof (SingletonIdentity_t4640)/* actualSize */
+	, sizeof (SingletonIdentity_t4643)/* instance_size */
+	, sizeof (SingletonIdentity_t4643)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -18174,28 +18174,28 @@ TypeInfo SingletonIdentity_t4640_il2cpp_TypeInfo =
 // System.Runtime.Remoting.SingleCallIdentity
 #include "mscorlib_System_Runtime_Remoting_SingleCallIdentity.h"
 // Metadata Definition System.Runtime.Remoting.SingleCallIdentity
-extern TypeInfo SingleCallIdentity_t4641_il2cpp_TypeInfo;
+extern TypeInfo SingleCallIdentity_t4644_il2cpp_TypeInfo;
 // System.Runtime.Remoting.SingleCallIdentity
 #include "mscorlib_System_Runtime_Remoting_SingleCallIdentityMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Context_t4595_0_0_0;
+extern const Il2CppType Context_t4598_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo SingleCallIdentity_t4641_SingleCallIdentity__ctor_m18427_ParameterInfos[] = 
+static const ParameterInfo SingleCallIdentity_t4644_SingleCallIdentity__ctor_m18459_ParameterInfos[] = 
 {
 	{"objectUri", 0, 134222291, 0, &String_t_0_0_0},
-	{"context", 1, 134222292, 0, &Context_t4595_0_0_0},
+	{"context", 1, 134222292, 0, &Context_t4598_0_0_0},
 	{"objectType", 2, 134222293, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.SingleCallIdentity::.ctor(System.String,System.Runtime.Remoting.Contexts.Context,System.Type)
-extern const MethodInfo SingleCallIdentity__ctor_m18427_MethodInfo = 
+extern const MethodInfo SingleCallIdentity__ctor_m18459_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SingleCallIdentity__ctor_m18427/* method */
-	, &SingleCallIdentity_t4641_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SingleCallIdentity__ctor_m18459/* method */
+	, &SingleCallIdentity_t4644_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t/* invoker_method */
-	, SingleCallIdentity_t4641_SingleCallIdentity__ctor_m18427_ParameterInfos/* parameters */
+	, SingleCallIdentity_t4644_SingleCallIdentity__ctor_m18459_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -18209,20 +18209,20 @@ extern const MethodInfo SingleCallIdentity__ctor_m18427_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* SingleCallIdentity_t4641_MethodInfos[] =
+static const MethodInfo* SingleCallIdentity_t4644_MethodInfos[] =
 {
-	&SingleCallIdentity__ctor_m18427_MethodInfo,
+	&SingleCallIdentity__ctor_m18459_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference SingleCallIdentity_t4641_VTable[] =
+static const Il2CppMethodReference SingleCallIdentity_t4644_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&ServerIdentity_CreateObjRef_m18424_MethodInfo,
+	&ServerIdentity_CreateObjRef_m18456_MethodInfo,
 };
-static bool SingleCallIdentity_t4641_VTableIsGenericMethod[] =
+static bool SingleCallIdentity_t4644_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -18231,37 +18231,37 @@ static bool SingleCallIdentity_t4641_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType SingleCallIdentity_t4641_0_0_0;
-extern const Il2CppType SingleCallIdentity_t4641_1_0_0;
-struct SingleCallIdentity_t4641;
-const Il2CppTypeDefinitionMetadata SingleCallIdentity_t4641_DefinitionMetadata = 
+extern const Il2CppType SingleCallIdentity_t4644_0_0_0;
+extern const Il2CppType SingleCallIdentity_t4644_1_0_0;
+struct SingleCallIdentity_t4644;
+const Il2CppTypeDefinitionMetadata SingleCallIdentity_t4644_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ServerIdentity_t4354_0_0_0/* parent */
-	, SingleCallIdentity_t4641_VTable/* vtableMethods */
-	, SingleCallIdentity_t4641_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ServerIdentity_t4357_0_0_0/* parent */
+	, SingleCallIdentity_t4644_VTable/* vtableMethods */
+	, SingleCallIdentity_t4644_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo SingleCallIdentity_t4641_il2cpp_TypeInfo = 
+TypeInfo SingleCallIdentity_t4644_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "SingleCallIdentity"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, SingleCallIdentity_t4641_MethodInfos/* methods */
+	, SingleCallIdentity_t4644_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &SingleCallIdentity_t4641_il2cpp_TypeInfo/* element_class */
+	, &SingleCallIdentity_t4644_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &SingleCallIdentity_t4641_0_0_0/* byval_arg */
-	, &SingleCallIdentity_t4641_1_0_0/* this_arg */
-	, &SingleCallIdentity_t4641_DefinitionMetadata/* definitionMetadata */
+	, &SingleCallIdentity_t4644_0_0_0/* byval_arg */
+	, &SingleCallIdentity_t4644_1_0_0/* this_arg */
+	, &SingleCallIdentity_t4644_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -18271,8 +18271,8 @@ TypeInfo SingleCallIdentity_t4641_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (SingleCallIdentity_t4641)/* instance_size */
-	, sizeof (SingleCallIdentity_t4641)/* actualSize */
+	, sizeof (SingleCallIdentity_t4644)/* instance_size */
+	, sizeof (SingleCallIdentity_t4644)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -18304,16 +18304,16 @@ TypeInfo SingleCallIdentity_t4641_il2cpp_TypeInfo =
 // System.Runtime.Remoting.TypeEntry
 #include "mscorlib_System_Runtime_Remoting_TypeEntry.h"
 // Metadata Definition System.Runtime.Remoting.TypeEntry
-extern TypeInfo TypeEntry_t4628_il2cpp_TypeInfo;
+extern TypeInfo TypeEntry_t4631_il2cpp_TypeInfo;
 // System.Runtime.Remoting.TypeEntry
 #include "mscorlib_System_Runtime_Remoting_TypeEntryMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.TypeEntry::get_AssemblyName()
-extern const MethodInfo TypeEntry_get_AssemblyName_m18428_MethodInfo = 
+extern const MethodInfo TypeEntry_get_AssemblyName_m18460_MethodInfo = 
 {
 	"get_AssemblyName"/* name */
-	, (methodPointerType)&TypeEntry_get_AssemblyName_m18428/* method */
-	, &TypeEntry_t4628_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeEntry_get_AssemblyName_m18460/* method */
+	, &TypeEntry_t4631_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -18332,11 +18332,11 @@ extern const MethodInfo TypeEntry_get_AssemblyName_m18428_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.TypeEntry::get_TypeName()
-extern const MethodInfo TypeEntry_get_TypeName_m18429_MethodInfo = 
+extern const MethodInfo TypeEntry_get_TypeName_m18461_MethodInfo = 
 {
 	"get_TypeName"/* name */
-	, (methodPointerType)&TypeEntry_get_TypeName_m18429/* method */
-	, &TypeEntry_t4628_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeEntry_get_TypeName_m18461/* method */
+	, &TypeEntry_t4631_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -18353,48 +18353,48 @@ extern const MethodInfo TypeEntry_get_TypeName_m18429_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* TypeEntry_t4628_MethodInfos[] =
+static const MethodInfo* TypeEntry_t4631_MethodInfos[] =
 {
-	&TypeEntry_get_AssemblyName_m18428_MethodInfo,
-	&TypeEntry_get_TypeName_m18429_MethodInfo,
+	&TypeEntry_get_AssemblyName_m18460_MethodInfo,
+	&TypeEntry_get_TypeName_m18461_MethodInfo,
 	NULL
 };
-extern const MethodInfo TypeEntry_get_AssemblyName_m18428_MethodInfo;
-static const PropertyInfo TypeEntry_t4628____AssemblyName_PropertyInfo = 
+extern const MethodInfo TypeEntry_get_AssemblyName_m18460_MethodInfo;
+static const PropertyInfo TypeEntry_t4631____AssemblyName_PropertyInfo = 
 {
-	&TypeEntry_t4628_il2cpp_TypeInfo/* parent */
+	&TypeEntry_t4631_il2cpp_TypeInfo/* parent */
 	, "AssemblyName"/* name */
-	, &TypeEntry_get_AssemblyName_m18428_MethodInfo/* get */
+	, &TypeEntry_get_AssemblyName_m18460_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo TypeEntry_get_TypeName_m18429_MethodInfo;
-static const PropertyInfo TypeEntry_t4628____TypeName_PropertyInfo = 
+extern const MethodInfo TypeEntry_get_TypeName_m18461_MethodInfo;
+static const PropertyInfo TypeEntry_t4631____TypeName_PropertyInfo = 
 {
-	&TypeEntry_t4628_il2cpp_TypeInfo/* parent */
+	&TypeEntry_t4631_il2cpp_TypeInfo/* parent */
 	, "TypeName"/* name */
-	, &TypeEntry_get_TypeName_m18429_MethodInfo/* get */
+	, &TypeEntry_get_TypeName_m18461_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* TypeEntry_t4628_PropertyInfos[] =
+static const PropertyInfo* TypeEntry_t4631_PropertyInfos[] =
 {
-	&TypeEntry_t4628____AssemblyName_PropertyInfo,
-	&TypeEntry_t4628____TypeName_PropertyInfo,
+	&TypeEntry_t4631____AssemblyName_PropertyInfo,
+	&TypeEntry_t4631____TypeName_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference TypeEntry_t4628_VTable[] =
+static const Il2CppMethodReference TypeEntry_t4631_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool TypeEntry_t4628_VTableIsGenericMethod[] =
+static bool TypeEntry_t4631_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -18402,36 +18402,36 @@ static bool TypeEntry_t4628_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType TypeEntry_t4628_1_0_0;
-struct TypeEntry_t4628;
-const Il2CppTypeDefinitionMetadata TypeEntry_t4628_DefinitionMetadata = 
+extern const Il2CppType TypeEntry_t4631_1_0_0;
+struct TypeEntry_t4631;
+const Il2CppTypeDefinitionMetadata TypeEntry_t4631_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, TypeEntry_t4628_VTable/* vtableMethods */
-	, TypeEntry_t4628_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, TypeEntry_t4631_VTable/* vtableMethods */
+	, TypeEntry_t4631_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1688/* fieldStart */
 
 };
-TypeInfo TypeEntry_t4628_il2cpp_TypeInfo = 
+TypeInfo TypeEntry_t4631_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "TypeEntry"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, TypeEntry_t4628_MethodInfos/* methods */
-	, TypeEntry_t4628_PropertyInfos/* properties */
+	, TypeEntry_t4631_MethodInfos/* methods */
+	, TypeEntry_t4631_PropertyInfos/* properties */
 	, NULL/* events */
-	, &TypeEntry_t4628_il2cpp_TypeInfo/* element_class */
+	, &TypeEntry_t4631_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 579/* custom_attributes_cache */
-	, &TypeEntry_t4628_0_0_0/* byval_arg */
-	, &TypeEntry_t4628_1_0_0/* this_arg */
-	, &TypeEntry_t4628_DefinitionMetadata/* definitionMetadata */
+	, &TypeEntry_t4631_0_0_0/* byval_arg */
+	, &TypeEntry_t4631_1_0_0/* this_arg */
+	, &TypeEntry_t4631_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -18441,8 +18441,8 @@ TypeInfo TypeEntry_t4628_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (TypeEntry_t4628)/* instance_size */
-	, sizeof (TypeEntry_t4628)/* actualSize */
+	, sizeof (TypeEntry_t4631)/* instance_size */
+	, sizeof (TypeEntry_t4631)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -18474,24 +18474,24 @@ TypeInfo TypeEntry_t4628_il2cpp_TypeInfo =
 // System.Runtime.Remoting.TypeInfo
 #include "mscorlib_System_Runtime_Remoting_TypeInfo.h"
 // Metadata Definition System.Runtime.Remoting.TypeInfo
-extern TypeInfo TypeInfo_t4642_il2cpp_TypeInfo;
+extern TypeInfo TypeInfo_t4645_il2cpp_TypeInfo;
 // System.Runtime.Remoting.TypeInfo
 #include "mscorlib_System_Runtime_Remoting_TypeInfoMethodDeclarations.h"
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo TypeInfo_t4642_TypeInfo__ctor_m18430_ParameterInfos[] = 
+static const ParameterInfo TypeInfo_t4645_TypeInfo__ctor_m18462_ParameterInfos[] = 
 {
 	{"type", 0, 134222294, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Remoting.TypeInfo::.ctor(System.Type)
-extern const MethodInfo TypeInfo__ctor_m18430_MethodInfo = 
+extern const MethodInfo TypeInfo__ctor_m18462_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TypeInfo__ctor_m18430/* method */
-	, &TypeInfo_t4642_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeInfo__ctor_m18462/* method */
+	, &TypeInfo_t4645_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, TypeInfo_t4642_TypeInfo__ctor_m18430_ParameterInfos/* parameters */
+	, TypeInfo_t4645_TypeInfo__ctor_m18462_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -18507,11 +18507,11 @@ extern const MethodInfo TypeInfo__ctor_m18430_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Runtime.Remoting.TypeInfo::get_TypeName()
-extern const MethodInfo TypeInfo_get_TypeName_m18431_MethodInfo = 
+extern const MethodInfo TypeInfo_get_TypeName_m18463_MethodInfo = 
 {
 	"get_TypeName"/* name */
-	, (methodPointerType)&TypeInfo_get_TypeName_m18431/* method */
-	, &TypeInfo_t4642_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeInfo_get_TypeName_m18463/* method */
+	, &TypeInfo_t4645_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -18528,37 +18528,37 @@ extern const MethodInfo TypeInfo_get_TypeName_m18431_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* TypeInfo_t4642_MethodInfos[] =
+static const MethodInfo* TypeInfo_t4645_MethodInfos[] =
 {
-	&TypeInfo__ctor_m18430_MethodInfo,
-	&TypeInfo_get_TypeName_m18431_MethodInfo,
+	&TypeInfo__ctor_m18462_MethodInfo,
+	&TypeInfo_get_TypeName_m18463_MethodInfo,
 	NULL
 };
-extern const MethodInfo TypeInfo_get_TypeName_m18431_MethodInfo;
-static const PropertyInfo TypeInfo_t4642____TypeName_PropertyInfo = 
+extern const MethodInfo TypeInfo_get_TypeName_m18463_MethodInfo;
+static const PropertyInfo TypeInfo_t4645____TypeName_PropertyInfo = 
 {
-	&TypeInfo_t4642_il2cpp_TypeInfo/* parent */
+	&TypeInfo_t4645_il2cpp_TypeInfo/* parent */
 	, "TypeName"/* name */
-	, &TypeInfo_get_TypeName_m18431_MethodInfo/* get */
+	, &TypeInfo_get_TypeName_m18463_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* TypeInfo_t4642_PropertyInfos[] =
+static const PropertyInfo* TypeInfo_t4645_PropertyInfos[] =
 {
-	&TypeInfo_t4642____TypeName_PropertyInfo,
+	&TypeInfo_t4645____TypeName_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference TypeInfo_t4642_VTable[] =
+static const Il2CppMethodReference TypeInfo_t4645_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&TypeInfo_get_TypeName_m18431_MethodInfo,
+	&TypeInfo_get_TypeName_m18463_MethodInfo,
 };
-static bool TypeInfo_t4642_VTableIsGenericMethod[] =
+static bool TypeInfo_t4645_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -18566,46 +18566,46 @@ static bool TypeInfo_t4642_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* TypeInfo_t4642_InterfacesTypeInfos[] = 
+static const Il2CppType* TypeInfo_t4645_InterfacesTypeInfos[] = 
 {
-	&IRemotingTypeInfo_t4633_0_0_0,
+	&IRemotingTypeInfo_t4636_0_0_0,
 };
-static Il2CppInterfaceOffsetPair TypeInfo_t4642_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair TypeInfo_t4645_InterfacesOffsets[] = 
 {
-	{ &IRemotingTypeInfo_t4633_0_0_0, 4},
+	{ &IRemotingTypeInfo_t4636_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType TypeInfo_t4642_0_0_0;
-extern const Il2CppType TypeInfo_t4642_1_0_0;
-struct TypeInfo_t4642;
-const Il2CppTypeDefinitionMetadata TypeInfo_t4642_DefinitionMetadata = 
+extern const Il2CppType TypeInfo_t4645_0_0_0;
+extern const Il2CppType TypeInfo_t4645_1_0_0;
+struct TypeInfo_t4645;
+const Il2CppTypeDefinitionMetadata TypeInfo_t4645_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, TypeInfo_t4642_InterfacesTypeInfos/* implementedInterfaces */
-	, TypeInfo_t4642_InterfacesOffsets/* interfaceOffsets */
+	, TypeInfo_t4645_InterfacesTypeInfos/* implementedInterfaces */
+	, TypeInfo_t4645_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, TypeInfo_t4642_VTable/* vtableMethods */
-	, TypeInfo_t4642_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, TypeInfo_t4645_VTable/* vtableMethods */
+	, TypeInfo_t4645_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1690/* fieldStart */
 
 };
-TypeInfo TypeInfo_t4642_il2cpp_TypeInfo = 
+TypeInfo TypeInfo_t4645_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "TypeInfo"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, TypeInfo_t4642_MethodInfos/* methods */
-	, TypeInfo_t4642_PropertyInfos/* properties */
+	, TypeInfo_t4645_MethodInfos/* methods */
+	, TypeInfo_t4645_PropertyInfos/* properties */
 	, NULL/* events */
-	, &TypeInfo_t4642_il2cpp_TypeInfo/* element_class */
+	, &TypeInfo_t4645_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &TypeInfo_t4642_0_0_0/* byval_arg */
-	, &TypeInfo_t4642_1_0_0/* this_arg */
-	, &TypeInfo_t4642_DefinitionMetadata/* definitionMetadata */
+	, &TypeInfo_t4645_0_0_0/* byval_arg */
+	, &TypeInfo_t4645_1_0_0/* this_arg */
+	, &TypeInfo_t4645_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -18615,8 +18615,8 @@ TypeInfo TypeInfo_t4642_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (TypeInfo_t4642)/* instance_size */
-	, sizeof (TypeInfo_t4642)/* actualSize */
+	, sizeof (TypeInfo_t4645)/* instance_size */
+	, sizeof (TypeInfo_t4645)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -18648,14 +18648,14 @@ TypeInfo TypeInfo_t4642_il2cpp_TypeInfo =
 // System.Runtime.Remoting.WellKnownObjectMode
 #include "mscorlib_System_Runtime_Remoting_WellKnownObjectMode.h"
 // Metadata Definition System.Runtime.Remoting.WellKnownObjectMode
-extern TypeInfo WellKnownObjectMode_t4643_il2cpp_TypeInfo;
+extern TypeInfo WellKnownObjectMode_t4646_il2cpp_TypeInfo;
 // System.Runtime.Remoting.WellKnownObjectMode
 #include "mscorlib_System_Runtime_Remoting_WellKnownObjectModeMethodDeclarations.h"
-static const MethodInfo* WellKnownObjectMode_t4643_MethodInfos[] =
+static const MethodInfo* WellKnownObjectMode_t4646_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference WellKnownObjectMode_t4643_VTable[] =
+static const Il2CppMethodReference WellKnownObjectMode_t4646_VTable[] =
 {
 	&Enum_Equals_m501_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -18681,7 +18681,7 @@ static const Il2CppMethodReference WellKnownObjectMode_t4643_VTable[] =
 	&Enum_CompareTo_m521_MethodInfo,
 	&Enum_GetTypeCode_m522_MethodInfo,
 };
-static bool WellKnownObjectMode_t4643_VTableIsGenericMethod[] =
+static bool WellKnownObjectMode_t4646_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -18707,45 +18707,45 @@ static bool WellKnownObjectMode_t4643_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair WellKnownObjectMode_t4643_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair WellKnownObjectMode_t4646_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType WellKnownObjectMode_t4643_1_0_0;
+extern const Il2CppType WellKnownObjectMode_t4646_1_0_0;
 // System.Int32
 #include "mscorlib_System_Int32.h"
 extern TypeInfo Int32_t82_il2cpp_TypeInfo;
-const Il2CppTypeDefinitionMetadata WellKnownObjectMode_t4643_DefinitionMetadata = 
+const Il2CppTypeDefinitionMetadata WellKnownObjectMode_t4646_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, WellKnownObjectMode_t4643_InterfacesOffsets/* interfaceOffsets */
+	, WellKnownObjectMode_t4646_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, WellKnownObjectMode_t4643_VTable/* vtableMethods */
-	, WellKnownObjectMode_t4643_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, WellKnownObjectMode_t4646_VTable/* vtableMethods */
+	, WellKnownObjectMode_t4646_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1693/* fieldStart */
 
 };
-TypeInfo WellKnownObjectMode_t4643_il2cpp_TypeInfo = 
+TypeInfo WellKnownObjectMode_t4646_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "WellKnownObjectMode"/* name */
 	, "System.Runtime.Remoting"/* namespaze */
-	, WellKnownObjectMode_t4643_MethodInfos/* methods */
+	, WellKnownObjectMode_t4646_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t82_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 580/* custom_attributes_cache */
-	, &WellKnownObjectMode_t4643_0_0_0/* byval_arg */
-	, &WellKnownObjectMode_t4643_1_0_0/* this_arg */
-	, &WellKnownObjectMode_t4643_DefinitionMetadata/* definitionMetadata */
+	, &WellKnownObjectMode_t4646_0_0_0/* byval_arg */
+	, &WellKnownObjectMode_t4646_1_0_0/* this_arg */
+	, &WellKnownObjectMode_t4646_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -18755,8 +18755,8 @@ TypeInfo WellKnownObjectMode_t4643_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (WellKnownObjectMode_t4643)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (WellKnownObjectMode_t4643)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (WellKnownObjectMode_t4646)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (WellKnownObjectMode_t4646)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -18788,16 +18788,16 @@ TypeInfo WellKnownObjectMode_t4643_il2cpp_TypeInfo =
 // System.Runtime.Serialization.Formatters.Binary.BinaryCommon
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Bina.h"
 // Metadata Definition System.Runtime.Serialization.Formatters.Binary.BinaryCommon
-extern TypeInfo BinaryCommon_t4644_il2cpp_TypeInfo;
+extern TypeInfo BinaryCommon_t4647_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.BinaryCommon
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_BinaMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Serialization.Formatters.Binary.BinaryCommon::.cctor()
-extern const MethodInfo BinaryCommon__cctor_m18432_MethodInfo = 
+extern const MethodInfo BinaryCommon__cctor_m18464_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&BinaryCommon__cctor_m18432/* method */
-	, &BinaryCommon_t4644_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&BinaryCommon__cctor_m18464/* method */
+	, &BinaryCommon_t4647_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -18815,20 +18815,20 @@ extern const MethodInfo BinaryCommon__cctor_m18432_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo BinaryCommon_t4644_BinaryCommon_IsPrimitive_m18433_ParameterInfos[] = 
+static const ParameterInfo BinaryCommon_t4647_BinaryCommon_IsPrimitive_m18465_ParameterInfos[] = 
 {
 	{"type", 0, 134222295, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Runtime.Serialization.Formatters.Binary.BinaryCommon::IsPrimitive(System.Type)
-extern const MethodInfo BinaryCommon_IsPrimitive_m18433_MethodInfo = 
+extern const MethodInfo BinaryCommon_IsPrimitive_m18465_MethodInfo = 
 {
 	"IsPrimitive"/* name */
-	, (methodPointerType)&BinaryCommon_IsPrimitive_m18433/* method */
-	, &BinaryCommon_t4644_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&BinaryCommon_IsPrimitive_m18465/* method */
+	, &BinaryCommon_t4647_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, BinaryCommon_t4644_BinaryCommon_IsPrimitive_m18433_ParameterInfos/* parameters */
+	, BinaryCommon_t4647_BinaryCommon_IsPrimitive_m18465_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18843,20 +18843,20 @@ extern const MethodInfo BinaryCommon_IsPrimitive_m18433_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo BinaryCommon_t4644_BinaryCommon_GetTypeFromCode_m18434_ParameterInfos[] = 
+static const ParameterInfo BinaryCommon_t4647_BinaryCommon_GetTypeFromCode_m18466_ParameterInfos[] = 
 {
 	{"code", 0, 134222296, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Runtime.Serialization.Formatters.Binary.BinaryCommon::GetTypeFromCode(System.Int32)
-extern const MethodInfo BinaryCommon_GetTypeFromCode_m18434_MethodInfo = 
+extern const MethodInfo BinaryCommon_GetTypeFromCode_m18466_MethodInfo = 
 {
 	"GetTypeFromCode"/* name */
-	, (methodPointerType)&BinaryCommon_GetTypeFromCode_m18434/* method */
-	, &BinaryCommon_t4644_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&BinaryCommon_GetTypeFromCode_m18466/* method */
+	, &BinaryCommon_t4647_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
-	, BinaryCommon_t4644_BinaryCommon_GetTypeFromCode_m18434_ParameterInfos/* parameters */
+	, BinaryCommon_t4647_BinaryCommon_GetTypeFromCode_m18466_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18874,7 +18874,7 @@ extern const Il2CppType ByteU5BU5D_t66_0_0_0;
 extern const Il2CppType ByteU5BU5D_t66_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo BinaryCommon_t4644_BinaryCommon_SwapBytes_m18435_ParameterInfos[] = 
+static const ParameterInfo BinaryCommon_t4647_BinaryCommon_SwapBytes_m18467_ParameterInfos[] = 
 {
 	{"byteArray", 0, 134222297, 0, &ByteU5BU5D_t66_0_0_0},
 	{"size", 1, 134222298, 0, &Int32_t82_0_0_0},
@@ -18882,14 +18882,14 @@ static const ParameterInfo BinaryCommon_t4644_BinaryCommon_SwapBytes_m18435_Para
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Serialization.Formatters.Binary.BinaryCommon::SwapBytes(System.Byte[],System.Int32,System.Int32)
-extern const MethodInfo BinaryCommon_SwapBytes_m18435_MethodInfo = 
+extern const MethodInfo BinaryCommon_SwapBytes_m18467_MethodInfo = 
 {
 	"SwapBytes"/* name */
-	, (methodPointerType)&BinaryCommon_SwapBytes_m18435/* method */
-	, &BinaryCommon_t4644_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&BinaryCommon_SwapBytes_m18467/* method */
+	, &BinaryCommon_t4647_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82/* invoker_method */
-	, BinaryCommon_t4644_BinaryCommon_SwapBytes_m18435_ParameterInfos/* parameters */
+	, BinaryCommon_t4647_BinaryCommon_SwapBytes_m18467_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18903,22 +18903,22 @@ extern const MethodInfo BinaryCommon_SwapBytes_m18435_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* BinaryCommon_t4644_MethodInfos[] =
+static const MethodInfo* BinaryCommon_t4647_MethodInfos[] =
 {
-	&BinaryCommon__cctor_m18432_MethodInfo,
-	&BinaryCommon_IsPrimitive_m18433_MethodInfo,
-	&BinaryCommon_GetTypeFromCode_m18434_MethodInfo,
-	&BinaryCommon_SwapBytes_m18435_MethodInfo,
+	&BinaryCommon__cctor_m18464_MethodInfo,
+	&BinaryCommon_IsPrimitive_m18465_MethodInfo,
+	&BinaryCommon_GetTypeFromCode_m18466_MethodInfo,
+	&BinaryCommon_SwapBytes_m18467_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference BinaryCommon_t4644_VTable[] =
+static const Il2CppMethodReference BinaryCommon_t4647_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool BinaryCommon_t4644_VTableIsGenericMethod[] =
+static bool BinaryCommon_t4647_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -18926,37 +18926,37 @@ static bool BinaryCommon_t4644_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType BinaryCommon_t4644_0_0_0;
-extern const Il2CppType BinaryCommon_t4644_1_0_0;
-struct BinaryCommon_t4644;
-const Il2CppTypeDefinitionMetadata BinaryCommon_t4644_DefinitionMetadata = 
+extern const Il2CppType BinaryCommon_t4647_0_0_0;
+extern const Il2CppType BinaryCommon_t4647_1_0_0;
+struct BinaryCommon_t4647;
+const Il2CppTypeDefinitionMetadata BinaryCommon_t4647_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, BinaryCommon_t4644_VTable/* vtableMethods */
-	, BinaryCommon_t4644_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, BinaryCommon_t4647_VTable/* vtableMethods */
+	, BinaryCommon_t4647_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1696/* fieldStart */
 
 };
-TypeInfo BinaryCommon_t4644_il2cpp_TypeInfo = 
+TypeInfo BinaryCommon_t4647_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "BinaryCommon"/* name */
 	, "System.Runtime.Serialization.Formatters.Binary"/* namespaze */
-	, BinaryCommon_t4644_MethodInfos/* methods */
+	, BinaryCommon_t4647_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &BinaryCommon_t4644_il2cpp_TypeInfo/* element_class */
+	, &BinaryCommon_t4647_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &BinaryCommon_t4644_0_0_0/* byval_arg */
-	, &BinaryCommon_t4644_1_0_0/* this_arg */
-	, &BinaryCommon_t4644_DefinitionMetadata/* definitionMetadata */
+	, &BinaryCommon_t4647_0_0_0/* byval_arg */
+	, &BinaryCommon_t4647_1_0_0/* this_arg */
+	, &BinaryCommon_t4647_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -18966,11 +18966,11 @@ TypeInfo BinaryCommon_t4644_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (BinaryCommon_t4644)/* instance_size */
-	, sizeof (BinaryCommon_t4644)/* actualSize */
+	, sizeof (BinaryCommon_t4647)/* instance_size */
+	, sizeof (BinaryCommon_t4647)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(BinaryCommon_t4644_StaticFields)/* static_fields_size */
+	, sizeof(BinaryCommon_t4647_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 0/* flags */
@@ -18999,14 +18999,14 @@ TypeInfo BinaryCommon_t4644_il2cpp_TypeInfo =
 // System.Runtime.Serialization.Formatters.Binary.BinaryElement
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Bina_0.h"
 // Metadata Definition System.Runtime.Serialization.Formatters.Binary.BinaryElement
-extern TypeInfo BinaryElement_t4645_il2cpp_TypeInfo;
+extern TypeInfo BinaryElement_t4648_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.BinaryElement
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Bina_0MethodDeclarations.h"
-static const MethodInfo* BinaryElement_t4645_MethodInfos[] =
+static const MethodInfo* BinaryElement_t4648_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference BinaryElement_t4645_VTable[] =
+static const Il2CppMethodReference BinaryElement_t4648_VTable[] =
 {
 	&Enum_Equals_m501_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -19032,7 +19032,7 @@ static const Il2CppMethodReference BinaryElement_t4645_VTable[] =
 	&Enum_CompareTo_m521_MethodInfo,
 	&Enum_GetTypeCode_m522_MethodInfo,
 };
-static bool BinaryElement_t4645_VTableIsGenericMethod[] =
+static bool BinaryElement_t4648_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -19058,43 +19058,43 @@ static bool BinaryElement_t4645_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair BinaryElement_t4645_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair BinaryElement_t4648_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType BinaryElement_t4645_0_0_0;
-extern const Il2CppType BinaryElement_t4645_1_0_0;
-const Il2CppTypeDefinitionMetadata BinaryElement_t4645_DefinitionMetadata = 
+extern const Il2CppType BinaryElement_t4648_0_0_0;
+extern const Il2CppType BinaryElement_t4648_1_0_0;
+const Il2CppTypeDefinitionMetadata BinaryElement_t4648_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, BinaryElement_t4645_InterfacesOffsets/* interfaceOffsets */
+	, BinaryElement_t4648_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, BinaryElement_t4645_VTable/* vtableMethods */
-	, BinaryElement_t4645_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, BinaryElement_t4648_VTable/* vtableMethods */
+	, BinaryElement_t4648_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1700/* fieldStart */
 
 };
-TypeInfo BinaryElement_t4645_il2cpp_TypeInfo = 
+TypeInfo BinaryElement_t4648_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "BinaryElement"/* name */
 	, "System.Runtime.Serialization.Formatters.Binary"/* namespaze */
-	, BinaryElement_t4645_MethodInfos/* methods */
+	, BinaryElement_t4648_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &Byte_t739_il2cpp_TypeInfo/* element_class */
+	, &Byte_t742_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &BinaryElement_t4645_0_0_0/* byval_arg */
-	, &BinaryElement_t4645_1_0_0/* this_arg */
-	, &BinaryElement_t4645_DefinitionMetadata/* definitionMetadata */
+	, &BinaryElement_t4648_0_0_0/* byval_arg */
+	, &BinaryElement_t4648_1_0_0/* this_arg */
+	, &BinaryElement_t4648_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -19104,8 +19104,8 @@ TypeInfo BinaryElement_t4645_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (BinaryElement_t4645)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (BinaryElement_t4645)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (BinaryElement_t4648)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (BinaryElement_t4648)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(uint8_t)/* native_size */
 	, 0/* static_fields_size */
@@ -19137,14 +19137,14 @@ TypeInfo BinaryElement_t4645_il2cpp_TypeInfo =
 // System.Runtime.Serialization.Formatters.Binary.TypeTag
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Type.h"
 // Metadata Definition System.Runtime.Serialization.Formatters.Binary.TypeTag
-extern TypeInfo TypeTag_t4646_il2cpp_TypeInfo;
+extern TypeInfo TypeTag_t4649_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.TypeTag
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_TypeMethodDeclarations.h"
-static const MethodInfo* TypeTag_t4646_MethodInfos[] =
+static const MethodInfo* TypeTag_t4649_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference TypeTag_t4646_VTable[] =
+static const Il2CppMethodReference TypeTag_t4649_VTable[] =
 {
 	&Enum_Equals_m501_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -19170,7 +19170,7 @@ static const Il2CppMethodReference TypeTag_t4646_VTable[] =
 	&Enum_CompareTo_m521_MethodInfo,
 	&Enum_GetTypeCode_m522_MethodInfo,
 };
-static bool TypeTag_t4646_VTableIsGenericMethod[] =
+static bool TypeTag_t4649_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -19196,43 +19196,43 @@ static bool TypeTag_t4646_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair TypeTag_t4646_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair TypeTag_t4649_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType TypeTag_t4646_0_0_0;
-extern const Il2CppType TypeTag_t4646_1_0_0;
-const Il2CppTypeDefinitionMetadata TypeTag_t4646_DefinitionMetadata = 
+extern const Il2CppType TypeTag_t4649_0_0_0;
+extern const Il2CppType TypeTag_t4649_1_0_0;
+const Il2CppTypeDefinitionMetadata TypeTag_t4649_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, TypeTag_t4646_InterfacesOffsets/* interfaceOffsets */
+	, TypeTag_t4649_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, TypeTag_t4646_VTable/* vtableMethods */
-	, TypeTag_t4646_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, TypeTag_t4649_VTable/* vtableMethods */
+	, TypeTag_t4649_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1724/* fieldStart */
 
 };
-TypeInfo TypeTag_t4646_il2cpp_TypeInfo = 
+TypeInfo TypeTag_t4649_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "TypeTag"/* name */
 	, "System.Runtime.Serialization.Formatters.Binary"/* namespaze */
-	, TypeTag_t4646_MethodInfos/* methods */
+	, TypeTag_t4649_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &Byte_t739_il2cpp_TypeInfo/* element_class */
+	, &Byte_t742_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &TypeTag_t4646_0_0_0/* byval_arg */
-	, &TypeTag_t4646_1_0_0/* this_arg */
-	, &TypeTag_t4646_DefinitionMetadata/* definitionMetadata */
+	, &TypeTag_t4649_0_0_0/* byval_arg */
+	, &TypeTag_t4649_1_0_0/* this_arg */
+	, &TypeTag_t4649_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -19242,8 +19242,8 @@ TypeInfo TypeTag_t4646_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (TypeTag_t4646)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (TypeTag_t4646)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (TypeTag_t4649)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (TypeTag_t4649)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(uint8_t)/* native_size */
 	, 0/* static_fields_size */
@@ -19275,14 +19275,14 @@ TypeInfo TypeTag_t4646_il2cpp_TypeInfo =
 // System.Runtime.Serialization.Formatters.Binary.MethodFlags
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Meth.h"
 // Metadata Definition System.Runtime.Serialization.Formatters.Binary.MethodFlags
-extern TypeInfo MethodFlags_t4647_il2cpp_TypeInfo;
+extern TypeInfo MethodFlags_t4650_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.MethodFlags
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_MethMethodDeclarations.h"
-static const MethodInfo* MethodFlags_t4647_MethodInfos[] =
+static const MethodInfo* MethodFlags_t4650_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference MethodFlags_t4647_VTable[] =
+static const Il2CppMethodReference MethodFlags_t4650_VTable[] =
 {
 	&Enum_Equals_m501_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -19308,7 +19308,7 @@ static const Il2CppMethodReference MethodFlags_t4647_VTable[] =
 	&Enum_CompareTo_m521_MethodInfo,
 	&Enum_GetTypeCode_m522_MethodInfo,
 };
-static bool MethodFlags_t4647_VTableIsGenericMethod[] =
+static bool MethodFlags_t4650_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -19334,43 +19334,43 @@ static bool MethodFlags_t4647_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair MethodFlags_t4647_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MethodFlags_t4650_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MethodFlags_t4647_0_0_0;
-extern const Il2CppType MethodFlags_t4647_1_0_0;
-const Il2CppTypeDefinitionMetadata MethodFlags_t4647_DefinitionMetadata = 
+extern const Il2CppType MethodFlags_t4650_0_0_0;
+extern const Il2CppType MethodFlags_t4650_1_0_0;
+const Il2CppTypeDefinitionMetadata MethodFlags_t4650_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, MethodFlags_t4647_InterfacesOffsets/* interfaceOffsets */
+	, MethodFlags_t4650_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, MethodFlags_t4647_VTable/* vtableMethods */
-	, MethodFlags_t4647_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, MethodFlags_t4650_VTable/* vtableMethods */
+	, MethodFlags_t4650_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1733/* fieldStart */
 
 };
-TypeInfo MethodFlags_t4647_il2cpp_TypeInfo = 
+TypeInfo MethodFlags_t4650_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MethodFlags"/* name */
 	, "System.Runtime.Serialization.Formatters.Binary"/* namespaze */
-	, MethodFlags_t4647_MethodInfos/* methods */
+	, MethodFlags_t4650_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t82_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &MethodFlags_t4647_0_0_0/* byval_arg */
-	, &MethodFlags_t4647_1_0_0/* this_arg */
-	, &MethodFlags_t4647_DefinitionMetadata/* definitionMetadata */
+	, &MethodFlags_t4650_0_0_0/* byval_arg */
+	, &MethodFlags_t4650_1_0_0/* this_arg */
+	, &MethodFlags_t4650_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -19380,8 +19380,8 @@ TypeInfo MethodFlags_t4647_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MethodFlags_t4647)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (MethodFlags_t4647)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (MethodFlags_t4650)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (MethodFlags_t4650)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -19413,14 +19413,14 @@ TypeInfo MethodFlags_t4647_il2cpp_TypeInfo =
 // System.Runtime.Serialization.Formatters.Binary.ReturnTypeTag
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Retu.h"
 // Metadata Definition System.Runtime.Serialization.Formatters.Binary.ReturnTypeTag
-extern TypeInfo ReturnTypeTag_t4648_il2cpp_TypeInfo;
+extern TypeInfo ReturnTypeTag_t4651_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.ReturnTypeTag
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_RetuMethodDeclarations.h"
-static const MethodInfo* ReturnTypeTag_t4648_MethodInfos[] =
+static const MethodInfo* ReturnTypeTag_t4651_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference ReturnTypeTag_t4648_VTable[] =
+static const Il2CppMethodReference ReturnTypeTag_t4651_VTable[] =
 {
 	&Enum_Equals_m501_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -19446,7 +19446,7 @@ static const Il2CppMethodReference ReturnTypeTag_t4648_VTable[] =
 	&Enum_CompareTo_m521_MethodInfo,
 	&Enum_GetTypeCode_m522_MethodInfo,
 };
-static bool ReturnTypeTag_t4648_VTableIsGenericMethod[] =
+static bool ReturnTypeTag_t4651_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -19472,43 +19472,43 @@ static bool ReturnTypeTag_t4648_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ReturnTypeTag_t4648_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ReturnTypeTag_t4651_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType ReturnTypeTag_t4648_0_0_0;
-extern const Il2CppType ReturnTypeTag_t4648_1_0_0;
-const Il2CppTypeDefinitionMetadata ReturnTypeTag_t4648_DefinitionMetadata = 
+extern const Il2CppType ReturnTypeTag_t4651_0_0_0;
+extern const Il2CppType ReturnTypeTag_t4651_1_0_0;
+const Il2CppTypeDefinitionMetadata ReturnTypeTag_t4651_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ReturnTypeTag_t4648_InterfacesOffsets/* interfaceOffsets */
+	, ReturnTypeTag_t4651_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, ReturnTypeTag_t4648_VTable/* vtableMethods */
-	, ReturnTypeTag_t4648_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ReturnTypeTag_t4651_VTable/* vtableMethods */
+	, ReturnTypeTag_t4651_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1744/* fieldStart */
 
 };
-TypeInfo ReturnTypeTag_t4648_il2cpp_TypeInfo = 
+TypeInfo ReturnTypeTag_t4651_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ReturnTypeTag"/* name */
 	, "System.Runtime.Serialization.Formatters.Binary"/* namespaze */
-	, ReturnTypeTag_t4648_MethodInfos/* methods */
+	, ReturnTypeTag_t4651_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &Byte_t739_il2cpp_TypeInfo/* element_class */
+	, &Byte_t742_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ReturnTypeTag_t4648_0_0_0/* byval_arg */
-	, &ReturnTypeTag_t4648_1_0_0/* this_arg */
-	, &ReturnTypeTag_t4648_DefinitionMetadata/* definitionMetadata */
+	, &ReturnTypeTag_t4651_0_0_0/* byval_arg */
+	, &ReturnTypeTag_t4651_1_0_0/* this_arg */
+	, &ReturnTypeTag_t4651_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -19518,8 +19518,8 @@ TypeInfo ReturnTypeTag_t4648_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ReturnTypeTag_t4648)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (ReturnTypeTag_t4648)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (ReturnTypeTag_t4651)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (ReturnTypeTag_t4651)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(uint8_t)/* native_size */
 	, 0/* static_fields_size */
@@ -19551,16 +19551,16 @@ TypeInfo ReturnTypeTag_t4648_il2cpp_TypeInfo =
 // System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Bina_1.h"
 // Metadata Definition System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-extern TypeInfo BinaryFormatter_t4637_il2cpp_TypeInfo;
+extern TypeInfo BinaryFormatter_t4640_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Bina_1MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::.ctor()
-extern const MethodInfo BinaryFormatter__ctor_m18436_MethodInfo = 
+extern const MethodInfo BinaryFormatter__ctor_m18468_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&BinaryFormatter__ctor_m18436/* method */
-	, &BinaryFormatter_t4637_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&BinaryFormatter__ctor_m18468/* method */
+	, &BinaryFormatter_t4640_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -19577,23 +19577,23 @@ extern const MethodInfo BinaryFormatter__ctor_m18436_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ISurrogateSelector_t4618_0_0_0;
-extern const Il2CppType StreamingContext_t2918_0_0_0;
-static const ParameterInfo BinaryFormatter_t4637_BinaryFormatter__ctor_m18437_ParameterInfos[] = 
+extern const Il2CppType ISurrogateSelector_t4621_0_0_0;
+extern const Il2CppType StreamingContext_t2921_0_0_0;
+static const ParameterInfo BinaryFormatter_t4640_BinaryFormatter__ctor_m18469_ParameterInfos[] = 
 {
-	{"selector", 0, 134222300, 0, &ISurrogateSelector_t4618_0_0_0},
-	{"context", 1, 134222301, 0, &StreamingContext_t2918_0_0_0},
+	{"selector", 0, 134222300, 0, &ISurrogateSelector_t4621_0_0_0},
+	{"context", 1, 134222301, 0, &StreamingContext_t2921_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::.ctor(System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext)
-extern const MethodInfo BinaryFormatter__ctor_m18437_MethodInfo = 
+extern const MethodInfo BinaryFormatter__ctor_m18469_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&BinaryFormatter__ctor_m18437/* method */
-	, &BinaryFormatter_t4637_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&BinaryFormatter__ctor_m18469/* method */
+	, &BinaryFormatter_t4640_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2918/* invoker_method */
-	, BinaryFormatter_t4637_BinaryFormatter__ctor_m18437_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2921/* invoker_method */
+	, BinaryFormatter_t4640_BinaryFormatter__ctor_m18469_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -19609,12 +19609,12 @@ extern const MethodInfo BinaryFormatter__ctor_m18437_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Serialization.ISurrogateSelector System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::get_DefaultSurrogateSelector()
-extern const MethodInfo BinaryFormatter_get_DefaultSurrogateSelector_m18438_MethodInfo = 
+extern const MethodInfo BinaryFormatter_get_DefaultSurrogateSelector_m18470_MethodInfo = 
 {
 	"get_DefaultSurrogateSelector"/* name */
-	, (methodPointerType)&BinaryFormatter_get_DefaultSurrogateSelector_m18438/* method */
-	, &BinaryFormatter_t4637_il2cpp_TypeInfo/* declaring_type */
-	, &ISurrogateSelector_t4618_0_0_0/* return_type */
+	, (methodPointerType)&BinaryFormatter_get_DefaultSurrogateSelector_m18470/* method */
+	, &BinaryFormatter_t4640_il2cpp_TypeInfo/* declaring_type */
+	, &ISurrogateSelector_t4621_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 583/* custom_attributes_cache */
@@ -19630,22 +19630,22 @@ extern const MethodInfo BinaryFormatter_get_DefaultSurrogateSelector_m18438_Meth
 	, NULL/* dummy */
 
 };
-extern const Il2CppType FormatterAssemblyStyle_t4656_0_0_0;
-extern const Il2CppType FormatterAssemblyStyle_t4656_0_0_0;
-static const ParameterInfo BinaryFormatter_t4637_BinaryFormatter_set_AssemblyFormat_m18439_ParameterInfos[] = 
+extern const Il2CppType FormatterAssemblyStyle_t4659_0_0_0;
+extern const Il2CppType FormatterAssemblyStyle_t4659_0_0_0;
+static const ParameterInfo BinaryFormatter_t4640_BinaryFormatter_set_AssemblyFormat_m18471_ParameterInfos[] = 
 {
-	{"value", 0, 134222302, 0, &FormatterAssemblyStyle_t4656_0_0_0},
+	{"value", 0, 134222302, 0, &FormatterAssemblyStyle_t4659_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::set_AssemblyFormat(System.Runtime.Serialization.Formatters.FormatterAssemblyStyle)
-extern const MethodInfo BinaryFormatter_set_AssemblyFormat_m18439_MethodInfo = 
+extern const MethodInfo BinaryFormatter_set_AssemblyFormat_m18471_MethodInfo = 
 {
 	"set_AssemblyFormat"/* name */
-	, (methodPointerType)&BinaryFormatter_set_AssemblyFormat_m18439/* method */
-	, &BinaryFormatter_t4637_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&BinaryFormatter_set_AssemblyFormat_m18471/* method */
+	, &BinaryFormatter_t4640_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, BinaryFormatter_t4637_BinaryFormatter_set_AssemblyFormat_m18439_ParameterInfos/* parameters */
+	, BinaryFormatter_t4640_BinaryFormatter_set_AssemblyFormat_m18471_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -19659,15 +19659,15 @@ extern const MethodInfo BinaryFormatter_set_AssemblyFormat_m18439_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationBinder_t4649_0_0_0;
+extern const Il2CppType SerializationBinder_t4652_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Serialization.SerializationBinder System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::get_Binder()
-extern const MethodInfo BinaryFormatter_get_Binder_m18440_MethodInfo = 
+extern const MethodInfo BinaryFormatter_get_Binder_m18472_MethodInfo = 
 {
 	"get_Binder"/* name */
-	, (methodPointerType)&BinaryFormatter_get_Binder_m18440/* method */
-	, &BinaryFormatter_t4637_il2cpp_TypeInfo/* declaring_type */
-	, &SerializationBinder_t4649_0_0_0/* return_type */
+	, (methodPointerType)&BinaryFormatter_get_Binder_m18472/* method */
+	, &BinaryFormatter_t4640_il2cpp_TypeInfo/* declaring_type */
+	, &SerializationBinder_t4652_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -19683,15 +19683,15 @@ extern const MethodInfo BinaryFormatter_get_Binder_m18440_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_StreamingContext_t2918 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_StreamingContext_t2921 (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Serialization.StreamingContext System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::get_Context()
-extern const MethodInfo BinaryFormatter_get_Context_m18441_MethodInfo = 
+extern const MethodInfo BinaryFormatter_get_Context_m18473_MethodInfo = 
 {
 	"get_Context"/* name */
-	, (methodPointerType)&BinaryFormatter_get_Context_m18441/* method */
-	, &BinaryFormatter_t4637_il2cpp_TypeInfo/* declaring_type */
-	, &StreamingContext_t2918_0_0_0/* return_type */
-	, RuntimeInvoker_StreamingContext_t2918/* invoker_method */
+	, (methodPointerType)&BinaryFormatter_get_Context_m18473/* method */
+	, &BinaryFormatter_t4640_il2cpp_TypeInfo/* declaring_type */
+	, &StreamingContext_t2921_0_0_0/* return_type */
+	, RuntimeInvoker_StreamingContext_t2921/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
@@ -19708,12 +19708,12 @@ extern const MethodInfo BinaryFormatter_get_Context_m18441_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Serialization.ISurrogateSelector System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::get_SurrogateSelector()
-extern const MethodInfo BinaryFormatter_get_SurrogateSelector_m18442_MethodInfo = 
+extern const MethodInfo BinaryFormatter_get_SurrogateSelector_m18474_MethodInfo = 
 {
 	"get_SurrogateSelector"/* name */
-	, (methodPointerType)&BinaryFormatter_get_SurrogateSelector_m18442/* method */
-	, &BinaryFormatter_t4637_il2cpp_TypeInfo/* declaring_type */
-	, &ISurrogateSelector_t4618_0_0_0/* return_type */
+	, (methodPointerType)&BinaryFormatter_get_SurrogateSelector_m18474/* method */
+	, &BinaryFormatter_t4640_il2cpp_TypeInfo/* declaring_type */
+	, &ISurrogateSelector_t4621_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -19729,16 +19729,16 @@ extern const MethodInfo BinaryFormatter_get_SurrogateSelector_m18442_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType TypeFilterLevel_t4658_0_0_0;
-extern void* RuntimeInvoker_TypeFilterLevel_t4658 (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType TypeFilterLevel_t4661_0_0_0;
+extern void* RuntimeInvoker_TypeFilterLevel_t4661 (const MethodInfo* method, void* obj, void** args);
 // System.Runtime.Serialization.Formatters.TypeFilterLevel System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::get_FilterLevel()
-extern const MethodInfo BinaryFormatter_get_FilterLevel_m18443_MethodInfo = 
+extern const MethodInfo BinaryFormatter_get_FilterLevel_m18475_MethodInfo = 
 {
 	"get_FilterLevel"/* name */
-	, (methodPointerType)&BinaryFormatter_get_FilterLevel_m18443/* method */
-	, &BinaryFormatter_t4637_il2cpp_TypeInfo/* declaring_type */
-	, &TypeFilterLevel_t4658_0_0_0/* return_type */
-	, RuntimeInvoker_TypeFilterLevel_t4658/* invoker_method */
+	, (methodPointerType)&BinaryFormatter_get_FilterLevel_m18475/* method */
+	, &BinaryFormatter_t4640_il2cpp_TypeInfo/* declaring_type */
+	, &TypeFilterLevel_t4661_0_0_0/* return_type */
+	, RuntimeInvoker_TypeFilterLevel_t4661/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -19755,20 +19755,20 @@ extern const MethodInfo BinaryFormatter_get_FilterLevel_m18443_MethodInfo =
 };
 extern const Il2CppType Stream_t51_0_0_0;
 extern const Il2CppType Stream_t51_0_0_0;
-static const ParameterInfo BinaryFormatter_t4637_BinaryFormatter_Deserialize_m18444_ParameterInfos[] = 
+static const ParameterInfo BinaryFormatter_t4640_BinaryFormatter_Deserialize_m18476_ParameterInfos[] = 
 {
 	{"serializationStream", 0, 134222303, 0, &Stream_t51_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::Deserialize(System.IO.Stream)
-extern const MethodInfo BinaryFormatter_Deserialize_m18444_MethodInfo = 
+extern const MethodInfo BinaryFormatter_Deserialize_m18476_MethodInfo = 
 {
 	"Deserialize"/* name */
-	, (methodPointerType)&BinaryFormatter_Deserialize_m18444/* method */
-	, &BinaryFormatter_t4637_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&BinaryFormatter_Deserialize_m18476/* method */
+	, &BinaryFormatter_t4640_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, BinaryFormatter_t4637_BinaryFormatter_Deserialize_m18444_ParameterInfos/* parameters */
+	, BinaryFormatter_t4640_BinaryFormatter_Deserialize_m18476_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -19783,23 +19783,23 @@ extern const MethodInfo BinaryFormatter_Deserialize_m18444_MethodInfo =
 
 };
 extern const Il2CppType Stream_t51_0_0_0;
-extern const Il2CppType HeaderHandler_t4848_0_0_0;
-extern const Il2CppType HeaderHandler_t4848_0_0_0;
-static const ParameterInfo BinaryFormatter_t4637_BinaryFormatter_NoCheckDeserialize_m18445_ParameterInfos[] = 
+extern const Il2CppType HeaderHandler_t4851_0_0_0;
+extern const Il2CppType HeaderHandler_t4851_0_0_0;
+static const ParameterInfo BinaryFormatter_t4640_BinaryFormatter_NoCheckDeserialize_m18477_ParameterInfos[] = 
 {
 	{"serializationStream", 0, 134222304, 0, &Stream_t51_0_0_0},
-	{"handler", 1, 134222305, 0, &HeaderHandler_t4848_0_0_0},
+	{"handler", 1, 134222305, 0, &HeaderHandler_t4851_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::NoCheckDeserialize(System.IO.Stream,System.Runtime.Remoting.Messaging.HeaderHandler)
-extern const MethodInfo BinaryFormatter_NoCheckDeserialize_m18445_MethodInfo = 
+extern const MethodInfo BinaryFormatter_NoCheckDeserialize_m18477_MethodInfo = 
 {
 	"NoCheckDeserialize"/* name */
-	, (methodPointerType)&BinaryFormatter_NoCheckDeserialize_m18445/* method */
-	, &BinaryFormatter_t4637_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&BinaryFormatter_NoCheckDeserialize_m18477/* method */
+	, &BinaryFormatter_t4640_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, BinaryFormatter_t4637_BinaryFormatter_NoCheckDeserialize_m18445_ParameterInfos/* parameters */
+	, BinaryFormatter_t4640_BinaryFormatter_NoCheckDeserialize_m18477_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -19817,21 +19817,21 @@ extern const Il2CppType BinaryReader_t52_0_0_0;
 extern const Il2CppType BinaryReader_t52_0_0_0;
 extern const Il2CppType Boolean_t59_1_0_2;
 extern const Il2CppType Boolean_t59_1_0_0;
-static const ParameterInfo BinaryFormatter_t4637_BinaryFormatter_ReadBinaryHeader_m18446_ParameterInfos[] = 
+static const ParameterInfo BinaryFormatter_t4640_BinaryFormatter_ReadBinaryHeader_m18478_ParameterInfos[] = 
 {
 	{"reader", 0, 134222306, 0, &BinaryReader_t52_0_0_0},
 	{"hasHeaders", 1, 134222307, 0, &Boolean_t59_1_0_2},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_BooleanU26_t825 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_BooleanU26_t828 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::ReadBinaryHeader(System.IO.BinaryReader,System.Boolean&)
-extern const MethodInfo BinaryFormatter_ReadBinaryHeader_m18446_MethodInfo = 
+extern const MethodInfo BinaryFormatter_ReadBinaryHeader_m18478_MethodInfo = 
 {
 	"ReadBinaryHeader"/* name */
-	, (methodPointerType)&BinaryFormatter_ReadBinaryHeader_m18446/* method */
-	, &BinaryFormatter_t4637_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&BinaryFormatter_ReadBinaryHeader_m18478/* method */
+	, &BinaryFormatter_t4640_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_BooleanU26_t825/* invoker_method */
-	, BinaryFormatter_t4637_BinaryFormatter_ReadBinaryHeader_m18446_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_BooleanU26_t828/* invoker_method */
+	, BinaryFormatter_t4640_BinaryFormatter_ReadBinaryHeader_m18478_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -19845,110 +19845,110 @@ extern const MethodInfo BinaryFormatter_ReadBinaryHeader_m18446_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* BinaryFormatter_t4637_MethodInfos[] =
+static const MethodInfo* BinaryFormatter_t4640_MethodInfos[] =
 {
-	&BinaryFormatter__ctor_m18436_MethodInfo,
-	&BinaryFormatter__ctor_m18437_MethodInfo,
-	&BinaryFormatter_get_DefaultSurrogateSelector_m18438_MethodInfo,
-	&BinaryFormatter_set_AssemblyFormat_m18439_MethodInfo,
-	&BinaryFormatter_get_Binder_m18440_MethodInfo,
-	&BinaryFormatter_get_Context_m18441_MethodInfo,
-	&BinaryFormatter_get_SurrogateSelector_m18442_MethodInfo,
-	&BinaryFormatter_get_FilterLevel_m18443_MethodInfo,
-	&BinaryFormatter_Deserialize_m18444_MethodInfo,
-	&BinaryFormatter_NoCheckDeserialize_m18445_MethodInfo,
-	&BinaryFormatter_ReadBinaryHeader_m18446_MethodInfo,
+	&BinaryFormatter__ctor_m18468_MethodInfo,
+	&BinaryFormatter__ctor_m18469_MethodInfo,
+	&BinaryFormatter_get_DefaultSurrogateSelector_m18470_MethodInfo,
+	&BinaryFormatter_set_AssemblyFormat_m18471_MethodInfo,
+	&BinaryFormatter_get_Binder_m18472_MethodInfo,
+	&BinaryFormatter_get_Context_m18473_MethodInfo,
+	&BinaryFormatter_get_SurrogateSelector_m18474_MethodInfo,
+	&BinaryFormatter_get_FilterLevel_m18475_MethodInfo,
+	&BinaryFormatter_Deserialize_m18476_MethodInfo,
+	&BinaryFormatter_NoCheckDeserialize_m18477_MethodInfo,
+	&BinaryFormatter_ReadBinaryHeader_m18478_MethodInfo,
 	NULL
 };
-extern const MethodInfo BinaryFormatter_get_DefaultSurrogateSelector_m18438_MethodInfo;
-static const PropertyInfo BinaryFormatter_t4637____DefaultSurrogateSelector_PropertyInfo = 
+extern const MethodInfo BinaryFormatter_get_DefaultSurrogateSelector_m18470_MethodInfo;
+static const PropertyInfo BinaryFormatter_t4640____DefaultSurrogateSelector_PropertyInfo = 
 {
-	&BinaryFormatter_t4637_il2cpp_TypeInfo/* parent */
+	&BinaryFormatter_t4640_il2cpp_TypeInfo/* parent */
 	, "DefaultSurrogateSelector"/* name */
-	, &BinaryFormatter_get_DefaultSurrogateSelector_m18438_MethodInfo/* get */
+	, &BinaryFormatter_get_DefaultSurrogateSelector_m18470_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo BinaryFormatter_set_AssemblyFormat_m18439_MethodInfo;
-static const PropertyInfo BinaryFormatter_t4637____AssemblyFormat_PropertyInfo = 
+extern const MethodInfo BinaryFormatter_set_AssemblyFormat_m18471_MethodInfo;
+static const PropertyInfo BinaryFormatter_t4640____AssemblyFormat_PropertyInfo = 
 {
-	&BinaryFormatter_t4637_il2cpp_TypeInfo/* parent */
+	&BinaryFormatter_t4640_il2cpp_TypeInfo/* parent */
 	, "AssemblyFormat"/* name */
 	, NULL/* get */
-	, &BinaryFormatter_set_AssemblyFormat_m18439_MethodInfo/* set */
+	, &BinaryFormatter_set_AssemblyFormat_m18471_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo BinaryFormatter_get_Binder_m18440_MethodInfo;
-static const PropertyInfo BinaryFormatter_t4637____Binder_PropertyInfo = 
+extern const MethodInfo BinaryFormatter_get_Binder_m18472_MethodInfo;
+static const PropertyInfo BinaryFormatter_t4640____Binder_PropertyInfo = 
 {
-	&BinaryFormatter_t4637_il2cpp_TypeInfo/* parent */
+	&BinaryFormatter_t4640_il2cpp_TypeInfo/* parent */
 	, "Binder"/* name */
-	, &BinaryFormatter_get_Binder_m18440_MethodInfo/* get */
+	, &BinaryFormatter_get_Binder_m18472_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo BinaryFormatter_get_Context_m18441_MethodInfo;
-static const PropertyInfo BinaryFormatter_t4637____Context_PropertyInfo = 
+extern const MethodInfo BinaryFormatter_get_Context_m18473_MethodInfo;
+static const PropertyInfo BinaryFormatter_t4640____Context_PropertyInfo = 
 {
-	&BinaryFormatter_t4637_il2cpp_TypeInfo/* parent */
+	&BinaryFormatter_t4640_il2cpp_TypeInfo/* parent */
 	, "Context"/* name */
-	, &BinaryFormatter_get_Context_m18441_MethodInfo/* get */
+	, &BinaryFormatter_get_Context_m18473_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo BinaryFormatter_get_SurrogateSelector_m18442_MethodInfo;
-static const PropertyInfo BinaryFormatter_t4637____SurrogateSelector_PropertyInfo = 
+extern const MethodInfo BinaryFormatter_get_SurrogateSelector_m18474_MethodInfo;
+static const PropertyInfo BinaryFormatter_t4640____SurrogateSelector_PropertyInfo = 
 {
-	&BinaryFormatter_t4637_il2cpp_TypeInfo/* parent */
+	&BinaryFormatter_t4640_il2cpp_TypeInfo/* parent */
 	, "SurrogateSelector"/* name */
-	, &BinaryFormatter_get_SurrogateSelector_m18442_MethodInfo/* get */
+	, &BinaryFormatter_get_SurrogateSelector_m18474_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo BinaryFormatter_get_FilterLevel_m18443_MethodInfo;
-static const PropertyInfo BinaryFormatter_t4637____FilterLevel_PropertyInfo = 
+extern const MethodInfo BinaryFormatter_get_FilterLevel_m18475_MethodInfo;
+static const PropertyInfo BinaryFormatter_t4640____FilterLevel_PropertyInfo = 
 {
-	&BinaryFormatter_t4637_il2cpp_TypeInfo/* parent */
+	&BinaryFormatter_t4640_il2cpp_TypeInfo/* parent */
 	, "FilterLevel"/* name */
-	, &BinaryFormatter_get_FilterLevel_m18443_MethodInfo/* get */
+	, &BinaryFormatter_get_FilterLevel_m18475_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* BinaryFormatter_t4637_PropertyInfos[] =
+static const PropertyInfo* BinaryFormatter_t4640_PropertyInfos[] =
 {
-	&BinaryFormatter_t4637____DefaultSurrogateSelector_PropertyInfo,
-	&BinaryFormatter_t4637____AssemblyFormat_PropertyInfo,
-	&BinaryFormatter_t4637____Binder_PropertyInfo,
-	&BinaryFormatter_t4637____Context_PropertyInfo,
-	&BinaryFormatter_t4637____SurrogateSelector_PropertyInfo,
-	&BinaryFormatter_t4637____FilterLevel_PropertyInfo,
+	&BinaryFormatter_t4640____DefaultSurrogateSelector_PropertyInfo,
+	&BinaryFormatter_t4640____AssemblyFormat_PropertyInfo,
+	&BinaryFormatter_t4640____Binder_PropertyInfo,
+	&BinaryFormatter_t4640____Context_PropertyInfo,
+	&BinaryFormatter_t4640____SurrogateSelector_PropertyInfo,
+	&BinaryFormatter_t4640____FilterLevel_PropertyInfo,
 	NULL
 };
-extern const MethodInfo BinaryFormatter_Deserialize_m18444_MethodInfo;
-static const Il2CppMethodReference BinaryFormatter_t4637_VTable[] =
+extern const MethodInfo BinaryFormatter_Deserialize_m18476_MethodInfo;
+static const Il2CppMethodReference BinaryFormatter_t4640_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&BinaryFormatter_get_Binder_m18440_MethodInfo,
-	&BinaryFormatter_get_Context_m18441_MethodInfo,
-	&BinaryFormatter_get_SurrogateSelector_m18442_MethodInfo,
-	&BinaryFormatter_Deserialize_m18444_MethodInfo,
+	&BinaryFormatter_get_Binder_m18472_MethodInfo,
+	&BinaryFormatter_get_Context_m18473_MethodInfo,
+	&BinaryFormatter_get_SurrogateSelector_m18474_MethodInfo,
+	&BinaryFormatter_Deserialize_m18476_MethodInfo,
 };
-static bool BinaryFormatter_t4637_VTableIsGenericMethod[] =
+static bool BinaryFormatter_t4640_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -19959,48 +19959,48 @@ static bool BinaryFormatter_t4637_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* BinaryFormatter_t4637_InterfacesTypeInfos[] = 
+static const Il2CppType* BinaryFormatter_t4640_InterfacesTypeInfos[] = 
 {
-	&IRemotingFormatter_t4968_0_0_0,
-	&IFormatter_t4970_0_0_0,
+	&IRemotingFormatter_t4971_0_0_0,
+	&IFormatter_t4973_0_0_0,
 };
-static Il2CppInterfaceOffsetPair BinaryFormatter_t4637_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair BinaryFormatter_t4640_InterfacesOffsets[] = 
 {
-	{ &IRemotingFormatter_t4968_0_0_0, 4},
-	{ &IFormatter_t4970_0_0_0, 4},
+	{ &IRemotingFormatter_t4971_0_0_0, 4},
+	{ &IFormatter_t4973_0_0_0, 4},
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType BinaryFormatter_t4637_0_0_0;
-extern const Il2CppType BinaryFormatter_t4637_1_0_0;
-struct BinaryFormatter_t4637;
-const Il2CppTypeDefinitionMetadata BinaryFormatter_t4637_DefinitionMetadata = 
+extern const Il2CppType BinaryFormatter_t4640_0_0_0;
+extern const Il2CppType BinaryFormatter_t4640_1_0_0;
+struct BinaryFormatter_t4640;
+const Il2CppTypeDefinitionMetadata BinaryFormatter_t4640_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, BinaryFormatter_t4637_InterfacesTypeInfos/* implementedInterfaces */
-	, BinaryFormatter_t4637_InterfacesOffsets/* interfaceOffsets */
+	, BinaryFormatter_t4640_InterfacesTypeInfos/* implementedInterfaces */
+	, BinaryFormatter_t4640_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, BinaryFormatter_t4637_VTable/* vtableMethods */
-	, BinaryFormatter_t4637_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, BinaryFormatter_t4640_VTable/* vtableMethods */
+	, BinaryFormatter_t4640_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1749/* fieldStart */
 
 };
-TypeInfo BinaryFormatter_t4637_il2cpp_TypeInfo = 
+TypeInfo BinaryFormatter_t4640_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "BinaryFormatter"/* name */
 	, "System.Runtime.Serialization.Formatters.Binary"/* namespaze */
-	, BinaryFormatter_t4637_MethodInfos/* methods */
-	, BinaryFormatter_t4637_PropertyInfos/* properties */
+	, BinaryFormatter_t4640_MethodInfos/* methods */
+	, BinaryFormatter_t4640_PropertyInfos/* properties */
 	, NULL/* events */
-	, &BinaryFormatter_t4637_il2cpp_TypeInfo/* element_class */
+	, &BinaryFormatter_t4640_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 581/* custom_attributes_cache */
-	, &BinaryFormatter_t4637_0_0_0/* byval_arg */
-	, &BinaryFormatter_t4637_1_0_0/* this_arg */
-	, &BinaryFormatter_t4637_DefinitionMetadata/* definitionMetadata */
+	, &BinaryFormatter_t4640_0_0_0/* byval_arg */
+	, &BinaryFormatter_t4640_1_0_0/* this_arg */
+	, &BinaryFormatter_t4640_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -20010,11 +20010,11 @@ TypeInfo BinaryFormatter_t4637_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (BinaryFormatter_t4637)/* instance_size */
-	, sizeof (BinaryFormatter_t4637)/* actualSize */
+	, sizeof (BinaryFormatter_t4640)/* instance_size */
+	, sizeof (BinaryFormatter_t4640)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(BinaryFormatter_t4637_StaticFields)/* static_fields_size */
+	, sizeof(BinaryFormatter_t4640_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048833/* flags */
@@ -20043,32 +20043,32 @@ TypeInfo BinaryFormatter_t4637_il2cpp_TypeInfo =
 // System.Runtime.Serialization.Formatters.Binary.MessageFormatter
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Mess.h"
 // Metadata Definition System.Runtime.Serialization.Formatters.Binary.MessageFormatter
-extern TypeInfo MessageFormatter_t4650_il2cpp_TypeInfo;
+extern TypeInfo MessageFormatter_t4653_il2cpp_TypeInfo;
 // System.Runtime.Serialization.Formatters.Binary.MessageFormatter
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_MessMethodDeclarations.h"
-extern const Il2CppType BinaryElement_t4645_0_0_0;
+extern const Il2CppType BinaryElement_t4648_0_0_0;
 extern const Il2CppType BinaryReader_t52_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType HeaderHandler_t4848_0_0_0;
-extern const Il2CppType BinaryFormatter_t4637_0_0_0;
-static const ParameterInfo MessageFormatter_t4650_MessageFormatter_ReadMethodCall_m18447_ParameterInfos[] = 
+extern const Il2CppType HeaderHandler_t4851_0_0_0;
+extern const Il2CppType BinaryFormatter_t4640_0_0_0;
+static const ParameterInfo MessageFormatter_t4653_MessageFormatter_ReadMethodCall_m18479_ParameterInfos[] = 
 {
-	{"elem", 0, 134222308, 0, &BinaryElement_t4645_0_0_0},
+	{"elem", 0, 134222308, 0, &BinaryElement_t4648_0_0_0},
 	{"reader", 1, 134222309, 0, &BinaryReader_t52_0_0_0},
 	{"hasHeaders", 2, 134222310, 0, &Boolean_t59_0_0_0},
-	{"headerHandler", 3, 134222311, 0, &HeaderHandler_t4848_0_0_0},
-	{"formatter", 4, 134222312, 0, &BinaryFormatter_t4637_0_0_0},
+	{"headerHandler", 3, 134222311, 0, &HeaderHandler_t4851_0_0_0},
+	{"formatter", 4, 134222312, 0, &BinaryFormatter_t4640_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t739_Object_t_SByte_t88_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t742_Object_t_SByte_t88_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Serialization.Formatters.Binary.MessageFormatter::ReadMethodCall(System.Runtime.Serialization.Formatters.Binary.BinaryElement,System.IO.BinaryReader,System.Boolean,System.Runtime.Remoting.Messaging.HeaderHandler,System.Runtime.Serialization.Formatters.Binary.BinaryFormatter)
-extern const MethodInfo MessageFormatter_ReadMethodCall_m18447_MethodInfo = 
+extern const MethodInfo MessageFormatter_ReadMethodCall_m18479_MethodInfo = 
 {
 	"ReadMethodCall"/* name */
-	, (methodPointerType)&MessageFormatter_ReadMethodCall_m18447/* method */
-	, &MessageFormatter_t4650_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MessageFormatter_ReadMethodCall_m18479/* method */
+	, &MessageFormatter_t4653_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t739_Object_t_SByte_t88_Object_t_Object_t/* invoker_method */
-	, MessageFormatter_t4650_MessageFormatter_ReadMethodCall_m18447_ParameterInfos/* parameters */
+	, RuntimeInvoker_Object_t_Byte_t742_Object_t_SByte_t88_Object_t_Object_t/* invoker_method */
+	, MessageFormatter_t4653_MessageFormatter_ReadMethodCall_m18479_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -20082,31 +20082,31 @@ extern const MethodInfo MessageFormatter_ReadMethodCall_m18447_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType BinaryElement_t4645_0_0_0;
+extern const Il2CppType BinaryElement_t4648_0_0_0;
 extern const Il2CppType BinaryReader_t52_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-extern const Il2CppType HeaderHandler_t4848_0_0_0;
-extern const Il2CppType IMethodCallMessage_t4880_0_0_0;
-extern const Il2CppType BinaryFormatter_t4637_0_0_0;
-static const ParameterInfo MessageFormatter_t4650_MessageFormatter_ReadMethodResponse_m18448_ParameterInfos[] = 
+extern const Il2CppType HeaderHandler_t4851_0_0_0;
+extern const Il2CppType IMethodCallMessage_t4883_0_0_0;
+extern const Il2CppType BinaryFormatter_t4640_0_0_0;
+static const ParameterInfo MessageFormatter_t4653_MessageFormatter_ReadMethodResponse_m18480_ParameterInfos[] = 
 {
-	{"elem", 0, 134222313, 0, &BinaryElement_t4645_0_0_0},
+	{"elem", 0, 134222313, 0, &BinaryElement_t4648_0_0_0},
 	{"reader", 1, 134222314, 0, &BinaryReader_t52_0_0_0},
 	{"hasHeaders", 2, 134222315, 0, &Boolean_t59_0_0_0},
-	{"headerHandler", 3, 134222316, 0, &HeaderHandler_t4848_0_0_0},
-	{"methodCallMessage", 4, 134222317, 0, &IMethodCallMessage_t4880_0_0_0},
-	{"formatter", 5, 134222318, 0, &BinaryFormatter_t4637_0_0_0},
+	{"headerHandler", 3, 134222316, 0, &HeaderHandler_t4851_0_0_0},
+	{"methodCallMessage", 4, 134222317, 0, &IMethodCallMessage_t4883_0_0_0},
+	{"formatter", 5, 134222318, 0, &BinaryFormatter_t4640_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Byte_t739_Object_t_SByte_t88_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Byte_t742_Object_t_SByte_t88_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Runtime.Serialization.Formatters.Binary.MessageFormatter::ReadMethodResponse(System.Runtime.Serialization.Formatters.Binary.BinaryElement,System.IO.BinaryReader,System.Boolean,System.Runtime.Remoting.Messaging.HeaderHandler,System.Runtime.Remoting.Messaging.IMethodCallMessage,System.Runtime.Serialization.Formatters.Binary.BinaryFormatter)
-extern const MethodInfo MessageFormatter_ReadMethodResponse_m18448_MethodInfo = 
+extern const MethodInfo MessageFormatter_ReadMethodResponse_m18480_MethodInfo = 
 {
 	"ReadMethodResponse"/* name */
-	, (methodPointerType)&MessageFormatter_ReadMethodResponse_m18448/* method */
-	, &MessageFormatter_t4650_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MessageFormatter_ReadMethodResponse_m18480/* method */
+	, &MessageFormatter_t4653_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Byte_t739_Object_t_SByte_t88_Object_t_Object_t_Object_t/* invoker_method */
-	, MessageFormatter_t4650_MessageFormatter_ReadMethodResponse_m18448_ParameterInfos/* parameters */
+	, RuntimeInvoker_Object_t_Byte_t742_Object_t_SByte_t88_Object_t_Object_t_Object_t/* invoker_method */
+	, MessageFormatter_t4653_MessageFormatter_ReadMethodResponse_m18480_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -20120,20 +20120,20 @@ extern const MethodInfo MessageFormatter_ReadMethodResponse_m18448_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* MessageFormatter_t4650_MethodInfos[] =
+static const MethodInfo* MessageFormatter_t4653_MethodInfos[] =
 {
-	&MessageFormatter_ReadMethodCall_m18447_MethodInfo,
-	&MessageFormatter_ReadMethodResponse_m18448_MethodInfo,
+	&MessageFormatter_ReadMethodCall_m18479_MethodInfo,
+	&MessageFormatter_ReadMethodResponse_m18480_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference MessageFormatter_t4650_VTable[] =
+static const Il2CppMethodReference MessageFormatter_t4653_VTable[] =
 {
 	&Object_Equals_m493_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool MessageFormatter_t4650_VTableIsGenericMethod[] =
+static bool MessageFormatter_t4653_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -20141,37 +20141,37 @@ static bool MessageFormatter_t4650_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_mscorlib_dll_Image;
-extern const Il2CppType MessageFormatter_t4650_0_0_0;
-extern const Il2CppType MessageFormatter_t4650_1_0_0;
-struct MessageFormatter_t4650;
-const Il2CppTypeDefinitionMetadata MessageFormatter_t4650_DefinitionMetadata = 
+extern const Il2CppType MessageFormatter_t4653_0_0_0;
+extern const Il2CppType MessageFormatter_t4653_1_0_0;
+struct MessageFormatter_t4653;
+const Il2CppTypeDefinitionMetadata MessageFormatter_t4653_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, MessageFormatter_t4650_VTable/* vtableMethods */
-	, MessageFormatter_t4650_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, MessageFormatter_t4653_VTable/* vtableMethods */
+	, MessageFormatter_t4653_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo MessageFormatter_t4650_il2cpp_TypeInfo = 
+TypeInfo MessageFormatter_t4653_il2cpp_TypeInfo = 
 {
 	&g_mscorlib_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MessageFormatter"/* name */
 	, "System.Runtime.Serialization.Formatters.Binary"/* namespaze */
-	, MessageFormatter_t4650_MethodInfos/* methods */
+	, MessageFormatter_t4653_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &MessageFormatter_t4650_il2cpp_TypeInfo/* element_class */
+	, &MessageFormatter_t4653_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &MessageFormatter_t4650_0_0_0/* byval_arg */
-	, &MessageFormatter_t4650_1_0_0/* this_arg */
-	, &MessageFormatter_t4650_DefinitionMetadata/* definitionMetadata */
+	, &MessageFormatter_t4653_0_0_0/* byval_arg */
+	, &MessageFormatter_t4653_1_0_0/* this_arg */
+	, &MessageFormatter_t4653_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -20181,8 +20181,8 @@ TypeInfo MessageFormatter_t4650_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MessageFormatter_t4650)/* instance_size */
-	, sizeof (MessageFormatter_t4650)/* actualSize */
+	, sizeof (MessageFormatter_t4653)/* instance_size */
+	, sizeof (MessageFormatter_t4653)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */

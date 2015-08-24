@@ -5,7 +5,7 @@
 // UnityEngine.ScreenOrientation
 #include "UnityEngine_UnityEngine_ScreenOrientation.h"
 // UnityEngine.ScreenOrientation
-struct  ScreenOrientation_t813 
+struct  ScreenOrientation_t816 
 {
 	// System.Int32 UnityEngine.ScreenOrientation::value__
 	int32_t ___value___1;

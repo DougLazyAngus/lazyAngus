@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.Timer/Scheduler
-struct Scheduler_t4773;
+struct Scheduler_t4776;
 // System.Threading.TimerCallback
-struct TimerCallback_t2156;
+struct TimerCallback_t2159;
 // System.Object
 struct Object_t;
 // System.MarshalByRefObject
 #include "mscorlib_System_MarshalByRefObject.h"
 // System.Threading.Timer
-struct  Timer_t2155  : public MarshalByRefObject_t4074
+struct  Timer_t2158  : public MarshalByRefObject_t4077
 {
 	// System.Threading.TimerCallback System.Threading.Timer::callback
-	TimerCallback_t2156 * ___callback_2;
+	TimerCallback_t2159 * ___callback_2;
 	// System.Object System.Threading.Timer::state
 	Object_t * ___state_3;
 	// System.Int64 System.Threading.Timer::due_time_ms
@@ -24,7 +24,7 @@ struct  Timer_t2155  : public MarshalByRefObject_t4074
 	// System.Boolean System.Threading.Timer::disposed
 	bool ___disposed_7;
 };
-struct Timer_t2155_StaticFields{
+struct Timer_t2158_StaticFields{
 	// System.Threading.Timer/Scheduler System.Threading.Timer::scheduler
-	Scheduler_t4773 * ___scheduler_1;
+	Scheduler_t4776 * ___scheduler_1;
 };

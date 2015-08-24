@@ -14,10 +14,10 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t3092_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t3095_il2cpp_TypeInfo;
 // <Module>
 #include "GoogleAdsWP8_U3CModuleU3E.h"
-extern TypeInfo AdManager_t728_il2cpp_TypeInfo;
+extern TypeInfo AdManager_t731_il2cpp_TypeInfo;
 // GoogleAdsWP8.AdManager
 #include "GoogleAdsWP8_GoogleAdsWP8_AdManager.h"
 #include <map>
@@ -25,8 +25,8 @@ struct TypeInfo;
 struct MethodInfo;
 TypeInfo* g_GoogleAdsWP8_Assembly_Types[3] = 
 {
-	&U3CModuleU3E_t3092_il2cpp_TypeInfo,
-	&AdManager_t728_il2cpp_TypeInfo,
+	&U3CModuleU3E_t3095_il2cpp_TypeInfo,
+	&AdManager_t731_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_GoogleAdsWP8_dll_Image;
@@ -58,17 +58,17 @@ static const char* s_StringTable[11] =
 #endif
 static const Il2CppFieldDefinition s_FieldTable[11] = 
 {
-	{ 0, 5354, offsetof(AdManager_t728, ___InterstisialOnLoad_0), 0 } ,
-	{ 1, 5354, offsetof(AdManager_t728, ___InterstisialFailedToLoad_1), 0 } ,
-	{ 2, 5354, offsetof(AdManager_t728, ___InterstisialOnAdOpened_2), 0 } ,
-	{ 3, 5354, offsetof(AdManager_t728, ___InterstisialOnAdClosed_3), 0 } ,
-	{ 4, 5354, offsetof(AdManager_t728, ___InterstisialAdLeftApplication_4), 0 } ,
-	{ 5, 5354, offsetof(AdManager_t728, ___BannerOnLoad_5), 0 } ,
-	{ 6, 5354, offsetof(AdManager_t728, ___BannerFailedToLoad_6), 0 } ,
-	{ 7, 5354, offsetof(AdManager_t728, ___BannerOnAdOpened_7), 0 } ,
-	{ 8, 5354, offsetof(AdManager_t728, ___BannerOnAdClosed_8), 0 } ,
-	{ 9, 5354, offsetof(AdManager_t728, ___BannerAdLeftApplication_9), 0 } ,
-	{ 10, 5355, offsetof(AdManager_t728_StaticFields, ____instance_10), 0 } ,
+	{ 0, 5363, offsetof(AdManager_t731, ___InterstisialOnLoad_0), 0 } ,
+	{ 1, 5363, offsetof(AdManager_t731, ___InterstisialFailedToLoad_1), 0 } ,
+	{ 2, 5363, offsetof(AdManager_t731, ___InterstisialOnAdOpened_2), 0 } ,
+	{ 3, 5363, offsetof(AdManager_t731, ___InterstisialOnAdClosed_3), 0 } ,
+	{ 4, 5363, offsetof(AdManager_t731, ___InterstisialAdLeftApplication_4), 0 } ,
+	{ 5, 5363, offsetof(AdManager_t731, ___BannerOnLoad_5), 0 } ,
+	{ 6, 5363, offsetof(AdManager_t731, ___BannerFailedToLoad_6), 0 } ,
+	{ 7, 5363, offsetof(AdManager_t731, ___BannerOnAdOpened_7), 0 } ,
+	{ 8, 5363, offsetof(AdManager_t731, ___BannerOnAdClosed_8), 0 } ,
+	{ 9, 5363, offsetof(AdManager_t731, ___BannerAdLeftApplication_9), 0 } ,
+	{ 10, 5364, offsetof(AdManager_t731_StaticFields, ____instance_10), 0 } ,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

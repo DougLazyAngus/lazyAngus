@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml.DTDObjectModel
-struct DTDObjectModel_t3171;
+struct DTDObjectModel_t3174;
 // System.String
 struct String_t;
 // Mono.Xml.DTDContentModelCollection
-struct DTDContentModelCollection_t3187;
+struct DTDContentModelCollection_t3190;
 // Mono.Xml.DTDNode
 #include "System_Xml_Mono_Xml_DTDNode.h"
 // Mono.Xml.DTDContentOrderType
@@ -13,10 +13,10 @@ struct DTDContentModelCollection_t3187;
 // Mono.Xml.DTDOccurence
 #include "System_Xml_Mono_Xml_DTDOccurence.h"
 // Mono.Xml.DTDContentModel
-struct  DTDContentModel_t3188  : public DTDNode_t3180
+struct  DTDContentModel_t3191  : public DTDNode_t3183
 {
 	// Mono.Xml.DTDObjectModel Mono.Xml.DTDContentModel::root
-	DTDObjectModel_t3171 * ___root_5;
+	DTDObjectModel_t3174 * ___root_5;
 	// System.String Mono.Xml.DTDContentModel::ownerElementName
 	String_t* ___ownerElementName_6;
 	// System.String Mono.Xml.DTDContentModel::elementName
@@ -24,7 +24,7 @@ struct  DTDContentModel_t3188  : public DTDNode_t3180
 	// Mono.Xml.DTDContentOrderType Mono.Xml.DTDContentModel::orderType
 	int32_t ___orderType_8;
 	// Mono.Xml.DTDContentModelCollection Mono.Xml.DTDContentModel::childModels
-	DTDContentModelCollection_t3187 * ___childModels_9;
+	DTDContentModelCollection_t3190 * ___childModels_9;
 	// Mono.Xml.DTDOccurence Mono.Xml.DTDContentModel::occurence
 	int32_t ___occurence_10;
 };

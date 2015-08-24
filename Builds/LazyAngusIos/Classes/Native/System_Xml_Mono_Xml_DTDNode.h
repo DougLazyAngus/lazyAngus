@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml.DTDObjectModel
-struct DTDObjectModel_t3171;
+struct DTDObjectModel_t3174;
 // System.String
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Xml.DTDNode
-struct  DTDNode_t3180  : public Object_t
+struct  DTDNode_t3183  : public Object_t
 {
 	// Mono.Xml.DTDObjectModel Mono.Xml.DTDNode::root
-	DTDObjectModel_t3171 * ___root_0;
+	DTDObjectModel_t3174 * ___root_0;
 	// System.Boolean Mono.Xml.DTDNode::isInternalSubset
 	bool ___isInternalSubset_1;
 	// System.String Mono.Xml.DTDNode::baseURI

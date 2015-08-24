@@ -7,10 +7,10 @@ struct ByteU5BU5D_t66;
 // Mono.Xml.Schema.XsdString
 #include "System_Xml_Mono_Xml_Schema_XsdString.h"
 // Mono.Xml.Schema.XsdBase64Binary
-struct  XsdBase64Binary_t3130  : public XsdString_t3100
+struct  XsdBase64Binary_t3133  : public XsdString_t3103
 {
 };
-struct XsdBase64Binary_t3130_StaticFields{
+struct XsdBase64Binary_t3133_StaticFields{
 	// System.String Mono.Xml.Schema.XsdBase64Binary::ALPHABET
 	String_t* ___ALPHABET_61;
 	// System.Byte[] Mono.Xml.Schema.XsdBase64Binary::decodeTable

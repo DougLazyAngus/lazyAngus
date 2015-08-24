@@ -3,6 +3,6 @@
 // System.Text.EncoderFallback
 #include "mscorlib_System_Text_EncoderFallback.h"
 // System.Text.EncoderExceptionFallback
-struct  EncoderExceptionFallback_t4747  : public EncoderFallback_t4748
+struct  EncoderExceptionFallback_t4750  : public EncoderFallback_t4751
 {
 };

@@ -7,7 +7,7 @@ struct AN_PropertyTemplate_t126;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<AN_PropertyTemplate>
-struct  Enumerator_t710 
+struct  Enumerator_t713 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<AN_PropertyTemplate>::l
 	List_1_t123 * ___l_0;

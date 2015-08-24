@@ -5,10 +5,10 @@ struct StringU5BU5D_t75;
 // System.Runtime.Remoting.Messaging.MethodDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodDictionary.h"
 // System.Runtime.Remoting.Messaging.MethodCallDictionary
-struct  MethodCallDictionary_t4612  : public MethodDictionary_t4607
+struct  MethodCallDictionary_t4615  : public MethodDictionary_t4610
 {
 };
-struct MethodCallDictionary_t4612_StaticFields{
+struct MethodCallDictionary_t4615_StaticFields{
 	// System.String[] System.Runtime.Remoting.Messaging.MethodCallDictionary::InternalKeys
 	StringU5BU5D_t75* ___InternalKeys_6;
 };

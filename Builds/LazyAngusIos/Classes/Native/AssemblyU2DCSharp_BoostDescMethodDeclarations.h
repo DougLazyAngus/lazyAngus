@@ -12,4 +12,4 @@ struct String_t;
 struct TipConfig_t511;
 
 // System.Void BoostDesc::.ctor(System.String,System.String,System.String,System.Single,TipConfig)
-extern "C" void BoostDesc__ctor_m2809 (BoostDesc_t512 * __this, String_t* ___boostName, String_t* ___buttonImageName, String_t* ___introScreenImageName, float ___effectiveTime, TipConfig_t511 * ___tipConfig, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BoostDesc__ctor_m2808 (BoostDesc_t512 * __this, String_t* ___boostName, String_t* ___buttonImageName, String_t* ___introScreenImageName, float ___effectiveTime, TipConfig_t511 * ___tipConfig, const MethodInfo* method) IL2CPP_METHOD_ATTR;

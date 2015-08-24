@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.X509StoreManager
-struct X509StoreManager_t3821;
+struct X509StoreManager_t3824;
 // Mono.Security.X509.X509Stores
-struct X509Stores_t3820;
+struct X509Stores_t3823;
 // Mono.Security.X509.X509CertificateCollection
-struct X509CertificateCollection_t3806;
+struct X509CertificateCollection_t3809;
 
 // Mono.Security.X509.X509Stores Mono.Security.X509.X509StoreManager::get_CurrentUser()
-extern "C" X509Stores_t3820 * X509StoreManager_get_CurrentUser_m12570 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Stores_t3823 * X509StoreManager_get_CurrentUser_m12602 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Stores Mono.Security.X509.X509StoreManager::get_LocalMachine()
-extern "C" X509Stores_t3820 * X509StoreManager_get_LocalMachine_m12571 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Stores_t3823 * X509StoreManager_get_LocalMachine_m12603 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509CertificateCollection Mono.Security.X509.X509StoreManager::get_TrustedRootCertificates()
-extern "C" X509CertificateCollection_t3806 * X509StoreManager_get_TrustedRootCertificates_m12572 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509CertificateCollection_t3809 * X509StoreManager_get_TrustedRootCertificates_m12604 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

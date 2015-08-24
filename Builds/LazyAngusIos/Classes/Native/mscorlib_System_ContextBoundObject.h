@@ -3,6 +3,6 @@
 // System.MarshalByRefObject
 #include "mscorlib_System_MarshalByRefObject.h"
 // System.ContextBoundObject
-struct  ContextBoundObject_t4789  : public MarshalByRefObject_t4074
+struct  ContextBoundObject_t4792  : public MarshalByRefObject_t4077
 {
 };

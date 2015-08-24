@@ -3,11 +3,11 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // HeadMovement
-struct HeadMovement_t569;
+struct HeadMovement_t570;
 // TipConfig
 struct TipConfig_t511;
 // PlayerController
-struct PlayerController_t622;
+struct PlayerController_t623;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
@@ -15,7 +15,7 @@ struct PlayerController_t622;
 // PlayerController/BodyMovementType
 #include "AssemblyU2DCSharp_PlayerController_BodyMovementType.h"
 // PlayerController
-struct  PlayerController_t622  : public MonoBehaviour_t13
+struct  PlayerController_t623  : public MonoBehaviour_t13
 {
 	// System.Single PlayerController::startCatAngle
 	float ___startCatAngle_2;
@@ -24,7 +24,7 @@ struct  PlayerController_t622  : public MonoBehaviour_t13
 	// UnityEngine.GameObject PlayerController::leftPawGameObject
 	GameObject_t352 * ___leftPawGameObject_4;
 	// HeadMovement PlayerController::headMovement
-	HeadMovement_t569 * ___headMovement_5;
+	HeadMovement_t570 * ___headMovement_5;
 	// UnityEngine.GameObject PlayerController::fartPuffPrototype
 	GameObject_t352 * ___fartPuffPrototype_6;
 	// UnityEngine.GameObject PlayerController::butthole
@@ -34,7 +34,7 @@ struct  PlayerController_t622  : public MonoBehaviour_t13
 	// System.Single PlayerController::currentTurnAngleDegrees
 	float ___currentTurnAngleDegrees_9;
 	// UnityEngine.Vector3 PlayerController::dragAnchorCat
-	Vector3_t534  ___dragAnchorCat_10;
+	Vector3_t535  ___dragAnchorCat_10;
 	// System.Single PlayerController::dragAnchorAngleCat
 	float ___dragAnchorAngleCat_11;
 	// System.Boolean PlayerController::registeredForEvents
@@ -50,7 +50,7 @@ struct  PlayerController_t622  : public MonoBehaviour_t13
 	// PlayerController/BodyMovementType PlayerController::<bodyMovement>k__BackingField
 	int32_t ___U3CbodyMovementU3Ek__BackingField_17;
 };
-struct PlayerController_t622_StaticFields{
+struct PlayerController_t623_StaticFields{
 	// PlayerController PlayerController::<instance>k__BackingField
-	PlayerController_t622 * ___U3CinstanceU3Ek__BackingField_18;
+	PlayerController_t623 * ___U3CinstanceU3Ek__BackingField_18;
 };

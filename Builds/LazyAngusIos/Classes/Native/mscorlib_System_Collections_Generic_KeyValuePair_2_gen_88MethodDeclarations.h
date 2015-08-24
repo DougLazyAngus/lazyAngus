@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<Parse.ParseGeoPoint>>
-struct KeyValuePair_2_t8066;
+struct KeyValuePair_2_t8069;
 // System.String
 struct String_t;
 // System.Collections.Generic.IList`1<Parse.ParseGeoPoint>
-struct IList_1_t6855;
+struct IList_1_t6858;
 
 // System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<Parse.ParseGeoPoint>>::.ctor(TKey,TValue)
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m56805(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t8066 *, String_t*, Object_t*, const MethodInfo*))KeyValuePair_2__ctor_m21890_gshared)(__this, ___key, ___value, method)
+#define KeyValuePair_2__ctor_m56837(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t8069 *, String_t*, Object_t*, const MethodInfo*))KeyValuePair_2__ctor_m21922_gshared)(__this, ___key, ___value, method)
 // TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<Parse.ParseGeoPoint>>::get_Key()
-#define KeyValuePair_2_get_Key_m56806(__this, method) (( String_t* (*) (KeyValuePair_2_t8066 *, const MethodInfo*))KeyValuePair_2_get_Key_m21891_gshared)(__this, method)
+#define KeyValuePair_2_get_Key_m56838(__this, method) (( String_t* (*) (KeyValuePair_2_t8069 *, const MethodInfo*))KeyValuePair_2_get_Key_m21923_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<Parse.ParseGeoPoint>>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m56807(__this, ___value, method) (( void (*) (KeyValuePair_2_t8066 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m21892_gshared)(__this, ___value, method)
+#define KeyValuePair_2_set_Key_m56839(__this, ___value, method) (( void (*) (KeyValuePair_2_t8069 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m21924_gshared)(__this, ___value, method)
 // TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<Parse.ParseGeoPoint>>::get_Value()
-#define KeyValuePair_2_get_Value_m56808(__this, method) (( Object_t* (*) (KeyValuePair_2_t8066 *, const MethodInfo*))KeyValuePair_2_get_Value_m21893_gshared)(__this, method)
+#define KeyValuePair_2_get_Value_m56840(__this, method) (( Object_t* (*) (KeyValuePair_2_t8069 *, const MethodInfo*))KeyValuePair_2_get_Value_m21925_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<Parse.ParseGeoPoint>>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m56809(__this, ___value, method) (( void (*) (KeyValuePair_2_t8066 *, Object_t*, const MethodInfo*))KeyValuePair_2_set_Value_m21894_gshared)(__this, ___value, method)
+#define KeyValuePair_2_set_Value_m56841(__this, ___value, method) (( void (*) (KeyValuePair_2_t8069 *, Object_t*, const MethodInfo*))KeyValuePair_2_set_Value_m21926_gshared)(__this, ___value, method)
 // System.String System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<Parse.ParseGeoPoint>>::ToString()
-#define KeyValuePair_2_ToString_m56810(__this, method) (( String_t* (*) (KeyValuePair_2_t8066 *, const MethodInfo*))KeyValuePair_2_ToString_m21895_gshared)(__this, method)
+#define KeyValuePair_2_ToString_m56842(__this, method) (( String_t* (*) (KeyValuePair_2_t8069 *, const MethodInfo*))KeyValuePair_2_ToString_m21927_gshared)(__this, method)

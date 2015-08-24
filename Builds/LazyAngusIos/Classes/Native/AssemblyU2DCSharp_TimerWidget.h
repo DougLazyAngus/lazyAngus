@@ -3,18 +3,18 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.RectTransform
-struct RectTransform_t541;
+struct RectTransform_t542;
 // UnityEngine.UI.Image
 struct Image_t501;
 // WorldRelativeGUIElement
 #include "AssemblyU2DCSharp_WorldRelativeGUIElement.h"
 // TimerWidget
-struct  TimerWidget_t617  : public WorldRelativeGUIElement_t546
+struct  TimerWidget_t618  : public WorldRelativeGUIElement_t547
 {
 	// UnityEngine.GameObject TimerWidget::worldCanvasGameObject
 	GameObject_t352 * ___worldCanvasGameObject_7;
 	// UnityEngine.RectTransform TimerWidget::rectTransform
-	RectTransform_t541 * ___rectTransform_8;
+	RectTransform_t542 * ___rectTransform_8;
 	// System.Single TimerWidget::actualCanvasSizePixels
 	float ___actualCanvasSizePixels_9;
 	// System.Single TimerWidget::desiredScaleNormal

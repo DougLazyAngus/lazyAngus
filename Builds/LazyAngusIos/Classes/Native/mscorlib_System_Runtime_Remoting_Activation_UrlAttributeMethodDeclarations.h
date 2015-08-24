@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Activation.UrlAttribute
-struct UrlAttribute_t4587;
+struct UrlAttribute_t4590;
 // System.String
 struct String_t;
 // System.Object
 struct Object_t;
 // System.Runtime.Remoting.Activation.IConstructionCallMessage
-struct IConstructionCallMessage_t4876;
+struct IConstructionCallMessage_t4879;
 // System.Runtime.Remoting.Contexts.Context
-struct Context_t4595;
+struct Context_t4598;
 
 // System.String System.Runtime.Remoting.Activation.UrlAttribute::get_UrlValue()
-extern "C" String_t* UrlAttribute_get_UrlValue_m18167 (UrlAttribute_t4587 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UrlAttribute_get_UrlValue_m18199 (UrlAttribute_t4590 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Activation.UrlAttribute::Equals(System.Object)
-extern "C" bool UrlAttribute_Equals_m18168 (UrlAttribute_t4587 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UrlAttribute_Equals_m18200 (UrlAttribute_t4590 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.Remoting.Activation.UrlAttribute::GetHashCode()
-extern "C" int32_t UrlAttribute_GetHashCode_m18169 (UrlAttribute_t4587 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UrlAttribute_GetHashCode_m18201 (UrlAttribute_t4590 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Activation.UrlAttribute::GetPropertiesForNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern "C" void UrlAttribute_GetPropertiesForNewContext_m18170 (UrlAttribute_t4587 * __this, Object_t * ___ctorMsg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UrlAttribute_GetPropertiesForNewContext_m18202 (UrlAttribute_t4590 * __this, Object_t * ___ctorMsg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Activation.UrlAttribute::IsContextOK(System.Runtime.Remoting.Contexts.Context,System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern "C" bool UrlAttribute_IsContextOK_m18171 (UrlAttribute_t4587 * __this, Context_t4595 * ___ctx, Object_t * ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UrlAttribute_IsContextOK_m18203 (UrlAttribute_t4590 * __this, Context_t4598 * ___ctx, Object_t * ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;

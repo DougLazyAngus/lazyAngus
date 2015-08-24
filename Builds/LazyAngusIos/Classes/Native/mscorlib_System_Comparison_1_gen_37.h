@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.PointerInputModule/ButtonState
-struct ButtonState_t886;
+struct ButtonState_t889;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
-struct  Comparison_1_t5825  : public MulticastDelegate_t388
+struct  Comparison_1_t5828  : public MulticastDelegate_t388
 {
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.BaseInputModule[]
-struct BaseInputModuleU5BU5D_t5764;
+struct BaseInputModuleU5BU5D_t5767;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
-struct  List_1_t841  : public Object_t
+struct  List_1_t844  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_items
-	BaseInputModuleU5BU5D_t5764* ____items_1;
+	BaseInputModuleU5BU5D_t5767* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_version
 	int32_t ____version_3;
 };
-struct List_1_t841_StaticFields{
+struct List_1_t844_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::EmptyArray
-	BaseInputModuleU5BU5D_t5764* ___EmptyArray_4;
+	BaseInputModuleU5BU5D_t5767* ___EmptyArray_4;
 };

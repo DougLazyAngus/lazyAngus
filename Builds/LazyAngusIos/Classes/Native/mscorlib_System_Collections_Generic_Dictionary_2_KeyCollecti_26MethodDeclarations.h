@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>
-struct KeyCollection_t5567;
+struct KeyCollection_t5570;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>
@@ -13,7 +13,7 @@ struct Dictionary_2_t272;
 // System.String
 struct String_t;
 // System.Collections.Generic.IEnumerator`1<System.String>
-struct IEnumerator_1_t1458;
+struct IEnumerator_1_t1461;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
@@ -26,30 +26,30 @@ struct StringU5BU5D_t75;
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_12MethodDeclarations.h"
-#define KeyCollection__ctor_m24447(__this, ___dictionary, method) (( void (*) (KeyCollection_t5567 *, Dictionary_2_t272 *, const MethodInfo*))KeyCollection__ctor_m21896_gshared)(__this, ___dictionary, method)
+#define KeyCollection__ctor_m24479(__this, ___dictionary, method) (( void (*) (KeyCollection_t5570 *, Dictionary_2_t272 *, const MethodInfo*))KeyCollection__ctor_m21928_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m24448(__this, ___item, method) (( void (*) (KeyCollection_t5567 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m21897_gshared)(__this, ___item, method)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m24480(__this, ___item, method) (( void (*) (KeyCollection_t5570 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m21929_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::System.Collections.Generic.ICollection<TKey>.Clear()
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m24449(__this, method) (( void (*) (KeyCollection_t5567 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m21898_gshared)(__this, method)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m24481(__this, method) (( void (*) (KeyCollection_t5570 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m21930_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::System.Collections.Generic.ICollection<TKey>.Contains(TKey)
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m24450(__this, ___item, method) (( bool (*) (KeyCollection_t5567 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m21899_gshared)(__this, ___item, method)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m24482(__this, ___item, method) (( bool (*) (KeyCollection_t5570 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m21931_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::System.Collections.Generic.ICollection<TKey>.Remove(TKey)
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m24451(__this, ___item, method) (( bool (*) (KeyCollection_t5567 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m21900_gshared)(__this, ___item, method)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m24483(__this, ___item, method) (( bool (*) (KeyCollection_t5570 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m21932_gshared)(__this, ___item, method)
 // System.Collections.Generic.IEnumerator`1<TKey> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::System.Collections.Generic.IEnumerable<TKey>.GetEnumerator()
-#define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m24452(__this, method) (( Object_t* (*) (KeyCollection_t5567 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m21901_gshared)(__this, method)
+#define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m24484(__this, method) (( Object_t* (*) (KeyCollection_t5570 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m21933_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define KeyCollection_System_Collections_ICollection_CopyTo_m24453(__this, ___array, ___index, method) (( void (*) (KeyCollection_t5567 *, Array_t *, int32_t, const MethodInfo*))KeyCollection_System_Collections_ICollection_CopyTo_m21902_gshared)(__this, ___array, ___index, method)
+#define KeyCollection_System_Collections_ICollection_CopyTo_m24485(__this, ___array, ___index, method) (( void (*) (KeyCollection_t5570 *, Array_t *, int32_t, const MethodInfo*))KeyCollection_System_Collections_ICollection_CopyTo_m21934_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::System.Collections.IEnumerable.GetEnumerator()
-#define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m24454(__this, method) (( Object_t * (*) (KeyCollection_t5567 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m21903_gshared)(__this, method)
+#define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m24486(__this, method) (( Object_t * (*) (KeyCollection_t5570 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m21935_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::System.Collections.Generic.ICollection<TKey>.get_IsReadOnly()
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m24455(__this, method) (( bool (*) (KeyCollection_t5567 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m21904_gshared)(__this, method)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m24487(__this, method) (( bool (*) (KeyCollection_t5570 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m21936_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::System.Collections.ICollection.get_IsSynchronized()
-#define KeyCollection_System_Collections_ICollection_get_IsSynchronized_m24456(__this, method) (( bool (*) (KeyCollection_t5567 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_IsSynchronized_m21905_gshared)(__this, method)
+#define KeyCollection_System_Collections_ICollection_get_IsSynchronized_m24488(__this, method) (( bool (*) (KeyCollection_t5570 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_IsSynchronized_m21937_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::System.Collections.ICollection.get_SyncRoot()
-#define KeyCollection_System_Collections_ICollection_get_SyncRoot_m24457(__this, method) (( Object_t * (*) (KeyCollection_t5567 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m21906_gshared)(__this, method)
+#define KeyCollection_System_Collections_ICollection_get_SyncRoot_m24489(__this, method) (( Object_t * (*) (KeyCollection_t5570 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m21938_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::CopyTo(TKey[],System.Int32)
-#define KeyCollection_CopyTo_m24458(__this, ___array, ___index, method) (( void (*) (KeyCollection_t5567 *, StringU5BU5D_t75*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m21907_gshared)(__this, ___array, ___index, method)
+#define KeyCollection_CopyTo_m24490(__this, ___array, ___index, method) (( void (*) (KeyCollection_t5570 *, StringU5BU5D_t75*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m21939_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::GetEnumerator()
-#define KeyCollection_GetEnumerator_m24459(__this, method) (( Enumerator_t8833  (*) (KeyCollection_t5567 *, const MethodInfo*))KeyCollection_GetEnumerator_m21908_gshared)(__this, method)
+#define KeyCollection_GetEnumerator_m24491(__this, method) (( Enumerator_t8836  (*) (KeyCollection_t5570 *, const MethodInfo*))KeyCollection_GetEnumerator_m21940_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>::get_Count()
-#define KeyCollection_get_Count_m24460(__this, method) (( int32_t (*) (KeyCollection_t5567 *, const MethodInfo*))KeyCollection_get_Count_m21909_gshared)(__this, method)
+#define KeyCollection_get_Count_m24492(__this, method) (( int32_t (*) (KeyCollection_t5570 *, const MethodInfo*))KeyCollection_get_Count_m21941_gshared)(__this, method)

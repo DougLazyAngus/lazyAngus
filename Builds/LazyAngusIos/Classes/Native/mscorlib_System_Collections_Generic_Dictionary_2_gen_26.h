@@ -3,26 +3,26 @@
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5389;
+struct LinkU5BU5D_t5392;
 // UnityEngine.UI.ICanvasElement[]
-struct ICanvasElementU5BU5D_t5831;
+struct ICanvasElementU5BU5D_t5834;
 // System.Collections.Generic.IEqualityComparer`1<UnityEngine.UI.ICanvasElement>
-struct IEqualityComparer_1_t5832;
+struct IEqualityComparer_1_t5835;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2917;
+struct SerializationInfo_t2920;
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.UI.ICanvasElement,System.Int32,System.Collections.DictionaryEntry>
-struct Transform_1_t5833;
+struct Transform_1_t5836;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>
-struct  Dictionary_2_t1068  : public Object_t
+struct  Dictionary_2_t1071  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::table
 	Int32U5BU5D_t484* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::linkSlots
-	LinkU5BU5D_t5389* ___linkSlots_5;
+	LinkU5BU5D_t5392* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::keySlots
-	ICanvasElementU5BU5D_t5831* ___keySlots_6;
+	ICanvasElementU5BU5D_t5834* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::valueSlots
 	Int32U5BU5D_t484* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::touchedSlots
@@ -36,11 +36,11 @@ struct  Dictionary_2_t1068  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::serialization_info
-	SerializationInfo_t2917 * ___serialization_info_13;
+	SerializationInfo_t2920 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t1068_StaticFields{
+struct Dictionary_2_t1071_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::<>f__am$cacheB
-	Transform_1_t5833 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t5836 * ___U3CU3Ef__amU24cacheB_15;
 };

@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // RestartGameHandler
-struct  RestartGameHandler_t630  : public MonoBehaviour_t13
+struct  RestartGameHandler_t631  : public MonoBehaviour_t13
 {
 };

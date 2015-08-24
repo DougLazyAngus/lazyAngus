@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Single[]
-struct SingleU5BU5D_t582;
+struct SingleU5BU5D_t583;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.AudioClip/PCMReaderCallback
-struct  PCMReaderCallback_t2770  : public MulticastDelegate_t388
+struct  PCMReaderCallback_t2773  : public MulticastDelegate_t388
 {
 };

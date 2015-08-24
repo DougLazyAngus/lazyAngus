@@ -5,7 +5,7 @@ struct ByteU5BU5D_t66;
 // System.Security.Cryptography.HashAlgorithm
 #include "mscorlib_System_Security_Cryptography_HashAlgorithm.h"
 // System.Security.Cryptography.KeyedHashAlgorithm
-struct  KeyedHashAlgorithm_t3832  : public HashAlgorithm_t3793
+struct  KeyedHashAlgorithm_t3835  : public HashAlgorithm_t3796
 {
 	// System.Byte[] System.Security.Cryptography.KeyedHashAlgorithm::KeyValue
 	ByteU5BU5D_t66* ___KeyValue_4;

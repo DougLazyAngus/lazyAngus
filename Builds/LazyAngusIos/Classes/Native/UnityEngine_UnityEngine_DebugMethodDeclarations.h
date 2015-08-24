@@ -5,34 +5,34 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Debug
-struct Debug_t2747;
+struct Debug_t2750;
 // System.String
 struct String_t;
 // UnityEngine.Object
-struct Object_t701;
-struct Object_t701_marshaled;
+struct Object_t704;
+struct Object_t704_marshaled;
 // System.Exception
 struct Exception_t57;
 // System.Object
 struct Object_t;
 
 // System.Void UnityEngine.Debug::Internal_Log(System.Int32,System.String,UnityEngine.Object)
-extern "C" void Debug_Internal_Log_m9337 (Object_t * __this /* static, unused */, int32_t ___level, String_t* ___msg, Object_t701 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Debug_Internal_Log_m9369 (Object_t * __this /* static, unused */, int32_t ___level, String_t* ___msg, Object_t704 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::Internal_LogException(System.Exception,UnityEngine.Object)
-extern "C" void Debug_Internal_LogException_m9338 (Object_t * __this /* static, unused */, Exception_t57 * ___exception, Object_t701 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Debug_Internal_LogException_m9370 (Object_t * __this /* static, unused */, Exception_t57 * ___exception, Object_t704 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::Log(System.Object)
 extern "C" void Debug_Log_m382 (Object_t * __this /* static, unused */, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::LogError(System.Object)
 extern "C" void Debug_LogError_m393 (Object_t * __this /* static, unused */, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::LogError(System.Object,UnityEngine.Object)
-extern "C" void Debug_LogError_m5975 (Object_t * __this /* static, unused */, Object_t * ___message, Object_t701 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Debug_LogError_m6007 (Object_t * __this /* static, unused */, Object_t * ___message, Object_t704 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::LogException(System.Exception)
-extern "C" void Debug_LogException_m7736 (Object_t * __this /* static, unused */, Exception_t57 * ___exception, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Debug_LogException_m7768 (Object_t * __this /* static, unused */, Exception_t57 * ___exception, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::LogException(System.Exception,UnityEngine.Object)
-extern "C" void Debug_LogException_m5883 (Object_t * __this /* static, unused */, Exception_t57 * ___exception, Object_t701 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Debug_LogException_m5915 (Object_t * __this /* static, unused */, Exception_t57 * ___exception, Object_t704 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::LogWarning(System.Object)
 extern "C" void Debug_LogWarning_m389 (Object_t * __this /* static, unused */, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::LogWarning(System.Object,UnityEngine.Object)
-extern "C" void Debug_LogWarning_m6122 (Object_t * __this /* static, unused */, Object_t * ___message, Object_t701 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Debug_LogWarning_m6154 (Object_t * __this /* static, unused */, Object_t * ___message, Object_t704 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Debug::get_isDebugBuild()
-extern "C" bool Debug_get_isDebugBuild_m4051 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Debug_get_isDebugBuild_m4080 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

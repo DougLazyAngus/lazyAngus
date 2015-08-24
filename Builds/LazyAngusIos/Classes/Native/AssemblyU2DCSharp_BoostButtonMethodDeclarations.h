@@ -41,7 +41,5 @@ extern "C" void BoostButton_OnBoostsChanged_m2753 (BoostButton_t497 * __this, co
 extern "C" void BoostButton_OnBoostUsageChanged_m2754 (BoostButton_t497 * __this, int32_t ___newType, int32_t ___oldType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void BoostButton::OnTreatsChanged()
 extern "C" void BoostButton_OnTreatsChanged_m2755 (BoostButton_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void BoostButton::OnBoostUnlocked(BoostConfig/BoostType)
-extern "C" void BoostButton_OnBoostUnlocked_m2756 (BoostButton_t497 * __this, int32_t ___bType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator BoostButton::TriggerDistortionEffect()
-extern "C" Object_t * BoostButton_TriggerDistortionEffect_m2757 (BoostButton_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * BoostButton_TriggerDistortionEffect_m2756 (BoostButton_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

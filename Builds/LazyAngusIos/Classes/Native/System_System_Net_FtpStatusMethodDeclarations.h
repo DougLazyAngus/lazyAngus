@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.FtpStatus
-struct FtpStatus_t4041;
+struct FtpStatus_t4044;
 // System.String
 struct String_t;
 // System.Net.FtpStatusCode
 #include "System_System_Net_FtpStatusCode.h"
 
 // System.Void System.Net.FtpStatus::.ctor(System.Net.FtpStatusCode,System.String)
-extern "C" void FtpStatus__ctor_m13873 (FtpStatus_t4041 * __this, int32_t ___statusCode, String_t* ___statusDescription, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpStatus__ctor_m13905 (FtpStatus_t4044 * __this, int32_t ___statusCode, String_t* ___statusDescription, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.FtpStatusCode System.Net.FtpStatus::get_StatusCode()
-extern "C" int32_t FtpStatus_get_StatusCode_m13874 (FtpStatus_t4041 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FtpStatus_get_StatusCode_m13906 (FtpStatus_t4044 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.FtpStatus::get_StatusDescription()
-extern "C" String_t* FtpStatus_get_StatusDescription_m13875 (FtpStatus_t4041 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* FtpStatus_get_StatusDescription_m13907 (FtpStatus_t4044 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

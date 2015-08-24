@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<UnityEngine.UI.Toggle,System.Boolean>
-struct Func_2_t985;
+struct Func_2_t988;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.Toggle
-struct Toggle_t982;
+struct Toggle_t985;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<UnityEngine.UI.Toggle,System.Boolean>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Byte>
 #include "System_Core_System_Func_2_gen_57MethodDeclarations.h"
-#define Func_2__ctor_m6141(__this, ___object, ___method, method) (( void (*) (Func_2_t985 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m30267_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m6173(__this, ___object, ___method, method) (( void (*) (Func_2_t988 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m30299_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<UnityEngine.UI.Toggle,System.Boolean>::Invoke(T)
-#define Func_2_Invoke_m30268(__this, ___arg1, method) (( bool (*) (Func_2_t985 *, Toggle_t982 *, const MethodInfo*))Func_2_Invoke_m30269_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m30300(__this, ___arg1, method) (( bool (*) (Func_2_t988 *, Toggle_t985 *, const MethodInfo*))Func_2_Invoke_m30301_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<UnityEngine.UI.Toggle,System.Boolean>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m30270(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t985 *, Toggle_t982 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30271_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m30302(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t988 *, Toggle_t985 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m30303_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<UnityEngine.UI.Toggle,System.Boolean>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m30272(__this, ___result, method) (( bool (*) (Func_2_t985 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30273_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m30304(__this, ___result, method) (( bool (*) (Func_2_t988 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m30305_gshared)(__this, ___result, method)

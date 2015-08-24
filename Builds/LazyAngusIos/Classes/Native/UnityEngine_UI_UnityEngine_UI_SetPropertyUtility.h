@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.SetPropertyUtility
-struct  SetPropertyUtility_t971  : public Object_t
+struct  SetPropertyUtility_t974  : public Object_t
 {
 };

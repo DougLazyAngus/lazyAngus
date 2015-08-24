@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // TimeController/PauseChangedEventHandler
-struct  PauseChangedEventHandler_t653  : public MulticastDelegate_t388
+struct  PauseChangedEventHandler_t656  : public MulticastDelegate_t388
 {
 };

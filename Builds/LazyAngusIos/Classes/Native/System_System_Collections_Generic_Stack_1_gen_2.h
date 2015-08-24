@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.RBTree/Node[]
-struct NodeU5BU5D_t5642;
+struct NodeU5BU5D_t5645;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Stack`1<System.Collections.Generic.RBTree/Node>
-struct  Stack_1_t3951  : public Object_t
+struct  Stack_1_t3954  : public Object_t
 {
 	// T[] System.Collections.Generic.Stack`1<System.Collections.Generic.RBTree/Node>::_array
-	NodeU5BU5D_t5642* ____array_1;
+	NodeU5BU5D_t5645* ____array_1;
 	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.RBTree/Node>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.RBTree/Node>::_version

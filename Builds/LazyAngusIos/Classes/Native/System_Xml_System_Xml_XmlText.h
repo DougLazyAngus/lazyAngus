@@ -3,6 +3,6 @@
 // System.Xml.XmlCharacterData
 #include "System_Xml_System_Xml_XmlCharacterData.h"
 // System.Xml.XmlText
-struct  XmlText_t3259  : public XmlCharacterData_t3214
+struct  XmlText_t3262  : public XmlCharacterData_t3217
 {
 };

@@ -7,35 +7,35 @@
 // System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>
 struct Dictionary_2_t119;
 // System.Collections.Generic.ICollection`1<System.Int32>
-struct ICollection_1_t8710;
+struct ICollection_1_t8713;
 // System.Collections.Generic.ICollection`1<AN_ActivityTemplate>
-struct ICollection_1_t8744;
+struct ICollection_1_t8747;
 // System.Collections.ICollection
-struct ICollection_t752;
+struct ICollection_t755;
 // System.Object
 struct Object_t;
 // AN_ActivityTemplate
 struct AN_ActivityTemplate_t117;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,AN_ActivityTemplate>
-struct KeyCollection_t714;
+struct KeyCollection_t717;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,AN_ActivityTemplate>
-struct ValueCollection_t5473;
+struct ValueCollection_t5476;
 // System.Collections.Generic.IEqualityComparer`1<System.Int32>
-struct IEqualityComparer_1_t5390;
+struct IEqualityComparer_1_t5393;
 // System.Collections.Generic.IDictionary`2<System.Int32,AN_ActivityTemplate>
-struct IDictionary_2_t8745;
+struct IDictionary_2_t8748;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2917;
+struct SerializationInfo_t2920;
 // System.Collections.Generic.KeyValuePair`2<System.Int32,AN_ActivityTemplate>[]
-struct KeyValuePair_2U5BU5D_t8746;
+struct KeyValuePair_2U5BU5D_t8749;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,AN_ActivityTemplate>>
-struct IEnumerator_1_t8747;
+struct IEnumerator_1_t8750;
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t782;
+struct IDictionaryEnumerator_t785;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int32,AN_ActivityTemplate>
@@ -48,104 +48,104 @@ struct IDictionaryEnumerator_t782;
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::.ctor()
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_gen_45MethodDeclarations.h"
-#define Dictionary_2__ctor_m3710(__this, method) (( void (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2__ctor_m10164_gshared)(__this, method)
+#define Dictionary_2__ctor_m3739(__this, method) (( void (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2__ctor_m10196_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2__ctor_m22603(__this, ___comparer, method) (( void (*) (Dictionary_2_t119 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m21082_gshared)(__this, ___comparer, method)
+#define Dictionary_2__ctor_m22635(__this, ___comparer, method) (( void (*) (Dictionary_2_t119 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m21114_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-#define Dictionary_2__ctor_m22604(__this, ___dictionary, method) (( void (*) (Dictionary_2_t119 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m21084_gshared)(__this, ___dictionary, method)
+#define Dictionary_2__ctor_m22636(__this, ___dictionary, method) (( void (*) (Dictionary_2_t119 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m21116_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::.ctor(System.Int32)
-#define Dictionary_2__ctor_m22605(__this, ___capacity, method) (( void (*) (Dictionary_2_t119 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m21086_gshared)(__this, ___capacity, method)
+#define Dictionary_2__ctor_m22637(__this, ___capacity, method) (( void (*) (Dictionary_2_t119 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m21118_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>,System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2__ctor_m22606(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t119 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m21088_gshared)(__this, ___dictionary, ___comparer, method)
+#define Dictionary_2__ctor_m22638(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t119 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m21120_gshared)(__this, ___dictionary, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2__ctor_m22607(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t119 *, SerializationInfo_t2917 *, StreamingContext_t2918 , const MethodInfo*))Dictionary_2__ctor_m21090_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2__ctor_m22639(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t119 *, SerializationInfo_t2920 *, StreamingContext_t2921 , const MethodInfo*))Dictionary_2__ctor_m21122_gshared)(__this, ___info, ___context, method)
 // System.Collections.Generic.ICollection`1<TKey> System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys()
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m22608(__this, method) (( Object_t* (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m21092_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m22640(__this, method) (( Object_t* (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m21124_gshared)(__this, method)
 // System.Collections.Generic.ICollection`1<TValue> System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Values()
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m22609(__this, method) (( Object_t* (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m21094_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m22641(__this, method) (( Object_t* (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m21126_gshared)(__this, method)
 // System.Collections.ICollection System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.IDictionary.get_Keys()
-#define Dictionary_2_System_Collections_IDictionary_get_Keys_m22610(__this, method) (( Object_t * (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m21096_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IDictionary_get_Keys_m22642(__this, method) (( Object_t * (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m21128_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.IDictionary.get_Item(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_get_Item_m22611(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t119 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m21098_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_get_Item_m22643(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t119 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m21130_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.IDictionary.set_Item(System.Object,System.Object)
-#define Dictionary_2_System_Collections_IDictionary_set_Item_m22612(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t119 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m21100_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_System_Collections_IDictionary_set_Item_m22644(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t119 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m21132_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.IDictionary.Add(System.Object,System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Add_m22613(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t119 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m21102_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_System_Collections_IDictionary_Add_m22645(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t119 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m21134_gshared)(__this, ___key, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.IDictionary.Contains(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Contains_m22614(__this, ___key, method) (( bool (*) (Dictionary_2_t119 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m21104_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_Contains_m22646(__this, ___key, method) (( bool (*) (Dictionary_2_t119 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m21136_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.IDictionary.Remove(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Remove_m22615(__this, ___key, method) (( void (*) (Dictionary_2_t119 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m21106_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_Remove_m22647(__this, ___key, method) (( void (*) (Dictionary_2_t119 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m21138_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.ICollection.get_IsSynchronized()
-#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m22616(__this, method) (( bool (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m21108_gshared)(__this, method)
+#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m22648(__this, method) (( bool (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m21140_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.ICollection.get_SyncRoot()
-#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m22617(__this, method) (( Object_t * (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m21110_gshared)(__this, method)
+#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m22649(__this, method) (( Object_t * (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m21142_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m22618(__this, method) (( bool (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m21112_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m22650(__this, method) (( bool (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m21144_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m22619(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t119 *, KeyValuePair_2_t711 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m21114_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m22651(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t119 *, KeyValuePair_2_t714 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m21146_gshared)(__this, ___keyValuePair, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m22620(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t119 *, KeyValuePair_2_t711 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m21116_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m22652(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t119 *, KeyValuePair_2_t714 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m21148_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m22621(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t119 *, KeyValuePair_2U5BU5D_t8746*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m21118_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m22653(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t119 *, KeyValuePair_2U5BU5D_t8749*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m21150_gshared)(__this, ___array, ___index, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m22622(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t119 *, KeyValuePair_2_t711 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m21120_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m22654(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t119 *, KeyValuePair_2_t714 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m21152_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define Dictionary_2_System_Collections_ICollection_CopyTo_m22623(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t119 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m21122_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_System_Collections_ICollection_CopyTo_m22655(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t119 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m21154_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.IEnumerable.GetEnumerator()
-#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m22624(__this, method) (( Object_t * (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m21124_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m22656(__this, method) (( Object_t * (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m21156_gshared)(__this, method)
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
-#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m22625(__this, method) (( Object_t* (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m21126_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m22657(__this, method) (( Object_t* (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m21158_gshared)(__this, method)
 // System.Collections.IDictionaryEnumerator System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::System.Collections.IDictionary.GetEnumerator()
-#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m22626(__this, method) (( Object_t * (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m21128_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m22658(__this, method) (( Object_t * (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m21160_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::get_Count()
-#define Dictionary_2_get_Count_m22627(__this, method) (( int32_t (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_get_Count_m21130_gshared)(__this, method)
+#define Dictionary_2_get_Count_m22659(__this, method) (( int32_t (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_get_Count_m21162_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::get_Item(TKey)
-#define Dictionary_2_get_Item_m22628(__this, ___key, method) (( AN_ActivityTemplate_t117 * (*) (Dictionary_2_t119 *, int32_t, const MethodInfo*))Dictionary_2_get_Item_m21132_gshared)(__this, ___key, method)
+#define Dictionary_2_get_Item_m22660(__this, ___key, method) (( AN_ActivityTemplate_t117 * (*) (Dictionary_2_t119 *, int32_t, const MethodInfo*))Dictionary_2_get_Item_m21164_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::set_Item(TKey,TValue)
-#define Dictionary_2_set_Item_m22629(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t119 *, int32_t, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_set_Item_m21134_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_set_Item_m22661(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t119 *, int32_t, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_set_Item_m21166_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2_Init_m22630(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t119 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m21136_gshared)(__this, ___capacity, ___hcp, method)
+#define Dictionary_2_Init_m22662(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t119 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m21168_gshared)(__this, ___capacity, ___hcp, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::InitArrays(System.Int32)
-#define Dictionary_2_InitArrays_m22631(__this, ___size, method) (( void (*) (Dictionary_2_t119 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m21138_gshared)(__this, ___size, method)
+#define Dictionary_2_InitArrays_m22663(__this, ___size, method) (( void (*) (Dictionary_2_t119 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m21170_gshared)(__this, ___size, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::CopyToCheck(System.Array,System.Int32)
-#define Dictionary_2_CopyToCheck_m22632(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t119 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m21140_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_CopyToCheck_m22664(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t119 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m21172_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::make_pair(TKey,TValue)
-#define Dictionary_2_make_pair_m22633(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t711  (*) (Object_t * /* static, unused */, int32_t, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_make_pair_m21142_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_make_pair_m22665(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t714  (*) (Object_t * /* static, unused */, int32_t, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_make_pair_m21174_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TKey System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::pick_key(TKey,TValue)
-#define Dictionary_2_pick_key_m22634(__this /* static, unused */, ___key, ___value, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_pick_key_m21144_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_key_m22666(__this /* static, unused */, ___key, ___value, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_pick_key_m21176_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::pick_value(TKey,TValue)
-#define Dictionary_2_pick_value_m22635(__this /* static, unused */, ___key, ___value, method) (( AN_ActivityTemplate_t117 * (*) (Object_t * /* static, unused */, int32_t, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_pick_value_m21146_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_value_m22667(__this /* static, unused */, ___key, ___value, method) (( AN_ActivityTemplate_t117 * (*) (Object_t * /* static, unused */, int32_t, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_pick_value_m21178_gshared)(__this /* static, unused */, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_CopyTo_m22636(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t119 *, KeyValuePair_2U5BU5D_t8746*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m21148_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_CopyTo_m22668(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t119 *, KeyValuePair_2U5BU5D_t8749*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m21180_gshared)(__this, ___array, ___index, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::Resize()
-#define Dictionary_2_Resize_m22637(__this, method) (( void (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_Resize_m21150_gshared)(__this, method)
+#define Dictionary_2_Resize_m22669(__this, method) (( void (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_Resize_m21182_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::Add(TKey,TValue)
-#define Dictionary_2_Add_m22638(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t119 *, int32_t, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_Add_m21152_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_Add_m22670(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t119 *, int32_t, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_Add_m21184_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::Clear()
-#define Dictionary_2_Clear_m22639(__this, method) (( void (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_Clear_m21154_gshared)(__this, method)
+#define Dictionary_2_Clear_m22671(__this, method) (( void (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_Clear_m21186_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::ContainsKey(TKey)
-#define Dictionary_2_ContainsKey_m22640(__this, ___key, method) (( bool (*) (Dictionary_2_t119 *, int32_t, const MethodInfo*))Dictionary_2_ContainsKey_m21156_gshared)(__this, ___key, method)
+#define Dictionary_2_ContainsKey_m22672(__this, ___key, method) (( bool (*) (Dictionary_2_t119 *, int32_t, const MethodInfo*))Dictionary_2_ContainsKey_m21188_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::ContainsValue(TValue)
-#define Dictionary_2_ContainsValue_m22641(__this, ___value, method) (( bool (*) (Dictionary_2_t119 *, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_ContainsValue_m21158_gshared)(__this, ___value, method)
+#define Dictionary_2_ContainsValue_m22673(__this, ___value, method) (( bool (*) (Dictionary_2_t119 *, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_ContainsValue_m21190_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2_GetObjectData_m22642(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t119 *, SerializationInfo_t2917 *, StreamingContext_t2918 , const MethodInfo*))Dictionary_2_GetObjectData_m21160_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2_GetObjectData_m22674(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t119 *, SerializationInfo_t2920 *, StreamingContext_t2921 , const MethodInfo*))Dictionary_2_GetObjectData_m21192_gshared)(__this, ___info, ___context, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::OnDeserialization(System.Object)
-#define Dictionary_2_OnDeserialization_m22643(__this, ___sender, method) (( void (*) (Dictionary_2_t119 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m21162_gshared)(__this, ___sender, method)
+#define Dictionary_2_OnDeserialization_m22675(__this, ___sender, method) (( void (*) (Dictionary_2_t119 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m21194_gshared)(__this, ___sender, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::Remove(TKey)
-#define Dictionary_2_Remove_m22644(__this, ___key, method) (( bool (*) (Dictionary_2_t119 *, int32_t, const MethodInfo*))Dictionary_2_Remove_m21164_gshared)(__this, ___key, method)
+#define Dictionary_2_Remove_m22676(__this, ___key, method) (( bool (*) (Dictionary_2_t119 *, int32_t, const MethodInfo*))Dictionary_2_Remove_m21196_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::TryGetValue(TKey,TValue&)
-#define Dictionary_2_TryGetValue_m22645(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t119 *, int32_t, AN_ActivityTemplate_t117 **, const MethodInfo*))Dictionary_2_TryGetValue_m21166_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_TryGetValue_m22677(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t119 *, int32_t, AN_ActivityTemplate_t117 **, const MethodInfo*))Dictionary_2_TryGetValue_m21198_gshared)(__this, ___key, ___value, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::get_Keys()
-#define Dictionary_2_get_Keys_m3715(__this, method) (( KeyCollection_t714 * (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_get_Keys_m21168_gshared)(__this, method)
+#define Dictionary_2_get_Keys_m3744(__this, method) (( KeyCollection_t717 * (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_get_Keys_m21200_gshared)(__this, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::get_Values()
-#define Dictionary_2_get_Values_m22646(__this, method) (( ValueCollection_t5473 * (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_get_Values_m21170_gshared)(__this, method)
+#define Dictionary_2_get_Values_m22678(__this, method) (( ValueCollection_t5476 * (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_get_Values_m21202_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::ToTKey(System.Object)
-#define Dictionary_2_ToTKey_m22647(__this, ___key, method) (( int32_t (*) (Dictionary_2_t119 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m21172_gshared)(__this, ___key, method)
+#define Dictionary_2_ToTKey_m22679(__this, ___key, method) (( int32_t (*) (Dictionary_2_t119 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m21204_gshared)(__this, ___key, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::ToTValue(System.Object)
-#define Dictionary_2_ToTValue_m22648(__this, ___value, method) (( AN_ActivityTemplate_t117 * (*) (Dictionary_2_t119 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m21174_gshared)(__this, ___value, method)
+#define Dictionary_2_ToTValue_m22680(__this, ___value, method) (( AN_ActivityTemplate_t117 * (*) (Dictionary_2_t119 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m21206_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_ContainsKeyValuePair_m22649(__this, ___pair, method) (( bool (*) (Dictionary_2_t119 *, KeyValuePair_2_t711 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m21176_gshared)(__this, ___pair, method)
+#define Dictionary_2_ContainsKeyValuePair_m22681(__this, ___pair, method) (( bool (*) (Dictionary_2_t119 *, KeyValuePair_2_t714 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m21208_gshared)(__this, ___pair, method)
 // System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::GetEnumerator()
-#define Dictionary_2_GetEnumerator_m3711(__this, method) (( Enumerator_t712  (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_GetEnumerator_m21178_gshared)(__this, method)
+#define Dictionary_2_GetEnumerator_m3740(__this, method) (( Enumerator_t715  (*) (Dictionary_2_t119 *, const MethodInfo*))Dictionary_2_GetEnumerator_m21210_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<System.Int32,AN_ActivityTemplate>::<CopyTo>m__0(TKey,TValue)
-#define Dictionary_2_U3CCopyToU3Em__0_m22650(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2137  (*) (Object_t * /* static, unused */, int32_t, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m21180_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_U3CCopyToU3Em__0_m22682(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2140  (*) (Object_t * /* static, unused */, int32_t, AN_ActivityTemplate_t117 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m21212_gshared)(__this /* static, unused */, ___key, ___value, method)

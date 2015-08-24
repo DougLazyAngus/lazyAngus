@@ -45,7 +45,8 @@ public class MouseSinkController : MonoBehaviour {
 	void Start () {
 		sizeCameraWorld = Camera.main.GetComponent<SizeCamera> ();
 		RegisterForEvents ();
-		Reset ();
+		CalculateSpread ();
+		ResetTraps();
 	}
 
 	void OnDestroy() {
@@ -73,27 +74,31 @@ public class MouseSinkController : MonoBehaviour {
 	}
 
 	void OnCameraChanged() {
-		Reset ();
+		CalculateSpread ();
+		ResetTraps ();
 	}
 
 	void OnInstanceChanged() {
-		Reset ();
+		trapCapacity = 1;
+		ResetTraps ();
 	}
 
-	void Reset() {
+	void CalculateSpread() {
 		float aspectRatio = sizeCameraWorld.GetAspectRatio ();
 		if (aspectRatio > 1) {
 			// Wider than it is tall.  East is in lower right corner.
 			// So north/south fan clockwise.
 			spreadClockwise = (mouseHoleLocation == MouseHoleLocation.NORTH || 
-			                   mouseHoleLocation == MouseHoleLocation.SOUTH);
+				mouseHoleLocation == MouseHoleLocation.SOUTH);
 		} else {
 			// Taller than it is wide.  East is in lower right corner.
 			// So east/west fan clockwise.
 			spreadClockwise = (mouseHoleLocation == MouseHoleLocation.EAST || 
-			                   mouseHoleLocation == MouseHoleLocation.WEST);
+				mouseHoleLocation == MouseHoleLocation.WEST);
 		}
+	} 
 
+	void ResetTraps() {
 		savedMouseCount = 0;
 		while (mouseTraps.Count != 0) {
 			MouseTrap t = mouseTraps[0];
@@ -183,18 +188,14 @@ public class MouseSinkController : MonoBehaviour {
 	}
 
 	public void SetTrapCapacity(int newTrapCapacity) {
-		bool somethingChanged = false;
-
-		// Add traps to make up the difference.
-		for (; trapCapacity < newTrapCapacity; trapCapacity++) {
-			AddTrap();
-			somethingChanged = true; 
-		}
-
-		if (somethingChanged && GameLevelState.instance.gameLevel != 1) {
-			DistortForEffect d4e = GetComponent<DistortForEffect>();
-			if (d4e) {
-				d4e.DistortWithDelay(distortDelay);
+		if (trapCapacity != newTrapCapacity) {
+			trapCapacity = newTrapCapacity;
+			ResetTraps();
+			if ( GameLevelState.instance.gameLevel != 1) {
+				DistortForEffect d4e = GetComponent<DistortForEffect>();
+				if (d4e) {
+					d4e.DistortWithDelay(distortDelay);
+				}
 			}
 		}
 	}

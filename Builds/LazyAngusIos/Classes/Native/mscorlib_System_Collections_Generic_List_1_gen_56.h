@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Networking.Match.MatchDesc[]
-struct MatchDescU5BU5D_t8469;
+struct MatchDescU5BU5D_t8472;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>
-struct  List_1_t2805  : public Object_t
+struct  List_1_t2808  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>::_items
-	MatchDescU5BU5D_t8469* ____items_1;
+	MatchDescU5BU5D_t8472* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>::_version
 	int32_t ____version_3;
 };
-struct List_1_t2805_StaticFields{
+struct List_1_t2808_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>::EmptyArray
-	MatchDescU5BU5D_t8469* ___EmptyArray_4;
+	MatchDescU5BU5D_t8472* ___EmptyArray_4;
 };

@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdNormalizedString
 #include "System_Xml_Mono_Xml_Schema_XsdNormalizedString.h"
 // Mono.Xml.Schema.XsdToken
-struct  XsdToken_t3102  : public XsdNormalizedString_t3101
+struct  XsdToken_t3105  : public XsdNormalizedString_t3104
 {
 };

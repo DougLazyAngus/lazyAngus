@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.Internal.FlexibleListWrapper`2<System.Int16,System.UInt64>
-struct FlexibleListWrapper_2_t1620;
+struct FlexibleListWrapper_2_t1623;
 // System.Object
 struct Object_t;
 // System.Collections.IEnumerator
@@ -11,14 +11,14 @@ struct IDisposable_t58;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<System.Int16,System.UInt64>
-struct  U3CGetEnumeratorU3Ed__2_t6513  : public Object_t
+struct  U3CGetEnumeratorU3Ed__2_t6516  : public Object_t
 {
 	// TOut Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<System.Int16,System.UInt64>::<>2__current
 	int16_t ___U3CU3E2__current_0;
 	// System.Int32 Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<System.Int16,System.UInt64>::<>1__state
 	int32_t ___U3CU3E1__state_1;
 	// Parse.Internal.FlexibleListWrapper`2<TOut,TIn> Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<System.Int16,System.UInt64>::<>4__this
-	FlexibleListWrapper_2_t1620 * ___U3CU3E4__this_2;
+	FlexibleListWrapper_2_t1623 * ___U3CU3E4__this_2;
 	// System.Object Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<System.Int16,System.UInt64>::<item>5__3
 	Object_t * ___U3CitemU3E5__3_3;
 	// System.Collections.IEnumerator Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<System.Int16,System.UInt64>::<>7__wrap4

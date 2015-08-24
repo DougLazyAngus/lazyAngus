@@ -9,7 +9,7 @@
 // MouseConfig/MouseWiggleType
 #include "AssemblyU2DCSharp_MouseConfig_MouseWiggleType.h"
 // ExplicitMouseDesc
-struct  ExplicitMouseDesc_t535  : public Object_t
+struct  ExplicitMouseDesc_t536  : public Object_t
 {
 	// MouseConfig/MouseType ExplicitMouseDesc::mouseType
 	int32_t ___mouseType_0;

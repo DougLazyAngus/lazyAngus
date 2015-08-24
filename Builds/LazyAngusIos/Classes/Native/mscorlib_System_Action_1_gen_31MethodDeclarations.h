@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Action`1<System.Linq.Expressions.ElementInit>
-struct Action_1_t3368;
+struct Action_1_t3371;
 // System.Object
 struct Object_t;
 // System.Linq.Expressions.ElementInit
-struct ElementInit_t3322;
+struct ElementInit_t3325;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Action`1<System.Linq.Expressions.ElementInit>::.ctor(System.Object,System.IntPtr)
 // System.Action`1<System.Object>
 #include "mscorlib_System_Action_1_gen_34MethodDeclarations.h"
-#define Action_1__ctor_m11808(__this, ___object, ___method, method) (( void (*) (Action_1_t3368 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m23221_gshared)(__this, ___object, ___method, method)
+#define Action_1__ctor_m11840(__this, ___object, ___method, method) (( void (*) (Action_1_t3371 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m23253_gshared)(__this, ___object, ___method, method)
 // System.Void System.Action`1<System.Linq.Expressions.ElementInit>::Invoke(T)
-#define Action_1_Invoke_m63241(__this, ___obj, method) (( void (*) (Action_1_t3368 *, ElementInit_t3322 *, const MethodInfo*))Action_1_Invoke_m23223_gshared)(__this, ___obj, method)
+#define Action_1_Invoke_m63273(__this, ___obj, method) (( void (*) (Action_1_t3371 *, ElementInit_t3325 *, const MethodInfo*))Action_1_Invoke_m23255_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Action`1<System.Linq.Expressions.ElementInit>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Action_1_BeginInvoke_m63242(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t3368 *, ElementInit_t3322 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m23225_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Action_1_BeginInvoke_m63274(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t3371 *, ElementInit_t3325 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m23257_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Void System.Action`1<System.Linq.Expressions.ElementInit>::EndInvoke(System.IAsyncResult)
-#define Action_1_EndInvoke_m63243(__this, ___result, method) (( void (*) (Action_1_t3368 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m23227_gshared)(__this, ___result, method)
+#define Action_1_EndInvoke_m63275(__this, ___result, method) (( void (*) (Action_1_t3371 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m23259_gshared)(__this, ___result, method)

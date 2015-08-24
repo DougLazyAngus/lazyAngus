@@ -46,6 +46,11 @@ public class ScoreController : MonoBehaviour {
 			GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.PENDING) {
 			MakeFlyingAnimation (deadMouseGameObject);
 		}
+		StartCoroutine (DestroyMouse (deadMouseGameObject));
+	}
+
+	IEnumerator DestroyMouse(GameObject deadMouseGameObject) {
+		yield return new WaitForSeconds (0.001f);
 		Object.Destroy (deadMouseGameObject);
 	}
 

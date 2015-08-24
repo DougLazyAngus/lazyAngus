@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct IList_1_t5489;
+struct IList_1_t5492;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct  ReadOnlyCollection_1_t5490  : public Object_t
+struct  ReadOnlyCollection_1_t5493  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnionAssets.FLE.DataEventHandlerFunction>::list
 	Object_t* ___list_0;

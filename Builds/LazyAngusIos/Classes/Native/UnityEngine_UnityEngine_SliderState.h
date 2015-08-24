@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.SliderState
-struct  SliderState_t2871  : public Object_t
+struct  SliderState_t2874  : public Object_t
 {
 	// System.Single UnityEngine.SliderState::dragStartPos
 	float ___dragStartPos_0;

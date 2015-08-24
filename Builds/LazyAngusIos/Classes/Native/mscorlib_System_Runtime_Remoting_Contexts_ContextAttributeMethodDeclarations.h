@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Contexts.ContextAttribute
-struct ContextAttribute_t4588;
+struct ContextAttribute_t4591;
 // System.String
 struct String_t;
 // System.Object
 struct Object_t;
 // System.Runtime.Remoting.Activation.IConstructionCallMessage
-struct IConstructionCallMessage_t4876;
+struct IConstructionCallMessage_t4879;
 // System.Runtime.Remoting.Contexts.Context
-struct Context_t4595;
+struct Context_t4598;
 
 // System.Void System.Runtime.Remoting.Contexts.ContextAttribute::.ctor(System.String)
-extern "C" void ContextAttribute__ctor_m18194 (ContextAttribute_t4588 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ContextAttribute__ctor_m18226 (ContextAttribute_t4591 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.Contexts.ContextAttribute::get_Name()
-extern "C" String_t* ContextAttribute_get_Name_m18195 (ContextAttribute_t4588 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ContextAttribute_get_Name_m18227 (ContextAttribute_t4591 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Contexts.ContextAttribute::Equals(System.Object)
-extern "C" bool ContextAttribute_Equals_m18196 (ContextAttribute_t4588 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ContextAttribute_Equals_m18228 (ContextAttribute_t4591 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.Remoting.Contexts.ContextAttribute::GetHashCode()
-extern "C" int32_t ContextAttribute_GetHashCode_m18197 (ContextAttribute_t4588 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ContextAttribute_GetHashCode_m18229 (ContextAttribute_t4591 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Contexts.ContextAttribute::GetPropertiesForNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern "C" void ContextAttribute_GetPropertiesForNewContext_m18198 (ContextAttribute_t4588 * __this, Object_t * ___ctorMsg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ContextAttribute_GetPropertiesForNewContext_m18230 (ContextAttribute_t4591 * __this, Object_t * ___ctorMsg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Contexts.ContextAttribute::IsContextOK(System.Runtime.Remoting.Contexts.Context,System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern "C" bool ContextAttribute_IsContextOK_m18199 (ContextAttribute_t4588 * __this, Context_t4595 * ___ctx, Object_t * ___ctorMsg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ContextAttribute_IsContextOK_m18231 (ContextAttribute_t4591 * __this, Context_t4598 * ___ctx, Object_t * ___ctorMsg, const MethodInfo* method) IL2CPP_METHOD_ATTR;

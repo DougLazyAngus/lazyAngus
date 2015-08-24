@@ -16,4 +16,4 @@ extern "C" void GA_Design_NewEvent_m2577 (Object_t * __this /* static, unused */
 // System.Void GameAnalyticsSDK.GA_Design::NewEvent(System.String)
 extern "C" void GA_Design_NewEvent_m2578 (Object_t * __this /* static, unused */, String_t* ___eventName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameAnalyticsSDK.GA_Design::CreateNewEvent(System.String,System.Nullable`1<System.Single>)
-extern "C" void GA_Design_CreateNewEvent_m2579 (Object_t * __this /* static, unused */, String_t* ___eventName, Nullable_1_t689  ___eventValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GA_Design_CreateNewEvent_m2579 (Object_t * __this /* static, unused */, String_t* ___eventName, Nullable_1_t692  ___eventValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.KeyValuePair`2<System.String,System.DateTime>[]
-struct KeyValuePair_2U5BU5D_t7984;
+struct KeyValuePair_2U5BU5D_t7987;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.DateTime>>
-struct  List_1_t7985  : public Object_t
+struct  List_1_t7988  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.DateTime>>::_items
-	KeyValuePair_2U5BU5D_t7984* ____items_1;
+	KeyValuePair_2U5BU5D_t7987* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.DateTime>>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.DateTime>>::_version
 	int32_t ____version_3;
 };
-struct List_1_t7985_StaticFields{
+struct List_1_t7988_StaticFields{
 	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.DateTime>>::EmptyArray
-	KeyValuePair_2U5BU5D_t7984* ___EmptyArray_4;
+	KeyValuePair_2U5BU5D_t7987* ___EmptyArray_4;
 };

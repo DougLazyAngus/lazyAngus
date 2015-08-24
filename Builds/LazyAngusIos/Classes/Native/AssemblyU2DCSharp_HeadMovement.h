@@ -5,7 +5,7 @@
 // HeadMovement/MovementPhase
 #include "AssemblyU2DCSharp_HeadMovement_MovementPhase.h"
 // HeadMovement
-struct  HeadMovement_t569  : public MonoBehaviour_t13
+struct  HeadMovement_t570  : public MonoBehaviour_t13
 {
 	// System.Single HeadMovement::moveToSpeedDeg
 	float ___moveToSpeedDeg_2;
