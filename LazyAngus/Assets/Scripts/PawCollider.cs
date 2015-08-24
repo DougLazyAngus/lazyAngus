@@ -25,15 +25,17 @@ public class PawCollider : MonoBehaviour {
 			return;
 		}
 
+		/*
 		if (BoostConfig.instance.activeBoost == BoostConfig.BoostType.BOOST_TYPE_POISON_PAWS) {
 			if (!mouseMove.isPoisoned) {
 				mouseMove.SetPoisoned();
 			}
 		} else {
-			DeadMouseRelay.instance.HandleMouseKill(mouseMove);
-			if (pawController) {
-				pawController.CountKill();
-			}
+		*/
+
+		DeadMouseRelay.instance.HandleMouseKill(mouseMove);
+		if (pawController) {
+			pawController.CountKill();
 		}
 	}
 }

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class BoostConfig : MonoBehaviour {
@@ -7,7 +7,9 @@ public class BoostConfig : MonoBehaviour {
 		BOOST_TYPE_GOOD_EYES,
 		BOOST_TYPE_BIG_PAWS,
 		BOOST_TYPE_FART,
-		BOOST_TYPE_POISON_PAWS,
+		// FIXME(dbanks)
+		// Remove for good?
+		// BOOST_TYPE_POISON_PAWS,
 
 		NUM_TYPES,
 	};
@@ -64,9 +66,6 @@ public class BoostConfig : MonoBehaviour {
 	}
 	
 	void OnGamePhaseChanged() {
-		if (DebugConfig.instance.DebugFlagSet (1)) {
-			return;
-		}
 		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_PLAY) {
 			CancelBoosts ();
 		}
@@ -99,6 +98,7 @@ public class BoostConfig : MonoBehaviour {
 			new TipConfig ("boost.big_paws", 
 		              "No mouse shall escape my mighty paws!"));
 
+		/*
 		boostDescs [(int)BoostType.BOOST_TYPE_POISON_PAWS] = new BoostDesc (
 			"Poison Paws", 
 			"poison_paw_can", 
@@ -106,6 +106,7 @@ public class BoostConfig : MonoBehaviour {
 			TweakableParams.poisonPawsBoostTime,
 			new TipConfig ("boost.poison_paws", 
 		               	"Let poisoned mice go: they'll poison their friends back home!"));
+		*/
 
 		boostDescs [(int)BoostType.BOOST_TYPE_FART] = new BoostDesc (
 			"Farts", 

@@ -906,7 +906,8 @@ public class LevelConfig : MonoBehaviour
 			                      1);
 			return ld;
 		}
-		
+
+		/*
 		if (--glCounter == 0) {
 			ld.specialText = "Introducing... Poison Paws cat food!";
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
@@ -917,12 +918,14 @@ public class LevelConfig : MonoBehaviour
 
 			return ld;
 		}
+		*/
 		
 		if (--glCounter == 0) {
 			ld.specialText = "Another mouse hole expands!";
 			ld.sprite = mouseHoleIntroSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
 
+			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.DISTRIBUTED);
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.SPOUT);
 
 			return ld;
