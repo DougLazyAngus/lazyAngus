@@ -4,9 +4,8 @@ using System.Collections;
 public class ZoomCamera : MonoBehaviour {
 	public float zoomOutScale = 1.5f;
 	public float zoomInScale = 0.95f;
-	public float zoomInTime = 0.5f;
-	public float zoomOutTime = 1.4f;
-	
+
+
 	float phaseStartTime;
 	Camera myCamera;
 	SizeCamera mySizeCamera;
@@ -36,8 +35,10 @@ public class ZoomCamera : MonoBehaviour {
 		float[] coefficients;
 		
 		switch (GamePhaseState.instance.gamePhase) {
-		case GamePhaseState.GamePhaseType.PENDING:
-			tFraction = (Time.time - (phaseStartTime + GamePhaseState.instance.pendingPause - zoomOutTime)) / zoomOutTime;
+		case GamePhaseState.GamePhaseType.PENDING: 
+		{
+			float timeToStartZooming = (phaseStartTime + TweakableParams.cameraZoomOutPause);
+			tFraction = (Time.time - timeToStartZooming) / TweakableParams.cameraZoomOutTime;
 			if (tFraction < 0) {
 				scale = 1;
 			} else if (tFraction <= 1) {
@@ -48,8 +49,11 @@ public class ZoomCamera : MonoBehaviour {
 				scale = zoomOutScale;
 			}
 			break;
+		}
 		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
-			tFraction = (Time.time - phaseStartTime) / zoomInTime;
+		{
+			float timeToStartZooming = (phaseStartTime + TweakableParams.cameraZoomInPause);
+			tFraction = (Time.time - timeToStartZooming) / TweakableParams.cameraZoomInTime;
 			if (tFraction < 0) {
 				scale = zoomOutScale;
 			} else if (tFraction <= 1) {
@@ -60,6 +64,7 @@ public class ZoomCamera : MonoBehaviour {
 				scale = 1;
 			}
 			break;
+		}
 		default:
 			scale = zoomOutScale;
 			break;

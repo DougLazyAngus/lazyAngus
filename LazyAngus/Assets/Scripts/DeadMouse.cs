@@ -3,17 +3,15 @@ using System.Collections;
 
 public class DeadMouse : MonoBehaviour {
 	public float zIndex;
+	public MouseConfig.MouseType mouseType { get; private set; }
 	public float extraScale = 0.32f;
 
 	// Use this for initialization
 	void Start () {
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	}
-
 	public void Configure(MouseMove parentMouse) {
+		mouseType = parentMouse.mouseType;
 		MouseTypeDesc md = MouseConfig.instance.GetMouseTypeDesc (parentMouse.mouseType);
 
 		SpriteRenderer sr = GetComponent<SpriteRenderer> ();
@@ -25,6 +23,8 @@ public class DeadMouse : MonoBehaviour {
 
 		transform.position = tmpP;
 		transform.rotation = parentMouse.gameObject.transform.rotation;
-		transform.localScale = parentMouse.gameObject.transform.localScale * extraScale;
+		transform.localScale = new Vector3 (md.scale * extraScale, 
+		                                    md.scale * extraScale,
+		                                    1);
 	}
 }

@@ -19,7 +19,7 @@ public class GamePhaseState : MonoBehaviour {
 	private GamePhaseType pendingPhase;
 
 	private float pendingPhaseTimeout;
-	public float pendingPause = 1f;	
+	
 	private bool shouldCheckForPhaseTransition = false;
 
 	
@@ -76,8 +76,8 @@ public class GamePhaseState : MonoBehaviour {
 
 	
 	IEnumerator SetupPendingPhase() {
-		pendingPhaseTimeout = Time.time + pendingPause;
-		yield return new WaitForSeconds(pendingPause);
+		pendingPhaseTimeout = Time.time + TweakableParams.playOverPendingPause;
+		yield return new WaitForSeconds(TweakableParams.playOverPendingPause);
 		if (gamePhase == GamePhaseType.PENDING) {
 			shouldCheckForPhaseTransition = true;
 		}

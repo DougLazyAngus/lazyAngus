@@ -2,18 +2,25 @@
 using System.Collections;
 
 public class DistortForEffect : MonoBehaviour {
-	bool distorting;
+	public delegate void DistortFinishedHandler(GameObject go);
+	DistortFinishedHandler handler;
+
+	public bool distorting { get; private set;}
 	float startDistortTime;
 
 	public float distortPeriod = 0.3f;
 	public float distortScale = 1f;
 	public Transform thingToScale;
+	public bool squishAndStretch = false;
 
 	private Vector3 originalScale;
 
+	void Awake() {
+		distorting = false;
+	}
+
 	// Use this for initialization
 	void Start () {
-		distorting = false;
 		if (thingToScale == null) {
 			thingToScale = gameObject.transform;
 		}
@@ -27,6 +34,10 @@ public class DistortForEffect : MonoBehaviour {
 		}
 		startDistortTime = Time.time + delay;
 		distorting = true;
+	}
+
+	public void SetDistortFinishedHandler(DistortFinishedHandler handler) {
+		this.handler = handler;
 	}
 
 	public void Distort() {
@@ -51,13 +62,23 @@ public class DistortForEffect : MonoBehaviour {
 		if (timeDelta > distortPeriod) {
 			scale = 1.0f;
 			distorting = false;
+			if (handler != null) {
+				handler(gameObject);
+			}
 		} else {
 			float phase = Mathf.Sin (timeDelta * 2f * Mathf.PI / distortPeriod);
 			float amplitude = Mathf.Cos (timeDelta * 0.5f * Mathf.PI / distortPeriod);
 			scale = 1.0f + phase * amplitude * distortScale;
 		}
 
-		thingToScale.localScale = new Vector3 (scale * originalScale.x,
+		float xScale;
+		if (squishAndStretch) {
+			xScale = 1/scale;
+		} else {
+			xScale = scale;
+		}
+
+		thingToScale.localScale = new Vector3 (xScale * originalScale.x,
 		                                       scale * originalScale.y,
 		                                       scale * originalScale.z);
 	}

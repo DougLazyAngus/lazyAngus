@@ -133,14 +133,7 @@ public class BoostButton : MonoBehaviour {
 	void OnTreatsChanged() {
 		buttonDirty = true;
 	}
-
-	void OnBoostUnlocked(BoostConfig.BoostType bType) {
-		if (bType == boostType) {
-			// Give a bounce effect.
-			GetComponent<DistortForEffect>().Distort();
-		}
-	}
-
+	
 	IEnumerator TriggerDistortionEffect() {
 		yield return new WaitForSeconds (0.25f); 
 		GetComponent<DistortForEffect>().Distort();

@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 
 public class MouseSpawnFromData : MonoBehaviour {
-	public float initialSpawnDelta = 1f;
 	public static MouseSpawnFromData instance;
 
 	public delegate void MouseSpawnEventHandler();
@@ -51,7 +50,7 @@ public class MouseSpawnFromData : MonoBehaviour {
 
 	void OnPhaseChanged() {
 		if (GamePhaseState.instance.IsPlaying ()) {
-			nextSpawnTime = Time.time + initialSpawnDelta;
+			nextSpawnTime = Time.time + TweakableParams.playStartMousePause;
 		} else { 
 			Clear ();
 		}

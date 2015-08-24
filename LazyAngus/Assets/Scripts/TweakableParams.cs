@@ -52,6 +52,19 @@ public class TweakableParams : MonoBehaviour {
 
 	public const float flyingAnimationTime = 1.0f;
 
+	// Camera effects
+	public const float cameraZoomInPause = 0.2f;
+	public const float cameraZoomInTime = 0.5f;
+	public const float totalCameraZoomInTime = (cameraZoomInPause + cameraZoomInTime);
+
+	public const float cameraZoomOutPause = 0.5f;
+	public const float cameraZoomOutTime = 1.4f;
+	public const float totalCameraZoomOutTime = (cameraZoomOutPause + cameraZoomOutTime);
+
+	// Timing issues
+	public const float playOverPendingPause = totalCameraZoomOutTime + 0.3f;
+	public const float playStartMousePause = totalCameraZoomInTime + 0.3f;
+
 	public static int GetInitialMoney() {
 		if (DebugConfig.instance.useDebugValues) {
 			return debugInitialMoney;
