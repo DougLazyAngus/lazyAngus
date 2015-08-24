@@ -219,7 +219,7 @@ public class PlayerController : MonoBehaviour {
 
 		// If outside of reach radius, ignore altogether.
 		if (swipeLocationCat.magnitude > TweakableParams.swipeRadius) {
-			return null;
+			swipeLocationCat *= TweakableParams.swipeRadius/swipeLocationCat.magnitude;
 		}
 		
 		// Is this a slap for right paw, left paw, or neither?
