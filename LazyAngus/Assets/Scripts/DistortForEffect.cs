@@ -10,11 +10,13 @@ public class DistortForEffect : BounceLerp {
 	
 	private Vector3 originalScale;
 	public float minScale =  0.0f;
-	public bool squishAndStretch = false;
 	public Transform thingToScale;
 
+	public bool squishAndStretch = false;
+	public bool onAtStart = false;
+
 	void Awake() {
-		distorting = false;
+		distorting = onAtStart;
 	}
 
 	// Use this for initialization
