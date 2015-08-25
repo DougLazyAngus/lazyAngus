@@ -261,6 +261,15 @@ public class Utilities
 
 		mesh.RecalculateNormals();
 	}
+
+	public static string AddTextColor(string input, Color color) {
+		return "<color=#" + color.ToHexStringRGB() + ">" + input + "</color>";
+	}
+	
+	public static string AddFontSize(string input, int size) {
+		return "<size=" + size + ">" + input + "</size>";
+	}
+
 }
 
 
