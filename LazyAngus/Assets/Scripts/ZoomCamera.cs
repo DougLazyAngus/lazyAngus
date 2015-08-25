@@ -2,6 +2,8 @@
 using System.Collections;
 
 public class ZoomCamera : BounceLerp {
+	public float zoomOutScale = 1.5f;
+
 	float phaseStartTime;
 	float timeToStartZooming;
 
@@ -9,6 +11,8 @@ public class ZoomCamera : BounceLerp {
 	SizeCamera mySizeCamera;
 
 	bool registeredForEvents;
+	bool zooming;
+
 
 	void Awake() {
 		myCamera = GetComponent<Camera>();
@@ -24,40 +28,58 @@ public class ZoomCamera : BounceLerp {
 	}
 	
 	void Update() {
-		UpdateCameraSize ();
+		if (zooming) {
+			UpdateCameraSize ();
+		}
 	}
 	
 	public void UpdateCameraSize() {
 		float scale;
+		bool isFinished;
 
 		switch (GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.PENDING: 
 		{
-			float timeDelta = (Time.time = timeToStartZooming);
-			tFraction = (Time.time - timeToStartZooming) / TweakableParams.cameraZoomOutTime;
+			float timeDelta = (Time.time - timeToStartZooming);
 			if (timeDelta < 0) {
-				scale = 1;
+				scale = 1f;
 			} else {
 				periodOffsetDeg = 270f;
 				additionalScale = (1 - 1/zoomOutScale);
-				scale = zoomOutScale;
+				totalPeriods = 0.7f;
+				secondsPerPeriod = TweakableParams.cameraZoomOutTime/totalPeriods;
+
+				scale = zoomOutScale * GetCoefficientForTime(timeDelta, out isFinished);
+				if (isFinished) {
+					zooming = false;
+				}
 			}
 			break;
 		}
 		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
 		{
-			float timeDelta = (Time.time = timeToStartZooming);
+			float timeDelta = (Time.time - timeToStartZooming);
 			if (timeDelta < 0) {
 				scale = zoomOutScale;
 			} else {
-				scale = 1;
+				periodOffsetDeg = 90f;
+				additionalScale = (zoomOutScale - 1);
+				totalPeriods = 0.7f;
+				secondsPerPeriod = TweakableParams.cameraZoomInTime/totalPeriods;
+
+				scale = GetCoefficientForTime(timeDelta, out isFinished);
+				if (isFinished) {
+					zooming = false;
+				}
 			}
 			break;
 		}
 		default:
+			zooming = false;
 			scale = zoomOutScale;
 			break;
 		}
+
 		float height = scale * mySizeCamera.finalWorldHalfHeight;
 		if (myCamera.orthographicSize != height) {
 			myCamera.orthographicSize = height;
@@ -83,11 +105,13 @@ public class ZoomCamera : BounceLerp {
 	
 	void OnGamePhaseChanged() {
 		phaseStartTime = Time.time;
+		zooming = true;
+
 		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.PENDING) {
 			timeToStartZooming = (phaseStartTime + TweakableParams.cameraZoomOutPause);
 		} 
 		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.LEVEL_PLAY) {
-			float timeToStartZooming = (phaseStartTime + TweakableParams.cameraZoomInPause);
+			timeToStartZooming = (phaseStartTime + TweakableParams.cameraZoomInPause);
 		}
 	}
 }
