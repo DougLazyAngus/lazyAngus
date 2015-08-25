@@ -8,10 +8,10 @@ public class DistortForEffect : BounceLerp {
 	public bool distorting { get; private set;}
 	float startDistortTime;
 	
-	public Transform thingToScale;
-	public bool squishAndStretch = false;
-
 	private Vector3 originalScale;
+	public float minScale =  0.0f;
+	public bool squishAndStretch = false;
+	public Transform thingToScale;
 
 	void Awake() {
 		distorting = false;
@@ -55,14 +55,18 @@ public class DistortForEffect : BounceLerp {
 
 		float timeNow = Time.time;
 		float timeDelta = timeNow - startDistortTime;
+
 		bool isFinished;
 		float scale = GetCoefficientForTime (timeDelta, out isFinished);
-
 		if (isFinished) {
 			distorting = false;
 			if (handler != null) {
 				handler(gameObject);
 			}
+		}
+
+		if (minScale > 0) {
+			scale = Mathf.Max (minScale, scale);
 		}
 
 		float xScale;

@@ -46,7 +46,7 @@ public class ZoomCamera : BounceLerp {
 			} else {
 				periodOffsetDeg = 270f;
 				additionalScale = (1 - 1/zoomOutScale);
-				totalPeriods = 0.7f;
+				totalPeriods = 0.5f;
 				secondsPerPeriod = TweakableParams.cameraZoomOutTime/totalPeriods;
 
 				scale = zoomOutScale * GetCoefficientForTime(timeDelta, out isFinished);
@@ -64,7 +64,7 @@ public class ZoomCamera : BounceLerp {
 			} else {
 				periodOffsetDeg = 90f;
 				additionalScale = (zoomOutScale - 1);
-				totalPeriods = 0.7f;
+				totalPeriods = 0.4f;
 				secondsPerPeriod = TweakableParams.cameraZoomInTime/totalPeriods;
 
 				scale = GetCoefficientForTime(timeDelta, out isFinished);
