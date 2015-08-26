@@ -35,6 +35,8 @@ public class LevelDescription
 	public int gameLevel;
 
 	public string previousLevelClearedAchievementID;
+
+	public Accumulator realAngusAccumulator;
 		
 	public LevelDescription ()
 	{
@@ -54,9 +56,17 @@ public class LevelDescription
 			(int)MouseConfig.MouseType.NUM_TYPES);
 		waveTypesAccumulator = new EnumAccumulator<WaveType> (
 			(int)WaveType.NUM_TYPES);
+		realAngusAccumulator = new Accumulator ();
 	}
 
-
+	public void PropagateAccumulators(LevelDescription previousLd) {
+		boostsAccumulator.DeriveFrom (previousLd.boostsAccumulator);
+		mouseHolesAccumulator.DeriveFrom (previousLd.mouseHolesAccumulator);
+		wigglesAccumulator.DeriveFrom (previousLd.wigglesAccumulator);
+		mouseTypesAccumulator.DeriveFrom (previousLd.mouseTypesAccumulator);
+		waveTypesAccumulator.DeriveFrom (previousLd.waveTypesAccumulator);
+		realAngusAccumulator.DeriveFrom (previousLd.realAngusAccumulator);
+	}
 }
 
 public class LevelConfig : MonoBehaviour
@@ -126,7 +136,7 @@ public class LevelConfig : MonoBehaviour
 		while (true) {
 			gameLevel += 1;
 			LevelDescription ld = GetLevelDescription (gameLevel);
-			if (ld.boostsAccumulator.newCount [btIndex] > 0) {
+			if (ld.boostsAccumulator.accumulators[btIndex].newCount  > 0) {
 				return gameLevel;
 			}
 		}
@@ -237,11 +247,7 @@ public class LevelConfig : MonoBehaviour
 			}
 	
 			if (previousLd != null) {
-				ld.boostsAccumulator.DeriveFrom (previousLd.boostsAccumulator);
-				ld.mouseHolesAccumulator.DeriveFrom (previousLd.mouseHolesAccumulator);
-				ld.wigglesAccumulator.DeriveFrom (previousLd.wigglesAccumulator);
-				ld.mouseTypesAccumulator.DeriveFrom (previousLd.mouseTypesAccumulator);
-				ld.waveTypesAccumulator.DeriveFrom (previousLd.waveTypesAccumulator);
+				ld.PropagateAccumulators(previousLd);
 			}
 
 			if (ld.explicitMouseDescs.Count == 0) {
@@ -276,6 +282,9 @@ public class LevelConfig : MonoBehaviour
 		// Basic distribution of wave types.
 		ld.waveTypesAccumulator.AddDerived ((int)LevelDescription.WaveType.DISTRIBUTED, 3);
 		ld.waveTypesAccumulator.AddDerived ((int)LevelDescription.WaveType.PARADE, 1);
+
+		ld.realAngusAccumulator.AddNew();
+		ld.realAngusAccumulator.AddDerived();
 	}
 
 	LevelDescription MakePresetGameLevelSkeleton (int gameLevel)
@@ -319,7 +328,8 @@ public class LevelConfig : MonoBehaviour
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.MEDIUM);
 			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.MEDIUM);
-			
+			ld.realAngusAccumulator.AddNew();
+
 			// Eight mice, two medium.
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
@@ -352,6 +362,7 @@ public class LevelConfig : MonoBehaviour
 			ld.sprite = mouseHoleIntroSprite;
 
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.NORTH);
+			ld.realAngusAccumulator.AddNew();
 
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
@@ -429,7 +440,8 @@ public class LevelConfig : MonoBehaviour
 			ld.sprite = mouseHoleIntroSprite;
 			
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
-			
+			ld.realAngusAccumulator.AddNew();
+
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      0);
@@ -519,6 +531,7 @@ public class LevelConfig : MonoBehaviour
 					BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
 
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
+			ld.realAngusAccumulator.AddNew();
 
 			// Eight mice, two medium.
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.EAST,
@@ -663,6 +676,7 @@ public class LevelConfig : MonoBehaviour
 				BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS);
 
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS);
+			ld.realAngusAccumulator.AddNew();
 
 			return ld;
 		}
@@ -1117,13 +1131,8 @@ public class LevelConfig : MonoBehaviour
 		ld.gameLevel = gameLevel;
 
 		if (previousLd != null) {
-			ld.boostsAccumulator.DeriveFrom (previousLd.boostsAccumulator);
-			ld.wigglesAccumulator.DeriveFrom (previousLd.wigglesAccumulator);
-			ld.mouseHolesAccumulator.DeriveFrom (previousLd.mouseHolesAccumulator);
-			ld.mouseTypesAccumulator.DeriveFrom (previousLd.mouseTypesAccumulator);
-			ld.waveTypesAccumulator.DeriveFrom (previousLd.waveTypesAccumulator);
+			ld.PropagateAccumulators(previousLd);
 		}
-
 
 		ld.explicitMouseDescs = GenerateRandomMiceForLevel (ld);
 		ld.sprite = angusIntroSprite;

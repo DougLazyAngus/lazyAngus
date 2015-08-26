@@ -14,6 +14,6 @@ public class RealAngusButtonHandler : MonoBehaviour {
 	}
 
 	public void ShowRealAngusPage() {
-
+		GamePhaseState.instance.TransitionToPhase (GamePhaseState.GamePhaseType.REAL_ANGUS);
 	}
 }

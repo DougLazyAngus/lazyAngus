@@ -12,6 +12,7 @@ public class GameUIController : MonoBehaviour {
 		WELCOME,
 		LEVEL_END,
 		GAME_END,
+		REAL_ANGUS,
 
 		NUM_TYPES,
 	}
@@ -19,6 +20,7 @@ public class GameUIController : MonoBehaviour {
 	public GameObject welcomeUIGameObject;
 	public GameObject levelEndUIGameObject;
 	public GameObject gameOverUIGameObject;
+	public GameObject realAngusUIGameObject;
 
 	public static GameUIController instance { get; private set; }
 	GameUI [] gameUIs;
@@ -28,18 +30,18 @@ public class GameUIController : MonoBehaviour {
 		instance = this;
 
 		gameUIs = new GameUI[(int)GameUIsType.NUM_TYPES];
+		gameUIs[(int)GameUIsType.WELCOME] = welcomeUIGameObject.GetComponent <GameUI>();
+		gameUIs[(int)GameUIsType.LEVEL_END] = levelEndUIGameObject.GetComponent <GameUI>();
+		gameUIs[(int)GameUIsType.GAME_END] = gameOverUIGameObject.GetComponent <GameUI>();
+		gameUIs[(int)GameUIsType.REAL_ANGUS] = realAngusUIGameObject.GetComponent <GameUI>();
 	}
 
 	
 	// Use this for initialization
 	void Start () {
-		welcomeUIGameObject.SetActive (false);
-		levelEndUIGameObject.SetActive (false);
-		gameOverUIGameObject.SetActive (false);
-		
-		gameUIs[(int)GameUIsType.WELCOME] = welcomeUIGameObject.GetComponent <GameUI>();
-		gameUIs[(int)GameUIsType.LEVEL_END] = levelEndUIGameObject.GetComponent <GameUI>();
-		gameUIs[(int)GameUIsType.GAME_END] = gameOverUIGameObject.GetComponent <GameUI>();
+		for (int i = 0; i < gameUIs.Length; i++) {
+			gameUIs[i].gameObject.SetActive (false);
+		}
 
 		RegisterForEvents ();	
 		OnGamePhaseChanged ();
@@ -81,32 +83,35 @@ public class GameUIController : MonoBehaviour {
 		}
 
 		switch (GamePhaseState.instance.gamePhase) {
-		case GamePhaseState.GamePhaseType.WELCOME: {
-			if (DebugConfig.instance.skipWelcome) {
-				SetActiveUI(GameUIsType.LEVEL_END);
-			} else {
-				SetActiveUI(GameUIsType.WELCOME);
-			}
+		case GamePhaseState.GamePhaseType.WELCOME:
+			{
+				if (DebugConfig.instance.skipWelcome) {
+					SetActiveUI (GameUIsType.LEVEL_END);
+				} else {
+					SetActiveUI (GameUIsType.WELCOME);
+				}
 
-			CrossSceneState css = CrossSceneState.instance;
-			css.didWelcome = true;
-			break;
-		}
+				CrossSceneState css = CrossSceneState.instance;
+				css.didWelcome = true;
+				break;
+			}
 		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
-			SetActiveUI(GameUIsType.NUM_TYPES);
+			SetActiveUI (GameUIsType.NUM_TYPES);
 			break;
 		case GamePhaseState.GamePhaseType.PENDING:
-			SetActiveUI(GameUIsType.NUM_TYPES);
+			SetActiveUI (GameUIsType.NUM_TYPES);
 			break;
-		case GamePhaseState.GamePhaseType.LEVEL_END: {
-			SetActiveUI(GameUIsType.LEVEL_END);
+		case GamePhaseState.GamePhaseType.LEVEL_END: 
+			SetActiveUI (GameUIsType.LEVEL_END);
+			break;
+		case GamePhaseState.GamePhaseType.GAME_OVER:
+			SetActiveUI (GameUIsType.GAME_END);
+			break;
+		case GamePhaseState.GamePhaseType.REAL_ANGUS:
+			SetActiveUI (GameUIsType.REAL_ANGUS);
 			break;
 		}
-		case GamePhaseState.GamePhaseType.GAME_OVER:
-			SetActiveUI(GameUIsType.GAME_END);
-			break;
-		}		
-	}
+	}		
 
 	public void SetActiveUI(GameUIsType uiType) {
 		for (int i = 0; i < (int)GameUIsType.NUM_TYPES; i++) {

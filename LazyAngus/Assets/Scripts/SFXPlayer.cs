@@ -18,6 +18,8 @@ public class SFXPlayer : MonoBehaviour {
 		
 		MOUSE_TRAP,
 
+		CAMERA,
+
 		NUM_TYPES,
 	};
 
@@ -57,6 +59,8 @@ public class SFXPlayer : MonoBehaviour {
 		LoadAudioSource (SFXType.USE_BOOST, "Dinner-bell-sound");
 		
 		LoadAudioSource (SFXType.MOUSE_TRAP, "mouse_trap.03");
+
+		LoadAudioSource (SFXType.CAMERA, "camera_hack.03");
 	}
 
 

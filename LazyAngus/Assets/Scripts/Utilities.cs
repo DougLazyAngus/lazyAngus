@@ -186,7 +186,6 @@ public class Utilities
 		return (float)t.TotalSeconds;	
 	}
 
-
 	public static float[] GetBlendingCoefficients (float t, int numPoints) {
 		float[] retVal = new float [numPoints];
 
