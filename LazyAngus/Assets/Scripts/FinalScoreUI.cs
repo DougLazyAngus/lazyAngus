@@ -9,7 +9,7 @@ public class FinalScoreUI : GameUI {
 	public Text finalScoreText;
 	public Text finalScoreLabel;
 
-	public Color labelColor = new Color (0, 0.8f, 0.9f);
+	public Color labelColor = new Color (0, 0.75f, 0.875f);
 
 	bool started;
 
