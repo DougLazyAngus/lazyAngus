@@ -49,9 +49,7 @@ public class TweakableParams : MonoBehaviour {
 	public const float bigPawsBoostTime = 15.0f;
 	public const float fartBoostTime = 7.0f;
 	public const float poisonPawsBoostTime = 7.0f;
-
-	public const float flyingAnimationTime = 1.0f;
-
+	
 	// Camera effects
 	public const float cameraZoomInPause = 0.3f;
 	public const float cameraZoomInTime = 0.7f;
@@ -64,6 +62,8 @@ public class TweakableParams : MonoBehaviour {
 	// Timing issues
 	public const float playOverPendingPause = totalCameraZoomOutTime + 0.3f;
 	public const float playStartMousePause = totalCameraZoomInTime + 0.3f;
+	public const float flyingAnimationTime = 1.0f;
+	public const float deadMouseAnimationTime = 0.3f;
 
 	public static int GetInitialMoney() {
 		if (DebugConfig.instance.useDebugValues) {

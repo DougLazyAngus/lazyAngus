@@ -3,14 +3,19 @@ using UnityEngine.UI;
 
 using System.Collections;
 
-public class TrackMoney : MonoBehaviour {
+public class MoneyDisplay : MonoBehaviour {
 	
 	public Text moneyText;
-	public DistortForEffect distortForEffect;
-	
-	private PlayerStats playerStats;
-	private bool registerdForEvents;
-	
+
+	PlayerStats playerStats;
+	bool registerdForEvents;
+	DistortForEffect distortForEffect;
+
+
+	void Awake() {
+		distortForEffect = GetComponent<DistortForEffect> ();
+	}
+
 	// Use this for initialization
 	void Start () {
 		playerStats = PlayerStats.instance;

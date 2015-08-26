@@ -6,6 +6,8 @@ public class RealAngusData : MonoBehaviour {
 	public event RealAngusDataChangedEventHandler RealAngusDataChanged;
 	
 
+
+
 	// Use this for initialization
 	void Start () {
 	
@@ -15,4 +17,6 @@ public class RealAngusData : MonoBehaviour {
 	void Update () {
 	
 	}
+
+
 }

@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class TrackLevel : MonoBehaviour {
+public class GameLevelDisplay : MonoBehaviour {
 	private Text levelText;
 	private bool registerdForEvents;
 	
