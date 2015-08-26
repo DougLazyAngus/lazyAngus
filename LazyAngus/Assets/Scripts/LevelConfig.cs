@@ -664,6 +664,39 @@ public class LevelConfig : MonoBehaviour
 
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS);
 
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      2, 
+			                      MouseConfig.MouseWiggleType.BACK_FORTH);
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      2);
+			                     
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.5f, false, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      3, 
+			                      MouseConfig.MouseWiggleType.BACK_FORTH);
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.5f, false, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      1);
+
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.8f, false, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      2, 
+			                      MouseConfig.MouseWiggleType.BACK_FORTH);
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.3f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      1);
+
+		    AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.4f, false, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      2, 
+			                      MouseConfig.MouseWiggleType.BACK_FORTH);
+
 			return ld;
 		}
 		
@@ -674,6 +707,51 @@ public class LevelConfig : MonoBehaviour
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
 			
 			return ld;
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.4f, false, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2, 
+			                      MouseConfig.MouseWiggleType.BACK_FORTH);
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.6f, false, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.SUPERFAST, 
+			                      1, 
+			                      MouseConfig.MouseWiggleType.BACK_FORTH);
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      2,
+			                      MouseConfig.MouseWiggleType.BACK_FORTH);
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.2f, false, MouseHole.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.FAST, 
+			                      2);
+			                     
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.4f, false, MouseHole.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      2);
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.6f, false, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      1); 
+			                   
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.6f, false, MouseHole.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      3, 
+			                      MouseConfig.MouseWiggleType.BACK_FORTH);
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, false, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.SUPERFAST, 
+			                      1);
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.8f, false, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      1); 
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 5.4f, false, MouseHole.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      1); 
+
 		}
 		
 		if (--glCounter == 0) {
@@ -685,11 +763,11 @@ public class LevelConfig : MonoBehaviour
 			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.FAST);
 			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.SUPERFAST);
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseHole.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, false, MouseHole.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
@@ -698,11 +776,11 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.SUPERFAST, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.5f, false, MouseHole.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.FAST, 
 			                      0);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.8f, true, MouseHole.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);		
 
@@ -720,21 +798,19 @@ public class LevelConfig : MonoBehaviour
 			                      0, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.6f, true, MouseHole.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      0);
-			
 
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SUPERFAST, 
-			                      0, 
-			                      MouseConfig.MouseWiggleType.BACK_FORTH);
+			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.5f, true, MouseHole.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);	
@@ -769,7 +845,7 @@ public class LevelConfig : MonoBehaviour
 
 			ld.wigglesAccumulator.AddNew ((int)MouseConfig.MouseWiggleType.SIDE_SIDE);
 				
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseHole.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);
@@ -793,7 +869,7 @@ public class LevelConfig : MonoBehaviour
 			                      1, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);	
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.2f, true, MouseHole.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.FAST, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);		
