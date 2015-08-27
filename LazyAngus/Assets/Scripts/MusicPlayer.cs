@@ -33,6 +33,9 @@ public class MusicPlayer : MonoBehaviour {
 			new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 		SoundController.instance.MusicMuteChanged +=
 			new SoundController.MusicMuteChangedEventHandler (OnMusicMuteChanged);
+
+		TimeController.instance.PauseChanged += 
+			new TimeController.PauseChangedEventHandler (OnPauseChanged);
 	}
 	
 	void UnregisterForEvents() {
@@ -41,6 +44,8 @@ public class MusicPlayer : MonoBehaviour {
 				new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 			SoundController.instance.MusicMuteChanged -=
 				new SoundController.MusicMuteChangedEventHandler (OnMusicMuteChanged);
+			TimeController.instance.PauseChanged -= 
+				new TimeController.PauseChangedEventHandler (OnPauseChanged);
 		}
 	}
 
@@ -51,7 +56,17 @@ public class MusicPlayer : MonoBehaviour {
 	void OnMusicMuteChanged() {
 		UpdateAllMusic ();
 	}
-	
+
+	void OnPauseChanged() {
+		if (currentMusic != null) {
+			if (TimeController.instance.paused) {
+				currentMusic.Pause ();
+			} else {
+				currentMusic.Play ();
+			}
+		}
+	}
+
 	// Update is called once per frame
 	void UpdateAllMusic () {
 		AudioSource desiredMusic = null;
