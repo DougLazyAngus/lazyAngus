@@ -5,7 +5,7 @@ struct Text_t500;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TrackLevel
-struct  TrackLevel_t662  : public MonoBehaviour_t13
+struct  TrackLevel_t665  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Text TrackLevel::levelText
 	Text_t500 * ___levelText_2;

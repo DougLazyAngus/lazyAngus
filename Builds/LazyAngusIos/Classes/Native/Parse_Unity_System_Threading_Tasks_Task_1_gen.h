@@ -3,7 +3,7 @@
 // System.Threading.Tasks.Task
 #include "Parse_Unity_System_Threading_Tasks_Task.h"
 // System.Threading.Tasks.Task`1<System.Boolean>
-struct  Task_1_t1367  : public Task_t1208
+struct  Task_1_t1370  : public Task_t1211
 {
 	// T System.Threading.Tasks.Task`1<System.Boolean>::result
 	bool ___result_9;

@@ -7,7 +7,7 @@
 // System.DayOfWeek
 #include "mscorlib_System_DayOfWeek.h"
 // System.TimeZoneInfo/TransitionTime
-struct  TransitionTime_t3353 
+struct  TransitionTime_t3356 
 {
 	// System.DateTime System.TimeZoneInfo/TransitionTime::timeOfDay
 	DateTime_t287  ___timeOfDay_0;

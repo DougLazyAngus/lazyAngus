@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Stack`1<System.Type>
-struct Stack_1_t2949;
+struct Stack_1_t2952;
 // System.Object
 struct Object_t;
 // System.Array
 struct Array_t;
 // System.Collections.Generic.IEnumerator`1<System.Type>
-struct IEnumerator_1_t9106;
+struct IEnumerator_1_t9109;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Type
@@ -22,26 +22,26 @@ struct Type_t;
 // System.Void System.Collections.Generic.Stack`1<System.Type>::.ctor()
 // System.Collections.Generic.Stack`1<System.Object>
 #include "System_System_Collections_Generic_Stack_1_gen_3MethodDeclarations.h"
-#define Stack_1__ctor_m10159(__this, method) (( void (*) (Stack_1_t2949 *, const MethodInfo*))Stack_1__ctor_m21517_gshared)(__this, method)
+#define Stack_1__ctor_m10191(__this, method) (( void (*) (Stack_1_t2952 *, const MethodInfo*))Stack_1__ctor_m21549_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Stack`1<System.Type>::System.Collections.ICollection.get_IsSynchronized()
-#define Stack_1_System_Collections_ICollection_get_IsSynchronized_m62459(__this, method) (( bool (*) (Stack_1_t2949 *, const MethodInfo*))Stack_1_System_Collections_ICollection_get_IsSynchronized_m21519_gshared)(__this, method)
+#define Stack_1_System_Collections_ICollection_get_IsSynchronized_m62491(__this, method) (( bool (*) (Stack_1_t2952 *, const MethodInfo*))Stack_1_System_Collections_ICollection_get_IsSynchronized_m21551_gshared)(__this, method)
 // System.Object System.Collections.Generic.Stack`1<System.Type>::System.Collections.ICollection.get_SyncRoot()
-#define Stack_1_System_Collections_ICollection_get_SyncRoot_m62460(__this, method) (( Object_t * (*) (Stack_1_t2949 *, const MethodInfo*))Stack_1_System_Collections_ICollection_get_SyncRoot_m21521_gshared)(__this, method)
+#define Stack_1_System_Collections_ICollection_get_SyncRoot_m62492(__this, method) (( Object_t * (*) (Stack_1_t2952 *, const MethodInfo*))Stack_1_System_Collections_ICollection_get_SyncRoot_m21553_gshared)(__this, method)
 // System.Void System.Collections.Generic.Stack`1<System.Type>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define Stack_1_System_Collections_ICollection_CopyTo_m62461(__this, ___dest, ___idx, method) (( void (*) (Stack_1_t2949 *, Array_t *, int32_t, const MethodInfo*))Stack_1_System_Collections_ICollection_CopyTo_m21523_gshared)(__this, ___dest, ___idx, method)
+#define Stack_1_System_Collections_ICollection_CopyTo_m62493(__this, ___dest, ___idx, method) (( void (*) (Stack_1_t2952 *, Array_t *, int32_t, const MethodInfo*))Stack_1_System_Collections_ICollection_CopyTo_m21555_gshared)(__this, ___dest, ___idx, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.Stack`1<System.Type>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-#define Stack_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m62462(__this, method) (( Object_t* (*) (Stack_1_t2949 *, const MethodInfo*))Stack_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m21525_gshared)(__this, method)
+#define Stack_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m62494(__this, method) (( Object_t* (*) (Stack_1_t2952 *, const MethodInfo*))Stack_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m21557_gshared)(__this, method)
 // System.Collections.IEnumerator System.Collections.Generic.Stack`1<System.Type>::System.Collections.IEnumerable.GetEnumerator()
-#define Stack_1_System_Collections_IEnumerable_GetEnumerator_m62463(__this, method) (( Object_t * (*) (Stack_1_t2949 *, const MethodInfo*))Stack_1_System_Collections_IEnumerable_GetEnumerator_m21527_gshared)(__this, method)
+#define Stack_1_System_Collections_IEnumerable_GetEnumerator_m62495(__this, method) (( Object_t * (*) (Stack_1_t2952 *, const MethodInfo*))Stack_1_System_Collections_IEnumerable_GetEnumerator_m21559_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Stack`1<System.Type>::Contains(T)
-#define Stack_1_Contains_m62464(__this, ___t, method) (( bool (*) (Stack_1_t2949 *, Type_t *, const MethodInfo*))Stack_1_Contains_m21529_gshared)(__this, ___t, method)
+#define Stack_1_Contains_m62496(__this, ___t, method) (( bool (*) (Stack_1_t2952 *, Type_t *, const MethodInfo*))Stack_1_Contains_m21561_gshared)(__this, ___t, method)
 // T System.Collections.Generic.Stack`1<System.Type>::Peek()
-#define Stack_1_Peek_m62465(__this, method) (( Type_t * (*) (Stack_1_t2949 *, const MethodInfo*))Stack_1_Peek_m21530_gshared)(__this, method)
+#define Stack_1_Peek_m62497(__this, method) (( Type_t * (*) (Stack_1_t2952 *, const MethodInfo*))Stack_1_Peek_m21562_gshared)(__this, method)
 // T System.Collections.Generic.Stack`1<System.Type>::Pop()
-#define Stack_1_Pop_m10161(__this, method) (( Type_t * (*) (Stack_1_t2949 *, const MethodInfo*))Stack_1_Pop_m21531_gshared)(__this, method)
+#define Stack_1_Pop_m10193(__this, method) (( Type_t * (*) (Stack_1_t2952 *, const MethodInfo*))Stack_1_Pop_m21563_gshared)(__this, method)
 // System.Void System.Collections.Generic.Stack`1<System.Type>::Push(T)
-#define Stack_1_Push_m10160(__this, ___t, method) (( void (*) (Stack_1_t2949 *, Type_t *, const MethodInfo*))Stack_1_Push_m21532_gshared)(__this, ___t, method)
+#define Stack_1_Push_m10192(__this, ___t, method) (( void (*) (Stack_1_t2952 *, Type_t *, const MethodInfo*))Stack_1_Push_m21564_gshared)(__this, ___t, method)
 // System.Int32 System.Collections.Generic.Stack`1<System.Type>::get_Count()
-#define Stack_1_get_Count_m62466(__this, method) (( int32_t (*) (Stack_1_t2949 *, const MethodInfo*))Stack_1_get_Count_m21534_gshared)(__this, method)
+#define Stack_1_get_Count_m62498(__this, method) (( int32_t (*) (Stack_1_t2952 *, const MethodInfo*))Stack_1_get_Count_m21566_gshared)(__this, method)
 // System.Collections.Generic.Stack`1/Enumerator<T> System.Collections.Generic.Stack`1<System.Type>::GetEnumerator()
-#define Stack_1_GetEnumerator_m62467(__this, method) (( Enumerator_t8540  (*) (Stack_1_t2949 *, const MethodInfo*))Stack_1_GetEnumerator_m21536_gshared)(__this, method)
+#define Stack_1_GetEnumerator_m62499(__this, method) (( Enumerator_t8543  (*) (Stack_1_t2952 *, const MethodInfo*))Stack_1_GetEnumerator_m21568_gshared)(__this, method)

@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.Context
-struct Context_t3838;
+struct Context_t3841;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // Mono.Security.Protocol.Tls.TlsServerSettings
-struct TlsServerSettings_t3850;
+struct TlsServerSettings_t3853;
 // Mono.Security.Protocol.Tls.TlsClientSettings
-struct TlsClientSettings_t3851;
+struct TlsClientSettings_t3854;
 // Mono.Security.Protocol.Tls.CipherSuiteCollection
-struct CipherSuiteCollection_t3841;
+struct CipherSuiteCollection_t3844;
 // Mono.Security.Protocol.Tls.TlsStream
-struct TlsStream_t3853;
+struct TlsStream_t3856;
 // Mono.Security.Protocol.Tls.RecordProtocol
-struct RecordProtocol_t3846;
+struct RecordProtocol_t3849;
 // Mono.Security.Protocol.Tls.SecurityParameters
-struct SecurityParameters_t3852;
+struct SecurityParameters_t3855;
 // Mono.Security.Protocol.Tls.SecurityProtocolType
 #include "Mono_Security_Mono_Security_Protocol_Tls_SecurityProtocolTyp.h"
 // Mono.Security.Protocol.Tls.SecurityCompressionType
@@ -30,126 +30,126 @@ struct SecurityParameters_t3852;
 #include "Mono_Security_Mono_Security_Protocol_Tls_HandshakeState.h"
 
 // System.Void Mono.Security.Protocol.Tls.Context::.ctor(Mono.Security.Protocol.Tls.SecurityProtocolType)
-extern "C" void Context__ctor_m12719 (Context_t3838 * __this, int32_t ___securityProtocolType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context__ctor_m12751 (Context_t3841 * __this, int32_t ___securityProtocolType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.Context::get_AbbreviatedHandshake()
-extern "C" bool Context_get_AbbreviatedHandshake_m12720 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Context_get_AbbreviatedHandshake_m12752 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_AbbreviatedHandshake(System.Boolean)
-extern "C" void Context_set_AbbreviatedHandshake_m12721 (Context_t3838 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_AbbreviatedHandshake_m12753 (Context_t3841 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.Context::get_ProtocolNegotiated()
-extern "C" bool Context_get_ProtocolNegotiated_m12722 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Context_get_ProtocolNegotiated_m12754 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_ProtocolNegotiated(System.Boolean)
-extern "C" void Context_set_ProtocolNegotiated_m12723 (Context_t3838 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_ProtocolNegotiated_m12755 (Context_t3841 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.SecurityProtocolType Mono.Security.Protocol.Tls.Context::get_SecurityProtocol()
-extern "C" int32_t Context_get_SecurityProtocol_m12724 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Context_get_SecurityProtocol_m12756 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_SecurityProtocol(Mono.Security.Protocol.Tls.SecurityProtocolType)
-extern "C" void Context_set_SecurityProtocol_m12725 (Context_t3838 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_SecurityProtocol_m12757 (Context_t3841 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.SecurityProtocolType Mono.Security.Protocol.Tls.Context::get_SecurityProtocolFlags()
-extern "C" int32_t Context_get_SecurityProtocolFlags_m12726 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Context_get_SecurityProtocolFlags_m12758 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 Mono.Security.Protocol.Tls.Context::get_Protocol()
-extern "C" int16_t Context_get_Protocol_m12727 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Context_get_Protocol_m12759 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.Context::get_SessionId()
-extern "C" ByteU5BU5D_t66* Context_get_SessionId_m12728 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* Context_get_SessionId_m12760 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_SessionId(System.Byte[])
-extern "C" void Context_set_SessionId_m12729 (Context_t3838 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_SessionId_m12761 (Context_t3841 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.SecurityCompressionType Mono.Security.Protocol.Tls.Context::get_CompressionMethod()
-extern "C" int32_t Context_get_CompressionMethod_m12730 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Context_get_CompressionMethod_m12762 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_CompressionMethod(Mono.Security.Protocol.Tls.SecurityCompressionType)
-extern "C" void Context_set_CompressionMethod_m12731 (Context_t3838 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_CompressionMethod_m12763 (Context_t3841 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.TlsServerSettings Mono.Security.Protocol.Tls.Context::get_ServerSettings()
-extern "C" TlsServerSettings_t3850 * Context_get_ServerSettings_m12732 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TlsServerSettings_t3853 * Context_get_ServerSettings_m12764 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.TlsClientSettings Mono.Security.Protocol.Tls.Context::get_ClientSettings()
-extern "C" TlsClientSettings_t3851 * Context_get_ClientSettings_m12733 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TlsClientSettings_t3854 * Context_get_ClientSettings_m12765 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.Handshake.HandshakeType Mono.Security.Protocol.Tls.Context::get_LastHandshakeMsg()
-extern "C" uint8_t Context_get_LastHandshakeMsg_m12734 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Context_get_LastHandshakeMsg_m12766 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_LastHandshakeMsg(Mono.Security.Protocol.Tls.Handshake.HandshakeType)
-extern "C" void Context_set_LastHandshakeMsg_m12735 (Context_t3838 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_LastHandshakeMsg_m12767 (Context_t3841 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.HandshakeState Mono.Security.Protocol.Tls.Context::get_HandshakeState()
-extern "C" int32_t Context_get_HandshakeState_m12736 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Context_get_HandshakeState_m12768 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_HandshakeState(Mono.Security.Protocol.Tls.HandshakeState)
-extern "C" void Context_set_HandshakeState_m12737 (Context_t3838 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_HandshakeState_m12769 (Context_t3841 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.Context::get_ReceivedConnectionEnd()
-extern "C" bool Context_get_ReceivedConnectionEnd_m12738 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Context_get_ReceivedConnectionEnd_m12770 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_ReceivedConnectionEnd(System.Boolean)
-extern "C" void Context_set_ReceivedConnectionEnd_m12739 (Context_t3838 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_ReceivedConnectionEnd_m12771 (Context_t3841 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Protocol.Tls.Context::get_SentConnectionEnd()
-extern "C" bool Context_get_SentConnectionEnd_m12740 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Context_get_SentConnectionEnd_m12772 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_SentConnectionEnd(System.Boolean)
-extern "C" void Context_set_SentConnectionEnd_m12741 (Context_t3838 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_SentConnectionEnd_m12773 (Context_t3841 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.CipherSuiteCollection Mono.Security.Protocol.Tls.Context::get_SupportedCiphers()
-extern "C" CipherSuiteCollection_t3841 * Context_get_SupportedCiphers_m12742 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CipherSuiteCollection_t3844 * Context_get_SupportedCiphers_m12774 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_SupportedCiphers(Mono.Security.Protocol.Tls.CipherSuiteCollection)
-extern "C" void Context_set_SupportedCiphers_m12743 (Context_t3838 * __this, CipherSuiteCollection_t3841 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_SupportedCiphers_m12775 (Context_t3841 * __this, CipherSuiteCollection_t3844 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.TlsStream Mono.Security.Protocol.Tls.Context::get_HandshakeMessages()
-extern "C" TlsStream_t3853 * Context_get_HandshakeMessages_m12744 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TlsStream_t3856 * Context_get_HandshakeMessages_m12776 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 Mono.Security.Protocol.Tls.Context::get_WriteSequenceNumber()
-extern "C" uint64_t Context_get_WriteSequenceNumber_m12745 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Context_get_WriteSequenceNumber_m12777 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_WriteSequenceNumber(System.UInt64)
-extern "C" void Context_set_WriteSequenceNumber_m12746 (Context_t3838 * __this, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_WriteSequenceNumber_m12778 (Context_t3841 * __this, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 Mono.Security.Protocol.Tls.Context::get_ReadSequenceNumber()
-extern "C" uint64_t Context_get_ReadSequenceNumber_m12747 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Context_get_ReadSequenceNumber_m12779 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_ReadSequenceNumber(System.UInt64)
-extern "C" void Context_set_ReadSequenceNumber_m12748 (Context_t3838 * __this, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_ReadSequenceNumber_m12780 (Context_t3841 * __this, uint64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.Context::get_ClientRandom()
-extern "C" ByteU5BU5D_t66* Context_get_ClientRandom_m12749 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* Context_get_ClientRandom_m12781 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_ClientRandom(System.Byte[])
-extern "C" void Context_set_ClientRandom_m12750 (Context_t3838 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_ClientRandom_m12782 (Context_t3841 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.Context::get_ServerRandom()
-extern "C" ByteU5BU5D_t66* Context_get_ServerRandom_m12751 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* Context_get_ServerRandom_m12783 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_ServerRandom(System.Byte[])
-extern "C" void Context_set_ServerRandom_m12752 (Context_t3838 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_ServerRandom_m12784 (Context_t3841 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.Context::get_RandomCS()
-extern "C" ByteU5BU5D_t66* Context_get_RandomCS_m12753 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* Context_get_RandomCS_m12785 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_RandomCS(System.Byte[])
-extern "C" void Context_set_RandomCS_m12754 (Context_t3838 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_RandomCS_m12786 (Context_t3841 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.Context::get_RandomSC()
-extern "C" ByteU5BU5D_t66* Context_get_RandomSC_m12755 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* Context_get_RandomSC_m12787 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_RandomSC(System.Byte[])
-extern "C" void Context_set_RandomSC_m12756 (Context_t3838 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_RandomSC_m12788 (Context_t3841 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.Context::get_MasterSecret()
-extern "C" ByteU5BU5D_t66* Context_get_MasterSecret_m12757 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* Context_get_MasterSecret_m12789 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_MasterSecret(System.Byte[])
-extern "C" void Context_set_MasterSecret_m12758 (Context_t3838 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_MasterSecret_m12790 (Context_t3841 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.Context::get_ClientWriteKey()
-extern "C" ByteU5BU5D_t66* Context_get_ClientWriteKey_m12759 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* Context_get_ClientWriteKey_m12791 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_ClientWriteKey(System.Byte[])
-extern "C" void Context_set_ClientWriteKey_m12760 (Context_t3838 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_ClientWriteKey_m12792 (Context_t3841 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.Context::get_ServerWriteKey()
-extern "C" ByteU5BU5D_t66* Context_get_ServerWriteKey_m12761 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* Context_get_ServerWriteKey_m12793 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_ServerWriteKey(System.Byte[])
-extern "C" void Context_set_ServerWriteKey_m12762 (Context_t3838 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_ServerWriteKey_m12794 (Context_t3841 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.Context::get_ClientWriteIV()
-extern "C" ByteU5BU5D_t66* Context_get_ClientWriteIV_m12763 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* Context_get_ClientWriteIV_m12795 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_ClientWriteIV(System.Byte[])
-extern "C" void Context_set_ClientWriteIV_m12764 (Context_t3838 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_ClientWriteIV_m12796 (Context_t3841 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.Context::get_ServerWriteIV()
-extern "C" ByteU5BU5D_t66* Context_get_ServerWriteIV_m12765 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* Context_get_ServerWriteIV_m12797 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_ServerWriteIV(System.Byte[])
-extern "C" void Context_set_ServerWriteIV_m12766 (Context_t3838 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_ServerWriteIV_m12798 (Context_t3841 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.RecordProtocol Mono.Security.Protocol.Tls.Context::get_RecordProtocol()
-extern "C" RecordProtocol_t3846 * Context_get_RecordProtocol_m12767 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RecordProtocol_t3849 * Context_get_RecordProtocol_m12799 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::set_RecordProtocol(Mono.Security.Protocol.Tls.RecordProtocol)
-extern "C" void Context_set_RecordProtocol_m12768 (Context_t3838 * __this, RecordProtocol_t3846 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_set_RecordProtocol_m12800 (Context_t3841 * __this, RecordProtocol_t3849 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Protocol.Tls.Context::GetUnixTime()
-extern "C" int32_t Context_GetUnixTime_m12769 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Context_GetUnixTime_m12801 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.Context::GetSecureRandomBytes(System.Int32)
-extern "C" ByteU5BU5D_t66* Context_GetSecureRandomBytes_m12770 (Context_t3838 * __this, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* Context_GetSecureRandomBytes_m12802 (Context_t3841 * __this, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::Clear()
-extern "C" void Context_Clear_m12771 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_Clear_m12803 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::ClearKeyInfo()
-extern "C" void Context_ClearKeyInfo_m12772 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_ClearKeyInfo_m12804 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.SecurityProtocolType Mono.Security.Protocol.Tls.Context::DecodeProtocolCode(System.Int16)
-extern "C" int32_t Context_DecodeProtocolCode_m12773 (Context_t3838 * __this, int16_t ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Context_DecodeProtocolCode_m12805 (Context_t3841 * __this, int16_t ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::ChangeProtocol(System.Int16)
-extern "C" void Context_ChangeProtocol_m12774 (Context_t3838 * __this, int16_t ___protocol, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_ChangeProtocol_m12806 (Context_t3841 * __this, int16_t ___protocol, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.SecurityParameters Mono.Security.Protocol.Tls.Context::get_Current()
-extern "C" SecurityParameters_t3852 * Context_get_Current_m12775 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SecurityParameters_t3855 * Context_get_Current_m12807 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.SecurityParameters Mono.Security.Protocol.Tls.Context::get_Negotiating()
-extern "C" SecurityParameters_t3852 * Context_get_Negotiating_m12776 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SecurityParameters_t3855 * Context_get_Negotiating_m12808 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.SecurityParameters Mono.Security.Protocol.Tls.Context::get_Read()
-extern "C" SecurityParameters_t3852 * Context_get_Read_m12777 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SecurityParameters_t3855 * Context_get_Read_m12809 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.SecurityParameters Mono.Security.Protocol.Tls.Context::get_Write()
-extern "C" SecurityParameters_t3852 * Context_get_Write_m12778 (Context_t3838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SecurityParameters_t3855 * Context_get_Write_m12810 (Context_t3841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::StartSwitchingSecurityParameters(System.Boolean)
-extern "C" void Context_StartSwitchingSecurityParameters_m12779 (Context_t3838 * __this, bool ___client, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_StartSwitchingSecurityParameters_m12811 (Context_t3841 * __this, bool ___client, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Context::EndSwitchingSecurityParameters(System.Boolean)
-extern "C" void Context_EndSwitchingSecurityParameters_m12780 (Context_t3838 * __this, bool ___client, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_EndSwitchingSecurityParameters_m12812 (Context_t3841 * __this, bool ___client, const MethodInfo* method) IL2CPP_METHOD_ATTR;

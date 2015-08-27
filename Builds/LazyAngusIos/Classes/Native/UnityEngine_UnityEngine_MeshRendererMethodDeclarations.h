@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.MeshRenderer
-struct MeshRenderer_t789;
+struct MeshRenderer_t792;
 

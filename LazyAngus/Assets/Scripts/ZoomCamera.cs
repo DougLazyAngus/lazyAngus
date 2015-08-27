@@ -1,16 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ZoomCamera : MonoBehaviour {
+public class ZoomCamera : BounceLerp {
 	public float zoomOutScale = 1.5f;
-	public float zoomInScale = 0.95f;
-
 
 	float phaseStartTime;
+	float timeToStartZooming;
+
 	Camera myCamera;
 	SizeCamera mySizeCamera;
-	
+
 	bool registeredForEvents;
+	bool zooming;
+
 
 	void Awake() {
 		myCamera = GetComponent<Camera>();
@@ -26,49 +28,58 @@ public class ZoomCamera : MonoBehaviour {
 	}
 	
 	void Update() {
-		UpdateCameraSize ();
+		if (zooming) {
+			UpdateCameraSize ();
+		}
 	}
 	
 	public void UpdateCameraSize() {
 		float scale;
-		float tFraction;
-		float[] coefficients;
-		
+		bool isFinished;
+
 		switch (GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.PENDING: 
 		{
-			float timeToStartZooming = (phaseStartTime + TweakableParams.cameraZoomOutPause);
-			tFraction = (Time.time - timeToStartZooming) / TweakableParams.cameraZoomOutTime;
-			if (tFraction < 0) {
-				scale = 1;
-			} else if (tFraction <= 1) {
-				coefficients = Utilities.GetBlendingCoefficients(tFraction, 3);
-				scale = coefficients[0] + coefficients[1] * zoomInScale + 
-					coefficients[2] * zoomOutScale;
+			float timeDelta = (Time.time - timeToStartZooming);
+			if (timeDelta < 0) {
+				scale = 1f;
 			} else {
-				scale = zoomOutScale;
+				periodOffsetDeg = 270f;
+				additionalScale = (1 - 1/zoomOutScale);
+				totalPeriods = 0.5f;
+				secondsPerPeriod = TweakableParams.cameraZoomOutTime/totalPeriods;
+
+				scale = zoomOutScale * GetCoefficientForTime(timeDelta, out isFinished);
+				if (isFinished) {
+					zooming = false;
+				}
 			}
 			break;
 		}
 		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
 		{
-			float timeToStartZooming = (phaseStartTime + TweakableParams.cameraZoomInPause);
-			tFraction = (Time.time - timeToStartZooming) / TweakableParams.cameraZoomInTime;
-			if (tFraction < 0) {
+			float timeDelta = (Time.time - timeToStartZooming);
+			if (timeDelta < 0) {
 				scale = zoomOutScale;
-			} else if (tFraction <= 1) {
-				coefficients = Utilities.GetBlendingCoefficients(tFraction, 3);
-				scale = coefficients[0] * zoomOutScale + coefficients[1] * zoomInScale + 
-					coefficients[2];
 			} else {
-				scale = 1;
+				periodOffsetDeg = 90f;
+				additionalScale = (zoomOutScale - 1);
+				totalPeriods = 0.4f;
+				secondsPerPeriod = TweakableParams.cameraZoomInTime/totalPeriods;
+
+				scale = GetCoefficientForTime(timeDelta, out isFinished);
+				if (isFinished) {
+					zooming = false;
+				}
 			}
 			break;
 		}
 		default:
+			zooming = false;
 			scale = zoomOutScale;
 			break;
 		}
+
 		float height = scale * mySizeCamera.finalWorldHalfHeight;
 		if (myCamera.orthographicSize != height) {
 			myCamera.orthographicSize = height;
@@ -94,5 +105,13 @@ public class ZoomCamera : MonoBehaviour {
 	
 	void OnGamePhaseChanged() {
 		phaseStartTime = Time.time;
+		zooming = true;
+
+		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.PENDING) {
+			timeToStartZooming = (phaseStartTime + TweakableParams.cameraZoomOutPause);
+		} 
+		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.LEVEL_PLAY) {
+			timeToStartZooming = (phaseStartTime + TweakableParams.cameraZoomInPause);
+		}
 	}
 }

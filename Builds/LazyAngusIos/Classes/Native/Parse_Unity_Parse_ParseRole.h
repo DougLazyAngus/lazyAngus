@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.Regex
-struct Regex_t785;
+struct Regex_t788;
 // Parse.ParseObject
 #include "Parse_Unity_Parse_ParseObject.h"
 // Parse.ParseRole
-struct  ParseRole_t1298  : public ParseObject_t1219
+struct  ParseRole_t1301  : public ParseObject_t1222
 {
 };
-struct ParseRole_t1298_StaticFields{
+struct ParseRole_t1301_StaticFields{
 	// System.Text.RegularExpressions.Regex Parse.ParseRole::namePattern
-	Regex_t785 * ___namePattern_30;
+	Regex_t788 * ___namePattern_30;
 };

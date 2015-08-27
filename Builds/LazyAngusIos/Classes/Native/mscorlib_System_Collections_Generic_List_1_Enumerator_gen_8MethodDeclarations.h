@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.List`1/Enumerator<Facebook.FacebookDelegate>
-struct Enumerator_t764;
+struct Enumerator_t767;
 // System.Object
 struct Object_t;
 // Facebook.FacebookDelegate
@@ -16,16 +16,16 @@ struct List_1_t412;
 // System.Void System.Collections.Generic.List`1/Enumerator<Facebook.FacebookDelegate>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m26105(__this, ___l, method) (( void (*) (Enumerator_t764 *, List_1_t412 *, const MethodInfo*))Enumerator__ctor_m21640_gshared)(__this, ___l, method)
+#define Enumerator__ctor_m26137(__this, ___l, method) (( void (*) (Enumerator_t767 *, List_1_t412 *, const MethodInfo*))Enumerator__ctor_m21672_gshared)(__this, ___l, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<Facebook.FacebookDelegate>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m26106(__this, method) (( void (*) (Enumerator_t764 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21641_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_Reset_m26138(__this, method) (( void (*) (Enumerator_t767 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m21673_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1/Enumerator<Facebook.FacebookDelegate>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m26107(__this, method) (( Object_t * (*) (Enumerator_t764 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21642_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_get_Current_m26139(__this, method) (( Object_t * (*) (Enumerator_t767 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m21674_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<Facebook.FacebookDelegate>::Dispose()
-#define Enumerator_Dispose_m26108(__this, method) (( void (*) (Enumerator_t764 *, const MethodInfo*))Enumerator_Dispose_m21643_gshared)(__this, method)
+#define Enumerator_Dispose_m26140(__this, method) (( void (*) (Enumerator_t767 *, const MethodInfo*))Enumerator_Dispose_m21675_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<Facebook.FacebookDelegate>::VerifyState()
-#define Enumerator_VerifyState_m26109(__this, method) (( void (*) (Enumerator_t764 *, const MethodInfo*))Enumerator_VerifyState_m21644_gshared)(__this, method)
+#define Enumerator_VerifyState_m26141(__this, method) (( void (*) (Enumerator_t767 *, const MethodInfo*))Enumerator_VerifyState_m21676_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1/Enumerator<Facebook.FacebookDelegate>::MoveNext()
-#define Enumerator_MoveNext_m4037(__this, method) (( bool (*) (Enumerator_t764 *, const MethodInfo*))Enumerator_MoveNext_m3857_gshared)(__this, method)
+#define Enumerator_MoveNext_m4066(__this, method) (( bool (*) (Enumerator_t767 *, const MethodInfo*))Enumerator_MoveNext_m3886_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<Facebook.FacebookDelegate>::get_Current()
-#define Enumerator_get_Current_m4036(__this, method) (( FacebookDelegate_t433 * (*) (Enumerator_t764 *, const MethodInfo*))Enumerator_get_Current_m3856_gshared)(__this, method)
+#define Enumerator_get_Current_m4065(__this, method) (( FacebookDelegate_t433 * (*) (Enumerator_t767 *, const MethodInfo*))Enumerator_get_Current_m3885_gshared)(__this, method)

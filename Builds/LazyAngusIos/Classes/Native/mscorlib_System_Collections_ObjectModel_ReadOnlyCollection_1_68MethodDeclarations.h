@@ -5,109 +5,109 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>
-struct ReadOnlyCollection_1_t6866;
+struct ReadOnlyCollection_1_t6869;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IList`1<Parse.ParseGeoPoint>
-struct IList_1_t6855;
+struct IList_1_t6858;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // Parse.ParseGeoPoint[]
-struct ParseGeoPointU5BU5D_t6863;
+struct ParseGeoPointU5BU5D_t6866;
 // System.Collections.Generic.IEnumerator`1<Parse.ParseGeoPoint>
-struct IEnumerator_1_t6858;
+struct IEnumerator_1_t6861;
 // Parse.ParseGeoPoint
 #include "Parse_Unity_Parse_ParseGeoPoint.h"
 
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::.ctor(System.Collections.Generic.IList`1<T>)
-extern "C" void ReadOnlyCollection_1__ctor_m42099_gshared (ReadOnlyCollection_1_t6866 * __this, Object_t* ___list, const MethodInfo* method);
-#define ReadOnlyCollection_1__ctor_m42099(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t6866 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m42099_gshared)(__this, ___list, method)
+extern "C" void ReadOnlyCollection_1__ctor_m42131_gshared (ReadOnlyCollection_1_t6869 * __this, Object_t* ___list, const MethodInfo* method);
+#define ReadOnlyCollection_1__ctor_m42131(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t6869 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m42131_gshared)(__this, ___list, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<T>.Add(T)
-extern "C" void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m42100_gshared (ReadOnlyCollection_1_t6866 * __this, ParseGeoPoint_t1245  ___item, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m42100(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t6866 *, ParseGeoPoint_t1245 , const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m42100_gshared)(__this, ___item, method)
+extern "C" void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m42132_gshared (ReadOnlyCollection_1_t6869 * __this, ParseGeoPoint_t1248  ___item, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m42132(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t6869 *, ParseGeoPoint_t1248 , const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m42132_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<T>.Clear()
-extern "C" void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m42101_gshared (ReadOnlyCollection_1_t6866 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m42101(__this, method) (( void (*) (ReadOnlyCollection_1_t6866 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m42101_gshared)(__this, method)
+extern "C" void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m42133_gshared (ReadOnlyCollection_1_t6869 * __this, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m42133(__this, method) (( void (*) (ReadOnlyCollection_1_t6869 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m42133_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
-extern "C" void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m42102_gshared (ReadOnlyCollection_1_t6866 * __this, int32_t ___index, ParseGeoPoint_t1245  ___item, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m42102(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t6866 *, int32_t, ParseGeoPoint_t1245 , const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m42102_gshared)(__this, ___index, ___item, method)
+extern "C" void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m42134_gshared (ReadOnlyCollection_1_t6869 * __this, int32_t ___index, ParseGeoPoint_t1248  ___item, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m42134(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t6869 *, int32_t, ParseGeoPoint_t1248 , const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m42134_gshared)(__this, ___index, ___item, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<T>.Remove(T)
-extern "C" bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m42103_gshared (ReadOnlyCollection_1_t6866 * __this, ParseGeoPoint_t1245  ___item, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m42103(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t6866 *, ParseGeoPoint_t1245 , const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m42103_gshared)(__this, ___item, method)
+extern "C" bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m42135_gshared (ReadOnlyCollection_1_t6869 * __this, ParseGeoPoint_t1248  ___item, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m42135(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t6869 *, ParseGeoPoint_t1248 , const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m42135_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
-extern "C" void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m42104_gshared (ReadOnlyCollection_1_t6866 * __this, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m42104(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t6866 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m42104_gshared)(__this, ___index, method)
+extern "C" void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m42136_gshared (ReadOnlyCollection_1_t6869 * __this, int32_t ___index, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m42136(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t6869 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m42136_gshared)(__this, ___index, method)
 // T System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
-extern "C" ParseGeoPoint_t1245  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m42105_gshared (ReadOnlyCollection_1_t6866 * __this, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m42105(__this, ___index, method) (( ParseGeoPoint_t1245  (*) (ReadOnlyCollection_1_t6866 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m42105_gshared)(__this, ___index, method)
+extern "C" ParseGeoPoint_t1248  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m42137_gshared (ReadOnlyCollection_1_t6869 * __this, int32_t ___index, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m42137(__this, ___index, method) (( ParseGeoPoint_t1248  (*) (ReadOnlyCollection_1_t6869 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m42137_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
-extern "C" void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m42106_gshared (ReadOnlyCollection_1_t6866 * __this, int32_t ___index, ParseGeoPoint_t1245  ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m42106(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6866 *, int32_t, ParseGeoPoint_t1245 , const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m42106_gshared)(__this, ___index, ___value, method)
+extern "C" void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m42138_gshared (ReadOnlyCollection_1_t6869 * __this, int32_t ___index, ParseGeoPoint_t1248  ___value, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m42138(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6869 *, int32_t, ParseGeoPoint_t1248 , const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m42138_gshared)(__this, ___index, ___value, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-extern "C" bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m42107_gshared (ReadOnlyCollection_1_t6866 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m42107(__this, method) (( bool (*) (ReadOnlyCollection_1_t6866 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m42107_gshared)(__this, method)
+extern "C" bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m42139_gshared (ReadOnlyCollection_1_t6869 * __this, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m42139(__this, method) (( bool (*) (ReadOnlyCollection_1_t6869 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m42139_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C" void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m42108_gshared (ReadOnlyCollection_1_t6866 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m42108(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t6866 *, Array_t *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m42108_gshared)(__this, ___array, ___index, method)
+extern "C" void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m42140_gshared (ReadOnlyCollection_1_t6869 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m42140(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t6869 *, Array_t *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m42140_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m42109_gshared (ReadOnlyCollection_1_t6866 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m42109(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t6866 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m42109_gshared)(__this, method)
+extern "C" Object_t * ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m42141_gshared (ReadOnlyCollection_1_t6869 * __this, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m42141(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t6869 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m42141_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.IList.Add(System.Object)
-extern "C" int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m42110_gshared (ReadOnlyCollection_1_t6866 * __this, Object_t * ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_Add_m42110(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6866 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Add_m42110_gshared)(__this, ___value, method)
+extern "C" int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m42142_gshared (ReadOnlyCollection_1_t6869 * __this, Object_t * ___value, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_IList_Add_m42142(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6869 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Add_m42142_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.IList.Clear()
-extern "C" void ReadOnlyCollection_1_System_Collections_IList_Clear_m42111_gshared (ReadOnlyCollection_1_t6866 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_Clear_m42111(__this, method) (( void (*) (ReadOnlyCollection_1_t6866 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Clear_m42111_gshared)(__this, method)
+extern "C" void ReadOnlyCollection_1_System_Collections_IList_Clear_m42143_gshared (ReadOnlyCollection_1_t6869 * __this, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_IList_Clear_m42143(__this, method) (( void (*) (ReadOnlyCollection_1_t6869 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Clear_m42143_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.IList.Contains(System.Object)
-extern "C" bool ReadOnlyCollection_1_System_Collections_IList_Contains_m42112_gshared (ReadOnlyCollection_1_t6866 * __this, Object_t * ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_Contains_m42112(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t6866 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Contains_m42112_gshared)(__this, ___value, method)
+extern "C" bool ReadOnlyCollection_1_System_Collections_IList_Contains_m42144_gshared (ReadOnlyCollection_1_t6869 * __this, Object_t * ___value, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_IList_Contains_m42144(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t6869 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Contains_m42144_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.IList.IndexOf(System.Object)
-extern "C" int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m42113_gshared (ReadOnlyCollection_1_t6866 * __this, Object_t * ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_IndexOf_m42113(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6866 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_IndexOf_m42113_gshared)(__this, ___value, method)
+extern "C" int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m42145_gshared (ReadOnlyCollection_1_t6869 * __this, Object_t * ___value, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_IList_IndexOf_m42145(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6869 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_IndexOf_m42145_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.IList.Insert(System.Int32,System.Object)
-extern "C" void ReadOnlyCollection_1_System_Collections_IList_Insert_m42114_gshared (ReadOnlyCollection_1_t6866 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_Insert_m42114(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6866 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Insert_m42114_gshared)(__this, ___index, ___value, method)
+extern "C" void ReadOnlyCollection_1_System_Collections_IList_Insert_m42146_gshared (ReadOnlyCollection_1_t6869 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_IList_Insert_m42146(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6869 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Insert_m42146_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.IList.Remove(System.Object)
-extern "C" void ReadOnlyCollection_1_System_Collections_IList_Remove_m42115_gshared (ReadOnlyCollection_1_t6866 * __this, Object_t * ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_Remove_m42115(__this, ___value, method) (( void (*) (ReadOnlyCollection_1_t6866 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Remove_m42115_gshared)(__this, ___value, method)
+extern "C" void ReadOnlyCollection_1_System_Collections_IList_Remove_m42147_gshared (ReadOnlyCollection_1_t6869 * __this, Object_t * ___value, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_IList_Remove_m42147(__this, ___value, method) (( void (*) (ReadOnlyCollection_1_t6869 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Remove_m42147_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.IList.RemoveAt(System.Int32)
-extern "C" void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m42116_gshared (ReadOnlyCollection_1_t6866 * __this, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m42116(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t6866 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m42116_gshared)(__this, ___index, method)
+extern "C" void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m42148_gshared (ReadOnlyCollection_1_t6869 * __this, int32_t ___index, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m42148(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t6869 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m42148_gshared)(__this, ___index, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.ICollection.get_IsSynchronized()
-extern "C" bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m42117_gshared (ReadOnlyCollection_1_t6866 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m42117(__this, method) (( bool (*) (ReadOnlyCollection_1_t6866 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m42117_gshared)(__this, method)
+extern "C" bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m42149_gshared (ReadOnlyCollection_1_t6869 * __this, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m42149(__this, method) (( bool (*) (ReadOnlyCollection_1_t6869 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m42149_gshared)(__this, method)
 // System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.ICollection.get_SyncRoot()
-extern "C" Object_t * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m42118_gshared (ReadOnlyCollection_1_t6866 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m42118(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t6866 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m42118_gshared)(__this, method)
+extern "C" Object_t * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m42150_gshared (ReadOnlyCollection_1_t6869 * __this, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m42150(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t6869 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m42150_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.IList.get_IsFixedSize()
-extern "C" bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m42119_gshared (ReadOnlyCollection_1_t6866 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m42119(__this, method) (( bool (*) (ReadOnlyCollection_1_t6866 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m42119_gshared)(__this, method)
+extern "C" bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m42151_gshared (ReadOnlyCollection_1_t6869 * __this, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m42151(__this, method) (( bool (*) (ReadOnlyCollection_1_t6869 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m42151_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.IList.get_IsReadOnly()
-extern "C" bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m42120_gshared (ReadOnlyCollection_1_t6866 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m42120(__this, method) (( bool (*) (ReadOnlyCollection_1_t6866 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m42120_gshared)(__this, method)
+extern "C" bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m42152_gshared (ReadOnlyCollection_1_t6869 * __this, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m42152(__this, method) (( bool (*) (ReadOnlyCollection_1_t6869 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m42152_gshared)(__this, method)
 // System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.IList.get_Item(System.Int32)
-extern "C" Object_t * ReadOnlyCollection_1_System_Collections_IList_get_Item_m42121_gshared (ReadOnlyCollection_1_t6866 * __this, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_get_Item_m42121(__this, ___index, method) (( Object_t * (*) (ReadOnlyCollection_1_t6866 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_Item_m42121_gshared)(__this, ___index, method)
+extern "C" Object_t * ReadOnlyCollection_1_System_Collections_IList_get_Item_m42153_gshared (ReadOnlyCollection_1_t6869 * __this, int32_t ___index, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_IList_get_Item_m42153(__this, ___index, method) (( Object_t * (*) (ReadOnlyCollection_1_t6869 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_Item_m42153_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::System.Collections.IList.set_Item(System.Int32,System.Object)
-extern "C" void ReadOnlyCollection_1_System_Collections_IList_set_Item_m42122_gshared (ReadOnlyCollection_1_t6866 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_System_Collections_IList_set_Item_m42122(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6866 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m42122_gshared)(__this, ___index, ___value, method)
+extern "C" void ReadOnlyCollection_1_System_Collections_IList_set_Item_m42154_gshared (ReadOnlyCollection_1_t6869 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
+#define ReadOnlyCollection_1_System_Collections_IList_set_Item_m42154(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6869 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m42154_gshared)(__this, ___index, ___value, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::Contains(T)
-extern "C" bool ReadOnlyCollection_1_Contains_m42123_gshared (ReadOnlyCollection_1_t6866 * __this, ParseGeoPoint_t1245  ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_Contains_m42123(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t6866 *, ParseGeoPoint_t1245 , const MethodInfo*))ReadOnlyCollection_1_Contains_m42123_gshared)(__this, ___value, method)
+extern "C" bool ReadOnlyCollection_1_Contains_m42155_gshared (ReadOnlyCollection_1_t6869 * __this, ParseGeoPoint_t1248  ___value, const MethodInfo* method);
+#define ReadOnlyCollection_1_Contains_m42155(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t6869 *, ParseGeoPoint_t1248 , const MethodInfo*))ReadOnlyCollection_1_Contains_m42155_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::CopyTo(T[],System.Int32)
-extern "C" void ReadOnlyCollection_1_CopyTo_m42124_gshared (ReadOnlyCollection_1_t6866 * __this, ParseGeoPointU5BU5D_t6863* ___array, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_CopyTo_m42124(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t6866 *, ParseGeoPointU5BU5D_t6863*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m42124_gshared)(__this, ___array, ___index, method)
+extern "C" void ReadOnlyCollection_1_CopyTo_m42156_gshared (ReadOnlyCollection_1_t6869 * __this, ParseGeoPointU5BU5D_t6866* ___array, int32_t ___index, const MethodInfo* method);
+#define ReadOnlyCollection_1_CopyTo_m42156(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t6869 *, ParseGeoPointU5BU5D_t6866*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m42156_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::GetEnumerator()
-extern "C" Object_t* ReadOnlyCollection_1_GetEnumerator_m42125_gshared (ReadOnlyCollection_1_t6866 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_GetEnumerator_m42125(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t6866 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m42125_gshared)(__this, method)
+extern "C" Object_t* ReadOnlyCollection_1_GetEnumerator_m42157_gshared (ReadOnlyCollection_1_t6869 * __this, const MethodInfo* method);
+#define ReadOnlyCollection_1_GetEnumerator_m42157(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t6869 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m42157_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::IndexOf(T)
-extern "C" int32_t ReadOnlyCollection_1_IndexOf_m42126_gshared (ReadOnlyCollection_1_t6866 * __this, ParseGeoPoint_t1245  ___value, const MethodInfo* method);
-#define ReadOnlyCollection_1_IndexOf_m42126(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6866 *, ParseGeoPoint_t1245 , const MethodInfo*))ReadOnlyCollection_1_IndexOf_m42126_gshared)(__this, ___value, method)
+extern "C" int32_t ReadOnlyCollection_1_IndexOf_m42158_gshared (ReadOnlyCollection_1_t6869 * __this, ParseGeoPoint_t1248  ___value, const MethodInfo* method);
+#define ReadOnlyCollection_1_IndexOf_m42158(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6869 *, ParseGeoPoint_t1248 , const MethodInfo*))ReadOnlyCollection_1_IndexOf_m42158_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::get_Count()
-extern "C" int32_t ReadOnlyCollection_1_get_Count_m42127_gshared (ReadOnlyCollection_1_t6866 * __this, const MethodInfo* method);
-#define ReadOnlyCollection_1_get_Count_m42127(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t6866 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m42127_gshared)(__this, method)
+extern "C" int32_t ReadOnlyCollection_1_get_Count_m42159_gshared (ReadOnlyCollection_1_t6869 * __this, const MethodInfo* method);
+#define ReadOnlyCollection_1_get_Count_m42159(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t6869 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m42159_gshared)(__this, method)
 // T System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseGeoPoint>::get_Item(System.Int32)
-extern "C" ParseGeoPoint_t1245  ReadOnlyCollection_1_get_Item_m42128_gshared (ReadOnlyCollection_1_t6866 * __this, int32_t ___index, const MethodInfo* method);
-#define ReadOnlyCollection_1_get_Item_m42128(__this, ___index, method) (( ParseGeoPoint_t1245  (*) (ReadOnlyCollection_1_t6866 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m42128_gshared)(__this, ___index, method)
+extern "C" ParseGeoPoint_t1248  ReadOnlyCollection_1_get_Item_m42160_gshared (ReadOnlyCollection_1_t6869 * __this, int32_t ___index, const MethodInfo* method);
+#define ReadOnlyCollection_1_get_Item_m42160(__this, ___index, method) (( ParseGeoPoint_t1248  (*) (ReadOnlyCollection_1_t6869 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m42160_gshared)(__this, ___index, method)

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Diagnostics.DebuggerBrowsableAttribute
-struct DebuggerBrowsableAttribute_t2213;
+struct DebuggerBrowsableAttribute_t2216;
 // System.Diagnostics.DebuggerBrowsableState
 #include "mscorlib_System_Diagnostics_DebuggerBrowsableState.h"
 
 // System.Void System.Diagnostics.DebuggerBrowsableAttribute::.ctor(System.Diagnostics.DebuggerBrowsableState)
-extern "C" void DebuggerBrowsableAttribute__ctor_m8212 (DebuggerBrowsableAttribute_t2213 * __this, int32_t ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DebuggerBrowsableAttribute__ctor_m8244 (DebuggerBrowsableAttribute_t2216 * __this, int32_t ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;

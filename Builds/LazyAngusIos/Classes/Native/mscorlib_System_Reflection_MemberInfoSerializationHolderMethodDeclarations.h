@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.MemberInfoSerializationHolder
-struct MemberInfoSerializationHolder_t4535;
+struct MemberInfoSerializationHolder_t4538;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2917;
+struct SerializationInfo_t2920;
 // System.String
 struct String_t;
 // System.Type
 struct Type_t;
 // System.Type[]
-struct TypeU5BU5D_t1201;
+struct TypeU5BU5D_t1204;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.StreamingContext
@@ -22,12 +22,12 @@ struct Object_t;
 #include "mscorlib_System_Reflection_MemberTypes.h"
 
 // System.Void System.Reflection.MemberInfoSerializationHolder::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MemberInfoSerializationHolder__ctor_m17924 (MemberInfoSerializationHolder_t4535 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberInfoSerializationHolder__ctor_m17956 (MemberInfoSerializationHolder_t4538 * __this, SerializationInfo_t2920 * ___info, StreamingContext_t2921  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.MemberInfoSerializationHolder::Serialize(System.Runtime.Serialization.SerializationInfo,System.String,System.Type,System.String,System.Reflection.MemberTypes)
-extern "C" void MemberInfoSerializationHolder_Serialize_m17925 (Object_t * __this /* static, unused */, SerializationInfo_t2917 * ___info, String_t* ___name, Type_t * ___klass, String_t* ___signature, int32_t ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberInfoSerializationHolder_Serialize_m17957 (Object_t * __this /* static, unused */, SerializationInfo_t2920 * ___info, String_t* ___name, Type_t * ___klass, String_t* ___signature, int32_t ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.MemberInfoSerializationHolder::Serialize(System.Runtime.Serialization.SerializationInfo,System.String,System.Type,System.String,System.Reflection.MemberTypes,System.Type[])
-extern "C" void MemberInfoSerializationHolder_Serialize_m17926 (Object_t * __this /* static, unused */, SerializationInfo_t2917 * ___info, String_t* ___name, Type_t * ___klass, String_t* ___signature, int32_t ___type, TypeU5BU5D_t1201* ___genericArguments, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberInfoSerializationHolder_Serialize_m17958 (Object_t * __this /* static, unused */, SerializationInfo_t2920 * ___info, String_t* ___name, Type_t * ___klass, String_t* ___signature, int32_t ___type, TypeU5BU5D_t1204* ___genericArguments, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.MemberInfoSerializationHolder::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MemberInfoSerializationHolder_GetObjectData_m17927 (MemberInfoSerializationHolder_t4535 * __this, SerializationInfo_t2917 * ___info, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberInfoSerializationHolder_GetObjectData_m17959 (MemberInfoSerializationHolder_t4538 * __this, SerializationInfo_t2920 * ___info, StreamingContext_t2921  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.MemberInfoSerializationHolder::GetRealObject(System.Runtime.Serialization.StreamingContext)
-extern "C" Object_t * MemberInfoSerializationHolder_GetRealObject_m17928 (MemberInfoSerializationHolder_t4535 * __this, StreamingContext_t2918  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MemberInfoSerializationHolder_GetRealObject_m17960 (MemberInfoSerializationHolder_t4538 * __this, StreamingContext_t2921  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

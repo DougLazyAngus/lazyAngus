@@ -5,7 +5,7 @@ struct Object_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Hashtable/Slot
-struct  Slot_t4438 
+struct  Slot_t4441 
 {
 	// System.Object System.Collections.Hashtable/Slot::key
 	Object_t * ___key_0;

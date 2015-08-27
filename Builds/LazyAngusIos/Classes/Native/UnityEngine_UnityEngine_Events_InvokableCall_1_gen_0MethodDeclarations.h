@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.InvokableCall`1<UnityEngine.Color>
-struct InvokableCall_1_t5828;
+struct InvokableCall_1_t5831;
 // System.Object
 struct Object_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // UnityEngine.Events.UnityAction`1<UnityEngine.Color>
-struct UnityAction_1_t1038;
+struct UnityAction_1_t1041;
 // System.Object[]
-struct ObjectU5BU5D_t680;
+struct ObjectU5BU5D_t683;
 
 // System.Void UnityEngine.Events.InvokableCall`1<UnityEngine.Color>::.ctor(System.Object,System.Reflection.MethodInfo)
-extern "C" void InvokableCall_1__ctor_m28795_gshared (InvokableCall_1_t5828 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method);
-#define InvokableCall_1__ctor_m28795(__this, ___target, ___theFunction, method) (( void (*) (InvokableCall_1_t5828 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_1__ctor_m28795_gshared)(__this, ___target, ___theFunction, method)
+extern "C" void InvokableCall_1__ctor_m28827_gshared (InvokableCall_1_t5831 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method);
+#define InvokableCall_1__ctor_m28827(__this, ___target, ___theFunction, method) (( void (*) (InvokableCall_1_t5831 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_1__ctor_m28827_gshared)(__this, ___target, ___theFunction, method)
 // System.Void UnityEngine.Events.InvokableCall`1<UnityEngine.Color>::.ctor(UnityEngine.Events.UnityAction`1<T1>)
-extern "C" void InvokableCall_1__ctor_m28796_gshared (InvokableCall_1_t5828 * __this, UnityAction_1_t1038 * ___callback, const MethodInfo* method);
-#define InvokableCall_1__ctor_m28796(__this, ___callback, method) (( void (*) (InvokableCall_1_t5828 *, UnityAction_1_t1038 *, const MethodInfo*))InvokableCall_1__ctor_m28796_gshared)(__this, ___callback, method)
+extern "C" void InvokableCall_1__ctor_m28828_gshared (InvokableCall_1_t5831 * __this, UnityAction_1_t1041 * ___callback, const MethodInfo* method);
+#define InvokableCall_1__ctor_m28828(__this, ___callback, method) (( void (*) (InvokableCall_1_t5831 *, UnityAction_1_t1041 *, const MethodInfo*))InvokableCall_1__ctor_m28828_gshared)(__this, ___callback, method)
 // System.Void UnityEngine.Events.InvokableCall`1<UnityEngine.Color>::Invoke(System.Object[])
-extern "C" void InvokableCall_1_Invoke_m28797_gshared (InvokableCall_1_t5828 * __this, ObjectU5BU5D_t680* ___args, const MethodInfo* method);
-#define InvokableCall_1_Invoke_m28797(__this, ___args, method) (( void (*) (InvokableCall_1_t5828 *, ObjectU5BU5D_t680*, const MethodInfo*))InvokableCall_1_Invoke_m28797_gshared)(__this, ___args, method)
+extern "C" void InvokableCall_1_Invoke_m28829_gshared (InvokableCall_1_t5831 * __this, ObjectU5BU5D_t683* ___args, const MethodInfo* method);
+#define InvokableCall_1_Invoke_m28829(__this, ___args, method) (( void (*) (InvokableCall_1_t5831 *, ObjectU5BU5D_t683*, const MethodInfo*))InvokableCall_1_Invoke_m28829_gshared)(__this, ___args, method)
 // System.Boolean UnityEngine.Events.InvokableCall`1<UnityEngine.Color>::Find(System.Object,System.Reflection.MethodInfo)
-extern "C" bool InvokableCall_1_Find_m28798_gshared (InvokableCall_1_t5828 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method);
-#define InvokableCall_1_Find_m28798(__this, ___targetObj, ___method, method) (( bool (*) (InvokableCall_1_t5828 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_1_Find_m28798_gshared)(__this, ___targetObj, ___method, method)
+extern "C" bool InvokableCall_1_Find_m28830_gshared (InvokableCall_1_t5831 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method);
+#define InvokableCall_1_Find_m28830(__this, ___targetObj, ___method, method) (( bool (*) (InvokableCall_1_t5831 *, Object_t *, MethodInfo_t *, const MethodInfo*))InvokableCall_1_Find_m28830_gshared)(__this, ___targetObj, ___method, method)

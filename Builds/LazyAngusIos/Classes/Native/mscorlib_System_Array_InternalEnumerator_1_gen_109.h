@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<System.TimeZoneInfo/TimeType>
-struct  InternalEnumerator_1_t8603 
+struct  InternalEnumerator_1_t8606 
 {
 	// System.Array System.Array/InternalEnumerator`1<System.TimeZoneInfo/TimeType>::array
 	Array_t * ___array_0;

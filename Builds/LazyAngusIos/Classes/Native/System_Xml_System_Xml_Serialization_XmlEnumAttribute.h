@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Xml.Serialization.XmlEnumAttribute
-struct  XmlEnumAttribute_t3167  : public Attribute_t426
+struct  XmlEnumAttribute_t3170  : public Attribute_t426
 {
 	// System.String System.Xml.Serialization.XmlEnumAttribute::name
 	String_t* ___name_0;

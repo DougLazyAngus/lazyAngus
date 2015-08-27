@@ -10,6 +10,7 @@ public class GamePhaseState : MonoBehaviour {
 		LEVEL_PLAY,
 		LEVEL_END,
 		GAME_OVER,
+		REAL_ANGUS,
 		PENDING,
 	};
 
@@ -104,7 +105,8 @@ public class GamePhaseState : MonoBehaviour {
 			return (newPhase == GamePhaseType.WELCOME || 
 			        newPhase == GamePhaseType.LEVEL_PLAY);
 		case GamePhaseType.WELCOME:
-			return (newPhase == GamePhaseType.LEVEL_PLAY);
+			return (newPhase == GamePhaseType.LEVEL_PLAY || 
+			        newPhase == GamePhaseType.REAL_ANGUS);
 		case GamePhaseType.LEVEL_PLAY:
 			return (newPhase == GamePhaseType.PENDING);
 		case GamePhaseType.PENDING:
@@ -112,6 +114,11 @@ public class GamePhaseState : MonoBehaviour {
 			        newPhase == GamePhaseType.LEVEL_END);
 		case GamePhaseType.LEVEL_END:
 			return (newPhase == GamePhaseType.LEVEL_PLAY);
+		case GamePhaseType.GAME_OVER:
+			return (newPhase == GamePhaseType.REAL_ANGUS);
+		case GamePhaseType.REAL_ANGUS:
+			return (newPhase == GamePhaseType.GAME_OVER || 
+			        newPhase == GamePhaseType.WELCOME);
 		}
 		return false;
 	}

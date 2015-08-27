@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<UnityEngine.iOS.LocalNotification>
-struct  InternalEnumerator_1_t8421 
+struct  InternalEnumerator_1_t8424 
 {
 	// System.Array System.Array/InternalEnumerator`1<UnityEngine.iOS.LocalNotification>::array
 	Array_t * ___array_0;

@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Security.SecuritySafeCriticalAttribute
-struct  SecuritySafeCriticalAttribute_t2961  : public Attribute_t426
+struct  SecuritySafeCriticalAttribute_t2964  : public Attribute_t426
 {
 };

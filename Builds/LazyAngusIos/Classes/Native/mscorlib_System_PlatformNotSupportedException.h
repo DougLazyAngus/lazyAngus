@@ -3,6 +3,6 @@
 // System.NotSupportedException
 #include "mscorlib_System_NotSupportedException.h"
 // System.PlatformNotSupportedException
-struct  PlatformNotSupportedException_t774  : public NotSupportedException_t56
+struct  PlatformNotSupportedException_t777  : public NotSupportedException_t56
 {
 };

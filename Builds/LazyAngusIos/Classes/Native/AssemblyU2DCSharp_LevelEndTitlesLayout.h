@@ -5,11 +5,11 @@ struct Text_t500;
 // UnityEngine.UI.Image
 struct Image_t501;
 // DistortForEffect
-struct DistortForEffect_t533;
+struct DistortForEffect_t534;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // LevelEndTitlesLayout
-struct  LevelEndTitlesLayout_t588  : public MonoBehaviour_t13
+struct  LevelEndTitlesLayout_t589  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Text LevelEndTitlesLayout::waveTitleText
 	Text_t500 * ___waveTitleText_2;
@@ -22,7 +22,7 @@ struct  LevelEndTitlesLayout_t588  : public MonoBehaviour_t13
 	// System.Boolean LevelEndTitlesLayout::registerdForEvents
 	bool ___registerdForEvents_6;
 	// DistortForEffect LevelEndTitlesLayout::distortForEffect
-	DistortForEffect_t533 * ___distortForEffect_7;
+	DistortForEffect_t534 * ___distortForEffect_7;
 	// System.Boolean LevelEndTitlesLayout::waveDirty
 	bool ___waveDirty_8;
 	// System.Boolean LevelEndTitlesLayout::started

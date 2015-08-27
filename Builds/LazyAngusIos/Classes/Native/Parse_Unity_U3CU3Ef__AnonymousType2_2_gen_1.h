@@ -5,7 +5,7 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // <>f__AnonymousType2`2<System.Object,System.Object>
-struct  U3CU3Ef__AnonymousType2_2_t8379  : public Object_t
+struct  U3CU3Ef__AnonymousType2_2_t8382  : public Object_t
 {
 	// <pair>j__TPar <>f__AnonymousType2`2<System.Object,System.Object>::<pair>i__Field
 	Object_t * ___U3CpairU3Ei__Field_0;

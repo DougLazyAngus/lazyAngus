@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t782;
+struct IDictionaryEnumerator_t785;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Specialized.ListDictionary/DictionaryNodeCollection/DictionaryNodeCollectionEnumerator
-struct  DictionaryNodeCollectionEnumerator_t3957  : public Object_t
+struct  DictionaryNodeCollectionEnumerator_t3960  : public Object_t
 {
 	// System.Collections.IDictionaryEnumerator System.Collections.Specialized.ListDictionary/DictionaryNodeCollection/DictionaryNodeCollectionEnumerator::inner
 	Object_t * ___inner_0;

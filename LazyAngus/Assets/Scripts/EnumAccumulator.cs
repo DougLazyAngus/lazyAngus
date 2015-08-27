@@ -14,50 +14,43 @@ using System.Linq;
 
 public class EnumAccumulator<T>
 {
-	public int [] newCount;
-	public int [] derivedCount;
+	public Accumulator [] accumulators;
 
 	public EnumAccumulator(int numValues) {
-		newCount = new int[numValues];
-		derivedCount = new int[numValues];
+		accumulators = new Accumulator[numValues];
 
-		InitToZero (newCount);
-		InitToZero (derivedCount);
-	}
-
-	void InitToZero(int [] array) {
-		for (int i = 0; i < array.Length; i++) {
-			array [i] = 0;
+		for (int i = 0; i < numValues; i++) {
+			accumulators[i] = new Accumulator();
 		}
 	}
 
 	public void AddNew(int indexT, int value) {
-		newCount [(int)indexT] += value;
+		accumulators [(int)indexT].AddNew (value);
 	}
 	
 	public void AddNew(int indexT) {
-		AddNew (indexT, 1);
+		accumulators [(int)indexT].AddNew ();
 	}
 	
 	public void AddDerived(int indexT, int value) {
-		derivedCount [(int)indexT] += value;
+		accumulators [(int)indexT].AddDerived (value);
 	}
 	
 	public void AddDerived(int indexT) {
-		AddDerived (indexT, 1);
+		accumulators [(int)indexT].AddDerived ();
 	}
 
-	public void DeriveFrom(EnumAccumulator<T> enumAccumulator) {
-		for (int i = 0; i < derivedCount.Length; i++) {
-			derivedCount [i] = enumAccumulator.derivedCount [i] + newCount [i];
+	public void DeriveFrom(EnumAccumulator<T> otherAccumulator) {
+		for (int i = 0; i < accumulators.Length; i++) {
+			accumulators[i].DeriveFrom(otherAccumulator.accumulators[i]);
 		}
 	}
 
 	public List<int> GetDistribution() {
 		List<int> retVal = new List<int> ();
 
-		for (int i = 0; i < derivedCount.Length; i++) {
-			for (int j = 0; j < derivedCount[i]; j++) {
+		for (int i = 0; i < accumulators.Length; i++) {
+			for (int j = 0; j < accumulators[i].derivedCount; j++) {
 				retVal.Add (i);
 			}
 		}

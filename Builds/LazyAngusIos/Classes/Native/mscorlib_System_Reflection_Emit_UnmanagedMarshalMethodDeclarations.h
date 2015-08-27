@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.UnmanagedMarshal
-struct UnmanagedMarshal_t4510;
+struct UnmanagedMarshal_t4513;
 // System.Runtime.InteropServices.MarshalAsAttribute
-struct MarshalAsAttribute_t4344;
+struct MarshalAsAttribute_t4347;
 
 // System.Runtime.InteropServices.MarshalAsAttribute System.Reflection.Emit.UnmanagedMarshal::ToMarshalAsAttribute()
-extern "C" MarshalAsAttribute_t4344 * UnmanagedMarshal_ToMarshalAsAttribute_m17840 (UnmanagedMarshal_t4510 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MarshalAsAttribute_t4347 * UnmanagedMarshal_ToMarshalAsAttribute_m17872 (UnmanagedMarshal_t4513 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

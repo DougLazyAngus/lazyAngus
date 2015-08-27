@@ -1,22 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DistortForEffect : MonoBehaviour {
+public class DistortForEffect : BounceLerp {
 	public delegate void DistortFinishedHandler(GameObject go);
 	DistortFinishedHandler handler;
 
 	public bool distorting { get; private set;}
 	float startDistortTime;
-
-	public float distortPeriod = 0.3f;
-	public float distortScale = 1f;
-	public Transform thingToScale;
-	public bool squishAndStretch = false;
-
+	
 	private Vector3 originalScale;
+	public float minScale =  0.0f;
+	public Transform thingToScale;
+
+	public bool squishAndStretch = false;
+	public bool onAtStart = false;
 
 	void Awake() {
-		distorting = false;
+		distorting = onAtStart;
 	}
 
 	// Use this for initialization
@@ -58,17 +58,17 @@ public class DistortForEffect : MonoBehaviour {
 		float timeNow = Time.time;
 		float timeDelta = timeNow - startDistortTime;
 
-		float scale;
-		if (timeDelta > distortPeriod) {
-			scale = 1.0f;
+		bool isFinished;
+		float scale = GetCoefficientForTime (timeDelta, out isFinished);
+		if (isFinished) {
 			distorting = false;
 			if (handler != null) {
 				handler(gameObject);
 			}
-		} else {
-			float phase = Mathf.Sin (timeDelta * 2f * Mathf.PI / distortPeriod);
-			float amplitude = Mathf.Cos (timeDelta * 0.5f * Mathf.PI / distortPeriod);
-			scale = 1.0f + phase * amplitude * distortScale;
+		}
+
+		if (minScale > 0) {
+			scale = Mathf.Max (minScale, scale);
 		}
 
 		float xScale;

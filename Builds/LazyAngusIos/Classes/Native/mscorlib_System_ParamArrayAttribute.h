@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.ParamArrayAttribute
-struct  ParamArrayAttribute_t802  : public Attribute_t426
+struct  ParamArrayAttribute_t805  : public Attribute_t426
 {
 };

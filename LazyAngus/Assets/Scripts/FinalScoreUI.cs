@@ -7,11 +7,15 @@ using System.Collections.Generic;
 public class FinalScoreUI : GameUI {
 	public Text personalBestText;
 	public Text finalScoreText;
+	public Text finalScoreLabel;
+
+	public Color labelColor = new Color (0, 0.75f, 0.875f);
 
 	bool started;
 
 	void Awake() {
 		started = false;
+		finalScoreLabel.color = labelColor;
 	}
 
 	void Start() {
@@ -24,6 +28,8 @@ public class FinalScoreUI : GameUI {
 			UpdateView ();
 		}
 	}
+
+
 
 	void UpdateView() {
 		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.GAME_OVER) {
@@ -42,12 +48,23 @@ public class FinalScoreUI : GameUI {
 		} else {
 			personalBestText.gameObject.SetActive (true);
 			if (personalBest <= finalScore) {
-				personalBestText.text = "New High Score!"; 
+				personalBestText.text = Utilities.AddTextColor ("Best ever!!", 
+				                                                labelColor);
 			} else {
-				personalBestText.text = "High Score: " + personalBest; 
+				personalBestText.text = MakeBestScoreText(personalBest);
 			}
 		}
 
-		finalScoreText.text = "Final Score: " + finalScore;
+		finalScoreText.text = MakeFinalScoreText (finalScore);
+	}
+	
+	string MakeBestScoreText(int personalBest) {
+		string retval = "Best";
+		retval = Utilities.AddTextColor (retval, labelColor);
+		retval += " " + personalBest;
+		return retval;
+	}
+	string MakeFinalScoreText(int finalScore) {
+		return "" + finalScore;
 	}
 }

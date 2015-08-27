@@ -38,7 +38,7 @@ public class ScoreController : MonoBehaviour {
 	void OnMouseKill(MouseMove killedMouse) {
 		PlayerStats.instance.IncrementScore ();
 		
-		MakeScoreEffect(killedMouse);
+		MakeDeadMouseAnimation(killedMouse);
 	}
 
 	void OnDeadMouseDone(GameObject deadMouseGameObject) {
@@ -46,6 +46,11 @@ public class ScoreController : MonoBehaviour {
 			GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.PENDING) {
 			MakeFlyingAnimation (deadMouseGameObject);
 		}
+		StartCoroutine (DestroyMouse (deadMouseGameObject));
+	}
+
+	IEnumerator DestroyMouse(GameObject deadMouseGameObject) {
+		yield return new WaitForSeconds (0.001f);
 		Object.Destroy (deadMouseGameObject);
 	}
 
@@ -75,12 +80,15 @@ public class ScoreController : MonoBehaviour {
 		scoreEffectClockwise = !scoreEffectClockwise;
 	}
 
-	void MakeScoreEffect(MouseMove killedMouse) {
+	void MakeDeadMouseAnimation(MouseMove killedMouse) {
 		GameObject deadMouseGameObject = Instantiate (deadMousePrototype) as GameObject;
 		DeadMouse deadMouse = deadMouseGameObject.GetComponent<DeadMouse>();
 
 		deadMouse.Configure(killedMouse);
 		DistortForEffect distortForEffect = deadMouse.GetComponent<DistortForEffect> ();
+
+		distortForEffect.totalPeriods = 1;
+		distortForEffect.secondsPerPeriod = TweakableParams.deadMouseAnimationTime;
 
 		distortForEffect.SetDistortFinishedHandler (OnDeadMouseDone);
 		distortForEffect.Distort ();

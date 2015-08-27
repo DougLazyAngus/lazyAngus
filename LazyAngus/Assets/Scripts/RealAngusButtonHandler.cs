@@ -1,0 +1,19 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class RealAngusButtonHandler : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
+	
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+
+	public void ShowRealAngusPage() {
+		GamePhaseState.instance.TransitionToPhase (GamePhaseState.GamePhaseType.REAL_ANGUS);
+	}
+}

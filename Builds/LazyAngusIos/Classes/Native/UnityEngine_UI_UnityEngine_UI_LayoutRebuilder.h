@@ -1,30 +1,30 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.RectTransform
-struct RectTransform_t541;
+struct RectTransform_t542;
 // UnityEngine.Events.UnityAction`1<UnityEngine.Component>
-struct UnityAction_1_t1002;
+struct UnityAction_1_t1005;
 // System.Predicate`1<UnityEngine.Component>
-struct Predicate_1_t1003;
+struct Predicate_1_t1006;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.UI.LayoutRebuilder
-struct  LayoutRebuilder_t1004 
+struct  LayoutRebuilder_t1007 
 {
 	// UnityEngine.RectTransform UnityEngine.UI.LayoutRebuilder::m_ToRebuild
-	RectTransform_t541 * ___m_ToRebuild_0;
+	RectTransform_t542 * ___m_ToRebuild_0;
 	// System.Int32 UnityEngine.UI.LayoutRebuilder::m_CachedHashFromTransform
 	int32_t ___m_CachedHashFromTransform_1;
 };
-struct LayoutRebuilder_t1004_StaticFields{
+struct LayoutRebuilder_t1007_StaticFields{
 	// UnityEngine.Events.UnityAction`1<UnityEngine.Component> UnityEngine.UI.LayoutRebuilder::<>f__am$cache2
-	UnityAction_1_t1002 * ___U3CU3Ef__amU24cache2_2;
+	UnityAction_1_t1005 * ___U3CU3Ef__amU24cache2_2;
 	// UnityEngine.Events.UnityAction`1<UnityEngine.Component> UnityEngine.UI.LayoutRebuilder::<>f__am$cache3
-	UnityAction_1_t1002 * ___U3CU3Ef__amU24cache3_3;
+	UnityAction_1_t1005 * ___U3CU3Ef__amU24cache3_3;
 	// UnityEngine.Events.UnityAction`1<UnityEngine.Component> UnityEngine.UI.LayoutRebuilder::<>f__am$cache4
-	UnityAction_1_t1002 * ___U3CU3Ef__amU24cache4_4;
+	UnityAction_1_t1005 * ___U3CU3Ef__amU24cache4_4;
 	// UnityEngine.Events.UnityAction`1<UnityEngine.Component> UnityEngine.UI.LayoutRebuilder::<>f__am$cache5
-	UnityAction_1_t1002 * ___U3CU3Ef__amU24cache5_5;
+	UnityAction_1_t1005 * ___U3CU3Ef__amU24cache5_5;
 	// System.Predicate`1<UnityEngine.Component> UnityEngine.UI.LayoutRebuilder::<>f__am$cache6
-	Predicate_1_t1003 * ___U3CU3Ef__amU24cache6_6;
+	Predicate_1_t1006 * ___U3CU3Ef__amU24cache6_6;
 };

@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.Monitor
-struct  Monitor_t4765  : public Object_t
+struct  Monitor_t4768  : public Object_t
 {
 };

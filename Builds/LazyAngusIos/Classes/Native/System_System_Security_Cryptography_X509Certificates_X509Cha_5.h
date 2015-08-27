@@ -7,7 +7,7 @@ struct String_t;
 // System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha_1.h"
 // System.Security.Cryptography.X509Certificates.X509ChainStatus
-struct  X509ChainStatus_t4094 
+struct  X509ChainStatus_t4097 
 {
 	// System.Security.Cryptography.X509Certificates.X509ChainStatusFlags System.Security.Cryptography.X509Certificates.X509ChainStatus::status
 	int32_t ___status_0;
@@ -15,7 +15,7 @@ struct  X509ChainStatus_t4094
 	String_t* ___info_1;
 };
 // Native definition for marshalling of: System.Security.Cryptography.X509Certificates.X509ChainStatus
-struct X509ChainStatus_t4094_marshaled
+struct X509ChainStatus_t4097_marshaled
 {
 	int32_t ___status_0;
 	char* ___info_1;

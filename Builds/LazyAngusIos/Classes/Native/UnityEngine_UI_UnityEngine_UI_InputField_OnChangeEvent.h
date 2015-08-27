@@ -3,6 +3,6 @@
 // UnityEngine.Events.UnityEvent`1<System.String>
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen.h"
 // UnityEngine.UI.InputField/OnChangeEvent
-struct  OnChangeEvent_t940  : public UnityEvent_1_t939
+struct  OnChangeEvent_t943  : public UnityEvent_1_t942
 {
 };

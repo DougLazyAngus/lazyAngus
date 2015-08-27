@@ -19,16 +19,16 @@
 			<method name="Play"/>
 		</type>
 		<type fullname="RateMeDialog">
-			<method name="RemindMeLater"/>
 			<method name="NoThanks"/>
 			<method name="RateThis"/>
+			<method name="RemindMeLater"/>
 		</type>
 		<type fullname="SecretUI">
 			<method name="ResetPreferences"/>
-			<method name="ResetPreferences"/>
-			<method name="ToggleVisibility"/>
 			<method name="DebugShowSharing"/>
 			<method name="ToggleVisibility"/>
+			<method name="ToggleVisibility"/>
+			<method name="ResetPreferences"/>
 		</type>
 		<type fullname="SoundController">
 			<method name="ToggleSoundsMuted"/>

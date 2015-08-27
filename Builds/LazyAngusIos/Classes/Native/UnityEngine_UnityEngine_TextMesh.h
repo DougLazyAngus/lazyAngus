@@ -3,6 +3,6 @@
 // UnityEngine.Component
 #include "UnityEngine_UnityEngine_Component.h"
 // UnityEngine.TextMesh
-struct  TextMesh_t403  : public Component_t759
+struct  TextMesh_t403  : public Component_t762
 {
 };

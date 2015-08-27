@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Rigidbody2D
-struct Rigidbody2D_t2767;
+struct Rigidbody2D_t2770;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<UnityEngine.Rigidbody2D>
-struct  Comparison_1_t8428  : public MulticastDelegate_t388
+struct  Comparison_1_t8431  : public MulticastDelegate_t388
 {
 };

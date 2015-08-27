@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdUnsignedLong
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedLong.h"
 // Mono.Xml.Schema.XsdUnsignedInt
-struct  XsdUnsignedInt_t3122  : public XsdUnsignedLong_t3121
+struct  XsdUnsignedInt_t3125  : public XsdUnsignedLong_t3124
 {
 };

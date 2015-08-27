@@ -3,18 +3,18 @@
 // System.String
 struct String_t;
 // System.Collections.ArrayList
-struct ArrayList_t696;
+struct ArrayList_t699;
 // Mono.Xml.DTDEntityBase
 #include "System_Xml_Mono_Xml_DTDEntityBase.h"
 // Mono.Xml.DTDEntityDeclaration
-struct  DTDEntityDeclaration_t3193  : public DTDEntityBase_t3192
+struct  DTDEntityDeclaration_t3196  : public DTDEntityBase_t3195
 {
 	// System.String Mono.Xml.DTDEntityDeclaration::entityValue
 	String_t* ___entityValue_15;
 	// System.String Mono.Xml.DTDEntityDeclaration::notationName
 	String_t* ___notationName_16;
 	// System.Collections.ArrayList Mono.Xml.DTDEntityDeclaration::ReferencingEntities
-	ArrayList_t696 * ___ReferencingEntities_17;
+	ArrayList_t699 * ___ReferencingEntities_17;
 	// System.Boolean Mono.Xml.DTDEntityDeclaration::scanned
 	bool ___scanned_18;
 	// System.Boolean Mono.Xml.DTDEntityDeclaration::recursed

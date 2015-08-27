@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseException/ErrorCode
-struct ErrorCode_t1235;
+struct ErrorCode_t1238;
 

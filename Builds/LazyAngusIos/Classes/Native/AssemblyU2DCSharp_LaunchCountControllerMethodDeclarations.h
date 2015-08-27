@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // LaunchCountController
-struct LaunchCountController_t572;
+struct LaunchCountController_t573;
 
 // System.Void LaunchCountController::.ctor()
-extern "C" void LaunchCountController__ctor_m3077 (LaunchCountController_t572 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LaunchCountController__ctor_m3087 (LaunchCountController_t573 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LaunchCountController::Start()
-extern "C" void LaunchCountController_Start_m3078 (LaunchCountController_t572 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LaunchCountController_Start_m3088 (LaunchCountController_t573 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

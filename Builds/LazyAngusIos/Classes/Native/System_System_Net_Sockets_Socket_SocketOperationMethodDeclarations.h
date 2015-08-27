@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Sockets.Socket/SocketOperation
-struct SocketOperation_t3992;
+struct SocketOperation_t3995;
 

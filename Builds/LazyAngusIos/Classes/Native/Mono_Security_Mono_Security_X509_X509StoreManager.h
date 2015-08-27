@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.X509.X509Stores
-struct X509Stores_t3820;
+struct X509Stores_t3823;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.X509.X509StoreManager
-struct  X509StoreManager_t3821  : public Object_t
+struct  X509StoreManager_t3824  : public Object_t
 {
 };
-struct X509StoreManager_t3821_StaticFields{
+struct X509StoreManager_t3824_StaticFields{
 	// Mono.Security.X509.X509Stores Mono.Security.X509.X509StoreManager::_userStore
-	X509Stores_t3820 * ____userStore_0;
+	X509Stores_t3823 * ____userStore_0;
 	// Mono.Security.X509.X509Stores Mono.Security.X509.X509StoreManager::_machineStore
-	X509Stores_t3820 * ____machineStore_1;
+	X509Stores_t3823 * ____machineStore_1;
 };

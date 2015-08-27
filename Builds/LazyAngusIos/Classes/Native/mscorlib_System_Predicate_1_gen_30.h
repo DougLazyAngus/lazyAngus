@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t842;
+struct BaseInputModule_t845;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<UnityEngine.EventSystems.BaseInputModule>
-struct  Predicate_1_t5767  : public MulticastDelegate_t388
+struct  Predicate_1_t5770  : public MulticastDelegate_t388
 {
 };

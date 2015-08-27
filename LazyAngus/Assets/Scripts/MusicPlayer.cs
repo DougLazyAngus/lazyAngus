@@ -8,6 +8,7 @@ public class MusicPlayer : MonoBehaviour {
 
 	public AudioSource gameMusic;
 	public AudioSource menuMusic;
+	public AudioSource realAngusMusic;
 
 	AudioSource currentMusic;
 	IEnumerator playCuedMusic;
@@ -60,6 +61,9 @@ public class MusicPlayer : MonoBehaviour {
 			case GamePhaseState.GamePhaseType.LEVEL_PLAY:
 			case GamePhaseState.GamePhaseType.PENDING:
 				desiredMusic = gameMusic;
+				break;
+			case GamePhaseState.GamePhaseType.REAL_ANGUS:
+				desiredMusic = realAngusMusic;
 				break;
 			default:
 				desiredMusic = menuMusic;

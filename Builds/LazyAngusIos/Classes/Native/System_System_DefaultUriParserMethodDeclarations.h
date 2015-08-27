@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.DefaultUriParser
-struct DefaultUriParser_t4171;
+struct DefaultUriParser_t4174;
 // System.String
 struct String_t;
 
 // System.Void System.DefaultUriParser::.ctor()
-extern "C" void DefaultUriParser__ctor_m14954 (DefaultUriParser_t4171 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DefaultUriParser__ctor_m14986 (DefaultUriParser_t4174 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DefaultUriParser::.ctor(System.String)
-extern "C" void DefaultUriParser__ctor_m14955 (DefaultUriParser_t4171 * __this, String_t* ___scheme, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DefaultUriParser__ctor_m14987 (DefaultUriParser_t4174 * __this, String_t* ___scheme, const MethodInfo* method) IL2CPP_METHOD_ATTR;

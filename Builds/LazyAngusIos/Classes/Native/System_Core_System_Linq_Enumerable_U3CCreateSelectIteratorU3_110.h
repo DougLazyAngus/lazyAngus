@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IEnumerable`1<System.Single>
-struct IEnumerable_1_t6368;
+struct IEnumerable_1_t6371;
 // System.Collections.Generic.IEnumerator`1<System.Single>
-struct IEnumerator_1_t6369;
+struct IEnumerator_1_t6372;
 // System.Func`2<System.Single,System.Double>
-struct Func_2_t6797;
+struct Func_2_t6800;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Single,System.Double>
-struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6798  : public Object_t
+struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6801  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Single,System.Double>::source
 	Object_t* ___source_0;
@@ -18,7 +18,7 @@ struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6798  : public Object_t
 	// TSource System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Single,System.Double>::<element>__1
 	float ___U3CelementU3E__1_2;
 	// System.Func`2<TSource,TResult> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Single,System.Double>::selector
-	Func_2_t6797 * ___selector_3;
+	Func_2_t6800 * ___selector_3;
 	// System.Int32 System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Single,System.Double>::$PC
 	int32_t ___U24PC_4;
 	// TResult System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Single,System.Double>::$current
@@ -26,5 +26,5 @@ struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6798  : public Object_t
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Single,System.Double>::<$>source
 	Object_t* ___U3CU24U3Esource_6;
 	// System.Func`2<TSource,TResult> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Single,System.Double>::<$>selector
-	Func_2_t6797 * ___U3CU24U3Eselector_7;
+	Func_2_t6800 * ___U3CU24U3Eselector_7;
 };

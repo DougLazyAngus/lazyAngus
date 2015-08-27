@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
-struct List_1_t884;
+struct List_1_t887;
 // UnityEngine.EventSystems.AxisEventData
-struct AxisEventData_t879;
+struct AxisEventData_t882;
 // UnityEngine.EventSystems.EventSystem
-struct EventSystem_t845;
+struct EventSystem_t848;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t843;
+struct BaseEventData_t846;
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 // UnityEngine.EventSystems.BaseInputModule
-struct  BaseInputModule_t842  : public UIBehaviour_t846
+struct  BaseInputModule_t845  : public UIBehaviour_t849
 {
 	// System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> UnityEngine.EventSystems.BaseInputModule::m_RaycastResultCache
-	List_1_t884 * ___m_RaycastResultCache_2;
+	List_1_t887 * ___m_RaycastResultCache_2;
 	// UnityEngine.EventSystems.AxisEventData UnityEngine.EventSystems.BaseInputModule::m_AxisEventData
-	AxisEventData_t879 * ___m_AxisEventData_3;
+	AxisEventData_t882 * ___m_AxisEventData_3;
 	// UnityEngine.EventSystems.EventSystem UnityEngine.EventSystems.BaseInputModule::m_EventSystem
-	EventSystem_t845 * ___m_EventSystem_4;
+	EventSystem_t848 * ___m_EventSystem_4;
 	// UnityEngine.EventSystems.BaseEventData UnityEngine.EventSystems.BaseInputModule::m_BaseEventData
-	BaseEventData_t843 * ___m_BaseEventData_5;
+	BaseEventData_t846 * ___m_BaseEventData_5;
 };

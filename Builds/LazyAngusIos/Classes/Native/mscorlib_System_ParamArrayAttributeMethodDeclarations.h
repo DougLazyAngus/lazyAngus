@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ParamArrayAttribute
-struct ParamArrayAttribute_t802;
+struct ParamArrayAttribute_t805;
 
 // System.Void System.ParamArrayAttribute::.ctor()
-extern "C" void ParamArrayAttribute__ctor_m4353 (ParamArrayAttribute_t802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParamArrayAttribute__ctor_m4385 (ParamArrayAttribute_t805 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

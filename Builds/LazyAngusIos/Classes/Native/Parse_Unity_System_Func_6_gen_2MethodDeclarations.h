@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`6<System.Object,System.Int32,System.Int32,System.AsyncCallback,System.Object,System.IAsyncResult>
-struct Func_6_t1422;
+struct Func_6_t1425;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -18,10 +18,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`6<System.Object,System.Int32,System.Int32,System.AsyncCallback,System.Object,System.IAsyncResult>::.ctor(System.Object,System.IntPtr)
 // System.Func`6<System.Object,System.Int32,System.Int32,System.Object,System.Object,System.Object>
 #include "Parse_Unity_System_Func_6_gen_1MethodDeclarations.h"
-#define Func_6__ctor_m30737(__this, ___object, ___method, method) (( void (*) (Func_6_t1422 *, Object_t *, IntPtr_t, const MethodInfo*))Func_6__ctor_m30723_gshared)(__this, ___object, ___method, method)
+#define Func_6__ctor_m30769(__this, ___object, ___method, method) (( void (*) (Func_6_t1425 *, Object_t *, IntPtr_t, const MethodInfo*))Func_6__ctor_m30755_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`6<System.Object,System.Int32,System.Int32,System.AsyncCallback,System.Object,System.IAsyncResult>::Invoke(TArg1,TArg2,TArg3,TArg4,TArg5)
-#define Func_6_Invoke_m30738(__this, ___arg1, ___arg2, ___arg3, ___arg4, ___arg5, method) (( Object_t * (*) (Func_6_t1422 *, Object_t *, int32_t, int32_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_6_Invoke_m30725_gshared)(__this, ___arg1, ___arg2, ___arg3, ___arg4, ___arg5, method)
+#define Func_6_Invoke_m30770(__this, ___arg1, ___arg2, ___arg3, ___arg4, ___arg5, method) (( Object_t * (*) (Func_6_t1425 *, Object_t *, int32_t, int32_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_6_Invoke_m30757_gshared)(__this, ___arg1, ___arg2, ___arg3, ___arg4, ___arg5, method)
 // System.IAsyncResult System.Func`6<System.Object,System.Int32,System.Int32,System.AsyncCallback,System.Object,System.IAsyncResult>::BeginInvoke(TArg1,TArg2,TArg3,TArg4,TArg5,System.AsyncCallback,System.Object)
-#define Func_6_BeginInvoke_m30739(__this, ___arg1, ___arg2, ___arg3, ___arg4, ___arg5, ___callback, ___object, method) (( Object_t * (*) (Func_6_t1422 *, Object_t *, int32_t, int32_t, AsyncCallback_t386 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_6_BeginInvoke_m30727_gshared)(__this, ___arg1, ___arg2, ___arg3, ___arg4, ___arg5, ___callback, ___object, method)
+#define Func_6_BeginInvoke_m30771(__this, ___arg1, ___arg2, ___arg3, ___arg4, ___arg5, ___callback, ___object, method) (( Object_t * (*) (Func_6_t1425 *, Object_t *, int32_t, int32_t, AsyncCallback_t386 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_6_BeginInvoke_m30759_gshared)(__this, ___arg1, ___arg2, ___arg3, ___arg4, ___arg5, ___callback, ___object, method)
 // TResult System.Func`6<System.Object,System.Int32,System.Int32,System.AsyncCallback,System.Object,System.IAsyncResult>::EndInvoke(System.IAsyncResult)
-#define Func_6_EndInvoke_m30740(__this, ___result, method) (( Object_t * (*) (Func_6_t1422 *, Object_t *, const MethodInfo*))Func_6_EndInvoke_m30729_gshared)(__this, ___result, method)
+#define Func_6_EndInvoke_m30772(__this, ___result, method) (( Object_t * (*) (Func_6_t1425 *, Object_t *, const MethodInfo*))Func_6_EndInvoke_m30761_gshared)(__this, ___result, method)

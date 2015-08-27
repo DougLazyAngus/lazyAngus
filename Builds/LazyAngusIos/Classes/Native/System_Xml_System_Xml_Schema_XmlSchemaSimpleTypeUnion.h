@@ -3,6 +3,6 @@
 // System.Xml.Schema.XmlSchemaSimpleTypeContent
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeContent.h"
 // System.Xml.Schema.XmlSchemaSimpleTypeUnion
-struct  XmlSchemaSimpleTypeUnion_t3162  : public XmlSchemaSimpleTypeContent_t3158
+struct  XmlSchemaSimpleTypeUnion_t3165  : public XmlSchemaSimpleTypeContent_t3161
 {
 };

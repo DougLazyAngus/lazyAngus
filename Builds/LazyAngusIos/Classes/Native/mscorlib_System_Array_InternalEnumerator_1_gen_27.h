@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<SFXPlayer/SFXType>
-struct  InternalEnumerator_1_t5749 
+struct  InternalEnumerator_1_t5752 
 {
 	// System.Array System.Array/InternalEnumerator`1<SFXPlayer/SFXType>::array
 	Array_t * ___array_0;

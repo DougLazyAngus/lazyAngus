@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.Regex
-struct Regex_t785;
+struct Regex_t788;
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.String
@@ -9,10 +9,10 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.ReplacementEvaluator
-struct  ReplacementEvaluator_t4150  : public Object_t
+struct  ReplacementEvaluator_t4153  : public Object_t
 {
 	// System.Text.RegularExpressions.Regex System.Text.RegularExpressions.ReplacementEvaluator::regex
-	Regex_t785 * ___regex_0;
+	Regex_t788 * ___regex_0;
 	// System.Int32 System.Text.RegularExpressions.ReplacementEvaluator::n_pieces
 	int32_t ___n_pieces_1;
 	// System.Int32[] System.Text.RegularExpressions.ReplacementEvaluator::pieces

@@ -3,7 +3,7 @@
 // System.StringComparer
 #include "mscorlib_System_StringComparer.h"
 // System.OrdinalComparer
-struct  OrdinalComparer_t4836  : public StringComparer_t2925
+struct  OrdinalComparer_t4839  : public StringComparer_t2928
 {
 	// System.Boolean System.OrdinalComparer::_ignoreCase
 	bool ____ignoreCase_4;

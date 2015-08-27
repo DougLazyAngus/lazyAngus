@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Comparer
-struct Comparer_t4437;
+struct Comparer_t4440;
 // System.Globalization.CompareInfo
-struct CompareInfo_t3272;
+struct CompareInfo_t3275;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Comparer
-struct  Comparer_t4437  : public Object_t
+struct  Comparer_t4440  : public Object_t
 {
 	// System.Globalization.CompareInfo System.Collections.Comparer::m_compareInfo
-	CompareInfo_t3272 * ___m_compareInfo_2;
+	CompareInfo_t3275 * ___m_compareInfo_2;
 };
-struct Comparer_t4437_StaticFields{
+struct Comparer_t4440_StaticFields{
 	// System.Collections.Comparer System.Collections.Comparer::Default
-	Comparer_t4437 * ___Default_0;
+	Comparer_t4440 * ___Default_0;
 	// System.Collections.Comparer System.Collections.Comparer::DefaultInvariant
-	Comparer_t4437 * ___DefaultInvariant_1;
+	Comparer_t4440 * ___DefaultInvariant_1;
 };

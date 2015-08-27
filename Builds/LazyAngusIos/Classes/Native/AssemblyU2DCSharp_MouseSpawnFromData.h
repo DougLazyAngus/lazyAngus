@@ -1,38 +1,36 @@
 ﻿#pragma once
 #include <stdint.h>
 // MouseSpawnFromData
-struct MouseSpawnFromData_t553;
+struct MouseSpawnFromData_t554;
 // System.Collections.Generic.List`1<ExplicitMouseDesc>
-struct List_1_t575;
+struct List_1_t576;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // MouseSpawnFromData/MouseSpawnEventHandler
-struct MouseSpawnEventHandler_t601;
+struct MouseSpawnEventHandler_t602;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MouseSpawnFromData
-struct  MouseSpawnFromData_t553  : public MonoBehaviour_t13
+struct  MouseSpawnFromData_t554  : public MonoBehaviour_t13
 {
-	// System.Single MouseSpawnFromData::initialSpawnDelta
-	float ___initialSpawnDelta_2;
 	// System.Single MouseSpawnFromData::minRandomDelay
-	float ___minRandomDelay_4;
+	float ___minRandomDelay_3;
 	// System.Single MouseSpawnFromData::maxRandomDelay
-	float ___maxRandomDelay_5;
+	float ___maxRandomDelay_4;
 	// System.Collections.Generic.List`1<ExplicitMouseDesc> MouseSpawnFromData::miceDesc
-	List_1_t575 * ___miceDesc_6;
+	List_1_t576 * ___miceDesc_5;
 	// System.Single MouseSpawnFromData::nextSpawnTime
-	float ___nextSpawnTime_7;
+	float ___nextSpawnTime_6;
 	// UnityEngine.GameObject MouseSpawnFromData::mousePrototype
-	GameObject_t352 * ___mousePrototype_8;
+	GameObject_t352 * ___mousePrototype_7;
 	// System.Boolean MouseSpawnFromData::registeredForEvents
-	bool ___registeredForEvents_9;
+	bool ___registeredForEvents_8;
 	// MouseSpawnFromData/MouseSpawnEventHandler MouseSpawnFromData::MouseSpawn
-	MouseSpawnEventHandler_t601 * ___MouseSpawn_10;
+	MouseSpawnEventHandler_t602 * ___MouseSpawn_9;
 	// System.Int32 MouseSpawnFromData::<miceSpawned>k__BackingField
-	int32_t ___U3CmiceSpawnedU3Ek__BackingField_11;
+	int32_t ___U3CmiceSpawnedU3Ek__BackingField_10;
 };
-struct MouseSpawnFromData_t553_StaticFields{
+struct MouseSpawnFromData_t554_StaticFields{
 	// MouseSpawnFromData MouseSpawnFromData::instance
-	MouseSpawnFromData_t553 * ___instance_3;
+	MouseSpawnFromData_t554 * ___instance_2;
 };

@@ -3,14 +3,14 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.String,Parse.ParseGeoPoint>
-struct Dictionary_2_t7131;
+struct Dictionary_2_t7134;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.Dictionary`2<System.String,Parse.ParseGeoPoint>>
-struct  KeyValuePair_2_t8220 
+struct  KeyValuePair_2_t8223 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.Dictionary`2<System.String,Parse.ParseGeoPoint>>::key
 	String_t* ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.Dictionary`2<System.String,Parse.ParseGeoPoint>>::value
-	Dictionary_2_t7131 * ___value_1;
+	Dictionary_2_t7134 * ___value_1;
 };

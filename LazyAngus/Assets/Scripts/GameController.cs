@@ -106,6 +106,7 @@ public class GameController : MonoBehaviour {
 		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
 			EnqueueMiceForLevel ();
 			UpdateMouseSinkTrapCount ();
+			UpdateRealAngusContentLocks();
 			break;
 		case GamePhaseState.GamePhaseType.LEVEL_END:
 			{
@@ -116,12 +117,17 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
+	void UpdateRealAngusContentLocks() {
+		LevelDescription ld = LevelConfig.instance.GetLevelDescription (GameLevelState.instance.gameLevel);
+		RealAngusData.instance.UnlockNItems (ld.realAngusAccumulator.derivedCount);
+	}
+
 	void UpdateMouseSinkTrapCount() {
 		LevelDescription ld = LevelConfig.instance.GetLevelDescription (GameLevelState.instance.gameLevel);
 		EnumAccumulator<MouseSinkController.MouseHoleLocation> ta = ld.mouseHolesAccumulator;
-		for (int i = 0; i < ta.derivedCount.Length; i++) {
+		for (int i = 0; i < ta.accumulators.Length; i++) {
 			// ta.derivedCount is how many the thing should 
-			mouseSinkControllers [i].SetTrapCapacity (ta.derivedCount[i]);
+			mouseSinkControllers [i].SetTrapCapacity (ta.accumulators[i].derivedCount);
 		}
 	}
 
