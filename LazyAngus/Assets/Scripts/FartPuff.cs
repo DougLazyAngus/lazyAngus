@@ -34,7 +34,7 @@ public class FartPuff : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (TimeController.instance.paused) {
+		if (TimeController.instance.timeState != TimeController.TimeState.PLAYING) {
 			return;
 		}
 

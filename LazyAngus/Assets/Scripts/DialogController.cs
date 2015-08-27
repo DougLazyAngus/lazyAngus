@@ -14,7 +14,7 @@ public class DialogController : MonoBehaviour {
 		activeDialog = dialog;
 
 		PausedOverlay.instance.SetChildElement(dialog);
-		TimeController.instance.PauseTime ();
+		TimeController.instance.SetTimeState (TimeController.TimeState.PAUSE_FOR_DIALOG);
 	}
 
 	public void HideDialog(GameObject dialog) {
@@ -22,7 +22,7 @@ public class DialogController : MonoBehaviour {
 			return;
 		}
 		activeDialog = null;
-		TimeController.instance.UnPauseTime ();
+		TimeController.instance.SetTimeState (TimeController.TimeState.PLAYING);
 	}
 	
 	public bool IsDialogShowing() {

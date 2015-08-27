@@ -29,7 +29,7 @@ public class InputHandler : MonoBehaviour {
 			return;
 		}
 
-		if (TimeController.instance.paused) {
+		if (TimeController.instance.timeState != TimeController.TimeState.PLAYING) {
 			return;
 		}
 

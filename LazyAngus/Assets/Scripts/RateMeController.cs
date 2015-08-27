@@ -6,10 +6,41 @@ public class RateMeController : MonoBehaviour {
 	public float minTimeFrequencySec = (60f * 60f) * (1.0f/60.0f);
 	public GameObject rateMeDialogPrototype;
 	public float waitToShow = 3;
+	bool registeredForEvents;
 
-	void Start() {
-		StartCoroutine (WaitAndShowDialog ());
+	// Use this for initialization
+	void Start () {
+		RegisterForEvents ();
 	}
+	
+	void OnDestroy() {
+		UnregisterForEvents ();
+		
+	}
+	
+	void RegisterForEvents() {
+		if (registeredForEvents) {
+			return;
+		}
+		registeredForEvents = true;
+		GamePhaseState.instance.GamePhaseChanged += 
+			new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+	}
+	
+	void UnregisterForEvents() {
+		if (registeredForEvents) {
+			GamePhaseState.instance.GamePhaseChanged -= 
+				new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+		}
+	}
+
+	void OnGamePhaseChanged() {
+		// Game end....
+		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.GAME_OVER) {
+			WaitAndShowDialog ();
+		}
+	}
+
 
 	IEnumerator WaitAndShowDialog() {
 		yield return new WaitForSeconds (waitToShow);
@@ -31,6 +62,10 @@ public class RateMeController : MonoBehaviour {
 		float currentTime = Utilities.SecondsSinceEpoch ();
 		float previousShowTime = PersistentStorage.instance.GetFloatValue ("rateThisTime", 0f);
 		if (currentTime < previousShowTime + minTimeFrequencySec) {
+			return false;
+		}
+
+		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.GAME_OVER) {
 			return false;
 		}
 

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 using System.Collections;
@@ -25,14 +25,14 @@ public class PausedOverlay : MonoBehaviour {
 	}	
 	
 	void RegisterForEvents() {
-		TimeController.instance.PauseChanged += new TimeController.PauseChangedEventHandler (OnPauseChanged);
+		TimeController.instance.TimeStateChanged += new TimeController.TimeStateChangedEventHandler (OnPauseChanged);
 		
 		registeredForEvents = true;
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-			TimeController.instance.PauseChanged -= new TimeController.PauseChangedEventHandler (OnPauseChanged);
+			TimeController.instance.TimeStateChanged -= new TimeController.TimeStateChangedEventHandler (OnPauseChanged);
 		}
 	}		
 
@@ -42,7 +42,7 @@ public class PausedOverlay : MonoBehaviour {
 
 	// Update is called once per frame
 	void UpdateUX () {
-		if (TimeController.instance.paused) {
+		if (TimeController.instance.timeState != TimeController.TimeState.PLAYING) {
 			overlay.SetActive (true);
 		} else {
 			overlay.SetActive (false);

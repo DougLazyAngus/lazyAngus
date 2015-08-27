@@ -45,7 +45,6 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 		}
 	}
 
-
 	void Update() {
 		if (waveDirty) {
 			SetWaveViews ();

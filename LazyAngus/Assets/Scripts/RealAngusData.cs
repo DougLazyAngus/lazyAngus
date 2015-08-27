@@ -18,12 +18,20 @@ public class RealAngusData : MonoBehaviour {
 	void Start () {
 		MakeRealAngusItemDescs ();
 		MakeSemiRandomOrdering ();
+		if (RealAngusDataChanged != null) {
+			RealAngusDataChanged ();
+		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
 	}
+
+	public List<RealAngusItemDesc> GetRealAngusItemDescs() {
+		return realAngusItemDescs;
+	}
+
 
 	void MakeSemiRandomOrdering() {
 		int suggestedSeed = (int)(Utilities.SecondsSinceEpoch ()) % 100000;

@@ -37,8 +37,8 @@ public class RealAngusItemDesc {
 		PersistentStorage.instance.SetBoolValue (UnlockedTag(), true);
 	}
 	
-	public void MarkViewed() {
-		viewed = true;
-		unlocked = PersistentStorage.instance.GetBoolValue (ViewedTag(), false);
+	public void SetViewed(bool viewed) {
+		this.viewed = viewed;
+		PersistentStorage.instance.SetBoolValue (ViewedTag(), viewed);
 	}
 }

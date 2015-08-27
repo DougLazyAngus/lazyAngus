@@ -34,8 +34,8 @@ public class MusicPlayer : MonoBehaviour {
 		SoundController.instance.MusicMuteChanged +=
 			new SoundController.MusicMuteChangedEventHandler (OnMusicMuteChanged);
 
-		TimeController.instance.PauseChanged += 
-			new TimeController.PauseChangedEventHandler (OnPauseChanged);
+		TimeController.instance.TimeStateChanged += 
+			new TimeController.TimeStateChangedEventHandler (OnPauseChanged);
 	}
 	
 	void UnregisterForEvents() {
@@ -44,8 +44,8 @@ public class MusicPlayer : MonoBehaviour {
 				new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 			SoundController.instance.MusicMuteChanged -=
 				new SoundController.MusicMuteChangedEventHandler (OnMusicMuteChanged);
-			TimeController.instance.PauseChanged -= 
-				new TimeController.PauseChangedEventHandler (OnPauseChanged);
+			TimeController.instance.TimeStateChanged -= 
+				new TimeController.TimeStateChangedEventHandler (OnPauseChanged);
 		}
 	}
 
@@ -59,10 +59,12 @@ public class MusicPlayer : MonoBehaviour {
 
 	void OnPauseChanged() {
 		if (currentMusic != null) {
-			if (TimeController.instance.paused) {
+			if (TimeController.instance.timeState == TimeController.TimeState.COMPLETE_PAUSE) {
 				currentMusic.Pause ();
 			} else {
-				currentMusic.Play ();
+				if (!currentMusic.isPlaying) {
+					currentMusic.Play ();
+				}
 			}
 		}
 	}

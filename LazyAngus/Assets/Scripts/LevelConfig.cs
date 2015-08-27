@@ -718,9 +718,7 @@ public class LevelConfig : MonoBehaviour
 			ld.sprite = mouseHoleIntroSprite;
 			
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
-			
-			return ld;
-			
+
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.4f, false, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2, 
@@ -765,6 +763,7 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1); 
 			
+			return ld;
 		}
 		
 		if (--glCounter == 0) {

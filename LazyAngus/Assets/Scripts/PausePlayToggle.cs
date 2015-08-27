@@ -52,11 +52,11 @@ public class PausePlayToggle : MonoBehaviour {
 	*/
 
 	public void TogglePausePlay() {
-		if (TimeController.instance.paused) {
-			TimeController.instance.UnPauseTime ();
-		} else {
-			TimeController.instance.PauseTime ();
+		if (TimeController.instance.timeState != TimeController.TimeState.COMPLETE_PAUSE) {
+			TimeController.instance.SetTimeState (TimeController.TimeState.COMPLETE_PAUSE);
 			PausedOverlay.instance.ShowBigPlayButton();
+		} else {
+			TimeController.instance.SetTimeState (TimeController.TimeState.PLAYING);
 		}
 	}
 }
