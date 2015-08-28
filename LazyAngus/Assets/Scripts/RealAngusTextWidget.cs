@@ -48,6 +48,7 @@ public class RealAngusTextWidget : MonoBehaviour {
 	public void ConfigureLayout(float width, float height, 
 	                            Vector2 onscreenPosition, 
 	                         	Vector2 offscreenPosition) {
+		rectTransform = GetComponent<RectTransform> ();
 		this.onscreenPosition = onscreenPosition;
 		this.offscreenPosition = offscreenPosition;
 		rectTransform.sizeDelta = new Vector2 (width, height);

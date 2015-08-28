@@ -80,7 +80,7 @@ public class ZoomCamera : BounceLerp {
 			break;
 		}
 
-		float height = scale * mySizeCamera.finalWorldHalfHeight;
+		float height = scale * mySizeCamera.finalActualWorldHalfHeight;
 		if (myCamera.orthographicSize != height) {
 			myCamera.orthographicSize = height;
 		}
