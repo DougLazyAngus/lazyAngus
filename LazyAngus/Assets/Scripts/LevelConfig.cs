@@ -1390,4 +1390,21 @@ public class LevelConfig : MonoBehaviour
 		distributedPauseGenerator = new QuasiRandomGenerator<float> (distributedPauseDist);
 	}
 
+	public int LevelForRealAngusUnlocks(int numUnlocks) {
+		LevelDescription ld;
+
+		int gameLevel = 0;
+
+		while (true) {
+			gameLevel++;
+			if (!levelDescMap.ContainsKey(gameLevel)) {
+				return gameLevel;
+			}
+			ld = levelDescMap[gameLevel];
+
+			if (ld.realAngusAccumulator.derivedCount == numUnlocks) {
+				return gameLevel;
+			}
+		}
+	}
 }

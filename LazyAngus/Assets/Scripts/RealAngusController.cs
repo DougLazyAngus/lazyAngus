@@ -5,29 +5,29 @@ using System.Collections.Generic;
 
 public class RealAngusController : MonoBehaviour {
 	public GameObject realAngusElementButtonPrototype;
+	public GameObject parentScreen;
+	public RealAngusTextWidget realAngusTextWidget;
+	public RealAngusSelectedButtonParent realAngusSelectedButtonParent;
+
+	public GameObject tipDialogPrototype;
+
 	public int numColumns = 2;
 	public float buttonRotationDeg = 5f;
-	public GameObject parentScreen;
-
+	public float buttonWigglePix = 10f;
 	public float buttonPanelTopMargin;
 	public float buttonPanelBottomMargin;
 	public float buttonPanelSideMargin;
 
-	public Image parentWhenSelected;
-
-	public float buttonWidth = 200;
-	float buttonSelectedScale = 3.9f;
-	
 	bool registeredForEvents;
 	int numRows;
 	RectTransform parentScreenRectTransform;
-	
-	float selectedBackgroundAlpha = 0.4f;
 
 	RealAngusElementButton selectedButton;
-
-	float startTransitionTime;
-	bool transitioning;
+	Vector2 selectedButtonLocation;
+	float selectedButtonScale;
+	
+	public float selectedButtonTopMargin = 50f;
+	public float textWidgetOverlap = 10f;
 
 	float buttonPanelWidth;
 	float buttonPanelHeight;
@@ -37,16 +37,23 @@ public class RealAngusController : MonoBehaviour {
 	float columnWidth;
 	float rowHeight;
 
+	Vector2 textWidgetLocation;
+	Vector2 textWidgetOffscreenLocation;
+	public float textToButtonXRatio = 0.9f;
+	public float textToButtonYRatio = 0.8f;
+
+	float screenWidth;
+	float screenHeight;
+
 	void Awake() {
 		parentScreenRectTransform = parentScreen.GetComponent<RectTransform> ();
 	}
 
 	// Use this for initialization
 	void Start () {
-		buttonPanelWidth = parentScreenRectTransform.rect.width - 2 * buttonPanelSideMargin;
-		buttonPanelHeight = parentScreenRectTransform.rect.height - buttonPanelTopMargin - buttonPanelBottomMargin;
 		RegisterForEvents ();
-		LayoutButtons ();
+		CalculateLayoutNumbers ();
+		LayoutDisplayElements ();
 	}
 
 	void OnDestroy() {
@@ -72,39 +79,10 @@ public class RealAngusController : MonoBehaviour {
 				new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 		}
 	}
-
-
-	void Update() {
-		if (!transitioning) {
-			return;
-		}
-
-		UpdateSelectionState ();
-	}
-
-	void UpdateSelectionState() {
-		float timeFraction = (Time.time - startTransitionTime) / 
-			TweakableParams.realAngusSelectionFadeTime;
-		if (timeFraction >= 1) {
-			transitioning = false;
-			if (!selectedButton) {
-				parentWhenSelected.gameObject.SetActive (false);
-			}
-		} else {
-			if (selectedButton) {
-				if (!parentWhenSelected.gameObject.activeSelf) {
-					parentWhenSelected.gameObject.SetActive (true);
-				}
-				parentWhenSelected.color = new Color (0, 0, 0, selectedBackgroundAlpha * timeFraction);
-			} else {
-				parentWhenSelected.color = new Color (0, 0, 0, 
-				                                      selectedBackgroundAlpha * (1 - timeFraction));
-			}
-		}
-	}
+	
 
 	void OnRealAngusDataChanged() {
-		LayoutButtons ();
+		LayoutDisplayElements ();
 	}
 	
 	void OnGamePhaseChanged() {
@@ -123,12 +101,56 @@ public class RealAngusController : MonoBehaviour {
 			button.SetSelected(false, true);
 		}
 
-		startTransitionTime = 0;
 		selectedButton = null;
-		UpdateSelectionState ();
+
+		realAngusSelectedButtonParent.gameObject.SetActive (false);
+		realAngusTextWidget.transform.localPosition = new Vector2 (0, -2000);
 	}
 
-	void LayoutButtons() {
+	void CalculateLayoutNumbers() {
+		screenWidth = parentScreenRectTransform.rect.width;
+		screenHeight = parentScreenRectTransform.rect.height;
+
+		buttonPanelWidth = screenWidth - 2 * buttonPanelSideMargin;
+		buttonPanelHeight = screenHeight - buttonPanelTopMargin - buttonPanelBottomMargin;
+
+		float selectedButtonWidth = buttonPanelWidth;
+		selectedButtonScale = selectedButtonWidth / TweakableParams.realAngusElementButtonWidth;
+		float scaledFrameSize = selectedButtonScale * TweakableParams.realAngusElementButtonFrameWidth;
+		float selectedImageWidth = selectedButtonWidth - 2 * scaledFrameSize;
+		float selectedImageHeight = selectedImageWidth / TweakableParams.realAngusImageAspectRatio;
+		float selectedButtonHeight = selectedImageHeight + 2 * scaledFrameSize;
+		float textWidgetWidth = selectedButtonWidth * textToButtonXRatio;
+		float textWidgetHeight = selectedButtonHeight * textToButtonYRatio;
+
+		float selectedButtonX = screenWidth / 2;
+		float selectedButtonY;
+		float textWidgetX = screenWidth / 2;
+		float textWidgetY;
+
+		if (selectedButtonHeight * 2 > screenHeight) {
+			selectedButtonY = screenHeight - selectedButtonHeight / 2 - selectedButtonTopMargin;
+		} else {
+			selectedButtonY = screenHeight / 2 + selectedButtonHeight/2;
+		}
+		textWidgetY = selectedButtonY - selectedButtonHeight / 2 - textWidgetHeight / 2 + textWidgetOverlap;
+
+		selectedButtonX -= screenWidth / 2;
+		selectedButtonY -= screenHeight / 2;
+		textWidgetX -= screenWidth / 2;
+		textWidgetY -= screenHeight / 2;
+
+		selectedButtonLocation = new Vector2 (selectedButtonX, selectedButtonY);
+
+
+		textWidgetLocation = new Vector2 (textWidgetX, textWidgetY);
+		textWidgetOffscreenLocation = new Vector2 (textWidgetX, -screenHeight/2 - textWidgetHeight);
+
+		realAngusTextWidget.ConfigureLayout (textWidgetWidth, textWidgetHeight, 
+		                                    textWidgetLocation, textWidgetOffscreenLocation);
+	}
+
+	void LayoutDisplayElements() {
 		if (buttons != null) {
 			return;
 		}
@@ -144,8 +166,7 @@ public class RealAngusController : MonoBehaviour {
 		columnWidth = buttonPanelWidth/ numColumns;
 		rowHeight = buttonPanelHeight / numRows;
 
-
-		buttonSelectedScale = buttonPanelWidth / buttonWidth;
+		Random.seed = 141234;
 
 		for (int i = 0; i < realAngusItemDescs.Count; i++) {
 			RealAngusItemDesc raid = realAngusItemDescs[i];
@@ -158,10 +179,10 @@ public class RealAngusController : MonoBehaviour {
 			buttons.Add (button);
 
 			button.transform.SetParent (parentScreen.transform, false);
-
 			button.SetHomeTransform(GetNthPosition (i), 
 			                        Random.Range (-buttonRotationDeg, buttonRotationDeg));
-			button.SetSizingDetails(buttonWidth, buttonSelectedScale);
+			button.SetSelectedTransform(selectedButtonLocation, 0, selectedButtonScale);
+
 			button.Configure(raid);
 
 			button.SetClickHandler(OnButtonClicked);
@@ -174,14 +195,43 @@ public class RealAngusController : MonoBehaviour {
 		if (selectedButton) {
 			selectedButton.SetSelected (false);
 			selectedButton = null;
+			realAngusSelectedButtonParent.StartVisibilityTransition (false);
+			realAngusTextWidget.TransitionOut ();
 		} else {
-			selectedButton = button;
-			selectedButton.SetSelected(true);
-			selectedButton.transform.SetParent (parentWhenSelected.transform, false);
-			SFXPlayer.instance.Play (SFXPlayer.SFXType.CAMERA);
+			if (button.raid.unlocked) {
+				SelectButton (button);
+			} else {
+				CueToPlayMore ();
+			}
 		}
-		startTransitionTime = Time.time;
-		transitioning = true;
+	}
+	
+	void CueToPlayMore() {
+		int numUnlocked = RealAngusData.instance.CountUnlockedItemDescs ();
+		int levelForNextUnlock = LevelConfig.instance.LevelForRealAngusUnlocks (numUnlocked + 1);
+		string message = "Get to level " + levelForNextUnlock + " to unlock a new random tidbit about Angus!";
+	
+		GameObject tipDialogGameObject = Instantiate (tipDialogPrototype, 
+		                                              new Vector3 (0, 0, 0), 
+		                                              Quaternion.identity) as GameObject;
+		TipDialog td = tipDialogGameObject.GetComponent<TipDialog> ();
+		td.ConfigureDialog (message);
+
+		DialogController.instance.ShowDialog (tipDialogGameObject);
+	}
+
+	void SelectButton (RealAngusElementButton button)
+	{
+		selectedButton = button;
+		selectedButton.SetSelected (true);
+
+		realAngusSelectedButtonParent.StartVisibilityTransition (true);
+		realAngusTextWidget.TransitionIn (selectedButton.raid);
+
+		selectedButton.transform.SetParent (realAngusSelectedButtonParent.transform,
+			                                    false);
+
+		SFXPlayer.instance.Play (SFXPlayer.SFXType.CAMERA);
 	}
 
 	void OnSelectionTransitionCompleted(RealAngusElementButton button) {
@@ -194,23 +244,19 @@ public class RealAngusController : MonoBehaviour {
 		int row = n / numColumns;
 		int column = n % numColumns;
 
-
-
 		float x = (column + 0.5f) * columnWidth;
 		float y = (row + 0.5f) * rowHeight;
-
-		if (column % 2 == 1) {
-			y += rowHeight/2;
-		}
 
 		y = buttonPanelHeight - y;
 
 		x += buttonPanelSideMargin;
 		y += buttonPanelBottomMargin;
 
-		x -= parentScreenRectTransform.rect.width / 2;
-		y -= parentScreenRectTransform.rect.height / 2;
+		x -= screenWidth / 2;
+		y -= screenHeight / 2;
 
+		x += Random.Range (-buttonWigglePix, buttonWigglePix);
+		y += Random.Range (-buttonWigglePix, buttonWigglePix);
 
 		return new Vector2 (x, y);
 	}

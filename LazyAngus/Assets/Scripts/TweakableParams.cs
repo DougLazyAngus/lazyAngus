@@ -68,6 +68,13 @@ public class TweakableParams : MonoBehaviour {
 	public const float realAngusSelectionFadeTime = 0.5f;
 	public const float realAngusSelectionMoveTime = realAngusSelectionFadeTime - 0.1f;
 
+	// Real Angus sizing/layout stuff;
+	public const float realAngusImageAspectRatio = 1.33333f;
+	public const float realAngusElementButtonFrameWidth = 5;
+	public const float realAngusElementButtonWidth = 300f;
+
+
+
 	public static int GetInitialMoney() {
 		if (DebugConfig.instance.useDebugValues) {
 			return debugInitialMoney;

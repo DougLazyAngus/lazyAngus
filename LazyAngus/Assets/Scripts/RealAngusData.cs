@@ -32,6 +32,15 @@ public class RealAngusData : MonoBehaviour {
 		return realAngusItemDescs;
 	}
 
+	public int CountUnlockedItemDescs() {
+		int total = 0;
+		for (int i = 0; i < realAngusItemDescs.Count; i++) {
+			if (realAngusItemDescs[i].unlocked) {
+				total += 1;
+			}
+		}
+		return total;
+	}
 
 	void MakeSemiRandomOrdering() {
 		int suggestedSeed = (int)(Utilities.SecondsSinceEpoch ()) % 100000;
@@ -60,17 +69,20 @@ public class RealAngusData : MonoBehaviour {
 		RealAngusItemDesc raid;
 
 		raid = new RealAngusItemDesc ("sleepy_face", 
-		                              "I got Angus in 2011 as a kitten.  He was already named \"Angus\" and the name stuck: he was absolutely an Angus.",
+		                              "I got Angus in 2011 as a kitten. " + 
+		                              "He was already named \"Angus\" and the name stuck: he was absolutely an Angus.",
 		                              "intro");
 		realAngusItemDescs.Add (raid);
 		
 		raid = new RealAngusItemDesc ("with_curry_napping", 
-		                              "I had just gotten a female kitten, Curry, and she was a bit wild. The vet suggested a boy cat would help her calm down.",
+		                              "I had just gotten a female kitten, Curry, and she was a bit wild. " + 
+		                              "The vet suggested a boy cat would help her calm down.",
 		                              "curry_taming");
 		realAngusItemDescs.Add (raid);
 		
 		raid = new RealAngusItemDesc ("kitten_hug", 
-		                              "Angus and Curry became great friends.  He would pounce on her occasionally, but honestly she deserved it.",
+		                              "Angus and Curry became great friends. " + 
+		                              "He would pounce on her occasionally, she usually deserved it.",
 		                              "kitten_hug");
 		realAngusItemDescs.Add (raid);
 		
@@ -81,7 +93,8 @@ public class RealAngusData : MonoBehaviour {
 
 
 		raid = new RealAngusItemDesc ("fridge", 
-		                              "I would feed him by dipping a coffee cup into a giant bag of food and then pouring that into his dish.  He was such a glutton that he'd stick his nose and paws into the cup as I was trying to pour. I'd have to hold him down.", 
+		                              "He was a glutton. " + 
+		                              "If I didn't hold him down at feeding time he'd stick his face and paws into the bag of catfood.", 
 		                              "glutton");
 		realAngusItemDescs.Add (raid);
 

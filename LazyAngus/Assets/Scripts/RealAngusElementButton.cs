@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -9,32 +9,30 @@ public class RealAngusElementButton : MonoBehaviour
 	public Image frameImage;
 	public Image shadowImage;
 	public Image lockImage;
-	public float frameWidth = 5;
 	public float pauseBeforePulsing = 0.5f;
+	public RealAngusItemDesc raid { get; private set; }
+
 	float startTransitionTime;
 	bool transitioning = true;
-	RealAngusItemDesc raid;
 	DistortForEffect distortForEffect;
-	
+
 	public delegate void ButtonHandler (RealAngusElementButton button);
 
 	ButtonHandler OnButtonClicked;
 	ButtonHandler OnTransitionComplete;
 
 	public bool selected { get; private set; }
-
-	Button button;
+	
 	Vector2 homePosition;
 	float homeRotation;
-	public Vector2 selectedPosition = new Vector2 (0, 0);
 
-	float width;
+	Vector2 selectedPosition;
+	float selectedRotation;
 	float selectedScale;
-
+	
 	void Awake ()
 	{
 		distortForEffect = GetComponent<DistortForEffect> ();
-		button = GetComponent<Button> ();
 	}
 	
 	// Use this for initialization
@@ -50,64 +48,22 @@ public class RealAngusElementButton : MonoBehaviour
 		}
 	}
 
-	public void SetSizingDetails(float width, float selectedScale) {
-		this.width = width;
-		this.selectedScale = selectedScale;
-	}
-
 	void UpdateSelectionState() {
 		float timeFraction = (Time.time - startTransitionTime) / 
 			TweakableParams.realAngusSelectionMoveTime;
-		
-		Vector2 localPos;
-		float angle;
-		float scale;
+
+		Utilities.LerpTransformInOut (selected, 
+		                              timeFraction,
+		                              homePosition, homeRotation, 1, 
+		                              selectedPosition, selectedRotation, selectedScale, 
+		                              transform);
 
 		if (timeFraction >= 1) {
 			transitioning = false;
-			if (selected) {
-				localPos = selectedPosition;
-				angle = 0;
-				scale = selectedScale;
-			} else {
-				localPos = homePosition;
-				angle = homeRotation;
-				scale = 1;
-			}
-			
 			if (OnTransitionComplete != null) {
-				OnTransitionComplete(this);
-			}
-		} else {
-			if (selected) {
-				localPos = 
-					Vector2.Lerp (homePosition, 
-					              selectedPosition, 
-					              timeFraction);
-				angle = Mathf.Lerp (homeRotation, 
-				                    0, 
-				                    timeFraction);
-				scale = Mathf.Lerp (1, 
-				                    selectedScale, 
-				                    timeFraction);
-
-			} else {
-				localPos = 
-					Vector2.Lerp (selectedPosition,
-					              homePosition, 
-					              timeFraction);
-				angle = Mathf.Lerp (0, 
-				                    homeRotation, 
-				                    timeFraction);
-				scale = Mathf.Lerp (selectedScale, 
-				                    1, 
-				                    timeFraction);
+				OnTransitionComplete (this);
 			}
 		}
-		
-		transform.localPosition = localPos;
-		transform.localRotation = Quaternion.Euler(0, 0, angle);
-		transform.localScale = new Vector2 (scale, scale);
 	}
 
 	public void SetClickHandler (ButtonHandler handler)
@@ -126,30 +82,24 @@ public class RealAngusElementButton : MonoBehaviour
 
 		photoImage.sprite = raid.pictureSprite;
 
-		Rect r = raid.pictureSprite.rect;
-		float aspectRatio = r.width / r.height;
+		float frameWidth = TweakableParams.realAngusElementButtonWidth;
+		float imageWidth = frameWidth - 2 * TweakableParams.realAngusElementButtonFrameWidth;
+		float imageHeight = imageWidth / TweakableParams.realAngusImageAspectRatio;
+		float frameHeight = imageHeight + 2 * TweakableParams.realAngusElementButtonFrameWidth;
 
-		float height;
-		height = width / aspectRatio;
-
-		frameImage.rectTransform.sizeDelta = new Vector2 (width + 2 * frameWidth,
-		                                                  height + 2 * frameWidth);	
-		shadowImage.rectTransform.sizeDelta = new Vector2 (width + 2 * frameWidth,
-		                                                  height + 2 * frameWidth);	
-		photoImage.rectTransform.sizeDelta = new Vector2 (width,
-		                                                  height);		
+		frameImage.rectTransform.sizeDelta = new Vector2 (frameWidth, frameHeight);
+		shadowImage.rectTransform.sizeDelta = new Vector2 (frameWidth, frameHeight);
+		photoImage.rectTransform.sizeDelta = new Vector2 (imageWidth,imageHeight);		
 
 		UpdateState ();
 	}
-
+	 
 	void UpdateState ()
 	{
 		if (raid.unlocked) {
 			lockImage.gameObject.SetActive (false);
-			button.enabled = true;
 		} else {
 			lockImage.gameObject.SetActive (true);
-			button.enabled = false;
 		}
 	}
 
@@ -185,6 +135,14 @@ public class RealAngusElementButton : MonoBehaviour
 				transitioning = true;
 			}
 		}
+	}
+
+	public void SetSelectedTransform(Vector2 position, 
+	                                 float rotation, 
+	                                 float scale) {
+		selectedPosition = position;
+		selectedRotation = rotation;
+		selectedScale = scale;
 	}
 
 	public void SetHomeTransform (Vector2 position, 

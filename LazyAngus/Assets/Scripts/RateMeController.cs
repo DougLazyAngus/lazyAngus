@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class RateMeController : MonoBehaviour {
-	public int launchFrequency = 2;
+	public int launchFrequency = 1;
 	public float minTimeFrequencySec = (60f * 60f) * (1.0f/60.0f);
 	public GameObject rateMeDialogPrototype;
 	public float waitToShow = 3;
@@ -36,8 +36,8 @@ public class RateMeController : MonoBehaviour {
 
 	void OnGamePhaseChanged() {
 		// Game end....
-		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.GAME_OVER) {
-			WaitAndShowDialog ();
+		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.LEVEL_END) {
+			 StartCoroutine(WaitAndShowDialog());
 		}
 	}
 
@@ -65,7 +65,7 @@ public class RateMeController : MonoBehaviour {
 			return false;
 		}
 
-		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.GAME_OVER) {
+		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_END) {
 			return false;
 		}
 

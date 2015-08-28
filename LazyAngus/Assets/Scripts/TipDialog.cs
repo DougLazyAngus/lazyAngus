@@ -9,6 +9,10 @@ public class TipDialog : MonoBehaviour {
 		DialogController.instance.HideDialog (gameObject);
 	}
 
+	public void ConfigureDialog(string message) {
+		ConfigureDialog (message, new Vector2 (0, 0));
+	}
+
 	public void ConfigureDialog(string message, 
 	                            Vector2 position) {
 		dialogText.text = message;

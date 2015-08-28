@@ -12,13 +12,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-
 public class Utilities
 {
 	public const string appImageURL = "http://pixabay.com/static/uploads/photo/2012/05/07/03/24/baby-47809_640.png";
 	public const string appURL = "http://www.lazyangus.com/";
 
-	public static float GetZAngle(Vector3 vector) {
+	public static float GetZAngle (Vector3 vector)
+	{
 		vector.z = 0;
 		float angle = Vector3.Angle (Vector3.right, vector);
 		if (vector.y < 0) {
@@ -26,19 +26,21 @@ public class Utilities
 		} else {
 			return angle;
 		}
-	} 
+	}
 
-	public static GameObject FindChildWithTag(GameObject gameObject, string tag) {
-		for(int i = 0; i < gameObject.transform.childCount; i++){
-			Transform child = gameObject.transform.GetChild(i);
-			if(child.gameObject.tag == tag){
+	public static GameObject FindChildWithTag (GameObject gameObject, string tag)
+	{
+		for (int i = 0; i < gameObject.transform.childCount; i++) {
+			Transform child = gameObject.transform.GetChild (i);
+			if (child.gameObject.tag == tag) {
 				return child.gameObject;
 			}
 		}
 		return null;
 	}
 
-	public static T FindComponentInAncestor<T>(GameObject gameObject) {
+	public static T FindComponentInAncestor<T> (GameObject gameObject)
+	{
 		T component = gameObject.GetComponent<T> ();
 		if (component != null) {
 			return component;
@@ -50,7 +52,8 @@ public class Utilities
 		return FindComponentInAncestor<T> (parent.gameObject);
 	}
 
-	public static void ShuffleList<T>(ref List<T> list) {
+	public static void ShuffleList<T> (ref List<T> list)
+	{
 		for (int i = 0; i < list.Count; i++) {
 			T temp = list [i];
 			int randomIndex = Random.Range (i, list.Count);
@@ -59,7 +62,8 @@ public class Utilities
 		}
 	}
 
-	public static Color TrafficLightColorLerp (float fractionFinished) {
+	public static Color TrafficLightColorLerp (float fractionFinished)
+	{
 		fractionFinished = Mathf.Clamp (fractionFinished, 0f, 1f);
 		if (fractionFinished < 0.5f) {
 			return Color.Lerp (Color.green, Color.yellow, fractionFinished * 2f);
@@ -68,7 +72,8 @@ public class Utilities
 		}
 	}
 	
-	public static string GetShareTitleForScore(int score) {
+	public static string GetShareTitleForScore (int score)
+	{
 		int highScore = PlayerStats.instance.GetHighScore ();
 		if (highScore == score) {
 			return "New High Score!";
@@ -78,7 +83,8 @@ public class Utilities
 		
 	}
 	
-	public static string GetShareMessageForScore(int score) {
+	public static string GetShareMessageForScore (int score)
+	{
 		int highScore = PlayerStats.instance.GetHighScore ();
 		if (highScore == score) {
 			return "I got a new High Score of " + score + " in Lazy Angus!"; 
@@ -88,14 +94,15 @@ public class Utilities
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public bool CanLaunchURL(string url);
+	extern static public bool CanLaunchURL (string url);
 
 	/*
 	[System.Runtime.InteropServices.DllImport("__Internal")]
 	extern static public bool AuthenticateGameCenterHack();
 	*/
 
-	private static bool AppCanLaunchURL(string url) {
+	private static bool AppCanLaunchURL (string url)
+	{
 		if (Application.platform == RuntimePlatform.IPhonePlayer) {
 			return CanLaunchURL (appURL);
 		} else {
@@ -103,7 +110,8 @@ public class Utilities
 		}
 	}
 
-	private static void LaunchAppOrWebOnIOS(string appURL, string webURL) {
+	private static void LaunchAppOrWebOnIOS (string appURL, string webURL)
+	{
 		if (CanLaunchURL (appURL)) {
 			Debug.Log ("Can open appURL");
 			Application.OpenURL (appURL);
@@ -113,10 +121,11 @@ public class Utilities
 		}
 	}
 
-	public static IEnumerator LaunchAppOrWeb (string appURL, string webURL) {
+	public static IEnumerator LaunchAppOrWeb (string appURL, string webURL)
+	{
 
 		if (Application.platform == RuntimePlatform.IPhonePlayer) {
-			LaunchAppOrWebOnIOS(appURL, webURL);
+			LaunchAppOrWebOnIOS (appURL, webURL);
 			yield return new WaitForSeconds (0.001f);
 		} else {
 			// FIXME(dbanks)
@@ -124,16 +133,17 @@ public class Utilities
 		}
 	}
 
-	public static void SpaceHorizontally(float containingWidth, 
+	public static void SpaceHorizontally (float containingWidth, 
 	                                     GameObject[] objects, 
 	                                     float yOffset, 
-	                                     float yWiggle = 0f) {
+	                                     float yWiggle = 0f)
+	{
 		float canvasWidth = containingWidth; 
 		
 		float totalObjectWidth = 0f;
 		
 		foreach (GameObject go in objects) {
-			totalObjectWidth += go.GetComponent<RectTransform>().rect.width;
+			totalObjectWidth += go.GetComponent<RectTransform> ().rect.width;
 		}
 		
 		float leftoverSpace = canvasWidth - totalObjectWidth;
@@ -148,14 +158,14 @@ public class Utilities
 		}
 
 		foreach (GameObject go in objects) {
-			RectTransform rt = go.GetComponent<RectTransform>();
+			RectTransform rt = go.GetComponent<RectTransform> ();
 			float objectWidth = rt.rect.width;
 
 			leftEdge += margin;
 			
-			objectXOffset = leftEdge + objectWidth/2;
+			objectXOffset = leftEdge + objectWidth / 2;
 			
-			Vector2 position = new Vector2(objectXOffset, yOffset + wiggle);
+			Vector2 position = new Vector2 (objectXOffset, yOffset + wiggle);
 			wiggle = -wiggle;
 			
 			rt.anchoredPosition = position;
@@ -164,7 +174,8 @@ public class Utilities
 
 	}
 
-	public static float GetIOSVersion() {
+	public static float GetIOSVersion ()
+	{
 		if (Application.platform != RuntimePlatform.IPhonePlayer) {
 			return -1;
 		}
@@ -178,35 +189,37 @@ public class Utilities
 		                   System.Globalization.CultureInfo.InvariantCulture);
 	}
 
+	static System.DateTime epoch = new System.DateTime (1970, 1, 1);
 
-	static System.DateTime epoch = new System.DateTime(1970, 1, 1);
-
-	public static float SecondsSinceEpoch() {
+	public static float SecondsSinceEpoch ()
+	{
 		System.TimeSpan t = System.DateTime.UtcNow - epoch;
 		return (float)t.TotalSeconds;	
 	}
 
-	public static float[] GetBlendingCoefficients (float t, int numPoints) {
+	public static float[] GetBlendingCoefficients (float t, int numPoints)
+	{
 		float[] retVal = new float [numPoints];
 
 		float[] values = new float [numPoints];
 		for (int i = 0; i < numPoints; i++) {
-			values[i] = (float)i/(float)(numPoints-1);
+			values [i] = (float)i / (float)(numPoints - 1);
 		}
 
 		for (int i = 0; i < numPoints; i++) {
 			float coefficient = 1f;
 			for (int j = 0; j < numPoints; j++) {
 				if (j != i) {
-					coefficient *= (t - values[j])/(values[i] - values[j]);
+					coefficient *= (t - values [j]) / (values [i] - values [j]);
 				}
 			}
-			retVal[i] = coefficient;
+			retVal [i] = coefficient;
 		}
 		return retVal;
 	}
 
-	public static int ParseIntWithDefault(string text, int defaultValue) {
+	public static int ParseIntWithDefault (string text, int defaultValue)
+	{
 		int value;
 		if (int.TryParse (text, out value)) {
 			return value;
@@ -215,11 +228,12 @@ public class Utilities
 		}
 	}
 
-	public static void MakeFanWithAngleRange(ref Mesh mesh, 
+	public static void MakeFanWithAngleRange (ref Mesh mesh, 
 	                                         float startAngle, 
 	                                         float endAngle, 
 	                                         float radius, 
-	                                         int numTriangles) {
+	                                         int numTriangles)
+	{
 		float totalRange = endAngle - startAngle;
 		
 		float angleIncrementDeg = totalRange / numTriangles;
@@ -241,8 +255,8 @@ public class Utilities
 			vertices [i + 1].x = Mathf.Cos (Mathf.Deg2Rad * angle) * radius;
 			vertices [i + 1].z = 0f;
 
-			uvs [i+1].x = 1f;
-			uvs [i+1].y = (float)i/(float)numTriangles;
+			uvs [i + 1].x = 1f;
+			uvs [i + 1].y = (float)i / (float)numTriangles;
 		}
 		
 		int [] triangles = new int[numTriangles * 3];
@@ -258,15 +272,74 @@ public class Utilities
 		mesh.triangles = triangles;
 		mesh.uv = uvs;
 
-		mesh.RecalculateNormals();
+		mesh.RecalculateNormals ();
 	}
 
-	public static string AddTextColor(string input, Color color) {
-		return "<color=#" + color.ToHexStringRGB() + ">" + input + "</color>";
+	public static string AddTextColor (string input, Color color)
+	{
+		return "<color=#" + color.ToHexStringRGB () + ">" + input + "</color>";
 	}
 	
-	public static string AddFontSize(string input, int size) {
+	public static string AddFontSize (string input, int size)
+	{
 		return "<size=" + size + ">" + input + "</size>";
+	}
+
+	public static void LerpTransform (float timeFraction, 
+	                                 Vector2 fromPosition, 
+	                                 float fromAngle, 
+	                                 float fromScale, 
+	                                 Vector2 toPosition, 
+	                                 float toAngle, 
+	                                 float toScale, 
+	                                 Transform t)
+	{
+		Vector2 position;
+		float angle;
+		float scale;
+		if (timeFraction <= 0) {
+			position = fromPosition;
+			angle = fromAngle;
+			scale = fromScale;
+		} else if (timeFraction >= 1) {
+			position = toPosition;
+			angle = toAngle;
+			scale = toScale;
+		} else {
+			position = 
+				Vector2.Lerp (fromPosition, 
+				              toPosition, 
+				              timeFraction);
+			angle = Mathf.Lerp (fromAngle, 
+			                    toAngle, 
+			                    timeFraction);
+			scale = Mathf.Lerp (fromScale, 
+			                    toScale, 
+			                    timeFraction);
+		}
+
+		t.localPosition = position;
+		t.localRotation = Quaternion.Euler (0, 0, angle);
+		t.localScale = new Vector2 (scale, scale);
+	}
+
+	public static void LerpTransformInOut (bool fwd, 
+	                                       float timeFraction, 
+	                                 Vector2 fromPosition, 
+	                                 float fromAngle, 
+	                                 float fromScale, 
+	                                 Vector2 toPosition, 
+	                                 float toAngle, 
+	                                 float toScale, 
+	                                 Transform t)
+	{
+		if (fwd) {
+			LerpTransform (timeFraction, fromPosition, fromAngle, fromScale, 
+			              toPosition, toAngle, toScale, t);
+		} else {
+			LerpTransform (timeFraction, toPosition, toAngle, toScale, 
+			               fromPosition, fromAngle, fromScale, t);
+		}
 	}
 
 }
