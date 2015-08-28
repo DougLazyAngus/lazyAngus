@@ -13,6 +13,11 @@ public class RealAngusButton : MonoBehaviour {
 		UpdateDisplay ();
 	}
 	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+
 	void OnDestroy() {
 		UnregisterForEvents ();
 		
@@ -36,11 +41,6 @@ public class RealAngusButton : MonoBehaviour {
 			RealAngusData.instance.RealAngusDataChanged -= 
 				new RealAngusData.RealAngusDataChangedEventHandler (UpdateDisplay);
 		}
-	}
-
-	// Update is called once per frame
-	void Update () {
-	
 	}
 
 	void OnEnabled() {

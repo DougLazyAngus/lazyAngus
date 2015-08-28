@@ -60,7 +60,7 @@ public class SFXPlayer : MonoBehaviour {
 		
 		LoadAudioSource (SFXType.MOUSE_TRAP, "mouse_trap.03");
 
-		LoadAudioSource (SFXType.CAMERA, "camera_hack.03");
+		LoadAudioSource (SFXType.CAMERA, "camera_hack");
 	}
 
 

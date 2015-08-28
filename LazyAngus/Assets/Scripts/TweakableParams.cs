@@ -65,6 +65,9 @@ public class TweakableParams : MonoBehaviour {
 	public const float flyingAnimationTime = 1.0f;
 	public const float deadMouseAnimationTime = 0.3f;
 
+	public const float realAngusSelectionFadeTime = 0.5f;
+	public const float realAngusSelectionMoveTime = realAngusSelectionFadeTime - 0.1f;
+
 	public static int GetInitialMoney() {
 		if (DebugConfig.instance.useDebugValues) {
 			return debugInitialMoney;

@@ -78,11 +78,44 @@ public class RealAngusData : MonoBehaviour {
 		                              "He was the only cat I ever met who liked to have his belly rubbed. His massive, fuzzy white belly...", 
 		                              "belly");
 		realAngusItemDescs.Add (raid);
-		
+
+
 		raid = new RealAngusItemDesc ("fridge", 
 		                              "I would feed him by dipping a coffee cup into a giant bag of food and then pouring that into his dish.  He was such a glutton that he'd stick his nose and paws into the cup as I was trying to pour. I'd have to hold him down.", 
 		                              "glutton");
 		realAngusItemDescs.Add (raid);
+
+		raid = new RealAngusItemDesc ("belly", 
+		                              "The quick brown fox jumps over the lazy dog.",
+		                              "dummy1");
+		realAngusItemDescs.Add (raid);
+		
+		raid = new RealAngusItemDesc ("belly", 
+		                              "The quick brown fox jumps over the lazy dog.",
+		                              "dummy2");
+		realAngusItemDescs.Add (raid);
+		
+		raid = new RealAngusItemDesc ("belly", 
+		                              "The quick brown fox jumps over the lazy dog.",
+		                              "dummy3");
+		realAngusItemDescs.Add (raid);
+
+		
+		raid = new RealAngusItemDesc ("belly", 
+		                              "The quick brown fox jumps over the lazy dog.",
+		                              "dummy4");
+		realAngusItemDescs.Add (raid);
+		
+		raid = new RealAngusItemDesc ("belly", 
+		                              "The quick brown fox jumps over the lazy dog.",
+		                              "dummy5");
+		realAngusItemDescs.Add (raid);
+		
+		raid = new RealAngusItemDesc ("belly", 
+		                              "The quick brown fox jumps over the lazy dog.",
+		                              "dummy6");
+		realAngusItemDescs.Add (raid);
+		
 
 		raid = new RealAngusItemDesc ("red_bed", 
 		                              "He died on October 24 of 2014, just 3 years old. A sad time for me and his many fans and admirers. Sleep well, buddy. I miss you.",
