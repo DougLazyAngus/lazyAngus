@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class MouseSinkController : MonoBehaviour {
 	int trapCapacity = 1;
+	int trapsSpent = 0;
 	
 	bool spreadClockwise;
 
@@ -80,6 +81,8 @@ public class MouseSinkController : MonoBehaviour {
 
 	void OnInstanceChanged() {
 		trapCapacity = 1;
+		trapsSpent = 0;
+		savedMouseCount = 0;
 		ResetTraps ();
 	}
 
@@ -99,14 +102,13 @@ public class MouseSinkController : MonoBehaviour {
 	} 
 
 	void ResetTraps() {
-		savedMouseCount = 0;
 		while (mouseTraps.Count != 0) {
 			MouseTrap t = mouseTraps[0];
 			mouseTraps.RemoveAt(0);
 			Object.Destroy (t.gameObject);
 		}
 
-		for (int i = 0; i < trapCapacity; i++) {
+		for (int i = 0; i < trapCapacity - trapsSpent; i++) {
 			AddTrap();
 		}
 	}
@@ -128,6 +130,7 @@ public class MouseSinkController : MonoBehaviour {
 		if (mouseTraps.Count > 0) {
 			DeadMouseRelay.instance.HandleMouseKill(mouseMove);
 			RemoveTopmostMouseTrap();
+			trapsSpent += 1;
 		} else {
 			savedMouseCount += 1;
 			GameController.instance.OnMouseExit (mouseMove);
@@ -188,14 +191,17 @@ public class MouseSinkController : MonoBehaviour {
 	}
 
 	public void SetTrapCapacity(int newTrapCapacity) {
-		if (trapCapacity != newTrapCapacity) {
-			trapCapacity = newTrapCapacity;
-			ResetTraps();
-			if ( GameLevelState.instance.gameLevel != 1) {
-				DistortForEffect d4e = GetComponent<DistortForEffect>();
-				if (d4e) {
-					d4e.DistortWithDelay(distortDelay);
-				}
+		if (trapCapacity == newTrapCapacity) {
+			return;
+		}
+
+		trapCapacity = newTrapCapacity;
+		ResetTraps();
+
+		if ( GameLevelState.instance.gameLevel != 1) {
+			DistortForEffect d4e = GetComponent<DistortForEffect>();
+			if (d4e) {
+				d4e.DistortWithDelay(distortDelay);
 			}
 		}
 	}
