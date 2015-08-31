@@ -35,7 +35,7 @@ public class ScoreDisplay : MonoBehaviour {
 	}
 
 	void SetScoreText() {
-		scoreText.text = "Kills: " + PlayerStats.instance.gameScore;
+		scoreText.text = "" + PlayerStats.instance.gameScore;
 	}
 
 	void DynamicUpdateScoreText () {
