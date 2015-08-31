@@ -12,10 +12,10 @@ public class SFXButton : MonoBehaviour {
 	void Awake() {
 		string path;
 
-		path = "Textures/Buttons/SoundIcon";
+		path = "Textures/Buttons/sound_button.01";
 		soundOnSprite = Resources.Load<UnityEngine.Sprite>(path);
 		
-		path = "Textures/Buttons/NoSoundIcon";
+		path = "Textures/Buttons/mute_button.01";
 		soundOffSprite = Resources.Load<UnityEngine.Sprite>(path);		
 	}
 

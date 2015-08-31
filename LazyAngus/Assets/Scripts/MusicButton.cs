@@ -12,10 +12,10 @@ public class MusicButton : MonoBehaviour {
 	void Awake() {
 		string path;
 		
-		path = "Textures/Buttons/MusicIcon";
+		path = "Textures/Buttons/music_button.01";
 		onSprite = Resources.Load<UnityEngine.Sprite>(path);
 		
-		path = "Textures/Buttons/NoMusicIcon";
+		path = "Textures/Buttons/music_button_off.01";
 		offSprite = Resources.Load<UnityEngine.Sprite>(path);		
 	}
 	
