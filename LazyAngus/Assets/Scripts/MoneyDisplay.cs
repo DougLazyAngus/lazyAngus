@@ -31,12 +31,19 @@ public class MoneyDisplay : MonoBehaviour {
 		}
 	}
 	
-	void SetTreatsText() {
-		moneyText.text = "" + playerStats.money;
+	bool SetTreatsText() {
+		string text = "" + playerStats.money;
+		if (text != moneyText.text) {
+			moneyText.text = text;
+			return true;
+		} else {
+			return false;
+		}
 	}
 	
 	void DynamicUpdateTreatsText () {
-		SetTreatsText ();
-		distortForEffect.DistortWithDelay (TweakableParams.flyingAnimationTime);
+		if (SetTreatsText()) {
+			distortForEffect.DistortWithDelay (TweakableParams.flyingAnimationTime);
+		}
 	}
 }

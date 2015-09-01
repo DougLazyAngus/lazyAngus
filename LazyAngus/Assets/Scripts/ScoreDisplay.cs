@@ -34,13 +34,20 @@ public class ScoreDisplay : MonoBehaviour {
 		}
 	}
 
-	void SetScoreText() {
-		scoreText.text = "" + PlayerStats.instance.gameScore;
+	bool SetScoreText() {
+		string text = "" + PlayerStats.instance.gameScore;
+		if (text != scoreText.text) {
+			scoreText.text = text;
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	void DynamicUpdateScoreText () {
-		SetScoreText ();
-		distortForEffect.DistortWithDelay (TweakableParams.flyingAnimationTime + 
-		                                   TweakableParams.deadMouseAnimationTime);
+		if (SetScoreText ()) {
+			distortForEffect.DistortWithDelay (TweakableParams.flyingAnimationTime + 
+			                                   TweakableParams.deadMouseAnimationTime);
+		}
 	}
 }

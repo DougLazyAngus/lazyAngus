@@ -43,11 +43,15 @@ public class RealAngusButton : MonoBehaviour {
 		}
 	}
 
-	void OnEnabled() {
+	void OnEnable() {
 		UpdateDisplay ();
 	}
 
 	void UpdateDisplay() {
+		if (RealAngusData.instance == null) {
+			return;
+		}
+
 		List<RealAngusItemDesc> raids = RealAngusData.instance.GetRealAngusItemDescs ();
 
 		if (raids == null) {

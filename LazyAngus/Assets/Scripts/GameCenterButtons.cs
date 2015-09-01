@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 using System.Collections;
@@ -8,26 +8,33 @@ public class GameCenterButtons : MonoBehaviour {
 	public Button achievementButton;
 	public Button rateMeButton;
 
-	
-	void Start() {
-		if (!SocialHelper.instance.IsEnabled ()) {
-			gameObject.SetActive (false);
-			return;
-		} else {
-			gameObject.SetActive (true);
-		}
-
-		leaderBoardButton.onClick.AddListener(() => { 
-			SocialHelper.instance.ShowLeaderBoard();
-		});
-
-		achievementButton.onClick.AddListener(() => { 
-			SocialHelper.instance.ShowAchievements();
-		});
-
-		rateMeButton.onClick.AddListener(() => { 
-			RatingsHelper.instance.ShowRatingsPage();
-		});
-
+	void Awake() {
+		Debug.Log ("GameCenterButtons awake");
 	}
+
+	void Start() {
+		UpdateButtonAvailability ();
+	}
+
+	void UpdateButtonAvailability() {
+		if (SocialHelper.instance.IsEnabled () || 
+		    DebugConfig.instance.IsDebugFlagSet(DebugConfig.DEBUG_UI_FOR_APPLE)) {
+			gameObject.SetActive (true);
+		} else {
+			gameObject.SetActive (false);
+		}
+	}
+
+	public void ShowLeaderboard() {
+		SocialHelper.instance.ShowLeaderBoard();
+	}
+
+	public void ShowRateMe() {
+		RatingsHelper.instance.ShowRatingsPage();
+	}
+
+	public void ShowAchievements() {		
+		SocialHelper.instance.ShowAchievements();	
+	}
+
 }

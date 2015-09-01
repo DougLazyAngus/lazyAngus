@@ -15,32 +15,38 @@ public class SocialMediaButtons : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		if (Application.platform == RuntimePlatform.IPhonePlayer) {
+		UpdateButtonAvailability ();
+	}
+
+	void UpdateButtonAvailability() {
+		if (Application.platform == RuntimePlatform.IPhonePlayer || 
+		    DebugConfig.instance.IsDebugFlagSet(DebugConfig.DEBUG_UI_FOR_APPLE)) {
 			fbButton.gameObject.SetActive (false);
 			twitterButton.gameObject.SetActive (false);
 			shareButton.gameObject.SetActive (true);
-
-			shareButton.onClick.AddListener (() => { 
-				int personalBest = PlayerStats.instance.GetHighScore ();
-				int finalScore = PlayerStats.instance.gameScore;
-				LaunchShareWidget (finalScore, finalScore == personalBest);
-			});
 		} else {
 			fbButton.gameObject.SetActive (true);
 			twitterButton.gameObject.SetActive (true);
 			shareButton.gameObject.SetActive (false);
-
-			fbButton.onClick.AddListener (() => { 
-				int personalBest = PlayerStats.instance.GetHighScore ();
-				int finalScore = PlayerStats.instance.gameScore;
-				FacebookSharing.instance.ShareScore (finalScore, 
-				                                    finalScore == personalBest);
-			});
-
-			twitterButton.onClick.AddListener (() => { 
-				int finalScore = PlayerStats.instance.gameScore;
-				TwitterSharing.instance.ShareScore (finalScore);
-			});
 		}
 	}
+
+	public void ShareInShareWidget() {
+		int personalBest = PlayerStats.instance.GetHighScore ();
+		int finalScore = PlayerStats.instance.gameScore;
+		LaunchShareWidget (finalScore, finalScore == personalBest);
+	}
+
+	public void ShareOnFB() {
+		int personalBest = PlayerStats.instance.GetHighScore ();
+		int finalScore = PlayerStats.instance.gameScore;
+		FacebookSharing.instance.ShareScore (finalScore, 
+		                                     finalScore == personalBest);
+	}
+
+	public void ShareOnTwitter() {
+		int finalScore = PlayerStats.instance.gameScore;
+		TwitterSharing.instance.ShareScore (finalScore);
+	}
+
 }

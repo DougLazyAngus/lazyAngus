@@ -14,7 +14,6 @@ public class MouseTrap : MonoBehaviour {
 	public float timeToSlide = 0.5f;
 
 	void Awake() {
-		Debug.Log ("Making a mousetrap");
 	}
 
 	// Use this for initialization

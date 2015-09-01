@@ -416,7 +416,7 @@ public class MouseMove : MonoBehaviour
 
 		int numSections = (int)MouseSinkController.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType;
 
-		if (DebugConfig.instance.DebugFlagSet (0)) {
+		if (DebugConfig.instance.IsDebugFlagSet (DebugConfig.DEBUG_FLAG_SHORT_MOUSE_PATH)) {
 			numSections = 0;
 		}
 

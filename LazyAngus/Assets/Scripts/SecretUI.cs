@@ -40,7 +40,7 @@ public class SecretUI : MonoBehaviour {
 	void ApplyDebugFlags() {
 		int debugFlags = Utilities.ParseIntWithDefault (debugFlagsInputField.text, -1);
 		if (debugFlags >= 0) {
-			DebugConfig.instance.debugFlags = debugFlags;
+			DebugConfig.instance.SetDebugFlags(debugFlags);
 		}
 		inputs.SetActive (false);
 	}

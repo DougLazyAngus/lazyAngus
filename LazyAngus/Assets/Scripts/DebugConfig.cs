@@ -12,7 +12,10 @@ public class DebugConfig : MonoBehaviour {
 
 	public static DebugConfig instance { get; private set; }
 
-	public int debugFlags = 0;
+	public const int DEBUG_FLAG_SHORT_MOUSE_PATH = 0;
+	public const int DEBUG_UI_FOR_APPLE = 1;
+
+	int debugFlags = 0;
 	
 	void Awake() {
 		useDebugValues = false;
@@ -21,13 +24,19 @@ public class DebugConfig : MonoBehaviour {
 	}
 
 	void Start() {
+		debugFlags = PersistentStorage.instance.GetIntValue ("debugFlags", 0);
 	}
 
-	public bool DebugFlagSet(int debugFlag) {
+	public bool IsDebugFlagSet(int debugFlag) {
 		if (debugFlag < 0 || debugFlag >= 32) {
 			return false;
 		}
 
 		return (((1 << debugFlag) & debugFlags) != 0);
+	}
+
+	public void SetDebugFlags(int debugFlags) {
+		this.debugFlags = debugFlags;
+		PersistentStorage.instance.SetIntValue("debugFlags", debugFlags);
 	}
 }
