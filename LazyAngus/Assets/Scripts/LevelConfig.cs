@@ -94,10 +94,10 @@ public class LevelConfig : MonoBehaviour
 	//We make a static variable to our MusicManager instance
 	public static LevelConfig instance { get; private set; }
 
-	const string mouseHoleIntroSpritePath = "Textures/MouseHole/cheese";
+	const string newMouseTrapSpritePath = "Textures/Misc/mousetrap";
 	const string angusIntroSpritePath = "Textures/Misc/smile-kitty";
 	
-	Sprite mouseHoleIntroSprite;
+	Sprite newMouseTrapSprite;
 	Sprite angusIntroSprite;
 	
 	void Awake ()
@@ -116,7 +116,7 @@ public class LevelConfig : MonoBehaviour
 	}
 
 	void LoadSprites() {
-		mouseHoleIntroSprite = Resources.Load<UnityEngine.Sprite> (mouseHoleIntroSpritePath);
+		newMouseTrapSprite = Resources.Load<UnityEngine.Sprite> (newMouseTrapSpritePath);
 		angusIntroSprite = Resources.Load<UnityEngine.Sprite> (angusIntroSpritePath);
 	}
 	
@@ -358,8 +358,8 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
-			ld.specialText = "There's more room in one of the mouse holes!";
-			ld.sprite = mouseHoleIntroSprite;
+			ld.specialText = "A new mousetrap!";
+			ld.sprite = newMouseTrapSprite;
 
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.NORTH);
 			ld.realAngusAccumulator.AddNew();
@@ -436,8 +436,8 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
-			ld.specialText = "There's more room in one of the mouse holes!";
-			ld.sprite = mouseHoleIntroSprite;
+			ld.specialText = "Another mousetrap!";
+			ld.sprite = newMouseTrapSprite;
 			
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
 			ld.realAngusAccumulator.AddNew();
@@ -569,8 +569,8 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
-			ld.specialText = "Some mouse holes are getting bigger!";
-			ld.sprite = mouseHoleIntroSprite;
+			ld.specialText = "Whew, another trap!";
+			ld.sprite = newMouseTrapSprite;
 
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
 
@@ -714,8 +714,8 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
-			ld.specialText = "Some mouse holes are getting bigger!";
-			ld.sprite = mouseHoleIntroSprite;
+			ld.specialText = "I could use another mousetrap...";
+			ld.sprite = newMouseTrapSprite;
 			
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
 
@@ -842,8 +842,8 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
-			ld.specialText = "One mouse hole is growing!";
-			ld.sprite = mouseHoleIntroSprite;
+			ld.specialText = "This new mousetrap should help!";
+			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
 
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.DISTRIBUTED, 1);
@@ -1011,8 +1011,8 @@ public class LevelConfig : MonoBehaviour
 		*/
 		
 		if (--glCounter == 0) {
-			ld.specialText = "Another mouse hole expands!";
-			ld.sprite = mouseHoleIntroSprite;
+			ld.specialText = "A new mousetrap!";
+			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
 
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.DISTRIBUTED);
@@ -1091,8 +1091,8 @@ public class LevelConfig : MonoBehaviour
 		}
 
 		if (--glCounter == 0) {
-			ld.specialText = "One hole is a little more roomy!";
-			ld.sprite = mouseHoleIntroSprite;
+			ld.specialText = "Another mousetrap!";
+			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
 			return ld;
 		}
@@ -1110,8 +1110,8 @@ public class LevelConfig : MonoBehaviour
 		}
 
 		if (--glCounter == 0) {
-			ld.specialText = "One hole is a little more roomy!";
-			ld.sprite = mouseHoleIntroSprite;
+			ld.specialText = "Looks like another new mousetrap!";
+			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.NORTH);
 			return ld;
 		}
@@ -1127,8 +1127,8 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
-			ld.specialText = "One hole is a little more roomy!";
-			ld.sprite = mouseHoleIntroSprite;
+			ld.specialText = "One more trap won't hurt!";
+			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.NORTH);
 			return ld;
 		}
@@ -1145,8 +1145,8 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
-			ld.specialText = "One hole is a little more roomy!";
-			ld.sprite = mouseHoleIntroSprite;
+			ld.specialText = "This looks like a fine new mousetrap!";
+			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
 			return ld;
 		}
@@ -1161,8 +1161,8 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
-			ld.specialText = "One hole is a little more roomy!";
-			ld.sprite = mouseHoleIntroSprite;
+			ld.specialText = "New mousetrap?  Don't mind if I do!";
+			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
 			return ld;
 		}
@@ -1179,8 +1179,8 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
-			ld.specialText = "One hole is a little more roomy!";
-			ld.sprite = mouseHoleIntroSprite;
+			ld.specialText = "One last mousetrap! Better make it count!";
+			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
 			return ld;
 		}

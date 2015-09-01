@@ -49,5 +49,8 @@ public class MoneyEarningController : MonoBehaviour {
 		FlyingAnimation flyingAnimation = moneyEffectGameObject.GetComponent<FlyingAnimation> ();
 		flyingAnimation.Configure (pawPosition, moneyDisplay);
 		flyingAnimation.Run ();
+
+		// SFX too.
+		SFXPlayer.instance.Play (SFXPlayer.SFXType.EARN_MONEY);
 	}
 }
