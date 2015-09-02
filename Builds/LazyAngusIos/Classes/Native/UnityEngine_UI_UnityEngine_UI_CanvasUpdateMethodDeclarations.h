@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.CanvasUpdate
-struct CanvasUpdate_t909;
+struct CanvasUpdate_t923;
 

@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // RatingsHelper
-struct RatingsHelper_t630;
+struct RatingsHelper_t635;
 // System.String
 struct String_t;
 
 // System.Void RatingsHelper::.ctor()
-extern "C" void RatingsHelper__ctor_m3394 (RatingsHelper_t630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RatingsHelper__ctor_m3438 (RatingsHelper_t635 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void RatingsHelper::Awake()
-extern "C" void RatingsHelper_Awake_m3395 (RatingsHelper_t630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RatingsHelper_Awake_m3439 (RatingsHelper_t635 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String RatingsHelper::GetStorePageURL()
-extern "C" String_t* RatingsHelper_GetStorePageURL_m3396 (RatingsHelper_t630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* RatingsHelper_GetStorePageURL_m3440 (RatingsHelper_t635 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void RatingsHelper::ShowRatingsPage()
-extern "C" void RatingsHelper_ShowRatingsPage_m3397 (RatingsHelper_t630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RatingsHelper_ShowRatingsPage_m3441 (RatingsHelper_t635 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

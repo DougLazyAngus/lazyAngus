@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Transform
-struct Transform_t406;
+// UnityEngine.EventSystems.BaseRaycaster
+struct BaseRaycaster_t893;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -10,7 +10,7 @@ struct AsyncCallback_t386;
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<UnityEngine.Transform>
-struct  Predicate_1_t5812  : public MulticastDelegate_t388
+// System.Predicate`1<UnityEngine.EventSystems.BaseRaycaster>
+struct  Predicate_1_t5829  : public MulticastDelegate_t388
 {
 };

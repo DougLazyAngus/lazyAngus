@@ -1,4 +1,4 @@
-//Generated on : 8/24/2015 3:22:33 PM
+//Generated on : 9/2/2015 4:13:11 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -22,10 +22,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Animator::ResetTriggerString(System.String)
 		void Register_UnityEngine_Animator_ResetTriggerString();
 		Register_UnityEngine_Animator_ResetTriggerString();
-
-		//System.Void UnityEngine.Animator::SetIntegerString(System.String,System.Int32)
-		void Register_UnityEngine_Animator_SetIntegerString();
-		Register_UnityEngine_Animator_SetIntegerString();
 
 		//System.Void UnityEngine.Animator::SetTriggerString(System.String)
 		void Register_UnityEngine_Animator_SetTriggerString();
@@ -122,6 +118,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.AudioSource::get_isPlaying()
 		void Register_UnityEngine_AudioSource_get_isPlaying();
 		Register_UnityEngine_AudioSource_get_isPlaying();
+
+		//System.Void UnityEngine.AudioSource::INTERNAL_CALL_Pause(UnityEngine.AudioSource)
+		void Register_UnityEngine_AudioSource_INTERNAL_CALL_Pause();
+		Register_UnityEngine_AudioSource_INTERNAL_CALL_Pause();
 
 		//System.Void UnityEngine.AudioSource::Play(System.UInt64)
 		void Register_UnityEngine_AudioSource_Play();
@@ -938,10 +938,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.Input::get_touchCount()
 		void Register_UnityEngine_Input_get_touchCount();
 		Register_UnityEngine_Input_get_touchCount();
-
-		//System.Single UnityEngine.Input::GetAxis(System.String)
-		void Register_UnityEngine_Input_GetAxis();
-		Register_UnityEngine_Input_GetAxis();
 
 		//System.Single UnityEngine.Input::GetAxisRaw(System.String)
 		void Register_UnityEngine_Input_GetAxisRaw();

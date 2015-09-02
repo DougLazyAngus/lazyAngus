@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.KeyValuePair`2<System.String,System.UInt64>[]
-struct KeyValuePair_2U5BU5D_t7770;
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Int64>[]
+struct KeyValuePair_2U5BU5D_t7734;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt64>>
-struct  List_1_t7771  : public Object_t
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int64>>
+struct  List_1_t7735  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt64>>::_items
-	KeyValuePair_2U5BU5D_t7770* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt64>>::_size
+	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int64>>::_items
+	KeyValuePair_2U5BU5D_t7734* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int64>>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt64>>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int64>>::_version
 	int32_t ____version_3;
 };
-struct List_1_t7771_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt64>>::EmptyArray
-	KeyValuePair_2U5BU5D_t7770* ___EmptyArray_4;
+struct List_1_t7735_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int64>>::EmptyArray
+	KeyValuePair_2U5BU5D_t7734* ___EmptyArray_4;
 };

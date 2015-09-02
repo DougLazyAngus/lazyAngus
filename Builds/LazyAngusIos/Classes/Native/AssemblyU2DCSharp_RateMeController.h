@@ -5,7 +5,7 @@ struct GameObject_t352;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // RateMeController
-struct  RateMeController_t627  : public MonoBehaviour_t13
+struct  RateMeController_t632  : public MonoBehaviour_t13
 {
 	// System.Int32 RateMeController::launchFrequency
 	int32_t ___launchFrequency_2;
@@ -15,4 +15,6 @@ struct  RateMeController_t627  : public MonoBehaviour_t13
 	GameObject_t352 * ___rateMeDialogPrototype_4;
 	// System.Single RateMeController::waitToShow
 	float ___waitToShow_5;
+	// System.Boolean RateMeController::registeredForEvents
+	bool ___registeredForEvents_6;
 };

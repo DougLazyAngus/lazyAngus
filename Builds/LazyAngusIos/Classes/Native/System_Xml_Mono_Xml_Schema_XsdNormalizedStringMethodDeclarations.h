@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdNormalizedString
-struct XsdNormalizedString_t3104;
+struct XsdNormalizedString_t3120;
 // System.Xml.XmlTokenizedType
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
 
 // System.Void Mono.Xml.Schema.XsdNormalizedString::.ctor()
-extern "C" void XsdNormalizedString__ctor_m10451 (XsdNormalizedString_t3104 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdNormalizedString__ctor_m10580 (XsdNormalizedString_t3120 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNormalizedString::get_TokenizedType()
-extern "C" int32_t XsdNormalizedString_get_TokenizedType_m10452 (XsdNormalizedString_t3104 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdNormalizedString_get_TokenizedType_m10581 (XsdNormalizedString_t3120 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

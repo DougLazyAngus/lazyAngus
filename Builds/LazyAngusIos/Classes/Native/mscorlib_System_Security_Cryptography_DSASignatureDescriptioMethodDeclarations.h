@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.DSASignatureDescription
-struct DSASignatureDescription_t4717;
+struct DSASignatureDescription_t4733;
 
 // System.Void System.Security.Cryptography.DSASignatureDescription::.ctor()
-extern "C" void DSASignatureDescription__ctor_m18882 (DSASignatureDescription_t4717 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSASignatureDescription__ctor_m19011 (DSASignatureDescription_t4733 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

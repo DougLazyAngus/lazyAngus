@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.DateTime/Which
-struct Which_t4794;
+struct Which_t4810;
 

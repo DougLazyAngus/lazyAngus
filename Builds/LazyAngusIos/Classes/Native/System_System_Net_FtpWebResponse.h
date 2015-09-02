@@ -3,11 +3,11 @@
 // System.IO.Stream
 struct Stream_t51;
 // System.Uri
-struct Uri_t758;
+struct Uri_t771;
 // System.String
 struct String_t;
 // System.Net.FtpWebRequest
-struct FtpWebRequest_t4041;
+struct FtpWebRequest_t4057;
 // System.Net.WebResponse
 #include "System_System_Net_WebResponse.h"
 // System.Net.FtpStatusCode
@@ -15,12 +15,12 @@ struct FtpWebRequest_t4041;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Net.FtpWebResponse
-struct  FtpWebResponse_t4037  : public WebResponse_t3303
+struct  FtpWebResponse_t4053  : public WebResponse_t3319
 {
 	// System.IO.Stream System.Net.FtpWebResponse::stream
 	Stream_t51 * ___stream_1;
 	// System.Uri System.Net.FtpWebResponse::uri
-	Uri_t758 * ___uri_2;
+	Uri_t771 * ___uri_2;
 	// System.Net.FtpStatusCode System.Net.FtpWebResponse::statusCode
 	int32_t ___statusCode_3;
 	// System.DateTime System.Net.FtpWebResponse::lastModified
@@ -38,7 +38,7 @@ struct  FtpWebResponse_t4037  : public WebResponse_t3303
 	// System.Boolean System.Net.FtpWebResponse::disposed
 	bool ___disposed_10;
 	// System.Net.FtpWebRequest System.Net.FtpWebResponse::request
-	FtpWebRequest_t4041 * ___request_11;
+	FtpWebRequest_t4057 * ___request_11;
 	// System.Int64 System.Net.FtpWebResponse::contentLength
 	int64_t ___contentLength_12;
 };

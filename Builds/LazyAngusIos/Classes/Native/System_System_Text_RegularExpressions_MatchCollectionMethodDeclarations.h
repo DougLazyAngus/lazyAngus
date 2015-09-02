@@ -5,33 +5,33 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.MatchCollection
-struct MatchCollection_t3944;
+struct MatchCollection_t3960;
 // System.Text.RegularExpressions.Match
-struct Match_t1375;
+struct Match_t1391;
 // System.Object
 struct Object_t;
 // System.Collections.ICollection
-struct ICollection_t755;
+struct ICollection_t768;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 
 // System.Void System.Text.RegularExpressions.MatchCollection::.ctor(System.Text.RegularExpressions.Match)
-extern "C" void MatchCollection__ctor_m14645 (MatchCollection_t3944 * __this, Match_t1375 * ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MatchCollection__ctor_m14774 (MatchCollection_t3960 * __this, Match_t1391 * ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.MatchCollection::get_Count()
-extern "C" int32_t MatchCollection_get_Count_m14646 (MatchCollection_t3944 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MatchCollection_get_Count_m14775 (MatchCollection_t3960 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.MatchCollection::get_IsSynchronized()
-extern "C" bool MatchCollection_get_IsSynchronized_m14647 (MatchCollection_t3944 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MatchCollection_get_IsSynchronized_m14776 (MatchCollection_t3960 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.MatchCollection::get_Item(System.Int32)
-extern "C" Match_t1375 * MatchCollection_get_Item_m14648 (MatchCollection_t3944 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Match_t1391 * MatchCollection_get_Item_m14777 (MatchCollection_t3960 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Text.RegularExpressions.MatchCollection::get_SyncRoot()
-extern "C" Object_t * MatchCollection_get_SyncRoot_m14649 (MatchCollection_t3944 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MatchCollection_get_SyncRoot_m14778 (MatchCollection_t3960 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.MatchCollection::CopyTo(System.Array,System.Int32)
-extern "C" void MatchCollection_CopyTo_m14650 (MatchCollection_t3944 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MatchCollection_CopyTo_m14779 (MatchCollection_t3960 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Text.RegularExpressions.MatchCollection::GetEnumerator()
-extern "C" Object_t * MatchCollection_GetEnumerator_m14651 (MatchCollection_t3944 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MatchCollection_GetEnumerator_m14780 (MatchCollection_t3960 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.MatchCollection::TryToGet(System.Int32)
-extern "C" bool MatchCollection_TryToGet_m14652 (MatchCollection_t3944 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MatchCollection_TryToGet_m14781 (MatchCollection_t3960 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ICollection System.Text.RegularExpressions.MatchCollection::get_FullList()
-extern "C" Object_t * MatchCollection_get_FullList_m14653 (MatchCollection_t3944 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MatchCollection_get_FullList_m14782 (MatchCollection_t3960 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

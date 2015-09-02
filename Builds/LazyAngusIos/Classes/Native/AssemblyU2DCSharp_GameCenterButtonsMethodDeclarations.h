@@ -5,15 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GameCenterButtons
-struct GameCenterButtons_t552;
+struct GameCenterButtons_t554;
 
 // System.Void GameCenterButtons::.ctor()
-extern "C" void GameCenterButtons__ctor_m2945 (GameCenterButtons_t552 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterButtons__ctor_m2964 (GameCenterButtons_t554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void GameCenterButtons::Awake()
+extern "C" void GameCenterButtons_Awake_m2965 (GameCenterButtons_t554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameCenterButtons::Start()
-extern "C" void GameCenterButtons_Start_m2946 (GameCenterButtons_t552 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void GameCenterButtons::<Start>m__4A()
-extern "C" void GameCenterButtons_U3CStartU3Em__4A_m2947 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void GameCenterButtons::<Start>m__4B()
-extern "C" void GameCenterButtons_U3CStartU3Em__4B_m2948 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void GameCenterButtons::<Start>m__4C()
-extern "C" void GameCenterButtons_U3CStartU3Em__4C_m2949 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameCenterButtons_Start_m2966 (GameCenterButtons_t554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void GameCenterButtons::UpdateButtonAvailability()
+extern "C" void GameCenterButtons_UpdateButtonAvailability_m2967 (GameCenterButtons_t554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void GameCenterButtons::ShowLeaderboard()
+extern "C" void GameCenterButtons_ShowLeaderboard_m2968 (GameCenterButtons_t554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void GameCenterButtons::ShowRateMe()
+extern "C" void GameCenterButtons_ShowRateMe_m2969 (GameCenterButtons_t554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void GameCenterButtons::ShowAchievements()
+extern "C" void GameCenterButtons_ShowAchievements_m2970 (GameCenterButtons_t554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -6,11 +6,11 @@ struct IAsyncResult_t385;
 struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_55.h"
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_53.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>>
-struct  Predicate_1_t7983  : public MulticastDelegate_t388
+// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>>
+struct  Predicate_1_t7938  : public MulticastDelegate_t388
 {
 };

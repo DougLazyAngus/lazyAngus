@@ -5,7 +5,7 @@
 // UnityEngine.EventSystems.EventTriggerType
 #include "UnityEngine_UI_UnityEngine_EventSystems_EventTriggerType.h"
 // UnityEngine.EventSystems.EventTriggerType
-struct  EventTriggerType_t855 
+struct  EventTriggerType_t868 
 {
 	// System.Int32 UnityEngine.EventSystems.EventTriggerType::value__
 	int32_t ___value___1;

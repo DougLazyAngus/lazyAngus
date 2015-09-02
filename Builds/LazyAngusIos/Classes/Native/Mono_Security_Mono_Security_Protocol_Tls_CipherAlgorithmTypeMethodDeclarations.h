@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.CipherAlgorithmType
-struct CipherAlgorithmType_t3840;
+struct CipherAlgorithmType_t3856;
 

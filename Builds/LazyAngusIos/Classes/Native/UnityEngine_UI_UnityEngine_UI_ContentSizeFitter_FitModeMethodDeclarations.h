@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.ContentSizeFitter/FitMode
-struct FitMode_t994;
+struct FitMode_t1009;
 

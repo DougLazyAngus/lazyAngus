@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>
-struct ReadOnlyCollection_1_t1186;
+struct ReadOnlyCollection_1_t1202;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Enumerable/ReadOnlyCollectionOf`1<System.Object>
-struct  ReadOnlyCollectionOf_1_t6285  : public Object_t
+struct  ReadOnlyCollectionOf_1_t6314  : public Object_t
 {
 };
-struct ReadOnlyCollectionOf_1_t6285_StaticFields{
+struct ReadOnlyCollectionOf_1_t6314_StaticFields{
 	// System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Linq.Enumerable/ReadOnlyCollectionOf`1<System.Object>::Empty
-	ReadOnlyCollection_1_t1186 * ___Empty_0;
+	ReadOnlyCollection_1_t1202 * ___Empty_0;
 };

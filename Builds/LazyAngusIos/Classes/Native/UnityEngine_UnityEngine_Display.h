@@ -1,26 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Display[]
-struct DisplayU5BU5D_t2752;
+struct DisplayU5BU5D_t2768;
 // UnityEngine.Display
-struct Display_t2753;
+struct Display_t2769;
 // UnityEngine.Display/DisplaysUpdatedDelegate
-struct DisplaysUpdatedDelegate_t2751;
+struct DisplaysUpdatedDelegate_t2767;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.Display
-struct  Display_t2753  : public Object_t
+struct  Display_t2769  : public Object_t
 {
 	// System.IntPtr UnityEngine.Display::nativeDisplay
 	IntPtr_t ___nativeDisplay_0;
 };
-struct Display_t2753_StaticFields{
+struct Display_t2769_StaticFields{
 	// UnityEngine.Display[] UnityEngine.Display::displays
-	DisplayU5BU5D_t2752* ___displays_1;
+	DisplayU5BU5D_t2768* ___displays_1;
 	// UnityEngine.Display UnityEngine.Display::_mainDisplay
-	Display_t2753 * ____mainDisplay_2;
+	Display_t2769 * ____mainDisplay_2;
 	// UnityEngine.Display/DisplaysUpdatedDelegate UnityEngine.Display::onDisplaysUpdated
-	DisplaysUpdatedDelegate_t2751 * ___onDisplaysUpdated_3;
+	DisplaysUpdatedDelegate_t2767 * ___onDisplaysUpdated_3;
 };

@@ -4,30 +4,30 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>
-struct InternalEnumerator_1_t8550;
+// System.Array/InternalEnumerator`1<System.Reflection.ParameterModifier>
+struct InternalEnumerator_1_t8578;
 // System.Object
 struct Object_t;
 // System.Array
 struct Array_t;
-// UnityEngine.SendMouseEvents/HitInfo
-#include "UnityEngine_UnityEngine_SendMouseEvents_HitInfo.h"
+// System.Reflection.ParameterModifier
+#include "mscorlib_System_Reflection_ParameterModifier.h"
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m62613_gshared (InternalEnumerator_1_t8550 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m62613(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8550 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m62613_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m62614_gshared (InternalEnumerator_1_t8550 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m62614(__this, method) (( void (*) (InternalEnumerator_1_t8550 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m62614_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m62615_gshared (InternalEnumerator_1_t8550 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m62615(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8550 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m62615_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m62616_gshared (InternalEnumerator_1_t8550 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m62616(__this, method) (( void (*) (InternalEnumerator_1_t8550 *, const MethodInfo*))InternalEnumerator_1_Dispose_m62616_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m62617_gshared (InternalEnumerator_1_t8550 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m62617(__this, method) (( bool (*) (InternalEnumerator_1_t8550 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m62617_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::get_Current()
-extern "C" HitInfo_t2864  InternalEnumerator_1_get_Current_m62618_gshared (InternalEnumerator_1_t8550 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m62618(__this, method) (( HitInfo_t2864  (*) (InternalEnumerator_1_t8550 *, const MethodInfo*))InternalEnumerator_1_get_Current_m62618_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Reflection.ParameterModifier>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m62939_gshared (InternalEnumerator_1_t8578 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m62939(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8578 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m62939_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<System.Reflection.ParameterModifier>::System.Collections.IEnumerator.Reset()
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m62940_gshared (InternalEnumerator_1_t8578 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m62940(__this, method) (( void (*) (InternalEnumerator_1_t8578 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m62940_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<System.Reflection.ParameterModifier>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m62941_gshared (InternalEnumerator_1_t8578 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m62941(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8578 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m62941_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Reflection.ParameterModifier>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m62942_gshared (InternalEnumerator_1_t8578 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m62942(__this, method) (( void (*) (InternalEnumerator_1_t8578 *, const MethodInfo*))InternalEnumerator_1_Dispose_m62942_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Reflection.ParameterModifier>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m62943_gshared (InternalEnumerator_1_t8578 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m62943(__this, method) (( bool (*) (InternalEnumerator_1_t8578 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m62943_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Reflection.ParameterModifier>::get_Current()
+extern "C" ParameterModifier_t4568  InternalEnumerator_1_get_Current_m62944_gshared (InternalEnumerator_1_t8578 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m62944(__this, method) (( ParameterModifier_t4568  (*) (InternalEnumerator_1_t8578 *, const MethodInfo*))InternalEnumerator_1_get_Current_m62944_gshared)(__this, method)

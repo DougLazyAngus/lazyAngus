@@ -9,13 +9,13 @@ struct MemberInfo_t;
 // System.String
 struct String_t;
 // System.Reflection.Emit.UnmanagedMarshal
-struct UnmanagedMarshal_t4513;
+struct UnmanagedMarshal_t4529;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Reflection.ParameterAttributes
 #include "mscorlib_System_Reflection_ParameterAttributes.h"
 // System.Reflection.ParameterInfo
-struct  ParameterInfo_t1384  : public Object_t
+struct  ParameterInfo_t1400  : public Object_t
 {
 	// System.Type System.Reflection.ParameterInfo::ClassImpl
 	Type_t * ___ClassImpl_0;
@@ -30,5 +30,5 @@ struct  ParameterInfo_t1384  : public Object_t
 	// System.Reflection.ParameterAttributes System.Reflection.ParameterInfo::AttrsImpl
 	int32_t ___AttrsImpl_5;
 	// System.Reflection.Emit.UnmanagedMarshal System.Reflection.ParameterInfo::marshalAs
-	UnmanagedMarshal_t4513 * ___marshalAs_6;
+	UnmanagedMarshal_t4529 * ___marshalAs_6;
 };

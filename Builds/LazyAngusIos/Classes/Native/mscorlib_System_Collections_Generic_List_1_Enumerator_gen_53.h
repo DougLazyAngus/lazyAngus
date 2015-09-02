@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
-struct List_1_t6056;
+// System.Collections.Generic.List`1<System.WeakReference>
+struct List_1_t6058;
+// System.WeakReference
+struct WeakReference_t2241;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_10.h"
-// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
-struct  Enumerator_t6060 
+// System.Collections.Generic.List`1/Enumerator<System.WeakReference>
+struct  Enumerator_t6061 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::l
-	List_1_t6056 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.WeakReference>::l
+	List_1_t6058 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.WeakReference>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.WeakReference>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::current
-	KeyValuePair_2_t778  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.WeakReference>::current
+	WeakReference_t2241 * ___current_3;
 };

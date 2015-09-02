@@ -3,16 +3,16 @@
 // System.String
 struct String_t;
 // System.Xml.Schema.XmlSchemaDatatype
-struct XmlSchemaDatatype_t3100;
+struct XmlSchemaDatatype_t3116;
 // Mono.Xml.DTDNode
 #include "System_Xml_Mono_Xml_DTDNode.h"
 // Mono.Xml.DTDAttributeDefinition
-struct  DTDAttributeDefinition_t3193  : public DTDNode_t3183
+struct  DTDAttributeDefinition_t3209  : public DTDNode_t3199
 {
 	// System.String Mono.Xml.DTDAttributeDefinition::name
 	String_t* ___name_5;
 	// System.Xml.Schema.XmlSchemaDatatype Mono.Xml.DTDAttributeDefinition::datatype
-	XmlSchemaDatatype_t3100 * ___datatype_6;
+	XmlSchemaDatatype_t3116 * ___datatype_6;
 	// System.String Mono.Xml.DTDAttributeDefinition::unresolvedDefault
 	String_t* ___unresolvedDefault_7;
 	// System.String Mono.Xml.DTDAttributeDefinition::resolvedDefaultValue

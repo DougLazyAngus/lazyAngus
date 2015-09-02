@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.FieldAttributes
-struct FieldAttributes_t4537;
+struct FieldAttributes_t4553;
 

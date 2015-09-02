@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Net.Cookie
-struct Cookie_t4019;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
+// System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_17.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<System.Net.Cookie>
-struct  Predicate_1_t8646  : public MulticastDelegate_t388
+// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
+struct  Predicate_1_t8655  : public MulticastDelegate_t388
 {
 };

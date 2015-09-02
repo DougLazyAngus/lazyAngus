@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlNodeListChildren/Enumerator
-struct Enumerator_t3248;
+struct Enumerator_t3264;
 // System.Object
 struct Object_t;
 // System.Xml.IHasXmlChildNode
-struct IHasXmlChildNode_t3247;
+struct IHasXmlChildNode_t3263;
 
 // System.Void System.Xml.XmlNodeListChildren/Enumerator::.ctor(System.Xml.IHasXmlChildNode)
-extern "C" void Enumerator__ctor_m11100 (Enumerator_t3248 * __this, Object_t * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enumerator__ctor_m11229 (Enumerator_t3264 * __this, Object_t * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Xml.XmlNodeListChildren/Enumerator::get_Current()
-extern "C" Object_t * Enumerator_get_Current_m11101 (Enumerator_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enumerator_get_Current_m11230 (Enumerator_t3264 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlNodeListChildren/Enumerator::MoveNext()
-extern "C" bool Enumerator_MoveNext_m11102 (Enumerator_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Enumerator_MoveNext_m11231 (Enumerator_t3264 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlNodeListChildren/Enumerator::Reset()
-extern "C" void Enumerator_Reset_m11103 (Enumerator_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enumerator_Reset_m11232 (Enumerator_t3264 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Type>
-struct List_1_t2953;
-// System.Type
-struct Type_t;
+// System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>
+struct List_1_t2822;
+// UnityEngine.Networking.Match.MatchDirectConnectInfo
+struct MatchDirectConnectInfo_t2821;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Type>
-struct  Enumerator_t8547 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDirectConnectInfo>
+struct  Enumerator_t8499 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Type>::l
-	List_1_t2953 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Type>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDirectConnectInfo>::l
+	List_1_t2822 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDirectConnectInfo>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Type>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDirectConnectInfo>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Type>::current
-	Type_t * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDirectConnectInfo>::current
+	MatchDirectConnectInfo_t2821 * ___current_3;
 };

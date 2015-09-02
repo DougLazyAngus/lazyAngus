@@ -5,26 +5,26 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.ConstructorInfo
-struct ConstructorInfo_t1382;
+struct ConstructorInfo_t1398;
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t683;
+struct ObjectU5BU5D_t696;
 // System.Reflection.Binder
-struct Binder_t2954;
+struct Binder_t2970;
 // System.Globalization.CultureInfo
-struct CultureInfo_t769;
+struct CultureInfo_t782;
 // System.Reflection.MemberTypes
 #include "mscorlib_System_Reflection_MemberTypes.h"
 // System.Reflection.BindingFlags
 #include "mscorlib_System_Reflection_BindingFlags.h"
 
 // System.Void System.Reflection.ConstructorInfo::.ctor()
-extern "C" void ConstructorInfo__ctor_m17933 (ConstructorInfo_t1382 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructorInfo__ctor_m18062 (ConstructorInfo_t1398 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.ConstructorInfo::.cctor()
-extern "C" void ConstructorInfo__cctor_m17934 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructorInfo__cctor_m18063 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MemberTypes System.Reflection.ConstructorInfo::get_MemberType()
-extern "C" int32_t ConstructorInfo_get_MemberType_m17935 (ConstructorInfo_t1382 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ConstructorInfo_get_MemberType_m18064 (ConstructorInfo_t1398 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.ConstructorInfo::Invoke(System.Object[])
-extern "C" Object_t * ConstructorInfo_Invoke_m10190 (ConstructorInfo_t1382 * __this, ObjectU5BU5D_t683* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ConstructorInfo_Invoke_m10319 (ConstructorInfo_t1398 * __this, ObjectU5BU5D_t696* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.ConstructorInfo::Invoke(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)

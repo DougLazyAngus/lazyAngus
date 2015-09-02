@@ -5,13 +5,13 @@
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.Coroutine
-struct  Coroutine_t953  : public YieldInstruction_t2689
+struct  Coroutine_t968  : public YieldInstruction_t2705
 {
 	// System.IntPtr UnityEngine.Coroutine::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 };
 // Native definition for marshalling of: UnityEngine.Coroutine
-struct Coroutine_t953_marshaled
+struct Coroutine_t968_marshaled
 {
 	IntPtr_t ___m_Ptr_0;
 };

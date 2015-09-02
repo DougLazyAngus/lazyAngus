@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>[]
-struct Task_1U5BU5D_t6128;
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>[]
+struct KeyValuePair_2U5BU5D_t1429;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>
-struct  List_1_t6171  : public Object_t
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
+struct  List_1_t6085  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::_items
-	Task_1U5BU5D_t6128* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::_size
+	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::_items
+	KeyValuePair_2U5BU5D_t1429* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6171_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::EmptyArray
-	Task_1U5BU5D_t6128* ___EmptyArray_4;
+struct List_1_t6085_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::EmptyArray
+	KeyValuePair_2U5BU5D_t1429* ___EmptyArray_4;
 };

@@ -5,7 +5,7 @@
 // MouseSinkController/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseSinkController_MouseHoleLocation.h"
 // MouseSinkController/MouseHoleLocation
-struct  MouseHoleLocation_t599 
+struct  MouseHoleLocation_t604 
 {
 	// System.Int32 MouseSinkController/MouseHoleLocation::value__
 	int32_t ___value___1;

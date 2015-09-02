@@ -7,10 +7,10 @@ struct Object_t;
 // Parse.ParseGeoPoint
 #include "Parse_Unity_Parse_ParseGeoPoint.h"
 // System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>
-struct  KeyValuePair_2_t7033 
+struct  KeyValuePair_2_t7062 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>::key
 	Object_t * ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>::value
-	ParseGeoPoint_t1248  ___value_1;
+	ParseGeoPoint_t1264  ___value_1;
 };

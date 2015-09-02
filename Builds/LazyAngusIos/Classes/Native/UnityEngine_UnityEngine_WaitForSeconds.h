@@ -3,13 +3,13 @@
 // UnityEngine.YieldInstruction
 #include "UnityEngine_UnityEngine_YieldInstruction.h"
 // UnityEngine.WaitForSeconds
-struct  WaitForSeconds_t786  : public YieldInstruction_t2689
+struct  WaitForSeconds_t799  : public YieldInstruction_t2705
 {
 	// System.Single UnityEngine.WaitForSeconds::m_Seconds
 	float ___m_Seconds_0;
 };
 // Native definition for marshalling of: UnityEngine.WaitForSeconds
-struct WaitForSeconds_t786_marshaled
+struct WaitForSeconds_t799_marshaled
 {
 	float ___m_Seconds_0;
 };

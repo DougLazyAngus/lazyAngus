@@ -5,17 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SocialMediaButtons
-struct SocialMediaButtons_t649;
+struct SocialMediaButtons_t666;
 
 // System.Void SocialMediaButtons::.ctor()
-extern "C" void SocialMediaButtons__ctor_m3495 (SocialMediaButtons_t649 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocialMediaButtons__ctor_m3637 (SocialMediaButtons_t666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SocialMediaButtons::LaunchShareWidget(System.Int32,System.Boolean)
-extern "C" void SocialMediaButtons_LaunchShareWidget_m3496 (Object_t * __this /* static, unused */, int32_t ___score, bool ___isHighScore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocialMediaButtons_LaunchShareWidget_m3638 (Object_t * __this /* static, unused */, int32_t ___score, bool ___isHighScore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SocialMediaButtons::Start()
-extern "C" void SocialMediaButtons_Start_m3497 (SocialMediaButtons_t649 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void SocialMediaButtons::<Start>m__55()
-extern "C" void SocialMediaButtons_U3CStartU3Em__55_m3498 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void SocialMediaButtons::<Start>m__56()
-extern "C" void SocialMediaButtons_U3CStartU3Em__56_m3499 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void SocialMediaButtons::<Start>m__57()
-extern "C" void SocialMediaButtons_U3CStartU3Em__57_m3500 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocialMediaButtons_Start_m3639 (SocialMediaButtons_t666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SocialMediaButtons::UpdateButtonAvailability()
+extern "C" void SocialMediaButtons_UpdateButtonAvailability_m3640 (SocialMediaButtons_t666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SocialMediaButtons::ShareInShareWidget()
+extern "C" void SocialMediaButtons_ShareInShareWidget_m3641 (SocialMediaButtons_t666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SocialMediaButtons::ShareOnFB()
+extern "C" void SocialMediaButtons_ShareOnFB_m3642 (SocialMediaButtons_t666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SocialMediaButtons::ShareOnTwitter()
+extern "C" void SocialMediaButtons_ShareOnTwitter_m3643 (SocialMediaButtons_t666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>
-struct Task_1_t1373;
+struct Task_1_t1389;
 // System.Tuple`2<System.Net.HttpStatusCode,System.String>
-struct Tuple_2_t1426;
+struct Tuple_2_t1442;
 // System.Threading.Tasks.Task
-struct Task_t1211;
+struct Task_t1227;
 // System.Action`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>>
-struct Action_1_t1427;
+struct Action_1_t1443;
 // System.AggregateException
-struct AggregateException_t1339;
+struct AggregateException_t1355;
 
 // System.Void System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>::.ctor()
 // System.Threading.Tasks.Task`1<System.Object>
 #include "Parse_Unity_System_Threading_Tasks_Task_1_gen_2MethodDeclarations.h"
-#define Task_1__ctor_m31475(__this, method) (( void (*) (Task_1_t1373 *, const MethodInfo*))Task_1__ctor_m30665_gshared)(__this, method)
+#define Task_1__ctor_m31807(__this, method) (( void (*) (Task_1_t1389 *, const MethodInfo*))Task_1__ctor_m30997_gshared)(__this, method)
 // T System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>::get_Result()
-#define Task_1_get_Result_m7332(__this, method) (( Tuple_2_t1426 * (*) (Task_1_t1373 *, const MethodInfo*))Task_1_get_Result_m30666_gshared)(__this, method)
+#define Task_1_get_Result_m7464(__this, method) (( Tuple_2_t1442 * (*) (Task_1_t1389 *, const MethodInfo*))Task_1_get_Result_m30998_gshared)(__this, method)
 // System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<T>>)
-#define Task_1_ContinueWith_m31476(__this, ___continuation, method) (( Task_t1211 * (*) (Task_1_t1373 *, Action_1_t1427 *, const MethodInfo*))Task_1_ContinueWith_m30668_gshared)(__this, ___continuation, method)
+#define Task_1_ContinueWith_m31808(__this, ___continuation, method) (( Task_t1227 * (*) (Task_1_t1389 *, Action_1_t1443 *, const MethodInfo*))Task_1_ContinueWith_m31000_gshared)(__this, ___continuation, method)
 // System.Void System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>::RunContinuations()
-#define Task_1_RunContinuations_m31477(__this, method) (( void (*) (Task_1_t1373 *, const MethodInfo*))Task_1_RunContinuations_m30670_gshared)(__this, method)
+#define Task_1_RunContinuations_m31809(__this, method) (( void (*) (Task_1_t1389 *, const MethodInfo*))Task_1_RunContinuations_m31002_gshared)(__this, method)
 // System.Boolean System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>::TrySetResult(T)
-#define Task_1_TrySetResult_m31478(__this, ___result, method) (( bool (*) (Task_1_t1373 *, Tuple_2_t1426 *, const MethodInfo*))Task_1_TrySetResult_m30672_gshared)(__this, ___result, method)
+#define Task_1_TrySetResult_m31810(__this, ___result, method) (( bool (*) (Task_1_t1389 *, Tuple_2_t1442 *, const MethodInfo*))Task_1_TrySetResult_m31004_gshared)(__this, ___result, method)
 // System.Boolean System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>::TrySetCanceled()
-#define Task_1_TrySetCanceled_m31479(__this, method) (( bool (*) (Task_1_t1373 *, const MethodInfo*))Task_1_TrySetCanceled_m30674_gshared)(__this, method)
+#define Task_1_TrySetCanceled_m31811(__this, method) (( bool (*) (Task_1_t1389 *, const MethodInfo*))Task_1_TrySetCanceled_m31006_gshared)(__this, method)
 // System.Boolean System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>::TrySetException(System.AggregateException)
-#define Task_1_TrySetException_m31480(__this, ___exception, method) (( bool (*) (Task_1_t1373 *, AggregateException_t1339 *, const MethodInfo*))Task_1_TrySetException_m30676_gshared)(__this, ___exception, method)
+#define Task_1_TrySetException_m31812(__this, ___exception, method) (( bool (*) (Task_1_t1389 *, AggregateException_t1355 *, const MethodInfo*))Task_1_TrySetException_m31008_gshared)(__this, ___exception, method)

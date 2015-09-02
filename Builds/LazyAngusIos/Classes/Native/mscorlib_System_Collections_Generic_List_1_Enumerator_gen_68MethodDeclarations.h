@@ -4,26 +4,33 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<System.Boolean>
-struct Enumerator_t6934;
+// System.Collections.Generic.List`1/Enumerator<System.DateTime>
+struct Enumerator_t6876;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.List`1<System.Boolean>
-struct List_1_t6931;
+// System.Collections.Generic.List`1<System.DateTime>
+struct List_1_t6875;
+// System.DateTime
+#include "mscorlib_System_DateTime.h"
 
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Boolean>::.ctor(System.Collections.Generic.List`1<T>)
-// System.Collections.Generic.List`1/Enumerator<System.Byte>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_58MethodDeclarations.h"
-#define Enumerator__ctor_m42956(__this, ___l, method) (( void (*) (Enumerator_t6934 *, List_1_t6931 *, const MethodInfo*))Enumerator__ctor_m35805_gshared)(__this, ___l, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Boolean>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m42957(__this, method) (( void (*) (Enumerator_t6934 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m35806_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<System.Boolean>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m42958(__this, method) (( Object_t * (*) (Enumerator_t6934 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m35807_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Boolean>::Dispose()
-#define Enumerator_Dispose_m42959(__this, method) (( void (*) (Enumerator_t6934 *, const MethodInfo*))Enumerator_Dispose_m35808_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Boolean>::VerifyState()
-#define Enumerator_VerifyState_m42960(__this, method) (( void (*) (Enumerator_t6934 *, const MethodInfo*))Enumerator_VerifyState_m35809_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Boolean>::MoveNext()
-#define Enumerator_MoveNext_m42961(__this, method) (( bool (*) (Enumerator_t6934 *, const MethodInfo*))Enumerator_MoveNext_m35810_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<System.Boolean>::get_Current()
-#define Enumerator_get_Current_m42962(__this, method) (( bool (*) (Enumerator_t6934 *, const MethodInfo*))Enumerator_get_Current_m35811_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.DateTime>::.ctor(System.Collections.Generic.List`1<T>)
+extern "C" void Enumerator__ctor_m42194_gshared (Enumerator_t6876 * __this, List_1_t6875 * ___l, const MethodInfo* method);
+#define Enumerator__ctor_m42194(__this, ___l, method) (( void (*) (Enumerator_t6876 *, List_1_t6875 *, const MethodInfo*))Enumerator__ctor_m42194_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.DateTime>::System.Collections.IEnumerator.Reset()
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m42195_gshared (Enumerator_t6876 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_Reset_m42195(__this, method) (( void (*) (Enumerator_t6876 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m42195_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<System.DateTime>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m42196_gshared (Enumerator_t6876 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m42196(__this, method) (( Object_t * (*) (Enumerator_t6876 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m42196_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.DateTime>::Dispose()
+extern "C" void Enumerator_Dispose_m42197_gshared (Enumerator_t6876 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m42197(__this, method) (( void (*) (Enumerator_t6876 *, const MethodInfo*))Enumerator_Dispose_m42197_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.DateTime>::VerifyState()
+extern "C" void Enumerator_VerifyState_m42198_gshared (Enumerator_t6876 * __this, const MethodInfo* method);
+#define Enumerator_VerifyState_m42198(__this, method) (( void (*) (Enumerator_t6876 *, const MethodInfo*))Enumerator_VerifyState_m42198_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.DateTime>::MoveNext()
+extern "C" bool Enumerator_MoveNext_m42199_gshared (Enumerator_t6876 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m42199(__this, method) (( bool (*) (Enumerator_t6876 *, const MethodInfo*))Enumerator_MoveNext_m42199_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<System.DateTime>::get_Current()
+extern "C" DateTime_t287  Enumerator_get_Current_m42200_gshared (Enumerator_t6876 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m42200(__this, method) (( DateTime_t287  (*) (Enumerator_t6876 *, const MethodInfo*))Enumerator_get_Current_m42200_gshared)(__this, method)

@@ -14,547 +14,547 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t3096_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t3112_il2cpp_TypeInfo;
 // <Module>
 #include "System_Xml_U3CModuleU3E.h"
-extern TypeInfo MonoTODOAttribute_t3097_il2cpp_TypeInfo;
+extern TypeInfo MonoTODOAttribute_t3113_il2cpp_TypeInfo;
 // System.MonoTODOAttribute
 #include "System_Xml_System_MonoTODOAttribute.h"
-extern TypeInfo IHasXmlParserContext_t3296_il2cpp_TypeInfo;
-extern TypeInfo XsdWhitespaceFacet_t3098_il2cpp_TypeInfo;
+extern TypeInfo IHasXmlParserContext_t3312_il2cpp_TypeInfo;
+extern TypeInfo XsdWhitespaceFacet_t3114_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdWhitespaceFacet
 #include "System_Xml_Mono_Xml_Schema_XsdWhitespaceFacet.h"
-extern TypeInfo XsdAnySimpleType_t3099_il2cpp_TypeInfo;
+extern TypeInfo XsdAnySimpleType_t3115_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdAnySimpleType
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleType.h"
-extern TypeInfo XdtAnyAtomicType_t3101_il2cpp_TypeInfo;
+extern TypeInfo XdtAnyAtomicType_t3117_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XdtAnyAtomicType
 #include "System_Xml_Mono_Xml_Schema_XdtAnyAtomicType.h"
-extern TypeInfo XdtUntypedAtomic_t3102_il2cpp_TypeInfo;
+extern TypeInfo XdtUntypedAtomic_t3118_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XdtUntypedAtomic
 #include "System_Xml_Mono_Xml_Schema_XdtUntypedAtomic.h"
-extern TypeInfo XsdString_t3103_il2cpp_TypeInfo;
+extern TypeInfo XsdString_t3119_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdString
 #include "System_Xml_Mono_Xml_Schema_XsdString.h"
-extern TypeInfo XsdNormalizedString_t3104_il2cpp_TypeInfo;
+extern TypeInfo XsdNormalizedString_t3120_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNormalizedString
 #include "System_Xml_Mono_Xml_Schema_XsdNormalizedString.h"
-extern TypeInfo XsdToken_t3105_il2cpp_TypeInfo;
+extern TypeInfo XsdToken_t3121_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdToken
 #include "System_Xml_Mono_Xml_Schema_XsdToken.h"
-extern TypeInfo XsdLanguage_t3106_il2cpp_TypeInfo;
+extern TypeInfo XsdLanguage_t3122_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdLanguage
 #include "System_Xml_Mono_Xml_Schema_XsdLanguage.h"
-extern TypeInfo XsdNMToken_t3107_il2cpp_TypeInfo;
+extern TypeInfo XsdNMToken_t3123_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNMToken
 #include "System_Xml_Mono_Xml_Schema_XsdNMToken.h"
-extern TypeInfo XsdNMTokens_t3108_il2cpp_TypeInfo;
+extern TypeInfo XsdNMTokens_t3124_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNMTokens
 #include "System_Xml_Mono_Xml_Schema_XsdNMTokens.h"
-extern TypeInfo XsdName_t3109_il2cpp_TypeInfo;
+extern TypeInfo XsdName_t3125_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdName
 #include "System_Xml_Mono_Xml_Schema_XsdName.h"
-extern TypeInfo XsdNCName_t3110_il2cpp_TypeInfo;
+extern TypeInfo XsdNCName_t3126_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNCName
 #include "System_Xml_Mono_Xml_Schema_XsdNCName.h"
-extern TypeInfo XsdID_t3111_il2cpp_TypeInfo;
+extern TypeInfo XsdID_t3127_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdID
 #include "System_Xml_Mono_Xml_Schema_XsdID.h"
-extern TypeInfo XsdIDRef_t3112_il2cpp_TypeInfo;
+extern TypeInfo XsdIDRef_t3128_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdIDRef
 #include "System_Xml_Mono_Xml_Schema_XsdIDRef.h"
-extern TypeInfo XsdIDRefs_t3113_il2cpp_TypeInfo;
+extern TypeInfo XsdIDRefs_t3129_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdIDRefs
 #include "System_Xml_Mono_Xml_Schema_XsdIDRefs.h"
-extern TypeInfo XsdEntity_t3114_il2cpp_TypeInfo;
+extern TypeInfo XsdEntity_t3130_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdEntity
 #include "System_Xml_Mono_Xml_Schema_XsdEntity.h"
-extern TypeInfo XsdEntities_t3115_il2cpp_TypeInfo;
+extern TypeInfo XsdEntities_t3131_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdEntities
 #include "System_Xml_Mono_Xml_Schema_XsdEntities.h"
-extern TypeInfo XsdNotation_t3116_il2cpp_TypeInfo;
+extern TypeInfo XsdNotation_t3132_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNotation
 #include "System_Xml_Mono_Xml_Schema_XsdNotation.h"
-extern TypeInfo XsdDecimal_t3117_il2cpp_TypeInfo;
+extern TypeInfo XsdDecimal_t3133_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdDecimal
 #include "System_Xml_Mono_Xml_Schema_XsdDecimal.h"
-extern TypeInfo XsdInteger_t3118_il2cpp_TypeInfo;
+extern TypeInfo XsdInteger_t3134_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdInteger
 #include "System_Xml_Mono_Xml_Schema_XsdInteger.h"
-extern TypeInfo XsdLong_t3119_il2cpp_TypeInfo;
+extern TypeInfo XsdLong_t3135_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdLong
 #include "System_Xml_Mono_Xml_Schema_XsdLong.h"
-extern TypeInfo XsdInt_t3120_il2cpp_TypeInfo;
+extern TypeInfo XsdInt_t3136_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdInt
 #include "System_Xml_Mono_Xml_Schema_XsdInt.h"
-extern TypeInfo XsdShort_t3121_il2cpp_TypeInfo;
+extern TypeInfo XsdShort_t3137_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdShort
 #include "System_Xml_Mono_Xml_Schema_XsdShort.h"
-extern TypeInfo XsdByte_t3122_il2cpp_TypeInfo;
+extern TypeInfo XsdByte_t3138_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdByte
 #include "System_Xml_Mono_Xml_Schema_XsdByte.h"
-extern TypeInfo XsdNonNegativeInteger_t3123_il2cpp_TypeInfo;
+extern TypeInfo XsdNonNegativeInteger_t3139_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNonNegativeInteger
 #include "System_Xml_Mono_Xml_Schema_XsdNonNegativeInteger.h"
-extern TypeInfo XsdUnsignedLong_t3124_il2cpp_TypeInfo;
+extern TypeInfo XsdUnsignedLong_t3140_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdUnsignedLong
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedLong.h"
-extern TypeInfo XsdUnsignedInt_t3125_il2cpp_TypeInfo;
+extern TypeInfo XsdUnsignedInt_t3141_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdUnsignedInt
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedInt.h"
-extern TypeInfo XsdUnsignedShort_t3126_il2cpp_TypeInfo;
+extern TypeInfo XsdUnsignedShort_t3142_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdUnsignedShort
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedShort.h"
-extern TypeInfo XsdUnsignedByte_t3127_il2cpp_TypeInfo;
+extern TypeInfo XsdUnsignedByte_t3143_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdUnsignedByte
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedByte.h"
-extern TypeInfo XsdPositiveInteger_t3128_il2cpp_TypeInfo;
+extern TypeInfo XsdPositiveInteger_t3144_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdPositiveInteger
 #include "System_Xml_Mono_Xml_Schema_XsdPositiveInteger.h"
-extern TypeInfo XsdNonPositiveInteger_t3129_il2cpp_TypeInfo;
+extern TypeInfo XsdNonPositiveInteger_t3145_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNonPositiveInteger
 #include "System_Xml_Mono_Xml_Schema_XsdNonPositiveInteger.h"
-extern TypeInfo XsdNegativeInteger_t3130_il2cpp_TypeInfo;
+extern TypeInfo XsdNegativeInteger_t3146_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNegativeInteger
 #include "System_Xml_Mono_Xml_Schema_XsdNegativeInteger.h"
-extern TypeInfo XsdFloat_t3131_il2cpp_TypeInfo;
+extern TypeInfo XsdFloat_t3147_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdFloat
 #include "System_Xml_Mono_Xml_Schema_XsdFloat.h"
-extern TypeInfo XsdDouble_t3132_il2cpp_TypeInfo;
+extern TypeInfo XsdDouble_t3148_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdDouble
 #include "System_Xml_Mono_Xml_Schema_XsdDouble.h"
-extern TypeInfo XsdBase64Binary_t3133_il2cpp_TypeInfo;
+extern TypeInfo XsdBase64Binary_t3149_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdBase64Binary
 #include "System_Xml_Mono_Xml_Schema_XsdBase64Binary.h"
-extern TypeInfo XsdHexBinary_t3134_il2cpp_TypeInfo;
+extern TypeInfo XsdHexBinary_t3150_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdHexBinary
 #include "System_Xml_Mono_Xml_Schema_XsdHexBinary.h"
-extern TypeInfo XsdQName_t3135_il2cpp_TypeInfo;
+extern TypeInfo XsdQName_t3151_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdQName
 #include "System_Xml_Mono_Xml_Schema_XsdQName.h"
-extern TypeInfo XsdBoolean_t3136_il2cpp_TypeInfo;
+extern TypeInfo XsdBoolean_t3152_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdBoolean
 #include "System_Xml_Mono_Xml_Schema_XsdBoolean.h"
-extern TypeInfo XsdAnyURI_t3137_il2cpp_TypeInfo;
+extern TypeInfo XsdAnyURI_t3153_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdAnyURI
 #include "System_Xml_Mono_Xml_Schema_XsdAnyURI.h"
-extern TypeInfo XsdDuration_t3138_il2cpp_TypeInfo;
+extern TypeInfo XsdDuration_t3154_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdDuration
 #include "System_Xml_Mono_Xml_Schema_XsdDuration.h"
-extern TypeInfo XdtDayTimeDuration_t3139_il2cpp_TypeInfo;
+extern TypeInfo XdtDayTimeDuration_t3155_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XdtDayTimeDuration
 #include "System_Xml_Mono_Xml_Schema_XdtDayTimeDuration.h"
-extern TypeInfo XdtYearMonthDuration_t3140_il2cpp_TypeInfo;
+extern TypeInfo XdtYearMonthDuration_t3156_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XdtYearMonthDuration
 #include "System_Xml_Mono_Xml_Schema_XdtYearMonthDuration.h"
-extern TypeInfo XsdDateTime_t3141_il2cpp_TypeInfo;
+extern TypeInfo XsdDateTime_t3157_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdDateTime
 #include "System_Xml_Mono_Xml_Schema_XsdDateTime.h"
-extern TypeInfo XsdDate_t3142_il2cpp_TypeInfo;
+extern TypeInfo XsdDate_t3158_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdDate
 #include "System_Xml_Mono_Xml_Schema_XsdDate.h"
-extern TypeInfo XsdTime_t3143_il2cpp_TypeInfo;
+extern TypeInfo XsdTime_t3159_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdTime
 #include "System_Xml_Mono_Xml_Schema_XsdTime.h"
-extern TypeInfo XsdGYearMonth_t3144_il2cpp_TypeInfo;
+extern TypeInfo XsdGYearMonth_t3160_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdGYearMonth
 #include "System_Xml_Mono_Xml_Schema_XsdGYearMonth.h"
-extern TypeInfo XsdGMonthDay_t3145_il2cpp_TypeInfo;
+extern TypeInfo XsdGMonthDay_t3161_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdGMonthDay
 #include "System_Xml_Mono_Xml_Schema_XsdGMonthDay.h"
-extern TypeInfo XsdGYear_t3146_il2cpp_TypeInfo;
+extern TypeInfo XsdGYear_t3162_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdGYear
 #include "System_Xml_Mono_Xml_Schema_XsdGYear.h"
-extern TypeInfo XsdGMonth_t3147_il2cpp_TypeInfo;
+extern TypeInfo XsdGMonth_t3163_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdGMonth
 #include "System_Xml_Mono_Xml_Schema_XsdGMonth.h"
-extern TypeInfo XsdGDay_t3148_il2cpp_TypeInfo;
+extern TypeInfo XsdGDay_t3164_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdGDay
 #include "System_Xml_Mono_Xml_Schema_XsdGDay.h"
-extern TypeInfo IXmlSchemaInfo_t3214_il2cpp_TypeInfo;
-extern TypeInfo XmlSchemaAnnotated_t3149_il2cpp_TypeInfo;
+extern TypeInfo IXmlSchemaInfo_t3230_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaAnnotated_t3165_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaAnnotated
 #include "System_Xml_System_Xml_Schema_XmlSchemaAnnotated.h"
-extern TypeInfo XmlSchemaAttribute_t3151_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaAttribute_t3167_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaAttribute
 #include "System_Xml_System_Xml_Schema_XmlSchemaAttribute.h"
-extern TypeInfo XmlSchemaDatatype_t3100_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaDatatype_t3116_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaDatatype
 #include "System_Xml_System_Xml_Schema_XmlSchemaDatatype.h"
-extern TypeInfo XmlSchemaDerivationMethod_t3152_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaDerivationMethod_t3168_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaDerivationMethod
 #include "System_Xml_System_Xml_Schema_XmlSchemaDerivationMethod.h"
-extern TypeInfo XmlSchemaElement_t3153_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaElement_t3169_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaElement
 #include "System_Xml_System_Xml_Schema_XmlSchemaElement.h"
-extern TypeInfo Facet_t3155_il2cpp_TypeInfo;
+extern TypeInfo Facet_t3171_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaFacet/Facet
 #include "System_Xml_System_Xml_Schema_XmlSchemaFacet_Facet.h"
-extern TypeInfo XmlSchemaFacet_t3156_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaFacet_t3172_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaFacet
 #include "System_Xml_System_Xml_Schema_XmlSchemaFacet.h"
-extern TypeInfo XmlSchemaInfo_t3159_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaInfo_t3175_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaInfo
 #include "System_Xml_System_Xml_Schema_XmlSchemaInfo.h"
-extern TypeInfo XmlSchemaObject_t3150_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaObject_t3166_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaObject
 #include "System_Xml_System_Xml_Schema_XmlSchemaObject.h"
-extern TypeInfo XmlSchemaParticle_t3154_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaParticle_t3170_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaParticle
 #include "System_Xml_System_Xml_Schema_XmlSchemaParticle.h"
-extern TypeInfo XmlSchemaSimpleType_t3157_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleType_t3173_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaSimpleType
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleType.h"
-extern TypeInfo XmlSchemaSimpleTypeContent_t3161_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleTypeContent_t3177_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaSimpleTypeContent
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeContent.h"
-extern TypeInfo XmlSchemaSimpleTypeList_t3163_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleTypeList_t3179_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaSimpleTypeList
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeList.h"
-extern TypeInfo XmlSchemaSimpleTypeRestriction_t3164_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleTypeRestriction_t3180_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaSimpleTypeRestriction
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeRestriction.h"
-extern TypeInfo XmlSchemaSimpleTypeUnion_t3165_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleTypeUnion_t3181_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaSimpleTypeUnion
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeUnion.h"
-extern TypeInfo XmlSchemaType_t3158_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaType_t3174_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaType
 #include "System_Xml_System_Xml_Schema_XmlSchemaType.h"
-extern TypeInfo XmlSchemaUtil_t3166_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaUtil_t3182_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaUtil
 #include "System_Xml_System_Xml_Schema_XmlSchemaUtil.h"
-extern TypeInfo XmlSchemaValidity_t3167_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaValidity_t3183_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaValidity
 #include "System_Xml_System_Xml_Schema_XmlSchemaValidity.h"
-extern TypeInfo XmlAttributeAttribute_t3168_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributeAttribute_t3184_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlAttributeAttribute
 #include "System_Xml_System_Xml_Serialization_XmlAttributeAttribute.h"
-extern TypeInfo XmlElementAttribute_t3169_il2cpp_TypeInfo;
+extern TypeInfo XmlElementAttribute_t3185_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlElementAttribute
 #include "System_Xml_System_Xml_Serialization_XmlElementAttribute.h"
-extern TypeInfo XmlEnumAttribute_t3170_il2cpp_TypeInfo;
+extern TypeInfo XmlEnumAttribute_t3186_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlEnumAttribute
 #include "System_Xml_System_Xml_Serialization_XmlEnumAttribute.h"
-extern TypeInfo XmlIgnoreAttribute_t3171_il2cpp_TypeInfo;
+extern TypeInfo XmlIgnoreAttribute_t3187_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlIgnoreAttribute
 #include "System_Xml_System_Xml_Serialization_XmlIgnoreAttribute.h"
-extern TypeInfo XmlSerializerNamespaces_t3160_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializerNamespaces_t3176_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlSerializerNamespaces
 #include "System_Xml_System_Xml_Serialization_XmlSerializerNamespaces.h"
-extern TypeInfo IXPathNavigable_t3311_il2cpp_TypeInfo;
-extern TypeInfo ConformanceLevel_t3173_il2cpp_TypeInfo;
+extern TypeInfo IXPathNavigable_t3327_il2cpp_TypeInfo;
+extern TypeInfo ConformanceLevel_t3189_il2cpp_TypeInfo;
 // System.Xml.ConformanceLevel
 #include "System_Xml_System_Xml_ConformanceLevel.h"
-extern TypeInfo DTDAutomataFactory_t3175_il2cpp_TypeInfo;
+extern TypeInfo DTDAutomataFactory_t3191_il2cpp_TypeInfo;
 // Mono.Xml.DTDAutomataFactory
 #include "System_Xml_Mono_Xml_DTDAutomataFactory.h"
-extern TypeInfo DTDObjectModel_t3174_il2cpp_TypeInfo;
+extern TypeInfo DTDObjectModel_t3190_il2cpp_TypeInfo;
 // Mono.Xml.DTDObjectModel
 #include "System_Xml_Mono_Xml_DTDObjectModel.h"
-extern TypeInfo U3CU3Ec__Iterator3_t3185_il2cpp_TypeInfo;
+extern TypeInfo U3CU3Ec__Iterator3_t3201_il2cpp_TypeInfo;
 // Mono.Xml.DictionaryBase/<>c__Iterator3
 #include "System_Xml_Mono_Xml_DictionaryBase_U3CU3Ec__Iterator3.h"
-extern TypeInfo DictionaryBase_t3184_il2cpp_TypeInfo;
+extern TypeInfo DictionaryBase_t3200_il2cpp_TypeInfo;
 // Mono.Xml.DictionaryBase
 #include "System_Xml_Mono_Xml_DictionaryBase.h"
-extern TypeInfo DTDCollectionBase_t3189_il2cpp_TypeInfo;
+extern TypeInfo DTDCollectionBase_t3205_il2cpp_TypeInfo;
 // Mono.Xml.DTDCollectionBase
 #include "System_Xml_Mono_Xml_DTDCollectionBase.h"
-extern TypeInfo DTDElementDeclarationCollection_t3176_il2cpp_TypeInfo;
+extern TypeInfo DTDElementDeclarationCollection_t3192_il2cpp_TypeInfo;
 // Mono.Xml.DTDElementDeclarationCollection
 #include "System_Xml_Mono_Xml_DTDElementDeclarationCollection.h"
-extern TypeInfo DTDAttListDeclarationCollection_t3177_il2cpp_TypeInfo;
+extern TypeInfo DTDAttListDeclarationCollection_t3193_il2cpp_TypeInfo;
 // Mono.Xml.DTDAttListDeclarationCollection
 #include "System_Xml_Mono_Xml_DTDAttListDeclarationCollection.h"
-extern TypeInfo DTDEntityDeclarationCollection_t3179_il2cpp_TypeInfo;
+extern TypeInfo DTDEntityDeclarationCollection_t3195_il2cpp_TypeInfo;
 // Mono.Xml.DTDEntityDeclarationCollection
 #include "System_Xml_Mono_Xml_DTDEntityDeclarationCollection.h"
-extern TypeInfo DTDNotationDeclarationCollection_t3180_il2cpp_TypeInfo;
+extern TypeInfo DTDNotationDeclarationCollection_t3196_il2cpp_TypeInfo;
 // Mono.Xml.DTDNotationDeclarationCollection
 #include "System_Xml_Mono_Xml_DTDNotationDeclarationCollection.h"
-extern TypeInfo DTDContentModel_t3191_il2cpp_TypeInfo;
+extern TypeInfo DTDContentModel_t3207_il2cpp_TypeInfo;
 // Mono.Xml.DTDContentModel
 #include "System_Xml_Mono_Xml_DTDContentModel.h"
-extern TypeInfo DTDContentModelCollection_t3190_il2cpp_TypeInfo;
+extern TypeInfo DTDContentModelCollection_t3206_il2cpp_TypeInfo;
 // Mono.Xml.DTDContentModelCollection
 #include "System_Xml_Mono_Xml_DTDContentModelCollection.h"
-extern TypeInfo DTDNode_t3183_il2cpp_TypeInfo;
+extern TypeInfo DTDNode_t3199_il2cpp_TypeInfo;
 // Mono.Xml.DTDNode
 #include "System_Xml_Mono_Xml_DTDNode.h"
-extern TypeInfo DTDElementDeclaration_t3192_il2cpp_TypeInfo;
+extern TypeInfo DTDElementDeclaration_t3208_il2cpp_TypeInfo;
 // Mono.Xml.DTDElementDeclaration
 #include "System_Xml_Mono_Xml_DTDElementDeclaration.h"
-extern TypeInfo DTDAttributeDefinition_t3193_il2cpp_TypeInfo;
+extern TypeInfo DTDAttributeDefinition_t3209_il2cpp_TypeInfo;
 // Mono.Xml.DTDAttributeDefinition
 #include "System_Xml_Mono_Xml_DTDAttributeDefinition.h"
-extern TypeInfo DTDAttListDeclaration_t3194_il2cpp_TypeInfo;
+extern TypeInfo DTDAttListDeclaration_t3210_il2cpp_TypeInfo;
 // Mono.Xml.DTDAttListDeclaration
 #include "System_Xml_Mono_Xml_DTDAttListDeclaration.h"
-extern TypeInfo DTDEntityBase_t3195_il2cpp_TypeInfo;
+extern TypeInfo DTDEntityBase_t3211_il2cpp_TypeInfo;
 // Mono.Xml.DTDEntityBase
 #include "System_Xml_Mono_Xml_DTDEntityBase.h"
-extern TypeInfo DTDEntityDeclaration_t3196_il2cpp_TypeInfo;
+extern TypeInfo DTDEntityDeclaration_t3212_il2cpp_TypeInfo;
 // Mono.Xml.DTDEntityDeclaration
 #include "System_Xml_Mono_Xml_DTDEntityDeclaration.h"
-extern TypeInfo DTDNotationDeclaration_t3197_il2cpp_TypeInfo;
+extern TypeInfo DTDNotationDeclaration_t3213_il2cpp_TypeInfo;
 // Mono.Xml.DTDNotationDeclaration
 #include "System_Xml_Mono_Xml_DTDNotationDeclaration.h"
-extern TypeInfo DTDParameterEntityDeclarationCollection_t3178_il2cpp_TypeInfo;
+extern TypeInfo DTDParameterEntityDeclarationCollection_t3194_il2cpp_TypeInfo;
 // Mono.Xml.DTDParameterEntityDeclarationCollection
 #include "System_Xml_Mono_Xml_DTDParameterEntityDeclarationCollection.h"
-extern TypeInfo DTDParameterEntityDeclaration_t3198_il2cpp_TypeInfo;
+extern TypeInfo DTDParameterEntityDeclaration_t3214_il2cpp_TypeInfo;
 // Mono.Xml.DTDParameterEntityDeclaration
 #include "System_Xml_Mono_Xml_DTDParameterEntityDeclaration.h"
-extern TypeInfo DTDContentOrderType_t3199_il2cpp_TypeInfo;
+extern TypeInfo DTDContentOrderType_t3215_il2cpp_TypeInfo;
 // Mono.Xml.DTDContentOrderType
 #include "System_Xml_Mono_Xml_DTDContentOrderType.h"
-extern TypeInfo DTDOccurence_t3200_il2cpp_TypeInfo;
+extern TypeInfo DTDOccurence_t3216_il2cpp_TypeInfo;
 // Mono.Xml.DTDOccurence
 #include "System_Xml_Mono_Xml_DTDOccurence.h"
-extern TypeInfo DTDReader_t3202_il2cpp_TypeInfo;
+extern TypeInfo DTDReader_t3218_il2cpp_TypeInfo;
 // System.Xml.DTDReader
 #include "System_Xml_System_Xml_DTDReader.h"
-extern TypeInfo EntityHandling_t3203_il2cpp_TypeInfo;
+extern TypeInfo EntityHandling_t3219_il2cpp_TypeInfo;
 // System.Xml.EntityHandling
 #include "System_Xml_System_Xml_EntityHandling.h"
-extern TypeInfo IHasXmlChildNode_t3247_il2cpp_TypeInfo;
-extern TypeInfo IXmlLineInfo_t3294_il2cpp_TypeInfo;
-extern TypeInfo IXmlNamespaceResolver_t3312_il2cpp_TypeInfo;
-extern TypeInfo Entry_t3204_il2cpp_TypeInfo;
+extern TypeInfo IHasXmlChildNode_t3263_il2cpp_TypeInfo;
+extern TypeInfo IXmlLineInfo_t3310_il2cpp_TypeInfo;
+extern TypeInfo IXmlNamespaceResolver_t3328_il2cpp_TypeInfo;
+extern TypeInfo Entry_t3220_il2cpp_TypeInfo;
 // System.Xml.NameTable/Entry
 #include "System_Xml_System_Xml_NameTable_Entry.h"
-extern TypeInfo NameTable_t3206_il2cpp_TypeInfo;
+extern TypeInfo NameTable_t3222_il2cpp_TypeInfo;
 // System.Xml.NameTable
 #include "System_Xml_System_Xml_NameTable.h"
-extern TypeInfo NamespaceHandling_t3207_il2cpp_TypeInfo;
+extern TypeInfo NamespaceHandling_t3223_il2cpp_TypeInfo;
 // System.Xml.NamespaceHandling
 #include "System_Xml_System_Xml_NamespaceHandling.h"
-extern TypeInfo NewLineHandling_t3208_il2cpp_TypeInfo;
+extern TypeInfo NewLineHandling_t3224_il2cpp_TypeInfo;
 // System.Xml.NewLineHandling
 #include "System_Xml_System_Xml_NewLineHandling.h"
-extern TypeInfo ReadState_t3209_il2cpp_TypeInfo;
+extern TypeInfo ReadState_t3225_il2cpp_TypeInfo;
 // System.Xml.ReadState
 #include "System_Xml_System_Xml_ReadState.h"
-extern TypeInfo WhitespaceHandling_t3210_il2cpp_TypeInfo;
+extern TypeInfo WhitespaceHandling_t3226_il2cpp_TypeInfo;
 // System.Xml.WhitespaceHandling
 #include "System_Xml_System_Xml_WhitespaceHandling.h"
-extern TypeInfo WriteState_t3211_il2cpp_TypeInfo;
+extern TypeInfo WriteState_t3227_il2cpp_TypeInfo;
 // System.Xml.WriteState
 #include "System_Xml_System_Xml_WriteState.h"
-extern TypeInfo XmlAttribute_t722_il2cpp_TypeInfo;
+extern TypeInfo XmlAttribute_t735_il2cpp_TypeInfo;
 // System.Xml.XmlAttribute
 #include "System_Xml_System_Xml_XmlAttribute.h"
-extern TypeInfo XmlAttributeCollection_t724_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributeCollection_t737_il2cpp_TypeInfo;
 // System.Xml.XmlAttributeCollection
 #include "System_Xml_System_Xml_XmlAttributeCollection.h"
-extern TypeInfo XmlCDataSection_t3216_il2cpp_TypeInfo;
+extern TypeInfo XmlCDataSection_t3232_il2cpp_TypeInfo;
 // System.Xml.XmlCDataSection
 #include "System_Xml_System_Xml_XmlCDataSection.h"
-extern TypeInfo XmlChar_t3219_il2cpp_TypeInfo;
+extern TypeInfo XmlChar_t3235_il2cpp_TypeInfo;
 // System.Xml.XmlChar
 #include "System_Xml_System_Xml_XmlChar.h"
-extern TypeInfo XmlCharacterData_t3217_il2cpp_TypeInfo;
+extern TypeInfo XmlCharacterData_t3233_il2cpp_TypeInfo;
 // System.Xml.XmlCharacterData
 #include "System_Xml_System_Xml_XmlCharacterData.h"
-extern TypeInfo XmlComment_t3220_il2cpp_TypeInfo;
+extern TypeInfo XmlComment_t3236_il2cpp_TypeInfo;
 // System.Xml.XmlComment
 #include "System_Xml_System_Xml_XmlComment.h"
-extern TypeInfo XmlConvert_t3221_il2cpp_TypeInfo;
+extern TypeInfo XmlConvert_t3237_il2cpp_TypeInfo;
 // System.Xml.XmlConvert
 #include "System_Xml_System_Xml_XmlConvert.h"
-extern TypeInfo XmlDeclaration_t3222_il2cpp_TypeInfo;
+extern TypeInfo XmlDeclaration_t3238_il2cpp_TypeInfo;
 // System.Xml.XmlDeclaration
 #include "System_Xml_System_Xml_XmlDeclaration.h"
-extern TypeInfo XmlDocument_t678_il2cpp_TypeInfo;
+extern TypeInfo XmlDocument_t691_il2cpp_TypeInfo;
 // System.Xml.XmlDocument
 #include "System_Xml_System_Xml_XmlDocument.h"
-extern TypeInfo XmlDocumentFragment_t3226_il2cpp_TypeInfo;
+extern TypeInfo XmlDocumentFragment_t3242_il2cpp_TypeInfo;
 // System.Xml.XmlDocumentFragment
 #include "System_Xml_System_Xml_XmlDocumentFragment.h"
-extern TypeInfo XmlDocumentType_t3227_il2cpp_TypeInfo;
+extern TypeInfo XmlDocumentType_t3243_il2cpp_TypeInfo;
 // System.Xml.XmlDocumentType
 #include "System_Xml_System_Xml_XmlDocumentType.h"
-extern TypeInfo XmlElement_t679_il2cpp_TypeInfo;
+extern TypeInfo XmlElement_t692_il2cpp_TypeInfo;
 // System.Xml.XmlElement
 #include "System_Xml_System_Xml_XmlElement.h"
-extern TypeInfo XmlEntity_t3228_il2cpp_TypeInfo;
+extern TypeInfo XmlEntity_t3244_il2cpp_TypeInfo;
 // System.Xml.XmlEntity
 #include "System_Xml_System_Xml_XmlEntity.h"
-extern TypeInfo XmlEntityReference_t3229_il2cpp_TypeInfo;
+extern TypeInfo XmlEntityReference_t3245_il2cpp_TypeInfo;
 // System.Xml.XmlEntityReference
 #include "System_Xml_System_Xml_XmlEntityReference.h"
-extern TypeInfo XmlException_t3230_il2cpp_TypeInfo;
+extern TypeInfo XmlException_t3246_il2cpp_TypeInfo;
 // System.Xml.XmlException
 #include "System_Xml_System_Xml_XmlException.h"
-extern TypeInfo XmlImplementation_t3223_il2cpp_TypeInfo;
+extern TypeInfo XmlImplementation_t3239_il2cpp_TypeInfo;
 // System.Xml.XmlImplementation
 #include "System_Xml_System_Xml_XmlImplementation.h"
-extern TypeInfo XmlStreamReader_t3233_il2cpp_TypeInfo;
+extern TypeInfo XmlStreamReader_t3249_il2cpp_TypeInfo;
 // System.Xml.XmlStreamReader
 #include "System_Xml_System_Xml_XmlStreamReader.h"
-extern TypeInfo NonBlockingStreamReader_t3234_il2cpp_TypeInfo;
+extern TypeInfo NonBlockingStreamReader_t3250_il2cpp_TypeInfo;
 // System.Xml.NonBlockingStreamReader
 #include "System_Xml_System_Xml_NonBlockingStreamReader.h"
-extern TypeInfo XmlInputStream_t3232_il2cpp_TypeInfo;
+extern TypeInfo XmlInputStream_t3248_il2cpp_TypeInfo;
 // System.Xml.XmlInputStream
 #include "System_Xml_System_Xml_XmlInputStream.h"
-extern TypeInfo XmlLinkedNode_t3213_il2cpp_TypeInfo;
+extern TypeInfo XmlLinkedNode_t3229_il2cpp_TypeInfo;
 // System.Xml.XmlLinkedNode
 #include "System_Xml_System_Xml_XmlLinkedNode.h"
-extern TypeInfo XmlNameEntry_t3212_il2cpp_TypeInfo;
+extern TypeInfo XmlNameEntry_t3228_il2cpp_TypeInfo;
 // System.Xml.XmlNameEntry
 #include "System_Xml_System_Xml_XmlNameEntry.h"
-extern TypeInfo XmlNameEntryCache_t3224_il2cpp_TypeInfo;
+extern TypeInfo XmlNameEntryCache_t3240_il2cpp_TypeInfo;
 // System.Xml.XmlNameEntryCache
 #include "System_Xml_System_Xml_XmlNameEntryCache.h"
-extern TypeInfo XmlNameTable_t3182_il2cpp_TypeInfo;
+extern TypeInfo XmlNameTable_t3198_il2cpp_TypeInfo;
 // System.Xml.XmlNameTable
 #include "System_Xml_System_Xml_XmlNameTable.h"
-extern TypeInfo XmlNamedNodeMap_t3215_il2cpp_TypeInfo;
+extern TypeInfo XmlNamedNodeMap_t3231_il2cpp_TypeInfo;
 // System.Xml.XmlNamedNodeMap
 #include "System_Xml_System_Xml_XmlNamedNodeMap.h"
-extern TypeInfo NsDecl_t3237_il2cpp_TypeInfo;
+extern TypeInfo NsDecl_t3253_il2cpp_TypeInfo;
 // System.Xml.XmlNamespaceManager/NsDecl
 #include "System_Xml_System_Xml_XmlNamespaceManager_NsDecl.h"
-extern TypeInfo NsScope_t3238_il2cpp_TypeInfo;
+extern TypeInfo NsScope_t3254_il2cpp_TypeInfo;
 // System.Xml.XmlNamespaceManager/NsScope
 #include "System_Xml_System_Xml_XmlNamespaceManager_NsScope.h"
-extern TypeInfo XmlNamespaceManager_t3241_il2cpp_TypeInfo;
+extern TypeInfo XmlNamespaceManager_t3257_il2cpp_TypeInfo;
 // System.Xml.XmlNamespaceManager
 #include "System_Xml_System_Xml_XmlNamespaceManager.h"
-extern TypeInfo EmptyNodeList_t3242_il2cpp_TypeInfo;
+extern TypeInfo EmptyNodeList_t3258_il2cpp_TypeInfo;
 // System.Xml.XmlNode/EmptyNodeList
 #include "System_Xml_System_Xml_XmlNode_EmptyNodeList.h"
-extern TypeInfo XmlNode_t718_il2cpp_TypeInfo;
+extern TypeInfo XmlNode_t731_il2cpp_TypeInfo;
 // System.Xml.XmlNode
 #include "System_Xml_System_Xml_XmlNode.h"
-extern TypeInfo XmlNodeChangedAction_t3245_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeChangedAction_t3261_il2cpp_TypeInfo;
 // System.Xml.XmlNodeChangedAction
 #include "System_Xml_System_Xml_XmlNodeChangedAction.h"
-extern TypeInfo XmlNodeChangedEventArgs_t3246_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeChangedEventArgs_t3262_il2cpp_TypeInfo;
 // System.Xml.XmlNodeChangedEventArgs
 #include "System_Xml_System_Xml_XmlNodeChangedEventArgs.h"
-extern TypeInfo XmlNodeList_t3243_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeList_t3259_il2cpp_TypeInfo;
 // System.Xml.XmlNodeList
 #include "System_Xml_System_Xml_XmlNodeList.h"
-extern TypeInfo Enumerator_t3248_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t3264_il2cpp_TypeInfo;
 // System.Xml.XmlNodeListChildren/Enumerator
 #include "System_Xml_System_Xml_XmlNodeListChildren_Enumerator.h"
-extern TypeInfo XmlNodeListChildren_t3244_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeListChildren_t3260_il2cpp_TypeInfo;
 // System.Xml.XmlNodeListChildren
 #include "System_Xml_System_Xml_XmlNodeListChildren.h"
-extern TypeInfo XmlNodeType_t3249_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeType_t3265_il2cpp_TypeInfo;
 // System.Xml.XmlNodeType
 #include "System_Xml_System_Xml_XmlNodeType.h"
-extern TypeInfo XmlNotation_t3250_il2cpp_TypeInfo;
+extern TypeInfo XmlNotation_t3266_il2cpp_TypeInfo;
 // System.Xml.XmlNotation
 #include "System_Xml_System_Xml_XmlNotation.h"
-extern TypeInfo ContextItem_t3251_il2cpp_TypeInfo;
+extern TypeInfo ContextItem_t3267_il2cpp_TypeInfo;
 // System.Xml.XmlParserContext/ContextItem
 #include "System_Xml_System_Xml_XmlParserContext_ContextItem.h"
-extern TypeInfo XmlParserContext_t3252_il2cpp_TypeInfo;
+extern TypeInfo XmlParserContext_t3268_il2cpp_TypeInfo;
 // System.Xml.XmlParserContext
 #include "System_Xml_System_Xml_XmlParserContext.h"
-extern TypeInfo XmlParserInputSource_t3253_il2cpp_TypeInfo;
+extern TypeInfo XmlParserInputSource_t3269_il2cpp_TypeInfo;
 // System.Xml.XmlParserInput/XmlParserInputSource
 #include "System_Xml_System_Xml_XmlParserInput_XmlParserInputSource.h"
-extern TypeInfo XmlParserInput_t3201_il2cpp_TypeInfo;
+extern TypeInfo XmlParserInput_t3217_il2cpp_TypeInfo;
 // System.Xml.XmlParserInput
 #include "System_Xml_System_Xml_XmlParserInput.h"
-extern TypeInfo XmlProcessingInstruction_t3254_il2cpp_TypeInfo;
+extern TypeInfo XmlProcessingInstruction_t3270_il2cpp_TypeInfo;
 // System.Xml.XmlProcessingInstruction
 #include "System_Xml_System_Xml_XmlProcessingInstruction.h"
-extern TypeInfo XmlQualifiedName_t3162_il2cpp_TypeInfo;
+extern TypeInfo XmlQualifiedName_t3178_il2cpp_TypeInfo;
 // System.Xml.XmlQualifiedName
 #include "System_Xml_System_Xml_XmlQualifiedName.h"
-extern TypeInfo XmlReader_t3257_il2cpp_TypeInfo;
+extern TypeInfo XmlReader_t3273_il2cpp_TypeInfo;
 // System.Xml.XmlReader
 #include "System_Xml_System_Xml_XmlReader.h"
-extern TypeInfo CommandState_t3258_il2cpp_TypeInfo;
+extern TypeInfo CommandState_t3274_il2cpp_TypeInfo;
 // System.Xml.XmlReaderBinarySupport/CommandState
 #include "System_Xml_System_Xml_XmlReaderBinarySupport_CommandState.h"
-extern TypeInfo CharGetter_t3259_il2cpp_TypeInfo;
+extern TypeInfo CharGetter_t3275_il2cpp_TypeInfo;
 // System.Xml.XmlReaderBinarySupport/CharGetter
 #include "System_Xml_System_Xml_XmlReaderBinarySupport_CharGetter.h"
-extern TypeInfo XmlReaderBinarySupport_t3255_il2cpp_TypeInfo;
+extern TypeInfo XmlReaderBinarySupport_t3271_il2cpp_TypeInfo;
 // System.Xml.XmlReaderBinarySupport
 #include "System_Xml_System_Xml_XmlReaderBinarySupport.h"
-extern TypeInfo XmlReaderSettings_t3256_il2cpp_TypeInfo;
+extern TypeInfo XmlReaderSettings_t3272_il2cpp_TypeInfo;
 // System.Xml.XmlReaderSettings
 #include "System_Xml_System_Xml_XmlReaderSettings.h"
-extern TypeInfo XmlResolver_t3181_il2cpp_TypeInfo;
+extern TypeInfo XmlResolver_t3197_il2cpp_TypeInfo;
 // System.Xml.XmlResolver
 #include "System_Xml_System_Xml_XmlResolver.h"
-extern TypeInfo XmlSignificantWhitespace_t3260_il2cpp_TypeInfo;
+extern TypeInfo XmlSignificantWhitespace_t3276_il2cpp_TypeInfo;
 // System.Xml.XmlSignificantWhitespace
 #include "System_Xml_System_Xml_XmlSignificantWhitespace.h"
-extern TypeInfo XmlSpace_t3261_il2cpp_TypeInfo;
+extern TypeInfo XmlSpace_t3277_il2cpp_TypeInfo;
 // System.Xml.XmlSpace
 #include "System_Xml_System_Xml_XmlSpace.h"
-extern TypeInfo XmlText_t3262_il2cpp_TypeInfo;
+extern TypeInfo XmlText_t3278_il2cpp_TypeInfo;
 // System.Xml.XmlText
 #include "System_Xml_System_Xml_XmlText.h"
-extern TypeInfo XmlTokenInfo_t3264_il2cpp_TypeInfo;
+extern TypeInfo XmlTokenInfo_t3280_il2cpp_TypeInfo;
 // Mono.Xml2.XmlTextReader/XmlTokenInfo
 #include "System_Xml_Mono_Xml2_XmlTextReader_XmlTokenInfo.h"
-extern TypeInfo XmlAttributeTokenInfo_t3265_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributeTokenInfo_t3281_il2cpp_TypeInfo;
 // Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo
 #include "System_Xml_Mono_Xml2_XmlTextReader_XmlAttributeTokenInfo.h"
-extern TypeInfo TagName_t3266_il2cpp_TypeInfo;
+extern TypeInfo TagName_t3282_il2cpp_TypeInfo;
 // Mono.Xml2.XmlTextReader/TagName
 #include "System_Xml_Mono_Xml2_XmlTextReader_TagName.h"
-extern TypeInfo DtdInputState_t3267_il2cpp_TypeInfo;
+extern TypeInfo DtdInputState_t3283_il2cpp_TypeInfo;
 // Mono.Xml2.XmlTextReader/DtdInputState
 #include "System_Xml_Mono_Xml2_XmlTextReader_DtdInputState.h"
-extern TypeInfo DtdInputStateStack_t3268_il2cpp_TypeInfo;
+extern TypeInfo DtdInputStateStack_t3284_il2cpp_TypeInfo;
 // Mono.Xml2.XmlTextReader/DtdInputStateStack
 #include "System_Xml_Mono_Xml2_XmlTextReader_DtdInputStateStack.h"
-extern TypeInfo XmlTextReader_t3263_il2cpp_TypeInfo;
+extern TypeInfo XmlTextReader_t3279_il2cpp_TypeInfo;
 // Mono.Xml2.XmlTextReader
 #include "System_Xml_Mono_Xml2_XmlTextReader.h"
-extern TypeInfo XmlTextReader_t3272_il2cpp_TypeInfo;
+extern TypeInfo XmlTextReader_t3288_il2cpp_TypeInfo;
 // System.Xml.XmlTextReader
 #include "System_Xml_System_Xml_XmlTextReader.h"
-extern TypeInfo XmlNodeInfo_t3274_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeInfo_t3290_il2cpp_TypeInfo;
 // System.Xml.XmlTextWriter/XmlNodeInfo
 #include "System_Xml_System_Xml_XmlTextWriter_XmlNodeInfo.h"
-extern TypeInfo StringUtil_t3276_il2cpp_TypeInfo;
+extern TypeInfo StringUtil_t3292_il2cpp_TypeInfo;
 // System.Xml.XmlTextWriter/StringUtil
 #include "System_Xml_System_Xml_XmlTextWriter_StringUtil.h"
-extern TypeInfo XmlDeclState_t3277_il2cpp_TypeInfo;
+extern TypeInfo XmlDeclState_t3293_il2cpp_TypeInfo;
 // System.Xml.XmlTextWriter/XmlDeclState
 #include "System_Xml_System_Xml_XmlTextWriter_XmlDeclState.h"
-extern TypeInfo XmlTextWriter_t3281_il2cpp_TypeInfo;
+extern TypeInfo XmlTextWriter_t3297_il2cpp_TypeInfo;
 // System.Xml.XmlTextWriter
 #include "System_Xml_System_Xml_XmlTextWriter.h"
-extern TypeInfo XmlTokenizedType_t3283_il2cpp_TypeInfo;
+extern TypeInfo XmlTokenizedType_t3299_il2cpp_TypeInfo;
 // System.Xml.XmlTokenizedType
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
-extern TypeInfo XmlUrlResolver_t3285_il2cpp_TypeInfo;
+extern TypeInfo XmlUrlResolver_t3301_il2cpp_TypeInfo;
 // System.Xml.XmlUrlResolver
 #include "System_Xml_System_Xml_XmlUrlResolver.h"
-extern TypeInfo XmlWhitespace_t3286_il2cpp_TypeInfo;
+extern TypeInfo XmlWhitespace_t3302_il2cpp_TypeInfo;
 // System.Xml.XmlWhitespace
 #include "System_Xml_System_Xml_XmlWhitespace.h"
-extern TypeInfo XmlWriter_t3282_il2cpp_TypeInfo;
+extern TypeInfo XmlWriter_t3298_il2cpp_TypeInfo;
 // System.Xml.XmlWriter
 #include "System_Xml_System_Xml_XmlWriter.h"
-extern TypeInfo XmlNodeChangedEventHandler_t3225_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeChangedEventHandler_t3241_il2cpp_TypeInfo;
 // System.Xml.XmlNodeChangedEventHandler
 #include "System_Xml_System_Xml_XmlNodeChangedEventHandler.h"
-extern TypeInfo U24ArrayTypeU2412_t3287_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU2412_t3303_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$12
 #include "System_Xml_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU2.h"
-extern TypeInfo U24ArrayTypeU248_t3288_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU248_t3304_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$8
 #include "System_Xml_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU2_0.h"
-extern TypeInfo U24ArrayTypeU24256_t3289_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU24256_t3305_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$256
 #include "System_Xml_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU2_1.h"
-extern TypeInfo U24ArrayTypeU241280_t3290_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU241280_t3306_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$1280
 #include "System_Xml_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU2_2.h"
-extern TypeInfo U3CPrivateImplementationDetailsU3E_t3291_il2cpp_TypeInfo;
+extern TypeInfo U3CPrivateImplementationDetailsU3E_t3307_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>
 #include "System_Xml_U3CPrivateImplementationDetailsU3E.h"
 #include <map>
@@ -562,191 +562,191 @@ struct TypeInfo;
 struct MethodInfo;
 TypeInfo* g_System_Xml_Assembly_Types[186] = 
 {
-	&U3CModuleU3E_t3096_il2cpp_TypeInfo,
-	&MonoTODOAttribute_t3097_il2cpp_TypeInfo,
-	&IHasXmlParserContext_t3296_il2cpp_TypeInfo,
-	&XsdWhitespaceFacet_t3098_il2cpp_TypeInfo,
-	&XsdAnySimpleType_t3099_il2cpp_TypeInfo,
-	&XdtAnyAtomicType_t3101_il2cpp_TypeInfo,
-	&XdtUntypedAtomic_t3102_il2cpp_TypeInfo,
-	&XsdString_t3103_il2cpp_TypeInfo,
-	&XsdNormalizedString_t3104_il2cpp_TypeInfo,
-	&XsdToken_t3105_il2cpp_TypeInfo,
-	&XsdLanguage_t3106_il2cpp_TypeInfo,
-	&XsdNMToken_t3107_il2cpp_TypeInfo,
-	&XsdNMTokens_t3108_il2cpp_TypeInfo,
-	&XsdName_t3109_il2cpp_TypeInfo,
-	&XsdNCName_t3110_il2cpp_TypeInfo,
-	&XsdID_t3111_il2cpp_TypeInfo,
-	&XsdIDRef_t3112_il2cpp_TypeInfo,
-	&XsdIDRefs_t3113_il2cpp_TypeInfo,
-	&XsdEntity_t3114_il2cpp_TypeInfo,
-	&XsdEntities_t3115_il2cpp_TypeInfo,
-	&XsdNotation_t3116_il2cpp_TypeInfo,
-	&XsdDecimal_t3117_il2cpp_TypeInfo,
-	&XsdInteger_t3118_il2cpp_TypeInfo,
-	&XsdLong_t3119_il2cpp_TypeInfo,
-	&XsdInt_t3120_il2cpp_TypeInfo,
-	&XsdShort_t3121_il2cpp_TypeInfo,
-	&XsdByte_t3122_il2cpp_TypeInfo,
-	&XsdNonNegativeInteger_t3123_il2cpp_TypeInfo,
-	&XsdUnsignedLong_t3124_il2cpp_TypeInfo,
-	&XsdUnsignedInt_t3125_il2cpp_TypeInfo,
-	&XsdUnsignedShort_t3126_il2cpp_TypeInfo,
-	&XsdUnsignedByte_t3127_il2cpp_TypeInfo,
-	&XsdPositiveInteger_t3128_il2cpp_TypeInfo,
-	&XsdNonPositiveInteger_t3129_il2cpp_TypeInfo,
-	&XsdNegativeInteger_t3130_il2cpp_TypeInfo,
-	&XsdFloat_t3131_il2cpp_TypeInfo,
-	&XsdDouble_t3132_il2cpp_TypeInfo,
-	&XsdBase64Binary_t3133_il2cpp_TypeInfo,
-	&XsdHexBinary_t3134_il2cpp_TypeInfo,
-	&XsdQName_t3135_il2cpp_TypeInfo,
-	&XsdBoolean_t3136_il2cpp_TypeInfo,
-	&XsdAnyURI_t3137_il2cpp_TypeInfo,
-	&XsdDuration_t3138_il2cpp_TypeInfo,
-	&XdtDayTimeDuration_t3139_il2cpp_TypeInfo,
-	&XdtYearMonthDuration_t3140_il2cpp_TypeInfo,
-	&XsdDateTime_t3141_il2cpp_TypeInfo,
-	&XsdDate_t3142_il2cpp_TypeInfo,
-	&XsdTime_t3143_il2cpp_TypeInfo,
-	&XsdGYearMonth_t3144_il2cpp_TypeInfo,
-	&XsdGMonthDay_t3145_il2cpp_TypeInfo,
-	&XsdGYear_t3146_il2cpp_TypeInfo,
-	&XsdGMonth_t3147_il2cpp_TypeInfo,
-	&XsdGDay_t3148_il2cpp_TypeInfo,
-	&IXmlSchemaInfo_t3214_il2cpp_TypeInfo,
-	&XmlSchemaAnnotated_t3149_il2cpp_TypeInfo,
-	&XmlSchemaAttribute_t3151_il2cpp_TypeInfo,
-	&XmlSchemaDatatype_t3100_il2cpp_TypeInfo,
-	&XmlSchemaDerivationMethod_t3152_il2cpp_TypeInfo,
-	&XmlSchemaElement_t3153_il2cpp_TypeInfo,
-	&Facet_t3155_il2cpp_TypeInfo,
-	&XmlSchemaFacet_t3156_il2cpp_TypeInfo,
-	&XmlSchemaInfo_t3159_il2cpp_TypeInfo,
-	&XmlSchemaObject_t3150_il2cpp_TypeInfo,
-	&XmlSchemaParticle_t3154_il2cpp_TypeInfo,
-	&XmlSchemaSimpleType_t3157_il2cpp_TypeInfo,
-	&XmlSchemaSimpleTypeContent_t3161_il2cpp_TypeInfo,
-	&XmlSchemaSimpleTypeList_t3163_il2cpp_TypeInfo,
-	&XmlSchemaSimpleTypeRestriction_t3164_il2cpp_TypeInfo,
-	&XmlSchemaSimpleTypeUnion_t3165_il2cpp_TypeInfo,
-	&XmlSchemaType_t3158_il2cpp_TypeInfo,
-	&XmlSchemaUtil_t3166_il2cpp_TypeInfo,
-	&XmlSchemaValidity_t3167_il2cpp_TypeInfo,
-	&XmlAttributeAttribute_t3168_il2cpp_TypeInfo,
-	&XmlElementAttribute_t3169_il2cpp_TypeInfo,
-	&XmlEnumAttribute_t3170_il2cpp_TypeInfo,
-	&XmlIgnoreAttribute_t3171_il2cpp_TypeInfo,
-	&XmlSerializerNamespaces_t3160_il2cpp_TypeInfo,
-	&IXPathNavigable_t3311_il2cpp_TypeInfo,
-	&ConformanceLevel_t3173_il2cpp_TypeInfo,
-	&DTDAutomataFactory_t3175_il2cpp_TypeInfo,
-	&DTDObjectModel_t3174_il2cpp_TypeInfo,
-	&U3CU3Ec__Iterator3_t3185_il2cpp_TypeInfo,
-	&DictionaryBase_t3184_il2cpp_TypeInfo,
-	&DTDCollectionBase_t3189_il2cpp_TypeInfo,
-	&DTDElementDeclarationCollection_t3176_il2cpp_TypeInfo,
-	&DTDAttListDeclarationCollection_t3177_il2cpp_TypeInfo,
-	&DTDEntityDeclarationCollection_t3179_il2cpp_TypeInfo,
-	&DTDNotationDeclarationCollection_t3180_il2cpp_TypeInfo,
-	&DTDContentModel_t3191_il2cpp_TypeInfo,
-	&DTDContentModelCollection_t3190_il2cpp_TypeInfo,
-	&DTDNode_t3183_il2cpp_TypeInfo,
-	&DTDElementDeclaration_t3192_il2cpp_TypeInfo,
-	&DTDAttributeDefinition_t3193_il2cpp_TypeInfo,
-	&DTDAttListDeclaration_t3194_il2cpp_TypeInfo,
-	&DTDEntityBase_t3195_il2cpp_TypeInfo,
-	&DTDEntityDeclaration_t3196_il2cpp_TypeInfo,
-	&DTDNotationDeclaration_t3197_il2cpp_TypeInfo,
-	&DTDParameterEntityDeclarationCollection_t3178_il2cpp_TypeInfo,
-	&DTDParameterEntityDeclaration_t3198_il2cpp_TypeInfo,
-	&DTDContentOrderType_t3199_il2cpp_TypeInfo,
-	&DTDOccurence_t3200_il2cpp_TypeInfo,
-	&DTDReader_t3202_il2cpp_TypeInfo,
-	&EntityHandling_t3203_il2cpp_TypeInfo,
-	&IHasXmlChildNode_t3247_il2cpp_TypeInfo,
-	&IXmlLineInfo_t3294_il2cpp_TypeInfo,
-	&IXmlNamespaceResolver_t3312_il2cpp_TypeInfo,
-	&Entry_t3204_il2cpp_TypeInfo,
-	&NameTable_t3206_il2cpp_TypeInfo,
-	&NamespaceHandling_t3207_il2cpp_TypeInfo,
-	&NewLineHandling_t3208_il2cpp_TypeInfo,
-	&ReadState_t3209_il2cpp_TypeInfo,
-	&WhitespaceHandling_t3210_il2cpp_TypeInfo,
-	&WriteState_t3211_il2cpp_TypeInfo,
-	&XmlAttribute_t722_il2cpp_TypeInfo,
-	&XmlAttributeCollection_t724_il2cpp_TypeInfo,
-	&XmlCDataSection_t3216_il2cpp_TypeInfo,
-	&XmlChar_t3219_il2cpp_TypeInfo,
-	&XmlCharacterData_t3217_il2cpp_TypeInfo,
-	&XmlComment_t3220_il2cpp_TypeInfo,
-	&XmlConvert_t3221_il2cpp_TypeInfo,
-	&XmlDeclaration_t3222_il2cpp_TypeInfo,
-	&XmlDocument_t678_il2cpp_TypeInfo,
-	&XmlDocumentFragment_t3226_il2cpp_TypeInfo,
-	&XmlDocumentType_t3227_il2cpp_TypeInfo,
-	&XmlElement_t679_il2cpp_TypeInfo,
-	&XmlEntity_t3228_il2cpp_TypeInfo,
-	&XmlEntityReference_t3229_il2cpp_TypeInfo,
-	&XmlException_t3230_il2cpp_TypeInfo,
-	&XmlImplementation_t3223_il2cpp_TypeInfo,
-	&XmlStreamReader_t3233_il2cpp_TypeInfo,
-	&NonBlockingStreamReader_t3234_il2cpp_TypeInfo,
-	&XmlInputStream_t3232_il2cpp_TypeInfo,
-	&XmlLinkedNode_t3213_il2cpp_TypeInfo,
-	&XmlNameEntry_t3212_il2cpp_TypeInfo,
-	&XmlNameEntryCache_t3224_il2cpp_TypeInfo,
-	&XmlNameTable_t3182_il2cpp_TypeInfo,
-	&XmlNamedNodeMap_t3215_il2cpp_TypeInfo,
-	&NsDecl_t3237_il2cpp_TypeInfo,
-	&NsScope_t3238_il2cpp_TypeInfo,
-	&XmlNamespaceManager_t3241_il2cpp_TypeInfo,
-	&EmptyNodeList_t3242_il2cpp_TypeInfo,
-	&XmlNode_t718_il2cpp_TypeInfo,
-	&XmlNodeChangedAction_t3245_il2cpp_TypeInfo,
-	&XmlNodeChangedEventArgs_t3246_il2cpp_TypeInfo,
-	&XmlNodeList_t3243_il2cpp_TypeInfo,
-	&Enumerator_t3248_il2cpp_TypeInfo,
-	&XmlNodeListChildren_t3244_il2cpp_TypeInfo,
-	&XmlNodeType_t3249_il2cpp_TypeInfo,
-	&XmlNotation_t3250_il2cpp_TypeInfo,
-	&ContextItem_t3251_il2cpp_TypeInfo,
-	&XmlParserContext_t3252_il2cpp_TypeInfo,
-	&XmlParserInputSource_t3253_il2cpp_TypeInfo,
-	&XmlParserInput_t3201_il2cpp_TypeInfo,
-	&XmlProcessingInstruction_t3254_il2cpp_TypeInfo,
-	&XmlQualifiedName_t3162_il2cpp_TypeInfo,
-	&XmlReader_t3257_il2cpp_TypeInfo,
-	&CommandState_t3258_il2cpp_TypeInfo,
-	&CharGetter_t3259_il2cpp_TypeInfo,
-	&XmlReaderBinarySupport_t3255_il2cpp_TypeInfo,
-	&XmlReaderSettings_t3256_il2cpp_TypeInfo,
-	&XmlResolver_t3181_il2cpp_TypeInfo,
-	&XmlSignificantWhitespace_t3260_il2cpp_TypeInfo,
-	&XmlSpace_t3261_il2cpp_TypeInfo,
-	&XmlText_t3262_il2cpp_TypeInfo,
-	&XmlTokenInfo_t3264_il2cpp_TypeInfo,
-	&XmlAttributeTokenInfo_t3265_il2cpp_TypeInfo,
-	&TagName_t3266_il2cpp_TypeInfo,
-	&DtdInputState_t3267_il2cpp_TypeInfo,
-	&DtdInputStateStack_t3268_il2cpp_TypeInfo,
-	&XmlTextReader_t3263_il2cpp_TypeInfo,
-	&XmlTextReader_t3272_il2cpp_TypeInfo,
-	&XmlNodeInfo_t3274_il2cpp_TypeInfo,
-	&StringUtil_t3276_il2cpp_TypeInfo,
-	&XmlDeclState_t3277_il2cpp_TypeInfo,
-	&XmlTextWriter_t3281_il2cpp_TypeInfo,
-	&XmlTokenizedType_t3283_il2cpp_TypeInfo,
-	&XmlUrlResolver_t3285_il2cpp_TypeInfo,
-	&XmlWhitespace_t3286_il2cpp_TypeInfo,
-	&XmlWriter_t3282_il2cpp_TypeInfo,
-	&XmlNodeChangedEventHandler_t3225_il2cpp_TypeInfo,
-	&U24ArrayTypeU2412_t3287_il2cpp_TypeInfo,
-	&U24ArrayTypeU248_t3288_il2cpp_TypeInfo,
-	&U24ArrayTypeU24256_t3289_il2cpp_TypeInfo,
-	&U24ArrayTypeU241280_t3290_il2cpp_TypeInfo,
-	&U3CPrivateImplementationDetailsU3E_t3291_il2cpp_TypeInfo,
+	&U3CModuleU3E_t3112_il2cpp_TypeInfo,
+	&MonoTODOAttribute_t3113_il2cpp_TypeInfo,
+	&IHasXmlParserContext_t3312_il2cpp_TypeInfo,
+	&XsdWhitespaceFacet_t3114_il2cpp_TypeInfo,
+	&XsdAnySimpleType_t3115_il2cpp_TypeInfo,
+	&XdtAnyAtomicType_t3117_il2cpp_TypeInfo,
+	&XdtUntypedAtomic_t3118_il2cpp_TypeInfo,
+	&XsdString_t3119_il2cpp_TypeInfo,
+	&XsdNormalizedString_t3120_il2cpp_TypeInfo,
+	&XsdToken_t3121_il2cpp_TypeInfo,
+	&XsdLanguage_t3122_il2cpp_TypeInfo,
+	&XsdNMToken_t3123_il2cpp_TypeInfo,
+	&XsdNMTokens_t3124_il2cpp_TypeInfo,
+	&XsdName_t3125_il2cpp_TypeInfo,
+	&XsdNCName_t3126_il2cpp_TypeInfo,
+	&XsdID_t3127_il2cpp_TypeInfo,
+	&XsdIDRef_t3128_il2cpp_TypeInfo,
+	&XsdIDRefs_t3129_il2cpp_TypeInfo,
+	&XsdEntity_t3130_il2cpp_TypeInfo,
+	&XsdEntities_t3131_il2cpp_TypeInfo,
+	&XsdNotation_t3132_il2cpp_TypeInfo,
+	&XsdDecimal_t3133_il2cpp_TypeInfo,
+	&XsdInteger_t3134_il2cpp_TypeInfo,
+	&XsdLong_t3135_il2cpp_TypeInfo,
+	&XsdInt_t3136_il2cpp_TypeInfo,
+	&XsdShort_t3137_il2cpp_TypeInfo,
+	&XsdByte_t3138_il2cpp_TypeInfo,
+	&XsdNonNegativeInteger_t3139_il2cpp_TypeInfo,
+	&XsdUnsignedLong_t3140_il2cpp_TypeInfo,
+	&XsdUnsignedInt_t3141_il2cpp_TypeInfo,
+	&XsdUnsignedShort_t3142_il2cpp_TypeInfo,
+	&XsdUnsignedByte_t3143_il2cpp_TypeInfo,
+	&XsdPositiveInteger_t3144_il2cpp_TypeInfo,
+	&XsdNonPositiveInteger_t3145_il2cpp_TypeInfo,
+	&XsdNegativeInteger_t3146_il2cpp_TypeInfo,
+	&XsdFloat_t3147_il2cpp_TypeInfo,
+	&XsdDouble_t3148_il2cpp_TypeInfo,
+	&XsdBase64Binary_t3149_il2cpp_TypeInfo,
+	&XsdHexBinary_t3150_il2cpp_TypeInfo,
+	&XsdQName_t3151_il2cpp_TypeInfo,
+	&XsdBoolean_t3152_il2cpp_TypeInfo,
+	&XsdAnyURI_t3153_il2cpp_TypeInfo,
+	&XsdDuration_t3154_il2cpp_TypeInfo,
+	&XdtDayTimeDuration_t3155_il2cpp_TypeInfo,
+	&XdtYearMonthDuration_t3156_il2cpp_TypeInfo,
+	&XsdDateTime_t3157_il2cpp_TypeInfo,
+	&XsdDate_t3158_il2cpp_TypeInfo,
+	&XsdTime_t3159_il2cpp_TypeInfo,
+	&XsdGYearMonth_t3160_il2cpp_TypeInfo,
+	&XsdGMonthDay_t3161_il2cpp_TypeInfo,
+	&XsdGYear_t3162_il2cpp_TypeInfo,
+	&XsdGMonth_t3163_il2cpp_TypeInfo,
+	&XsdGDay_t3164_il2cpp_TypeInfo,
+	&IXmlSchemaInfo_t3230_il2cpp_TypeInfo,
+	&XmlSchemaAnnotated_t3165_il2cpp_TypeInfo,
+	&XmlSchemaAttribute_t3167_il2cpp_TypeInfo,
+	&XmlSchemaDatatype_t3116_il2cpp_TypeInfo,
+	&XmlSchemaDerivationMethod_t3168_il2cpp_TypeInfo,
+	&XmlSchemaElement_t3169_il2cpp_TypeInfo,
+	&Facet_t3171_il2cpp_TypeInfo,
+	&XmlSchemaFacet_t3172_il2cpp_TypeInfo,
+	&XmlSchemaInfo_t3175_il2cpp_TypeInfo,
+	&XmlSchemaObject_t3166_il2cpp_TypeInfo,
+	&XmlSchemaParticle_t3170_il2cpp_TypeInfo,
+	&XmlSchemaSimpleType_t3173_il2cpp_TypeInfo,
+	&XmlSchemaSimpleTypeContent_t3177_il2cpp_TypeInfo,
+	&XmlSchemaSimpleTypeList_t3179_il2cpp_TypeInfo,
+	&XmlSchemaSimpleTypeRestriction_t3180_il2cpp_TypeInfo,
+	&XmlSchemaSimpleTypeUnion_t3181_il2cpp_TypeInfo,
+	&XmlSchemaType_t3174_il2cpp_TypeInfo,
+	&XmlSchemaUtil_t3182_il2cpp_TypeInfo,
+	&XmlSchemaValidity_t3183_il2cpp_TypeInfo,
+	&XmlAttributeAttribute_t3184_il2cpp_TypeInfo,
+	&XmlElementAttribute_t3185_il2cpp_TypeInfo,
+	&XmlEnumAttribute_t3186_il2cpp_TypeInfo,
+	&XmlIgnoreAttribute_t3187_il2cpp_TypeInfo,
+	&XmlSerializerNamespaces_t3176_il2cpp_TypeInfo,
+	&IXPathNavigable_t3327_il2cpp_TypeInfo,
+	&ConformanceLevel_t3189_il2cpp_TypeInfo,
+	&DTDAutomataFactory_t3191_il2cpp_TypeInfo,
+	&DTDObjectModel_t3190_il2cpp_TypeInfo,
+	&U3CU3Ec__Iterator3_t3201_il2cpp_TypeInfo,
+	&DictionaryBase_t3200_il2cpp_TypeInfo,
+	&DTDCollectionBase_t3205_il2cpp_TypeInfo,
+	&DTDElementDeclarationCollection_t3192_il2cpp_TypeInfo,
+	&DTDAttListDeclarationCollection_t3193_il2cpp_TypeInfo,
+	&DTDEntityDeclarationCollection_t3195_il2cpp_TypeInfo,
+	&DTDNotationDeclarationCollection_t3196_il2cpp_TypeInfo,
+	&DTDContentModel_t3207_il2cpp_TypeInfo,
+	&DTDContentModelCollection_t3206_il2cpp_TypeInfo,
+	&DTDNode_t3199_il2cpp_TypeInfo,
+	&DTDElementDeclaration_t3208_il2cpp_TypeInfo,
+	&DTDAttributeDefinition_t3209_il2cpp_TypeInfo,
+	&DTDAttListDeclaration_t3210_il2cpp_TypeInfo,
+	&DTDEntityBase_t3211_il2cpp_TypeInfo,
+	&DTDEntityDeclaration_t3212_il2cpp_TypeInfo,
+	&DTDNotationDeclaration_t3213_il2cpp_TypeInfo,
+	&DTDParameterEntityDeclarationCollection_t3194_il2cpp_TypeInfo,
+	&DTDParameterEntityDeclaration_t3214_il2cpp_TypeInfo,
+	&DTDContentOrderType_t3215_il2cpp_TypeInfo,
+	&DTDOccurence_t3216_il2cpp_TypeInfo,
+	&DTDReader_t3218_il2cpp_TypeInfo,
+	&EntityHandling_t3219_il2cpp_TypeInfo,
+	&IHasXmlChildNode_t3263_il2cpp_TypeInfo,
+	&IXmlLineInfo_t3310_il2cpp_TypeInfo,
+	&IXmlNamespaceResolver_t3328_il2cpp_TypeInfo,
+	&Entry_t3220_il2cpp_TypeInfo,
+	&NameTable_t3222_il2cpp_TypeInfo,
+	&NamespaceHandling_t3223_il2cpp_TypeInfo,
+	&NewLineHandling_t3224_il2cpp_TypeInfo,
+	&ReadState_t3225_il2cpp_TypeInfo,
+	&WhitespaceHandling_t3226_il2cpp_TypeInfo,
+	&WriteState_t3227_il2cpp_TypeInfo,
+	&XmlAttribute_t735_il2cpp_TypeInfo,
+	&XmlAttributeCollection_t737_il2cpp_TypeInfo,
+	&XmlCDataSection_t3232_il2cpp_TypeInfo,
+	&XmlChar_t3235_il2cpp_TypeInfo,
+	&XmlCharacterData_t3233_il2cpp_TypeInfo,
+	&XmlComment_t3236_il2cpp_TypeInfo,
+	&XmlConvert_t3237_il2cpp_TypeInfo,
+	&XmlDeclaration_t3238_il2cpp_TypeInfo,
+	&XmlDocument_t691_il2cpp_TypeInfo,
+	&XmlDocumentFragment_t3242_il2cpp_TypeInfo,
+	&XmlDocumentType_t3243_il2cpp_TypeInfo,
+	&XmlElement_t692_il2cpp_TypeInfo,
+	&XmlEntity_t3244_il2cpp_TypeInfo,
+	&XmlEntityReference_t3245_il2cpp_TypeInfo,
+	&XmlException_t3246_il2cpp_TypeInfo,
+	&XmlImplementation_t3239_il2cpp_TypeInfo,
+	&XmlStreamReader_t3249_il2cpp_TypeInfo,
+	&NonBlockingStreamReader_t3250_il2cpp_TypeInfo,
+	&XmlInputStream_t3248_il2cpp_TypeInfo,
+	&XmlLinkedNode_t3229_il2cpp_TypeInfo,
+	&XmlNameEntry_t3228_il2cpp_TypeInfo,
+	&XmlNameEntryCache_t3240_il2cpp_TypeInfo,
+	&XmlNameTable_t3198_il2cpp_TypeInfo,
+	&XmlNamedNodeMap_t3231_il2cpp_TypeInfo,
+	&NsDecl_t3253_il2cpp_TypeInfo,
+	&NsScope_t3254_il2cpp_TypeInfo,
+	&XmlNamespaceManager_t3257_il2cpp_TypeInfo,
+	&EmptyNodeList_t3258_il2cpp_TypeInfo,
+	&XmlNode_t731_il2cpp_TypeInfo,
+	&XmlNodeChangedAction_t3261_il2cpp_TypeInfo,
+	&XmlNodeChangedEventArgs_t3262_il2cpp_TypeInfo,
+	&XmlNodeList_t3259_il2cpp_TypeInfo,
+	&Enumerator_t3264_il2cpp_TypeInfo,
+	&XmlNodeListChildren_t3260_il2cpp_TypeInfo,
+	&XmlNodeType_t3265_il2cpp_TypeInfo,
+	&XmlNotation_t3266_il2cpp_TypeInfo,
+	&ContextItem_t3267_il2cpp_TypeInfo,
+	&XmlParserContext_t3268_il2cpp_TypeInfo,
+	&XmlParserInputSource_t3269_il2cpp_TypeInfo,
+	&XmlParserInput_t3217_il2cpp_TypeInfo,
+	&XmlProcessingInstruction_t3270_il2cpp_TypeInfo,
+	&XmlQualifiedName_t3178_il2cpp_TypeInfo,
+	&XmlReader_t3273_il2cpp_TypeInfo,
+	&CommandState_t3274_il2cpp_TypeInfo,
+	&CharGetter_t3275_il2cpp_TypeInfo,
+	&XmlReaderBinarySupport_t3271_il2cpp_TypeInfo,
+	&XmlReaderSettings_t3272_il2cpp_TypeInfo,
+	&XmlResolver_t3197_il2cpp_TypeInfo,
+	&XmlSignificantWhitespace_t3276_il2cpp_TypeInfo,
+	&XmlSpace_t3277_il2cpp_TypeInfo,
+	&XmlText_t3278_il2cpp_TypeInfo,
+	&XmlTokenInfo_t3280_il2cpp_TypeInfo,
+	&XmlAttributeTokenInfo_t3281_il2cpp_TypeInfo,
+	&TagName_t3282_il2cpp_TypeInfo,
+	&DtdInputState_t3283_il2cpp_TypeInfo,
+	&DtdInputStateStack_t3284_il2cpp_TypeInfo,
+	&XmlTextReader_t3279_il2cpp_TypeInfo,
+	&XmlTextReader_t3288_il2cpp_TypeInfo,
+	&XmlNodeInfo_t3290_il2cpp_TypeInfo,
+	&StringUtil_t3292_il2cpp_TypeInfo,
+	&XmlDeclState_t3293_il2cpp_TypeInfo,
+	&XmlTextWriter_t3297_il2cpp_TypeInfo,
+	&XmlTokenizedType_t3299_il2cpp_TypeInfo,
+	&XmlUrlResolver_t3301_il2cpp_TypeInfo,
+	&XmlWhitespace_t3302_il2cpp_TypeInfo,
+	&XmlWriter_t3298_il2cpp_TypeInfo,
+	&XmlNodeChangedEventHandler_t3241_il2cpp_TypeInfo,
+	&U24ArrayTypeU2412_t3303_il2cpp_TypeInfo,
+	&U24ArrayTypeU248_t3304_il2cpp_TypeInfo,
+	&U24ArrayTypeU24256_t3305_il2cpp_TypeInfo,
+	&U24ArrayTypeU241280_t3306_il2cpp_TypeInfo,
+	&U3CPrivateImplementationDetailsU3E_t3307_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
@@ -1319,692 +1319,692 @@ static const char* s_StringTable[552] =
 #endif
 static const Il2CppFieldDefinition s_FieldTable[686] = 
 {
-	{ 0, 90, offsetof(XsdWhitespaceFacet_t3098, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 1, 5542, 0, 0 } ,
-	{ 2, 5542, 0, 0 } ,
-	{ 3, 5542, 0, 0 } ,
-	{ 4, 5546, offsetof(XsdAnySimpleType_t3099_StaticFields, ___instance_55), 0 } ,
-	{ 5, 2223, offsetof(XsdAnySimpleType_t3099_StaticFields, ___whitespaceArray_56), 0 } ,
-	{ 6, 5547, offsetof(XsdAnySimpleType_t3099_StaticFields, ___booleanAllowedFacets_57), 0 } ,
-	{ 7, 5547, offsetof(XsdAnySimpleType_t3099_StaticFields, ___decimalAllowedFacets_58), 0 } ,
-	{ 8, 5547, offsetof(XsdAnySimpleType_t3099_StaticFields, ___durationAllowedFacets_59), 0 } ,
-	{ 9, 5547, offsetof(XsdAnySimpleType_t3099_StaticFields, ___stringAllowedFacets_60), 0 } ,
-	{ 10, 1100, offsetof(XsdBase64Binary_t3133_StaticFields, ___ALPHABET_61), 0 } ,
-	{ 11, 4819, offsetof(XsdBase64Binary_t3133_StaticFields, ___decodeTable_62), 0 } ,
-	{ 12, 3768, offsetof(XsdTime_t3143_StaticFields, ___timeFormats_61), 0 } ,
-	{ 13, 5605, offsetof(XmlSchemaDatatype_t3100, ___WhitespaceValue_0), 0 } ,
-	{ 14, 5606, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___wsChars_1), 0 } ,
-	{ 15, 949, offsetof(XmlSchemaDatatype_t3100, ___sb_2), 0 } ,
-	{ 16, 5607, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeAnySimpleType_3), 0 } ,
-	{ 17, 5608, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeString_4), 0 } ,
-	{ 18, 5609, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeNormalizedString_5), 0 } ,
-	{ 19, 5610, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeToken_6), 0 } ,
-	{ 20, 5611, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeLanguage_7), 0 } ,
-	{ 21, 5612, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeNMToken_8), 0 } ,
-	{ 22, 5613, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeNMTokens_9), 0 } ,
-	{ 23, 5614, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeName_10), 0 } ,
-	{ 24, 5615, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeNCName_11), 0 } ,
-	{ 25, 5616, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeID_12), 0 } ,
-	{ 26, 5617, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeIDRef_13), 0 } ,
-	{ 27, 5618, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeIDRefs_14), 0 } ,
-	{ 28, 5619, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeEntity_15), 0 } ,
-	{ 29, 5620, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeEntities_16), 0 } ,
-	{ 30, 5621, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeNotation_17), 0 } ,
-	{ 31, 5622, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeDecimal_18), 0 } ,
-	{ 32, 5623, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeInteger_19), 0 } ,
-	{ 33, 5624, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeLong_20), 0 } ,
-	{ 34, 5625, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeInt_21), 0 } ,
-	{ 35, 5626, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeShort_22), 0 } ,
-	{ 36, 5627, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeByte_23), 0 } ,
-	{ 37, 5628, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeNonNegativeInteger_24), 0 } ,
-	{ 38, 5629, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypePositiveInteger_25), 0 } ,
-	{ 39, 5630, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeUnsignedLong_26), 0 } ,
-	{ 40, 5631, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeUnsignedInt_27), 0 } ,
-	{ 41, 5632, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeUnsignedShort_28), 0 } ,
-	{ 42, 5633, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeUnsignedByte_29), 0 } ,
-	{ 43, 5634, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeNonPositiveInteger_30), 0 } ,
-	{ 44, 5635, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeNegativeInteger_31), 0 } ,
-	{ 45, 5636, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeFloat_32), 0 } ,
-	{ 46, 5637, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeDouble_33), 0 } ,
-	{ 47, 5638, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeBase64Binary_34), 0 } ,
-	{ 48, 5639, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeBoolean_35), 0 } ,
-	{ 49, 5640, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeAnyURI_36), 0 } ,
-	{ 50, 5641, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeDuration_37), 0 } ,
-	{ 51, 5642, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeDateTime_38), 0 } ,
-	{ 52, 5643, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeDate_39), 0 } ,
-	{ 53, 5644, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeTime_40), 0 } ,
-	{ 54, 5645, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeHexBinary_41), 0 } ,
-	{ 55, 5646, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeQName_42), 0 } ,
-	{ 56, 5647, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeGYearMonth_43), 0 } ,
-	{ 57, 5648, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeGMonthDay_44), 0 } ,
-	{ 58, 5649, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeGYear_45), 0 } ,
-	{ 59, 5650, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeGMonth_46), 0 } ,
-	{ 60, 5651, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeGDay_47), 0 } ,
-	{ 61, 5652, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeAnyAtomicType_48), 0 } ,
-	{ 62, 5653, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeUntypedAtomic_49), 0 } ,
-	{ 63, 5654, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeDayTimeDuration_50), 0 } ,
-	{ 64, 5655, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___datatypeYearMonthDuration_51), 0 } ,
-	{ 65, 946, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___U3CU3Ef__switchU24map2A_52), 3 } ,
-	{ 66, 946, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___U3CU3Ef__switchU24map2B_53), 4 } ,
-	{ 67, 946, offsetof(XmlSchemaDatatype_t3100_StaticFields, ___U3CU3Ef__switchU24map2C_54), 5 } ,
-	{ 0, 90, offsetof(XmlSchemaDerivationMethod_t3152, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 68, 5657, 0, 7 } ,
-	{ 69, 5657, 0, 8 } ,
-	{ 70, 5657, 0, 9 } ,
-	{ 71, 5657, 0, 10 } ,
-	{ 72, 5657, 0, 11 } ,
-	{ 73, 5657, 0, 12 } ,
-	{ 74, 5657, 0, 13 } ,
-	{ 75, 5657, 0, 14 } ,
-	{ 0, 90, offsetof(Facet_t3155, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 75, 5662, 0, 0 } ,
-	{ 76, 5662, 0, 0 } ,
-	{ 77, 5662, 0, 0 } ,
-	{ 78, 5662, 0, 0 } ,
-	{ 79, 5662, 0, 0 } ,
-	{ 80, 5662, 0, 0 } ,
-	{ 81, 5662, 0, 0 } ,
-	{ 82, 5662, 0, 0 } ,
-	{ 83, 5662, 0, 0 } ,
-	{ 84, 5662, 0, 0 } ,
-	{ 85, 5662, 0, 0 } ,
-	{ 86, 5662, 0, 0 } ,
-	{ 87, 5662, 0, 0 } ,
-	{ 88, 5547, offsetof(XmlSchemaFacet_t3156_StaticFields, ___AllFacets_3), 0 } ,
-	{ 89, 100, offsetof(XmlSchemaInfo_t3159, ___isDefault_0), 0 } ,
-	{ 90, 100, offsetof(XmlSchemaInfo_t3159, ___isNil_1), 0 } ,
-	{ 91, 5666, offsetof(XmlSchemaInfo_t3159, ___memberType_2), 0 } ,
-	{ 92, 5667, offsetof(XmlSchemaInfo_t3159, ___attr_3), 0 } ,
-	{ 93, 5668, offsetof(XmlSchemaInfo_t3159, ___elem_4), 0 } ,
-	{ 94, 5669, offsetof(XmlSchemaInfo_t3159, ___type_5), 0 } ,
-	{ 95, 5670, offsetof(XmlSchemaInfo_t3159, ___validity_6), 0 } ,
-	{ 96, 5672, offsetof(XmlSchemaObject_t3150, ___namespaces_0), 0 } ,
-	{ 97, 5673, offsetof(XmlSchemaObject_t3150, ___unhandledAttributeList_1), 0 } ,
-	{ 98, 5674, offsetof(XmlSchemaObject_t3150, ___CompilationId_2), 0 } ,
-	{ 99, 5678, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___schemaLocationType_9), 0 } ,
-	{ 100, 5679, offsetof(XmlSchemaSimpleType_t3157, ___content_10), 0 } ,
-	{ 101, 2214, offsetof(XmlSchemaSimpleType_t3157, ___islocal_11), 0 } ,
-	{ 102, 5680, offsetof(XmlSchemaSimpleType_t3157, ___variety_12), 0 } ,
-	{ 103, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsAnySimpleType_13), 0 } ,
-	{ 104, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsString_14), 0 } ,
-	{ 105, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsBoolean_15), 0 } ,
-	{ 106, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsDecimal_16), 0 } ,
-	{ 107, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsFloat_17), 0 } ,
-	{ 108, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsDouble_18), 0 } ,
-	{ 109, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsDuration_19), 0 } ,
-	{ 110, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsDateTime_20), 0 } ,
-	{ 111, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsTime_21), 0 } ,
-	{ 112, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsDate_22), 0 } ,
-	{ 113, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsGYearMonth_23), 0 } ,
-	{ 114, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsGYear_24), 0 } ,
-	{ 115, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsGMonthDay_25), 0 } ,
-	{ 116, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsGDay_26), 0 } ,
-	{ 117, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsGMonth_27), 0 } ,
-	{ 118, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsHexBinary_28), 0 } ,
-	{ 119, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsBase64Binary_29), 0 } ,
-	{ 120, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsAnyUri_30), 0 } ,
-	{ 121, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsQName_31), 0 } ,
-	{ 122, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsNotation_32), 0 } ,
-	{ 123, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsNormalizedString_33), 0 } ,
-	{ 124, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsToken_34), 0 } ,
-	{ 125, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsLanguage_35), 0 } ,
-	{ 126, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsNMToken_36), 0 } ,
-	{ 127, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsNMTokens_37), 0 } ,
-	{ 128, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsName_38), 0 } ,
-	{ 129, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsNCName_39), 0 } ,
-	{ 130, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsID_40), 0 } ,
-	{ 131, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsIDRef_41), 0 } ,
-	{ 132, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsIDRefs_42), 0 } ,
-	{ 133, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsEntity_43), 0 } ,
-	{ 134, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsEntities_44), 0 } ,
-	{ 135, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsInteger_45), 0 } ,
-	{ 136, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsNonPositiveInteger_46), 0 } ,
-	{ 137, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsNegativeInteger_47), 0 } ,
-	{ 138, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsLong_48), 0 } ,
-	{ 139, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsInt_49), 0 } ,
-	{ 140, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsShort_50), 0 } ,
-	{ 141, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsByte_51), 0 } ,
-	{ 142, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsNonNegativeInteger_52), 0 } ,
-	{ 143, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsUnsignedLong_53), 0 } ,
-	{ 144, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsUnsignedInt_54), 0 } ,
-	{ 145, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsUnsignedShort_55), 0 } ,
-	{ 146, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsUnsignedByte_56), 0 } ,
-	{ 147, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XsPositiveInteger_57), 0 } ,
-	{ 148, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XdtUntypedAtomic_58), 0 } ,
-	{ 149, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XdtAnyAtomicType_59), 0 } ,
-	{ 150, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XdtYearMonthDuration_60), 0 } ,
-	{ 151, 5681, offsetof(XmlSchemaSimpleType_t3157_StaticFields, ___XdtDayTimeDuration_61), 0 } ,
-	{ 152, 5666, offsetof(XmlSchemaSimpleTypeList_t3163, ___itemType_3), 0 } ,
-	{ 153, 5684, offsetof(XmlSchemaSimpleTypeList_t3163, ___itemTypeName_4), 0 } ,
-	{ 154, 5686, offsetof(XmlSchemaSimpleTypeRestriction_t3164_StaticFields, ___lengthStyle_3), 0 } ,
-	{ 155, 5687, offsetof(XmlSchemaSimpleTypeRestriction_t3164_StaticFields, ___listFacets_4), 0 } ,
-	{ 156, 5680, offsetof(XmlSchemaType_t3158, ___final_3), 0 } ,
-	{ 157, 5690, offsetof(XmlSchemaType_t3158, ___BaseXmlSchemaTypeInternal_4), 0 } ,
-	{ 158, 5691, offsetof(XmlSchemaType_t3158, ___DatatypeInternal_5), 0 } ,
-	{ 159, 5692, offsetof(XmlSchemaType_t3158, ___QNameInternal_6), 0 } ,
-	{ 160, 946, offsetof(XmlSchemaType_t3158_StaticFields, ___U3CU3Ef__switchU24map2E_7), 27 } ,
-	{ 161, 946, offsetof(XmlSchemaType_t3158_StaticFields, ___U3CU3Ef__switchU24map2F_8), 28 } ,
-	{ 162, 5694, offsetof(XmlSchemaUtil_t3166_StaticFields, ___FinalAllowed_0), 0 } ,
-	{ 163, 5694, offsetof(XmlSchemaUtil_t3166_StaticFields, ___ElementBlockAllowed_1), 0 } ,
-	{ 164, 5694, offsetof(XmlSchemaUtil_t3166_StaticFields, ___ComplexTypeBlockAllowed_2), 0 } ,
-	{ 165, 5695, offsetof(XmlSchemaUtil_t3166_StaticFields, ___StrictMsCompliant_3), 0 } ,
-	{ 0, 90, offsetof(XmlSchemaValidity_t3167, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 166, 5697, 0, 0 } ,
-	{ 167, 5697, 0, 0 } ,
-	{ 168, 5697, 0, 0 } ,
-	{ 169, 99, offsetof(XmlAttributeAttribute_t3168, ___attributeName_0), 0 } ,
-	{ 170, 99, offsetof(XmlElementAttribute_t3169, ___elementName_0), 0 } ,
-	{ 94, 5700, offsetof(XmlElementAttribute_t3169, ___type_1), 0 } ,
-	{ 171, 110, offsetof(XmlElementAttribute_t3169, ___order_2), 0 } ,
-	{ 172, 99, offsetof(XmlEnumAttribute_t3170, ___name_0), 0 } ,
-	{ 96, 5704, offsetof(XmlSerializerNamespaces_t3160, ___namespaces_0), 0 } ,
-	{ 0, 90, offsetof(ConformanceLevel_t3173, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 173, 5708, 0, 0 } ,
-	{ 174, 5708, 0, 0 } ,
-	{ 175, 5708, 0, 0 } ,
-	{ 176, 5711, offsetof(DTDAutomataFactory_t3175, ___root_0), 0 } ,
-	{ 177, 5712, offsetof(DTDAutomataFactory_t3175, ___choiceTable_1), 0 } ,
-	{ 178, 5712, offsetof(DTDAutomataFactory_t3175, ___sequenceTable_2), 0 } ,
-	{ 179, 5716, offsetof(DTDObjectModel_t3174, ___factory_0), 0 } ,
-	{ 180, 5717, offsetof(DTDObjectModel_t3174, ___elementDecls_1), 0 } ,
-	{ 181, 5718, offsetof(DTDObjectModel_t3174, ___attListDecls_2), 0 } ,
-	{ 182, 5719, offsetof(DTDObjectModel_t3174, ___peDecls_3), 0 } ,
-	{ 183, 5720, offsetof(DTDObjectModel_t3174, ___entityDecls_4), 0 } ,
-	{ 184, 5721, offsetof(DTDObjectModel_t3174, ___notationDecls_5), 0 } ,
-	{ 185, 5722, offsetof(DTDObjectModel_t3174, ___validationErrors_6), 0 } ,
-	{ 186, 5723, offsetof(DTDObjectModel_t3174, ___resolver_7), 0 } ,
-	{ 187, 5724, offsetof(DTDObjectModel_t3174, ___nameTable_8), 0 } ,
-	{ 188, 5712, offsetof(DTDObjectModel_t3174, ___externalResources_9), 0 } ,
-	{ 189, 99, offsetof(DTDObjectModel_t3174, ___baseURI_10), 0 } ,
-	{ 172, 99, offsetof(DTDObjectModel_t3174, ___name_11), 0 } ,
-	{ 190, 99, offsetof(DTDObjectModel_t3174, ___publicId_12), 0 } ,
-	{ 191, 99, offsetof(DTDObjectModel_t3174, ___systemId_13), 0 } ,
-	{ 192, 99, offsetof(DTDObjectModel_t3174, ___intSubset_14), 0 } ,
-	{ 193, 100, offsetof(DTDObjectModel_t3174, ___intSubsetHasPERef_15), 0 } ,
-	{ 194, 100, offsetof(DTDObjectModel_t3174, ___isStandalone_16), 0 } ,
-	{ 195, 110, offsetof(DTDObjectModel_t3174, ___lineNumber_17), 0 } ,
-	{ 196, 110, offsetof(DTDObjectModel_t3174, ___linePosition_18), 0 } ,
-	{ 197, 5726, offsetof(U3CU3Ec__Iterator3_t3185, ___U3CU24s_431U3E__0_0), 0 } ,
-	{ 198, 5727, offsetof(U3CU3Ec__Iterator3_t3185, ___U3CpU3E__1_1), 0 } ,
-	{ 199, 137, offsetof(U3CU3Ec__Iterator3_t3185, ___U24PC_2), 0 } ,
-	{ 200, 5728, offsetof(U3CU3Ec__Iterator3_t3185, ___U24current_3), 0 } ,
-	{ 201, 5729, offsetof(U3CU3Ec__Iterator3_t3185, ___U3CU3Ef__this_4), 0 } ,
-	{ 176, 5711, offsetof(DTDCollectionBase_t3189, ___root_5), 0 } ,
-	{ 176, 5711, offsetof(DTDContentModel_t3191, ___root_5), 0 } ,
-	{ 202, 99, offsetof(DTDContentModel_t3191, ___ownerElementName_6), 0 } ,
-	{ 170, 99, offsetof(DTDContentModel_t3191, ___elementName_7), 0 } ,
-	{ 203, 5744, offsetof(DTDContentModel_t3191, ___orderType_8), 0 } ,
-	{ 204, 5745, offsetof(DTDContentModel_t3191, ___childModels_9), 0 } ,
-	{ 205, 5746, offsetof(DTDContentModel_t3191, ___occurence_10), 0 } ,
-	{ 206, 5722, offsetof(DTDContentModelCollection_t3190, ___contentModel_0), 0 } ,
-	{ 176, 5711, offsetof(DTDNode_t3183, ___root_0), 0 } ,
-	{ 207, 100, offsetof(DTDNode_t3183, ___isInternalSubset_1), 0 } ,
-	{ 189, 99, offsetof(DTDNode_t3183, ___baseURI_2), 0 } ,
-	{ 195, 110, offsetof(DTDNode_t3183, ___lineNumber_3), 0 } ,
-	{ 196, 110, offsetof(DTDNode_t3183, ___linePosition_4), 0 } ,
-	{ 176, 5711, offsetof(DTDElementDeclaration_t3192, ___root_5), 0 } ,
-	{ 206, 5750, offsetof(DTDElementDeclaration_t3192, ___contentModel_6), 0 } ,
-	{ 172, 99, offsetof(DTDElementDeclaration_t3192, ___name_7), 0 } ,
-	{ 208, 100, offsetof(DTDElementDeclaration_t3192, ___isEmpty_8), 0 } ,
-	{ 209, 100, offsetof(DTDElementDeclaration_t3192, ___isAny_9), 0 } ,
-	{ 210, 100, offsetof(DTDElementDeclaration_t3192, ___isMixedContent_10), 0 } ,
-	{ 172, 99, offsetof(DTDAttributeDefinition_t3193, ___name_5), 0 } ,
-	{ 211, 5752, offsetof(DTDAttributeDefinition_t3193, ___datatype_6), 0 } ,
-	{ 212, 99, offsetof(DTDAttributeDefinition_t3193, ___unresolvedDefault_7), 0 } ,
-	{ 213, 99, offsetof(DTDAttributeDefinition_t3193, ___resolvedDefaultValue_8), 0 } ,
-	{ 172, 99, offsetof(DTDAttListDeclaration_t3194, ___name_5), 0 } ,
-	{ 214, 5712, offsetof(DTDAttListDeclaration_t3194, ___attributeOrders_6), 0 } ,
-	{ 215, 5722, offsetof(DTDAttListDeclaration_t3194, ___attributes_7), 0 } ,
-	{ 172, 99, offsetof(DTDEntityBase_t3195, ___name_5), 0 } ,
-	{ 190, 99, offsetof(DTDEntityBase_t3195, ___publicId_6), 0 } ,
-	{ 191, 99, offsetof(DTDEntityBase_t3195, ___systemId_7), 0 } ,
-	{ 216, 99, offsetof(DTDEntityBase_t3195, ___literalValue_8), 0 } ,
-	{ 217, 99, offsetof(DTDEntityBase_t3195, ___replacementText_9), 0 } ,
-	{ 218, 99, offsetof(DTDEntityBase_t3195, ___uriString_10), 0 } ,
-	{ 219, 3538, offsetof(DTDEntityBase_t3195, ___absUri_11), 0 } ,
-	{ 220, 100, offsetof(DTDEntityBase_t3195, ___isInvalid_12), 0 } ,
-	{ 221, 100, offsetof(DTDEntityBase_t3195, ___loadFailed_13), 0 } ,
-	{ 186, 5723, offsetof(DTDEntityBase_t3195, ___resolver_14), 0 } ,
-	{ 222, 99, offsetof(DTDEntityDeclaration_t3196, ___entityValue_15), 0 } ,
-	{ 223, 99, offsetof(DTDEntityDeclaration_t3196, ___notationName_16), 0 } ,
-	{ 224, 5722, offsetof(DTDEntityDeclaration_t3196, ___ReferencingEntities_17), 0 } ,
-	{ 225, 100, offsetof(DTDEntityDeclaration_t3196, ___scanned_18), 0 } ,
-	{ 226, 100, offsetof(DTDEntityDeclaration_t3196, ___recursed_19), 0 } ,
-	{ 227, 100, offsetof(DTDEntityDeclaration_t3196, ___hasExternalReference_20), 0 } ,
-	{ 172, 99, offsetof(DTDNotationDeclaration_t3197, ___name_5), 0 } ,
-	{ 228, 99, offsetof(DTDNotationDeclaration_t3197, ___localName_6), 0 } ,
-	{ 229, 99, offsetof(DTDNotationDeclaration_t3197, ___prefix_7), 0 } ,
-	{ 190, 99, offsetof(DTDNotationDeclaration_t3197, ___publicId_8), 0 } ,
-	{ 191, 99, offsetof(DTDNotationDeclaration_t3197, ___systemId_9), 0 } ,
-	{ 182, 5712, offsetof(DTDParameterEntityDeclarationCollection_t3178, ___peDecls_0), 0 } ,
-	{ 176, 5711, offsetof(DTDParameterEntityDeclarationCollection_t3178, ___root_1), 0 } ,
-	{ 0, 90, offsetof(DTDContentOrderType_t3199, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 75, 5761, 0, 0 } ,
-	{ 230, 5761, 0, 0 } ,
-	{ 231, 5761, 0, 0 } ,
-	{ 0, 90, offsetof(DTDOccurence_t3200, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 232, 5763, 0, 0 } ,
-	{ 233, 5763, 0, 0 } ,
-	{ 234, 5763, 0, 0 } ,
-	{ 235, 5763, 0, 0 } ,
-	{ 236, 5765, offsetof(DTDReader_t3202, ___currentInput_0), 0 } ,
-	{ 237, 5766, offsetof(DTDReader_t3202, ___parserInputStack_1), 0 } ,
-	{ 238, 3671, offsetof(DTDReader_t3202, ___nameBuffer_2), 0 } ,
-	{ 239, 110, offsetof(DTDReader_t3202, ___nameLength_3), 0 } ,
-	{ 240, 110, offsetof(DTDReader_t3202, ___nameCapacity_4), 0 } ,
-	{ 241, 949, offsetof(DTDReader_t3202, ___valueBuffer_5), 0 } ,
-	{ 242, 110, offsetof(DTDReader_t3202, ___currentLinkedNodeLineNumber_6), 0 } ,
-	{ 243, 110, offsetof(DTDReader_t3202, ___currentLinkedNodeLinePosition_7), 0 } ,
-	{ 244, 110, offsetof(DTDReader_t3202, ___dtdIncludeSect_8), 0 } ,
-	{ 245, 100, offsetof(DTDReader_t3202, ___normalization_9), 0 } ,
-	{ 246, 100, offsetof(DTDReader_t3202, ___processingInternalSubset_10), 0 } ,
-	{ 247, 99, offsetof(DTDReader_t3202, ___cachedPublicId_11), 0 } ,
-	{ 248, 99, offsetof(DTDReader_t3202, ___cachedSystemId_12), 0 } ,
-	{ 249, 5711, offsetof(DTDReader_t3202, ___DTD_13), 0 } ,
-	{ 0, 90, offsetof(EntityHandling_t3203, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 250, 5768, 0, 0 } ,
-	{ 251, 5768, 0, 0 } ,
-	{ 252, 101, offsetof(Entry_t3204, ___str_0), 0 } ,
-	{ 253, 102, offsetof(Entry_t3204, ___hash_1), 0 } ,
-	{ 254, 102, offsetof(Entry_t3204, ___len_2), 0 } ,
-	{ 255, 5775, offsetof(Entry_t3204, ___next_3), 0 } ,
-	{ 256, 110, offsetof(NameTable_t3206, ___count_0), 0 } ,
-	{ 257, 5777, offsetof(NameTable_t3206, ___buckets_1), 0 } ,
-	{ 258, 110, offsetof(NameTable_t3206, ___size_2), 0 } ,
-	{ 0, 90, offsetof(NamespaceHandling_t3207, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 259, 5779, 0, 0 } ,
-	{ 260, 5779, 0, 0 } ,
-	{ 0, 90, offsetof(NewLineHandling_t3208, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 2, 5782, 0, 0 } ,
-	{ 261, 5782, 0, 0 } ,
-	{ 75, 5782, 0, 0 } ,
-	{ 0, 90, offsetof(ReadState_t3209, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 262, 5785, 0, 0 } ,
-	{ 263, 5785, 0, 0 } ,
-	{ 264, 5785, 0, 0 } ,
-	{ 265, 5785, 0, 0 } ,
-	{ 266, 5785, 0, 0 } ,
-	{ 0, 90, offsetof(WhitespaceHandling_t3210, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 74, 5788, 0, 0 } ,
-	{ 267, 5788, 0, 0 } ,
-	{ 75, 5788, 0, 0 } ,
-	{ 0, 90, offsetof(WriteState_t3211, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 268, 5791, 0, 0 } ,
-	{ 269, 5791, 0, 0 } ,
-	{ 270, 5791, 0, 0 } ,
-	{ 271, 5791, 0, 0 } ,
-	{ 272, 5791, 0, 0 } ,
-	{ 266, 5791, 0, 0 } ,
-	{ 264, 5791, 0, 0 } ,
-	{ 172, 5794, offsetof(XmlAttribute_t722, ___name_5), 0 } ,
-	{ 89, 2214, offsetof(XmlAttribute_t722, ___isDefault_6), 0 } ,
-	{ 273, 5795, offsetof(XmlAttribute_t722, ___lastLinkedChild_7), 0 } ,
-	{ 274, 5796, offsetof(XmlAttribute_t722, ___schemaInfo_8), 0 } ,
-	{ 275, 5798, offsetof(XmlAttributeCollection_t724, ___ownerElement_4), 0 } ,
-	{ 276, 5799, offsetof(XmlAttributeCollection_t724, ___ownerDocument_5), 0 } ,
-	{ 277, 5802, offsetof(XmlChar_t3219_StaticFields, ___WhitespaceChars_0), 0 } ,
-	{ 278, 5803, offsetof(XmlChar_t3219_StaticFields, ___firstNamePages_1), 0 } ,
-	{ 279, 5803, offsetof(XmlChar_t3219_StaticFields, ___namePages_2), 0 } ,
-	{ 280, 5804, offsetof(XmlChar_t3219_StaticFields, ___nameBitmap_3), 0 } ,
-	{ 281, 946, offsetof(XmlChar_t3219_StaticFields, ___U3CU3Ef__switchU24map47_4), 51 } ,
-	{ 282, 99, offsetof(XmlCharacterData_t3217, ___data_6), 0 } ,
-	{ 283, 5089, offsetof(XmlConvert_t3221_StaticFields, ___datetimeFormats_0), 0 } ,
-	{ 284, 5089, offsetof(XmlConvert_t3221_StaticFields, ___defaultDateTimeFormats_1), 0 } ,
-	{ 285, 5089, offsetof(XmlConvert_t3221_StaticFields, ___roundtripDateTimeFormats_2), 0 } ,
-	{ 286, 5089, offsetof(XmlConvert_t3221_StaticFields, ___localDateTimeFormats_3), 0 } ,
-	{ 287, 5089, offsetof(XmlConvert_t3221_StaticFields, ___utcDateTimeFormats_4), 0 } ,
-	{ 288, 5089, offsetof(XmlConvert_t3221_StaticFields, ___unspecifiedDateTimeFormats_5), 0 } ,
-	{ 289, 5808, offsetof(XmlConvert_t3221_StaticFields, ____defaultStyle_6), 0 } ,
-	{ 290, 99, offsetof(XmlDeclaration_t3222, ___encoding_6), 0 } ,
-	{ 291, 99, offsetof(XmlDeclaration_t3222, ___standalone_7), 0 } ,
-	{ 292, 99, offsetof(XmlDeclaration_t3222, ___version_8), 0 } ,
-	{ 293, 946, offsetof(XmlDeclaration_t3222_StaticFields, ___U3CU3Ef__switchU24map4A_9), 52 } ,
-	{ 294, 5812, offsetof(XmlDocument_t678_StaticFields, ___optimal_create_types_5), 0 } ,
-	{ 295, 100, offsetof(XmlDocument_t678, ___optimal_create_element_6), 0 } ,
-	{ 296, 100, offsetof(XmlDocument_t678, ___optimal_create_attribute_7), 0 } ,
-	{ 187, 5724, offsetof(XmlDocument_t678, ___nameTable_8), 0 } ,
-	{ 189, 99, offsetof(XmlDocument_t678, ___baseURI_9), 0 } ,
-	{ 297, 5813, offsetof(XmlDocument_t678, ___implementation_10), 0 } ,
-	{ 298, 100, offsetof(XmlDocument_t678, ___preserveWhitespace_11), 0 } ,
-	{ 186, 5723, offsetof(XmlDocument_t678, ___resolver_12), 0 } ,
-	{ 299, 5712, offsetof(XmlDocument_t678, ___idTable_13), 0 } ,
-	{ 300, 5814, offsetof(XmlDocument_t678, ___nameCache_14), 0 } ,
-	{ 273, 5795, offsetof(XmlDocument_t678, ___lastLinkedChild_15), 0 } ,
-	{ 274, 5796, offsetof(XmlDocument_t678, ___schemaInfo_16), 0 } ,
-	{ 301, 100, offsetof(XmlDocument_t678, ___loadMode_17), 0 } ,
-	{ 302, 5815, offsetof(XmlDocument_t678, ___NodeChanged_18), 0 } ,
-	{ 303, 5815, offsetof(XmlDocument_t678, ___NodeChanging_19), 0 } ,
-	{ 304, 5815, offsetof(XmlDocument_t678, ___NodeInserted_20), 0 } ,
-	{ 305, 5815, offsetof(XmlDocument_t678, ___NodeInserting_21), 0 } ,
-	{ 306, 5815, offsetof(XmlDocument_t678, ___NodeRemoved_22), 0 } ,
-	{ 307, 5815, offsetof(XmlDocument_t678, ___NodeRemoving_23), 0 } ,
-	{ 273, 5795, offsetof(XmlDocumentFragment_t3226, ___lastLinkedChild_5), 0 } ,
-	{ 308, 5818, offsetof(XmlDocumentType_t3227, ___entities_6), 0 } ,
-	{ 309, 5818, offsetof(XmlDocumentType_t3227, ___notations_7), 0 } ,
-	{ 310, 5711, offsetof(XmlDocumentType_t3227, ___dtd_8), 0 } ,
-	{ 215, 5820, offsetof(XmlElement_t679, ___attributes_6), 0 } ,
-	{ 172, 5794, offsetof(XmlElement_t679, ___name_7), 0 } ,
-	{ 273, 5795, offsetof(XmlElement_t679, ___lastLinkedChild_8), 0 } ,
-	{ 311, 100, offsetof(XmlElement_t679, ___isNotEmpty_9), 0 } ,
-	{ 274, 5796, offsetof(XmlElement_t679, ___schemaInfo_10), 0 } ,
-	{ 172, 99, offsetof(XmlEntity_t3228, ___name_5), 0 } ,
-	{ 312, 99, offsetof(XmlEntity_t3228, ___NDATA_6), 0 } ,
-	{ 190, 99, offsetof(XmlEntity_t3228, ___publicId_7), 0 } ,
-	{ 191, 99, offsetof(XmlEntity_t3228, ___systemId_8), 0 } ,
-	{ 313, 99, offsetof(XmlEntity_t3228, ___baseUri_9), 0 } ,
-	{ 273, 5795, offsetof(XmlEntity_t3228, ___lastLinkedChild_10), 0 } ,
-	{ 314, 100, offsetof(XmlEntity_t3228, ___contentAlreadySet_11), 0 } ,
-	{ 315, 99, offsetof(XmlEntityReference_t3229, ___entityName_6), 0 } ,
-	{ 273, 5795, offsetof(XmlEntityReference_t3229, ___lastLinkedChild_7), 0 } ,
-	{ 195, 110, offsetof(XmlException_t3230, ___lineNumber_11), 0 } ,
-	{ 196, 110, offsetof(XmlException_t3230, ___linePosition_12), 0 } ,
-	{ 316, 99, offsetof(XmlException_t3230, ___sourceUri_13), 0 } ,
-	{ 317, 99, offsetof(XmlException_t3230, ___res_14), 0 } ,
-	{ 318, 618, offsetof(XmlException_t3230, ___messages_15), 0 } ,
-	{ 319, 5826, offsetof(XmlImplementation_t3223, ___InternalNameTable_0), 0 } ,
-	{ 320, 5829, offsetof(XmlStreamReader_t3233, ___input_12), 0 } ,
-	{ 321, 5830, offsetof(XmlStreamReader_t3233_StaticFields, ___invalidDataException_13), 0 } ,
-	{ 322, 869, offsetof(NonBlockingStreamReader_t3234, ___input_buffer_1), 0 } ,
-	{ 323, 3671, offsetof(NonBlockingStreamReader_t3234, ___decoded_buffer_2), 0 } ,
-	{ 324, 110, offsetof(NonBlockingStreamReader_t3234, ___decoded_count_3), 0 } ,
-	{ 325, 110, offsetof(NonBlockingStreamReader_t3234, ___pos_4), 0 } ,
-	{ 326, 110, offsetof(NonBlockingStreamReader_t3234, ___buffer_size_5), 0 } ,
-	{ 290, 5833, offsetof(NonBlockingStreamReader_t3234, ___encoding_6), 0 } ,
-	{ 327, 5834, offsetof(NonBlockingStreamReader_t3234, ___decoder_7), 0 } ,
-	{ 328, 3847, offsetof(NonBlockingStreamReader_t3234, ___base_stream_8), 0 } ,
-	{ 329, 100, offsetof(NonBlockingStreamReader_t3234, ___mayBlock_9), 0 } ,
-	{ 330, 949, offsetof(NonBlockingStreamReader_t3234, ___line_builder_10), 0 } ,
-	{ 331, 100, offsetof(NonBlockingStreamReader_t3234, ___foundCR_11), 0 } ,
-	{ 332, 5837, offsetof(XmlInputStream_t3232_StaticFields, ___StrictUTF8_1), 0 } ,
-	{ 333, 5833, offsetof(XmlInputStream_t3232, ___enc_2), 0 } ,
-	{ 334, 3847, offsetof(XmlInputStream_t3232, ___stream_3), 0 } ,
-	{ 335, 869, offsetof(XmlInputStream_t3232, ___buffer_4), 0 } ,
-	{ 336, 110, offsetof(XmlInputStream_t3232, ___bufLength_5), 0 } ,
-	{ 337, 110, offsetof(XmlInputStream_t3232, ___bufPos_6), 0 } ,
-	{ 338, 5830, offsetof(XmlInputStream_t3232_StaticFields, ___encodingException_7), 0 } ,
-	{ 339, 5795, offsetof(XmlLinkedNode_t3213, ___nextSibling_5), 0 } ,
-	{ 340, 101, offsetof(XmlNameEntry_t3212, ___Prefix_0), 0 } ,
-	{ 341, 101, offsetof(XmlNameEntry_t3212, ___LocalName_1), 0 } ,
-	{ 342, 101, offsetof(XmlNameEntry_t3212, ___NS_2), 0 } ,
-	{ 343, 102, offsetof(XmlNameEntry_t3212, ___Hash_3), 0 } ,
-	{ 344, 99, offsetof(XmlNameEntry_t3212, ___prefixed_name_cache_4), 0 } ,
-	{ 345, 5712, offsetof(XmlNameEntryCache_t3224, ___table_0), 0 } ,
-	{ 187, 5724, offsetof(XmlNameEntryCache_t3224, ___nameTable_1), 0 } ,
-	{ 346, 5794, offsetof(XmlNameEntryCache_t3224, ___dummy_2), 0 } ,
-	{ 347, 3671, offsetof(XmlNameEntryCache_t3224, ___cacheBuffer_3), 0 } ,
-	{ 348, 5843, offsetof(XmlNamedNodeMap_t3215_StaticFields, ___emptyEnumerator_0), 0 } ,
-	{ 349, 5844, offsetof(XmlNamedNodeMap_t3215, ___parent_1), 0 } ,
-	{ 350, 5722, offsetof(XmlNamedNodeMap_t3215, ___nodeList_2), 0 } ,
-	{ 351, 100, offsetof(XmlNamedNodeMap_t3215, ___readOnly_3), 0 } ,
-	{ 340, 101, offsetof(NsDecl_t3237, ___Prefix_0) + sizeof(Object_t), 0 } ,
-	{ 352, 101, offsetof(NsDecl_t3237, ___Uri_1) + sizeof(Object_t), 0 } ,
-	{ 353, 102, offsetof(NsScope_t3238, ___DeclCount_0) + sizeof(Object_t), 0 } ,
-	{ 354, 101, offsetof(NsScope_t3238, ___DefaultNamespace_1) + sizeof(Object_t), 0 } ,
-	{ 355, 5848, offsetof(XmlNamespaceManager_t3241, ___decls_0), 0 } ,
-	{ 356, 110, offsetof(XmlNamespaceManager_t3241, ___declPos_1), 0 } ,
-	{ 357, 5849, offsetof(XmlNamespaceManager_t3241, ___scopes_2), 0 } ,
-	{ 358, 110, offsetof(XmlNamespaceManager_t3241, ___scopePos_3), 0 } ,
-	{ 359, 99, offsetof(XmlNamespaceManager_t3241, ___defaultNamespace_4), 0 } ,
-	{ 256, 110, offsetof(XmlNamespaceManager_t3241, ___count_5), 0 } ,
-	{ 187, 5724, offsetof(XmlNamespaceManager_t3241, ___nameTable_6), 0 } ,
-	{ 360, 2214, offsetof(XmlNamespaceManager_t3241, ___internalAtomizedNames_7), 0 } ,
-	{ 361, 946, offsetof(XmlNamespaceManager_t3241_StaticFields, ___U3CU3Ef__switchU24map28_8), 53 } ,
-	{ 348, 5851, offsetof(EmptyNodeList_t3242_StaticFields, ___emptyEnumerator_0), 0 } ,
-	{ 362, 5855, offsetof(XmlNode_t718_StaticFields, ___emptyList_0), 0 } ,
-	{ 276, 5799, offsetof(XmlNode_t718, ___ownerDocument_1), 0 } ,
-	{ 363, 5844, offsetof(XmlNode_t718, ___parentNode_2), 0 } ,
-	{ 364, 5856, offsetof(XmlNode_t718, ___childNodes_3), 0 } ,
-	{ 365, 946, offsetof(XmlNode_t718_StaticFields, ___U3CU3Ef__switchU24map44_4), 55 } ,
-	{ 0, 90, offsetof(XmlNodeChangedAction_t3245, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 366, 5858, 0, 0 } ,
-	{ 367, 5858, 0, 0 } ,
-	{ 368, 5858, 0, 0 } ,
-	{ 369, 5844, offsetof(XmlNodeChangedEventArgs_t3246, ____oldParent_1), 0 } ,
-	{ 370, 5844, offsetof(XmlNodeChangedEventArgs_t3246, ____newParent_2), 0 } ,
-	{ 371, 5861, offsetof(XmlNodeChangedEventArgs_t3246, ____action_3), 0 } ,
-	{ 372, 5844, offsetof(XmlNodeChangedEventArgs_t3246, ____node_4), 0 } ,
-	{ 373, 99, offsetof(XmlNodeChangedEventArgs_t3246, ____oldValue_5), 0 } ,
-	{ 374, 99, offsetof(XmlNodeChangedEventArgs_t3246, ____newValue_6), 0 } ,
-	{ 349, 5864, offsetof(Enumerator_t3248, ___parent_0), 0 } ,
-	{ 375, 5795, offsetof(Enumerator_t3248, ___currentChild_1), 0 } ,
-	{ 376, 100, offsetof(Enumerator_t3248, ___passedLastNode_2), 0 } ,
-	{ 349, 5864, offsetof(XmlNodeListChildren_t3244, ___parent_0), 0 } ,
-	{ 0, 90, offsetof(XmlNodeType_t3249, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 75, 5867, 0, 0 } ,
-	{ 270, 5867, 0, 0 } ,
-	{ 271, 5867, 0, 0 } ,
-	{ 377, 5867, 0, 0 } ,
-	{ 378, 5867, 0, 0 } ,
-	{ 379, 5867, 0, 0 } ,
-	{ 380, 5867, 0, 0 } ,
-	{ 381, 5867, 0, 0 } ,
-	{ 382, 5867, 0, 0 } ,
-	{ 175, 5867, 0, 0 } ,
-	{ 383, 5867, 0, 0 } ,
-	{ 384, 5867, 0, 0 } ,
-	{ 385, 5867, 0, 0 } ,
-	{ 386, 5867, 0, 0 } ,
-	{ 387, 5867, 0, 0 } ,
-	{ 388, 5867, 0, 0 } ,
-	{ 389, 5867, 0, 0 } ,
-	{ 390, 5867, 0, 0 } ,
-	{ 228, 99, offsetof(XmlNotation_t3250, ___localName_5), 0 } ,
-	{ 190, 99, offsetof(XmlNotation_t3250, ___publicId_6), 0 } ,
-	{ 191, 99, offsetof(XmlNotation_t3250, ___systemId_7), 0 } ,
-	{ 229, 99, offsetof(XmlNotation_t3250, ___prefix_8), 0 } ,
-	{ 391, 101, offsetof(ContextItem_t3251, ___BaseURI_0), 0 } ,
-	{ 392, 101, offsetof(ContextItem_t3251, ___XmlLang_1), 0 } ,
-	{ 393, 5870, offsetof(ContextItem_t3251, ___XmlSpace_2), 0 } ,
-	{ 189, 99, offsetof(XmlParserContext_t3252, ___baseURI_0), 0 } ,
-	{ 394, 99, offsetof(XmlParserContext_t3252, ___docTypeName_1), 0 } ,
-	{ 290, 5833, offsetof(XmlParserContext_t3252, ___encoding_2), 0 } ,
-	{ 395, 99, offsetof(XmlParserContext_t3252, ___internalSubset_3), 0 } ,
-	{ 396, 5872, offsetof(XmlParserContext_t3252, ___namespaceManager_4), 0 } ,
-	{ 187, 5724, offsetof(XmlParserContext_t3252, ___nameTable_5), 0 } ,
-	{ 397, 99, offsetof(XmlParserContext_t3252, ___publicID_6), 0 } ,
-	{ 398, 99, offsetof(XmlParserContext_t3252, ___systemID_7), 0 } ,
-	{ 399, 99, offsetof(XmlParserContext_t3252, ___xmlLang_8), 0 } ,
-	{ 400, 5873, offsetof(XmlParserContext_t3252, ___xmlSpace_9), 0 } ,
-	{ 401, 5722, offsetof(XmlParserContext_t3252, ___contextItems_10), 0 } ,
-	{ 402, 110, offsetof(XmlParserContext_t3252, ___contextItemCount_11), 0 } ,
-	{ 310, 5711, offsetof(XmlParserContext_t3252, ___dtd_12), 0 } ,
-	{ 391, 68, offsetof(XmlParserInputSource_t3253, ___BaseURI_0), 0 } ,
-	{ 403, 5875, offsetof(XmlParserInputSource_t3253, ___reader_1), 0 } ,
-	{ 404, 102, offsetof(XmlParserInputSource_t3253, ___state_2), 0 } ,
-	{ 405, 104, offsetof(XmlParserInputSource_t3253, ___isPE_3), 0 } ,
-	{ 406, 110, offsetof(XmlParserInputSource_t3253, ___line_4), 0 } ,
-	{ 407, 110, offsetof(XmlParserInputSource_t3253, ___column_5), 0 } ,
-	{ 408, 5766, offsetof(XmlParserInput_t3201, ___sourceStack_0), 0 } ,
-	{ 409, 5877, offsetof(XmlParserInput_t3201, ___source_1), 0 } ,
-	{ 410, 100, offsetof(XmlParserInput_t3201, ___has_peek_2), 0 } ,
-	{ 411, 110, offsetof(XmlParserInput_t3201, ___peek_char_3), 0 } ,
-	{ 412, 100, offsetof(XmlParserInput_t3201, ___allowTextDecl_4), 0 } ,
-	{ 413, 99, offsetof(XmlProcessingInstruction_t3254, ___target_6), 0 } ,
-	{ 282, 99, offsetof(XmlProcessingInstruction_t3254, ___data_7), 0 } ,
-	{ 68, 5880, offsetof(XmlQualifiedName_t3162_StaticFields, ___Empty_0), 0 } ,
-	{ 172, 71, offsetof(XmlQualifiedName_t3162, ___name_1), 0 } ,
-	{ 414, 71, offsetof(XmlQualifiedName_t3162, ___ns_2), 0 } ,
-	{ 253, 2392, offsetof(XmlQualifiedName_t3162, ___hash_3), 0 } ,
-	{ 415, 5884, offsetof(XmlReader_t3257, ___binary_0), 0 } ,
-	{ 416, 5885, offsetof(XmlReader_t3257, ___settings_1), 0 } ,
-	{ 0, 90, offsetof(CommandState_t3258, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 75, 5887, 0, 0 } ,
-	{ 417, 5887, 0, 0 } ,
-	{ 418, 5887, 0, 0 } ,
-	{ 419, 5887, 0, 0 } ,
-	{ 420, 5887, 0, 0 } ,
-	{ 403, 5891, offsetof(XmlReaderBinarySupport_t3255, ___reader_0), 0 } ,
-	{ 421, 110, offsetof(XmlReaderBinarySupport_t3255, ___base64CacheStartsAt_1), 0 } ,
-	{ 404, 5892, offsetof(XmlReaderBinarySupport_t3255, ___state_2), 0 } ,
-	{ 422, 100, offsetof(XmlReaderBinarySupport_t3255, ___hasCache_3), 0 } ,
-	{ 423, 100, offsetof(XmlReaderBinarySupport_t3255, ___dontReset_4), 0 } ,
-	{ 424, 100, offsetof(XmlReaderSettings_t3256, ___checkCharacters_0), 0 } ,
-	{ 425, 5894, offsetof(XmlReaderSettings_t3256, ___conformance_1), 0 } ,
-	{ 0, 90, offsetof(XmlSpace_t3261, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 75, 5898, 0, 0 } ,
-	{ 259, 5898, 0, 0 } ,
-	{ 1, 5898, 0, 0 } ,
-	{ 426, 99, offsetof(XmlTokenInfo_t3264, ___valueCache_0), 0 } ,
-	{ 427, 5901, offsetof(XmlTokenInfo_t3264, ___Reader_1), 0 } ,
-	{ 428, 101, offsetof(XmlTokenInfo_t3264, ___Name_2), 0 } ,
-	{ 341, 101, offsetof(XmlTokenInfo_t3264, ___LocalName_3), 0 } ,
-	{ 340, 101, offsetof(XmlTokenInfo_t3264, ___Prefix_4), 0 } ,
-	{ 429, 101, offsetof(XmlTokenInfo_t3264, ___NamespaceURI_5), 0 } ,
-	{ 430, 104, offsetof(XmlTokenInfo_t3264, ___IsEmptyElement_6), 0 } ,
-	{ 431, 5902, offsetof(XmlTokenInfo_t3264, ___QuoteChar_7), 0 } ,
-	{ 432, 102, offsetof(XmlTokenInfo_t3264, ___LineNumber_8), 0 } ,
-	{ 433, 102, offsetof(XmlTokenInfo_t3264, ___LinePosition_9), 0 } ,
-	{ 434, 102, offsetof(XmlTokenInfo_t3264, ___ValueBufferStart_10), 0 } ,
-	{ 435, 102, offsetof(XmlTokenInfo_t3264, ___ValueBufferEnd_11), 0 } ,
-	{ 436, 5903, offsetof(XmlTokenInfo_t3264, ___NodeType_12), 0 } ,
-	{ 437, 102, offsetof(XmlAttributeTokenInfo_t3265, ___ValueTokenStartIndex_13), 0 } ,
-	{ 438, 102, offsetof(XmlAttributeTokenInfo_t3265, ___ValueTokenEndIndex_14), 0 } ,
-	{ 426, 99, offsetof(XmlAttributeTokenInfo_t3265, ___valueCache_15), 0 } ,
-	{ 439, 949, offsetof(XmlAttributeTokenInfo_t3265, ___tmpBuilder_16), 0 } ,
-	{ 428, 68, offsetof(TagName_t3266, ___Name_0) + sizeof(Object_t), 0 } ,
-	{ 341, 68, offsetof(TagName_t3266, ___LocalName_1) + sizeof(Object_t), 0 } ,
-	{ 340, 68, offsetof(TagName_t3266, ___Prefix_2) + sizeof(Object_t), 0 } ,
-	{ 0, 90, offsetof(DtdInputState_t3267, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 440, 5907, 0, 0 } ,
-	{ 441, 5907, 0, 0 } ,
-	{ 442, 5907, 0, 0 } ,
-	{ 443, 5907, 0, 0 } ,
-	{ 444, 5907, 0, 0 } ,
-	{ 445, 5907, 0, 0 } ,
-	{ 382, 5907, 0, 0 } ,
-	{ 446, 5907, 0, 0 } ,
-	{ 447, 5907, 0, 0 } ,
-	{ 448, 5766, offsetof(DtdInputStateStack_t3268, ___intern_0), 0 } ,
-	{ 449, 5910, offsetof(XmlTextReader_t3263, ___cursorToken_2), 0 } ,
-	{ 450, 5910, offsetof(XmlTextReader_t3263, ___currentToken_3), 0 } ,
-	{ 451, 5911, offsetof(XmlTextReader_t3263, ___currentAttributeToken_4), 0 } ,
-	{ 452, 5910, offsetof(XmlTextReader_t3263, ___currentAttributeValueToken_5), 0 } ,
-	{ 453, 5912, offsetof(XmlTextReader_t3263, ___attributeTokens_6), 0 } ,
-	{ 454, 5913, offsetof(XmlTextReader_t3263, ___attributeValueTokens_7), 0 } ,
-	{ 455, 110, offsetof(XmlTextReader_t3263, ___currentAttribute_8), 0 } ,
-	{ 456, 110, offsetof(XmlTextReader_t3263, ___currentAttributeValue_9), 0 } ,
-	{ 457, 110, offsetof(XmlTextReader_t3263, ___attributeCount_10), 0 } ,
-	{ 458, 5914, offsetof(XmlTextReader_t3263, ___parserContext_11), 0 } ,
-	{ 187, 5724, offsetof(XmlTextReader_t3263, ___nameTable_12), 0 } ,
-	{ 459, 5872, offsetof(XmlTextReader_t3263, ___nsmgr_13), 0 } ,
-	{ 460, 5915, offsetof(XmlTextReader_t3263, ___readState_14), 0 } ,
-	{ 461, 100, offsetof(XmlTextReader_t3263, ___disallowReset_15), 0 } ,
-	{ 462, 110, offsetof(XmlTextReader_t3263, ___depth_16), 0 } ,
-	{ 463, 110, offsetof(XmlTextReader_t3263, ___elementDepth_17), 0 } ,
-	{ 464, 100, offsetof(XmlTextReader_t3263, ___depthUp_18), 0 } ,
-	{ 465, 100, offsetof(XmlTextReader_t3263, ___popScope_19), 0 } ,
-	{ 466, 5916, offsetof(XmlTextReader_t3263, ___elementNames_20), 0 } ,
-	{ 467, 110, offsetof(XmlTextReader_t3263, ___elementNameStackPos_21), 0 } ,
-	{ 468, 100, offsetof(XmlTextReader_t3263, ___allowMultipleRoot_22), 0 } ,
-	{ 194, 100, offsetof(XmlTextReader_t3263, ___isStandalone_23), 0 } ,
-	{ 469, 100, offsetof(XmlTextReader_t3263, ___returnEntityReference_24), 0 } ,
-	{ 470, 99, offsetof(XmlTextReader_t3263, ___entityReferenceName_25), 0 } ,
-	{ 241, 949, offsetof(XmlTextReader_t3263, ___valueBuffer_26), 0 } ,
-	{ 403, 5917, offsetof(XmlTextReader_t3263, ___reader_27), 0 } ,
-	{ 471, 3671, offsetof(XmlTextReader_t3263, ___peekChars_28), 0 } ,
-	{ 472, 110, offsetof(XmlTextReader_t3263, ___peekCharsIndex_29), 0 } ,
-	{ 473, 110, offsetof(XmlTextReader_t3263, ___peekCharsLength_30), 0 } ,
-	{ 474, 110, offsetof(XmlTextReader_t3263, ___curNodePeekIndex_31), 0 } ,
-	{ 475, 100, offsetof(XmlTextReader_t3263, ___preserveCurrentTag_32), 0 } ,
-	{ 406, 110, offsetof(XmlTextReader_t3263, ___line_33), 0 } ,
-	{ 407, 110, offsetof(XmlTextReader_t3263, ___column_34), 0 } ,
-	{ 242, 110, offsetof(XmlTextReader_t3263, ___currentLinkedNodeLineNumber_35), 0 } ,
-	{ 243, 110, offsetof(XmlTextReader_t3263, ___currentLinkedNodeLinePosition_36), 0 } ,
-	{ 476, 100, offsetof(XmlTextReader_t3263, ___useProceedingLineInfo_37), 0 } ,
-	{ 477, 5918, offsetof(XmlTextReader_t3263, ___startNodeType_38), 0 } ,
-	{ 478, 5918, offsetof(XmlTextReader_t3263, ___currentState_39), 0 } ,
-	{ 479, 110, offsetof(XmlTextReader_t3263, ___nestLevel_40), 0 } ,
-	{ 480, 100, offsetof(XmlTextReader_t3263, ___readCharsInProgress_41), 0 } ,
-	{ 481, 5919, offsetof(XmlTextReader_t3263, ___binaryCharGetter_42), 0 } ,
-	{ 96, 100, offsetof(XmlTextReader_t3263, ___namespaces_43), 0 } ,
-	{ 482, 5920, offsetof(XmlTextReader_t3263, ___whitespaceHandling_44), 0 } ,
-	{ 186, 5723, offsetof(XmlTextReader_t3263, ___resolver_45), 0 } ,
-	{ 245, 100, offsetof(XmlTextReader_t3263, ___normalization_46), 0 } ,
-	{ 424, 100, offsetof(XmlTextReader_t3263, ___checkCharacters_47), 0 } ,
-	{ 483, 100, offsetof(XmlTextReader_t3263, ___prohibitDtd_48), 0 } ,
-	{ 484, 100, offsetof(XmlTextReader_t3263, ___closeInput_49), 0 } ,
-	{ 485, 5921, offsetof(XmlTextReader_t3263, ___entityHandling_50), 0 } ,
-	{ 486, 5922, offsetof(XmlTextReader_t3263, ___whitespacePool_51), 0 } ,
-	{ 487, 3671, offsetof(XmlTextReader_t3263, ___whitespaceCache_52), 0 } ,
-	{ 488, 5923, offsetof(XmlTextReader_t3263, ___stateStack_53), 0 } ,
-	{ 489, 946, offsetof(XmlTextReader_t3263_StaticFields, ___U3CU3Ef__switchU24map51_54), 58 } ,
-	{ 490, 946, offsetof(XmlTextReader_t3263_StaticFields, ___U3CU3Ef__switchU24map52_55), 59 } ,
-	{ 491, 5925, offsetof(XmlTextReader_t3272, ___entity_2), 0 } ,
-	{ 409, 5926, offsetof(XmlTextReader_t3272, ___source_3), 0 } ,
-	{ 492, 100, offsetof(XmlTextReader_t3272, ___entityInsideAttribute_4), 0 } ,
-	{ 493, 100, offsetof(XmlTextReader_t3272, ___insideAttribute_5), 0 } ,
-	{ 494, 5927, offsetof(XmlTextReader_t3272, ___entityNameStack_6), 0 } ,
-	{ 340, 101, offsetof(XmlNodeInfo_t3274, ___Prefix_0), 0 } ,
-	{ 341, 101, offsetof(XmlNodeInfo_t3274, ___LocalName_1), 0 } ,
-	{ 342, 101, offsetof(XmlNodeInfo_t3274, ___NS_2), 0 } ,
-	{ 495, 104, offsetof(XmlNodeInfo_t3274, ___HasSimple_3), 0 } ,
-	{ 496, 104, offsetof(XmlNodeInfo_t3274, ___HasElements_4), 0 } ,
-	{ 392, 101, offsetof(XmlNodeInfo_t3274, ___XmlLang_5), 0 } ,
-	{ 393, 5870, offsetof(XmlNodeInfo_t3274, ___XmlSpace_6), 0 } ,
-	{ 497, 5930, offsetof(StringUtil_t3276_StaticFields, ___cul_0), 0 } ,
-	{ 498, 5931, offsetof(StringUtil_t3276_StaticFields, ___cmp_1), 0 } ,
-	{ 0, 90, offsetof(XmlDeclState_t3277, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 499, 5933, 0, 0 } ,
-	{ 500, 5933, 0, 0 } ,
-	{ 173, 5933, 0, 0 } ,
-	{ 501, 5933, 0, 0 } ,
-	{ 502, 5937, offsetof(XmlTextWriter_t3281_StaticFields, ___unmarked_utf8encoding_0), 0 } ,
-	{ 503, 5606, offsetof(XmlTextWriter_t3281_StaticFields, ___escaped_text_chars_1), 0 } ,
-	{ 504, 5606, offsetof(XmlTextWriter_t3281_StaticFields, ___escaped_attr_chars_2), 0 } ,
-	{ 328, 3847, offsetof(XmlTextWriter_t3281, ___base_stream_3), 0 } ,
-	{ 409, 5938, offsetof(XmlTextWriter_t3281, ___source_4), 0 } ,
-	{ 505, 5938, offsetof(XmlTextWriter_t3281, ___writer_5), 0 } ,
-	{ 506, 5939, offsetof(XmlTextWriter_t3281, ___preserver_6), 0 } ,
-	{ 507, 99, offsetof(XmlTextWriter_t3281, ___preserved_name_7), 0 } ,
-	{ 508, 100, offsetof(XmlTextWriter_t3281, ___is_preserved_xmlns_8), 0 } ,
-	{ 509, 100, offsetof(XmlTextWriter_t3281, ___allow_doc_fragment_9), 0 } ,
-	{ 510, 100, offsetof(XmlTextWriter_t3281, ___close_output_stream_10), 0 } ,
-	{ 511, 100, offsetof(XmlTextWriter_t3281, ___ignore_encoding_11), 0 } ,
-	{ 96, 100, offsetof(XmlTextWriter_t3281, ___namespaces_12), 0 } ,
-	{ 512, 5940, offsetof(XmlTextWriter_t3281, ___xmldecl_state_13), 0 } ,
-	{ 513, 100, offsetof(XmlTextWriter_t3281, ___check_character_validity_14), 0 } ,
-	{ 514, 5941, offsetof(XmlTextWriter_t3281, ___newline_handling_15), 0 } ,
-	{ 515, 100, offsetof(XmlTextWriter_t3281, ___is_document_entity_16), 0 } ,
-	{ 404, 5942, offsetof(XmlTextWriter_t3281, ___state_17), 0 } ,
-	{ 516, 5918, offsetof(XmlTextWriter_t3281, ___node_state_18), 0 } ,
-	{ 517, 5872, offsetof(XmlTextWriter_t3281, ___nsmanager_19), 0 } ,
-	{ 518, 110, offsetof(XmlTextWriter_t3281, ___open_count_20), 0 } ,
-	{ 519, 5943, offsetof(XmlTextWriter_t3281, ___elements_21), 0 } ,
-	{ 520, 5766, offsetof(XmlTextWriter_t3281, ___new_local_namespaces_22), 0 } ,
-	{ 521, 5722, offsetof(XmlTextWriter_t3281, ___explicit_nsdecls_23), 0 } ,
-	{ 522, 5944, offsetof(XmlTextWriter_t3281, ___namespace_handling_24), 0 } ,
-	{ 523, 100, offsetof(XmlTextWriter_t3281, ___indent_25), 0 } ,
-	{ 524, 110, offsetof(XmlTextWriter_t3281, ___indent_count_26), 0 } ,
-	{ 525, 2228, offsetof(XmlTextWriter_t3281, ___indent_char_27), 0 } ,
-	{ 526, 99, offsetof(XmlTextWriter_t3281, ___indent_string_28), 0 } ,
-	{ 527, 99, offsetof(XmlTextWriter_t3281, ___newline_29), 0 } ,
-	{ 528, 100, offsetof(XmlTextWriter_t3281, ___indent_attributes_30), 0 } ,
-	{ 529, 2228, offsetof(XmlTextWriter_t3281, ___quote_char_31), 0 } ,
-	{ 530, 100, offsetof(XmlTextWriter_t3281, ___v2_32), 0 } ,
-	{ 531, 946, offsetof(XmlTextWriter_t3281_StaticFields, ___U3CU3Ef__switchU24map53_33), 62 } ,
-	{ 532, 946, offsetof(XmlTextWriter_t3281_StaticFields, ___U3CU3Ef__switchU24map54_34), 63 } ,
-	{ 0, 90, offsetof(XmlTokenizedType_t3283, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 378, 5947, 0, 0 } ,
-	{ 533, 5947, 0, 0 } ,
-	{ 534, 5947, 0, 0 } ,
-	{ 535, 5947, 0, 0 } ,
-	{ 536, 5947, 0, 0 } ,
-	{ 537, 5947, 0, 0 } ,
-	{ 538, 5947, 0, 0 } ,
-	{ 539, 5947, 0, 0 } ,
-	{ 540, 5947, 0, 0 } ,
-	{ 541, 5947, 0, 0 } ,
-	{ 542, 5947, 0, 0 } ,
-	{ 543, 5947, 0, 0 } ,
-	{ 75, 5947, 0, 0 } ,
-	{ 544, 5949, offsetof(XmlUrlResolver_t3285, ___credential_0), 0 } ,
-	{ 545, 5963, offsetof(U3CPrivateImplementationDetailsU3E_t3291_StaticFields, ___U24U24fieldU2D23_0), 0 } ,
-	{ 546, 5963, offsetof(U3CPrivateImplementationDetailsU3E_t3291_StaticFields, ___U24U24fieldU2D26_1), 0 } ,
-	{ 547, 5964, offsetof(U3CPrivateImplementationDetailsU3E_t3291_StaticFields, ___U24U24fieldU2D27_2), 0 } ,
-	{ 548, 5964, offsetof(U3CPrivateImplementationDetailsU3E_t3291_StaticFields, ___U24U24fieldU2D28_3), 0 } ,
-	{ 549, 5965, offsetof(U3CPrivateImplementationDetailsU3E_t3291_StaticFields, ___U24U24fieldU2D29_4), 0 } ,
-	{ 550, 5966, offsetof(U3CPrivateImplementationDetailsU3E_t3291_StaticFields, ___U24U24fieldU2D43_5), 0 } ,
-	{ 551, 5966, offsetof(U3CPrivateImplementationDetailsU3E_t3291_StaticFields, ___U24U24fieldU2D44_6), 0 } ,
+	{ 0, 90, offsetof(XsdWhitespaceFacet_t3114, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1, 5580, 0, 0 } ,
+	{ 2, 5580, 0, 0 } ,
+	{ 3, 5580, 0, 0 } ,
+	{ 4, 5584, offsetof(XsdAnySimpleType_t3115_StaticFields, ___instance_55), 0 } ,
+	{ 5, 2262, offsetof(XsdAnySimpleType_t3115_StaticFields, ___whitespaceArray_56), 0 } ,
+	{ 6, 5585, offsetof(XsdAnySimpleType_t3115_StaticFields, ___booleanAllowedFacets_57), 0 } ,
+	{ 7, 5585, offsetof(XsdAnySimpleType_t3115_StaticFields, ___decimalAllowedFacets_58), 0 } ,
+	{ 8, 5585, offsetof(XsdAnySimpleType_t3115_StaticFields, ___durationAllowedFacets_59), 0 } ,
+	{ 9, 5585, offsetof(XsdAnySimpleType_t3115_StaticFields, ___stringAllowedFacets_60), 0 } ,
+	{ 10, 1104, offsetof(XsdBase64Binary_t3149_StaticFields, ___ALPHABET_61), 0 } ,
+	{ 11, 4857, offsetof(XsdBase64Binary_t3149_StaticFields, ___decodeTable_62), 0 } ,
+	{ 12, 3806, offsetof(XsdTime_t3159_StaticFields, ___timeFormats_61), 0 } ,
+	{ 13, 5643, offsetof(XmlSchemaDatatype_t3116, ___WhitespaceValue_0), 0 } ,
+	{ 14, 5644, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___wsChars_1), 0 } ,
+	{ 15, 953, offsetof(XmlSchemaDatatype_t3116, ___sb_2), 0 } ,
+	{ 16, 5645, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeAnySimpleType_3), 0 } ,
+	{ 17, 5646, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeString_4), 0 } ,
+	{ 18, 5647, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeNormalizedString_5), 0 } ,
+	{ 19, 5648, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeToken_6), 0 } ,
+	{ 20, 5649, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeLanguage_7), 0 } ,
+	{ 21, 5650, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeNMToken_8), 0 } ,
+	{ 22, 5651, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeNMTokens_9), 0 } ,
+	{ 23, 5652, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeName_10), 0 } ,
+	{ 24, 5653, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeNCName_11), 0 } ,
+	{ 25, 5654, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeID_12), 0 } ,
+	{ 26, 5655, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeIDRef_13), 0 } ,
+	{ 27, 5656, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeIDRefs_14), 0 } ,
+	{ 28, 5657, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeEntity_15), 0 } ,
+	{ 29, 5658, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeEntities_16), 0 } ,
+	{ 30, 5659, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeNotation_17), 0 } ,
+	{ 31, 5660, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeDecimal_18), 0 } ,
+	{ 32, 5661, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeInteger_19), 0 } ,
+	{ 33, 5662, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeLong_20), 0 } ,
+	{ 34, 5663, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeInt_21), 0 } ,
+	{ 35, 5664, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeShort_22), 0 } ,
+	{ 36, 5665, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeByte_23), 0 } ,
+	{ 37, 5666, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeNonNegativeInteger_24), 0 } ,
+	{ 38, 5667, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypePositiveInteger_25), 0 } ,
+	{ 39, 5668, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeUnsignedLong_26), 0 } ,
+	{ 40, 5669, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeUnsignedInt_27), 0 } ,
+	{ 41, 5670, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeUnsignedShort_28), 0 } ,
+	{ 42, 5671, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeUnsignedByte_29), 0 } ,
+	{ 43, 5672, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeNonPositiveInteger_30), 0 } ,
+	{ 44, 5673, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeNegativeInteger_31), 0 } ,
+	{ 45, 5674, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeFloat_32), 0 } ,
+	{ 46, 5675, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeDouble_33), 0 } ,
+	{ 47, 5676, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeBase64Binary_34), 0 } ,
+	{ 48, 5677, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeBoolean_35), 0 } ,
+	{ 49, 5678, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeAnyURI_36), 0 } ,
+	{ 50, 5679, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeDuration_37), 0 } ,
+	{ 51, 5680, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeDateTime_38), 0 } ,
+	{ 52, 5681, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeDate_39), 0 } ,
+	{ 53, 5682, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeTime_40), 0 } ,
+	{ 54, 5683, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeHexBinary_41), 0 } ,
+	{ 55, 5684, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeQName_42), 0 } ,
+	{ 56, 5685, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeGYearMonth_43), 0 } ,
+	{ 57, 5686, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeGMonthDay_44), 0 } ,
+	{ 58, 5687, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeGYear_45), 0 } ,
+	{ 59, 5688, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeGMonth_46), 0 } ,
+	{ 60, 5689, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeGDay_47), 0 } ,
+	{ 61, 5690, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeAnyAtomicType_48), 0 } ,
+	{ 62, 5691, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeUntypedAtomic_49), 0 } ,
+	{ 63, 5692, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeDayTimeDuration_50), 0 } ,
+	{ 64, 5693, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___datatypeYearMonthDuration_51), 0 } ,
+	{ 65, 950, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___U3CU3Ef__switchU24map2A_52), 3 } ,
+	{ 66, 950, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___U3CU3Ef__switchU24map2B_53), 4 } ,
+	{ 67, 950, offsetof(XmlSchemaDatatype_t3116_StaticFields, ___U3CU3Ef__switchU24map2C_54), 5 } ,
+	{ 0, 90, offsetof(XmlSchemaDerivationMethod_t3168, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 68, 5695, 0, 7 } ,
+	{ 69, 5695, 0, 8 } ,
+	{ 70, 5695, 0, 9 } ,
+	{ 71, 5695, 0, 10 } ,
+	{ 72, 5695, 0, 11 } ,
+	{ 73, 5695, 0, 12 } ,
+	{ 74, 5695, 0, 13 } ,
+	{ 75, 5695, 0, 14 } ,
+	{ 0, 90, offsetof(Facet_t3171, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 75, 5700, 0, 0 } ,
+	{ 76, 5700, 0, 0 } ,
+	{ 77, 5700, 0, 0 } ,
+	{ 78, 5700, 0, 0 } ,
+	{ 79, 5700, 0, 0 } ,
+	{ 80, 5700, 0, 0 } ,
+	{ 81, 5700, 0, 0 } ,
+	{ 82, 5700, 0, 0 } ,
+	{ 83, 5700, 0, 0 } ,
+	{ 84, 5700, 0, 0 } ,
+	{ 85, 5700, 0, 0 } ,
+	{ 86, 5700, 0, 0 } ,
+	{ 87, 5700, 0, 0 } ,
+	{ 88, 5585, offsetof(XmlSchemaFacet_t3172_StaticFields, ___AllFacets_3), 0 } ,
+	{ 89, 100, offsetof(XmlSchemaInfo_t3175, ___isDefault_0), 0 } ,
+	{ 90, 100, offsetof(XmlSchemaInfo_t3175, ___isNil_1), 0 } ,
+	{ 91, 5704, offsetof(XmlSchemaInfo_t3175, ___memberType_2), 0 } ,
+	{ 92, 5705, offsetof(XmlSchemaInfo_t3175, ___attr_3), 0 } ,
+	{ 93, 5706, offsetof(XmlSchemaInfo_t3175, ___elem_4), 0 } ,
+	{ 94, 5707, offsetof(XmlSchemaInfo_t3175, ___type_5), 0 } ,
+	{ 95, 5708, offsetof(XmlSchemaInfo_t3175, ___validity_6), 0 } ,
+	{ 96, 5710, offsetof(XmlSchemaObject_t3166, ___namespaces_0), 0 } ,
+	{ 97, 5711, offsetof(XmlSchemaObject_t3166, ___unhandledAttributeList_1), 0 } ,
+	{ 98, 5712, offsetof(XmlSchemaObject_t3166, ___CompilationId_2), 0 } ,
+	{ 99, 5716, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___schemaLocationType_9), 0 } ,
+	{ 100, 5717, offsetof(XmlSchemaSimpleType_t3173, ___content_10), 0 } ,
+	{ 101, 2253, offsetof(XmlSchemaSimpleType_t3173, ___islocal_11), 0 } ,
+	{ 102, 5718, offsetof(XmlSchemaSimpleType_t3173, ___variety_12), 0 } ,
+	{ 103, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsAnySimpleType_13), 0 } ,
+	{ 104, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsString_14), 0 } ,
+	{ 105, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsBoolean_15), 0 } ,
+	{ 106, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsDecimal_16), 0 } ,
+	{ 107, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsFloat_17), 0 } ,
+	{ 108, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsDouble_18), 0 } ,
+	{ 109, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsDuration_19), 0 } ,
+	{ 110, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsDateTime_20), 0 } ,
+	{ 111, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsTime_21), 0 } ,
+	{ 112, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsDate_22), 0 } ,
+	{ 113, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsGYearMonth_23), 0 } ,
+	{ 114, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsGYear_24), 0 } ,
+	{ 115, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsGMonthDay_25), 0 } ,
+	{ 116, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsGDay_26), 0 } ,
+	{ 117, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsGMonth_27), 0 } ,
+	{ 118, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsHexBinary_28), 0 } ,
+	{ 119, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsBase64Binary_29), 0 } ,
+	{ 120, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsAnyUri_30), 0 } ,
+	{ 121, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsQName_31), 0 } ,
+	{ 122, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsNotation_32), 0 } ,
+	{ 123, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsNormalizedString_33), 0 } ,
+	{ 124, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsToken_34), 0 } ,
+	{ 125, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsLanguage_35), 0 } ,
+	{ 126, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsNMToken_36), 0 } ,
+	{ 127, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsNMTokens_37), 0 } ,
+	{ 128, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsName_38), 0 } ,
+	{ 129, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsNCName_39), 0 } ,
+	{ 130, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsID_40), 0 } ,
+	{ 131, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsIDRef_41), 0 } ,
+	{ 132, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsIDRefs_42), 0 } ,
+	{ 133, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsEntity_43), 0 } ,
+	{ 134, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsEntities_44), 0 } ,
+	{ 135, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsInteger_45), 0 } ,
+	{ 136, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsNonPositiveInteger_46), 0 } ,
+	{ 137, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsNegativeInteger_47), 0 } ,
+	{ 138, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsLong_48), 0 } ,
+	{ 139, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsInt_49), 0 } ,
+	{ 140, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsShort_50), 0 } ,
+	{ 141, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsByte_51), 0 } ,
+	{ 142, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsNonNegativeInteger_52), 0 } ,
+	{ 143, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsUnsignedLong_53), 0 } ,
+	{ 144, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsUnsignedInt_54), 0 } ,
+	{ 145, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsUnsignedShort_55), 0 } ,
+	{ 146, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsUnsignedByte_56), 0 } ,
+	{ 147, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XsPositiveInteger_57), 0 } ,
+	{ 148, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XdtUntypedAtomic_58), 0 } ,
+	{ 149, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XdtAnyAtomicType_59), 0 } ,
+	{ 150, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XdtYearMonthDuration_60), 0 } ,
+	{ 151, 5719, offsetof(XmlSchemaSimpleType_t3173_StaticFields, ___XdtDayTimeDuration_61), 0 } ,
+	{ 152, 5704, offsetof(XmlSchemaSimpleTypeList_t3179, ___itemType_3), 0 } ,
+	{ 153, 5722, offsetof(XmlSchemaSimpleTypeList_t3179, ___itemTypeName_4), 0 } ,
+	{ 154, 5724, offsetof(XmlSchemaSimpleTypeRestriction_t3180_StaticFields, ___lengthStyle_3), 0 } ,
+	{ 155, 5725, offsetof(XmlSchemaSimpleTypeRestriction_t3180_StaticFields, ___listFacets_4), 0 } ,
+	{ 156, 5718, offsetof(XmlSchemaType_t3174, ___final_3), 0 } ,
+	{ 157, 5728, offsetof(XmlSchemaType_t3174, ___BaseXmlSchemaTypeInternal_4), 0 } ,
+	{ 158, 5729, offsetof(XmlSchemaType_t3174, ___DatatypeInternal_5), 0 } ,
+	{ 159, 5730, offsetof(XmlSchemaType_t3174, ___QNameInternal_6), 0 } ,
+	{ 160, 950, offsetof(XmlSchemaType_t3174_StaticFields, ___U3CU3Ef__switchU24map2E_7), 27 } ,
+	{ 161, 950, offsetof(XmlSchemaType_t3174_StaticFields, ___U3CU3Ef__switchU24map2F_8), 28 } ,
+	{ 162, 5732, offsetof(XmlSchemaUtil_t3182_StaticFields, ___FinalAllowed_0), 0 } ,
+	{ 163, 5732, offsetof(XmlSchemaUtil_t3182_StaticFields, ___ElementBlockAllowed_1), 0 } ,
+	{ 164, 5732, offsetof(XmlSchemaUtil_t3182_StaticFields, ___ComplexTypeBlockAllowed_2), 0 } ,
+	{ 165, 5733, offsetof(XmlSchemaUtil_t3182_StaticFields, ___StrictMsCompliant_3), 0 } ,
+	{ 0, 90, offsetof(XmlSchemaValidity_t3183, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 166, 5735, 0, 0 } ,
+	{ 167, 5735, 0, 0 } ,
+	{ 168, 5735, 0, 0 } ,
+	{ 169, 99, offsetof(XmlAttributeAttribute_t3184, ___attributeName_0), 0 } ,
+	{ 170, 99, offsetof(XmlElementAttribute_t3185, ___elementName_0), 0 } ,
+	{ 94, 5738, offsetof(XmlElementAttribute_t3185, ___type_1), 0 } ,
+	{ 171, 110, offsetof(XmlElementAttribute_t3185, ___order_2), 0 } ,
+	{ 172, 99, offsetof(XmlEnumAttribute_t3186, ___name_0), 0 } ,
+	{ 96, 5742, offsetof(XmlSerializerNamespaces_t3176, ___namespaces_0), 0 } ,
+	{ 0, 90, offsetof(ConformanceLevel_t3189, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 173, 5746, 0, 0 } ,
+	{ 174, 5746, 0, 0 } ,
+	{ 175, 5746, 0, 0 } ,
+	{ 176, 5749, offsetof(DTDAutomataFactory_t3191, ___root_0), 0 } ,
+	{ 177, 5750, offsetof(DTDAutomataFactory_t3191, ___choiceTable_1), 0 } ,
+	{ 178, 5750, offsetof(DTDAutomataFactory_t3191, ___sequenceTable_2), 0 } ,
+	{ 179, 5754, offsetof(DTDObjectModel_t3190, ___factory_0), 0 } ,
+	{ 180, 5755, offsetof(DTDObjectModel_t3190, ___elementDecls_1), 0 } ,
+	{ 181, 5756, offsetof(DTDObjectModel_t3190, ___attListDecls_2), 0 } ,
+	{ 182, 5757, offsetof(DTDObjectModel_t3190, ___peDecls_3), 0 } ,
+	{ 183, 5758, offsetof(DTDObjectModel_t3190, ___entityDecls_4), 0 } ,
+	{ 184, 5759, offsetof(DTDObjectModel_t3190, ___notationDecls_5), 0 } ,
+	{ 185, 5760, offsetof(DTDObjectModel_t3190, ___validationErrors_6), 0 } ,
+	{ 186, 5761, offsetof(DTDObjectModel_t3190, ___resolver_7), 0 } ,
+	{ 187, 5762, offsetof(DTDObjectModel_t3190, ___nameTable_8), 0 } ,
+	{ 188, 5750, offsetof(DTDObjectModel_t3190, ___externalResources_9), 0 } ,
+	{ 189, 99, offsetof(DTDObjectModel_t3190, ___baseURI_10), 0 } ,
+	{ 172, 99, offsetof(DTDObjectModel_t3190, ___name_11), 0 } ,
+	{ 190, 99, offsetof(DTDObjectModel_t3190, ___publicId_12), 0 } ,
+	{ 191, 99, offsetof(DTDObjectModel_t3190, ___systemId_13), 0 } ,
+	{ 192, 99, offsetof(DTDObjectModel_t3190, ___intSubset_14), 0 } ,
+	{ 193, 100, offsetof(DTDObjectModel_t3190, ___intSubsetHasPERef_15), 0 } ,
+	{ 194, 100, offsetof(DTDObjectModel_t3190, ___isStandalone_16), 0 } ,
+	{ 195, 110, offsetof(DTDObjectModel_t3190, ___lineNumber_17), 0 } ,
+	{ 196, 110, offsetof(DTDObjectModel_t3190, ___linePosition_18), 0 } ,
+	{ 197, 5764, offsetof(U3CU3Ec__Iterator3_t3201, ___U3CU24s_431U3E__0_0), 0 } ,
+	{ 198, 5765, offsetof(U3CU3Ec__Iterator3_t3201, ___U3CpU3E__1_1), 0 } ,
+	{ 199, 137, offsetof(U3CU3Ec__Iterator3_t3201, ___U24PC_2), 0 } ,
+	{ 200, 5766, offsetof(U3CU3Ec__Iterator3_t3201, ___U24current_3), 0 } ,
+	{ 201, 5767, offsetof(U3CU3Ec__Iterator3_t3201, ___U3CU3Ef__this_4), 0 } ,
+	{ 176, 5749, offsetof(DTDCollectionBase_t3205, ___root_5), 0 } ,
+	{ 176, 5749, offsetof(DTDContentModel_t3207, ___root_5), 0 } ,
+	{ 202, 99, offsetof(DTDContentModel_t3207, ___ownerElementName_6), 0 } ,
+	{ 170, 99, offsetof(DTDContentModel_t3207, ___elementName_7), 0 } ,
+	{ 203, 5782, offsetof(DTDContentModel_t3207, ___orderType_8), 0 } ,
+	{ 204, 5783, offsetof(DTDContentModel_t3207, ___childModels_9), 0 } ,
+	{ 205, 5784, offsetof(DTDContentModel_t3207, ___occurence_10), 0 } ,
+	{ 206, 5760, offsetof(DTDContentModelCollection_t3206, ___contentModel_0), 0 } ,
+	{ 176, 5749, offsetof(DTDNode_t3199, ___root_0), 0 } ,
+	{ 207, 100, offsetof(DTDNode_t3199, ___isInternalSubset_1), 0 } ,
+	{ 189, 99, offsetof(DTDNode_t3199, ___baseURI_2), 0 } ,
+	{ 195, 110, offsetof(DTDNode_t3199, ___lineNumber_3), 0 } ,
+	{ 196, 110, offsetof(DTDNode_t3199, ___linePosition_4), 0 } ,
+	{ 176, 5749, offsetof(DTDElementDeclaration_t3208, ___root_5), 0 } ,
+	{ 206, 5788, offsetof(DTDElementDeclaration_t3208, ___contentModel_6), 0 } ,
+	{ 172, 99, offsetof(DTDElementDeclaration_t3208, ___name_7), 0 } ,
+	{ 208, 100, offsetof(DTDElementDeclaration_t3208, ___isEmpty_8), 0 } ,
+	{ 209, 100, offsetof(DTDElementDeclaration_t3208, ___isAny_9), 0 } ,
+	{ 210, 100, offsetof(DTDElementDeclaration_t3208, ___isMixedContent_10), 0 } ,
+	{ 172, 99, offsetof(DTDAttributeDefinition_t3209, ___name_5), 0 } ,
+	{ 211, 5790, offsetof(DTDAttributeDefinition_t3209, ___datatype_6), 0 } ,
+	{ 212, 99, offsetof(DTDAttributeDefinition_t3209, ___unresolvedDefault_7), 0 } ,
+	{ 213, 99, offsetof(DTDAttributeDefinition_t3209, ___resolvedDefaultValue_8), 0 } ,
+	{ 172, 99, offsetof(DTDAttListDeclaration_t3210, ___name_5), 0 } ,
+	{ 214, 5750, offsetof(DTDAttListDeclaration_t3210, ___attributeOrders_6), 0 } ,
+	{ 215, 5760, offsetof(DTDAttListDeclaration_t3210, ___attributes_7), 0 } ,
+	{ 172, 99, offsetof(DTDEntityBase_t3211, ___name_5), 0 } ,
+	{ 190, 99, offsetof(DTDEntityBase_t3211, ___publicId_6), 0 } ,
+	{ 191, 99, offsetof(DTDEntityBase_t3211, ___systemId_7), 0 } ,
+	{ 216, 99, offsetof(DTDEntityBase_t3211, ___literalValue_8), 0 } ,
+	{ 217, 99, offsetof(DTDEntityBase_t3211, ___replacementText_9), 0 } ,
+	{ 218, 99, offsetof(DTDEntityBase_t3211, ___uriString_10), 0 } ,
+	{ 219, 3576, offsetof(DTDEntityBase_t3211, ___absUri_11), 0 } ,
+	{ 220, 100, offsetof(DTDEntityBase_t3211, ___isInvalid_12), 0 } ,
+	{ 221, 100, offsetof(DTDEntityBase_t3211, ___loadFailed_13), 0 } ,
+	{ 186, 5761, offsetof(DTDEntityBase_t3211, ___resolver_14), 0 } ,
+	{ 222, 99, offsetof(DTDEntityDeclaration_t3212, ___entityValue_15), 0 } ,
+	{ 223, 99, offsetof(DTDEntityDeclaration_t3212, ___notationName_16), 0 } ,
+	{ 224, 5760, offsetof(DTDEntityDeclaration_t3212, ___ReferencingEntities_17), 0 } ,
+	{ 225, 100, offsetof(DTDEntityDeclaration_t3212, ___scanned_18), 0 } ,
+	{ 226, 100, offsetof(DTDEntityDeclaration_t3212, ___recursed_19), 0 } ,
+	{ 227, 100, offsetof(DTDEntityDeclaration_t3212, ___hasExternalReference_20), 0 } ,
+	{ 172, 99, offsetof(DTDNotationDeclaration_t3213, ___name_5), 0 } ,
+	{ 228, 99, offsetof(DTDNotationDeclaration_t3213, ___localName_6), 0 } ,
+	{ 229, 99, offsetof(DTDNotationDeclaration_t3213, ___prefix_7), 0 } ,
+	{ 190, 99, offsetof(DTDNotationDeclaration_t3213, ___publicId_8), 0 } ,
+	{ 191, 99, offsetof(DTDNotationDeclaration_t3213, ___systemId_9), 0 } ,
+	{ 182, 5750, offsetof(DTDParameterEntityDeclarationCollection_t3194, ___peDecls_0), 0 } ,
+	{ 176, 5749, offsetof(DTDParameterEntityDeclarationCollection_t3194, ___root_1), 0 } ,
+	{ 0, 90, offsetof(DTDContentOrderType_t3215, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 75, 5799, 0, 0 } ,
+	{ 230, 5799, 0, 0 } ,
+	{ 231, 5799, 0, 0 } ,
+	{ 0, 90, offsetof(DTDOccurence_t3216, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 232, 5801, 0, 0 } ,
+	{ 233, 5801, 0, 0 } ,
+	{ 234, 5801, 0, 0 } ,
+	{ 235, 5801, 0, 0 } ,
+	{ 236, 5803, offsetof(DTDReader_t3218, ___currentInput_0), 0 } ,
+	{ 237, 5804, offsetof(DTDReader_t3218, ___parserInputStack_1), 0 } ,
+	{ 238, 3709, offsetof(DTDReader_t3218, ___nameBuffer_2), 0 } ,
+	{ 239, 110, offsetof(DTDReader_t3218, ___nameLength_3), 0 } ,
+	{ 240, 110, offsetof(DTDReader_t3218, ___nameCapacity_4), 0 } ,
+	{ 241, 953, offsetof(DTDReader_t3218, ___valueBuffer_5), 0 } ,
+	{ 242, 110, offsetof(DTDReader_t3218, ___currentLinkedNodeLineNumber_6), 0 } ,
+	{ 243, 110, offsetof(DTDReader_t3218, ___currentLinkedNodeLinePosition_7), 0 } ,
+	{ 244, 110, offsetof(DTDReader_t3218, ___dtdIncludeSect_8), 0 } ,
+	{ 245, 100, offsetof(DTDReader_t3218, ___normalization_9), 0 } ,
+	{ 246, 100, offsetof(DTDReader_t3218, ___processingInternalSubset_10), 0 } ,
+	{ 247, 99, offsetof(DTDReader_t3218, ___cachedPublicId_11), 0 } ,
+	{ 248, 99, offsetof(DTDReader_t3218, ___cachedSystemId_12), 0 } ,
+	{ 249, 5749, offsetof(DTDReader_t3218, ___DTD_13), 0 } ,
+	{ 0, 90, offsetof(EntityHandling_t3219, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 250, 5806, 0, 0 } ,
+	{ 251, 5806, 0, 0 } ,
+	{ 252, 101, offsetof(Entry_t3220, ___str_0), 0 } ,
+	{ 253, 102, offsetof(Entry_t3220, ___hash_1), 0 } ,
+	{ 254, 102, offsetof(Entry_t3220, ___len_2), 0 } ,
+	{ 255, 5813, offsetof(Entry_t3220, ___next_3), 0 } ,
+	{ 256, 110, offsetof(NameTable_t3222, ___count_0), 0 } ,
+	{ 257, 5815, offsetof(NameTable_t3222, ___buckets_1), 0 } ,
+	{ 258, 110, offsetof(NameTable_t3222, ___size_2), 0 } ,
+	{ 0, 90, offsetof(NamespaceHandling_t3223, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 259, 5817, 0, 0 } ,
+	{ 260, 5817, 0, 0 } ,
+	{ 0, 90, offsetof(NewLineHandling_t3224, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 2, 5820, 0, 0 } ,
+	{ 261, 5820, 0, 0 } ,
+	{ 75, 5820, 0, 0 } ,
+	{ 0, 90, offsetof(ReadState_t3225, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 262, 5823, 0, 0 } ,
+	{ 263, 5823, 0, 0 } ,
+	{ 264, 5823, 0, 0 } ,
+	{ 265, 5823, 0, 0 } ,
+	{ 266, 5823, 0, 0 } ,
+	{ 0, 90, offsetof(WhitespaceHandling_t3226, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 74, 5826, 0, 0 } ,
+	{ 267, 5826, 0, 0 } ,
+	{ 75, 5826, 0, 0 } ,
+	{ 0, 90, offsetof(WriteState_t3227, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 268, 5829, 0, 0 } ,
+	{ 269, 5829, 0, 0 } ,
+	{ 270, 5829, 0, 0 } ,
+	{ 271, 5829, 0, 0 } ,
+	{ 272, 5829, 0, 0 } ,
+	{ 266, 5829, 0, 0 } ,
+	{ 264, 5829, 0, 0 } ,
+	{ 172, 5832, offsetof(XmlAttribute_t735, ___name_5), 0 } ,
+	{ 89, 2253, offsetof(XmlAttribute_t735, ___isDefault_6), 0 } ,
+	{ 273, 5833, offsetof(XmlAttribute_t735, ___lastLinkedChild_7), 0 } ,
+	{ 274, 5834, offsetof(XmlAttribute_t735, ___schemaInfo_8), 0 } ,
+	{ 275, 5836, offsetof(XmlAttributeCollection_t737, ___ownerElement_4), 0 } ,
+	{ 276, 5837, offsetof(XmlAttributeCollection_t737, ___ownerDocument_5), 0 } ,
+	{ 277, 5840, offsetof(XmlChar_t3235_StaticFields, ___WhitespaceChars_0), 0 } ,
+	{ 278, 5841, offsetof(XmlChar_t3235_StaticFields, ___firstNamePages_1), 0 } ,
+	{ 279, 5841, offsetof(XmlChar_t3235_StaticFields, ___namePages_2), 0 } ,
+	{ 280, 5842, offsetof(XmlChar_t3235_StaticFields, ___nameBitmap_3), 0 } ,
+	{ 281, 950, offsetof(XmlChar_t3235_StaticFields, ___U3CU3Ef__switchU24map47_4), 51 } ,
+	{ 282, 99, offsetof(XmlCharacterData_t3233, ___data_6), 0 } ,
+	{ 283, 5127, offsetof(XmlConvert_t3237_StaticFields, ___datetimeFormats_0), 0 } ,
+	{ 284, 5127, offsetof(XmlConvert_t3237_StaticFields, ___defaultDateTimeFormats_1), 0 } ,
+	{ 285, 5127, offsetof(XmlConvert_t3237_StaticFields, ___roundtripDateTimeFormats_2), 0 } ,
+	{ 286, 5127, offsetof(XmlConvert_t3237_StaticFields, ___localDateTimeFormats_3), 0 } ,
+	{ 287, 5127, offsetof(XmlConvert_t3237_StaticFields, ___utcDateTimeFormats_4), 0 } ,
+	{ 288, 5127, offsetof(XmlConvert_t3237_StaticFields, ___unspecifiedDateTimeFormats_5), 0 } ,
+	{ 289, 5846, offsetof(XmlConvert_t3237_StaticFields, ____defaultStyle_6), 0 } ,
+	{ 290, 99, offsetof(XmlDeclaration_t3238, ___encoding_6), 0 } ,
+	{ 291, 99, offsetof(XmlDeclaration_t3238, ___standalone_7), 0 } ,
+	{ 292, 99, offsetof(XmlDeclaration_t3238, ___version_8), 0 } ,
+	{ 293, 950, offsetof(XmlDeclaration_t3238_StaticFields, ___U3CU3Ef__switchU24map4A_9), 52 } ,
+	{ 294, 5850, offsetof(XmlDocument_t691_StaticFields, ___optimal_create_types_5), 0 } ,
+	{ 295, 100, offsetof(XmlDocument_t691, ___optimal_create_element_6), 0 } ,
+	{ 296, 100, offsetof(XmlDocument_t691, ___optimal_create_attribute_7), 0 } ,
+	{ 187, 5762, offsetof(XmlDocument_t691, ___nameTable_8), 0 } ,
+	{ 189, 99, offsetof(XmlDocument_t691, ___baseURI_9), 0 } ,
+	{ 297, 5851, offsetof(XmlDocument_t691, ___implementation_10), 0 } ,
+	{ 298, 100, offsetof(XmlDocument_t691, ___preserveWhitespace_11), 0 } ,
+	{ 186, 5761, offsetof(XmlDocument_t691, ___resolver_12), 0 } ,
+	{ 299, 5750, offsetof(XmlDocument_t691, ___idTable_13), 0 } ,
+	{ 300, 5852, offsetof(XmlDocument_t691, ___nameCache_14), 0 } ,
+	{ 273, 5833, offsetof(XmlDocument_t691, ___lastLinkedChild_15), 0 } ,
+	{ 274, 5834, offsetof(XmlDocument_t691, ___schemaInfo_16), 0 } ,
+	{ 301, 100, offsetof(XmlDocument_t691, ___loadMode_17), 0 } ,
+	{ 302, 5853, offsetof(XmlDocument_t691, ___NodeChanged_18), 0 } ,
+	{ 303, 5853, offsetof(XmlDocument_t691, ___NodeChanging_19), 0 } ,
+	{ 304, 5853, offsetof(XmlDocument_t691, ___NodeInserted_20), 0 } ,
+	{ 305, 5853, offsetof(XmlDocument_t691, ___NodeInserting_21), 0 } ,
+	{ 306, 5853, offsetof(XmlDocument_t691, ___NodeRemoved_22), 0 } ,
+	{ 307, 5853, offsetof(XmlDocument_t691, ___NodeRemoving_23), 0 } ,
+	{ 273, 5833, offsetof(XmlDocumentFragment_t3242, ___lastLinkedChild_5), 0 } ,
+	{ 308, 5856, offsetof(XmlDocumentType_t3243, ___entities_6), 0 } ,
+	{ 309, 5856, offsetof(XmlDocumentType_t3243, ___notations_7), 0 } ,
+	{ 310, 5749, offsetof(XmlDocumentType_t3243, ___dtd_8), 0 } ,
+	{ 215, 5858, offsetof(XmlElement_t692, ___attributes_6), 0 } ,
+	{ 172, 5832, offsetof(XmlElement_t692, ___name_7), 0 } ,
+	{ 273, 5833, offsetof(XmlElement_t692, ___lastLinkedChild_8), 0 } ,
+	{ 311, 100, offsetof(XmlElement_t692, ___isNotEmpty_9), 0 } ,
+	{ 274, 5834, offsetof(XmlElement_t692, ___schemaInfo_10), 0 } ,
+	{ 172, 99, offsetof(XmlEntity_t3244, ___name_5), 0 } ,
+	{ 312, 99, offsetof(XmlEntity_t3244, ___NDATA_6), 0 } ,
+	{ 190, 99, offsetof(XmlEntity_t3244, ___publicId_7), 0 } ,
+	{ 191, 99, offsetof(XmlEntity_t3244, ___systemId_8), 0 } ,
+	{ 313, 99, offsetof(XmlEntity_t3244, ___baseUri_9), 0 } ,
+	{ 273, 5833, offsetof(XmlEntity_t3244, ___lastLinkedChild_10), 0 } ,
+	{ 314, 100, offsetof(XmlEntity_t3244, ___contentAlreadySet_11), 0 } ,
+	{ 315, 99, offsetof(XmlEntityReference_t3245, ___entityName_6), 0 } ,
+	{ 273, 5833, offsetof(XmlEntityReference_t3245, ___lastLinkedChild_7), 0 } ,
+	{ 195, 110, offsetof(XmlException_t3246, ___lineNumber_11), 0 } ,
+	{ 196, 110, offsetof(XmlException_t3246, ___linePosition_12), 0 } ,
+	{ 316, 99, offsetof(XmlException_t3246, ___sourceUri_13), 0 } ,
+	{ 317, 99, offsetof(XmlException_t3246, ___res_14), 0 } ,
+	{ 318, 622, offsetof(XmlException_t3246, ___messages_15), 0 } ,
+	{ 319, 5864, offsetof(XmlImplementation_t3239, ___InternalNameTable_0), 0 } ,
+	{ 320, 5867, offsetof(XmlStreamReader_t3249, ___input_12), 0 } ,
+	{ 321, 5868, offsetof(XmlStreamReader_t3249_StaticFields, ___invalidDataException_13), 0 } ,
+	{ 322, 873, offsetof(NonBlockingStreamReader_t3250, ___input_buffer_1), 0 } ,
+	{ 323, 3709, offsetof(NonBlockingStreamReader_t3250, ___decoded_buffer_2), 0 } ,
+	{ 324, 110, offsetof(NonBlockingStreamReader_t3250, ___decoded_count_3), 0 } ,
+	{ 325, 110, offsetof(NonBlockingStreamReader_t3250, ___pos_4), 0 } ,
+	{ 326, 110, offsetof(NonBlockingStreamReader_t3250, ___buffer_size_5), 0 } ,
+	{ 290, 5871, offsetof(NonBlockingStreamReader_t3250, ___encoding_6), 0 } ,
+	{ 327, 5872, offsetof(NonBlockingStreamReader_t3250, ___decoder_7), 0 } ,
+	{ 328, 3885, offsetof(NonBlockingStreamReader_t3250, ___base_stream_8), 0 } ,
+	{ 329, 100, offsetof(NonBlockingStreamReader_t3250, ___mayBlock_9), 0 } ,
+	{ 330, 953, offsetof(NonBlockingStreamReader_t3250, ___line_builder_10), 0 } ,
+	{ 331, 100, offsetof(NonBlockingStreamReader_t3250, ___foundCR_11), 0 } ,
+	{ 332, 5875, offsetof(XmlInputStream_t3248_StaticFields, ___StrictUTF8_1), 0 } ,
+	{ 333, 5871, offsetof(XmlInputStream_t3248, ___enc_2), 0 } ,
+	{ 334, 3885, offsetof(XmlInputStream_t3248, ___stream_3), 0 } ,
+	{ 335, 873, offsetof(XmlInputStream_t3248, ___buffer_4), 0 } ,
+	{ 336, 110, offsetof(XmlInputStream_t3248, ___bufLength_5), 0 } ,
+	{ 337, 110, offsetof(XmlInputStream_t3248, ___bufPos_6), 0 } ,
+	{ 338, 5868, offsetof(XmlInputStream_t3248_StaticFields, ___encodingException_7), 0 } ,
+	{ 339, 5833, offsetof(XmlLinkedNode_t3229, ___nextSibling_5), 0 } ,
+	{ 340, 101, offsetof(XmlNameEntry_t3228, ___Prefix_0), 0 } ,
+	{ 341, 101, offsetof(XmlNameEntry_t3228, ___LocalName_1), 0 } ,
+	{ 342, 101, offsetof(XmlNameEntry_t3228, ___NS_2), 0 } ,
+	{ 343, 102, offsetof(XmlNameEntry_t3228, ___Hash_3), 0 } ,
+	{ 344, 99, offsetof(XmlNameEntry_t3228, ___prefixed_name_cache_4), 0 } ,
+	{ 345, 5750, offsetof(XmlNameEntryCache_t3240, ___table_0), 0 } ,
+	{ 187, 5762, offsetof(XmlNameEntryCache_t3240, ___nameTable_1), 0 } ,
+	{ 346, 5832, offsetof(XmlNameEntryCache_t3240, ___dummy_2), 0 } ,
+	{ 347, 3709, offsetof(XmlNameEntryCache_t3240, ___cacheBuffer_3), 0 } ,
+	{ 348, 5881, offsetof(XmlNamedNodeMap_t3231_StaticFields, ___emptyEnumerator_0), 0 } ,
+	{ 349, 5882, offsetof(XmlNamedNodeMap_t3231, ___parent_1), 0 } ,
+	{ 350, 5760, offsetof(XmlNamedNodeMap_t3231, ___nodeList_2), 0 } ,
+	{ 351, 100, offsetof(XmlNamedNodeMap_t3231, ___readOnly_3), 0 } ,
+	{ 340, 101, offsetof(NsDecl_t3253, ___Prefix_0) + sizeof(Object_t), 0 } ,
+	{ 352, 101, offsetof(NsDecl_t3253, ___Uri_1) + sizeof(Object_t), 0 } ,
+	{ 353, 102, offsetof(NsScope_t3254, ___DeclCount_0) + sizeof(Object_t), 0 } ,
+	{ 354, 101, offsetof(NsScope_t3254, ___DefaultNamespace_1) + sizeof(Object_t), 0 } ,
+	{ 355, 5886, offsetof(XmlNamespaceManager_t3257, ___decls_0), 0 } ,
+	{ 356, 110, offsetof(XmlNamespaceManager_t3257, ___declPos_1), 0 } ,
+	{ 357, 5887, offsetof(XmlNamespaceManager_t3257, ___scopes_2), 0 } ,
+	{ 358, 110, offsetof(XmlNamespaceManager_t3257, ___scopePos_3), 0 } ,
+	{ 359, 99, offsetof(XmlNamespaceManager_t3257, ___defaultNamespace_4), 0 } ,
+	{ 256, 110, offsetof(XmlNamespaceManager_t3257, ___count_5), 0 } ,
+	{ 187, 5762, offsetof(XmlNamespaceManager_t3257, ___nameTable_6), 0 } ,
+	{ 360, 2253, offsetof(XmlNamespaceManager_t3257, ___internalAtomizedNames_7), 0 } ,
+	{ 361, 950, offsetof(XmlNamespaceManager_t3257_StaticFields, ___U3CU3Ef__switchU24map28_8), 53 } ,
+	{ 348, 5889, offsetof(EmptyNodeList_t3258_StaticFields, ___emptyEnumerator_0), 0 } ,
+	{ 362, 5893, offsetof(XmlNode_t731_StaticFields, ___emptyList_0), 0 } ,
+	{ 276, 5837, offsetof(XmlNode_t731, ___ownerDocument_1), 0 } ,
+	{ 363, 5882, offsetof(XmlNode_t731, ___parentNode_2), 0 } ,
+	{ 364, 5894, offsetof(XmlNode_t731, ___childNodes_3), 0 } ,
+	{ 365, 950, offsetof(XmlNode_t731_StaticFields, ___U3CU3Ef__switchU24map44_4), 55 } ,
+	{ 0, 90, offsetof(XmlNodeChangedAction_t3261, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 366, 5896, 0, 0 } ,
+	{ 367, 5896, 0, 0 } ,
+	{ 368, 5896, 0, 0 } ,
+	{ 369, 5882, offsetof(XmlNodeChangedEventArgs_t3262, ____oldParent_1), 0 } ,
+	{ 370, 5882, offsetof(XmlNodeChangedEventArgs_t3262, ____newParent_2), 0 } ,
+	{ 371, 5899, offsetof(XmlNodeChangedEventArgs_t3262, ____action_3), 0 } ,
+	{ 372, 5882, offsetof(XmlNodeChangedEventArgs_t3262, ____node_4), 0 } ,
+	{ 373, 99, offsetof(XmlNodeChangedEventArgs_t3262, ____oldValue_5), 0 } ,
+	{ 374, 99, offsetof(XmlNodeChangedEventArgs_t3262, ____newValue_6), 0 } ,
+	{ 349, 5902, offsetof(Enumerator_t3264, ___parent_0), 0 } ,
+	{ 375, 5833, offsetof(Enumerator_t3264, ___currentChild_1), 0 } ,
+	{ 376, 100, offsetof(Enumerator_t3264, ___passedLastNode_2), 0 } ,
+	{ 349, 5902, offsetof(XmlNodeListChildren_t3260, ___parent_0), 0 } ,
+	{ 0, 90, offsetof(XmlNodeType_t3265, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 75, 5905, 0, 0 } ,
+	{ 270, 5905, 0, 0 } ,
+	{ 271, 5905, 0, 0 } ,
+	{ 377, 5905, 0, 0 } ,
+	{ 378, 5905, 0, 0 } ,
+	{ 379, 5905, 0, 0 } ,
+	{ 380, 5905, 0, 0 } ,
+	{ 381, 5905, 0, 0 } ,
+	{ 382, 5905, 0, 0 } ,
+	{ 175, 5905, 0, 0 } ,
+	{ 383, 5905, 0, 0 } ,
+	{ 384, 5905, 0, 0 } ,
+	{ 385, 5905, 0, 0 } ,
+	{ 386, 5905, 0, 0 } ,
+	{ 387, 5905, 0, 0 } ,
+	{ 388, 5905, 0, 0 } ,
+	{ 389, 5905, 0, 0 } ,
+	{ 390, 5905, 0, 0 } ,
+	{ 228, 99, offsetof(XmlNotation_t3266, ___localName_5), 0 } ,
+	{ 190, 99, offsetof(XmlNotation_t3266, ___publicId_6), 0 } ,
+	{ 191, 99, offsetof(XmlNotation_t3266, ___systemId_7), 0 } ,
+	{ 229, 99, offsetof(XmlNotation_t3266, ___prefix_8), 0 } ,
+	{ 391, 101, offsetof(ContextItem_t3267, ___BaseURI_0), 0 } ,
+	{ 392, 101, offsetof(ContextItem_t3267, ___XmlLang_1), 0 } ,
+	{ 393, 5908, offsetof(ContextItem_t3267, ___XmlSpace_2), 0 } ,
+	{ 189, 99, offsetof(XmlParserContext_t3268, ___baseURI_0), 0 } ,
+	{ 394, 99, offsetof(XmlParserContext_t3268, ___docTypeName_1), 0 } ,
+	{ 290, 5871, offsetof(XmlParserContext_t3268, ___encoding_2), 0 } ,
+	{ 395, 99, offsetof(XmlParserContext_t3268, ___internalSubset_3), 0 } ,
+	{ 396, 5910, offsetof(XmlParserContext_t3268, ___namespaceManager_4), 0 } ,
+	{ 187, 5762, offsetof(XmlParserContext_t3268, ___nameTable_5), 0 } ,
+	{ 397, 99, offsetof(XmlParserContext_t3268, ___publicID_6), 0 } ,
+	{ 398, 99, offsetof(XmlParserContext_t3268, ___systemID_7), 0 } ,
+	{ 399, 99, offsetof(XmlParserContext_t3268, ___xmlLang_8), 0 } ,
+	{ 400, 5911, offsetof(XmlParserContext_t3268, ___xmlSpace_9), 0 } ,
+	{ 401, 5760, offsetof(XmlParserContext_t3268, ___contextItems_10), 0 } ,
+	{ 402, 110, offsetof(XmlParserContext_t3268, ___contextItemCount_11), 0 } ,
+	{ 310, 5749, offsetof(XmlParserContext_t3268, ___dtd_12), 0 } ,
+	{ 391, 68, offsetof(XmlParserInputSource_t3269, ___BaseURI_0), 0 } ,
+	{ 403, 5913, offsetof(XmlParserInputSource_t3269, ___reader_1), 0 } ,
+	{ 404, 102, offsetof(XmlParserInputSource_t3269, ___state_2), 0 } ,
+	{ 405, 104, offsetof(XmlParserInputSource_t3269, ___isPE_3), 0 } ,
+	{ 406, 110, offsetof(XmlParserInputSource_t3269, ___line_4), 0 } ,
+	{ 407, 110, offsetof(XmlParserInputSource_t3269, ___column_5), 0 } ,
+	{ 408, 5804, offsetof(XmlParserInput_t3217, ___sourceStack_0), 0 } ,
+	{ 409, 5915, offsetof(XmlParserInput_t3217, ___source_1), 0 } ,
+	{ 410, 100, offsetof(XmlParserInput_t3217, ___has_peek_2), 0 } ,
+	{ 411, 110, offsetof(XmlParserInput_t3217, ___peek_char_3), 0 } ,
+	{ 412, 100, offsetof(XmlParserInput_t3217, ___allowTextDecl_4), 0 } ,
+	{ 413, 99, offsetof(XmlProcessingInstruction_t3270, ___target_6), 0 } ,
+	{ 282, 99, offsetof(XmlProcessingInstruction_t3270, ___data_7), 0 } ,
+	{ 68, 5918, offsetof(XmlQualifiedName_t3178_StaticFields, ___Empty_0), 0 } ,
+	{ 172, 71, offsetof(XmlQualifiedName_t3178, ___name_1), 0 } ,
+	{ 414, 71, offsetof(XmlQualifiedName_t3178, ___ns_2), 0 } ,
+	{ 253, 2430, offsetof(XmlQualifiedName_t3178, ___hash_3), 0 } ,
+	{ 415, 5922, offsetof(XmlReader_t3273, ___binary_0), 0 } ,
+	{ 416, 5923, offsetof(XmlReader_t3273, ___settings_1), 0 } ,
+	{ 0, 90, offsetof(CommandState_t3274, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 75, 5925, 0, 0 } ,
+	{ 417, 5925, 0, 0 } ,
+	{ 418, 5925, 0, 0 } ,
+	{ 419, 5925, 0, 0 } ,
+	{ 420, 5925, 0, 0 } ,
+	{ 403, 5929, offsetof(XmlReaderBinarySupport_t3271, ___reader_0), 0 } ,
+	{ 421, 110, offsetof(XmlReaderBinarySupport_t3271, ___base64CacheStartsAt_1), 0 } ,
+	{ 404, 5930, offsetof(XmlReaderBinarySupport_t3271, ___state_2), 0 } ,
+	{ 422, 100, offsetof(XmlReaderBinarySupport_t3271, ___hasCache_3), 0 } ,
+	{ 423, 100, offsetof(XmlReaderBinarySupport_t3271, ___dontReset_4), 0 } ,
+	{ 424, 100, offsetof(XmlReaderSettings_t3272, ___checkCharacters_0), 0 } ,
+	{ 425, 5932, offsetof(XmlReaderSettings_t3272, ___conformance_1), 0 } ,
+	{ 0, 90, offsetof(XmlSpace_t3277, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 75, 5936, 0, 0 } ,
+	{ 259, 5936, 0, 0 } ,
+	{ 1, 5936, 0, 0 } ,
+	{ 426, 99, offsetof(XmlTokenInfo_t3280, ___valueCache_0), 0 } ,
+	{ 427, 5939, offsetof(XmlTokenInfo_t3280, ___Reader_1), 0 } ,
+	{ 428, 101, offsetof(XmlTokenInfo_t3280, ___Name_2), 0 } ,
+	{ 341, 101, offsetof(XmlTokenInfo_t3280, ___LocalName_3), 0 } ,
+	{ 340, 101, offsetof(XmlTokenInfo_t3280, ___Prefix_4), 0 } ,
+	{ 429, 101, offsetof(XmlTokenInfo_t3280, ___NamespaceURI_5), 0 } ,
+	{ 430, 104, offsetof(XmlTokenInfo_t3280, ___IsEmptyElement_6), 0 } ,
+	{ 431, 5940, offsetof(XmlTokenInfo_t3280, ___QuoteChar_7), 0 } ,
+	{ 432, 102, offsetof(XmlTokenInfo_t3280, ___LineNumber_8), 0 } ,
+	{ 433, 102, offsetof(XmlTokenInfo_t3280, ___LinePosition_9), 0 } ,
+	{ 434, 102, offsetof(XmlTokenInfo_t3280, ___ValueBufferStart_10), 0 } ,
+	{ 435, 102, offsetof(XmlTokenInfo_t3280, ___ValueBufferEnd_11), 0 } ,
+	{ 436, 5941, offsetof(XmlTokenInfo_t3280, ___NodeType_12), 0 } ,
+	{ 437, 102, offsetof(XmlAttributeTokenInfo_t3281, ___ValueTokenStartIndex_13), 0 } ,
+	{ 438, 102, offsetof(XmlAttributeTokenInfo_t3281, ___ValueTokenEndIndex_14), 0 } ,
+	{ 426, 99, offsetof(XmlAttributeTokenInfo_t3281, ___valueCache_15), 0 } ,
+	{ 439, 953, offsetof(XmlAttributeTokenInfo_t3281, ___tmpBuilder_16), 0 } ,
+	{ 428, 68, offsetof(TagName_t3282, ___Name_0) + sizeof(Object_t), 0 } ,
+	{ 341, 68, offsetof(TagName_t3282, ___LocalName_1) + sizeof(Object_t), 0 } ,
+	{ 340, 68, offsetof(TagName_t3282, ___Prefix_2) + sizeof(Object_t), 0 } ,
+	{ 0, 90, offsetof(DtdInputState_t3283, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 440, 5945, 0, 0 } ,
+	{ 441, 5945, 0, 0 } ,
+	{ 442, 5945, 0, 0 } ,
+	{ 443, 5945, 0, 0 } ,
+	{ 444, 5945, 0, 0 } ,
+	{ 445, 5945, 0, 0 } ,
+	{ 382, 5945, 0, 0 } ,
+	{ 446, 5945, 0, 0 } ,
+	{ 447, 5945, 0, 0 } ,
+	{ 448, 5804, offsetof(DtdInputStateStack_t3284, ___intern_0), 0 } ,
+	{ 449, 5948, offsetof(XmlTextReader_t3279, ___cursorToken_2), 0 } ,
+	{ 450, 5948, offsetof(XmlTextReader_t3279, ___currentToken_3), 0 } ,
+	{ 451, 5949, offsetof(XmlTextReader_t3279, ___currentAttributeToken_4), 0 } ,
+	{ 452, 5948, offsetof(XmlTextReader_t3279, ___currentAttributeValueToken_5), 0 } ,
+	{ 453, 5950, offsetof(XmlTextReader_t3279, ___attributeTokens_6), 0 } ,
+	{ 454, 5951, offsetof(XmlTextReader_t3279, ___attributeValueTokens_7), 0 } ,
+	{ 455, 110, offsetof(XmlTextReader_t3279, ___currentAttribute_8), 0 } ,
+	{ 456, 110, offsetof(XmlTextReader_t3279, ___currentAttributeValue_9), 0 } ,
+	{ 457, 110, offsetof(XmlTextReader_t3279, ___attributeCount_10), 0 } ,
+	{ 458, 5952, offsetof(XmlTextReader_t3279, ___parserContext_11), 0 } ,
+	{ 187, 5762, offsetof(XmlTextReader_t3279, ___nameTable_12), 0 } ,
+	{ 459, 5910, offsetof(XmlTextReader_t3279, ___nsmgr_13), 0 } ,
+	{ 460, 5953, offsetof(XmlTextReader_t3279, ___readState_14), 0 } ,
+	{ 461, 100, offsetof(XmlTextReader_t3279, ___disallowReset_15), 0 } ,
+	{ 462, 110, offsetof(XmlTextReader_t3279, ___depth_16), 0 } ,
+	{ 463, 110, offsetof(XmlTextReader_t3279, ___elementDepth_17), 0 } ,
+	{ 464, 100, offsetof(XmlTextReader_t3279, ___depthUp_18), 0 } ,
+	{ 465, 100, offsetof(XmlTextReader_t3279, ___popScope_19), 0 } ,
+	{ 466, 5954, offsetof(XmlTextReader_t3279, ___elementNames_20), 0 } ,
+	{ 467, 110, offsetof(XmlTextReader_t3279, ___elementNameStackPos_21), 0 } ,
+	{ 468, 100, offsetof(XmlTextReader_t3279, ___allowMultipleRoot_22), 0 } ,
+	{ 194, 100, offsetof(XmlTextReader_t3279, ___isStandalone_23), 0 } ,
+	{ 469, 100, offsetof(XmlTextReader_t3279, ___returnEntityReference_24), 0 } ,
+	{ 470, 99, offsetof(XmlTextReader_t3279, ___entityReferenceName_25), 0 } ,
+	{ 241, 953, offsetof(XmlTextReader_t3279, ___valueBuffer_26), 0 } ,
+	{ 403, 5955, offsetof(XmlTextReader_t3279, ___reader_27), 0 } ,
+	{ 471, 3709, offsetof(XmlTextReader_t3279, ___peekChars_28), 0 } ,
+	{ 472, 110, offsetof(XmlTextReader_t3279, ___peekCharsIndex_29), 0 } ,
+	{ 473, 110, offsetof(XmlTextReader_t3279, ___peekCharsLength_30), 0 } ,
+	{ 474, 110, offsetof(XmlTextReader_t3279, ___curNodePeekIndex_31), 0 } ,
+	{ 475, 100, offsetof(XmlTextReader_t3279, ___preserveCurrentTag_32), 0 } ,
+	{ 406, 110, offsetof(XmlTextReader_t3279, ___line_33), 0 } ,
+	{ 407, 110, offsetof(XmlTextReader_t3279, ___column_34), 0 } ,
+	{ 242, 110, offsetof(XmlTextReader_t3279, ___currentLinkedNodeLineNumber_35), 0 } ,
+	{ 243, 110, offsetof(XmlTextReader_t3279, ___currentLinkedNodeLinePosition_36), 0 } ,
+	{ 476, 100, offsetof(XmlTextReader_t3279, ___useProceedingLineInfo_37), 0 } ,
+	{ 477, 5956, offsetof(XmlTextReader_t3279, ___startNodeType_38), 0 } ,
+	{ 478, 5956, offsetof(XmlTextReader_t3279, ___currentState_39), 0 } ,
+	{ 479, 110, offsetof(XmlTextReader_t3279, ___nestLevel_40), 0 } ,
+	{ 480, 100, offsetof(XmlTextReader_t3279, ___readCharsInProgress_41), 0 } ,
+	{ 481, 5957, offsetof(XmlTextReader_t3279, ___binaryCharGetter_42), 0 } ,
+	{ 96, 100, offsetof(XmlTextReader_t3279, ___namespaces_43), 0 } ,
+	{ 482, 5958, offsetof(XmlTextReader_t3279, ___whitespaceHandling_44), 0 } ,
+	{ 186, 5761, offsetof(XmlTextReader_t3279, ___resolver_45), 0 } ,
+	{ 245, 100, offsetof(XmlTextReader_t3279, ___normalization_46), 0 } ,
+	{ 424, 100, offsetof(XmlTextReader_t3279, ___checkCharacters_47), 0 } ,
+	{ 483, 100, offsetof(XmlTextReader_t3279, ___prohibitDtd_48), 0 } ,
+	{ 484, 100, offsetof(XmlTextReader_t3279, ___closeInput_49), 0 } ,
+	{ 485, 5959, offsetof(XmlTextReader_t3279, ___entityHandling_50), 0 } ,
+	{ 486, 5960, offsetof(XmlTextReader_t3279, ___whitespacePool_51), 0 } ,
+	{ 487, 3709, offsetof(XmlTextReader_t3279, ___whitespaceCache_52), 0 } ,
+	{ 488, 5961, offsetof(XmlTextReader_t3279, ___stateStack_53), 0 } ,
+	{ 489, 950, offsetof(XmlTextReader_t3279_StaticFields, ___U3CU3Ef__switchU24map51_54), 58 } ,
+	{ 490, 950, offsetof(XmlTextReader_t3279_StaticFields, ___U3CU3Ef__switchU24map52_55), 59 } ,
+	{ 491, 5963, offsetof(XmlTextReader_t3288, ___entity_2), 0 } ,
+	{ 409, 5964, offsetof(XmlTextReader_t3288, ___source_3), 0 } ,
+	{ 492, 100, offsetof(XmlTextReader_t3288, ___entityInsideAttribute_4), 0 } ,
+	{ 493, 100, offsetof(XmlTextReader_t3288, ___insideAttribute_5), 0 } ,
+	{ 494, 5965, offsetof(XmlTextReader_t3288, ___entityNameStack_6), 0 } ,
+	{ 340, 101, offsetof(XmlNodeInfo_t3290, ___Prefix_0), 0 } ,
+	{ 341, 101, offsetof(XmlNodeInfo_t3290, ___LocalName_1), 0 } ,
+	{ 342, 101, offsetof(XmlNodeInfo_t3290, ___NS_2), 0 } ,
+	{ 495, 104, offsetof(XmlNodeInfo_t3290, ___HasSimple_3), 0 } ,
+	{ 496, 104, offsetof(XmlNodeInfo_t3290, ___HasElements_4), 0 } ,
+	{ 392, 101, offsetof(XmlNodeInfo_t3290, ___XmlLang_5), 0 } ,
+	{ 393, 5908, offsetof(XmlNodeInfo_t3290, ___XmlSpace_6), 0 } ,
+	{ 497, 5968, offsetof(StringUtil_t3292_StaticFields, ___cul_0), 0 } ,
+	{ 498, 5969, offsetof(StringUtil_t3292_StaticFields, ___cmp_1), 0 } ,
+	{ 0, 90, offsetof(XmlDeclState_t3293, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 499, 5971, 0, 0 } ,
+	{ 500, 5971, 0, 0 } ,
+	{ 173, 5971, 0, 0 } ,
+	{ 501, 5971, 0, 0 } ,
+	{ 502, 5975, offsetof(XmlTextWriter_t3297_StaticFields, ___unmarked_utf8encoding_0), 0 } ,
+	{ 503, 5644, offsetof(XmlTextWriter_t3297_StaticFields, ___escaped_text_chars_1), 0 } ,
+	{ 504, 5644, offsetof(XmlTextWriter_t3297_StaticFields, ___escaped_attr_chars_2), 0 } ,
+	{ 328, 3885, offsetof(XmlTextWriter_t3297, ___base_stream_3), 0 } ,
+	{ 409, 5976, offsetof(XmlTextWriter_t3297, ___source_4), 0 } ,
+	{ 505, 5976, offsetof(XmlTextWriter_t3297, ___writer_5), 0 } ,
+	{ 506, 5977, offsetof(XmlTextWriter_t3297, ___preserver_6), 0 } ,
+	{ 507, 99, offsetof(XmlTextWriter_t3297, ___preserved_name_7), 0 } ,
+	{ 508, 100, offsetof(XmlTextWriter_t3297, ___is_preserved_xmlns_8), 0 } ,
+	{ 509, 100, offsetof(XmlTextWriter_t3297, ___allow_doc_fragment_9), 0 } ,
+	{ 510, 100, offsetof(XmlTextWriter_t3297, ___close_output_stream_10), 0 } ,
+	{ 511, 100, offsetof(XmlTextWriter_t3297, ___ignore_encoding_11), 0 } ,
+	{ 96, 100, offsetof(XmlTextWriter_t3297, ___namespaces_12), 0 } ,
+	{ 512, 5978, offsetof(XmlTextWriter_t3297, ___xmldecl_state_13), 0 } ,
+	{ 513, 100, offsetof(XmlTextWriter_t3297, ___check_character_validity_14), 0 } ,
+	{ 514, 5979, offsetof(XmlTextWriter_t3297, ___newline_handling_15), 0 } ,
+	{ 515, 100, offsetof(XmlTextWriter_t3297, ___is_document_entity_16), 0 } ,
+	{ 404, 5980, offsetof(XmlTextWriter_t3297, ___state_17), 0 } ,
+	{ 516, 5956, offsetof(XmlTextWriter_t3297, ___node_state_18), 0 } ,
+	{ 517, 5910, offsetof(XmlTextWriter_t3297, ___nsmanager_19), 0 } ,
+	{ 518, 110, offsetof(XmlTextWriter_t3297, ___open_count_20), 0 } ,
+	{ 519, 5981, offsetof(XmlTextWriter_t3297, ___elements_21), 0 } ,
+	{ 520, 5804, offsetof(XmlTextWriter_t3297, ___new_local_namespaces_22), 0 } ,
+	{ 521, 5760, offsetof(XmlTextWriter_t3297, ___explicit_nsdecls_23), 0 } ,
+	{ 522, 5982, offsetof(XmlTextWriter_t3297, ___namespace_handling_24), 0 } ,
+	{ 523, 100, offsetof(XmlTextWriter_t3297, ___indent_25), 0 } ,
+	{ 524, 110, offsetof(XmlTextWriter_t3297, ___indent_count_26), 0 } ,
+	{ 525, 2267, offsetof(XmlTextWriter_t3297, ___indent_char_27), 0 } ,
+	{ 526, 99, offsetof(XmlTextWriter_t3297, ___indent_string_28), 0 } ,
+	{ 527, 99, offsetof(XmlTextWriter_t3297, ___newline_29), 0 } ,
+	{ 528, 100, offsetof(XmlTextWriter_t3297, ___indent_attributes_30), 0 } ,
+	{ 529, 2267, offsetof(XmlTextWriter_t3297, ___quote_char_31), 0 } ,
+	{ 530, 100, offsetof(XmlTextWriter_t3297, ___v2_32), 0 } ,
+	{ 531, 950, offsetof(XmlTextWriter_t3297_StaticFields, ___U3CU3Ef__switchU24map53_33), 62 } ,
+	{ 532, 950, offsetof(XmlTextWriter_t3297_StaticFields, ___U3CU3Ef__switchU24map54_34), 63 } ,
+	{ 0, 90, offsetof(XmlTokenizedType_t3299, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 378, 5985, 0, 0 } ,
+	{ 533, 5985, 0, 0 } ,
+	{ 534, 5985, 0, 0 } ,
+	{ 535, 5985, 0, 0 } ,
+	{ 536, 5985, 0, 0 } ,
+	{ 537, 5985, 0, 0 } ,
+	{ 538, 5985, 0, 0 } ,
+	{ 539, 5985, 0, 0 } ,
+	{ 540, 5985, 0, 0 } ,
+	{ 541, 5985, 0, 0 } ,
+	{ 542, 5985, 0, 0 } ,
+	{ 543, 5985, 0, 0 } ,
+	{ 75, 5985, 0, 0 } ,
+	{ 544, 5987, offsetof(XmlUrlResolver_t3301, ___credential_0), 0 } ,
+	{ 545, 6001, offsetof(U3CPrivateImplementationDetailsU3E_t3307_StaticFields, ___U24U24fieldU2D23_0), 0 } ,
+	{ 546, 6001, offsetof(U3CPrivateImplementationDetailsU3E_t3307_StaticFields, ___U24U24fieldU2D26_1), 0 } ,
+	{ 547, 6002, offsetof(U3CPrivateImplementationDetailsU3E_t3307_StaticFields, ___U24U24fieldU2D27_2), 0 } ,
+	{ 548, 6002, offsetof(U3CPrivateImplementationDetailsU3E_t3307_StaticFields, ___U24U24fieldU2D28_3), 0 } ,
+	{ 549, 6003, offsetof(U3CPrivateImplementationDetailsU3E_t3307_StaticFields, ___U24U24fieldU2D29_4), 0 } ,
+	{ 550, 6004, offsetof(U3CPrivateImplementationDetailsU3E_t3307_StaticFields, ___U24U24fieldU2D43_5), 0 } ,
+	{ 551, 6004, offsetof(U3CPrivateImplementationDetailsU3E_t3307_StaticFields, ___U24U24fieldU2D44_6), 0 } ,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -2125,13 +2125,13 @@ static const Il2CppFieldDefaultValue s_DefaultValues[121] =
 	{ 675, 75, 444 },
 	{ 676, 75, 448 },
 	{ 677, 75, 452 },
-	{ 679, 5957, 456 },
-	{ 680, 5957, 464 },
-	{ 681, 5959, 472 },
-	{ 682, 5959, 728 },
-	{ 683, 5961, 984 },
-	{ 684, 5955, 2264 },
-	{ 685, 5955, 2276 },
+	{ 679, 5995, 456 },
+	{ 680, 5995, 464 },
+	{ 681, 5997, 472 },
+	{ 682, 5997, 728 },
+	{ 683, 5999, 984 },
+	{ 684, 5993, 2264 },
+	{ 685, 5993, 2276 },
 };
 static const uint8_t s_DefaultValueDataTable[2288] = 
 {

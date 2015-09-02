@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.DllImportAttribute
-struct DllImportAttribute_t4346;
+struct DllImportAttribute_t4362;
 // System.String
 struct String_t;
 
 // System.Void System.Runtime.InteropServices.DllImportAttribute::.ctor(System.String)
-extern "C" void DllImportAttribute__ctor_m16298 (DllImportAttribute_t4346 * __this, String_t* ___dllName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DllImportAttribute__ctor_m16427 (DllImportAttribute_t4362 * __this, String_t* ___dllName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.InteropServices.DllImportAttribute::get_Value()
-extern "C" String_t* DllImportAttribute_get_Value_m16299 (DllImportAttribute_t4346 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DllImportAttribute_get_Value_m16428 (DllImportAttribute_t4362 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

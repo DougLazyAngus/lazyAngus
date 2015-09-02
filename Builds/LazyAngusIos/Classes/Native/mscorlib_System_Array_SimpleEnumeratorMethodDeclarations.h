@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/SimpleEnumerator
-struct SimpleEnumerator_t4340;
+struct SimpleEnumerator_t4356;
 // System.Object
 struct Object_t;
 // System.Array
 struct Array_t;
 
 // System.Void System.Array/SimpleEnumerator::.ctor(System.Array)
-extern "C" void SimpleEnumerator__ctor_m16113 (SimpleEnumerator_t4340 * __this, Array_t * ___arrayToEnumerate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SimpleEnumerator__ctor_m16242 (SimpleEnumerator_t4356 * __this, Array_t * ___arrayToEnumerate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Array/SimpleEnumerator::get_Current()
-extern "C" Object_t * SimpleEnumerator_get_Current_m16114 (SimpleEnumerator_t4340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SimpleEnumerator_get_Current_m16243 (SimpleEnumerator_t4356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Array/SimpleEnumerator::MoveNext()
-extern "C" bool SimpleEnumerator_MoveNext_m16115 (SimpleEnumerator_t4340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SimpleEnumerator_MoveNext_m16244 (SimpleEnumerator_t4356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Array/SimpleEnumerator::Reset()
-extern "C" void SimpleEnumerator_Reset_m16116 (SimpleEnumerator_t4340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SimpleEnumerator_Reset_m16245 (SimpleEnumerator_t4356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

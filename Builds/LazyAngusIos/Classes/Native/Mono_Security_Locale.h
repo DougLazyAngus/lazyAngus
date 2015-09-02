@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Locale
-struct  Locale_t3775  : public Object_t
+struct  Locale_t3791  : public Object_t
 {
 };

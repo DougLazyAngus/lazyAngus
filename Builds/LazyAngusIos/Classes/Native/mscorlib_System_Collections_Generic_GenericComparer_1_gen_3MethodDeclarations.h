@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.GenericComparer`1<System.Int32>
-struct GenericComparer_1_t5690;
+struct GenericComparer_1_t5706;
 
 // System.Void System.Collections.Generic.GenericComparer`1<System.Int32>::.ctor()
-extern "C" void GenericComparer_1__ctor_m26671_gshared (GenericComparer_1_t5690 * __this, const MethodInfo* method);
-#define GenericComparer_1__ctor_m26671(__this, method) (( void (*) (GenericComparer_1_t5690 *, const MethodInfo*))GenericComparer_1__ctor_m26671_gshared)(__this, method)
+extern "C" void GenericComparer_1__ctor_m26800_gshared (GenericComparer_1_t5706 * __this, const MethodInfo* method);
+#define GenericComparer_1__ctor_m26800(__this, method) (( void (*) (GenericComparer_1_t5706 *, const MethodInfo*))GenericComparer_1__ctor_m26800_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.GenericComparer`1<System.Int32>::Compare(T,T)
-extern "C" int32_t GenericComparer_1_Compare_m26672_gshared (GenericComparer_1_t5690 * __this, int32_t ___x, int32_t ___y, const MethodInfo* method);
-#define GenericComparer_1_Compare_m26672(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t5690 *, int32_t, int32_t, const MethodInfo*))GenericComparer_1_Compare_m26672_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t GenericComparer_1_Compare_m26801_gshared (GenericComparer_1_t5706 * __this, int32_t ___x, int32_t ___y, const MethodInfo* method);
+#define GenericComparer_1_Compare_m26801(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t5706 *, int32_t, int32_t, const MethodInfo*))GenericComparer_1_Compare_m26801_gshared)(__this, ___x, ___y, method)

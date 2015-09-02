@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Threading.Tasks.Task
-struct Task_t1211;
+// UnityEngine.UI.StencilMaterial/MatEntry
+struct MatEntry_t993;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -10,7 +10,7 @@ struct AsyncCallback_t386;
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<System.Threading.Tasks.Task>
-struct  Predicate_1_t5994  : public MulticastDelegate_t388
+// System.Predicate`1<UnityEngine.UI.StencilMaterial/MatEntry>
+struct  Predicate_1_t5940  : public MulticastDelegate_t388
 {
 };

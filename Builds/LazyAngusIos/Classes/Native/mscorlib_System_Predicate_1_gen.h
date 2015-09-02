@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.ICanvasElement
-struct ICanvasElement_t1042;
+struct ICanvasElement_t1057;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<UnityEngine.UI.ICanvasElement>
-struct  Predicate_1_t913  : public MulticastDelegate_t388
+struct  Predicate_1_t927  : public MulticastDelegate_t388
 {
 };

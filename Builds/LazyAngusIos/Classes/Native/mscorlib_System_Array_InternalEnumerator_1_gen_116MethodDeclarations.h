@@ -4,26 +4,30 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Net.IPAddress>
-struct InternalEnumerator_1_t8641;
+// System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>
+struct InternalEnumerator_1_t8669;
 // System.Object
 struct Object_t;
-// System.Net.IPAddress
-struct IPAddress_t4062;
 // System.Array
 struct Array_t;
+// System.Security.Cryptography.X509Certificates.X509ChainStatus
+#include "System_System_Security_Cryptography_X509Certificates_X509Cha_5.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Net.IPAddress>::.ctor(System.Array)
-// System.Array/InternalEnumerator`1<System.Object>
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m63783(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8641 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m21219_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<System.Net.IPAddress>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m63784(__this, method) (( void (*) (InternalEnumerator_1_t8641 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m21220_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<System.Net.IPAddress>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m63785(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8641 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m21221_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Net.IPAddress>::Dispose()
-#define InternalEnumerator_1_Dispose_m63786(__this, method) (( void (*) (InternalEnumerator_1_t8641 *, const MethodInfo*))InternalEnumerator_1_Dispose_m21222_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Net.IPAddress>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m63787(__this, method) (( bool (*) (InternalEnumerator_1_t8641 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m21223_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Net.IPAddress>::get_Current()
-#define InternalEnumerator_1_get_Current_m63788(__this, method) (( IPAddress_t4062 * (*) (InternalEnumerator_1_t8641 *, const MethodInfo*))InternalEnumerator_1_get_Current_m21224_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m64109_gshared (InternalEnumerator_1_t8669 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m64109(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8669 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m64109_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::System.Collections.IEnumerator.Reset()
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m64110_gshared (InternalEnumerator_1_t8669 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m64110(__this, method) (( void (*) (InternalEnumerator_1_t8669 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m64110_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m64111_gshared (InternalEnumerator_1_t8669 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m64111(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8669 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m64111_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m64112_gshared (InternalEnumerator_1_t8669 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m64112(__this, method) (( void (*) (InternalEnumerator_1_t8669 *, const MethodInfo*))InternalEnumerator_1_Dispose_m64112_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m64113_gshared (InternalEnumerator_1_t8669 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m64113(__this, method) (( bool (*) (InternalEnumerator_1_t8669 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m64113_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::get_Current()
+extern "C" X509ChainStatus_t4113  InternalEnumerator_1_get_Current_m64114_gshared (InternalEnumerator_1_t8669 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m64114(__this, method) (( X509ChainStatus_t4113  (*) (InternalEnumerator_1_t8669 *, const MethodInfo*))InternalEnumerator_1_get_Current_m64114_gshared)(__this, method)

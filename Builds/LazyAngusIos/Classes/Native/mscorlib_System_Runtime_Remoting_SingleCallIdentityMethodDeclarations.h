@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.SingleCallIdentity
-struct SingleCallIdentity_t4644;
+struct SingleCallIdentity_t4660;
 // System.String
 struct String_t;
 // System.Runtime.Remoting.Contexts.Context
-struct Context_t4598;
+struct Context_t4614;
 // System.Type
 struct Type_t;
 
 // System.Void System.Runtime.Remoting.SingleCallIdentity::.ctor(System.String,System.Runtime.Remoting.Contexts.Context,System.Type)
-extern "C" void SingleCallIdentity__ctor_m18459 (SingleCallIdentity_t4644 * __this, String_t* ___objectUri, Context_t4598 * ___context, Type_t * ___objectType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SingleCallIdentity__ctor_m18588 (SingleCallIdentity_t4660 * __this, String_t* ___objectUri, Context_t4614 * ___context, Type_t * ___objectType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

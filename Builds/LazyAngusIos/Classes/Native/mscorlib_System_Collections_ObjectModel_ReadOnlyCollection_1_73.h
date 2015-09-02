@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<Parse.ParseRole>
-struct IList_1_t6887;
+// System.Collections.Generic.IList`1<Parse.ParseACL>
+struct IList_1_t6910;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>
-struct  ReadOnlyCollection_1_t6992  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseACL>
+struct  ReadOnlyCollection_1_t7003  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseRole>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<Parse.ParseACL>::list
 	Object_t* ___list_0;
 };

@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.AudioSource
-struct AudioSource_t608;
+struct AudioSource_t613;
 // System.Object
 struct Object_t;
 // MusicPlayer
-struct MusicPlayer_t609;
+struct MusicPlayer_t614;
 // System.Object
 #include "mscorlib_System_Object.h"
 // MusicPlayer/<PlayMusic>c__Iterator17
-struct  U3CPlayMusicU3Ec__Iterator17_t610  : public Object_t
+struct  U3CPlayMusicU3Ec__Iterator17_t615  : public Object_t
 {
 	// UnityEngine.AudioSource MusicPlayer/<PlayMusic>c__Iterator17::music
-	AudioSource_t608 * ___music_0;
+	AudioSource_t613 * ___music_0;
 	// System.Int32 MusicPlayer/<PlayMusic>c__Iterator17::$PC
 	int32_t ___U24PC_1;
 	// System.Object MusicPlayer/<PlayMusic>c__Iterator17::$current
 	Object_t * ___U24current_2;
 	// UnityEngine.AudioSource MusicPlayer/<PlayMusic>c__Iterator17::<$>music
-	AudioSource_t608 * ___U3CU24U3Emusic_3;
+	AudioSource_t613 * ___U3CU24U3Emusic_3;
 	// MusicPlayer MusicPlayer/<PlayMusic>c__Iterator17::<>f__this
-	MusicPlayer_t609 * ___U3CU3Ef__this_4;
+	MusicPlayer_t614 * ___U3CU3Ef__this_4;
 };

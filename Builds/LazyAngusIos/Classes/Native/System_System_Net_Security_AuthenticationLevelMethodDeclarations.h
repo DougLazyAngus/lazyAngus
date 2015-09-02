@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Security.AuthenticationLevel
-struct AuthenticationLevel_t3983;
+struct AuthenticationLevel_t3999;
 

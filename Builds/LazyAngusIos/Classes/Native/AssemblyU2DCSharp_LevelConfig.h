@@ -3,25 +3,25 @@
 // System.String
 struct String_t;
 // System.Single[]
-struct SingleU5BU5D_t583;
+struct SingleU5BU5D_t587;
 // QuasiRandomGenerator`1<MouseSinkController/MouseHoleLocation>
-struct QuasiRandomGenerator_1_t584;
+struct QuasiRandomGenerator_1_t588;
 // QuasiRandomGenerator`1<System.Int32>
-struct QuasiRandomGenerator_1_t585;
+struct QuasiRandomGenerator_1_t589;
 // QuasiRandomGenerator`1<System.Single>
-struct QuasiRandomGenerator_1_t586;
+struct QuasiRandomGenerator_1_t590;
 // System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription>
-struct Dictionary_2_t587;
+struct Dictionary_2_t591;
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // UnityEngine.Sprite
-struct Sprite_t510;
+struct Sprite_t512;
 // LevelConfig
-struct LevelConfig_t588;
+struct LevelConfig_t592;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // LevelConfig
-struct  LevelConfig_t588  : public MonoBehaviour_t13
+struct  LevelConfig_t592  : public MonoBehaviour_t13
 {
 	// System.Single LevelConfig::paradePause
 	float ___paradePause_4;
@@ -36,7 +36,7 @@ struct  LevelConfig_t588  : public MonoBehaviour_t13
 	// System.Int32 LevelConfig::maxDistributedMice
 	int32_t ___maxDistributedMice_9;
 	// System.Single[] LevelConfig::distributedPauseDist
-	SingleU5BU5D_t583* ___distributedPauseDist_10;
+	SingleU5BU5D_t587* ___distributedPauseDist_10;
 	// System.Single LevelConfig::distributedEndPause
 	float ___distributedEndPause_11;
 	// System.Single LevelConfig::minSpoutPause
@@ -52,21 +52,21 @@ struct  LevelConfig_t588  : public MonoBehaviour_t13
 	// System.Int32 LevelConfig::superSpeedMiceLevel
 	int32_t ___superSpeedMiceLevel_17;
 	// QuasiRandomGenerator`1<MouseSinkController/MouseHoleLocation> LevelConfig::mouseHoleGenerator
-	QuasiRandomGenerator_1_t584 * ___mouseHoleGenerator_18;
+	QuasiRandomGenerator_1_t588 * ___mouseHoleGenerator_18;
 	// QuasiRandomGenerator`1<System.Int32> LevelConfig::trackGenerator
-	QuasiRandomGenerator_1_t585 * ___trackGenerator_19;
+	QuasiRandomGenerator_1_t589 * ___trackGenerator_19;
 	// QuasiRandomGenerator`1<System.Single> LevelConfig::distributedPauseGenerator
-	QuasiRandomGenerator_1_t586 * ___distributedPauseGenerator_20;
+	QuasiRandomGenerator_1_t590 * ___distributedPauseGenerator_20;
 	// System.Collections.Generic.Dictionary`2<System.Int32,LevelDescription> LevelConfig::levelDescMap
-	Dictionary_2_t587 * ___levelDescMap_21;
+	Dictionary_2_t591 * ___levelDescMap_21;
 	// System.Int32[] LevelConfig::boostLevelLocks
 	Int32U5BU5D_t484* ___boostLevelLocks_22;
-	// UnityEngine.Sprite LevelConfig::mouseHoleIntroSprite
-	Sprite_t510 * ___mouseHoleIntroSprite_23;
+	// UnityEngine.Sprite LevelConfig::newMouseTrapSprite
+	Sprite_t512 * ___newMouseTrapSprite_23;
 	// UnityEngine.Sprite LevelConfig::angusIntroSprite
-	Sprite_t510 * ___angusIntroSprite_24;
+	Sprite_t512 * ___angusIntroSprite_24;
 };
-struct LevelConfig_t588_StaticFields{
+struct LevelConfig_t592_StaticFields{
 	// LevelConfig LevelConfig::<instance>k__BackingField
-	LevelConfig_t588 * ___U3CinstanceU3Ek__BackingField_25;
+	LevelConfig_t592 * ___U3CinstanceU3Ek__BackingField_25;
 };

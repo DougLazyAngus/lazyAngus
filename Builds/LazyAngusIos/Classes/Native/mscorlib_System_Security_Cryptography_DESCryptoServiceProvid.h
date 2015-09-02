@@ -3,6 +3,6 @@
 // System.Security.Cryptography.DES
 #include "mscorlib_System_Security_Cryptography_DES.h"
 // System.Security.Cryptography.DESCryptoServiceProvider
-struct  DESCryptoServiceProvider_t4687  : public DES_t3931
+struct  DESCryptoServiceProvider_t4703  : public DES_t3947
 {
 };

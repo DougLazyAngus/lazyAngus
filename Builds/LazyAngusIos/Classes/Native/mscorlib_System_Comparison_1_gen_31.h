@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.EventSystems.IEventSystemHandler
-struct IEventSystemHandler_t1107;
+// RealAngusElementButton
+struct RealAngusElementButton_t639;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -10,7 +10,7 @@ struct AsyncCallback_t386;
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<UnityEngine.EventSystems.IEventSystemHandler>
-struct  Comparison_1_t5777  : public MulticastDelegate_t388
+// System.Comparison`1<RealAngusElementButton>
+struct  Comparison_1_t5789  : public MulticastDelegate_t388
 {
 };

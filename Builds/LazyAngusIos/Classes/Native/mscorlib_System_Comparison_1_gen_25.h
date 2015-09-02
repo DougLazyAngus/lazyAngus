@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // BoostButton
-struct BoostButton_t497;
+struct BoostButton_t499;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<BoostButton>
-struct  Comparison_1_t5709  : public MulticastDelegate_t388
+struct  Comparison_1_t5725  : public MulticastDelegate_t388
 {
 };

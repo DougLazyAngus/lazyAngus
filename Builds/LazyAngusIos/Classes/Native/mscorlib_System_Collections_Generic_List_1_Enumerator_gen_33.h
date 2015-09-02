@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>
-struct List_1_t1040;
-// UnityEngine.EventSystems.IEventSystemHandler
-struct IEventSystemHandler_t1107;
+// System.Collections.Generic.List`1<RealAngusElementButton>
+struct List_1_t640;
+// RealAngusElementButton
+struct RealAngusElementButton_t639;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>
-struct  Enumerator_t5776 
+// System.Collections.Generic.List`1/Enumerator<RealAngusElementButton>
+struct  Enumerator_t5788 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::l
-	List_1_t1040 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<RealAngusElementButton>::l
+	List_1_t640 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<RealAngusElementButton>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<RealAngusElementButton>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::current
-	Object_t * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<RealAngusElementButton>::current
+	RealAngusElementButton_t639 * ___current_3;
 };

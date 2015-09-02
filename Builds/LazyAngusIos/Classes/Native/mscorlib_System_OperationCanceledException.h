@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.OperationCanceledException
-struct  OperationCanceledException_t2150  : public SystemException_t3231
+struct  OperationCanceledException_t2166  : public SystemException_t3247
 {
 };

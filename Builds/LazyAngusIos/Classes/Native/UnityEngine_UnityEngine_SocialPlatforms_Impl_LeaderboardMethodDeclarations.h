@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SocialPlatforms.Impl.Leaderboard
-struct Leaderboard_t2699;
+struct Leaderboard_t2715;
 // System.String
 struct String_t;
 // UnityEngine.SocialPlatforms.IScore
-struct IScore_t2861;
+struct IScore_t2877;
 // UnityEngine.SocialPlatforms.IScore[]
-struct IScoreU5BU5D_t2862;
+struct IScoreU5BU5D_t2878;
 // System.String[]
 struct StringU5BU5D_t75;
 // UnityEngine.SocialPlatforms.UserScope
@@ -22,32 +22,32 @@ struct StringU5BU5D_t75;
 #include "UnityEngine_UnityEngine_SocialPlatforms_TimeScope.h"
 
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::.ctor()
-extern "C" void Leaderboard__ctor_m9952 (Leaderboard_t2699 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Leaderboard__ctor_m10083 (Leaderboard_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.SocialPlatforms.Impl.Leaderboard::ToString()
-extern "C" String_t* Leaderboard_ToString_m9953 (Leaderboard_t2699 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Leaderboard_ToString_m10084 (Leaderboard_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::SetLocalUserScore(UnityEngine.SocialPlatforms.IScore)
-extern "C" void Leaderboard_SetLocalUserScore_m9954 (Leaderboard_t2699 * __this, Object_t * ___score, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Leaderboard_SetLocalUserScore_m10085 (Leaderboard_t2715 * __this, Object_t * ___score, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::SetMaxRange(System.UInt32)
-extern "C" void Leaderboard_SetMaxRange_m9955 (Leaderboard_t2699 * __this, uint32_t ___maxRange, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Leaderboard_SetMaxRange_m10086 (Leaderboard_t2715 * __this, uint32_t ___maxRange, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::SetScores(UnityEngine.SocialPlatforms.IScore[])
-extern "C" void Leaderboard_SetScores_m9956 (Leaderboard_t2699 * __this, IScoreU5BU5D_t2862* ___scores, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Leaderboard_SetScores_m10087 (Leaderboard_t2715 * __this, IScoreU5BU5D_t2878* ___scores, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::SetTitle(System.String)
-extern "C" void Leaderboard_SetTitle_m9957 (Leaderboard_t2699 * __this, String_t* ___title, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Leaderboard_SetTitle_m10088 (Leaderboard_t2715 * __this, String_t* ___title, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] UnityEngine.SocialPlatforms.Impl.Leaderboard::GetUserFilter()
-extern "C" StringU5BU5D_t75* Leaderboard_GetUserFilter_m9958 (Leaderboard_t2699 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t75* Leaderboard_GetUserFilter_m10089 (Leaderboard_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.SocialPlatforms.Impl.Leaderboard::get_id()
-extern "C" String_t* Leaderboard_get_id_m9959 (Leaderboard_t2699 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Leaderboard_get_id_m10090 (Leaderboard_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_id(System.String)
-extern "C" void Leaderboard_set_id_m9960 (Leaderboard_t2699 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Leaderboard_set_id_m10091 (Leaderboard_t2715 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.SocialPlatforms.UserScope UnityEngine.SocialPlatforms.Impl.Leaderboard::get_userScope()
-extern "C" int32_t Leaderboard_get_userScope_m9961 (Leaderboard_t2699 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Leaderboard_get_userScope_m10092 (Leaderboard_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_userScope(UnityEngine.SocialPlatforms.UserScope)
-extern "C" void Leaderboard_set_userScope_m9962 (Leaderboard_t2699 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Leaderboard_set_userScope_m10093 (Leaderboard_t2715 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.SocialPlatforms.Range UnityEngine.SocialPlatforms.Impl.Leaderboard::get_range()
-extern "C" Range_t2863  Leaderboard_get_range_m9963 (Leaderboard_t2699 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Range_t2879  Leaderboard_get_range_m10094 (Leaderboard_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_range(UnityEngine.SocialPlatforms.Range)
-extern "C" void Leaderboard_set_range_m9964 (Leaderboard_t2699 * __this, Range_t2863  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Leaderboard_set_range_m10095 (Leaderboard_t2715 * __this, Range_t2879  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.SocialPlatforms.TimeScope UnityEngine.SocialPlatforms.Impl.Leaderboard::get_timeScope()
-extern "C" int32_t Leaderboard_get_timeScope_m9965 (Leaderboard_t2699 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Leaderboard_get_timeScope_m10096 (Leaderboard_t2715 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_timeScope(UnityEngine.SocialPlatforms.TimeScope)
-extern "C" void Leaderboard_set_timeScope_m9966 (Leaderboard_t2699 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Leaderboard_set_timeScope_m10097 (Leaderboard_t2715 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

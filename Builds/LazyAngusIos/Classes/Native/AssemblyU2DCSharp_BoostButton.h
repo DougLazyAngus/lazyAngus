@@ -1,26 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Button
-struct Button_t499;
+struct Button_t501;
 // UnityEngine.UI.Text
-struct Text_t500;
+struct Text_t502;
 // UnityEngine.UI.Image
-struct Image_t501;
+struct Image_t503;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // BoostConfig/BoostType
 #include "AssemblyU2DCSharp_BoostConfig_BoostType.h"
 // BoostButton
-struct  BoostButton_t497  : public MonoBehaviour_t13
+struct  BoostButton_t499  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Button BoostButton::button
-	Button_t499 * ___button_2;
+	Button_t501 * ___button_2;
 	// UnityEngine.UI.Text BoostButton::levelLockText
-	Text_t500 * ___levelLockText_3;
+	Text_t502 * ___levelLockText_3;
 	// UnityEngine.UI.Image BoostButton::levelLockImage
-	Image_t501 * ___levelLockImage_4;
+	Image_t503 * ___levelLockImage_4;
 	// UnityEngine.UI.Text BoostButton::costText
-	Text_t500 * ___costText_5;
+	Text_t502 * ___costText_5;
 	// BoostConfig/BoostType BoostButton::boostType
 	int32_t ___boostType_6;
 	// System.Int32 BoostButton::priceInTreats

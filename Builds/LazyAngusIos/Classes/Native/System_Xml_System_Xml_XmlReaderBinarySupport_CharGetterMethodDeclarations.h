@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlReaderBinarySupport/CharGetter
-struct CharGetter_t3259;
+struct CharGetter_t3275;
 // System.Object
 struct Object_t;
 // System.Char[]
-struct CharU5BU5D_t698;
+struct CharU5BU5D_t711;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Xml.XmlReaderBinarySupport/CharGetter::.ctor(System.Object,System.IntPtr)
-extern "C" void CharGetter__ctor_m11188 (CharGetter_t3259 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharGetter__ctor_m11317 (CharGetter_t3275 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlReaderBinarySupport/CharGetter::Invoke(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t CharGetter_Invoke_m11189 (CharGetter_t3259 * __this, CharU5BU5D_t698* ___buffer, int32_t ___offset, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CharGetter_Invoke_m11318 (CharGetter_t3275 * __this, CharU5BU5D_t711* ___buffer, int32_t ___offset, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 #include "mscorlib_ArrayTypes.h"
 // System.Char
 #include "mscorlib_System_Char.h"
-extern "C" int32_t pinvoke_delegate_wrapper_CharGetter_t3259(Il2CppObject* delegate, CharU5BU5D_t698* ___buffer, int32_t ___offset, int32_t ___length);
+extern "C" int32_t pinvoke_delegate_wrapper_CharGetter_t3275(Il2CppObject* delegate, CharU5BU5D_t711* ___buffer, int32_t ___offset, int32_t ___length);
 // System.IAsyncResult System.Xml.XmlReaderBinarySupport/CharGetter::BeginInvoke(System.Char[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-extern "C" Object_t * CharGetter_BeginInvoke_m11190 (CharGetter_t3259 * __this, CharU5BU5D_t698* ___buffer, int32_t ___offset, int32_t ___length, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CharGetter_BeginInvoke_m11319 (CharGetter_t3275 * __this, CharU5BU5D_t711* ___buffer, int32_t ___offset, int32_t ___length, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlReaderBinarySupport/CharGetter::EndInvoke(System.IAsyncResult)
-extern "C" int32_t CharGetter_EndInvoke_m11191 (CharGetter_t3259 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CharGetter_EndInvoke_m11320 (CharGetter_t3275 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

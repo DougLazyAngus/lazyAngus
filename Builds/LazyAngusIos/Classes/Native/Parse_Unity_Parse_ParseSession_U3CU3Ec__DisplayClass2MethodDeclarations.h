@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseSession/<>c__DisplayClass2
-struct U3CU3Ec__DisplayClass2_t1303;
+struct U3CU3Ec__DisplayClass2_t1319;
 // System.Threading.Tasks.Task`1<Parse.ParseSession>
-struct Task_1_t1408;
+struct Task_1_t1424;
 // System.Threading.Tasks.Task`1<Parse.ParseUser>
-struct Task_1_t1391;
+struct Task_1_t1407;
 // Parse.ParseSession
-struct ParseSession_t1304;
+struct ParseSession_t1320;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>
-struct Task_1_t1388;
+struct Task_1_t1404;
 
 // System.Void Parse.ParseSession/<>c__DisplayClass2::.ctor()
-extern "C" void U3CU3Ec__DisplayClass2__ctor_m7032 (U3CU3Ec__DisplayClass2_t1303 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass2__ctor_m7164 (U3CU3Ec__DisplayClass2_t1319 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<Parse.ParseSession> Parse.ParseSession/<>c__DisplayClass2::<GetCurrentSessionAsync>b__0(System.Threading.Tasks.Task`1<Parse.ParseUser>)
-extern "C" Task_1_t1408 * U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__0_m7033 (U3CU3Ec__DisplayClass2_t1303 * __this, Task_1_t1391 * ___t1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1424 * U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__0_m7165 (U3CU3Ec__DisplayClass2_t1319 * __this, Task_1_t1407 * ___t1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Parse.ParseSession Parse.ParseSession/<>c__DisplayClass2::<GetCurrentSessionAsync>b__1(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-extern "C" ParseSession_t1304 * U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__1_m7034 (Object_t * __this /* static, unused */, Task_1_t1388 * ___t2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParseSession_t1320 * U3CU3Ec__DisplayClass2_U3CGetCurrentSessionAsyncU3Eb__1_m7166 (Object_t * __this /* static, unused */, Task_1_t1404 * ___t2, const MethodInfo* method) IL2CPP_METHOD_ATTR;

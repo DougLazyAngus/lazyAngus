@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.NameTable/Entry
-struct Entry_t3204;
+struct Entry_t3220;
 // System.String
 struct String_t;
 
 // System.Void System.Xml.NameTable/Entry::.ctor(System.String,System.Int32,System.Xml.NameTable/Entry)
-extern "C" void Entry__ctor_m10746 (Entry_t3204 * __this, String_t* ___str, int32_t ___hash, Entry_t3204 * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Entry__ctor_m10875 (Entry_t3220 * __this, String_t* ___str, int32_t ___hash, Entry_t3220 * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;

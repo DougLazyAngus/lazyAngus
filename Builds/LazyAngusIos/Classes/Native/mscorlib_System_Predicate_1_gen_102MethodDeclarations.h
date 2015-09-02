@@ -4,26 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Predicate`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>
-struct Predicate_1_t8469;
+// System.Predicate`1<UnityEngine.UICharInfo>
+struct Predicate_1_t8467;
 // System.Object
 struct Object_t;
-// UnityEngine.Networking.Match.MatchDirectConnectInfo
-struct MatchDirectConnectInfo_t2805;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
+// UnityEngine.UICharInfo
+#include "UnityEngine_UnityEngine_UICharInfo.h"
 
-// System.Void System.Predicate`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>::.ctor(System.Object,System.IntPtr)
-// System.Predicate`1<System.Object>
-#include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m61473(__this, ___object, ___method, method) (( void (*) (Predicate_1_t8469 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21742_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>::Invoke(T)
-#define Predicate_1_Invoke_m61474(__this, ___obj, method) (( bool (*) (Predicate_1_t8469 *, MatchDirectConnectInfo_t2805 *, const MethodInfo*))Predicate_1_Invoke_m21743_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m61475(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t8469 *, MatchDirectConnectInfo_t2805 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21744_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m61476(__this, ___result, method) (( bool (*) (Predicate_1_t8469 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21745_gshared)(__this, ___result, method)
+// System.Void System.Predicate`1<UnityEngine.UICharInfo>::.ctor(System.Object,System.IntPtr)
+extern "C" void Predicate_1__ctor_m61326_gshared (Predicate_1_t8467 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Predicate_1__ctor_m61326(__this, ___object, ___method, method) (( void (*) (Predicate_1_t8467 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m61326_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<UnityEngine.UICharInfo>::Invoke(T)
+extern "C" bool Predicate_1_Invoke_m61327_gshared (Predicate_1_t8467 * __this, UICharInfo_t1095  ___obj, const MethodInfo* method);
+#define Predicate_1_Invoke_m61327(__this, ___obj, method) (( bool (*) (Predicate_1_t8467 *, UICharInfo_t1095 , const MethodInfo*))Predicate_1_Invoke_m61327_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<UnityEngine.UICharInfo>::BeginInvoke(T,System.AsyncCallback,System.Object)
+extern "C" Object_t * Predicate_1_BeginInvoke_m61328_gshared (Predicate_1_t8467 * __this, UICharInfo_t1095  ___obj, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Predicate_1_BeginInvoke_m61328(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t8467 *, UICharInfo_t1095 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m61328_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<UnityEngine.UICharInfo>::EndInvoke(System.IAsyncResult)
+extern "C" bool Predicate_1_EndInvoke_m61329_gshared (Predicate_1_t8467 * __this, Object_t * ___result, const MethodInfo* method);
+#define Predicate_1_EndInvoke_m61329(__this, ___result, method) (( bool (*) (Predicate_1_t8467 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m61329_gshared)(__this, ___result, method)

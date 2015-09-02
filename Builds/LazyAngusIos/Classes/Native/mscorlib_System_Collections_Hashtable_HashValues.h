@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable
-struct Hashtable_t697;
+struct Hashtable_t710;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Hashtable/HashValues
-struct  HashValues_t4446  : public Object_t
+struct  HashValues_t4462  : public Object_t
 {
 	// System.Collections.Hashtable System.Collections.Hashtable/HashValues::host
-	Hashtable_t697 * ___host_0;
+	Hashtable_t710 * ___host_0;
 };

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.ModuleBuilder
-struct ModuleBuilder_t4518;
+struct ModuleBuilder_t4534;
 
 // System.Void System.Reflection.Emit.ModuleBuilder::.cctor()
-extern "C" void ModuleBuilder__cctor_m17798 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ModuleBuilder__cctor_m17927 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,10 +5,10 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Channels.CrossAppDomainChannel
-struct  CrossAppDomainChannel_t4596  : public Object_t
+struct  CrossAppDomainChannel_t4612  : public Object_t
 {
 };
-struct CrossAppDomainChannel_t4596_StaticFields{
+struct CrossAppDomainChannel_t4612_StaticFields{
 	// System.Object System.Runtime.Remoting.Channels.CrossAppDomainChannel::s_lock
 	Object_t * ___s_lock_0;
 };

@@ -7,26 +7,26 @@ struct String_t;
 // System.String[]
 struct StringU5BU5D_t75;
 // Parse.Internal.IPlatformHooks
-struct IPlatformHooks_t1226;
+struct IPlatformHooks_t1242;
 // System.Collections.Generic.Dictionary`2<System.Tuple`2<System.Type,System.Type>,System.Type>
-struct Dictionary_2_t1227;
+struct Dictionary_2_t1243;
 // System.Uri
-struct Uri_t758;
+struct Uri_t771;
 // System.Func`2<System.Object,System.Object>
-struct Func_2_t1228;
+struct Func_2_t1244;
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,<>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>>
-struct Func_2_t1229;
+struct Func_2_t1245;
 // System.Func`2<<>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>,System.String>
-struct Func_2_t1230;
+struct Func_2_t1246;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Nullable`1<System.Guid>
 #include "mscorlib_System_Nullable_1_gen_1.h"
 // Parse.ParseClient
-struct  ParseClient_t1231  : public Object_t
+struct  ParseClient_t1247  : public Object_t
 {
 };
-struct ParseClient_t1231_StaticFields{
+struct ParseClient_t1247_StaticFields{
 	// System.Object Parse.ParseClient::mutex
 	Object_t * ___mutex_0;
 	// System.String Parse.ParseClient::versionString
@@ -40,11 +40,11 @@ struct ParseClient_t1231_StaticFields{
 	// System.String Parse.ParseClient::revocableSessionTokenTrueValue
 	String_t* ___revocableSessionTokenTrueValue_5;
 	// System.Nullable`1<System.Guid> Parse.ParseClient::installationId
-	Nullable_1_t1232  ___installationId_6;
+	Nullable_1_t1248  ___installationId_6;
 	// System.Collections.Generic.Dictionary`2<System.Tuple`2<System.Type,System.Type>,System.Type> Parse.ParseClient::interfaceLookupCache
-	Dictionary_2_t1227 * ___interfaceLookupCache_7;
+	Dictionary_2_t1243 * ___interfaceLookupCache_7;
 	// System.Uri Parse.ParseClient::<HostName>k__BackingField
-	Uri_t758 * ___U3CHostNameU3Ek__BackingField_8;
+	Uri_t771 * ___U3CHostNameU3Ek__BackingField_8;
 	// System.String Parse.ParseClient::<MasterKey>k__BackingField
 	String_t* ___U3CMasterKeyU3Ek__BackingField_9;
 	// System.String Parse.ParseClient::<ApplicationId>k__BackingField
@@ -52,9 +52,9 @@ struct ParseClient_t1231_StaticFields{
 	// System.String Parse.ParseClient::<WindowsKey>k__BackingField
 	String_t* ___U3CWindowsKeyU3Ek__BackingField_11;
 	// System.Func`2<System.Object,System.Object> Parse.ParseClient::CS$<>9__CachedAnonymousMethodDelegate1
-	Func_2_t1228 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_12;
+	Func_2_t1244 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_12;
 	// System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,<>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>> Parse.ParseClient::CS$<>9__CachedAnonymousMethodDelegate10
-	Func_2_t1229 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate10_13;
+	Func_2_t1245 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate10_13;
 	// System.Func`2<<>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>,System.String> Parse.ParseClient::CS$<>9__CachedAnonymousMethodDelegate11
-	Func_2_t1230 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate11_14;
+	Func_2_t1246 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate11_14;
 };

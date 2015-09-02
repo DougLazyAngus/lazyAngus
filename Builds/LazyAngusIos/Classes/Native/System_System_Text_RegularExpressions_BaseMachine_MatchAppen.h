@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.Match
-struct Match_t1375;
+struct Match_t1391;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // System.IAsyncResult
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Text.RegularExpressions.BaseMachine/MatchAppendEvaluator
-struct  MatchAppendEvaluator_t4116  : public MulticastDelegate_t388
+struct  MatchAppendEvaluator_t4132  : public MulticastDelegate_t388
 {
 };

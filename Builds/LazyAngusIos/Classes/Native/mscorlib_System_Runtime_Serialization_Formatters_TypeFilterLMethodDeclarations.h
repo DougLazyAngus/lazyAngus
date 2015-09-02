@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.Formatters.TypeFilterLevel
-struct TypeFilterLevel_t4661;
+struct TypeFilterLevel_t4677;
 

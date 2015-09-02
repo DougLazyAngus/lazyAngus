@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Locale
-struct Locale_t4359;
+struct Locale_t4375;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t683;
+struct ObjectU5BU5D_t696;
 
 // System.String Locale::GetText(System.String)
-extern "C" String_t* Locale_GetText_m16318 (Object_t * __this /* static, unused */, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Locale_GetText_m16447 (Object_t * __this /* static, unused */, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Locale::GetText(System.String,System.Object[])
-extern "C" String_t* Locale_GetText_m16319 (Object_t * __this /* static, unused */, String_t* ___fmt, ObjectU5BU5D_t683* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Locale_GetText_m16448 (Object_t * __this /* static, unused */, String_t* ___fmt, ObjectU5BU5D_t696* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;

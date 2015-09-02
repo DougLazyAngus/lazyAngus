@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.Task/<>c__DisplayClasse
-struct U3CU3Ec__DisplayClasse_t1347;
+struct U3CU3Ec__DisplayClasse_t1363;
 // System.Threading.Tasks.Task[]
-struct TaskU5BU5D_t1343;
+struct TaskU5BU5D_t1359;
 // System.Threading.Tasks.Task
-struct Task_t1211;
+struct Task_t1227;
 // System.AggregateException
-struct AggregateException_t1339;
+struct AggregateException_t1355;
 
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClasse::.ctor()
-extern "C" void U3CU3Ec__DisplayClasse__ctor_m7250 (U3CU3Ec__DisplayClasse_t1347 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClasse__ctor_m7382 (U3CU3Ec__DisplayClasse_t1363 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClasse::<WhenAll>b__a(System.Threading.Tasks.Task[])
-extern "C" void U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__a_m7251 (U3CU3Ec__DisplayClasse_t1347 * __this, TaskU5BU5D_t1343* ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__a_m7383 (U3CU3Ec__DisplayClasse_t1363 * __this, TaskU5BU5D_t1359* ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.Tasks.Task/<>c__DisplayClasse::<WhenAll>b__b(System.Threading.Tasks.Task)
-extern "C" bool U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__b_m7252 (Object_t * __this /* static, unused */, Task_t1211 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__b_m7384 (Object_t * __this /* static, unused */, Task_t1227 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.AggregateException System.Threading.Tasks.Task/<>c__DisplayClasse::<WhenAll>b__c(System.Threading.Tasks.Task)
-extern "C" AggregateException_t1339 * U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__c_m7253 (Object_t * __this /* static, unused */, Task_t1211 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AggregateException_t1355 * U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__c_m7385 (Object_t * __this /* static, unused */, Task_t1227 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.Tasks.Task/<>c__DisplayClasse::<WhenAll>b__d(System.Threading.Tasks.Task)
-extern "C" bool U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__d_m7254 (Object_t * __this /* static, unused */, Task_t1211 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool U3CU3Ec__DisplayClasse_U3CWhenAllU3Eb__d_m7386 (Object_t * __this /* static, unused */, Task_t1227 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

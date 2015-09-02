@@ -1,24 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Camera
-struct Camera_t545;
+struct Camera_t548;
 // SizeCamera
-struct SizeCamera_t516;
-// UnityEngine.MonoBehaviour
-#include "UnityEngine_UnityEngine_MonoBehaviour.h"
+struct SizeCamera_t519;
+// BounceLerp
+#include "AssemblyU2DCSharp_BounceLerp.h"
 // ZoomCamera
-struct  ZoomCamera_t643  : public MonoBehaviour_t13
+struct  ZoomCamera_t660  : public BounceLerp_t515
 {
 	// System.Single ZoomCamera::zoomOutScale
-	float ___zoomOutScale_2;
-	// System.Single ZoomCamera::zoomInScale
-	float ___zoomInScale_3;
+	float ___zoomOutScale_7;
 	// System.Single ZoomCamera::phaseStartTime
-	float ___phaseStartTime_4;
+	float ___phaseStartTime_8;
+	// System.Single ZoomCamera::timeToStartZooming
+	float ___timeToStartZooming_9;
 	// UnityEngine.Camera ZoomCamera::myCamera
-	Camera_t545 * ___myCamera_5;
+	Camera_t548 * ___myCamera_10;
 	// SizeCamera ZoomCamera::mySizeCamera
-	SizeCamera_t516 * ___mySizeCamera_6;
+	SizeCamera_t519 * ___mySizeCamera_11;
 	// System.Boolean ZoomCamera::registeredForEvents
-	bool ___registeredForEvents_7;
+	bool ___registeredForEvents_12;
+	// System.Boolean ZoomCamera::zooming
+	bool ___zooming_13;
 };

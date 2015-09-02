@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.KeyValuePair`2<System.String,System.String>[]
-struct KeyValuePair_2U5BU5D_t6101;
+// UnityEngine.RectTransform[]
+struct RectTransformU5BU5D_t551;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
-struct  List_1_t1386  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.RectTransform>
+struct  List_1_t1019  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::_items
-	KeyValuePair_2U5BU5D_t6101* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::_items
+	RectTransformU5BU5D_t551* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1386_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::EmptyArray
-	KeyValuePair_2U5BU5D_t6101* ___EmptyArray_4;
+struct List_1_t1019_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::EmptyArray
+	RectTransformU5BU5D_t551* ___EmptyArray_4;
 };

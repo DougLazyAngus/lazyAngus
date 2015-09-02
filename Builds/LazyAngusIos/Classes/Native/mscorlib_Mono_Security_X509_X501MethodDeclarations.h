@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.X501
-struct X501_t4413;
+struct X501_t4429;
 // System.String
 struct String_t;
 // Mono.Security.ASN1
-struct ASN1_t4408;
+struct ASN1_t4424;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 
 // System.Void Mono.Security.X509.X501::.cctor()
-extern "C" void X501__cctor_m16683 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X501__cctor_m16812 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.X501::ToString(Mono.Security.ASN1)
-extern "C" String_t* X501_ToString_m16684 (Object_t * __this /* static, unused */, ASN1_t4408 * ___seq, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X501_ToString_m16813 (Object_t * __this /* static, unused */, ASN1_t4424 * ___seq, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.X501::ToString(Mono.Security.ASN1,System.Boolean,System.String,System.Boolean)
-extern "C" String_t* X501_ToString_m16685 (Object_t * __this /* static, unused */, ASN1_t4408 * ___seq, bool ___reversed, String_t* ___separator, bool ___quotes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X501_ToString_m16814 (Object_t * __this /* static, unused */, ASN1_t4424 * ___seq, bool ___reversed, String_t* ___separator, bool ___quotes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.X501::AppendEntry(System.Text.StringBuilder,Mono.Security.ASN1,System.Boolean)
-extern "C" void X501_AppendEntry_m16686 (Object_t * __this /* static, unused */, StringBuilder_t261 * ___sb, ASN1_t4408 * ___entry, bool ___quotes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X501_AppendEntry_m16815 (Object_t * __this /* static, unused */, StringBuilder_t261 * ___sb, ASN1_t4424 * ___entry, bool ___quotes, const MethodInfo* method) IL2CPP_METHOD_ATTR;

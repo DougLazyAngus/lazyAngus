@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<Facebook.FacebookDelegate>
-struct IList_1_t5658;
+struct IList_1_t5674;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ObjectModel.ReadOnlyCollection`1<Facebook.FacebookDelegate>
-struct  ReadOnlyCollection_1_t5659  : public Object_t
+struct  ReadOnlyCollection_1_t5675  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<Facebook.FacebookDelegate>::list
 	Object_t* ___list_0;

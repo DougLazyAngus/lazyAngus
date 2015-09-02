@@ -1,20 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<Parse.ParseACL>
-struct List_1_t6973;
-// Parse.ParseACL
-struct ParseACL_t1217;
+// System.Collections.Generic.List`1<System.Boolean>
+struct List_1_t6960;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<Parse.ParseACL>
-struct  Enumerator_t6976 
+// System.Collections.Generic.List`1/Enumerator<System.Boolean>
+struct  Enumerator_t6963 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Parse.ParseACL>::l
-	List_1_t6973 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseACL>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Boolean>::l
+	List_1_t6960 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Boolean>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseACL>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Boolean>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<Parse.ParseACL>::current
-	ParseACL_t1217 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Boolean>::current
+	bool ___current_3;
 };

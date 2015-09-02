@@ -5,7 +5,7 @@
 // MouseConfig/MovementPhaseType
 #include "AssemblyU2DCSharp_MouseConfig_MovementPhaseType.h"
 // MouseConfig/MovementPhaseType
-struct  MovementPhaseType_t591 
+struct  MovementPhaseType_t596 
 {
 	// System.Int32 MouseConfig/MovementPhaseType::value__
 	int32_t ___value___1;

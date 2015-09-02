@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
-struct Dictionary_2_t2715;
+struct Dictionary_2_t2731;
 // UnityEngine.GUILayoutUtility/LayoutCache
-struct LayoutCache_t2714;
+struct LayoutCache_t2730;
 // UnityEngine.GUIStyle
 struct GUIStyle_t107;
 // System.Object
@@ -11,18 +11,18 @@ struct GUIStyle_t107;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.GUILayoutUtility
-struct  GUILayoutUtility_t705  : public Object_t
+struct  GUILayoutUtility_t718  : public Object_t
 {
 };
-struct GUILayoutUtility_t705_StaticFields{
+struct GUILayoutUtility_t718_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache> UnityEngine.GUILayoutUtility::storedLayouts
-	Dictionary_2_t2715 * ___storedLayouts_0;
+	Dictionary_2_t2731 * ___storedLayouts_0;
 	// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache> UnityEngine.GUILayoutUtility::storedWindows
-	Dictionary_2_t2715 * ___storedWindows_1;
+	Dictionary_2_t2731 * ___storedWindows_1;
 	// UnityEngine.GUILayoutUtility/LayoutCache UnityEngine.GUILayoutUtility::current
-	LayoutCache_t2714 * ___current_2;
+	LayoutCache_t2730 * ___current_2;
 	// UnityEngine.Rect UnityEngine.GUILayoutUtility::kDummyRect
-	Rect_t695  ___kDummyRect_3;
+	Rect_t708  ___kDummyRect_3;
 	// UnityEngine.GUIStyle UnityEngine.GUILayoutUtility::s_SpaceStyle
 	GUIStyle_t107 * ___s_SpaceStyle_4;
 };

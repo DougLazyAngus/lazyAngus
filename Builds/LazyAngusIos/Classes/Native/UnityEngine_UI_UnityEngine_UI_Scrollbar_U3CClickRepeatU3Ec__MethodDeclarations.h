@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4
-struct U3CClickRepeatU3Ec__Iterator4_t963;
+struct U3CClickRepeatU3Ec__Iterator4_t978;
 // System.Object
 struct Object_t;
 
 // System.Void UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::.ctor()
-extern "C" void U3CClickRepeatU3Ec__Iterator4__ctor_m5270 (U3CClickRepeatU3Ec__Iterator4_t963 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CClickRepeatU3Ec__Iterator4__ctor_m5402 (U3CClickRepeatU3Ec__Iterator4_t978 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C" Object_t * U3CClickRepeatU3Ec__Iterator4_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m5271 (U3CClickRepeatU3Ec__Iterator4_t963 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * U3CClickRepeatU3Ec__Iterator4_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m5403 (U3CClickRepeatU3Ec__Iterator4_t978 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * U3CClickRepeatU3Ec__Iterator4_System_Collections_IEnumerator_get_Current_m5272 (U3CClickRepeatU3Ec__Iterator4_t963 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * U3CClickRepeatU3Ec__Iterator4_System_Collections_IEnumerator_get_Current_m5404 (U3CClickRepeatU3Ec__Iterator4_t978 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::MoveNext()
-extern "C" bool U3CClickRepeatU3Ec__Iterator4_MoveNext_m5273 (U3CClickRepeatU3Ec__Iterator4_t963 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool U3CClickRepeatU3Ec__Iterator4_MoveNext_m5405 (U3CClickRepeatU3Ec__Iterator4_t978 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::Dispose()
-extern "C" void U3CClickRepeatU3Ec__Iterator4_Dispose_m5274 (U3CClickRepeatU3Ec__Iterator4_t963 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CClickRepeatU3Ec__Iterator4_Dispose_m5406 (U3CClickRepeatU3Ec__Iterator4_t978 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::Reset()
-extern "C" void U3CClickRepeatU3Ec__Iterator4_Reset_m5275 (U3CClickRepeatU3Ec__Iterator4_t963 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CClickRepeatU3Ec__Iterator4_Reset_m5407 (U3CClickRepeatU3Ec__Iterator4_t978 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

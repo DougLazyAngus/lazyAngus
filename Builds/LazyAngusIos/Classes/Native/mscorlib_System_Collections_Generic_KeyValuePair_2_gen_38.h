@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.ICanvasElement
-struct ICanvasElement_t1042;
+struct ICanvasElement_t1057;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>
-struct  KeyValuePair_2_t5886 
+struct  KeyValuePair_2_t5915 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>::key
 	Object_t * ___key_0;

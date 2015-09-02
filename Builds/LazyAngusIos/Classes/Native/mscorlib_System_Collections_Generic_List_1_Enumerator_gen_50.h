@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Threading.Tasks.Task>
-struct List_1_t1494;
-// System.Threading.Tasks.Task
-struct Task_t1211;
+// System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
+struct List_1_t1001;
+// UnityEngine.UI.Toggle
+struct Toggle_t1000;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>
-struct  Enumerator_t5995 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>
+struct  Enumerator_t5950 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::l
-	List_1_t1494 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::l
+	List_1_t1001 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::current
-	Task_t1211 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::current
+	Toggle_t1000 * ___current_3;
 };

@@ -3,41 +3,41 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.Tuple`2<System.Type,System.String>,System.String>
-struct IDictionary_2_t1275;
+struct IDictionary_2_t1291;
 // System.Collections.Generic.IDictionary`2<System.String,System.Tuple`2<System.Func`1<Parse.ParseObject>,System.Type>>
-struct IDictionary_2_t1276;
+struct IDictionary_2_t1292;
 // System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.String>>
-struct IDictionary_2_t1277;
+struct IDictionary_2_t1293;
 // System.Threading.ReaderWriterLockSlim
-struct ReaderWriterLockSlim_t1278;
+struct ReaderWriterLockSlim_t1294;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t823;
+struct IDictionary_2_t836;
 // System.Collections.Generic.LinkedList`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
-struct LinkedList_1_t1279;
+struct LinkedList_1_t1295;
 // System.Collections.Generic.IDictionary`2<System.String,System.Boolean>
-struct IDictionary_2_t1280;
+struct IDictionary_2_t1296;
 // System.Collections.Generic.IDictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>
-struct IDictionary_2_t1281;
+struct IDictionary_2_t1297;
 // System.Threading.ThreadLocal`1<System.Boolean>
-struct ThreadLocal_1_t1282;
+struct ThreadLocal_1_t1298;
 // Parse.Internal.TaskQueue
-struct TaskQueue_t1212;
+struct TaskQueue_t1228;
 // Parse.Internal.SynchronizedEventHandler`1<System.ComponentModel.PropertyChangedEventArgs>
-struct SynchronizedEventHandler_1_t1283;
+struct SynchronizedEventHandler_1_t1299;
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseFieldOperation>,System.String>
-struct Func_2_t1284;
+struct Func_2_t1300;
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseFieldOperation>,Parse.Internal.IParseFieldOperation>
-struct Func_2_t1285;
+struct Func_2_t1301;
 // System.Func`2<Parse.ParseObject,System.Boolean>
-struct Func_2_t1269;
+struct Func_2_t1285;
 // System.Func`2<Parse.ParseObject,System.String>
-struct Func_2_t1200;
+struct Func_2_t1216;
 // System.Func`2<Parse.ParseObject,Parse.ParseObject>
-struct Func_2_t1286;
+struct Func_2_t1302;
 // System.Func`2<Parse.ParseFile,System.Boolean>
-struct Func_2_t1287;
+struct Func_2_t1303;
 // System.Func`1<System.Boolean>
 struct Func_1_t458;
 // System.Object
@@ -45,14 +45,14 @@ struct Func_1_t458;
 // System.Nullable`1<System.DateTime>
 #include "mscorlib_System_Nullable_1_gen_2.h"
 // Parse.ParseObject
-struct  ParseObject_t1222  : public Object_t
+struct  ParseObject_t1238  : public Object_t
 {
 	// System.Object Parse.ParseObject::mutex
 	Object_t * ___mutex_5;
 	// System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseObject::serverData
 	Object_t* ___serverData_6;
 	// System.Collections.Generic.LinkedList`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>> Parse.ParseObject::operationSetQueue
-	LinkedList_1_t1279 * ___operationSetQueue_7;
+	LinkedList_1_t1295 * ___operationSetQueue_7;
 	// System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseObject::estimatedData
 	Object_t* ___estimatedData_8;
 	// System.Collections.Generic.IDictionary`2<System.String,System.Boolean> Parse.ParseObject::dataAvailability
@@ -64,21 +64,21 @@ struct  ParseObject_t1222  : public Object_t
 	// System.Boolean Parse.ParseObject::dirty
 	bool ___dirty_13;
 	// Parse.Internal.TaskQueue Parse.ParseObject::taskQueue
-	TaskQueue_t1212 * ___taskQueue_14;
+	TaskQueue_t1228 * ___taskQueue_14;
 	// System.Boolean Parse.ParseObject::isNew
 	bool ___isNew_15;
 	// System.Nullable`1<System.DateTime> Parse.ParseObject::updatedAt
-	Nullable_1_t1288  ___updatedAt_16;
+	Nullable_1_t1304  ___updatedAt_16;
 	// System.Nullable`1<System.DateTime> Parse.ParseObject::createdAt
-	Nullable_1_t1288  ___createdAt_17;
+	Nullable_1_t1304  ___createdAt_17;
 	// System.String Parse.ParseObject::objectId
 	String_t* ___objectId_18;
 	// System.String Parse.ParseObject::className
 	String_t* ___className_19;
 	// Parse.Internal.SynchronizedEventHandler`1<System.ComponentModel.PropertyChangedEventArgs> Parse.ParseObject::propertyChanged
-	SynchronizedEventHandler_1_t1283 * ___propertyChanged_20;
+	SynchronizedEventHandler_1_t1299 * ___propertyChanged_20;
 };
-struct ParseObject_t1222_StaticFields{
+struct ParseObject_t1238_StaticFields{
 	// System.String Parse.ParseObject::AutoClassName
 	String_t* ___AutoClassName_0;
 	// System.Collections.Generic.IDictionary`2<System.Tuple`2<System.Type,System.String>,System.String> Parse.ParseObject::propertyFieldNames
@@ -88,25 +88,25 @@ struct ParseObject_t1222_StaticFields{
 	// System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.String>> Parse.ParseObject::propertyMappings
 	Object_t* ___propertyMappings_3;
 	// System.Threading.ReaderWriterLockSlim Parse.ParseObject::propertyMappingsLock
-	ReaderWriterLockSlim_t1278 * ___propertyMappingsLock_4;
+	ReaderWriterLockSlim_t1294 * ___propertyMappingsLock_4;
 	// System.Threading.ThreadLocal`1<System.Boolean> Parse.ParseObject::isCreatingPointer
-	ThreadLocal_1_t1282 * ___isCreatingPointer_11;
+	ThreadLocal_1_t1298 * ___isCreatingPointer_11;
 	// System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseFieldOperation>,System.String> Parse.ParseObject::CS$<>9__CachedAnonymousMethodDelegate7
-	Func_2_t1284 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate7_21;
+	Func_2_t1300 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate7_21;
 	// System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseFieldOperation>,Parse.Internal.IParseFieldOperation> Parse.ParseObject::CS$<>9__CachedAnonymousMethodDelegate8
-	Func_2_t1285 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate8_22;
+	Func_2_t1301 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate8_22;
 	// System.Func`2<Parse.ParseObject,System.Boolean> Parse.ParseObject::CS$<>9__CachedAnonymousMethodDelegatea
-	Func_2_t1269 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegatea_23;
+	Func_2_t1285 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegatea_23;
 	// System.Func`2<Parse.ParseObject,System.Boolean> Parse.ParseObject::CS$<>9__CachedAnonymousMethodDelegatee
-	Func_2_t1269 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegatee_24;
+	Func_2_t1285 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegatee_24;
 	// System.Func`2<Parse.ParseObject,System.String> Parse.ParseObject::CS$<>9__CachedAnonymousMethodDelegatef
-	Func_2_t1200 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegatef_25;
+	Func_2_t1216 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegatef_25;
 	// System.Func`2<Parse.ParseObject,Parse.ParseObject> Parse.ParseObject::CS$<>9__CachedAnonymousMethodDelegate10
-	Func_2_t1286 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate10_26;
+	Func_2_t1302 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate10_26;
 	// System.Func`2<Parse.ParseFile,System.Boolean> Parse.ParseObject::CS$<>9__CachedAnonymousMethodDelegate2f
-	Func_2_t1287 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate2f_27;
+	Func_2_t1303 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate2f_27;
 	// System.Func`2<Parse.ParseObject,System.Boolean> Parse.ParseObject::CS$<>9__CachedAnonymousMethodDelegate81
-	Func_2_t1269 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate81_28;
+	Func_2_t1285 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate81_28;
 	// System.Func`1<System.Boolean> Parse.ParseObject::CS$<>9__CachedAnonymousMethodDelegate8c
 	Func_1_t458 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate8c_29;
 };

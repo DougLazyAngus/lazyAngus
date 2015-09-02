@@ -9,42 +9,42 @@ struct EventDispatcher_t129;
 // System.String
 struct String_t;
 // UnionAssets.FLE.EventHandlerFunction
-struct EventHandlerFunction_t676;
+struct EventHandlerFunction_t689;
 // UnionAssets.FLE.DataEventHandlerFunction
-struct DataEventHandlerFunction_t677;
+struct DataEventHandlerFunction_t690;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>
-struct List_1_t680;
+struct List_1_t693;
 // System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct List_1_t681;
+struct List_1_t694;
 
 // System.Void UnionAssets.FLE.EventDispatcher::.ctor()
 extern "C" void EventDispatcher__ctor_m626 (EventDispatcher_t129 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
-extern "C" void EventDispatcher_addEventListener_m627 (EventDispatcher_t129 * __this, String_t* ___eventName, EventHandlerFunction_t676 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventDispatcher_addEventListener_m627 (EventDispatcher_t129 * __this, String_t* ___eventName, EventHandlerFunction_t689 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
-extern "C" void EventDispatcher_addEventListener_m628 (EventDispatcher_t129 * __this, int32_t ___eventID, EventHandlerFunction_t676 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventDispatcher_addEventListener_m628 (EventDispatcher_t129 * __this, int32_t ___eventID, EventHandlerFunction_t689 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction,System.String)
-extern "C" void EventDispatcher_addEventListener_m629 (EventDispatcher_t129 * __this, int32_t ___eventID, EventHandlerFunction_t676 * ___handler, String_t* ___eventGraphName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventDispatcher_addEventListener_m629 (EventDispatcher_t129 * __this, int32_t ___eventID, EventHandlerFunction_t689 * ___handler, String_t* ___eventGraphName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
-extern "C" void EventDispatcher_addEventListener_m630 (EventDispatcher_t129 * __this, String_t* ___eventName, DataEventHandlerFunction_t677 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventDispatcher_addEventListener_m630 (EventDispatcher_t129 * __this, String_t* ___eventName, DataEventHandlerFunction_t690 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
-extern "C" void EventDispatcher_addEventListener_m631 (EventDispatcher_t129 * __this, int32_t ___eventID, DataEventHandlerFunction_t677 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventDispatcher_addEventListener_m631 (EventDispatcher_t129 * __this, int32_t ___eventID, DataEventHandlerFunction_t690 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction,System.String)
-extern "C" void EventDispatcher_addEventListener_m632 (EventDispatcher_t129 * __this, int32_t ___eventID, DataEventHandlerFunction_t677 * ___handler, String_t* ___eventGraphName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventDispatcher_addEventListener_m632 (EventDispatcher_t129 * __this, int32_t ___eventID, DataEventHandlerFunction_t690 * ___handler, String_t* ___eventGraphName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
-extern "C" void EventDispatcher_removeEventListener_m633 (EventDispatcher_t129 * __this, String_t* ___eventName, EventHandlerFunction_t676 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventDispatcher_removeEventListener_m633 (EventDispatcher_t129 * __this, String_t* ___eventName, EventHandlerFunction_t689 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
-extern "C" void EventDispatcher_removeEventListener_m634 (EventDispatcher_t129 * __this, int32_t ___eventID, EventHandlerFunction_t676 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventDispatcher_removeEventListener_m634 (EventDispatcher_t129 * __this, int32_t ___eventID, EventHandlerFunction_t689 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction,System.String)
-extern "C" void EventDispatcher_removeEventListener_m635 (EventDispatcher_t129 * __this, int32_t ___eventID, EventHandlerFunction_t676 * ___handler, String_t* ___eventGraphName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventDispatcher_removeEventListener_m635 (EventDispatcher_t129 * __this, int32_t ___eventID, EventHandlerFunction_t689 * ___handler, String_t* ___eventGraphName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
-extern "C" void EventDispatcher_removeEventListener_m636 (EventDispatcher_t129 * __this, String_t* ___eventName, DataEventHandlerFunction_t677 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventDispatcher_removeEventListener_m636 (EventDispatcher_t129 * __this, String_t* ___eventName, DataEventHandlerFunction_t690 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
-extern "C" void EventDispatcher_removeEventListener_m637 (EventDispatcher_t129 * __this, int32_t ___eventID, DataEventHandlerFunction_t677 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventDispatcher_removeEventListener_m637 (EventDispatcher_t129 * __this, int32_t ___eventID, DataEventHandlerFunction_t690 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction,System.String)
-extern "C" void EventDispatcher_removeEventListener_m638 (EventDispatcher_t129 * __this, int32_t ___eventID, DataEventHandlerFunction_t677 * ___handler, String_t* ___eventGraphName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventDispatcher_removeEventListener_m638 (EventDispatcher_t129 * __this, int32_t ___eventID, DataEventHandlerFunction_t690 * ___handler, String_t* ___eventGraphName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::dispatchEvent(System.String)
 extern "C" void EventDispatcher_dispatchEvent_m639 (EventDispatcher_t129 * __this, String_t* ___eventName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::dispatchEvent(System.String,System.Object)
@@ -66,8 +66,8 @@ extern "C" void EventDispatcher_dispatch_m647 (EventDispatcher_t129 * __this, in
 // System.Void UnionAssets.FLE.EventDispatcher::clearEvents()
 extern "C" void EventDispatcher_clearEvents_m648 (EventDispatcher_t129 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction> UnionAssets.FLE.EventDispatcher::cloenArray(System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>)
-extern "C" List_1_t680 * EventDispatcher_cloenArray_m649 (EventDispatcher_t129 * __this, List_1_t680 * ___list, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t693 * EventDispatcher_cloenArray_m649 (EventDispatcher_t129 * __this, List_1_t693 * ___list, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction> UnionAssets.FLE.EventDispatcher::cloenArray(System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>)
-extern "C" List_1_t681 * EventDispatcher_cloenArray_m650 (EventDispatcher_t129 * __this, List_1_t681 * ___list, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t694 * EventDispatcher_cloenArray_m650 (EventDispatcher_t129 * __this, List_1_t694 * ___list, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnionAssets.FLE.EventDispatcher::OnDestroy()
 extern "C" void EventDispatcher_OnDestroy_m651 (EventDispatcher_t129 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

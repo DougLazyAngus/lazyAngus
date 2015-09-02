@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct IList_1_t5909;
+// System.Collections.Generic.IList`1<UnityEngine.UI.Selectable>
+struct IList_1_t5926;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  ReadOnlyCollection_1_t5910  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.Selectable>
+struct  ReadOnlyCollection_1_t5927  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.StencilMaterial/MatEntry>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.Selectable>::list
 	Object_t* ___list_0;
 };

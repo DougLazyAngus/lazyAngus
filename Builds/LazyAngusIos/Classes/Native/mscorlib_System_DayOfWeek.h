@@ -5,7 +5,7 @@
 // System.DayOfWeek
 #include "mscorlib_System_DayOfWeek.h"
 // System.DayOfWeek
-struct  DayOfWeek_t4797 
+struct  DayOfWeek_t4813 
 {
 	// System.Int32 System.DayOfWeek::value__
 	int32_t ___value___1;

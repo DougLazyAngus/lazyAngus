@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Exception[]
-struct ExceptionU5BU5D_t8339;
+// System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>[]
+struct IDictionary_2U5BU5D_t6298;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Exception>
-struct  List_1_t2148  : public Object_t
+// System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
+struct  List_1_t1278  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Exception>::_items
-	ExceptionU5BU5D_t8339* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Exception>::_size
+	// T[] System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::_items
+	IDictionary_2U5BU5D_t6298* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Exception>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::_version
 	int32_t ____version_3;
 };
-struct List_1_t2148_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Exception>::EmptyArray
-	ExceptionU5BU5D_t8339* ___EmptyArray_4;
+struct List_1_t1278_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::EmptyArray
+	IDictionary_2U5BU5D_t6298* ___EmptyArray_4;
 };

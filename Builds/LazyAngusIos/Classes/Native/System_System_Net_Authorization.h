@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // System.Net.IAuthenticationModule
-struct IAuthenticationModule_t4012;
+struct IAuthenticationModule_t4028;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.Authorization
-struct  Authorization_t4013  : public Object_t
+struct  Authorization_t4029  : public Object_t
 {
 	// System.String System.Net.Authorization::token
 	String_t* ___token_0;

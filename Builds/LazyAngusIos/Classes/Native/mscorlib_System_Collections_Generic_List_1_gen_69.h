@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>[]
-struct Tuple_2U5BU5D_t6001;
+// System.Single[]
+struct SingleU5BU5D_t587;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>
-struct  List_1_t6002  : public Object_t
+// System.Collections.Generic.List`1<System.Single>
+struct  List_1_t5743  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_items
-	Tuple_2U5BU5D_t6001* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_size
+	// T[] System.Collections.Generic.List`1<System.Single>::_items
+	SingleU5BU5D_t587* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Single>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Single>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6002_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::EmptyArray
-	Tuple_2U5BU5D_t6001* ___EmptyArray_4;
+struct List_1_t5743_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Single>::EmptyArray
+	SingleU5BU5D_t587* ___EmptyArray_4;
 };

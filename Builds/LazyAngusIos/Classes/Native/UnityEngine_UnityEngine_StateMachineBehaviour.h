@@ -3,6 +3,6 @@
 // UnityEngine.ScriptableObject
 #include "UnityEngine_UnityEngine_ScriptableObject.h"
 // UnityEngine.StateMachineBehaviour
-struct  StateMachineBehaviour_t2877  : public ScriptableObject_t148
+struct  StateMachineBehaviour_t2893  : public ScriptableObject_t148
 {
 };

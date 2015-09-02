@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>[]
-struct KeyValuePair_2U5BU5D_t8584;
+// UnityEngine.Events.PersistentCall[]
+struct PersistentCallU5BU5D_t8600;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
-struct  List_1_t3188  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>
+struct  List_1_t2904  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::_items
-	KeyValuePair_2U5BU5D_t8584* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::_items
+	PersistentCallU5BU5D_t8600* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::_version
 	int32_t ____version_3;
 };
-struct List_1_t3188_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::EmptyArray
-	KeyValuePair_2U5BU5D_t8584* ___EmptyArray_4;
+struct List_1_t2904_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::EmptyArray
+	PersistentCallU5BU5D_t8600* ___EmptyArray_4;
 };

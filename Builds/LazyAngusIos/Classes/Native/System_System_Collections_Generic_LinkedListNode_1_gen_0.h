@@ -3,20 +3,20 @@
 // System.Object
 struct Object_t;
 // System.Collections.Generic.LinkedList`1<System.Object>
-struct LinkedList_1_t5987;
+struct LinkedList_1_t6016;
 // System.Collections.Generic.LinkedListNode`1<System.Object>
-struct LinkedListNode_1_t5986;
+struct LinkedListNode_1_t6015;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.LinkedListNode`1<System.Object>
-struct  LinkedListNode_1_t5986  : public Object_t
+struct  LinkedListNode_1_t6015  : public Object_t
 {
 	// T System.Collections.Generic.LinkedListNode`1<System.Object>::item
 	Object_t * ___item_0;
 	// System.Collections.Generic.LinkedList`1<T> System.Collections.Generic.LinkedListNode`1<System.Object>::container
-	LinkedList_1_t5987 * ___container_1;
+	LinkedList_1_t6016 * ___container_1;
 	// System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedListNode`1<System.Object>::forward
-	LinkedListNode_1_t5986 * ___forward_2;
+	LinkedListNode_1_t6015 * ___forward_2;
 	// System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedListNode`1<System.Object>::back
-	LinkedListNode_1_t5986 * ___back_3;
+	LinkedListNode_1_t6015 * ___back_3;
 };

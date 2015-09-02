@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.EventTrigger/TriggerEvent
-struct TriggerEvent_t850;
+struct TriggerEvent_t863;
 
 // System.Void UnityEngine.EventSystems.EventTrigger/TriggerEvent::.ctor()
-extern "C" void TriggerEvent__ctor_m4637 (TriggerEvent_t850 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TriggerEvent__ctor_m4769 (TriggerEvent_t863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

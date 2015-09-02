@@ -3,6 +3,6 @@
 // System.Xml.XmlCharacterData
 #include "System_Xml_System_Xml_XmlCharacterData.h"
 // System.Xml.XmlSignificantWhitespace
-struct  XmlSignificantWhitespace_t3260  : public XmlCharacterData_t3217
+struct  XmlSignificantWhitespace_t3276  : public XmlCharacterData_t3233
 {
 };

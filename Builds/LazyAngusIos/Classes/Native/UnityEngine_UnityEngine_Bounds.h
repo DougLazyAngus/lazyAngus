@@ -5,10 +5,10 @@
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.Bounds
-struct  Bounds_t766 
+struct  Bounds_t779 
 {
 	// UnityEngine.Vector3 UnityEngine.Bounds::m_Center
-	Vector3_t535  ___m_Center_0;
+	Vector3_t538  ___m_Center_0;
 	// UnityEngine.Vector3 UnityEngine.Bounds::m_Extents
-	Vector3_t535  ___m_Extents_1;
+	Vector3_t538  ___m_Extents_1;
 };

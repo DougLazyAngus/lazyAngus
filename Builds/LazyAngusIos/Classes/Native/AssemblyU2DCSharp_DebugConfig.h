@@ -1,26 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // DebugConfig
-struct DebugConfig_t530;
+struct DebugConfig_t533;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // DebugConfig
-struct  DebugConfig_t530  : public MonoBehaviour_t13
+struct  DebugConfig_t533  : public MonoBehaviour_t13
 {
 	// System.Boolean DebugConfig::useDebugValues
-	bool ___useDebugValues_2;
+	bool ___useDebugValues_4;
 	// System.Boolean DebugConfig::skipWelcome
-	bool ___skipWelcome_3;
+	bool ___skipWelcome_5;
 	// System.Boolean DebugConfig::clearAchievements
-	bool ___clearAchievements_4;
+	bool ___clearAchievements_6;
 	// System.Boolean DebugConfig::debugFBShare
-	bool ___debugFBShare_5;
+	bool ___debugFBShare_7;
 	// System.Boolean DebugConfig::debugTwitterShare
-	bool ___debugTwitterShare_6;
+	bool ___debugTwitterShare_8;
 	// System.Int32 DebugConfig::debugFlags
-	int32_t ___debugFlags_7;
+	int32_t ___debugFlags_9;
 };
-struct DebugConfig_t530_StaticFields{
+struct DebugConfig_t533_StaticFields{
 	// DebugConfig DebugConfig::<instance>k__BackingField
-	DebugConfig_t530 * ___U3CinstanceU3Ek__BackingField_8;
+	DebugConfig_t533 * ___U3CinstanceU3Ek__BackingField_10;
 };

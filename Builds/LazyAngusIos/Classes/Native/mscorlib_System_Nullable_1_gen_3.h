@@ -5,7 +5,7 @@
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
 // System.Nullable`1<System.TimeSpan>
-struct  Nullable_1_t1296 
+struct  Nullable_1_t1312 
 {
 	// T System.Nullable`1<System.TimeSpan>::value
 	TimeSpan_t334  ___value_0;

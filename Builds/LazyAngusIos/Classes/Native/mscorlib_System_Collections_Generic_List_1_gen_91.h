@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>[]
-struct KeyValuePair_2U5BU5D_t7303;
+// Parse.ParseRole[]
+struct ParseRoleU5BU5D_t7019;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>>
-struct  List_1_t7304  : public Object_t
+// System.Collections.Generic.List`1<Parse.ParseRole>
+struct  List_1_t7020  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>>::_items
-	KeyValuePair_2U5BU5D_t7303* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>>::_size
+	// T[] System.Collections.Generic.List`1<Parse.ParseRole>::_items
+	ParseRoleU5BU5D_t7019* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<Parse.ParseRole>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>>::_version
+	// System.Int32 System.Collections.Generic.List`1<Parse.ParseRole>::_version
 	int32_t ____version_3;
 };
-struct List_1_t7304_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>>::EmptyArray
-	KeyValuePair_2U5BU5D_t7303* ___EmptyArray_4;
+struct List_1_t7020_StaticFields{
+	// T[] System.Collections.Generic.List`1<Parse.ParseRole>::EmptyArray
+	ParseRoleU5BU5D_t7019* ___EmptyArray_4;
 };

@@ -3,34 +3,34 @@
 // System.String
 struct String_t;
 // System.Text.Encoding
-struct Encoding_t740;
+struct Encoding_t753;
 // System.Xml.XmlNamespaceManager
-struct XmlNamespaceManager_t3241;
+struct XmlNamespaceManager_t3257;
 // System.Xml.XmlNameTable
-struct XmlNameTable_t3182;
+struct XmlNameTable_t3198;
 // System.Collections.ArrayList
-struct ArrayList_t699;
+struct ArrayList_t712;
 // Mono.Xml.DTDObjectModel
-struct DTDObjectModel_t3174;
+struct DTDObjectModel_t3190;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlSpace
 #include "System_Xml_System_Xml_XmlSpace.h"
 // System.Xml.XmlParserContext
-struct  XmlParserContext_t3252  : public Object_t
+struct  XmlParserContext_t3268  : public Object_t
 {
 	// System.String System.Xml.XmlParserContext::baseURI
 	String_t* ___baseURI_0;
 	// System.String System.Xml.XmlParserContext::docTypeName
 	String_t* ___docTypeName_1;
 	// System.Text.Encoding System.Xml.XmlParserContext::encoding
-	Encoding_t740 * ___encoding_2;
+	Encoding_t753 * ___encoding_2;
 	// System.String System.Xml.XmlParserContext::internalSubset
 	String_t* ___internalSubset_3;
 	// System.Xml.XmlNamespaceManager System.Xml.XmlParserContext::namespaceManager
-	XmlNamespaceManager_t3241 * ___namespaceManager_4;
+	XmlNamespaceManager_t3257 * ___namespaceManager_4;
 	// System.Xml.XmlNameTable System.Xml.XmlParserContext::nameTable
-	XmlNameTable_t3182 * ___nameTable_5;
+	XmlNameTable_t3198 * ___nameTable_5;
 	// System.String System.Xml.XmlParserContext::publicID
 	String_t* ___publicID_6;
 	// System.String System.Xml.XmlParserContext::systemID
@@ -40,9 +40,9 @@ struct  XmlParserContext_t3252  : public Object_t
 	// System.Xml.XmlSpace System.Xml.XmlParserContext::xmlSpace
 	int32_t ___xmlSpace_9;
 	// System.Collections.ArrayList System.Xml.XmlParserContext::contextItems
-	ArrayList_t699 * ___contextItems_10;
+	ArrayList_t712 * ___contextItems_10;
 	// System.Int32 System.Xml.XmlParserContext::contextItemCount
 	int32_t ___contextItemCount_11;
 	// Mono.Xml.DTDObjectModel System.Xml.XmlParserContext::dtd
-	DTDObjectModel_t3174 * ___dtd_12;
+	DTDObjectModel_t3190 * ___dtd_12;
 };

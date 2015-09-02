@@ -5,7 +5,7 @@ struct Dictionary_2_t156;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,WP8ADBanner>
-struct  ValueCollection_t5525  : public Object_t
+struct  ValueCollection_t5541  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,WP8ADBanner>::dictionary
 	Dictionary_2_t156 * ___dictionary_0;

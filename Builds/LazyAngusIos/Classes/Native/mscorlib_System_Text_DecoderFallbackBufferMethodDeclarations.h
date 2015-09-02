@@ -5,14 +5,14 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.DecoderFallbackBuffer
-struct DecoderFallbackBuffer_t4744;
+struct DecoderFallbackBuffer_t4760;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 
 // System.Void System.Text.DecoderFallbackBuffer::.ctor()
-extern "C" void DecoderFallbackBuffer__ctor_m19041 (DecoderFallbackBuffer_t4744 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecoderFallbackBuffer__ctor_m19170 (DecoderFallbackBuffer_t4760 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.DecoderFallbackBuffer::get_Remaining()
 // System.Boolean System.Text.DecoderFallbackBuffer::Fallback(System.Byte[],System.Int32)
 // System.Char System.Text.DecoderFallbackBuffer::GetNextChar()
 // System.Void System.Text.DecoderFallbackBuffer::Reset()
-extern "C" void DecoderFallbackBuffer_Reset_m19042 (DecoderFallbackBuffer_t4744 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecoderFallbackBuffer_Reset_m19171 (DecoderFallbackBuffer_t4760 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -3,6 +3,6 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.Mesh
-struct  Mesh_t522  : public Object_t704
+struct  Mesh_t525  : public Object_t717
 {
 };

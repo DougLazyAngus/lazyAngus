@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Quaternion
-struct  Quaternion_t789 
+struct  Quaternion_t802 
 {
 	// System.Single UnityEngine.Quaternion::x
 	float ___x_0;

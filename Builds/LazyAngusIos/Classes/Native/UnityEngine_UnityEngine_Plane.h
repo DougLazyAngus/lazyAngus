@@ -5,10 +5,10 @@
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.Plane
-struct  Plane_t1076 
+struct  Plane_t1092 
 {
 	// UnityEngine.Vector3 UnityEngine.Plane::m_Normal
-	Vector3_t535  ___m_Normal_0;
+	Vector3_t538  ___m_Normal_0;
 	// System.Single UnityEngine.Plane::m_Distance
 	float ___m_Distance_1;
 };

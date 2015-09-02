@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<UnityEngine.iOS.LocalNotification>
-struct  InternalEnumerator_1_t8424 
+// System.Array/InternalEnumerator`1<System.IntPtr>
+struct  InternalEnumerator_1_t8452 
 {
-	// System.Array System.Array/InternalEnumerator`1<UnityEngine.iOS.LocalNotification>::array
+	// System.Array System.Array/InternalEnumerator`1<System.IntPtr>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<UnityEngine.iOS.LocalNotification>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<System.IntPtr>::idx
 	int32_t ___idx_1;
 };

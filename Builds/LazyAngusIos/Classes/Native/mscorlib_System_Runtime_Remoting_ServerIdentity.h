@@ -3,18 +3,18 @@
 // System.Type
 struct Type_t;
 // System.MarshalByRefObject
-struct MarshalByRefObject_t4077;
+struct MarshalByRefObject_t4093;
 // System.Runtime.Remoting.Contexts.Context
-struct Context_t4598;
+struct Context_t4614;
 // System.Runtime.Remoting.Identity
 #include "mscorlib_System_Runtime_Remoting_Identity.h"
 // System.Runtime.Remoting.ServerIdentity
-struct  ServerIdentity_t4357  : public Identity_t4627
+struct  ServerIdentity_t4373  : public Identity_t4643
 {
 	// System.Type System.Runtime.Remoting.ServerIdentity::_objectType
 	Type_t * ____objectType_5;
 	// System.MarshalByRefObject System.Runtime.Remoting.ServerIdentity::_serverObject
-	MarshalByRefObject_t4077 * ____serverObject_6;
+	MarshalByRefObject_t4093 * ____serverObject_6;
 	// System.Runtime.Remoting.Contexts.Context System.Runtime.Remoting.ServerIdentity::_context
-	Context_t4598 * ____context_7;
+	Context_t4614 * ____context_7;
 };

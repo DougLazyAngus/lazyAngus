@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.Protocol.Tls.Context
-struct Context_t3841;
+struct Context_t3857;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // Mono.Security.Protocol.Tls.TlsStream
@@ -11,10 +11,10 @@ struct ByteU5BU5D_t66;
 // Mono.Security.Protocol.Tls.ContentType
 #include "Mono_Security_Mono_Security_Protocol_Tls_ContentType.h"
 // Mono.Security.Protocol.Tls.Handshake.HandshakeMessage
-struct  HandshakeMessage_t3865  : public TlsStream_t3856
+struct  HandshakeMessage_t3881  : public TlsStream_t3872
 {
 	// Mono.Security.Protocol.Tls.Context Mono.Security.Protocol.Tls.Handshake.HandshakeMessage::context
-	Context_t3841 * ___context_5;
+	Context_t3857 * ___context_5;
 	// Mono.Security.Protocol.Tls.Handshake.HandshakeType Mono.Security.Protocol.Tls.Handshake.HandshakeMessage::handshakeType
 	uint8_t ___handshakeType_6;
 	// Mono.Security.Protocol.Tls.ContentType Mono.Security.Protocol.Tls.Handshake.HandshakeMessage::contentType

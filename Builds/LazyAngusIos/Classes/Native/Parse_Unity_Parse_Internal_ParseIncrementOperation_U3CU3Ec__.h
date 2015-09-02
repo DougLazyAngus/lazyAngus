@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Func`3<System.Object,System.Object,System.Object>
-struct Func_3_t1195;
+struct Func_3_t1211;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.ParseIncrementOperation/<>c__DisplayClass80
-struct  U3CU3Ec__DisplayClass80_t1196  : public Object_t
+struct  U3CU3Ec__DisplayClass80_t1212  : public Object_t
 {
 	// System.Func`3<System.Object,System.Object,System.Object> Parse.Internal.ParseIncrementOperation/<>c__DisplayClass80::func
-	Func_3_t1195 * ___func_0;
+	Func_3_t1211 * ___func_0;
 };

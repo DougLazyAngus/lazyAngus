@@ -3,6 +3,6 @@
 // System.Security.Cryptography.HashAlgorithm
 #include "mscorlib_System_Security_Cryptography_HashAlgorithm.h"
 // System.Security.Cryptography.SHA1
-struct  SHA1_t3924  : public HashAlgorithm_t3796
+struct  SHA1_t3940  : public HashAlgorithm_t3812
 {
 };

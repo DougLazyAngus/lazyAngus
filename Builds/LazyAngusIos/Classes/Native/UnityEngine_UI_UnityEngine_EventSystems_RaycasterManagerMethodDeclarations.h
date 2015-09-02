@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventSystems.RaycasterManager
-struct RaycasterManager_t879;
+struct RaycasterManager_t892;
 // UnityEngine.EventSystems.BaseRaycaster
-struct BaseRaycaster_t880;
+struct BaseRaycaster_t893;
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>
-struct List_1_t878;
+struct List_1_t891;
 
 // System.Void UnityEngine.EventSystems.RaycasterManager::.cctor()
-extern "C" void RaycasterManager__cctor_m4697 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RaycasterManager__cctor_m4829 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.RaycasterManager::AddRaycaster(UnityEngine.EventSystems.BaseRaycaster)
-extern "C" void RaycasterManager_AddRaycaster_m4698 (Object_t * __this /* static, unused */, BaseRaycaster_t880 * ___baseRaycaster, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RaycasterManager_AddRaycaster_m4830 (Object_t * __this /* static, unused */, BaseRaycaster_t893 * ___baseRaycaster, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster> UnityEngine.EventSystems.RaycasterManager::GetRaycasters()
-extern "C" List_1_t878 * RaycasterManager_GetRaycasters_m4699 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t891 * RaycasterManager_GetRaycasters_m4831 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.RaycasterManager::RemoveRaycasters(UnityEngine.EventSystems.BaseRaycaster)
-extern "C" void RaycasterManager_RemoveRaycasters_m4700 (Object_t * __this /* static, unused */, BaseRaycaster_t880 * ___baseRaycaster, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RaycasterManager_RemoveRaycasters_m4832 (Object_t * __this /* static, unused */, BaseRaycaster_t893 * ___baseRaycaster, const MethodInfo* method) IL2CPP_METHOD_ATTR;

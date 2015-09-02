@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<AN_PropertyTemplate>
-struct  Comparison_1_t5470  : public MulticastDelegate_t388
+struct  Comparison_1_t5486  : public MulticastDelegate_t388
 {
 };

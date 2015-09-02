@@ -1,36 +1,36 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Camera
-struct Camera_t545;
+struct Camera_t548;
 // ZoomCamera
-struct ZoomCamera_t643;
+struct ZoomCamera_t660;
 // SizeCamera/CameraConfiguredHandler
-struct CameraConfiguredHandler_t642;
+struct CameraConfiguredHandler_t659;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // SizeCamera
-struct  SizeCamera_t516  : public MonoBehaviour_t13
+struct  SizeCamera_t519  : public MonoBehaviour_t13
 {
 	// System.Single SizeCamera::minWorldAspectRatio
 	float ___minWorldAspectRatio_2;
 	// System.Single SizeCamera::targetWorldHalfHeight
 	float ___targetWorldHalfHeight_3;
-	// System.Single SizeCamera::screenPixelsTopToIgnore
-	float ___screenPixelsTopToIgnore_4;
+	// System.Single SizeCamera::screenPixelsTopCameraSlop
+	float ___screenPixelsTopCameraSlop_4;
 	// System.Single SizeCamera::screenPixelsBottomToIgnore
 	float ___screenPixelsBottomToIgnore_5;
-	// System.Single SizeCamera::finalWorldHalfHeight
-	float ___finalWorldHalfHeight_6;
 	// System.Single SizeCamera::phaseStartTime
-	float ___phaseStartTime_7;
+	float ___phaseStartTime_6;
 	// UnityEngine.Camera SizeCamera::myCamera
-	Camera_t545 * ___myCamera_8;
+	Camera_t548 * ___myCamera_7;
 	// ZoomCamera SizeCamera::myZoomCamera
-	ZoomCamera_t643 * ___myZoomCamera_9;
+	ZoomCamera_t660 * ___myZoomCamera_8;
 	// System.Boolean SizeCamera::registeredForEvents
-	bool ___registeredForEvents_10;
+	bool ___registeredForEvents_9;
 	// System.Single SizeCamera::finalAspectRatio
-	float ___finalAspectRatio_11;
+	float ___finalAspectRatio_10;
 	// SizeCamera/CameraConfiguredHandler SizeCamera::CameraConfigured
-	CameraConfiguredHandler_t642 * ___CameraConfigured_12;
+	CameraConfiguredHandler_t659 * ___CameraConfigured_11;
+	// System.Single SizeCamera::<finalActualWorldHalfHeight>k__BackingField
+	float ___U3CfinalActualWorldHalfHeightU3Ek__BackingField_12;
 };

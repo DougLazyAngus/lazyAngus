@@ -5,20 +5,20 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Math.Prime.Generator.PrimeGeneratorBase
-struct PrimeGeneratorBase_t3783;
+struct PrimeGeneratorBase_t3799;
 // Mono.Math.Prime.PrimalityTest
-struct PrimalityTest_t3900;
+struct PrimalityTest_t3916;
 // Mono.Math.BigInteger
-struct BigInteger_t3777;
+struct BigInteger_t3793;
 // Mono.Math.Prime.ConfidenceFactor
 #include "Mono_Security_Mono_Math_Prime_ConfidenceFactor.h"
 
 // System.Void Mono.Math.Prime.Generator.PrimeGeneratorBase::.ctor()
-extern "C" void PrimeGeneratorBase__ctor_m12344 (PrimeGeneratorBase_t3783 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PrimeGeneratorBase__ctor_m12473 (PrimeGeneratorBase_t3799 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.Prime.ConfidenceFactor Mono.Math.Prime.Generator.PrimeGeneratorBase::get_Confidence()
-extern "C" int32_t PrimeGeneratorBase_get_Confidence_m12345 (PrimeGeneratorBase_t3783 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PrimeGeneratorBase_get_Confidence_m12474 (PrimeGeneratorBase_t3799 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.Prime.PrimalityTest Mono.Math.Prime.Generator.PrimeGeneratorBase::get_PrimalityTest()
-extern "C" PrimalityTest_t3900 * PrimeGeneratorBase_get_PrimalityTest_m12346 (PrimeGeneratorBase_t3783 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PrimalityTest_t3916 * PrimeGeneratorBase_get_PrimalityTest_m12475 (PrimeGeneratorBase_t3799 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Math.Prime.Generator.PrimeGeneratorBase::get_TrialDivisionBounds()
-extern "C" int32_t PrimeGeneratorBase_get_TrialDivisionBounds_m12347 (PrimeGeneratorBase_t3783 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PrimeGeneratorBase_get_TrialDivisionBounds_m12476 (PrimeGeneratorBase_t3799 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.BigInteger Mono.Math.Prime.Generator.PrimeGeneratorBase::GenerateNewPrime(System.Int32)

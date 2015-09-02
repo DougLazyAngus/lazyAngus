@@ -5,24 +5,24 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.EqualityComparer`1<System.Int16>
-struct EqualityComparer_1_t6483;
+struct EqualityComparer_1_t6512;
 // System.Object
 struct Object_t;
 
 // System.Void System.Collections.Generic.EqualityComparer`1<System.Int16>::.ctor()
-extern "C" void EqualityComparer_1__ctor_m37273_gshared (EqualityComparer_1_t6483 * __this, const MethodInfo* method);
-#define EqualityComparer_1__ctor_m37273(__this, method) (( void (*) (EqualityComparer_1_t6483 *, const MethodInfo*))EqualityComparer_1__ctor_m37273_gshared)(__this, method)
+extern "C" void EqualityComparer_1__ctor_m37605_gshared (EqualityComparer_1_t6512 * __this, const MethodInfo* method);
+#define EqualityComparer_1__ctor_m37605(__this, method) (( void (*) (EqualityComparer_1_t6512 *, const MethodInfo*))EqualityComparer_1__ctor_m37605_gshared)(__this, method)
 // System.Void System.Collections.Generic.EqualityComparer`1<System.Int16>::.cctor()
-extern "C" void EqualityComparer_1__cctor_m37274_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define EqualityComparer_1__cctor_m37274(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1__cctor_m37274_gshared)(__this /* static, unused */, method)
+extern "C" void EqualityComparer_1__cctor_m37606_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define EqualityComparer_1__cctor_m37606(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1__cctor_m37606_gshared)(__this /* static, unused */, method)
 // System.Int32 System.Collections.Generic.EqualityComparer`1<System.Int16>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
-extern "C" int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m37275_gshared (EqualityComparer_1_t6483 * __this, Object_t * ___obj, const MethodInfo* method);
-#define EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m37275(__this, ___obj, method) (( int32_t (*) (EqualityComparer_1_t6483 *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m37275_gshared)(__this, ___obj, method)
+extern "C" int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m37607_gshared (EqualityComparer_1_t6512 * __this, Object_t * ___obj, const MethodInfo* method);
+#define EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m37607(__this, ___obj, method) (( int32_t (*) (EqualityComparer_1_t6512 *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m37607_gshared)(__this, ___obj, method)
 // System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int16>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
-extern "C" bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m37276_gshared (EqualityComparer_1_t6483 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m37276(__this, ___x, ___y, method) (( bool (*) (EqualityComparer_1_t6483 *, Object_t *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m37276_gshared)(__this, ___x, ___y, method)
+extern "C" bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m37608_gshared (EqualityComparer_1_t6512 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m37608(__this, ___x, ___y, method) (( bool (*) (EqualityComparer_1_t6512 *, Object_t *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m37608_gshared)(__this, ___x, ___y, method)
 // System.Int32 System.Collections.Generic.EqualityComparer`1<System.Int16>::GetHashCode(T)
 // System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int16>::Equals(T,T)
 // System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<System.Int16>::get_Default()
-extern "C" EqualityComparer_1_t6483 * EqualityComparer_1_get_Default_m37277_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define EqualityComparer_1_get_Default_m37277(__this /* static, unused */, method) (( EqualityComparer_1_t6483 * (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1_get_Default_m37277_gshared)(__this /* static, unused */, method)
+extern "C" EqualityComparer_1_t6512 * EqualityComparer_1_get_Default_m37609_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define EqualityComparer_1_get_Default_m37609(__this /* static, unused */, method) (( EqualityComparer_1_t6512 * (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1_get_Default_m37609_gshared)(__this /* static, unused */, method)

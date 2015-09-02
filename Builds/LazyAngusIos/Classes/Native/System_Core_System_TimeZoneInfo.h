@@ -3,15 +3,15 @@
 // System.String
 struct String_t;
 // System.TimeZoneInfo
-struct TimeZoneInfo_t1514;
+struct TimeZoneInfo_t1530;
 // System.TimeZoneInfo/AdjustmentRule[]
-struct AdjustmentRuleU5BU5D_t3358;
+struct AdjustmentRuleU5BU5D_t3374;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
 // System.TimeZoneInfo
-struct  TimeZoneInfo_t1514  : public Object_t
+struct  TimeZoneInfo_t1530  : public Object_t
 {
 	// System.TimeSpan System.TimeZoneInfo::baseUtcOffset
 	TimeSpan_t334  ___baseUtcOffset_0;
@@ -26,11 +26,11 @@ struct  TimeZoneInfo_t1514  : public Object_t
 	// System.Boolean System.TimeZoneInfo::disableDaylightSavingTime
 	bool ___disableDaylightSavingTime_6;
 	// System.TimeZoneInfo/AdjustmentRule[] System.TimeZoneInfo::adjustmentRules
-	AdjustmentRuleU5BU5D_t3358* ___adjustmentRules_8;
+	AdjustmentRuleU5BU5D_t3374* ___adjustmentRules_8;
 };
-struct TimeZoneInfo_t1514_StaticFields{
+struct TimeZoneInfo_t1530_StaticFields{
 	// System.TimeZoneInfo System.TimeZoneInfo::local
-	TimeZoneInfo_t1514 * ___local_4;
+	TimeZoneInfo_t1530 * ___local_4;
 	// System.String System.TimeZoneInfo::timeZoneDirectory
 	String_t* ___timeZoneDirectory_7;
 };

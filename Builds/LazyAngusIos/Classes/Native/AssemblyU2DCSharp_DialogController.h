@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // DialogController
-struct DialogController_t532;
+struct DialogController_t535;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // DialogController
-struct  DialogController_t532  : public MonoBehaviour_t13
+struct  DialogController_t535  : public MonoBehaviour_t13
 {
 	// UnityEngine.GameObject DialogController::activeDialog
 	GameObject_t352 * ___activeDialog_3;
 };
-struct DialogController_t532_StaticFields{
+struct DialogController_t535_StaticFields{
 	// DialogController DialogController::instance
-	DialogController_t532 * ___instance_2;
+	DialogController_t535 * ___instance_2;
 };

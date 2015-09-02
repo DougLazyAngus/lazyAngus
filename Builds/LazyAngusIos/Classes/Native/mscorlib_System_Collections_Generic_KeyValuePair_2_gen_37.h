@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Graphic
-struct Graphic_t923;
+struct Graphic_t938;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>
-struct  KeyValuePair_2_t5882 
+struct  KeyValuePair_2_t5911 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::key
-	Graphic_t923 * ___key_0;
+	Graphic_t938 * ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::value
 	int32_t ___value_1;
 };

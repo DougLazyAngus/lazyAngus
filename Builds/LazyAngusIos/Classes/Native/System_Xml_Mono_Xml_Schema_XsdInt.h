@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdLong
 #include "System_Xml_Mono_Xml_Schema_XsdLong.h"
 // Mono.Xml.Schema.XsdInt
-struct  XsdInt_t3120  : public XsdLong_t3119
+struct  XsdInt_t3136  : public XsdLong_t3135
 {
 };

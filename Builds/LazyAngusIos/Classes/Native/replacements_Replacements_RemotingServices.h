@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Replacements.RemotingServices
-struct  RemotingServices_t3093  : public Object_t
+struct  RemotingServices_t3109  : public Object_t
 {
 };

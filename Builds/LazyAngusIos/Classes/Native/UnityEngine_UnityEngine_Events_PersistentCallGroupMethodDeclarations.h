@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.PersistentCallGroup
-struct PersistentCallGroup_t2889;
+struct PersistentCallGroup_t2905;
 // UnityEngine.Events.InvokableCallList
-struct InvokableCallList_t2891;
+struct InvokableCallList_t2907;
 // UnityEngine.Events.UnityEventBase
-struct UnityEventBase_t2892;
+struct UnityEventBase_t2908;
 
 // System.Void UnityEngine.Events.PersistentCallGroup::.ctor()
-extern "C" void PersistentCallGroup__ctor_m10069 (PersistentCallGroup_t2889 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PersistentCallGroup__ctor_m10199 (PersistentCallGroup_t2905 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.PersistentCallGroup::Initialize(UnityEngine.Events.InvokableCallList,UnityEngine.Events.UnityEventBase)
-extern "C" void PersistentCallGroup_Initialize_m10070 (PersistentCallGroup_t2889 * __this, InvokableCallList_t2891 * ___invokableList, UnityEventBase_t2892 * ___unityEventBase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PersistentCallGroup_Initialize_m10200 (PersistentCallGroup_t2905 * __this, InvokableCallList_t2907 * ___invokableList, UnityEventBase_t2908 * ___unityEventBase, const MethodInfo* method) IL2CPP_METHOD_ATTR;

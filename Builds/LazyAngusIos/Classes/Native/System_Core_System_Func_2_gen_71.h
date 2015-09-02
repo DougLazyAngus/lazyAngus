@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // <>f__AnonymousType5`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>
-struct U3CU3Ef__AnonymousType5_2_t2425;
+struct U3CU3Ef__AnonymousType5_2_t2441;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<<>f__AnonymousType5`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>,System.String>
-struct  Func_2_t6118  : public MulticastDelegate_t388
+struct  Func_2_t6147  : public MulticastDelegate_t388
 {
 };

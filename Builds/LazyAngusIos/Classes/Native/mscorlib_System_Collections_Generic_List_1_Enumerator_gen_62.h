@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.UInt32>
-struct List_1_t6607;
+// System.Collections.Generic.List`1<System.Int16>
+struct List_1_t6508;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.UInt32>
-struct  Enumerator_t6608 
+// System.Collections.Generic.List`1/Enumerator<System.Int16>
+struct  Enumerator_t6509 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.UInt32>::l
-	List_1_t6607 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.UInt32>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Int16>::l
+	List_1_t6508 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Int16>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.UInt32>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Int16>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.UInt32>::current
-	uint32_t ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Int16>::current
+	int16_t ___current_3;
 };

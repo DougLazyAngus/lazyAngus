@@ -123,11 +123,21 @@ extern "C" {
     NSURL* nsURL = [[NSURL alloc] initWithString:@"www.lazyangus.com"];
     
     NSString *thePath = [[NSBundle mainBundle] pathForResource:@"cat_face.100" ofType:@"png"];
-    UIImage *prodImg = [[UIImage alloc] initWithContentsOfFile:thePath];
+    UIImage *prodImg = nil;
+    if (thePath != nil) {
+      prodImg = [[UIImage alloc] initWithContentsOfFile:thePath];
+    }
 
+    NSArray* items;
+    if (prodImg != nil) {
+      items = @[message, nsURL, prodImg];
+    } else {
+      items = @[message, nsURL];
+    }
+    
     UIActivityViewController *activityViewController =
     [[UIActivityViewController alloc]
-     initWithActivityItems:@[message, nsURL, prodImg]
+     initWithActivityItems:items
      applicationActivities:nil];
     
     UIViewController* rootViewController = UnityGetGLViewController();

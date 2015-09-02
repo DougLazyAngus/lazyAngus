@@ -5,7 +5,7 @@
 // System.Runtime.Serialization.ObjectRecordStatus
 #include "mscorlib_System_Runtime_Serialization_ObjectRecordStatus.h"
 // System.Runtime.Serialization.ObjectRecordStatus
-struct  ObjectRecordStatus_t4670 
+struct  ObjectRecordStatus_t4686 
 {
 	// System.Byte System.Runtime.Serialization.ObjectRecordStatus::value__
 	uint8_t ___value___1;

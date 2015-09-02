@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.ArgInfoType
-struct ArgInfoType_t4601;
+struct ArgInfoType_t4617;
 

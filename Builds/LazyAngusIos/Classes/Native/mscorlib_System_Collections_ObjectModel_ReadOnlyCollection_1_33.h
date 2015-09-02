@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<UnityEngine.EventSystems.IEventSystemHandler>
-struct IList_1_t1130;
+// System.Collections.Generic.IList`1<RealAngusElementButton>
+struct IList_1_t5785;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.IEventSystemHandler>
-struct  ReadOnlyCollection_1_t5774  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<RealAngusElementButton>
+struct  ReadOnlyCollection_1_t5786  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.IEventSystemHandler>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<RealAngusElementButton>::list
 	Object_t* ___list_0;
 };

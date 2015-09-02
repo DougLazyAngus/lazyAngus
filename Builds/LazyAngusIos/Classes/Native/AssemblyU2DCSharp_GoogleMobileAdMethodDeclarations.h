@@ -13,9 +13,9 @@ struct GoogleMobileAdBanner_t140;
 // System.String[]
 struct StringU5BU5D_t75;
 // UnionAssets.FLE.EventHandlerFunction
-struct EventHandlerFunction_t676;
+struct EventHandlerFunction_t689;
 // UnionAssets.FLE.DataEventHandlerFunction
-struct DataEventHandlerFunction_t677;
+struct DataEventHandlerFunction_t690;
 // UnityEngine.TextAnchor
 #include "UnityEngine_UnityEngine_TextAnchor.h"
 // GADBannerSize
@@ -84,13 +84,13 @@ extern "C" void GoogleMobileAd_OnInterstitialLeftApplicationListner_m755 (Object
 // System.Void GoogleMobileAd::OnAdInAppRequestListner(System.String)
 extern "C" void GoogleMobileAd_OnAdInAppRequestListner_m756 (Object_t * __this /* static, unused */, String_t* ___productId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleMobileAd::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
-extern "C" void GoogleMobileAd_addEventListener_m757 (Object_t * __this /* static, unused */, String_t* ___eventName, EventHandlerFunction_t676 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GoogleMobileAd_addEventListener_m757 (Object_t * __this /* static, unused */, String_t* ___eventName, EventHandlerFunction_t689 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleMobileAd::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
-extern "C" void GoogleMobileAd_addEventListener_m758 (Object_t * __this /* static, unused */, String_t* ___eventName, DataEventHandlerFunction_t677 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GoogleMobileAd_addEventListener_m758 (Object_t * __this /* static, unused */, String_t* ___eventName, DataEventHandlerFunction_t690 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleMobileAd::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
-extern "C" void GoogleMobileAd_removeEventListener_m759 (Object_t * __this /* static, unused */, String_t* ___eventName, EventHandlerFunction_t676 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GoogleMobileAd_removeEventListener_m759 (Object_t * __this /* static, unused */, String_t* ___eventName, EventHandlerFunction_t689 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleMobileAd::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
-extern "C" void GoogleMobileAd_removeEventListener_m760 (Object_t * __this /* static, unused */, String_t* ___eventName, DataEventHandlerFunction_t677 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GoogleMobileAd_removeEventListener_m760 (Object_t * __this /* static, unused */, String_t* ___eventName, DataEventHandlerFunction_t690 * ___handler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleMobileAd::<OnInterstitialLoaded>m__0()
 extern "C" void GoogleMobileAd_U3COnInterstitialLoadedU3Em__0_m761 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GoogleMobileAd::<OnInterstitialFailedLoading>m__1()

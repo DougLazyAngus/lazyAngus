@@ -1,19 +1,19 @@
 ﻿#pragma once
 #include <stdint.h>
 // GameUI[]
-struct GameUIU5BU5D_t563;
+struct GameUIU5BU5D_t566;
 // GamePhaseState/GameInstanceChangedEventHandler
-struct GameInstanceChangedEventHandler_t559;
+struct GameInstanceChangedEventHandler_t562;
 // GamePhaseState/GamePhaseChangedEventHandler
-struct GamePhaseChangedEventHandler_t560;
+struct GamePhaseChangedEventHandler_t563;
 // GamePhaseState
-struct GamePhaseState_t561;
+struct GamePhaseState_t564;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // GamePhaseState/GamePhaseType
 #include "AssemblyU2DCSharp_GamePhaseState_GamePhaseType.h"
 // GamePhaseState
-struct  GamePhaseState_t561  : public MonoBehaviour_t13
+struct  GamePhaseState_t564  : public MonoBehaviour_t13
 {
 	// GamePhaseState/GamePhaseType GamePhaseState::pendingPhase
 	int32_t ___pendingPhase_2;
@@ -22,11 +22,11 @@ struct  GamePhaseState_t561  : public MonoBehaviour_t13
 	// System.Boolean GamePhaseState::shouldCheckForPhaseTransition
 	bool ___shouldCheckForPhaseTransition_4;
 	// GameUI[] GamePhaseState::gameUIs
-	GameUIU5BU5D_t563* ___gameUIs_5;
+	GameUIU5BU5D_t566* ___gameUIs_5;
 	// GamePhaseState/GameInstanceChangedEventHandler GamePhaseState::GameInstanceChanged
-	GameInstanceChangedEventHandler_t559 * ___GameInstanceChanged_6;
+	GameInstanceChangedEventHandler_t562 * ___GameInstanceChanged_6;
 	// GamePhaseState/GamePhaseChangedEventHandler GamePhaseState::GamePhaseChanged
-	GamePhaseChangedEventHandler_t560 * ___GamePhaseChanged_7;
+	GamePhaseChangedEventHandler_t563 * ___GamePhaseChanged_7;
 	// GamePhaseState/GamePhaseType GamePhaseState::<gamePhase>k__BackingField
 	int32_t ___U3CgamePhaseU3Ek__BackingField_8;
 	// GamePhaseState/GamePhaseType GamePhaseState::<previousGamePhase>k__BackingField
@@ -36,7 +36,7 @@ struct  GamePhaseState_t561  : public MonoBehaviour_t13
 	// System.Int32 GamePhaseState::<instancesFinishedEver>k__BackingField
 	int32_t ___U3CinstancesFinishedEverU3Ek__BackingField_11;
 };
-struct GamePhaseState_t561_StaticFields{
+struct GamePhaseState_t564_StaticFields{
 	// GamePhaseState GamePhaseState::<instance>k__BackingField
-	GamePhaseState_t561 * ___U3CinstanceU3Ek__BackingField_12;
+	GamePhaseState_t564 * ___U3CinstanceU3Ek__BackingField_12;
 };

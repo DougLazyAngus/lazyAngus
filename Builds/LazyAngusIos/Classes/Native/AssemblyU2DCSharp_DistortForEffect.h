@@ -1,30 +1,30 @@
 ﻿#pragma once
 #include <stdint.h>
 // DistortForEffect/DistortFinishedHandler
-struct DistortFinishedHandler_t533;
+struct DistortFinishedHandler_t536;
 // UnityEngine.Transform
 struct Transform_t406;
-// UnityEngine.MonoBehaviour
-#include "UnityEngine_UnityEngine_MonoBehaviour.h"
+// BounceLerp
+#include "AssemblyU2DCSharp_BounceLerp.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // DistortForEffect
-struct  DistortForEffect_t534  : public MonoBehaviour_t13
+struct  DistortForEffect_t537  : public BounceLerp_t515
 {
 	// DistortForEffect/DistortFinishedHandler DistortForEffect::handler
-	DistortFinishedHandler_t533 * ___handler_2;
+	DistortFinishedHandler_t536 * ___handler_7;
 	// System.Single DistortForEffect::startDistortTime
-	float ___startDistortTime_3;
-	// System.Single DistortForEffect::distortPeriod
-	float ___distortPeriod_4;
-	// System.Single DistortForEffect::distortScale
-	float ___distortScale_5;
-	// UnityEngine.Transform DistortForEffect::thingToScale
-	Transform_t406 * ___thingToScale_6;
-	// System.Boolean DistortForEffect::squishAndStretch
-	bool ___squishAndStretch_7;
+	float ___startDistortTime_8;
 	// UnityEngine.Vector3 DistortForEffect::originalScale
-	Vector3_t535  ___originalScale_8;
+	Vector3_t538  ___originalScale_9;
+	// System.Single DistortForEffect::minScale
+	float ___minScale_10;
+	// UnityEngine.Transform DistortForEffect::thingToScale
+	Transform_t406 * ___thingToScale_11;
+	// System.Boolean DistortForEffect::squishAndStretch
+	bool ___squishAndStretch_12;
+	// System.Boolean DistortForEffect::onAtStart
+	bool ___onAtStart_13;
 	// System.Boolean DistortForEffect::<distorting>k__BackingField
-	bool ___U3CdistortingU3Ek__BackingField_9;
+	bool ___U3CdistortingU3Ek__BackingField_14;
 };

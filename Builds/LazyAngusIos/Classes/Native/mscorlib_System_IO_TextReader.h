@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IO.TextReader
-struct TextReader_t3236;
+struct TextReader_t3252;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IO.TextReader
-struct  TextReader_t3236  : public Object_t
+struct  TextReader_t3252  : public Object_t
 {
 };
-struct TextReader_t3236_StaticFields{
+struct TextReader_t3252_StaticFields{
 	// System.IO.TextReader System.IO.TextReader::Null
-	TextReader_t3236 * ___Null_0;
+	TextReader_t3252 * ___Null_0;
 };

@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
-struct Comparison_1_t6061;
+// System.Comparison`1<System.WeakReference>
+struct Comparison_1_t6062;
 // System.Object
 struct Object_t;
+// System.WeakReference
+struct WeakReference_t2241;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_10.h"
 
-// System.Void System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::.ctor(System.Object,System.IntPtr)
-// System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-#include "mscorlib_System_Comparison_1_gen_48MethodDeclarations.h"
-#define Comparison_1__ctor_m31807(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6061 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m31704_gshared)(__this, ___object, ___method, method)
-// System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::Invoke(T,T)
-#define Comparison_1_Invoke_m31808(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6061 *, KeyValuePair_2_t778 , KeyValuePair_2_t778 , const MethodInfo*))Comparison_1_Invoke_m31705_gshared)(__this, ___x, ___y, method)
-// System.IAsyncResult System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m31809(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6061 *, KeyValuePair_2_t778 , KeyValuePair_2_t778 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m31706_gshared)(__this, ___x, ___y, ___callback, ___object, method)
-// System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m31810(__this, ___result, method) (( int32_t (*) (Comparison_1_t6061 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m31707_gshared)(__this, ___result, method)
+// System.Void System.Comparison`1<System.WeakReference>::.ctor(System.Object,System.IntPtr)
+// System.Comparison`1<System.Object>
+#include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
+#define Comparison_1__ctor_m31781(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6062 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m21899_gshared)(__this, ___object, ___method, method)
+// System.Int32 System.Comparison`1<System.WeakReference>::Invoke(T,T)
+#define Comparison_1_Invoke_m31782(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6062 *, WeakReference_t2241 *, WeakReference_t2241 *, const MethodInfo*))Comparison_1_Invoke_m21900_gshared)(__this, ___x, ___y, method)
+// System.IAsyncResult System.Comparison`1<System.WeakReference>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+#define Comparison_1_BeginInvoke_m31783(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6062 *, WeakReference_t2241 *, WeakReference_t2241 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m21901_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+// System.Int32 System.Comparison`1<System.WeakReference>::EndInvoke(System.IAsyncResult)
+#define Comparison_1_EndInvoke_m31784(__this, ___result, method) (( int32_t (*) (Comparison_1_t6062 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m21902_gshared)(__this, ___result, method)

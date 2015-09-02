@@ -3,30 +3,30 @@
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5392;
+struct LinkU5BU5D_t5408;
 // UnityEngine.Canvas[]
-struct CanvasU5BU5D_t5863;
+struct CanvasU5BU5D_t5892;
 // UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>[]
-struct IndexedSet_1U5BU5D_t5873;
+struct IndexedSet_1U5BU5D_t5902;
 // System.Collections.Generic.IEqualityComparer`1<UnityEngine.Canvas>
-struct IEqualityComparer_1_t5874;
+struct IEqualityComparer_1_t5903;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2920;
+struct SerializationInfo_t2936;
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>,System.Collections.DictionaryEntry>
-struct Transform_1_t5875;
+struct Transform_1_t5904;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct  Dictionary_2_t929  : public Object_t
+struct  Dictionary_2_t944  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::table
 	Int32U5BU5D_t484* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::linkSlots
-	LinkU5BU5D_t5392* ___linkSlots_5;
+	LinkU5BU5D_t5408* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::keySlots
-	CanvasU5BU5D_t5863* ___keySlots_6;
+	CanvasU5BU5D_t5892* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::valueSlots
-	IndexedSet_1U5BU5D_t5873* ___valueSlots_7;
+	IndexedSet_1U5BU5D_t5902* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::emptySlot
@@ -38,11 +38,11 @@ struct  Dictionary_2_t929  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::serialization_info
-	SerializationInfo_t2920 * ___serialization_info_13;
+	SerializationInfo_t2936 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t929_StaticFields{
+struct Dictionary_2_t944_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::<>f__am$cacheB
-	Transform_1_t5875 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t5904 * ___U3CU3Ef__amU24cacheB_15;
 };

@@ -3,6 +3,6 @@
 // UnityEngine.AsyncOperation
 #include "UnityEngine_UnityEngine_AsyncOperation.h"
 // UnityEngine.AssetBundleCreateRequest
-struct  AssetBundleCreateRequest_t2682  : public AsyncOperation_t2683
+struct  AssetBundleCreateRequest_t2698  : public AsyncOperation_t2699
 {
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Networking.Match.MatchDirectConnectInfo[]
-struct MatchDirectConnectInfoU5BU5D_t8466;
+// UnityEngine.UICharInfo[]
+struct UICharInfoU5BU5D_t2926;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>
+// System.Collections.Generic.List`1<UnityEngine.UICharInfo>
 struct  List_1_t2806  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>::_items
-	MatchDirectConnectInfoU5BU5D_t8466* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UICharInfo>::_items
+	UICharInfoU5BU5D_t2926* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UICharInfo>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UICharInfo>::_version
 	int32_t ____version_3;
 };
 struct List_1_t2806_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDirectConnectInfo>::EmptyArray
-	MatchDirectConnectInfoU5BU5D_t8466* ___EmptyArray_4;
+	// T[] System.Collections.Generic.List`1<UnityEngine.UICharInfo>::EmptyArray
+	UICharInfoU5BU5D_t2926* ___EmptyArray_4;
 };

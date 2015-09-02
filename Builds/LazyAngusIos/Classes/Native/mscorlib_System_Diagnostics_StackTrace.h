@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Diagnostics.StackFrame[]
-struct StackFrameU5BU5D_t4463;
+struct StackFrameU5BU5D_t4479;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Diagnostics.StackTrace
-struct  StackTrace_t2919  : public Object_t
+struct  StackTrace_t2935  : public Object_t
 {
 	// System.Diagnostics.StackFrame[] System.Diagnostics.StackTrace::frames
-	StackFrameU5BU5D_t4463* ___frames_1;
+	StackFrameU5BU5D_t4479* ___frames_1;
 	// System.Boolean System.Diagnostics.StackTrace::debug_info
 	bool ___debug_info_2;
 };

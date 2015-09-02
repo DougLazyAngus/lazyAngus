@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Runtime.InteropServices.ExternalException
-struct  ExternalException_t3974  : public SystemException_t3231
+struct  ExternalException_t3990  : public SystemException_t3247
 {
 };

@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.CryptographicException
-struct CryptographicException_t3917;
+struct CryptographicException_t3933;
 // System.String
 struct String_t;
 // System.Exception
 struct Exception_t57;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2920;
+struct SerializationInfo_t2936;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Security.Cryptography.CryptographicException::.ctor()
-extern "C" void CryptographicException__ctor_m18608 (CryptographicException_t3917 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CryptographicException__ctor_m18737 (CryptographicException_t3933 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.CryptographicException::.ctor(System.String)
-extern "C" void CryptographicException__ctor_m13164 (CryptographicException_t3917 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CryptographicException__ctor_m13293 (CryptographicException_t3933 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.CryptographicException::.ctor(System.String,System.Exception)
-extern "C" void CryptographicException__ctor_m13184 (CryptographicException_t3917 * __this, String_t* ___message, Exception_t57 * ___inner, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CryptographicException__ctor_m13313 (CryptographicException_t3933 * __this, String_t* ___message, Exception_t57 * ___inner, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.CryptographicException::.ctor(System.String,System.String)
-extern "C" void CryptographicException__ctor_m18609 (CryptographicException_t3917 * __this, String_t* ___format, String_t* ___insert, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CryptographicException__ctor_m18738 (CryptographicException_t3933 * __this, String_t* ___format, String_t* ___insert, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.CryptographicException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void CryptographicException__ctor_m18610 (CryptographicException_t3917 * __this, SerializationInfo_t2920 * ___info, StreamingContext_t2921  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CryptographicException__ctor_m18739 (CryptographicException_t3933 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

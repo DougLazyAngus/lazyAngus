@@ -4,12 +4,12 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Predicate`1<UnityEngine.CanvasGroup>
-struct Predicate_1_t5905;
+// System.Predicate`1<UnityEngine.UI.Graphic>
+struct Predicate_1_t5900;
 // System.Object
 struct Object_t;
-// UnityEngine.CanvasGroup
-struct CanvasGroup_t1066;
+// UnityEngine.UI.Graphic
+struct Graphic_t938;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -17,13 +17,13 @@ struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Predicate`1<UnityEngine.CanvasGroup>::.ctor(System.Object,System.IntPtr)
+// System.Void System.Predicate`1<UnityEngine.UI.Graphic>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m30060(__this, ___object, ___method, method) (( void (*) (Predicate_1_t5905 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21742_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<UnityEngine.CanvasGroup>::Invoke(T)
-#define Predicate_1_Invoke_m30061(__this, ___obj, method) (( bool (*) (Predicate_1_t5905 *, CanvasGroup_t1066 *, const MethodInfo*))Predicate_1_Invoke_m21743_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<UnityEngine.CanvasGroup>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m30062(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t5905 *, CanvasGroup_t1066 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21744_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<UnityEngine.CanvasGroup>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m30063(__this, ___result, method) (( bool (*) (Predicate_1_t5905 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21745_gshared)(__this, ___result, method)
+#define Predicate_1__ctor_m29879(__this, ___object, ___method, method) (( void (*) (Predicate_1_t5900 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21871_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<UnityEngine.UI.Graphic>::Invoke(T)
+#define Predicate_1_Invoke_m29880(__this, ___obj, method) (( bool (*) (Predicate_1_t5900 *, Graphic_t938 *, const MethodInfo*))Predicate_1_Invoke_m21872_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<UnityEngine.UI.Graphic>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Predicate_1_BeginInvoke_m29881(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t5900 *, Graphic_t938 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21873_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<UnityEngine.UI.Graphic>::EndInvoke(System.IAsyncResult)
+#define Predicate_1_EndInvoke_m29882(__this, ___result, method) (( bool (*) (Predicate_1_t5900 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21874_gshared)(__this, ___result, method)

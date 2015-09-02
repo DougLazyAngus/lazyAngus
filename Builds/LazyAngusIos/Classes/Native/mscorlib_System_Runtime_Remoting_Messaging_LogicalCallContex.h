@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable
-struct Hashtable_t697;
+struct Hashtable_t710;
 // System.Runtime.Remoting.Messaging.CallContextRemotingData
-struct CallContextRemotingData_t4613;
+struct CallContextRemotingData_t4629;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Messaging.LogicalCallContext
-struct  LogicalCallContext_t4614  : public Object_t
+struct  LogicalCallContext_t4630  : public Object_t
 {
 	// System.Collections.Hashtable System.Runtime.Remoting.Messaging.LogicalCallContext::_data
-	Hashtable_t697 * ____data_0;
+	Hashtable_t710 * ____data_0;
 	// System.Runtime.Remoting.Messaging.CallContextRemotingData System.Runtime.Remoting.Messaging.LogicalCallContext::_remotingData
-	CallContextRemotingData_t4613 * ____remotingData_1;
+	CallContextRemotingData_t4629 * ____remotingData_1;
 };

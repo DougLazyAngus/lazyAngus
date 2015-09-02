@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t3883;
+struct X509Certificate_t3899;
 // System.Object
 struct Object_t;
 // System.String
 struct String_t;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection
-struct X509CertificateCollection_t3882;
+struct X509CertificateCollection_t3898;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.IAsyncResult
@@ -17,6 +17,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Net.Security.LocalCertificateSelectionCallback
-struct  LocalCertificateSelectionCallback_t3987  : public MulticastDelegate_t388
+struct  LocalCertificateSelectionCallback_t4003  : public MulticastDelegate_t388
 {
 };
