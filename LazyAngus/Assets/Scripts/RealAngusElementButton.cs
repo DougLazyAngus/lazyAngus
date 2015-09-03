@@ -8,7 +8,7 @@ public class RealAngusElementButton : MonoBehaviour
 	public Image photoImage;
 	public Image frameImage;
 	public Image shadowImage;
-	public Image lockImage;
+	public GameObject lockWidgetGameObject;
 	public float pauseBeforePulsing = 0.5f;
 	public RealAngusItemDesc raid { get; private set; }
 
@@ -97,9 +97,9 @@ public class RealAngusElementButton : MonoBehaviour
 	void UpdateState ()
 	{
 		if (raid.unlocked) {
-			lockImage.gameObject.SetActive (false);
+			lockWidgetGameObject.SetActive (false);
 		} else {
-			lockImage.gameObject.SetActive (true);
+			lockWidgetGameObject.SetActive (true);
 		}
 	}
 
@@ -125,15 +125,29 @@ public class RealAngusElementButton : MonoBehaviour
 	public void SetSelected (bool selected, 
 	                         bool skipTransition=false)
 	{
-		if (selected != this.selected) {
-			this.selected = selected;
-			if (skipTransition) {
-				startTransitionTime = 0;
-				UpdateSelectionState();
-			} else {
-				startTransitionTime = Time.time;
-				transitioning = true;
-			}
+		if (selected == this.selected) {
+			return;
+		}
+
+		this.selected = selected;
+		if (skipTransition) {
+			startTransitionTime = 0;
+			UpdateSelectionState();
+		} else {
+			SetStartTransitionTime();
+			transitioning = true;
+		}
+	}
+
+	void SetStartTransitionTime() {
+		// If already transitioning, we just want to go back through as much 
+		// time as was just used.
+		if (transitioning) {
+			float timeAlreadySpent = Time.time - startTransitionTime;
+			float timeRemaining = TweakableParams.realAngusSelectionMoveTime - timeAlreadySpent;
+			startTransitionTime = Time.time - timeRemaining;
+		} else {
+			startTransitionTime = Time.time;
 		}
 	}
 

@@ -17,13 +17,12 @@ public class RealAngusTextWidget : MonoBehaviour {
 
 	void Awake() {
 		rectTransform = GetComponent<RectTransform> ();
+		onscreen = false;
+		transitioning = false;	
 	}
 
 	// Use this for initialization
 	void Start () {
-		onscreen = false;
-		transitioning = false;
-	
 	}
 	
 	// Update is called once per frame
@@ -55,15 +54,35 @@ public class RealAngusTextWidget : MonoBehaviour {
 	}
 	
 	public void TransitionIn(RealAngusItemDesc raid) {
+		if (onscreen) {
+			return;
+		}
+
+
 		onscreen = true;
+		SetStartTransitionTime ();
 		transitioning = true;
-		startTransitionTime = Time.time;
 		mainText.text = raid.text;
 	}
 
 	public void TransitionOut() {
+		if (!onscreen) {
+			return;
+		}
 		onscreen = false;
+		SetStartTransitionTime ();
 		transitioning = true;
-		startTransitionTime = Time.time;
+	}
+
+	void SetStartTransitionTime() {
+		// If already transitioning, we just want to go back through as much 
+		// time as was just used.
+		if (transitioning) {
+			float timeAlreadySpent = Time.time - startTransitionTime;
+			float timeRemaining = TweakableParams.realAngusSelectionMoveTime - timeAlreadySpent;
+			startTransitionTime = Time.time - timeRemaining;
+		} else {
+			startTransitionTime = Time.time;
+		}
 	}
 }
